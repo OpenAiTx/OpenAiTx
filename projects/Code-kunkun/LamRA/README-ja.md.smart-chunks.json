@@ -1,0 +1,1204 @@
+[
+  {
+    "Id": 1,
+    "Content": "# LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant\n\nThis repository is the official implementation of LamRA.\n\n[🏡 Project Page](https://code-kunkun.github.io/LamRA/) |  [📄 Paper](https://arxiv.org/pdf/2412.01720) | [🤗 LamRA-Ret-Pretrained](https://huggingface.co/code-kunkun/LamRA-Ret-Pretrained) | [🤗 LamRA-Ret](https://huggingface.co/code-kunkun/LamRA-Ret) | [🤗 LamRA-Rank](https://huggingface.co/code-kunkun/LamRA-Rank) | [🤗 Dataset](https://huggingface.co/datasets/code-kunkun/LamRA_Eval)\n\n## Installation\n",
+    "ContentSha": "OI+8AYshScpUChUxsdfJOr/fD7PPeNUQYpT705W7huA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# LamRA: 高度な検索アシスタントとしての大規模マルチモーダルモデル\n\nこのリポジトリはLamRAの公式実装です。\n\n[🏡 プロジェクトページ](https://code-kunkun.github.io/LamRA/) |  [📄 論文](https://arxiv.org/pdf/2412.01720) | [🤗 LamRA-Ret-Pretrained](https://huggingface.co/code-kunkun/LamRA-Ret-Pretrained) | [🤗 LamRA-Ret](https://huggingface.co/code-kunkun/LamRA-Ret) | [🤗 LamRA-Rank](https://huggingface.co/code-kunkun/LamRA-Rank) | [🤗 データセット](https://huggingface.co/datasets/code-kunkun/LamRA_Eval)\n\n## インストール\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ocl7AKI1FoJWXIFwripTm1IDYVlgSxkPbyOSidF3yug=",
+        "originContent": "# LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant",
+        "translatedContent": "# LamRA: 高度な検索アシスタントとしての大規模マルチモーダルモデル"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ar6yI9g4ZnuYr6METQ6F4xWKgIjKevnaS1A0xziPKoo=",
+        "originContent": "This repository is the official implementation of LamRA.",
+        "translatedContent": "このリポジトリはLamRAの公式実装です。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "odY2p45shK8zPk7n1L/v9OiaLu8wTl2wyQTNF8FNWl8=",
+        "originContent": "[🏡 Project Page](https://code-kunkun.github.io/LamRA/) |  [📄 Paper](https://arxiv.org/pdf/2412.01720) | [🤗 LamRA-Ret-Pretrained](https://huggingface.co/code-kunkun/LamRA-Ret-Pretrained) | [🤗 LamRA-Ret](https://huggingface.co/code-kunkun/LamRA-Ret) | [🤗 LamRA-Rank](https://huggingface.co/code-kunkun/LamRA-Rank) | [🤗 Dataset](https://huggingface.co/datasets/code-kunkun/LamRA_Eval)",
+        "translatedContent": "[🏡 プロジェクトページ](https://code-kunkun.github.io/LamRA/) |  [📄 論文](https://arxiv.org/pdf/2412.01720) | [🤗 LamRA-Ret-Pretrained](https://huggingface.co/code-kunkun/LamRA-Ret-Pretrained) | [🤗 LamRA-Ret](https://huggingface.co/code-kunkun/LamRA-Ret) | [🤗 LamRA-Rank](https://huggingface.co/code-kunkun/LamRA-Rank) | [🤗 データセット](https://huggingface.co/datasets/code-kunkun/LamRA_Eval)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash \nconda create -n lamra python=3.10 -y\nconda activate lamra \n\npip install --upgrade pip  # enable PEP 660 support \npip install -r requirements.txt\n\npip install ninja\npip install flash-attn --no-build-isolation\n```",
+    "ContentSha": "lYm6NWB/LRTui9e3RhX40TBonajs3UBFGAexVN13nNk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash \nconda create -n lamra python=3.10 -y\nconda activate lamra \n\npip install --upgrade pip  # enable PEP 660 support \npip install -r requirements.txt\n\npip install ninja\npip install flash-attn --no-build-isolation\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CA0j5T0YEfdUEK3f4+QwHqd+ymU1KYfnVKltmEAicA4=",
+        "originContent": "```bash ",
+        "translatedContent": "```bash "
+      },
+      {
+        "row": 2,
+        "rowsha": "W9CfN10/pXXPaln/bgad+3TZyE8K3VulXJnxRM9dNgc=",
+        "originContent": "conda create -n lamra python=3.10 -y",
+        "translatedContent": "conda create -n lamra python=3.10 -y"
+      },
+      {
+        "row": 3,
+        "rowsha": "zeeF5YTS/ox1dwz0IN/4Ra9Eg/2ihPCvo6heMByoNnk=",
+        "originContent": "conda activate lamra ",
+        "translatedContent": "conda activate lamra "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "PFYq2WYOc55VsY4RFQxQQ+KglatiKuRncDAqkoAS/a4=",
+        "originContent": "pip install --upgrade pip  # enable PEP 660 support ",
+        "translatedContent": "pip install --upgrade pip  # enable PEP 660 support "
+      },
+      {
+        "row": 6,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "a1lPmvkK5Xv0vBO4PT/M5wCcm8oZ6tI9H0IWDiWEFxU=",
+        "originContent": "pip install ninja",
+        "translatedContent": "pip install ninja"
+      },
+      {
+        "row": 9,
+        "rowsha": "XUy+Rsnrdygsnp+qxpwAV8gWF2O92l0+ExXhvmi5Epw=",
+        "originContent": "pip install flash-attn --no-build-isolation",
+        "translatedContent": "pip install flash-attn --no-build-isolation"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## New Version\nWe have updated the version of Qwen2.5-VL in the `qwen2.5vl` branch.\n\n## Quickstart\nPlease refer to the `demo.py`\n\n## Data Preparation \n\nDownload Qwen2-VL-7B and place it in `./checkpoints/hf_models/Qwen2-VL-7B-Instruct`\n\nFor pre-training dataset, please refer to [link](https://huggingface.co/datasets/princeton-nlp/datasets-for-simcse)\n\nFor multimodal instruction tuning datset, please refer to [M-BEIR](https://huggingface.co/datasets/TIGER-Lab/M-BEIR)\n\nFor evaluation data related to the LamRA, please refer to [LamRA_Eval](https://huggingface.co/datasets/code-kunkun/LamRA_Eval)\n\nAfter downloading all of them, organize the data as follows in `./data`",
+    "ContentSha": "F+6b+c7kpa2mODj5ipgPRCLmYTx0eOZbIx3dHVMcOi4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 新バージョン\n`qwen2.5vl` ブランチで Qwen2.5-VL のバージョンを更新しました。\n\n## クイックスタート\n`demo.py` を参照してください。\n\n## データ準備 \n\nQwen2-VL-7B をダウンロードし、`./checkpoints/hf_models/Qwen2-VL-7B-Instruct` に配置してください。\n\n事前学習用データセットについては、[こちら](https://huggingface.co/datasets/princeton-nlp/datasets-for-simcse) を参照してください。\n\nマルチモーダル指示調整用データセットについては、[M-BEIR](https://huggingface.co/datasets/TIGER-Lab/M-BEIR) を参照してください。\n\nLamRA 関連の評価データについては、[LamRA_Eval](https://huggingface.co/datasets/code-kunkun/LamRA_Eval) を参照してください。\n\nすべてダウンロード後、`./data` に以下のようにデータを整理してください。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y5M9xiCkBVi4onUDb60fnXViZOAGJK3RC2m+ZnPKEJw=",
+        "originContent": "## New Version",
+        "translatedContent": "## 新バージョン"
+      },
+      {
+        "row": 3,
+        "rowsha": "g3k7pZaS1HVWRYEX9cD48Hi10NV6iM2n/uNis5v3IJM=",
+        "originContent": "We have updated the version of Qwen2.5-VL in the `qwen2.5vl` branch.",
+        "translatedContent": "`qwen2.5vl` ブランチで Qwen2.5-VL のバージョンを更新しました。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "669wyUjie7v+j/aS3COPBDwvFiQ8FK2vMv9hGy+oUHE=",
+        "originContent": "## Quickstart",
+        "translatedContent": "## クイックスタート"
+      },
+      {
+        "row": 6,
+        "rowsha": "4tORlykXwPwcvwJyT9pRZoVuvgOK/Iym+nBU7NVae7c=",
+        "originContent": "Please refer to the `demo.py`",
+        "translatedContent": "`demo.py` を参照してください。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "IzBAeNTVhkfakNLmvkJa653tbY1k0bbQnI5jh9nRJl0=",
+        "originContent": "## Data Preparation ",
+        "translatedContent": "## データ準備 "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "XIbrWvoqIahxRu9We1cXUEfJdqhq/4IuQXkehGFZwb4=",
+        "originContent": "Download Qwen2-VL-7B and place it in `./checkpoints/hf_models/Qwen2-VL-7B-Instruct`",
+        "translatedContent": "Qwen2-VL-7B をダウンロードし、`./checkpoints/hf_models/Qwen2-VL-7B-Instruct` に配置してください。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "f+6E/6W1lLlBKOJ4VWJOlPO3PCTxf71wq+4p8wsCZb4=",
+        "originContent": "For pre-training dataset, please refer to [link](https://huggingface.co/datasets/princeton-nlp/datasets-for-simcse)",
+        "translatedContent": "事前学習用データセットについては、[こちら](https://huggingface.co/datasets/princeton-nlp/datasets-for-simcse) を参照してください。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "7Pddlnz7rx9HZjAt6z9iQx7yXpxh0amdMwast5IMSZ8=",
+        "originContent": "For multimodal instruction tuning datset, please refer to [M-BEIR](https://huggingface.co/datasets/TIGER-Lab/M-BEIR)",
+        "translatedContent": "マルチモーダル指示調整用データセットについては、[M-BEIR](https://huggingface.co/datasets/TIGER-Lab/M-BEIR) を参照してください。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Rkwe5/G7G2M34epBBpIBMbpezale07yME725ou727C8=",
+        "originContent": "For evaluation data related to the LamRA, please refer to [LamRA_Eval](https://huggingface.co/datasets/code-kunkun/LamRA_Eval)",
+        "translatedContent": "LamRA 関連の評価データについては、[LamRA_Eval](https://huggingface.co/datasets/code-kunkun/LamRA_Eval) を参照してください。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "RXE1Fr+M9PrdRG88AoWLl8PQ8jiWkxGH1vHInl/05bM=",
+        "originContent": "After downloading all of them, organize the data as follows in `./data`",
+        "translatedContent": "すべてダウンロード後、`./data` に以下のようにデータを整理してください。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\n├── M-BEIR\n├── nli_for_simcse.csv\n├── rerank_data_for_training\n├── flickr\n├── coco\n├── sharegpt4v\n├── Urban1K\n├── circo\n├── genecis\n├── vist\n├── visdial\n├── ccneg\n├── sugar-crepe\n├── MSVD\n└── msrvtt\n```",
+    "ContentSha": "jMiJwi1vOzUsOUb4TQ/eQNtLADwMaHFmDdxlb7TJw4w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n├── M-BEIR\n├── nli_for_simcse.csv\n├── rerank_data_for_training\n├── flickr\n├── coco\n├── sharegpt4v\n├── Urban1K\n├── circo\n├── genecis\n├── vist\n├── visdial\n├── ccneg\n├── sugar-crepe\n├── MSVD\n└── msrvtt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "BQDyeQPwHUrQ8qK20oX00G2v4evIQEXfiR8idnVpZFg=",
+        "originContent": "├── M-BEIR",
+        "translatedContent": "├── M-BEIR"
+      },
+      {
+        "row": 3,
+        "rowsha": "zyPEOynuTZalhPok4EinNImplzjOhX0WHAIvfPGgxLE=",
+        "originContent": "├── nli_for_simcse.csv",
+        "translatedContent": "├── nli_for_simcse.csv"
+      },
+      {
+        "row": 4,
+        "rowsha": "lLTbDBwF5cr3AhHAdjz+6/wsFpgw/fmh9iQzuJ7hZfE=",
+        "originContent": "├── rerank_data_for_training",
+        "translatedContent": "├── rerank_data_for_training"
+      },
+      {
+        "row": 5,
+        "rowsha": "1D9zWZ96Pdr2JAxI1sBFrATUYmIYbZiaLILrm4KP0/I=",
+        "originContent": "├── flickr",
+        "translatedContent": "├── flickr"
+      },
+      {
+        "row": 6,
+        "rowsha": "tZ/cmBV9gtHAU6u9LglDYNzKDOZnpCsa3aj/yziL+5g=",
+        "originContent": "├── coco",
+        "translatedContent": "├── coco"
+      },
+      {
+        "row": 7,
+        "rowsha": "72cN9XPSE+eoQ9u2Cf35h26iYDCBcMRzXuEHkcmsQLA=",
+        "originContent": "├── sharegpt4v",
+        "translatedContent": "├── sharegpt4v"
+      },
+      {
+        "row": 8,
+        "rowsha": "8zV5mDqg/p3GfY/HDMA7Hqy1JzZ6OVrwvsrQJE9PdcE=",
+        "originContent": "├── Urban1K",
+        "translatedContent": "├── Urban1K"
+      },
+      {
+        "row": 9,
+        "rowsha": "wMSkaXpsRj6WEHoYpdmh7LctWAbVYb9fNnOro480NqA=",
+        "originContent": "├── circo",
+        "translatedContent": "├── circo"
+      },
+      {
+        "row": 10,
+        "rowsha": "2kdn8NH2RFqo5Br9EqpPlxgSqJrGZ8i50Gjc2s3xNV4=",
+        "originContent": "├── genecis",
+        "translatedContent": "├── genecis"
+      },
+      {
+        "row": 11,
+        "rowsha": "oW9roPEOfsjrRC/deuWnnEFjOhpoJoXjlOEW9aiDJBY=",
+        "originContent": "├── vist",
+        "translatedContent": "├── vist"
+      },
+      {
+        "row": 12,
+        "rowsha": "D5G/YjlFRN7ynTB5WGb/Jhkx/ygGC7F8c4THCYg8qZg=",
+        "originContent": "├── visdial",
+        "translatedContent": "├── visdial"
+      },
+      {
+        "row": 13,
+        "rowsha": "FYSCTvLdzlVf/M4gNwdWpBYN0GOXu3/uaPwogJZAPgw=",
+        "originContent": "├── ccneg",
+        "translatedContent": "├── ccneg"
+      },
+      {
+        "row": 14,
+        "rowsha": "+owgC5+wQxCC6DCLkHeDIGQBZOlrFjZE2mkrzIcNHis=",
+        "originContent": "├── sugar-crepe",
+        "translatedContent": "├── sugar-crepe"
+      },
+      {
+        "row": 15,
+        "rowsha": "ENtNd1hALriT7v2UD5AOc/wfbplLDGnjIYd35ZLVHII=",
+        "originContent": "├── MSVD",
+        "translatedContent": "├── MSVD"
+      },
+      {
+        "row": 16,
+        "rowsha": "OntyDRmKKUcFrWyK72tciu9I+5Wr1SnlKD0Y/Xf3mTg=",
+        "originContent": "└── msrvtt",
+        "translatedContent": "└── msrvtt"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Training & Evaluation for LamRA-Ret\n\n### Pre-training\n",
+    "ContentSha": "MJaTfOJ45YA0vELqjHDN6/KUUk1QIqy/zX2nq/39Ldc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## LamRA-Retのトレーニングと評価\n\n### 事前学習\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "+rp9tqQ/fDgYRj/xJRZBCe0mRipoBqER3BH3SCkfA/M=",
+        "originContent": "## Training & Evaluation for LamRA-Ret",
+        "translatedContent": "## LamRA-Retのトレーニングと評価"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "N9qfEbMYlxB4WD/giWOaRHx9Miu9zU7Va1mseeTb8uY=",
+        "originContent": "### Pre-training",
+        "translatedContent": "### 事前学習"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash \nsh scripts/lamra_ret/pretrain.sh\n```",
+    "ContentSha": "LlM87q5KImLUY/QE42JI9Se5ZXRzH6q8WkjL9I833pw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash \nsh scripts/lamra_ret/pretrain.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CA0j5T0YEfdUEK3f4+QwHqd+ymU1KYfnVKltmEAicA4=",
+        "originContent": "```bash ",
+        "translatedContent": "```bash "
+      },
+      {
+        "row": 2,
+        "rowsha": "dzIC1VEdiFcpkrIZGiA6MHLuXWq56nSDCW2nvlIlwos=",
+        "originContent": "sh scripts/lamra_ret/pretrain.sh",
+        "translatedContent": "sh scripts/lamra_ret/pretrain.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash \n# Evaluation \nsh scripts/eval/eval_pretrained.sh\n```",
+    "ContentSha": "wY9jJOX1bLiWqI37GLEQZVH6WF2qz5kdvgPy2uzMPzw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash \n# Evaluation \nsh scripts/eval/eval_pretrained.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CA0j5T0YEfdUEK3f4+QwHqd+ymU1KYfnVKltmEAicA4=",
+        "originContent": "```bash ",
+        "translatedContent": "```bash "
+      },
+      {
+        "row": 2,
+        "rowsha": "6xrYXpKZ1YWsmeCcVPBFcz5A147HBuycIAnWkkLd22c=",
+        "originContent": "# Evaluation ",
+        "translatedContent": "# Evaluation "
+      },
+      {
+        "row": 3,
+        "rowsha": "Mx9yEfOQ4M77oKwvwIkni49dWk0eNpc2mv6NFBAGxQk=",
+        "originContent": "sh scripts/eval/eval_pretrained.sh",
+        "translatedContent": "sh scripts/eval/eval_pretrained.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash \n# Merge LoRA for multimodal instruction tuning stage\nsh scripts/merge_lora.sh \n```",
+    "ContentSha": "iX9xSd2yFf6UnItvk/9Sy/sqGAYlfL/C8iK8eZQxJdc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash \n# Merge LoRA for multimodal instruction tuning stage\nsh scripts/merge_lora.sh \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CA0j5T0YEfdUEK3f4+QwHqd+ymU1KYfnVKltmEAicA4=",
+        "originContent": "```bash ",
+        "translatedContent": "```bash "
+      },
+      {
+        "row": 2,
+        "rowsha": "j0mw1nDwoXhVLmecMdE4wPfPDzfREUoliPI+Qn0QjCw=",
+        "originContent": "# Merge LoRA for multimodal instruction tuning stage",
+        "translatedContent": "# Merge LoRA for multimodal instruction tuning stage"
+      },
+      {
+        "row": 3,
+        "rowsha": "IM4xsnLpAPiH9Temf/1wOFRrg5cis+n3wZgIW/Ax8sI=",
+        "originContent": "sh scripts/merge_lora.sh ",
+        "translatedContent": "sh scripts/merge_lora.sh "
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n###  Multimodal instruction tuning\n",
+    "ContentSha": "jdn16SXFOKM3TFJldQdEpXK5Lp5YU4QQKyElzePvNxg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### マルチモーダル指示調整\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "etwsimAQrk+8uOv+615X3owz7uCD2ftuNWbDZxUAxpk=",
+        "originContent": "###  Multimodal instruction tuning",
+        "translatedContent": "### マルチモーダル指示調整"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\nsh scripts/lamra_ret/finetune.sh\n```",
+    "ContentSha": "V2X+U1Nilm+Y3zWN9NctnhXtM8fAFr2SMeatGiKVz7M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nsh scripts/lamra_ret/finetune.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "fXIGDheoAGSiX/Y9pff44kN1Cdoiakg/6aFHsPHjErU=",
+        "originContent": "sh scripts/lamra_ret/finetune.sh",
+        "translatedContent": "sh scripts/lamra_ret/finetune.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash \n# Evaluation \nsh scripts/eval/eval_mbeir.sh   # eval under local pool setting\n\nsh scripts/eval/eval_mbeir_global.sh   # eval under global pool setting\n```",
+    "ContentSha": "gsoY+U4WQdfcoT5tKUSwHfd66gT6XDn4qdXqaDlfYZw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash \n# Evaluation \nsh scripts/eval/eval_mbeir.sh   # eval under local pool setting\n\nsh scripts/eval/eval_mbeir_global.sh   # eval under global pool setting\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CA0j5T0YEfdUEK3f4+QwHqd+ymU1KYfnVKltmEAicA4=",
+        "originContent": "```bash ",
+        "translatedContent": "```bash "
+      },
+      {
+        "row": 2,
+        "rowsha": "6xrYXpKZ1YWsmeCcVPBFcz5A147HBuycIAnWkkLd22c=",
+        "originContent": "# Evaluation ",
+        "translatedContent": "# Evaluation "
+      },
+      {
+        "row": 3,
+        "rowsha": "vSOyzB439GvWlcS55gULHEWgWTRRvIuc42gBmg2iHvY=",
+        "originContent": "sh scripts/eval/eval_mbeir.sh   # eval under local pool setting",
+        "translatedContent": "sh scripts/eval/eval_mbeir.sh   # eval under local pool setting"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "dN+xaeBDWjtlyG1zyf0yS5kPpfwXLUjjysq5+u4hnLA=",
+        "originContent": "sh scripts/eval/eval_mbeir_global.sh   # eval under global pool setting",
+        "translatedContent": "sh scripts/eval/eval_mbeir_global.sh   # eval under global pool setting"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## Training & Evaluation for LamRA-Rank\n\nYou can use the [data](https://huggingface.co/datasets/code-kunkun/LamRA_Eval/tree/main/rerank_data_for_training) we provide or run the following command to get the data for reranking training.\n",
+    "ContentSha": "pvCh057AJG53CApITX1RQ1HKZtEQwuR8Mgvsxp2TQCk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## LamRA-Rank のトレーニングと評価\n\n提供している[data](https://huggingface.co/datasets/code-kunkun/LamRA_Eval/tree/main/rerank_data_for_training)を使用するか、以下のコマンドを実行してリランキングトレーニング用のデータを取得できます。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wNq9imGbcxBujQ2EavOU5i9dHcgsCs09hiuSocQvysY=",
+        "originContent": "## Training & Evaluation for LamRA-Rank",
+        "translatedContent": "## LamRA-Rank のトレーニングと評価"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "FXXCsRXpobIflAM/FflTbfBACkkdKw2ddo+Kt9JOjU0=",
+        "originContent": "You can use the [data](https://huggingface.co/datasets/code-kunkun/LamRA_Eval/tree/main/rerank_data_for_training) we provide or run the following command to get the data for reranking training.",
+        "translatedContent": "提供している[data](https://huggingface.co/datasets/code-kunkun/LamRA_Eval/tree/main/rerank_data_for_training)を使用するか、以下のコマンドを実行してリランキングトレーニング用のデータを取得できます。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\n# Collecting data for reranking training\nsh scripts/lamra_rank/get_train_data.sh\n\nsh scripts/lamra_rank/merge_train_data.sh\n```",
+    "ContentSha": "Y730fmdzrqsV23h7FUZU/fk0KaznUmvuWtYv0/pL3dM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Collecting data for reranking training\nsh scripts/lamra_rank/get_train_data.sh\n\nsh scripts/lamra_rank/merge_train_data.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "QCyHD5SY6w4iMcQW48d7EQnt8AFX/DCCcGKM6q5Ga1s=",
+        "originContent": "# Collecting data for reranking training",
+        "translatedContent": "# Collecting data for reranking training"
+      },
+      {
+        "row": 3,
+        "rowsha": "dJBsMlLWmPy2IJyioJFIlguu4BeIFSQo8nyKKZOB/zs=",
+        "originContent": "sh scripts/lamra_rank/get_train_data.sh",
+        "translatedContent": "sh scripts/lamra_rank/get_train_data.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "b6hpww0QTd/+8Fyl+OH9BIfESe1HNWo0b1SF6ugDXS0=",
+        "originContent": "sh scripts/lamra_rank/merge_train_data.sh",
+        "translatedContent": "sh scripts/lamra_rank/merge_train_data.sh"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bash\n# training for reranking\nsh scripts/lamra_rank/train_rerank.sh\n```",
+    "ContentSha": "k5yNDlCKEfL6iwHRQEm1SrDJEVy9lhEesewwU6r48yE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# training for reranking\nsh scripts/lamra_rank/train_rerank.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "0o2esv/r1QzN5Sg+B/WEYsQZmDksnKdth1hesk5sy1U=",
+        "originContent": "# training for reranking",
+        "translatedContent": "# training for reranking"
+      },
+      {
+        "row": 3,
+        "rowsha": "OqTk4SrjKp0gvbe7nUgQ/6vPP9IGn20uYdgSFhw3liA=",
+        "originContent": "sh scripts/lamra_rank/train_rerank.sh",
+        "translatedContent": "sh scripts/lamra_rank/train_rerank.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```bash \n# pointwise reranking\nsh scripts/eval/eval_rerank_mbeir_pointwise.sh\n\n# listwise reranking\nsh scripts/eval/eval_rerank_mbeir_listwise.sh\n```",
+    "ContentSha": "V9+i/e9SmfG51ft7gVq0ikf0JvmbuA01sFDYWadPpV0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash \n# pointwise reranking\nsh scripts/eval/eval_rerank_mbeir_pointwise.sh\n\n# listwise reranking\nsh scripts/eval/eval_rerank_mbeir_listwise.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CA0j5T0YEfdUEK3f4+QwHqd+ymU1KYfnVKltmEAicA4=",
+        "originContent": "```bash ",
+        "translatedContent": "```bash "
+      },
+      {
+        "row": 2,
+        "rowsha": "TQ6zeLrPGSEnujBbqobS+qG99i9ahX4S1mU9fjN0SX4=",
+        "originContent": "# pointwise reranking",
+        "translatedContent": "# pointwise reranking"
+      },
+      {
+        "row": 3,
+        "rowsha": "zs8Mx4tAIdHnpJD2tZTmNCPyxaTcBO31I9imyPg2c0o=",
+        "originContent": "sh scripts/eval/eval_rerank_mbeir_pointwise.sh",
+        "translatedContent": "sh scripts/eval/eval_rerank_mbeir_pointwise.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "J1MWBSfHGBB9UAvCQNJisgsr721d/XHU5EBf+74YNuo=",
+        "originContent": "# listwise reranking",
+        "translatedContent": "# listwise reranking"
+      },
+      {
+        "row": 6,
+        "rowsha": "tzraSdCyOmuiwtgIwmcmWjLxQEBOarElJ0xlL6JJk+U=",
+        "originContent": "sh scripts/eval/eval_rerank_mbeir_listwise.sh",
+        "translatedContent": "sh scripts/eval/eval_rerank_mbeir_listwise.sh"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```bash\n# Get the reranking results on M-BEIR\nsh scirpts/eval/get_rerank_results_mbeir.sh\n```",
+    "ContentSha": "2fJKJYxdB19cPslu++ci/r6Y2oz7+tLN9Uwz5PR+8cg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Get the reranking results on M-BEIR\nsh scirpts/eval/get_rerank_results_mbeir.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "o3iUydUNFILGLRJkWJzQbOCoGQNPyL2bE1kwy2vAUWI=",
+        "originContent": "# Get the reranking results on M-BEIR",
+        "translatedContent": "# Get the reranking results on M-BEIR"
+      },
+      {
+        "row": 3,
+        "rowsha": "FHYZYtkWpx9kf9zxp6BdmffIk7/VHc4tkcJEEG8fGjQ=",
+        "originContent": "sh scirpts/eval/get_rerank_results_mbeir.sh",
+        "translatedContent": "sh scirpts/eval/get_rerank_results_mbeir.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n## Evaluation on other benchmarks\n",
+    "ContentSha": "u9UZNExXD72bycjGFc75nnmDJ+/e1OHPkvpZ44FhEDs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 他のベンチマークでの評価\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "SBnsJCZ9ob0HqRdWdhWJYOnim35uYIXB+OlIML2jUuM=",
+        "originContent": "## Evaluation on other benchmarks",
+        "translatedContent": "## 他のベンチマークでの評価"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```bash\n# evaluation results on zeroshot datasets\nsh scirpts/eval/eval_zeroshot.sh\n\n# reranking the results on zeroshot datasets\nsh scripts/eval/eval_rerank_zeroshot.sh\n\n# get the final results\nsh scripts/eval/get_rerank_results_zeroshot.sh\n```",
+    "ContentSha": "z7EKcvXqGkzGRjr+9t9AMfq0pFylT2C7Ii8f1Qc2gxs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# evaluation results on zeroshot datasets\nsh scirpts/eval/eval_zeroshot.sh\n\n# reranking the results on zeroshot datasets\nsh scripts/eval/eval_rerank_zeroshot.sh\n\n# get the final results\nsh scripts/eval/get_rerank_results_zeroshot.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Q0qtfAVGdl/ZOHLydDX7G6u9B6VcufqBR0DZdGkKe/4=",
+        "originContent": "# evaluation results on zeroshot datasets",
+        "translatedContent": "# evaluation results on zeroshot datasets"
+      },
+      {
+        "row": 3,
+        "rowsha": "98C91k4CqAaSfetAJe1QXg90cmQr7zKwqhiyZ0hKbc4=",
+        "originContent": "sh scirpts/eval/eval_zeroshot.sh",
+        "translatedContent": "sh scirpts/eval/eval_zeroshot.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "HrOyTuIX+FnnZCdLcoyRUB2ILbMcSkoB2Dwy85SoZmM=",
+        "originContent": "# reranking the results on zeroshot datasets",
+        "translatedContent": "# reranking the results on zeroshot datasets"
+      },
+      {
+        "row": 6,
+        "rowsha": "cY6Zvrq/i7aFblkcQM6uVTshQgQdM22k7Yekm9Yz/rA=",
+        "originContent": "sh scripts/eval/eval_rerank_zeroshot.sh",
+        "translatedContent": "sh scripts/eval/eval_rerank_zeroshot.sh"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "L0G5eZHfwTZY84YJTyqr4za8e027QdyFocCIPNbPpZI=",
+        "originContent": "# get the final results",
+        "translatedContent": "# get the final results"
+      },
+      {
+        "row": 9,
+        "rowsha": "HSD/pwBtKaiJLaFCS5Hf4ySioCaPNMHyvj6QVbasKnM=",
+        "originContent": "sh scripts/eval/get_rerank_results_zeroshot.sh",
+        "translatedContent": "sh scripts/eval/get_rerank_results_zeroshot.sh"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n\n## 🫡 Acknowledgements\n\nMany thanks to the code bases from [lmms-finetune](https://github.com/zjysteven/lmms-finetune) and [E5-V](https://github.com/kongds/E5-V).\n\n\n## Citation\nIf you use this code for your research or project, please cite:",
+    "ContentSha": "0tIYYRX5cOOKRq+esqXC/ktKTRqG32crYJu88rah/yM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n## 🫡 謝辞\n\n[ lmms-finetune](https://github.com/zjysteven/lmms-finetune) と [E5-V](https://github.com/kongds/E5-V) のコードベースに深く感謝します。\n\n\n## 引用\nこのコードを研究やプロジェクトで使用する場合は、次のように引用してください：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Cgn34KeF1UGMxME5g/9kjjFE8lX1AerKH7ufE93y9IA=",
+        "originContent": "## 🫡 Acknowledgements",
+        "translatedContent": "## 🫡 謝辞"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "860HlB7VjNfLqp1Ec/RrTf5YlHQGbRulz7JyTc7Aba8=",
+        "originContent": "Many thanks to the code bases from [lmms-finetune](https://github.com/zjysteven/lmms-finetune) and [E5-V](https://github.com/kongds/E5-V).",
+        "translatedContent": "[ lmms-finetune](https://github.com/zjysteven/lmms-finetune) と [E5-V](https://github.com/kongds/E5-V) のコードベースに深く感謝します。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## 引用"
+      },
+      {
+        "row": 9,
+        "rowsha": "Y0RkiFOtp9bG1bL4Ej6Y1+k5M1SFeva5fby8gLvktFQ=",
+        "originContent": "If you use this code for your research or project, please cite:",
+        "translatedContent": "このコードを研究やプロジェクトで使用する場合は、次のように引用してください："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```latex\n@inproceedings{liu2025lamra,\n  title={Lamra: Large multimodal model as your advanced retrieval assistant},\n  author={Liu, Yikun and Zhang, Yajie and Cai, Jiayin and Jiang, Xiaolong and Hu, Yao and Yao, Jiangchao and Wang, Yanfeng and Xie, Weidi},\n  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},\n  pages={4015--4025},\n  year={2025}\n}\n```",
+    "ContentSha": "deykGk8voYlSBtKagvxKk3HeZrVB5LGhdXGD68062Qk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```latex\n@inproceedings{liu2025lamra,\n  title={Lamra: Large multimodal model as your advanced retrieval assistant},\n  author={Liu, Yikun and Zhang, Yajie and Cai, Jiayin and Jiang, Xiaolong and Hu, Yao and Yao, Jiangchao and Wang, Yanfeng and Xie, Weidi},\n  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},\n  pages={4015--4025},\n  year={2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ItwDtjQEGlno4koh60PWnXTcHZ458TAGhUjv/7kjdog=",
+        "originContent": "```latex",
+        "translatedContent": "```latex"
+      },
+      {
+        "row": 2,
+        "rowsha": "khS0yOiF0I38sVjMgO9KRRIeNroeTar51VVL+GhNzkw=",
+        "originContent": "@inproceedings{liu2025lamra,",
+        "translatedContent": "@inproceedings{liu2025lamra,"
+      },
+      {
+        "row": 3,
+        "rowsha": "gOsZIne+fsnz8Ca2BMeDRkY9iXdCpBePb07PP3O5L98=",
+        "originContent": "  title={Lamra: Large multimodal model as your advanced retrieval assistant},",
+        "translatedContent": "  title={Lamra: Large multimodal model as your advanced retrieval assistant},"
+      },
+      {
+        "row": 4,
+        "rowsha": "rha4qqx8FbdZynDDU610jYQlgbYeeQbAHaudVE09fXA=",
+        "originContent": "  author={Liu, Yikun and Zhang, Yajie and Cai, Jiayin and Jiang, Xiaolong and Hu, Yao and Yao, Jiangchao and Wang, Yanfeng and Xie, Weidi},",
+        "translatedContent": "  author={Liu, Yikun and Zhang, Yajie and Cai, Jiayin and Jiang, Xiaolong and Hu, Yao and Yao, Jiangchao and Wang, Yanfeng and Xie, Weidi},"
+      },
+      {
+        "row": 5,
+        "rowsha": "Tdu4fB+gVh/DbAO0LazGnLUP/1XmCsy7zHrXOdVvSPs=",
+        "originContent": "  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},",
+        "translatedContent": "  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},"
+      },
+      {
+        "row": 6,
+        "rowsha": "mUxkBphkNVVBNlFCsMk0X3IRmOv69zyRdBiQ5PNNl44=",
+        "originContent": "  pages={4015--4025},",
+        "translatedContent": "  pages={4015--4025},"
+      },
+      {
+        "row": 7,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  }
+]

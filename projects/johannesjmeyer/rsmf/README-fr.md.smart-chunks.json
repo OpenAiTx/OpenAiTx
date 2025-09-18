@@ -1,0 +1,981 @@
+[
+  {
+    "Id": 1,
+    "Content": "[![PyPI version](https://badge.fury.io/py/rsmf.svg)](https://pypi.org/project/rsmf/)\n[![Documentation Status](https://readthedocs.org/projects/rsmf/badge/?version=latest)](https://rsmf.readthedocs.io/en/latest/?badge=latest)\n[![rsmf](https://circleci.com/gh/johannesjmeyer/rsmf.svg?style=shield)](https://github.com/johannesjmeyer/rsmf)\n[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)\n\n\n# rsmf (right-size my figures)\n\nWhen I am writing a paper I am a bit picky about the figures. It is especially important for me that the fonts and font sizes match the surrounding document. As I usually plot with matplotlib I created this library to help with that. This library provides a means to \nautomatically adjust figure sizes and font sizes in matplotlib to fit the ones in commonly used scientific journals. Currently `quantumarticle` and `revtex4` are supported. \n\n# Install\n\nYou can get the latest release version from PyPI.",
+    "ContentSha": "Wqh7nCimxaUYF3sAtQTzrQFEZzyNHWht0DQaSNAu2eU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[![Version PyPI](https://badge.fury.io/py/rsmf.svg)](https://pypi.org/project/rsmf/)\n[![Statut de la documentation](https://readthedocs.org/projects/rsmf/badge/?version=latest)](https://rsmf.readthedocs.io/en/latest/?badge=latest)\n[![rsmf](https://circleci.com/gh/johannesjmeyer/rsmf.svg?style=shield)](https://github.com/johannesjmeyer/rsmf)\n[![Style de code : black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)\n\n\n# rsmf (redimensionne mes figures)\n\nLorsque j’écris un article, je suis un peu exigeant sur les figures. Il est particulièrement important pour moi que les polices et les tailles de police correspondent au document environnant. Comme je trace habituellement avec matplotlib, j’ai créé cette bibliothèque pour m’aider avec cela. Cette bibliothèque fournit un moyen de \nréajuster automatiquement les tailles des figures et des polices dans matplotlib afin qu’elles correspondent à celles utilisées dans les revues scientifiques courantes. Actuellement, `quantumarticle` et `revtex4` sont pris en charge.\n\n# Installation\n\nVous pouvez obtenir la dernière version publiée depuis PyPI.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HIPmMr3fBHVhKR66i/KukRutcRYKj77GklrE+6dKiDg=",
+        "originContent": "[![PyPI version](https://badge.fury.io/py/rsmf.svg)](https://pypi.org/project/rsmf/)",
+        "translatedContent": "[![Version PyPI](https://badge.fury.io/py/rsmf.svg)](https://pypi.org/project/rsmf/)"
+      },
+      {
+        "row": 2,
+        "rowsha": "d+DlEwfakLByGuOOo+Va4SOgG8yC/6q0tQtaNW/of2A=",
+        "originContent": "[![Documentation Status](https://readthedocs.org/projects/rsmf/badge/?version=latest)](https://rsmf.readthedocs.io/en/latest/?badge=latest)",
+        "translatedContent": "[![Statut de la documentation](https://readthedocs.org/projects/rsmf/badge/?version=latest)](https://rsmf.readthedocs.io/en/latest/?badge=latest)"
+      },
+      {
+        "row": 3,
+        "rowsha": "Oy57PeIW5BL7UYkdzPeeUdXrsH4MNkLqRUeMy4sx20A=",
+        "originContent": "[![rsmf](https://circleci.com/gh/johannesjmeyer/rsmf.svg?style=shield)](https://github.com/johannesjmeyer/rsmf)",
+        "translatedContent": "[![rsmf](https://circleci.com/gh/johannesjmeyer/rsmf.svg?style=shield)](https://github.com/johannesjmeyer/rsmf)"
+      },
+      {
+        "row": 4,
+        "rowsha": "YPkILow6kKg7Sd+OPagzr5GnsBF1IUb9mjmsEYSr6Zc=",
+        "originContent": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
+        "translatedContent": "[![Style de code : black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "4jNk+DMBQPYVQ1/VPzx+8lEQd190Uo4vv3dU7lI9SbY=",
+        "originContent": "# rsmf (right-size my figures)",
+        "translatedContent": "# rsmf (redimensionne mes figures)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "BNowAoeX4sCMNaZRSBAK/MWWKwqa7JJYOQXb2vq3OQ8=",
+        "originContent": "When I am writing a paper I am a bit picky about the figures. It is especially important for me that the fonts and font sizes match the surrounding document. As I usually plot with matplotlib I created this library to help with that. This library provides a means to ",
+        "translatedContent": "Lorsque j’écris un article, je suis un peu exigeant sur les figures. Il est particulièrement important pour moi que les polices et les tailles de police correspondent au document environnant. Comme je trace habituellement avec matplotlib, j’ai créé cette bibliothèque pour m’aider avec cela. Cette bibliothèque fournit un moyen de "
+      },
+      {
+        "row": 10,
+        "rowsha": "oHUybXZwN8v7WfLT73hXqUwceaQV7Xd1pa8+l7NMYXo=",
+        "originContent": "automatically adjust figure sizes and font sizes in matplotlib to fit the ones in commonly used scientific journals. Currently `quantumarticle` and `revtex4` are supported. ",
+        "translatedContent": "réajuster automatiquement les tailles des figures et des polices dans matplotlib afin qu’elles correspondent à celles utilisées dans les revues scientifiques courantes. Actuellement, `quantumarticle` et `revtex4` sont pris en charge."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "LIfcujHTHgMPXtLqP+h3+M/6OPAmhQh2NVkBUIIiPFQ=",
+        "originContent": "# Install",
+        "translatedContent": "# Installation"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "qrSu/U5RdlfEyhxN+fQAcKm8WOW8ihnftUIuehp4jF8=",
+        "originContent": "You can get the latest release version from PyPI.",
+        "translatedContent": "Vous pouvez obtenir la dernière version publiée depuis PyPI."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npip install rsmf\n```",
+    "ContentSha": "KdEbGxU3V3GU0Ty+xJhA4XDBzYo1q40mO9tnmn0mDhE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install rsmf\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "VXStNQaLIMvjjGZIGZBz5/nNw+NGnlobEaovaUBp3dw=",
+        "originContent": "pip install rsmf",
+        "translatedContent": "pip install rsmf"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "To get the latest development version you have to install the package from GitHub.",
+    "ContentSha": "ow7ysgeYJ4qor8dJbG6xRKNidpF+wQWuMbnrLaF5eFc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Pour obtenir la dernière version de développement, vous devez installer le paquet depuis GitHub.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ow7ysgeYJ4qor8dJbG6xRKNidpF+wQWuMbnrLaF5eFc=",
+        "originContent": "To get the latest development version you have to install the package from GitHub.",
+        "translatedContent": "Pour obtenir la dernière version de développement, vous devez installer le paquet depuis GitHub."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\npip install git+https://www.github.com/johannesjmeyer/rsmf\n```",
+    "ContentSha": "tC7aMcGPYarU4xxdh5C408LKKlU9RE2jucxR0B/HzlY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install git+https://www.github.com/johannesjmeyer/rsmf\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TI7WWxH/5yco7EJ/4NjxNGjaVpGW6TestTIOJwRHSM0=",
+        "originContent": "pip install git+https://www.github.com/johannesjmeyer/rsmf",
+        "translatedContent": "pip install git+https://www.github.com/johannesjmeyer/rsmf"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nThe package depends on matplotlib's PGF backend. To be able to use it, you need to have a working TeX distribution with `pdflatex` installed (see further [Issue #2](https://github.com/johannesjmeyer/rsmf/issues/2)).\n\n# Usage\n\nA detailed explanation of usage is given in the [docs](https://rsmf.readthedocs.io/en/latest/source/howto.html).\n\n## Setup\nYou need to tell rsmf how you set up your document by invoking `rsmf.setup`. This can be done in two ways. Either, you give rsmf the `\\documentclass` string used for setting up the document, as in",
+    "ContentSha": "SlIQ7DUMtjiIQAHQwWAoRE+4EPXxUjfx8XQtcZMoAwc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nLe package dépend du backend PGF de matplotlib. Pour pouvoir l’utiliser, vous devez disposer d’une distribution TeX fonctionnelle avec `pdflatex` installé (voir plus loin [Issue #2](https://github.com/johannesjmeyer/rsmf/issues/2)).\n\n# Utilisation\n\nUne explication détaillée de l’utilisation est donnée dans la [documentation](https://rsmf.readthedocs.io/en/latest/source/howto.html).\n\n## Configuration\nVous devez indiquer à rsmf comment vous configurez votre document en invoquant `rsmf.setup`. Cela peut se faire de deux manières. Soit vous donnez à rsmf la chaîne `\\documentclass` utilisée pour configurer le document, comme dans",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wDko1SHrNJgCLXrzccucnzl4FZOxSX0wvYGPhN2zbL0=",
+        "originContent": "The package depends on matplotlib's PGF backend. To be able to use it, you need to have a working TeX distribution with `pdflatex` installed (see further [Issue #2](https://github.com/johannesjmeyer/rsmf/issues/2)).",
+        "translatedContent": "Le package dépend du backend PGF de matplotlib. Pour pouvoir l’utiliser, vous devez disposer d’une distribution TeX fonctionnelle avec `pdflatex` installé (voir plus loin [Issue #2](https://github.com/johannesjmeyer/rsmf/issues/2))."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+        "originContent": "# Usage",
+        "translatedContent": "# Utilisation"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "qN1Ut3xOOqGHzFcsWKrZwt9fRvSCIpwyjYMmdI1Q9Dw=",
+        "originContent": "A detailed explanation of usage is given in the [docs](https://rsmf.readthedocs.io/en/latest/source/howto.html).",
+        "translatedContent": "Une explication détaillée de l’utilisation est donnée dans la [documentation](https://rsmf.readthedocs.io/en/latest/source/howto.html)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## Configuration"
+      },
+      {
+        "row": 9,
+        "rowsha": "M3lj0FkzxUKctbPr7RhP5tI8jhe8fmGUyvI3PbSAJYU=",
+        "originContent": "You need to tell rsmf how you set up your document by invoking `rsmf.setup`. This can be done in two ways. Either, you give rsmf the `\\documentclass` string used for setting up the document, as in",
+        "translatedContent": "Vous devez indiquer à rsmf comment vous configurez votre document en invoquant `rsmf.setup`. Cela peut se faire de deux manières. Soit vous donnez à rsmf la chaîne `\\documentclass` utilisée pour configurer le document, comme dans"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```python\nimport rsmf\nformatter = rsmf.setup(r\"\\documentclass[a4paper,12pt,noarxiv]{quantumarticle}\")\n```",
+    "ContentSha": "VlWiYpRRp3kmMxvYe18dpQ17qBUg8n9KFd8Ujjpxuc8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nimport rsmf\nformatter = rsmf.setup(r\"\\documentclass[a4paper,12pt,noarxiv]{quantumarticle}\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "B9GBpBrJASoyL47hB7pI/cgPUkpjBknjuQ83RyrSbzY=",
+        "originContent": "import rsmf",
+        "translatedContent": "import rsmf"
+      },
+      {
+        "row": 3,
+        "rowsha": "RJ9SrcmLtgEksHAGmaD6P3MsXZAyhctjlM6+LoqMSwo=",
+        "originContent": "formatter = rsmf.setup(r\"\\documentclass[a4paper,12pt,noarxiv]{quantumarticle}\")",
+        "translatedContent": "formatter = rsmf.setup(r\"\\documentclass[a4paper,12pt,noarxiv]{quantumarticle}\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "The `r` in front of the string is necessary so that `\\d` is not mistaken for an escape sequence. If you have your document stored locally, there is an even more convenient way:\nyou can just supply rsmf with the path to your main tex file (the one containing the document setup) and it will find that out for itself:",
+    "ContentSha": "LXxP/o+vLQtsuo48BXhB2+5QefXzbahgcNLcmgqN+0Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Le `r` devant la chaîne est nécessaire pour que `\\d` ne soit pas pris pour une séquence d’échappement. Si vous avez votre document stocké localement, il existe une méthode encore plus pratique :  \nvous pouvez simplement fournir à rsmf le chemin vers votre fichier tex principal (celui contenant la configuration du document) et il le détectera lui-même :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "zggJGzUsuYsah/o5JyfADd0asCsa0aGypB+Rl0Il7Jo=",
+        "originContent": "The `r` in front of the string is necessary so that `\\d` is not mistaken for an escape sequence. If you have your document stored locally, there is an even more convenient way:",
+        "translatedContent": "Le `r` devant la chaîne est nécessaire pour que `\\d` ne soit pas pris pour une séquence d’échappement. Si vous avez votre document stocké localement, il existe une méthode encore plus pratique :  "
+      },
+      {
+        "row": 2,
+        "rowsha": "+TyWvvG914ngWhXrFjDuKhHExVKVvcQaaZt89JFU6po=",
+        "originContent": "you can just supply rsmf with the path to your main tex file (the one containing the document setup) and it will find that out for itself:",
+        "translatedContent": "vous pouvez simplement fournir à rsmf le chemin vers votre fichier tex principal (celui contenant la configuration du document) et il le détectera lui-même :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```python\nformatter = rsmf.setup(\"example.tex\")\n```",
+    "ContentSha": "uHmUoQkLNnJvOQqDurPF2bSn81ZS+khX5R++5xi5Fkg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nformatter = rsmf.setup(\"example.tex\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "7DhBct1qgFg0piby+hDHM4xD7tP1/K40mQhIy9eRXVk=",
+        "originContent": "formatter = rsmf.setup(\"example.tex\")",
+        "translatedContent": "formatter = rsmf.setup(\"example.tex\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "This is especially cool because rsmf will automatically adjust the plots when the underlying document class is changed without any needs to change python code! This makes swapping journals a lot easier.\n\nIf the document class you're targeting is not supported by `rsmf`, you can still use it. In that case you have to extract the relevant measurements yourself and use `rsmf.CustomFormatter`. A detailed explanation is given in the [docs](https://rsmf.readthedocs.io/en/latest/source/howto.html).\n\n## Figures\nThe setup routine will return a formatter. This formatter can then be used to create matplotlib figure objects by invoking the method `formatter.figure`. It has three arguments:\n\n* `aspect_ratio` (float, optional): the aspect ratio (height/width) of your plot. Defaults to the inverse of the golden ratio.\n* `width_ratio` (float, optional): the width of your plot in multiples of `\\columnwidth`. Defaults to 1.0.\n* `wide` (bool, optional): indicates if the figures spans two columns in twocolumn mode, \n                i.e. if the figure* environment is used, has no effect in onecolumn mode . Defaults to False.\n\nThis is the place where you set the width of your plots, _not in the LaTeX document._ If you include the resulting figure with a different width, the font sizes will not match the surrounding document!\n\nFor example, a regular figure is created via",
+    "ContentSha": "OIGPzL2KuGvZi72/xQcej3M2T+G9qrjV8MEl2QlNFac=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Ceci est particulièrement intéressant car rsmf ajustera automatiquement les graphiques lorsque la classe de document sous-jacente est modifiée sans qu'il soit nécessaire de changer le code Python ! Cela facilite grandement le changement de revues.\n\nSi la classe de document que vous ciblez n'est pas prise en charge par `rsmf`, vous pouvez quand même l'utiliser. Dans ce cas, vous devez extraire vous-même les mesures pertinentes et utiliser `rsmf.CustomFormatter`. Une explication détaillée est donnée dans la [documentation](https://rsmf.readthedocs.io/en/latest/source/howto.html).\n\n## Figures\nLa routine de configuration retournera un formateur. Ce formateur peut ensuite être utilisé pour créer des objets figure matplotlib en invoquant la méthode `formatter.figure`. Elle a trois arguments :\n\n* `aspect_ratio` (float, optionnel) : le rapport d'aspect (hauteur/largeur) de votre graphique. Par défaut, l'inverse du nombre d'or.\n* `width_ratio` (float, optionnel) : la largeur de votre graphique en multiples de `\\columnwidth`. Par défaut 1.0.\n* `wide` (bool, optionnel) : indique si la figure s'étend sur deux colonnes en mode deux colonnes, \n                c'est-à-dire si l'environnement figure* est utilisé, sans effet en mode une colonne. Par défaut False.\n\nC'est ici que vous définissez la largeur de vos graphiques, _pas dans le document LaTeX._ Si vous incluez la figure résultante avec une largeur différente, les tailles de police ne correspondront pas au document environnant !\n\nPar exemple, une figure normale est créée via",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VUxQ51ExI0iJSESeheGY01vMmFm+FAA51gnvc7kk5Nw=",
+        "originContent": "This is especially cool because rsmf will automatically adjust the plots when the underlying document class is changed without any needs to change python code! This makes swapping journals a lot easier.",
+        "translatedContent": "Ceci est particulièrement intéressant car rsmf ajustera automatiquement les graphiques lorsque la classe de document sous-jacente est modifiée sans qu'il soit nécessaire de changer le code Python ! Cela facilite grandement le changement de revues."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "SWqcWMF6mmV8oaFOGdddPIlkWQoWLCg5MYnURpFyclY=",
+        "originContent": "If the document class you're targeting is not supported by `rsmf`, you can still use it. In that case you have to extract the relevant measurements yourself and use `rsmf.CustomFormatter`. A detailed explanation is given in the [docs](https://rsmf.readthedocs.io/en/latest/source/howto.html).",
+        "translatedContent": "Si la classe de document que vous ciblez n'est pas prise en charge par `rsmf`, vous pouvez quand même l'utiliser. Dans ce cas, vous devez extraire vous-même les mesures pertinentes et utiliser `rsmf.CustomFormatter`. Une explication détaillée est donnée dans la [documentation](https://rsmf.readthedocs.io/en/latest/source/howto.html)."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "cLRUgush1dWYkuhlLAtdr3WstyKCnQ3hiqNd258cy3Y=",
+        "originContent": "## Figures",
+        "translatedContent": "## Figures"
+      },
+      {
+        "row": 6,
+        "rowsha": "fBW6SllKM8AhtxPCRA9CtM/2cGGgObCzUgMrtIZtGWU=",
+        "originContent": "The setup routine will return a formatter. This formatter can then be used to create matplotlib figure objects by invoking the method `formatter.figure`. It has three arguments:",
+        "translatedContent": "La routine de configuration retournera un formateur. Ce formateur peut ensuite être utilisé pour créer des objets figure matplotlib en invoquant la méthode `formatter.figure`. Elle a trois arguments :"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "lUfASa9hB3vix45l/FlugdP4aybABf33lK4JQ1Icefg=",
+        "originContent": "* `aspect_ratio` (float, optional): the aspect ratio (height/width) of your plot. Defaults to the inverse of the golden ratio.",
+        "translatedContent": "* `aspect_ratio` (float, optionnel) : le rapport d'aspect (hauteur/largeur) de votre graphique. Par défaut, l'inverse du nombre d'or."
+      },
+      {
+        "row": 9,
+        "rowsha": "ZjbAM69vM5Ts2cOqkLSOa3IPcD8tjEB6Kat/0mFuU00=",
+        "originContent": "* `width_ratio` (float, optional): the width of your plot in multiples of `\\columnwidth`. Defaults to 1.0.",
+        "translatedContent": "* `width_ratio` (float, optionnel) : la largeur de votre graphique en multiples de `\\columnwidth`. Par défaut 1.0."
+      },
+      {
+        "row": 10,
+        "rowsha": "W/q30HfGzfRCIx6qY68jFqsyIu1agUT/ULI5F7/LnRU=",
+        "originContent": "* `wide` (bool, optional): indicates if the figures spans two columns in twocolumn mode, ",
+        "translatedContent": "* `wide` (bool, optionnel) : indique si la figure s'étend sur deux colonnes en mode deux colonnes, "
+      },
+      {
+        "row": 11,
+        "rowsha": "T0fqOKo/rZ/9SjyVuxuA0o6PHs545sFcnuUHD1bRWAk=",
+        "originContent": "                i.e. if the figure* environment is used, has no effect in onecolumn mode . Defaults to False.",
+        "translatedContent": "                c'est-à-dire si l'environnement figure* est utilisé, sans effet en mode une colonne. Par défaut False."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "uTHYDEjqMFo/etpWbrt6YNrmzl+AdZ7hEDReU8P8FIM=",
+        "originContent": "This is the place where you set the width of your plots, _not in the LaTeX document._ If you include the resulting figure with a different width, the font sizes will not match the surrounding document!",
+        "translatedContent": "C'est ici que vous définissez la largeur de vos graphiques, _pas dans le document LaTeX._ Si vous incluez la figure résultante avec une largeur différente, les tailles de police ne correspondront pas au document environnant !"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "8pJAU2vqfMe//e4vEEQY7f/mSQBRjMgk8r0e0hTufPA=",
+        "originContent": "For example, a regular figure is created via",
+        "translatedContent": "Par exemple, une figure normale est créée via"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```python\nfig = formatter.figure(aspect_ratio=.5)\n\n# ... some plotting ...\nplt.savefig(\"example.pdf\")\n```",
+    "ContentSha": "LjYnEW/pq9dN+EsLH2tYgszbLf3GSr7DKOnGx+km2gE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfig = formatter.figure(aspect_ratio=.5)\n\n# ... some plotting ...\nplt.savefig(\"example.pdf\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "QPKw0BOb3RODJz8wPNwPQ69qOHVTQKhvOMx8i0NXEyA=",
+        "originContent": "fig = formatter.figure(aspect_ratio=.5)",
+        "translatedContent": "fig = formatter.figure(aspect_ratio=.5)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "u+aNNBdjJKPqHtrBvTHgKeATl+RZsalUuQJRHbtbrw4=",
+        "originContent": "# ... some plotting ...",
+        "translatedContent": "# ... some plotting ..."
+      },
+      {
+        "row": 5,
+        "rowsha": "QlieelNE3U4nAcky/s5PphGQGHaCJFLPZw4XD3eV2zQ=",
+        "originContent": "plt.savefig(\"example.pdf\")",
+        "translatedContent": "plt.savefig(\"example.pdf\")"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "and included via",
+    "ContentSha": "g99DSfZXptip9aSzRrm278B50JPRCo8K8jnVdDhgML8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "et inclus via",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "g99DSfZXptip9aSzRrm278B50JPRCo8K8jnVdDhgML8=",
+        "originContent": "and included via",
+        "translatedContent": "et inclus via"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```tex\n\\begin{figure}\n\t\\centering\n\t\\includegraphics{example}\n\t\\caption{...}\n\\end{figure}\n```",
+    "ContentSha": "JSN0xlXwUkeB4ua/A0VbEcTgIHdwyRxUfuLtOpd/qeE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tex\n\\begin{figure}\n\t\\centering\n\t\\includegraphics{example}\n\t\\caption{...}\n\\end{figure}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "98jpY77RENZcWn7gHXzQz0dTk5N0Dktrgr2cwQlPQig=",
+        "originContent": "```tex",
+        "translatedContent": "```tex"
+      },
+      {
+        "row": 2,
+        "rowsha": "gtaD2AAi7W1avgGmeYJsl92y/K26l5u9mFW7q/m2X5g=",
+        "originContent": "\\begin{figure}",
+        "translatedContent": "\\begin{figure}"
+      },
+      {
+        "row": 3,
+        "rowsha": "xwD3gkFHPABtuZz6FgFLVMhTTmD0lHzbjFvRbwduoDE=",
+        "originContent": "\t\\centering",
+        "translatedContent": "\t\\centering"
+      },
+      {
+        "row": 4,
+        "rowsha": "HXQ29B4jNFrBSQoipvSElNrsX9KZsCauCK0kusr/6LQ=",
+        "originContent": "\t\\includegraphics{example}",
+        "translatedContent": "\t\\includegraphics{example}"
+      },
+      {
+        "row": 5,
+        "rowsha": "LkvApgrgv+yZ9tNdFt8xfSQ2gxeHawE82DucYNlitXI=",
+        "originContent": "\t\\caption{...}",
+        "translatedContent": "\t\\caption{...}"
+      },
+      {
+        "row": 6,
+        "rowsha": "s2ZPibhgS/xvZorwDLHmc/CRZDIsvlJ77DYR4AOEUVo=",
+        "originContent": "\\end{figure}",
+        "translatedContent": "\\end{figure}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "A wide figure that spans 80% of the page on the other hand is created by",
+    "ContentSha": "GCeNDLU6C0mzfE/cybXzCKQuh5UJryqx7P01GrhjMPs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Une grande figure qui s'étend sur 80 % de la page, en revanche, est créée par",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GCeNDLU6C0mzfE/cybXzCKQuh5UJryqx7P01GrhjMPs=",
+        "originContent": "A wide figure that spans 80% of the page on the other hand is created by",
+        "translatedContent": "Une grande figure qui s'étend sur 80 % de la page, en revanche, est créée par"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```python\nfig = formatter.figure(width_ratio=.8, wide=True)\n\n# ... some plotting ...\nplt.savefig(\"example_wide.pdf\")\n```",
+    "ContentSha": "OMzy2C/FqamyWA/hLc/bCBB21RBqwVWNLKz4iSNfoGM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfig = formatter.figure(width_ratio=.8, wide=True)\n\n# ... some plotting ...\nplt.savefig(\"example_wide.pdf\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "HI9KuGnzSVg1kAHIzYt8alpX09FYza+pQuqzEDVIycU=",
+        "originContent": "fig = formatter.figure(width_ratio=.8, wide=True)",
+        "translatedContent": "fig = formatter.figure(width_ratio=.8, wide=True)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "u+aNNBdjJKPqHtrBvTHgKeATl+RZsalUuQJRHbtbrw4=",
+        "originContent": "# ... some plotting ...",
+        "translatedContent": "# ... some plotting ..."
+      },
+      {
+        "row": 5,
+        "rowsha": "VqNxDMOD96Nnq2T0VWoBiG2zoiSclL5u7dgp9yNJc4Y=",
+        "originContent": "plt.savefig(\"example_wide.pdf\")",
+        "translatedContent": "plt.savefig(\"example_wide.pdf\")"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "and included via the multi-column `figure*` environment:",
+    "ContentSha": "XId8utFNHAJlTEpmJpgbu9fEPBeAzurzJu0P5l4+TYI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "et inclus via l'environnement multi-colonnes `figure*` :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "XId8utFNHAJlTEpmJpgbu9fEPBeAzurzJu0P5l4+TYI=",
+        "originContent": "and included via the multi-column `figure*` environment:",
+        "translatedContent": "et inclus via l'environnement multi-colonnes `figure*` :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```tex\n\\begin{figure*}\n\t\\centering\n\t\\includegraphics{example_wide}\n\t\\caption{...}\n\\end{figure*}\n```",
+    "ContentSha": "OmN6ztQqhMt1Cs7Lmh4CYYI9w8u1y9zLNYbvtkMcQ3I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tex\n\\begin{figure*}\n\t\\centering\n\t\\includegraphics{example_wide}\n\t\\caption{...}\n\\end{figure*}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "98jpY77RENZcWn7gHXzQz0dTk5N0Dktrgr2cwQlPQig=",
+        "originContent": "```tex",
+        "translatedContent": "```tex"
+      },
+      {
+        "row": 2,
+        "rowsha": "WcrCWuFXuABr12kYp4K52Cktieo83G48YA17zIEBD94=",
+        "originContent": "\\begin{figure*}",
+        "translatedContent": "\\begin{figure*}"
+      },
+      {
+        "row": 3,
+        "rowsha": "xwD3gkFHPABtuZz6FgFLVMhTTmD0lHzbjFvRbwduoDE=",
+        "originContent": "\t\\centering",
+        "translatedContent": "\t\\centering"
+      },
+      {
+        "row": 4,
+        "rowsha": "JIJsXSy5kAaLcL+jbr77mtTjLBpzQqHmjg2swloS7Ww=",
+        "originContent": "\t\\includegraphics{example_wide}",
+        "translatedContent": "\t\\includegraphics{example_wide}"
+      },
+      {
+        "row": 5,
+        "rowsha": "LkvApgrgv+yZ9tNdFt8xfSQ2gxeHawE82DucYNlitXI=",
+        "originContent": "\t\\caption{...}",
+        "translatedContent": "\t\\caption{...}"
+      },
+      {
+        "row": 6,
+        "rowsha": "JMz7tdKnCMhE3aKAz/o/FyZVr4cRB6dXvm81yrCZBbQ=",
+        "originContent": "\\end{figure*}",
+        "translatedContent": "\\end{figure*}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nNote that you should always save your figures in some sort of vectorized format, like `pdf` and that calling `plt.tight_layout()` before saving usually makes your plots nicer.\n\nMoreover, observe that the ``aspect_ratio`` parameter is defined as the height of the plot devided by its width. Even though aspect ratios are more commonly defined as width/height, this choice results in having the width and the height of the figure proportional to ``width_ratio`` and ``aspect_ratio`` respectively. \n\nIt is also possible to create the figure objects by hand, using `formatter.columnwidth` and `formatter.wide_columnwidth`, the `formatter.figure` routine is a convenience wrapper around this.\n\n## Other features\nYou can access the underlying fontsizes via `formatter.fontsizes`. The nomenclature follows that of LaTeX itself, so we have e.g. `formatter.fontsizes.tiny` or `formatter.fontsizes.Large`.\nThis is especially useful if you want to tweak titles, legends and annotations while still having matching fontsizes.\n\n## Using rsmf with other frameworks\nYou can use rsmf together with your favorite plotting framework, for example `seaborn`. There is only one catch: if you use matplotlib styles or seaborn styles, you might overwrite the settings imposed by rsmf, especially regarding fontsize. To this end, the formatters have a method `formatter.set_default_fontsizes` that only change the underlying fontsizes. An example use would be",
+    "ContentSha": "OVH8LCnl/S5zEwfpCBczyicXnnVUKUR2A6fOLExFpRc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nNotez que vous devriez toujours enregistrer vos figures dans un format vectoriel, comme `pdf` et que l'appel à `plt.tight_layout()` avant l'enregistrement rend généralement vos graphiques plus agréables.\n\nDe plus, observez que le paramètre ``aspect_ratio`` est défini comme la hauteur du graphique divisée par sa largeur. Bien que les rapports d'aspect soient plus couramment définis comme largeur/hauteur, ce choix permet d'avoir la largeur et la hauteur de la figure proportionnelles respectivement à ``width_ratio`` et ``aspect_ratio``.\n\nIl est également possible de créer les objets figure manuellement, en utilisant `formatter.columnwidth` et `formatter.wide_columnwidth`, la routine `formatter.figure` est un wrapper pratique autour de cela.\n\n## Autres fonctionnalités\nVous pouvez accéder aux tailles de police sous-jacentes via `formatter.fontsizes`. La nomenclature suit celle de LaTeX lui-même, ainsi nous avons par exemple `formatter.fontsizes.tiny` ou `formatter.fontsizes.Large`.\nCeci est particulièrement utile si vous souhaitez ajuster les titres, légendes et annotations tout en gardant des tailles de police cohérentes.\n\n## Utilisation de rsmf avec d'autres frameworks\nVous pouvez utiliser rsmf avec votre framework de tracé préféré, par exemple `seaborn`. Il y a un seul inconvénient : si vous utilisez les styles matplotlib ou seaborn, vous pourriez écraser les réglages imposés par rsmf, notamment en ce qui concerne la taille de la police. À cette fin, les formatteurs ont une méthode `formatter.set_default_fontsizes` qui ne change que les tailles de police sous-jacentes. Un exemple d'utilisation serait",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "G1mMDh+4J2RJn5WupjOFzi091S5Lw8Q/EVGI0lVcwhk=",
+        "originContent": "Note that you should always save your figures in some sort of vectorized format, like `pdf` and that calling `plt.tight_layout()` before saving usually makes your plots nicer.",
+        "translatedContent": "Notez que vous devriez toujours enregistrer vos figures dans un format vectoriel, comme `pdf` et que l'appel à `plt.tight_layout()` avant l'enregistrement rend généralement vos graphiques plus agréables."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "C12+w96bQw9TimUdYo0WSLxiBEJe4l2z9CRM5+Xbwp4=",
+        "originContent": "Moreover, observe that the ``aspect_ratio`` parameter is defined as the height of the plot devided by its width. Even though aspect ratios are more commonly defined as width/height, this choice results in having the width and the height of the figure proportional to ``width_ratio`` and ``aspect_ratio`` respectively. ",
+        "translatedContent": "De plus, observez que le paramètre ``aspect_ratio`` est défini comme la hauteur du graphique divisée par sa largeur. Bien que les rapports d'aspect soient plus couramment définis comme largeur/hauteur, ce choix permet d'avoir la largeur et la hauteur de la figure proportionnelles respectivement à ``width_ratio`` et ``aspect_ratio``."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "hRyjiRsl528NShAVN1DEqO4t2kfTGWKnsJJqfWh6gcE=",
+        "originContent": "It is also possible to create the figure objects by hand, using `formatter.columnwidth` and `formatter.wide_columnwidth`, the `formatter.figure` routine is a convenience wrapper around this.",
+        "translatedContent": "Il est également possible de créer les objets figure manuellement, en utilisant `formatter.columnwidth` et `formatter.wide_columnwidth`, la routine `formatter.figure` est un wrapper pratique autour de cela."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "7EQRY76I+A7m4BkeTPSLGJvs5WFGq4LkJnc1n9kHWlM=",
+        "originContent": "## Other features",
+        "translatedContent": "## Autres fonctionnalités"
+      },
+      {
+        "row": 9,
+        "rowsha": "rTtTBbaANBMzDEQ/E0o+3wqww+zAYYkpj61+mzsNPMo=",
+        "originContent": "You can access the underlying fontsizes via `formatter.fontsizes`. The nomenclature follows that of LaTeX itself, so we have e.g. `formatter.fontsizes.tiny` or `formatter.fontsizes.Large`.",
+        "translatedContent": "Vous pouvez accéder aux tailles de police sous-jacentes via `formatter.fontsizes`. La nomenclature suit celle de LaTeX lui-même, ainsi nous avons par exemple `formatter.fontsizes.tiny` ou `formatter.fontsizes.Large`."
+      },
+      {
+        "row": 10,
+        "rowsha": "hXuJC3gnCFA8CmNkIT6KInoNUSM99rgQIXLj5pPVYV0=",
+        "originContent": "This is especially useful if you want to tweak titles, legends and annotations while still having matching fontsizes.",
+        "translatedContent": "Ceci est particulièrement utile si vous souhaitez ajuster les titres, légendes et annotations tout en gardant des tailles de police cohérentes."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Kw4zEDjuluoCjtXjkoCQrqXd7SfZT6Ac1KnNT+jq3jw=",
+        "originContent": "## Using rsmf with other frameworks",
+        "translatedContent": "## Utilisation de rsmf avec d'autres frameworks"
+      },
+      {
+        "row": 13,
+        "rowsha": "3Z/bLJL6ejuokGZ5U4PjswTl/qfL0nlD3UAXabtt4ow=",
+        "originContent": "You can use rsmf together with your favorite plotting framework, for example `seaborn`. There is only one catch: if you use matplotlib styles or seaborn styles, you might overwrite the settings imposed by rsmf, especially regarding fontsize. To this end, the formatters have a method `formatter.set_default_fontsizes` that only change the underlying fontsizes. An example use would be",
+        "translatedContent": "Vous pouvez utiliser rsmf avec votre framework de tracé préféré, par exemple `seaborn`. Il y a un seul inconvénient : si vous utilisez les styles matplotlib ou seaborn, vous pourriez écraser les réglages imposés par rsmf, notamment en ce qui concerne la taille de la police. À cette fin, les formatteurs ont une méthode `formatter.set_default_fontsizes` qui ne change que les tailles de police sous-jacentes. Un exemple d'utilisation serait"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```python\nfig = formatter.figure(wide=True)\nsns.set(style=\"ticks\")\nformatter.set_default_fontsizes()\n\n# ... some plotting ...\n```",
+    "ContentSha": "lYbYRwzpCaNnKTlg4IXHOm5fKo/r02QqwTkeKVwWUsI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfig = formatter.figure(wide=True)\nsns.set(style=\"ticks\")\nformatter.set_default_fontsizes()\n\n# ... some plotting ...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "L87dKZ5gM+b60v9TP3crrUG7LNanFXPpFiCyM9MEeMc=",
+        "originContent": "fig = formatter.figure(wide=True)",
+        "translatedContent": "fig = formatter.figure(wide=True)"
+      },
+      {
+        "row": 3,
+        "rowsha": "gFJ7k80nFRXAsuJWRLVNWsrZkRG6b8Grw3p+3Ifxt4k=",
+        "originContent": "sns.set(style=\"ticks\")",
+        "translatedContent": "sns.set(style=\"ticks\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "2zjbzdTleeyzfdtHw2S76nGlNFLo6x0tpq/QtSCwMI0=",
+        "originContent": "formatter.set_default_fontsizes()",
+        "translatedContent": "formatter.set_default_fontsizes()"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "u+aNNBdjJKPqHtrBvTHgKeATl+RZsalUuQJRHbtbrw4=",
+        "originContent": "# ... some plotting ...",
+        "translatedContent": "# ... some plotting ..."
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "Sometimes these styles also overwrite other things, like the font family (serif/sans-serif). There is no correction method for that yet.\n\n## Example\nAn example document alongside with a notebook for making the plots used can be found in the `examples` folder.\n\n# How it works\nUnder the hood, rsmf sets the matplotlib backend to `pgf`, which allows the use of LaTeX. For each supported document class, the specific column widths and font sizes are stored in code, alongside with packages that are loaded that change fonts. For `quantumarticle`, for example, the package `lmodern` is loaded into the `pgf` backend to get the right sans-serif font. \n\nWhen calling `rsmf.setup`, matplotlib's `rcParams` are adjusted to make the fontsizes match the surrounding document. Note that `formatter.figure` does not mess with `rcParams`.\n\n# Contribute\nDo you have trouble setting up plots for your favorite document class and it is not supported here? Do not hesitate to make a PR!\n\nA big thanks for contributions goes to:\n[Samuel J. Palmer](https://github.com/sp94), \n[platipo](https://github.com/platipo), \n[Lorenzo Fioroni](https://github.com/LorenzoFioroni)\n\n",
+    "ContentSha": "/f8EoiEwDStXJu3EWySI9xqj4x2CQW0JUQmdBxOLcUo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Parfois, ces styles écrasent également d'autres éléments, comme la famille de polices (serif/sans-serif). Il n'existe pas encore de méthode de correction pour cela.\n\n## Exemple\nUn document exemple ainsi qu'un notebook pour réaliser les graphiques utilisés se trouvent dans le dossier `examples`.\n\n# Comment ça fonctionne\nEn interne, rsmf définit le backend matplotlib sur `pgf`, ce qui permet l'utilisation de LaTeX. Pour chaque classe de document supportée, les largeurs de colonnes spécifiques et les tailles de police sont stockées dans le code, ainsi que les packages chargés qui modifient les polices. Pour `quantumarticle`, par exemple, le package `lmodern` est chargé dans le backend `pgf` pour obtenir la bonne police sans-serif.\n\nLors de l'appel à `rsmf.setup`, les `rcParams` de matplotlib sont ajustés pour faire correspondre les tailles de police au document environnant. Notez que `formatter.figure` ne modifie pas les `rcParams`.\n\n# Contribuer\nAvez-vous des difficultés à configurer des graphiques pour votre classe de document préférée et celle-ci n'est pas prise en charge ici ? N'hésitez pas à faire une PR !\n\nUn grand merci pour les contributions à :\n[Samuel J. Palmer](https://github.com/sp94), \n[platipo](https://github.com/platipo), \n[Lorenzo Fioroni](https://github.com/LorenzoFioroni)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "h7pvH+sLnljznj8aiYTmALslZd4a3D0+ngzup6Yyxfc=",
+        "originContent": "Sometimes these styles also overwrite other things, like the font family (serif/sans-serif). There is no correction method for that yet.",
+        "translatedContent": "Parfois, ces styles écrasent également d'autres éléments, comme la famille de polices (serif/sans-serif). Il n'existe pas encore de méthode de correction pour cela."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+        "originContent": "## Example",
+        "translatedContent": "## Exemple"
+      },
+      {
+        "row": 4,
+        "rowsha": "d4OWw15Wxb0vi2YU0CIXqqwow9cPMKJqIQKLKLuu1qw=",
+        "originContent": "An example document alongside with a notebook for making the plots used can be found in the `examples` folder.",
+        "translatedContent": "Un document exemple ainsi qu'un notebook pour réaliser les graphiques utilisés se trouvent dans le dossier `examples`."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "1DtNwDOFrB90XzERgXvg/RTxip2hxMdS/ldxsuo97Aw=",
+        "originContent": "# How it works",
+        "translatedContent": "# Comment ça fonctionne"
+      },
+      {
+        "row": 7,
+        "rowsha": "P2OdnGkLh7G2OAbxjxjqx56ibNzxvcALhCK5R3HmbCc=",
+        "originContent": "Under the hood, rsmf sets the matplotlib backend to `pgf`, which allows the use of LaTeX. For each supported document class, the specific column widths and font sizes are stored in code, alongside with packages that are loaded that change fonts. For `quantumarticle`, for example, the package `lmodern` is loaded into the `pgf` backend to get the right sans-serif font. ",
+        "translatedContent": "En interne, rsmf définit le backend matplotlib sur `pgf`, ce qui permet l'utilisation de LaTeX. Pour chaque classe de document supportée, les largeurs de colonnes spécifiques et les tailles de police sont stockées dans le code, ainsi que les packages chargés qui modifient les polices. Pour `quantumarticle`, par exemple, le package `lmodern` est chargé dans le backend `pgf` pour obtenir la bonne police sans-serif."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "TAeL/tWMUTWuNBTliOOZxtUU+p6vpf9wFHPOgGNBlQ8=",
+        "originContent": "When calling `rsmf.setup`, matplotlib's `rcParams` are adjusted to make the fontsizes match the surrounding document. Note that `formatter.figure` does not mess with `rcParams`.",
+        "translatedContent": "Lors de l'appel à `rsmf.setup`, les `rcParams` de matplotlib sont ajustés pour faire correspondre les tailles de police au document environnant. Notez que `formatter.figure` ne modifie pas les `rcParams`."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "B1FdaGRtRUw8yO9d6Xa4j4/w1tDz7wsYVH1yHnJCIPg=",
+        "originContent": "# Contribute",
+        "translatedContent": "# Contribuer"
+      },
+      {
+        "row": 12,
+        "rowsha": "usMUE7oq3mHbqCEuFD7RFNKCXicjmQCFH3106FWkR20=",
+        "originContent": "Do you have trouble setting up plots for your favorite document class and it is not supported here? Do not hesitate to make a PR!",
+        "translatedContent": "Avez-vous des difficultés à configurer des graphiques pour votre classe de document préférée et celle-ci n'est pas prise en charge ici ? N'hésitez pas à faire une PR !"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "s0Pj9Qp0YCKWD+LDFvc1zLEEzXKRl8wOJJpAcqmUE0s=",
+        "originContent": "A big thanks for contributions goes to:",
+        "translatedContent": "Un grand merci pour les contributions à :"
+      },
+      {
+        "row": 15,
+        "rowsha": "m64snCc2Ww8Ky/jH2BePVpg5tFl2WMd7XGluVL7B2TI=",
+        "originContent": "[Samuel J. Palmer](https://github.com/sp94), ",
+        "translatedContent": "[Samuel J. Palmer](https://github.com/sp94), "
+      },
+      {
+        "row": 16,
+        "rowsha": "SMBC/eKXzGj+ukcZpdbOkBH9kutNXbDiaFbXJARhoIs=",
+        "originContent": "[platipo](https://github.com/platipo), ",
+        "translatedContent": "[platipo](https://github.com/platipo), "
+      },
+      {
+        "row": 17,
+        "rowsha": "vog/PqNYI3iIbFerMXrOdQCF0l7TDyPVUMLSXmJ1p50=",
+        "originContent": "[Lorenzo Fioroni](https://github.com/LorenzoFioroni)",
+        "translatedContent": "[Lorenzo Fioroni](https://github.com/LorenzoFioroni)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

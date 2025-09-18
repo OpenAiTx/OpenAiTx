@@ -1,0 +1,981 @@
+[
+  {
+    "Id": 1,
+    "Content": "[![PyPI version](https://badge.fury.io/py/rsmf.svg)](https://pypi.org/project/rsmf/)\n[![Documentation Status](https://readthedocs.org/projects/rsmf/badge/?version=latest)](https://rsmf.readthedocs.io/en/latest/?badge=latest)\n[![rsmf](https://circleci.com/gh/johannesjmeyer/rsmf.svg?style=shield)](https://github.com/johannesjmeyer/rsmf)\n[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)\n\n\n# rsmf (right-size my figures)\n\nWhen I am writing a paper I am a bit picky about the figures. It is especially important for me that the fonts and font sizes match the surrounding document. As I usually plot with matplotlib I created this library to help with that. This library provides a means to \nautomatically adjust figure sizes and font sizes in matplotlib to fit the ones in commonly used scientific journals. Currently `quantumarticle` and `revtex4` are supported. \n\n# Install\n\nYou can get the latest release version from PyPI.",
+    "ContentSha": "Wqh7nCimxaUYF3sAtQTzrQFEZzyNHWht0DQaSNAu2eU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[![PyPI version](https://badge.fury.io/py/rsmf.svg)](https://pypi.org/project/rsmf/)\n[![Documentation Status](https://readthedocs.org/projects/rsmf/badge/?version=latest)](https://rsmf.readthedocs.io/en/latest/?badge=latest)\n[![rsmf](https://circleci.com/gh/johannesjmeyer/rsmf.svg?style=shield)](https://github.com/johannesjmeyer/rsmf)\n[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)\n\n\n# rsmf（right-size my figures）\n\n論文を書くとき、図に関しては少しこだわりがあります。特にフォントやフォントサイズが周囲の文書と一致することが重要です。通常はmatplotlibでプロットするため、このライブラリを作成してそれを支援しています。このライブラリは、matplotlibの図のサイズとフォントサイズを一般的に使われる科学雑誌に合わせて自動調整する手段を提供します。現在は`quantumarticle`と`revtex4`に対応しています。\n\n# インストール\n\n最新のリリース版はPyPIから入手できます。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HIPmMr3fBHVhKR66i/KukRutcRYKj77GklrE+6dKiDg=",
+        "originContent": "[![PyPI version](https://badge.fury.io/py/rsmf.svg)](https://pypi.org/project/rsmf/)",
+        "translatedContent": "[![PyPI version](https://badge.fury.io/py/rsmf.svg)](https://pypi.org/project/rsmf/)"
+      },
+      {
+        "row": 2,
+        "rowsha": "d+DlEwfakLByGuOOo+Va4SOgG8yC/6q0tQtaNW/of2A=",
+        "originContent": "[![Documentation Status](https://readthedocs.org/projects/rsmf/badge/?version=latest)](https://rsmf.readthedocs.io/en/latest/?badge=latest)",
+        "translatedContent": "[![Documentation Status](https://readthedocs.org/projects/rsmf/badge/?version=latest)](https://rsmf.readthedocs.io/en/latest/?badge=latest)"
+      },
+      {
+        "row": 3,
+        "rowsha": "Oy57PeIW5BL7UYkdzPeeUdXrsH4MNkLqRUeMy4sx20A=",
+        "originContent": "[![rsmf](https://circleci.com/gh/johannesjmeyer/rsmf.svg?style=shield)](https://github.com/johannesjmeyer/rsmf)",
+        "translatedContent": "[![rsmf](https://circleci.com/gh/johannesjmeyer/rsmf.svg?style=shield)](https://github.com/johannesjmeyer/rsmf)"
+      },
+      {
+        "row": 4,
+        "rowsha": "YPkILow6kKg7Sd+OPagzr5GnsBF1IUb9mjmsEYSr6Zc=",
+        "originContent": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
+        "translatedContent": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "4jNk+DMBQPYVQ1/VPzx+8lEQd190Uo4vv3dU7lI9SbY=",
+        "originContent": "# rsmf (right-size my figures)",
+        "translatedContent": "# rsmf（right-size my figures）"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "BNowAoeX4sCMNaZRSBAK/MWWKwqa7JJYOQXb2vq3OQ8=",
+        "originContent": "When I am writing a paper I am a bit picky about the figures. It is especially important for me that the fonts and font sizes match the surrounding document. As I usually plot with matplotlib I created this library to help with that. This library provides a means to ",
+        "translatedContent": "論文を書くとき、図に関しては少しこだわりがあります。特にフォントやフォントサイズが周囲の文書と一致することが重要です。通常はmatplotlibでプロットするため、このライブラリを作成してそれを支援しています。このライブラリは、matplotlibの図のサイズとフォントサイズを一般的に使われる科学雑誌に合わせて自動調整する手段を提供します。現在は`quantumarticle`と`revtex4`に対応しています。"
+      },
+      {
+        "row": 10,
+        "rowsha": "oHUybXZwN8v7WfLT73hXqUwceaQV7Xd1pa8+l7NMYXo=",
+        "originContent": "automatically adjust figure sizes and font sizes in matplotlib to fit the ones in commonly used scientific journals. Currently `quantumarticle` and `revtex4` are supported. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# インストール"
+      },
+      {
+        "row": 12,
+        "rowsha": "LIfcujHTHgMPXtLqP+h3+M/6OPAmhQh2NVkBUIIiPFQ=",
+        "originContent": "# Install",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "最新のリリース版はPyPIから入手できます。"
+      },
+      {
+        "row": 14,
+        "rowsha": "qrSu/U5RdlfEyhxN+fQAcKm8WOW8ihnftUIuehp4jF8=",
+        "originContent": "You can get the latest release version from PyPI.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\npip install rsmf\n```",
+    "ContentSha": "KdEbGxU3V3GU0Ty+xJhA4XDBzYo1q40mO9tnmn0mDhE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install rsmf\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "VXStNQaLIMvjjGZIGZBz5/nNw+NGnlobEaovaUBp3dw=",
+        "originContent": "pip install rsmf",
+        "translatedContent": "pip install rsmf"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "To get the latest development version you have to install the package from GitHub.",
+    "ContentSha": "ow7ysgeYJ4qor8dJbG6xRKNidpF+wQWuMbnrLaF5eFc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "最新の開発版を入手するには、GitHubからパッケージをインストールする必要があります。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ow7ysgeYJ4qor8dJbG6xRKNidpF+wQWuMbnrLaF5eFc=",
+        "originContent": "To get the latest development version you have to install the package from GitHub.",
+        "translatedContent": "最新の開発版を入手するには、GitHubからパッケージをインストールする必要があります。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\npip install git+https://www.github.com/johannesjmeyer/rsmf\n```",
+    "ContentSha": "tC7aMcGPYarU4xxdh5C408LKKlU9RE2jucxR0B/HzlY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install git+https://www.github.com/johannesjmeyer/rsmf\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TI7WWxH/5yco7EJ/4NjxNGjaVpGW6TestTIOJwRHSM0=",
+        "originContent": "pip install git+https://www.github.com/johannesjmeyer/rsmf",
+        "translatedContent": "pip install git+https://www.github.com/johannesjmeyer/rsmf"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nThe package depends on matplotlib's PGF backend. To be able to use it, you need to have a working TeX distribution with `pdflatex` installed (see further [Issue #2](https://github.com/johannesjmeyer/rsmf/issues/2)).\n\n# Usage\n\nA detailed explanation of usage is given in the [docs](https://rsmf.readthedocs.io/en/latest/source/howto.html).\n\n## Setup\nYou need to tell rsmf how you set up your document by invoking `rsmf.setup`. This can be done in two ways. Either, you give rsmf the `\\documentclass` string used for setting up the document, as in",
+    "ContentSha": "SlIQ7DUMtjiIQAHQwWAoRE+4EPXxUjfx8XQtcZMoAwc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nこのパッケージはmatplotlibのPGFバックエンドに依存しています。使用するには、`pdflatex`がインストールされた動作可能なTeXディストリビューションが必要です（詳細は[Issue #2](https://github.com/johannesjmeyer/rsmf/issues/2)を参照）。\n\n# 使用法\n\n使用法の詳細な説明は[ドキュメント](https://rsmf.readthedocs.io/en/latest/source/howto.html)に記載されています。\n\n## セットアップ\n`rsmf.setup`を呼び出して、ドキュメントのセットアップ方法をrsmfに伝える必要があります。これは2つの方法で行えます。1つは、ドキュメントを設定するために使用した`\\documentclass`文字列をrsmfに渡す方法で、例えば",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wDko1SHrNJgCLXrzccucnzl4FZOxSX0wvYGPhN2zbL0=",
+        "originContent": "The package depends on matplotlib's PGF backend. To be able to use it, you need to have a working TeX distribution with `pdflatex` installed (see further [Issue #2](https://github.com/johannesjmeyer/rsmf/issues/2)).",
+        "translatedContent": "このパッケージはmatplotlibのPGFバックエンドに依存しています。使用するには、`pdflatex`がインストールされた動作可能なTeXディストリビューションが必要です（詳細は[Issue #2](https://github.com/johannesjmeyer/rsmf/issues/2)を参照）。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VQl64phXBjjplyWiGKNjjWZLPM0chOlnOxoC73zDU/k=",
+        "originContent": "# Usage",
+        "translatedContent": "# 使用法"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "qN1Ut3xOOqGHzFcsWKrZwt9fRvSCIpwyjYMmdI1Q9Dw=",
+        "originContent": "A detailed explanation of usage is given in the [docs](https://rsmf.readthedocs.io/en/latest/source/howto.html).",
+        "translatedContent": "使用法の詳細な説明は[ドキュメント](https://rsmf.readthedocs.io/en/latest/source/howto.html)に記載されています。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## セットアップ"
+      },
+      {
+        "row": 9,
+        "rowsha": "M3lj0FkzxUKctbPr7RhP5tI8jhe8fmGUyvI3PbSAJYU=",
+        "originContent": "You need to tell rsmf how you set up your document by invoking `rsmf.setup`. This can be done in two ways. Either, you give rsmf the `\\documentclass` string used for setting up the document, as in",
+        "translatedContent": "`rsmf.setup`を呼び出して、ドキュメントのセットアップ方法をrsmfに伝える必要があります。これは2つの方法で行えます。1つは、ドキュメントを設定するために使用した`\\documentclass`文字列をrsmfに渡す方法で、例えば"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```python\nimport rsmf\nformatter = rsmf.setup(r\"\\documentclass[a4paper,12pt,noarxiv]{quantumarticle}\")\n```",
+    "ContentSha": "VlWiYpRRp3kmMxvYe18dpQ17qBUg8n9KFd8Ujjpxuc8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nimport rsmf\nformatter = rsmf.setup(r\"\\documentclass[a4paper,12pt,noarxiv]{quantumarticle}\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "B9GBpBrJASoyL47hB7pI/cgPUkpjBknjuQ83RyrSbzY=",
+        "originContent": "import rsmf",
+        "translatedContent": "import rsmf"
+      },
+      {
+        "row": 3,
+        "rowsha": "RJ9SrcmLtgEksHAGmaD6P3MsXZAyhctjlM6+LoqMSwo=",
+        "originContent": "formatter = rsmf.setup(r\"\\documentclass[a4paper,12pt,noarxiv]{quantumarticle}\")",
+        "translatedContent": "formatter = rsmf.setup(r\"\\documentclass[a4paper,12pt,noarxiv]{quantumarticle}\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "The `r` in front of the string is necessary so that `\\d` is not mistaken for an escape sequence. If you have your document stored locally, there is an even more convenient way:\nyou can just supply rsmf with the path to your main tex file (the one containing the document setup) and it will find that out for itself:",
+    "ContentSha": "LXxP/o+vLQtsuo48BXhB2+5QefXzbahgcNLcmgqN+0Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "文字列の前の `r` は、`\\d` がエスケープシーケンスと誤認されないようにするために必要です。ドキュメントがローカルに保存されている場合は、さらに便利な方法があります：  \nrsmf にメインの tex ファイル（ドキュメントの設定を含むファイル）のパスを渡すだけで、rsmf がそれを自動的に見つけてくれます：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "zggJGzUsuYsah/o5JyfADd0asCsa0aGypB+Rl0Il7Jo=",
+        "originContent": "The `r` in front of the string is necessary so that `\\d` is not mistaken for an escape sequence. If you have your document stored locally, there is an even more convenient way:",
+        "translatedContent": "文字列の前の `r` は、`\\d` がエスケープシーケンスと誤認されないようにするために必要です。ドキュメントがローカルに保存されている場合は、さらに便利な方法があります：  "
+      },
+      {
+        "row": 2,
+        "rowsha": "+TyWvvG914ngWhXrFjDuKhHExVKVvcQaaZt89JFU6po=",
+        "originContent": "you can just supply rsmf with the path to your main tex file (the one containing the document setup) and it will find that out for itself:",
+        "translatedContent": "rsmf にメインの tex ファイル（ドキュメントの設定を含むファイル）のパスを渡すだけで、rsmf がそれを自動的に見つけてくれます："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```python\nformatter = rsmf.setup(\"example.tex\")\n```",
+    "ContentSha": "uHmUoQkLNnJvOQqDurPF2bSn81ZS+khX5R++5xi5Fkg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nformatter = rsmf.setup(\"example.tex\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "7DhBct1qgFg0piby+hDHM4xD7tP1/K40mQhIy9eRXVk=",
+        "originContent": "formatter = rsmf.setup(\"example.tex\")",
+        "translatedContent": "formatter = rsmf.setup(\"example.tex\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "This is especially cool because rsmf will automatically adjust the plots when the underlying document class is changed without any needs to change python code! This makes swapping journals a lot easier.\n\nIf the document class you're targeting is not supported by `rsmf`, you can still use it. In that case you have to extract the relevant measurements yourself and use `rsmf.CustomFormatter`. A detailed explanation is given in the [docs](https://rsmf.readthedocs.io/en/latest/source/howto.html).\n\n## Figures\nThe setup routine will return a formatter. This formatter can then be used to create matplotlib figure objects by invoking the method `formatter.figure`. It has three arguments:\n\n* `aspect_ratio` (float, optional): the aspect ratio (height/width) of your plot. Defaults to the inverse of the golden ratio.\n* `width_ratio` (float, optional): the width of your plot in multiples of `\\columnwidth`. Defaults to 1.0.\n* `wide` (bool, optional): indicates if the figures spans two columns in twocolumn mode, \n                i.e. if the figure* environment is used, has no effect in onecolumn mode . Defaults to False.\n\nThis is the place where you set the width of your plots, _not in the LaTeX document._ If you include the resulting figure with a different width, the font sizes will not match the surrounding document!\n\nFor example, a regular figure is created via",
+    "ContentSha": "OIGPzL2KuGvZi72/xQcej3M2T+G9qrjV8MEl2QlNFac=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "これは特に素晴らしい点で、rsmfは基盤となるドキュメントクラスが変更されてもPythonコードを変更することなくプロットを自動的に調整します！これにより、ジャーナルの切り替えが非常に簡単になります。\n\nもしターゲットとするドキュメントクラスが`rsmf`でサポートされていない場合でも使用可能です。その場合は、関連する寸法を自分で抽出し、`rsmf.CustomFormatter`を使用する必要があります。詳細な説明は[ドキュメント](https://rsmf.readthedocs.io/en/latest/source/howto.html)に記載されています。\n\n## 図\nセットアップルーチンはフォーマッターを返します。このフォーマッターは`formatter.figure`メソッドを呼び出すことでmatplotlibの図オブジェクトを作成するために使用できます。引数は3つあります：\n\n* `aspect_ratio`（float、オプション）：プロットの縦横比（高さ/幅）。デフォルトは黄金比の逆数です。\n* `width_ratio`（float、オプション）：`\\columnwidth`の倍数でのプロットの幅。デフォルトは1.0です。\n* `wide`（bool、オプション）：twocolumnモードで図が2カラムにまたがるかを示します。  \n                すなわちfigure*環境が使われる場合で、onecolumnモードでは効果がありません。デフォルトはFalseです。\n\nここでプロットの幅を設定します。_LaTeXドキュメント内ではありません。_ もし異なる幅で図を挿入すると、フォントサイズが周囲の文書と一致しなくなります！\n\n例えば、通常の図は以下のように作成されます。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VUxQ51ExI0iJSESeheGY01vMmFm+FAA51gnvc7kk5Nw=",
+        "originContent": "This is especially cool because rsmf will automatically adjust the plots when the underlying document class is changed without any needs to change python code! This makes swapping journals a lot easier.",
+        "translatedContent": "これは特に素晴らしい点で、rsmfは基盤となるドキュメントクラスが変更されてもPythonコードを変更することなくプロットを自動的に調整します！これにより、ジャーナルの切り替えが非常に簡単になります。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "SWqcWMF6mmV8oaFOGdddPIlkWQoWLCg5MYnURpFyclY=",
+        "originContent": "If the document class you're targeting is not supported by `rsmf`, you can still use it. In that case you have to extract the relevant measurements yourself and use `rsmf.CustomFormatter`. A detailed explanation is given in the [docs](https://rsmf.readthedocs.io/en/latest/source/howto.html).",
+        "translatedContent": "もしターゲットとするドキュメントクラスが`rsmf`でサポートされていない場合でも使用可能です。その場合は、関連する寸法を自分で抽出し、`rsmf.CustomFormatter`を使用する必要があります。詳細な説明は[ドキュメント](https://rsmf.readthedocs.io/en/latest/source/howto.html)に記載されています。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "cLRUgush1dWYkuhlLAtdr3WstyKCnQ3hiqNd258cy3Y=",
+        "originContent": "## Figures",
+        "translatedContent": "## 図"
+      },
+      {
+        "row": 6,
+        "rowsha": "fBW6SllKM8AhtxPCRA9CtM/2cGGgObCzUgMrtIZtGWU=",
+        "originContent": "The setup routine will return a formatter. This formatter can then be used to create matplotlib figure objects by invoking the method `formatter.figure`. It has three arguments:",
+        "translatedContent": "セットアップルーチンはフォーマッターを返します。このフォーマッターは`formatter.figure`メソッドを呼び出すことでmatplotlibの図オブジェクトを作成するために使用できます。引数は3つあります："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "lUfASa9hB3vix45l/FlugdP4aybABf33lK4JQ1Icefg=",
+        "originContent": "* `aspect_ratio` (float, optional): the aspect ratio (height/width) of your plot. Defaults to the inverse of the golden ratio.",
+        "translatedContent": "* `aspect_ratio`（float、オプション）：プロットの縦横比（高さ/幅）。デフォルトは黄金比の逆数です。"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZjbAM69vM5Ts2cOqkLSOa3IPcD8tjEB6Kat/0mFuU00=",
+        "originContent": "* `width_ratio` (float, optional): the width of your plot in multiples of `\\columnwidth`. Defaults to 1.0.",
+        "translatedContent": "* `width_ratio`（float、オプション）：`\\columnwidth`の倍数でのプロットの幅。デフォルトは1.0です。"
+      },
+      {
+        "row": 10,
+        "rowsha": "W/q30HfGzfRCIx6qY68jFqsyIu1agUT/ULI5F7/LnRU=",
+        "originContent": "* `wide` (bool, optional): indicates if the figures spans two columns in twocolumn mode, ",
+        "translatedContent": "* `wide`（bool、オプション）：twocolumnモードで図が2カラムにまたがるかを示します。  "
+      },
+      {
+        "row": 11,
+        "rowsha": "T0fqOKo/rZ/9SjyVuxuA0o6PHs545sFcnuUHD1bRWAk=",
+        "originContent": "                i.e. if the figure* environment is used, has no effect in onecolumn mode . Defaults to False.",
+        "translatedContent": "                すなわちfigure*環境が使われる場合で、onecolumnモードでは効果がありません。デフォルトはFalseです。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "uTHYDEjqMFo/etpWbrt6YNrmzl+AdZ7hEDReU8P8FIM=",
+        "originContent": "This is the place where you set the width of your plots, _not in the LaTeX document._ If you include the resulting figure with a different width, the font sizes will not match the surrounding document!",
+        "translatedContent": "ここでプロットの幅を設定します。_LaTeXドキュメント内ではありません。_ もし異なる幅で図を挿入すると、フォントサイズが周囲の文書と一致しなくなります！"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "8pJAU2vqfMe//e4vEEQY7f/mSQBRjMgk8r0e0hTufPA=",
+        "originContent": "For example, a regular figure is created via",
+        "translatedContent": "例えば、通常の図は以下のように作成されます。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```python\nfig = formatter.figure(aspect_ratio=.5)\n\n# ... some plotting ...\nplt.savefig(\"example.pdf\")\n```",
+    "ContentSha": "LjYnEW/pq9dN+EsLH2tYgszbLf3GSr7DKOnGx+km2gE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfig = formatter.figure(aspect_ratio=.5)\n\n# ... some plotting ...\nplt.savefig(\"example.pdf\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "QPKw0BOb3RODJz8wPNwPQ69qOHVTQKhvOMx8i0NXEyA=",
+        "originContent": "fig = formatter.figure(aspect_ratio=.5)",
+        "translatedContent": "fig = formatter.figure(aspect_ratio=.5)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "u+aNNBdjJKPqHtrBvTHgKeATl+RZsalUuQJRHbtbrw4=",
+        "originContent": "# ... some plotting ...",
+        "translatedContent": "# ... some plotting ..."
+      },
+      {
+        "row": 5,
+        "rowsha": "QlieelNE3U4nAcky/s5PphGQGHaCJFLPZw4XD3eV2zQ=",
+        "originContent": "plt.savefig(\"example.pdf\")",
+        "translatedContent": "plt.savefig(\"example.pdf\")"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "and included via",
+    "ContentSha": "g99DSfZXptip9aSzRrm278B50JPRCo8K8jnVdDhgML8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "および含まれています",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "g99DSfZXptip9aSzRrm278B50JPRCo8K8jnVdDhgML8=",
+        "originContent": "and included via",
+        "translatedContent": "および含まれています"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```tex\n\\begin{figure}\n\t\\centering\n\t\\includegraphics{example}\n\t\\caption{...}\n\\end{figure}\n```",
+    "ContentSha": "JSN0xlXwUkeB4ua/A0VbEcTgIHdwyRxUfuLtOpd/qeE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tex\n\\begin{figure}\n\t\\centering\n\t\\includegraphics{example}\n\t\\caption{...}\n\\end{figure}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "98jpY77RENZcWn7gHXzQz0dTk5N0Dktrgr2cwQlPQig=",
+        "originContent": "```tex",
+        "translatedContent": "```tex"
+      },
+      {
+        "row": 2,
+        "rowsha": "gtaD2AAi7W1avgGmeYJsl92y/K26l5u9mFW7q/m2X5g=",
+        "originContent": "\\begin{figure}",
+        "translatedContent": "\\begin{figure}"
+      },
+      {
+        "row": 3,
+        "rowsha": "xwD3gkFHPABtuZz6FgFLVMhTTmD0lHzbjFvRbwduoDE=",
+        "originContent": "\t\\centering",
+        "translatedContent": "\t\\centering"
+      },
+      {
+        "row": 4,
+        "rowsha": "HXQ29B4jNFrBSQoipvSElNrsX9KZsCauCK0kusr/6LQ=",
+        "originContent": "\t\\includegraphics{example}",
+        "translatedContent": "\t\\includegraphics{example}"
+      },
+      {
+        "row": 5,
+        "rowsha": "LkvApgrgv+yZ9tNdFt8xfSQ2gxeHawE82DucYNlitXI=",
+        "originContent": "\t\\caption{...}",
+        "translatedContent": "\t\\caption{...}"
+      },
+      {
+        "row": 6,
+        "rowsha": "s2ZPibhgS/xvZorwDLHmc/CRZDIsvlJ77DYR4AOEUVo=",
+        "originContent": "\\end{figure}",
+        "translatedContent": "\\end{figure}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "A wide figure that spans 80% of the page on the other hand is created by",
+    "ContentSha": "GCeNDLU6C0mzfE/cybXzCKQuh5UJryqx7P01GrhjMPs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "一方で、ページの80％を占める幅広い図は、次の方法で作成されます",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GCeNDLU6C0mzfE/cybXzCKQuh5UJryqx7P01GrhjMPs=",
+        "originContent": "A wide figure that spans 80% of the page on the other hand is created by",
+        "translatedContent": "一方で、ページの80％を占める幅広い図は、次の方法で作成されます"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```python\nfig = formatter.figure(width_ratio=.8, wide=True)\n\n# ... some plotting ...\nplt.savefig(\"example_wide.pdf\")\n```",
+    "ContentSha": "OMzy2C/FqamyWA/hLc/bCBB21RBqwVWNLKz4iSNfoGM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfig = formatter.figure(width_ratio=.8, wide=True)\n\n# ... some plotting ...\nplt.savefig(\"example_wide.pdf\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "HI9KuGnzSVg1kAHIzYt8alpX09FYza+pQuqzEDVIycU=",
+        "originContent": "fig = formatter.figure(width_ratio=.8, wide=True)",
+        "translatedContent": "fig = formatter.figure(width_ratio=.8, wide=True)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "u+aNNBdjJKPqHtrBvTHgKeATl+RZsalUuQJRHbtbrw4=",
+        "originContent": "# ... some plotting ...",
+        "translatedContent": "# ... some plotting ..."
+      },
+      {
+        "row": 5,
+        "rowsha": "VqNxDMOD96Nnq2T0VWoBiG2zoiSclL5u7dgp9yNJc4Y=",
+        "originContent": "plt.savefig(\"example_wide.pdf\")",
+        "translatedContent": "plt.savefig(\"example_wide.pdf\")"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "and included via the multi-column `figure*` environment:",
+    "ContentSha": "XId8utFNHAJlTEpmJpgbu9fEPBeAzurzJu0P5l4+TYI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "およびマルチカラムの `figure*` 環境を使用して含めることができます:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "XId8utFNHAJlTEpmJpgbu9fEPBeAzurzJu0P5l4+TYI=",
+        "originContent": "and included via the multi-column `figure*` environment:",
+        "translatedContent": "およびマルチカラムの `figure*` 環境を使用して含めることができます:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```tex\n\\begin{figure*}\n\t\\centering\n\t\\includegraphics{example_wide}\n\t\\caption{...}\n\\end{figure*}\n```",
+    "ContentSha": "OmN6ztQqhMt1Cs7Lmh4CYYI9w8u1y9zLNYbvtkMcQ3I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tex\n\\begin{figure*}\n\t\\centering\n\t\\includegraphics{example_wide}\n\t\\caption{...}\n\\end{figure*}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "98jpY77RENZcWn7gHXzQz0dTk5N0Dktrgr2cwQlPQig=",
+        "originContent": "```tex",
+        "translatedContent": "```tex"
+      },
+      {
+        "row": 2,
+        "rowsha": "WcrCWuFXuABr12kYp4K52Cktieo83G48YA17zIEBD94=",
+        "originContent": "\\begin{figure*}",
+        "translatedContent": "\\begin{figure*}"
+      },
+      {
+        "row": 3,
+        "rowsha": "xwD3gkFHPABtuZz6FgFLVMhTTmD0lHzbjFvRbwduoDE=",
+        "originContent": "\t\\centering",
+        "translatedContent": "\t\\centering"
+      },
+      {
+        "row": 4,
+        "rowsha": "JIJsXSy5kAaLcL+jbr77mtTjLBpzQqHmjg2swloS7Ww=",
+        "originContent": "\t\\includegraphics{example_wide}",
+        "translatedContent": "\t\\includegraphics{example_wide}"
+      },
+      {
+        "row": 5,
+        "rowsha": "LkvApgrgv+yZ9tNdFt8xfSQ2gxeHawE82DucYNlitXI=",
+        "originContent": "\t\\caption{...}",
+        "translatedContent": "\t\\caption{...}"
+      },
+      {
+        "row": 6,
+        "rowsha": "JMz7tdKnCMhE3aKAz/o/FyZVr4cRB6dXvm81yrCZBbQ=",
+        "originContent": "\\end{figure*}",
+        "translatedContent": "\\end{figure*}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nNote that you should always save your figures in some sort of vectorized format, like `pdf` and that calling `plt.tight_layout()` before saving usually makes your plots nicer.\n\nMoreover, observe that the ``aspect_ratio`` parameter is defined as the height of the plot devided by its width. Even though aspect ratios are more commonly defined as width/height, this choice results in having the width and the height of the figure proportional to ``width_ratio`` and ``aspect_ratio`` respectively. \n\nIt is also possible to create the figure objects by hand, using `formatter.columnwidth` and `formatter.wide_columnwidth`, the `formatter.figure` routine is a convenience wrapper around this.\n\n## Other features\nYou can access the underlying fontsizes via `formatter.fontsizes`. The nomenclature follows that of LaTeX itself, so we have e.g. `formatter.fontsizes.tiny` or `formatter.fontsizes.Large`.\nThis is especially useful if you want to tweak titles, legends and annotations while still having matching fontsizes.\n\n## Using rsmf with other frameworks\nYou can use rsmf together with your favorite plotting framework, for example `seaborn`. There is only one catch: if you use matplotlib styles or seaborn styles, you might overwrite the settings imposed by rsmf, especially regarding fontsize. To this end, the formatters have a method `formatter.set_default_fontsizes` that only change the underlying fontsizes. An example use would be",
+    "ContentSha": "OVH8LCnl/S5zEwfpCBczyicXnnVUKUR2A6fOLExFpRc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n図を保存する際は、常に `pdf` のようなベクトル形式で保存することをお勧めします。また、保存前に `plt.tight_layout()` を呼び出すことで、プロットのレイアウトがより美しくなります。\n\nさらに、``aspect_ratio`` パラメータはプロットの高さを幅で割った値として定義されていることに注意してください。一般的にはアスペクト比は幅/高さで定義されますが、この選択により図の幅と高さがそれぞれ ``width_ratio`` と ``aspect_ratio`` に比例する形になります。\n\n図オブジェクトは手動で `formatter.columnwidth` と `formatter.wide_columnwidth` を使って作成することも可能で、`formatter.figure` はこれを簡単にするラッパーです。\n\n## その他の機能\n基礎となるフォントサイズには `formatter.fontsizes` からアクセスできます。命名規則はLaTeXそのもので、例えば `formatter.fontsizes.tiny` や `formatter.fontsizes.Large` があります。\nこれはタイトルや凡例、注釈のフォントサイズを調整しつつ、サイズを統一したい場合に特に便利です。\n\n## rsmfを他のフレームワークで使う\nrsmfはお好みのプロットフレームワーク（例：`seaborn`）と一緒に使えます。ただし注意点が一つあります。matplotlibスタイルやseabornスタイルを使うと、特にフォントサイズに関してrsmfの設定を上書きしてしまうことがあります。そのため、フォーマッターには `formatter.set_default_fontsizes` というメソッドがあり、これを使うと基礎のフォントサイズのみを変更できます。使用例は以下の通りです。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "G1mMDh+4J2RJn5WupjOFzi091S5Lw8Q/EVGI0lVcwhk=",
+        "originContent": "Note that you should always save your figures in some sort of vectorized format, like `pdf` and that calling `plt.tight_layout()` before saving usually makes your plots nicer.",
+        "translatedContent": "図を保存する際は、常に `pdf` のようなベクトル形式で保存することをお勧めします。また、保存前に `plt.tight_layout()` を呼び出すことで、プロットのレイアウトがより美しくなります。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "C12+w96bQw9TimUdYo0WSLxiBEJe4l2z9CRM5+Xbwp4=",
+        "originContent": "Moreover, observe that the ``aspect_ratio`` parameter is defined as the height of the plot devided by its width. Even though aspect ratios are more commonly defined as width/height, this choice results in having the width and the height of the figure proportional to ``width_ratio`` and ``aspect_ratio`` respectively. ",
+        "translatedContent": "さらに、``aspect_ratio`` パラメータはプロットの高さを幅で割った値として定義されていることに注意してください。一般的にはアスペクト比は幅/高さで定義されますが、この選択により図の幅と高さがそれぞれ ``width_ratio`` と ``aspect_ratio`` に比例する形になります。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "hRyjiRsl528NShAVN1DEqO4t2kfTGWKnsJJqfWh6gcE=",
+        "originContent": "It is also possible to create the figure objects by hand, using `formatter.columnwidth` and `formatter.wide_columnwidth`, the `formatter.figure` routine is a convenience wrapper around this.",
+        "translatedContent": "図オブジェクトは手動で `formatter.columnwidth` と `formatter.wide_columnwidth` を使って作成することも可能で、`formatter.figure` はこれを簡単にするラッパーです。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "7EQRY76I+A7m4BkeTPSLGJvs5WFGq4LkJnc1n9kHWlM=",
+        "originContent": "## Other features",
+        "translatedContent": "## その他の機能"
+      },
+      {
+        "row": 9,
+        "rowsha": "rTtTBbaANBMzDEQ/E0o+3wqww+zAYYkpj61+mzsNPMo=",
+        "originContent": "You can access the underlying fontsizes via `formatter.fontsizes`. The nomenclature follows that of LaTeX itself, so we have e.g. `formatter.fontsizes.tiny` or `formatter.fontsizes.Large`.",
+        "translatedContent": "基礎となるフォントサイズには `formatter.fontsizes` からアクセスできます。命名規則はLaTeXそのもので、例えば `formatter.fontsizes.tiny` や `formatter.fontsizes.Large` があります。"
+      },
+      {
+        "row": 10,
+        "rowsha": "hXuJC3gnCFA8CmNkIT6KInoNUSM99rgQIXLj5pPVYV0=",
+        "originContent": "This is especially useful if you want to tweak titles, legends and annotations while still having matching fontsizes.",
+        "translatedContent": "これはタイトルや凡例、注釈のフォントサイズを調整しつつ、サイズを統一したい場合に特に便利です。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Kw4zEDjuluoCjtXjkoCQrqXd7SfZT6Ac1KnNT+jq3jw=",
+        "originContent": "## Using rsmf with other frameworks",
+        "translatedContent": "## rsmfを他のフレームワークで使う"
+      },
+      {
+        "row": 13,
+        "rowsha": "3Z/bLJL6ejuokGZ5U4PjswTl/qfL0nlD3UAXabtt4ow=",
+        "originContent": "You can use rsmf together with your favorite plotting framework, for example `seaborn`. There is only one catch: if you use matplotlib styles or seaborn styles, you might overwrite the settings imposed by rsmf, especially regarding fontsize. To this end, the formatters have a method `formatter.set_default_fontsizes` that only change the underlying fontsizes. An example use would be",
+        "translatedContent": "rsmfはお好みのプロットフレームワーク（例：`seaborn`）と一緒に使えます。ただし注意点が一つあります。matplotlibスタイルやseabornスタイルを使うと、特にフォントサイズに関してrsmfの設定を上書きしてしまうことがあります。そのため、フォーマッターには `formatter.set_default_fontsizes` というメソッドがあり、これを使うと基礎のフォントサイズのみを変更できます。使用例は以下の通りです。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```python\nfig = formatter.figure(wide=True)\nsns.set(style=\"ticks\")\nformatter.set_default_fontsizes()\n\n# ... some plotting ...\n```",
+    "ContentSha": "lYbYRwzpCaNnKTlg4IXHOm5fKo/r02QqwTkeKVwWUsI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfig = formatter.figure(wide=True)\nsns.set(style=\"ticks\")\nformatter.set_default_fontsizes()\n\n# ... some plotting ...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "L87dKZ5gM+b60v9TP3crrUG7LNanFXPpFiCyM9MEeMc=",
+        "originContent": "fig = formatter.figure(wide=True)",
+        "translatedContent": "fig = formatter.figure(wide=True)"
+      },
+      {
+        "row": 3,
+        "rowsha": "gFJ7k80nFRXAsuJWRLVNWsrZkRG6b8Grw3p+3Ifxt4k=",
+        "originContent": "sns.set(style=\"ticks\")",
+        "translatedContent": "sns.set(style=\"ticks\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "2zjbzdTleeyzfdtHw2S76nGlNFLo6x0tpq/QtSCwMI0=",
+        "originContent": "formatter.set_default_fontsizes()",
+        "translatedContent": "formatter.set_default_fontsizes()"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "u+aNNBdjJKPqHtrBvTHgKeATl+RZsalUuQJRHbtbrw4=",
+        "originContent": "# ... some plotting ...",
+        "translatedContent": "# ... some plotting ..."
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "Sometimes these styles also overwrite other things, like the font family (serif/sans-serif). There is no correction method for that yet.\n\n## Example\nAn example document alongside with a notebook for making the plots used can be found in the `examples` folder.\n\n# How it works\nUnder the hood, rsmf sets the matplotlib backend to `pgf`, which allows the use of LaTeX. For each supported document class, the specific column widths and font sizes are stored in code, alongside with packages that are loaded that change fonts. For `quantumarticle`, for example, the package `lmodern` is loaded into the `pgf` backend to get the right sans-serif font. \n\nWhen calling `rsmf.setup`, matplotlib's `rcParams` are adjusted to make the fontsizes match the surrounding document. Note that `formatter.figure` does not mess with `rcParams`.\n\n# Contribute\nDo you have trouble setting up plots for your favorite document class and it is not supported here? Do not hesitate to make a PR!\n\nA big thanks for contributions goes to:\n[Samuel J. Palmer](https://github.com/sp94), \n[platipo](https://github.com/platipo), \n[Lorenzo Fioroni](https://github.com/LorenzoFioroni)\n\n",
+    "ContentSha": "/f8EoiEwDStXJu3EWySI9xqj4x2CQW0JUQmdBxOLcUo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "時々、これらのスタイルはフォントファミリー（セリフ体／サンセリフ体）など他の要素も上書きしてしまいます。これに対する修正方法はまだありません。\n\n## 例\n使用されたプロットを作成するためのノートブックとともに例のドキュメントは、`examples`フォルダにあります。\n\n# 動作の仕組み\n内部的に、rsmfはmatplotlibのバックエンドを`pgf`に設定し、LaTeXの使用を可能にします。サポートされている各ドキュメントクラスごとに、特定のカラム幅やフォントサイズがコード内に保存されており、フォントを変更するパッケージも読み込まれます。例えば`quantumarticle`では、正しいサンセリフフォントを得るために`lmodern`パッケージが`pgf`バックエンドに読み込まれます。\n\n`rsmf.setup`を呼び出すと、matplotlibの`rcParams`が周囲のドキュメントに合うようにフォントサイズを調整します。`formatter.figure`は`rcParams`を変更しないことに注意してください。\n\n# 貢献\nお気に入りのドキュメントクラス用にプロットを設定する際に問題があり、ここでサポートされていない場合は、遠慮なくPRを作成してください！\n\n貢献してくださった方々に大きな感謝を：\n[Samuel J. Palmer](https://github.com/sp94)、 \n[platipo](https://github.com/platipo)、 \n[Lorenzo Fioroni](https://github.com/LorenzoFioroni)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "h7pvH+sLnljznj8aiYTmALslZd4a3D0+ngzup6Yyxfc=",
+        "originContent": "Sometimes these styles also overwrite other things, like the font family (serif/sans-serif). There is no correction method for that yet.",
+        "translatedContent": "時々、これらのスタイルはフォントファミリー（セリフ体／サンセリフ体）など他の要素も上書きしてしまいます。これに対する修正方法はまだありません。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+        "originContent": "## Example",
+        "translatedContent": "## 例"
+      },
+      {
+        "row": 4,
+        "rowsha": "d4OWw15Wxb0vi2YU0CIXqqwow9cPMKJqIQKLKLuu1qw=",
+        "originContent": "An example document alongside with a notebook for making the plots used can be found in the `examples` folder.",
+        "translatedContent": "使用されたプロットを作成するためのノートブックとともに例のドキュメントは、`examples`フォルダにあります。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "1DtNwDOFrB90XzERgXvg/RTxip2hxMdS/ldxsuo97Aw=",
+        "originContent": "# How it works",
+        "translatedContent": "# 動作の仕組み"
+      },
+      {
+        "row": 7,
+        "rowsha": "P2OdnGkLh7G2OAbxjxjqx56ibNzxvcALhCK5R3HmbCc=",
+        "originContent": "Under the hood, rsmf sets the matplotlib backend to `pgf`, which allows the use of LaTeX. For each supported document class, the specific column widths and font sizes are stored in code, alongside with packages that are loaded that change fonts. For `quantumarticle`, for example, the package `lmodern` is loaded into the `pgf` backend to get the right sans-serif font. ",
+        "translatedContent": "内部的に、rsmfはmatplotlibのバックエンドを`pgf`に設定し、LaTeXの使用を可能にします。サポートされている各ドキュメントクラスごとに、特定のカラム幅やフォントサイズがコード内に保存されており、フォントを変更するパッケージも読み込まれます。例えば`quantumarticle`では、正しいサンセリフフォントを得るために`lmodern`パッケージが`pgf`バックエンドに読み込まれます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "TAeL/tWMUTWuNBTliOOZxtUU+p6vpf9wFHPOgGNBlQ8=",
+        "originContent": "When calling `rsmf.setup`, matplotlib's `rcParams` are adjusted to make the fontsizes match the surrounding document. Note that `formatter.figure` does not mess with `rcParams`.",
+        "translatedContent": "`rsmf.setup`を呼び出すと、matplotlibの`rcParams`が周囲のドキュメントに合うようにフォントサイズを調整します。`formatter.figure`は`rcParams`を変更しないことに注意してください。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "B1FdaGRtRUw8yO9d6Xa4j4/w1tDz7wsYVH1yHnJCIPg=",
+        "originContent": "# Contribute",
+        "translatedContent": "# 貢献"
+      },
+      {
+        "row": 12,
+        "rowsha": "usMUE7oq3mHbqCEuFD7RFNKCXicjmQCFH3106FWkR20=",
+        "originContent": "Do you have trouble setting up plots for your favorite document class and it is not supported here? Do not hesitate to make a PR!",
+        "translatedContent": "お気に入りのドキュメントクラス用にプロットを設定する際に問題があり、ここでサポートされていない場合は、遠慮なくPRを作成してください！"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "s0Pj9Qp0YCKWD+LDFvc1zLEEzXKRl8wOJJpAcqmUE0s=",
+        "originContent": "A big thanks for contributions goes to:",
+        "translatedContent": "貢献してくださった方々に大きな感謝を："
+      },
+      {
+        "row": 15,
+        "rowsha": "m64snCc2Ww8Ky/jH2BePVpg5tFl2WMd7XGluVL7B2TI=",
+        "originContent": "[Samuel J. Palmer](https://github.com/sp94), ",
+        "translatedContent": "[Samuel J. Palmer](https://github.com/sp94)、 "
+      },
+      {
+        "row": 16,
+        "rowsha": "SMBC/eKXzGj+ukcZpdbOkBH9kutNXbDiaFbXJARhoIs=",
+        "originContent": "[platipo](https://github.com/platipo), ",
+        "translatedContent": "[platipo](https://github.com/platipo)、 "
+      },
+      {
+        "row": 17,
+        "rowsha": "vog/PqNYI3iIbFerMXrOdQCF0l7TDyPVUMLSXmJ1p50=",
+        "originContent": "[Lorenzo Fioroni](https://github.com/LorenzoFioroni)",
+        "translatedContent": "[Lorenzo Fioroni](https://github.com/LorenzoFioroni)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

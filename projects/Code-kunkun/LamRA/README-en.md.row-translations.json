@@ -1,0 +1,866 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Ocl7AKI1FoJWXIFwripTm1IDYVlgSxkPbyOSidF3yug=",
+    "originContent": "# LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant",
+    "translatedContent": "# LamRA: Large Multimodal Model as Your Advanced Retrieval Assistant"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "ar6yI9g4ZnuYr6METQ6F4xWKgIjKevnaS1A0xziPKoo=",
+    "originContent": "This repository is the official implementation of LamRA.",
+    "translatedContent": "This repository is the official implementation of LamRA."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "odY2p45shK8zPk7n1L/v9OiaLu8wTl2wyQTNF8FNWl8=",
+    "originContent": "[🏡 Project Page](https://code-kunkun.github.io/LamRA/) |  [📄 Paper](https://arxiv.org/pdf/2412.01720) | [🤗 LamRA-Ret-Pretrained](https://huggingface.co/code-kunkun/LamRA-Ret-Pretrained) | [🤗 LamRA-Ret](https://huggingface.co/code-kunkun/LamRA-Ret) | [🤗 LamRA-Rank](https://huggingface.co/code-kunkun/LamRA-Rank) | [🤗 Dataset](https://huggingface.co/datasets/code-kunkun/LamRA_Eval)",
+    "translatedContent": "[🏡 Project Page](https://code-kunkun.github.io/LamRA/) |  [📄 Paper](https://arxiv.org/pdf/2412.01720) | [🤗 LamRA-Ret-Pretrained](https://huggingface.co/code-kunkun/LamRA-Ret-Pretrained) | [🤗 LamRA-Ret](https://huggingface.co/code-kunkun/LamRA-Ret) | [🤗 LamRA-Rank](https://huggingface.co/code-kunkun/LamRA-Rank) | [🤗 Dataset](https://huggingface.co/datasets/code-kunkun/LamRA_Eval)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "CA0j5T0YEfdUEK3f4+QwHqd+ymU1KYfnVKltmEAicA4=",
+    "originContent": "```bash ",
+    "translatedContent": "```bash "
+  },
+  {
+    "row": 10,
+    "rowsha": "W9CfN10/pXXPaln/bgad+3TZyE8K3VulXJnxRM9dNgc=",
+    "originContent": "conda create -n lamra python=3.10 -y",
+    "translatedContent": "conda create -n lamra python=3.10 -y"
+  },
+  {
+    "row": 11,
+    "rowsha": "zeeF5YTS/ox1dwz0IN/4Ra9Eg/2ihPCvo6heMByoNnk=",
+    "originContent": "conda activate lamra ",
+    "translatedContent": "conda activate lamra "
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "PFYq2WYOc55VsY4RFQxQQ+KglatiKuRncDAqkoAS/a4=",
+    "originContent": "pip install --upgrade pip  # enable PEP 660 support ",
+    "translatedContent": "pip install --upgrade pip  # enable PEP 660 support "
+  },
+  {
+    "row": 14,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "a1lPmvkK5Xv0vBO4PT/M5wCcm8oZ6tI9H0IWDiWEFxU=",
+    "originContent": "pip install ninja",
+    "translatedContent": "pip install ninja"
+  },
+  {
+    "row": 17,
+    "rowsha": "XUy+Rsnrdygsnp+qxpwAV8gWF2O92l0+ExXhvmi5Epw=",
+    "originContent": "pip install flash-attn --no-build-isolation",
+    "translatedContent": "pip install flash-attn --no-build-isolation"
+  },
+  {
+    "row": 18,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "Y5M9xiCkBVi4onUDb60fnXViZOAGJK3RC2m+ZnPKEJw=",
+    "originContent": "## New Version",
+    "translatedContent": "## New Version"
+  },
+  {
+    "row": 21,
+    "rowsha": "g3k7pZaS1HVWRYEX9cD48Hi10NV6iM2n/uNis5v3IJM=",
+    "originContent": "We have updated the version of Qwen2.5-VL in the `qwen2.5vl` branch.",
+    "translatedContent": "We have updated the version of Qwen2.5-VL in the `qwen2.5vl` branch."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "669wyUjie7v+j/aS3COPBDwvFiQ8FK2vMv9hGy+oUHE=",
+    "originContent": "## Quickstart",
+    "translatedContent": "## Quickstart"
+  },
+  {
+    "row": 24,
+    "rowsha": "4tORlykXwPwcvwJyT9pRZoVuvgOK/Iym+nBU7NVae7c=",
+    "originContent": "Please refer to the `demo.py`",
+    "translatedContent": "Please refer to the `demo.py`"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "IzBAeNTVhkfakNLmvkJa653tbY1k0bbQnI5jh9nRJl0=",
+    "originContent": "## Data Preparation ",
+    "translatedContent": "## Data Preparation "
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "XIbrWvoqIahxRu9We1cXUEfJdqhq/4IuQXkehGFZwb4=",
+    "originContent": "Download Qwen2-VL-7B and place it in `./checkpoints/hf_models/Qwen2-VL-7B-Instruct`",
+    "translatedContent": "Download Qwen2-VL-7B and place it in `./checkpoints/hf_models/Qwen2-VL-7B-Instruct`"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "f+6E/6W1lLlBKOJ4VWJOlPO3PCTxf71wq+4p8wsCZb4=",
+    "originContent": "For pre-training dataset, please refer to [link](https://huggingface.co/datasets/princeton-nlp/datasets-for-simcse)",
+    "translatedContent": "For pre-training dataset, please refer to [link](https://huggingface.co/datasets/princeton-nlp/datasets-for-simcse)"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "7Pddlnz7rx9HZjAt6z9iQx7yXpxh0amdMwast5IMSZ8=",
+    "originContent": "For multimodal instruction tuning datset, please refer to [M-BEIR](https://huggingface.co/datasets/TIGER-Lab/M-BEIR)",
+    "translatedContent": "For multimodal instruction tuning datset, please refer to [M-BEIR](https://huggingface.co/datasets/TIGER-Lab/M-BEIR)"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "Rkwe5/G7G2M34epBBpIBMbpezale07yME725ou727C8=",
+    "originContent": "For evaluation data related to the LamRA, please refer to [LamRA_Eval](https://huggingface.co/datasets/code-kunkun/LamRA_Eval)",
+    "translatedContent": "For evaluation data related to the LamRA, please refer to [LamRA_Eval](https://huggingface.co/datasets/code-kunkun/LamRA_Eval)"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "RXE1Fr+M9PrdRG88AoWLl8PQ8jiWkxGH1vHInl/05bM=",
+    "originContent": "After downloading all of them, organize the data as follows in `./data`",
+    "translatedContent": "After downloading all of them, organize the data as follows in `./data`"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "BQDyeQPwHUrQ8qK20oX00G2v4evIQEXfiR8idnVpZFg=",
+    "originContent": "├── M-BEIR",
+    "translatedContent": "├── M-BEIR"
+  },
+  {
+    "row": 39,
+    "rowsha": "zyPEOynuTZalhPok4EinNImplzjOhX0WHAIvfPGgxLE=",
+    "originContent": "├── nli_for_simcse.csv",
+    "translatedContent": "├── nli_for_simcse.csv"
+  },
+  {
+    "row": 40,
+    "rowsha": "lLTbDBwF5cr3AhHAdjz+6/wsFpgw/fmh9iQzuJ7hZfE=",
+    "originContent": "├── rerank_data_for_training",
+    "translatedContent": "├── rerank_data_for_training"
+  },
+  {
+    "row": 41,
+    "rowsha": "1D9zWZ96Pdr2JAxI1sBFrATUYmIYbZiaLILrm4KP0/I=",
+    "originContent": "├── flickr",
+    "translatedContent": "├── flickr"
+  },
+  {
+    "row": 42,
+    "rowsha": "tZ/cmBV9gtHAU6u9LglDYNzKDOZnpCsa3aj/yziL+5g=",
+    "originContent": "├── coco",
+    "translatedContent": "├── coco"
+  },
+  {
+    "row": 43,
+    "rowsha": "72cN9XPSE+eoQ9u2Cf35h26iYDCBcMRzXuEHkcmsQLA=",
+    "originContent": "├── sharegpt4v",
+    "translatedContent": "├── sharegpt4v"
+  },
+  {
+    "row": 44,
+    "rowsha": "8zV5mDqg/p3GfY/HDMA7Hqy1JzZ6OVrwvsrQJE9PdcE=",
+    "originContent": "├── Urban1K",
+    "translatedContent": "├── Urban1K"
+  },
+  {
+    "row": 45,
+    "rowsha": "wMSkaXpsRj6WEHoYpdmh7LctWAbVYb9fNnOro480NqA=",
+    "originContent": "├── circo",
+    "translatedContent": "├── circo"
+  },
+  {
+    "row": 46,
+    "rowsha": "2kdn8NH2RFqo5Br9EqpPlxgSqJrGZ8i50Gjc2s3xNV4=",
+    "originContent": "├── genecis",
+    "translatedContent": "├── genecis"
+  },
+  {
+    "row": 47,
+    "rowsha": "oW9roPEOfsjrRC/deuWnnEFjOhpoJoXjlOEW9aiDJBY=",
+    "originContent": "├── vist",
+    "translatedContent": "├── vist"
+  },
+  {
+    "row": 48,
+    "rowsha": "D5G/YjlFRN7ynTB5WGb/Jhkx/ygGC7F8c4THCYg8qZg=",
+    "originContent": "├── visdial",
+    "translatedContent": "├── visdial"
+  },
+  {
+    "row": 49,
+    "rowsha": "FYSCTvLdzlVf/M4gNwdWpBYN0GOXu3/uaPwogJZAPgw=",
+    "originContent": "├── ccneg",
+    "translatedContent": "├── ccneg"
+  },
+  {
+    "row": 50,
+    "rowsha": "+owgC5+wQxCC6DCLkHeDIGQBZOlrFjZE2mkrzIcNHis=",
+    "originContent": "├── sugar-crepe",
+    "translatedContent": "├── sugar-crepe"
+  },
+  {
+    "row": 51,
+    "rowsha": "ENtNd1hALriT7v2UD5AOc/wfbplLDGnjIYd35ZLVHII=",
+    "originContent": "├── MSVD",
+    "translatedContent": "├── MSVD"
+  },
+  {
+    "row": 52,
+    "rowsha": "OntyDRmKKUcFrWyK72tciu9I+5Wr1SnlKD0Y/Xf3mTg=",
+    "originContent": "└── msrvtt",
+    "translatedContent": "└── msrvtt"
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "+rp9tqQ/fDgYRj/xJRZBCe0mRipoBqER3BH3SCkfA/M=",
+    "originContent": "## Training & Evaluation for LamRA-Ret",
+    "translatedContent": "## Training & Evaluation for LamRA-Ret"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "N9qfEbMYlxB4WD/giWOaRHx9Miu9zU7Va1mseeTb8uY=",
+    "originContent": "### Pre-training",
+    "translatedContent": "### Pre-training"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "CA0j5T0YEfdUEK3f4+QwHqd+ymU1KYfnVKltmEAicA4=",
+    "originContent": "```bash ",
+    "translatedContent": "```bash "
+  },
+  {
+    "row": 60,
+    "rowsha": "dzIC1VEdiFcpkrIZGiA6MHLuXWq56nSDCW2nvlIlwos=",
+    "originContent": "sh scripts/lamra_ret/pretrain.sh",
+    "translatedContent": "sh scripts/lamra_ret/pretrain.sh"
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "CA0j5T0YEfdUEK3f4+QwHqd+ymU1KYfnVKltmEAicA4=",
+    "originContent": "```bash ",
+    "translatedContent": "```bash "
+  },
+  {
+    "row": 64,
+    "rowsha": "6xrYXpKZ1YWsmeCcVPBFcz5A147HBuycIAnWkkLd22c=",
+    "originContent": "# Evaluation ",
+    "translatedContent": "# Evaluation "
+  },
+  {
+    "row": 65,
+    "rowsha": "Mx9yEfOQ4M77oKwvwIkni49dWk0eNpc2mv6NFBAGxQk=",
+    "originContent": "sh scripts/eval/eval_pretrained.sh",
+    "translatedContent": "sh scripts/eval/eval_pretrained.sh"
+  },
+  {
+    "row": 66,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "CA0j5T0YEfdUEK3f4+QwHqd+ymU1KYfnVKltmEAicA4=",
+    "originContent": "```bash ",
+    "translatedContent": "```bash "
+  },
+  {
+    "row": 69,
+    "rowsha": "j0mw1nDwoXhVLmecMdE4wPfPDzfREUoliPI+Qn0QjCw=",
+    "originContent": "# Merge LoRA for multimodal instruction tuning stage",
+    "translatedContent": "# Merge LoRA for multimodal instruction tuning stage"
+  },
+  {
+    "row": 70,
+    "rowsha": "IM4xsnLpAPiH9Temf/1wOFRrg5cis+n3wZgIW/Ax8sI=",
+    "originContent": "sh scripts/merge_lora.sh ",
+    "translatedContent": "sh scripts/merge_lora.sh "
+  },
+  {
+    "row": 71,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "etwsimAQrk+8uOv+615X3owz7uCD2ftuNWbDZxUAxpk=",
+    "originContent": "###  Multimodal instruction tuning",
+    "translatedContent": "###  Multimodal instruction tuning"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 76,
+    "rowsha": "fXIGDheoAGSiX/Y9pff44kN1Cdoiakg/6aFHsPHjErU=",
+    "originContent": "sh scripts/lamra_ret/finetune.sh",
+    "translatedContent": "sh scripts/lamra_ret/finetune.sh"
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "CA0j5T0YEfdUEK3f4+QwHqd+ymU1KYfnVKltmEAicA4=",
+    "originContent": "```bash ",
+    "translatedContent": "```bash "
+  },
+  {
+    "row": 80,
+    "rowsha": "6xrYXpKZ1YWsmeCcVPBFcz5A147HBuycIAnWkkLd22c=",
+    "originContent": "# Evaluation ",
+    "translatedContent": "# Evaluation "
+  },
+  {
+    "row": 81,
+    "rowsha": "vSOyzB439GvWlcS55gULHEWgWTRRvIuc42gBmg2iHvY=",
+    "originContent": "sh scripts/eval/eval_mbeir.sh   # eval under local pool setting",
+    "translatedContent": "sh scripts/eval/eval_mbeir.sh   # eval under local pool setting"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "dN+xaeBDWjtlyG1zyf0yS5kPpfwXLUjjysq5+u4hnLA=",
+    "originContent": "sh scripts/eval/eval_mbeir_global.sh   # eval under global pool setting",
+    "translatedContent": "sh scripts/eval/eval_mbeir_global.sh   # eval under global pool setting"
+  },
+  {
+    "row": 84,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "wNq9imGbcxBujQ2EavOU5i9dHcgsCs09hiuSocQvysY=",
+    "originContent": "## Training & Evaluation for LamRA-Rank",
+    "translatedContent": "## Training & Evaluation for LamRA-Rank"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "FXXCsRXpobIflAM/FflTbfBACkkdKw2ddo+Kt9JOjU0=",
+    "originContent": "You can use the [data](https://huggingface.co/datasets/code-kunkun/LamRA_Eval/tree/main/rerank_data_for_training) we provide or run the following command to get the data for reranking training.",
+    "translatedContent": "You can use the [data](https://huggingface.co/datasets/code-kunkun/LamRA_Eval/tree/main/rerank_data_for_training) we provide or run the following command to obtain the data for reranking training."
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 91,
+    "rowsha": "QCyHD5SY6w4iMcQW48d7EQnt8AFX/DCCcGKM6q5Ga1s=",
+    "originContent": "# Collecting data for reranking training",
+    "translatedContent": "# Collecting data for reranking training"
+  },
+  {
+    "row": 92,
+    "rowsha": "dJBsMlLWmPy2IJyioJFIlguu4BeIFSQo8nyKKZOB/zs=",
+    "originContent": "sh scripts/lamra_rank/get_train_data.sh",
+    "translatedContent": "sh scripts/lamra_rank/get_train_data.sh"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "b6hpww0QTd/+8Fyl+OH9BIfESe1HNWo0b1SF6ugDXS0=",
+    "originContent": "sh scripts/lamra_rank/merge_train_data.sh",
+    "translatedContent": "sh scripts/lamra_rank/merge_train_data.sh"
+  },
+  {
+    "row": 95,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 98,
+    "rowsha": "0o2esv/r1QzN5Sg+B/WEYsQZmDksnKdth1hesk5sy1U=",
+    "originContent": "# training for reranking",
+    "translatedContent": "# training for reranking"
+  },
+  {
+    "row": 99,
+    "rowsha": "OqTk4SrjKp0gvbe7nUgQ/6vPP9IGn20uYdgSFhw3liA=",
+    "originContent": "sh scripts/lamra_rank/train_rerank.sh",
+    "translatedContent": "sh scripts/lamra_rank/train_rerank.sh"
+  },
+  {
+    "row": 100,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "CA0j5T0YEfdUEK3f4+QwHqd+ymU1KYfnVKltmEAicA4=",
+    "originContent": "```bash ",
+    "translatedContent": "```bash "
+  },
+  {
+    "row": 103,
+    "rowsha": "TQ6zeLrPGSEnujBbqobS+qG99i9ahX4S1mU9fjN0SX4=",
+    "originContent": "# pointwise reranking",
+    "translatedContent": "# pointwise reranking"
+  },
+  {
+    "row": 104,
+    "rowsha": "zs8Mx4tAIdHnpJD2tZTmNCPyxaTcBO31I9imyPg2c0o=",
+    "originContent": "sh scripts/eval/eval_rerank_mbeir_pointwise.sh",
+    "translatedContent": "sh scripts/eval/eval_rerank_mbeir_pointwise.sh"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "J1MWBSfHGBB9UAvCQNJisgsr721d/XHU5EBf+74YNuo=",
+    "originContent": "# listwise reranking",
+    "translatedContent": "# listwise reranking"
+  },
+  {
+    "row": 107,
+    "rowsha": "tzraSdCyOmuiwtgIwmcmWjLxQEBOarElJ0xlL6JJk+U=",
+    "originContent": "sh scripts/eval/eval_rerank_mbeir_listwise.sh",
+    "translatedContent": "sh scripts/eval/eval_rerank_mbeir_listwise.sh"
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 111,
+    "rowsha": "o3iUydUNFILGLRJkWJzQbOCoGQNPyL2bE1kwy2vAUWI=",
+    "originContent": "# Get the reranking results on M-BEIR",
+    "translatedContent": "# Get the reranking results on M-BEIR"
+  },
+  {
+    "row": 112,
+    "rowsha": "FHYZYtkWpx9kf9zxp6BdmffIk7/VHc4tkcJEEG8fGjQ=",
+    "originContent": "sh scirpts/eval/get_rerank_results_mbeir.sh",
+    "translatedContent": "sh scirpts/eval/get_rerank_results_mbeir.sh"
+  },
+  {
+    "row": 113,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "SBnsJCZ9ob0HqRdWdhWJYOnim35uYIXB+OlIML2jUuM=",
+    "originContent": "## Evaluation on other benchmarks",
+    "translatedContent": "## Evaluation on other benchmarks"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 118,
+    "rowsha": "Q0qtfAVGdl/ZOHLydDX7G6u9B6VcufqBR0DZdGkKe/4=",
+    "originContent": "# evaluation results on zeroshot datasets",
+    "translatedContent": "# evaluation results on zeroshot datasets"
+  },
+  {
+    "row": 119,
+    "rowsha": "98C91k4CqAaSfetAJe1QXg90cmQr7zKwqhiyZ0hKbc4=",
+    "originContent": "sh scirpts/eval/eval_zeroshot.sh",
+    "translatedContent": "sh scirpts/eval/eval_zeroshot.sh"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "HrOyTuIX+FnnZCdLcoyRUB2ILbMcSkoB2Dwy85SoZmM=",
+    "originContent": "# reranking the results on zeroshot datasets",
+    "translatedContent": "# reranking the results on zeroshot datasets"
+  },
+  {
+    "row": 122,
+    "rowsha": "cY6Zvrq/i7aFblkcQM6uVTshQgQdM22k7Yekm9Yz/rA=",
+    "originContent": "sh scripts/eval/eval_rerank_zeroshot.sh",
+    "translatedContent": "sh scripts/eval/eval_rerank_zeroshot.sh"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "L0G5eZHfwTZY84YJTyqr4za8e027QdyFocCIPNbPpZI=",
+    "originContent": "# get the final results",
+    "translatedContent": "# get the final results"
+  },
+  {
+    "row": 125,
+    "rowsha": "HSD/pwBtKaiJLaFCS5Hf4ySioCaPNMHyvj6QVbasKnM=",
+    "originContent": "sh scripts/eval/get_rerank_results_zeroshot.sh",
+    "translatedContent": "sh scripts/eval/get_rerank_results_zeroshot.sh"
+  },
+  {
+    "row": 126,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🫡 Acknowledgements"
+  },
+  {
+    "row": 129,
+    "rowsha": "Cgn34KeF1UGMxME5g/9kjjFE8lX1AerKH7ufE93y9IA=",
+    "originContent": "## 🫡 Acknowledgements",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Many thanks to the code bases from [lmms-finetune](https://github.com/zjysteven/lmms-finetune) and [E5-V](https://github.com/kongds/E5-V)."
+  },
+  {
+    "row": 131,
+    "rowsha": "860HlB7VjNfLqp1Ec/RrTf5YlHQGbRulz7JyTc7Aba8=",
+    "originContent": "Many thanks to the code bases from [lmms-finetune](https://github.com/zjysteven/lmms-finetune) and [E5-V](https://github.com/kongds/E5-V).",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Citation"
+  },
+  {
+    "row": 134,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "If you use this code for your research or project, please cite:"
+  },
+  {
+    "row": 135,
+    "rowsha": "Y0RkiFOtp9bG1bL4Ej6Y1+k5M1SFeva5fby8gLvktFQ=",
+    "originContent": "If you use this code for your research or project, please cite:",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "ItwDtjQEGlno4koh60PWnXTcHZ458TAGhUjv/7kjdog=",
+    "originContent": "```latex",
+    "translatedContent": "```latex"
+  },
+  {
+    "row": 137,
+    "rowsha": "khS0yOiF0I38sVjMgO9KRRIeNroeTar51VVL+GhNzkw=",
+    "originContent": "@inproceedings{liu2025lamra,",
+    "translatedContent": "@inproceedings{liu2025lamra,"
+  },
+  {
+    "row": 138,
+    "rowsha": "gOsZIne+fsnz8Ca2BMeDRkY9iXdCpBePb07PP3O5L98=",
+    "originContent": "  title={Lamra: Large multimodal model as your advanced retrieval assistant},",
+    "translatedContent": "  title={Lamra: Large multimodal model as your advanced retrieval assistant},"
+  },
+  {
+    "row": 139,
+    "rowsha": "rha4qqx8FbdZynDDU610jYQlgbYeeQbAHaudVE09fXA=",
+    "originContent": "  author={Liu, Yikun and Zhang, Yajie and Cai, Jiayin and Jiang, Xiaolong and Hu, Yao and Yao, Jiangchao and Wang, Yanfeng and Xie, Weidi},",
+    "translatedContent": "  author={Liu, Yikun and Zhang, Yajie and Cai, Jiayin and Jiang, Xiaolong and Hu, Yao and Yao, Jiangchao and Wang, Yanfeng and Xie, Weidi},"
+  },
+  {
+    "row": 140,
+    "rowsha": "Tdu4fB+gVh/DbAO0LazGnLUP/1XmCsy7zHrXOdVvSPs=",
+    "originContent": "  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},",
+    "translatedContent": "  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},"
+  },
+  {
+    "row": 141,
+    "rowsha": "mUxkBphkNVVBNlFCsMk0X3IRmOv69zyRdBiQ5PNNl44=",
+    "originContent": "  pages={4015--4025},",
+    "translatedContent": "  pages={4015--4025},"
+  },
+  {
+    "row": 142,
+    "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+    "originContent": "  year={2025}",
+    "translatedContent": "  year={2025}"
+  },
+  {
+    "row": 143,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 144,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  }
+]
