@@ -1,0 +1,397 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Shape up downloader\n\n## What does it do?\nThis is a simple CLI application that downloads [basecamps excellent free shape up book](https://basecamp.com/shapeup)\ninto a single, self-contained HTML file.\n* uses base64 images\n* uses document-internal links\n* only the bare minimum of CSS\n\n## Why does this exist?\nThe book is currently available in an HTML format, where every chapter is one document and a PDF document where all\nchapters are in one self-contained file. While reading the book I was yearning for a way to read it on my e-book reader,\nbut reading PDF on a Kindle sucks and converting PDFs to epub or mobi is wonky at best. The software used to generate\nthis particular PDF combined some character combination (e.g. \"tf\") into a single UTF-8 codepoint with ligatures. This\nhowever trips up most converting software.\n\nThus, this project was born to download and combine all web documents into a single self-contained file without styling.\nYou are not intended to read the book in that HTML format - but it can be used as a basis for further conversion steps.\n\nTo convert the file into more useful formats I recommend using calibres `ebook-convert` utility:",
+    "ContentSha": "+0AD3H3GKM2csxL4dTKjIzCYrY59jkud+2uvczxP8Uo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Shape up 다운로더\n\n## 무엇을 하나요?\n이것은 [basecamp의 훌륭한 무료 shape up 책](https://basecamp.com/shapeup)을\n단일의 독립형 HTML 파일로 다운로드하는 간단한 CLI 애플리케이션입니다.\n* base64 이미지 사용\n* 문서 내부 링크 사용\n* 최소한의 CSS만 사용\n\n## 왜 존재하나요?\n이 책은 현재 HTML 형식으로 제공되며, 각 장이 하나의 문서이고 PDF 문서에서는 모든\n장이 하나의 독립형 파일에 포함되어 있습니다. 책을 읽으면서 전자책 리더기에서 읽을 방법을\n찾고 있었지만, 킨들에서 PDF를 읽는 것은 형편없고 PDF를 epub이나 mobi로 변환하는 것도\n최고로 잘 되어도 불안정합니다. 이 특정 PDF를 생성하는 데 사용된 소프트웨어는 일부 문자 조합(예: \"tf\")을\n합자(ligatures)가 있는 단일 UTF-8 코드포인트로 결합했습니다. 그러나 이것이 대부분의 변환 소프트웨어를\n혼란스럽게 만듭니다.\n\n그래서 이 프로젝트는 모든 웹 문서를 스타일 없이 단일 독립형 파일로 다운로드하고 결합하기 위해\n탄생했습니다. 이 HTML 형식으로 책을 읽도록 의도된 것은 아니지만, 추가 변환 단계의\n기반으로 사용할 수 있습니다.\n\n파일을 더 유용한 형식으로 변환하려면 calibres의 `ebook-convert` 유틸리티를 사용하는 것을 권장합니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "JR7rDaejXbZYmsgxQ/Ea2vTITTsxJWMkyOW/BUPDFTE=",
+        "originContent": "# Shape up downloader",
+        "translatedContent": "# Shape up 다운로더"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "dDCVl6wlCqeiw35uBT2tfCGt3rgbd+fwJR9WFOabtEE=",
+        "originContent": "## What does it do?",
+        "translatedContent": "## 무엇을 하나요?"
+      },
+      {
+        "row": 4,
+        "rowsha": "5alTG4Q5/cUuZefBSlWB187sCAbYhT6UgYYDAwIVZY8=",
+        "originContent": "This is a simple CLI application that downloads [basecamps excellent free shape up book](https://basecamp.com/shapeup)",
+        "translatedContent": "이것은 [basecamp의 훌륭한 무료 shape up 책](https://basecamp.com/shapeup)을"
+      },
+      {
+        "row": 5,
+        "rowsha": "25JXd0JLBjIRylWr0jNgixM3xrnqv0NDhrH1CfWaRFo=",
+        "originContent": "into a single, self-contained HTML file.",
+        "translatedContent": "단일의 독립형 HTML 파일로 다운로드하는 간단한 CLI 애플리케이션입니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "DDxGbpkr+qBmYFUyney045WXf9aeGFHjmI7VJbQkFpk=",
+        "originContent": "* uses base64 images",
+        "translatedContent": "* base64 이미지 사용"
+      },
+      {
+        "row": 7,
+        "rowsha": "uxJSpRhCufhG4sg5ya+Xp8dA/w7HrkX6YFFBPLF4j30=",
+        "originContent": "* uses document-internal links",
+        "translatedContent": "* 문서 내부 링크 사용"
+      },
+      {
+        "row": 8,
+        "rowsha": "hJ+aJxnivuBBebhapcc0R/V+Gx7RThYskxYNZbz2YBI=",
+        "originContent": "* only the bare minimum of CSS",
+        "translatedContent": "* 최소한의 CSS만 사용"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "/JijI8Js7tpliwFWLE1anGQ96r0TqmYY8leyKkere4U=",
+        "originContent": "## Why does this exist?",
+        "translatedContent": "## 왜 존재하나요?"
+      },
+      {
+        "row": 11,
+        "rowsha": "NFN5ZeXQh6B8CDmr3PaiI/Z5LzcRlcepl1gPMpWdj4o=",
+        "originContent": "The book is currently available in an HTML format, where every chapter is one document and a PDF document where all",
+        "translatedContent": "이 책은 현재 HTML 형식으로 제공되며, 각 장이 하나의 문서이고 PDF 문서에서는 모든"
+      },
+      {
+        "row": 12,
+        "rowsha": "Gtxf9DWyHk5mUHDvYyqbmnoThMHnuOTzY5M/afTyczs=",
+        "originContent": "chapters are in one self-contained file. While reading the book I was yearning for a way to read it on my e-book reader,",
+        "translatedContent": "장이 하나의 독립형 파일에 포함되어 있습니다. 책을 읽으면서 전자책 리더기에서 읽을 방법을"
+      },
+      {
+        "row": 13,
+        "rowsha": "fQc/YJEcRyp1efHYkuF0uvDbPPBACYTDOnp/P8ThZCo=",
+        "originContent": "but reading PDF on a Kindle sucks and converting PDFs to epub or mobi is wonky at best. The software used to generate",
+        "translatedContent": "찾고 있었지만, 킨들에서 PDF를 읽는 것은 형편없고 PDF를 epub이나 mobi로 변환하는 것도"
+      },
+      {
+        "row": 14,
+        "rowsha": "tNPWGCDTjLuOWp9dNnolVGrYz/z+MnVWuwjzyqqq5NQ=",
+        "originContent": "this particular PDF combined some character combination (e.g. \"tf\") into a single UTF-8 codepoint with ligatures. This",
+        "translatedContent": "최고로 잘 되어도 불안정합니다. 이 특정 PDF를 생성하는 데 사용된 소프트웨어는 일부 문자 조합(예: \"tf\")을"
+      },
+      {
+        "row": 15,
+        "rowsha": "MtimZQpGLL4jWu4PtUk/Hh0r7uxHaZGr18Xbbciy7oA=",
+        "originContent": "however trips up most converting software.",
+        "translatedContent": "합자(ligatures)가 있는 단일 UTF-8 코드포인트로 결합했습니다. 그러나 이것이 대부분의 변환 소프트웨어를"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "혼란스럽게 만듭니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "FzNDuiFe6KiqTEbb4kjqorZwVkdi2Zc03N9zEhK7nrM=",
+        "originContent": "Thus, this project was born to download and combine all web documents into a single self-contained file without styling.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "J1JB4Ux0EM9KrlRi47EQYt8QN62nRqHVK23N5LCGu/I=",
+        "originContent": "You are not intended to read the book in that HTML format - but it can be used as a basis for further conversion steps.",
+        "translatedContent": "그래서 이 프로젝트는 모든 웹 문서를 스타일 없이 단일 독립형 파일로 다운로드하고 결합하기 위해"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "탄생했습니다. 이 HTML 형식으로 책을 읽도록 의도된 것은 아니지만, 추가 변환 단계의"
+      },
+      {
+        "row": 20,
+        "rowsha": "AdYqKGGLQ1msVyI+quIGKALwrt3O3JRuh66QQgZgf1Y=",
+        "originContent": "To convert the file into more useful formats I recommend using calibres `ebook-convert` utility:",
+        "translatedContent": "기반으로 사용할 수 있습니다."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n$ ebook-convert shape-up.html shape-up.epub \\\n    --authors \"Ryan Singer\" \\\n    --title \"Shape Up: Stop Running in Circles and Ship Work that Matters\" \\\n    --book-producer \"Basecamp\" \\\n    --publisher \"Basecamp\" \\\n    --language \"en\"\n```",
+    "ContentSha": "5kw1CvbwIUOOEK2gVKmpuFpOGL710JpcGaBZk+oOuew=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ ebook-convert shape-up.html shape-up.epub \\\n    --authors \"Ryan Singer\" \\\n    --title \"Shape Up: Stop Running in Circles and Ship Work that Matters\" \\\n    --book-producer \"Basecamp\" \\\n    --publisher \"Basecamp\" \\\n    --language \"en\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "nZ4RhskQ3qJbMMM3SuQB7aGnppXYLSSGYHhOrFqqWoQ=",
+        "originContent": "$ ebook-convert shape-up.html shape-up.epub \\",
+        "translatedContent": "$ ebook-convert shape-up.html shape-up.epub \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "p3RMUr5gBXss+OVQBQyig8YmGp93n4wsmnBiMuK6qwk=",
+        "originContent": "    --authors \"Ryan Singer\" \\",
+        "translatedContent": "    --authors \"Ryan Singer\" \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "41KRgtcZG88rrjPNuuzyNMn71iBqOw2mVfOmQpZCPd8=",
+        "originContent": "    --title \"Shape Up: Stop Running in Circles and Ship Work that Matters\" \\",
+        "translatedContent": "    --title \"Shape Up: Stop Running in Circles and Ship Work that Matters\" \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "oJvOQbNVyqZU6BZ0fi+u1luD/TZLIlixroZi+0NdSzo=",
+        "originContent": "    --book-producer \"Basecamp\" \\",
+        "translatedContent": "    --book-producer \"Basecamp\" \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "THEOt5PrjeeWgROhduo4JHQl63CY4PomxhCSjX7sj2I=",
+        "originContent": "    --publisher \"Basecamp\" \\",
+        "translatedContent": "    --publisher \"Basecamp\" \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "OyqINkImy90hXXp6H+dwL71Z2gcFFVDcvkFr3vgDaUY=",
+        "originContent": "    --language \"en\"",
+        "translatedContent": "    --language \"en\""
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Where can I download this HTML/EPUB/MOBI single page version?\nI am not quite sure about the legal implications of hosting these files - thus I am not doing it.\nThe code to download it yourself is here, but you must use it yourself.\n\n## Usage\n### Local PHP\n\n1. [Install PHP](https://www.php.net/manual/en/install.php)\n2. [Install Composer](https://getcomposer.org/download/)\n3. Run `php composer.phar install` (or `composer install` in case composer is installed globally)\n4. Run `php cli.php download:single-html`\n\nThis will create a `shape-up.html` file in your current directory.\nThat's it.\n\n### Docker way\n\nThere is a way to not deal with php at all. For that it is enough to have docker engine installed.\n\nUsage",
+    "ContentSha": "xOx3YeLNfg4Lnsq6jkKfFCYKlmyVxWhbnlm1nCFVXQQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 이 HTML/EPUB/MOBI 단일 페이지 버전을 어디서 다운로드할 수 있나요?\n이 파일들을 호스팅하는 것에 대한 법적 영향이 확실하지 않아서 직접 호스팅하지 않고 있습니다.\n직접 다운로드하는 코드는 여기 있지만, 직접 사용해야 합니다.\n\n## 사용법\n### 로컬 PHP\n\n1. [PHP 설치](https://www.php.net/manual/en/install.php)\n2. [Composer 설치](https://getcomposer.org/download/)\n3. `php composer.phar install` 실행 (또는 composer가 전역에 설치된 경우 `composer install`)\n4. `php cli.php download:single-html` 실행\n\n이렇게 하면 현재 디렉터리에 `shape-up.html` 파일이 생성됩니다.\n끝입니다.\n\n### 도커 방식\n\nPHP를 전혀 다루지 않는 방법이 있습니다. 이를 위해서는 도커 엔진이 설치되어 있으면 충분합니다.\n\n사용법\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 이 HTML/EPUB/MOBI 단일 페이지 버전을 어디서 다운로드할 수 있나요?"
+      },
+      {
+        "row": 2,
+        "rowsha": "H3du5ln2uBQ/A/TgOnqIJw+fCBrRqDM4Xdp4vE6s3pI=",
+        "originContent": "## Where can I download this HTML/EPUB/MOBI single page version?",
+        "translatedContent": "이 파일들을 호스팅하는 것에 대한 법적 영향이 확실하지 않아서 직접 호스팅하지 않고 있습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "tPSqZ/nrT5OakoPYhIEXYZjmjL2bSht/Xk6HnprD+F0=",
+        "originContent": "I am not quite sure about the legal implications of hosting these files - thus I am not doing it.",
+        "translatedContent": "직접 다운로드하는 코드는 여기 있지만, 직접 사용해야 합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "mF0Q5HHH62v5DF10ErVPCbUfx7GXlIMqdIioQw3z9so=",
+        "originContent": "The code to download it yourself is here, but you must use it yourself.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 6,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "### 로컬 PHP"
+      },
+      {
+        "row": 7,
+        "rowsha": "ucJ9fnOzwTGZA+oGpxYc/cZu2h0DrMgXMn/Jkb95BYg=",
+        "originContent": "### Local PHP",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. [PHP 설치](https://www.php.net/manual/en/install.php)"
+      },
+      {
+        "row": 9,
+        "rowsha": "HC8Cb0ciUc4J0ILUOmro2XOByYOu7MPBt4v8s9KqHaE=",
+        "originContent": "1. [Install PHP](https://www.php.net/manual/en/install.php)",
+        "translatedContent": "2. [Composer 설치](https://getcomposer.org/download/)"
+      },
+      {
+        "row": 10,
+        "rowsha": "b3rGkeVNudm70xlARX2S1o3if0RyNPyes1R4XYAniKw=",
+        "originContent": "2. [Install Composer](https://getcomposer.org/download/)",
+        "translatedContent": "3. `php composer.phar install` 실행 (또는 composer가 전역에 설치된 경우 `composer install`)"
+      },
+      {
+        "row": 11,
+        "rowsha": "iQdAhww/4LiMKpQ9iREG7GoXbBsi+jGgTdJPKTeIiw8=",
+        "originContent": "3. Run `php composer.phar install` (or `composer install` in case composer is installed globally)",
+        "translatedContent": "4. `php cli.php download:single-html` 실행"
+      },
+      {
+        "row": 12,
+        "rowsha": "zUru2wFJW9Hfu/f0OWBmFQHiIxHbqwXHxLi+vKxC5Fc=",
+        "originContent": "4. Run `php cli.php download:single-html`",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이렇게 하면 현재 디렉터리에 `shape-up.html` 파일이 생성됩니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "sYtXs5rBekJB7C7sqG4FDVOu7b0EmyLeNQSpN0acbn8=",
+        "originContent": "This will create a `shape-up.html` file in your current directory.",
+        "translatedContent": "끝입니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "FvzOd7fRYKVRc9UpyA0zRKC6OZFhynA1pBVH24es6rM=",
+        "originContent": "That's it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 도커 방식"
+      },
+      {
+        "row": 17,
+        "rowsha": "mO72AGeSpGKAfD3Tsd3ImHBqG9ZDxVH4oXBl+iEMrB8=",
+        "originContent": "### Docker way",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "PHP를 전혀 다루지 않는 방법이 있습니다. 이를 위해서는 도커 엔진이 설치되어 있으면 충분합니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "vIjUTAEiMYXzGh4xXOmSiHMlTyBO40biNnTeBj8h1Gk=",
+        "originContent": "There is a way to not deal with php at all. For that it is enough to have docker engine installed.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "사용법"
+      },
+      {
+        "row": 21,
+        "rowsha": "jVmCnB4Vr+Gn+uk+jl4y2FEb7F/VmKCfT+pgM7MeimY=",
+        "originContent": "Usage",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\ndocker run -it --rm -v $(pwd)/output:/app/output thej6s/shape-up-downloader\n\n```",
+    "ContentSha": "1nLA8Ml4n6N+rwIfLdO9gSOg3/aDmW7/cT+VJqFWQe0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ndocker run -it --rm -v $(pwd)/output:/app/output thej6s/shape-up-downloader\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "FvqrTn+Z0fjzOJUQ18+5saEozRarPaIVhjkPb7nvO9A=",
+        "originContent": "docker run -it --rm -v $(pwd)/output:/app/output thej6s/shape-up-downloader",
+        "translatedContent": "docker run -it --rm -v $(pwd)/output:/app/output thej6s/shape-up-downloader"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "This will create a `shape-up.html` file in ./output directory\n",
+    "ContentSha": "Thc8gm0ovcxcLwrAY16xRbcGBDfDu3VSYunC+G1v74A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이 작업은 ./output 디렉토리에 `shape-up.html` 파일을 생성합니다  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "BFbiKYNs9tfVEL310vsUAw6GfokLgO8Ulk8SIMutw14=",
+        "originContent": "This will create a `shape-up.html` file in ./output directory",
+        "translatedContent": "이 작업은 ./output 디렉토리에 `shape-up.html` 파일을 생성합니다  "
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

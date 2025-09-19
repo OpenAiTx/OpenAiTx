@@ -1,0 +1,397 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Shape up downloader\n\n## What does it do?\nThis is a simple CLI application that downloads [basecamps excellent free shape up book](https://basecamp.com/shapeup)\ninto a single, self-contained HTML file.\n* uses base64 images\n* uses document-internal links\n* only the bare minimum of CSS\n\n## Why does this exist?\nThe book is currently available in an HTML format, where every chapter is one document and a PDF document where all\nchapters are in one self-contained file. While reading the book I was yearning for a way to read it on my e-book reader,\nbut reading PDF on a Kindle sucks and converting PDFs to epub or mobi is wonky at best. The software used to generate\nthis particular PDF combined some character combination (e.g. \"tf\") into a single UTF-8 codepoint with ligatures. This\nhowever trips up most converting software.\n\nThus, this project was born to download and combine all web documents into a single self-contained file without styling.\nYou are not intended to read the book in that HTML format - but it can be used as a basis for further conversion steps.\n\nTo convert the file into more useful formats I recommend using calibres `ebook-convert` utility:",
+    "ContentSha": "+0AD3H3GKM2csxL4dTKjIzCYrY59jkud+2uvczxP8Uo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Shape up downloader\n\n## What does it do?\nThis is a simple CLI application that downloads [basecamps excellent free shape up book](https://basecamp.com/shapeup)\ninto a single, self-contained HTML file.\n* uses base64 images\n* uses document-internal links\n* only the bare minimum of CSS\n\n## Why does this exist?\nThe book is currently available in an HTML format, where every chapter is one document and a PDF document where all\nchapters are in one self-contained file. While reading the book I was yearning for a way to read it on my e-book reader,\nbut reading PDF on a Kindle sucks and converting PDFs to epub or mobi is wonky at best. The software used to generate\nthis particular PDF combined some character combination (e.g. \"tf\") into a single UTF-8 codepoint with ligatures. This\nhowever trips up most converting software.\n\nThus, this project was born to download and combine all web documents into a single self-contained file without styling.\nYou are not intended to read the book in that HTML format - but it can be used as a basis for further conversion steps.\n\nTo convert the file into more useful formats I recommend using calibres `ebook-convert` utility:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "JR7rDaejXbZYmsgxQ/Ea2vTITTsxJWMkyOW/BUPDFTE=",
+        "originContent": "# Shape up downloader",
+        "translatedContent": "# Shape up downloader"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "dDCVl6wlCqeiw35uBT2tfCGt3rgbd+fwJR9WFOabtEE=",
+        "originContent": "## What does it do?",
+        "translatedContent": "## What does it do?"
+      },
+      {
+        "row": 4,
+        "rowsha": "5alTG4Q5/cUuZefBSlWB187sCAbYhT6UgYYDAwIVZY8=",
+        "originContent": "This is a simple CLI application that downloads [basecamps excellent free shape up book](https://basecamp.com/shapeup)",
+        "translatedContent": "This is a simple CLI application that downloads [basecamps excellent free shape up book](https://basecamp.com/shapeup)"
+      },
+      {
+        "row": 5,
+        "rowsha": "25JXd0JLBjIRylWr0jNgixM3xrnqv0NDhrH1CfWaRFo=",
+        "originContent": "into a single, self-contained HTML file.",
+        "translatedContent": "into a single, self-contained HTML file."
+      },
+      {
+        "row": 6,
+        "rowsha": "DDxGbpkr+qBmYFUyney045WXf9aeGFHjmI7VJbQkFpk=",
+        "originContent": "* uses base64 images",
+        "translatedContent": "* uses base64 images"
+      },
+      {
+        "row": 7,
+        "rowsha": "uxJSpRhCufhG4sg5ya+Xp8dA/w7HrkX6YFFBPLF4j30=",
+        "originContent": "* uses document-internal links",
+        "translatedContent": "* uses document-internal links"
+      },
+      {
+        "row": 8,
+        "rowsha": "hJ+aJxnivuBBebhapcc0R/V+Gx7RThYskxYNZbz2YBI=",
+        "originContent": "* only the bare minimum of CSS",
+        "translatedContent": "* only the bare minimum of CSS"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "/JijI8Js7tpliwFWLE1anGQ96r0TqmYY8leyKkere4U=",
+        "originContent": "## Why does this exist?",
+        "translatedContent": "## Why does this exist?"
+      },
+      {
+        "row": 11,
+        "rowsha": "NFN5ZeXQh6B8CDmr3PaiI/Z5LzcRlcepl1gPMpWdj4o=",
+        "originContent": "The book is currently available in an HTML format, where every chapter is one document and a PDF document where all",
+        "translatedContent": "The book is currently available in an HTML format, where every chapter is one document and a PDF document where all"
+      },
+      {
+        "row": 12,
+        "rowsha": "Gtxf9DWyHk5mUHDvYyqbmnoThMHnuOTzY5M/afTyczs=",
+        "originContent": "chapters are in one self-contained file. While reading the book I was yearning for a way to read it on my e-book reader,",
+        "translatedContent": "chapters are in one self-contained file. While reading the book I was yearning for a way to read it on my e-book reader,"
+      },
+      {
+        "row": 13,
+        "rowsha": "fQc/YJEcRyp1efHYkuF0uvDbPPBACYTDOnp/P8ThZCo=",
+        "originContent": "but reading PDF on a Kindle sucks and converting PDFs to epub or mobi is wonky at best. The software used to generate",
+        "translatedContent": "but reading PDF on a Kindle sucks and converting PDFs to epub or mobi is wonky at best. The software used to generate"
+      },
+      {
+        "row": 14,
+        "rowsha": "tNPWGCDTjLuOWp9dNnolVGrYz/z+MnVWuwjzyqqq5NQ=",
+        "originContent": "this particular PDF combined some character combination (e.g. \"tf\") into a single UTF-8 codepoint with ligatures. This",
+        "translatedContent": "this particular PDF combined some character combination (e.g. \"tf\") into a single UTF-8 codepoint with ligatures. This"
+      },
+      {
+        "row": 15,
+        "rowsha": "MtimZQpGLL4jWu4PtUk/Hh0r7uxHaZGr18Xbbciy7oA=",
+        "originContent": "however trips up most converting software.",
+        "translatedContent": "however trips up most converting software."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "FzNDuiFe6KiqTEbb4kjqorZwVkdi2Zc03N9zEhK7nrM=",
+        "originContent": "Thus, this project was born to download and combine all web documents into a single self-contained file without styling.",
+        "translatedContent": "Thus, this project was born to download and combine all web documents into a single self-contained file without styling."
+      },
+      {
+        "row": 18,
+        "rowsha": "J1JB4Ux0EM9KrlRi47EQYt8QN62nRqHVK23N5LCGu/I=",
+        "originContent": "You are not intended to read the book in that HTML format - but it can be used as a basis for further conversion steps.",
+        "translatedContent": "You are not intended to read the book in that HTML format - but it can be used as a basis for further conversion steps."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "AdYqKGGLQ1msVyI+quIGKALwrt3O3JRuh66QQgZgf1Y=",
+        "originContent": "To convert the file into more useful formats I recommend using calibres `ebook-convert` utility:",
+        "translatedContent": "To convert the file into more useful formats I recommend using calibres `ebook-convert` utility:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n$ ebook-convert shape-up.html shape-up.epub \\\n    --authors \"Ryan Singer\" \\\n    --title \"Shape Up: Stop Running in Circles and Ship Work that Matters\" \\\n    --book-producer \"Basecamp\" \\\n    --publisher \"Basecamp\" \\\n    --language \"en\"\n```",
+    "ContentSha": "5kw1CvbwIUOOEK2gVKmpuFpOGL710JpcGaBZk+oOuew=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ ebook-convert shape-up.html shape-up.epub \\\n    --authors \"Ryan Singer\" \\\n    --title \"Shape Up: Stop Running in Circles and Ship Work that Matters\" \\\n    --book-producer \"Basecamp\" \\\n    --publisher \"Basecamp\" \\\n    --language \"en\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "nZ4RhskQ3qJbMMM3SuQB7aGnppXYLSSGYHhOrFqqWoQ=",
+        "originContent": "$ ebook-convert shape-up.html shape-up.epub \\",
+        "translatedContent": "$ ebook-convert shape-up.html shape-up.epub \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "p3RMUr5gBXss+OVQBQyig8YmGp93n4wsmnBiMuK6qwk=",
+        "originContent": "    --authors \"Ryan Singer\" \\",
+        "translatedContent": "    --authors \"Ryan Singer\" \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "41KRgtcZG88rrjPNuuzyNMn71iBqOw2mVfOmQpZCPd8=",
+        "originContent": "    --title \"Shape Up: Stop Running in Circles and Ship Work that Matters\" \\",
+        "translatedContent": "    --title \"Shape Up: Stop Running in Circles and Ship Work that Matters\" \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "oJvOQbNVyqZU6BZ0fi+u1luD/TZLIlixroZi+0NdSzo=",
+        "originContent": "    --book-producer \"Basecamp\" \\",
+        "translatedContent": "    --book-producer \"Basecamp\" \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "THEOt5PrjeeWgROhduo4JHQl63CY4PomxhCSjX7sj2I=",
+        "originContent": "    --publisher \"Basecamp\" \\",
+        "translatedContent": "    --publisher \"Basecamp\" \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "OyqINkImy90hXXp6H+dwL71Z2gcFFVDcvkFr3vgDaUY=",
+        "originContent": "    --language \"en\"",
+        "translatedContent": "    --language \"en\""
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Where can I download this HTML/EPUB/MOBI single page version?\nI am not quite sure about the legal implications of hosting these files - thus I am not doing it.\nThe code to download it yourself is here, but you must use it yourself.\n\n## Usage\n### Local PHP\n\n1. [Install PHP](https://www.php.net/manual/en/install.php)\n2. [Install Composer](https://getcomposer.org/download/)\n3. Run `php composer.phar install` (or `composer install` in case composer is installed globally)\n4. Run `php cli.php download:single-html`\n\nThis will create a `shape-up.html` file in your current directory.\nThat's it.\n\n### Docker way\n\nThere is a way to not deal with php at all. For that it is enough to have docker engine installed.\n\nUsage",
+    "ContentSha": "xOx3YeLNfg4Lnsq6jkKfFCYKlmyVxWhbnlm1nCFVXQQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Where can I download this HTML/EPUB/MOBI single page version?\nI am not quite sure about the legal implications of hosting these files - thus I am not doing it.\nThe code to download it yourself is here, but you must use it yourself.\n\n## Usage\n### Local PHP\n\n1. [Install PHP](https://www.php.net/manual/en/install.php)\n2. [Install Composer](https://getcomposer.org/download/)\n3. Run `php composer.phar install` (or `composer install` in case composer is installed globally)\n4. Run `php cli.php download:single-html`\n\nThis will create a `shape-up.html` file in your current directory.\nThat's it.\n\n### Docker way\n\nThere is a way to not deal with php at all. For that it is enough to have docker engine installed.\n\nUsage",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "H3du5ln2uBQ/A/TgOnqIJw+fCBrRqDM4Xdp4vE6s3pI=",
+        "originContent": "## Where can I download this HTML/EPUB/MOBI single page version?",
+        "translatedContent": "## Where can I download this HTML/EPUB/MOBI single page version?"
+      },
+      {
+        "row": 3,
+        "rowsha": "tPSqZ/nrT5OakoPYhIEXYZjmjL2bSht/Xk6HnprD+F0=",
+        "originContent": "I am not quite sure about the legal implications of hosting these files - thus I am not doing it.",
+        "translatedContent": "I am not quite sure about the legal implications of hosting these files - thus I am not doing it."
+      },
+      {
+        "row": 4,
+        "rowsha": "mF0Q5HHH62v5DF10ErVPCbUfx7GXlIMqdIioQw3z9so=",
+        "originContent": "The code to download it yourself is here, but you must use it yourself.",
+        "translatedContent": "The code to download it yourself is here, but you must use it yourself."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Usage"
+      },
+      {
+        "row": 7,
+        "rowsha": "ucJ9fnOzwTGZA+oGpxYc/cZu2h0DrMgXMn/Jkb95BYg=",
+        "originContent": "### Local PHP",
+        "translatedContent": "### Local PHP"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "HC8Cb0ciUc4J0ILUOmro2XOByYOu7MPBt4v8s9KqHaE=",
+        "originContent": "1. [Install PHP](https://www.php.net/manual/en/install.php)",
+        "translatedContent": "1. [Install PHP](https://www.php.net/manual/en/install.php)"
+      },
+      {
+        "row": 10,
+        "rowsha": "b3rGkeVNudm70xlARX2S1o3if0RyNPyes1R4XYAniKw=",
+        "originContent": "2. [Install Composer](https://getcomposer.org/download/)",
+        "translatedContent": "2. [Install Composer](https://getcomposer.org/download/)"
+      },
+      {
+        "row": 11,
+        "rowsha": "iQdAhww/4LiMKpQ9iREG7GoXbBsi+jGgTdJPKTeIiw8=",
+        "originContent": "3. Run `php composer.phar install` (or `composer install` in case composer is installed globally)",
+        "translatedContent": "3. Run `php composer.phar install` (or `composer install` in case composer is installed globally)"
+      },
+      {
+        "row": 12,
+        "rowsha": "zUru2wFJW9Hfu/f0OWBmFQHiIxHbqwXHxLi+vKxC5Fc=",
+        "originContent": "4. Run `php cli.php download:single-html`",
+        "translatedContent": "4. Run `php cli.php download:single-html`"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "sYtXs5rBekJB7C7sqG4FDVOu7b0EmyLeNQSpN0acbn8=",
+        "originContent": "This will create a `shape-up.html` file in your current directory.",
+        "translatedContent": "This will create a `shape-up.html` file in your current directory."
+      },
+      {
+        "row": 15,
+        "rowsha": "FvzOd7fRYKVRc9UpyA0zRKC6OZFhynA1pBVH24es6rM=",
+        "originContent": "That's it.",
+        "translatedContent": "That's it."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "mO72AGeSpGKAfD3Tsd3ImHBqG9ZDxVH4oXBl+iEMrB8=",
+        "originContent": "### Docker way",
+        "translatedContent": "### Docker way"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "vIjUTAEiMYXzGh4xXOmSiHMlTyBO40biNnTeBj8h1Gk=",
+        "originContent": "There is a way to not deal with php at all. For that it is enough to have docker engine installed.",
+        "translatedContent": "There is a way to not deal with php at all. For that it is enough to have docker engine installed."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "jVmCnB4Vr+Gn+uk+jl4y2FEb7F/VmKCfT+pgM7MeimY=",
+        "originContent": "Usage",
+        "translatedContent": "Usage"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\ndocker run -it --rm -v $(pwd)/output:/app/output thej6s/shape-up-downloader\n\n```",
+    "ContentSha": "1nLA8Ml4n6N+rwIfLdO9gSOg3/aDmW7/cT+VJqFWQe0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ndocker run -it --rm -v $(pwd)/output:/app/output thej6s/shape-up-downloader\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "FvqrTn+Z0fjzOJUQ18+5saEozRarPaIVhjkPb7nvO9A=",
+        "originContent": "docker run -it --rm -v $(pwd)/output:/app/output thej6s/shape-up-downloader",
+        "translatedContent": "docker run -it --rm -v $(pwd)/output:/app/output thej6s/shape-up-downloader"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "This will create a `shape-up.html` file in ./output directory\n",
+    "ContentSha": "Thc8gm0ovcxcLwrAY16xRbcGBDfDu3VSYunC+G1v74A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "This will create a `shape-up.html` file in the ./output directory  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "BFbiKYNs9tfVEL310vsUAw6GfokLgO8Ulk8SIMutw14=",
+        "originContent": "This will create a `shape-up.html` file in ./output directory",
+        "translatedContent": "This will create a `shape-up.html` file in the ./output directory  "
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

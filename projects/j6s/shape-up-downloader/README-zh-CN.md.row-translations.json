@@ -1,0 +1,332 @@
+[
+  {
+    "row": 1,
+    "rowsha": "JR7rDaejXbZYmsgxQ/Ea2vTITTsxJWMkyOW/BUPDFTE=",
+    "originContent": "# Shape up downloader",
+    "translatedContent": "# Shape up 下载器"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "dDCVl6wlCqeiw35uBT2tfCGt3rgbd+fwJR9WFOabtEE=",
+    "originContent": "## What does it do?",
+    "translatedContent": "## 它是做什么的？"
+  },
+  {
+    "row": 4,
+    "rowsha": "5alTG4Q5/cUuZefBSlWB187sCAbYhT6UgYYDAwIVZY8=",
+    "originContent": "This is a simple CLI application that downloads [basecamps excellent free shape up book](https://basecamp.com/shapeup)",
+    "translatedContent": "这是一个简单的命令行应用程序，用于下载 [Basecamp 优秀的免费 Shape Up 书籍](https://basecamp.com/shapeup)"
+  },
+  {
+    "row": 5,
+    "rowsha": "25JXd0JLBjIRylWr0jNgixM3xrnqv0NDhrH1CfWaRFo=",
+    "originContent": "into a single, self-contained HTML file.",
+    "translatedContent": "到一个单一的、自包含的 HTML 文件中。"
+  },
+  {
+    "row": 6,
+    "rowsha": "DDxGbpkr+qBmYFUyney045WXf9aeGFHjmI7VJbQkFpk=",
+    "originContent": "* uses base64 images",
+    "translatedContent": "* 使用 base64 图片"
+  },
+  {
+    "row": 7,
+    "rowsha": "uxJSpRhCufhG4sg5ya+Xp8dA/w7HrkX6YFFBPLF4j30=",
+    "originContent": "* uses document-internal links",
+    "translatedContent": "* 使用文档内部链接"
+  },
+  {
+    "row": 8,
+    "rowsha": "hJ+aJxnivuBBebhapcc0R/V+Gx7RThYskxYNZbz2YBI=",
+    "originContent": "* only the bare minimum of CSS",
+    "translatedContent": "* 仅使用最少的 CSS"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "/JijI8Js7tpliwFWLE1anGQ96r0TqmYY8leyKkere4U=",
+    "originContent": "## Why does this exist?",
+    "translatedContent": "## 为什么会有这个项目？"
+  },
+  {
+    "row": 11,
+    "rowsha": "NFN5ZeXQh6B8CDmr3PaiI/Z5LzcRlcepl1gPMpWdj4o=",
+    "originContent": "The book is currently available in an HTML format, where every chapter is one document and a PDF document where all",
+    "translatedContent": "这本书目前提供 HTML 格式，每章是一个文档，还有一个将所有章节合并成一个自包含文件的 PDF 文档。在阅读这本书时，我渴望能在电子书阅读器上阅读，但在 Kindle 上阅读 PDF 体验很差，将 PDF 转换为 epub 或 mobi 充其量也很不稳定。生成该 PDF 的软件将某些字符组合（例如 “tf”）合并为带连字的单一 UTF-8 代码点。这却使大多数转换软件出现问题。"
+  },
+  {
+    "row": 12,
+    "rowsha": "Gtxf9DWyHk5mUHDvYyqbmnoThMHnuOTzY5M/afTyczs=",
+    "originContent": "chapters are in one self-contained file. While reading the book I was yearning for a way to read it on my e-book reader,",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "fQc/YJEcRyp1efHYkuF0uvDbPPBACYTDOnp/P8ThZCo=",
+    "originContent": "but reading PDF on a Kindle sucks and converting PDFs to epub or mobi is wonky at best. The software used to generate",
+    "translatedContent": "因此，这个项目诞生了，用于下载并合并所有网页文档为一个无样式的自包含文件。"
+  },
+  {
+    "row": 14,
+    "rowsha": "tNPWGCDTjLuOWp9dNnolVGrYz/z+MnVWuwjzyqqq5NQ=",
+    "originContent": "this particular PDF combined some character combination (e.g. \"tf\") into a single UTF-8 codepoint with ligatures. This",
+    "translatedContent": "你不打算直接在该 HTML 格式中阅读书籍——但它可以作为进一步转换步骤的基础。"
+  },
+  {
+    "row": 15,
+    "rowsha": "MtimZQpGLL4jWu4PtUk/Hh0r7uxHaZGr18Xbbciy7oA=",
+    "originContent": "however trips up most converting software.",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "要将文件转换为更实用的格式，我推荐使用 calibre 的 `ebook-convert` 工具："
+  },
+  {
+    "row": 17,
+    "rowsha": "FzNDuiFe6KiqTEbb4kjqorZwVkdi2Zc03N9zEhK7nrM=",
+    "originContent": "Thus, this project was born to download and combine all web documents into a single self-contained file without styling.",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "J1JB4Ux0EM9KrlRi47EQYt8QN62nRqHVK23N5LCGu/I=",
+    "originContent": "You are not intended to read the book in that HTML format - but it can be used as a basis for further conversion steps.",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "AdYqKGGLQ1msVyI+quIGKALwrt3O3JRuh66QQgZgf1Y=",
+    "originContent": "To convert the file into more useful formats I recommend using calibres `ebook-convert` utility:",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 22,
+    "rowsha": "nZ4RhskQ3qJbMMM3SuQB7aGnppXYLSSGYHhOrFqqWoQ=",
+    "originContent": "$ ebook-convert shape-up.html shape-up.epub \\",
+    "translatedContent": "$ ebook-convert shape-up.html shape-up.epub \\"
+  },
+  {
+    "row": 23,
+    "rowsha": "p3RMUr5gBXss+OVQBQyig8YmGp93n4wsmnBiMuK6qwk=",
+    "originContent": "    --authors \"Ryan Singer\" \\",
+    "translatedContent": "    --authors \"Ryan Singer\" \\"
+  },
+  {
+    "row": 24,
+    "rowsha": "41KRgtcZG88rrjPNuuzyNMn71iBqOw2mVfOmQpZCPd8=",
+    "originContent": "    --title \"Shape Up: Stop Running in Circles and Ship Work that Matters\" \\",
+    "translatedContent": "    --title \"Shape Up: Stop Running in Circles and Ship Work that Matters\" \\"
+  },
+  {
+    "row": 25,
+    "rowsha": "oJvOQbNVyqZU6BZ0fi+u1luD/TZLIlixroZi+0NdSzo=",
+    "originContent": "    --book-producer \"Basecamp\" \\",
+    "translatedContent": "    --book-producer \"Basecamp\" \\"
+  },
+  {
+    "row": 26,
+    "rowsha": "THEOt5PrjeeWgROhduo4JHQl63CY4PomxhCSjX7sj2I=",
+    "originContent": "    --publisher \"Basecamp\" \\",
+    "translatedContent": "    --publisher \"Basecamp\" \\"
+  },
+  {
+    "row": 27,
+    "rowsha": "OyqINkImy90hXXp6H+dwL71Z2gcFFVDcvkFr3vgDaUY=",
+    "originContent": "    --language \"en\"",
+    "translatedContent": "    --language \"en\""
+  },
+  {
+    "row": 28,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 我可以从哪里下载这个 HTML/EPUB/MOBI 单页版本？"
+  },
+  {
+    "row": 30,
+    "rowsha": "H3du5ln2uBQ/A/TgOnqIJw+fCBrRqDM4Xdp4vE6s3pI=",
+    "originContent": "## Where can I download this HTML/EPUB/MOBI single page version?",
+    "translatedContent": "我不太确定托管这些文件的法律影响——因此我没有这样做。"
+  },
+  {
+    "row": 31,
+    "rowsha": "tPSqZ/nrT5OakoPYhIEXYZjmjL2bSht/Xk6HnprD+F0=",
+    "originContent": "I am not quite sure about the legal implications of hosting these files - thus I am not doing it.",
+    "translatedContent": "下载代码在这里，但你必须自己使用它。"
+  },
+  {
+    "row": 32,
+    "rowsha": "mF0Q5HHH62v5DF10ErVPCbUfx7GXlIMqdIioQw3z9so=",
+    "originContent": "The code to download it yourself is here, but you must use it yourself.",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 34,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "### 本地 PHP"
+  },
+  {
+    "row": 35,
+    "rowsha": "ucJ9fnOzwTGZA+oGpxYc/cZu2h0DrMgXMn/Jkb95BYg=",
+    "originContent": "### Local PHP",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. [安装 PHP](https://www.php.net/manual/en/install.php)"
+  },
+  {
+    "row": 37,
+    "rowsha": "HC8Cb0ciUc4J0ILUOmro2XOByYOu7MPBt4v8s9KqHaE=",
+    "originContent": "1. [Install PHP](https://www.php.net/manual/en/install.php)",
+    "translatedContent": "2. [安装 Composer](https://getcomposer.org/download/)"
+  },
+  {
+    "row": 38,
+    "rowsha": "b3rGkeVNudm70xlARX2S1o3if0RyNPyes1R4XYAniKw=",
+    "originContent": "2. [Install Composer](https://getcomposer.org/download/)",
+    "translatedContent": "3. 运行 `php composer.phar install`（或者如果 composer 全局安装了，运行 `composer install`）"
+  },
+  {
+    "row": 39,
+    "rowsha": "iQdAhww/4LiMKpQ9iREG7GoXbBsi+jGgTdJPKTeIiw8=",
+    "originContent": "3. Run `php composer.phar install` (or `composer install` in case composer is installed globally)",
+    "translatedContent": "4. 运行 `php cli.php download:single-html`"
+  },
+  {
+    "row": 40,
+    "rowsha": "zUru2wFJW9Hfu/f0OWBmFQHiIxHbqwXHxLi+vKxC5Fc=",
+    "originContent": "4. Run `php cli.php download:single-html`",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "这将在你当前目录下创建一个 `shape-up.html` 文件。"
+  },
+  {
+    "row": 42,
+    "rowsha": "sYtXs5rBekJB7C7sqG4FDVOu7b0EmyLeNQSpN0acbn8=",
+    "originContent": "This will create a `shape-up.html` file in your current directory.",
+    "translatedContent": "就是这样。"
+  },
+  {
+    "row": 43,
+    "rowsha": "FvzOd7fRYKVRc9UpyA0zRKC6OZFhynA1pBVH24es6rM=",
+    "originContent": "That's it.",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Docker 方式"
+  },
+  {
+    "row": 45,
+    "rowsha": "mO72AGeSpGKAfD3Tsd3ImHBqG9ZDxVH4oXBl+iEMrB8=",
+    "originContent": "### Docker way",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "有一种方法可以完全不用处理 php。只需要安装 docker 引擎即可。"
+  },
+  {
+    "row": 47,
+    "rowsha": "vIjUTAEiMYXzGh4xXOmSiHMlTyBO40biNnTeBj8h1Gk=",
+    "originContent": "There is a way to not deal with php at all. For that it is enough to have docker engine installed.",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "使用方法"
+  },
+  {
+    "row": 49,
+    "rowsha": "jVmCnB4Vr+Gn+uk+jl4y2FEb7F/VmKCfT+pgM7MeimY=",
+    "originContent": "Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "FvqrTn+Z0fjzOJUQ18+5saEozRarPaIVhjkPb7nvO9A=",
+    "originContent": "docker run -it --rm -v $(pwd)/output:/app/output thej6s/shape-up-downloader",
+    "translatedContent": "docker run -it --rm -v $(pwd)/output:/app/output thej6s/shape-up-downloader"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "BFbiKYNs9tfVEL310vsUAw6GfokLgO8Ulk8SIMutw14=",
+    "originContent": "This will create a `shape-up.html` file in ./output directory",
+    "translatedContent": "这将在 ./output 目录中创建一个 `shape-up.html` 文件"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
