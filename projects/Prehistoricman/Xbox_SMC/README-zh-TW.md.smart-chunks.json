@@ -1,0 +1,659 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Xbox_SMC\nPIC16/Xyclops dumps from the original Xbox and IDA databases with some reverse engineering done.\n\n![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)\n\n# Xyclops flashing (XycloMod)\nSee [the Xyclops directory and README](/Xyclops)\n",
+    "ContentSha": "RpKrge6T0Hux61TDwT3dHMpZgjp2BI/xt36IBbjTdRQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 語言</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-CN\">簡體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Xbox_SMC\n原始 Xbox 的 PIC16/Xyclops 轉存檔以及 IDA 資料庫，並進行了一些逆向工程。\n\n![原始 Xbox 上 PIC16LC63A 的圖片](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)\n\n# Xyclops 燒錄（XycloMod）\n請參閱 [Xyclops 目錄和 README](/Xyclops)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 語言</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "CIi9m1pURCSCyeMFdzujCHQFHJP6zgewPl/8Bt16oUo=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "/fCGOtGdhzx8jOQYbhZDNCK/xzilwYutUfjSJekxaFw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-CN\">簡體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "GBaA/BuQjpW9zu7uPVKeGrObrsw/Y1gFC52Ll6MSuPY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "db13cMztzvMHty3SiyrZ44xCWxINlZiSP+0spu0OGoQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "d5ihERnsLkFiok0Mh9cFXVp7+sJItriGoGP+nLzlpB4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "V05vlmsamZT1vMRsZaG7Qy0W42vVjXd5tUtnIV7Ggn0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "H8CHDp52v5mVSS1UrXtQl0jiejuTTv3Hg4GZNn8SlbM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "98VNOMNYt3JKqiwF+kgaFOUbYWpUkDmvp+b//KQ9KNQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "KmRdBwB/ipxzs4PiFwc7O6QZ424KwrG6R2o6p761vxU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "p3ATizUje2S+Bc9YTzsiFYSaOUyM7BMXKgTEVr4V/PE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "L+NvtG1fYDZ2/I1Un40CONRVjsLZLrL7/1x3PwQAkME=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Nx1leziunXXnCyoLfiPeb8lbrqk4wPaoGtatfjNSLaM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "iroOT44EOKq+MldWK+//U6no/csChyrSDbqXuLJ5laQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "P5egdi7FDbrDZMRs+LLdYJLDkhLPapwAsZ6JYFb64y0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "uj6dw/y6mzRC0sLXSj/w/f2qq5YEygvascj86JKZ+N4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "xiKuLkTQ55qi0W1Bw6R2hZCZu8qCLls8Onov87mY/m4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "LKES3e0c9tRuN2+F9dGkFCQiI7Bdo1cbXoFNGA+Ilpw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "yuYoyAHcaGNULSKgU/yT/jpc+WE+C8i7VfimPTFb0Ik=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "2kSJmAxMsJsXtXo4GcfbobtnW2DQAQ9al6yaduHvYM4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "ZLv+fVhUj81vxjiFrMxY71IwcQf3/lpa4SHfs3YLdbA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "ycSgHWrc1zVWKW9VenNDF+0YzchRD6L8p7rVIXhXsqI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "7Vjio4LmIBLUncP6Gggu7AfYiFJAXIGki8dyoQw9cJg=",
+        "originContent": "# Xbox_SMC",
+        "translatedContent": "# Xbox_SMC"
+      },
+      {
+        "row": 34,
+        "rowsha": "UWIFzDF7aZH11uerT5hK6BGcsYYnufNh5bjrb89U7Eo=",
+        "originContent": "PIC16/Xyclops dumps from the original Xbox and IDA databases with some reverse engineering done.",
+        "translatedContent": "原始 Xbox 的 PIC16/Xyclops 轉存檔以及 IDA 資料庫，並進行了一些逆向工程。"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "edB6L7ZtUCUb8rB8AVDRGzewZD+tA9aYYFdaJoxztxg=",
+        "originContent": "![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)",
+        "translatedContent": "![原始 Xbox 上 PIC16LC63A 的圖片](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "SPdSzoZmeAOha+WEEVfqKrdepLlvB/rvWkiZ7utpy0Y=",
+        "originContent": "# Xyclops flashing (XycloMod)",
+        "translatedContent": "# Xyclops 燒錄（XycloMod）"
+      },
+      {
+        "row": 39,
+        "rowsha": "Okjlqxhq2laCmBXhSS7qwXz1Uu+BUZ+geQEieZEsnmU=",
+        "originContent": "See [the Xyclops directory and README](/Xyclops)",
+        "translatedContent": "請參閱 [Xyclops 目錄和 README](/Xyclops)"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "# Dumps\nThe .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.\n\nThe .idb IDA databases have info about variable and some observations on the database notepad.\n\nSee this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info\n\n## B2A\nDumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.\n\nIt's completely missing the boot challenge.\n\n## D01\nDumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.\n\n## DXF\nDumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.\n\n## D2E\nDumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.\n\nThe debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.\n\n## P01\nDumped from a v1.0 Xbox. The config word is 0x86:\n- CP1:CP0 = 0 (Code Protection enabled for the whole memory)\n- BODEN = 0 (Brown-out Reset disabled)\n- ~PWRTE = 0 (Power-up Timer enabled)\n- WDTE = 1 (Watchdog Timer enabled)\n- FOSC1:FOSC0 = 2 (HS oscillator)\n\nA config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.\n\n## P11\nDumped from a v1.3 Xbox. Same config word as P01.\n\nThere are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.\n\nI checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.\n",
+    "ContentSha": "SOnLwT0uoR7almY86fQKi4Vce1rQSt+0XtUu/tTCQzU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 傾印檔案\n每個 PIC 傾印的 .bin 檔案已經進行位元組交換，以便正確載入到 IDA。因此 PIC 記憶體的第一個字是 byte_0 + byte_1 << 8。\n\n.idb IDA 資料庫中包含有關變數的資訊，以及在資料庫備忘錄上的一些觀察。\n\n請參閱此 wiki 頁面以了解 SMC 版本的詳細分解：https://xboxdevwiki.net/Xboxen_Info\n\n## B2A\n從 DVT3 Xbox 傾印。設定字與 P01 相同。它在設定區域中燒錄了裝置 ID：0000 0000 000B 002A，這與量產 PIC 不同。\n\n完全缺少開機挑戰。\n\n## D01\n從 XDK BETA 2 Xbox 傾印。除了缺少開機挑戰外，與 P01 完全相同。計算預期開機挑戰回應的函數仍存在，但從未被呼叫。\n\n## DXF\n從 XDK D2 除錯套件傾印。與 D01 非常相似，但托盤邏輯、過熱邏輯和開機邏輯略有不同。開機挑戰與 D01 一樣缺失。\n\n## D2E\n從 Tuscany (v1.6) 開發套件傾印。Xyclops 晶片標示為 X01202-001，並且缺少零售機型上有的 A-A02 或 A-B01 線。\n\n在 FC00 的除錯序列碼與零售版 P2L 傾印一致。從 0x4000 到 0xFBFF 有一個奇怪的資料模式。\n\n## P01\n從 v1.0 Xbox 傾印。設定字為 0x86：\n- CP1:CP0 = 0（整個記憶體啟用程式碼保護）\n- BODEN = 0（停電重置停用）\n- ~PWRTE = 0（開機計時器啟用）\n- WDTE = 1（看門狗計時器啟用）\n- FOSC1:FOSC0 = 2（HS 振盪器）\n\nSMC 複製品適用的設定值為 0x3FB6，這樣就不會啟用程式碼保護。\n\n## P11\n從 v1.3 Xbox 傾印。設定字與 P01 相同。\n\nP11 與 P01 相比有一些小變化，包括多了一個 SMBus 指令（寫入 0x22）、不同的 LED 優先順序，以及更寬鬆的開機時序。\n\n我已檢查 v1.3 的加密傾印與 v1.4 相比，它們是相符的。這表示它們極有可能使用相同的程式。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5Vyx49nxMKYF7QEzBlpGfvNAWEf5xbtvJE8A3sdYwUg=",
+        "originContent": "# Dumps",
+        "translatedContent": "# 傾印檔案"
+      },
+      {
+        "row": 2,
+        "rowsha": "sOhXc42ZURwSIk21QlGSDK5H5LpaV0pkxBUojpD+BVg=",
+        "originContent": "The .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.",
+        "translatedContent": "每個 PIC 傾印的 .bin 檔案已經進行位元組交換，以便正確載入到 IDA。因此 PIC 記憶體的第一個字是 byte_0 + byte_1 << 8。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "D3YLn8foWRg1NB/FwJ7AVR5unP6AErLsYFqk9ueJijA=",
+        "originContent": "The .idb IDA databases have info about variable and some observations on the database notepad.",
+        "translatedContent": ".idb IDA 資料庫中包含有關變數的資訊，以及在資料庫備忘錄上的一些觀察。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "BCAYydA+LxX+51Jl/Y/OeNJFvcehbtPRQ5IyjO2Vs84=",
+        "originContent": "See this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info",
+        "translatedContent": "請參閱此 wiki 頁面以了解 SMC 版本的詳細分解：https://xboxdevwiki.net/Xboxen_Info"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "3Lg0KWrz2Uxr6a+xtN3rsn2I/asrBauael0Jj5u5xSU=",
+        "originContent": "## B2A",
+        "translatedContent": "## B2A"
+      },
+      {
+        "row": 9,
+        "rowsha": "/5nNnZDlioG3+7ogXzhyfo7iNL93Am/a5pNjK5duJ58=",
+        "originContent": "Dumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.",
+        "translatedContent": "從 DVT3 Xbox 傾印。設定字與 P01 相同。它在設定區域中燒錄了裝置 ID：0000 0000 000B 002A，這與量產 PIC 不同。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "dFeGepqbZqEM0LIUHKJIubCkEqd7z14iFM4d/By3RMc=",
+        "originContent": "It's completely missing the boot challenge.",
+        "translatedContent": "完全缺少開機挑戰。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "g9ENDupbzvBEgk66wjm243hyg5wHhYkpQFDlCwHDrB8=",
+        "originContent": "## D01",
+        "translatedContent": "## D01"
+      },
+      {
+        "row": 14,
+        "rowsha": "2k9KCOmOs7m1H/kv222a6Hx2jVgSqY/2EGZoshKgbpg=",
+        "originContent": "Dumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.",
+        "translatedContent": "從 XDK BETA 2 Xbox 傾印。除了缺少開機挑戰外，與 P01 完全相同。計算預期開機挑戰回應的函數仍存在，但從未被呼叫。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "0KESs1Ft7gXJn+95XfhUrh5U/dWqmOU9B/d1sMqLIKA=",
+        "originContent": "## DXF",
+        "translatedContent": "## DXF"
+      },
+      {
+        "row": 17,
+        "rowsha": "DpRz71tOUeUL0f8rdEH2D2TrsSsxVOcOntbwOnSx96c=",
+        "originContent": "Dumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.",
+        "translatedContent": "從 XDK D2 除錯套件傾印。與 D01 非常相似，但托盤邏輯、過熱邏輯和開機邏輯略有不同。開機挑戰與 D01 一樣缺失。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Qm+Dc2rNI+zTyzq68FF9bSxgb1mYJsLiVPvCjy12sHo=",
+        "originContent": "## D2E",
+        "translatedContent": "## D2E"
+      },
+      {
+        "row": 20,
+        "rowsha": "0dcrro0/jmBg3ptLe8F3IXsA7nIjV0KqxAlSI0MpdrY=",
+        "originContent": "Dumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.",
+        "translatedContent": "從 Tuscany (v1.6) 開發套件傾印。Xyclops 晶片標示為 X01202-001，並且缺少零售機型上有的 A-A02 或 A-B01 線。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "unoySSnigQWg4eVc5eQ24jiUl06AOumHMxSHAtKQIfk=",
+        "originContent": "The debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.",
+        "translatedContent": "在 FC00 的除錯序列碼與零售版 P2L 傾印一致。從 0x4000 到 0xFBFF 有一個奇怪的資料模式。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "vYCzF0U2NMm1zvNU4rWfES8YHAw99zNUgVnHb/gylB4=",
+        "originContent": "## P01",
+        "translatedContent": "## P01"
+      },
+      {
+        "row": 25,
+        "rowsha": "lhFP7Htb8Cx1N3WJIyZItmmr+06mLEq65rpMUISKeOQ=",
+        "originContent": "Dumped from a v1.0 Xbox. The config word is 0x86:",
+        "translatedContent": "從 v1.0 Xbox 傾印。設定字為 0x86："
+      },
+      {
+        "row": 26,
+        "rowsha": "YCBl3i9uDRuIgF+EW4T9VVMhfvqCDN46BId71aQ1x8M=",
+        "originContent": "- CP1:CP0 = 0 (Code Protection enabled for the whole memory)",
+        "translatedContent": "- CP1:CP0 = 0（整個記憶體啟用程式碼保護）"
+      },
+      {
+        "row": 27,
+        "rowsha": "kKSd6K3kGrxnKSXLfYvOq6QLQ9VXoIchtgESuHnSr8o=",
+        "originContent": "- BODEN = 0 (Brown-out Reset disabled)",
+        "translatedContent": "- BODEN = 0（停電重置停用）"
+      },
+      {
+        "row": 28,
+        "rowsha": "QjS+uwdrracDT0bg9U929U+2p44SfcLwv9IMFHvxOFM=",
+        "originContent": "- ~PWRTE = 0 (Power-up Timer enabled)",
+        "translatedContent": "- ~PWRTE = 0（開機計時器啟用）"
+      },
+      {
+        "row": 29,
+        "rowsha": "Tv9Y5mfeFnvXoaQk2XcjjENaHOYhzzC/Tnnl8acqLww=",
+        "originContent": "- WDTE = 1 (Watchdog Timer enabled)",
+        "translatedContent": "- WDTE = 1（看門狗計時器啟用）"
+      },
+      {
+        "row": 30,
+        "rowsha": "lZoLVVPnG9bmz+WfyIkU57GNc3ZylqicqI19DKZiLv8=",
+        "originContent": "- FOSC1:FOSC0 = 2 (HS oscillator)",
+        "translatedContent": "- FOSC1:FOSC0 = 2（HS 振盪器）"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "bhx9nDl8GRYzqvEiKwaW8iovltN5q2NkYKez4BPQ3S4=",
+        "originContent": "A config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.",
+        "translatedContent": "SMC 複製品適用的設定值為 0x3FB6，這樣就不會啟用程式碼保護。"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "WAajUMytPQJGen1LMHqK0ynUL6I9CB7wSt3iNzJCNTw=",
+        "originContent": "## P11",
+        "translatedContent": "## P11"
+      },
+      {
+        "row": 35,
+        "rowsha": "WWu/J091qRsMQWwDEfCg3FrFjyRb16jQsTqoR8+XSSs=",
+        "originContent": "Dumped from a v1.3 Xbox. Same config word as P01.",
+        "translatedContent": "從 v1.3 Xbox 傾印。設定字與 P01 相同。"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "lAKSNMXXPvmQFFMfg5L4G05OZ27A58Jj8m7YG7dcggY=",
+        "originContent": "There are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.",
+        "translatedContent": "P11 與 P01 相比有一些小變化，包括多了一個 SMBus 指令（寫入 0x22）、不同的 LED 優先順序，以及更寬鬆的開機時序。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "TYerbbTwT6Xs1VIWM/fdhS76MYin21vOs61MvbjTeLw=",
+        "originContent": "I checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.",
+        "translatedContent": "我已檢查 v1.3 的加密傾印與 v1.4 相比，它們是相符的。這表示它們極有可能使用相同的程式。"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "## P2L\nDumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.\n\nThe debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.\n\n# Xyclops dumping\n\nThe Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.\n\nThe protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`\n\nCommand 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.\n\n# PIC dumping methodology\nFull writeup at https://wiki.recessim.com/view/PIC_Burnout\n\nThe PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.\n\n# PICProgrammer\nPICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.\n\nYou should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.\n",
+    "ContentSha": "8WDfXpkD0y0KUjjGUh3Kwv7iVnkyafmm9Hs/XednmKk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## P2L\n從 v1.6 Xbox 傾印。Xyclops 修訂版本 A-A02。它包含 Intel 8051 程式碼，但有許多特殊功能暫存器，其功能未知。\n\n調試串列端口由 FC00 處的程式碼供電。看起來像是一個簡陋的調試器，可以暫停執行、傾印資料，並寫入暫存器/RAM。\n\n# Xyclops 傾印\n\nXyclops 晶片有三個「調試」腳位：TXD（腳位 64）、RXD（腳位 63）和 DEBUG（腳位 29）。將 DEBUG 腳位設為高電位即可啟用 TX 和 RX 腳位上的串列端口。串列通訊速率為 9600 baud。\n\n協定基於 4 字節指令，格式通常為 `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`\n\n指令 0x14 每次傾印 64 字節 BIOS 資料，0x15 每次傾印 64 字節 SMC 程式資料。來自 Xyclops 的傾印檔 P2L.bin 已包含於倉庫中。[xyclops_dumper.py](/Xyclops/xyclops_dumper.py) 也已包含，供你傾印自己的機器。\n\n# PIC 傾印方法\n完整說明請參見 https://wiki.recessim.com/view/PIC_Burnout\n\nPIC 啟用了程式碼保護，因此所有資料讀取出來都是 0000。我用了一些技巧取得了亂碼資料輸出，利用犧牲晶片發現了亂碼演算法，然後使用某種漏洞改變 ROM 資料，使部分位元固定為已知值。接著我可以從多次亂碼傾印中提取所需資訊，重建原始資料。\n\n# PICProgrammer\nPICProgrammer 是我研究中使用的幾個 RP2040 Arduino 專案之一。它提供一個簡易命令列介面，以執行 PIC 的 ICSP（線路內串列程式燒錄）操作。與使用如 PICkit 等專用燒錄器相比，它因彈性高且可以執行製造商未預期的操作而較受青睞。\n\n在使用前，你應該對電子學和程式設計有良好理解，並仔細了解各指令的作用後再執行。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "BjXHBtVuZ742lYFV6G8A9t8oRU43uLI513Bnw1BQ5G0=",
+        "originContent": "## P2L",
+        "translatedContent": "## P2L"
+      },
+      {
+        "row": 2,
+        "rowsha": "dvZDjF2tYvTy6oc3Tz5TKJqgPYQ6N7x0z9s6D+ctnSg=",
+        "originContent": "Dumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.",
+        "translatedContent": "從 v1.6 Xbox 傾印。Xyclops 修訂版本 A-A02。它包含 Intel 8051 程式碼，但有許多特殊功能暫存器，其功能未知。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pADnkRtsQ7fbhvkg7+ny1Bh5xIcDvPR9HDKHN+/7o/o=",
+        "originContent": "The debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.",
+        "translatedContent": "調試串列端口由 FC00 處的程式碼供電。看起來像是一個簡陋的調試器，可以暫停執行、傾印資料，並寫入暫存器/RAM。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Sv1dVJCdFQhY/b8Qh88bXNtxWIj8SqBsln88Lfx9oas=",
+        "originContent": "# Xyclops dumping",
+        "translatedContent": "# Xyclops 傾印"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "PPnPlDJQYlwEvTlTMUT7aGgr4n4T9G2HvqRRTGw4Os4=",
+        "originContent": "The Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.",
+        "translatedContent": "Xyclops 晶片有三個「調試」腳位：TXD（腳位 64）、RXD（腳位 63）和 DEBUG（腳位 29）。將 DEBUG 腳位設為高電位即可啟用 TX 和 RX 腳位上的串列端口。串列通訊速率為 9600 baud。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "aDbUWg6ba2r2jHJkbK9OhSZ/yZaf8pjXgqUz7dLI30U=",
+        "originContent": "The protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`",
+        "translatedContent": "協定基於 4 字節指令，格式通常為 `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Bc8gjC3yH1ZslKO4yLkz6M/S7ygqko8CAS5pBU0nnmM=",
+        "originContent": "Command 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.",
+        "translatedContent": "指令 0x14 每次傾印 64 字節 BIOS 資料，0x15 每次傾印 64 字節 SMC 程式資料。來自 Xyclops 的傾印檔 P2L.bin 已包含於倉庫中。[xyclops_dumper.py](/Xyclops/xyclops_dumper.py) 也已包含，供你傾印自己的機器。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "snRA4OeinDa1e6nAFCvMXCLoQfMEDdqNZfYjejrt73I=",
+        "originContent": "# PIC dumping methodology",
+        "translatedContent": "# PIC 傾印方法"
+      },
+      {
+        "row": 15,
+        "rowsha": "KS99zZJx4aRb+uy2mZ89HHwNcBwxUOip84fHqvvjXqk=",
+        "originContent": "Full writeup at https://wiki.recessim.com/view/PIC_Burnout",
+        "translatedContent": "完整說明請參見 https://wiki.recessim.com/view/PIC_Burnout"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "hGSpj9qrfICX22U6fbUgluDsebH6p2wWqPaR3yvKG3Q=",
+        "originContent": "The PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.",
+        "translatedContent": "PIC 啟用了程式碼保護，因此所有資料讀取出來都是 0000。我用了一些技巧取得了亂碼資料輸出，利用犧牲晶片發現了亂碼演算法，然後使用某種漏洞改變 ROM 資料，使部分位元固定為已知值。接著我可以從多次亂碼傾印中提取所需資訊，重建原始資料。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Bfj8XXgMR5w88vTdJxP5WWXAjcOlhA3/Aq4x+gL4SRg=",
+        "originContent": "# PICProgrammer",
+        "translatedContent": "# PICProgrammer"
+      },
+      {
+        "row": 20,
+        "rowsha": "bi26QfTVktXi7f3PiEh3691cBpCoGSHBe7d8cFTm+3Y=",
+        "originContent": "PICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.",
+        "translatedContent": "PICProgrammer 是我研究中使用的幾個 RP2040 Arduino 專案之一。它提供一個簡易命令列介面，以執行 PIC 的 ICSP（線路內串列程式燒錄）操作。與使用如 PICkit 等專用燒錄器相比，它因彈性高且可以執行製造商未預期的操作而較受青睞。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "/qxKgTKYbeCy4ws6Kt15qOBJRygW5rkpPMBSutshzVc=",
+        "originContent": "You should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.",
+        "translatedContent": "在使用前，你應該對電子學和程式設計有良好理解，並仔細了解各指令的作用後再執行。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,25 +1,278 @@
 [
   {
     "Id": 1,
-    "Content": "# Xbox_SMC\nPIC16/Xyclops dumps from the original Xbox and IDA databases with some reverse engineering done.\n\n![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)\n\n# Xyclops flashing (XycloMod)\nSee [the Xyclops directory and README](/Xyclops)\n\n# Dumps\nThe .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.\n\nThe .idb IDA databases have info about variable and some observations on the database notepad.\n\nSee this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info\n\n## B2A\nDumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.\n\nIt's completely missing the boot challenge.\n\n## D01\nDumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.\n\n## DXF\nDumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.\n\n## D2E\nDumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.\n\nThe debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.\n\n## P01\nDumped from a v1.0 Xbox. The config word is 0x86:\n- CP1:CP0 = 0 (Code Protection enabled for the whole memory)\n- BODEN = 0 (Brown-out Reset disabled)\n- ~PWRTE = 0 (Power-up Timer enabled)\n- WDTE = 1 (Watchdog Timer enabled)\n- FOSC1:FOSC0 = 2 (HS oscillator)\n\nA config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.",
-    "ContentSha": "DV5hCTI14ZInQtF3PvAC/vs+hoNUEzOylJFMeCa/ekg=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Xbox_SMC\nPIC16/Xyclops dumps from the original Xbox and IDA databases with some reverse engineering done.\n\n![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)\n\n# Xyclops flashing (XycloMod)\nSee [the Xyclops directory and README](/Xyclops)\n",
+    "ContentSha": "RpKrge6T0Hux61TDwT3dHMpZgjp2BI/xt36IBbjTdRQ=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# Xbox_SMC\n오리지널 Xbox와 IDA 데이터베이스에서 추출한 PIC16/Xyclops 덤프와 일부 역공학 작업.\n\n![오리지널 Xbox의 PIC16LC63A 이미지](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)\n\n# Xyclops 플래싱 (XycloMod)\n[Xyclops 디렉터리 및 README](/Xyclops) 참조\n\n# 덤프\n각 PIC 덤프의 .bin 파일은 IDA에 올바르게 로드되도록 바이트가 스왑되어 있습니다. 따라서 PIC 메모리의 첫 번째 워드는 byte_0 + byte_1 << 8입니다.\n\n.idb IDA 데이터베이스에는 변수에 대한 정보와 데이터베이스 메모장에 대한 일부 관찰 내용이 포함되어 있습니다.\n\nSMC 버전 분석에 대해서는 이 위키 페이지를 참조하십시오: https://xboxdevwiki.net/Xboxen_Info\n\n## B2A\nDVT3 Xbox에서 덤프. P01과 같은 구성 단어를 가짐. 또한 생산용 PIC과 달리 구성 영역에 0000 0000 000B 002A로 장치 ID가 기록되어 있습니다.\n\n부트 챌린지가 완전히 없습니다.\n\n## D01\nXDK BETA 2 Xbox에서 덤프. 부트 챌린지가 없는 점을 제외하면 P01과 동일합니다. 예상 부트 챌린지 응답을 계산하는 함수는 존재하지만 호출되지 않습니다.\n\n## DXF\nXDK D2 디버그 키트에서 덤프. D01과 매우 유사하지만 트레이 로직, 과열 로직 및 부트 로직이 약간 다릅니다. 부트 챌린지는 D01과 같은 방식으로 없습니다.\n\n## D2E\nTuscany (v1.6) 개발 키트에서 덤프. Xyclops 칩은 X01202-001로 표시되며, 소매용 유닛이 가진 A-A02 또는 A-B01 라인이 없습니다.\n\nFC00의 디버그 시리얼 코드는 소매용 P2L 덤프와 일치합니다. 0x4000부터 0xFBFF까지 이상한 데이터 패턴이 있습니다.\n\n## P01\nv1.0 Xbox에서 덤프. 구성 단어는 0x86입니다:\n- CP1:CP0 = 0 (전체 메모리에 대해 코드 보호 활성화)\n- BODEN = 0 (브라운아웃 리셋 비활성화)\n- ~PWRTE = 0 (전원 켜짐 타이머 활성화)\n- WDTE = 1 (워치독 타이머 활성화)\n- FOSC1:FOSC0 = 2 (HS 오실레이터)\n\n0x3FB6 구성 값은 코드 보호가 활성화되지 않도록 하는 SMC 클론에 적합합니다.",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Xbox_SMC\n오리지널 Xbox에서 추출한 PIC16/Xyclops 덤프와 IDA 데이터베이스, 그리고 일부 리버스 엔지니어링 결과입니다.\n\n![오리지널 Xbox의 PIC16LC63A 이미지](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)\n\n# Xyclops 플래싱 (XycloMod)\n[Xyclops 디렉터리와 README](/Xyclops)를 참고하세요.\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 언어</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "CIi9m1pURCSCyeMFdzujCHQFHJP6zgewPl/8Bt16oUo=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "/fCGOtGdhzx8jOQYbhZDNCK/xzilwYutUfjSJekxaFw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "GBaA/BuQjpW9zu7uPVKeGrObrsw/Y1gFC52Ll6MSuPY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "db13cMztzvMHty3SiyrZ44xCWxINlZiSP+0spu0OGoQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "d5ihERnsLkFiok0Mh9cFXVp7+sJItriGoGP+nLzlpB4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "V05vlmsamZT1vMRsZaG7Qy0W42vVjXd5tUtnIV7Ggn0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "H8CHDp52v5mVSS1UrXtQl0jiejuTTv3Hg4GZNn8SlbM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "98VNOMNYt3JKqiwF+kgaFOUbYWpUkDmvp+b//KQ9KNQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "KmRdBwB/ipxzs4PiFwc7O6QZ424KwrG6R2o6p761vxU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "p3ATizUje2S+Bc9YTzsiFYSaOUyM7BMXKgTEVr4V/PE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "L+NvtG1fYDZ2/I1Un40CONRVjsLZLrL7/1x3PwQAkME=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Nx1leziunXXnCyoLfiPeb8lbrqk4wPaoGtatfjNSLaM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "iroOT44EOKq+MldWK+//U6no/csChyrSDbqXuLJ5laQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "P5egdi7FDbrDZMRs+LLdYJLDkhLPapwAsZ6JYFb64y0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "uj6dw/y6mzRC0sLXSj/w/f2qq5YEygvascj86JKZ+N4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "xiKuLkTQ55qi0W1Bw6R2hZCZu8qCLls8Onov87mY/m4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "LKES3e0c9tRuN2+F9dGkFCQiI7Bdo1cbXoFNGA+Ilpw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "yuYoyAHcaGNULSKgU/yT/jpc+WE+C8i7VfimPTFb0Ik=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "2kSJmAxMsJsXtXo4GcfbobtnW2DQAQ9al6yaduHvYM4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "ZLv+fVhUj81vxjiFrMxY71IwcQf3/lpa4SHfs3YLdbA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "ycSgHWrc1zVWKW9VenNDF+0YzchRD6L8p7rVIXhXsqI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
         "rowsha": "7Vjio4LmIBLUncP6Gggu7AfYiFJAXIGki8dyoQw9cJg=",
         "originContent": "# Xbox_SMC",
         "translatedContent": "# Xbox_SMC"
       },
       {
-        "row": 2,
+        "row": 34,
         "rowsha": "UWIFzDF7aZH11uerT5hK6BGcsYYnufNh5bjrb89U7Eo=",
         "originContent": "PIC16/Xyclops dumps from the original Xbox and IDA databases with some reverse engineering done.",
-        "translatedContent": "오리지널 Xbox와 IDA 데이터베이스에서 추출한 PIC16/Xyclops 덤프와 일부 역공학 작업."
+        "translatedContent": "오리지널 Xbox에서 추출한 PIC16/Xyclops 덤프와 IDA 데이터베이스, 그리고 일부 리버스 엔지니어링 결과입니다."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "edB6L7ZtUCUb8rB8AVDRGzewZD+tA9aYYFdaJoxztxg=",
+        "originContent": "![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)",
+        "translatedContent": "![오리지널 Xbox의 PIC16LC63A 이미지](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "SPdSzoZmeAOha+WEEVfqKrdepLlvB/rvWkiZ7utpy0Y=",
+        "originContent": "# Xyclops flashing (XycloMod)",
+        "translatedContent": "# Xyclops 플래싱 (XycloMod)"
+      },
+      {
+        "row": 39,
+        "rowsha": "Okjlqxhq2laCmBXhSS7qwXz1Uu+BUZ+geQEieZEsnmU=",
+        "originContent": "See [the Xyclops directory and README](/Xyclops)",
+        "translatedContent": "[Xyclops 디렉터리와 README](/Xyclops)를 참고하세요."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "# Dumps\nThe .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.\n\nThe .idb IDA databases have info about variable and some observations on the database notepad.\n\nSee this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info\n\n## B2A\nDumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.\n\nIt's completely missing the boot challenge.\n\n## D01\nDumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.\n\n## DXF\nDumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.\n\n## D2E\nDumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.\n\nThe debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.\n\n## P01\nDumped from a v1.0 Xbox. The config word is 0x86:\n- CP1:CP0 = 0 (Code Protection enabled for the whole memory)\n- BODEN = 0 (Brown-out Reset disabled)\n- ~PWRTE = 0 (Power-up Timer enabled)\n- WDTE = 1 (Watchdog Timer enabled)\n- FOSC1:FOSC0 = 2 (HS oscillator)\n\nA config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.\n\n## P11\nDumped from a v1.3 Xbox. Same config word as P01.\n\nThere are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.\n\nI checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.\n",
+    "ContentSha": "SOnLwT0uoR7almY86fQKi4Vce1rQSt+0XtUu/tTCQzU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 덤프\n각 PIC 덤프의 .bin 파일은 IDA에 올바르게 로딩되도록 바이트가 교환되어 있습니다. 따라서 PIC 메모리의 첫 번째 워드는 byte_0 + byte_1 << 8입니다.\n\n.idb IDA 데이터베이스에는 변수 정보와 데이터베이스 노트패드에 대한 몇 가지 관찰 내용이 있습니다.\n\nSMC 버전의 분류는 이 위키 페이지를 참조하세요: https://xboxdevwiki.net/Xboxen_Info\n\n## B2A\nDVT3 Xbox에서 덤프되었습니다. P01과 동일한 구성 워드를 가지고 있습니다. 또한 프로덕션 PIC과 달리 구성 영역에 0000 0000 000B 002A 디바이스 ID가 기록되어 있습니다.\n\n부트 챌린지가 완전히 빠져 있습니다.\n\n## D01\nXDK BETA 2 Xbox에서 덤프되었습니다. 부트 챌린지가 빠진 점을 제외하면 P01과 동일합니다. 예상 부트 챌린지 응답을 계산하는 함수는 여전히 있지만, 호출되지 않습니다.\n\n## DXF\nXDK D2 디버그 키트에서 덤프되었습니다. D01과 매우 유사하지만 트레이 로직, 과열 로직, 부트 로직이 약간 다릅니다. 부트 챌린지는 D01과 동일하게 누락되어 있습니다.\n\n## D2E\nTuscany (v1.6) 개발 키트에서 덤프되었습니다. Xyclops 칩은 X01202-001로 표기되어 있으며, 리테일 유닛에 있는 A-A02 또는 A-B01 라인이 빠져 있습니다.\n\nFC00의 디버그 시리얼 코드는 리테일 P2L 덤프와 일치합니다. 0x4000에서 0xFBFF까지 이상한 데이터 패턴이 있습니다.\n\n## P01\nv1.0 Xbox에서 덤프되었습니다. 구성 워드는 0x86입니다:\n- CP1:CP0 = 0 (전체 메모리에 코드 보호 활성화)\n- BODEN = 0 (브라운아웃 리셋 비활성화)\n- ~PWRTE = 0 (파워업 타이머 활성화)\n- WDTE = 1 (워치독 타이머 활성화)\n- FOSC1:FOSC0 = 2 (HS 오실레이터)\n\nSMC 클론에서 코드 보호가 활성화되지 않도록 0x3FB6 구성 값이 적합합니다.\n\n## P11\nv1.3 Xbox에서 덤프되었습니다. 구성 워드는 P01과 동일합니다.\n\nP11은 P01에 비해 몇 가지 작은 변경사항이 있으며, 여기에는 추가 SMBus 명령(0x22 쓰기), 다른 LED 우선순위, 더 느슨한 부트 타이밍 등이 포함됩니다.\n\nv1.3의 스크램블 덤프와 v1.4를 비교해봤고 일치했습니다. 이는 두 기기가 동일한 프로그램을 가질 가능성이 매우 높다는 것을 의미합니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5Vyx49nxMKYF7QEzBlpGfvNAWEf5xbtvJE8A3sdYwUg=",
+        "originContent": "# Dumps",
+        "translatedContent": "# 덤프"
+      },
+      {
+        "row": 2,
+        "rowsha": "sOhXc42ZURwSIk21QlGSDK5H5LpaV0pkxBUojpD+BVg=",
+        "originContent": "The .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.",
+        "translatedContent": "각 PIC 덤프의 .bin 파일은 IDA에 올바르게 로딩되도록 바이트가 교환되어 있습니다. 따라서 PIC 메모리의 첫 번째 워드는 byte_0 + byte_1 << 8입니다."
       },
       {
         "row": 3,
@@ -29,9 +282,9 @@
       },
       {
         "row": 4,
-        "rowsha": "edB6L7ZtUCUb8rB8AVDRGzewZD+tA9aYYFdaJoxztxg=",
-        "originContent": "![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)",
-        "translatedContent": "![오리지널 Xbox의 PIC16LC63A 이미지](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)"
+        "rowsha": "D3YLn8foWRg1NB/FwJ7AVR5unP6AErLsYFqk9ueJijA=",
+        "originContent": "The .idb IDA databases have info about variable and some observations on the database notepad.",
+        "translatedContent": ".idb IDA 데이터베이스에는 변수 정보와 데이터베이스 노트패드에 대한 몇 가지 관찰 내용이 있습니다."
       },
       {
         "row": 5,
@@ -41,57 +294,57 @@
       },
       {
         "row": 6,
-        "rowsha": "SPdSzoZmeAOha+WEEVfqKrdepLlvB/rvWkiZ7utpy0Y=",
-        "originContent": "# Xyclops flashing (XycloMod)",
-        "translatedContent": "# Xyclops 플래싱 (XycloMod)"
+        "rowsha": "BCAYydA+LxX+51Jl/Y/OeNJFvcehbtPRQ5IyjO2Vs84=",
+        "originContent": "See this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info",
+        "translatedContent": "SMC 버전의 분류는 이 위키 페이지를 참조하세요: https://xboxdevwiki.net/Xboxen_Info"
       },
       {
         "row": 7,
-        "rowsha": "Okjlqxhq2laCmBXhSS7qwXz1Uu+BUZ+geQEieZEsnmU=",
-        "originContent": "See [the Xyclops directory and README](/Xyclops)",
-        "translatedContent": "[Xyclops 디렉터리 및 README](/Xyclops) 참조"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "3Lg0KWrz2Uxr6a+xtN3rsn2I/asrBauael0Jj5u5xSU=",
+        "originContent": "## B2A",
+        "translatedContent": "## B2A"
       },
       {
         "row": 9,
-        "rowsha": "5Vyx49nxMKYF7QEzBlpGfvNAWEf5xbtvJE8A3sdYwUg=",
-        "originContent": "# Dumps",
-        "translatedContent": "# 덤프"
+        "rowsha": "/5nNnZDlioG3+7ogXzhyfo7iNL93Am/a5pNjK5duJ58=",
+        "originContent": "Dumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.",
+        "translatedContent": "DVT3 Xbox에서 덤프되었습니다. P01과 동일한 구성 워드를 가지고 있습니다. 또한 프로덕션 PIC과 달리 구성 영역에 0000 0000 000B 002A 디바이스 ID가 기록되어 있습니다."
       },
       {
         "row": 10,
-        "rowsha": "sOhXc42ZURwSIk21QlGSDK5H5LpaV0pkxBUojpD+BVg=",
-        "originContent": "The .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.",
-        "translatedContent": "각 PIC 덤프의 .bin 파일은 IDA에 올바르게 로드되도록 바이트가 스왑되어 있습니다. 따라서 PIC 메모리의 첫 번째 워드는 byte_0 + byte_1 << 8입니다."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "dFeGepqbZqEM0LIUHKJIubCkEqd7z14iFM4d/By3RMc=",
+        "originContent": "It's completely missing the boot challenge.",
+        "translatedContent": "부트 챌린지가 완전히 빠져 있습니다."
       },
       {
         "row": 12,
-        "rowsha": "D3YLn8foWRg1NB/FwJ7AVR5unP6AErLsYFqk9ueJijA=",
-        "originContent": "The .idb IDA databases have info about variable and some observations on the database notepad.",
-        "translatedContent": ".idb IDA 데이터베이스에는 변수에 대한 정보와 데이터베이스 메모장에 대한 일부 관찰 내용이 포함되어 있습니다."
-      },
-      {
-        "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 13,
+        "rowsha": "g9ENDupbzvBEgk66wjm243hyg5wHhYkpQFDlCwHDrB8=",
+        "originContent": "## D01",
+        "translatedContent": "## D01"
+      },
+      {
         "row": 14,
-        "rowsha": "BCAYydA+LxX+51Jl/Y/OeNJFvcehbtPRQ5IyjO2Vs84=",
-        "originContent": "See this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info",
-        "translatedContent": "SMC 버전 분석에 대해서는 이 위키 페이지를 참조하십시오: https://xboxdevwiki.net/Xboxen_Info"
+        "rowsha": "2k9KCOmOs7m1H/kv222a6Hx2jVgSqY/2EGZoshKgbpg=",
+        "originContent": "Dumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.",
+        "translatedContent": "XDK BETA 2 Xbox에서 덤프되었습니다. 부트 챌린지가 빠진 점을 제외하면 P01과 동일합니다. 예상 부트 챌린지 응답을 계산하는 함수는 여전히 있지만, 호출되지 않습니다."
       },
       {
         "row": 15,
@@ -101,15 +354,15 @@
       },
       {
         "row": 16,
-        "rowsha": "3Lg0KWrz2Uxr6a+xtN3rsn2I/asrBauael0Jj5u5xSU=",
-        "originContent": "## B2A",
-        "translatedContent": "## B2A"
+        "rowsha": "0KESs1Ft7gXJn+95XfhUrh5U/dWqmOU9B/d1sMqLIKA=",
+        "originContent": "## DXF",
+        "translatedContent": "## DXF"
       },
       {
         "row": 17,
-        "rowsha": "/5nNnZDlioG3+7ogXzhyfo7iNL93Am/a5pNjK5duJ58=",
-        "originContent": "Dumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.",
-        "translatedContent": "DVT3 Xbox에서 덤프. P01과 같은 구성 단어를 가짐. 또한 생산용 PIC과 달리 구성 영역에 0000 0000 000B 002A로 장치 ID가 기록되어 있습니다."
+        "rowsha": "DpRz71tOUeUL0f8rdEH2D2TrsSsxVOcOntbwOnSx96c=",
+        "originContent": "Dumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.",
+        "translatedContent": "XDK D2 디버그 키트에서 덤프되었습니다. D01과 매우 유사하지만 트레이 로직, 과열 로직, 부트 로직이 약간 다릅니다. 부트 챌린지는 D01과 동일하게 누락되어 있습니다."
       },
       {
         "row": 18,
@@ -119,27 +372,27 @@
       },
       {
         "row": 19,
-        "rowsha": "dFeGepqbZqEM0LIUHKJIubCkEqd7z14iFM4d/By3RMc=",
-        "originContent": "It's completely missing the boot challenge.",
-        "translatedContent": "부트 챌린지가 완전히 없습니다."
+        "rowsha": "Qm+Dc2rNI+zTyzq68FF9bSxgb1mYJsLiVPvCjy12sHo=",
+        "originContent": "## D2E",
+        "translatedContent": "## D2E"
       },
       {
         "row": 20,
+        "rowsha": "0dcrro0/jmBg3ptLe8F3IXsA7nIjV0KqxAlSI0MpdrY=",
+        "originContent": "Dumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.",
+        "translatedContent": "Tuscany (v1.6) 개발 키트에서 덤프되었습니다. Xyclops 칩은 X01202-001로 표기되어 있으며, 리테일 유닛에 있는 A-A02 또는 A-B01 라인이 빠져 있습니다."
+      },
+      {
+        "row": 21,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 21,
-        "rowsha": "g9ENDupbzvBEgk66wjm243hyg5wHhYkpQFDlCwHDrB8=",
-        "originContent": "## D01",
-        "translatedContent": "## D01"
-      },
-      {
         "row": 22,
-        "rowsha": "2k9KCOmOs7m1H/kv222a6Hx2jVgSqY/2EGZoshKgbpg=",
-        "originContent": "Dumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.",
-        "translatedContent": "XDK BETA 2 Xbox에서 덤프. 부트 챌린지가 없는 점을 제외하면 P01과 동일합니다. 예상 부트 챌린지 응답을 계산하는 함수는 존재하지만 호출되지 않습니다."
+        "rowsha": "unoySSnigQWg4eVc5eQ24jiUl06AOumHMxSHAtKQIfk=",
+        "originContent": "The debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.",
+        "translatedContent": "FC00의 디버그 시리얼 코드는 리테일 P2L 덤프와 일치합니다. 0x4000에서 0xFBFF까지 이상한 데이터 패턴이 있습니다."
       },
       {
         "row": 23,
@@ -149,45 +402,45 @@
       },
       {
         "row": 24,
-        "rowsha": "0KESs1Ft7gXJn+95XfhUrh5U/dWqmOU9B/d1sMqLIKA=",
-        "originContent": "## DXF",
-        "translatedContent": "## DXF"
+        "rowsha": "vYCzF0U2NMm1zvNU4rWfES8YHAw99zNUgVnHb/gylB4=",
+        "originContent": "## P01",
+        "translatedContent": "## P01"
       },
       {
         "row": 25,
-        "rowsha": "DpRz71tOUeUL0f8rdEH2D2TrsSsxVOcOntbwOnSx96c=",
-        "originContent": "Dumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.",
-        "translatedContent": "XDK D2 디버그 키트에서 덤프. D01과 매우 유사하지만 트레이 로직, 과열 로직 및 부트 로직이 약간 다릅니다. 부트 챌린지는 D01과 같은 방식으로 없습니다."
+        "rowsha": "lhFP7Htb8Cx1N3WJIyZItmmr+06mLEq65rpMUISKeOQ=",
+        "originContent": "Dumped from a v1.0 Xbox. The config word is 0x86:",
+        "translatedContent": "v1.0 Xbox에서 덤프되었습니다. 구성 워드는 0x86입니다:"
       },
       {
         "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "YCBl3i9uDRuIgF+EW4T9VVMhfvqCDN46BId71aQ1x8M=",
+        "originContent": "- CP1:CP0 = 0 (Code Protection enabled for the whole memory)",
+        "translatedContent": "- CP1:CP0 = 0 (전체 메모리에 코드 보호 활성화)"
       },
       {
         "row": 27,
-        "rowsha": "Qm+Dc2rNI+zTyzq68FF9bSxgb1mYJsLiVPvCjy12sHo=",
-        "originContent": "## D2E",
-        "translatedContent": "## D2E"
+        "rowsha": "kKSd6K3kGrxnKSXLfYvOq6QLQ9VXoIchtgESuHnSr8o=",
+        "originContent": "- BODEN = 0 (Brown-out Reset disabled)",
+        "translatedContent": "- BODEN = 0 (브라운아웃 리셋 비활성화)"
       },
       {
         "row": 28,
-        "rowsha": "0dcrro0/jmBg3ptLe8F3IXsA7nIjV0KqxAlSI0MpdrY=",
-        "originContent": "Dumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.",
-        "translatedContent": "Tuscany (v1.6) 개발 키트에서 덤프. Xyclops 칩은 X01202-001로 표시되며, 소매용 유닛이 가진 A-A02 또는 A-B01 라인이 없습니다."
+        "rowsha": "QjS+uwdrracDT0bg9U929U+2p44SfcLwv9IMFHvxOFM=",
+        "originContent": "- ~PWRTE = 0 (Power-up Timer enabled)",
+        "translatedContent": "- ~PWRTE = 0 (파워업 타이머 활성화)"
       },
       {
         "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "Tv9Y5mfeFnvXoaQk2XcjjENaHOYhzzC/Tnnl8acqLww=",
+        "originContent": "- WDTE = 1 (Watchdog Timer enabled)",
+        "translatedContent": "- WDTE = 1 (워치독 타이머 활성화)"
       },
       {
         "row": 30,
-        "rowsha": "unoySSnigQWg4eVc5eQ24jiUl06AOumHMxSHAtKQIfk=",
-        "originContent": "The debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.",
-        "translatedContent": "FC00의 디버그 시리얼 코드는 소매용 P2L 덤프와 일치합니다. 0x4000부터 0xFBFF까지 이상한 데이터 패턴이 있습니다."
+        "rowsha": "lZoLVVPnG9bmz+WfyIkU57GNc3ZylqicqI19DKZiLv8=",
+        "originContent": "- FOSC1:FOSC0 = 2 (HS oscillator)",
+        "translatedContent": "- FOSC1:FOSC0 = 2 (HS 오실레이터)"
       },
       {
         "row": 31,
@@ -197,253 +450,205 @@
       },
       {
         "row": 32,
-        "rowsha": "vYCzF0U2NMm1zvNU4rWfES8YHAw99zNUgVnHb/gylB4=",
-        "originContent": "## P01",
-        "translatedContent": "## P01"
+        "rowsha": "bhx9nDl8GRYzqvEiKwaW8iovltN5q2NkYKez4BPQ3S4=",
+        "originContent": "A config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.",
+        "translatedContent": "SMC 클론에서 코드 보호가 활성화되지 않도록 0x3FB6 구성 값이 적합합니다."
       },
       {
         "row": 33,
-        "rowsha": "lhFP7Htb8Cx1N3WJIyZItmmr+06mLEq65rpMUISKeOQ=",
-        "originContent": "Dumped from a v1.0 Xbox. The config word is 0x86:",
-        "translatedContent": "v1.0 Xbox에서 덤프. 구성 단어는 0x86입니다:"
-      },
-      {
-        "row": 34,
-        "rowsha": "YCBl3i9uDRuIgF+EW4T9VVMhfvqCDN46BId71aQ1x8M=",
-        "originContent": "- CP1:CP0 = 0 (Code Protection enabled for the whole memory)",
-        "translatedContent": "- CP1:CP0 = 0 (전체 메모리에 대해 코드 보호 활성화)"
-      },
-      {
-        "row": 35,
-        "rowsha": "kKSd6K3kGrxnKSXLfYvOq6QLQ9VXoIchtgESuHnSr8o=",
-        "originContent": "- BODEN = 0 (Brown-out Reset disabled)",
-        "translatedContent": "- BODEN = 0 (브라운아웃 리셋 비활성화)"
-      },
-      {
-        "row": 36,
-        "rowsha": "QjS+uwdrracDT0bg9U929U+2p44SfcLwv9IMFHvxOFM=",
-        "originContent": "- ~PWRTE = 0 (Power-up Timer enabled)",
-        "translatedContent": "- ~PWRTE = 0 (전원 켜짐 타이머 활성화)"
-      },
-      {
-        "row": 37,
-        "rowsha": "Tv9Y5mfeFnvXoaQk2XcjjENaHOYhzzC/Tnnl8acqLww=",
-        "originContent": "- WDTE = 1 (Watchdog Timer enabled)",
-        "translatedContent": "- WDTE = 1 (워치독 타이머 활성화)"
-      },
-      {
-        "row": 38,
-        "rowsha": "lZoLVVPnG9bmz+WfyIkU57GNc3ZylqicqI19DKZiLv8=",
-        "originContent": "- FOSC1:FOSC0 = 2 (HS oscillator)",
-        "translatedContent": "- FOSC1:FOSC0 = 2 (HS 오실레이터)"
-      },
-      {
-        "row": 39,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 34,
+        "rowsha": "WAajUMytPQJGen1LMHqK0ynUL6I9CB7wSt3iNzJCNTw=",
+        "originContent": "## P11",
+        "translatedContent": "## P11"
+      },
+      {
+        "row": 35,
+        "rowsha": "WWu/J091qRsMQWwDEfCg3FrFjyRb16jQsTqoR8+XSSs=",
+        "originContent": "Dumped from a v1.3 Xbox. Same config word as P01.",
+        "translatedContent": "v1.3 Xbox에서 덤프되었습니다. 구성 워드는 P01과 동일합니다."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "lAKSNMXXPvmQFFMfg5L4G05OZ27A58Jj8m7YG7dcggY=",
+        "originContent": "There are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.",
+        "translatedContent": "P11은 P01에 비해 몇 가지 작은 변경사항이 있으며, 여기에는 추가 SMBus 명령(0x22 쓰기), 다른 LED 우선순위, 더 느슨한 부트 타이밍 등이 포함됩니다."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "TYerbbTwT6Xs1VIWM/fdhS76MYin21vOs61MvbjTeLw=",
+        "originContent": "I checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.",
+        "translatedContent": "v1.3의 스크램블 덤프와 v1.4를 비교해봤고 일치했습니다. 이는 두 기기가 동일한 프로그램을 가질 가능성이 매우 높다는 것을 의미합니다."
+      },
+      {
         "row": 40,
-        "rowsha": "bhx9nDl8GRYzqvEiKwaW8iovltN5q2NkYKez4BPQ3S4=",
-        "originContent": "A config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.",
-        "translatedContent": "0x3FB6 구성 값은 코드 보호가 활성화되지 않도록 하는 SMC 클론에 적합합니다."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       }
     ],
     "IsCodeBlock": false
   },
   {
-    "Id": 2,
-    "Content": "\n## P11\nDumped from a v1.3 Xbox. Same config word as P01.\n\nThere are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.\n\nI checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.\n\n## P2L\nDumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.\n\nThe debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.\n\n# Xyclops dumping\n\nThe Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.\n\nThe protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`\n\nCommand 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.\n\n# PIC dumping methodology\nFull writeup at https://wiki.recessim.com/view/PIC_Burnout\n\nThe PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.\n\n# PICProgrammer\nPICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.\n\nYou should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.\n",
-    "ContentSha": "Siav+feE8EANtyCLjyACKDTB7TBOhRiJ1u35LHICkG4=",
+    "Id": 3,
+    "Content": "## P2L\nDumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.\n\nThe debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.\n\n# Xyclops dumping\n\nThe Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.\n\nThe protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`\n\nCommand 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.\n\n# PIC dumping methodology\nFull writeup at https://wiki.recessim.com/view/PIC_Burnout\n\nThe PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.\n\n# PICProgrammer\nPICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.\n\nYou should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.\n",
+    "ContentSha": "8WDfXpkD0y0KUjjGUh3Kwv7iVnkyafmm9Hs/XednmKk=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "## P11\nv1.3 Xbox에서 덤프함. P01과 동일한 구성 단어를 가짐.\n\nP11은 P01과 비교하여 약간의 변경 사항이 있는데, 추가 SMBus 명령(0x22 쓰기), 다른 LED 우선순위, 그리고 부팅 시 더 완화된 타이밍이 포함됨.\n\nv1.3의 스크램블된 덤프를 v1.4와 비교해 보았는데 일치함. 이는 두 버전이 동일한 프로그램을 가질 가능성이 높음을 의미함.\n\n## P2L\nv1.6 Xbox에서 덤프함. Xyclops 리비전 A-A02. Intel 8051 코드를 포함하지만 기능이 알려지지 않은 많은 특수 기능 레지스터가 있음.\n\n디버그 시리얼은 FC00에 있는 코드로 구동됨. 실행을 일시 중지하고, 데이터를 덤프하며, 레지스터/RAM에 쓸 수 있는 원시적인 디버거로 보임.\n\n# Xyclops 덤핑\n\nXyclops 칩에는 '디버그'용 3개의 핀이 있음: TXD(핀 64), RXD(핀 63), 그리고 DEBUG(핀 29). DEBUG 핀을 높게 설정하면 TX와 RX 핀에서 시리얼 포트가 활성화됨. 시리얼 속도는 9600 보드임.\n\n프로토콜은 4바이트 명령어 기반이며, 일반적으로 `<명령>` `<주소 상위바이트>` `<주소 하위바이트>` `<무시>` 형식임.\n\n명령 0x14는 한 번에 BIOS 데이터 64바이트를 덤프하고, 0x15는 한 번에 SMC 프로그램 데이터 64바이트를 덤프함. Xyclops에서 덤프한 P2L.bin 파일이 저장소에 포함되어 있음. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py)도 포함되어 있어 직접 덤프 가능함.\n\n# PIC 덤핑 방법론\n전체 설명은 https://wiki.recessim.com/view/PIC_Burnout 에 있음.\n\nPIC은 코드 보호가 활성화되어 있어 모든 데이터가 0000으로 읽힘. 일부 트릭을 사용해 스크램블된 데이터 출력을 얻었고, 희생 칩을 이용해 스크램블 알고리즘을 발견한 후, 일종의 익스플로잇으로 ROM 데이터를 변경해 일부 비트를 알려진 값으로 고정함. 그런 다음 여러 스크램블 덤프에서 필요한 정보를 추출해 원본 데이터를 재구성함.\n\n# PICProgrammer\nPICProgrammer는 RP2040용 아두이노 프로젝트 중 하나로, 연구에 사용함. PIC에 ICSP(회로 내 시리얼 프로그래밍) 작업을 수행할 수 있는 간단한 명령줄 인터페이스를 제공함. 제조사 의도와 달리 다양한 작업을 수행할 수 있어 PICkit 같은 전용 프로그래머보다 선호됨.\n\n사용 전에 전자공학과 프로그래밍에 대해 충분히 이해하고, 명령의 동작을 잘 살펴본 후 실행해야 함.\n\n",
+    "Translation": "## P2L\nv1.6 Xbox에서 덤프되었습니다. Xyclops 리비전 A-A02입니다. Intel 8051 코드가 포함되어 있지만 기능이 알려지지 않은 특수 기능 레지스터가 많이 있습니다.\n\n디버그 시리얼은 FC00의 코드에 의해 구동됩니다. 실행을 일시 정지하고, 데이터를 덤프하며, 레지스터/RAM에 쓰기 기능이 있는 조잡한 디버거처럼 보입니다.\n\n# Xyclops 덤프\n\nXyclops 칩에는 '디버그'용으로 3개의 핀이 있습니다: TXD(핀 64), RXD(핀 63), 그리고 DEBUG(핀 29). DEBUG 핀을 High로 설정하면 TX와 RX 핀에서 시리얼 포트가 활성화됩니다. 시리얼은 9600 baud로 동작합니다.\n\n프로토콜은 일반적으로 `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>` 형식의 4바이트 명령을 기반으로 합니다.\n\n명령 0x14는 한 번에 64바이트의 BIOS 데이터를 덤프하고, 0x15는 한 번에 64바이트의 SMC 프로그램 데이터를 덤프합니다. Xyclops에서 덤프한 P2L.bin 파일이 저장소에 포함되어 있습니다. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py)도 포함되어 있으니 직접 덤프할 수 있습니다.\n\n# PIC 덤프 방법론\n전체 설명은 https://wiki.recessim.com/view/PIC_Burnout\n\nPIC은 코드 보호가 활성화되어 있어서 모든 데이터가 0000으로 읽힙니다. 대신 스크램블된 데이터를 출력시키는 트릭을 사용했고, 희생용 칩을 통해 스크램블 알고리즘을 발견한 다음, 일종의 익스플로잇을 통해 ROM 데이터를 일부 비트를 알려진 값으로 고정하여 수정했습니다. 그런 다음 여러 번의 스크램블 덤프에서 필요한 정보를 추출하여 원본 데이터를 복원할 수 있습니다.\n\n# PICProgrammer\nPICProgrammer는 RP2040용으로 제가 연구에 사용한 몇 가지 Arduino 프로젝트 중 하나입니다. PIC에서 ICSP(인서킷 시리얼 프로그래밍) 작업을 실행할 수 있는 간단한 명령행 인터페이스를 제공합니다. 제조사가 의도하지 않은 작업을 할 수 있고, 유연성이 높아 PICkit 같은 목적형 프로그래머보다 선호됩니다.\n\n전자공학과 프로그래밍에 대한 충분한 이해가 필요하며, 명령을 실행하기 전에 반드시 명령이 무엇을 하는지 꼼꼼히 살펴보시기 바랍니다.\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## P11"
+        "rowsha": "BjXHBtVuZ742lYFV6G8A9t8oRU43uLI513Bnw1BQ5G0=",
+        "originContent": "## P2L",
+        "translatedContent": "## P2L"
       },
       {
         "row": 2,
-        "rowsha": "WAajUMytPQJGen1LMHqK0ynUL6I9CB7wSt3iNzJCNTw=",
-        "originContent": "## P11",
-        "translatedContent": "v1.3 Xbox에서 덤프함. P01과 동일한 구성 단어를 가짐."
+        "rowsha": "dvZDjF2tYvTy6oc3Tz5TKJqgPYQ6N7x0z9s6D+ctnSg=",
+        "originContent": "Dumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.",
+        "translatedContent": "v1.6 Xbox에서 덤프되었습니다. Xyclops 리비전 A-A02입니다. Intel 8051 코드가 포함되어 있지만 기능이 알려지지 않은 특수 기능 레지스터가 많이 있습니다."
       },
       {
         "row": 3,
-        "rowsha": "WWu/J091qRsMQWwDEfCg3FrFjyRb16jQsTqoR8+XSSs=",
-        "originContent": "Dumped from a v1.3 Xbox. Same config word as P01.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "P11은 P01과 비교하여 약간의 변경 사항이 있는데, 추가 SMBus 명령(0x22 쓰기), 다른 LED 우선순위, 그리고 부팅 시 더 완화된 타이밍이 포함됨."
+        "rowsha": "pADnkRtsQ7fbhvkg7+ny1Bh5xIcDvPR9HDKHN+/7o/o=",
+        "originContent": "The debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.",
+        "translatedContent": "디버그 시리얼은 FC00의 코드에 의해 구동됩니다. 실행을 일시 정지하고, 데이터를 덤프하며, 레지스터/RAM에 쓰기 기능이 있는 조잡한 디버거처럼 보입니다."
       },
       {
         "row": 5,
-        "rowsha": "lAKSNMXXPvmQFFMfg5L4G05OZ27A58Jj8m7YG7dcggY=",
-        "originContent": "There are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "v1.3의 스크램블된 덤프를 v1.4와 비교해 보았는데 일치함. 이는 두 버전이 동일한 프로그램을 가질 가능성이 높음을 의미함."
+        "rowsha": "Sv1dVJCdFQhY/b8Qh88bXNtxWIj8SqBsln88Lfx9oas=",
+        "originContent": "# Xyclops dumping",
+        "translatedContent": "# Xyclops 덤프"
       },
       {
         "row": 7,
-        "rowsha": "TYerbbTwT6Xs1VIWM/fdhS76MYin21vOs61MvbjTeLw=",
-        "originContent": "I checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## P2L"
+        "rowsha": "PPnPlDJQYlwEvTlTMUT7aGgr4n4T9G2HvqRRTGw4Os4=",
+        "originContent": "The Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.",
+        "translatedContent": "Xyclops 칩에는 '디버그'용으로 3개의 핀이 있습니다: TXD(핀 64), RXD(핀 63), 그리고 DEBUG(핀 29). DEBUG 핀을 High로 설정하면 TX와 RX 핀에서 시리얼 포트가 활성화됩니다. 시리얼은 9600 baud로 동작합니다."
       },
       {
         "row": 9,
-        "rowsha": "BjXHBtVuZ742lYFV6G8A9t8oRU43uLI513Bnw1BQ5G0=",
-        "originContent": "## P2L",
-        "translatedContent": "v1.6 Xbox에서 덤프함. Xyclops 리비전 A-A02. Intel 8051 코드를 포함하지만 기능이 알려지지 않은 많은 특수 기능 레지스터가 있음."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 10,
-        "rowsha": "dvZDjF2tYvTy6oc3Tz5TKJqgPYQ6N7x0z9s6D+ctnSg=",
-        "originContent": "Dumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.",
-        "translatedContent": ""
+        "rowsha": "aDbUWg6ba2r2jHJkbK9OhSZ/yZaf8pjXgqUz7dLI30U=",
+        "originContent": "The protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`",
+        "translatedContent": "프로토콜은 일반적으로 `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>` 형식의 4바이트 명령을 기반으로 합니다."
       },
       {
         "row": 11,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "디버그 시리얼은 FC00에 있는 코드로 구동됨. 실행을 일시 중지하고, 데이터를 덤프하며, 레지스터/RAM에 쓸 수 있는 원시적인 디버거로 보임."
+        "translatedContent": ""
       },
       {
         "row": 12,
-        "rowsha": "pADnkRtsQ7fbhvkg7+ny1Bh5xIcDvPR9HDKHN+/7o/o=",
-        "originContent": "The debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.",
-        "translatedContent": ""
+        "rowsha": "Bc8gjC3yH1ZslKO4yLkz6M/S7ygqko8CAS5pBU0nnmM=",
+        "originContent": "Command 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.",
+        "translatedContent": "명령 0x14는 한 번에 64바이트의 BIOS 데이터를 덤프하고, 0x15는 한 번에 64바이트의 SMC 프로그램 데이터를 덤프합니다. Xyclops에서 덤프한 P2L.bin 파일이 저장소에 포함되어 있습니다. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py)도 포함되어 있으니 직접 덤프할 수 있습니다."
       },
       {
         "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# Xyclops 덤핑"
-      },
-      {
-        "row": 14,
-        "rowsha": "Sv1dVJCdFQhY/b8Qh88bXNtxWIj8SqBsln88Lfx9oas=",
-        "originContent": "# Xyclops dumping",
         "translatedContent": ""
       },
       {
+        "row": 14,
+        "rowsha": "snRA4OeinDa1e6nAFCvMXCLoQfMEDdqNZfYjejrt73I=",
+        "originContent": "# PIC dumping methodology",
+        "translatedContent": "# PIC 덤프 방법론"
+      },
+      {
         "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Xyclops 칩에는 '디버그'용 3개의 핀이 있음: TXD(핀 64), RXD(핀 63), 그리고 DEBUG(핀 29). DEBUG 핀을 높게 설정하면 TX와 RX 핀에서 시리얼 포트가 활성화됨. 시리얼 속도는 9600 보드임."
+        "rowsha": "KS99zZJx4aRb+uy2mZ89HHwNcBwxUOip84fHqvvjXqk=",
+        "originContent": "Full writeup at https://wiki.recessim.com/view/PIC_Burnout",
+        "translatedContent": "전체 설명은 https://wiki.recessim.com/view/PIC_Burnout"
       },
       {
         "row": 16,
-        "rowsha": "PPnPlDJQYlwEvTlTMUT7aGgr4n4T9G2HvqRRTGw4Os4=",
-        "originContent": "The Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "프로토콜은 4바이트 명령어 기반이며, 일반적으로 `<명령>` `<주소 상위바이트>` `<주소 하위바이트>` `<무시>` 형식임."
+        "rowsha": "hGSpj9qrfICX22U6fbUgluDsebH6p2wWqPaR3yvKG3Q=",
+        "originContent": "The PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.",
+        "translatedContent": "PIC은 코드 보호가 활성화되어 있어서 모든 데이터가 0000으로 읽힙니다. 대신 스크램블된 데이터를 출력시키는 트릭을 사용했고, 희생용 칩을 통해 스크램블 알고리즘을 발견한 다음, 일종의 익스플로잇을 통해 ROM 데이터를 일부 비트를 알려진 값으로 고정하여 수정했습니다. 그런 다음 여러 번의 스크램블 덤프에서 필요한 정보를 추출하여 원본 데이터를 복원할 수 있습니다."
       },
       {
         "row": 18,
-        "rowsha": "aDbUWg6ba2r2jHJkbK9OhSZ/yZaf8pjXgqUz7dLI30U=",
-        "originContent": "The protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "명령 0x14는 한 번에 BIOS 데이터 64바이트를 덤프하고, 0x15는 한 번에 SMC 프로그램 데이터 64바이트를 덤프함. Xyclops에서 덤프한 P2L.bin 파일이 저장소에 포함되어 있음. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py)도 포함되어 있어 직접 덤프 가능함."
+        "rowsha": "Bfj8XXgMR5w88vTdJxP5WWXAjcOlhA3/Aq4x+gL4SRg=",
+        "originContent": "# PICProgrammer",
+        "translatedContent": "# PICProgrammer"
       },
       {
         "row": 20,
-        "rowsha": "Bc8gjC3yH1ZslKO4yLkz6M/S7ygqko8CAS5pBU0nnmM=",
-        "originContent": "Command 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.",
-        "translatedContent": ""
+        "rowsha": "bi26QfTVktXi7f3PiEh3691cBpCoGSHBe7d8cFTm+3Y=",
+        "originContent": "PICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.",
+        "translatedContent": "PICProgrammer는 RP2040용으로 제가 연구에 사용한 몇 가지 Arduino 프로젝트 중 하나입니다. PIC에서 ICSP(인서킷 시리얼 프로그래밍) 작업을 실행할 수 있는 간단한 명령행 인터페이스를 제공합니다. 제조사가 의도하지 않은 작업을 할 수 있고, 유연성이 높아 PICkit 같은 목적형 프로그래머보다 선호됩니다."
       },
       {
         "row": 21,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# PIC 덤핑 방법론"
+        "translatedContent": ""
       },
       {
         "row": 22,
-        "rowsha": "snRA4OeinDa1e6nAFCvMXCLoQfMEDdqNZfYjejrt73I=",
-        "originContent": "# PIC dumping methodology",
-        "translatedContent": "전체 설명은 https://wiki.recessim.com/view/PIC_Burnout 에 있음."
+        "rowsha": "/qxKgTKYbeCy4ws6Kt15qOBJRygW5rkpPMBSutshzVc=",
+        "originContent": "You should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.",
+        "translatedContent": "전자공학과 프로그래밍에 대한 충분한 이해가 필요하며, 명령을 실행하기 전에 반드시 명령이 무엇을 하는지 꼼꼼히 살펴보시기 바랍니다."
       },
       {
         "row": 23,
-        "rowsha": "KS99zZJx4aRb+uy2mZ89HHwNcBwxUOip84fHqvvjXqk=",
-        "originContent": "Full writeup at https://wiki.recessim.com/view/PIC_Burnout",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "PIC은 코드 보호가 활성화되어 있어 모든 데이터가 0000으로 읽힘. 일부 트릭을 사용해 스크램블된 데이터 출력을 얻었고, 희생 칩을 이용해 스크램블 알고리즘을 발견한 후, 일종의 익스플로잇으로 ROM 데이터를 변경해 일부 비트를 알려진 값으로 고정함. 그런 다음 여러 스크램블 덤프에서 필요한 정보를 추출해 원본 데이터를 재구성함."
-      },
-      {
-        "row": 25,
-        "rowsha": "hGSpj9qrfICX22U6fbUgluDsebH6p2wWqPaR3yvKG3Q=",
-        "originContent": "The PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "# PICProgrammer"
-      },
-      {
-        "row": 27,
-        "rowsha": "Bfj8XXgMR5w88vTdJxP5WWXAjcOlhA3/Aq4x+gL4SRg=",
-        "originContent": "# PICProgrammer",
-        "translatedContent": "PICProgrammer는 RP2040용 아두이노 프로젝트 중 하나로, 연구에 사용함. PIC에 ICSP(회로 내 시리얼 프로그래밍) 작업을 수행할 수 있는 간단한 명령줄 인터페이스를 제공함. 제조사 의도와 달리 다양한 작업을 수행할 수 있어 PICkit 같은 전용 프로그래머보다 선호됨."
-      },
-      {
-        "row": 28,
-        "rowsha": "bi26QfTVktXi7f3PiEh3691cBpCoGSHBe7d8cFTm+3Y=",
-        "originContent": "PICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.",
-        "translatedContent": ""
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "사용 전에 전자공학과 프로그래밍에 대해 충분히 이해하고, 명령의 동작을 잘 살펴본 후 실행해야 함."
-      },
-      {
-        "row": 30,
-        "rowsha": "/qxKgTKYbeCy4ws6Kt15qOBJRygW5rkpPMBSutshzVc=",
-        "originContent": "You should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.",
-        "translatedContent": ""
-      },
-      {
-        "row": 31,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

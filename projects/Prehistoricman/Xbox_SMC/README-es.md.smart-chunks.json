@@ -1,25 +1,278 @@
 [
   {
     "Id": 1,
-    "Content": "# Xbox_SMC\nPIC16/Xyclops dumps from the original Xbox and IDA databases with some reverse engineering done.\n\n![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)\n\n# Xyclops flashing (XycloMod)\nSee [the Xyclops directory and README](/Xyclops)\n\n# Dumps\nThe .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.\n\nThe .idb IDA databases have info about variable and some observations on the database notepad.\n\nSee this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info\n\n## B2A\nDumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.\n\nIt's completely missing the boot challenge.\n\n## D01\nDumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.\n\n## DXF\nDumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.\n\n## D2E\nDumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.\n\nThe debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.\n\n## P01\nDumped from a v1.0 Xbox. The config word is 0x86:\n- CP1:CP0 = 0 (Code Protection enabled for the whole memory)\n- BODEN = 0 (Brown-out Reset disabled)\n- ~PWRTE = 0 (Power-up Timer enabled)\n- WDTE = 1 (Watchdog Timer enabled)\n- FOSC1:FOSC0 = 2 (HS oscillator)\n\nA config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.",
-    "ContentSha": "DV5hCTI14ZInQtF3PvAC/vs+hoNUEzOylJFMeCa/ekg=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Xbox_SMC\nPIC16/Xyclops dumps from the original Xbox and IDA databases with some reverse engineering done.\n\n![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)\n\n# Xyclops flashing (XycloMod)\nSee [the Xyclops directory and README](/Xyclops)\n",
+    "ContentSha": "RpKrge6T0Hux61TDwT3dHMpZgjp2BI/xt36IBbjTdRQ=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# Xbox_SMC\nVolcados PIC16/Xyclops del Xbox original y bases de datos IDA con algo de ingeniería inversa realizada.\n\n![Imagen del PIC16LC63A de un Xbox original](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)\n\n# Flasheo de Xyclops (XycloMod)\nVer [el directorio Xyclops y README](/Xyclops)\n\n# Volcados\nEl archivo .bin para cada volcado PIC tiene los bytes intercambiados para carga correcta en IDA. Así que la primera palabra de la memoria PIC es byte_0 + byte_1 << 8.\n\nLas bases de datos .idb de IDA contienen información sobre variables y algunas observaciones en el bloc de notas de la base de datos.\n\nVer esta página wiki para un desglose de las versiones SMC: https://xboxdevwiki.net/Xboxen_Info\n\n## B2A\nVolcado de un Xbox DVT3. La misma palabra de configuración que P01. También tiene el ID de dispositivo quemado en el área de configuración como 0000 0000 000B 002A, a diferencia de los PIC de producción.\n\nCarece completamente del desafío de arranque.\n\n## D01\nVolcado de un Xbox XDK BETA 2. Idéntico a P01 excepto por la ausencia del desafío de arranque. La función para calcular la respuesta esperada del desafío de arranque aún existe, pero nunca se llama.\n\n## DXF\nVolcado de un kit de depuración XDK D2. Muy similar a D01 pero con lógica de bandeja, sobrecalentamiento y arranque ligeramente diferente. El desafío de arranque falta de la misma manera que en D01.\n\n## D2E\nVolcado de un kit de desarrollo Tuscany (v1.6). El chip Xyclops está marcado como X01202-001, y carece de la línea A-A02 o A-B01 que tienen las unidades comerciales.\n\nEl código serial de depuración en FC00 coincide con el volcado comercial P2L. Hay un patrón extraño de datos desde 0x4000 hasta 0xFBFF.\n\n## P01\nVolcado de un Xbox v1.0. La palabra de configuración es 0x86:\n- CP1:CP0 = 0 (Protección de código habilitada para toda la memoria)\n- BODEN = 0 (Reinicio por caída de voltaje deshabilitado)\n- ~PWRTE = 0 (Temporizador de encendido habilitado)\n- WDTE = 1 (Temporizador watchdog habilitado)\n- FOSC1:FOSC0 = 2 (Oscilador HS)\n\nUn valor de configuración de 0x3FB6 es adecuado para clones SMC para que no tengan la protección de código activada.",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Idioma</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Xbox_SMC\nVolcados de PIC16/Xyclops de la Xbox original y bases de datos de IDA con algo de ingeniería inversa realizada.\n\n![Imagen del PIC16LC63A de una Xbox original](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)\n\n# Programación de Xyclops (XycloMod)\nConsulta [el directorio Xyclops y el README](/Xyclops)\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Idioma</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "CIi9m1pURCSCyeMFdzujCHQFHJP6zgewPl/8Bt16oUo=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "/fCGOtGdhzx8jOQYbhZDNCK/xzilwYutUfjSJekxaFw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "GBaA/BuQjpW9zu7uPVKeGrObrsw/Y1gFC52Ll6MSuPY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "db13cMztzvMHty3SiyrZ44xCWxINlZiSP+0spu0OGoQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "d5ihERnsLkFiok0Mh9cFXVp7+sJItriGoGP+nLzlpB4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "V05vlmsamZT1vMRsZaG7Qy0W42vVjXd5tUtnIV7Ggn0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "H8CHDp52v5mVSS1UrXtQl0jiejuTTv3Hg4GZNn8SlbM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "98VNOMNYt3JKqiwF+kgaFOUbYWpUkDmvp+b//KQ9KNQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "KmRdBwB/ipxzs4PiFwc7O6QZ424KwrG6R2o6p761vxU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "p3ATizUje2S+Bc9YTzsiFYSaOUyM7BMXKgTEVr4V/PE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "L+NvtG1fYDZ2/I1Un40CONRVjsLZLrL7/1x3PwQAkME=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Nx1leziunXXnCyoLfiPeb8lbrqk4wPaoGtatfjNSLaM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "iroOT44EOKq+MldWK+//U6no/csChyrSDbqXuLJ5laQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "P5egdi7FDbrDZMRs+LLdYJLDkhLPapwAsZ6JYFb64y0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "uj6dw/y6mzRC0sLXSj/w/f2qq5YEygvascj86JKZ+N4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "xiKuLkTQ55qi0W1Bw6R2hZCZu8qCLls8Onov87mY/m4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "LKES3e0c9tRuN2+F9dGkFCQiI7Bdo1cbXoFNGA+Ilpw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "yuYoyAHcaGNULSKgU/yT/jpc+WE+C8i7VfimPTFb0Ik=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "2kSJmAxMsJsXtXo4GcfbobtnW2DQAQ9al6yaduHvYM4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "ZLv+fVhUj81vxjiFrMxY71IwcQf3/lpa4SHfs3YLdbA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "ycSgHWrc1zVWKW9VenNDF+0YzchRD6L8p7rVIXhXsqI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=Prehistoricman&project=Xbox_SMC&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
         "rowsha": "7Vjio4LmIBLUncP6Gggu7AfYiFJAXIGki8dyoQw9cJg=",
         "originContent": "# Xbox_SMC",
         "translatedContent": "# Xbox_SMC"
       },
       {
-        "row": 2,
+        "row": 34,
         "rowsha": "UWIFzDF7aZH11uerT5hK6BGcsYYnufNh5bjrb89U7Eo=",
         "originContent": "PIC16/Xyclops dumps from the original Xbox and IDA databases with some reverse engineering done.",
-        "translatedContent": "Volcados PIC16/Xyclops del Xbox original y bases de datos IDA con algo de ingeniería inversa realizada."
+        "translatedContent": "Volcados de PIC16/Xyclops de la Xbox original y bases de datos de IDA con algo de ingeniería inversa realizada."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "edB6L7ZtUCUb8rB8AVDRGzewZD+tA9aYYFdaJoxztxg=",
+        "originContent": "![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)",
+        "translatedContent": "![Imagen del PIC16LC63A de una Xbox original](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "SPdSzoZmeAOha+WEEVfqKrdepLlvB/rvWkiZ7utpy0Y=",
+        "originContent": "# Xyclops flashing (XycloMod)",
+        "translatedContent": "# Programación de Xyclops (XycloMod)"
+      },
+      {
+        "row": 39,
+        "rowsha": "Okjlqxhq2laCmBXhSS7qwXz1Uu+BUZ+geQEieZEsnmU=",
+        "originContent": "See [the Xyclops directory and README](/Xyclops)",
+        "translatedContent": "Consulta [el directorio Xyclops y el README](/Xyclops)"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "# Dumps\nThe .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.\n\nThe .idb IDA databases have info about variable and some observations on the database notepad.\n\nSee this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info\n\n## B2A\nDumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.\n\nIt's completely missing the boot challenge.\n\n## D01\nDumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.\n\n## DXF\nDumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.\n\n## D2E\nDumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.\n\nThe debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.\n\n## P01\nDumped from a v1.0 Xbox. The config word is 0x86:\n- CP1:CP0 = 0 (Code Protection enabled for the whole memory)\n- BODEN = 0 (Brown-out Reset disabled)\n- ~PWRTE = 0 (Power-up Timer enabled)\n- WDTE = 1 (Watchdog Timer enabled)\n- FOSC1:FOSC0 = 2 (HS oscillator)\n\nA config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.\n\n## P11\nDumped from a v1.3 Xbox. Same config word as P01.\n\nThere are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.\n\nI checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.\n",
+    "ContentSha": "SOnLwT0uoR7almY86fQKi4Vce1rQSt+0XtUu/tTCQzU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Dumps\nEl archivo .bin de cada volcado de PIC tiene los bytes intercambiados para una carga correcta en IDA. Así, la primera palabra de la memoria PIC es byte_0 + byte_1 << 8.\n\nLas bases de datos .idb de IDA contienen información sobre variables y algunas observaciones en el bloc de notas de la base de datos.\n\nConsulta esta página de la wiki para ver un desglose de las versiones de SMC: https://xboxdevwiki.net/Xboxen_Info\n\n## B2A\nVolcado de una Xbox DVT3. Tiene la misma palabra de configuración que P01. También tiene el ID de dispositivo grabado en el área de configuración como 0000 0000 000B 002A, a diferencia de los PICs de producción.\n\nLe falta completamente el boot challenge.\n\n## D01\nVolcado de una Xbox XDK BETA 2. Idéntico a P01 excepto que le falta el boot challenge. La función para calcular la respuesta esperada del boot challenge sigue presente, pero nunca se llama.\n\n## DXF\nVolcado de un kit de depuración XDK D2. Muy similar a D01 pero con lógica de bandeja, sobrecalentamiento y arranque ligeramente diferentes. El boot challenge falta de la misma manera que en D01.\n\n## D2E\nVolcado de un kit de desarrollo Tuscany (v1.6). El chip Xyclops está marcado como X01202-001, y falta la línea A-A02 o A-B01 que tienen las unidades comerciales.\n\nEl código serial de depuración en FC00 coincide con el volcado minorista P2L. Hay un patrón extraño de datos desde 0x4000 hasta 0xFBFF.\n\n## P01\nVolcado de una Xbox v1.0. La palabra de configuración es 0x86:\n- CP1:CP0 = 0 (Protección de código activada para toda la memoria)\n- BODEN = 0 (Reset por caída de tensión desactivado)\n- ~PWRTE = 0 (Temporizador de encendido activado)\n- WDTE = 1 (Temporizador watchdog activado)\n- FOSC1:FOSC0 = 2 (Oscilador HS)\n\nUn valor de configuración de 0x3FB6 es adecuado para clones SMC para que no tengan protección de código activada.\n\n## P11\nVolcado de una Xbox v1.3. Misma palabra de configuración que P01.\n\nHay algunos cambios pequeños en P11 respecto a P01, incluyendo un comando SMBus adicional (escribir 0x22), diferentes prioridades de LED y tiempos más relajados para el arranque.\n\nVerifiqué volcados cifrados de v1.3 contra v1.4 y coincidían. Esto significa que es muy probable que tengan el mismo programa.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5Vyx49nxMKYF7QEzBlpGfvNAWEf5xbtvJE8A3sdYwUg=",
+        "originContent": "# Dumps",
+        "translatedContent": "# Dumps"
+      },
+      {
+        "row": 2,
+        "rowsha": "sOhXc42ZURwSIk21QlGSDK5H5LpaV0pkxBUojpD+BVg=",
+        "originContent": "The .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.",
+        "translatedContent": "El archivo .bin de cada volcado de PIC tiene los bytes intercambiados para una carga correcta en IDA. Así, la primera palabra de la memoria PIC es byte_0 + byte_1 << 8."
       },
       {
         "row": 3,
@@ -29,9 +282,9 @@
       },
       {
         "row": 4,
-        "rowsha": "edB6L7ZtUCUb8rB8AVDRGzewZD+tA9aYYFdaJoxztxg=",
-        "originContent": "![Image of PIC16LC63A from an original Xbox](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)",
-        "translatedContent": "![Imagen del PIC16LC63A de un Xbox original](https://raw.githubusercontent.com/Prehistoricman/Xbox_SMC/master/pic16lc63a.jpg)"
+        "rowsha": "D3YLn8foWRg1NB/FwJ7AVR5unP6AErLsYFqk9ueJijA=",
+        "originContent": "The .idb IDA databases have info about variable and some observations on the database notepad.",
+        "translatedContent": "Las bases de datos .idb de IDA contienen información sobre variables y algunas observaciones en el bloc de notas de la base de datos."
       },
       {
         "row": 5,
@@ -41,57 +294,57 @@
       },
       {
         "row": 6,
-        "rowsha": "SPdSzoZmeAOha+WEEVfqKrdepLlvB/rvWkiZ7utpy0Y=",
-        "originContent": "# Xyclops flashing (XycloMod)",
-        "translatedContent": "# Flasheo de Xyclops (XycloMod)"
+        "rowsha": "BCAYydA+LxX+51Jl/Y/OeNJFvcehbtPRQ5IyjO2Vs84=",
+        "originContent": "See this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info",
+        "translatedContent": "Consulta esta página de la wiki para ver un desglose de las versiones de SMC: https://xboxdevwiki.net/Xboxen_Info"
       },
       {
         "row": 7,
-        "rowsha": "Okjlqxhq2laCmBXhSS7qwXz1Uu+BUZ+geQEieZEsnmU=",
-        "originContent": "See [the Xyclops directory and README](/Xyclops)",
-        "translatedContent": "Ver [el directorio Xyclops y README](/Xyclops)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "3Lg0KWrz2Uxr6a+xtN3rsn2I/asrBauael0Jj5u5xSU=",
+        "originContent": "## B2A",
+        "translatedContent": "## B2A"
       },
       {
         "row": 9,
-        "rowsha": "5Vyx49nxMKYF7QEzBlpGfvNAWEf5xbtvJE8A3sdYwUg=",
-        "originContent": "# Dumps",
-        "translatedContent": "# Volcados"
+        "rowsha": "/5nNnZDlioG3+7ogXzhyfo7iNL93Am/a5pNjK5duJ58=",
+        "originContent": "Dumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.",
+        "translatedContent": "Volcado de una Xbox DVT3. Tiene la misma palabra de configuración que P01. También tiene el ID de dispositivo grabado en el área de configuración como 0000 0000 000B 002A, a diferencia de los PICs de producción."
       },
       {
         "row": 10,
-        "rowsha": "sOhXc42ZURwSIk21QlGSDK5H5LpaV0pkxBUojpD+BVg=",
-        "originContent": "The .bin file for each PIC dump has the bytes swapped for correct loading into IDA. So the first word of PIC memory is byte_0 + byte_1 << 8.",
-        "translatedContent": "El archivo .bin para cada volcado PIC tiene los bytes intercambiados para carga correcta en IDA. Así que la primera palabra de la memoria PIC es byte_0 + byte_1 << 8."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "dFeGepqbZqEM0LIUHKJIubCkEqd7z14iFM4d/By3RMc=",
+        "originContent": "It's completely missing the boot challenge.",
+        "translatedContent": "Le falta completamente el boot challenge."
       },
       {
         "row": 12,
-        "rowsha": "D3YLn8foWRg1NB/FwJ7AVR5unP6AErLsYFqk9ueJijA=",
-        "originContent": "The .idb IDA databases have info about variable and some observations on the database notepad.",
-        "translatedContent": "Las bases de datos .idb de IDA contienen información sobre variables y algunas observaciones en el bloc de notas de la base de datos."
-      },
-      {
-        "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 13,
+        "rowsha": "g9ENDupbzvBEgk66wjm243hyg5wHhYkpQFDlCwHDrB8=",
+        "originContent": "## D01",
+        "translatedContent": "## D01"
+      },
+      {
         "row": 14,
-        "rowsha": "BCAYydA+LxX+51Jl/Y/OeNJFvcehbtPRQ5IyjO2Vs84=",
-        "originContent": "See this wiki page for a breakdown of the SMC versions: https://xboxdevwiki.net/Xboxen_Info",
-        "translatedContent": "Ver esta página wiki para un desglose de las versiones SMC: https://xboxdevwiki.net/Xboxen_Info"
+        "rowsha": "2k9KCOmOs7m1H/kv222a6Hx2jVgSqY/2EGZoshKgbpg=",
+        "originContent": "Dumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.",
+        "translatedContent": "Volcado de una Xbox XDK BETA 2. Idéntico a P01 excepto que le falta el boot challenge. La función para calcular la respuesta esperada del boot challenge sigue presente, pero nunca se llama."
       },
       {
         "row": 15,
@@ -101,15 +354,15 @@
       },
       {
         "row": 16,
-        "rowsha": "3Lg0KWrz2Uxr6a+xtN3rsn2I/asrBauael0Jj5u5xSU=",
-        "originContent": "## B2A",
-        "translatedContent": "## B2A"
+        "rowsha": "0KESs1Ft7gXJn+95XfhUrh5U/dWqmOU9B/d1sMqLIKA=",
+        "originContent": "## DXF",
+        "translatedContent": "## DXF"
       },
       {
         "row": 17,
-        "rowsha": "/5nNnZDlioG3+7ogXzhyfo7iNL93Am/a5pNjK5duJ58=",
-        "originContent": "Dumped from a DVT3 Xbox. Same config word as P01. It also has the device ID burned in the config area as 0000 0000 000B 002A, unlike the production PICs.",
-        "translatedContent": "Volcado de un Xbox DVT3. La misma palabra de configuración que P01. También tiene el ID de dispositivo quemado en el área de configuración como 0000 0000 000B 002A, a diferencia de los PIC de producción."
+        "rowsha": "DpRz71tOUeUL0f8rdEH2D2TrsSsxVOcOntbwOnSx96c=",
+        "originContent": "Dumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.",
+        "translatedContent": "Volcado de un kit de depuración XDK D2. Muy similar a D01 pero con lógica de bandeja, sobrecalentamiento y arranque ligeramente diferentes. El boot challenge falta de la misma manera que en D01."
       },
       {
         "row": 18,
@@ -119,27 +372,27 @@
       },
       {
         "row": 19,
-        "rowsha": "dFeGepqbZqEM0LIUHKJIubCkEqd7z14iFM4d/By3RMc=",
-        "originContent": "It's completely missing the boot challenge.",
-        "translatedContent": "Carece completamente del desafío de arranque."
+        "rowsha": "Qm+Dc2rNI+zTyzq68FF9bSxgb1mYJsLiVPvCjy12sHo=",
+        "originContent": "## D2E",
+        "translatedContent": "## D2E"
       },
       {
         "row": 20,
+        "rowsha": "0dcrro0/jmBg3ptLe8F3IXsA7nIjV0KqxAlSI0MpdrY=",
+        "originContent": "Dumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.",
+        "translatedContent": "Volcado de un kit de desarrollo Tuscany (v1.6). El chip Xyclops está marcado como X01202-001, y falta la línea A-A02 o A-B01 que tienen las unidades comerciales."
+      },
+      {
+        "row": 21,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 21,
-        "rowsha": "g9ENDupbzvBEgk66wjm243hyg5wHhYkpQFDlCwHDrB8=",
-        "originContent": "## D01",
-        "translatedContent": "## D01"
-      },
-      {
         "row": 22,
-        "rowsha": "2k9KCOmOs7m1H/kv222a6Hx2jVgSqY/2EGZoshKgbpg=",
-        "originContent": "Dumped from XDK BETA 2 Xbox. Identical to P01 except for missing boot challenge. The function to compute the expected boot challenge response is still there, but never called.",
-        "translatedContent": "Volcado de un Xbox XDK BETA 2. Idéntico a P01 excepto por la ausencia del desafío de arranque. La función para calcular la respuesta esperada del desafío de arranque aún existe, pero nunca se llama."
+        "rowsha": "unoySSnigQWg4eVc5eQ24jiUl06AOumHMxSHAtKQIfk=",
+        "originContent": "The debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.",
+        "translatedContent": "El código serial de depuración en FC00 coincide con el volcado minorista P2L. Hay un patrón extraño de datos desde 0x4000 hasta 0xFBFF."
       },
       {
         "row": 23,
@@ -149,45 +402,45 @@
       },
       {
         "row": 24,
-        "rowsha": "0KESs1Ft7gXJn+95XfhUrh5U/dWqmOU9B/d1sMqLIKA=",
-        "originContent": "## DXF",
-        "translatedContent": "## DXF"
+        "rowsha": "vYCzF0U2NMm1zvNU4rWfES8YHAw99zNUgVnHb/gylB4=",
+        "originContent": "## P01",
+        "translatedContent": "## P01"
       },
       {
         "row": 25,
-        "rowsha": "DpRz71tOUeUL0f8rdEH2D2TrsSsxVOcOntbwOnSx96c=",
-        "originContent": "Dumped from an XDK D2 debug kit. Very similar to D01 but with slightly different tray logic, overheat logic and boot logic. Boot challenge is missing in the same way as D01.",
-        "translatedContent": "Volcado de un kit de depuración XDK D2. Muy similar a D01 pero con lógica de bandeja, sobrecalentamiento y arranque ligeramente diferente. El desafío de arranque falta de la misma manera que en D01."
+        "rowsha": "lhFP7Htb8Cx1N3WJIyZItmmr+06mLEq65rpMUISKeOQ=",
+        "originContent": "Dumped from a v1.0 Xbox. The config word is 0x86:",
+        "translatedContent": "Volcado de una Xbox v1.0. La palabra de configuración es 0x86:"
       },
       {
         "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "YCBl3i9uDRuIgF+EW4T9VVMhfvqCDN46BId71aQ1x8M=",
+        "originContent": "- CP1:CP0 = 0 (Code Protection enabled for the whole memory)",
+        "translatedContent": "- CP1:CP0 = 0 (Protección de código activada para toda la memoria)"
       },
       {
         "row": 27,
-        "rowsha": "Qm+Dc2rNI+zTyzq68FF9bSxgb1mYJsLiVPvCjy12sHo=",
-        "originContent": "## D2E",
-        "translatedContent": "## D2E"
+        "rowsha": "kKSd6K3kGrxnKSXLfYvOq6QLQ9VXoIchtgESuHnSr8o=",
+        "originContent": "- BODEN = 0 (Brown-out Reset disabled)",
+        "translatedContent": "- BODEN = 0 (Reset por caída de tensión desactivado)"
       },
       {
         "row": 28,
-        "rowsha": "0dcrro0/jmBg3ptLe8F3IXsA7nIjV0KqxAlSI0MpdrY=",
-        "originContent": "Dumped from a Tuscany (v1.6) dev kit. Xyclops chip is marked X01202-001, and is missing the A-A02 or A-B01 line that retail units have.",
-        "translatedContent": "Volcado de un kit de desarrollo Tuscany (v1.6). El chip Xyclops está marcado como X01202-001, y carece de la línea A-A02 o A-B01 que tienen las unidades comerciales."
+        "rowsha": "QjS+uwdrracDT0bg9U929U+2p44SfcLwv9IMFHvxOFM=",
+        "originContent": "- ~PWRTE = 0 (Power-up Timer enabled)",
+        "translatedContent": "- ~PWRTE = 0 (Temporizador de encendido activado)"
       },
       {
         "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "Tv9Y5mfeFnvXoaQk2XcjjENaHOYhzzC/Tnnl8acqLww=",
+        "originContent": "- WDTE = 1 (Watchdog Timer enabled)",
+        "translatedContent": "- WDTE = 1 (Temporizador watchdog activado)"
       },
       {
         "row": 30,
-        "rowsha": "unoySSnigQWg4eVc5eQ24jiUl06AOumHMxSHAtKQIfk=",
-        "originContent": "The debug serial code at FC00 matches the retail P2L dump. There is a strange pattern of data from 0x4000 to 0xFBFF.",
-        "translatedContent": "El código serial de depuración en FC00 coincide con el volcado comercial P2L. Hay un patrón extraño de datos desde 0x4000 hasta 0xFBFF."
+        "rowsha": "lZoLVVPnG9bmz+WfyIkU57GNc3ZylqicqI19DKZiLv8=",
+        "originContent": "- FOSC1:FOSC0 = 2 (HS oscillator)",
+        "translatedContent": "- FOSC1:FOSC0 = 2 (Oscilador HS)"
       },
       {
         "row": 31,
@@ -197,253 +450,205 @@
       },
       {
         "row": 32,
-        "rowsha": "vYCzF0U2NMm1zvNU4rWfES8YHAw99zNUgVnHb/gylB4=",
-        "originContent": "## P01",
-        "translatedContent": "## P01"
+        "rowsha": "bhx9nDl8GRYzqvEiKwaW8iovltN5q2NkYKez4BPQ3S4=",
+        "originContent": "A config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.",
+        "translatedContent": "Un valor de configuración de 0x3FB6 es adecuado para clones SMC para que no tengan protección de código activada."
       },
       {
         "row": 33,
-        "rowsha": "lhFP7Htb8Cx1N3WJIyZItmmr+06mLEq65rpMUISKeOQ=",
-        "originContent": "Dumped from a v1.0 Xbox. The config word is 0x86:",
-        "translatedContent": "Volcado de un Xbox v1.0. La palabra de configuración es 0x86:"
-      },
-      {
-        "row": 34,
-        "rowsha": "YCBl3i9uDRuIgF+EW4T9VVMhfvqCDN46BId71aQ1x8M=",
-        "originContent": "- CP1:CP0 = 0 (Code Protection enabled for the whole memory)",
-        "translatedContent": "- CP1:CP0 = 0 (Protección de código habilitada para toda la memoria)"
-      },
-      {
-        "row": 35,
-        "rowsha": "kKSd6K3kGrxnKSXLfYvOq6QLQ9VXoIchtgESuHnSr8o=",
-        "originContent": "- BODEN = 0 (Brown-out Reset disabled)",
-        "translatedContent": "- BODEN = 0 (Reinicio por caída de voltaje deshabilitado)"
-      },
-      {
-        "row": 36,
-        "rowsha": "QjS+uwdrracDT0bg9U929U+2p44SfcLwv9IMFHvxOFM=",
-        "originContent": "- ~PWRTE = 0 (Power-up Timer enabled)",
-        "translatedContent": "- ~PWRTE = 0 (Temporizador de encendido habilitado)"
-      },
-      {
-        "row": 37,
-        "rowsha": "Tv9Y5mfeFnvXoaQk2XcjjENaHOYhzzC/Tnnl8acqLww=",
-        "originContent": "- WDTE = 1 (Watchdog Timer enabled)",
-        "translatedContent": "- WDTE = 1 (Temporizador watchdog habilitado)"
-      },
-      {
-        "row": 38,
-        "rowsha": "lZoLVVPnG9bmz+WfyIkU57GNc3ZylqicqI19DKZiLv8=",
-        "originContent": "- FOSC1:FOSC0 = 2 (HS oscillator)",
-        "translatedContent": "- FOSC1:FOSC0 = 2 (Oscilador HS)"
-      },
-      {
-        "row": 39,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 34,
+        "rowsha": "WAajUMytPQJGen1LMHqK0ynUL6I9CB7wSt3iNzJCNTw=",
+        "originContent": "## P11",
+        "translatedContent": "## P11"
+      },
+      {
+        "row": 35,
+        "rowsha": "WWu/J091qRsMQWwDEfCg3FrFjyRb16jQsTqoR8+XSSs=",
+        "originContent": "Dumped from a v1.3 Xbox. Same config word as P01.",
+        "translatedContent": "Volcado de una Xbox v1.3. Misma palabra de configuración que P01."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "lAKSNMXXPvmQFFMfg5L4G05OZ27A58Jj8m7YG7dcggY=",
+        "originContent": "There are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.",
+        "translatedContent": "Hay algunos cambios pequeños en P11 respecto a P01, incluyendo un comando SMBus adicional (escribir 0x22), diferentes prioridades de LED y tiempos más relajados para el arranque."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "TYerbbTwT6Xs1VIWM/fdhS76MYin21vOs61MvbjTeLw=",
+        "originContent": "I checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.",
+        "translatedContent": "Verifiqué volcados cifrados de v1.3 contra v1.4 y coincidían. Esto significa que es muy probable que tengan el mismo programa."
+      },
+      {
         "row": 40,
-        "rowsha": "bhx9nDl8GRYzqvEiKwaW8iovltN5q2NkYKez4BPQ3S4=",
-        "originContent": "A config value of 0x3FB6 is suitable for SMC clones so that they don't have code protection enabled.",
-        "translatedContent": "Un valor de configuración de 0x3FB6 es adecuado para clones SMC para que no tengan la protección de código activada."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       }
     ],
     "IsCodeBlock": false
   },
   {
-    "Id": 2,
-    "Content": "\n## P11\nDumped from a v1.3 Xbox. Same config word as P01.\n\nThere are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.\n\nI checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.\n\n## P2L\nDumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.\n\nThe debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.\n\n# Xyclops dumping\n\nThe Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.\n\nThe protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`\n\nCommand 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.\n\n# PIC dumping methodology\nFull writeup at https://wiki.recessim.com/view/PIC_Burnout\n\nThe PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.\n\n# PICProgrammer\nPICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.\n\nYou should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.\n",
-    "ContentSha": "Siav+feE8EANtyCLjyACKDTB7TBOhRiJ1u35LHICkG4=",
+    "Id": 3,
+    "Content": "## P2L\nDumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.\n\nThe debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.\n\n# Xyclops dumping\n\nThe Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.\n\nThe protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`\n\nCommand 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.\n\n# PIC dumping methodology\nFull writeup at https://wiki.recessim.com/view/PIC_Burnout\n\nThe PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.\n\n# PICProgrammer\nPICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.\n\nYou should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.\n",
+    "ContentSha": "8WDfXpkD0y0KUjjGUh3Kwv7iVnkyafmm9Hs/XednmKk=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "## P11\nVolcado de una Xbox v1.3. La misma palabra de configuración que P01.\n\nHay algunos pequeños cambios en P11 respecto a P01, incluyendo un comando SMBus extra (escribir 0x22), diferentes prioridades de LED y tiempos más relajados para el arranque.\n\nVerifiqué volcado codificado de v1.3 contra v1.4 y coincidieron. Esto significa que es muy probable que tengan el mismo programa.\n\n## P2L\nVolcado de una Xbox v1.6. Revisión Xyclops A-A02. Contiene código Intel 8051 pero tiene muchos registros de función especial cuya función es desconocida.\n\nEl serial de depuración es alimentado por el código en FC00. Parece un depurador rudimentario que puede pausar la ejecución, volcar datos y escribir en registros/RAM.\n\n# Volcado de Xyclops\n\nEl chip Xyclops tiene 3 pines para 'depuración': TXD (pin 64), RXD (pin 63) y DEBUG (pin 29). Poner el pin DEBUG en alto habilita el puerto serial en los pines TX y RX. El serial opera a 9600 baudios.\n\nEl protocolo se basa en comandos de 4 bytes que típicamente tienen el formato `<cmd>` `<byte alto de dirección>` `<byte bajo de dirección>` `<no importa>`\n\nEl comando 0x14 vuelca 64 bytes de datos BIOS a la vez y el 0x15 vuelca 64 bytes de datos de programa SMC a la vez. Un volcado de Xyclops, P2L.bin, está incluido en el repositorio. También se incluye [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) para que puedas volcar tu propia máquina.\n\n# Metodología para volcar PIC\nDescripción completa en https://wiki.recessim.com/view/PIC_Burnout\n\nEl PIC tiene su protección de código activada, por lo que todos los datos se leen como 0000. Usé un truco para obtener datos codificados en salida, descubrí el algoritmo de codificación usando un chip sacrificial, y luego usé un tipo de exploit para cambiar los datos de ROM y fijar algunos bits a valores conocidos. Luego puedo extraer la información requerida de los múltiples volcados codificados para reconstruir los datos originales.\n\n# PICProgrammer\nPICProgrammer es uno de varios proyectos Arduino para el RP2040 que usé en mi investigación. Proporciona una interfaz sencilla de línea de comandos para ejecutar operaciones ICSP (programación serial en circuito) en el PIC. Esto se prefiere sobre usar un programador específico como el PICkit por su flexibilidad y la opción de hacer cosas que el fabricante no previó.\n\nDebes tener un buen conocimiento de electrónica y programación antes de usarlo, y revisar cuidadosamente lo que hacen los comandos antes de ejecutarlos.\n\n",
+    "Translation": "## P2L\nExtraído de una Xbox v1.6. Revisión Xyclops A-A02. Contiene código Intel 8051 pero tiene muchos registros de función especial cuya función es desconocida.\n\nEl puerto serie de depuración es controlado por el código en FC00. Parece un depurador rudimentario que puede pausar la ejecución, volcar datos y escribir en registros/RAM.\n\n# Volcado de Xyclops\n\nEl chip Xyclops tiene 3 pines para 'depuración': TXD (pin 64), RXD (pin 63) y DEBUG (pin 29). Pon el pin DEBUG en alto para habilitar el puerto serie en los pines TX y RX. El puerto serie opera a 9600 baudios.\n\nEl protocolo se basa en comandos de 4 bytes que normalmente tienen el formato `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`\n\nEl comando 0x14 vuelca 64 bytes de datos BIOS a la vez y el comando 0x15 vuelca 64 bytes de datos del programa SMC a la vez. Un volcado de Xyclops, P2L.bin, está incluido en el repositorio. También se incluye [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) para que puedas volcar tu propia máquina.\n\n# Metodología de volcado de PIC\nInforme completo en https://wiki.recessim.com/view/PIC_Burnout\n\nEl PIC tiene la protección de código habilitada, por lo que todos los datos se leen como 0000. Usé un truco para obtener datos cifrados en su lugar, descubrí el algoritmo de cifrado usando un chip sacrificado y luego utilicé una especie de exploit para cambiar los datos de la ROM y fijar algunos bits a valores conocidos. Así puedo extraer la información requerida de varios volcados cifrados para reconstruir los datos originales.\n\n# PICProgrammer\nPICProgrammer es uno de varios proyectos Arduino para el RP2040 que usé en mi investigación. Proporciona una interfaz de línea de comandos simple para ejecutar operaciones ICSP (programación serie en circuito) en el PIC. Se prefiere sobre el uso de un programador dedicado como el PICkit debido a su flexibilidad y la opción de hacer cosas que el fabricante no pretendía.\n\nDebes tener un buen conocimiento de electrónica y programación antes de usar esto, y examinar cuidadosamente lo que hace cada comando antes de ejecutarlo.\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## P11"
+        "rowsha": "BjXHBtVuZ742lYFV6G8A9t8oRU43uLI513Bnw1BQ5G0=",
+        "originContent": "## P2L",
+        "translatedContent": "## P2L"
       },
       {
         "row": 2,
-        "rowsha": "WAajUMytPQJGen1LMHqK0ynUL6I9CB7wSt3iNzJCNTw=",
-        "originContent": "## P11",
-        "translatedContent": "Volcado de una Xbox v1.3. La misma palabra de configuración que P01."
+        "rowsha": "dvZDjF2tYvTy6oc3Tz5TKJqgPYQ6N7x0z9s6D+ctnSg=",
+        "originContent": "Dumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.",
+        "translatedContent": "Extraído de una Xbox v1.6. Revisión Xyclops A-A02. Contiene código Intel 8051 pero tiene muchos registros de función especial cuya función es desconocida."
       },
       {
         "row": 3,
-        "rowsha": "WWu/J091qRsMQWwDEfCg3FrFjyRb16jQsTqoR8+XSSs=",
-        "originContent": "Dumped from a v1.3 Xbox. Same config word as P01.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Hay algunos pequeños cambios en P11 respecto a P01, incluyendo un comando SMBus extra (escribir 0x22), diferentes prioridades de LED y tiempos más relajados para el arranque."
+        "rowsha": "pADnkRtsQ7fbhvkg7+ny1Bh5xIcDvPR9HDKHN+/7o/o=",
+        "originContent": "The debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.",
+        "translatedContent": "El puerto serie de depuración es controlado por el código en FC00. Parece un depurador rudimentario que puede pausar la ejecución, volcar datos y escribir en registros/RAM."
       },
       {
         "row": 5,
-        "rowsha": "lAKSNMXXPvmQFFMfg5L4G05OZ27A58Jj8m7YG7dcggY=",
-        "originContent": "There are a few small changes in P11 versus P01 including an extra SMBus command (write 0x22), different LED priorities, and more relaxed timings for boot.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Verifiqué volcado codificado de v1.3 contra v1.4 y coincidieron. Esto significa que es muy probable que tengan el mismo programa."
+        "rowsha": "Sv1dVJCdFQhY/b8Qh88bXNtxWIj8SqBsln88Lfx9oas=",
+        "originContent": "# Xyclops dumping",
+        "translatedContent": "# Volcado de Xyclops"
       },
       {
         "row": 7,
-        "rowsha": "TYerbbTwT6Xs1VIWM/fdhS76MYin21vOs61MvbjTeLw=",
-        "originContent": "I checked scrambled dumps of v1.3 against v1.4 and they matched. This means it's highly likely they have the same program.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## P2L"
+        "rowsha": "PPnPlDJQYlwEvTlTMUT7aGgr4n4T9G2HvqRRTGw4Os4=",
+        "originContent": "The Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.",
+        "translatedContent": "El chip Xyclops tiene 3 pines para 'depuración': TXD (pin 64), RXD (pin 63) y DEBUG (pin 29). Pon el pin DEBUG en alto para habilitar el puerto serie en los pines TX y RX. El puerto serie opera a 9600 baudios."
       },
       {
         "row": 9,
-        "rowsha": "BjXHBtVuZ742lYFV6G8A9t8oRU43uLI513Bnw1BQ5G0=",
-        "originContent": "## P2L",
-        "translatedContent": "Volcado de una Xbox v1.6. Revisión Xyclops A-A02. Contiene código Intel 8051 pero tiene muchos registros de función especial cuya función es desconocida."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 10,
-        "rowsha": "dvZDjF2tYvTy6oc3Tz5TKJqgPYQ6N7x0z9s6D+ctnSg=",
-        "originContent": "Dumped from a v1.6 Xbox. Xyclops revision A-A02. It contains Intel 8051 code but has lots of special function registers that have unknown function.",
-        "translatedContent": ""
+        "rowsha": "aDbUWg6ba2r2jHJkbK9OhSZ/yZaf8pjXgqUz7dLI30U=",
+        "originContent": "The protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`",
+        "translatedContent": "El protocolo se basa en comandos de 4 bytes que normalmente tienen el formato `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`"
       },
       {
         "row": 11,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "El serial de depuración es alimentado por el código en FC00. Parece un depurador rudimentario que puede pausar la ejecución, volcar datos y escribir en registros/RAM."
+        "translatedContent": ""
       },
       {
         "row": 12,
-        "rowsha": "pADnkRtsQ7fbhvkg7+ny1Bh5xIcDvPR9HDKHN+/7o/o=",
-        "originContent": "The debug serial is powered by the code at FC00. Looks like a crude debugger that can pause execution, dump data, and write to registers/RAM.",
-        "translatedContent": ""
+        "rowsha": "Bc8gjC3yH1ZslKO4yLkz6M/S7ygqko8CAS5pBU0nnmM=",
+        "originContent": "Command 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.",
+        "translatedContent": "El comando 0x14 vuelca 64 bytes de datos BIOS a la vez y el comando 0x15 vuelca 64 bytes de datos del programa SMC a la vez. Un volcado de Xyclops, P2L.bin, está incluido en el repositorio. También se incluye [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) para que puedas volcar tu propia máquina."
       },
       {
         "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# Volcado de Xyclops"
-      },
-      {
-        "row": 14,
-        "rowsha": "Sv1dVJCdFQhY/b8Qh88bXNtxWIj8SqBsln88Lfx9oas=",
-        "originContent": "# Xyclops dumping",
         "translatedContent": ""
       },
       {
+        "row": 14,
+        "rowsha": "snRA4OeinDa1e6nAFCvMXCLoQfMEDdqNZfYjejrt73I=",
+        "originContent": "# PIC dumping methodology",
+        "translatedContent": "# Metodología de volcado de PIC"
+      },
+      {
         "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "El chip Xyclops tiene 3 pines para 'depuración': TXD (pin 64), RXD (pin 63) y DEBUG (pin 29). Poner el pin DEBUG en alto habilita el puerto serial en los pines TX y RX. El serial opera a 9600 baudios."
+        "rowsha": "KS99zZJx4aRb+uy2mZ89HHwNcBwxUOip84fHqvvjXqk=",
+        "originContent": "Full writeup at https://wiki.recessim.com/view/PIC_Burnout",
+        "translatedContent": "Informe completo en https://wiki.recessim.com/view/PIC_Burnout"
       },
       {
         "row": 16,
-        "rowsha": "PPnPlDJQYlwEvTlTMUT7aGgr4n4T9G2HvqRRTGw4Os4=",
-        "originContent": "The Xyclops chip has 3 pins for 'debug': TXD (pin 64), RXD (pin 63), and DEBUG (pin 29). Set the DEBUG pin high to enable the serial port on the TX and RX pins. The serial operates at 9600 baud.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "El protocolo se basa en comandos de 4 bytes que típicamente tienen el formato `<cmd>` `<byte alto de dirección>` `<byte bajo de dirección>` `<no importa>`"
+        "rowsha": "hGSpj9qrfICX22U6fbUgluDsebH6p2wWqPaR3yvKG3Q=",
+        "originContent": "The PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.",
+        "translatedContent": "El PIC tiene la protección de código habilitada, por lo que todos los datos se leen como 0000. Usé un truco para obtener datos cifrados en su lugar, descubrí el algoritmo de cifrado usando un chip sacrificado y luego utilicé una especie de exploit para cambiar los datos de la ROM y fijar algunos bits a valores conocidos. Así puedo extraer la información requerida de varios volcados cifrados para reconstruir los datos originales."
       },
       {
         "row": 18,
-        "rowsha": "aDbUWg6ba2r2jHJkbK9OhSZ/yZaf8pjXgqUz7dLI30U=",
-        "originContent": "The protocol is based on 4-byte commands which are typically in the format `<cmd>` `<address MSByte>` `<address LSByte>` `<don't care>`",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "El comando 0x14 vuelca 64 bytes de datos BIOS a la vez y el 0x15 vuelca 64 bytes de datos de programa SMC a la vez. Un volcado de Xyclops, P2L.bin, está incluido en el repositorio. También se incluye [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) para que puedas volcar tu propia máquina."
+        "rowsha": "Bfj8XXgMR5w88vTdJxP5WWXAjcOlhA3/Aq4x+gL4SRg=",
+        "originContent": "# PICProgrammer",
+        "translatedContent": "# PICProgrammer"
       },
       {
         "row": 20,
-        "rowsha": "Bc8gjC3yH1ZslKO4yLkz6M/S7ygqko8CAS5pBU0nnmM=",
-        "originContent": "Command 0x14 dumps out 64 bytes of BIOS data at a time and 0x15 dumps 64 bytes of SMC program data at a time. A dump from Xyclops, P2L.bin, is included in the repo. [xyclops_dumper.py](/Xyclops/xyclops_dumper.py) is also included for you to dump your own machine.",
-        "translatedContent": ""
+        "rowsha": "bi26QfTVktXi7f3PiEh3691cBpCoGSHBe7d8cFTm+3Y=",
+        "originContent": "PICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.",
+        "translatedContent": "PICProgrammer es uno de varios proyectos Arduino para el RP2040 que usé en mi investigación. Proporciona una interfaz de línea de comandos simple para ejecutar operaciones ICSP (programación serie en circuito) en el PIC. Se prefiere sobre el uso de un programador dedicado como el PICkit debido a su flexibilidad y la opción de hacer cosas que el fabricante no pretendía."
       },
       {
         "row": 21,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "# Metodología para volcar PIC"
+        "translatedContent": ""
       },
       {
         "row": 22,
-        "rowsha": "snRA4OeinDa1e6nAFCvMXCLoQfMEDdqNZfYjejrt73I=",
-        "originContent": "# PIC dumping methodology",
-        "translatedContent": "Descripción completa en https://wiki.recessim.com/view/PIC_Burnout"
+        "rowsha": "/qxKgTKYbeCy4ws6Kt15qOBJRygW5rkpPMBSutshzVc=",
+        "originContent": "You should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.",
+        "translatedContent": "Debes tener un buen conocimiento de electrónica y programación antes de usar esto, y examinar cuidadosamente lo que hace cada comando antes de ejecutarlo."
       },
       {
         "row": 23,
-        "rowsha": "KS99zZJx4aRb+uy2mZ89HHwNcBwxUOip84fHqvvjXqk=",
-        "originContent": "Full writeup at https://wiki.recessim.com/view/PIC_Burnout",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "El PIC tiene su protección de código activada, por lo que todos los datos se leen como 0000. Usé un truco para obtener datos codificados en salida, descubrí el algoritmo de codificación usando un chip sacrificial, y luego usé un tipo de exploit para cambiar los datos de ROM y fijar algunos bits a valores conocidos. Luego puedo extraer la información requerida de los múltiples volcados codificados para reconstruir los datos originales."
-      },
-      {
-        "row": 25,
-        "rowsha": "hGSpj9qrfICX22U6fbUgluDsebH6p2wWqPaR3yvKG3Q=",
-        "originContent": "The PIC has its code protection enabled so all the data reads as 0000. I used some trick to get scrambled data output instead, discovered the scrambling algorithm using a sacrificial chip, and then used a kind of exploit to change the ROM data to fix some bits to known values. Then I can extract the required information from the multiple scrambled dumps to rebuild the original data.",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "# PICProgrammer"
-      },
-      {
-        "row": 27,
-        "rowsha": "Bfj8XXgMR5w88vTdJxP5WWXAjcOlhA3/Aq4x+gL4SRg=",
-        "originContent": "# PICProgrammer",
-        "translatedContent": "PICProgrammer es uno de varios proyectos Arduino para el RP2040 que usé en mi investigación. Proporciona una interfaz sencilla de línea de comandos para ejecutar operaciones ICSP (programación serial en circuito) en el PIC. Esto se prefiere sobre usar un programador específico como el PICkit por su flexibilidad y la opción de hacer cosas que el fabricante no previó."
-      },
-      {
-        "row": 28,
-        "rowsha": "bi26QfTVktXi7f3PiEh3691cBpCoGSHBe7d8cFTm+3Y=",
-        "originContent": "PICProgrammer is one of a few Arduino projects for the RP2040 that I used in my research. It provides a simple command-line interface to execute ICSP (in-circuit serial programming) operations on the PIC. This is favoured over using a purpose-build programmer such as the PICkit due to its flexibility and the option of doing things that the manufacturer didn't intend.",
-        "translatedContent": ""
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Debes tener un buen conocimiento de electrónica y programación antes de usarlo, y revisar cuidadosamente lo que hacen los comandos antes de ejecutarlos."
-      },
-      {
-        "row": 30,
-        "rowsha": "/qxKgTKYbeCy4ws6Kt15qOBJRygW5rkpPMBSutshzVc=",
-        "originContent": "You should have a good understanding of electronics and programming before using this, and take a good look over what commands do before executing them.",
-        "translatedContent": ""
-      },
-      {
-        "row": 31,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
