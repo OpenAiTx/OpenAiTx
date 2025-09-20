@@ -1,0 +1,704 @@
+[
+  {
+    "row": 1,
+    "rowsha": "vwhfVIXIvT0pYJQM/fGT49ADylj0d8Rl8ppF2h3p+DQ=",
+    "originContent": "# OneDriveExplorer Summary",
+    "translatedContent": "# OneDriveExplorer Résumé"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "rwnP+auQwX+7JPYziepHMmiXUqElifwxgDKNp3j55yI=",
+    "originContent": "OneDriveExplorer is a command line and GUI based application for reconstructing the folder structure of OneDrive from `<UserCid>.dat`, `<UserCid>.dat.previous` and/or SQLite databases. Also supports parsing OneDrive logs with extensions `.odl`, `.odlgz`, `.odlsent` and `.aold`. Log parsing is heavily based on the work of Yogesh Khatri [odl.py](https://github.com/ydkhatri/OneDrive).",
+    "translatedContent": "OneDriveExplorer est une application en ligne de commande et avec interface graphique pour reconstruire la structure des dossiers de OneDrive à partir des fichiers `<UserCid>.dat`, `<UserCid>.dat.previous` et/ou des bases de données SQLite. Supporte également l'analyse des logs OneDrive avec les extensions `.odl`, `.odlgz`, `.odlsent` et `.aold`. L'analyse des logs est largement basée sur le travail de Yogesh Khatri [odl.py](https://github.com/ydkhatri/OneDrive)."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Utilisation"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "U6VGvEY0sT8VUw24oBT4qD8+USXkioCipmauW5Hq41E=",
+    "originContent": "Settings files are found in the following locations:  ",
+    "translatedContent": "Les fichiers de configuration se trouvent aux emplacements suivants :  "
+  },
+  {
+    "row": 8,
+    "rowsha": "hGLToQtD1Ps4PSdCBUR1mXZe0fWM8jd203x2mf5EmmQ=",
+    "originContent": " **Windows**",
+    "translatedContent": " **Windows**"
+  },
+  {
+    "row": 9,
+    "rowsha": "Z9qMNOkVxA2HXYJwDycNQxZBtnBfbFHx/BJSYCMU4Po=",
+    "originContent": " * \\AppData\\Local\\Microsoft\\OneDrive\\settings\\Business<span style=\"color:yellow\"><1-9></span>",
+    "translatedContent": " * \\AppData\\Local\\Microsoft\\OneDrive\\settings\\Business<span style=\"color:yellow\"><1-9></span>"
+  },
+  {
+    "row": 10,
+    "rowsha": "lH88+eVXKhsRuZehXAODVmFZhc7SY8crgvFEaJ+vLk8=",
+    "originContent": " * \\AppData\\Local\\Microsoft\\OneDrive\\settings\\Personal",
+    "translatedContent": " * \\AppData\\Local\\Microsoft\\OneDrive\\settings\\Personal"
+  },
+  {
+    "row": 11,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": " "
+  },
+  {
+    "row": 12,
+    "rowsha": "2ZiyH1FQNc7eAiw/MtRR7C1OYThm5ZgBD7FnWfwbSEo=",
+    "originContent": " **macOS**",
+    "translatedContent": " **macOS**"
+  },
+  {
+    "row": 13,
+    "rowsha": "JBjCcFLzgXTIWt0mnabb8w2YwV0+hY5a2lAr6PWXuRs=",
+    "originContent": " * /Users/\\<username>/Library/Application Support/Onedrive",
+    "translatedContent": " * /Users/\\<username>/Library/Application Support/Onedrive"
+  },
+  {
+    "row": 14,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": " "
+  },
+  {
+    "row": 15,
+    "rowsha": "udqf09Fb/8/THwLoOVNyBp8a8i87T1PAuw0BJQc5BN8=",
+    "originContent": "Log files are found in the following locations:  ",
+    "translatedContent": "Les fichiers de logs se trouvent aux emplacements suivants :  "
+  },
+  {
+    "row": 16,
+    "rowsha": "QppoFt7K5EyQecr46ag+gpGFLIiULRMFrNYZE/3R5a8=",
+    "originContent": "**Windows**",
+    "translatedContent": "**Windows**"
+  },
+  {
+    "row": 17,
+    "rowsha": "OMCZdfGlqpnUwe/i/mFjxriafFvq2fMazP/a+3sqO4M=",
+    "originContent": " * \\AppData\\Local\\Microsoft\\OneDrive\\logs\\Business<span style=\"color:yellow\"><1-9></span>",
+    "translatedContent": " * \\AppData\\Local\\Microsoft\\OneDrive\\logs\\Business<span style=\"color:yellow\"><1-9></span>"
+  },
+  {
+    "row": 18,
+    "rowsha": "jvNFXeMvMgYzlsJhjJOcrB/nMpTmgHCaaY0F3wzSmN4=",
+    "originContent": " * \\AppData\\Local\\Microsoft\\OneDrive\\logs\\Personal",
+    "translatedContent": " * \\AppData\\Local\\Microsoft\\OneDrive\\logs\\Personal"
+  },
+  {
+    "row": 19,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": " "
+  },
+  {
+    "row": 20,
+    "rowsha": "2ZiyH1FQNc7eAiw/MtRR7C1OYThm5ZgBD7FnWfwbSEo=",
+    "originContent": " **macOS**",
+    "translatedContent": " **macOS**"
+  },
+  {
+    "row": 21,
+    "rowsha": "TDiuT1jcG3pywFPqUK9wci66OxgXyRMfWl/phbVPK84=",
+    "originContent": " * /Users/\\<username>/Library/Logs/OneDrive",
+    "translatedContent": " * /Users/\\<username>/Library/Logs/OneDrive"
+  },
+  {
+    "row": 22,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": " "
+  },
+  {
+    "row": 23,
+    "rowsha": "zHaXz+ylXfTEcAEUIDe4mzPUbjlkzv3AM5xTL1H4EM8=",
+    "originContent": " Log files will be unobfuscated if the `ObfuscationStringMap.txt` and\\or [`general.keystore`, `vault.keystore`] file(s) are present.",
+    "translatedContent": " Les fichiers de logs seront désobfusqués si le fichier `ObfuscationStringMap.txt` et/ou les fichiers [`general.keystore`, `vault.keystore`] sont présents."
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "KwwZECoP4kRDXuM51+OU8riOqXaInCVmQBkA2VtaG7g=",
+    "originContent": "### Requirements",
+    "translatedContent": "### Exigences"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "fYo4RrTjN5huPMCjk6aMUqJKYPI90/Ld3OduQj8FpC4=",
+    "originContent": "This project requires several additional modules. You can install them with the provided requirements.txt file as follows:",
+    "translatedContent": "Ce projet nécessite plusieurs modules additionnels. Vous pouvez les installer avec le fichier requirements.txt fourni comme suit :"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 30,
+    "rowsha": "at4ayEbTrkfb2XS9T1bFSQ3JG+7YPvsuHaOtub7pvNE=",
+    "originContent": "python3 -m pip install -r requirements.txt",
+    "translatedContent": "python3 -m pip install -r requirements.txt"
+  },
+  {
+    "row": 31,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "ka871Nm8PL6MwFlq6qMZd+QhGas6e6/67DE01QSXsv4=",
+    "originContent": "<span style=\"color:red\">**&#42;Note:** pytsk3 and quickxorhash require a compiler to install. Using the executables is recommended.</span>",
+    "translatedContent": "<span style=\"color:red\">**&#42;Remarque :** pytsk3 et quickxorhash nécessitent un compilateur pour l'installation. Il est recommandé d'utiliser les exécutables.</span>"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "lcHAPFMs9NaRnXqqW/xVUeIQU/RBiVWjPd9NhaW6OaI=",
+    "originContent": "### Command line",
+    "translatedContent": "### Ligne de commande"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "TIrW3Bbl/vIxNxe58qiimavuMCsbshCt0Di17mXkLjE=",
+    "originContent": "![cmd_help](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/cmd_help.png)",
+    "translatedContent": "![cmd_help](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/cmd_help.png)"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "yFjIa3acqy1fAeGzIqoIiRdqJfpGTxVUnsrawpar5jc=",
+    "originContent": "To use OneDriveExplorer, simply provide the `.\\<UserCid>.dat` file to the `-f` argument",
+    "translatedContent": "Pour utiliser OneDriveExplorer, fournissez simplement le fichier `.\\<UserCid>.dat` à l'argument `-f`"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 42,
+    "rowsha": "Miltw0eym6FuPuHnAvhGFATcP3rd3x+imt3ITYyTk4I=",
+    "originContent": "OneDriveExplorer.exe -f \\AppData\\Local\\Microsoft\\OneDrive\\settings\\Personal/Business<1-9>\\d1a7c039-6175-4ddb-bcdb-a8de45cf1678.dat",
+    "translatedContent": "OneDriveExplorer.exe -f \\AppData\\Local\\Microsoft\\OneDrive\\settings\\Personal/Business<1-9>\\d1a7c039-6175-4ddb-bcdb-a8de45cf1678.dat"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "zYvC54PU24iU9YyKAWHgmK/0zzdcfIpTNwHM2wDJbTo=",
+    "originContent": "Newer versions of OneDrive have switched to SQLite. Use the -s switch instead.",
+    "translatedContent": "Les versions plus récentes de OneDrive ont basculé vers SQLite. Utilisez plutôt l'option -s."
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 48,
+    "rowsha": "oU0BXkv32AXLT5Ymz8duek+juM277cGsHPkAhXKUF+c=",
+    "originContent": "OneDriveExplorer.exe -s \\AppData\\Local\\Microsoft\\OneDrive\\settings\\Personal/Business<1-9>",
+    "translatedContent": "OneDriveExplorer.exe -s \\AppData\\Local\\Microsoft\\OneDrive\\settings\\Personal/Business<1-9>"
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "Nw3O4doq5xWEFGPTvex+YLG/6BZW0LC83MrRUNIWmts=",
+    "originContent": "Depending on the options, OneDriveExplorer can produce JSON, CSV, or HTML files of the parsed data. The `--pretty` option can be used to output the JSON into a more human readable layout.",
+    "translatedContent": "Depending on the options, OneDriveExplorer can produce JSON, CSV, or HTML files of the parsed data. The `--pretty` option can be used to output the JSON into a more human readable layout."
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "RbY2TFRuxzerYc2/uQE/IXXanB0IKJNGBo4zfoeODZA=",
+    "originContent": "A user registry hive can be supplied with the `-r` argument. This will resolve some of the mount points associated with OneDrive. Along with the registry hive, $Recycle.Bin can be added with the `-rb` option to look for deleted files.",
+    "translatedContent": "A user registry hive can be supplied with the `-r` argument. This will resolve some of the mount points associated with OneDrive. Along with the registry hive, $Recycle.Bin can be added with the `-rb` option to look for deleted files."
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "ozCLfMTNxAVLq0C157t0KD4J1hv7KfD8OJiXM1fme28=",
+    "originContent": "### Example output",
+    "translatedContent": "### Example output"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "Bg4XBcJr4fZpLtQpmhH3ktcKPISZM99U6LNw8D0yLEQ=",
+    "originContent": "#### JSON",
+    "translatedContent": "#### JSON"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "V53Ilwh4IVj+SnK4vIBCFoYWeEFKI8CRDja9/U0tngk=",
+    "originContent": "![json](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/json.png)",
+    "translatedContent": "![json](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/json.png)"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "eR/0gr9EghYtB2Rh8KPshO1N7xLNP44SOn0YUTEpRjs=",
+    "originContent": "#### CVS",
+    "translatedContent": "#### CVS"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "8zHKqJBbz/mGn1pKa8z8rYGihw356B72iBtd3DyuT44=",
+    "originContent": "![csv](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/csv.png)",
+    "translatedContent": "![csv](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/csv.png)"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "G9nVnMflnJoQ22bLVHV2OB0rLH126CT+uCVV35Vc9mI=",
+    "originContent": "#### HTML",
+    "translatedContent": "#### HTML"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "ZXHLbV/s+49NL7O8fzg1uF1N47ToiIkZTy9bQCbWUt0=",
+    "originContent": "![html](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/html.png)",
+    "translatedContent": "![html](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/html.png)"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "O3pE2sU7or4lnU+Fxx+/sIiMAtiInlk5K4li3J0dvGU=",
+    "originContent": "## GUI",
+    "translatedContent": "## GUI"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "Z9Y6OOUi0WTnZczoXxmhv23jhigGrPABFEPSe25v7eQ=",
+    "originContent": "The GUI consists of three panes: the folder structure on the left, file pane in the middle, and details on the right. By clicking on one of the entries in the left pane or file pane, the details pane will populate with various data such as name, whether it is a file or folder, UUIDs and the number of children, if any. There is also a pane on the bottom that correlates log data back to the selected item.",
+    "translatedContent": "The GUI consists of three panes: the folder structure on the left, file pane in the middle, and details on the right. By clicking on one of the entries in the left pane or file pane, the details pane will populate with various data such as name, whether it is a file or folder, UUIDs and the number of children, if any. There is also a pane on the bottom that correlates log data back to the selected item."
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "pNQ/QTyHZWzxVx6JDuwTY7hf8vLEqE8FlVm5n+trFig=",
+    "originContent": "![gui](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/gui.png)",
+    "translatedContent": "![gui](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/gui.png)"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "qefVP/+8hlcd/NFydGnpMr93DM5yZQBf5yWV5h2vZvU=",
+    "originContent": "The GUI is capable of parsing the live system and dat/SQLite files, along with loading JSON or CSV from a previously parsed dat/SQLite file. OneDriveExplorer GUI also supports loading multiple files. When loading a dat/SQLite file, an additional dialog will appear to allow you to supply a registry file. This can be disabled by holding down `SHIFT` or disabling it in the preferences menu.",
+    "translatedContent": "The GUI is capable of parsing the live system and dat/SQLite files, along with loading JSON or CSV from a previously parsed dat/SQLite file. OneDriveExplorer GUI also supports loading multiple files. When loading a dat/SQLite file, an additional dialog will appear to allow you to supply a registry file. This can be disabled by holding down `SHIFT` or disabling it in the preferences menu."
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "IB3JYnzUlMv3wNZHdQwC663M8fQXD+wfxQKHbHohqt8=",
+    "originContent": "&#42;OneDrive ODL logs can be enabled in the Preferences menu.",
+    "translatedContent": "&#42;OneDrive ODL logs can be enabled in the Preferences menu."
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "8UbcaPXhYGWR5mozjYJoEcSjSyDyvu3Nn0tW5b6/+fU=",
+    "originContent": "![file_menu](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/file_menu.png)  ![hive](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/hive.png)",
+    "translatedContent": "![file_menu](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/file_menu.png)  ![hive](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/hive.png)"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "EVNl9xJFZgMi4IZlwWBJrv6SdLzT1tldOwVY7E5Ji1Y=",
+    "originContent": "Through the preferences menu, there are options available for saving the parsed dat/SQLite file to JSON, CSV, and HTML. There is also an option to disable the hive dialogue.",
+    "translatedContent": "Through the preferences menu, there are options available for saving the parsed dat/SQLite file to JSON, CSV, and HTML. There is also an option to disable the hive dialogue."
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "xYLw9HavpN6jD+hJMQboz8T5LEORfDqqcab8oiVo5rM=",
+    "originContent": "![preferences](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/preference.png)",
+    "translatedContent": "![preferences](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/preference.png)"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "QuEZnZUt6EszofkOGpGfK9ZWIBWop7zNSIetKaCaxF4=",
+    "originContent": "OneDriveExplorer GUI is also capable of performing a simple search.",
+    "translatedContent": "OneDriveExplorer GUI is also capable of performing a simple search."
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "tW7UFhzr0eTT+5Z1OkLOvARMcfrVq14Sh+mtok1Cvco=",
+    "originContent": "![search](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/search.png)",
+    "translatedContent": "![search](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/search.png)"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "gzzNssMgZHiB65IzqcU2w5+8bFKo0SisWpmbA8cMncY=",
+    "originContent": "There are right click menus to help perform various tasks and skin options.",
+    "translatedContent": "There are right click menus to help perform various tasks and skin options."
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "cj+Wpm14HcYig+DQjBZx28bdzRtpZGUV19V+60uRC2c=",
+    "originContent": "![right_click1](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/rc_menu1.png)",
+    "translatedContent": "![right_click1](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/rc_menu1.png)"
+  },
+  {
+    "row": 92,
+    "rowsha": "ru9C+NuCKlDzv1z0MpWxyuy0g1mEECefOAJJj6FDs+E=",
+    "originContent": "![right_click2](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/rc_menu2.png)",
+    "translatedContent": "![right_click2](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/rc_menu2.png)"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "ehhSA2ViZZCERiArb7kQzvsUEI4WF5+WtvLHDMIL0+4=",
+    "originContent": "![skins](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/skins.png)",
+    "translatedContent": "![skins](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/skins.png)"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "qZ2QG3Sepgy2Mz5+WQqWxvAigbXdCI3bbmuQN48t6pg=",
+    "originContent": "The messages dialogue can be accessed by double clicking on the number in the lower right corner. From this dialogue, you can view, clear and export debug messages.",
+    "translatedContent": "The messages dialogue can be accessed by double clicking on the number in the lower right corner. From this dialogue, you can view, clear and export debug messages."
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "GKo/n4lGuURqR+WOk1hQhJs/JjvEfQVln3f1S2PX+3Y=",
+    "originContent": "![indicator](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/message_indicator.png)",
+    "translatedContent": "![indicator](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/message_indicator.png)"
+  },
+  {
+    "row": 99,
+    "rowsha": "C5NkfUybHoIKl89pQKqP6nHHtkwPVGekekZhJouWC6I=",
+    "originContent": "![messages](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/message.png)",
+    "translatedContent": "![messages](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/message.png)"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "1gHstGNTLIgTsqtAs2BY8E9cEBr64QVktd9MenYRb5w=",
+    "originContent": "Projects can also be created to save your work without having to parse the files again. This has the advantage of loading the data more quickly.",
+    "translatedContent": "Projects can also be created to save your work without having to parse the files again. This has the advantage of loading the data more quickly."
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "i3yUcQOL4w3l2pxCf6ESVfKK0x0urQ3XklGDKgfAYys=",
+    "originContent": "![project menu](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/project.png)",
+    "translatedContent": "![project menu](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/project.png)"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "JAx2Z+YfKIrq3kjfwUsOjfBGnbB0MLKwGJfa5NCuEcU=",
+    "originContent": "If ODL log files are enabled, additional tabs for each users logs will be created.",
+    "translatedContent": "If ODL log files are enabled, additional tabs for each users logs will be created."
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "jB01kounMVpPjKSY6MsFJYtOyaZiPrNwSIxXKbjPJxY=",
+    "originContent": "![ODL logs](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/odl.png)",
+    "translatedContent": "![ODL logs](https://raw.githubusercontent.com/Beercow/OneDriveExplorer/master/./Images/odl.png)"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "+Hgfxk1oGqvBVrB57Wac00uQaXf11Fr46yu0sakzCKQ=",
+    "originContent": "## File location",
+    "translatedContent": "## File location"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "djeUoznpq8HCGxI27lbQtcSDB4Ay6HTEZfeCOpT4gMY=",
+    "originContent": "The default file location of the `.dat` files are:",
+    "translatedContent": "The default file location of the `.dat` files are:"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "ZNstNUTj4PjlnBHkc2HYUWxjpq1/mEtnRhTPGqL8toU=",
+    "originContent": "- Personal: `C:\\Users\\<USERNAME>\\AppData\\Local\\Microsoft\\OneDrive\\settings\\Personal\\<UserCid.dat>`",
+    "translatedContent": "- Personal: `C:\\Users\\<USERNAME>\\AppData\\Local\\Microsoft\\OneDrive\\settings\\Personal\\<UserCid.dat>`"
+  },
+  {
+    "row": 114,
+    "rowsha": "ReZgyQUh8R7uX5jTRUWZtI8wjbcrJSTCph8bv9W4SXA=",
+    "originContent": "- Business: `C:\\Users\\<USERNAME>\\AppData\\Local\\Microsoft\\OneDrive\\settings\\Business<1-9>\\<UserCid.dat>`",
+    "translatedContent": "- Business: `C:\\Users\\<USERNAME>\\AppData\\Local\\Microsoft\\OneDrive\\settings\\Business<1-9>\\<UserCid.dat>`"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "a+2R26zsb+bs/uxup1DV12eRkj7qmBtbYkLGXqZPSjM=",
+    "originContent": "## Todo",
+    "translatedContent": "## Todo"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

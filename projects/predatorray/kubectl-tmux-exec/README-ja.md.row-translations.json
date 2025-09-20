@@ -1,0 +1,1046 @@
+[
+  {
+    "row": 1,
+    "rowsha": "CxjUmOFXWTK+TsUT1hrfmDLKL0z+9vf4hcVpiR90gHc=",
+    "originContent": "# kubectl-tmux-exec",
+    "translatedContent": "# kubectl-tmux-exec"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "jO7Cn51sH2PjfI3LkIZUuqLP1n1OfheIcnGsCe8v5rI=",
+    "originContent": "![GitHub release version](https://img.shields.io/github/v/release/predatorray/kubectl-tmux-exec)",
+    "translatedContent": "![GitHub release version](https://img.shields.io/github/v/release/predatorray/kubectl-tmux-exec)"
+  },
+  {
+    "row": 4,
+    "rowsha": "mdbVEYmT5l3ZyFjuujmUPOknmwk8biFiJuMiSYFwfek=",
+    "originContent": "![License](https://img.shields.io/github/license/predatorray/kubectl-tmux-exec)",
+    "translatedContent": "![License](https://img.shields.io/github/license/predatorray/kubectl-tmux-exec)"
+  },
+  {
+    "row": 5,
+    "rowsha": "m8XyUJ1IDUrAA25aOjLW2zCEFE2d9IkEJ1lDwLjecRw=",
+    "originContent": "![Build Status](https://img.shields.io/github/actions/workflow/status/predatorray/kubectl-tmux-exec/ci.yml?branch=master)",
+    "translatedContent": "![Build Status](https://img.shields.io/github/actions/workflow/status/predatorray/kubectl-tmux-exec/ci.yml?branch=master)"
+  },
+  {
+    "row": 6,
+    "rowsha": "Cuf7TPp5MlWtMoSX3GqquP44c/+uVgMp8kjzrSk9wLI=",
+    "originContent": "![GitHub all releases](https://img.shields.io/github/downloads/predatorray/kubectl-tmux-exec/total)",
+    "translatedContent": "![GitHub all releases](https://img.shields.io/github/downloads/predatorray/kubectl-tmux-exec/total)"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "Ua7iL4XU4ANowLccqg8X9YhhUGd4+nojvnlircdYTxM=",
+    "originContent": "A **kubectl** plugin for executing commands interactively across multiple pods or containers using [**tmux**](https://github.com/tmux/tmux),",
+    "translatedContent": "A **kubectl** plugin for executing commands interactively across multiple pods or containers using [**tmux**](https://github.com/tmux/tmux),"
+  },
+  {
+    "row": 9,
+    "rowsha": "r/Qe9/68itQ+GRLcbt+8mwDCiLoE8/ur8uDsdgZjL/Q=",
+    "originContent": "like `csshX` or `pssh` but for **Kubernetes**.",
+    "translatedContent": "like `csshX` or `pssh` but for **Kubernetes**."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "n5K7l2jwnJt6kizshXmnKgURHWsmIjcweNt6qiEbsHk=",
+    "originContent": "![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot.png?raw=true)",
+    "translatedContent": "![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot.png?raw=true)"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "Ma6C1KoexQMbwL2kUMESG0UF5xyhr5YmdgeU9ZYUSOc=",
+    "originContent": "To execute command across all the Nginx containers using `bash` for example, run:",
+    "translatedContent": "To execute command across all the Nginx containers using `bash` for example, run:"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 16,
+    "rowsha": "642W7ugQkefNHnBOILknbnzrWSzHEzGzKUj9OKpus1E=",
+    "originContent": "kubectl tmux-exec -l app=nginx /bin/bash",
+    "translatedContent": "kubectl tmux-exec -l app=nginx /bin/bash"
+  },
+  {
+    "row": 17,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 19,
+    "rowsha": "w/sOSljJFsAyK3/wadk1EveZ2w4MhzbYL5xF10yFHU0=",
+    "originContent": "## Installation ",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Homebrew"
+  },
+  {
+    "row": 21,
+    "rowsha": "pJlSFMY1jGJADW+jSPOP44zVg6xycRgOWJvwy6vyA7w=",
+    "originContent": "### Homebrew",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> **注意**: これはMacユーザー向けです。"
+  },
+  {
+    "row": 23,
+    "rowsha": "iyIMmH8FaRi4zFITH4zCMao8wfBH+n4iMYGdpiwaBYQ=",
+    "originContent": "> **Note**: This is for Mac users only.",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. [Homebrew](https://brew.sh/)をインストールします。"
+  },
+  {
+    "row": 25,
+    "rowsha": "klVSiGt4aP3vC1YeZAtf1mKab1NGphg5NzCSgRVrBPw=",
+    "originContent": "1. Install [Homebrew](https://brew.sh/).",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. `brew install predatorray/brew/kubectl-tmux-exec`"
+  },
+  {
+    "row": 27,
+    "rowsha": "uwE3nRNGFspO6g7qzcLlqoLeZ6YXQMQTh5USi52ykms=",
+    "originContent": "2. `brew install predatorray/brew/kubectl-tmux-exec`",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "最後に、`/usr/local/bin/kubectl-tmux_exec` があなたの `$PATH` に含まれていることを確認してください。"
+  },
+  {
+    "row": 29,
+    "rowsha": "FwI7G3vY3Q7Q1WQI+gESZdKp9YIkBWMG8ak6ok+lm9I=",
+    "originContent": "Finally, ensure `/usr/local/bin/kubectl-tmux_exec` is in your `$PATH`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Krew"
+  },
+  {
+    "row": 31,
+    "rowsha": "kQHeaD+TMKCTBNL0E+ENQRKbc9UsKPT3rBFtwb7vomA=",
+    "originContent": "### Krew",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> **注意**: Linuxユーザーに推奨されます。  "
+  },
+  {
+    "row": 33,
+    "rowsha": "OBu44rV2BrnJ9y6i5VWoIXnw2Sca706I2aqVinJZyGU=",
+    "originContent": "> **Note**: It is recommended for Linux users.",
+    "translatedContent": ">  "
+  },
+  {
+    "row": 34,
+    "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+    "originContent": "> ",
+    "translatedContent": "> MacとLinuxの両方で動作しますが、Macユーザーには推奨されません。Homebrewを使って依存関係の `gnu-getopt` をインストールする必要があるためです。"
+  },
+  {
+    "row": 35,
+    "rowsha": "xXdBHYQVzwB0km6Cljm1+93UbPp8QnqRlEtzG6opkcg=",
+    "originContent": "> Although it works both on Mac and Linux, it is not recommended for Mac users, since you still may need to install the dependency `gnu-getopt` with the help of Homebrew.",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. [Krew](https://krew.sigs.k8s.io/) を[ユーザーガイド](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)に従ってインストールします。"
+  },
+  {
+    "row": 37,
+    "rowsha": "KqORmNGU/+tstRDCeB9Qxdynm7CTvSjZEPVlcQs/BYk=",
+    "originContent": "1. Install [Krew](https://krew.sigs.k8s.io/) by following [the user guide](https://krew.sigs.k8s.io/docs/user-guide/setup/install/).",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. `kubectl krew install tmux-exec`"
+  },
+  {
+    "row": 39,
+    "rowsha": "GgiAf4YhTY4pdeRBF27+hAaEkFgTjBjGDbAKs6MZvuo=",
+    "originContent": "2. `kubectl krew install tmux-exec`",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. 依存関係をインストールします。([Wiki: 依存関係のインストール方法](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))"
+  },
+  {
+    "row": 41,
+    "rowsha": "tDwMwdyTM5ZVyZKfTCPryhLK0xOh8NiZB88hnRx+U50=",
+    "originContent": "3. Install the dependencies. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 手動インストール"
+  },
+  {
+    "row": 43,
+    "rowsha": "KXSrYIQWk5yT2gE0ZMclnorluxzsdqzUBcBngF0ol40=",
+    "originContent": "### Manually",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. [最新リリース](https://github.com/predatorray/kubectl-tmux-exec/releases/latest) をダウンロードします。"
+  },
+  {
+    "row": 45,
+    "rowsha": "WLKdkYothgg/Wow0aCg2QccymiiPcNypyqZfDIAZZ8Q=",
+    "originContent": "1. Download the [latest release](https://github.com/predatorray/kubectl-tmux-exec/releases/latest).",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. kubectl-tmux-exec-*.tar.gz ファイルを展開し、すべてのファイルを任意のディレクトリ（例: `/usr/local/kubectl-tmux-exec`）にコピーします。"
+  },
+  {
+    "row": 47,
+    "rowsha": "NZWwVV6rnp3YY+BARib7hQxt6G1A7Zh2X1KFD3VJbBk=",
+    "originContent": "2. Unpack the kubectl-tmux-exec-*.tar.gz file and copy all the files to a directory, `/usr/local/kubectl-tmux-exec` for instance.",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. `bin/` ディレクトリを `$PATH` に追加します。例えば、rcファイルに次の行を追加します: `export PATH=\"$PATH:/usr/local/kubectl-tmux-exec/bin\"`。"
+  },
+  {
+    "row": 49,
+    "rowsha": "l35P8/K68Jaq9tzSC2LTnGsH0KFC85BFQQh5fLrw3Fs=",
+    "originContent": "3. Add the `bin/` directory to your `$PATH`. For example, add this line to your rc file: `export PATH=\"$PATH:/usr/local/kubectl-tmux-exec/bin\"`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "4. 依存関係をインストールします。([Wiki: 依存関係のインストール方法](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))"
+  },
+  {
+    "row": 51,
+    "rowsha": "5qCvJJaOpIrvJmrqbXNehYuRyE4aUAocpJOXJ9ECcq4=",
+    "originContent": "4. Install the dependencies. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 53,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`kubectl` ≥ 1.12 ([プラグインサポート]) を使用していることを確認してください。理想的には最新バージョンです。"
+  },
+  {
+    "row": 55,
+    "rowsha": "2qM+/Ls5t48gpQTxqrwqdGQkz9c/2zS3fnz2MymCwHE=",
+    "originContent": "Make sure you have `kubectl` ≥ 1.12 ([plugin support]), ideally latest.",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "それ以外の場合は、スクリプトを直接実行します: `kubectl-tmux_exec [...ARGS]`。"
+  },
+  {
+    "row": 57,
+    "rowsha": "quvFEG7Tee++b9abSxLjK8uRRih99OTysMoaopQutaY=",
+    "originContent": "Otherwise, execute the script directly: `kubectl-tmux_exec [...ARGS]`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "WpJUb/SovT3mIbFcMBXdc92JZv1ieP4Qi7CulH8Br6Y=",
+    "originContent": "Check if the script has been successfully added by:",
+    "translatedContent": "スクリプトが正常に追加されたかどうかを確認するには："
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 62,
+    "rowsha": "xqMrbwGigKI8GG0Gp7g55XC74ZBuEf5tTUstWDpVYzA=",
+    "originContent": "kubectl plugin list",
+    "translatedContent": "kubectl plugin list"
+  },
+  {
+    "row": 63,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "出力は以下のようになります"
+  },
+  {
+    "row": 65,
+    "rowsha": "bhnNJy7KzqK9NtMhb85+E9uHuneNsqI5jRUeqXGCVck=",
+    "originContent": "The output should be like",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "qUYvmp9Aa73LZSIGY0gJ1j5I9EW9X2shlDDkpRp9+Zg=",
+    "originContent": "```txt",
+    "translatedContent": "```txt"
+  },
+  {
+    "row": 68,
+    "rowsha": "ly5JLHieN1pO9E34XOH62y48oYnPhRsoobvfb0TSv1I=",
+    "originContent": "The following compatible plugins are available:",
+    "translatedContent": "The following compatible plugins are available:"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "8TlZJjdgo5dUheZbma+ujQnD0CIPiXOYu1vvDobXm7k=",
+    "originContent": "/usr/local/bin/kubectl-tmux_exec",
+    "translatedContent": "/usr/local/bin/kubectl-tmux_exec"
+  },
+  {
+    "row": 71,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "9YzhRofnXrEx5M3N6ImIoCwt+G2GK7aP+HvLhoTojvU=",
+    "originContent": "If it does not show in the list, check `$PATH` env again.",
+    "translatedContent": "リストに表示されない場合は、再度 `$PATH` 環境変数を確認してください。"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "+CW0QGhUCovgoiXiw3dzWbONJHb0V8/A1gWdMSLKcKA=",
+    "originContent": "You can use the command below to get the usage of the script.",
+    "translatedContent": "以下のコマンドを使用して、スクリプトの使用法を取得できます。"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 78,
+    "rowsha": "YISKSewjmyKwT+FZCwy1atlziqkh1J6NncaTHwEgCUI=",
+    "originContent": "kubectl tmux-exec --help",
+    "translatedContent": "kubectl tmux-exec --help"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "aN479qeMJzSWQMGNYAknGvL7bw4bvOG2puihSc8yoE8=",
+    "originContent": "# or",
+    "translatedContent": "# or"
+  },
+  {
+    "row": 81,
+    "rowsha": "YOxHpQWjf93b0WFvKkny65AY81PfI/OYIkpX0Wa4JcQ=",
+    "originContent": "kubectl-tmux_exec --help",
+    "translatedContent": "kubectl-tmux_exec --help"
+  },
+  {
+    "row": 82,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "zARi/ZPMfKkrJzY5lfnzoHPp1G88Ql/IEjsRKzR0HvI=",
+    "originContent": "### Options",
+    "translatedContent": "### オプション"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "iJLdNd9RIWCCXqZKPVEhy2m08rqhmwOjhptpxIS4Aug=",
+    "originContent": "| Flag                            | Usage                                                                                                                                                       |",
+    "translatedContent": "| フラグ                            | 使用法                                                                                                                                                      |"
+  },
+  {
+    "row": 87,
+    "rowsha": "Le8Khc0PON5hEfI2hljBrakDOM5w6BPc9cgeAC28xsg=",
+    "originContent": "|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|",
+    "translatedContent": "|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|"
+  },
+  {
+    "row": 88,
+    "rowsha": "CTg0xZzV/P9BY2jhzhuLLM8T+ZUbnOHjaIPndBcQIUo=",
+    "originContent": "| `-V`<br>`--version`             | Print the version information                                                                                                                               |",
+    "translatedContent": "| `-V`<br>`--version`             | バージョン情報を表示                                                                                                                                        |"
+  },
+  {
+    "row": 89,
+    "rowsha": "MKL4UvvPo8tFDDp96um3T8ghAhFABn1DANUvbGSHFcA=",
+    "originContent": "| `-l`<br>`--selector`            | Selector (label query) to filter on, supports '=', '==', and '!='.(e.g. -l key1=value1,key2=value2)<br>You must either use `--selector` or `--file` option. |",
+    "translatedContent": "| `-l`<br>`--selector`            | フィルタリングに使うセレクター（ラベルクエリ）、'=', '==', '!='をサポート (例: -l key1=value1,key2=value2)<br> `--selector` または `--file` オプションのいずれかを使用する必要があります。 |"
+  },
+  {
+    "row": 90,
+    "rowsha": "RfqKV49c9e4btthAJVMT1jdVRRo1SEQaJKeVDvJImcg=",
+    "originContent": "| `-f`<br>`--file`                | Read pod names line-by-line from a file.<br>You must either use `--selector` or `--file` option.                                                            |",
+    "translatedContent": "| `-f`<br>`--file`                | ファイルからポッド名を1行ずつ読み込む。<br> `--selector` または `--file` オプションのいずれかを使用する必要があります。                                      |"
+  },
+  {
+    "row": 91,
+    "rowsha": "lrhBLSka/4/GTlzZ6y//dFKXAsu7nAAxYEGAx3SLVkw=",
+    "originContent": "| `-c`<br>`--container`           | Container name. If omitted, the first container in the pod will be chosen                                                                                   |",
+    "translatedContent": "| `-c`<br>`--container`           | コンテナ名。省略した場合はポッド内の最初のコンテナが選択されます                                                                                             |"
+  },
+  {
+    "row": 92,
+    "rowsha": "0NMEXU5E+9K0ZN/2kOM6TeLoY3eHMUHLjWMcgdkXVLY=",
+    "originContent": "| `-i`<br>`--stdin`               | Pass stdin to the container (**deprecated**, since it's enabled by default)                                                                                 |",
+    "translatedContent": "| `-i`<br>`--stdin`               | 標準入力をコンテナに渡す（**非推奨**、デフォルトで有効なため）                                                                                            |"
+  },
+  {
+    "row": 93,
+    "rowsha": "y3plWaLwgJNoJYzTwFgEKt7UaCYPNm2+S2YtMJ+69tQ=",
+    "originContent": "| `-t`<br>`--tty`                 | Stdin is a TTY (**deprecated**, since it's enabled by default)                                                                                              |",
+    "translatedContent": "| `-t`<br>`--tty`                 | 標準入力がTTYになる（**非推奨**、デフォルトで有効なため）                                                                                                   |"
+  },
+  {
+    "row": 94,
+    "rowsha": "fNSo3DUbUq1mCqJ0DxYbBtsuvxZtq8M0FEV/1hRMqwY=",
+    "originContent": "| `-d`<br>`--detach`              | Make the Tmux session detached                                                                                                                              |",
+    "translatedContent": "| `-d`<br>`--detach`              | Tmuxセッションをデタッチ状態で開始                                                                                                                         |"
+  },
+  {
+    "row": 95,
+    "rowsha": "YnpCiUv1/cvEmvADz5BHIsSlTkhrs+SC6dX2JzWn15g=",
+    "originContent": "| `-n`<br>`--namespace=`          | The namespace scope for this CLI request (can be applied multiple times)                                                                                    |",
+    "translatedContent": "| `-n`<br>`--namespace=`          | このCLIリクエストの名前空間スコープ（複数回指定可能）                                                                                                       |"
+  },
+  {
+    "row": 96,
+    "rowsha": "6DC57MTUMtIjqsbRs+i/uAAcjRThqPjcomw3k3oPhcw=",
+    "originContent": "| `--context`                     | The name of the kubeconfig context to use (can be applied multiple times)                                                                                   |",
+    "translatedContent": "| `--context`                     | 使用するkubeconfigコンテキスト名（複数回指定可能）                                                                                                         |"
+  },
+  {
+    "row": 97,
+    "rowsha": "/Kuz8DUCDACF1WuqmWn9KtS4vdqS9PxnhsfyfFs3y8k=",
+    "originContent": "| `-A`<br>`--all-namespaces`      | If present, list and execute the requested object(s) across all namespaces. Namespace in current context is ignored even if specified with --namespace.     |",
+    "translatedContent": "| `-A`<br>`--all-namespaces`      | 指定された場合、すべての名前空間の対象オブジェクトを一覧表示および実行。 `--namespace` 指定があっても現在のコンテキストの名前空間は無視されます。           |"
+  },
+  {
+    "row": 98,
+    "rowsha": "4CMLZQ+brHIOTBU6V4t9L3vkYpq7rVg2FDToPNg9f24=",
+    "originContent": "| `-C`<br>`--enable-control-mode` | Start tmux in control mode and echo is disabled. (See: [iTerm2 Integration](#iterm2-integration))                                                           |",
+    "translatedContent": "| `-C`<br>`--enable-control-mode` | Tmuxをコントロールモードで起動し、エコーを無効にする。（参照：[iTerm2連携](#iterm2-integration)）                                                          |"
+  },
+  {
+    "row": 99,
+    "rowsha": "MOqlUDi2vjrCbTszR5nL/RcPF1PageTcdOMovhxHHzA=",
+    "originContent": "| `--remain-on-exit`              | Remain Tmux window on exit                                                                                                                                  |",
+    "translatedContent": "| `--remain-on-exit`              | 終了後もTmuxウィンドウを残す                                                                                                                               |"
+  },
+  {
+    "row": 100,
+    "rowsha": "D4WG2paujtxSbn79rx3vtGuB3mYew9ItmBjeb5OrQi8=",
+    "originContent": "| `--select-layout`               | One of the five Tmux preset layouts: even-horizontal, even-vertical, main-horizontal, main-vertical, or tiled.                                              |",
+    "translatedContent": "| `--select-layout`               | 5つのTmuxプリセットレイアウトのいずれか: even-horizontal, even-vertical, main-horizontal, main-vertical, tiled。                                         |"
+  },
+  {
+    "row": 101,
+    "rowsha": "MRNjVUmwgF8akD8SB/XMqZGuBbO6+jRRkoE4VZ+T8qQ=",
+    "originContent": "| `--session-mode`                | Where tmux is opened: auto, new-session, current-session                                                                                                    |",
+    "translatedContent": "| `--session-mode`                | Tmuxを開く場所: auto, new-session, current-session                                                                                                         |"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "HxznjpC+qZfFCA9Q1oD1+Az65UStZPMiZ7uLrPREHk8=",
+    "originContent": "The usage of these options is also available by `--help`.",
+    "translatedContent": "これらのオプションの使用法は `--help` でも確認できます。"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "ubVEm05cwr9zkNMJhipJo9vwQDDsclfTaTISW9TgglY=",
+    "originContent": "### Example",
+    "translatedContent": "### 例"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "ANl6dfOzyqqhQ+vdu7ygTp+zC1heeAvUpyshzfh0ejM=",
+    "originContent": "The `tmux-exec` is similar to `exec`, except that it requires label selectors while `exec` requires a pod name.",
+    "translatedContent": "`tmux-exec` は `exec` と似ていますが、`exec` がポッド名を必要とするのに対し、ラベルセレクターを必要とします。"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "yaCWas9oozr2WXxGFKYJygjM7hoNw2KFmZ3iZasY6Tw=",
+    "originContent": "To `bash` into all pod containers that share some common labels, `foo=bar` for instance.",
+    "translatedContent": "共通のラベル、例えば `foo=bar` を持つすべてのポッドのコンテナに `bash` で入るには。"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 112,
+    "rowsha": "x1sTlFD9ZhFWFh/fSAdE/GWky8PyoFJ0iYEemLyuWHk=",
+    "originContent": "kubectl tmux-exec -l foo=bar /bin/bash",
+    "translatedContent": "kubectl tmux-exec -l foo=bar /bin/bash"
+  },
+  {
+    "row": 113,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "3icX0OMiQbmpIVqjkh2pjQKmY0t6Q3KKHFImyvz71uo=",
+    "originContent": "After you have successfully `bash`-ed into your selected containers, a Tmux window is opened actually, where each pane displays the execution result of each pod's container. Your keyboard inputs will be synchronized to all those panes.",
+    "translatedContent": "選択したコンテナに `bash` で正常に入ると、実際には Tmux ウィンドウが開き、各ペインに各ポッドのコンテナの実行結果が表示されます。キーボード入力はすべてのペインに同期されます。"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "hV0fi+SboX81fR56Xq+8cTBafQEkivOj7Kpqn+S5rQc=",
+    "originContent": "If you are not familar with Tmux, you can have a look at tmux's man page or online tutorials. Or you can see the [cheatsheet](#tmux-cheatsheet) below, which will be sufficient I think.",
+    "translatedContent": "Tmux に不慣れな場合は、tmux のマニュアルページやオンラインチュートリアルを参照してください。また、以下の[チートシート](#tmux-cheatsheet)も十分役立つと思います。"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "AMQiCb/MMYDuaufslMxUEkSh9caIT5+IBa+WFjcl2RI=",
+    "originContent": "### iTerm2 Integration",
+    "translatedContent": "### iTerm2 統合"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "AQPH0NEXQ0cTUE2Uyvr6HG33kwseZpO1E/TUXe1wFa4=",
+    "originContent": "With `-C` or `--enable-control-mode`, it runs in control mode and delegates pane input to [iTerm2]'s \"Broadcast Input\" feature,",
+    "translatedContent": "`-C` または `--enable-control-mode` オプションで制御モードで実行し、ペインの入力を [iTerm2] の「Broadcast Input」機能に委譲します。"
+  },
+  {
+    "row": 122,
+    "rowsha": "9kfZNd6r3fEL76Xs9JCKwG2mjOfTXuHs24Fl1lWit6c=",
+    "originContent": "no need for tmux key bindings.",
+    "translatedContent": "tmux のキーバインドは不要です。"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "i4fquK3ZObJNTm7EH04idUHGxV/GXVnmTyWfzZwPoN8=",
+    "originContent": "Use <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>i</kbd> to toggle broadcasting in iTerm2. (`synchronize-panes` will be disabled automatically in this mode.)",
+    "translatedContent": "iTerm2 でのブロードキャスト切り替えは <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>i</kbd> を使用します。（このモードでは `synchronize-panes` は自動的に無効になります。）"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "zI+oIR9vRz2/jZfbDU5Q5mvPw+pBDXNaitJ0FDfs15w=",
+    "originContent": "(see: [tmux Integration](https://iterm2.com/documentation-tmux-integration.html) for more information)",
+    "translatedContent": "（詳細は [tmux Integration](https://iterm2.com/documentation-tmux-integration.html) を参照してください）"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "HnIOopIvW2Nz5C2cohjLyx5EY5qk04S48HcxwuThTt8=",
+    "originContent": "#### Example",
+    "translatedContent": "#### 例"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 131,
+    "rowsha": "LrBU4RzKpajzRxqkeFPuobc4VF8OZoYpODdnVykCRs4=",
+    "originContent": "kubectl tmux-exec -C -l app=nginx /bin/bash",
+    "translatedContent": "kubectl tmux-exec -C -l app=nginx /bin/bash"
+  },
+  {
+    "row": 132,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "UqeNMmOeF9UqeDWMvDHsA7Ult6Y184bEyyH4TsRyDSg=",
+    "originContent": "![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot-iterm2-integration.png?raw=true)",
+    "translatedContent": "![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot-iterm2-integration.png?raw=true)"
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "F+ttunHf06ZaPrOdWVp7rcMl2OZYovpZ3IYIJ0ZD+C0=",
+    "originContent": "### Shell Auto-completion",
+    "translatedContent": "### シェルの自動補完"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "EwtYQZCCxZxZwp3YFoDBUI5A30ISENMQiP1HH2kzWyI=",
+    "originContent": "Please check [this wiki](https://github.com/predatorray/kubectl-tmux-exec/wiki/Shell-Auto-completion) for more information.",
+    "translatedContent": "詳細は[このWiki](https://github.com/predatorray/kubectl-tmux-exec/wiki/Shell-Auto-completion)をご覧ください。"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "rpljwgqNpOA5Q8bc83EdK4ReFNwVzLYA3+t13C7S/nc=",
+    "originContent": "### Tmux Cheatsheet",
+    "translatedContent": "### Tmux チートシート"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "ZS4C3K3GUNC6upL7eLB8/1mBiek9OBVrqr5NTVVJPCQ=",
+    "originContent": "All Tmux command starts with a `PREFIX`. By default the `PREFIX` is <kbd>Ctrl</kbd> + <kbd>b</kbd>. I will use `C-b` below to stand for it.",
+    "translatedContent": "すべてのTmuxコマンドは `PREFIX` で始まります。デフォルトの `PREFIX` は <kbd>Ctrl</kbd> + <kbd>b</kbd> です。以下ではこれを `C-b` と表記します。"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "rIqVS1odCF0gdWAVI0AGkKsfNq6iArvhqPboN3qPO/4=",
+    "originContent": "`C-b d`, detach from the session. After that, the Tmux will be running in the backgroud. You can type `tmux a` to re-attach.",
+    "translatedContent": "`C-b d`、セッションからデタッチします。その後、Tmuxはバックグラウンドで動作しています。`tmux a` と入力して再アタッチできます。"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "uz8VfTPP7uCzGieW3r7WSLLctCQA9WPaiQuHNdVABfU=",
+    "originContent": "`C-b :setw synchronize-panes off`, turn off synchronizing inputs to all panes.",
+    "translatedContent": "`C-b :setw synchronize-panes off`、すべてのペインへの入力同期をオフにします。"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "NBkLMdNHgn4nk9blJOPLA2abxZa7zlmryQnV/Q8RCi0=",
+    "originContent": "`C-b :setw synchronize-panes on`, turn on synchronizing inputs to all panes.",
+    "translatedContent": "`C-b :setw synchronize-panes on`、すべてのペインへの入力同期をオンにします。"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "Y6PEyQLQjb+edpRoPlg5euUQ29fswx2nvoMFBRO5ZAU=",
+    "originContent": "`C-b <ARROW-KEY>`, move cursor between panes.",
+    "translatedContent": "`C-b <ARROW-KEY>`、ペイン間でカーソルを移動します。"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "7TUzNgr997FfP9KHTkm69IDls9bhJqf2mg11rYY+1Y4=",
+    "originContent": "`C-b xy`, close the current pane.",
+    "translatedContent": "`C-b xy`、現在のペインを閉じます。"
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "ExddxRpA8eqv8mJR5anU3iyVjC7AL/xWOk/fzHDM1yg=",
+    "originContent": "`C-b &y`, close the window including all panes.",
+    "translatedContent": "`C-b &y`、すべてのペインを含むウィンドウを閉じます。"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "QU5m9onHlLoCxHsrRnis4/0DqXNCRgiWY5wdTp+I6pk=",
+    "originContent": "## Community & Support",
+    "translatedContent": "## コミュニティとサポート"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "SggAqwxpcjwloXj0jxvQd1a6VQocNB5MI/9YTeKwQzk=",
+    "originContent": "- File issues or feature requests via [GitHub Issues]((https://github.com/predatorray/kubectl-tmux-exec/issues/new))",
+    "translatedContent": "- [GitHub Issues]((https://github.com/predatorray/kubectl-tmux-exec/issues/new)) を通じて問題報告や機能リクエストを行えます。"
+  },
+  {
+    "row": 159,
+    "rowsha": "zzHDXAtpDwyuTHg2n6jQZ7529NaxxAuQRbkK9n6JWG0=",
+    "originContent": "- Join the [Google Group](https://groups.google.com/g/kubectl-tmux-exec) for discussions",
+    "translatedContent": "- 議論のために [Googleグループ](https://groups.google.com/g/kubectl-tmux-exec) に参加してください。"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "PEpVwy08WkMn8QPUlnbmhIrT2aZka3gzD3OF48K6wSs=",
+    "originContent": "## Other plugins",
+    "translatedContent": "## その他のプラグイン"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "ijjIr76OblQBOGH/kHC/46MHjXM8lhkcm/9+aYJaYg0=",
+    "originContent": "[kubectl-alias](https://github.com/predatorray/kubectl-alias): the missing alias command for kubectl.",
+    "translatedContent": "[kubectl-alias](https://github.com/predatorray/kubectl-alias): kubectlのための欠けていたエイリアスコマンド。"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "Vm8vd33BZVkkwJGm0H6557aU5V8+Zb/eS4NUaNiStBg=",
+    "originContent": "## Buy Me a Coffee",
+    "translatedContent": "## コーヒーをおごってください"
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "Lm2HzmCloeCVc5hhegUSrCx9Y8ngC6/TKhwtL8vP8NA=",
+    "originContent": "If it saves you time, feel free to [buy me a coffee] 🙌",
+    "translatedContent": "時間の節約になったら、どうぞ[コーヒーをおごってください] 🙌"
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "qnavRGDC+rqmIrCb8ovOfzgOFbEc+YQbWFPca0mhEKo=",
+    "originContent": "[![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)][buy me a coffee]",
+    "translatedContent": "[![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)][buy me a coffee]"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "A++XR4ilYlLzmphjLT9Kb4PNVQoKZ6XcnX2p0r0LyoY=",
+    "originContent": "[buy me a coffee]: https://buymeacoffee.com/predatorray",
+    "translatedContent": "[buy me a coffee]: https://buymeacoffee.com/predatorray"
+  },
+  {
+    "row": 172,
+    "rowsha": "kRezdE7GQmnCqW/0eoFfIOX8qAPtF4egCrnb0Cp57sE=",
+    "originContent": "[iTerm2]: https://iterm2.com/index.html",
+    "translatedContent": "[iTerm2]: https://iterm2.com/index.html"
+  },
+  {
+    "row": 173,
+    "rowsha": "VQvPZ+3F/0GAkvbUkyuSqoJ9sbJfVBAIMOK8ngVRWAk=",
+    "originContent": "[plugin support]: https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/",
+    "translatedContent": "[プラグインサポート]: https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/"
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

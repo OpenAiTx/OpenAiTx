@@ -1,0 +1,1241 @@
+[
+  {
+    "Id": 1,
+    "Content": "# kubectl-tmux-exec\n\n![GitHub release version](https://img.shields.io/github/v/release/predatorray/kubectl-tmux-exec)\n![License](https://img.shields.io/github/license/predatorray/kubectl-tmux-exec)\n![Build Status](https://img.shields.io/github/actions/workflow/status/predatorray/kubectl-tmux-exec/ci.yml?branch=master)\n![GitHub all releases](https://img.shields.io/github/downloads/predatorray/kubectl-tmux-exec/total)\n\nA **kubectl** plugin for executing commands interactively across multiple pods or containers using [**tmux**](https://github.com/tmux/tmux),\nlike `csshX` or `pssh` but for **Kubernetes**.\n\n![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot.png?raw=true)\n\nTo execute command across all the Nginx containers using `bash` for example, run:\n",
+    "ContentSha": "KlEKoNzfxsUpQqAQQpQtwdiHnwrwJ9QO8mEYqx7iNd4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# kubectl-tmux-exec\n\n![GitHub release version](https://img.shields.io/github/v/release/predatorray/kubectl-tmux-exec)\n![License](https://img.shields.io/github/license/predatorray/kubectl-tmux-exec)\n![Build Status](https://img.shields.io/github/actions/workflow/status/predatorray/kubectl-tmux-exec/ci.yml?branch=master)\n![GitHub all releases](https://img.shields.io/github/downloads/predatorray/kubectl-tmux-exec/total)\n\nA **kubectl** plugin for executing commands interactively across multiple pods or containers using [**tmux**](https://github.com/tmux/tmux),\nlike `csshX` or `pssh` but for **Kubernetes**.\n\n![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot.png?raw=true)\n\nTo execute command across all the Nginx containers using `bash` for example, run:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CxjUmOFXWTK+TsUT1hrfmDLKL0z+9vf4hcVpiR90gHc=",
+        "originContent": "# kubectl-tmux-exec",
+        "translatedContent": "# kubectl-tmux-exec"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "jO7Cn51sH2PjfI3LkIZUuqLP1n1OfheIcnGsCe8v5rI=",
+        "originContent": "![GitHub release version](https://img.shields.io/github/v/release/predatorray/kubectl-tmux-exec)",
+        "translatedContent": "![GitHub release version](https://img.shields.io/github/v/release/predatorray/kubectl-tmux-exec)"
+      },
+      {
+        "row": 4,
+        "rowsha": "mdbVEYmT5l3ZyFjuujmUPOknmwk8biFiJuMiSYFwfek=",
+        "originContent": "![License](https://img.shields.io/github/license/predatorray/kubectl-tmux-exec)",
+        "translatedContent": "![License](https://img.shields.io/github/license/predatorray/kubectl-tmux-exec)"
+      },
+      {
+        "row": 5,
+        "rowsha": "m8XyUJ1IDUrAA25aOjLW2zCEFE2d9IkEJ1lDwLjecRw=",
+        "originContent": "![Build Status](https://img.shields.io/github/actions/workflow/status/predatorray/kubectl-tmux-exec/ci.yml?branch=master)",
+        "translatedContent": "![Build Status](https://img.shields.io/github/actions/workflow/status/predatorray/kubectl-tmux-exec/ci.yml?branch=master)"
+      },
+      {
+        "row": 6,
+        "rowsha": "Cuf7TPp5MlWtMoSX3GqquP44c/+uVgMp8kjzrSk9wLI=",
+        "originContent": "![GitHub all releases](https://img.shields.io/github/downloads/predatorray/kubectl-tmux-exec/total)",
+        "translatedContent": "![GitHub all releases](https://img.shields.io/github/downloads/predatorray/kubectl-tmux-exec/total)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Ua7iL4XU4ANowLccqg8X9YhhUGd4+nojvnlircdYTxM=",
+        "originContent": "A **kubectl** plugin for executing commands interactively across multiple pods or containers using [**tmux**](https://github.com/tmux/tmux),",
+        "translatedContent": "A **kubectl** plugin for executing commands interactively across multiple pods or containers using [**tmux**](https://github.com/tmux/tmux),"
+      },
+      {
+        "row": 9,
+        "rowsha": "r/Qe9/68itQ+GRLcbt+8mwDCiLoE8/ur8uDsdgZjL/Q=",
+        "originContent": "like `csshX` or `pssh` but for **Kubernetes**.",
+        "translatedContent": "like `csshX` or `pssh` but for **Kubernetes**."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "n5K7l2jwnJt6kizshXmnKgURHWsmIjcweNt6qiEbsHk=",
+        "originContent": "![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot.png?raw=true)",
+        "translatedContent": "![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot.png?raw=true)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Ma6C1KoexQMbwL2kUMESG0UF5xyhr5YmdgeU9ZYUSOc=",
+        "originContent": "To execute command across all the Nginx containers using `bash` for example, run:",
+        "translatedContent": "To execute command across all the Nginx containers using `bash` for example, run:"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\nkubectl tmux-exec -l app=nginx /bin/bash\n```",
+    "ContentSha": "3AVn8KeoFjJUk0rjBhtJBt4iK4t0PPsYqyA69vMVFW0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nkubectl tmux-exec -l app=nginx /bin/bash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "642W7ugQkefNHnBOILknbnzrWSzHEzGzKUj9OKpus1E=",
+        "originContent": "kubectl tmux-exec -l app=nginx /bin/bash",
+        "translatedContent": "kubectl tmux-exec -l app=nginx /bin/bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Installation \n\n### Homebrew\n\n> **Note**: This is for Mac users only.\n\n1. Install [Homebrew](https://brew.sh/).\n\n2. `brew install predatorray/brew/kubectl-tmux-exec`\n\nFinally, ensure `/usr/local/bin/kubectl-tmux_exec` is in your `$PATH`.\n\n### Krew\n\n> **Note**: It is recommended for Linux users.\n> \n> Although it works both on Mac and Linux, it is not recommended for Mac users, since you still may need to install the dependency `gnu-getopt` with the help of Homebrew.\n\n1. Install [Krew](https://krew.sigs.k8s.io/) by following [the user guide](https://krew.sigs.k8s.io/docs/user-guide/setup/install/).\n\n2. `kubectl krew install tmux-exec`\n\n3. Install the dependencies. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))\n\n### Manually\n\n1. Download the [latest release](https://github.com/predatorray/kubectl-tmux-exec/releases/latest).\n\n2. Unpack the kubectl-tmux-exec-*.tar.gz file and copy all the files to a directory, `/usr/local/kubectl-tmux-exec` for instance.\n\n3. Add the `bin/` directory to your `$PATH`. For example, add this line to your rc file: `export PATH=\"$PATH:/usr/local/kubectl-tmux-exec/bin\"`.\n\n4. Install the dependencies. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))\n\n## Usage\n\nMake sure you have `kubectl` ≥ 1.12 ([plugin support]), ideally latest.\n\nOtherwise, execute the script directly: `kubectl-tmux_exec [...ARGS]`.",
+    "ContentSha": "KSTAhDlXrN6MKGQDIhbI/1z+hraIhe+aI/8/NTFMHJo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Instalación \n\n### Homebrew\n\n> **Nota**: Esto es solo para usuarios de Mac.\n\n1. Instale [Homebrew](https://brew.sh/).\n\n2. `brew install predatorray/brew/kubectl-tmux-exec`\n\nFinalmente, asegúrese de que `/usr/local/bin/kubectl-tmux_exec` esté en su `$PATH`.\n\n### Krew\n\n> **Nota**: Se recomienda para usuarios de Linux.\n> \n> Aunque funciona tanto en Mac como en Linux, no se recomienda para usuarios de Mac, ya que aún puede ser necesario instalar la dependencia `gnu-getopt` con la ayuda de Homebrew.\n\n1. Instale [Krew](https://krew.sigs.k8s.io/) siguiendo [la guía del usuario](https://krew.sigs.k8s.io/docs/user-guide/setup/install/).\n\n2. `kubectl krew install tmux-exec`\n\n3. Instale las dependencias. ([Wiki: Cómo-instalar-dependencias](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))\n\n### Manualmente\n\n1. Descargue la [última versión](https://github.com/predatorray/kubectl-tmux-exec/releases/latest).\n\n2. Descomprima el archivo kubectl-tmux-exec-*.tar.gz y copie todos los archivos a un directorio, por ejemplo, `/usr/local/kubectl-tmux-exec`.\n\n3. Añada el directorio `bin/` a su `$PATH`. Por ejemplo, agregue esta línea a su archivo rc: `export PATH=\"$PATH:/usr/local/kubectl-tmux-exec/bin\"`.\n\n4. Instale las dependencias. ([Wiki: Cómo-instalar-dependencias](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))\n\n## Uso\n\nAsegúrese de tener `kubectl` ≥ 1.12 ([soporte para plugins]), idealmente la última versión.\n\nDe lo contrario, ejecute el script directamente: `kubectl-tmux_exec [...ARGS]`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Instalación "
+      },
+      {
+        "row": 2,
+        "rowsha": "w/sOSljJFsAyK3/wadk1EveZ2w4MhzbYL5xF10yFHU0=",
+        "originContent": "## Installation ",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Homebrew"
+      },
+      {
+        "row": 4,
+        "rowsha": "pJlSFMY1jGJADW+jSPOP44zVg6xycRgOWJvwy6vyA7w=",
+        "originContent": "### Homebrew",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **Nota**: Esto es solo para usuarios de Mac."
+      },
+      {
+        "row": 6,
+        "rowsha": "iyIMmH8FaRi4zFITH4zCMao8wfBH+n4iMYGdpiwaBYQ=",
+        "originContent": "> **Note**: This is for Mac users only.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Instale [Homebrew](https://brew.sh/)."
+      },
+      {
+        "row": 8,
+        "rowsha": "klVSiGt4aP3vC1YeZAtf1mKab1NGphg5NzCSgRVrBPw=",
+        "originContent": "1. Install [Homebrew](https://brew.sh/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. `brew install predatorray/brew/kubectl-tmux-exec`"
+      },
+      {
+        "row": 10,
+        "rowsha": "uwE3nRNGFspO6g7qzcLlqoLeZ6YXQMQTh5USi52ykms=",
+        "originContent": "2. `brew install predatorray/brew/kubectl-tmux-exec`",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Finalmente, asegúrese de que `/usr/local/bin/kubectl-tmux_exec` esté en su `$PATH`."
+      },
+      {
+        "row": 12,
+        "rowsha": "FwI7G3vY3Q7Q1WQI+gESZdKp9YIkBWMG8ak6ok+lm9I=",
+        "originContent": "Finally, ensure `/usr/local/bin/kubectl-tmux_exec` is in your `$PATH`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Krew"
+      },
+      {
+        "row": 14,
+        "rowsha": "kQHeaD+TMKCTBNL0E+ENQRKbc9UsKPT3rBFtwb7vomA=",
+        "originContent": "### Krew",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **Nota**: Se recomienda para usuarios de Linux."
+      },
+      {
+        "row": 16,
+        "rowsha": "OBu44rV2BrnJ9y6i5VWoIXnw2Sca706I2aqVinJZyGU=",
+        "originContent": "> **Note**: It is recommended for Linux users.",
+        "translatedContent": "> "
+      },
+      {
+        "row": 17,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> Aunque funciona tanto en Mac como en Linux, no se recomienda para usuarios de Mac, ya que aún puede ser necesario instalar la dependencia `gnu-getopt` con la ayuda de Homebrew."
+      },
+      {
+        "row": 18,
+        "rowsha": "xXdBHYQVzwB0km6Cljm1+93UbPp8QnqRlEtzG6opkcg=",
+        "originContent": "> Although it works both on Mac and Linux, it is not recommended for Mac users, since you still may need to install the dependency `gnu-getopt` with the help of Homebrew.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Instale [Krew](https://krew.sigs.k8s.io/) siguiendo [la guía del usuario](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)."
+      },
+      {
+        "row": 20,
+        "rowsha": "KqORmNGU/+tstRDCeB9Qxdynm7CTvSjZEPVlcQs/BYk=",
+        "originContent": "1. Install [Krew](https://krew.sigs.k8s.io/) by following [the user guide](https://krew.sigs.k8s.io/docs/user-guide/setup/install/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. `kubectl krew install tmux-exec`"
+      },
+      {
+        "row": 22,
+        "rowsha": "GgiAf4YhTY4pdeRBF27+hAaEkFgTjBjGDbAKs6MZvuo=",
+        "originContent": "2. `kubectl krew install tmux-exec`",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Instale las dependencias. ([Wiki: Cómo-instalar-dependencias](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))"
+      },
+      {
+        "row": 24,
+        "rowsha": "tDwMwdyTM5ZVyZKfTCPryhLK0xOh8NiZB88hnRx+U50=",
+        "originContent": "3. Install the dependencies. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Manualmente"
+      },
+      {
+        "row": 26,
+        "rowsha": "KXSrYIQWk5yT2gE0ZMclnorluxzsdqzUBcBngF0ol40=",
+        "originContent": "### Manually",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Descargue la [última versión](https://github.com/predatorray/kubectl-tmux-exec/releases/latest)."
+      },
+      {
+        "row": 28,
+        "rowsha": "WLKdkYothgg/Wow0aCg2QccymiiPcNypyqZfDIAZZ8Q=",
+        "originContent": "1. Download the [latest release](https://github.com/predatorray/kubectl-tmux-exec/releases/latest).",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Descomprima el archivo kubectl-tmux-exec-*.tar.gz y copie todos los archivos a un directorio, por ejemplo, `/usr/local/kubectl-tmux-exec`."
+      },
+      {
+        "row": 30,
+        "rowsha": "NZWwVV6rnp3YY+BARib7hQxt6G1A7Zh2X1KFD3VJbBk=",
+        "originContent": "2. Unpack the kubectl-tmux-exec-*.tar.gz file and copy all the files to a directory, `/usr/local/kubectl-tmux-exec` for instance.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Añada el directorio `bin/` a su `$PATH`. Por ejemplo, agregue esta línea a su archivo rc: `export PATH=\"$PATH:/usr/local/kubectl-tmux-exec/bin\"`."
+      },
+      {
+        "row": 32,
+        "rowsha": "l35P8/K68Jaq9tzSC2LTnGsH0KFC85BFQQh5fLrw3Fs=",
+        "originContent": "3. Add the `bin/` directory to your `$PATH`. For example, add this line to your rc file: `export PATH=\"$PATH:/usr/local/kubectl-tmux-exec/bin\"`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. Instale las dependencias. ([Wiki: Cómo-instalar-dependencias](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))"
+      },
+      {
+        "row": 34,
+        "rowsha": "5qCvJJaOpIrvJmrqbXNehYuRyE4aUAocpJOXJ9ECcq4=",
+        "originContent": "4. Install the dependencies. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Uso"
+      },
+      {
+        "row": 36,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Asegúrese de tener `kubectl` ≥ 1.12 ([soporte para plugins]), idealmente la última versión."
+      },
+      {
+        "row": 38,
+        "rowsha": "2qM+/Ls5t48gpQTxqrwqdGQkz9c/2zS3fnz2MymCwHE=",
+        "originContent": "Make sure you have `kubectl` ≥ 1.12 ([plugin support]), ideally latest.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "De lo contrario, ejecute el script directamente: `kubectl-tmux_exec [...ARGS]`."
+      },
+      {
+        "row": 40,
+        "rowsha": "quvFEG7Tee++b9abSxLjK8uRRih99OTysMoaopQutaY=",
+        "originContent": "Otherwise, execute the script directly: `kubectl-tmux_exec [...ARGS]`.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "\nCheck if the script has been successfully added by:\n",
+    "ContentSha": "8CDMAUxWMTka744El9z/qiWzmzqxzBzrBdiGaFq4uZU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nVerifique si el script se ha agregado con éxito mediante:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WpJUb/SovT3mIbFcMBXdc92JZv1ieP4Qi7CulH8Br6Y=",
+        "originContent": "Check if the script has been successfully added by:",
+        "translatedContent": "Verifique si el script se ha agregado con éxito mediante:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```sh\nkubectl plugin list\n```",
+    "ContentSha": "AB+IV1ctOXC1Uq1aSwXPu2fnTwNYU0zZCLJhcWwcG1U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nkubectl plugin list\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "xqMrbwGigKI8GG0Gp7g55XC74ZBuEf5tTUstWDpVYzA=",
+        "originContent": "kubectl plugin list",
+        "translatedContent": "kubectl plugin list"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nThe output should be like\n",
+    "ContentSha": "E7FCbrUX2Ldh27Egps/VqSmPYknF0W09uzYn8qVJLks=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "La salida debería ser así\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "La salida debería ser así"
+      },
+      {
+        "row": 2,
+        "rowsha": "bhnNJy7KzqK9NtMhb85+E9uHuneNsqI5jRUeqXGCVck=",
+        "originContent": "The output should be like",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```txt\nThe following compatible plugins are available:\n\n/usr/local/bin/kubectl-tmux_exec\n```",
+    "ContentSha": "tFNi+jMIa9CjxX3/KLp9I44BB1dWilF0o4TPCSXb6jM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```txt\nThe following compatible plugins are available:\n\n/usr/local/bin/kubectl-tmux_exec\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qUYvmp9Aa73LZSIGY0gJ1j5I9EW9X2shlDDkpRp9+Zg=",
+        "originContent": "```txt",
+        "translatedContent": "```txt"
+      },
+      {
+        "row": 2,
+        "rowsha": "ly5JLHieN1pO9E34XOH62y48oYnPhRsoobvfb0TSv1I=",
+        "originContent": "The following compatible plugins are available:",
+        "translatedContent": "The following compatible plugins are available:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8TlZJjdgo5dUheZbma+ujQnD0CIPiXOYu1vvDobXm7k=",
+        "originContent": "/usr/local/bin/kubectl-tmux_exec",
+        "translatedContent": "/usr/local/bin/kubectl-tmux_exec"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\nIf it does not show in the list, check `$PATH` env again.\n\nYou can use the command below to get the usage of the script.\n",
+    "ContentSha": "9hFAEC4OXeH0IcFkrGFCIHC6rdQ3r6QaSXclnWiZzO4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSi no aparece en la lista, verifica nuevamente la variable de entorno `$PATH`.\n\nPuedes usar el siguiente comando para obtener el uso del script.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9YzhRofnXrEx5M3N6ImIoCwt+G2GK7aP+HvLhoTojvU=",
+        "originContent": "If it does not show in the list, check `$PATH` env again.",
+        "translatedContent": "Si no aparece en la lista, verifica nuevamente la variable de entorno `$PATH`."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+CW0QGhUCovgoiXiw3dzWbONJHb0V8/A1gWdMSLKcKA=",
+        "originContent": "You can use the command below to get the usage of the script.",
+        "translatedContent": "Puedes usar el siguiente comando para obtener el uso del script."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```sh\nkubectl tmux-exec --help\n\n# or\nkubectl-tmux_exec --help\n```",
+    "ContentSha": "6i9Ho16E/988oKk9tlrGSyBC6vCLbOCH8lTGnkufyNU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nkubectl tmux-exec --help\n\n# or\nkubectl-tmux_exec --help\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "YISKSewjmyKwT+FZCwy1atlziqkh1J6NncaTHwEgCUI=",
+        "originContent": "kubectl tmux-exec --help",
+        "translatedContent": "kubectl tmux-exec --help"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "aN479qeMJzSWQMGNYAknGvL7bw4bvOG2puihSc8yoE8=",
+        "originContent": "# or",
+        "translatedContent": "# or"
+      },
+      {
+        "row": 5,
+        "rowsha": "YOxHpQWjf93b0WFvKkny65AY81PfI/OYIkpX0Wa4JcQ=",
+        "originContent": "kubectl-tmux_exec --help",
+        "translatedContent": "kubectl-tmux_exec --help"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n### Options\n\n| Flag                            | Usage                                                                                                                                                       |\n|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| `-V`<br>`--version`             | Print the version information                                                                                                                               |\n| `-l`<br>`--selector`            | Selector (label query) to filter on, supports '=', '==', and '!='.(e.g. -l key1=value1,key2=value2)<br>You must either use `--selector` or `--file` option. |\n| `-f`<br>`--file`                | Read pod names line-by-line from a file.<br>You must either use `--selector` or `--file` option.                                                            |\n| `-c`<br>`--container`           | Container name. If omitted, the first container in the pod will be chosen                                                                                   |\n| `-i`<br>`--stdin`               | Pass stdin to the container (**deprecated**, since it's enabled by default)                                                                                 |\n| `-t`<br>`--tty`                 | Stdin is a TTY (**deprecated**, since it's enabled by default)                                                                                              |\n| `-d`<br>`--detach`              | Make the Tmux session detached                                                                                                                              |\n| `-n`<br>`--namespace=`          | The namespace scope for this CLI request (can be applied multiple times)                                                                                    |\n| `--context`                     | The name of the kubeconfig context to use (can be applied multiple times)                                                                                   |\n| `-A`<br>`--all-namespaces`      | If present, list and execute the requested object(s) across all namespaces. Namespace in current context is ignored even if specified with --namespace.     |\n| `-C`<br>`--enable-control-mode` | Start tmux in control mode and echo is disabled. (See: [iTerm2 Integration](#iterm2-integration))                                                           |\n| `--remain-on-exit`              | Remain Tmux window on exit                                                                                                                                  |\n| `--select-layout`               | One of the five Tmux preset layouts: even-horizontal, even-vertical, main-horizontal, main-vertical, or tiled.                                              |\n| `--session-mode`                | Where tmux is opened: auto, new-session, current-session                                                                                                    |\n\nThe usage of these options is also available by `--help`.\n\n### Example\n\nThe `tmux-exec` is similar to `exec`, except that it requires label selectors while `exec` requires a pod name.\n\nTo `bash` into all pod containers that share some common labels, `foo=bar` for instance.\n",
+    "ContentSha": "jGhUpLVwP4CaOIyeTehsKV2iJLekP4eGZKD5zcTfgV0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Opciones\n\n| Bandera                         | Uso                                                                                                                                                           |\n|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| `-V`<br>`--version`             | Imprimir la información de la versión                                                                                                                        |\n| `-l`<br>`--selector`            | Selector (consulta de etiquetas) para filtrar, soporta '=', '==', y '!='.(ej. -l key1=value1,key2=value2)<br>Debe usar la opción `--selector` o `--file`.     |\n| `-f`<br>`--file`                | Leer nombres de pods línea por línea desde un archivo.<br>Debe usar la opción `--selector` o `--file`.                                                        |\n| `-c`<br>`--container`           | Nombre del contenedor. Si se omite, se elegirá el primer contenedor en el pod                                                                                 |\n| `-i`<br>`--stdin`               | Pasar stdin al contenedor (**obsoleto**, ya que está habilitado por defecto)                                                                                   |\n| `-t`<br>`--tty`                 | Stdin es un TTY (**obsoleto**, ya que está habilitado por defecto)                                                                                            |\n| `-d`<br>`--detach`              | Hacer que la sesión de Tmux esté separada                                                                                                                    |\n| `-n`<br>`--namespace=`          | El ámbito del namespace para esta solicitud CLI (puede aplicarse varias veces)                                                                                |\n| `--context`                     | El nombre del contexto kubeconfig a usar (puede aplicarse varias veces)                                                                                       |\n| `-A`<br>`--all-namespaces`      | Si está presente, lista y ejecuta el/los objeto(s) solicitado(s) en todos los namespaces. El namespace en el contexto actual se ignora incluso si se especifica con --namespace. |\n| `-C`<br>`--enable-control-mode` | Iniciar tmux en modo control y el eco está deshabilitado. (Ver: [Integración iTerm2](#iterm2-integration))                                                    |\n| `--remain-on-exit`              | Mantener la ventana de Tmux al salir                                                                                                                         |\n| `--select-layout`               | Uno de los cinco layouts predefinidos de Tmux: even-horizontal, even-vertical, main-horizontal, main-vertical, o tiled.                                     |\n| `--session-mode`                | Dónde se abre tmux: auto, new-session, current-session                                                                                                        |\n\nEl uso de estas opciones también está disponible con `--help`.\n\n### Ejemplo\n\nEl `tmux-exec` es similar a `exec`, excepto que requiere selectores de etiquetas mientras que `exec` requiere un nombre de pod.\n\nPara entrar en bash en todos los contenedores de pods que comparten algunas etiquetas comunes, por ejemplo, `foo=bar`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "zARi/ZPMfKkrJzY5lfnzoHPp1G88Ql/IEjsRKzR0HvI=",
+        "originContent": "### Options",
+        "translatedContent": "### Opciones"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "iJLdNd9RIWCCXqZKPVEhy2m08rqhmwOjhptpxIS4Aug=",
+        "originContent": "| Flag                            | Usage                                                                                                                                                       |",
+        "translatedContent": "| Bandera                         | Uso                                                                                                                                                           |"
+      },
+      {
+        "row": 5,
+        "rowsha": "Le8Khc0PON5hEfI2hljBrakDOM5w6BPc9cgeAC28xsg=",
+        "originContent": "|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|",
+        "translatedContent": "|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|"
+      },
+      {
+        "row": 6,
+        "rowsha": "CTg0xZzV/P9BY2jhzhuLLM8T+ZUbnOHjaIPndBcQIUo=",
+        "originContent": "| `-V`<br>`--version`             | Print the version information                                                                                                                               |",
+        "translatedContent": "| `-V`<br>`--version`             | Imprimir la información de la versión                                                                                                                        |"
+      },
+      {
+        "row": 7,
+        "rowsha": "MKL4UvvPo8tFDDp96um3T8ghAhFABn1DANUvbGSHFcA=",
+        "originContent": "| `-l`<br>`--selector`            | Selector (label query) to filter on, supports '=', '==', and '!='.(e.g. -l key1=value1,key2=value2)<br>You must either use `--selector` or `--file` option. |",
+        "translatedContent": "| `-l`<br>`--selector`            | Selector (consulta de etiquetas) para filtrar, soporta '=', '==', y '!='.(ej. -l key1=value1,key2=value2)<br>Debe usar la opción `--selector` o `--file`.     |"
+      },
+      {
+        "row": 8,
+        "rowsha": "RfqKV49c9e4btthAJVMT1jdVRRo1SEQaJKeVDvJImcg=",
+        "originContent": "| `-f`<br>`--file`                | Read pod names line-by-line from a file.<br>You must either use `--selector` or `--file` option.                                                            |",
+        "translatedContent": "| `-f`<br>`--file`                | Leer nombres de pods línea por línea desde un archivo.<br>Debe usar la opción `--selector` o `--file`.                                                        |"
+      },
+      {
+        "row": 9,
+        "rowsha": "lrhBLSka/4/GTlzZ6y//dFKXAsu7nAAxYEGAx3SLVkw=",
+        "originContent": "| `-c`<br>`--container`           | Container name. If omitted, the first container in the pod will be chosen                                                                                   |",
+        "translatedContent": "| `-c`<br>`--container`           | Nombre del contenedor. Si se omite, se elegirá el primer contenedor en el pod                                                                                 |"
+      },
+      {
+        "row": 10,
+        "rowsha": "0NMEXU5E+9K0ZN/2kOM6TeLoY3eHMUHLjWMcgdkXVLY=",
+        "originContent": "| `-i`<br>`--stdin`               | Pass stdin to the container (**deprecated**, since it's enabled by default)                                                                                 |",
+        "translatedContent": "| `-i`<br>`--stdin`               | Pasar stdin al contenedor (**obsoleto**, ya que está habilitado por defecto)                                                                                   |"
+      },
+      {
+        "row": 11,
+        "rowsha": "y3plWaLwgJNoJYzTwFgEKt7UaCYPNm2+S2YtMJ+69tQ=",
+        "originContent": "| `-t`<br>`--tty`                 | Stdin is a TTY (**deprecated**, since it's enabled by default)                                                                                              |",
+        "translatedContent": "| `-t`<br>`--tty`                 | Stdin es un TTY (**obsoleto**, ya que está habilitado por defecto)                                                                                            |"
+      },
+      {
+        "row": 12,
+        "rowsha": "fNSo3DUbUq1mCqJ0DxYbBtsuvxZtq8M0FEV/1hRMqwY=",
+        "originContent": "| `-d`<br>`--detach`              | Make the Tmux session detached                                                                                                                              |",
+        "translatedContent": "| `-d`<br>`--detach`              | Hacer que la sesión de Tmux esté separada                                                                                                                    |"
+      },
+      {
+        "row": 13,
+        "rowsha": "YnpCiUv1/cvEmvADz5BHIsSlTkhrs+SC6dX2JzWn15g=",
+        "originContent": "| `-n`<br>`--namespace=`          | The namespace scope for this CLI request (can be applied multiple times)                                                                                    |",
+        "translatedContent": "| `-n`<br>`--namespace=`          | El ámbito del namespace para esta solicitud CLI (puede aplicarse varias veces)                                                                                |"
+      },
+      {
+        "row": 14,
+        "rowsha": "6DC57MTUMtIjqsbRs+i/uAAcjRThqPjcomw3k3oPhcw=",
+        "originContent": "| `--context`                     | The name of the kubeconfig context to use (can be applied multiple times)                                                                                   |",
+        "translatedContent": "| `--context`                     | El nombre del contexto kubeconfig a usar (puede aplicarse varias veces)                                                                                       |"
+      },
+      {
+        "row": 15,
+        "rowsha": "/Kuz8DUCDACF1WuqmWn9KtS4vdqS9PxnhsfyfFs3y8k=",
+        "originContent": "| `-A`<br>`--all-namespaces`      | If present, list and execute the requested object(s) across all namespaces. Namespace in current context is ignored even if specified with --namespace.     |",
+        "translatedContent": "| `-A`<br>`--all-namespaces`      | Si está presente, lista y ejecuta el/los objeto(s) solicitado(s) en todos los namespaces. El namespace en el contexto actual se ignora incluso si se especifica con --namespace. |"
+      },
+      {
+        "row": 16,
+        "rowsha": "4CMLZQ+brHIOTBU6V4t9L3vkYpq7rVg2FDToPNg9f24=",
+        "originContent": "| `-C`<br>`--enable-control-mode` | Start tmux in control mode and echo is disabled. (See: [iTerm2 Integration](#iterm2-integration))                                                           |",
+        "translatedContent": "| `-C`<br>`--enable-control-mode` | Iniciar tmux en modo control y el eco está deshabilitado. (Ver: [Integración iTerm2](#iterm2-integration))                                                    |"
+      },
+      {
+        "row": 17,
+        "rowsha": "MOqlUDi2vjrCbTszR5nL/RcPF1PageTcdOMovhxHHzA=",
+        "originContent": "| `--remain-on-exit`              | Remain Tmux window on exit                                                                                                                                  |",
+        "translatedContent": "| `--remain-on-exit`              | Mantener la ventana de Tmux al salir                                                                                                                         |"
+      },
+      {
+        "row": 18,
+        "rowsha": "D4WG2paujtxSbn79rx3vtGuB3mYew9ItmBjeb5OrQi8=",
+        "originContent": "| `--select-layout`               | One of the five Tmux preset layouts: even-horizontal, even-vertical, main-horizontal, main-vertical, or tiled.                                              |",
+        "translatedContent": "| `--select-layout`               | Uno de los cinco layouts predefinidos de Tmux: even-horizontal, even-vertical, main-horizontal, main-vertical, o tiled.                                     |"
+      },
+      {
+        "row": 19,
+        "rowsha": "MRNjVUmwgF8akD8SB/XMqZGuBbO6+jRRkoE4VZ+T8qQ=",
+        "originContent": "| `--session-mode`                | Where tmux is opened: auto, new-session, current-session                                                                                                    |",
+        "translatedContent": "| `--session-mode`                | Dónde se abre tmux: auto, new-session, current-session                                                                                                        |"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "HxznjpC+qZfFCA9Q1oD1+Az65UStZPMiZ7uLrPREHk8=",
+        "originContent": "The usage of these options is also available by `--help`.",
+        "translatedContent": "El uso de estas opciones también está disponible con `--help`."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ubVEm05cwr9zkNMJhipJo9vwQDDsclfTaTISW9TgglY=",
+        "originContent": "### Example",
+        "translatedContent": "### Ejemplo"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "ANl6dfOzyqqhQ+vdu7ygTp+zC1heeAvUpyshzfh0ejM=",
+        "originContent": "The `tmux-exec` is similar to `exec`, except that it requires label selectors while `exec` requires a pod name.",
+        "translatedContent": "El `tmux-exec` es similar a `exec`, excepto que requiere selectores de etiquetas mientras que `exec` requiere un nombre de pod."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "yaCWas9oozr2WXxGFKYJygjM7hoNw2KFmZ3iZasY6Tw=",
+        "originContent": "To `bash` into all pod containers that share some common labels, `foo=bar` for instance.",
+        "translatedContent": "Para entrar en bash en todos los contenedores de pods que comparten algunas etiquetas comunes, por ejemplo, `foo=bar`."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```sh\nkubectl tmux-exec -l foo=bar /bin/bash\n```",
+    "ContentSha": "7cUqfgCma5IWXWgE4jpcjRPnCmrLNcVQafmB8Og9hd4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nkubectl tmux-exec -l foo=bar /bin/bash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "x1sTlFD9ZhFWFh/fSAdE/GWky8PyoFJ0iYEemLyuWHk=",
+        "originContent": "kubectl tmux-exec -l foo=bar /bin/bash",
+        "translatedContent": "kubectl tmux-exec -l foo=bar /bin/bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nAfter you have successfully `bash`-ed into your selected containers, a Tmux window is opened actually, where each pane displays the execution result of each pod's container. Your keyboard inputs will be synchronized to all those panes.\n\nIf you are not familar with Tmux, you can have a look at tmux's man page or online tutorials. Or you can see the [cheatsheet](#tmux-cheatsheet) below, which will be sufficient I think.\n\n### iTerm2 Integration\n\nWith `-C` or `--enable-control-mode`, it runs in control mode and delegates pane input to [iTerm2]'s \"Broadcast Input\" feature,\nno need for tmux key bindings.\n\nUse <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>i</kbd> to toggle broadcasting in iTerm2. (`synchronize-panes` will be disabled automatically in this mode.)\n\n(see: [tmux Integration](https://iterm2.com/documentation-tmux-integration.html) for more information)\n\n#### Example\n",
+    "ContentSha": "a9X2Uxria5qNqgDwSLI+IOtyFZdQwTKPaRHThiHAd54=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nDespués de que hayas accedido con éxito mediante `bash` a tus contenedores seleccionados, en realidad se abre una ventana de Tmux, donde cada panel muestra el resultado de la ejecución de cada contenedor del pod. Tus entradas de teclado se sincronizarán en todos esos paneles.\n\nSi no estás familiarizado con Tmux, puedes consultar la página man de tmux o tutoriales en línea. O puedes ver la [chuleta](#tmux-cheatsheet) a continuación, que creo será suficiente.\n\n### Integración con iTerm2\n\nCon `-C` o `--enable-control-mode`, se ejecuta en modo de control y delega la entrada del panel a la función \"Broadcast Input\" de [iTerm2],\nno es necesario usar combinaciones de teclas de tmux.\n\nUsa <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>i</kbd> para activar o desactivar la transmisión en iTerm2. (`synchronize-panes` se desactivará automáticamente en este modo.)\n\n(ver: [Integración tmux](https://iterm2.com/documentation-tmux-integration.html) para más información)\n\n#### Ejemplo\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3icX0OMiQbmpIVqjkh2pjQKmY0t6Q3KKHFImyvz71uo=",
+        "originContent": "After you have successfully `bash`-ed into your selected containers, a Tmux window is opened actually, where each pane displays the execution result of each pod's container. Your keyboard inputs will be synchronized to all those panes.",
+        "translatedContent": "Después de que hayas accedido con éxito mediante `bash` a tus contenedores seleccionados, en realidad se abre una ventana de Tmux, donde cada panel muestra el resultado de la ejecución de cada contenedor del pod. Tus entradas de teclado se sincronizarán en todos esos paneles."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "hV0fi+SboX81fR56Xq+8cTBafQEkivOj7Kpqn+S5rQc=",
+        "originContent": "If you are not familar with Tmux, you can have a look at tmux's man page or online tutorials. Or you can see the [cheatsheet](#tmux-cheatsheet) below, which will be sufficient I think.",
+        "translatedContent": "Si no estás familiarizado con Tmux, puedes consultar la página man de tmux o tutoriales en línea. O puedes ver la [chuleta](#tmux-cheatsheet) a continuación, que creo será suficiente."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "AMQiCb/MMYDuaufslMxUEkSh9caIT5+IBa+WFjcl2RI=",
+        "originContent": "### iTerm2 Integration",
+        "translatedContent": "### Integración con iTerm2"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "AQPH0NEXQ0cTUE2Uyvr6HG33kwseZpO1E/TUXe1wFa4=",
+        "originContent": "With `-C` or `--enable-control-mode`, it runs in control mode and delegates pane input to [iTerm2]'s \"Broadcast Input\" feature,",
+        "translatedContent": "Con `-C` o `--enable-control-mode`, se ejecuta en modo de control y delega la entrada del panel a la función \"Broadcast Input\" de [iTerm2],"
+      },
+      {
+        "row": 9,
+        "rowsha": "9kfZNd6r3fEL76Xs9JCKwG2mjOfTXuHs24Fl1lWit6c=",
+        "originContent": "no need for tmux key bindings.",
+        "translatedContent": "no es necesario usar combinaciones de teclas de tmux."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "i4fquK3ZObJNTm7EH04idUHGxV/GXVnmTyWfzZwPoN8=",
+        "originContent": "Use <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>i</kbd> to toggle broadcasting in iTerm2. (`synchronize-panes` will be disabled automatically in this mode.)",
+        "translatedContent": "Usa <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>i</kbd> para activar o desactivar la transmisión en iTerm2. (`synchronize-panes` se desactivará automáticamente en este modo.)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "zI+oIR9vRz2/jZfbDU5Q5mvPw+pBDXNaitJ0FDfs15w=",
+        "originContent": "(see: [tmux Integration](https://iterm2.com/documentation-tmux-integration.html) for more information)",
+        "translatedContent": "(ver: [Integración tmux](https://iterm2.com/documentation-tmux-integration.html) para más información)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "HnIOopIvW2Nz5C2cohjLyx5EY5qk04S48HcxwuThTt8=",
+        "originContent": "#### Example",
+        "translatedContent": "#### Ejemplo"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```sh\nkubectl tmux-exec -C -l app=nginx /bin/bash\n```",
+    "ContentSha": "sywUmZ5K4QeCu1WZ/VF7dAvsStiy6gLWlQp4LFiwsMc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nkubectl tmux-exec -C -l app=nginx /bin/bash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "LrBU4RzKpajzRxqkeFPuobc4VF8OZoYpODdnVykCRs4=",
+        "originContent": "kubectl tmux-exec -C -l app=nginx /bin/bash",
+        "translatedContent": "kubectl tmux-exec -C -l app=nginx /bin/bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot-iterm2-integration.png?raw=true)\n\n### Shell Auto-completion\n\nPlease check [this wiki](https://github.com/predatorray/kubectl-tmux-exec/wiki/Shell-Auto-completion) for more information.\n\n### Tmux Cheatsheet\n\nAll Tmux command starts with a `PREFIX`. By default the `PREFIX` is <kbd>Ctrl</kbd> + <kbd>b</kbd>. I will use `C-b` below to stand for it.\n\n`C-b d`, detach from the session. After that, the Tmux will be running in the backgroud. You can type `tmux a` to re-attach.\n\n`C-b :setw synchronize-panes off`, turn off synchronizing inputs to all panes.\n\n`C-b :setw synchronize-panes on`, turn on synchronizing inputs to all panes.\n\n`C-b <ARROW-KEY>`, move cursor between panes.\n\n`C-b xy`, close the current pane.\n\n`C-b &y`, close the window including all panes.\n\n## Community & Support\n\n- File issues or feature requests via [GitHub Issues]((https://github.com/predatorray/kubectl-tmux-exec/issues/new))\n- Join the [Google Group](https://groups.google.com/g/kubectl-tmux-exec) for discussions\n\n## Other plugins\n\n[kubectl-alias](https://github.com/predatorray/kubectl-alias): the missing alias command for kubectl.\n\n## Buy Me a Coffee\n\nIf it saves you time, feel free to [buy me a coffee] 🙌\n\n[![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)][buy me a coffee]\n\n[buy me a coffee]: https://buymeacoffee.com/predatorray\n[iTerm2]: https://iterm2.com/index.html",
+    "ContentSha": "eowwmOOZkuYKVjEy26Q1w5wzqXx/ZjLzjEEoARFJJSs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n![captura de pantalla](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot-iterm2-integration.png?raw=true)\n\n### Autocompletado de Shell\n\nPor favor, consulte [esta wiki](https://github.com/predatorray/kubectl-tmux-exec/wiki/Shell-Auto-completion) para más información.\n\n### Hoja de trucos de Tmux\n\nTodos los comandos de Tmux comienzan con un `PREFIX`. Por defecto el `PREFIX` es <kbd>Ctrl</kbd> + <kbd>b</kbd>. Usaré `C-b` a continuación para representarlo.\n\n`C-b d`, desconectar de la sesión. Después de eso, Tmux seguirá ejecutándose en segundo plano. Puedes escribir `tmux a` para volver a conectar.\n\n`C-b :setw synchronize-panes off`, desactivar la sincronización de entradas en todos los paneles.\n\n`C-b :setw synchronize-panes on`, activar la sincronización de entradas en todos los paneles.\n\n`C-b <TECLA-DE-FLECHA>`, mover el cursor entre los paneles.\n\n`C-b xy`, cerrar el panel actual.\n\n`C-b &y`, cerrar la ventana incluyendo todos los paneles.\n\n## Comunidad y Soporte\n\n- Reporta problemas o solicitudes de funciones a través de [GitHub Issues]((https://github.com/predatorray/kubectl-tmux-exec/issues/new))\n- Únete al [Grupo de Google](https://groups.google.com/g/kubectl-tmux-exec) para discusiones\n\n## Otros plugins\n\n[kubectl-alias](https://github.com/predatorray/kubectl-alias): el comando alias que faltaba para kubectl.\n\n## Invítame un café\n\nSi te ahorra tiempo, siéntete libre de [invitarme un café] 🙌\n\n[![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)][invítame un café]\n\n[invítame un café]: https://buymeacoffee.com/predatorray\n[iTerm2]: https://iterm2.com/index.html",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "UqeNMmOeF9UqeDWMvDHsA7Ult6Y184bEyyH4TsRyDSg=",
+        "originContent": "![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot-iterm2-integration.png?raw=true)",
+        "translatedContent": "![captura de pantalla](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot-iterm2-integration.png?raw=true)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "F+ttunHf06ZaPrOdWVp7rcMl2OZYovpZ3IYIJ0ZD+C0=",
+        "originContent": "### Shell Auto-completion",
+        "translatedContent": "### Autocompletado de Shell"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "EwtYQZCCxZxZwp3YFoDBUI5A30ISENMQiP1HH2kzWyI=",
+        "originContent": "Please check [this wiki](https://github.com/predatorray/kubectl-tmux-exec/wiki/Shell-Auto-completion) for more information.",
+        "translatedContent": "Por favor, consulte [esta wiki](https://github.com/predatorray/kubectl-tmux-exec/wiki/Shell-Auto-completion) para más información."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "rpljwgqNpOA5Q8bc83EdK4ReFNwVzLYA3+t13C7S/nc=",
+        "originContent": "### Tmux Cheatsheet",
+        "translatedContent": "### Hoja de trucos de Tmux"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "ZS4C3K3GUNC6upL7eLB8/1mBiek9OBVrqr5NTVVJPCQ=",
+        "originContent": "All Tmux command starts with a `PREFIX`. By default the `PREFIX` is <kbd>Ctrl</kbd> + <kbd>b</kbd>. I will use `C-b` below to stand for it.",
+        "translatedContent": "Todos los comandos de Tmux comienzan con un `PREFIX`. Por defecto el `PREFIX` es <kbd>Ctrl</kbd> + <kbd>b</kbd>. Usaré `C-b` a continuación para representarlo."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "rIqVS1odCF0gdWAVI0AGkKsfNq6iArvhqPboN3qPO/4=",
+        "originContent": "`C-b d`, detach from the session. After that, the Tmux will be running in the backgroud. You can type `tmux a` to re-attach.",
+        "translatedContent": "`C-b d`, desconectar de la sesión. Después de eso, Tmux seguirá ejecutándose en segundo plano. Puedes escribir `tmux a` para volver a conectar."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "uz8VfTPP7uCzGieW3r7WSLLctCQA9WPaiQuHNdVABfU=",
+        "originContent": "`C-b :setw synchronize-panes off`, turn off synchronizing inputs to all panes.",
+        "translatedContent": "`C-b :setw synchronize-panes off`, desactivar la sincronización de entradas en todos los paneles."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "NBkLMdNHgn4nk9blJOPLA2abxZa7zlmryQnV/Q8RCi0=",
+        "originContent": "`C-b :setw synchronize-panes on`, turn on synchronizing inputs to all panes.",
+        "translatedContent": "`C-b :setw synchronize-panes on`, activar la sincronización de entradas en todos los paneles."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Y6PEyQLQjb+edpRoPlg5euUQ29fswx2nvoMFBRO5ZAU=",
+        "originContent": "`C-b <ARROW-KEY>`, move cursor between panes.",
+        "translatedContent": "`C-b <TECLA-DE-FLECHA>`, mover el cursor entre los paneles."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "7TUzNgr997FfP9KHTkm69IDls9bhJqf2mg11rYY+1Y4=",
+        "originContent": "`C-b xy`, close the current pane.",
+        "translatedContent": "`C-b xy`, cerrar el panel actual."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "ExddxRpA8eqv8mJR5anU3iyVjC7AL/xWOk/fzHDM1yg=",
+        "originContent": "`C-b &y`, close the window including all panes.",
+        "translatedContent": "`C-b &y`, cerrar la ventana incluyendo todos los paneles."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "QU5m9onHlLoCxHsrRnis4/0DqXNCRgiWY5wdTp+I6pk=",
+        "originContent": "## Community & Support",
+        "translatedContent": "## Comunidad y Soporte"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "SggAqwxpcjwloXj0jxvQd1a6VQocNB5MI/9YTeKwQzk=",
+        "originContent": "- File issues or feature requests via [GitHub Issues]((https://github.com/predatorray/kubectl-tmux-exec/issues/new))",
+        "translatedContent": "- Reporta problemas o solicitudes de funciones a través de [GitHub Issues]((https://github.com/predatorray/kubectl-tmux-exec/issues/new))"
+      },
+      {
+        "row": 27,
+        "rowsha": "zzHDXAtpDwyuTHg2n6jQZ7529NaxxAuQRbkK9n6JWG0=",
+        "originContent": "- Join the [Google Group](https://groups.google.com/g/kubectl-tmux-exec) for discussions",
+        "translatedContent": "- Únete al [Grupo de Google](https://groups.google.com/g/kubectl-tmux-exec) para discusiones"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "PEpVwy08WkMn8QPUlnbmhIrT2aZka3gzD3OF48K6wSs=",
+        "originContent": "## Other plugins",
+        "translatedContent": "## Otros plugins"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "ijjIr76OblQBOGH/kHC/46MHjXM8lhkcm/9+aYJaYg0=",
+        "originContent": "[kubectl-alias](https://github.com/predatorray/kubectl-alias): the missing alias command for kubectl.",
+        "translatedContent": "[kubectl-alias](https://github.com/predatorray/kubectl-alias): el comando alias que faltaba para kubectl."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "Vm8vd33BZVkkwJGm0H6557aU5V8+Zb/eS4NUaNiStBg=",
+        "originContent": "## Buy Me a Coffee",
+        "translatedContent": "## Invítame un café"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Lm2HzmCloeCVc5hhegUSrCx9Y8ngC6/TKhwtL8vP8NA=",
+        "originContent": "If it saves you time, feel free to [buy me a coffee] 🙌",
+        "translatedContent": "Si te ahorra tiempo, siéntete libre de [invitarme un café] 🙌"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "qnavRGDC+rqmIrCb8ovOfzgOFbEc+YQbWFPca0mhEKo=",
+        "originContent": "[![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)][buy me a coffee]",
+        "translatedContent": "[![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)][invítame un café]"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "A++XR4ilYlLzmphjLT9Kb4PNVQoKZ6XcnX2p0r0LyoY=",
+        "originContent": "[buy me a coffee]: https://buymeacoffee.com/predatorray",
+        "translatedContent": "[invítame un café]: https://buymeacoffee.com/predatorray"
+      },
+      {
+        "row": 40,
+        "rowsha": "kRezdE7GQmnCqW/0eoFfIOX8qAPtF4egCrnb0Cp57sE=",
+        "originContent": "[iTerm2]: https://iterm2.com/index.html",
+        "translatedContent": "[iTerm2]: https://iterm2.com/index.html"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "[plugin support]: https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/\n",
+    "ContentSha": "nY4s8mLQnseS6rETwgscJhNmdr16yR9gJYiEXdHMbTI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[soporte de plugin]: https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VQvPZ+3F/0GAkvbUkyuSqoJ9sbJfVBAIMOK8ngVRWAk=",
+        "originContent": "[plugin support]: https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/",
+        "translatedContent": "[soporte de plugin]: https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

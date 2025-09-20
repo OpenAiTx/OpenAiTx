@@ -1,0 +1,1241 @@
+[
+  {
+    "Id": 1,
+    "Content": "# kubectl-tmux-exec\n\n![GitHub release version](https://img.shields.io/github/v/release/predatorray/kubectl-tmux-exec)\n![License](https://img.shields.io/github/license/predatorray/kubectl-tmux-exec)\n![Build Status](https://img.shields.io/github/actions/workflow/status/predatorray/kubectl-tmux-exec/ci.yml?branch=master)\n![GitHub all releases](https://img.shields.io/github/downloads/predatorray/kubectl-tmux-exec/total)\n\nA **kubectl** plugin for executing commands interactively across multiple pods or containers using [**tmux**](https://github.com/tmux/tmux),\nlike `csshX` or `pssh` but for **Kubernetes**.\n\n![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot.png?raw=true)\n\nTo execute command across all the Nginx containers using `bash` for example, run:\n",
+    "ContentSha": "KlEKoNzfxsUpQqAQQpQtwdiHnwrwJ9QO8mEYqx7iNd4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# kubectl-tmux-exec\n\n![GitHub release version](https://img.shields.io/github/v/release/predatorray/kubectl-tmux-exec)\n![License](https://img.shields.io/github/license/predatorray/kubectl-tmux-exec)\n![Build Status](https://img.shields.io/github/actions/workflow/status/predatorray/kubectl-tmux-exec/ci.yml?branch=master)\n![GitHub all releases](https://img.shields.io/github/downloads/predatorray/kubectl-tmux-exec/total)\n\nA **kubectl** plugin for executing commands interactively across multiple pods or containers using [**tmux**](https://github.com/tmux/tmux),\nlike `csshX` or `pssh` but for **Kubernetes**.\n\n![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot.png?raw=true)\n\nTo execute command across all the Nginx containers using `bash` for example, run:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CxjUmOFXWTK+TsUT1hrfmDLKL0z+9vf4hcVpiR90gHc=",
+        "originContent": "# kubectl-tmux-exec",
+        "translatedContent": "# kubectl-tmux-exec"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "jO7Cn51sH2PjfI3LkIZUuqLP1n1OfheIcnGsCe8v5rI=",
+        "originContent": "![GitHub release version](https://img.shields.io/github/v/release/predatorray/kubectl-tmux-exec)",
+        "translatedContent": "![GitHub release version](https://img.shields.io/github/v/release/predatorray/kubectl-tmux-exec)"
+      },
+      {
+        "row": 4,
+        "rowsha": "mdbVEYmT5l3ZyFjuujmUPOknmwk8biFiJuMiSYFwfek=",
+        "originContent": "![License](https://img.shields.io/github/license/predatorray/kubectl-tmux-exec)",
+        "translatedContent": "![License](https://img.shields.io/github/license/predatorray/kubectl-tmux-exec)"
+      },
+      {
+        "row": 5,
+        "rowsha": "m8XyUJ1IDUrAA25aOjLW2zCEFE2d9IkEJ1lDwLjecRw=",
+        "originContent": "![Build Status](https://img.shields.io/github/actions/workflow/status/predatorray/kubectl-tmux-exec/ci.yml?branch=master)",
+        "translatedContent": "![Build Status](https://img.shields.io/github/actions/workflow/status/predatorray/kubectl-tmux-exec/ci.yml?branch=master)"
+      },
+      {
+        "row": 6,
+        "rowsha": "Cuf7TPp5MlWtMoSX3GqquP44c/+uVgMp8kjzrSk9wLI=",
+        "originContent": "![GitHub all releases](https://img.shields.io/github/downloads/predatorray/kubectl-tmux-exec/total)",
+        "translatedContent": "![GitHub all releases](https://img.shields.io/github/downloads/predatorray/kubectl-tmux-exec/total)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Ua7iL4XU4ANowLccqg8X9YhhUGd4+nojvnlircdYTxM=",
+        "originContent": "A **kubectl** plugin for executing commands interactively across multiple pods or containers using [**tmux**](https://github.com/tmux/tmux),",
+        "translatedContent": "A **kubectl** plugin for executing commands interactively across multiple pods or containers using [**tmux**](https://github.com/tmux/tmux),"
+      },
+      {
+        "row": 9,
+        "rowsha": "r/Qe9/68itQ+GRLcbt+8mwDCiLoE8/ur8uDsdgZjL/Q=",
+        "originContent": "like `csshX` or `pssh` but for **Kubernetes**.",
+        "translatedContent": "like `csshX` or `pssh` but for **Kubernetes**."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "n5K7l2jwnJt6kizshXmnKgURHWsmIjcweNt6qiEbsHk=",
+        "originContent": "![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot.png?raw=true)",
+        "translatedContent": "![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot.png?raw=true)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Ma6C1KoexQMbwL2kUMESG0UF5xyhr5YmdgeU9ZYUSOc=",
+        "originContent": "To execute command across all the Nginx containers using `bash` for example, run:",
+        "translatedContent": "To execute command across all the Nginx containers using `bash` for example, run:"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\nkubectl tmux-exec -l app=nginx /bin/bash\n```",
+    "ContentSha": "3AVn8KeoFjJUk0rjBhtJBt4iK4t0PPsYqyA69vMVFW0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nkubectl tmux-exec -l app=nginx /bin/bash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "642W7ugQkefNHnBOILknbnzrWSzHEzGzKUj9OKpus1E=",
+        "originContent": "kubectl tmux-exec -l app=nginx /bin/bash",
+        "translatedContent": "kubectl tmux-exec -l app=nginx /bin/bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Installation \n\n### Homebrew\n\n> **Note**: This is for Mac users only.\n\n1. Install [Homebrew](https://brew.sh/).\n\n2. `brew install predatorray/brew/kubectl-tmux-exec`\n\nFinally, ensure `/usr/local/bin/kubectl-tmux_exec` is in your `$PATH`.\n\n### Krew\n\n> **Note**: It is recommended for Linux users.\n> \n> Although it works both on Mac and Linux, it is not recommended for Mac users, since you still may need to install the dependency `gnu-getopt` with the help of Homebrew.\n\n1. Install [Krew](https://krew.sigs.k8s.io/) by following [the user guide](https://krew.sigs.k8s.io/docs/user-guide/setup/install/).\n\n2. `kubectl krew install tmux-exec`\n\n3. Install the dependencies. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))\n\n### Manually\n\n1. Download the [latest release](https://github.com/predatorray/kubectl-tmux-exec/releases/latest).\n\n2. Unpack the kubectl-tmux-exec-*.tar.gz file and copy all the files to a directory, `/usr/local/kubectl-tmux-exec` for instance.\n\n3. Add the `bin/` directory to your `$PATH`. For example, add this line to your rc file: `export PATH=\"$PATH:/usr/local/kubectl-tmux-exec/bin\"`.\n\n4. Install the dependencies. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))\n\n## Usage\n\nMake sure you have `kubectl` ≥ 1.12 ([plugin support]), ideally latest.\n\nOtherwise, execute the script directly: `kubectl-tmux_exec [...ARGS]`.",
+    "ContentSha": "KSTAhDlXrN6MKGQDIhbI/1z+hraIhe+aI/8/NTFMHJo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 설치 \n\n### Homebrew\n\n> **참고**: Mac 사용자 전용입니다.\n\n1. [Homebrew](https://brew.sh/)를 설치합니다.\n\n2. `brew install predatorray/brew/kubectl-tmux-exec`\n\n마지막으로, `/usr/local/bin/kubectl-tmux_exec`가 `$PATH`에 포함되어 있는지 확인하세요.\n\n### Krew\n\n> **참고**: Linux 사용자에게 권장됩니다.\n> \n> Mac과 Linux 모두에서 작동하지만, Mac 사용자의 경우 여전히 Homebrew를 통해 `gnu-getopt` 의존성을 설치해야 할 수 있으므로 권장하지 않습니다.\n\n1. [Krew](https://krew.sigs.k8s.io/)를 [사용자 가이드](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)를 따라 설치합니다.\n\n2. `kubectl krew install tmux-exec`\n\n3. 의존성을 설치합니다. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))\n\n### 수동 설치\n\n1. [최신 릴리스](https://github.com/predatorray/kubectl-tmux-exec/releases/latest)를 다운로드합니다.\n\n2. kubectl-tmux-exec-*.tar.gz 파일을 압축 해제하고 모든 파일을 예를 들어 `/usr/local/kubectl-tmux-exec` 디렉터리에 복사합니다.\n\n3. `bin/` 디렉터리를 `$PATH`에 추가합니다. 예를 들어, rc 파일에 다음 줄을 추가합니다: `export PATH=\"$PATH:/usr/local/kubectl-tmux-exec/bin\"`.\n\n4. 의존성을 설치합니다. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))\n\n## 사용법\n\n`kubectl` 버전이 1.12 이상인지 ([플러그인 지원]) 확인하고, 이상적으론 최신 버전을 사용하세요.\n\n그렇지 않으면 스크립트를 직접 실행하세요: `kubectl-tmux_exec [...ARGS]`.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 설치 "
+      },
+      {
+        "row": 2,
+        "rowsha": "w/sOSljJFsAyK3/wadk1EveZ2w4MhzbYL5xF10yFHU0=",
+        "originContent": "## Installation ",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Homebrew"
+      },
+      {
+        "row": 4,
+        "rowsha": "pJlSFMY1jGJADW+jSPOP44zVg6xycRgOWJvwy6vyA7w=",
+        "originContent": "### Homebrew",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **참고**: Mac 사용자 전용입니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "iyIMmH8FaRi4zFITH4zCMao8wfBH+n4iMYGdpiwaBYQ=",
+        "originContent": "> **Note**: This is for Mac users only.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. [Homebrew](https://brew.sh/)를 설치합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "klVSiGt4aP3vC1YeZAtf1mKab1NGphg5NzCSgRVrBPw=",
+        "originContent": "1. Install [Homebrew](https://brew.sh/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. `brew install predatorray/brew/kubectl-tmux-exec`"
+      },
+      {
+        "row": 10,
+        "rowsha": "uwE3nRNGFspO6g7qzcLlqoLeZ6YXQMQTh5USi52ykms=",
+        "originContent": "2. `brew install predatorray/brew/kubectl-tmux-exec`",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "마지막으로, `/usr/local/bin/kubectl-tmux_exec`가 `$PATH`에 포함되어 있는지 확인하세요."
+      },
+      {
+        "row": 12,
+        "rowsha": "FwI7G3vY3Q7Q1WQI+gESZdKp9YIkBWMG8ak6ok+lm9I=",
+        "originContent": "Finally, ensure `/usr/local/bin/kubectl-tmux_exec` is in your `$PATH`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Krew"
+      },
+      {
+        "row": 14,
+        "rowsha": "kQHeaD+TMKCTBNL0E+ENQRKbc9UsKPT3rBFtwb7vomA=",
+        "originContent": "### Krew",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> **참고**: Linux 사용자에게 권장됩니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "OBu44rV2BrnJ9y6i5VWoIXnw2Sca706I2aqVinJZyGU=",
+        "originContent": "> **Note**: It is recommended for Linux users.",
+        "translatedContent": "> "
+      },
+      {
+        "row": 17,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> Mac과 Linux 모두에서 작동하지만, Mac 사용자의 경우 여전히 Homebrew를 통해 `gnu-getopt` 의존성을 설치해야 할 수 있으므로 권장하지 않습니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "xXdBHYQVzwB0km6Cljm1+93UbPp8QnqRlEtzG6opkcg=",
+        "originContent": "> Although it works both on Mac and Linux, it is not recommended for Mac users, since you still may need to install the dependency `gnu-getopt` with the help of Homebrew.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. [Krew](https://krew.sigs.k8s.io/)를 [사용자 가이드](https://krew.sigs.k8s.io/docs/user-guide/setup/install/)를 따라 설치합니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "KqORmNGU/+tstRDCeB9Qxdynm7CTvSjZEPVlcQs/BYk=",
+        "originContent": "1. Install [Krew](https://krew.sigs.k8s.io/) by following [the user guide](https://krew.sigs.k8s.io/docs/user-guide/setup/install/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. `kubectl krew install tmux-exec`"
+      },
+      {
+        "row": 22,
+        "rowsha": "GgiAf4YhTY4pdeRBF27+hAaEkFgTjBjGDbAKs6MZvuo=",
+        "originContent": "2. `kubectl krew install tmux-exec`",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. 의존성을 설치합니다. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))"
+      },
+      {
+        "row": 24,
+        "rowsha": "tDwMwdyTM5ZVyZKfTCPryhLK0xOh8NiZB88hnRx+U50=",
+        "originContent": "3. Install the dependencies. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 수동 설치"
+      },
+      {
+        "row": 26,
+        "rowsha": "KXSrYIQWk5yT2gE0ZMclnorluxzsdqzUBcBngF0ol40=",
+        "originContent": "### Manually",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. [최신 릴리스](https://github.com/predatorray/kubectl-tmux-exec/releases/latest)를 다운로드합니다."
+      },
+      {
+        "row": 28,
+        "rowsha": "WLKdkYothgg/Wow0aCg2QccymiiPcNypyqZfDIAZZ8Q=",
+        "originContent": "1. Download the [latest release](https://github.com/predatorray/kubectl-tmux-exec/releases/latest).",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. kubectl-tmux-exec-*.tar.gz 파일을 압축 해제하고 모든 파일을 예를 들어 `/usr/local/kubectl-tmux-exec` 디렉터리에 복사합니다."
+      },
+      {
+        "row": 30,
+        "rowsha": "NZWwVV6rnp3YY+BARib7hQxt6G1A7Zh2X1KFD3VJbBk=",
+        "originContent": "2. Unpack the kubectl-tmux-exec-*.tar.gz file and copy all the files to a directory, `/usr/local/kubectl-tmux-exec` for instance.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. `bin/` 디렉터리를 `$PATH`에 추가합니다. 예를 들어, rc 파일에 다음 줄을 추가합니다: `export PATH=\"$PATH:/usr/local/kubectl-tmux-exec/bin\"`."
+      },
+      {
+        "row": 32,
+        "rowsha": "l35P8/K68Jaq9tzSC2LTnGsH0KFC85BFQQh5fLrw3Fs=",
+        "originContent": "3. Add the `bin/` directory to your `$PATH`. For example, add this line to your rc file: `export PATH=\"$PATH:/usr/local/kubectl-tmux-exec/bin\"`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "4. 의존성을 설치합니다. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))"
+      },
+      {
+        "row": 34,
+        "rowsha": "5qCvJJaOpIrvJmrqbXNehYuRyE4aUAocpJOXJ9ECcq4=",
+        "originContent": "4. Install the dependencies. ([Wiki: How-to-Install-Dependencies](https://github.com/predatorray/kubectl-tmux-exec/wiki/How-to-Install-Dependencies))",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 36,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`kubectl` 버전이 1.12 이상인지 ([플러그인 지원]) 확인하고, 이상적으론 최신 버전을 사용하세요."
+      },
+      {
+        "row": 38,
+        "rowsha": "2qM+/Ls5t48gpQTxqrwqdGQkz9c/2zS3fnz2MymCwHE=",
+        "originContent": "Make sure you have `kubectl` ≥ 1.12 ([plugin support]), ideally latest.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "그렇지 않으면 스크립트를 직접 실행하세요: `kubectl-tmux_exec [...ARGS]`."
+      },
+      {
+        "row": 40,
+        "rowsha": "quvFEG7Tee++b9abSxLjK8uRRih99OTysMoaopQutaY=",
+        "originContent": "Otherwise, execute the script directly: `kubectl-tmux_exec [...ARGS]`.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "\nCheck if the script has been successfully added by:\n",
+    "ContentSha": "8CDMAUxWMTka744El9z/qiWzmzqxzBzrBdiGaFq4uZU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n스크립트가 성공적으로 추가되었는지 확인하려면:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WpJUb/SovT3mIbFcMBXdc92JZv1ieP4Qi7CulH8Br6Y=",
+        "originContent": "Check if the script has been successfully added by:",
+        "translatedContent": "스크립트가 성공적으로 추가되었는지 확인하려면:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```sh\nkubectl plugin list\n```",
+    "ContentSha": "AB+IV1ctOXC1Uq1aSwXPu2fnTwNYU0zZCLJhcWwcG1U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nkubectl plugin list\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "xqMrbwGigKI8GG0Gp7g55XC74ZBuEf5tTUstWDpVYzA=",
+        "originContent": "kubectl plugin list",
+        "translatedContent": "kubectl plugin list"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\nThe output should be like\n",
+    "ContentSha": "E7FCbrUX2Ldh27Egps/VqSmPYknF0W09uzYn8qVJLks=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "출력은 다음과 같아야 합니다\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "출력은 다음과 같아야 합니다"
+      },
+      {
+        "row": 2,
+        "rowsha": "bhnNJy7KzqK9NtMhb85+E9uHuneNsqI5jRUeqXGCVck=",
+        "originContent": "The output should be like",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```txt\nThe following compatible plugins are available:\n\n/usr/local/bin/kubectl-tmux_exec\n```",
+    "ContentSha": "tFNi+jMIa9CjxX3/KLp9I44BB1dWilF0o4TPCSXb6jM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```txt\nThe following compatible plugins are available:\n\n/usr/local/bin/kubectl-tmux_exec\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qUYvmp9Aa73LZSIGY0gJ1j5I9EW9X2shlDDkpRp9+Zg=",
+        "originContent": "```txt",
+        "translatedContent": "```txt"
+      },
+      {
+        "row": 2,
+        "rowsha": "ly5JLHieN1pO9E34XOH62y48oYnPhRsoobvfb0TSv1I=",
+        "originContent": "The following compatible plugins are available:",
+        "translatedContent": "The following compatible plugins are available:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8TlZJjdgo5dUheZbma+ujQnD0CIPiXOYu1vvDobXm7k=",
+        "originContent": "/usr/local/bin/kubectl-tmux_exec",
+        "translatedContent": "/usr/local/bin/kubectl-tmux_exec"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\nIf it does not show in the list, check `$PATH` env again.\n\nYou can use the command below to get the usage of the script.\n",
+    "ContentSha": "9hFAEC4OXeH0IcFkrGFCIHC6rdQ3r6QaSXclnWiZzO4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "목록에 표시되지 않으면, `$PATH` 환경 변수를 다시 확인하세요.\n\n아래 명령어를 사용하여 스크립트의 사용법을 확인할 수 있습니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "목록에 표시되지 않으면, `$PATH` 환경 변수를 다시 확인하세요."
+      },
+      {
+        "row": 2,
+        "rowsha": "9YzhRofnXrEx5M3N6ImIoCwt+G2GK7aP+HvLhoTojvU=",
+        "originContent": "If it does not show in the list, check `$PATH` env again.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "아래 명령어를 사용하여 스크립트의 사용법을 확인할 수 있습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "+CW0QGhUCovgoiXiw3dzWbONJHb0V8/A1gWdMSLKcKA=",
+        "originContent": "You can use the command below to get the usage of the script.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```sh\nkubectl tmux-exec --help\n\n# or\nkubectl-tmux_exec --help\n```",
+    "ContentSha": "6i9Ho16E/988oKk9tlrGSyBC6vCLbOCH8lTGnkufyNU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nkubectl tmux-exec --help\n\n# or\nkubectl-tmux_exec --help\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "YISKSewjmyKwT+FZCwy1atlziqkh1J6NncaTHwEgCUI=",
+        "originContent": "kubectl tmux-exec --help",
+        "translatedContent": "kubectl tmux-exec --help"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "aN479qeMJzSWQMGNYAknGvL7bw4bvOG2puihSc8yoE8=",
+        "originContent": "# or",
+        "translatedContent": "# or"
+      },
+      {
+        "row": 5,
+        "rowsha": "YOxHpQWjf93b0WFvKkny65AY81PfI/OYIkpX0Wa4JcQ=",
+        "originContent": "kubectl-tmux_exec --help",
+        "translatedContent": "kubectl-tmux_exec --help"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n### Options\n\n| Flag                            | Usage                                                                                                                                                       |\n|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| `-V`<br>`--version`             | Print the version information                                                                                                                               |\n| `-l`<br>`--selector`            | Selector (label query) to filter on, supports '=', '==', and '!='.(e.g. -l key1=value1,key2=value2)<br>You must either use `--selector` or `--file` option. |\n| `-f`<br>`--file`                | Read pod names line-by-line from a file.<br>You must either use `--selector` or `--file` option.                                                            |\n| `-c`<br>`--container`           | Container name. If omitted, the first container in the pod will be chosen                                                                                   |\n| `-i`<br>`--stdin`               | Pass stdin to the container (**deprecated**, since it's enabled by default)                                                                                 |\n| `-t`<br>`--tty`                 | Stdin is a TTY (**deprecated**, since it's enabled by default)                                                                                              |\n| `-d`<br>`--detach`              | Make the Tmux session detached                                                                                                                              |\n| `-n`<br>`--namespace=`          | The namespace scope for this CLI request (can be applied multiple times)                                                                                    |\n| `--context`                     | The name of the kubeconfig context to use (can be applied multiple times)                                                                                   |\n| `-A`<br>`--all-namespaces`      | If present, list and execute the requested object(s) across all namespaces. Namespace in current context is ignored even if specified with --namespace.     |\n| `-C`<br>`--enable-control-mode` | Start tmux in control mode and echo is disabled. (See: [iTerm2 Integration](#iterm2-integration))                                                           |\n| `--remain-on-exit`              | Remain Tmux window on exit                                                                                                                                  |\n| `--select-layout`               | One of the five Tmux preset layouts: even-horizontal, even-vertical, main-horizontal, main-vertical, or tiled.                                              |\n| `--session-mode`                | Where tmux is opened: auto, new-session, current-session                                                                                                    |\n\nThe usage of these options is also available by `--help`.\n\n### Example\n\nThe `tmux-exec` is similar to `exec`, except that it requires label selectors while `exec` requires a pod name.\n\nTo `bash` into all pod containers that share some common labels, `foo=bar` for instance.\n",
+    "ContentSha": "jGhUpLVwP4CaOIyeTehsKV2iJLekP4eGZKD5zcTfgV0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 옵션\n\n| 플래그                          | 사용법                                                                                                                                                      |\n|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| `-V`<br>`--version`             | 버전 정보를 출력합니다                                                                                                                                       |\n| `-l`<br>`--selector`            | 필터링할 셀렉터(라벨 쿼리), '=', '==', '!='를 지원합니다.(예: -l key1=value1,key2=value2)<br>`--selector` 또는 `--file` 옵션 중 하나를 사용해야 합니다.        |\n| `-f`<br>`--file`                | 파일에서 한 줄씩 파드 이름을 읽습니다.<br>`--selector` 또는 `--file` 옵션 중 하나를 사용해야 합니다.                                                        |\n| `-c`<br>`--container`           | 컨테이너 이름입니다. 생략 시 파드의 첫 번째 컨테이너가 선택됩니다                                                                                               |\n| `-i`<br>`--stdin`               | 컨테이너에 표준 입력을 전달합니다 (**더 이상 권장되지 않음**, 기본적으로 활성화되어 있음)                                                                    |\n| `-t`<br>`--tty`                 | 표준 입력이 TTY임을 지정합니다 (**더 이상 권장되지 않음**, 기본적으로 활성화되어 있음)                                                                        |\n| `-d`<br>`--detach`              | Tmux 세션을 분리(detached) 상태로 만듭니다                                                                                                                   |\n| `-n`<br>`--namespace=`          | 이 CLI 요청의 네임스페이스 범위 (여러 번 적용 가능)                                                                                                          |\n| `--context`                     | 사용할 kubeconfig 컨텍스트 이름 (여러 번 적용 가능)                                                                                                         |\n| `-A`<br>`--all-namespaces`      | 지정된 경우 모든 네임스페이스에서 요청한 객체를 나열 및 실행합니다. `--namespace`로 지정해도 현재 컨텍스트 네임스페이스는 무시됩니다.                         |\n| `-C`<br>`--enable-control-mode` | tmux를 제어 모드로 시작하며 에코가 비활성화됩니다. ([iTerm2 통합](#iterm2-integration) 참고)                                                                  |\n| `--remain-on-exit`              | 종료 시에도 Tmux 창을 유지합니다                                                                                                                             |\n| `--select-layout`               | 다섯 가지 Tmux 사전 설정 레이아웃 중 하나: even-horizontal, even-vertical, main-horizontal, main-vertical, tiled                                            |\n| `--session-mode`                | tmux가 열리는 위치: auto, new-session, current-session                                                                                                      |\n\n이 옵션들의 사용법은 `--help`로도 확인할 수 있습니다.\n\n### 예제\n\n`tmux-exec`는 `exec`와 유사하지만, `exec`가 파드 이름을 요구하는 반면 `tmux-exec`는 라벨 셀렉터를 요구합니다.\n\n예를 들어, 공통 라벨 `foo=bar`를 가진 모든 파드 컨테이너에 `bash`로 접속하려면 다음과 같이 합니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 옵션"
+      },
+      {
+        "row": 2,
+        "rowsha": "zARi/ZPMfKkrJzY5lfnzoHPp1G88Ql/IEjsRKzR0HvI=",
+        "originContent": "### Options",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 플래그                          | 사용법                                                                                                                                                      |"
+      },
+      {
+        "row": 4,
+        "rowsha": "iJLdNd9RIWCCXqZKPVEhy2m08rqhmwOjhptpxIS4Aug=",
+        "originContent": "| Flag                            | Usage                                                                                                                                                       |",
+        "translatedContent": "|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|"
+      },
+      {
+        "row": 5,
+        "rowsha": "Le8Khc0PON5hEfI2hljBrakDOM5w6BPc9cgeAC28xsg=",
+        "originContent": "|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|",
+        "translatedContent": "| `-V`<br>`--version`             | 버전 정보를 출력합니다                                                                                                                                       |"
+      },
+      {
+        "row": 6,
+        "rowsha": "CTg0xZzV/P9BY2jhzhuLLM8T+ZUbnOHjaIPndBcQIUo=",
+        "originContent": "| `-V`<br>`--version`             | Print the version information                                                                                                                               |",
+        "translatedContent": "| `-l`<br>`--selector`            | 필터링할 셀렉터(라벨 쿼리), '=', '==', '!='를 지원합니다.(예: -l key1=value1,key2=value2)<br>`--selector` 또는 `--file` 옵션 중 하나를 사용해야 합니다.        |"
+      },
+      {
+        "row": 7,
+        "rowsha": "MKL4UvvPo8tFDDp96um3T8ghAhFABn1DANUvbGSHFcA=",
+        "originContent": "| `-l`<br>`--selector`            | Selector (label query) to filter on, supports '=', '==', and '!='.(e.g. -l key1=value1,key2=value2)<br>You must either use `--selector` or `--file` option. |",
+        "translatedContent": "| `-f`<br>`--file`                | 파일에서 한 줄씩 파드 이름을 읽습니다.<br>`--selector` 또는 `--file` 옵션 중 하나를 사용해야 합니다.                                                        |"
+      },
+      {
+        "row": 8,
+        "rowsha": "RfqKV49c9e4btthAJVMT1jdVRRo1SEQaJKeVDvJImcg=",
+        "originContent": "| `-f`<br>`--file`                | Read pod names line-by-line from a file.<br>You must either use `--selector` or `--file` option.                                                            |",
+        "translatedContent": "| `-c`<br>`--container`           | 컨테이너 이름입니다. 생략 시 파드의 첫 번째 컨테이너가 선택됩니다                                                                                               |"
+      },
+      {
+        "row": 9,
+        "rowsha": "lrhBLSka/4/GTlzZ6y//dFKXAsu7nAAxYEGAx3SLVkw=",
+        "originContent": "| `-c`<br>`--container`           | Container name. If omitted, the first container in the pod will be chosen                                                                                   |",
+        "translatedContent": "| `-i`<br>`--stdin`               | 컨테이너에 표준 입력을 전달합니다 (**더 이상 권장되지 않음**, 기본적으로 활성화되어 있음)                                                                    |"
+      },
+      {
+        "row": 10,
+        "rowsha": "0NMEXU5E+9K0ZN/2kOM6TeLoY3eHMUHLjWMcgdkXVLY=",
+        "originContent": "| `-i`<br>`--stdin`               | Pass stdin to the container (**deprecated**, since it's enabled by default)                                                                                 |",
+        "translatedContent": "| `-t`<br>`--tty`                 | 표준 입력이 TTY임을 지정합니다 (**더 이상 권장되지 않음**, 기본적으로 활성화되어 있음)                                                                        |"
+      },
+      {
+        "row": 11,
+        "rowsha": "y3plWaLwgJNoJYzTwFgEKt7UaCYPNm2+S2YtMJ+69tQ=",
+        "originContent": "| `-t`<br>`--tty`                 | Stdin is a TTY (**deprecated**, since it's enabled by default)                                                                                              |",
+        "translatedContent": "| `-d`<br>`--detach`              | Tmux 세션을 분리(detached) 상태로 만듭니다                                                                                                                   |"
+      },
+      {
+        "row": 12,
+        "rowsha": "fNSo3DUbUq1mCqJ0DxYbBtsuvxZtq8M0FEV/1hRMqwY=",
+        "originContent": "| `-d`<br>`--detach`              | Make the Tmux session detached                                                                                                                              |",
+        "translatedContent": "| `-n`<br>`--namespace=`          | 이 CLI 요청의 네임스페이스 범위 (여러 번 적용 가능)                                                                                                          |"
+      },
+      {
+        "row": 13,
+        "rowsha": "YnpCiUv1/cvEmvADz5BHIsSlTkhrs+SC6dX2JzWn15g=",
+        "originContent": "| `-n`<br>`--namespace=`          | The namespace scope for this CLI request (can be applied multiple times)                                                                                    |",
+        "translatedContent": "| `--context`                     | 사용할 kubeconfig 컨텍스트 이름 (여러 번 적용 가능)                                                                                                         |"
+      },
+      {
+        "row": 14,
+        "rowsha": "6DC57MTUMtIjqsbRs+i/uAAcjRThqPjcomw3k3oPhcw=",
+        "originContent": "| `--context`                     | The name of the kubeconfig context to use (can be applied multiple times)                                                                                   |",
+        "translatedContent": "| `-A`<br>`--all-namespaces`      | 지정된 경우 모든 네임스페이스에서 요청한 객체를 나열 및 실행합니다. `--namespace`로 지정해도 현재 컨텍스트 네임스페이스는 무시됩니다.                         |"
+      },
+      {
+        "row": 15,
+        "rowsha": "/Kuz8DUCDACF1WuqmWn9KtS4vdqS9PxnhsfyfFs3y8k=",
+        "originContent": "| `-A`<br>`--all-namespaces`      | If present, list and execute the requested object(s) across all namespaces. Namespace in current context is ignored even if specified with --namespace.     |",
+        "translatedContent": "| `-C`<br>`--enable-control-mode` | tmux를 제어 모드로 시작하며 에코가 비활성화됩니다. ([iTerm2 통합](#iterm2-integration) 참고)                                                                  |"
+      },
+      {
+        "row": 16,
+        "rowsha": "4CMLZQ+brHIOTBU6V4t9L3vkYpq7rVg2FDToPNg9f24=",
+        "originContent": "| `-C`<br>`--enable-control-mode` | Start tmux in control mode and echo is disabled. (See: [iTerm2 Integration](#iterm2-integration))                                                           |",
+        "translatedContent": "| `--remain-on-exit`              | 종료 시에도 Tmux 창을 유지합니다                                                                                                                             |"
+      },
+      {
+        "row": 17,
+        "rowsha": "MOqlUDi2vjrCbTszR5nL/RcPF1PageTcdOMovhxHHzA=",
+        "originContent": "| `--remain-on-exit`              | Remain Tmux window on exit                                                                                                                                  |",
+        "translatedContent": "| `--select-layout`               | 다섯 가지 Tmux 사전 설정 레이아웃 중 하나: even-horizontal, even-vertical, main-horizontal, main-vertical, tiled                                            |"
+      },
+      {
+        "row": 18,
+        "rowsha": "D4WG2paujtxSbn79rx3vtGuB3mYew9ItmBjeb5OrQi8=",
+        "originContent": "| `--select-layout`               | One of the five Tmux preset layouts: even-horizontal, even-vertical, main-horizontal, main-vertical, or tiled.                                              |",
+        "translatedContent": "| `--session-mode`                | tmux가 열리는 위치: auto, new-session, current-session                                                                                                      |"
+      },
+      {
+        "row": 19,
+        "rowsha": "MRNjVUmwgF8akD8SB/XMqZGuBbO6+jRRkoE4VZ+T8qQ=",
+        "originContent": "| `--session-mode`                | Where tmux is opened: auto, new-session, current-session                                                                                                    |",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 옵션들의 사용법은 `--help`로도 확인할 수 있습니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "HxznjpC+qZfFCA9Q1oD1+Az65UStZPMiZ7uLrPREHk8=",
+        "originContent": "The usage of these options is also available by `--help`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 예제"
+      },
+      {
+        "row": 23,
+        "rowsha": "ubVEm05cwr9zkNMJhipJo9vwQDDsclfTaTISW9TgglY=",
+        "originContent": "### Example",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`tmux-exec`는 `exec`와 유사하지만, `exec`가 파드 이름을 요구하는 반면 `tmux-exec`는 라벨 셀렉터를 요구합니다."
+      },
+      {
+        "row": 25,
+        "rowsha": "ANl6dfOzyqqhQ+vdu7ygTp+zC1heeAvUpyshzfh0ejM=",
+        "originContent": "The `tmux-exec` is similar to `exec`, except that it requires label selectors while `exec` requires a pod name.",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "예를 들어, 공통 라벨 `foo=bar`를 가진 모든 파드 컨테이너에 `bash`로 접속하려면 다음과 같이 합니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "yaCWas9oozr2WXxGFKYJygjM7hoNw2KFmZ3iZasY6Tw=",
+        "originContent": "To `bash` into all pod containers that share some common labels, `foo=bar` for instance.",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```sh\nkubectl tmux-exec -l foo=bar /bin/bash\n```",
+    "ContentSha": "7cUqfgCma5IWXWgE4jpcjRPnCmrLNcVQafmB8Og9hd4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nkubectl tmux-exec -l foo=bar /bin/bash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "x1sTlFD9ZhFWFh/fSAdE/GWky8PyoFJ0iYEemLyuWHk=",
+        "originContent": "kubectl tmux-exec -l foo=bar /bin/bash",
+        "translatedContent": "kubectl tmux-exec -l foo=bar /bin/bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nAfter you have successfully `bash`-ed into your selected containers, a Tmux window is opened actually, where each pane displays the execution result of each pod's container. Your keyboard inputs will be synchronized to all those panes.\n\nIf you are not familar with Tmux, you can have a look at tmux's man page or online tutorials. Or you can see the [cheatsheet](#tmux-cheatsheet) below, which will be sufficient I think.\n\n### iTerm2 Integration\n\nWith `-C` or `--enable-control-mode`, it runs in control mode and delegates pane input to [iTerm2]'s \"Broadcast Input\" feature,\nno need for tmux key bindings.\n\nUse <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>i</kbd> to toggle broadcasting in iTerm2. (`synchronize-panes` will be disabled automatically in this mode.)\n\n(see: [tmux Integration](https://iterm2.com/documentation-tmux-integration.html) for more information)\n\n#### Example\n",
+    "ContentSha": "a9X2Uxria5qNqgDwSLI+IOtyFZdQwTKPaRHThiHAd54=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "선택한 컨테이너에 성공적으로 `bash` 접속을 완료하면, 실제로는 Tmux 창이 열리며 각 패인에는 각 파드의 컨테이너 실행 결과가 표시됩니다. 키보드 입력은 모든 패인에 동기화됩니다.\n\nTmux에 익숙하지 않다면 tmux 매뉴얼 페이지나 온라인 튜토리얼을 참고할 수 있습니다. 또는 아래 [치트시트](#tmux-cheatsheet)를 보면 충분할 것입니다.\n\n### iTerm2 통합\n\n`-C` 또는 `--enable-control-mode` 옵션을 사용하면 제어 모드로 실행되며, 패인 입력을 [iTerm2]의 \"Broadcast Input\" 기능에 위임합니다.  \ntmux 키 바인딩이 필요 없습니다.\n\niTerm2에서 <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>i</kbd>를 눌러 방송 모드를 토글할 수 있습니다. (이 모드에서는 `synchronize-panes`가 자동으로 비활성화됩니다.)\n\n(자세한 내용은 [tmux 통합](https://iterm2.com/documentation-tmux-integration.html)을 참조하세요)\n\n#### 예시\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "선택한 컨테이너에 성공적으로 `bash` 접속을 완료하면, 실제로는 Tmux 창이 열리며 각 패인에는 각 파드의 컨테이너 실행 결과가 표시됩니다. 키보드 입력은 모든 패인에 동기화됩니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "3icX0OMiQbmpIVqjkh2pjQKmY0t6Q3KKHFImyvz71uo=",
+        "originContent": "After you have successfully `bash`-ed into your selected containers, a Tmux window is opened actually, where each pane displays the execution result of each pod's container. Your keyboard inputs will be synchronized to all those panes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Tmux에 익숙하지 않다면 tmux 매뉴얼 페이지나 온라인 튜토리얼을 참고할 수 있습니다. 또는 아래 [치트시트](#tmux-cheatsheet)를 보면 충분할 것입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "hV0fi+SboX81fR56Xq+8cTBafQEkivOj7Kpqn+S5rQc=",
+        "originContent": "If you are not familar with Tmux, you can have a look at tmux's man page or online tutorials. Or you can see the [cheatsheet](#tmux-cheatsheet) below, which will be sufficient I think.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### iTerm2 통합"
+      },
+      {
+        "row": 6,
+        "rowsha": "AMQiCb/MMYDuaufslMxUEkSh9caIT5+IBa+WFjcl2RI=",
+        "originContent": "### iTerm2 Integration",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`-C` 또는 `--enable-control-mode` 옵션을 사용하면 제어 모드로 실행되며, 패인 입력을 [iTerm2]의 \"Broadcast Input\" 기능에 위임합니다.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "AQPH0NEXQ0cTUE2Uyvr6HG33kwseZpO1E/TUXe1wFa4=",
+        "originContent": "With `-C` or `--enable-control-mode`, it runs in control mode and delegates pane input to [iTerm2]'s \"Broadcast Input\" feature,",
+        "translatedContent": "tmux 키 바인딩이 필요 없습니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "9kfZNd6r3fEL76Xs9JCKwG2mjOfTXuHs24Fl1lWit6c=",
+        "originContent": "no need for tmux key bindings.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "iTerm2에서 <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>i</kbd>를 눌러 방송 모드를 토글할 수 있습니다. (이 모드에서는 `synchronize-panes`가 자동으로 비활성화됩니다.)"
+      },
+      {
+        "row": 11,
+        "rowsha": "i4fquK3ZObJNTm7EH04idUHGxV/GXVnmTyWfzZwPoN8=",
+        "originContent": "Use <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>i</kbd> to toggle broadcasting in iTerm2. (`synchronize-panes` will be disabled automatically in this mode.)",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "(자세한 내용은 [tmux 통합](https://iterm2.com/documentation-tmux-integration.html)을 참조하세요)"
+      },
+      {
+        "row": 13,
+        "rowsha": "zI+oIR9vRz2/jZfbDU5Q5mvPw+pBDXNaitJ0FDfs15w=",
+        "originContent": "(see: [tmux Integration](https://iterm2.com/documentation-tmux-integration.html) for more information)",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 예시"
+      },
+      {
+        "row": 15,
+        "rowsha": "HnIOopIvW2Nz5C2cohjLyx5EY5qk04S48HcxwuThTt8=",
+        "originContent": "#### Example",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```sh\nkubectl tmux-exec -C -l app=nginx /bin/bash\n```",
+    "ContentSha": "sywUmZ5K4QeCu1WZ/VF7dAvsStiy6gLWlQp4LFiwsMc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nkubectl tmux-exec -C -l app=nginx /bin/bash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "LrBU4RzKpajzRxqkeFPuobc4VF8OZoYpODdnVykCRs4=",
+        "originContent": "kubectl tmux-exec -C -l app=nginx /bin/bash",
+        "translatedContent": "kubectl tmux-exec -C -l app=nginx /bin/bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot-iterm2-integration.png?raw=true)\n\n### Shell Auto-completion\n\nPlease check [this wiki](https://github.com/predatorray/kubectl-tmux-exec/wiki/Shell-Auto-completion) for more information.\n\n### Tmux Cheatsheet\n\nAll Tmux command starts with a `PREFIX`. By default the `PREFIX` is <kbd>Ctrl</kbd> + <kbd>b</kbd>. I will use `C-b` below to stand for it.\n\n`C-b d`, detach from the session. After that, the Tmux will be running in the backgroud. You can type `tmux a` to re-attach.\n\n`C-b :setw synchronize-panes off`, turn off synchronizing inputs to all panes.\n\n`C-b :setw synchronize-panes on`, turn on synchronizing inputs to all panes.\n\n`C-b <ARROW-KEY>`, move cursor between panes.\n\n`C-b xy`, close the current pane.\n\n`C-b &y`, close the window including all panes.\n\n## Community & Support\n\n- File issues or feature requests via [GitHub Issues]((https://github.com/predatorray/kubectl-tmux-exec/issues/new))\n- Join the [Google Group](https://groups.google.com/g/kubectl-tmux-exec) for discussions\n\n## Other plugins\n\n[kubectl-alias](https://github.com/predatorray/kubectl-alias): the missing alias command for kubectl.\n\n## Buy Me a Coffee\n\nIf it saves you time, feel free to [buy me a coffee] 🙌\n\n[![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)][buy me a coffee]\n\n[buy me a coffee]: https://buymeacoffee.com/predatorray\n[iTerm2]: https://iterm2.com/index.html",
+    "ContentSha": "eowwmOOZkuYKVjEy26Q1w5wzqXx/ZjLzjEEoARFJJSs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot-iterm2-integration.png?raw=true)\n\n### 셸 자동완성\n\n자세한 내용은 [이 위키](https://github.com/predatorray/kubectl-tmux-exec/wiki/Shell-Auto-completion)를 확인하세요.\n\n### Tmux 단축키\n\n모든 Tmux 명령은 `PREFIX`로 시작합니다. 기본적으로 `PREFIX`는 <kbd>Ctrl</kbd> + <kbd>b</kbd>입니다. 아래에서는 이를 `C-b`로 표기하겠습니다.\n\n`C-b d`, 세션에서 분리(detach)합니다. 이후 Tmux는 백그라운드에서 실행됩니다. `tmux a`를 입력해 다시 연결할 수 있습니다.\n\n`C-b :setw synchronize-panes off`, 모든 창에 대한 입력 동기화를 해제합니다.\n\n`C-b :setw synchronize-panes on`, 모든 창에 대한 입력 동기화를 활성화합니다.\n\n`C-b <화살표 키>`, 창 간에 커서를 이동합니다.\n\n`C-b xy`, 현재 창을 닫습니다.\n\n`C-b &y`, 모든 창을 포함한 윈도우를 닫습니다.\n\n## 커뮤니티 및 지원\n\n- [GitHub Issues]((https://github.com/predatorray/kubectl-tmux-exec/issues/new))를 통해 이슈나 기능 요청을 제출하세요.\n- 토론을 위해 [Google Group](https://groups.google.com/g/kubectl-tmux-exec)에 참여하세요.\n\n## 기타 플러그인\n\n[kubectl-alias](https://github.com/predatorray/kubectl-alias): kubectl의 부족한 alias 명령어를 제공합니다.\n\n## 커피 한 잔 사주기\n\n시간을 절약해드렸다면, [커피 한 잔 사주기] 🙌를 부담 없이 이용하세요.\n\n[![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)][buy me a coffee]\n\n[buy me a coffee]: https://buymeacoffee.com/predatorray\n[iTerm2]: https://iterm2.com/index.html\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot-iterm2-integration.png?raw=true)"
+      },
+      {
+        "row": 2,
+        "rowsha": "UqeNMmOeF9UqeDWMvDHsA7Ult6Y184bEyyH4TsRyDSg=",
+        "originContent": "![screenshot](https://raw.githubusercontent.com/predatorray/kubectl-tmux-exec/master/../assets/screenshot-iterm2-integration.png?raw=true)",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 셸 자동완성"
+      },
+      {
+        "row": 4,
+        "rowsha": "F+ttunHf06ZaPrOdWVp7rcMl2OZYovpZ3IYIJ0ZD+C0=",
+        "originContent": "### Shell Auto-completion",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "자세한 내용은 [이 위키](https://github.com/predatorray/kubectl-tmux-exec/wiki/Shell-Auto-completion)를 확인하세요."
+      },
+      {
+        "row": 6,
+        "rowsha": "EwtYQZCCxZxZwp3YFoDBUI5A30ISENMQiP1HH2kzWyI=",
+        "originContent": "Please check [this wiki](https://github.com/predatorray/kubectl-tmux-exec/wiki/Shell-Auto-completion) for more information.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Tmux 단축키"
+      },
+      {
+        "row": 8,
+        "rowsha": "rpljwgqNpOA5Q8bc83EdK4ReFNwVzLYA3+t13C7S/nc=",
+        "originContent": "### Tmux Cheatsheet",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "모든 Tmux 명령은 `PREFIX`로 시작합니다. 기본적으로 `PREFIX`는 <kbd>Ctrl</kbd> + <kbd>b</kbd>입니다. 아래에서는 이를 `C-b`로 표기하겠습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "ZS4C3K3GUNC6upL7eLB8/1mBiek9OBVrqr5NTVVJPCQ=",
+        "originContent": "All Tmux command starts with a `PREFIX`. By default the `PREFIX` is <kbd>Ctrl</kbd> + <kbd>b</kbd>. I will use `C-b` below to stand for it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`C-b d`, 세션에서 분리(detach)합니다. 이후 Tmux는 백그라운드에서 실행됩니다. `tmux a`를 입력해 다시 연결할 수 있습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "rIqVS1odCF0gdWAVI0AGkKsfNq6iArvhqPboN3qPO/4=",
+        "originContent": "`C-b d`, detach from the session. After that, the Tmux will be running in the backgroud. You can type `tmux a` to re-attach.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`C-b :setw synchronize-panes off`, 모든 창에 대한 입력 동기화를 해제합니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "uz8VfTPP7uCzGieW3r7WSLLctCQA9WPaiQuHNdVABfU=",
+        "originContent": "`C-b :setw synchronize-panes off`, turn off synchronizing inputs to all panes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`C-b :setw synchronize-panes on`, 모든 창에 대한 입력 동기화를 활성화합니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "NBkLMdNHgn4nk9blJOPLA2abxZa7zlmryQnV/Q8RCi0=",
+        "originContent": "`C-b :setw synchronize-panes on`, turn on synchronizing inputs to all panes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`C-b <화살표 키>`, 창 간에 커서를 이동합니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "Y6PEyQLQjb+edpRoPlg5euUQ29fswx2nvoMFBRO5ZAU=",
+        "originContent": "`C-b <ARROW-KEY>`, move cursor between panes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`C-b xy`, 현재 창을 닫습니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "7TUzNgr997FfP9KHTkm69IDls9bhJqf2mg11rYY+1Y4=",
+        "originContent": "`C-b xy`, close the current pane.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`C-b &y`, 모든 창을 포함한 윈도우를 닫습니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "ExddxRpA8eqv8mJR5anU3iyVjC7AL/xWOk/fzHDM1yg=",
+        "originContent": "`C-b &y`, close the window including all panes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 커뮤니티 및 지원"
+      },
+      {
+        "row": 24,
+        "rowsha": "QU5m9onHlLoCxHsrRnis4/0DqXNCRgiWY5wdTp+I6pk=",
+        "originContent": "## Community & Support",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [GitHub Issues]((https://github.com/predatorray/kubectl-tmux-exec/issues/new))를 통해 이슈나 기능 요청을 제출하세요."
+      },
+      {
+        "row": 26,
+        "rowsha": "SggAqwxpcjwloXj0jxvQd1a6VQocNB5MI/9YTeKwQzk=",
+        "originContent": "- File issues or feature requests via [GitHub Issues]((https://github.com/predatorray/kubectl-tmux-exec/issues/new))",
+        "translatedContent": "- 토론을 위해 [Google Group](https://groups.google.com/g/kubectl-tmux-exec)에 참여하세요."
+      },
+      {
+        "row": 27,
+        "rowsha": "zzHDXAtpDwyuTHg2n6jQZ7529NaxxAuQRbkK9n6JWG0=",
+        "originContent": "- Join the [Google Group](https://groups.google.com/g/kubectl-tmux-exec) for discussions",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 기타 플러그인"
+      },
+      {
+        "row": 29,
+        "rowsha": "PEpVwy08WkMn8QPUlnbmhIrT2aZka3gzD3OF48K6wSs=",
+        "originContent": "## Other plugins",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[kubectl-alias](https://github.com/predatorray/kubectl-alias): kubectl의 부족한 alias 명령어를 제공합니다."
+      },
+      {
+        "row": 31,
+        "rowsha": "ijjIr76OblQBOGH/kHC/46MHjXM8lhkcm/9+aYJaYg0=",
+        "originContent": "[kubectl-alias](https://github.com/predatorray/kubectl-alias): the missing alias command for kubectl.",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 커피 한 잔 사주기"
+      },
+      {
+        "row": 33,
+        "rowsha": "Vm8vd33BZVkkwJGm0H6557aU5V8+Zb/eS4NUaNiStBg=",
+        "originContent": "## Buy Me a Coffee",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "시간을 절약해드렸다면, [커피 한 잔 사주기] 🙌를 부담 없이 이용하세요."
+      },
+      {
+        "row": 35,
+        "rowsha": "Lm2HzmCloeCVc5hhegUSrCx9Y8ngC6/TKhwtL8vP8NA=",
+        "originContent": "If it saves you time, feel free to [buy me a coffee] 🙌",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)][buy me a coffee]"
+      },
+      {
+        "row": 37,
+        "rowsha": "qnavRGDC+rqmIrCb8ovOfzgOFbEc+YQbWFPca0mhEKo=",
+        "originContent": "[![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)][buy me a coffee]",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[buy me a coffee]: https://buymeacoffee.com/predatorray"
+      },
+      {
+        "row": 39,
+        "rowsha": "A++XR4ilYlLzmphjLT9Kb4PNVQoKZ6XcnX2p0r0LyoY=",
+        "originContent": "[buy me a coffee]: https://buymeacoffee.com/predatorray",
+        "translatedContent": "[iTerm2]: https://iterm2.com/index.html"
+      },
+      {
+        "row": 40,
+        "rowsha": "kRezdE7GQmnCqW/0eoFfIOX8qAPtF4egCrnb0Cp57sE=",
+        "originContent": "[iTerm2]: https://iterm2.com/index.html",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "[plugin support]: https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/\n",
+    "ContentSha": "nY4s8mLQnseS6rETwgscJhNmdr16yR9gJYiEXdHMbTI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[플러그인 지원]: https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VQvPZ+3F/0GAkvbUkyuSqoJ9sbJfVBAIMOK8ngVRWAk=",
+        "originContent": "[plugin support]: https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/",
+        "translatedContent": "[플러그인 지원]: https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
