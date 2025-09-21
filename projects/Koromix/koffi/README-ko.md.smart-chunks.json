@@ -1,0 +1,364 @@
+[
+  {
+    "Id": 1,
+    "Content": "<a href=\"https://buymeacoffee.com/koromix\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/default-orange.png\" alt=\"Buy Me A Coffee\" height=\"41\" width=\"174\"></a>\n\n# Overview\n\nKoffi is a fast and easy-to-use C FFI module for Node.js, featuring:\n\n* Low-overhead and fast performance (see [benchmarks](https://koffi.dev/benchmarks))\n* Support for primitive and aggregate data types (structs and fixed-size arrays), both by reference (pointer) and by value\n* Javascript functions can be used as C callbacks (since 1.2.0)\n* Well-tested code base for popular OS/architecture combinations\n\nThe following combinations of OS and architectures __are officially supported and tested__ at the moment:\n\nISA / OS           | Windows     | Linux    | macOS       | FreeBSD     | OpenBSD\n------------------ | ----------- | -------- | ----------- | ----------- | --------\nx86 (IA32) [^1]    | ✅ Yes      | ✅ Yes   | ⬜️ *N/A*    | ✅ Yes      | ✅ Yes\nx86_64 (AMD64)     | ✅ Yes      | ✅ Yes   | ✅ Yes      | ✅ Yes      | ✅ Yes\nARM32 LE [^2]      | ⬜️ *N/A*    | ✅ Yes   | ⬜️ *N/A*    | 🟨 Probably | 🟨 Probably\nARM64 (AArch64) LE | ✅ Yes      | ✅ Yes   | ✅ Yes      | ✅ Yes      | 🟨 Probably\nRISC-V 64 [^3]     | ⬜️ *N/A*    | ✅ Yes   | ⬜️ *N/A*    | 🟨 Probably | 🟨 Probably\n\n[^1]: The following call conventions are supported: cdecl, stdcall, MS fastcall, thiscall.\n[^2]: The prebuilt binary uses the hard float ABI and expects a VFP coprocessor. Build from source to use Koffi with a different ABI (softfp, soft).\n[^3]: The prebuilt binary uses the LP64D (double-precision float) ABI. The LP64 ABI is supported in theory if you build Koffi from source but this is untested. The LP64F ABI is not supported.\n\nUse the following links for more information:\n\n- Documentation: https://koffi.dev/\n- Changelog: https://koffi.dev/changelog\n- Source code: https://codeberg.org/Koromix/rygel/ (see below for an explanation)\n\n# Source code\n\nThis repository does not contain the code of Koffi but only exists as a front. For pratical reasons, I've started using a single repository for all my projects in 2018 because it is easier to manage.\n\nThe source code is available here: https://codeberg.org/Koromix/rygel/ (in the *src/koffi* subdirectory).\n\nMonorepositories have two killer features for me:\n\n* Cross-project refactoring",
+    "ContentSha": "uwcH0Yxg3UVSry35W3CPZpfkOqsPhNPRIDAQq3zfoFc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<a href=\"https://buymeacoffee.com/koromix\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/default-orange.png\" alt=\"Buy Me A Coffee\" height=\"41\" width=\"174\"></a>\n\n# 개요\n\nKoffi는 Node.js용 빠르고 사용하기 쉬운 C FFI 모듈로, 다음과 같은 특징을 갖추고 있습니다:\n\n* 낮은 오버헤드와 빠른 성능 ([벤치마크](https://koffi.dev/benchmarks) 참고)\n* 원시 및 집합 데이터 타입(구조체 및 고정 크기 배열)을 참조(포인터) 및 값으로 지원\n* 자바스크립트 함수는 C 콜백으로 사용 가능(1.2.0부터)\n* 인기 있는 OS/아키텍처 조합에 대해 잘 테스트된 코드베이스\n\n현재 __공식적으로 지원 및 테스트된__ OS와 아키텍처 조합은 다음과 같습니다:\n\nISA / OS           | Windows     | Linux    | macOS       | FreeBSD     | OpenBSD\n------------------ | ----------- | -------- | ----------- | ----------- | --------\nx86 (IA32) [^1]    | ✅ 예       | ✅ 예   | ⬜️ *해당 없음* | ✅ 예       | ✅ 예\nx86_64 (AMD64)     | ✅ 예       | ✅ 예   | ✅ 예       | ✅ 예       | ✅ 예\nARM32 LE [^2]      | ⬜️ *해당 없음* | ✅ 예   | ⬜️ *해당 없음* | 🟨 아마도  | 🟨 아마도\nARM64 (AArch64) LE | ✅ 예       | ✅ 예   | ✅ 예       | ✅ 예       | 🟨 아마도\nRISC-V 64 [^3]     | ⬜️ *해당 없음* | ✅ 예   | ⬜️ *해당 없음* | 🟨 아마도  | 🟨 아마도\n\n[^1]: 다음 호출 규약을 지원합니다: cdecl, stdcall, MS fastcall, thiscall.\n[^2]: 사전 빌드된 바이너리는 하드 플로트 ABI를 사용하며 VFP 코프로세서를 요구합니다. 다른 ABI(softfp, soft)를 사용하려면 소스에서 빌드하십시오.\n[^3]: 사전 빌드된 바이너리는 LP64D(배정밀도 부동소수점) ABI를 사용합니다. LP64 ABI는 이론적으로 소스에서 빌드하면 지원되나 테스트되지 않았습니다. LP64F ABI는 지원하지 않습니다.\n\n자세한 정보는 다음 링크를 참고하세요:\n\n- 문서: https://koffi.dev/\n- 변경 로그: https://koffi.dev/changelog\n- 소스 코드: https://codeberg.org/Koromix/rygel/ (아래 설명 참조)\n\n# 소스 코드\n\n이 저장소는 Koffi 코드 자체를 포함하지 않고 프론트 역할만 합니다. 실용적인 이유로, 2018년부터 모든 프로젝트를 한 저장소에서 관리하는 방식을 사용하기 시작했습니다. 관리가 더 용이하기 때문입니다.\n\n소스 코드는 여기에서 확인할 수 있습니다: https://codeberg.org/Koromix/rygel/ (*src/koffi* 하위 디렉터리).\n\n모노레포지토리는 저에게 두 가지 강력한 기능을 제공합니다:\n\n* 프로젝트 간 리팩토링",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RGyYVC8JnTHZF0fnlyi91j9CPN0Q/4N+gOpuaMZ2Tso=",
+        "originContent": "<a href=\"https://buymeacoffee.com/koromix\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/default-orange.png\" alt=\"Buy Me A Coffee\" height=\"41\" width=\"174\"></a>",
+        "translatedContent": "<a href=\"https://buymeacoffee.com/koromix\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/default-orange.png\" alt=\"Buy Me A Coffee\" height=\"41\" width=\"174\"></a>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "4ct9hhrs3178ur7dMe6XCFewLuyUDXLAhXSnsbO99YA=",
+        "originContent": "# Overview",
+        "translatedContent": "# 개요"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "5x4wGUfeCdrgRFpY19uVuwVhtAL1mkGCyjhs4D8VLe4=",
+        "originContent": "Koffi is a fast and easy-to-use C FFI module for Node.js, featuring:",
+        "translatedContent": "Koffi는 Node.js용 빠르고 사용하기 쉬운 C FFI 모듈로, 다음과 같은 특징을 갖추고 있습니다:"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "wmmDK4bXZf41ug8HjPsJJB2nKrVWecq8JXsWOofi9QA=",
+        "originContent": "* Low-overhead and fast performance (see [benchmarks](https://koffi.dev/benchmarks))",
+        "translatedContent": "* 낮은 오버헤드와 빠른 성능 ([벤치마크](https://koffi.dev/benchmarks) 참고)"
+      },
+      {
+        "row": 8,
+        "rowsha": "WpWQTkbUHuZT9+hDOWEfJ48AVNMgAoZEQG8a7vGQj6A=",
+        "originContent": "* Support for primitive and aggregate data types (structs and fixed-size arrays), both by reference (pointer) and by value",
+        "translatedContent": "* 원시 및 집합 데이터 타입(구조체 및 고정 크기 배열)을 참조(포인터) 및 값으로 지원"
+      },
+      {
+        "row": 9,
+        "rowsha": "Uj9TOEnNvislcvD9/9V3I5E7QiH6U4/QSF1Jp9v/kYQ=",
+        "originContent": "* Javascript functions can be used as C callbacks (since 1.2.0)",
+        "translatedContent": "* 자바스크립트 함수는 C 콜백으로 사용 가능(1.2.0부터)"
+      },
+      {
+        "row": 10,
+        "rowsha": "/4jgkFhFI+EZbRpTHR90bMuVyxyKtCZS+3ipgwyJqBU=",
+        "originContent": "* Well-tested code base for popular OS/architecture combinations",
+        "translatedContent": "* 인기 있는 OS/아키텍처 조합에 대해 잘 테스트된 코드베이스"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "HEYsKuZDLGzZ6cKVwhvW4N/hsmhjm9+mADPO5sU47zA=",
+        "originContent": "The following combinations of OS and architectures __are officially supported and tested__ at the moment:",
+        "translatedContent": "현재 __공식적으로 지원 및 테스트된__ OS와 아키텍처 조합은 다음과 같습니다:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "EUwPAcp6I8AlDDlYIsMa90ONs18siEyyhwf+yA0Rrs4=",
+        "originContent": "ISA / OS           | Windows     | Linux    | macOS       | FreeBSD     | OpenBSD",
+        "translatedContent": "ISA / OS           | Windows     | Linux    | macOS       | FreeBSD     | OpenBSD"
+      },
+      {
+        "row": 15,
+        "rowsha": "4zTtNnAGIgx1lGRmfP5ESTf4TLg0ybmQoGIYxluQh7Y=",
+        "originContent": "------------------ | ----------- | -------- | ----------- | ----------- | --------",
+        "translatedContent": "------------------ | ----------- | -------- | ----------- | ----------- | --------"
+      },
+      {
+        "row": 16,
+        "rowsha": "Q7qhWkOxVh/Hm76Dno5vKXYaOu43IvTlrZckvrszA88=",
+        "originContent": "x86 (IA32) [^1]    | ✅ Yes      | ✅ Yes   | ⬜️ *N/A*    | ✅ Yes      | ✅ Yes",
+        "translatedContent": "x86 (IA32) [^1]    | ✅ 예       | ✅ 예   | ⬜️ *해당 없음* | ✅ 예       | ✅ 예"
+      },
+      {
+        "row": 17,
+        "rowsha": "3cBORtYzlE2VKDr8YlVokN1DdUWNgZJSRjTAqm3oSDI=",
+        "originContent": "x86_64 (AMD64)     | ✅ Yes      | ✅ Yes   | ✅ Yes      | ✅ Yes      | ✅ Yes",
+        "translatedContent": "x86_64 (AMD64)     | ✅ 예       | ✅ 예   | ✅ 예       | ✅ 예       | ✅ 예"
+      },
+      {
+        "row": 18,
+        "rowsha": "Z41Ewj4RO8WmFuFu5Tu45+CFf/R8jFl6ii4hTObO94Q=",
+        "originContent": "ARM32 LE [^2]      | ⬜️ *N/A*    | ✅ Yes   | ⬜️ *N/A*    | 🟨 Probably | 🟨 Probably",
+        "translatedContent": "ARM32 LE [^2]      | ⬜️ *해당 없음* | ✅ 예   | ⬜️ *해당 없음* | 🟨 아마도  | 🟨 아마도"
+      },
+      {
+        "row": 19,
+        "rowsha": "lRDFNm9Bk54BuiqE3jz5AvG1ph1mwv61b5FSjefWNSs=",
+        "originContent": "ARM64 (AArch64) LE | ✅ Yes      | ✅ Yes   | ✅ Yes      | ✅ Yes      | 🟨 Probably",
+        "translatedContent": "ARM64 (AArch64) LE | ✅ 예       | ✅ 예   | ✅ 예       | ✅ 예       | 🟨 아마도"
+      },
+      {
+        "row": 20,
+        "rowsha": "rhB/lEV8AdEbUmXTZcmNBOTbbWg7w0lOYGVz2SX2VtQ=",
+        "originContent": "RISC-V 64 [^3]     | ⬜️ *N/A*    | ✅ Yes   | ⬜️ *N/A*    | 🟨 Probably | 🟨 Probably",
+        "translatedContent": "RISC-V 64 [^3]     | ⬜️ *해당 없음* | ✅ 예   | ⬜️ *해당 없음* | 🟨 아마도  | 🟨 아마도"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Cc3gcpGL+EFHK6JyJUT6GGhtzZVw3QLeCFV4XoXQ31Q=",
+        "originContent": "[^1]: The following call conventions are supported: cdecl, stdcall, MS fastcall, thiscall.",
+        "translatedContent": "[^1]: 다음 호출 규약을 지원합니다: cdecl, stdcall, MS fastcall, thiscall."
+      },
+      {
+        "row": 23,
+        "rowsha": "eQBVrhWmxnTTtG2HGDIgdMf2rwy0l7whZYje7cjTd88=",
+        "originContent": "[^2]: The prebuilt binary uses the hard float ABI and expects a VFP coprocessor. Build from source to use Koffi with a different ABI (softfp, soft).",
+        "translatedContent": "[^2]: 사전 빌드된 바이너리는 하드 플로트 ABI를 사용하며 VFP 코프로세서를 요구합니다. 다른 ABI(softfp, soft)를 사용하려면 소스에서 빌드하십시오."
+      },
+      {
+        "row": 24,
+        "rowsha": "YryiO2Wv47pfsZNqLLOJveZiN/Qy6H9pAa9myz3LVGg=",
+        "originContent": "[^3]: The prebuilt binary uses the LP64D (double-precision float) ABI. The LP64 ABI is supported in theory if you build Koffi from source but this is untested. The LP64F ABI is not supported.",
+        "translatedContent": "[^3]: 사전 빌드된 바이너리는 LP64D(배정밀도 부동소수점) ABI를 사용합니다. LP64 ABI는 이론적으로 소스에서 빌드하면 지원되나 테스트되지 않았습니다. LP64F ABI는 지원하지 않습니다."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "veK6SMvwJrcaZec71i/1wcukqFVFCSW057CK2UZMx9k=",
+        "originContent": "Use the following links for more information:",
+        "translatedContent": "자세한 정보는 다음 링크를 참고하세요:"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "8cArGpd/qe6BV4JhRlKC61dG8m1F3BMQYrKJTaBH25w=",
+        "originContent": "- Documentation: https://koffi.dev/",
+        "translatedContent": "- 문서: https://koffi.dev/"
+      },
+      {
+        "row": 29,
+        "rowsha": "GenaM38Hjbb26qLmAXtv0Hiacxs9hqUSTJsEX97ZeAk=",
+        "originContent": "- Changelog: https://koffi.dev/changelog",
+        "translatedContent": "- 변경 로그: https://koffi.dev/changelog"
+      },
+      {
+        "row": 30,
+        "rowsha": "0XjE7uEYZCkja8CjAV05xx8mCusXijk2u9P3v0YJEuw=",
+        "originContent": "- Source code: https://codeberg.org/Koromix/rygel/ (see below for an explanation)",
+        "translatedContent": "- 소스 코드: https://codeberg.org/Koromix/rygel/ (아래 설명 참조)"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "+a3E+lrkpozoR9RXrfwgGqZq+s7FO+pdZyehNheqhMU=",
+        "originContent": "# Source code",
+        "translatedContent": "# 소스 코드"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "+hn6wm+oQ77IMrvVx6kUYS6XV7ihbZNZFYSXYbaB5hk=",
+        "originContent": "This repository does not contain the code of Koffi but only exists as a front. For pratical reasons, I've started using a single repository for all my projects in 2018 because it is easier to manage.",
+        "translatedContent": "이 저장소는 Koffi 코드 자체를 포함하지 않고 프론트 역할만 합니다. 실용적인 이유로, 2018년부터 모든 프로젝트를 한 저장소에서 관리하는 방식을 사용하기 시작했습니다. 관리가 더 용이하기 때문입니다."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "I1Pim82VLWqLsiu2ToNgOypRoPslpxBhGypxTNEFuNg=",
+        "originContent": "The source code is available here: https://codeberg.org/Koromix/rygel/ (in the *src/koffi* subdirectory).",
+        "translatedContent": "소스 코드는 여기에서 확인할 수 있습니다: https://codeberg.org/Koromix/rygel/ (*src/koffi* 하위 디렉터리)."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "duc97wjuQEgpprH55+ApskjhSsBJui1y/524MXNAndw=",
+        "originContent": "Monorepositories have two killer features for me:",
+        "translatedContent": "모노레포지토리는 저에게 두 가지 강력한 기능을 제공합니다:"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "F0tisnpc8NUbba2XCh+Fl8DR2JrrgqurVTnwvHD9a1A=",
+        "originContent": "* Cross-project refactoring",
+        "translatedContent": "* 프로젝트 간 리팩토링"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "* Simplified dependency management\n\nYou can find a more detailed rationale here: https://danluu.com/monorepo/\n\n# Build manually\n\nKoffi is built with a custom CMake-wrapper called CNoke, which also lives in the monorepository. Don't try to run CMake manually because it will fail.\n\nFollow the [documented build instructions](https://koffi.dev/contribute#build-from-source) to build Koffi from source.\n\n# License\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the **MIT License**.\n\nFind more information here: https://choosealicense.com/licenses/mit/\n",
+    "ContentSha": "JFTApetlgyfvUF6m7gejYRL+5oZrjNiiPTf/fC7g6FM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* 간소화된 의존성 관리\n\n더 자세한 이유는 여기에서 확인할 수 있습니다: https://danluu.com/monorepo/\n\n# 수동 빌드\n\nKoffi는 CNoke라는 맞춤형 CMake 래퍼로 빌드되며, 이 래퍼 또한 모노레포지토리에 포함되어 있습니다. CMake를 직접 실행하려고 하면 실패하니 시도하지 마십시오.\n\n[Koffi를 소스에서 빌드하는 문서화된 지침](https://koffi.dev/contribute#build-from-source)을 따라 빌드하십시오.\n\n# 라이선스\n\n이 프로그램은 자유 소프트웨어입니다: **MIT 라이선스** 조건에 따라 재배포 및 수정할 수 있습니다.\n\n자세한 정보는 여기에서 확인하세요: https://choosealicense.com/licenses/mit/\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "IJk6BjkPnGy8k/syVVGVtKkAV1gi42R5s+5NSdwY9Cg=",
+        "originContent": "* Simplified dependency management",
+        "translatedContent": "* 간소화된 의존성 관리"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "J/JTcnjq5XPoQxTG3WVwxLoGka4Q1SrJv/K0OcOlQzo=",
+        "originContent": "You can find a more detailed rationale here: https://danluu.com/monorepo/",
+        "translatedContent": "더 자세한 이유는 여기에서 확인할 수 있습니다: https://danluu.com/monorepo/"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "8JFkojqzU/aFVzHkxpyB+joR+D4BE1Te4BwN7wzwH/o=",
+        "originContent": "# Build manually",
+        "translatedContent": "# 수동 빌드"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "t6ww6dDmKSodkcJVzOCrkU7xE65LuI1M0mvNd8Ch/rk=",
+        "originContent": "Koffi is built with a custom CMake-wrapper called CNoke, which also lives in the monorepository. Don't try to run CMake manually because it will fail.",
+        "translatedContent": "Koffi는 CNoke라는 맞춤형 CMake 래퍼로 빌드되며, 이 래퍼 또한 모노레포지토리에 포함되어 있습니다. CMake를 직접 실행하려고 하면 실패하니 시도하지 마십시오."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "iw6F3RouBQoLdqe6t1u8quo42HcIU/8u46K6WW7IFj0=",
+        "originContent": "Follow the [documented build instructions](https://koffi.dev/contribute#build-from-source) to build Koffi from source.",
+        "translatedContent": "[Koffi를 소스에서 빌드하는 문서화된 지침](https://koffi.dev/contribute#build-from-source)을 따라 빌드하십시오."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "7Qo8+NblMV+ve9U8YJCAOSzx5hR1PsQgmN0TGjFj2ls=",
+        "originContent": "# License",
+        "translatedContent": "# 라이선스"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "wXfO9KGkBMTvB1TCYMnGB0go0jKtQcfSsnNvH1j9TxI=",
+        "originContent": "This program is free software: you can redistribute it and/or modify it under the terms of the **MIT License**.",
+        "translatedContent": "이 프로그램은 자유 소프트웨어입니다: **MIT 라이선스** 조건에 따라 재배포 및 수정할 수 있습니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "h3ZvtTjajVp31aqdme6s/a+cM95sJe6dwBn4RDHwYDU=",
+        "originContent": "Find more information here: https://choosealicense.com/licenses/mit/",
+        "translatedContent": "자세한 정보는 여기에서 확인하세요: https://choosealicense.com/licenses/mit/"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

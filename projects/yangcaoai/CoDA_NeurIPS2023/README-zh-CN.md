@@ -117,6 +117,6 @@ CoDA 的灵感来自 [CLIP](https://github.com/openai/CLIP) 和 [3DETR](https://
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-20
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-21
 
 ---
