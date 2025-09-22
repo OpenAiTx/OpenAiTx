@@ -1,0 +1,1477 @@
+[
+  {
+    "Id": 1,
+    "Content": "# BookHaven\n\n![BookHaven Home](https://raw.githubusercontent.com/HrBingR/BookHaven/master/./bookhaven_home.png)\n\n## Table of Contents\n1. [What the Application Does](#what-the-application-does)\n2. [Features](#features)\n3. [Deployment](#deployment)\n   - [Docker](#docker)\n   - [Development](#development)\n4. [Building the Application](#building-the-application)\n5. [Change log](#change-log)\n\n\n## What the Application Does\nBookHaven scans and manages your local library of EPUB ebooks, and allows you to read and download your ebooks on any of your devices, with a sleek, modern, and responsive interface.\n\n## Features\n- **Read eBooks in the Browser**\n  Users can access and read their EPUB-formatted eBooks directly without any additional software.\n- **Download eBooks**\n  Easily download a copy of any eBook in the collection to your device.\n- **Non-Destructive Metadata Editing**\n  Changes to eBook metadata (e.g., title, author, series) are stored in the database, leaving the original EPUB files untouched.\n- **Automatic or Manual Library Scanning**\n  Once deployed the app will periodically, on a configurable interval, scan your library for any changes, while also allowing for manual library scans.\n- **Home Page with Alphabetical Sorting**\n  Books are sorted first alphabetically by their author and then by series, offering a clean and intuitive browsing experience.\n- **Powerful Search**\n  The search feature on the home page allows users to filter their library by author, book title, or series, helping locate specific content quickly.\n- **Filters**\n  Basic filters are made available to allow filtering for books marked as favorite, as finished, or books that haven't been marked as finished.\n- **Author Page with Intuitive Navigation**\n  A dedicated author page organizes authors into a clickable alphabetical grid. Users can click on a letter to expand its list of authors, navigate to an author's page, and view their books sorted alphabetically by series and standalone titles.\n- **Supports CloudFlare Access**\n  Has a flag to bypass the login screen when making use of CloudFlare Access. See `.env.example` for details.\n- **OIDC Support**\n  Allows for the configuration of OIDC for new user registration, and for existing users.\n- **OPDS Support**\n  Use your favorite OPDS-compatible e-reader or app to browse, download, and read books from your library.",
+    "ContentSha": "oGWXAmoophY2GbNxZ0UuqTM3aFVFa/ZOTyWY9jM9Jt4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# BookHaven\n\n![BookHaven Accueil](https://raw.githubusercontent.com/HrBingR/BookHaven/master/./bookhaven_home.png)\n\n## Table des Matières\n1. [Ce que fait l'application](#what-the-application-does)\n2. [Fonctionnalités](#features)\n3. [Déploiement](#deployment)\n   - [Docker](#docker)\n   - [Développement](#development)\n4. [Compilation de l'application](#building-the-application)\n5. [Journal des modifications](#change-log)\n\n\n## Ce que fait l'application\nBookHaven analyse et gère votre bibliothèque locale d’ebooks EPUB, et vous permet de lire et télécharger vos ebooks sur n’importe lequel de vos appareils, avec une interface élégante, moderne et réactive.\n\n## Fonctionnalités\n- **Lire des eBooks dans le navigateur**\n  Les utilisateurs peuvent accéder et lire leurs eBooks au format EPUB directement sans aucun logiciel supplémentaire.\n- **Télécharger des eBooks**\n  Téléchargez facilement une copie de n’importe quel eBook de la collection sur votre appareil.\n- **Édition non destructive des métadonnées**\n  Les modifications des métadonnées des eBooks (par exemple, titre, auteur, série) sont stockées dans la base de données, sans toucher aux fichiers EPUB originaux.\n- **Analyse automatique ou manuelle de la bibliothèque**\n  Une fois déployée, l’application analysera périodiquement, à un intervalle configurable, votre bibliothèque pour détecter les changements, tout en permettant aussi des analyses manuelles.\n- **Page d’accueil avec tri alphabétique**\n  Les livres sont triés d’abord alphabétiquement par auteur puis par série, offrant une expérience de navigation propre et intuitive.\n- **Recherche puissante**\n  La fonction de recherche sur la page d’accueil permet aux utilisateurs de filtrer leur bibliothèque par auteur, titre du livre ou série, facilitant la localisation rapide de contenu spécifique.\n- **Filtres**\n  Des filtres basiques sont disponibles pour permettre de filtrer les livres marqués comme favoris, comme terminés, ou les livres non marqués comme terminés.\n- **Page auteur avec navigation intuitive**\n  Une page dédiée aux auteurs organise ceux-ci en une grille alphabétique cliquable. Les utilisateurs peuvent cliquer sur une lettre pour développer la liste des auteurs, naviguer vers la page d’un auteur, et voir ses livres triés alphabétiquement par série et titres indépendants.\n- **Support de CloudFlare Access**\n  Possède un flag pour contourner l’écran de connexion lors de l’utilisation de CloudFlare Access. Voir `.env.example` pour les détails.\n- **Support OIDC**\n  Permet la configuration de l’OIDC pour l’enregistrement de nouveaux utilisateurs, ainsi que pour les utilisateurs existants.\n- **Support OPDS**\n  Utilisez votre lecteur ou application compatible OPDS préféré pour parcourir, télécharger et lire les livres de votre bibliothèque.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "sJGFmM/QnuHNwMahkFE4DnC0uzcMR0zgYvOoujrM3tE=",
+        "originContent": "# BookHaven",
+        "translatedContent": "# BookHaven"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "vPoPHnl0xG2PRl7t6t8qITagA3Okt0JtcFkCNOfVN2w=",
+        "originContent": "![BookHaven Home](https://raw.githubusercontent.com/HrBingR/BookHaven/master/./bookhaven_home.png)",
+        "translatedContent": "![BookHaven Accueil](https://raw.githubusercontent.com/HrBingR/BookHaven/master/./bookhaven_home.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## Table des Matières"
+      },
+      {
+        "row": 6,
+        "rowsha": "HBuIiRWUebF04dON8buURYj473LsfB+nSUCp/mFbHPM=",
+        "originContent": "1. [What the Application Does](#what-the-application-does)",
+        "translatedContent": "1. [Ce que fait l'application](#what-the-application-does)"
+      },
+      {
+        "row": 7,
+        "rowsha": "2N6OxTmyMluMgAcQ272bpv1jFbLyIVQs/3y+YFy2Klc=",
+        "originContent": "2. [Features](#features)",
+        "translatedContent": "2. [Fonctionnalités](#features)"
+      },
+      {
+        "row": 8,
+        "rowsha": "ORwjclsYTscwMRJrlEbiDPwhfK+tOWGenuNaJMlw5Q0=",
+        "originContent": "3. [Deployment](#deployment)",
+        "translatedContent": "3. [Déploiement](#deployment)"
+      },
+      {
+        "row": 9,
+        "rowsha": "7x5aSn6Awy9v1MBroaksY7T3tiU9pf0jPv+xG4vZhqg=",
+        "originContent": "   - [Docker](#docker)",
+        "translatedContent": "   - [Docker](#docker)"
+      },
+      {
+        "row": 10,
+        "rowsha": "UvibBdait8U9TrlMq50zabyAypDk6CVQXrgU44FGano=",
+        "originContent": "   - [Development](#development)",
+        "translatedContent": "   - [Développement](#development)"
+      },
+      {
+        "row": 11,
+        "rowsha": "okmSqXLAsUhV07I9nw4DfZ+Og8fzffO6pBEB3RdqjGw=",
+        "originContent": "4. [Building the Application](#building-the-application)",
+        "translatedContent": "4. [Compilation de l'application](#building-the-application)"
+      },
+      {
+        "row": 12,
+        "rowsha": "Kngo7p+X4pePUnBA+D1gsSwwOneUNOKvxX92LPU4ArU=",
+        "originContent": "5. [Change log](#change-log)",
+        "translatedContent": "5. [Journal des modifications](#change-log)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "fjHrB0RuUznzTW9ozk4LMI6Tx/H3j83/5IowvlSw43I=",
+        "originContent": "## What the Application Does",
+        "translatedContent": "## Ce que fait l'application"
+      },
+      {
+        "row": 16,
+        "rowsha": "YZy6G0L9oSWQW2xD2OR4pSuDkw5BNWR1dcm1T5itoMA=",
+        "originContent": "BookHaven scans and manages your local library of EPUB ebooks, and allows you to read and download your ebooks on any of your devices, with a sleek, modern, and responsive interface.",
+        "translatedContent": "BookHaven analyse et gère votre bibliothèque locale d’ebooks EPUB, et vous permet de lire et télécharger vos ebooks sur n’importe lequel de vos appareils, avec une interface élégante, moderne et réactive."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Fonctionnalités"
+      },
+      {
+        "row": 19,
+        "rowsha": "0a5TANcdHg56oxN904T5uFaXEwC23XyiuyDuwm8fyd0=",
+        "originContent": "- **Read eBooks in the Browser**",
+        "translatedContent": "- **Lire des eBooks dans le navigateur**"
+      },
+      {
+        "row": 20,
+        "rowsha": "i9B4AXPe1IznQ1Bx9v1m3hFhESAPOIYzv1w/MmPsGaE=",
+        "originContent": "  Users can access and read their EPUB-formatted eBooks directly without any additional software.",
+        "translatedContent": "  Les utilisateurs peuvent accéder et lire leurs eBooks au format EPUB directement sans aucun logiciel supplémentaire."
+      },
+      {
+        "row": 21,
+        "rowsha": "Ua7whkeEACOhvWc3bHjwKGmv/9luIJ2JUjZ2O2dJowQ=",
+        "originContent": "- **Download eBooks**",
+        "translatedContent": "- **Télécharger des eBooks**"
+      },
+      {
+        "row": 22,
+        "rowsha": "5OTN8YijyotrU60Cti/QSR+kKQxeTGF3VYLOecYd2ls=",
+        "originContent": "  Easily download a copy of any eBook in the collection to your device.",
+        "translatedContent": "  Téléchargez facilement une copie de n’importe quel eBook de la collection sur votre appareil."
+      },
+      {
+        "row": 23,
+        "rowsha": "6bhNC8725+b0kGaV2JKqUA769Qz3NX9aeFIIwifKmwc=",
+        "originContent": "- **Non-Destructive Metadata Editing**",
+        "translatedContent": "- **Édition non destructive des métadonnées**"
+      },
+      {
+        "row": 24,
+        "rowsha": "10fL0cuyc7FnwzII4lUIsUz68rAkcKlcEXb+Nzvl2wE=",
+        "originContent": "  Changes to eBook metadata (e.g., title, author, series) are stored in the database, leaving the original EPUB files untouched.",
+        "translatedContent": "  Les modifications des métadonnées des eBooks (par exemple, titre, auteur, série) sont stockées dans la base de données, sans toucher aux fichiers EPUB originaux."
+      },
+      {
+        "row": 25,
+        "rowsha": "0jFhe8SnTmGCO1BqZBIC/XUdrM8rz117mKHWfk2MguA=",
+        "originContent": "- **Automatic or Manual Library Scanning**",
+        "translatedContent": "- **Analyse automatique ou manuelle de la bibliothèque**"
+      },
+      {
+        "row": 26,
+        "rowsha": "gbmV0yq+SbH2ArbgDadZxBLczto6AhGM/d8ZOjUH2pk=",
+        "originContent": "  Once deployed the app will periodically, on a configurable interval, scan your library for any changes, while also allowing for manual library scans.",
+        "translatedContent": "  Une fois déployée, l’application analysera périodiquement, à un intervalle configurable, votre bibliothèque pour détecter les changements, tout en permettant aussi des analyses manuelles."
+      },
+      {
+        "row": 27,
+        "rowsha": "RM7vm0saML9ae5Sch+nYBzdWga84xSNMYF+xUKWNSKo=",
+        "originContent": "- **Home Page with Alphabetical Sorting**",
+        "translatedContent": "- **Page d’accueil avec tri alphabétique**"
+      },
+      {
+        "row": 28,
+        "rowsha": "aoEyCLB62B8Y2ku7lE3CFVwew6Biil44xeXIecZc6Z8=",
+        "originContent": "  Books are sorted first alphabetically by their author and then by series, offering a clean and intuitive browsing experience.",
+        "translatedContent": "  Les livres sont triés d’abord alphabétiquement par auteur puis par série, offrant une expérience de navigation propre et intuitive."
+      },
+      {
+        "row": 29,
+        "rowsha": "QoC3vZBVVozqM1j3FuBanRQUyphWKGjjvT9rA6qHGvU=",
+        "originContent": "- **Powerful Search**",
+        "translatedContent": "- **Recherche puissante**"
+      },
+      {
+        "row": 30,
+        "rowsha": "xLc0dzmKAPDJkXc2PE2VBvAVufNaAFOdQVlnZPAYg/A=",
+        "originContent": "  The search feature on the home page allows users to filter their library by author, book title, or series, helping locate specific content quickly.",
+        "translatedContent": "  La fonction de recherche sur la page d’accueil permet aux utilisateurs de filtrer leur bibliothèque par auteur, titre du livre ou série, facilitant la localisation rapide de contenu spécifique."
+      },
+      {
+        "row": 31,
+        "rowsha": "kL04KsP0vZNhXULB39t4kbDH68l3rcWwfiRgFNcuW0M=",
+        "originContent": "- **Filters**",
+        "translatedContent": "- **Filtres**"
+      },
+      {
+        "row": 32,
+        "rowsha": "BqjuIIg1m1N1zsEgwTE4tF4O7lzBlFuexutm2BGAJ/Y=",
+        "originContent": "  Basic filters are made available to allow filtering for books marked as favorite, as finished, or books that haven't been marked as finished.",
+        "translatedContent": "  Des filtres basiques sont disponibles pour permettre de filtrer les livres marqués comme favoris, comme terminés, ou les livres non marqués comme terminés."
+      },
+      {
+        "row": 33,
+        "rowsha": "QyLcQGPu6PxEPfAKm0WrvZjDxXkzQML4SaVIwFYl13I=",
+        "originContent": "- **Author Page with Intuitive Navigation**",
+        "translatedContent": "- **Page auteur avec navigation intuitive**"
+      },
+      {
+        "row": 34,
+        "rowsha": "Q5vb5Mjf5MkGcVBP9NS14OnAgWxkytTINI58m8mC2bM=",
+        "originContent": "  A dedicated author page organizes authors into a clickable alphabetical grid. Users can click on a letter to expand its list of authors, navigate to an author's page, and view their books sorted alphabetically by series and standalone titles.",
+        "translatedContent": "  Une page dédiée aux auteurs organise ceux-ci en une grille alphabétique cliquable. Les utilisateurs peuvent cliquer sur une lettre pour développer la liste des auteurs, naviguer vers la page d’un auteur, et voir ses livres triés alphabétiquement par série et titres indépendants."
+      },
+      {
+        "row": 35,
+        "rowsha": "IFR9O0L/waRItJ03u+fE9eBVwQM/R5xyrzQo6Ek56mk=",
+        "originContent": "- **Supports CloudFlare Access**",
+        "translatedContent": "- **Support de CloudFlare Access**"
+      },
+      {
+        "row": 36,
+        "rowsha": "8+gJKNom4gvYQT97zBK1EHtEQt1ZpLSyL14+Q4yHncc=",
+        "originContent": "  Has a flag to bypass the login screen when making use of CloudFlare Access. See `.env.example` for details.",
+        "translatedContent": "  Possède un flag pour contourner l’écran de connexion lors de l’utilisation de CloudFlare Access. Voir `.env.example` pour les détails."
+      },
+      {
+        "row": 37,
+        "rowsha": "WdrlQuHx950Zj33I8C3XzaxuxWPM97HwOScj82BAf9A=",
+        "originContent": "- **OIDC Support**",
+        "translatedContent": "- **Support OIDC**"
+      },
+      {
+        "row": 38,
+        "rowsha": "pGSDhyGBKRHEx1zH02LILVzgaWBbU8nyz68v6BmNtXU=",
+        "originContent": "  Allows for the configuration of OIDC for new user registration, and for existing users.",
+        "translatedContent": "  Permet la configuration de l’OIDC pour l’enregistrement de nouveaux utilisateurs, ainsi que pour les utilisateurs existants."
+      },
+      {
+        "row": 39,
+        "rowsha": "kLC2WI957eUUwpoeUzSbmVLtapt0Tb0UxWTp4Gi4G+s=",
+        "originContent": "- **OPDS Support**",
+        "translatedContent": "- **Support OPDS**"
+      },
+      {
+        "row": 40,
+        "rowsha": "GNxTTXtidU7aH/SEHBFGDYGjh9xgH2otyS839etmrB0=",
+        "originContent": "  Use your favorite OPDS-compatible e-reader or app to browse, download, and read books from your library.",
+        "translatedContent": "  Utilisez votre lecteur ou application compatible OPDS préféré pour parcourir, télécharger et lire les livres de votre bibliothèque."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- **Uploads**\n  Users can now upload ebooks directly via the user interface, with a post-upload form to fix the metadata.\n- **Basic RBAC Support**\n  Admins can now give users different roles with different levels of access.\n- **Book Requests**\n  Users can now request specific books they'd like to see on the site. Admins and editors can view and resolve these requests once uploaded/added.\n\n## Deployment\n\n### Requirements\n\nAt a minimum to run the application you require:\n\n- A database (MySQL, SQLite, PostgreSQL)\n- A Redis instance\n\nFor quick and easy deployment the .compose.yml.example defines both of these already.\n\n### Docker\nFollow these steps to deploy the application with Docker Compose:\n1. **Download Configuration Files**\nDownload or clone the repository to get `compose.yml.example` and `.env.example`.\n\n2. **Rename the Example Files**",
+    "ContentSha": "oYFjDfK65oq1+ML5x5NitUNZbciThKbRZ83CiVndjKI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **Téléversements**  \n  Les utilisateurs peuvent désormais téléverser des ebooks directement via l'interface utilisateur, avec un formulaire post-téléversement pour corriger les métadonnées.  \n- **Support RBAC de base**  \n  Les administrateurs peuvent désormais attribuer aux utilisateurs différents rôles avec différents niveaux d'accès.  \n- **Demandes de livres**  \n  Les utilisateurs peuvent désormais demander des livres spécifiques qu'ils aimeraient voir sur le site. Les administrateurs et éditeurs peuvent consulter et traiter ces demandes une fois les livres téléversés/ajoutés.  \n\n## Déploiement  \n\n### Exigences  \n\nPour exécuter l'application, vous avez au minimum besoin de :  \n\n- Une base de données (MySQL, SQLite, PostgreSQL)  \n- Une instance Redis  \n\nPour un déploiement rapide et facile, le fichier `.compose.yml.example` définit déjà ces deux éléments.  \n\n### Docker  \nSuivez ces étapes pour déployer l'application avec Docker Compose :  \n1. **Téléchargez les fichiers de configuration**  \nTéléchargez ou clonez le dépôt pour obtenir `compose.yml.example` et `.env.example`.  \n\n2. **Renommez les fichiers exemples**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZEXnPLD6/fSqllzun5uJaJ1BQkhW+dqTx6hL2PSaqOw=",
+        "originContent": "- **Uploads**",
+        "translatedContent": "- **Téléversements**  "
+      },
+      {
+        "row": 2,
+        "rowsha": "qeTCQ7bos6eJG9VI7jkwAebQAI0wY/qnlj9efnoDDn0=",
+        "originContent": "  Users can now upload ebooks directly via the user interface, with a post-upload form to fix the metadata.",
+        "translatedContent": "  Les utilisateurs peuvent désormais téléverser des ebooks directement via l'interface utilisateur, avec un formulaire post-téléversement pour corriger les métadonnées.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "OQSsBz1QDL7sIj5fwXIT6OkH/eFyZ/WTnujhiXwo+UE=",
+        "originContent": "- **Basic RBAC Support**",
+        "translatedContent": "- **Support RBAC de base**  "
+      },
+      {
+        "row": 4,
+        "rowsha": "zJtdtUttnGomGT2PtauDcnX/2eolfG1wq6pJ1ROTF2g=",
+        "originContent": "  Admins can now give users different roles with different levels of access.",
+        "translatedContent": "  Les administrateurs peuvent désormais attribuer aux utilisateurs différents rôles avec différents niveaux d'accès.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "YMdOBfmfj4uomSV03zCCL5Bok8/b6U/c1/2Ow7ULAPw=",
+        "originContent": "- **Book Requests**",
+        "translatedContent": "- **Demandes de livres**  "
+      },
+      {
+        "row": 6,
+        "rowsha": "BE3DaHxaovEMRjqUS/WZ8O+PfGzwBh8FgUlYcP62Wt8=",
+        "originContent": "  Users can now request specific books they'd like to see on the site. Admins and editors can view and resolve these requests once uploaded/added.",
+        "translatedContent": "  Les utilisateurs peuvent désormais demander des livres spécifiques qu'ils aimeraient voir sur le site. Les administrateurs et éditeurs peuvent consulter et traiter ces demandes une fois les livres téléversés/ajoutés.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "oUcjOwvGZfpDnnu9v6RBeruqoyW0NhuibqTnSGQMS4w=",
+        "originContent": "## Deployment",
+        "translatedContent": "## Déploiement  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "KwwZECoP4kRDXuM51+OU8riOqXaInCVmQBkA2VtaG7g=",
+        "originContent": "### Requirements",
+        "translatedContent": "### Exigences  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "t9+J9T8Nv0NbMnYXkqUZwuHAhBiFk3h59zZxRZ/DdV0=",
+        "originContent": "At a minimum to run the application you require:",
+        "translatedContent": "Pour exécuter l'application, vous avez au minimum besoin de :  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "veJcobHF7YuhpRYKMwLCvAx09XexiQlgMN9NSHJ5JG0=",
+        "originContent": "- A database (MySQL, SQLite, PostgreSQL)",
+        "translatedContent": "- Une base de données (MySQL, SQLite, PostgreSQL)  "
+      },
+      {
+        "row": 15,
+        "rowsha": "VeAvrwrZIklmmpTJe4Hv+bh9VzSqRqUUdaDe00TrDR0=",
+        "originContent": "- A Redis instance",
+        "translatedContent": "- Une instance Redis  "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "aTeIHPm56ORSHv8dejVxcyWy4ujfOkIYXWbNgl6KV/M=",
+        "originContent": "For quick and easy deployment the .compose.yml.example defines both of these already.",
+        "translatedContent": "Pour un déploiement rapide et facile, le fichier `.compose.yml.example` définit déjà ces deux éléments.  "
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "rJkp0SR6AFuVEobhFmXJXexK+tjY3K/G58vFhiH70GA=",
+        "originContent": "### Docker",
+        "translatedContent": "### Docker  "
+      },
+      {
+        "row": 20,
+        "rowsha": "gmxfQJ/Mxb0l83Z0Ee6l7CgIk5i4xAAqLO2NYXE/C8I=",
+        "originContent": "Follow these steps to deploy the application with Docker Compose:",
+        "translatedContent": "Suivez ces étapes pour déployer l'application avec Docker Compose :  "
+      },
+      {
+        "row": 21,
+        "rowsha": "WnDYIovCivB0rpwLpGJDcW9dp2a3UERsKIO5mUPbB9g=",
+        "originContent": "1. **Download Configuration Files**",
+        "translatedContent": "1. **Téléchargez les fichiers de configuration**  "
+      },
+      {
+        "row": 22,
+        "rowsha": "YO8Kk+FeGenCz5kh+lPs73PsHNPSR6BFuQ1CYcmU6aM=",
+        "originContent": "Download or clone the repository to get `compose.yml.example` and `.env.example`.",
+        "translatedContent": "Téléchargez ou clonez le dépôt pour obtenir `compose.yml.example` et `.env.example`.  "
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "W/LzU3S+gjRhbGgUVSahe3g1TgtnW0Ysg+JeDLZEQnQ=",
+        "originContent": "2. **Rename the Example Files**",
+        "translatedContent": "2. **Renommez les fichiers exemples**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "``` bash\n   mv compose.yml.example compose.yml\n   mv .env.example .env\n```",
+    "ContentSha": "4ckIKm+DTOOu/qyaGd/XJwygmfR3fkdQ0HuMV+N+LUk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\n   mv compose.yml.example compose.yml\n   mv .env.example .env\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "XUuoISACMHxVpQYsmUlY8wEWYMEN+NuOvGsMcFqLNlQ=",
+        "originContent": "   mv compose.yml.example compose.yml",
+        "translatedContent": "   mv compose.yml.example compose.yml"
+      },
+      {
+        "row": 3,
+        "rowsha": "LaUw9Mw64SLjUl/o5sWHMSxAChAWL3UWPWFzafwZHag=",
+        "originContent": "   mv .env.example .env",
+        "translatedContent": "   mv .env.example .env"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "3. **Customize the `.env` File**\n\nEdit `.env` to configure essential settings.\n\n4. **Start the Application**\n\nRun the following command:",
+    "ContentSha": "gNlvphPF0RyW95ZkqrvuoiGATpidznwTzKlSBwe5Dc4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. **Personnalisez le fichier `.env`**\n\nModifiez `.env` pour configurer les paramètres essentiels.\n\n4. **Démarrez l'application**\n\nExécutez la commande suivante :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7OS3kavJ9iE4YWP6UZF7T0K0UbfJJxRLSwaMsQI7+Ps=",
+        "originContent": "3. **Customize the `.env` File**",
+        "translatedContent": "3. **Personnalisez le fichier `.env`**"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "H+NJzv3ZPMqM/tYetHV1kOVlu2m8453swHjKFTWO7WI=",
+        "originContent": "Edit `.env` to configure essential settings.",
+        "translatedContent": "Modifiez `.env` pour configurer les paramètres essentiels."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "8GBN7siwxWqLEUnKgaTqwFhKlLw+05Cr+T6YGSYkFw4=",
+        "originContent": "4. **Start the Application**",
+        "translatedContent": "4. **Démarrez l'application**"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+GLLzy7/pP3HoOEnuCJhBKpXMuFnjlF5lojyzUW578k=",
+        "originContent": "Run the following command:",
+        "translatedContent": "Exécutez la commande suivante :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "``` bash\n   docker compose up -d\n```",
+    "ContentSha": "VuZ829oOK0ojP8Z4F/wbzqs27c2dd7ku7TgXtGpwfzo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\n   docker compose up -d\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9f7Bg6s7+R8vc+jX0UtoCdNeymWtgTPNHduPQ0XKIAY=",
+        "originContent": "   docker compose up -d",
+        "translatedContent": "   docker compose up -d"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "This starts the `BookHaven`, Redis, and MySQL containers.\n5. **Access the Application**\n\nOpen your browser and navigate to the `BASE_URL`:`APP_PORT` you configured (default is `http://localhost:5000`).\n\n6. **Stopping the Application**\n",
+    "ContentSha": "rQy9mI1RFVs+9wIQBvr7wnsTpV4A1JXKswnxp2sXD/g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Cela démarre les conteneurs `BookHaven`, Redis et MySQL.  \n5. **Accéder à l'application**  \n\nOuvrez votre navigateur et rendez-vous à l'URL `BASE_URL`:`APP_PORT` que vous avez configurée (par défaut `http://localhost:5000`).  \n\n6. **Arrêter l'application**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "74eWvF+YRXLsXTMP6Hpx/CBupZ0GMRMWBnTwVmcnSnA=",
+        "originContent": "This starts the `BookHaven`, Redis, and MySQL containers.",
+        "translatedContent": "Cela démarre les conteneurs `BookHaven`, Redis et MySQL.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "s1LYrOE1Bzg4chX+tlphX0bae3J5x2w3kJ2m4aJTd88=",
+        "originContent": "5. **Access the Application**",
+        "translatedContent": "5. **Accéder à l'application**  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "n/cxRfkyalZAycksW25+HVYNDfznw3fSKy9427ufi9U=",
+        "originContent": "Open your browser and navigate to the `BASE_URL`:`APP_PORT` you configured (default is `http://localhost:5000`).",
+        "translatedContent": "Ouvrez votre navigateur et rendez-vous à l'URL `BASE_URL`:`APP_PORT` que vous avez configurée (par défaut `http://localhost:5000`).  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "rt2+cIdHgiU0SDuHbLB9tpZzG7JS5cyx0lzUN41C6dw=",
+        "originContent": "6. **Stopping the Application**",
+        "translatedContent": "6. **Arrêter l'application**"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "``` bash\n   docker compose down\n```",
+    "ContentSha": "bCHGm4gfRrj5cKQCVRToUad+VucbgmElVHplzGEme5w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\n   docker compose down\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "N/miHlY86rxBr0to4F3h3jbhsMxIjSjLaqmmX32yD8Q=",
+        "originContent": "   docker compose down",
+        "translatedContent": "   docker compose down"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### Development\nFollow these steps to deploy for development:\n1. **Clone the repository**:",
+    "ContentSha": "1+6NjVo5wS9ET08XyVnsEBw78gwM71hefx1lZY1VW44=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Développement\nSuivez ces étapes pour déployer en développement :\n1. **Cloner le dépôt** :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "x04EB7BlvMSKobvvwbPlJfxbjTla+pt6AhDspqW/UFU=",
+        "originContent": "### Development",
+        "translatedContent": "### Développement"
+      },
+      {
+        "row": 3,
+        "rowsha": "/JefNfs4nF2n3vUrkVsHhxOpxCZOIWT+oI09le8H5ZY=",
+        "originContent": "Follow these steps to deploy for development:",
+        "translatedContent": "Suivez ces étapes pour déployer en développement :"
+      },
+      {
+        "row": 4,
+        "rowsha": "F1hN+JABbCMvrcvuqsMNW5M/MQKvJi+tBSozR85Lpjo=",
+        "originContent": "1. **Clone the repository**:",
+        "translatedContent": "1. **Cloner le dépôt** :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "``` bash\n   git clone https://github.com/HrBingR/BookHaven.git\n   cd BookHaven\n```",
+    "ContentSha": "pRf7PE+ZoayM3TWB5FcdOr/mY5NhKE/59cqq9aLT8MI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\n   git clone https://github.com/HrBingR/BookHaven.git\n   cd BookHaven\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "h4mGNfJUBlapiuXSOLTI61gKHRtJQVVD7+/2MVATjXs=",
+        "originContent": "   git clone https://github.com/HrBingR/BookHaven.git",
+        "translatedContent": "   git clone https://github.com/HrBingR/BookHaven.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "Nniw4k956ZRfTp/3oPewsaCXsnj8j2/yq9FPnnp5TiA=",
+        "originContent": "   cd BookHaven",
+        "translatedContent": "   cd BookHaven"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n2. **Rename the example files**:",
+    "ContentSha": "SDyvVKVqSU3cZlLg4P48IF31Rz0+ElhNdMAEU3oPrKU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. **Renommez les fichiers d'exemple** :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "I4L116g9wq2KBgRh9lW6nruaDAEXiLxFq3iwnxAF/nI=",
+        "originContent": "2. **Rename the example files**:",
+        "translatedContent": "2. **Renommez les fichiers d'exemple** :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```bash\n   mv compose.exmaple.yml compose.yml\n   mv .env.example .env\n```",
+    "ContentSha": "GAXpNrt3kB41dWJeBG71zbMYLXuUoOBODtIAk1ibhKo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n   mv compose.exmaple.yml compose.yml\n   mv .env.example .env\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "vlRQfqfbhYD0oDRApH2zHdpVha7NqqJAmJqx2zcJ9bQ=",
+        "originContent": "   mv compose.exmaple.yml compose.yml",
+        "translatedContent": "   mv compose.exmaple.yml compose.yml"
+      },
+      {
+        "row": 3,
+        "rowsha": "LaUw9Mw64SLjUl/o5sWHMSxAChAWL3UWPWFzafwZHag=",
+        "originContent": "   mv .env.example .env",
+        "translatedContent": "   mv .env.example .env"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n3. **Customize the `.env` file**:\n\nEdit `.env` to configure essential settings.\n\n4. **Modify the `compose.yml` file**:\n\nChange:\n",
+    "ContentSha": "Ko8KFca74fPqZGebjIjqe2RvqjjXSwAI3SqwPnT24JI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n3. **Personnalisez le fichier `.env`** :\n\nModifiez `.env` pour configurer les paramètres essentiels.\n\n4. **Modifiez le fichier `compose.yml`** :\n\nChangez :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Be+ZB6raaE68tnsvpaJeJNOJF99pjXtGPIIS6oTzmTk=",
+        "originContent": "3. **Customize the `.env` file**:",
+        "translatedContent": "3. **Personnalisez le fichier `.env`** :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "H+NJzv3ZPMqM/tYetHV1kOVlu2m8453swHjKFTWO7WI=",
+        "originContent": "Edit `.env` to configure essential settings.",
+        "translatedContent": "Modifiez `.env` pour configurer les paramètres essentiels."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "vMrOG4aLhQi111VFlHVE2CothLweFaVGdl3oIux+L00=",
+        "originContent": "4. **Modify the `compose.yml` file**:",
+        "translatedContent": "4. **Modifiez le fichier `compose.yml`** :"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "6dvxa73kFr5FuMg64TWjlyqP02pkQAIsdksq7M5lThQ=",
+        "originContent": "Change:",
+        "translatedContent": "Changez :"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```yaml\n    epub-reader:\n       image: hrbingr/bookhaven:latest\n```",
+    "ContentSha": "vsCvm8OltjddFy3Bs4Uvqa7/z/2ZQ4q4pvd18OMAniY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\n    epub-reader:\n       image: hrbingr/bookhaven:latest\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "7LIFyuFX3s1LTSUVMwXvZHlldKSbGqRUBSgi4Ua/Mso=",
+        "originContent": "    epub-reader:",
+        "translatedContent": "    epub-reader:"
+      },
+      {
+        "row": 3,
+        "rowsha": "g1eKGV0D/8Z0xs6X75QjxlyJCH3jAYonXGvKvkswbv0=",
+        "originContent": "       image: hrbingr/bookhaven:latest",
+        "translatedContent": "       image: hrbingr/bookhaven:latest"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\nTo:\n",
+    "ContentSha": "z6TgM4Kwm4aHqqC0pENZzUD0cjp3zNJDXnrTJR5IdA4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nTo:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "K1/FyU9kJQxWAMWPCtyeL/NOMzNZ13t2SREvvtNVSGc=",
+        "originContent": "To:",
+        "translatedContent": "To:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```yaml\n  epub-reader:\n     build:\n        context: .\n        dockerfile: Dockerfile\n```",
+    "ContentSha": "C52bgsoIIWdoelXPpDDjG+cAGYsGH2FSENBdi3NvRxk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\n  epub-reader:\n     build:\n        context: .\n        dockerfile: Dockerfile\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "iDbZoyDdcmINdoC9h0XgpZfiAu+Lu+CLNSg3xQU82KY=",
+        "originContent": "  epub-reader:",
+        "translatedContent": "  epub-reader:"
+      },
+      {
+        "row": 3,
+        "rowsha": "7QK59k+sVtgbTeKrzPZF+jgAKMU3ogHp1i2hCWge9hA=",
+        "originContent": "     build:",
+        "translatedContent": "     build:"
+      },
+      {
+        "row": 4,
+        "rowsha": "DUeca6PtOvjX4/syKK7qoJDxfqJkeRxy1PA4NSGtJ5w=",
+        "originContent": "        context: .",
+        "translatedContent": "        context: ."
+      },
+      {
+        "row": 5,
+        "rowsha": "WMmWrjwmq8vcUxRAjKvXLmeamcqIOUtllxihFAHSnoE=",
+        "originContent": "        dockerfile: Dockerfile",
+        "translatedContent": "        dockerfile: Dockerfile"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n5. **Build the container**:",
+    "ContentSha": "nZnka/l0KvEoZ9tJYchxseIEpz9Lkw/vG2XwHIRIlhQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n5. **Construire le conteneur** :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KHjjR/MFmaB8nx0vUPxyy6fDUcOfKBmhHyHQJKgTG0w=",
+        "originContent": "5. **Build the container**:",
+        "translatedContent": "5. **Construire le conteneur** :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```bash\n   docker compose up --build -d\n```",
+    "ContentSha": "eJOr68aYUFXy1ZGtI4RrYPAVKrFnK2hoT6gzY/eoMSI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n   docker compose up --build -d\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "t/IECkFQiyjP7q1loE0z9wc3NW8d36mHS9jKcc3xsi0=",
+        "originContent": "   docker compose up --build -d",
+        "translatedContent": "   docker compose up --build -d"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n6. **Access the app**:\n\nAccess the app on the `BASE_URL` and `APP_PORT` defined in the `.env` file.\n\n## Building the Application\nTo build the application for production:\n1. **Build the Frontend**:",
+    "ContentSha": "uObXlhFDHCTtwZn8CJmPQfjAYgVjzyra4eYFAVWILbI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n6. **Accéder à l'application** :\n\nAccédez à l'application sur l'`URL_BASE` et le `PORT_APP` définis dans le fichier `.env`.\n\n## Construction de l'application\nPour construire l'application pour la production :\n1. **Construire le Frontend** :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "18xe/A2N6g3ngUhxryNOKj9iOjjOVFOyTKEqYM2pONI=",
+        "originContent": "6. **Access the app**:",
+        "translatedContent": "6. **Accéder à l'application** :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "n+14817IikyPytmm0RuRNEwLdquwDi5wtoLkEoU13a0=",
+        "originContent": "Access the app on the `BASE_URL` and `APP_PORT` defined in the `.env` file.",
+        "translatedContent": "Accédez à l'application sur l'`URL_BASE` et le `PORT_APP` définis dans le fichier `.env`."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Se3Et93XE/l5owBkf8ViZKYXVyewE+aDAt6kf70Qiuc=",
+        "originContent": "## Building the Application",
+        "translatedContent": "## Construction de l'application"
+      },
+      {
+        "row": 7,
+        "rowsha": "gcZNUrNSEGRsVKer6kgcX/0HCeLGJMaLqpeXwXXFsVg=",
+        "originContent": "To build the application for production:",
+        "translatedContent": "Pour construire l'application pour la production :"
+      },
+      {
+        "row": 8,
+        "rowsha": "Kbn7j5+mdIkGqWUOSl3dazkE7TrisohVFYSzmEQzEIk=",
+        "originContent": "1. **Build the Frontend**:",
+        "translatedContent": "1. **Construire le Frontend** :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "``` bash\n   cd frontend\n   npm run build:dev\n```",
+    "ContentSha": "jEiMK9jYABQLjkzqsfKV9ghK4Kw2t6G46stYMhWg44Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\n   cd frontend\n   npm run build:dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xhKslBaQG37/28ymqkbfgLJXwKL1Tys2KkuQLbHyzD4=",
+        "originContent": "   cd frontend",
+        "translatedContent": "   cd frontend"
+      },
+      {
+        "row": 3,
+        "rowsha": "jtt6HD0SUFv8i0evpDmNTRLYR+gOLVRSO2c+jk5ANGo=",
+        "originContent": "   npm run build:dev",
+        "translatedContent": "   npm run build:dev"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "2. **Build the Docker Image**:\n\nIn the root project directory (BookHaven), run:",
+    "ContentSha": "8rFjU9WVce9MOVLTSKI0WWeBxivzMqGqfFy4K1BiJIQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. **Construisez l'image Docker** :\n\nDans le répertoire racine du projet (BookHaven), exécutez :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tYw4yjl69pdO7d3JPg2SSnqnCFrb4XLeDNgmXep4kSw=",
+        "originContent": "2. **Build the Docker Image**:",
+        "translatedContent": "2. **Construisez l'image Docker** :"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "xmeKgZntfBqNwxn4GA4VCJdhsb+ePkJ1ZqiQlOyvJD4=",
+        "originContent": "In the root project directory (BookHaven), run:",
+        "translatedContent": "Dans le répertoire racine du projet (BookHaven), exécutez :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "``` bash\n   docker build -t tag:version .\n```",
+    "ContentSha": "CGyW+9prKt//XX/nCL8yIf3Ph7gp6NPtHVxzwlM5PlE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\n   docker build -t tag:version .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "VqgLP/dlRr4FSFiLkEXPcUt8qmUWb1iR3DND8brp2mo=",
+        "originContent": "   docker build -t tag:version .",
+        "translatedContent": "   docker build -t tag:version ."
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "Replace `tag:version` with your preferred image name and version (e.g., `bookhaven:1.0.0`).\n\n## Change log:\n\nFor detailed changelog see [CHANGELOG](https://raw.githubusercontent.com/HrBingR/BookHaven/master/CHANGELOG.md)\n\n- v1.0.x\n  - Initial Release\n- v1.1.0 - v1.1.1\n  - Added OIDC support\n  - Fixed a bug where OIDC front-end components would still render with OIDC disabled.\n- v1.2.0 - v1.2.2\n  - Added support for optionally writing metadata to the ePub file, instead of just to the database.\n  - Fixed issue where Celery would detect PERIODIC_SCAN_INTERVAL, if explicitly defined, as a string and throw an exception.\n  - Fixed migration and DB model logic that would prevent Postgres users from successfully initializing the database.\n- v1.3.0 - v1.3.5\n  - Added rudimentary OPDS support.\n  - Improved OPDS functionality.\n  - Fixed UI issues on Authors page\n  - Fixed some UX issues related to scrolling on Home page\n  - Improved cover image loading on the front-end\n  - Upped default API rate limit and made it customizable\n  - Implemented locking for the scan process to ensure only one scan runs at a time\n  - Improved DB component of the scan logic\n  - Fixed rendering of expanded author lists on mobile on the \"Authors\" page\n  - Updated scan logic - library will now be automatically scanned on start\n- v1.4.0 - v1.4.1\n  - Added Upload functionality - check .env.example on how to enable and use\n  - Updated scanner fallback identifiers from relative paths to filenames\n  - Created migration to update existing fallback identifiers\n  - Swapped from gunicorn sync to gunicorn gthread for better upload performance\n  - Fixed celery task imports for scheduled scans\n  - Fixed hiding the upload button when uploads feature is disabled\n- v1.5.0 - v1.5.2\n  - Added role-based access (RBAC). Admins can now give users different roles as follows:\n    - User: Access to all basic features except for uploads, editing metadata, and manging users.\n    - Editor: Includes access to uploads and editing metadata.\n    - Admin: Includes access to managing other users.\n  - Improved logic when logging in via Cloudflare Access.\n  - Fixed minor bug affecting legacy columns that were never removed.",
+    "ContentSha": "xXHFpH/U2AelMCwup3qlCOPaKQG/+5QgGlaW9ScbxIU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Remplacez `tag:version` par le nom et la version d’image de votre choix (par exemple, `bookhaven:1.0.0`).\n\n## Journal des modifications :\n\nPour un journal des modifications détaillé, voir [CHANGELOG](https://raw.githubusercontent.com/HrBingR/BookHaven/master/CHANGELOG.md)\n\n- v1.0.x\n  - Première version\n- v1.1.0 - v1.1.1\n  - Ajout du support OIDC\n  - Correction d’un bug où les composants front-end OIDC s’affichaient encore avec OIDC désactivé.\n- v1.2.0 - v1.2.2\n  - Ajout du support pour écrire optionnellement les métadonnées dans le fichier ePub, au lieu de seulement dans la base de données.\n  - Correction d’un problème où Celery détectait PERIODIC_SCAN_INTERVAL, si défini explicitement, comme une chaîne de caractères et levait une exception.\n  - Correction de la logique de migration et du modèle BD qui empêchait les utilisateurs Postgres d’initialiser la base de données avec succès.\n- v1.3.0 - v1.3.5\n  - Ajout d’un support rudimentaire OPDS.\n  - Amélioration des fonctionnalités OPDS.\n  - Correction de problèmes d’interface sur la page Auteurs\n  - Correction de certains problèmes UX liés au défilement sur la page d’accueil\n  - Amélioration du chargement des images de couverture sur le front-end\n  - Augmentation de la limite par défaut du taux d’API et rendu personnalisable\n  - Implémentation d’un verrouillage pour le processus de scan afin d’assurer qu’un seul scan s’exécute à la fois\n  - Amélioration de la composante BD de la logique de scan\n  - Correction de l’affichage des listes d’auteurs développées sur mobile sur la page « Auteurs »\n  - Mise à jour de la logique de scan - la bibliothèque sera maintenant automatiquement scannée au démarrage\n- v1.4.0 - v1.4.1\n  - Ajout de la fonctionnalité Upload - consultez .env.example pour savoir comment l’activer et l’utiliser\n  - Mise à jour des identifiants de repli du scanner de chemins relatifs à noms de fichiers\n  - Création d’une migration pour mettre à jour les identifiants de repli existants\n  - Passage de gunicorn sync à gunicorn gthread pour de meilleures performances d’upload\n  - Correction des imports de tâches celery pour les scans planifiés\n  - Correction du masquage du bouton d’upload lorsque la fonctionnalité upload est désactivée\n- v1.5.0 - v1.5.2\n  - Ajout d’un contrôle d’accès basé sur les rôles (RBAC). Les administrateurs peuvent désormais attribuer aux utilisateurs différents rôles comme suit :\n    - Utilisateur : Accès à toutes les fonctionnalités de base sauf les uploads, la modification des métadonnées et la gestion des utilisateurs.\n    - Éditeur : Inclut l’accès aux uploads et à la modification des métadonnées.\n    - Administrateur : Inclut l’accès à la gestion des autres utilisateurs.\n  - Amélioration de la logique de connexion via Cloudflare Access.\n  - Correction d’un bug mineur affectant des colonnes héritées qui n’avaient jamais été supprimées.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "c00aRWvykGEtEFvcC2WqClyHhCCT6cwRRVJAREdQNP8=",
+        "originContent": "Replace `tag:version` with your preferred image name and version (e.g., `bookhaven:1.0.0`).",
+        "translatedContent": "Remplacez `tag:version` par le nom et la version d’image de votre choix (par exemple, `bookhaven:1.0.0`)."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "sUwoxvbQ8+bwEXooZRboyJMj6nZ1F66tYxHMUpyhp58=",
+        "originContent": "## Change log:",
+        "translatedContent": "## Journal des modifications :"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "jtaLpAtz32E5yj9Rk6b2ZgCRIqlJUaLW6pFF2YWdaQA=",
+        "originContent": "For detailed changelog see [CHANGELOG](https://raw.githubusercontent.com/HrBingR/BookHaven/master/CHANGELOG.md)",
+        "translatedContent": "Pour un journal des modifications détaillé, voir [CHANGELOG](https://raw.githubusercontent.com/HrBingR/BookHaven/master/CHANGELOG.md)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "veVa+SABFSZ6yQ7IeFC0FD7qFYFXaqN8TTkSeVHzF94=",
+        "originContent": "- v1.0.x",
+        "translatedContent": "- v1.0.x"
+      },
+      {
+        "row": 8,
+        "rowsha": "ewLnZGU2xr0/1ECJ05ITgvlb2ej4/9dDp0P8zyRxRyQ=",
+        "originContent": "  - Initial Release",
+        "translatedContent": "  - Première version"
+      },
+      {
+        "row": 9,
+        "rowsha": "/1dTRm3v+eQs5Kh+9Z8eWfBVFmwyQd7XSdZa+aafcHI=",
+        "originContent": "- v1.1.0 - v1.1.1",
+        "translatedContent": "- v1.1.0 - v1.1.1"
+      },
+      {
+        "row": 10,
+        "rowsha": "Q8CqNITcqfHbpRAFrtdJQaSlLbn5wwxrupY157f5P4I=",
+        "originContent": "  - Added OIDC support",
+        "translatedContent": "  - Ajout du support OIDC"
+      },
+      {
+        "row": 11,
+        "rowsha": "7Fj7SB4ov5aIcswKsW3MOnxjANGHNS/kWfrBZ2nUXS0=",
+        "originContent": "  - Fixed a bug where OIDC front-end components would still render with OIDC disabled.",
+        "translatedContent": "  - Correction d’un bug où les composants front-end OIDC s’affichaient encore avec OIDC désactivé."
+      },
+      {
+        "row": 12,
+        "rowsha": "HBFYXTzhkGHO4XUmibPIXYz+c3GqVJafZoNTpwgSk7E=",
+        "originContent": "- v1.2.0 - v1.2.2",
+        "translatedContent": "- v1.2.0 - v1.2.2"
+      },
+      {
+        "row": 13,
+        "rowsha": "7HeiK5iUm87gmdPxCoW1lyQn5rRxqzyJpP+/AuzmI7A=",
+        "originContent": "  - Added support for optionally writing metadata to the ePub file, instead of just to the database.",
+        "translatedContent": "  - Ajout du support pour écrire optionnellement les métadonnées dans le fichier ePub, au lieu de seulement dans la base de données."
+      },
+      {
+        "row": 14,
+        "rowsha": "PE2Y5Av+6uhHuZSe1kdtWYJdpXkiOQq8DDtKNKImqO0=",
+        "originContent": "  - Fixed issue where Celery would detect PERIODIC_SCAN_INTERVAL, if explicitly defined, as a string and throw an exception.",
+        "translatedContent": "  - Correction d’un problème où Celery détectait PERIODIC_SCAN_INTERVAL, si défini explicitement, comme une chaîne de caractères et levait une exception."
+      },
+      {
+        "row": 15,
+        "rowsha": "BX5yCKEbT9iycDwSg+4pfL0vev+C35l1VO4stwN5XA8=",
+        "originContent": "  - Fixed migration and DB model logic that would prevent Postgres users from successfully initializing the database.",
+        "translatedContent": "  - Correction de la logique de migration et du modèle BD qui empêchait les utilisateurs Postgres d’initialiser la base de données avec succès."
+      },
+      {
+        "row": 16,
+        "rowsha": "26cHh2zscqnS8RMJCak6kOmOX4T0sAXY4EKZ7F12tdE=",
+        "originContent": "- v1.3.0 - v1.3.5",
+        "translatedContent": "- v1.3.0 - v1.3.5"
+      },
+      {
+        "row": 17,
+        "rowsha": "UKV741MIspUIzDqwRyyThredVqWvz8tTUTgSimx6Fpw=",
+        "originContent": "  - Added rudimentary OPDS support.",
+        "translatedContent": "  - Ajout d’un support rudimentaire OPDS."
+      },
+      {
+        "row": 18,
+        "rowsha": "A+7qMKs8sO8V/TcPFPYvmKjvLOEbVqSamFJIisN/7Jk=",
+        "originContent": "  - Improved OPDS functionality.",
+        "translatedContent": "  - Amélioration des fonctionnalités OPDS."
+      },
+      {
+        "row": 19,
+        "rowsha": "3AESJSQaSI82qNjOaIng5K7Vcfycm29MUWYBz54wCHM=",
+        "originContent": "  - Fixed UI issues on Authors page",
+        "translatedContent": "  - Correction de problèmes d’interface sur la page Auteurs"
+      },
+      {
+        "row": 20,
+        "rowsha": "vb+HWNPDBHKohBc9V3ewPkxw18DdGBysbstSayoPVPo=",
+        "originContent": "  - Fixed some UX issues related to scrolling on Home page",
+        "translatedContent": "  - Correction de certains problèmes UX liés au défilement sur la page d’accueil"
+      },
+      {
+        "row": 21,
+        "rowsha": "XX0Kld+wrwwSBlAm98Gv0zFWzyRLsL7Om2Nq7QDrNDs=",
+        "originContent": "  - Improved cover image loading on the front-end",
+        "translatedContent": "  - Amélioration du chargement des images de couverture sur le front-end"
+      },
+      {
+        "row": 22,
+        "rowsha": "Qz7/T39TYx7S44DW8vLhtAxlb91mFj5sU0Iyeefz6hw=",
+        "originContent": "  - Upped default API rate limit and made it customizable",
+        "translatedContent": "  - Augmentation de la limite par défaut du taux d’API et rendu personnalisable"
+      },
+      {
+        "row": 23,
+        "rowsha": "z7e4IXlQ41lQJ4hfbg5tNYUD52+Uaa6UahqCozgffpY=",
+        "originContent": "  - Implemented locking for the scan process to ensure only one scan runs at a time",
+        "translatedContent": "  - Implémentation d’un verrouillage pour le processus de scan afin d’assurer qu’un seul scan s’exécute à la fois"
+      },
+      {
+        "row": 24,
+        "rowsha": "0xZfXjcY6fmwaYb7ciV5LANYF+KdZUYxARqlR7ARj+A=",
+        "originContent": "  - Improved DB component of the scan logic",
+        "translatedContent": "  - Amélioration de la composante BD de la logique de scan"
+      },
+      {
+        "row": 25,
+        "rowsha": "v9IZITqNQzN9WCrtH8i6ZOPQqHWaBXRVZNCk6rZC4wk=",
+        "originContent": "  - Fixed rendering of expanded author lists on mobile on the \"Authors\" page",
+        "translatedContent": "  - Correction de l’affichage des listes d’auteurs développées sur mobile sur la page « Auteurs »"
+      },
+      {
+        "row": 26,
+        "rowsha": "ZouuAbsLnTDZotpOfV6sOB7jKlgd3FGXPznfIozzQwU=",
+        "originContent": "  - Updated scan logic - library will now be automatically scanned on start",
+        "translatedContent": "  - Mise à jour de la logique de scan - la bibliothèque sera maintenant automatiquement scannée au démarrage"
+      },
+      {
+        "row": 27,
+        "rowsha": "d8VCtEjojDtMh/QAZYWO8mSWX62TFrx9Mfh2fY8teM4=",
+        "originContent": "- v1.4.0 - v1.4.1",
+        "translatedContent": "- v1.4.0 - v1.4.1"
+      },
+      {
+        "row": 28,
+        "rowsha": "iAeeYDfsLjLY0J7lEFXwEeHjVU9Q645qA59Hltt4o4k=",
+        "originContent": "  - Added Upload functionality - check .env.example on how to enable and use",
+        "translatedContent": "  - Ajout de la fonctionnalité Upload - consultez .env.example pour savoir comment l’activer et l’utiliser"
+      },
+      {
+        "row": 29,
+        "rowsha": "wXSiClNfIUWs2K2gcoV507xSfStipAGx0KFY163Y0d8=",
+        "originContent": "  - Updated scanner fallback identifiers from relative paths to filenames",
+        "translatedContent": "  - Mise à jour des identifiants de repli du scanner de chemins relatifs à noms de fichiers"
+      },
+      {
+        "row": 30,
+        "rowsha": "BgFakiWI290N8tmAbej1Q0EekYHmY9rDUIJU7k2aCUA=",
+        "originContent": "  - Created migration to update existing fallback identifiers",
+        "translatedContent": "  - Création d’une migration pour mettre à jour les identifiants de repli existants"
+      },
+      {
+        "row": 31,
+        "rowsha": "GQf3ScxotVVjfbZommUtbcZigKACR8COTcKsrVBWVI4=",
+        "originContent": "  - Swapped from gunicorn sync to gunicorn gthread for better upload performance",
+        "translatedContent": "  - Passage de gunicorn sync à gunicorn gthread pour de meilleures performances d’upload"
+      },
+      {
+        "row": 32,
+        "rowsha": "suMC4hBIh298s0wim507PP8IB7g5yN5vmt2nkkvkjmg=",
+        "originContent": "  - Fixed celery task imports for scheduled scans",
+        "translatedContent": "  - Correction des imports de tâches celery pour les scans planifiés"
+      },
+      {
+        "row": 33,
+        "rowsha": "a2trQ3J7dxsglOMcuu3zqYK5u5fafriWUwIwPbqdghQ=",
+        "originContent": "  - Fixed hiding the upload button when uploads feature is disabled",
+        "translatedContent": "  - Correction du masquage du bouton d’upload lorsque la fonctionnalité upload est désactivée"
+      },
+      {
+        "row": 34,
+        "rowsha": "fHNqwzqkwgHBjD8FIrPwcE+yQrGUBZKu2j4H/uYGXtQ=",
+        "originContent": "- v1.5.0 - v1.5.2",
+        "translatedContent": "- v1.5.0 - v1.5.2"
+      },
+      {
+        "row": 35,
+        "rowsha": "fqLWiy8v5XlpACwAas4z1GHbmhc0tqtXKlH/mR36ri8=",
+        "originContent": "  - Added role-based access (RBAC). Admins can now give users different roles as follows:",
+        "translatedContent": "  - Ajout d’un contrôle d’accès basé sur les rôles (RBAC). Les administrateurs peuvent désormais attribuer aux utilisateurs différents rôles comme suit :"
+      },
+      {
+        "row": 36,
+        "rowsha": "bLF7bW4jyh2vyIND5aCVsxd5kY2ArzusaFbttb6ObQU=",
+        "originContent": "    - User: Access to all basic features except for uploads, editing metadata, and manging users.",
+        "translatedContent": "    - Utilisateur : Accès à toutes les fonctionnalités de base sauf les uploads, la modification des métadonnées et la gestion des utilisateurs."
+      },
+      {
+        "row": 37,
+        "rowsha": "xgE4oUdOr/h6vZgP6X89tPQNhuLzh1u8u7kE0sqgM1w=",
+        "originContent": "    - Editor: Includes access to uploads and editing metadata.",
+        "translatedContent": "    - Éditeur : Inclut l’accès aux uploads et à la modification des métadonnées."
+      },
+      {
+        "row": 38,
+        "rowsha": "7JRsJM6KQMTBvh6qscURRJVITtxthvbHS4j2vAwTH2E=",
+        "originContent": "    - Admin: Includes access to managing other users.",
+        "translatedContent": "    - Administrateur : Inclut l’accès à la gestion des autres utilisateurs."
+      },
+      {
+        "row": 39,
+        "rowsha": "gKdLOG6Q4hIETm2WUiU3EO1U0hKb8F+yVuRH07oa1UE=",
+        "originContent": "  - Improved logic when logging in via Cloudflare Access.",
+        "translatedContent": "  - Amélioration de la logique de connexion via Cloudflare Access."
+      },
+      {
+        "row": 40,
+        "rowsha": "TC2K5klPtu+DRJn3PZ9JzvePbVyLwgTw3efG4UORtn4=",
+        "originContent": "  - Fixed minor bug affecting legacy columns that were never removed.",
+        "translatedContent": "  - Correction d’un bug mineur affectant des colonnes héritées qui n’avaient jamais été supprimées."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "  - Made migration script more resilient.\n- v.1.6.0\n  - Added requests feature for users to request for new books to be added to the site.\n\n## TODO:\n\n- Update tests with latest additions\n- Explore support for other formats\n- Explore adding more metadata fields for editing",
+    "ContentSha": "BpP7Mi2X3d7hwGZr5HR25S5NQmQhoxb6DBESR5hPGRM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - Rendu le script de migration plus résilient.\n- v.1.6.0\n  - Ajout de la fonctionnalité de demandes pour que les utilisateurs puissent demander l'ajout de nouveaux livres sur le site.\n\n## À FAIRE :\n\n- Mettre à jour les tests avec les dernières additions\n- Explorer la prise en charge d'autres formats\n- Explorer l'ajout de plus de champs de métadonnées pour l'édition",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uyEy4WOkmcRxDVsUz0EJ/ebcUnS03J1WPhZmsKjeh9k=",
+        "originContent": "  - Made migration script more resilient.",
+        "translatedContent": "  - Rendu le script de migration plus résilient."
+      },
+      {
+        "row": 2,
+        "rowsha": "KZUY4z2+F5zSBmaNp2+E+sq2gAbfbvUZwQAi/V8+7M4=",
+        "originContent": "- v.1.6.0",
+        "translatedContent": "- v.1.6.0"
+      },
+      {
+        "row": 3,
+        "rowsha": "VKEdTFBp8wcKdyeKaI9zNq5mkUzvtLraAkLP9XtMBFI=",
+        "originContent": "  - Added requests feature for users to request for new books to be added to the site.",
+        "translatedContent": "  - Ajout de la fonctionnalité de demandes pour que les utilisateurs puissent demander l'ajout de nouveaux livres sur le site."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "8t9NoA6bPPqdxeinEZYzxMAMnASiWFpum9ii2+5ppew=",
+        "originContent": "## TODO:",
+        "translatedContent": "## À FAIRE :"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "dYsdTzoCpsOOmTAl5mSGePXPdOvI4XvQkZimhuFxlqE=",
+        "originContent": "- Update tests with latest additions",
+        "translatedContent": "- Mettre à jour les tests avec les dernières additions"
+      },
+      {
+        "row": 8,
+        "rowsha": "7ikUlKwnwfnUgRyiCxoVI11mJqGphcbHpcSOz5EbU20=",
+        "originContent": "- Explore support for other formats",
+        "translatedContent": "- Explorer la prise en charge d'autres formats"
+      },
+      {
+        "row": 9,
+        "rowsha": "Bu25tNwfvjVYp7S1BT/XTn0FyM5FfKMzyrAq8JTakVM=",
+        "originContent": "- Explore adding more metadata fields for editing",
+        "translatedContent": "- Explorer l'ajout de plus de champs de métadonnées pour l'édition"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

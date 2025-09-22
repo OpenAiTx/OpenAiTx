@@ -1,0 +1,782 @@
+[
+  {
+    "row": 1,
+    "rowsha": "1AHAqpCzssnY+yZwcg72z0BiJcac6/UuT7k9B9qozbk=",
+    "originContent": "# GhidraNes",
+    "translatedContent": "# GhidraNes"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "sq7xp8GimQDn1xRnU88execAijtZ22Qx7sn6dRIOtWE=",
+    "originContent": "A Ghidra extension to support disassembling and analyzing NES ROMs.",
+    "translatedContent": "A Ghidra extension to support disassembling and analyzing NES ROMs."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "qProtiB5ib2M4CqjFT3qIjraItpr8ps/v61ychbY+uM=",
+    "originContent": "![Ghidra disassembly showing a decompiled function from a file named \"game.nes\"](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/ghidra-nes.png)",
+    "translatedContent": "![Ghidra disassembly showing a decompiled function from a file named \"game.nes\"](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/ghidra-nes.png)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Features"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "fY5m0J5XtFiEjWhovJLpDBT3PJEyv6a2htqCFHsQ9kY=",
+    "originContent": "- Import NES ROMs in the iNES format. The following mappers are supported:",
+    "translatedContent": "- Import NES ROMs in the iNES format. The following mappers are supported:"
+  },
+  {
+    "row": 10,
+    "rowsha": "2MA1mWlZCoZlYfsu4pdYZzKCD/7GSCEjHO70OJxcBGM=",
+    "originContent": "    - 16K/32K fixed PRG ROM",
+    "translatedContent": "    - 16K/32K fixed PRG ROM"
+  },
+  {
+    "row": 11,
+    "rowsha": "QRnmEloMySlrT98IUjImNWQG0JaB3JxTtH07Ikvks6o=",
+    "originContent": "        - [NROM](https://www.nesdev.org/wiki/NROM) (mapper 0)",
+    "translatedContent": "        - [NROM](https://www.nesdev.org/wiki/NROM) (mapper 0)"
+  },
+  {
+    "row": 12,
+    "rowsha": "fRRX0X4qQgEMaMEXa6rd8vgKCYSrs9FlJC6tBcAtl7o=",
+    "originContent": "        - [CNROM](https://www.nesdev.org/wiki/CNROM) (mappers 3, 185)",
+    "translatedContent": "        - [CNROM](https://www.nesdev.org/wiki/CNROM) (mappers 3, 185)"
+  },
+  {
+    "row": 13,
+    "rowsha": "7bVbG1qQeEnU/cuqul8T2O8pM54aB051/2W1yTpfSXw=",
+    "originContent": "        - [CPROM](https://www.nesdev.org/wiki/CPROM) (mapper 13)",
+    "translatedContent": "        - [CPROM](https://www.nesdev.org/wiki/CPROM) (mapper 13)"
+  },
+  {
+    "row": 14,
+    "rowsha": "KHWFJTh2YTzSpEyAhjYHvEXCyxBBPIh1RB+WLCKLlmI=",
+    "originContent": "    - 16K bankable PRG ROM",
+    "translatedContent": "    - 16K bankable PRG ROM"
+  },
+  {
+    "row": 15,
+    "rowsha": "9GdhorcQS7W2sCUigOkg9XMXTsLI09+UrGozFl46c2c=",
+    "originContent": "        - [MMC1/SxROM](https://www.nesdev.org/wiki/MMC1) (mapper 1, also includes mapper 16)",
+    "translatedContent": "        - [MMC1/SxROM](https://www.nesdev.org/wiki/MMC1) (mapper 1, also includes mapper 16)"
+  },
+  {
+    "row": 16,
+    "rowsha": "AByS06ZC52pPgq2LnxBEOqqyCJASyf83p66znMJCoD0=",
+    "originContent": "        - [UxROM](https://www.nesdev.org/wiki/UxROM) (mapper 2)",
+    "translatedContent": "        - [UxROM](https://www.nesdev.org/wiki/UxROM) (mapper 2)"
+  },
+  {
+    "row": 17,
+    "rowsha": "o1+PVZLtwN63GUX7GGyrmW9NDJv+dN78OB+LVCRW9Uk=",
+    "originContent": "        - [MMC4/FxROM](https://www.nesdev.org/wiki/MMC4) (mapper 10)",
+    "translatedContent": "        - [MMC4/FxROM](https://www.nesdev.org/wiki/MMC4) (mapper 10)"
+  },
+  {
+    "row": 18,
+    "rowsha": "WuoBpchYuJpGsr617EMfWXYfnOVNzhhJwtse8kjX8Ns=",
+    "originContent": "        - [UNROM 512](https://www.nesdev.org/wiki/UNROM_512) (mapper 30)",
+    "translatedContent": "        - [UNROM 512](https://www.nesdev.org/wiki/UNROM_512) (mapper 30)"
+  },
+  {
+    "row": 19,
+    "rowsha": "uz+VGWeHzfrTiKPfQJtqYONJiunfLxGGgJfdGMpXRmA=",
+    "originContent": "        - [Sunsoft 3](https://www.nesdev.org/wiki/INES_Mapper_067)/[Sunsoft 4](https://www.nesdev.org/wiki/INES_Mapper_068) (mappers 67, 68)",
+    "translatedContent": "        - [Sunsoft 3](https://www.nesdev.org/wiki/INES_Mapper_067)/[Sunsoft 4](https://www.nesdev.org/wiki/INES_Mapper_068) (mappers 67, 68)"
+  },
+  {
+    "row": 20,
+    "rowsha": "3LL6hEt0pw1M5qu/GQRLDhFYdkEnexVTRlHXdQKAdi8=",
+    "originContent": "        - Misc mapper [16](https://www.nesdev.org/wiki/INES_Mapper_016)",
+    "translatedContent": "        - Misc mapper [16](https://www.nesdev.org/wiki/INES_Mapper_016)"
+  },
+  {
+    "row": 21,
+    "rowsha": "n4QyyvoU3uTiKR6CmHRFI0BRGxji/8MA/TSIkXq3e3Y=",
+    "originContent": "    - 32K bankable PRG ROM",
+    "translatedContent": "    - 32K bankable PRG ROM"
+  },
+  {
+    "row": 22,
+    "rowsha": "fAJ85MIoy+y7AGzewrQZxKq9SRc600HMl7zC438Hfqw=",
+    "originContent": "        - [AxROM](https://www.nesdev.org/wiki/AxROM) (mapper 7)",
+    "translatedContent": "        - [AxROM](https://www.nesdev.org/wiki/AxROM) (mapper 7)"
+  },
+  {
+    "row": 23,
+    "rowsha": "k4ATWwqZvcGbS0pQUY2bi345Ygyt9c3uArhzMU4N9po=",
+    "originContent": "        - [BNROM/NINA](https://www.nesdev.org/wiki/INES_Mapper_034) (mapper 34)",
+    "translatedContent": "        - [BNROM/NINA](https://www.nesdev.org/wiki/INES_Mapper_034) (mapper 34)"
+  },
+  {
+    "row": 24,
+    "rowsha": "AK711rrIZg2jfbLJ4IuPaAUnbe1mqYrBv2C5rLQiFao=",
+    "originContent": "        - [GxROM](https://www.nesdev.org/wiki/GxROM) (mapper 66)",
+    "translatedContent": "        - [GxROM](https://www.nesdev.org/wiki/GxROM) (mapper 66)"
+  },
+  {
+    "row": 25,
+    "rowsha": "GGU6SB0vYQq+GscqaO29Fd8tvsbfmafgauTPdTM/hZk=",
+    "originContent": "        - Misc mappers [11](https://www.nesdev.org/wiki/Color_Dreams), [38](https://www.nesdev.org/wiki/INES_Mapper_038), [140](https://www.nesdev.org/wiki/INES_Mapper_140)",
+    "translatedContent": "        - Misc mappers [11](https://www.nesdev.org/wiki/Color_Dreams), [38](https://www.nesdev.org/wiki/INES_Mapper_038), [140](https://www.nesdev.org/wiki/INES_Mapper_140)"
+  },
+  {
+    "row": 26,
+    "rowsha": "3oHOtiav9GnzhAsAKMsz2HdMWFqwwMUwdMGTcEQY56g=",
+    "originContent": "    - 8K bankable PRG ROM",
+    "translatedContent": "    - 8K bankable PRG ROM"
+  },
+  {
+    "row": 27,
+    "rowsha": "LAd94fFwkJJRUJPV+wQ95IHnc2RtHiSl4IlGA4eHKCg=",
+    "originContent": "        - [MMC3/TxROM](https://www.nesdev.org/wiki/MMC3)/[TxSROM](https://www.nesdev.org/wiki/INES_Mapper_118)/[TQROM](https://www.nesdev.org/wiki/INES_Mapper_119) (mappers 4, 118, 119)",
+    "translatedContent": "        - [MMC3/TxROM](https://www.nesdev.org/wiki/MMC3)/[TxSROM](https://www.nesdev.org/wiki/INES_Mapper_118)/[TQROM](https://www.nesdev.org/wiki/INES_Mapper_119) (mappers 4, 118, 119)"
+  },
+  {
+    "row": 28,
+    "rowsha": "747/NchkNww2b6Djdl5MGdJ6ma1dczoMA/DffoKFgQU=",
+    "originContent": "        - [Namco 129/163](https://www.nesdev.org/wiki/INES_Mapper_019) (mapper 19)",
+    "translatedContent": "        - [Namco 129/163](https://www.nesdev.org/wiki/INES_Mapper_019) (mapper 19)"
+  },
+  {
+    "row": 29,
+    "rowsha": "DkyDehsbKNnBJGK44l2OTRNv1H/cSpoSpczXWkS+WDE=",
+    "originContent": "        - [Konami VRC2/4](https://www.nesdev.org/wiki/VRC2_and_VRC4) (mappers 21, 22, 23, 25)",
+    "translatedContent": "        - [Konami VRC2/4](https://www.nesdev.org/wiki/VRC2_and_VRC4) (mappers 21, 22, 23, 25)"
+  },
+  {
+    "row": 30,
+    "rowsha": "aGReRI3YzdlGmvu35BBbKhci9pL3eWvBLVmJpupRLL0=",
+    "originContent": "        - [RAMBO-1](https://www.nesdev.org/wiki/RAMBO-1) (mappers 64, 158)",
+    "translatedContent": "        - [RAMBO-1](https://www.nesdev.org/wiki/RAMBO-1) (mappers 64, 158)"
+  },
+  {
+    "row": 31,
+    "rowsha": "lejBW4AC79cTlLymWcrA1yT0I10HERoShYNZKmuKCvQ=",
+    "originContent": "        - [Sunsoft FME-7/5A/5B](https://www.nesdev.org/wiki/Sunsoft_FME-7) (mapper 69)",
+    "translatedContent": "        - [Sunsoft FME-7/5A/5B](https://www.nesdev.org/wiki/Sunsoft_FME-7) (mapper 69)"
+  },
+  {
+    "row": 32,
+    "rowsha": "xXGBapdHzdSaFapI52aAuf3RY+drI3PgTBxd54x9nSg=",
+    "originContent": "        - [DxROM](https://www.nesdev.org/wiki/DxROM) (mapper [206](https://www.nesdev.org/wiki/INES_Mapper_206))",
+    "translatedContent": "        - [DxROM](https://www.nesdev.org/wiki/DxROM) (mapper [206](https://www.nesdev.org/wiki/INES_Mapper_206))"
+  },
+  {
+    "row": 33,
+    "rowsha": "ZimRzs56Waky2xDWcOByqlHFNcyMxQyCRmJ4TlEWU9Y=",
+    "originContent": "        - Misc mappers [18](https://www.nesdev.org/wiki/INES_Mapper_018), [65](https://www.nesdev.org/wiki/INES_Mapper_065), [74](https://www.nesdev.org/wiki/INES_Mapper_074), [76](https://www.nesdev.org/wiki/INES_Mapper_076), [88](https://www.nesdev.org/wiki/INES_Mapper_088), [95](https://www.nesdev.org/wiki/INES_Mapper_095), [154](https://www.nesdev.org/wiki/INES_Mapper_154), [191](https://www.nesdev.org/wiki/INES_Mapper_191), [192](https://www.nesdev.org/wiki/INES_Mapper_192), [194](https://www.nesdev.org/wiki/INES_Mapper_194), [195](https://www.nesdev.org/wiki/INES_Mapper_195)",
+    "translatedContent": "        - Misc mappers [18](https://www.nesdev.org/wiki/INES_Mapper_018), [65](https://www.nesdev.org/wiki/INES_Mapper_065), [74](https://www.nesdev.org/wiki/INES_Mapper_074), [76](https://www.nesdev.org/wiki/INES_Mapper_076), [88](https://www.nesdev.org/wiki/INES_Mapper_088), [95](https://www.nesdev.org/wiki/INES_Mapper_095), [154](https://www.nesdev.org/wiki/INES_Mapper_154), [191](https://www.nesdev.org/wiki/INES_Mapper_191), [192](https://www.nesdev.org/wiki/INES_Mapper_192), [194](https://www.nesdev.org/wiki/INES_Mapper_194), [195](https://www.nesdev.org/wiki/INES_Mapper_195)"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "OHhygQWcz7aBRq4tC8OJP4dTY8A/+Elx3o+rCh7vvmk=",
+    "originContent": "- Add labels and memory blocks in disassembly, making it easier to jump around a disassembled ROM!",
+    "translatedContent": "- Add labels and memory blocks in disassembly, making it easier to jump around a disassembled ROM!"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "xXp6LnuuTt46q2ZiXLMmK1tkQYFFiwz+M6L/PR+uy9o=",
+    "originContent": "1. Install a Compatible version of Java and Ghidra (Java 21+).",
+    "translatedContent": "1. Install a Compatible version of Java and Ghidra (Java 21+)."
+  },
+  {
+    "row": 40,
+    "rowsha": "b0qUq7dXM9hwXF+FZXxc2vbtzcHHUKFHMDg4n1JByUI=",
+    "originContent": "2. Download the latest [GhidraNes release](https://github.com/kylewlacy/GhidraNes/releases). Make sure the release you download matches your Ghidra version!",
+    "translatedContent": "2. Download the latest [GhidraNes release](https://github.com/kylewlacy/GhidraNes/releases). Make sure the release you download matches your Ghidra version!"
+  },
+  {
+    "row": 41,
+    "rowsha": "I6mopL0kAZ0N0zBDE0zCJZXlH5PRFkCybkZR6RD9cLU=",
+    "originContent": "3. Go to \"File\" > \"Install Extensions...\". Click \"+\" in the top-right corner and choose the GhidraNes Zip. Click \"OK\" to install the extension.",
+    "translatedContent": "3. Go to \"File\" > \"Install Extensions...\". Click \"+\" in the top-right corner and choose the GhidraNes Zip. Click \"OK\" to install the extension."
+  },
+  {
+    "row": 42,
+    "rowsha": "TiKxm0xmuYVPwrr5QyNX6bURux17HZPL7wDEJYbQVEU=",
+    "originContent": "4. Restart Ghidra.",
+    "translatedContent": "4. Restart Ghidra."
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Usage"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "HUTyLXeOKJeOia8/mOXA/o/5A4IGw3G6cFib/mQKNpg=",
+    "originContent": "1. In Ghidra, create a new project by following the wizard under \"File\" > \"New Project...\".",
+    "translatedContent": "1. In Ghidra, create a new project by following the wizard under \"File\" > \"New Project...\"."
+  },
+  {
+    "row": 47,
+    "rowsha": "z2C2lRHrdSRb2frzLni+n6ksoq4J7T+1TzEMgM/SkP4=",
+    "originContent": "2. Drag-and-drop an iNES `.nes` ROM onto the project. Set the format to \"NES ROM\" and click \"OK\".",
+    "translatedContent": "2. Drag-and-drop an iNES `.nes` ROM onto the project. Set the format to \"NES ROM\" and click \"OK\"."
+  },
+  {
+    "row": 48,
+    "rowsha": "tsYPv7vlqp+DKt3x3UnbdkFVGK6V0i+belclGpH8iCA=",
+    "originContent": "3. Double-click the ROM in the project to open Ghidra's CodeBrowser.",
+    "translatedContent": "3. Double-click the ROM in the project to open Ghidra's CodeBrowser."
+  },
+  {
+    "row": 49,
+    "rowsha": "md3wGCVCOb5lhZkeVRN+iILyBtxOMbIncLe4m4y3Jdg=",
+    "originContent": "4. Analyze the file when prompted (or go to \"Analysis\" > \"Auto Analyze...\"). Leave the settings as default and click \"Analyze\".",
+    "translatedContent": "4. Analyze the file when prompted (or go to \"Analysis\" > \"Auto Analyze...\"). Leave the settings as default and click \"Analyze\"."
+  },
+  {
+    "row": 50,
+    "rowsha": "peO6FiBO1uIegOW/LON0Qy+c6ZBNeWxaXL5HlcYEomw=",
+    "originContent": "5. Done, the game will be disassembled! On the left-hand side, under \"Symbol Tree\" > \"Functions\", open `reset` to jump to the reset vector (where execution starts), or `vblank` to jump to the NMI vector (where execution goes during VBlank).",
+    "translatedContent": "5. Done, the game will be disassembled! On the left-hand side, under \"Symbol Tree\" > \"Functions\", open `reset` to jump to the reset vector (where execution starts), or `vblank` to jump to the NMI vector (where execution goes during VBlank)."
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+    "originContent": "## Notes",
+    "translatedContent": "## Notes"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "RLCVlgjf3VKnIaqLMQlj/2+IAQ21RkmWp+yigZfLYKQ=",
+    "originContent": "### Bank switching",
+    "translatedContent": "### Bank switching"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "YYtnUEg5n+7/WEmeaETdtJ0vb2pqmyIoHMOxcDNELOM=",
+    "originContent": "GhidraNes maps each bank of the ROM to its own memory block, but there is no control-flow analysis implemented that handles bank switching automatically. Instead, handling bank switching in the disassembly is a manual process. Take this function for example:",
+    "translatedContent": "GhidraNes maps each bank of the ROM to its own memory block, but there is no control-flow analysis implemented that handles bank switching automatically. Instead, handling bank switching in the disassembly is a manual process. Take this function for example:"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "3EZlcWpJIs3gdxR5R6tFCIky5On0SQUmlbDXaHbdxbI=",
+    "originContent": "![Ghidra disassembly showing a \"reset\" function consisting of \"LDA #0x0\", \"STA DAT_8000\", and \"JMP (0xfffc)=>reset\". The gutter shows this function as an infinite loop](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/bank-switching-broken.png)",
+    "translatedContent": "![Ghidra disassembly showing a \"reset\" function consisting of \"LDA #0x0\", \"STA DAT_8000\", and \"JMP (0xfffc)=>reset\". The gutter shows this function as an infinite loop](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/bank-switching-broken.png)"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "dvefGbPn96TJbHIe02Ny2GW0JBNT7PfO9upKuZiDOC0=",
+    "originContent": "This disassembled function is doing a bank switch: the write to `DAT_8000` switches the PRG ROM to bank 0 in this case. Cases like this can be fixed in Ghidra using the following steps:",
+    "translatedContent": "This disassembled function is doing a bank switch: the write to `DAT_8000` switches the PRG ROM to bank 0 in this case. Cases like this can be fixed in Ghidra using the following steps:"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "gv3COna6NatbhDwpMGQJueG4XFjLRVeJwaiQhvy7qgE=",
+    "originContent": "1. Right click the `JMP` instruction",
+    "translatedContent": "1. Right click the `JMP` instruction"
+  },
+  {
+    "row": 63,
+    "rowsha": "oadAKWqKIp6ixuitVxD6c1IY/iB+Zcj/NCAOLwm1o/A=",
+    "originContent": "2. Click \"References > Add/Edit (R)\"",
+    "translatedContent": "2. Click \"References > Add/Edit (R)\""
+  },
+  {
+    "row": 64,
+    "rowsha": "A3y2RzbJp0bCC4lhJ6Il22uyxyCpmVlENbfV1R3d4EE=",
+    "originContent": "3. Double click the destination operand",
+    "translatedContent": "3. Double click the destination operand"
+  },
+  {
+    "row": 65,
+    "rowsha": "2Z/AKAEupfmj04d//0TqZgAyWkxTHnWwwsZTEJ75WT8=",
+    "originContent": "4. For the \"To Address\" field, change the left-hand dropdown from \"RAM:\" to the appropriate memory bank (\"PRG0::\" for this example)",
+    "translatedContent": "4. For the \"To Address\" field, change the left-hand dropdown from \"RAM:\" to the appropriate memory bank (\"PRG0::\" for this example)"
+  },
+  {
+    "row": 66,
+    "rowsha": "aKeglUor4Nx+dbmj3lKfyU+tHcdq/KuxrFrj0cgv1x4=",
+    "originContent": "5. Click \"Update\"",
+    "translatedContent": "5. Click \"Update\""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "pPcYhiPbQ95wqdjV18q7xolSwXxjzruIkhDWSY4mfCU=",
+    "originContent": "The disassembly should now show a jump to the correct bank:",
+    "translatedContent": "The disassembly should now show a jump to the correct bank:"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "M/rp4tP/NNpPIr3xFbdh3KTTeGrSr4qTDV7qFlMI+y8=",
+    "originContent": "![Ghidra disassembly showing the same \"reset\" function, but the \"JMP\" instruction now goes to \"(0xfffc)=>LAB_PRG0__ffaf\"](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/bank-switching-fixed.png)",
+    "translatedContent": "![Ghidra disassembly showing the same \"reset\" function, but the \"JMP\" instruction now goes to \"(0xfffc)=>LAB_PRG0__ffaf\"](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/bank-switching-fixed.png)"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "VlvzQ1q3LXYruUUH5fkeriEhYc2V+T4OtPL8b31DTEw=",
+    "originContent": "> Note: Any write instruction (e.g. `STA`/`STX`/'STY', `INC`/`DEC`) to a mapper register will cause control flow to change if the bank containing the currently-executing code is switched out. To fix these:",
+    "translatedContent": "> Note: Any write instruction (e.g. `STA`/`STX`/'STY', `INC`/`DEC`) to a mapper register will cause control flow to change if the bank containing the currently-executing code is switched out. To fix these:"
+  },
+  {
+    "row": 73,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 74,
+    "rowsha": "KeXvBKnTKp6mlsBA8VF3gqLWYazSy9WS7LUiHBf+ICQ=",
+    "originContent": "> 1. Right-click the write instruction",
+    "translatedContent": "> 1. Right-click the write instruction"
+  },
+  {
+    "row": 75,
+    "rowsha": "D1h7nANPcXWYJzN/I2wzZpw4JgOUFt2I6vSo1jahDyg=",
+    "originContent": "> 2. Choose `Fallthrough`>`Set...`",
+    "translatedContent": "> 2. Choose `Fallthrough`>`Set...`"
+  },
+  {
+    "row": 76,
+    "rowsha": "lccCFbIp27Ca5vDtu1n1caotDk6XUnUZBfXqrLOxREg=",
+    "originContent": "> 3. Remember the value in the address offset box",
+    "translatedContent": "> 3. Remember the value in the address offset box"
+  },
+  {
+    "row": 77,
+    "rowsha": "fWbf+CbuZGyPw9RdUZVFsKbwDHOkY/XChPQvcqX+mAo=",
+    "originContent": "> 4. Select `User`, and choose the new bank from the dropdown.",
+    "translatedContent": "> 4. Select `User`, and choose the new bank from the dropdown."
+  },
+  {
+    "row": 78,
+    "rowsha": "i7R8harFAOQpcuLtXk/AOOP2nT/pBRrBj6rTL2Wct38=",
+    "originContent": "> 5.  Set the address offset box to the value from step 3 (since the PC will still be the \"next\" instruction in the new bank).",
+    "translatedContent": "> 5.  Set the address offset box to the value from step 3 (since the PC will still be the \"next\" instruction in the new bank)."
+  },
+  {
+    "row": 79,
+    "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+    "originContent": ">",
+    "translatedContent": ">"
+  },
+  {
+    "row": 80,
+    "rowsha": "rDoJZpfllIRTpocus6DF9pk4XE73xJzWWf/MMWtyPJo=",
+    "originContent": ">This should help with analysis and decompilation so they can \"follow\" the bank switch.",
+    "translatedContent": ">This should help with analysis and decompilation so they can \"follow\" the bank switch."
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "1Jp5u0eUqFTB11w5Urhoq627FVczokiWnfKtbiac1wY=",
+    "originContent": "By default, ROMs with PRG block sizes of less than 32K are created with a base address of `0x8000` except for the last bank, which will be at the \"highest\" address for that bank (8K blocks will be at `0xe000`, 16K at `0xc000`).  You can use the `Options...` dialog at load time to set each bank's address if you know in advance where each bank should be.  If you later determine that the guess was wrong and you don't want to re-import the ROM, you can re-base the bank using the Memory Map window:",
+    "translatedContent": "By default, ROMs with PRG block sizes of less than 32K are created with a base address of `0x8000` except for the last bank, which will be at the \"highest\" address for that bank (8K blocks will be at `0xe000`, 16K at `0xc000`).  You can use the `Options...` dialog at load time to set each bank's address if you know in advance where each bank should be.  If you later determine that the guess was wrong and you don't want to re-import the ROM, you can re-base the bank using the Memory Map window:"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "l8LQ6d1Oa6KYorvsv/NE5wKuRToJhKRgTAheN6I5I3E=",
+    "originContent": "1. Select menu `Window`>`Memory Map` if you don't have it open already.",
+    "translatedContent": "1. Select menu `Window`>`Memory Map` if you don't have it open already."
+  },
+  {
+    "row": 85,
+    "rowsha": "SwQ8QDnLkdOY/3mtiJ8cPCFweQQIf+jqqmNOviNF+8A=",
+    "originContent": "2. Select the row with the bank you want to change.",
+    "translatedContent": "2. Select the row with the bank you want to change."
+  },
+  {
+    "row": 86,
+    "rowsha": "9Gsp8HeTcsusKq/fMUDxHQ1BrUwMxXu2xZSujKizlp8=",
+    "originContent": "3. Select the blue cross icon (\"Move a block to another address\") in the title bar of the Memory Map window.",
+    "translatedContent": "3. Select the blue cross icon (\"Move a block to another address\") in the title bar of the Memory Map window."
+  },
+  {
+    "row": 87,
+    "rowsha": "9A6OIefqSEtXTcglfvE800CKUQNDabTwa8sS83qafKI=",
+    "originContent": "4. Change the \"New Start Address\" to the correct base address.  The \"New End Address\" should automatically update for you based on the block size.",
+    "translatedContent": "4. Change the \"New Start Address\" to the correct base address.  The \"New End Address\" should automatically update for you based on the block size."
+  },
+  {
+    "row": 88,
+    "rowsha": "O9YtTlOLl1nMqGaoix7KdGPx6EQpw0+wJHUumeG6Bv4=",
+    "originContent": "5. Select \"OK\" and the bank will be updated.",
+    "translatedContent": "5. Select \"OK\" and the bank will be updated."
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+    "originContent": "## Development",
+    "translatedContent": "## Development"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "CzJa9bbKXQMXZDKyEICa7h+YiKzfp7zKce0E79Z1JWQ=",
+    "originContent": "### Developing with Eclipse",
+    "translatedContent": "### Developing with Eclipse"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "JHVvax6m6gnmQdigk7nDnqtGEFf7N2dQDxPGATaUN1Q=",
+    "originContent": "1. Install Java and Ghidra.",
+    "translatedContent": "1. Install Java and Ghidra."
+  },
+  {
+    "row": 95,
+    "rowsha": "prZu4aHERdGqsMFPKCM+SwpL6Q2kpquA2S0P11L1HTU=",
+    "originContent": "2. install Eclipse.",
+    "translatedContent": "2. install Eclipse."
+  },
+  {
+    "row": 96,
+    "rowsha": "+KmGlHUQBaw1i4Vp/VwarXeDeQ+yleYSBiMdEpW02QY=",
+    "originContent": "3. Install the GhidraDev Eclipse plugin. Instructions can be found in your Ghidra install directory, under `Extensions/Eclipse/GhidraDev/GhidraDev_README.html`.",
+    "translatedContent": "3. Install the GhidraDev Eclipse plugin. Instructions can be found in your Ghidra install directory, under `Extensions/Eclipse/GhidraDev/GhidraDev_README.html`."
+  },
+  {
+    "row": 97,
+    "rowsha": "0hXt6TULjIBxWuWqulpH5W57semNXnFV2Sn7ZR79vAo=",
+    "originContent": "4. In Eclipse, open the GhidraNes repo by going to \"File\" > \"Open Projects from File System...\". Click \"Directory\", then choose this repo (the _top-level_ folder containing this `README.md` file and the `GhidraNes` subdirectory). Finally, click \"Finish\".",
+    "translatedContent": "4. In Eclipse, open the GhidraNes repo by going to \"File\" > \"Open Projects from File System...\". Click \"Directory\", then choose this repo (the _top-level_ folder containing this `README.md` file and the `GhidraNes` subdirectory). Finally, click \"Finish\"."
+  },
+  {
+    "row": 98,
+    "rowsha": "y60XVzpA/x7GMRnRKqsk83rjrqV7AISOFOckSjfnXfU=",
+    "originContent": "5. Open \"GhidraDev\" > \"Link Ghidra...\". Add your Ghidra installation, click \"Next >\", then select the \"GhidraNes\" as the Java project. Click \"Finish\".",
+    "translatedContent": "5. Open \"GhidraDev\" > \"Link Ghidra...\". Add your Ghidra installation, click \"Next >\", then select the \"GhidraNes\" as the Java project. Click \"Finish\"."
+  },
+  {
+    "row": 99,
+    "rowsha": "j2W+L5583QR8Vl8ITIEN1JUQcbsEY282IE4K379gKzY=",
+    "originContent": "6. Go to \"Run\" > \"Run As\" > \"Ghidra\" to run Ghidra with the GhidraNes extension.",
+    "translatedContent": "6. Go to \"Run\" > \"Run As\" > \"Ghidra\" to run Ghidra with the GhidraNes extension."
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "dRqM2Xv7K5iU++h1Cx7J+lftmhaw+hsBDZ6G0FcSKWw=",
+    "originContent": "### Building a release from Eclipse",
+    "translatedContent": "### Building a release from Eclipse"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "YqvUrOfb9BJg6c0sPoFJSz6fM5ewM2UHktPL3ePAoZo=",
+    "originContent": "**NOTE:** Ensure the GhidraNes Eclipse project is set up with the _earliest_ version of Java that should be targeted. Using a later version of Java can cause compatibility issues!",
+    "translatedContent": "**NOTE:** Ensure the GhidraNes Eclipse project is set up with the _earliest_ version of Java that should be targeted. Using a later version of Java can cause compatibility issues!"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "WcToh6c9gaY4Urcvlioi3Tx/hXpCclOX6b3Kndpq85o=",
+    "originContent": "1. Install Gradle (with [SDKMAN](https://sdkman.io/), this can be done with `sdk install gradle`).",
+    "translatedContent": "1. Install Gradle (with [SDKMAN](https://sdkman.io/), this can be done with `sdk install gradle`)."
+  },
+  {
+    "row": 106,
+    "rowsha": "sfsTRw8UFByJjpL50rUxWUhBdvujpLt3lkM5LniN3sA=",
+    "originContent": "2. In Eclipse, open \"GhidraDev\" > \"Export\" > \"Ghidra Module Extension...\". Choose \"GhidraNes\" as the project, click \"Next >\", then choose \"Local installation directory:\" and browse to your Gradle installation dir (with SDKMAN, this will be at `~/.sdkman/candidates/gradle/$GRADLE_VERSION`). Click \"Finish\".",
+    "translatedContent": "2. In Eclipse, open \"GhidraDev\" > \"Export\" > \"Ghidra Module Extension...\". Choose \"GhidraNes\" as the project, click \"Next >\", then choose \"Local installation directory:\" and browse to your Gradle installation dir (with SDKMAN, this will be at `~/.sdkman/candidates/gradle/$GRADLE_VERSION`). Click \"Finish\"."
+  },
+  {
+    "row": 107,
+    "rowsha": "GOrmehk4TvQR+KnL+wuSAy1DszxH/mfex3apvC95wYE=",
+    "originContent": "3. The built zip file will be saved in the `GhidraNes/dist/` directory. See the \"Installation\" section for details on installing the built zip.",
+    "translatedContent": "3. The built zip file will be saved in the `GhidraNes/dist/` directory. See the \"Installation\" section for details on installing the built zip."
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "5Pdg1qfRtK53lVZ8NdPGq3Bzw2H9mCERNPZxHOvMKJ8=",
+    "originContent": "### Developing with another editor (such as VS Code)",
+    "translatedContent": "### Developing with another editor (such as VS Code)"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "JHVvax6m6gnmQdigk7nDnqtGEFf7N2dQDxPGATaUN1Q=",
+    "originContent": "1. Install Java and Ghidra.",
+    "translatedContent": "1. Install Java and Ghidra."
+  },
+  {
+    "row": 112,
+    "rowsha": "3+iOLuOKy7VAQfDBfohpw8u2mYPAVAYxwmkx6ew2znw=",
+    "originContent": "2. Configure the JDK settings in your editor.",
+    "translatedContent": "2. Configure the JDK settings in your editor."
+  },
+  {
+    "row": 113,
+    "rowsha": "DmVfyh6uaGVl8SuK7xvWiPEYdKNjwqiBARK0NETP+mo=",
+    "originContent": "    - For VSCode: Follow the official [\"Getting Started with Java in VS Code\"](https://code.visualstudio.com/docs/java/java-tutorial) guide.",
+    "translatedContent": "    - For VSCode: Follow the official [\"Getting Started with Java in VS Code\"](https://code.visualstudio.com/docs/java/java-tutorial) guide."
+  },
+  {
+    "row": 114,
+    "rowsha": "SHyCs/5EExR/W0C7HrtWgK7qVdIRESdEObr0X/at8us=",
+    "originContent": "3. Copy the `GhidraNes/gradle.properties.example` file to `GhidraNes/gradle.properties` and configure Ghirda's installation directory as needed.",
+    "translatedContent": "3. Copy the `GhidraNes/gradle.properties.example` file to `GhidraNes/gradle.properties` and configure Ghirda's installation directory as needed."
+  },
+  {
+    "row": 115,
+    "rowsha": "NO3cy6PuNQ14ZZvSGj2wQYrsmxLgQDd45ccx9gNi0is=",
+    "originContent": "4. Import the GhidraNes repo as a Java project (the _top-level_ folder containing this `README.md` file and the `GhidraNes` subdirectory).",
+    "translatedContent": "4. Import the GhidraNes repo as a Java project (the _top-level_ folder containing this `README.md` file and the `GhidraNes` subdirectory)."
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "Wjy3fFRj2XT5AVybaahl1cDNujOkkUf0UGif2CS+3FA=",
+    "originContent": "### Building a release with Gradle",
+    "translatedContent": "### Building a release with Gradle"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "FMWjN1I3/lh9cxVb4BTJaxG2mXfZ6lwGj3+cGqo3/og=",
+    "originContent": "1. Move to the inner `GhidraNes` subdirectory: `cd GhidraNes/GhidraNes`",
+    "translatedContent": "1. Move to the inner `GhidraNes` subdirectory: `cd GhidraNes/GhidraNes`"
+  },
+  {
+    "row": 120,
+    "rowsha": "qmCa9DvxYciXOrMNil81gKySYqBOw//vGBoYb5od8/w=",
+    "originContent": "2. Run `gradle buildExtension`",
+    "translatedContent": "2. Run `gradle buildExtension`"
+  },
+  {
+    "row": 121,
+    "rowsha": "gZE1Kmft1KgfAvzzd+ieWSf8p8fphVAO9lUq/wWHjlE=",
+    "originContent": "    - If the `gradle.properties` file hasn't been set up, properties can be passed to Gradle directly, e.g. `gradle buildExtension -PGHIDRA_INSTALL_DIR=/home/user/ghidra_10.2.2_PUBLIC`",
+    "translatedContent": "    - If the `gradle.properties` file hasn't been set up, properties can be passed to Gradle directly, e.g. `gradle buildExtension -PGHIDRA_INSTALL_DIR=/home/user/ghidra_10.2.2_PUBLIC`"
+  },
+  {
+    "row": 122,
+    "rowsha": "GOrmehk4TvQR+KnL+wuSAy1DszxH/mfex3apvC95wYE=",
+    "originContent": "3. The built zip file will be saved in the `GhidraNes/dist/` directory. See the \"Installation\" section for details on installing the built zip.",
+    "translatedContent": "3. The built zip file will be saved in the `GhidraNes/dist/` directory. See the \"Installation\" section for details on installing the built zip."
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "l01BqtkfGMfTABHtfkUFHMlv1I4k3Sn2b9s2luu7ooU=",
+    "originContent": "## Publishing a release",
+    "translatedContent": "## Publishing a release"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "K9ZwuSxOoK2/dh4Krj7R5gUwjGREx9Pdi0MdtcvveRI=",
+    "originContent": "1. Update `CHANGELOG.md` as a new commit",
+    "translatedContent": "1. Update `CHANGELOG.md` as a new commit"
+  },
+  {
+    "row": 127,
+    "rowsha": "2c3cVFCWlRCyUXhObJbORWVlt4hQ/GUO+QrBoA2fqjc=",
+    "originContent": "2. Create a tag for the new release. The tag and release name should be named `vYYYYMMDD` based on the current date [in UTC](https://www.utctime.net/) (e.g. `v20250520`)",
+    "translatedContent": "2. Create a tag for the new release. The tag and release name should be named `vYYYYMMDD` based on the current date [in UTC](https://www.utctime.net/) (e.g. `v20250520`)"
+  },
+  {
+    "row": 128,
+    "rowsha": "waK6nCRutq2pV3Jzs6JMvsCvQ4eSghNa3pcZU6ZohyU=",
+    "originContent": "3. Push the tag. This will trigger the [\"Release\" GH Actions workflow](https://github.com/kylewlacy/GhidraNes/actions/workflows/release.yml), which will create a new [draft release](https://github.com/kylewlacy/GhidraNes/releases) with release notes and build assets after a few minutes",
+    "translatedContent": "3. Push the tag. This will trigger the [\"Release\" GH Actions workflow](https://github.com/kylewlacy/GhidraNes/actions/workflows/release.yml), which will create a new [draft release](https://github.com/kylewlacy/GhidraNes/releases) with release notes and build assets after a few minutes"
+  },
+  {
+    "row": 129,
+    "rowsha": "agFurIJ5t8mqzcqkezhWuCIwdlhA5IVN/PCU5vCSpF8=",
+    "originContent": "4. Double-check that the build assets look good, adjust or add to the release notes if needed, and publish!",
+    "translatedContent": "4. Double-check that the build assets look good, adjust or add to the release notes if needed, and publish!"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,834 @@
+[
+  {
+    "Id": 1,
+    "Content": "# GhidraNes\n\nA Ghidra extension to support disassembling and analyzing NES ROMs.\n\n![Ghidra disassembly showing a decompiled function from a file named \"game.nes\"](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/ghidra-nes.png)\n\n## Features\n\n- Import NES ROMs in the iNES format. The following mappers are supported:\n    - 16K/32K fixed PRG ROM\n        - [NROM](https://www.nesdev.org/wiki/NROM) (mapper 0)\n        - [CNROM](https://www.nesdev.org/wiki/CNROM) (mappers 3, 185)\n        - [CPROM](https://www.nesdev.org/wiki/CPROM) (mapper 13)\n    - 16K bankable PRG ROM\n        - [MMC1/SxROM](https://www.nesdev.org/wiki/MMC1) (mapper 1, also includes mapper 16)\n        - [UxROM](https://www.nesdev.org/wiki/UxROM) (mapper 2)\n        - [MMC4/FxROM](https://www.nesdev.org/wiki/MMC4) (mapper 10)\n        - [UNROM 512](https://www.nesdev.org/wiki/UNROM_512) (mapper 30)\n        - [Sunsoft 3](https://www.nesdev.org/wiki/INES_Mapper_067)/[Sunsoft 4](https://www.nesdev.org/wiki/INES_Mapper_068) (mappers 67, 68)\n        - Misc mapper [16](https://www.nesdev.org/wiki/INES_Mapper_016)\n    - 32K bankable PRG ROM\n        - [AxROM](https://www.nesdev.org/wiki/AxROM) (mapper 7)\n        - [BNROM/NINA](https://www.nesdev.org/wiki/INES_Mapper_034) (mapper 34)\n        - [GxROM](https://www.nesdev.org/wiki/GxROM) (mapper 66)\n        - Misc mappers [11](https://www.nesdev.org/wiki/Color_Dreams), [38](https://www.nesdev.org/wiki/INES_Mapper_038), [140](https://www.nesdev.org/wiki/INES_Mapper_140)\n    - 8K bankable PRG ROM\n        - [MMC3/TxROM](https://www.nesdev.org/wiki/MMC3)/[TxSROM](https://www.nesdev.org/wiki/INES_Mapper_118)/[TQROM](https://www.nesdev.org/wiki/INES_Mapper_119) (mappers 4, 118, 119)\n        - [Namco 129/163](https://www.nesdev.org/wiki/INES_Mapper_019) (mapper 19)\n        - [Konami VRC2/4](https://www.nesdev.org/wiki/VRC2_and_VRC4) (mappers 21, 22, 23, 25)\n        - [RAMBO-1](https://www.nesdev.org/wiki/RAMBO-1) (mappers 64, 158)\n        - [Sunsoft FME-7/5A/5B](https://www.nesdev.org/wiki/Sunsoft_FME-7) (mapper 69)\n        - [DxROM](https://www.nesdev.org/wiki/DxROM) (mapper [206](https://www.nesdev.org/wiki/INES_Mapper_206))\n        - Misc mappers [18](https://www.nesdev.org/wiki/INES_Mapper_018), [65](https://www.nesdev.org/wiki/INES_Mapper_065), [74](https://www.nesdev.org/wiki/INES_Mapper_074), [76](https://www.nesdev.org/wiki/INES_Mapper_076), [88](https://www.nesdev.org/wiki/INES_Mapper_088), [95](https://www.nesdev.org/wiki/INES_Mapper_095), [154](https://www.nesdev.org/wiki/INES_Mapper_154), [191](https://www.nesdev.org/wiki/INES_Mapper_191), [192](https://www.nesdev.org/wiki/INES_Mapper_192), [194](https://www.nesdev.org/wiki/INES_Mapper_194), [195](https://www.nesdev.org/wiki/INES_Mapper_195)\n\n- Add labels and memory blocks in disassembly, making it easier to jump around a disassembled ROM!\n\n## Installation\n\n1. Install a Compatible version of Java and Ghidra (Java 21+).\n2. Download the latest [GhidraNes release](https://github.com/kylewlacy/GhidraNes/releases). Make sure the release you download matches your Ghidra version!",
+    "ContentSha": "A0Qk3d0W1VDiTjYU2a/rAD7D/CNnij/EDJ2gLg3Im2w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# GhidraNes\n\nNES ROMの逆アセンブルと解析をサポートするGhidra拡張機能。\n\n![Ghidra disassembly showing a decompiled function from a file named \"game.nes\"](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/ghidra-nes.png)\n\n## 機能\n\n- iNESフォーマットのNES ROMをインポート。以下のマッパーをサポート：\n    - 16K/32K固定PRG ROM\n        - [NROM](https://www.nesdev.org/wiki/NROM) (マッパー0)\n        - [CNROM](https://www.nesdev.org/wiki/CNROM) (マッパー3, 185)\n        - [CPROM](https://www.nesdev.org/wiki/CPROM) (マッパー13)\n    - 16Kバンク切り替え可能PRG ROM\n        - [MMC1/SxROM](https://www.nesdev.org/wiki/MMC1) (マッパー1、マッパー16も含む)\n        - [UxROM](https://www.nesdev.org/wiki/UxROM) (マッパー2)\n        - [MMC4/FxROM](https://www.nesdev.org/wiki/MMC4) (マッパー10)\n        - [UNROM 512](https://www.nesdev.org/wiki/UNROM_512) (マッパー30)\n        - [Sunsoft 3](https://www.nesdev.org/wiki/INES_Mapper_067)/[Sunsoft 4](https://www.nesdev.org/wiki/INES_Mapper_068) (マッパー67, 68)\n        - その他マッパー [16](https://www.nesdev.org/wiki/INES_Mapper_016)\n    - 32Kバンク切り替え可能PRG ROM\n        - [AxROM](https://www.nesdev.org/wiki/AxROM) (マッパー7)\n        - [BNROM/NINA](https://www.nesdev.org/wiki/INES_Mapper_034) (マッパー34)\n        - [GxROM](https://www.nesdev.org/wiki/GxROM) (マッパー66)\n        - その他マッパー [11](https://www.nesdev.org/wiki/Color_Dreams), [38](https://www.nesdev.org/wiki/INES_Mapper_038), [140](https://www.nesdev.org/wiki/INES_Mapper_140)\n    - 8Kバンク切り替え可能PRG ROM\n        - [MMC3/TxROM](https://www.nesdev.org/wiki/MMC3)/[TxSROM](https://www.nesdev.org/wiki/INES_Mapper_118)/[TQROM](https://www.nesdev.org/wiki/INES_Mapper_119) (マッパー4, 118, 119)\n        - [Namco 129/163](https://www.nesdev.org/wiki/INES_Mapper_019) (マッパー19)\n        - [Konami VRC2/4](https://www.nesdev.org/wiki/VRC2_and_VRC4) (マッパー21, 22, 23, 25)\n        - [RAMBO-1](https://www.nesdev.org/wiki/RAMBO-1) (マッパー64, 158)\n        - [Sunsoft FME-7/5A/5B](https://www.nesdev.org/wiki/Sunsoft_FME-7) (マッパー69)\n        - [DxROM](https://www.nesdev.org/wiki/DxROM) (マッパー[206](https://www.nesdev.org/wiki/INES_Mapper_206))\n        - その他マッパー [18](https://www.nesdev.org/wiki/INES_Mapper_018), [65](https://www.nesdev.org/wiki/INES_Mapper_065), [74](https://www.nesdev.org/wiki/INES_Mapper_074), [76](https://www.nesdev.org/wiki/INES_Mapper_076), [88](https://www.nesdev.org/wiki/INES_Mapper_088), [95](https://www.nesdev.org/wiki/INES_Mapper_095), [154](https://www.nesdev.org/wiki/INES_Mapper_154), [191](https://www.nesdev.org/wiki/INES_Mapper_191), [192](https://www.nesdev.org/wiki/INES_Mapper_192), [194](https://www.nesdev.org/wiki/INES_Mapper_194), [195](https://www.nesdev.org/wiki/INES_Mapper_195)\n\n- 逆アセンブルにラベルとメモリブロックを追加し、逆アセンブルされたROM内の移動を容易に！\n\n## インストール\n\n1. 互換性のあるJavaおよびGhidraのバージョンをインストール（Java 21以上）。\n2. 最新の[GhidraNesリリース](https://github.com/kylewlacy/GhidraNes/releases)をダウンロード。ダウンロードしたリリースがGhidraのバージョンに合っていることを確認！",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1AHAqpCzssnY+yZwcg72z0BiJcac6/UuT7k9B9qozbk=",
+        "originContent": "# GhidraNes",
+        "translatedContent": "# GhidraNes"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "sq7xp8GimQDn1xRnU88execAijtZ22Qx7sn6dRIOtWE=",
+        "originContent": "A Ghidra extension to support disassembling and analyzing NES ROMs.",
+        "translatedContent": "NES ROMの逆アセンブルと解析をサポートするGhidra拡張機能。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "qProtiB5ib2M4CqjFT3qIjraItpr8ps/v61ychbY+uM=",
+        "originContent": "![Ghidra disassembly showing a decompiled function from a file named \"game.nes\"](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/ghidra-nes.png)",
+        "translatedContent": "![Ghidra disassembly showing a decompiled function from a file named \"game.nes\"](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/ghidra-nes.png)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 機能"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "fY5m0J5XtFiEjWhovJLpDBT3PJEyv6a2htqCFHsQ9kY=",
+        "originContent": "- Import NES ROMs in the iNES format. The following mappers are supported:",
+        "translatedContent": "- iNESフォーマットのNES ROMをインポート。以下のマッパーをサポート："
+      },
+      {
+        "row": 10,
+        "rowsha": "2MA1mWlZCoZlYfsu4pdYZzKCD/7GSCEjHO70OJxcBGM=",
+        "originContent": "    - 16K/32K fixed PRG ROM",
+        "translatedContent": "    - 16K/32K固定PRG ROM"
+      },
+      {
+        "row": 11,
+        "rowsha": "QRnmEloMySlrT98IUjImNWQG0JaB3JxTtH07Ikvks6o=",
+        "originContent": "        - [NROM](https://www.nesdev.org/wiki/NROM) (mapper 0)",
+        "translatedContent": "        - [NROM](https://www.nesdev.org/wiki/NROM) (マッパー0)"
+      },
+      {
+        "row": 12,
+        "rowsha": "fRRX0X4qQgEMaMEXa6rd8vgKCYSrs9FlJC6tBcAtl7o=",
+        "originContent": "        - [CNROM](https://www.nesdev.org/wiki/CNROM) (mappers 3, 185)",
+        "translatedContent": "        - [CNROM](https://www.nesdev.org/wiki/CNROM) (マッパー3, 185)"
+      },
+      {
+        "row": 13,
+        "rowsha": "7bVbG1qQeEnU/cuqul8T2O8pM54aB051/2W1yTpfSXw=",
+        "originContent": "        - [CPROM](https://www.nesdev.org/wiki/CPROM) (mapper 13)",
+        "translatedContent": "        - [CPROM](https://www.nesdev.org/wiki/CPROM) (マッパー13)"
+      },
+      {
+        "row": 14,
+        "rowsha": "KHWFJTh2YTzSpEyAhjYHvEXCyxBBPIh1RB+WLCKLlmI=",
+        "originContent": "    - 16K bankable PRG ROM",
+        "translatedContent": "    - 16Kバンク切り替え可能PRG ROM"
+      },
+      {
+        "row": 15,
+        "rowsha": "9GdhorcQS7W2sCUigOkg9XMXTsLI09+UrGozFl46c2c=",
+        "originContent": "        - [MMC1/SxROM](https://www.nesdev.org/wiki/MMC1) (mapper 1, also includes mapper 16)",
+        "translatedContent": "        - [MMC1/SxROM](https://www.nesdev.org/wiki/MMC1) (マッパー1、マッパー16も含む)"
+      },
+      {
+        "row": 16,
+        "rowsha": "AByS06ZC52pPgq2LnxBEOqqyCJASyf83p66znMJCoD0=",
+        "originContent": "        - [UxROM](https://www.nesdev.org/wiki/UxROM) (mapper 2)",
+        "translatedContent": "        - [UxROM](https://www.nesdev.org/wiki/UxROM) (マッパー2)"
+      },
+      {
+        "row": 17,
+        "rowsha": "o1+PVZLtwN63GUX7GGyrmW9NDJv+dN78OB+LVCRW9Uk=",
+        "originContent": "        - [MMC4/FxROM](https://www.nesdev.org/wiki/MMC4) (mapper 10)",
+        "translatedContent": "        - [MMC4/FxROM](https://www.nesdev.org/wiki/MMC4) (マッパー10)"
+      },
+      {
+        "row": 18,
+        "rowsha": "WuoBpchYuJpGsr617EMfWXYfnOVNzhhJwtse8kjX8Ns=",
+        "originContent": "        - [UNROM 512](https://www.nesdev.org/wiki/UNROM_512) (mapper 30)",
+        "translatedContent": "        - [UNROM 512](https://www.nesdev.org/wiki/UNROM_512) (マッパー30)"
+      },
+      {
+        "row": 19,
+        "rowsha": "uz+VGWeHzfrTiKPfQJtqYONJiunfLxGGgJfdGMpXRmA=",
+        "originContent": "        - [Sunsoft 3](https://www.nesdev.org/wiki/INES_Mapper_067)/[Sunsoft 4](https://www.nesdev.org/wiki/INES_Mapper_068) (mappers 67, 68)",
+        "translatedContent": "        - [Sunsoft 3](https://www.nesdev.org/wiki/INES_Mapper_067)/[Sunsoft 4](https://www.nesdev.org/wiki/INES_Mapper_068) (マッパー67, 68)"
+      },
+      {
+        "row": 20,
+        "rowsha": "3LL6hEt0pw1M5qu/GQRLDhFYdkEnexVTRlHXdQKAdi8=",
+        "originContent": "        - Misc mapper [16](https://www.nesdev.org/wiki/INES_Mapper_016)",
+        "translatedContent": "        - その他マッパー [16](https://www.nesdev.org/wiki/INES_Mapper_016)"
+      },
+      {
+        "row": 21,
+        "rowsha": "n4QyyvoU3uTiKR6CmHRFI0BRGxji/8MA/TSIkXq3e3Y=",
+        "originContent": "    - 32K bankable PRG ROM",
+        "translatedContent": "    - 32Kバンク切り替え可能PRG ROM"
+      },
+      {
+        "row": 22,
+        "rowsha": "fAJ85MIoy+y7AGzewrQZxKq9SRc600HMl7zC438Hfqw=",
+        "originContent": "        - [AxROM](https://www.nesdev.org/wiki/AxROM) (mapper 7)",
+        "translatedContent": "        - [AxROM](https://www.nesdev.org/wiki/AxROM) (マッパー7)"
+      },
+      {
+        "row": 23,
+        "rowsha": "k4ATWwqZvcGbS0pQUY2bi345Ygyt9c3uArhzMU4N9po=",
+        "originContent": "        - [BNROM/NINA](https://www.nesdev.org/wiki/INES_Mapper_034) (mapper 34)",
+        "translatedContent": "        - [BNROM/NINA](https://www.nesdev.org/wiki/INES_Mapper_034) (マッパー34)"
+      },
+      {
+        "row": 24,
+        "rowsha": "AK711rrIZg2jfbLJ4IuPaAUnbe1mqYrBv2C5rLQiFao=",
+        "originContent": "        - [GxROM](https://www.nesdev.org/wiki/GxROM) (mapper 66)",
+        "translatedContent": "        - [GxROM](https://www.nesdev.org/wiki/GxROM) (マッパー66)"
+      },
+      {
+        "row": 25,
+        "rowsha": "GGU6SB0vYQq+GscqaO29Fd8tvsbfmafgauTPdTM/hZk=",
+        "originContent": "        - Misc mappers [11](https://www.nesdev.org/wiki/Color_Dreams), [38](https://www.nesdev.org/wiki/INES_Mapper_038), [140](https://www.nesdev.org/wiki/INES_Mapper_140)",
+        "translatedContent": "        - その他マッパー [11](https://www.nesdev.org/wiki/Color_Dreams), [38](https://www.nesdev.org/wiki/INES_Mapper_038), [140](https://www.nesdev.org/wiki/INES_Mapper_140)"
+      },
+      {
+        "row": 26,
+        "rowsha": "3oHOtiav9GnzhAsAKMsz2HdMWFqwwMUwdMGTcEQY56g=",
+        "originContent": "    - 8K bankable PRG ROM",
+        "translatedContent": "    - 8Kバンク切り替え可能PRG ROM"
+      },
+      {
+        "row": 27,
+        "rowsha": "LAd94fFwkJJRUJPV+wQ95IHnc2RtHiSl4IlGA4eHKCg=",
+        "originContent": "        - [MMC3/TxROM](https://www.nesdev.org/wiki/MMC3)/[TxSROM](https://www.nesdev.org/wiki/INES_Mapper_118)/[TQROM](https://www.nesdev.org/wiki/INES_Mapper_119) (mappers 4, 118, 119)",
+        "translatedContent": "        - [MMC3/TxROM](https://www.nesdev.org/wiki/MMC3)/[TxSROM](https://www.nesdev.org/wiki/INES_Mapper_118)/[TQROM](https://www.nesdev.org/wiki/INES_Mapper_119) (マッパー4, 118, 119)"
+      },
+      {
+        "row": 28,
+        "rowsha": "747/NchkNww2b6Djdl5MGdJ6ma1dczoMA/DffoKFgQU=",
+        "originContent": "        - [Namco 129/163](https://www.nesdev.org/wiki/INES_Mapper_019) (mapper 19)",
+        "translatedContent": "        - [Namco 129/163](https://www.nesdev.org/wiki/INES_Mapper_019) (マッパー19)"
+      },
+      {
+        "row": 29,
+        "rowsha": "DkyDehsbKNnBJGK44l2OTRNv1H/cSpoSpczXWkS+WDE=",
+        "originContent": "        - [Konami VRC2/4](https://www.nesdev.org/wiki/VRC2_and_VRC4) (mappers 21, 22, 23, 25)",
+        "translatedContent": "        - [Konami VRC2/4](https://www.nesdev.org/wiki/VRC2_and_VRC4) (マッパー21, 22, 23, 25)"
+      },
+      {
+        "row": 30,
+        "rowsha": "aGReRI3YzdlGmvu35BBbKhci9pL3eWvBLVmJpupRLL0=",
+        "originContent": "        - [RAMBO-1](https://www.nesdev.org/wiki/RAMBO-1) (mappers 64, 158)",
+        "translatedContent": "        - [RAMBO-1](https://www.nesdev.org/wiki/RAMBO-1) (マッパー64, 158)"
+      },
+      {
+        "row": 31,
+        "rowsha": "lejBW4AC79cTlLymWcrA1yT0I10HERoShYNZKmuKCvQ=",
+        "originContent": "        - [Sunsoft FME-7/5A/5B](https://www.nesdev.org/wiki/Sunsoft_FME-7) (mapper 69)",
+        "translatedContent": "        - [Sunsoft FME-7/5A/5B](https://www.nesdev.org/wiki/Sunsoft_FME-7) (マッパー69)"
+      },
+      {
+        "row": 32,
+        "rowsha": "xXGBapdHzdSaFapI52aAuf3RY+drI3PgTBxd54x9nSg=",
+        "originContent": "        - [DxROM](https://www.nesdev.org/wiki/DxROM) (mapper [206](https://www.nesdev.org/wiki/INES_Mapper_206))",
+        "translatedContent": "        - [DxROM](https://www.nesdev.org/wiki/DxROM) (マッパー[206](https://www.nesdev.org/wiki/INES_Mapper_206))"
+      },
+      {
+        "row": 33,
+        "rowsha": "ZimRzs56Waky2xDWcOByqlHFNcyMxQyCRmJ4TlEWU9Y=",
+        "originContent": "        - Misc mappers [18](https://www.nesdev.org/wiki/INES_Mapper_018), [65](https://www.nesdev.org/wiki/INES_Mapper_065), [74](https://www.nesdev.org/wiki/INES_Mapper_074), [76](https://www.nesdev.org/wiki/INES_Mapper_076), [88](https://www.nesdev.org/wiki/INES_Mapper_088), [95](https://www.nesdev.org/wiki/INES_Mapper_095), [154](https://www.nesdev.org/wiki/INES_Mapper_154), [191](https://www.nesdev.org/wiki/INES_Mapper_191), [192](https://www.nesdev.org/wiki/INES_Mapper_192), [194](https://www.nesdev.org/wiki/INES_Mapper_194), [195](https://www.nesdev.org/wiki/INES_Mapper_195)",
+        "translatedContent": "        - その他マッパー [18](https://www.nesdev.org/wiki/INES_Mapper_018), [65](https://www.nesdev.org/wiki/INES_Mapper_065), [74](https://www.nesdev.org/wiki/INES_Mapper_074), [76](https://www.nesdev.org/wiki/INES_Mapper_076), [88](https://www.nesdev.org/wiki/INES_Mapper_088), [95](https://www.nesdev.org/wiki/INES_Mapper_095), [154](https://www.nesdev.org/wiki/INES_Mapper_154), [191](https://www.nesdev.org/wiki/INES_Mapper_191), [192](https://www.nesdev.org/wiki/INES_Mapper_192), [194](https://www.nesdev.org/wiki/INES_Mapper_194), [195](https://www.nesdev.org/wiki/INES_Mapper_195)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "OHhygQWcz7aBRq4tC8OJP4dTY8A/+Elx3o+rCh7vvmk=",
+        "originContent": "- Add labels and memory blocks in disassembly, making it easier to jump around a disassembled ROM!",
+        "translatedContent": "- 逆アセンブルにラベルとメモリブロックを追加し、逆アセンブルされたROM内の移動を容易に！"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "xXp6LnuuTt46q2ZiXLMmK1tkQYFFiwz+M6L/PR+uy9o=",
+        "originContent": "1. Install a Compatible version of Java and Ghidra (Java 21+).",
+        "translatedContent": "1. 互換性のあるJavaおよびGhidraのバージョンをインストール（Java 21以上）。"
+      },
+      {
+        "row": 40,
+        "rowsha": "b0qUq7dXM9hwXF+FZXxc2vbtzcHHUKFHMDg4n1JByUI=",
+        "originContent": "2. Download the latest [GhidraNes release](https://github.com/kylewlacy/GhidraNes/releases). Make sure the release you download matches your Ghidra version!",
+        "translatedContent": "2. 最新の[GhidraNesリリース](https://github.com/kylewlacy/GhidraNes/releases)をダウンロード。ダウンロードしたリリースがGhidraのバージョンに合っていることを確認！"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "3. Go to \"File\" > \"Install Extensions...\". Click \"+\" in the top-right corner and choose the GhidraNes Zip. Click \"OK\" to install the extension.\n4. Restart Ghidra.\n\n## Usage\n\n1. In Ghidra, create a new project by following the wizard under \"File\" > \"New Project...\".\n2. Drag-and-drop an iNES `.nes` ROM onto the project. Set the format to \"NES ROM\" and click \"OK\".\n3. Double-click the ROM in the project to open Ghidra's CodeBrowser.\n4. Analyze the file when prompted (or go to \"Analysis\" > \"Auto Analyze...\"). Leave the settings as default and click \"Analyze\".\n5. Done, the game will be disassembled! On the left-hand side, under \"Symbol Tree\" > \"Functions\", open `reset` to jump to the reset vector (where execution starts), or `vblank` to jump to the NMI vector (where execution goes during VBlank).\n\n## Notes\n\n### Bank switching\n\nGhidraNes maps each bank of the ROM to its own memory block, but there is no control-flow analysis implemented that handles bank switching automatically. Instead, handling bank switching in the disassembly is a manual process. Take this function for example:\n\n![Ghidra disassembly showing a \"reset\" function consisting of \"LDA #0x0\", \"STA DAT_8000\", and \"JMP (0xfffc)=>reset\". The gutter shows this function as an infinite loop](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/bank-switching-broken.png)\n\nThis disassembled function is doing a bank switch: the write to `DAT_8000` switches the PRG ROM to bank 0 in this case. Cases like this can be fixed in Ghidra using the following steps:\n\n1. Right click the `JMP` instruction\n2. Click \"References > Add/Edit (R)\"\n3. Double click the destination operand\n4. For the \"To Address\" field, change the left-hand dropdown from \"RAM:\" to the appropriate memory bank (\"PRG0::\" for this example)\n5. Click \"Update\"\n\nThe disassembly should now show a jump to the correct bank:\n\n![Ghidra disassembly showing the same \"reset\" function, but the \"JMP\" instruction now goes to \"(0xfffc)=>LAB_PRG0__ffaf\"](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/bank-switching-fixed.png)\n\n> Note: Any write instruction (e.g. `STA`/`STX`/'STY', `INC`/`DEC`) to a mapper register will cause control flow to change if the bank containing the currently-executing code is switched out. To fix these:\n>\n> 1. Right-click the write instruction\n> 2. Choose `Fallthrough`>`Set...`\n> 3. Remember the value in the address offset box\n> 4. Select `User`, and choose the new bank from the dropdown.\n> 5.  Set the address offset box to the value from step 3 (since the PC will still be the \"next\" instruction in the new bank).\n>\n>This should help with analysis and decompilation so they can \"follow\" the bank switch.",
+    "ContentSha": "V4JRhBBOvtJdX8m+Y8TH4QqKaPojNq/Vpuijo+wTyeo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. 「ファイル」>「拡張機能のインストール...」に移動します。右上の「＋」をクリックし、GhidraNesのZipファイルを選択します。「OK」をクリックして拡張機能をインストールします。  \n4. Ghidraを再起動します。  \n\n## 使用方法  \n\n1. Ghidraで「ファイル」>「新規プロジェクト...」のウィザードに従って新しいプロジェクトを作成します。  \n2. iNESの`.nes` ROMファイルをプロジェクトにドラッグアンドドロップします。フォーマットを「NES ROM」に設定し、「OK」をクリックします。  \n3. プロジェクト内のROMをダブルクリックしてGhidraのCodeBrowserを開きます。  \n4. ファイルの解析を促されたら実行するか、「解析」>「自動解析...」に進みます。設定はデフォルトのままにして「解析」をクリックします。  \n5. 完了です。ゲームが逆アセンブルされます！左側の「シンボルツリー」>「関数」内で`reset`を開くとリセットベクタ（実行開始位置）にジャンプします。または`vblank`を開くとNMIベクタ（VBlank中の実行位置）にジャンプします。  \n\n## 注意事項  \n\n### バンク切り替え  \n\nGhidraNesはROMの各バンクを独自のメモリブロックとしてマッピングしますが、バンク切り替えを自動で処理する制御フロー解析は実装されていません。代わりに、逆アセンブルでのバンク切り替えの処理は手動で行います。例えば以下の関数を見てください：  \n\n![Ghidra disassembly showing a \"reset\" function consisting of \"LDA #0x0\", \"STA DAT_8000\", and \"JMP (0xfffc)=>reset\". The gutter shows this function as an infinite loop](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/bank-switching-broken.png)  \n\nこの逆アセンブルされた関数はバンク切り替えを行っています：`DAT_8000`への書き込みはこの場合PRG ROMをバンク0に切り替えています。このようなケースは以下の手順でGhidra内で修正可能です：  \n\n1. `JMP`命令を右クリック  \n2. 「参照」>「追加/編集 (R)」をクリック  \n3. 宛先オペランドをダブルクリック  \n4. 「アドレス先」欄の左側ドロップダウンを「RAM:」から適切なメモリバンク（この例では「PRG0::」）に変更  \n5. 「更新」をクリック  \n\nこれで逆アセンブルは正しいバンクへのジャンプを表示するはずです：  \n\n![Ghidra disassembly showing the same \"reset\" function, but the \"JMP\" instruction now goes to \"(0xfffc)=>LAB_PRG0__ffaf\"](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/bank-switching-fixed.png)  \n\n> 注意：マッパーレジスタへの書き込み命令（例：`STA`/`STX`/`STY`、`INC`/`DEC`）は、現在実行中のコードを含むバンクが切り替えられると制御フローが変化します。これを修正するには：  \n>  \n> 1. 書き込み命令を右クリック  \n> 2. 「フォールスルー」>「設定...」を選択  \n> 3. アドレスオフセット欄の値をメモ  \n> 4. 「ユーザー」を選択し、ドロップダウンから新しいバンクを選択  \n> 5. アドレスオフセット欄にステップ3でメモした値を設定（PCは新しいバンク内の「次の」命令のままのため）  \n>  \n> これにより解析や逆コンパイルがバンク切り替えを「追跡」できるようになります。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "I6mopL0kAZ0N0zBDE0zCJZXlH5PRFkCybkZR6RD9cLU=",
+        "originContent": "3. Go to \"File\" > \"Install Extensions...\". Click \"+\" in the top-right corner and choose the GhidraNes Zip. Click \"OK\" to install the extension.",
+        "translatedContent": "3. 「ファイル」>「拡張機能のインストール...」に移動します。右上の「＋」をクリックし、GhidraNesのZipファイルを選択します。「OK」をクリックして拡張機能をインストールします。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "TiKxm0xmuYVPwrr5QyNX6bURux17HZPL7wDEJYbQVEU=",
+        "originContent": "4. Restart Ghidra.",
+        "translatedContent": "4. Ghidraを再起動します。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "HUTyLXeOKJeOia8/mOXA/o/5A4IGw3G6cFib/mQKNpg=",
+        "originContent": "1. In Ghidra, create a new project by following the wizard under \"File\" > \"New Project...\".",
+        "translatedContent": "1. Ghidraで「ファイル」>「新規プロジェクト...」のウィザードに従って新しいプロジェクトを作成します。  "
+      },
+      {
+        "row": 7,
+        "rowsha": "z2C2lRHrdSRb2frzLni+n6ksoq4J7T+1TzEMgM/SkP4=",
+        "originContent": "2. Drag-and-drop an iNES `.nes` ROM onto the project. Set the format to \"NES ROM\" and click \"OK\".",
+        "translatedContent": "2. iNESの`.nes` ROMファイルをプロジェクトにドラッグアンドドロップします。フォーマットを「NES ROM」に設定し、「OK」をクリックします。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "tsYPv7vlqp+DKt3x3UnbdkFVGK6V0i+belclGpH8iCA=",
+        "originContent": "3. Double-click the ROM in the project to open Ghidra's CodeBrowser.",
+        "translatedContent": "3. プロジェクト内のROMをダブルクリックしてGhidraのCodeBrowserを開きます。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "md3wGCVCOb5lhZkeVRN+iILyBtxOMbIncLe4m4y3Jdg=",
+        "originContent": "4. Analyze the file when prompted (or go to \"Analysis\" > \"Auto Analyze...\"). Leave the settings as default and click \"Analyze\".",
+        "translatedContent": "4. ファイルの解析を促されたら実行するか、「解析」>「自動解析...」に進みます。設定はデフォルトのままにして「解析」をクリックします。  "
+      },
+      {
+        "row": 10,
+        "rowsha": "peO6FiBO1uIegOW/LON0Qy+c6ZBNeWxaXL5HlcYEomw=",
+        "originContent": "5. Done, the game will be disassembled! On the left-hand side, under \"Symbol Tree\" > \"Functions\", open `reset` to jump to the reset vector (where execution starts), or `vblank` to jump to the NMI vector (where execution goes during VBlank).",
+        "translatedContent": "5. 完了です。ゲームが逆アセンブルされます！左側の「シンボルツリー」>「関数」内で`reset`を開くとリセットベクタ（実行開始位置）にジャンプします。または`vblank`を開くとNMIベクタ（VBlank中の実行位置）にジャンプします。  "
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Y+E+h7N40ehfg46tJn25AgwUV7ERijfgr5+1+XYUT0s=",
+        "originContent": "## Notes",
+        "translatedContent": "## 注意事項  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "RLCVlgjf3VKnIaqLMQlj/2+IAQ21RkmWp+yigZfLYKQ=",
+        "originContent": "### Bank switching",
+        "translatedContent": "### バンク切り替え  "
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "YYtnUEg5n+7/WEmeaETdtJ0vb2pqmyIoHMOxcDNELOM=",
+        "originContent": "GhidraNes maps each bank of the ROM to its own memory block, but there is no control-flow analysis implemented that handles bank switching automatically. Instead, handling bank switching in the disassembly is a manual process. Take this function for example:",
+        "translatedContent": "GhidraNesはROMの各バンクを独自のメモリブロックとしてマッピングしますが、バンク切り替えを自動で処理する制御フロー解析は実装されていません。代わりに、逆アセンブルでのバンク切り替えの処理は手動で行います。例えば以下の関数を見てください：  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "3EZlcWpJIs3gdxR5R6tFCIky5On0SQUmlbDXaHbdxbI=",
+        "originContent": "![Ghidra disassembly showing a \"reset\" function consisting of \"LDA #0x0\", \"STA DAT_8000\", and \"JMP (0xfffc)=>reset\". The gutter shows this function as an infinite loop](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/bank-switching-broken.png)",
+        "translatedContent": "![Ghidra disassembly showing a \"reset\" function consisting of \"LDA #0x0\", \"STA DAT_8000\", and \"JMP (0xfffc)=>reset\". The gutter shows this function as an infinite loop](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/bank-switching-broken.png)  "
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "dvefGbPn96TJbHIe02Ny2GW0JBNT7PfO9upKuZiDOC0=",
+        "originContent": "This disassembled function is doing a bank switch: the write to `DAT_8000` switches the PRG ROM to bank 0 in this case. Cases like this can be fixed in Ghidra using the following steps:",
+        "translatedContent": "この逆アセンブルされた関数はバンク切り替えを行っています：`DAT_8000`への書き込みはこの場合PRG ROMをバンク0に切り替えています。このようなケースは以下の手順でGhidra内で修正可能です：  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "gv3COna6NatbhDwpMGQJueG4XFjLRVeJwaiQhvy7qgE=",
+        "originContent": "1. Right click the `JMP` instruction",
+        "translatedContent": "1. `JMP`命令を右クリック  "
+      },
+      {
+        "row": 23,
+        "rowsha": "oadAKWqKIp6ixuitVxD6c1IY/iB+Zcj/NCAOLwm1o/A=",
+        "originContent": "2. Click \"References > Add/Edit (R)\"",
+        "translatedContent": "2. 「参照」>「追加/編集 (R)」をクリック  "
+      },
+      {
+        "row": 24,
+        "rowsha": "A3y2RzbJp0bCC4lhJ6Il22uyxyCpmVlENbfV1R3d4EE=",
+        "originContent": "3. Double click the destination operand",
+        "translatedContent": "3. 宛先オペランドをダブルクリック  "
+      },
+      {
+        "row": 25,
+        "rowsha": "2Z/AKAEupfmj04d//0TqZgAyWkxTHnWwwsZTEJ75WT8=",
+        "originContent": "4. For the \"To Address\" field, change the left-hand dropdown from \"RAM:\" to the appropriate memory bank (\"PRG0::\" for this example)",
+        "translatedContent": "4. 「アドレス先」欄の左側ドロップダウンを「RAM:」から適切なメモリバンク（この例では「PRG0::」）に変更  "
+      },
+      {
+        "row": 26,
+        "rowsha": "aKeglUor4Nx+dbmj3lKfyU+tHcdq/KuxrFrj0cgv1x4=",
+        "originContent": "5. Click \"Update\"",
+        "translatedContent": "5. 「更新」をクリック  "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "pPcYhiPbQ95wqdjV18q7xolSwXxjzruIkhDWSY4mfCU=",
+        "originContent": "The disassembly should now show a jump to the correct bank:",
+        "translatedContent": "これで逆アセンブルは正しいバンクへのジャンプを表示するはずです：  "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "M/rp4tP/NNpPIr3xFbdh3KTTeGrSr4qTDV7qFlMI+y8=",
+        "originContent": "![Ghidra disassembly showing the same \"reset\" function, but the \"JMP\" instruction now goes to \"(0xfffc)=>LAB_PRG0__ffaf\"](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/bank-switching-fixed.png)",
+        "translatedContent": "![Ghidra disassembly showing the same \"reset\" function, but the \"JMP\" instruction now goes to \"(0xfffc)=>LAB_PRG0__ffaf\"](https://raw.githubusercontent.com/kylewlacy/GhidraNes/main/.github/screenshots/bank-switching-fixed.png)  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "VlvzQ1q3LXYruUUH5fkeriEhYc2V+T4OtPL8b31DTEw=",
+        "originContent": "> Note: Any write instruction (e.g. `STA`/`STX`/'STY', `INC`/`DEC`) to a mapper register will cause control flow to change if the bank containing the currently-executing code is switched out. To fix these:",
+        "translatedContent": "> 注意：マッパーレジスタへの書き込み命令（例：`STA`/`STX`/`STY`、`INC`/`DEC`）は、現在実行中のコードを含むバンクが切り替えられると制御フローが変化します。これを修正するには：  "
+      },
+      {
+        "row": 33,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">  "
+      },
+      {
+        "row": 34,
+        "rowsha": "KeXvBKnTKp6mlsBA8VF3gqLWYazSy9WS7LUiHBf+ICQ=",
+        "originContent": "> 1. Right-click the write instruction",
+        "translatedContent": "> 1. 書き込み命令を右クリック  "
+      },
+      {
+        "row": 35,
+        "rowsha": "D1h7nANPcXWYJzN/I2wzZpw4JgOUFt2I6vSo1jahDyg=",
+        "originContent": "> 2. Choose `Fallthrough`>`Set...`",
+        "translatedContent": "> 2. 「フォールスルー」>「設定...」を選択  "
+      },
+      {
+        "row": 36,
+        "rowsha": "lccCFbIp27Ca5vDtu1n1caotDk6XUnUZBfXqrLOxREg=",
+        "originContent": "> 3. Remember the value in the address offset box",
+        "translatedContent": "> 3. アドレスオフセット欄の値をメモ  "
+      },
+      {
+        "row": 37,
+        "rowsha": "fWbf+CbuZGyPw9RdUZVFsKbwDHOkY/XChPQvcqX+mAo=",
+        "originContent": "> 4. Select `User`, and choose the new bank from the dropdown.",
+        "translatedContent": "> 4. 「ユーザー」を選択し、ドロップダウンから新しいバンクを選択  "
+      },
+      {
+        "row": 38,
+        "rowsha": "i7R8harFAOQpcuLtXk/AOOP2nT/pBRrBj6rTL2Wct38=",
+        "originContent": "> 5.  Set the address offset box to the value from step 3 (since the PC will still be the \"next\" instruction in the new bank).",
+        "translatedContent": "> 5. アドレスオフセット欄にステップ3でメモした値を設定（PCは新しいバンク内の「次の」命令のままのため）  "
+      },
+      {
+        "row": 39,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">  "
+      },
+      {
+        "row": 40,
+        "rowsha": "rDoJZpfllIRTpocus6DF9pk4XE73xJzWWf/MMWtyPJo=",
+        "originContent": ">This should help with analysis and decompilation so they can \"follow\" the bank switch.",
+        "translatedContent": "> これにより解析や逆コンパイルがバンク切り替えを「追跡」できるようになります。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\nBy default, ROMs with PRG block sizes of less than 32K are created with a base address of `0x8000` except for the last bank, which will be at the \"highest\" address for that bank (8K blocks will be at `0xe000`, 16K at `0xc000`).  You can use the `Options...` dialog at load time to set each bank's address if you know in advance where each bank should be.  If you later determine that the guess was wrong and you don't want to re-import the ROM, you can re-base the bank using the Memory Map window:\n\n1. Select menu `Window`>`Memory Map` if you don't have it open already.\n2. Select the row with the bank you want to change.\n3. Select the blue cross icon (\"Move a block to another address\") in the title bar of the Memory Map window.\n4. Change the \"New Start Address\" to the correct base address.  The \"New End Address\" should automatically update for you based on the block size.\n5. Select \"OK\" and the bank will be updated.\n\n## Development\n\n### Developing with Eclipse\n\n1. Install Java and Ghidra.\n2. install Eclipse.\n3. Install the GhidraDev Eclipse plugin. Instructions can be found in your Ghidra install directory, under `Extensions/Eclipse/GhidraDev/GhidraDev_README.html`.\n4. In Eclipse, open the GhidraNes repo by going to \"File\" > \"Open Projects from File System...\". Click \"Directory\", then choose this repo (the _top-level_ folder containing this `README.md` file and the `GhidraNes` subdirectory). Finally, click \"Finish\".\n5. Open \"GhidraDev\" > \"Link Ghidra...\". Add your Ghidra installation, click \"Next >\", then select the \"GhidraNes\" as the Java project. Click \"Finish\".\n6. Go to \"Run\" > \"Run As\" > \"Ghidra\" to run Ghidra with the GhidraNes extension.\n\n### Building a release from Eclipse\n\n**NOTE:** Ensure the GhidraNes Eclipse project is set up with the _earliest_ version of Java that should be targeted. Using a later version of Java can cause compatibility issues!\n\n1. Install Gradle (with [SDKMAN](https://sdkman.io/), this can be done with `sdk install gradle`).\n2. In Eclipse, open \"GhidraDev\" > \"Export\" > \"Ghidra Module Extension...\". Choose \"GhidraNes\" as the project, click \"Next >\", then choose \"Local installation directory:\" and browse to your Gradle installation dir (with SDKMAN, this will be at `~/.sdkman/candidates/gradle/$GRADLE_VERSION`). Click \"Finish\".\n3. The built zip file will be saved in the `GhidraNes/dist/` directory. See the \"Installation\" section for details on installing the built zip.\n\n### Developing with another editor (such as VS Code)\n\n1. Install Java and Ghidra.\n2. Configure the JDK settings in your editor.\n    - For VSCode: Follow the official [\"Getting Started with Java in VS Code\"](https://code.visualstudio.com/docs/java/java-tutorial) guide.\n3. Copy the `GhidraNes/gradle.properties.example` file to `GhidraNes/gradle.properties` and configure Ghirda's installation directory as needed.\n4. Import the GhidraNes repo as a Java project (the _top-level_ folder containing this `README.md` file and the `GhidraNes` subdirectory).\n\n### Building a release with Gradle\n\n1. Move to the inner `GhidraNes` subdirectory: `cd GhidraNes/GhidraNes`\n2. Run `gradle buildExtension`",
+    "ContentSha": "V0VGLKvb/yEq8um0lbuyvepQbEQTPRzDXS2nnHnydNA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "デフォルトでは、PRGブロックサイズが32K未満のROMは、最後のバンクを除いてベースアドレスが`0x8000`で作成されます。最後のバンクはそのバンクの「最高」アドレスに配置されます（8Kブロックは`0xe000`、16Kは`0xc000`）。各バンクのアドレスを事前に把握している場合は、ロード時に`Options...`ダイアログで各バンクのアドレスを設定できます。後で推測が間違っていることが判明し、ROMを再インポートしたくない場合は、メモリマップウィンドウを使ってバンクのベースを再設定できます：\n\n1. まだ開いていない場合は、メニューから`Window`>`Memory Map`を選択します。\n2. 変更したいバンクの行を選択します。\n3. メモリマップウィンドウのタイトルバーにある青い十字アイコン（「ブロックを別のアドレスに移動」）を選択します。\n4. 「New Start Address」を正しいベースアドレスに変更します。「New End Address」はブロックサイズに基づいて自動的に更新されます。\n5. 「OK」を選択すると、バンクが更新されます。\n\n## 開発\n\n### Eclipseでの開発\n\n1. JavaとGhidraをインストールします。\n2. Eclipseをインストールします。\n3. GhidraDev Eclipseプラグインをインストールします。手順はGhidraのインストールディレクトリの`Extensions/Eclipse/GhidraDev/GhidraDev_README.html`にあります。\n4. Eclipseで「File」>「Open Projects from File System...」を開きます。「Directory」をクリックし、このリポジトリ（この`README.md`ファイルと`GhidraNes`サブディレクトリを含むトップレベルフォルダ）を選択します。最後に「Finish」をクリックします。\n5. 「GhidraDev」>「Link Ghidra...」を開き、Ghidraのインストールを追加します。「Next >」をクリックし、「GhidraNes」をJavaプロジェクトとして選択します。「Finish」をクリックします。\n6. 「Run」>「Run As」>「Ghidra」を選択し、GhidraNes拡張付きのGhidraを起動します。\n\n### Eclipseからのリリースビルド\n\n**注意：** GhidraNes Eclipseプロジェクトは、ターゲットとする最も古いJavaバージョンで設定してください。後のバージョンを使うと互換性の問題が発生する可能性があります！\n\n1. Gradleをインストールします（[SDKMAN](https://sdkman.io/)を使うと`sdk install gradle`で可能です）。\n2. Eclipseで「GhidraDev」>「Export」>「Ghidra Module Extension...」を開きます。プロジェクトに「GhidraNes」を選択し「Next >」をクリック、「Local installation directory:」を選択してGradleのインストールディレクトリを指定します（SDKMANの場合は`~/.sdkman/candidates/gradle/$GRADLE_VERSION`にあります）。「Finish」をクリックします。\n3. ビルドされたzipファイルは`GhidraNes/dist/`ディレクトリに保存されます。インストール方法の詳細は「Installation」セクションを参照してください。\n\n### 他のエディタ（例：VS Code）での開発\n\n1. JavaとGhidraをインストールします。\n2. エディタでJDK設定を行います。\n    - VSCodeの場合は公式の「[Getting Started with Java in VS Code](https://code.visualstudio.com/docs/java/java-tutorial)」ガイドに従ってください。\n3. `GhidraNes/gradle.properties.example`を`GhidraNes/gradle.properties`にコピーし、必要に応じてGhidraのインストールディレクトリを設定します。\n4. GhidraNesリポジトリをJavaプロジェクトとしてインポートします（この`README.md`ファイルと`GhidraNes`サブディレクトリを含むトップレベルフォルダ）。\n\n### Gradleでのリリースビルド\n\n1. 内部の`GhidraNes`サブディレクトリに移動します：`cd GhidraNes/GhidraNes`\n2. `gradle buildExtension`を実行します。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "デフォルトでは、PRGブロックサイズが32K未満のROMは、最後のバンクを除いてベースアドレスが`0x8000`で作成されます。最後のバンクはそのバンクの「最高」アドレスに配置されます（8Kブロックは`0xe000`、16Kは`0xc000`）。各バンクのアドレスを事前に把握している場合は、ロード時に`Options...`ダイアログで各バンクのアドレスを設定できます。後で推測が間違っていることが判明し、ROMを再インポートしたくない場合は、メモリマップウィンドウを使ってバンクのベースを再設定できます："
+      },
+      {
+        "row": 2,
+        "rowsha": "1Jp5u0eUqFTB11w5Urhoq627FVczokiWnfKtbiac1wY=",
+        "originContent": "By default, ROMs with PRG block sizes of less than 32K are created with a base address of `0x8000` except for the last bank, which will be at the \"highest\" address for that bank (8K blocks will be at `0xe000`, 16K at `0xc000`).  You can use the `Options...` dialog at load time to set each bank's address if you know in advance where each bank should be.  If you later determine that the guess was wrong and you don't want to re-import the ROM, you can re-base the bank using the Memory Map window:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. まだ開いていない場合は、メニューから`Window`>`Memory Map`を選択します。"
+      },
+      {
+        "row": 4,
+        "rowsha": "l8LQ6d1Oa6KYorvsv/NE5wKuRToJhKRgTAheN6I5I3E=",
+        "originContent": "1. Select menu `Window`>`Memory Map` if you don't have it open already.",
+        "translatedContent": "2. 変更したいバンクの行を選択します。"
+      },
+      {
+        "row": 5,
+        "rowsha": "SwQ8QDnLkdOY/3mtiJ8cPCFweQQIf+jqqmNOviNF+8A=",
+        "originContent": "2. Select the row with the bank you want to change.",
+        "translatedContent": "3. メモリマップウィンドウのタイトルバーにある青い十字アイコン（「ブロックを別のアドレスに移動」）を選択します。"
+      },
+      {
+        "row": 6,
+        "rowsha": "9Gsp8HeTcsusKq/fMUDxHQ1BrUwMxXu2xZSujKizlp8=",
+        "originContent": "3. Select the blue cross icon (\"Move a block to another address\") in the title bar of the Memory Map window.",
+        "translatedContent": "4. 「New Start Address」を正しいベースアドレスに変更します。「New End Address」はブロックサイズに基づいて自動的に更新されます。"
+      },
+      {
+        "row": 7,
+        "rowsha": "9A6OIefqSEtXTcglfvE800CKUQNDabTwa8sS83qafKI=",
+        "originContent": "4. Change the \"New Start Address\" to the correct base address.  The \"New End Address\" should automatically update for you based on the block size.",
+        "translatedContent": "5. 「OK」を選択すると、バンクが更新されます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "O9YtTlOLl1nMqGaoix7KdGPx6EQpw0+wJHUumeG6Bv4=",
+        "originContent": "5. Select \"OK\" and the bank will be updated.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 開発"
+      },
+      {
+        "row": 10,
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Eclipseでの開発"
+      },
+      {
+        "row": 12,
+        "rowsha": "CzJa9bbKXQMXZDKyEICa7h+YiKzfp7zKce0E79Z1JWQ=",
+        "originContent": "### Developing with Eclipse",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. JavaとGhidraをインストールします。"
+      },
+      {
+        "row": 14,
+        "rowsha": "JHVvax6m6gnmQdigk7nDnqtGEFf7N2dQDxPGATaUN1Q=",
+        "originContent": "1. Install Java and Ghidra.",
+        "translatedContent": "2. Eclipseをインストールします。"
+      },
+      {
+        "row": 15,
+        "rowsha": "prZu4aHERdGqsMFPKCM+SwpL6Q2kpquA2S0P11L1HTU=",
+        "originContent": "2. install Eclipse.",
+        "translatedContent": "3. GhidraDev Eclipseプラグインをインストールします。手順はGhidraのインストールディレクトリの`Extensions/Eclipse/GhidraDev/GhidraDev_README.html`にあります。"
+      },
+      {
+        "row": 16,
+        "rowsha": "+KmGlHUQBaw1i4Vp/VwarXeDeQ+yleYSBiMdEpW02QY=",
+        "originContent": "3. Install the GhidraDev Eclipse plugin. Instructions can be found in your Ghidra install directory, under `Extensions/Eclipse/GhidraDev/GhidraDev_README.html`.",
+        "translatedContent": "4. Eclipseで「File」>「Open Projects from File System...」を開きます。「Directory」をクリックし、このリポジトリ（この`README.md`ファイルと`GhidraNes`サブディレクトリを含むトップレベルフォルダ）を選択します。最後に「Finish」をクリックします。"
+      },
+      {
+        "row": 17,
+        "rowsha": "0hXt6TULjIBxWuWqulpH5W57semNXnFV2Sn7ZR79vAo=",
+        "originContent": "4. In Eclipse, open the GhidraNes repo by going to \"File\" > \"Open Projects from File System...\". Click \"Directory\", then choose this repo (the _top-level_ folder containing this `README.md` file and the `GhidraNes` subdirectory). Finally, click \"Finish\".",
+        "translatedContent": "5. 「GhidraDev」>「Link Ghidra...」を開き、Ghidraのインストールを追加します。「Next >」をクリックし、「GhidraNes」をJavaプロジェクトとして選択します。「Finish」をクリックします。"
+      },
+      {
+        "row": 18,
+        "rowsha": "y60XVzpA/x7GMRnRKqsk83rjrqV7AISOFOckSjfnXfU=",
+        "originContent": "5. Open \"GhidraDev\" > \"Link Ghidra...\". Add your Ghidra installation, click \"Next >\", then select the \"GhidraNes\" as the Java project. Click \"Finish\".",
+        "translatedContent": "6. 「Run」>「Run As」>「Ghidra」を選択し、GhidraNes拡張付きのGhidraを起動します。"
+      },
+      {
+        "row": 19,
+        "rowsha": "j2W+L5583QR8Vl8ITIEN1JUQcbsEY282IE4K379gKzY=",
+        "originContent": "6. Go to \"Run\" > \"Run As\" > \"Ghidra\" to run Ghidra with the GhidraNes extension.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Eclipseからのリリースビルド"
+      },
+      {
+        "row": 21,
+        "rowsha": "dRqM2Xv7K5iU++h1Cx7J+lftmhaw+hsBDZ6G0FcSKWw=",
+        "originContent": "### Building a release from Eclipse",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**注意：** GhidraNes Eclipseプロジェクトは、ターゲットとする最も古いJavaバージョンで設定してください。後のバージョンを使うと互換性の問題が発生する可能性があります！"
+      },
+      {
+        "row": 23,
+        "rowsha": "YqvUrOfb9BJg6c0sPoFJSz6fM5ewM2UHktPL3ePAoZo=",
+        "originContent": "**NOTE:** Ensure the GhidraNes Eclipse project is set up with the _earliest_ version of Java that should be targeted. Using a later version of Java can cause compatibility issues!",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Gradleをインストールします（[SDKMAN](https://sdkman.io/)を使うと`sdk install gradle`で可能です）。"
+      },
+      {
+        "row": 25,
+        "rowsha": "WcToh6c9gaY4Urcvlioi3Tx/hXpCclOX6b3Kndpq85o=",
+        "originContent": "1. Install Gradle (with [SDKMAN](https://sdkman.io/), this can be done with `sdk install gradle`).",
+        "translatedContent": "2. Eclipseで「GhidraDev」>「Export」>「Ghidra Module Extension...」を開きます。プロジェクトに「GhidraNes」を選択し「Next >」をクリック、「Local installation directory:」を選択してGradleのインストールディレクトリを指定します（SDKMANの場合は`~/.sdkman/candidates/gradle/$GRADLE_VERSION`にあります）。「Finish」をクリックします。"
+      },
+      {
+        "row": 26,
+        "rowsha": "sfsTRw8UFByJjpL50rUxWUhBdvujpLt3lkM5LniN3sA=",
+        "originContent": "2. In Eclipse, open \"GhidraDev\" > \"Export\" > \"Ghidra Module Extension...\". Choose \"GhidraNes\" as the project, click \"Next >\", then choose \"Local installation directory:\" and browse to your Gradle installation dir (with SDKMAN, this will be at `~/.sdkman/candidates/gradle/$GRADLE_VERSION`). Click \"Finish\".",
+        "translatedContent": "3. ビルドされたzipファイルは`GhidraNes/dist/`ディレクトリに保存されます。インストール方法の詳細は「Installation」セクションを参照してください。"
+      },
+      {
+        "row": 27,
+        "rowsha": "GOrmehk4TvQR+KnL+wuSAy1DszxH/mfex3apvC95wYE=",
+        "originContent": "3. The built zip file will be saved in the `GhidraNes/dist/` directory. See the \"Installation\" section for details on installing the built zip.",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 他のエディタ（例：VS Code）での開発"
+      },
+      {
+        "row": 29,
+        "rowsha": "5Pdg1qfRtK53lVZ8NdPGq3Bzw2H9mCERNPZxHOvMKJ8=",
+        "originContent": "### Developing with another editor (such as VS Code)",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. JavaとGhidraをインストールします。"
+      },
+      {
+        "row": 31,
+        "rowsha": "JHVvax6m6gnmQdigk7nDnqtGEFf7N2dQDxPGATaUN1Q=",
+        "originContent": "1. Install Java and Ghidra.",
+        "translatedContent": "2. エディタでJDK設定を行います。"
+      },
+      {
+        "row": 32,
+        "rowsha": "3+iOLuOKy7VAQfDBfohpw8u2mYPAVAYxwmkx6ew2znw=",
+        "originContent": "2. Configure the JDK settings in your editor.",
+        "translatedContent": "    - VSCodeの場合は公式の「[Getting Started with Java in VS Code](https://code.visualstudio.com/docs/java/java-tutorial)」ガイドに従ってください。"
+      },
+      {
+        "row": 33,
+        "rowsha": "DmVfyh6uaGVl8SuK7xvWiPEYdKNjwqiBARK0NETP+mo=",
+        "originContent": "    - For VSCode: Follow the official [\"Getting Started with Java in VS Code\"](https://code.visualstudio.com/docs/java/java-tutorial) guide.",
+        "translatedContent": "3. `GhidraNes/gradle.properties.example`を`GhidraNes/gradle.properties`にコピーし、必要に応じてGhidraのインストールディレクトリを設定します。"
+      },
+      {
+        "row": 34,
+        "rowsha": "SHyCs/5EExR/W0C7HrtWgK7qVdIRESdEObr0X/at8us=",
+        "originContent": "3. Copy the `GhidraNes/gradle.properties.example` file to `GhidraNes/gradle.properties` and configure Ghirda's installation directory as needed.",
+        "translatedContent": "4. GhidraNesリポジトリをJavaプロジェクトとしてインポートします（この`README.md`ファイルと`GhidraNes`サブディレクトリを含むトップレベルフォルダ）。"
+      },
+      {
+        "row": 35,
+        "rowsha": "NO3cy6PuNQ14ZZvSGj2wQYrsmxLgQDd45ccx9gNi0is=",
+        "originContent": "4. Import the GhidraNes repo as a Java project (the _top-level_ folder containing this `README.md` file and the `GhidraNes` subdirectory).",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Gradleでのリリースビルド"
+      },
+      {
+        "row": 37,
+        "rowsha": "Wjy3fFRj2XT5AVybaahl1cDNujOkkUf0UGif2CS+3FA=",
+        "originContent": "### Building a release with Gradle",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 内部の`GhidraNes`サブディレクトリに移動します：`cd GhidraNes/GhidraNes`"
+      },
+      {
+        "row": 39,
+        "rowsha": "FMWjN1I3/lh9cxVb4BTJaxG2mXfZ6lwGj3+cGqo3/og=",
+        "originContent": "1. Move to the inner `GhidraNes` subdirectory: `cd GhidraNes/GhidraNes`",
+        "translatedContent": "2. `gradle buildExtension`を実行します。"
+      },
+      {
+        "row": 40,
+        "rowsha": "qmCa9DvxYciXOrMNil81gKySYqBOw//vGBoYb5od8/w=",
+        "originContent": "2. Run `gradle buildExtension`",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "    - If the `gradle.properties` file hasn't been set up, properties can be passed to Gradle directly, e.g. `gradle buildExtension -PGHIDRA_INSTALL_DIR=/home/user/ghidra_10.2.2_PUBLIC`\n3. The built zip file will be saved in the `GhidraNes/dist/` directory. See the \"Installation\" section for details on installing the built zip.\n\n## Publishing a release\n\n1. Update `CHANGELOG.md` as a new commit\n2. Create a tag for the new release. The tag and release name should be named `vYYYYMMDD` based on the current date [in UTC](https://www.utctime.net/) (e.g. `v20250520`)\n3. Push the tag. This will trigger the [\"Release\" GH Actions workflow](https://github.com/kylewlacy/GhidraNes/actions/workflows/release.yml), which will create a new [draft release](https://github.com/kylewlacy/GhidraNes/releases) with release notes and build assets after a few minutes\n4. Double-check that the build assets look good, adjust or add to the release notes if needed, and publish!\n",
+    "ContentSha": "i4ehM+yjds4u+Ijy91ziAl9xyA2j81ovAGCfjI2yrCI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    - `gradle.properties` ファイルが設定されていない場合は、プロパティを直接 Gradle に渡すことができます。例：`gradle buildExtension -PGHIDRA_INSTALL_DIR=/home/user/ghidra_10.2.2_PUBLIC`\n3. ビルドされた zip ファイルは `GhidraNes/dist/` ディレクトリに保存されます。ビルドした zip のインストール方法については「インストール」セクションを参照してください。\n\n## リリースの公開\n\n1. `CHANGELOG.md` を新しいコミットとして更新します\n2. 新しいリリース用のタグを作成します。タグとリリース名は現在の日付（[UTC](https://www.utctime.net/)）に基づき `vYYYYMMDD` としてください（例：`v20250520`）\n3. タグをプッシュします。これにより [\"Release\" GH Actions ワークフロー](https://github.com/kylewlacy/GhidraNes/actions/workflows/release.yml) がトリガーされ、数分後にリリースノートとビルド資産を含む新しい [ドラフトリリース](https://github.com/kylewlacy/GhidraNes/releases) が作成されます\n4. ビルド資産が問題ないか再確認し、必要に応じてリリースノートを調整または追加して公開してください！\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "gZE1Kmft1KgfAvzzd+ieWSf8p8fphVAO9lUq/wWHjlE=",
+        "originContent": "    - If the `gradle.properties` file hasn't been set up, properties can be passed to Gradle directly, e.g. `gradle buildExtension -PGHIDRA_INSTALL_DIR=/home/user/ghidra_10.2.2_PUBLIC`",
+        "translatedContent": "    - `gradle.properties` ファイルが設定されていない場合は、プロパティを直接 Gradle に渡すことができます。例：`gradle buildExtension -PGHIDRA_INSTALL_DIR=/home/user/ghidra_10.2.2_PUBLIC`"
+      },
+      {
+        "row": 2,
+        "rowsha": "GOrmehk4TvQR+KnL+wuSAy1DszxH/mfex3apvC95wYE=",
+        "originContent": "3. The built zip file will be saved in the `GhidraNes/dist/` directory. See the \"Installation\" section for details on installing the built zip.",
+        "translatedContent": "3. ビルドされた zip ファイルは `GhidraNes/dist/` ディレクトリに保存されます。ビルドした zip のインストール方法については「インストール」セクションを参照してください。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "l01BqtkfGMfTABHtfkUFHMlv1I4k3Sn2b9s2luu7ooU=",
+        "originContent": "## Publishing a release",
+        "translatedContent": "## リリースの公開"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "K9ZwuSxOoK2/dh4Krj7R5gUwjGREx9Pdi0MdtcvveRI=",
+        "originContent": "1. Update `CHANGELOG.md` as a new commit",
+        "translatedContent": "1. `CHANGELOG.md` を新しいコミットとして更新します"
+      },
+      {
+        "row": 7,
+        "rowsha": "2c3cVFCWlRCyUXhObJbORWVlt4hQ/GUO+QrBoA2fqjc=",
+        "originContent": "2. Create a tag for the new release. The tag and release name should be named `vYYYYMMDD` based on the current date [in UTC](https://www.utctime.net/) (e.g. `v20250520`)",
+        "translatedContent": "2. 新しいリリース用のタグを作成します。タグとリリース名は現在の日付（[UTC](https://www.utctime.net/)）に基づき `vYYYYMMDD` としてください（例：`v20250520`）"
+      },
+      {
+        "row": 8,
+        "rowsha": "waK6nCRutq2pV3Jzs6JMvsCvQ4eSghNa3pcZU6ZohyU=",
+        "originContent": "3. Push the tag. This will trigger the [\"Release\" GH Actions workflow](https://github.com/kylewlacy/GhidraNes/actions/workflows/release.yml), which will create a new [draft release](https://github.com/kylewlacy/GhidraNes/releases) with release notes and build assets after a few minutes",
+        "translatedContent": "3. タグをプッシュします。これにより [\"Release\" GH Actions ワークフロー](https://github.com/kylewlacy/GhidraNes/actions/workflows/release.yml) がトリガーされ、数分後にリリースノートとビルド資産を含む新しい [ドラフトリリース](https://github.com/kylewlacy/GhidraNes/releases) が作成されます"
+      },
+      {
+        "row": 9,
+        "rowsha": "agFurIJ5t8mqzcqkezhWuCIwdlhA5IVN/PCU5vCSpF8=",
+        "originContent": "4. Double-check that the build assets look good, adjust or add to the release notes if needed, and publish!",
+        "translatedContent": "4. ビルド資産が問題ないか再確認し、必要に応じてリリースノートを調整または追加して公開してください！"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
