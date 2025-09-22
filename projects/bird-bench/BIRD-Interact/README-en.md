@@ -56,6 +56,10 @@
   </a>
 </div>
 
+## ⚠️ Announcement  
+Please note that before your evaluation process, when Docker loads the databases, errors may occasionally occur due to environment inconsistency (these will not terminate the process but will appear in the Docker logs). As a result, some databases may fail to load properly, leading to empty databases. This will cause the evaluation results to be abnormally low.  
+👉 Therefore, we strongly recommend checking the Docker logs for any errors **before running the evaluation** and verifying that all databases have been successfully loaded.
+
 ## 📰 News
 
 - [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  
@@ -86,8 +90,8 @@ Typical evaluations trigger 1,968-5,496 interaction turns between model and user
 
 BIRD-INTERACT supports two evaluation modes as mentioned above:
 
-   - **c-Interact**: Conversational Interaction, which is a passive mode with a fixed workflow. The code and detailed information can be found in `bird_interact_conv`.
-   - **a-Interact**: Agentic Interaction, which is an embodied active mode where the workflow is dynamic and model-driven. The code and detailed information can be found in `bird_interact_agent`.
+   - **c-Interact**: Conversational Interaction is a passive mode with a fixed workflow. The code and detailed information can be found in `bird_interact_conv`.
+   - **a-Interact**: Agentic Interaction is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.
 
 
 ### 🐣 Lite Version
@@ -154,7 +158,7 @@ Interaction-Time Scaling (ITS) refers to a model's ability to continuously incre
 
 - **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.
 - **Curated by:** BIRD Team & Google Cloud
-- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa-4.0/)
+- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
 
 ### Dataset Uses
@@ -224,8 +228,10 @@ BIRD Team & Google Cloud
 
 
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-22
 
 ---

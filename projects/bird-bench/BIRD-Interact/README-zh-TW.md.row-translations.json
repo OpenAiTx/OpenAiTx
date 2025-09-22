@@ -109,33 +109,33 @@
   },
   {
     "row": 19,
-    "rowsha": "0YeCyxpcm7/4RDbaM+OQoI8YfqEHQzDkpGW15VZdi1U=",
-    "originContent": "## 📰 News",
-    "translatedContent": "## 📰 最新消息"
+    "rowsha": "+YQH+z6An1Oo7rNCKWEuazzpeBkF9dUlafrLqOGbRj0=",
+    "originContent": "## ⚠️ Announcement  ",
+    "translatedContent": "## ⚠️ 公告  "
   },
   {
     "row": 20,
+    "rowsha": "qR/iuiQWsQ7j83o7cAhbO3yM99qEPz8jw9z3H616J9o=",
+    "originContent": "Please note that before your evaluation process, when Docker loads the databases, errors may occasionally occur due to environment inconsistency (these will not terminate the process but will appear in the Docker logs). As a result, some databases may fail to load properly, leading to empty databases. This will cause the evaluation results to be abnormally low.  ",
+    "translatedContent": "請注意，在您開始評測流程前，Docker 載入資料庫時，因環境不一致偶爾會出現錯誤（這些錯誤不會終止流程，但會出現在 Docker 日誌中）。因此，某些資料庫可能無法正確載入，導致資料庫為空，進而造成評測結果異常偏低。  "
+  },
+  {
+    "row": 21,
+    "rowsha": "j3WE+j5u8Ng3SBgrMG35Bm6kDWNOXEnVhxpRhR2BM9w=",
+    "originContent": "👉 Therefore, we strongly recommend checking the Docker logs for any errors **before running the evaluation** and verifying that all databases have been successfully loaded.",
+    "translatedContent": "👉 因此，我們強烈建議您在執行評測**前**，先檢查 Docker 日誌是否有任何錯誤，並確認所有資料庫皆已成功載入。"
+  },
+  {
+    "row": 22,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 21,
-    "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
-    "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
-    "translatedContent": "- [2025-08-26] 🚀 我們很高興宣布 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 資料集正式發布！  "
-  },
-  {
-    "row": 22,
-    "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
-    "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
-    "translatedContent": "這是一套難度極高的資料集，目前最佳 LLM 僅達到 **16.33%** 成功率，`c-interact` 和 `a-interact` 部分更只有 **10.0%**。  "
-  },
-  {
     "row": 23,
-    "rowsha": "uTh0Lj92DZu8zFDeupB/DHZqDkNrQJVNtDYmELxeRQg=",
-    "originContent": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).",
-    "translatedContent": "👉 詳細資訊請參閱我們的 [專案網站](https://bird-interact.github.io/)。"
+    "rowsha": "0YeCyxpcm7/4RDbaM+OQoI8YfqEHQzDkpGW15VZdi1U=",
+    "originContent": "## 📰 News",
+    "translatedContent": "## 📰 最新消息"
   },
   {
     "row": 24,
@@ -145,57 +145,57 @@
   },
   {
     "row": 25,
-    "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
-    "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
-    "translatedContent": "- [2025-08-26] 📬 本週我們將向郵件訂閱者發送 **Ground Truth & Test cases**。  "
+    "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
+    "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
+    "translatedContent": "- [2025-08-26] 🚀 我們很高興宣布 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 集正式釋出！  "
   },
   {
     "row": 26,
-    "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
-    "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
-    "translatedContent": "如需提前取得，請按照網站說明發送郵件，即可獲得**自動下載**。"
+    "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
+    "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
+    "translatedContent": "這是一組高難度資料集——目前最佳 LLM 僅達成 **16.33%** 成功率，`c-interact` 與 `a-interact` 部分僅 **10.0%**。  "
   },
   {
     "row": 27,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "uTh0Lj92DZu8zFDeupB/DHZqDkNrQJVNtDYmELxeRQg=",
+    "originContent": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).",
+    "translatedContent": "👉 詳細資訊請見我們的[專案網站](https://bird-interact.github.io/)。"
   },
   {
     "row": 28,
-    "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
-    "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
-    "translatedContent": "- [2025-08-26] 💾 另外，我們也發布了 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** 的 SQLite 版本，方便本地研究。  "
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 29,
-    "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
-    "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
-    "translatedContent": "完整的 **LiveSQLBench-Base** 及 **-Large** 版本即將推出！"
+    "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
+    "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
+    "translatedContent": "- [2025-08-26] 📬 本週將透過郵件列表發送 **標準答案與測試案例**。  "
   },
   {
     "row": 30,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
+    "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
+    "translatedContent": "如需提前取得，請依網站說明寄信，即可**自動下載**。  "
   },
   {
     "row": 31,
-    "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
-    "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
-    "translatedContent": "- [2025-08-22] **錯誤修正**：在 Bird-Interact-Agent 程式碼中，修正了評估 phase-2 SQL 時，無法成功執行儲存的 phase-1 SQL，導致 Phase-2 成功率降低的問題。此錯誤僅影響 phase1 sql 會對資料庫進行操作（如 CREATE table 等）的任務。"
-  },
-  {
-    "row": 32,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 32,
+    "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
+    "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
+    "translatedContent": "- [2025-08-26] 💾 另外，我們也釋出了 SQLite 版本的 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**，方便本地端研究。  "
+  },
+  {
     "row": 33,
-    "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
-    "originContent": "## 🧸 Overview",
-    "translatedContent": "## 🧸 概述"
+    "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
+    "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
+    "translatedContent": "完整版 **LiveSQLBench-Base** 及 **-Large** 即將推出！"
   },
   {
     "row": 34,
@@ -205,81 +205,81 @@
   },
   {
     "row": 35,
-    "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
-    "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
-    "translatedContent": "BIRD-INTERACT 是一套互動式 text-to-SQL 基準資料集，**以動態互動視角重新定義 Text-to-SQL 評估方式**。"
+    "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
+    "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
+    "translatedContent": "- [2025-08-22] **錯誤修正**：Bird-Interact-Agent 程式碼中修正了一個錯誤：在評測 phase-2 SQL 時，儲存的 phase-1 SQL 無法成功執行，導致 Phase-2 成功率降低。此錯誤僅影響 phase1 sql 有對資料庫進行操作（如 CREATE table 等）的任務。"
   },
   {
     "row": 36,
-    "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
-    "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
-    "translatedContent": "本環境結合分層知識庫、資料庫文件與函數驅動使用者模擬器，重現真實企業環境下完整 **CRUD** 操作流程。"
-  },
-  {
-    "row": 37,
-    "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
-    "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
-    "translatedContent": "提供兩種嚴格測試模式：(1) 被動式**對話互動**與 (2) 主動式**代理互動**，涵蓋 600 個註釋任務，包含商業智慧（BI）、CRUD 操作等，每個任務均有可執行測試案例保障。"
-  },
-  {
-    "row": 38,
-    "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
-    "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
-    "translatedContent": "典型評估過程觸發 1,968-5,496 次模型與使用者模擬器互動，目前最先進的推理模型僅解決約 **24%** 及 **18%** 任務，突顯本基準資料集的挑戰性。"
-  },
-  {
-    "row": 39,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 37,
+    "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
+    "originContent": "## 🧸 Overview",
+    "translatedContent": "## 🧸 總覽"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
+    "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
+    "translatedContent": "BIRD-INTERACT 是一套互動式 text-to-SQL 基準，**以動態互動視角重新構想 Text-to-SQL 評測**。"
+  },
+  {
     "row": 40,
+    "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
+    "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
+    "translatedContent": "此環境結合階層式知識庫、資料庫文件及函數驅動的用戶模擬器，重現企業級環境下完整 **CRUD** 操作的真實場景。"
+  },
+  {
+    "row": 41,
+    "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
+    "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
+    "translatedContent": "它提供兩種嚴謹的測試模式：（1）被動式**對話互動**與（2）主動式**代理互動**，涵蓋600個帶標註的任務，包括商業智慧（BI）、CRUD 操作等，每項任務均由可執行的測試案例保護。"
+  },
+  {
+    "row": 42,
+    "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
+    "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
+    "translatedContent": "典型評估會觸發 1,968-5,496 次模型與用戶模擬器的互動回合，而先進的推理模型目前僅能解決**約24%**與**約18%**的任務，突顯了此基準的挑戰性。"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
     "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
     "originContent": "<p align=\"center\">",
     "translatedContent": "<p align=\"center\">"
   },
   {
-    "row": 41,
+    "row": 45,
     "rowsha": "75rx/bZj6j98j3RNS6gpBC2JCE4XvCP27x7SUM1Pp/k=",
     "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" ",
     "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" "
   },
   {
-    "row": 42,
+    "row": 46,
     "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
     "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
     "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
   },
   {
-    "row": 43,
+    "row": 47,
     "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
     "originContent": "</p>",
     "translatedContent": "</p>"
-  },
-  {
-    "row": 44,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 45,
-    "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
-    "originContent": "### ✅ Two Evaluation Modes",
-    "translatedContent": "### ✅ 兩種評測模式"
-  },
-  {
-    "row": 46,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 47,
-    "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
-    "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
-    "translatedContent": "BIRD-INTERACT 支援上述兩種評測模式："
   },
   {
     "row": 48,
@@ -289,21 +289,21 @@
   },
   {
     "row": 49,
-    "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
-    "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
-    "translatedContent": "   - **c-Interact**：對話互動模式，屬於被動模式，工作流程是固定的。程式碼與詳細資訊可在 `bird_interact_conv` 找到。"
+    "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
+    "originContent": "### ✅ Two Evaluation Modes",
+    "translatedContent": "### ✅ 兩種評估模式"
   },
   {
     "row": 50,
-    "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
-    "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
-    "translatedContent": "   - **a-Interact**：智能代理互動模式，屬於具體化的主動模式，工作流程是動態且由模型主導。程式碼與詳細資訊可在 `bird_interact_agent` 找到。"
-  },
-  {
-    "row": 51,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
+    "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
+    "translatedContent": "BIRD-INTERACT 支援上述兩種評估模式："
   },
   {
     "row": 52,
@@ -313,21 +313,21 @@
   },
   {
     "row": 53,
-    "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
-    "originContent": "### 🐣 Lite Version",
-    "translatedContent": "### 🐣 輕量版"
+    "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
+    "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
+    "translatedContent": "   - **c-Interact**：對話互動，屬於被動模式，流程是固定的。相關程式碼與詳細資訊可參見 `bird_interact_conv`。"
   },
   {
     "row": 54,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
+    "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
+    "translatedContent": "   - **a-Interact**：代理互動，屬於具身主動模式，流程是動態且由模型主導。相關程式碼與詳細資訊可參見 `bird_interact_agent`。"
   },
   {
     "row": 55,
-    "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
-    "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
-    "translatedContent": "我們釋出 BIRD-INTERACT 的輕量版，`bird-interact-lite-exp`，其中包含 270 個高品質的真實世界任務，專為 PostgreSQL 設計。這是快速實驗的良好起點。"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 56,
@@ -337,9 +337,9 @@
   },
   {
     "row": 57,
-    "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
-    "originContent": "### 🦜 Full Version",
-    "translatedContent": "### 🦜 完整版"
+    "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
+    "originContent": "### 🐣 Lite Version",
+    "translatedContent": "### 🐣 精簡版"
   },
   {
     "row": 58,
@@ -349,9 +349,9 @@
   },
   {
     "row": 59,
-    "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
-    "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
-    "translatedContent": "BIRD-INTERACT 的完整版，`bird-interact-full`，是一個全面的基準測試，包含 600 個 PostgreSQL 任務。涵蓋多種 SQL 操作與使用者查詢。完整版即將推出。"
+    "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
+    "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
+    "translatedContent": "我們釋出 BIRD-INTERACT 的精簡版 `bird-interact-lite-exp`，包含 270 個高品質的真實世界任務，專為 PostgreSQL 設計。這是快速實驗的良好起點。"
   },
   {
     "row": 60,
@@ -361,9 +361,9 @@
   },
   {
     "row": 61,
-    "rowsha": "KjrzNuwD4TPEmYvySM+ctLWl+Q5ZkaXVtsN+GtTReto=",
-    "originContent": "### Model Performance Results on BIRD-INTERACT Lite",
-    "translatedContent": "### BIRD-INTERACT 輕量版模型效能結果"
+    "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
+    "originContent": "### 🦜 Full Version",
+    "translatedContent": "### 🦜 完整版"
   },
   {
     "row": 62,
@@ -373,153 +373,153 @@
   },
   {
     "row": 63,
-    "rowsha": "iOxQRHuEgwShsnHL01Vwg9xhz8xYvf0L53GOe6FdyIE=",
-    "originContent": "#### 1. **c-Interact** Performance",
-    "translatedContent": "#### 1. **c-Interact** 效能"
+    "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
+    "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
+    "translatedContent": "BIRD-INTERACT 的完整版 `bird-interact-full` 是一套全面性的基準，包含 600 個 PostgreSQL 任務，涵蓋廣泛的 SQL 操作及用戶查詢。完整版即將推出。"
   },
   {
     "row": 64,
-    "rowsha": "j5ipGeIiO/Ow8BanoW9+iPlyzHgKoAmggn3Wj1ixyPA=",
-    "originContent": "| Rank | Model Name         | Normalized Reward | Level        |",
-    "translatedContent": "| 排名 | 模型名稱           | 標準化獎勵值 | 等級            |"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 65,
+    "rowsha": "KjrzNuwD4TPEmYvySM+ctLWl+Q5ZkaXVtsN+GtTReto=",
+    "originContent": "### Model Performance Results on BIRD-INTERACT Lite",
+    "translatedContent": "### 模型在 BIRD-INTERACT 精簡版上的表現結果"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "iOxQRHuEgwShsnHL01Vwg9xhz8xYvf0L53GOe6FdyIE=",
+    "originContent": "#### 1. **c-Interact** Performance",
+    "translatedContent": "#### 1. **c-Interact** 表現"
+  },
+  {
+    "row": 68,
+    "rowsha": "j5ipGeIiO/Ow8BanoW9+iPlyzHgKoAmggn3Wj1ixyPA=",
+    "originContent": "| Rank | Model Name         | Normalized Reward | Level        |",
+    "translatedContent": "| 排名 | 模型名稱           | 標準化獎勵 | 水平            |"
+  },
+  {
+    "row": 69,
     "rowsha": "TdCWOOIFJcB4b+Qo0Itf7ltUuxPh2hMsEycINC5YnNc=",
     "originContent": "|:------:|--------------------|:-------:|:--------------:|",
     "translatedContent": "|:------:|--------------------|:-------:|:--------------:|"
   },
   {
-    "row": 66,
+    "row": 70,
     "rowsha": "+ZpucKQxeOg3XebYi3v6flLx2sX2MpCffyuNRRoXZ+w=",
     "originContent": "| 1    | o3-mini            | 33.04 | 🏆 Excellent Chat |",
-    "translatedContent": "| 1    | o3-mini            | 33.04 | 🏆 卓越聊天      |"
-  },
-  {
-    "row": 67,
-    "rowsha": "QyS/o4mug3HzCU3ZN1LTdoJ5hBZLW7rIMXeJ8IREjvY=",
-    "originContent": "| 2    | GPT-4o             | 30.33 | 💎 Good Chat      |",
-    "translatedContent": "| 2    | GPT-4o             | 30.33 | 💎 優秀聊天      |"
-  },
-  {
-    "row": 68,
-    "rowsha": "VYqyrduDwf+SBAJWlLSO+/NfbYuHsb5FsKxNKXKgedo=",
-    "originContent": "| 3    | Gemini-2.0-flash   | 27.41 | 💎 Good Chat      |",
-    "translatedContent": "| 3    | Gemini-2.0-flash   | 27.41 | 💎 優秀聊天      |"
-  },
-  {
-    "row": 69,
-    "rowsha": "uDkuuPhhZOMd/XwRZ8JJh55t0MsFr3urv1EXeoixcxs=",
-    "originContent": "| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Standard       |",
-    "translatedContent": "| 4    | Claude-3.7-sonnet  | 26.60 | ✨ 標準聊天      |"
-  },
-  {
-    "row": 70,
-    "rowsha": "U2o7UYEqIIB3njzFNAlDLUlCdqArpRHhtXGht9ruKgk=",
-    "originContent": "| 5    | DeepSeek-R1        | 21.74 | ✨ Standard       |",
-    "translatedContent": "| 5    | DeepSeek-R1        | 21.74 | ✨ 標準聊天      |"
+    "translatedContent": "| 1    | o3-mini            | 33.04 | 🏆 優秀對話       |"
   },
   {
     "row": 71,
-    "rowsha": "Wp+rEkzuscLMBtRvaKIpn9fU5bLVqly53cimPvVI6Lg=",
-    "originContent": "| 6    | Qwen3              | 20.33 | ⚪ Basic          |",
-    "translatedContent": "| 6    | Qwen3              | 20.33 | ⚪ 基礎聊天      |"
+    "rowsha": "QyS/o4mug3HzCU3ZN1LTdoJ5hBZLW7rIMXeJ8IREjvY=",
+    "originContent": "| 2    | GPT-4o             | 30.33 | 💎 Good Chat      |",
+    "translatedContent": "| 2    | GPT-4o             | 30.33 | 💎 良好對話       |"
   },
   {
     "row": 72,
-    "rowsha": "veu91JeFqcGGGDuxlQNLf7/h1UQ4SkK1hlxTHYdz45s=",
-    "originContent": "| 7    | DeepSeek-V3        | 15.85 | ⚪ Basic          |",
-    "translatedContent": "| 7    | DeepSeek-V3        | 15.85 | ⚪ 基礎聊天      |"
+    "rowsha": "VYqyrduDwf+SBAJWlLSO+/NfbYuHsb5FsKxNKXKgedo=",
+    "originContent": "| 3    | Gemini-2.0-flash   | 27.41 | 💎 Good Chat      |",
+    "translatedContent": "| 3    | Gemini-2.0-flash   | 27.41 | 💎 良好對話       |"
   },
   {
     "row": 73,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "uDkuuPhhZOMd/XwRZ8JJh55t0MsFr3urv1EXeoixcxs=",
+    "originContent": "| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Standard       |",
+    "translatedContent": "| 4    | Claude-3.7-sonnet  | 26.60 | ✨ 標準            |"
   },
   {
     "row": 74,
-    "rowsha": "ju1lbZDfCJsZwvzRy1S6dkfb/OfFbXcexLESH+MyXTs=",
-    "originContent": "#### 2. **a-Interact** Performance",
-    "translatedContent": "#### 2. **a-Interact** 效能"
+    "rowsha": "U2o7UYEqIIB3njzFNAlDLUlCdqArpRHhtXGht9ruKgk=",
+    "originContent": "| 5    | DeepSeek-R1        | 21.74 | ✨ Standard       |",
+    "translatedContent": "| 5    | DeepSeek-R1        | 21.74 | ✨ 標準            |"
   },
   {
     "row": 75,
-    "rowsha": "fkdoJklW1fC2P9Blza+o45eaC0Sk7EOAOLfzOjdR7vA=",
-    "originContent": "| Rank | Model Name         | Budget Parameters* | Avg Steps/Task | Avg Cost (USD)/Task | Normalized Reward | Level            |",
-    "translatedContent": "| 排名 | 模型名稱           | 預算參數*     | 平均步驟/任務 | 平均成本 (USD)/任務 | 標準化獎勵值 | 等級                  |"
+    "rowsha": "Wp+rEkzuscLMBtRvaKIpn9fU5bLVqly53cimPvVI6Lg=",
+    "originContent": "| 6    | Qwen3              | 20.33 | ⚪ Basic          |",
+    "translatedContent": "| 6    | Qwen3              | 20.33 | ⚪ 基礎            |"
   },
   {
     "row": 76,
-    "rowsha": "aV56LTAib/ZlLvSUMuOn8K5WaCaVt2OOQHC8f+TSdcc=",
-    "originContent": "|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|",
-    "translatedContent": "|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|"
+    "rowsha": "veu91JeFqcGGGDuxlQNLf7/h1UQ4SkK1hlxTHYdz45s=",
+    "originContent": "| 7    | DeepSeek-V3        | 15.85 | ⚪ Basic          |",
+    "translatedContent": "| 7    | DeepSeek-V3        | 15.85 | ⚪ 基礎            |"
   },
   {
     "row": 77,
-    "rowsha": "ryPy3wFijpc1nUQ/r36HwCxz3eHD27C3AvpUJCeORN4=",
-    "originContent": "| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Excellent Interaction |",
-    "translatedContent": "| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 卓越互動              |"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 78,
-    "rowsha": "GcAbJL0QfeLlIM7ZQIDqCHYmP1REnn76QKCU3d7N9QE=",
-    "originContent": "| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 Good Interaction      |",
-    "translatedContent": "| 2    | o3-mini            | 6/6 | 7.8  | $0.0754 | 21.07 | 💎 優秀互動              |"
+    "rowsha": "ju1lbZDfCJsZwvzRy1S6dkfb/OfFbXcexLESH+MyXTs=",
+    "originContent": "#### 2. **a-Interact** Performance",
+    "translatedContent": "#### 2. **a-Interact** 表現"
   },
   {
     "row": 79,
-    "rowsha": "mvtZN86kF7hN3H8xt2/SYh4EVs5zEOp1ps9P7u1SpKE=",
-    "originContent": "| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 Good Interaction      |",
-    "translatedContent": "| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 優秀互動              |"
+    "rowsha": "fkdoJklW1fC2P9Blza+o45eaC0Sk7EOAOLfzOjdR7vA=",
+    "originContent": "| Rank | Model Name         | Budget Parameters* | Avg Steps/Task | Avg Cost (USD)/Task | Normalized Reward | Level            |",
+    "translatedContent": "| 排名 | 模型名稱           | 預算參數*         | 任務平均步數     | 任務平均花費 (美元) | 標準化獎勵         | 水平                |"
   },
   {
     "row": 80,
-    "rowsha": "Osr9bAZufFfed5ZthEV5zzsSX6bqO0EM1W+qmgB12xU=",
-    "originContent": "| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ Standard              |",
-    "translatedContent": "| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ 標準互動              |"
+    "rowsha": "aV56LTAib/ZlLvSUMuOn8K5WaCaVt2OOQHC8f+TSdcc=",
+    "originContent": "|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|",
+    "translatedContent": ""
   },
   {
     "row": 81,
-    "rowsha": "cA45HwQQsBKXZ9NESwwgScvFOrMYNBp87Yr4Un4JCHs=",
-    "originContent": "| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ Standard              |",
-    "translatedContent": "| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ 標準                  |"
+    "rowsha": "ryPy3wFijpc1nUQ/r36HwCxz3eHD27C3AvpUJCeORN4=",
+    "originContent": "| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Excellent Interaction |",
+    "translatedContent": "| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 優異互動 |"
   },
   {
     "row": 82,
-    "rowsha": "hpnyQDuabQuA2ioU4dXMW4ZpuhvnLwOmGRgRmxDbIuM=",
-    "originContent": "| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ Basic                 |",
-    "translatedContent": "| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ 基礎                  |"
+    "rowsha": "GcAbJL0QfeLlIM7ZQIDqCHYmP1REnn76QKCU3d7N9QE=",
+    "originContent": "| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 Good Interaction      |",
+    "translatedContent": "| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 良好互動 |"
   },
   {
     "row": 83,
-    "rowsha": "JdOj2qVJ7/xgJ/5EXsM3+5IFPrr+aArY7hsLMSPbl8k=",
-    "originContent": "| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Basic                 |",
-    "translatedContent": "| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ 基礎                  |"
+    "rowsha": "mvtZN86kF7hN3H8xt2/SYh4EVs5zEOp1ps9P7u1SpKE=",
+    "originContent": "| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 Good Interaction      |",
+    "translatedContent": "| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 良好互動 |"
   },
   {
     "row": 84,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "Osr9bAZufFfed5ZthEV5zzsSX6bqO0EM1W+qmgB12xU=",
+    "originContent": "| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ Standard              |",
+    "translatedContent": "| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ 標準 |"
   },
   {
     "row": 85,
-    "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
-    "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
-    "translatedContent": "> \\* 預算參數：起始預算／用戶耐心預算，單位為我們的虛擬貨幣 *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">。詳情請參見 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)。"
+    "rowsha": "cA45HwQQsBKXZ9NESwwgScvFOrMYNBp87Yr4Un4JCHs=",
+    "originContent": "| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ Standard              |",
+    "translatedContent": "| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ 標準 |"
   },
   {
     "row": 86,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "hpnyQDuabQuA2ioU4dXMW4ZpuhvnLwOmGRgRmxDbIuM=",
+    "originContent": "| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ Basic                 |",
+    "translatedContent": "| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ 基礎 |"
   },
   {
     "row": 87,
-    "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
-    "originContent": "### Interaction-Time Scaling (ITS)",
-    "translatedContent": "### 互動時間縮放（ITS）"
+    "rowsha": "JdOj2qVJ7/xgJ/5EXsM3+5IFPrr+aArY7hsLMSPbl8k=",
+    "originContent": "| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Basic                 |",
+    "translatedContent": "| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ 基礎 |"
   },
   {
     "row": 88,
@@ -529,9 +529,9 @@
   },
   {
     "row": 89,
-    "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
-    "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
-    "translatedContent": "互動時間縮放（ITS）指的是模型能夠通過多輪互動持續提升最終性能的能力。當這種互動式表現超越模型在完全明確、無歧義任務下的理想單輪表現時，我們稱其符合 **ITS 定律**。隨著用戶耐心增加和互動輪次累積，性能持續提升，展現出模型能在長時間對話中保持高效溝通。目前，我們僅發現 claude-3-7-sonnet 符合 ITS 定律。"
+    "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
+    "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
+    "translatedContent": "> \\* 預算參數：起始預算／用戶耐心預算，使用我們的虛擬貨幣 *bird-coin* <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\"> 度量。詳細資訊請參考 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)。"
   },
   {
     "row": 90,
@@ -541,51 +541,51 @@
   },
   {
     "row": 91,
+    "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
+    "originContent": "### Interaction-Time Scaling (ITS)",
+    "translatedContent": "### 互動時間擴展（ITS）"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
+    "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
+    "translatedContent": "互動時間擴展（ITS）指的是模型能夠透過多輪互動不斷提升其最終表現的能力。當這種互動式表現超越模型在完全明確且無歧義任務下的理想化單輪表現時，即可稱其符合 **ITS 法則**。隨著用戶耐心提升和互動回合累積，表現持續進步，展現出模型能在長時間對話中維持有效溝通。目前僅發現 claude-3-7-sonnet 符合 ITS 法則。"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
     "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
     "originContent": "<p align=\"center\">",
     "translatedContent": "<p align=\"center\">"
   },
   {
-    "row": 92,
+    "row": 96,
     "rowsha": "TW0AIFALwgyvJujlCuN+wyzJWtuuF1VkgusDlug821c=",
     "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" ",
     "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" "
   },
   {
-    "row": 93,
+    "row": 97,
     "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
     "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
     "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
   },
   {
-    "row": 94,
+    "row": 98,
     "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
     "originContent": "</p>",
     "translatedContent": "</p>"
-  },
-  {
-    "row": 95,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 96,
-    "rowsha": "+k7Ca++d5jxjDrqQWYaSmQV+QrsPLeOVDWwp4LEOnLg=",
-    "originContent": "## 📦 Dataset Details",
-    "translatedContent": "## 📦 資料集細節"
-  },
-  {
-    "row": 97,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 98,
-    "rowsha": "0CAgopT4uCrcP2XugQo54SQ7+3o6EmaZDPuISb7ZpYs=",
-    "originContent": "### Dataset Description",
-    "translatedContent": "### 資料集說明"
   },
   {
     "row": 99,
@@ -595,153 +595,153 @@
   },
   {
     "row": 100,
-    "rowsha": "R5TnQS3KWDoY0gQ+tKB/KWwqwHRuZjajharNCxl+SCU=",
-    "originContent": "- **Database:** The complete PostgreSQL database can be download from [the Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Check the [Quick Eval](#quick-eval) section for more details.",
-    "translatedContent": "- **資料庫：** 完整的 PostgreSQL 資料庫可從 [Google 雲端硬碟](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view) 下載。詳情請參見 [Quick Eval](#quick-eval) 章節。"
+    "rowsha": "+k7Ca++d5jxjDrqQWYaSmQV+QrsPLeOVDWwp4LEOnLg=",
+    "originContent": "## 📦 Dataset Details",
+    "translatedContent": "## 📦 數據集詳情"
   },
   {
     "row": 101,
-    "rowsha": "Rg/lq5RTpV9VpKctp3slYhtbuoFhbkfaorRPygzg6Gk=",
-    "originContent": "- **data:** Each data instance contain the following main parts:",
-    "translatedContent": "- **data：** 每筆資料包含以下主要部分："
-  },
-  {
-    "row": 102,
-    "rowsha": "oeZ/uzqCsA5VNpsUV6Q5FUwcPz5hnWM75+LkGTHBx5Y=",
-    "originContent": "   - `selected_database`: The name of the database.  ",
-    "translatedContent": "   - `selected_database`：資料庫名稱。  "
-  },
-  {
-    "row": 103,
-    "rowsha": "oPNVshV/MIPpyhRk3j2Nxvx6eiSjlh78678fwhXHkyY=",
-    "originContent": "   - `query`: The unambiguous user query.  ",
-    "translatedContent": "   - `query`：明確無歧義的用戶查詢。  "
-  },
-  {
-    "row": 104,
-    "rowsha": "FCnlkL1lk997F3W0Z2i178PvvixkNotyQ/PDUSEBG3I=",
-    "originContent": "   - `amb_user_query`: The user query with injected ambiguities.",
-    "translatedContent": "   - `amb_user_query`：注入歧義的用戶查詢。"
-  },
-  {
-    "row": 105,
-    "rowsha": "dwSIKvWoOZ0bAk3/MuxBQZx+roDRkZ8De8Z9EV1g+YE=",
-    "originContent": "   - `user_query_ambiguity`: The ambiguities injected into the user query.",
-    "translatedContent": "   - `user_query_ambiguity`：注入到用戶查詢中的歧義。"
-  },
-  {
-    "row": 106,
-    "rowsha": "2uIaqS3MsNEQQa0yxeGCprcga3iAl7rbNcCeOhVqcms=",
-    "originContent": "   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.",
-    "translatedContent": "   - `non_critical_ambiguity`：非關鍵歧義，如排序、限制等。"
-  },
-  {
-    "row": 107,
-    "rowsha": "jcfQ3RBzqQ5IoWI85TqetWQboWoj/TWcS2YjEGz1euw=",
-    "originContent": "   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. ",
-    "translatedContent": "   - `knowledge_ambiguity`：由隱藏外部知識產生的歧義。 "
-  },
-  {
-    "row": 108,
-    "rowsha": "/i3/thp7p1thZ/xCsBw3OHgDabXZMsKgumrhx3ZwzjQ=",
-    "originContent": "   - `sol_sql`: The ground truth SQL solution.  ",
-    "translatedContent": "   - `sol_sql`：正確的 SQL 解答。  "
-  },
-  {
-    "row": 109,
-    "rowsha": "c+FiZvziVNHQ0BSlQNBGyAERMve99Hh3QFKIpYMnmY4=",
-    "originContent": "   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  ",
-    "translatedContent": "   - `preprocess_sql`：在執行解答或預測前需執行的 SQL 查詢。  "
-  },
-  {
-    "row": 110,
-    "rowsha": "xRrHhJsIZKbVIUl3a4LFJeid+TCYKXtGm2FO2voDCJA=",
-    "originContent": "   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  ",
-    "translatedContent": "   - `clean_up_sql`：在測試結束後執行以還原資料庫變更的 SQL 查詢。  "
-  },
-  {
-    "row": 111,
-    "rowsha": "AN8KsW9EANalz2xbGaJpzkDyz8Piw1aD8GW5coktVLI=",
-    "originContent": "   - `test_cases`: A set of test cases to validate the predicted corrected SQL.",
-    "translatedContent": "   - `test_cases`：用於驗證預測修正 SQL 的一組測試案例。"
-  },
-  {
-    "row": 112,
-    "rowsha": "CJy/lmct2AT3OvidWiH5FLxFjM+3NIuJGemuO6IO3/I=",
-    "originContent": "   - `follow_up`: The labeled follow up questions.",
-    "translatedContent": "   - `follow_up`：標記的後續問題。"
-  },
-  {
-    "row": 113,
-    "rowsha": "rUHKXvHeVB4UqqvGBnj9yJY3C0rN/Oz3IsSbOVCSOLE=",
-    "originContent": "   - `external_knowledge`: The external knowledge related to the specific task.",
-    "translatedContent": "   - `external_knowledge`：與特定任務相關的外部知識。"
-  },
-  {
-    "row": 114,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 102,
+    "rowsha": "0CAgopT4uCrcP2XugQo54SQ7+3o6EmaZDPuISb7ZpYs=",
+    "originContent": "### Dataset Description",
+    "translatedContent": "### 數據集說明"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "R5TnQS3KWDoY0gQ+tKB/KWwqwHRuZjajharNCxl+SCU=",
+    "originContent": "- **Database:** The complete PostgreSQL database can be download from [the Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Check the [Quick Eval](#quick-eval) section for more details.",
+    "translatedContent": "- **資料庫：** 完整 PostgreSQL 資料庫可從 [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view) 下載。詳情請見 [Quick Eval](#quick-eval) 章節。"
+  },
+  {
+    "row": 105,
+    "rowsha": "Rg/lq5RTpV9VpKctp3slYhtbuoFhbkfaorRPygzg6Gk=",
+    "originContent": "- **data:** Each data instance contain the following main parts:",
+    "translatedContent": "- **數據：** 每筆數據包含以下主要部分："
+  },
+  {
+    "row": 106,
+    "rowsha": "oeZ/uzqCsA5VNpsUV6Q5FUwcPz5hnWM75+LkGTHBx5Y=",
+    "originContent": "   - `selected_database`: The name of the database.  ",
+    "translatedContent": "   - `selected_database`: 資料庫名稱。  "
+  },
+  {
+    "row": 107,
+    "rowsha": "oPNVshV/MIPpyhRk3j2Nxvx6eiSjlh78678fwhXHkyY=",
+    "originContent": "   - `query`: The unambiguous user query.  ",
+    "translatedContent": "   - `query`: 明確無歧義的用戶查詢。  "
+  },
+  {
+    "row": 108,
+    "rowsha": "FCnlkL1lk997F3W0Z2i178PvvixkNotyQ/PDUSEBG3I=",
+    "originContent": "   - `amb_user_query`: The user query with injected ambiguities.",
+    "translatedContent": "   - `amb_user_query`: 注入歧義的用戶查詢。"
+  },
+  {
+    "row": 109,
+    "rowsha": "dwSIKvWoOZ0bAk3/MuxBQZx+roDRkZ8De8Z9EV1g+YE=",
+    "originContent": "   - `user_query_ambiguity`: The ambiguities injected into the user query.",
+    "translatedContent": "   - `user_query_ambiguity`: 注入至用戶查詢中的歧義。"
+  },
+  {
+    "row": 110,
+    "rowsha": "2uIaqS3MsNEQQa0yxeGCprcga3iAl7rbNcCeOhVqcms=",
+    "originContent": "   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.",
+    "translatedContent": "   - `non_critical_ambiguity`: 非關鍵性歧義，如排序、限制等。"
+  },
+  {
+    "row": 111,
+    "rowsha": "jcfQ3RBzqQ5IoWI85TqetWQboWoj/TWcS2YjEGz1euw=",
+    "originContent": "   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. ",
+    "translatedContent": "   - `knowledge_ambiguity`: 由外部知識遮罩產生的歧義。 "
+  },
+  {
+    "row": 112,
+    "rowsha": "/i3/thp7p1thZ/xCsBw3OHgDabXZMsKgumrhx3ZwzjQ=",
+    "originContent": "   - `sol_sql`: The ground truth SQL solution.  ",
+    "translatedContent": "   - `sol_sql`: 標準答案 SQL 解法。  "
+  },
+  {
+    "row": 113,
+    "rowsha": "c+FiZvziVNHQ0BSlQNBGyAERMve99Hh3QFKIpYMnmY4=",
+    "originContent": "   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  ",
+    "translatedContent": "   - `preprocess_sql`: 執行解答或預測前需運行的 SQL 查詢。  "
+  },
+  {
+    "row": 114,
+    "rowsha": "xRrHhJsIZKbVIUl3a4LFJeid+TCYKXtGm2FO2voDCJA=",
+    "originContent": "   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  ",
+    "translatedContent": "   - `clean_up_sql`: 測試案例後執行以還原資料庫變動的 SQL 查詢。  "
+  },
+  {
     "row": 115,
-    "rowsha": "hQpiCMxX9dK0D0byHCQ4cUtoa8tKtWMoWCxcRBrGSks=",
-    "originContent": "- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.",
-    "translatedContent": "- **evaluation：** 評估程式碼可於 [`./evaluation`](./evaluation) 目錄取得。"
+    "rowsha": "AN8KsW9EANalz2xbGaJpzkDyz8Piw1aD8GW5coktVLI=",
+    "originContent": "   - `test_cases`: A set of test cases to validate the predicted corrected SQL.",
+    "translatedContent": "   - `test_cases`: 用於驗證預測修正 SQL 的一組測試案例。"
   },
   {
     "row": 116,
-    "rowsha": "v59KK3oH49UautE6oU56wvhU8e75NEkRJddOGbaFnyo=",
-    "originContent": "- **Curated by:** BIRD Team & Google Cloud",
-    "translatedContent": "- **策劃：** BIRD 團隊 & Google Cloud"
+    "rowsha": "CJy/lmct2AT3OvidWiH5FLxFjM+3NIuJGemuO6IO3/I=",
+    "originContent": "   - `follow_up`: The labeled follow up questions.",
+    "translatedContent": "   - `follow_up`: 標記過的後續問題。"
   },
   {
     "row": 117,
-    "rowsha": "1/kQI3qUNugGt6yUagQdmVhx1FDPb1fFeNnmxrbHjpM=",
-    "originContent": "- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
-    "translatedContent": "- **授權：** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+    "rowsha": "rUHKXvHeVB4UqqvGBnj9yJY3C0rN/Oz3IsSbOVCSOLE=",
+    "originContent": "   - `external_knowledge`: The external knowledge related to the specific task.",
+    "translatedContent": "   - `external_knowledge`: 與特定任務相關的外部知識。"
   },
   {
     "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "hQpiCMxX9dK0D0byHCQ4cUtoa8tKtWMoWCxcRBrGSks=",
+    "originContent": "- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.",
+    "translatedContent": "- **評估：** 評估程式碼可於 [`./evaluation`](./evaluation) 目錄取得。"
+  },
+  {
+    "row": 120,
+    "rowsha": "v59KK3oH49UautE6oU56wvhU8e75NEkRJddOGbaFnyo=",
+    "originContent": "- **Curated by:** BIRD Team & Google Cloud",
+    "translatedContent": "- **整理者：** BIRD 團隊 & Google Cloud"
+  },
+  {
+    "row": 121,
+    "rowsha": "1/kQI3qUNugGt6yUagQdmVhx1FDPb1fFeNnmxrbHjpM=",
+    "originContent": "- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
+    "translatedContent": "- **授權條款：** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+  },
+  {
+    "row": 122,
     "rowsha": "EQ6KhGw1snJI5U6ZFWIjj/IpN04AkABGwoqpo5JQnkQ=",
     "originContent": "- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)",
     "translatedContent": "- **HuggingFace 資料集卡片：** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)"
   },
   {
-    "row": 119,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 120,
-    "rowsha": "JBijDrvexJ1GfbKj7poT//NH5iCfI6XH57cOWOG6jQc=",
-    "originContent": "### Dataset Uses",
-    "translatedContent": "### 資料集用途"
-  },
-  {
-    "row": 121,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 122,
-    "rowsha": "XHdAwjxf4l6iSAmLupTaOJFamV5zkfFP+w/3HJJzmV8=",
-    "originContent": "To avoid data leakage by auto-crawling, we do not include GT solution sqls and test cases along with data.",
-    "translatedContent": "為了避免因自動爬取而造成資料外洩，我們未將 GT 解答 SQL 與測試案例與資料一同提供。"
-  },
-  {
     "row": 123,
-    "rowsha": "Q9e5dkfldgsOAjC3z4DRR0OrrKXX9/s+M5y0WmI+Nag=",
-    "originContent": "please email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` in title for full set, which will be sent automatically.",
-    "translatedContent": "請寄信至 [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com)，標題請註明 `[bird-interact-lite GT&Test Cases]`，即可自動收到完整資料集。"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 124,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "JBijDrvexJ1GfbKj7poT//NH5iCfI6XH57cOWOG6jQc=",
+    "originContent": "### Dataset Uses",
+    "translatedContent": "### 資料集用途"
   },
   {
     "row": 125,
@@ -751,99 +751,99 @@
   },
   {
     "row": 126,
-    "rowsha": "IROdTOtya22/xNwBA21bawIEiQ79tzz8+FTSeqo+zAQ=",
-    "originContent": "<!-- ### Use the Dataset from HuggingFace",
-    "translatedContent": "<!-- ### 使用 HuggingFace 提供的資料集"
+    "rowsha": "XHdAwjxf4l6iSAmLupTaOJFamV5zkfFP+w/3HJJzmV8=",
+    "originContent": "To avoid data leakage by auto-crawling, we do not include GT solution sqls and test cases along with data.",
+    "translatedContent": "為避免因自動爬蟲導致的資料洩漏，我們未將 GT 解答 SQL 與測試案例直接隨資料提供。"
   },
   {
     "row": 127,
+    "rowsha": "Q9e5dkfldgsOAjC3z4DRR0OrrKXX9/s+M5y0WmI+Nag=",
+    "originContent": "please email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` in title for full set, which will be sent automatically.",
+    "translatedContent": "如需完整資料集，請以標題包含 `[bird-interact-lite GT&Test Cases]` 發送電子郵件至 [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com)，系統將自動寄送。"
+  },
+  {
+    "row": 128,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 128,
-    "rowsha": "uKk3AJCcLznW9aT+voL6Iz4vZXP4iQl853lhxWPZvrY=",
-    "originContent": "You can download the dataset from HuggingFace using the following command:",
-    "translatedContent": "您可以使用以下指令從 HuggingFace 下載資料集："
-  },
-  {
     "row": 129,
-    "rowsha": "GE0AusEadGNk/GYr/BF/88UKsGyopy2r8aCnyXHh4HI=",
-    "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.",
-    "translatedContent": "有關執行 **a-interact** 的詳細資訊，請參閱 `./bird_interact_agent/README.md`；而 **c-interact** 的資訊請參閱 `./bird_interact_conv/README.md`。"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 130,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
+    "rowsha": "IROdTOtya22/xNwBA21bawIEiQ79tzz8+FTSeqo+zAQ=",
+    "originContent": "<!-- ### Use the Dataset from HuggingFace",
     "translatedContent": ""
   },
   {
     "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "uKk3AJCcLznW9aT+voL6Iz4vZXP4iQl853lhxWPZvrY=",
+    "originContent": "You can download the dataset from HuggingFace using the following command:",
+    "translatedContent": "<!-- ### 從 HuggingFace 取得資料集"
+  },
+  {
+    "row": 133,
+    "rowsha": "GE0AusEadGNk/GYr/BF/88UKsGyopy2r8aCnyXHh4HI=",
+    "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.",
+    "translatedContent": "有關運行 **a-interact** 的詳細資訊，請參閱 `./bird_interact_agent/README.md`；而 **c-interact** 的相關資訊，請參閱 `./bird_interact_conv/README.md`。"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
     "rowsha": "f6chlfSVENLsNAyFyteH0qZqANkTbg9qD38E3rR7+l4=",
     "originContent": "## 📋 Todo Lists",
     "translatedContent": "## 📋 待辦清單"
   },
   {
-    "row": 132,
+    "row": 136,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
-  },
-  {
-    "row": 133,
-    "rowsha": "EL1NQH2bug6G0ymI/d6FG7PFV2GnkPXixeKmwZPR78w=",
-    "originContent": "- [x] Release lite version, bird-interact-lite (270).",
-    "translatedContent": "- [x] 發布精簡版，bird-interact-lite (270)。"
-  },
-  {
-    "row": 134,
-    "rowsha": "hKBdzfGYA7Z4jZ++QUac0jtKAk4XdrT5WpTUG30vQPQ=",
-    "originContent": "- [x] Release conversational version, bird-interact-conv.",
-    "translatedContent": "- [x] 發布對話版，bird-interact-conv。"
-  },
-  {
-    "row": 135,
-    "rowsha": "WfzwLUQQqs71qDxmOxFIOr3TUazlzzHDkM2e4UDJDn8=",
-    "originContent": "- [x] Release agent version, bird-interact-agent.",
-    "translatedContent": "- [x] 發布代理人版，bird-interact-agent。"
-  },
-  {
-    "row": 136,
-    "rowsha": "tfR+oV/Tx2mEPN6r3D2jkGwWZXobjbuEMudF9OxNLv0=",
-    "originContent": "- [x] Release Full bird-interact-full (600).",
-    "translatedContent": "- [x] 發布完整版 bird-interact-full (600)。"
   },
   {
     "row": 137,
-    "rowsha": "vFAJSKqY7icL0MP2UvbRlITQrKGIlzdRt4TZvsoGFb0=",
-    "originContent": "- [ ] SFT / RL an User Simulator",
-    "translatedContent": "- [ ] SFT / RL 一個用戶模擬器"
+    "rowsha": "EL1NQH2bug6G0ymI/d6FG7PFV2GnkPXixeKmwZPR78w=",
+    "originContent": "- [x] Release lite version, bird-interact-lite (270).",
+    "translatedContent": "- [x] 發佈精簡版，bird-interact-lite（270）。"
   },
   {
     "row": 138,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "hKBdzfGYA7Z4jZ++QUac0jtKAk4XdrT5WpTUG30vQPQ=",
+    "originContent": "- [x] Release conversational version, bird-interact-conv.",
+    "translatedContent": "- [x] 發佈對話版，bird-interact-conv。"
   },
   {
     "row": 139,
-    "rowsha": "mhQeFc5wMr+mccgqoEwgaSGTbadrwRv17Z+l5irQ6EI=",
-    "originContent": "## Created By:",
-    "translatedContent": "## 建立者："
+    "rowsha": "WfzwLUQQqs71qDxmOxFIOr3TUazlzzHDkM2e4UDJDn8=",
+    "originContent": "- [x] Release agent version, bird-interact-agent.",
+    "translatedContent": "- [x] 發佈代理版，bird-interact-agent。"
   },
   {
     "row": 140,
-    "rowsha": "BcslIbMQUwitDZ/R23YsQQIVge1FMTXdOH6FqEchx/I=",
-    "originContent": "BIRD Team & Google Cloud",
-    "translatedContent": "BIRD 團隊與 Google Cloud"
+    "rowsha": "tfR+oV/Tx2mEPN6r3D2jkGwWZXobjbuEMudF9OxNLv0=",
+    "originContent": "- [x] Release Full bird-interact-full (600).",
+    "translatedContent": "- [x] 發佈完整版，bird-interact-full（600）。"
   },
   {
     "row": 141,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "vFAJSKqY7icL0MP2UvbRlITQrKGIlzdRt4TZvsoGFb0=",
+    "originContent": "- [ ] SFT / RL an User Simulator",
+    "translatedContent": "- [ ] SFT / RL 使用者模擬器"
   },
   {
     "row": 142,
@@ -853,12 +853,48 @@
   },
   {
     "row": 143,
+    "rowsha": "mhQeFc5wMr+mccgqoEwgaSGTbadrwRv17Z+l5irQ6EI=",
+    "originContent": "## Created By:",
+    "translatedContent": "## 製作者："
+  },
+  {
+    "row": 144,
+    "rowsha": "BcslIbMQUwitDZ/R23YsQQIVge1FMTXdOH6FqEchx/I=",
+    "originContent": "BIRD Team & Google Cloud",
+    "translatedContent": "BIRD 團隊 & Google Cloud"
+  },
+  {
+    "row": 145,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 144,
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""

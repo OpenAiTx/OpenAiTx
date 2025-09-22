@@ -56,26 +56,30 @@
   </a>
 </div>
 
+## ⚠️ Ankündigung  
+Bitte beachten Sie, dass beim Laden der Datenbanken mit Docker gelegentlich Fehler aufgrund von Umgebungsinkonsistenzen auftreten können (diese führen nicht zum Abbruch des Prozesses, sondern erscheinen in den Docker-Logs). Dadurch kann es passieren, dass manche Datenbanken nicht korrekt geladen werden und leer bleiben. Dies führt zu ungewöhnlich niedrigen Bewertungsergebnissen.  
+👉 Daher empfehlen wir dringend, die Docker-Logs **vor der Ausführung der Bewertung** auf Fehler zu überprüfen und sicherzustellen, dass alle Datenbanken erfolgreich geladen wurden.
+
 ## 📰 Neuigkeiten
 
 - [2025-08-26] 🚀 Wir freuen uns, die Veröffentlichung des **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** Sets bekanntzugeben!  
-Es ist eine anspruchsvolle Herausforderung — die besten LLMs erreichen nur eine **16,33%** Erfolgsrate, mit lediglich **10,0%** auf den `c-interact` und `a-interact` Teilen.  
-👉 Für weitere Details besuchen Sie bitte unsere [Projektwebseite](https://bird-interact.github.io/).
+Es ist anspruchsvoll — die besten LLMs erreichen nur eine **16,33%** Erfolgsquote, mit lediglich **10,0%** bei den `c-interact` und `a-interact` Teilen.  
+👉 Für weitere Details besuchen Sie bitte unsere [Projektwebsite](https://bird-interact.github.io/).
 
 - [2025-08-26] 📬 Wir werden diese Woche die **Ground Truth & Testfälle** an unsere Mailingliste versenden.  
-Wenn Sie frühzeitig Zugriff möchten, senden Sie bitte eine E-Mail wie auf der Webseite beschrieben für einen **automatischen Download**.  
+Wer frühzeitig Zugriff möchte, kann eine E-Mail gemäß den Anweisungen auf der Website senden, um einen **automatischen Download** zu erhalten.  
 
-- [2025-08-26] 💾 Außerdem haben wir eine SQLite-Version von **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** für einfachere lokale Forschung veröffentlicht.  
-Die vollständigen **LiveSQLBench-Base** und **-Large** Versionen folgen in Kürze!
+- [2025-08-26] 💾 Außerdem haben wir eine SQLite-Version von **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** veröffentlicht, die die lokale Forschung erleichtert.  
+Die vollständigen Versionen **LiveSQLBench-Base** und **-Large** folgen in Kürze!
 
-- [2025-08-22] **Bugfix**: Im Bird-Interact-Agent-Code haben wir einen Fehler behoben, bei dem die gespeicherte Phase-1-SQL beim Auswerten von Phase-2-SQL nicht erfolgreich ausgeführt werden konnte, was zu einer niedrigeren Erfolgsrate in Phase-2 führte. Dieser Fehler betrifft nur Aufgaben, bei denen die Phase1-SQL Operationen auf der Datenbank ausführt, z.B. CREATE table, usw.
+- [2025-08-22] **Bug-Fix**: Im Bird-Interact-Agent Code haben wir einen Fehler behoben, bei dem beim Auswerten von Phase-2 SQL das gespeicherte Phase-1 SQL nicht erfolgreich ausgeführt werden konnte, was zu einer niedrigeren Erfolgsrate von Phase-2 führte. Dieser Fehler betrifft nur Aufgaben, bei denen das Phase-1 SQL Operationen auf der Datenbank ausführt, z.B. CREATE table usw.
 
-## 🧸 Überblick
+## 🧸 Übersicht
 
-BIRD-INTERACT, ein interaktiver Text-zu-SQL-Benchmark, **definiert die Text-zu-SQL-Evaluierung neu durch das Prisma dynamischer Interaktionen**.
-Die Umgebung kombiniert eine hierarchische Wissensbasis, Datenbankdokumentation und einen funktionsgesteuerten Benutzersimulator, um authentische Unternehmensumgebungen über alle **CRUD**-Operationen hinweg nachzubilden.
-Es bietet zwei anspruchsvolle Testmodi: (1) passiver **Konversationeller Interaktion** und (2) aktiver **Agenteninteraktion**, mit 600 annotierten Aufgaben einschließlich Business Intelligence (BI), CRUD-Operationen usw., jeweils durch ausführbare Testfälle abgesichert.
-Typische Auswertungen lösen 1.968-5.496 Interaktionsturns zwischen Modell und Benutzersimulator aus, während modernste Reasoning-Modelle derzeit nur **≈24%** und **≈18%** der Aufgaben lösen, was die Herausforderung des Benchmarks unterstreicht.
+BIRD-INTERACT, ein interaktiver Text-zu-SQL Benchmark, **überdenkt die Text-zu-SQL-Evaluierung durch die Linse dynamischer Interaktionen**.
+Die Umgebung kombiniert eine hierarchische Wissensbasis, Datenbankdokumentation und einen funktionsgetriebenen Benutzersimulator, um authentische Unternehmensumgebungen für vollständige **CRUD**-Operationen nachzubilden.
+Es bietet zwei strenge Testmodi: (1) passiver **Konversationeller Interaktionsmodus** und (2) aktiver **Agentischer Interaktionsmodus**, mit insgesamt 600 annotierten Aufgaben, darunter Business Intelligence (BI), CRUD-Operationen usw., wobei jede Aufgabe durch ausführbare Testfälle abgesichert ist.
+Typische Bewertungen lösen 1.968–5.496 Interaktionsturns zwischen Modell und Benutzersimulator aus, während modernste Reasoning-Modelle aktuell nur **≈24 %** bzw. **≈18 %** der Aufgaben bewältigen, was die Herausforderung des Benchmarks unterstreicht.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
@@ -86,47 +90,47 @@ Typische Auswertungen lösen 1.968-5.496 Interaktionsturns zwischen Modell und B
 
 BIRD-INTERACT unterstützt wie oben erwähnt zwei Bewertungsmodi:
 
-   - **c-Interact**: Konversationelle Interaktion, ein passiver Modus mit festem Ablauf. Der Code und detaillierte Informationen sind in `bird_interact_conv` zu finden.
-   - **a-Interact**: Agentische Interaktion, ein verkörperter aktiver Modus mit dynamischem, modellgesteuertem Ablauf. Der Code und detaillierte Informationen sind in `bird_interact_agent` zu finden.
+   - **c-Interact**: Konversationelle Interaktion, ein passiver Modus mit festem Workflow. Der Code und weitere Informationen sind in `bird_interact_conv` zu finden.
+   - **a-Interact**: Agentische Interaktion, ein aktiver Modus, bei dem der Workflow dynamisch ist und vom Modell gesteuert wird. Der Code und weitere Informationen sind in `bird_interact_agent` zu finden.
 
 
 ### 🐣 Lite-Version
 
-Wir veröffentlichen eine Lite-Version von BIRD-INTERACT, `bird-interact-lite-exp`, die 270 hochwertige Real-World-Aufgaben speziell für PostgreSQL enthält. Dies ist ein guter Ausgangspunkt für schnelle Experimente.
+Wir veröffentlichen eine Lite-Version von BIRD-INTERACT, `bird-interact-lite-exp`, die 270 hochwertige, praxisnahe Aufgaben speziell für PostgreSQL enthält. Dies ist ein guter Startpunkt für schnelle Experimente.
 
 ### 🦜 Vollversion
 
-Die Vollversion von BIRD-INTERACT, `bird-interact-full`, ist ein umfassender Benchmark mit 600 Aufgaben für PostgreSQL. Sie deckt eine breite Palette von SQL-Operationen und Benutzeranfragen ab. Die Vollversion erscheint in Kürze.
+Die Vollversion von BIRD-INTERACT, `bird-interact-full`, ist ein umfassender Benchmark mit 600 Aufgaben für PostgreSQL. Sie deckt ein breites Spektrum an SQL-Operationen und Benutzeranfragen ab. Die Vollversion erscheint in Kürze.
 
-### Modellergebnisse auf BIRD-INTERACT Lite
+### Modell-Leistungsergebnisse auf BIRD-INTERACT Lite
 
 #### 1. **c-Interact** Leistung
-| Rang | Modellname         | Normalisierte Belohnung | Niveau        |
+| Rang | Modellname         | Normalisierte Belohnung | Level        |
 |:------:|--------------------|:-------:|:--------------:|
-| 1    | o3-mini            | 33.04 | 🏆 Exzellenter Chat |
-| 2    | GPT-4o             | 30.33 | 💎 Guter Chat      |
-| 3    | Gemini-2.0-flash   | 27.41 | 💎 Guter Chat      |
-| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Standard        |
-| 5    | DeepSeek-R1        | 21.74 | ✨ Standard        |
-| 6    | Qwen3              | 20.33 | ⚪ Basic           |
-| 7    | DeepSeek-V3        | 15.85 | ⚪ Basic           |
+| 1    | o3-mini            | 33,04 | 🏆 Ausgezeichneter Chat |
+| 2    | GPT-4o             | 30,33 | 💎 Guter Chat      |
+| 3    | Gemini-2.0-flash   | 27,41 | 💎 Guter Chat      |
+| 4    | Claude-3.7-sonnet  | 26,60 | ✨ Standard       |
+| 5    | DeepSeek-R1        | 21,74 | ✨ Standard       |
+| 6    | Qwen3              | 20,33 | ⚪ Basic          |
+| 7    | DeepSeek-V3        | 15,85 | ⚪ Basic          |
 
 #### 2. **a-Interact** Leistung
-| Rang | Modellname         | Budgetparameter* | Ø Schritte/Aufgabe | Ø Kosten (USD)/Aufgabe | Normalisierte Belohnung | Niveau            |
+| Rang | Modellname         | Budget-Parameter* | Durchschnittl. Schritte/Aufgabe | Durchschnittl. Kosten (USD)/Aufgabe | Normalisierte Belohnung | Level            |
 |:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|
-| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Exzellente Interaktion |
-| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 Gute Interaktion      |
-| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 Gute Interaktion      |
-| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ Standard              |
-| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ Standard              |
-| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ Basic                 |
-| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Basic                 |
+| 1    | Claude-3.7-sonnet  | 6/6 | 15,4 | $0,6668 | 29,19 | 🏆 Exzellente Interaktion |
+| 2    | o3-mini            | 6/6 | 7,8  | $0,0754 | 21,07 | 💎 Gute Interaktion      |
+| 3    | DeepSeek-V3        | 6/6 | 15,6 | $0,0629 | 19,19 | 💎 Gute Interaktion      |
+| 4    | Qwen3              | 6/6 | 12,5 | $0,0278 | 18,74 | ✨ Standard              |
+| 5    | GPT-4o             | 6/6 | 15,3 | $0,4594 | 18,37 | ✨ Standard              |
+| 6    | Gemini-2.0-flash   | 6/6 | 13,2 | $0,0337 | 17,26 | ⚪ Basis                 |
+| 7    | DeepSeek-R1        | 6/6 | 12,0 | $0,0931 | 17,07 | ⚪ Basis                 |
 
-> \* Budget-Parameter: Startbudget/Benutzer Geduldsbudget, gemessen in unserer virtuellen Währung *bird-coin*s <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Siehe [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) für weitere Details.
+> \* Budget-Parameter: Startbudget/Benutzer-Geduldsbudget, gemessen in unserer virtuellen Währung *bird-coin*s <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Weitere Details finden Sie unter [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting).
 
 ### Interaction-Time Scaling (ITS)
 
-Interaction-Time Scaling (ITS) bezeichnet die Fähigkeit eines Modells, seine Endleistung durch mehrfache Interaktionen kontinuierlich zu steigern. Wenn diese interaktive Leistung die idealisierte Einzelschritt-Leistung des Modells bei einer vollständig spezifizierten, eindeutigen Aufgabe übertrifft, erfüllt es das **ITS-Gesetz**. Mit zunehmender Benutzer-Geduld und steigender Anzahl an Interaktionsrunden verbessert sich die Leistung weiter, was zeigt, dass das Modell effektive Kommunikation über längere Dialoge aufrechterhalten kann. Aktuell erfüllt nur claude-3-7-sonnet das ITS-Gesetz.
+Interaction-Time Scaling (ITS) bezeichnet die Fähigkeit eines Modells, seine Endleistung durch mehrfache Interaktionen kontinuierlich zu steigern. Übertrifft diese interaktive Leistung die idealisierte Einzelschritt-Leistung des Modells bei einer vollständig spezifizierten, eindeutigen Aufgabe, sagen wir, dass das Modell das **ITS-Gesetz** erfüllt. Mit zunehmender Geduld des Nutzers und einer steigenden Anzahl von Interaktionen verbessert sich die Leistung kontinuierlich, was zeigt, dass das Modell über längere Dialoge hinweg effektive Kommunikation aufrechterhalten kann. Derzeit erfüllt nur claude-3-7-sonnet das ITS-Gesetz.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png" 
@@ -137,35 +141,35 @@ Interaction-Time Scaling (ITS) bezeichnet die Fähigkeit eines Modells, seine En
 
 ### Datensatzbeschreibung
 
-- **Datenbank:** Die vollständige PostgreSQL-Datenbank kann von [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view) heruntergeladen werden. Siehe den Abschnitt [Quick Eval](#quick-eval) für weitere Informationen.
-- **Daten:** Jede Dateninstanz enthält folgende Hauptbestandteile:
+- **Datenbank:** Die vollständige PostgreSQL-Datenbank kann von [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view) heruntergeladen werden. Weitere Informationen finden Sie im Abschnitt [Quick Eval](#quick-eval).
+- **Daten:** Jede Dateninstanz enthält die folgenden Hauptbestandteile:
    - `selected_database`: Name der Datenbank.  
    - `query`: Die eindeutige Benutzeranfrage.  
-   - `amb_user_query`: Die Benutzeranfrage mit eingefügten Mehrdeutigkeiten.
-   - `user_query_ambiguity`: Die in die Benutzeranfrage eingefügten Mehrdeutigkeiten.
-   - `non_critical_ambiguity`: Nicht-kritische Mehrdeutigkeiten wie Reihenfolge, Limit, etc.
-   - `knowledge_ambiguity`: Mehrdeutigkeiten, die durch ausgeblendetes externes Wissen entstehen. 
-   - `sol_sql`: Die tatsächliche SQL-Lösung.  
+   - `amb_user_query`: Die Benutzeranfrage mit eingebrachten Mehrdeutigkeiten.
+   - `user_query_ambiguity`: Die in die Benutzeranfrage eingebrachten Mehrdeutigkeiten.
+   - `non_critical_ambiguity`: Die nicht-kritischen Mehrdeutigkeiten wie Reihenfolge, Limit, usw.
+   - `knowledge_ambiguity`: Die durch ausgeblendetes externes Wissen entstandenen Mehrdeutigkeiten. 
+   - `sol_sql`: Die Ground Truth SQL-Lösung.  
    - `preprocess_sql`: SQL-Abfragen, die vor der Ausführung der Lösung oder Vorhersage ausgeführt werden.  
    - `clean_up_sql`: SQL-Abfragen, die nach den Testfällen ausgeführt werden, um Änderungen an der Datenbank rückgängig zu machen.  
-   - `test_cases`: Eine Reihe von Testfällen zur Validierung der vorhergesagten, korrigierten SQL.
+   - `test_cases`: Eine Reihe von Testfällen zur Validierung der vorhergesagten korrigierten SQL.
    - `follow_up`: Die gekennzeichneten Folgefragen.
-   - `external_knowledge`: Das externe Wissen, das mit der spezifischen Aufgabe verbunden ist.
+   - `external_knowledge`: Das externe Wissen zum spezifischen Task.
 
 - **Bewertung:** Der Bewertungscode ist im Verzeichnis [`./evaluation`](./evaluation) verfügbar.
 - **Kuratiert von:** BIRD Team & Google Cloud
 - **Lizenz:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
+- **HuggingFace Dataset-Karte:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
 
 ### Datensatzverwendung
 
 Um Datenlecks durch automatisches Crawlen zu vermeiden, enthalten wir keine GT-Lösungs-SQLs und Testfälle zusammen mit den Daten.
-Bitte senden Sie eine E-Mail an [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) mit dem Tag `[bird-interact-lite GT&Test Cases]` im Titel, um das vollständige Set zu erhalten, das automatisch verschickt wird.
+Bitte senden Sie eine E-Mail an [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) mit dem Tag `[bird-interact-lite GT&Test Cases]` im Titel, um das vollständige Set zu erhalten, das automatisch zugesendet wird.
 
 
-<!-- ### Verwenden Sie das Datenset von HuggingFace
+<!-- ### Nutzung des Datensatzes von HuggingFace
 
-Sie können das Datenset von HuggingFace mit dem folgenden Befehl herunterladen:
+Sie können den Datensatz von HuggingFace mit dem folgenden Befehl herunterladen:
 ```bash
 from datasets import load_dataset
 # Load the flash version of the dataset
@@ -209,12 +213,12 @@ python pull_data.py \
 ```
 Die Details zum Ausführen von **a-interact** finden Sie in `./bird_interact_agent/README.md`; und **c-interact** finden Sie in `./bird_interact_conv/README.md`.
 
-## 📋 Aufgabenlisten
+## 📋 Aufgabenliste
 
-- [x] Lite-Version veröffentlichen, bird-interact-lite (270).
-- [x] Konversationsversion veröffentlichen, bird-interact-conv.
-- [x] Agenten-Version veröffentlichen, bird-interact-agent.
-- [x] Vollständige Version veröffentlichen, bird-interact-full (600).
+- [x] Veröffentlichung der Lite-Version, bird-interact-lite (270).
+- [x] Veröffentlichung der Konversationsversion, bird-interact-conv.
+- [x] Veröffentlichung der Agentenversion, bird-interact-agent.
+- [x] Veröffentlichung der vollständigen Version bird-interact-full (600).
 - [ ] SFT / RL eines Benutzersimulators
 
 ## Erstellt von:
@@ -224,8 +228,10 @@ BIRD Team & Google Cloud
 
 
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-22
 
 ---

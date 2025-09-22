@@ -56,26 +56,30 @@
   </a>
 </div>
 
+## ⚠️ Pengumuman  
+Harap dicatat bahwa sebelum proses evaluasi Anda, ketika Docker memuat database, kesalahan kadang-kadang dapat terjadi karena inkonsistensi lingkungan (ini tidak akan menghentikan proses tetapi akan muncul di log Docker). Akibatnya, beberapa database mungkin gagal dimuat dengan benar, menyebabkan database kosong. Hal ini akan menyebabkan hasil evaluasi menjadi sangat rendah.  
+👉 Oleh karena itu, kami sangat menyarankan untuk memeriksa log Docker untuk setiap kesalahan **sebelum menjalankan evaluasi** dan memastikan bahwa semua database telah berhasil dimuat.
+
 ## 📰 Berita
 
-- [2025-08-26] 🚀 Kami dengan bangga mengumumkan rilis set **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
-Ini cukup sulit — LLM terbaik hanya mencapai tingkat keberhasilan **16.33%**, dengan hanya **10.0%** pada bagian `c-interact` dan `a-interact`.  
+- [2025-08-26] 🚀 Kami dengan senang hati mengumumkan rilis set **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
+Ini adalah set yang sulit — LLM terbaik hanya mencapai tingkat keberhasilan **16.33%**, dengan hanya **10.0%** pada bagian `c-interact` dan `a-interact`.  
 👉 Untuk detail lebih lanjut, silakan kunjungi [situs proyek kami](https://bird-interact.github.io/).
 
-- [2025-08-26] 📬 Minggu ini kami akan mengirimkan **Ground Truth & Test cases** ke daftar email kami.  
-Jika Anda ingin akses awal, silakan kirim email sesuai instruksi di situs untuk **unduhan otomatis**.  
+- [2025-08-26] 📬 Kami akan mengirimkan **Ground Truth & Test case** ke milis kami minggu ini.  
+Jika Anda ingin akses lebih awal, silakan kirim email sesuai petunjuk di situs untuk **unduhan otomatis**.  
 
-- [2025-08-26] 💾 Selain itu, kami juga telah merilis versi SQLite dari **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** agar penelitian lokal lebih mudah.  
-Versi penuh **LiveSQLBench-Base** dan **-Large** akan segera hadir!
+- [2025-08-26] 💾 Selain itu, kami juga merilis versi SQLite dari **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** untuk penelitian lokal yang lebih mudah.  
+Versi lengkap **LiveSQLBench-Base** dan **-Large** akan segera hadir!
 
-- [2025-08-22] **Perbaikan Bug**: Pada kode Bird-Interact-Agent, kami memperbaiki bug di mana saat mengevaluasi SQL fase-2, SQL fase-1 yang tersimpan tidak dapat dieksekusi dengan sukses, sehingga tingkat keberhasilan Fase-2 lebih rendah. Bug ini hanya memengaruhi tugas di mana sql fase1 melakukan beberapa operasi pada database, misal CREATE table, dll.
+- [2025-08-22] **Perbaikan Bug**: Dalam kode Bird-Interact-Agent, kami memperbaiki bug di mana saat mengevaluasi SQL fase-2, SQL fase-1 yang disimpan tidak dapat dieksekusi dengan sukses, menyebabkan tingkat keberhasilan Fase-2 lebih rendah. Bug ini hanya mempengaruhi tugas di mana sql fase1 melakukan beberapa operasi pada database, misalnya CREATE table, dsb.
 
 ## 🧸 Ikhtisar
 
-BIRD-INTERACT, sebuah benchmark interaktif text-to-SQL, **mengimajinasikan ulang evaluasi Text-to-SQL melalui kacamata interaksi dinamis**.
-Lingkungan ini memadukan basis pengetahuan hierarkis, dokumentasi basis data, dan simulator pengguna berbasis fungsi untuk menciptakan ulang lingkungan perusahaan otentik di seluruh operasi **CRUD** penuh.
-Benchmark ini menawarkan dua mode uji ketat: (1) **Interaksi Percakapan** pasif dan (2) **Interaksi Agenik** aktif, mencakup 600 tugas beranotasi termasuk Business Intelligence (BI), operasi CRUD, dan lain-lain, masing-masing dilindungi oleh kasus uji yang dapat dieksekusi.
-Evaluasi tipikal memicu 1.968-5.496 giliran interaksi antara model dan simulator pengguna, sementara model penalaran mutakhir saat ini hanya mampu menyelesaikan **≈24%** dan **≈18%** tugas, menegaskan tantangan dari benchmark ini.
+BIRD-INTERACT, sebuah tolok ukur interaktif text-to-SQL, **mengimajinasikan kembali evaluasi Text-to-SQL melalui lensa interaksi dinamis**.
+Lingkungan ini memadukan basis pengetahuan hierarkis, dokumentasi database, dan simulator pengguna berbasis fungsi untuk merekonstruksi lingkungan perusahaan otentik di seluruh operasi **CRUD** secara penuh.
+Ini menawarkan dua mode pengujian yang ketat: (1) **Interaksi Percakapan** pasif dan (2) **Interaksi Agentik** aktif, mencakup 600 tugas beranotasi termasuk Business Intelligence (BI), operasi CRUD, dan lain-lain, masing-masing dijaga oleh kasus uji yang dapat dieksekusi.
+Evaluasi tipikal memicu 1.968-5.496 giliran interaksi antara model dan simulator pengguna, sementara model penalaran mutakhir saat ini hanya menyelesaikan **≈24%** dan **≈18%** tugas, menyoroti tantangan benchmark ini.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
@@ -87,32 +91,32 @@ Evaluasi tipikal memicu 1.968-5.496 giliran interaksi antara model dan simulator
 BIRD-INTERACT mendukung dua mode evaluasi seperti yang disebutkan di atas:
 
    - **c-Interact**: Interaksi Percakapan yang merupakan mode pasif dan alur kerjanya tetap. Kode dan informasi detail dapat ditemukan di `bird_interact_conv`.
-   - **a-Interact**: Interaksi Agenik yang merupakan mode aktif terwujud di mana alur kerja bersifat dinamis dan dipimpin oleh model. Kode dan informasi detail dapat ditemukan di `bird_interact_agent`.
+   - **a-Interact**: Interaksi Agentik yang merupakan mode aktif terwujud di mana alur kerjanya dinamis dan dipimpin oleh model. Kode dan informasi detail dapat ditemukan di `bird_interact_agent`.
 
 
 ### 🐣 Versi Lite
 
 Kami merilis versi lite dari BIRD-INTERACT, `bird-interact-lite-exp`, yang mencakup 270 tugas dunia nyata berkualitas tinggi khusus untuk PostgreSQL. Ini adalah titik awal yang baik untuk eksperimen cepat.
 
-### 🦜 Versi Lengkap
+### 🦜 Versi Penuh
 
-Versi lengkap dari BIRD-INTERACT, `bird-interact-full`, adalah tolok ukur komprehensif yang mencakup 600 tugas untuk PostgreSQL. Versi ini meliputi berbagai operasi SQL dan permintaan pengguna. Versi lengkap akan segera hadir.
+Versi penuh dari BIRD-INTERACT, `bird-interact-full`, adalah tolok ukur komprehensif yang mencakup 600 tugas untuk PostgreSQL. Ini mencakup berbagai operasi SQL dan kueri pengguna. Versi penuh akan segera hadir.
 
 ### Hasil Performa Model pada BIRD-INTERACT Lite
 
 #### 1. Performa **c-Interact**
-| Peringkat | Nama Model        | Reward Ternormalisasi | Level        |
+| Peringkat | Nama Model         | Normalized Reward | Level        |
 |:------:|--------------------|:-------:|:--------------:|
 | 1    | o3-mini            | 33.04 | 🏆 Chat Sangat Baik |
-| 2    | GPT-4o             | 30.33 | 💎 Chat Baik        |
-| 3    | Gemini-2.0-flash   | 27.41 | 💎 Chat Baik        |
-| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Standar          |
-| 5    | DeepSeek-R1        | 21.74 | ✨ Standar          |
-| 6    | Qwen3              | 20.33 | ⚪ Dasar            |
-| 7    | DeepSeek-V3        | 15.85 | ⚪ Dasar            |
+| 2    | GPT-4o             | 30.33 | 💎 Chat Baik      |
+| 3    | Gemini-2.0-flash   | 27.41 | 💎 Chat Baik      |
+| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Standar        |
+| 5    | DeepSeek-R1        | 21.74 | ✨ Standar        |
+| 6    | Qwen3              | 20.33 | ⚪ Dasar          |
+| 7    | DeepSeek-V3        | 15.85 | ⚪ Dasar          |
 
 #### 2. Performa **a-Interact**
-| Peringkat | Nama Model         | Parameter Anggaran* | Rata-rata Langkah/Tugas | Rata-rata Biaya (USD)/Tugas | Reward Ternormalisasi | Level                 |
+| Peringkat | Nama Model         | Parameter Budget* | Rata-rata Langkah/Tugas | Rata-rata Biaya (USD)/Tugas | Normalized Reward | Level            |
 |:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|
 | 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Interaksi Sangat Baik |
 | 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 Interaksi Baik        |
@@ -122,11 +126,11 @@ Versi lengkap dari BIRD-INTERACT, `bird-interact-full`, adalah tolok ukur kompre
 | 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ Dasar                 |
 | 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Dasar                 |
 
-> \* Parameter Anggaran: Anggaran Awal/Anggaran Kesabaran Pengguna, diukur dengan mata uang virtual kami *bird-coin* <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Lihat [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) untuk detail lebih lanjut.
+> \* Parameter Anggaran: Anggaran Awal/Anggaran Kesabaran Pengguna, diukur dengan mata uang virtual *bird-coin* <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Lihat [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) untuk detail lebih lanjut.
 
 ### Skala Waktu Interaksi (ITS)
 
-Skala Waktu Interaksi (ITS) mengacu pada kemampuan model untuk terus meningkatkan kinerja akhirnya melalui interaksi multi-putaran. Ketika kinerja interaktif ini melampaui kinerja ideal model dalam satu putaran pada tugas yang telah ditentukan secara penuh dan tanpa ambigu, kita katakan bahwa model memenuhi **hukum ITS**. Seiring dengan bertambahnya kesabaran pengguna dan akumulasi putaran interaksi, kinerja terus meningkat, menunjukkan bahwa model dapat mempertahankan komunikasi yang efektif dalam dialog berkepanjangan. Saat ini, kami hanya menemukan claude-3-7-sonnet yang memenuhi hukum ITS.
+Skala Waktu Interaksi (ITS) mengacu pada kemampuan model untuk terus meningkatkan kinerja akhir melalui interaksi multi-langkah. Ketika performa interaktif ini melebihi performa ideal model dalam satu langkah pada tugas yang sepenuhnya terdefinisi dan tidak ambigu, kita katakan model tersebut memenuhi **hukum ITS**. Seiring meningkatnya kesabaran pengguna dan akumulasi jumlah interaksi, performa terus membaik, menunjukkan bahwa model dapat mempertahankan komunikasi efektif dalam percakapan panjang. Saat ini, hanya claude-3-7-sonnet yang memenuhi hukum ITS.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png" 
@@ -141,15 +145,15 @@ Skala Waktu Interaksi (ITS) mengacu pada kemampuan model untuk terus meningkatka
 - **data:** Setiap instance data berisi bagian utama berikut:
    - `selected_database`: Nama database.  
    - `query`: Query pengguna yang tidak ambigu.  
-   - `amb_user_query`: Query pengguna dengan ambiguitas yang disuntikkan.
-   - `user_query_ambiguity`: Ambiguitas yang disuntikkan ke dalam query pengguna.
-   - `non_critical_ambiguity`: Ambiguitas non-kritis seperti urutan, batas, dll.
-   - `knowledge_ambiguity`: Ambiguitas yang dibuat oleh penutupan pengetahuan eksternal. 
+   - `amb_user_query`: Query pengguna dengan ambiguitas yang disisipkan.
+   - `user_query_ambiguity`: Ambiguitas yang dimasukkan ke dalam query pengguna.
+   - `non_critical_ambiguity`: Ambiguitas non-kritis seperti urutan, limit, dll.
+   - `knowledge_ambiguity`: Ambiguitas yang dibuat dengan menutupi pengetahuan eksternal. 
    - `sol_sql`: Solusi SQL ground truth.  
-   - `preprocess_sql`: Query SQL yang dijalankan sebelum mengeksekusi solusi atau prediksi.  
-   - `clean_up_sql`: Query SQL yang dijalankan setelah kasus uji untuk mengembalikan perubahan pada database.  
-   - `test_cases`: Kumpulan kasus uji untuk memvalidasi SQL yang telah dikoreksi.
-   - `follow_up`: Pertanyaan lanjutan yang telah diberi label.
+   - `preprocess_sql`: Query SQL yang dijalankan sebelum eksekusi solusi atau prediksi.  
+   - `clean_up_sql`: Query SQL yang dijalankan setelah test case untuk mengembalikan perubahan pada database.  
+   - `test_cases`: Kumpulan test case untuk validasi SQL hasil prediksi.
+   - `follow_up`: Pertanyaan follow up yang sudah diberi label.
    - `external_knowledge`: Pengetahuan eksternal terkait tugas tertentu.
 
 - **evaluation:** Kode evaluasi tersedia di direktori [`./evaluation`](./evaluation).
@@ -159,8 +163,8 @@ Skala Waktu Interaksi (ITS) mengacu pada kemampuan model untuk terus meningkatka
 
 ### Penggunaan Dataset
 
-Untuk menghindari kebocoran data melalui auto-crawling, kami tidak menyertakan sql solusi GT dan kasus uji bersama dengan data.
-silakan email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) dengan tag `[bird-interact-lite GT&Test Cases]` pada judul untuk mendapatkan paket lengkap, yang akan dikirimkan secara otomatis.
+Untuk menghindari kebocoran data melalui auto-crawling, kami tidak menyertakan solusi sql GT dan kasus uji bersama data.
+silakan email ke [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) dengan tag `[bird-interact-lite GT&Test Cases]` pada judul untuk mendapatkan set lengkap, yang akan dikirimkan secara otomatis.
 
 
 <!-- ### Gunakan Dataset dari HuggingFace
@@ -209,13 +213,13 @@ python pull_data.py \
 ```
 Detail tentang menjalankan **a-interact** dapat ditemukan di `./bird_interact_agent/README.md`; dan **c-interact** dapat ditemukan di `./bird_interact_conv/README.md`.
 
-## 📋 Daftar Todo
+## 📋 Daftar Tugas
 
 - [x] Rilis versi lite, bird-interact-lite (270).
 - [x] Rilis versi percakapan, bird-interact-conv.
-- [x] Rilis versi agen, bird-interact-agent.
-- [x] Rilis bird-interact-full (600) lengkap.
-- [ ] SFT / RL Simulator Pengguna
+- [x] Rilis versi agent, bird-interact-agent.
+- [x] Rilis Full bird-interact-full (600).
+- [ ] SFT / RL pada Simulator Pengguna
 
 ## Dibuat Oleh:
 Tim BIRD & Google Cloud
@@ -224,8 +228,10 @@ Tim BIRD & Google Cloud
 
 
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-22
 
 ---

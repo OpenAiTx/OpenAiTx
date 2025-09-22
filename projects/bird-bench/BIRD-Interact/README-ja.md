@@ -56,26 +56,30 @@
   </a>
 </div>
 
-## 📰 ニュース
+## ⚠️ お知らせ  
+評価プロセスの前に、Dockerがデータベースをロードする際、環境の不一致によりエラーが時々発生することがあります（これらはプロセスを終了させませんが、Dockerログに表示されます）。その結果、一部のデータベースが正常にロードされず、空のデータベースとなる場合があります。これにより、評価結果が異常に低くなることがあります。  
+👉 したがって、**評価を実行する前に**Dockerログでエラーがないか確認し、すべてのデータベースが正常にロードされていることを必ずご確認ください。
 
-- [2025-08-26] 🚀 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** セットのリリースを発表できることを嬉しく思います。  
-これは難易度が高く、最高のLLMでも成功率は**16.33%**で、`c-interact`と`a-interact`部分ではわずか**10.0%**です。  
-👉 詳細については、[プロジェクト公式サイト](https://bird-interact.github.io/)をご覧ください。
+## 📰 最新情報
 
-- [2025-08-26] 📬 **Ground Truth & Test cases** を今週メーリングリストに送信します。  
-早期アクセスを希望される場合は、サイトの指示に従いメールを送信すると**自動ダウンロード**が可能です。  
+- [2025-08-26] 🚀 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** セットのリリースを発表します！  
+難易度が高く、最先端LLMでも成功率はわずか**16.33%**、`c-interact`と`a-interact`部分では**10.0%**にとどまっています。  
+👉 詳細は[プロジェクトサイト](https://bird-interact.github.io/)をご覧ください。
 
-- [2025-08-26] 💾 さらに、ローカル研究が簡単になるよう **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** のSQLiteバージョンもリリースしました。  
-完全版の **LiveSQLBench-Base** および **-Large** も近日公開予定です！
+- [2025-08-26] 📬 今週、**Ground Truth & Test cases** をメーリングリストに送付予定です。  
+早期アクセスをご希望の方は、サイト記載の手順でメールを送信し、**自動ダウンロード**をご利用ください。  
 
-- [2025-08-22] **バグ修正**: Bird-Interact-Agentコードにて、phase-2 SQL評価時に保存されたphase-1 SQLが正常に実行されず、Phase-2の成功率が低下するバグを修正しました。このバグは、phase1 SQLがDBに対しCREATE table等の操作を行うタスクにのみ影響します。
+- [2025-08-26] 💾 さらに、ローカル研究の利便性向上のため、SQLite版の**[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** も公開しました。  
+完全な **LiveSQLBench-Base** および **-Large** バージョンも近日公開予定です！
+
+- [2025-08-22] **バグ修正**: Bird-Interact-Agentコードで、Phase-2 SQL評価時に保存されているPhase-1 SQLが正常に実行できず、Phase-2の成功率が低下するバグを修正しました。このバグは、Phase1 SQLがCREATE tableなどのDB操作を行うタスクにのみ影響します。
 
 ## 🧸 概要
 
-BIRD-INTERACTはインタラクティブなText-to-SQLベンチマークであり、**動的インタラクションの観点からText-to-SQL評価を再定義します**。
-この環境は階層的な知識ベース、データベースドキュメント、関数駆動型ユーザーシミュレータを融合し、企業環境の本格的な**CRUD**操作を再現します。
-2つの厳格なテストモード：(1) 受動的な**会話型インタラクション**と(2) 能動的な**エージェント型インタラクション**を提供し、Business Intelligence (BI)、CRUD操作などを含む600件の注釈付きタスクを網羅し、それぞれ実行可能なテストケースで保護されています。
-典型的な評価ではモデルとユーザーシミュレータ間で1,968～5,496回のインタラクションが発生し、最先端推論モデルでもタスク解決率は**約24%**および**約18%**にとどまり、ベンチマークの難易度を示しています。
+BIRD-INTERACTは、インタラクティブなText-to-SQLベンチマークであり、**動的インタラクションの観点からText-to-SQL評価を再定義します**。
+この環境は、階層型ナレッジベース、データベースドキュメント、機能駆動型ユーザーシミュレータを融合し、完全な**CRUD**操作を通じて本格的な企業環境を再現します。
+2つの厳格なテストモードを提供します：(1) パッシブな**会話型インタラクション**と(2) アクティブな**エージェント型インタラクション**で、BI（ビジネスインテリジェンス）、CRUD操作などを含む600件のアノテーション付きタスクにわたり、各タスクは実行可能なテストケースによって保護されています。
+典型的な評価では、モデルとユーザーシミュレータ間で1,968～5,496回のインタラクションターンが発生し、最先端の推論モデルは現在**約24％**および**約18％**のタスクしか解決できず、ベンチマークの難易度を浮き彫りにしています。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
@@ -84,49 +88,49 @@ BIRD-INTERACTはインタラクティブなText-to-SQLベンチマークであ�
 
 ### ✅ 2つの評価モード
 
-BIRD-INTERACTは、上記の2つの評価モードをサポートしています：
+BIRD-INTERACTは前述の2つの評価モードをサポートしています：
 
-   - **c-Interact**: 会話型インタラクションで、受動的なモードです。ワークフローは固定されており、コードや詳細は `bird_interact_conv` にあります。
-   - **a-Interact**: エージェント型インタラクションで、能動的かつモデル主導の動的なワークフローです。コードや詳細は `bird_interact_agent` にあります。
+   - **c-Interact**: 会話型インタラクション。パッシブモードでワークフローは固定されています。コードや詳細情報は `bird_interact_conv` にあります。
+   - **a-Interact**: エージェント型インタラクション。モデル主導の動的なワークフローとなるアクティブモードです。コードや詳細情報は `bird_interact_agent` にあります。
+
 
 ### 🐣 ライト版
 
-BIRD-INTERACTのライト版 `bird-interact-lite-exp` を公開しています。これはPostgreSQL用に特化した270件の高品質な実タスクを含み、迅速な実験の出発点に適しています。
+BIRD-INTERACTのライト版 `bird-interact-lite-exp` を公開しています。これはPostgreSQL向けに特化した高品質な270件の実タスクを含んでおり、迅速な実験を行うのに適した入門版です。
 
 ### 🦜 フルバージョン
 
-BIRD-INTERACTのフルバージョン `bird-interact-full` は、PostgreSQL用600件のタスクを網羅した総合ベンチマークです。幅広いSQL操作とユーザークエリをカバーします。フルバージョンは近日公開予定です。
+BIRD-INTERACTのフルバージョン `bird-interact-full` は、PostgreSQL向けに600件のタスクを含む包括的なベンチマークです。SQL操作やユーザークエリの広範な範囲をカバーします。フルバージョンは近日公開予定です。
 
-### BIRD-INTERACT Liteにおけるモデル性能結果
+### BIRD-INTERACTライト版におけるモデル性能結果
 
-#### 1. **c-Interact** の性能
-| ランク | モデル名          | 正規化報酬 | レベル           |
+#### 1. **c-Interact** 性能
+| 順位 | モデル名           | 正規化報酬値 | レベル         |
 |:------:|--------------------|:-------:|:--------------:|
 | 1    | o3-mini            | 33.04 | 🏆 優秀なチャット |
-| 2    | GPT-4o             | 30.33 | 💎 良好なチャット  |
-| 3    | Gemini-2.0-flash   | 27.41 | 💎 良好なチャット  |
+| 2    | GPT-4o             | 30.33 | 💎 良質なチャット  |
+| 3    | Gemini-2.0-flash   | 27.41 | 💎 良質なチャット  |
 | 4    | Claude-3.7-sonnet  | 26.60 | ✨ 標準           |
 | 5    | DeepSeek-R1        | 21.74 | ✨ 標準           |
 | 6    | Qwen3              | 20.33 | ⚪ 基本           |
 | 7    | DeepSeek-V3        | 15.85 | ⚪ 基本           |
 
-#### 2. **a-Interact** の性能
-| ランク | モデル名          | 予算パラメータ* | 平均ステップ/タスク | 平均コスト(USD)/タスク | 正規化報酬 | レベル                 |
+#### 2. **a-Interact** 性能
+| 順位 | モデル名           | 予算パラメータ* | 平均ステップ数/タスク | 平均コスト(USD)/タスク | 正規化報酬値         | レベル                |
 |:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|
-| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 優秀なインタラクション |
-| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 良好なインタラクション  |
-| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 良好なインタラクション  |
-| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ 標準                   |
+| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 優れた対話性        |
+| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 良好な対話性        |
+| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 良好な対話性        |
+| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ 標準的               |
+| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ 標準的               |
+| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ 基本的               |
+| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ 基本的               |
 
-| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ 標準                  |
-| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ ベーシック            |
-| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ ベーシック            |
+> \* 予算パラメータ：開始予算/ユーザー忍耐予算は、仮想通貨 *bird-coin* <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;"> で測定します。詳細は [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) を参照してください。
 
-> \* 予算パラメータ：スタート予算/ユーザ忍耐予算は、仮想通貨 *bird-coin*s <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;"> で計測されます。[bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) を参照してください。
+### インタラクション時間スケーリング（ITS）
 
-### インタラクション時間スケーリング (ITS)
-
-インタラクション時間スケーリング（ITS）は、モデルが複数ターンの対話を通じて最終的な性能を継続的に向上できる能力を指します。この対話性能が、完全に特定され曖昧さのない理想的な単一ターン性能を超えた場合、**ITS則**を満たすと言います。ユーザの忍耐力が増し、対話ターンが蓄積されることで性能が向上し続け、モデルが長期的な対話でも効果的なコミュニケーションを維持できることを示します。現時点では、claude-3-7-sonnetのみがITS則を満たすことが確認されています。
+インタラクション時間スケーリング（ITS）は、モデルが複数ターンの対話を通じて、最終的なパフォーマンスを継続的に向上させる能力を指します。この対話型パフォーマンスが、完全に指定された曖昧さのないタスクでの理想的な単一ターンのパフォーマンスを上回った場合、**ITS法則**を満たしていると言えます。ユーザーの忍耐力が増し、対話ターンが蓄積されるにつれ、パフォーマンスは向上し続け、モデルが長期にわたる効果的なコミュニケーションを維持できることを示します。現時点では、claude-3-7-sonnet のみが ITS 法則を満たしています。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png" 
@@ -135,37 +139,37 @@ BIRD-INTERACTのフルバージョン `bird-interact-full` は、PostgreSQL用60
 
 ## 📦 データセット詳細
 
-### データセットの説明
+### データセット説明
 
-- **データベース:** 完全なPostgreSQLデータベースは[Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view)からダウンロード可能です。[Quick Eval](#quick-eval) セクションも参照してください。
-- **data:** 各データインスタンスは以下の主要部分を含みます:
+- **データベース:** 完全な PostgreSQL データベースは [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view) からダウンロードできます。詳細は [Quick Eval](#quick-eval) セクションをご覧ください。
+- **data:** 各データインスタンスは以下の主要な部分を含みます:
    - `selected_database`: データベース名  
-   - `query`: 明確なユーザクエリ  
-   - `amb_user_query`: 曖昧さを注入したユーザクエリ
-   - `user_query_ambiguity`: ユーザクエリに注入された曖昧さ
-   - `non_critical_ambiguity`: 順序やlimitなどの非重要な曖昧さ
-   - `knowledge_ambiguity`: 外部知識をマスクすることで生じる曖昧さ 
-   - `sol_sql`: 正解SQLソリューション  
+   - `query`: 曖昧さのないユーザークエリ  
+   - `amb_user_query`: 曖昧さを注入したユーザークエリ
+   - `user_query_ambiguity`: ユーザークエリに注入された曖昧さ
+   - `non_critical_ambiguity`: 順序や制限などの非クリティカルな曖昧さ
+   - `knowledge_ambiguity`: 外部知識のマスキングによって生じる曖昧さ 
+   - `sol_sql`: 正解のSQLソリューション  
    - `preprocess_sql`: ソリューションや予測を実行する前に実行するSQLクエリ  
-   - `clean_up_sql`: テストケース後にデータベースの変更を元に戻すためのSQLクエリ  
+   - `clean_up_sql`: データベースに加えた変更を元に戻すためにテストケース後に実行するSQLクエリ  
    - `test_cases`: 予測された修正SQLを検証するためのテストケースのセット
    - `follow_up`: ラベル付けされたフォローアップ質問
-   - `external_knowledge`: 特定タスクに関連する外部知識
+   - `external_knowledge`: 特定のタスクに関連する外部知識
 
-- **evaluation:** 評価コードは[`./evaluation`](./evaluation) ディレクトリにあります。
-- **作成:** BIRD Team & Google Cloud
+- **evaluation:** 評価コードは [`./evaluation`](./evaluation) ディレクトリにあります。
+- **Curated by:** BIRD Team & Google Cloud
 - **ライセンス:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
+- **HuggingFace データセットカード:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
 
-### データセットの用途
+### データセットの利用
 
-自動クロールによるデータ漏洩を避けるため、GTソリューションのSQLおよびテストケースはデータと一緒に含めていません。
-完全なセットが必要な場合は、タイトルに `[bird-interact-lite GT&Test Cases]` のタグを付けて [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) までメールしてください。自動で送信されます。
+自動クロールによるデータリークを防ぐため、GTソリューションSQLおよびテストケースはデータと一緒に含めていません。
+完全なセットが必要な場合は、タイトルに `[bird-interact-lite GT&Test Cases]` を含めて [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) までメールしてください。自動的に送信されます。
 
 
 <!-- ### HuggingFaceからデータセットを利用する
 
-以下のコマンドを使って、HuggingFaceからデータセットをダウンロードできます。
+以下のコマンドを使ってHuggingFaceからデータセットをダウンロードできます:
 ```bash
 from datasets import load_dataset
 # Load the flash version of the dataset
@@ -207,18 +211,20 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-**a-interact** の実行に関する詳細は `./bird_interact_agent/README.md` に、**c-interact** の詳細は `./bird_interact_conv/README.md` に記載されています。
+**a-interact** の実行方法の詳細は `./bird_interact_agent/README.md` に記載されています。また、**c-interact** の詳細は `./bird_interact_conv/README.md` に記載されています。
 
-## 📋 Todoリスト
+## 📋 Todo リスト
 
 - [x] ライト版、bird-interact-lite (270) をリリース。
 - [x] 会話版、bird-interact-conv をリリース。
 - [x] エージェント版、bird-interact-agent をリリース。
-- [x] フルバージョン、bird-interact-full (600) をリリース。
-- [ ] SFT / RL ユーザーシミュレーター
+- [x] フル版、bird-interact-full (600) をリリース。
+- [ ] SFT / RL によるユーザーシミュレータ
 
 ## 作成者:
-BIRD Team & Google Cloud
+BIRD チーム & Google Cloud
+
+
 
 
 
@@ -226,6 +232,6 @@ BIRD Team & Google Cloud
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-22
 
 ---

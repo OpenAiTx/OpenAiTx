@@ -13,12 +13,12 @@
   },
   {
     "Id": 2,
-    "Content": "<div style=\"display: flex; justify-content: center; align-items: center; gap: 10px;\">\n  <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">\n    <img src=\"https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg\" alt=\"License\">\n  </a>\n  <a href=\"https://bird-interact.github.io/\">\n    <img src=\"https://img.shields.io/badge/Leaderboard-2025-28a745.svg\" alt=\"Leaderboard\">\n  </a>\n  <a href=\"https://huggingface.co/datasets/birdsql/bird-interact-lite/tree/main\">\n    <img src=\"https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg\" alt=\"HuggingFace\">\n  </a>\n  <a href=\"https://www.python.org/downloads/release/python-310/\">\n    <img src=\"https://img.shields.io/badge/Python-3.10+-teal.svg\" alt=\"Python\">\n  </a>\n  <a href=\"https://pypi.org/project/openai/\">\n    <img src=\"https://img.shields.io/badge/OpenAI-1.40+-beige.svg\" alt=\"OpenAI\">\n  </a>\n</div>\n\n## 📰 News\n\n- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  \nIt's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  \n👉 For more details, please visit our [project website](https://bird-interact.github.io/).\n\n- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  \nIf you want early access, please send an email as instructed on the site for an **automatic download**.  \n\n- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  \nThe full **LiveSQLBench-Base** and **-Large** versions are coming soon!\n\n- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.\n\n## 🧸 Overview\n\nBIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.\nThe environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.\nIt offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.\nTypical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.\n\n<p align=\"center\">",
-    "ContentSha": "I4G0mZl79gduQvzqHWihqP6YKajV92T+KY/wY9R2VAs=",
+    "Content": "<div style=\"display: flex; justify-content: center; align-items: center; gap: 10px;\">\n  <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">\n    <img src=\"https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg\" alt=\"License\">\n  </a>\n  <a href=\"https://bird-interact.github.io/\">\n    <img src=\"https://img.shields.io/badge/Leaderboard-2025-28a745.svg\" alt=\"Leaderboard\">\n  </a>\n  <a href=\"https://huggingface.co/datasets/birdsql/bird-interact-lite/tree/main\">\n    <img src=\"https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg\" alt=\"HuggingFace\">\n  </a>\n  <a href=\"https://www.python.org/downloads/release/python-310/\">\n    <img src=\"https://img.shields.io/badge/Python-3.10+-teal.svg\" alt=\"Python\">\n  </a>\n  <a href=\"https://pypi.org/project/openai/\">\n    <img src=\"https://img.shields.io/badge/OpenAI-1.40+-beige.svg\" alt=\"OpenAI\">\n  </a>\n</div>\n\n## ⚠️ Announcement  \nPlease note that before your evaluation process, when Docker loads the databases, errors may occasionally occur due to environment inconsistency (these will not terminate the process but will appear in the Docker logs). As a result, some databases may fail to load properly, leading to empty databases. This will cause the evaluation results to be abnormally low.  \n👉 Therefore, we strongly recommend checking the Docker logs for any errors **before running the evaluation** and verifying that all databases have been successfully loaded.\n\n## 📰 News\n\n- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  \nIt's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  \n👉 For more details, please visit our [project website](https://bird-interact.github.io/).\n\n- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  \nIf you want early access, please send an email as instructed on the site for an **automatic download**.  \n\n- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  \nThe full **LiveSQLBench-Base** and **-Large** versions are coming soon!\n\n- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.\n\n## 🧸 Overview\n\nBIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.\nThe environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
+    "ContentSha": "Y9ZIm2dz4TmnjtWEgQQozaw9fCk53XGnabXlbnZfOoM=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div style=\"display: flex; justify-content: center; align-items: center; gap: 10px;\">\n  <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">\n    <img src=\"https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg\" alt=\"License\">\n  </a>\n  <a href=\"https://bird-interact.github.io/\">\n    <img src=\"https://img.shields.io/badge/Leaderboard-2025-28a745.svg\" alt=\"Leaderboard\">\n  </a>\n  <a href=\"https://huggingface.co/datasets/birdsql/bird-interact-lite/tree/main\">\n    <img src=\"https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg\" alt=\"HuggingFace\">\n  </a>\n  <a href=\"https://www.python.org/downloads/release/python-310/\">\n    <img src=\"https://img.shields.io/badge/Python-3.10+-teal.svg\" alt=\"Python\">\n  </a>\n  <a href=\"https://pypi.org/project/openai/\">\n    <img src=\"https://img.shields.io/badge/OpenAI-1.40+-beige.svg\" alt=\"OpenAI\">\n  </a>\n</div>\n\n## 📰 ข่าวสาร\n\n- [2025-08-26] 🚀 เรารู้สึกตื่นเต้นที่จะประกาศเปิดตัวชุด **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  \nเป็นชุดที่ท้าทาย — LLMs ที่ดีที่สุดสามารถทำสำเร็จได้เพียง **16.33%** โดยมีเพียง **10.0%** สำหรับส่วน `c-interact` และ `a-interact`  \n👉 ดูรายละเอียดเพิ่มเติมได้ที่ [เว็บไซต์โครงการ](https://bird-interact.github.io/)\n\n- [2025-08-26] 📬 เราจะส่ง **Ground Truth & Test cases** ให้กับรายชื่ออีเมลของเราภายในสัปดาห์นี้  \nหากต้องการเข้าถึงก่อนใคร กรุณาส่งอีเมลตามคำแนะนำในเว็บไซต์เพื่อรับ **ดาวน์โหลดอัตโนมัติ**  \n\n- [2025-08-26] 💾 อีกหนึ่งข่าว เราได้ปล่อยเวอร์ชัน SQLite ของ **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** เพื่อการวิจัยในเครื่องที่ง่ายขึ้น  \nเวอร์ชันเต็ม **LiveSQLBench-Base** และ **-Large** กำลังจะมาเร็วๆ นี้!\n\n- [2025-08-22] **แก้ไขบั๊ก**: ในโค้ด Bird-Interact-Agent เราได้แก้ไขบั๊กที่เมื่อประเมิน phase-2 SQL แล้ว phase-1 SQL ที่ถูกจัดเก็บไม่สามารถรันได้สำเร็จ ส่งผลให้อัตราความสำเร็จของ Phase-2 ต่ำลง บั๊กนี้ส่งผลเฉพาะกรณีที่ phase1 sql มีการดำเนินการบางอย่างกับฐานข้อมูล เช่น CREATE table เป็นต้น\n\n## 🧸 ภาพรวม\n\nBIRD-INTERACT เป็น benchmark แปลงข้อความเป็น SQL แบบอินเทอร์แอคทีฟ ที่ **ออกแบบใหม่การประเมิน Text-to-SQL ผ่านมุมมองของการโต้ตอบแบบไดนามิก**  \nสภาพแวดล้อมผสมผสานฐานความรู้แบบลำดับชั้น เอกสารฐานข้อมูล และผู้ใช้จำลองที่ขับเคลื่อนด้วยฟังก์ชัน เพื่อสร้างสถานการณ์องค์กรที่แท้จริง ครอบคลุมการดำเนินการ **CRUD** ทั้งหมด  \nมีโหมดทดสอบที่เข้มงวดสองรูปแบบ: (1) โต้ตอบแบบ **สนทนา** (Passive) และ (2) โต้ตอบแบบ **Agentic** (Active) ครอบคลุม 600 งานที่มีการใส่คำอธิบาย ประกอบด้วย BI, CRUD และอื่นๆ แต่ละงานมี test cases ที่สามารถรันได้  \nการประเมินโดยทั่วไปจะมี 1,968-5,496 รอบการโต้ตอบระหว่างโมเดลกับผู้ใช้จำลอง ขณะที่โมเดล reasoning ที่ทันสมัยสามารถแก้ไขได้เพียง **≈24%** และ **≈18%** ของงานทั้งหมด สะท้อนถึงความท้าทายของ benchmark นี้\n\n<p align=\"center\">",
+    "Translation": "<div style=\"display: flex; justify-content: center; align-items: center; gap: 10px;\">\n  <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">\n    <img src=\"https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg\" alt=\"License\">\n  </a>\n  <a href=\"https://bird-interact.github.io/\">\n    <img src=\"https://img.shields.io/badge/Leaderboard-2025-28a745.svg\" alt=\"Leaderboard\">\n  </a>\n  <a href=\"https://huggingface.co/datasets/birdsql/bird-interact-lite/tree/main\">\n    <img src=\"https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg\" alt=\"HuggingFace\">\n  </a>\n  <a href=\"https://www.python.org/downloads/release/python-310/\">\n    <img src=\"https://img.shields.io/badge/Python-3.10+-teal.svg\" alt=\"Python\">\n  </a>\n  <a href=\"https://pypi.org/project/openai/\">\n    <img src=\"https://img.shields.io/badge/OpenAI-1.40+-beige.svg\" alt=\"OpenAI\">\n  </a>\n</div>\n\n## ⚠️ ประกาศ  \nโปรดทราบว่าก่อนกระบวนการประเมินผลของคุณ เมื่อ Docker กำลังโหลดฐานข้อมูล อาจเกิดข้อผิดพลาดเป็นครั้งคราวเนื่องจากความไม่สอดคล้องของสภาพแวดล้อม (ข้อผิดพลาดเหล่านี้จะไม่หยุดกระบวนการแต่จะปรากฏในบันทึกของ Docker) ผลที่ตามมาคือบางฐานข้อมูลอาจโหลดไม่สำเร็จ ทำให้ฐานข้อมูลว่างเปล่า ซึ่งจะส่งผลให้ผลการประเมินต่ำผิดปกติ  \n👉 ดังนั้นเราขอแนะนำให้ตรวจสอบบันทึก Docker สำหรับข้อผิดพลาด **ก่อนดำเนินการประเมิน** และตรวจสอบให้แน่ใจว่าฐานข้อมูลทั้งหมดถูกโหลดสำเร็จ\n\n## 📰 ข่าวสาร\n\n- [2025-08-26] 🚀 เราตื่นเต้นที่จะประกาศเปิดตัวชุด **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  \nเป็นชุดที่ท้าทาย — LLM ที่ดีที่สุดสามารถทำสำเร็จได้เพียง **16.33%** โดยมีแค่ **10.0%** ในส่วน `c-interact` และ `a-interact`  \n👉 สำหรับรายละเอียดเพิ่มเติม โปรดเยี่ยมชม [เว็บไซต์โครงการ](https://bird-interact.github.io/) ของเรา\n\n- [2025-08-26] 📬 เราจะส่ง **Ground Truth & Test cases** ให้กับรายชื่อผู้รับเมลของเราภายในสัปดาห์นี้  \nหากต้องการเข้าถึงก่อน กรุณาส่งอีเมลตามคำแนะนำบนเว็บไซต์เพื่อรับ **ดาวน์โหลดอัตโนมัติ**  \n\n- [2025-08-26] 💾 นอกจากนี้ เรายังเปิดตัวเวอร์ชัน SQLite ของ **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** เพื่อความสะดวกในการวิจัยในเครื่อง  \nเวอร์ชันเต็มของ **LiveSQLBench-Base** และ **-Large** กำลังจะมาเร็วๆ นี้!\n\n- [2025-08-22] **แก้ไขบั๊ก**: ในโค้ด Bird-Interact-Agent เราได้แก้ไขบั๊กที่เมื่อประเมิน phase-2 SQL แล้ว ไม่สามารถรัน phase-1 SQL ที่เก็บไว้ได้สำเร็จ ส่งผลให้อัตราความสำเร็จของ Phase-2 ลดลง บั๊กนี้จะเกิดกับงานที่ phase1 sql มีการดำเนินการกับฐานข้อมูล เช่น CREATE table เป็นต้น\n\n## 🧸 ภาพรวม\n\nBIRD-INTERACT เป็นชุดวัดผล text-to-SQL แบบโต้ตอบ ที่ **ออกแบบใหม่การประเมิน Text-to-SQL ผ่านมุมมองการปฏิสัมพันธ์แบบไดนามิก**\nสภาพแวดล้อมนี้ผสมผสานฐานความรู้แบบลำดับชั้น เอกสารประกอบฐานข้อมูล และซิมูเลเตอร์ผู้ใช้ที่ขับเคลื่อนด้วยฟังก์ชัน เพื่อจำลองสภาพแวดล้อมองค์กรที่แท้จริง พร้อมรองรับการดำเนินการ **CRUD** อย่างครบถ้วน",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -131,33 +131,33 @@
       },
       {
         "row": 19,
-        "rowsha": "0YeCyxpcm7/4RDbaM+OQoI8YfqEHQzDkpGW15VZdi1U=",
-        "originContent": "## 📰 News",
-        "translatedContent": "## 📰 ข่าวสาร"
+        "rowsha": "+YQH+z6An1Oo7rNCKWEuazzpeBkF9dUlafrLqOGbRj0=",
+        "originContent": "## ⚠️ Announcement  ",
+        "translatedContent": "## ⚠️ ประกาศ  "
       },
       {
         "row": 20,
+        "rowsha": "qR/iuiQWsQ7j83o7cAhbO3yM99qEPz8jw9z3H616J9o=",
+        "originContent": "Please note that before your evaluation process, when Docker loads the databases, errors may occasionally occur due to environment inconsistency (these will not terminate the process but will appear in the Docker logs). As a result, some databases may fail to load properly, leading to empty databases. This will cause the evaluation results to be abnormally low.  ",
+        "translatedContent": "โปรดทราบว่าก่อนกระบวนการประเมินผลของคุณ เมื่อ Docker กำลังโหลดฐานข้อมูล อาจเกิดข้อผิดพลาดเป็นครั้งคราวเนื่องจากความไม่สอดคล้องของสภาพแวดล้อม (ข้อผิดพลาดเหล่านี้จะไม่หยุดกระบวนการแต่จะปรากฏในบันทึกของ Docker) ผลที่ตามมาคือบางฐานข้อมูลอาจโหลดไม่สำเร็จ ทำให้ฐานข้อมูลว่างเปล่า ซึ่งจะส่งผลให้ผลการประเมินต่ำผิดปกติ  "
+      },
+      {
+        "row": 21,
+        "rowsha": "j3WE+j5u8Ng3SBgrMG35Bm6kDWNOXEnVhxpRhR2BM9w=",
+        "originContent": "👉 Therefore, we strongly recommend checking the Docker logs for any errors **before running the evaluation** and verifying that all databases have been successfully loaded.",
+        "translatedContent": "👉 ดังนั้นเราขอแนะนำให้ตรวจสอบบันทึก Docker สำหรับข้อผิดพลาด **ก่อนดำเนินการประเมิน** และตรวจสอบให้แน่ใจว่าฐานข้อมูลทั้งหมดถูกโหลดสำเร็จ"
+      },
+      {
+        "row": 22,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 21,
-        "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
-        "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
-        "translatedContent": "- [2025-08-26] 🚀 เรารู้สึกตื่นเต้นที่จะประกาศเปิดตัวชุด **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  "
-      },
-      {
-        "row": 22,
-        "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
-        "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
-        "translatedContent": "เป็นชุดที่ท้าทาย — LLMs ที่ดีที่สุดสามารถทำสำเร็จได้เพียง **16.33%** โดยมีเพียง **10.0%** สำหรับส่วน `c-interact` และ `a-interact`  "
-      },
-      {
         "row": 23,
-        "rowsha": "uTh0Lj92DZu8zFDeupB/DHZqDkNrQJVNtDYmELxeRQg=",
-        "originContent": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).",
-        "translatedContent": "👉 ดูรายละเอียดเพิ่มเติมได้ที่ [เว็บไซต์โครงการ](https://bird-interact.github.io/)"
+        "rowsha": "0YeCyxpcm7/4RDbaM+OQoI8YfqEHQzDkpGW15VZdi1U=",
+        "originContent": "## 📰 News",
+        "translatedContent": "## 📰 ข่าวสาร"
       },
       {
         "row": 24,
@@ -167,57 +167,57 @@
       },
       {
         "row": 25,
-        "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
-        "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
-        "translatedContent": "- [2025-08-26] 📬 เราจะส่ง **Ground Truth & Test cases** ให้กับรายชื่ออีเมลของเราภายในสัปดาห์นี้  "
+        "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
+        "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
+        "translatedContent": "- [2025-08-26] 🚀 เราตื่นเต้นที่จะประกาศเปิดตัวชุด **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  "
       },
       {
         "row": 26,
-        "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
-        "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
-        "translatedContent": "หากต้องการเข้าถึงก่อนใคร กรุณาส่งอีเมลตามคำแนะนำในเว็บไซต์เพื่อรับ **ดาวน์โหลดอัตโนมัติ**  "
+        "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
+        "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
+        "translatedContent": "เป็นชุดที่ท้าทาย — LLM ที่ดีที่สุดสามารถทำสำเร็จได้เพียง **16.33%** โดยมีแค่ **10.0%** ในส่วน `c-interact` และ `a-interact`  "
       },
       {
         "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "uTh0Lj92DZu8zFDeupB/DHZqDkNrQJVNtDYmELxeRQg=",
+        "originContent": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).",
+        "translatedContent": "👉 สำหรับรายละเอียดเพิ่มเติม โปรดเยี่ยมชม [เว็บไซต์โครงการ](https://bird-interact.github.io/) ของเรา"
       },
       {
         "row": 28,
-        "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
-        "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
-        "translatedContent": "- [2025-08-26] 💾 อีกหนึ่งข่าว เราได้ปล่อยเวอร์ชัน SQLite ของ **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** เพื่อการวิจัยในเครื่องที่ง่ายขึ้น  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 29,
-        "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
-        "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
-        "translatedContent": "เวอร์ชันเต็ม **LiveSQLBench-Base** และ **-Large** กำลังจะมาเร็วๆ นี้!"
+        "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
+        "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
+        "translatedContent": "- [2025-08-26] 📬 เราจะส่ง **Ground Truth & Test cases** ให้กับรายชื่อผู้รับเมลของเราภายในสัปดาห์นี้  "
       },
       {
         "row": 30,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
+        "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
+        "translatedContent": "หากต้องการเข้าถึงก่อน กรุณาส่งอีเมลตามคำแนะนำบนเว็บไซต์เพื่อรับ **ดาวน์โหลดอัตโนมัติ**  "
       },
       {
         "row": 31,
-        "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
-        "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
-        "translatedContent": "- [2025-08-22] **แก้ไขบั๊ก**: ในโค้ด Bird-Interact-Agent เราได้แก้ไขบั๊กที่เมื่อประเมิน phase-2 SQL แล้ว phase-1 SQL ที่ถูกจัดเก็บไม่สามารถรันได้สำเร็จ ส่งผลให้อัตราความสำเร็จของ Phase-2 ต่ำลง บั๊กนี้ส่งผลเฉพาะกรณีที่ phase1 sql มีการดำเนินการบางอย่างกับฐานข้อมูล เช่น CREATE table เป็นต้น"
-      },
-      {
-        "row": 32,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 32,
+        "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
+        "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
+        "translatedContent": "- [2025-08-26] 💾 นอกจากนี้ เรายังเปิดตัวเวอร์ชัน SQLite ของ **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** เพื่อความสะดวกในการวิจัยในเครื่อง  "
+      },
+      {
         "row": 33,
-        "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
-        "originContent": "## 🧸 Overview",
-        "translatedContent": "## 🧸 ภาพรวม"
+        "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
+        "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
+        "translatedContent": "เวอร์ชันเต็มของ **LiveSQLBench-Base** และ **-Large** กำลังจะมาเร็วๆ นี้!"
       },
       {
         "row": 34,
@@ -227,94 +227,94 @@
       },
       {
         "row": 35,
-        "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
-        "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
-        "translatedContent": "BIRD-INTERACT เป็น benchmark แปลงข้อความเป็น SQL แบบอินเทอร์แอคทีฟ ที่ **ออกแบบใหม่การประเมิน Text-to-SQL ผ่านมุมมองของการโต้ตอบแบบไดนามิก**  "
+        "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
+        "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
+        "translatedContent": "- [2025-08-22] **แก้ไขบั๊ก**: ในโค้ด Bird-Interact-Agent เราได้แก้ไขบั๊กที่เมื่อประเมิน phase-2 SQL แล้ว ไม่สามารถรัน phase-1 SQL ที่เก็บไว้ได้สำเร็จ ส่งผลให้อัตราความสำเร็จของ Phase-2 ลดลง บั๊กนี้จะเกิดกับงานที่ phase1 sql มีการดำเนินการกับฐานข้อมูล เช่น CREATE table เป็นต้น"
       },
       {
         "row": 36,
-        "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
-        "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
-        "translatedContent": "สภาพแวดล้อมผสมผสานฐานความรู้แบบลำดับชั้น เอกสารฐานข้อมูล และผู้ใช้จำลองที่ขับเคลื่อนด้วยฟังก์ชัน เพื่อสร้างสถานการณ์องค์กรที่แท้จริง ครอบคลุมการดำเนินการ **CRUD** ทั้งหมด  "
-      },
-      {
-        "row": 37,
-        "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
-        "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
-        "translatedContent": "มีโหมดทดสอบที่เข้มงวดสองรูปแบบ: (1) โต้ตอบแบบ **สนทนา** (Passive) และ (2) โต้ตอบแบบ **Agentic** (Active) ครอบคลุม 600 งานที่มีการใส่คำอธิบาย ประกอบด้วย BI, CRUD และอื่นๆ แต่ละงานมี test cases ที่สามารถรันได้  "
-      },
-      {
-        "row": 38,
-        "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
-        "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
-        "translatedContent": "การประเมินโดยทั่วไปจะมี 1,968-5,496 รอบการโต้ตอบระหว่างโมเดลกับผู้ใช้จำลอง ขณะที่โมเดล reasoning ที่ทันสมัยสามารถแก้ไขได้เพียง **≈24%** และ **≈18%** ของงานทั้งหมด สะท้อนถึงความท้าทายของ benchmark นี้"
-      },
-      {
-        "row": 39,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 37,
+        "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
+        "originContent": "## 🧸 Overview",
+        "translatedContent": "## 🧸 ภาพรวม"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
+        "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
+        "translatedContent": "BIRD-INTERACT เป็นชุดวัดผล text-to-SQL แบบโต้ตอบ ที่ **ออกแบบใหม่การประเมิน Text-to-SQL ผ่านมุมมองการปฏิสัมพันธ์แบบไดนามิก**"
+      },
+      {
         "row": 40,
-        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-        "originContent": "<p align=\"center\">",
-        "translatedContent": "<p align=\"center\">"
+        "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
+        "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
+        "translatedContent": "สภาพแวดล้อมนี้ผสมผสานฐานความรู้แบบลำดับชั้น เอกสารประกอบฐานข้อมูล และซิมูเลเตอร์ผู้ใช้ที่ขับเคลื่อนด้วยฟังก์ชัน เพื่อจำลองสภาพแวดล้อมองค์กรที่แท้จริง พร้อมรองรับการดำเนินการ **CRUD** อย่างครบถ้วน"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 3,
-    "Content": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n### ✅ Two Evaluation Modes\n\nBIRD-INTERACT supports two evaluation modes as mentioned above:\n\n   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.\n   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.\n\n\n### 🐣 Lite Version\n\nWe are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. \n\n### 🦜 Full Version\n\nThe full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.\n\n### Model Performance Results on BIRD-INTERACT Lite\n\n#### 1. **c-Interact** Performance\n| Rank | Model Name         | Normalized Reward | Level        |\n|:------:|--------------------|:-------:|:--------------:|\n| 1    | o3-mini            | 33.04 | 🏆 Excellent Chat |\n| 2    | GPT-4o             | 30.33 | 💎 Good Chat      |\n| 3    | Gemini-2.0-flash   | 27.41 | 💎 Good Chat      |\n| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Standard       |\n| 5    | DeepSeek-R1        | 21.74 | ✨ Standard       |\n| 6    | Qwen3              | 20.33 | ⚪ Basic          |\n| 7    | DeepSeek-V3        | 15.85 | ⚪ Basic          |\n\n#### 2. **a-Interact** Performance\n| Rank | Model Name         | Budget Parameters* | Avg Steps/Task | Avg Cost (USD)/Task | Normalized Reward | Level            |\n|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|\n| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Excellent Interaction |\n| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 Good Interaction      |\n| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 Good Interaction      |\n| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ Standard              |",
-    "ContentSha": "ocXW/xEzdA6y39ota0j8776Kw83Kn0Gg6j683ISjkLI=",
+    "Content": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.\nTypical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n### ✅ Two Evaluation Modes\n\nBIRD-INTERACT supports two evaluation modes as mentioned above:\n\n   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.\n   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.\n\n\n### 🐣 Lite Version\n\nWe are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. \n\n### 🦜 Full Version\n\nThe full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.\n\n### Model Performance Results on BIRD-INTERACT Lite\n\n#### 1. **c-Interact** Performance\n| Rank | Model Name         | Normalized Reward | Level        |\n|:------:|--------------------|:-------:|:--------------:|\n| 1    | o3-mini            | 33.04 | 🏆 Excellent Chat |\n| 2    | GPT-4o             | 30.33 | 💎 Good Chat      |\n| 3    | Gemini-2.0-flash   | 27.41 | 💎 Good Chat      |\n| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Standard       |\n| 5    | DeepSeek-R1        | 21.74 | ✨ Standard       |\n| 6    | Qwen3              | 20.33 | ⚪ Basic          |\n| 7    | DeepSeek-V3        | 15.85 | ⚪ Basic          |\n\n#### 2. **a-Interact** Performance\n| Rank | Model Name         | Budget Parameters* | Avg Steps/Task | Avg Cost (USD)/Task | Normalized Reward | Level            |\n|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|",
+    "ContentSha": "+86k3khfBPCkbTMQPnNyu0PqXkFwqSa5zKSwapuqDdk=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n### ✅ โหมดการประเมินสองแบบ\n\nBIRD-INTERACT รองรับโหมดการประเมินสองแบบดังที่กล่าวไว้ข้างต้น:\n\n   - **c-Interact**: ปฏิสัมพันธ์เชิงสนทนา ซึ่งเป็นโหมดแบบพาสซีฟและมีขั้นตอนการทำงานที่ตายตัว สามารถดูโค้ดและข้อมูลรายละเอียดได้ใน `bird_interact_conv`\n   - **a-Interact**: ปฏิสัมพันธ์เชิงเอเจนต์ ซึ่งเป็นโหมดแบบแอคทีฟที่ฝังตัวโดยมีขั้นตอนการทำงานที่เปลี่ยนแปลงและนำโดยโมเดล สามารถดูโค้ดและข้อมูลรายละเอียดได้ใน `bird_interact_agent`\n\n\n### 🐣 เวอร์ชัน Lite\n\nเราได้เปิดตัวเวอร์ชัน Lite ของ BIRD-INTERACT, `bird-interact-lite-exp` ซึ่งประกอบด้วยงานจริงคุณภาพสูงจำนวน 270 งานสำหรับ PostgreSQL โดยเฉพาะ เหมาะสำหรับการทดลองใช้อย่างรวดเร็ว\n\n### 🦜 เวอร์ชันเต็ม\n\nเวอร์ชันเต็มของ BIRD-INTERACT, `bird-interact-full` เป็นชุดเบนช์มาร์กแบบครบถ้วนซึ่งประกอบด้วยงาน 600 งานสำหรับ PostgreSQL ครอบคลุมการดำเนินการ SQL และคำถามของผู้ใช้หลากหลายรูปแบบ โดยเวอร์ชันเต็มจะเปิดตัวเร็วๆ นี้\n\n### ผลการทำงานของโมเดลบน BIRD-INTERACT Lite\n\n#### 1. ประสิทธิภาพ **c-Interact**\n| อันดับ | ชื่อโมเดล        | รางวัลปรับมาตรฐาน | ระดับ        |\n|:------:|--------------------|:-------:|:--------------:|\n| 1    | o3-mini            | 33.04 | 🏆 สนทนายอดเยี่ยม |\n| 2    | GPT-4o             | 30.33 | 💎 สนทนาดีมาก     |\n| 3    | Gemini-2.0-flash   | 27.41 | 💎 สนทนาดีมาก     |\n| 4    | Claude-3.7-sonnet  | 26.60 | ✨ มาตรฐาน        |\n| 5    | DeepSeek-R1        | 21.74 | ✨ มาตรฐาน        |\n| 6    | Qwen3              | 20.33 | ⚪ พื้นฐาน         |\n| 7    | DeepSeek-V3        | 15.85 | ⚪ พื้นฐาน         |\n\n#### 2. ประสิทธิภาพ **a-Interact**\n| อันดับ | ชื่อโมเดล        | พารามิเตอร์งบประมาณ* | จำนวนขั้นตอนเฉลี่ย/งาน | ค่าใช้จ่ายเฉลี่ย (USD)/งาน | รางวัลปรับมาตรฐาน | ระดับ              |\n|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|\n| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 ปฏิสัมพันธ์ยอดเยี่ยม |\n| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 ปฏิสัมพันธ์ดีมาก     |\n| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 ปฏิสัมพันธ์ดีมาก     |\n| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ มาตรฐาน              |",
+    "Translation": "มันมีโหมดทดสอบที่เข้มงวดสองแบบ: (1) **Conversational Interaction** แบบรับ และ (2) **Agentic Interaction** แบบรุก ครอบคลุม 600 งานที่มีการใส่หมายเหตุ เช่น Business Intelligence (BI), การดำเนินการ CRUD ฯลฯ โดยแต่ละงานมีกรณีทดสอบที่สามารถรันได้คอยป้องกัน\nการประเมินผลทั่วไปจะเกิดการโต้ตอบระหว่างโมเดลกับตัวจำลองผู้ใช้ 1,968-5,496 ครั้ง ในขณะที่โมเดลการให้เหตุผลระดับสูงสุดในปัจจุบันแก้ไขงานได้เพียง **≈24%** และ **≈18%** เท่านั้น ซึ่งเน้นให้เห็นถึงความท้าทายของเบนช์มาร์กนี้\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n### ✅ โหมดการประเมินผลสองแบบ\n\nBIRD-INTERACT รองรับโหมดการประเมินผลสองแบบดังที่กล่าวข้างต้น:\n\n   - **c-Interact**: Conversational Interaction ซึ่งเป็นโหมดรับ การทำงานถูกกำหนดไว้แล้ว สามารถดูโค้ดและข้อมูลรายละเอียดได้ใน `bird_interact_conv`\n   - **a-Interact**: Agentic Interaction ซึ่งเป็นโหมดรุกแบบมีตัวตน โดยขั้นตอนการทำงานมีความไดนามิกและนำโดยโมเดล ดูโค้ดและข้อมูลรายละเอียดได้ใน `bird_interact_agent`\n\n\n### 🐣 เวอร์ชัน Lite\n\nเรากำลังปล่อยเวอร์ชัน Lite ของ BIRD-INTERACT คือ `bird-interact-lite-exp` ซึ่งมี 270 งานจริงคุณภาพสูงสำหรับ PostgreSQL เป็นจุดเริ่มต้นที่ดีสำหรับการทดลองอย่างรวดเร็ว\n\n### 🦜 เวอร์ชันเต็ม\n\nเวอร์ชันเต็มของ BIRD-INTERACT `bird-interact-full` เป็นเบนช์มาร์กที่ครอบคลุม โดยมี 600 งานสำหรับ PostgreSQL ครอบคลุมการดำเนินการ SQL และคำถามของผู้ใช้หลากหลายประเภท เวอร์ชันเต็มจะปล่อยเร็วๆ นี้\n\n### ผลการทดสอบประสิทธิภาพของโมเดลบน BIRD-INTERACT Lite\n\n#### 1. ประสิทธิภาพ **c-Interact**\n| ลำดับ | ชื่อโมเดล            | รางวัลปกติ | ระดับ        |\n|:------:|--------------------|:-------:|:--------------:|\n| 1    | o3-mini            | 33.04   | 🏆 แชทยอดเยี่ยม  |\n| 2    | GPT-4o             | 30.33   | 💎 แชทดี         |\n| 3    | Gemini-2.0-flash   | 27.41   | 💎 แชทดี         |\n| 4    | Claude-3.7-sonnet  | 26.60   | ✨ มาตรฐาน       |\n| 5    | DeepSeek-R1        | 21.74   | ✨ มาตรฐาน       |\n| 6    | Qwen3              | 20.33   | ⚪ ขั้นพื้นฐาน    |\n| 7    | DeepSeek-V3        | 15.85   | ⚪ ขั้นพื้นฐาน    |\n\n#### 2. ประสิทธิภาพ **a-Interact**\n| ลำดับ | ชื่อโมเดล            | พารามิเตอร์งบประมาณ* | ขั้นตอนเฉลี่ย/งาน | ค่าใช้จ่ายเฉลี่ย (USD)/งาน | รางวัลปกติ | ระดับ            |\n|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
+        "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
+        "translatedContent": "มันมีโหมดทดสอบที่เข้มงวดสองแบบ: (1) **Conversational Interaction** แบบรับ และ (2) **Agentic Interaction** แบบรุก ครอบคลุม 600 งานที่มีการใส่หมายเหตุ เช่น Business Intelligence (BI), การดำเนินการ CRUD ฯลฯ โดยแต่ละงานมีกรณีทดสอบที่สามารถรันได้คอยป้องกัน"
+      },
+      {
+        "row": 2,
+        "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
+        "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
+        "translatedContent": "การประเมินผลทั่วไปจะเกิดการโต้ตอบระหว่างโมเดลกับตัวจำลองผู้ใช้ 1,968-5,496 ครั้ง ในขณะที่โมเดลการให้เหตุผลระดับสูงสุดในปัจจุบันแก้ไขงานได้เพียง **≈24%** และ **≈18%** เท่านั้น ซึ่งเน้นให้เห็นถึงความท้าทายของเบนช์มาร์กนี้"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 5,
         "rowsha": "75rx/bZj6j98j3RNS6gpBC2JCE4XvCP27x7SUM1Pp/k=",
         "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" ",
         "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" "
       },
       {
-        "row": 2,
+        "row": 6,
         "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
         "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
         "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
       },
       {
-        "row": 3,
+        "row": 7,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
         "translatedContent": "</p>"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
-        "originContent": "### ✅ Two Evaluation Modes",
-        "translatedContent": "### ✅ โหมดการประเมินสองแบบ"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
-        "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
-        "translatedContent": "BIRD-INTERACT รองรับโหมดการประเมินสองแบบดังที่กล่าวไว้ข้างต้น:"
       },
       {
         "row": 8,
@@ -324,21 +324,21 @@
       },
       {
         "row": 9,
-        "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
-        "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
-        "translatedContent": "   - **c-Interact**: ปฏิสัมพันธ์เชิงสนทนา ซึ่งเป็นโหมดแบบพาสซีฟและมีขั้นตอนการทำงานที่ตายตัว สามารถดูโค้ดและข้อมูลรายละเอียดได้ใน `bird_interact_conv`"
+        "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
+        "originContent": "### ✅ Two Evaluation Modes",
+        "translatedContent": "### ✅ โหมดการประเมินผลสองแบบ"
       },
       {
         "row": 10,
-        "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
-        "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
-        "translatedContent": "   - **a-Interact**: ปฏิสัมพันธ์เชิงเอเจนต์ ซึ่งเป็นโหมดแบบแอคทีฟที่ฝังตัวโดยมีขั้นตอนการทำงานที่เปลี่ยนแปลงและนำโดยโมเดล สามารถดูโค้ดและข้อมูลรายละเอียดได้ใน `bird_interact_agent`"
-      },
-      {
-        "row": 11,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
+        "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
+        "translatedContent": "BIRD-INTERACT รองรับโหมดการประเมินผลสองแบบดังที่กล่าวข้างต้น:"
       },
       {
         "row": 12,
@@ -348,21 +348,21 @@
       },
       {
         "row": 13,
-        "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
-        "originContent": "### 🐣 Lite Version",
-        "translatedContent": "### 🐣 เวอร์ชัน Lite"
+        "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
+        "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
+        "translatedContent": "   - **c-Interact**: Conversational Interaction ซึ่งเป็นโหมดรับ การทำงานถูกกำหนดไว้แล้ว สามารถดูโค้ดและข้อมูลรายละเอียดได้ใน `bird_interact_conv`"
       },
       {
         "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
+        "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
+        "translatedContent": "   - **a-Interact**: Agentic Interaction ซึ่งเป็นโหมดรุกแบบมีตัวตน โดยขั้นตอนการทำงานมีความไดนามิกและนำโดยโมเดล ดูโค้ดและข้อมูลรายละเอียดได้ใน `bird_interact_agent`"
       },
       {
         "row": 15,
-        "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
-        "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
-        "translatedContent": "เราได้เปิดตัวเวอร์ชัน Lite ของ BIRD-INTERACT, `bird-interact-lite-exp` ซึ่งประกอบด้วยงานจริงคุณภาพสูงจำนวน 270 งานสำหรับ PostgreSQL โดยเฉพาะ เหมาะสำหรับการทดลองใช้อย่างรวดเร็ว"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 16,
@@ -372,9 +372,9 @@
       },
       {
         "row": 17,
-        "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
-        "originContent": "### 🦜 Full Version",
-        "translatedContent": "### 🦜 เวอร์ชันเต็ม"
+        "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
+        "originContent": "### 🐣 Lite Version",
+        "translatedContent": "### 🐣 เวอร์ชัน Lite"
       },
       {
         "row": 18,
@@ -384,9 +384,9 @@
       },
       {
         "row": 19,
-        "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
-        "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
-        "translatedContent": "เวอร์ชันเต็มของ BIRD-INTERACT, `bird-interact-full` เป็นชุดเบนช์มาร์กแบบครบถ้วนซึ่งประกอบด้วยงาน 600 งานสำหรับ PostgreSQL ครอบคลุมการดำเนินการ SQL และคำถามของผู้ใช้หลากหลายรูปแบบ โดยเวอร์ชันเต็มจะเปิดตัวเร็วๆ นี้"
+        "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
+        "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
+        "translatedContent": "เรากำลังปล่อยเวอร์ชัน Lite ของ BIRD-INTERACT คือ `bird-interact-lite-exp` ซึ่งมี 270 งานจริงคุณภาพสูงสำหรับ PostgreSQL เป็นจุดเริ่มต้นที่ดีสำหรับการทดลองอย่างรวดเร็ว"
       },
       {
         "row": 20,
@@ -396,9 +396,9 @@
       },
       {
         "row": 21,
-        "rowsha": "KjrzNuwD4TPEmYvySM+ctLWl+Q5ZkaXVtsN+GtTReto=",
-        "originContent": "### Model Performance Results on BIRD-INTERACT Lite",
-        "translatedContent": "### ผลการทำงานของโมเดลบน BIRD-INTERACT Lite"
+        "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
+        "originContent": "### 🦜 Full Version",
+        "translatedContent": "### 🦜 เวอร์ชันเต็ม"
       },
       {
         "row": 22,
@@ -408,166 +408,166 @@
       },
       {
         "row": 23,
-        "rowsha": "iOxQRHuEgwShsnHL01Vwg9xhz8xYvf0L53GOe6FdyIE=",
-        "originContent": "#### 1. **c-Interact** Performance",
-        "translatedContent": "#### 1. ประสิทธิภาพ **c-Interact**"
+        "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
+        "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
+        "translatedContent": "เวอร์ชันเต็มของ BIRD-INTERACT `bird-interact-full` เป็นเบนช์มาร์กที่ครอบคลุม โดยมี 600 งานสำหรับ PostgreSQL ครอบคลุมการดำเนินการ SQL และคำถามของผู้ใช้หลากหลายประเภท เวอร์ชันเต็มจะปล่อยเร็วๆ นี้"
       },
       {
         "row": 24,
-        "rowsha": "j5ipGeIiO/Ow8BanoW9+iPlyzHgKoAmggn3Wj1ixyPA=",
-        "originContent": "| Rank | Model Name         | Normalized Reward | Level        |",
-        "translatedContent": "| อันดับ | ชื่อโมเดล        | รางวัลปรับมาตรฐาน | ระดับ        |"
-      },
-      {
-        "row": 25,
-        "rowsha": "TdCWOOIFJcB4b+Qo0Itf7ltUuxPh2hMsEycINC5YnNc=",
-        "originContent": "|:------:|--------------------|:-------:|:--------------:|",
-        "translatedContent": "|:------:|--------------------|:-------:|:--------------:|"
-      },
-      {
-        "row": 26,
-        "rowsha": "+ZpucKQxeOg3XebYi3v6flLx2sX2MpCffyuNRRoXZ+w=",
-        "originContent": "| 1    | o3-mini            | 33.04 | 🏆 Excellent Chat |",
-        "translatedContent": "| 1    | o3-mini            | 33.04 | 🏆 สนทนายอดเยี่ยม |"
-      },
-      {
-        "row": 27,
-        "rowsha": "QyS/o4mug3HzCU3ZN1LTdoJ5hBZLW7rIMXeJ8IREjvY=",
-        "originContent": "| 2    | GPT-4o             | 30.33 | 💎 Good Chat      |",
-        "translatedContent": "| 2    | GPT-4o             | 30.33 | 💎 สนทนาดีมาก     |"
-      },
-      {
-        "row": 28,
-        "rowsha": "VYqyrduDwf+SBAJWlLSO+/NfbYuHsb5FsKxNKXKgedo=",
-        "originContent": "| 3    | Gemini-2.0-flash   | 27.41 | 💎 Good Chat      |",
-        "translatedContent": "| 3    | Gemini-2.0-flash   | 27.41 | 💎 สนทนาดีมาก     |"
-      },
-      {
-        "row": 29,
-        "rowsha": "uDkuuPhhZOMd/XwRZ8JJh55t0MsFr3urv1EXeoixcxs=",
-        "originContent": "| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Standard       |",
-        "translatedContent": "| 4    | Claude-3.7-sonnet  | 26.60 | ✨ มาตรฐาน        |"
-      },
-      {
-        "row": 30,
-        "rowsha": "U2o7UYEqIIB3njzFNAlDLUlCdqArpRHhtXGht9ruKgk=",
-        "originContent": "| 5    | DeepSeek-R1        | 21.74 | ✨ Standard       |",
-        "translatedContent": "| 5    | DeepSeek-R1        | 21.74 | ✨ มาตรฐาน        |"
-      },
-      {
-        "row": 31,
-        "rowsha": "Wp+rEkzuscLMBtRvaKIpn9fU5bLVqly53cimPvVI6Lg=",
-        "originContent": "| 6    | Qwen3              | 20.33 | ⚪ Basic          |",
-        "translatedContent": "| 6    | Qwen3              | 20.33 | ⚪ พื้นฐาน         |"
-      },
-      {
-        "row": 32,
-        "rowsha": "veu91JeFqcGGGDuxlQNLf7/h1UQ4SkK1hlxTHYdz45s=",
-        "originContent": "| 7    | DeepSeek-V3        | 15.85 | ⚪ Basic          |",
-        "translatedContent": "| 7    | DeepSeek-V3        | 15.85 | ⚪ พื้นฐาน         |"
-      },
-      {
-        "row": 33,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 25,
+        "rowsha": "KjrzNuwD4TPEmYvySM+ctLWl+Q5ZkaXVtsN+GtTReto=",
+        "originContent": "### Model Performance Results on BIRD-INTERACT Lite",
+        "translatedContent": "### ผลการทดสอบประสิทธิภาพของโมเดลบน BIRD-INTERACT Lite"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "iOxQRHuEgwShsnHL01Vwg9xhz8xYvf0L53GOe6FdyIE=",
+        "originContent": "#### 1. **c-Interact** Performance",
+        "translatedContent": "#### 1. ประสิทธิภาพ **c-Interact**"
+      },
+      {
+        "row": 28,
+        "rowsha": "j5ipGeIiO/Ow8BanoW9+iPlyzHgKoAmggn3Wj1ixyPA=",
+        "originContent": "| Rank | Model Name         | Normalized Reward | Level        |",
+        "translatedContent": "| ลำดับ | ชื่อโมเดล            | รางวัลปกติ | ระดับ        |"
+      },
+      {
+        "row": 29,
+        "rowsha": "TdCWOOIFJcB4b+Qo0Itf7ltUuxPh2hMsEycINC5YnNc=",
+        "originContent": "|:------:|--------------------|:-------:|:--------------:|",
+        "translatedContent": "|:------:|--------------------|:-------:|:--------------:|"
+      },
+      {
+        "row": 30,
+        "rowsha": "+ZpucKQxeOg3XebYi3v6flLx2sX2MpCffyuNRRoXZ+w=",
+        "originContent": "| 1    | o3-mini            | 33.04 | 🏆 Excellent Chat |",
+        "translatedContent": "| 1    | o3-mini            | 33.04   | 🏆 แชทยอดเยี่ยม  |"
+      },
+      {
+        "row": 31,
+        "rowsha": "QyS/o4mug3HzCU3ZN1LTdoJ5hBZLW7rIMXeJ8IREjvY=",
+        "originContent": "| 2    | GPT-4o             | 30.33 | 💎 Good Chat      |",
+        "translatedContent": "| 2    | GPT-4o             | 30.33   | 💎 แชทดี         |"
+      },
+      {
+        "row": 32,
+        "rowsha": "VYqyrduDwf+SBAJWlLSO+/NfbYuHsb5FsKxNKXKgedo=",
+        "originContent": "| 3    | Gemini-2.0-flash   | 27.41 | 💎 Good Chat      |",
+        "translatedContent": "| 3    | Gemini-2.0-flash   | 27.41   | 💎 แชทดี         |"
+      },
+      {
+        "row": 33,
+        "rowsha": "uDkuuPhhZOMd/XwRZ8JJh55t0MsFr3urv1EXeoixcxs=",
+        "originContent": "| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Standard       |",
+        "translatedContent": "| 4    | Claude-3.7-sonnet  | 26.60   | ✨ มาตรฐาน       |"
+      },
+      {
         "row": 34,
+        "rowsha": "U2o7UYEqIIB3njzFNAlDLUlCdqArpRHhtXGht9ruKgk=",
+        "originContent": "| 5    | DeepSeek-R1        | 21.74 | ✨ Standard       |",
+        "translatedContent": "| 5    | DeepSeek-R1        | 21.74   | ✨ มาตรฐาน       |"
+      },
+      {
+        "row": 35,
+        "rowsha": "Wp+rEkzuscLMBtRvaKIpn9fU5bLVqly53cimPvVI6Lg=",
+        "originContent": "| 6    | Qwen3              | 20.33 | ⚪ Basic          |",
+        "translatedContent": "| 6    | Qwen3              | 20.33   | ⚪ ขั้นพื้นฐาน    |"
+      },
+      {
+        "row": 36,
+        "rowsha": "veu91JeFqcGGGDuxlQNLf7/h1UQ4SkK1hlxTHYdz45s=",
+        "originContent": "| 7    | DeepSeek-V3        | 15.85 | ⚪ Basic          |",
+        "translatedContent": "| 7    | DeepSeek-V3        | 15.85   | ⚪ ขั้นพื้นฐาน    |"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
         "rowsha": "ju1lbZDfCJsZwvzRy1S6dkfb/OfFbXcexLESH+MyXTs=",
         "originContent": "#### 2. **a-Interact** Performance",
         "translatedContent": "#### 2. ประสิทธิภาพ **a-Interact**"
       },
       {
-        "row": 35,
+        "row": 39,
         "rowsha": "fkdoJklW1fC2P9Blza+o45eaC0Sk7EOAOLfzOjdR7vA=",
         "originContent": "| Rank | Model Name         | Budget Parameters* | Avg Steps/Task | Avg Cost (USD)/Task | Normalized Reward | Level            |",
-        "translatedContent": "| อันดับ | ชื่อโมเดล        | พารามิเตอร์งบประมาณ* | จำนวนขั้นตอนเฉลี่ย/งาน | ค่าใช้จ่ายเฉลี่ย (USD)/งาน | รางวัลปรับมาตรฐาน | ระดับ              |"
-      },
-      {
-        "row": 36,
-        "rowsha": "aV56LTAib/ZlLvSUMuOn8K5WaCaVt2OOQHC8f+TSdcc=",
-        "originContent": "|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|",
-        "translatedContent": "|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|"
-      },
-      {
-        "row": 37,
-        "rowsha": "ryPy3wFijpc1nUQ/r36HwCxz3eHD27C3AvpUJCeORN4=",
-        "originContent": "| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Excellent Interaction |",
-        "translatedContent": "| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 ปฏิสัมพันธ์ยอดเยี่ยม |"
-      },
-      {
-        "row": 38,
-        "rowsha": "GcAbJL0QfeLlIM7ZQIDqCHYmP1REnn76QKCU3d7N9QE=",
-        "originContent": "| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 Good Interaction      |",
-        "translatedContent": "| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 ปฏิสัมพันธ์ดีมาก     |"
-      },
-      {
-        "row": 39,
-        "rowsha": "mvtZN86kF7hN3H8xt2/SYh4EVs5zEOp1ps9P7u1SpKE=",
-        "originContent": "| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 Good Interaction      |",
-        "translatedContent": "| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 ปฏิสัมพันธ์ดีมาก     |"
+        "translatedContent": "| ลำดับ | ชื่อโมเดล            | พารามิเตอร์งบประมาณ* | ขั้นตอนเฉลี่ย/งาน | ค่าใช้จ่ายเฉลี่ย (USD)/งาน | รางวัลปกติ | ระดับ            |"
       },
       {
         "row": 40,
-        "rowsha": "Osr9bAZufFfed5ZthEV5zzsSX6bqO0EM1W+qmgB12xU=",
-        "originContent": "| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ Standard              |",
-        "translatedContent": "| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ มาตรฐาน              |"
+        "rowsha": "aV56LTAib/ZlLvSUMuOn8K5WaCaVt2OOQHC8f+TSdcc=",
+        "originContent": "|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|",
+        "translatedContent": "|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 4,
-    "Content": "| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ Standard              |\n| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ Basic                 |\n| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Basic                 |\n\n> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.\n\n### Interaction-Time Scaling (ITS)\n\nInteraction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n## 📦 Dataset Details\n\n### Dataset Description\n\n- **Database:** The complete PostgreSQL database can be download from [the Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Check the [Quick Eval](#quick-eval) section for more details.\n- **data:** Each data instance contain the following main parts:\n   - `selected_database`: The name of the database.  \n   - `query`: The unambiguous user query.  \n   - `amb_user_query`: The user query with injected ambiguities.\n   - `user_query_ambiguity`: The ambiguities injected into the user query.\n   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.\n   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. \n   - `sol_sql`: The ground truth SQL solution.  \n   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  \n   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  \n   - `test_cases`: A set of test cases to validate the predicted corrected SQL.\n   - `follow_up`: The labeled follow up questions.\n   - `external_knowledge`: The external knowledge related to the specific task.\n\n- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.\n- **Curated by:** BIRD Team & Google Cloud\n- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)\n- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)\n\n### Dataset Uses",
-    "ContentSha": "QqUzbjJJ/Wv+BnAqH5PIBUkRKP1ihWML5orUOEZ3zZk=",
+    "Content": "| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Excellent Interaction |\n| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 Good Interaction      |\n| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 Good Interaction      |\n| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ Standard              |\n| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ Standard              |\n| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ Basic                 |\n| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Basic                 |\n\n> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.\n\n### Interaction-Time Scaling (ITS)\n\nInteraction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n## 📦 Dataset Details\n\n### Dataset Description\n\n- **Database:** The complete PostgreSQL database can be download from [the Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Check the [Quick Eval](#quick-eval) section for more details.\n- **data:** Each data instance contain the following main parts:\n   - `selected_database`: The name of the database.  \n   - `query`: The unambiguous user query.  \n   - `amb_user_query`: The user query with injected ambiguities.\n   - `user_query_ambiguity`: The ambiguities injected into the user query.\n   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.\n   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. \n   - `sol_sql`: The ground truth SQL solution.  \n   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  \n   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  \n   - `test_cases`: A set of test cases to validate the predicted corrected SQL.\n   - `follow_up`: The labeled follow up questions.\n   - `external_knowledge`: The external knowledge related to the specific task.\n\n- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.\n- **Curated by:** BIRD Team & Google Cloud",
+    "ContentSha": "zil59zQgsxqYATaOBxCjSSkK7DymnKM3c0PrLc5BTrI=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ มาตรฐาน              |\n| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ พื้นฐาน                 |\n| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ พื้นฐาน                 |\n\n> \\* พารามิเตอร์งบประมาณ: งบประมาณเริ่มต้น/งบประมาณความอดทนของผู้ใช้ วัดโดยสกุลเงินเสมือน *bird-coin* <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. ดูรายละเอียดเพิ่มเติมได้ที่ [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)\n\n### การปรับขนาดเวลาโต้ตอบ (ITS)\n\nการปรับขนาดเวลาโต้ตอบ (ITS) หมายถึงความสามารถของโมเดลในการเพิ่มประสิทธิภาพปลายทางอย่างต่อเนื่องผ่านการโต้ตอบหลายรอบ เมื่อประสิทธิภาพในการโต้ตอบนี้สูงกว่าประสิทธิภาพในอุดมคติของโมเดลในงานที่ระบุไว้อย่างสมบูรณ์และไม่มีความคลุมเครือ เราถือว่าโมเดลนั้นเป็นไปตาม **กฎ ITS** เมื่อความอดทนของผู้ใช้เพิ่มขึ้นและจำนวนรอบการโต้ตอบมากขึ้น ประสิทธิภาพจะยังคงดีขึ้น แสดงว่าโมเดลสามารถสื่อสารได้อย่างมีประสิทธิภาพต่อเนื่องในการสนทนายาว ขณะนี้เราพบว่าเฉพาะ claude-3-7-sonnet เท่านั้นที่เป็นไปตามกฎ ITS\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n## 📦 รายละเอียดชุดข้อมูล\n\n### คำอธิบายชุดข้อมูล\n\n- **ฐานข้อมูล:** สามารถดาวน์โหลดฐานข้อมูล PostgreSQL ฉบับสมบูรณ์ได้จาก [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view) ดูรายละเอียดเพิ่มเติมในส่วน [Quick Eval](#quick-eval)\n- **data:** แต่ละอินสแตนซ์ข้อมูลประกอบด้วยส่วนสำคัญดังนี้:\n   - `selected_database`: ชื่อฐานข้อมูล  \n   - `query`: คำถามของผู้ใช้ที่ไม่มีความคลุมเครือ  \n   - `amb_user_query`: คำถามของผู้ใช้ที่ถูกเพิ่มความคลุมเครือ\n   - `user_query_ambiguity`: ความคลุมเครือที่เพิ่มเข้าไปในคำถามของผู้ใช้\n   - `non_critical_ambiguity`: ความคลุมเครือที่ไม่สำคัญ เช่น การจัดลำดับ, การจำกัดจำนวน ฯลฯ\n   - `knowledge_ambiguity`: ความคลุมเครือที่เกิดจากการปิดบังความรู้ภายนอก\n   - `sol_sql`: คำตอบ SQL ที่ถูกต้อง  \n   - `preprocess_sql`: คำสั่ง SQL ที่ต้องรันก่อนดำเนินการคำตอบหรือการทำนาย  \n   - `clean_up_sql`: คำสั่ง SQL ที่ต้องรันหลังจากกรณีทดสอบ เพื่อย้อนการเปลี่ยนแปลงฐานข้อมูล  \n   - `test_cases`: ชุดกรณีทดสอบเพื่อใช้ตรวจสอบ SQL ที่ทำนายแก้ไขแล้ว\n   - `follow_up`: คำถามติดตามผลที่มีการระบุป้ายกำกับ\n   - `external_knowledge`: ความรู้ภายนอกที่เกี่ยวข้องกับงานเฉพาะ\n\n- **evaluation:** โค้ดสำหรับการประเมินผลมีอยู่ในไดเรกทอรี [`./evaluation`](./evaluation)\n- **จัดทำโดย:** ทีม BIRD & Google Cloud\n- **ลิขสิทธิ์:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)\n- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)\n\n### การใช้งานชุดข้อมูล",
+    "Translation": "| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 การโต้ตอบยอดเยี่ยม |\n| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 การโต้ตอบดี         |\n| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 การโต้ตอบดี         |\n| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ มาตรฐาน              |\n| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ มาตรฐาน              |\n| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ พื้นฐาน              |\n| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ พื้นฐาน              |\n\n> \\* พารามิเตอร์งบประมาณ: งบประมาณเริ่มต้น/งบประมาณความอดทนของผู้ใช้ วัดโดยสกุลเงินเสมือน *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. ดูรายละเอียดเพิ่มเติมได้ที่ [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)\n\n### การปรับขนาดเวลาการโต้ตอบ (ITS)\n\nการปรับขนาดเวลาการโต้ตอบ (ITS) หมายถึงความสามารถของโมเดลในการเพิ่มประสิทธิภาพสูงสุดอย่างต่อเนื่องผ่านการโต้ตอบหลายรอบ เมื่อประสิทธิภาพแบบโต้ตอบนี้สูงกว่าแบบทดสอบเดียวที่ระบุไว้อย่างสมบูรณ์ เราจะกล่าวว่าโมเดลนั้นเป็นไปตาม **กฎ ITS** เมื่อความอดทนผู้ใช้เพิ่มขึ้นและจำนวนรอบโต้ตอบสะสมขึ้น ประสิทธิภาพยังคงเพิ่มขึ้น แสดงให้เห็นว่าโมเดลสามารถสื่อสารได้อย่างมีประสิทธิภาพต่อเนื่องในบทสนทนายาว ขณะนี้พบเพียง claude-3-7-sonnet ที่เป็นไปตามกฎ ITS\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" \n       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">\n</p>\n\n## 📦 รายละเอียดชุดข้อมูล\n\n### รายละเอียดชุดข้อมูล\n\n- **ฐานข้อมูล:** สามารถดาวน์โหลดฐานข้อมูล PostgreSQL ฉบับสมบูรณ์ได้จาก [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view) ดูรายละเอียดเพิ่มเติมในหัวข้อ [Quick Eval](#quick-eval)\n- **ข้อมูล:** ตัวอย่างข้อมูลแต่ละชุดประกอบด้วยส่วนหลักดังนี้:\n   - `selected_database`: ชื่อฐานข้อมูล  \n   - `query`: ข้อความค้นหาของผู้ใช้ที่ไม่มีความกำกวม  \n   - `amb_user_query`: ข้อความค้นหาของผู้ใช้ที่มีการเติมความกำกวม  \n   - `user_query_ambiguity`: ความกำกวมที่เติมเข้าไปในข้อความค้นหาผู้ใช้  \n   - `non_critical_ambiguity`: ความกำกวมที่ไม่สำคัญ เช่น ลำดับ, การจำกัดผลลัพธ์ ฯลฯ  \n   - `knowledge_ambiguity`: ความกำกวมที่เกิดจากความรู้ภายนอกที่ถูกปกปิด  \n   - `sol_sql`: คำตอบ SQL ที่เป็นจริง  \n   - `preprocess_sql`: คำสั่ง SQL ที่ต้องรันก่อนดำเนินการคำตอบหรือการทำนาย  \n   - `clean_up_sql`: คำสั่ง SQL ที่ใช้หลังทดสอบเพื่อย้อนคืนค่าที่เปลี่ยนแปลงในฐานข้อมูล  \n   - `test_cases`: ชุดกรณีทดสอบสำหรับตรวจสอบ SQL ที่ทำนาย  \n   - `follow_up`: คำถามติดตามที่มีการติดป้ายกำกับ  \n   - `external_knowledge`: ความรู้ภายนอกที่เกี่ยวข้องกับงานเฉพาะ\n\n- **การประเมินผล:** โค้ดสำหรับประเมินผลอยู่ในไดเรกทอรี [`./evaluation`](./evaluation)\n- **ดูแลจัดทำโดย:** ทีม BIRD และ Google Cloud",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "ryPy3wFijpc1nUQ/r36HwCxz3eHD27C3AvpUJCeORN4=",
+        "originContent": "| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Excellent Interaction |",
+        "translatedContent": "| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 การโต้ตอบยอดเยี่ยม |"
+      },
+      {
+        "row": 2,
+        "rowsha": "GcAbJL0QfeLlIM7ZQIDqCHYmP1REnn76QKCU3d7N9QE=",
+        "originContent": "| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 Good Interaction      |",
+        "translatedContent": "| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 การโต้ตอบดี         |"
+      },
+      {
+        "row": 3,
+        "rowsha": "mvtZN86kF7hN3H8xt2/SYh4EVs5zEOp1ps9P7u1SpKE=",
+        "originContent": "| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 Good Interaction      |",
+        "translatedContent": "| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 การโต้ตอบดี         |"
+      },
+      {
+        "row": 4,
+        "rowsha": "Osr9bAZufFfed5ZthEV5zzsSX6bqO0EM1W+qmgB12xU=",
+        "originContent": "| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ Standard              |",
+        "translatedContent": "| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ มาตรฐาน              |"
+      },
+      {
+        "row": 5,
         "rowsha": "cA45HwQQsBKXZ9NESwwgScvFOrMYNBp87Yr4Un4JCHs=",
         "originContent": "| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ Standard              |",
         "translatedContent": "| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ มาตรฐาน              |"
       },
       {
-        "row": 2,
+        "row": 6,
         "rowsha": "hpnyQDuabQuA2ioU4dXMW4ZpuhvnLwOmGRgRmxDbIuM=",
         "originContent": "| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ Basic                 |",
-        "translatedContent": "| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ พื้นฐาน                 |"
-      },
-      {
-        "row": 3,
-        "rowsha": "JdOj2qVJ7/xgJ/5EXsM3+5IFPrr+aArY7hsLMSPbl8k=",
-        "originContent": "| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Basic                 |",
-        "translatedContent": "| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ พื้นฐาน                 |"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
-        "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
-        "translatedContent": "> \\* พารามิเตอร์งบประมาณ: งบประมาณเริ่มต้น/งบประมาณความอดทนของผู้ใช้ วัดโดยสกุลเงินเสมือน *bird-coin* <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. ดูรายละเอียดเพิ่มเติมได้ที่ [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "translatedContent": "| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ พื้นฐาน              |"
       },
       {
         "row": 7,
-        "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
-        "originContent": "### Interaction-Time Scaling (ITS)",
-        "translatedContent": "### การปรับขนาดเวลาโต้ตอบ (ITS)"
+        "rowsha": "JdOj2qVJ7/xgJ/5EXsM3+5IFPrr+aArY7hsLMSPbl8k=",
+        "originContent": "| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Basic                 |",
+        "translatedContent": "| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ พื้นฐาน              |"
       },
       {
         "row": 8,
@@ -577,9 +577,9 @@
       },
       {
         "row": 9,
-        "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
-        "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
-        "translatedContent": "การปรับขนาดเวลาโต้ตอบ (ITS) หมายถึงความสามารถของโมเดลในการเพิ่มประสิทธิภาพปลายทางอย่างต่อเนื่องผ่านการโต้ตอบหลายรอบ เมื่อประสิทธิภาพในการโต้ตอบนี้สูงกว่าประสิทธิภาพในอุดมคติของโมเดลในงานที่ระบุไว้อย่างสมบูรณ์และไม่มีความคลุมเครือ เราถือว่าโมเดลนั้นเป็นไปตาม **กฎ ITS** เมื่อความอดทนของผู้ใช้เพิ่มขึ้นและจำนวนรอบการโต้ตอบมากขึ้น ประสิทธิภาพจะยังคงดีขึ้น แสดงว่าโมเดลสามารถสื่อสารได้อย่างมีประสิทธิภาพต่อเนื่องในการสนทนายาว ขณะนี้เราพบว่าเฉพาะ claude-3-7-sonnet เท่านั้นที่เป็นไปตามกฎ ITS"
+        "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
+        "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
+        "translatedContent": "> \\* พารามิเตอร์งบประมาณ: งบประมาณเริ่มต้น/งบประมาณความอดทนของผู้ใช้ วัดโดยสกุลเงินเสมือน *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. ดูรายละเอียดเพิ่มเติมได้ที่ [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)"
       },
       {
         "row": 10,
@@ -589,51 +589,51 @@
       },
       {
         "row": 11,
+        "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
+        "originContent": "### Interaction-Time Scaling (ITS)",
+        "translatedContent": "### การปรับขนาดเวลาการโต้ตอบ (ITS)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
+        "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
+        "translatedContent": "การปรับขนาดเวลาการโต้ตอบ (ITS) หมายถึงความสามารถของโมเดลในการเพิ่มประสิทธิภาพสูงสุดอย่างต่อเนื่องผ่านการโต้ตอบหลายรอบ เมื่อประสิทธิภาพแบบโต้ตอบนี้สูงกว่าแบบทดสอบเดียวที่ระบุไว้อย่างสมบูรณ์ เราจะกล่าวว่าโมเดลนั้นเป็นไปตาม **กฎ ITS** เมื่อความอดทนผู้ใช้เพิ่มขึ้นและจำนวนรอบโต้ตอบสะสมขึ้น ประสิทธิภาพยังคงเพิ่มขึ้น แสดงให้เห็นว่าโมเดลสามารถสื่อสารได้อย่างมีประสิทธิภาพต่อเนื่องในบทสนทนายาว ขณะนี้พบเพียง claude-3-7-sonnet ที่เป็นไปตามกฎ ITS"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
         "translatedContent": "<p align=\"center\">"
       },
       {
-        "row": 12,
+        "row": 16,
         "rowsha": "TW0AIFALwgyvJujlCuN+wyzJWtuuF1VkgusDlug821c=",
         "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" ",
         "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" "
       },
       {
-        "row": 13,
+        "row": 17,
         "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
         "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
         "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
       },
       {
-        "row": 14,
+        "row": 18,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
         "translatedContent": "</p>"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "+k7Ca++d5jxjDrqQWYaSmQV+QrsPLeOVDWwp4LEOnLg=",
-        "originContent": "## 📦 Dataset Details",
-        "translatedContent": "## 📦 รายละเอียดชุดข้อมูล"
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "0CAgopT4uCrcP2XugQo54SQ7+3o6EmaZDPuISb7ZpYs=",
-        "originContent": "### Dataset Description",
-        "translatedContent": "### คำอธิบายชุดข้อมูล"
       },
       {
         "row": 19,
@@ -643,166 +643,166 @@
       },
       {
         "row": 20,
-        "rowsha": "R5TnQS3KWDoY0gQ+tKB/KWwqwHRuZjajharNCxl+SCU=",
-        "originContent": "- **Database:** The complete PostgreSQL database can be download from [the Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Check the [Quick Eval](#quick-eval) section for more details.",
-        "translatedContent": "- **ฐานข้อมูล:** สามารถดาวน์โหลดฐานข้อมูล PostgreSQL ฉบับสมบูรณ์ได้จาก [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view) ดูรายละเอียดเพิ่มเติมในส่วน [Quick Eval](#quick-eval)"
+        "rowsha": "+k7Ca++d5jxjDrqQWYaSmQV+QrsPLeOVDWwp4LEOnLg=",
+        "originContent": "## 📦 Dataset Details",
+        "translatedContent": "## 📦 รายละเอียดชุดข้อมูล"
       },
       {
         "row": 21,
-        "rowsha": "Rg/lq5RTpV9VpKctp3slYhtbuoFhbkfaorRPygzg6Gk=",
-        "originContent": "- **data:** Each data instance contain the following main parts:",
-        "translatedContent": "- **data:** แต่ละอินสแตนซ์ข้อมูลประกอบด้วยส่วนสำคัญดังนี้:"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 22,
+        "rowsha": "0CAgopT4uCrcP2XugQo54SQ7+3o6EmaZDPuISb7ZpYs=",
+        "originContent": "### Dataset Description",
+        "translatedContent": "### รายละเอียดชุดข้อมูล"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "R5TnQS3KWDoY0gQ+tKB/KWwqwHRuZjajharNCxl+SCU=",
+        "originContent": "- **Database:** The complete PostgreSQL database can be download from [the Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Check the [Quick Eval](#quick-eval) section for more details.",
+        "translatedContent": "- **ฐานข้อมูล:** สามารถดาวน์โหลดฐานข้อมูล PostgreSQL ฉบับสมบูรณ์ได้จาก [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view) ดูรายละเอียดเพิ่มเติมในหัวข้อ [Quick Eval](#quick-eval)"
+      },
+      {
+        "row": 25,
+        "rowsha": "Rg/lq5RTpV9VpKctp3slYhtbuoFhbkfaorRPygzg6Gk=",
+        "originContent": "- **data:** Each data instance contain the following main parts:",
+        "translatedContent": "- **ข้อมูล:** ตัวอย่างข้อมูลแต่ละชุดประกอบด้วยส่วนหลักดังนี้:"
+      },
+      {
+        "row": 26,
         "rowsha": "oeZ/uzqCsA5VNpsUV6Q5FUwcPz5hnWM75+LkGTHBx5Y=",
         "originContent": "   - `selected_database`: The name of the database.  ",
         "translatedContent": "   - `selected_database`: ชื่อฐานข้อมูล  "
       },
       {
-        "row": 23,
+        "row": 27,
         "rowsha": "oPNVshV/MIPpyhRk3j2Nxvx6eiSjlh78678fwhXHkyY=",
         "originContent": "   - `query`: The unambiguous user query.  ",
-        "translatedContent": "   - `query`: คำถามของผู้ใช้ที่ไม่มีความคลุมเครือ  "
-      },
-      {
-        "row": 24,
-        "rowsha": "FCnlkL1lk997F3W0Z2i178PvvixkNotyQ/PDUSEBG3I=",
-        "originContent": "   - `amb_user_query`: The user query with injected ambiguities.",
-        "translatedContent": "   - `amb_user_query`: คำถามของผู้ใช้ที่ถูกเพิ่มความคลุมเครือ"
-      },
-      {
-        "row": 25,
-        "rowsha": "dwSIKvWoOZ0bAk3/MuxBQZx+roDRkZ8De8Z9EV1g+YE=",
-        "originContent": "   - `user_query_ambiguity`: The ambiguities injected into the user query.",
-        "translatedContent": "   - `user_query_ambiguity`: ความคลุมเครือที่เพิ่มเข้าไปในคำถามของผู้ใช้"
-      },
-      {
-        "row": 26,
-        "rowsha": "2uIaqS3MsNEQQa0yxeGCprcga3iAl7rbNcCeOhVqcms=",
-        "originContent": "   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.",
-        "translatedContent": "   - `non_critical_ambiguity`: ความคลุมเครือที่ไม่สำคัญ เช่น การจัดลำดับ, การจำกัดจำนวน ฯลฯ"
-      },
-      {
-        "row": 27,
-        "rowsha": "jcfQ3RBzqQ5IoWI85TqetWQboWoj/TWcS2YjEGz1euw=",
-        "originContent": "   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. ",
-        "translatedContent": "   - `knowledge_ambiguity`: ความคลุมเครือที่เกิดจากการปิดบังความรู้ภายนอก"
+        "translatedContent": "   - `query`: ข้อความค้นหาของผู้ใช้ที่ไม่มีความกำกวม  "
       },
       {
         "row": 28,
-        "rowsha": "/i3/thp7p1thZ/xCsBw3OHgDabXZMsKgumrhx3ZwzjQ=",
-        "originContent": "   - `sol_sql`: The ground truth SQL solution.  ",
-        "translatedContent": "   - `sol_sql`: คำตอบ SQL ที่ถูกต้อง  "
+        "rowsha": "FCnlkL1lk997F3W0Z2i178PvvixkNotyQ/PDUSEBG3I=",
+        "originContent": "   - `amb_user_query`: The user query with injected ambiguities.",
+        "translatedContent": "   - `amb_user_query`: ข้อความค้นหาของผู้ใช้ที่มีการเติมความกำกวม  "
       },
       {
         "row": 29,
+        "rowsha": "dwSIKvWoOZ0bAk3/MuxBQZx+roDRkZ8De8Z9EV1g+YE=",
+        "originContent": "   - `user_query_ambiguity`: The ambiguities injected into the user query.",
+        "translatedContent": "   - `user_query_ambiguity`: ความกำกวมที่เติมเข้าไปในข้อความค้นหาผู้ใช้  "
+      },
+      {
+        "row": 30,
+        "rowsha": "2uIaqS3MsNEQQa0yxeGCprcga3iAl7rbNcCeOhVqcms=",
+        "originContent": "   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.",
+        "translatedContent": "   - `non_critical_ambiguity`: ความกำกวมที่ไม่สำคัญ เช่น ลำดับ, การจำกัดผลลัพธ์ ฯลฯ  "
+      },
+      {
+        "row": 31,
+        "rowsha": "jcfQ3RBzqQ5IoWI85TqetWQboWoj/TWcS2YjEGz1euw=",
+        "originContent": "   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. ",
+        "translatedContent": "   - `knowledge_ambiguity`: ความกำกวมที่เกิดจากความรู้ภายนอกที่ถูกปกปิด  "
+      },
+      {
+        "row": 32,
+        "rowsha": "/i3/thp7p1thZ/xCsBw3OHgDabXZMsKgumrhx3ZwzjQ=",
+        "originContent": "   - `sol_sql`: The ground truth SQL solution.  ",
+        "translatedContent": "   - `sol_sql`: คำตอบ SQL ที่เป็นจริง  "
+      },
+      {
+        "row": 33,
         "rowsha": "c+FiZvziVNHQ0BSlQNBGyAERMve99Hh3QFKIpYMnmY4=",
         "originContent": "   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  ",
         "translatedContent": "   - `preprocess_sql`: คำสั่ง SQL ที่ต้องรันก่อนดำเนินการคำตอบหรือการทำนาย  "
       },
       {
-        "row": 30,
+        "row": 34,
         "rowsha": "xRrHhJsIZKbVIUl3a4LFJeid+TCYKXtGm2FO2voDCJA=",
         "originContent": "   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  ",
-        "translatedContent": "   - `clean_up_sql`: คำสั่ง SQL ที่ต้องรันหลังจากกรณีทดสอบ เพื่อย้อนการเปลี่ยนแปลงฐานข้อมูล  "
+        "translatedContent": "   - `clean_up_sql`: คำสั่ง SQL ที่ใช้หลังทดสอบเพื่อย้อนคืนค่าที่เปลี่ยนแปลงในฐานข้อมูล  "
       },
       {
-        "row": 31,
+        "row": 35,
         "rowsha": "AN8KsW9EANalz2xbGaJpzkDyz8Piw1aD8GW5coktVLI=",
         "originContent": "   - `test_cases`: A set of test cases to validate the predicted corrected SQL.",
-        "translatedContent": "   - `test_cases`: ชุดกรณีทดสอบเพื่อใช้ตรวจสอบ SQL ที่ทำนายแก้ไขแล้ว"
+        "translatedContent": "   - `test_cases`: ชุดกรณีทดสอบสำหรับตรวจสอบ SQL ที่ทำนาย  "
       },
       {
-        "row": 32,
+        "row": 36,
         "rowsha": "CJy/lmct2AT3OvidWiH5FLxFjM+3NIuJGemuO6IO3/I=",
         "originContent": "   - `follow_up`: The labeled follow up questions.",
-        "translatedContent": "   - `follow_up`: คำถามติดตามผลที่มีการระบุป้ายกำกับ"
+        "translatedContent": "   - `follow_up`: คำถามติดตามที่มีการติดป้ายกำกับ  "
       },
       {
-        "row": 33,
+        "row": 37,
         "rowsha": "rUHKXvHeVB4UqqvGBnj9yJY3C0rN/Oz3IsSbOVCSOLE=",
         "originContent": "   - `external_knowledge`: The external knowledge related to the specific task.",
         "translatedContent": "   - `external_knowledge`: ความรู้ภายนอกที่เกี่ยวข้องกับงานเฉพาะ"
       },
       {
-        "row": 34,
+        "row": 38,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
-      },
-      {
-        "row": 35,
-        "rowsha": "hQpiCMxX9dK0D0byHCQ4cUtoa8tKtWMoWCxcRBrGSks=",
-        "originContent": "- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.",
-        "translatedContent": "- **evaluation:** โค้ดสำหรับการประเมินผลมีอยู่ในไดเรกทอรี [`./evaluation`](./evaluation)"
-      },
-      {
-        "row": 36,
-        "rowsha": "v59KK3oH49UautE6oU56wvhU8e75NEkRJddOGbaFnyo=",
-        "originContent": "- **Curated by:** BIRD Team & Google Cloud",
-        "translatedContent": "- **จัดทำโดย:** ทีม BIRD & Google Cloud"
-      },
-      {
-        "row": 37,
-        "rowsha": "1/kQI3qUNugGt6yUagQdmVhx1FDPb1fFeNnmxrbHjpM=",
-        "originContent": "- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
-        "translatedContent": "- **ลิขสิทธิ์:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
-      },
-      {
-        "row": 38,
-        "rowsha": "EQ6KhGw1snJI5U6ZFWIjj/IpN04AkABGwoqpo5JQnkQ=",
-        "originContent": "- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)",
-        "translatedContent": "- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)"
       },
       {
         "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "hQpiCMxX9dK0D0byHCQ4cUtoa8tKtWMoWCxcRBrGSks=",
+        "originContent": "- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.",
+        "translatedContent": "- **การประเมินผล:** โค้ดสำหรับประเมินผลอยู่ในไดเรกทอรี [`./evaluation`](./evaluation)"
       },
       {
         "row": 40,
-        "rowsha": "JBijDrvexJ1GfbKj7poT//NH5iCfI6XH57cOWOG6jQc=",
-        "originContent": "### Dataset Uses",
-        "translatedContent": "### การใช้งานชุดข้อมูล"
+        "rowsha": "v59KK3oH49UautE6oU56wvhU8e75NEkRJddOGbaFnyo=",
+        "originContent": "- **Curated by:** BIRD Team & Google Cloud",
+        "translatedContent": "- **ดูแลจัดทำโดย:** ทีม BIRD และ Google Cloud"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 5,
-    "Content": "\nTo avoid data leakage by auto-crawling, we do not include GT solution sqls and test cases along with data.\nplease email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` in title for full set, which will be sent automatically.\n\n\n<!-- ### Use the Dataset from HuggingFace\n\nYou can download the dataset from HuggingFace using the following command:",
-    "ContentSha": "3F/h8nFnOUrtoMSyyEuV5mmKZ/hbHaJ8ZNAjfgDsc7I=",
+    "Content": "- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)\n- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)\n\n### Dataset Uses\n\nTo avoid data leakage by auto-crawling, we do not include GT solution sqls and test cases along with data.\nplease email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` in title for full set, which will be sent automatically.\n\n\n<!-- ### Use the Dataset from HuggingFace\n\nYou can download the dataset from HuggingFace using the following command:",
+    "ContentSha": "iDg78EtPBEwcsdgm2V+E8vXCwpbR3fbdvAHNYoYq4HI=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\nเพื่อหลีกเลี่ยงการรั่วไหลของข้อมูลโดยการรวบรวมข้อมูลอัตโนมัติ เราไม่ได้รวม sql ของ GT solution และกรณีทดสอบพร้อมกับข้อมูล\nกรุณาส่งอีเมลไปที่ [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) โดยใส่แท็ก `[bird-interact-lite GT&Test Cases]` ในหัวข้อ เพื่อรับชุดเต็ม ซึ่งจะถูกส่งให้อัตโนมัติ\n\n\n<!-- ### ใช้ชุดข้อมูลจาก HuggingFace\n\nคุณสามารถดาวน์โหลดชุดข้อมูลจาก HuggingFace ได้โดยใช้คำสั่งดังต่อไปนี้:",
+    "Translation": "- **สัญญาอนุญาต:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)\n- **การ์ดข้อมูลชุดข้อมูล HuggingFace:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)\n\n### การใช้งานชุดข้อมูล\n\nเพื่อหลีกเลี่ยงการรั่วไหลของข้อมูลโดยการดึงข้อมูลอัตโนมัติ เราจะไม่รวม sql คำตอบ GT และกรณีทดสอบไว้พร้อมกับข้อมูล\nกรุณาส่งอีเมลไปที่ [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) โดยใส่แท็ก `[bird-interact-lite GT&Test Cases]` ในหัวข้อ เพื่อรับชุดเต็ม ซึ่งจะถูกส่งให้อัตโนมัติ\n\n\n<!-- ### ใช้ชุดข้อมูลจาก HuggingFace\n\nคุณสามารถดาวน์โหลดชุดข้อมูลจาก HuggingFace ด้วยคำสั่งดังต่อไปนี้:",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "1/kQI3qUNugGt6yUagQdmVhx1FDPb1fFeNnmxrbHjpM=",
+        "originContent": "- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
+        "translatedContent": "- **สัญญาอนุญาต:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
       },
       {
         "row": 2,
-        "rowsha": "XHdAwjxf4l6iSAmLupTaOJFamV5zkfFP+w/3HJJzmV8=",
-        "originContent": "To avoid data leakage by auto-crawling, we do not include GT solution sqls and test cases along with data.",
-        "translatedContent": "เพื่อหลีกเลี่ยงการรั่วไหลของข้อมูลโดยการรวบรวมข้อมูลอัตโนมัติ เราไม่ได้รวม sql ของ GT solution และกรณีทดสอบพร้อมกับข้อมูล"
+        "rowsha": "EQ6KhGw1snJI5U6ZFWIjj/IpN04AkABGwoqpo5JQnkQ=",
+        "originContent": "- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)",
+        "translatedContent": "- **การ์ดข้อมูลชุดข้อมูล HuggingFace:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)"
       },
       {
         "row": 3,
-        "rowsha": "Q9e5dkfldgsOAjC3z4DRR0OrrKXX9/s+M5y0WmI+Nag=",
-        "originContent": "please email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` in title for full set, which will be sent automatically.",
-        "translatedContent": "กรุณาส่งอีเมลไปที่ [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) โดยใส่แท็ก `[bird-interact-lite GT&Test Cases]` ในหัวข้อ เพื่อรับชุดเต็ม ซึ่งจะถูกส่งให้อัตโนมัติ"
-      },
-      {
-        "row": 4,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "JBijDrvexJ1GfbKj7poT//NH5iCfI6XH57cOWOG6jQc=",
+        "originContent": "### Dataset Uses",
+        "translatedContent": "### การใช้งานชุดข้อมูล"
       },
       {
         "row": 5,
@@ -812,21 +812,45 @@
       },
       {
         "row": 6,
-        "rowsha": "IROdTOtya22/xNwBA21bawIEiQ79tzz8+FTSeqo+zAQ=",
-        "originContent": "<!-- ### Use the Dataset from HuggingFace",
-        "translatedContent": "<!-- ### ใช้ชุดข้อมูลจาก HuggingFace"
+        "rowsha": "XHdAwjxf4l6iSAmLupTaOJFamV5zkfFP+w/3HJJzmV8=",
+        "originContent": "To avoid data leakage by auto-crawling, we do not include GT solution sqls and test cases along with data.",
+        "translatedContent": "เพื่อหลีกเลี่ยงการรั่วไหลของข้อมูลโดยการดึงข้อมูลอัตโนมัติ เราจะไม่รวม sql คำตอบ GT และกรณีทดสอบไว้พร้อมกับข้อมูล"
       },
       {
         "row": 7,
+        "rowsha": "Q9e5dkfldgsOAjC3z4DRR0OrrKXX9/s+M5y0WmI+Nag=",
+        "originContent": "please email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` in title for full set, which will be sent automatically.",
+        "translatedContent": "กรุณาส่งอีเมลไปที่ [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) โดยใส่แท็ก `[bird-interact-lite GT&Test Cases]` ในหัวข้อ เพื่อรับชุดเต็ม ซึ่งจะถูกส่งให้อัตโนมัติ"
+      },
+      {
+        "row": 8,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 8,
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "IROdTOtya22/xNwBA21bawIEiQ79tzz8+FTSeqo+zAQ=",
+        "originContent": "<!-- ### Use the Dataset from HuggingFace",
+        "translatedContent": "<!-- ### ใช้ชุดข้อมูลจาก HuggingFace"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
         "rowsha": "uKk3AJCcLznW9aT+voL6Iz4vZXP4iQl853lhxWPZvrY=",
         "originContent": "You can download the dataset from HuggingFace using the following command:",
-        "translatedContent": "คุณสามารถดาวน์โหลดชุดข้อมูลจาก HuggingFace ได้โดยใช้คำสั่งดังต่อไปนี้:"
+        "translatedContent": "คุณสามารถดาวน์โหลดชุดข้อมูลจาก HuggingFace ด้วยคำสั่งดังต่อไปนี้:"
       }
     ],
     "IsCodeBlock": false
@@ -893,19 +917,19 @@
   },
   {
     "Id": 11,
-    "Content": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.\n\n## 📋 Todo Lists\n\n- [x] Release lite version, bird-interact-lite (270).\n- [x] Release conversational version, bird-interact-conv.\n- [x] Release agent version, bird-interact-agent.\n- [x] Release Full bird-interact-full (600).\n- [ ] SFT / RL an User Simulator\n\n## Created By:\nBIRD Team & Google Cloud\n\n\n\n",
-    "ContentSha": "CuUxePx7F1pUiw4BxhtSYtGrJL6VRM38adnYHqkJ8PE=",
+    "Content": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.\n\n## 📋 Todo Lists\n\n- [x] Release lite version, bird-interact-lite (270).\n- [x] Release conversational version, bird-interact-conv.\n- [x] Release agent version, bird-interact-agent.\n- [x] Release Full bird-interact-full (600).\n- [ ] SFT / RL an User Simulator\n\n## Created By:\nBIRD Team & Google Cloud\n\n\n\n\n\n",
+    "ContentSha": "5Rl2HoKQLU+elqtQAUD5+BHJgG33iilMBwJbBAe5pZo=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "รายละเอียดเกี่ยวกับการรัน **a-interact** สามารถดูได้ที่ `./bird_interact_agent/README.md`; และ **c-interact** สามารถดูได้ที่ `./bird_interact_conv/README.md`\n\n## 📋 รายการสิ่งที่ต้องทำ\n\n- [x] ปล่อยเวอร์ชัน lite, bird-interact-lite (270)\n- [x] ปล่อยเวอร์ชันสนทนา, bird-interact-conv\n- [x] ปล่อยเวอร์ชัน agent, bird-interact-agent\n- [x] ปล่อยเวอร์ชันเต็ม bird-interact-full (600)\n- [ ] SFT / RL สร้าง User Simulator\n\n## สร้างโดย:\nทีม BIRD & Google Cloud\n\n\n\n",
+    "Translation": "รายละเอียดเกี่ยวกับการใช้งาน **a-interact** สามารถดูได้ที่ `./bird_interact_agent/README.md` และสำหรับ **c-interact** สามารถดูได้ที่ `./bird_interact_conv/README.md`\n\n## 📋 รายการงานที่ต้องทำ\n\n- [x] ปล่อยเวอร์ชัน lite, bird-interact-lite (270).\n- [x] ปล่อยเวอร์ชันสนทนา, bird-interact-conv.\n- [x] ปล่อยเวอร์ชัน agent, bird-interact-agent.\n- [x] ปล่อยเวอร์ชันเต็ม bird-interact-full (600).\n- [ ] SFT / RL กับ User Simulator\n\n## สร้างโดย:\nทีม BIRD & Google Cloud\n\n\n\n\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "GE0AusEadGNk/GYr/BF/88UKsGyopy2r8aCnyXHh4HI=",
         "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.",
-        "translatedContent": "รายละเอียดเกี่ยวกับการรัน **a-interact** สามารถดูได้ที่ `./bird_interact_agent/README.md`; และ **c-interact** สามารถดูได้ที่ `./bird_interact_conv/README.md`"
+        "translatedContent": "รายละเอียดเกี่ยวกับการใช้งาน **a-interact** สามารถดูได้ที่ `./bird_interact_agent/README.md` และสำหรับ **c-interact** สามารถดูได้ที่ `./bird_interact_conv/README.md`"
       },
       {
         "row": 2,
@@ -917,7 +941,7 @@
         "row": 3,
         "rowsha": "f6chlfSVENLsNAyFyteH0qZqANkTbg9qD38E3rR7+l4=",
         "originContent": "## 📋 Todo Lists",
-        "translatedContent": "## 📋 รายการสิ่งที่ต้องทำ"
+        "translatedContent": "## 📋 รายการงานที่ต้องทำ"
       },
       {
         "row": 4,
@@ -929,31 +953,31 @@
         "row": 5,
         "rowsha": "EL1NQH2bug6G0ymI/d6FG7PFV2GnkPXixeKmwZPR78w=",
         "originContent": "- [x] Release lite version, bird-interact-lite (270).",
-        "translatedContent": "- [x] ปล่อยเวอร์ชัน lite, bird-interact-lite (270)"
+        "translatedContent": "- [x] ปล่อยเวอร์ชัน lite, bird-interact-lite (270)."
       },
       {
         "row": 6,
         "rowsha": "hKBdzfGYA7Z4jZ++QUac0jtKAk4XdrT5WpTUG30vQPQ=",
         "originContent": "- [x] Release conversational version, bird-interact-conv.",
-        "translatedContent": "- [x] ปล่อยเวอร์ชันสนทนา, bird-interact-conv"
+        "translatedContent": "- [x] ปล่อยเวอร์ชันสนทนา, bird-interact-conv."
       },
       {
         "row": 7,
         "rowsha": "WfzwLUQQqs71qDxmOxFIOr3TUazlzzHDkM2e4UDJDn8=",
         "originContent": "- [x] Release agent version, bird-interact-agent.",
-        "translatedContent": "- [x] ปล่อยเวอร์ชัน agent, bird-interact-agent"
+        "translatedContent": "- [x] ปล่อยเวอร์ชัน agent, bird-interact-agent."
       },
       {
         "row": 8,
         "rowsha": "tfR+oV/Tx2mEPN6r3D2jkGwWZXobjbuEMudF9OxNLv0=",
         "originContent": "- [x] Release Full bird-interact-full (600).",
-        "translatedContent": "- [x] ปล่อยเวอร์ชันเต็ม bird-interact-full (600)"
+        "translatedContent": "- [x] ปล่อยเวอร์ชันเต็ม bird-interact-full (600)."
       },
       {
         "row": 9,
         "rowsha": "vFAJSKqY7icL0MP2UvbRlITQrKGIlzdRt4TZvsoGFb0=",
         "originContent": "- [ ] SFT / RL an User Simulator",
-        "translatedContent": "- [ ] SFT / RL สร้าง User Simulator"
+        "translatedContent": "- [ ] SFT / RL กับ User Simulator"
       },
       {
         "row": 10,
@@ -993,6 +1017,18 @@
       },
       {
         "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

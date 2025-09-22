@@ -56,116 +56,122 @@
   </a>
 </div>
 
+## ⚠️ 公告  
+請注意，在您開始評測流程前，Docker 載入資料庫時，因環境不一致偶爾會出現錯誤（這些錯誤不會終止流程，但會出現在 Docker 日誌中）。因此，某些資料庫可能無法正確載入，導致資料庫為空，進而造成評測結果異常偏低。  
+👉 因此，我們強烈建議您在執行評測**前**，先檢查 Docker 日誌是否有任何錯誤，並確認所有資料庫皆已成功載入。
+
 ## 📰 最新消息
 
-- [2025-08-26] 🚀 我們很高興宣布 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 資料集正式發布！  
-這是一套難度極高的資料集，目前最佳 LLM 僅達到 **16.33%** 成功率，`c-interact` 和 `a-interact` 部分更只有 **10.0%**。  
-👉 詳細資訊請參閱我們的 [專案網站](https://bird-interact.github.io/)。
+- [2025-08-26] 🚀 我們很高興宣布 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 集正式釋出！  
+這是一組高難度資料集——目前最佳 LLM 僅達成 **16.33%** 成功率，`c-interact` 與 `a-interact` 部分僅 **10.0%**。  
+👉 詳細資訊請見我們的[專案網站](https://bird-interact.github.io/)。
 
-- [2025-08-26] 📬 本週我們將向郵件訂閱者發送 **Ground Truth & Test cases**。  
-如需提前取得，請按照網站說明發送郵件，即可獲得**自動下載**。
+- [2025-08-26] 📬 本週將透過郵件列表發送 **標準答案與測試案例**。  
+如需提前取得，請依網站說明寄信，即可**自動下載**。  
 
-- [2025-08-26] 💾 另外，我們也發布了 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** 的 SQLite 版本，方便本地研究。  
-完整的 **LiveSQLBench-Base** 及 **-Large** 版本即將推出！
+- [2025-08-26] 💾 另外，我們也釋出了 SQLite 版本的 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**，方便本地端研究。  
+完整版 **LiveSQLBench-Base** 及 **-Large** 即將推出！
 
-- [2025-08-22] **錯誤修正**：在 Bird-Interact-Agent 程式碼中，修正了評估 phase-2 SQL 時，無法成功執行儲存的 phase-1 SQL，導致 Phase-2 成功率降低的問題。此錯誤僅影響 phase1 sql 會對資料庫進行操作（如 CREATE table 等）的任務。
+- [2025-08-22] **錯誤修正**：Bird-Interact-Agent 程式碼中修正了一個錯誤：在評測 phase-2 SQL 時，儲存的 phase-1 SQL 無法成功執行，導致 Phase-2 成功率降低。此錯誤僅影響 phase1 sql 有對資料庫進行操作（如 CREATE table 等）的任務。
 
-## 🧸 概述
+## 🧸 總覽
 
-BIRD-INTERACT 是一套互動式 text-to-SQL 基準資料集，**以動態互動視角重新定義 Text-to-SQL 評估方式**。
-本環境結合分層知識庫、資料庫文件與函數驅動使用者模擬器，重現真實企業環境下完整 **CRUD** 操作流程。
-提供兩種嚴格測試模式：(1) 被動式**對話互動**與 (2) 主動式**代理互動**，涵蓋 600 個註釋任務，包含商業智慧（BI）、CRUD 操作等，每個任務均有可執行測試案例保障。
-典型評估過程觸發 1,968-5,496 次模型與使用者模擬器互動，目前最先進的推理模型僅解決約 **24%** 及 **18%** 任務，突顯本基準資料集的挑戰性。
+BIRD-INTERACT 是一套互動式 text-to-SQL 基準，**以動態互動視角重新構想 Text-to-SQL 評測**。
+此環境結合階層式知識庫、資料庫文件及函數驅動的用戶模擬器，重現企業級環境下完整 **CRUD** 操作的真實場景。
+它提供兩種嚴謹的測試模式：（1）被動式**對話互動**與（2）主動式**代理互動**，涵蓋600個帶標註的任務，包括商業智慧（BI）、CRUD 操作等，每項任務均由可執行的測試案例保護。
+典型評估會觸發 1,968-5,496 次模型與用戶模擬器的互動回合，而先進的推理模型目前僅能解決**約24%**與**約18%**的任務，突顯了此基準的挑戰性。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
        style="width: 100%; min-width: 100px; display: block; margin: auto; ">
 </p>
 
-### ✅ 兩種評測模式
+### ✅ 兩種評估模式
 
-BIRD-INTERACT 支援上述兩種評測模式：
+BIRD-INTERACT 支援上述兩種評估模式：
 
-   - **c-Interact**：對話互動模式，屬於被動模式，工作流程是固定的。程式碼與詳細資訊可在 `bird_interact_conv` 找到。
-   - **a-Interact**：智能代理互動模式，屬於具體化的主動模式，工作流程是動態且由模型主導。程式碼與詳細資訊可在 `bird_interact_agent` 找到。
+   - **c-Interact**：對話互動，屬於被動模式，流程是固定的。相關程式碼與詳細資訊可參見 `bird_interact_conv`。
+   - **a-Interact**：代理互動，屬於具身主動模式，流程是動態且由模型主導。相關程式碼與詳細資訊可參見 `bird_interact_agent`。
 
 
-### 🐣 輕量版
+### 🐣 精簡版
 
-我們釋出 BIRD-INTERACT 的輕量版，`bird-interact-lite-exp`，其中包含 270 個高品質的真實世界任務，專為 PostgreSQL 設計。這是快速實驗的良好起點。
+我們釋出 BIRD-INTERACT 的精簡版 `bird-interact-lite-exp`，包含 270 個高品質的真實世界任務，專為 PostgreSQL 設計。這是快速實驗的良好起點。
 
 ### 🦜 完整版
 
-BIRD-INTERACT 的完整版，`bird-interact-full`，是一個全面的基準測試，包含 600 個 PostgreSQL 任務。涵蓋多種 SQL 操作與使用者查詢。完整版即將推出。
+BIRD-INTERACT 的完整版 `bird-interact-full` 是一套全面性的基準，包含 600 個 PostgreSQL 任務，涵蓋廣泛的 SQL 操作及用戶查詢。完整版即將推出。
 
-### BIRD-INTERACT 輕量版模型效能結果
+### 模型在 BIRD-INTERACT 精簡版上的表現結果
 
-#### 1. **c-Interact** 效能
-| 排名 | 模型名稱           | 標準化獎勵值 | 等級            |
+#### 1. **c-Interact** 表現
+| 排名 | 模型名稱           | 標準化獎勵 | 水平            |
 |:------:|--------------------|:-------:|:--------------:|
-| 1    | o3-mini            | 33.04 | 🏆 卓越聊天      |
-| 2    | GPT-4o             | 30.33 | 💎 優秀聊天      |
-| 3    | Gemini-2.0-flash   | 27.41 | 💎 優秀聊天      |
-| 4    | Claude-3.7-sonnet  | 26.60 | ✨ 標準聊天      |
-| 5    | DeepSeek-R1        | 21.74 | ✨ 標準聊天      |
-| 6    | Qwen3              | 20.33 | ⚪ 基礎聊天      |
-| 7    | DeepSeek-V3        | 15.85 | ⚪ 基礎聊天      |
+| 1    | o3-mini            | 33.04 | 🏆 優秀對話       |
+| 2    | GPT-4o             | 30.33 | 💎 良好對話       |
+| 3    | Gemini-2.0-flash   | 27.41 | 💎 良好對話       |
+| 4    | Claude-3.7-sonnet  | 26.60 | ✨ 標準            |
+| 5    | DeepSeek-R1        | 21.74 | ✨ 標準            |
+| 6    | Qwen3              | 20.33 | ⚪ 基礎            |
+| 7    | DeepSeek-V3        | 15.85 | ⚪ 基礎            |
 
-#### 2. **a-Interact** 效能
-| 排名 | 模型名稱           | 預算參數*     | 平均步驟/任務 | 平均成本 (USD)/任務 | 標準化獎勵值 | 等級                  |
-|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|
-| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 卓越互動              |
-| 2    | o3-mini            | 6/6 | 7.8  | $0.0754 | 21.07 | 💎 優秀互動              |
-| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 優秀互動              |
-| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ 標準互動              |
-| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ 標準                  |
-| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ 基礎                  |
-| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ 基礎                  |
+#### 2. **a-Interact** 表現
+| 排名 | 模型名稱           | 預算參數*         | 任務平均步數     | 任務平均花費 (美元) | 標準化獎勵         | 水平                |
 
-> \* 預算參數：起始預算／用戶耐心預算，單位為我們的虛擬貨幣 *bird-coin*s <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">。詳情請參見 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)。
+| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 優異互動 |
+| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 良好互動 |
+| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 良好互動 |
+| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ 標準 |
+| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ 標準 |
+| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ 基礎 |
+| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ 基礎 |
 
-### 互動時間縮放（ITS）
+> \* 預算參數：起始預算／用戶耐心預算，使用我們的虛擬貨幣 *bird-coin* <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;"> 度量。詳細資訊請參考 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)。
 
-互動時間縮放（ITS）指的是模型能夠通過多輪互動持續提升最終性能的能力。當這種互動式表現超越模型在完全明確、無歧義任務下的理想單輪表現時，我們稱其符合 **ITS 定律**。隨著用戶耐心增加和互動輪次累積，性能持續提升，展現出模型能在長時間對話中保持高效溝通。目前，我們僅發現 claude-3-7-sonnet 符合 ITS 定律。
+### 互動時間擴展（ITS）
+
+互動時間擴展（ITS）指的是模型能夠透過多輪互動不斷提升其最終表現的能力。當這種互動式表現超越模型在完全明確且無歧義任務下的理想化單輪表現時，即可稱其符合 **ITS 法則**。隨著用戶耐心提升和互動回合累積，表現持續進步，展現出模型能在長時間對話中維持有效溝通。目前僅發現 claude-3-7-sonnet 符合 ITS 法則。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png" 
        style="width: 100%; min-width: 100px; display: block; margin: auto; ">
 </p>
 
-## 📦 資料集細節
+## 📦 數據集詳情
 
-### 資料集說明
+### 數據集說明
 
-- **資料庫：** 完整的 PostgreSQL 資料庫可從 [Google 雲端硬碟](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view) 下載。詳情請參見 [Quick Eval](#quick-eval) 章節。
-- **data：** 每筆資料包含以下主要部分：
-   - `selected_database`：資料庫名稱。  
-   - `query`：明確無歧義的用戶查詢。  
-   - `amb_user_query`：注入歧義的用戶查詢。
-   - `user_query_ambiguity`：注入到用戶查詢中的歧義。
-   - `non_critical_ambiguity`：非關鍵歧義，如排序、限制等。
-   - `knowledge_ambiguity`：由隱藏外部知識產生的歧義。 
-   - `sol_sql`：正確的 SQL 解答。  
-   - `preprocess_sql`：在執行解答或預測前需執行的 SQL 查詢。  
-   - `clean_up_sql`：在測試結束後執行以還原資料庫變更的 SQL 查詢。  
-   - `test_cases`：用於驗證預測修正 SQL 的一組測試案例。
-   - `follow_up`：標記的後續問題。
-   - `external_knowledge`：與特定任務相關的外部知識。
+- **資料庫：** 完整 PostgreSQL 資料庫可從 [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view) 下載。詳情請見 [Quick Eval](#quick-eval) 章節。
+- **數據：** 每筆數據包含以下主要部分：
+   - `selected_database`: 資料庫名稱。  
+   - `query`: 明確無歧義的用戶查詢。  
+   - `amb_user_query`: 注入歧義的用戶查詢。
+   - `user_query_ambiguity`: 注入至用戶查詢中的歧義。
+   - `non_critical_ambiguity`: 非關鍵性歧義，如排序、限制等。
+   - `knowledge_ambiguity`: 由外部知識遮罩產生的歧義。 
+   - `sol_sql`: 標準答案 SQL 解法。  
+   - `preprocess_sql`: 執行解答或預測前需運行的 SQL 查詢。  
+   - `clean_up_sql`: 測試案例後執行以還原資料庫變動的 SQL 查詢。  
+   - `test_cases`: 用於驗證預測修正 SQL 的一組測試案例。
+   - `follow_up`: 標記過的後續問題。
+   - `external_knowledge`: 與特定任務相關的外部知識。
 
-- **evaluation：** 評估程式碼可於 [`./evaluation`](./evaluation) 目錄取得。
-- **策劃：** BIRD 團隊 & Google Cloud
-- **授權：** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- **評估：** 評估程式碼可於 [`./evaluation`](./evaluation) 目錄取得。
+- **整理者：** BIRD 團隊 & Google Cloud
+- **授權條款：** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - **HuggingFace 資料集卡片：** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
 
 ### 資料集用途
 
-為了避免因自動爬取而造成資料外洩，我們未將 GT 解答 SQL 與測試案例與資料一同提供。
-請寄信至 [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com)，標題請註明 `[bird-interact-lite GT&Test Cases]`，即可自動收到完整資料集。
+為避免因自動爬蟲導致的資料洩漏，我們未將 GT 解答 SQL 與測試案例直接隨資料提供。
+如需完整資料集，請以標題包含 `[bird-interact-lite GT&Test Cases]` 發送電子郵件至 [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com)，系統將自動寄送。
 
 
-<!-- ### 使用 HuggingFace 提供的資料集
 
-您可以使用以下指令從 HuggingFace 下載資料集：
+
+<!-- ### 從 HuggingFace 取得資料集
+
+您可以使用以下指令從 HuggingFace 下載此資料集：
 ```bash
 from datasets import load_dataset
 # Load the flash version of the dataset
@@ -207,18 +213,20 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-有關執行 **a-interact** 的詳細資訊，請參閱 `./bird_interact_agent/README.md`；而 **c-interact** 的資訊請參閱 `./bird_interact_conv/README.md`。
+有關運行 **a-interact** 的詳細資訊，請參閱 `./bird_interact_agent/README.md`；而 **c-interact** 的相關資訊，請參閱 `./bird_interact_conv/README.md`。
 
 ## 📋 待辦清單
 
-- [x] 發布精簡版，bird-interact-lite (270)。
-- [x] 發布對話版，bird-interact-conv。
-- [x] 發布代理人版，bird-interact-agent。
-- [x] 發布完整版 bird-interact-full (600)。
-- [ ] SFT / RL 一個用戶模擬器
+- [x] 發佈精簡版，bird-interact-lite（270）。
+- [x] 發佈對話版，bird-interact-conv。
+- [x] 發佈代理版，bird-interact-agent。
+- [x] 發佈完整版，bird-interact-full（600）。
+- [ ] SFT / RL 使用者模擬器
 
-## 建立者：
-BIRD 團隊與 Google Cloud
+## 製作者：
+BIRD 團隊 & Google Cloud
+
+
 
 
 
@@ -226,6 +234,6 @@ BIRD 團隊與 Google Cloud
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-22
 
 ---
