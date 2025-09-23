@@ -1,0 +1,740 @@
+[
+  {
+    "row": 1,
+    "rowsha": "WrgVZZZ5cXwufWD2gsNF4FO140rE/TYewVWQV2Tr0bM=",
+    "originContent": "# Node Monkey",
+    "translatedContent": "# Node Monkey"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "cij9aa0ih6bcNlRWRdxAB3L+jGTl+zOcoU3UDaFNPGc=",
+    "originContent": "A tool for inspecting, debugging and commanding Node.js applications through a web browser or SSH interface into your app (with your own custom commands).",
+    "translatedContent": "Una herramienta para inspeccionar, depurar y controlar aplicaciones Node.js a través de un navegador web o interfaz SSH en tu aplicación (con tus propios comandos personalizados)."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "ZC7naBkWw7tJP6MuF3pt9iDbI+Xd/R8jViLCmthQEII=",
+    "originContent": "Node Monkey runs a simple server (or attaches to your existing server) and uses [Socket.IO](https://github.com/LearnBoost/socket.io) to create a websocket connection between the browser and server. Its primary feature captures anything that would normally be logged to the terminal and passes it to the browser for inspection.",
+    "translatedContent": "Node Monkey ejecuta un servidor simple (o se conecta a tu servidor existente) y utiliza [Socket.IO](https://github.com/LearnBoost/socket.io) para crear una conexión websocket entre el navegador y el servidor. Su característica principal captura todo lo que normalmente se registraría en la terminal y lo envía al navegador para su inspección."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "Ts2M5PDDdKY6hwrcrRgxOC4zPrxXYhdeXaydNU9GyWA=",
+    "originContent": "It is incredibly easy to get started (see [Quick Usage](#quick-usage) below) but Node Monkey also provides additional features and significant flexibility for more advanced usage. You can actually SSH into your app where Node Monkey will provide a command line interface to execute your own custom commands. This can be very useful for debugging, monitoring or otherwise controlling your application while it is running. It provides authentication for security in production applications.",
+    "translatedContent": "Es increíblemente fácil comenzar (ver [Uso rápido](#quick-usage) abajo) pero Node Monkey también ofrece características adicionales y una flexibilidad significativa para un uso más avanzado. De hecho, puedes conectarte por SSH a tu aplicación donde Node Monkey proporcionará una interfaz de línea de comandos para ejecutar tus propios comandos personalizados. Esto puede ser muy útil para depurar, monitorear o controlar tu aplicación mientras está en ejecución. Proporciona autenticación para seguridad en aplicaciones de producción."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "Yk5cZ3S6lnsBfRjsT/4ud8HP+iWBYqbxG0YlzTcI+ew=",
+    "originContent": "## Contents",
+    "translatedContent": "## Contenidos"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "koJPNwQV0763RVUH5Xo8MXGtao27l/0qDrHd6wToFbc=",
+    "originContent": "- [Motivation](#motivation)",
+    "translatedContent": "- [Motivación](#motivation)"
+  },
+  {
+    "row": 12,
+    "rowsha": "BI+Zz2NbZ0AX7YgD9EjinH4VCYulypQnBww5RTqTSDI=",
+    "originContent": "- [Features](#features)",
+    "translatedContent": "- [Características](#features)"
+  },
+  {
+    "row": 13,
+    "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+    "originContent": "- [Installation](#installation)",
+    "translatedContent": "- [Instalación](#installation)"
+  },
+  {
+    "row": 14,
+    "rowsha": "AiL7eT82E0SJNMvcB8N+s31V9LDapUnUmmqELQ/uUys=",
+    "originContent": "- [Quick Usage](#quick-usage)",
+    "translatedContent": "- [Uso rápido](#quick-usage)"
+  },
+  {
+    "row": 15,
+    "rowsha": "v+fixfONf/ZrQcMj8MX7bOu+z6w7B9z6Z5oLq1VGbQo=",
+    "originContent": "- [Server](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md)",
+    "translatedContent": "- [Servidor](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md)"
+  },
+  {
+    "row": 16,
+    "rowsha": "hy4U3QxBqcwvtrK7fUSf1vG/5CygV6qHpDeqFRERLhY=",
+    "originContent": "  - [Provide your own](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#provide-your-own)",
+    "translatedContent": "  - [Proporciona el tuyo](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#provide-your-own)"
+  },
+  {
+    "row": 17,
+    "rowsha": "hW1tvWM26kyT+Rn4d/s3H4oIYHKd9ay5wOJpicDCmOM=",
+    "originContent": "  - [Options](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#options)",
+    "translatedContent": "  - [Opciones](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#options)"
+  },
+  {
+    "row": 18,
+    "rowsha": "2Y7lmUPVmKziUZNwTN26qBiHaaNNnYoeQAp8hAi6WtQ=",
+    "originContent": "  - [Properties](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#properties)",
+    "translatedContent": "  - [Propiedades](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#properties)"
+  },
+  {
+    "row": 19,
+    "rowsha": "r41X7VDtNYZ8iXber7yeqx0tmGTBbjOdXsVbK3rxhGQ=",
+    "originContent": "  - [Methods](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#methods)",
+    "translatedContent": "  - [Métodos](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#methods)"
+  },
+  {
+    "row": 20,
+    "rowsha": "RldAWjKvLcRlWEi0Zehqn8ILPEIHAYDbIkBnHtPbl8k=",
+    "originContent": "- [Client (browser)](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/client.md)",
+    "translatedContent": "- [Cliente (navegador)](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/client.md)"
+  },
+  {
+    "row": 21,
+    "rowsha": "7TT95IUKMYTusS11KMukxQ2hNXRrhpi1FshjkrHwkuA=",
+    "originContent": "  - [Properties](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/client.md#properties)",
+    "translatedContent": "  - [Propiedades](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/client.md#properties)"
+  },
+  {
+    "row": 22,
+    "rowsha": "Q4o52bH5oRZcuUq+Rx8PHto7f9H931bWkxE7RQmeWF8=",
+    "originContent": "  - [Methods](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/client.md#methods)",
+    "translatedContent": "  - [Métodos](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/client.md#methods)"
+  },
+  {
+    "row": 23,
+    "rowsha": "OuyfwZLBpN1lzRLhfTrm2szbG37XYnqVfQSj+HSB9gA=",
+    "originContent": "- [SSH](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/ssh.md)",
+    "translatedContent": "- [SSH](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/ssh.md)"
+  },
+  {
+    "row": 24,
+    "rowsha": "KgAqvh434VrR30mxYNmKM6Pf1iTxhPDwKFchjzspZu8=",
+    "originContent": "  - [Setup](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/ssh.md#setup)",
+    "translatedContent": "  - [Configuración](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/ssh.md#setup)"
+  },
+  {
+    "row": 25,
+    "rowsha": "M1hJSlvpx85l4aBR90vyWmoIUwRP5o8eVxrB14wVO4s=",
+    "originContent": "  - [Usage](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/ssh.md#usage)",
+    "translatedContent": "  - [Uso](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/ssh.md#usage)"
+  },
+  {
+    "row": 26,
+    "rowsha": "CCBSFPS0pammPFaIrfAwcsxZHYdNLxYEaYYA8d43a+Y=",
+    "originContent": "- [User Management](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/user-management.md)",
+    "translatedContent": "- [Gestión de usuarios](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/user-management.md)"
+  },
+  {
+    "row": 27,
+    "rowsha": "LN4vYh0XwH27FcFQfJNC+NL4B4eRGz2i5zXqfc2XmSE=",
+    "originContent": "- [Contributing](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/contributing.md)",
+    "translatedContent": "- [Contribuir](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/contributing.md)"
+  },
+  {
+    "row": 28,
+    "rowsha": "DwbQUreTERUXzlksX1yv/MQ/hws2dBI0IHca5N5iARA=",
+    "originContent": "- [Changelog](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/CHANGELOG.md)",
+    "translatedContent": "- [Historial de cambios](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/CHANGELOG.md)"
+  },
+  {
+    "row": 29,
+    "rowsha": "tYHG8yiD8vGl+kaUTaoYd3fRIZV31BiQlFpAfV1P8Wg=",
+    "originContent": "- [MIT License](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/LICENSE.md)",
+    "translatedContent": "- [Licencia MIT](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/LICENSE.md)"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "XkjmO8GZw+NPlqtsKIz94hXoCCSSximfmFKrLHYsZ2I=",
+    "originContent": "## Motivation",
+    "translatedContent": "## Motivación"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "smUU14CTa3lFvLxBIyho/eEPQnU46LTbc+JPp6zRHZI=",
+    "originContent": "The motivation for this project came from trying to debug a Node.js server I wrote that used websockets. I found it problematic trying to inspect objects with the terminal because the output was too large and not browsable. I tried using the built-in debugging that works with the [Chrome Developer Tools plugin](https://github.com/joyent/node/wiki/using-eclipse-as-node-applications-debugger) for Eclipse. Unfortunately, I ran into a problem where setting breakpoints to inspect objects would cause the server to stop responding to heartbeats thus causing the client to disconnect. This would entirely mess up my debugging efforts. All I really needed to do was have a good way to inspect objects.",
+    "translatedContent": "La motivación para este proyecto surgió al intentar depurar un servidor Node.js que escribí y que usaba websockets. Encontré problemático inspeccionar objetos en la terminal porque la salida era demasiado grande y no navegable. Intenté usar la depuración incorporada que funciona con el [plugin de Chrome Developer Tools](https://github.com/joyent/node/wiki/using-eclipse-as-node-applications-debugger) para Eclipse. Desafortunadamente, tuve un problema donde al poner puntos de interrupción para inspeccionar objetos, el servidor dejaba de responder a latidos (heartbeats) causando que el cliente se desconectara. Esto arruinaba completamente mis esfuerzos de depuración. Todo lo que realmente necesitaba era una buena manera de inspeccionar objetos."
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "SJ2DhRpJZXaBfHPjCSEefAjnVLtMec5BH1LtEBb4bDA=",
+    "originContent": "I searched Google and found projects like [node-inspector](https://github.com/dannycoates/node-inspector), which didn't work with the latest versions of Node, and [node-codein](http://thomashunter.name/blog/nodejs-console-object-debug-inspector/) which had many bugs. And neither worked with Firefox. So, Node Monkey was born!",
+    "translatedContent": "Busqué en Google y encontré proyectos como [node-inspector](https://github.com/dannycoates/node-inspector), que no funcionaba con las versiones más recientes de Node, y [node-codein](http://thomashunter.name/blog/nodejs-console-object-debug-inspector/) que tenía muchos errores. Y ninguno funcionaba con Firefox. ¡Así nació Node Monkey!"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Características"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "Ssau9cB04jImPKzA4hqhqag7MZ8JNVydeV9Ss/cjD54=",
+    "originContent": "- Log console output from your app to a browser console for easier inspection",
+    "translatedContent": "- Registrar la salida de consola de tu aplicación en una consola del navegador para una inspección más sencilla"
+  },
+  {
+    "row": 40,
+    "rowsha": "+8qk7vPjDSMQ/c1LeKdGhOUr7O26KX+iRrXGl6rGcGY=",
+    "originContent": "  - Provides a stream for those using Bunyan (see [here](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#nodemonkeybunyan_stream))",
+    "translatedContent": "  - Proporciona un stream para quienes usan Bunyan (ver [aquí](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#nodemonkeybunyan_stream))"
+  },
+  {
+    "row": 41,
+    "rowsha": "ckj9ucqoesT0jdIGn93uK/NyUgUG4zg0a0+ORoIJkSg=",
+    "originContent": "- Provides SSH capability so you can get a shell into your app for inspection, debugging or controlling your app",
+    "translatedContent": "- Proporciona capacidad SSH para que puedas obtener un shell en tu aplicación para inspección, depuración o control de tu aplicación"
+  },
+  {
+    "row": 42,
+    "rowsha": "kyh6rLqgoySImC91u7DJ5ddFs4e8PMIL7whEinJptHI=",
+    "originContent": "- Register commands for your application that can be executed from the browser console or the SSH interface",
+    "translatedContent": "- Registra comandos para tu aplicación que pueden ejecutarse desde la consola del navegador o la interfaz SSH"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Instalación"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "4n7awNIMgtQawV3nEpc0T5k+pl0Q/gG5lxeiDAngjcY=",
+    "originContent": "npm install --save node-monkey",
+    "translatedContent": "npm install --save node-monkey"
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "B1Uqf+ZoeuledTlWF4+ai2+T308TG5rrUaamcE4GshU=",
+    "originContent": "If you're interested in testing experimental and upcoming features, run this instead:",
+    "translatedContent": "Si estás interesado en probar funciones experimentales y próximas, ejecuta esto en su lugar:"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 53,
+    "rowsha": "TuKP279PfbsgspVPxmfbP1ONK7ZdpfQidP/U5vZmZ3E=",
+    "originContent": "npm install --save node-monkey@next",
+    "translatedContent": "npm install --save node-monkey@next"
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "Ql0HOBoba8xpLHzuJb+aW8698vPKVJ13/HT4itPoSxU=",
+    "originContent": "## Quick Usage",
+    "translatedContent": "## Uso Rápido"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "+XhJRHbjXHlE+KPBGBe4EGjpIbmiQDlgnyTZmj7KTuU=",
+    "originContent": "Although Node Monkey supports many features, getting started is designed to be extremely easy. All you have to do is include a line or two in your application. Anything that is logged to the console after this will show up in the browser console once connected. It captures the output to most `console.*` function calls and forwards the output to the browser for inspection.",
+    "translatedContent": "Aunque Node Monkey soporta muchas características, empezar está diseñado para ser extremadamente fácil. Todo lo que tienes que hacer es incluir una o dos líneas en tu aplicación. Cualquier cosa que se registre en la consola después de esto aparecerá en la consola del navegador una vez conectado. Captura la salida de la mayoría de las llamadas a funciones `console.*` y reenvía la salida al navegador para inspección."
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "F7ouJTHCmLfUydRWk1bomE52/VJFtEf8yvrimLNR8Fs=",
+    "originContent": "The simplest usage looks like this:",
+    "translatedContent": "El uso más sencillo se ve así:"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 63,
+    "rowsha": "dgioIE4bXndi9YUvy9aeBBPM7TDlOSxnbLSaq7qeu2I=",
+    "originContent": "const NodeMonkey = require(\"node-monkey\")",
+    "translatedContent": "const NodeMonkey = require(\"node-monkey\")"
+  },
+  {
+    "row": 64,
+    "rowsha": "sAEPRIa3O9yHiogn73DPLlQfjwkHGy7W9OxmevSkw1I=",
+    "originContent": "NodeMonkey()",
+    "translatedContent": "NodeMonkey()"
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Node Monkey también soporta muchas [opciones](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#options) de configuración y instancias nombradas. La llamada tiene la forma `NodeMonkey([options[, name])`. Así que, por ejemplo, para suprimir la salida local en la consola y ver solo la salida en tu navegador o terminal conectado, podrías hacer algo como esto:"
+  },
+  {
+    "row": 67,
+    "rowsha": "tKb5janilhezLjvce530lgeluvE8gwMcKTCF1lTt2fs=",
+    "originContent": "Node Monkey also supports many configuration [options](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#options) and named instances. The call takes the form `NodeMonkey([options[, name])`. So, for example, to suppress local console output and only see output in your connected browser or terminal you might do something like this:",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 70,
+    "rowsha": "dgioIE4bXndi9YUvy9aeBBPM7TDlOSxnbLSaq7qeu2I=",
+    "originContent": "const NodeMonkey = require(\"node-monkey\")",
+    "translatedContent": "const NodeMonkey = require(\"node-monkey\")"
+  },
+  {
+    "row": 71,
+    "rowsha": "qd/1lanr12SJwnjKB7UMPCE6CFkw8umdgFz3Zbw2EEc=",
+    "originContent": "const monkey = NodeMonkey({",
+    "translatedContent": "const monkey = NodeMonkey({"
+  },
+  {
+    "row": 72,
+    "rowsha": "7RDs6beNl7dvmNxdvctWd5vDJL9T+v2Q8brtwGSKK8k=",
+    "originContent": "  server: {",
+    "translatedContent": "  server: {"
+  },
+  {
+    "row": 73,
+    "rowsha": "T/cRWSOSWb6dcN/F6e1BVUWcZV0LedhHU7gvQk8mnlo=",
+    "originContent": "    disableLocalOutput: true,",
+    "translatedContent": "    disableLocalOutput: true,"
+  },
+  {
+    "row": 74,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 75,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 76,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "q7t/BA0PmgvzEhhqSJx/fUpP7OJS1u+uPMxu+05E3b8=",
+    "originContent": "You can include Node Monkey in all the files within your app that you want and if used like the examples above, each call to `NodeMonkey()` will always return the same instance you first constructed, ignoring any options passed on subsequent calls. However, you may want to construct new instances with different options. To do so, give your instance a name:",
+    "translatedContent": "Puedes incluir Node Monkey en todos los archivos dentro de tu aplicación que desees y si se usa como en los ejemplos anteriores, cada llamada a `NodeMonkey()` siempre devolverá la misma instancia que construiste primero, ignorando cualquier opción pasada en llamadas posteriores. Sin embargo, es posible que desees construir nuevas instancias con diferentes opciones. Para hacerlo, asigna un nombre a tu instancia:"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 81,
+    "rowsha": "dgioIE4bXndi9YUvy9aeBBPM7TDlOSxnbLSaq7qeu2I=",
+    "originContent": "const NodeMonkey = require(\"node-monkey\")",
+    "translatedContent": "const NodeMonkey = require(\"node-monkey\")"
+  },
+  {
+    "row": 82,
+    "rowsha": "yYek7ruil4Aph+7bnXZoa6zkMfYVykmvnL3NPOpCcPk=",
+    "originContent": "const monkey1 = NodeMonkey() // Creates an instance named 'default'",
+    "translatedContent": "const monkey1 = NodeMonkey() // Creates an instance named 'default'"
+  },
+  {
+    "row": 83,
+    "rowsha": "GxNU8+AjgZDspX4aQxFV7FVobv2bgpf5620o6bYOPHw=",
+    "originContent": "const monkey2 = NodeMonkey(\"george\") // Creates a new instance with default options",
+    "translatedContent": "const monkey2 = NodeMonkey(\"george\") // Creates a new instance with default options"
+  },
+  {
+    "row": 84,
+    "rowsha": "BD0HBNaJyDIyrnKIvPwNygifz/Lzl2Bcuw0ZJk+XA94=",
+    "originContent": "const monkey3 = NodeMonkey(",
+    "translatedContent": "const monkey3 = NodeMonkey("
+  },
+  {
+    "row": 85,
+    "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+    "originContent": "  {",
+    "translatedContent": "  {"
+  },
+  {
+    "row": 86,
+    "rowsha": "1cu++QHeqF6WWmyXB/gJmNqsKMvhK4tbXYaThYnFj4E=",
+    "originContent": "    // Creates a new instance with custom options named 'ninja'",
+    "translatedContent": "    // Creates a new instance with custom options named 'ninja'"
+  },
+  {
+    "row": 87,
+    "rowsha": "arr8EyWtGMKwxEOR50jdafLw6HaxjMxrJldlccrNm+Y=",
+    "originContent": "    server: {",
+    "translatedContent": "    server: {"
+  },
+  {
+    "row": 88,
+    "rowsha": "rfBDzVtjYhvQQG2wkbhN1T25PWGr26ux7+HXddebS24=",
+    "originContent": "      silent: true,",
+    "translatedContent": "      silent: true,"
+  },
+  {
+    "row": 89,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 90,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 91,
+    "rowsha": "E4tZNIQ1C78Zo/N4OsYlpclNsqdQnbIIfUF1s4Zw3Iw=",
+    "originContent": "  \"ninja\",",
+    "translatedContent": "  \"ninja\","
+  },
+  {
+    "row": 92,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 93,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "Fp2enOwsaEz2O5IC1e4bmFMb55xWbHvgUPZ56c8JFNE=",
+    "originContent": "If you don't specify a port for additional instances it will automatically be set for you and will just increment from the default (e.g. 50502, 50504 for the websocket server and 50503, 50505 for the SSH server).",
+    "translatedContent": "Si no especificas un puerto para las instancias adicionales, se configurará automáticamente y simplemente se incrementará a partir del valor predeterminado (por ejemplo, 50502, 50504 para el servidor websocket y 50503, 50505 para el servidor SSH)."
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "N6JhDqnyvbKcfbRgYFPb0rB74bQ/Ogx72QQ8LnxyqoY=",
+    "originContent": "To get an already constructed instance in another file just call it with the name again:",
+    "translatedContent": "Para obtener una instancia ya construida en otro archivo, simplemente llámala con el nombre nuevamente:"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 100,
+    "rowsha": "dgioIE4bXndi9YUvy9aeBBPM7TDlOSxnbLSaq7qeu2I=",
+    "originContent": "const NodeMonkey = require(\"node-monkey\")",
+    "translatedContent": "const NodeMonkey = require(\"node-monkey\")"
+  },
+  {
+    "row": 101,
+    "rowsha": "bXYglG77XOi9YxYEZeqjrBkdZjpkRSHJYGTsMzx4It4=",
+    "originContent": "const monkey3 = NodeMonkey(\"ninja\")",
+    "translatedContent": "const monkey3 = NodeMonkey(\"ninja\")"
+  },
+  {
+    "row": 102,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "rV+lzbApasX440V5jQzqU3QL0+35/ohrMb7DWHmCAIU=",
+    "originContent": "When you start your app you will see the following output:",
+    "translatedContent": "Cuando inicies tu aplicación verás la siguiente salida:"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 107,
+    "rowsha": "3d/hKj81+2qxxNyTUy4b9Pse03N3U5zoXwfiXCPUdHA=",
+    "originContent": "Node Monkey listening at http://0.0.0.0:50500",
+    "translatedContent": "Node Monkey listening at http://0.0.0.0:50500"
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "/GpdZTTrL6Gu1zvVKXV/cyC9+pwICiUKfHK2GY+aJFU=",
+    "originContent": "To connect your browser simply go to the address it shows in your web browser (`http://0.0.0.0:50500` in this case). If you change the default `host` and `port` bindings or pass in your own server be sure to adjust your URL accordingly. It will prompt you for a username and password. Until you setup a user the default is `guest` and `guest`.",
+    "translatedContent": "Para conectar tu navegador simplemente ve a la dirección que muestra en tu navegador web (`http://0.0.0.0:50500` en este caso). Si cambias la configuración predeterminada de `host` y `port` o proporcionas tu propio servidor, asegúrate de ajustar la URL en consecuencia. Te pedirá un nombre de usuario y contraseña. Hasta que configures un usuario, el predeterminado es `guest` y `guest`."
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "HZuT+emgwSWbMqoNrNB9eZvVXKOAr27yndgqgYAHVFo=",
+    "originContent": "If you provide your own server you can view output in the console of your own web application instead. To see how to provide your own server check out the [documentation](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#provide-your-own). You will need to include the following `<script>` tag in your HTML source to integrate Node Monkey output with your app:",
+    "translatedContent": "Si proporcionas tu propio servidor, puedes ver la salida en la consola de tu propia aplicación web en su lugar. Para ver cómo proporcionar tu propio servidor, consulta la [documentación](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#provide-your-own). Necesitarás incluir la siguiente etiqueta `<script>` en el código fuente HTML para integrar la salida de Node Monkey con tu aplicación:"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 115,
+    "rowsha": "j/tPNI9fiXsaUh50btJIrVLFOrtyQEBwRwUkQhUQXYY=",
+    "originContent": "<script type=\"text/javascript\" src=\"http://0.0.0.0:50500/monkey.js\"></script>",
+    "translatedContent": "<script type=\"text/javascript\" src=\"http://0.0.0.0:50500/monkey.js\"></script>"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "HwP2XwH6rqXx6voAm2o+lIs2f3Bo64HyMvxG6cKxrUo=",
+    "originContent": "**NOTE**: You do NOT have to refresh the page when you restart your Node.js application to continue to receive output. Node Monkey will automatically reconnect.",
+    "translatedContent": "**NOTE**: You do NOT have to refresh the page when you restart your Node.js application to continue to receive output. Node Monkey will automatically reconnect."
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "yoLCRYoHasKanrNGnZWXF51vTpqjTxWpcf9rmGoZdlc=",
+    "originContent": "### LICENSE: [MIT](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/LICENSE.md)",
+    "translatedContent": "### LICENSE: [MIT](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/LICENSE.md)"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

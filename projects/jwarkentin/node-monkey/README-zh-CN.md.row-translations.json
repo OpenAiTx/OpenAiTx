@@ -1,0 +1,740 @@
+[
+  {
+    "row": 1,
+    "rowsha": "WrgVZZZ5cXwufWD2gsNF4FO140rE/TYewVWQV2Tr0bM=",
+    "originContent": "# Node Monkey",
+    "translatedContent": "# Node Monkey"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "cij9aa0ih6bcNlRWRdxAB3L+jGTl+zOcoU3UDaFNPGc=",
+    "originContent": "A tool for inspecting, debugging and commanding Node.js applications through a web browser or SSH interface into your app (with your own custom commands).",
+    "translatedContent": "一个通过网页浏览器或 SSH 接口检查、调试和控制 Node.js 应用程序的工具（支持自定义命令）。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "ZC7naBkWw7tJP6MuF3pt9iDbI+Xd/R8jViLCmthQEII=",
+    "originContent": "Node Monkey runs a simple server (or attaches to your existing server) and uses [Socket.IO](https://github.com/LearnBoost/socket.io) to create a websocket connection between the browser and server. Its primary feature captures anything that would normally be logged to the terminal and passes it to the browser for inspection.",
+    "translatedContent": "Node Monkey 运行一个简单的服务器（或附加到您现有的服务器），并使用 [Socket.IO](https://github.com/LearnBoost/socket.io) 在浏览器和服务器之间创建 websocket 连接。其主要功能是捕获通常会被记录到终端的任何内容，并将其传递到浏览器进行检查。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "Ts2M5PDDdKY6hwrcrRgxOC4zPrxXYhdeXaydNU9GyWA=",
+    "originContent": "It is incredibly easy to get started (see [Quick Usage](#quick-usage) below) but Node Monkey also provides additional features and significant flexibility for more advanced usage. You can actually SSH into your app where Node Monkey will provide a command line interface to execute your own custom commands. This can be very useful for debugging, monitoring or otherwise controlling your application while it is running. It provides authentication for security in production applications.",
+    "translatedContent": "入门非常简单（见下面的[快速使用](#quick-usage)），但 Node Monkey 还提供了额外的功能和显著的灵活性，适合更高级的使用。您实际上可以通过 SSH 登录您的应用程序，Node Monkey 会提供一个命令行接口以执行您自己的自定义命令。这对于调试、监控或以其他方式控制正在运行的应用程序非常有用。它为生产环境应用提供了安全认证。"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "Yk5cZ3S6lnsBfRjsT/4ud8HP+iWBYqbxG0YlzTcI+ew=",
+    "originContent": "## Contents",
+    "translatedContent": "## 目录"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "koJPNwQV0763RVUH5Xo8MXGtao27l/0qDrHd6wToFbc=",
+    "originContent": "- [Motivation](#motivation)",
+    "translatedContent": "- [动机](#motivation)"
+  },
+  {
+    "row": 12,
+    "rowsha": "BI+Zz2NbZ0AX7YgD9EjinH4VCYulypQnBww5RTqTSDI=",
+    "originContent": "- [Features](#features)",
+    "translatedContent": "- [功能](#features)"
+  },
+  {
+    "row": 13,
+    "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+    "originContent": "- [Installation](#installation)",
+    "translatedContent": "- [安装](#installation)"
+  },
+  {
+    "row": 14,
+    "rowsha": "AiL7eT82E0SJNMvcB8N+s31V9LDapUnUmmqELQ/uUys=",
+    "originContent": "- [Quick Usage](#quick-usage)",
+    "translatedContent": "- [快速使用](#quick-usage)"
+  },
+  {
+    "row": 15,
+    "rowsha": "v+fixfONf/ZrQcMj8MX7bOu+z6w7B9z6Z5oLq1VGbQo=",
+    "originContent": "- [Server](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md)",
+    "translatedContent": "- [服务器](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md)"
+  },
+  {
+    "row": 16,
+    "rowsha": "hy4U3QxBqcwvtrK7fUSf1vG/5CygV6qHpDeqFRERLhY=",
+    "originContent": "  - [Provide your own](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#provide-your-own)",
+    "translatedContent": "  - [提供您自己的](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#provide-your-own)"
+  },
+  {
+    "row": 17,
+    "rowsha": "hW1tvWM26kyT+Rn4d/s3H4oIYHKd9ay5wOJpicDCmOM=",
+    "originContent": "  - [Options](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#options)",
+    "translatedContent": "  - [选项](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#options)"
+  },
+  {
+    "row": 18,
+    "rowsha": "2Y7lmUPVmKziUZNwTN26qBiHaaNNnYoeQAp8hAi6WtQ=",
+    "originContent": "  - [Properties](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#properties)",
+    "translatedContent": "  - [属性](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#properties)"
+  },
+  {
+    "row": 19,
+    "rowsha": "r41X7VDtNYZ8iXber7yeqx0tmGTBbjOdXsVbK3rxhGQ=",
+    "originContent": "  - [Methods](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#methods)",
+    "translatedContent": "  - [方法](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#methods)"
+  },
+  {
+    "row": 20,
+    "rowsha": "RldAWjKvLcRlWEi0Zehqn8ILPEIHAYDbIkBnHtPbl8k=",
+    "originContent": "- [Client (browser)](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/client.md)",
+    "translatedContent": "- [客户端（浏览器）](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/client.md)"
+  },
+  {
+    "row": 21,
+    "rowsha": "7TT95IUKMYTusS11KMukxQ2hNXRrhpi1FshjkrHwkuA=",
+    "originContent": "  - [Properties](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/client.md#properties)",
+    "translatedContent": "  - [属性](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/client.md#properties)"
+  },
+  {
+    "row": 22,
+    "rowsha": "Q4o52bH5oRZcuUq+Rx8PHto7f9H931bWkxE7RQmeWF8=",
+    "originContent": "  - [Methods](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/client.md#methods)",
+    "translatedContent": "  - [方法](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/client.md#methods)"
+  },
+  {
+    "row": 23,
+    "rowsha": "OuyfwZLBpN1lzRLhfTrm2szbG37XYnqVfQSj+HSB9gA=",
+    "originContent": "- [SSH](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/ssh.md)",
+    "translatedContent": "- [SSH](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/ssh.md)"
+  },
+  {
+    "row": 24,
+    "rowsha": "KgAqvh434VrR30mxYNmKM6Pf1iTxhPDwKFchjzspZu8=",
+    "originContent": "  - [Setup](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/ssh.md#setup)",
+    "translatedContent": "  - [设置](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/ssh.md#setup)"
+  },
+  {
+    "row": 25,
+    "rowsha": "M1hJSlvpx85l4aBR90vyWmoIUwRP5o8eVxrB14wVO4s=",
+    "originContent": "  - [Usage](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/ssh.md#usage)",
+    "translatedContent": "  - [使用](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/ssh.md#usage)"
+  },
+  {
+    "row": 26,
+    "rowsha": "CCBSFPS0pammPFaIrfAwcsxZHYdNLxYEaYYA8d43a+Y=",
+    "originContent": "- [User Management](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/user-management.md)",
+    "translatedContent": "- [用户管理](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/user-management.md)"
+  },
+  {
+    "row": 27,
+    "rowsha": "LN4vYh0XwH27FcFQfJNC+NL4B4eRGz2i5zXqfc2XmSE=",
+    "originContent": "- [Contributing](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/contributing.md)",
+    "translatedContent": "- [贡献](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/contributing.md)"
+  },
+  {
+    "row": 28,
+    "rowsha": "DwbQUreTERUXzlksX1yv/MQ/hws2dBI0IHca5N5iARA=",
+    "originContent": "- [Changelog](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/CHANGELOG.md)",
+    "translatedContent": "- [更新日志](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/CHANGELOG.md)"
+  },
+  {
+    "row": 29,
+    "rowsha": "tYHG8yiD8vGl+kaUTaoYd3fRIZV31BiQlFpAfV1P8Wg=",
+    "originContent": "- [MIT License](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/LICENSE.md)",
+    "translatedContent": "- [MIT 许可证](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/LICENSE.md)"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "XkjmO8GZw+NPlqtsKIz94hXoCCSSximfmFKrLHYsZ2I=",
+    "originContent": "## Motivation",
+    "translatedContent": "## 动机"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "smUU14CTa3lFvLxBIyho/eEPQnU46LTbc+JPp6zRHZI=",
+    "originContent": "The motivation for this project came from trying to debug a Node.js server I wrote that used websockets. I found it problematic trying to inspect objects with the terminal because the output was too large and not browsable. I tried using the built-in debugging that works with the [Chrome Developer Tools plugin](https://github.com/joyent/node/wiki/using-eclipse-as-node-applications-debugger) for Eclipse. Unfortunately, I ran into a problem where setting breakpoints to inspect objects would cause the server to stop responding to heartbeats thus causing the client to disconnect. This would entirely mess up my debugging efforts. All I really needed to do was have a good way to inspect objects.",
+    "translatedContent": "这个项目的动机来自于调试我写的使用 websockets 的 Node.js 服务器时遇到的问题。我发现使用终端检查对象很麻烦，因为输出太大且无法浏览。我尝试使用内置的调试工具，该工具可以配合 Eclipse 的 [Chrome 开发者工具插件](https://github.com/joyent/node/wiki/using-eclipse-as-node-applications-debugger) 使用。不幸的是，我遇到了设置断点检查对象时，服务器停止响应心跳包，导致客户端断开连接的问题。这完全破坏了我的调试过程。我真正需要的只是一个检查对象的好方法。"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "SJ2DhRpJZXaBfHPjCSEefAjnVLtMec5BH1LtEBb4bDA=",
+    "originContent": "I searched Google and found projects like [node-inspector](https://github.com/dannycoates/node-inspector), which didn't work with the latest versions of Node, and [node-codein](http://thomashunter.name/blog/nodejs-console-object-debug-inspector/) which had many bugs. And neither worked with Firefox. So, Node Monkey was born!",
+    "translatedContent": "我在 Google 上搜索，发现了像 [node-inspector](https://github.com/dannycoates/node-inspector) 这样的项目，但它们不支持最新版本的 Node，还有 [node-codein](http://thomashunter.name/blog/nodejs-console-object-debug-inspector/) 有很多漏洞，而且这两个都不支持 Firefox。于是，Node Monkey 就诞生了！"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 功能"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "Ssau9cB04jImPKzA4hqhqag7MZ8JNVydeV9Ss/cjD54=",
+    "originContent": "- Log console output from your app to a browser console for easier inspection",
+    "translatedContent": "- 将应用程序的控制台输出日志发送到浏览器控制台，便于检查"
+  },
+  {
+    "row": 40,
+    "rowsha": "+8qk7vPjDSMQ/c1LeKdGhOUr7O26KX+iRrXGl6rGcGY=",
+    "originContent": "  - Provides a stream for those using Bunyan (see [here](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#nodemonkeybunyan_stream))",
+    "translatedContent": "  - 为使用 Bunyan 的用户提供一个流（见[这里](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#nodemonkeybunyan_stream)）"
+  },
+  {
+    "row": 41,
+    "rowsha": "ckj9ucqoesT0jdIGn93uK/NyUgUG4zg0a0+ORoIJkSg=",
+    "originContent": "- Provides SSH capability so you can get a shell into your app for inspection, debugging or controlling your app",
+    "translatedContent": "- 提供 SSH 功能，使您可以进入应用程序的 shell 进行检查、调试或控制应用程序  "
+  },
+  {
+    "row": 42,
+    "rowsha": "kyh6rLqgoySImC91u7DJ5ddFs4e8PMIL7whEinJptHI=",
+    "originContent": "- Register commands for your application that can be executed from the browser console or the SSH interface",
+    "translatedContent": "- 为您的应用程序注册命令，这些命令可以从浏览器控制台或 SSH 界面执行  "
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 安装  "
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "4n7awNIMgtQawV3nEpc0T5k+pl0Q/gG5lxeiDAngjcY=",
+    "originContent": "npm install --save node-monkey",
+    "translatedContent": "npm install --save node-monkey"
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果您有兴趣测试实验性和即将推出的功能，请改用以下命令："
+  },
+  {
+    "row": 50,
+    "rowsha": "B1Uqf+ZoeuledTlWF4+ai2+T308TG5rrUaamcE4GshU=",
+    "originContent": "If you're interested in testing experimental and upcoming features, run this instead:",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 53,
+    "rowsha": "TuKP279PfbsgspVPxmfbP1ONK7ZdpfQidP/U5vZmZ3E=",
+    "originContent": "npm install --save node-monkey@next",
+    "translatedContent": "npm install --save node-monkey@next"
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "Ql0HOBoba8xpLHzuJb+aW8698vPKVJ13/HT4itPoSxU=",
+    "originContent": "## Quick Usage",
+    "translatedContent": "## 快速使用"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "+XhJRHbjXHlE+KPBGBe4EGjpIbmiQDlgnyTZmj7KTuU=",
+    "originContent": "Although Node Monkey supports many features, getting started is designed to be extremely easy. All you have to do is include a line or two in your application. Anything that is logged to the console after this will show up in the browser console once connected. It captures the output to most `console.*` function calls and forwards the output to the browser for inspection.",
+    "translatedContent": "虽然 Node Monkey 支持许多功能，但入门设计得非常简单。你只需在应用程序中包含一两行代码。此后所有输出到控制台的内容，一旦连接上就会显示在浏览器控制台中。它捕获大多数 `console.*` 函数调用的输出，并将输出转发到浏览器以便检查。"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "F7ouJTHCmLfUydRWk1bomE52/VJFtEf8yvrimLNR8Fs=",
+    "originContent": "The simplest usage looks like this:",
+    "translatedContent": "最简单的用法如下："
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 63,
+    "rowsha": "dgioIE4bXndi9YUvy9aeBBPM7TDlOSxnbLSaq7qeu2I=",
+    "originContent": "const NodeMonkey = require(\"node-monkey\")",
+    "translatedContent": "const NodeMonkey = require(\"node-monkey\")"
+  },
+  {
+    "row": 64,
+    "rowsha": "sAEPRIa3O9yHiogn73DPLlQfjwkHGy7W9OxmevSkw1I=",
+    "originContent": "NodeMonkey()",
+    "translatedContent": "NodeMonkey()"
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "tKb5janilhezLjvce530lgeluvE8gwMcKTCF1lTt2fs=",
+    "originContent": "Node Monkey also supports many configuration [options](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#options) and named instances. The call takes the form `NodeMonkey([options[, name])`. So, for example, to suppress local console output and only see output in your connected browser or terminal you might do something like this:",
+    "translatedContent": "Node Monkey 还支持许多配置[选项](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#options)和命名实例。调用形式为 `NodeMonkey([options[, name])`。例如，要禁止本地控制台输出，仅在已连接的浏览器或终端中查看输出，可以这样做："
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 70,
+    "rowsha": "dgioIE4bXndi9YUvy9aeBBPM7TDlOSxnbLSaq7qeu2I=",
+    "originContent": "const NodeMonkey = require(\"node-monkey\")",
+    "translatedContent": "const NodeMonkey = require(\"node-monkey\")"
+  },
+  {
+    "row": 71,
+    "rowsha": "qd/1lanr12SJwnjKB7UMPCE6CFkw8umdgFz3Zbw2EEc=",
+    "originContent": "const monkey = NodeMonkey({",
+    "translatedContent": "const monkey = NodeMonkey({"
+  },
+  {
+    "row": 72,
+    "rowsha": "7RDs6beNl7dvmNxdvctWd5vDJL9T+v2Q8brtwGSKK8k=",
+    "originContent": "  server: {",
+    "translatedContent": "  server: {"
+  },
+  {
+    "row": 73,
+    "rowsha": "T/cRWSOSWb6dcN/F6e1BVUWcZV0LedhHU7gvQk8mnlo=",
+    "originContent": "    disableLocalOutput: true,",
+    "translatedContent": "    disableLocalOutput: true,"
+  },
+  {
+    "row": 74,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 75,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 76,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "q7t/BA0PmgvzEhhqSJx/fUpP7OJS1u+uPMxu+05E3b8=",
+    "originContent": "You can include Node Monkey in all the files within your app that you want and if used like the examples above, each call to `NodeMonkey()` will always return the same instance you first constructed, ignoring any options passed on subsequent calls. However, you may want to construct new instances with different options. To do so, give your instance a name:",
+    "translatedContent": "您可以在应用程序中的所有文件中包含 Node Monkey，如果像上面示例那样使用，每次调用 `NodeMonkey()` 都会始终返回您首次构造的相同实例，忽略后续调用中传递的任何选项。 但是，您可能希望使用不同的选项构造新实例。为此，请为您的实例命名："
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 81,
+    "rowsha": "dgioIE4bXndi9YUvy9aeBBPM7TDlOSxnbLSaq7qeu2I=",
+    "originContent": "const NodeMonkey = require(\"node-monkey\")",
+    "translatedContent": "const NodeMonkey = require(\"node-monkey\")"
+  },
+  {
+    "row": 82,
+    "rowsha": "yYek7ruil4Aph+7bnXZoa6zkMfYVykmvnL3NPOpCcPk=",
+    "originContent": "const monkey1 = NodeMonkey() // Creates an instance named 'default'",
+    "translatedContent": "const monkey1 = NodeMonkey() // Creates an instance named 'default'"
+  },
+  {
+    "row": 83,
+    "rowsha": "GxNU8+AjgZDspX4aQxFV7FVobv2bgpf5620o6bYOPHw=",
+    "originContent": "const monkey2 = NodeMonkey(\"george\") // Creates a new instance with default options",
+    "translatedContent": "const monkey2 = NodeMonkey(\"george\") // Creates a new instance with default options"
+  },
+  {
+    "row": 84,
+    "rowsha": "BD0HBNaJyDIyrnKIvPwNygifz/Lzl2Bcuw0ZJk+XA94=",
+    "originContent": "const monkey3 = NodeMonkey(",
+    "translatedContent": "const monkey3 = NodeMonkey("
+  },
+  {
+    "row": 85,
+    "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+    "originContent": "  {",
+    "translatedContent": "  {"
+  },
+  {
+    "row": 86,
+    "rowsha": "1cu++QHeqF6WWmyXB/gJmNqsKMvhK4tbXYaThYnFj4E=",
+    "originContent": "    // Creates a new instance with custom options named 'ninja'",
+    "translatedContent": "    // Creates a new instance with custom options named 'ninja'"
+  },
+  {
+    "row": 87,
+    "rowsha": "arr8EyWtGMKwxEOR50jdafLw6HaxjMxrJldlccrNm+Y=",
+    "originContent": "    server: {",
+    "translatedContent": "    server: {"
+  },
+  {
+    "row": 88,
+    "rowsha": "rfBDzVtjYhvQQG2wkbhN1T25PWGr26ux7+HXddebS24=",
+    "originContent": "      silent: true,",
+    "translatedContent": "      silent: true,"
+  },
+  {
+    "row": 89,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 90,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 91,
+    "rowsha": "E4tZNIQ1C78Zo/N4OsYlpclNsqdQnbIIfUF1s4Zw3Iw=",
+    "originContent": "  \"ninja\",",
+    "translatedContent": "  \"ninja\","
+  },
+  {
+    "row": 92,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 93,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果您没有为额外的实例指定端口，它将自动为您设置，并从默认端口递增（例如，websocket服务器为50502、50504，SSH服务器为50503、50505）。"
+  },
+  {
+    "row": 95,
+    "rowsha": "Fp2enOwsaEz2O5IC1e4bmFMb55xWbHvgUPZ56c8JFNE=",
+    "originContent": "If you don't specify a port for additional instances it will automatically be set for you and will just increment from the default (e.g. 50502, 50504 for the websocket server and 50503, 50505 for the SSH server).",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "要在另一个文件中获取已构建的实例，只需再次使用名称调用它："
+  },
+  {
+    "row": 97,
+    "rowsha": "N6JhDqnyvbKcfbRgYFPb0rB74bQ/Ogx72QQ8LnxyqoY=",
+    "originContent": "To get an already constructed instance in another file just call it with the name again:",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 100,
+    "rowsha": "dgioIE4bXndi9YUvy9aeBBPM7TDlOSxnbLSaq7qeu2I=",
+    "originContent": "const NodeMonkey = require(\"node-monkey\")",
+    "translatedContent": "const NodeMonkey = require(\"node-monkey\")"
+  },
+  {
+    "row": 101,
+    "rowsha": "bXYglG77XOi9YxYEZeqjrBkdZjpkRSHJYGTsMzx4It4=",
+    "originContent": "const monkey3 = NodeMonkey(\"ninja\")",
+    "translatedContent": "const monkey3 = NodeMonkey(\"ninja\")"
+  },
+  {
+    "row": 102,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "rV+lzbApasX440V5jQzqU3QL0+35/ohrMb7DWHmCAIU=",
+    "originContent": "When you start your app you will see the following output:",
+    "translatedContent": "当您启动应用程序时，您将看到以下输出："
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 107,
+    "rowsha": "3d/hKj81+2qxxNyTUy4b9Pse03N3U5zoXwfiXCPUdHA=",
+    "originContent": "Node Monkey listening at http://0.0.0.0:50500",
+    "translatedContent": "Node Monkey listening at http://0.0.0.0:50500"
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "要连接您的浏览器，只需访问网页浏览器中显示的地址（在本例中为 `http://0.0.0.0:50500`）。如果您更改了默认的 `host` 和 `port` 绑定或传入了自己的服务器，请务必相应调整您的 URL。它会提示您输入用户名和密码。在您设置用户之前，默认用户名和密码均为 `guest`。"
+  },
+  {
+    "row": 110,
+    "rowsha": "/GpdZTTrL6Gu1zvVKXV/cyC9+pwICiUKfHK2GY+aJFU=",
+    "originContent": "To connect your browser simply go to the address it shows in your web browser (`http://0.0.0.0:50500` in this case). If you change the default `host` and `port` bindings or pass in your own server be sure to adjust your URL accordingly. It will prompt you for a username and password. Until you setup a user the default is `guest` and `guest`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果您提供了自己的服务器，您可以直接在自己的 Web 应用程序控制台中查看输出。要了解如何提供自己的服务器，请查看[文档](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#provide-your-own)。您需要在 HTML 源代码中包含以下 `<script>` 标签，以将 Node Monkey 的输出集成到您的应用中："
+  },
+  {
+    "row": 112,
+    "rowsha": "HZuT+emgwSWbMqoNrNB9eZvVXKOAr27yndgqgYAHVFo=",
+    "originContent": "If you provide your own server you can view output in the console of your own web application instead. To see how to provide your own server check out the [documentation](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/doc/usage/server.md#provide-your-own). You will need to include the following `<script>` tag in your HTML source to integrate Node Monkey output with your app:",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 115,
+    "rowsha": "j/tPNI9fiXsaUh50btJIrVLFOrtyQEBwRwUkQhUQXYY=",
+    "originContent": "<script type=\"text/javascript\" src=\"http://0.0.0.0:50500/monkey.js\"></script>",
+    "translatedContent": "<script type=\"text/javascript\" src=\"http://0.0.0.0:50500/monkey.js\"></script>"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "HwP2XwH6rqXx6voAm2o+lIs2f3Bo64HyMvxG6cKxrUo=",
+    "originContent": "**NOTE**: You do NOT have to refresh the page when you restart your Node.js application to continue to receive output. Node Monkey will automatically reconnect.",
+    "translatedContent": "**NOTE**: You do NOT have to refresh the page when you restart your Node.js application to continue to receive output. Node Monkey will automatically reconnect."
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "yoLCRYoHasKanrNGnZWXF51vTpqjTxWpcf9rmGoZdlc=",
+    "originContent": "### LICENSE: [MIT](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/LICENSE.md)",
+    "translatedContent": "### LICENSE: [MIT](https://raw.githubusercontent.com/jwarkentin/node-monkey/master/LICENSE.md)"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
