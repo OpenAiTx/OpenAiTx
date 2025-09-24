@@ -1,0 +1,877 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div id=\"header\" align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/boberito/AirDropAssistant/main/icon.png\"/>\n</div>\n\nAir Drop Assistant (ADA) gives you more granular control over your AirDrop Settings than normal MDM controls.\n\nOn iOS, when switching AirDrop to Everyone, it switches back to Contacts Only after 10 minutes. \n\nOn macOS, AirDrop is either Off, Contacts Only, or Everyone - a setting you have to toggle manually via System Settings > General > AirDrop & Handoff or from the Control Center menu item.\n\nADA allows you to set, if AirDrop goes to Contacts Only or Off and the time frame to switch it.\n\nWhy might you want this feature?\n- You use your computer frequently in public spaces and do not want AirDrop set to be left open to receive from Everyone.\n- Organizations allow AirDrop but want more granular control than Apple's device management gives you.\n\n\n<div align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/boberito/AirDropAssistant/main/adamenu.png\" /><img src=\"https://raw.githubusercontent.com/boberito/AirDropAssistant/main/adaprefs.png\" />\n</div>\n\nADA can be configured by configuration profile deployed by your MDM.\n\n**Domain** `com.ttinc.Air-Drop-Assistant`\n\n`airDropSetting` - **Type: String**\nAcceptable Value: **Contacts Only** or **Off**\n- When set ADA will be locked to switch AirDrop to that settings after the timer.\n\n`timing` - **Type: Integer**\nAcceptable Value: **0-1000**\n- Time length before ADA will switch AirDrop to the value from `airDropSetting`\n\n`hideMenuIcon` - **Type: Boolean**\nAcceptable Value: **true** or **false**\n- Hides the menu bar icon\n\n`icon_mode` - **Type: String**\nAcceptable Value: **colorful** or **bw**\n- Makes the icon colorful or monochrome.",
+    "ContentSha": "QDPqgMMT66mdpodZ+Zl3IfIj1/k+fq03PQlUoXjjeLQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div id=\"header\" align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/boberito/AirDropAssistant/main/icon.png\"/>\n</div>\n\nAir Drop Assistant (ADA) 比普通的 MDM 控制提供了更细粒度的 AirDrop 设置控制。\n\n在 iOS 上，当将 AirDrop 切换到“所有人”时，10 分钟后会自动切换回“仅联系人”。\n\n在 macOS 上，AirDrop 只能设置为关闭、仅联系人或所有人——您必须通过“系统设置 > 通用 > AirDrop 与接力”或控制中心菜单手动切换。\n\nADA 允许您设置 AirDrop 是否切换回“仅联系人”或关闭，以及切换的时间范围。\n\n为什么您可能需要此功能？\n- 您经常在公共场所使用电脑，不希望 AirDrop 设置为对所有人开放接收。\n- 组织允许使用 AirDrop，但希望比苹果设备管理提供的控制更细致。\n\n<div align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/boberito/AirDropAssistant/main/adamenu.png\" /><img src=\"https://raw.githubusercontent.com/boberito/AirDropAssistant/main/adaprefs.png\" />\n</div>\n\nADA 可以通过您的 MDM 部署的配置描述文件进行配置。\n\n**域** `com.ttinc.Air-Drop-Assistant`\n\n`airDropSetting` - **类型：字符串**\n可接受值：**仅联系人** 或 **关闭**\n- 设置后，ADA 会在定时结束后锁定 AirDrop 到该设置。\n\n`timing` - **类型：整数**\n可接受值：**0-1000**\n- ADA 切换 AirDrop 到 `airDropSetting` 值之前的时间长度。\n\n`hideMenuIcon` - **类型：布尔**\n可接受值：**true** 或 **false**\n- 隐藏菜单栏图标。\n\n`icon_mode` - **类型：字符串**\n可接受值：**colorful** 或 **bw**\n- 使图标显示为彩色或黑白。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "gVF8rjtCyp4+2StoFZq5wCQct/Zns4z2PlKDunJFoV8=",
+        "originContent": "<div id=\"header\" align=\"center\">",
+        "translatedContent": "<div id=\"header\" align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "oFeIhoSyDoQCTkU6NUXRS82nhwbE1xdfHCcO0FW0n0Y=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/boberito/AirDropAssistant/main/icon.png\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/boberito/AirDropAssistant/main/icon.png\"/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "3PYdusO8zgGtw+DwRhGPKBFnLOTWoNRgjZXlXHremvk=",
+        "originContent": "Air Drop Assistant (ADA) gives you more granular control over your AirDrop Settings than normal MDM controls.",
+        "translatedContent": "Air Drop Assistant (ADA) 比普通的 MDM 控制提供了更细粒度的 AirDrop 设置控制。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "9XdpxBzj37xGFk/XpsndLOgMUF0aNbqRbf2RBuGkmWo=",
+        "originContent": "On iOS, when switching AirDrop to Everyone, it switches back to Contacts Only after 10 minutes. ",
+        "translatedContent": "在 iOS 上，当将 AirDrop 切换到“所有人”时，10 分钟后会自动切换回“仅联系人”。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "/Z8J9oaMxuXpOfEyXUURzucH+lCJS4iRIP7JgDgXB2k=",
+        "originContent": "On macOS, AirDrop is either Off, Contacts Only, or Everyone - a setting you have to toggle manually via System Settings > General > AirDrop & Handoff or from the Control Center menu item.",
+        "translatedContent": "在 macOS 上，AirDrop 只能设置为关闭、仅联系人或所有人——您必须通过“系统设置 > 通用 > AirDrop 与接力”或控制中心菜单手动切换。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Dg8OKDDkHawN1k3dGMymOgTPq+zY/hth8Lb4WrZbHbc=",
+        "originContent": "ADA allows you to set, if AirDrop goes to Contacts Only or Off and the time frame to switch it.",
+        "translatedContent": "ADA 允许您设置 AirDrop 是否切换回“仅联系人”或关闭，以及切换的时间范围。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "0U1DGV1WbAhz7VjCq9GnTz3JSIuHE7A50FFRdLqfiLo=",
+        "originContent": "Why might you want this feature?",
+        "translatedContent": "为什么您可能需要此功能？"
+      },
+      {
+        "row": 14,
+        "rowsha": "bXHEW9fiB/WWqs51PQF12PieTxldZFI0Zo4OslJyJbM=",
+        "originContent": "- You use your computer frequently in public spaces and do not want AirDrop set to be left open to receive from Everyone.",
+        "translatedContent": "- 您经常在公共场所使用电脑，不希望 AirDrop 设置为对所有人开放接收。"
+      },
+      {
+        "row": 15,
+        "rowsha": "iajsNhkZkpUAZQZhiqbmMvueImfczwgLF/sJQ2C18Go=",
+        "originContent": "- Organizations allow AirDrop but want more granular control than Apple's device management gives you.",
+        "translatedContent": "- 组织允许使用 AirDrop，但希望比苹果设备管理提供的控制更细致。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 18,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/boberito/AirDropAssistant/main/adamenu.png\" /><img src=\"https://raw.githubusercontent.com/boberito/AirDropAssistant/main/adaprefs.png\" />"
+      },
+      {
+        "row": 19,
+        "rowsha": "0NvxbdFWp50Y11G+qPm35/CcePafuqo2Pe2AMoMPEgQ=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/boberito/AirDropAssistant/main/adamenu.png\" /><img src=\"https://raw.githubusercontent.com/boberito/AirDropAssistant/main/adaprefs.png\" />",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 20,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ADA 可以通过您的 MDM 部署的配置描述文件进行配置。"
+      },
+      {
+        "row": 22,
+        "rowsha": "x8q4+s2y1N+4oGI/ov6ROB8Ru1j4bHRfIeIKQLimb8I=",
+        "originContent": "ADA can be configured by configuration profile deployed by your MDM.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**域** `com.ttinc.Air-Drop-Assistant`"
+      },
+      {
+        "row": 24,
+        "rowsha": "pHwpBpvqUvU/e+i9lrpSlJABXoLE5Y0UQPOAIpO4q/A=",
+        "originContent": "**Domain** `com.ttinc.Air-Drop-Assistant`",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`airDropSetting` - **类型：字符串**"
+      },
+      {
+        "row": 26,
+        "rowsha": "jE+Vyq91YW95E+2RFAZUsKE4Ws5zRmA1p/dVvgvWsoQ=",
+        "originContent": "`airDropSetting` - **Type: String**",
+        "translatedContent": "可接受值：**仅联系人** 或 **关闭**"
+      },
+      {
+        "row": 27,
+        "rowsha": "9PAZPtw/cGyCQbDj9iK3VWXh8xo86QmkBdK/E5oEsl8=",
+        "originContent": "Acceptable Value: **Contacts Only** or **Off**",
+        "translatedContent": "- 设置后，ADA 会在定时结束后锁定 AirDrop 到该设置。"
+      },
+      {
+        "row": 28,
+        "rowsha": "D7zbod9KM1S/737FyAGPge6UM+lPXp+qMPst1lSnDaU=",
+        "originContent": "- When set ADA will be locked to switch AirDrop to that settings after the timer.",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`timing` - **类型：整数**"
+      },
+      {
+        "row": 30,
+        "rowsha": "OifwM0R6WYKPBzUFnaZnoEv+WQqOnhRvB/zMKwRFe24=",
+        "originContent": "`timing` - **Type: Integer**",
+        "translatedContent": "可接受值：**0-1000**"
+      },
+      {
+        "row": 31,
+        "rowsha": "dFah66VrE/n5wpqi+2k5QWtlFBw7C9gCGj86aANG/DI=",
+        "originContent": "Acceptable Value: **0-1000**",
+        "translatedContent": "- ADA 切换 AirDrop 到 `airDropSetting` 值之前的时间长度。"
+      },
+      {
+        "row": 32,
+        "rowsha": "gqE+o/d4tAXyf6IPQINyugnSCZDMbDJB+etrVETfjUg=",
+        "originContent": "- Time length before ADA will switch AirDrop to the value from `airDropSetting`",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`hideMenuIcon` - **类型：布尔**"
+      },
+      {
+        "row": 34,
+        "rowsha": "6Lknb16UdugtJvE5xOt2nXr+g0B2CcBN8/ZRcy5hzVc=",
+        "originContent": "`hideMenuIcon` - **Type: Boolean**",
+        "translatedContent": "可接受值：**true** 或 **false**"
+      },
+      {
+        "row": 35,
+        "rowsha": "jVY5bx8U6h3jrLrtwzJMMKwxZfs63IpDcV5mo+1ypv4=",
+        "originContent": "Acceptable Value: **true** or **false**",
+        "translatedContent": "- 隐藏菜单栏图标。"
+      },
+      {
+        "row": 36,
+        "rowsha": "0u48eLSV4t6padjKl4jwhd/dxoqpYeT7ylmc5AYCE0A=",
+        "originContent": "- Hides the menu bar icon",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`icon_mode` - **类型：字符串**"
+      },
+      {
+        "row": 38,
+        "rowsha": "heSAJx9SgOPy679CFgTmv2eI9xjls3S32FyBQkt7APo=",
+        "originContent": "`icon_mode` - **Type: String**",
+        "translatedContent": "可接受值：**colorful** 或 **bw**"
+      },
+      {
+        "row": 39,
+        "rowsha": "upc2YMnRpFWeHGpzk8WM8xcr6L7OKm1WCwNM4xrv6H8=",
+        "originContent": "Acceptable Value: **colorful** or **bw**",
+        "translatedContent": "- 使图标显示为彩色或黑白。"
+      },
+      {
+        "row": 40,
+        "rowsha": "/NZLMMOZ40VVsKGs8b5qho/zgPAHIjvk9sgn+780+1w=",
+        "originContent": "- Makes the icon colorful or monochrome.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n`afterFirstLaunch` - **Type: Boolean**\nAcceptable Value: **true** or **false**\n- Hides the first launch question.\n\n`disableUpdates` - **Type: Boolean**\nAcceptable Value: **true** or **false**\n- Disables update checking at launch and hides menu item to check.\n\nADA can also be registered to load at login with the argument register and removed from login items as well.\n\n`/Applications/Utilities/Air\\ Drop\\ Assistant.app/Contents/MacOS/Air\\ Drop\\ Assistant --register`\n\nand\n\n`/Applications/Utilities/Air\\ Drop\\ Assistant.app/Contents/MacOS/Air\\ Drop\\ Assistant --unregister`\n\nADA AirDrop directional restriction can be configured by MDM.\n\n`/Applications/Utilities/Air\\ Drop\\ Assistant.app/Contents/Resources/ADA_PF_Helper_Script.sh -argument`\n\n- `-blockOut` blocks outgoing AirDrop\n- `-blockIn` blocks incoming AirDrop\n- `-remove` allows AirDrop both directions\n\nExample mobileconfig",
+    "ContentSha": "gL4ctUt5/9MNNdwJiFE2fUj7FeLAdpkkRBfYw+SHnSg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`afterFirstLaunch` - **类型：布尔值**  \n可接受值：**true** 或 **false**  \n- 隐藏首次启动时的问题。  \n\n`disableUpdates` - **类型：布尔值**  \n可接受值：**true** 或 **false**  \n- 禁用启动时的更新检查并隐藏检查菜单项。  \n\nADA 也可以通过参数 register 注册为登录时加载，并且可以从登录项中移除。  \n\n`/Applications/Utilities/Air\\ Drop\\ Assistant.app/Contents/MacOS/Air\\ Drop\\ Assistant --register`  \n\n和  \n\n`/Applications/Utilities/Air\\ Drop\\ Assistant.app/Contents/MacOS/Air\\ Drop\\ Assistant --unregister`  \n\nMDM 可以配置 ADA AirDrop 的方向限制。  \n\n`/Applications/Utilities/Air\\ Drop\\ Assistant.app/Contents/Resources/ADA_PF_Helper_Script.sh -argument`  \n\n- `-blockOut` 阻止发出 AirDrop  \n- `-blockIn` 阻止接收 AirDrop  \n- `-remove` 允许双向 AirDrop  \n\n示例 mobileconfig\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`afterFirstLaunch` - **类型：布尔值**  "
+      },
+      {
+        "row": 2,
+        "rowsha": "M1deMMRNw5PKn192G753zaJ0sni4Dl+fcx/6w3nY5iU=",
+        "originContent": "`afterFirstLaunch` - **Type: Boolean**",
+        "translatedContent": "可接受值：**true** 或 **false**  "
+      },
+      {
+        "row": 3,
+        "rowsha": "jVY5bx8U6h3jrLrtwzJMMKwxZfs63IpDcV5mo+1ypv4=",
+        "originContent": "Acceptable Value: **true** or **false**",
+        "translatedContent": "- 隐藏首次启动时的问题。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "8SaSk1AxR88sKHJ5Kk2WKaCAti4uiDc1aYtlx2xvgIU=",
+        "originContent": "- Hides the first launch question.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`disableUpdates` - **类型：布尔值**  "
+      },
+      {
+        "row": 6,
+        "rowsha": "PipjagfMb7UreWD2ElEj4FyaXltr3EX8GqV/6NVTX7w=",
+        "originContent": "`disableUpdates` - **Type: Boolean**",
+        "translatedContent": "可接受值：**true** 或 **false**  "
+      },
+      {
+        "row": 7,
+        "rowsha": "jVY5bx8U6h3jrLrtwzJMMKwxZfs63IpDcV5mo+1ypv4=",
+        "originContent": "Acceptable Value: **true** or **false**",
+        "translatedContent": "- 禁用启动时的更新检查并隐藏检查菜单项。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "gA4BHlbirBzZa7g5gSzPywCVxhGZ5A8OPtPPjmJglQQ=",
+        "originContent": "- Disables update checking at launch and hides menu item to check.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ADA 也可以通过参数 register 注册为登录时加载，并且可以从登录项中移除。  "
+      },
+      {
+        "row": 10,
+        "rowsha": "hevlduXb4vMji7HcCrT1YzpF4JM3pMljzXNIlRXOaxk=",
+        "originContent": "ADA can also be registered to load at login with the argument register and removed from login items as well.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`/Applications/Utilities/Air\\ Drop\\ Assistant.app/Contents/MacOS/Air\\ Drop\\ Assistant --register`  "
+      },
+      {
+        "row": 12,
+        "rowsha": "QoFPJXvzfP8pUc9f1iD77LLaC4k2lLtZ8ErbTLmj5gw=",
+        "originContent": "`/Applications/Utilities/Air\\ Drop\\ Assistant.app/Contents/MacOS/Air\\ Drop\\ Assistant --register`",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "和  "
+      },
+      {
+        "row": 14,
+        "rowsha": "YgERG4Ogy1sJIss3zEQrmkDiTjsc4QCkuyBPTGP9KsA=",
+        "originContent": "and",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`/Applications/Utilities/Air\\ Drop\\ Assistant.app/Contents/MacOS/Air\\ Drop\\ Assistant --unregister`  "
+      },
+      {
+        "row": 16,
+        "rowsha": "+mN163S58TiJYosJ8HPsrY+HcpBE8z7gO11JxE/Zlqk=",
+        "originContent": "`/Applications/Utilities/Air\\ Drop\\ Assistant.app/Contents/MacOS/Air\\ Drop\\ Assistant --unregister`",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MDM 可以配置 ADA AirDrop 的方向限制。  "
+      },
+      {
+        "row": 18,
+        "rowsha": "99j9awZNLvq0D82fnwJkpt4d+T9Xwvle1kwRadjPsoo=",
+        "originContent": "ADA AirDrop directional restriction can be configured by MDM.",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`/Applications/Utilities/Air\\ Drop\\ Assistant.app/Contents/Resources/ADA_PF_Helper_Script.sh -argument`  "
+      },
+      {
+        "row": 20,
+        "rowsha": "lfyphZv8qf6weKyQkogDA/fmwoKwfvO3CXs6Adq3ACM=",
+        "originContent": "`/Applications/Utilities/Air\\ Drop\\ Assistant.app/Contents/Resources/ADA_PF_Helper_Script.sh -argument`",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `-blockOut` 阻止发出 AirDrop  "
+      },
+      {
+        "row": 22,
+        "rowsha": "/gSt/N7NvQCUh9mVePx4PiHh1Pd/9isF+onXqNpHHVI=",
+        "originContent": "- `-blockOut` blocks outgoing AirDrop",
+        "translatedContent": "- `-blockIn` 阻止接收 AirDrop  "
+      },
+      {
+        "row": 23,
+        "rowsha": "vn8M+fHOXlebYrD5jCMidvTISpaGLtO56kF/TyIBnwY=",
+        "originContent": "- `-blockIn` blocks incoming AirDrop",
+        "translatedContent": "- `-remove` 允许双向 AirDrop  "
+      },
+      {
+        "row": 24,
+        "rowsha": "ThRBmY4NgUGIPsJ9UkVfdf+4KHmULGepWs6Iz1+f3WA=",
+        "originContent": "- `-remove` allows AirDrop both directions",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "示例 mobileconfig"
+      },
+      {
+        "row": 26,
+        "rowsha": "NCM2RSfJhHjLr81pg8ksNVWiqIMHMMyCBOemFegJU4Y=",
+        "originContent": "Example mobileconfig",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n    <key>PayloadContent</key>\n    <array>\n        <dict>\n            <key>PayloadIdentifier</key>\n            <string>ccom.ttinc.Air-Drop-Assistant.26F7424C-FEF3-4E94-8E78-2673B2B8CDD3</string>\n            <key>PayloadType</key>\n            <string>com.ttinc.Air-Drop-Assistant</string>\n            <key>PayloadUUID</key>\n            <string>26F7424C-FEF3-4E94-8E78-2673B2B8CDD3</string>\n            <key>PayloadVersion</key>\n            <integer>1</integer>\n            <key>airDropSetting</key>\n            <string>Contacts Only</string>\n            <key>timing</key>\n            <integer>5</integer>\n            <key>hideMenuIcon</key>\n            <true/>\n            <key>icon_mode</key>\n            <string>colorful</string>\n            <key>afterFirstLaunch</key>\n            <true/>\n        </dict>\n    </array>\n    <key>PayloadDescription</key>\n    <string>ADA Settings</string>\n    <key>PayloadDisplayName</key>\n    <string>ADA</string>\n    <key>PayloadIdentifier</key>\n    <string>com.ttinc.Air-Drop-Assistant</string>\n    <key>PayloadOrganization</key>\n    <string>BOB</string>\n    <key>PayloadScope</key>\n    <string>System</string>\n    <key>PayloadType</key>\n    <string>Configuration</string>\n    <key>PayloadUUID</key>\n    <string>1BBD23DE-7ED7-45DF-8126-5085A681ED83</string>\n    <key>PayloadVersion</key>\n    <integer>1</integer>\n</dict>\n</plist>\n```",
+    "ContentSha": "kMO8FxIE1s4I96wDDIAolaPqAg/c/NWHxnYpjnv9WxA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n    <key>PayloadContent</key>\n    <array>\n        <dict>\n            <key>PayloadIdentifier</key>\n            <string>ccom.ttinc.Air-Drop-Assistant.26F7424C-FEF3-4E94-8E78-2673B2B8CDD3</string>\n            <key>PayloadType</key>\n            <string>com.ttinc.Air-Drop-Assistant</string>\n            <key>PayloadUUID</key>\n            <string>26F7424C-FEF3-4E94-8E78-2673B2B8CDD3</string>\n            <key>PayloadVersion</key>\n            <integer>1</integer>\n            <key>airDropSetting</key>\n            <string>Contacts Only</string>\n            <key>timing</key>\n            <integer>5</integer>\n            <key>hideMenuIcon</key>\n            <true/>\n            <key>icon_mode</key>\n            <string>colorful</string>\n            <key>afterFirstLaunch</key>\n            <true/>\n        </dict>\n    </array>\n    <key>PayloadDescription</key>\n    <string>ADA Settings</string>\n    <key>PayloadDisplayName</key>\n    <string>ADA</string>\n    <key>PayloadIdentifier</key>\n    <string>com.ttinc.Air-Drop-Assistant</string>\n    <key>PayloadOrganization</key>\n    <string>BOB</string>\n    <key>PayloadScope</key>\n    <string>System</string>\n    <key>PayloadType</key>\n    <string>Configuration</string>\n    <key>PayloadUUID</key>\n    <string>1BBD23DE-7ED7-45DF-8126-5085A681ED83</string>\n    <key>PayloadVersion</key>\n    <integer>1</integer>\n</dict>\n</plist>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "EsKXMeQK3AyWnD7VxiQDiYMUoi5tQ8Ov2G6PhYsswDg=",
+        "originContent": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+        "translatedContent": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+      },
+      {
+        "row": 3,
+        "rowsha": "FjWdzYEr/2QFga5rjjeAhCwkY3Sv4wvoppR2qtjsML0=",
+        "originContent": "<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">",
+        "translatedContent": "<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "1gUV0lakRnKVGBHE6DoRySatZLhaG47C3g18o6/tXUs=",
+        "originContent": "<plist version=\"1.0\">",
+        "translatedContent": "<plist version=\"1.0\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "RRDkxjOzKXQ5KHPlrCux2GwruhSFRsnUKwWOc93GZjE=",
+        "originContent": "<dict>",
+        "translatedContent": "<dict>"
+      },
+      {
+        "row": 6,
+        "rowsha": "rylFsbumdKHLGuCLUa1nrkhjprYZmkb8/2V/S7S/6jo=",
+        "originContent": "    <key>PayloadContent</key>",
+        "translatedContent": "    <key>PayloadContent</key>"
+      },
+      {
+        "row": 7,
+        "rowsha": "13AeC2T0N7g+wnFTnW98x/vgwaGLaeFL9ow7yuuJNJ4=",
+        "originContent": "    <array>",
+        "translatedContent": "    <array>"
+      },
+      {
+        "row": 8,
+        "rowsha": "VqOAwD3T9zrWJW+htd9Ag4g/UKt7Xa71Sau8Q2JmQBE=",
+        "originContent": "        <dict>",
+        "translatedContent": "        <dict>"
+      },
+      {
+        "row": 9,
+        "rowsha": "LR2fVFVbpmBA8+0qCYENIDMzNOM4CZ7EcOlPSlsOmpU=",
+        "originContent": "            <key>PayloadIdentifier</key>",
+        "translatedContent": "            <key>PayloadIdentifier</key>"
+      },
+      {
+        "row": 10,
+        "rowsha": "8iKUFw+lp+JII2jzka2fQN5iQ3xz/uuF/pR0aHOGLDw=",
+        "originContent": "            <string>ccom.ttinc.Air-Drop-Assistant.26F7424C-FEF3-4E94-8E78-2673B2B8CDD3</string>",
+        "translatedContent": "            <string>ccom.ttinc.Air-Drop-Assistant.26F7424C-FEF3-4E94-8E78-2673B2B8CDD3</string>"
+      },
+      {
+        "row": 11,
+        "rowsha": "2utPtBHN9o9UbRTWJ9G3qTnZZ3FZuM9Ov5AXzHGoElI=",
+        "originContent": "            <key>PayloadType</key>",
+        "translatedContent": "            <key>PayloadType</key>"
+      },
+      {
+        "row": 12,
+        "rowsha": "Io6xXGzzE0nFALjA4NS+I0yc2TdSmCtbp0H9NeqF69E=",
+        "originContent": "            <string>com.ttinc.Air-Drop-Assistant</string>",
+        "translatedContent": "            <string>com.ttinc.Air-Drop-Assistant</string>"
+      },
+      {
+        "row": 13,
+        "rowsha": "7K5waqEPNkYUqmvZmBQ/PSwqZlk2XGciG8lkdeCjKjs=",
+        "originContent": "            <key>PayloadUUID</key>",
+        "translatedContent": "            <key>PayloadUUID</key>"
+      },
+      {
+        "row": 14,
+        "rowsha": "05eS0uyUp9rnM7aHOfIoDPlsqxteLU8jR5EyGOhOOpk=",
+        "originContent": "            <string>26F7424C-FEF3-4E94-8E78-2673B2B8CDD3</string>",
+        "translatedContent": "            <string>26F7424C-FEF3-4E94-8E78-2673B2B8CDD3</string>"
+      },
+      {
+        "row": 15,
+        "rowsha": "ZZKcShWUYdwVKLtdrsLRwTsGPVNQtV/TLH1aUylp97k=",
+        "originContent": "            <key>PayloadVersion</key>",
+        "translatedContent": "            <key>PayloadVersion</key>"
+      },
+      {
+        "row": 16,
+        "rowsha": "e6601BcWT8405JORnCRhzYBF8MfVnESsbLA/A+LV0W8=",
+        "originContent": "            <integer>1</integer>",
+        "translatedContent": "            <integer>1</integer>"
+      },
+      {
+        "row": 17,
+        "rowsha": "GZKhwcDHcemsj73vjDL/xAdB1A9SUciua5L7UcMN+bE=",
+        "originContent": "            <key>airDropSetting</key>",
+        "translatedContent": "            <key>airDropSetting</key>"
+      },
+      {
+        "row": 18,
+        "rowsha": "p8LJT6Un4b97V7J4duSGpM4oxohI9hqSRvfcywfHP78=",
+        "originContent": "            <string>Contacts Only</string>",
+        "translatedContent": "            <string>Contacts Only</string>"
+      },
+      {
+        "row": 19,
+        "rowsha": "qwLbxlauofIK+f+xoXolsJm9xvHeeEUNDZZzp+2RhcI=",
+        "originContent": "            <key>timing</key>",
+        "translatedContent": "            <key>timing</key>"
+      },
+      {
+        "row": 20,
+        "rowsha": "j/17pxMpoBMGgmaNMxaQX7p0FtcJAR2U19KqMhlt1Kg=",
+        "originContent": "            <integer>5</integer>",
+        "translatedContent": "            <integer>5</integer>"
+      },
+      {
+        "row": 21,
+        "rowsha": "MLFegrZoaDXdo6VOFkTkuGcx2hVFiO8gr57Vt1jT9/8=",
+        "originContent": "            <key>hideMenuIcon</key>",
+        "translatedContent": "            <key>hideMenuIcon</key>"
+      },
+      {
+        "row": 22,
+        "rowsha": "fI9F8LFGKpGEc3pbDKoaasx+0dRKqpctW8NNXLRG7Ec=",
+        "originContent": "            <true/>",
+        "translatedContent": "            <true/>"
+      },
+      {
+        "row": 23,
+        "rowsha": "oHUv8+9DzYRElBf705HM5BnOv2deNIVCycFNBPXM/aQ=",
+        "originContent": "            <key>icon_mode</key>",
+        "translatedContent": "            <key>icon_mode</key>"
+      },
+      {
+        "row": 24,
+        "rowsha": "W/0a7Y21Ch0JU6BV8lHF2whO9ZUYR5oblu9puN4jeoU=",
+        "originContent": "            <string>colorful</string>",
+        "translatedContent": "            <string>colorful</string>"
+      },
+      {
+        "row": 25,
+        "rowsha": "VWaEWEXvDYRUZpzUe6W0mVFVgcMTjxU2IcVZjJtRgwA=",
+        "originContent": "            <key>afterFirstLaunch</key>",
+        "translatedContent": "            <key>afterFirstLaunch</key>"
+      },
+      {
+        "row": 26,
+        "rowsha": "fI9F8LFGKpGEc3pbDKoaasx+0dRKqpctW8NNXLRG7Ec=",
+        "originContent": "            <true/>",
+        "translatedContent": "            <true/>"
+      },
+      {
+        "row": 27,
+        "rowsha": "5DHjWw3+oXMV9KZ4y3+4eTiCredCkhS9EtLjkBGGPcY=",
+        "originContent": "        </dict>",
+        "translatedContent": "        </dict>"
+      },
+      {
+        "row": 28,
+        "rowsha": "QVDnA7/NDpD4VF3nAUWcOgxv0dd4JC+n/EIvphfvVUo=",
+        "originContent": "    </array>",
+        "translatedContent": "    </array>"
+      },
+      {
+        "row": 29,
+        "rowsha": "z3xCN/bGVW7wH3myVS3THQ1EnMoZO2Xtktptuw+vsWg=",
+        "originContent": "    <key>PayloadDescription</key>",
+        "translatedContent": "    <key>PayloadDescription</key>"
+      },
+      {
+        "row": 30,
+        "rowsha": "XWq98qfefGgnvyArvPbm2YjfyoO1Gy7WKSks7se3o/E=",
+        "originContent": "    <string>ADA Settings</string>",
+        "translatedContent": "    <string>ADA Settings</string>"
+      },
+      {
+        "row": 31,
+        "rowsha": "7gQTcvFyaINwJBfG8f3Ia6rYb8n7tGMXN8y264jyv5A=",
+        "originContent": "    <key>PayloadDisplayName</key>",
+        "translatedContent": "    <key>PayloadDisplayName</key>"
+      },
+      {
+        "row": 32,
+        "rowsha": "gH6qzDhY6JurvD9PWmmUJbGnTzVY6DlJMwzFF9aKE98=",
+        "originContent": "    <string>ADA</string>",
+        "translatedContent": "    <string>ADA</string>"
+      },
+      {
+        "row": 33,
+        "rowsha": "r9jgtUqceHzhtDV28T7bagpO2U7+Yk1pTvkZy1FjsVE=",
+        "originContent": "    <key>PayloadIdentifier</key>",
+        "translatedContent": "    <key>PayloadIdentifier</key>"
+      },
+      {
+        "row": 34,
+        "rowsha": "VvESFXJBq1Apf6w1Xq04ws/ISSCcFDt4A08VTNb5vXA=",
+        "originContent": "    <string>com.ttinc.Air-Drop-Assistant</string>",
+        "translatedContent": "    <string>com.ttinc.Air-Drop-Assistant</string>"
+      },
+      {
+        "row": 35,
+        "rowsha": "InaX7RjFjmJaVy9e9eIQ9mk8uLAuDCxkw0/+Kf3yoKs=",
+        "originContent": "    <key>PayloadOrganization</key>",
+        "translatedContent": "    <key>PayloadOrganization</key>"
+      },
+      {
+        "row": 36,
+        "rowsha": "6A3rzdanP/l43z9EgzEPmtZfw5GiwFiLzDIIAaygtX0=",
+        "originContent": "    <string>BOB</string>",
+        "translatedContent": "    <string>BOB</string>"
+      },
+      {
+        "row": 37,
+        "rowsha": "1VvRKoS3KIkAe4cbEeKRNvdJOL4gyAmQxmcw8VHRTCA=",
+        "originContent": "    <key>PayloadScope</key>",
+        "translatedContent": "    <key>PayloadScope</key>"
+      },
+      {
+        "row": 38,
+        "rowsha": "elq0Pt1nj9WMhvpYejClqOqp/3EqQrl+bjzeax54xtU=",
+        "originContent": "    <string>System</string>",
+        "translatedContent": "    <string>System</string>"
+      },
+      {
+        "row": 39,
+        "rowsha": "IW0FXklVJRkjgMP1WD+Wkm2nX1pkJy2k1XAWPaLKzSs=",
+        "originContent": "    <key>PayloadType</key>",
+        "translatedContent": "    <key>PayloadType</key>"
+      },
+      {
+        "row": 40,
+        "rowsha": "xVxD99U806b8Wc18lIra9FSZKWQ9gnOPDYSskL1wlBA=",
+        "originContent": "    <string>Configuration</string>",
+        "translatedContent": "    <string>Configuration</string>"
+      },
+      {
+        "row": 41,
+        "rowsha": "QeK52ed0u1zEyR2W9ALHOEC+ez96pkCDLPXWQRhVsVA=",
+        "originContent": "    <key>PayloadUUID</key>",
+        "translatedContent": "    <key>PayloadUUID</key>"
+      },
+      {
+        "row": 42,
+        "rowsha": "OfwnUZvBFJ2hwiAymx0WnN5oVTVI1zMQ8mC8nbnHGKA=",
+        "originContent": "    <string>1BBD23DE-7ED7-45DF-8126-5085A681ED83</string>",
+        "translatedContent": "    <string>1BBD23DE-7ED7-45DF-8126-5085A681ED83</string>"
+      },
+      {
+        "row": 43,
+        "rowsha": "QbEZKZzUzJPtlTABLBpsm8ks3jIhqWezFX63LjlXp38=",
+        "originContent": "    <key>PayloadVersion</key>",
+        "translatedContent": "    <key>PayloadVersion</key>"
+      },
+      {
+        "row": 44,
+        "rowsha": "Gx93ZHDrCwgisuWLRXm6Iw5tK3e6C41SDgnTK7uCjQ8=",
+        "originContent": "    <integer>1</integer>",
+        "translatedContent": "    <integer>1</integer>"
+      },
+      {
+        "row": 45,
+        "rowsha": "W3FHFrbNMxix9oVGWvYHN2i9VV9/qHayOP/O26xuJxs=",
+        "originContent": "</dict>",
+        "translatedContent": "</dict>"
+      },
+      {
+        "row": 46,
+        "rowsha": "aZawtGWcyHMjN4ETuHNRAkdyK9FuQVUw7pjjxJjiB1M=",
+        "originContent": "</plist>",
+        "translatedContent": "</plist>"
+      },
+      {
+        "row": 47,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nTo configuration notifications you'll want to create a `com.apple.notificationsettings` profile to include these keys",
+    "ContentSha": "C8Db1d4GQ7W3TapizInLQkkk8sUeLILpOivaqXZkKnc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n要配置通知，您需要创建一个包含这些键的 `com.apple.notificationsettings` 配置文件",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2ZnCsfhH6/zBO1WIHiLqZQvwRnwrbcWxQMWApVwXpgQ=",
+        "originContent": "To configuration notifications you'll want to create a `com.apple.notificationsettings` profile to include these keys",
+        "translatedContent": "要配置通知，您需要创建一个包含这些键的 `com.apple.notificationsettings` 配置文件"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```\n<!--- THIS KEY IS REQUIRED TO IDENTIFY WHAT APP -->\n<key>BundleIdentifier</key>\n\t<string>com.ttinc.Air-Drop-Assistant</string>\n\n<!--- IF YOU WANT ZERO NOTIFICATIONS SET THESE TWO TO FALSE -->\n<key>NotificationsEnabled</key>\n\t<true/>\n<key>CriticalAlertEnabled</key>\n\t<false/>\n\n<!--- THIS CAN BE SET TO 0 (Off), 1 (Temporary), 2 (Persistent) -->\n<key>AlertType</key>\n\t<integer>1</integer>\n\t\t\t\t\n<key>ShowInLockScreen</key>\n\t<true/>\n<key>ShowInNotificationCenter</key>\n\t<true/>\n```",
+    "ContentSha": "uXa3YtgWMISUag8EzP2DJCq4z83VB9aS9jSrjtR7/jY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n<!--- THIS KEY IS REQUIRED TO IDENTIFY WHAT APP -->\n<key>BundleIdentifier</key>\n\t<string>com.ttinc.Air-Drop-Assistant</string>\n\n<!--- IF YOU WANT ZERO NOTIFICATIONS SET THESE TWO TO FALSE -->\n<key>NotificationsEnabled</key>\n\t<true/>\n<key>CriticalAlertEnabled</key>\n\t<false/>\n\n<!--- THIS CAN BE SET TO 0 (Off), 1 (Temporary), 2 (Persistent) -->\n<key>AlertType</key>\n\t<integer>1</integer>\n\t\t\t\t\n<key>ShowInLockScreen</key>\n\t<true/>\n<key>ShowInNotificationCenter</key>\n\t<true/>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZgputhrX3dGtOTUzTIV4NrnRxcOtRX4gq0vUAeM+mB8=",
+        "originContent": "<!--- THIS KEY IS REQUIRED TO IDENTIFY WHAT APP -->",
+        "translatedContent": "<!--- THIS KEY IS REQUIRED TO IDENTIFY WHAT APP -->"
+      },
+      {
+        "row": 3,
+        "rowsha": "w9NYshD+8OOpNtycNFF6MYO++BGhu3UFyzwSrPMPV8s=",
+        "originContent": "<key>BundleIdentifier</key>",
+        "translatedContent": "<key>BundleIdentifier</key>"
+      },
+      {
+        "row": 4,
+        "rowsha": "eP9UzNHakYr2WKWD3NRuZl68vZch3rVeyqsy1/KGh6I=",
+        "originContent": "\t<string>com.ttinc.Air-Drop-Assistant</string>",
+        "translatedContent": "\t<string>com.ttinc.Air-Drop-Assistant</string>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "65kVrqxCVAIH+x/DZWHkfgpAzm30LdmDZnNkl7JJQrU=",
+        "originContent": "<!--- IF YOU WANT ZERO NOTIFICATIONS SET THESE TWO TO FALSE -->",
+        "translatedContent": "<!--- IF YOU WANT ZERO NOTIFICATIONS SET THESE TWO TO FALSE -->"
+      },
+      {
+        "row": 7,
+        "rowsha": "iVmdQ8g/7uouZbC3PWJwBZtZ6C+ZxdErfuZpnWCwlxs=",
+        "originContent": "<key>NotificationsEnabled</key>",
+        "translatedContent": "<key>NotificationsEnabled</key>"
+      },
+      {
+        "row": 8,
+        "rowsha": "VGQKZ+filL3FvWV7OX1a+rYLBA02rcH5zLTfoVL8Hfk=",
+        "originContent": "\t<true/>",
+        "translatedContent": "\t<true/>"
+      },
+      {
+        "row": 9,
+        "rowsha": "qGNIaLBN8Vq7m9ThSErDiVZGBbvT3cp8XQ0rGT04m+o=",
+        "originContent": "<key>CriticalAlertEnabled</key>",
+        "translatedContent": "<key>CriticalAlertEnabled</key>"
+      },
+      {
+        "row": 10,
+        "rowsha": "XMlkT/Hm/ajr3RrlHnQDKkM2czZWqGnOZim9IO3G2nc=",
+        "originContent": "\t<false/>",
+        "translatedContent": "\t<false/>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "mf07egwRglgvdch/EY37FBwDyWQC1pNJ/fiT4la2XLQ=",
+        "originContent": "<!--- THIS CAN BE SET TO 0 (Off), 1 (Temporary), 2 (Persistent) -->",
+        "translatedContent": "<!--- THIS CAN BE SET TO 0 (Off), 1 (Temporary), 2 (Persistent) -->"
+      },
+      {
+        "row": 13,
+        "rowsha": "0Wo4v4JwuQvvy4qVq+3yRt/D4o3IYemkwJjWJ8DQxlk=",
+        "originContent": "<key>AlertType</key>",
+        "translatedContent": "<key>AlertType</key>"
+      },
+      {
+        "row": 14,
+        "rowsha": "CzE8xIPrMjxJsaj5Jg3tJN9CMiDHbJnGpdmWpuH8hy0=",
+        "originContent": "\t<integer>1</integer>",
+        "translatedContent": "\t<integer>1</integer>"
+      },
+      {
+        "row": 15,
+        "rowsha": "hJMQCxGi/mJbz5f8MT+DtYC6T9LAFiIQCduTv+GE7kU=",
+        "originContent": "\t\t\t\t",
+        "translatedContent": "\t\t\t\t"
+      },
+      {
+        "row": 16,
+        "rowsha": "HWTkhTs8ToiU0HxL7eUbmVAkPfB32LSvfbDXLLlQDug=",
+        "originContent": "<key>ShowInLockScreen</key>",
+        "translatedContent": "<key>ShowInLockScreen</key>"
+      },
+      {
+        "row": 17,
+        "rowsha": "VGQKZ+filL3FvWV7OX1a+rYLBA02rcH5zLTfoVL8Hfk=",
+        "originContent": "\t<true/>",
+        "translatedContent": "\t<true/>"
+      },
+      {
+        "row": 18,
+        "rowsha": "6ySwWGP9nmYWaxWihWKz2uhAv7tE1ytmzVbYMD4lp6E=",
+        "originContent": "<key>ShowInNotificationCenter</key>",
+        "translatedContent": "<key>ShowInNotificationCenter</key>"
+      },
+      {
+        "row": 19,
+        "rowsha": "VGQKZ+filL3FvWV7OX1a+rYLBA02rcH5zLTfoVL8Hfk=",
+        "originContent": "\t<true/>",
+        "translatedContent": "\t<true/>"
+      },
+      {
+        "row": 20,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  }
+]
