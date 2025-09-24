@@ -35,10 +35,10 @@
  <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">Cổng Âm Nhạc Không Giới Hạn Của Bạn - Dịch Vụ Nghe Nhạc Đa Nền Tảng</h3>
+<h3 align="center">Cổng Âm Nhạc Không Giới Hạn Của Bạn - Phát Nhạc Đa Nền Tảng</h3>
 
 <p align="center">
-  <strong>Phát và tải nhạc chất lượng cao miễn phí trên mọi thiết bị của bạn, không quảng cáo và không cần đăng nhập.</strong>
+  <strong>Phát trực tuyến và tải nhạc chất lượng cao miễn phí trên tất cả thiết bị của bạn, không quảng cáo và không cần đăng nhập.</strong>
 </p>
 
 <p align="center">
@@ -55,46 +55,46 @@
 
 ---
 
-## 📱📺 Hai Ứng Dụng Tuyệt Vời, Một Kho Lưu Trữ
+## 📱📺 Hai Ứng Dụng Tuyệt Vời, Một Kho Dự Án
 
-Kho lưu trữ này chứa **hai ứng dụng phát nhạc hoàn chỉnh**:
+Kho dự án này chứa **hai ứng dụng phát nhạc trực tuyến hoàn chỉnh**:
 
 ### 🎵 **OpenSpot Mobile** (React Native + Expo)
-- **Nền tảng**: Android, iOS
+- **Nền tảng**: Android, iOS(Đang phát triển)
 - **Vị trí**: `openspot-music-mobile/`
-- **Tính năng**: Trải nghiệm di động gốc với tải nhạc ngoại tuyến, phát nhạc nền và lưu trạng thái liên tục
+- **Tính năng**: Trải nghiệm di động gốc với tải nhạc ngoại tuyến, phát nền và lưu trạng thái lâu dài
 
 ### 🖥️ **OpenSpot Desktop** (Electron + React)
-- **Nền tảng**: macOS, Windows, Linux
+- **Nền tảng**: macOS, Windows(Đang phát triển), Linux(Đang phát triển)
 - **Vị trí**: `openspot-music-electron/`
-- **Tính năng**: Giao diện tối ưu hóa cho máy tính với điều khiển âm thanh toàn cục, quản lý cửa sổ và lưu trữ cục bộ
+- **Tính năng**: Giao diện tối ưu cho máy tính với điều khiển âm thanh toàn cục, quản lý cửa sổ và lưu trữ cục bộ
 
 ---
 
 ### 📢 Tham Gia Kênh Telegram Của Chúng Tôi
 
-Cập nhật các **phiên bản mới**, và **thông báo quan trọng** tại kênh Telegram chính thức của Openspot.
+Cập nhật **phát hành phiên bản** và **thông báo quan trọng** trên kênh Telegram chính thức của Openspot.
 
-[![Tham gia trên Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+[![Tham gia với chúng tôi trên Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
 
 
 ---
 
 
-## 📱 Ứng Dụng Di Động (React Native + Expo)
+## 📱 Ứng dụng di động (React Native + Expo)
 
-### Ảnh Chụp Màn Hình
+### Ảnh chụp màn hình
 
 ![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
 
 
 
-### Liên Kết Tải Xuống
+### Liên kết tải về
 
-- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
-- **iOS**: Cần người bảo trì
+- **Android APK**: [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
+- **iOS**: [Cần người bảo trì](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
 
-### Thiết Lập Phát Triển
+### Thiết lập phát triển
 
 ```bash
 cd openspot-music-app
@@ -120,7 +120,7 @@ eas build --platform android --profile production
 
 ---
 
-## 🖥️ Ứng dụng Desktop (Electron + React)
+## 🖥️ Ứng dụng máy tính để bàn (Electron + React)
 
 ### Ảnh chụp màn hình
 
@@ -128,12 +128,12 @@ eas build --platform android --profile production
 
 ### Liên kết tải về
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
-- Chạy lệnh này nếu bạn gặp sự cố ứng dụng bị hỏng sau khi cài đặt.
+- **macOS DMG**: [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
+- Chạy cái này nếu bạn gặp sự cố ứng dụng bị hỏng sau khi cài đặt.
   ```bash
   xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **Windows EXE**: Sắp ra mắt!
-- **Linux DEB**: Sắp ra mắt!
+- **Windows EXE**: [Sắp ra mắt!](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
+- **Linux DEB**: [Sắp ra mắt!](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
 
 ### Thiết lập phát triển
 
@@ -223,9 +223,12 @@ npm run electron-dev
 
 ---
 
-## 🤝 Đóng góp
+## 🙌 Những người đóng góp
 
-Chúng tôi hoan nghênh mọi đóng góp cho cả hai ứng dụng!
+Xin gửi lời cảm ơn lớn đến những người tuyệt vời đã giúp dự án này trở thành hiện thực:
+
+- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – Đóng góp cốt lõi, tích hợp API và là nền tảng chính của dự án
+
 ## 📞 Cộng đồng & Hỗ trợ
 
 - **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
@@ -242,19 +245,21 @@ Chúng tôi hoan nghênh mọi đóng góp cho cả hai ứng dụng!
 
 ## 📄 Giấy phép
 
-Dự án này là mã nguồn mở và được cấp phép theo Giấy phép MIT. Xem tệp `LICENSE` để biết thêm thông tin.
+Dự án này là mã nguồn mở và được cấp phép theo MIT License. Xem tệp `LICENSE` để biết thêm thông tin.
 
 ---
 
 <p align="center">
-  <strong>⭐ Nếu bạn thích dự án này, xin hãy đánh dấu sao cho nó! ⭐</strong>
+  <strong>⭐ Nếu bạn thích dự án này, hãy cho nó một ngôi sao! ⭐</strong>
   <br />
-  <em>Sự ủng hộ của bạn giúp chúng tôi tiếp tục phát triển các ứng dụng nghe nhạc miễn phí tuyệt vời cho mọi người.</em>
+  <em>Sự ủng hộ của bạn giúp chúng tôi tiếp tục phát triển các ứng dụng âm nhạc miễn phí tuyệt vời cho mọi người.</em>
 </p> 
 
 
+```
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-24
 
 ---

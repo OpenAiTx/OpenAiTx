@@ -32,7 +32,7 @@
 # OpenSpot Music 🎶
 
 <p align="center">
- <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
+ <img width="100" alt="Logo OpenSpot" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
 <h3 align="center">Gerbang Anda Menuju Musik Tanpa Batas - Streaming Musik Lintas Platform</h3>
@@ -55,27 +55,27 @@
 
 ---
 
-## 📱📺 Dua Aplikasi Menakjubkan, Satu Repository
+## 📱📺 Dua Aplikasi Hebat, Satu Repository
 
-Repositori ini berisi **dua aplikasi streaming musik lengkap**:
+Repository ini berisi **dua aplikasi streaming musik lengkap**:
 
 ### 🎵 **OpenSpot Mobile** (React Native + Expo)
-- **Platform**: Android, iOS
+- **Platform**: Android, iOS(Dalam Pengembangan)
 - **Lokasi**: `openspot-music-mobile/`
-- **Fitur**: Pengalaman mobile asli dengan unduhan offline, pemutaran di latar belakang, dan penyimpanan status yang persisten
+- **Fitur**: Pengalaman mobile native dengan unduhan offline, pemutaran di latar belakang, dan penyimpanan status yang persisten
 
 ### 🖥️ **OpenSpot Desktop** (Electron + React)
-- **Platform**: macOS, Windows, Linux
+- **Platform**: macOS, Windows(Dalam Pengembangan), Linux(Dalam Pengembangan)
 - **Lokasi**: `openspot-music-electron/`
 - **Fitur**: Antarmuka desktop yang dioptimalkan dengan kontrol audio global, manajemen jendela, dan penyimpanan lokal
 
 ---
 
-### 📢 Gabung di Channel Telegram Kami
+### 📢 Bergabunglah di Channel Telegram Kami
 
-Dapatkan update tentang **rilis versi** dan **pengumuman penting** di channel Telegram resmi Openspot.
+Dapatkan informasi terbaru tentang **rilis versi**, dan **pengumuman penting** di channel Telegram resmi Openspot.
 
-[![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+[![Bergabunglah dengan kami di Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
 
 
 ---
@@ -83,16 +83,16 @@ Dapatkan update tentang **rilis versi** dan **pengumuman penting** di channel Te
 
 ## 📱 Aplikasi Mobile (React Native + Expo)
 
-### Tangkapan Layar
+### Cuplikan Layar
 
 ![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
 
 
 
-### Link Unduhan
+### Tautan Unduhan
 
-- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
-- **iOS**: Butuh Maintainer
+- **Android APK**: [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
+- **iOS**: [Dibutuhkan Maintainer](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
 
 ### Pengaturan Pengembangan
 
@@ -128,12 +128,12 @@ eas build --platform android --profile production
 
 ### Tautan Unduhan
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- **macOS DMG**: [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
 - Jalankan ini jika Anda mengalami masalah aplikasi rusak setelah instalasi.
   ```bash
   xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **Windows EXE**: Segera Hadir!
-- **Linux DEB**: Segera Hadir!
+- **Windows EXE**: [Segera Hadir!](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
+- **Linux DEB**: [Segera Hadir!](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
 
 ### Pengaturan Pengembangan
 
@@ -223,9 +223,12 @@ npm run electron-dev
 
 ---
 
-## 🤝 Kontribusi
+## 🙌 Kontributor
 
-Kami menyambut kontribusi untuk kedua aplikasi!
+Terima kasih banyak kepada orang-orang luar biasa ini yang telah membuat proyek ini menjadi mungkin:
+
+- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – Kontribusi inti, integrasi API, dan tulang punggung utama dari proyek
+
 ## 📞 Komunitas & Dukungan
 
 - **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
@@ -242,19 +245,21 @@ Kami menyambut kontribusi untuk kedua aplikasi!
 
 ## 📄 Lisensi
 
-Proyek ini bersifat open-source dan dilisensikan di bawah MIT License. Lihat berkas `LICENSE` untuk informasi lebih lanjut.
+Proyek ini bersifat open-source dan dilisensikan di bawah MIT License. Lihat file `LICENSE` untuk informasi lebih lanjut.
 
 ---
 
 <p align="center">
-  <strong>⭐ Jika Anda menyukai proyek ini, silakan beri bintang! ⭐</strong>
+  <strong>⭐ Jika Anda suka dengan proyek ini, beri bintang! ⭐</strong>
   <br />
   <em>Dukungan Anda membantu kami terus mengembangkan aplikasi musik gratis yang luar biasa untuk semua orang.</em>
 </p> 
+
+
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-24
 
 ---

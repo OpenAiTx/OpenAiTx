@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # 🚀 AndroBuster
 
 <div align="center">
@@ -38,6 +70,7 @@ AndroBuster is an **open-source security tool** inspired by GoBuster, providing 
 
 <img width="339" height="749" alt="Screenshot 2025-08-20 at 1 11 24 AM" src="https://github.com/user-attachments/assets/e12ed93e-876f-408b-9e3d-4a849e8fe2a1" />
 <img width="339" height="749" alt="Screenshot 2025-08-20 at 1 11 34 AM" src="https://github.com/user-attachments/assets/17850561-cef9-46e2-8203-8ba29c223fe7" />
+
 </div>
 
 ---
@@ -77,47 +110,46 @@ AndroBuster is an **open-source security tool** inspired by GoBuster, providing 
 
 ### 🚀 Performance & Reliability
 - **Background Execution**: App continues running during background scans
+- **Memory Optimization**: Efficient handling of large wordlists
+- **Error Handling**: Graceful fallback and recovery mechanisms
+- **Cross-Platform**: Built with Flutter for Android and iOS
 
-- **Memory Optimization**: Efficient handling of large wordlists  
-- **Error Handling**: Graceful fallback and recovery mechanisms  
-- **Cross-Platform**: Built with Flutter for Android and iOS  
 
 
----  
+---
 
-## 📱 Installation  
+## 📱 Installation
 
-### 📦 Release Build  
-Currently, only Android APK releases are available. Download the latest APK from the releases page.  
+### 📦 Release Build
+Currently, only Android APK releases are available. Download the latest APK from the releases page.
 
-<div align="center">  
+<div align="center">
 
-[![Download Latest](https://img.shields.io/badge/📥%20Download%20Latest%20Release-blue?style=for-the-badge)](https://github.com/BlackHatDevX/androbuster/releases)  
+[![Download Latest](https://img.shields.io/badge/📥%20Download%20Latest%20Release-blue?style=for-the-badge)](https://github.com/BlackHatDevX/androbuster/releases)
 
-</div>  
+</div>
 
-### 🔧 Building from Source  
-The source code is now public and available for everyone to use, modify, and contribute to.  
+### 🔧 Building from Source
+The source code is now public and available for everyone to use, modify, and contribute to.
 
----  
+---
 
-## 📖 Usage Guide  
+## 📖 Usage Guide
 
-### 🗂️ Directory Enumeration  
-1. Navigate to the "Dir" tab  
-2. Enter your target URL  
-3. Configure negative status codes and page sizes  
-4. Paste or import your wordlist  
-5. Set thread count and timeout  
-6. Start the scan and monitor progress  
+### 🗂️ Directory Enumeration
+1. Navigate to the "Dir" tab
+2. Enter your target URL
+3. Configure negative status codes and page sizes
+4. Paste or import your wordlist
+5. Set thread count and timeout
+6. Start the scan and monitor progress
 
-### 🌐 Subdomain Enumeration  
-1. Navigate to the "Subdomain" tab  
-2. Enter the target domain (without http/https)  
-3. Configure subdomain-specific filters  
-4. Import or paste subdomain wordlist  
+### 🌐 Subdomain Enumeration
+1. Navigate to the "Subdomain" tab
+2. Enter the target domain (without http/https)
+3. Configure subdomain-specific filters
+4. Import or paste subdomain wordlist
 5. Adjust threading and timeout settings
-
 6. Begin subdomain discovery
 
 ### 📋 Results Management
@@ -131,14 +163,14 @@ The source code is now public and available for everyone to use, modify, and con
 ## ⚙️ Configuration
 
 ### ⚡ Thread Count
-- **Recommended**: 10-20 threads for most scenarios
-- **High Thread Warning**: Alerts when exceeding 20 threads
-- **Considerations**: Higher threads may trigger rate limiting
+- **Recommended**: 10-20 threads for most situations
+- **High Thread Warning**: Warning when more than 20 threads are used
+- **Considerations**: Higher threads may cause rate limiting
 
 ### ⏱️ Timeout Settings
 - **Default**: 5000ms (5 seconds)
 - **Adjustment**: Increase for slower networks, decrease for faster responses
-- **Range**: 1000ms to 30000ms supported
+- **Range**: Supports 1000ms to 30000ms
 
 ### 🚫 Negative Filters
 - **Status Codes**: Comma-separated list (e.g., 404,403,500)
@@ -158,31 +190,31 @@ This project is **open source** and welcomes contributions! The source code is n
 </div>
 
 ### 📋 How to Contribute
-1. **⭐ Star** the repository (optional but appreciated!)  
-2. **🍴 Fork** the repository  
-3. **🌿 Create** a feature branch  
-4. **📤 Submit** a pull request  
+1. **⭐ Star** the repository (optional but appreciated!)
+2. **🍴 Fork** the repository
+3. **🌿 Create** a feature branch
+4. **📤 Submit** a pull request
 
 ---
 
-## 🙏 Credits & Acknowledgments  
+## 🙏 Credits & Acknowledgments
 
-- **🎯 Inspired by**: [GoBuster](https://github.com/OJ/gobuster) - The original directory enumeration tool  
-- **🛠️ Built with**: [Flutter](https://flutter.dev/) - Google's UI toolkit for building natively compiled applications  
-- **🔒 Security Focus**: Designed for penetration testers and security researchers  
-- **🌍 Community**: Thanks to all contributors and supporters  
-
----
-
-## 📄 License  
-
-This project is **open source** and available under the MIT License.  
+- **🎯 Inspired by**: [GoBuster](https://github.com/OJ/gobuster) - The original directory enumeration tool
+- **🛠️ Built with**: [Flutter](https://flutter.dev/) - Google's UI toolkit for building natively compiled applications
+- **🔒 Security Focus**: Designed for penetration testers and security researchers
+- **🌍 Community**: Thanks to all contributors and supporters
 
 ---
 
-## ⚠️ Disclaimer  
+## 📄 License
 
-This tool is designed for **authorized security testing** and **penetration testing purposes only**. Users are responsible for ensuring they have proper authorization before testing any systems. The developers are not responsible for any misuse of this tool.  
+This project is **open source** and available under the MIT License.
+
+---
+
+## ⚠️ Disclaimer
+
+This tool is designed for **authorized security testing** and **penetration testing purposes only**. Users are responsible for ensuring they have proper authorization before testing any systems. The developers are not responsible for any misuse of this tool.
 
 ---
 

@@ -29,72 +29,72 @@
   </details>
 </div>
 
-# OpenSpot Music 🎶
+# أوبن سبوت ميوزك 🎶
 
 <p align="center">
  <img width="100" alt="شعار أوبن سبوت" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">بوابتك إلى موسيقى بلا حدود - بث موسيقى عبر الأنظمة المختلفة</h3>
+<h3 align="center">بوابتك إلى موسيقى بلا حدود - بث موسيقى عبر المنصات</h3>
 
 <p align="center">
-  <strong>استمع وحمّل موسيقى عالية الجودة مجاناً عبر جميع أجهزتك، بدون إعلانات وبدون الحاجة لتسجيل الدخول.</strong>
+<strong>استمع وحمّل الموسيقى عالية الجودة مجاناً عبر جميع أجهزتك، بدون إعلانات وبدون الحاجة لتسجيل الدخول.</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/BlackHatDevX/openspot-music-app/stargazers">
-    <img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ffd700" alt="النجوم">
+    <img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ffd700" alt="Stars">
   </a>
   <a href="https://github.com/BlackHatDevX/openspot-music-app/network/members">
-    <img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=84b4a3" alt="تفرعات">
+    <img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=84b4a3" alt="Forks">
   </a>
   <a href="https://github.com/BlackHatDevX/openspot-music-app/issues">
-    <img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f38ba8" alt="مشكلات">
+    <img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f38ba8" alt="Issues">
   </a>
 </p>
 
 ---
 
-## 📱📺 تطبيقان مذهلان في مستودع واحد
+## 📱📺 تطبيقان مذهلان، مستودع واحد
 
 يحتوي هذا المستودع على **تطبيقين كاملين لبث الموسيقى**:
 
 ### 🎵 **OpenSpot Mobile** (React Native + Expo)
-- **الأنظمة المدعومة**: أندرويد، iOS
+- **المنصات**: أندرويد، iOS(قيد العمل)
 - **الموقع**: `openspot-music-mobile/`
-- **المميزات**: تجربة تطبيق جوال أصلية مع تنزيلات بدون اتصال، تشغيل في الخلفية، وحفظ الحالة بشكل دائم
+- **الميزات**: تجربة تطبيق جوال أصلية مع التنزيلات بدون اتصال، التشغيل في الخلفية، وحفظ الحالة
 
 ### 🖥️ **OpenSpot Desktop** (Electron + React)
-- **الأنظمة المدعومة**: macOS، ويندوز، لينكس
+- **المنصات**: macOS، Windows(قيد العمل)، Linux(قيد العمل)
 - **الموقع**: `openspot-music-electron/`
-- **المميزات**: واجهة محسنة لسطح المكتب مع تحكم صوتي عالمي، إدارة النوافذ، وتخزين محلي
+- **الميزات**: واجهة محسنة لأجهزة سطح المكتب مع تحكم صوتي عالمي، إدارة النوافذ، وتخزين محلي
 
 ---
 
-### 📢 انضم إلى قناتنا على تيليجرام
+### 📢 انضم إلى قناة التيليجرام الخاصة بنا
 
-ابق على اطلاع بأحدث **إصدارات النسخ**، و **الإعلانات الهامة** عبر قناة أوبن سبوت الرسمية على تيليجرام.
+ابقَ على اطلاع بخصوص **إصدارات النسخ** و**الإعلانات الهامة** على قناة Openspot الرسمية على تيليجرام.
 
 [![انضم إلينا على تيليجرام](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
 
 
 ---
 
-
-## 📱 تطبيق الجوال (React Native + Expo)
+## 📱 تطبيق الجوال (ريآكت نيتيف + إكسبو)
 
 ### لقطات الشاشة
 
 ![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
 
-
-
 ### روابط التحميل
 
-- **أندرويد APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
-- **iOS**: مطلوب مشرف
+- **ملف APK للأندرويد**: [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
+- **iOS**: [مطلوب مشرف للصيانة](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
 
 ### إعداد بيئة التطوير
+
+
+
 
 ```bash
 cd openspot-music-app
@@ -128,12 +128,12 @@ eas build --platform android --profile production
 
 ### روابط التحميل
 
-- **ملف macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
-- قم بتشغيل هذا إذا واجهت مشكلة في التطبيق التالف بعد التثبيت.
+- **ملف DMG لنظام macOS**: [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
+- شغّل هذا إذا واجهت مشكلة تلف التطبيق بعد التثبيت.
   ```bash
   xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **ملف Windows EXE**: قريبًا!
-- **ملف Linux DEB**: قريبًا!
+- **ملف Windows EXE**: [قريباً!](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
+- **ملف Linux DEB**: [قريباً!](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
 
 ### إعداد التطوير
 
@@ -223,24 +223,27 @@ npm run electron-dev
 
 ---
 
-## 🤝 المساهمة
+## 🙌 المساهمون
 
-نرحب بالمساهمات في كلا التطبيقين!
+شكر كبير لهؤلاء الأشخاص الرائعين الذين جعلوا هذا المشروع ممكنًا:
+
+- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – مساهمات أساسية، تكامل واجهة برمجة التطبيقات والعمود الفقري للمشروع
+
 ## 📞 المجتمع والدعم
 
-- **تليجرام**: [Openspot Music](https://telegram.dog/Openspot_Music)
-- **المشكلات**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- **تيليجرام**: [Openspot Music](https://telegram.dog/Openspot_Music)
+- **المشاكل**: [مشاكل GitHub](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
-## 👤 المؤلف وطرق التواصل
+## 👤 المؤلف والتواصل
 
 **جاش جرو**
 
 - **لينكدإن**: [https://linkedin.com/in/jash-gro/](https://linkedin.com/in/jash-gro/)
-- **ملف الأعمال**: [https://bit.ly/jashgro](https://bit.ly/jashgro)
-- **تليجرام**: [https://telegram.dog/deveIoper_x](https://telegram.dog/deveIoper_x)
-- **جيت هاب**: [https://github.com/BlackHatDevX](https://github.com/BlackHatDevX)
+- **المعرض الشخصي**: [https://bit.ly/jashgro](https://bit.ly/jashgro)
+- **تيليجرام**: [https://telegram.dog/deveIoper_x](https://telegram.dog/deveIoper_x)
+- **جيت هب**: [https://github.com/BlackHatDevX](https://github.com/BlackHatDevX)
 
-## 📄 الترخيص
+## 📄 الرخصة
 
 هذا المشروع مفتوح المصدر ومرخص بموجب رخصة MIT. راجع ملف `LICENSE` لمزيد من المعلومات.
 
@@ -249,12 +252,14 @@ npm run electron-dev
 <p align="center">
   <strong>⭐ إذا أعجبك هذا المشروع، يرجى منحه نجمة! ⭐</strong>
   <br />
-  <em>دعمك يساعدنا على مواصلة تطوير تطبيقات موسيقى مجانية مذهلة للجميع.</em>
+  <em>دعمك يساعدنا على مواصلة تطوير تطبيقات موسيقية مجانية مذهلة للجميع.</em>
 </p> 
+
+
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-24
 
 ---

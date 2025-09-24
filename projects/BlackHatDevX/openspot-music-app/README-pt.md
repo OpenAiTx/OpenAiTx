@@ -35,15 +35,15 @@
  <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">Seu Portal para Música Ilimitada - Streaming Musical Multiplataforma</h3>
+<h3 align="center">Seu Portal para Música Ilimitada - Streaming de Música Multiplataforma</h3>
 
 <p align="center">
-  <strong>Transmita e faça download de músicas em alta qualidade gratuitamente em todos os seus dispositivos, sem anúncios e sem necessidade de login.</strong>
+  <strong>Transmita e baixe músicas de alta qualidade gratuitamente em todos os seus dispositivos, sem anúncios e sem necessidade de login.</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/BlackHatDevX/openspot-music-app/stargazers">
-    <img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ffd700" alt="Stars">
+    <img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ffd700" alt="Estrelas">
   </a>
   <a href="https://github.com/BlackHatDevX/openspot-music-app/network/members">
     <img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=84b4a3" alt="Forks">
@@ -57,31 +57,31 @@
 
 ## 📱📺 Dois Apps Incríveis, Um Repositório
 
-Este repositório contém **dois aplicativos completos de streaming de música**:
+Este repositório contém **duas aplicações completas de streaming de música**:
 
 ### 🎵 **OpenSpot Mobile** (React Native + Expo)
-- **Plataformas**: Android, iOS
+- **Plataformas**: Android, iOS(EM DESENVOLVIMENTO)
 - **Localização**: `openspot-music-mobile/`
-- **Funcionalidades**: Experiência móvel nativa com downloads offline, reprodução em segundo plano e estado persistente
+- **Recursos**: Experiência nativa mobile com downloads offline, reprodução em segundo plano e estado persistente
 
 ### 🖥️ **OpenSpot Desktop** (Electron + React)
-- **Plataformas**: macOS, Windows, Linux
+- **Plataformas**: macOS, Windows(EM DESENVOLVIMENTO), Linux(EM DESENVOLVIMENTO)
 - **Localização**: `openspot-music-electron/`
-- **Funcionalidades**: Interface otimizada para desktop com controles globais de áudio, gerenciamento de janelas e armazenamento local
+- **Recursos**: Interface otimizada para desktop com controles globais de áudio, gerenciamento de janelas e armazenamento local
 
 ---
 
 ### 📢 Junte-se ao Nosso Canal no Telegram
 
-Fique por dentro de **lançamentos de versões** e **anúncios importantes** no canal oficial Openspot no Telegram.
+Fique atualizado com **lançamentos de versões** e **anúncios importantes** no canal oficial do Openspot no Telegram.
 
-[![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+[![Junte-se a nós no Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
 
 
 ---
 
 
-## 📱 Aplicativo Mobile (React Native + Expo)
+## 📱 Aplicativo Móvel (React Native + Expo)
 
 ### Capturas de Tela
 
@@ -91,8 +91,8 @@ Fique por dentro de **lançamentos de versões** e **anúncios importantes** no 
 
 ### Links para Download
 
-- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
-- **iOS**: Precisamos de um mantenedor
+- **Android APK**: [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
+- **iOS**: [Mantenedor Necessário](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
 
 ### Configuração de Desenvolvimento
 
@@ -124,16 +124,16 @@ eas build --platform android --profile production
 
 ### Capturas de Tela
 
-![App macOS](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
+![Aplicativo macOS](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
 
 ### Links para Download
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- **macOS DMG**: [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
 - Execute isto se você estiver enfrentando problemas de aplicativo danificado após a instalação.
   ```bash
   xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **Windows EXE**: Em breve!
-- **Linux DEB**: Em breve!
+- **Windows EXE**: [Em breve!](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
+- **Linux DEB**: [Em breve!](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
 
 ### Configuração de Desenvolvimento
 
@@ -223,13 +223,16 @@ npm run electron-dev
 
 ---
 
-## 🤝 Contribuindo
+## 🙌 Contribuidores
 
-Agradecemos contribuições para ambos os aplicativos!
+Um enorme agradecimento a estas pessoas incríveis que tornaram este projeto possível:
+
+- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – Contribuições principais, integração de API e base geral do projeto
+
 ## 📞 Comunidade & Suporte
 
 - **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
-- **Problemas**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- **Issues**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ## 👤 Autor & Contato
 
@@ -247,14 +250,16 @@ Este projeto é open-source e licenciado sob a Licença MIT. Veja o arquivo `LIC
 ---
 
 <p align="center">
-  <strong>⭐ Se você gostou deste projeto, por favor, deixe uma estrela! ⭐</strong>
+  <strong>⭐ Se você gostou deste projeto, dê uma estrela! ⭐</strong>
   <br />
-  <em>Seu apoio nos ajuda a continuar desenvolvendo incríveis aplicativos de música gratuitos para todos.</em>
+  <em>Seu apoio nos ajuda a continuar desenvolvendo aplicativos de música gratuitos e incríveis para todos.</em>
 </p> 
+
+
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-24
 
 ---

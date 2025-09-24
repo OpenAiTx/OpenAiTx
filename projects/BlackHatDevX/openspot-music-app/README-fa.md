@@ -14,7 +14,7 @@
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=it">ایتالیایی</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ru">Русский</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=nl">Nederlands</a>
@@ -35,10 +35,10 @@
  <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">دروازه شما به دنیای بی‌پایان موسیقی - استریم موسیقی چندسکویی</h3>
+<h3 align="center">دروازه شما به موسیقی بی‌پایان - استریم موسیقی چندسکویی</h3>
 
 <p align="center">
-  <strong>پخش و دانلود رایگان موسیقی با کیفیت بالا در تمام دستگاه‌های شما، بدون تبلیغات و بدون نیاز به ورود.</strong>
+<strong>پخش و دانلود موسیقی با کیفیت بالا به صورت رایگان در تمام دستگاه‌های شما، بدون تبلیغات و بدون نیاز به ورود.</strong>
 </p>
 
 <p align="center">
@@ -57,23 +57,23 @@
 
 ## 📱📺 دو اپلیکیشن فوق‌العاده، یک مخزن
 
-این مخزن شامل **دو اپلیکیشن کامل برای استریم موسیقی** است:
+این مخزن شامل **دو اپلیکیشن کامل استریم موسیقی** می‌باشد:
 
 ### 🎵 **OpenSpot Mobile** (ری‌اکت نیتیو + اکسپو)
-- **پلتفرم‌ها**: اندروید، iOS
+- **پلتفرم‌ها**: اندروید، iOS(در حال توسعه)
 - **مکان**: `openspot-music-mobile/`
-- **ویژگی‌ها**: تجربه بومی موبایل با دانلود آفلاین، پخش در پس‌زمینه و نگهداری حالت برنامه
+- **امکانات**: تجربه بومی موبایل با دانلود آفلاین، پخش در پس‌زمینه، و حفظ حالت پایدار
 
 ### 🖥️ **OpenSpot Desktop** (الکترون + ری‌اکت)
-- **پلتفرم‌ها**: مک‌اواس، ویندوز، لینوکس
+- **پلتفرم‌ها**: macOS، ویندوز(در حال توسعه)، لینوکس(در حال توسعه)
 - **مکان**: `openspot-music-electron/`
-- **ویژگی‌ها**: رابط بهینه شده برای دسکتاپ با کنترل‌های صوتی سراسری، مدیریت پنجره و ذخیره‌سازی محلی
+- **امکانات**: رابط کاربری بهینه‌شده برای دسکتاپ با کنترل صوتی جهانی، مدیریت پنجره، و ذخیره‌سازی محلی
 
 ---
 
 ### 📢 به کانال تلگرام ما بپیوندید
 
-با **انتشار نسخه‌ها** و **اطلاعیه‌های مهم** در کانال رسمی تلگرام اپن‌اسپات به‌روز باشید.
+با **انتشار نسخه‌ها** و **اعلامیه‌های مهم** در کانال رسمی تلگرام Openspot به‌روز بمانید.
 
 [![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
 
@@ -83,16 +83,16 @@
 
 ## 📱 اپلیکیشن موبایل (ری‌اکت نیتیو + اکسپو)
 
-### تصاویر برنامه
+### تصاویر صفحه
 
-![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
+![واتس‌اپ ایمیج 2025-07-26 ساعت 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
 
 
 
 ### لینک‌های دانلود
 
-- **اندروید APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
-- **iOS**: نیاز به نگهدارنده دارد
+- **اندروید APK**: [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
+- **iOS**: [نیاز به نگهدارنده](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
 
 ### راه‌اندازی توسعه
 
@@ -120,22 +120,22 @@ eas build --platform android --profile production
 
 ---
 
-## 🖥️ اپلیکیشن دسکتاپ (الکترون + ری‌اکت)
+## 🖥️ نرم‌افزار دسکتاپ (الکترون + ری‌اکت)
 
 ### تصاویر برنامه
 
-![اپلیکیشن macOS](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
+![برنامه macOS](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
 
 ### لینک‌های دانلود
 
-- **فایل macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
-- در صورتی که پس از نصب با مشکل برنامه آسیب‌دیده مواجه شدید، این را اجرا کنید.
+- **DMG برای macOS**: [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
+- اگر پس از نصب با مشکل خراب بودن برنامه مواجه شدید، این را اجرا کنید.
   ```bash
   xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **ویندوز EXE**: به‌زودی ارائه می‌شود!
-- **لینوکس DEB**: به‌زودی ارائه می‌شود!
+- **فایل اجرایی ویندوز (EXE)**: [به زودی!](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
+- **فایل DEB لینوکس**: [به زودی!](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
 
-### راه‌اندازی توسعه
+### راه‌اندازی محیط توسعه
 
 ```bash
 cd openspot-music-app/
@@ -223,38 +223,43 @@ npm run electron-dev
 
 ---
 
-## 🤝 مشارکت
+## 🙌 مشارکت‌کنندگان
 
-ما از مشارکت در هر دو اپلیکیشن استقبال می‌کنیم!
+تشکر فراوان از این افراد شگفت‌انگیز که این پروژه را ممکن ساختند:
+
+- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – مشارکت‌های اصلی، یکپارچه‌سازی API و ستون فقرات کلی پروژه
+
 ## 📞 جامعه و پشتیبانی
 
 - **تلگرام**: [Openspot Music](https://telegram.dog/Openspot_Music)
-- **مسائل**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
+- **ایرادات**: [GitHub Issues](https://github.com/BlackHatDevX/openspot-music-app/issues)
 
 ## 👤 نویسنده و تماس
 
 **جاش گرو**
 
 - **لینکدین**: [https://linkedin.com/in/jash-gro/](https://linkedin.com/in/jash-gro/)
-- **پورتفولیو**: [https://bit.ly/jashgro](https://bit.ly/jashgro)
+- **نمونه کارها**: [https://bit.ly/jashgro](https://bit.ly/jashgro)
 - **تلگرام**: [https://telegram.dog/deveIoper_x](https://telegram.dog/deveIoper_x)
 - **گیت‌هاب**: [https://github.com/BlackHatDevX](https://github.com/BlackHatDevX)
 
 ## 📄 مجوز
 
-این پروژه متن‌باز است و تحت مجوز MIT منتشر شده است. برای اطلاعات بیشتر به فایل `LICENSE` مراجعه کنید.
+این پروژه متن‌باز بوده و تحت مجوز MIT ارائه شده است. برای اطلاعات بیشتر به فایل `LICENSE` مراجعه کنید.
 
 ---
 
 <p align="center">
   <strong>⭐ اگر این پروژه را دوست دارید، لطفاً به آن ستاره بدهید! ⭐</strong>
   <br />
-  <em>حمایت شما به ما کمک می‌کند تا توسعه برنامه‌های موسیقی رایگان و شگفت‌انگیز را برای همه ادامه دهیم.</em>
+  <em>حمایت شما به ما کمک می‌کند تا به توسعه اپلیکیشن‌های رایگان موسیقی برای همه ادامه دهیم.</em>
 </p> 
+
+
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-24
 
 ---

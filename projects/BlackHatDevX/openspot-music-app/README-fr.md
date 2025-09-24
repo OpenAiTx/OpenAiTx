@@ -35,10 +35,10 @@
  <img width="100" alt="Logo OpenSpot" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">Votre passerelle vers une musique sans limites - Streaming musical multiplateforme</h3>
+<h3 align="center">Votre portail vers une musique illimitée - Streaming musical multiplateforme</h3>
 
 <p align="center">
-  <strong>Écoutez et téléchargez de la musique haute qualité gratuitement sur tous vos appareils, sans publicité et sans inscription.</strong>
+  <strong>Diffusez et téléchargez gratuitement de la musique de haute qualité sur tous vos appareils, sans publicité et sans connexion requise.</strong>
 </p>
 
 <p align="center">
@@ -55,17 +55,17 @@
 
 ---
 
-## 📱📺 Deux applications incroyables, un seul dépôt
+## 📱📺 Deux applications exceptionnelles, un seul dépôt
 
 Ce dépôt contient **deux applications complètes de streaming musical** :
 
 ### 🎵 **OpenSpot Mobile** (React Native + Expo)
-- **Plateformes** : Android, iOS
+- **Plateformes** : Android, iOS(En cours)
 - **Emplacement** : `openspot-music-mobile/`
 - **Fonctionnalités** : Expérience mobile native avec téléchargements hors ligne, lecture en arrière-plan et état persistant
 
 ### 🖥️ **OpenSpot Desktop** (Electron + React)
-- **Plateformes** : macOS, Windows, Linux
+- **Plateformes** : macOS, Windows(En cours), Linux(En cours)
 - **Emplacement** : `openspot-music-electron/`
 - **Fonctionnalités** : Interface optimisée pour le bureau avec contrôles audio globaux, gestion des fenêtres et stockage local
 
@@ -73,7 +73,7 @@ Ce dépôt contient **deux applications complètes de streaming musical** :
 
 ### 📢 Rejoignez notre chaîne Telegram
 
-Restez informé des **nouvelles versions** et **annonces importantes** sur la chaîne Telegram officielle d’Openspot.
+Restez informé des **nouvelles versions** et des **annonces importantes** sur la chaîne Telegram officielle d'Openspot.
 
 [![Rejoignez-nous sur Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
 
@@ -83,7 +83,7 @@ Restez informé des **nouvelles versions** et **annonces importantes** sur la ch
 
 ## 📱 Application mobile (React Native + Expo)
 
-### Captures d'écran
+### Captures d’écran
 
 ![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
 
@@ -91,8 +91,8 @@ Restez informé des **nouvelles versions** et **annonces importantes** sur la ch
 
 ### Liens de téléchargement
 
-- **Android APK** : [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
-- **iOS** : Mainteneur Recherché
+- **Android APK** : [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
+- **iOS** : [Responsable recherché](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
 
 ### Configuration du développement
 
@@ -128,12 +128,12 @@ eas build --platform android --profile production
 
 ### Liens de téléchargement
 
-- **macOS DMG** : [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- **macOS DMG** : [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
 - Exécutez ceci si vous rencontrez un problème d'application endommagée après l'installation.
   ```bash
   xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **EXE Windows** : Bientôt disponible !
-- **DEB Linux** : Bientôt disponible !
+- **Windows EXE** : [Bientôt disponible !](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
+- **Linux DEB** : [Bientôt disponible !](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
 
 ### Configuration du développement
 
@@ -223,9 +223,12 @@ npm run electron-dev
 
 ---
 
-## 🤝 Contribution
+## 🙌 Contributeurs
 
-Nous accueillons les contributions pour les deux applications !
+Un immense merci à ces personnes incroyables qui ont rendu ce projet possible :
+
+- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – Contributions principales, intégration de l'API et colonne vertébrale globale du projet
+
 ## 📞 Communauté & Support
 
 - **Telegram** : [Openspot Music](https://telegram.dog/Openspot_Music)
@@ -247,14 +250,16 @@ Ce projet est open-source et sous licence MIT. Voir le fichier `LICENSE` pour pl
 ---
 
 <p align="center">
-  <strong>⭐ Si vous aimez ce projet, mettez-lui une étoile ! ⭐</strong>
+  <strong>⭐ Si vous aimez ce projet, merci de lui donner une étoile ! ⭐</strong>
   <br />
-  <em>Votre soutien nous aide à continuer à développer des applications musicales gratuites et incroyables pour tous.</em>
+  <em>Votre soutien nous aide à continuer de développer des applications musicales gratuites et exceptionnelles pour tous.</em>
 </p> 
+
+
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-24
 
 ---

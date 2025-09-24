@@ -29,16 +29,16 @@
   </details>
 </div>
 
-# OpenSpot 音乐 🎶
+# OpenSpot音乐 🎶
 
 <p align="center">
  <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">您的无限音乐之门——跨平台音乐流媒体</h3>
+<h3 align="center">您的无限音乐之门 - 跨平台音乐流媒体</h3>
 
 <p align="center">
-  <strong>在所有设备上免费播放和下载高质量音乐，无广告、无需登录。</strong>
+<strong>在所有设备上免费观看高品质音乐流和下载，无广告，无需登录。</strong>
 </p>
 
 <p align="center">
@@ -55,46 +55,46 @@
 
 ---
 
-## 📱📺 两款出色应用，一个仓库
+## 📱📺 两款出色应用，共同存于一个仓库
 
 本仓库包含**两个完整的音乐流媒体应用**：
 
 ### 🎵 **OpenSpot Mobile**（React Native + Expo）
-- **平台**：Android，iOS
+- **平台**：Android，iOS（开发中）
 - **位置**：`openspot-music-mobile/`
-- **功能**：原生移动体验，支持离线下载、后台播放和持久状态
+- **特色**：原生移动体验，支持离线下载、后台播放和持久状态
 
 ### 🖥️ **OpenSpot Desktop**（Electron + React）
-- **平台**：macOS，Windows，Linux
+- **平台**：macOS，Windows（开发中），Linux（开发中）
 - **位置**：`openspot-music-electron/`
-- **功能**：为桌面优化的界面，拥有全局音频控制、窗口管理和本地存储
+- **特色**：为桌面优化的界面，拥有全局音频控制、窗口管理及本地存储
 
 ---
 
 ### 📢 加入我们的 Telegram 频道
 
-在官方 Openspot Telegram 频道获取**版本更新**和**重要公告**。
+在官方 Openspot Telegram 频道获取**版本发布**和**重要公告**的最新动态。
 
-[![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+[![加入我们 Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
 
 
 ---
 
 
-## 📱 移动应用（React Native + Expo）
+## 📱 移动应用程序（React Native + Expo）
 
 ### 截图
 
-![WhatsApp Image 2025-07-26 at 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
+![WhatsApp 图片 2025-07-26 00 52 14](https://github.com/user-attachments/assets/cc7b262d-ccfe-4899-bd86-56d0e3e90be7)
 
 
 
 ### 下载链接
 
-- **Android APK**：[OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
-- **iOS**：维护者招募中
+- **安卓 APK**: [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
+- **iOS**: [维护者招募中](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
 
-### 开发环境搭建
+### 开发环境设置
 
 ```bash
 cd openspot-music-app
@@ -120,20 +120,20 @@ eas build --platform android --profile production
 
 ---
 
-## 🖥️ 桌面应用（Electron + React）
+## 🖥️ 桌面应用程序（Electron + React）
 
 ### 截图
 
-![macOS 应用](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
+![macOS 应用程序](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
 
 ### 下载链接
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- **macOS DMG**: [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
 - 如果安装后遇到应用损坏问题，请运行此命令。
   ```bash
   xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **Windows EXE**：即将推出！
-- **Linux DEB**：即将推出！
+- **Windows EXE**: [敬请期待！](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
+- **Linux DEB**: [敬请期待！](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
 
 ### 开发环境设置
 
@@ -224,9 +224,12 @@ npm run electron-dev
 
 ---
 
-## 🤝 参与贡献
+## 🙌 贡献者
 
-我们欢迎对两个应用程序的贡献！
+衷心感谢这些令人敬佩的人，使本项目成为可能：
+
+- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – 核心贡献，API 集成，以及项目的整体支柱
+
 ## 📞 社区与支持
 
 - **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
@@ -243,19 +246,21 @@ npm run electron-dev
 
 ## 📄 许可证
 
-本项目为开源项目，遵循 MIT 许可证。更多信息请参见 `LICENSE` 文件。
+本项目为开源项目，采用 MIT 许可证。更多信息请参见 `LICENSE` 文件。
 
 ---
 
 <p align="center">
-  <strong>⭐ 如果你喜欢这个项目，请为它加一颗星！⭐</strong>
+  <strong>⭐ 如果你喜欢这个项目，请为它点个星！⭐</strong>
   <br />
-  <em>你的支持帮助我们持续为所有人开发出色的免费音乐应用。</em>
+  <em>你的支持能帮助我们持续开发更多优秀的免费音乐应用。</em>
 </p> 
+
+
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-24
 
 ---

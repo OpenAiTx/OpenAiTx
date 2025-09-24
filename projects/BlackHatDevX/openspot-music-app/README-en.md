@@ -23,7 +23,7 @@
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fa">Persian</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=tr">Turkish</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=vi">Vietnamese</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=id">Indonesian</a>
       </div>
     </div>
   </details>
@@ -38,7 +38,7 @@
 <h3 align="center">Your Gateway to Limitless Music - Cross-Platform Music Streaming</h3>
 
 <p align="center">
-  <strong>Stream and download high-quality music for free across all your devices, with no ads and no login required.</strong>
+  <strong>Stream and download high-quality music for free on all your devices, with no ads and no login needed.</strong>
 </p>
 
 <p align="center">
@@ -57,15 +57,15 @@
 
 ## 📱📺 Two Amazing Apps, One Repository
 
-This repository contains **two complete music streaming applications**:
+This repository includes **two complete music streaming apps**:
 
 ### 🎵 **OpenSpot Mobile** (React Native + Expo)
-- **Platforms**: Android, iOS
+- **Platforms**: Android, iOS (WIP)
 - **Location**: `openspot-music-mobile/`
 - **Features**: Native mobile experience with offline downloads, background playback, and persistent state
 
 ### 🖥️ **OpenSpot Desktop** (Electron + React)
-- **Platforms**: macOS, Windows, Linux
+- **Platforms**: macOS, Windows (WIP), Linux (WIP)
 - **Location**: `openspot-music-electron/`
 - **Features**: Desktop-optimized interface with global audio controls, window management, and local storage
 
@@ -73,7 +73,7 @@ This repository contains **two complete music streaming applications**:
 
 ### 📢 Join Our Telegram Channel
 
-Stay updated with **version releases**, and **important announcements** on official Openspot Telegram channel.
+Stay up to date with **version releases** and **important announcements** via the official Openspot Telegram channel.
 
 [![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
 
@@ -91,8 +91,8 @@ Stay updated with **version releases**, and **important announcements** on offic
 
 ### Download Links
 
-- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
-- **iOS**: Maintainer Needed
+- **Android APK**: [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
+- **iOS**: [Maintainer Needed](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
 
 ### Development Setup
 
@@ -128,12 +128,12 @@ eas build --platform android --profile production
 
 ### Download Links
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- **macOS DMG**: [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
 - Run this if you are facing damaged app issue after installation.
   ```bash
   xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **Windows EXE**: Coming Soon!
-- **Linux DEB**: Coming Soon!
+- **Windows EXE**: [Coming Soon!](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
+- **Linux DEB**: [Coming Soon!](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
 
 ### Development Setup
 
@@ -224,9 +224,12 @@ npm run electron-dev
 
 ---
 
-## 🤝 Contributing
+## 🙌 Contributors
 
-We welcome contributions to both apps!
+A huge thanks to these amazing people who made this project possible:
+
+- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – Core contributions, API integration and overall backbone of the project
+
 ## 📞 Community & Support
 
 - **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
@@ -252,10 +255,12 @@ This project is open-source and licensed under the MIT License. See the `LICENSE
   <br />
   <em>Your support helps us continue developing amazing free music apps for everyone.</em>
 </p> 
+
+
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-24
 
 ---

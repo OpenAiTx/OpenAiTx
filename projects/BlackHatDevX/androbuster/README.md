@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # 🚀 AndroBuster
 
 <div align="center">

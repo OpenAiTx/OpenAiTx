@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=androbuster&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # 🚀 AndroBuster
 
 <div align="center">
@@ -8,12 +40,12 @@
 <div align="center">
 
 **🔒 ペンテストを簡単に**  
-*Flutterで構築された強力なディレクトリおよびサブドメイン列挙ツール*
+*Flutter で構築された強力なディレクトリ・サブドメイン列挙ツール*
 
-[![Download APK](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge&logo=android)](https://github.com/BlackHatDevX/androbuster/releases)
-[![GitHub stars](https://img.shields.io/github/stars/BlackHatDevX/androbuster?style=for-the-badge&logo=github)](https://github.com/BlackHatDevX/androbuster)
-[![GitHub forks](https://img.shields.io/github/forks/BlackHatDevX/androbuster?style=for-the-badge&logo=github)](https://github.com/BlackHatDevX/androbuster)
-[![GitHub issues](https://img.shields.io/github/issues/BlackHatDevX/androbuster?style=for-the-badge&logo=github)](https://github.com/BlackHatDevX/androbuster/issues)
+[![APKをダウンロード](https://img.shields.io/badge/Download-APK-blue?style=for-the-badge&logo=android)](https://github.com/BlackHatDevX/androbuster/releases)
+[![GitHubスター](https://img.shields.io/github/stars/BlackHatDevX/androbuster?style=for-the-badge&logo=github)](https://github.com/BlackHatDevX/androbuster)
+[![GitHubフォーク](https://img.shields.io/github/forks/BlackHatDevX/androbuster?style=for-the-badge&logo=github)](https://github.com/BlackHatDevX/androbuster)
+[![GitHubイシュー](https://img.shields.io/github/issues/BlackHatDevX/androbuster?style=for-the-badge&logo=github)](https://github.com/BlackHatDevX/androbuster/issues)
 
 </div>
 
@@ -21,14 +53,14 @@
 
 ## 📖 概要
 
-AndroBusterは、GoBusterに触発された**オープンソースのセキュリティツール**であり、ディレクトリおよびサブドメインの列挙のためのモダンでクロスプラットフォームなインターフェースを提供します。Flutterで構築されており、プロフェッショナルなセキュリティツールに期待される強力さと柔軟性を維持しながら、クリーンで直感的なユーザー体験を提供します。
+AndroBuster は **オープンソースのセキュリティツール** であり、GoBuster に触発されて作られた、ディレクトリおよびサブドメイン列挙用のモダンなクロスプラットフォームインターフェースを提供します。Flutter で構築されており、プロフェッショナルなセキュリティツールに期待されるパワーと柔軟性を維持しつつ、クリーンで直感的なユーザー体験を実現します。
 
-### 🎯 AndroBusterの特長は？
-- 🚀 **クロスプラットフォーム**：Android、iOS、デスクトップで動作
-- 🔒 **セキュリティ重視**：ペネトレーションテスター向けに設計
-- 💻 **モダンUI**：美しいFlutterベースのインターフェース
-- ⚡ **高性能**：効率的なスレッドおよびメモリ管理
-- 📱 **モバイルファースト**：モバイルセキュリティテストに最適化
+### 🎯 AndroBuster の特長
+- 🚀 **クロスプラットフォーム対応**: Android、iOS、デスクトップで動作
+- 🔒 **セキュリティ重視**: ペネトレーションテスト専用設計
+- 💻 **モダンなUI**: 美しいFlutterベースのインターフェース
+- ⚡ **高性能**: 効率的なスレッド・メモリ管理
+- 📱 **モバイルファースト**: モバイルセキュリティテスト向けに最適化
 
 ---
 
@@ -38,6 +70,7 @@ AndroBusterは、GoBusterに触発された**オープンソースのセキュ�
 
 <img width="339" height="749" alt="Screenshot 2025-08-20 at 1 11 24 AM" src="https://github.com/user-attachments/assets/e12ed93e-876f-408b-9e3d-4a849e8fe2a1" />
 <img width="339" height="749" alt="Screenshot 2025-08-20 at 1 11 34 AM" src="https://github.com/user-attachments/assets/17850561-cef9-46e2-8203-8ba29c223fe7" />
+
 </div>
 
 ---
@@ -46,41 +79,40 @@ AndroBusterは、GoBusterに触発された**オープンソースのセキュ�
 
 ## ✨ 機能
 
-### 🗂️ ディレクトリ列挙モード
-- **対象URL入力**：自動で末尾のスラッシュを除去するクリーンなURL処理
-- **ネガティブステータスコード**：不要なHTTPステータスコードをフィルタリング（デフォルト：404）
-- **ネガティブページサイズ**：コンテンツ長に基づくレスポンスの除外
-- **ワードリスト対応**：大容量テキスト入力およびファイルインポート機能
-- **スレッド制御**：最適なパフォーマンスのためのスレッド数設定可能
-- **タイムアウト設定**：ミリ秒単位でカスタマイズ可能なリクエストタイムアウト
+### 🗂️ ディレクトリエニュメレーションモード
+- **ターゲットURL入力**: 自動トレーリングスラッシュ除去によるクリーンなURL処理
+- **否定ステータスコード**: 不要なHTTPステータスコードの除外（デフォルト: 404）
+- **否定ページサイズ**: コンテンツ長に基づくレスポンスの除外
+- **ワードリスト対応**: ファイルインポート可能な大容量テキスト入力
+- **スレッド制御**: 最適なパフォーマンスのためのスレッド数設定
+- **タイムアウト設定**: ミリ秒単位でカスタマイズ可能なリクエストタイムアウト
 
-### 🌐 サブドメイン列挙モード
-- **ドメイン入力**：http/https不要のクリーンなドメイン処理
-- **サブドメインワードリスト**：サブドメイン発見用の専用ワードリスト管理
-- **プロトコルテスト**：自動HTTPS/HTTPフォールバックテスト
-- **サブドメイン検証**：RFC 1123準拠のサブドメイン名検証
-- **専用フィルター**：サブドメイン用の別個のネガティブステータスコード・ページサイズ設定
-- **スレッド＆タイムアウト**：ディレクトリモードと独立した設定が可能
+### 🌐 サブドメインエニュメレーションモード
+- **ドメイン入力**: クリーンドメイン処理（http/https不要）
+- **サブドメインワードリスト**: サブドメイン発見専用ワードリスト管理
+- **プロトコルテスト**: HTTPS/HTTPの自動フォールバックテスト
+- **サブドメイン検証**: RFC 1123準拠のサブドメイン名検証
+- **専用フィルタ**: サブドメイン用の独立した否定ステータスコード・ページサイズ
+- **スレッド＆タイムアウト**: ディレクトリモードとは独立した設定
 
 ### 📋 結果管理
-- **統合結果タブ**：ディレクトリおよびサブドメインのスキャン結果を一元表示
-- **結果フォーマット**：パス、ステータスコード、サイズ、URLを明確に表示
-- **クリップボードへコピー**：外部解析用に結果をエクスポート
-- **結果クリア**：スキャン間の簡単な結果リセット
-- **結果数管理**：ディレクトリとサブドメイン別に結果数を追跡
+- **統一結果タブ**: ディレクトリとサブドメインのスキャン結果を表示
+- **結果フォーマット**: パス、ステータスコード、サイズ、URLの明確な表示
+- **クリップボードへコピー**: 外部解析用に結果をエクスポート
+- **結果クリア**: スキャン間の簡単なクリーンアップ
+- **結果カウント**: ディレクトリとサブドメインの結果を個別に管理
 
 ### 📁 ファイル管理
-- **ワードリストインポート**：最大50MBの.txtファイルに対応
-- **スマートプレビュー**：ファイルサイズに応じた内容表示
-- **大容量ファイル処理**：巨大ワードリストの効率的な処理
-- **フォーマット対応**：コメント（#）や空行を自動処理
+- **ワードリストインポート**: 最大50MBまでの.txtファイル対応
+- **スマートプレビュー**: ファイルサイズに応じたコンテンツ表示
+- **大容量ファイル処理**: 巨大ワードリストも効率的に処理
+- **フォーマット対応**: コメント（#）や空行も自動で処理
 
 ### 🚀 パフォーマンス＆信頼性
-- **バックグラウンド実行**：スキャン中もアプリがバックグラウンドで継続動作
-
-- **メモリ最適化**：大規模なワードリストの効率的な処理
-- **エラーハンドリング**：優雅なフォールバックおよび回復メカニズム
-- **クロスプラットフォーム**：AndroidおよびiOS向けにFlutterで構築
+- **バックグラウンド実行**: バックグラウンドスキャン中もアプリ動作継続
+- **メモリ最適化**: 大容量ワードリストも効率的に処理
+- **エラーハンドリング**: フォールバックとリカバリの優雅なメカニズム
+- **クロスプラットフォーム**: FlutterでAndroidおよびiOS対応
 
 
 
@@ -89,42 +121,42 @@ AndroBusterは、GoBusterに触発された**オープンソースのセキュ�
 ## 📱 インストール
 
 ### 📦 リリースビルド
-現在、Android APKのリリース版のみ利用可能です。リリースページから最新のAPKをダウンロードしてください。
+現在、Android APK のみリリースされています。最新版の APK はリリースページからダウンロードしてください。
 
 <div align="center">
 
-[![Download Latest](https://img.shields.io/badge/📥%20Download%20Latest%20Release-blue?style=for-the-badge)](https://github.com/BlackHatDevX/androbuster/releases)
+[![最新をダウンロード](https://img.shields.io/badge/📥%20Download%20Latest%20Release-blue?style=for-the-badge)](https://github.com/BlackHatDevX/androbuster/releases)
 
 </div>
 
 ### 🔧 ソースからのビルド
-ソースコードは現在公開されており、誰でも使用、改変、貢献が可能です。
+ソースコードは公開されており、誰でも利用、修正、貢献が可能です。
 
 ---
 
 ## 📖 使用ガイド
 
-### 🗂️ ディレクトリ列挙
-1. 「Dir」タブに移動
-2. 対象のURLを入力
-3. ネガティブステータスコードとページサイズを設定
-4. ワードリストを貼り付けまたはインポート
-5. スレッド数とタイムアウトを設定
-6. スキャンを開始し進行状況を監視
+### 🗂️ ディレクトリエニュメレーション
+1. 「Dir」タブに移動します
+2. ターゲット URL を入力します
+3. 除外するステータスコードとページサイズを設定します
+4. ワードリストを貼り付けるかインポートします
+5. スレッド数とタイムアウトを設定します
+6. スキャンを開始し進行状況を監視します
 
-### 🌐 サブドメイン列挙
-1. 「Subdomain」タブに移動
-2. 対象ドメインを入力（http/httpsなし）
-3. サブドメイン固有のフィルターを設定
-4. サブドメイン用ワードリストをインポートまたは貼り付け
-5. スレッド数とタイムアウト設定を調整
-6. サブドメインの発見を開始
+### 🌐 サブドメインエニュメレーション
+1. 「Subdomain」タブに移動します
+2. ターゲットドメイン（http/httpsなし）を入力します
+3. サブドメイン用フィルターを設定します
+4. サブドメイン用ワードリストをインポートまたは貼り付けます
+5. スレッド数とタイムアウト設定を調整します
+6. サブドメイン探索を開始します
 
 ### 📋 結果管理
-- 「結果」タブで全ての結果を表示
-- 結果をクリップボードにコピーして外部分析に使用
+- 「Results」タブですべての結果を表示
+- 結果をクリップボードにコピーして外部で分析
 - 異なるスキャン間で結果をクリア
-- スキャンの進行状況と完了を監視
+- スキャンの進行と完了を監視
 
 ---
 
@@ -133,23 +165,23 @@ AndroBusterは、GoBusterに触発された**オープンソースのセキュ�
 ### ⚡ スレッド数
 - **推奨**: ほとんどのシナリオで10～20スレッド
 - **高スレッド警告**: 20スレッドを超えると警告
-- **考慮事項**: スレッド数が多いとレート制限が発生する可能性あり
+- **注意点**: スレッド数が多いとレート制限がかかる可能性あり
 
 ### ⏱️ タイムアウト設定
 - **デフォルト**: 5000ms（5秒）
-- **調整**: ネットワークが遅い場合は増加、速い応答には減少
-- **範囲**: 1000msから30000msまで対応
+- **調整方法**: 通信が遅い場合は増加、応答が速い場合は減少
+- **範囲**: 1000ms～30000msまで対応
 
 ### 🚫 ネガティブフィルター
-- **ステータスコード**: カンマ区切りリスト（例：404,403,500）
-- **ページサイズ**: カンマ区切りリスト（例：0,1234,5678）
-- **目的**: 不要な応答を結果から除外
+- **ステータスコード**: カンマ区切りリスト（例: 404,403,500）
+- **ページサイズ**: カンマ区切りリスト（例: 0,1234,5678）
+- **目的**: 不要な応答を結果から除外するため
 
 ---
 
-## 🤝 貢献について
+## 🤝 コントリビューション
 
-このプロジェクトは**オープンソース**であり、貢献を歓迎します！ソースコードは公開されており、誰でも利用可能です。
+このプロジェクトは**オープンソース**であり、貢献を歓迎しています！ソースコードは公開されており、誰でも利用可能です。
 
 <div align="center">
 
@@ -158,31 +190,31 @@ AndroBusterは、GoBusterに触発された**オープンソースのセキュ�
 </div>
 
 ### 📋 貢献方法
-1. **⭐ スター** を押してください（任意ですが感謝します！）
-2. **🍴 フォーク** してください
-3. **🌿 機能ブランチ** を作成してください
-4. **📤 プルリクエスト** を提出してください
+1. **⭐ スター** をリポジトリにつける（任意ですが歓迎！）
+2. **🍴 フォーク** してリポジトリをコピー
+3. **🌿 フィーチャーブランチ** を作成
+4. **📤 プルリクエスト** を提出
 
 ---
 
-## 🙏 クレジット＆謝辞
+## 🙏 クレジット & 謝辞
 
-- **🎯 インスパイア元**: [GoBuster](https://github.com/OJ/gobuster) - 元祖ディレクトリ列挙ツール
-- **🛠️ 使用技術**: [Flutter](https://flutter.dev/) - GoogleのネイティブコンパイルアプリケーションUIツールキット
+- **🎯 インスパイア元**: [GoBuster](https://github.com/OJ/gobuster) - 元祖ディレクトリエニュメレーションツール
+- **🛠️ 使用技術**: [Flutter](https://flutter.dev/) - Googleによるネイティブコンパイルアプリ用UIツールキット
 - **🔒 セキュリティ重視**: ペネトレーションテスターとセキュリティ研究者向けに設計
-- **🌍 コミュニティ**: すべての貢献者と支援者に感謝
+- **🌍 コミュニティ**: すべての貢献者とサポーターに感謝します
 
 ---
 
 ## 📄 ライセンス
 
-本プロジェクトは**オープンソース**で、MITライセンスの下で利用可能です。
+本プロジェクトは**オープンソース**であり、MITライセンスの下で提供されています。
 
 ---
 
 ## ⚠️ 免責事項
 
-本ツールは**許可されたセキュリティテスト**および**ペネトレーションテスト目的のみ**に設計されています。ユーザーはテスト対象のシステムに対して適切な許可を得ていることを確認する責任があります。開発者は本ツールの不正使用に対して責任を負いません。
+このツールは**認可されたセキュリティテスト**および**ペネトレーションテスト専用**として設計されています。利用者はテストするシステムに対して正当な許可を得ていることを確認する責任があります。開発者は本ツールの不適切な使用について一切責任を負いません。
 
 ---
 

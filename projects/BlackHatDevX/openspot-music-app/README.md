@@ -60,12 +60,12 @@
 This repository contains **two complete music streaming applications**:
 
 ### 🎵 **OpenSpot Mobile** (React Native + Expo)
-- **Platforms**: Android, iOS
+- **Platforms**: Android, iOS(WIP)
 - **Location**: `openspot-music-mobile/`
 - **Features**: Native mobile experience with offline downloads, background playback, and persistent state
 
 ### 🖥️ **OpenSpot Desktop** (Electron + React)
-- **Platforms**: macOS, Windows, Linux
+- **Platforms**: macOS, Windows(WIP), Linux(WIP)
 - **Location**: `openspot-music-electron/`
 - **Features**: Desktop-optimized interface with global audio controls, window management, and local storage
 
@@ -91,8 +91,8 @@ Stay updated with **version releases**, and **important announcements** on offic
 
 ### Download Links
 
-- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
-- **iOS**: Maintainer Needed
+- **Android APK**: [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
+- **iOS**: [Maintainer Needed](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
 
 ### Development Setup
 
@@ -128,12 +128,12 @@ eas build --platform android --profile production
 
 ### Download Links
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
+- **macOS DMG**: [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
 - Run this if you are facing damaged app issue after installation.
   ```bash
   xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **Windows EXE**: Coming Soon!
-- **Linux DEB**: Coming Soon!
+- **Windows EXE**: [Coming Soon!](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
+- **Linux DEB**: [Coming Soon!](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
 
 ### Development Setup
 
@@ -223,9 +223,12 @@ npm run electron-dev
 
 ---
 
-## 🤝 Contributing
+## 🙌 Contributors
 
-We welcome contributions to both apps!
+A huge thanks to these amazing people who made this project possible:
+
+- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – Core contributions, API integration and overall backbone of the project
+
 ## 📞 Community & Support
 
 - **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
@@ -251,3 +254,5 @@ This project is open-source and licensed under the MIT License. See the `LICENSE
   <br />
   <em>Your support helps us continue developing amazing free music apps for everyone.</em>
 </p> 
+
+

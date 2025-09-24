@@ -29,27 +29,27 @@
   </details>
 </div>
 
-# OpenSpot Music 🎶
+# OpenSpot Müzik 🎶
 
 <p align="center">
  <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">Sonsuz Müzik Dünyasına Geçişiniz - Platformlar Arası Müzik Yayını</h3>
+<h3 align="center">Sınırsız Müziğe Açılan Kapınız - Platformlar Arası Müzik Yayını</h3>
 
 <p align="center">
-  <strong>Tüm cihazlarınızda yüksek kaliteli müziği ücretsiz olarak, reklamsız ve giriş yapmadan dinleyin ve indirin.</strong>
+  <strong>Tüm cihazlarınızda yüksek kaliteli müziği ücretsiz olarak reklamsız ve giriş yapmadan dinleyin ve indirin.</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/BlackHatDevX/openspot-music-app/stargazers">
-    <img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ffd700" alt="Stars">
+    <img src="https://img.shields.io/github/stars/BlackHatDevX/openspot-music-app?style=for-the-badge&color=ffd700" alt="Yıldızlar">
   </a>
   <a href="https://github.com/BlackHatDevX/openspot-music-app/network/members">
-    <img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=84b4a3" alt="Forks">
+    <img src="https://img.shields.io/github/forks/BlackHatDevX/openspot-music-app?style=for-the-badge&color=84b4a3" alt="Çatallar">
   </a>
   <a href="https://github.com/BlackHatDevX/openspot-music-app/issues">
-    <img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f38ba8" alt="Issues">
+    <img src="https://img.shields.io/github/issues/BlackHatDevX/openspot-music-app?style=for-the-badge&color=f38ba8" alt="Sorunlar">
   </a>
 </p>
 
@@ -57,25 +57,25 @@
 
 ## 📱📺 İki Harika Uygulama, Tek Depo
 
-Bu depo **iki tam kapsamlı müzik akış uygulaması** içerir:
+Bu depo **iki tam müzik akış uygulaması** içeriyor:
 
-### 🎵 **OpenSpot Mobil** (React Native + Expo)
-- **Platformlar**: Android, iOS
+### 🎵 **OpenSpot Mobile** (React Native + Expo)
+- **Platformlar**: Android, iOS(Çalışılıyor)
 - **Konum**: `openspot-music-mobile/`
-- **Özellikler**: Çevrimdışı indirme, arka planda oynatma ve kalıcı durum ile yerel mobil deneyim
+- **Özellikler**: Çevrimdışı indirme, arka planda çalma ve kalıcı durum ile yerel mobil deneyim
 
-### 🖥️ **OpenSpot Masaüstü** (Electron + React)
-- **Platformlar**: macOS, Windows, Linux
+### 🖥️ **OpenSpot Desktop** (Electron + React)
+- **Platformlar**: macOS, Windows(Çalışılıyor), Linux(Çalışılıyor)
 - **Konum**: `openspot-music-electron/`
-- **Özellikler**: Global ses kontrolleri, pencere yönetimi ve yerel depolama ile masaüstüne özel arayüz
+- **Özellikler**: Global ses kontrolleri, pencere yönetimi ve yerel depolama ile masaüstü için optimize edilmiş arayüz
 
 ---
 
 ### 📢 Telegram Kanalımıza Katılın
 
-Resmi Openspot Telegram kanalından **sürüm güncellemeleri** ve **önemli duyurular** ile güncel kalın.
+Resmi Openspot Telegram kanalında **sürüm duyuruları** ve **önemli bilgilendirmeler** ile güncel kalın.
 
-[![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+[![Telegram'da bize katılın](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
 
 
 ---
@@ -89,10 +89,10 @@ Resmi Openspot Telegram kanalından **sürüm güncellemeleri** ve **önemli duy
 
 
 
-### İndirme Bağlantıları
+### İndirme Linkleri
 
-- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
-- **iOS**: Sürdürmek için sorumlu aranıyor
+- **Android APK**: [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
+- **iOS**: [Bakımcı Gerekli](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
 
 ### Geliştirme Kurulumu
 
@@ -128,12 +128,12 @@ eas build --platform android --profile production
 
 ### İndirme Linkleri
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
-- Kurulumdan sonra hasarlı uygulama hatası alıyorsanız bunu çalıştırın.
+- **macOS DMG**: [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
+- Kurulumdan sonra uygulama bozuk hatası alıyorsanız bunu çalıştırın.
   ```bash
   xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **Windows EXE**: Çok Yakında!
-- **Linux DEB**: Çok Yakında!
+- **Windows EXE**: [Çok Yakında!](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
+- **Linux DEB**: [Çok Yakında!](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
 
 ### Geliştirme Kurulumu
 
@@ -224,9 +224,12 @@ npm run electron-dev
 
 ---
 
-## 🤝 Katkıda Bulunma
+## 🙌 Katkıda Bulunanlar
 
-Her iki uygulamaya da katkılarınızı memnuniyetle karşılıyoruz!
+Bu projeyi mümkün kılan bu harika insanlara büyük teşekkürler:
+
+- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – Temel katkılar, API entegrasyonu ve projenin genel omurgası
+
 ## 📞 Topluluk & Destek
 
 - **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
@@ -237,7 +240,7 @@ Her iki uygulamaya da katkılarınızı memnuniyetle karşılıyoruz!
 **Jash Gro**
 
 - **LinkedIn**: [https://linkedin.com/in/jash-gro/](https://linkedin.com/in/jash-gro/)
-- **Portföy**: [https://bit.ly/jashgro](https://bit.ly/jashgro)
+- **Portfolyo**: [https://bit.ly/jashgro](https://bit.ly/jashgro)
 - **Telegram**: [https://telegram.dog/deveIoper_x](https://telegram.dog/deveIoper_x)
 - **GitHub**: [https://github.com/BlackHatDevX](https://github.com/BlackHatDevX)
 
@@ -248,14 +251,16 @@ Bu proje açık kaynaklıdır ve MIT Lisansı ile lisanslanmıştır. Daha fazla
 ---
 
 <p align="center">
-  <strong>⭐ Bu projeyi beğendiyseniz, lütfen bir yıldız verin! ⭐</strong>
+  <strong>⭐ Eğer bu projeyi beğendiyseniz, lütfen bir yıldız verin! ⭐</strong>
   <br />
-  <em>Desteğiniz, herkes için harika ücretsiz müzik uygulamaları geliştirmeye devam etmemizi sağlıyor.</em>
+  <em>Desteğiniz, herkes için harika ve ücretsiz müzik uygulamaları geliştirmeye devam etmemizi sağlar.</em>
 </p> 
+
+
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-24
 
 ---

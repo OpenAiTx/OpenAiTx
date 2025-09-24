@@ -4,26 +4,26 @@
     <summary >🌐 ภาษา</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=en">อังกฤษ</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ja">ญี่ปุ่น</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ko">เกาหลี</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=hi">ฮินดี</a>
         | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=it">Itapano</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fr">ฝรั่งเศส</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=de">เยอรมัน</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=es">สเปน</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=it">อิตาลี</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ru">รัสเซีย</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pt">โปรตุเกส</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=nl">ดัตช์</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=pl">โปแลนด์</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=ar">อาหรับ</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=fa">เปอร์เซีย</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=tr">ตุรกี</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=vi">เวียดนาม</a>
+        | <a href="https://openaitx.github.io/view.html?user=BlackHatDevX&project=openspot-music-app&lang=id">อินโดนีเซีย</a>
       </div>
     </div>
   </details>
@@ -32,13 +32,13 @@
 # OpenSpot Music 🎶
 
 <p align="center">
- <img width="100" alt="OpenSpot Logo" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
+ <img width="100" alt="โลโก้ OpenSpot" src="https://github.com/user-attachments/assets/9f56500d-d950-48c6-a362-bcbc74be88cb" />
 </p>
 
-<h3 align="center">ประตูสู่โลกดนตรีไร้ขีดจำกัดของคุณ - สตรีมมิ่งเพลงข้ามแพลตฟอร์ม</h3>
+<h3 align="center">ประตูสู่โลกแห่งเสียงเพลงไร้ขีดจำกัด - สตรีมเพลงข้ามแพลตฟอร์ม</h3>
 
 <p align="center">
-  <strong>สตรีมและดาวน์โหลดเพลงคุณภาพสูงฟรีบนทุกอุปกรณ์ของคุณ ไม่มีโฆษณา ไม่ต้องเข้าสู่ระบบ</strong>
+<strong>สตรีมและดาวน์โหลดเพลงคุณภาพสูงฟรีบนทุกอุปกรณ์ของคุณ ไม่มีโฆษณาและไม่ต้องเข้าสู่ระบบ</strong>
 </p>
 
 <p align="center">
@@ -55,27 +55,27 @@
 
 ---
 
-## 📱📺 สองแอปสุดเจ๋งในคลังเดียว
+## 📱📺 สองแอปสุดเจ๋งในรีโพซิทอรีเดียว
 
-ที่เก็บนี้ประกอบด้วย **แอปพลิเคชันสตรีมมิ่งเพลงสองตัวเต็มรูปแบบ**:
+รีโพซิทอรีนี้ประกอบด้วย**แอปพลิเคชันสตรีมเพลงครบชุดสองตัว**
 
 ### 🎵 **OpenSpot Mobile** (React Native + Expo)
-- **แพลตฟอร์ม**: Android, iOS
+- **แพลตฟอร์ม**: Android, iOS(กำลังพัฒนา)
 - **ที่ตั้ง**: `openspot-music-mobile/`
-- **คุณสมบัติ**: ประสบการณ์มือถือแบบเนทีฟ พร้อมดาวน์โหลดแบบออฟไลน์ เล่นเพลงเบื้องหลัง และสถานะคงอยู่
+- **คุณสมบัติ**: ประสบการณ์ใช้งานมือถือแบบเนทีฟ พร้อมดาวน์โหลดออฟไลน์ เล่นเพลงเบื้องหลัง และสถานะคงอยู่
 
 ### 🖥️ **OpenSpot Desktop** (Electron + React)
-- **แพลตฟอร์ม**: macOS, Windows, Linux
+- **แพลตฟอร์ม**: macOS, Windows(กำลังพัฒนา), Linux(กำลังพัฒนา)
 - **ที่ตั้ง**: `openspot-music-electron/`
-- **คุณสมบัติ**: อินเทอร์เฟซบนเดสก์ท็อปที่เหมาะสมกับการใช้งาน พร้อมควบคุมเสียงทั่วโลก จัดการหน้าต่าง และจัดเก็บข้อมูลในเครื่อง
+- **คุณสมบัติ**: อินเทอร์เฟซปรับแต่งสำหรับเดสก์ท็อป พร้อมการควบคุมเสียงทั่วระบบ จัดการหน้าต่าง และจัดเก็บข้อมูลในเครื่อง
 
 ---
 
 ### 📢 เข้าร่วมช่อง Telegram ของเรา
 
-ติดตามข่าวสาร **อัปเดตเวอร์ชัน** และ **ประกาศสำคัญ** ได้ในช่อง Telegram อย่างเป็นทางการของ Openspot
+รับข่าวสารล่าสุดเกี่ยวกับ**การปล่อยเวอร์ชัน** และ**ประกาศสำคัญ**ได้ทางช่อง Telegram อย่างเป็นทางการของ Openspot
 
-[![Join us on Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
+[![เข้าร่วมกับเราใน Telegram](https://img.shields.io/badge/Join%20Us%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/openspot_music)
 
 
 ---
@@ -89,12 +89,12 @@
 
 
 
-### ลิงก์สำหรับดาวน์โหลด
+### ลิงก์ดาวน์โหลด
 
-- **Android APK**: [OpenSpot-2.0.3-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot-2.0.3-release.apk)
-- **iOS**: ต้องการผู้ดูแล
+- **Android APK**: [OpenSpot-2.0.4-release.apk](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.4/OpenSpot-2.0.4-release.apk)
+- **iOS**: [ต้องการผู้ดูแล](https://github.com/BlackHatDevX/openspot-music-app/issues/15)
 
-### การตั้งค่าสำหรับนักพัฒนา
+### การตั้งค่าสำหรับการพัฒนา
 
 ```bash
 cd openspot-music-app
@@ -124,18 +124,18 @@ eas build --platform android --profile production
 
 ### ภาพหน้าจอ
 
-![macOS App](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
+![แอป macOS](https://github.com/user-attachments/assets/1cb18d3f-4986-4eb2-9cd2-1b606fbf31db)
 
 ### ลิงก์ดาวน์โหลด
 
-- **macOS DMG**: [OpenSpot.Music-2.0.2-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.2/OpenSpot.Music-2.0.2-arm64-mac.zip)
-- ให้รันคำสั่งนี้หากคุณพบปัญหาแอปเสียหายหลังติดตั้ง
+- **macOS DMG**: [OpenSpot.Music-2.0.3-arm64.zip](https://github.com/BlackHatDevX/openspot-music-app/releases/download/v2.0.3/OpenSpot.Music-2.0.3-arm64.dmg)
+- รันสิ่งนี้หากคุณพบปัญหาแอปเสียหายหลังติดตั้ง
   ```bash
   xattr -rd com.apple.quarantine /Applications/OpenSpot\ Music.app
-- **Windows EXE**: เร็วๆ นี้!
-- **Linux DEB**: เร็วๆ นี้!
+- **Windows EXE**: [เร็วๆ นี้!](https://github.com/BlackHatDevX/openspot-music-app/issues/18)
+- **Linux DEB**: [เร็วๆ นี้!](https://github.com/BlackHatDevX/openspot-music-app/issues/14)
 
-### การตั้งค่าสำหรับนักพัฒนา
+### การตั้งค่าสำหรับการพัฒนา
 
 ```bash
 cd openspot-music-app/
@@ -223,9 +223,12 @@ npm run electron-dev
 
 ---
 
-## 🤝 การมีส่วนร่วม
+## 🙌 ผู้ร่วมพัฒนา
 
-เรายินดีต้อนรับการมีส่วนร่วมในแอปทั้งสอง!
+ขอขอบคุณอย่างมากต่อบุคคลที่ยอดเยี่ยมเหล่านี้ที่ทำให้โครงการนี้เป็นไปได้:
+
+- [@sixnine-dotdev](https://github.com/sixnine-dotdev) – มีส่วนร่วมหลัก, การเชื่อมต่อ API และเป็นแกนหลักของโครงการ
+
 ## 📞 ชุมชน & การสนับสนุน
 
 - **Telegram**: [Openspot Music](https://telegram.dog/Openspot_Music)
@@ -236,25 +239,27 @@ npm run electron-dev
 **Jash Gro**
 
 - **LinkedIn**: [https://linkedin.com/in/jash-gro/](https://linkedin.com/in/jash-gro/)
-- **ผลงาน**: [https://bit.ly/jashgro](https://bit.ly/jashgro)
+- **Portfolio**: [https://bit.ly/jashgro](https://bit.ly/jashgro)
 - **Telegram**: [https://telegram.dog/deveIoper_x](https://telegram.dog/deveIoper_x)
 - **GitHub**: [https://github.com/BlackHatDevX](https://github.com/BlackHatDevX)
 
-## 📄 สัญญาอนุญาต
+## 📄 ลิขสิทธิ์
 
-โปรเจกต์นี้เป็นโอเพนซอร์สและอยู่ภายใต้สัญญาอนุญาต MIT ดูไฟล์ `LICENSE` เพื่อข้อมูลเพิ่มเติม
+โครงการนี้เป็นโอเพ่นซอร์สและอนุญาตภายใต้สัญญาอนุญาต MIT ดูไฟล์ `LICENSE` สำหรับข้อมูลเพิ่มเติม
 
 ---
 
 <p align="center">
-  <strong>⭐ หากคุณชอบโปรเจกต์นี้ กรุณากดดาวให้ด้วย! ⭐</strong>
+  <strong>⭐ หากคุณชอบโครงการนี้ กรุณากดดาวให้ด้วย! ⭐</strong>
   <br />
-  <em>แรงสนับสนุนของคุณช่วยให้เราพัฒนาแอปเพลงฟรีที่ยอดเยี่ยมสำหรับทุกคนได้ต่อไป</em>
+  <em>การสนับสนุนของคุณช่วยให้เราสามารถพัฒนาแอปเพลงฟรีที่ยอดเยี่ยมสำหรับทุกคนต่อไป</em>
 </p> 
+
+
 ```
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-24
 
 ---
