@@ -1,6 +1,38 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # uPlot 래퍼
 
-가장 좋아하는 프레임워크 내에서 선언적으로 차트를 작업할 수 있도록 해주는 [uPlot](https://github.com/leeoniya/uPlot 'uPlot') 래퍼 모음입니다.
+[uPlot](https://github.com/leeoniya/uPlot 'uPlot') 래퍼 모음으로, 선호하는 프레임워크 내에서 차트를 선언적으로 사용할 수 있습니다.
 
 **목차**
 
@@ -8,42 +40,42 @@
 -   [시작하기](#getting-started)
 -   [React](#react)
     -   [설치](#installation)
-    -   [사용법](#how-to-use)
+    -   [사용 방법](#how-to-use)
     -   [데모](#demo)
 -   [Vue.js](#vuejs)
     -   [설치](#installation-1)
-    -   [사용법](#how-to-use-1)
+    -   [사용 방법](#how-to-use-1)
     -   [데모](#demo-1)
 -   [Svelte](#svelte)
     -   [설치](#installation-2)
-    -   [사용법](#how-to-use-2)
+    -   [사용 방법](#how-to-use-2)
     -   [데모](#demo-2)
 -   [문서](#documentation)
 
 # 동기
 
-이미 여러 uPlot 래퍼가 존재하지만, 모두 다음 중 하나의 제한 사항을 가지고 있습니다:
+다른 uPlot 래퍼들이 이미 여러 개 존재하지만, 모두 다음과 같은 한계를 가지고 있습니다:
 
-1. 컴포넌트 마운트 단계에서 uPlot 인스턴스를 한 번 생성하고, 모든 업데이트 로직을 직접 처리해야 합니다.
-2. props가 변경될 때마다 인스턴스를 새로 생성하는데, 인스턴스를 업데이트하여 변경 사항을 반영할 수 있음에도 불구하고 재생성합니다.
+1. 컴포넌트 마운트 단계에서 한 번만 uPlot 인스턴스를 생성하고, 모든 업데이트 로직을 사용자가 직접 처리해야 합니다.
+2. props가 변경될 때마다 새로운 uPlot 인스턴스를 재생성하며, 인스턴스를 업데이트하여 변경사항을 반영할 수 있음에도 불구하고 항상 재생성합니다.
 
-이에 비해 이 라이브러리는 props가 변경되어도 uPlot 인스턴스를 재생성하지 않으려 최선을 다합니다. 재생성 대신 uPlot 공개 API를 사용하여 props와 인스턴스를 최신 상태로 유지하려고 합니다.
+이에 비해, 이 라이브러리는 props가 변경되어도 uPlot 인스턴스를 최대한 재생성하지 않으려고 합니다. 재생성 대신 uPlot의 공개 API를 활용하여 props와 동기화되도록 유지합니다.
 
 # 시작하기
 
-사용하는 프레임워크에 따라 아래 [React](#react), [Vue.js](#vuejs) 또는 [Svelte](#svelte) 섹션을 참조하세요.
-또한 모든 프레임워크에 공통적인 API [문서](#documentation)도 참고하세요.
+사용하고 있는 프레임워크에 따라 [React](#react), [Vue.js](#vuejs), [Svelte](#svelte) 섹션을 참고하세요.
+또한 모든 프레임워크에 공통적인 API [문서](#documentation)를 참고하세요.
 
 # React
 
 ## 설치
 
-uplot 의존성과 함께 uplot-react 패키지 설치:
+uplot-react 패키지와 uplot 의존성을 설치합니다:
 
 -   npm 사용: `$ npm install uplot-react uplot`
 -   yarn 사용: `$ yarn add uplot-react uplot`
 
-프로젝트 트리에 React 16.8 이상이 설치되어 있어야 합니다.
+프로젝트 내에 React 16.8 이상이 설치되어 있어야 합니다.
 
 ## 사용 방법
 
@@ -207,6 +239,6 @@ uplot 의존성과 함께 uplot-svelte 패키지를 설치하세요:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-25
 
 ---

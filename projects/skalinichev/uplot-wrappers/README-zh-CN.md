@@ -1,51 +1,83 @@
-# uPlot 包装器
 
-一组 [uPlot](https://github.com/leeoniya/uPlot 'uPlot') 包装器，允许您在喜爱的框架中以声明式方式处理图表。
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# uPlot 封装库
+
+一系列 [uPlot](https://github.com/leeoniya/uPlot 'uPlot') 封装库，让你可以在你喜欢的框架中以声明式方式操作图表。
 
 **目录**
 
 -   [动机](#motivation)
--   [入门](#getting-started)
+-   [快速开始](#getting-started)
 -   [React](#react)
     -   [安装](#installation)
-    -   [使用方法](#how-to-use)
+    -   [如何使用](#how-to-use)
     -   [演示](#demo)
 -   [Vue.js](#vuejs)
     -   [安装](#installation-1)
-    -   [使用方法](#how-to-use-1)
+    -   [如何使用](#how-to-use-1)
     -   [演示](#demo-1)
 -   [Svelte](#svelte)
     -   [安装](#installation-2)
-    -   [使用方法](#how-to-use-2)
+    -   [如何使用](#how-to-use-2)
     -   [演示](#demo-2)
 -   [文档](#documentation)
 
 # 动机
 
-虽然已经存在几个其他的 uPlot 包装器，但它们都有以下限制之一：
+虽然已经存在其他几个uPlot的包装器，但它们都有以下某些限制之一：
 
-1. 它们只在组件挂载阶段创建一次 uPlot 实例，并期望您自己处理所有更新逻辑。
-2. 每当属性变化时都会重新创建新的 uPlot 实例，即使该实例可以更新以反映更改。
+1. 它们只在组件挂载阶段创建uPlot实例，并期望你自己处理所有的更新逻辑。
+2. 每当属性发生变化时，它们都会重新创建uPlot实例，即使该实例可以通过更新来反映变化。
 
-相比之下，本库尽力避免在属性变化时重新创建 uPlot 实例。它尝试使用 uPlot 公共 API 来保持实例与属性同步，而不是重新创建。
+相比之下，本库尽力在属性变化时不重新创建uPlot实例。它不是重新创建，而是尝试使用uPlot公开的API根据属性保持最新状态。
 
 # 入门
 
-根据您使用的框架，参见下面的 [React](#react)、[Vue.js](#vuejs) 或 [Svelte](#svelte) 部分。  
-另请参阅所有框架通用的 API [文档](#documentation)。
+根据你使用的框架，参见下面的[React](#react)、[Vue.js](#vuejs)或[Svelte](#svelte)部分。
+同时参见所有框架通用的API[文档](#documentation)。
 
 # React
 
 ## 安装
 
-安装 uplot-react 包及其依赖 uplot：
+使用uplot-react包并安装uplot依赖：
 
--   使用 npm：`$ npm install uplot-react uplot`
--   使用 yarn：`$ yarn add uplot-react uplot`
+-   使用npm: `$ npm install uplot-react uplot`
+-   使用yarn: `$ yarn add uplot-react uplot`
 
-您还需要在项目中安装 React 16.8 或更高版本。
+你的项目中还需要安装React 16.8或更高版本。
 
-## 使用方法
+## 如何使用
 
 ```javascript
 import React from 'react';
@@ -207,6 +239,6 @@ Vue.js 3：
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-25
 
 ---

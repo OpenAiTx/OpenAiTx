@@ -1,11 +1,43 @@
-# Wrappers uPlot
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# uPlot wrappers
 
 Une collection de wrappers [uPlot](https://github.com/leeoniya/uPlot 'uPlot') qui vous permettent de travailler avec des graphiques de manière déclarative dans votre framework préféré.
 
 **Table des matières**
 
 -   [Motivation](#motivation)
--   [Prise en main](#getting-started)
+-   [Commencer](#getting-started)
 -   [React](#react)
     -   [Installation](#installation)
     -   [Comment utiliser](#how-to-use)
@@ -22,28 +54,28 @@ Une collection de wrappers [uPlot](https://github.com/leeoniya/uPlot 'uPlot') qu
 
 # Motivation
 
-Bien que plusieurs autres wrappers uPlot existent déjà, ils présentent tous l’une des limitations suivantes :
+Bien que plusieurs autres wrappers uPlot existent déjà, tous présentent l'une des limitations suivantes :
 
-1. Ils créent une instance uPlot une seule fois, lors de la phase de montage du composant, et s’attendent à ce que vous gériez vous-même toute la logique de mise à jour.
-2. Ils recréent une nouvelle instance uPlot chaque fois que les props changent, même si l’instance peut être mise à jour pour refléter ces changements.
+1. Ils créent l'instance uPlot une seule fois, lors de la phase de montage du composant, et attendent que vous gériez toute la logique de mise à jour vous-même.
+2. Ils recréent l'instance uPlot à chaque modification des props, même si l'instance peut être mise à jour pour refléter les changements.
 
-En comparaison, cette bibliothèque fait de son mieux pour ne pas recréer l’instance uPlot lorsque les props changent. Au lieu de recréation, elle tente d’utiliser l’API publique de uPlot pour la maintenir à jour avec les props.
+En comparaison, cette bibliothèque fait de son mieux pour ne pas recréer l'instance uPlot lorsque les props changent. Au lieu de la recréer, elle essaie d'utiliser l'API publique de uPlot pour la maintenir à jour avec les props.
 
-# Prise en main
+# Pour bien démarrer
 
 Voir les sections [React](#react), [Vue.js](#vuejs) ou [Svelte](#svelte) ci-dessous selon le framework que vous utilisez.
-Voir aussi la [documentation](#documentation) de l’API commune à tous les frameworks.
+Consultez également la [documentation](#documentation) de l’API commune à tous les frameworks.
 
 # React
 
 ## Installation
 
-Installer le package uplot-react avec la dépendance uplot :
+Installez le package uplot-react avec la dépendance uplot :
 
 -   Avec npm : `$ npm install uplot-react uplot`
 -   Avec yarn : `$ yarn add uplot-react uplot`
 
-Vous devez également avoir React 16.8 ou une version ultérieure installée dans l’arborescence de votre projet.
+Vous devez également avoir React 16.8 ou supérieur installé dans votre projet.
 
 ## Comment utiliser
 
@@ -207,6 +239,6 @@ Vous pouvez également exécuter l'application de démonstration localement :
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-25
 
 ---

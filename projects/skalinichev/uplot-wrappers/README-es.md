@@ -1,49 +1,81 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Envoltorios de uPlot
 
-Una colección de envoltorios de [uPlot](https://github.com/leeoniya/uPlot 'uPlot') que te permiten trabajar con gráficos de forma declarativa dentro de tu framework favorito.
+Una colección de envoltorios de [uPlot](https://github.com/leeoniya/uPlot 'uPlot') que te permiten trabajar con gráficos de manera declarativa dentro de tu framework favorito.
 
 **Tabla de Contenidos**
 
 -   [Motivación](#motivation)
 -   [Primeros pasos](#getting-started)
 -   [React](#react)
-    -   [Instalación](#installation)
-    -   [Cómo usar](#how-to-use)
-    -   [Demostración](#demo)
+    -   [Instalación](#instalación)
+    -   [Cómo usar](#cómo-usar)
+    -   [Demostración](#demostración)
 -   [Vue.js](#vuejs)
-    -   [Instalación](#installation-1)
-    -   [Cómo usar](#how-to-use-1)
-    -   [Demostración](#demo-1)
+    -   [Instalación](#instalación-1)
+    -   [Cómo usar](#cómo-usar-1)
+    -   [Demostración](#demostración-1)
 -   [Svelte](#svelte)
-    -   [Instalación](#installation-2)
-    -   [Cómo usar](#how-to-use-2)
-    -   [Demostración](#demo-2)
--   [Documentación](#documentation)
+    -   [Instalación](#instalación-2)
+    -   [Cómo usar](#cómo-usar-2)
+    -   [Demostración](#demostración-2)
+-   [Documentación](#documentación)
 
 # Motivación
 
-Aunque ya existen varios envoltorios de uPlot, todos ellos tienen una de las siguientes limitaciones:
+Aunque ya existen varios otros wrappers para uPlot, todos ellos tienen una de las siguientes limitaciones:
 
-1. Crean la instancia de uPlot una vez, durante la fase de montaje del componente, y esperan que tú manejes toda la lógica de actualización.
-2. Recrean la instancia de uPlot cada vez que cambian las props, incluso si la instancia puede actualizarse para reflejar los cambios.
+1. Crean la instancia de uPlot una vez, durante la fase de montaje del componente, y esperan que tú manejes toda la lógica de actualización por tu cuenta.
+2. Recrean la instancia de uPlot desde cero cada vez que cambian las props, incluso si la instancia puede actualizarse para reflejar los cambios.
 
-En comparación, esta biblioteca intenta no recrear la instancia de uPlot cuando cambian las props. En lugar de recrearla, intenta usar la API pública de uPlot para mantenerla actualizada con las props.
+En comparación, esta biblioteca intenta lo mejor posible no recrear la instancia de uPlot cuando cambian las props. En lugar de recrearla, intenta usar la API pública de uPlot para mantenerla actualizada con las props.
 
 # Primeros pasos
 
-Consulta las secciones de [React](#react), [Vue.js](#vuejs) o [Svelte](#svelte) a continuación según el framework que uses.
-También consulta la [documentación](#documentation) de la API común a todos los frameworks.
+Consulta las secciones de [React](#react), [Vue.js](#vuejs) o [Svelte](#svelte) más abajo dependiendo de qué framework estés utilizando.
+También consulta la [documentación](#documentación) de la API común para todos los frameworks.
 
 # React
 
 ## Instalación
 
-Instale el paquete uplot-react con la dependencia uplot:
+Instala el paquete uplot-react junto con la dependencia uplot:
 
 -   Usando npm: `$ npm install uplot-react uplot`
 -   Usando yarn: `$ yarn add uplot-react uplot`
 
-También necesita tener React 16.8 o superior instalado dentro del árbol de su proyecto.
+También necesitas tener instalado React 16.8 o superior dentro de tu proyecto.
 
 ## Cómo usar
 
@@ -207,6 +239,6 @@ También puede ejecutar la aplicación demo localmente:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-25
 
 ---

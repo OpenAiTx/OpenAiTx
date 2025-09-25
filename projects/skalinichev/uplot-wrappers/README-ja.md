@@ -1,6 +1,38 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # uPlot ラッパー
 
-お気に入りのフレームワーク内で宣言的にチャートを操作できる、[uPlot](https://github.com/leeoniya/uPlot 'uPlot') ラッパーのコレクションです。
+お気に入りのフレームワーク内で宣言的にチャートを扱えるようにする、[uPlot](https://github.com/leeoniya/uPlot 'uPlot') のラッパー集です。
 
 **目次**
 
@@ -20,30 +52,30 @@
     -   [デモ](#demo-2)
 -   [ドキュメント](#documentation)
 
-# 動機
+# モチベーション
 
-既にいくつかの uPlot ラッパーは存在しますが、それらは以下のいずれかの制限があります：
+他にもいくつかのuPlotラッパーがすでに存在していますが、それらは以下のいずれかの制限があります。
 
-1. コンポーネントのマウントフェーズで一度だけ uPlot インスタンスを作成し、更新ロジックはすべて自分で処理する必要がある。
-2. プロパティが変わるたびに新しく uPlot インスタンスを再作成するが、インスタンスの更新で変更を反映できる場合でもそうしている。
+1. コンポーネントのマウント時にuPlotインスタンスを一度だけ生成し、以降の更新ロジックは全てユーザーが管理する必要がある。
+2. propsが変更されるたびにuPlotインスタンスを毎回新規作成してしまい、インスタンスの更新で済む場合でも再生成される。
 
-これに対し、このライブラリはプロパティが変わっても uPlot インスタンスを再作成しないよう最善を尽くしています。再作成の代わりに、uPlot の公開 API を使ってプロパティに合わせて最新の状態を保つことを試みます。
+これに対して、本ライブラリはpropsが変更されてもuPlotインスタンスを極力再生成しません。再作成するのではなく、uPlotの公開APIを利用してpropsの変更に追従します。
 
 # はじめに
 
-使用しているフレームワークに応じて、以下の [React](#react)、[Vue.js](#vuejs)、または [Svelte](#svelte) セクションを参照してください。  
-また、すべてのフレームワーク共通の API [ドキュメント](#documentation) もご覧ください。
+ご利用のフレームワークに応じて、以下の[React](#react)、[Vue.js](#vuejs)、または[Svelte](#svelte)のセクションをご覧ください。
+また、全てのフレームワークに共通するAPIの[ドキュメント](#documentation)も参照してください。
 
 # React
 
 ## インストール
 
-uplot-react パッケージを uplot 依存関係と共にインストールします：
+uplot-reactパッケージとuplot依存パッケージをインストールします:
 
--   npm を使用する場合：`$ npm install uplot-react uplot`
--   yarn を使用する場合：`$ yarn add uplot-react uplot`
+-   npmの場合: `$ npm install uplot-react uplot`
+-   yarnの場合: `$ yarn add uplot-react uplot`
 
-プロジェクトツリー内に React 16.8 以上がインストールされている必要があります。
+また、プロジェクト内にReact 16.8以上がインストールされている必要があります。
 
 ## 使い方
 
@@ -207,6 +239,6 @@ uplot依存のuplot-svelteパッケージをインストールします:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-25
 
 ---

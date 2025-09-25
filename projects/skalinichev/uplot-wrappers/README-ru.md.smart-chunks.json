@@ -1,0 +1,1573 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# uPlot wrappers\n\nA collection of [uPlot](https://github.com/leeoniya/uPlot 'uPlot') wrappers that allow you to work with charts declaratively inside your favorite framework.\n\n**Table of Contents**\n\n-   [Motivation](#motivation)\n-   [Getting started](#getting-started)",
+    "ContentSha": "ZBPbKNggEQ3kMAa/1AA/i4Xh6QT5HhYDqHPLuI5hF9M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Язык</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Обёртки для uPlot\n\nКоллекция обёрток для [uPlot](https://github.com/leeoniya/uPlot 'uPlot'), позволяющих работать с графиками декларативно в вашем любимом фреймворке.\n\n**Содержание**\n\n-   [Мотивация](#motivation)\n-   [Начало работы](#getting-started)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Язык</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "eyakkhAkGxiXBjhvW40R3uQ1y6q5hgKikdQQG9x6axM=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "Lh6tUEu7oNI8w6INGGKJl/fvAV+BkSksoUV3y4XdE3g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "GzIrx19NN99KdZCBd/jTtTxu/cp3m46HANw/rCT8TiY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "rDUJvEAwTTZf/uLMs642lKwTOgzsL0qSTQtpokSvzYc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "BTnJ7hjVFAxwbGIJ5eIO1dt4FYNvWdstEThlJOrAcD0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "Q0ywSZGYN9theWrHfugrPt6IzFGfXfs//4z1e7ecBVQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "UdAAm46yC3jK5vHjcbTq3ofBpjkaVj43h7RBXXlns6U=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "7MuOzkYs+2Yi8Z+7rAzEFTRh3fQ42AnUFharE50pBHw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "7hr8EDrUdxlg/o9QolOtd9Dtx5asjEHj975fQCO8RsQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "c3gz0JLeFusdlc1gpzkGxziwo910qnRL/E4VtBBoMFY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "HBtpWCwZ9NfM3SfScVXySltStspTvOZEGALxCdiECRU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "iN+vKVss5uya2SVVLSwajKLkZj6erI8r3ioJQikhnRs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "blhyd4XXoUCvqjwMihrNZj6mzAQWJrQ79eSKw4MfVAA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "ky0A6bq+Pc97KNHGOrkg0zhk8xzp2Gw7hwwaa7aiqzs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "l0Y7Vl4KskN+dDuPwwa+wsWxNE2wkxms01ymhN5ZiGE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "oLzfOHIogVCMy+gnODlqGJKRsI2QxhXXNC+0uzve1qI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "aKYIy20MoLqRP9TeG4T3l/kfCmt41ycR1YqMBmsdYx0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "6i+SGjI+BkWSvP+ZI5LBga6y1Dwziz8o1mwoXRDzECk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "tlMnhHW5/l9VuXmRRDO1qkYNDQ6sAy6/gFHJjz1S45E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "Xj7Qyi6LLFR2y8IstAgQ++0ohcIp/PKkkMMYsX8G0T8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "IrEbJOIzVISWoQ8WCsYXIoaR2SvQHst50+hn4Nlxa24=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=skalinichev&project=uplot-wrappers&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "BaRGk5zH/BDFsxo2l7gUThNdPJ5eWrkCQL0YAN4/v+Q=",
+        "originContent": "# uPlot wrappers",
+        "translatedContent": "# Обёртки для uPlot"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "k5fwKdmteMwgQgYiJCTkveu9N77MC3KdefCE7YVit7A=",
+        "originContent": "A collection of [uPlot](https://github.com/leeoniya/uPlot 'uPlot') wrappers that allow you to work with charts declaratively inside your favorite framework.",
+        "translatedContent": "Коллекция обёрток для [uPlot](https://github.com/leeoniya/uPlot 'uPlot'), позволяющих работать с графиками декларативно в вашем любимом фреймворке."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "TBct99L7BPuuHDxIwv3pSyyJl2Rwy39D62yjXBP92oU=",
+        "originContent": "**Table of Contents**",
+        "translatedContent": "**Содержание**"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "NKY289msngV/w175hGqK1ZfNi8m0c6MlSRcdPUnAPrc=",
+        "originContent": "-   [Motivation](#motivation)",
+        "translatedContent": "-   [Мотивация](#motivation)"
+      },
+      {
+        "row": 40,
+        "rowsha": "A4OWpBovV/5NyHejaqBlRtWe7fG8qQa5gNHY+VVjz3s=",
+        "originContent": "-   [Getting started](#getting-started)",
+        "translatedContent": "-   [Начало работы](#getting-started)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "-   [React](#react)\n    -   [Installation](#installation)\n    -   [How to use](#how-to-use)\n    -   [Demo](#demo)\n-   [Vue.js](#vuejs)\n    -   [Installation](#installation-1)\n    -   [How to use](#how-to-use-1)\n    -   [Demo](#demo-1)\n-   [Svelte](#svelte)\n    -   [Installation](#installation-2)\n    -   [How to use](#how-to-use-2)\n    -   [Demo](#demo-2)\n-   [Documentation](#documentation)\n\n# Motivation\n\nWhile several other uPlot wrappers already exist, all of them have one of the following limitations:\n\n1. They create uPlot instance once, during component mount phase, and expect you to handle all the update logic yourself.\n2. They recreate uPlot instance anew whenever the props change, even if the instance can be updated to reflect the changes.\n\nIn comparison this library tries it's best not to recreate the uPlot instance once the props change. Instead of recreation it tries to use uPlot public API to keep it up to date with the props.\n\n# Getting started\n\nSee [React](#react), [Vue.js](#vuejs) or [Svelte](#svelte) sections below depending on what framework you're using.\nAlso see API [documentation](#documentation) common to all frameworks.\n\n# React\n\n## Installation\n\nInstall uplot-react package with uplot dependency:\n\n-   Using npm: `$ npm install uplot-react uplot`\n-   Using yarn: `$ yarn add uplot-react uplot`\n\nYou also need React 16.8 or above to be installed inside your project tree.\n\n## How to use",
+    "ContentSha": "VQqL+S2/DGAbdNGvLNuT16/UuNde2lbnNCzHj5JsT4Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "-   [React](#react)\n    -   [Установка](#installation)\n    -   [Как использовать](#how-to-use)\n    -   [Демо](#demo)\n-   [Vue.js](#vuejs)\n    -   [Установка](#installation-1)\n    -   [Как использовать](#how-to-use-1)\n    -   [Демо](#demo-1)\n-   [Svelte](#svelte)\n    -   [Установка](#installation-2)\n    -   [Как использовать](#how-to-use-2)\n    -   [Демо](#demo-2)\n-   [Документация](#documentation)\n\n# Мотивация\n\nХотя уже существуют несколько других обёрток для uPlot, все они имеют одно из следующих ограничений:\n\n1. Они создают экземпляр uPlot один раз, на этапе монтирования компонента, и ожидают, что вы сами будете обрабатывать всю логику обновления.\n2. Они пересоздают экземпляр uPlot заново при каждом изменении пропсов, даже если экземпляр можно просто обновить для отражения изменений.\n\nВ отличие от них, эта библиотека старается не пересоздавать экземпляр uPlot при изменении пропсов. Вместо пересоздания она использует публичный API uPlot для актуализации состояния согласно пропсам.\n\n# Начало работы\n\nСмотрите разделы [React](#react), [Vue.js](#vuejs) или [Svelte](#svelte) ниже в зависимости от используемого фреймворка.\nТакже ознакомьтесь с [документацией](#documentation) API, общей для всех фреймворков.\n\n# React\n\n## Установка\n\nУстановите пакет uplot-react с зависимостью uplot:\n\n-   Через npm: `$ npm install uplot-react uplot`\n-   Через yarn: `$ yarn add uplot-react uplot`\n\nВам также потребуется React версии 16.8 или выше, установленный в вашем проекте.\n\n## Как использовать",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "vXMiKLwV2Gx26FuOljbuRDQLk66lzetO9HlcHvGVGTc=",
+        "originContent": "-   [React](#react)",
+        "translatedContent": "-   [React](#react)"
+      },
+      {
+        "row": 2,
+        "rowsha": "gRKIAqrb3u8y6Cf8uE9E9v17Neme/Lr+XVn8kBALMTU=",
+        "originContent": "    -   [Installation](#installation)",
+        "translatedContent": "    -   [Установка](#installation)"
+      },
+      {
+        "row": 3,
+        "rowsha": "2hPD+h6wY8BXGUnFK6v7COV7ERY37fYZAIwiZUGIC74=",
+        "originContent": "    -   [How to use](#how-to-use)",
+        "translatedContent": "    -   [Как использовать](#how-to-use)"
+      },
+      {
+        "row": 4,
+        "rowsha": "IYzCzge+QZlSI5AfifNoG8vaf8qMBsPqs0XQdQ9YGH0=",
+        "originContent": "    -   [Demo](#demo)",
+        "translatedContent": "    -   [Демо](#demo)"
+      },
+      {
+        "row": 5,
+        "rowsha": "jd4+gKTZ0Vmcyj1m5IE/3zDNTKHpaZpwoNabv8r5THw=",
+        "originContent": "-   [Vue.js](#vuejs)",
+        "translatedContent": "-   [Vue.js](#vuejs)"
+      },
+      {
+        "row": 6,
+        "rowsha": "hB8ca3BNd8ej2hJ5gFnjunT+Bmc2OO1nRaeOJIx1LQI=",
+        "originContent": "    -   [Installation](#installation-1)",
+        "translatedContent": "    -   [Установка](#installation-1)"
+      },
+      {
+        "row": 7,
+        "rowsha": "x2XingDPin4m7wrw3AdOQrOnhLPWxfwOKlNc4P0NcgA=",
+        "originContent": "    -   [How to use](#how-to-use-1)",
+        "translatedContent": "    -   [Как использовать](#how-to-use-1)"
+      },
+      {
+        "row": 8,
+        "rowsha": "plZSdBnHdN0IgWLTonFYNtLMGUEleAV3xe+/Cpqv6nc=",
+        "originContent": "    -   [Demo](#demo-1)",
+        "translatedContent": "    -   [Демо](#demo-1)"
+      },
+      {
+        "row": 9,
+        "rowsha": "WuxNgsEND7erv5m4uRLfAsQyy92TYceJWOOevwAc2S4=",
+        "originContent": "-   [Svelte](#svelte)",
+        "translatedContent": "-   [Svelte](#svelte)"
+      },
+      {
+        "row": 10,
+        "rowsha": "f7cUrqPWV0A5DALXMbEO032/UPp6Pa59U7PBCtzqHc0=",
+        "originContent": "    -   [Installation](#installation-2)",
+        "translatedContent": "    -   [Установка](#installation-2)"
+      },
+      {
+        "row": 11,
+        "rowsha": "gBicL+rZTFLL1xnLsmkYv6B7L95NqdCoc47tz6Gv0U8=",
+        "originContent": "    -   [How to use](#how-to-use-2)",
+        "translatedContent": "    -   [Как использовать](#how-to-use-2)"
+      },
+      {
+        "row": 12,
+        "rowsha": "q57gzTv7RBzP0SKZHHCJXSavCyh+tLepzGJggJtUNE4=",
+        "originContent": "    -   [Demo](#demo-2)",
+        "translatedContent": "    -   [Демо](#demo-2)"
+      },
+      {
+        "row": 13,
+        "rowsha": "WOGGMksxi/NDjUd8YYp2+5GGdYjCS8wHWgwW5w7C5uE=",
+        "originContent": "-   [Documentation](#documentation)",
+        "translatedContent": "-   [Документация](#documentation)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "lpzjncFavt2VNIjJjV0DeYa0DbsvW3NZ4Qcm2gjxki4=",
+        "originContent": "# Motivation",
+        "translatedContent": "# Мотивация"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "iwOfhuToXnUK5sYqabgTibP1RragCDROp3/33h5OrY4=",
+        "originContent": "While several other uPlot wrappers already exist, all of them have one of the following limitations:",
+        "translatedContent": "Хотя уже существуют несколько других обёрток для uPlot, все они имеют одно из следующих ограничений:"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "XICPXLouIDW5THr5ZqYRyFNYCEFQYTq2CtKNct1fXyk=",
+        "originContent": "1. They create uPlot instance once, during component mount phase, and expect you to handle all the update logic yourself.",
+        "translatedContent": "1. Они создают экземпляр uPlot один раз, на этапе монтирования компонента, и ожидают, что вы сами будете обрабатывать всю логику обновления."
+      },
+      {
+        "row": 20,
+        "rowsha": "QoXDVS9LY/84BIKDc7hif3wZU2OAZoK9NiOzRFZaaKI=",
+        "originContent": "2. They recreate uPlot instance anew whenever the props change, even if the instance can be updated to reflect the changes.",
+        "translatedContent": "2. Они пересоздают экземпляр uPlot заново при каждом изменении пропсов, даже если экземпляр можно просто обновить для отражения изменений."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "slHwTgx1NK8ELItsdS9Y1YA9ihE7stIx2N25oJLnp78=",
+        "originContent": "In comparison this library tries it's best not to recreate the uPlot instance once the props change. Instead of recreation it tries to use uPlot public API to keep it up to date with the props.",
+        "translatedContent": "В отличие от них, эта библиотека старается не пересоздавать экземпляр uPlot при изменении пропсов. Вместо пересоздания она использует публичный API uPlot для актуализации состояния согласно пропсам."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "e4LTO7quMIBXOuT+2oRe6yKs+221yRN2DDarYfY0Xbc=",
+        "originContent": "# Getting started",
+        "translatedContent": "# Начало работы"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "Lzukf/PDAKv+PJ9fI8NMl/7hW8rnRKDbqcObiJM8N2Q=",
+        "originContent": "See [React](#react), [Vue.js](#vuejs) or [Svelte](#svelte) sections below depending on what framework you're using.",
+        "translatedContent": "Смотрите разделы [React](#react), [Vue.js](#vuejs) или [Svelte](#svelte) ниже в зависимости от используемого фреймворка."
+      },
+      {
+        "row": 27,
+        "rowsha": "Ao73xJYrLDDFxDDIKApesbgShR+K+BJzzSBDzJ+y29w=",
+        "originContent": "Also see API [documentation](#documentation) common to all frameworks.",
+        "translatedContent": "Также ознакомьтесь с [документацией](#documentation) API, общей для всех фреймворков."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "JUgPiPp9MmW9/nmQg4RQvUV1aGbLGF6BgZtkz3MFFx0=",
+        "originContent": "# React",
+        "translatedContent": "# React"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Установка"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "hLHXL5O/xFOrXEtBY2KDocA1k2WRG6CGjFkDYZp6bjo=",
+        "originContent": "Install uplot-react package with uplot dependency:",
+        "translatedContent": "Установите пакет uplot-react с зависимостью uplot:"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "k5m2HtLrkRv8s0mUzKav2luOJRFhoxftRYNP4NvWNmM=",
+        "originContent": "-   Using npm: `$ npm install uplot-react uplot`",
+        "translatedContent": "-   Через npm: `$ npm install uplot-react uplot`"
+      },
+      {
+        "row": 36,
+        "rowsha": "aUzeCRk3nVpsZiMmb2Hna4ETvRBDsG3OFdS1Q3sQFgo=",
+        "originContent": "-   Using yarn: `$ yarn add uplot-react uplot`",
+        "translatedContent": "-   Через yarn: `$ yarn add uplot-react uplot`"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "hJTDZYvf4cwMflrM+XAVQ6eTelo0jV4i82sSaQ0oj8U=",
+        "originContent": "You also need React 16.8 or above to be installed inside your project tree.",
+        "translatedContent": "Вам также потребуется React версии 16.8 или выше, установленный в вашем проекте."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "B0rZUVAuvA0woeHASaoNWRIBbA+LJfRLl9zTeDoLks0=",
+        "originContent": "## How to use",
+        "translatedContent": "## Как использовать"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```javascript\nimport React from 'react';\nimport uPlot from 'uplot';\nimport UplotReact from 'uplot-react';\nimport 'uplot/dist/uPlot.min.css';\n\nconst Chart = () => (\n    <UplotReact options={options} data={data} target={target} onCreate={(chart) => {}} onDelete={(chart) => {}} />\n);\n```",
+    "ContentSha": "R013hWs7/ZUp+/Fl3Qc3wKFDQ5T4o66tWFCTMSnnTQ4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```javascript\nimport React from 'react';\nimport uPlot from 'uplot';\nimport UplotReact from 'uplot-react';\nimport 'uplot/dist/uPlot.min.css';\n\nconst Chart = () => (\n    <UplotReact options={options} data={data} target={target} onCreate={(chart) => {}} onDelete={(chart) => {}} />\n);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+        "originContent": "```javascript",
+        "translatedContent": "```javascript"
+      },
+      {
+        "row": 2,
+        "rowsha": "6RlrcBZiZAIcdrxqoqTt8P0bi6f6jkEsQNLQc+YhKWc=",
+        "originContent": "import React from 'react';",
+        "translatedContent": "import React from 'react';"
+      },
+      {
+        "row": 3,
+        "rowsha": "+sP1f7f13kdBhbDJfUNRlb/A6CJz7nSX4GOBGl0HhA8=",
+        "originContent": "import uPlot from 'uplot';",
+        "translatedContent": "import uPlot from 'uplot';"
+      },
+      {
+        "row": 4,
+        "rowsha": "0Hp6FMuJCsfnEj4atT540maBwdmXHVfQBQwSEalLW5Q=",
+        "originContent": "import UplotReact from 'uplot-react';",
+        "translatedContent": "import UplotReact from 'uplot-react';"
+      },
+      {
+        "row": 5,
+        "rowsha": "xvLclaNK35yw/wTfKxAiphMF3tSnbvXZHA5jQLUrnA0=",
+        "originContent": "import 'uplot/dist/uPlot.min.css';",
+        "translatedContent": "import 'uplot/dist/uPlot.min.css';"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "YMJywhXiqtZEfVNDecSFQwTjLKNFoGHx7/QsNtAePtA=",
+        "originContent": "const Chart = () => (",
+        "translatedContent": "const Chart = () => ("
+      },
+      {
+        "row": 8,
+        "rowsha": "kkEhRhgpPoZon+nLvxyFIuXDeXWrk8BgqoeQ1tWEWJ4=",
+        "originContent": "    <UplotReact options={options} data={data} target={target} onCreate={(chart) => {}} onDelete={(chart) => {}} />",
+        "translatedContent": "    <UplotReact options={options} data={data} target={target} onCreate={(chart) => {}} onDelete={(chart) => {}} />"
+      },
+      {
+        "row": 9,
+        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+        "originContent": ");",
+        "translatedContent": ");"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Demo\n\nSee the [live demo](https://codesandbox.io/s/uplot-react-6ykeb?file=/react/uplot-react-example.tsx 'live demo')\n\nYou can also run the demo app locally:\n\n`$ git clone https://github.com/skalinichev/uplot-wrappers.git`\n\n`$ cd uplot-wrappers && yarn install && yarn run serveReact`\n\n### ReactJS Demo\n\nsimple example for getting started quickly.\n[ReactJS Demo](https://github.com/skalinichev/uplot-wrappers/blob/master/react/uplot-react-simple.js 'ReactJS Demo')\n\n![image](https://user-images.githubusercontent.com/62290677/233559830-5dea130c-11a3-434e-9cce-d4f00dc9bea8.png)\n\n# Vue.js\n\n## Installation\n\nInstall uplot-vue package with uplot dependency:\n\n-   Using npm: `$ npm install uplot-vue uplot`\n-   Using yarn: `$ yarn add uplot-vue uplot`\n\nYou also need Vue.js to be installed inside your project tree (both 2.6 and 3.x versions are supported).\n\n## How to use\n\nUsing template\n",
+    "ContentSha": "i7b2wv2rD5zjRtjGqFKfR+VmwsO98rZj+GwZ95zHvd0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Демонстрация\n\nСмотрите [живую демонстрацию](https://codesandbox.io/s/uplot-react-6ykeb?file=/react/uplot-react-example.tsx 'live demo')\n\nВы также можете запустить демонстрационное приложение локально:\n\n`$ git clone https://github.com/skalinichev/uplot-wrappers.git`\n\n`$ cd uplot-wrappers && yarn install && yarn run serveReact`\n\n### Демонстрация ReactJS\n\nпростой пример для быстрого старта.\n[Демонстрация ReactJS](https://github.com/skalinichev/uplot-wrappers/blob/master/react/uplot-react-simple.js 'ReactJS Demo')\n\n![image](https://user-images.githubusercontent.com/62290677/233559830-5dea130c-11a3-434e-9cce-d4f00dc9bea8.png)\n\n# Vue.js\n\n## Установка\n\nУстановите пакет uplot-vue вместе с зависимостью uplot:\n\n-   Через npm: `$ npm install uplot-vue uplot`\n-   Через yarn: `$ yarn add uplot-vue uplot`\n\nТакже необходимо установить Vue.js в вашем проекте (поддерживаются версии 2.6 и 3.x).\n\n## Как использовать\n\nИспользование шаблона\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+        "originContent": "## Demo",
+        "translatedContent": "## Демонстрация"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "CjWucRCoL0y/MaBpttxSCfX6sXXLQSS+Lp0Wb4zN3dU=",
+        "originContent": "See the [live demo](https://codesandbox.io/s/uplot-react-6ykeb?file=/react/uplot-react-example.tsx 'live demo')",
+        "translatedContent": "Смотрите [живую демонстрацию](https://codesandbox.io/s/uplot-react-6ykeb?file=/react/uplot-react-example.tsx 'live demo')"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "VHm9naFV45ZDZjHkV0Xui6alVzZvV5kX8qyNJZJXmso=",
+        "originContent": "You can also run the demo app locally:",
+        "translatedContent": "Вы также можете запустить демонстрационное приложение локально:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "q/XvgirYe+PHK+viyrWxVJiABjiWIdVQMy6DTxsbEX4=",
+        "originContent": "`$ git clone https://github.com/skalinichev/uplot-wrappers.git`",
+        "translatedContent": "`$ git clone https://github.com/skalinichev/uplot-wrappers.git`"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "JhEBlIA+vxWQw0hi4WPQAHmenQWN8ncLFmrTY0W/An8=",
+        "originContent": "`$ cd uplot-wrappers && yarn install && yarn run serveReact`",
+        "translatedContent": "`$ cd uplot-wrappers && yarn install && yarn run serveReact`"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "WzBLOlYZF3sgtDr0+X+19dMelZ23Lq5SegGh2gcM2VA=",
+        "originContent": "### ReactJS Demo",
+        "translatedContent": "### Демонстрация ReactJS"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "9gf2UpEjQzbDVCqYMjg6sIfb8Ie1KYG958UxSx2M/Ss=",
+        "originContent": "simple example for getting started quickly.",
+        "translatedContent": "простой пример для быстрого старта."
+      },
+      {
+        "row": 15,
+        "rowsha": "Sg2vL7SdHrkkqW8OI+Itw1o5M58NPMi2PXw22f98/Kg=",
+        "originContent": "[ReactJS Demo](https://github.com/skalinichev/uplot-wrappers/blob/master/react/uplot-react-simple.js 'ReactJS Demo')",
+        "translatedContent": "[Демонстрация ReactJS](https://github.com/skalinichev/uplot-wrappers/blob/master/react/uplot-react-simple.js 'ReactJS Demo')"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "JY0pC//ihCn+JnBuWXUI3FKASmKNqHliCBvAaSeGzvg=",
+        "originContent": "![image](https://user-images.githubusercontent.com/62290677/233559830-5dea130c-11a3-434e-9cce-d4f00dc9bea8.png)",
+        "translatedContent": "![image](https://user-images.githubusercontent.com/62290677/233559830-5dea130c-11a3-434e-9cce-d4f00dc9bea8.png)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "tQTEH6cWl9rMa3/aVjbUf2IX02wZkB2Wm/iKVi0Ez7E=",
+        "originContent": "# Vue.js",
+        "translatedContent": "# Vue.js"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Установка"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ExDslqD6UsoVHeIxqXZoC7w6Oj/bNTSU2l4TptMZ2Zk=",
+        "originContent": "Install uplot-vue package with uplot dependency:",
+        "translatedContent": "Установите пакет uplot-vue вместе с зависимостью uplot:"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "fYOf+O5g5latm/GzNHYmvUX7pPUHhqSdiJcfbaRjx+o=",
+        "originContent": "-   Using npm: `$ npm install uplot-vue uplot`",
+        "translatedContent": "-   Через npm: `$ npm install uplot-vue uplot`"
+      },
+      {
+        "row": 26,
+        "rowsha": "Q6rp50cjJFn0opLVjOPCbONGGNDi9XUVCJUhWNeNhhM=",
+        "originContent": "-   Using yarn: `$ yarn add uplot-vue uplot`",
+        "translatedContent": "-   Через yarn: `$ yarn add uplot-vue uplot`"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "3X9vjmimfTSrQ+vQAX+ZzVp+pkxMHUpIktmfM8DBGng=",
+        "originContent": "You also need Vue.js to be installed inside your project tree (both 2.6 and 3.x versions are supported).",
+        "translatedContent": "Также необходимо установить Vue.js в вашем проекте (поддерживаются версии 2.6 и 3.x)."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "B0rZUVAuvA0woeHASaoNWRIBbA+LJfRLl9zTeDoLks0=",
+        "originContent": "## How to use",
+        "translatedContent": "## Как использовать"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "W9cYg+8zrZxAbQro8BrjEcqXMnh+z3G2DsFPsaQ4uwo=",
+        "originContent": "Using template",
+        "translatedContent": "Использование шаблона"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```html\n<template>\n    <UplotVue :data=\"data\" :options=\"options\" :target=\"target\" @create=\"onCreate\" @delete=\"onDelete\" />\n</template>\n<script>\n    // Vue.js 2\n    import Vue from 'vue';\n    // Vue.js 3\n    import { createApp } from 'vue';\n    import uPlot from 'uplot';\n    import UplotVue from 'uplot-vue';\n    import 'uplot/dist/uPlot.min.css';\n\n    // Vue.js 2\n    const Chart = Vue.extend({ components: { uplotvue: UplotVue } });\n    // Vue.js 3\n    const Chart = createApp({ components: { uplotvue: UplotVue } });\n</script>\n```",
+    "ContentSha": "KcjVlnkobx2QdQ7iPDlx7CYtfSWwsLozBWpCkGysV3I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<template>\n    <UplotVue :data=\"data\" :options=\"options\" :target=\"target\" @create=\"onCreate\" @delete=\"onDelete\" />\n</template>\n<script>\n    // Vue.js 2\n    import Vue from 'vue';\n    // Vue.js 3\n    import { createApp } from 'vue';\n    import uPlot from 'uplot';\n    import UplotVue from 'uplot-vue';\n    import 'uplot/dist/uPlot.min.css';\n\n    // Vue.js 2\n    const Chart = Vue.extend({ components: { uplotvue: UplotVue } });\n    // Vue.js 3\n    const Chart = createApp({ components: { uplotvue: UplotVue } });\n</script>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "Kq1EcNTskSPLsM+ILi5e1GbYmH1jGiqsZF6DsOcdgoc=",
+        "originContent": "<template>",
+        "translatedContent": "<template>"
+      },
+      {
+        "row": 3,
+        "rowsha": "5Kc/wAhySY3O4MKcycEOGwfWQF2zzfE2BQ0EsAHo2Cs=",
+        "originContent": "    <UplotVue :data=\"data\" :options=\"options\" :target=\"target\" @create=\"onCreate\" @delete=\"onDelete\" />",
+        "translatedContent": "    <UplotVue :data=\"data\" :options=\"options\" :target=\"target\" @create=\"onCreate\" @delete=\"onDelete\" />"
+      },
+      {
+        "row": 4,
+        "rowsha": "gADIfArf+0AI9UvMusq6n+ATIvVjKRPKaMwvB5xz17c=",
+        "originContent": "</template>",
+        "translatedContent": "</template>"
+      },
+      {
+        "row": 5,
+        "rowsha": "W2Plsgl/xpBmAeheOB2Zin25caynPJIT3CsQfMq3NNQ=",
+        "originContent": "<script>",
+        "translatedContent": "<script>"
+      },
+      {
+        "row": 6,
+        "rowsha": "fuHGwnaXr8yW2lXtnGe5uC1Iw0Wlvn6od9RCttsbNbE=",
+        "originContent": "    // Vue.js 2",
+        "translatedContent": "    // Vue.js 2"
+      },
+      {
+        "row": 7,
+        "rowsha": "XgSJeluNQ2xY6unVp838obL9NNa+lFJO7Rg9aM4v928=",
+        "originContent": "    import Vue from 'vue';",
+        "translatedContent": "    import Vue from 'vue';"
+      },
+      {
+        "row": 8,
+        "rowsha": "Rpjqc8h6ZPFoPsTgQxDOGMsVhDm7lAyySbBejp783bw=",
+        "originContent": "    // Vue.js 3",
+        "translatedContent": "    // Vue.js 3"
+      },
+      {
+        "row": 9,
+        "rowsha": "zzHNiLHSnEco9+v+C0fLJvre+BHBsbuJb0OdJTAtJP8=",
+        "originContent": "    import { createApp } from 'vue';",
+        "translatedContent": "    import { createApp } from 'vue';"
+      },
+      {
+        "row": 10,
+        "rowsha": "2+BeCqSA8ho6qm3klHI6N+PtsQSg4+Y/WzW3++ePM90=",
+        "originContent": "    import uPlot from 'uplot';",
+        "translatedContent": "    import uPlot from 'uplot';"
+      },
+      {
+        "row": 11,
+        "rowsha": "B3b+dBxy4+wzJdhltsJzSlQrSiiTMPwzcCNQFV9relQ=",
+        "originContent": "    import UplotVue from 'uplot-vue';",
+        "translatedContent": "    import UplotVue from 'uplot-vue';"
+      },
+      {
+        "row": 12,
+        "rowsha": "rCEGULtDGVIc/knVXMMzOcxleuW7nvgGyfAgO5YVMLc=",
+        "originContent": "    import 'uplot/dist/uPlot.min.css';",
+        "translatedContent": "    import 'uplot/dist/uPlot.min.css';"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "fuHGwnaXr8yW2lXtnGe5uC1Iw0Wlvn6od9RCttsbNbE=",
+        "originContent": "    // Vue.js 2",
+        "translatedContent": "    // Vue.js 2"
+      },
+      {
+        "row": 15,
+        "rowsha": "ynhJuR3IMs6z5q0aOXauML1zMKggeLy3dMWXA36BUPU=",
+        "originContent": "    const Chart = Vue.extend({ components: { uplotvue: UplotVue } });",
+        "translatedContent": "    const Chart = Vue.extend({ components: { uplotvue: UplotVue } });"
+      },
+      {
+        "row": 16,
+        "rowsha": "Rpjqc8h6ZPFoPsTgQxDOGMsVhDm7lAyySbBejp783bw=",
+        "originContent": "    // Vue.js 3",
+        "translatedContent": "    // Vue.js 3"
+      },
+      {
+        "row": 17,
+        "rowsha": "qb4FlarvczJVtrhmvgbZjxMRgx1kVhbSYz6SqBu6TVk=",
+        "originContent": "    const Chart = createApp({ components: { uplotvue: UplotVue } });",
+        "translatedContent": "    const Chart = createApp({ components: { uplotvue: UplotVue } });"
+      },
+      {
+        "row": 18,
+        "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+        "originContent": "</script>",
+        "translatedContent": "</script>"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nUsing JSX\n",
+    "ContentSha": "LyRFa2EoWKyFXmXvE40Tedd0y8QZAM2uQtT8g2JpKJo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nИспользование JSX\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "/4BhRQGbK1Ev/HSyO2I2lFFOVF8WdcyO9D/gQJCkUzM=",
+        "originContent": "Using JSX",
+        "translatedContent": "Использование JSX"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```javascript\n// Vue.js 2\nimport Vue from 'vue';\n// Vue.js 3\nimport { createApp } from 'vue';\nimport uPlot from 'uplot';\nimport UplotVue from 'uplot-vue';\nimport 'uplot/dist/uPlot.min.css';\n\n{\n    ...,\n    render() {\n        return (\n            <UplotVue\n                options={options}\n                data={data}\n                target={target}\n                onDelete={(chart) => {}}\n                onCreate={(chart) => {}}\n            />\n        );\n    }\n}\n```",
+    "ContentSha": "y6aMiNo131OlPuTeicgVhZo/7mXKdq0PihXLfiEgxVc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```javascript\n// Vue.js 2\nimport Vue from 'vue';\n// Vue.js 3\nimport { createApp } from 'vue';\nimport uPlot from 'uplot';\nimport UplotVue from 'uplot-vue';\nimport 'uplot/dist/uPlot.min.css';\n\n{\n    ...,\n    render() {\n        return (\n            <UplotVue\n                options={options}\n                data={data}\n                target={target}\n                onDelete={(chart) => {}}\n                onCreate={(chart) => {}}\n            />\n        );\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+        "originContent": "```javascript",
+        "translatedContent": "```javascript"
+      },
+      {
+        "row": 2,
+        "rowsha": "f9uycB3JuCqrkxRvrY/HQcUGQ8pCDl+juHnMSa3Cwmk=",
+        "originContent": "// Vue.js 2",
+        "translatedContent": "// Vue.js 2"
+      },
+      {
+        "row": 3,
+        "rowsha": "GpI48rbVJB/Y8DhUDNJpAtWjnDu2qilolfbMr8KN/y4=",
+        "originContent": "import Vue from 'vue';",
+        "translatedContent": "import Vue from 'vue';"
+      },
+      {
+        "row": 4,
+        "rowsha": "OhA5uK7EHewV5USg/ne1JSwK7ni6qDRVYrTDLOt7TmE=",
+        "originContent": "// Vue.js 3",
+        "translatedContent": "// Vue.js 3"
+      },
+      {
+        "row": 5,
+        "rowsha": "JJ6Y5wc/m8hBp1hQF1xHzzJrA+gP04AfTMA24Z0/cUE=",
+        "originContent": "import { createApp } from 'vue';",
+        "translatedContent": "import { createApp } from 'vue';"
+      },
+      {
+        "row": 6,
+        "rowsha": "+sP1f7f13kdBhbDJfUNRlb/A6CJz7nSX4GOBGl0HhA8=",
+        "originContent": "import uPlot from 'uplot';",
+        "translatedContent": "import uPlot from 'uplot';"
+      },
+      {
+        "row": 7,
+        "rowsha": "Sc76pURFNGDZlkVuxUW4X9/GeoBZM7JO1JfmAGO27l8=",
+        "originContent": "import UplotVue from 'uplot-vue';",
+        "translatedContent": "import UplotVue from 'uplot-vue';"
+      },
+      {
+        "row": 8,
+        "rowsha": "xvLclaNK35yw/wTfKxAiphMF3tSnbvXZHA5jQLUrnA0=",
+        "originContent": "import 'uplot/dist/uPlot.min.css';",
+        "translatedContent": "import 'uplot/dist/uPlot.min.css';"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 11,
+        "rowsha": "aGurAJuV5O2GH7RjXkaMHQMO7QNa4cb6f+e1bLfi5Zc=",
+        "originContent": "    ...,",
+        "translatedContent": "    ...,"
+      },
+      {
+        "row": 12,
+        "rowsha": "tAS9uEOxjGX4ts2B0HuM6khC+8fjtr+KaPnwe4heiZU=",
+        "originContent": "    render() {",
+        "translatedContent": "    render() {"
+      },
+      {
+        "row": 13,
+        "rowsha": "wCYYqvm1lSSBRR3dptyu8hEp526ZzaL/C3U4WAQ7rtE=",
+        "originContent": "        return (",
+        "translatedContent": "        return ("
+      },
+      {
+        "row": 14,
+        "rowsha": "kVzYR/svCNcqYFv9v3tIElQDRmO6hjx1QwujQ0A0bkE=",
+        "originContent": "            <UplotVue",
+        "translatedContent": "            <UplotVue"
+      },
+      {
+        "row": 15,
+        "rowsha": "3wuRPULsno/WtrMpidGSMChHZuzbHeyVUrZ423nUeHU=",
+        "originContent": "                options={options}",
+        "translatedContent": "                options={options}"
+      },
+      {
+        "row": 16,
+        "rowsha": "vmvgV7NYMupMIbuCcUhqtNdHh25eGw9uRp00CXfBgco=",
+        "originContent": "                data={data}",
+        "translatedContent": "                data={data}"
+      },
+      {
+        "row": 17,
+        "rowsha": "JpwKGNFzbrsOYBx7pcO9iDE9w1VSg1h13/DgOmSj+Ys=",
+        "originContent": "                target={target}",
+        "translatedContent": "                target={target}"
+      },
+      {
+        "row": 18,
+        "rowsha": "oi/ekgD7eR8/7NSoguGuYE+8Rr9YIlul3YVY6LiRg1g=",
+        "originContent": "                onDelete={(chart) => {}}",
+        "translatedContent": "                onDelete={(chart) => {}}"
+      },
+      {
+        "row": 19,
+        "rowsha": "Zu7H0cwloZYHGH4FNvXDHGHW706Kkyl4ODVMwEcjqmo=",
+        "originContent": "                onCreate={(chart) => {}}",
+        "translatedContent": "                onCreate={(chart) => {}}"
+      },
+      {
+        "row": 20,
+        "rowsha": "UFeYC4q/S5am95FcZ6eGNHKbqfAOFI5bgPkLrsqj9/s=",
+        "originContent": "            />",
+        "translatedContent": "            />"
+      },
+      {
+        "row": 21,
+        "rowsha": "bq/4eiC48vFtXXAuFRwkmntL9c8Jdj21yA8p0PHvrPk=",
+        "originContent": "        );",
+        "translatedContent": "        );"
+      },
+      {
+        "row": 22,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 23,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 24,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n> Note: Property changes by mutation are not supported due to [Vue limitation](https://github.com/vuejs/vue/issues/2164) You have to create a copy of the property, i.e. replace it instead, see an [example](https://github.com/skalinichev/uplot-wrappers/blob/master/vue/uplot-vue-example.tsx#L52) for the general idea.\n\n## Demo\n\nSee the [Vue.js 2 live demo](https://codesandbox.io/s/uplot-vue-khi4m?file=/vue/uplot-vue-example.tsx 'Vue.js 2 live demo')\n\nYou can also run the demo app locally:\n\n`$ git clone https://github.com/skalinichev/uplot-wrappers.git`\n\n`$ cd uplot-wrappers && yarn install`\n\nVue.js 2:\n\n`$ yarn run serveVue`\n\nVue.js 3:\n\n`$ yarn run serveVue3`\n\n# Svelte\n\n## Installation\n\nInstall uplot-svelte package with uplot dependency:\n\n-   Using npm: `$ npm install uplot-svelte uplot`\n-   Using yarn: `$ yarn add uplot-svelte uplot`\n\nYou also need Svelte to be installed inside your project tree. UplotSvelte component is compatible with Svelte and SvelteKit projects.\n\n## How to use\n",
+    "ContentSha": "synq+9ud+1XgCHuO0LD9yaj9jp9XuHTy64IYs81oYYc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> Примечание: Изменение свойств посредством мутаций не поддерживается из-за [ограничения Vue](https://github.com/vuejs/vue/issues/2164). Необходимо создавать копию свойства, то есть заменять его, см. [пример](https://github.com/skalinichev/uplot-wrappers/blob/master/vue/uplot-vue-example.tsx#L52) для общего понимания.\n\n## Демонстрация\n\nСмотрите [живую демонстрацию Vue.js 2](https://codesandbox.io/s/uplot-vue-khi4m?file=/vue/uplot-vue-example.tsx 'Живая демонстрация Vue.js 2')\n\nВы также можете запустить демо-приложение локально:\n\n`$ git clone https://github.com/skalinichev/uplot-wrappers.git`\n\n`$ cd uplot-wrappers && yarn install`\n\nVue.js 2:\n\n`$ yarn run serveVue`\n\nVue.js 3:\n\n`$ yarn run serveVue3`\n\n# Svelte\n\n## Установка\n\nУстановите пакет uplot-svelte с зависимостью uplot:\n\n-   Через npm: `$ npm install uplot-svelte uplot`\n-   Через yarn: `$ yarn add uplot-svelte uplot`\n\nТакже необходимо установить Svelte внутри вашего проекта. Компонент UplotSvelte совместим с проектами Svelte и SvelteKit.\n\n## Как использовать\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "GOTcleWkg8oFqZGfrVPiAg6jnSem/EV6EgZKDro54ow=",
+        "originContent": "> Note: Property changes by mutation are not supported due to [Vue limitation](https://github.com/vuejs/vue/issues/2164) You have to create a copy of the property, i.e. replace it instead, see an [example](https://github.com/skalinichev/uplot-wrappers/blob/master/vue/uplot-vue-example.tsx#L52) for the general idea.",
+        "translatedContent": "> Примечание: Изменение свойств посредством мутаций не поддерживается из-за [ограничения Vue](https://github.com/vuejs/vue/issues/2164). Необходимо создавать копию свойства, то есть заменять его, см. [пример](https://github.com/skalinichev/uplot-wrappers/blob/master/vue/uplot-vue-example.tsx#L52) для общего понимания."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+        "originContent": "## Demo",
+        "translatedContent": "## Демонстрация"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "cpmP8JV7MEqwiDC5jQafuf7x5hymcsvmhSnRv/Mg0pA=",
+        "originContent": "See the [Vue.js 2 live demo](https://codesandbox.io/s/uplot-vue-khi4m?file=/vue/uplot-vue-example.tsx 'Vue.js 2 live demo')",
+        "translatedContent": "Смотрите [живую демонстрацию Vue.js 2](https://codesandbox.io/s/uplot-vue-khi4m?file=/vue/uplot-vue-example.tsx 'Живая демонстрация Vue.js 2')"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "VHm9naFV45ZDZjHkV0Xui6alVzZvV5kX8qyNJZJXmso=",
+        "originContent": "You can also run the demo app locally:",
+        "translatedContent": "Вы также можете запустить демо-приложение локально:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "q/XvgirYe+PHK+viyrWxVJiABjiWIdVQMy6DTxsbEX4=",
+        "originContent": "`$ git clone https://github.com/skalinichev/uplot-wrappers.git`",
+        "translatedContent": "`$ git clone https://github.com/skalinichev/uplot-wrappers.git`"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "DCOJNdh5m+Zh7SwxJd756AtHs+BP9zY3gq3hsNveARU=",
+        "originContent": "`$ cd uplot-wrappers && yarn install`",
+        "translatedContent": "`$ cd uplot-wrappers && yarn install`"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "IIItxFUKC6O7vLkVcGTYi9Pw3fIAC1mNop1dEXEVxlE=",
+        "originContent": "Vue.js 2:",
+        "translatedContent": "Vue.js 2:"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "rpfdN325Owx1CDlxjg4OaFnQ/j/39aVE2MrTz1t9bec=",
+        "originContent": "`$ yarn run serveVue`",
+        "translatedContent": "`$ yarn run serveVue`"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "uaC5nLa3LzaWoTAChR75K9JqU1UBfw/pIAovw55kxLQ=",
+        "originContent": "Vue.js 3:",
+        "translatedContent": "Vue.js 3:"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "1aajotRzM3x5KjeuCfIX4M6C0/cYoRO2ZUebXE77Ii0=",
+        "originContent": "`$ yarn run serveVue3`",
+        "translatedContent": "`$ yarn run serveVue3`"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "aIDmZUTeIADiEaiCu9/OPFxefZKRylwD3Vwz6r2a2yo=",
+        "originContent": "# Svelte",
+        "translatedContent": "# Svelte"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Установка"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "kTyd5rUjZ/TW0hb6N8Qdl7u555vpzTUzVQ1mqGcwY0c=",
+        "originContent": "Install uplot-svelte package with uplot dependency:",
+        "translatedContent": "Установите пакет uplot-svelte с зависимостью uplot:"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "O7rTw5bR5ccAWIjeAYdv79OnsZBXRKk6TrpA0MNlbiU=",
+        "originContent": "-   Using npm: `$ npm install uplot-svelte uplot`",
+        "translatedContent": "-   Через npm: `$ npm install uplot-svelte uplot`"
+      },
+      {
+        "row": 29,
+        "rowsha": "/AkgzOKONadxO5FxnsGKCfRpI0UfCKcsN0IOR5oq2Nc=",
+        "originContent": "-   Using yarn: `$ yarn add uplot-svelte uplot`",
+        "translatedContent": "-   Через yarn: `$ yarn add uplot-svelte uplot`"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "vw/miLnwh6hZ8HG9p/NTt8uhwPbwLvoNK9RcDSE4TfM=",
+        "originContent": "You also need Svelte to be installed inside your project tree. UplotSvelte component is compatible with Svelte and SvelteKit projects.",
+        "translatedContent": "Также необходимо установить Svelte внутри вашего проекта. Компонент UplotSvelte совместим с проектами Svelte и SvelteKit."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "B0rZUVAuvA0woeHASaoNWRIBbA+LJfRLl9zTeDoLks0=",
+        "originContent": "## How to use",
+        "translatedContent": "## Как использовать"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```sveltehtml\n<script lang=\"ts\">\n    import UplotSvelte from 'uplot-svelte';\n    import uPlot from 'uplot';\n    import 'uplot/dist/uPlot.min.css';\n\n    ...\n</script>\n\n<UplotSvelte {options} {data} onCreate={onCreate} onDelete={onDelete} />\n```",
+    "ContentSha": "Tz8noToSLr6X3YFwMcE1Mxwn0o5vp+afUG1IdySyHUc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sveltehtml\n<script lang=\"ts\">\n    import UplotSvelte from 'uplot-svelte';\n    import uPlot from 'uplot';\n    import 'uplot/dist/uPlot.min.css';\n\n    ...\n</script>\n\n<UplotSvelte {options} {data} onCreate={onCreate} onDelete={onDelete} />\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8Gp1IK6MIMFCBcjwfnCutGFGstRFraE4KO7LVZVihvs=",
+        "originContent": "```sveltehtml",
+        "translatedContent": "```sveltehtml"
+      },
+      {
+        "row": 2,
+        "rowsha": "gM+uig8dB6GLsov/eANgRy1mimBAnBwa24SwlEHFPgs=",
+        "originContent": "<script lang=\"ts\">",
+        "translatedContent": "<script lang=\"ts\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "Fu15psVjeVHt0jd6z0cn8FVPLf2YGKmXNiWNlzVNk9c=",
+        "originContent": "    import UplotSvelte from 'uplot-svelte';",
+        "translatedContent": "    import UplotSvelte from 'uplot-svelte';"
+      },
+      {
+        "row": 4,
+        "rowsha": "2+BeCqSA8ho6qm3klHI6N+PtsQSg4+Y/WzW3++ePM90=",
+        "originContent": "    import uPlot from 'uplot';",
+        "translatedContent": "    import uPlot from 'uplot';"
+      },
+      {
+        "row": 5,
+        "rowsha": "rCEGULtDGVIc/knVXMMzOcxleuW7nvgGyfAgO5YVMLc=",
+        "originContent": "    import 'uplot/dist/uPlot.min.css';",
+        "translatedContent": "    import 'uplot/dist/uPlot.min.css';"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+        "originContent": "    ...",
+        "translatedContent": "    ..."
+      },
+      {
+        "row": 8,
+        "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+        "originContent": "</script>",
+        "translatedContent": "</script>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "9Kol1uhO2PiJvaOWpJuRWTKFxHghV/zEHOcU++DD+EU=",
+        "originContent": "<UplotSvelte {options} {data} onCreate={onCreate} onDelete={onDelete} />",
+        "translatedContent": "<UplotSvelte {options} {data} onCreate={onCreate} onDelete={onDelete} />"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Demo\n\nSee the example [Svelte example](https://github.com/skalinichev/uplot-wrappers/blob/master/svelte/svelte-example.svelte 'Svelte example')\n\nYou can also run the demo app locally:\n\n`$ git clone https://github.com/skalinichev/uplot-wrappers.git`\n\n`$ cd uplot-wrappers && yarn install && yarn run serveSvelte`\n\n# Documentation\n\n|    Parameter    | Requirement | Description                                                                                                                                                                                                |\n| :-------------: | :---------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n|     options     |  required   | Options for uPlot. Passed as the first argument to uPlot constructor: `new uPlot(options)`                                                                                                                 |\n|      data       |  required   | Data for uPlot. Passed as the second argument to uPlot constructor: `new uPlot(options, data)`                                                                                                             |\n|     target      |  optional   | Target html element for uPlot. Passed as the third argument to uPlot constructor: `new uPlot(options, data, target)` A new div target element will be created automatically if none is passed in the props |\n|    onCreate     |  optional   | Callback function, invoked upon uPlot instance creation or recreation                                                                                                                                      |\n|    onDelete     |  optional   | Callback function, invoked before uPlot instance gets destroyed, either because the props has changed so much it's impossible to update the chart or because the component is about to be unmounted        |\n| className/class |  optional   | A class name passed over to the automatically created target div element. Class name is ignored when the 'target' prop is used.                                                                            |\n|   resetScales   |  optional   | Flag controlling whether to reset the scales on data change. Defaults to true.                                                                                                                             |\n",
+    "ContentSha": "wDUYpfAOcqwA56Ff+dv7uLfVI5IxFWEyPjj4QqGfAEk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Демонстрация\n\nСмотрите пример [Svelte example](https://github.com/skalinichev/uplot-wrappers/blob/master/svelte/svelte-example.svelte 'Svelte example')\n\nВы также можете запустить демонстрационное приложение локально:\n\n`$ git clone https://github.com/skalinichev/uplot-wrappers.git`\n\n`$ cd uplot-wrappers && yarn install && yarn run serveSvelte`\n\n# Документация\n\n|    Параметр     | Требование  | Описание                                                                                                                                                                                                   |\n| :-------------: | :---------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n|     options     |   требуется | Опции для uPlot. Передаются в качестве первого аргумента конструктору uPlot: `new uPlot(options)`                                                                                                         |\n|      data       |   требуется | Данные для uPlot. Передаются в качестве второго аргумента конструктору uPlot: `new uPlot(options, data)`                                                                                                  |\n|     target      |   опционально | Целевой html-элемент для uPlot. Передается как третий аргумент конструктору uPlot: `new uPlot(options, data, target)` Если не передан, автоматически создается новый div-элемент |\n|    onCreate     |   опционально | Функция обратного вызова, вызывается при создании или пересоздании экземпляра uPlot                                                                                                                    |\n|    onDelete     |   опционально | Функция обратного вызова, вызывается перед уничтожением экземпляра uPlot, либо из-за сильного изменения props, либо перед размонтированием компонента                                            |\n| className/class |   опционально | Имя класса, передаваемое автоматически созданному div-элементу. Имя класса игнорируется, если используется проп 'target'.                                                                             |\n|   resetScales   |   опционально | Флаг, управляющий сбросом масштабов при изменении данных. По умолчанию true.                                                                                                                           |\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+        "originContent": "## Demo",
+        "translatedContent": "## Демонстрация"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "6wvLhePw3wTJi+zqAmSj3zciHnoxZB0qK2zHsLkqpcQ=",
+        "originContent": "See the example [Svelte example](https://github.com/skalinichev/uplot-wrappers/blob/master/svelte/svelte-example.svelte 'Svelte example')",
+        "translatedContent": "Смотрите пример [Svelte example](https://github.com/skalinichev/uplot-wrappers/blob/master/svelte/svelte-example.svelte 'Svelte example')"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "VHm9naFV45ZDZjHkV0Xui6alVzZvV5kX8qyNJZJXmso=",
+        "originContent": "You can also run the demo app locally:",
+        "translatedContent": "Вы также можете запустить демонстрационное приложение локально:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "q/XvgirYe+PHK+viyrWxVJiABjiWIdVQMy6DTxsbEX4=",
+        "originContent": "`$ git clone https://github.com/skalinichev/uplot-wrappers.git`",
+        "translatedContent": "`$ git clone https://github.com/skalinichev/uplot-wrappers.git`"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "6LHm9kIQWc4fhU0RaQ2FGNQOBJEs6thJlLi4LZaJKJ0=",
+        "originContent": "`$ cd uplot-wrappers && yarn install && yarn run serveSvelte`",
+        "translatedContent": "`$ cd uplot-wrappers && yarn install && yarn run serveSvelte`"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "4BSHWD7tzXIyr/Ccbla1RNYTdBtLtVN8mXm+xSFvLpw=",
+        "originContent": "# Documentation",
+        "translatedContent": "# Документация"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "3fUjzlkPLoAF+ev0uGKUsZ9+dIYM3WMlk5j+SnxYYu0=",
+        "originContent": "|    Parameter    | Requirement | Description                                                                                                                                                                                                |",
+        "translatedContent": "|    Параметр     | Требование  | Описание                                                                                                                                                                                                   |"
+      },
+      {
+        "row": 15,
+        "rowsha": "WfAXTcLBxG4ZLr3QW33IUFyXJigiwN7rkO3K3arUIHU=",
+        "originContent": "| :-------------: | :---------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |",
+        "translatedContent": "| :-------------: | :---------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |"
+      },
+      {
+        "row": 16,
+        "rowsha": "ZV7sOaPX16kVIIRLg3VScj7jzW8cHqIbxnNyie2kE0g=",
+        "originContent": "|     options     |  required   | Options for uPlot. Passed as the first argument to uPlot constructor: `new uPlot(options)`                                                                                                                 |",
+        "translatedContent": "|     options     |   требуется | Опции для uPlot. Передаются в качестве первого аргумента конструктору uPlot: `new uPlot(options)`                                                                                                         |"
+      },
+      {
+        "row": 17,
+        "rowsha": "xgAsrDS4ngV4JxQCO7Pu+pxa+YtXFLlUOFhx8fR9N2s=",
+        "originContent": "|      data       |  required   | Data for uPlot. Passed as the second argument to uPlot constructor: `new uPlot(options, data)`                                                                                                             |",
+        "translatedContent": "|      data       |   требуется | Данные для uPlot. Передаются в качестве второго аргумента конструктору uPlot: `new uPlot(options, data)`                                                                                                  |"
+      },
+      {
+        "row": 18,
+        "rowsha": "1RSguklqG5aDb3hdNIg6U4+Wz6h9vHLm8qHavdOc7JU=",
+        "originContent": "|     target      |  optional   | Target html element for uPlot. Passed as the third argument to uPlot constructor: `new uPlot(options, data, target)` A new div target element will be created automatically if none is passed in the props |",
+        "translatedContent": "|     target      |   опционально | Целевой html-элемент для uPlot. Передается как третий аргумент конструктору uPlot: `new uPlot(options, data, target)` Если не передан, автоматически создается новый div-элемент |"
+      },
+      {
+        "row": 19,
+        "rowsha": "s+bEcbEENtxI5OpORbXgw9Kw4Cq3wc2a4JmfVGYz3tY=",
+        "originContent": "|    onCreate     |  optional   | Callback function, invoked upon uPlot instance creation or recreation                                                                                                                                      |",
+        "translatedContent": "|    onCreate     |   опционально | Функция обратного вызова, вызывается при создании или пересоздании экземпляра uPlot                                                                                                                    |"
+      },
+      {
+        "row": 20,
+        "rowsha": "lx9qHcFXNXgRbWTSJNA23HAO6i1NrjKiZXZ/fexd0FQ=",
+        "originContent": "|    onDelete     |  optional   | Callback function, invoked before uPlot instance gets destroyed, either because the props has changed so much it's impossible to update the chart or because the component is about to be unmounted        |",
+        "translatedContent": "|    onDelete     |   опционально | Функция обратного вызова, вызывается перед уничтожением экземпляра uPlot, либо из-за сильного изменения props, либо перед размонтированием компонента                                            |"
+      },
+      {
+        "row": 21,
+        "rowsha": "0t4Ek/Xj+Ta9gUQIUCh+qsi97j1Hlx59QgoPi4Lxh6U=",
+        "originContent": "| className/class |  optional   | A class name passed over to the automatically created target div element. Class name is ignored when the 'target' prop is used.                                                                            |",
+        "translatedContent": "| className/class |   опционально | Имя класса, передаваемое автоматически созданному div-элементу. Имя класса игнорируется, если используется проп 'target'.                                                                             |"
+      },
+      {
+        "row": 22,
+        "rowsha": "jYODN+lApNyUvdXSY3CS5QCdtEFrJ3HnlvQzlS5UUcQ=",
+        "originContent": "|   resetScales   |  optional   | Flag controlling whether to reset the scales on data change. Defaults to true.                                                                                                                             |",
+        "translatedContent": "|   resetScales   |   опционально | Флаг, управляющий сбросом масштабов при изменении данных. По умолчанию true.                                                                                                                           |"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
