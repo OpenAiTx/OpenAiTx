@@ -1,0 +1,1717 @@
+[
+  {
+    "Id": 1,
+    "Content": "> [!WARNING]\n> 現在iOSで`refresh_token`が取得できない問題が発生しています。これは`colmsg`の問題ではなくメッセージアプリ側のアップデートによる影響です。現状この問題に対する完全な解決策はありません。Androidの場合は引き続き[こちら](https://github.com/proshunsuke/colmsg/blob/main/doc/how_to_get_refresh_token.md#android%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E5%A0%B4%E5%90%88)を参考にしてください。\n\n<div align=\"center\">\n  <h1><strong>colmsg</strong></h1>\n  <img src=\"https://user-images.githubusercontent.com/3148511/158018437-09822a33-8767-4e03-ba90-e0f69594c493.jpeg\" width=\"32px\" alt=\"櫻坂46メッセージのロゴ\"><img src=\"https://user-images.githubusercontent.com/3148511/158018441-dd7cb9eb-bf31-4938-830d-1ef293a2afba.jpg\" width=\"32px\" alt=\"日向坂46メッセージのロゴ\"><img src=\"https://user-images.githubusercontent.com/3148511/158018442-ae54e926-760d-4b47-b0a0-7255485e1f28.jpg\" width=\"32px\" alt=\"乃木坂46メッセージのロゴ\">\n\n  「櫻坂46メッセージ」「日向坂46メッセージ」「乃木坂46メッセージ」「齋藤飛鳥メッセージ」「白石麻衣メッセージ」「yodel」アプリのメッセージをPCに保存します。\n\n  ![demo](https://user-images.githubusercontent.com/3148511/158026220-90735546-2401-40ca-a9e6-89d2176ad3b4.gif)\n</div>\n\n## 概要\n\n`colmsg` のインストール方法は[こちら](#インストール)を参照してください。\n\n**まず初めに**refresh_tokenを取得してください。取得方法は[こちら](https://raw.githubusercontent.com/proshunsuke/colmsg/main/doc/how_to_get_refresh_token.md)を参照してください。\n\n取得出来たら以下を実行してください。  \n`<s_refresh_token>` , `<h_refresh_token>` , `<n_refresh_token>` , `<a_refresh_token>` , `<m_refresh_token>` , `<y_refresh_token>` に「櫻坂46メッセージ」「日向坂46メッセージ」「乃木坂46メッセージ」「齋藤飛鳥メッセージ」「白石麻衣メッセージ」「yodel」それぞれで取得してきたrefresh_tokenを入れてください。  \n※ 指定するのは購読しているアプリのみで問題ありません。  \n\n購読しているメンバー全員の全期間のメッセージが保存されます。  \n",
+    "ContentSha": "t0ygJ9hjU7N9tR9AB8buC3RNoWCdtvcPAi1HZiUtk7M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> [!WARNING]\n> 현재 iOS에서 `refresh_token`을 얻을 수 없는 문제가 발생하고 있습니다. 이는 `colmsg`의 문제가 아니라 메시지 앱 쪽의 업데이트 영향입니다. 현재 이 문제에 대한 완전한 해결책은 없습니다. Android의 경우 계속해서 [여기](https://github.com/proshunsuke/colmsg/blob/main/doc/how_to_get_refresh_token.md#android%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E5%A0%B4%E5%90%88)를 참고해 주세요.\n\n<div align=\"center\">\n  <h1><strong>colmsg</strong></h1>\n  <img src=\"https://user-images.githubusercontent.com/3148511/158018437-09822a33-8767-4e03-ba90-e0f69594c493.jpeg\" width=\"32px\" alt=\"사쿠라자카46 메시지 로고\"><img src=\"https://user-images.githubusercontent.com/3148511/158018441-dd7cb9eb-bf31-4938-830d-1ef293a2afba.jpg\" width=\"32px\" alt=\"히나타자카46 메시지 로고\"><img src=\"https://user-images.githubusercontent.com/3148511/158018442-ae54e926-760d-4b47-b0a0-7255485e1f28.jpg\" width=\"32px\" alt=\"노기자카46 메시지 로고\">\n\n  「사쿠라자카46 메시지」「히나타자카46 메시지」「노기자카46 메시지」「사이토 아스카 메시지」「시라이시 마이 메시지」「yodel」앱의 메시지를 PC에 저장합니다.\n\n  ![demo](https://user-images.githubusercontent.com/3148511/158026220-90735546-2401-40ca-a9e6-89d2176ad3b4.gif)\n</div>\n\n## 개요\n\n`colmsg` 설치 방법은 [여기](#インストール)를 참조해 주세요.\n\n**먼저** refresh_token을 획득해 주세요. 획득 방법은 [여기](https://raw.githubusercontent.com/proshunsuke/colmsg/main/doc/how_to_get_refresh_token.md)를 참조해 주세요.\n\n획득했다면 아래를 실행해 주세요.  \n`<s_refresh_token>` , `<h_refresh_token>` , `<n_refresh_token>` , `<a_refresh_token>` , `<m_refresh_token>` , `<y_refresh_token>` 에 각각 「사쿠라자카46 메시지」「히나타자카46 메시지」「노기자카46 메시지」「사이토 아스카 메시지」「시라이시 마이 메시지」「yodel」에서 획득한 refresh_token을 넣어 주세요.  \n※ 지정하는 것은 구독 중인 앱만으로 문제없습니다.  \n\n구독 중인 멤버 전원의 전체 기간 메시지가 저장됩니다.  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+        "originContent": "> [!WARNING]",
+        "translatedContent": "> [!WARNING]"
+      },
+      {
+        "row": 2,
+        "rowsha": "O8Qe5ZjF2NOukQssnPhLfQI+gZICI92wKj3eEvyW050=",
+        "originContent": "> 現在iOSで`refresh_token`が取得できない問題が発生しています。これは`colmsg`の問題ではなくメッセージアプリ側のアップデートによる影響です。現状この問題に対する完全な解決策はありません。Androidの場合は引き続き[こちら](https://github.com/proshunsuke/colmsg/blob/main/doc/how_to_get_refresh_token.md#android%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E5%A0%B4%E5%90%88)を参考にしてください。",
+        "translatedContent": "> 현재 iOS에서 `refresh_token`을 얻을 수 없는 문제가 발생하고 있습니다. 이는 `colmsg`의 문제가 아니라 메시지 앱 쪽의 업데이트 영향입니다. 현재 이 문제에 대한 완전한 해결책은 없습니다. Android의 경우 계속해서 [여기](https://github.com/proshunsuke/colmsg/blob/main/doc/how_to_get_refresh_token.md#android%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E5%A0%B4%E5%90%88)를 참고해 주세요."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "5r6ZOf6VVvPKfQ82sOpZHSpxun7guV/frbYDJQ20pXc=",
+        "originContent": "  <h1><strong>colmsg</strong></h1>",
+        "translatedContent": "  <h1><strong>colmsg</strong></h1>"
+      },
+      {
+        "row": 6,
+        "rowsha": "ukp85jLn2g6D+fU7TR3cHg/R0G/dKWdwpH2al/ghjPQ=",
+        "originContent": "  <img src=\"https://user-images.githubusercontent.com/3148511/158018437-09822a33-8767-4e03-ba90-e0f69594c493.jpeg\" width=\"32px\" alt=\"櫻坂46メッセージのロゴ\"><img src=\"https://user-images.githubusercontent.com/3148511/158018441-dd7cb9eb-bf31-4938-830d-1ef293a2afba.jpg\" width=\"32px\" alt=\"日向坂46メッセージのロゴ\"><img src=\"https://user-images.githubusercontent.com/3148511/158018442-ae54e926-760d-4b47-b0a0-7255485e1f28.jpg\" width=\"32px\" alt=\"乃木坂46メッセージのロゴ\">",
+        "translatedContent": "  <img src=\"https://user-images.githubusercontent.com/3148511/158018437-09822a33-8767-4e03-ba90-e0f69594c493.jpeg\" width=\"32px\" alt=\"사쿠라자카46 메시지 로고\"><img src=\"https://user-images.githubusercontent.com/3148511/158018441-dd7cb9eb-bf31-4938-830d-1ef293a2afba.jpg\" width=\"32px\" alt=\"히나타자카46 메시지 로고\"><img src=\"https://user-images.githubusercontent.com/3148511/158018442-ae54e926-760d-4b47-b0a0-7255485e1f28.jpg\" width=\"32px\" alt=\"노기자카46 메시지 로고\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "4zyXNfe3gBnFm0Dp4JdbjfzUlBJSuVbt3zgFCLjeuQs=",
+        "originContent": "  「櫻坂46メッセージ」「日向坂46メッセージ」「乃木坂46メッセージ」「齋藤飛鳥メッセージ」「白石麻衣メッセージ」「yodel」アプリのメッセージをPCに保存します。",
+        "translatedContent": "  「사쿠라자카46 메시지」「히나타자카46 메시지」「노기자카46 메시지」「사이토 아스카 메시지」「시라이시 마이 메시지」「yodel」앱의 메시지를 PC에 저장합니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "NzxysZpp7icvl30yT5Hx7c5CGFBZNaDJJ24s+L0eoW8=",
+        "originContent": "  ![demo](https://user-images.githubusercontent.com/3148511/158026220-90735546-2401-40ca-a9e6-89d2176ad3b4.gif)",
+        "translatedContent": "  ![demo](https://user-images.githubusercontent.com/3148511/158026220-90735546-2401-40ca-a9e6-89d2176ad3b4.gif)"
+      },
+      {
+        "row": 11,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "tMb85yuBT5ZfuymoPiw6jmyWHI7O+Gb1wJo+GpE4gxQ=",
+        "originContent": "## 概要",
+        "translatedContent": "## 개요"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "2+967rJsg1JJPimpldlHpG1maD4egnOrfNodUJ7do+g=",
+        "originContent": "`colmsg` のインストール方法は[こちら](#インストール)を参照してください。",
+        "translatedContent": "`colmsg` 설치 방법은 [여기](#インストール)를 참조해 주세요."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "m1045BKEnmGISUWKFvCY0IMG6zF0LmeqeY4myQD0Z84=",
+        "originContent": "**まず初めに**refresh_tokenを取得してください。取得方法は[こちら](https://raw.githubusercontent.com/proshunsuke/colmsg/main/doc/how_to_get_refresh_token.md)を参照してください。",
+        "translatedContent": "**먼저** refresh_token을 획득해 주세요. 획득 방법은 [여기](https://raw.githubusercontent.com/proshunsuke/colmsg/main/doc/how_to_get_refresh_token.md)를 참조해 주세요."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Tn0P3lNCXSBiwAn64IKrFDgXH3Ah+XdF+KEHEVkR7ME=",
+        "originContent": "取得出来たら以下を実行してください。  ",
+        "translatedContent": "획득했다면 아래를 실행해 주세요.  "
+      },
+      {
+        "row": 20,
+        "rowsha": "b6CjMfqapnEWM6Dmj4E2EaEnJfD5laM/pwypmDnXs9A=",
+        "originContent": "`<s_refresh_token>` , `<h_refresh_token>` , `<n_refresh_token>` , `<a_refresh_token>` , `<m_refresh_token>` , `<y_refresh_token>` に「櫻坂46メッセージ」「日向坂46メッセージ」「乃木坂46メッセージ」「齋藤飛鳥メッセージ」「白石麻衣メッセージ」「yodel」それぞれで取得してきたrefresh_tokenを入れてください。  ",
+        "translatedContent": "`<s_refresh_token>` , `<h_refresh_token>` , `<n_refresh_token>` , `<a_refresh_token>` , `<m_refresh_token>` , `<y_refresh_token>` 에 각각 「사쿠라자카46 메시지」「히나타자카46 메시지」「노기자카46 메시지」「사이토 아스카 메시지」「시라이시 마이 메시지」「yodel」에서 획득한 refresh_token을 넣어 주세요.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "xeshN9tdH/7xLLjJJ6nCIt2N7had+caB5MjygKw8FTc=",
+        "originContent": "※ 指定するのは購読しているアプリのみで問題ありません。  ",
+        "translatedContent": "※ 지정하는 것은 구독 중인 앱만으로 문제없습니다.  "
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "5pc18wzIgSevMLAjPs9UZhcamDY9vjw01C334A+uTLg=",
+        "originContent": "購読しているメンバー全員の全期間のメッセージが保存されます。  ",
+        "translatedContent": "구독 중인 멤버 전원의 전체 기간 메시지가 저장됩니다.  "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```shell script\ncolmsg --s_refresh_token <s_refresh_token> --h_refresh_token <h_refresh_token> --n_refresh_token <n_refresh_token> --a_refresh_token <a_refresh_token> --m_refresh_token <m_refresh_token> --y_refresh_token <y_refresh_token>\n```",
+    "ContentSha": "mqHwIDvKuPGfERw7AfEexDyUtMwdZAvKDpu8EDZiJnU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\ncolmsg --s_refresh_token <s_refresh_token> --h_refresh_token <h_refresh_token> --n_refresh_token <n_refresh_token> --a_refresh_token <a_refresh_token> --m_refresh_token <m_refresh_token> --y_refresh_token <y_refresh_token>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "YKLbxbZshFInMO71pGz1LkI0U3jqtiro3DMhe6fnpYs=",
+        "originContent": "colmsg --s_refresh_token <s_refresh_token> --h_refresh_token <h_refresh_token> --n_refresh_token <n_refresh_token> --a_refresh_token <a_refresh_token> --m_refresh_token <m_refresh_token> --y_refresh_token <y_refresh_token>",
+        "translatedContent": "colmsg --s_refresh_token <s_refresh_token> --h_refresh_token <h_refresh_token> --n_refresh_token <n_refresh_token> --a_refresh_token <a_refresh_token> --m_refresh_token <m_refresh_token> --y_refresh_token <y_refresh_token>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nWindowsの場合は実行ファイル名を `colmsg.exe` に読み替えてください。\n\n## 特徴\n\n* ✅ 端末のroot化の必要がありません\n* ✅ Android, iosアプリどちらにも対応しています\n* ✅ Windows, macos, Linuxで実行できます\n* ✅ 様々な保存方法が選べます\n* ✅ 以下のアプリのバージョンに対応しています\n  * 「櫻坂46メッセージ」: バージョン1.12.01.169\n  * 「日向坂46メッセージ」: バージョン2.13.01.169\n  * 「乃木坂46メッセージ」: バージョン1.8.01.169\n  * 「齋藤飛鳥メッセージ」: バージョン1.1.01.169\n  * 「白石麻衣メッセージ」: バージョン3.4.3.426\n  * 「yodel」: バージョン4.1.1.455\n\n## 使い方\n\n概要で基本的な使い方を説明しました。  \nしかし、refresh_tokenは機微情報なため、ターミナル上で直接入力するのはあまり良くないでしょう。  \nそこで、configファイルにデフォルトのオプションを設定しておくことをおすすめします。  \nconfigファイルについては[こちら](#configファイル)を参照してください。  \n以降はconfigファイルでrefresh_tokenが設定されているものとします。\n\n`colmsg` にはいくつかのオプションがあり、様々な保存方法を選べます。\n\n特定のメンバーのメッセージを保存したい場合\n",
+    "ContentSha": "hhVwDOT9RBUESTL+aeX7g2cRrsg3xcfYcCRMSYgaulU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Windowsの場合는 실행 파일 이름을 `colmsg.exe`로 바꾸어 사용하십시오.\n\n## 특징\n\n* ✅ 단말기의 루팅이 필요하지 않습니다\n* ✅ Android, iOS 앱 모두에 대응하고 있습니다\n* ✅ Windows, macOS, Linux에서 실행할 수 있습니다\n* ✅ 다양한 저장 방식을 선택할 수 있습니다\n* ✅ 다음 앱 버전에 대응하고 있습니다\n  * 「櫻坂46メッセージ」: 버전 1.12.01.169\n  * 「日向坂46メッセージ」: 버전 2.13.01.169\n  * 「乃木坂46メッセージ」: 버전 1.8.01.169\n  * 「齋藤飛鳥メッセージ」: 버전 1.1.01.169\n  * 「白石麻衣メッセージ」: 버전 3.4.3.426\n  * 「yodel」: 버전 4.1.1.455\n\n## 사용법\n\n개요에서 기본적인 사용법을 설명했습니다.  \n하지만, refresh_token은 민감한 정보이므로 터미널에서 직접 입력하는 것은 그다지 좋지 않습니다.  \n따라서, config 파일에 기본 옵션을 설정해 두는 것을 추천합니다.  \nconfig 파일에 대해서는 [여기](#config파일)를 참조하십시오.  \n이후는 config 파일에 refresh_token이 설정되어 있다고 가정합니다.\n\n`colmsg`에는 여러 옵션이 있으며, 다양한 저장 방식을 선택할 수 있습니다.\n\n특정 멤버의 메시지를 저장하고 싶은 경우\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Windowsの場合는 실행 파일 이름을 `colmsg.exe`로 바꾸어 사용하십시오."
+      },
+      {
+        "row": 2,
+        "rowsha": "p4cLHQENpYmYnQ3nsQ8rwphoMGO5l/agPbMs9Kh3LJs=",
+        "originContent": "Windowsの場合は実行ファイル名を `colmsg.exe` に読み替えてください。",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 특징"
+      },
+      {
+        "row": 4,
+        "rowsha": "FEek/MsugwK+G7cag8Hcy3tbrU+QbIRRuxHggWS2UW8=",
+        "originContent": "## 特徴",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* ✅ 단말기의 루팅이 필요하지 않습니다"
+      },
+      {
+        "row": 6,
+        "rowsha": "nMzDygdpTQLsCsi27tqgG1fuYkUvCNTCu+UvPNriZsE=",
+        "originContent": "* ✅ 端末のroot化の必要がありません",
+        "translatedContent": "* ✅ Android, iOS 앱 모두에 대응하고 있습니다"
+      },
+      {
+        "row": 7,
+        "rowsha": "NqYBdmN0zIxrAcwmSIwwezQQD1FNxfj2LlozP755o4w=",
+        "originContent": "* ✅ Android, iosアプリどちらにも対応しています",
+        "translatedContent": "* ✅ Windows, macOS, Linux에서 실행할 수 있습니다"
+      },
+      {
+        "row": 8,
+        "rowsha": "FKaKEslWBlbqB0PxvEOsDtGKMWCVfuW6HkeqZ0YEFPE=",
+        "originContent": "* ✅ Windows, macos, Linuxで実行できます",
+        "translatedContent": "* ✅ 다양한 저장 방식을 선택할 수 있습니다"
+      },
+      {
+        "row": 9,
+        "rowsha": "6idVI4GlSQtzRgwxDoNmgTeD2VD9G8fWsMXdYn2FRjY=",
+        "originContent": "* ✅ 様々な保存方法が選べます",
+        "translatedContent": "* ✅ 다음 앱 버전에 대응하고 있습니다"
+      },
+      {
+        "row": 10,
+        "rowsha": "C6H9GRR1mwJaS1aKkP94eGLBZZZIxNbFqs8tIFy1D2E=",
+        "originContent": "* ✅ 以下のアプリのバージョンに対応しています",
+        "translatedContent": "  * 「櫻坂46メッセージ」: 버전 1.12.01.169"
+      },
+      {
+        "row": 11,
+        "rowsha": "0rXDj5fW41qqGXlQBfivfeL4tuG3msxvejnqruHILKo=",
+        "originContent": "  * 「櫻坂46メッセージ」: バージョン1.12.01.169",
+        "translatedContent": "  * 「日向坂46メッセージ」: 버전 2.13.01.169"
+      },
+      {
+        "row": 12,
+        "rowsha": "ZAxiCeLvnqzivb8qUXZY0sgmuMv1sHQxATvNR7lOp1E=",
+        "originContent": "  * 「日向坂46メッセージ」: バージョン2.13.01.169",
+        "translatedContent": "  * 「乃木坂46メッセージ」: 버전 1.8.01.169"
+      },
+      {
+        "row": 13,
+        "rowsha": "frb9oKyr0j9nW8LB4jlLB8BmhRp9XMurtQtYQXt2odc=",
+        "originContent": "  * 「乃木坂46メッセージ」: バージョン1.8.01.169",
+        "translatedContent": "  * 「齋藤飛鳥メッセージ」: 버전 1.1.01.169"
+      },
+      {
+        "row": 14,
+        "rowsha": "YYpZp2g3BOvTMfF/mWhNu8g+TX8jqSv2OTt4UAUd2m0=",
+        "originContent": "  * 「齋藤飛鳥メッセージ」: バージョン1.1.01.169",
+        "translatedContent": "  * 「白石麻衣メッセージ」: 버전 3.4.3.426"
+      },
+      {
+        "row": 15,
+        "rowsha": "7y2Vb7gOY8iNSjtsczP5AbHJyg8sy8n+zUqaMK7p1ZY=",
+        "originContent": "  * 「白石麻衣メッセージ」: バージョン3.4.3.426",
+        "translatedContent": "  * 「yodel」: 버전 4.1.1.455"
+      },
+      {
+        "row": 16,
+        "rowsha": "WdYkEn55/UcnuLPhFAGw2DaQU/Inqu314744/KR72oE=",
+        "originContent": "  * 「yodel」: バージョン4.1.1.455",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 18,
+        "rowsha": "5EGkEEDObZyK9J64ME8GsZ1kxWE5xW0/9rHHkMgs1hQ=",
+        "originContent": "## 使い方",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "개요에서 기본적인 사용법을 설명했습니다.  "
+      },
+      {
+        "row": 20,
+        "rowsha": "ttvlA4LyX/7wZg6IVj+sEgLJqDpBsNSVqqglS/uuUIc=",
+        "originContent": "概要で基本的な使い方を説明しました。  ",
+        "translatedContent": "하지만, refresh_token은 민감한 정보이므로 터미널에서 직접 입력하는 것은 그다지 좋지 않습니다.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "Oj2pqZq6bS448GZvdH2ZJyGynrpQhED5/BvmDccYNko=",
+        "originContent": "しかし、refresh_tokenは機微情報なため、ターミナル上で直接入力するのはあまり良くないでしょう。  ",
+        "translatedContent": "따라서, config 파일에 기본 옵션을 설정해 두는 것을 추천합니다.  "
+      },
+      {
+        "row": 22,
+        "rowsha": "7IYvv4zSYmm+hN/Xu+sckS8eXR8gOyYsmOIHEs7RtyI=",
+        "originContent": "そこで、configファイルにデフォルトのオプションを設定しておくことをおすすめします。  ",
+        "translatedContent": "config 파일에 대해서는 [여기](#config파일)를 참조하십시오.  "
+      },
+      {
+        "row": 23,
+        "rowsha": "76TDnVGOzHQJIWYB3i/wnAGq0Xio4GobsTa+vStp3W8=",
+        "originContent": "configファイルについては[こちら](#configファイル)を参照してください。  ",
+        "translatedContent": "이후는 config 파일에 refresh_token이 설정되어 있다고 가정합니다."
+      },
+      {
+        "row": 24,
+        "rowsha": "9m+MDIxz/z5XJ33roN6qf/jOuw79rXh00cuEQh88a2k=",
+        "originContent": "以降はconfigファイルでrefresh_tokenが設定されているものとします。",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`colmsg`에는 여러 옵션이 있으며, 다양한 저장 방식을 선택할 수 있습니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "j7IoXNzS/T0H2pPbnsQXf55a6zZyhkqUlUeVXIvyHpc=",
+        "originContent": "`colmsg` にはいくつかのオプションがあり、様々な保存方法を選べます。",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "특정 멤버의 메시지를 저장하고 싶은 경우"
+      },
+      {
+        "row": 28,
+        "rowsha": "el1PuzvTfTwFXw8VRVH5K66ONE1xOPvYXtsT6UljTIc=",
+        "originContent": "特定のメンバーのメッセージを保存したい場合",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```shell script\ncolmsg -n 菅井友香 -n 佐々木久美\n```",
+    "ContentSha": "Q1kRUkTdXBwS12SwwaS5nCEamS7TO1Qt+HXQ4TRBnTk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\ncolmsg -n 菅井友香 -n 佐々木久美\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "mrDnx8p6bgbW13r1iMY+lYAy0r7gNonGjTuc2txCeUg=",
+        "originContent": "colmsg -n 菅井友香 -n 佐々木久美",
+        "translatedContent": "colmsg -n 菅井友香 -n 佐々木久美"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n特定のグループのメッセージを保存したい場合\n",
+    "ContentSha": "vPtFde9uyjZHbwH61rMrzWDZkznRBOleGHkoNk0M8wE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "특정 그룹의 메시지를 저장하고 싶을 경우\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "특정 그룹의 메시지를 저장하고 싶을 경우"
+      },
+      {
+        "row": 2,
+        "rowsha": "LgvT5GR4NKnE33HmMdtZVgLWiOram3+S7jAaTgwsgXI=",
+        "originContent": "特定のグループのメッセージを保存したい場合",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```shell script\ncolmsg -g sakurazaka\n```",
+    "ContentSha": "eLY0DjH6iOco7mnjiDEvS1J+Pf7PcX6bBHfys/ULaPc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\ncolmsg -g sakurazaka\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "5r4Vwkh8/5gYG9CI1WZ/q9WYApqgcDM2c76m1nNnr38=",
+        "originContent": "colmsg -g sakurazaka",
+        "translatedContent": "colmsg -g sakurazaka"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n特定の種類のメッセージを保存したい場合\n",
+    "ContentSha": "KnmOICqcBhAFUrR164QrThq0AqyxEeHYvj0kM3fL7fc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "특정 종류의 메시지를 저장하고 싶을 경우\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "특정 종류의 메시지를 저장하고 싶을 경우"
+      },
+      {
+        "row": 2,
+        "rowsha": "pArZuERtUHVjBOUPY0O4ZTSH5LkQEO+Ds2Tesh8W2cM=",
+        "originContent": "特定の種類のメッセージを保存したい場合",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```shell script\ncolmsg -k picture -k video\n```",
+    "ContentSha": "+bWUpddhmVngyZyeJYnLQm404uf45Ud1+SuLKYP9f60=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\ncolmsg -k picture -k video\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y6qwoUeN4kTQq6A1Nqccmrk1Vkikj7dSEJHX7SKIxKY=",
+        "originContent": "colmsg -k picture -k video",
+        "translatedContent": "colmsg -k picture -k video"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n特定の日時以降のメッセージを保存したい場合\n",
+    "ContentSha": "EIFC7s9X0sHPaPaz2WCJTpiFoC9hngiQcUu7NK9z3AY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "특정 일시 이후의 메시지를 저장하고 싶은 경우\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "특정 일시 이후의 메시지를 저장하고 싶은 경우"
+      },
+      {
+        "row": 2,
+        "rowsha": "PSlprfOuetw5uy9p84/7/w+Xm8jVrSd0ah5hvzXGi7I=",
+        "originContent": "特定の日時以降のメッセージを保存したい場合",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```shell script\ncolmsg -F '2020/01/01 00:00:00'\n```",
+    "ContentSha": "75ozQsdrE3s6Iue6cmcbREtaNGYxeiJ9HY2bsSas4bg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\ncolmsg -F '2020/01/01 00:00:00'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "WBtMBYboQRn92deq/6BxlmBzfHClGCOp/3eN3rMMMXY=",
+        "originContent": "colmsg -F '2020/01/01 00:00:00'",
+        "translatedContent": "colmsg -F '2020/01/01 00:00:00'"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nオプションは組み合わせて使用することが出来ます。より詳細な説明は以下を実行して確認してください。\n",
+    "ContentSha": "kIbk0lFAX6d966K8DIIv3LFrqeTLrv7o+EJSh5CuZeo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "옵션은 조합하여 사용할 수 있습니다. 보다 자세한 설명은 아래를 실행하여 확인하십시오.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "옵션은 조합하여 사용할 수 있습니다. 보다 자세한 설명은 아래를 실행하여 확인하십시오."
+      },
+      {
+        "row": 2,
+        "rowsha": "K4KzpuEzeI9+mUF7VivRsI1Jk3Wt6lC9FyELFJcCpXs=",
+        "originContent": "オプションは組み合わせて使用することが出来ます。より詳細な説明は以下を実行して確認してください。",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```shell script\ncolmsg --help\n```",
+    "ContentSha": "ynGAO1TKAT8QY0D/bVpmXd2PHX84Ow07kQ3h+K67veg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\ncolmsg --help\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "TtyRnfbjlobr0oxKvhkCXEV4s/iqZ2BFRlXo6XthsLs=",
+        "originContent": "colmsg --help",
+        "translatedContent": "colmsg --help"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## 詳細な仕様\n\n* 既にいくつかメッセージが保存されている場合にコマンドを実行すると、最後に保存したメッセージ以降のメッセージを取得して保存します  \n* 保存されるメッセージは次のディレクトリ構造で保存されます\n  * ```shell script\n    colmsg/\n    ├── 日向坂46 一期生\n    │   └── 佐々木久美\n    │       └── 1_0_20191231235959.txt\n    ├── 乃木坂46\n    │   └── 秋元真夏\n    │       └── 2_1_20200101000000.jpg\n    └── 櫻坂46 一期生\n        └── 菅井友香\n            ├── 3_2_20200101000001.mp4\n            └── 4_3_20200101000002.mp4",
+    "ContentSha": "AC4DHS2u6bExvVQ/M4epDXnMTs71m9KynACresDDYV4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 상세 사양\n\n* 이미 몇 개의 메시지가 저장되어 있는 경우 명령을 실행하면 마지막으로 저장한 메시지 이후의 메시지를 가져와 저장합니다  \n* 저장되는 메시지는 다음 디렉터리 구조로 저장됩니다\n  * ```shell script\n    colmsg/\n    ├── 히나타자카46 1기생\n    │   └── 사사키 쿠미\n    │       └── 1_0_20191231235959.txt\n    ├── 노기자카46\n    │   └── 아키모토 마나츠\n    │       └── 2_1_20200101000000.jpg\n    └── 사쿠라자카46 1기생\n        └── 스가이 유카\n            ├── 3_2_20200101000001.mp4\n            └── 4_3_20200101000002.mp4\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 상세 사양"
+      },
+      {
+        "row": 2,
+        "rowsha": "4wA6tqyKHUf/97Kj43Qm5PCbHiAoTu9gbmI/kai5Cas=",
+        "originContent": "## 詳細な仕様",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 이미 몇 개의 메시지가 저장되어 있는 경우 명령을 실행하면 마지막으로 저장한 메시지 이후의 메시지를 가져와 저장합니다  "
+      },
+      {
+        "row": 4,
+        "rowsha": "BL6tGTIxO4kAxjoWNdPjyFzgs60JMxB46uK73CEMNuM=",
+        "originContent": "* 既にいくつかメッセージが保存されている場合にコマンドを実行すると、最後に保存したメッセージ以降のメッセージを取得して保存します  ",
+        "translatedContent": "* 저장되는 메시지는 다음 디렉터리 구조로 저장됩니다"
+      },
+      {
+        "row": 5,
+        "rowsha": "uvJwNGxcIirGwLNy9q9cBrAM0n9ip2iySbrDzhbJTDw=",
+        "originContent": "* 保存されるメッセージは次のディレクトリ構造で保存されます",
+        "translatedContent": "  * ```shell script"
+      },
+      {
+        "row": 6,
+        "rowsha": "hNNkAgak6EaNuxtBUxOEKjqR92rHMvycp9dDFP1fBUA=",
+        "originContent": "  * ```shell script",
+        "translatedContent": "    colmsg/"
+      },
+      {
+        "row": 7,
+        "rowsha": "7kEC1yeZVvVy8+g5tYhxC7Y4+/TbmMmbb+P+AcPGqzU=",
+        "originContent": "    colmsg/",
+        "translatedContent": "    ├── 히나타자카46 1기생"
+      },
+      {
+        "row": 8,
+        "rowsha": "dghUVM2zRe2MAjnfXQ+OU742dDGO5SID6e2n4w5caio=",
+        "originContent": "    ├── 日向坂46 一期生",
+        "translatedContent": "    │   └── 사사키 쿠미"
+      },
+      {
+        "row": 9,
+        "rowsha": "WR628F0kQeHmjpvhjtA5LTHuZOWc5fNxc9fwg0hhim8=",
+        "originContent": "    │   └── 佐々木久美",
+        "translatedContent": "    │       └── 1_0_20191231235959.txt"
+      },
+      {
+        "row": 10,
+        "rowsha": "/ASh9JJQkxTALLjq7pXZBOTFRtCV+1+7d1l13/F82U0=",
+        "originContent": "    │       └── 1_0_20191231235959.txt",
+        "translatedContent": "    ├── 노기자카46"
+      },
+      {
+        "row": 11,
+        "rowsha": "Iirlt9mu9p5ig7xivv9W/TAyNJZaxZ9jOr32YZwHJFs=",
+        "originContent": "    ├── 乃木坂46",
+        "translatedContent": "    │   └── 아키모토 마나츠"
+      },
+      {
+        "row": 12,
+        "rowsha": "Co36bv2gCBZu2L6rN62nSL8OpP/+otTnMJx5jaLNy6I=",
+        "originContent": "    │   └── 秋元真夏",
+        "translatedContent": "    │       └── 2_1_20200101000000.jpg"
+      },
+      {
+        "row": 13,
+        "rowsha": "BbduHyC8R94lCMtlvl9lEyDiRaG90otbnGwh9kYhows=",
+        "originContent": "    │       └── 2_1_20200101000000.jpg",
+        "translatedContent": "    └── 사쿠라자카46 1기생"
+      },
+      {
+        "row": 14,
+        "rowsha": "ehe54fQjK828SEyjPiP4j2OP30eMz2Gn9CNNdl7x9z8=",
+        "originContent": "    └── 櫻坂46 一期生",
+        "translatedContent": "        └── 스가이 유카"
+      },
+      {
+        "row": 15,
+        "rowsha": "ukucHZdmm2n2ezXrpr61vg0CHey4YOcCT/ijnxOeASI=",
+        "originContent": "        └── 菅井友香",
+        "translatedContent": "            ├── 3_2_20200101000001.mp4"
+      },
+      {
+        "row": 16,
+        "rowsha": "Z9BV70Fe30PhfakdiCUIDJf9isi8UG3h9XybpZunmYQ=",
+        "originContent": "            ├── 3_2_20200101000001.mp4",
+        "translatedContent": "            └── 4_3_20200101000002.mp4"
+      },
+      {
+        "row": 17,
+        "rowsha": "HYZso6DKxOP+WZlLAGuUbxZJLBoXD3Gvc3f8oH2wrh8=",
+        "originContent": "            └── 4_3_20200101000002.mp4",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "    ```\n* ファイル名の形式は `<シーケンス番号>_<種類>_<日付>.<拡張子>` となっています\n  * シーケンス番号はメッセージの時系列を表す番号になっています。若い数字程昔のメッセージです。ファイルブラウザで辞書順に並べると保存したメッセージが時系列通りに並びます\n  * 種類の数字は以下のように対応しています\n    * 0: テキストメッセージ\n    * 1: 画像\n    * 2: 動画\n    * 3: ボイス\n    * 4: リンク\n* 各環境毎のデフォルトの保存先は以下を実行することで確認することが出来ます\n  * ```shell script\n    colmsg --download-dir\n    ```",
+    "ContentSha": "+sIMt9F/EFOIwYfRvCNX2sd/lw8P3vnvLoQJlEKdOSI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```\n* ファイル名の形式は `<シーケンス番号>_<種類>_<日付>.<拡張子>` となっています\n  * シーケンス番号はメッセージの時系列を表す番号になっています。若い数字程昔のメッセージです。ファイルブラウザで辞書順に並べると保存したメッセージが時系列通りに並びます\n  * 種類の数字は以下のように対応しています\n    * 0: テキストメッセージ\n    * 1: 画像\n    * 2: 動画\n    * 3: ボイス\n    * 4: リンク\n* 各環境毎のデフォルトの保存先は以下を実行することで確認することが出来ます\n  * ```shell script\n    colmsg --download-dir\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "VFIqoO4my3S1M9rDnMykaGLtDWY3bMS94z8DN8kLyXg=",
+        "originContent": "* ファイル名の形式は `<シーケンス番号>_<種類>_<日付>.<拡張子>` となっています",
+        "translatedContent": "* ファイル名の形式は `<シーケンス番号>_<種類>_<日付>.<拡張子>` となっています"
+      },
+      {
+        "row": 3,
+        "rowsha": "7DAJEPa9J6ptR6Iaz/kKE3s2M3OxgA8w19SoYFJtw4k=",
+        "originContent": "  * シーケンス番号はメッセージの時系列を表す番号になっています。若い数字程昔のメッセージです。ファイルブラウザで辞書順に並べると保存したメッセージが時系列通りに並びます",
+        "translatedContent": "  * シーケンス番号はメッセージの時系列を表す番号になっています。若い数字程昔のメッセージです。ファイルブラウザで辞書順に並べると保存したメッセージが時系列通りに並びます"
+      },
+      {
+        "row": 4,
+        "rowsha": "fATdYEaLYZwkmpZFisPAhjLpUES7Q1J4gPPwKJsNX4s=",
+        "originContent": "  * 種類の数字は以下のように対応しています",
+        "translatedContent": "  * 種類の数字は以下のように対応しています"
+      },
+      {
+        "row": 5,
+        "rowsha": "YWhwGJY1hKcpkqFhp67D6Zu3CjAH9Y1viQxB/m+26ek=",
+        "originContent": "    * 0: テキストメッセージ",
+        "translatedContent": "    * 0: テキストメッセージ"
+      },
+      {
+        "row": 6,
+        "rowsha": "b84EnaDK/FLXl5hiBomGtkhGccp/IFwBtaAiDUBmebM=",
+        "originContent": "    * 1: 画像",
+        "translatedContent": "    * 1: 画像"
+      },
+      {
+        "row": 7,
+        "rowsha": "3ZEbtt4Cuqz6ZDwx1WFFewTgb8klVJyHjpH9p9OudUE=",
+        "originContent": "    * 2: 動画",
+        "translatedContent": "    * 2: 動画"
+      },
+      {
+        "row": 8,
+        "rowsha": "XcaQL9JlZ/pycJg08K0KzWtyZf9AkGPSSnVbKF1UVO0=",
+        "originContent": "    * 3: ボイス",
+        "translatedContent": "    * 3: ボイス"
+      },
+      {
+        "row": 9,
+        "rowsha": "cZZ1oxlMn46rKhWVmggo8HuNZhx4mwJIcq7kcY8oMhs=",
+        "originContent": "    * 4: リンク",
+        "translatedContent": "    * 4: リンク"
+      },
+      {
+        "row": 10,
+        "rowsha": "bS3GrYfvYjvMPPXQMHAdMAeQnvrmdCKCddemsjMexWQ=",
+        "originContent": "* 各環境毎のデフォルトの保存先は以下を実行することで確認することが出来ます",
+        "translatedContent": "* 各環境毎のデフォルトの保存先は以下を実行することで確認することが出来ます"
+      },
+      {
+        "row": 11,
+        "rowsha": "hNNkAgak6EaNuxtBUxOEKjqR92rHMvycp9dDFP1fBUA=",
+        "originContent": "  * ```shell script",
+        "translatedContent": "  * ```shell script"
+      },
+      {
+        "row": 12,
+        "rowsha": "9nHLbDR8u67wxE46yUqXODNkE9iLuupZdIoeFUnGnxc=",
+        "originContent": "    colmsg --download-dir",
+        "translatedContent": "    colmsg --download-dir"
+      },
+      {
+        "row": 13,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "* 既に保存済のメッセージは上書き保存されません\n\n## configファイル\n\n`colmsg` は設定ファイルで予めオプションを指定することが出来ます。  \nデフォルトのパスは以下を実行することで確認することが出来ます。\n",
+    "ContentSha": "il5AUYLdofWy/WdUbBkcMdB4lNSWK3cWJzcs6QDwgyk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* 이미 저장된 메시지는 덮어쓰지 않습니다\n\n## config 파일\n\n`colmsg`는 설정 파일에서 미리 옵션을 지정할 수 있습니다.  \n기본 경로는 다음을 실행하여 확인할 수 있습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xyLE0FJaJ5Ue3GwAjzO7IQVtedOT7m0oYAJIs/6CTzw=",
+        "originContent": "* 既に保存済のメッセージは上書き保存されません",
+        "translatedContent": "* 이미 저장된 메시지는 덮어쓰지 않습니다"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Blc8Eh44UPuUJGVRbGK17rowq+LNa8Ul8x1zdU3B078=",
+        "originContent": "## configファイル",
+        "translatedContent": "## config 파일"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "pt1VGeIFf0r8v0fJQmGpqpZ0P+9nyFiFw2OuCHnEwAU=",
+        "originContent": "`colmsg` は設定ファイルで予めオプションを指定することが出来ます。  ",
+        "translatedContent": "`colmsg`는 설정 파일에서 미리 옵션을 지정할 수 있습니다.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "Hl3SeXVA+yU37jMq5ky/arZeDIDHZktbj8p/hiWTG/g=",
+        "originContent": "デフォルトのパスは以下を実行することで確認することが出来ます。",
+        "translatedContent": "기본 경로는 다음을 실행하여 확인할 수 있습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```shell script\ncolmsg --config-dir\n```",
+    "ContentSha": "ltcvXWWSMu4EhKRBn4nydt7dGAdfS7Q8yQThB8PKdKQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\ncolmsg --config-dir\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "O5IR3lvGghGl9mDeYXCclITuSpkL7v1M8lEQ+ypsbsY=",
+        "originContent": "colmsg --config-dir",
+        "translatedContent": "colmsg --config-dir"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "また、環境変数 `COLMSG_CONFIG_PATH` に設定ファイルの場所を明記することもできます。\n",
+    "ContentSha": "l/Cu8mvUKm6XJtIMSgErS4BCzAJaNKvIpdSdv4Em54M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "또한, 환경 변수 `COLMSG_CONFIG_PATH`에 설정 파일의 위치를 명확히 지정할 수도 있습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "85Daa4vTa/kL2kzI4hfuGupkQbP+/fI4mJwRqzS0zdA=",
+        "originContent": "また、環境変数 `COLMSG_CONFIG_PATH` に設定ファイルの場所を明記することもできます。",
+        "translatedContent": "또한, 환경 변수 `COLMSG_CONFIG_PATH`에 설정 파일의 위치를 명확히 지정할 수도 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```shell script\nexport COLMSG_CONFIG_PATH=\"/path/to/colmsg.conf\"\n```",
+    "ContentSha": "ddlLN9W2kstUjjn2xyxdLVJmAVQMSptisL5gfXdktaE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nexport COLMSG_CONFIG_PATH=\"/path/to/colmsg.conf\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "bUPhKFSMJKyjRvoX5HgydvXyyX49KrH56D1Wa/NYDYA=",
+        "originContent": "export COLMSG_CONFIG_PATH=\"/path/to/colmsg.conf\"",
+        "translatedContent": "export COLMSG_CONFIG_PATH=\"/path/to/colmsg.conf\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### フォーマット\n\nこの設定ファイルはコマンドライン引数の単純なリストです。`colmsg --help` を利用すると、利用可能なオプションとその値を閲覧することが出来ます。さらに、`#` でコメント文を加えることができます。\n\n設定ファイルの例:\n",
+    "ContentSha": "taKs41/H9ew2MCsPM2ipXbRixCeipbsrN/zCnSebZCA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 포맷\n\n이 설정 파일은 명령줄 인수의 단순한 목록입니다. `colmsg --help`를 사용하면 사용 가능한 옵션과 그 값을 볼 수 있습니다. 또한 `#`으로 주석을 추가할 수 있습니다.\n\n설정 파일 예:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 포맷"
+      },
+      {
+        "row": 2,
+        "rowsha": "VGneugUrYbeNdlfQbue6OH4INRON3DXtk7kMYlA71JE=",
+        "originContent": "### フォーマット",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 설정 파일은 명령줄 인수의 단순한 목록입니다. `colmsg --help`를 사용하면 사용 가능한 옵션과 그 값을 볼 수 있습니다. 또한 `#`으로 주석을 추가할 수 있습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "nD2vtJwWoUCE1vYCxf6PJp7kQRKCE6dL3SE8tHujcSU=",
+        "originContent": "この設定ファイルはコマンドライン引数の単純なリストです。`colmsg --help` を利用すると、利用可能なオプションとその値を閲覧することが出来ます。さらに、`#` でコメント文を加えることができます。",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "설정 파일 예:"
+      },
+      {
+        "row": 6,
+        "rowsha": "KSshev5VXxoeIO4XdZXK0QeQmpiIOaFIKvkGV/7cDTw=",
+        "originContent": "設定ファイルの例:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```bash\n# s_refresh_tokenを指定\n--s_refresh_token s_refresh_token\n\n# h_refresh_tokenを指定\n--h_refresh_token h_refresh_token\n\n# n_refresh_tokenを指定\n--n_refresh_token n_refresh_token\n\n# a_refresh_tokenを指定\n--a_refresh_token a_refresh_token\n\n# m_refresh_tokenを指定\n--m_refresh_token m_refresh_token\n\n# y_refresh_tokenを指定\n--y_refresh_token y_refresh_token\n\n# メディアファイルだけ保存するように設定\n-k picture -k video -k voice\n```",
+    "ContentSha": "l25JzTQp9Vv4pjhXtFE3PtH3mCoCs0UMkN6KqbOjCus=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# s_refresh_tokenを指定\n--s_refresh_token s_refresh_token\n\n# h_refresh_tokenを指定\n--h_refresh_token h_refresh_token\n\n# n_refresh_tokenを指定\n--n_refresh_token n_refresh_token\n\n# a_refresh_tokenを指定\n--a_refresh_token a_refresh_token\n\n# m_refresh_tokenを指定\n--m_refresh_token m_refresh_token\n\n# y_refresh_tokenを指定\n--y_refresh_token y_refresh_token\n\n# メディアファイルだけ保存するように設定\n-k picture -k video -k voice\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "eJn3ILC/V2rrbPr9C39At784Us+M4MqR50l0JcucKkU=",
+        "originContent": "# s_refresh_tokenを指定",
+        "translatedContent": "# s_refresh_tokenを指定"
+      },
+      {
+        "row": 3,
+        "rowsha": "nr3TpMEFfgQVQjn0KCt24wS7mBbI7Tok5Y02QyK1urs=",
+        "originContent": "--s_refresh_token s_refresh_token",
+        "translatedContent": "--s_refresh_token s_refresh_token"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "sU2utfcR0oKUFWky8wRwYSFi+bfET8pkeYtUy1M3s10=",
+        "originContent": "# h_refresh_tokenを指定",
+        "translatedContent": "# h_refresh_tokenを指定"
+      },
+      {
+        "row": 6,
+        "rowsha": "nui2s3ctL75PNNJxgNztU/otN7VzPTe2q5CxJUPRToI=",
+        "originContent": "--h_refresh_token h_refresh_token",
+        "translatedContent": "--h_refresh_token h_refresh_token"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "WnU7JtssidWIcrumT+hKRhD7XyxVn1Hd9SN4hxcySss=",
+        "originContent": "# n_refresh_tokenを指定",
+        "translatedContent": "# n_refresh_tokenを指定"
+      },
+      {
+        "row": 9,
+        "rowsha": "Tfkyr3Zn5vLYt2y+X4+Lo4zBqpvqm3JRe+g5zfDq9mI=",
+        "originContent": "--n_refresh_token n_refresh_token",
+        "translatedContent": "--n_refresh_token n_refresh_token"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "g+K5TlFkRh8z/wXjtosY/6tDOBlle9saSpBlw9TylEI=",
+        "originContent": "# a_refresh_tokenを指定",
+        "translatedContent": "# a_refresh_tokenを指定"
+      },
+      {
+        "row": 12,
+        "rowsha": "qMIEKfQGrNDzDn6Oq9RETbaYSK5rVVTXJpkNlotMiH4=",
+        "originContent": "--a_refresh_token a_refresh_token",
+        "translatedContent": "--a_refresh_token a_refresh_token"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "QzpLgeh4wxqs71o396KKSfRoP9d8Dw8MrMfWVQcVNN0=",
+        "originContent": "# m_refresh_tokenを指定",
+        "translatedContent": "# m_refresh_tokenを指定"
+      },
+      {
+        "row": 15,
+        "rowsha": "0YjGVGT03ounZbLwSm9krxFORIawcIQJDmUKpxIq5zQ=",
+        "originContent": "--m_refresh_token m_refresh_token",
+        "translatedContent": "--m_refresh_token m_refresh_token"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "v7bD/zTI/vhAmt7D4ghkhrZz9vQj74fBKc9iyXxAW8I=",
+        "originContent": "# y_refresh_tokenを指定",
+        "translatedContent": "# y_refresh_tokenを指定"
+      },
+      {
+        "row": 18,
+        "rowsha": "boVQTfT/FP8H8keZZJNIiPiACdAW5OA9/Q2jEfb7LEU=",
+        "originContent": "--y_refresh_token y_refresh_token",
+        "translatedContent": "--y_refresh_token y_refresh_token"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "M72XVbGYGVyzsDY/5FPTUB7MCPPXDBv4IxMPnhg1Gz0=",
+        "originContent": "# メディアファイルだけ保存するように設定",
+        "translatedContent": "# メディアファイルだけ保存するように設定"
+      },
+      {
+        "row": 21,
+        "rowsha": "6mDGYXzUoGfWEASuykDtT1Wd9QOqLtoizb7w7zf60+Q=",
+        "originContent": "-k picture -k video -k voice",
+        "translatedContent": "-k picture -k video -k voice"
+      },
+      {
+        "row": 22,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n## インストール\n\n### Windows\n\nWindows用のビルド済実行ファイルをzipに圧縮して[リリースページ](https://github.com/proshunsuke/colmsg/releases)に配置しています。  \nダウンロードして[7-Zip](https://sevenzip.osdn.jp/)などの解凍ソフトで解凍してください。  \n解凍後に実行ファイル `colmsg.exe` が取得出来ます。  \n[PowerShell](https://docs.microsoft.com/ja-jp/powershell/)上などで実行してください。\n\n### macOS\n\nHomebrewでインストールすることが出来ます。\n",
+    "ContentSha": "rIanuEfaNHYcynn0bps7Oc/gI8LDyt237nxbfFSZqcQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 설치\n\n### Windows\n\nWindows용 빌드된 실행 파일을 zip으로 압축하여 [릴리스 페이지](https://github.com/proshunsuke/colmsg/releases)에 배치하고 있습니다.  \n다운로드하여 [7-Zip](https://sevenzip.osdn.jp/) 등의 압축 해제 소프트웨어로 해제하세요.  \n해제 후 실행 파일 `colmsg.exe`를 얻을 수 있습니다.  \n[PowerShell](https://docs.microsoft.com/ja-jp/powershell/) 등에서 실행하세요.\n\n### macOS\n\nHomebrew로 설치할 수 있습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "6uIo92sHycGtGy+j8J2WUxK6PUNceYN9WtuMZOaNFOk=",
+        "originContent": "## インストール",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+        "originContent": "### Windows",
+        "translatedContent": "### Windows"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "D4N5y3gHmRzFfue6dQsbg/Q5gE5OEkGnkSDPvbNDqKw=",
+        "originContent": "Windows用のビルド済実行ファイルをzipに圧縮して[リリースページ](https://github.com/proshunsuke/colmsg/releases)に配置しています。  ",
+        "translatedContent": "Windows용 빌드된 실행 파일을 zip으로 압축하여 [릴리스 페이지](https://github.com/proshunsuke/colmsg/releases)에 배치하고 있습니다.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "WqX/mD/z2vS0ik39mNP5Eur2pSHAhK1i3+7HiJ1/pl0=",
+        "originContent": "ダウンロードして[7-Zip](https://sevenzip.osdn.jp/)などの解凍ソフトで解凍してください。  ",
+        "translatedContent": "다운로드하여 [7-Zip](https://sevenzip.osdn.jp/) 등의 압축 해제 소프트웨어로 해제하세요.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "ZDlzUO9umvcCqSL7UI2+bleDv//oP4jTjmG/12xJJaw=",
+        "originContent": "解凍後に実行ファイル `colmsg.exe` が取得出来ます。  ",
+        "translatedContent": "해제 후 실행 파일 `colmsg.exe`를 얻을 수 있습니다.  "
+      },
+      {
+        "row": 9,
+        "rowsha": "Ncm3KJ1gbW33aX0R7P9ql8EjojRBqwORuPHODRPC00E=",
+        "originContent": "[PowerShell](https://docs.microsoft.com/ja-jp/powershell/)上などで実行してください。",
+        "translatedContent": "[PowerShell](https://docs.microsoft.com/ja-jp/powershell/) 등에서 실행하세요."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "IOz6D23yxKVaZDi62cZaiowUVIuAS1nmW/2UxanscU8=",
+        "originContent": "### macOS",
+        "translatedContent": "### macOS"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "yaCVq5eJSIOk/s6TsEMjYBbDZT6FrWGTSHOHJ6hSApU=",
+        "originContent": "Homebrewでインストールすることが出来ます。",
+        "translatedContent": "Homebrew로 설치할 수 있습니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```shell script\nbrew tap proshunsuke/colmsg\nbrew install colmsg\n```",
+    "ContentSha": "W7CLBU9rcHsB7OGX55wkrzAZFcYLJIeZqiWb/KwvqNs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nbrew tap proshunsuke/colmsg\nbrew install colmsg\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "Gty84FkrFsi3hgzSDBBOx6ZxbBWsSNJbeX/wGwQGcTY=",
+        "originContent": "brew tap proshunsuke/colmsg",
+        "translatedContent": "brew tap proshunsuke/colmsg"
+      },
+      {
+        "row": 3,
+        "rowsha": "nIbZolVD+KE2qYpy3HeBxqNg1F8Y36FNovbMUHfRiEk=",
+        "originContent": "brew install colmsg",
+        "translatedContent": "brew install colmsg"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n### Arch Linux\n\n[AUR](https://aur.archlinux.org/packages/colmsg/)からインストールできます。\n",
+    "ContentSha": "UtdIK87aCiHvNGsthLivd4QvKVn1Gsytjk9MWxuq29k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Arch Linux\n\n[AUR](https://aur.archlinux.org/packages/colmsg/)에서 설치할 수 있습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "RQFrN56R8SItWveUdvw3XJmmo6YZk0kQVJGKa+yl2Zc=",
+        "originContent": "### Arch Linux",
+        "translatedContent": "### Arch Linux"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "JvJlaHYy5yR8carhR6cipLu4mRlciFEZrP3vWLk5GVc=",
+        "originContent": "[AUR](https://aur.archlinux.org/packages/colmsg/)からインストールできます。",
+        "translatedContent": "[AUR](https://aur.archlinux.org/packages/colmsg/)에서 설치할 수 있습니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```bash\nyay -S colmsg\n```",
+    "ContentSha": "w34agloEYdne+MxRhwwp/YEd8lAyPsyeCC7Eu7s57Ks=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nyay -S colmsg\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "efB/SOSTN/wq/+vxLOOWp19O2d3IuUf3ONH29KtQ9tM=",
+        "originContent": "yay -S colmsg",
+        "translatedContent": "yay -S colmsg"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n### バイナリ\n\n異なるアーキテクチャのためのビルド済実行ファイルを[リリースページ](https://github.com/proshunsuke/colmsg/releases)に配置しました。\n\n## 開発\n\n`colmsg` は外部APIを叩きます。開発時はOpenApiを利用したモックサーバーを建てることが出来ます。\n",
+    "ContentSha": "C78T2ZKZPAkDQj8BCWGwoR+D01gVGCDAkFNxaMuQ+S8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 바이너리\n\n다른 아키텍처용으로 빌드된 실행 파일을 [릴리즈 페이지](https://github.com/proshunsuke/colmsg/releases)에 배치했습니다.\n\n## 개발\n\n`colmsg`는 외부 API를 호출합니다. 개발 시에는 OpenApi를 이용한 모의 서버를 구축할 수 있습니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 바이너리"
+      },
+      {
+        "row": 2,
+        "rowsha": "XS5yEACRz2RTacLlqCRP+4arB4eraZS9gVW/HYI6tmc=",
+        "originContent": "### バイナリ",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "다른 아키텍처용으로 빌드된 실행 파일을 [릴리즈 페이지](https://github.com/proshunsuke/colmsg/releases)에 배치했습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "HNalojCdhr3eh5m/O1aL5CUlIVnfeYNwIGm1ocAGPg0=",
+        "originContent": "異なるアーキテクチャのためのビルド済実行ファイルを[リリースページ](https://github.com/proshunsuke/colmsg/releases)に配置しました。",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 개발"
+      },
+      {
+        "row": 6,
+        "rowsha": "tbUb11lDuw5BN0SIW+rzs9Iia5Nm6yr8axd8oJ0ll7M=",
+        "originContent": "## 開発",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`colmsg`는 외부 API를 호출합니다. 개발 시에는 OpenApi를 이용한 모의 서버를 구축할 수 있습니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "FzbwudAaDrLTEVT2Xzjwd0Vnwf+KubrXl+W6GKma6+w=",
+        "originContent": "`colmsg` は外部APIを叩きます。開発時はOpenApiを利用したモックサーバーを建てることが出来ます。",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```shell\nmake server/kh\nmake server/n46\n```",
+    "ContentSha": "Tbthnvq9zyBC93kysOYNnc6skoOuWjj1kbLa77j9Od8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nmake server/kh\nmake server/n46\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "w/2HYPxcZYIqfcerMtxpYfO0vxFszqSigxtvVOzO9S8=",
+        "originContent": "make server/kh",
+        "translatedContent": "make server/kh"
+      },
+      {
+        "row": 3,
+        "rowsha": "+GaiUwRfwZgaKAcxq43FfL1gw3apTQTabtZEPJEvIV0=",
+        "originContent": "make server/n46",
+        "translatedContent": "make server/n46"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n環境変数 `S_BASE_URL` , `H_BASE_URL` , `N_BASE_URL` を指定することでモックサーバーへリクエストすることが出来ます。\n",
+    "ContentSha": "dkKmJK5k1sHVscFeFJjQgxNk2O0+/e2sspsi2C9ex0g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "환경 변수 `S_BASE_URL` , `H_BASE_URL` , `N_BASE_URL` 를 지정함으로써 모의 서버에 요청할 수 있습니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "환경 변수 `S_BASE_URL` , `H_BASE_URL` , `N_BASE_URL` 를 지정함으로써 모의 서버에 요청할 수 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "q3eZIGq8kbCdOtkGxIyR3EXdGWBxkW7pNuKPQFWbk2w=",
+        "originContent": "環境変数 `S_BASE_URL` , `H_BASE_URL` , `N_BASE_URL` を指定することでモックサーバーへリクエストすることが出来ます。",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```shell script\nS_BASE_URL=http://localhost:8003 H_BASE_URL=http://localhost:8003 N_BASE_URL=http://localhost:8006 cargo run -- -d ~/Downloads/temp/ --help\n```",
+    "ContentSha": "nmLemGUdiEtisomubRTzAzPs0VQG6mcxudV5n0q6Ti8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nS_BASE_URL=http://localhost:8003 H_BASE_URL=http://localhost:8003 N_BASE_URL=http://localhost:8006 cargo run -- -d ~/Downloads/temp/ --help\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "t3zY3nFDIm60+lttC5ZelKl2PnmNMVkaa2CgzHyW32U=",
+        "originContent": "S_BASE_URL=http://localhost:8003 H_BASE_URL=http://localhost:8003 N_BASE_URL=http://localhost:8006 cargo run -- -d ~/Downloads/temp/ --help",
+        "translatedContent": "S_BASE_URL=http://localhost:8003 H_BASE_URL=http://localhost:8003 N_BASE_URL=http://localhost:8006 cargo run -- -d ~/Downloads/temp/ --help"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n## TODO\n\n* [ ] CIによる自動テスト\n* [ ] examplesの用意\n* [ ] メッセージ保存処理の並列化\n* [ ] api clientのcrate化\n\n## ライセンス\n\n`colmsg` は MIT License の条件の下で配布されています。\n\nライセンスの詳細については [LICENSE](https://raw.githubusercontent.com/proshunsuke/colmsg/main/LICENSE.txt) ファイルを参照して下さい。\n\n## 注意事項\n\nアプリの利用規約 第8条（禁止事項）に以下の項目があるため注意してください。\n\n* (16) 当社が指定するアクセス方法以外の手段で本サービスにアクセスし、またはアクセスを試みる行為\n* (17) 自動化された手段（クローラおよび類似の技術を含む）を用いて本サービスにアクセスし、またはアクセスを試みる行為 \n",
+    "ContentSha": "fgU3bUsK0+WF2E4d+aPV82ojmFmdMhNkiNT3yD2uPo0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## TODO\n\n* [ ] CI에 의한 자동 테스트\n* [ ] examples 준비\n* [ ] 메시지 저장 처리의 병렬화\n* [ ] api client의 crate화\n\n## 라이선스\n\n`colmsg`는 MIT License 조건 하에 배포되고 있습니다.\n\n라이선스의 자세한 내용은 [LICENSE](https://raw.githubusercontent.com/proshunsuke/colmsg/main/LICENSE.txt) 파일을 참조해 주십시오.\n\n## 주의사항\n\n앱 이용 약관 제8조(금지 사항)에 다음 항목이 있으니 주의해 주십시오.\n\n* (16) 당사가 지정한 접근 방법 이외의 수단으로 본 서비스에 접근하거나 접근을 시도하는 행위\n* (17) 자동화된 수단(크롤러 및 유사 기술을 포함)으로 본 서비스에 접근하거나 접근을 시도하는 행위 \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## TODO"
+      },
+      {
+        "row": 2,
+        "rowsha": "9BLUDKwF41c3H3chgITZX6+GIbUGQvr0NT8MtLsceMw=",
+        "originContent": "## TODO",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* [ ] CI에 의한 자동 테스트"
+      },
+      {
+        "row": 4,
+        "rowsha": "YI1RpzbCSHzG31zEflcwbqBmth62pyw4FOZB1mEzzAA=",
+        "originContent": "* [ ] CIによる自動テスト",
+        "translatedContent": "* [ ] examples 준비"
+      },
+      {
+        "row": 5,
+        "rowsha": "tKhQT/P6FpI4KqpeeSDcuj3myUiaD74amxicEhtL05o=",
+        "originContent": "* [ ] examplesの用意",
+        "translatedContent": "* [ ] 메시지 저장 처리의 병렬화"
+      },
+      {
+        "row": 6,
+        "rowsha": "kFih5xeeRNPoyaFOk8oZI99UmpadoVy7XYkGNxidejs=",
+        "originContent": "* [ ] メッセージ保存処理の並列化",
+        "translatedContent": "* [ ] api client의 crate화"
+      },
+      {
+        "row": 7,
+        "rowsha": "SmO/VntcZDdQBF1/7mR9YcWLBX3gNZ50rzzrfCTFnxM=",
+        "originContent": "* [ ] api clientのcrate化",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 9,
+        "rowsha": "Jj1ys9dXrxa/bgSm+H+hBzSHGLPK28sGXRPR5iJxWL0=",
+        "originContent": "## ライセンス",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`colmsg`는 MIT License 조건 하에 배포되고 있습니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "22I/f7S1QNwG3WF498vm3KytP2cdrVpVhgwVIgwO1hU=",
+        "originContent": "`colmsg` は MIT License の条件の下で配布されています。",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "라이선스의 자세한 내용은 [LICENSE](https://raw.githubusercontent.com/proshunsuke/colmsg/main/LICENSE.txt) 파일을 참조해 주십시오."
+      },
+      {
+        "row": 13,
+        "rowsha": "KPCTJPv9XSAdKhfNjn2XnYyKzebjDc2a/SnyAl57Lt0=",
+        "originContent": "ライセンスの詳細については [LICENSE](https://raw.githubusercontent.com/proshunsuke/colmsg/main/LICENSE.txt) ファイルを参照して下さい。",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 주의사항"
+      },
+      {
+        "row": 15,
+        "rowsha": "E8dyWErY/HPEoxfo/UKH7l+4gOKGNlPYsTLKPvqcd6I=",
+        "originContent": "## 注意事項",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "앱 이용 약관 제8조(금지 사항)에 다음 항목이 있으니 주의해 주십시오."
+      },
+      {
+        "row": 17,
+        "rowsha": "kxrphN28RMTE5CBPjAAyCmcorASRG1Rn2Iyg9QdjdCw=",
+        "originContent": "アプリの利用規約 第8条（禁止事項）に以下の項目があるため注意してください。",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* (16) 당사가 지정한 접근 방법 이외의 수단으로 본 서비스에 접근하거나 접근을 시도하는 행위"
+      },
+      {
+        "row": 19,
+        "rowsha": "2BEOdm8PjDpOipxwIp6sbyYicCN5cfQBkZPAUUblAoE=",
+        "originContent": "* (16) 当社が指定するアクセス方法以外の手段で本サービスにアクセスし、またはアクセスを試みる行為",
+        "translatedContent": "* (17) 자동화된 수단(크롤러 및 유사 기술을 포함)으로 본 서비스에 접근하거나 접근을 시도하는 행위 "
+      },
+      {
+        "row": 20,
+        "rowsha": "vHVri4YdRWT+G0qEzCBh5GTrk1GaG7eRRik8j/ELfc0=",
+        "originContent": "* (17) 自動化された手段（クローラおよび類似の技術を含む）を用いて本サービスにアクセスし、またはアクセスを試みる行為 ",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

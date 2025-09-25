@@ -1,0 +1,1424 @@
+[
+  {
+    "row": 1,
+    "rowsha": "B4a3bue/J18RQq5xNLnHMZcA4bnviLUynxxL9qTsR8c=",
+    "originContent": "# ESPHome PC Power Control via Home Assistant",
+    "translatedContent": "# Control de Encendido de PC con ESPHome vía Home Assistant"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "nZ02Huqhcdp3Gs+itpYq9Q1LeDZjz2B+92I42zNJXls=",
+    "originContent": "This project contains remote PC power control via HomeAssistant and ESPHome ESP8266/ESP32 boards.",
+    "translatedContent": "Este proyecto contiene control remoto del encendido de PC vía HomeAssistant y placas ESPHome ESP8266/ESP32."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "t54lgEk4zZJE6w4k3/jKa+XIsggt6wXyTTNC/i2rXgY=",
+    "originContent": "I use this project to power my PC based NAS remotely on and off via Home Assistant as alternative to Wake-On-Lan (WOL) which has known limitations.",
+    "translatedContent": "Uso este proyecto para encender y apagar remotamente mi NAS basado en PC vía Home Assistant como alternativa a Wake-On-Lan (WOL) que tiene limitaciones conocidas."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Características"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "BS1zFtxMA0whppJJSv1mC6BMhqGzpP99c2dC9KXJ4E8=",
+    "originContent": "* Control physical PC power button (front panel) connected to the motherboard:",
+    "translatedContent": "* Control del botón físico de encendido del PC (panel frontal) conectado a la placa base:"
+  },
+  {
+    "row": 10,
+    "rowsha": "/2pF8Yd8vK8vfaN2NDwcrkUNJoyFUc3ZkLRwdSY6wA8=",
+    "originContent": "  * Turn PC power on from any power state such as `power-off/suspended/hybernate` (Behavior short press power button).",
+    "translatedContent": "  * Encender el PC desde cualquier estado de energía como `apagado/suspendido/hibernación` (Comportamiento de pulsación corta del botón de encendido)."
+  },
+  {
+    "row": 11,
+    "rowsha": "tNdd2mdARyTK6r4+TAzp3EGc6lsvoSX14jQlq3+rOLs=",
+    "originContent": "  * Graceful `shutdown/suspend/hybernate` of the operating system (Behavior short press power button).",
+    "translatedContent": "  * Apagado/suspensión/hibernación ordenado del sistema operativo (Comportamiento de pulsación corta del botón de encendido)."
+  },
+  {
+    "row": 12,
+    "rowsha": "xX6toGPxalVQsNQrpQM3BZs+IIx6DWMVI12A5xgfEh8=",
+    "originContent": "  * Force power-off (Behavior long press power-button).",
+    "translatedContent": "  * Apagado forzado (Comportamiento de pulsación larga del botón de encendido)."
+  },
+  {
+    "row": 13,
+    "rowsha": "9KT6O78SfZbwpWQxo98kUZ2d5iC/v4aGXVGK7EjVyKg=",
+    "originContent": "* Read PC power on/off status from motherboard.",
+    "translatedContent": "* Leer el estado de encendido/apagado del PC desde la placa base."
+  },
+  {
+    "row": 14,
+    "rowsha": "Rw7wx7jf6Y+6u3E35u9ai+VIaBiL/7BfK/CSEbE1i+o=",
+    "originContent": "* No operating system dependency.",
+    "translatedContent": "* Sin dependencia del sistema operativo."
+  },
+  {
+    "row": 15,
+    "rowsha": "HOtbVt+n+Ehkvogz8Ws0avYqjnj1+6pPKzwzOlrUnBo=",
+    "originContent": "* Power/reset buttons front panel remains full functional.",
+    "translatedContent": "* Los botones de encendido/reset del panel frontal permanecen totalmente funcionales."
+  },
+  {
+    "row": 16,
+    "rowsha": "L7i7vMvJcFT916MH/l8Kn/qURH8Mqou2nMLM4OOLB2I=",
+    "originContent": "* User authorization via Homeassistant.",
+    "translatedContent": "* Autorización de usuario vía Homeassistant."
+  },
+  {
+    "row": 17,
+    "rowsha": "HZpdeKb2j6IAjQlYMM+nso1UJbU76hmSKsy278KecQk=",
+    "originContent": "* Use with any (micro/mini)-ATX computer motherboard.",
+    "translatedContent": "* Uso con cualquier placa base (micro/mini)-ATX."
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "7spRdHnMRKYgLqG5/5TUfR8RntSmGG/k/i9Tp/xAbQI=",
+    "originContent": "Youtube video:",
+    "translatedContent": "Video de Youtube:"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "OlGrCpWrDM2Bj1PEPIYmVfuP1D27gnHxzUrDGpd73HY=",
+    "originContent": "[![Youtube video](https://img.youtube.com/vi/rAcvqaPf830/0.jpg)](https://www.youtube.com/watch?v=rAcvqaPf830)",
+    "translatedContent": "[![Video de Youtube](https://img.youtube.com/vi/rAcvqaPf830/0.jpg)](https://www.youtube.com/watch?v=rAcvqaPf830)"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "m89qGubi81MLYjIq1HFoVPmxSujfHA03Ac/W0N6iL+c=",
+    "originContent": "Homeassistant screenshot:",
+    "translatedContent": "Captura de pantalla de Homeassistant:"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "4Uucw5Fs20FexWp9nZwKerAmA3SNz42UB7bE8trmGNE=",
+    "originContent": "![Screenshot Home Assistant](https://raw.githubusercontent.com/Erriez/ESPHomePCPowerControlHomeAssistant/master/images/ScreenshotHomeAssistant.jpg)",
+    "translatedContent": "![Captura de pantalla Home Assistant](https://raw.githubusercontent.com/Erriez/ESPHomePCPowerControlHomeAssistant/master/images/ScreenshotHomeAssistant.jpg)"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "aFhnvAVpHYbZcvOuR+Zn3OTwO9/DNXP93ie97Fu2O1Y=",
+    "originContent": "## Differences Wake-On-Lan (WOL) magic packet",
+    "translatedContent": "## Diferencias con el paquete mágico Wake-On-Lan (WOL)"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "m3tdEluQRnb3mKv59oOD37xauYci+M2rL/kqtf1sgR4=",
+    "originContent": "[Wake-On-Lan (WOL)](https://en.wikipedia.org/wiki/Wake-on-LAN) is intended to turn computer power on remotely via Ethernet by sending a so called `magic packet`. This has several known limitations which are not applicable with this ESP project:",
+    "translatedContent": "[Wake-On-Lan (WOL)](https://es.wikipedia.org/wiki/Wake-on-LAN) está diseñado para encender la energía del ordenador remotamente vía Ethernet enviando un llamado `paquete mágico`. Esto tiene varias limitaciones conocidas que no aplican con este proyecto ESP:"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "6TgVKF0hKHEDpbqfAFUJ9iyrqlvhRzJ0X3VcUeV7/ds=",
+    "originContent": "* Wake-On-Lan (WOL) has **no authorization**! The WOL protocol has no functionality to provide a password or allow a specific computer to wake from. Any device on the same LAN can wake a PC by sending a magic packet. The ESP is password protected via Homeassistant.",
+    "translatedContent": "* Wake-On-Lan (WOL) **no tiene autorización**! El protocolo WOL no tiene funcionalidad para proveer contraseña ni permitir que un equipo específico despierte el PC. Cualquier dispositivo en la misma LAN puede despertar un PC enviando un paquete mágico. El ESP está protegido con contraseña vía Homeassistant."
+  },
+  {
+    "row": 32,
+    "rowsha": "St68KR7FO2AXYH23/cxpMdo0G7TWWSBoAdgroCBsdtw=",
+    "originContent": "* Wake-On-Lan (WOL) can only `wake` a PC from suspend or power-off state. There is no shutdown/suspend functionality. ",
+    "translatedContent": "* Wake-On-Lan (WOL) solo puede `despertar` un PC desde estado suspendido o apagado. No hay funcionalidad para apagar/suspender."
+  },
+  {
+    "row": 33,
+    "rowsha": "5Kbfh+x5R0sz8TETfhqxuod9pM5uVbLovk8mQBb9m8E=",
+    "originContent": "* To put a Linux machine in `sleep` state, a SSH connection to the remote PC can be made for example by executing `pm-suspend` command (Install via `sudo apt install pm-utils`), reference [Ubuntu pm-action documentation](https://manpages.ubuntu.com/manpages/jammy/man8/pm-action.8.html). Disadvantages:",
+    "translatedContent": "* Para poner una máquina Linux en estado de `suspensión`, se puede hacer una conexión SSH al PC remoto, por ejemplo ejecutando el comando `pm-suspend` (Instalar vía `sudo apt install pm-utils`), referencia [documentación Ubuntu pm-action](https://manpages.ubuntu.com/manpages/jammy/man8/pm-action.8.html). Desventajas:"
+  },
+  {
+    "row": 34,
+    "rowsha": "DiG2ijLPKJiYr4a2tJtWMXJpstUGdYnb+Q7M4Fj1mtw=",
+    "originContent": "  * Requires SSH login.",
+    "translatedContent": "  * Requiere inicio de sesión SSH."
+  },
+  {
+    "row": 35,
+    "rowsha": "NCbzt6Gfy+NRIKe7ff2dN7n4UjNt/ei4xa9iBivnsrY=",
+    "originContent": "  * Requires sudo rights.",
+    "translatedContent": "  * Requiere derechos sudo."
+  },
+  {
+    "row": 36,
+    "rowsha": "3Tujj3NsQCaa+tEcuSL4PcD+wm7Bw7qmxrsWvIqWWEc=",
+    "originContent": "* Wake-On-Lan magic packets are ignored when connecting main power the first time to the power supply, even when WOL is activated in the BIOS. The reason is that WOL is disabled on most computers at first power on and requires activation by a running operating system before the PC responds on a magic packet to wake the computer. Reference: [Ubuntu Wake-On-Lan](https://help.ubuntu.com/community/WakeOnLan).",
+    "translatedContent": "* Los paquetes mágicos Wake-On-Lan son ignorados al conectar la fuente de alimentación por primera vez, incluso cuando WOL está activado en la BIOS. La razón es que WOL está desactivado en la mayoría de los ordenadores al primer encendido y requiere activación por un sistema operativo en ejecución antes de que el PC responda a un paquete mágico para despertar el equipo. Referencia: [Ubuntu Wake-On-Lan](https://help.ubuntu.com/community/WakeOnLan)."
+  },
+  {
+    "row": 37,
+    "rowsha": "FtzOOn/X/AICbbwyVolfpSUHFeJxwK3Cw4ViD7cCUAg=",
+    "originContent": "* Running Homeassistant [Wake-On-Lan](https://www.home-assistant.io/integrations/wake_on_lan) in a Docker container cannot forward broadcast magic packets with a bridged network configuration. It requires an external Docker container as bridge to forward magic packages and is beyond the scope of Homeassistant. This is currently not included in Homeassistant documentation.",
+    "translatedContent": "* Ejecutar Wake-On-Lan de Homeassistant [Wake-On-Lan](https://www.home-assistant.io/integrations/wake_on_lan) en un contenedor Docker no puede reenviar paquetes mágicos broadcast con una configuración de red en puente. Requiere un contenedor Docker externo como puente para reenviar paquetes mágicos y está fuera del alcance de Homeassistant. Actualmente esto no está incluido en la documentación de Homeassistant."
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "yhvK0dfVs4g26pyRaEAJslT47b5/wABWoK7s+rn1zuE=",
+    "originContent": "## Hardware",
+    "translatedContent": "## Hardware"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "5cPyKdNE7t6TVBVjqB3m1qxncMGGqf6308P8DWGY4jM=",
+    "originContent": "The hardware consists of an ESP8266 or ESP32 and two IO pins, mounted on a PCI metal plate (see picture below). In my case I used an ESP8266 NodeMCU board. Theoretically any ESP8266 or ESP32 board can be used for this project.",
+    "translatedContent": "El hardware consiste en un ESP8266 o ESP32 y dos pines IO, montados en una placa metálica PCI (ver imagen abajo). En mi caso utilicé una placa ESP8266 NodeMCU. Teóricamente, cualquier placa ESP8266 o ESP32 puede usarse para este proyecto."
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "PKuP2pnT594BcLO2meS4sLtQ1WzbPeF76bvJdrB9I9o=",
+    "originContent": "* One pin controls the power button by generating a long or short press",
+    "translatedContent": "* Un pin controla el botón de encendido generando una pulsación larga o corta"
+  },
+  {
+    "row": 44,
+    "rowsha": "lf/pcxKrbnSENpnHwDWdGFPTTZcbPSHvzTeJcXO8yJw=",
+    "originContent": "* A second pin reads the motherboard power status.",
+    "translatedContent": "* Un segundo pin lee el estado de encendido de la placa base."
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "3tJylBBGvpPSLrKlUwh27o3uGd1j11mIQg63nFnwruk=",
+    "originContent": "![Hardware](https://raw.githubusercontent.com/Erriez/ESPHomePCPowerControlHomeAssistant/master/images/NodeMCU.jpg)",
+    "translatedContent": "![Hardware](https://raw.githubusercontent.com/Erriez/ESPHomePCPowerControlHomeAssistant/master/images/NodeMCU.jpg)"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "lJeUi8rz9oeHtjFm9NKhzcOy81lYPThRWgbVUyZVhew=",
+    "originContent": "## Schematic",
+    "translatedContent": "## Esquemático"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "trahjNu1vVE1PeQZ2ov7pLuK7pHqcw7aofclYpq0r4c=",
+    "originContent": "My NAS is based on an Intel Core I7 ASRock Z97 ATX motherboard and contains standard 2.5mm 2x5 male headers:",
+    "translatedContent": "Mi NAS está basado en una placa base Intel Core I7 ASRock Z97 ATX y contiene conectores macho estándar 2.5mm 2x5:"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "Z5Qrw/rObQQ6oermSHQT41VBbNCQy8EZ9Q8c+eYYWbo=",
+    "originContent": "![Schematic](https://raw.githubusercontent.com/Erriez/ESPHomePCPowerControlHomeAssistant/master/images/Schematic.png)",
+    "translatedContent": "![Esquemático](https://raw.githubusercontent.com/Erriez/ESPHomePCPowerControlHomeAssistant/master/images/Schematic.png)"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "CXQnPnDI5GcWfLsdeJwnTqRU2hM7UkUEDX8fJ/RVgyo=",
+    "originContent": "**ATX header USB 2.0:**",
+    "translatedContent": "**Conector ATX USB 2.0:**"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "ZvN/qeIIx6AVg21yTsGgJsatSZ64ko7fZxgFQZ45BgI=",
+    "originContent": "Header `J1` pin 1 constant +5V power on pin 1, even when the PC is power-off and is used to power the NodeMCU. The ESP8266 or ESP32 is powered via an on-board 3V3 regulator.",
+    "translatedContent": "El pin 1 del conector `J1` es alimentación constante +5V en el pin 1, incluso cuando el PC está apagado y se usa para alimentar el NodeMCU. El ESP8266 o ESP32 se alimenta a través de un regulador 3V3 integrado en la placa."
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "5BUmJtbLPHX3gd+4/tUY90bfW0KsLmhkfoCOVc9YFdc=",
+    "originContent": "**ATX header System panel:**",
+    "translatedContent": "**Conector ATX Panel del sistema:**"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "bJTfKT4N8YbW1z2+PYES3fyBhL3hX4b/6vJ28LHZyOc=",
+    "originContent": "Header `J2` contains the power, reset and GND pins:",
+    "translatedContent": "El conector `J2` contiene los pines de encendido, reset y GND:"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "n3peIBNFb0XYH2AU1EtFVe7cTwu22Nm43eW9rzxovW0=",
+    "originContent": "* Power button pin 6.",
+    "translatedContent": "* Pin 6 del botón de encendido."
+  },
+  {
+    "row": 63,
+    "rowsha": "iUM2FlwC5+VVdXOZEg5fSZLGL1keLvEulR3zZeAWfjM=",
+    "originContent": "  * Short press: Turn PC on or generate graceful shutdown.",
+    "translatedContent": "  * Pulsación corta: Enciende el PC o genera un apagado ordenado."
+  },
+  {
+    "row": 64,
+    "rowsha": "mh3L36d5kzy3E+sPCbqLm4XgVGqdpmM7cSVS2o0XCu8=",
+    "originContent": "  * Long press: Generate hard power off.",
+    "translatedContent": "  * Pulsación larga: Genera un apagado forzado."
+  },
+  {
+    "row": 65,
+    "rowsha": "bMTriiiNswQLvjD/b4fQz2rhpYpftPlPDUbY2NjeNxU=",
+    "originContent": "* Reset button pin 7.",
+    "translatedContent": "* Pin 7 del botón de reset."
+  },
+  {
+    "row": 66,
+    "rowsha": "ZvWHcpETRAKiN4/Z3RiztSpT9+P4kfvTERG19FNhJsU=",
+    "originContent": "  * Used to read power status via the reset button pin:",
+    "translatedContent": "  * Se usa para leer el estado de encendido mediante el pin del botón reset:"
+  },
+  {
+    "row": 67,
+    "rowsha": "jB6xo8mLIG7OIASE/h05ujGnqzUTobA48L+mfQM7b4g=",
+    "originContent": "    * High: power-on",
+    "translatedContent": "    * Alto: encendido"
+  },
+  {
+    "row": 68,
+    "rowsha": "J4HsocTVHKVA10M6onORNejKL8hTuEdRzK18hZ04+F0=",
+    "originContent": "    * Low: power-off",
+    "translatedContent": "    * Bajo: apagado"
+  },
+  {
+    "row": 69,
+    "rowsha": "ukmxSOJBILaIwHn9lbz2k8xDdUx4k1eyXpombIXO9Ak=",
+    "originContent": "* GND pin 5.",
+    "translatedContent": "* Pin 5 GND."
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "iqzC3QtxQPPpagiqpLC34XbFlEeIAaUPgTCKXb/F8js=",
+    "originContent": "* Pin `D1` is used to read the power status from the reset pin: High is on, Low is off. Resistor `R1` is used to minimize current when the IO pin is accidentally set to output.",
+    "translatedContent": "* El pin `D1` se usa para leer el estado de encendido desde el pin de reset: Alto es encendido, Bajo es apagado. La resistencia `R1` se usa para minimizar la corriente cuando el pin IO se configura accidentalmente como salida."
+  },
+  {
+    "row": 72,
+    "rowsha": "NLE80tCQNSygW1WSWJDgsb7zLgRqIg5G+2ULZkuNkrw=",
+    "originContent": "* Pin `D2` is used to pull the power button low to generate a short or long press. Transistor `Q1` is used for secure isolation between ESP8266 and motherboard.",
+    "translatedContent": "* El pin `D2` se usa para poner el botón de encendido a nivel bajo para generar una pulsación corta o larga. El transistor `Q1` se usa para un aislamiento seguro entre el ESP8266 y la placa base."
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "IJMsSzG7BsnD3+EShnKawIfok22VSHy+9PRYQrI0/C0=",
+    "originContent": "Warning: All ATX and ESP pins must be operating at 3V3.",
+    "translatedContent": "Advertencia: Todos los pines ATX y ESP deben operar a 3V3."
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "C6wYWjaRGyeLjlRf8jDHkU/uOhFyXQv0r5Fc65FtGis=",
+    "originContent": "## Downloads",
+    "translatedContent": "## Descargas"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "znpU+n+8ABRwBLQthdTlHx0f/MgQJE53rnE2OUZ8NnM=",
+    "originContent": "* [KiCad schematic .SCH](https://raw.githubusercontent.com/Erriez/ESPHomePCPowerControlHomeAssistant/master/kicad/ESP8266-ESPHome-PC-Power-HomeAssistant.pro)",
+    "translatedContent": "* [Esquemático KiCad .SCH](https://raw.githubusercontent.com/Erriez/ESPHomePCPowerControlHomeAssistant/master/kicad/ESP8266-ESPHome-PC-Power-HomeAssistant.pro)"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "qD6BcOE2rVcBOV0PyD9kuZ034p57DRt1GJNrD+MHoew=",
+    "originContent": "## Wiring",
+    "translatedContent": "## Cableado"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "Lh4NOQmSvGLJ6PC/RhIUO0Bki47HS0sB2diK+Ga0jv4=",
+    "originContent": "![Wiring](https://raw.githubusercontent.com/Erriez/ESPHomePCPowerControlHomeAssistant/master/images/Wiring.jpg)",
+    "translatedContent": "![Wiring](https://raw.githubusercontent.com/Erriez/ESPHomePCPowerControlHomeAssistant/master/images/Wiring.jpg)"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "XZVqtQ40OijCSiVpjwgEujPUlkqLOChMvH9QCZrt43Q=",
+    "originContent": "A DIY breakout PCB can be mounted at the system panel header to connect power button `SW1` and reset button `SW2`.",
+    "translatedContent": "Se puede montar una PCB DIY de breakout en el conector del panel del sistema para conectar el botón de encendido `SW1` y el botón de reinicio `SW2`."
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "lO6rQi5lZ0seuwUx2rvzqGaEYfMHsqObdUNr7s33IJ0=",
+    "originContent": "## WiFi stability",
+    "translatedContent": "## Estabilidad de WiFi"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "2CMy8LYicb6y5pxx1NUNXlXCfisD2F5XivogNaNKHbc=",
+    "originContent": "There is sufficient space in an ATX computer case to mount the ESP board. However, the computer case is metal shielded, so the WiFi distance to the base station reduces. It is recommended to place the ESP outside the computer case when the WiFi connection is unstable or distance too low. An ESP32 may result in different WiFi connection stability, but overall it depends on the environment.",
+    "translatedContent": "Hay suficiente espacio en una caja de computadora ATX para montar la placa ESP. Sin embargo, la caja de la computadora está protegida con metal, por lo que la distancia del WiFi a la estación base se reduce. Se recomienda colocar el ESP fuera de la caja de la computadora cuando la conexión WiFi sea inestable o la distancia sea demasiado baja. Un ESP32 puede resultar en una estabilidad de conexión WiFi diferente, pero en general depende del entorno."
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "myPHyrGo4XZbSOqUmpXah6G1vRXDE6kTngO0z9nav48=",
+    "originContent": "ESP8266 PCB mounted at the back of the PC case:",
+    "translatedContent": "PCB ESP8266 montada en la parte trasera de la caja del PC:"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "Yk0oFO0yB7J4wp+X8DhOUr+ObJxI7nFDFK5jFGX22yQ=",
+    "originContent": "![ESP PC mount](https://raw.githubusercontent.com/Erriez/ESPHomePCPowerControlHomeAssistant/master/images/ESPMount.jpg)",
+    "translatedContent": "![ESP PC mount](https://raw.githubusercontent.com/Erriez/ESPHomePCPowerControlHomeAssistant/master/images/ESPMount.jpg)"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "cH1PD6fzQ0jDqLi6EATxcW026RrmnIdjmv08DqQsrP0=",
+    "originContent": "## Software updates",
+    "translatedContent": "## Actualizaciones de software"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "/cbTwbSnWeDlTxTDR12IJrbxJSB+9AbZdTNOLFPoOLQ=",
+    "originContent": "The ESPHome application firmware can be updated via USB connection (virtual serial port) or WiFi OTA (Over The Air update).",
+    "translatedContent": "El firmware de la aplicación ESPHome se puede actualizar vía conexión USB (puerto serial virtual) o por WiFi OTA (actualización Over The Air)."
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "Zpd6KNNZcyUrA+nFc7mRdsuih7YpysZT6YG9hcJnL4Y=",
+    "originContent": "Updating the firmware via WiFi is enabled when configuring `ota` in the .yaml file. This requires a WiFi connection between host computer and ESP. OTA update does not work when the login from ESP to WiFi base station fails due to incorrect WiFi credentials. In this case an update via serial is required or via `ap` fallback as configured in the .yaml file.",
+    "translatedContent": "La actualización del firmware vía WiFi se habilita configurando `ota` en el archivo .yaml. Esto requiere una conexión WiFi entre el computador anfitrión y el ESP. La actualización OTA no funciona cuando el inicio de sesión del ESP a la estación base WiFi falla debido a credenciales WiFi incorrectas. En este caso, se requiere una actualización por serial o vía fallback `ap` como está configurado en el archivo .yaml."
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "bZcg9OQ5ONdQjuIuq9tA/B3dZ5PxoTiHPxqsiT6NibM=",
+    "originContent": "## ESPHome",
+    "translatedContent": "## ESPHome"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "X45lA1Cp0nJrUiuMk5E947pzgasLBcFZSzxs0zWZzbc=",
+    "originContent": "The ESPHome application consists of the two Yaml files. One configuration file and a second `secrets.yaml` to store passwords.",
+    "translatedContent": "La aplicación ESPHome consta de dos archivos Yaml. Un archivo de configuración y un segundo `secrets.yaml` para almacenar contraseñas."
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "VQ8wzkF2FsQRC3mWNJcQVZzSlinfuOvgyokyk7B59Hw=",
+    "originContent": "Documentation:",
+    "translatedContent": "Documentación:"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "hR+gdwMfjSYMbD114VV0vDaeyF0kCbkJkd5LSNRF0YQ=",
+    "originContent": "* [ESPHome GPIO Switch](https://esphome.io/components/switch/gpio.html)",
+    "translatedContent": "* [ESPHome GPIO Switch](https://esphome.io/components/switch/gpio.html)"
+  },
+  {
+    "row": 107,
+    "rowsha": "zM0s9/h27wgdvFHesgG3fhO7NXMxWGgvs9TzEdxWFT4=",
+    "originContent": "* [ESPHome Binary Sensor](https://esphome.io/components/binary_sensor/gpio.html)",
+    "translatedContent": "* [ESPHome Binary Sensor](https://esphome.io/components/binary_sensor/gpio.html)"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "jZhdTlF1S6Ry6Uf24i7+evL+t1bj+yNFQE76CQRlqgU=",
+    "originContent": "### Project configuration",
+    "translatedContent": "### Configuración del proyecto"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "dmUVW4Usd7o83fwUglYojUDetPmCxM9D14qkX6Mvp2w=",
+    "originContent": "Configure the following files:",
+    "translatedContent": "Configure los siguientes archivos:"
+  },
+  {
+    "row": 112,
+    "rowsha": "5N1qU5poOOWkQUQZqzufiSSdVu8UfetAUQ8BH+tm/80=",
+    "originContent": "- [pc-power.yaml](https://github.com/Erriez/ESPHomePCPowerControlHomeAssistant/blob/master/pc-power.yaml): Configure `platform` and `board`.",
+    "translatedContent": "- [pc-power.yaml](https://github.com/Erriez/ESPHomePCPowerControlHomeAssistant/blob/master/pc-power.yaml): Configure `platform` y `board`."
+  },
+  {
+    "row": 113,
+    "rowsha": "5bMTey0rdKoXggGHVBU9ISVo8De3BfbeSxEyv0ErtSg=",
+    "originContent": "- [secrets.yaml](https://github.com/Erriez/ESPHomePCPowerControlHomeAssistant/blob/master/secrets.yaml): Configure WiFi SSID and passwords",
+    "translatedContent": "- [secrets.yaml](https://github.com/Erriez/ESPHomePCPowerControlHomeAssistant/blob/master/secrets.yaml): Configure el SSID y las contraseñas de WiFi."
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "HzK4VCAAzTNnCDPUtHvwRxm/d1A9vEftaMEmvdS8Mns=",
+    "originContent": "Please refer to [ESPHome documentation](https://esphome.io/components/esphome.html) for more information about ESPHome YAML configuration.",
+    "translatedContent": "Por favor, consulte la [documentación de ESPHome](https://esphome.io/components/esphome.html) para más información sobre la configuración YAML de ESPHome."
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "4L3/LI6g3TMrs2TVZCfbob1SKYa5+YSws7w6bxkFM28=",
+    "originContent": "### Program ESP8266 or ESP32",
+    "translatedContent": "### Programar ESP8266 o ESP32"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "CAJ+I8Xi3xVfWZCtt7WggP6sxZaV/bh/f0n5hWHHBsI=",
+    "originContent": "Connect USB cable to ESP8266 or ESP32 board and enter the following commands. (Examples are tested on Ubuntu). For more information, refer to [ESPHome.io](https://esphome.io/guides/getting_started_command_line.html).",
+    "translatedContent": "Conecte el cable USB a la placa ESP8266 o ESP32 y ejecute los siguientes comandos. (Los ejemplos se probaron en Ubuntu). Para más información, consulte [ESPHome.io](https://esphome.io/guides/getting_started_command_line.html)."
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 123,
+    "rowsha": "FfyxfixqwnpInq0Xfs4gMI6UD6eB3RcxOdzb5OuQkqw=",
+    "originContent": "# Clone this repository",
+    "translatedContent": "# Clone this repository"
+  },
+  {
+    "row": 124,
+    "rowsha": "wIvFILmNy2vOJMhHP3k/sXpKg6jBQIl4Qf5lk3n3bbI=",
+    "originContent": "$ git clone git@github.com:Erriez/ESPHomePCPowerControlHomeAssistant.git",
+    "translatedContent": "$ git clone git@github.com:Erriez/ESPHomePCPowerControlHomeAssistant.git"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "hb252wEqBvzz+FkgpXbtRyNq19hxWaWgYxUrbatOtSY=",
+    "originContent": "# Install Python3 virtualenv",
+    "translatedContent": "# Install Python3 virtualenv"
+  },
+  {
+    "row": 127,
+    "rowsha": "o7EnxztiwhfPaA/zjE13AtIaK4ncbs0qi3xcnt2jKw4=",
+    "originContent": "$ sudo apt install python3-virtualenv",
+    "translatedContent": "$ sudo apt install python3-virtualenv"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "OdPZOahV9oQ6cUw2pgbF0agcD1wABj6WFa9etIumtiU=",
+    "originContent": "# Create virtualenv",
+    "translatedContent": "# Create virtualenv"
+  },
+  {
+    "row": 130,
+    "rowsha": "iEluOS0Dm2G7/U8jQKyDZy99tMYkRoBpYiyHdu7fpII=",
+    "originContent": "$ virtualenv venv",
+    "translatedContent": "$ virtualenv venv"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "+Op0atORHnSfQ/SBsHnGSNYWfJNJXTVC4MgENeCF2MA=",
+    "originContent": "# Activate virtualenv",
+    "translatedContent": "# Activate virtualenv"
+  },
+  {
+    "row": 133,
+    "rowsha": "qpXzW75m2qhId11iPeZo2jPrtiJjol3H/T1tJkLlTzk=",
+    "originContent": "$ source venv/bin/activate",
+    "translatedContent": "$ source venv/bin/activate"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "4gJxywQiLskE30SxkJ6gCpuhTfyvPeVxLB/FC0Gk+I8=",
+    "originContent": "# Install ESPHome",
+    "translatedContent": "# Install ESPHome"
+  },
+  {
+    "row": 136,
+    "rowsha": "KoeZmm8EJEP/IshxBWsJZXnriBPxKml2Q8LDBPwETuU=",
+    "originContent": "$ pip install esphome",
+    "translatedContent": "$ pip install esphome"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "lSwuYbUtBNaFFxeGAmPwYgrRVRSqv1dBuc3wkpSN/4E=",
+    "originContent": "# Optional: Install platformio updates",
+    "translatedContent": "# Optional: Install platformio updates"
+  },
+  {
+    "row": 139,
+    "rowsha": "2KS5QNPTEPwHKe56kP6jkOhRIlmQm9UojccDk66/qe8=",
+    "originContent": "$ platformio platform update",
+    "translatedContent": "$ platformio platform update"
+  },
+  {
+    "row": 140,
+    "rowsha": "2iAmtRiZJcxVEWAq4HkNEMEaFBSxDpcLdObGL0+vmM8=",
+    "originContent": "$ platformio upgrade",
+    "translatedContent": "$ platformio upgrade"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "VkQv5baQRhPVXnixBg6hnPCD/bKCnW0fBH3R6CHBils=",
+    "originContent": "# Optional: Add user permission serial port",
+    "translatedContent": "# Optional: Add user permission serial port"
+  },
+  {
+    "row": 143,
+    "rowsha": "NEjrYCxl81k6+z5M/4tXpgIhH8lvbPpueHOMdX8C8EA=",
+    "originContent": "$ sudo usermod -a -G dialout <USERNAME>",
+    "translatedContent": "$ sudo usermod -a -G dialout <USERNAME>"
+  },
+  {
+    "row": 144,
+    "rowsha": "xpE0X3oZzf7/LhK1LJ3biP9TCZzjVPYq7mrhW0GnACw=",
+    "originContent": "$ sudo reboot now",
+    "translatedContent": "$ sudo reboot now"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "i6ybRwKZBZXnpBCP6IphTkSngBn9F2uxVkO6kLU4tRs=",
+    "originContent": "# Check ESPHome installation",
+    "translatedContent": "# Check ESPHome installation"
+  },
+  {
+    "row": 147,
+    "rowsha": "sgRTlTYaVJ3piLw6sQMcd4RLrGonESPTSjKnh+ncBz0=",
+    "originContent": "$ esphome --help",
+    "translatedContent": "$ esphome --help"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "RPWhVWk4IjXQZmwSV+0nBgJiDNk5MkQcsJtX1vH/14M=",
+    "originContent": "# Optional: Compile program without upload",
+    "translatedContent": "# Optional: Compile program without upload"
+  },
+  {
+    "row": 150,
+    "rowsha": "BOrPHSZ9D0/TUd+WT9mLHl7f+fhbzc3ZKIEvTD4EXDU=",
+    "originContent": "$ esphome compile pc-power.yaml",
+    "translatedContent": "$ esphome compile pc-power.yaml"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "prJIETavCiA9iS/bXuaxi7dapwiC6QrLLqeovqBVZH8=",
+    "originContent": "# Upload program to ESP8266 or ESP32",
+    "translatedContent": "# Upload program to ESP8266 or ESP32"
+  },
+  {
+    "row": 153,
+    "rowsha": "lrGO0FTbTKKCdsOZeEY5cqYHR/bpEPlMNP0adF1Lf7U=",
+    "originContent": "$ esphome run pc-power.yaml",
+    "translatedContent": "$ esphome run pc-power.yaml"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "JxFtd6U1NrOUxa3cJnWirzTGAnq0aH67n8SFrkSn+rA=",
+    "originContent": "# Select serial port or WiFi to upload application",
+    "translatedContent": "# Select serial port or WiFi to upload application"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "7Fs8SML0O8kxV50H0oDFIgGUUfN1/yYQqdbsK7FzbRw=",
+    "originContent": "# Check logs",
+    "translatedContent": "# Check logs"
+  },
+  {
+    "row": 158,
+    "rowsha": "QOVxzLNvaFPe1zg3h8DoosRy4VYyucOIpBJGusroOXg=",
+    "originContent": "$ esphome logs pc-power.yaml",
+    "translatedContent": "$ esphome logs pc-power.yaml"
+  },
+  {
+    "row": 159,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "C8nHPZ1UpZedyET/mUerxiG7SlEMAoq+g5jj2wpLC9c=",
+    "originContent": "## Home Assistant configuration",
+    "translatedContent": "## Configuración de Home Assistant"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "zGSdxiJ8avon7iwp2bUrHWpyFUTdkBPWqMyilo/IQq8=",
+    "originContent": "This section describes Home Assistant configuration.",
+    "translatedContent": "Esta sección describe la configuración de Home Assistant."
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "erO6isZMx5oPHHa/h+I8wdQ8O5r9gvzwe7ioNeLWdtE=",
+    "originContent": "### Register ESP device",
+    "translatedContent": "### Registrar dispositivo ESP"
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "CzwV3OBQfvj/rwLat+1KM1/HE1s+VYDFHhqAXn2K8Yg=",
+    "originContent": "* `Configuration | Integrations: Add Integration: ESPHome`",
+    "translatedContent": "* `Configuración | Integraciones: Añadir Integración: ESPHome`"
+  },
+  {
+    "row": 168,
+    "rowsha": "un7wDKdCca2FiCD3U4B35WUE09/+xYDaATOtq6PKIDY=",
+    "originContent": "* Select hostname or IP address of the ESP device.",
+    "translatedContent": "* Seleccione el nombre de host o la dirección IP del dispositivo ESP."
+  },
+  {
+    "row": 169,
+    "rowsha": "7p/zKw5vSPG7mfckMYW9A3Q9SQhLxG7GeobEsvuFB0A=",
+    "originContent": "* Enter password as configured in `secrets.yml` | `esphome_api_password`.",
+    "translatedContent": "* Ingrese la contraseña configurada en `secrets.yml` | `esphome_api_password`."
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "HXKru7h8W7e2ekVEbFE+7ahXtv1lIq1n6CnjhMrcO7M=",
+    "originContent": "### Homeassistant | Edit Dashboard | RAW Configuration Editor",
+    "translatedContent": "### Homeassistant | Editar Panel | Editor de Configuración RAW"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "4m5UneDSZdOIRnK+Da4NrdFHve1dhoK/AXdc72OEBxg=",
+    "originContent": "Add PC power integration to a dashboard via raw edit:",
+    "translatedContent": "Agregue la integración de energía del PC a un panel mediante edición RAW:"
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 176,
+    "rowsha": "rrqyqsI7mEpe8vIqWXoJ3jy3vxVwcZVtpnWsPRf0mUI=",
+    "originContent": "title: Home",
+    "translatedContent": "title: Home"
+  },
+  {
+    "row": 177,
+    "rowsha": "WWyos9vRLnyEpo0hGPauXKN2GaaLJVzwmQj8+EDlACo=",
+    "originContent": "views:",
+    "translatedContent": "views:"
+  },
+  {
+    "row": 178,
+    "rowsha": "3fBON6GoHgHMcJW9ztoYa76+VvBhYdDD5/74yJZ4vL8=",
+    "originContent": "  - title: PC",
+    "translatedContent": "  - title: PC"
+  },
+  {
+    "row": 179,
+    "rowsha": "dqOte+gEPA9a4dNEx0PEkICOfmoKXI8ZNUpHeWJXqXs=",
+    "originContent": "    path: pc",
+    "translatedContent": "    path: pc"
+  },
+  {
+    "row": 180,
+    "rowsha": "Ic7kvdn5ZJAaNwJhxbHZ1qRej1dvDqiYJ+jcekZ1+uQ=",
+    "originContent": "    badges: []",
+    "translatedContent": "    badges: []"
+  },
+  {
+    "row": 181,
+    "rowsha": "M9SaDelGK7gRJq0Mqrz9Z++jlQGgQkNplaDqPLUMB0Y=",
+    "originContent": "    cards:",
+    "translatedContent": "    cards:"
+  },
+  {
+    "row": 182,
+    "rowsha": "rwJtziG1sXYaZOFXy+oIbq+g1Av23vSqlKMbblQKyCc=",
+    "originContent": "      - type: button",
+    "translatedContent": "      - type: button"
+  },
+  {
+    "row": 183,
+    "rowsha": "o0FHRUmw6Npd4G0sy+4EWjjVPpW1cZ4Xu2bkatXTuhQ=",
+    "originContent": "        entity: switch.pc_power_toggle",
+    "translatedContent": "        entity: switch.pc_power_toggle"
+  },
+  {
+    "row": 184,
+    "rowsha": "ZmNZpUrPLymDgPUwDozXQLx77f+HfepAiOh4h1IMiuk=",
+    "originContent": "        show_name: true",
+    "translatedContent": "        show_name: true"
+  },
+  {
+    "row": 185,
+    "rowsha": "rwJtziG1sXYaZOFXy+oIbq+g1Av23vSqlKMbblQKyCc=",
+    "originContent": "      - type: button",
+    "translatedContent": "      - type: button"
+  },
+  {
+    "row": 186,
+    "rowsha": "e/I4v4V3yiIVgmdP/Rs5Hf9ybEQtZ6RH0zWy9YggQ3s=",
+    "originContent": "        tap_action:",
+    "translatedContent": "        tap_action:"
+  },
+  {
+    "row": 187,
+    "rowsha": "roFNjN/9SNZhCRUi4CGkNdG/KoZwolVnaozSRf9S2kA=",
+    "originContent": "          action: none",
+    "translatedContent": "          action: none"
+  },
+  {
+    "row": 188,
+    "rowsha": "yYImzMUD66ByjjV6hJX3kv8upzavOh6RXCbEe4Zd1Pk=",
+    "originContent": "        entity: binary_sensor.pc_power_state",
+    "translatedContent": "        entity: binary_sensor.pc_power_state"
+  },
+  {
+    "row": 189,
+    "rowsha": "vztlUx0WiQdb633IzWJ8Z5QV8ZWTQVd1TInBMyqJGeo=",
+    "originContent": "        hold_action:",
+    "translatedContent": "        hold_action:"
+  },
+  {
+    "row": 190,
+    "rowsha": "roFNjN/9SNZhCRUi4CGkNdG/KoZwolVnaozSRf9S2kA=",
+    "originContent": "          action: none",
+    "translatedContent": "          action: none"
+  },
+  {
+    "row": 191,
+    "rowsha": "rwJtziG1sXYaZOFXy+oIbq+g1Av23vSqlKMbblQKyCc=",
+    "originContent": "      - type: button",
+    "translatedContent": "      - type: button"
+  },
+  {
+    "row": 192,
+    "rowsha": "e/I4v4V3yiIVgmdP/Rs5Hf9ybEQtZ6RH0zWy9YggQ3s=",
+    "originContent": "        tap_action:",
+    "translatedContent": "        tap_action:"
+  },
+  {
+    "row": 193,
+    "rowsha": "6K/0ZA4eqJ2MG8CyYCcIpoUvUEwM8K0M+yX1t5ETPbo=",
+    "originContent": "          action: toggle",
+    "translatedContent": "          action: toggle"
+  },
+  {
+    "row": 194,
+    "rowsha": "FJLUDu2coYyDhOminB1AFUWT0p5OAH+lsvj8hWdt7fs=",
+    "originContent": "        entity: switch.pc_hard_power_off",
+    "translatedContent": "        entity: switch.pc_hard_power_off"
+  },
+  {
+    "row": 195,
+    "rowsha": "OSL97MtId/5wdqNfpzLIXIXp/2DtdyxnFMuvj9LrZpc=",
+    "originContent": "        icon_height: 40px",
+    "translatedContent": "        icon_height: 40px"
+  },
+  {
+    "row": 196,
+    "rowsha": "p/xVrKurHgD8c7vVzaYs2lhB7UjGAMsyoHegBtlpXhY=",
+    "originContent": "        show_state: false",
+    "translatedContent": "        show_state: false"
+  },
+  {
+    "row": 197,
+    "rowsha": "ZmNZpUrPLymDgPUwDozXQLx77f+HfepAiOh4h1IMiuk=",
+    "originContent": "        show_name: true",
+    "translatedContent": "        show_name: true"
+  },
+  {
+    "row": 198,
+    "rowsha": "DC9o52uH4eZtq/lrlWv9aMuX9/6qy3Zms5nHpqTTmzg=",
+    "originContent": "        show_icon: true",
+    "translatedContent": "        show_icon: true"
+  },
+  {
+    "row": 199,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "yWqr5+CxzEo7FT4ehME9pVIevNKQ+h6RRy8aABmtHug=",
+    "originContent": "## Version history",
+    "translatedContent": "## Historial de versiones"
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "0Fsj5oFe+3V3SiD1Nk1fysxudjs7EyjYZhIzSq2iKgU=",
+    "originContent": "Restart Home Assistant and ready to go!",
+    "translatedContent": "¡Reinicie Home Assistant y listo para usar!"
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "VS5bO/dPC/li5FB+u4ziLvjGvYv1I7yHgTRKDoc64ps=",
+    "originContent": "### Update 11 October 2024",
+    "translatedContent": "### Actualización 11 de octubre de 2024"
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "65GBsYv6FI/OTINTtr+/LBXxgEhCAEyhGf7LqX5DI7A=",
+    "originContent": "The ESPHome YAML file format changed with [ESPHome version 2024.6.0](https://esphome.io/changelog/2024.6.0.html#). The old format generates errors like:",
+    "translatedContent": "El formato del archivo YAML de ESPHome cambió con [ESPHome versión 2024.6.0](https://esphome.io/changelog/2024.6.0.html#). El formato antiguo genera errores como:"
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 210,
+    "rowsha": "hE7Y9Py9udSpZhcV9FlB81t5bdgYco4Tw1orXTbo/Qc=",
+    "originContent": "$ esphome compile ESPHomePCPowerControlHomeAssistant/pc-power.yaml",
+    "translatedContent": "$ esphome compile ESPHomePCPowerControlHomeAssistant/pc-power.yaml"
+  },
+  {
+    "row": 211,
+    "rowsha": "yWGr6rDGT3MdS3MGfJzEqA9rGz6NuVauU+FNWnP6B7o=",
+    "originContent": "INFO ESPHome 2024.9.2",
+    "translatedContent": "INFO ESPHome 2024.9.2"
+  },
+  {
+    "row": 212,
+    "rowsha": "Qr4wp1gCMPauyPAfcPNYYVy+PtuWWIABxMEck+NyVI8=",
+    "originContent": "INFO Reading configuration ESPHomePCPowerControlHomeAssistant/pc-power.yaml...",
+    "translatedContent": "INFO Reading configuration ESPHomePCPowerControlHomeAssistant/pc-power.yaml..."
+  },
+  {
+    "row": 213,
+    "rowsha": "hntLF6qV3M5QbzMdhWbJzhYGFrn/HAY97GqMzlsO2kc=",
+    "originContent": "Failed config",
+    "translatedContent": "Failed config"
+  },
+  {
+    "row": 214,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 215,
+    "rowsha": "Lvnbd7toWUdqUjIGFisr9/t10QXg9lt5FaNkA3WGwuU=",
+    "originContent": "ota.unknown: [source ESPHomePCPowerControlHomeAssistant/pc-power.yaml:27]",
+    "translatedContent": "ota.unknown: [source ESPHomePCPowerControlHomeAssistant/pc-power.yaml:27]"
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "xf8ur2lVUvEO18ks61XTq3VR3p7swsrVoaZDA5Edctc=",
+    "originContent": "  'ota' requires a 'platform' key but it was not specified.",
+    "translatedContent": "  'ota' requires a 'platform' key but it was not specified."
+  },
+  {
+    "row": 218,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 219,
+    "rowsha": "QslZW8TqXyuqKtIi4N3flebutPnC1KnGLf5pzBM02fQ=",
+    "originContent": "and:",
+    "translatedContent": "and:"
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "hntLF6qV3M5QbzMdhWbJzhYGFrn/HAY97GqMzlsO2kc=",
+    "originContent": "Failed config",
+    "translatedContent": "Failed config"
+  },
+  {
+    "row": 222,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 223,
+    "rowsha": "hPnncoSNXNXicWpaYqkCFtO8VNlECX9+p+i/z1jbngU=",
+    "originContent": "switch.gpio: [source ESPHomePCPowerControlHomeAssistant/pc-power.yaml:30]",
+    "translatedContent": "switch.gpio: [source ESPHomePCPowerControlHomeAssistant/pc-power.yaml:30]"
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "CM0Xep4m2tojjCphr89b1OSTWsdQaTQpfNAgX8+PTLQ=",
+    "originContent": "  Pin 4 is used in multiple places.",
+    "translatedContent": "  Pin 4 is used in multiple places."
+  },
+  {
+    "row": 226,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 227,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 228,
+    "rowsha": "Bs0CAp3wLEHX7bS2qAaBfXqH5Cv25olmy9rNYVcKeEo=",
+    "originContent": "In this case, please update to the new file format in this project.",
+    "translatedContent": "En este caso, actualice al nuevo formato de archivo en este proyecto."
+  },
+  {
+    "row": 229,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "d7Lm5UL3IzCO85/oQSAmWbhIAXlGk+XvHVitZiAO+Os=",
+    "originContent": "### Update 13 February 2022",
+    "translatedContent": "### Actualización 13 de febrero de 2022"
+  },
+  {
+    "row": 231,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 232,
+    "rowsha": "KpOiO5VeIKeid5FsJgZUM/Qku9a0/ogVnhHyOQDvM2U=",
+    "originContent": "* The button pin timing controlled via Homeassistant scripts was not stable. The power pin control has been moved to the ESP firmware which generates a much more accurate timing.",
+    "translatedContent": "* El tiempo del pin del botón controlado mediante scripts de Homeassistant no era estable. El control del pin de alimentación se ha trasladado al firmware ESP, que genera un tiempo mucho más preciso."
+  },
+  {
+    "row": 233,
+    "rowsha": "9ItDi+HB+Sj/nC/Nz87ZvAQD7/0kvxuITrL15J7vd9M=",
+    "originContent": "* Renamed the following names:",
+    "translatedContent": "* Renombrados los siguientes nombres:"
+  },
+  {
+    "row": 234,
+    "rowsha": "sbv3D+Q7pmcAL/ZPPUfV0UP3/ygFHdBVXHuULC0vWTo=",
+    "originContent": "  * Rename `switch.pc_power_button` to `switch.pc_power_toggle`.",
+    "translatedContent": "  * Renombrar `switch.pc_power_button` a `switch.pc_power_toggle`."
+  },
+  {
+    "row": 235,
+    "rowsha": "5HggicX4yqO5NKzh61X/Oc6EUxLp2FaSa2osKB7UXRk=",
+    "originContent": "  * Rename `switch.pc_power_button_long_press` to `switch.pc_hard_power_off`.",
+    "translatedContent": "  * Renombrar `switch.pc_power_button_long_press` a `switch.pc_hard_power_off`."
+  },
+  {
+    "row": 236,
+    "rowsha": "2Xtjvit7xcz2E+3HVTRL36RwOwCN3JzGcIS34VCqv6s=",
+    "originContent": "  * Rename `switch.pc_power_sense` to `switch.pc_power_state`.",
+    "translatedContent": "  * Renombrar `switch.pc_power_sense` a `switch.pc_power_state`."
+  },
+  {
+    "row": 237,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
