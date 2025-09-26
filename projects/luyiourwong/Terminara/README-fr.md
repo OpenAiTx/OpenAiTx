@@ -1,27 +1,61 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+
+</div>
+
 # Terminara
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/luyiourwong/Terminara)
+[![Demander à DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/luyiourwong/Terminara)
+![Support Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)
 
-Un jeu de simulation d’IA en ligne de commande.
+Un jeu de simulation d'IA basé sur le terminal.
 
 ## Comment utiliser
 
-Vous pouvez télécharger l’application exécutable depuis la [dernière version](https://github.com/luyiourwong/Terminara/releases/latest).
+Vous pouvez télécharger l'application exécutable depuis la [dernière version](https://github.com/luyiourwong/Terminara/releases/latest).
 
-Le fichier compressé complet inclut le fichier exécutable et le fichier de configuration du monde par défaut. Vous pouvez uniquement télécharger le fichier exécutable si vous mettez à jour le jeu vers la dernière version.
+Le fichier compressé complet inclut le fichier exécutable et le fichier de paramètres du monde par défaut. Vous pouvez ne télécharger que le fichier exécutable si vous mettez à jour le jeu vers la dernière version.
 
-| OS      | Version                                          |
-|---------|--------------------------------------------------|
-| Windows | Windows 10, Windows 11                           |
-| Linux   | (GLIBC 2.35+) Ubuntu 22.04 LTS, Ubuntu 24.04 LTS |
-| MacOS   | macOS 13, macOS 14, macOS 15, macOS 26           |
+| OS      | Version                                           |
+|---------|---------------------------------------------------|
+| Windows | Windows 10, Windows 11                            |
+| Linux   | (GLIBC 2.35+) Ubuntu 22.04 LTS, Ubuntu 24.04 LTS  |
+| MacOS   | macOS 13, macOS 14, macOS 15, macOS 26            |
 
 <details>
 <summary><strong>Exécution manuelle</strong></summary>
 
 ### Installation
 
-1.  **Cloner le dépôt :**
+1.  **Clonez le dépôt :**
     ```bash
     git clone https://github.com/luyiourwong/Terminara
     cd Terminara
@@ -113,6 +147,6 @@ Ce projet est sous licence [MIT License](LICENSE).
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-26
 
 ---

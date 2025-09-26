@@ -1,27 +1,61 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=luyiourwong&project=Terminara&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+
+</div>
+
 # Terminara
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/luyiourwong/Terminara)
+![Pythonサポート](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)
 
-ターミナルベースのAIシミュレーションゲーム。
+ターミナルベースのAIシミュレーションゲームです。
 
-## 使い方
+## 使用方法
 
-[最新リリース](https://github.com/luyiourwong/Terminara/releases/latest)から実行可能ファイルをダウンロードできます。
+[最新リリース](https://github.com/luyiourwong/Terminara/releases/latest)から実行ファイルをダウンロードできます。
 
-完全な圧縮ファイルには実行可能ファイルとデフォルトのワールド設定ファイルが含まれています。ゲームを最新バージョンに更新する場合は、実行可能ファイルのみをダウンロードできます。
+圧縮ファイルには実行ファイルとデフォルトのワールド設定ファイルが含まれています。ゲームを最新版にアップデートする場合は実行ファイルのみをダウンロードできます。
 
-| OS      | バージョン                                         |
+| OS      | バージョン                                      |
 |---------|--------------------------------------------------|
-| Windows | Windows 10、Windows 11                            |
-| Linux   | (GLIBC 2.35+) Ubuntu 22.04 LTS、Ubuntu 24.04 LTS |
-| MacOS   | macOS 13、macOS 14、macOS 15、macOS 26             |
+| Windows | Windows 10, Windows 11                           |
+| Linux   | (GLIBC 2.35+) Ubuntu 22.04 LTS, Ubuntu 24.04 LTS |
+| MacOS   | macOS 13, macOS 14, macOS 15, macOS 26           |
 
 <details>
 <summary><strong>手動実行</strong></summary>
 
 ### インストール
 
-1.  **リポジトリをクローンする：**
+1.  **リポジトリをクローンする:**
     ```bash
     git clone https://github.com/luyiourwong/Terminara
     cd Terminara
@@ -113,6 +147,6 @@ Windowsでは、`terminara\main.py` を使用してください。
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-26
 
 ---
