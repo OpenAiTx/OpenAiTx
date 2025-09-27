@@ -1,0 +1,352 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Alternate Current\n\nAlternate Current is an efficient and non-locational redstone dust implementation. Its main focus lies in reducing the lag caused by redstone dust, by optimizing the power calculations and reducing the number of shape and block updates emitted. As a side effect of these changes the block update order of redstone dust networks is predictable and intuitive rather than locational and chaotic.\n\n## Performance\n\nMSPT contributions of redstone dust are up to 20 times lower with Alternate Current, all the while maintaining a high level of Vanilla parity. Its low number of code modifications make it minimally invasive, so it is an easy drop-in replacement for Vanilla redstone dust.\n\n## How does it work?\n\nThe algorithm Alternate Current uses was designed with the following goals in mind:\n1. Minimize the number of times a wire checks its surroundings to determine its power level.\n2. Minimize the number of block and shape updates emitted.\n3. Emit block and shape updates in a deterministic, non-locational order, fixing bug MC-11193.\n\nIn Vanilla redstone wire is laggy because it fails on points 1 and 2.\n\nRedstone wire updates recursively and each wire calculates its power level in isolation rather than in the context of the network it is a part of. This means a wire in a grid can change its power level over half a dozen times before settling on its final value. This problem used to be worse in 1.13 and below, where a wire would only decrease its power level by 1 at a time.\n\nIn addition to this, a wire emits 42 block updates and up to 22 shape updates each time it changes its power level.\n\nOf those 42 block updates, 6 are to itself, which are thus not only redundant, but a big source of lag, since those cause the wire to unnecessarily re-calculate its power level. A block only has 24 neighbors within a Manhattan distance of 2, meaning 12 of the remaining 36 block updates are duplicates and thus also redundant.\n\nOf the 22 shape updates, only 6 are strictly necessary. The other 16 are sent to blocks diagonally above and below. These are necessary if a wire changes its connections, but not when it changes its power level.\n\nRedstone wire in Vanilla also fails on point 3, though this is more of a quality-of-life issue than a lag issue. The recursive nature in which it updates, combined with the location-dependent order in which each wire updates its neighbors, makes the order in which neighbors of a wire network are updated incredibly inconsistent and seemingly random.\n\nAlternate Current fixes each of these problems as follows.\n\n(1)\nTo make sure a wire calculates its power level as little as possible, we remove the recursive nature in which redstone wire updates in Vanilla. Instead, we build a network of connected wires, find those wires that receive redstone power from \"outside\" the network, and spread the power from there. This has a few advantages:\n\n- Each wire checks for power from non-wire components at most once, and from nearby wires just twice.\n- Each wire only sets its power level in the world once. This is important, because calls to Level.setBlock are even more expensive than calls to Level.getBlockState.\n\n(2)\nThere are 2 obvious ways in which we can reduce the number of block and shape updates.\n\n- Get rid of the 18 redundant block updates and 16 redundant shape updates, so each wire only emits 24 block updates and 6 shape updates whenever it changes its power level.\n- Only emit block updates and shape updates once a wire reaches its final power level, rather than at each intermediary stage.",
+    "ContentSha": "VRjJi4HUXMa7FVUYH4S7auit7tSk45HDVQwws79zOdM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Corriente Alterna\n\nCorriente Alterna es una implementación eficiente y no localizada del polvo de redstone. Su enfoque principal radica en reducir el retraso causado por el polvo de redstone, optimizando los cálculos de potencia y reduciendo el número de actualizaciones de forma y bloque emitidas. Como efecto secundario de estos cambios, el orden de actualización de bloques en las redes de polvo de redstone es predecible e intuitivo en lugar de localizado y caótico.\n\n## Rendimiento\n\nLas contribuciones de MSPT del polvo de redstone son hasta 20 veces menores con Corriente Alterna, manteniendo al mismo tiempo un alto nivel de paridad con Vanilla. Su bajo número de modificaciones de código lo hace mínimamente invasivo, por lo que es un reemplazo fácil y directo para el polvo de redstone Vanilla.\n\n## ¿Cómo funciona?\n\nEl algoritmo que usa Corriente Alterna fue diseñado con los siguientes objetivos en mente:\n1. Minimizar el número de veces que un cable revisa sus alrededores para determinar su nivel de potencia.\n2. Minimizar el número de actualizaciones de bloque y forma emitidas.\n3. Emitir actualizaciones de bloque y forma en un orden determinista, no localizado, solucionando el error MC-11193.\n\nEn Vanilla, el cable de redstone es lento porque falla en los puntos 1 y 2.\n\nEl cable de redstone se actualiza recursivamente y cada cable calcula su nivel de potencia en aislamiento en lugar de en el contexto de la red de la que forma parte. Esto significa que un cable en una cuadrícula puede cambiar su nivel de potencia más de media docena de veces antes de establecer su valor final. Este problema solía ser peor en la versión 1.13 y anteriores, donde un cable solo disminuía su nivel de potencia en 1 a la vez.\n\nAdemás de esto, un cable emite 42 actualizaciones de bloque y hasta 22 actualizaciones de forma cada vez que cambia su nivel de potencia.\n\nDe esas 42 actualizaciones de bloque, 6 son para sí mismo, lo que no solo es redundante, sino una gran fuente de retraso, ya que estas causan que el cable recalcule innecesariamente su nivel de potencia. Un bloque solo tiene 24 vecinos dentro de una distancia Manhattan de 2, lo que significa que 12 de las 36 actualizaciones de bloque restantes son duplicadas y por tanto también redundantes.\n\nDe las 22 actualizaciones de forma, solo 6 son estrictamente necesarias. Las otras 16 se envían a bloques diagonalmente arriba y abajo. Estas son necesarias si un cable cambia sus conexiones, pero no cuando cambia su nivel de potencia.\n\nEl cable de redstone en Vanilla también falla en el punto 3, aunque esto es más un problema de calidad de vida que de retraso. La naturaleza recursiva en la que se actualiza, combinada con el orden dependiente de la ubicación en la que cada cable actualiza a sus vecinos, hace que el orden en que se actualizan los vecinos de una red de cables sea increíblemente inconsistente y aparentemente aleatorio.\n\nCorriente Alterna soluciona cada uno de estos problemas de la siguiente manera.\n\n(1)\nPara asegurar que un cable calcule su nivel de potencia la menor cantidad de veces posible, eliminamos la naturaleza recursiva con la que se actualiza el cable de redstone en Vanilla. En su lugar, construimos una red de cables conectados, encontramos aquellos cables que reciben potencia de redstone desde \"fuera\" de la red, y propagamos la potencia desde allí. Esto tiene algunas ventajas:\n\n- Cada cable verifica la potencia de componentes no cables como máximo una vez, y de cables cercanos solo dos veces.\n- Cada cable solo establece su nivel de potencia en el mundo una vez. Esto es importante porque las llamadas a Level.setBlock son incluso más costosas que las llamadas a Level.getBlockState.\n\n(2)\nHay 2 formas obvias en las que podemos reducir el número de actualizaciones de bloque y forma.\n\n- Eliminar las 18 actualizaciones de bloque redundantes y las 16 actualizaciones de forma redundantes, de modo que cada cable solo emita 24 actualizaciones de bloque y 6 de forma cada vez que cambia su nivel de potencia.\n- Solo emitir actualizaciones de bloque y forma una vez que un cable alcanza su nivel final de potencia, en lugar de en cada etapa intermedia.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S5v60qOjWuFN4G2fq28ZcucwSoznr4iTcZjhBRwTfhE=",
+        "originContent": "# Alternate Current",
+        "translatedContent": "# Corriente Alterna"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "nVid11heQWt0LorC0m1xgzyM9WegHpjJyL5xmzOYlsA=",
+        "originContent": "Alternate Current is an efficient and non-locational redstone dust implementation. Its main focus lies in reducing the lag caused by redstone dust, by optimizing the power calculations and reducing the number of shape and block updates emitted. As a side effect of these changes the block update order of redstone dust networks is predictable and intuitive rather than locational and chaotic.",
+        "translatedContent": "Corriente Alterna es una implementación eficiente y no localizada del polvo de redstone. Su enfoque principal radica en reducir el retraso causado por el polvo de redstone, optimizando los cálculos de potencia y reduciendo el número de actualizaciones de forma y bloque emitidas. Como efecto secundario de estos cambios, el orden de actualización de bloques en las redes de polvo de redstone es predecible e intuitivo en lugar de localizado y caótico."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "thorZE5Q53vPYsmFcZnNBj3MzrLAVgB8k3DqGpMonCs=",
+        "originContent": "## Performance",
+        "translatedContent": "## Rendimiento"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "jHQni3V/YJTX+Gu/WVqioo/GmwtJBAgTDN8gmr7Un+4=",
+        "originContent": "MSPT contributions of redstone dust are up to 20 times lower with Alternate Current, all the while maintaining a high level of Vanilla parity. Its low number of code modifications make it minimally invasive, so it is an easy drop-in replacement for Vanilla redstone dust.",
+        "translatedContent": "Las contribuciones de MSPT del polvo de redstone son hasta 20 veces menores con Corriente Alterna, manteniendo al mismo tiempo un alto nivel de paridad con Vanilla. Su bajo número de modificaciones de código lo hace mínimamente invasivo, por lo que es un reemplazo fácil y directo para el polvo de redstone Vanilla."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yr57TqElHtwjXcJf3z7vIOjG+gIgOGwCk8iSckpPsXc=",
+        "originContent": "## How does it work?",
+        "translatedContent": "## ¿Cómo funciona?"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "v3MMKuPTv0HVKhZXoNemFYBvC7Ub+0EeI7GC9goN/NA=",
+        "originContent": "The algorithm Alternate Current uses was designed with the following goals in mind:",
+        "translatedContent": "El algoritmo que usa Corriente Alterna fue diseñado con los siguientes objetivos en mente:"
+      },
+      {
+        "row": 12,
+        "rowsha": "OsRYx7ezlL7xcUMx/g8pH/qRMBry6WDFIOv7gmIGIXM=",
+        "originContent": "1. Minimize the number of times a wire checks its surroundings to determine its power level.",
+        "translatedContent": "1. Minimizar el número de veces que un cable revisa sus alrededores para determinar su nivel de potencia."
+      },
+      {
+        "row": 13,
+        "rowsha": "Xv7znXAgN+Mm2ILiGNZGyW4E2grTzeGnJbPJ0Ittmcs=",
+        "originContent": "2. Minimize the number of block and shape updates emitted.",
+        "translatedContent": "2. Minimizar el número de actualizaciones de bloque y forma emitidas."
+      },
+      {
+        "row": 14,
+        "rowsha": "p4RPGC+h4Hy1RY+PPe9qog6iNw9mfYqIspzdN3dAig0=",
+        "originContent": "3. Emit block and shape updates in a deterministic, non-locational order, fixing bug MC-11193.",
+        "translatedContent": "3. Emitir actualizaciones de bloque y forma en un orden determinista, no localizado, solucionando el error MC-11193."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "vOW0mgMViS3Vx0fdYr6+/TLYsR2I38gYmiwNBnmVGL8=",
+        "originContent": "In Vanilla redstone wire is laggy because it fails on points 1 and 2.",
+        "translatedContent": "En Vanilla, el cable de redstone es lento porque falla en los puntos 1 y 2."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "TE9N2PZNR7YhZ7jvTt7s6Ek1zIXy8gST0DrrgW2bcDE=",
+        "originContent": "Redstone wire updates recursively and each wire calculates its power level in isolation rather than in the context of the network it is a part of. This means a wire in a grid can change its power level over half a dozen times before settling on its final value. This problem used to be worse in 1.13 and below, where a wire would only decrease its power level by 1 at a time.",
+        "translatedContent": "El cable de redstone se actualiza recursivamente y cada cable calcula su nivel de potencia en aislamiento en lugar de en el contexto de la red de la que forma parte. Esto significa que un cable en una cuadrícula puede cambiar su nivel de potencia más de media docena de veces antes de establecer su valor final. Este problema solía ser peor en la versión 1.13 y anteriores, donde un cable solo disminuía su nivel de potencia en 1 a la vez."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "8KJApfPTecgO9plKFQ9ipTT2AEqVhO2ans8CZO738Ls=",
+        "originContent": "In addition to this, a wire emits 42 block updates and up to 22 shape updates each time it changes its power level.",
+        "translatedContent": "Además de esto, un cable emite 42 actualizaciones de bloque y hasta 22 actualizaciones de forma cada vez que cambia su nivel de potencia."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "V6C9nZSrMCkYtgQw/+1999dPrfq48fMhZ1rELgr9qhU=",
+        "originContent": "Of those 42 block updates, 6 are to itself, which are thus not only redundant, but a big source of lag, since those cause the wire to unnecessarily re-calculate its power level. A block only has 24 neighbors within a Manhattan distance of 2, meaning 12 of the remaining 36 block updates are duplicates and thus also redundant.",
+        "translatedContent": "De esas 42 actualizaciones de bloque, 6 son para sí mismo, lo que no solo es redundante, sino una gran fuente de retraso, ya que estas causan que el cable recalcule innecesariamente su nivel de potencia. Un bloque solo tiene 24 vecinos dentro de una distancia Manhattan de 2, lo que significa que 12 de las 36 actualizaciones de bloque restantes son duplicadas y por tanto también redundantes."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "zGDiLcAdYUzmXtkQVvxk1qAKw4OyH0PmEpHyFpADplA=",
+        "originContent": "Of the 22 shape updates, only 6 are strictly necessary. The other 16 are sent to blocks diagonally above and below. These are necessary if a wire changes its connections, but not when it changes its power level.",
+        "translatedContent": "De las 22 actualizaciones de forma, solo 6 son estrictamente necesarias. Las otras 16 se envían a bloques diagonalmente arriba y abajo. Estas son necesarias si un cable cambia sus conexiones, pero no cuando cambia su nivel de potencia."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "312LqvfzU1KI8n6UtVxdGOmU5BgFvIPlM0AEUw8Ye2w=",
+        "originContent": "Redstone wire in Vanilla also fails on point 3, though this is more of a quality-of-life issue than a lag issue. The recursive nature in which it updates, combined with the location-dependent order in which each wire updates its neighbors, makes the order in which neighbors of a wire network are updated incredibly inconsistent and seemingly random.",
+        "translatedContent": "El cable de redstone en Vanilla también falla en el punto 3, aunque esto es más un problema de calidad de vida que de retraso. La naturaleza recursiva en la que se actualiza, combinada con el orden dependiente de la ubicación en la que cada cable actualiza a sus vecinos, hace que el orden en que se actualizan los vecinos de una red de cables sea increíblemente inconsistente y aparentemente aleatorio."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "f+FUDmwkJmZpmJRUHYDKRMskAZox4NzLjTWIZ6bS+yU=",
+        "originContent": "Alternate Current fixes each of these problems as follows.",
+        "translatedContent": "Corriente Alterna soluciona cada uno de estos problemas de la siguiente manera."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "/QrZAm7uWWtwcqdilB9gvvV+dgojDt1FCzpjSCVoXCo=",
+        "originContent": "(1)",
+        "translatedContent": "(1)"
+      },
+      {
+        "row": 31,
+        "rowsha": "dq/nqrCEoqlzeBUmP2JJkw2uaGPxmjWv/NbJzdppVVg=",
+        "originContent": "To make sure a wire calculates its power level as little as possible, we remove the recursive nature in which redstone wire updates in Vanilla. Instead, we build a network of connected wires, find those wires that receive redstone power from \"outside\" the network, and spread the power from there. This has a few advantages:",
+        "translatedContent": "Para asegurar que un cable calcule su nivel de potencia la menor cantidad de veces posible, eliminamos la naturaleza recursiva con la que se actualiza el cable de redstone en Vanilla. En su lugar, construimos una red de cables conectados, encontramos aquellos cables que reciben potencia de redstone desde \"fuera\" de la red, y propagamos la potencia desde allí. Esto tiene algunas ventajas:"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "QclqCpgw/2SnQgARJPBVTcoY5CbxQAyF8FzqvvSkQGk=",
+        "originContent": "- Each wire checks for power from non-wire components at most once, and from nearby wires just twice.",
+        "translatedContent": "- Cada cable verifica la potencia de componentes no cables como máximo una vez, y de cables cercanos solo dos veces."
+      },
+      {
+        "row": 34,
+        "rowsha": "ZWC5FspNz9R5m62velLY2d4sNkbHwiJjddA6jWqdf6k=",
+        "originContent": "- Each wire only sets its power level in the world once. This is important, because calls to Level.setBlock are even more expensive than calls to Level.getBlockState.",
+        "translatedContent": "- Cada cable solo establece su nivel de potencia en el mundo una vez. Esto es importante porque las llamadas a Level.setBlock son incluso más costosas que las llamadas a Level.getBlockState."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "Dnfmi6VHPZiEDDIS9KjLgBImSU8RYsgAGp9O17AMuqg=",
+        "originContent": "(2)",
+        "translatedContent": "(2)"
+      },
+      {
+        "row": 37,
+        "rowsha": "S7WymyG/xgySCxHE/mA5tgqP4ahbm101cvCAW1waYpk=",
+        "originContent": "There are 2 obvious ways in which we can reduce the number of block and shape updates.",
+        "translatedContent": "Hay 2 formas obvias en las que podemos reducir el número de actualizaciones de bloque y forma."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "6pIMYkaLneNDNPGntO3GFqk+6hKsIayUPV2M1sfluSI=",
+        "originContent": "- Get rid of the 18 redundant block updates and 16 redundant shape updates, so each wire only emits 24 block updates and 6 shape updates whenever it changes its power level.",
+        "translatedContent": "- Eliminar las 18 actualizaciones de bloque redundantes y las 16 actualizaciones de forma redundantes, de modo que cada cable solo emita 24 actualizaciones de bloque y 6 de forma cada vez que cambia su nivel de potencia."
+      },
+      {
+        "row": 40,
+        "rowsha": "YFtipfPqvRJfOXys9ICbAz4KmzamXvjbXve67HqLbjI=",
+        "originContent": "- Only emit block updates and shape updates once a wire reaches its final power level, rather than at each intermediary stage.",
+        "translatedContent": "- Solo emitir actualizaciones de bloque y forma una vez que un cable alcanza su nivel final de potencia, en lugar de en cada etapa intermedia."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nFor an individual wire, these two optimizations are the best you can do, but for an entire grid, you can do better!\n\nSince we calculate the power of the entire network, sending block and shape updates to the wires in it is redundant. Removing those updates can reduce the number of block and shape updates by up to 20%.\n\n(3)\nTo make the order of block updates to neighbors of a network deterministic, the first thing we must do is to replace the location- dependent order in which a wire updates its neighbors. Instead, we base it on the direction of power flow. This part of the algorithm was heavily inspired by theosib's 'RedstoneWireTurbo', which you can read more about in theosib's comment on Mojira [here](https://bugs.mojang.com/browse/MC-81098?focusedCommentId=420777&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-420777) or by checking out its implementation in carpet mod [here](https://github.com/gnembon/fabric-carpet/blob/master/src/main/java/carpet/helpers/RedstoneWireTurbo.java).\n\nThe idea is to determine the direction of power flow through a wire based on the power it receives from neighboring wires. For example, if the only power a wire receives is from a neighboring wire to its west, it can be said that the direction of power flow through the wire is east.\n\nWe make the order of block updates to neighbors of a wire depend on what is determined to be the direction of power flow. This not only removes locationality entirely, it even removes directionality in a large number of cases. Unlike in 'RedstoneWireTurbo', however, I have decided to keep a directional element in ambiguous cases, rather than to introduce randomness, though this is trivial to change.\n\nWhile this change fixes the block update order of individual wires, we must still address the overall block update order of a network. This turns out to be a simple fix, because of a change we made earlier: we search through the network for wires that receive power from outside it, and spread the power from there. If we make each wire transmit its power to neighboring wires in an order dependent on the direction of power flow, we end up with a non-locational and largely non-directional wire update order.\n",
+    "ContentSha": "tYEeDKb2mWRVtHdg/T/JyblT8/BcI2LcUmJma/nhKDI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPara un solo cable, estas dos optimizaciones son lo mejor que se puede hacer, ¡pero para una red completa, se puede hacer mejor!\n\nDado que calculamos la potencia de toda la red, enviar actualizaciones de bloques y formas a los cables dentro de ella es redundante. Eliminar esas actualizaciones puede reducir el número de actualizaciones de bloques y formas hasta en un 20%.\n\n(3)\nPara hacer que el orden de las actualizaciones de bloques a los vecinos de una red sea determinista, lo primero que debemos hacer es reemplazar el orden dependiente de la ubicación en que un cable actualiza a sus vecinos. En su lugar, lo basamos en la dirección del flujo de energía. Esta parte del algoritmo fue fuertemente inspirada por 'RedstoneWireTurbo' de theosib, del cual puedes leer más en el comentario de theosib en Mojira [aquí](https://bugs.mojang.com/browse/MC-81098?focusedCommentId=420777&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-420777) o revisando su implementación en el mod carpet [aquí](https://github.com/gnembon/fabric-carpet/blob/master/src/main/java/carpet/helpers/RedstoneWireTurbo.java).\n\nLa idea es determinar la dirección del flujo de energía a través de un cable basándose en la potencia que recibe de cables vecinos. Por ejemplo, si la única potencia que un cable recibe es de un cable vecino al oeste, se puede decir que la dirección del flujo de energía a través del cable es hacia el este.\n\nHacemos que el orden de las actualizaciones de bloques a los vecinos de un cable dependa de lo que se determina como la dirección del flujo de energía. Esto no solo elimina completamente la localización, sino que también elimina la direccionalidad en un gran número de casos. Sin embargo, a diferencia de 'RedstoneWireTurbo', he decidido mantener un elemento direccional en casos ambiguos, en lugar de introducir aleatoriedad, aunque esto es trivial de cambiar.\n\nMientras este cambio corrige el orden de actualización de bloques de cables individuales, todavía debemos abordar el orden general de actualización de bloques de una red. Esto resulta ser una solución sencilla, debido a un cambio que hicimos anteriormente: buscamos en la red cables que reciben energía desde fuera, y propagamos la energía desde allí. Si hacemos que cada cable transmita su energía a cables vecinos en un orden dependiente de la dirección del flujo de energía, terminamos con un orden de actualización de cables no localizado y en gran medida no direccional.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3UlRkk41Y6iAeNLsnhK2YFC7vfw9BcF18CzjbMKM3Us=",
+        "originContent": "For an individual wire, these two optimizations are the best you can do, but for an entire grid, you can do better!",
+        "translatedContent": "Para un solo cable, estas dos optimizaciones son lo mejor que se puede hacer, ¡pero para una red completa, se puede hacer mejor!"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Y9t50H//pABe7I7Hwtu+ywXr6ibre8GoQCabGWpOPNk=",
+        "originContent": "Since we calculate the power of the entire network, sending block and shape updates to the wires in it is redundant. Removing those updates can reduce the number of block and shape updates by up to 20%.",
+        "translatedContent": "Dado que calculamos la potencia de toda la red, enviar actualizaciones de bloques y formas a los cables dentro de ella es redundante. Eliminar esas actualizaciones puede reducir el número de actualizaciones de bloques y formas hasta en un 20%."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "RveJ0e/u+tCAhGkXpqSnYdDhgEuwpPJ/pGNKiH7CYmU=",
+        "originContent": "(3)",
+        "translatedContent": "(3)"
+      },
+      {
+        "row": 7,
+        "rowsha": "IVIvp4jDaRM8bw+xrWW7WlmkfA6WbV96u0wF5gHLesg=",
+        "originContent": "To make the order of block updates to neighbors of a network deterministic, the first thing we must do is to replace the location- dependent order in which a wire updates its neighbors. Instead, we base it on the direction of power flow. This part of the algorithm was heavily inspired by theosib's 'RedstoneWireTurbo', which you can read more about in theosib's comment on Mojira [here](https://bugs.mojang.com/browse/MC-81098?focusedCommentId=420777&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-420777) or by checking out its implementation in carpet mod [here](https://github.com/gnembon/fabric-carpet/blob/master/src/main/java/carpet/helpers/RedstoneWireTurbo.java).",
+        "translatedContent": "Para hacer que el orden de las actualizaciones de bloques a los vecinos de una red sea determinista, lo primero que debemos hacer es reemplazar el orden dependiente de la ubicación en que un cable actualiza a sus vecinos. En su lugar, lo basamos en la dirección del flujo de energía. Esta parte del algoritmo fue fuertemente inspirada por 'RedstoneWireTurbo' de theosib, del cual puedes leer más en el comentario de theosib en Mojira [aquí](https://bugs.mojang.com/browse/MC-81098?focusedCommentId=420777&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-420777) o revisando su implementación en el mod carpet [aquí](https://github.com/gnembon/fabric-carpet/blob/master/src/main/java/carpet/helpers/RedstoneWireTurbo.java)."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "F7Jhig5j9BWwDRZDIy8B1KPEgc0E4ae/rJ0KthB6FWE=",
+        "originContent": "The idea is to determine the direction of power flow through a wire based on the power it receives from neighboring wires. For example, if the only power a wire receives is from a neighboring wire to its west, it can be said that the direction of power flow through the wire is east.",
+        "translatedContent": "La idea es determinar la dirección del flujo de energía a través de un cable basándose en la potencia que recibe de cables vecinos. Por ejemplo, si la única potencia que un cable recibe es de un cable vecino al oeste, se puede decir que la dirección del flujo de energía a través del cable es hacia el este."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "JRXbA2L65493xA07tBEkMQLNl2ScLj6AZYyDqCBd+PM=",
+        "originContent": "We make the order of block updates to neighbors of a wire depend on what is determined to be the direction of power flow. This not only removes locationality entirely, it even removes directionality in a large number of cases. Unlike in 'RedstoneWireTurbo', however, I have decided to keep a directional element in ambiguous cases, rather than to introduce randomness, though this is trivial to change.",
+        "translatedContent": "Hacemos que el orden de las actualizaciones de bloques a los vecinos de un cable dependa de lo que se determina como la dirección del flujo de energía. Esto no solo elimina completamente la localización, sino que también elimina la direccionalidad en un gran número de casos. Sin embargo, a diferencia de 'RedstoneWireTurbo', he decidido mantener un elemento direccional en casos ambiguos, en lugar de introducir aleatoriedad, aunque esto es trivial de cambiar."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "YEg729gXcHmwNHkIARSjGF4q/eWP1X+6KdNzN2e/iF8=",
+        "originContent": "While this change fixes the block update order of individual wires, we must still address the overall block update order of a network. This turns out to be a simple fix, because of a change we made earlier: we search through the network for wires that receive power from outside it, and spread the power from there. If we make each wire transmit its power to neighboring wires in an order dependent on the direction of power flow, we end up with a non-locational and largely non-directional wire update order.",
+        "translatedContent": "Mientras este cambio corrige el orden de actualización de bloques de cables individuales, todavía debemos abordar el orden general de actualización de bloques de una red. Esto resulta ser una solución sencilla, debido a un cambio que hicimos anteriormente: buscamos en la red cables que reciben energía desde fuera, y propagamos la energía desde allí. Si hacemos que cada cable transmita su energía a cables vecinos en un orden dependiente de la dirección del flujo de energía, terminamos con un orden de actualización de cables no localizado y en gran medida no direccional."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

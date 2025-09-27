@@ -1,0 +1,352 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Alternate Current\n\nAlternate Current is an efficient and non-locational redstone dust implementation. Its main focus lies in reducing the lag caused by redstone dust, by optimizing the power calculations and reducing the number of shape and block updates emitted. As a side effect of these changes the block update order of redstone dust networks is predictable and intuitive rather than locational and chaotic.\n\n## Performance\n\nMSPT contributions of redstone dust are up to 20 times lower with Alternate Current, all the while maintaining a high level of Vanilla parity. Its low number of code modifications make it minimally invasive, so it is an easy drop-in replacement for Vanilla redstone dust.\n\n## How does it work?\n\nThe algorithm Alternate Current uses was designed with the following goals in mind:\n1. Minimize the number of times a wire checks its surroundings to determine its power level.\n2. Minimize the number of block and shape updates emitted.\n3. Emit block and shape updates in a deterministic, non-locational order, fixing bug MC-11193.\n\nIn Vanilla redstone wire is laggy because it fails on points 1 and 2.\n\nRedstone wire updates recursively and each wire calculates its power level in isolation rather than in the context of the network it is a part of. This means a wire in a grid can change its power level over half a dozen times before settling on its final value. This problem used to be worse in 1.13 and below, where a wire would only decrease its power level by 1 at a time.\n\nIn addition to this, a wire emits 42 block updates and up to 22 shape updates each time it changes its power level.\n\nOf those 42 block updates, 6 are to itself, which are thus not only redundant, but a big source of lag, since those cause the wire to unnecessarily re-calculate its power level. A block only has 24 neighbors within a Manhattan distance of 2, meaning 12 of the remaining 36 block updates are duplicates and thus also redundant.\n\nOf the 22 shape updates, only 6 are strictly necessary. The other 16 are sent to blocks diagonally above and below. These are necessary if a wire changes its connections, but not when it changes its power level.\n\nRedstone wire in Vanilla also fails on point 3, though this is more of a quality-of-life issue than a lag issue. The recursive nature in which it updates, combined with the location-dependent order in which each wire updates its neighbors, makes the order in which neighbors of a wire network are updated incredibly inconsistent and seemingly random.\n\nAlternate Current fixes each of these problems as follows.\n\n(1)\nTo make sure a wire calculates its power level as little as possible, we remove the recursive nature in which redstone wire updates in Vanilla. Instead, we build a network of connected wires, find those wires that receive redstone power from \"outside\" the network, and spread the power from there. This has a few advantages:\n\n- Each wire checks for power from non-wire components at most once, and from nearby wires just twice.\n- Each wire only sets its power level in the world once. This is important, because calls to Level.setBlock are even more expensive than calls to Level.getBlockState.\n\n(2)\nThere are 2 obvious ways in which we can reduce the number of block and shape updates.\n\n- Get rid of the 18 redundant block updates and 16 redundant shape updates, so each wire only emits 24 block updates and 6 shape updates whenever it changes its power level.\n- Only emit block updates and shape updates once a wire reaches its final power level, rather than at each intermediary stage.",
+    "ContentSha": "VRjJi4HUXMa7FVUYH4S7auit7tSk45HDVQwws79zOdM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 交互電流\n\n交互電流は効率的で位置依存しないレッドストーンダストの実装です。主な焦点は、パワー計算を最適化し、発生する形状およびブロック更新の数を減らすことでレッドストーンダストによるラグを削減することにあります。これらの変更の副次効果として、レッドストーンダストネットワークのブロック更新の順序が位置依存的で混沌としたものではなく、予測可能で直感的になります。\n\n## パフォーマンス\n\n交互電流を使用すると、レッドストーンダストによるMSPT（1ティックあたりのミリ秒）への寄与は最大で20倍低減され、それでいて高いバニラ互換性を維持します。コードの変更箇所が少ないため侵襲性が低く、バニラのレッドストーンダストの簡単な置き換えとして利用できます。\n\n## どのように動作するのか？\n\n交互電流が使用するアルゴリズムは以下の目標を念頭に設計されています：\n1. ワイヤーが周囲をチェックしてパワーレベルを決定する回数を最小限にすること。\n2. 発生するブロックおよび形状の更新の数を最小限にすること。\n3. ブロックおよび形状の更新を決定論的かつ位置依存しない順序で発生させ、バグMC-11193を修正すること。\n\nバニラのレッドストーンワイヤーは1と2の点で失敗しているためラグが発生します。\n\nレッドストーンワイヤーは再帰的に更新され、各ワイヤーは自分が属するネットワークの文脈ではなく単独でパワーレベルを計算します。つまり、グリッド内のワイヤーは最終値に落ち着くまでに半ダース以上もパワーレベルを変化させることがあります。この問題は1.13以下ではさらに悪化しており、ワイヤーは一度にパワーレベルを1だけ減少させていました。\n\nこれに加えて、ワイヤーはパワーレベルが変化するたびに42回のブロック更新と最大22回の形状更新を発生させます。\n\n42回のブロック更新のうち6回は自身に対するものであり、これらは冗長なだけでなく、ワイヤーが不要にパワーレベルの再計算を行う原因となる大きなラグ源です。ブロックはマンハッタン距離2以内に24個の隣接ブロックを持つため、残りの36回のうち12回は重複した更新であり、これも冗長です。\n\n22回の形状更新のうち、厳密に必要なものは6回だけです。残りの16回は対角線上の上下のブロックに送られます。これはワイヤーが接続を変化させた場合には必要ですが、パワーレベルを変えた場合には不要です。\n\nバニラのレッドストーンワイヤーはまた3の点でも失敗していますが、これはラグの問題よりも利便性の問題です。更新が再帰的に行われることと、各ワイヤーが隣接ワイヤーを更新する順序が位置依存であるため、ワイヤーネットワークの隣接ブロックの更新順序が非常に不整合でランダムに見えます。\n\n交互電流はこれらの問題を以下のように修正します。\n\n(1)\nワイヤーがパワーレベルを計算する回数を可能な限り減らすために、バニラでの再帰的更新を取り除きます。その代わりに接続されたワイヤーのネットワークを構築し、「外部」からレッドストーンパワーを受け取るワイヤーを見つけて、そこからパワーを広げます。これにはいくつかの利点があります：\n\n- 各ワイヤーは非ワイヤーコンポーネントからのパワーを多くても1回、近隣ワイヤーからは2回だけチェックします。\n- 各ワイヤーは世界に対してパワーレベルを1回だけ設定します。これは重要で、Level.setBlockの呼び出しはLevel.getBlockStateよりもさらにコストが高いためです。\n\n(2)\nブロック更新および形状更新の数を減らす明らかな方法が2つあります。\n\n- 18回の冗長なブロック更新と16回の冗長な形状更新を削除し、パワーレベルが変わるたびに各ワイヤーが24回のブロック更新と6回の形状更新のみを発生させる。\n- ワイヤーが最終的なパワーレベルに達したときにのみブロック更新および形状更新を発生させ、中間の段階では発生させない。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S5v60qOjWuFN4G2fq28ZcucwSoznr4iTcZjhBRwTfhE=",
+        "originContent": "# Alternate Current",
+        "translatedContent": "# 交互電流"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "nVid11heQWt0LorC0m1xgzyM9WegHpjJyL5xmzOYlsA=",
+        "originContent": "Alternate Current is an efficient and non-locational redstone dust implementation. Its main focus lies in reducing the lag caused by redstone dust, by optimizing the power calculations and reducing the number of shape and block updates emitted. As a side effect of these changes the block update order of redstone dust networks is predictable and intuitive rather than locational and chaotic.",
+        "translatedContent": "交互電流は効率的で位置依存しないレッドストーンダストの実装です。主な焦点は、パワー計算を最適化し、発生する形状およびブロック更新の数を減らすことでレッドストーンダストによるラグを削減することにあります。これらの変更の副次効果として、レッドストーンダストネットワークのブロック更新の順序が位置依存的で混沌としたものではなく、予測可能で直感的になります。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "thorZE5Q53vPYsmFcZnNBj3MzrLAVgB8k3DqGpMonCs=",
+        "originContent": "## Performance",
+        "translatedContent": "## パフォーマンス"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "jHQni3V/YJTX+Gu/WVqioo/GmwtJBAgTDN8gmr7Un+4=",
+        "originContent": "MSPT contributions of redstone dust are up to 20 times lower with Alternate Current, all the while maintaining a high level of Vanilla parity. Its low number of code modifications make it minimally invasive, so it is an easy drop-in replacement for Vanilla redstone dust.",
+        "translatedContent": "交互電流を使用すると、レッドストーンダストによるMSPT（1ティックあたりのミリ秒）への寄与は最大で20倍低減され、それでいて高いバニラ互換性を維持します。コードの変更箇所が少ないため侵襲性が低く、バニラのレッドストーンダストの簡単な置き換えとして利用できます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yr57TqElHtwjXcJf3z7vIOjG+gIgOGwCk8iSckpPsXc=",
+        "originContent": "## How does it work?",
+        "translatedContent": "## どのように動作するのか？"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "v3MMKuPTv0HVKhZXoNemFYBvC7Ub+0EeI7GC9goN/NA=",
+        "originContent": "The algorithm Alternate Current uses was designed with the following goals in mind:",
+        "translatedContent": "交互電流が使用するアルゴリズムは以下の目標を念頭に設計されています："
+      },
+      {
+        "row": 12,
+        "rowsha": "OsRYx7ezlL7xcUMx/g8pH/qRMBry6WDFIOv7gmIGIXM=",
+        "originContent": "1. Minimize the number of times a wire checks its surroundings to determine its power level.",
+        "translatedContent": "1. ワイヤーが周囲をチェックしてパワーレベルを決定する回数を最小限にすること。"
+      },
+      {
+        "row": 13,
+        "rowsha": "Xv7znXAgN+Mm2ILiGNZGyW4E2grTzeGnJbPJ0Ittmcs=",
+        "originContent": "2. Minimize the number of block and shape updates emitted.",
+        "translatedContent": "2. 発生するブロックおよび形状の更新の数を最小限にすること。"
+      },
+      {
+        "row": 14,
+        "rowsha": "p4RPGC+h4Hy1RY+PPe9qog6iNw9mfYqIspzdN3dAig0=",
+        "originContent": "3. Emit block and shape updates in a deterministic, non-locational order, fixing bug MC-11193.",
+        "translatedContent": "3. ブロックおよび形状の更新を決定論的かつ位置依存しない順序で発生させ、バグMC-11193を修正すること。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "vOW0mgMViS3Vx0fdYr6+/TLYsR2I38gYmiwNBnmVGL8=",
+        "originContent": "In Vanilla redstone wire is laggy because it fails on points 1 and 2.",
+        "translatedContent": "バニラのレッドストーンワイヤーは1と2の点で失敗しているためラグが発生します。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "TE9N2PZNR7YhZ7jvTt7s6Ek1zIXy8gST0DrrgW2bcDE=",
+        "originContent": "Redstone wire updates recursively and each wire calculates its power level in isolation rather than in the context of the network it is a part of. This means a wire in a grid can change its power level over half a dozen times before settling on its final value. This problem used to be worse in 1.13 and below, where a wire would only decrease its power level by 1 at a time.",
+        "translatedContent": "レッドストーンワイヤーは再帰的に更新され、各ワイヤーは自分が属するネットワークの文脈ではなく単独でパワーレベルを計算します。つまり、グリッド内のワイヤーは最終値に落ち着くまでに半ダース以上もパワーレベルを変化させることがあります。この問題は1.13以下ではさらに悪化しており、ワイヤーは一度にパワーレベルを1だけ減少させていました。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "8KJApfPTecgO9plKFQ9ipTT2AEqVhO2ans8CZO738Ls=",
+        "originContent": "In addition to this, a wire emits 42 block updates and up to 22 shape updates each time it changes its power level.",
+        "translatedContent": "これに加えて、ワイヤーはパワーレベルが変化するたびに42回のブロック更新と最大22回の形状更新を発生させます。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "V6C9nZSrMCkYtgQw/+1999dPrfq48fMhZ1rELgr9qhU=",
+        "originContent": "Of those 42 block updates, 6 are to itself, which are thus not only redundant, but a big source of lag, since those cause the wire to unnecessarily re-calculate its power level. A block only has 24 neighbors within a Manhattan distance of 2, meaning 12 of the remaining 36 block updates are duplicates and thus also redundant.",
+        "translatedContent": "42回のブロック更新のうち6回は自身に対するものであり、これらは冗長なだけでなく、ワイヤーが不要にパワーレベルの再計算を行う原因となる大きなラグ源です。ブロックはマンハッタン距離2以内に24個の隣接ブロックを持つため、残りの36回のうち12回は重複した更新であり、これも冗長です。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "zGDiLcAdYUzmXtkQVvxk1qAKw4OyH0PmEpHyFpADplA=",
+        "originContent": "Of the 22 shape updates, only 6 are strictly necessary. The other 16 are sent to blocks diagonally above and below. These are necessary if a wire changes its connections, but not when it changes its power level.",
+        "translatedContent": "22回の形状更新のうち、厳密に必要なものは6回だけです。残りの16回は対角線上の上下のブロックに送られます。これはワイヤーが接続を変化させた場合には必要ですが、パワーレベルを変えた場合には不要です。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "312LqvfzU1KI8n6UtVxdGOmU5BgFvIPlM0AEUw8Ye2w=",
+        "originContent": "Redstone wire in Vanilla also fails on point 3, though this is more of a quality-of-life issue than a lag issue. The recursive nature in which it updates, combined with the location-dependent order in which each wire updates its neighbors, makes the order in which neighbors of a wire network are updated incredibly inconsistent and seemingly random.",
+        "translatedContent": "バニラのレッドストーンワイヤーはまた3の点でも失敗していますが、これはラグの問題よりも利便性の問題です。更新が再帰的に行われることと、各ワイヤーが隣接ワイヤーを更新する順序が位置依存であるため、ワイヤーネットワークの隣接ブロックの更新順序が非常に不整合でランダムに見えます。"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "f+FUDmwkJmZpmJRUHYDKRMskAZox4NzLjTWIZ6bS+yU=",
+        "originContent": "Alternate Current fixes each of these problems as follows.",
+        "translatedContent": "交互電流はこれらの問題を以下のように修正します。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "/QrZAm7uWWtwcqdilB9gvvV+dgojDt1FCzpjSCVoXCo=",
+        "originContent": "(1)",
+        "translatedContent": "(1)"
+      },
+      {
+        "row": 31,
+        "rowsha": "dq/nqrCEoqlzeBUmP2JJkw2uaGPxmjWv/NbJzdppVVg=",
+        "originContent": "To make sure a wire calculates its power level as little as possible, we remove the recursive nature in which redstone wire updates in Vanilla. Instead, we build a network of connected wires, find those wires that receive redstone power from \"outside\" the network, and spread the power from there. This has a few advantages:",
+        "translatedContent": "ワイヤーがパワーレベルを計算する回数を可能な限り減らすために、バニラでの再帰的更新を取り除きます。その代わりに接続されたワイヤーのネットワークを構築し、「外部」からレッドストーンパワーを受け取るワイヤーを見つけて、そこからパワーを広げます。これにはいくつかの利点があります："
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "QclqCpgw/2SnQgARJPBVTcoY5CbxQAyF8FzqvvSkQGk=",
+        "originContent": "- Each wire checks for power from non-wire components at most once, and from nearby wires just twice.",
+        "translatedContent": "- 各ワイヤーは非ワイヤーコンポーネントからのパワーを多くても1回、近隣ワイヤーからは2回だけチェックします。"
+      },
+      {
+        "row": 34,
+        "rowsha": "ZWC5FspNz9R5m62velLY2d4sNkbHwiJjddA6jWqdf6k=",
+        "originContent": "- Each wire only sets its power level in the world once. This is important, because calls to Level.setBlock are even more expensive than calls to Level.getBlockState.",
+        "translatedContent": "- 各ワイヤーは世界に対してパワーレベルを1回だけ設定します。これは重要で、Level.setBlockの呼び出しはLevel.getBlockStateよりもさらにコストが高いためです。"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "Dnfmi6VHPZiEDDIS9KjLgBImSU8RYsgAGp9O17AMuqg=",
+        "originContent": "(2)",
+        "translatedContent": "(2)"
+      },
+      {
+        "row": 37,
+        "rowsha": "S7WymyG/xgySCxHE/mA5tgqP4ahbm101cvCAW1waYpk=",
+        "originContent": "There are 2 obvious ways in which we can reduce the number of block and shape updates.",
+        "translatedContent": "ブロック更新および形状更新の数を減らす明らかな方法が2つあります。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "6pIMYkaLneNDNPGntO3GFqk+6hKsIayUPV2M1sfluSI=",
+        "originContent": "- Get rid of the 18 redundant block updates and 16 redundant shape updates, so each wire only emits 24 block updates and 6 shape updates whenever it changes its power level.",
+        "translatedContent": "- 18回の冗長なブロック更新と16回の冗長な形状更新を削除し、パワーレベルが変わるたびに各ワイヤーが24回のブロック更新と6回の形状更新のみを発生させる。"
+      },
+      {
+        "row": 40,
+        "rowsha": "YFtipfPqvRJfOXys9ICbAz4KmzamXvjbXve67HqLbjI=",
+        "originContent": "- Only emit block updates and shape updates once a wire reaches its final power level, rather than at each intermediary stage.",
+        "translatedContent": "- ワイヤーが最終的なパワーレベルに達したときにのみブロック更新および形状更新を発生させ、中間の段階では発生させない。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nFor an individual wire, these two optimizations are the best you can do, but for an entire grid, you can do better!\n\nSince we calculate the power of the entire network, sending block and shape updates to the wires in it is redundant. Removing those updates can reduce the number of block and shape updates by up to 20%.\n\n(3)\nTo make the order of block updates to neighbors of a network deterministic, the first thing we must do is to replace the location- dependent order in which a wire updates its neighbors. Instead, we base it on the direction of power flow. This part of the algorithm was heavily inspired by theosib's 'RedstoneWireTurbo', which you can read more about in theosib's comment on Mojira [here](https://bugs.mojang.com/browse/MC-81098?focusedCommentId=420777&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-420777) or by checking out its implementation in carpet mod [here](https://github.com/gnembon/fabric-carpet/blob/master/src/main/java/carpet/helpers/RedstoneWireTurbo.java).\n\nThe idea is to determine the direction of power flow through a wire based on the power it receives from neighboring wires. For example, if the only power a wire receives is from a neighboring wire to its west, it can be said that the direction of power flow through the wire is east.\n\nWe make the order of block updates to neighbors of a wire depend on what is determined to be the direction of power flow. This not only removes locationality entirely, it even removes directionality in a large number of cases. Unlike in 'RedstoneWireTurbo', however, I have decided to keep a directional element in ambiguous cases, rather than to introduce randomness, though this is trivial to change.\n\nWhile this change fixes the block update order of individual wires, we must still address the overall block update order of a network. This turns out to be a simple fix, because of a change we made earlier: we search through the network for wires that receive power from outside it, and spread the power from there. If we make each wire transmit its power to neighboring wires in an order dependent on the direction of power flow, we end up with a non-locational and largely non-directional wire update order.\n",
+    "ContentSha": "tYEeDKb2mWRVtHdg/T/JyblT8/BcI2LcUmJma/nhKDI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "個々のワイヤーに関しては、これら二つの最適化が最良ですが、ネットワーク全体に対してはさらに良い方法があります！\n\nネットワーク全体の電力を計算しているため、その中のワイヤーへのブロックおよび形状の更新を送信するのは冗長です。これらの更新を削除することで、ブロックおよび形状の更新回数を最大20％削減できます。\n\n(3)\nネットワークの隣接するブロックの更新順序を決定的にするために、最初に行うべきはワイヤーが隣接ブロックを更新する際の位置依存の順序を置き換えることです。代わりに、電力の流れる方向に基づいて順序を決定します。このアルゴリズムの一部は、theosibの「RedstoneWireTurbo」から大きな影響を受けています。詳細はMojiraのtheosibのコメント[こちら](https://bugs.mojang.com/browse/MC-81098?focusedCommentId=420777&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-420777)や、carpet modの実装[こちら](https://github.com/gnembon/fabric-carpet/blob/master/src/main/java/carpet/helpers/RedstoneWireTurbo.java)をご覧ください。\n\nこの考え方は、隣接するワイヤーから受け取る電力に基づいて、ワイヤーを流れる電力の方向を決定することです。例えば、ワイヤーが受け取る唯一の電力が西側の隣接ワイヤーからの場合、そのワイヤーを流れる電力の方向は東向きと見なせます。\n\nワイヤーの隣接ブロックの更新順序を、電力の流れる方向に基づいて決定します。これにより位置依存性が完全に除去され、多くの場合で方向依存性も取り除かれます。ただし「RedstoneWireTurbo」とは異なり、曖昧な場合にはランダム性を導入するのではなく、私は方向性の要素を保持することにしましたが、これは簡単に変更可能です。\n\nこの変更は個々のワイヤーのブロック更新順序を修正しますが、ネットワーク全体のブロック更新順序にも対処する必要があります。これは以前の変更のおかげで簡単に解決できます：ネットワーク内で外部から電力を受け取るワイヤーを探索し、そこから電力を伝播させます。各ワイヤーが電力の流れる方向に依存した順序で隣接ワイヤーに電力を伝達すれば、位置依存せず、かつ大部分で方向依存性のないワイヤー更新順序が得られます。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "個々のワイヤーに関しては、これら二つの最適化が最良ですが、ネットワーク全体に対してはさらに良い方法があります！"
+      },
+      {
+        "row": 2,
+        "rowsha": "3UlRkk41Y6iAeNLsnhK2YFC7vfw9BcF18CzjbMKM3Us=",
+        "originContent": "For an individual wire, these two optimizations are the best you can do, but for an entire grid, you can do better!",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ネットワーク全体の電力を計算しているため、その中のワイヤーへのブロックおよび形状の更新を送信するのは冗長です。これらの更新を削除することで、ブロックおよび形状の更新回数を最大20％削減できます。"
+      },
+      {
+        "row": 4,
+        "rowsha": "Y9t50H//pABe7I7Hwtu+ywXr6ibre8GoQCabGWpOPNk=",
+        "originContent": "Since we calculate the power of the entire network, sending block and shape updates to the wires in it is redundant. Removing those updates can reduce the number of block and shape updates by up to 20%.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "(3)"
+      },
+      {
+        "row": 6,
+        "rowsha": "RveJ0e/u+tCAhGkXpqSnYdDhgEuwpPJ/pGNKiH7CYmU=",
+        "originContent": "(3)",
+        "translatedContent": "ネットワークの隣接するブロックの更新順序を決定的にするために、最初に行うべきはワイヤーが隣接ブロックを更新する際の位置依存の順序を置き換えることです。代わりに、電力の流れる方向に基づいて順序を決定します。このアルゴリズムの一部は、theosibの「RedstoneWireTurbo」から大きな影響を受けています。詳細はMojiraのtheosibのコメント[こちら](https://bugs.mojang.com/browse/MC-81098?focusedCommentId=420777&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-420777)や、carpet modの実装[こちら](https://github.com/gnembon/fabric-carpet/blob/master/src/main/java/carpet/helpers/RedstoneWireTurbo.java)をご覧ください。"
+      },
+      {
+        "row": 7,
+        "rowsha": "IVIvp4jDaRM8bw+xrWW7WlmkfA6WbV96u0wF5gHLesg=",
+        "originContent": "To make the order of block updates to neighbors of a network deterministic, the first thing we must do is to replace the location- dependent order in which a wire updates its neighbors. Instead, we base it on the direction of power flow. This part of the algorithm was heavily inspired by theosib's 'RedstoneWireTurbo', which you can read more about in theosib's comment on Mojira [here](https://bugs.mojang.com/browse/MC-81098?focusedCommentId=420777&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-420777) or by checking out its implementation in carpet mod [here](https://github.com/gnembon/fabric-carpet/blob/master/src/main/java/carpet/helpers/RedstoneWireTurbo.java).",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "この考え方は、隣接するワイヤーから受け取る電力に基づいて、ワイヤーを流れる電力の方向を決定することです。例えば、ワイヤーが受け取る唯一の電力が西側の隣接ワイヤーからの場合、そのワイヤーを流れる電力の方向は東向きと見なせます。"
+      },
+      {
+        "row": 9,
+        "rowsha": "F7Jhig5j9BWwDRZDIy8B1KPEgc0E4ae/rJ0KthB6FWE=",
+        "originContent": "The idea is to determine the direction of power flow through a wire based on the power it receives from neighboring wires. For example, if the only power a wire receives is from a neighboring wire to its west, it can be said that the direction of power flow through the wire is east.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ワイヤーの隣接ブロックの更新順序を、電力の流れる方向に基づいて決定します。これにより位置依存性が完全に除去され、多くの場合で方向依存性も取り除かれます。ただし「RedstoneWireTurbo」とは異なり、曖昧な場合にはランダム性を導入するのではなく、私は方向性の要素を保持することにしましたが、これは簡単に変更可能です。"
+      },
+      {
+        "row": 11,
+        "rowsha": "JRXbA2L65493xA07tBEkMQLNl2ScLj6AZYyDqCBd+PM=",
+        "originContent": "We make the order of block updates to neighbors of a wire depend on what is determined to be the direction of power flow. This not only removes locationality entirely, it even removes directionality in a large number of cases. Unlike in 'RedstoneWireTurbo', however, I have decided to keep a directional element in ambiguous cases, rather than to introduce randomness, though this is trivial to change.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "この変更は個々のワイヤーのブロック更新順序を修正しますが、ネットワーク全体のブロック更新順序にも対処する必要があります。これは以前の変更のおかげで簡単に解決できます：ネットワーク内で外部から電力を受け取るワイヤーを探索し、そこから電力を伝播させます。各ワイヤーが電力の流れる方向に依存した順序で隣接ワイヤーに電力を伝達すれば、位置依存せず、かつ大部分で方向依存性のないワイヤー更新順序が得られます。"
+      },
+      {
+        "row": 13,
+        "rowsha": "YEg729gXcHmwNHkIARSjGF4q/eWP1X+6KdNzN2e/iF8=",
+        "originContent": "While this change fixes the block update order of individual wires, we must still address the overall block update order of a network. This turns out to be a simple fix, because of a change we made earlier: we search through the network for wires that receive power from outside it, and spread the power from there. If we make each wire transmit its power to neighboring wires in an order dependent on the direction of power flow, we end up with a non-locational and largely non-directional wire update order.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
