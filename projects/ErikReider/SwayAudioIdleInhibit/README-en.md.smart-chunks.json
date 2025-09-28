@@ -1,0 +1,657 @@
+[
+  {
+    "Id": 1,
+    "Content": "# SwayAudioIdleInhibit\n\nPrevents swayidle/hypridle from sleeping while any application is outputting or\nreceiving audio. Requires systemd/elogind inhibit support.\n\nThis only works for Pulseaudio / Pipewire Pulse\n\n## Install\n\nArch:\nThe package is available on the [AUR](https://aur.archlinux.org/packages/sway-audio-idle-inhibit-git/)\n\nOther:\n",
+    "ContentSha": "9BRoeInwZi7/xpnK/oHkNnuNNUu/6PdsvgTatvHbvQs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# SwayAudioIdleInhibit\n\nPrevents swayidle/hypridle from sleeping while any application is outputting or\nreceiving audio. Requires systemd/elogind inhibit support.\n\nThis only works for Pulseaudio / Pipewire Pulse\n\n## Install\n\nArch:\nThe package is available on the [AUR](https://aur.archlinux.org/packages/sway-audio-idle-inhibit-git/)\n\nOther:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UkYfE8H3pLwRzBwTGrqOIYKXX+2XVtgXXmAuluY5OIc=",
+        "originContent": "# SwayAudioIdleInhibit",
+        "translatedContent": "# SwayAudioIdleInhibit"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "F5l3IAzyW/pl/z68bGEXFxG99CIxtRFmK7HrFpq1jV0=",
+        "originContent": "Prevents swayidle/hypridle from sleeping while any application is outputting or",
+        "translatedContent": "Prevents swayidle/hypridle from sleeping while any application is outputting or"
+      },
+      {
+        "row": 4,
+        "rowsha": "1AzNXxvvSLULxCybyQ0wxEOjYkbgUgcVABAi9Y26Z68=",
+        "originContent": "receiving audio. Requires systemd/elogind inhibit support.",
+        "translatedContent": "receiving audio. Requires systemd/elogind inhibit support."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "EhxpsGKFIdTHw7ygX4JK6KDdvyTAmJeDSabFqinuyk4=",
+        "originContent": "This only works for Pulseaudio / Pipewire Pulse",
+        "translatedContent": "This only works for Pulseaudio / Pipewire Pulse"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## Install"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "iBCA724xafxHijOFcsYVrNTYKisM/y7Aik+b+YPcgy4=",
+        "originContent": "Arch:",
+        "translatedContent": "Arch:"
+      },
+      {
+        "row": 11,
+        "rowsha": "hSQqMkWitm8JFZyEiUzBv+kvhNO+j2IvfvnmjDBQUsQ=",
+        "originContent": "The package is available on the [AUR](https://aur.archlinux.org/packages/sway-audio-idle-inhibit-git/)",
+        "translatedContent": "The package is available on the [AUR](https://aur.archlinux.org/packages/sway-audio-idle-inhibit-git/)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "LhyS2NySmqgXEBMSCIqdeeokRxp3RkPvXUFnceVpr0I=",
+        "originContent": "Other:",
+        "translatedContent": "Other:"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```zsh\n# Can compile to use systemd or elogind\n# systemd (default)\nmeson setup build -Dlogind-provider=systemd\n# or elogind for systemd-less systems\nmeson setup build -Dlogind-provider=elogind\n\nmeson compile -C build\nmeson install -C build\n```",
+    "ContentSha": "HFdg7Nj41oWAdlpCX1aYdco5vZpWOLkbqgVXrsGKEdY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```zsh\n# Can compile to use systemd or elogind\n# systemd (default)\nmeson setup build -Dlogind-provider=systemd\n# or elogind for systemd-less systems\nmeson setup build -Dlogind-provider=elogind\n\nmeson compile -C build\nmeson install -C build\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bh5FqbE0yIBF4QMUCsGbSD11XORp25w9B0J0B8iy4W4=",
+        "originContent": "```zsh",
+        "translatedContent": "```zsh"
+      },
+      {
+        "row": 2,
+        "rowsha": "gtPhffy+BdRuIpFoopeESPZK+XbBWpU+pXZjzjeDXb0=",
+        "originContent": "# Can compile to use systemd or elogind",
+        "translatedContent": "# Can compile to use systemd or elogind"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ku6PFij1Q7qTZdjiCPUf5nLb959Qksri9ydW77nq0sI=",
+        "originContent": "# systemd (default)",
+        "translatedContent": "# systemd (default)"
+      },
+      {
+        "row": 4,
+        "rowsha": "OrI3kwgOShwwUgXbh+RG+TZE5VqOUst5I8iixokPILE=",
+        "originContent": "meson setup build -Dlogind-provider=systemd",
+        "translatedContent": "meson setup build -Dlogind-provider=systemd"
+      },
+      {
+        "row": 5,
+        "rowsha": "Gmb8BdPLqpnvvjSVLwlmjOpvAc5dTdyxZf1iY7G6D5E=",
+        "originContent": "# or elogind for systemd-less systems",
+        "translatedContent": "# or elogind for systemd-less systems"
+      },
+      {
+        "row": 6,
+        "rowsha": "xS3KvYUYIMQ6av0mK6e+JDFtQ7U+Vu9yc5f5fK7ZLpA=",
+        "originContent": "meson setup build -Dlogind-provider=elogind",
+        "translatedContent": "meson setup build -Dlogind-provider=elogind"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "K2H1pag9SKH4eiE9tLxwp6XA8fUNhtcniYnWgcxekJU=",
+        "originContent": "meson compile -C build",
+        "translatedContent": "meson compile -C build"
+      },
+      {
+        "row": 9,
+        "rowsha": "ruu4GAep8lLv4d/C8ooaAmU4nB+eF5Hj1AyoT/i6kwQ=",
+        "originContent": "meson install -C build",
+        "translatedContent": "meson install -C build"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Sway Usage\n",
+    "ContentSha": "Gdz+PxJuyLHowGXkbSkwxGEt80SGXzd1QR0Oy7TIMqw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Sway Usage\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WI353e+UQHsxar48Ha5dAarvLtbEGwPFSLPAflRfPz0=",
+        "originContent": "## Sway Usage",
+        "translatedContent": "## Sway Usage"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```ini\n# Enables inhibit_idle when playing audio\nexec sway-audio-idle-inhibit\n```",
+    "ContentSha": "3v2C8e4SIkMRWR5r/GzCFIOZYl2iwkZ1/xn4HfrUmgE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ini\n# Enables inhibit_idle when playing audio\nexec sway-audio-idle-inhibit\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "NOtYEj4xvNWpEB/tns9NY65hnruGx4mqSUdrkrrtBlQ=",
+        "originContent": "```ini",
+        "translatedContent": "```ini"
+      },
+      {
+        "row": 2,
+        "rowsha": "FrcC5cFGLRN0UDVTcBaVL5/dW1ldnrJEEgqNieZGfpo=",
+        "originContent": "# Enables inhibit_idle when playing audio",
+        "translatedContent": "# Enables inhibit_idle when playing audio"
+      },
+      {
+        "row": 3,
+        "rowsha": "aQeIx3qDJ/eJQlUE48gukh6/YZC+VEn1AoE89PPC//8=",
+        "originContent": "exec sway-audio-idle-inhibit",
+        "translatedContent": "exec sway-audio-idle-inhibit"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Other usages without inhibiting idle\n\nThese could be used to monitor if any application is using your mic or playing\nany audio.\n\nMonitor sources and sinks: will print `RUNNING` or `NOT RUNNING`\n",
+    "ContentSha": "nzNKbfuJFHsVjaNoI3fz4PCL68ya1siO1Bb8VGVW7uY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Other usages without inhibiting idle\n\nThese could be used to monitor if any application is using your mic or playing\nany audio.\n\nMonitor sources and sinks: will print `RUNNING` or `NOT RUNNING`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "S5yTwO2GF4ud5KUiZyR/a5ROO0vVRfdlJ+0T/ez+np4=",
+        "originContent": "## Other usages without inhibiting idle",
+        "translatedContent": "## Other usages without inhibiting idle"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Dm0JzoEJfNC29+yuWkafU896dHIqmmJHt3G3ocfS2AA=",
+        "originContent": "These could be used to monitor if any application is using your mic or playing",
+        "translatedContent": "These could be used to monitor if any application is using your mic or playing"
+      },
+      {
+        "row": 5,
+        "rowsha": "/tFltfoSEwjLLsOqy6PET7nuwOjtHMBZQgdJDpNmAO8=",
+        "originContent": "any audio.",
+        "translatedContent": "any audio."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "B1uFmK/Bzs+5sH3tWgCf+TigQ5k+7vtsPP+lkPMNhGU=",
+        "originContent": "Monitor sources and sinks: will print `RUNNING` or `NOT RUNNING`",
+        "translatedContent": "Monitor sources and sinks: will print `RUNNING` or `NOT RUNNING`"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```zsh\nsway-audio-idle-inhibit --dry-print-both\n```",
+    "ContentSha": "n7DEbIyXbcyIPVwN5sOYRjlJ1chEQD5EhI0DT5Y1oAU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```zsh\nsway-audio-idle-inhibit --dry-print-both\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bh5FqbE0yIBF4QMUCsGbSD11XORp25w9B0J0B8iy4W4=",
+        "originContent": "```zsh",
+        "translatedContent": "```zsh"
+      },
+      {
+        "row": 2,
+        "rowsha": "M16h+vnkqfYm9k/Gi39WEE8IjNUmRORYIoMzYsEG97E=",
+        "originContent": "sway-audio-idle-inhibit --dry-print-both",
+        "translatedContent": "sway-audio-idle-inhibit --dry-print-both"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nMonitor sources: will print `RUNNING` or `NOT RUNNING`\n",
+    "ContentSha": "4cFGJm2s47+beOeROk4XuF2GnczZDvb1bhweIt4vBtg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nMonitor sources: will print `RUNNING` or `NOT RUNNING`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "BPl00UEYwiIm1Sqrw3SpEh6j6889mg7+sg3D/bY8oyw=",
+        "originContent": "Monitor sources: will print `RUNNING` or `NOT RUNNING`",
+        "translatedContent": "Monitor sources: will print `RUNNING` or `NOT RUNNING`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```zsh\nsway-audio-idle-inhibit --dry-print-source\n```",
+    "ContentSha": "Tj3A9tSDQ3aVVE/XigiEv2QrfL+4h7vDaa7QxCUZ/Tk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```zsh\nsway-audio-idle-inhibit --dry-print-source\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bh5FqbE0yIBF4QMUCsGbSD11XORp25w9B0J0B8iy4W4=",
+        "originContent": "```zsh",
+        "translatedContent": "```zsh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Gv4dZl851vhQUhEM9q1ZmJIz3L9UyZ3sT2M2ytUimtI=",
+        "originContent": "sway-audio-idle-inhibit --dry-print-source",
+        "translatedContent": "sway-audio-idle-inhibit --dry-print-source"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nMonitor sinks: will print `RUNNING` or `NOT RUNNING`\n",
+    "ContentSha": "CMKr2sgycqmaR0xCyezEEekA6RB61C5721bW5+wtFkk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nMonitor sinks: will print `RUNNING` or `NOT RUNNING`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PtUAfcCljDiiY27CB0oV1z1ESYI+gOG00Rs4hCd7On8=",
+        "originContent": "Monitor sinks: will print `RUNNING` or `NOT RUNNING`",
+        "translatedContent": "Monitor sinks: will print `RUNNING` or `NOT RUNNING`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```zsh\nsway-audio-idle-inhibit --dry-print-sink\n```",
+    "ContentSha": "VG5fyZv8NJcIEBVX0Lp+OApCfM0P/VkpkrIqRcVBsR0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```zsh\nsway-audio-idle-inhibit --dry-print-sink\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bh5FqbE0yIBF4QMUCsGbSD11XORp25w9B0J0B8iy4W4=",
+        "originContent": "```zsh",
+        "translatedContent": "```zsh"
+      },
+      {
+        "row": 2,
+        "rowsha": "1wWKKg2UhZRzkz1396LHvfOsxdZLNjZN+gPJGcu9jB8=",
+        "originContent": "sway-audio-idle-inhibit --dry-print-sink",
+        "translatedContent": "sway-audio-idle-inhibit --dry-print-sink"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Waybar Integration\n\nA custom waybar module can be used to display an icon when any application is\nusing your mic or playing any audio.\n\nAdd the following section to your `~/.config/waybar/config` file and add\n`custom/audio_idle_inhibitor` to either the `modules-left`, `modules-center`\nor `modules-right` list.\n\n*Note: The FontAwesome font is used for the icons below*\n",
+    "ContentSha": "F2YT4nJKtOpPzbyrIDhFQa5scQWVwlLDXr4Cc5YT4nc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Waybar Integration\n\nA custom waybar module can be used to display an icon when any application is\nusing your mic or playing any audio.\n\nAdd the following section to your `~/.config/waybar/config` file and add\n`custom/audio_idle_inhibitor` to either the `modules-left`, `modules-center`\nor `modules-right` list.\n\n*Note: The FontAwesome font is used for the icons below*\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3dxC89W7eeEpBtOKBceDl8G/T7268Iadb64Lm8A6gyc=",
+        "originContent": "## Waybar Integration",
+        "translatedContent": "## Waybar Integration"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "TRg0EtOj++z7GRS0vUckefmh1d0Jnu3AlL/36VBZfrU=",
+        "originContent": "A custom waybar module can be used to display an icon when any application is",
+        "translatedContent": "A custom waybar module can be used to display an icon when any application is"
+      },
+      {
+        "row": 5,
+        "rowsha": "oZeVQwm9D0kEQhF3r+tOdL/BK8HrzpYEhrHHVwJKttI=",
+        "originContent": "using your mic or playing any audio.",
+        "translatedContent": "using your mic or playing any audio."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "qyrkcnXE1Gn60NNCcPj5JPP5HRw+ppsa/X5rAomMZeo=",
+        "originContent": "Add the following section to your `~/.config/waybar/config` file and add",
+        "translatedContent": "Add the following section to your `~/.config/waybar/config` file and add"
+      },
+      {
+        "row": 8,
+        "rowsha": "xrfqfW1QpxltKlVbNVE8CgjeATQuDwTgWVpDSCgtAms=",
+        "originContent": "`custom/audio_idle_inhibitor` to either the `modules-left`, `modules-center`",
+        "translatedContent": "`custom/audio_idle_inhibitor` to either the `modules-left`, `modules-center`"
+      },
+      {
+        "row": 9,
+        "rowsha": "PV5whlxqQgcWOi64xiNz4xjMSPgYjbKVU44xFqLTPyo=",
+        "originContent": "or `modules-right` list.",
+        "translatedContent": "or `modules-right` list."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "y7Y0qO0pYWLRSjvGx38xq2CTE85X+bHiibQbexjIDBA=",
+        "originContent": "*Note: The FontAwesome font is used for the icons below*",
+        "translatedContent": "*Note: The FontAwesome font is used for the icons below*"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```json\n\t\"custom/audio_idle_inhibitor\": {\n\t\t\"format\": \"{icon}\",\n\t\t\"exec\": \"sway-audio-idle-inhibit --dry-print-both-waybar\",\n\t\t\"exec-if\": \"which sway-audio-idle-inhibit\",\n\t\t\"return-type\": \"json\",\n\t\t\"format-icons\": {\n\t\t\t\"output\": \"\",\n\t\t\t\"input\": \"\",\n\t\t\t\"output-input\": \"  \",\n\t\t\t\"none\": \"\"\n\t\t}\n\t},\n```",
+    "ContentSha": "kfkNCdMeLhxfDOCviw/REomPthzl1MyKumoMP6Jt55w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n\t\"custom/audio_idle_inhibitor\": {\n\t\t\"format\": \"{icon}\",\n\t\t\"exec\": \"sway-audio-idle-inhibit --dry-print-both-waybar\",\n\t\t\"exec-if\": \"which sway-audio-idle-inhibit\",\n\t\t\"return-type\": \"json\",\n\t\t\"format-icons\": {\n\t\t\t\"output\": \"\",\n\t\t\t\"input\": \"\",\n\t\t\t\"output-input\": \"  \",\n\t\t\t\"none\": \"\"\n\t\t}\n\t},\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "7aLcQ7lJdsEwpDQe7h+uuUEyUSaH/c2QEKoey31Rvn8=",
+        "originContent": "\t\"custom/audio_idle_inhibitor\": {",
+        "translatedContent": "\t\"custom/audio_idle_inhibitor\": {"
+      },
+      {
+        "row": 3,
+        "rowsha": "8L0FcvE95DUMxVcISb6b9N/wr9hV9cbUY0bb6dewFl0=",
+        "originContent": "\t\t\"format\": \"{icon}\",",
+        "translatedContent": "\t\t\"format\": \"{icon}\","
+      },
+      {
+        "row": 4,
+        "rowsha": "AXGImdj3tIYMoZF4EtYfqn9LyffuzkEgPSwlkOf3X10=",
+        "originContent": "\t\t\"exec\": \"sway-audio-idle-inhibit --dry-print-both-waybar\",",
+        "translatedContent": "\t\t\"exec\": \"sway-audio-idle-inhibit --dry-print-both-waybar\","
+      },
+      {
+        "row": 5,
+        "rowsha": "8F4Oe3x6w+e0XgAvG6n090XoVV2jFiPF7uJa6Tj/0Fc=",
+        "originContent": "\t\t\"exec-if\": \"which sway-audio-idle-inhibit\",",
+        "translatedContent": "\t\t\"exec-if\": \"which sway-audio-idle-inhibit\","
+      },
+      {
+        "row": 6,
+        "rowsha": "0GFntHFcs/guR22gR7Gh6O7ijpJ5USge5QIhhRztHBs=",
+        "originContent": "\t\t\"return-type\": \"json\",",
+        "translatedContent": "\t\t\"return-type\": \"json\","
+      },
+      {
+        "row": 7,
+        "rowsha": "3/OC+DHWxkoJtbqUigdibX6a5ghTTWe97Qj4T28ub/U=",
+        "originContent": "\t\t\"format-icons\": {",
+        "translatedContent": "\t\t\"format-icons\": {"
+      },
+      {
+        "row": 8,
+        "rowsha": "+R0f5BIQf97oaQFA7YpChcwVRZ0KHJYrjO8FX+LnlTs=",
+        "originContent": "\t\t\t\"output\": \"\",",
+        "translatedContent": "\t\t\t\"output\": \"\","
+      },
+      {
+        "row": 9,
+        "rowsha": "1btzbW7f+horegbWl//x1H8ruvGknlpteQoyNdCW3UM=",
+        "originContent": "\t\t\t\"input\": \"\",",
+        "translatedContent": "\t\t\t\"input\": \"\","
+      },
+      {
+        "row": 10,
+        "rowsha": "xt/rDVWezabzgrSHVys+91MBQl4nPzqAGqy7YdJlQcM=",
+        "originContent": "\t\t\t\"output-input\": \"  \",",
+        "translatedContent": "\t\t\t\"output-input\": \"  \","
+      },
+      {
+        "row": 11,
+        "rowsha": "vYrginfWr/Lvo3Tlz7vcuICHBrw08SY2KVJCw1KhTac=",
+        "originContent": "\t\t\t\"none\": \"\"",
+        "translatedContent": "\t\t\t\"none\": \"\""
+      },
+      {
+        "row": 12,
+        "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+        "originContent": "\t\t}",
+        "translatedContent": "\t\t}"
+      },
+      {
+        "row": 13,
+        "rowsha": "7Q299uZf+Uj/1YxxhHt72H+AODJ+jAacNGWecbWMC5w=",
+        "originContent": "\t},",
+        "translatedContent": "\t},"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

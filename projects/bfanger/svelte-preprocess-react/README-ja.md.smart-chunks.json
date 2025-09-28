@@ -1,0 +1,939 @@
+[
+  {
+    "Id": 1,
+    "Content": "[![svelte-preprocess-react](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./static/svelte-preprocess-react.svg)](https://www.npmjs.com/package/svelte-preprocess-react)\n\n# Svelte Preprocess React\n\nSeamlessly use React components inside a Svelte app\n\nSupports:\n\n- Nesting (Slot & Children)\n- Contexts\n- SSR\n- Hooks ([useStore](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/useStore.md) & [hooks](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/hooks.md))\n\nThis project was featured at the [Svelte London - November 2022 Meetup](https://www.youtube.com/live/DXQl1G54DJY?feature=share&t=2569)\n\n> \"Embrace, extend and extinguish\"\n\nThis preprocessor is intended as solution using third-party React components or for migrating an existing React codebase.\n\n## Using React inside Svelte components\n\nInside the Svelte template prepend the name of the component with `react.` prefix.\n\nInstead of `<Button>`, you'd write `<react.Button>`\n\nUse libraries from the React's ecosystem, react-youtube for example:\n",
+    "ContentSha": "CURyyMyvbespYrTDYwJlq6Av4OCjddey5SxG24ucO/I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[![svelte-preprocess-react](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./static/svelte-preprocess-react.svg)](https://www.npmjs.com/package/svelte-preprocess-react)\n\n# Svelte Preprocess React\n\nSvelteアプリ内でReactコンポーネントをシームレスに使用\n\n対応：\n\n- ネスティング（スロット＆子要素）\n- コンテキスト\n- SSR\n- フック（[useStore](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/useStore.md)＆[hooks](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/hooks.md)）\n\n本プロジェクトは[Svelte London - 2022年11月ミートアップ](https://www.youtube.com/live/DXQl1G54DJY?feature=share&t=2569)で紹介されました\n\n> 「受け入れ、拡張し、消し去る」\n\nこのプリプロセッサは、サードパーティのReactコンポーネントを使用する場合や既存のReactコードベースを移行する際のソリューションとして意図されています。\n\n## Svelteコンポーネント内でReactを使用する\n\nSvelteテンプレート内でコンポーネント名の前に`react.`プレフィックスを付けます。\n\n`<Button>`の代わりに`<react.Button>`と書きます。\n\nReactのエコシステムのライブラリを使用、例えばreact-youtube：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "XLP1b9hlTHq17E3UbpXJKBgoDCKNAFlLQ9gnwdxaI88=",
+        "originContent": "[![svelte-preprocess-react](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./static/svelte-preprocess-react.svg)](https://www.npmjs.com/package/svelte-preprocess-react)",
+        "translatedContent": "[![svelte-preprocess-react](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./static/svelte-preprocess-react.svg)](https://www.npmjs.com/package/svelte-preprocess-react)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "/+rjReJF3kxAuXgrtdIXSYFKCTbJEgPxUlcn8JrAOnc=",
+        "originContent": "# Svelte Preprocess React",
+        "translatedContent": "# Svelte Preprocess React"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "p+oGOnLujfGQZb6Gc7pkkLdnDKraXJBV5T2tHVsXP8A=",
+        "originContent": "Seamlessly use React components inside a Svelte app",
+        "translatedContent": "Svelteアプリ内でReactコンポーネントをシームレスに使用"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "FHelD0pUIXxcoWNZgmIPRrFJX3DhQTvDEJjtdJaj7M0=",
+        "originContent": "Supports:",
+        "translatedContent": "対応："
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "WnB6g8qKtw86RODhyf6ckMyqIDS+AfW4MayVCDRbjWY=",
+        "originContent": "- Nesting (Slot & Children)",
+        "translatedContent": "- ネスティング（スロット＆子要素）"
+      },
+      {
+        "row": 10,
+        "rowsha": "69tzBcG3Oy9ouhLwRZqx1h/YamO5gTOxLTsW4bHpewA=",
+        "originContent": "- Contexts",
+        "translatedContent": "- コンテキスト"
+      },
+      {
+        "row": 11,
+        "rowsha": "sh1LrqwMJ2vqVZVZs37mTxCCDd9OxwhDxJMS+iB9xm8=",
+        "originContent": "- SSR",
+        "translatedContent": "- SSR"
+      },
+      {
+        "row": 12,
+        "rowsha": "ZXOqmX01W8yVgZLbMS5gJDjZFGQ/spzYVV7nsI8xHEY=",
+        "originContent": "- Hooks ([useStore](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/useStore.md) & [hooks](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/hooks.md))",
+        "translatedContent": "- フック（[useStore](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/useStore.md)＆[hooks](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/hooks.md)）"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "C/ygQd1kHRchDlTdDUX4RHsac7vxDnMYkMX5GDhg+KY=",
+        "originContent": "This project was featured at the [Svelte London - November 2022 Meetup](https://www.youtube.com/live/DXQl1G54DJY?feature=share&t=2569)",
+        "translatedContent": "本プロジェクトは[Svelte London - 2022年11月ミートアップ](https://www.youtube.com/live/DXQl1G54DJY?feature=share&t=2569)で紹介されました"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "35pn7aliNQPOj+n23cq6d93YRGiKawUGaHoeL7l4UPQ=",
+        "originContent": "> \"Embrace, extend and extinguish\"",
+        "translatedContent": "> 「受け入れ、拡張し、消し去る」"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "7rnsmX4hs3Kd0R/HWdBnSIK2Sra7tkK5p4mnAmG+Aa0=",
+        "originContent": "This preprocessor is intended as solution using third-party React components or for migrating an existing React codebase.",
+        "translatedContent": "このプリプロセッサは、サードパーティのReactコンポーネントを使用する場合や既存のReactコードベースを移行する際のソリューションとして意図されています。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "gX/zo7RZ6D2KptgoO6sH6mLTGfO871FD2DUvNerz9bM=",
+        "originContent": "## Using React inside Svelte components",
+        "translatedContent": "## Svelteコンポーネント内でReactを使用する"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "wNGtAgvIHG3PX2sc/JZltQ6ZxU0RY0Ea3OTU86zKwNg=",
+        "originContent": "Inside the Svelte template prepend the name of the component with `react.` prefix.",
+        "translatedContent": "Svelteテンプレート内でコンポーネント名の前に`react.`プレフィックスを付けます。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Vc9SAOTtWQD8/D6gYIvLLjayipe+ihFzhlCRflpView=",
+        "originContent": "Instead of `<Button>`, you'd write `<react.Button>`",
+        "translatedContent": "`<Button>`の代わりに`<react.Button>`と書きます。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "QTgK+4Fdzfiy/zBIKqF7K98Dxr5CtWyrr893UobbJ7c=",
+        "originContent": "Use libraries from the React's ecosystem, react-youtube for example:",
+        "translatedContent": "Reactのエコシステムのライブラリを使用、例えばreact-youtube："
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```svelte\n<script>\n  import YouTube from \"react-youtube\";\n\n  const react = sveltify({ YouTube }); // Optional step, but adds type-safety\n</script>\n\n<react.YouTube videoId=\"AdNJ3fydeao\" />\n```",
+    "ContentSha": "HYR+7pm52bGK/xB7M34VnBgglfIOa6n8ADXyMLPS7jk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```svelte\n<script>\n  import YouTube from \"react-youtube\";\n\n  const react = sveltify({ YouTube }); // Optional step, but adds type-safety\n</script>\n\n<react.YouTube videoId=\"AdNJ3fydeao\" />\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dGdWfYlkjRS5T9+YlyrWftkSK2lGiYYG2VmCnoZiEk0=",
+        "originContent": "```svelte",
+        "translatedContent": "```svelte"
+      },
+      {
+        "row": 2,
+        "rowsha": "W2Plsgl/xpBmAeheOB2Zin25caynPJIT3CsQfMq3NNQ=",
+        "originContent": "<script>",
+        "translatedContent": "<script>"
+      },
+      {
+        "row": 3,
+        "rowsha": "Me1ur1H7Ek+SpfiOf/124KSYVeaSGPtgTb21W0Ov0wQ=",
+        "originContent": "  import YouTube from \"react-youtube\";",
+        "translatedContent": "  import YouTube from \"react-youtube\";"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "+rFa/CAeuiucxipgf298hSU7/7x+6Z6HRODT/Cbi+5E=",
+        "originContent": "  const react = sveltify({ YouTube }); // Optional step, but adds type-safety",
+        "translatedContent": "  const react = sveltify({ YouTube }); // Optional step, but adds type-safety"
+      },
+      {
+        "row": 6,
+        "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+        "originContent": "</script>",
+        "translatedContent": "</script>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "o+dsTyyz/emf++vGDz5bpwWKQjNcQNcTNnmwhwjwL5Y=",
+        "originContent": "<react.YouTube videoId=\"AdNJ3fydeao\" />",
+        "translatedContent": "<react.YouTube videoId=\"AdNJ3fydeao\" />"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nThe snippet above would be generate:\n",
+    "ContentSha": "OXyLx5Xw2UjhTemHHGBdIkLQSspU2d1KtcZBrA3ejQA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "上記のスニペットは以下のように生成されます：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "上記のスニペットは以下のように生成されます："
+      },
+      {
+        "row": 2,
+        "rowsha": "3uY6H2BingAxSxCsTxxYKgMzgpEHrY2NsYFAfi2c1hU=",
+        "originContent": "The snippet above would be generate:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```svelte\n<!-- Generated by svelte-preprocess-react -->\n<script>\n  import ReactDOM from \"react-dom/client\";\n  import { createPortal } from \"react-dom\";\n  import { renderToString } from \"react-dom/server\";\n  import { sveltify } from \"svelte-preprocess-react\";\n  import YouTube from \"react-youtube\";\n\n  const react = sveltify(\n    { YouTube },\n    { createPortal, ReactDOM, renderToString },\n  );\n</script>\n\n<react.YouTube videoId=\"AdNJ3fydeao\" />\n```",
+    "ContentSha": "EPJeMx5J5Kem9yXA3zy2WV3Qi7VytPPcYNO1Ud1gEoM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```svelte\n<!-- Generated by svelte-preprocess-react -->\n<script>\n  import ReactDOM from \"react-dom/client\";\n  import { createPortal } from \"react-dom\";\n  import { renderToString } from \"react-dom/server\";\n  import { sveltify } from \"svelte-preprocess-react\";\n  import YouTube from \"react-youtube\";\n\n  const react = sveltify(\n    { YouTube },\n    { createPortal, ReactDOM, renderToString },\n  );\n</script>\n\n<react.YouTube videoId=\"AdNJ3fydeao\" />\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dGdWfYlkjRS5T9+YlyrWftkSK2lGiYYG2VmCnoZiEk0=",
+        "originContent": "```svelte",
+        "translatedContent": "```svelte"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ytede9cYDoXD83eKfkZDAMcUahPfsVTt+0rPf3EQqRk=",
+        "originContent": "<!-- Generated by svelte-preprocess-react -->",
+        "translatedContent": "<!-- Generated by svelte-preprocess-react -->"
+      },
+      {
+        "row": 3,
+        "rowsha": "W2Plsgl/xpBmAeheOB2Zin25caynPJIT3CsQfMq3NNQ=",
+        "originContent": "<script>",
+        "translatedContent": "<script>"
+      },
+      {
+        "row": 4,
+        "rowsha": "mOg0hM5qTq7iTzIYB0STLPnd6wXVj4KXrLJrNasLuAk=",
+        "originContent": "  import ReactDOM from \"react-dom/client\";",
+        "translatedContent": "  import ReactDOM from \"react-dom/client\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "D2UHO6agWLzpmTff8+6d7w4di0cnGjuAq35yKVxOB88=",
+        "originContent": "  import { createPortal } from \"react-dom\";",
+        "translatedContent": "  import { createPortal } from \"react-dom\";"
+      },
+      {
+        "row": 6,
+        "rowsha": "FyDmGE3w2EVQacFpCZSl8UffGLaIwc6swjBU/DZ1Zpg=",
+        "originContent": "  import { renderToString } from \"react-dom/server\";",
+        "translatedContent": "  import { renderToString } from \"react-dom/server\";"
+      },
+      {
+        "row": 7,
+        "rowsha": "vkJrtyjDmw1KBeVzOnsL/dxmcenoGmfj3aECOVjHVDk=",
+        "originContent": "  import { sveltify } from \"svelte-preprocess-react\";",
+        "translatedContent": "  import { sveltify } from \"svelte-preprocess-react\";"
+      },
+      {
+        "row": 8,
+        "rowsha": "Me1ur1H7Ek+SpfiOf/124KSYVeaSGPtgTb21W0Ov0wQ=",
+        "originContent": "  import YouTube from \"react-youtube\";",
+        "translatedContent": "  import YouTube from \"react-youtube\";"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "CtZZdNPnwwdCqdVzFVtTqfZgdbzLxdo6Djr9YDpVGOQ=",
+        "originContent": "  const react = sveltify(",
+        "translatedContent": "  const react = sveltify("
+      },
+      {
+        "row": 11,
+        "rowsha": "YKWbNHz05FgqTDVjywXC6e4m9FJaM55Za7mLTD7LX58=",
+        "originContent": "    { YouTube },",
+        "translatedContent": "    { YouTube },"
+      },
+      {
+        "row": 12,
+        "rowsha": "kLAqNrRPvFw7UXwqK+kubteyebJ13FPuD3CGXyr4MhY=",
+        "originContent": "    { createPortal, ReactDOM, renderToString },",
+        "translatedContent": "    { createPortal, ReactDOM, renderToString },"
+      },
+      {
+        "row": 13,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 14,
+        "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+        "originContent": "</script>",
+        "translatedContent": "</script>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "o+dsTyyz/emf++vGDz5bpwWKQjNcQNcTNnmwhwjwL5Y=",
+        "originContent": "<react.YouTube videoId=\"AdNJ3fydeao\" />",
+        "translatedContent": "<react.YouTube videoId=\"AdNJ3fydeao\" />"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Setup / Installation\n",
+    "ContentSha": "GenXl6lrz03d2DCTIV+nl/YHvQyQbKMZzTLvKOsqjCU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## セットアップ / インストール\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "JJtaBXwpGtLvXSoVs8fBf0yScN998q+/MD8eMWnsjdU=",
+        "originContent": "## Setup / Installation",
+        "translatedContent": "## セットアップ / インストール"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh\nnpm install --save-dev svelte-preprocess-react react react-dom\n```",
+    "ContentSha": "nnROOxT9XEBsCApg3P2MBWIVeyc5zKWzJWDBJ3C3tvg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nnpm install --save-dev svelte-preprocess-react react react-dom\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "eA3Ba/+oR/qDRPUDQEfCSWp1mNpIqgCdQJjQmptVLa4=",
+        "originContent": "npm install --save-dev svelte-preprocess-react react react-dom",
+        "translatedContent": "npm install --save-dev svelte-preprocess-react react react-dom"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nAdd `preprocessReact` to your svelte.config.js:\n",
+    "ContentSha": "1/V9up1WaYZJYZUuHvOvsgIf+4foyxGUbvrOerg9l0g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nsvelte.config.jsに`preprocessReact`を追加してください:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "kltFWo4D7B94rXOeGUNskuF4w4E0aV6EysoSkMxS5O4=",
+        "originContent": "Add `preprocessReact` to your svelte.config.js:",
+        "translatedContent": "svelte.config.jsに`preprocessReact`を追加してください:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```js\n// svelte.config.js\nimport preprocessReact from \"svelte-preprocess-react/preprocessReact\";\n\nexport default {\n  preprocess: preprocessReact(),\n};\n```",
+    "ContentSha": "bfwmLiLeX5jTjcaq+FaQIoFzKbcSxMqKEKZBb/fY6Sk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// svelte.config.js\nimport preprocessReact from \"svelte-preprocess-react/preprocessReact\";\n\nexport default {\n  preprocess: preprocessReact(),\n};\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "LZF7Sd65i19spA1f/ffEqG72Fm0WtXtPTq7EVjn6Nl8=",
+        "originContent": "// svelte.config.js",
+        "translatedContent": "// svelte.config.js"
+      },
+      {
+        "row": 3,
+        "rowsha": "E+9ll5UmM1BXouM/JzbMn38/8pyaI6mKsVCCdoFLsgc=",
+        "originContent": "import preprocessReact from \"svelte-preprocess-react/preprocessReact\";",
+        "translatedContent": "import preprocessReact from \"svelte-preprocess-react/preprocessReact\";"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ikHhPmgNY52/Y57QX+s+O3S6qF684Au/Zj4aR1NY1n4=",
+        "originContent": "export default {",
+        "translatedContent": "export default {"
+      },
+      {
+        "row": 6,
+        "rowsha": "1KnsLsKkfCVjpo9ENjXkwLL8nQvhKSi+2tLsesKP0JA=",
+        "originContent": "  preprocess: preprocessReact(),",
+        "translatedContent": "  preprocess: preprocessReact(),"
+      },
+      {
+        "row": 7,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nWhen using other processors like [@sveltejs/vite-plugin-svelte](https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/preprocess.md) or [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) add preprocessReact preprocessor as the last processor:\n",
+    "ContentSha": "p3fU1PYLeU2izk/nYA/qgNBH/tqNtAL1YwWBWhU9MiM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n他のプロセッサー（[@sveltejs/vite-plugin-svelte](https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/preprocess.md) や [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) など）を使用する場合は、preprocessReact プリプロセッサーを最後のプロセッサーとして追加してください:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "VvAUnAk6M6vBL22MRogRz6Y3K8GYiLcHQZhmKE2sNl0=",
+        "originContent": "When using other processors like [@sveltejs/vite-plugin-svelte](https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/preprocess.md) or [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) add preprocessReact preprocessor as the last processor:",
+        "translatedContent": "他のプロセッサー（[@sveltejs/vite-plugin-svelte](https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/preprocess.md) や [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) など）を使用する場合は、preprocessReact プリプロセッサーを最後のプロセッサーとして追加してください:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```js\n// svelte.config.js\nimport { vitePreprocess } from \"@sveltejs/vite-plugin-svelte\";\nimport preprocessReact from \"svelte-preprocess-react/preprocessReact\";\n\nexport default {\n  preprocess: [vitePreprocess(), preprocessReact()],\n};\n```",
+    "ContentSha": "1FaNh7gC/HAkVmDwZy5A+Y/kNIGvXyg9GQExTwFgm34=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// svelte.config.js\nimport { vitePreprocess } from \"@sveltejs/vite-plugin-svelte\";\nimport preprocessReact from \"svelte-preprocess-react/preprocessReact\";\n\nexport default {\n  preprocess: [vitePreprocess(), preprocessReact()],\n};\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "LZF7Sd65i19spA1f/ffEqG72Fm0WtXtPTq7EVjn6Nl8=",
+        "originContent": "// svelte.config.js",
+        "translatedContent": "// svelte.config.js"
+      },
+      {
+        "row": 3,
+        "rowsha": "SGQiZPgtfqED1Oh1eFg5EtWAHDc71lvMG5ahldLVdmE=",
+        "originContent": "import { vitePreprocess } from \"@sveltejs/vite-plugin-svelte\";",
+        "translatedContent": "import { vitePreprocess } from \"@sveltejs/vite-plugin-svelte\";"
+      },
+      {
+        "row": 4,
+        "rowsha": "E+9ll5UmM1BXouM/JzbMn38/8pyaI6mKsVCCdoFLsgc=",
+        "originContent": "import preprocessReact from \"svelte-preprocess-react/preprocessReact\";",
+        "translatedContent": "import preprocessReact from \"svelte-preprocess-react/preprocessReact\";"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ikHhPmgNY52/Y57QX+s+O3S6qF684Au/Zj4aR1NY1n4=",
+        "originContent": "export default {",
+        "translatedContent": "export default {"
+      },
+      {
+        "row": 7,
+        "rowsha": "vabTSy2lOUOlyoxf25xeYEPTAVhq5xBSlWVEJn2malE=",
+        "originContent": "  preprocess: [vitePreprocess(), preprocessReact()],",
+        "translatedContent": "  preprocess: [vitePreprocess(), preprocessReact()],"
+      },
+      {
+        "row": 8,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Using Svelte inside React components\n\nOnce you've converted a React component to Svelte, you'd want delete that React component, but some if other React components depended on that component you can use `reactify` to use the new Svelte component as a React component.\n",
+    "ContentSha": "TnEcx8WzDnKlQN/6JXqnpAt2Ekcn5ntQLjTIsdPiEn0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Reactコンポーネント内でのSvelteの使用\n\nReactコンポーネントをSvelteに変換したら、そのReactコンポーネントを削除したくなりますが、他のReactコンポーネントがそのコンポーネントに依存している場合は、新しいSvelteコンポーネントをReactコンポーネントとして使用するために`reactify`を使うことができます。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PNtyhqCIUQWyd7Jx+jx+b/OIpNRdS9A7YT/rbLp9f9U=",
+        "originContent": "## Using Svelte inside React components",
+        "translatedContent": "## Reactコンポーネント内でのSvelteの使用"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "PeuYIAmvgIMmtpe5UnSkmla0v64jU5imyEVD9j3yRJ8=",
+        "originContent": "Once you've converted a React component to Svelte, you'd want delete that React component, but some if other React components depended on that component you can use `reactify` to use the new Svelte component as a React component.",
+        "translatedContent": "ReactコンポーネントをSvelteに変換したら、そのReactコンポーネントを削除したくなりますが、他のReactコンポーネントがそのコンポーネントに依存している場合は、新しいSvelteコンポーネントをReactコンポーネントとして使用するために`reactify`を使うことができます。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```jsx\nimport { reactify } from \"svelte-preprocess-react\";\nimport Button from \"../components/Button.svelte\";\n\nconst svelte = reactify({ Button });\n\nfunction MyComponent() {\n  return (\n    <svelte.Button onClick={() => console.log(\"clicked\")}>\n      Click me\n    </svelte.Button>\n  );\n}\n```",
+    "ContentSha": "Rg8HAIEVz7eJeRwljsTDcEN9hw+t/1d6hJgYvc+8Q/I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```jsx\nimport { reactify } from \"svelte-preprocess-react\";\nimport Button from \"../components/Button.svelte\";\n\nconst svelte = reactify({ Button });\n\nfunction MyComponent() {\n  return (\n    <svelte.Button onClick={() => console.log(\"clicked\")}>\n      Click me\n    </svelte.Button>\n  );\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8rBbrdLwMAjUL0ibUtD/M+iDCqa1csdDg8uYk9eP9co=",
+        "originContent": "```jsx",
+        "translatedContent": "```jsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "DxgBJ0MPIYVld17vYrIxUK+jazYBwo67fRTAoSV6txM=",
+        "originContent": "import { reactify } from \"svelte-preprocess-react\";",
+        "translatedContent": "import { reactify } from \"svelte-preprocess-react\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "rXtcwRO6UalLENTt9pSsf44lI6nJxbajaR0ZyyTxxTE=",
+        "originContent": "import Button from \"../components/Button.svelte\";",
+        "translatedContent": "import Button from \"../components/Button.svelte\";"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "sElx5kqkG1mVeZGHEtKn7bNNuavdbWzGQ6g4uNj6ga8=",
+        "originContent": "const svelte = reactify({ Button });",
+        "translatedContent": "const svelte = reactify({ Button });"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "qGvFU70VvTbYwQs8PxHzQuDadEC0RDJHMZpZIxcBCgU=",
+        "originContent": "function MyComponent() {",
+        "translatedContent": "function MyComponent() {"
+      },
+      {
+        "row": 8,
+        "rowsha": "84SlYK5NUzfszHhEBHODzZuK+tdMNdZTAWduZ3PeP+k=",
+        "originContent": "  return (",
+        "translatedContent": "  return ("
+      },
+      {
+        "row": 9,
+        "rowsha": "lH+xQP3Vwp5MphrbJmhVHUd0q0KfLSTnkPwoz+4kPug=",
+        "originContent": "    <svelte.Button onClick={() => console.log(\"clicked\")}>",
+        "translatedContent": "    <svelte.Button onClick={() => console.log(\"clicked\")}>"
+      },
+      {
+        "row": 10,
+        "rowsha": "FSCcWnhPM3mIviRs2ALY7Nqv1rMwr8eMk0WYVu0JLpQ=",
+        "originContent": "      Click me",
+        "translatedContent": "      Click me"
+      },
+      {
+        "row": 11,
+        "rowsha": "YI/gLoCDQ4HIkk0fkMrnqw9I4LpZfoQAx/rWD/zYZBE=",
+        "originContent": "    </svelte.Button>",
+        "translatedContent": "    </svelte.Button>"
+      },
+      {
+        "row": 12,
+        "rowsha": "Ol0LnC/YJJO2a7oQgFnjM7GQp8P0iOq4D7q2qFP0Rzo=",
+        "originContent": "  );",
+        "translatedContent": "  );"
+      },
+      {
+        "row": 13,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## Using multiple frameworks is a bad idea\n\nUsing multiple frontend frameworks adds overhead, both in User and Developer experience.\n\n- Increased download size\n- Slower (each framework boundary adds overhead)\n- Context switching, keeping the intricacies of both Svelte and React in your head slows down development\n\nWhen using third-party React components, keep an eye out for Svelte alternatives, or publish your own.\n\nWhen used as migration tool (can be used to migrate _from_ or _to_ React),\nthe goal should be to stop writing new React components, and to convert existing React components to Svelte components.\nOnce all components are converted this preprocessor should be uninstalled.\n\n# More info\n\n- [reactify()](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/reactify.md) Convert a Svelte component into an React component\n- [hooks()](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/hooks.md) Using React hooks inside Svelte components\n- [useStore](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/useStore.md) Using a Svelte Store in a React components\n- [Caveats](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/caveats.md) Limitations and workarounds\n- [react-router](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/react-router.md) Migrate from react-router to SvelteKit\n- [Architecture](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/architecture.md) svelte-preprocess-react's API Design-principles and System architecture\n",
+    "ContentSha": "pzLxMCQVKordJXrlXI5g0LQ26jBW7xx8clJkMsegAPM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 複数のフレームワークを使用するのは良くない\n\n複数のフロントエンドフレームワークを使用すると、ユーザーと開発者の体験両方にオーバーヘッドが発生します。\n\n- ダウンロードサイズの増加\n- 遅延（各フレームワークの境界がオーバーヘッドを追加）\n- コンテキストスイッチング、SvelteとReactの両方の複雑さを頭に入れておくことが開発の遅れを招く\n\nサードパーティのReactコンポーネントを使用する際は、Svelteの代替品を探すか、自分で公開しましょう。\n\nマイグレーションツールとして使用する場合（Reactから、またはReactへ移行するために使用可能）、\n目標は新しいReactコンポーネントの作成をやめ、既存のReactコンポーネントをSvelteコンポーネントに変換することです。\n全てのコンポーネントが変換されたら、このプリプロセッサはアンインストールすべきです。\n\n# 詳細情報\n\n- [reactify()](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/reactify.md) SvelteコンポーネントをReactコンポーネントに変換する\n- [hooks()](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/hooks.md) Svelteコンポーネント内でReactフックを使用する\n- [useStore](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/useStore.md) Reactコンポーネント内でSvelteストアを使用する\n- [注意点](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/caveats.md) 制限事項と回避策\n- [react-router](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/react-router.md) react-routerからSvelteKitへの移行\n- [アーキテクチャ](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/architecture.md) svelte-preprocess-reactのAPI設計原則とシステムアーキテクチャ\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZzdwiRYVghi3+ohzcBYmbMV8QvgPc0+UXBbGe/3h9do=",
+        "originContent": "## Using multiple frameworks is a bad idea",
+        "translatedContent": "## 複数のフレームワークを使用するのは良くない"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Gcw4ijUBaJaxOCE+ytnwDCaFm8ohmSAvE2Ys7mclz+Q=",
+        "originContent": "Using multiple frontend frameworks adds overhead, both in User and Developer experience.",
+        "translatedContent": "複数のフロントエンドフレームワークを使用すると、ユーザーと開発者の体験両方にオーバーヘッドが発生します。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "w50lcyBdN4mpG4VrtEjB3v69Yr8iWmmQa18+WbfGjKw=",
+        "originContent": "- Increased download size",
+        "translatedContent": "- ダウンロードサイズの増加"
+      },
+      {
+        "row": 7,
+        "rowsha": "syJVOh9k0xWOrZlB8Nk1T+bXnYo5bu847jHiPvhQPlo=",
+        "originContent": "- Slower (each framework boundary adds overhead)",
+        "translatedContent": "- 遅延（各フレームワークの境界がオーバーヘッドを追加）"
+      },
+      {
+        "row": 8,
+        "rowsha": "woVxBpfvjpH3ARhxe02v2P/E9S3IEyRtgcyM/rdH7Ps=",
+        "originContent": "- Context switching, keeping the intricacies of both Svelte and React in your head slows down development",
+        "translatedContent": "- コンテキストスイッチング、SvelteとReactの両方の複雑さを頭に入れておくことが開発の遅れを招く"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "qMHfp9DO0e22taUEeWU2FgnZ8bwuqS1yfTvi7+zTstQ=",
+        "originContent": "When using third-party React components, keep an eye out for Svelte alternatives, or publish your own.",
+        "translatedContent": "サードパーティのReactコンポーネントを使用する際は、Svelteの代替品を探すか、自分で公開しましょう。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "wOv4f7l+pF8+xPePHSr1Lanu+l5MhFyuSoUrphJ4NyM=",
+        "originContent": "When used as migration tool (can be used to migrate _from_ or _to_ React),",
+        "translatedContent": "マイグレーションツールとして使用する場合（Reactから、またはReactへ移行するために使用可能）、"
+      },
+      {
+        "row": 13,
+        "rowsha": "Rs+lJpZ32iozPeDYAFs+V+0H5umCbGhzMQ0yJyHRPAE=",
+        "originContent": "the goal should be to stop writing new React components, and to convert existing React components to Svelte components.",
+        "translatedContent": "目標は新しいReactコンポーネントの作成をやめ、既存のReactコンポーネントをSvelteコンポーネントに変換することです。"
+      },
+      {
+        "row": 14,
+        "rowsha": "PPvr+mNK7TX4otAJgBFN9CyXwT5R+fKGb+VdFMb8JMk=",
+        "originContent": "Once all components are converted this preprocessor should be uninstalled.",
+        "translatedContent": "全てのコンポーネントが変換されたら、このプリプロセッサはアンインストールすべきです。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "C9ch81+SerhrlO7A4R2M6aPOQ80jPCWWcVkMf6hzTyY=",
+        "originContent": "# More info",
+        "translatedContent": "# 詳細情報"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "UlOMnAkYOoDLIX/HnyPgPom/odKCISipXEmkhrnfZcA=",
+        "originContent": "- [reactify()](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/reactify.md) Convert a Svelte component into an React component",
+        "translatedContent": "- [reactify()](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/reactify.md) SvelteコンポーネントをReactコンポーネントに変換する"
+      },
+      {
+        "row": 19,
+        "rowsha": "L5febxz4FPHkDs/rihDnzGQkf0XctJG1gx5dWE6Ixws=",
+        "originContent": "- [hooks()](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/hooks.md) Using React hooks inside Svelte components",
+        "translatedContent": "- [hooks()](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/hooks.md) Svelteコンポーネント内でReactフックを使用する"
+      },
+      {
+        "row": 20,
+        "rowsha": "t7olaR/DskS1tHfLdmpGEqKphelOkLa5RExWwjIAx8E=",
+        "originContent": "- [useStore](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/useStore.md) Using a Svelte Store in a React components",
+        "translatedContent": "- [useStore](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/useStore.md) Reactコンポーネント内でSvelteストアを使用する"
+      },
+      {
+        "row": 21,
+        "rowsha": "L12CPAERAjzYyfAsdcHIl/PjgazY4vXzkv5bfw3sYgU=",
+        "originContent": "- [Caveats](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/caveats.md) Limitations and workarounds",
+        "translatedContent": "- [注意点](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/caveats.md) 制限事項と回避策"
+      },
+      {
+        "row": 22,
+        "rowsha": "S6QX310P+rs/JWGNP0EXOzuxHTxYV+VUaIDyA9UpDC4=",
+        "originContent": "- [react-router](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/react-router.md) Migrate from react-router to SvelteKit",
+        "translatedContent": "- [react-router](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/react-router.md) react-routerからSvelteKitへの移行"
+      },
+      {
+        "row": 23,
+        "rowsha": "0MHOBrSsnAWCgENvyZvRvRpTp2NwhYbEYyV2GEnYd9s=",
+        "originContent": "- [Architecture](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/architecture.md) svelte-preprocess-react's API Design-principles and System architecture",
+        "translatedContent": "- [アーキテクチャ](https://raw.githubusercontent.com/bfanger/svelte-preprocess-react/main/./docs/architecture.md) svelte-preprocess-reactのAPI設計原則とシステムアーキテクチャ"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
