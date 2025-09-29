@@ -1,0 +1,1545 @@
+[
+  {
+    "Id": 1,
+    "Content": "![icon](https://github.com/user-attachments/assets/5abf1763-b290-4f12-a661-986e58fbeaad)\n\n![swift](https://img.shields.io/badge/Swift-5.0%2B-green)\n![release](https://img.shields.io/github/v/release/brillcp/pokedexui)\n![platforms](https://img.shields.io/badge/Platforms-iOS%20iPadOS%20macOS-blue)\n[![spm](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-green)](#swift-package-manager)\n[![license](https://img.shields.io/github/license/brillcp/pokedexui)](/LICENSE)\n![stars](https://img.shields.io/github/stars/brillcp/pokedexui?style=social)\n\n# PokedexUI\nPokedexUI is a modern example app built with **SwiftUI** by [Viktor Gidlöf](https://viktorgidlof.com).\nIt integrates with the [PokeAPI](https://pokeapi.co) to fetch and display Pokémon data using a clean, reactive architecture using `async / await` and Swift Concurrency.\n\n<img width=\"360\" alt=\"pd1\" src=\"https://github.com/user-attachments/assets/13c2362d-4519-4457-8e8f-94c0b97ad1f9\" />\n<img width=\"360\" alt=\"pd2\" src=\"https://github.com/user-attachments/assets/facfadbd-da67-4de8-9e7d-ac6c4207fbee\" />\n\n# Architecture 🏛\n\nPokedexUI implements a **Protocol-Oriented MVVM** architecture with **Clean Architecture** principles. It features generic data fetching, SwiftData persistence, and reactive UI updates using Swift's `@Observable` macro.\n\n## Key Architectural Benefits\n- ✅ **Protocol-Oriented**: Enables dependency injection and easy testing\n- ✅ **Generic Data Flow**: Unified pattern for all data sources  \n- ✅ **Storage-First**: Offline-capable with automatic sync\n- ✅ **Actor-Based Concurrency**: Thread-safe data operations\n- ✅ **Clean Separation**: Clear boundaries between layers\n- ✅ **Type Safety**: Compile-time guarantees via generics\n- ✅ **Reactive UI**: Automatic updates via @Observable\n\n### SOLID Compliance Score: 0.92 / 1.0\n- **S**ingle Responsibility: Each component has a focused purpose\n- **O**pen/Closed: Extensible via protocols without modification  \n- **L**iskov Substitution: Protocol conformance ensures substitutability\n- **I**nterface Segregation: Focused, cohesive protocols\n- **D**ependency Inversion: Depends on abstractions, not concretions\n\n## View Layer 📱\n\nThe root `PokedexView` is a generic view that accepts protocol-conforming ViewModels, enabling dependency injection and testability:",
+    "ContentSha": "8X0Qofb8iCg9uoQpvt+FPoOLkgPtLNUk1vQfbCmTq3g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![icon](https://github.com/user-attachments/assets/5abf1763-b290-4f12-a661-986e58fbeaad)\n\n![swift](https://img.shields.io/badge/Swift-5.0%2B-green)\n![release](https://img.shields.io/github/v/release/brillcp/pokedexui)\n![platforms](https://img.shields.io/badge/Platforms-iOS%20iPadOS%20macOS-blue)\n[![spm](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-green)](#swift-package-manager)\n[![license](https://img.shields.io/github/license/brillcp/pokedexui)](/LICENSE)\n![stars](https://img.shields.io/github/stars/brillcp/pokedexui?style=social)\n\n# PokedexUI\nPokedexUI 是一个由 [Viktor Gidlöf](https://viktorgidlof.com) 使用 **SwiftUI** 构建的现代示例应用。\n它集成了 [PokeAPI](https://pokeapi.co)，使用清晰的响应式架构，通过 `async / await` 和 Swift 并发来获取和展示宝可梦数据。\n\n<img width=\"360\" alt=\"pd1\" src=\"https://github.com/user-attachments/assets/13c2362d-4519-4457-8e8f-94c0b97ad1f9\" />\n<img width=\"360\" alt=\"pd2\" src=\"https://github.com/user-attachments/assets/facfadbd-da67-4de8-9e7d-ac6c4207fbee\" />\n\n# 架构 🏛\n\nPokedexUI 实现了基于协议的 MVVM 架构，遵循 **Clean Architecture** 原则。它具备通用数据获取、SwiftData 持久化，以及使用 Swift 的 `@Observable` 宏进行响应式 UI 更新。\n\n## 主要架构优势\n- ✅ **基于协议**：支持依赖注入和便捷测试\n- ✅ **通用数据流**：所有数据源统一模式  \n- ✅ **存储优先**：支持离线使用及自动同步\n- ✅ **基于 Actor 的并发**：线程安全的数据操作\n- ✅ **清晰分层**：层之间边界明确\n- ✅ **类型安全**：通过泛型实现编译时保障\n- ✅ **响应式 UI**：通过 @Observable 自动更新\n\n### SOLID 合规评分：0.92 / 1.0\n- **S** 单一职责：每个组件职责聚焦\n- **O** 开闭原则：通过协议扩展，无需修改即可扩展  \n- **L** 里氏替换：协议遵循保证可替代性\n- **I** 接口隔离：专注且内聚的协议\n- **D** 依赖倒置：依赖抽象而非具体实现\n\n## 视图层 📱\n\n根视图 `PokedexView` 是一个通用视图，接受遵循协议的 ViewModel，支持依赖注入和测试：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cIkAnWh0SFfBjRnZ+q/c2NTkcVGNVluxWnkS3nv+JPc=",
+        "originContent": "![icon](https://github.com/user-attachments/assets/5abf1763-b290-4f12-a661-986e58fbeaad)",
+        "translatedContent": "![icon](https://github.com/user-attachments/assets/5abf1763-b290-4f12-a661-986e58fbeaad)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "mNzwLT1xCuTY+cUwl7Nmz9+X8RWI1ud1fWz4a4VIcqA=",
+        "originContent": "![swift](https://img.shields.io/badge/Swift-5.0%2B-green)",
+        "translatedContent": "![swift](https://img.shields.io/badge/Swift-5.0%2B-green)"
+      },
+      {
+        "row": 4,
+        "rowsha": "A8Md/JxEWFhC2NTXzNOqxA+Q2NdZby4LPsioYcGRwM8=",
+        "originContent": "![release](https://img.shields.io/github/v/release/brillcp/pokedexui)",
+        "translatedContent": "![release](https://img.shields.io/github/v/release/brillcp/pokedexui)"
+      },
+      {
+        "row": 5,
+        "rowsha": "qz6Q90QPCiDZkZEtrs/WrqhZDymjAvUEWZO4xqHonNU=",
+        "originContent": "![platforms](https://img.shields.io/badge/Platforms-iOS%20iPadOS%20macOS-blue)",
+        "translatedContent": "![platforms](https://img.shields.io/badge/Platforms-iOS%20iPadOS%20macOS-blue)"
+      },
+      {
+        "row": 6,
+        "rowsha": "dvNyZeLZVjz5v56WBXiGQyi5HflKm7py0bQyER8NAJw=",
+        "originContent": "[![spm](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-green)](#swift-package-manager)",
+        "translatedContent": "[![spm](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-green)](#swift-package-manager)"
+      },
+      {
+        "row": 7,
+        "rowsha": "cJVjQsuf6iZrWhKwjMfKvF4Ayk+dUK9PawabeIrhopc=",
+        "originContent": "[![license](https://img.shields.io/github/license/brillcp/pokedexui)](/LICENSE)",
+        "translatedContent": "[![license](https://img.shields.io/github/license/brillcp/pokedexui)](/LICENSE)"
+      },
+      {
+        "row": 8,
+        "rowsha": "qRW3j6Bkg42BC3rT/RjtJaTYunzqhB781NtrFu7YDJs=",
+        "originContent": "![stars](https://img.shields.io/github/stars/brillcp/pokedexui?style=social)",
+        "translatedContent": "![stars](https://img.shields.io/github/stars/brillcp/pokedexui?style=social)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "r4wwjxQ+/YJyI5+Qgsfa8/Z+ZgrZeqcG7hrU03W0CH0=",
+        "originContent": "# PokedexUI",
+        "translatedContent": "# PokedexUI"
+      },
+      {
+        "row": 11,
+        "rowsha": "zBOino/KB37+5mddluVZsxsqoNp27kc2eY5OfjwkAbc=",
+        "originContent": "PokedexUI is a modern example app built with **SwiftUI** by [Viktor Gidlöf](https://viktorgidlof.com).",
+        "translatedContent": "PokedexUI 是一个由 [Viktor Gidlöf](https://viktorgidlof.com) 使用 **SwiftUI** 构建的现代示例应用。"
+      },
+      {
+        "row": 12,
+        "rowsha": "fFhIXFSMMXTQXzt80dCXQODkuXsO3Up900MPPqFJnh0=",
+        "originContent": "It integrates with the [PokeAPI](https://pokeapi.co) to fetch and display Pokémon data using a clean, reactive architecture using `async / await` and Swift Concurrency.",
+        "translatedContent": "它集成了 [PokeAPI](https://pokeapi.co)，使用清晰的响应式架构，通过 `async / await` 和 Swift 并发来获取和展示宝可梦数据。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "nfaxUUP1Ji9AaFvA/0F4LKP6ZqAjpbvYd/u7Nrl9fk0=",
+        "originContent": "<img width=\"360\" alt=\"pd1\" src=\"https://github.com/user-attachments/assets/13c2362d-4519-4457-8e8f-94c0b97ad1f9\" />",
+        "translatedContent": "<img width=\"360\" alt=\"pd1\" src=\"https://github.com/user-attachments/assets/13c2362d-4519-4457-8e8f-94c0b97ad1f9\" />"
+      },
+      {
+        "row": 15,
+        "rowsha": "WMi98MqpDw7qrGXxwqwSJ7B8QjlTk873Vz9WlycrdiU=",
+        "originContent": "<img width=\"360\" alt=\"pd2\" src=\"https://github.com/user-attachments/assets/facfadbd-da67-4de8-9e7d-ac6c4207fbee\" />",
+        "translatedContent": "<img width=\"360\" alt=\"pd2\" src=\"https://github.com/user-attachments/assets/facfadbd-da67-4de8-9e7d-ac6c4207fbee\" />"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "nj9AlGAu2hCHxGUmm5BNC5h+n3lo61uKL+Fbyp2rWX0=",
+        "originContent": "# Architecture 🏛",
+        "translatedContent": "# 架构 🏛"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "OIVefgsVneJ0CieYP/C9csOmzGDJbb3nUGM5e0Qxcn8=",
+        "originContent": "PokedexUI implements a **Protocol-Oriented MVVM** architecture with **Clean Architecture** principles. It features generic data fetching, SwiftData persistence, and reactive UI updates using Swift's `@Observable` macro.",
+        "translatedContent": "PokedexUI 实现了基于协议的 MVVM 架构，遵循 **Clean Architecture** 原则。它具备通用数据获取、SwiftData 持久化，以及使用 Swift 的 `@Observable` 宏进行响应式 UI 更新。"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "cIGgDayWEIQ7bEWNP3CBfQHFz9YSLD+Ctm5uvlbX2p4=",
+        "originContent": "## Key Architectural Benefits",
+        "translatedContent": "## 主要架构优势"
+      },
+      {
+        "row": 22,
+        "rowsha": "ozhjpPOJLSdBkaOzR8OKEjm6i6Zzb/uYfru2LxcoWRo=",
+        "originContent": "- ✅ **Protocol-Oriented**: Enables dependency injection and easy testing",
+        "translatedContent": "- ✅ **基于协议**：支持依赖注入和便捷测试"
+      },
+      {
+        "row": 23,
+        "rowsha": "y+m2TpEFr8AWV6HvRu5YOCR6RRdwDIfsvCupQXb7BqA=",
+        "originContent": "- ✅ **Generic Data Flow**: Unified pattern for all data sources  ",
+        "translatedContent": "- ✅ **通用数据流**：所有数据源统一模式  "
+      },
+      {
+        "row": 24,
+        "rowsha": "RqLrs0QuPTF5L6f8VHihUitpm8QWIHBF+kBEpyPG5AI=",
+        "originContent": "- ✅ **Storage-First**: Offline-capable with automatic sync",
+        "translatedContent": "- ✅ **存储优先**：支持离线使用及自动同步"
+      },
+      {
+        "row": 25,
+        "rowsha": "bxVe3AThlr3cC3lmL+dny12cKHxc2Km5OFqcZIRCoMM=",
+        "originContent": "- ✅ **Actor-Based Concurrency**: Thread-safe data operations",
+        "translatedContent": "- ✅ **基于 Actor 的并发**：线程安全的数据操作"
+      },
+      {
+        "row": 26,
+        "rowsha": "bfkmJk8O91p0j6lEEyp8rvZ7WVkb4RQoi+5zpmrXnUo=",
+        "originContent": "- ✅ **Clean Separation**: Clear boundaries between layers",
+        "translatedContent": "- ✅ **清晰分层**：层之间边界明确"
+      },
+      {
+        "row": 27,
+        "rowsha": "Oq4+v0s50pH+DAIY3ORU8fqF8l3A6KRAV8rMl29wtdk=",
+        "originContent": "- ✅ **Type Safety**: Compile-time guarantees via generics",
+        "translatedContent": "- ✅ **类型安全**：通过泛型实现编译时保障"
+      },
+      {
+        "row": 28,
+        "rowsha": "D1ZwREtTaAVdW5MwCU/TIcWp1wbYW5JYZg7bx8QwAKQ=",
+        "originContent": "- ✅ **Reactive UI**: Automatic updates via @Observable",
+        "translatedContent": "- ✅ **响应式 UI**：通过 @Observable 自动更新"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "sDO3cSqG6qmuCemWlt5hv8d+Vo1wmxyUuzbg/bpcDN8=",
+        "originContent": "### SOLID Compliance Score: 0.92 / 1.0",
+        "translatedContent": "### SOLID 合规评分：0.92 / 1.0"
+      },
+      {
+        "row": 31,
+        "rowsha": "M+5JVvGtE6og2JvAIecR5CQywcY8vvj4putiTuupE/o=",
+        "originContent": "- **S**ingle Responsibility: Each component has a focused purpose",
+        "translatedContent": "- **S** 单一职责：每个组件职责聚焦"
+      },
+      {
+        "row": 32,
+        "rowsha": "yHDmVULre/yZQu2vSz1Xds1lr8oegHCGyqwPhNYTxAY=",
+        "originContent": "- **O**pen/Closed: Extensible via protocols without modification  ",
+        "translatedContent": "- **O** 开闭原则：通过协议扩展，无需修改即可扩展  "
+      },
+      {
+        "row": 33,
+        "rowsha": "HhvmvixFeEx/IilOgTENlgRzgzO7CRHaxu6yNoLVSw8=",
+        "originContent": "- **L**iskov Substitution: Protocol conformance ensures substitutability",
+        "translatedContent": "- **L** 里氏替换：协议遵循保证可替代性"
+      },
+      {
+        "row": 34,
+        "rowsha": "7SvVw1DF/mn4Opd0hagPQ8ckws7jlVtBLaFqsPpvPzw=",
+        "originContent": "- **I**nterface Segregation: Focused, cohesive protocols",
+        "translatedContent": "- **I** 接口隔离：专注且内聚的协议"
+      },
+      {
+        "row": 35,
+        "rowsha": "5FOw+h9SaQLDbm9/4d6u80HulSLFDw+Rm4nqPx2bAtg=",
+        "originContent": "- **D**ependency Inversion: Depends on abstractions, not concretions",
+        "translatedContent": "- **D** 依赖倒置：依赖抽象而非具体实现"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "20l1H++rOAtaQCSl2HtC1V5/Gu9Y33yTtUWWlXv40U8=",
+        "originContent": "## View Layer 📱",
+        "translatedContent": "## 视图层 📱"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "75wQzA5fzR+Ugobwqhk1lK8WTJ7cJle011FjSLgBal0=",
+        "originContent": "The root `PokedexView` is a generic view that accepts protocol-conforming ViewModels, enabling dependency injection and testability:",
+        "translatedContent": "根视图 `PokedexView` 是一个通用视图，接受遵循协议的 ViewModel，支持依赖注入和测试："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```swift\nstruct PokedexView<\n    PokedexViewModel: PokedexViewModelProtocol,\n    ItemListViewModel: ItemListViewModelProtocol,\n>: View {\n    @State var viewModel: PokedexViewModel\n    let itemListViewModel: ItemListViewModel\n    \n    var body: some View {\n        TabView(selection: $viewModel.selectedTab) {\n            Tab(Tabs.pokedex.title, systemImage: viewModel.grid.icon, value: Tabs.pokedex) {\n                PokedexContent(viewModel: $viewModel)\n            }\n            // Additional tabs...\n        }\n        .applyPokedexConfiguration(viewModel: viewModel)\n    }\n}\n```",
+    "ContentSha": "iCUyzNCLyYR/b5ZQeRY9OX7cPFzp8KxcNR8jsMmKB0Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nstruct PokedexView<\n    PokedexViewModel: PokedexViewModelProtocol,\n    ItemListViewModel: ItemListViewModelProtocol,\n>: View {\n    @State var viewModel: PokedexViewModel\n    let itemListViewModel: ItemListViewModel\n    \n    var body: some View {\n        TabView(selection: $viewModel.selectedTab) {\n            Tab(Tabs.pokedex.title, systemImage: viewModel.grid.icon, value: Tabs.pokedex) {\n                PokedexContent(viewModel: $viewModel)\n            }\n            // Additional tabs...\n        }\n        .applyPokedexConfiguration(viewModel: viewModel)\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "mZNbniPVo+4f7zhLjFaJJxvKex3mzAPjz232AhKDY5c=",
+        "originContent": "struct PokedexView<",
+        "translatedContent": "struct PokedexView<"
+      },
+      {
+        "row": 3,
+        "rowsha": "77duq+QahOkEXrQ9c/8kBFXzwk2kPWxPLnFgm4tk3jI=",
+        "originContent": "    PokedexViewModel: PokedexViewModelProtocol,",
+        "translatedContent": "    PokedexViewModel: PokedexViewModelProtocol,"
+      },
+      {
+        "row": 4,
+        "rowsha": "v7bqcaXMBGNV4jYjVwnOP7yZrnjqxOpYlHbGUIIYi/I=",
+        "originContent": "    ItemListViewModel: ItemListViewModelProtocol,",
+        "translatedContent": "    ItemListViewModel: ItemListViewModelProtocol,"
+      },
+      {
+        "row": 5,
+        "rowsha": "rNBBcwqRwmxRq1BHy/7q0/FzbCACx8SKZI2xU5+SkCA=",
+        "originContent": ">: View {",
+        "translatedContent": ">: View {"
+      },
+      {
+        "row": 6,
+        "rowsha": "r3R9vjGLdx9Iw1oH3nmb1f38RXBeNqfjeTvfhbCk01U=",
+        "originContent": "    @State var viewModel: PokedexViewModel",
+        "translatedContent": "    @State var viewModel: PokedexViewModel"
+      },
+      {
+        "row": 7,
+        "rowsha": "nghBc/oCMa1iSPrHuK7EBZS8kDfdLkeCvu1QoWH4SKk=",
+        "originContent": "    let itemListViewModel: ItemListViewModel",
+        "translatedContent": "    let itemListViewModel: ItemListViewModel"
+      },
+      {
+        "row": 8,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 9,
+        "rowsha": "AYDRgYscktMdqFb/9BSm3cMZBkyqqgAhFlY30+ojyX8=",
+        "originContent": "    var body: some View {",
+        "translatedContent": "    var body: some View {"
+      },
+      {
+        "row": 10,
+        "rowsha": "XdAm2yPS7nkz19FPQuHtYVvpxI499E2bgapyN+MyIx8=",
+        "originContent": "        TabView(selection: $viewModel.selectedTab) {",
+        "translatedContent": "        TabView(selection: $viewModel.selectedTab) {"
+      },
+      {
+        "row": 11,
+        "rowsha": "O3+6bN6PVXq3E136nyzz0u8cmliDd6yN7oEOMO1FdaA=",
+        "originContent": "            Tab(Tabs.pokedex.title, systemImage: viewModel.grid.icon, value: Tabs.pokedex) {",
+        "translatedContent": "            Tab(Tabs.pokedex.title, systemImage: viewModel.grid.icon, value: Tabs.pokedex) {"
+      },
+      {
+        "row": 12,
+        "rowsha": "japMs/wYuSn+u8RsPQ2DwxbPd004QbBgWb57m4hHd8w=",
+        "originContent": "                PokedexContent(viewModel: $viewModel)",
+        "translatedContent": "                PokedexContent(viewModel: $viewModel)"
+      },
+      {
+        "row": 13,
+        "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+        "originContent": "            }",
+        "translatedContent": "            }"
+      },
+      {
+        "row": 14,
+        "rowsha": "axChkBpqcuhl0UbD5C6QsDGxC8wlFQ2s4bqXlCH94Fw=",
+        "originContent": "            // Additional tabs...",
+        "translatedContent": "            // Additional tabs..."
+      },
+      {
+        "row": 15,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 16,
+        "rowsha": "TbOiq4GZcZ8vpNSnKrrpiD1T7Ph5jH4R45jD6J/Y8kQ=",
+        "originContent": "        .applyPokedexConfiguration(viewModel: viewModel)",
+        "translatedContent": "        .applyPokedexConfiguration(viewModel: viewModel)"
+      },
+      {
+        "row": 17,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 18,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## ViewModel Layer 🧾\n\n### Protocol-Oriented Design\nViewModels conform to protocols, enabling flexible implementations and easier testing:",
+    "ContentSha": "/b7Cx6augixOYaYpXVzhPvDd0Ye0P1HvUEOW+kRnA1E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 视图模型层 🧾\n\n### 面向协议设计\n视图模型遵循协议，实现灵活的实现和更简便的测试：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "1yqD2KqoAGvT4k1MEfPiMqzYGjFbAVHPMb3qg57HMFI=",
+        "originContent": "## ViewModel Layer 🧾",
+        "translatedContent": "## 视图模型层 🧾"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "M+50P0J8hTpJ/YdeMaCWc65JBwOeKs1lpsN542x056U=",
+        "originContent": "### Protocol-Oriented Design",
+        "translatedContent": "### 面向协议设计"
+      },
+      {
+        "row": 5,
+        "rowsha": "glwxrkpcquPDvAREj18hUSuyKX25jkInFdvgDcrNfQU=",
+        "originContent": "ViewModels conform to protocols, enabling flexible implementations and easier testing:",
+        "translatedContent": "视图模型遵循协议，实现灵活的实现和更简便的测试："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```swift\nprotocol PokedexViewModelProtocol {\n    var pokemon: [PokemonViewModel] { get }\n    var isLoading: Bool { get }\n    var selectedTab: Tabs { get set }\n    var grid: GridLayout { get set }\n    \n    func requestPokemon() async\n    func sort(by type: SortType)\n}\n```",
+    "ContentSha": "c440UL/z6cV166W5mv1/EILCtzYiQAS85iq+ZBRaP7I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nprotocol PokedexViewModelProtocol {\n    var pokemon: [PokemonViewModel] { get }\n    var isLoading: Bool { get }\n    var selectedTab: Tabs { get set }\n    var grid: GridLayout { get set }\n    \n    func requestPokemon() async\n    func sort(by type: SortType)\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "SmKSybVvDK8ETW+Mk0qM4GEOWZNTqdumAy21zCjHnXg=",
+        "originContent": "protocol PokedexViewModelProtocol {",
+        "translatedContent": "protocol PokedexViewModelProtocol {"
+      },
+      {
+        "row": 3,
+        "rowsha": "H96zFPiH/9uXss5b8TJEE5nGLEGEwvNLGKCvRAUuOas=",
+        "originContent": "    var pokemon: [PokemonViewModel] { get }",
+        "translatedContent": "    var pokemon: [PokemonViewModel] { get }"
+      },
+      {
+        "row": 4,
+        "rowsha": "KcPhxio48Vl/QK7Bb4LK94MpSCA2bkmK+XBu5rmJn3Y=",
+        "originContent": "    var isLoading: Bool { get }",
+        "translatedContent": "    var isLoading: Bool { get }"
+      },
+      {
+        "row": 5,
+        "rowsha": "0gGzDElmWWzepbb+kdpaEd8w/OQR4n2dp2wbKzMrOV0=",
+        "originContent": "    var selectedTab: Tabs { get set }",
+        "translatedContent": "    var selectedTab: Tabs { get set }"
+      },
+      {
+        "row": 6,
+        "rowsha": "OuJuCRAcNHESZALUF7wZRFK3e4Wj5bGUzahcxAYoCYQ=",
+        "originContent": "    var grid: GridLayout { get set }",
+        "translatedContent": "    var grid: GridLayout { get set }"
+      },
+      {
+        "row": 7,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 8,
+        "rowsha": "qbLyPdBfQO3FZ37xYzrQVvcByGi7sxs1aVyC4807XXQ=",
+        "originContent": "    func requestPokemon() async",
+        "translatedContent": "    func requestPokemon() async"
+      },
+      {
+        "row": 9,
+        "rowsha": "vpayPeeCT6rYThY8dmQp+TFCUV9OA+RkIE7gmNZUA98=",
+        "originContent": "    func sort(by type: SortType)",
+        "translatedContent": "    func sort(by type: SortType)"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Generic Data Fetching\nThe `DataFetcher` protocol provides a unified pattern for storage-first data loading:",
+    "ContentSha": "1qNZ6uqadKDgZehoul/doEEL5uyv/hkmdsApegdigfw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 通用数据获取\n`DataFetcher` 协议提供了一种统一的以存储优先的数据加载模式：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PzL70v/t7HQa2Sovl2rBjCGeqJUEs81mUrOHDpTA/ac=",
+        "originContent": "### Generic Data Fetching",
+        "translatedContent": "### 通用数据获取"
+      },
+      {
+        "row": 3,
+        "rowsha": "kqwz0uh2tam2NrzJIbZTE5CWHm+mXjwxX7x4D7h8p2Q=",
+        "originContent": "The `DataFetcher` protocol provides a unified pattern for storage-first data loading:",
+        "translatedContent": "`DataFetcher` 协议提供了一种统一的以存储优先的数据加载模式："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```swift\nprotocol DataFetcher {\n    associatedtype StoredData\n    associatedtype APIData  \n    associatedtype ViewModel\n    \n    func fetchStoredData() async throws -> [StoredData]\n    func fetchAPIData() async throws -> [APIData]\n    func storeData(_ data: [StoredData]) async throws\n    func transformToViewModel(_ data: StoredData) -> ViewModel\n    func transformForStorage(_ data: APIData) -> StoredData\n}\n\nextension DataFetcher {\n    func fetchDataFromStorageOrAPI() async -> [ViewModel] {\n        // Storage-first approach with API fallback\n        guard let localData = await fetchStoredDataSafely(), !localData.isEmpty else {\n            return await fetchDataFromAPI()\n        }\n        return localData.map(transformToViewModel)\n    }\n}\n```",
+    "ContentSha": "ksv1tOOeOU7eNW32iksfwIhhdnyt4k4ZiSsnssZuFVw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nprotocol DataFetcher {\n    associatedtype StoredData\n    associatedtype APIData  \n    associatedtype ViewModel\n    \n    func fetchStoredData() async throws -> [StoredData]\n    func fetchAPIData() async throws -> [APIData]\n    func storeData(_ data: [StoredData]) async throws\n    func transformToViewModel(_ data: StoredData) -> ViewModel\n    func transformForStorage(_ data: APIData) -> StoredData\n}\n\nextension DataFetcher {\n    func fetchDataFromStorageOrAPI() async -> [ViewModel] {\n        // Storage-first approach with API fallback\n        guard let localData = await fetchStoredDataSafely(), !localData.isEmpty else {\n            return await fetchDataFromAPI()\n        }\n        return localData.map(transformToViewModel)\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "EfbMpxboTVVN6UP+NlV/Rp5dGhxq5zM0m1O7Y5V6U78=",
+        "originContent": "protocol DataFetcher {",
+        "translatedContent": "protocol DataFetcher {"
+      },
+      {
+        "row": 3,
+        "rowsha": "nMk5xKrWSjmRjBy5FlTYWT4wrxW1Bo197emTeRv5Oho=",
+        "originContent": "    associatedtype StoredData",
+        "translatedContent": "    associatedtype StoredData"
+      },
+      {
+        "row": 4,
+        "rowsha": "kCwnPiI2ndQp5aYFHXU07t0rMJxHAwyXxe84psbAPfQ=",
+        "originContent": "    associatedtype APIData  ",
+        "translatedContent": "    associatedtype APIData  "
+      },
+      {
+        "row": 5,
+        "rowsha": "ZxYbaDMZUz/AzbZWCikchECPhpxjsTUmY3UfGJqHgdA=",
+        "originContent": "    associatedtype ViewModel",
+        "translatedContent": "    associatedtype ViewModel"
+      },
+      {
+        "row": 6,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 7,
+        "rowsha": "K9kj4p2mSRYDKaalZddCxPBO0CqfHqy1T48+fLTkZ8s=",
+        "originContent": "    func fetchStoredData() async throws -> [StoredData]",
+        "translatedContent": "    func fetchStoredData() async throws -> [StoredData]"
+      },
+      {
+        "row": 8,
+        "rowsha": "Alun/yp2It3w1gZEWwFEHYNgIGQznmOSWWLXimwrLD0=",
+        "originContent": "    func fetchAPIData() async throws -> [APIData]",
+        "translatedContent": "    func fetchAPIData() async throws -> [APIData]"
+      },
+      {
+        "row": 9,
+        "rowsha": "Nlovvk7WIOAbHGEAA0nBGpUIJGRKXj+1H5LL8HH4K9I=",
+        "originContent": "    func storeData(_ data: [StoredData]) async throws",
+        "translatedContent": "    func storeData(_ data: [StoredData]) async throws"
+      },
+      {
+        "row": 10,
+        "rowsha": "1HvBOA+KmLPPTiEgnQvZLGo83mVlYr0QzPMG+CYV9+8=",
+        "originContent": "    func transformToViewModel(_ data: StoredData) -> ViewModel",
+        "translatedContent": "    func transformToViewModel(_ data: StoredData) -> ViewModel"
+      },
+      {
+        "row": 11,
+        "rowsha": "RCEQPD5bl8N3lQImKDdJ80wDOJUP7xgeDHjq+59O5Dw=",
+        "originContent": "    func transformForStorage(_ data: APIData) -> StoredData",
+        "translatedContent": "    func transformForStorage(_ data: APIData) -> StoredData"
+      },
+      {
+        "row": 12,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "gFsgaHh5SggbpeWux28hpKpCa0hNrRwOt5cKNmhhpiw=",
+        "originContent": "extension DataFetcher {",
+        "translatedContent": "extension DataFetcher {"
+      },
+      {
+        "row": 15,
+        "rowsha": "taogGuLEvNUHktOh2C4JUrzTh0ncZPoDqIjJ8vQoznM=",
+        "originContent": "    func fetchDataFromStorageOrAPI() async -> [ViewModel] {",
+        "translatedContent": "    func fetchDataFromStorageOrAPI() async -> [ViewModel] {"
+      },
+      {
+        "row": 16,
+        "rowsha": "U/oxMBDiYuBjGSYygR5Ofz6t8Pzabrcp2W+LHYw59iE=",
+        "originContent": "        // Storage-first approach with API fallback",
+        "translatedContent": "        // Storage-first approach with API fallback"
+      },
+      {
+        "row": 17,
+        "rowsha": "bX7gESU9WCA6ynAihKKaPVWi/wF7nHPEvEEDnLzD/ZE=",
+        "originContent": "        guard let localData = await fetchStoredDataSafely(), !localData.isEmpty else {",
+        "translatedContent": "        guard let localData = await fetchStoredDataSafely(), !localData.isEmpty else {"
+      },
+      {
+        "row": 18,
+        "rowsha": "rZYaWBn6bSXvzEuiDWjrTG0NDZEnbFTFNFPPjPd9Yb8=",
+        "originContent": "            return await fetchDataFromAPI()",
+        "translatedContent": "            return await fetchDataFromAPI()"
+      },
+      {
+        "row": 19,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 20,
+        "rowsha": "kOPtAAlQIBgJV4zU1blDJk8zTTdUr6BvEBp++3wp6hU=",
+        "originContent": "        return localData.map(transformToViewModel)",
+        "translatedContent": "        return localData.map(transformToViewModel)"
+      },
+      {
+        "row": 21,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 22,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Concrete Implementation\nThe `PokedexViewModel` implements both protocols:",
+    "ContentSha": "0gxndCmbWmSjCAoEavxl8igq6nM5c7hBHMsKZSr4osA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 具体实现\n`PokedexViewModel` 实现了两个协议：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "HMt9HpbprLhxYj0DzDWuvfGdwDPxCJ3QcRvgy9LXjFg=",
+        "originContent": "### Concrete Implementation",
+        "translatedContent": "### 具体实现"
+      },
+      {
+        "row": 3,
+        "rowsha": "KL0IlEp5mcVJ66ibSTyIlP+F6K6UPwxqMDHUPTzYCgE=",
+        "originContent": "The `PokedexViewModel` implements both protocols:",
+        "translatedContent": "`PokedexViewModel` 实现了两个协议："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```swift\n@Observable\nfinal class PokedexViewModel: PokedexViewModelProtocol, DataFetcher {\n    private let pokemonService: PokemonServiceProtocol\n    private let storageReader: DataStorageReader\n    \n    var pokemon: [PokemonViewModel] = []\n    var isLoading: Bool = false\n    \n    func requestPokemon() async {\n        guard !isLoading else { return }\n        pokemon = await withLoadingState {\n            await fetchDataFromStorageOrAPI()\n        }\n    }\n}\n```",
+    "ContentSha": "TNR96aUpk//lVmZLTWXd+VymFWoXwuGZ0XK+LBHdK2Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\n@Observable\nfinal class PokedexViewModel: PokedexViewModelProtocol, DataFetcher {\n    private let pokemonService: PokemonServiceProtocol\n    private let storageReader: DataStorageReader\n    \n    var pokemon: [PokemonViewModel] = []\n    var isLoading: Bool = false\n    \n    func requestPokemon() async {\n        guard !isLoading else { return }\n        pokemon = await withLoadingState {\n            await fetchDataFromStorageOrAPI()\n        }\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "QbfC65cQoeWr6s6ym5WESwfbzIMbrzedpqOSnU4pHcE=",
+        "originContent": "@Observable",
+        "translatedContent": "@Observable"
+      },
+      {
+        "row": 3,
+        "rowsha": "BE6xWZfGK0GUB0h/mS7ddexDdbYP77jjjY6IDpxugxY=",
+        "originContent": "final class PokedexViewModel: PokedexViewModelProtocol, DataFetcher {",
+        "translatedContent": "final class PokedexViewModel: PokedexViewModelProtocol, DataFetcher {"
+      },
+      {
+        "row": 4,
+        "rowsha": "6dhKWv3/gkLjanrjmY+nboWio8apBCbe7LSzgNXKrwc=",
+        "originContent": "    private let pokemonService: PokemonServiceProtocol",
+        "translatedContent": "    private let pokemonService: PokemonServiceProtocol"
+      },
+      {
+        "row": 5,
+        "rowsha": "RdNeoBLOxOvAk638W+80LKxqSPID22kUPfr5i7fyQIE=",
+        "originContent": "    private let storageReader: DataStorageReader",
+        "translatedContent": "    private let storageReader: DataStorageReader"
+      },
+      {
+        "row": 6,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 7,
+        "rowsha": "66M8/vrX9injX0fgjY1CYHIPClcc7KHAWSbZTdpMSeU=",
+        "originContent": "    var pokemon: [PokemonViewModel] = []",
+        "translatedContent": "    var pokemon: [PokemonViewModel] = []"
+      },
+      {
+        "row": 8,
+        "rowsha": "a6nNKRW5iZOjaZGqOkAKf+skPPFvtjIy6GIN6I1unWs=",
+        "originContent": "    var isLoading: Bool = false",
+        "translatedContent": "    var isLoading: Bool = false"
+      },
+      {
+        "row": 9,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 10,
+        "rowsha": "LsJ1OduwHOBOZvP80Rt3TcdZxxIbOeISzyhH/J8E0V0=",
+        "originContent": "    func requestPokemon() async {",
+        "translatedContent": "    func requestPokemon() async {"
+      },
+      {
+        "row": 11,
+        "rowsha": "zvnJESK86X04luQ4nngflcrTSaLEW+BuvlG7PsfgIvw=",
+        "originContent": "        guard !isLoading else { return }",
+        "translatedContent": "        guard !isLoading else { return }"
+      },
+      {
+        "row": 12,
+        "rowsha": "XKZDRggUmi4BUWVFiDuBE2i33Qbzo+9gtry2PMzNfcU=",
+        "originContent": "        pokemon = await withLoadingState {",
+        "translatedContent": "        pokemon = await withLoadingState {"
+      },
+      {
+        "row": 13,
+        "rowsha": "4kpS3nkY6UQCKEyI85TbccbJbQlnb/wFfDXs/pPsvIA=",
+        "originContent": "            await fetchDataFromStorageOrAPI()",
+        "translatedContent": "            await fetchDataFromStorageOrAPI()"
+      },
+      {
+        "row": 14,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 15,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 16,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Data Layer 📦\n\n### SwiftData Persistence\n`DataStorageReader` provides a generic actor-based interface for SwiftData operations:",
+    "ContentSha": "hb8EtV+M4r4e5BIepXJE8jfnUF+hjFvcmBkOWsLhMRo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 数据层 📦\n\n### SwiftData 持久化\n`DataStorageReader` 提供了一个基于 actor 的通用接口，用于 SwiftData 操作：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "UA9Swqw8yI40LHiSTQQ+w7JLhSeJ8KvU8qw30v9HHqk=",
+        "originContent": "## Data Layer 📦",
+        "translatedContent": "## 数据层 📦"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "OlSRWjT6z4rjNrWMjTnrq9roNgvVVLYnHcX9hlJFEAU=",
+        "originContent": "### SwiftData Persistence",
+        "translatedContent": "### SwiftData 持久化"
+      },
+      {
+        "row": 5,
+        "rowsha": "w1TcAR2Uh6OMOXRCdSGX+Mim2pakIQJeIwq50Z5BC+0=",
+        "originContent": "`DataStorageReader` provides a generic actor-based interface for SwiftData operations:",
+        "translatedContent": "`DataStorageReader` 提供了一个基于 actor 的通用接口，用于 SwiftData 操作："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```swift\n@ModelActor\nactor DataStorageReader {\n    func store<M: PersistentModel>(_ models: [M]) throws {\n        models.forEach { modelContext.insert($0) }\n        try modelContext.save()\n    }\n    \n    func fetch<M: PersistentModel>(\n        sortBy: SortDescriptor<M>\n    ) throws -> [M] {\n        let descriptor = FetchDescriptor<M>(sortBy: [sortBy])\n        return try modelContext.fetch(descriptor)\n    }\n}\n```",
+    "ContentSha": "AESqOvLkr8wO5psFoA2igkAM5YvIpSbBlEyCbHYmOU0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\n@ModelActor\nactor DataStorageReader {\n    func store<M: PersistentModel>(_ models: [M]) throws {\n        models.forEach { modelContext.insert($0) }\n        try modelContext.save()\n    }\n    \n    func fetch<M: PersistentModel>(\n        sortBy: SortDescriptor<M>\n    ) throws -> [M] {\n        let descriptor = FetchDescriptor<M>(sortBy: [sortBy])\n        return try modelContext.fetch(descriptor)\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "2t3uOgXw+c8C7vSFPfKejBETD7sn2qHx7QXd4ExtrkY=",
+        "originContent": "@ModelActor",
+        "translatedContent": "@ModelActor"
+      },
+      {
+        "row": 3,
+        "rowsha": "r7BS8KOc9FTTOhJ/KPPTggjdhigvZHywyQKmsB8lLu8=",
+        "originContent": "actor DataStorageReader {",
+        "translatedContent": "actor DataStorageReader {"
+      },
+      {
+        "row": 4,
+        "rowsha": "Yc4lpi3G+smCdse93Yroxi+U8tIct5k3DOEgjgWOgaw=",
+        "originContent": "    func store<M: PersistentModel>(_ models: [M]) throws {",
+        "translatedContent": "    func store<M: PersistentModel>(_ models: [M]) throws {"
+      },
+      {
+        "row": 5,
+        "rowsha": "hPt0LZw6gDtyAzYlRq7VuNn4ZeY0Y3X7utgdWC4bBcQ=",
+        "originContent": "        models.forEach { modelContext.insert($0) }",
+        "translatedContent": "        models.forEach { modelContext.insert($0) }"
+      },
+      {
+        "row": 6,
+        "rowsha": "M0jFSpqEXYCEUFgRT6ZqoZ6CLrO5+Nafgu/RwYmDrHI=",
+        "originContent": "        try modelContext.save()",
+        "translatedContent": "        try modelContext.save()"
+      },
+      {
+        "row": 7,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 8,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 9,
+        "rowsha": "fRG13jS5/Qo1ikJ616LfunH3CYgasEBNjAaBmNagyJI=",
+        "originContent": "    func fetch<M: PersistentModel>(",
+        "translatedContent": "    func fetch<M: PersistentModel>("
+      },
+      {
+        "row": 10,
+        "rowsha": "RygVVFtMWXiTY05oZ9YbWhPb0v2dyMW3bdxBVj0T93Q=",
+        "originContent": "        sortBy: SortDescriptor<M>",
+        "translatedContent": "        sortBy: SortDescriptor<M>"
+      },
+      {
+        "row": 11,
+        "rowsha": "mukIx0UJGJumIId/pRHiUsoPDjWKLMKjVHHMEiuSnlM=",
+        "originContent": "    ) throws -> [M] {",
+        "translatedContent": "    ) throws -> [M] {"
+      },
+      {
+        "row": 12,
+        "rowsha": "O+GAJ4vXDlepDXajUMvSf3SBtxl0kWMOm+086++Rbrg=",
+        "originContent": "        let descriptor = FetchDescriptor<M>(sortBy: [sortBy])",
+        "translatedContent": "        let descriptor = FetchDescriptor<M>(sortBy: [sortBy])"
+      },
+      {
+        "row": 13,
+        "rowsha": "31pHRS0s9HJS49HaapJX+XlZDHqlqLAj3O4EjijNWi4=",
+        "originContent": "        return try modelContext.fetch(descriptor)",
+        "translatedContent": "        return try modelContext.fetch(descriptor)"
+      },
+      {
+        "row": 14,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 15,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n# Intelligent Search System 🔍\n\nA high-performance, protocol-driven search implementation with sophisticated multi-term filtering and real-time results.\n\n## Search Architecture\n\nThe search system follows the same unified `DataFetcher` pattern, ensuring consistent data loading and offline capabilities:\n",
+    "ContentSha": "4pxiRQS28VvXv4NpfJu+aOF3xu/OSzF5vTQR3VBWHKE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# 智能搜索系统 🔍\n\n一个高性能、协议驱动的搜索实现，具备复杂的多条件过滤和实时结果功能。\n\n## 搜索架构\n\n搜索系统遵循相同的统一 `DataFetcher` 模式，确保数据加载一致性和离线能力：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CfMGunhiShTXM80oF7qDaFGgux84EYe/UBhJfTr4TPc=",
+        "originContent": "# Intelligent Search System 🔍",
+        "translatedContent": "# 智能搜索系统 🔍"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "H2wgRqmblKvkBhfWJjJaAtXn6p+3B89OyWNxt8nAH2o=",
+        "originContent": "A high-performance, protocol-driven search implementation with sophisticated multi-term filtering and real-time results.",
+        "translatedContent": "一个高性能、协议驱动的搜索实现，具备复杂的多条件过滤和实时结果功能。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "nuK7BP4TIufEMQcadTKa2+Z3aVcRIA+2CkDmBJoJpTY=",
+        "originContent": "## Search Architecture",
+        "translatedContent": "## 搜索架构"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "F6UHpMmNon+9h1xpXN6oEIXum53eKxAVbnzXUKFF9yc=",
+        "originContent": "The search system follows the same unified `DataFetcher` pattern, ensuring consistent data loading and offline capabilities:",
+        "translatedContent": "搜索系统遵循相同的统一 `DataFetcher` 模式，确保数据加载一致性和离线能力："
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```swift\n@Observable\nfinal class SearchViewModel: SearchViewModelProtocol, DataFetcher {\n    var pokemon: [PokemonViewModel] = []\n    var filtered: [PokemonViewModel] = []\n    var query: String = \"\"\n    \n    func loadData() async {\n        pokemon = await fetchDataFromStorageOrAPI() // Uses unified data fetching\n    }\n}\n```",
+    "ContentSha": "SNmtEHtlDk3NIi8SXN106Kz6hYIG0KgW4Hjk8wJYLp0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\n@Observable\nfinal class SearchViewModel: SearchViewModelProtocol, DataFetcher {\n    var pokemon: [PokemonViewModel] = []\n    var filtered: [PokemonViewModel] = []\n    var query: String = \"\"\n    \n    func loadData() async {\n        pokemon = await fetchDataFromStorageOrAPI() // Uses unified data fetching\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "QbfC65cQoeWr6s6ym5WESwfbzIMbrzedpqOSnU4pHcE=",
+        "originContent": "@Observable",
+        "translatedContent": "@Observable"
+      },
+      {
+        "row": 3,
+        "rowsha": "8GL277Qg+qw68HNPf4OrJzW/iQN1AA1JYrjUepfbuoY=",
+        "originContent": "final class SearchViewModel: SearchViewModelProtocol, DataFetcher {",
+        "translatedContent": "final class SearchViewModel: SearchViewModelProtocol, DataFetcher {"
+      },
+      {
+        "row": 4,
+        "rowsha": "66M8/vrX9injX0fgjY1CYHIPClcc7KHAWSbZTdpMSeU=",
+        "originContent": "    var pokemon: [PokemonViewModel] = []",
+        "translatedContent": "    var pokemon: [PokemonViewModel] = []"
+      },
+      {
+        "row": 5,
+        "rowsha": "XsIbxlOJ5u/R5Z+10V7YD5vFA4zc64xdAtxgIqRcfUs=",
+        "originContent": "    var filtered: [PokemonViewModel] = []",
+        "translatedContent": "    var filtered: [PokemonViewModel] = []"
+      },
+      {
+        "row": 6,
+        "rowsha": "AGBOjkxf0o1KQESuXmuDoZZe8fFTT0ZOe1KVWU7X4UI=",
+        "originContent": "    var query: String = \"\"",
+        "translatedContent": "    var query: String = \"\""
+      },
+      {
+        "row": 7,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 8,
+        "rowsha": "sKiGZUPiYMjVy2XXFA3TMrw1KzshLu1sk4DuYMKhzJs=",
+        "originContent": "    func loadData() async {",
+        "translatedContent": "    func loadData() async {"
+      },
+      {
+        "row": 9,
+        "rowsha": "EpgIPPv6OjA9ybXvhZx3ihKVLrQurBdCZXHWNzpcWA0=",
+        "originContent": "        pokemon = await fetchDataFromStorageOrAPI() // Uses unified data fetching",
+        "translatedContent": "        pokemon = await fetchDataFromStorageOrAPI() // Uses unified data fetching"
+      },
+      {
+        "row": 10,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## Advanced Filtering Algorithm\n\n### Multi-Term Processing & Matching",
+    "ContentSha": "0YrK0HMtcyAHBtPwGz3C0TtR3HJdJJJ0L8aLp+/V77E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 高级过滤算法\n\n### 多词处理与匹配",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Q2MdsyDBHEkX+9LbppaQaVESjb5YEHU4Rreb1CVgMa0=",
+        "originContent": "## Advanced Filtering Algorithm",
+        "translatedContent": "## 高级过滤算法"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "e6bEx07F37OD/xww+RrZBsszjNmMiUvfIANQcGMsfXs=",
+        "originContent": "### Multi-Term Processing & Matching",
+        "translatedContent": "### 多词处理与匹配"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```swift\nfunc updateFilteredPokemon() {\n    let queryTerms = query\n        .split(whereSeparator: \\.isWhitespace)  // Split on whitespace\n        .map { $0.normalize }                   // Diacritic-insensitive\n        .filter { !$0.isEmpty }\n    \n    filtered = pokemon.filter { pokemonVM in\n        let name = pokemonVM.name.normalize\n        let types = pokemonVM.types.components(separatedBy: \",\").map { $0.normalize }\n        \n        return queryTerms.allSatisfy { term in\n            name.contains(term) || types.contains(where: { $0.contains(term) })\n        }\n    }\n}\n```",
+    "ContentSha": "GSm4WiPhh2c2P7WmJdcEIW7GRY/fSD0u7hKwB8IF5n8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nfunc updateFilteredPokemon() {\n    let queryTerms = query\n        .split(whereSeparator: \\.isWhitespace)  // Split on whitespace\n        .map { $0.normalize }                   // Diacritic-insensitive\n        .filter { !$0.isEmpty }\n    \n    filtered = pokemon.filter { pokemonVM in\n        let name = pokemonVM.name.normalize\n        let types = pokemonVM.types.components(separatedBy: \",\").map { $0.normalize }\n        \n        return queryTerms.allSatisfy { term in\n            name.contains(term) || types.contains(where: { $0.contains(term) })\n        }\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "CG3ijZp4W2BS/6CsA0ipHTIsNwH108iruXj1MHmWs1I=",
+        "originContent": "func updateFilteredPokemon() {",
+        "translatedContent": "func updateFilteredPokemon() {"
+      },
+      {
+        "row": 3,
+        "rowsha": "xGU0yRyrDs0dcwG9jyzrDUoyCKGmfAG8uSBiyvE5yY8=",
+        "originContent": "    let queryTerms = query",
+        "translatedContent": "    let queryTerms = query"
+      },
+      {
+        "row": 4,
+        "rowsha": "t8g0E4R5j9MiCKiICHnCeoy7D/VY0TEge0+XRDx6wSY=",
+        "originContent": "        .split(whereSeparator: \\.isWhitespace)  // Split on whitespace",
+        "translatedContent": "        .split(whereSeparator: \\.isWhitespace)  // Split on whitespace"
+      },
+      {
+        "row": 5,
+        "rowsha": "sEevkKAmtQtU6FWs2RVYCvHTiqSNhNuvzpT7FyxrjtE=",
+        "originContent": "        .map { $0.normalize }                   // Diacritic-insensitive",
+        "translatedContent": "        .map { $0.normalize }                   // Diacritic-insensitive"
+      },
+      {
+        "row": 6,
+        "rowsha": "8gBWVLrLN7FGJKJ4sqW81M6jBVKgdYqNagvKiDJNjXE=",
+        "originContent": "        .filter { !$0.isEmpty }",
+        "translatedContent": "        .filter { !$0.isEmpty }"
+      },
+      {
+        "row": 7,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 8,
+        "rowsha": "dciyR5t7G2le+Ov5lM/Gy+0hrD7/q0YE81kw8llUAC4=",
+        "originContent": "    filtered = pokemon.filter { pokemonVM in",
+        "translatedContent": "    filtered = pokemon.filter { pokemonVM in"
+      },
+      {
+        "row": 9,
+        "rowsha": "jn2OWVGz1SDr4+CjFYyxRbxtVamNl/CfhmdZcIVEwDI=",
+        "originContent": "        let name = pokemonVM.name.normalize",
+        "translatedContent": "        let name = pokemonVM.name.normalize"
+      },
+      {
+        "row": 10,
+        "rowsha": "RDATzdtaoyGGXYM4EV+s5rUpzjoG9oV1uok7Y9QNYVc=",
+        "originContent": "        let types = pokemonVM.types.components(separatedBy: \",\").map { $0.normalize }",
+        "translatedContent": "        let types = pokemonVM.types.components(separatedBy: \",\").map { $0.normalize }"
+      },
+      {
+        "row": 11,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 12,
+        "rowsha": "41IUEh+TRUn1LPtUdeoQpDuieyBo3gdFjRk2SKuodvo=",
+        "originContent": "        return queryTerms.allSatisfy { term in",
+        "translatedContent": "        return queryTerms.allSatisfy { term in"
+      },
+      {
+        "row": 13,
+        "rowsha": "XjBiPYJeVntv7ztJ/OfrQZ8i481xyDy5Y22CsM3/ECI=",
+        "originContent": "            name.contains(term) || types.contains(where: { $0.contains(term) })",
+        "translatedContent": "            name.contains(term) || types.contains(where: { $0.contains(term) })"
+      },
+      {
+        "row": 14,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 15,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 16,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## Key Features\n- ✅ **Real-time Filtering**: Results update instantly as you type\n- ✅ **Multi-term Support**: \"fire dragon\" finds Pokémon matching both terms\n- ✅ **Type-aware Search**: Find by type (e.g., \"water\", \"electric\") or name\n- ✅ **Diacritic Insensitive**: Handles accented characters automatically\n- ✅ **Storage Integration**: Searches local SwiftData with API fallback\n\nThe search algorithm ensures **all terms must match** for precise results while supporting partial name matching and type combinations.\n\n## Sprite Loading & Caching 🎨\nAsynchronous image loading with intelligent caching:",
+    "ContentSha": "fRnj+WWPSIJQeMcGtI6P+dIaHoF8lPk49Fs9ZgNEFEQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 主要功能\n- ✅ **实时过滤**：输入时结果即时更新\n- ✅ **多词支持**：“fire dragon” 可匹配同时包含两个词的宝可梦\n- ✅ **类型识别搜索**：可按类型（如“水”、“电”）或名称查找\n- ✅ **重音符号不敏感**：自动处理带重音的字符\n- ✅ **存储集成**：优先搜索本地 SwiftData，失败时调用 API\n\n搜索算法确保**所有词汇均匹配**，实现精准结果，同时支持部分名称匹配和类型组合。\n\n## 精灵加载与缓存 🎨\n异步加载图片，配合智能缓存：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "khTPM/+Q4D8FMdf3qgrMDcjDejggkuMl1+JmWZMODFI=",
+        "originContent": "## Key Features",
+        "translatedContent": "## 主要功能"
+      },
+      {
+        "row": 3,
+        "rowsha": "3MvuOS1pxamp5b4T/BeX3RW421vAr8DGRTCnCbf1Dsw=",
+        "originContent": "- ✅ **Real-time Filtering**: Results update instantly as you type",
+        "translatedContent": "- ✅ **实时过滤**：输入时结果即时更新"
+      },
+      {
+        "row": 4,
+        "rowsha": "xsF4TSpXxgDgN7QFGfVH9I2JiLrgI7SVcTVewsUNzC4=",
+        "originContent": "- ✅ **Multi-term Support**: \"fire dragon\" finds Pokémon matching both terms",
+        "translatedContent": "- ✅ **多词支持**：“fire dragon” 可匹配同时包含两个词的宝可梦"
+      },
+      {
+        "row": 5,
+        "rowsha": "LT8Pvc/jGWfiJnioYIOm44nPUPInV8eFyuFCNFW32Jg=",
+        "originContent": "- ✅ **Type-aware Search**: Find by type (e.g., \"water\", \"electric\") or name",
+        "translatedContent": "- ✅ **类型识别搜索**：可按类型（如“水”、“电”）或名称查找"
+      },
+      {
+        "row": 6,
+        "rowsha": "5c2TW6CqjsnhVdfIjHkAeASr8egccykyfRugySR1cw8=",
+        "originContent": "- ✅ **Diacritic Insensitive**: Handles accented characters automatically",
+        "translatedContent": "- ✅ **重音符号不敏感**：自动处理带重音的字符"
+      },
+      {
+        "row": 7,
+        "rowsha": "oiYuoik1xyutQ6sDyNxMDuOZS+dSo/uAmm7LYDNxvCE=",
+        "originContent": "- ✅ **Storage Integration**: Searches local SwiftData with API fallback",
+        "translatedContent": "- ✅ **存储集成**：优先搜索本地 SwiftData，失败时调用 API"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "P/Ro34YqnVXdSJZtjNuuSf6JWZ2KovOBBweze7grwIs=",
+        "originContent": "The search algorithm ensures **all terms must match** for precise results while supporting partial name matching and type combinations.",
+        "translatedContent": "搜索算法确保**所有词汇均匹配**，实现精准结果，同时支持部分名称匹配和类型组合。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "GBRa4bkBoBfznujRHkrg1L4jIqiSFx5yv0gr6dsn65M=",
+        "originContent": "## Sprite Loading & Caching 🎨",
+        "translatedContent": "## 精灵加载与缓存 🎨"
+      },
+      {
+        "row": 12,
+        "rowsha": "AbMuoVjoSeSQYCFA6e2+ghUsIuQhisDR6oqBeULuy04=",
+        "originContent": "Asynchronous image loading with intelligent caching:",
+        "translatedContent": "异步加载图片，配合智能缓存："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```swift\nactor SpriteLoader {\n    func loadSprite(from urlString: String) async -> UIImage? {\n        // Check cache first, then network with automatic caching\n    }\n}\n```",
+    "ContentSha": "rjn81q7nRgWhlprG+MowzR2nnBjfsNecZh05vPrfdWo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\nactor SpriteLoader {\n    func loadSprite(from urlString: String) async -> UIImage? {\n        // Check cache first, then network with automatic caching\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "9eHS1C/2IAEx+Pfz+qPlMbz8uvNUsCFeVi82zWzKVR8=",
+        "originContent": "actor SpriteLoader {",
+        "translatedContent": "actor SpriteLoader {"
+      },
+      {
+        "row": 3,
+        "rowsha": "Wt2pahsigZ4TRld3QXd0jXs8e/e0yEOLMVWDLJeeneI=",
+        "originContent": "    func loadSprite(from urlString: String) async -> UIImage? {",
+        "translatedContent": "    func loadSprite(from urlString: String) async -> UIImage? {"
+      },
+      {
+        "row": 4,
+        "rowsha": "UEtBGuXBn2XO2mASUisdyw1KavhMws48Vd2NOTMwPFo=",
+        "originContent": "        // Check cache first, then network with automatic caching",
+        "translatedContent": "        // Check cache first, then network with automatic caching"
+      },
+      {
+        "row": 5,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n# Dependencies 🔗\nPokedexUI uses the HTTP framework [Networking](https://github.com/brillcp/Networking) for all the API calls to the PokeAPI. You can read more about that [here](https://github.com/brillcp/Networking#readme). It can be installed through Swift Package Manager:",
+    "ContentSha": "ZV0BSMerqgXmzfNJuY/0L2CgJ1aCGAOuBBEvv+PF9lc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# 依赖 🔗\nPokedexUI 使用 HTTP 框架 [Networking](https://github.com/brillcp/Networking) 来进行所有对 PokeAPI 的 API 调用。您可以在这里了解更多信息 [here](https://github.com/brillcp/Networking#readme)。它可以通过 Swift 包管理器安装：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nAm7PS5mMWDjeDlZtcpg0wnXO824wojmSoGwvQKTNUs=",
+        "originContent": "# Dependencies 🔗",
+        "translatedContent": "# 依赖 🔗"
+      },
+      {
+        "row": 3,
+        "rowsha": "7K6l5zWblJiPPzHjNFz8nDdNuPM/B3CcmqEdyuyK6z4=",
+        "originContent": "PokedexUI uses the HTTP framework [Networking](https://github.com/brillcp/Networking) for all the API calls to the PokeAPI. You can read more about that [here](https://github.com/brillcp/Networking#readme). It can be installed through Swift Package Manager:",
+        "translatedContent": "PokedexUI 使用 HTTP 框架 [Networking](https://github.com/brillcp/Networking) 来进行所有对 PokeAPI 的 API 调用。您可以在这里了解更多信息 [here](https://github.com/brillcp/Networking#readme)。它可以通过 Swift 包管理器安装："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```\ndependencies: [\n    .package(url: \"https://github.com/brillcp/Networking.git\", .upToNextMajor(from: \"0.9.3\"))\n]\n```",
+    "ContentSha": "LQ2UleRj9ptOag+1rqRwExDd5OvJ7ufuzI2aCmPj9jE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ndependencies: [\n    .package(url: \"https://github.com/brillcp/Networking.git\", .upToNextMajor(from: \"0.9.3\"))\n]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "m/icCluOMxgS8N5rTvrjrHM+sONN/dpnmD2hXtqj1NQ=",
+        "originContent": "dependencies: [",
+        "translatedContent": "dependencies: ["
+      },
+      {
+        "row": 3,
+        "rowsha": "jHqR3vhd63B+pTzeD7VxNcFipUQ7HuHO2qiGAoS+L6Y=",
+        "originContent": "    .package(url: \"https://github.com/brillcp/Networking.git\", .upToNextMajor(from: \"0.9.3\"))",
+        "translatedContent": "    .package(url: \"https://github.com/brillcp/Networking.git\", .upToNextMajor(from: \"0.9.3\"))"
+      },
+      {
+        "row": 4,
+        "rowsha": "z64NQkj3FC97F/gmzXpRkoDjEld2kOlXgw0j3PNaP/8=",
+        "originContent": "]",
+        "translatedContent": "]"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n# Requirements ❗️\n- Xcode 15+\n- iOS 17+ (for @Observable and SwiftData)\n- Swift 5.9+\n",
+    "ContentSha": "Z+PDgOjM+I79n4TWku4sfOIJ66g0RV9oy+3GTW4iXcg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# 要求 ❗️\n- Xcode 15及以上\n- iOS 17及以上（用于 @Observable 和 SwiftData）\n- Swift 5.9及以上\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "j8PwKdbCkkDGk1QIjiw3+90IGAawmzXS48HGgjyLeHY=",
+        "originContent": "# Requirements ❗️",
+        "translatedContent": "# 要求 ❗️"
+      },
+      {
+        "row": 3,
+        "rowsha": "D/Cfwzc2DGkq2b1EZvNK1c4tgToWzvdhb0otA+6AKPI=",
+        "originContent": "- Xcode 15+",
+        "translatedContent": "- Xcode 15及以上"
+      },
+      {
+        "row": 4,
+        "rowsha": "hBCfxd/9IvzuybJ+Rn11wcU4sV+GppDYyl/iQholg1s=",
+        "originContent": "- iOS 17+ (for @Observable and SwiftData)",
+        "translatedContent": "- iOS 17及以上（用于 @Observable 和 SwiftData）"
+      },
+      {
+        "row": 5,
+        "rowsha": "4TlN10mlaflx/i6n9svjHnrM5hgWh8SXo1pSqJ2Bxzo=",
+        "originContent": "- Swift 5.9+",
+        "translatedContent": "- Swift 5.9及以上"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
