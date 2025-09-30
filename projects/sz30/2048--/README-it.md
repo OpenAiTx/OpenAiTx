@@ -38,27 +38,27 @@ Una versione migliorata del classico gioco 2048, ora con ancora più funzionalit
 
 **Come giocare:**
 - Usa le frecce direzionali o WASD per muovere le tessere.
-- Quando due tessere con lo stesso numero si scontrano, si uniscono in una sola.
+- Quando due tessere con lo stesso numero si scontrano, si fondono in una sola.
 - Dopo ogni mossa, un nuovo 2 o 4 apparirà casualmente in uno spazio vuoto.
 - Il gioco termina quando non ci sono più mosse disponibili.
 
-## ✨ Funzionalità Speciali
+## ✨ Caratteristiche Speciali
 
 ### 1. Funzione Annulla
 - Hai fatto una mossa sbagliata? Nessun problema!
-- Premi semplicemente il pulsante "Annulla" per tornare indietro di un passo.
+- Basta premere il pulsante "Annulla" per tornare indietro di un passo.
 - Puoi annullare tutte le volte che vuoi, fino all'inizio.
-- Non lasciare mai che un errore rovini la tua partita!
+- Non lasciare che un errore rovini la tua partita!
 
 ### 2. Modalità Cheat Segreta
 - Inserisci la sequenza magica: ←←→→ →→←← (sinistra, sinistra, destra, destra, destra, destra, sinistra, sinistra)
 - Tutte le tessere si trasformeranno magicamente in 128!
 - È un Easter egg, solo per divertimento.
-- Consiglio: Barare è divertente, ma non esagerare! 😉
+- Suggerimento: Barare è divertente, ma non esagerare! 😉
 
 ## 🎯 Demo
 
-🎯 : [Gioca qui](http://34.150.49.127:5000/)
+🎯 : [Gioca qui](http://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -99,31 +99,28 @@ python 2048.py
 
 ## 🎨 Personalizzazione
 
-Vuoi renderlo tuo? Modifica `styles.css` per un nuovo aspetto, oppure intervieni su `script.js` per cambiare il gameplay. Tutto il codice è ben commentato per facilitare la personalizzazione!
+Vuoi renderlo tuo? Modifica `styles.css` per un nuovo aspetto, oppure intervieni su `script.js` per cambiare il gameplay. Tutto il codice è ben commentato per facilitare le modifiche!
 
 ## 📝 Licenza
 
 Licenza GPL-2.0
 
-## 🤝 Contribuire
+## 🤝 Collaborazioni
 
-Aggiornamenti in corso! Segnalazioni e Pull Request sono super benvenuti—rendiamo insieme questo gioco ancora più fantastico!
+Ancora in aggiornamento! Segnalazioni di problemi e Pull Request sono super benvenute—rendiamo insieme questo gioco ancora più fantastico!
 
 
 ## 🙏 Ringraziamenti
 
 Grazie ai seguenti sponsor per il supporto a questo progetto:
-- [Nessuno](https://#/) per aver fornito il server
-- [Serv00](https://www.serv00.com/) per aver fornito il server
+- [Aurora Cloud](https://www.free-vps.net/) che fornisce il server
 
 ---
-_Ultimo aggiornamento: Ago. 2025_
-
-
+_Ultimo aggiornamento: Ott. 2025_
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
 
 ---

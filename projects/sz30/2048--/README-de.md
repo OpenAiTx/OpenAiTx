@@ -38,7 +38,7 @@ Eine verbesserte Version des klassischen 2048-Spiels, jetzt mit noch mehr spaßi
 
 **So spielst du:**
 - Benutze die Pfeiltasten oder WASD, um die Felder zu bewegen.
-- Wenn zwei Kacheln mit derselben Zahl zusammenstoßen, verschmelzen sie zu einer.
+- Wenn zwei Kacheln mit derselben Zahl kollidieren, verschmelzen sie zu einer.
 - Nach jedem Zug erscheint zufällig eine neue 2 oder 4 auf einem freien Feld.
 - Das Spiel endet, wenn keine weiteren Züge möglich sind.
 
@@ -46,19 +46,19 @@ Eine verbesserte Version des klassischen 2048-Spiels, jetzt mit noch mehr spaßi
 
 ### 1. Rückgängig-Funktion
 - Einen falschen Zug gemacht? Kein Problem!
-- Einfach auf die Schaltfläche „Rückgängig“ klicken, um einen Schritt zurückzugehen.
-- Sie können beliebig oft rückgängig machen, bis ganz zum Anfang.
-- Nie wieder ruiniert ein falscher Fingertipp Ihr Spiel!
+- Drücke einfach auf den "Rückgängig"-Button, um einen Schritt zurückzugehen.
+- Du kannst beliebig oft rückgängig machen, bis ganz zum Anfang.
+- Lass eine ungeschickte Bewegung nie wieder dein Spiel ruinieren!
 
 ### 2. Geheimer Cheat-Modus
-- Geben Sie die magische Sequenz ein: ←←→→ →→←← (links, links, rechts, rechts,  rechts, rechts, links, links)
-- Alle Kacheln verwandeln sich magisch in 128!
+- Gib die magische Sequenz ein: ←←→→ →→←← (links, links, rechts, rechts, rechts, rechts, links, links)
+- Alle Kacheln werden magisch zu 128!
 - Es ist ein Easter Egg, nur zum Spaß.
-- Profi-Tipp: Schummeln macht Spaß, aber übertreiben Sie es nicht! 😉
+- Profi-Tipp: Schummeln macht Spaß, aber übertreibe es nicht! 😉
 
 ## 🎯 Demo
 
-🎯 : [Hier spielen](http://34.150.49.127:5000/)
+🎯 : [Hier spielen](http://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -99,31 +99,28 @@ python 2048.py
 
 ## 🎨 Anpassung
 
-Möchtest du es anpassen? Ändere `styles.css` für einen neuen Look oder tauche in `script.js` ein, um das Gameplay zu verändern. Der gesamte Code ist gut kommentiert und leicht zu modifizieren!
+Möchten Sie es individuell gestalten? Passen Sie `styles.css` für ein neues Aussehen an oder bearbeiten Sie `script.js`, um das Gameplay zu verändern. Der gesamte Code ist gut kommentiert und leicht zu modifizieren!
 
 ## 📝 Lizenz
 
 GPL-2.0 Lizenz
 
-## 🤝 Mitwirken
+## 🤝 Beitrag
 
-Wird noch aktualisiert! Issues und Pull Requests sind herzlich willkommen – lasst uns dieses Spiel gemeinsam noch großartiger machen!
+Wird weiterhin aktualisiert! Fehlerberichte und Pull Requests sind sehr willkommen—lasst uns dieses Spiel gemeinsam noch besser machen!
 
 
 ## 🙏 Danksagungen
 
 Vielen Dank an die folgenden Sponsoren für die Unterstützung dieses Projekts:
-- [Keiner](https://#/) stellt den Server bereit
-- [Serv00](https://www.serv00.com/) stellt den Server bereit
+- [Aurora Cloud](https://www.free-vps.net/) stellt den Server bereit
 
 ---
-_Zuletzt aktualisiert: Aug. 2025_
-
-
+_Letzte Aktualisierung: Okt. 2025_
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
 
 ---

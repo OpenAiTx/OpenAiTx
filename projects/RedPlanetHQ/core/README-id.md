@@ -46,48 +46,65 @@
 </p>
 </div>
 
+## 🔥 Sorotan Riset
+
+Memori CORE mencapai **88,24%** akurasi rata-rata pada dataset Locomo di semua tugas penalaran, secara signifikan melampaui penyedia memori lainnya. Lihat [blog](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/) ini untuk info lebih lanjut.
+
+<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
+(1) Pertanyaan single-hop membutuhkan jawaban berdasarkan satu sesi; (2) Pertanyaan multi-hop membutuhkan sintesis informasi dari beberapa sesi berbeda; (3) Pertanyaan pengetahuan open-domain dapat dijawab dengan mengintegrasikan informasi yang diberikan pembicara dengan pengetahuan eksternal seperti pengetahuan umum atau fakta dunia; (4) Pertanyaan penalaran temporal dapat dijawab melalui penalaran waktu dan menangkap petunjuk data terkait waktu dalam percakapan;
+
 ## Ikhtisar
 
 **Masalah**
 
-Pengembang membuang waktu untuk menjelaskan ulang konteks ke alat AI. Terkena batas token di Claude? Mulai dari awal dan kehilangan semuanya. Beralih dari ChatGPT/Claude ke Cursor? Jelaskan konteks Anda lagi. Percakapan, keputusan, dan wawasan Anda hilang di antara sesi.
+Pengembang membuang waktu untuk menjelaskan ulang konteks ke alat AI. Kena batas token di Claude? Mulai dari awal dan semua hilang. Beralih dari ChatGPT/Claude ke Cursor? Jelaskan lagi konteksmu. Percakapan, keputusan, dan wawasanmu hilang antar sesi. Dengan setiap alat AI baru, biaya pergantian konteks semakin besar.
 
 **Solusi** - **CORE** (**Contextual Observation & Recall Engine**)
 
-CORE adalah lapisan memori persisten, terbuka, dan terpadu untuk semua alat AI Anda. Konteks Anda mengikuti Anda dari Cursor ke Claude ke ChatGPT ke Claude Code. Satu grafik pengetahuan mengingat siapa yang mengatakan apa, kapan, dan mengapa. Terhubung sekali, ingat di mana saja. Hentikan pengelolaan konteks dan mulai membangun.
+CORE adalah lapisan memori persisten dan terintegrasi open-source untuk semua alat AI-mu. Konteksmu mengikuti dari Cursor ke Claude ke ChatGPT ke Claude Code. Satu knowledge graph mengingat siapa yang berkata apa, kapan, dan mengapa. Sambung sekali, ingat di mana saja. Berhenti mengelola konteks, mulai membangun.
 
 ## 🚀 Mulai Sekarang
-**Bangun grafik memori terpadu Anda dalam 5 menit:**
+**Bangun unified memory graph-mu dalam 5 menit:**
 
-1. **Daftar** di [core.heysol.ai](https://core.heysol.ai) dan buat akun Anda
-2. **Tambahkan memori pertama Anda** - bagikan konteks tentang diri Anda
+1. **Daftar** di [core.heysol.ai](https://core.heysol.ai) dan buat akunmu
+2. **Tambahkan memori pertamamu** - bagikan konteks tentang dirimu
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
-3. **Visualisasikan grafik memori Anda** dan lihat bagaimana CORE secara otomatis membentuk koneksi antar fakta
-5. **Coba** - tanyakan "Apa yang kamu ketahui tentang saya?" di bagian percakapan
-6. Hubungkan ke alat Anda:
-   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - coding dengan konteks
-   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude) & [Gemini CLI](https://docs.heysol.ai/providers/cursor) - coding di terminal dengan memori
-   - [Tambahkan Ekstensi Browser](https://docs.heysol.ai/providers/cursor) - bawa memori Anda ke situs web mana saja
-   - [Linear](https://docs.heysol.ai/providers/claude), [Slack](https://docs.heysol.ai/providers/cursor), [Github](https://docs.heysol.ai/providers/cursor) - tambahkan konteks proyek secara otomatis
+3. **Visualisasikan memory graph-mu** dan lihat bagaimana CORE otomatis membentuk koneksi antar fakta
+5. **Coba langsung** - tanyakan "Apa yang kamu tahu tentang saya?" di bagian percakapan
+6. Hubungkan ke alatmu:
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - ngoding dengan konteks
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Gemini CLI](https://docs.heysol.ai/providers/claude-code) - ngoding berbasis terminal dengan memori
+   - [Tambah Ekstensi Browser](https://docs.heysol.ai/providers/browser-extension) - bawa memorimu ke website mana saja
+   - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) - tambahkan konteks proyek secara otomatis
 
 ## 🧩 Fitur Utama
 
-### 🧠 **Memori Terpadu dan Portabel**:
-Tambahkan dan panggil memori Anda di **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS's Kiro, VS Code, dan Roo Code** melalui MCP
+### 🧠 **Memori Terpadu dan Portabel**: 
+Tambah dan panggil memori Anda di **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS's Kiro, VS Code, dan Roo Code** melalui MCP
+
+![core-claude](https://github.com/user-attachments/assets/56c98288-ee87-4cd0-8b02-860aca1c7f9a)
+
 
 ### 🕸️ **Graf Pengetahuan Temporal + Reifikasi**: 
 
-Ingat kisah di balik setiap fakta—lacak siapa yang mengatakan apa, kapan, dan mengapa dengan hubungan yang kaya dan asal-usul penuh, bukan hanya penyimpanan datar
+Ingat cerita di balik setiap fakta—lacak siapa yang mengatakan apa, kapan, dan mengapa dengan relasi yang kaya serta asal-usul lengkap, bukan hanya penyimpanan datar
 
-https://github.com/user-attachments/assets/d18e3caa-72ea-4596-bbf7-cc9e32bd772f
+![core-memory-graph](https://github.com/user-attachments/assets/5d1ee659-d519-4624-85d1-e0497cbdd60a)
 
-### 🌐 **Ekstensi Browser**: 
 
-Tangkap percakapan dari ChatGPT, Grok, Gemini, Twitter, YouTube, posting blog, dan halaman web apa pun langsung ke memori INTI Anda
+### 🌐 **Ekstensi Peramban**: 
 
+Simpan percakapan dan konten dari ChatGPT, Grok, Gemini, Twitter, YouTube, postingan blog, dan halaman web apa pun langsung ke memori CORE Anda.
+
+**Cara Menggunakan Ekstensi**
+1. [Unduh Ekstensi](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc) dari Chrome Web Store.
+2. Login ke [dashboard CORE](https://core.heysol.ai)
+   - Buka Pengaturan (pojok kiri bawah)
+   - Masuk ke API Key → Generate key baru → Namai “extension.”
+3. Buka ekstensi, tempel API key Anda, lalu simpan.
 
 https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
 
@@ -95,26 +112,59 @@ https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
 ### 💬 **Chat dengan Memori**: 
 Ajukan pertanyaan seperti "Apa preferensi menulis saya?" dengan wawasan instan dari pengetahuan yang terhubung
 
-https://github.com/user-attachments/assets/6be5aca5-1d2f-419e-9deb-acb897a05c20
-
-### ⚡ **Sinkronisasi Otomatis dari Aplikasi**: 
-
-Otomatis tangkap konteks relevan dari Linear, Slack, Notion, GitHub, dan aplikasi terhubung lainnya ke memori INTI Anda
-
-https://github.com/user-attachments/assets/a797f182-406d-49e8-80a8-20932169931d
-
-### 🔗 **Hub Integrasi MCP**: 
-
-Hubungkan Linear, Slack, GitHub, Notion satu kali ke INTI—lalu gunakan semua alat mereka di Claude, Cursor, atau klien MCP mana pun
+![chat-with-memory](https://github.com/user-attachments/assets/d798802f-bd51-4daf-b2b5-46de7d206f66)
 
 
-https://github.com/user-attachments/assets/be2d69a7-6c6c-43ad-91b7-6db66712821d
+### ⚡ **Sinkronisasi Otomatis dari Aplikasi**:
+
+Tangkap konteks relevan secara otomatis dari Linear, Slack, Notion, GitHub, dan aplikasi lain yang terhubung ke memori CORE Anda
+
+📖 **[Lihat Semua Integrasi](https://raw.githubusercontent.com/RedPlanetHQ/core/main/./integrations/README.md)** - Daftar lengkap layanan yang didukung beserta fitur-fiturnya
+
+![core-slack](https://github.com/user-attachments/assets/d5fefe38-221e-4076-8a44-8ed673960f03)
 
 
+### 🔗 **MCP Integration Hub**: 
+
+Hubungkan Linear, Slack, GitHub, Notion sekali ke CORE—lalu gunakan semua alat tersebut di Claude, Cursor, atau klien MCP mana pun hanya dengan satu URL
+
+
+![core-linear-claude](https://github.com/user-attachments/assets/7d59d92b-8c56-4745-a7ab-9a3c0341aa32)
+
+
+
+## Cara CORE Membuat Memori
+
+<img width="12885" height="3048" alt="memory-ingest-diagram" src="https://github.com/user-attachments/assets/c51679de-8260-4bee-bebf-aff32c6b8e13" />
+
+Pipeline ingest CORE memiliki empat fase yang dirancang untuk menangkap konteks yang terus berkembang:
+
+1. **Normalisasi**: Menghubungkan informasi baru ke konteks terbaru, memecah dokumen panjang menjadi bagian-bagian yang koheren sambil menjaga referensi silang, dan menstandarisasi istilah sehingga saat CORE mengekstrak pengetahuan, ia bekerja dengan input yang bersih dan terkontekstualisasi, bukan teks yang berantakan.
+2. **Ekstraksi**: Mengambil makna dari teks yang dinormalisasi dengan mengidentifikasi entitas (orang, alat, proyek, konsep), mengubahnya menjadi pernyataan beserta konteks, sumber, dan waktu, serta memetakan hubungan. Misalnya, "Kami menulis CORE di Next.js" menjadi: Entitas (Core, Next.js), Pernyataan (CORE dikembangkan menggunakan Next.js), dan Hubungan (dikembangkan menggunakan).
+3. **Resolusi**: Mendeteksi kontradiksi, melacak bagaimana preferensi berkembang, dan menjaga berbagai perspektif beserta asal-usulnya alih-alih menimpanya, sehingga memori mencerminkan perjalanan penuh Anda, bukan hanya snapshot terbaru.
+4. **Integrasi Graf**: Menghubungkan entitas, pernyataan, dan episode ke dalam graf pengetahuan temporal yang mengaitkan fakta dengan konteks dan sejarahnya, mengubah data terisolasi menjadi jaringan pengetahuan hidup yang benar-benar dapat digunakan oleh agen.
+
+Hasilnya: Alih-alih basis data datar, CORE memberi Anda memori yang tumbuh dan berubah bersama Anda - menjaga konteks, evolusi, dan kepemilikan sehingga agen benar-benar dapat memanfaatkannya.
+
+
+![memory-ingest-eg](https://github.com/user-attachments/assets/1d0a8007-153a-4842-9586-f6f4de43e647)
+
+## Cara CORE Mengingat dari Memori
+
+<img width="10610" height="3454" alt="memory-search-diagram" src="https://github.com/user-attachments/assets/3541893e-f7c9-42b9-8fad-6dabf138dbeb" />
+
+Saat Anda bertanya pada CORE, ia tidak hanya mencari teks - ia menelusuri seluruh graf pengetahuan Anda untuk menemukan jawaban yang paling berguna.
+
+1. **Pencarian**: CORE menelusuri memori dari berbagai sudut sekaligus - pencarian kata kunci untuk hasil yang tepat, pencarian semantik untuk ide terkait meski berbeda cara penyampaiannya, dan penelusuran graf untuk mengikuti tautan antar konsep yang terhubung.
+2. **Pemeringkatan Ulang**: Hasil yang didapat akan diurutkan ulang untuk menonjolkan yang paling relevan dan beragam, memastikan Anda tidak hanya melihat kecocokan yang jelas tetapi juga koneksi yang lebih mendalam.
+3. **Penyaringan**: CORE menerapkan filter cerdas berdasarkan waktu, reliabilitas, dan kekuatan hubungan, sehingga hanya pengetahuan paling bermakna yang muncul.
+4. **Output**: Anda akan mendapatkan kembali baik fakta (pernyataan yang jelas) maupun episode (konteks asli tempat fakta itu berasal), sehingga penarikan selalu didasarkan pada konteks, waktu, dan cerita.
+
+Hasilnya: CORE tidak hanya mengingat fakta - tapi juga mengingatnya dalam konteks, waktu, dan cerita yang tepat, sehingga agen dapat merespons sebagaimana Anda mengingatnya.
 
 ## Dokumentasi
 
-Jelajahi dokumentasi kami untuk memaksimalkan penggunaan INTI
+Jelajahi dokumentasi kami untuk memaksimalkan penggunaan CORE
 
 - [Konsep Dasar](https://docs.heysol.ai/concepts/memory_graph)
 - [Self Hosting](https://docs.heysol.ai/self-hosting/overview)
@@ -124,11 +174,22 @@ Jelajahi dokumentasi kami untuk memaksimalkan penggunaan INTI
 - [Konsep Dasar](https://docs.heysol.ai/overview)
 - [Referensi API](https://docs.heysol.ai/local-setup)
 
+## 🔒 Keamanan
+
+CORE sangat memperhatikan keamanan. Kami menerapkan praktik keamanan standar industri untuk melindungi data Anda:
+
+- **Enkripsi Data**: Semua data dalam perjalanan (TLS 1.3) dan saat disimpan (AES-256)
+- **Otentikasi**: OAuth 2.0 dan otentikasi magic link
+- **Kontrol Akses**: Isolasi berbasis workspace dan izin berbasis peran
+- **Pelaporan Kerentanan**: Silakan laporkan masalah keamanan ke harshith@tegon.ai
+
+Untuk informasi keamanan lebih detail, lihat [Kebijakan Keamanan](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) kami.
+
 ## 🧑‍💻 Dukungan
 
 Punya pertanyaan atau masukan? Kami siap membantu:
 
-- Discord: [Gabung ke channel core-support](https://discord.gg/YGUZcvDjUa)
+- Discord: [Bergabung di channel core-support](https://discord.gg/YGUZcvDjUa)
 - Dokumentasi: [docs.heysol.ai](https://docs.heysol.ai)
 - Email: manik@poozle.dev
 
@@ -156,8 +217,13 @@ Punya pertanyaan atau masukan? Kami siap membantu:
 
 
 
+
+
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
 
 ---

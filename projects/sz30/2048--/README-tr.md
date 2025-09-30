@@ -38,27 +38,27 @@ Klasik 2048 oyununun geliştirilmiş bir versiyonu, şimdi daha da eğlenceli ö
 
 **Nasıl oynanır:**
 - Blokları hareket ettirmek için yön tuşlarını veya WASD tuşlarını kullanın.
-- Aynı sayıya sahip iki karo çarpıştığında, tek bir karoya birleşirler.
-- Her hamleden sonra, boş bir alanda rastgele yeni bir 2 veya 4 belirir.
+- Aynı sayıya sahip iki karo çarpıştığında, tek bir karo halinde birleşirler.
+- Her hamleden sonra, rastgele bir boş alana yeni bir 2 veya 4 gelir.
 - Hamle kalmadığında oyun sona erer.
 
 ## ✨ Özel Özellikler
 
-### 1. Geri Alma Fonksiyonu
-- Yanlış bir hamle mi yaptınız? Endişelenmeyin!
-- Sadece "Geri Al" butonuna basarak bir adım geri gidebilirsiniz.
-- İstediğiniz kadar geri alabilirsiniz, en başa kadar.
-- Artık bir parmak kayması oyununuzu mahvetmesin!
+### 1. Geri Al Fonksiyonu
+- Yanlış bir hamle mi yaptınız? Sorun değil!
+- Sadece "Geri Al" düğmesine basın ve bir önceki adıma dönün.
+- Başlangıca kadar istediğiniz kadar geri alabilirsiniz.
+- Artık yanlışlıkla dokunmak oyununuzu mahvetmesin!
 
 ### 2. Gizli Hile Modu
 - Sihirli diziyi girin: ←←→→ →→←← (sol, sol, sağ, sağ, sağ, sağ, sol, sol)
-- Tüm karolar sihirli bir şekilde 128'e dönüşecek!
-- Sadece eğlence için bir Paskalya yumurtası.
-- İpucu: Hile yapmak eğlencelidir ama abartmayın! 😉
+- Tüm karolar sihirli bir şekilde 128'e dönüşür!
+- Sadece eğlence amaçlı bir Paskalya yumurtası.
+- İpucu: Hile yapmak eğlencelidir, ama aşırıya kaçmayın! 😉
 
 ## 🎯 Demo
 
-🎯 : [Buradan oynayın](http://34.150.49.127:5000/)
+🎯 : [Burada oynayın](http://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -99,31 +99,28 @@ python 2048.py
 
 ## 🎨 Özelleştirme
 
-Kendi tarzınızı yaratmak mı istiyorsunuz? Yeni bir görünüm için `styles.css` dosyasını düzenleyin veya oyunun oynanışını değiştirmek için `script.js`'e göz atın. Tüm kodlar kolayca düzenlenebilmesi için iyi şekilde yorumlanmıştır!
+Kendi tarzını yaratmak ister misin? Yeni bir görünüm için `styles.css` dosyasını değiştir, ya da oynanışı değiştirmek için `script.js` dosyasına dal. Tüm kodlar kolayca müdahale edilebilmesi için detaylıca yorumlanmıştır!
 
 ## 📝 Lisans
 
 GPL-2.0 lisansı
 
-## 🤝 Katkı Sağlama
+## 🤝 Katkıda Bulunma
 
-Hâlâ güncelleniyor! Sorunlar ve Çekme Talepleri çok memnuniyetle karşılanır—bu oyunu birlikte daha harika hale getirelim!
+Hâlâ güncelleniyor! Sorunlar ve Çekme İstekleri çok memnuniyetle karşılanır—bu oyunu birlikte daha da harika yapalım!
 
 
 ## 🙏 Teşekkürler
 
-Bu projeye destek veren aşağıdaki sponsorlara teşekkürler:
-- [Yok](https://#/) sunucu sağlıyor
-- [Serv00](https://www.serv00.com/) sunucu sağlıyor
+Bu projeye destek veren aşağıdaki sponsorlarımıza teşekkürler:
+- [Aurora Cloud](https://www.free-vps.net/) sunucu desteği sağladı
 
 ---
-_Son güncelleme: Ağustos 2025_
-
-
+_Son güncelleme: Ekim 2025_
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
 
 ---

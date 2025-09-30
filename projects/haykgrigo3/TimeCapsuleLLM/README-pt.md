@@ -40,91 +40,93 @@ v0 e v0.5 construídos sobre [nanoGPT de Andrej Karpathy](https://github.com/kar
 
 v1 construído sobre [Phi 1.5 da Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
+[Link Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+
 ##  Comportamento do Modelo & Limitações
 
 ### **v0**  
 
 Os primeiros prompts mostram o modelo respondendo com linguagem e comportamento do século XIX. 
-Exemplo: Prompt: "Who art Henry?" e ele respondeu "Eu conheço esse homem, eu não fiz um negro, a tempestade."
+Exemplo: Prompt: "Who art Henry?" e ele respondeu "I know that man, I have did not a black, the storm." 
 
-![Saída de Exemplo do TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeLockLLM Saída de Exemplo](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- Nenhuma menção a conceitos modernos  
-- Vocabulário majoritariamente fiel à época  
-- Frases são na maioria incoerentes (esperado para ~187MB de dados de treinamento)
+- Sem menção a conceitos modernos  
+- Vocabulário majoritariamente preciso à época  
+- Frases em sua maioria incoerentes (esperado para ~187MB de dados de treinamento)
 
 ### **v0.5** 
 
 Uma melhoria significativa em relação ao v0.  
-- Estilo de escrita vitoriano, pontuação adequada, frases na maioria gramaticais  
-- Taxa de alucinação factual ainda alta  
-- Ruído de OCR (“Digitized by Google”) ainda presente nas respostas
+- Estilo de escrita vitoriano, pontuação correta, frases majoritariamente gramaticais  
+- Ainda alta taxa de alucinação factual  
+- Ruído de OCR (“Digitized by Google”) ainda presente nas saídas
 
-![Saída de Exemplo do TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeLockLLM Saída de Exemplo](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-Primeiro modelo a recordar e conectar um evento histórico real com uma figura do conjunto de dados.
+Primeiro modelo a recordar e conectar um evento histórico real com uma figura real do conjunto de dados.
 
-Exemplo: Prompt: "Foi o ano de nosso Senhor 1834" 
+Exemplo: Prompt: "It was the year of our Lord 1834" 
 
-A resposta: "Foi o ano de nosso Senhor 1834 e as ruas de Londres estavam cheias de protestos e petições. A causa, como muitos relataram, não estava vinculada ao modo privado, mas tendo sido tomada no mesmo dia no dia de Lord Palmerston, o público receberá uma breve declaração das dificuldades sob as quais o dia da lei chegou até nós. É motivo de profundo pesar que os eventos atuais na história do mundo sejam claros e, consequentemente, serão conhecidos. Não é verdade que os próprios homens que primeiro se estabeleceram no Evangelho em Jerusalém deveriam ter um registro tão extenso e tão interessante da prosperidade e prosperidade"
+A saída: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-No início presumi que um protesto poderia ter acontecido coincidentemente no mesmo ano, mas veja isto: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+A princípio assumi que um protesto poderia ter ocorrido coincidentemente no mesmo ano, mas olhe isto: ![1834protesto](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### Por que isso importa:
 
-Este é o primeiro exemplo de um dos meus modelos conectando um ano a um evento histórico real e a uma pessoa real ligada a esse evento (Lord Palmerston). Modelos anteriores (v0 e v0.5) conseguiam imitar estilos de escrita do século XIX, mas sempre alucinavam eventos, pessoas e fatos. Isso mostra que o modelo está começando a lembrar coisas do conjunto de dados
+Este é o primeiro exemplo de um dos meus modelos conectando um ano a tanto um evento histórico real quanto a uma pessoa real vinculada a esse evento (Lord Palmerston). Modelos anteriores (v0 e v0.5) conseguiam imitar estilos de escrita do século XIX, mas sempre alucinavam eventos, pessoas e fatos. Isso mostra que o modelo está começando a lembrar coisas do conjunto de dados
 
-## Planos Futuros 
 
-- Existem quase 175.000 textos publicados em Londres de 1800-1875 disponíveis no Internet Archive
+## Planos Futuros
+
+- Existem quase 175.000 textos publicados em Londres de 1800-1875 no Internet Archive
 - Pretendo expandir o corpus e limpá-lo mais para melhorar as capacidades de raciocínio
-- Expandindo para diferentes regiões e períodos para modelos históricos mais diversos
-
+- Expandir para diferentes regiões e períodos de tempo para modelos históricos mais abrangentes
 
 ## Como Usar
 
-Este projeto foca principalmente em curar dados históricos, prepará-los para treinamento e construir um tokenizador. Não vou cobrir o processo completo de treinamento de LLM, para isso, consulte o nanoGPT por Andrej Karpathy.
+Este projeto foca principalmente em curar dados históricos, prepará-los para treinamento e construir um tokenizador. Não vou cobrir todo o processo de treinamento de LLM, para isso consulte o nanoGPT de Andrej Karpathy.
 
 ### Passo 1: Coletar e Preparar Textos Históricos
 
-- Colete arquivos .txt de livros de domínio público, documentos, etc do período escolhido (ex.: Londres 1800-1850)
+- Colete arquivos .txt de livros de domínio público, documentos, etc. do período escolhido (ex.: Londres 1800-1850)
 - Mantenha-os dentro da janela de tempo/local escolhida
-- Limpe os arquivos de texto usando um script ou remova manualmente cabeçalhos/rodapés do Project Gutenberg, anotações modernas ou erros de OCR.
+- Limpe os arquivos de texto usando um script ou removendo manualmente cabeçalhos/rodapés do Projeto Gutenberg, anotações modernas ou erros de OCR.
 
 ### Passo 2: Construir um Tokenizador Personalizado
 
 - Execute train_tokenizer.py ou train_tokenizer_hf.py nos dados limpos.
 - Isso irá gerar vocab.json e merges.txt
-- Esses arquivos definem o vocabulário e as regras de fusão para seu modelo
+- Esses arquivos definem vocabulário e regras de mesclagem para seu modelo
 
-### Passo 3: Treinar Seu Modelo
+### Passo 3: Treine Seu Modelo
 
-- Consulte [nanoGPT por Andrej Karpathy](https://github.com/karpathy/nanoGPT) para o processo de treinamento ou a documentação da arquitetura escolhida.
+- Consulte [nanoGPT de Andrej Karpathy](https://github.com/karpathy/nanoGPT) para o processo de treinamento ou a documentação da arquitetura escolhida.
 
 # FAQ
 
 ## O que é Treinamento Temporal Seletivo?
 
-Treinamento Temporal Seletivo (STT) é uma metodologia de aprendizado de máquina onde todos os dados de treinamento são especificamente selecionados para estar dentro de um período histórico determinado. Isso é feito para modelar a linguagem e o conhecimento daquela época sem influência de conceitos modernos. Por exemplo, o modelo atual que possuo (v0.5) foi treinado exclusivamente com dados de 1800-1875, não é fine-tuned, mas treinado do zero, resultando em uma saída que reflete o estilo linguístico e contexto histórico desse período.
+Treinamento Temporal Seletivo (STT) é uma metodologia de aprendizado de máquina onde todos os dados de treinamento são especificamente curados para se enquadrar em um período histórico determinado. Isso é feito para modelar a linguagem e o conhecimento daquela época sem influência de conceitos modernos. Por exemplo, o modelo atual que tenho (v0.5) foi treinado exclusivamente com dados de 1800-1875, não foi apenas ajustado, mas treinado do zero, resultando em uma saída que reflete o estilo linguístico e o contexto histórico daquele período.
 
-## Por que não apenas usar fine-tuning ou LoRA?
+## Por que não usar apenas fine-tuning ou LoRA?
 
-Para este projeto, estou tentando criar um modelo de linguagem livre de viés moderno. Se eu fizer fine-tuning em algo como GPT-2, ele já está pré-treinado e essa informação não desaparece. Se eu treinar do zero, o modelo de linguagem não vai apenas fingir ser antigo, ele realmente será. O objetivo deste projeto agora é criar algo que possa raciocinar exclusivamente usando conhecimento de livros de Londres publicados entre 1800 e 1875.
+Neste projeto estou tentando criar um modelo de linguagem livre de vieses modernos. Se eu fizer fine-tuning em algo como GPT-2, ele já está pré-treinado e essa informação não desaparece. Se eu treinar do zero, o modelo de linguagem não vai fingir ser antigo, ele simplesmente será. O objetivo do projeto agora é criar algo que possa raciocinar exclusivamente usando conhecimento de livros de Londres publicados entre 1800 e 1875.
 
-## Que tipo de dados você usou para o treinamento?
+## Que tipo de dados você usou para treinar?
 
-Estou usando livros, documentos legais, jornais e outros escritos de Londres de 1800–1875. A lista que linkei (para v0) tem cerca de 200, mas para o primeiro treinamento usei apenas 50 arquivos totalizando ~187 MB. Você pode ver a lista de documentos:
+
+Estou usando livros, documentos legais, jornais e outros escritos de Londres entre 1800–1875. A lista que mencionei (para v0) tem cerca de 200, mas para o primeiro treinamento usei apenas 50 arquivos, aproximadamente ~187 MB. Você pode ver uma lista dos documentos:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
-
 
 Tamanhos dos conjuntos de dados:
 v0: ~187MB
-v0.5: ~435MB
-v1: ~6,25GB
+v0.5: ~435MB 
+v1: ~6.25GB 
 
-## Qual o tamanho dos modelos?
+## Qual o tamanho dos modelos ?
 
 V0: 16M Parâmetros
 
@@ -132,11 +134,11 @@ V0.5 123M Parâmetros
 
 V1: 700M Parâmetros
 
-# Especificações de treinamento?
+# Especificações de Treinamento ? 
 
 # V0/V0.5
-GPU: Geforce RTX 4060
-CPU: i5-13400F
+GPU: Geforce rtx 4060
+CPU: i5-13400F 
 Ram: 16GB DDR5.
 
 # V1
@@ -155,8 +157,9 @@ GPU: A100 alugada
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
 
 ---

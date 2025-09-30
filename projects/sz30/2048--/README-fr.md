@@ -38,27 +38,27 @@ Une version améliorée du jeu classique 2048, désormais avec encore plus de fo
 
 **Comment jouer :**
 - Utilisez les flèches du clavier ou WASD pour déplacer les tuiles.
-- Lorsque deux tuiles portant le même numéro se percutent, elles fusionnent en une seule.
-- Après chaque mouvement, un nouveau 2 ou 4 apparaît aléatoirement dans une case vide.
-- La partie se termine lorsqu’il n’y a plus de mouvements possibles.
+- Lorsque deux tuiles portant le même chiffre se percutent, elles fusionnent en une seule.
+- Après chaque déplacement, un 2 ou un 4 apparaîtra aléatoirement dans une case vide.
+- La partie se termine lorsqu'aucun mouvement n'est possible.
 
 ## ✨ Fonctionnalités Spéciales
 
 ### 1. Fonction Annuler
-- Vous avez fait une mauvaise manipulation ? Pas de souci !
-- Il suffit d’appuyer sur le bouton "Annuler" pour revenir en arrière d’un pas.
-- Vous pouvez annuler autant de fois que vous le souhaitez, jusqu’au début de la partie.
-- Ne laissez plus jamais une fausse manipulation gâcher votre partie !
+- Vous avez fait une mauvaise manipulation ? Pas de panique !
+- Appuyez simplement sur le bouton "Annuler" pour revenir d'un pas en arrière.
+- Vous pouvez annuler autant de fois que vous le souhaitez, jusqu'au début de la partie.
+- Ne laissez plus jamais une erreur de manipulation gâcher votre partie !
 
 ### 2. Mode Triche Secret
 - Entrez la séquence magique : ←←→→ →→←← (gauche, gauche, droite, droite, droite, droite, gauche, gauche)
 - Toutes les tuiles se transformeront magiquement en 128 !
-- C’est un œuf de Pâques, juste pour le fun.
-- Astuce : Tricher c’est amusant, mais n’en abusez pas ! 😉
+- C'est un œuf de Pâques, juste pour le fun.
+- Astuce : Tricher, c'est amusant, mais n'en abusez pas ! 😉
 
 ## 🎯 Démo
 
-🎯 : [Jouer ici](http://34.150.49.127:5000/)
+🎯 : [Jouer ici](http://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -99,7 +99,7 @@ python 2048.py
 
 ## 🎨 Personnalisation
 
-Envie de le personnaliser ? Modifiez `styles.css` pour un nouveau look, ou plongez dans `script.js` pour changer le gameplay. Tout le code est bien commenté pour faciliter les modifications !
+Vous voulez le personnaliser ? Modifiez `styles.css` pour un nouveau style, ou plongez dans `script.js` pour changer le gameplay. Tout le code est bien commenté pour faciliter le hacking !
 
 ## 📝 Licence
 
@@ -107,23 +107,20 @@ Licence GPL-2.0
 
 ## 🤝 Contribution
 
-Toujours en cours de mise à jour ! Les problèmes et Pull Requests sont les bienvenus—rendons ce jeu encore plus génial ensemble !
+Encore en cours de mise à jour ! Les Issues et Pull Requests sont les bienvenus—rendons ce jeu encore plus génial ensemble !
 
 
 ## 🙏 Remerciements
 
 Merci aux sponsors suivants pour leur soutien à ce projet :
-- [Aucun](https://#/) pour la fourniture du serveur
-- [Serv00](https://www.serv00.com/) pour la fourniture du serveur
+- [Aurora Cloud](https://www.free-vps.net/) qui fournit le serveur
 
 ---
-_Dernière mise à jour : août 2025_
-
-
+_Dernière mise à jour : oct. 2025_
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
 
 ---

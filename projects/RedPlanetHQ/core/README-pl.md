@@ -46,97 +46,158 @@
 </p>
 </div>
 
+## 🔥 Najważniejsze osiągnięcia badawcze
+
+Pamięć CORE osiąga **88,24%** średniej dokładności na zbiorze danych Locomo we wszystkich zadaniach wymagających rozumowania, znacznie przewyższając innych dostawców pamięci. Sprawdź ten [blog](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/), aby dowiedzieć się więcej.
+
+<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
+(1) Pytania typu single-hop wymagają odpowiedzi na podstawie jednej sesji; (2) Pytania multi-hop wymagają syntezy informacji z wielu różnych sesji; (3) Pytania z zakresu wiedzy otwarto-domenowej można rozwiązać, integrując informacje podane przez rozmówcę z wiedzą zewnętrzną, taką jak zdrowy rozsądek lub fakty ze świata; (4) Pytania wymagające rozumowania czasowego można rozwiązać poprzez analizę czasową i wychwytywanie wskazówek związanych z czasem w rozmowie;
+
 ## Przegląd
 
 **Problem** 
 
-Programiści tracą czas na ponowne wyjaśnianie kontekstu narzędziom AI. Osiągnąłeś limit tokenów w Claude? Zaczynasz od nowa i tracisz wszystko. Przechodzisz z ChatGPT/Claude do Cursor? Wyjaśnij swój kontekst ponownie. Twoje rozmowy, decyzje i spostrzeżenia znikają pomiędzy sesjami.
+Deweloperzy tracą czas na ponowne wyjaśnianie kontekstu narzędziom AI. Napotykasz limity tokenów w Claude? Zaczynasz od nowa i tracisz wszystko. Przechodzisz z ChatGPT/Claude do Cursor? Ponownie tłumaczysz swój kontekst. Twoje rozmowy, decyzje i spostrzeżenia znikają między sesjami. Przy każdej zmianie narzędzia AI koszt przełączania kontekstu rośnie.
 
 **Rozwiązanie** - **CORE** (**Contextual Observation & Recall Engine**)
 
-CORE to otwartoźródłowa, zunifikowana, trwała warstwa pamięci dla wszystkich Twoich narzędzi AI. Twój kontekst podąża za Tobą od Cursor przez Claude, ChatGPT aż po Claude Code. Jeden graf wiedzy pamięta, kto co powiedział, kiedy i dlaczego. Połącz się raz, pamiętaj wszędzie. Przestań zarządzać kontekstem i zacznij budować.
+CORE to otwartoźródłowa, zunifikowana i trwała warstwa pamięci dla wszystkich Twoich narzędzi AI. Twój kontekst podąża za Tobą z Cursor do Claude, z ChatGPT do Claude Code. Jeden graf wiedzy pamięta, kto co powiedział, kiedy i dlaczego. Podłącz raz, pamiętaj wszędzie. Przestań zarządzać kontekstem i zacznij budować.
 
 ## 🚀 Zacznij
 **Zbuduj swój zunifikowany graf pamięci w 5 minut:**
 
-1. **Zarejestruj się** na [core.heysol.ai](https://core.heysol.ai) i utwórz swoje konto
-2. **Dodaj swoją pierwszą pamięć** - podziel się kontekstem o sobie
+1. **Zarejestruj się** na [core.heysol.ai](https://core.heysol.ai) i utwórz konto
+2. **Dodaj swoją pierwszą pamięć** – podziel się kontekstem o sobie
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
-3. **Zwizualizuj swój graf pamięci** i zobacz, jak CORE automatycznie tworzy powiązania między faktami
-5. **Przetestuj** - zapytaj "Co wiesz o mnie?" w sekcji rozmowy
-6. Połącz się ze swoimi narzędziami:
-   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - programowanie z kontekstem
-   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude) & [Gemini CLI](https://docs.heysol.ai/providers/cursor) - programowanie w terminalu z pamięcią
-   - [Dodaj rozszerzenie do przeglądarki](https://docs.heysol.ai/providers/cursor) - zabierz swoją pamięć na każdą stronę internetową
-   - [Linear](https://docs.heysol.ai/providers/claude), [Slack](https://docs.heysol.ai/providers/cursor), [Github](https://docs.heysol.ai/providers/cursor) - automatyczne dodawanie kontekstu projektu
+3. **Zobacz swój graf pamięci** i sprawdź, jak CORE automatycznie tworzy połączenia między faktami
+5. **Przetestuj to** – zapytaj w sekcji rozmowy: "Co o mnie wiesz?"
+6. Podłącz do swoich narzędzi:
+   - [Claude](https://docs.heysol.ai/providers/claude) i [Cursor](https://docs.heysol.ai/providers/cursor) – kodowanie z kontekstem
+   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) i [Gemini CLI](https://docs.heysol.ai/providers/claude-code) – kodowanie w terminalu z pamięcią
+   - [Dodaj rozszerzenie do przeglądarki](https://docs.heysol.ai/providers/browser-extension) – zabierz swoją pamięć na każdą stronę internetową
+   - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) – automatyczne dodawanie kontekstu projektu
 
 ## 🧩 Kluczowe funkcje
 
-### 🧠 **Zunifikowana, przenośna pamięć**: 
-Dodawaj i przypominaj sobie pamięć w **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS Kiro, VS Code i Roo Code** za pośrednictwem MCP
+### 🧠 **Ujednolicona, przenośna pamięć**: 
+Dodawaj i przywołuj swoją pamięć w **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS Kiro, VS Code i Roo Code** poprzez MCP
 
-### 🕸️ **Tymporalna + Urealniona Sieć Wiedzy**: 
+![core-claude](https://github.com/user-attachments/assets/56c98288-ee87-4cd0-8b02-860aca1c7f9a)
 
-Zapamiętaj historię stojącą za każdym faktem—śledź kto, kiedy i dlaczego coś powiedział, z bogatymi relacjami i pełną prowieniencją, nie tylko płaskim przechowywaniem
 
-https://github.com/user-attachments/assets/d18e3caa-72ea-4596-bbf7-cc9e32bd772f
+### 🕸️ **Czasowy + Urealniony Graf Wiedzy**: 
 
-### 🌐 **Rozszerzenie Przeglądarki**: 
+Zapamiętaj historię każdej informacji—śledź kto, co, kiedy i dlaczego powiedział, z bogatymi powiązaniami i pełną prowieniencją, a nie tylko płaskim magazynem
 
-Przechwytuj rozmowy z ChatGPT, Grok, Gemini, Twittera, YouTube, postów na blogach i dowolnych stron bezpośrednio do swojej pamięci CORE
+![core-memory-graph](https://github.com/user-attachments/assets/5d1ee659-d519-4624-85d1-e0497cbdd60a)
 
+
+### 🌐 **Rozszerzenie przeglądarki**: 
+
+Zapisuj rozmowy i treści z ChatGPT, Grok, Gemini, Twittera, YouTube, wpisów na blogach i dowolnej strony internetowej bezpośrednio do pamięci CORE.
+
+**Jak używać rozszerzenia**
+1. [Pobierz rozszerzenie](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc) ze sklepu Chrome Web Store.
+2. Zaloguj się do [panelu CORE](https://core.heysol.ai)
+   - Przejdź do Ustawień (lewy dolny róg)
+   - Przejdź do API Key → Wygeneruj nowy klucz → Nazwij go „extension.”
+3. Otwórz rozszerzenie, wklej swój klucz API i zapisz.
 
 https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
 
 
-### 💬 **Czat z Pamięcią**: 
-Zadawaj pytania typu „Jakie są moje preferencje pisarskie?” i uzyskuj natychmiastowe odpowiedzi z połączonej wiedzy
+### 💬 **Rozmawiaj z pamięcią**: 
+Zadawaj pytania typu „Jakie są moje preferencje pisarskie?” i uzyskaj natychmiastowe informacje z podłączonej wiedzy
 
-https://github.com/user-attachments/assets/6be5aca5-1d2f-419e-9deb-acb897a05c20
-
-### ⚡ **Automatyczna Synchronizacja z Aplikacji**: 
-
-Automatycznie przechwytuj istotny kontekst z Linear, Slack, Notion, GitHub i innych połączonych aplikacji do swojej pamięci CORE
-
-https://github.com/user-attachments/assets/a797f182-406d-49e8-80a8-20932169931d
-
-### 🔗 **Centrum Integracji MCP**: 
-
-Połącz Linear, Slack, GitHub, Notion z CORE tylko raz—potem używaj wszystkich ich narzędzi w Claude, Cursor lub dowolnym kliencie MCP
+![chat-with-memory](https://github.com/user-attachments/assets/d798802f-bd51-4daf-b2b5-46de7d206f66)
 
 
-https://github.com/user-attachments/assets/be2d69a7-6c6c-43ad-91b7-6db66712821d
+### ⚡ **Automatyczna synchronizacja z aplikacji**:
+
+Automatycznie przechwytuj istotny kontekst z Linear, Slack, Notion, GitHub i innych podłączonych aplikacji do swojej pamięci CORE
+
+📖 **[Zobacz wszystkie integracje](https://raw.githubusercontent.com/RedPlanetHQ/core/main/./integrations/README.md)** - Kompletny wykaz obsługiwanych usług i ich funkcji
+
+![core-slack](https://github.com/user-attachments/assets/d5fefe38-221e-4076-8a44-8ed673960f03)
 
 
+### 🔗 **MCP Integration Hub**: 
+
+Połącz Linear, Slack, GitHub, Notion z CORE—następnie używaj wszystkich tych narzędzi w Claude, Cursor lub dowolnym kliencie MCP za pomocą jednego URL
+
+
+![core-linear-claude](https://github.com/user-attachments/assets/7d59d92b-8c56-4745-a7ab-9a3c0341aa32)
+
+
+
+## Jak CORE tworzy pamięć
+
+<img width="12885" height="3048" alt="memory-ingest-diagram" src="https://github.com/user-attachments/assets/c51679de-8260-4bee-bebf-aff32c6b8e13" />
+
+Proces pozyskiwania danych przez CORE składa się z czterech faz, zaprojektowanych do uchwycenia ewoluującego kontekstu:
+
+1. **Normalizacja**: Łączy nowe informacje z ostatnim kontekstem, dzieli długie dokumenty na spójne fragmenty zachowując odnośniki, oraz ujednolica terminy, dzięki czemu w momencie ekstrakcji CORE pracuje na czystych, zkontekstualizowanych danych zamiast chaotycznego tekstu.
+2. **Ekstrakcja**: Wyciąga znaczenie z znormalizowanego tekstu, identyfikując encje (osoby, narzędzia, projekty, koncepcje), zamieniając je w stwierdzenia z kontekstem, źródłem i czasem oraz mapując relacje. Na przykład „Napisaliśmy CORE w Next.js” staje się: Encje (Core, Next.js), Stwierdzenie (CORE został stworzony z użyciem Next.js), oraz Relacja (został stworzony z użyciem).
+3. **Rozstrzyganie**: Wykrywa sprzeczności, śledzi jak zmieniają się preferencje i zachowuje różne perspektywy wraz z pochodzeniem, zamiast je nadpisywać, dzięki czemu pamięć odzwierciedla całą Twoją drogę, nie tylko ostatni stan.
+4. **Integracja z grafem**: Łączy encje, stwierdzenia i epizody w temporalny graf wiedzy, który powiązuje fakty z ich kontekstem i historią, zamieniając izolowane dane w żywą sieć wiedzy, którą agenci faktycznie mogą wykorzystać.
+
+Efekt: Zamiast płaskiej bazy danych, CORE daje Ci pamięć, która rośnie i zmienia się wraz z Tobą - zachowując kontekst, ewolucję i własność, aby agenci faktycznie mogli z niej korzystać.
+
+
+![memory-ingest-eg](https://github.com/user-attachments/assets/1d0a8007-153a-4842-9586-f6f4de43e647)
+
+## Jak CORE odtwarza z pamięci
+
+<img width="10610" height="3454" alt="memory-search-diagram" src="https://github.com/user-attachments/assets/3541893e-f7c9-42b9-8fad-6dabf138dbeb" />
+
+Gdy zadasz pytanie CORE, nie tylko wyszukuje tekst - zagłębia się w cały Twój graf wiedzy, aby znaleźć najbardziej użyteczne odpowiedzi.
+
+1. **Wyszukiwanie**: CORE przeszukuje pamięć z różnych perspektyw jednocześnie - wyszukiwanie słów kluczowych dla dokładnych dopasowań, wyszukiwanie semantyczne dla powiązanych idei nawet jeśli są opisane inaczej, oraz przechodzenie po grafie by podążać za powiązanymi koncepcjami.
+2. **Ponowne sortowanie**: Odzyskane wyniki są sortowane, aby wyróżnić najbardziej trafne i zróżnicowane, zapewniając, że nie zobaczysz tylko oczywistych dopasowań, ale także głębsze powiązania.
+3. **Filtrowanie**: CORE stosuje inteligentne filtry na podstawie czasu, wiarygodności i siły relacji, dzięki czemu wyłania się tylko najbardziej istotna wiedza.
+4. **Wynik**: Otrzymujesz zarówno fakty (jasne stwierdzenia), jak i epizody (oryginalny kontekst, z którego pochodzą), więc przypomnienia są zawsze zakorzenione w kontekście, czasie i historii.
+
+Rezultat: CORE nie tylko przywołuje fakty – przywołuje je we właściwym kontekście, czasie i historii, dzięki czemu agenci mogą reagować tak, jak byś pamiętał.
 
 ## Dokumentacja
 
 Odkryj naszą dokumentację, aby w pełni wykorzystać możliwości CORE
 
-- [Podstawowe Koncepcje](https://docs.heysol.ai/concepts/memory_graph)
-- [Samodzielny Hosting](https://docs.heysol.ai/self-hosting/overview)
+- [Podstawowe pojęcia](https://docs.heysol.ai/concepts/memory_graph)
+- [Samodzielna instalacja](https://docs.heysol.ai/self-hosting/overview)
 - [Połącz Core MCP z Claude](https://docs.heysol.ai/providers/claude)
 - [Połącz Core MCP z Cursor](https://docs.heysol.ai/providers/cursor)
 
 - [Podstawowe pojęcia](https://docs.heysol.ai/overview)
 - [Dokumentacja API](https://docs.heysol.ai/local-setup)
 
+## 🔒 Bezpieczeństwo
+
+CORE traktuje bezpieczeństwo poważnie. Wdrażamy branżowe standardy bezpieczeństwa, aby chronić Twoje dane:
+
+- **Szyfrowanie danych**: Wszystkie dane w tranzycie (TLS 1.3) i w spoczynku (AES-256)
+- **Uwierzytelnianie**: OAuth 2.0 oraz uwierzytelnianie za pomocą magicznego linku
+- **Kontrola dostępu**: Izolacja oparta na przestrzeni roboczej i uprawnienia oparte na rolach
+- **Zgłaszanie podatności**: Prosimy zgłaszać kwestie bezpieczeństwa na harshith@tegon.ai
+
+Szczegółowe informacje dotyczące bezpieczeństwa znajdziesz w naszej [Polityce bezpieczeństwa](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
+
 ## 🧑‍💻 Wsparcie
 
-Masz pytania lub uwagi? Jesteśmy tu, aby pomóc:
+Masz pytania lub uwagi? Jesteśmy tutaj, aby pomóc:
 
 - Discord: [Dołącz do kanału core-support](https://discord.gg/YGUZcvDjUa)
 - Dokumentacja: [docs.heysol.ai](https://docs.heysol.ai)
-- Email: manik@poozle.dev
+- E-mail: manik@poozle.dev
 
 ## Wytyczne dotyczące użytkowania
 
-**Przechowuj:**
+**Przechowywanie:**
 
-- Historię rozmów
+- Historia rozmów
 - Preferencje użytkownika
 - Kontekst zadania
 - Materiały referencyjne
@@ -156,8 +217,13 @@ Masz pytania lub uwagi? Jesteśmy tu, aby pomóc:
 
 
 
+
+
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
 
 ---

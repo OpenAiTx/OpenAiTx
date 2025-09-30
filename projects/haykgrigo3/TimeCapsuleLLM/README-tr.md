@@ -38,85 +38,87 @@ Bir yapay zekâ modelinin tarihiymiş gibi davranmakla kalmayıp gerçekten tari
 
 v0 ve v0.5 [Andrej Karpathy'nin nanoGPT'si](https://github.com/karpathy/nanoGPT) üzerine inşa edilmiştir. Temel eğitim betikleri ve model mimarisi ona aittir.
 
-v1 [Microsoft tarafından geliştirilen Phi 1.5 üzerinde oluşturuldu](https://huggingface.co/microsoft/phi-1_5)
+v1 [Microsoft tarafından geliştirilen Phi 1.5 üzerine kurulu](https://huggingface.co/microsoft/phi-1_5)
+
+[Hugging Face Bağlantısı](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
 
 ##  Model Davranışı & Sınırlamalar
 
 ### **v0**  
 
-İlk girdilerde modelin 1800'lerin dili ve davranışıyla cevap verdiği görülüyor. 
-Örnek: Girdi: "Who art Henry?" ve cevap olarak "I know that man, I have did not a black, the storm." dedi.
+İlk istemler, modelin 1800'lerin dili ve davranışıyla yanıt verdiğini gösteriyor. 
+Örnek: İstem: "Who art Henry?" ve yanıtı "I know that man, I have did not a black, the storm." 
 
 ![TimeLockLLM Örnek Çıktı](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- Modern kavramlara hiç değinilmiyor  
+- Modern kavramlardan hiç bahsedilmiyor  
 - Çoğunlukla döneme uygun kelime dağarcığı  
-- Cümleler çoğunlukla tutarsız (yaklaşık ~187MB eğitim verisi için beklenen)
+- Cümleler çoğunlukla tutarsız (yaklaşık ~187MB eğitim verisi için beklenen durum)
 
 ### **v0.5** 
 
 v0'a göre önemli bir gelişme.  
-- Viktorya dönemi yazı tarzı, düzgün noktalama, çoğunlukla gramer kurallarına uygun cümleler  
-- Hâlâ yüksek oranda gerçeklikten sapma (halüsinasyon)  
-- OCR gürültüsü (“Digitized by Google”) çıktılarda hâlâ mevcut
+- Viktorya dönemi yazı stili, düzgün noktalama, çoğunlukla gramatik cümleler  
+- Hâlâ yüksek oranda gerçek dışı bilgi üretimi  
+- OCR gürültüsü (“Digitized by Google”) hâlâ çıktıların içinde mevcut
 
 ![TimeLockLLM Örnek Çıktı](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-Modelin ilk kez gerçek bir tarihi olayı, veri setindeki gerçek bir figürle ilişkilendirdiği sürüm.
+İlk kez model, veri kümesinden gerçek bir tarihi olay ile o olaya bağlı gerçek bir kişiyi birleştirebildi.
 
-Örnek: Girdi: "It was the year of our Lord 1834" 
+Örnek: İstem: "It was the year of our Lord 1834" 
 
 Çıktı: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-Başta bir protestonun aynı yıl tesadüfen gerçekleşmiş olabileceğini düşündüm fakat şuna göz atın: ![1834protesto](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+İlk başta aynı yıl tesadüfen bir protesto olmuş olabileceğini düşündüm fakat şuna bakın: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### Neden önemli:
 
-Bu, modellerimden birinin bir yılı hem gerçek bir tarihi olaya hem de o olayla bağlantılı gerçek bir kişiye (Lord Palmerston) bağlamasının ilk örneği. Daha önceki modeller (v0 ve v0.5) 19. yüzyılın yazı tarzını taklit edebiliyordu ancak her zaman olaylar, kişiler ve gerçekler hakkında halüsinasyon görüyordu. Bu, modelin veri setinden bir şeyleri hatırlamaya başladığını gösteriyor.
+Bu, modellerimden birinin bir yılı hem gerçek bir tarihi olayla hem de o olaya bağlı gerçek bir kişiyle (Lord Palmerston) ilişkilendirmesinin ilk örneği. Daha önceki modeller (v0 ve v0.5) 19. yüzyılın yazı tarzını taklit edebiliyordu fakat olayları, kişileri ve bilgileri daima hayal ürünü olarak oluşturuyordu. Bu, modelin veri kümesinden bir şeyleri hatırlamaya başladığını gösteriyor.
 
 ## Yaklaşan Planlar 
 
-- 1800-1875 yılları arasında Londra'da yayımlanmış yaklaşık 175.000 metin Internet Archive üzerinde bulunmaktadır
+- 1800-1875 yılları arasında Londra'da yayımlanan yaklaşık 175.000 metin Internet Archive'da mevcut 
 - Korpusu genişletmeyi ve daha iyi akıl yürütme yetenekleri için daha fazla temizlemeyi planlıyorum
-- Daha fazla tarihsel model için farklı bölgelere ve zaman dilimlerine genişletme
+- Daha fazla tarihsel model için farklı bölgelere ve zaman dilimlerine yayılma
 
 
 ## Nasıl Kullanılır
 
-Bu proje çoğunlukla tarihsel verileri derlemeye, eğitime hazırlamaya ve bir belirteçleyici (tokenizer) oluşturmaya odaklanıyor. Tam LLM eğitim sürecini kapsamayacağım, bunun için Andrej Karpathy'nin nanoGPT'sine bakabilirsiniz.
+Bu proje ağırlıklı olarak tarihsel verileri derlemeye, eğitime hazırlamaya ve bir ayrıştırıcı oluşturmaya odaklanmaktadır. Tam LLM eğitim sürecini burada anlatmayacağım, bunun için Andrej Karpathy'nin nanoGPT'sine bakabilirsiniz.
 
 ### Adım 1: Tarihsel Metinleri Toplayın ve Hazırlayın 
 
-- Seçtiğiniz zaman diliminden kamu malı kitapların, belgelerin vs. .txt dosyalarını toplayın (örneğin, Londra 1800-1850)
-- Dosyaları seçtiğiniz zaman/mekan aralığında tutun  
-- Metin dosyalarını bir betik ile veya elle Project Gutenberg başlıklarını/altbilgilerini, modern açıklamaları veya OCR hataları gibi şeyleri çıkararak temizleyin.
+- Seçtiğiniz zaman diliminden (örn. Londra 1800-1850) kamuya açık kitapların, belgelerin vb. .txt dosyalarını toplayın 
+- Bunları seçtiğiniz zaman/mekan aralığında tutun  
+- Metin dosyalarını bir betik kullanarak veya elle Project Gutenberg başlık/dipnotlarını, modern açıklamaları ya da OCR hatası gibi şeyleri kaldırarak temizleyin.
 
-### Adım 2: Özel Bir Tokenizer Oluşturun
+### Adım 2: Özel Bir Ayrıştırıcı Oluşturun
 
-- train_tokenizer.py veya train_tokenizer_hf.py'yi temizlenmiş veri üzerinde çalıştırın.
+- Temizlenmiş veriler üzerinde train_tokenizer.py veya train_tokenizer_hf.py dosyasını çalıştırın.
 - Bu işlem size vocab.json ve merges.txt dosyalarını verecektir
 - Bu dosyalar modeliniz için kelime dağarcığını ve birleştirme kurallarını tanımlar
 
 ### Adım 3: Modelinizi Eğitin 
 
-- Eğitim süreci için [Andrej Karpathy'nin nanoGPT](https://github.com/karpathy/nanoGPT) projesine veya seçtiğiniz mimarinin belgelerine bakın.
+- Eğitim süreci için [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) veya seçtiğiniz mimarinin dokümantasyonuna bakın.
 
 # SSS
 
-## Seçici Zamansal Eğitim (Selective Temporal Training) Nedir?
+## Seçici Zamansal Eğitim Nedir?
 
-Seçici Zamansal Eğitim (STT), tüm eğitim verisinin özel olarak belirli bir tarihsel zaman aralığına uygun şekilde seçildiği bir makine öğrenimi metodolojisidir. Bu, çağdaş kavramların etkisi olmadan o dönemin dilini ve bilgisini modellemek için yapılır. Örneğin, şu anda elimde olan mevcut model (v0.5) tamamen 1800-1875 döneminden alınan verilerle eğitildi, ince ayar yapılmadı, sıfırdan eğitildi ve çıktıları o zaman diliminin dilsel tarzını ve tarihsel bağlamını yansıtıyor.
+Seçici Zamansal Eğitim (STT), tüm eğitim verisinin özellikle belirli bir tarihsel zaman dilimi içinde toplanıp düzenlendiği bir makine öğrenimi metodolojisidir. Bu, dönemin dilini ve bilgisini modern kavramlardan etkilenmeden modellemek için yapılır. Örneğin, şu anki modelim (v0.5) yalnızca 1800-1875 dönemine ait verilerle sıfırdan eğitilmiştir, ince ayar yapılmamıştır ve çıktısı o zaman diliminin dilsel üslubunu ve tarihsel bağlamını yansıtır.
 
-## Neden sadece ince ayar (fine-tuning) veya LoRA kullanmıyorsunuz?
+## Neden sadece ince ayar veya LoRA kullanmıyorsun?
 
-Bu proje için amacım modern yanlılıktan uzak bir dil modeli oluşturmak. Bir şeyin (ör. GPT-2) ince ayarını yaparsam, zaten önceden eğitilmiş olur ve o bilgi ortadan kalkmaz. Sıfırdan eğitirsem dil modeli eskiyi taklit etmez, doğrudan öyle olur. Şu anki hedefim, yalnızca 1800 ile 1875 arasında Londra'da yayımlanmış kitaplardan alınan bilgilerle akıl yürütebilen bir şey yaratmak.
+Bu projede, modern önyargılardan uzak bir dil modeli oluşturmayı amaçlıyorum. GPT-2 gibi bir şeyi ince ayarlarsam, zaten önceden eğitilmiş olur ve bu bilgi kaybolmaz. Sıfırdan eğitirsem dil modeli eskiymiş gibi davranmaz, gerçekten eski olur. Projenin şu anki amacı, yalnızca 1800-1875 yılları arasında Londra'da yayımlanan kitaplardan elde edilen bilgiyle akıl yürütebilen bir şey üretmektir.
 
-## Eğitim için ne tür veriler kullandınız?
+## Eğitime hangi tür verileri kullandınız?
 
-Kitaplar, yasal belgeler, gazeteler ve 1800–1875 Londra'sından diğer yazılı eserleri kullanıyorum. Bağlantısını verdiğim listede (v0) yaklaşık 200 dosya var ama ilk eğitimde sadece 50 dosya ve yaklaşık ~187 MB kullandım. Belgelerin listesini buradan görebilirsiniz:
+1800–1875 Londra'sından kitaplar, hukuki belgeler, gazeteler ve diğer yazılı eserleri kullanıyorum. Bağlantısını verdiğim listede (v0 için) yaklaşık 200 dosya var ama ilk eğitimde sadece 50 dosya, yaklaşık ~187 MB kullandım. Belgelerin listesini buradan görebilirsiniz:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
 Veri seti boyutları:
@@ -128,11 +130,11 @@ v1: ~6.25GB
 
 V0: 16M Parametre
 
-V0.5: 123M Parametre
+V0.5 123M Parametre
 
 V1: 700M Parametre
 
-# Eğitim Özellikleri?
+# Eğitim Özellikleri ? 
 
 # V0/V0.5
 GPU: Geforce rtx 4060
@@ -156,10 +158,8 @@ GPU: Kiralık A100
 
 
 
-
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
 
 ---

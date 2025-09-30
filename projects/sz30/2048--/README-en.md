@@ -58,7 +58,7 @@ An enhanced version of the classic 2048 game, now with even more fun features! T
 
 ## 🎯 Demo
 
-🎯 : [Play here](http://34.150.49.127:5000/)
+🎯 : [Play here](http://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -113,17 +113,14 @@ Still updating! Issues and Pull Requests are super welcome—let’s make this g
 ## 🙏 Acknowledgements
 
 Thanks to the following sponsors for supporting this project:
-- [None](https://#/) providing the server
-- [Serv00](https://www.serv00.com/) providing the server
+- [Aurora Cloud](https://www.free-vps.net/) providing the server
 
 ---
-_Last updated: Aug. 2025_
-
-
+_Last updated: Oct. 2025_
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
 
 ---

@@ -38,27 +38,27 @@ Phiên bản nâng cấp của trò chơi 2048 kinh điển, nay có thêm nhi�
 
 **Cách chơi:**
 - Dùng phím mũi tên hoặc WASD để di chuyển các ô số.
-- Khi hai ô có cùng số va chạm, chúng sẽ hợp nhất thành một ô.
-- Sau mỗi lần di chuyển, một số 2 hoặc 4 mới sẽ xuất hiện ngẫu nhiên ở một vị trí trống.
-- Trò chơi kết thúc khi không còn nước đi nào nữa.
+- Khi hai ô có cùng số va chạm nhau, chúng sẽ hợp thành một ô.
+- Sau mỗi lượt di chuyển, một số 2 hoặc 4 mới sẽ xuất hiện ngẫu nhiên ở một vị trí trống.
+- Trò chơi kết thúc khi không còn lượt di chuyển nào nữa.
 
 ## ✨ Tính năng đặc biệt
 
 ### 1. Chức năng Hoàn tác
-- Lỡ di chuyển sai? Đừng lo!
+- Di chuyển sai? Đừng lo!
 - Chỉ cần nhấn nút "Hoàn tác" để quay lại một bước.
-- Bạn có thể hoàn tác bao nhiêu lần tùy thích, quay lại tận lúc bắt đầu.
-- Đừng để một lần trượt tay phá hỏng cuộc chơi nữa nhé!
+- Bạn có thể hoàn tác bao nhiêu lần tùy thích, quay lại từ đầu cũng được.
+- Đừng để một cú chạm nhầm làm hỏng cả ván chơi của bạn!
 
 ### 2. Chế độ gian lận bí mật
-- Nhập chuỗi phép thuật: ←←→→ →→←← (trái, trái, phải, phải,  phải, phải, trái, trái)
-- Tất cả các ô sẽ biến thành 128 một cách kỳ diệu!
-- Đây là một trò vui ẩn, chỉ để giải trí thôi.
-- Mẹo nhỏ: Gian lận thì vui, nhưng đừng quá lạm dụng nhé! 😉
+- Nhập chuỗi ma thuật: ←←→→ →→←← (trái, trái, phải, phải,  phải, phải, trái, trái)
+- Tất cả ô sẽ biến thành số 128 một cách kỳ diệu!
+- Đây là một "Easter egg", chỉ để vui thôi.
+- Mẹo: Gian lận rất vui, nhưng đừng lạm dụng nhé! 😉
 
 ## 🎯 Demo
 
-🎯 : [Chơi tại đây](http://34.150.49.127:5000/)
+🎯 : [Chơi ngay](http://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -99,7 +99,7 @@ python 2048.py
 
 ## 🎨 Tùy chỉnh
 
-Muốn biến nó thành của riêng bạn? Chỉnh sửa `styles.css` để tạo diện mạo mới, hoặc khám phá `script.js` để thay đổi cách chơi. Mọi đoạn mã đều được chú thích rõ ràng giúp bạn dễ dàng chỉnh sửa!
+Muốn biến nó thành của riêng bạn? Hãy chỉnh sửa `styles.css` để có giao diện mới, hoặc khám phá `script.js` để thay đổi lối chơi. Tất cả mã đều được chú thích rõ ràng để dễ dàng tùy biến!
 
 ## 📝 Giấy phép
 
@@ -107,23 +107,20 @@ Giấy phép GPL-2.0
 
 ## 🤝 Đóng góp
 
-Vẫn đang cập nhật! Mọi Vấn đề và Pull Request đều rất được hoan nghênh—hãy cùng nhau làm cho trò chơi này tuyệt vời hơn nữa nhé!
+Vẫn đang cập nhật! Các Issue và Pull Request đều rất hoan nghênh—hãy cùng nhau làm cho trò chơi này tuyệt vời hơn nữa nhé!
 
 
 ## 🙏 Lời cảm ơn
 
-Cảm ơn các nhà tài trợ sau đã hỗ trợ cho dự án này:
-- [Không có](https://#/) cung cấp máy chủ
-- [Serv00](https://www.serv00.com/) cung cấp máy chủ
+Cảm ơn các nhà tài trợ sau đã hỗ trợ dự án này:
+- [Aurora Cloud](https://www.free-vps.net/) cung cấp máy chủ
 
 ---
-_Cập nhật lần cuối: Tháng 8, 2025_
-
-
+_Cập nhật lần cuối: Tháng 10, 2025_
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
 
 ---

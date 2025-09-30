@@ -46,89 +46,150 @@
 </p>
 </div>
 
+## 🔥 Onderzoek Hoogtepunten
+
+CORE-geheugen behaalt **88,24%** gemiddelde nauwkeurigheid op de Locomo dataset bij alle redeneertaken, aanzienlijk beter dan andere geheugenproviders. Bekijk deze [blog](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/) voor meer informatie.
+
+<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
+(1) Single-hop vragen vereisen antwoorden op basis van één sessie; (2) Multi-hop vragen vereisen het samenvoegen van informatie uit meerdere verschillende sessies; (3) Open domein kennisvragen kunnen beantwoord worden door informatie van de spreker te integreren met externe kennis zoals gezond verstand of wereldfeiten; (4) Temporele redeneervragen kunnen beantwoord worden via temporeel redeneren en het vastleggen van tijdgerelateerde datapunten in het gesprek;
+
 ## Overzicht
 
 **Probleem**
 
-Ontwikkelaars verspillen tijd door steeds opnieuw context uit te leggen aan AI-tools. Loop je tegen tokenlimieten aan in Claude? Dan begin je opnieuw en raak je alles kwijt. Wissel je van ChatGPT/Claude naar Cursor? Dan moet je je context weer uitleggen. Je gesprekken, beslissingen en inzichten verdwijnen tussen sessies.
+Ontwikkelaars verspillen tijd aan het steeds opnieuw uitleggen van context aan AI-tools. Tokenlimiet bereikt in Claude? Opnieuw beginnen en alles kwijt. Wisselen van ChatGPT/Claude naar Cursor? Opnieuw je context uitleggen. Je gesprekken, beslissingen en inzichten verdwijnen tussen sessies. Met elke nieuwe AI-tool wordt de prijs van contextwissel groter.
 
 **Oplossing** - **CORE** (**Contextual Observation & Recall Engine**)
 
-CORE is een open-source, verenigde en persistente geheugenzaag voor al je AI-tools. Je context volgt je van Cursor naar Claude, naar ChatGPT, naar Claude Code. Eén kennisgrafiek onthoudt wie wat zei, wanneer en waarom. Eén keer verbinden, overal onthouden. Stop met context beheren, begin met bouwen.
+CORE is een open-source, verenigde, persistente geheugenlaag voor al jouw AI-tools. Je context volgt je van Cursor naar Claude naar ChatGPT naar Claude Code. Eén kennisgrafiek onthoudt wie wat zei, wanneer en waarom. Eén keer verbinden, overal onthouden. Stop met context beheren en begin met bouwen.
 
 ## 🚀 Aan de slag
-**Bouw je verenigde geheugenkaart in 5 minuten:**
+**Bouw jouw uniforme geheugengrafiek in 5 minuten:**
 
-1. **Registreer** je op [core.heysol.ai](https://core.heysol.ai) en maak je account aan
-2. **Voeg je eerste geheugen toe** – deel context over jezelf
+1. **Meld je aan** op [core.heysol.ai](https://core.heysol.ai) en maak een account aan
+2. **Voeg je eerste geheugen toe** - deel context over jezelf
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
-3. **Visualiseer je geheugenkaart** en zie hoe CORE automatisch verbindingen tussen feiten legt
-5. **Probeer het uit** – vraag "Wat weet je over mij?" in het conversatiegedeelte
-6. Koppel aan je tools:
-   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) – coderen met context
-   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude) & [Gemini CLI](https://docs.heysol.ai/providers/cursor) – terminalgebaseerd coderen met geheugen
-   - [Browserextensie toevoegen](https://docs.heysol.ai/providers/cursor) – neem je geheugen mee naar elke website
-   - [Linear](https://docs.heysol.ai/providers/claude), [Slack](https://docs.heysol.ai/providers/cursor), [Github](https://docs.heysol.ai/providers/cursor) – voeg projectcontext automatisch toe
+3. **Visualiseer je geheugengrafiek** en zie hoe CORE automatisch verbindingen legt tussen feiten
+5. **Probeer het uit** - vraag "Wat weet je over mij?" in het conversatiegedeelte
+6. Verbind met je tools:
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - coderen met context
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Gemini CLI](https://docs.heysol.ai/providers/claude-code) - terminal-gebaseerd coderen met geheugen
+   - [Voeg Browser Extensie toe](https://docs.heysol.ai/providers/browser-extension) - neem je geheugen mee naar elke website
+   - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) - voeg automatisch projectcontext toe
 
-## 🧩 Belangrijkste functies
+## 🧩 Belangrijkste Functionaliteiten
 
-### 🧠 **Verenigd, draagbaar geheugen**:
-Voeg geheugen toe en haal het terug op **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS's Kiro, VS Code en Roo Code** via MCP
+### 🧠 **Geünificeerde, Draagbare Geheugen**: 
+Voeg je geheugen toe en raadpleeg het in **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS's Kiro, VS Code en Roo Code** via MCP
 
-### 🕸️ **Tijdelijke + Gerefereerde Kennnisgrafiek**:
+![core-claude](https://github.com/user-attachments/assets/56c98288-ee87-4cd0-8b02-860aca1c7f9a)
 
-Onthoud het verhaal achter elk feit—houd bij wie wat zei, wanneer en waarom met rijke relaties en volledige herkomst, niet alleen platte opslag
 
-https://github.com/user-attachments/assets/d18e3caa-72ea-4596-bbf7-cc9e32bd772f
+### 🕸️ **Tijdelijk + Geherifieerd Kennisgrafiek**: 
 
-### 🌐 **Browserextensie**:
+Onthoud het verhaal achter elk feit—volg wie wat zei, wanneer en waarom met rijke relaties en volledige herkomst, niet alleen vlakke opslag
 
-Leg gesprekken vast van ChatGPT, Grok, Gemini, Twitter, YouTube, blogposts en elke webpagina direct in je CORE-geheugen
+![core-memory-graph](https://github.com/user-attachments/assets/5d1ee659-d519-4624-85d1-e0497cbdd60a)
 
+
+### 🌐 **Browserextensie**: 
+
+Sla gesprekken en inhoud op van ChatGPT, Grok, Gemini, Twitter, YouTube, blogposts en elke webpagina direct in je CORE-geheugen.
+
+**Hoe de Extensie te Gebruiken**
+1. [Download de Extensie](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc) uit de Chrome Web Store.
+2. Log in op het [CORE dashboard](https://core.heysol.ai)
+   - Navigeer naar Instellingen (linksonder)
+   - Ga naar API-sleutel → Genereer nieuwe sleutel → Noem het “extensie.”
+3. Open de extensie, plak je API-sleutel en sla op.
 
 https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
 
 
-### 💬 **Chatten met Geheugen**:
-Stel vragen als "Wat zijn mijn schrijvoorkeuren?" met directe inzichten uit je gekoppelde kennis
+### 💬 **Chatten met Geheugen**: 
+Stel vragen zoals "Wat zijn mijn schrijfvoorkeuren?" met directe inzichten uit je verbonden kennis
 
-https://github.com/user-attachments/assets/6be5aca5-1d2f-419e-9deb-acb897a05c20
-
-### ⚡ **Automatisch Synchroniseren vanuit Apps**:
-
-Leg automatisch relevante context vast vanuit Linear, Slack, Notion, GitHub en andere gekoppelde apps in je CORE-geheugen
-
-https://github.com/user-attachments/assets/a797f182-406d-49e8-80a8-20932169931d
-
-### 🔗 **MCP Integratiehub**:
-
-Verbind Linear, Slack, GitHub, Notion één keer met CORE—gebruik daarna al hun tools in Claude, Cursor of elke MCP-client
+![chat-with-memory](https://github.com/user-attachments/assets/d798802f-bd51-4daf-b2b5-46de7d206f66)
 
 
-https://github.com/user-attachments/assets/be2d69a7-6c6c-43ad-91b7-6db66712821d
+### ⚡ **Automatisch Synchroniseren uit Apps**:
+
+Vang automatisch relevante context uit Linear, Slack, Notion, GitHub en andere gekoppelde apps in je CORE-geheugen
+
+📖 **[Bekijk alle integraties](https://raw.githubusercontent.com/RedPlanetHQ/core/main/./integrations/README.md)** - Volledige lijst van ondersteunde diensten en hun functies
+
+![core-slack](https://github.com/user-attachments/assets/d5fefe38-221e-4076-8a44-8ed673960f03)
 
 
+### 🔗 **MCP Integratiehub**: 
+
+Verbind Linear, Slack, GitHub, Notion één keer met CORE—gebruik daarna al hun tools in Claude, Cursor, of elke MCP-client met één enkele URL
+
+
+![core-linear-claude](https://github.com/user-attachments/assets/7d59d92b-8c56-4745-a7ab-9a3c0341aa32)
+
+
+
+## Hoe CORE geheugen creëert
+
+<img width="12885" height="3048" alt="memory-ingest-diagram" src="https://github.com/user-attachments/assets/c51679de-8260-4bee-bebf-aff32c6b8e13" />
+
+De ingestie-pijplijn van CORE bestaat uit vier fasen om veranderende context vast te leggen:
+
+1. **Normalisatie**: Verbindt nieuwe informatie met recente context, breekt lange documenten op in samenhangende delen met behoud van kruisverwijzingen en standaardiseert termen, zodat CORE bij het extraheren van kennis werkt met schone, gecontextualiseerde input in plaats van rommelige tekst.
+2. **Extractie**: Haalt betekenis uit genormaliseerde tekst door entiteiten (personen, tools, projecten, concepten) te identificeren, deze om te zetten in uitspraken met context, bron en tijd, en relaties in kaart te brengen. Bijvoorbeeld, “We schreven CORE in Next.js” wordt: Entiteiten (Core, Next.js), Uitspraak (CORE is ontwikkeld met Next.js), en Relatie (werd ontwikkeld met).
+3. **Resolutie**: Detecteert tegenstrijdigheden, volgt hoe voorkeuren evolueren en bewaart meerdere perspectieven met herkomst in plaats van deze te overschrijven, zodat het geheugen je volledige traject weergeeft, niet alleen de laatste momentopname.
+4. **Grafiekintegratie**: Verbindt entiteiten, uitspraken en episodes tot een temporele kennisgrafiek die feiten koppelt aan hun context en geschiedenis, waardoor losse data verandert in een levend web van kennis dat agenten daadwerkelijk kunnen gebruiken.
+
+Het resultaat: In plaats van een platte database, geeft CORE je een geheugen dat met je meegroeit en verandert—met behoud van context, evolutie en eigenaarschap zodat agenten het echt kunnen benutten.
+
+
+![memory-ingest-eg](https://github.com/user-attachments/assets/1d0a8007-153a-4842-9586-f6f4de43e647)
+
+## Hoe CORE uit geheugen ophaalt
+
+<img width="10610" height="3454" alt="memory-search-diagram" src="https://github.com/user-attachments/assets/3541893e-f7c9-42b9-8fad-6dabf138dbeb" />
+
+Wanneer je CORE een vraag stelt, zoekt het niet alleen tekst op—het duikt in je hele kennisgrafiek om de meest bruikbare antwoorden te vinden.
+
+1. **Zoeken**: CORE doorzoekt het geheugen vanuit meerdere invalshoeken tegelijk—trefwoordzoektocht voor exacte overeenkomsten, semantische zoekopdrachten voor gerelateerde ideeën (ook als ze anders zijn verwoord), en graftraversals om verbindingen tussen gekoppelde concepten te volgen.
+2. **Her-rangschikken**: De gevonden resultaten worden opnieuw gerangschikt om de meest relevante en diverse naar voren te halen, zodat je niet alleen voor de hand liggende matches ziet, maar ook diepere verbanden.
+3. **Filteren**: CORE past slimme filters toe op basis van tijd, betrouwbaarheid en sterkte van relaties, zodat alleen de meest betekenisvolle kennis naar boven komt.
+4. **Uitvoer**: Je krijgt zowel feiten (duidelijke uitspraken) als episodes (de oorspronkelijke context waaruit ze afkomstig zijn) terug, zodat herinneringen altijd zijn verankerd in context, tijd en verhaal.
+
+Het resultaat: CORE herinnert zich niet alleen feiten - het herinnert zich ze in de juiste context, tijd en verhaal, zodat agenten kunnen reageren zoals jij je zou herinneren.
 
 ## Documentatie
 
-Bekijk onze documentatie om het maximale uit CORE te halen
+Ontdek onze documentatie om het meeste uit CORE te halen
 
 - [Basisconcepten](https://docs.heysol.ai/concepts/memory_graph)
-- [Zelf Host](https://docs.heysol.ai/self-hosting/overview)
+- [Zelf hosten](https://docs.heysol.ai/self-hosting/overview)
 - [Verbind Core MCP met Claude](https://docs.heysol.ai/providers/claude)
 - [Verbind Core MCP met Cursor](https://docs.heysol.ai/providers/cursor)
 
 - [Basisconcepten](https://docs.heysol.ai/overview)
-- [API-referentie](https://docs.heysol.ai/local-setup)
+- [API Referentie](https://docs.heysol.ai/local-setup)
+
+## 🔒 Beveiliging
+
+CORE neemt beveiliging serieus. We implementeren beveiligingspraktijken volgens de industrienormen om je gegevens te beschermen:
+
+- **Gegevensversleuteling**: Alle gegevens tijdens transport (TLS 1.3) en in rust (AES-256)
+- **Authenticatie**: OAuth 2.0 en magic link-authenticatie
+- **Toegangscontrole**: Werkruimte-gebaseerde isolatie en rolgebaseerde rechten
+- **Kwetsbaarheidsmelding**: Meld beveiligingsproblemen aan harshith@tegon.ai
+
+Voor gedetailleerde beveiligingsinformatie, zie ons [Beveiligingsbeleid](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
 
 ## 🧑‍💻 Ondersteuning
 
-Heb je vragen of feedback? We staan klaar om te helpen:
+Vragen of feedback? Wij helpen je graag:
 
-- Discord: [Word lid van het core-support kanaal](https://discord.gg/YGUZcvDjUa)
+- Discord: [Word lid van core-support kanaal](https://discord.gg/YGUZcvDjUa)
 - Documentatie: [docs.heysol.ai](https://docs.heysol.ai)
 - E-mail: manik@poozle.dev
 
@@ -137,16 +198,16 @@ Heb je vragen of feedback? We staan klaar om te helpen:
 **Opslaan:**
 
 - Gespreksgeschiedenis
-- Voorkeuren van de gebruiker
+- Gebruikersvoorkeuren
 - Taakcontext
 - Referentiemateriaal
 
 **Niet opslaan:**
 
 - Gevoelige gegevens (PII)
-- Inloggegevens
-- Systeemlogs
-- Tijdelijke data
+- Referenties
+- Systeemlogboeken
+- Tijdelijke gegevens
 
 ## 👥 Bijdragers
 
@@ -156,8 +217,13 @@ Heb je vragen of feedback? We staan klaar om te helpen:
 
 
 
+
+
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
 
 ---

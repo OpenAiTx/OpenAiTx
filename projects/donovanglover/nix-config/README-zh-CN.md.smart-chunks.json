@@ -1,0 +1,269 @@
+[
+  {
+    "Id": 1,
+    "Content": "# nix-config\n\nMy [NixOS] configuration with [Nix Flakes], [Home Manager], [Stylix], and [Hyprland].\n\n![A screenshot of Pepper looking earnestly at declaratively configured Git abbreviations for the fish shell, written in Nix.](https://raw.githubusercontent.com/donovanglover/nix-config/master/./cover.jpg)\n<sub>Background art: [The market](https://www.peppercarrot.com/en/viewer/artworks__2022-02-21_The-market_by-David-Revoy.html), [In Bloom](https://www.peppercarrot.com/en/viewer/artworks__2022-03-02_In-Bloom_by-David-Revoy.html) and [Vertical cover book two screen](https://www.peppercarrot.com/en/viewer/artworks__2016-11-14_vertical-cover-book-two_screen_by-David-Revoy.html) by David Revoy − [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).</sub>\n\n![A screenshot of a Rust programming environment with Neovim, kitty, and bacon.](https://raw.githubusercontent.com/donovanglover/nix-config/master/./.github/screenshots/neovim.png)\n<sub>Background art: [Video game jam](https://www.peppercarrot.com/en/viewer/misc__2023-06-12_video-game-jam_by-David-Revoy.html) by David Revoy − [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).</sub>\n\n## Features\n\n- Clean, readable code that can be easily modified to add/remove things as needed.\n- Fully reproducible and declarative environment thanks to NixOS.\n- Reasonably secure containers isolated from your personal files and network.\n- Nix Flakes + Home Manager + Btrfs on LUKS.\n- Simple yet effective Neovim setup with nvim-lspconfig.\n- Modern Wayland support with Hyprland and the master-stack layout.\n- Easily switch to a similar dwm config if X is necessary.\n- Full Japanese support with fonts, input method, and wine covered.\n- A universal color scheme inherited by all applications.\n\n## Usage\n",
+    "ContentSha": "64SRDfrVaKXUTzJDfWT1l+xziEKjyUxOYxnXQoT9kcg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# nix-config\n\n我的 [NixOS] 配置，结合了 [Nix Flakes]、[Home Manager]、[Stylix] 和 [Hyprland]。\n\n![Pepper认真地看着用Nix声明式配置的fish shell Git缩写的截图。](https://raw.githubusercontent.com/donovanglover/nix-config/master/./cover.jpg)\n<sub>背景艺术：[市场](https://www.peppercarrot.com/en/viewer/artworks__2022-02-21_The-market_by-David-Revoy.html)、[盛开](https://www.peppercarrot.com/en/viewer/artworks__2022-03-02_In-Bloom_by-David-Revoy.html) 和 [第二册垂直封面屏幕](https://www.peppercarrot.com/en/viewer/artworks__2016-11-14_vertical-cover-book-two_screen_by-David-Revoy.html)，作者 David Revoy − [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)。</sub>\n\n![Rust编程环境与Neovim、kitty和bacon的截图。](https://raw.githubusercontent.com/donovanglover/nix-config/master/./.github/screenshots/neovim.png)\n<sub>背景艺术：[视频游戏创作活动](https://www.peppercarrot.com/en/viewer/misc__2023-06-12_video-game-jam_by-David-Revoy.html)，作者 David Revoy − [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)。</sub>\n\n## 功能\n\n- 干净、易读的代码，便于根据需要轻松添加或删除功能。\n- 由于NixOS，实现完全可重现和声明式的环境。\n- 合理安全的容器，与个人文件和网络隔离。\n- Nix Flakes + Home Manager + 使用LUKS的Btrfs。\n- 简单而有效的Neovim配置，配合nvim-lspconfig。\n- 使用Hyprland和master-stack布局的现代Wayland支持。\n- 如需X环境，可轻松切换到类似的dwm配置。\n- 完整的日语支持，包括字体、输入法和wine。\n- 所有应用共享的统一配色方案。\n\n## 使用方法\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mxvzofLXC8vv9BBM8dzt84q0mXEzutaUfzxPPNX8lko=",
+        "originContent": "# nix-config",
+        "translatedContent": "# nix-config"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "0ac4RBPjoy85U+uUg+NZX+GIsZh1GDCDOJqiJwDIgIA=",
+        "originContent": "My [NixOS] configuration with [Nix Flakes], [Home Manager], [Stylix], and [Hyprland].",
+        "translatedContent": "我的 [NixOS] 配置，结合了 [Nix Flakes]、[Home Manager]、[Stylix] 和 [Hyprland]。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "EoR6MCaiDGotemV+eo3nGr3dGTVF+ImOAnZ8tm8ejy4=",
+        "originContent": "![A screenshot of Pepper looking earnestly at declaratively configured Git abbreviations for the fish shell, written in Nix.](https://raw.githubusercontent.com/donovanglover/nix-config/master/./cover.jpg)",
+        "translatedContent": "![Pepper认真地看着用Nix声明式配置的fish shell Git缩写的截图。](https://raw.githubusercontent.com/donovanglover/nix-config/master/./cover.jpg)"
+      },
+      {
+        "row": 6,
+        "rowsha": "Blctfv0Pwmzv/kDKy7zlOitNVGuvHdrThFE5BmHv6a8=",
+        "originContent": "<sub>Background art: [The market](https://www.peppercarrot.com/en/viewer/artworks__2022-02-21_The-market_by-David-Revoy.html), [In Bloom](https://www.peppercarrot.com/en/viewer/artworks__2022-03-02_In-Bloom_by-David-Revoy.html) and [Vertical cover book two screen](https://www.peppercarrot.com/en/viewer/artworks__2016-11-14_vertical-cover-book-two_screen_by-David-Revoy.html) by David Revoy − [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).</sub>",
+        "translatedContent": "<sub>背景艺术：[市场](https://www.peppercarrot.com/en/viewer/artworks__2022-02-21_The-market_by-David-Revoy.html)、[盛开](https://www.peppercarrot.com/en/viewer/artworks__2022-03-02_In-Bloom_by-David-Revoy.html) 和 [第二册垂直封面屏幕](https://www.peppercarrot.com/en/viewer/artworks__2016-11-14_vertical-cover-book-two_screen_by-David-Revoy.html)，作者 David Revoy − [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)。</sub>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "tB/zU7VDmosZrA63JCR63QG0CSwLSF04PqM/9dNqkGI=",
+        "originContent": "![A screenshot of a Rust programming environment with Neovim, kitty, and bacon.](https://raw.githubusercontent.com/donovanglover/nix-config/master/./.github/screenshots/neovim.png)",
+        "translatedContent": "![Rust编程环境与Neovim、kitty和bacon的截图。](https://raw.githubusercontent.com/donovanglover/nix-config/master/./.github/screenshots/neovim.png)"
+      },
+      {
+        "row": 9,
+        "rowsha": "wUMtPSU5T2uO5e29dvdfUBb8ukwOo8NVf9JbBMmomG8=",
+        "originContent": "<sub>Background art: [Video game jam](https://www.peppercarrot.com/en/viewer/misc__2023-06-12_video-game-jam_by-David-Revoy.html) by David Revoy − [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en).</sub>",
+        "translatedContent": "<sub>背景艺术：[视频游戏创作活动](https://www.peppercarrot.com/en/viewer/misc__2023-06-12_video-game-jam_by-David-Revoy.html)，作者 David Revoy − [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)。</sub>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Pyk7MCsTWtJ1e0qEUiOrE+YQp+EGs4SsEUZVI8oFajw=",
+        "originContent": "- Clean, readable code that can be easily modified to add/remove things as needed.",
+        "translatedContent": "- 干净、易读的代码，便于根据需要轻松添加或删除功能。"
+      },
+      {
+        "row": 14,
+        "rowsha": "SDJzPrJZ8UcJKb+Q6Ac8oVyWFRtc40Sl+lm8OZa8JZc=",
+        "originContent": "- Fully reproducible and declarative environment thanks to NixOS.",
+        "translatedContent": "- 由于NixOS，实现完全可重现和声明式的环境。"
+      },
+      {
+        "row": 15,
+        "rowsha": "TUqFlDwJwUTipFuOFnhgDpqC2Mwh/Y00kwX7teMHJ6s=",
+        "originContent": "- Reasonably secure containers isolated from your personal files and network.",
+        "translatedContent": "- 合理安全的容器，与个人文件和网络隔离。"
+      },
+      {
+        "row": 16,
+        "rowsha": "ER68DN/8A0NGFwNhM3oXo1a7PUyTzAANf/E+xi2Ums0=",
+        "originContent": "- Nix Flakes + Home Manager + Btrfs on LUKS.",
+        "translatedContent": "- Nix Flakes + Home Manager + 使用LUKS的Btrfs。"
+      },
+      {
+        "row": 17,
+        "rowsha": "5LVSrK+WpAmdlyaNm1u0MUipsdH8UhTad8Ezs/RjLhw=",
+        "originContent": "- Simple yet effective Neovim setup with nvim-lspconfig.",
+        "translatedContent": "- 简单而有效的Neovim配置，配合nvim-lspconfig。"
+      },
+      {
+        "row": 18,
+        "rowsha": "Y7G0V6oXuiUuPjL3Ln7V23ofkyIXhG8c/0odXuP4X84=",
+        "originContent": "- Modern Wayland support with Hyprland and the master-stack layout.",
+        "translatedContent": "- 使用Hyprland和master-stack布局的现代Wayland支持。"
+      },
+      {
+        "row": 19,
+        "rowsha": "vI770SnxaUASg1iStyxd4ktXokLWO1jkXtv6fzpQ9wo=",
+        "originContent": "- Easily switch to a similar dwm config if X is necessary.",
+        "translatedContent": "- 如需X环境，可轻松切换到类似的dwm配置。"
+      },
+      {
+        "row": 20,
+        "rowsha": "wYrUAcbw2aBkaqbaLcs0dQIypbq/9eU9bBkamlztLHI=",
+        "originContent": "- Full Japanese support with fonts, input method, and wine covered.",
+        "translatedContent": "- 完整的日语支持，包括字体、输入法和wine。"
+      },
+      {
+        "row": 21,
+        "rowsha": "ns31EdSRBFnA2PgsOfeH8pDyRWG6ji58KF5WcvbyzXA=",
+        "originContent": "- A universal color scheme inherited by all applications.",
+        "translatedContent": "- 所有应用共享的统一配色方案。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```fish\ngit clone https://github.com/donovanglover/nix-config && cd nix-config\nnixos-rebuild build-vm --flake .#nixos\n./result/bin/run-nixos-vm\n```",
+    "ContentSha": "jaCzc9EEJ0qn/UssP97zHpZAGcjBwq4sbSA0ao1NG/s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```fish\ngit clone https://github.com/donovanglover/nix-config && cd nix-config\nnixos-rebuild build-vm --flake .#nixos\n./result/bin/run-nixos-vm\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "A11dCDFhFKfu6aiSxHAUfOGgc4VpePFfXCA4ASVwBl8=",
+        "originContent": "```fish",
+        "translatedContent": "```fish"
+      },
+      {
+        "row": 2,
+        "rowsha": "3yWqPTO/e+NvzDwxxl8ItqvgoskWv75xmmdN/r1dQyk=",
+        "originContent": "git clone https://github.com/donovanglover/nix-config && cd nix-config",
+        "translatedContent": "git clone https://github.com/donovanglover/nix-config && cd nix-config"
+      },
+      {
+        "row": 3,
+        "rowsha": "FIsqdYa8yBIwRJVrqhLOpaNG9IC05ITRW9684o+5nmo=",
+        "originContent": "nixos-rebuild build-vm --flake .#nixos",
+        "translatedContent": "nixos-rebuild build-vm --flake .#nixos"
+      },
+      {
+        "row": 4,
+        "rowsha": "IEvZW0waYVGvS4dGUJKX0GPR08utiq+9a3f+nds9vVQ=",
+        "originContent": "./result/bin/run-nixos-vm",
+        "translatedContent": "./result/bin/run-nixos-vm"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nThe code base is designed to be small so it's easy to adjust things as needed. Have fun!\n\n[NixOS]: https://nixos.org/\n[Nix Flakes]: https://wiki.nixos.org/wiki/Flakes\n[Home Manager]: https://nix-community.github.io/home-manager/\n[Stylix]: https://danth.github.io/stylix/\n[Hyprland]: https://hyprland.org/\n",
+    "ContentSha": "RTE+0LEWfDojwh+eo4nLa52aCsv5RG26edZ4kvjM7Bg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "代码库设计得很小巧，便于根据需要进行调整。玩得开心！\n\n[NixOS]: https://nixos.org/\n[Nix Flakes]: https://wiki.nixos.org/wiki/Flakes\n[Home Manager]: https://nix-community.github.io/home-manager/\n[Stylix]: https://danth.github.io/stylix/\n[Hyprland]: https://hyprland.org/\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "代码库设计得很小巧，便于根据需要进行调整。玩得开心！"
+      },
+      {
+        "row": 2,
+        "rowsha": "4vo/ZlrX87LcHh+2zqGHIOzJfnRlY2psGj4HZuoJVGo=",
+        "originContent": "The code base is designed to be small so it's easy to adjust things as needed. Have fun!",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[NixOS]: https://nixos.org/"
+      },
+      {
+        "row": 4,
+        "rowsha": "YJl631BQNtSAKn49iqudgzsn4WbiRhL9CH12MIk3tW4=",
+        "originContent": "[NixOS]: https://nixos.org/",
+        "translatedContent": "[Nix Flakes]: https://wiki.nixos.org/wiki/Flakes"
+      },
+      {
+        "row": 5,
+        "rowsha": "0uEICGMhpwp1Z4PouAMRd7GH1iNbZs5BHzCS0qWacFU=",
+        "originContent": "[Nix Flakes]: https://wiki.nixos.org/wiki/Flakes",
+        "translatedContent": "[Home Manager]: https://nix-community.github.io/home-manager/"
+      },
+      {
+        "row": 6,
+        "rowsha": "96905ejfz+clNRs9DVfmnSbZoisjsSwLC1u1/+z0YWk=",
+        "originContent": "[Home Manager]: https://nix-community.github.io/home-manager/",
+        "translatedContent": "[Stylix]: https://danth.github.io/stylix/"
+      },
+      {
+        "row": 7,
+        "rowsha": "8v+vHiArvt/o+v0V6VDKCT7WGOGB69mapDZQyzz3RIg=",
+        "originContent": "[Stylix]: https://danth.github.io/stylix/",
+        "translatedContent": "[Hyprland]: https://hyprland.org/"
+      },
+      {
+        "row": 8,
+        "rowsha": "jO7lXcBfNeod8pcEU0N8lau9XWrkCjdiyei98PPokXY=",
+        "originContent": "[Hyprland]: https://hyprland.org/",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

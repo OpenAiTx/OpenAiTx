@@ -38,27 +38,27 @@ Ulepszona wersja klasycznej gry 2048, teraz z jeszcze większą ilością fajnyc
 
 **Jak grać:**
 - Użyj strzałek lub klawiszy WASD, aby przesuwać kafelki.
-- Gdy dwa kafelki z tym samym numerem zderzą się, łączą się w jeden.
-- Po każdym ruchu w losowym wolnym miejscu pojawia się nowa 2 lub 4.
+- Gdy dwa kafelki z tym samym numerem się zderzą, łączą się w jeden.
+- Po każdym ruchu w losowym pustym miejscu pojawi się nowa 2 lub 4.
 - Gra kończy się, gdy nie ma już możliwych ruchów.
 
 ## ✨ Funkcje specjalne
 
 ### 1. Funkcja Cofania
-- Zrobiłeś zły ruch? Bez obaw!
-- Wystarczy nacisnąć przycisk "Cofnij", aby wrócić o jeden krok.
-- Możesz cofać tyle razy, ile chcesz, aż do początku gry.
-- Już nigdy przypadkowe dotknięcie nie zepsuje ci rozgrywki!
+- Wykonałeś zły ruch? Bez obaw!
+- Po prostu naciśnij przycisk "Cofnij", aby wrócić o jeden krok.
+- Możesz cofać się dowolną ilość razy, aż do początku gry.
+- Nigdy więcej przypadkowy ruch nie zepsuje ci rozgrywki!
 
-### 2. Sekretny Tryb Oszustwa
+### 2. Sekretny Tryb Oszukiwania
 - Wpisz magiczną sekwencję: ←←→→ →→←← (lewo, lewo, prawo, prawo, prawo, prawo, lewo, lewo)
-- Wszystkie kafelki zamienią się magicznie w 128!
-- To wielkanocny gadżet, tylko dla zabawy.
+- Wszystkie kafelki magicznie zamienią się w 128!
+- To wielkanocna niespodzianka, tylko dla zabawy.
 - Porada: Oszukiwanie jest fajne, ale nie przesadzaj! 😉
 
 ## 🎯 Demo
 
-🎯 : [Zagraj tutaj](http://34.150.49.127:5000/)
+🎯 : [Zagraj tutaj](http://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -97,9 +97,9 @@ pip install flask
 python 2048.py
 ```
 
-## 🎨 Dostosowywanie
+## 🎨 Personalizacja
 
-Chcesz nadać temu swój styl? Zmień `styles.css`, by uzyskać nowy wygląd, albo zajrzyj do `script.js`, aby zmodyfikować rozgrywkę. Cały kod jest dobrze skomentowany, co ułatwia modyfikacje!
+Chcesz dostosować do swoich potrzeb? Zmień `styles.css`, aby nadać nowy wygląd, lub zajrzyj do `script.js`, żeby zmodyfikować rozgrywkę. Cały kod jest dobrze skomentowany, więc łatwo go edytować!
 
 ## 📝 Licencja
 
@@ -107,23 +107,20 @@ Licencja GPL-2.0
 
 ## 🤝 Współtworzenie
 
-Wciąż aktualizujemy! Zgłaszanie błędów i Pull Requesty są bardzo mile widziane—razem sprawmy, by ta gra była jeszcze lepsza!
+Projekt jest stale aktualizowany! Zgłoszenia błędów i Pull Requesty są bardzo mile widziane—razem możemy uczynić tę grę jeszcze lepszą!
 
 
 ## 🙏 Podziękowania
 
-Podziękowania dla następujących sponsorów za wsparcie tego projektu:
-- [Brak](https://#/) za udostępnienie serwera
-- [Serv00](https://www.serv00.com/) za udostępnienie serwera
+Podziękowania dla następujących sponsorów za wsparcie projektu:
+- [Aurora Cloud](https://www.free-vps.net/) za udostępnienie serwera
 
 ---
-_Ostatnia aktualizacja: sierpień 2025_
-
-
+_Ostatnia aktualizacja: październik 2025_
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
 
 ---

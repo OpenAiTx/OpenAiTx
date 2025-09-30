@@ -38,109 +38,112 @@
 
 v0 および v0.5 は [Andrej Karpathy による nanoGPT](https://github.com/karpathy/nanoGPT) 上で構築されています。コアの訓練スクリプトとモデルアーキテクチャは彼の作品です。
 
-v1 は [Microsoft の Phi 1.5](https://huggingface.co/microsoft/phi-1_5) 上に構築されています。
+v1は[MicrosoftのPhi 1.5](https://huggingface.co/microsoft/phi-1_5)上で構築されました
 
+[Hugging Face リンク](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
-##  モデルの挙動と制限事項
+##  モデルの挙動と制限
 
 ### **v0**  
 
-初期のプロンプトでは、1800年代の言語と振る舞いで応答するモデルが見られました。  
-例: プロンプト:「Who art Henry?」に対し「I know that man, I have did not a black, the storm.」と返答。
+初期のプロンプトでは、モデルが1800年代の言語や振る舞いで応答する様子が見られました。
+例：プロンプト: "Who art Henry?" に対し "I know that man, I have did not a black, the storm." と返答。
 
 ![TimeLockLLM サンプル出力](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- 現代の概念は一切言及しない  
-- ほぼ時代に沿った語彙を使用  
-- 文はほとんど一貫性がない（約187MBの訓練データで予想される挙動）
+- 現代的な概念の言及なし  
+- 主に時代に即した語彙  
+- ほとんどの文が意味不明（~187MBの訓練データでは予想通り）
 
 ### **v0.5** 
 
-v0 と比べて大幅に改善。  
-- ヴィクトリア朝の文体、正しい句読点、ほぼ文法に合った文章  
-- 依然として高い事実の幻覚率  
-- OCRノイズ（「Digitized by Google」など）が出力に残る
+v0から大きく改善されています。  
+- ヴィクトリア朝の文体、適切な句読点、ほぼ文法的な文  
+- 事実誤認（ハルシネーション）率は依然高い  
+- OCRノイズ（「Digitized by Google」）が出力に残存
 
 ![TimeLockLLM サンプル出力](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-本モデルは、データセット内の実際の人物と実際の歴史的イベントを結び付けて記憶・参照できた初めてのモデルです。
+初めて、実際の歴史的出来事とデータセット内の実在人物を関連付けて記憶し接続できたモデル。
 
-例: プロンプト:「It was the year of our Lord 1834」 
+例：プロンプト: "It was the year of our Lord 1834" 
 
-出力:「It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity」
+出力: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-最初は偶然その年に抗議があったのではと思いましたが、こちらをご覧ください: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+最初は、抗議活動が偶然同じ年に発生したのかと考えましたが、こちらをご覧ください: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
-### なぜ重要なのか:
+### 重要性について:
 
-これは、私のモデルが年と現実の歴史的イベント、そしてそのイベントに関わる実在の人物（パーマストン卿）を結び付けた初めての例です。以前のモデル（v0およびv0.5）は19世紀の文体を模倣できましたが、常にイベントや人物、事実を幻覚していました。これはモデルがデータセットから事象を記憶し始めていることを示しています。
+これは、私のモデルが年を実際の歴史的出来事とその出来事に関わる実在人物（Lord Palmerston）両方と関連付けることができた最初の例です。初期モデル（v0, v0.5）は19世紀の文体を模倣できても、出来事や人物、事実を常にハルシネートしていました。この出力は、モデルがデータセットから情報を記憶し始めていることを示しています。
+
 
 ## 今後の計画
-- ロンドンで1800年から1875年までに出版されたテキストが約175,000件、Internet Archiveに公開されています
-- コーパスを拡張し、より良い推論能力のためにさらにクリーニングする予定です
-- 他の地域や時代にも拡張し、より多様な歴史モデルを目指します
 
+- インターネットアーカイブには1800〜1875年にロンドンで出版されたテキストが約175,000件あります
+- コーパスを拡張し、推論能力向上のためにさらにクリーンアップする予定です
+- より多様な地域と時代に拡張し、より多くの歴史モデルを作成します
 
 ## 使い方
 
-このプロジェクトは主に歴史的データの収集、トレーニング用の準備、トークナイザーの構築に焦点を当てています。完全なLLMトレーニングプロセスについては説明しませんので、Andrej KarpathyのnanoGPTを参照してください。
+このプロジェクトは主に歴史的データのキュレーション、学習用準備、トークナイザーの構築に焦点を当てています。LLMの完全な学習プロセスについては触れませんので、Andrej Karpathy氏のnanoGPTを参照してください。
 
 ### ステップ1: 歴史的テキストの収集と準備
 
-- 選択した時代（例：ロンドン1800-1850）のパブリックドメイン書籍や文書などの.txtファイルを収集します
-- 選択した時代や場所の範囲内に収めてください
-- スクリプトを使うか手動で、Project Gutenbergのヘッダー・フッターや現代的な注釈、OCRエラーなどをテキストファイルから削除してください
+- 選択した時代のパブリックドメイン書籍や文書などの.txtファイルを収集します（例：ロンドン1800〜1850）
+- 選択した時期や場所の範囲内で管理してください
+- スクリプトや手動で、Project Gutenbergのヘッダー/フッター、現代の注釈、OCRエラーなどをテキストファイルから削除してクリーンアップします。
 
-### ステップ2: カスタムトークナイザーの作成
+### ステップ2: カスタムトークナイザーの構築
 
-- クリーンアップ済みデータでtrain_tokenizer.pyまたはtrain_tokenizer_hf.pyを実行します
+- クリーンアップ済みデータに対してtrain_tokenizer.pyまたはtrain_tokenizer_hf.pyを実行します。
 - vocab.jsonとmerges.txtが生成されます
-- これらのファイルはモデルの語彙とマージルールを定義します
+- これらのファイルはモデル用の語彙とマージルールを定義します
 
-### ステップ3: モデルのトレーニング
+### ステップ3: モデルの学習
 
-- トレーニングプロセスについては[Andrej KarpathyのnanoGPT](https://github.com/karpathy/nanoGPT)または選択したアーキテクチャのドキュメントを参照してください
+- 学習プロセスについては [Andrej KarpathyのnanoGPT](https://github.com/karpathy/nanoGPT) または選択したアーキテクチャのドキュメントを参照してください。
 
 # FAQ
 
 ## Selective Temporal Trainingとは？
 
-Selective Temporal Training（STT）とは、すべてのトレーニングデータを特定の歴史的時代に限定して厳選する機械学習手法です。その時代の言語や知識を現代的な概念の影響なしにモデリングするために行われます。例えば、現在のモデル（v0.5）は1800-1875年のデータのみでトレーニングされており、ファインチューニングはせずゼロから学習しているため、その時代の言語スタイルや歴史的文脈が反映されています。
+Selective Temporal Training (STT)は、すべての学習データが特定の歴史的時代に収まるよう厳選される機械学習手法です。その時代の言語と知識を、現代の概念の影響なくモデル化するために行います。例えば、現在のモデル（v0.5）は1800〜1875年のデータのみで学習されており、ファインチューニングはされていません。ゼロから学習しているので、その時代の言語スタイルと歴史的文脈が反映された出力になります。
 
 ## なぜファインチューニングやLoRAを使わないのですか？
 
-本プロジェクトでは現代的なバイアスに左右されない言語モデルの構築を目指しています。GPT-2のような既存モデルをファインチューニングしても、元の事前学習情報は消えません。ゼロから学習すれば、モデルは「古いふり」をするのではなく本当に古い言語モデルになります。今の目標は、1800-1875年にロンドンで出版された本の知識だけで推論できるものを作ることです。
+このプロジェクトでは現代的なバイアスから解放された言語モデルを作りたいと考えています。GPT-2などをファインチューニングしても、既に事前学習されている情報は消えません。ゼロから学習すれば、モデルは「古いふり」をするのではなく、実際にそうなります。現在の目標は、1800年から1875年にロンドンで出版された書籍の知識だけで推論できるものを作ることです。
 
-## トレーニングに使ったデータは？
+## 学習に使ったデータはどんなものですか？
 
-1800–1875年のロンドンの書籍、法律文書、新聞、その他の著作物を使用しています。リンクしたリスト（v0）には約200件がありますが、最初のトレーニングでは50ファイル、約187MBのみ使いました。文書リストはこちらです：
+
+私は1800年から1875年のロンドンの本、法的文書、新聞、その他の著作物を使用しています。リンクしたリスト（v0用）には約200件ありますが、最初のトレーニングでは約50ファイル（約187MB）だけを使いました。ドキュメントのリストはこちらで確認できます：
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
-
 データセットサイズ：
-v0: 約187MB
-v0.5: 約435MB
-v1: 約6.25GB
+v0： 約187MB
+v0.5： 約435MB 
+v1： 約6.25GB 
 
-## モデルのサイズはどれくらいですか？
+## モデルのサイズは？
 
-V0: 1,600万パラメータ
+V0： 1,600万パラメータ
 
-V0.5: 1億2,300万パラメータ
+V0.5： 1億2,300万パラメータ
 
-V1: 7億パラメータ
+V1： 7億パラメータ
 
 # トレーニング仕様は？
 
 # V0/V0.5
-GPU: Geforce RTX 4060
-CPU: i5-13400F
-RAM: 16GB DDR5
+GPU： Geforce rtx 4060
+CPU： i5-13400F 
+メモリ： 16GB DDR5.
 
 # V1
-GPU: A100（レンタル）
+GPU： A100（レンタル）
+
 
 
 
@@ -157,6 +160,6 @@ GPU: A100（レンタル）
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
 
 ---

@@ -39,26 +39,26 @@ Versi peningkatan dari game klasik 2048, kini dengan fitur-fitur yang lebih seru
 **Cara bermain:**
 - Gunakan tombol panah atau WASD untuk menggerakkan ubin.
 - Ketika dua ubin dengan angka yang sama bertabrakan, mereka bergabung menjadi satu.
-- Setelah setiap langkah, angka 2 atau 4 baru akan muncul secara acak di tempat kosong.
-- Permainan berakhir ketika tidak ada lagi langkah yang tersisa.
+- Setelah setiap gerakan, angka 2 atau 4 baru akan muncul secara acak di tempat kosong.
+- Permainan berakhir ketika tidak ada lagi gerakan yang bisa dilakukan.
 
 ## ✨ Fitur Khusus
 
 ### 1. Fungsi Undo
-- Salah langkah? Tenang saja!
+- Salah langkah? Jangan khawatir!
 - Cukup tekan tombol "Undo" untuk kembali satu langkah.
-- Kamu bisa undo sebanyak yang kamu mau, sampai ke awal permainan.
-- Jangan biarkan kesalahan kecil merusak permainanmu lagi!
+- Anda bisa meng-undo sebanyak yang Anda mau, hingga kembali ke awal.
+- Jangan biarkan salah pencet merusak permainan Anda lagi!
 
 ### 2. Mode Cheat Rahasia
 - Masukkan urutan ajaib: ←←→→ →→←← (kiri, kiri, kanan, kanan, kanan, kanan, kiri, kiri)
-- Semua ubin akan secara ajaib berubah menjadi 128!
+- Semua ubin akan berubah menjadi 128 secara ajaib!
 - Ini adalah Easter egg, hanya untuk bersenang-senang.
 - Tips pro: Curang itu seru, tapi jangan berlebihan! 😉
 
 ## 🎯 Demo
 
-🎯 : [Main di sini](http://34.150.49.127:5000/)
+🎯 : [Mainkan di sini](http://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -96,10 +96,9 @@ cd 2048
 pip install flask
 python 2048.py
 ```
-
 ## 🎨 Kustomisasi
 
-Ingin membuatnya jadi milikmu sendiri? Ubah `styles.css` untuk tampilan baru, atau masuk ke `script.js` untuk mengubah gameplay. Semua kode sudah dikomentari dengan baik agar mudah dioprek!
+Ingin membuatnya sesuai keinginan Anda? Ubah `styles.css` untuk tampilan baru, atau telusuri `script.js` untuk mengubah permainan. Semua kode sudah dikomentari dengan baik untuk memudahkan modifikasi!
 
 ## 📝 Lisensi
 
@@ -107,23 +106,21 @@ Lisensi GPL-2.0
 
 ## 🤝 Kontribusi
 
-Masih terus diperbarui! Isu dan Pull Request sangat diterima—mari kita jadikan game ini semakin keren bersama-sama!
+Masih dalam pembaruan! Isu dan Pull Request sangat diterima—mari kita buat game ini semakin keren bersama!
 
 
-## 🙏 Penghargaan
+## 🙏 Ucapan Terima Kasih
 
-Terima kasih kepada sponsor berikut yang telah mendukung proyek ini:
-- [None](https://#/) menyediakan server
-- [Serv00](https://www.serv00.com/) menyediakan server
+Terima kasih kepada sponsor berikut atas dukungannya terhadap proyek ini:
+- [Aurora Cloud](https://www.free-vps.net/) menyediakan server
 
 ---
-_Terakhir diperbarui: Agustus 2025_
-
+_Terakhir diperbarui: Okt. 2025_
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
 
 ---

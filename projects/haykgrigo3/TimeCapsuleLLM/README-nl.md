@@ -40,6 +40,8 @@ v0 en v0.5 gebouwd op [nanoGPT door Andrej Karpathy](https://github.com/karpathy
 
 v1 gebouwd op [Phi 1.5 door Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
+[Hugging Face Link](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+
 ##  Modelgedrag & Beperkingen
 
 ### **v0**  
@@ -55,68 +57,68 @@ Voorbeeld: Prompt: "Who art Henry?" en het antwoordde "I know that man, I have d
 
 ### **v0.5** 
 
-Een significante verbetering ten opzichte van v0.  
-- Victoriaanse schrijfstijl, juiste interpunctie, meestal grammaticaal correcte zinnen  
+Een aanzienlijke verbetering ten opzichte van v0.  
+- Victoriaanse schrijfstijl, correcte interpunctie, meestal grammaticale zinnen  
 - Nog steeds hoge mate van feitelijke hallucinatie  
-- OCR-ruis (“Digitized by Google”) nog aanwezig in de output
+- OCR-ruis (“Digitized by Google”) nog steeds aanwezig in de output
 
 ![TimeLockLLM Voorbeeldoutput](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-Eerste model dat een echt historisch evenement en een werkelijk figuur uit de dataset weet te koppelen.
+Eerste model dat een echt historisch evenement koppelt aan een daadwerkelijk figuur uit de dataset.
 
 Voorbeeld: Prompt: "It was the year of our Lord 1834" 
 
-De output: "Het was het jaar des Heren 1834 en de straten van Londen waren gevuld met protesten en petities. De oorzaak, zoals velen verklaarden, was niet gebonden aan het private, maar werd diezelfde dag opgenomen in de dag van Lord Palmerston, het publiek zal een korte verklaring ontvangen over de moeilijkheden waaronder de dag van de wet ons heeft bereikt. Het is een zaak van diep berouw, dat de huidige gebeurtenissen in de geschiedenis van de wereld duidelijk zijn, en bijgevolg bekend zullen zijn. Het is niet waar dat de mannen die zich het eerst vestigden in het Evangelie te Jeruzalem zo’n uitgebreide en interessante aantekening zouden hebben van de voorspoed en voorspoed" 
+De output: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-Eerst dacht ik dat er toevallig een protest had plaatsgevonden datzelfde jaar, maar kijk eens naar dit: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Aanvankelijk dacht ik dat er toevallig een protest had plaatsgevonden in hetzelfde jaar, maar kijk hier eens naar: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### Waarom dit belangrijk is:
 
-Dit is het eerste voorbeeld van een van mijn modellen die een jaar verbindt aan zowel een echt historisch evenement als een werkelijk persoon die aan dat evenement is gekoppeld (Lord Palmerston). Eerdere modellen (v0 en v0.5) konden schrijfstijlen uit de 19e eeuw nabootsen, maar zouden altijd gebeurtenissen, mensen en feiten hallucineren. Dit laat zien dat het model dingen uit de dataset begint te onthouden
+Dit is het eerste voorbeeld van een van mijn modellen die een jaar verbindt aan zowel een echt historisch evenement als een echt persoon verbonden aan dat evenement (Lord Palmerston). Eerdere modellen (v0 en v0.5) konden de schrijfstijlen uit de 19e eeuw nabootsen maar hallucineerden altijd gebeurtenissen, mensen en feiten. Dit toont aan dat het model begint dingen uit de dataset te onthouden.
 
-## Komende plannen 
 
+## Toekomstige Plannen 
 
 - Er zijn bijna 175.000 teksten gepubliceerd in Londen van 1800-1875 op Internet Archive 
-- Ik ben van plan het corpus uit te breiden en verder te schonen voor betere redeneervermogens
-- Uitbreiden naar andere regio's en tijdperken voor meer historische modellen
+- Ik ben van plan om het corpus uit te breiden en verder te schonen voor betere redeneervermogens
+- Uitbreiden naar verschillende regio's en tijdsperioden voor meer historische modellen
 
 
-## Hoe te gebruiken
+## Hoe te Gebruiken
 
-Dit project richt zich vooral op het verzamelen van historische data, het voorbereiden voor training en het bouwen van een tokenizer. Ik ga het volledige LLM-trainingsproces niet behandelen, daarvoor verwijs ik naar nanoGPT van Andrej Karpathy.
+Dit project richt zich voornamelijk op het verzamelen van historische data, het voorbereiden voor training en het bouwen van een tokenizer. Ik behandel niet het volledige LLM-trainingsproces; daarvoor verwijs ik naar nanoGPT van Andrej Karpathy.
 
-### Stap 1: Verzamel en bereid historische teksten voor
+### Stap 1: Verzamelen en Voorbereiden van Historische Teksten 
 
-- Verzamel .txt-bestanden van boeken, documenten, enz. uit het publieke domein uit jouw gekozen periode (bijv. Londen 1800-1850)
-- Houd ze binnen het door jou gekozen tijdvak/plaats
-- Maak de tekstbestanden schoon met een script of verwijder handmatig headers/footers van Project Gutenberg, moderne annotaties of zaken als OCR-fouten.
+- Verzamel .txt-bestanden van boeken en documenten uit het publieke domein, enz. uit jouw gekozen tijdsperiode (bijv. Londen 1800-1850) 
+- Houd ze binnen jouw gekozen tijd/plaats venster  
+- Reinig de tekstbestanden met een script of verwijder handmatig kopteksten/voetteksten van Project Gutenberg, moderne annotaties of zaken zoals OCR-fouten.
 
-### Stap 2: Bouw een aangepaste tokenizer
+### Stap 2: Bouw een Aangepaste Tokenizer
 
-- Voer train_tokenizer.py of train_tokenizer_hf.py uit op de opgeschoonde data.
+- Voer train_tokenizer.py of train_tokenizer_hf.py uit op de geschoonde data.
 - Dit levert vocab.json en merges.txt op
-- Deze bestanden definiëren vocabulaire en merge-regels voor je model
+- Deze bestanden definiëren vocabulaire en samenvoegregels voor je model
 
-### Stap 3: Train je model
+### Stap 3: Train Je Model 
 
 - Raadpleeg [nanoGPT van Andrej Karpathy](https://github.com/karpathy/nanoGPT) voor het trainingsproces of de documentatie van jouw gekozen architectuur.
 
 # FAQ
 
-## Wat is Selective Temporal Training?
+## Wat is Selectieve Temporele Training?
 
-Selective Temporal Training (STT) is een machine learning-methodologie waarbij alle trainingsdata specifiek zijn samengesteld uit een bepaald historisch tijdperk. Dit wordt gedaan om de taal en kennis van die periode te modelleren zonder invloed van moderne concepten. Bijvoorbeeld, het huidige model dat ik nu heb (v0.5) is getraind op data uitsluitend uit 1800-1875, niet fijngestemd maar vanaf nul getraind, waardoor de output de linguïstische stijl en historische context van die periode weerspiegelt.
+Selectieve Temporele Training (STT) is een machine learning-methodologie waarbij alle trainingsdata specifiek wordt samengesteld om binnen een bepaald historisch tijdsbestek te vallen. Dit wordt gedaan om de taal en kennis van die periode te modelleren zonder invloed van moderne concepten. Bijvoorbeeld, het huidige model dat ik nu heb (v0.5) is getraind op data uitsluitend uit 1800-1875; het is niet fijn afgestemd maar vanaf nul getraind, wat resulteert in output die de linguïstische stijl en historische context van die periode weerspiegelt.
 
 ## Waarom niet gewoon fine-tuning of LoRA gebruiken?
 
-Voor dit project probeer ik een taalmodel te maken dat niet wordt beïnvloed door moderne bias. Als ik iets als GPT-2 fine-tune, is dat al voorgetraind en die informatie verdwijnt niet. Als ik vanaf nul train, zal het taalmodel niet doen alsof het oud is, het is het gewoon. Het doel van dit project is nu om iets te maken dat uitsluitend kan redeneren met kennis uit Londense boeken gepubliceerd tussen 1800 en 1875.
+Voor dit project probeer ik een taalmodel te maken dat niet beïnvloed is door moderne bias. Als ik iets als GPT-2 fine-tune, is het al vooraf getraind en die informatie verdwijnt niet. Als ik vanaf nul train, zal het taalmodel niet doen alsof het oud is, het zal het gewoon zijn. Het doel voor dit project is nu om iets te creëren dat uitsluitend kan redeneren met kennis uit Londense boeken gepubliceerd tussen 1800 en 1875.
 
 ## Welke data heb je gebruikt voor training?
 
-Ik gebruik boeken, juridische documenten, kranten en andere geschriften uit Londen van 1800–1875. De lijst die ik heb gelinkt (voor v0) bevat ongeveer 200, maar voor de eerste training heb ik slechts 50 bestanden gebruikt van ongeveer ~187 MB. Je kunt een lijst van de documenten bekijken:
+Ik gebruik boeken, juridische documenten, kranten en andere geschriften uit Londen van 1800–1875. De lijst die ik heb gelinkt (voor v0) bevat ongeveer 200 documenten, maar voor de eerste training heb ik slechts 50 bestanden gebruikt, ongeveer ~187 MB. Je kunt een lijst van de documenten bekijken:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
 Datasetgroottes:
@@ -155,8 +157,9 @@ GPU: A100 gehuurd
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
 
 ---

@@ -40,25 +40,25 @@ Uma versão aprimorada do clássico jogo 2048, agora com ainda mais recursos div
 - Use as teclas de seta ou WASD para mover os blocos.
 - Quando dois blocos com o mesmo número colidem, eles se fundem em um só.
 - Após cada movimento, um novo 2 ou 4 aparecerá aleatoriamente em um espaço vazio.
-- O jogo termina quando não há mais movimentos disponíveis.
+- O jogo termina quando não há mais movimentos possíveis.
 
-## ✨ Recursos Especiais
+## ✨ Funcionalidades Especiais
 
-### 1. Função Desfazer
+### 1. Função de Desfazer
 - Fez um movimento errado? Sem problemas!
 - Basta clicar no botão "Desfazer" para voltar um passo.
-- Você pode desfazer quantas vezes quiser, até o início do jogo.
-- Nunca mais deixe um deslize atrapalhar sua partida!
+- Você pode desfazer quantas vezes quiser, até o início.
+- Nunca mais deixe um deslize estragar seu jogo!
 
 ### 2. Modo Secreto de Trapaça
 - Digite a sequência mágica: ←←→→ →→←← (esquerda, esquerda, direita, direita, direita, direita, esquerda, esquerda)
-- Todos os blocos vão se transformar magicamente em 128!
-- É um Easter egg, só para diversão.
+- Todos os blocos se transformarão magicamente em 128!
+- É um easter egg, apenas para diversão.
 - Dica de especialista: Trapacear é divertido, mas não exagere! 😉
 
 ## 🎯 Demonstração
 
-🎯 : [Jogue aqui](http://34.150.49.127:5000/)
+🎯 : [Jogue aqui](http://2048.765431.xyz/)
 <img width="1279" alt="demo" src="https://github.com/user-attachments/assets/0df2c956-b6d9-4371-a916-f6ac3ae642be" />
 
 
@@ -99,7 +99,7 @@ python 2048.py
 
 ## 🎨 Personalização
 
-Quer deixar com a sua cara? Ajuste o `styles.css` para um novo visual, ou mergulhe no `script.js` para modificar a jogabilidade. Todo o código está bem comentado para facilitar a personalização!
+Quer deixar com a sua cara? Ajuste o `styles.css` para um novo visual ou mergulhe no `script.js` para mudar o gameplay. Todo o código está bem comentado para facilitar a modificação!
 
 ## 📝 Licença
 
@@ -112,18 +112,15 @@ Ainda em atualização! Issues e Pull Requests são super bem-vindos—vamos tor
 
 ## 🙏 Agradecimentos
 
-Agradecimentos aos seguintes patrocinadores por apoiarem este projeto:
-- [Nenhum](https://#/) fornecendo o servidor
-- [Serv00](https://www.serv00.com/) fornecendo o servidor
+Obrigado aos seguintes patrocinadores por apoiar este projeto:
+- [Aurora Cloud](https://www.free-vps.net/) fornecendo o servidor
 
 ---
-_Última atualização: ago. 2025_
-
-
+_Última atualização: out. 2025_
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
 
 ---

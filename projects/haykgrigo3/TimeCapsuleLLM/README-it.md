@@ -38,97 +38,99 @@ Immagina se un modello AI non si limitasse a fingere di essere storico, ma lo fo
 
 v0 e v0.5 sono stati costruiti su [nanoGPT di Andrej Karpathy](https://github.com/karpathy/nanoGPT) Le principali script di addestramento e l’architettura del modello sono opera sua. 
 
-v1 basato su [Phi 1.5 di Microsoft](https://huggingface.co/microsoft/phi-1_5)
+v1 costruito su [Phi 1.5 di Microsoft](https://huggingface.co/microsoft/phi-1_5)
+
+[Link Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+
 
 ##  Comportamento del Modello & Limitazioni
 
 ### **v0**  
 
-I primi prompt mostrano il modello rispondere con linguaggio e comportamento tipici dell'Ottocento.  
-Esempio: Prompt: "Chi è Henry?" e ha risposto "Conosco quell'uomo, non ho fatto nero, la tempesta." 
+I primi prompt mostrano il modello rispondere con linguaggio e comportamento dell'Ottocento. 
+Esempio: Prompt: "Who art Henry?" e ha risposto "I know that man, I have did not a black, the storm." 
 
-![Esempio Output TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![Output di esempio TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- Nessun accenno a concetti moderni  
-- Vocabolario perlopiù accurato per l'epoca  
-- Frasi perlopiù incoerenti (previsto per ~187MB di dati di addestramento)
+- Nessun riferimento a concetti moderni  
+- Vocabolario quasi sempre accurato per l’epoca  
+- Frasi per lo più incoerenti (previsto per ~187MB di dati di addestramento)
 
 ### **v0.5** 
 
 Un miglioramento significativo rispetto a v0.  
-- Stile di scrittura vittoriano, punteggiatura corretta, frasi perlopiù grammaticali  
-- Tasso ancora elevato di allucinazione fattuale  
-- Rumore OCR (“Digitalizzato da Google”) ancora presente negli output
+- Stile di scrittura vittoriano, punteggiatura corretta, frasi generalmente grammaticali  
+- Ancora alto tasso di allucinazione fattuale  
+- Rumore OCR (“Digitized by Google”) ancora presente negli output
 
-![Esempio Output TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![Output di esempio TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-Primo modello a richiamare e collegare un vero evento storico con una figura reale del dataset.
+Primo modello in grado di richiamare e collegare un vero evento storico con una persona reale presente nel dataset.
 
-Esempio: Prompt: "Era l'anno del Signore 1834" 
+Esempio: Prompt: "It was the year of our Lord 1834" 
 
-Output: "Era l'anno del Signore 1834 e le strade di Londra erano piene di protesta e petizione. La causa, come molti ricordavano, non era vincolata al modo privato, ma era stata presa nello stesso giorno nel giorno di Lord Palmerston, il pubblico riceverà una breve dichiarazione delle difficoltà sotto le quali il giorno della legge ci ha raggiunto. È motivo di profondo rammarico che gli eventi attuali nella storia del mondo siano chiari, e di conseguenza saranno conosciuti. Non è vero che gli stessi uomini che per primi si stabilirono nel Vangelo a Gerusalemme dovrebbero avere un registro così esteso e interessante della prosperità e prosperità" 
+Output: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-All'inizio pensavo che una protesta potesse essere avvenuta casualmente nello stesso anno, ma guarda qui: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+All’inizio pensavo che una protesta potesse essere avvenuta casualmente nello stesso anno, ma guarda qui: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### Perché è importante:
 
-Questo è il primo esempio di uno dei miei modelli che collega un anno sia a un vero evento storico sia a una persona reale legata a quell'evento (Lord Palmerston). I modelli precedenti (v0 e v0.5) potevano imitare gli stili di scrittura del XIX secolo ma avrebbero sempre inventato eventi, persone e fatti. Questo mostra che il modello sta iniziando a ricordare elementi dal dataset
+Questo è il primo esempio di uno dei miei modelli che collega un anno sia a un vero evento storico sia a una persona reale legata a quell’evento (Lord Palmerston). I modelli precedenti (v0 e v0.5) riuscivano a imitare lo stile di scrittura del XIX secolo ma inventavano sempre eventi, persone e fatti. Questo dimostra che il modello sta iniziando a ricordare elementi dal dataset.
 
 ## Piani Futuri
 
-- Ci sono quasi 175.000 testi pubblicati a Londra dal 1800 al 1875 su Internet Archive 
+- Ci sono quasi 175.000 testi pubblicati a Londra dal 1800 al 1875 disponibili su Internet Archive
 - Ho intenzione di espandere il corpus e pulirlo ulteriormente per migliorare le capacità di ragionamento
 - Espansione verso diverse regioni e periodi storici per modelli più storici
 
+## Come Utilizzare
 
-## Come Usare
+Questo progetto si concentra principalmente sulla raccolta di dati storici, sulla loro preparazione per l'addestramento e sulla costruzione di un tokenizer. Non tratterò il processo completo di addestramento LLM, per quello consultare nanoGPT di Andrej Karpathy.
 
-Questo progetto si concentra principalmente sulla raccolta di dati storici, sulla loro preparazione per l’addestramento e sulla costruzione di un tokenizer. Non coprirò il processo completo di addestramento LLM, per quello si rimanda a nanoGPT di Andrej Karpathy.
+### Passo 1: Raccogliere e Preparare i Testi Storici
 
-### Passo 1: Raccogliere e Preparare Testi Storici
-
-- Raccogli file .txt di libri, documenti ecc. di dominio pubblico dal periodo scelto (es. Londra 1800-1850)
-- Mantienili all’interno della finestra temporale/luogo selezionata  
-- Pulisci i file di testo con uno script o manualmente rimuovendo intestazioni/piedipagina da Project Gutenberg, annotazioni moderne o errori OCR.
+- Raccogli file .txt di libri di dominio pubblico, documenti, ecc. dal periodo scelto (ad esempio, Londra 1800-1850)
+- Mantienili all'interno della finestra temporale/luogo scelta
+- Pulisci i file di testo usando uno script o rimuovendo manualmente intestazioni/piedi di pagina da Project Gutenberg, annotazioni moderne o errori OCR.
 
 ### Passo 2: Costruire un Tokenizer Personalizzato
 
 - Esegui train_tokenizer.py o train_tokenizer_hf.py sui dati puliti.
-- Questo ti darà vocab.json e merges.txt
-- Questi file definiscono vocabolario e regole di unione per il tuo modello
+- Questo ti fornirà vocab.json e merges.txt
+- Questi file definiscono il vocabolario e le regole di fusione per il tuo modello
 
 ### Passo 3: Addestra il Tuo Modello
 
-- Consulta [nanoGPT di Andrej Karpathy](https://github.com/karpathy/nanoGPT) per il processo di addestramento o la documentazione dell’architettura scelta.
+- Consulta [nanoGPT di Andrej Karpathy](https://github.com/karpathy/nanoGPT) per il processo di addestramento o la documentazione dell'architettura scelta.
 
 # FAQ
 
-## Cos’è l’Addestramento Temporale Selettivo?
+## Cos'è l'Addestramento Temporale Selettivo?
 
-L’Addestramento Temporale Selettivo (STT) è una metodologia di machine learning dove tutti i dati di addestramento sono selezionati specificamente per ricadere in un determinato periodo storico. Viene fatto per modellare la lingua e la conoscenza di quell’epoca senza influenze da concetti moderni. Ad esempio, il modello attuale che ho ora (v0.5) è addestrato esclusivamente su dati dal 1800 al 1875, non è ottimizzato ma addestrato da zero producendo output che riflette lo stile linguistico e il contesto storico di quell’epoca.
+L'Addestramento Temporale Selettivo (STT) è una metodologia di machine learning in cui tutti i dati di addestramento sono accuratamente selezionati per ricadere in uno specifico periodo storico. Viene fatto per modellare il linguaggio e la conoscenza di quell'epoca senza influenze da concetti moderni. Ad esempio, il modello attuale che ho ora (v0.5) è addestrato esclusivamente su dati dal 1800 al 1875, non è stato ottimizzato ma addestrato da zero, risultando in output che riflettono lo stile linguistico e il contesto storico di quel periodo.
 
-## Perché non usare semplicemente il fine-tuning o LoRA?
+## Perché non usare semplicemente fine-tuning o LoRA?
 
-Per questo progetto sto cercando di creare un modello linguistico non influenzato da bias moderni. Se faccio il fine-tuning di qualcosa come GPT-2, è già pre-addestrato e quell’informazione non andrà via. Se addestro da zero il modello linguistico non fingerà di essere antico, lo sarà e basta. L’obiettivo per questo progetto ora è creare qualcosa che possa ragionare esclusivamente usando la conoscenza dei libri londinesi pubblicati tra il 1800 e il 1875.
+Per questo progetto sto cercando di creare un modello linguistico non influenzato dai bias moderni. Se ottimizzo qualcosa come GPT-2, è già pre-addestrato e quell'informazione non sparirà. Se lo addestro da zero il modello linguistico non fingerà di essere antico, lo sarà realmente. L'obiettivo di questo progetto al momento è creare qualcosa che possa ragionare esclusivamente usando la conoscenza dei libri londinesi pubblicati tra il 1800 e il 1875.
 
-## Che tipo di dati hai usato per l’addestramento?
+## Che tipo di dati hai usato per l'addestramento?
 
-Sto usando libri, documenti legali, giornali e altri scritti di Londra dal 1800 al 1875. La lista che ho collegato (per v0) ne ha circa 200, ma per il primo addestramento ho usato solo 50 file per circa ~187 MB. Puoi vedere una lista dei documenti:
+
+Sto utilizzando libri, documenti legali, giornali e altri scritti della Londra tra il 1800 e il 1875. La lista che ho linkato (per v0) contiene circa 200 documenti, ma per il primo addestramento ho usato solo 50 file per circa ~187 MB. Puoi visualizzare un elenco dei documenti:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
-
 
 Dimensioni dei dataset:
 v0: ~187MB
 v0.5: ~435MB 
-v1: ~6,25GB 
+v1: ~6.25GB 
 
 ## Quanto sono grandi i modelli?
 
 V0: 16M Parametri
 
-V0.5: 123M Parametri
+V0.5 123M Parametri
 
 V1: 700M Parametri
 
@@ -155,8 +157,9 @@ GPU: A100 noleggiata
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
 
 ---
