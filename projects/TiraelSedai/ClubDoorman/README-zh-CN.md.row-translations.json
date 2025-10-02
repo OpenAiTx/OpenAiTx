@@ -1,0 +1,290 @@
+[
+  {
+    "row": 1,
+    "rowsha": "cYguAOEoxyT9p8SdqIZmPXf6uxOueNodDhwR4P/h6Ds=",
+    "originContent": "## Антиспам для телеграма",
+    "translatedContent": "## Telegram反垃圾系统"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "5V+KkpTNBXZJvTe12aBot1YeGZAwTUadO/q6Cziz+2Y=",
+    "originContent": "Изначально разрабатывался чтобы решить проблему со спамерами в чатах Вастрик.Клуба, но может использоваться и в чатах других форков, да и просто в любых больших чатах.",
+    "translatedContent": "最初开发是为了解决Vastrik.Club聊天室中的垃圾信息问题，但也可以用于其他分叉的聊天室，甚至任何大型聊天室。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "2Gwf6sJtTbo8s3twyZ+YkXFzGTfJXeNiq7EJmtEQnh4=",
+    "originContent": "### Принцип работы",
+    "translatedContent": "### 工作原理"
+  },
+  {
+    "row": 6,
+    "rowsha": "8BZ+w9VpdFZIyUGQarUxTjHqOui7VJu10xx+KXFC24g=",
+    "originContent": "- Пользователи Клуба с привязанным ботом автоматически добавляются в доверенные",
+    "translatedContent": "- 绑定了机器人账号的俱乐部用户自动加入信任名单"
+  },
+  {
+    "row": 7,
+    "rowsha": "4WqHYMfgBQBf1b0i4t9sDuTEoor+dFq2AK+zSxZ6v8Q=",
+    "originContent": "- При эвенте \"пользователь вошёл в чат\" выдаётся простенькая капча",
+    "translatedContent": "- 当事件“用户加入聊天室”发生时，会发出简单的验证码"
+  },
+  {
+    "row": 8,
+    "rowsha": "C36TtHNuvlbhzAlOLjTGXLDE/zc2/ySffeAQHAlscC8=",
+    "originContent": "- Если пользователь уже в доверенных, то все проверки пропускаются",
+    "translatedContent": "- 如果用户已在信任名单中，则跳过所有检查"
+  },
+  {
+    "row": 9,
+    "rowsha": "3cTPUMN9opFJ/Iv+wTkc73qtaMXryX0D1ntK+ESaD78=",
+    "originContent": "- Если пользователь в известных списках спамеров - нафиг",
+    "translatedContent": "- 如果用户在已知垃圾用户名单中——直接拒绝"
+  },
+  {
+    "row": 10,
+    "rowsha": "/e+yEdsdU5BAhljvm3tqopfcr3ExfPxTlBesuZuXHiA=",
+    "originContent": "- Если в сообщении многовато эмодзи - нафиг",
+    "translatedContent": "- 如果消息中表情符号过多——直接拒绝"
+  },
+  {
+    "row": 11,
+    "rowsha": "trDN86Q3plAKeoF2GViXMz0FD28nK0zGFbNV+9ckp+w=",
+    "originContent": "- Если в сообщении есть слова, которые маскируются под русские но имеют английские буквы внутри - нафиг. Именно этот аспект сейчас затюнен в основном на русскоязычные чаты и может сработать на нормальные слова из языков которые пишутся кириллицей, но пока что все известные кейсы добавлены в тесты.",
+    "translatedContent": "- 如果消息中包含伪装成俄语但含有英文字母的词——直接拒绝。此功能目前主要针对俄语聊天室调优，可能会误判使用西里尔字母的其他语言中的正常词汇，但目前所有已知案例均已添加到测试中。"
+  },
+  {
+    "row": 12,
+    "rowsha": "jEE6ACrsScDPYEgmJ2DFUUUYT2E05Qhzm9WtIhxZWWo=",
+    "originContent": "- Если в сообщении есть стоп-слова типа \"заработок в сети\" - нафиг",
+    "translatedContent": "- 如果消息包含“网络赚钱”等禁用词汇——直接拒绝"
+  },
+  {
+    "row": 13,
+    "rowsha": "gNHGiH3JPat58Ek2r5Axrl6CL1zIxycowP0J9ZVFhVA=",
+    "originContent": "- Дальше сообщение очищается от эмодзи, пунктуации, диакритиков и скармливается ML. Если ML считает что спам - нафиг.",
+    "translatedContent": "- 接着消息会去除表情符号、标点符号、变音符号并交给机器学习模型判断。如果机器学习模型判定为垃圾——直接拒绝。"
+  },
+  {
+    "row": 14,
+    "rowsha": "oPxwNm9OHMwN5JNeReZhNpv46sNaFgN25eWaYy9Y84w=",
+    "originContent": "- Если пользователь написал несколько нормальных сообщений, он добавляется в доверенные - спамеры крайне редко \"втираются в доверие\" и обычно выдают всё первым-вторым сообщением",
+    "translatedContent": "- 如果用户发送了几条正常消息，则被加入信任名单——垃圾用户极少“混入信任”，通常会在第一、第二条消息暴露身份"
+  },
+  {
+    "row": 15,
+    "rowsha": "bhKLFWH27p3rGA31yo+DBVGiiq4bDtepo7gCTIlscr4=",
+    "originContent": "- Автоматически бот только удаляет сообщения, банятся пользователи только вручную из админки чтобы снизить урон ложнопозитивных срабатываний",
+    "translatedContent": "- 机器人自动只删除消息，用户封禁仅通过管理员后台手动执行，以减少误判造成的损失"
+  },
+  {
+    "row": 16,
+    "rowsha": "LuTggm5elcLspndQyJfrCKJKxC9eDUXNrhmo1YYtQUw=",
+    "originContent": "- - Кроме блеклиста. Такие банятся сразу, но это можно выключить",
+    "translatedContent": "- - 黑名单用户除外，此类用户会被立即封禁，但此功能可关闭"
+  },
+  {
+    "row": 17,
+    "rowsha": "7vQ/pGFbqBRcwDKWjdv/U4UTRoFM3Zra16tB/ZAvR0g=",
+    "originContent": "- Если кого-то в чате забанил не бот, в админку приходит уведомление, возможно бот пропустил спам и его стоит добавить в датасет",
+    "translatedContent": "- 如果聊天室中某人被非机器人封禁，管理员后台会收到通知，说明机器人可能漏判了垃圾信息，该用户应被加入数据集"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "bjmEaS0N4RkZUQINsqc+Wkg6qcFxdMOCMHsWi9SNNBM=",
+    "originContent": "### Команды админки",
+    "translatedContent": "### 管理命令"
+  },
+  {
+    "row": 20,
+    "rowsha": "QZGClBBtJaNqIHjwp/lTk0d3s9uMyNmB+iHpDjvZTEA=",
+    "originContent": "Все команды вызываются реплаем на другое сообщение",
+    "translatedContent": "所有命令通过回复目标消息调用"
+  },
+  {
+    "row": 21,
+    "rowsha": "yKTOkW8X/hUG/WvYmJreXtf9eYgt0JLlZ4WN4f1od+A=",
+    "originContent": "- /spam - добавляет сообщение в датасет спама",
+    "translatedContent": "- /spam - 将消息添加到垃圾数据集中"
+  },
+  {
+    "row": 22,
+    "rowsha": "u8vlnYmDyar7H+gyxM9oo5o4ZGr2lLv3GElRVwVNm0A=",
+    "originContent": "- /ham - добавляет сообщение в датасет не-спама",
+    "translatedContent": "- /ham - 将消息添加到非垃圾数据集中"
+  },
+  {
+    "row": 23,
+    "rowsha": "1irwS9ZsLIutWVktevGmDoC51ixl75f5q4CXI5hOqpU=",
+    "originContent": "- /check - прогоняет сообщение через все проверки",
+    "translatedContent": "- /check - 让消息通过所有检查流程"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "dDGAMf7AOfRD4vzK5fG4uI7ijryALf3qoCPidYpI3XU=",
+    "originContent": "### Конфиг",
+    "translatedContent": "### 配置"
+  },
+  {
+    "row": 26,
+    "rowsha": "Dk9ojCiwNplczt2SnxH4ovy7I/JorJknzHAB0qsSjPc=",
+    "originContent": "Создаём чат-админку, запоминаем ID.",
+    "translatedContent": "创建管理员聊天，记录ID。"
+  },
+  {
+    "row": 27,
+    "rowsha": "7cLK8jidsTfzxlw9xN1Je+cP7gCPUlO/Z29jmeqTQkE=",
+    "originContent": "Переменные среды:",
+    "translatedContent": "环境变量："
+  },
+  {
+    "row": 28,
+    "rowsha": "hqxXERNskYD4OCSHSOlo4IAjKogNCajhfBX3MfHIEhI=",
+    "originContent": "- DOORMAN_BOT_API: Токен телеграм бота. Обязательно",
+    "translatedContent": "- DOORMAN_BOT_API：Telegram机器人令牌，必填"
+  },
+  {
+    "row": 29,
+    "rowsha": "fbqA5bFyMAabmWfP8h8lOE46ZL64JKsQAqSa7wodSto=",
+    "originContent": "- DOORMAN_ADMIN_CHAT: ID чата админки. Обязательно",
+    "translatedContent": "- DOORMAN_ADMIN_CHAT：管理员聊天ID，必填"
+  },
+  {
+    "row": 30,
+    "rowsha": "4w/CfvOw4h2NIo6jyi69pZMTW8F0GvYlUsDbWwJmntE=",
+    "originContent": "- DOORMAN_CLUB_SERVICE_TOKEN: Сервис токен для Клуба, создаётся тут: https://vas3k.club/apps/. Если переменная не задана, автоматический аппрув людей из Клуба пропускается.",
+    "translatedContent": "- DOORMAN_CLUB_SERVICE_TOKEN：俱乐部服务令牌，创建地址：https://vas3k.club/apps/。未设置时，自动批准俱乐部用户功能关闭。"
+  },
+  {
+    "row": 31,
+    "rowsha": "eD9Da6UTvoRAxSyUGrOllJLUPP5Ijjx/IvkLE/swIwE=",
+    "originContent": "- DOORMAN_CLUB_URL: Базовый URL для форков Клуба, например https://rationalanswer.club/",
+    "translatedContent": "- DOORMAN_CLUB_URL：俱乐部分叉基础URL，例如 https://rationalanswer.club/"
+  },
+  {
+    "row": 32,
+    "rowsha": "ONk1SDK3adOzWG46AEy3Gv09aPECAE+Xb8kfdPJ04oc=",
+    "originContent": "- DOORMAN_BLACKLIST_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил людей (не из Клуба, не approved, из блеклиста) при заходе сразу",
+    "translatedContent": "- DOORMAN_BLACKLIST_AUTOBAN_DISABLE：设置为true或1时，机器人不会自动封禁非俱乐部、未批准且在黑名单中的用户"
+  },
+  {
+    "row": 33,
+    "rowsha": "Dxlcv+yA8JMwUjso9iThGofmCWXooOmNAI16lzzXxiE=",
+    "originContent": "- DOORMAN_LOW_CONFIDENCE_HAM_ENABLE: Установить в true или 1 чтобы отсылать в админку не-спам который имеет низкий конфиденс скор, полезно для чатов где спамеры постоянно проверяют качество ML на прочность",
+    "translatedContent": "- DOORMAN_LOW_CONFIDENCE_HAM_ENABLE：设置为true或1时，将低置信度的非垃圾消息发送到管理员后台，适用于垃圾用户频繁测试机器学习准确性的聊天室"
+  },
+  {
+    "row": 34,
+    "rowsha": "GQ2pOmepEp7gEIgTKBGKFEAdXLfgrvWY42YLYZYWU40=",
+    "originContent": "- DOORMAN_CHANNELS_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения от имени каналов (кроме тех, которые привязаны к текущей группе)",
+    "translatedContent": "- DOORMAN_CHANNELS_AUTOBAN_DISABLE：设置为true或1时，机器人不会封禁来自频道的消息（除绑定到当前群组的频道外）"
+  },
+  {
+    "row": 35,
+    "rowsha": "RwXFYmocu4ceUC2HTnh6jAPHPcxPpl2awbAQT8exwCI=",
+    "originContent": "- DOORMAN_APPROVE_BUTTON: Установить в true или 1 чтобы к каждому удалённому сообщению добавлялась опция \"это свой, знакомый, завсегдатай\"",
+    "translatedContent": "- DOORMAN_APPROVE_BUTTON：设置为true或1时，每条被删除的消息会附带“这是自己人、熟人、常客”的选项"
+  },
+  {
+    "row": 36,
+    "rowsha": "fusvh9FRMqN4GXS8rz3k5jktqzGwTEhsOPRj73vFNaA=",
+    "originContent": "- DOORMAN_LOOKALIKE_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения где есть слова, маскирующиеся под русские",
+    "translatedContent": "- DOORMAN_LOOKALIKE_AUTOBAN_DISABLE：设置为true或1时，机器人不会封禁包含伪装成俄语词汇的消息"
+  },
+  {
+    "row": 37,
+    "rowsha": "AjGk3Ce7HfJ0pIOXw6IX0VpvQkAwfZc2hCk6Y0FaOWg=",
+    "originContent": "- DOORMAN_BUTTON_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения где есть кнопки",
+    "translatedContent": "- DOORMAN_BUTTON_AUTOBAN_DISABLE：设置为true或1时，机器人不会封禁包含按钮的消息"
+  },
+  {
+    "row": 38,
+    "rowsha": "RwYx7TGulI+5G7eBUj3pUAhsDZJ5K25/Z/nO/qLuMtA=",
+    "originContent": "- DOORMAN_HIGH_CONFIDENCE_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения где ML-классификатор достаточно уверен в спаме",
+    "translatedContent": "- DOORMAN_HIGH_CONFIDENCE_AUTOBAN_DISABLE：设置为true或1时，机器人不会封禁机器学习模型高度确定为垃圾的消息"
+  },
+  {
+    "row": 39,
+    "rowsha": "cGFOl31xbygof7y2sAorlSm/+ElC8a1kPfrLNIHonfU=",
+    "originContent": "- DOORMAN_CHANNEL_AUTOBAN_EXCLUSION: Через запятую группы в которых каналы не банятся",
+    "translatedContent": "- DOORMAN_CHANNEL_AUTOBAN_EXCLUSION：以逗号分隔的群组列表，指定这些群组内频道消息不被封禁"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "vSQRxiCzS9qV5XJDUR1S/RUpPjjLp2II9x3VmAfZVW8=",
+    "originContent": "#### Спасибо",
+    "translatedContent": "#### 谢谢"
+  },
+  {
+    "row": 42,
+    "rowsha": "MQo+0zl5KKGlgLSCltPH6mbmDHaCbj0Xbu9HEnExHZ4=",
+    "originContent": "- https://lols.bot/ за борьбу со спамерами и API для бан-листов",
+    "translatedContent": "- https://lols.bot/ 感谢对抗垃圾邮件者和提供黑名单API"
+  },
+  {
+    "row": 43,
+    "rowsha": "Jgllr7cDSn9nTPFdAaH+qqWLuLweZ8g0I5l1K/beD44=",
+    "originContent": "- https://github.com/umputun/tg-spam/ за некоторые идеи и три четверти датасета",
+    "translatedContent": "- https://github.com/umputun/tg-spam/ 感谢提供一些想法和四分之三的数据集"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "cK/xAvkAeEH5U7u/1XWPtXOothAfP9xDT6b2C+GkT7k=",
+    "originContent": "### Translation",
+    "translatedContent": "### 翻译"
+  },
+  {
+    "row": 46,
+    "rowsha": "4z8xgciKvzHBWCPhbOqzm5F/X9tTwEoiHQml5P6s7MY=",
+    "originContent": "If you're willing to do the heavy lifting of translating all the text of this bot to other languages, please let me know first before running headfirst and creating a PR.",
+    "translatedContent": "如果您愿意承担将此机器人所有文本翻译成其他语言的重任，请先告知我，再着手进行并创建PR。"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

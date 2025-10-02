@@ -1,0 +1,789 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ronald-miniSpring Framework\n\nA lightweight Spring framework implementation that demonstrates core Spring principles and mechanisms. This project extracts and simplifies Spring's essential features while maintaining its fundamental architecture, making it an excellent learning resource for understanding Spring's internals.\n\n## 🚀 Key Features\n\n- **IoC Container**: Complete implementation of dependency injection and inversion of control\n- **AOP Framework**: Aspect-oriented programming with support for method interception and enhancement\n- **Bean Lifecycle**: Comprehensive bean lifecycle management (instantiation, initialization, destruction)\n- **Resource Management**: Flexible resource loading system supporting classpath and file system\n- **Event System**: Publish-subscribe pattern implementation for application events\n- **Type Conversion**: Robust type conversion system for basic and custom types\n- **XML Configuration**: Full XML configuration support with namespace handling\n\n## 💡 Technical Highlights\n\n### 1. Circular Dependency Resolution\nImplemented a sophisticated three-level cache mechanism to handle circular dependencies:",
+    "ContentSha": "oJplwxafTqTzdXRvJ8yI/L+DPmZAEVVLoD63Peo/yyI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ronald-miniSpring Framework\n\nUna implementación ligera del framework Spring que demuestra los principios y mecanismos centrales de Spring. Este proyecto extrae y simplifica las características esenciales de Spring mientras mantiene su arquitectura fundamental, siendo un recurso de aprendizaje excelente para entender el funcionamiento interno de Spring.\n\n## 🚀 Características Clave\n\n- **Contenedor IoC**: Implementación completa de inyección de dependencias e inversión de control\n- **Framework AOP**: Programación orientada a aspectos con soporte para interceptación y mejora de métodos\n- **Ciclo de Vida de Bean**: Gestión completa del ciclo de vida de beans (instanciación, inicialización, destrucción)\n- **Gestión de Recursos**: Sistema flexible de carga de recursos que soporta classpath y sistema de archivos\n- **Sistema de Eventos**: Implementación del patrón publicar-suscribir para eventos de la aplicación\n- **Conversión de Tipos**: Sistema robusto de conversión de tipos para tipos básicos y personalizados\n- **Configuración XML**: Soporte completo para configuración XML con manejo de espacios de nombres\n\n## 💡 Aspectos Técnicos Destacados\n\n### 1. Resolución de Dependencias Circulares\nImplementación de un mecanismo sofisticado de caché de tres niveles para manejar dependencias circulares:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "eUHOTp8bL8oxMczBDDPM2W/wrlUVwReOgBRh5RhwGvE=",
+        "originContent": "# ronald-miniSpring Framework",
+        "translatedContent": "# ronald-miniSpring Framework"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ypLb8Y8HHLgc75O1C3ljrGTXEB8JSa6suRAOKVkv6ZE=",
+        "originContent": "A lightweight Spring framework implementation that demonstrates core Spring principles and mechanisms. This project extracts and simplifies Spring's essential features while maintaining its fundamental architecture, making it an excellent learning resource for understanding Spring's internals.",
+        "translatedContent": "Una implementación ligera del framework Spring que demuestra los principios y mecanismos centrales de Spring. Este proyecto extrae y simplifica las características esenciales de Spring mientras mantiene su arquitectura fundamental, siendo un recurso de aprendizaje excelente para entender el funcionamiento interno de Spring."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "0vAhKmXWDMjukIwL5SlQVUPpA0O/4mj+5Mh4JxRDWaA=",
+        "originContent": "## 🚀 Key Features",
+        "translatedContent": "## 🚀 Características Clave"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ksnE1ssu1Xoe0tJ6gZ1CI2yT59KKpFgwcOCu04RsCsk=",
+        "originContent": "- **IoC Container**: Complete implementation of dependency injection and inversion of control",
+        "translatedContent": "- **Contenedor IoC**: Implementación completa de inyección de dependencias e inversión de control"
+      },
+      {
+        "row": 8,
+        "rowsha": "g336I7nOK280geiBRejd2Mo1M6Qv76GYDDyZzi5bkyE=",
+        "originContent": "- **AOP Framework**: Aspect-oriented programming with support for method interception and enhancement",
+        "translatedContent": "- **Framework AOP**: Programación orientada a aspectos con soporte para interceptación y mejora de métodos"
+      },
+      {
+        "row": 9,
+        "rowsha": "k47xHG2i5ICv2XfF2bpb8jn2E+Vgz0XNXc4qRVH4pWk=",
+        "originContent": "- **Bean Lifecycle**: Comprehensive bean lifecycle management (instantiation, initialization, destruction)",
+        "translatedContent": "- **Ciclo de Vida de Bean**: Gestión completa del ciclo de vida de beans (instanciación, inicialización, destrucción)"
+      },
+      {
+        "row": 10,
+        "rowsha": "jpR/lgjqqU8j2lU9Nrgce1sA1c/VjLJprOuQU0Q0zs8=",
+        "originContent": "- **Resource Management**: Flexible resource loading system supporting classpath and file system",
+        "translatedContent": "- **Gestión de Recursos**: Sistema flexible de carga de recursos que soporta classpath y sistema de archivos"
+      },
+      {
+        "row": 11,
+        "rowsha": "QabhH89eCp+5sOebZpQzMCSkOv3KN1bDtt/h61G0zG4=",
+        "originContent": "- **Event System**: Publish-subscribe pattern implementation for application events",
+        "translatedContent": "- **Sistema de Eventos**: Implementación del patrón publicar-suscribir para eventos de la aplicación"
+      },
+      {
+        "row": 12,
+        "rowsha": "fK5WUzEhFKuhF6kWNa/qjrfjHTFpcxMrY84ZHodcqNM=",
+        "originContent": "- **Type Conversion**: Robust type conversion system for basic and custom types",
+        "translatedContent": "- **Conversión de Tipos**: Sistema robusto de conversión de tipos para tipos básicos y personalizados"
+      },
+      {
+        "row": 13,
+        "rowsha": "g1DL1Jl6JI4B7idGvGgfpOM8UEAEv9ptqA85Q2GGeKw=",
+        "originContent": "- **XML Configuration**: Full XML configuration support with namespace handling",
+        "translatedContent": "- **Configuración XML**: Soporte completo para configuración XML con manejo de espacios de nombres"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "kFSqUI2RP5FmrBAQXX6irex7jkbgkTmnTHF3ElupYos=",
+        "originContent": "## 💡 Technical Highlights",
+        "translatedContent": "## 💡 Aspectos Técnicos Destacados"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "epamygvNn7TKzmAZACGXLqh7HBUVwzfiScjowj1+J6c=",
+        "originContent": "### 1. Circular Dependency Resolution",
+        "translatedContent": "### 1. Resolución de Dependencias Circulares"
+      },
+      {
+        "row": 18,
+        "rowsha": "H4gsHBx2SfAkEs7j5fwcuopjI8HR7zWGjAV6yB5gCGw=",
+        "originContent": "Implemented a sophisticated three-level cache mechanism to handle circular dependencies:",
+        "translatedContent": "Implementación de un mecanismo sofisticado de caché de tres niveles para manejar dependencias circulares:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```java\n// Three-level cache structure\nMap<String, Object> singletonObjects = new ConcurrentHashMap<>();      // Level 1: Fully initialized beans\nMap<String, Object> earlySingletonObjects = new HashMap<>();           // Level 2: Early exposed beans\nMap<String, ObjectFactory<?>> singletonFactories = new HashMap<>();    // Level 3: Bean factories\n```",
+    "ContentSha": "6zNDeYF7Dfo1lxUNEfV5/Nt3ygMxwApb5QGobAtxdg4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```java\n// Three-level cache structure\nMap<String, Object> singletonObjects = new ConcurrentHashMap<>();      // Level 1: Fully initialized beans\nMap<String, Object> earlySingletonObjects = new HashMap<>();           // Level 2: Early exposed beans\nMap<String, ObjectFactory<?>> singletonFactories = new HashMap<>();    // Level 3: Bean factories\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+        "originContent": "```java",
+        "translatedContent": "```java"
+      },
+      {
+        "row": 2,
+        "rowsha": "0+PNZDo3kck6Ecwl9+QlSfUDm1Ase8nfyiqvYLDfXcU=",
+        "originContent": "// Three-level cache structure",
+        "translatedContent": "// Three-level cache structure"
+      },
+      {
+        "row": 3,
+        "rowsha": "MpCxsglD3q5FHoLvr78QMe/AmdZNfyAeCL5eIXG9nB0=",
+        "originContent": "Map<String, Object> singletonObjects = new ConcurrentHashMap<>();      // Level 1: Fully initialized beans",
+        "translatedContent": "Map<String, Object> singletonObjects = new ConcurrentHashMap<>();      // Level 1: Fully initialized beans"
+      },
+      {
+        "row": 4,
+        "rowsha": "PqgwxOjR6Wo7GO09ca6KPI3S2Hs6BNnCd0I7Cv4J6bY=",
+        "originContent": "Map<String, Object> earlySingletonObjects = new HashMap<>();           // Level 2: Early exposed beans",
+        "translatedContent": "Map<String, Object> earlySingletonObjects = new HashMap<>();           // Level 2: Early exposed beans"
+      },
+      {
+        "row": 5,
+        "rowsha": "G5jYlcR5AaIR5nGSZiZAt7ZCSMW3RQWKBrqZBNz3QL4=",
+        "originContent": "Map<String, ObjectFactory<?>> singletonFactories = new HashMap<>();    // Level 3: Bean factories",
+        "translatedContent": "Map<String, ObjectFactory<?>> singletonFactories = new HashMap<>();    // Level 3: Bean factories"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### 2. AOP Implementation\n- Dynamic proxy generation using both JDK and CGLIB\n- Support for AspectJ pointcut expressions\n- Flexible advice types (Before, After, Around)\n\n### 3. Bean Lifecycle Management\n- Complete lifecycle hooks (InitializingBean, DisposableBean)\n- BeanPostProcessor support for customization\n- Aware interface family implementation\n\n## 🛠️ Technical Stack\n\n- **Language**: Java 17\n- **Build Tool**: Maven 3.8.1\n- **Testing**: JUnit 5\n- **Dependencies**:\n  - DOM4J for XML parsing\n  - CGLIB for AOP proxy\n  - AspectJ for pointcut expressions\n  - Logback for logging\n\n## 📋 Project Structure\n",
+    "ContentSha": "+b5wyKl2r8ZK6Q9x16TTaYXHiXjKOE+odZOUsTv1T6U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 2. Implementación de AOP\n- Generación dinámica de proxies usando tanto JDK como CGLIB\n- Soporte para expresiones de pointcut de AspectJ\n- Tipos de advice flexibles (Before, After, Around)\n\n### 3. Gestión del Ciclo de Vida de Beans\n- Hooks completos del ciclo de vida (InitializingBean, DisposableBean)\n- Soporte BeanPostProcessor para personalización\n- Implementación de la familia de interfaces Aware\n\n## 🛠️ Stack Técnico\n\n- **Lenguaje**: Java 17\n- **Herramienta de Construcción**: Maven 3.8.1\n- **Pruebas**: JUnit 5\n- **Dependencias**:\n  - DOM4J para análisis XML\n  - CGLIB para proxy AOP\n  - AspectJ para expresiones de pointcut\n  - Logback para registro\n\n## 📋 Estructura del Proyecto\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "AnmxT+qltn4dIBxvc0rlxVF3fSgzC/qXzcUg0qotPeU=",
+        "originContent": "### 2. AOP Implementation",
+        "translatedContent": "### 2. Implementación de AOP"
+      },
+      {
+        "row": 3,
+        "rowsha": "UltMCdo0UpI79AKEzi8mu3GCoi4l7I14Eoc+p2ZqDv8=",
+        "originContent": "- Dynamic proxy generation using both JDK and CGLIB",
+        "translatedContent": "- Generación dinámica de proxies usando tanto JDK como CGLIB"
+      },
+      {
+        "row": 4,
+        "rowsha": "8hDjeUuvdzCk8BzcOwVddCsqcjFJhwPpTTkIzvaHCcE=",
+        "originContent": "- Support for AspectJ pointcut expressions",
+        "translatedContent": "- Soporte para expresiones de pointcut de AspectJ"
+      },
+      {
+        "row": 5,
+        "rowsha": "jCPvSthQeRHXKPcQ8f3FSB/CfqFT9pjgKlDAcuRs4ts=",
+        "originContent": "- Flexible advice types (Before, After, Around)",
+        "translatedContent": "- Tipos de advice flexibles (Before, After, Around)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "FJ0qvtpndB24AxbjPsLMAFdq6flui7FLnSWOoFBUHa0=",
+        "originContent": "### 3. Bean Lifecycle Management",
+        "translatedContent": "### 3. Gestión del Ciclo de Vida de Beans"
+      },
+      {
+        "row": 8,
+        "rowsha": "zw9NiKTABHkvuXTYR++0X1xxyEsiSX0UNt7awajsCaY=",
+        "originContent": "- Complete lifecycle hooks (InitializingBean, DisposableBean)",
+        "translatedContent": "- Hooks completos del ciclo de vida (InitializingBean, DisposableBean)"
+      },
+      {
+        "row": 9,
+        "rowsha": "611a7gJ3IojhMRzeYnGWZusmRWJZcXM1AhSQRnQ/K10=",
+        "originContent": "- BeanPostProcessor support for customization",
+        "translatedContent": "- Soporte BeanPostProcessor para personalización"
+      },
+      {
+        "row": 10,
+        "rowsha": "Tu8ddrkncmzUsD2TVz43so9VvpRc6ooRFyJwH26iKYc=",
+        "originContent": "- Aware interface family implementation",
+        "translatedContent": "- Implementación de la familia de interfaces Aware"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "C7da05xtiBkDDLHHx7/xj6ezavbskMyMuV/BqhlRzXw=",
+        "originContent": "## 🛠️ Technical Stack",
+        "translatedContent": "## 🛠️ Stack Técnico"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "F9t3gBWATE+w95JnWK7bJ53c62lCf1AqAyQF8Lmrzhg=",
+        "originContent": "- **Language**: Java 17",
+        "translatedContent": "- **Lenguaje**: Java 17"
+      },
+      {
+        "row": 15,
+        "rowsha": "8gaG5USUYUWFo34X8S5ON+wJ+7CGE7aAbG12UmSPLnY=",
+        "originContent": "- **Build Tool**: Maven 3.8.1",
+        "translatedContent": "- **Herramienta de Construcción**: Maven 3.8.1"
+      },
+      {
+        "row": 16,
+        "rowsha": "qhg2mTdoKHkdp1ydHV7RoTaECFmeLvn1SS5V0jxUwV0=",
+        "originContent": "- **Testing**: JUnit 5",
+        "translatedContent": "- **Pruebas**: JUnit 5"
+      },
+      {
+        "row": 17,
+        "rowsha": "WtqHXjQ9JwWYF/5s8iI2eVr/eGAG1aRWeH10Azp43E4=",
+        "originContent": "- **Dependencies**:",
+        "translatedContent": "- **Dependencias**:"
+      },
+      {
+        "row": 18,
+        "rowsha": "JEEitD+O+PIc6Fx/bD8biMDhaWXOW55xtgDWVh438hA=",
+        "originContent": "  - DOM4J for XML parsing",
+        "translatedContent": "  - DOM4J para análisis XML"
+      },
+      {
+        "row": 19,
+        "rowsha": "lK9IZ3yb/tiNYeR2DsizYuvsyLbWMwXiS1IENAxcvnc=",
+        "originContent": "  - CGLIB for AOP proxy",
+        "translatedContent": "  - CGLIB para proxy AOP"
+      },
+      {
+        "row": 20,
+        "rowsha": "w2HjwAJeR22/+hFgBqfydX2ArdIBdbfbKni3nv0my+s=",
+        "originContent": "  - AspectJ for pointcut expressions",
+        "translatedContent": "  - AspectJ para expresiones de pointcut"
+      },
+      {
+        "row": 21,
+        "rowsha": "/d6l0T5ch2vuNOPUdIhpltVKd77j1sffRvP8Zz8WiOo=",
+        "originContent": "  - Logback for logging",
+        "translatedContent": "  - Logback para registro"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "zfaZHemlR3xhcEFAMcxg176G6DlEvTCt33LssovuxBU=",
+        "originContent": "## 📋 Project Structure",
+        "translatedContent": "## 📋 Estructura del Proyecto"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nsrc/main/java/com/minispring/\n├── beans/          # IoC container implementation\n├── context/        # Application context and event system\n├── core/           # Core utilities and type conversion\n├── aop/            # AOP framework implementation\n└── web/            # Web-specific features\n```",
+    "ContentSha": "/Oy9Z44d5V39ulnBRwQLhigXdAih4cCbcDsr8Q2XxMQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nsrc/main/java/com/minispring/\n├── beans/          # IoC container implementation\n├── context/        # Application context and event system\n├── core/           # Core utilities and type conversion\n├── aop/            # AOP framework implementation\n└── web/            # Web-specific features\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "IyZ9Ni9iRdTC1iwLQy2SPRaLKnK85gUH5Yq0BW23YEU=",
+        "originContent": "src/main/java/com/minispring/",
+        "translatedContent": "src/main/java/com/minispring/"
+      },
+      {
+        "row": 3,
+        "rowsha": "W6KUm/K5MgFNuTfoa33+humkAAHSk2nP9bf/sVnS0dU=",
+        "originContent": "├── beans/          # IoC container implementation",
+        "translatedContent": "├── beans/          # IoC container implementation"
+      },
+      {
+        "row": 4,
+        "rowsha": "K/mBWLy+M1PO6BnG+M+rVfYdVEDIBzNftlMUGqMWL1w=",
+        "originContent": "├── context/        # Application context and event system",
+        "translatedContent": "├── context/        # Application context and event system"
+      },
+      {
+        "row": 5,
+        "rowsha": "AhU9RcJcQbMwwHYloxf1oc4H/cK/KBGmGcXqtiJbbg4=",
+        "originContent": "├── core/           # Core utilities and type conversion",
+        "translatedContent": "├── core/           # Core utilities and type conversion"
+      },
+      {
+        "row": 6,
+        "rowsha": "4twnMnoyi9puN/CY4p96WjnnBNz44UyhAjYf1aIADX8=",
+        "originContent": "├── aop/            # AOP framework implementation",
+        "translatedContent": "├── aop/            # AOP framework implementation"
+      },
+      {
+        "row": 7,
+        "rowsha": "J64w7V8q1n9tdkz8DSck/ahWVPBoUU5iuW7Rw7mI23E=",
+        "originContent": "└── web/            # Web-specific features",
+        "translatedContent": "└── web/            # Web-specific features"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## 🎯 Implementation Details\n\n### IoC Container\n- Bean definition and registration system\n- Dependency injection (constructor and setter)\n- Bean scope management (singleton, prototype)\n- Property value handling\n\n### AOP Framework\n- Pointcut expression parsing\n- Dynamic proxy generation\n- Method interception and enhancement\n- AspectJ integration\n\n### Resource Management\n- Unified resource abstraction\n- Classpath and file system support\n- Resource loading strategies\n\n## 🏗️ Architecture\n\nThe framework follows a modular architecture with clear separation of concerns:\n1. **Core Container**: Manages beans and their dependencies\n2. **AOP Module**: Handles aspect-oriented programming\n3. **Context Module**: Provides application context and event system\n4. **Resource Module**: Manages resource loading and access\n\n## 🚀 Getting Started\n",
+    "ContentSha": "bdoAePf5yUl0ZMISeOiB7HPZOn7AOnzic5aq/y5HpAQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🎯 Detalles de Implementación\n\n### Contenedor IoC\n- Sistema de definición y registro de beans\n- Inyección de dependencias (constructor y setter)\n- Gestión del alcance de beans (singleton, prototipo)\n- Manejo de valores de propiedades\n\n### Framework AOP\n- Análisis de expresiones pointcut\n- Generación dinámica de proxies\n- Intercepción y mejora de métodos\n- Integración con AspectJ\n\n### Gestión de Recursos\n- Abstracción unificada de recursos\n- Soporte para classpath y sistema de archivos\n- Estrategias de carga de recursos\n\n## 🏗️ Arquitectura\n\nEl framework sigue una arquitectura modular con clara separación de responsabilidades:\n1. **Contenedor Core**: Gestiona beans y sus dependencias\n2. **Módulo AOP**: Maneja la programación orientada a aspectos\n3. **Módulo de Contexto**: Proporciona contexto de aplicación y sistema de eventos\n4. **Módulo de Recursos**: Gestiona la carga y acceso a recursos\n\n## 🚀 Primeros Pasos\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "MrWkga484VbSPna0B2/E64cz57qLVRyNIJZaxqBS/rs=",
+        "originContent": "## 🎯 Implementation Details",
+        "translatedContent": "## 🎯 Detalles de Implementación"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Ms74jLyI7qpO0vRQzi9a7Z6Y1E1WnX78LrtKsIc37NM=",
+        "originContent": "### IoC Container",
+        "translatedContent": "### Contenedor IoC"
+      },
+      {
+        "row": 5,
+        "rowsha": "xJEcMCculysE8OKVQqUAQ9J1x2f+T7YJVC9+2BvLi1E=",
+        "originContent": "- Bean definition and registration system",
+        "translatedContent": "- Sistema de definición y registro de beans"
+      },
+      {
+        "row": 6,
+        "rowsha": "6ynzBhPKqHI8PuonyiZDv4/oJgfo40y2rzqxA/N8C7M=",
+        "originContent": "- Dependency injection (constructor and setter)",
+        "translatedContent": "- Inyección de dependencias (constructor y setter)"
+      },
+      {
+        "row": 7,
+        "rowsha": "wKKGTc6R3N7b7LMKzmEMi/DEX4i4CbcjtEduSfgDIZY=",
+        "originContent": "- Bean scope management (singleton, prototype)",
+        "translatedContent": "- Gestión del alcance de beans (singleton, prototipo)"
+      },
+      {
+        "row": 8,
+        "rowsha": "S4KafLv+oYWEuNHPrO86UrI9Y/ldun9oa2HhgkgSnJo=",
+        "originContent": "- Property value handling",
+        "translatedContent": "- Manejo de valores de propiedades"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "NcWH0PguIa2wIWwXJEXX7Jc3nw38nJOtsBTRfTKqdds=",
+        "originContent": "### AOP Framework",
+        "translatedContent": "### Framework AOP"
+      },
+      {
+        "row": 11,
+        "rowsha": "UC3l78HKWwyFNm3mEk5d6scDSXh1xPukNpHKynr8zTA=",
+        "originContent": "- Pointcut expression parsing",
+        "translatedContent": "- Análisis de expresiones pointcut"
+      },
+      {
+        "row": 12,
+        "rowsha": "3r8Zf3GpJpH/P6s8jsxZp0EYV6llPdeQb6e4Rzx5fhI=",
+        "originContent": "- Dynamic proxy generation",
+        "translatedContent": "- Generación dinámica de proxies"
+      },
+      {
+        "row": 13,
+        "rowsha": "tFBDu70cHcC5tzzNFzeQYR8fHKgpLJq8UboStMk6faI=",
+        "originContent": "- Method interception and enhancement",
+        "translatedContent": "- Intercepción y mejora de métodos"
+      },
+      {
+        "row": 14,
+        "rowsha": "xP9b+sIdiH7qnBZ/RMGJkyIW8xVyBe1Ek29icsC7L+Y=",
+        "originContent": "- AspectJ integration",
+        "translatedContent": "- Integración con AspectJ"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "wS3bhviBt+UMoT2iRZ/FQqcOZJiA13oBhbzUC+FZepE=",
+        "originContent": "### Resource Management",
+        "translatedContent": "### Gestión de Recursos"
+      },
+      {
+        "row": 17,
+        "rowsha": "zPazF6jgvdOf3KUf0MmkQdfogm/ivRvQyD6btHWIVDs=",
+        "originContent": "- Unified resource abstraction",
+        "translatedContent": "- Abstracción unificada de recursos"
+      },
+      {
+        "row": 18,
+        "rowsha": "IAz+W3v8FA7QvZG7mYwmvChoQ+um/w2vGOoCYyTqu28=",
+        "originContent": "- Classpath and file system support",
+        "translatedContent": "- Soporte para classpath y sistema de archivos"
+      },
+      {
+        "row": 19,
+        "rowsha": "a08duzD/q5s5E4AiroQk2O/sh/jqIrorZhnjbLSeDEw=",
+        "originContent": "- Resource loading strategies",
+        "translatedContent": "- Estrategias de carga de recursos"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "j7Qa/uOwz3Ij+Hnjokg/zzgtLQPmUlHkOFaMDL3tEog=",
+        "originContent": "## 🏗️ Architecture",
+        "translatedContent": "## 🏗️ Arquitectura"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ELFoYlDARJLogolxSuYMtPpoOLy2Bu0CR0Qj3fJzEzQ=",
+        "originContent": "The framework follows a modular architecture with clear separation of concerns:",
+        "translatedContent": "El framework sigue una arquitectura modular con clara separación de responsabilidades:"
+      },
+      {
+        "row": 24,
+        "rowsha": "S0N3TxBw9GhJMQtZ3F8MwH8uXqo6c9qG8dLJGG2BhVw=",
+        "originContent": "1. **Core Container**: Manages beans and their dependencies",
+        "translatedContent": "1. **Contenedor Core**: Gestiona beans y sus dependencias"
+      },
+      {
+        "row": 25,
+        "rowsha": "ZTOdt3gifZh2XC99hYHHRVdn6NdcBamHKPE2j730pqc=",
+        "originContent": "2. **AOP Module**: Handles aspect-oriented programming",
+        "translatedContent": "2. **Módulo AOP**: Maneja la programación orientada a aspectos"
+      },
+      {
+        "row": 26,
+        "rowsha": "lrN8gE0t3hqzpZxItJgMAYHX7zgcbvmXSWGjR6wFP2c=",
+        "originContent": "3. **Context Module**: Provides application context and event system",
+        "translatedContent": "3. **Módulo de Contexto**: Proporciona contexto de aplicación y sistema de eventos"
+      },
+      {
+        "row": 27,
+        "rowsha": "8AMaIheJZmcZY1MAhz4a64gR6DPdiCfNjBJ9NzIZBKI=",
+        "originContent": "4. **Resource Module**: Manages resource loading and access",
+        "translatedContent": "4. **Módulo de Recursos**: Gestiona la carga y acceso a recursos"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "aKVJgV9gnSk4MAp/Su+G/EZ8/96Lvx8p89GEoOBOwkQ=",
+        "originContent": "## 🚀 Getting Started",
+        "translatedContent": "## 🚀 Primeros Pasos"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# Clone the project\ngit clone https://github.com/ronald-debugging/Ronald-miniSpring.git\n\n# Build the project\nmvn clean install\n\n# Run tests\nmvn test\n```",
+    "ContentSha": "MMffuXsjuedJxjjkl7B6PWIdHRJtzd7vyJX8xmUSpIM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Clone the project\ngit clone https://github.com/ronald-debugging/Ronald-miniSpring.git\n\n# Build the project\nmvn clean install\n\n# Run tests\nmvn test\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "vcegP1O5Wi602xAmQfzQtagZ/FNC0twX8fgwLKDkTWs=",
+        "originContent": "# Clone the project",
+        "translatedContent": "# Clone the project"
+      },
+      {
+        "row": 3,
+        "rowsha": "pJuiDHv95SVVIT5xNnepoesio80PDdTw6ej3m77u0EI=",
+        "originContent": "git clone https://github.com/ronald-debugging/Ronald-miniSpring.git",
+        "translatedContent": "git clone https://github.com/ronald-debugging/Ronald-miniSpring.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "p4PyNwU9gtas4o0naPJERS2UODNwUmldWCpsuCDcKhA=",
+        "originContent": "# Build the project",
+        "translatedContent": "# Build the project"
+      },
+      {
+        "row": 6,
+        "rowsha": "sPMwpBw3VSmmefLPdISc8JgxSg7HNSLJtowN65WnZ74=",
+        "originContent": "mvn clean install",
+        "translatedContent": "mvn clean install"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "tHNnyKNSkagtJZOFqKnkFV8ViCmgW+rly9Ij4SArNr4=",
+        "originContent": "# Run tests",
+        "translatedContent": "# Run tests"
+      },
+      {
+        "row": 9,
+        "rowsha": "qsV4MQIHqgL6bFk4VkA5jg+5+sNMeMtTW+sQeZwboh0=",
+        "originContent": "mvn test",
+        "translatedContent": "mvn test"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## 📚 Learning Resources\n\n- Spring Framework Official Documentation\n- \"Spring Revealed\"\n- \"Spring Source Code Deep Analysis\"\n\n## 🔄 Current Status\n\nAll core features have been implemented and tested:\n- ✅ IoC Container\n- ✅ AOP Framework\n- ✅ Bean Lifecycle\n- ✅ Resource Management\n- ✅ Event System\n- ✅ Type Conversion\n- ✅ XML Configuration\n- ✅ Circular Dependency Resolution\n\n",
+    "ContentSha": "KM9d4iiQtdTwNLAelA/EEa99EsagFYa6KeCbGr9brhg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 📚 Recursos de Aprendizaje\n\n- Documentación Oficial del Framework Spring\n- \"Spring Revelado\"\n- \"Análisis Profundo del Código Fuente de Spring\"\n\n## 🔄 Estado Actual\n\nTodas las funciones principales han sido implementadas y probadas:\n- ✅ Contenedor IoC\n- ✅ Framework AOP\n- ✅ Ciclo de Vida del Bean\n- ✅ Gestión de Recursos\n- ✅ Sistema de Eventos\n- ✅ Conversión de Tipos\n- ✅ Configuración XML\n- ✅ Resolución de Dependencias Circulares\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📚 Recursos de Aprendizaje"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z92SMUK5ouMhsXZptcbom9ALkMWuIpkHeHJuQhH7WSQ=",
+        "originContent": "## 📚 Learning Resources",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Documentación Oficial del Framework Spring"
+      },
+      {
+        "row": 4,
+        "rowsha": "RQnRVlxkAJ/G5oZRSVbiRSzsWOsVFOxfHPTHDMyhnqA=",
+        "originContent": "- Spring Framework Official Documentation",
+        "translatedContent": "- \"Spring Revelado\""
+      },
+      {
+        "row": 5,
+        "rowsha": "83PpzT0+YXDAvAQKiZ2JvSSAZ7nsUCnZed2J6LhSlbc=",
+        "originContent": "- \"Spring Revealed\"",
+        "translatedContent": "- \"Análisis Profundo del Código Fuente de Spring\""
+      },
+      {
+        "row": 6,
+        "rowsha": "yn+z4Gt8lWL8RUbPFbQlOzBty1oVfyr0vxdrUE9HcQQ=",
+        "originContent": "- \"Spring Source Code Deep Analysis\"",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🔄 Estado Actual"
+      },
+      {
+        "row": 8,
+        "rowsha": "cN+rDB9GWW89lthn21QLOugu6kNKzD5kGqgfMbMv8XQ=",
+        "originContent": "## 🔄 Current Status",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Todas las funciones principales han sido implementadas y probadas:"
+      },
+      {
+        "row": 10,
+        "rowsha": "1xQiD4sL0rD8gQYpCCexnx6GetCwAZM7H1kmSEVUM3k=",
+        "originContent": "All core features have been implemented and tested:",
+        "translatedContent": "- ✅ Contenedor IoC"
+      },
+      {
+        "row": 11,
+        "rowsha": "xpTQ/m//vaMKe/hJ8TLLbOW5pVRykX80FaaHyJdG8ak=",
+        "originContent": "- ✅ IoC Container",
+        "translatedContent": "- ✅ Framework AOP"
+      },
+      {
+        "row": 12,
+        "rowsha": "AmMgQb72mZZSS3xueD+GQq3XpIZhhuRUVmAhLap1Ty0=",
+        "originContent": "- ✅ AOP Framework",
+        "translatedContent": "- ✅ Ciclo de Vida del Bean"
+      },
+      {
+        "row": 13,
+        "rowsha": "CGX0RsN9pxLtvts1GzbDL7ZoGfbfG3Gos59TT8MYGqg=",
+        "originContent": "- ✅ Bean Lifecycle",
+        "translatedContent": "- ✅ Gestión de Recursos"
+      },
+      {
+        "row": 14,
+        "rowsha": "+BSkDrJGBLbHDNUcT506Xj5W3TEa9LkHljs6cpicXiY=",
+        "originContent": "- ✅ Resource Management",
+        "translatedContent": "- ✅ Sistema de Eventos"
+      },
+      {
+        "row": 15,
+        "rowsha": "s8OMI7ZlnezsD8P/cSBqeb5J0zQLVk2XhBNSp5rNtWQ=",
+        "originContent": "- ✅ Event System",
+        "translatedContent": "- ✅ Conversión de Tipos"
+      },
+      {
+        "row": 16,
+        "rowsha": "zp3GDzHtNJmskRa6XWKhWde9YW5qlmoSKLlBoPAOOCo=",
+        "originContent": "- ✅ Type Conversion",
+        "translatedContent": "- ✅ Configuración XML"
+      },
+      {
+        "row": 17,
+        "rowsha": "mL7YEC0rJowVfo2KsXt3QPFt+Q+R29OIC37drMh+7Eo=",
+        "originContent": "- ✅ XML Configuration",
+        "translatedContent": "- ✅ Resolución de Dependencias Circulares"
+      },
+      {
+        "row": 18,
+        "rowsha": "nsEsLjoD+0Pbie4rBv+rdynD0a5qgEmFypkeC3+sCXk=",
+        "originContent": "- ✅ Circular Dependency Resolution",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "row": 1,
+    "rowsha": "cYguAOEoxyT9p8SdqIZmPXf6uxOueNodDhwR4P/h6Ds=",
+    "originContent": "## Антиспам для телеграма",
+    "translatedContent": "## 텔레그램용 안티스팸"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "5V+KkpTNBXZJvTe12aBot1YeGZAwTUadO/q6Cziz+2Y=",
+    "originContent": "Изначально разрабатывался чтобы решить проблему со спамерами в чатах Вастрик.Клуба, но может использоваться и в чатах других форков, да и просто в любых больших чатах.",
+    "translatedContent": "원래는 바스트릭 클럽 채팅의 스패머 문제를 해결하기 위해 개발되었지만, 다른 포크 채팅이나 단순히 큰 채팅방 어디서나 사용할 수 있습니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "2Gwf6sJtTbo8s3twyZ+YkXFzGTfJXeNiq7EJmtEQnh4=",
+    "originContent": "### Принцип работы",
+    "translatedContent": "### 작동 원리"
+  },
+  {
+    "row": 6,
+    "rowsha": "8BZ+w9VpdFZIyUGQarUxTjHqOui7VJu10xx+KXFC24g=",
+    "originContent": "- Пользователи Клуба с привязанным ботом автоматически добавляются в доверенные",
+    "translatedContent": "- 봇이 연결된 클럽 사용자는 자동으로 신뢰 목록에 추가됩니다."
+  },
+  {
+    "row": 7,
+    "rowsha": "4WqHYMfgBQBf1b0i4t9sDuTEoor+dFq2AK+zSxZ6v8Q=",
+    "originContent": "- При эвенте \"пользователь вошёл в чат\" выдаётся простенькая капча",
+    "translatedContent": "- \"사용자가 채팅에 입장함\" 이벤트 시 간단한 캡차가 발급됩니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "C36TtHNuvlbhzAlOLjTGXLDE/zc2/ySffeAQHAlscC8=",
+    "originContent": "- Если пользователь уже в доверенных, то все проверки пропускаются",
+    "translatedContent": "- 사용자가 이미 신뢰 목록에 있으면 모든 검사가 생략됩니다."
+  },
+  {
+    "row": 9,
+    "rowsha": "3cTPUMN9opFJ/Iv+wTkc73qtaMXryX0D1ntK+ESaD78=",
+    "originContent": "- Если пользователь в известных списках спамеров - нафиг",
+    "translatedContent": "- 사용자가 알려진 스패머 목록에 있으면 차단됩니다."
+  },
+  {
+    "row": 10,
+    "rowsha": "/e+yEdsdU5BAhljvm3tqopfcr3ExfPxTlBesuZuXHiA=",
+    "originContent": "- Если в сообщении многовато эмодзи - нафиг",
+    "translatedContent": "- 메시지에 이모지가 너무 많으면 차단됩니다."
+  },
+  {
+    "row": 11,
+    "rowsha": "trDN86Q3plAKeoF2GViXMz0FD28nK0zGFbNV+9ckp+w=",
+    "originContent": "- Если в сообщении есть слова, которые маскируются под русские но имеют английские буквы внутри - нафиг. Именно этот аспект сейчас затюнен в основном на русскоязычные чаты и может сработать на нормальные слова из языков которые пишутся кириллицей, но пока что все известные кейсы добавлены в тесты.",
+    "translatedContent": "- 메시지에 러시아어처럼 보이지만 영어 문자가 섞인 단어가 있으면 차단됩니다. 이 부분은 주로 러시아어 채팅에 맞춰 조정되었으며, 키릴 문자로 쓰인 정상 단어에 오작동할 수 있으나 알려진 모든 사례는 테스트에 포함되어 있습니다."
+  },
+  {
+    "row": 12,
+    "rowsha": "jEE6ACrsScDPYEgmJ2DFUUUYT2E05Qhzm9WtIhxZWWo=",
+    "originContent": "- Если в сообщении есть стоп-слова типа \"заработок в сети\" - нафиг",
+    "translatedContent": "- \"온라인 수입\"과 같은 스팸 단어가 있으면 차단됩니다."
+  },
+  {
+    "row": 13,
+    "rowsha": "gNHGiH3JPat58Ek2r5Axrl6CL1zIxycowP0J9ZVFhVA=",
+    "originContent": "- Дальше сообщение очищается от эмодзи, пунктуации, диакритиков и скармливается ML. Если ML считает что спам - нафиг.",
+    "translatedContent": "- 이후 메시지에서 이모지, 구두점, 발음 구별 부호를 제거하고 ML에 입력합니다. ML이 스팸으로 판단하면 차단됩니다."
+  },
+  {
+    "row": 14,
+    "rowsha": "oPxwNm9OHMwN5JNeReZhNpv46sNaFgN25eWaYy9Y84w=",
+    "originContent": "- Если пользователь написал несколько нормальных сообщений, он добавляется в доверенные - спамеры крайне редко \"втираются в доверие\" и обычно выдают всё первым-вторым сообщением",
+    "translatedContent": "- 사용자가 여러 정상 메시지를 작성하면 신뢰 목록에 추가됩니다. 스패머는 거의 신뢰를 얻지 못하며 보통 첫두 메시지에서 드러납니다."
+  },
+  {
+    "row": 15,
+    "rowsha": "bhKLFWH27p3rGA31yo+DBVGiiq4bDtepo7gCTIlscr4=",
+    "originContent": "- Автоматически бот только удаляет сообщения, банятся пользователи только вручную из админки чтобы снизить урон ложнопозитивных срабатываний",
+    "translatedContent": "- 봇은 자동으로 메시지만 삭제하며, 사용자는 관리 패널에서 수동으로 차단하여 오탐 피해를 줄입니다."
+  },
+  {
+    "row": 16,
+    "rowsha": "LuTggm5elcLspndQyJfrCKJKxC9eDUXNrhmo1YYtQUw=",
+    "originContent": "- - Кроме блеклиста. Такие банятся сразу, но это можно выключить",
+    "translatedContent": "- - 블랙리스트 제외. 블랙리스트 사용자는 즉시 차단되며, 이 기능은 비활성화할 수 있습니다."
+  },
+  {
+    "row": 17,
+    "rowsha": "7vQ/pGFbqBRcwDKWjdv/U4UTRoFM3Zra16tB/ZAvR0g=",
+    "originContent": "- Если кого-то в чате забанил не бот, в админку приходит уведомление, возможно бот пропустил спам и его стоит добавить в датасет",
+    "translatedContent": "- 봇이 아닌 누군가 채팅에서 사용자를 차단하면, 관리 패널에 알림이 오며 봇이 스팸을 놓쳤을 수 있어 데이터셋에 추가할 수 있습니다."
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "bjmEaS0N4RkZUQINsqc+Wkg6qcFxdMOCMHsWi9SNNBM=",
+    "originContent": "### Команды админки",
+    "translatedContent": "### 관리자 명령어"
+  },
+  {
+    "row": 20,
+    "rowsha": "QZGClBBtJaNqIHjwp/lTk0d3s9uMyNmB+iHpDjvZTEA=",
+    "originContent": "Все команды вызываются реплаем на другое сообщение",
+    "translatedContent": "모든 명령어는 다른 메시지에 답글로 호출됩니다."
+  },
+  {
+    "row": 21,
+    "rowsha": "yKTOkW8X/hUG/WvYmJreXtf9eYgt0JLlZ4WN4f1od+A=",
+    "originContent": "- /spam - добавляет сообщение в датасет спама",
+    "translatedContent": "- /spam - 메시지를 스팸 데이터셋에 추가합니다."
+  },
+  {
+    "row": 22,
+    "rowsha": "u8vlnYmDyar7H+gyxM9oo5o4ZGr2lLv3GElRVwVNm0A=",
+    "originContent": "- /ham - добавляет сообщение в датасет не-спама",
+    "translatedContent": "- /ham - 메시지를 비스팸 데이터셋에 추가합니다."
+  },
+  {
+    "row": 23,
+    "rowsha": "1irwS9ZsLIutWVktevGmDoC51ixl75f5q4CXI5hOqpU=",
+    "originContent": "- /check - прогоняет сообщение через все проверки",
+    "translatedContent": "- /check - 메시지를 모든 검사에 통과시킵니다."
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "dDGAMf7AOfRD4vzK5fG4uI7ijryALf3qoCPidYpI3XU=",
+    "originContent": "### Конфиг",
+    "translatedContent": "### 설정"
+  },
+  {
+    "row": 26,
+    "rowsha": "Dk9ojCiwNplczt2SnxH4ovy7I/JorJknzHAB0qsSjPc=",
+    "originContent": "Создаём чат-админку, запоминаем ID.",
+    "translatedContent": "관리자 채팅을 만들고 ID를 기억합니다."
+  },
+  {
+    "row": 27,
+    "rowsha": "7cLK8jidsTfzxlw9xN1Je+cP7gCPUlO/Z29jmeqTQkE=",
+    "originContent": "Переменные среды:",
+    "translatedContent": "환경 변수:"
+  },
+  {
+    "row": 28,
+    "rowsha": "hqxXERNskYD4OCSHSOlo4IAjKogNCajhfBX3MfHIEhI=",
+    "originContent": "- DOORMAN_BOT_API: Токен телеграм бота. Обязательно",
+    "translatedContent": "- DOORMAN_BOT_API: 텔레그램 봇 토큰. 필수"
+  },
+  {
+    "row": 29,
+    "rowsha": "fbqA5bFyMAabmWfP8h8lOE46ZL64JKsQAqSa7wodSto=",
+    "originContent": "- DOORMAN_ADMIN_CHAT: ID чата админки. Обязательно",
+    "translatedContent": "- DOORMAN_ADMIN_CHAT: 관리자 채팅 ID. 필수"
+  },
+  {
+    "row": 30,
+    "rowsha": "4w/CfvOw4h2NIo6jyi69pZMTW8F0GvYlUsDbWwJmntE=",
+    "originContent": "- DOORMAN_CLUB_SERVICE_TOKEN: Сервис токен для Клуба, создаётся тут: https://vas3k.club/apps/. Если переменная не задана, автоматический аппрув людей из Клуба пропускается.",
+    "translatedContent": "- DOORMAN_CLUB_SERVICE_TOKEN: 클럽 서비스 토큰, https://vas3k.club/apps/ 에서 생성. 설정하지 않으면 클럽 사용자의 자동 승인 생략됨."
+  },
+  {
+    "row": 31,
+    "rowsha": "eD9Da6UTvoRAxSyUGrOllJLUPP5Ijjx/IvkLE/swIwE=",
+    "originContent": "- DOORMAN_CLUB_URL: Базовый URL для форков Клуба, например https://rationalanswer.club/",
+    "translatedContent": "- DOORMAN_CLUB_URL: 클럽 포크의 기본 URL, 예: https://rationalanswer.club/"
+  },
+  {
+    "row": 32,
+    "rowsha": "ONk1SDK3adOzWG46AEy3Gv09aPECAE+Xb8kfdPJ04oc=",
+    "originContent": "- DOORMAN_BLACKLIST_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил людей (не из Клуба, не approved, из блеклиста) при заходе сразу",
+    "translatedContent": "- DOORMAN_BLACKLIST_AUTOBAN_DISABLE: true 또는 1로 설정하면 봇이 블랙리스트(클럽 비회원, 승인 안 된 사용자) 사용자 즉시 차단하지 않음."
+  },
+  {
+    "row": 33,
+    "rowsha": "Dxlcv+yA8JMwUjso9iThGofmCWXooOmNAI16lzzXxiE=",
+    "originContent": "- DOORMAN_LOW_CONFIDENCE_HAM_ENABLE: Установить в true или 1 чтобы отсылать в админку не-спам который имеет низкий конфиденс скор, полезно для чатов где спамеры постоянно проверяют качество ML на прочность",
+    "translatedContent": "- DOORMAN_LOW_CONFIDENCE_HAM_ENABLE: true 또는 1로 설정하면 ML 신뢰도 낮은 비스팸 메시지를 관리자에게 보냄. 스패머가 ML 품질을 테스트하는 채팅에 유용."
+  },
+  {
+    "row": 34,
+    "rowsha": "GQ2pOmepEp7gEIgTKBGKFEAdXLfgrvWY42YLYZYWU40=",
+    "originContent": "- DOORMAN_CHANNELS_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения от имени каналов (кроме тех, которые привязаны к текущей группе)",
+    "translatedContent": "- DOORMAN_CHANNELS_AUTOBAN_DISABLE: true 또는 1로 설정하면 현재 그룹에 연결된 채널 제외하고 채널 메시지를 차단하지 않음."
+  },
+  {
+    "row": 35,
+    "rowsha": "RwXFYmocu4ceUC2HTnh6jAPHPcxPpl2awbAQT8exwCI=",
+    "originContent": "- DOORMAN_APPROVE_BUTTON: Установить в true или 1 чтобы к каждому удалённому сообщению добавлялась опция \"это свой, знакомый, завсегдатай\"",
+    "translatedContent": "- DOORMAN_APPROVE_BUTTON: true 또는 1로 설정하면 삭제된 메시지마다 \"이 사람은 아는 사람, 단골\" 옵션이 추가됨."
+  },
+  {
+    "row": 36,
+    "rowsha": "fusvh9FRMqN4GXS8rz3k5jktqzGwTEhsOPRj73vFNaA=",
+    "originContent": "- DOORMAN_LOOKALIKE_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения где есть слова, маскирующиеся под русские",
+    "translatedContent": "- DOORMAN_LOOKALIKE_AUTOBAN_DISABLE: true 또는 1로 설정하면 러시아어처럼 보이는 단어가 있어도 차단하지 않음."
+  },
+  {
+    "row": 37,
+    "rowsha": "AjGk3Ce7HfJ0pIOXw6IX0VpvQkAwfZc2hCk6Y0FaOWg=",
+    "originContent": "- DOORMAN_BUTTON_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения где есть кнопки",
+    "translatedContent": "- DOORMAN_BUTTON_AUTOBAN_DISABLE: true 또는 1로 설정하면 버튼이 포함된 메시지를 차단하지 않음."
+  },
+  {
+    "row": 38,
+    "rowsha": "RwYx7TGulI+5G7eBUj3pUAhsDZJ5K25/Z/nO/qLuMtA=",
+    "originContent": "- DOORMAN_HIGH_CONFIDENCE_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения где ML-классификатор достаточно уверен в спаме",
+    "translatedContent": "- DOORMAN_HIGH_CONFIDENCE_AUTOBAN_DISABLE: true 또는 1로 설정하면 ML 분류기가 스팸으로 매우 확신하는 메시지도 차단하지 않음."
+  },
+  {
+    "row": 39,
+    "rowsha": "cGFOl31xbygof7y2sAorlSm/+ElC8a1kPfrLNIHonfU=",
+    "originContent": "- DOORMAN_CHANNEL_AUTOBAN_EXCLUSION: Через запятую группы в которых каналы не банятся",
+    "translatedContent": "- DOORMAN_CHANNEL_AUTOBAN_EXCLUSION: 채널이 차단되지 않는 그룹을 쉼표로 구분하여 설정."
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "vSQRxiCzS9qV5XJDUR1S/RUpPjjLp2II9x3VmAfZVW8=",
+    "originContent": "#### Спасибо",
+    "translatedContent": "#### 감사합니다"
+  },
+  {
+    "row": 42,
+    "rowsha": "MQo+0zl5KKGlgLSCltPH6mbmDHaCbj0Xbu9HEnExHZ4=",
+    "originContent": "- https://lols.bot/ за борьбу со спамерами и API для бан-листов",
+    "translatedContent": "- 스패머와의 싸움과 밴 목록 API 제공에 https://lols.bot/ 에 감사드립니다"
+  },
+  {
+    "row": 43,
+    "rowsha": "Jgllr7cDSn9nTPFdAaH+qqWLuLweZ8g0I5l1K/beD44=",
+    "originContent": "- https://github.com/umputun/tg-spam/ за некоторые идеи и три четверти датасета",
+    "translatedContent": "- 일부 아이디어와 데이터셋 4분의 3 제공에 https://github.com/umputun/tg-spam/ 에 감사드립니다"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "cK/xAvkAeEH5U7u/1XWPtXOothAfP9xDT6b2C+GkT7k=",
+    "originContent": "### Translation",
+    "translatedContent": "### 번역"
+  },
+  {
+    "row": 46,
+    "rowsha": "4z8xgciKvzHBWCPhbOqzm5F/X9tTwEoiHQml5P6s7MY=",
+    "originContent": "If you're willing to do the heavy lifting of translating all the text of this bot to other languages, please let me know first before running headfirst and creating a PR.",
+    "translatedContent": "이 봇의 모든 텍스트를 다른 언어로 번역하는 어려운 작업을 기꺼이 하실 경우, 무턱대고 PR을 생성하기 전에 먼저 알려주시기 바랍니다."
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

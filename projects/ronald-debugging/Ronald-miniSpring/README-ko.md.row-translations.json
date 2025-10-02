@@ -1,0 +1,698 @@
+[
+  {
+    "row": 1,
+    "rowsha": "eUHOTp8bL8oxMczBDDPM2W/wrlUVwReOgBRh5RhwGvE=",
+    "originContent": "# ronald-miniSpring Framework",
+    "translatedContent": "# ronald-miniSpring 프레임워크"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "ypLb8Y8HHLgc75O1C3ljrGTXEB8JSa6suRAOKVkv6ZE=",
+    "originContent": "A lightweight Spring framework implementation that demonstrates core Spring principles and mechanisms. This project extracts and simplifies Spring's essential features while maintaining its fundamental architecture, making it an excellent learning resource for understanding Spring's internals.",
+    "translatedContent": "경량화된 Spring 프레임워크 구현체로, 핵심 Spring 원리와 메커니즘을 시연합니다. 이 프로젝트는 Spring의 필수 기능을 추출하고 단순화하면서도 기본 아키텍처를 유지하여 Spring 내부 구조를 이해하는 데 훌륭한 학습 자료가 됩니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "0vAhKmXWDMjukIwL5SlQVUPpA0O/4mj+5Mh4JxRDWaA=",
+    "originContent": "## 🚀 Key Features",
+    "translatedContent": "## 🚀 주요 기능"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "ksnE1ssu1Xoe0tJ6gZ1CI2yT59KKpFgwcOCu04RsCsk=",
+    "originContent": "- **IoC Container**: Complete implementation of dependency injection and inversion of control",
+    "translatedContent": "- **IoC 컨테이너**: 의존성 주입과 제어의 역전을 완벽하게 구현"
+  },
+  {
+    "row": 8,
+    "rowsha": "g336I7nOK280geiBRejd2Mo1M6Qv76GYDDyZzi5bkyE=",
+    "originContent": "- **AOP Framework**: Aspect-oriented programming with support for method interception and enhancement",
+    "translatedContent": "- **AOP 프레임워크**: 메서드 가로채기 및 향상을 지원하는 관점 지향 프로그래밍"
+  },
+  {
+    "row": 9,
+    "rowsha": "k47xHG2i5ICv2XfF2bpb8jn2E+Vgz0XNXc4qRVH4pWk=",
+    "originContent": "- **Bean Lifecycle**: Comprehensive bean lifecycle management (instantiation, initialization, destruction)",
+    "translatedContent": "- **빈 라이프사이클**: 빈 생성, 초기화, 소멸 등 포괄적인 라이프사이클 관리"
+  },
+  {
+    "row": 10,
+    "rowsha": "jpR/lgjqqU8j2lU9Nrgce1sA1c/VjLJprOuQU0Q0zs8=",
+    "originContent": "- **Resource Management**: Flexible resource loading system supporting classpath and file system",
+    "translatedContent": "- **리소스 관리**: 클래스패스 및 파일 시스템을 지원하는 유연한 리소스 로딩 시스템"
+  },
+  {
+    "row": 11,
+    "rowsha": "QabhH89eCp+5sOebZpQzMCSkOv3KN1bDtt/h61G0zG4=",
+    "originContent": "- **Event System**: Publish-subscribe pattern implementation for application events",
+    "translatedContent": "- **이벤트 시스템**: 애플리케이션 이벤트를 위한 퍼블리시-서브스크라이브 패턴 구현"
+  },
+  {
+    "row": 12,
+    "rowsha": "fK5WUzEhFKuhF6kWNa/qjrfjHTFpcxMrY84ZHodcqNM=",
+    "originContent": "- **Type Conversion**: Robust type conversion system for basic and custom types",
+    "translatedContent": "- **타입 변환**: 기본 및 사용자 정의 타입을 위한 강력한 타입 변환 시스템"
+  },
+  {
+    "row": 13,
+    "rowsha": "g1DL1Jl6JI4B7idGvGgfpOM8UEAEv9ptqA85Q2GGeKw=",
+    "originContent": "- **XML Configuration**: Full XML configuration support with namespace handling",
+    "translatedContent": "- **XML 구성**: 네임스페이스 처리를 포함한 완전한 XML 구성 지원"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "kFSqUI2RP5FmrBAQXX6irex7jkbgkTmnTHF3ElupYos=",
+    "originContent": "## 💡 Technical Highlights",
+    "translatedContent": "## 💡 기술적 하이라이트"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "epamygvNn7TKzmAZACGXLqh7HBUVwzfiScjowj1+J6c=",
+    "originContent": "### 1. Circular Dependency Resolution",
+    "translatedContent": "### 1. 순환 의존성 해결"
+  },
+  {
+    "row": 18,
+    "rowsha": "H4gsHBx2SfAkEs7j5fwcuopjI8HR7zWGjAV6yB5gCGw=",
+    "originContent": "Implemented a sophisticated three-level cache mechanism to handle circular dependencies:",
+    "translatedContent": "순환 의존성을 처리하기 위해 정교한 3단계 캐시 메커니즘을 구현함:"
+  },
+  {
+    "row": 19,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 20,
+    "rowsha": "0+PNZDo3kck6Ecwl9+QlSfUDm1Ase8nfyiqvYLDfXcU=",
+    "originContent": "// Three-level cache structure",
+    "translatedContent": "// Three-level cache structure"
+  },
+  {
+    "row": 21,
+    "rowsha": "MpCxsglD3q5FHoLvr78QMe/AmdZNfyAeCL5eIXG9nB0=",
+    "originContent": "Map<String, Object> singletonObjects = new ConcurrentHashMap<>();      // Level 1: Fully initialized beans",
+    "translatedContent": "Map<String, Object> singletonObjects = new ConcurrentHashMap<>();      // Level 1: Fully initialized beans"
+  },
+  {
+    "row": 22,
+    "rowsha": "PqgwxOjR6Wo7GO09ca6KPI3S2Hs6BNnCd0I7Cv4J6bY=",
+    "originContent": "Map<String, Object> earlySingletonObjects = new HashMap<>();           // Level 2: Early exposed beans",
+    "translatedContent": "Map<String, Object> earlySingletonObjects = new HashMap<>();           // Level 2: Early exposed beans"
+  },
+  {
+    "row": 23,
+    "rowsha": "G5jYlcR5AaIR5nGSZiZAt7ZCSMW3RQWKBrqZBNz3QL4=",
+    "originContent": "Map<String, ObjectFactory<?>> singletonFactories = new HashMap<>();    // Level 3: Bean factories",
+    "translatedContent": "Map<String, ObjectFactory<?>> singletonFactories = new HashMap<>();    // Level 3: Bean factories"
+  },
+  {
+    "row": 24,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 2. AOP 구현"
+  },
+  {
+    "row": 26,
+    "rowsha": "AnmxT+qltn4dIBxvc0rlxVF3fSgzC/qXzcUg0qotPeU=",
+    "originContent": "### 2. AOP Implementation",
+    "translatedContent": "- JDK 및 CGLIB를 이용한 동적 프록시 생성"
+  },
+  {
+    "row": 27,
+    "rowsha": "UltMCdo0UpI79AKEzi8mu3GCoi4l7I14Eoc+p2ZqDv8=",
+    "originContent": "- Dynamic proxy generation using both JDK and CGLIB",
+    "translatedContent": "- AspectJ 포인트컷 표현식 지원"
+  },
+  {
+    "row": 28,
+    "rowsha": "8hDjeUuvdzCk8BzcOwVddCsqcjFJhwPpTTkIzvaHCcE=",
+    "originContent": "- Support for AspectJ pointcut expressions",
+    "translatedContent": "- 유연한 어드바이스 타입 (Before, After, Around)"
+  },
+  {
+    "row": 29,
+    "rowsha": "jCPvSthQeRHXKPcQ8f3FSB/CfqFT9pjgKlDAcuRs4ts=",
+    "originContent": "- Flexible advice types (Before, After, Around)",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 3. 빈 생명주기 관리"
+  },
+  {
+    "row": 31,
+    "rowsha": "FJ0qvtpndB24AxbjPsLMAFdq6flui7FLnSWOoFBUHa0=",
+    "originContent": "### 3. Bean Lifecycle Management",
+    "translatedContent": "- 완전한 생명주기 후크 (InitializingBean, DisposableBean)"
+  },
+  {
+    "row": 32,
+    "rowsha": "zw9NiKTABHkvuXTYR++0X1xxyEsiSX0UNt7awajsCaY=",
+    "originContent": "- Complete lifecycle hooks (InitializingBean, DisposableBean)",
+    "translatedContent": "- 커스터마이징을 위한 BeanPostProcessor 지원"
+  },
+  {
+    "row": 33,
+    "rowsha": "611a7gJ3IojhMRzeYnGWZusmRWJZcXM1AhSQRnQ/K10=",
+    "originContent": "- BeanPostProcessor support for customization",
+    "translatedContent": "- Aware 인터페이스 계열 구현"
+  },
+  {
+    "row": 34,
+    "rowsha": "Tu8ddrkncmzUsD2TVz43so9VvpRc6ooRFyJwH26iKYc=",
+    "originContent": "- Aware interface family implementation",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🛠️ 기술 스택"
+  },
+  {
+    "row": 36,
+    "rowsha": "C7da05xtiBkDDLHHx7/xj6ezavbskMyMuV/BqhlRzXw=",
+    "originContent": "## 🛠️ Technical Stack",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **언어**: Java 17"
+  },
+  {
+    "row": 38,
+    "rowsha": "F9t3gBWATE+w95JnWK7bJ53c62lCf1AqAyQF8Lmrzhg=",
+    "originContent": "- **Language**: Java 17",
+    "translatedContent": "- **빌드 도구**: Maven 3.8.1"
+  },
+  {
+    "row": 39,
+    "rowsha": "8gaG5USUYUWFo34X8S5ON+wJ+7CGE7aAbG12UmSPLnY=",
+    "originContent": "- **Build Tool**: Maven 3.8.1",
+    "translatedContent": "- **테스트**: JUnit 5"
+  },
+  {
+    "row": 40,
+    "rowsha": "qhg2mTdoKHkdp1ydHV7RoTaECFmeLvn1SS5V0jxUwV0=",
+    "originContent": "- **Testing**: JUnit 5",
+    "translatedContent": "- **의존성**:"
+  },
+  {
+    "row": 41,
+    "rowsha": "WtqHXjQ9JwWYF/5s8iI2eVr/eGAG1aRWeH10Azp43E4=",
+    "originContent": "- **Dependencies**:",
+    "translatedContent": "  - XML 파싱용 DOM4J"
+  },
+  {
+    "row": 42,
+    "rowsha": "JEEitD+O+PIc6Fx/bD8biMDhaWXOW55xtgDWVh438hA=",
+    "originContent": "  - DOM4J for XML parsing",
+    "translatedContent": "  - AOP 프록시용 CGLIB"
+  },
+  {
+    "row": 43,
+    "rowsha": "lK9IZ3yb/tiNYeR2DsizYuvsyLbWMwXiS1IENAxcvnc=",
+    "originContent": "  - CGLIB for AOP proxy",
+    "translatedContent": "  - 포인트컷 표현식용 AspectJ"
+  },
+  {
+    "row": 44,
+    "rowsha": "w2HjwAJeR22/+hFgBqfydX2ArdIBdbfbKni3nv0my+s=",
+    "originContent": "  - AspectJ for pointcut expressions",
+    "translatedContent": "  - 로깅용 Logback"
+  },
+  {
+    "row": 45,
+    "rowsha": "/d6l0T5ch2vuNOPUdIhpltVKd77j1sffRvP8Zz8WiOo=",
+    "originContent": "  - Logback for logging",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📋 프로젝트 구조"
+  },
+  {
+    "row": 47,
+    "rowsha": "zfaZHemlR3xhcEFAMcxg176G6DlEvTCt33LssovuxBU=",
+    "originContent": "## 📋 Project Structure",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "IyZ9Ni9iRdTC1iwLQy2SPRaLKnK85gUH5Yq0BW23YEU=",
+    "originContent": "src/main/java/com/minispring/",
+    "translatedContent": "src/main/java/com/minispring/"
+  },
+  {
+    "row": 51,
+    "rowsha": "W6KUm/K5MgFNuTfoa33+humkAAHSk2nP9bf/sVnS0dU=",
+    "originContent": "├── beans/          # IoC container implementation",
+    "translatedContent": "├── beans/          # IoC container implementation"
+  },
+  {
+    "row": 52,
+    "rowsha": "K/mBWLy+M1PO6BnG+M+rVfYdVEDIBzNftlMUGqMWL1w=",
+    "originContent": "├── context/        # Application context and event system",
+    "translatedContent": "├── context/        # Application context and event system"
+  },
+  {
+    "row": 53,
+    "rowsha": "AhU9RcJcQbMwwHYloxf1oc4H/cK/KBGmGcXqtiJbbg4=",
+    "originContent": "├── core/           # Core utilities and type conversion",
+    "translatedContent": "├── core/           # Core utilities and type conversion"
+  },
+  {
+    "row": 54,
+    "rowsha": "4twnMnoyi9puN/CY4p96WjnnBNz44UyhAjYf1aIADX8=",
+    "originContent": "├── aop/            # AOP framework implementation",
+    "translatedContent": "├── aop/            # AOP framework implementation"
+  },
+  {
+    "row": 55,
+    "rowsha": "J64w7V8q1n9tdkz8DSck/ahWVPBoUU5iuW7Rw7mI23E=",
+    "originContent": "└── web/            # Web-specific features",
+    "translatedContent": "└── web/            # Web-specific features"
+  },
+  {
+    "row": 56,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🎯 구현 세부 사항"
+  },
+  {
+    "row": 58,
+    "rowsha": "MrWkga484VbSPna0B2/E64cz57qLVRyNIJZaxqBS/rs=",
+    "originContent": "## 🎯 Implementation Details",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### IoC 컨테이너"
+  },
+  {
+    "row": 60,
+    "rowsha": "Ms74jLyI7qpO0vRQzi9a7Z6Y1E1WnX78LrtKsIc37NM=",
+    "originContent": "### IoC Container",
+    "translatedContent": "- 빈 정의 및 등록 시스템"
+  },
+  {
+    "row": 61,
+    "rowsha": "xJEcMCculysE8OKVQqUAQ9J1x2f+T7YJVC9+2BvLi1E=",
+    "originContent": "- Bean definition and registration system",
+    "translatedContent": "- 의존성 주입(생성자 및 세터)"
+  },
+  {
+    "row": 62,
+    "rowsha": "6ynzBhPKqHI8PuonyiZDv4/oJgfo40y2rzqxA/N8C7M=",
+    "originContent": "- Dependency injection (constructor and setter)",
+    "translatedContent": "- 빈 스코프 관리(싱글톤, 프로토타입)"
+  },
+  {
+    "row": 63,
+    "rowsha": "wKKGTc6R3N7b7LMKzmEMi/DEX4i4CbcjtEduSfgDIZY=",
+    "originContent": "- Bean scope management (singleton, prototype)",
+    "translatedContent": "- 프로퍼티 값 처리"
+  },
+  {
+    "row": 64,
+    "rowsha": "S4KafLv+oYWEuNHPrO86UrI9Y/ldun9oa2HhgkgSnJo=",
+    "originContent": "- Property value handling",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### AOP 프레임워크"
+  },
+  {
+    "row": 66,
+    "rowsha": "NcWH0PguIa2wIWwXJEXX7Jc3nw38nJOtsBTRfTKqdds=",
+    "originContent": "### AOP Framework",
+    "translatedContent": "- 포인트컷 표현식 파싱"
+  },
+  {
+    "row": 67,
+    "rowsha": "UC3l78HKWwyFNm3mEk5d6scDSXh1xPukNpHKynr8zTA=",
+    "originContent": "- Pointcut expression parsing",
+    "translatedContent": "- 동적 프록시 생성"
+  },
+  {
+    "row": 68,
+    "rowsha": "3r8Zf3GpJpH/P6s8jsxZp0EYV6llPdeQb6e4Rzx5fhI=",
+    "originContent": "- Dynamic proxy generation",
+    "translatedContent": "- 메서드 가로채기 및 향상"
+  },
+  {
+    "row": 69,
+    "rowsha": "tFBDu70cHcC5tzzNFzeQYR8fHKgpLJq8UboStMk6faI=",
+    "originContent": "- Method interception and enhancement",
+    "translatedContent": "- AspectJ 통합"
+  },
+  {
+    "row": 70,
+    "rowsha": "xP9b+sIdiH7qnBZ/RMGJkyIW8xVyBe1Ek29icsC7L+Y=",
+    "originContent": "- AspectJ integration",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 리소스 관리"
+  },
+  {
+    "row": 72,
+    "rowsha": "wS3bhviBt+UMoT2iRZ/FQqcOZJiA13oBhbzUC+FZepE=",
+    "originContent": "### Resource Management",
+    "translatedContent": "- 통합 리소스 추상화"
+  },
+  {
+    "row": 73,
+    "rowsha": "zPazF6jgvdOf3KUf0MmkQdfogm/ivRvQyD6btHWIVDs=",
+    "originContent": "- Unified resource abstraction",
+    "translatedContent": "- 클래스패스 및 파일 시스템 지원"
+  },
+  {
+    "row": 74,
+    "rowsha": "IAz+W3v8FA7QvZG7mYwmvChoQ+um/w2vGOoCYyTqu28=",
+    "originContent": "- Classpath and file system support",
+    "translatedContent": "- 리소스 로딩 전략"
+  },
+  {
+    "row": 75,
+    "rowsha": "a08duzD/q5s5E4AiroQk2O/sh/jqIrorZhnjbLSeDEw=",
+    "originContent": "- Resource loading strategies",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🏗️ 아키텍처"
+  },
+  {
+    "row": 77,
+    "rowsha": "j7Qa/uOwz3Ij+Hnjokg/zzgtLQPmUlHkOFaMDL3tEog=",
+    "originContent": "## 🏗️ Architecture",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "프레임워크는 관심사의 명확한 분리를 가진 모듈형 아키텍처를 따릅니다:"
+  },
+  {
+    "row": 79,
+    "rowsha": "ELFoYlDARJLogolxSuYMtPpoOLy2Bu0CR0Qj3fJzEzQ=",
+    "originContent": "The framework follows a modular architecture with clear separation of concerns:",
+    "translatedContent": "1. **코어 컨테이너**: 빈과 그 의존성을 관리"
+  },
+  {
+    "row": 80,
+    "rowsha": "S0N3TxBw9GhJMQtZ3F8MwH8uXqo6c9qG8dLJGG2BhVw=",
+    "originContent": "1. **Core Container**: Manages beans and their dependencies",
+    "translatedContent": "2. **AOP 모듈**: 관점 지향 프로그래밍 처리"
+  },
+  {
+    "row": 81,
+    "rowsha": "ZTOdt3gifZh2XC99hYHHRVdn6NdcBamHKPE2j730pqc=",
+    "originContent": "2. **AOP Module**: Handles aspect-oriented programming",
+    "translatedContent": "3. **컨텍스트 모듈**: 애플리케이션 컨텍스트 및 이벤트 시스템 제공"
+  },
+  {
+    "row": 82,
+    "rowsha": "lrN8gE0t3hqzpZxItJgMAYHX7zgcbvmXSWGjR6wFP2c=",
+    "originContent": "3. **Context Module**: Provides application context and event system",
+    "translatedContent": "4. **리소스 모듈**: 리소스 로딩 및 접근 관리"
+  },
+  {
+    "row": 83,
+    "rowsha": "8AMaIheJZmcZY1MAhz4a64gR6DPdiCfNjBJ9NzIZBKI=",
+    "originContent": "4. **Resource Module**: Manages resource loading and access",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🚀 시작하기"
+  },
+  {
+    "row": 85,
+    "rowsha": "aKVJgV9gnSk4MAp/Su+G/EZ8/96Lvx8p89GEoOBOwkQ=",
+    "originContent": "## 🚀 Getting Started",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 88,
+    "rowsha": "vcegP1O5Wi602xAmQfzQtagZ/FNC0twX8fgwLKDkTWs=",
+    "originContent": "# Clone the project",
+    "translatedContent": "# Clone the project"
+  },
+  {
+    "row": 89,
+    "rowsha": "pJuiDHv95SVVIT5xNnepoesio80PDdTw6ej3m77u0EI=",
+    "originContent": "git clone https://github.com/ronald-debugging/Ronald-miniSpring.git",
+    "translatedContent": "git clone https://github.com/ronald-debugging/Ronald-miniSpring.git"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "p4PyNwU9gtas4o0naPJERS2UODNwUmldWCpsuCDcKhA=",
+    "originContent": "# Build the project",
+    "translatedContent": "# Build the project"
+  },
+  {
+    "row": 92,
+    "rowsha": "sPMwpBw3VSmmefLPdISc8JgxSg7HNSLJtowN65WnZ74=",
+    "originContent": "mvn clean install",
+    "translatedContent": "mvn clean install"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "tHNnyKNSkagtJZOFqKnkFV8ViCmgW+rly9Ij4SArNr4=",
+    "originContent": "# Run tests",
+    "translatedContent": "# Run tests"
+  },
+  {
+    "row": 95,
+    "rowsha": "qsV4MQIHqgL6bFk4VkA5jg+5+sNMeMtTW+sQeZwboh0=",
+    "originContent": "mvn test",
+    "translatedContent": "mvn test"
+  },
+  {
+    "row": 96,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📚 학습 자료"
+  },
+  {
+    "row": 98,
+    "rowsha": "Z92SMUK5ouMhsXZptcbom9ALkMWuIpkHeHJuQhH7WSQ=",
+    "originContent": "## 📚 Learning Resources",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 스프링 프레임워크 공식 문서"
+  },
+  {
+    "row": 100,
+    "rowsha": "RQnRVlxkAJ/G5oZRSVbiRSzsWOsVFOxfHPTHDMyhnqA=",
+    "originContent": "- Spring Framework Official Documentation",
+    "translatedContent": "- \"스프링 리빌드\""
+  },
+  {
+    "row": 101,
+    "rowsha": "83PpzT0+YXDAvAQKiZ2JvSSAZ7nsUCnZed2J6LhSlbc=",
+    "originContent": "- \"Spring Revealed\"",
+    "translatedContent": "- \"스프링 소스 코드 심층 분석\""
+  },
+  {
+    "row": 102,
+    "rowsha": "yn+z4Gt8lWL8RUbPFbQlOzBty1oVfyr0vxdrUE9HcQQ=",
+    "originContent": "- \"Spring Source Code Deep Analysis\"",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🔄 현재 상태"
+  },
+  {
+    "row": 104,
+    "rowsha": "cN+rDB9GWW89lthn21QLOugu6kNKzD5kGqgfMbMv8XQ=",
+    "originContent": "## 🔄 Current Status",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "모든 핵심 기능이 구현되고 테스트되었습니다:"
+  },
+  {
+    "row": 106,
+    "rowsha": "1xQiD4sL0rD8gQYpCCexnx6GetCwAZM7H1kmSEVUM3k=",
+    "originContent": "All core features have been implemented and tested:",
+    "translatedContent": "- ✅ IoC 컨테이너"
+  },
+  {
+    "row": 107,
+    "rowsha": "xpTQ/m//vaMKe/hJ8TLLbOW5pVRykX80FaaHyJdG8ak=",
+    "originContent": "- ✅ IoC Container",
+    "translatedContent": "- ✅ AOP 프레임워크"
+  },
+  {
+    "row": 108,
+    "rowsha": "AmMgQb72mZZSS3xueD+GQq3XpIZhhuRUVmAhLap1Ty0=",
+    "originContent": "- ✅ AOP Framework",
+    "translatedContent": "- ✅ 빈 라이프사이클"
+  },
+  {
+    "row": 109,
+    "rowsha": "CGX0RsN9pxLtvts1GzbDL7ZoGfbfG3Gos59TT8MYGqg=",
+    "originContent": "- ✅ Bean Lifecycle",
+    "translatedContent": "- ✅ 리소스 관리"
+  },
+  {
+    "row": 110,
+    "rowsha": "+BSkDrJGBLbHDNUcT506Xj5W3TEa9LkHljs6cpicXiY=",
+    "originContent": "- ✅ Resource Management",
+    "translatedContent": "- ✅ 이벤트 시스템"
+  },
+  {
+    "row": 111,
+    "rowsha": "s8OMI7ZlnezsD8P/cSBqeb5J0zQLVk2XhBNSp5rNtWQ=",
+    "originContent": "- ✅ Event System",
+    "translatedContent": "- ✅ 타입 변환"
+  },
+  {
+    "row": 112,
+    "rowsha": "zp3GDzHtNJmskRa6XWKhWde9YW5qlmoSKLlBoPAOOCo=",
+    "originContent": "- ✅ Type Conversion",
+    "translatedContent": "- ✅ XML 설정"
+  },
+  {
+    "row": 113,
+    "rowsha": "mL7YEC0rJowVfo2KsXt3QPFt+Q+R29OIC37drMh+7Eo=",
+    "originContent": "- ✅ XML Configuration",
+    "translatedContent": "- ✅ 순환 의존성 해결"
+  },
+  {
+    "row": 114,
+    "rowsha": "nsEsLjoD+0Pbie4rBv+rdynD0a5qgEmFypkeC3+sCXk=",
+    "originContent": "- ✅ Circular Dependency Resolution",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

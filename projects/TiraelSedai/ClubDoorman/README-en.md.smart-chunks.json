@@ -1,0 +1,316 @@
+[
+  {
+    "Id": 1,
+    "Content": "## Антиспам для телеграма\n\nИзначально разрабатывался чтобы решить проблему со спамерами в чатах Вастрик.Клуба, но может использоваться и в чатах других форков, да и просто в любых больших чатах.\n\n### Принцип работы\n- Пользователи Клуба с привязанным ботом автоматически добавляются в доверенные\n- При эвенте \"пользователь вошёл в чат\" выдаётся простенькая капча\n- Если пользователь уже в доверенных, то все проверки пропускаются\n- Если пользователь в известных списках спамеров - нафиг\n- Если в сообщении многовато эмодзи - нафиг\n- Если в сообщении есть слова, которые маскируются под русские но имеют английские буквы внутри - нафиг. Именно этот аспект сейчас затюнен в основном на русскоязычные чаты и может сработать на нормальные слова из языков которые пишутся кириллицей, но пока что все известные кейсы добавлены в тесты.\n- Если в сообщении есть стоп-слова типа \"заработок в сети\" - нафиг\n- Дальше сообщение очищается от эмодзи, пунктуации, диакритиков и скармливается ML. Если ML считает что спам - нафиг.\n- Если пользователь написал несколько нормальных сообщений, он добавляется в доверенные - спамеры крайне редко \"втираются в доверие\" и обычно выдают всё первым-вторым сообщением\n- Автоматически бот только удаляет сообщения, банятся пользователи только вручную из админки чтобы снизить урон ложнопозитивных срабатываний\n- - Кроме блеклиста. Такие банятся сразу, но это можно выключить\n- Если кого-то в чате забанил не бот, в админку приходит уведомление, возможно бот пропустил спам и его стоит добавить в датасет\n\n### Команды админки\nВсе команды вызываются реплаем на другое сообщение\n- /spam - добавляет сообщение в датасет спама\n- /ham - добавляет сообщение в датасет не-спама\n- /check - прогоняет сообщение через все проверки\n\n### Конфиг\nСоздаём чат-админку, запоминаем ID.\nПеременные среды:\n- DOORMAN_BOT_API: Токен телеграм бота. Обязательно\n- DOORMAN_ADMIN_CHAT: ID чата админки. Обязательно\n- DOORMAN_CLUB_SERVICE_TOKEN: Сервис токен для Клуба, создаётся тут: https://vas3k.club/apps/. Если переменная не задана, автоматический аппрув людей из Клуба пропускается.\n- DOORMAN_CLUB_URL: Базовый URL для форков Клуба, например https://rationalanswer.club/\n- DOORMAN_BLACKLIST_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил людей (не из Клуба, не approved, из блеклиста) при заходе сразу\n- DOORMAN_LOW_CONFIDENCE_HAM_ENABLE: Установить в true или 1 чтобы отсылать в админку не-спам который имеет низкий конфиденс скор, полезно для чатов где спамеры постоянно проверяют качество ML на прочность\n- DOORMAN_CHANNELS_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения от имени каналов (кроме тех, которые привязаны к текущей группе)\n- DOORMAN_APPROVE_BUTTON: Установить в true или 1 чтобы к каждому удалённому сообщению добавлялась опция \"это свой, знакомый, завсегдатай\"\n- DOORMAN_LOOKALIKE_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения где есть слова, маскирующиеся под русские\n- DOORMAN_BUTTON_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения где есть кнопки\n- DOORMAN_HIGH_CONFIDENCE_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения где ML-классификатор достаточно уверен в спаме\n- DOORMAN_CHANNEL_AUTOBAN_EXCLUSION: Через запятую группы в которых каналы не банятся\n",
+    "ContentSha": "VZfDp14+GNQFDAgC10vzRTjr4kt9uW1IUAtNtKUu8UA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Anti-spam for Telegram\n\nOriginally developed to solve the problem with spammers in the Vastik.Club chats, but can also be used in chats of other forks, as well as in any large chats.\n\n### How it works\n- Club users with a linked bot are automatically added to trusted\n- On the \"user joined the chat\" event, a simple captcha is issued\n- If the user is already in trusted, all checks are skipped\n- If the user is in known spammer lists - no way\n- If there are too many emojis in the message - no way\n- If the message contains words that look like Russian but have English letters inside - no way. This aspect is currently mainly tuned for Russian-speaking chats and may trigger on normal words from languages written in Cyrillic, but so far all known cases are added to tests.\n- If the message contains stop words like \"earning online\" - no way\n- Then the message is cleaned of emojis, punctuation, diacritics and fed to ML. If ML thinks it’s spam - no way.\n- If the user wrote several normal messages, they are added to trusted - spammers rarely “gain trust” and usually reveal themselves in the first or second message\n- The bot automatically only deletes messages; users are banned only manually from the admin panel to reduce damage from false positives\n- - Except blacklist. Such users are banned immediately, but this can be disabled\n- If someone in the chat is banned not by the bot, a notification arrives in the admin panel, possibly the bot missed spam and it should be added to the dataset\n\n### Admin commands\nAll commands are called by replying to another message\n- /spam - adds the message to the spam dataset\n- /ham - adds the message to the non-spam dataset\n- /check - runs the message through all checks\n\n### Config\nCreate an admin chat, remember its ID.\nEnvironment variables:\n- DOORMAN_BOT_API: Telegram bot token. Required\n- DOORMAN_ADMIN_CHAT: Admin chat ID. Required\n- DOORMAN_CLUB_SERVICE_TOKEN: Service token for the Club, created here: https://vas3k.club/apps/. If the variable is not set, automatic approval of people from the Club is skipped.\n- DOORMAN_CLUB_URL: Base URL for Club forks, for example https://rationalanswer.club/\n- DOORMAN_BLACKLIST_AUTOBAN_DISABLE: Set to true or 1 to prevent the bot from banning people (not from the Club, not approved, from blacklist) immediately upon joining\n- DOORMAN_LOW_CONFIDENCE_HAM_ENABLE: Set to true or 1 to send to admin panel non-spam messages with low confidence score, useful for chats where spammers constantly test ML robustness\n- DOORMAN_CHANNELS_AUTOBAN_DISABLE: Set to true or 1 to prevent the bot from banning messages sent on behalf of channels (except those linked to the current group)\n- DOORMAN_APPROVE_BUTTON: Set to true or 1 to add the option \"this is a friend, acquaintance, regular\" to each deleted message\n- DOORMAN_LOOKALIKE_AUTOBAN_DISABLE: Set to true or 1 to prevent the bot from banning messages containing words that mimic Russian\n- DOORMAN_BUTTON_AUTOBAN_DISABLE: Set to true or 1 to prevent the bot from banning messages containing buttons\n- DOORMAN_HIGH_CONFIDENCE_AUTOBAN_DISABLE: Set to true or 1 to prevent the bot from banning messages where the ML classifier is quite confident it is spam\n- DOORMAN_CHANNEL_AUTOBAN_EXCLUSION: Comma-separated groups where channels are not banned\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cYguAOEoxyT9p8SdqIZmPXf6uxOueNodDhwR4P/h6Ds=",
+        "originContent": "## Антиспам для телеграма",
+        "translatedContent": "## Anti-spam for Telegram"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "5V+KkpTNBXZJvTe12aBot1YeGZAwTUadO/q6Cziz+2Y=",
+        "originContent": "Изначально разрабатывался чтобы решить проблему со спамерами в чатах Вастрик.Клуба, но может использоваться и в чатах других форков, да и просто в любых больших чатах.",
+        "translatedContent": "Originally developed to solve the problem with spammers in the Vastik.Club chats, but can also be used in chats of other forks, as well as in any large chats."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "2Gwf6sJtTbo8s3twyZ+YkXFzGTfJXeNiq7EJmtEQnh4=",
+        "originContent": "### Принцип работы",
+        "translatedContent": "### How it works"
+      },
+      {
+        "row": 6,
+        "rowsha": "8BZ+w9VpdFZIyUGQarUxTjHqOui7VJu10xx+KXFC24g=",
+        "originContent": "- Пользователи Клуба с привязанным ботом автоматически добавляются в доверенные",
+        "translatedContent": "- Club users with a linked bot are automatically added to trusted"
+      },
+      {
+        "row": 7,
+        "rowsha": "4WqHYMfgBQBf1b0i4t9sDuTEoor+dFq2AK+zSxZ6v8Q=",
+        "originContent": "- При эвенте \"пользователь вошёл в чат\" выдаётся простенькая капча",
+        "translatedContent": "- On the \"user joined the chat\" event, a simple captcha is issued"
+      },
+      {
+        "row": 8,
+        "rowsha": "C36TtHNuvlbhzAlOLjTGXLDE/zc2/ySffeAQHAlscC8=",
+        "originContent": "- Если пользователь уже в доверенных, то все проверки пропускаются",
+        "translatedContent": "- If the user is already in trusted, all checks are skipped"
+      },
+      {
+        "row": 9,
+        "rowsha": "3cTPUMN9opFJ/Iv+wTkc73qtaMXryX0D1ntK+ESaD78=",
+        "originContent": "- Если пользователь в известных списках спамеров - нафиг",
+        "translatedContent": "- If the user is in known spammer lists - no way"
+      },
+      {
+        "row": 10,
+        "rowsha": "/e+yEdsdU5BAhljvm3tqopfcr3ExfPxTlBesuZuXHiA=",
+        "originContent": "- Если в сообщении многовато эмодзи - нафиг",
+        "translatedContent": "- If there are too many emojis in the message - no way"
+      },
+      {
+        "row": 11,
+        "rowsha": "trDN86Q3plAKeoF2GViXMz0FD28nK0zGFbNV+9ckp+w=",
+        "originContent": "- Если в сообщении есть слова, которые маскируются под русские но имеют английские буквы внутри - нафиг. Именно этот аспект сейчас затюнен в основном на русскоязычные чаты и может сработать на нормальные слова из языков которые пишутся кириллицей, но пока что все известные кейсы добавлены в тесты.",
+        "translatedContent": "- If the message contains words that look like Russian but have English letters inside - no way. This aspect is currently mainly tuned for Russian-speaking chats and may trigger on normal words from languages written in Cyrillic, but so far all known cases are added to tests."
+      },
+      {
+        "row": 12,
+        "rowsha": "jEE6ACrsScDPYEgmJ2DFUUUYT2E05Qhzm9WtIhxZWWo=",
+        "originContent": "- Если в сообщении есть стоп-слова типа \"заработок в сети\" - нафиг",
+        "translatedContent": "- If the message contains stop words like \"earning online\" - no way"
+      },
+      {
+        "row": 13,
+        "rowsha": "gNHGiH3JPat58Ek2r5Axrl6CL1zIxycowP0J9ZVFhVA=",
+        "originContent": "- Дальше сообщение очищается от эмодзи, пунктуации, диакритиков и скармливается ML. Если ML считает что спам - нафиг.",
+        "translatedContent": "- Then the message is cleaned of emojis, punctuation, diacritics and fed to ML. If ML thinks it’s spam - no way."
+      },
+      {
+        "row": 14,
+        "rowsha": "oPxwNm9OHMwN5JNeReZhNpv46sNaFgN25eWaYy9Y84w=",
+        "originContent": "- Если пользователь написал несколько нормальных сообщений, он добавляется в доверенные - спамеры крайне редко \"втираются в доверие\" и обычно выдают всё первым-вторым сообщением",
+        "translatedContent": "- If the user wrote several normal messages, they are added to trusted - spammers rarely “gain trust” and usually reveal themselves in the first or second message"
+      },
+      {
+        "row": 15,
+        "rowsha": "bhKLFWH27p3rGA31yo+DBVGiiq4bDtepo7gCTIlscr4=",
+        "originContent": "- Автоматически бот только удаляет сообщения, банятся пользователи только вручную из админки чтобы снизить урон ложнопозитивных срабатываний",
+        "translatedContent": "- The bot automatically only deletes messages; users are banned only manually from the admin panel to reduce damage from false positives"
+      },
+      {
+        "row": 16,
+        "rowsha": "LuTggm5elcLspndQyJfrCKJKxC9eDUXNrhmo1YYtQUw=",
+        "originContent": "- - Кроме блеклиста. Такие банятся сразу, но это можно выключить",
+        "translatedContent": "- - Except blacklist. Such users are banned immediately, but this can be disabled"
+      },
+      {
+        "row": 17,
+        "rowsha": "7vQ/pGFbqBRcwDKWjdv/U4UTRoFM3Zra16tB/ZAvR0g=",
+        "originContent": "- Если кого-то в чате забанил не бот, в админку приходит уведомление, возможно бот пропустил спам и его стоит добавить в датасет",
+        "translatedContent": "- If someone in the chat is banned not by the bot, a notification arrives in the admin panel, possibly the bot missed spam and it should be added to the dataset"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "bjmEaS0N4RkZUQINsqc+Wkg6qcFxdMOCMHsWi9SNNBM=",
+        "originContent": "### Команды админки",
+        "translatedContent": "### Admin commands"
+      },
+      {
+        "row": 20,
+        "rowsha": "QZGClBBtJaNqIHjwp/lTk0d3s9uMyNmB+iHpDjvZTEA=",
+        "originContent": "Все команды вызываются реплаем на другое сообщение",
+        "translatedContent": "All commands are called by replying to another message"
+      },
+      {
+        "row": 21,
+        "rowsha": "yKTOkW8X/hUG/WvYmJreXtf9eYgt0JLlZ4WN4f1od+A=",
+        "originContent": "- /spam - добавляет сообщение в датасет спама",
+        "translatedContent": "- /spam - adds the message to the spam dataset"
+      },
+      {
+        "row": 22,
+        "rowsha": "u8vlnYmDyar7H+gyxM9oo5o4ZGr2lLv3GElRVwVNm0A=",
+        "originContent": "- /ham - добавляет сообщение в датасет не-спама",
+        "translatedContent": "- /ham - adds the message to the non-spam dataset"
+      },
+      {
+        "row": 23,
+        "rowsha": "1irwS9ZsLIutWVktevGmDoC51ixl75f5q4CXI5hOqpU=",
+        "originContent": "- /check - прогоняет сообщение через все проверки",
+        "translatedContent": "- /check - runs the message through all checks"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "dDGAMf7AOfRD4vzK5fG4uI7ijryALf3qoCPidYpI3XU=",
+        "originContent": "### Конфиг",
+        "translatedContent": "### Config"
+      },
+      {
+        "row": 26,
+        "rowsha": "Dk9ojCiwNplczt2SnxH4ovy7I/JorJknzHAB0qsSjPc=",
+        "originContent": "Создаём чат-админку, запоминаем ID.",
+        "translatedContent": "Create an admin chat, remember its ID."
+      },
+      {
+        "row": 27,
+        "rowsha": "7cLK8jidsTfzxlw9xN1Je+cP7gCPUlO/Z29jmeqTQkE=",
+        "originContent": "Переменные среды:",
+        "translatedContent": "Environment variables:"
+      },
+      {
+        "row": 28,
+        "rowsha": "hqxXERNskYD4OCSHSOlo4IAjKogNCajhfBX3MfHIEhI=",
+        "originContent": "- DOORMAN_BOT_API: Токен телеграм бота. Обязательно",
+        "translatedContent": "- DOORMAN_BOT_API: Telegram bot token. Required"
+      },
+      {
+        "row": 29,
+        "rowsha": "fbqA5bFyMAabmWfP8h8lOE46ZL64JKsQAqSa7wodSto=",
+        "originContent": "- DOORMAN_ADMIN_CHAT: ID чата админки. Обязательно",
+        "translatedContent": "- DOORMAN_ADMIN_CHAT: Admin chat ID. Required"
+      },
+      {
+        "row": 30,
+        "rowsha": "4w/CfvOw4h2NIo6jyi69pZMTW8F0GvYlUsDbWwJmntE=",
+        "originContent": "- DOORMAN_CLUB_SERVICE_TOKEN: Сервис токен для Клуба, создаётся тут: https://vas3k.club/apps/. Если переменная не задана, автоматический аппрув людей из Клуба пропускается.",
+        "translatedContent": "- DOORMAN_CLUB_SERVICE_TOKEN: Service token for the Club, created here: https://vas3k.club/apps/. If the variable is not set, automatic approval of people from the Club is skipped."
+      },
+      {
+        "row": 31,
+        "rowsha": "eD9Da6UTvoRAxSyUGrOllJLUPP5Ijjx/IvkLE/swIwE=",
+        "originContent": "- DOORMAN_CLUB_URL: Базовый URL для форков Клуба, например https://rationalanswer.club/",
+        "translatedContent": "- DOORMAN_CLUB_URL: Base URL for Club forks, for example https://rationalanswer.club/"
+      },
+      {
+        "row": 32,
+        "rowsha": "ONk1SDK3adOzWG46AEy3Gv09aPECAE+Xb8kfdPJ04oc=",
+        "originContent": "- DOORMAN_BLACKLIST_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил людей (не из Клуба, не approved, из блеклиста) при заходе сразу",
+        "translatedContent": "- DOORMAN_BLACKLIST_AUTOBAN_DISABLE: Set to true or 1 to prevent the bot from banning people (not from the Club, not approved, from blacklist) immediately upon joining"
+      },
+      {
+        "row": 33,
+        "rowsha": "Dxlcv+yA8JMwUjso9iThGofmCWXooOmNAI16lzzXxiE=",
+        "originContent": "- DOORMAN_LOW_CONFIDENCE_HAM_ENABLE: Установить в true или 1 чтобы отсылать в админку не-спам который имеет низкий конфиденс скор, полезно для чатов где спамеры постоянно проверяют качество ML на прочность",
+        "translatedContent": "- DOORMAN_LOW_CONFIDENCE_HAM_ENABLE: Set to true or 1 to send to admin panel non-spam messages with low confidence score, useful for chats where spammers constantly test ML robustness"
+      },
+      {
+        "row": 34,
+        "rowsha": "GQ2pOmepEp7gEIgTKBGKFEAdXLfgrvWY42YLYZYWU40=",
+        "originContent": "- DOORMAN_CHANNELS_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения от имени каналов (кроме тех, которые привязаны к текущей группе)",
+        "translatedContent": "- DOORMAN_CHANNELS_AUTOBAN_DISABLE: Set to true or 1 to prevent the bot from banning messages sent on behalf of channels (except those linked to the current group)"
+      },
+      {
+        "row": 35,
+        "rowsha": "RwXFYmocu4ceUC2HTnh6jAPHPcxPpl2awbAQT8exwCI=",
+        "originContent": "- DOORMAN_APPROVE_BUTTON: Установить в true или 1 чтобы к каждому удалённому сообщению добавлялась опция \"это свой, знакомый, завсегдатай\"",
+        "translatedContent": "- DOORMAN_APPROVE_BUTTON: Set to true or 1 to add the option \"this is a friend, acquaintance, regular\" to each deleted message"
+      },
+      {
+        "row": 36,
+        "rowsha": "fusvh9FRMqN4GXS8rz3k5jktqzGwTEhsOPRj73vFNaA=",
+        "originContent": "- DOORMAN_LOOKALIKE_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения где есть слова, маскирующиеся под русские",
+        "translatedContent": "- DOORMAN_LOOKALIKE_AUTOBAN_DISABLE: Set to true or 1 to prevent the bot from banning messages containing words that mimic Russian"
+      },
+      {
+        "row": 37,
+        "rowsha": "AjGk3Ce7HfJ0pIOXw6IX0VpvQkAwfZc2hCk6Y0FaOWg=",
+        "originContent": "- DOORMAN_BUTTON_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения где есть кнопки",
+        "translatedContent": "- DOORMAN_BUTTON_AUTOBAN_DISABLE: Set to true or 1 to prevent the bot from banning messages containing buttons"
+      },
+      {
+        "row": 38,
+        "rowsha": "RwYx7TGulI+5G7eBUj3pUAhsDZJ5K25/Z/nO/qLuMtA=",
+        "originContent": "- DOORMAN_HIGH_CONFIDENCE_AUTOBAN_DISABLE: Установить в true или 1 чтобы бот не банил сообщения где ML-классификатор достаточно уверен в спаме",
+        "translatedContent": "- DOORMAN_HIGH_CONFIDENCE_AUTOBAN_DISABLE: Set to true or 1 to prevent the bot from banning messages where the ML classifier is quite confident it is spam"
+      },
+      {
+        "row": 39,
+        "rowsha": "cGFOl31xbygof7y2sAorlSm/+ElC8a1kPfrLNIHonfU=",
+        "originContent": "- DOORMAN_CHANNEL_AUTOBAN_EXCLUSION: Через запятую группы в которых каналы не банятся",
+        "translatedContent": "- DOORMAN_CHANNEL_AUTOBAN_EXCLUSION: Comma-separated groups where channels are not banned"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "#### Спасибо\n- https://lols.bot/ за борьбу со спамерами и API для бан-листов\n- https://github.com/umputun/tg-spam/ за некоторые идеи и три четверти датасета\n\n### Translation\nIf you're willing to do the heavy lifting of translating all the text of this bot to other languages, please let me know first before running headfirst and creating a PR.\n\n",
+    "ContentSha": "y2jsHOn31hcZNIhhf+xxqPMJNIOkbdVNySCQSKNQabQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### Thank you\n- https://lols.bot/ for fighting spammers and providing the API for ban lists\n- https://github.com/umputun/tg-spam/ for some ideas and three quarters of the dataset\n\n### Translation\nIf you're willing to do the heavy lifting of translating all the text of this bot to other languages, please let me know first before running headfirst and creating a PR.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "vSQRxiCzS9qV5XJDUR1S/RUpPjjLp2II9x3VmAfZVW8=",
+        "originContent": "#### Спасибо",
+        "translatedContent": "#### Thank you"
+      },
+      {
+        "row": 2,
+        "rowsha": "MQo+0zl5KKGlgLSCltPH6mbmDHaCbj0Xbu9HEnExHZ4=",
+        "originContent": "- https://lols.bot/ за борьбу со спамерами и API для бан-листов",
+        "translatedContent": "- https://lols.bot/ for fighting spammers and providing the API for ban lists"
+      },
+      {
+        "row": 3,
+        "rowsha": "Jgllr7cDSn9nTPFdAaH+qqWLuLweZ8g0I5l1K/beD44=",
+        "originContent": "- https://github.com/umputun/tg-spam/ за некоторые идеи и три четверти датасета",
+        "translatedContent": "- https://github.com/umputun/tg-spam/ for some ideas and three quarters of the dataset"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "cK/xAvkAeEH5U7u/1XWPtXOothAfP9xDT6b2C+GkT7k=",
+        "originContent": "### Translation",
+        "translatedContent": "### Translation"
+      },
+      {
+        "row": 6,
+        "rowsha": "4z8xgciKvzHBWCPhbOqzm5F/X9tTwEoiHQml5P6s7MY=",
+        "originContent": "If you're willing to do the heavy lifting of translating all the text of this bot to other languages, please let me know first before running headfirst and creating a PR.",
+        "translatedContent": "If you're willing to do the heavy lifting of translating all the text of this bot to other languages, please let me know first before running headfirst and creating a PR."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
