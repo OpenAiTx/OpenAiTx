@@ -1,9 +1,10 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 Langue</summary>
     <div>
       <div align="right">
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">Anglais</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">English</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">日本語</a></p>
@@ -16,13 +17,13 @@
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Néerlandais</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">Polonais</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">Polski</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">العربية</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">فارسی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">Turc</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">Vietnamien</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">Indonésien</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">Bahasa Indonesia</a></p>
       </div>
     </div>
   </details>
@@ -30,7 +31,7 @@
 
 # SparkyFitness - Alternative auto-hébergée à MyFitnessPal
 
-SparkyFitness est une application complète de suivi et de gestion de la condition physique conçue pour aider les utilisateurs à surveiller leur nutrition, leurs exercices et leurs mensurations corporelles. Elle offre des outils pour suivre les progrès quotidiens, définir des objectifs et générer des rapports pertinents pour soutenir un mode de vie sain.
+SparkyFitness est une application complète de gestion et de suivi de la forme physique conçue pour aider les utilisateurs à surveiller leur nutrition, leurs exercices et leurs mesures corporelles. Elle propose des outils pour le suivi quotidien des progrès, la fixation d’objectifs et des rapports détaillés pour soutenir un mode de vie sain.
 
 Docs : https://codewithcj.github.io/SparkyFitness
 
@@ -39,71 +40,69 @@ Docs : https://codewithcj.github.io/SparkyFitness
 ### 🍎 Suivi de la nutrition
 
 * **Enregistrez vos repas quotidiens**
-* **Créez et gérez des aliments et catégories personnalisés**
+* **Créez et gérez des aliments et des catégories personnalisés**
 * **Consultez des résumés et analysez les tendances avec des graphiques interactifs**
 
-### 💪 Journal des exercices
+### 💪 Journalisation des exercices
 
-* **Enregistrez vos séances d’entraînement**
-* **Parcourez et recherchez une base de données complète d’exercices**
-* **Suivez votre progression physique dans le temps**
+* **Enregistrez vos séances d'entraînement**
+* **Parcourez et recherchez une base de données d'exercices complète**
+* **Suivez la progression de votre forme physique au fil du temps**
 
-### 💧 Suivi de l’hydratation
+### 💧 Suivi de l'hydratation
 
-* **Suivez vos objectifs quotidiens d’hydratation**
-* **Enregistrement rapide et simple de l’eau bue**
+* **Suivez vos objectifs quotidiens d'hydratation**
+* **Enregistrement de l'eau simple et rapide**
 
-### 📏 Mensurations corporelles
+### 📏 Mesures corporelles
 
-* **Enregistrez vos mesures corporelles** (ex : poids, taille, bras)
-* **Ajoutez des types de mesures personnalisés**
-* **Visualisez les progrès via des graphiques**
+* **Enregistrez vos mesures corporelles** (par ex. poids, taille, bras)
+* **Ajoutez des types de mesures personnalisées**
+* **Visualisez la progression à l'aide de graphiques**
 
 ### 🎯 Définition d’objectifs
 
-* **Définissez et gérez des objectifs de fitness et de nutrition**
-* **Suivez les progrès dans le temps**
+* **Définissez et gérez vos objectifs de fitness et de nutrition**
+* **Suivez vos progrès au fil du temps**
 
 ### 🗓️ Bilans quotidiens
 
 * **Surveillez votre activité quotidienne**
 * **Restez régulier grâce au suivi des habitudes**
 
-### 🤖 Coach Nutrition AI (SparkyAI)
+### 🤖 Coach nutritionnel IA (SparkyAI)
 
-* **Enregistrez aliments, exercices, données corporelles et pas via le chat**
-* **Téléchargez des photos de repas pour un enregistrement automatique**
-* **Inclut un historique de chat et des conseils personnalisés**
+* **Enregistrez vos aliments, exercices, statistiques corporelles et pas via le chat**
+* **Téléchargez des images de vos repas pour les enregistrer automatiquement**
+* **Inclut l'historique de chat et des conseils personnalisés**
 
 ### 🔒 Authentification et profils utilisateur
 
 * **Système de connexion sécurisé**
-* **Passez d’un profil utilisateur à l’autre**
-* **Prise en charge de l’accès et la gestion familiale**
+* **Bascule entre profils utilisateurs**
+* **Prise en charge de l'accès et gestion familiale**
 
 ### 📊 Rapports complets
 
-* **Générez des résumés pour la nutrition et les mesures corporelles**
-* **Suivez les tendances à long terme sur plusieurs semaines ou mois**
+* **Générer des résumés pour la nutrition et les mesures corporelles**
+* **Suivre les tendances à long terme sur plusieurs semaines ou mois**
 
 ### 🎨 Thèmes personnalisables
 
-* **Passez du mode clair au mode sombre**
-* **Conçu pour une interface minimale et sans distraction**
+* **Passer du mode clair au mode sombre**
+* **Conçu avec une interface minimaliste et sans distraction**
 
-### Besoin d’aide ?
-* **Rejoignez Discord**
+### Besoin d'aide ?
+* **Rejoindre Discord**
   https://discord.gg/vcnMT5cPEA
-* **Postez dans la discussion**
-
-
+* **Publier dans la discussion**
 
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
 ## 🚀 Démarrage rapide
 
-Faites fonctionner SparkyFitness en quelques minutes :
+Mettez SparkyFitness en route en quelques minutes :
 
 ```bash
 # Clone the repository
@@ -118,24 +117,25 @@ cp docker/.env.example .env
 
 # Access application at http://localhost:8080
 ```
+
 ## 📖 Documentation
 
-Pour des guides d'installation complets, la configuration du développement et les instructions d'utilisation, consultez notre documentation complète :
+Pour les guides d'installation complets, la configuration du développement et les instructions d'utilisation, consultez notre documentation complète :
 
 **👉 [Site de documentation SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
 
 ### Liens rapides
 
-- **[🚀 Démarrage rapide](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Guide complet d'installation pour le développement et la production
+- **[🚀 Bien démarrer](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Guide d'installation complet pour le développement et la production
 - **[🐳 Guide Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Déploiement et configuration Docker
-- **[🔧 Flux de développement](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Guide du développeur et processus de contribution  
-- **[📊 Vue d’ensemble des fonctionnalités](https://codewithcj.github.io/SparkyFitness/features/)** - Documentation complète des fonctionnalités
+- **[🔧 Flux de développement](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Guide développeur et processus de contribution  
+- **[📊 Vue d'ensemble des fonctionnalités](https://codewithcj.github.io/SparkyFitness/features/)** - Documentation complète des fonctionnalités
 - **[🏗️ Architecture](https://codewithcj.github.io/SparkyFitness/app-overview)** - Architecture technique et conception
+- Consultez le WIiki pour un exemple de configuration d'environnement et la configuration de l'application mobile.
 
 ## 🐳 Déploiement Docker
 
 **Production (recommandé) :**
-
 ```bash
 cp docker/.env.example .env  # Edit as needed
 ./docker/docker-helper.sh prod up
@@ -168,6 +168,6 @@ Vous devrez peut-être modifier les variables Docker/environnement lors des nouv
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
 
 ---

@@ -1,108 +1,108 @@
+
 <div align="right">
   <details>
     <summary >🌐 言語</summary>
     <div>
       <div align="right">
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">英語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">簡体中文</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">English</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">韓国語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">ヒンディー語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">タイ語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">フランス語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">ドイツ語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">スペイン語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">イタリア語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">ロシア語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">ポルトガル語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">オランダ語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">ポーランド語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">アラビア語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">ペルシャ語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">トルコ語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">ベトナム語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">インドネシア語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">한국어</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">हिन्दी</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">Polski</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">فارسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">Bahasa Indonesia</a></p>
       </div>
     </div>
   </details>
 </div>
 
-# SparkyFitness - MyFitnessPalのセルフホスト代替
+# SparkyFitness - MyFitnessPalのセルフホスト型代替
 
-SparkyFitnessは、ユーザーが栄養、運動、体の測定値を管理・追跡できる包括的なフィットネストラッキング＆管理アプリケーションです。日々の進捗管理、目標設定、健康的なライフスタイルを支える分析レポートのツールを提供します。
+SparkyFitnessは、ユーザーが栄養、運動、身体測定を管理・追跡できる包括的なフィットネストラッキング・管理アプリケーションです。日々の進捗管理、目標設定、健康的なライフスタイルを支援する詳細なレポート機能を提供します。
 
 ドキュメント: https://codewithcj.github.io/SparkyFitness
 
-## ✨ 特徴
+## ✨ 主な機能
 
 ### 🍎 栄養トラッキング
 
-* **毎日の食事を記録**
+* **毎日の食事を記録する**
 * **カスタム食品やカテゴリの作成・管理**
-* **インタラクティブなチャートで要約や傾向分析**
+* **要約を表示し、インタラクティブなグラフで傾向を分析**
 
 ### 💪 運動記録
 
-* **ワークアウトを記録**
-* **充実したエクササイズデータベースを検索・閲覧**
-* **フィットネスの進捗を長期的に追跡**
+* **ワークアウトの記録**
+* **充実した運動データベースを閲覧・検索**
+* **フィットネスの進捗を時系列で追跡**
 
-### 💧 水分摂取管理
+### 💧 水分摂取モニタリング
 
-* **毎日の水分摂取目標を記録**
-* **シンプルかつ迅速な水分記録**
+* **毎日の水分摂取目標を追跡**
+* **シンプルで素早い水分記録**
 
 ### 📏 体の測定
 
 * **体の指標を記録**（例：体重、ウエスト、腕）
-* **カスタム測定項目の追加**
-* **チャートで進捗を可視化**
+* **カスタム測定タイプの追加**
+* **グラフで進捗を可視化**
 
 ### 🎯 目標設定
 
-* **フィットネス・栄養目標の設定と管理**
-* **進捗を長期的に追跡**
+* **フィットネスと栄養の目標設定・管理**
+* **進捗を時系列で追跡**
 
-### 🗓️ デイリーチェックイン
+### 🗓️ 毎日のチェックイン
 
-* **毎日の活動をモニタリング**
-* **習慣トラッキングで継続性を維持**
+* **毎日の活動を監視**
+* **習慣追跡で継続性を維持**
 
 ### 🤖 AI栄養コーチ（SparkyAI）
 
-* **チャットで食事・運動・体の統計・歩数を記録**
+* **チャットで食事、運動、体の統計、歩数を記録**
 * **食事画像をアップロードして自動記録**
-* **チャット履歴と個別ガイダンス付き**
+* **チャット履歴と個別のアドバイス付き**
 
-### 🔒 ユーザー認証 & プロファイル
+### 🔒 ユーザー認証とプロフィール
 
 * **安全なログインシステム**
 * **ユーザープロファイルの切り替え**
-* **家族利用や管理のサポート**
+* **家族のアクセスと管理のサポート**
 
-### 📊 総合レポート
+### 📊 包括的なレポート
 
-* **栄養や体の測定値の要約生成**
-* **週・月単位で長期的傾向を追跡**
+* **栄養や身体指標のサマリー生成**
+* **数週間または数ヶ月単位で長期傾向を追跡**
 
 ### 🎨 カスタマイズ可能なテーマ
 
-* **ライト／ダークモードの切り替え**
-* **ミニマルで集中できるインターフェース設計**
+* **ライトモードとダークモードの切り替え**
+* **ミニマルで気が散らないインターフェース設計**
 
-### ヘルプが必要ですか？
-* **Discordに参加**
+### お困りですか？
+* **Discordに参加する**
   https://discord.gg/vcnMT5cPEA
-* **ディスカッションに投稿**
-
+* **ディスカッションに投稿する**
 
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-## 🚀 クイックスタート
+## � クイックスタート
 
-数分でSparkyFitnessを起動しましょう:
+SparkyFitnessを数分で起動できます:
 
 ```bash
 # Clone the repository
@@ -117,24 +117,25 @@ cp docker/.env.example .env
 
 # Access application at http://localhost:8080
 ```
+
 ## 📖 ドキュメント
 
-完全なインストールガイド、開発セットアップ、使用方法については、包括的なドキュメントをご覧ください。
+完全なインストールガイド、開発環境のセットアップ、使用方法については、総合的なドキュメントをご覧ください：
 
 **👉 [SparkyFitness ドキュメントサイト](https://codewithcj.github.io/SparkyFitness)**
 
 ### クイックリンク
 
-- **[🚀 はじめに](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 開発と本番環境のセットアップガイド
+- **[🚀 はじめに](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 開発・本番環境のセットアップガイド
 - **[🐳 Docker ガイド](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker のデプロイと設定
-- **[🔧 開発ワークフロー](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 開発者ガイドおよびコントリビューションプロセス  
-- **[📊 機能概要](https://codewithcj.github.io/SparkyFitness/features/)** - 機能ドキュメント全般
-- **[🏗️ アーキテクチャ](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技術アーキテクチャと設計
+- **[🔧 開発ワークフロー](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 開発者向けガイドと貢献プロセス  
+- **[📊 機能概要](https://codewithcj.github.io/SparkyFitness/features/)** - 機能の完全なドキュメント
+- **[🏗️ アーキテクチャ](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技術的なアーキテクチャと設計
+- サンプル環境設定やモバイルアプリの設定はWikiを参照してください。
 
 ## 🐳 Docker デプロイ
 
-**本番環境（推奨）：**
-
+**本番環境（推奨）:**
 ```bash
 cp docker/.env.example .env  # Edit as needed
 ./docker/docker-helper.sh prod up
@@ -167,6 +168,6 @@ cp docker/.env.example .env  # Edit as needed
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
 
 ---

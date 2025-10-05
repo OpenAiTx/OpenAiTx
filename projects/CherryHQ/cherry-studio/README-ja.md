@@ -56,16 +56,16 @@
 </div>
 
 <div align="center">
- <a href="https://hellogithub.com/repository/1605492e1e2a4df3be07abfa4578dd37" target="_blank" style="text-decoration: none"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=1605492e1e2a4df3be07abfa4578dd37" alt="Featured｜HelloGitHub"  width="220" height="55" /></a>
- <a href="https://trendshift.io/repositories/11772" target="_blank" style="text-decoration: none"><img src="https://trendshift.io/api/badge/repositories/11772" alt="kangfenmao%2Fcherry-studio | Trendshift" width="220" height="55" /></a>
- <a href="https://www.producthunt.com/posts/cherry-studio?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cherry&#0045;studio" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=496640&theme=light" alt="Cherry&#0032;Studio - AI&#0032;Chatbots&#0044;&#0032;AI&#0032;Desktop&#0032;Client | Product Hunt" width="220" height="55" /></a>
+ <a href="https://hellogithub.com/repository/1605492e1e2a4df3be07abfa4578dd37" target="_blank" style="text-decoration: none"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=1605492e1e2a4df3be07abfa4578dd37" alt="注目｜HelloGitHub"  width="220" height="55" /></a>
+ <a href="https://trendshift.io/repositories/14318" target="_blank" style="text-decoration: none"><img src="https://trendshift.io/api/badge/repositories/14318" alt="CherryHQ%2Fcherry-studio | Trendshift" width="220" height="55" /></a>
+ <a href="https://www.producthunt.com/posts/cherry-studio?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cherry&#0045;studio" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=496640&theme=light" alt="Cherry&#0032;Studio - AI&#0032;チャットボット&#0044;&#0032;AI&#0032;デスクトップ&#0032;クライアント | Product Hunt" width="220" height="55" /></a>
 </div>
 
 # 🍒 Cherry Studio
 
-Cherry Studioは、複数のLLMプロバイダーに対応したデスクトップクライアントで、Windows、Mac、Linuxで利用可能です。
+Cherry Studioは、複数のLLMプロバイダーをサポートするデスクトップクライアントです。Windows、Mac、Linuxで利用可能です。
 
-👏 [Telegramグループ](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ)｜[QQグループ(575014769)](https://qm.qq.com/q/lo0D4qVZKi)に参加しよう
+👏 [Telegramグループ](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [QQグループ(575014769)](https://qm.qq.com/q/lo0D4qVZKi) に参加しよう
 
 ❤️ Cherry Studioが気に入ったら、ぜひ🌟スターや[スポンサー](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md)で開発を応援してください！
 
@@ -78,79 +78,79 @@ Cherry Studioは、複数のLLMプロバイダーに対応したデスクトッ�
 ![](https://github.com/user-attachments/assets/58e0237c-4d36-40de-b428-53051d982026)
 
 # 🌟 主な機能
-
 1. **多様なLLMプロバイダー対応**:
 
 - ☁️ 主要なLLMクラウドサービス：OpenAI、Gemini、Anthropicなど
-- 🔗 AIウェブサービス連携：Claude、Peplexity、Poeなど
+- 🔗 AIウェブサービス連携：Claude、Perplexity、Poe、その他
 - 💻 Ollama、LM Studioによるローカルモデル対応
 
-2. **AIアシスタント＆会話機能**:
+2. **AIアシスタントと会話機能**:
 
-- 📚 300種類以上のプリセットAIアシスタント
+- 📚 300以上の事前構成済みAIアシスタント
 - 🤖 カスタムアシスタント作成
-- 💬 複数モデル同時会話
+- 💬 複数モデルの同時会話
 
-3. **ドキュメント＆データ処理**:
+3. **ドキュメントとデータ処理**:
 
 - 📄 テキスト、画像、Office、PDFなどに対応
-- ☁️ WebDAVによるファイル管理・バックアップ
-- 📊 Mermaidによるチャート可視化
-- 💻 コードのシンタックスハイライト
+- ☁️ WebDAVによるファイル管理とバックアップ
+- 📊 Mermaidチャートによる可視化
+- 💻 コードの構文ハイライト
 
-4. **実用ツールの統合**:
+4. **実用的なツール統合**:
 
 - 🔍 グローバル検索機能
 - 📝 トピック管理システム
-- 🔤 AI搭載翻訳
-- 🎯 ドラッグ＆ドロップ並び替え
+- 🔤 AIによる翻訳機能
+- 🎯 ドラッグ＆ドロップによる並び替え
 - 🔌 ミニプログラム対応
 - ⚙️ MCP（モデルコンテキストプロトコル）サーバー
 
-5. **ユーザー体験の強化**:
+5. **ユーザー体験の向上**:
 
-- 🖥️ Windows、Mac、Linuxのクロスプラットフォーム対応
-- 📦 すぐ使える - 環境構築不要
-- 🎨 ライト/ダークテーマ＆透明ウィンドウ
+- 🖥️ Windows、Mac、Linuxでのクロスプラットフォーム対応
+- 📦 すぐに使える - 環境設定不要
+- 🎨 ライト/ダークテーマと透明ウィンドウ
 - 📝 完全なMarkdownレンダリング
 - 🤲 簡単なコンテンツ共有
 
 # 📝 ロードマップ
 
-現在、以下の機能や改善に積極的に取り組んでいます:
+以下の機能や改善点を積極的に開発しています：
+
 
 1. 🎯 **コア機能**
 
-- スマートな内容選択強化付き選択アシスタント
-- 高度なリサーチ機能を持つディープリサーチ
-- グローバルなコンテキスト認識を持つメモリーシステム
-- 向上した文書処理による文書前処理
-- MCPマーケットプレイスによるモデルコンテキストプロトコルエコシステム
+- スマートなコンテンツ選択強化によるセレクションアシスタント
+- 高度なリサーチ機能によるディープリサーチ
+- グローバルコンテキスト認識を備えたメモリーシステム
+- 改良されたドキュメント処理によるドキュメント前処理
+- モデルコンテキストプロトコルエコシステム向けのMCPマーケットプレイス
 
-2. 🗂 **ナレッジ管理**
+2. 🗂 **ナレッジマネジメント**
 
 - ノートとコレクション
-- ダイナミックキャンバス可視化
+- ダイナミックキャンバスの可視化
 - OCR機能
-- TTS（テキスト読み上げ）対応
+- TTS（テキスト読み上げ）サポート
 
-3. 📱 **プラットフォーム対応**
+3. 📱 **プラットフォームサポート**
 
 - HarmonyOS版（PC）
 - Androidアプリ（フェーズ1）
 - iOSアプリ（フェーズ1）
-- マルチウィンドウ対応
-- ウィンドウのピン留め機能
+- マルチウィンドウサポート
+- ウィンドウ固定機能
 
 4. 🔌 **高度な機能**
 
 - プラグインシステム
 - ASR（自動音声認識）
-- アシスタントとトピックのやり取りリファクタリング
+- アシスタントおよびトピックインタラクションのリファクタリング
 
-進捗は[プロジェクトボード](https://github.com/orgs/CherryHQ/projects/7)で確認・参加できます。
+進捗状況の確認やコントリビューションは[プロジェクトボード](https://github.com/orgs/CherryHQ/projects/7)をご覧ください。
 
-ロードマップに影響を与えたいですか？[GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions)に参加して、アイデアやフィードバックを共有しましょう！
+ロードマップに影響を与えたいですか？[GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions)に参加して、アイデアやフィードバックを共有してください！
 
 # 🌈 テーマ
 
@@ -160,110 +160,110 @@ Cherry Studioは、複数のLLMプロバイダーに対応したデスクトッ�
 - Claudeダイナミックスタイル: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
 - メープルネオンテーマ: <https://github.com/BoningtonChen/CherryStudio_themes>
 
-新しいテーマのPRも歓迎します
+さらに多くのテーマへのPRを歓迎します
 
-# 🤝 コントリビューション
+# 🤝 コントリビュートについて
 
-Cherry Studioへの貢献を歓迎します！貢献方法は以下の通りです：
+Cherry Studioへの貢献を歓迎します！以下の方法で貢献できます：
 
 1. **コードの貢献**: 新機能の開発や既存コードの最適化。
 2. **バグ修正**: 見つけたバグの修正を提出。
-3. **イシュー管理**: GitHubイシューの管理を支援。
+3. **課題の管理**: GitHubの課題管理をサポート。
 4. **プロダクトデザイン**: デザインディスカッションへの参加。
 5. **ドキュメント作成**: ユーザーマニュアルやガイドの改善。
-6. **コミュニティ活動**: 議論への参加やユーザーサポート。
-7. **普及促進**: Cherry Studioの認知拡大。
+6. **コミュニティ活動**: 議論への参加やユーザー支援。
+7. **利用促進**: Cherry Studioの認知拡大。
 
-貢献のガイドラインは[ブランチ戦略](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md)を参照してください
+[ブランチ戦略](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md)を参照し、貢献ガイドラインをご確認ください
 
 ## はじめに
 
-1. **リポジトリをフォーク**: 自分のローカル環境にフォーク＆クローン。
-2. **ブランチ作成**: 変更内容用のブランチを作成。
-3. **変更の反映**: 変更をコミット＆プッシュ。
-4. **プルリクエスト作成**: 変更点と理由を記載。
+1. **リポジトリをフォーク**: フォークしてローカル環境にクローンします。
+2. **ブランチを作成**: 変更内容ごとに作成します。
+3. **変更を提出**: 変更をコミットし、プッシュします。
+4. **プルリクエストを作成**: 変更内容と理由を記載します。
 
-より詳細なガイドラインは[Contributing Guide](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/CONTRIBUTING.md)をご覧ください。
+より詳細なガイドラインは[コントリビュートガイド](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/CONTRIBUTING.md)をご覧ください。
 
 ご支援とご貢献に感謝します！
 
 # 🔧 開発者共創プログラム
 
-Cherry Studio開発者共創プログラムを始動し、オープンソースエコシステム内で健全なポジティブフィードバックループを促進します。優れたソフトウェアは協力して作られ、マージされた全てのプルリクエストがプロジェクトに新たな命を吹き込みます。
+Cherry Studio開発者共創プログラムを開始し、オープンソースエコシステムに健全なポジティブフィードバックループを築きます。優れたソフトウェアは協力によって生まれ、マージされたプルリクエストがプロジェクトに新しい命を吹き込みます。
 
-心より、貢献者として私たちの仲間に加わり、Cherry Studioの未来を共に形作っていただくことを歓迎します。
+私たちは、貢献者の一員としてCherry Studioの未来を共に築くことを心より歓迎します。
 
 ## コントリビューター報酬プログラム
 
-コア貢献者に感謝し、善循環を生み出すため、以下の長期インセンティブプランを設けています。
+コア貢献者への還元と好循環の創出のため、以下の長期的なインセンティブプランを策定しました。
 
-**本プログラムの初回トラッキング期間は2025年Q3（7月、8月、9月）です。このサイクルの報酬は10月1日に配布されます。**
+**本プログラムの第1回追跡期間は2025年第3四半期（7月、8月、9月）です。この期間の報酬は10月1日に配布されます。**
 
-任意のトラッキング期間（例：第1サイクルの場合は7月1日～9月30日）において、GitHub上のCherry Studioのオープンソースプロジェクトに**30件以上の意味のあるコミット**を行った開発者は、以下の特典を受けることができます。
+追跡期間中（例：第1サイクルの場合は7月1日から9月30日まで）、Cherry StudioのGitHub上のオープンソースプロジェクトに**30回以上の意味のあるコミット**を行った開発者は、以下の特典を受ける資格があります。
 
-- **Cursorサブスクリプションスポンサーシップ**：あなたの[Cursor](https://cursor.sh/)サブスクリプションに対して**70ドルUSD**のクレジットまたは払い戻しを受けられ、AIが最も効率的なコーディングパートナーとなります。
-- **無制限モデルアクセス**：**DeepSeek**および**Qwen**モデルのAPIコールが**無制限**に利用可能です。
-- **最先端テクノロジーアクセス**：**Claude**、**Gemini**、**OpenAI**などのモデルのAPIアクセスなど、最新技術の特典も不定期でご提供します。
+- **Cursorサブスクリプション支援**：AIを最も効率的なコーディングパートナーとするために、[Cursor](https://cursor.sh/)のサブスクリプションに対して**70ドルUSD**のクレジットまたは払い戻しを受け取ることができます。
+- **無制限モデルアクセス**：**DeepSeek**および**Qwen**モデルへの**無制限**APIコールが可能です。
+- **最先端技術アクセス**：**Claude**、**Gemini**、**OpenAI**などのモデルへのAPIアクセスなど、時折の特典を享受し、常に技術の最前線に立てます。
 
 ## 共に成長する & 今後の計画
 
-活気あるコミュニティこそが、持続可能なオープンソースプロジェクトの原動力です。Cherry Studioの成長とともに、私たちのリワードプログラムも進化します。業界最高水準のツールやリソースに沿った特典を継続的に提供し、コア貢献者に実質的なサポートをお約束します。これにより、開発者・コミュニティ・プロジェクトの三者が共に成長する好循環が生まれます。
+活気あるコミュニティは、持続可能なオープンソースプロジェクトの原動力です。Cherry Studioの成長に伴い、報酬プログラムも拡充していきます。当社は、業界最高水準のツールやリソースに沿って、特典を継続的に調整していくことを約束します。これにより、コアな貢献者が十分な支援を受け、開発者・コミュニティ・プロジェクトがともに成長する好循環が生まれます。
 
-**今後は、プロジェクトとしてオープン性をさらに高め、オープンソースコミュニティ全体に貢献してまいります。**
+**今後、プロジェクトはよりオープンな姿勢をとり、オープンソースコミュニティ全体への還元も目指していきます。**
 
-## どう始めればいいの？
+## はじめ方
 
-最初のPull Requestをお待ちしています！
+あなたの最初のプルリクエストを楽しみにしています！
 
-リポジトリを探し、`good first issue`を選んだり、自分で改善提案をしたりして始めてみてください。すべてのコミットがオープンソース精神の証です。
+まずはリポジトリを探索し、`good first issue`に取り組むか、自分自身の改善案を提案することから始められます。すべてのコミットがオープンソースの精神の証です。
 
-ご関心とご貢献に心より感謝します。
+ご興味とご協力、ありがとうございます。
 
 共に創りましょう。
 
 # 🏢 エンタープライズエディション
 
-コミュニティエディションを基盤として、**Cherry Studio エンタープライズエディション**を新たにご紹介します。これは、現代のチームや企業向けに設計された、プライベートデプロイ可能なAI生産性・管理プラットフォームです。
+コミュニティエディションを基盤とし、現代のチームや企業向けに設計された、**Cherry Studio Enterprise Edition**—プライベート展開可能なAI生産性・管理プラットフォームを発表します。
 
-エンタープライズエディションは、AIリソース・ナレッジ・データの管理を一元化することで、チームコラボレーションの中核的な課題を解決します。組織が効率を高め、イノベーションを促進し、コンプライアンスを確保しつつ、100%自社データのコントロールとセキュリティを実現します。
+エンタープライズエディションは、AIリソース・ナレッジ・データの管理を一元化することで、チームコラボレーションの核心的な課題に対応します。組織は効率を高め、イノベーションを促進し、コンプライアンスを確保しつつ、100%のデータコントロールと安全な環境を実現できます。
 
-## 主なメリット
+## コアな利点
 
-- **統合モデル管理**：OpenAI、Anthropic、Google Gemini等のクラウドLLMや、ローカル展開のプライベートモデルを一元管理・利用可能。従業員は個別設定不要ですぐに利用できます。
-- **エンタープライズグレードナレッジベース**：チーム全体でナレッジベースを構築・管理・共有。知識の蓄積と一貫性を確保し、統一かつ正確な情報でAIとやりとりできます。
-- **細かなアクセスコントロール**：従業員アカウントを簡単に管理し、モデル・ナレッジベース・機能ごとに役割ベースで権限を一元設定できます。
-- **完全プライベートデプロイ**：全バックエンドサービスをオンプレミスサーバーやプライベートクラウドにデプロイ可能。最も厳格なセキュリティ・コンプライアンス基準にも対応し、データを100%自社管理できます。
-- **信頼性の高いバックエンドサービス**：安定したAPIサービスと、エンタープライズレベルのデータバックアップ・リカバリ機構で事業継続を支えます。
+- **統合モデル管理**：OpenAI、Anthropic、Google Geminiなどのクラウド型LLMやローカル展開のプライベートモデルを一元的に統合・管理。従業員は個別設定なしで利用可能です。
+- **企業向けナレッジベース**：チーム全体でナレッジベースを構築、管理、共有。知識の保持と一貫性を保証し、統一された正確な情報に基づきAIと対話できます。
+- **きめ細かなアクセス制御**：従業員アカウントやロールベースの権限を、モデルやナレッジベース、機能ごとに統一管理画面から簡単に付与できます。
+- **完全プライベート展開**：バックエンドサービス全体をオンプレミスサーバーやプライベートクラウドに展開可能。データは100%プライベートで、厳格なセキュリティ・コンプライアンス基準に適合します。
+- **信頼性の高いバックエンドサービス**：安定したAPIサービスと、企業向けのデータバックアップ・リカバリ機能により、事業継続性を確保します。
 
 ## ✨ オンラインデモ
 
 > 🚧 **パブリックベータのお知らせ**
 >
-> エンタープライズエディションは現在初期パブリックベータ段階であり、機能の最適化と改良を積極的に進めています。まだ完全な安定性はありません。トライアル中に問題やご提案がございましたら、ぜひメールでご連絡いただけますと幸いです。
+> エンタープライズ版は現在、パブリックベータの初期段階にあり、機能の反復と最適化を積極的に行っています。まだ完全に安定していない可能性があることを認識しています。ご利用中に問題が発生した場合や貴重なご提案がありましたら、ぜひメールでご連絡いただき、フィードバックをお寄せください。
 
 **🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
 ## バージョン比較
 
-| 機能                | コミュニティエディション                 | エンタープライズエディション                                                                                                                |
-| :------------------ | :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| **オープンソース**   | ✅ あり                                  | ⭕️ 顧客向けに一部公開                                                                                                                      |
-| **コスト**          | 個人利用無料 / 商用ライセンス            | 買い切り / サブスクリプション料金                                                                                                          |
-| **管理者バックエンド**| —                                        | ● 統合**モデル**アクセス<br>● **従業員**管理<br>● 共有**ナレッジベース**<br>● **アクセス**コントロール<br>● **データ**バックアップ         |
-| **サーバー**        | —                                        | ✅ 専用プライベートデプロイ                                                                                                                 |
+| 機能                | コミュニティ版                                   | エンタープライズ版                                                                                                                         |
+| :------------------ | :----------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| **オープンソース**  | ✅ はい                                          | ⭕️ 顧客向けに一部公開                                                                                                                      |
+| **コスト**          | 個人利用無料 / 商用ライセンス                   | 買取 / サブスクリプション料金                                                                                                              |
+| **管理者用バックエンド** | —                                              | ● 集中型**モデル**アクセス<br>● **従業員**管理<br>● 共有**ナレッジベース**<br>● **アクセス**制御<br>● **データ**バックアップ                |
+| **サーバー**        | —                                               | ✅ 専用プライベートデプロイ                                                                                                                 |
 
-## エンタープライズエディションの入手
+## エンタープライズ版の入手
 
-エンタープライズエディションは、チームのAI生産性エンジンになると信じています。ご興味・詳細情報・お見積り・デモのご希望はお気軽にご連絡ください。
+エンタープライズ版は、貴社チームのAI生産性エンジンになると確信しています。Cherry Studioエンタープライズ版にご興味があり、詳細のご案内・お見積もり・デモのご依頼を希望される場合は、お気軽にご連絡ください。
 
-- **法人お問い合わせ・ご購入**:
+- **ビジネスのお問い合わせ・ご購入**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 関連プロジェクト
 
-- [one-api](https://github.com/songquanpeng/one-api): OpenAI、Azure、Anthropic等の主流モデルに対応したLLM API管理・配布システム。統一APIインターフェース・キー管理・二次配布に最適。
+- [one-api](https://github.com/songquanpeng/one-api): OpenAI、Azure、Anthropicなど主流モデル対応のLLM API管理・配信システム。統一APIインターフェースを提供し、キー管理や二次配布に最適。
 
-- [ublacklist](https://github.com/iorate/ublacklist): Google検索結果から特定サイトを非表示にする拡張
+- [ublacklist](https://github.com/iorate/ublacklist): Google検索結果から特定サイトを非表示にする拡張機能
 
 # 🚀 コントリビューター
 
@@ -282,11 +282,11 @@ Cherry Studio開発者共創プログラムを始動し、オープンソース�
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Date" />
+   <img alt="スター履歴チャート" src="https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Date" />
  </picture>
 </a>
 
-<!-- リンク & 画像 -->
+<!-- リンク＆画像 -->
 
 [deepwiki-shield]: https://img.shields.io/badge/Deepwiki-CherryHQ-0088CC?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNy45MyAzMiI+PHBhdGggZD0iTTE5LjMzIDE0LjEyYy42Ny0uMzkgMS41LS4zOSAyLjE4IDBsMS43NCAxYy4wNi4wMy4xMS4wNi4xOC4wN2guMDRjLjA2LjAzLjEyLjAzLjE4LjAzaC4wMmMuMDYgMCAuMTEgMCAuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNS4xNy0uMDhoLjAybDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWOC40YS44MS44MSAwIDAgMC0uNC0uN2wtMy40OC0yLjAxYS44My44MyAwIDAgMC0uODEgMEwxOS43NyA3LjdoLS4wMWwtLjE1LjEyLS4wMi4wMnMtLjA3LjA5LS4xLjE0VjhhLjQuNCAwIDAgMC0uMDguMTd2LjA0Yy0uMDMuMDYtLjAzLjEyLS4wMy4xOXYyLjAxYzAgLjc4LS40MSAxLjQ5LTEuMDkgMS44OC0uNjcuMzktMS41LjM5LTIuMTggMGwtMS43NC0xYS42LjYgMCAwIDAtLjIxLS4wOGMtLjA2LS4wMS0uMTItLjAyLS4xOC0uMDJoLS4wM2MtLjA2IDAtLjExLjAxLS4xNy4wMmgtLjAzYy0uMDYuMDItLjEyLjA0LS4xNy4wN2gtLjAybC0zLjQ3IDIuMDFjLS4yNS4xNC0uNC40MS0uNC43VjE4YzAgLjI5LjE1LjU1LjQuN2wzLjQ4IDIuMDFoLjAyYy4wNi4wNC4xMS4wNi4xNy4wOGguMDNjLjA1LjAyLjExLjAzLjE3LjAzaC4wMmMuMDYgMCAuMTIgMCAuMTgtLjAyaC4wNGMuMDYtLjAzLjEyLS4wNS4xOC0uMDhsMS43NC0xYy42Ny0uMzkgMS41LS4zOSAyLjE3IDBzMS4wOSAxLjExIDEuMDkgMS44OHYyLjAxYzAgLjA3IDAgLjEzLjAyLjE5di4wNGMuMDMuMDYuMDUuMTIuMDguMTd2LjAycy4wOC4wOS4xMi4xM2wuMDIuMDJzLjA5LjA4LjE1LjExYzAgMCAuMDEgMCAuMDEuMDFsMy40OCAyLjAxYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjd2LTQuMDFhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ4LTIuMDFoLS4wMmMtLjA1LS4wNC0uMTEtLjA2LS4xNy0uMDhoLS4wM2EuNS41IDAgMCAwLS4xNy0uMDNoLS4wM2MtLjA2IDAtLjEyIDAtLjE4LjAyLS4wNy4wMi0uMTUuMDUtLjIxLjA4bC0xLjc0IDFjLS42Ny4zOS0xLjUuMzktMi4xNyAwYTIuMTkgMi4xOSAwIDAgMS0xLjA5LTEuODhjMC0uNzguNDItMS40OSAxLjA5LTEuODhaIiBzdHlsZT0iZmlsbDojNWRiZjlkIi8+PHBhdGggZD0ibS40IDEzLjExIDMuNDcgMi4wMWMuMjUuMTQuNTYuMTQuOCAwbDMuNDctMi4wMWguMDFsLjE1LS4xMi4wMi0uMDJzLjA3LS4wOS4xLS4xNGwuMDItLjAyYy4wMy0uMDUuMDUtLjExLjA3LS4xN3YtLjA0Yy4wMy0uMDYuMDMtLjEyLjAzLS4xOVYxMC40YzAtLjc4LjQyLTEuNDkgMS4wOS0xLjg4czEuNS0uMzkgMi4xOCAwbDEuNzQgMWMuMDcuMDQuMTQuMDcuMjEuMDguMDYuMDEuMTIuMDIuMTguMDJoLjAzYy4wNiAwIC4xMS0uMDEuMTctLjAyaC4wM2MuMDYtLjAyLjEyLS4wNC4xNy0uMDdoLjAybDMuNDctMi4wMmMuMjUtLjE0LjQtLjQxLjQtLjd2LTRhLjgxLjgxIDAgMCAwLS40LS43bC0zLjQ2LTJhLjgzLjgzIDAgMCAwLS44MSAwbC0zLjQ4IDIuMDFoLS4wMWwtLjE1LjEyLS4wMi4wMi0uMS4xMy0uMDIuMDJjLS4wMy4wNS0uMDUuMTEtLjA3LjE3di4wNGMtLjAzLjA2LS4wMy4xMi0uMDMuMTl2Mi4wMWMwIC43OC0uNDIgMS40OS0xLjA5IDEuODhzLTEuNS4zOS0yLjE4IDBsLTEuNzQtMWEuNi42IDAgMCAwLS4yMS0uMDhjLS4wNi0uMDEtLjEyLS4wMi0uMTgtLjAyaC0uMDNjLS4wNiAwLS4xMS4wMS0uMTcuMDJoLS4wM2MtLjA2LjAyLS4xMi4wNS0uMTcuMDhoLS4wMkwuNCA3LjcxYy0uMjUuMTQtLjQuNDEtLjQuNjl2NC4wMWMwIC4yOS4xNS41Ni40LjciIHN0eWxlPSJmaWxsOiM0NDY4YzQiLz48cGF0aCBkPSJtMTcuODQgMjQuNDgtMy40OC0yLjAxaC0uMDJjLS4wNS0uMDQtLjExLS4wNi0uMTctLjA4aC0uMDNhLjUuNSAwIDAgMC0uMTctLjAzaC0uMDNjLS4wNiAwLS4xMiAwLS4xOC4wMmgtLjA0Yy0uMDYuMDMtLjEyLjA1LS4xOC4wOGwtMS43NCAxYy0uNjcuMzktMS41LjM5LTIuMTggMGEyLjE5IDIuMTkgMCAwIDEtMS4wOS0xLjg4di0yLjAxYzAtLjA2IDAtLjEzLS4wMi0uMTl2LS4wNGMtLjAzLS4wNi0uMDUtLjExLS4wOC0uMTdsLS4wMi0uMDJzLS4wNi0uMDktLjEtLjEzTDguMjkgMTlzLS4wOS0uMDgtLjE1LS4xMWgtLjAxbC0zLjQ3LTIuMDJhLjgzLjgzIDAgMCAwLS44MSAwTC4zNyAxOC44OGEuODcuODcgMCAwIDAtLjM3LjcxdjQuMDFjMCAuMjkuMTUuNTUuNC43bDMuNDcgMi4wMWguMDJjLjA1LjA0LjExLjA2LjE3LjA4aC4wM2MuMDUuMDIuMTEuMDMuMTYuMDNoLjAzYy4wNiAwIC4xMiAwIC4xOC0uMDJoLjA0Yy4wNi0uMDMuMTItLjA1LjE4LS4wOGwxLjc0LTFjLjY3LS4zOSAxLjUtLjM5IDIuMTcgMHMxLjA5IDEuMTEgMS4wOSAxLjg4djIuMDFjMCAuMDcgMCAuMTMuMDIuMTl2LjA0Yy4wMy4wNi4wNS4xMS4wOC4xN2wuMDIuMDJzLjA2LjA5LjEuMTRsLjAyLjAycy4wOS4wOC4xNS4xMWguMDFsMy40OCAyLjAyYy4yNS4xNC41Ni4xNC44MSAwbDMuNDgtMi4wMWMuMjUtLjE0LjQtLjQxLjQtLjdWMjUuMmEuODEuODEgMCAwIDAtLjQtLjdaIiBzdHlsZT0iZmlsbDojNDI5M2Q5Ii8+PC9zdmc+
 [deepwiki-link]: https://deepwiki.com/CherryHQ/cherry-studio
@@ -297,7 +297,8 @@ Cherry Studio開発者共創プログラムを始動し、オープンソース�
 [telegram-shield]: https://img.shields.io/badge/Telegram-@CherryStudioAI-0088CC?logo=telegram
 [telegram-link]: https://t.me/CherryStudioAI
 
-<!-- リンク & 画像 -->
+<!-- リンクと画像 -->
+
 [github-release-shield]: https://img.shields.io/github/v/release/CherryHQ/cherry-studio?logo=github
 [github-release-link]: https://github.com/CherryHQ/cherry-studio/releases
 [github-nightly-shield]: https://img.shields.io/github/actions/workflow/status/CherryHQ/cherry-studio/nightly-build.yml?label=nightly%20build&logo=github
@@ -305,7 +306,7 @@ Cherry Studio開発者共創プログラムを始動し、オープンソース�
 [github-contributors-shield]: https://img.shields.io/github/contributors/CherryHQ/cherry-studio?logo=github
 [github-contributors-link]: https://github.com/CherryHQ/cherry-studio/graphs/contributors
 
-<!-- リンク & 画像 -->
+<!-- リンクと画像 -->
 
 [license-shield]: https://img.shields.io/badge/License-AGPLv3-important.svg?logo=gnu
 [license-link]: https://www.gnu.org/licenses/agpl-3.0
@@ -315,9 +316,8 @@ Cherry Studio開発者共創プログラムを始動し、オープンソース�
 [sponsor-link]: https://github.com/CherryHQ/cherry-studio/blob/main/docs/sponsor.md
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-05
 
 ---

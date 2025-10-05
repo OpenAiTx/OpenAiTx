@@ -34,7 +34,7 @@
   </a>
 </h1>
 
-<p align="center">English | <a href="./docs/README.zh.md">中文</a> | <a href="https://cherry-ai.com">Trang Chủ</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Tài Liệu</a> | <a href="./docs/dev.md">Phát Triển</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Phản Hồi</a><br></p>
+<p align="center">English | <a href="./docs/README.zh.md">中文</a> | <a href="https://cherry-ai.com">Trang chủ chính thức</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Tài liệu</a> | <a href="./docs/dev.md">Phát triển</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Phản hồi</a><br></p>
 
 <div align="center">
   
@@ -57,7 +57,7 @@
 
 <div align="center">
  <a href="https://hellogithub.com/repository/1605492e1e2a4df3be07abfa4578dd37" target="_blank" style="text-decoration: none"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=1605492e1e2a4df3be07abfa4578dd37" alt="Featured｜HelloGitHub"  width="220" height="55" /></a>
- <a href="https://trendshift.io/repositories/11772" target="_blank" style="text-decoration: none"><img src="https://trendshift.io/api/badge/repositories/11772" alt="kangfenmao%2Fcherry-studio | Trendshift" width="220" height="55" /></a>
+ <a href="https://trendshift.io/repositories/14318" target="_blank" style="text-decoration: none"><img src="https://trendshift.io/api/badge/repositories/14318" alt="CherryHQ%2Fcherry-studio | Trendshift" width="220" height="55" /></a>
  <a href="https://www.producthunt.com/posts/cherry-studio?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cherry&#0045;studio" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=496640&theme=light" alt="Cherry&#0032;Studio - AI&#0032;Chatbots&#0044;&#0032;AI&#0032;Desktop&#0032;Client | Product Hunt" width="220" height="55" /></a>
 </div>
 
@@ -67,9 +67,9 @@ Cherry Studio là một ứng dụng máy tính để bàn hỗ trợ nhiều nh
 
 👏 Tham gia [Nhóm Telegram](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [Nhóm QQ(575014769)](https://qm.qq.com/q/lo0D4qVZKi)
 
-❤️ Thích Cherry Studio? Hãy cho một sao 🌟 hoặc [Tài trợ](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md) để ủng hộ phát triển!
+❤️ Thích Cherry Studio? Hãy tặng một sao 🌟 hoặc [Tài trợ](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md) để hỗ trợ phát triển!
 
-# 🌠 Ảnh chụp màn hình
+# 🌠 Ảnh màn hình
 
 ![](https://github.com/user-attachments/assets/36dddb2c-e0fb-4a5f-9411-91447bab6e18)
 
@@ -77,64 +77,64 @@ Cherry Studio là một ứng dụng máy tính để bàn hỗ trợ nhiều nh
 
 ![](https://github.com/user-attachments/assets/58e0237c-4d36-40de-b428-53051d982026)
 
-# 🌟 Tính năng nổi bật
-
+# 🌟 Các Tính Năng Chính
 1. **Hỗ trợ đa dạng nhà cung cấp LLM**:
 
-- ☁️ Dịch vụ LLM đám mây lớn: OpenAI, Gemini, Anthropic, và nhiều hơn nữa
-- 🔗 Tích hợp dịch vụ AI Web: Claude, Peplexity, Poe, và các dịch vụ khác
+- ☁️ Các dịch vụ LLM đám mây lớn: OpenAI, Gemini, Anthropic và nhiều hơn nữa
+- 🔗 Tích hợp dịch vụ AI web: Claude, Perplexity, Poe và các dịch vụ khác
 - 💻 Hỗ trợ mô hình cục bộ với Ollama, LM Studio
 
-2. **Trợ lý AI & Trò chuyện**:
+2. **Trợ lý AI & Hội thoại**:
 
-- 📚 300+ Trợ lý AI cấu hình sẵn
+- 📚 Hơn 300 trợ lý AI cấu hình sẵn
 - 🤖 Tạo trợ lý tùy chỉnh
-- 💬 Trò chuyện đồng thời nhiều mô hình
+- 💬 Hội thoại đồng thời đa mô hình
 
 3. **Xử lý tài liệu & dữ liệu**:
 
-- 📄 Hỗ trợ Văn bản, Hình ảnh, Office, PDF, và nhiều hơn nữa
+- 📄 Hỗ trợ văn bản, hình ảnh, Office, PDF và nhiều hơn nữa
 - ☁️ Quản lý và sao lưu tệp WebDAV
 - 📊 Trực quan hóa biểu đồ Mermaid
 - 💻 Tô sáng cú pháp mã nguồn
 
-4. **Tích hợp Công cụ Thực tế**:
+4. **Tích hợp công cụ thực tiễn**:
 
-- 🔍 Chức năng Tìm kiếm Toàn cầu
-- 📝 Hệ thống Quản lý Chủ đề
-- 🔤 Dịch thuật sử dụng AI
-- 🎯 Sắp xếp Kéo-thả
-- 🔌 Hỗ trợ Mini Program
-- ⚙️ Máy chủ MCP (Giao thức Ngữ cảnh Mô hình)
+- 🔍 Tính năng tìm kiếm toàn cầu
+- 📝 Hệ thống quản lý chủ đề
+- 🔤 Dịch thuật dựa trên AI
+- 🎯 Sắp xếp kéo và thả
+- 🔌 Hỗ trợ mini program
+- ⚙️ Máy chủ MCP (Giao thức ngữ cảnh mô hình)
 
-5. **Trải Nghiệm Người Dùng Nâng Cao**:
+5. **Trải nghiệm người dùng nâng cao**:
 
 - 🖥️ Hỗ trợ đa nền tảng cho Windows, Mac và Linux
 - 📦 Sẵn sàng sử dụng - Không cần thiết lập môi trường
-- 🎨 Chủ đề Sáng/Tối và cửa sổ trong suốt
-- 📝 Kết xuất Markdown đầy đủ
+- 🎨 Giao diện sáng/tối và cửa sổ trong suốt
+- 📝 Kết xuất Markdown hoàn chỉnh
 - 🤲 Chia sẻ nội dung dễ dàng
 
 # 📝 Lộ trình phát triển
 
 Chúng tôi đang tích cực phát triển các tính năng và cải tiến sau:
 
-1. 🎯 **Tính năng Cốt lõi**
 
-- Trợ lý chọn lựa với nâng cao lựa chọn thông minh
-- Nghiên cứu chuyên sâu với khả năng nghiên cứu nâng cao
-- Hệ thống ghi nhớ với nhận thức ngữ cảnh toàn cục
-- Tiền xử lý tài liệu với khả năng xử lý tài liệu tốt hơn
-- MCP Marketplace cho hệ sinh thái Giao thức Ngữ cảnh Mô hình
+1. 🎯 **Tính năng cốt lõi**
 
-2. 🗂 **Quản Lý Tri Thức**
+- Trợ lý lựa chọn với khả năng nâng cao chọn nội dung thông minh
+- Nghiên cứu chuyên sâu với năng lực nghiên cứu nâng cao
+- Hệ thống bộ nhớ với khả năng nhận biết ngữ cảnh toàn cục
+- Tiền xử lý tài liệu với cải thiện xử lý tài liệu
+- MCP Marketplace cho hệ sinh thái Model Context Protocol
+
+2. 🗂 **Quản lý kiến thức**
 
 - Ghi chú và Bộ sưu tập
 - Trực quan hóa Canvas động
 - Khả năng OCR
 - Hỗ trợ TTS (Chuyển văn bản thành giọng nói)
 
-3. 📱 **Hỗ Trợ Nền Tảng**
+3. 📱 **Hỗ trợ nền tảng**
 
 - Phiên bản HarmonyOS (PC)
 - Ứng dụng Android (Giai đoạn 1)
@@ -142,146 +142,147 @@ Chúng tôi đang tích cực phát triển các tính năng và cải tiến sa
 - Hỗ trợ đa cửa sổ
 - Chức năng ghim cửa sổ
 
-4. 🔌 **Tính Năng Nâng Cao**
+4. 🔌 **Tính năng nâng cao**
 
-- Hệ thống Plugin
-- ASR (Nhận diện giọng nói tự động)
-- Tái cấu trúc Tương tác Trợ lý và Chủ đề
+- Hệ thống plugin
+- ASR (Nhận dạng giọng nói tự động)
+- Cải tiến tương tác Trợ lý và Chủ đề
 
-Theo dõi tiến trình và đóng góp tại [bảng dự án của chúng tôi](https://github.com/orgs/CherryHQ/projects/7).
+Theo dõi tiến trình của chúng tôi và đóng góp tại [bảng dự án](https://github.com/orgs/CherryHQ/projects/7).
 
-Muốn đóng góp ý kiến cho lộ trình? Tham gia [GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions) để chia sẻ ý tưởng và phản hồi!
+Muốn ảnh hưởng đến lộ trình phát triển? Tham gia [GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions) để chia sẻ ý tưởng và phản hồi!
 
 # 🌈 Chủ đề
 
-- Thư viện Chủ đề: <https://cherrycss.com>
+- Thư viện chủ đề: <https://cherrycss.com>
 - Chủ đề Aero: <https://github.com/hakadao/CherryStudio-Aero>
 - Chủ đề PaperMaterial: <https://github.com/rainoffallingstar/CherryStudio-PaperMaterial>
 - Claude dynamic-style: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
-- Chủ đề Maple Neon: <https://github.com/BoningtonChen/CherryStudio_themes>
+- Maple Neon Theme: <https://github.com/BoningtonChen/CherryStudio_themes>
 
-Chào đón PR cho nhiều chủ đề hơn
+Hoan nghênh PR cho nhiều chủ đề hơn
 
 # 🤝 Đóng góp
 
-Chúng tôi hoan nghênh mọi đóng góp cho Cherry Studio! Dưới đây là một số cách bạn có thể đóng góp:
+Chúng tôi hoan nghênh mọi đóng góp cho Cherry Studio! Đây là một số cách bạn có thể đóng góp:
 
-1. **Đóng góp mã nguồn**: Phát triển tính năng mới hoặc tối ưu mã hiện có.
+1. **Đóng góp mã nguồn**: Phát triển tính năng mới hoặc tối ưu hóa mã hiện tại.
 2. **Sửa lỗi**: Gửi các bản sửa lỗi bạn phát hiện.
-3. **Quản lý Issues**: Hỗ trợ quản lý các issue trên GitHub.
-4. **Thiết kế sản phẩm**: Tham gia thảo luận thiết kế.
+3. **Quản lý vấn đề**: Hỗ trợ quản lý các vấn đề trên GitHub.
+4. **Thiết kế sản phẩm**: Tham gia thảo luận về thiết kế sản phẩm.
 5. **Viết tài liệu**: Cải thiện hướng dẫn sử dụng và tài liệu.
 6. **Tương tác cộng đồng**: Tham gia thảo luận và hỗ trợ người dùng.
-7. **Quảng bá sử dụng**: Lan tỏa Cherry Studio đến nhiều người hơn.
+7. **Quảng bá sử dụng**: Quảng bá Cherry Studio rộng rãi.
 
-Tham khảo [Chiến lược Phân nhánh](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) để biết hướng dẫn đóng góp
+Tham khảo [Chiến lược phân nhánh](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) để biết hướng dẫn đóng góp
 
 ## Bắt đầu
 
-1. **Fork kho mã**: Fork và clone về máy tính của bạn.
-2. **Tạo nhánh**: Cho các thay đổi của bạn.
-3. **Gửi thay đổi**: Commit và push các thay đổi.
-4. **Tạo Pull Request**: Mô tả thay đổi và lý do của bạn.
+1. **Fork kho mã**: Fork và clone về máy tính cá nhân của bạn.
+2. **Tạo nhánh mới**: Để thực hiện thay đổi của bạn.
+3. **Gửi thay đổi**: Commit và push thay đổi của bạn.
+4. **Mở Pull Request**: Mô tả thay đổi và lý do của bạn.
 
-Để biết hướng dẫn chi tiết hơn, vui lòng xem [Hướng dẫn Đóng góp](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/CONTRIBUTING.md).
+Để biết hướng dẫn chi tiết hơn, vui lòng tham khảo [Hướng dẫn đóng góp](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/CONTRIBUTING.md).
 
 Cảm ơn sự ủng hộ và đóng góp của bạn!
 
-# 🔧 Chương trình Đồng sáng tạo cho Nhà phát triển
+# 🔧 Chương trình Đồng sáng tạo dành cho Nhà phát triển
 
-Chúng tôi đang triển khai Chương trình Đồng sáng tạo Nhà phát triển Cherry Studio nhằm xây dựng một vòng lặp phản hồi tích cực và lành mạnh trong hệ sinh thái mã nguồn mở. Chúng tôi tin rằng phần mềm tuyệt vời được xây dựng từ sự hợp tác, và mỗi pull request được hợp nhất là một sức sống mới cho dự án.
+Chúng tôi ra mắt Chương trình Đồng sáng tạo Nhà phát triển Cherry Studio nhằm thúc đẩy một hệ sinh thái nguồn mở khỏe mạnh và phản hồi tích cực. Chúng tôi tin rằng phần mềm tuyệt vời được xây dựng từ sự hợp tác, và mỗi pull request được hợp nhất đều mang lại sức sống mới cho dự án.
 
-Chúng tôi chân thành mời bạn gia nhập hàng ngũ cộng tác viên và cùng chúng tôi định hình tương lai Cherry Studio.
+Chúng tôi trân trọng mời bạn tham gia đội ngũ đóng góp và cùng định hình tương lai của Cherry Studio.
 
-## Chương trình Phần thưởng cho Cộng tác viên
+## Chương trình Phần thưởng cho Người đóng góp
 
-Nhằm tri ân những cộng tác viên cốt lõi và tạo vòng lặp giá trị tích cực, chúng tôi đã thiết lập kế hoạch khuyến khích dài hạn sau.
+Để tri ân các thành viên cốt lõi và tạo vòng lặp tích cực, chúng tôi xây dựng kế hoạch khuyến khích dài hạn sau.
 
-**Giai đoạn theo dõi đầu tiên của chương trình này sẽ là Q3 năm 2025 (tháng 7, 8, 9). Phần thưởng cho chu kỳ này sẽ được trao vào ngày 1 tháng 10.**
-Trong bất kỳ giai đoạn theo dõi nào (ví dụ: từ ngày 1 tháng 7 đến ngày 30 tháng 9 cho chu kỳ đầu tiên), bất kỳ nhà phát triển nào đóng góp hơn **30 commit có ý nghĩa** cho bất kỳ dự án mã nguồn mở nào của Cherry Studio trên GitHub sẽ đủ điều kiện nhận các quyền lợi sau:
+**Giai đoạn theo dõi đầu tiên của chương trình này sẽ là Quý 3 năm 2025 (tháng 7, tháng 8, tháng 9). Phần thưởng cho chu kỳ này sẽ được trao vào ngày 1 tháng 10.**
 
-- **Tài trợ đăng ký Cursor**: Nhận **$70 USD** tín dụng hoặc hoàn tiền cho đăng ký [Cursor](https://cursor.sh/) của bạn, giúp AI trở thành đối tác lập trình hiệu quả nhất của bạn.
-- **Truy cập mô hình không giới hạn**: Sử dụng **không giới hạn** số lần gọi API cho các mô hình **DeepSeek** và **Qwen**.
-- **Tiếp cận công nghệ tiên tiến**: Nhận các quyền lợi định kỳ, bao gồm quyền truy cập API cho các mô hình như **Claude**, **Gemini** và **OpenAI**, giúp bạn luôn dẫn đầu công nghệ.
+Trong bất kỳ kỳ theo dõi nào (ví dụ: từ ngày 1 tháng 7 đến ngày 30 tháng 9 cho chu kỳ đầu tiên), bất kỳ nhà phát triển nào đóng góp hơn **30 commit có ý nghĩa** cho bất kỳ dự án mã nguồn mở nào của Cherry Studio trên GitHub đều đủ điều kiện nhận các quyền lợi sau:
 
-## Cùng Phát Triển & Kế Hoạch Tương Lai
+- **Tài trợ đăng ký Cursor**: Nhận **$70 USD** tín dụng hoặc hoàn trả cho đăng ký [Cursor](https://cursor.sh/) của bạn, biến AI thành đối tác lập trình hiệu quả nhất.
+- **Truy cập mô hình không giới hạn**: Được gọi API **không giới hạn** cho các mô hình **DeepSeek** và **Qwen**.
+- **Tiếp cận công nghệ tiên tiến**: Thỉnh thoảng nhận các quyền lợi như truy cập API cho các mô hình **Claude**, **Gemini**, và **OpenAI**, giúp bạn luôn dẫn đầu công nghệ.
 
-Một cộng đồng sôi động là động lực cho bất kỳ dự án mã nguồn mở bền vững nào. Khi Cherry Studio phát triển, chương trình khen thưởng của chúng tôi cũng sẽ được mở rộng. Chúng tôi cam kết liên tục điều chỉnh các quyền lợi với những công cụ và tài nguyên tốt nhất trong ngành. Điều này đảm bảo các cộng tác viên cốt lõi nhận được sự hỗ trợ ý nghĩa, tạo ra vòng tuần hoàn tích cực giúp nhà phát triển, cộng đồng và dự án cùng phát triển.
+## Cùng phát triển & Kế hoạch tương lai
 
-**Trong tương lai, dự án cũng sẽ ngày càng cởi mở hơn để đóng góp cho toàn bộ cộng đồng mã nguồn mở.**
+Một cộng đồng năng động là động lực cho bất kỳ dự án mã nguồn mở bền vững nào. Khi Cherry Studio phát triển, chương trình phần thưởng của chúng tôi cũng sẽ mở rộng. Chúng tôi cam kết liên tục điều chỉnh các quyền lợi với các công cụ và tài nguyên hàng đầu trong ngành. Điều này đảm bảo các cộng tác viên cốt lõi nhận được sự hỗ trợ có ý nghĩa, tạo ra vòng lặp tích cực nơi các nhà phát triển, cộng đồng và dự án cùng phát triển.
 
-## Làm Thế Nào Để Bắt Đầu?
+**Trong tương lai, dự án cũng sẽ hướng tới sự cởi mở hơn để đóng góp trở lại cho toàn bộ cộng đồng mã nguồn mở.**
 
-Chúng tôi mong đợi Pull Request đầu tiên từ bạn!
+## Làm thế nào để bắt đầu?
 
-Bạn có thể bắt đầu bằng cách khám phá các kho lưu trữ của chúng tôi, chọn một `good first issue`, hoặc đề xuất cải tiến của riêng bạn. Mỗi commit là minh chứng cho tinh thần mã nguồn mở.
+Chúng tôi mong đợi Pull Request đầu tiên của bạn!
+
+Bạn có thể bắt đầu bằng cách khám phá các kho lưu trữ của chúng tôi, chọn một `good first issue`, hoặc đề xuất các cải tiến của riêng bạn. Mỗi commit đều là minh chứng cho tinh thần mã nguồn mở.
 
 Cảm ơn bạn đã quan tâm và đóng góp.
 
 Hãy cùng nhau xây dựng.
 
-# 🏢 Phiên Bản Doanh Nghiệp
+# 🏢 Phiên bản dành cho doanh nghiệp
 
-Dựa trên Phiên bản Cộng đồng, chúng tôi tự hào giới thiệu **Cherry Studio Enterprise Edition**—nền tảng quản trị và năng suất AI triển khai riêng tư dành cho các nhóm và doanh nghiệp hiện đại.
+Dựa trên Community Edition, chúng tôi tự hào giới thiệu **Cherry Studio Enterprise Edition**—nền tảng AI quản lý và tăng năng suất có thể triển khai riêng cho các nhóm và doanh nghiệp hiện đại.
 
-Phiên bản Doanh nghiệp giải quyết các thách thức cốt lõi trong hợp tác nhóm bằng cách tập trung quản lý tài nguyên AI, tri thức và dữ liệu. Nó giúp tổ chức nâng cao hiệu suất, thúc đẩy đổi mới và đảm bảo tuân thủ, đồng thời duy trì 100% quyền kiểm soát dữ liệu trong môi trường an toàn.
+Phiên bản Enterprise giải quyết các thách thức cốt lõi trong cộng tác nhóm bằng cách tập trung quản lý tài nguyên AI, tri thức và dữ liệu. Nó giúp tổ chức nâng cao hiệu quả, thúc đẩy đổi mới và đảm bảo tuân thủ, đồng thời duy trì kiểm soát 100% dữ liệu trong môi trường bảo mật.
 
-## Lợi Thế Cốt Lõi
+## Lợi thế cốt lõi
 
-- **Quản lý mô hình tập trung**: Tích hợp và quản lý tập trung nhiều LLM đám mây (ví dụ: OpenAI, Anthropic, Google Gemini) cũng như các mô hình riêng triển khai nội bộ. Nhân viên có thể sử dụng ngay mà không cần tự cấu hình.
-- **Cơ sở tri thức chuẩn doanh nghiệp**: Xây dựng, quản lý và chia sẻ kho tri thức cho toàn đội. Đảm bảo lưu giữ và nhất quán tri thức, giúp thành viên tương tác với AI dựa trên thông tin chuẩn xác, thống nhất.
-- **Kiểm soát truy cập chi tiết**: Dễ dàng quản lý tài khoản nhân viên, phân quyền theo vai trò cho từng mô hình, kho tri thức, và tính năng qua giao diện quản trị tập trung.
-- **Triển khai hoàn toàn riêng tư**: Triển khai toàn bộ dịch vụ backend trên máy chủ nội bộ hoặc đám mây riêng của bạn, đảm bảo dữ liệu 100% riêng tư và dưới quyền kiểm soát của bạn để đáp ứng các tiêu chuẩn bảo mật, tuân thủ nghiêm ngặt nhất.
-- **Dịch vụ backend ổn định**: Cung cấp dịch vụ API ổn định và cơ chế sao lưu, phục hồi dữ liệu chuẩn doanh nghiệp, đảm bảo liên tục hoạt động cho doanh nghiệp.
+- **Quản lý mô hình thống nhất**: Tích hợp và quản lý tập trung nhiều LLM trên đám mây (ví dụ: OpenAI, Anthropic, Google Gemini) và các mô hình riêng triển khai tại chỗ. Nhân viên sử dụng trực tiếp mà không cần cấu hình cá nhân.
+- **Cơ sở tri thức cấp doanh nghiệp**: Xây dựng, quản lý và chia sẻ cơ sở tri thức cho toàn nhóm. Đảm bảo lưu giữ và nhất quán tri thức, cho phép thành viên tương tác với AI dựa trên thông tin chính xác, thống nhất.
+- **Kiểm soát truy cập chi tiết**: Dễ dàng quản lý tài khoản nhân viên và phân quyền theo vai trò cho từng mô hình, cơ sở tri thức và tính năng qua giao diện quản trị hợp nhất.
+- **Triển khai hoàn toàn riêng tư**: Triển khai toàn bộ dịch vụ backend trên máy chủ nội bộ hoặc đám mây riêng, đảm bảo dữ liệu 100% riêng tư và do bạn kiểm soát, đáp ứng tiêu chuẩn bảo mật và tuân thủ nghiêm ngặt nhất.
+- **Dịch vụ backend đáng tin cậy**: Cung cấp API ổn định và cơ chế sao lưu, phục hồi dữ liệu cấp doanh nghiệp đảm bảo liên tục kinh doanh.
 
-## ✨ Dùng Thử Trực Tuyến
+## ✨ Demo trực tuyến
 
-> 🚧 **Thông Báo Beta Công Khai**
+> 🚧 **Thông báo Beta công khai**
 >
-> Phiên bản Doanh nghiệp hiện đang ở giai đoạn beta công khai đầu tiên và chúng tôi đang tích cực hoàn thiện, tối ưu hóa tính năng. Chúng tôi nhận thức rằng hệ thống có thể chưa thật sự ổn định. Nếu bạn gặp bất kỳ vấn đề hay có góp ý giá trị trong quá trình dùng thử, chúng tôi rất cảm kích nếu bạn liên hệ qua email để phản hồi.
+> Phiên bản Enterprise hiện đang trong giai đoạn beta công khai sớm, và chúng tôi đang tích cực cập nhật và tối ưu các tính năng của nó. Chúng tôi nhận thấy rằng phiên bản này có thể chưa hoàn toàn ổn định. Nếu bạn gặp bất kỳ sự cố nào hoặc có những đề xuất giá trị trong quá trình dùng thử, chúng tôi sẽ rất biết ơn nếu bạn liên hệ với chúng tôi qua email để gửi phản hồi.
 
 **🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
-## So Sánh Các Phiên Bản
+## So sánh phiên bản
 
-| Tính năng              | Phiên bản Cộng đồng                         | Phiên bản Doanh nghiệp                                                                                                                        |
-| :--------------------- | :------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Mã nguồn mở**        | ✅ Có                                       | ⭕️ Chỉ phát hành một phần cho khách hàng                                                                                                      |
-| **Chi phí**            | Miễn phí Cá nhân / Giấy phép Thương mại     | Trọn gói / Phí thuê bao                                                                                                                       |
-| **Giao diện quản trị** | —                                          | ● Quản lý **Mô hình** tập trung<br>● Quản lý **Nhân sự**<br>● Chia sẻ **Kho tri thức**<br>● **Phân quyền**<br>● **Sao lưu** dữ liệu           |
-| **Máy chủ**            | —                                          | ✅ Triển khai riêng tư hoàn toàn                                                                                                               |
+| Tính năng             | Phiên bản Community                        | Phiên bản Enterprise                                                                                                                    |
+| :-------------------- | :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| **Mã nguồn mở**       | ✅ Có                                      | ⭕️ Chỉ phát hành một phần cho khách hàng                                                                                               |
+| **Chi phí**           | Miễn phí cho cá nhân / Bản quyền thương mại | Mua đứt / Phí đăng ký                                                                                                                  |
+| **Quản trị Backend**  | —                                          | ● Truy cập **Model** tập trung<br>● Quản lý **Nhân viên**<br>● Chia sẻ **Kiến thức**<br>● Kiểm soát **Truy cập**<br>● Sao lưu **Dữ liệu** |
+| **Máy chủ**           | —                                          | ✅ Triển khai riêng tư chuyên dụng                                                                                                      |
 
-## Nhận Phiên Bản Doanh Nghiệp
+## Nhận phiên bản Enterprise
 
-Chúng tôi tin rằng Phiên bản Doanh nghiệp sẽ trở thành động cơ AI thúc đẩy năng suất cho đội ngũ của bạn. Nếu bạn quan tâm đến Cherry Studio Enterprise Edition và muốn tìm hiểu thêm, yêu cầu báo giá hoặc đặt lịch demo, vui lòng liên hệ với chúng tôi.
+Chúng tôi tin rằng Phiên bản Enterprise sẽ trở thành động cơ AI nâng cao năng suất cho đội nhóm của bạn. Nếu bạn quan tâm đến Cherry Studio Enterprise Edition và muốn biết thêm chi tiết, yêu cầu báo giá, hoặc lên lịch demo, vui lòng liên hệ với chúng tôi.
 
-- **Liên hệ kinh doanh & mua hàng**:
+- **Dành cho doanh nghiệp & mua hàng**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
-# 🔗 Dự Án Liên Quan
+# 🔗 Dự án liên quan
 
-- [one-api](https://github.com/songquanpeng/one-api): Hệ thống quản lý và phân phối API LLM hỗ trợ các mô hình chính như OpenAI, Azure và Anthropic. Cung cấp giao diện API thống nhất, phù hợp cho quản lý khóa và phân phối thứ cấp.
+- [one-api](https://github.com/songquanpeng/one-api): Hệ thống quản lý và phân phối API LLM hỗ trợ các mô hình phổ biến như OpenAI, Azure, và Anthropic. Có giao diện API thống nhất, phù hợp cho quản lý khóa và phân phối thứ cấp.
 
-- [ublacklist](https://github.com/iorate/ublacklist): Chặn các trang web chỉ định xuất hiện trên kết quả tìm kiếm Google
+- [ublacklist](https://github.com/iorate/ublacklist): Chặn các trang web cụ thể xuất hiện trong kết quả tìm kiếm Google
 
-# 🚀 Người Đóng Góp
+# 🚀 Người đóng góp
 
 <a href="https://github.com/CherryHQ/cherry-studio/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=CherryHQ/cherry-studio" />
 </a>
 <br /><br />
 
-# 📊 Thống Kê GitHub
+# 📊 Thống kê GitHub
 
-![Stats](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg 'Repobeats analytics image')
+![Stats](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg 'Hình ảnh phân tích Repobeats')
 
-# ⭐️ Lịch Sử Gắn Sao
+# ⭐️ Lịch sử gắn sao
 
 <a href="https://www.star-history.com/#CherryHQ/cherry-studio&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Date" />
+   <img alt="Biểu đồ Lịch sử Star" src="https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Date" />
  </picture>
 </a>
 
@@ -315,9 +316,8 @@ Chúng tôi tin rằng Phiên bản Doanh nghiệp sẽ trở thành động cơ
 [sponsor-link]: https://github.com/CherryHQ/cherry-studio/blob/main/docs/sponsor.md
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-05
 
 ---

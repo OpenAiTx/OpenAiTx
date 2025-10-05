@@ -10,7 +10,8 @@
   <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=ja">日本語</a>
   
 </p>
-
+<p align="center">
+  <img src="https://img.shields.io/badge/NeurIPS 2025-Main Conference-blue.svg" alt="NeurIPS 2025"/>
 <p align="center">
   <a href="https://arxiv.org/pdf/2506.21448">
     <img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg" alt="arXiv"/>
@@ -36,44 +37,47 @@
 
 ---
 
-**ThinkSound** est un cadre unifié de génération Any2Audio avec correspondance de flux guidée par le raisonnement Chain-of-Thought (CoT).
+**ThinkSound** est un cadre unifié de génération Any2Audio avec un appariement de flux guidé par le raisonnement Chain-of-Thought (CoT).
 
-Implémentation PyTorch pour la génération et l'édition audio multimodales : générez ou éditez de l'audio à partir de vidéos, de texte et d'audio, propulsé par un raisonnement étape par étape grâce aux grands modèles de langage multimodaux (MLLMs).
+Implémentation PyTorch pour la génération et l’édition audio multimodales : générez ou modifiez de l’audio à partir de vidéo, de texte et d’audio, propulsé par un raisonnement étape par étape issu des grands modèles de langage multimodaux (MLLM).
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 Actualités
-- **2025.07.17** &nbsp; 🧠 Affinage activé : le code d'entraînement et d'affinage est maintenant disponible publiquement, accompagné d'instructions claires pour vous aider à personnaliser et étendre ThinkSound avec vos propres données.
-- **2025.07.15** &nbsp; 📦 Installation et utilisation simplifiées : dépendances sur PyPI pour une installation multiplateforme facile ; les scripts Windows `.bat` automatisent la création d'environnement et l'exécution des scripts.
-- **2025.07.08** &nbsp;  🔧 Mise à jour majeure : modèle allégé et optimisation de la mémoire et de l'utilisation du GPU, supporte désormais la génération audio à haut débit à grande échelle !
+- **2025.09.19** &nbsp; 🎉 ThinkSound a été accepté à la **Conférence Principale NeurIPS 2025** !
+- **2025.09.01** &nbsp; 🔥 Notre jeu de données AudioCoT est désormais open-source et disponible sur [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT) !
+- **2025.07.17** &nbsp; 🧠 Le finetuning est activé : le code d’entraînement et de finetuning est maintenant accessible publiquement, avec des instructions claires pour personnaliser et étendre ThinkSound avec vos propres données.
+- **2025.07.15** &nbsp; 📦 Installation et utilisation simplifiées : dépendances sur PyPI pour une installation multiplateforme facile ; des scripts Windows `.bat` automatisent la création d’environnement et l’exécution des scripts.
+- **2025.07.08** &nbsp;  🔧 Mise à jour majeure : modèle allégé et optimisation de la mémoire et de l’utilisation du GPU, prend désormais en charge la génération audio à haut débit à grande échelle !
 - **2025.07.01** &nbsp; 🔥Démo en ligne sur [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) et [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) pour une expérience interactive !
-- **2025.07.01** &nbsp; 🔥Scripts d'inférence et interface web publiés ;
+- **2025.07.01** &nbsp; 🔥Scripts d’inférence et interface web publiés ;
 - **2025.06** &nbsp; 🔥[Article ThinkSound](https://arxiv.org/pdf/2506.21448) publié sur arXiv !
 - **2025.06** &nbsp; 🔥[Démo en ligne](http://thinksound-project.github.io/) disponible - essayez-la dès maintenant !
 
 ---
 
+
 ## 🚀 Fonctionnalités
 
-- **Any2Audio** : Générez de l'audio à partir de n'importe quelle modalité — vidéo, texte, audio, ou leurs combinaisons.
-- **Vidéo-vers-Audio SOTA** : Obtient des résultats à la pointe de la technologie sur plusieurs benchmarks V2A.
-- **Raisonnement piloté par CoT** : Raisonnement Chain-of-Thought pour une génération audio compositionnelle et contrôlable via les MLLMs.
-- **Édition interactive centrée sur les objets** : Affinez ou éditez des événements sonores spécifiques en cliquant sur des objets visuels ou en utilisant des instructions textuelles.
-- **Cadre unifié** : Un modèle de base unique supporte la génération, l'édition et le flux de travail interactif.
+- **Any2Audio** : Génération audio à partir de modalités arbitraires — vidéo, texte, audio, ou leurs combinaisons.
+- **Video-to-Audio SOTA** : Atteint des résultats de pointe sur plusieurs benchmarks V2A.
+- **Raisonnement CoT-Driven** : Raisonnement Chain-of-Thought pour une génération audio compositionnelle et contrôlable via MLLMs.
+- **Édition interactive centrée objet** : Affinez ou modifiez des événements sonores spécifiques en cliquant sur des objets visuels ou en utilisant des instructions textuelles.
+- **Cadre unifié** : Un modèle fondation unique prend en charge la génération, l’édition et le flux de travail interactif.
 
 ---
 
-## ✨ Vue d'ensemble de la méthode
+## ✨ Aperçu de la méthode
 
-ThinkSound décompose la génération et l'édition audio en trois étapes interactives, toutes guidées par le raisonnement Chain-of-Thought (CoT) basé sur les MLLMs :
+ThinkSound décompose la génération et l’édition audio en trois étapes interactives, toutes guidées par le raisonnement Chain-of-Thought (CoT) basé sur MLLM :
 
-1. **Génération Foley :** Générer des paysages sonores de base, sémantiquement et temporellement alignés à partir de la vidéo.
-2. **Affinage centré sur l'objet :** Affiner ou ajouter des sons pour des objets spécifiés par l'utilisateur via des clics ou des régions dans la vidéo.
-3. **Édition audio ciblée :** Modifier l'audio généré à l'aide d'instructions en langage naturel de haut niveau.
+1. **Génération Foley :** Générer des paysages sonores fondamentaux, alignés sémantiquement et temporellement à partir de la vidéo.
+2. **Affinement centré objet :** Affiner ou ajouter des sons pour des objets spécifiés par l’utilisateur via des clics ou des zones dans la vidéo.
+3. **Édition audio ciblée :** Modifier l’audio généré à l’aide d’instructions en langage naturel de haut niveau.
 
-![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- Un jeu de données à grande échelle annoté CoT (**AudioCoT**) est utilisé pour entraîner à la fois le module de raisonnement et le modèle audio de base unifié.
+![Aperçu ThinkSound](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
+<!-- Un jeu de données annoté à grande échelle en CoT (**AudioCoT**) est utilisé pour entraîner à la fois le module de raisonnement et le modèle fondation audio unifié.
 ![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
@@ -81,7 +85,6 @@ ThinkSound décompose la génération et l'édition audio en trois étapes inter
 ## ⚡ Démarrage rapide
 
 **Préparation de l'environnement :**
-
 ```bash
 git clone https://github.com/liuhuadai/ThinkSound.git
 cd ThinkSound
@@ -159,7 +162,9 @@ Pour une expérience interactive, lancez l’interface web Gradio :
 ```bash
 python app.py
 ```
-## 🏋️ Entraîner le modèle
+
+
+## 🏋️ Entraînez le modèle
 
 Voir [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)
 
@@ -167,18 +172,18 @@ Voir [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/ma
 ---
 
 ## 📝 À faire & Plans futurs
-* - [ ] Open-source du jeu de données AudioCoT et pipeline automatisé (Attendu avant le 23/07/2025)
-* - [ ] Publication d’un modèle de base plus puissant couvrant plusieurs domaines pour offrir une création foley plus engageante et immersive (Attendu pour fin août 2025)
-* - [ ] Ajouter la prise en charge de modalités supplémentaires et de tâches aval (Attendu avant fin juillet 2025)
-* - [ ] Publication de modèles à différentes échelles (Attendu avant fin juillet 2025)
+* - [ ] Publier un modèle de base plus puissant couvrant plusieurs domaines pour offrir une création de foley plus engageante et immersive
+* - [ ] Ajouter la prise en charge de modalités supplémentaires et de tâches aval
+* - [ ] Publier des modèles à différentes échelles
+* - [x] Open source du jeu de données AudioCoT et du pipeline automatisé
 * - [x] Publication des scripts d'entraînement pour les modèles ThinkSound
-* - [x] Un guide de démarrage rapide convivial sous Windows
+* - [x] Un README de démarrage rapide convivial pour Windows
 ---
 
 
 ## 📄 Licence
 
-Ce projet est publié sous licence Apache 2.0.
+Ce projet est publié sous la licence Apache 2.0.
 
 > **Remarque :**
 > Le code, les modèles et le jeu de données sont **uniquement destinés à la recherche et à l'éducation**.
@@ -188,10 +193,10 @@ Ce projet est publié sous licence Apache 2.0.
 **📦 Composants tiers**
 
 * **Stable Audio Open VAE** (par Stability AI) :
-  Ce dépôt inclut un VAE affiné à partir de [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), sous licence [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).
+  Ce dépôt inclut un VAE affiné issu de [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), sous licence [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).
   **L'utilisation commerciale et la redistribution nécessitent l'autorisation préalable de Stability AI.**
 
-* 📘 **Tout le reste du code et des modèles** sont publiés sous licence Apache 2.0.
+* 📘 **Tout le reste du code et des modèles** est publié sous la licence Apache 2.0.
 
 ---
 
@@ -200,17 +205,15 @@ Ce projet est publié sous licence Apache 2.0.
 Un grand merci à :
 
 * **stable-audio-tools** (par Stability AI) :
-Pour avoir fourni un cadre facile à utiliser pour la génération audio, ainsi que le module VAE et ses poids.
+Pour avoir fourni un cadre facile à utiliser pour la génération audio, ainsi que le module VAE et les poids.
 * **MMAudio** :
-  Pour l’implémentation du backbone MM-DiT dans le domaine audio.
+  Pour l’implémentation de l’architecture MM-DiT dans le domaine audio.
 
 ---
 
 ## 📖 Citation
 
-Si ThinkSound vous a été utile dans vos recherches ou votre travail, veuillez citer notre article :
-
-
+Si ThinkSound vous est utile dans vos recherches ou travaux, veuillez citer notre article :
 
 ```bibtex
 @misc{liu2025thinksoundchainofthoughtreasoningmultimodal,
@@ -223,15 +226,18 @@ Si ThinkSound vous a été utile dans vos recherches ou votre travail, veuillez 
       url={https://arxiv.org/abs/2506.21448}, 
 }
 ```
+
 ---
 
 ## 📬 Contact
 
-✨ N'hésitez pas à [ouvrir une issue](https://github.com/liuhuadai/ThinkSound/issues) ou à nous contacter par email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) si vous avez des questions ou des suggestions !
+
+✨ Feel free to [open an issue](https://github.com/liuhuadai/ThinkSound/issues) or contact us via email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) if you have any questions or suggestions!
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
 
 ---

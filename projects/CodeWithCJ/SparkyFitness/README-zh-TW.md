@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 語言</summary>
@@ -7,22 +8,22 @@
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">簡體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">हिन्दी</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">ไทย</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">Polski</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">العربية</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">فارسی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">Türkçe</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">Tiếng Việt</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">Bahasa Indonesia</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">韓國語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">印地語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">泰語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">法語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">德語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">西班牙語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">義大利語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">俄語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">葡萄牙語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">荷蘭語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">波蘭語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">阿拉伯語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">波斯語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">土耳其語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">越南語</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">印尼語</a></p>
       </div>
     </div>
   </details>
@@ -30,66 +31,66 @@
 
 # SparkyFitness - MyFitnessPal 的自架替代方案
 
-SparkyFitness 是一款全方位的健身追蹤與管理應用程式，旨在協助用戶監控營養、運動和身體數據。它提供每日進度追蹤、目標設定及深入報告等工具，助你維持健康生活方式。
+SparkyFitness 是一套全面的健身追蹤與管理應用程式，設計用於協助使用者監控營養、運動及身體數據。它提供每日進度追蹤、目標設定及詳細報告工具，助你維持健康生活方式。
 
 文件： https://codewithcj.github.io/SparkyFitness
 
-## ✨ 功能特色
+## ✨ 功能
 
 ### 🍎 營養追蹤
 
-* **記錄每日餐點**
-* **建立與管理自訂食物及分類**
-* **以互動圖表檢視摘要並分析趨勢**
+* **記錄您的每日餐點**
+* **建立並管理自訂食物和分類**
+* **透過互動式圖表檢視摘要並分析趨勢**
 
 ### 💪 運動紀錄
 
-* **記錄你的運動訓練**
-* **瀏覽並搜尋完整運動資料庫**
-* **追蹤一段時間內的健身進展**
+* **記錄您的運動活動**
+* **瀏覽並搜尋完整的運動資料庫**
+* **追蹤健身進展**
 
-### 💧 飲水量監控
+### 💧 飲水攝取監控
 
-* **追蹤每日補水目標**
+* **追蹤每日飲水目標**
 * **簡單快速地記錄飲水量**
 
-### 📏 身體數據
+### 📏 身體測量
 
-* **記錄身體指標**（如體重、腰圍、手臂等）
+* **記錄身體指標**（例如體重、腰圍、手臂）
 * **新增自訂測量類型**
-* **透過圖表視覺化進度**
+* **以圖表視覺化進展**
 
 ### 🎯 目標設定
 
 * **設定並管理健身與營養目標**
-* **隨時間追蹤達成進度**
+* **長期追蹤進度**
 
 ### 🗓️ 每日簽到
 
 * **監控每日活動**
-* **透過習慣追蹤保持一致性**
+* **透過習慣追蹤保持一致**
 
 ### 🤖 AI 營養教練（SparkyAI）
 
 * **透過聊天記錄食物、運動、身體數據及步數**
-* **上傳食物照片自動記錄餐點**
-* **包含聊天歷史與個人化指導**
+* **上傳食物圖片自動記錄餐點**
+* **包含聊天紀錄及個人化指導**
 
-### 🔒 用戶驗證與個人檔案
+### 🔒 使用者驗證與個人檔案
 
 * **安全登入系統**
-* **在不同用戶檔案間切換**
-* **支援家庭成員存取與管理**
+* **切換使用者個人檔案**
+* **支援家庭存取與管理**
 
 ### 📊 全面性報告
 
 * **產生營養與身體指標摘要**
-* **追蹤數週至數月的長期趨勢**
+* **追蹤數週或數月的長期趨勢**
 
 ### 🎨 可自訂主題
 
 * **切換明亮與深色模式**
-* **採用極簡且無干擾介面設計**
+* **以極簡、無干擾介面設計**
 
 ### 需要協助嗎？
 * **加入 Discord**
@@ -97,12 +98,11 @@ SparkyFitness 是一款全方位的健身追蹤與管理應用程式，旨在協
 * **在討論區發文**
 
 
-
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-## 🚀 快速開始
+## � 快速開始
 
-只需幾分鐘即可啟動 SparkyFitness：
+幾分鐘內即可啟動 SparkyFitness：
 
 ```bash
 # Clone the repository
@@ -117,24 +117,25 @@ cp docker/.env.example .env
 
 # Access application at http://localhost:8080
 ```
+
 ## 📖 文件說明
 
-如需完整的安裝指南、開發環境設置和使用說明，請參閱我們的詳細文件：
+完整的安裝指南、開發設定與使用說明，請參閱我們的詳細文件：
 
 **👉 [SparkyFitness 文件網站](https://codewithcj.github.io/SparkyFitness)**
 
 ### 快速連結
 
-- **[🚀 新手入門](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 開發與正式環境的完整設置指南
-- **[🐳 Docker 指南](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker 部署與配置
-- **[🔧 開發流程](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 開發者指南與貢獻流程  
+- **[🚀 入門指南](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 開發與正式環境完整設定指南
+- **[🐳 Docker 指南](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker 部署與設定
+- **[🔧 開發工作流程](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 開發者指南與貢獻流程  
 - **[📊 功能總覽](https://codewithcj.github.io/SparkyFitness/features/)** - 完整功能文件
-- **[🏗️ 架構說明](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技術架構與設計
+- **[🏗️ 架構設計](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技術架構與設計
+- 請參考 Wiki 以取得範例環境設定及行動應用程式配置。
 
 ## 🐳 Docker 部署
 
 **正式環境（推薦）：**
-
 ```bash
 cp docker/.env.example .env  # Edit as needed
 ./docker/docker-helper.sh prod up
@@ -167,6 +168,6 @@ cp docker/.env.example .env  # Edit as needed
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
 
 ---

@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Idioma</summary>
@@ -28,9 +29,9 @@
   </details>
 </div>
 
-# SparkyFitness - Alternativa autoalojada a MyFitnessPal
+# SparkyFitness - Alternativa autoalojada de MyFitnessPal
 
-SparkyFitness es una aplicación integral para el seguimiento y gestión del estado físico, diseñada para ayudar a los usuarios a monitorear su nutrición, ejercicio y medidas corporales. Ofrece herramientas para el seguimiento diario del progreso, establecimiento de objetivos e informes detallados para apoyar un estilo de vida saludable.
+SparkyFitness es una aplicación integral de seguimiento y gestión de fitness diseñada para ayudar a los usuarios a monitorear su nutrición, ejercicio y medidas corporales. Proporciona herramientas para el seguimiento diario del progreso, establecimiento de objetivos e informes detallados para apoyar un estilo de vida saludable.
 
 Documentación: https://codewithcj.github.io/SparkyFitness
 
@@ -42,67 +43,66 @@ Documentación: https://codewithcj.github.io/SparkyFitness
 * **Crea y gestiona alimentos y categorías personalizadas**
 * **Visualiza resúmenes y analiza tendencias con gráficos interactivos**
 
-### 💪 Registro de Ejercicios
+### 💪 Registro de Ejercicio
 
 * **Registra tus entrenamientos**
-* **Busca y explora una base de datos de ejercicios completa**
-* **Sigue tu progreso físico a lo largo del tiempo**
+* **Explora y busca en una base de datos completa de ejercicios**
+* **Haz seguimiento al progreso físico a lo largo del tiempo**
 
 ### 💧 Monitoreo de Ingesta de Agua
 
-* **Monitorea objetivos diarios de hidratación**
+* **Haz seguimiento a los objetivos diarios de hidratación**
 * **Registro de agua simple y rápido**
 
-### 📏 Medidas Corporales
+### 📏 Mediciones Corporales
 
-* **Registra métricas corporales** (ej. peso, cintura, brazos)
+* **Registra métricas corporales** (por ejemplo, peso, cintura, brazos)
 * **Agrega tipos de medición personalizados**
-* **Visualiza el progreso a través de gráficos**
+* **Visualiza el progreso mediante gráficos**
 
-### 🎯 Establecimiento de Objetivos
+### 🎯 Establecimiento de Metas
 
-* **Establece y gestiona objetivos de fitness y nutrición**
-* **Haz seguimiento del progreso a lo largo del tiempo**
+* **Establece y gestiona metas de fitness y nutrición**
+* **Haz seguimiento al progreso a lo largo del tiempo**
 
-### 🗓️ Revisiones Diarias
+### 🗓️ Chequeos Diarios
 
-* **Monitorea tu actividad diaria**
-* **Mantén la constancia con el seguimiento de hábitos**
+* **Monitorea la actividad diaria**
+* **Mantén la consistencia con el seguimiento de hábitos**
 
-### 🤖 Coach de Nutrición IA (SparkyAI)
+### 🤖 Coach Nutricional AI (SparkyAI)
 
-* **Registra alimentos, ejercicios, estadísticas corporales y pasos por chat**
+* **Registra alimentos, ejercicio, estadísticas corporales y pasos vía chat**
 * **Sube imágenes de alimentos para registrar comidas automáticamente**
 * **Incluye historial de chat y orientación personalizada**
 
-### 🔒 Autenticación y Perfiles de Usuario
+### 🔒 Autenticación de Usuario y Perfiles
 
 * **Sistema de inicio de sesión seguro**
-* **Cambia entre perfiles de usuario**
+* **Cambiar entre perfiles de usuario**
 * **Soporte para acceso y gestión familiar**
 
-### 📊 Informes Integrales
+### 📊 Informes completos
 
-* **Genera resúmenes de nutrición y métricas corporales**
-* **Haz seguimiento de tendencias a largo plazo por semanas o meses**
+* **Generar resúmenes de nutrición y métricas corporales**
+* **Seguimiento de tendencias a largo plazo por semanas o meses**
 
-### 🎨 Temas Personalizables
+### 🎨 Temas personalizables
 
-* **Cambia entre modo claro y oscuro**
+* **Cambiar entre modo claro y oscuro**
 * **Diseñado con una interfaz minimalista y libre de distracciones**
 
-### ¿Necesitas Ayuda?
+### ¿Necesitas ayuda?
 * **Únete a Discord**
   https://discord.gg/vcnMT5cPEA
 * **Publica en el foro de discusión**
 
 
+![imagen](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
+## � Inicio rápido
 
-## 🚀 Inicio Rápido
-
-Haz que SparkyFitness funcione en minutos:
+Pon SparkyFitness en marcha en minutos:
 
 ```bash
 # Clone the repository
@@ -117,6 +117,7 @@ cp docker/.env.example .env
 
 # Access application at http://localhost:8080
 ```
+
 ## 📖 Documentación
 
 Para guías completas de instalación, configuración de desarrollo e instrucciones de uso, visita nuestra documentación completa:
@@ -125,16 +126,16 @@ Para guías completas de instalación, configuración de desarrollo e instruccio
 
 ### Enlaces Rápidos
 
-- **[🚀 Primeros Pasos](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Guía completa de configuración para desarrollo y producción
-- **[🐳 Guía Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Despliegue y configuración con Docker
+- **[🚀 Primeros Pasos](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Guía de configuración completa para desarrollo y producción
+- **[🐳 Guía de Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Despliegue y configuración con Docker
 - **[🔧 Flujo de Trabajo de Desarrollo](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Guía para desarrolladores y proceso de contribución  
-- **[📊 Descripción de Funcionalidades](https://codewithcj.github.io/SparkyFitness/features/)** - Documentación completa de funcionalidades
+- **[📊 Resumen de Características](https://codewithcj.github.io/SparkyFitness/features/)** - Documentación completa de características
 - **[🏗️ Arquitectura](https://codewithcj.github.io/SparkyFitness/app-overview)** - Arquitectura técnica y diseño
+- Consulta el Wiki para ejemplos de configuración de entorno y configuración de la App Móvil.
 
 ## 🐳 Despliegue con Docker
 
 **Producción (recomendado):**
-
 ```bash
 cp docker/.env.example .env  # Edit as needed
 ./docker/docker-helper.sh prod up
@@ -167,6 +168,6 @@ Es posible que deba cambiar variables de entorno/Docker para las nuevas versione
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
 
 ---

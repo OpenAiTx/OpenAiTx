@@ -100,7 +100,7 @@ Docs: https://codewithcj.github.io/SparkyFitness
 
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-## 🚀 Quick Start
+## � Quick Start
 
 Get SparkyFitness running in minutes:
 
@@ -131,6 +131,7 @@ For complete installation guides, development setup, and usage instructions, vis
 - **[🔧 Development Workflow](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Developer guide and contribution process  
 - **[📊 Features Overview](https://codewithcj.github.io/SparkyFitness/features/)** - Complete feature documentation
 - **[🏗️ Architecture](https://codewithcj.github.io/SparkyFitness/app-overview)** - Technical architecture and design
+- Refer WIiki for sample env setup and Mobile App configuration.
 
 ## 🐳 Docker Deployment
 

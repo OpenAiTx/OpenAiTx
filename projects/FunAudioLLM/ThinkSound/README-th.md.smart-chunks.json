@@ -1,12 +1,12 @@
 [
   {
     "Id": 1,
-    "Content": "<h1 align=\"center\">ThinkSound</h1>\n\n<p align=\"center\">\n  🌐\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=en\">English</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-CN\">简体中文</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-TW\">繁體中文</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=es\">Español</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=fr\">Français</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=ja\">日本語</a>\n  \n</p>\n\n<p align=\"center\">\n  <a href=\"https://arxiv.org/pdf/2506.21448\">\n    <img src=\"https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg\" alt=\"arXiv\"/>\n  </a>\n  &nbsp;\n  <a href=\"https://thinksound-project.github.io/\">\n    <img src=\"https://img.shields.io/badge/Online%20Demo-🌐-blue\" alt=\"Online Demo\"/>\n  </a>\n  &nbsp;\n  <a href=\"https://huggingface.co/spaces/FunAudioLLM/ThinkSound\">\n    <img src=\"https://img.shields.io/badge/HuggingFace-Spaces-orange?logo=huggingface\" alt=\"Hugging Face\"/>\n  </a>\n  &nbsp;\n  <a href=\"https://modelscope.cn/studios/iic/ThinkSound\">\n    <img src=\"https://img.shields.io/badge/ModelScope-在线体验-green\" alt=\"ModelScope\"/>\n  </a>\n</p>\n\n<p align=\"center\">\n  If you find this project useful,<br>\n  a star ⭐ on GitHub would be greatly appreciated!\n</p>\n\n---\n\n**ThinkSound** is a unified Any2Audio generation framework with flow matching guided by Chain-of-Thought (CoT) reasoning.\n\nPyTorch implementation for multimodal audio generation and editing: generate or edit audio from video, text, and audio, powered by step-by-step reasoning from Multimodal Large Language Models (MLLMs).\n\n![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)\n---\n\n## 📰 News\n- **2025.07.17** &nbsp; 🧠 Finetuning enabled: training and finetuning code is now publicly available, along with clear usage instructions to help you customize and extend ThinkSound with your own data.\n- **2025.07.15** &nbsp; 📦 Simplified installation and usability: dependencies on PyPI for easy cross-platform setup; Windows `.bat` scripts automate environment creation and script running.\n- **2025.07.08** &nbsp;  🔧 Major update: model lightweighted and optimized memory and GPU usage, now supports high-throughput audio generation at scale!\n- **2025.07.01** &nbsp; 🔥Online demo on [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) and [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) for interactive experience!\n- **2025.07.01** &nbsp; 🔥Released inference scripts and web interface; \n- **2025.06** &nbsp; 🔥[ThinkSound paper](https://arxiv.org/pdf/2506.21448) released on arXiv!\n- **2025.06** &nbsp; 🔥[Online Demo](http://thinksound-project.github.io/) is live - try it now!\n\n---\n\n\n## 🚀 Features\n\n- **Any2Audio**: Generate audio from arbitrary modalities — video, text, audio, or their combinations.\n- **Video-to-Audio SOTA**: Achieves state-of-the-art results on multiple V2A benchmarks.\n- **CoT-Driven Reasoning**: Chain-of-Thought reasoning for compositional and controllable audio generation via MLLMs.\n- **Interactive Object-centric Editing**: Refine or edit specific sound events by clicking on visual objects or using text instructions.\n- **Unified Framework**: One foundation model supports generation, editing, and interactive workflow.\n\n---\n\n## ✨ Method Overview\n\nThinkSound decomposes audio generation and editing into three interactive stages, all guided by MLLM-based Chain-of-Thought (CoT) reasoning:\n\n1. **Foley Generation:** Generate foundational, semantically and temporally aligned soundscapes from video.\n2. **Object-Centric Refinement:** Refine or add sounds for user-specified objects via clicks or regions in the video.\n3. **Targeted Audio Editing:** Modify generated audio using high-level natural language instructions.\n\n![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)\n<!-- A large-scale CoT-annotated dataset (**AudioCoT**) is used to train both the reasoning module and the unified audio foundation model.\n![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->\n\n---\n\n## ⚡ Quick Start\n\n**Environment Preparation:**",
-    "ContentSha": "4/bI+NRdw8asyoBT7fbmw53SyxDNRbIwFef01YDcY9Q=",
+    "Content": "<h1 align=\"center\">ThinkSound</h1>\n\n<p align=\"center\">\n  🌐\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=en\">English</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-CN\">简体中文</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-TW\">繁體中文</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=es\">Español</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=fr\">Français</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=ja\">日本語</a>\n  \n</p>\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/NeurIPS 2025-Main Conference-blue.svg\" alt=\"NeurIPS 2025\"/>\n<p align=\"center\">\n  <a href=\"https://arxiv.org/pdf/2506.21448\">\n    <img src=\"https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg\" alt=\"arXiv\"/>\n  </a>\n  &nbsp;\n  <a href=\"https://thinksound-project.github.io/\">\n    <img src=\"https://img.shields.io/badge/Online%20Demo-🌐-blue\" alt=\"Online Demo\"/>\n  </a>\n  &nbsp;\n  <a href=\"https://huggingface.co/spaces/FunAudioLLM/ThinkSound\">\n    <img src=\"https://img.shields.io/badge/HuggingFace-Spaces-orange?logo=huggingface\" alt=\"Hugging Face\"/>\n  </a>\n  &nbsp;\n  <a href=\"https://modelscope.cn/studios/iic/ThinkSound\">\n    <img src=\"https://img.shields.io/badge/ModelScope-在线体验-green\" alt=\"ModelScope\"/>\n  </a>\n</p>\n\n<p align=\"center\">\n  If you find this project useful,<br>\n  a star ⭐ on GitHub would be greatly appreciated!\n</p>\n\n---\n\n**ThinkSound** is a unified Any2Audio generation framework with flow matching guided by Chain-of-Thought (CoT) reasoning.",
+    "ContentSha": "3764VshEOMedejxsV+uo8k5R5Emk0MLuYfIOX8JadcY=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<h1 align=\"center\">ThinkSound</h1>\n\n<p align=\"center\">\n  🌐\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=en\">English</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-CN\">简体中文</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-TW\">繁體中文</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=es\">Español</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=fr\">Français</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=ja\">日本語</a>\n  \n</p>\n\n<p align=\"center\">\n  <a href=\"https://arxiv.org/pdf/2506.21448\">\n    <img src=\"https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg\" alt=\"arXiv\"/>\n  </a>\n  &nbsp;\n  <a href=\"https://thinksound-project.github.io/\">\n    <img src=\"https://img.shields.io/badge/Online%20Demo-🌐-blue\" alt=\"Online Demo\"/>\n  </a>\n  &nbsp;\n  <a href=\"https://huggingface.co/spaces/FunAudioLLM/ThinkSound\">\n    <img src=\"https://img.shields.io/badge/HuggingFace-Spaces-orange?logo=huggingface\" alt=\"Hugging Face\"/>\n  </a>\n  &nbsp;\n  <a href=\"https://modelscope.cn/studios/iic/ThinkSound\">\n    <img src=\"https://img.shields.io/badge/ModelScope-在线体验-green\" alt=\"ModelScope\"/>\n  </a>\n</p>\n\n<p align=\"center\">\n  หากคุณพบว่าโปรเจกต์นี้มีประโยชน์<br>\n  การให้ดาว ⭐ บน GitHub จะได้รับการขอบคุณเป็นอย่างยิ่ง!\n</p>\n\n---\n\n**ThinkSound** คือเฟรมเวิร์กการสร้างเสียง Any2Audio แบบครบวงจร ที่ใช้ flow matching และได้รับการชี้นำโดย Chain-of-Thought (CoT) reasoning\n\nการใช้งาน PyTorch สำหรับสร้างเสียงและแก้ไขเสียงแบบมัลติโหมด: สร้างหรือแก้ไขเสียงจากวิดีโอ ข้อความ และเสียง โดยขับเคลื่อนด้วยการให้เหตุผลทีละขั้นตอนจาก Multimodal Large Language Models (MLLMs)\n\n![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)\n---\n\n## 📰 ข่าวสาร\n- **2025.07.17** &nbsp; 🧠 รองรับ Finetuning: โค้ดสำหรับการฝึกและปรับแต่งเปิดให้ใช้งานสาธารณะ พร้อมคำแนะนำใช้งานชัดเจน ช่วยให้คุณปรับแต่งและขยาย ThinkSound ด้วยข้อมูลของคุณเอง\n- **2025.07.15** &nbsp; 📦 ติดตั้งและใช้งานง่ายขึ้น: มี dependencies บน PyPI สำหรับการติดตั้งข้ามแพลตฟอร์ม; สคริปต์ Windows `.bat` ช่วยสร้างสภาพแวดล้อมและรันโค้ดโดยอัตโนมัติ\n- **2025.07.08** &nbsp;  🔧 อัปเดตใหญ่: โมเดลเบาขึ้น ใช้หน่วยความจำและ GPU อย่างมีประสิทธิภาพ รองรับการสร้างเสียงปริมาณมาก!\n- **2025.07.01** &nbsp; 🔥เดโมออนไลน์บน [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) และ [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) สำหรับประสบการณ์โต้ตอบ!\n- **2025.07.01** &nbsp; 🔥ปล่อยสคริปต์ inference และอินเทอร์เฟซเว็บแล้ว;\n- **2025.06** &nbsp; 🔥[เผยแพร่บทความ ThinkSound](https://arxiv.org/pdf/2506.21448) บน arXiv!\n- **2025.06** &nbsp; 🔥[เดโมออนไลน์](http://thinksound-project.github.io/) เปิดให้ลองใช้งานแล้ว!\n\n---\n\n\n## 🚀 คุณสมบัติเด่น\n\n- **Any2Audio**: สร้างเสียงจากมัลติโหมดใดๆ — วิดีโอ ข้อความ เสียง หรือผสมผสานกัน\n- **Video-to-Audio SOTA**: ทำผลงานล้ำสมัยบน benchmark V2A หลายชุด\n- **CoT-Driven Reasoning**: เหตุผลแบบ Chain-of-Thought เพื่อการสร้างเสียงเชิงประกอบและควบคุมได้ผ่าน MLLMs\n- **Interactive Object-centric Editing**: ปรับแต่งหรือแก้ไขเสียงเจาะจงเหตุการณ์ด้วยการคลิกที่วัตถุในภาพหรือใช้คำสั่งข้อความ\n- **Unified Framework**: โมเดลหลักเดียวรองรับการสร้าง แก้ไข และเวิร์กโฟลว์แบบโต้ตอบ\n\n---\n\n## ✨ ภาพรวมวิธีการ\n\nThinkSound แบ่งกระบวนการสร้างและแก้ไขเสียงออกเป็น 3 ขั้นตอนโต้ตอบกัน โดยทั้งหมดขับเคลื่อนด้วย Chain-of-Thought (CoT) reasoning จาก MLLM:\n\n1. **Foley Generation:** สร้างซาวด์สเคปพื้นฐานที่สอดคล้องกับความหมายและเวลา จากวิดีโอ\n2. **Object-Centric Refinement:** ปรับแต่งหรือเพิ่มเสียงให้วัตถุที่ผู้ใช้ระบุ ผ่านการคลิกหรือเลือกบริเวณในวิดีโอ\n3. **Targeted Audio Editing:** แก้ไขเสียงที่สร้างขึ้นด้วยคำสั่งภาษาธรรมชาติระดับสูง\n\n![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)\n<!-- ชุดข้อมูลขนาดใหญ่ที่มีการใส่ annotation แบบ CoT (**AudioCoT**) ใช้ฝึกทั้งโมดูล reasoning และโมเดลเสียงหลักแบบครบวงจร\n![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->\n\n---\n\n## ⚡ เริ่มต้นอย่างรวดเร็ว\n\n**การเตรียมสภาพแวดล้อม:**",
+    "Translation": "<h1 align=\"center\">ThinkSound</h1>\n\n<p align=\"center\">\n  🌐\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=en\">English</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-CN\">简体中文</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=zh-TW\">繁體中文</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=es\">Español</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=fr\">Français</a> |\n  <a href=\"https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=ja\">日本語</a>\n  \n</p>\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/NeurIPS 2025-Main Conference-blue.svg\" alt=\"NeurIPS 2025\"/>\n<p align=\"center\">\n  <a href=\"https://arxiv.org/pdf/2506.21448\">\n    <img src=\"https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg\" alt=\"arXiv\"/>\n  </a>\n  &nbsp;\n  <a href=\"https://thinksound-project.github.io/\">\n    <img src=\"https://img.shields.io/badge/Online%20Demo-🌐-blue\" alt=\"Online Demo\"/>\n  </a>\n  &nbsp;\n  <a href=\"https://huggingface.co/spaces/FunAudioLLM/ThinkSound\">\n    <img src=\"https://img.shields.io/badge/HuggingFace-Spaces-orange?logo=huggingface\" alt=\"Hugging Face\"/>\n  </a>\n  &nbsp;\n  <a href=\"https://modelscope.cn/studios/iic/ThinkSound\">\n    <img src=\"https://img.shields.io/badge/ModelScope-在线体验-green\" alt=\"ModelScope\"/>\n  </a>\n</p>\n\n<p align=\"center\">\n  หากคุณพบว่าโปรเจ็กต์นี้มีประโยชน์,<br>\n  การให้ดาว ⭐ บน GitHub จะได้รับการชื่นชมเป็นอย่างยิ่ง!\n</p>\n\n---\n\n**ThinkSound** คือกรอบงานการสร้างเสียง Any2Audio แบบรวมศูนย์ โดยใช้การจับคู่การไหลที่ถูกชี้นำด้วยเหตุผล Chain-of-Thought (CoT)",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -83,153 +83,406 @@
       },
       {
         "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
         "translatedContent": "<p align=\"center\">"
       },
       {
+        "row": 14,
+        "rowsha": "u6qveIBtgMElVk/Aw6sAj4eJ8Fk+KrPya5ZyECHKRqA=",
+        "originContent": "  <img src=\"https://img.shields.io/badge/NeurIPS 2025-Main Conference-blue.svg\" alt=\"NeurIPS 2025\"/>",
+        "translatedContent": "  <img src=\"https://img.shields.io/badge/NeurIPS 2025-Main Conference-blue.svg\" alt=\"NeurIPS 2025\"/>"
+      },
+      {
         "row": 15,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 16,
         "rowsha": "U41oE9v936BfSGDgJuMB1g3jQTqsJtmJPQUhVonUNHI=",
         "originContent": "  <a href=\"https://arxiv.org/pdf/2506.21448\">",
         "translatedContent": "  <a href=\"https://arxiv.org/pdf/2506.21448\">"
       },
       {
-        "row": 16,
+        "row": 17,
         "rowsha": "ynIImIY0Z2jVqizQykbwGTP/PcL0XGIQs5BslFVtz58=",
         "originContent": "    <img src=\"https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg\" alt=\"arXiv\"/>",
         "translatedContent": "    <img src=\"https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg\" alt=\"arXiv\"/>"
       },
       {
-        "row": 17,
+        "row": 18,
         "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
         "originContent": "  </a>",
         "translatedContent": "  </a>"
       },
       {
-        "row": 18,
+        "row": 19,
         "rowsha": "robEj93GNR0ga47/E63BGVUMman0bHA00TiujTzIdqs=",
         "originContent": "  &nbsp;",
         "translatedContent": "  &nbsp;"
       },
       {
-        "row": 19,
+        "row": 20,
         "rowsha": "Yff0X0Mje5Jr8Vv7MEJie2CoYJL+UpE7RrCgKgVeN0c=",
         "originContent": "  <a href=\"https://thinksound-project.github.io/\">",
         "translatedContent": "  <a href=\"https://thinksound-project.github.io/\">"
       },
       {
-        "row": 20,
+        "row": 21,
         "rowsha": "H+PqZbUh0elg8uffxX9z5kKKpS5/odGusuxfm7oCW7w=",
         "originContent": "    <img src=\"https://img.shields.io/badge/Online%20Demo-🌐-blue\" alt=\"Online Demo\"/>",
         "translatedContent": "    <img src=\"https://img.shields.io/badge/Online%20Demo-🌐-blue\" alt=\"Online Demo\"/>"
       },
       {
-        "row": 21,
+        "row": 22,
         "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
         "originContent": "  </a>",
         "translatedContent": "  </a>"
       },
       {
-        "row": 22,
+        "row": 23,
         "rowsha": "robEj93GNR0ga47/E63BGVUMman0bHA00TiujTzIdqs=",
         "originContent": "  &nbsp;",
         "translatedContent": "  &nbsp;"
       },
       {
-        "row": 23,
+        "row": 24,
         "rowsha": "8w8i7BBaV0MFFj9oV8SQ9+mUcgmT0lDsYIGPYBRMK4k=",
         "originContent": "  <a href=\"https://huggingface.co/spaces/FunAudioLLM/ThinkSound\">",
         "translatedContent": "  <a href=\"https://huggingface.co/spaces/FunAudioLLM/ThinkSound\">"
       },
       {
-        "row": 24,
+        "row": 25,
         "rowsha": "MShdQrgDW0rCwuvHGbK9UiqT/w2XoWfU6MCC4EQ8Oo0=",
         "originContent": "    <img src=\"https://img.shields.io/badge/HuggingFace-Spaces-orange?logo=huggingface\" alt=\"Hugging Face\"/>",
         "translatedContent": "    <img src=\"https://img.shields.io/badge/HuggingFace-Spaces-orange?logo=huggingface\" alt=\"Hugging Face\"/>"
       },
       {
-        "row": 25,
+        "row": 26,
         "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
         "originContent": "  </a>",
         "translatedContent": "  </a>"
       },
       {
-        "row": 26,
+        "row": 27,
         "rowsha": "robEj93GNR0ga47/E63BGVUMman0bHA00TiujTzIdqs=",
         "originContent": "  &nbsp;",
         "translatedContent": "  &nbsp;"
       },
       {
-        "row": 27,
+        "row": 28,
         "rowsha": "ycu3inIAlcQNI/CFyarNMwyiRfw4GtBsvcc/0LcD3c0=",
         "originContent": "  <a href=\"https://modelscope.cn/studios/iic/ThinkSound\">",
         "translatedContent": "  <a href=\"https://modelscope.cn/studios/iic/ThinkSound\">"
       },
       {
-        "row": 28,
+        "row": 29,
         "rowsha": "4Z9FQa2ROL8/O+DmziXnhj/aKyTxS9GGOmocWYnVJ6g=",
         "originContent": "    <img src=\"https://img.shields.io/badge/ModelScope-在线体验-green\" alt=\"ModelScope\"/>",
         "translatedContent": "    <img src=\"https://img.shields.io/badge/ModelScope-在线体验-green\" alt=\"ModelScope\"/>"
       },
       {
-        "row": 29,
+        "row": 30,
         "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
         "originContent": "  </a>",
         "translatedContent": "  </a>"
       },
       {
-        "row": 30,
+        "row": 31,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
         "translatedContent": "</p>"
       },
       {
-        "row": 31,
+        "row": 32,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 32,
+        "row": 33,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
         "translatedContent": "<p align=\"center\">"
       },
       {
-        "row": 33,
+        "row": 34,
         "rowsha": "fxEtxfqHrh5PDQ2L/Ev2ea69zRukpezpCLPOHXsEpDw=",
         "originContent": "  If you find this project useful,<br>",
-        "translatedContent": "  หากคุณพบว่าโปรเจกต์นี้มีประโยชน์<br>"
-      },
-      {
-        "row": 34,
-        "rowsha": "oOAWVtx09WaVCvchPgX0GhZlzuPjXH1p6nhjfyZ2aS8=",
-        "originContent": "  a star ⭐ on GitHub would be greatly appreciated!",
-        "translatedContent": "  การให้ดาว ⭐ บน GitHub จะได้รับการขอบคุณเป็นอย่างยิ่ง!"
+        "translatedContent": "  หากคุณพบว่าโปรเจ็กต์นี้มีประโยชน์,<br>"
       },
       {
         "row": 35,
+        "rowsha": "oOAWVtx09WaVCvchPgX0GhZlzuPjXH1p6nhjfyZ2aS8=",
+        "originContent": "  a star ⭐ on GitHub would be greatly appreciated!",
+        "translatedContent": "  การให้ดาว ⭐ บน GitHub จะได้รับการชื่นชมเป็นอย่างยิ่ง!"
+      },
+      {
+        "row": 36,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
         "translatedContent": "</p>"
       },
       {
-        "row": 36,
+        "row": 37,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 37,
+        "row": 38,
         "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
         "originContent": "---",
         "translatedContent": "---"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "FQA4zA43MxvNXTogMO1WpS71bCSxerCOM1e/tmSmotg=",
+        "originContent": "**ThinkSound** is a unified Any2Audio generation framework with flow matching guided by Chain-of-Thought (CoT) reasoning.",
+        "translatedContent": "**ThinkSound** คือกรอบงานการสร้างเสียง Any2Audio แบบรวมศูนย์ โดยใช้การจับคู่การไหลที่ถูกชี้นำด้วยเหตุผล Chain-of-Thought (CoT)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nPyTorch implementation for multimodal audio generation and editing: generate or edit audio from video, text, and audio, powered by step-by-step reasoning from Multimodal Large Language Models (MLLMs).\n\n![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)\n---\n\n## 📰 News\n- **2025.09.19** &nbsp; 🎉 ThinkSound has been accepted to the **NeurIPS 2025 Main Conference**!\n- **2025.09.01** &nbsp; 🔥 Our AudioCoT dataset is now open-sourced and available on [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!\n- **2025.07.17** &nbsp; 🧠 Finetuning enabled: training and finetuning code is now publicly available, along with clear usage instructions to help you customize and extend ThinkSound with your own data.\n- **2025.07.15** &nbsp; 📦 Simplified installation and usability: dependencies on PyPI for easy cross-platform setup; Windows `.bat` scripts automate environment creation and script running.\n- **2025.07.08** &nbsp;  🔧 Major update: model lightweighted and optimized memory and GPU usage, now supports high-throughput audio generation at scale!\n- **2025.07.01** &nbsp; 🔥Online demo on [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) and [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) for interactive experience!\n- **2025.07.01** &nbsp; 🔥Released inference scripts and web interface; \n- **2025.06** &nbsp; 🔥[ThinkSound paper](https://arxiv.org/pdf/2506.21448) released on arXiv!\n- **2025.06** &nbsp; 🔥[Online Demo](http://thinksound-project.github.io/) is live - try it now!\n\n---\n\n\n## 🚀 Features\n\n- **Any2Audio**: Generate audio from arbitrary modalities — video, text, audio, or their combinations.\n- **Video-to-Audio SOTA**: Achieves state-of-the-art results on multiple V2A benchmarks.\n- **CoT-Driven Reasoning**: Chain-of-Thought reasoning for compositional and controllable audio generation via MLLMs.\n- **Interactive Object-centric Editing**: Refine or edit specific sound events by clicking on visual objects or using text instructions.\n- **Unified Framework**: One foundation model supports generation, editing, and interactive workflow.\n\n---\n\n## ✨ Method Overview\n\nThinkSound decomposes audio generation and editing into three interactive stages, all guided by MLLM-based Chain-of-Thought (CoT) reasoning:\n\n1. **Foley Generation:** Generate foundational, semantically and temporally aligned soundscapes from video.\n2. **Object-Centric Refinement:** Refine or add sounds for user-specified objects via clicks or regions in the video.\n3. **Targeted Audio Editing:** Modify generated audio using high-level natural language instructions.\n\n![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)\n<!-- A large-scale CoT-annotated dataset (**AudioCoT**) is used to train both the reasoning module and the unified audio foundation model.",
+    "ContentSha": "xWOsD5dMva4LPU9wVQzeoz92/nlNRN5MfF+aKLc1VuU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nการใช้งาน PyTorch สำหรับการสร้างและแก้ไขเสียงมัลติโหมด: สร้างหรือแก้ไขเสียงจากวิดีโอ ข้อความ และเสียง โดยขับเคลื่อนด้วยกระบวนการคิดทีละขั้นจากโมเดลภาษาใหญ่หลายโหมด (MLLMs)\n\n![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)\n---\n\n## 📰 ข่าวสาร\n- **2025.09.19** &nbsp; 🎉 ThinkSound ได้รับการตอบรับเข้าสู่ **NeurIPS 2025 Main Conference**!\n- **2025.09.01** &nbsp; 🔥 ขณะนี้ชุดข้อมูล AudioCoT เปิดให้ใช้งานแบบโอเพ่นซอร์สแล้วบน [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!\n- **2025.07.17** &nbsp; 🧠 เปิดใช้งานการปรับแต่ง: โค้ดการฝึกและปรับแต่งมีให้ใช้งานสาธารณะ พร้อมคำแนะนำการใช้งานที่ชัดเจนเพื่อให้คุณปรับแต่งและขยาย ThinkSound ด้วยข้อมูลของคุณเอง\n- **2025.07.15** &nbsp; 📦 ติดตั้งและใช้งานง่ายขึ้น: ขึ้นกับ PyPI เพื่อการตั้งค่าแบบข้ามแพลตฟอร์ม; สคริปต์ Windows `.bat` อัตโนมัติการสร้างสภาพแวดล้อมและการรันสคริปต์\n- **2025.07.08** &nbsp;  🔧 อัปเดตครั้งใหญ่: โมเดลเบาลงและเพิ่มประสิทธิภาพการใช้หน่วยความจำและ GPU รองรับการสร้างเสียงประสิทธิภาพสูงในขนาดใหญ่!\n- **2025.07.01** &nbsp; 🔥เดโมออนไลน์บน [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) และ [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) เพื่อประสบการณ์แบบโต้ตอบ!\n- **2025.07.01** &nbsp; 🔥เผยแพร่สคริปต์อินเฟอเรนซ์และอินเทอร์เฟซเว็บ;\n- **2025.06** &nbsp; 🔥[งานวิจัย ThinkSound](https://arxiv.org/pdf/2506.21448) เผยแพร่บน arXiv!\n- **2025.06** &nbsp; 🔥[เดโมออนไลน์](http://thinksound-project.github.io/) เปิดให้ใช้งานแล้ว - ลองเลย!\n\n---\n\n\n## 🚀 คุณสมบัติเด่น\n\n- **Any2Audio**: สร้างเสียงจากมัลติโหมดใดก็ได้ — วิดีโอ ข้อความ เสียง หรือผสมกัน\n- **Video-to-Audio SOTA**: ทำผลลัพธ์ระดับแนวหน้าในหลายมาตรฐาน V2A\n- **CoT-Driven Reasoning**: กระบวนการคิดแบบ Chain-of-Thought สำหรับการสร้างเสียงเชิงองค์ประกอบและควบคุมผ่าน MLLMs\n- **Interactive Object-centric Editing**: ปรับแต่งหรือแก้ไขเสียงเหตุการณ์เฉพาะโดยคลิกที่วัตถุภาพหรือใช้คำสั่งข้อความ\n- **Unified Framework**: โมเดลรากฐานเดียวรองรับการสร้าง แก้ไข และเวิร์กโฟลว์เชิงโต้ตอบ\n\n---\n\n## ✨ ภาพรวมวิธีการ\n\nThinkSound แยกกระบวนการสร้างและแก้ไขเสียงออกเป็น 3 ขั้นตอนโต้ตอบ โดยทั้งหมดขับเคลื่อนด้วยกระบวนการคิดแบบ Chain-of-Thought ด้วย MLLM:\n\n1. **การสร้างเสียง Foley:** สร้างบรรยากาศเสียงพื้นฐานที่สอดคล้องกับเนื้อหาและเวลา จากวิดีโอ\n2. **การปรับแต่งวัตถุเฉพาะ:** ปรับแต่งหรือเพิ่มเสียงให้กับวัตถุที่ผู้ใช้ระบุผ่านการคลิกหรือกำหนดพื้นที่ในวิดีโอ\n3. **การแก้ไขเสียงแบบเจาะจง:** แก้ไขเสียงที่สร้างขึ้นโดยใช้คำสั่งภาษาธรรมชาติระดับสูง\n\n![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)\n<!-- ชุดข้อมูลขนาดใหญ่ที่มีการใส่คำอธิบายแบบ Chain-of-Thought (**AudioCoT**) ถูกใช้ในการฝึกทั้งโมดูลเหตุผลและโมเดลเสียงรากฐานแบบรวม",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "eexREJOMCITdo96Iwg4N4PQqu1ux/UwupfjVRj0l/L8=",
+        "originContent": "PyTorch implementation for multimodal audio generation and editing: generate or edit audio from video, text, and audio, powered by step-by-step reasoning from Multimodal Large Language Models (MLLMs).",
+        "translatedContent": "การใช้งาน PyTorch สำหรับการสร้างและแก้ไขเสียงมัลติโหมด: สร้างหรือแก้ไขเสียงจากวิดีโอ ข้อความ และเสียง โดยขับเคลื่อนด้วยกระบวนการคิดทีละขั้นจากโมเดลภาษาใหญ่หลายโหมด (MLLMs)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+7Cx1rdpWiIOeWRA/RM6HsKf7pNA3hHsQk2Bpadt4II=",
+        "originContent": "![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)",
+        "translatedContent": "![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)"
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "0YeCyxpcm7/4RDbaM+OQoI8YfqEHQzDkpGW15VZdi1U=",
+        "originContent": "## 📰 News",
+        "translatedContent": "## 📰 ข่าวสาร"
+      },
+      {
+        "row": 8,
+        "rowsha": "vj2hbV/6MacDcxRmFA0AtTog5xU6CHoqBFO3YMO+yJo=",
+        "originContent": "- **2025.09.19** &nbsp; 🎉 ThinkSound has been accepted to the **NeurIPS 2025 Main Conference**!",
+        "translatedContent": "- **2025.09.19** &nbsp; 🎉 ThinkSound ได้รับการตอบรับเข้าสู่ **NeurIPS 2025 Main Conference**!"
+      },
+      {
+        "row": 9,
+        "rowsha": "cowWEeVmTC64/Cn+su00RYaecArXegbIhiQxYHzseg4=",
+        "originContent": "- **2025.09.01** &nbsp; 🔥 Our AudioCoT dataset is now open-sourced and available on [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!",
+        "translatedContent": "- **2025.09.01** &nbsp; 🔥 ขณะนี้ชุดข้อมูล AudioCoT เปิดให้ใช้งานแบบโอเพ่นซอร์สแล้วบน [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!"
+      },
+      {
+        "row": 10,
+        "rowsha": "4Jq9g83O8cYV4fVKsetfTpI+JrSepLrjK6J7Xg9tSqo=",
+        "originContent": "- **2025.07.17** &nbsp; 🧠 Finetuning enabled: training and finetuning code is now publicly available, along with clear usage instructions to help you customize and extend ThinkSound with your own data.",
+        "translatedContent": "- **2025.07.17** &nbsp; 🧠 เปิดใช้งานการปรับแต่ง: โค้ดการฝึกและปรับแต่งมีให้ใช้งานสาธารณะ พร้อมคำแนะนำการใช้งานที่ชัดเจนเพื่อให้คุณปรับแต่งและขยาย ThinkSound ด้วยข้อมูลของคุณเอง"
+      },
+      {
+        "row": 11,
+        "rowsha": "Ae5w+cTrCd9E8qidC11IWJAgg+LuOgUxA4czDPNG/G0=",
+        "originContent": "- **2025.07.15** &nbsp; 📦 Simplified installation and usability: dependencies on PyPI for easy cross-platform setup; Windows `.bat` scripts automate environment creation and script running.",
+        "translatedContent": "- **2025.07.15** &nbsp; 📦 ติดตั้งและใช้งานง่ายขึ้น: ขึ้นกับ PyPI เพื่อการตั้งค่าแบบข้ามแพลตฟอร์ม; สคริปต์ Windows `.bat` อัตโนมัติการสร้างสภาพแวดล้อมและการรันสคริปต์"
+      },
+      {
+        "row": 12,
+        "rowsha": "nYxNhwgSqjwYLuWsfHAqP5sx2PnzYwoFrwcf9U+Fdss=",
+        "originContent": "- **2025.07.08** &nbsp;  🔧 Major update: model lightweighted and optimized memory and GPU usage, now supports high-throughput audio generation at scale!",
+        "translatedContent": "- **2025.07.08** &nbsp;  🔧 อัปเดตครั้งใหญ่: โมเดลเบาลงและเพิ่มประสิทธิภาพการใช้หน่วยความจำและ GPU รองรับการสร้างเสียงประสิทธิภาพสูงในขนาดใหญ่!"
+      },
+      {
+        "row": 13,
+        "rowsha": "xuARkITJMc1ABOl8/xX47dORDInuxwAsk8O1r5dvfpc=",
+        "originContent": "- **2025.07.01** &nbsp; 🔥Online demo on [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) and [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) for interactive experience!",
+        "translatedContent": "- **2025.07.01** &nbsp; 🔥เดโมออนไลน์บน [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) และ [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) เพื่อประสบการณ์แบบโต้ตอบ!"
+      },
+      {
+        "row": 14,
+        "rowsha": "aIpa8g7qqXl8Iq8shRpiY5Ha5WD8c9Pd9PWybZ+wr18=",
+        "originContent": "- **2025.07.01** &nbsp; 🔥Released inference scripts and web interface; ",
+        "translatedContent": "- **2025.07.01** &nbsp; 🔥เผยแพร่สคริปต์อินเฟอเรนซ์และอินเทอร์เฟซเว็บ;"
+      },
+      {
+        "row": 15,
+        "rowsha": "ynCJTuWmfRd3D7hcoW1WvIQ482zzFcdaXc8pgOG02Tw=",
+        "originContent": "- **2025.06** &nbsp; 🔥[ThinkSound paper](https://arxiv.org/pdf/2506.21448) released on arXiv!",
+        "translatedContent": "- **2025.06** &nbsp; 🔥[งานวิจัย ThinkSound](https://arxiv.org/pdf/2506.21448) เผยแพร่บน arXiv!"
+      },
+      {
+        "row": 16,
+        "rowsha": "se+rRi5CpnStAflq7OZvd/2mN+51ezQQaBeYckrGFCk=",
+        "originContent": "- **2025.06** &nbsp; 🔥[Online Demo](http://thinksound-project.github.io/) is live - try it now!",
+        "translatedContent": "- **2025.06** &nbsp; 🔥[เดโมออนไลน์](http://thinksound-project.github.io/) เปิดให้ใช้งานแล้ว - ลองเลย!"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "f4oQIFLM2EJQxJ65F4oMEA7yWOIqs0eBtiIvGxI+GgI=",
+        "originContent": "## 🚀 Features",
+        "translatedContent": "## 🚀 คุณสมบัติเด่น"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "8TbVluJJPR3C0fX41HklpO/vH9/k/rHC+jlvmHHfzQU=",
+        "originContent": "- **Any2Audio**: Generate audio from arbitrary modalities — video, text, audio, or their combinations.",
+        "translatedContent": "- **Any2Audio**: สร้างเสียงจากมัลติโหมดใดก็ได้ — วิดีโอ ข้อความ เสียง หรือผสมกัน"
+      },
+      {
+        "row": 24,
+        "rowsha": "+Jf5LrYz+d1ShYCuQe8UF9taEJUpuGhDk6fAlYK3Kj4=",
+        "originContent": "- **Video-to-Audio SOTA**: Achieves state-of-the-art results on multiple V2A benchmarks.",
+        "translatedContent": "- **Video-to-Audio SOTA**: ทำผลลัพธ์ระดับแนวหน้าในหลายมาตรฐาน V2A"
+      },
+      {
+        "row": 25,
+        "rowsha": "mU7qXkjW1YifKoYXJedYo9l64NsTBaiXsgoGFRF/g+E=",
+        "originContent": "- **CoT-Driven Reasoning**: Chain-of-Thought reasoning for compositional and controllable audio generation via MLLMs.",
+        "translatedContent": "- **CoT-Driven Reasoning**: กระบวนการคิดแบบ Chain-of-Thought สำหรับการสร้างเสียงเชิงองค์ประกอบและควบคุมผ่าน MLLMs"
+      },
+      {
+        "row": 26,
+        "rowsha": "RComOCBBrXsZf9RHmLginqKTh9eI/bKUZuUunQEmD5M=",
+        "originContent": "- **Interactive Object-centric Editing**: Refine or edit specific sound events by clicking on visual objects or using text instructions.",
+        "translatedContent": "- **Interactive Object-centric Editing**: ปรับแต่งหรือแก้ไขเสียงเหตุการณ์เฉพาะโดยคลิกที่วัตถุภาพหรือใช้คำสั่งข้อความ"
+      },
+      {
+        "row": 27,
+        "rowsha": "C3sf87sy73G/XZft+TDo5NjXo5XcrtJB805ayHRAXoQ=",
+        "originContent": "- **Unified Framework**: One foundation model supports generation, editing, and interactive workflow.",
+        "translatedContent": "- **Unified Framework**: โมเดลรากฐานเดียวรองรับการสร้าง แก้ไข และเวิร์กโฟลว์เชิงโต้ตอบ"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "gjgLOIAU2x83BBZdLUdgEB+F64ajt/QuLYQXM1hDBLE=",
+        "originContent": "## ✨ Method Overview",
+        "translatedContent": "## ✨ ภาพรวมวิธีการ"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "v5//GqG/smYIGoUpN+12k+9/3GWH3GdYD+jLqScb7AM=",
+        "originContent": "ThinkSound decomposes audio generation and editing into three interactive stages, all guided by MLLM-based Chain-of-Thought (CoT) reasoning:",
+        "translatedContent": "ThinkSound แยกกระบวนการสร้างและแก้ไขเสียงออกเป็น 3 ขั้นตอนโต้ตอบ โดยทั้งหมดขับเคลื่อนด้วยกระบวนการคิดแบบ Chain-of-Thought ด้วย MLLM:"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "vTObEWb7f5gCU681X3dTkwqhsaSW89TLw3GgMJ5I3bo=",
+        "originContent": "1. **Foley Generation:** Generate foundational, semantically and temporally aligned soundscapes from video.",
+        "translatedContent": "1. **การสร้างเสียง Foley:** สร้างบรรยากาศเสียงพื้นฐานที่สอดคล้องกับเนื้อหาและเวลา จากวิดีโอ"
+      },
+      {
+        "row": 36,
+        "rowsha": "LTBpIQQHtEkNF8StAa+ZEDASGmRhmHIKDQOdZ4ExJWM=",
+        "originContent": "2. **Object-Centric Refinement:** Refine or add sounds for user-specified objects via clicks or regions in the video.",
+        "translatedContent": "2. **การปรับแต่งวัตถุเฉพาะ:** ปรับแต่งหรือเพิ่มเสียงให้กับวัตถุที่ผู้ใช้ระบุผ่านการคลิกหรือกำหนดพื้นที่ในวิดีโอ"
+      },
+      {
+        "row": 37,
+        "rowsha": "8wrAo7X7dPC6Sgpfrlq2ziv/Wg/3+JnlFYvO+RMxADQ=",
+        "originContent": "3. **Targeted Audio Editing:** Modify generated audio using high-level natural language instructions.",
+        "translatedContent": "3. **การแก้ไขเสียงแบบเจาะจง:** แก้ไขเสียงที่สร้างขึ้นโดยใช้คำสั่งภาษาธรรมชาติระดับสูง"
       },
       {
         "row": 38,
@@ -239,276 +492,67 @@
       },
       {
         "row": 39,
-        "rowsha": "FQA4zA43MxvNXTogMO1WpS71bCSxerCOM1e/tmSmotg=",
-        "originContent": "**ThinkSound** is a unified Any2Audio generation framework with flow matching guided by Chain-of-Thought (CoT) reasoning.",
-        "translatedContent": "**ThinkSound** คือเฟรมเวิร์กการสร้างเสียง Any2Audio แบบครบวงจร ที่ใช้ flow matching และได้รับการชี้นำโดย Chain-of-Thought (CoT) reasoning"
-      },
-      {
-        "row": 40,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 41,
-        "rowsha": "eexREJOMCITdo96Iwg4N4PQqu1ux/UwupfjVRj0l/L8=",
-        "originContent": "PyTorch implementation for multimodal audio generation and editing: generate or edit audio from video, text, and audio, powered by step-by-step reasoning from Multimodal Large Language Models (MLLMs).",
-        "translatedContent": "การใช้งาน PyTorch สำหรับสร้างเสียงและแก้ไขเสียงแบบมัลติโหมด: สร้างหรือแก้ไขเสียงจากวิดีโอ ข้อความ และเสียง โดยขับเคลื่อนด้วยการให้เหตุผลทีละขั้นตอนจาก Multimodal Large Language Models (MLLMs)"
-      },
-      {
-        "row": 42,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 43,
-        "rowsha": "+7Cx1rdpWiIOeWRA/RM6HsKf7pNA3hHsQk2Bpadt4II=",
-        "originContent": "![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)",
-        "translatedContent": "![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)"
-      },
-      {
-        "row": 44,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 45,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 46,
-        "rowsha": "0YeCyxpcm7/4RDbaM+OQoI8YfqEHQzDkpGW15VZdi1U=",
-        "originContent": "## 📰 News",
-        "translatedContent": "## 📰 ข่าวสาร"
-      },
-      {
-        "row": 47,
-        "rowsha": "4Jq9g83O8cYV4fVKsetfTpI+JrSepLrjK6J7Xg9tSqo=",
-        "originContent": "- **2025.07.17** &nbsp; 🧠 Finetuning enabled: training and finetuning code is now publicly available, along with clear usage instructions to help you customize and extend ThinkSound with your own data.",
-        "translatedContent": "- **2025.07.17** &nbsp; 🧠 รองรับ Finetuning: โค้ดสำหรับการฝึกและปรับแต่งเปิดให้ใช้งานสาธารณะ พร้อมคำแนะนำใช้งานชัดเจน ช่วยให้คุณปรับแต่งและขยาย ThinkSound ด้วยข้อมูลของคุณเอง"
-      },
-      {
-        "row": 48,
-        "rowsha": "Ae5w+cTrCd9E8qidC11IWJAgg+LuOgUxA4czDPNG/G0=",
-        "originContent": "- **2025.07.15** &nbsp; 📦 Simplified installation and usability: dependencies on PyPI for easy cross-platform setup; Windows `.bat` scripts automate environment creation and script running.",
-        "translatedContent": "- **2025.07.15** &nbsp; 📦 ติดตั้งและใช้งานง่ายขึ้น: มี dependencies บน PyPI สำหรับการติดตั้งข้ามแพลตฟอร์ม; สคริปต์ Windows `.bat` ช่วยสร้างสภาพแวดล้อมและรันโค้ดโดยอัตโนมัติ"
-      },
-      {
-        "row": 49,
-        "rowsha": "nYxNhwgSqjwYLuWsfHAqP5sx2PnzYwoFrwcf9U+Fdss=",
-        "originContent": "- **2025.07.08** &nbsp;  🔧 Major update: model lightweighted and optimized memory and GPU usage, now supports high-throughput audio generation at scale!",
-        "translatedContent": "- **2025.07.08** &nbsp;  🔧 อัปเดตใหญ่: โมเดลเบาขึ้น ใช้หน่วยความจำและ GPU อย่างมีประสิทธิภาพ รองรับการสร้างเสียงปริมาณมาก!"
-      },
-      {
-        "row": 50,
-        "rowsha": "xuARkITJMc1ABOl8/xX47dORDInuxwAsk8O1r5dvfpc=",
-        "originContent": "- **2025.07.01** &nbsp; 🔥Online demo on [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) and [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) for interactive experience!",
-        "translatedContent": "- **2025.07.01** &nbsp; 🔥เดโมออนไลน์บน [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) และ [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) สำหรับประสบการณ์โต้ตอบ!"
-      },
-      {
-        "row": 51,
-        "rowsha": "aIpa8g7qqXl8Iq8shRpiY5Ha5WD8c9Pd9PWybZ+wr18=",
-        "originContent": "- **2025.07.01** &nbsp; 🔥Released inference scripts and web interface; ",
-        "translatedContent": "- **2025.07.01** &nbsp; 🔥ปล่อยสคริปต์ inference และอินเทอร์เฟซเว็บแล้ว;"
-      },
-      {
-        "row": 52,
-        "rowsha": "ynCJTuWmfRd3D7hcoW1WvIQ482zzFcdaXc8pgOG02Tw=",
-        "originContent": "- **2025.06** &nbsp; 🔥[ThinkSound paper](https://arxiv.org/pdf/2506.21448) released on arXiv!",
-        "translatedContent": "- **2025.06** &nbsp; 🔥[เผยแพร่บทความ ThinkSound](https://arxiv.org/pdf/2506.21448) บน arXiv!"
-      },
-      {
-        "row": 53,
-        "rowsha": "se+rRi5CpnStAflq7OZvd/2mN+51ezQQaBeYckrGFCk=",
-        "originContent": "- **2025.06** &nbsp; 🔥[Online Demo](http://thinksound-project.github.io/) is live - try it now!",
-        "translatedContent": "- **2025.06** &nbsp; 🔥[เดโมออนไลน์](http://thinksound-project.github.io/) เปิดให้ลองใช้งานแล้ว!"
-      },
-      {
-        "row": 54,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 55,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 56,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 57,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 58,
-        "rowsha": "f4oQIFLM2EJQxJ65F4oMEA7yWOIqs0eBtiIvGxI+GgI=",
-        "originContent": "## 🚀 Features",
-        "translatedContent": "## 🚀 คุณสมบัติเด่น"
-      },
-      {
-        "row": 59,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 60,
-        "rowsha": "8TbVluJJPR3C0fX41HklpO/vH9/k/rHC+jlvmHHfzQU=",
-        "originContent": "- **Any2Audio**: Generate audio from arbitrary modalities — video, text, audio, or their combinations.",
-        "translatedContent": "- **Any2Audio**: สร้างเสียงจากมัลติโหมดใดๆ — วิดีโอ ข้อความ เสียง หรือผสมผสานกัน"
-      },
-      {
-        "row": 61,
-        "rowsha": "+Jf5LrYz+d1ShYCuQe8UF9taEJUpuGhDk6fAlYK3Kj4=",
-        "originContent": "- **Video-to-Audio SOTA**: Achieves state-of-the-art results on multiple V2A benchmarks.",
-        "translatedContent": "- **Video-to-Audio SOTA**: ทำผลงานล้ำสมัยบน benchmark V2A หลายชุด"
-      },
-      {
-        "row": 62,
-        "rowsha": "mU7qXkjW1YifKoYXJedYo9l64NsTBaiXsgoGFRF/g+E=",
-        "originContent": "- **CoT-Driven Reasoning**: Chain-of-Thought reasoning for compositional and controllable audio generation via MLLMs.",
-        "translatedContent": "- **CoT-Driven Reasoning**: เหตุผลแบบ Chain-of-Thought เพื่อการสร้างเสียงเชิงประกอบและควบคุมได้ผ่าน MLLMs"
-      },
-      {
-        "row": 63,
-        "rowsha": "RComOCBBrXsZf9RHmLginqKTh9eI/bKUZuUunQEmD5M=",
-        "originContent": "- **Interactive Object-centric Editing**: Refine or edit specific sound events by clicking on visual objects or using text instructions.",
-        "translatedContent": "- **Interactive Object-centric Editing**: ปรับแต่งหรือแก้ไขเสียงเจาะจงเหตุการณ์ด้วยการคลิกที่วัตถุในภาพหรือใช้คำสั่งข้อความ"
-      },
-      {
-        "row": 64,
-        "rowsha": "C3sf87sy73G/XZft+TDo5NjXo5XcrtJB805ayHRAXoQ=",
-        "originContent": "- **Unified Framework**: One foundation model supports generation, editing, and interactive workflow.",
-        "translatedContent": "- **Unified Framework**: โมเดลหลักเดียวรองรับการสร้าง แก้ไข และเวิร์กโฟลว์แบบโต้ตอบ"
-      },
-      {
-        "row": 65,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 66,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 67,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 68,
-        "rowsha": "gjgLOIAU2x83BBZdLUdgEB+F64ajt/QuLYQXM1hDBLE=",
-        "originContent": "## ✨ Method Overview",
-        "translatedContent": "## ✨ ภาพรวมวิธีการ"
-      },
-      {
-        "row": 69,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 70,
-        "rowsha": "v5//GqG/smYIGoUpN+12k+9/3GWH3GdYD+jLqScb7AM=",
-        "originContent": "ThinkSound decomposes audio generation and editing into three interactive stages, all guided by MLLM-based Chain-of-Thought (CoT) reasoning:",
-        "translatedContent": "ThinkSound แบ่งกระบวนการสร้างและแก้ไขเสียงออกเป็น 3 ขั้นตอนโต้ตอบกัน โดยทั้งหมดขับเคลื่อนด้วย Chain-of-Thought (CoT) reasoning จาก MLLM:"
-      },
-      {
-        "row": 71,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 72,
-        "rowsha": "vTObEWb7f5gCU681X3dTkwqhsaSW89TLw3GgMJ5I3bo=",
-        "originContent": "1. **Foley Generation:** Generate foundational, semantically and temporally aligned soundscapes from video.",
-        "translatedContent": "1. **Foley Generation:** สร้างซาวด์สเคปพื้นฐานที่สอดคล้องกับความหมายและเวลา จากวิดีโอ"
-      },
-      {
-        "row": 73,
-        "rowsha": "LTBpIQQHtEkNF8StAa+ZEDASGmRhmHIKDQOdZ4ExJWM=",
-        "originContent": "2. **Object-Centric Refinement:** Refine or add sounds for user-specified objects via clicks or regions in the video.",
-        "translatedContent": "2. **Object-Centric Refinement:** ปรับแต่งหรือเพิ่มเสียงให้วัตถุที่ผู้ใช้ระบุ ผ่านการคลิกหรือเลือกบริเวณในวิดีโอ"
-      },
-      {
-        "row": 74,
-        "rowsha": "8wrAo7X7dPC6Sgpfrlq2ziv/Wg/3+JnlFYvO+RMxADQ=",
-        "originContent": "3. **Targeted Audio Editing:** Modify generated audio using high-level natural language instructions.",
-        "translatedContent": "3. **Targeted Audio Editing:** แก้ไขเสียงที่สร้างขึ้นด้วยคำสั่งภาษาธรรมชาติระดับสูง"
-      },
-      {
-        "row": 75,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 76,
         "rowsha": "4UKlvFW3Xb0bSAVjcBNeekH/MMiYS0XDg9w4mCuPy/Q=",
         "originContent": "![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)",
         "translatedContent": "![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)"
       },
       {
-        "row": 77,
+        "row": 40,
         "rowsha": "GaujeIM3x7+YcFy07LNNyITlujhkgpgeIaOiKHJkYnE=",
         "originContent": "<!-- A large-scale CoT-annotated dataset (**AudioCoT**) is used to train both the reasoning module and the unified audio foundation model.",
-        "translatedContent": "<!-- ชุดข้อมูลขนาดใหญ่ที่มีการใส่ annotation แบบ CoT (**AudioCoT**) ใช้ฝึกทั้งโมดูล reasoning และโมเดลเสียงหลักแบบครบวงจร"
-      },
+        "translatedContent": "<!-- ชุดข้อมูลขนาดใหญ่ที่มีการใส่คำอธิบายแบบ Chain-of-Thought (**AudioCoT**) ถูกใช้ในการฝึกทั้งโมดูลเหตุผลและโมเดลเสียงรากฐานแบบรวม"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->\n\n---\n\n## ⚡ Quick Start\n\n**Environment Preparation:**",
+    "ContentSha": "5Rba8EQ45fpaVHEqHaJGyTRp/2KZkH08iiZZct8rbWI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->\n\n---\n\n## ⚡ เริ่มต้นอย่างรวดเร็ว\n\n**การเตรียมสภาพแวดล้อม:**",
+    "Status": "ok",
+    "RowTranslations": [
       {
-        "row": 78,
+        "row": 1,
         "rowsha": "qYOXaaTiYkoaPFcpTXE5xdSqqiW3ebi//EW/RfSXd9g=",
         "originContent": "![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->",
         "translatedContent": "![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->"
       },
       {
-        "row": 79,
+        "row": 2,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 80,
+        "row": 3,
         "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
         "originContent": "---",
         "translatedContent": "---"
       },
       {
-        "row": 81,
+        "row": 4,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 82,
+        "row": 5,
         "rowsha": "PrY/jc4yAHdS+Sr+s+Yhab477/BDp3GAzMJ8+WyumyI=",
         "originContent": "## ⚡ Quick Start",
         "translatedContent": "## ⚡ เริ่มต้นอย่างรวดเร็ว"
       },
       {
-        "row": 83,
+        "row": 6,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 84,
+        "row": 7,
         "rowsha": "mD63DGEpdc7FlccTEps0KPAiwsJpO/C3yjV+SKIi/vE=",
         "originContent": "**Environment Preparation:**",
         "translatedContent": "**การเตรียมสภาพแวดล้อม:**"
@@ -517,7 +561,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 2,
+    "Id": 4,
     "Content": "```bash\ngit clone https://github.com/liuhuadai/ThinkSound.git\ncd ThinkSound\nconda create -n thinksound python=3.10\nconda activate thinksound\npip install thinksound\nconda install -y -c conda-forge 'ffmpeg<7'\n# Download pretrained weights https://huggingface.co/liuhuadai/ThinkSound to Directory ckpts/\n# model weights can be also downloaded from https://www.modelscope.cn/models/iic/ThinkSound\ngit lfs install\ngit clone https://huggingface.co/liuhuadai/ThinkSound ckpts\n# To improve inference and training speed, you may optionally install a FlashAttention backend compatible with your system and PyTorch version.\n```",
     "ContentSha": "CSBCDvBmuatxDa1cNMeHEBTJJzdLjK6wyO9v0LrETM8=",
     "SectionType": "",
@@ -529,7 +573,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 3,
+    "Id": 5,
     "Content": "\n> ✅ **Windows Tip:**  \n> Windows users can simply run `setup_windows.bat` (or double-click it) to automatically create the conda environment, install all dependencies (including FFmpeg), and download the pretrained model — no manual setup required.  \n> Make sure `conda` and `git` are installed and available in your system PATH before running the script.\n\n\n### ▶️ Run the Demo\n\n#### **Linux/macOS**\n",
     "ContentSha": "YGhm7lbBNPq6xLS6zXlFTPszO8rc4QZCwsScPNskcto=",
     "SectionType": "",
@@ -541,7 +585,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 4,
+    "Id": 6,
     "Content": "```bash\nchmod +x scripts/demo.sh\n./scripts/demo.sh <path-to-your-demo-video> <title> <CoT description> [use-half]\n```",
     "ContentSha": "EW6OKf+6hdOehT5SO7gfI7wR8oAoMckp60MRfIA1jHc=",
     "SectionType": "",
@@ -553,7 +597,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 5,
+    "Id": 7,
     "Content": "\n#### **Windows**\n\nYou can use the provided `.bat` script instead:\n",
     "ContentSha": "zXqRZWTEWOuKZG1GOlqqZff+IH24zUwdPtSfwESqS9E=",
     "SectionType": "",
@@ -565,7 +609,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 6,
+    "Id": 8,
     "Content": "```bash\n.\\scripts\\demo.bat <path-to-your-demo-video> <title> <CoT description> [use-half]\n```",
     "ContentSha": "A2a1kVuIPNs8ht1a6LBYTEijJjnfjiTN0r+2n7VEJSg=",
     "SectionType": "",
@@ -577,7 +621,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 7,
+    "Id": 9,
     "Content": "\n**Note:**\n\n* `<path-to-your-demo-video>`: The path to a single video\n* `[use-half]` (optional): Add use-half at the end to enable half precision feature extraction.\n\n---\n\n### 📦 Batch Inference\n\n#### **Linux/macOS**\n",
     "ContentSha": "T7owm3ZZW7sVjKwFivgiuYX2+RVuNBl0RYTSnIcxxbM=",
     "SectionType": "",
@@ -589,7 +633,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 8,
+    "Id": 10,
     "Content": "```bash\nchmod +x scripts/eval_batch.sh\n./scripts/eval_batch.sh <video_path> <csv_path> <save_path (optional)> [use-half]\n```",
     "ContentSha": "EQ4HuSYii55aHfgphESvOXMz2+Fq39+Xquxg6Z6uzdU=",
     "SectionType": "",
@@ -601,7 +645,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 9,
+    "Id": 11,
     "Content": "\n#### **Windows**\n\nUse the equivalent `.bat` script:\n",
     "ContentSha": "njm5i6o3MR7AV4Q3WLctbe3LN1njFn89fPfTlo+zSmc=",
     "SectionType": "",
@@ -613,7 +657,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 10,
+    "Id": 12,
     "Content": "```bash\n.\\scripts\\eval_batch.bat <video_path> <csv_path> <save_path (optional)> [use-half]\n```",
     "ContentSha": "XLkAqxYBZeJiF6XnpshI6naENFsr5yFAH7af132cgb0=",
     "SectionType": "",
@@ -625,7 +669,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 11,
+    "Id": 13,
     "Content": "\n**Note:**\n\n* `<video_path>`: Path to the root directory containing all .mp4 videos to be processed (all videos must be of equal duration).\n* `<csv_path>`: A CSV file with text prompts for each video (see `demo_test.csv` for format).\n* `<save_path>` (optional): Where to save generated audio. Defaults to `results/features`.\n* `[use-half]` (optional): Add use-half at the end to enable half precision feature extraction.\n\n---\n\n\n### Web Interface Usage\n\nFor an interactive experience, launch the Gradio web interface:\n",
     "ContentSha": "yT/y6PXpYV8wS4qmKJfVNVGDLOwreTxCdCDFDv2VbLo=",
     "SectionType": "",
@@ -637,7 +681,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 12,
+    "Id": 14,
     "Content": "```bash\npython app.py\n```",
     "ContentSha": "2nQFYMHYtsOO4+egbu20DhxqoaxfzoH8CneeM8qTEb0=",
     "SectionType": "",
@@ -649,20 +693,20 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 13,
-    "Content": "\n\n## 🏋️ Train the Model\n\nSee [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)\n\n\n---\n\n## 📝 TODO & Future Plans\n* - [ ] Open-source AudioCoT dataset and automated pipeline (Expected before 07/23/2025)\n* - [ ] Release a more powerful foundation model covering multiple domains to provide more engaging and immersive foley creation (Expected by end of August 2025)\n* - [ ] Add support for additional modalities and downstream tasks (Expected before end of July 2025)\n* - [ ] Release models at different scales (Expected before end of July 2025)\n* - [x] Release training scripts for ThinkSound models\n* - [x] A beginner-friendly Windows quick-start README\n---\n\n\n## 📄 License\n\nThis project is released under the Apache 2.0 License.\n\n> **Note:**\n> The code, models, and dataset are **for research and educational purposes only**.\n> **Commercial use is NOT permitted.**\n> For commercial licensing, please contact the authors.\n\n**📦 Third-Party Components**\n\n* **Stable Audio Open VAE** (by Stability AI):\n  This repository includes a fine-tuned VAE from [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), licensed under the [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).\n  **Commercial use and redistribution require prior permission from Stability AI.**\n\n* 📘 **All other code and models** are released under the Apache License 2.0.\n\n---\n\n## Acknowledgements\n\nMany thanks to:\n\n* **stable-audio-tools** (by Stability AI):\nFor providing an easy-to-use framework for audio generation, as well as the VAE module and weights.\n* **MMAudio**:\n  For the implementation of the MM-DiT backbone in the audio domain.\n\n---\n\n## 📖 Citation\n\nIf you find ThinkSound useful in your research or work, please cite our paper:\n",
-    "ContentSha": "LyXdmPt/Z/rTkWmKzdZmSxPrCBT+5I5ZovzaMY/JLRQ=",
+    "Id": 15,
+    "Content": "\n\n## 🏋️ Train the Model\n\nSee [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)\n\n\n---\n\n## 📝 TODO & Future Plans\n* - [ ] Release a more powerful foundation model covering multiple domains to provide more engaging and immersive foley creation\n* - [ ] Add support for additional modalities and downstream tasks\n* - [ ] Release models at different scales\n* - [x] Open-source AudioCoT dataset and automated pipeline\n* - [x] Release training scripts for ThinkSound models\n* - [x] A beginner-friendly Windows quick-start README\n---\n\n\n## 📄 License\n\nThis project is released under the Apache 2.0 License.\n\n> **Note:**\n> The code, models, and dataset are **for research and educational purposes only**.\n> **Commercial use is NOT permitted.**\n> For commercial licensing, please contact the authors.\n\n**📦 Third-Party Components**\n\n* **Stable Audio Open VAE** (by Stability AI):\n  This repository includes a fine-tuned VAE from [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), licensed under the [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).\n  **Commercial use and redistribution require prior permission from Stability AI.**\n\n* 📘 **All other code and models** are released under the Apache License 2.0.\n\n---\n\n## Acknowledgements\n",
+    "ContentSha": "j3jq6Afpr38oSd7nSvDiMiQ889Z6kSywM0DVVT9ieNA=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "## 🏋️ ฝึกสอนโมเดล\n\nดู [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)\n\n\n---\n\n## 📝 สิ่งที่ต้องทำ & แผนในอนาคต\n* - [ ] เปิดโอเพ่นซอร์สชุดข้อมูล AudioCoT และระบบอัตโนมัติ (คาดว่าจะเสร็จก่อน 23/07/2025)\n* - [ ] ปล่อยโมเดลฐานที่ทรงพลังยิ่งขึ้นครอบคลุมหลากหลายโดเมน เพื่อสร้างเสียงฟoleyที่น่าสนใจและสมจริงยิ่งขึ้น (คาดว่าภายในสิ้นเดือนสิงหาคม 2025)\n* - [ ] เพิ่มการรองรับมัลติโหมดและงานปลายน้ำเพิ่มเติม (คาดว่าจะเสร็จก่อนสิ้นเดือนกรกฎาคม 2025)\n* - [ ] ปล่อยโมเดลในหลายขนาด (คาดว่าจะเสร็จก่อนสิ้นเดือนกรกฎาคม 2025)\n* - [x] ปล่อยสคริปต์สำหรับฝึกสอนโมเดล ThinkSound\n* - [x] README แนะนำเริ่มต้นสำหรับ Windows ที่ใช้งานง่าย\n---\n\n\n## 📄 ใบอนุญาต\n\nโปรเจกต์นี้เผยแพร่ภายใต้ Apache 2.0 License\n\n> **หมายเหตุ:**\n> โค้ด, โมเดล และชุดข้อมูลนี้ **สำหรับการวิจัยและการศึกษาเท่านั้น**\n> **ไม่อนุญาตให้ใช้ในเชิงพาณิชย์**\n> หากต้องการใช้งานเชิงพาณิชย์ กรุณาติดต่อผู้เขียน\n\n**📦 ส่วนประกอบของบุคคลที่สาม**\n\n* **Stable Audio Open VAE** (โดย Stability AI):\n  ที่เก็บนี้รวม VAE ที่ปรับแต่งจาก [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), ภายใต้ [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md)\n  **การใช้งานเชิงพาณิชย์และการแจกจ่ายซ้ำต้องได้รับอนุญาตล่วงหน้าจาก Stability AI**\n\n* 📘 **โค้ดและโมเดลอื่น ๆ ทั้งหมด** เผยแพร่ภายใต้ Apache License 2.0\n\n---\n\n## คำขอบคุณ\n\nขอขอบคุณเป็นอย่างยิ่งต่อ:\n\n* **stable-audio-tools** (โดย Stability AI):\nสำหรับการจัดเตรียมเฟรมเวิร์กที่ใช้งานง่ายสำหรับการสร้างเสียง รวมถึงโมดูล VAE และเวทน้ำหนัก\n* **MMAudio**:\n  สำหรับการนำโครงสร้าง MM-DiT มาใช้ในโดเมนเสียง\n\n---\n\n## 📖 การอ้างอิง\n\nหากคุณพบว่า ThinkSound มีประโยชน์ในการวิจัยหรือการทำงาน กรุณาอ้างอิงบทความของเรา:\n\n\n",
+    "Translation": "\n\n## 🏋️ ฝึกอบรมโมเดล\n\nดู [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)\n\n\n---\n\n## 📝 TODO & แผนในอนาคต\n* - [ ] ปล่อยโมเดลพื้นฐานที่ทรงพลังมากขึ้น ครอบคลุมหลายโดเมน เพื่อสร้างประสบการณ์การสร้างเสียงโฟลีย์ที่น่าสนใจและสมจริงยิ่งขึ้น\n* - [ ] เพิ่มการรองรับรูปแบบข้อมูลและงานปลายทางเพิ่มเติม\n* - [ ] ปล่อยโมเดลในขนาดที่แตกต่างกัน\n* - [x] เปิดซอร์สชุดข้อมูล AudioCoT และระบบอัตโนมัติ\n* - [x] ปล่อยสคริปต์สำหรับฝึกอบรมโมเดล ThinkSound\n* - [x] README สำหรับเริ่มต้นใช้งาน Windows ที่เหมาะสำหรับมือใหม่\n---\n\n\n## 📄 ใบอนุญาต\n\nโปรเจกต์นี้เผยแพร่ภายใต้ใบอนุญาต Apache 2.0\n\n> **หมายเหตุ:**\n> โค้ด โมเดล และชุดข้อมูลนี้มีไว้สำหรับ **การวิจัยและการศึกษาเท่านั้น**\n> **ไม่อนุญาตให้ใช้เชิงพาณิชย์**\n> หากต้องการใช้เชิงพาณิชย์ กรุณาติดต่อผู้เขียน\n\n**📦 ส่วนประกอบจากบุคคลที่สาม**\n\n* **Stable Audio Open VAE** (โดย Stability AI):\n  ที่เก็บนี้รวม VAE ที่ปรับแต่งจาก [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/) ซึ่งได้รับอนุญาตภายใต้ [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md)\n  **การใช้และแจกจ่ายเชิงพาณิชย์ต้องได้รับอนุญาตล่วงหน้าจาก Stability AI**\n\n* 📘 **โค้ดและโมเดลอื่น ๆ ทั้งหมด** เผยแพร่ภายใต้ใบอนุญาต Apache 2.0\n\n---\n\n## คำขอบคุณ\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## 🏋️ ฝึกสอนโมเดล"
+        "translatedContent": ""
       },
       {
         "row": 2,
@@ -674,7 +718,7 @@
         "row": 3,
         "rowsha": "gqXeKd562+SIhV8X5lKkIq9fmYls0JvenYq/r5leqGU=",
         "originContent": "## 🏋️ Train the Model",
-        "translatedContent": "ดู [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)"
+        "translatedContent": "## 🏋️ ฝึกอบรมโมเดล"
       },
       {
         "row": 4,
@@ -686,13 +730,13 @@
         "row": 5,
         "rowsha": "2tP4BwaoybodWdJJ8ZupmDbf3ea5A0f+lD6kd0qGru8=",
         "originContent": "See [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)",
-        "translatedContent": ""
+        "translatedContent": "ดู [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)"
       },
       {
         "row": 6,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "---"
+        "translatedContent": ""
       },
       {
         "row": 7,
@@ -704,67 +748,67 @@
         "row": 8,
         "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
         "originContent": "---",
-        "translatedContent": "## 📝 สิ่งที่ต้องทำ & แผนในอนาคต"
+        "translatedContent": "---"
       },
       {
         "row": 9,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "* - [ ] เปิดโอเพ่นซอร์สชุดข้อมูล AudioCoT และระบบอัตโนมัติ (คาดว่าจะเสร็จก่อน 23/07/2025)"
+        "translatedContent": ""
       },
       {
         "row": 10,
         "rowsha": "21hoBW2Chiv9qZT66tUvbTf1cEdQjWTP1PUgVsUkdFY=",
         "originContent": "## 📝 TODO & Future Plans",
-        "translatedContent": "* - [ ] ปล่อยโมเดลฐานที่ทรงพลังยิ่งขึ้นครอบคลุมหลากหลายโดเมน เพื่อสร้างเสียงฟoleyที่น่าสนใจและสมจริงยิ่งขึ้น (คาดว่าภายในสิ้นเดือนสิงหาคม 2025)"
+        "translatedContent": "## 📝 TODO & แผนในอนาคต"
       },
       {
         "row": 11,
-        "rowsha": "BSIZGpY/yZMNK7fOauneKYGRm+1hDzo+Mu2V6he08qo=",
-        "originContent": "* - [ ] Open-source AudioCoT dataset and automated pipeline (Expected before 07/23/2025)",
-        "translatedContent": "* - [ ] เพิ่มการรองรับมัลติโหมดและงานปลายน้ำเพิ่มเติม (คาดว่าจะเสร็จก่อนสิ้นเดือนกรกฎาคม 2025)"
+        "rowsha": "FrwO0jQkAGelT7Z0nxH1R9qrULhNLkTE9mkwOhdMPY8=",
+        "originContent": "* - [ ] Release a more powerful foundation model covering multiple domains to provide more engaging and immersive foley creation",
+        "translatedContent": "* - [ ] ปล่อยโมเดลพื้นฐานที่ทรงพลังมากขึ้น ครอบคลุมหลายโดเมน เพื่อสร้างประสบการณ์การสร้างเสียงโฟลีย์ที่น่าสนใจและสมจริงยิ่งขึ้น"
       },
       {
         "row": 12,
-        "rowsha": "pngFpkGabb/lYcBffIdKTsEfy6A7rvQW7SveWlfjlxY=",
-        "originContent": "* - [ ] Release a more powerful foundation model covering multiple domains to provide more engaging and immersive foley creation (Expected by end of August 2025)",
-        "translatedContent": "* - [ ] ปล่อยโมเดลในหลายขนาด (คาดว่าจะเสร็จก่อนสิ้นเดือนกรกฎาคม 2025)"
+        "rowsha": "UkxbZFENzZPvcMheOeyohEptbnVaOGv9G4R6F65rAUA=",
+        "originContent": "* - [ ] Add support for additional modalities and downstream tasks",
+        "translatedContent": "* - [ ] เพิ่มการรองรับรูปแบบข้อมูลและงานปลายทางเพิ่มเติม"
       },
       {
         "row": 13,
-        "rowsha": "LJxZcHWhItXExDnxDCValvP3y+54yrzAsyS4lmv/+rU=",
-        "originContent": "* - [ ] Add support for additional modalities and downstream tasks (Expected before end of July 2025)",
-        "translatedContent": "* - [x] ปล่อยสคริปต์สำหรับฝึกสอนโมเดล ThinkSound"
+        "rowsha": "E0/ATBXmq5Z+04AptdW37Wxd5y8GSQNsoEWooX9af6s=",
+        "originContent": "* - [ ] Release models at different scales",
+        "translatedContent": "* - [ ] ปล่อยโมเดลในขนาดที่แตกต่างกัน"
       },
       {
         "row": 14,
-        "rowsha": "XaQkB1iwFKeYv1+P1NqxrD8hUhTDw0pWVPBUxnOUA58=",
-        "originContent": "* - [ ] Release models at different scales (Expected before end of July 2025)",
-        "translatedContent": "* - [x] README แนะนำเริ่มต้นสำหรับ Windows ที่ใช้งานง่าย"
+        "rowsha": "fjIAroioQtu6rLpfZfLu7D1x79s4hnPI+ZQSINXiAVk=",
+        "originContent": "* - [x] Open-source AudioCoT dataset and automated pipeline",
+        "translatedContent": "* - [x] เปิดซอร์สชุดข้อมูล AudioCoT และระบบอัตโนมัติ"
       },
       {
         "row": 15,
         "rowsha": "k5iXHel4EfGgiGsMDCE6yv2H9ETcLNi9lRuB8gaPbt4=",
         "originContent": "* - [x] Release training scripts for ThinkSound models",
-        "translatedContent": "---"
+        "translatedContent": "* - [x] ปล่อยสคริปต์สำหรับฝึกอบรมโมเดล ThinkSound"
       },
       {
         "row": 16,
         "rowsha": "AKQD74q/2r77sZrB6i/RNuvdN/QOzatiPxneZX2CGJY=",
         "originContent": "* - [x] A beginner-friendly Windows quick-start README",
-        "translatedContent": ""
+        "translatedContent": "* - [x] README สำหรับเริ่มต้นใช้งาน Windows ที่เหมาะสำหรับมือใหม่"
       },
       {
         "row": 17,
         "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
         "originContent": "---",
-        "translatedContent": ""
+        "translatedContent": "---"
       },
       {
         "row": 18,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## 📄 ใบอนุญาต"
+        "translatedContent": ""
       },
       {
         "row": 19,
@@ -776,7 +820,7 @@
         "row": 20,
         "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
         "originContent": "## 📄 License",
-        "translatedContent": "โปรเจกต์นี้เผยแพร่ภายใต้ Apache 2.0 License"
+        "translatedContent": "## 📄 ใบอนุญาต"
       },
       {
         "row": 21,
@@ -788,37 +832,37 @@
         "row": 22,
         "rowsha": "aXzA1Vml4g3VpeAQHojytlHw5gMbI/HCXkxCOreR8fk=",
         "originContent": "This project is released under the Apache 2.0 License.",
-        "translatedContent": "> **หมายเหตุ:**"
+        "translatedContent": "โปรเจกต์นี้เผยแพร่ภายใต้ใบอนุญาต Apache 2.0"
       },
       {
         "row": 23,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "> โค้ด, โมเดล และชุดข้อมูลนี้ **สำหรับการวิจัยและการศึกษาเท่านั้น**"
+        "translatedContent": ""
       },
       {
         "row": 24,
         "rowsha": "q6szrCjtQrp9SVd3O6pmLDmi4BNjrSJj5JAz5iOimGA=",
         "originContent": "> **Note:**",
-        "translatedContent": "> **ไม่อนุญาตให้ใช้ในเชิงพาณิชย์**"
+        "translatedContent": "> **หมายเหตุ:**"
       },
       {
         "row": 25,
         "rowsha": "rOuOE29N380ZQ7xL0jH7/C5Wx2byuzA8mLZWbrRiPMU=",
         "originContent": "> The code, models, and dataset are **for research and educational purposes only**.",
-        "translatedContent": "> หากต้องการใช้งานเชิงพาณิชย์ กรุณาติดต่อผู้เขียน"
+        "translatedContent": "> โค้ด โมเดล และชุดข้อมูลนี้มีไว้สำหรับ **การวิจัยและการศึกษาเท่านั้น**"
       },
       {
         "row": 26,
         "rowsha": "FEb26wdcJZ+QYdFQmEiYYJyI1m7dr8KnrT/jJ+mJJ9E=",
         "originContent": "> **Commercial use is NOT permitted.**",
-        "translatedContent": ""
+        "translatedContent": "> **ไม่อนุญาตให้ใช้เชิงพาณิชย์**"
       },
       {
         "row": 27,
         "rowsha": "YQDz0urnAm3iQlKVm+90x6BIEceDXonnoA+1AGDIxUo=",
         "originContent": "> For commercial licensing, please contact the authors.",
-        "translatedContent": "**📦 ส่วนประกอบของบุคคลที่สาม**"
+        "translatedContent": "> หากต้องการใช้เชิงพาณิชย์ กรุณาติดต่อผู้เขียน"
       },
       {
         "row": 28,
@@ -830,31 +874,31 @@
         "row": 29,
         "rowsha": "idCvsL23+SgGxeiktrTl5Y+r1XCJFcD6eO3243OaAPY=",
         "originContent": "**📦 Third-Party Components**",
-        "translatedContent": "* **Stable Audio Open VAE** (โดย Stability AI):"
+        "translatedContent": "**📦 ส่วนประกอบจากบุคคลที่สาม**"
       },
       {
         "row": 30,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "  ที่เก็บนี้รวม VAE ที่ปรับแต่งจาก [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), ภายใต้ [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md)"
+        "translatedContent": ""
       },
       {
         "row": 31,
         "rowsha": "WE7FE/+7lXbNs5ENH4uLy9/fzMNY1H60uSJ7lRbBD0o=",
         "originContent": "* **Stable Audio Open VAE** (by Stability AI):",
-        "translatedContent": "  **การใช้งานเชิงพาณิชย์และการแจกจ่ายซ้ำต้องได้รับอนุญาตล่วงหน้าจาก Stability AI**"
+        "translatedContent": "* **Stable Audio Open VAE** (โดย Stability AI):"
       },
       {
         "row": 32,
         "rowsha": "n8R1JiNonohwAL0UGMf3R1xgnYRnz5fdUI6ZtkdzKnU=",
         "originContent": "  This repository includes a fine-tuned VAE from [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), licensed under the [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).",
-        "translatedContent": ""
+        "translatedContent": "  ที่เก็บนี้รวม VAE ที่ปรับแต่งจาก [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/) ซึ่งได้รับอนุญาตภายใต้ [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md)"
       },
       {
         "row": 33,
         "rowsha": "z1nrjZCTFkfKVpjvRtVTCvLJ3eIRc/0lYZ6q1FAyF9Y=",
         "originContent": "  **Commercial use and redistribution require prior permission from Stability AI.**",
-        "translatedContent": "* 📘 **โค้ดและโมเดลอื่น ๆ ทั้งหมด** เผยแพร่ภายใต้ Apache License 2.0"
+        "translatedContent": "  **การใช้และแจกจ่ายเชิงพาณิชย์ต้องได้รับอนุญาตล่วงหน้าจาก Stability AI**"
       },
       {
         "row": 34,
@@ -866,7 +910,7 @@
         "row": 35,
         "rowsha": "Rc/58q3GXX1uj9YQLKADnw6rI9fXJsB3qr7SgcFxhJQ=",
         "originContent": "* 📘 **All other code and models** are released under the Apache License 2.0.",
-        "translatedContent": "---"
+        "translatedContent": "* 📘 **โค้ดและโมเดลอื่น ๆ ทั้งหมด** เผยแพร่ภายใต้ใบอนุญาต Apache 2.0"
       },
       {
         "row": 36,
@@ -878,7 +922,7 @@
         "row": 37,
         "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
         "originContent": "---",
-        "translatedContent": "## คำขอบคุณ"
+        "translatedContent": "---"
       },
       {
         "row": 38,
@@ -890,88 +934,10 @@
         "row": 39,
         "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
         "originContent": "## Acknowledgements",
-        "translatedContent": "ขอขอบคุณเป็นอย่างยิ่งต่อ:"
+        "translatedContent": "## คำขอบคุณ"
       },
       {
         "row": 40,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 41,
-        "rowsha": "nrozD4yXZdvCdVDGRjdO303ENLy2DrpELvY0lV8DjU4=",
-        "originContent": "Many thanks to:",
-        "translatedContent": "* **stable-audio-tools** (โดย Stability AI):"
-      },
-      {
-        "row": 42,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "สำหรับการจัดเตรียมเฟรมเวิร์กที่ใช้งานง่ายสำหรับการสร้างเสียง รวมถึงโมดูล VAE และเวทน้ำหนัก"
-      },
-      {
-        "row": 43,
-        "rowsha": "7poAa5FddcjiBYp6TtQpLbB4qN57dBa/V6Oc1d6Ak1c=",
-        "originContent": "* **stable-audio-tools** (by Stability AI):",
-        "translatedContent": "* **MMAudio**:"
-      },
-      {
-        "row": 44,
-        "rowsha": "ChUiuc0nNLek0lyZz64pXvYp23+nJyAL95/UOo1ez4U=",
-        "originContent": "For providing an easy-to-use framework for audio generation, as well as the VAE module and weights.",
-        "translatedContent": "  สำหรับการนำโครงสร้าง MM-DiT มาใช้ในโดเมนเสียง"
-      },
-      {
-        "row": 45,
-        "rowsha": "nn9Ut2wJSSgxPicEUDiiTuEnuQK99h2v5Ue5JFAtHN0=",
-        "originContent": "* **MMAudio**:",
-        "translatedContent": ""
-      },
-      {
-        "row": 46,
-        "rowsha": "3yv6rAm2+j4agcTG/gcAtQLX1Kv0n/+YvFmBsObWoYo=",
-        "originContent": "  For the implementation of the MM-DiT backbone in the audio domain.",
-        "translatedContent": "---"
-      },
-      {
-        "row": 47,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 48,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "## 📖 การอ้างอิง"
-      },
-      {
-        "row": 49,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 50,
-        "rowsha": "syomH5Of+YY9KSCalKtADVZFMa9lRWCIOiYIqbfDgKI=",
-        "originContent": "## 📖 Citation",
-        "translatedContent": "หากคุณพบว่า ThinkSound มีประโยชน์ในการวิจัยหรือการทำงาน กรุณาอ้างอิงบทความของเรา:"
-      },
-      {
-        "row": 51,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 52,
-        "rowsha": "o5GEZn4azbbEeVodFzyyGdWtJ79JPcZQcPI33OuhB4o=",
-        "originContent": "If you find ThinkSound useful in your research or work, please cite our paper:",
-        "translatedContent": ""
-      },
-      {
-        "row": 53,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -980,7 +946,98 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 14,
+    "Id": 16,
+    "Content": "Many thanks to:\n\n* **stable-audio-tools** (by Stability AI):\nFor providing an easy-to-use framework for audio generation, as well as the VAE module and weights.\n* **MMAudio**:\n  For the implementation of the MM-DiT backbone in the audio domain.\n\n---\n\n## 📖 Citation\n\nIf you find ThinkSound useful in your research or work, please cite our paper:\n",
+    "ContentSha": "FsK5U++tkthvkZ/Gd4G7gn74YKpB282Oxnkt96u9C1k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "ขอขอบคุณเป็นอย่างสูงแก่:\n\n* **stable-audio-tools** (โดย Stability AI):\nสำหรับการจัดเตรียมเฟรมเวิร์กที่ใช้งานง่ายสำหรับการสร้างเสียง รวมถึงโมดูล VAE และน้ำหนักโมเดล\n* **MMAudio**:\n  สำหรับการนำโครงสร้างหลัก MM-DiT มาใช้ในโดเมนเสียง\n\n---\n\n## 📖 การอ้างอิง\n\nหากคุณพบว่า ThinkSound มีประโยชน์ในการวิจัยหรือการทำงานของคุณ โปรดอ้างอิงงานวิจัยของเรา:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "nrozD4yXZdvCdVDGRjdO303ENLy2DrpELvY0lV8DjU4=",
+        "originContent": "Many thanks to:",
+        "translatedContent": "ขอขอบคุณเป็นอย่างสูงแก่:"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "7poAa5FddcjiBYp6TtQpLbB4qN57dBa/V6Oc1d6Ak1c=",
+        "originContent": "* **stable-audio-tools** (by Stability AI):",
+        "translatedContent": "* **stable-audio-tools** (โดย Stability AI):"
+      },
+      {
+        "row": 4,
+        "rowsha": "ChUiuc0nNLek0lyZz64pXvYp23+nJyAL95/UOo1ez4U=",
+        "originContent": "For providing an easy-to-use framework for audio generation, as well as the VAE module and weights.",
+        "translatedContent": "สำหรับการจัดเตรียมเฟรมเวิร์กที่ใช้งานง่ายสำหรับการสร้างเสียง รวมถึงโมดูล VAE และน้ำหนักโมเดล"
+      },
+      {
+        "row": 5,
+        "rowsha": "nn9Ut2wJSSgxPicEUDiiTuEnuQK99h2v5Ue5JFAtHN0=",
+        "originContent": "* **MMAudio**:",
+        "translatedContent": "* **MMAudio**:"
+      },
+      {
+        "row": 6,
+        "rowsha": "3yv6rAm2+j4agcTG/gcAtQLX1Kv0n/+YvFmBsObWoYo=",
+        "originContent": "  For the implementation of the MM-DiT backbone in the audio domain.",
+        "translatedContent": "  สำหรับการนำโครงสร้างหลัก MM-DiT มาใช้ในโดเมนเสียง"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "syomH5Of+YY9KSCalKtADVZFMa9lRWCIOiYIqbfDgKI=",
+        "originContent": "## 📖 Citation",
+        "translatedContent": "## 📖 การอ้างอิง"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "o5GEZn4azbbEeVodFzyyGdWtJ79JPcZQcPI33OuhB4o=",
+        "originContent": "If you find ThinkSound useful in your research or work, please cite our paper:",
+        "translatedContent": "หากคุณพบว่า ThinkSound มีประโยชน์ในการวิจัยหรือการทำงานของคุณ โปรดอ้างอิงงานวิจัยของเรา:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
     "Content": "```bibtex\n@misc{liu2025thinksoundchainofthoughtreasoningmultimodal,\n      title={ThinkSound: Chain-of-Thought Reasoning in Multimodal Large Language Models for Audio Generation and Editing}, \n      author={Huadai Liu and Jialei Wang and Kaicheng Luo and Wen Wang and Qian Chen and Zhou Zhao and Wei Xue},\n      year={2025},\n      eprint={2506.21448},\n      archivePrefix={arXiv},\n      primaryClass={eess.AS},\n      url={https://arxiv.org/abs/2506.21448}, \n}\n```",
     "ContentSha": "KKv35iBt6IDF1ifN04L+6lkh0BHkbObnW/+m50Wufrs=",
     "SectionType": "",
@@ -992,49 +1049,67 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 15,
-    "Content": "\n---\n\n## 📬 Contact\n\n✨ Feel free to [open an issue](https://github.com/liuhuadai/ThinkSound/issues) or contact us via email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) if you have any questions or suggestions!",
-    "ContentSha": "Snq8+wbgyNtcTxjUtmf/hccl2QsJwcGSU5a2QF0XFhE=",
+    "Id": 18,
+    "Content": "\n---\n\n## 📬 Contact\n\n\n✨ Feel free to [open an issue](https://github.com/liuhuadai/ThinkSound/issues) or contact us via email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) if you have any questions or suggestions!\n\n",
+    "ContentSha": "bhgThXKCFQGVw+ap6COOeWEROoFc9CTAywSYDLrpw98=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "---\n\n## 📬 ติดต่อ\n\n✨ หากคุณมีคำถามหรือข้อเสนอแนะใด ๆ โปรด [เปิด issue](https://github.com/liuhuadai/ThinkSound/issues) หรือ ติดต่อเราทางอีเมล ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) ได้เลย!\n",
+    "Translation": "\n---\n\n## 📬 Contact\n\n\n✨ Feel free to [open an issue](https://github.com/liuhuadai/ThinkSound/issues) or contact us via email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) if you have any questions or suggestions!\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "---"
+        "translatedContent": ""
       },
       {
         "row": 2,
         "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
         "originContent": "---",
-        "translatedContent": ""
+        "translatedContent": "---"
       },
       {
         "row": 3,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## 📬 ติดต่อ"
+        "translatedContent": ""
       },
       {
         "row": 4,
         "rowsha": "V0ea1xQLKG+cGj5kHVv5f15HDd+yj0ulkcBQnvErdJc=",
         "originContent": "## 📬 Contact",
-        "translatedContent": ""
+        "translatedContent": "## 📬 Contact"
       },
       {
         "row": 5,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "✨ หากคุณมีคำถามหรือข้อเสนอแนะใด ๆ โปรด [เปิด issue](https://github.com/liuhuadai/ThinkSound/issues) หรือ ติดต่อเราทางอีเมล ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) ได้เลย!"
+        "translatedContent": ""
       },
       {
         "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
         "rowsha": "QsDuVwX1DXlTNejKuNftx4k1x7yNHjfP9/1HS85hJng=",
         "originContent": "✨ Feel free to [open an issue](https://github.com/liuhuadai/ThinkSound/issues) or contact us via email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) if you have any questions or suggestions!",
+        "translatedContent": "✨ Feel free to [open an issue](https://github.com/liuhuadai/ThinkSound/issues) or contact us via email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) if you have any questions or suggestions!"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       }
     ],

@@ -10,7 +10,8 @@
   <a href="https://openaitx.github.io/view.html?user=FunAudioLLM&project=ThinkSound&lang=ja">日本語</a>
   
 </p>
-
+<p align="center">
+  <img src="https://img.shields.io/badge/NeurIPS 2025-Main Conference-blue.svg" alt="NeurIPS 2025"/>
 <p align="center">
   <a href="https://arxiv.org/pdf/2506.21448">
     <img src="https://img.shields.io/badge/arXiv-2506.21448-b31b1b.svg" alt="arXiv"/>
@@ -31,50 +32,52 @@
 
 <p align="center">
   Jika Anda merasa proyek ini bermanfaat,<br>
-  beri bintang ⭐ di GitHub akan sangat dihargai!
+  memberikan bintang ⭐ di GitHub akan sangat dihargai!
 </p>
 
 ---
 
-**ThinkSound** adalah kerangka kerja Any2Audio generasi terpadu dengan flow matching yang dipandu oleh Chain-of-Thought (CoT) reasoning.
+**ThinkSound** adalah kerangka kerja generasi Any2Audio terpadu dengan pencocokan alur yang dipandu oleh penalaran Chain-of-Thought (CoT).
 
-Implementasi PyTorch untuk generasi dan penyuntingan audio multimodal: menghasilkan atau mengedit audio dari video, teks, dan audio, didukung oleh reasoning bertahap dari Multimodal Large Language Models (MLLMs).
+Implementasi PyTorch untuk pembuatan dan pengeditan audio multimodal: menghasilkan atau mengedit audio dari video, teks, dan audio, didukung oleh penalaran bertahap dari Multimodal Large Language Models (MLLMs).
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 Berita
-- **2025.07.17** &nbsp; 🧠 Finetuning diaktifkan: kode pelatihan dan finetuning sekarang tersedia untuk umum, beserta petunjuk penggunaan yang jelas untuk membantu Anda menyesuaikan dan memperluas ThinkSound dengan data Anda sendiri.
-- **2025.07.15** &nbsp; 📦 Instalasi dan kegunaan disederhanakan: dependensi tersedia di PyPI untuk penyiapan lintas platform yang mudah; skrip `.bat` Windows mengotomatisasi pembuatan environment dan menjalankan skrip.
-- **2025.07.08** &nbsp;  🔧 Pembaruan besar: model lebih ringan dan penggunaan memori serta GPU dioptimalkan, kini mendukung generasi audio throughput tinggi secara massal!
+- **2025.09.19** &nbsp; 🎉 ThinkSound telah diterima di **Konferensi Utama NeurIPS 2025**!
+- **2025.09.01** &nbsp; 🔥 Dataset AudioCoT kami kini bersifat open-source dan tersedia di [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!
+- **2025.07.17** &nbsp; 🧠 Finetuning diaktifkan: kode pelatihan dan finetuning sekarang tersedia untuk umum, beserta instruksi penggunaan yang jelas untuk membantu Anda menyesuaikan dan memperluas ThinkSound dengan data Anda sendiri.
+- **2025.07.15** &nbsp; 📦 Instalasi dan penggunaan yang disederhanakan: dependensi tersedia di PyPI untuk penyiapan lintas platform yang mudah; skrip Windows `.bat` mengotomatisasi pembuatan lingkungan dan menjalankan skrip.
+- **2025.07.08** &nbsp;  🔧 Pembaruan besar: model diringankan dan dioptimalkan untuk penggunaan memori dan GPU, kini mendukung pembuatan audio berkapasitas tinggi!
 - **2025.07.01** &nbsp; 🔥Demo online di [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) dan [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) untuk pengalaman interaktif!
-- **2025.07.01** &nbsp; 🔥Script inferensi dan antarmuka web dirilis;
-- **2025.06** &nbsp; 🔥[Makalah ThinkSound](https://arxiv.org/pdf/2506.21448) dirilis di arXiv!
-- **2025.06** &nbsp; 🔥[Demo Online](http://thinksound-project.github.io/) telah tayang - coba sekarang!
+- **2025.07.01** &nbsp; 🔥Skrip inferensi dan antarmuka web dirilis;
+- **2025.06** &nbsp; 🔥[Paper ThinkSound](https://arxiv.org/pdf/2506.21448) dirilis di arXiv!
+- **2025.06** &nbsp; 🔥[Demo Online](http://thinksound-project.github.io/) telah tersedia - coba sekarang!
 
 ---
-
 
 ## 🚀 Fitur
 
-- **Any2Audio**: Menghasilkan audio dari berbagai modalitas — video, teks, audio, atau kombinasinya.
-- **Video-to-Audio SOTA**: Mencapai hasil state-of-the-art di beberapa benchmark V2A.
-- **CoT-Driven Reasoning**: Chain-of-Thought reasoning untuk generasi audio yang komposisional dan dapat dikontrol melalui MLLM.
-- **Interactive Object-centric Editing**: Memperbaiki atau mengedit event suara tertentu dengan klik pada objek visual atau menggunakan instruksi teks.
-- **Unified Framework**: Satu model fondasi mendukung generasi, penyuntingan, dan alur kerja interaktif.
+- **Any2Audio**: Menghasilkan audio dari berbagai modalitas — video, teks, audio, atau kombinasi mereka.
+- **Video-to-Audio SOTA**: Mencapai hasil terbaik pada beberapa tolok ukur V2A.
+- **Penalaran Berbasis CoT**: Penalaran Chain-of-Thought untuk pembuatan audio yang komposisional dan dapat dikendalikan melalui MLLMs.
+- **Pengeditan Interaktif Berbasis Objek**: Memperbaiki atau mengedit kejadian suara tertentu dengan mengklik objek visual atau menggunakan instruksi teks.
+- **Kerangka Kerja Terpadu**: Satu model dasar mendukung pembuatan, pengeditan, dan alur kerja interaktif.
 
 ---
 
-## ✨ Ikhtisar Metode
+## ✨ Ringkasan Metode
 
-ThinkSound memecah proses generasi dan penyuntingan audio menjadi tiga tahap interaktif, semuanya dipandu oleh reasoning Chain-of-Thought (CoT) berbasis MLLM:
+ThinkSound membagi proses pembuatan dan pengeditan audio menjadi tiga tahap interaktif, semuanya dipandu oleh penalaran Chain-of-Thought (CoT) berbasis MLLM:
 
-1. **Foley Generation:** Menghasilkan soundscape dasar yang selaras secara semantik dan temporal dari video.
-2. **Object-Centric Refinement:** Memperbaiki atau menambahkan suara untuk objek yang ditentukan pengguna melalui klik atau area pada video.
-3. **Targeted Audio Editing:** Memodifikasi audio yang dihasilkan menggunakan instruksi bahasa alami tingkat tinggi.
+1. **Pembuatan Foley:** Menghasilkan lanskap suara dasar yang selaras secara semantik dan temporal dari video.
+2. **Penyempurnaan Berbasis Objek:** Menyempurnakan atau menambah suara untuk objek yang ditentukan pengguna melalui klik atau area pada video.
+3. **Pengeditan Audio Terarah:** Memodifikasi audio yang dihasilkan menggunakan instruksi bahasa alami tingkat tinggi.
 
 ![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- Dataset beranotasi CoT skala besar (**AudioCoT**) digunakan untuk melatih modul reasoning dan model fondasi audio terpadu.
+<!-- Dataset berskala besar yang dianotasi CoT (**AudioCoT**) digunakan untuk melatih modul penalaran dan model fondasi audio terpadu.
+
 ![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
@@ -159,20 +162,22 @@ Untuk pengalaman interaktif, jalankan antarmuka web Gradio:
 ```bash
 python app.py
 ```
-## 🏋️ Melatih Model
+
+
+## 🏋️ Latih Model
 
 Lihat [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/docs/Training.md)
 
 
 ---
 
-## 📝 TODO & Rencana Mendatang
-* - [ ] Open-source dataset AudioCoT dan pipeline otomatis (Diharapkan sebelum 23/07/2025)
-* - [ ] Merilis model fondasi yang lebih kuat yang mencakup berbagai domain untuk menyediakan pembuatan foley yang lebih menarik dan imersif (Diharapkan akhir Agustus 2025)
-* - [ ] Menambahkan dukungan untuk modalitas tambahan dan tugas lanjutan (Diharapkan sebelum akhir Juli 2025)
-* - [ ] Merilis model dalam berbagai skala (Diharapkan sebelum akhir Juli 2025)
+## 📝 TODO & Rencana Masa Depan
+* - [ ] Merilis model fondasi yang lebih kuat yang mencakup beberapa domain untuk memberikan kreasi foley yang lebih menarik dan imersif
+* - [ ] Menambahkan dukungan untuk modalitas tambahan dan tugas hilir
+* - [ ] Merilis model dalam berbagai skala
+* - [x] Open-source dataset AudioCoT dan pipeline otomatis
 * - [x] Merilis skrip pelatihan untuk model ThinkSound
-* - [x] README pemula yang ramah untuk Windows quick-start
+* - [x] README Windows quick-start yang ramah pemula
 ---
 
 
@@ -181,15 +186,15 @@ Lihat [`Training.md`](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/m
 Proyek ini dirilis di bawah Lisensi Apache 2.0.
 
 > **Catatan:**
-> Kode, model, dan dataset ini **hanya untuk tujuan penelitian dan pendidikan**.
+> Kode, model, dan dataset **hanya untuk tujuan riset dan edukasi**.
 > **Penggunaan komersial TIDAK diizinkan.**
 > Untuk lisensi komersial, silakan hubungi penulis.
 
 **📦 Komponen Pihak Ketiga**
 
 * **Stable Audio Open VAE** (oleh Stability AI):
-  Repositori ini mencakup VAE yang di-fine-tune dari [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), yang dilisensikan di bawah [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).
-  **Penggunaan komersial dan redistribusi memerlukan izin terlebih dahulu dari Stability AI.**
+  Repository ini menyertakan VAE yang telah di-finetune dari [Stable Audio Open](https://huggingface.co/stabilityai/stable-audio-open-1.0/), berlisensi di bawah [Stability AI Community License](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/./third_party/LICENSE_StabilityAI.md).
+  **Penggunaan dan redistribusi komersial memerlukan izin terlebih dahulu dari Stability AI.**
 
 * 📘 **Seluruh kode dan model lainnya** dirilis di bawah Lisensi Apache 2.0.
 
@@ -200,7 +205,7 @@ Proyek ini dirilis di bawah Lisensi Apache 2.0.
 Terima kasih banyak kepada:
 
 * **stable-audio-tools** (oleh Stability AI):
-Atas penyediaan framework yang mudah digunakan untuk pembuatan audio, serta modul VAE dan bobotnya.
+Untuk menyediakan kerangka kerja yang mudah digunakan untuk generasi audio, serta modul VAE dan bobotnya.
 * **MMAudio**:
   Untuk implementasi backbone MM-DiT di domain audio.
 
@@ -208,9 +213,7 @@ Atas penyediaan framework yang mudah digunakan untuk pembuatan audio, serta modu
 
 ## 📖 Sitasi
 
-Jika Anda merasa ThinkSound bermanfaat dalam penelitian atau pekerjaan Anda, silakan sitasi makalah kami:
-
-
+Jika Anda merasa ThinkSound berguna dalam penelitian atau pekerjaan Anda, silakan sitasi makalah kami:
 
 ```bibtex
 @misc{liu2025thinksoundchainofthoughtreasoningmultimodal,
@@ -223,15 +226,18 @@ Jika Anda merasa ThinkSound bermanfaat dalam penelitian atau pekerjaan Anda, sil
       url={https://arxiv.org/abs/2506.21448}, 
 }
 ```
+
 ---
 
-## 📬 Kontak
+## 📬 Contact
 
-✨ Jangan ragu untuk [membuka isu](https://github.com/liuhuadai/ThinkSound/issues) atau hubungi kami melalui email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) jika Anda memiliki pertanyaan atau saran!
+
+✨ Feel free to [open an issue](https://github.com/liuhuadai/ThinkSound/issues) or contact us via email ([liuhuadai@zju.edu.cn](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/mailto:liuhuadai@zju.edu.cn)) if you have any questions or suggestions!
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
 
 ---

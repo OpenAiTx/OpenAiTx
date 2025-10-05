@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Język</summary>
@@ -30,7 +31,7 @@
 
 # SparkyFitness - Samohostowana alternatywa dla MyFitnessPal
 
-SparkyFitness to kompleksowa aplikacja do monitorowania i zarządzania aktywnością fizyczną, zaprojektowana, aby pomóc użytkownikom śledzić odżywianie, ćwiczenia i pomiary ciała. Zapewnia narzędzia do codziennego śledzenia postępów, wyznaczania celów oraz szczegółowych raportów wspierających zdrowy styl życia.
+SparkyFitness to kompleksowa aplikacja do monitorowania i zarządzania kondycją fizyczną, zaprojektowana, aby pomóc użytkownikom śledzić odżywianie, ćwiczenia oraz pomiary ciała. Oferuje narzędzia do codziennego monitorowania postępów, wyznaczania celów i przejrzystych raportów wspierających zdrowy styl życia.
 
 Dokumentacja: https://codewithcj.github.io/SparkyFitness
 
@@ -38,69 +39,68 @@ Dokumentacja: https://codewithcj.github.io/SparkyFitness
 
 ### 🍎 Monitorowanie odżywiania
 
-* **Rejestruj codzienne posiłki**
+* **Rejestruj swoje codzienne posiłki**
 * **Twórz i zarządzaj własnymi produktami oraz kategoriami**
-* **Przeglądaj podsumowania i analizuj trendy dzięki interaktywnym wykresom**
+* **Przeglądaj podsumowania i analizuj trendy na interaktywnych wykresach**
 
 ### 💪 Rejestrowanie ćwiczeń
 
 * **Zapisuj swoje treningi**
 * **Przeglądaj i wyszukuj w obszernej bazie ćwiczeń**
-* **Śledź postępy w kondycji na przestrzeni czasu**
+* **Śledź postępy w sprawności fizycznej w czasie**
 
 ### 💧 Monitorowanie spożycia wody
 
-* **Śledź dzienne cele nawodnienia**
-* **Proste i szybkie logowanie wypitej wody**
+* **Śledź codzienne cele nawodnienia**
+* **Proste, szybkie rejestrowanie wypitej wody**
 
 ### 📏 Pomiary ciała
 
 * **Rejestruj parametry ciała** (np. waga, talia, ramiona)
 * **Dodawaj własne typy pomiarów**
-* **Wizualizuj postępy na wykresach**
+* **Obserwuj postępy na wykresach**
 
-### 🎯 Wyznaczanie celów
+### 🎯 Ustalanie celów
 
 * **Ustalaj i zarządzaj celami fitness i żywieniowymi**
-* **Monitoruj postępy w czasie**
+* **Śledź postępy w czasie**
 
-### 🗓️ Codzienne meldunki
+### 🗓️ Codzienne odprawy
 
 * **Monitoruj codzienną aktywność**
-* **Utrzymuj regularność dzięki śledzeniu nawyków**
+* **Pozostań konsekwentny dzięki śledzeniu nawyków**
 
-### 🤖 AI Trener Żywieniowy (SparkyAI)
+### 🤖 AI Trener Żywienia (SparkyAI)
 
-* **Rejestruj posiłki, ćwiczenia, parametry ciała i kroki przez czat**
-* **Przesyłaj zdjęcia posiłków, aby automatycznie je rejestrować**
-* **Zawiera historię czatu i spersonalizowane porady**
+* **Rejestruj jedzenie, ćwiczenia, parametry ciała i kroki poprzez czat**
+* **Przesyłaj zdjęcia jedzenia, aby automatycznie rejestrować posiłki**
+* **Zawiera historię czatu i spersonalizowane wskazówki**
 
-### 🔒 Uwierzytelnianie i profile użytkowników
+### 🔒 Uwierzytelnianie użytkownika i profile
 
 * **Bezpieczny system logowania**
-* **Możliwość przełączania się między profilami użytkowników**
-* **Wsparcie dla dostępu i zarządzania rodziną**
+* **Przełączanie między profilami użytkowników**
+* **Wsparcie dla dostępu rodzinnego i zarządzania**
 
-### 📊 Szczegółowe raporty
+### 📊 Kompletne raporty
 
-* **Generuj podsumowania dotyczące odżywiania i parametrów ciała**
-* **Śledź długoterminowe trendy tygodniami lub miesiącami**
+* **Generowanie podsumowań dotyczących żywienia i parametrów ciała**
+* **Śledzenie długoterminowych trendów przez tygodnie lub miesiące**
 
 ### 🎨 Personalizowane motywy
 
-* **Przełączaj się między trybem jasnym i ciemnym**
-* **Minimalistyczny, wolny od rozpraszaczy interfejs**
+* **Przełączanie między trybem jasnym i ciemnym**
+* **Zaprojketowany z minimalnym, bezrozpraszającym interfejsem**
 
 ### Potrzebujesz pomocy?
 * **Dołącz do Discorda**
   https://discord.gg/vcnMT5cPEA
-* **Napisz na forum dyskusyjnym**
+* **Zadaj pytanie na forum dyskusyjnym**
 
 
+![obraz](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
-
-## 🚀 Szybki start
+## � Szybki start
 
 Uruchom SparkyFitness w kilka minut:
 
@@ -117,24 +117,25 @@ cp docker/.env.example .env
 
 # Access application at http://localhost:8080
 ```
+
 ## 📖 Dokumentacja
 
-Aby uzyskać pełne przewodniki instalacyjne, konfigurację środowiska deweloperskiego i instrukcje użytkowania, odwiedź naszą kompleksową dokumentację:
+Aby uzyskać pełne przewodniki instalacyjne, instrukcje dotyczące konfiguracji środowiska deweloperskiego oraz zasady użytkowania, odwiedź naszą kompleksową dokumentację:
 
-**👉 [Strona Dokumentacji SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
+**👉 [SparkyFitness Dokumentacja](https://codewithcj.github.io/SparkyFitness)**
 
 ### Szybkie linki
 
-- **[🚀 Pierwsze Kroki](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Kompletny przewodnik po konfiguracji środowiska deweloperskiego i produkcyjnego
-- **[🐳 Przewodnik Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Wdrażanie i konfiguracja w środowisku Docker
-- **[🔧 Przepływ pracy Dewelopera](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Przewodnik dla deweloperów i proces współtworzenia  
-- **[📊 Przegląd Funkcji](https://codewithcj.github.io/SparkyFitness/features/)** - Pełna dokumentacja funkcjonalności
+- **[🚀 Pierwsze kroki](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Kompletny przewodnik po konfiguracji dla deweloperów i produkcji
+- **[🐳 Przewodnik Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Wdrażanie i konfiguracja Docker
+- **[🔧 Przepływ pracy deweloperskiej](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Przewodnik dla deweloperów oraz proces kontrybucji  
+- **[📊 Przegląd funkcji](https://codewithcj.github.io/SparkyFitness/features/)** - Pełna dokumentacja funkcji
 - **[🏗️ Architektura](https://codewithcj.github.io/SparkyFitness/app-overview)** - Architektura techniczna i projekt
+- Zajrzyj do Wiki, aby uzyskać przykładową konfigurację środowiska i konfigurację aplikacji mobilnej.
 
-## 🐳 Wdrażanie przez Docker
+## 🐳 Wdrażanie Docker
 
 **Produkcja (zalecane):**
-
 ```bash
 cp docker/.env.example .env  # Edit as needed
 ./docker/docker-helper.sh prod up
@@ -167,6 +168,6 @@ Może być konieczna zmiana zmiennych Docker/środowiskowych przy nowych wydania
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
 
 ---

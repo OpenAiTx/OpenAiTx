@@ -1,26 +1,27 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 Bahasa</summary>
     <div>
       <div align="right">
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">Inggris</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=en">English</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ja">日本語</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ko">한국어</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=hi">हिन्दी</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=th">ไทย</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Prancis</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Jerman</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Spanyol</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Italia</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=it">Itapano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ru">Русский</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Portugis</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Belanda</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pt">Português</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=nl">Nederlands</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=pl">Polski</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=ar">العربية</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=fa">فارسی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">Turki</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=tr">Türkçe</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=vi">Tiếng Việt</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CodeWithCJ&project=SparkyFitness&lang=id">Bahasa Indonesia</a></p>
       </div>
@@ -28,80 +29,78 @@
   </details>
 </div>
 
-# SparkyFitness - Alternatif Selfhosted untuk MyFitnessPal
+# SparkyFitness - Alternatif Selfhosted MyFitnessPal
 
-SparkyFitness adalah aplikasi pemantauan dan manajemen kebugaran yang komprehensif, dirancang untuk membantu pengguna memantau nutrisi, olahraga, dan pengukuran tubuh mereka. Aplikasi ini menyediakan alat untuk pemantauan kemajuan harian, penetapan tujuan, dan laporan mendalam guna mendukung gaya hidup sehat.
+SparkyFitness adalah aplikasi manajemen dan pelacakan kebugaran yang komprehensif, dirancang untuk membantu pengguna memantau nutrisi, olahraga, dan pengukuran tubuh mereka. Aplikasi ini menyediakan alat untuk pelacakan kemajuan harian, penetapan tujuan, dan laporan mendalam guna mendukung gaya hidup sehat.
 
 Dokumentasi: https://codewithcj.github.io/SparkyFitness
 
 ## ✨ Fitur
 
-### 🍎 Pemantauan Nutrisi
+### 🍎 Pelacakan Nutrisi
 
 * **Catat makanan harian Anda**
 * **Buat dan kelola makanan serta kategori khusus**
 * **Lihat ringkasan dan analisis tren dengan grafik interaktif**
 
-### 💪 Pencatatan Olahraga
+### 💪 Pencatatan Latihan
 
 * **Catat latihan Anda**
-* **Jelajahi dan cari basis data latihan yang lengkap**
-* **Lacak kemajuan kebugaran dari waktu ke waktu**
+* **Jelajahi dan cari basis data latihan yang komprehensif**
+* **Lacak perkembangan kebugaran dari waktu ke waktu**
 
 ### 💧 Pemantauan Asupan Air
 
 * **Lacak target hidrasi harian**
-* **Pencatatan air yang sederhana dan cepat**
+* **Pencatatan air yang mudah dan cepat**
 
 ### 📏 Pengukuran Tubuh
 
-* **Catat metrik tubuh** (misal: berat, pinggang, lengan)
-* **Tambah jenis pengukuran kustom**
-* **Visualisasikan kemajuan melalui grafik**
+* **Catat metrik tubuh** (misal: berat badan, pinggang, lengan)
+* **Tambahkan jenis pengukuran khusus**
+* **Visualisasikan perkembangan melalui grafik**
 
-### 🎯 Penetapan Tujuan
+### 🎯 Penetapan Target
 
-* **Tetapkan dan kelola tujuan kebugaran dan nutrisi**
-* **Lacak kemajuan dari waktu ke waktu**
+* **Tetapkan dan kelola target kebugaran dan nutrisi**
+* **Lacak perkembangan dari waktu ke waktu**
 
-### 🗓️ Check-In Harian
+### 🗓️ Pemeriksaan Harian
 
 * **Pantau aktivitas harian**
 * **Tetap konsisten dengan pelacakan kebiasaan**
 
 ### 🤖 Pelatih Nutrisi AI (SparkyAI)
 
-* **Catat makanan, olahraga, statistik tubuh, dan langkah lewat chat**
-* **Unggah gambar makanan untuk mencatat makanan secara otomatis**
+* **Catat makanan, latihan, statistik tubuh, dan langkah melalui chat**
+* **Unggah gambar makanan untuk pencatatan otomatis**
 * **Termasuk riwayat chat dan panduan yang dipersonalisasi**
 
-### 🔒 Otentikasi & Profil Pengguna
+### 🔒 Autentikasi Pengguna & Profil
 
 * **Sistem login yang aman**
-* **Beralih antar profil pengguna**
-* **Dukungan akses dan manajemen keluarga**
+* **Beralih antara profil pengguna**
+* **Dukungan untuk akses dan manajemen keluarga**
 
 ### 📊 Laporan Komprehensif
 
-* **Hasilkan ringkasan nutrisi dan metrik tubuh**
-* **Lacak tren jangka panjang dalam minggu atau bulan**
+* **Buat ringkasan untuk nutrisi dan metrik tubuh**
+* **Lacak tren jangka panjang selama minggu atau bulan**
 
 ### 🎨 Tema yang Dapat Disesuaikan
 
 * **Beralih antara mode terang dan gelap**
-* **Dirancang dengan antarmuka minimalis dan bebas gangguan**
+* **Dirancang dengan antarmuka minimalis, bebas gangguan**
 
 ### Butuh Bantuan?
-* **Gabung discord**
+* **Bergabung dengan discord**
   https://discord.gg/vcnMT5cPEA
 * **Tulis di diskusi**
 
 
-
-
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-## 🚀 Mulai Cepat
+## � Mulai Cepat
 
 Jalankan SparkyFitness dalam hitungan menit:
 
@@ -118,24 +117,25 @@ cp docker/.env.example .env
 
 # Access application at http://localhost:8080
 ```
+
 ## 📖 Dokumentasi
 
-Untuk panduan instalasi lengkap, pengaturan pengembangan, dan instruksi penggunaan, kunjungi dokumentasi lengkap kami:
+Untuk panduan instalasi lengkap, pengaturan pengembangan, dan instruksi penggunaan, kunjungi dokumentasi kami yang komprehensif:
 
 **👉 [Situs Dokumentasi SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
 
 ### Tautan Cepat
 
-- **[🚀 Mulai Cepat](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Panduan pengaturan lengkap untuk pengembangan dan produksi
-- **[🐳 Panduan Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Deployment dan konfigurasi Docker
-- **[🔧 Alur Kerja Pengembangan](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Panduan developer dan proses kontribusi  
+- **[🚀 Memulai](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Panduan lengkap pengaturan untuk pengembangan dan produksi
+- **[🐳 Panduan Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Penerapan dan konfigurasi Docker
+- **[🔧 Alur Kerja Pengembangan](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Panduan pengembang dan proses kontribusi  
 - **[📊 Ikhtisar Fitur](https://codewithcj.github.io/SparkyFitness/features/)** - Dokumentasi fitur lengkap
 - **[🏗️ Arsitektur](https://codewithcj.github.io/SparkyFitness/app-overview)** - Arsitektur teknis dan desain
+- Lihat Wiki untuk contoh pengaturan env dan konfigurasi Aplikasi Mobile.
 
-## 🐳 Deployment Docker
+## 🐳 Penerapan Docker
 
-**Produksi (direkomendasikan):**
-
+**Produksi (disarankan):**
 ```bash
 cp docker/.env.example .env  # Edit as needed
 ./docker/docker-helper.sh prod up
@@ -168,6 +168,6 @@ Anda mungkin perlu mengubah variabel Docker/lingkungan untuk rilis baru. Oleh ka
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
 
 ---

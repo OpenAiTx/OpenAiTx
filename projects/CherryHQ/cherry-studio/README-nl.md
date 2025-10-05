@@ -3,26 +3,26 @@
     <summary >🌐 Taal</summary>
     <div>
       <div align="right">
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=en">Engels</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=en">English</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja">日本語</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ko">한국어</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=hi">हिन्दी</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=th">ไทย</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fr">Frans</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=de">Duits</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=es">Spaans</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=it">Italiaans</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fr">Français</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=de">Deutsch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=es">Español</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=it">Italiano</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ru">Русский</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pt">Portugees</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pt">Português</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=nl">Nederlands</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pl">Pools</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pl">Polski</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ar">العربية</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fa">فارسی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=tr">Turks</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=vi">Vietnamees</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=id">Bahasa Indonesisch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=tr">Türkçe</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=vi">Tiếng Việt</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=id">Bahasa Indonesia</a></p>
       </div>
     </div>
   </details>
@@ -34,7 +34,7 @@
   </a>
 </h1>
 
-<p align="center">Engels | <a href="./docs/README.zh.md">中文</a> | <a href="https://cherry-ai.com">Officiële site</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Documentatie</a> | <a href="./docs/dev.md">Ontwikkeling</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Feedback</a><br></p>
+<p align="center">English | <a href="./docs/README.zh.md">中文</a> | <a href="https://cherry-ai.com">Officiële site</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Documentatie</a> | <a href="./docs/dev.md">Ontwikkeling</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Feedback</a><br></p>
 
 <div align="center">
   
@@ -56,18 +56,18 @@
 </div>
 
 <div align="center">
- <a href="https://hellogithub.com/repository/1605492e1e2a4df3be07abfa4578dd37" target="_blank" style="text-decoration: none"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=1605492e1e2a4df3be07abfa4578dd37" alt="Aanbevolen｜HelloGitHub"  width="220" height="55" /></a>
- <a href="https://trendshift.io/repositories/11772" target="_blank" style="text-decoration: none"><img src="https://trendshift.io/api/badge/repositories/11772" alt="kangfenmao%2Fcherry-studio | Trendshift" width="220" height="55" /></a>
+ <a href="https://hellogithub.com/repository/1605492e1e2a4df3be07abfa4578dd37" target="_blank" style="text-decoration: none"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=1605492e1e2a4df3be07abfa4578dd37" alt="Uitgelicht｜HelloGitHub"  width="220" height="55" /></a>
+ <a href="https://trendshift.io/repositories/14318" target="_blank" style="text-decoration: none"><img src="https://trendshift.io/api/badge/repositories/14318" alt="CherryHQ%2Fcherry-studio | Trendshift" width="220" height="55" /></a>
  <a href="https://www.producthunt.com/posts/cherry-studio?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cherry&#0045;studio" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=496640&theme=light" alt="Cherry&#0032;Studio - AI&#0032;Chatbots&#0044;&#0032;AI&#0032;Desktop&#0032;Client | Product Hunt" width="220" height="55" /></a>
 </div>
 
 # 🍒 Cherry Studio
 
-Cherry Studio is een desktopclient die meerdere LLM-providers ondersteunt, beschikbaar op Windows, Mac en Linux.
+Cherry Studio is een desktopclient die meerdere LLM-aanbieders ondersteunt, beschikbaar op Windows, Mac en Linux.
 
 👏 Word lid van [Telegram Groep](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [QQ Groep(575014769)](https://qm.qq.com/q/lo0D4qVZKi)
 
-❤️ Fan van Cherry Studio? Geef het een ster 🌟 of [Sponsor](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md) om de ontwikkeling te steunen!
+❤️ Vind je Cherry Studio leuk? Geef het een ster 🌟 of [Sponsor](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md) om de ontwikkeling te steunen!
 
 # 🌠 Screenshot
 
@@ -77,59 +77,59 @@ Cherry Studio is een desktopclient die meerdere LLM-providers ondersteunt, besch
 
 ![](https://github.com/user-attachments/assets/58e0237c-4d36-40de-b428-53051d982026)
 
-# 🌟 Belangrijkste Functies
+# 🌟 Belangrijkste functies
+1. **Ondersteuning voor Diverse LLM-aanbieders**:
 
-1. **Diverse LLM-providerondersteuning**:
+- ☁️ Grote LLM Cloud Services: OpenAI, Gemini, Anthropic, en meer
+- 🔗 Integratie met AI-webdiensten: Claude, Perplexity, Poe, en anderen
+- 💻 Ondersteuning van lokale modellen met Ollama, LM Studio
 
-- ☁️ Grote LLM Cloud Services: OpenAI, Gemini, Anthropic en meer
-- 🔗 Integratie met AI-webdiensten: Claude, Peplexity, Poe en anderen
-- 💻 Ondersteuning voor lokale modellen met Ollama, LM Studio
-
-2. **AI-assistenten & gesprekken**:
+2. **AI-assistenten & Gesprekken**:
 
 - 📚 300+ Vooraf geconfigureerde AI-assistenten
-- 🤖 Eigen assistent aanmaken
-- 💬 Meerdere modellen gelijktijdig gesprekken voeren
+- 🤖 Maken van aangepaste assistenten
+- 💬 Gelijktijdige gesprekken met meerdere modellen
 
-3. **Document- & gegevensverwerking**:
+3. **Document- & Gegevensverwerking**:
 
-- 📄 Ondersteunt Tekst, Afbeeldingen, Office, PDF en meer
+- 📄 Ondersteunt tekst, afbeeldingen, Office, PDF, en meer
 - ☁️ WebDAV-bestandsbeheer en back-up
-- 📊 Mermaid-diagramvisualisatie
+- 📊 Visualisatie van Mermaid-diagrammen
 - 💻 Code syntax highlighting
 
-4. **Integratie van Praktische Tools**:
+4. **Integratie van praktische tools**:
 
-- 🔍 Wereldwijde Zoekfunctionaliteit
-- 📝 Onderwerpsbeheersysteem
-- 🔤 AI-aangedreven Vertaling
-- 🎯 Drag-and-drop Sortering
-- 🔌 Mini Programma Ondersteuning
+- 🔍 Wereldwijde zoekfunctie
+- 📝 Systeem voor onderwerpbeheer
+- 🔤 AI-ondersteunde vertaling
+- 🎯 Sorteren met slepen en neerzetten
+- 🔌 Ondersteuning voor mini-programma’s
 - ⚙️ MCP(Model Context Protocol) Server
 
-5. **Verbeterde Gebruikerservaring**:
+5. **Verbeterde gebruikerservaring**:
 
-- 🖥️ Cross-platform Ondersteuning voor Windows, Mac en Linux
-- 📦 Direct Klaar voor Gebruik - Geen Omgevingsinstellingen Nodig
-- 🎨 Licht/Donker Thema’s en Transparant Venster
+- 🖥️ Cross-platform ondersteuning voor Windows, Mac en Linux
+- 📦 Klaar voor gebruik - Geen installatie van omgeving vereist
+- 🎨 Licht/donker thema’s en transparant venster
 - 📝 Volledige Markdown-weergave
-- 🤲 Eenvoudig Delen van Inhoud
+- 🤲 Eenvoudig delen van inhoud
 
 # 📝 Routekaart
 
 We werken actief aan de volgende functies en verbeteringen:
 
+
 1. 🎯 **Kernfuncties**
 
-- Selectieassistent met slimme selectieverbetering
-- Diepgaand Onderzoek met geavanceerde onderzoeksfuncties
+- Selectieassistent met slimme verbetering van contentselectie
+- Diepgaand onderzoek met geavanceerde onderzoeksfuncties
 - Geheugensysteem met wereldwijde contextbewustzijn
 - Documentvoorverwerking met verbeterde documentafhandeling
-- MCP Marketplace voor Model Context Protocol-ecosysteem
+- MCP Marketplace voor het Model Context Protocol-ecosysteem
 
 2. 🗂 **Kennisbeheer**
 
-- Notities en Verzamelingen
+- Notities en Collecties
 - Dynamische Canvas-visualisatie
 - OCR-mogelijkheden
 - TTS (Text-to-Speech) ondersteuning
@@ -137,133 +137,133 @@ We werken actief aan de volgende functies en verbeteringen:
 3. 📱 **Platformondersteuning**
 
 - HarmonyOS Editie (PC)
-- Android-app (Fase 1)
-- iOS-app (Fase 1)
+- Android App (Fase 1)
+- iOS App (Fase 1)
 - Multi-venster ondersteuning
-- Venster Vastzetten functionaliteit
+- Venster vastzetten functionaliteit
 
-4. 🔌 **Geavanceerde Functies**
+4. 🔌 **Geavanceerde functies**
 
 - Plug-insysteem
 - ASR (Automatische Spraakherkenning)
-- Herstructurering van Assistent- en Onderwerpinteractie
+- Assistent- en onderwerpinteractie herstructurering
 
 Volg onze voortgang en draag bij op ons [projectbord](https://github.com/orgs/CherryHQ/projects/7).
 
-Invloed uitoefenen op onze routekaart? Doe mee aan onze [GitHub Discussies](https://github.com/CherryHQ/cherry-studio/discussions) om je ideeën en feedback te delen!
+Wil je invloed uitoefenen op onze roadmap? Doe mee aan onze [GitHub Discussies](https://github.com/CherryHQ/cherry-studio/discussions) om je ideeën en feedback te delen!
 
 # 🌈 Thema
 
-- Thema Gallerij: <https://cherrycss.com>
+- Thema Galerie: <https://cherrycss.com>
 - Aero Thema: <https://github.com/hakadao/CherryStudio-Aero>
 - PaperMaterial Thema: <https://github.com/rainoffallingstar/CherryStudio-PaperMaterial>
-- Claude dynamic-style: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
-- Maple Neon Thema: <https://github.com/BoningtonChen/CherryStudio_themes>
+- Claude dynamische stijl: <https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic>
+- Maple Neon Theme: <https://github.com/BoningtonChen/CherryStudio_themes>
 
-PR’s voor meer thema’s welkom
+PR's voor meer thema's welkom
 
 # 🤝 Bijdragen
 
 We verwelkomen bijdragen aan Cherry Studio! Hier zijn enkele manieren waarop je kunt bijdragen:
 
 1. **Code Bijdragen**: Ontwikkel nieuwe functies of optimaliseer bestaande code.
-2. **Fouten Oplossen**: Dien fixes in voor gevonden bugs.
-3. **Issues Beheren**: Help met het beheren van GitHub issues.
-4. **Productontwerp**: Neem deel aan ontwerpdiscussies.
-5. **Documentatie Schrijven**: Verbeter gebruikershandleidingen en gidsen.
-6. **Community Betrokkenheid**: Neem deel aan discussies en help gebruikers.
+2. **Bugs Oplossen**: Dien oplossingen in voor bugs die je vindt.
+3. **Issues Onderhouden**: Help bij het beheren van GitHub issues.
+4. **Productontwerp**: Neem deel aan ontwerpbesprekingen.
+5. **Documentatie Schrijven**: Verbeter handleidingen en gebruikersgidsen.
+6. **Community Betrokkenheid**: Doe mee aan discussies en help gebruikers.
 7. **Gebruik Promoten**: Verspreid het woord over Cherry Studio.
 
-Zie de [Branching Strategy](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) voor richtlijnen voor bijdragen
+Raadpleeg de [Branching Strategy](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/branching-strategy-en.md) voor richtlijnen over bijdragen
 
 ## Aan de Slag
 
 1. **Fork de Repository**: Fork en kloon deze naar je lokale machine.
 2. **Maak een Branch**: Voor je wijzigingen.
 3. **Dien Wijzigingen In**: Commit en push je wijzigingen.
-4. **Open een Pull Request**: Omschrijf je wijzigingen en redenen.
+4. **Open een Pull Request**: Beschrijf je wijzigingen en redenen.
 
-Voor meer gedetailleerde richtlijnen, zie onze [Contributiegids](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/CONTRIBUTING.md).
+Voor meer gedetailleerde richtlijnen, raadpleeg onze [Contributing Guide](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/CONTRIBUTING.md).
 
-Dank voor je steun en bijdragen!
+Bedankt voor je steun en bijdragen!
 
 # 🔧 Ontwikkelaars Co-creatie Programma
 
-We lanceren het Cherry Studio Developer Co-creatie Programma om een gezonde en positieve feedbackloop binnen het open source-ecosysteem te stimuleren. We geloven dat geweldige software samen wordt gebouwd en elke samengevoegde pull request nieuw leven in het project blaast.
+We lanceren het Cherry Studio Ontwikkelaars Co-creatie Programma om een gezonde en positieve feedbackloop te bevorderen binnen het open-source ecosysteem. Wij geloven dat geweldige software samen wordt gebouwd, en elke samengevoegde pull request brengt nieuw leven in het project.
 
-We nodigen je van harte uit om je aan te sluiten bij onze bijdragers en samen de toekomst van Cherry Studio vorm te geven.
+We nodigen je van harte uit om je bij onze groep bijdragers aan te sluiten en samen de toekomst van Cherry Studio vorm te geven.
 
-## Bijdragers Beloningsprogramma
+## Beloningsprogramma voor Bijdragers
 
-Om onze kernbijdragers te belonen en een positieve cyclus te creëren, hebben we het volgende langetermijn incentiveplan opgezet.
+Om onze kernbijdragers iets terug te geven en een positieve cyclus te creëren, hebben we het volgende langetermijn incentiveplan opgezet.
 
-**De eerste trackingperiode voor dit programma zal zijn in Q3 2025 (juli, augustus, september). Beloningen voor deze cyclus worden uitgereikt op 1 oktober.**
+**De eerste trackingperiode voor dit programma is Q3 2025 (juli, augustus, september). Beloningen voor deze cyclus worden uitgereikt op 1 oktober.**
 
-Binnen elke trackingsperiode (bijv. 1 juli tot 30 september voor de eerste cyclus) komt elke ontwikkelaar die meer dan **30 betekenisvolle commits** levert aan een van Cherry Studio's open-source projecten op GitHub in aanmerking voor de volgende voordelen:
+Binnen elke trackingperiode (bijv. 1 juli tot 30 september voor de eerste cyclus) komt elke ontwikkelaar die meer dan **30 betekenisvolle commits** levert aan een van Cherry Studio's open-source projecten op GitHub in aanmerking voor de volgende voordelen:
 
-- **Cursor Abonnementsponsoring**: Ontvang een **$70 USD** tegoed of vergoeding voor je [Cursor](https://cursor.sh/) abonnement, zodat AI je meest efficiënte codeerpartner wordt.
-- **Onbeperkte Modeltoegang**: Krijg **onbeperkt** API-gebruik voor de **DeepSeek** en **Qwen** modellen.
-- **Toegang tot Geavanceerde Technologie**: Profiteer van incidentele voordelen, waaronder API-toegang tot modellen als **Claude**, **Gemini** en **OpenAI**, zodat je altijd voorop loopt in technologie.
+- **Cursor-abonnement sponsoring**: Ontvang een **$70 USD** tegoed of vergoeding voor je [Cursor](https://cursor.sh/) abonnement, waardoor AI je meest efficiënte codeerpartner wordt.
+- **Onbeperkte modeltoegang**: Krijg **onbeperkte** API-aanvragen voor de **DeepSeek** en **Qwen** modellen.
+- **Toegang tot de nieuwste technologie**: Geniet van incidentele voordelen, waaronder API-toegang tot modellen zoals **Claude**, **Gemini** en **OpenAI**, zodat je voorop blijft lopen in technologie.
 
 ## Samen Groeien & Toekomstplannen
 
-Een levendige community is de drijvende kracht achter elk duurzaam open-source project. Naarmate Cherry Studio groeit, groeit ook ons beloningsprogramma. We zijn toegewijd om onze voordelen voortdurend af te stemmen op de beste tools en middelen in de sector. Zo zorgen we ervoor dat onze kernbijdragers waardevolle ondersteuning ontvangen en creëren we een positieve cyclus waarin ontwikkelaars, de community en het project samen groeien.
+Een bloeiende community is de drijvende kracht achter elk duurzaam open-source project. Naarmate Cherry Studio groeit, groeit ook ons beloningsprogramma. We zijn toegewijd aan het continu afstemmen van onze voordelen op de beste tools en middelen in de industrie. Dit zorgt ervoor dat onze kernbijdragers betekenisvolle ondersteuning ontvangen, en creëert een positieve cyclus waarbij ontwikkelaars, de community en het project samen groeien.
 
-**Voortaan zal het project ook een steeds opener houding aannemen om iets terug te doen voor de gehele open-source community.**
+**Vooruitkijkend zal het project een steeds meer open houding aannemen om iets terug te geven aan de gehele open-source gemeenschap.**
 
-## Hoe Begin je?
+## Hoe te beginnen?
 
 We kijken uit naar je eerste Pull Request!
 
-Je kunt beginnen door onze repositories te verkennen, een `good first issue` op te pakken of je eigen verbeteringen voor te stellen. Elke commit is een bewijs van de open source-mentaliteit.
+Je kunt beginnen door onze repositories te verkennen, een `good first issue` op te pakken, of je eigen verbeteringen voor te stellen. Elke commit is een bewijs van de open source-gedachte.
 
-Dank voor je interesse en bijdragen.
+Bedankt voor je interesse en bijdragen.
 
 Laten we samen bouwen.
 
 # 🏢 Enterprise Edition
 
-Voortbouwend op de Community Edition introduceren we met trots de **Cherry Studio Enterprise Edition**—een privé-deploybaar AI-productiviteits- en managementplatform voor moderne teams en bedrijven.
+Voortbouwend op de Community Edition, introduceren we met trots de **Cherry Studio Enterprise Edition**—een privé-deploybare AI-productiviteits- en managementplatform ontworpen voor moderne teams en bedrijven.
 
-De Enterprise Edition pakt kernuitdagingen in teamwerk aan door het beheer van AI-resources, kennis en data te centraliseren. Het stelt organisaties in staat om efficiëntie te verhogen, innovatie te stimuleren en compliance te waarborgen, terwijl ze 100% controle houden over hun data in een veilige omgeving.
+De Enterprise Edition pakt de kernuitdagingen van team samenwerking aan door het beheer van AI-middelen, kennis en data te centraliseren. Het stelt organisaties in staat om efficiëntie te verhogen, innovatie te stimuleren en compliance te waarborgen, terwijl ze 100% controle over hun data behouden in een veilige omgeving.
 
-## Kernvoordelen
+## Belangrijkste Voordelen
 
-- **Geïntegreerd Modelbeheer**: Integreer en beheer verschillende cloudgebaseerde LLM's (zoals OpenAI, Anthropic, Google Gemini) en lokaal uitgerolde private modellen centraal. Werknemers kunnen ze direct gebruiken zonder individuele configuratie.
-- **Kennisbank op Enterprise-niveau**: Bouw, beheer en deel team-brede kennisbanken. Zorgt voor kennisbehoud en consistentie, waardoor teamleden met AI kunnen werken op basis van eenduidige en nauwkeurige informatie.
-- **Fijngranulaire Toegangscontrole**: Beheer eenvoudig werknemersaccounts en wijs rolgebaseerde rechten toe voor verschillende modellen, kennisbanken en functies via één admin backend.
-- **Volledig Privé Uitrolbaar**: Rol de volledige backend-service uit op je eigen servers of private cloud, zodat je data 100% privé en onder jouw controle blijft en voldoet aan de strengste beveiligings- en compliance-eisen.
-- **Betrouwbare Backend Services**: Biedt stabiele API-services en back-up- en herstelmechanismen op enterprise-niveau om bedrijfscontinuïteit te waarborgen.
+- **Geïntegreerd modelbeheer**: Integreer en beheer centraal verschillende cloud-gebaseerde LLM's (zoals OpenAI, Anthropic, Google Gemini) en lokaal geïmplementeerde private modellen. Medewerkers kunnen ze direct gebruiken zonder individuele configuratie.
+- **Enterprise-kennisbank**: Bouw, beheer en deel team-brede kennisbanken. Zorgt voor kennisbehoud en consistentie, waardoor teamleden met AI kunnen werken op basis van uniforme en accurate informatie.
+- **Gedetailleerde toegangscontrole**: Beheer eenvoudig werknemersaccounts en wijs rolgebaseerde rechten toe voor verschillende modellen, kennisbanken en functies via één beheerdersportaal.
+- **Volledig privé implementatie**: Implementeer de volledige backend-service op je eigen servers of private cloud, zodat je data 100% privé blijft en onder jouw controle, conform de strengste beveiligings- en compliance-eisen.
+- **Betrouwbare backend-diensten**: Biedt stabiele API-services en backup- en herstelmechanismen op bedrijfsniveau om continuïteit te garanderen.
 
 ## ✨ Online Demo
 
-> 🚧 **Publieke Beta-melding**
+> 🚧 **Public Beta Notice**
 >
-> De Enterprise Edition bevindt zich momenteel in een vroege publieke beta, en we zijn actief bezig met het itereren en optimaliseren van functies. We beseffen dat het product nog niet volledig stabiel is. Mocht je tijdens je test problemen ondervinden of waardevolle suggesties hebben, dan ontvangen we graag je feedback per e-mail.
+> De Enterprise Edition bevindt zich momenteel in een vroege publieke bètafase, en we zijn actief bezig met het itereren en optimaliseren van de functies. We zijn ons ervan bewust dat de stabiliteit nog niet optimaal kan zijn. Mocht u tijdens uw proefperiode problemen tegenkomen of waardevolle suggesties hebben, dan zijn wij u zeer dankbaar als u ons via e-mail feedback wilt geven.
 
 **🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
 ## Versievergelijking
 
-| Functie           | Community Edition                          | Enterprise Edition                                                                                                                      |
-| :---------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| **Open Source**   | ✅ Ja                                      | ⭕️ Gedeeltelijk vrijgegeven aan klanten                                                                                                |
-| **Kosten**        | Gratis voor Persoonlijk Gebruik / Commerciële Licentie | Aankoop / Abonnementskosten                                                                                                            |
-| **Admin Backend** | —                                          | ● Gecentraliseerde **Model**-toegang<br>● **Werknemers**beheer<br>● Gedeelde **Kennisbank**<br>● **Toegangs**controle<br>● **Data**-back-up |
-| **Server**        | —                                          | ✅ Toegewijde Privé Uitrol                                                                                                              |
+| Functie            | Community Edition                          | Enterprise Edition                                                                                                                      |
+| :----------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **Open Source**    | ✅ Ja                                      | ⭕️ Gedeeltelijk vrijgegeven aan klanten                                                                                                |
+| **Kosten**         | Gratis voor persoonlijk gebruik / Commerciële licentie | Aankoop / Abonnementsvergoeding                                                                                                         |
+| **Admin Backend**  | —                                          | ● Gecentraliseerde **Model**-toegang<br>● **Werknemers**beheer<br>● Gedeelde **Kennisbank**<br>● **Toegangs**controle<br>● **Data**back-up |
+| **Server**         | —                                          | ✅ Toegewijde private implementatie                                                                                                     |
 
-## De Enterprise Edition verkrijgen
+## Enterprise Edition verkrijgen
 
-Wij geloven dat de Enterprise Edition de AI-productiviteitsmotor van je team wordt. Ben je geïnteresseerd in Cherry Studio Enterprise Edition en wil je meer weten, een offerte aanvragen of een demo plannen, neem dan gerust contact met ons op.
+Wij geloven dat de Enterprise Edition het AI-productiviteitsplatform van uw team zal worden. Bent u geïnteresseerd in Cherry Studio Enterprise Edition en wilt u meer weten, een offerte aanvragen of een demo plannen, neem dan gerust contact met ons op.
 
-- **Voor Zakelijke Vragen & Aankoop**:
+- **Voor zakelijke aanvragen & aankoop**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
-# 🔗 Gerelateerde Projecten
+# 🔗 Gerelateerde projecten
 
-- [one-api](https://github.com/songquanpeng/one-api): LLM API beheer- en distributiesysteem dat gangbare modellen zoals OpenAI, Azure en Anthropic ondersteunt. Biedt een uniforme API-interface, geschikt voor sleutelbeheer en secundaire distributie.
+- [one-api](https://github.com/songquanpeng/one-api): LLM API beheer- en distributiesysteem dat gangbare modellen zoals OpenAI, Azure en Anthropic ondersteunt. Voorzien van een uniforme API-interface, geschikt voor sleutelbeheer en secundaire distributie.
 
-- [ublacklist](https://github.com/iorate/ublacklist): Blokkeert specifieke sites in Google zoekresultaten
+- [ublacklist](https://github.com/iorate/ublacklist): Blokkeert specifieke sites van weergave in Google zoekresultaten
 
 # 🚀 Bijdragers
 
@@ -272,17 +272,17 @@ Wij geloven dat de Enterprise Edition de AI-productiviteitsmotor van je team wor
 </a>
 <br /><br />
 
-# 📊 GitHub Statistieken
+# 📊 GitHub-statistieken
 
 ![Stats](https://repobeats.axiom.co/api/embed/a693f2e5f773eed620f70031e974552156c7f397.svg 'Repobeats analytics image')
 
-# ⭐️ Sterren-geschiedenis
+# ⭐️ Sterrenhistorie
 
 <a href="https://www.star-history.com/#CherryHQ/cherry-studio&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Date&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Date" />
+   <img alt="Sterren Geschiedenis Grafiek" src="https://api.star-history.com/svg?repos=CherryHQ/cherry-studio&type=Date" />
  </picture>
 </a>
 
@@ -298,6 +298,7 @@ Wij geloven dat de Enterprise Edition de AI-productiviteitsmotor van je team wor
 [telegram-link]: https://t.me/CherryStudioAI
 
 <!-- Links & Afbeeldingen -->
+
 [github-release-shield]: https://img.shields.io/github/v/release/CherryHQ/cherry-studio?logo=github
 [github-release-link]: https://github.com/CherryHQ/cherry-studio/releases
 [github-nightly-shield]: https://img.shields.io/github/actions/workflow/status/CherryHQ/cherry-studio/nightly-build.yml?label=nightly%20build&logo=github
@@ -310,14 +311,13 @@ Wij geloven dat de Enterprise Edition de AI-productiviteitsmotor van je team wor
 [license-shield]: https://img.shields.io/badge/License-AGPLv3-important.svg?logo=gnu
 [license-link]: https://www.gnu.org/licenses/agpl-3.0
 [commercial-shield]: https://img.shields.io/badge/License-Contact-white.svg?logoColor=white&logo=telegram&color=blue
-[commercial-link]: mailto:license@cherry-ai.com?subject=Commercial%20License%20Inquiry
+[commercial-link]: mailto:license@cherry-ai.com?subject=Commerciële%20Licentie%20Aanvraag
 [sponsor-shield]: https://img.shields.io/badge/Sponsor-FF6699.svg?logo=githubsponsors&logoColor=white
 [sponsor-link]: https://github.com/CherryHQ/cherry-studio/blob/main/docs/sponsor.md
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-05
 
 ---

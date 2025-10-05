@@ -4,25 +4,25 @@
     <div>
       <div align="right">
         <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=en">English</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-CN">简体中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-TW">繁體中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=hi">हिन्दी</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=th">ไทย</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fr">Français</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=de">Deutsch</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=it">Italiano</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ru">Русский</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pt">Português</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=nl">Nederlands</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pl">Polski</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ar">العربية</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fa">فارسی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=tr">Türkçe</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=vi">Tiếng Việt</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=id">Bahasa Indonesia</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-CN">Simplified Chinese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=zh-TW">Traditional Chinese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ja">Japanese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ko">Korean</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=hi">Hindi</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=th">Thai</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fr">French</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=de">German</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=es">Spanish</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=it">Italian</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ru">Russian</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pt">Portuguese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=nl">Dutch</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=pl">Polish</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=ar">Arabic</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=fa">Persian</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=tr">Turkish</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=vi">Vietnamese</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=CherryHQ&project=cherry-studio&lang=id">Indonesian</a></p>
       </div>
     </div>
   </details>
@@ -34,7 +34,7 @@
   </a>
 </h1>
 
-<p align="center">English | <a href="./docs/README.zh.md">中文</a> | <a href="https://cherry-ai.com">Official Site</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Documents</a> | <a href="./docs/dev.md">Development</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Feedback</a><br></p>
+<p align="center">English | <a href="./docs/README.zh.md">Chinese</a> | <a href="https://cherry-ai.com">Official Site</a> | <a href="https://docs.cherry-ai.com/cherry-studio-wen-dang/en-us">Documents</a> | <a href="./docs/dev.md">Development</a> | <a href="https://github.com/CherryHQ/cherry-studio/issues">Feedback</a><br></p>
 
 <div align="center">
   
@@ -57,19 +57,19 @@
 
 <div align="center">
  <a href="https://hellogithub.com/repository/1605492e1e2a4df3be07abfa4578dd37" target="_blank" style="text-decoration: none"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=1605492e1e2a4df3be07abfa4578dd37" alt="Featured｜HelloGitHub"  width="220" height="55" /></a>
- <a href="https://trendshift.io/repositories/11772" target="_blank" style="text-decoration: none"><img src="https://trendshift.io/api/badge/repositories/11772" alt="kangfenmao%2Fcherry-studio | Trendshift" width="220" height="55" /></a>
+ <a href="https://trendshift.io/repositories/14318" target="_blank" style="text-decoration: none"><img src="https://trendshift.io/api/badge/repositories/14318" alt="CherryHQ%2Fcherry-studio | Trendshift" width="220" height="55" /></a>
  <a href="https://www.producthunt.com/posts/cherry-studio?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-cherry&#0045;studio" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=496640&theme=light" alt="Cherry&#0032;Studio - AI&#0032;Chatbots&#0044;&#0032;AI&#0032;Desktop&#0032;Client | Product Hunt" width="220" height="55" /></a>
 </div>
 
 # 🍒 Cherry Studio
 
-Cherry Studio is a desktop client that supports multiple LLM providers, available on Windows, Mac and Linux.
+Cherry Studio is a desktop client supporting multiple LLM providers, available for Windows, Mac, and Linux.
 
-👏 Join [Telegram Group](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [QQ Group(575014769)](https://qm.qq.com/q/lo0D4qVZKi)
+👏 Join the [Telegram Group](https://t.me/CherryStudioAI)｜[Discord](https://discord.gg/wez8HtpxqQ) | [QQ Group (575014769)](https://qm.qq.com/q/lo0D4qVZKi)
 
-❤️ Like Cherry Studio? Give it a star 🌟 or [Sponsor](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md) to support the development!
+❤️ Like Cherry Studio? Give it a star 🌟 or [Sponsor](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/docs/sponsor.md) to support development!
 
-# 🌠 Screenshot
+# 🌠 Screenshots
 
 ![](https://github.com/user-attachments/assets/36dddb2c-e0fb-4a5f-9411-91447bab6e18)
 
@@ -82,7 +82,7 @@ Cherry Studio is a desktop client that supports multiple LLM providers, availabl
 1. **Diverse LLM Provider Support**:
 
 - ☁️ Major LLM Cloud Services: OpenAI, Gemini, Anthropic, and more
-- 🔗 AI Web Service Integration: Claude, Peplexity, Poe, and others
+- 🔗 AI Web Service Integration: Claude, Perplexity, Poe, and others
 - 💻 Local Model Support with Ollama, LM Studio
 
 2. **AI Assistants & Conversations**:
@@ -105,7 +105,7 @@ Cherry Studio is a desktop client that supports multiple LLM providers, availabl
 - 🔤 AI-powered Translation
 - 🎯 Drag-and-drop Sorting
 - 🔌 Mini Program Support
-- ⚙️ MCP (Model Context Protocol) Server
+- ⚙️ MCP(Model Context Protocol) Server
 
 5. **Enhanced User Experience**:
 
@@ -121,11 +121,11 @@ We're actively working on the following features and improvements:
 
 1. 🎯 **Core Features**
 
-- Selection Assistant with smart content selection enhancement
+- Selection Assistant with intelligent content selection enhancement
 - Deep Research with advanced research capabilities
 - Memory System with global context awareness
-- Document Preprocessing with improved document handling
-- MCP Marketplace for Model Context Protocol ecosystem
+- Document Preprocessing with enhanced document handling
+- MCP Marketplace for the Model Context Protocol ecosystem
 
 2. 🗂 **Knowledge Management**
 
@@ -140,7 +140,7 @@ We're actively working on the following features and improvements:
 - Android App (Phase 1)
 - iOS App (Phase 1)
 - Multi-Window support
-- Window Pinning functionality
+- Window Pinning feature
 
 4. 🔌 **Advanced Features**
 
@@ -150,7 +150,7 @@ We're actively working on the following features and improvements:
 
 Track our progress and contribute on our [project board](https://github.com/orgs/CherryHQ/projects/7).
 
-Want to influence our roadmap? Join our [GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions) to share your ideas and feedback!
+Want to help shape our roadmap? Join our [GitHub Discussions](https://github.com/CherryHQ/cherry-studio/discussions) to share your ideas and feedback!
 
 # 🌈 Theme
 
@@ -239,7 +239,7 @@ The Enterprise Edition addresses core challenges in team collaboration by centra
 
 > 🚧 **Public Beta Notice**
 >
-> The Enterprise Edition is currently in its early public beta stage, and we are actively iterating and optimizing its features. We are aware that it may not be perfectly stable yet. If you encounter any issues or have valuable suggestions during your trial, we would be very grateful if you could contact us via email to provide feedback.
+> The Enterprise Edition is currently in early public beta, and we are actively iterating and optimizing features. We are aware it may not be perfectly stable yet. If you encounter any problems or have valuable suggestions during your trial, we would greatly appreciate it if you could contact us via email to provide feedback.
 
 **🔗 [Cherry Studio Enterprise](https://www.cherry-ai.com/enterprise)**
 
@@ -254,14 +254,14 @@ The Enterprise Edition addresses core challenges in team collaboration by centra
 
 ## Get the Enterprise Edition
 
-We believe the Enterprise Edition will become your team's AI productivity engine. If you are interested in Cherry Studio Enterprise Edition and would like to learn more, request a quote, or schedule a demo, please feel free to contact us.
+We believe the Enterprise Edition will become your team's AI productivity engine. If you're interested in Cherry Studio Enterprise Edition and wish to learn more, request a quote, or schedule a demo, please feel free to contact us.
 
-- **For Business Inquiries & Purchasing**:
+- **For Business Inquiries & Purchase**:
   **📧 [bd@cherry-ai.com](https://raw.githubusercontent.com/CherryHQ/cherry-studio/main/mailto:bd@cherry-ai.com)**
 
 # 🔗 Related Projects
 
-- [one-api](https://github.com/songquanpeng/one-api): LLM API management and distribution system supporting mainstream models like OpenAI, Azure, and Anthropic. Features a unified API interface, suitable for key management and secondary distribution.
+- [one-api](https://github.com/songquanpeng/one-api): LLM API management and distribution system supporting mainstream models such as OpenAI, Azure, and Anthropic. Features unified API interface, suitable for key management and secondary distribution.
 
 - [ublacklist](https://github.com/iorate/ublacklist): Blocks specific sites from appearing in Google search results
 
@@ -298,6 +298,7 @@ We believe the Enterprise Edition will become your team's AI productivity engine
 [telegram-link]: https://t.me/CherryStudioAI
 
 <!-- Links & Images -->
+
 [github-release-shield]: https://img.shields.io/github/v/release/CherryHQ/cherry-studio?logo=github
 [github-release-link]: https://github.com/CherryHQ/cherry-studio/releases
 [github-nightly-shield]: https://img.shields.io/github/actions/workflow/status/CherryHQ/cherry-studio/nightly-build.yml?label=nightly%20build&logo=github
@@ -315,9 +316,8 @@ We believe the Enterprise Edition will become your team's AI productivity engine
 [sponsor-link]: https://github.com/CherryHQ/cherry-studio/blob/main/docs/sponsor.md
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-05
 
 ---

@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 语言</summary>
@@ -30,79 +31,78 @@
 
 # SparkyFitness - MyFitnessPal 的自托管替代方案
 
-SparkyFitness 是一款全面的健身追踪与管理应用，帮助用户监控营养、锻炼和身体数据。它为日常进度追踪、目标设定和报告分析提供了强大工具，助力健康生活方式。
+SparkyFitness 是一款全面的健身跟踪与管理应用，旨在帮助用户监控营养、锻炼和身体数据。它提供每日进展跟踪、目标设定和有洞察力的报告工具，支持健康生活方式。
 
 文档：https://codewithcj.github.io/SparkyFitness
 
-## ✨ 功能特色
+## ✨ 功能亮点
 
 ### 🍎 营养追踪
-
-* **记录每日餐食**
-* **创建和管理自定义食物及分类**
-* **通过交互图表查看汇总和分析趋势**
+* **记录您的每日饮食**
+* **创建和管理自定义食物与类别**
+* **通过交互式图表查看摘要并分析趋势**
 
 ### 💪 运动记录
 
-* **记录锻炼内容**
+* **记录您的锻炼**
 * **浏览和搜索全面的运动数据库**
-* **跟踪长期健身进展**
+* **跟踪健身进展**
 
-### 💧 饮水监测
+### 💧 饮水摄入监控
 
-* **追踪每日补水目标**
-* **简单快捷的饮水记录**
+* **跟踪每日饮水目标**
+* **简单快捷地记录饮水**
 
 ### 📏 身体测量
 
-* **记录身体数据**（如体重、腰围、手臂等）
+* **记录身体指标**（如体重、腰围、臂围）
 * **添加自定义测量类型**
 * **通过图表可视化进展**
 
 ### 🎯 目标设定
 
-* **设定并管理健身和营养目标**
-* **长期跟踪进展**
+* **设定和管理健身与营养目标**
+* **跟踪进展情况**
 
-### 🗓️ 每日打卡
+### 🗓️ 每日签到
 
 * **监控每日活动**
-* **坚持习惯养成追踪**
+* **通过习惯追踪保持一致性**
 
-### 🤖 AI 营养教练（SparkyAI）
+### 🤖 AI营养教练（SparkyAI）
 
-* **通过聊天记录饮食、锻炼、身体数据与步数**
-* **上传食物图片自动记录餐食**
-* **包含聊天历史和个性化指导**
+* **通过聊天记录食物、锻炼、身体数据和步数**
+* **上传食物图片自动记录餐饮**
+* **包括聊天历史和个性化指导**
 
 ### 🔒 用户认证与个人资料
 
+
 * **安全登录系统**
-* **支持切换用户资料**
-* **支持家庭成员访问和管理**
+* **在用户资料之间切换**
+* **支持家庭访问和管理**
 
-### 📊 全面报告
+### 📊 综合报告
 
-* **生成营养和身体数据的汇总报告**
-* **按周或月追踪长期趋势**
+* **生成营养和身体指标摘要**
+* **跟踪数周或数月的长期趋势**
 
 ### 🎨 可自定义主题
 
-* **切换明暗模式**
-* **极简、无干扰界面设计**
+* **切换浅色和深色模式**
+* **采用极简、无干扰界面设计**
 
 ### 需要帮助？
-* **加入 Discord 群**
+* **加入 Discord**
   https://discord.gg/vcnMT5cPEA
 * **在讨论区发帖**
 
 
-
 ![image](https://github.com/user-attachments/assets/ccc7f34e-a663-405f-a4d4-a9888c3197bc)
 
-## 🚀 快速开始
+## � 快速开始
 
-几分钟内运行 SparkyFitness：
+几分钟内让 SparkyFitness 运行起来：
 
 ```bash
 # Clone the repository
@@ -117,24 +117,25 @@ cp docker/.env.example .env
 
 # Access application at http://localhost:8080
 ```
+
 ## 📖 文档
 
-有关完整的安装指南、开发环境设置和使用说明，请访问我们的综合文档站点：
+有关完整的安装指南、开发环境设置和使用说明，请访问我们的综合文档：
 
 **👉 [SparkyFitness 文档网站](https://codewithcj.github.io/SparkyFitness)**
 
 ### 快速链接
 
-- **[🚀 入门指南](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 开发和生产环境的完整设置指南
-- **[🐳 Docker 指南](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker 部署与配置
-- **[🔧 开发工作流](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 开发者指南与贡献流程  
-- **[📊 功能总览](https://codewithcj.github.io/SparkyFitness/features/)** - 完整功能文档
-- **[🏗️ 架构设计](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技术架构与设计
+- **[🚀 入门指南](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 开发与生产环境的完整设置指南
+- **[🐳 Docker 指南](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker 部署与配置说明
+- **[🔧 开发工作流程](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 开发者指南及贡献流程  
+- **[📊 功能概览](https://codewithcj.github.io/SparkyFitness/features/)** - 全部功能文档
+- **[🏗️ 架构设计](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技术架构与设计说明
+- 参考 WIiki 获取示例环境配置和移动应用设置。
 
 ## 🐳 Docker 部署
 
 **生产环境（推荐）：**
-
 ```bash
 cp docker/.env.example .env  # Edit as needed
 ./docker/docker-helper.sh prod up
@@ -167,6 +168,6 @@ cp docker/.env.example .env  # Edit as needed
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
 
 ---
