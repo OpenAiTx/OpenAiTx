@@ -1,30 +1,609 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n\n# s3 - Efficient Yet Effective Search Agent Training via RL\n***You Don't Need That Much Data to Train a Search Agent***\n\n<p align=\"center\">\n\n  <a href=\"https://arxiv.org/abs/2505.14146\">\n    <img src=\"https://img.shields.io/badge/arXiv-2505.14146-b31b1b.svg\" alt=\"arXiv\">\n  </a>\n</p>\n</div>\n\n**Performance Overview:**\n\n<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png\" alt=\"performance_overview\" width=\"800\">\n\n\n\n## What is s3?\n\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png\" alt=\"framework\" width=\"800\">\n\n**s3 Framework**\n</div>\n\n`s3` is a simple yet powerful framework for training search agents in retrieval-augmented generation (RAG). It teaches language models how to search more effectively—without changing the generator itself. By focusing solely on the search component, `s3` achieves strong performance across QA tasks with just a fraction of the data used by prior methods. It's modular, efficient, and designed to work seamlessly with any black-box LLM.\n\n\n\n## Table of Contents\n\n- [📦 Installation](#-installation)\n- [💡 Preparation](#-preparation)\n- [🏋️ Run Training](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)\n- [🔍 Run Search/Retrieval](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)\n- [📈 Run Evaluation](#-run-evaluation)\n\n## 📦 Installation\n\n**Searcher & Generator Environment**",
-    "ContentSha": "PJISBfUOw9qglFgs6tB7lnDUZyBA88gTzFKmUzSiw04=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n\n# s3 - Efficient Yet Effective Search Agent Training via RL\n***You Don't Need That Much Data to Train a Search Agent***\n\n<p align=\"center\">\n\n  <a href=\"https://arxiv.org/abs/2505.14146\">\n    <img src=\"https://img.shields.io/badge/arXiv-2505.14146-b31b1b.svg\" alt=\"arXiv\">",
+    "ContentSha": "kY55QpSUI90N1wp11YkykoiNRHdwvVSwCPY1zRS95SE=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 زبان</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it\">Itapano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id\">Bahasa Indonesia</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n\n# s3 - آموزش عامل جستجو کارآمد اما مؤثر با استفاده از RL\n***برای آموزش یک عامل جستجو به آن‌همه داده نیاز ندارید***\n\n<p align=\"center\">\n\n  <a href=\"https://arxiv.org/abs/2505.14146\">\n    <img src=\"https://img.shields.io/badge/arXiv-2505.14146-b31b1b.svg\" alt=\"arXiv\">\n  </a>\n</p>\n</div>\n\n**بررسی اجمالی عملکرد:**\n\n<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png\" alt=\"performance_overview\" width=\"800\">\n\n\n\n## s3 چیست؟\n\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png\" alt=\"framework\" width=\"800\">\n\n**چارچوب s3**\n</div>\n\n`s3` یک چارچوب ساده اما قدرتمند برای آموزش عامل‌های جستجو در تولید تقویت‌شده با بازیابی (RAG) است. این چارچوب به مدل‌های زبانی می‌آموزد چگونه مؤثرتر جستجو کنند—بدون اینکه تغییری در مولد ایجاد شود. با تمرکز صرف بر مولفه جستجو، `s3` با تنها کسری از داده‌های مورد استفاده روش‌های قبلی، عملکرد بالایی در وظایف پرسش و پاسخ ارائه می‌دهد. این چارچوب ماژولار، کارآمد و برای کار بی‌دردسر با هر LLM جعبه‌سیاه طراحی شده است.\n\n\n\n## فهرست مطالب\n\n- [📦 نصب](#-installation)\n- [💡 آماده‌سازی](#-preparation)\n- [🏋️ اجرای آموزش](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)\n- [🔍 اجرای جستجو/بازیابی](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)\n- [📈 اجرای ارزیابی](#-run-evaluation)\n\n## 📦 نصب\n\n**محیط جستجوگر و مولد**\n",
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 زبان</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en\">انگلیسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja\">ژاپنی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko\">کره‌ای</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi\">هندی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th\">تایلندی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr\">فرانسوی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de\">آلمانی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es\">اسپانیایی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it\">ایتالیایی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru\">روسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt\">پرتغالی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl\">هلندی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl\">لهستانی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar\">عربی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr\">ترکی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi\">ویتنامی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id\">اندونزیایی</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n<div align=\"center\">\n\n# s3 - آموزش عامل جستجوی کارآمد اما مؤثر با استفاده از یادگیری تقویتی\n***برای آموزش یک عامل جستجو به این مقدار داده نیاز ندارید***\n\n<p align=\"center\">\n\n  <a href=\"https://arxiv.org/abs/2505.14146\">\n    <img src=\"https://img.shields.io/badge/arXiv-2505.14146-b31b1b.svg\" alt=\"arXiv\">\n",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 زبان</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en\">انگلیسی</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "+zfYR86ukfDmcbKkX1Kv4Pqi2D0+YTgHJ4Ekgr4+Z7Q=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "Zy+ldvbpXv/4fNt6fC+IJ8/8GF06yryx7ov6YgrICfg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "52xMVqkiWr7DfFSgqWdPXdZ9k2h55b7/7F+QvwaS92Y=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja\">ژاپنی</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "Vg2yIMn5RnhgztyPKJrGtvkVC/0544GVaG7dvWHF14s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko\">کره‌ای</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "C7jPf9MVlqahouDwsqq4D0oKoM/NiscMpvMOz5o/zkg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi\">هندی</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "AFiH53FkgD3A9p/K26HvNfiSFQqRVmbXpnw44QtonY4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th\">تایلندی</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "qfOttu+SpbC1teAfXyg6RfpGY8x8zOV4wYRVRdxsCyQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr\">فرانسوی</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "Vqiuh5ddbU4vCpinyguKW3OnrQDyYGYM8j9Gpeyi/O4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de\">آلمانی</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "l6BhxQ3dEOegkrfywNIB7QGeyl0DmrUcJJ2cNpyTuW4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es\">اسپانیایی</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "M/3UBSKOJAe1YK6Bt7DaL8fjlZZaPTCx9poqLuZ3Fao=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it\">ایتالیایی</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "84lEG7hHG3+qXvd9bkIU6Aych1QeNeG5QpbcFqbWxiE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it\">Itapano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru\">روسی</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "Yf841quPCtajz6TpKV250pxSIejQtklUORD2PjNvdzU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt\">پرتغالی</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "dOcfaR9qipWqs4k+tJQKuP4FVh7YPzjBwcRAaWCqsDI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl\">هلندی</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "pAdYa1DrsX5Ob5QGmPUYDxpeVBj6QSHL+N4jYoLtHnw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl\">لهستانی</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "p1IhdUljE7SNE084wwJ7lkOsFGWtpNMRg24Yn0n7MFQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar\">عربی</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "ChaScEMPMrTUre/Bi5bZt5Ux4wGjlyeX3tQ12g3Qe/Q=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "u/EF/4Xu/AJoI94tmfylO3kTlx9fm/TZTQRxomb7LCU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr\">ترکی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "xxuzbv1HyX85OOfPc/dXvvCGJBHQSfbljFU0FHU9Fu8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi\">ویتنامی</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "utg22J61f0tZkW2D8C4VLyBN/BTKzy4PROAC1t3aJRA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id\">اندونزیایی</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "jFvu8kbnGFvslzO2B03OZm476hQAvju21BHX1u/5dCU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 32,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# s3 - آموزش عامل جستجوی کارآمد اما مؤثر با استفاده از یادگیری تقویتی"
+      },
+      {
+        "row": 34,
+        "rowsha": "FUjVfX9kWUp0x+UZmZEj2XvnpvZHNvA5trqpdZrVx6w=",
+        "originContent": "# s3 - Efficient Yet Effective Search Agent Training via RL",
+        "translatedContent": "***برای آموزش یک عامل جستجو به این مقدار داده نیاز ندارید***"
+      },
+      {
+        "row": 35,
+        "rowsha": "E9zFEZDVDU8usKMc/9XcmRlsxp9M67XRleM6+QBMCFw=",
+        "originContent": "***You Don't Need That Much Data to Train a Search Agent***",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 37,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  <a href=\"https://arxiv.org/abs/2505.14146\">"
+      },
+      {
+        "row": 39,
+        "rowsha": "W7lZVymFAqibSre2Q1m+2/GMoZCqCT7/VKfwSrEwnRk=",
+        "originContent": "  <a href=\"https://arxiv.org/abs/2505.14146\">",
+        "translatedContent": "    <img src=\"https://img.shields.io/badge/arXiv-2505.14146-b31b1b.svg\" alt=\"arXiv\">"
+      },
+      {
+        "row": 40,
+        "rowsha": "fRizt+NYe34wcQ1B7M7zLI1UQfohEZxO2DtSn4Xu4kQ=",
+        "originContent": "    <img src=\"https://img.shields.io/badge/arXiv-2505.14146-b31b1b.svg\" alt=\"arXiv\">",
+        "translatedContent": ""
+      }
+    ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "```bash\nconda create -n s3 python=3.9\n# install torch [or you can skip this step and let vllm to install the correct version for you]\npip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu121\n# install vllm\npip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1\npip3 install ray\n\n# verl\ncd code\npip install -e .\n\n# flash attention 2\npip3 install flash-attn --no-build-isolation\n\n# we use pyserini for efficient retrieval and evaluation\npip install pyserini    # the version we used is 0.22.1\n\n# quality of life\npip install wandb IPython matplotlib huggingface_hub\n```",
-    "ContentSha": "ZWi8L0tbJ7pZjL0yDqydNEJapWWQXJcZribBpsERd8k=",
+    "Content": "  </a>\n</p>\n</div>\n\n**Performance Overview:**\n\n<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png\" alt=\"performance_overview\" width=\"800\">\n\n\n\n## What is s3?\n\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png\" alt=\"framework\" width=\"800\">\n\n**s3 Framework**\n</div>\n\n`s3` is a simple yet powerful framework for training search agents in retrieval-augmented generation (RAG). It teaches language models how to search more effectively—without changing the generator itself. By focusing solely on the search component, `s3` achieves strong performance across QA tasks with just a fraction of the data used by prior methods. It's modular, efficient, and designed to work seamlessly with any black-box LLM.\n\n\n\n## Table of Contents\n\n- [📦 Installation](#-installation)\n- [💡 Preparation](#-preparation)\n- [🏋️ Run Training](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)\n- [🔍 Run Search/Retrieval](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)\n- [📈 Run Evaluation](#-run-evaluation)\n\n## 📦 Installation\n\n**Searcher & Generator Environment**",
+    "ContentSha": "HwLJcVTCjmVYSIlkPYiNL1PbQMirYe57glVLuX6Ro4Y=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\nconda create -n s3 python=3.9\n# install torch [or you can skip this step and let vllm to install the correct version for you]\npip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu121\n# install vllm\npip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1\npip3 install ray\n\n# verl\ncd code\npip install -e .\n\n# flash attention 2\npip3 install flash-attn --no-build-isolation\n\n# we use pyserini for efficient retrieval and evaluation\npip install pyserini    # the version we used is 0.22.1\n\n# quality of life\npip install wandb IPython matplotlib huggingface_hub\n```",
+    "Translation": "  </a>\n</p>\n</div>\n\n**نمای کلی عملکرد:**\n\n<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png\" alt=\"performance_overview\" width=\"800\">\n\n\n\n## s3 چیست؟\n\n<div align=\"center\">\n<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png\" alt=\"framework\" width=\"800\">\n\n**چارچوب s3**\n</div>\n\n`s3` یک چارچوب ساده اما قدرتمند برای آموزش عامل‌های جستجو در تولید تقویت‌شده با بازیابی (RAG) است. این چارچوب به مدل‌های زبانی آموزش می‌دهد تا مؤثرتر جستجو کنند—بدون تغییر در خود مولد. با تمرکز صرفاً بر مؤلفه جستجو، `s3` با تنها کسری از داده‌های مورد استفاده روش‌های قبلی، عملکرد قوی در وظایف پرسش و پاسخ ارائه می‌دهد. این چارچوب ماژولار، کارآمد و برای کار بی‌نقص با هر LLM جعبه‌سیاه طراحی شده است.\n\n\n\n## فهرست مطالب\n\n- [📦 نصب](#-installation)\n- [💡 آماده‌سازی](#-preparation)\n- [🏋️ اجرای آموزش](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)\n- [🔍 اجرای جستجو/بازیابی](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)\n- [📈 اجرای ارزیابی](#-run-evaluation)\n\n## 📦 نصب\n\n**محیط جستجوگر و مولد**",
     "Status": "ok",
-    "RowTranslations": [],
-    "IsCodeBlock": true
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 2,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 3,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ICL3Ex/EtLuok1U3QzveygU0nVNYVmcrwplrGuKkyP8=",
+        "originContent": "**Performance Overview:**",
+        "translatedContent": "**نمای کلی عملکرد:**"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lSd5oEAhMHsgOG58jK359N5o/djx4/BkulW586xPL5Y=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png\" alt=\"performance_overview\" width=\"800\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png\" alt=\"performance_overview\" width=\"800\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "6tfcyGTb4h+QJ49R4dqHbkYADaF+xTsOijvM//IbyYs=",
+        "originContent": "## What is s3?",
+        "translatedContent": "## s3 چیست؟"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "O6ANWb/xKLesMFPZv27OrH0MM+m8/CoOaz13ezBaSec=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png\" alt=\"framework\" width=\"800\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png\" alt=\"framework\" width=\"800\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "zdnPn6/fBaAiMlLjJgHHl3oSDfffnltXOQPSvaGJmag=",
+        "originContent": "**s3 Framework**",
+        "translatedContent": "**چارچوب s3**"
+      },
+      {
+        "row": 17,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "FXOz485eoQGdy4K35bNSfbqLTd+IlnH/MmlDrUNv0Rg=",
+        "originContent": "`s3` is a simple yet powerful framework for training search agents in retrieval-augmented generation (RAG). It teaches language models how to search more effectively—without changing the generator itself. By focusing solely on the search component, `s3` achieves strong performance across QA tasks with just a fraction of the data used by prior methods. It's modular, efficient, and designed to work seamlessly with any black-box LLM.",
+        "translatedContent": "`s3` یک چارچوب ساده اما قدرتمند برای آموزش عامل‌های جستجو در تولید تقویت‌شده با بازیابی (RAG) است. این چارچوب به مدل‌های زبانی آموزش می‌دهد تا مؤثرتر جستجو کنند—بدون تغییر در خود مولد. با تمرکز صرفاً بر مؤلفه جستجو، `s3` با تنها کسری از داده‌های مورد استفاده روش‌های قبلی، عملکرد قوی در وظایف پرسش و پاسخ ارائه می‌دهد. این چارچوب ماژولار، کارآمد و برای کار بی‌نقص با هر LLM جعبه‌سیاه طراحی شده است."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## فهرست مطالب"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "ujtal2HlbiaO6Do/86433TC0SLg7eYY4b+9gZCtr0tQ=",
+        "originContent": "- [📦 Installation](#-installation)",
+        "translatedContent": "- [📦 نصب](#-installation)"
+      },
+      {
+        "row": 26,
+        "rowsha": "1795Rungeq1JcH3hsOYiK21JczuN4ecDX0LKN4Z4OuU=",
+        "originContent": "- [💡 Preparation](#-preparation)",
+        "translatedContent": "- [💡 آماده‌سازی](#-preparation)"
+      },
+      {
+        "row": 27,
+        "rowsha": "1opO8OOhXjIhBOSA7o6CnLPp/Kht2hVyF41l+MpaloA=",
+        "originContent": "- [🏋️ Run Training](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)",
+        "translatedContent": "- [🏋️ اجرای آموزش](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)"
+      },
+      {
+        "row": 28,
+        "rowsha": "CVDh0+xzquXWiybi3ijPoXD9nIMXJSsFFQ24AgbArnE=",
+        "originContent": "- [🔍 Run Search/Retrieval](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)",
+        "translatedContent": "- [🔍 اجرای جستجو/بازیابی](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)"
+      },
+      {
+        "row": 29,
+        "rowsha": "EAOMI0GlglvznEAL7V4QA09V+SLPA7eGnnGFlnsO4B4=",
+        "originContent": "- [📈 Run Evaluation](#-run-evaluation)",
+        "translatedContent": "- [📈 اجرای ارزیابی](#-run-evaluation)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "GTlWZnsd7EccJ2W+9zDbRE0wuS2Ycx/IC9szF0GhUfA=",
+        "originContent": "## 📦 Installation",
+        "translatedContent": "## 📦 نصب"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "wegRbBlJV5Z3EcjnNCPnFj5tnqYBlDFDLbbP93kYXxw=",
+        "originContent": "**Searcher & Generator Environment**",
+        "translatedContent": "**محیط جستجوگر و مولد**"
+      }
+    ],
+    "IsCodeBlock": false
   },
   {
     "Id": 3,
+    "Content": "```bash\nconda create -n s3 python=3.9\n# install torch [or you can skip this step and let vllm to install the correct version for you]\npip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu121\n# install vllm\npip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1\npip3 install ray\n\n# verl\n# cd code\npip install -e .\n\n# flash attention 2\npip3 install flash-attn --no-build-isolation\n\n# we use pyserini for efficient retrieval and evaluation\npip install pyserini    # the version we used is 0.22.1\n\n# quality of life\npip install wandb IPython matplotlib huggingface_hub\n```",
+    "ContentSha": "jwiKEmnQ3gAZJBPJ1DrfDH68OUcC4XONzKAa/SmOS7s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nconda create -n s3 python=3.9\n# install torch [or you can skip this step and let vllm to install the correct version for you]\npip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu121\n# install vllm\npip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1\npip3 install ray\n\n# verl\n# cd code\npip install -e .\n\n# flash attention 2\npip3 install flash-attn --no-build-isolation\n\n# we use pyserini for efficient retrieval and evaluation\npip install pyserini    # the version we used is 0.22.1\n\n# quality of life\npip install wandb IPython matplotlib huggingface_hub\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "y+M2o9s7dsNnoO0lFj2Ml2996CGWV3AP9jz4A6ZHqtE=",
+        "originContent": "conda create -n s3 python=3.9",
+        "translatedContent": "conda create -n s3 python=3.9"
+      },
+      {
+        "row": 3,
+        "rowsha": "h5Pvdd+1pOWuRbS8TvPIPXxDazRG3SdjkDqLRG+KmX8=",
+        "originContent": "# install torch [or you can skip this step and let vllm to install the correct version for you]",
+        "translatedContent": "# install torch [or you can skip this step and let vllm to install the correct version for you]"
+      },
+      {
+        "row": 4,
+        "rowsha": "fZLzE6sNCTpaJEMkWbm9dlS469ZdXxU7FK6Cz5tXk8g=",
+        "originContent": "pip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu121",
+        "translatedContent": "pip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu121"
+      },
+      {
+        "row": 5,
+        "rowsha": "5bp4cOWyp7cpZmxxQqfWms0eVC4ARX1DxjhjUgjj3lY=",
+        "originContent": "# install vllm",
+        "translatedContent": "# install vllm"
+      },
+      {
+        "row": 6,
+        "rowsha": "48MF5UcBNsMxUrke37fsu6P4DkDztaNqceosrNA/Z5s=",
+        "originContent": "pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1",
+        "translatedContent": "pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1"
+      },
+      {
+        "row": 7,
+        "rowsha": "4jldDUhtb4j3Ati9zcxqZTvSPxdMRF3m7i0ceHrppBE=",
+        "originContent": "pip3 install ray",
+        "translatedContent": "pip3 install ray"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "NPg1R4cW1+dt+3tYfYgAy0jXFWAN2IN/r4T0xL2n2U4=",
+        "originContent": "# verl",
+        "translatedContent": "# verl"
+      },
+      {
+        "row": 10,
+        "rowsha": "U6woUhaIYiMbQl3qngSLIq3BIyTPkkKVTuJutB87Anc=",
+        "originContent": "# cd code",
+        "translatedContent": "# cd code"
+      },
+      {
+        "row": 11,
+        "rowsha": "knVRIKwsU4emj9biFUgJoBjbMP5EER6U5AGxS0Ix1+Y=",
+        "originContent": "pip install -e .",
+        "translatedContent": "pip install -e ."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "rmizUIWtZ/DHBRLOIR5Le89ZMxX0kQ4StWhW+Dcgd/4=",
+        "originContent": "# flash attention 2",
+        "translatedContent": "# flash attention 2"
+      },
+      {
+        "row": 14,
+        "rowsha": "T37SywokWO37g4RcbquAx5FKDnsNzd1JiPKSSC5sCDc=",
+        "originContent": "pip3 install flash-attn --no-build-isolation",
+        "translatedContent": "pip3 install flash-attn --no-build-isolation"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "K1TOaaLqi9Nn4D7uejlXne8taRgtQNBvK37Rt+OXmRo=",
+        "originContent": "# we use pyserini for efficient retrieval and evaluation",
+        "translatedContent": "# we use pyserini for efficient retrieval and evaluation"
+      },
+      {
+        "row": 17,
+        "rowsha": "ycczcDicHHRXccEfcakJUrlLJ9UbdpW22+6lYVM1NxA=",
+        "originContent": "pip install pyserini    # the version we used is 0.22.1",
+        "translatedContent": "pip install pyserini    # the version we used is 0.22.1"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "T+RPNyKSkNKcNhFx+AUKiM5JRNOy9OF2xPt6CjI9F9M=",
+        "originContent": "# quality of life",
+        "translatedContent": "# quality of life"
+      },
+      {
+        "row": 20,
+        "rowsha": "wJtoXXKGkVK1+zVTsMoL41aLpeSZbfZww9QFaERxyd4=",
+        "originContent": "pip install wandb IPython matplotlib huggingface_hub",
+        "translatedContent": "pip install wandb IPython matplotlib huggingface_hub"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
     "Content": "\n**Retriever Environment**",
     "ContentSha": "mUidzeeTHT315j7cBcnepu+0a+jPkJF13dyeigjFtMc=",
     "SectionType": "",
@@ -36,7 +615,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "```bash\nconda create -n ret python=3.10\nconda activate ret\n\nconda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 pytorch-cuda=12.1 -c pytorch -c nvidia\npip install transformers datasets pyserini\nconda install -c pytorch -c nvidia faiss-gpu=1.8.0\npip install uvicorn fastapi\n```",
     "ContentSha": "BMW4A/+2+w5PFYzEH8wtAJOw9Et5kVsHiSpMfa+F51o=",
     "SectionType": "",
@@ -48,7 +627,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "\n\n\n## 💡 Preparation\n***Download Index & Corpus***",
     "ContentSha": "3pAuRGOhWk1Q9BLU+5M9HFz3m1HVfsSXEVNzeybekpY=",
     "SectionType": "",
@@ -60,7 +639,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Content": "```bash\npython scripts/download.py --save_path $save_path\ncat $save_path/part_* > $save_path/e5_Flat.index\ngzip -d $save_path/wiki-18.jsonl.gz\n```",
     "ContentSha": "6vtBdG72Djhjm6F7/QXwEZIF71c18UjjBfwbCkW4obU=",
     "SectionType": "",
@@ -72,19 +651,38 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 7,
-    "Content": "\n***Precompute Naïve RAG Initialization***\n",
-    "ContentSha": "ifdrd4nr7OBRFYhf7+uMaZCI6Oxsbw2oAyGH+myR3So=",
+    "Id": 8,
+    "Content": "\n***Precompute Naïve RAG Initialization*** (or you can download our processed data here: [huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data))\n",
+    "ContentSha": "f/pccwVE3iribEIcy9KOPVpttGbvuC7ayYsuQ/k5QNk=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "***پیش‌محاسبه مقداردهی اولیه ساده RAG***\n\n",
+    "Translation": "\n***پیش‌پردازش اولیه RAG به روش ساده*** (یا می‌توانید داده‌های پردازش‌شده ما را از اینجا دانلود کنید: [huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data))\n",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "crHouT8Dp3yKZHw2MDTa4XXxMLRoQWp2Ejgp7E24SYg=",
+        "originContent": "***Precompute Naïve RAG Initialization*** (or you can download our processed data here: [huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data))",
+        "translatedContent": "***پیش‌پردازش اولیه RAG به روش ساده*** (یا می‌توانید داده‌های پردازش‌شده ما را از اینجا دانلود کنید: [huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data))"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
     "IsCodeBlock": false
   },
   {
-    "Id": 8,
+    "Id": 9,
     "Content": "```bash\n# deploy retriever\nbash scripts/deploy_retriever/retrieval_launch.sh # or scripts/deploy_retriever/retrieval_launch_mirage.sh for MedCorp corpus.\n# deploy generator\nbash generator_llms/host.sh # modify tensor-parallel-size to the number of GPUs you use\n# run precompute\nbash scripts/precompute.sh # this step will take a while, as it will precompute the naïve RAG Cache for training\n```",
     "ContentSha": "SuW6njz79eWLThgpg7hiqTuEZboQHd8KunYtUCO34Rk=",
     "SectionType": "",
@@ -96,7 +694,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 9,
+    "Id": 10,
     "Content": "\n\n## 🏋️ Run Training\n***This step is for the training of S3***\n",
     "ContentSha": "5+fkisGPx78rt9dqG2tZmCeCrxPxHAh3Pe2Stzdg4/Q=",
     "SectionType": "",
@@ -108,7 +706,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 10,
+    "Id": 11,
     "Content": "```bash\n# deploy retriever\nbash scripts/deploy_retriever/retrieval_launch.sh \n# deploy generator\nbash generator_llms/host.sh\n# run training\nbash scripts/train/train_s3.sh\n```",
     "ContentSha": "jQHjP7umwKlwRtOQwvii8AxaIkkfYM9p8E8kke7+nbg=",
     "SectionType": "",
@@ -120,7 +718,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 11,
+    "Id": 12,
     "Content": "\n\n## 🔍 Run Search/Retrieval\n***This step is for the context gathering of s3 / baselines***\n\n**s3**",
     "ContentSha": "RISkulnS1hnai4mRXhzp06bbIB00kJPIJICmA0hX6e0=",
     "SectionType": "",
@@ -128,48 +726,11 @@
     "EndLine": 0,
     "Translation": "## 🔍 اجرای جستجو/بازیابی\n***این مرحله برای گردآوری زمینه s3 / خطوط پایه است***\n\n**s3**\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 🔍 اجرای جستجو/بازیابی"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "***این مرحله برای گردآوری زمینه s3 / خطوط پایه است***"
-      },
-      {
-        "row": 3,
-        "rowsha": "NlU0+aEG/ApgXZ1y6E1qViw0uHGKbxzSkEkKtMrGs1M=",
-        "originContent": "## 🔍 Run Search/Retrieval",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "PY8QXZ7rhCraaE+1oXZEcMPoxF7Fem7zQuz00hnokME=",
-        "originContent": "***This step is for the context gathering of s3 / baselines***",
-        "translatedContent": "**s3**"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "i+tn1GSrw8roGNvYN5fH+QocuHf4zVK22exJ6ATjdD0=",
-        "originContent": "**s3**",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 12,
+    "Id": 13,
     "Content": "```bash\n# deploy retriever\nbash scripts/deploy_retriever/retrieval_launch.sh \n# run s3 inference\nbash scripts/s3_inference/evaluate-8-3-3.sh\n```",
     "ContentSha": "wgf0jyEX2MKNfDa6sEHXl78emoGr9HfgI1h/HWOrv9Q=",
     "SectionType": "",
@@ -181,7 +742,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 13,
+    "Id": 14,
     "Content": "\n<details>\n<summary>Baselines</summary>\n\n**RAG**",
     "ContentSha": "Mx4wonU5bSxv6ZTzI53k/ZWky13k87EWExqEqEedR/k=",
     "SectionType": "",
@@ -189,42 +750,11 @@
     "EndLine": 0,
     "Translation": "<details>\n<summary>مبانی</summary>\n\n**RAG**\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<details>"
-      },
-      {
-        "row": 2,
-        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
-        "originContent": "<details>",
-        "translatedContent": "<summary>مبانی</summary>"
-      },
-      {
-        "row": 3,
-        "rowsha": "BhgsVUS4UK7xzwGUYmEAqu3JnK8veYZSmbMPmCOdlF4=",
-        "originContent": "<summary>Baselines</summary>",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**RAG**"
-      },
-      {
-        "row": 5,
-        "rowsha": "qRU8/aIQeNP4OfQ6x9eQ/O1p4qWAqIsvGYcODkAQHak=",
-        "originContent": "**RAG**",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 14,
+    "Id": 15,
     "Content": "```bash\nbash scripts/deploy_retriever/retrieval_launch.sh # or retrieval_launch_bm25.sh # deploy retriever\nbash scripts/baselines/rag.sh # run RAG \n```",
     "ContentSha": "P5M3XNKoofOGxMcIU0Wm0ewsojR0jdPGW56Lbgg8GPw=",
     "SectionType": "",
@@ -236,7 +766,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 15,
+    "Id": 16,
     "Content": "\n**DeepRetrieval**",
     "ContentSha": "mVn9hKIqehv7yQMsCX/jw3dwcO+R9MjsBLyFB3Mc8fY=",
     "SectionType": "",
@@ -244,24 +774,11 @@
     "EndLine": 0,
     "Translation": "**بازیابی عمیق**\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**بازیابی عمیق**"
-      },
-      {
-        "row": 2,
-        "rowsha": "w3NOkuEUQm23bXfG54AMvUUUDhfDgtQU2n6qkP8qijM=",
-        "originContent": "**DeepRetrieval**",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 16,
+    "Id": 17,
     "Content": "```bash\nbash retrieval_launch_bm25.sh # deploy BM25 Model\nbash generator_llms/deepretrieval.sh # deploy DeepRetrieval Model\nbash scripts/baselines/deepretrieval.sh # run DeepRetrieval Query Rewriting + Retrieval\n```",
     "ContentSha": "4HYjj/gWNsoq5bezq0HaGEQ7Lz/5qs20T82Mr2kkuNw=",
     "SectionType": "",
@@ -273,7 +790,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 17,
+    "Id": 18,
     "Content": "\n**Search-R1**",
     "ContentSha": "H2ommzyBAyqb2U/CP/k6PSRVO5BgsDXr53doNd4yq/4=",
     "SectionType": "",
@@ -281,24 +798,11 @@
     "EndLine": 0,
     "Translation": "**جستجو-R1**\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "**جستجو-R1**"
-      },
-      {
-        "row": 2,
-        "rowsha": "0RUPRHvOk3illxJ6rWV293Zw9PKT06cS4VZCDrnLlmc=",
-        "originContent": "**Search-R1**",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 18,
+    "Id": 19,
     "Content": "```bash\nbash retrieval_launch.sh # deploy e5 retriever\nbash scripts/baselines/search_r1.sh # run Search-R1\n```",
     "ContentSha": "b/JQkq/N68BEEhkBk0+f/3Ntsoy3UQ5aOD02NwaKC+E=",
     "SectionType": "",
@@ -310,7 +814,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 19,
+    "Id": 20,
     "Content": "\n**IRCoT**",
     "ContentSha": "5uXa3pJ4wu5yVVgpdnS/u3aavpShDky6m5UhfRsKwuE=",
     "SectionType": "",
@@ -322,7 +826,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 20,
+    "Id": 21,
     "Content": "```bash\nbash retrieval_launch.sh # deploy e5 retriever\npython scripts/baselines/ircot.py\n```",
     "ContentSha": "DPe+WuTVj7xjlVNQw8XRWv6xUxm3KJ38c0VG4GSK1No=",
     "SectionType": "",
@@ -334,7 +838,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 21,
+    "Id": 22,
     "Content": "\n**Search-o1**",
     "ContentSha": "udW+fOFCX+i+CmefUlTJWnILGu+gmpF5IQQpM2HT1R8=",
     "SectionType": "",
@@ -346,7 +850,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 22,
+    "Id": 23,
     "Content": "```bash\nbash retrieval_launch.sh # deploy e5 retriever\nbash scripts/baselines/search_o1.sh # run Search-o1\n```",
     "ContentSha": "ifW4GhZm2ayjPVwQsxzkOyFLkMPH1fY7WxdRoTK+bmM=",
     "SectionType": "",
@@ -358,7 +862,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 23,
+    "Id": 24,
     "Content": "\n</details>\n\n\n## 📈 Run Evaluation\n***This step is for the evaluation of s3 / baselines***\n\n",
     "ContentSha": "Rf/WT67aDrCbLOpGrctjLzS2r3arUrNXsyi1ljKxzZI=",
     "SectionType": "",
@@ -370,7 +874,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 24,
+    "Id": 25,
     "Content": "```bash\nbash scripts/evaluation/run.sh\n```",
     "ContentSha": "p0OfzL01VC3g3bOEh5CutDEOCpa2/3AVm75wNoLD07c=",
     "SectionType": "",
@@ -382,19 +886,128 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 25,
-    "Content": "\n\n## Acknowledgement\nWe would like to thank the following projects:\n[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).\n \n\n## Citation",
-    "ContentSha": "zalTdPWFFm7VhMg8gO96ugYWKxXyFaYTWLtRmo0+2BE=",
+    "Id": 26,
+    "Content": "\n## Q&A\n### Customized Data?\nIf you want to test s3 on your own corpus/dataset, you can refer to this commit to see what you need to do to build your own pipeline: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)\n\n### Reproducing Results?\nSeveral developers have already reproduced our results successfully. If you have questions or run into issues, feel free to [open an issue](https://github.com/pat-jj/s3/issues) — we’re happy to provide hands-on guidance (see [this example](https://github.com/pat-jj/s3/issues/20)).\n\nAlthough reproducing the model yourself is straightforward — and we actually **recommend training from scratch**, since evaluation is often much more time-consuming than training — we also provide a reference checkpoint: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), trained in about one hour.\n\n\n\n## Acknowledgement\nWe would like to thank the following projects:\n[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).\n \n\n## Citation",
+    "ContentSha": "5CydfZYymHnPKLainoE5vpDV8U/1Bt+YFJteQtLatoY=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "## تقدیر و تشکر\nمایلیم از پروژه‌های زیر تشکر کنیم:\n[verl](https://github.com/volcengine/verl)، [RAGEN](https://github.com/RAGEN-AI/RAGEN)، [Search-R1](https://github.com/PeterGriffinJin/Search-R1)، [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval)، [PySerini](https://github.com/castorini/pySerini).\n \n\n## ارجاع\n\n",
+    "Translation": "\n## پرسش و پاسخ\n### داده‌های سفارشی؟\nاگر می‌خواهید s3 را روی مجموعه داده/متن خود آزمایش کنید، می‌توانید به این کامیت مراجعه کنید تا ببینید برای ساخت خط لوله خود چه کاری باید انجام دهید: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)\n\n### بازتولید نتایج؟\nچندین توسعه‌دهنده قبلاً نتایج ما را با موفقیت بازتولید کرده‌اند. اگر سوالی دارید یا با مشکلی مواجه شدید، می‌توانید [یک issue باز کنید](https://github.com/pat-jj/s3/issues) — خوشحال می‌شویم راهنمایی عملی ارائه دهیم (به [این مثال](https://github.com/pat-jj/s3/issues/20) مراجعه کنید).\n\nاگرچه بازتولید مدل توسط خودتان ساده است — و ما در واقع **توصیه می‌کنیم از ابتدا آموزش دهید**، زیرا ارزیابی اغلب بسیار زمان‌برتر از آموزش است — ما یک چک‌پوینت مرجع نیز ارائه داده‌ایم: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)، که در حدود یک ساعت آموزش داده شده است.\n\n\n\n## قدردانی\nمایلیم از پروژه‌های زیر تشکر کنیم:\n[verl](https://github.com/volcengine/verl)، [RAGEN](https://github.com/RAGEN-AI/RAGEN)، [Search-R1](https://github.com/PeterGriffinJin/Search-R1)، [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval)، [PySerini](https://github.com/castorini/pySerini).\n \n\n## ارجاع",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CAWBqSRvAdJOoqekIA4xTAlNxwZzMkWG+2fazPu5lEA=",
+        "originContent": "## Q&A",
+        "translatedContent": "## پرسش و پاسخ"
+      },
+      {
+        "row": 3,
+        "rowsha": "gF3+/r8gqlNnK948RtbzhAOHmDgH4g8ipHDC8nQwIe4=",
+        "originContent": "### Customized Data?",
+        "translatedContent": "### داده‌های سفارشی؟"
+      },
+      {
+        "row": 4,
+        "rowsha": "gcwGImZvfb7Zm9zwP0r8JCUOKdOvurMTH7RFv3qJ2LI=",
+        "originContent": "If you want to test s3 on your own corpus/dataset, you can refer to this commit to see what you need to do to build your own pipeline: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)",
+        "translatedContent": "اگر می‌خواهید s3 را روی مجموعه داده/متن خود آزمایش کنید، می‌توانید به این کامیت مراجعه کنید تا ببینید برای ساخت خط لوله خود چه کاری باید انجام دهید: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "qBxAXPPrMHP4sQrapHc+Kyzzy/jk/pZZPXZrt8NxTRo=",
+        "originContent": "### Reproducing Results?",
+        "translatedContent": "### بازتولید نتایج؟"
+      },
+      {
+        "row": 7,
+        "rowsha": "Bm1EWDBxZFh+Hd7twKciVJ5Qi3mdm5haBoLLxg6hM+A=",
+        "originContent": "Several developers have already reproduced our results successfully. If you have questions or run into issues, feel free to [open an issue](https://github.com/pat-jj/s3/issues) — we’re happy to provide hands-on guidance (see [this example](https://github.com/pat-jj/s3/issues/20)).",
+        "translatedContent": "چندین توسعه‌دهنده قبلاً نتایج ما را با موفقیت بازتولید کرده‌اند. اگر سوالی دارید یا با مشکلی مواجه شدید، می‌توانید [یک issue باز کنید](https://github.com/pat-jj/s3/issues) — خوشحال می‌شویم راهنمایی عملی ارائه دهیم (به [این مثال](https://github.com/pat-jj/s3/issues/20) مراجعه کنید)."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "G59UcVq9CB28ty0T/+fhql02W0xsv3R4e1piZYYaxbM=",
+        "originContent": "Although reproducing the model yourself is straightforward — and we actually **recommend training from scratch**, since evaluation is often much more time-consuming than training — we also provide a reference checkpoint: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), trained in about one hour.",
+        "translatedContent": "اگرچه بازتولید مدل توسط خودتان ساده است — و ما در واقع **توصیه می‌کنیم از ابتدا آموزش دهید**، زیرا ارزیابی اغلب بسیار زمان‌برتر از آموزش است — ما یک چک‌پوینت مرجع نیز ارائه داده‌ایم: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)، که در حدود یک ساعت آموزش داده شده است."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": "## قدردانی"
+      },
+      {
+        "row": 14,
+        "rowsha": "+8hV1IsdsysaymcZ+GIPTXabw/Oh/TZ65bj9iKI+h8E=",
+        "originContent": "We would like to thank the following projects:",
+        "translatedContent": "مایلیم از پروژه‌های زیر تشکر کنیم:"
+      },
+      {
+        "row": 15,
+        "rowsha": "IgjkAF2U2z4EMiVb6cxLjJqFxY+roxFjqwEazhe/FM0=",
+        "originContent": "[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).",
+        "translatedContent": "[verl](https://github.com/volcengine/verl)، [RAGEN](https://github.com/RAGEN-AI/RAGEN)، [Search-R1](https://github.com/PeterGriffinJin/Search-R1)، [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval)، [PySerini](https://github.com/castorini/pySerini)."
+      },
+      {
+        "row": 16,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## ارجاع"
+      }
+    ],
     "IsCodeBlock": false
   },
   {
-    "Id": 26,
+    "Id": 27,
     "Content": "```bibtex\n@article{jiang2025s3,\n  title={s3: You Don't Need That Much Data to Train a Search Agent via RL},\n  author={Jiang, Pengcheng and Xu, Xueqiang and Lin, Jiacheng and Xiao, Jinfeng and Wang, Zifeng and Sun, Jimeng and Han, Jiawei},\n  journal={arXiv preprint arXiv:2505.14146},\n  year={2025}\n}\n```",
     "ContentSha": "X+sxtwQmLTGvi9/sJ9MpZTLDhjsBsp2MZXz1xYQ8V7A=",
     "SectionType": "",
@@ -406,7 +1019,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 27,
+    "Id": 28,
     "Content": "\nThanks for your interest in our work!\n\n\n\n",
     "ContentSha": "cOz+HgSSTp8CSFBZLGOUSm/c9KSUCqZpJ0P7JiOZfhA=",
     "SectionType": "",

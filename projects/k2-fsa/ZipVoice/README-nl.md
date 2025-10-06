@@ -1,27 +1,28 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 Taal</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=en">Engels</a>
+        <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=en">English</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ko">한국어</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=hi">हिन्दी</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fr">Frans</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=de">Duits</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=es">Spaans</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=it">Italiaans</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ru">Russisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pt">Portugees</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pt">Português</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pl">Pools</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pl">Polski</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ar">العربية</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=tr">Turks</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=vi">Vietnamees</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
@@ -32,7 +33,7 @@
 
 # ZipVoice⚡
 
-## Snelle en hoogwaardige zero-shot tekst-naar-spraak met flow matching
+## Snel en Hoogwaardige Zero-Shot Tekst-naar-Spraak met Flow Matching
 </div>
 
 ## Overzicht
@@ -43,11 +44,11 @@ ZipVoice is een serie snelle en hoogwaardige zero-shot TTS-modellen gebaseerd op
 
 - Klein en snel: slechts 123M parameters.
 
-- Hoogwaardige stemklonen: state-of-the-art prestaties in spreker-gelijkenis, verstaanbaarheid en natuurlijkheid.
+- Hoogwaardige stemkloning: state-of-the-art prestaties in spreker-gelijkenis, verstaanbaarheid en natuurlijkheid.
 
 - Meertalig: ondersteunt Chinees en Engels.
 
-- Multi-modus: ondersteunt zowel enkelspreker- als dialoogspraakgeneratie.
+- Multi-modus: ondersteunt zowel enkelspreker als dialoogspraakgeneratie.
 
 ### 2. Modelvarianten
 
@@ -63,39 +64,38 @@ ZipVoice is een serie snelle en hoogwaardige zero-shot TTS-modellen gebaseerd op
   <tbody>
     <tr>
       <td>ZipVoice</td>
-      <td>Het basismodel dat zero-shot enkelspreker TTS in zowel Chinees als Engels ondersteunt.</td>
+      <td>Het basismodel dat zero-shot enkelspreker TTS ondersteunt in zowel Chinees als Engels.</td>
       <td rowspan="2"><a href="https://arxiv.org/abs/2506.13053"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
       <td rowspan="2"><a href="https://zipvoice.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Distill</td>
-      <td>De gedistilleerde versie van ZipVoice, met verbeterde snelheid en minimale prestatievermindering.</td>
+      <td>De gedistilleerde versie van ZipVoice, met verbeterde snelheid en minimale prestatiedaling.</td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog</td>
-      <td>Een dialooggeneratiemodel gebaseerd op ZipVoice, in staat om enkelkanaals tweepartijdialogen te genereren.</td>
+      <td>Een dialooggeneratiemodel gebaseerd op ZipVoice, dat enkelkanaals tweezijdige gesproken dialogen kan genereren.</td>
       <td rowspan="2"><a href="https://arxiv.org/abs/2507.09318"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
       <td rowspan="2"><a href="https://zipvoice-dialog.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog-Stereo</td>
-      <td>De stereo-variant van ZipVoice-Dialog, waarmee tweekanaals dialooggeneratie mogelijk is met elke spreker op een eigen kanaal.</td>
+      <td>De stereo-variant van ZipVoice-Dialog, waarmee tweekanaals dialooggeneratie mogelijk is waarbij elke spreker aan een afzonderlijk kanaal wordt toegewezen.</td>
     </tr>
   </tbody>
 </table>
 
 ## Nieuws
 
-**2025/07/14**: **ZipVoice-Dialog** en **ZipVoice-Dialog-Stereo**, twee spraakdialooggeneratiemodellen, zijn uitgebracht. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
+**2025/07/14**: **ZipVoice-Dialog** en **ZipVoice-Dialog-Stereo**, twee modellen voor gesproken dialooggeneratie, zijn uitgebracht. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
 
-**2025/07/14**: **OpenDialog** dataset, een 6,8k-uur gesproken dialoogdataset, is uitgebracht. Download op [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog). Bekijk details op [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318).
+**2025/07/14**: **OpenDialog** dataset, een 6,8k-uur gesproken dialoogdataset, is uitgebracht. Download via [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog). Bekijk details via [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318).
 
 **2025/06/16**: **ZipVoice** en **ZipVoice-Distill** zijn uitgebracht. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)
 
 ## Installatie
 
-### 1. Clone de ZipVoice-repository
-
+### 1. Clone de ZipVoice repository
 
 ```bash
 git clone https://github.com/k2-fsa/ZipVoice.git
@@ -129,7 +129,7 @@ Gebruikers op het Chinese vasteland kunnen terecht op https://k2-fsa.org/zh-CN/g
 - Om de installatie van k2 te controleren:
 
 
-```
+```bash
 python3 -c "import k2; print(k2.__file__)"
 ```
 ## Gebruik
@@ -150,16 +150,9 @@ python3 -m zipvoice.bin.infer_zipvoice \
     --res-wav-path result.wav
 ```
 - `--model-name` kan `zipvoice` of `zipvoice_distill` zijn, wat respectievelijk de modellen vóór en na distillatie zijn.
-- Als `<>` of `[]` in de tekst voorkomen, worden de door hen omsloten tekenreeksen als speciale tokens behandeld. `<>` geeft Chinese pinyin aan en `[]` geeft andere speciale tags aan.
-- ONNX-modellen kunnen sneller op de CPU draaien met `zipvoice.bin.infer_zipvoice_onnx`.
-
-> **Opmerking:** Als je problemen hebt met verbinden met HuggingFace, probeer dan:
-> ```bash
-> export HF_ENDPOINT=https://hf-mirror.com
-> ```
+- Als `<>` of `[]` in de tekst verschijnen, worden de door hen omsloten strings behandeld als speciale tokens. `<>` duidt op Chinese pinyin en `[]` op andere speciale tags.
 
 #### 1.2 Inferentie van een lijst met zinnen
-
 
 ```bash
 python3 -m zipvoice.bin.infer_zipvoice \
@@ -194,55 +187,93 @@ Elke regel van `test.tsv` is in een van de volgende formaten:
 ```
 {wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}
 ```
+
 - `wav_name` is de naam van het uitvoer-wav-bestand.
-- `prompt_transcription` is de transcriptie van het conversatieprompt-wav, bijvoorbeeld "[S1] Hallo. [S2] Hoe gaat het?"
-- `prompt_wav` is het pad naar het prompt-wav-bestand.
-- `text` is de te synthetiseren tekst, bijvoorbeeld "[S1] Het gaat goed. [S2] Hoe heet je?"
+- `prompt_transcription` is de transcriptie van de conversatieprompt-wav, bijvoorbeeld: "[S1] Hallo. [S2] Hoe gaat het?"
+- `prompt_wav` is het pad naar de prompt-wav.
+- `text` is de te synthetiseren tekst, bijvoorbeeld: "[S1] Het gaat goed. [S2] Hoe heet je? [S1] Ik ben Eric. [S2] Hallo Eric."
 
-(2) **Gesplitst promptformaat** waarbij de audio's en transcripties van twee sprekers in aparte bestanden staan:
-
+(2) **Gesplitst promptformaat** waarbij de audio's en transcripties van twee sprekers in afzonderlijke bestanden staan:
 
 ```
-{wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
+{wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
+
 - `wav_name` is de naam van het uitvoer-wav-bestand.
-- `spk1_prompt_transcription` is de transcriptie van het prompt-wav-bestand van spreker 1, bijvoorbeeld "Hallo"
-- `spk2_prompt_transcription` is de transcriptie van het prompt-wav-bestand van spreker 2, bijvoorbeeld "Hoe gaat het?"
-- `spk1_prompt_wav` is het pad naar het prompt-wav-bestand van spreker 1.
-- `spk2_prompt_wav` is het pad naar het prompt-wav-bestand van spreker 2.
-- `text` is de te synthetiseren tekst, bijvoorbeeld "[S1] Het gaat goed. [S2] Hoe heet je?"
+- `spk1_prompt_transcription` is de transcriptie van het prompt-wav-bestand van de eerste spreker, bijvoorbeeld "Hallo".
+- `spk2_prompt_transcription` is de transcriptie van het prompt-wav-bestand van de tweede spreker, bijvoorbeeld "Hoe gaat het?"
+- `spk1_prompt_wav` is het pad naar het prompt-wav-bestand van de eerste spreker.
+- `spk2_prompt_wav` is het pad naar het prompt-wav-bestand van de tweede spreker.
+- `text` is de te synthetiseren tekst, bijvoorbeeld "[S1] Het gaat goed. [S2] Hoe heet je? [S1] Ik ben Eric. [S2] Hallo Eric."
 
-### 3. Overige functies
+### 3 Richtlijnen voor beter gebruik:
 
-#### 3.1 Corrigeren van verkeerd uitgesproken Chinese polyfone karakters
+#### 3.1 Promptlengte
 
-We gebruiken [pypinyin](https://github.com/mozillazg/python-pinyin) om Chinese karakters om te zetten naar pinyin. Soms kan het echter **polyfone karakters** (多音字) verkeerd uitspreken.
+Wij raden een kort prompt-wav-bestand aan (bijvoorbeeld minder dan 3 seconden voor spraakgeneratie met één spreker, minder dan 10 seconden voor dialoogspraakgeneratie) voor een snellere inferentiesnelheid. Een erg lang prompt zal de inferentie vertragen en de spraakkwaliteit verminderen.
 
-Om deze uitspraakfouten handmatig te corrigeren, plaats de **gecorrigeerde pinyin** tussen punthaken `< >` en voeg het **toonteken** toe.
+#### 3.2 Snelheidsoptimalisatie
+
+Als de inferentiesnelheid onbevredigend is, kun je deze versnellen als volgt:
+
+- **Gedistilleerd model en minder stappen**: Voor het spraakgeneratiemodel met één spreker gebruiken we standaard het `zipvoice` model voor betere spraakkwaliteit. Als een snellere snelheid prioriteit heeft, kun je overschakelen naar `zipvoice_distill` en het aantal stappen (`--num-steps`) verlagen tot minimaal `4` (standaard 8).
+
+- **CPU-versnelling met multithreading**: Bij gebruik van de CPU kun je de parameter `--num-thread` meegeven (bijvoorbeeld `--num-thread 4`) om het aantal threads te verhogen voor een snellere snelheid. Standaard gebruiken we 1 thread.
+
+- **CPU-versnelling met ONNX**: Bij gebruik van de CPU kun je ONNX-modellen gebruiken met `zipvoice.bin.infer_zipvoice_onnx` voor een snellere snelheid (ONNX voor dialooggeneratiemodellen wordt nog niet ondersteund). Voor nog snellere snelheid kun je `--onnx-int8 True` instellen om een INT8-gekwantiseerd ONNX-model te gebruiken. Let op: het gekwantiseerde model levert een zekere mate van spraakkwaliteitsverlies op. **Gebruik ONNX niet op GPU**, omdat het langzamer is dan PyTorch op GPU.
+
+#### 3.3 Geheugenbeheer
+
+De opgegeven tekst wordt gesplitst in stukken op basis van interpunctie (voor spraakgeneratie met één spreker) of sprekerwisselsymbool (voor dialoogspraakgeneratie). Vervolgens worden de gesplitste teksten in batches verwerkt. Hierdoor kan het model willekeurig lange tekst verwerken met vrijwel constant geheugengebruik. Je kunt het geheugengebruik regelen door de parameter `--max-duration` aan te passen.
+
+#### 3.4 "Ruwe" evaluatie
+
+Standaard preprocessen we invoer (prompt-wav, prompttranscriptie en tekst) voor efficiënte inferentie en betere prestaties. Als je de "ruwe" prestaties van het model wilt evalueren met exact de opgegeven invoer (bijvoorbeeld om de resultaten uit ons artikel te reproduceren), kun je `--raw-evaluation True` meegeven.
+
+#### 3.5 Korte tekst
+
+Bij het genereren van spraak voor zeer korte teksten (bijvoorbeeld één of twee woorden) kan het soms gebeuren dat bepaalde uitspraken ontbreken in de gegenereerde spraak. Om dit probleem op te lossen, kun je `--speed 0.3` meegeven (waarbij 0.3 een instelbare waarde is) om de duur van de gegenereerde spraak te verlengen.
+
+#### 3.6 Corrigeren van verkeerd uitgesproken Chinese polyfone karakters
+
+We gebruiken [pypinyin](https://github.com/mozillazg/python-pinyin) om Chinese karakters naar pinyin om te zetten. Soms worden **polyfone karakters** (多音字) echter verkeerd uitgesproken.
+
+Om deze verkeerde uitspraken handmatig te corrigeren, plaats de **gecorrigeerde pinyin** tussen hoekhaken `< >` en voeg het **toonaccent** toe.
 
 **Voorbeeld:**
 
 - Originele tekst: `这把剑长三十公分`
 - Corrigeer de pinyin van `长`:  `这把剑<chang2>三十公分`
 
-> **Let op:** Als je handmatig meerdere pinyins wilt toewijzen, zet elke pinyin tussen `<>`, bijvoorbeeld `这把<jian4><chang2><san1>十公分`
+> **Opmerking:** Als je handmatig meerdere pinyins wilt toewijzen, plaats elke pinyin tussen `<>`, bijvoorbeeld: `这把<jian4><chang2><san1>十公分`
 
-## Train je eigen model
+#### 3.7 Verwijder lange stiltes uit het gegenereerde spraakfragment
 
-Zie de [egs](egs) directory voor voorbeelden van training, fine-tuning en evaluatie.
+Het model bepaalt automatisch de posities en lengtes van stiltes in het gegenereerde spraakfragment. Soms zijn er lange stiltes in het midden van het spraakfragment. Als je dit niet wilt, kun je `--remove-long-sil` gebruiken om lange stiltes in het midden van het gegenereerde spraakfragment te verwijderen (stiltes aan het begin en einde worden standaard verwijderd).
+
+#### 3.8 Model downloaden
+
+Als je problemen hebt met het verbinden met HuggingFace bij het downloaden van de voorgetrainde modellen, probeer dan over te schakelen naar de mirror-site: `export HF_ENDPOINT=https://hf-mirror.com`.
+
+## Train Je Eigen Model
+
+Zie de [egs](egs) map voor voorbeelden van training, fine-tuning en evaluatie.
+
+## C++ Implementatie
+
+Bekijk [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) voor de C++ implementatie-oplossing op CPU.
 
 ## Discussie & Communicatie
 
 Je kunt direct discussiëren op [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).
 
-Je kunt ook de QR-code scannen om lid te worden van onze Wechat-groep of ons Wechat-officiële account te volgen.
+Je kunt ook de QR-code scannen om lid te worden van onze Wechat-groep of ons officiële Wechat-account te volgen.
 
 | Wechat Groep | Wechat Officieel Account |
 | ------------ | ------------------------ |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Referentie
-
 
 ```bibtex
 @article{zhu2025zipvoice,
@@ -265,6 +296,6 @@ Je kunt ook de QR-code scannen om lid te worden van onze Wechat-groep of ons Wec
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

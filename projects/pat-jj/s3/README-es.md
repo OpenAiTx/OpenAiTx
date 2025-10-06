@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Idioma</summary>
@@ -55,7 +56,7 @@
 **Framework s3**
 </div>
 
-`s3` es un framework simple pero potente para entrenar agentes de búsqueda en generación aumentada por recuperación (RAG). Enseña a los modelos de lenguaje a buscar de manera más efectiva—sin modificar el generador en sí. Al centrarse únicamente en el componente de búsqueda, `s3` logra un alto rendimiento en tareas de QA con solo una fracción de los datos usados por métodos anteriores. Es modular, eficiente y está diseñado para funcionar perfectamente con cualquier LLM de caja negra.
+`s3` es un framework simple pero potente para entrenar agentes de búsqueda en generación aumentada por recuperación (RAG). Enseña a los modelos de lenguaje cómo buscar de manera más efectiva, sin modificar el generador en sí. Al centrarse únicamente en el componente de búsqueda, `s3` logra un alto rendimiento en tareas de preguntas y respuestas utilizando solo una fracción de los datos requeridos por métodos previos. Es modular, eficiente y está diseñado para funcionar perfectamente con cualquier LLM de caja negra.
 
 
 
@@ -70,7 +71,6 @@
 ## 📦 Instalación
 
 **Entorno de Buscador & Generador**
-
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -80,7 +80,7 @@ pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1
 pip3 install ray
 
 # verl
-cd code
+# cd code
 pip install -e .
 
 # flash attention 2
@@ -113,8 +113,8 @@ python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
 gzip -d $save_path/wiki-18.jsonl.gz
 ```
-***Precalcular la Inicialización Ingenua de RAG***
 
+***Precalcular la Inicialización Ingenua de RAG*** (o puedes descargar nuestros datos procesados aquí: [huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data))
 
 ```bash
 # deploy retriever
@@ -194,14 +194,24 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 ```bash
 bash scripts/evaluation/run.sh
 ```
+
+## Preguntas y Respuestas
+### ¿Datos Personalizados?
+Si desea probar s3 con su propio corpus/conjunto de datos, puede consultar este commit para ver lo que necesita hacer para construir su propio pipeline: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+
+### ¿Reproducir Resultados?
+Varios desarrolladores ya han reproducido nuestros resultados con éxito. Si tiene preguntas o encuentra problemas, no dude en [abrir una incidencia](https://github.com/pat-jj/s3/issues) — estaremos encantados de brindarle orientación práctica (vea [este ejemplo](https://github.com/pat-jj/s3/issues/20)).
+
+Aunque reproducir el modelo usted mismo es sencillo — y de hecho **recomendamos entrenar desde cero**, ya que la evaluación suele ser mucho más lenta que el entrenamiento — también proporcionamos un checkpoint de referencia: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), entrenado en aproximadamente una hora.
+
+
+
 ## Agradecimientos
 Nos gustaría agradecer a los siguientes proyectos:
 [verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
  
 
-## Citación
-
-
+## Cita
 ```bibtex
 @article{jiang2025s3,
   title={s3: You Don't Need That Much Data to Train a Search Agent via RL},
@@ -219,6 +229,6 @@ Gracias por tu interés en nuestro trabajo!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

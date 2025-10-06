@@ -1,0 +1,1499 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Build a Large Language Model (From Scratch)\n\nThis repository contains the code for developing, pretraining, and finetuning a GPT-like LLM and is the official code repository for the book [Build a Large Language Model (From Scratch)](https://amzn.to/4fqvn0D).\n\n<br>\n<br>\n\n<a href=\"https://amzn.to/4fqvn0D\"><img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/cover.jpg?123\" width=\"250px\"></a>\n\n<br>\n\nIn [*Build a Large Language Model (From Scratch)*](http://mng.bz/orYv), you'll learn and understand how large language models (LLMs) work from the inside out by coding them from the ground up, step by step. In this book, I'll guide you through creating your own LLM, explaining each stage with clear text, diagrams, and examples.\n\nThe method described in this book for training and developing your own small-but-functional model for educational purposes mirrors the approach used in creating large-scale foundational models such as those behind ChatGPT. In addition, this book includes code for loading the weights of larger pretrained models for finetuning.\n\n- Link to the official [source code repository](https://github.com/rasbt/LLMs-from-scratch)\n- [Link to the book at Manning (the publisher's website)](http://mng.bz/orYv)\n- [Link to the book page on Amazon.com](https://www.amazon.com/gp/product/1633437167)\n- ISBN 9781633437166\n\n<a href=\"http://mng.bz/orYv#reviews\"><img src=\"https://sebastianraschka.com//images/LLMs-from-scratch-images/other/reviews.png\" width=\"220px\"></a>\n\n\n<br>\n<br>\n\nTo download a copy of this repository, click on the [Download ZIP](https://github.com/rasbt/LLMs-from-scratch/archive/refs/heads/main.zip) button or execute the following command in your terminal:\n",
+    "ContentSha": "f+X1dA0PlSrvlABBjlqruBgDacW/XE6uWTBakmVROmQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 大規模言語モデルを構築する（ゼロから）\n\nこのリポジトリには、GPTに似た大規模言語モデル（LLM）を開発、事前学習、微調整するためのコードが含まれており、書籍『大規模言語モデルを構築する（ゼロから）』(https://amzn.to/4fqvn0D) の公式コードリポジトリです。\n\n<br>\n<br>\n\n<a href=\"https://amzn.to/4fqvn0D\"><img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/cover.jpg?123\" width=\"250px\"></a>\n\n<br>\n\n『*大規模言語モデルを構築する（ゼロから）*』(http://mng.bz/orYv) では、大規模言語モデル（LLM）が内部でどのように動作しているかを、基礎から段階的にコードを書きながら学び、理解します。この本では、自分自身のLLMを作成する過程を、明確なテキスト、図解、例を用いて説明します。\n\n本書で説明する教育目的の小規模ながら実用的なモデルのトレーニング・開発方法は、ChatGPTの背後にあるような大規模基盤モデルの作成手法を模したものです。さらに、本書には大規模な事前学習済みモデルの重みを読み込み、微調整するためのコードも含まれています。\n\n- 公式の [ソースコードリポジトリ](https://github.com/rasbt/LLMs-from-scratch) へのリンク\n- [出版社Manningの書籍ページ](http://mng.bz/orYv)\n- [Amazon.comの書籍ページ](https://www.amazon.com/gp/product/1633437167)\n- ISBN 9781633437166\n\n<a href=\"http://mng.bz/orYv#reviews\"><img src=\"https://sebastianraschka.com//images/LLMs-from-scratch-images/other/reviews.png\" width=\"220px\"></a>\n\n\n<br>\n<br>\n\nこのリポジトリのコピーをダウンロードするには、[Download ZIP](https://github.com/rasbt/LLMs-from-scratch/archive/refs/heads/main.zip) ボタンをクリックするか、ターミナルで以下のコマンドを実行してください：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8nya5JQTfabm8uhxobCSM5dvTF3hs0za+zBKEW2vLDI=",
+        "originContent": "# Build a Large Language Model (From Scratch)",
+        "translatedContent": "# 大規模言語モデルを構築する（ゼロから）"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "F/IeZbhvD5mbK5EDzaKBS9ItioDVkqczj4KYI4qt9LM=",
+        "originContent": "This repository contains the code for developing, pretraining, and finetuning a GPT-like LLM and is the official code repository for the book [Build a Large Language Model (From Scratch)](https://amzn.to/4fqvn0D).",
+        "translatedContent": "このリポジトリには、GPTに似た大規模言語モデル（LLM）を開発、事前学習、微調整するためのコードが含まれており、書籍『大規模言語モデルを構築する（ゼロから）』(https://amzn.to/4fqvn0D) の公式コードリポジトリです。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 6,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Wo0ehdyemm1BUBFWiF4yDDjoTuLDUzKnBAZzGxYvTUA=",
+        "originContent": "<a href=\"https://amzn.to/4fqvn0D\"><img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/cover.jpg?123\" width=\"250px\"></a>",
+        "translatedContent": "<a href=\"https://amzn.to/4fqvn0D\"><img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/cover.jpg?123\" width=\"250px\"></a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "SOXKxsJJpKLghvFsJvzn5hhNDhxC+xHyR5XN5H5AOtI=",
+        "originContent": "In [*Build a Large Language Model (From Scratch)*](http://mng.bz/orYv), you'll learn and understand how large language models (LLMs) work from the inside out by coding them from the ground up, step by step. In this book, I'll guide you through creating your own LLM, explaining each stage with clear text, diagrams, and examples.",
+        "translatedContent": "『*大規模言語モデルを構築する（ゼロから）*』(http://mng.bz/orYv) では、大規模言語モデル（LLM）が内部でどのように動作しているかを、基礎から段階的にコードを書きながら学び、理解します。この本では、自分自身のLLMを作成する過程を、明確なテキスト、図解、例を用いて説明します。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "HKk4c9LaiQ84chE/1Vyl50+23MR6oFggOp6eUFCsKns=",
+        "originContent": "The method described in this book for training and developing your own small-but-functional model for educational purposes mirrors the approach used in creating large-scale foundational models such as those behind ChatGPT. In addition, this book includes code for loading the weights of larger pretrained models for finetuning.",
+        "translatedContent": "本書で説明する教育目的の小規模ながら実用的なモデルのトレーニング・開発方法は、ChatGPTの背後にあるような大規模基盤モデルの作成手法を模したものです。さらに、本書には大規模な事前学習済みモデルの重みを読み込み、微調整するためのコードも含まれています。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "/wEwWSo48Ggd78u5LA6Zl0rOg4L1dQ5o5EmxqT72UfM=",
+        "originContent": "- Link to the official [source code repository](https://github.com/rasbt/LLMs-from-scratch)",
+        "translatedContent": "- 公式の [ソースコードリポジトリ](https://github.com/rasbt/LLMs-from-scratch) へのリンク"
+      },
+      {
+        "row": 17,
+        "rowsha": "Rs+436f4i0D2jOzthrJs0bVtfY77dm+Wf4UE4ZeqJns=",
+        "originContent": "- [Link to the book at Manning (the publisher's website)](http://mng.bz/orYv)",
+        "translatedContent": "- [出版社Manningの書籍ページ](http://mng.bz/orYv)"
+      },
+      {
+        "row": 18,
+        "rowsha": "qn39+Dg6CQ0VkBWRnxpl+kWzKkciuk3u2D09kzq6L3A=",
+        "originContent": "- [Link to the book page on Amazon.com](https://www.amazon.com/gp/product/1633437167)",
+        "translatedContent": "- [Amazon.comの書籍ページ](https://www.amazon.com/gp/product/1633437167)"
+      },
+      {
+        "row": 19,
+        "rowsha": "zgxbrIspmh8v6QyhhoO9M2ScW/SCQegWzyRszLfBi1U=",
+        "originContent": "- ISBN 9781633437166",
+        "translatedContent": "- ISBN 9781633437166"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "u6e9Ma1Y88Tm3LJtf6wuqSb+8UcmtSfGJavOrbvDVi4=",
+        "originContent": "<a href=\"http://mng.bz/orYv#reviews\"><img src=\"https://sebastianraschka.com//images/LLMs-from-scratch-images/other/reviews.png\" width=\"220px\"></a>",
+        "translatedContent": "<a href=\"http://mng.bz/orYv#reviews\"><img src=\"https://sebastianraschka.com//images/LLMs-from-scratch-images/other/reviews.png\" width=\"220px\"></a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 25,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "5kzkOvvS8xdRq1Yxe10+sINfj/2elGX3WDEerQCl98A=",
+        "originContent": "To download a copy of this repository, click on the [Download ZIP](https://github.com/rasbt/LLMs-from-scratch/archive/refs/heads/main.zip) button or execute the following command in your terminal:",
+        "translatedContent": "このリポジトリのコピーをダウンロードするには、[Download ZIP](https://github.com/rasbt/LLMs-from-scratch/archive/refs/heads/main.zip) ボタンをクリックするか、ターミナルで以下のコマンドを実行してください："
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git\n```",
+    "ContentSha": "oTYwlAvOk/GFvXuyss+FY5bV7DBcnZ7hujkcwZGPtW0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "8ia8zw3PqNuTx1lvLnHYgiXOEqYgDnx2HaRwhEMUpJM=",
+        "originContent": "git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git",
+        "translatedContent": "git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n<br>\n\n(If you downloaded the code bundle from the Manning website, please consider visiting the official code repository on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) for the latest updates.)\n\n<br>\n<br>\n\n\n# Table of Contents\n\nPlease note that this `README.md` file is a Markdown (`.md`) file. If you have downloaded this code bundle from the Manning website and are viewing it on your local computer, I recommend using a Markdown editor or previewer for proper viewing. If you haven't installed a Markdown editor yet, [Ghostwriter](https://ghostwriter.kde.org) is a good free option.\n\nYou can alternatively view this and other files on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) in your browser, which renders Markdown automatically.\n\n<br>\n<br>\n\n\n> **Tip:**\n> If you're seeking guidance on installing Python and Python packages and setting up your code environment, I suggest reading the [README.md](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/setup/README.md) file located in the [setup](setup) directory.\n\n<br>\n<br>\n\n[![Code tests Linux](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux-uv.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux-uv.yml)\n[![Code tests Windows](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows-uv-pip.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows-uv-pip.yml)\n[![Code tests macOS](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos-uv.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos-uv.yml)\n\n\n\n\n<br>\n\n| Chapter Title                                              | Main Code (for Quick Access)                                                                                                    | All Code + Supplementary      |\n|------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------|\n| [Setup recommendations](setup)                             | -                                                                                                                               | -                             |\n| Ch 1: Understanding Large Language Models                  | No code                                                                                                                         | -                             |\n| Ch 2: Working with Text Data                               | - [ch02.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/dataloader.ipynb) (summary)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/exercise-solutions.ipynb)               | [./ch02](./ch02)            |\n| Ch 3: Coding Attention Mechanisms                          | - [ch03.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/01_main-chapter-code/multihead-attention.ipynb) (summary) <br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03)             |",
+    "ContentSha": "IjY1ljcEboe+o7zWNrWPXKulleQFeysDYLABriieF+U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<br>\n\n(If you downloaded the code bundle from the Manning website, please consider visiting the official code repository on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) for the latest updates.)\n\n<br>\n<br>\n\n\n# Table of Contents\n\nPlease note that this `README.md` file is a Markdown (`.md`) file. If you have downloaded this code bundle from the Manning website and are viewing it on your local computer, I recommend using a Markdown editor or previewer for proper viewing. If you haven't installed a Markdown editor yet, [Ghostwriter](https://ghostwriter.kde.org) is a good free option.\n\nYou can alternatively view this and other files on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) in your browser, which renders Markdown automatically.\n\n<br>\n<br>\n\n\n> **Tip:**\n> If you're seeking guidance on installing Python and Python packages and setting up your code environment, I suggest reading the [README.md](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/setup/README.md) file located in the [setup](setup) directory.\n\n<br>\n<br>\n\n[![Code tests Linux](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux-uv.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux-uv.yml)\n[![Code tests Windows](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows-uv-pip.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows-uv-pip.yml)\n[![Code tests macOS](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos-uv.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos-uv.yml)\n\n\n\n\n<br>\n\n| Chapter Title                                              | Main Code (for Quick Access)                                                                                                    | All Code + Supplementary      |\n|------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------|\n| [Setup recommendations](setup)                             | -                                                                                                                               | -                             |\n| Ch 1: Understanding Large Language Models                  | No code                                                                                                                         | -                             |\n| Ch 2: Working with Text Data                               | - [ch02.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/dataloader.ipynb) (summary)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/exercise-solutions.ipynb)               | [./ch02](./ch02)            |\n| Ch 3: Coding Attention Mechanisms                          | - [ch03.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/01_main-chapter-code/multihead-attention.ipynb) (summary) <br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03)             |",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "h/eQU42u+dLkR3VGzh7TULUch49IY1VnZsFRQB9oezo=",
+        "originContent": "(If you downloaded the code bundle from the Manning website, please consider visiting the official code repository on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) for the latest updates.)",
+        "translatedContent": "(If you downloaded the code bundle from the Manning website, please consider visiting the official code repository on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) for the latest updates.)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 7,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "bxwmLYcZ0DrQrJzLTcdrnOpAYjAMDHNig0ZIqxp3YAU=",
+        "originContent": "# Table of Contents",
+        "translatedContent": "# Table of Contents"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "TESxL3k80gGKSB2/CXoxRTy45iRMTV/XEXxC5cHeuRk=",
+        "originContent": "Please note that this `README.md` file is a Markdown (`.md`) file. If you have downloaded this code bundle from the Manning website and are viewing it on your local computer, I recommend using a Markdown editor or previewer for proper viewing. If you haven't installed a Markdown editor yet, [Ghostwriter](https://ghostwriter.kde.org) is a good free option.",
+        "translatedContent": "Please note that this `README.md` file is a Markdown (`.md`) file. If you have downloaded this code bundle from the Manning website and are viewing it on your local computer, I recommend using a Markdown editor or previewer for proper viewing. If you haven't installed a Markdown editor yet, [Ghostwriter](https://ghostwriter.kde.org) is a good free option."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "DdECmXvFG3n/HknDAgsJVqvDWqTtoFN4aNwX0ogDGk8=",
+        "originContent": "You can alternatively view this and other files on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) in your browser, which renders Markdown automatically.",
+        "translatedContent": "You can alternatively view this and other files on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) in your browser, which renders Markdown automatically."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 17,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "dMi8WVQkoWyA/H6MZ3EKwgghWhiuUhntKdmrgG5EM94=",
+        "originContent": "> **Tip:**",
+        "translatedContent": "> **Tip:**"
+      },
+      {
+        "row": 21,
+        "rowsha": "Ul185VEFP+KnsRaEnIFkwacnzIk6QqCX2LW8Wpw4+V8=",
+        "originContent": "> If you're seeking guidance on installing Python and Python packages and setting up your code environment, I suggest reading the [README.md](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/setup/README.md) file located in the [setup](setup) directory.",
+        "translatedContent": "> If you're seeking guidance on installing Python and Python packages and setting up your code environment, I suggest reading the [README.md](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/setup/README.md) file located in the [setup](setup) directory."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 24,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "bxISqd35LJr6kLrTYx5BcNNaXBW+VPcQ+hXziuU6efo=",
+        "originContent": "[![Code tests Linux](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux-uv.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux-uv.yml)",
+        "translatedContent": "[![Code tests Linux](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux-uv.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-linux-uv.yml)"
+      },
+      {
+        "row": 27,
+        "rowsha": "Pm2J1DHr9+SnUqSwDemhLp6pIJ8RbqQuTK+3gpo3EZo=",
+        "originContent": "[![Code tests Windows](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows-uv-pip.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows-uv-pip.yml)",
+        "translatedContent": "[![Code tests Windows](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows-uv-pip.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-windows-uv-pip.yml)"
+      },
+      {
+        "row": 28,
+        "rowsha": "v//+54Ei2XlHSLzL0++0eMrIOCDd8qSqNGEl2QTT1Hg=",
+        "originContent": "[![Code tests macOS](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos-uv.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos-uv.yml)",
+        "translatedContent": "[![Code tests macOS](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos-uv.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests-macos-uv.yml)"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "8ui1S1s9Y80OO9gGi3X7rjrku6ZqrvLIvx7vO0i4GT4=",
+        "originContent": "| Chapter Title                                              | Main Code (for Quick Access)                                                                                                    | All Code + Supplementary      |",
+        "translatedContent": "| Chapter Title                                              | Main Code (for Quick Access)                                                                                                    | All Code + Supplementary      |"
+      },
+      {
+        "row": 36,
+        "rowsha": "YXGEIEtoKPnJtW7bQKsIF/zal0l6UPlPv5Wv6eLiKuc=",
+        "originContent": "|------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------|",
+        "translatedContent": "|------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------|"
+      },
+      {
+        "row": 37,
+        "rowsha": "bhJxM0DoqSW6z64DZgtNuOiKZF42zqrZ+xtWVHrpCXA=",
+        "originContent": "| [Setup recommendations](setup)                             | -                                                                                                                               | -                             |",
+        "translatedContent": "| [Setup recommendations](setup)                             | -                                                                                                                               | -                             |"
+      },
+      {
+        "row": 38,
+        "rowsha": "tyFN3042IEDbbkzHr1s1Bdizk3V3sCx4GUpCXIZhrH0=",
+        "originContent": "| Ch 1: Understanding Large Language Models                  | No code                                                                                                                         | -                             |",
+        "translatedContent": "| Ch 1: Understanding Large Language Models                  | No code                                                                                                                         | -                             |"
+      },
+      {
+        "row": 39,
+        "rowsha": "ZTbn1FC7NYJEo4XCItI14dYbhjPXg3vRUawvZl2MCaU=",
+        "originContent": "| Ch 2: Working with Text Data                               | - [ch02.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/dataloader.ipynb) (summary)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/exercise-solutions.ipynb)               | [./ch02](./ch02)            |",
+        "translatedContent": "| Ch 2: Working with Text Data                               | - [ch02.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/dataloader.ipynb) (summary)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/01_main-chapter-code/exercise-solutions.ipynb)               | [./ch02](./ch02)            |"
+      },
+      {
+        "row": 40,
+        "rowsha": "4+wB+bI1FRR+7kCsZPLv6AT8ewSq6RTBgZNfYACBwjg=",
+        "originContent": "| Ch 3: Coding Attention Mechanisms                          | - [ch03.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/01_main-chapter-code/multihead-attention.ipynb) (summary) <br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03)             |",
+        "translatedContent": "| Ch 3: Coding Attention Mechanisms                          | - [ch03.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/01_main-chapter-code/multihead-attention.ipynb) (summary) <br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03)             |"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "| Ch 4: Implementing a GPT Model from Scratch                | - [ch04.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/01_main-chapter-code/gpt.py) (summary)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04)           |\n| Ch 5: Pretraining on Unlabeled Data                        | - [ch05.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/ch05.ipynb)<br/>- [gpt_train.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/gpt_train.py) (summary) <br/>- [gpt_generate.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/gpt_generate.py) (summary) <br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/exercise-solutions.ipynb) | [./ch05](./ch05)              |\n| Ch 6: Finetuning for Text Classification                   | - [ch06.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch06/01_main-chapter-code/ch06.ipynb)  <br/>- [gpt_class_finetune.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch06/01_main-chapter-code/gpt_class_finetune.py)  <br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch06/01_main-chapter-code/exercise-solutions.ipynb) | [./ch06](./ch06)              |\n| Ch 7: Finetuning to Follow Instructions                    | - [ch07.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/ch07.ipynb)<br/>- [gpt_instruction_finetuning.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/gpt_instruction_finetuning.py) (summary)<br/>- [ollama_evaluate.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/ollama_evaluate.py) (summary)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/exercise-solutions.ipynb) | [./ch07](./ch07)  |\n| Appendix A: Introduction to PyTorch                        | - [code-part1.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A) |\n| Appendix B: References and Further Reading                 | No code                                                                                                                         | -                             |\n| Appendix C: Exercise Solutions                             | No code                                                                                                                         | -                             |\n| Appendix D: Adding Bells and Whistles to the Training Loop | - [appendix-D.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D)  |\n| Appendix E: Parameter-efficient Finetuning with LoRA       | - [appendix-E.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-E/01_main-chapter-code/appendix-E.ipynb)                                                          | [./appendix-E](./appendix-E) |\n\n<br>\n&nbsp;\n\nThe mental model below summarizes the contents covered in this book.\n\n<img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/mental-model.jpg\" width=\"650px\">\n\n\n<br>\n&nbsp;\n\n## Prerequisites\n\nThe most important prerequisite is a strong foundation in Python programming.\nWith this knowledge, you will be well prepared to explore the fascinating world of LLMs\nand understand the concepts and code examples presented in this book.\n\nIf you have some experience with deep neural networks, you may find certain concepts more familiar, as LLMs are built upon these architectures.\n\nThis book uses PyTorch to implement the code from scratch without using any external LLM libraries. While proficiency in PyTorch is not a prerequisite, familiarity with PyTorch basics is certainly useful. If you are new to PyTorch, Appendix A provides a concise introduction to PyTorch. Alternatively, you may find my book, [PyTorch in One Hour: From Tensors to Training Neural Networks on Multiple GPUs](https://sebastianraschka.com/teaching/pytorch-1h/), helpful for learning about the essentials.\n\n\n\n<br>\n&nbsp;\n\n## Hardware Requirements\n\nThe code in the main chapters of this book is designed to run on conventional laptops within a reasonable timeframe and does not require specialized hardware. This approach ensures that a wide audience can engage with the material. Additionally, the code automatically utilizes GPUs if they are available. (Please see the [setup](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.md) doc for additional recommendations.)\n",
+    "ContentSha": "iIjQqe2KV+DzDYyvJwwNicDTGYNXcgh5JSNz1XA5oWY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| Ch 4: Implementing a GPT Model from Scratch                | - [ch04.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/01_main-chapter-code/gpt.py) (概要)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04)           |\n| Ch 5: Pretraining on Unlabeled Data                        | - [ch05.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/ch05.ipynb)<br/>- [gpt_train.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/gpt_train.py) (概要) <br/>- [gpt_generate.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/gpt_generate.py) (概要) <br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/exercise-solutions.ipynb) | [./ch05](./ch05)              |\n| Ch 6: Finetuning for Text Classification                   | - [ch06.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch06/01_main-chapter-code/ch06.ipynb)  <br/>- [gpt_class_finetune.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch06/01_main-chapter-code/gpt_class_finetune.py)  <br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch06/01_main-chapter-code/exercise-solutions.ipynb) | [./ch06](./ch06)              |\n| Ch 7: Finetuning to Follow Instructions                    | - [ch07.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/ch07.ipynb)<br/>- [gpt_instruction_finetuning.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/gpt_instruction_finetuning.py) (概要)<br/>- [ollama_evaluate.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/ollama_evaluate.py) (概要)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/exercise-solutions.ipynb) | [./ch07](./ch07)  |\n| Appendix A: Introduction to PyTorch                        | - [code-part1.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A) |\n| Appendix B: References and Further Reading                 | コードなし                                                                                                                      | -                             |\n| Appendix C: Exercise Solutions                             | コードなし                                                                                                                      | -                             |\n| Appendix D: Adding Bells and Whistles to the Training Loop | - [appendix-D.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D)  |\n| Appendix E: Parameter-efficient Finetuning with LoRA       | - [appendix-E.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-E/01_main-chapter-code/appendix-E.ipynb)                                                          | [./appendix-E](./appendix-E) |\n\n<br>\n&nbsp;\n\n以下のメンタルモデルは、本書で扱った内容を要約しています。\n\n<img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/mental-model.jpg\" width=\"650px\">\n\n\n<br>\n&nbsp;\n\n## 前提条件\n\n最も重要な前提条件は、Pythonプログラミングの強固な基礎です。\nこの知識があれば、LLMの魅力的な世界を探求し、\n本書で提示される概念やコード例を理解するための準備が整います。\n\n深層ニューラルネットワークの経験がある場合、LLMはこれらのアーキテクチャに基づいて構築されているため、\n特定の概念がより馴染みやすいかもしれません。\n\n本書はPyTorchを使用して外部のLLMライブラリを使わずにコードをゼロから実装しています。\nPyTorchの熟練は必須ではありませんが、PyTorchの基本に慣れていると確実に役立ちます。\nPyTorchが初めての場合は、付録Aで簡潔なPyTorch入門を提供しています。\nあるいは、私の書籍[PyTorch in One Hour: From Tensors to Training Neural Networks on Multiple GPUs](https://sebastianraschka.com/teaching/pytorch-1h/)も、必須事項の学習に役立つでしょう。\n\n\n\n<br>\n&nbsp;\n\n## ハードウェア要件\n\n本書の主要章のコードは、一般的なノートパソコン上で合理的な時間内に実行できるよう設計されており、特殊なハードウェアは必要ありません。\nこのアプローチにより、広範な読者が教材に取り組むことが可能です。\nさらに、コードはGPUが利用可能な場合には自動的にそれを使用します。（追加の推奨事項については、[setup](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.md)ドキュメントをご参照ください。）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1KX2I2pFdIt9JZaHrzqHe8JQa+LIPK0I0USOOVx7/yk=",
+        "originContent": "| Ch 4: Implementing a GPT Model from Scratch                | - [ch04.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/01_main-chapter-code/gpt.py) (summary)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04)           |",
+        "translatedContent": "| Ch 4: Implementing a GPT Model from Scratch                | - [ch04.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/01_main-chapter-code/gpt.py) (概要)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04)           |"
+      },
+      {
+        "row": 2,
+        "rowsha": "/gEqF0RpOCdLzBICUpIZ4EGfd7EX668mjal75zXXx38=",
+        "originContent": "| Ch 5: Pretraining on Unlabeled Data                        | - [ch05.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/ch05.ipynb)<br/>- [gpt_train.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/gpt_train.py) (summary) <br/>- [gpt_generate.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/gpt_generate.py) (summary) <br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/exercise-solutions.ipynb) | [./ch05](./ch05)              |",
+        "translatedContent": "| Ch 5: Pretraining on Unlabeled Data                        | - [ch05.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/ch05.ipynb)<br/>- [gpt_train.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/gpt_train.py) (概要) <br/>- [gpt_generate.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/gpt_generate.py) (概要) <br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/01_main-chapter-code/exercise-solutions.ipynb) | [./ch05](./ch05)              |"
+      },
+      {
+        "row": 3,
+        "rowsha": "wrwFLuKn2as9nGKwUXlPYrgxeFY82PExN5+ydjfpN+c=",
+        "originContent": "| Ch 6: Finetuning for Text Classification                   | - [ch06.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch06/01_main-chapter-code/ch06.ipynb)  <br/>- [gpt_class_finetune.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch06/01_main-chapter-code/gpt_class_finetune.py)  <br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch06/01_main-chapter-code/exercise-solutions.ipynb) | [./ch06](./ch06)              |",
+        "translatedContent": "| Ch 6: Finetuning for Text Classification                   | - [ch06.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch06/01_main-chapter-code/ch06.ipynb)  <br/>- [gpt_class_finetune.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch06/01_main-chapter-code/gpt_class_finetune.py)  <br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch06/01_main-chapter-code/exercise-solutions.ipynb) | [./ch06](./ch06)              |"
+      },
+      {
+        "row": 4,
+        "rowsha": "vA2LicxDgkS95+jS3VlS6bNNk5zvFIzelrQgcXH5I9M=",
+        "originContent": "| Ch 7: Finetuning to Follow Instructions                    | - [ch07.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/ch07.ipynb)<br/>- [gpt_instruction_finetuning.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/gpt_instruction_finetuning.py) (summary)<br/>- [ollama_evaluate.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/ollama_evaluate.py) (summary)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/exercise-solutions.ipynb) | [./ch07](./ch07)  |",
+        "translatedContent": "| Ch 7: Finetuning to Follow Instructions                    | - [ch07.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/ch07.ipynb)<br/>- [gpt_instruction_finetuning.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/gpt_instruction_finetuning.py) (概要)<br/>- [ollama_evaluate.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/ollama_evaluate.py) (概要)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/01_main-chapter-code/exercise-solutions.ipynb) | [./ch07](./ch07)  |"
+      },
+      {
+        "row": 5,
+        "rowsha": "Wq9heRqhMZo5Q/u00PBuIyESzX+baysoiqQcR89mnYw=",
+        "originContent": "| Appendix A: Introduction to PyTorch                        | - [code-part1.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A) |",
+        "translatedContent": "| Appendix A: Introduction to PyTorch                        | - [code-part1.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-A/01_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A) |"
+      },
+      {
+        "row": 6,
+        "rowsha": "g/H01HKnMmZbuwIqiwbnGdRB4vzu0GDOWSLi5QiCfI0=",
+        "originContent": "| Appendix B: References and Further Reading                 | No code                                                                                                                         | -                             |",
+        "translatedContent": "| Appendix B: References and Further Reading                 | コードなし                                                                                                                      | -                             |"
+      },
+      {
+        "row": 7,
+        "rowsha": "tWeekoifatxOkT5QAL+0ZpYIZ34oXjTyMvBcEdrpUX4=",
+        "originContent": "| Appendix C: Exercise Solutions                             | No code                                                                                                                         | -                             |",
+        "translatedContent": "| Appendix C: Exercise Solutions                             | コードなし                                                                                                                      | -                             |"
+      },
+      {
+        "row": 8,
+        "rowsha": "WWEyw7OFr5JbuGV9aBVELSZNw6+1YtVQmZ18d+cR3L8=",
+        "originContent": "| Appendix D: Adding Bells and Whistles to the Training Loop | - [appendix-D.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D)  |",
+        "translatedContent": "| Appendix D: Adding Bells and Whistles to the Training Loop | - [appendix-D.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D)  |"
+      },
+      {
+        "row": 9,
+        "rowsha": "zyFgnJ2sDTA54CUMSOIONJ4Ytwm2r7mFR2ZT1oDOjdE=",
+        "originContent": "| Appendix E: Parameter-efficient Finetuning with LoRA       | - [appendix-E.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-E/01_main-chapter-code/appendix-E.ipynb)                                                          | [./appendix-E](./appendix-E) |",
+        "translatedContent": "| Appendix E: Parameter-efficient Finetuning with LoRA       | - [appendix-E.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/appendix-E/01_main-chapter-code/appendix-E.ipynb)                                                          | [./appendix-E](./appendix-E) |"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 12,
+        "rowsha": "YQw1zhmrdfNYQy1u5ZWEMHrkhsQEDTNtHYDFznAW4q8=",
+        "originContent": "&nbsp;",
+        "translatedContent": "&nbsp;"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "qpNVpu5siv0l2gurEJuvFCpB3wd21yiIDXEBCZ2KPhA=",
+        "originContent": "The mental model below summarizes the contents covered in this book.",
+        "translatedContent": "以下のメンタルモデルは、本書で扱った内容を要約しています。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "DkcD515baxShw0wg47pthj/Ndx1Tn2YeOOfEEE/cgQs=",
+        "originContent": "<img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/mental-model.jpg\" width=\"650px\">",
+        "translatedContent": "<img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/mental-model.jpg\" width=\"650px\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 20,
+        "rowsha": "YQw1zhmrdfNYQy1u5ZWEMHrkhsQEDTNtHYDFznAW4q8=",
+        "originContent": "&nbsp;",
+        "translatedContent": "&nbsp;"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": "## 前提条件"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "I2GGySSg/3zJkOJWq94Bct68ZnOPoTT7d7TsyAJgUhw=",
+        "originContent": "The most important prerequisite is a strong foundation in Python programming.",
+        "translatedContent": "最も重要な前提条件は、Pythonプログラミングの強固な基礎です。"
+      },
+      {
+        "row": 25,
+        "rowsha": "a875fev/5Cz06f25JOWAlI2anm2UgBfdvwrGoHrpmM4=",
+        "originContent": "With this knowledge, you will be well prepared to explore the fascinating world of LLMs",
+        "translatedContent": "この知識があれば、LLMの魅力的な世界を探求し、"
+      },
+      {
+        "row": 26,
+        "rowsha": "+8XM3czQ1BZCBamna6/hTJN8obn+YYdTBnXeUfybz+0=",
+        "originContent": "and understand the concepts and code examples presented in this book.",
+        "translatedContent": "本書で提示される概念やコード例を理解するための準備が整います。"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "GfktmZId6Cfp9dxoYDs/p46tSAopZ0lNidCRQFQPJZw=",
+        "originContent": "If you have some experience with deep neural networks, you may find certain concepts more familiar, as LLMs are built upon these architectures.",
+        "translatedContent": "深層ニューラルネットワークの経験がある場合、LLMはこれらのアーキテクチャに基づいて構築されているため、"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "特定の概念がより馴染みやすいかもしれません。"
+      },
+      {
+        "row": 30,
+        "rowsha": "5agRyFxeUkoDbnTsk8i0p/AjTyKEfZ8+VzHhNTLsaw0=",
+        "originContent": "This book uses PyTorch to implement the code from scratch without using any external LLM libraries. While proficiency in PyTorch is not a prerequisite, familiarity with PyTorch basics is certainly useful. If you are new to PyTorch, Appendix A provides a concise introduction to PyTorch. Alternatively, you may find my book, [PyTorch in One Hour: From Tensors to Training Neural Networks on Multiple GPUs](https://sebastianraschka.com/teaching/pytorch-1h/), helpful for learning about the essentials.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本書はPyTorchを使用して外部のLLMライブラリを使わずにコードをゼロから実装しています。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "PyTorchの熟練は必須ではありませんが、PyTorchの基本に慣れていると確実に役立ちます。"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "PyTorchが初めての場合は、付録Aで簡潔なPyTorch入門を提供しています。"
+      },
+      {
+        "row": 34,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "あるいは、私の書籍[PyTorch in One Hour: From Tensors to Training Neural Networks on Multiple GPUs](https://sebastianraschka.com/teaching/pytorch-1h/)も、必須事項の学習に役立つでしょう。"
+      },
+      {
+        "row": 35,
+        "rowsha": "YQw1zhmrdfNYQy1u5ZWEMHrkhsQEDTNtHYDFznAW4q8=",
+        "originContent": "&nbsp;",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "4KlSAHwlQ9Ykx27EQF08OAjgNDd/Z9suB4XDdQ1FL9g=",
+        "originContent": "## Hardware Requirements",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 39,
+        "rowsha": "Udvuhh1QmraInBdR4jWpCdwaDCge7RSTC3jDierwQPE=",
+        "originContent": "The code in the main chapters of this book is designed to run on conventional laptops within a reasonable timeframe and does not require specialized hardware. This approach ensures that a wide audience can engage with the material. Additionally, the code automatically utilizes GPUs if they are available. (Please see the [setup](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.md) doc for additional recommendations.)",
+        "translatedContent": "&nbsp;"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "\n&nbsp;\n## Video Course\n\n[A 17-hour and 15-minute companion video course](https://www.manning.com/livevideo/master-and-build-large-language-models) where I code through each chapter of the book. The course is organized into chapters and sections that mirror the book's structure so that it can be used as a standalone alternative to the book or complementary code-along resource.\n\n<a href=\"https://www.manning.com/livevideo/master-and-build-large-language-models\"><img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/video-screenshot.webp?123\" width=\"350px\"></a>\n\n\n&nbsp;\n\n\n## Companion Book / Sequel\n\n[*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B), while a standalone book, can be considered as a sequel to *Build A Large Language Model (From Scratch)*.\n\nIt starts with a pretrained model and implements different reasoning approaches, including inference-time scaling, reinforcement learning, and distillation, to improve the model's reasoning capabilities. \n\nSimilar to *Build A Large Language Model (From Scratch)*, [*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B) takes a hands-on approach implementing these methods from scratch.\n\n<a href=\"https://mng.bz/lZ5B\"><img src=\"https://sebastianraschka.com/images/reasoning-from-scratch-images/cover.webp?123\" width=\"120px\"></a>\n\n- Amazon link (TBD)\n- [Manning link](https://mng.bz/lZ5B)\n- [GitHub repository](https://github.com/rasbt/reasoning-from-scratch)\n\n<br>\n\n&nbsp;\n## Exercises\n\nEach chapter of the book includes several exercises. The solutions are summarized in Appendix C, and the corresponding code notebooks are available in the main chapter folders of this repository (for example,  [./ch02/01_main-chapter-code/exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/./ch02/01_main-chapter-code/exercise-solutions.ipynb).\n\nIn addition to the code exercises, you can download a free 170-page PDF titled  [Test Yourself On Build a Large Language Model (From Scratch)](https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch) from the Manning website. It contains approximately 30 quiz questions and solutions per chapter to help you test your understanding.\n\n<a href=\"https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch\"><img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/test-yourself-cover.jpg?123\" width=\"150px\"></a>\n\n\n\n&nbsp;",
+    "ContentSha": "IT5Bfm3NYQXQozRcIZLY9vdxvBQ9GucEIzaLTh0cenY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "&nbsp;\n## ビデオコース\n\n[17時間15分のコンパニオンビデオコース](https://www.manning.com/livevideo/master-and-build-large-language-models)では、本の各章を通してコードを書いていきます。コースは本の構成と対応した章とセクションに整理されており、本の代替としても、また補完的なコード実践リソースとしても利用できます。\n\n<a href=\"https://www.manning.com/livevideo/master-and-build-large-language-models\"><img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/video-screenshot.webp?123\" width=\"350px\"></a>\n\n\n&nbsp;\n\n\n## コンパニオンブック / 続編\n\n[*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B)は単独の書籍ですが、*Build A Large Language Model (From Scratch)*の続編と考えられます。\n\n事前学習済みモデルから始め、推論時のスケーリング、強化学習、蒸留などの異なる推論アプローチを実装し、モデルの推論能力を向上させます。\n\n*Build A Large Language Model (From Scratch)*と同様に、[*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B)もこれらの手法をスクラッチから実装する実践的アプローチを取っています。\n\n<a href=\"https://mng.bz/lZ5B\"><img src=\"https://sebastianraschka.com/images/reasoning-from-scratch-images/cover.webp?123\" width=\"120px\"></a>\n\n- Amazonリンク（未定）\n- [Manningリンク](https://mng.bz/lZ5B)\n- [GitHubリポジトリ](https://github.com/rasbt/reasoning-from-scratch)\n\n<br>\n\n&nbsp;\n## 演習問題\n\n本の各章には複数の演習問題が含まれています。解答は付録Cにまとめられており、対応するコードノートブックはこのリポジトリの各章フォルダにあります（例: [./ch02/01_main-chapter-code/exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/./ch02/01_main-chapter-code/exercise-solutions.ipynb)）。\n\nコード演習に加えて、Manningのウェブサイトから無料でダウンロード可能な170ページのPDF、[Test Yourself On Build a Large Language Model (From Scratch)](https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch)もあります。各章につき約30問のクイズ問題と解答が含まれており、理解度を試すのに役立ちます。\n\n<a href=\"https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch\"><img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/test-yourself-cover.jpg?123\" width=\"150px\"></a>\n\n\n\n&nbsp;\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "&nbsp;"
+      },
+      {
+        "row": 2,
+        "rowsha": "YQw1zhmrdfNYQy1u5ZWEMHrkhsQEDTNtHYDFznAW4q8=",
+        "originContent": "&nbsp;",
+        "translatedContent": "## ビデオコース"
+      },
+      {
+        "row": 3,
+        "rowsha": "B2Cj8gjmkJ2uns6WBEBtH2x6lSqWzMYa3Lol1vVlMPY=",
+        "originContent": "## Video Course",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[17時間15分のコンパニオンビデオコース](https://www.manning.com/livevideo/master-and-build-large-language-models)では、本の各章を通してコードを書いていきます。コースは本の構成と対応した章とセクションに整理されており、本の代替としても、また補完的なコード実践リソースとしても利用できます。"
+      },
+      {
+        "row": 5,
+        "rowsha": "wp7WUrxTAdj/sgBjDv369mIrRKUjXOPBAovzADoDHfU=",
+        "originContent": "[A 17-hour and 15-minute companion video course](https://www.manning.com/livevideo/master-and-build-large-language-models) where I code through each chapter of the book. The course is organized into chapters and sections that mirror the book's structure so that it can be used as a standalone alternative to the book or complementary code-along resource.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<a href=\"https://www.manning.com/livevideo/master-and-build-large-language-models\"><img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/video-screenshot.webp?123\" width=\"350px\"></a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "sGTJktFqZIEstwueSsnZCGmTAkZ26DJxyHD6DZj8RBQ=",
+        "originContent": "<a href=\"https://www.manning.com/livevideo/master-and-build-large-language-models\"><img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/video-screenshot.webp?123\" width=\"350px\"></a>",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "&nbsp;"
+      },
+      {
+        "row": 10,
+        "rowsha": "YQw1zhmrdfNYQy1u5ZWEMHrkhsQEDTNtHYDFznAW4q8=",
+        "originContent": "&nbsp;",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## コンパニオンブック / 続編"
+      },
+      {
+        "row": 13,
+        "rowsha": "iJCJ0dHI3XbglMKE7whK8f2Ll+V+epfjB9wleGSY9ak=",
+        "originContent": "## Companion Book / Sequel",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B)は単独の書籍ですが、*Build A Large Language Model (From Scratch)*の続編と考えられます。"
+      },
+      {
+        "row": 15,
+        "rowsha": "uhceeE1Cn6D5Exg/IYe72JLi1x+eMWLx859pFYfJWSw=",
+        "originContent": "[*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B), while a standalone book, can be considered as a sequel to *Build A Large Language Model (From Scratch)*.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "事前学習済みモデルから始め、推論時のスケーリング、強化学習、蒸留などの異なる推論アプローチを実装し、モデルの推論能力を向上させます。"
+      },
+      {
+        "row": 17,
+        "rowsha": "NZe6yFBH58R6AB1xbqBR5PDikVR64OnSwx2fdBUra44=",
+        "originContent": "It starts with a pretrained model and implements different reasoning approaches, including inference-time scaling, reinforcement learning, and distillation, to improve the model's reasoning capabilities. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*Build A Large Language Model (From Scratch)*と同様に、[*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B)もこれらの手法をスクラッチから実装する実践的アプローチを取っています。"
+      },
+      {
+        "row": 19,
+        "rowsha": "uAvluKW37FAjv+KyAu6jOeRAteptEVny4VxWPaqvNM8=",
+        "originContent": "Similar to *Build A Large Language Model (From Scratch)*, [*Build A Reasoning Model (From Scratch)*](https://mng.bz/lZ5B) takes a hands-on approach implementing these methods from scratch.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<a href=\"https://mng.bz/lZ5B\"><img src=\"https://sebastianraschka.com/images/reasoning-from-scratch-images/cover.webp?123\" width=\"120px\"></a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "EvuoNRY7zzhTqXHGMHG//Gl8zlXywF2FvNnojMRWV7c=",
+        "originContent": "<a href=\"https://mng.bz/lZ5B\"><img src=\"https://sebastianraschka.com/images/reasoning-from-scratch-images/cover.webp?123\" width=\"120px\"></a>",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Amazonリンク（未定）"
+      },
+      {
+        "row": 23,
+        "rowsha": "+f/lytWxxZ3DeNAVVlz62c/IjyQ6TZ3SIZsitriZs7E=",
+        "originContent": "- Amazon link (TBD)",
+        "translatedContent": "- [Manningリンク](https://mng.bz/lZ5B)"
+      },
+      {
+        "row": 24,
+        "rowsha": "x3QQjS7PymrffSifu8uq1tXDX/7zBe8j6N+vLSzFIWw=",
+        "originContent": "- [Manning link](https://mng.bz/lZ5B)",
+        "translatedContent": "- [GitHubリポジトリ](https://github.com/rasbt/reasoning-from-scratch)"
+      },
+      {
+        "row": 25,
+        "rowsha": "znZOT1Gg/0+bVKgAjFYmE5synddcKrGuvyZ8ASJJSl0=",
+        "originContent": "- [GitHub repository](https://github.com/rasbt/reasoning-from-scratch)",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 27,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "&nbsp;"
+      },
+      {
+        "row": 29,
+        "rowsha": "YQw1zhmrdfNYQy1u5ZWEMHrkhsQEDTNtHYDFznAW4q8=",
+        "originContent": "&nbsp;",
+        "translatedContent": "## 演習問題"
+      },
+      {
+        "row": 30,
+        "rowsha": "IpQkOk3GNH2fBTJSuk5xKgUMKPAxLys1TLr3Xdnp6v0=",
+        "originContent": "## Exercises",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本の各章には複数の演習問題が含まれています。解答は付録Cにまとめられており、対応するコードノートブックはこのリポジトリの各章フォルダにあります（例: [./ch02/01_main-chapter-code/exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/./ch02/01_main-chapter-code/exercise-solutions.ipynb)）。"
+      },
+      {
+        "row": 32,
+        "rowsha": "YeNGqbj1rZjt1hKs80Jj6fczE81iYMtEhZ5x82SSSlw=",
+        "originContent": "Each chapter of the book includes several exercises. The solutions are summarized in Appendix C, and the corresponding code notebooks are available in the main chapter folders of this repository (for example,  [./ch02/01_main-chapter-code/exercise-solutions.ipynb](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/./ch02/01_main-chapter-code/exercise-solutions.ipynb).",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "コード演習に加えて、Manningのウェブサイトから無料でダウンロード可能な170ページのPDF、[Test Yourself On Build a Large Language Model (From Scratch)](https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch)もあります。各章につき約30問のクイズ問題と解答が含まれており、理解度を試すのに役立ちます。"
+      },
+      {
+        "row": 34,
+        "rowsha": "2JskjUbBFsgZgjMtrdnGL3IB8meViP/QB0Ejdy+ifi0=",
+        "originContent": "In addition to the code exercises, you can download a free 170-page PDF titled  [Test Yourself On Build a Large Language Model (From Scratch)](https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch) from the Manning website. It contains approximately 30 quiz questions and solutions per chapter to help you test your understanding.",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<a href=\"https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch\"><img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/test-yourself-cover.jpg?123\" width=\"150px\"></a>"
+      },
+      {
+        "row": 36,
+        "rowsha": "JjeVjJAj2Tnnp94W9DXvMJgl9k1j3fcp95Mup3wbhww=",
+        "originContent": "<a href=\"https://www.manning.com/books/test-yourself-on-build-a-large-language-model-from-scratch\"><img src=\"https://sebastianraschka.com/images/LLMs-from-scratch-images/test-yourself-cover.jpg?123\" width=\"150px\"></a>",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "&nbsp;"
+      },
+      {
+        "row": 40,
+        "rowsha": "YQw1zhmrdfNYQy1u5ZWEMHrkhsQEDTNtHYDFznAW4q8=",
+        "originContent": "&nbsp;",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "## Bonus Material\n\nSeveral folders contain optional materials as a bonus for interested readers:\n\n- **Setup**\n  - [Python Setup Tips](setup/01_optional-python-setup-preferences)\n  - [Installing Python Packages and Libraries Used In This Book](setup/02_installing-python-libraries)\n  - [Docker Environment Setup Guide](setup/03_optional-docker-environment)\n- **Chapter 2: Working with text data**\n  - [Byte Pair Encoding (BPE) Tokenizer From Scratch](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/05_bpe-from-scratch/bpe-from-scratch.ipynb)\n  - [Comparing Various Byte Pair Encoding (BPE) Implementations](ch02/02_bonus_bytepair-encoder)\n  - [Understanding the Difference Between Embedding Layers and Linear Layers](ch02/03_bonus_embedding-vs-matmul)\n  - [Dataloader Intuition with Simple Numbers](ch02/04_bonus_dataloader-intuition)\n- **Chapter 3: Coding attention mechanisms**\n  - [Comparing Efficient Multi-Head Attention Implementations](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb)\n  - [Understanding PyTorch Buffers](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/03_understanding-buffers/understanding-buffers.ipynb)\n- **Chapter 4: Implementing a GPT model from scratch**\n  - [FLOPS Analysis](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/02_performance-analysis/flops-analysis.ipynb)\n  - [KV Cache](ch04/03_kv-cache)\n- **Chapter 5: Pretraining on unlabeled data:**\n  - [Alternative Weight Loading Methods](ch05/02_alternative_weight_loading/)\n  - [Pretraining GPT on the Project Gutenberg Dataset](ch05/03_bonus_pretraining_on_gutenberg)\n  - [Adding Bells and Whistles to the Training Loop](ch05/04_learning_rate_schedulers)\n  - [Optimizing Hyperparameters for Pretraining](ch05/05_bonus_hparam_tuning)\n  - [Building a User Interface to Interact With the Pretrained LLM](ch05/06_user_interface)\n  - [Converting GPT to Llama](ch05/07_gpt_to_llama)\n  - [Llama 3.2 From Scratch](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/07_gpt_to_llama/standalone-llama32.ipynb)\n  - [Qwen3 Dense and Mixture-of-Experts (MoE) From Scratch](ch05/11_qwen3/)\n  - [Gemma 3 From Scratch](ch05/12_gemma3/)\n  - [Memory-efficient Model Weight Loading](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/08_memory_efficient_weight_loading/memory-efficient-state-dict.ipynb)\n  - [Extending the Tiktoken BPE Tokenizer with New Tokens](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/09_extending-tokenizers/extend-tiktoken.ipynb)\n  - [PyTorch Performance Tips for Faster LLM Training](ch05/10_llm-training-speed)\n- **Chapter 6: Finetuning for classification**\n  - [Additional experiments finetuning different layers and using larger models](ch06/02_bonus_additional-experiments)\n  - [Finetuning different models on 50k IMDb movie review dataset](ch06/03_bonus_imdb-classification)\n  - [Building a User Interface to Interact With the GPT-based Spam Classifier](ch06/04_user_interface)\n- **Chapter 7: Finetuning to follow instructions**\n  - [Dataset Utilities for Finding Near Duplicates and Creating Passive Voice Entries](ch07/02_dataset-utilities)\n  - [Evaluating Instruction Responses Using the OpenAI API and Ollama](ch07/03_model-evaluation)\n  - [Generating a Dataset for Instruction Finetuning](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/05_dataset-generation/llama3-ollama.ipynb)",
+    "ContentSha": "fYJ/0TuCdinEg8i7CUatCIs3eR/UzHH3NA5VpeyBUyI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## ボーナスマテリアル\n\nいくつかのフォルダには、興味のある読者向けのオプション資料としてボーナスが含まれています：\n\n- **セットアップ**\n  - [Python セットアップのヒント](setup/01_optional-python-setup-preferences)\n  - [本書で使用する Python パッケージとライブラリのインストール](setup/02_installing-python-libraries)\n  - [Docker 環境セットアップガイド](setup/03_optional-docker-environment)\n- **第2章：テキストデータの取り扱い**\n  - [一から作るバイトペアエンコーディング（BPE）トークナイザー](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/05_bpe-from-scratch/bpe-from-scratch.ipynb)\n  - [さまざまなバイトペアエンコーディング（BPE）実装の比較](ch02/02_bonus_bytepair-encoder)\n  - [埋め込み層と線形層の違いの理解](ch02/03_bonus_embedding-vs-matmul)\n  - [シンプルな数値でのデータローダー直感](ch02/04_bonus_dataloader-intuition)\n- **第3章：アテンションメカニズムのコーディング**\n  - [効率的なマルチヘッドアテンション実装の比較](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb)\n  - [PyTorch バッファの理解](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/03_understanding-buffers/understanding-buffers.ipynb)\n- **第4章：GPTモデルのスクラッチ実装**\n  - [FLOPS 分析](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/02_performance-analysis/flops-analysis.ipynb)\n  - [KV キャッシュ](ch04/03_kv-cache)\n- **第5章：ラベルなしデータでの事前学習：**\n  - [代替の重み読み込み方法](ch05/02_alternative_weight_loading/)\n  - [プロジェクト・グーテンベルクデータセットでの GPT 事前学習](ch05/03_bonus_pretraining_on_gutenberg)\n  - [トレーニングループに装飾を追加する](ch05/04_learning_rate_schedulers)\n  - [事前学習用ハイパーパラメータの最適化](ch05/05_bonus_hparam_tuning)\n  - [事前学習済み LLM と対話するためのユーザーインターフェース構築](ch05/06_user_interface)\n  - [GPT から Llama への変換](ch05/07_gpt_to_llama)\n  - [Llama 3.2 をスクラッチで](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/07_gpt_to_llama/standalone-llama32.ipynb)\n  - [Qwen3 Dense と Mixture-of-Experts (MoE) をスクラッチで](ch05/11_qwen3/)\n  - [Gemma 3 をスクラッチで](ch05/12_gemma3/)\n  - [メモリ効率の良いモデル重みの読み込み](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/08_memory_efficient_weight_loading/memory-efficient-state-dict.ipynb)\n  - [Tiktoken BPE トークナイザーに新しいトークンを追加](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/09_extending-tokenizers/extend-tiktoken.ipynb)\n  - [より速い LLM トレーニングのための PyTorch パフォーマンスヒント](ch05/10_llm-training-speed)\n- **第6章：分類のためのファインチューニング**\n  - [異なる層のファインチューニングや大きなモデルの追加実験](ch06/02_bonus_additional-experiments)\n  - [50k IMDb 映画レビュー・データセットでの異なるモデルのファインチューニング](ch06/03_bonus_imdb-classification)\n  - [GPT ベースのスパム分類器と対話するためのユーザーインターフェース構築](ch06/04_user_interface)\n- **第7章：指示に従うためのファインチューニング**\n  - [近似重複の検出や受動態エントリー作成のためのデータセットユーティリティ](ch07/02_dataset-utilities)\n  - [OpenAI API と Ollama を使った指示応答の評価](ch07/03_model-evaluation)\n  - [指示ファインチューニング用データセットの生成](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/05_dataset-generation/llama3-ollama.ipynb)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Fs2Lcj5ZdBPm1CVRtWOOru7J4/2xgL6IjXm6Js0biqU=",
+        "originContent": "## Bonus Material",
+        "translatedContent": "## ボーナスマテリアル"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "zM+DZZnkrW3HF89bvwQpMTM5vDo56nCtIaOOCILVJJg=",
+        "originContent": "Several folders contain optional materials as a bonus for interested readers:",
+        "translatedContent": "いくつかのフォルダには、興味のある読者向けのオプション資料としてボーナスが含まれています："
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Y40ohx3gqEM83/m92BkzztsNlpjXtAsAA4xsAoThm4Q=",
+        "originContent": "- **Setup**",
+        "translatedContent": "- **セットアップ**"
+      },
+      {
+        "row": 6,
+        "rowsha": "6HSSfWw2VaAz4puJner4ES6NokI5iv9S3ZnlmzfFSHw=",
+        "originContent": "  - [Python Setup Tips](setup/01_optional-python-setup-preferences)",
+        "translatedContent": "  - [Python セットアップのヒント](setup/01_optional-python-setup-preferences)"
+      },
+      {
+        "row": 7,
+        "rowsha": "n3HbWmSUdoM6xXKHIzHY50A6FsYQ5d6IS4DNS72V+aU=",
+        "originContent": "  - [Installing Python Packages and Libraries Used In This Book](setup/02_installing-python-libraries)",
+        "translatedContent": "  - [本書で使用する Python パッケージとライブラリのインストール](setup/02_installing-python-libraries)"
+      },
+      {
+        "row": 8,
+        "rowsha": "clyAKn4zWvlpHx/7lwlhE6r+rH7DSc7K97RbKXJT1p0=",
+        "originContent": "  - [Docker Environment Setup Guide](setup/03_optional-docker-environment)",
+        "translatedContent": "  - [Docker 環境セットアップガイド](setup/03_optional-docker-environment)"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Mht8AO+BS396EEBlElk2ROXpA+HsFOGuciDrAMcvHc=",
+        "originContent": "- **Chapter 2: Working with text data**",
+        "translatedContent": "- **第2章：テキストデータの取り扱い**"
+      },
+      {
+        "row": 10,
+        "rowsha": "2mEAjgOLkMuklXjMYhY6yDwyP70XUolsvOzw8dIgRNQ=",
+        "originContent": "  - [Byte Pair Encoding (BPE) Tokenizer From Scratch](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/05_bpe-from-scratch/bpe-from-scratch.ipynb)",
+        "translatedContent": "  - [一から作るバイトペアエンコーディング（BPE）トークナイザー](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch02/05_bpe-from-scratch/bpe-from-scratch.ipynb)"
+      },
+      {
+        "row": 11,
+        "rowsha": "ApwQIW5VP4dx9iwLIjsEJTLJjY42VHtYSBm+d5oifII=",
+        "originContent": "  - [Comparing Various Byte Pair Encoding (BPE) Implementations](ch02/02_bonus_bytepair-encoder)",
+        "translatedContent": "  - [さまざまなバイトペアエンコーディング（BPE）実装の比較](ch02/02_bonus_bytepair-encoder)"
+      },
+      {
+        "row": 12,
+        "rowsha": "HhCQ34ouATHm7pJ2w4h6GaOwgZVeHCVDhvIm1gHpKo4=",
+        "originContent": "  - [Understanding the Difference Between Embedding Layers and Linear Layers](ch02/03_bonus_embedding-vs-matmul)",
+        "translatedContent": "  - [埋め込み層と線形層の違いの理解](ch02/03_bonus_embedding-vs-matmul)"
+      },
+      {
+        "row": 13,
+        "rowsha": "IlmuvR1EdOAwP7mCM6WJMS7BY6B0JCKd8zq/HA6B+wg=",
+        "originContent": "  - [Dataloader Intuition with Simple Numbers](ch02/04_bonus_dataloader-intuition)",
+        "translatedContent": "  - [シンプルな数値でのデータローダー直感](ch02/04_bonus_dataloader-intuition)"
+      },
+      {
+        "row": 14,
+        "rowsha": "hZpOOvbGsFWSjeGnc5JdQ1IKzmWZzBy//EVFG/yvYXw=",
+        "originContent": "- **Chapter 3: Coding attention mechanisms**",
+        "translatedContent": "- **第3章：アテンションメカニズムのコーディング**"
+      },
+      {
+        "row": 15,
+        "rowsha": "FLyjQIw0I7LNBN3NnMiN7GyAH2mEELhP0ClEvTrgihw=",
+        "originContent": "  - [Comparing Efficient Multi-Head Attention Implementations](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb)",
+        "translatedContent": "  - [効率的なマルチヘッドアテンション実装の比較](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb)"
+      },
+      {
+        "row": 16,
+        "rowsha": "gu9eZChJo4i0OMQrjTK9udLIwClh9dhZBFofpK3YEyM=",
+        "originContent": "  - [Understanding PyTorch Buffers](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/03_understanding-buffers/understanding-buffers.ipynb)",
+        "translatedContent": "  - [PyTorch バッファの理解](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch03/03_understanding-buffers/understanding-buffers.ipynb)"
+      },
+      {
+        "row": 17,
+        "rowsha": "rQl97U2tdGEj+NtKy/9FxjgSDBpAhezdNPFGYdvJdL4=",
+        "originContent": "- **Chapter 4: Implementing a GPT model from scratch**",
+        "translatedContent": "- **第4章：GPTモデルのスクラッチ実装**"
+      },
+      {
+        "row": 18,
+        "rowsha": "uyCOoxI9KS0am0OsOQXfOVrqmbZta5PrPfi8HMBZogQ=",
+        "originContent": "  - [FLOPS Analysis](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/02_performance-analysis/flops-analysis.ipynb)",
+        "translatedContent": "  - [FLOPS 分析](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch04/02_performance-analysis/flops-analysis.ipynb)"
+      },
+      {
+        "row": 19,
+        "rowsha": "etU4nZunctsk3Mv149wI8vqfZqN+6LaB8vQ/SMqaPyo=",
+        "originContent": "  - [KV Cache](ch04/03_kv-cache)",
+        "translatedContent": "  - [KV キャッシュ](ch04/03_kv-cache)"
+      },
+      {
+        "row": 20,
+        "rowsha": "TjZfRv8bEwU5cmMfGNdSB0zJ+yQYt7O+13dm422e3yM=",
+        "originContent": "- **Chapter 5: Pretraining on unlabeled data:**",
+        "translatedContent": "- **第5章：ラベルなしデータでの事前学習：**"
+      },
+      {
+        "row": 21,
+        "rowsha": "+ZdGVMEn73kRqkbWAK3t4bXfkC1XH1xRFkEuaYSWdcQ=",
+        "originContent": "  - [Alternative Weight Loading Methods](ch05/02_alternative_weight_loading/)",
+        "translatedContent": "  - [代替の重み読み込み方法](ch05/02_alternative_weight_loading/)"
+      },
+      {
+        "row": 22,
+        "rowsha": "oAKS9DGNk0o4ZaVIy6RrXU8Uj7Yny4dMxUkLsonHLi0=",
+        "originContent": "  - [Pretraining GPT on the Project Gutenberg Dataset](ch05/03_bonus_pretraining_on_gutenberg)",
+        "translatedContent": "  - [プロジェクト・グーテンベルクデータセットでの GPT 事前学習](ch05/03_bonus_pretraining_on_gutenberg)"
+      },
+      {
+        "row": 23,
+        "rowsha": "AU8xaP9xt8bYcm10U6wIHznCjztszP5fZjmFvBOBt88=",
+        "originContent": "  - [Adding Bells and Whistles to the Training Loop](ch05/04_learning_rate_schedulers)",
+        "translatedContent": "  - [トレーニングループに装飾を追加する](ch05/04_learning_rate_schedulers)"
+      },
+      {
+        "row": 24,
+        "rowsha": "iKpQYVwGGQh4dsiFAI7ZNzKl/c0jrBHPKVUDvc4/g64=",
+        "originContent": "  - [Optimizing Hyperparameters for Pretraining](ch05/05_bonus_hparam_tuning)",
+        "translatedContent": "  - [事前学習用ハイパーパラメータの最適化](ch05/05_bonus_hparam_tuning)"
+      },
+      {
+        "row": 25,
+        "rowsha": "LCbCZsv9J3U2Mm7uXP0a78MbhZQHkw09sjSb7+wcWuo=",
+        "originContent": "  - [Building a User Interface to Interact With the Pretrained LLM](ch05/06_user_interface)",
+        "translatedContent": "  - [事前学習済み LLM と対話するためのユーザーインターフェース構築](ch05/06_user_interface)"
+      },
+      {
+        "row": 26,
+        "rowsha": "115xs/Gy2OXtnoZULRgsG8HmqM0e6q1jctTpyoQvi6U=",
+        "originContent": "  - [Converting GPT to Llama](ch05/07_gpt_to_llama)",
+        "translatedContent": "  - [GPT から Llama への変換](ch05/07_gpt_to_llama)"
+      },
+      {
+        "row": 27,
+        "rowsha": "cdhJSgyi1ocuMtEAgGWjr7NvMm8Br8adHJPcotY/flE=",
+        "originContent": "  - [Llama 3.2 From Scratch](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/07_gpt_to_llama/standalone-llama32.ipynb)",
+        "translatedContent": "  - [Llama 3.2 をスクラッチで](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/07_gpt_to_llama/standalone-llama32.ipynb)"
+      },
+      {
+        "row": 28,
+        "rowsha": "+H0l6LQn3VaA0XMLEDIqSAuUVP14qxYlx/nWonpwYrE=",
+        "originContent": "  - [Qwen3 Dense and Mixture-of-Experts (MoE) From Scratch](ch05/11_qwen3/)",
+        "translatedContent": "  - [Qwen3 Dense と Mixture-of-Experts (MoE) をスクラッチで](ch05/11_qwen3/)"
+      },
+      {
+        "row": 29,
+        "rowsha": "3kSxnTGey4ayG3kb6qoGvssgjaPYIn82wq0H4tbnD70=",
+        "originContent": "  - [Gemma 3 From Scratch](ch05/12_gemma3/)",
+        "translatedContent": "  - [Gemma 3 をスクラッチで](ch05/12_gemma3/)"
+      },
+      {
+        "row": 30,
+        "rowsha": "2Gj53HYfe7QmjaMFRSxA2MmjNsimv57iOE7xkPJIF2E=",
+        "originContent": "  - [Memory-efficient Model Weight Loading](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/08_memory_efficient_weight_loading/memory-efficient-state-dict.ipynb)",
+        "translatedContent": "  - [メモリ効率の良いモデル重みの読み込み](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/08_memory_efficient_weight_loading/memory-efficient-state-dict.ipynb)"
+      },
+      {
+        "row": 31,
+        "rowsha": "zUmJigkODkRAjItw34jG0h2pwOEpw5cbj+bKj7w6rw0=",
+        "originContent": "  - [Extending the Tiktoken BPE Tokenizer with New Tokens](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/09_extending-tokenizers/extend-tiktoken.ipynb)",
+        "translatedContent": "  - [Tiktoken BPE トークナイザーに新しいトークンを追加](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch05/09_extending-tokenizers/extend-tiktoken.ipynb)"
+      },
+      {
+        "row": 32,
+        "rowsha": "HiCzZdlKvlzLHUYByReA/t4IKIQhy+hIRbghgtutyZw=",
+        "originContent": "  - [PyTorch Performance Tips for Faster LLM Training](ch05/10_llm-training-speed)",
+        "translatedContent": "  - [より速い LLM トレーニングのための PyTorch パフォーマンスヒント](ch05/10_llm-training-speed)"
+      },
+      {
+        "row": 33,
+        "rowsha": "CSWR8VS9ZWc6e5eFs1kZHNRqlqvvIcCcao2D8mNJj4Y=",
+        "originContent": "- **Chapter 6: Finetuning for classification**",
+        "translatedContent": "- **第6章：分類のためのファインチューニング**"
+      },
+      {
+        "row": 34,
+        "rowsha": "+HC6oTOdVnQ9xg7jlpPPK0jaQgIUD+2PCLIIc0HyR98=",
+        "originContent": "  - [Additional experiments finetuning different layers and using larger models](ch06/02_bonus_additional-experiments)",
+        "translatedContent": "  - [異なる層のファインチューニングや大きなモデルの追加実験](ch06/02_bonus_additional-experiments)"
+      },
+      {
+        "row": 35,
+        "rowsha": "CrikGedY/OOac4CbZJcQS7lLJdlHgOBFhcRcEgWwRm4=",
+        "originContent": "  - [Finetuning different models on 50k IMDb movie review dataset](ch06/03_bonus_imdb-classification)",
+        "translatedContent": "  - [50k IMDb 映画レビュー・データセットでの異なるモデルのファインチューニング](ch06/03_bonus_imdb-classification)"
+      },
+      {
+        "row": 36,
+        "rowsha": "WvvYjIFXekMbrOv59UnqEdMCrJ2jlaZTi4xUYsLSCtE=",
+        "originContent": "  - [Building a User Interface to Interact With the GPT-based Spam Classifier](ch06/04_user_interface)",
+        "translatedContent": "  - [GPT ベースのスパム分類器と対話するためのユーザーインターフェース構築](ch06/04_user_interface)"
+      },
+      {
+        "row": 37,
+        "rowsha": "KknsgBS9Q8Bj+zttKMiL51tMtablnrJTn9pVIE4iCv8=",
+        "originContent": "- **Chapter 7: Finetuning to follow instructions**",
+        "translatedContent": "- **第7章：指示に従うためのファインチューニング**"
+      },
+      {
+        "row": 38,
+        "rowsha": "0Yr8YoTBW+8wbUrlQIy3HbAfQv5rPPkf0uoBUJKTtMw=",
+        "originContent": "  - [Dataset Utilities for Finding Near Duplicates and Creating Passive Voice Entries](ch07/02_dataset-utilities)",
+        "translatedContent": "  - [近似重複の検出や受動態エントリー作成のためのデータセットユーティリティ](ch07/02_dataset-utilities)"
+      },
+      {
+        "row": 39,
+        "rowsha": "Glyq5CgGOtcPiMl0lcbsyiPL8F1IFswOv1RRA/O+GkY=",
+        "originContent": "  - [Evaluating Instruction Responses Using the OpenAI API and Ollama](ch07/03_model-evaluation)",
+        "translatedContent": "  - [OpenAI API と Ollama を使った指示応答の評価](ch07/03_model-evaluation)"
+      },
+      {
+        "row": 40,
+        "rowsha": "Qe5h+7S4mwnq7Y/u1ReWE1Dnf1wQgwXJT7GV47xsnkU=",
+        "originContent": "  - [Generating a Dataset for Instruction Finetuning](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/05_dataset-generation/llama3-ollama.ipynb)",
+        "translatedContent": "  - [指示ファインチューニング用データセットの生成](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/05_dataset-generation/llama3-ollama.ipynb)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "  - [Improving a Dataset for Instruction Finetuning](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/05_dataset-generation/reflection-gpt4.ipynb)\n  - [Generating a Preference Dataset with Llama 3.1 70B and Ollama](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/04_preference-tuning-with-dpo/create-preference-data-ollama.ipynb)\n  - [Direct Preference Optimization (DPO) for LLM Alignment](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb)\n  - [Building a User Interface to Interact With the Instruction Finetuned GPT Model](ch07/06_user_interface)\n\n<br>\n&nbsp;\n\n## Questions, Feedback, and Contributing to This Repository\n\n\nI welcome all sorts of feedback, best shared via the [Manning Forum](https://livebook.manning.com/forum?product=raschka&page=1) or [GitHub Discussions](https://github.com/rasbt/LLMs-from-scratch/discussions). Likewise, if you have any questions or just want to bounce ideas off others, please don't hesitate to post these in the forum as well.\n\nPlease note that since this repository contains the code corresponding to a print book, I currently cannot accept contributions that would extend the contents of the main chapter code, as it would introduce deviations from the physical book. Keeping it consistent helps ensure a smooth experience for everyone.\n\n\n&nbsp;\n## Citation\n\nIf you find this book or code useful for your research, please consider citing it.\n\nChicago-style citation:\n\n> Raschka, Sebastian. *Build A Large Language Model (From Scratch)*. Manning, 2024. ISBN: 978-1633437166.\n\nBibTeX entry:\n",
+    "ContentSha": "O3ZQGZYfZ7GNM0pbrsGSxnF868Qz6ru7Tb4BUo8jo5o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - [命令微調整用データセットの改善](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/05_dataset-generation/reflection-gpt4.ipynb)\n  - [Llama 3.1 70B と Ollama を使った嗜好データセットの生成](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/04_preference-tuning-with-dpo/create-preference-data-ollama.ipynb)\n  - [LLMアラインメントのための直接嗜好最適化（DPO）](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb)\n  - [命令微調整済みGPTモデルと対話するためのユーザーインターフェース構築](ch07/06_user_interface)\n\n<br>\n&nbsp;\n\n## 質問、フィードバック、およびこのリポジトリへの貢献\n\n\nあらゆる種類のフィードバックを歓迎します。フィードバックは主に[Manningフォーラム](https://livebook.manning.com/forum?product=raschka&page=1)や[GitHubディスカッション](https://github.com/rasbt/LLMs-from-scratch/discussions)を通じて共有してください。同様に、質問がある場合やアイデアを他の方と共有したい場合も、遠慮なくフォーラムに投稿してください。\n\nこのリポジトリは印刷書籍に対応するコードを含んでいるため、現在のところメインチャプターのコード内容を拡張する貢献は受け付けていません。内容が物理的な書籍と異なるものになるためです。内容を一貫して保つことは、すべての方にスムーズな体験を提供するために重要です。\n\n\n&nbsp;\n## 引用\n\nこの書籍やコードが研究に役立った場合は、引用をご検討ください。\n\nシカゴスタイルの引用例:\n\n> Raschka, Sebastian. *Build A Large Language Model (From Scratch)*. Manning, 2024. ISBN: 978-1633437166.\n\nBibTeXエントリ:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "OcMagUGMDejKz2nmM0zxsalT/xMQYhDd3l/2bkc0iw4=",
+        "originContent": "  - [Improving a Dataset for Instruction Finetuning](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/05_dataset-generation/reflection-gpt4.ipynb)",
+        "translatedContent": "  - [命令微調整用データセットの改善](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/05_dataset-generation/reflection-gpt4.ipynb)"
+      },
+      {
+        "row": 2,
+        "rowsha": "gHSr2JQWVxL4b34OuY60o0r6hE1JUf9E9Jjsbx+J5Ic=",
+        "originContent": "  - [Generating a Preference Dataset with Llama 3.1 70B and Ollama](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/04_preference-tuning-with-dpo/create-preference-data-ollama.ipynb)",
+        "translatedContent": "  - [Llama 3.1 70B と Ollama を使った嗜好データセットの生成](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/04_preference-tuning-with-dpo/create-preference-data-ollama.ipynb)"
+      },
+      {
+        "row": 3,
+        "rowsha": "miIIUlKyXz3C/sUcDigelzD549LR62+s4kwz9percDk=",
+        "originContent": "  - [Direct Preference Optimization (DPO) for LLM Alignment](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb)",
+        "translatedContent": "  - [LLMアラインメントのための直接嗜好最適化（DPO）](https://raw.githubusercontent.com/rasbt/LLMs-from-scratch/main/ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb)"
+      },
+      {
+        "row": 4,
+        "rowsha": "L2Mfw7HxTYK8ieDZEvsDpPfGffy5QEN9+atXwpHxt2Y=",
+        "originContent": "  - [Building a User Interface to Interact With the Instruction Finetuned GPT Model](ch07/06_user_interface)",
+        "translatedContent": "  - [命令微調整済みGPTモデルと対話するためのユーザーインターフェース構築](ch07/06_user_interface)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 7,
+        "rowsha": "YQw1zhmrdfNYQy1u5ZWEMHrkhsQEDTNtHYDFznAW4q8=",
+        "originContent": "&nbsp;",
+        "translatedContent": "&nbsp;"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "LbAtudvrUMCGK3NIo7N8olefbuBjyFyEXx27D2T4yg4=",
+        "originContent": "## Questions, Feedback, and Contributing to This Repository",
+        "translatedContent": "## 質問、フィードバック、およびこのリポジトリへの貢献"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "kO2CFsUPv6mMdFZN0FzuALg3ArGjTvARkTGTlw+OuJo=",
+        "originContent": "I welcome all sorts of feedback, best shared via the [Manning Forum](https://livebook.manning.com/forum?product=raschka&page=1) or [GitHub Discussions](https://github.com/rasbt/LLMs-from-scratch/discussions). Likewise, if you have any questions or just want to bounce ideas off others, please don't hesitate to post these in the forum as well.",
+        "translatedContent": "あらゆる種類のフィードバックを歓迎します。フィードバックは主に[Manningフォーラム](https://livebook.manning.com/forum?product=raschka&page=1)や[GitHubディスカッション](https://github.com/rasbt/LLMs-from-scratch/discussions)を通じて共有してください。同様に、質問がある場合やアイデアを他の方と共有したい場合も、遠慮なくフォーラムに投稿してください。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "8nig9BmLUQDugNzaJgezpVjYCcS8t/F6GtxnodqmQnM=",
+        "originContent": "Please note that since this repository contains the code corresponding to a print book, I currently cannot accept contributions that would extend the contents of the main chapter code, as it would introduce deviations from the physical book. Keeping it consistent helps ensure a smooth experience for everyone.",
+        "translatedContent": "このリポジトリは印刷書籍に対応するコードを含んでいるため、現在のところメインチャプターのコード内容を拡張する貢献は受け付けていません。内容が物理的な書籍と異なるものになるためです。内容を一貫して保つことは、すべての方にスムーズな体験を提供するために重要です。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "YQw1zhmrdfNYQy1u5ZWEMHrkhsQEDTNtHYDFznAW4q8=",
+        "originContent": "&nbsp;",
+        "translatedContent": "&nbsp;"
+      },
+      {
+        "row": 18,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## 引用"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "3lEcUJBmPgWQIkMHQjLPT/7Nsdk5g1ddcqUDCGLV/xo=",
+        "originContent": "If you find this book or code useful for your research, please consider citing it.",
+        "translatedContent": "この書籍やコードが研究に役立った場合は、引用をご検討ください。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "CUAolTP/aeW8yZKY4A/F72yr0VOv7PxdfhYIiWQfyPA=",
+        "originContent": "Chicago-style citation:",
+        "translatedContent": "シカゴスタイルの引用例:"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "R14+SNWYOG3SRMMDYLa6CIpeCloNk69OdFpHfOddYRc=",
+        "originContent": "> Raschka, Sebastian. *Build A Large Language Model (From Scratch)*. Manning, 2024. ISBN: 978-1633437166.",
+        "translatedContent": "> Raschka, Sebastian. *Build A Large Language Model (From Scratch)*. Manning, 2024. ISBN: 978-1633437166."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "z7TUr629bJjIYYUZnnQTXvkkdlSiEneyD4Bv5be5G9Y=",
+        "originContent": "BibTeX entry:",
+        "translatedContent": "BibTeXエントリ:"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\n@book{build-llms-from-scratch-book,\n  author       = {Sebastian Raschka},\n  title        = {Build A Large Language Model (From Scratch)},\n  publisher    = {Manning},\n  year         = {2024},\n  isbn         = {978-1633437166},\n  url          = {https://www.manning.com/books/build-a-large-language-model-from-scratch},\n  github       = {https://github.com/rasbt/LLMs-from-scratch}\n}\n```",
+    "ContentSha": "1tQio48FBqPGPn9Pe9yZSpjnNtjvB3jGuJPVuQOzNTg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@book{build-llms-from-scratch-book,\n  author       = {Sebastian Raschka},\n  title        = {Build A Large Language Model (From Scratch)},\n  publisher    = {Manning},\n  year         = {2024},\n  isbn         = {978-1633437166},\n  url          = {https://www.manning.com/books/build-a-large-language-model-from-scratch},\n  github       = {https://github.com/rasbt/LLMs-from-scratch}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "l3xnOjbaQTIJnXOdGbaFuPEAJWS+3f85UkCrEQdeMQY=",
+        "originContent": "@book{build-llms-from-scratch-book,",
+        "translatedContent": "@book{build-llms-from-scratch-book,"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ia4/caUb0o+Mqq223BlAaZACYC1hL/4WHjfWgUhGuzg=",
+        "originContent": "  author       = {Sebastian Raschka},",
+        "translatedContent": "  author       = {Sebastian Raschka},"
+      },
+      {
+        "row": 4,
+        "rowsha": "vt9A70b0g4hNqbEc6CaKn7uhfND+9hjXRWJEiO+Rr+A=",
+        "originContent": "  title        = {Build A Large Language Model (From Scratch)},",
+        "translatedContent": "  title        = {Build A Large Language Model (From Scratch)},"
+      },
+      {
+        "row": 5,
+        "rowsha": "/g6GuGzoWoBiFUoRS0ONgqGDwobRWfnQy1kbDt4ZbFA=",
+        "originContent": "  publisher    = {Manning},",
+        "translatedContent": "  publisher    = {Manning},"
+      },
+      {
+        "row": 6,
+        "rowsha": "D+nQcmiqDk+sycLcpGircA1V/H7ZLRka0lFITDFeddg=",
+        "originContent": "  year         = {2024},",
+        "translatedContent": "  year         = {2024},"
+      },
+      {
+        "row": 7,
+        "rowsha": "khrnpRoBBvDnOMxYrANvrpJxRLyTD2w6lBTS+Bjfqwo=",
+        "originContent": "  isbn         = {978-1633437166},",
+        "translatedContent": "  isbn         = {978-1633437166},"
+      },
+      {
+        "row": 8,
+        "rowsha": "sk/Dh6os09LssYqYiiBAu3G8k0mQsT+g35F2llSQ9Sk=",
+        "originContent": "  url          = {https://www.manning.com/books/build-a-large-language-model-from-scratch},",
+        "translatedContent": "  url          = {https://www.manning.com/books/build-a-large-language-model-from-scratch},"
+      },
+      {
+        "row": 9,
+        "rowsha": "WIV0ArAgGbZ8mJDXGJy8Mk0h/Z5n9eOjBDyzCd4J0Tk=",
+        "originContent": "  github       = {https://github.com/rasbt/LLMs-from-scratch}",
+        "translatedContent": "  github       = {https://github.com/rasbt/LLMs-from-scratch}"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

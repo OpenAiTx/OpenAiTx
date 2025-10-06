@@ -1,4 +1,5 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 语言</summary>
     <div>
@@ -30,8 +31,8 @@
 
 <div align="center">
 
-# s3 - 通过强化学习实现高效且有效的搜索代理训练
-***你不需要那么多数据来训练搜索代理***
+# s3 - 高效且有效的搜索代理训练方法（RL）
+***训练搜索代理并不需要那么多数据***
 
 <p align="center">
 
@@ -55,7 +56,7 @@
 **s3 框架**
 </div>
 
-`s3` 是一个简单而强大的框架，用于在检索增强生成（RAG）中训练搜索代理。它教会语言模型如何更有效地进行搜索——而无需改变生成器本身。通过仅专注于搜索组件，`s3` 在使用远少于以往方法数据量的前提下，在问答任务上取得了强劲的表现。它模块化、高效，并设计为可与任意黑盒大语言模型无缝协作。
+`s3` 是一个用于训练检索增强生成（RAG）搜索代理的简单而强大的框架。它教会语言模型如何更有效地进行搜索——无需更改生成器本身。通过仅关注搜索组件，`s3` 用远少于以往方法的数据实现了在 QA 任务上的强劲性能。它具有模块化、高效的特点，并且可以与任何黑盒 LLM 无缝协作。
 
 
 
@@ -63,14 +64,13 @@
 
 - [📦 安装](#-installation)
 - [💡 准备](#-preparation)
-- [🏋️ 运行训练](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
-- [🔍 运行搜索/检索](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)
+- [🏋️ 开始训练](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
+- [🔍 执行搜索/检索](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)
 - [📈 运行评估](#-run-evaluation)
 
 ## 📦 安装
 
-**Searcher & Generator 环境**
-
+**搜索器与生成器环境**
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -80,7 +80,7 @@ pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1
 pip3 install ray
 
 # verl
-cd code
+# cd code
 pip install -e .
 
 # flash attention 2
@@ -115,8 +115,8 @@ python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
 gzip -d $save_path/wiki-18.jsonl.gz
 ```
-***预计算朴素RAG初始化***
 
+***预计算 Naïve RAG 初始化***（或者你可以在这里下载我们处理过的数据：[huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data)）
 
 ```bash
 # deploy retriever
@@ -205,15 +205,23 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 bash scripts/evaluation/run.sh
 ```
 
+## 问答
+### 定制数据？
+如果您想在自己的语料库/数据集上测试 s3，可以参考此提交，了解如何构建自己的流程：[commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+
+### 复现结果？
+已经有多位开发者成功复现了我们的结果。如果您有疑问或遇到问题，欢迎[提交 issue](https://github.com/pat-jj/s3/issues)——我们很乐意提供详细指导（参见[此示例](https://github.com/pat-jj/s3/issues/20)）。
+
+虽然自行复现模型其实很简单——我们实际上**推荐从零开始训练**，因为评估往往比训练更耗时——但我们也提供了一个参考模型检查点：[s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)，训练时间约为一小时。
 
 
-## 致谢
+
+## 鸣谢
 我们要感谢以下项目：
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
+[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini)。
  
 
 ## 引用
-
 ```bibtex
 @article{jiang2025s3,
   title={s3: You Don't Need That Much Data to Train a Search Agent via RL},
@@ -231,6 +239,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

@@ -1,28 +1,29 @@
+
 <div align="right">
   <details>
     <summary >🌐 Sprache</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en">Englisch</a>
+        <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en">English</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko">한국어</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi">हिन्दी</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr">Französisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es">Spanisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es">Español</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it">Itapano</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru">Russisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt">Portugiesisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl">Niederländisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl">Polnisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl">Polski</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar">العربية</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr">Türkisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi">Vietnamesisch</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id">Indonesisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id">Bahasa Indonesia</a>
       </div>
     </div>
   </details>
@@ -30,8 +31,8 @@
 
 <div align="center">
 
-# s3 - Effizientes und dennoch effektives Training von Suchagenten mittels RL
-***Sie benötigen nicht so viele Daten, um einen Suchagenten zu trainieren***
+# s3 - Effiziente und dennoch effektive Ausbildung von Suchagenten mittels RL
+***Man braucht gar nicht so viele Daten, um einen Suchagenten zu trainieren***
 
 <p align="center">
 
@@ -52,10 +53,10 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png" alt="framework" width="800">
 
-**s3-Framework**
+**s3 Framework**
 </div>
 
-`s3` ist ein einfaches, aber leistungsstarkes Framework zum Trainieren von Suchagenten für Retrieval-Augmented Generation (RAG). Es bringt Sprachmodellen bei, effizienter zu suchen – ohne den Generator selbst zu verändern. Durch die ausschließliche Fokussierung auf die Suchkomponente erzielt `s3` starke Leistungen bei QA-Aufgaben und benötigt dabei nur einen Bruchteil der Daten im Vergleich zu bisherigen Methoden. Es ist modular, effizient und so konzipiert, dass es nahtlos mit jedem Black-Box-LLM funktioniert.
+`s3` ist ein einfaches, aber leistungsstarkes Framework zum Trainieren von Suchagenten für Retrieval-Augmented Generation (RAG). Es bringt Sprachmodellen bei, effektiver zu suchen – ohne den Generator selbst zu verändern. Durch den Fokus ausschließlich auf die Suchkomponente erzielt `s3` starke Leistungen bei QA-Aufgaben mit nur einem Bruchteil der Daten, die frühere Methoden benötigen. Es ist modular, effizient und darauf ausgelegt, nahtlos mit jedem Black-Box-LLM zusammenzuarbeiten.
 
 
 
@@ -63,14 +64,13 @@
 
 - [📦 Installation](#-installation)
 - [💡 Vorbereitung](#-preparation)
-- [🏋️ Training starten](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
+- [🏋️ Training ausführen](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
 - [🔍 Suche/Abruf ausführen](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)
-- [📈 Auswertung durchführen](#-run-evaluation)
+- [📈 Evaluation ausführen](#-run-evaluation)
 
 ## 📦 Installation
 
-**Searcher & Generator Umgebung**
-
+**Sucher- & Generator-Umgebung**
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -80,7 +80,7 @@ pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1
 pip3 install ray
 
 # verl
-cd code
+# cd code
 pip install -e .
 
 # flash attention 2
@@ -113,8 +113,8 @@ python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
 gzip -d $save_path/wiki-18.jsonl.gz
 ```
-***Vorberechnung der naiven RAG-Initialisierung***
 
+***Naive RAG-Initialisierung vorab berechnen*** (oder Sie können unsere verarbeiteten Daten hier herunterladen: [huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data))
 
 ```bash
 # deploy retriever
@@ -194,14 +194,24 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 ```bash
 bash scripts/evaluation/run.sh
 ```
+
+## Q&A
+### Benutzerdefinierte Daten?
+Wenn Sie s3 mit Ihrem eigenen Korpus/Dataset testen möchten, können Sie sich auf diesen Commit beziehen, um zu sehen, was Sie tun müssen, um Ihre eigene Pipeline zu erstellen: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+
+### Ergebnisse reproduzieren?
+Mehrere Entwickler haben unsere Ergebnisse bereits erfolgreich reproduziert. Wenn Sie Fragen haben oder auf Probleme stoßen, können Sie gerne [ein Issue eröffnen](https://github.com/pat-jj/s3/issues) — wir helfen Ihnen gerne praktisch weiter (siehe [dieses Beispiel](https://github.com/pat-jj/s3/issues/20)).
+
+Obwohl das eigenständige Reproduzieren des Modells unkompliziert ist — und wir tatsächlich **empfehlen, das Training von Grund auf durchzuführen**, da die Auswertung oft deutlich zeitaufwändiger ist als das Training — stellen wir auch einen Referenz-Checkpoint bereit: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), der in etwa einer Stunde trainiert wurde.
+
+
+
 ## Danksagung
 Wir möchten den folgenden Projekten danken:
 [verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
  
 
 ## Zitation
-
-
 ```bibtex
 @article{jiang2025s3,
   title={s3: You Don't Need That Much Data to Train a Search Agent via RL},
@@ -219,6 +229,6 @@ Vielen Dank für Ihr Interesse an unserer Arbeit!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

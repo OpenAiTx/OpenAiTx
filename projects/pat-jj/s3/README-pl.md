@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Język</summary>
@@ -30,8 +31,8 @@
 
 <div align="center">
 
-# s3 - Wydajne i Skuteczne Szkolenie Agenta Wyszukiwania poprzez RL
-***Nie potrzebujesz aż tylu danych, by wytrenować agenta wyszukiwania***
+# s3 - Wydajne, a jednak skuteczne szkolenie agenta wyszukiwania poprzez RL
+***Nie potrzebujesz aż tyle danych, aby wyszkolić agenta wyszukiwania***
 
 <p align="center">
 
@@ -47,7 +48,7 @@
 
 
 
-## Co to jest s3?
+## Czym jest s3?
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png" alt="framework" width="800">
@@ -55,7 +56,7 @@
 **Framework s3**
 </div>
 
-`s3` to prosty, lecz potężny framework do szkolenia agentów wyszukiwania w generowaniu wspieranym przez wyszukiwanie (RAG). Uczy modele językowe efektywniejszego wyszukiwania — bez zmieniania samego generatora. Skupiając się wyłącznie na komponencie wyszukiwania, `s3` osiąga wysoką wydajność na zadaniach QA, używając tylko ułamka danych potrzebnych wcześniejszym metodom. Jest modułowy, wydajny i zaprojektowany tak, by działać płynnie z dowolnym czarnoskrzynkowym LLM.
+`s3` to prosty, ale potężny framework do trenowania agentów wyszukiwania w generowaniu wspieranym przez wyszukiwanie (RAG). Uczy modele językowe skuteczniejszego wyszukiwania—bez zmiany samego generatora. Skupiając się wyłącznie na komponencie wyszukiwania, `s3` osiąga wysoką wydajność w zadaniach QA, używając tylko ułamka danych wykorzystywanych przez wcześniejsze metody. Jest modułowy, wydajny i zaprojektowany do bezproblemowej współpracy z dowolnym czarnym pudełkiem LLM.
 
 
 
@@ -63,14 +64,13 @@
 
 - [📦 Instalacja](#-installation)
 - [💡 Przygotowanie](#-preparation)
-- [🏋️ Uruchom trening](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
+- [🏋️ Uruchom trenowanie](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
 - [🔍 Uruchom wyszukiwanie/pobieranie](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)
-- [📈 Uruchom ocenę](#-run-evaluation)
+- [📈 Uruchom ewaluację](#-run-evaluation)
 
 ## 📦 Instalacja
 
 **Środowisko Searcher & Generator**
-
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -80,7 +80,7 @@ pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1
 pip3 install ray
 
 # verl
-cd code
+# cd code
 pip install -e .
 
 # flash attention 2
@@ -113,8 +113,8 @@ python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
 gzip -d $save_path/wiki-18.jsonl.gz
 ```
-***Wstępna inicjalizacja naiwnego RAG (Precompute)***
 
+***Wstępna inicjalizacja Naïve RAG*** (lub możesz pobrać nasze przetworzone dane tutaj: [huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data))
 
 ```bash
 # deploy retriever
@@ -194,14 +194,24 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 ```bash
 bash scripts/evaluation/run.sh
 ```
+
+## Q&A
+### Dostosowane dane?
+Jeśli chcesz przetestować s3 na własnym korpusie/zestawie danych, możesz odnieść się do tego commita, aby zobaczyć, co należy zrobić, aby zbudować własny pipeline: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+
+### Odtwarzanie wyników?
+Kilku deweloperów pomyślnie odtworzyło już nasze wyniki. Jeśli masz pytania lub napotkasz problemy, śmiało [otwórz zgłoszenie](https://github.com/pat-jj/s3/issues) — z przyjemnością udzielimy praktycznych wskazówek (zobacz [ten przykład](https://github.com/pat-jj/s3/issues/20)).
+
+Chociaż samodzielne odtworzenie modelu jest proste — i faktycznie **zalecamy trening od zera**, ponieważ ocena często jest znacznie bardziej czasochłonna niż trening — udostępniamy również referencyjny punkt kontrolny: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), trenowany przez około godzinę.
+
+
+
 ## Podziękowania
 Chcielibyśmy podziękować następującym projektom:
 [verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
  
 
 ## Cytowanie
-
-
 ```bibtex
 @article{jiang2025s3,
   title={s3: You Don't Need That Much Data to Train a Search Agent via RL},
@@ -219,6 +229,6 @@ Dziękujemy za zainteresowanie naszą pracą!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

@@ -3,26 +3,26 @@
     <summary >🌐 زبان</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en">انگلیسی</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it">Itapano</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja">ژاپنی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko">کره‌ای</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=hi">هندی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=th">تایلندی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fr">فرانسوی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=de">آلمانی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=es">اسپانیایی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=it">ایتالیایی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ru">روسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pt">پرتغالی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=nl">هلندی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=pl">لهستانی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ar">عربی</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=tr">ترکی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=vi">ویتنامی</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=id">اندونزیایی</a>
       </div>
     </div>
   </details>
@@ -30,18 +30,19 @@
 
 <div align="center">
 
-# s3 - آموزش عامل جستجو کارآمد اما مؤثر با استفاده از RL
-***برای آموزش یک عامل جستجو به آن‌همه داده نیاز ندارید***
+# s3 - آموزش عامل جستجوی کارآمد اما مؤثر با استفاده از یادگیری تقویتی
+***برای آموزش یک عامل جستجو به این مقدار داده نیاز ندارید***
 
 <p align="center">
 
   <a href="https://arxiv.org/abs/2505.14146">
     <img src="https://img.shields.io/badge/arXiv-2505.14146-b31b1b.svg" alt="arXiv">
+
   </a>
 </p>
 </div>
 
-**بررسی اجمالی عملکرد:**
+**نمای کلی عملکرد:**
 
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png" alt="performance_overview" width="800">
 
@@ -55,7 +56,7 @@
 **چارچوب s3**
 </div>
 
-`s3` یک چارچوب ساده اما قدرتمند برای آموزش عامل‌های جستجو در تولید تقویت‌شده با بازیابی (RAG) است. این چارچوب به مدل‌های زبانی می‌آموزد چگونه مؤثرتر جستجو کنند—بدون اینکه تغییری در مولد ایجاد شود. با تمرکز صرف بر مولفه جستجو، `s3` با تنها کسری از داده‌های مورد استفاده روش‌های قبلی، عملکرد بالایی در وظایف پرسش و پاسخ ارائه می‌دهد. این چارچوب ماژولار، کارآمد و برای کار بی‌دردسر با هر LLM جعبه‌سیاه طراحی شده است.
+`s3` یک چارچوب ساده اما قدرتمند برای آموزش عامل‌های جستجو در تولید تقویت‌شده با بازیابی (RAG) است. این چارچوب به مدل‌های زبانی آموزش می‌دهد تا مؤثرتر جستجو کنند—بدون تغییر در خود مولد. با تمرکز صرفاً بر مؤلفه جستجو، `s3` با تنها کسری از داده‌های مورد استفاده روش‌های قبلی، عملکرد قوی در وظایف پرسش و پاسخ ارائه می‌دهد. این چارچوب ماژولار، کارآمد و برای کار بی‌نقص با هر LLM جعبه‌سیاه طراحی شده است.
 
 
 
@@ -70,7 +71,6 @@
 ## 📦 نصب
 
 **محیط جستجوگر و مولد**
-
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -80,7 +80,7 @@ pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1
 pip3 install ray
 
 # verl
-cd code
+# cd code
 pip install -e .
 
 # flash attention 2
@@ -113,8 +113,8 @@ python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
 gzip -d $save_path/wiki-18.jsonl.gz
 ```
-***پیش‌محاسبه مقداردهی اولیه ساده RAG***
 
+***پیش‌پردازش اولیه RAG به روش ساده*** (یا می‌توانید داده‌های پردازش‌شده ما را از اینجا دانلود کنید: [huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data))
 
 ```bash
 # deploy retriever
@@ -194,14 +194,24 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 ```bash
 bash scripts/evaluation/run.sh
 ```
-## تقدیر و تشکر
+
+## پرسش و پاسخ
+### داده‌های سفارشی؟
+اگر می‌خواهید s3 را روی مجموعه داده/متن خود آزمایش کنید، می‌توانید به این کامیت مراجعه کنید تا ببینید برای ساخت خط لوله خود چه کاری باید انجام دهید: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+
+### بازتولید نتایج؟
+چندین توسعه‌دهنده قبلاً نتایج ما را با موفقیت بازتولید کرده‌اند. اگر سوالی دارید یا با مشکلی مواجه شدید، می‌توانید [یک issue باز کنید](https://github.com/pat-jj/s3/issues) — خوشحال می‌شویم راهنمایی عملی ارائه دهیم (به [این مثال](https://github.com/pat-jj/s3/issues/20) مراجعه کنید).
+
+اگرچه بازتولید مدل توسط خودتان ساده است — و ما در واقع **توصیه می‌کنیم از ابتدا آموزش دهید**، زیرا ارزیابی اغلب بسیار زمان‌برتر از آموزش است — ما یک چک‌پوینت مرجع نیز ارائه داده‌ایم: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)، که در حدود یک ساعت آموزش داده شده است.
+
+
+
+## قدردانی
 مایلیم از پروژه‌های زیر تشکر کنیم:
 [verl](https://github.com/volcengine/verl)، [RAGEN](https://github.com/RAGEN-AI/RAGEN)، [Search-R1](https://github.com/PeterGriffinJin/Search-R1)، [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval)، [PySerini](https://github.com/castorini/pySerini).
  
 
 ## ارجاع
-
-
 ```bibtex
 @article{jiang2025s3,
   title={s3: You Don't Need That Much Data to Train a Search Agent via RL},
@@ -219,6 +229,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

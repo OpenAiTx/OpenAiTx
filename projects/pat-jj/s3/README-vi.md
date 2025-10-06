@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
@@ -30,8 +31,8 @@
 
 <div align="center">
 
-# s3 - Đào Tạo Đại Lý Tìm Kiếm Hiệu Quả Với RL
-***Bạn Không Cần Quá Nhiều Dữ Liệu Để Đào Tạo Một Đại Lý Tìm Kiếm***
+# s3 - Đào Tạo Tác Nhân Tìm Kiếm Hiệu Quả Bằng RL
+***Bạn Không Cần Quá Nhiều Dữ Liệu Để Đào Tạo Một Tác Nhân Tìm Kiếm***
 
 <p align="center">
 
@@ -41,13 +42,13 @@
 </p>
 </div>
 
-**Tổng Quan Hiệu Năng:**
+**Tổng quan Hiệu suất:**
 
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png" alt="performance_overview" width="800">
 
 
 
-## s3 là gì?
+## S3 là gì?
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png" alt="framework" width="800">
@@ -55,22 +56,21 @@
 **Khung s3**
 </div>
 
-`s3` là một khung làm việc đơn giản nhưng mạnh mẽ để đào tạo các đại lý tìm kiếm trong quá trình sinh có hỗ trợ truy xuất (RAG). Nó dạy các mô hình ngôn ngữ cách tìm kiếm hiệu quả hơn—mà không cần thay đổi bản thân bộ sinh. Bằng cách chỉ tập trung vào thành phần tìm kiếm, `s3` đạt được hiệu năng mạnh mẽ trên các tác vụ QA chỉ với một phần nhỏ dữ liệu so với các phương pháp trước đó. Nó có tính mô-đun, hiệu quả và được thiết kế để hoạt động liền mạch với bất kỳ LLM hộp đen nào.
+`s3` là một khung đơn giản nhưng mạnh mẽ để huấn luyện các tác nhân tìm kiếm trong hệ thống tạo nội dung có hỗ trợ truy xuất thông tin (RAG). Nó dạy các mô hình ngôn ngữ cách tìm kiếm hiệu quả hơn—mà không cần thay đổi bộ tạo nội dung. Bằng cách chỉ tập trung vào thành phần tìm kiếm, `s3` đạt hiệu suất cao trong các tác vụ hỏi đáp với chỉ một phần nhỏ dữ liệu so với các phương pháp trước đó. Khung này có tính mô-đun, hiệu quả, và được thiết kế để tích hợp mượt mà với bất kỳ LLM hộp đen nào.
 
 
 
-## Mục Lục
+## Mục lục
 
 - [📦 Cài đặt](#-installation)
 - [💡 Chuẩn bị](#-preparation)
-- [🏋️ Chạy Đào Tạo](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
-- [🔍 Chạy Tìm Kiếm/Truy Xuất](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)
-- [📈 Chạy Đánh Giá](#-run-evaluation)
+- [🏋️ Chạy Huấn luyện](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
+- [🔍 Chạy Tìm kiếm/Truy xuất](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)
+- [📈 Chạy Đánh giá](#-run-evaluation)
 
 ## 📦 Cài đặt
 
-**Môi Trường Searcher & Generator**
-
+**Môi trường Searcher & Generator**
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -80,7 +80,7 @@ pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1
 pip3 install ray
 
 # verl
-cd code
+# cd code
 pip install -e .
 
 # flash attention 2
@@ -113,8 +113,8 @@ python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
 gzip -d $save_path/wiki-18.jsonl.gz
 ```
-***Tiền tính khởi tạo RAG sơ khai***
 
+***Tiền xử lý Khởi tạo RAG Đơn giản*** (hoặc bạn có thể tải xuống dữ liệu đã xử lý của chúng tôi tại đây: [huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data))
 
 ```bash
 # deploy retriever
@@ -194,14 +194,24 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 ```bash
 bash scripts/evaluation/run.sh
 ```
+
+## Hỏi & Đáp
+### Dữ liệu tùy chỉnh?
+Nếu bạn muốn kiểm tra s3 trên tập dữ liệu/corpus của riêng mình, bạn có thể tham khảo commit này để xem cần làm gì để xây dựng pipeline riêng: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+
+### Tái tạo kết quả?
+Nhiều nhà phát triển đã tái tạo thành công kết quả của chúng tôi. Nếu bạn có câu hỏi hoặc gặp sự cố, hãy [mở một issue](https://github.com/pat-jj/s3/issues) — chúng tôi sẵn sàng hỗ trợ trực tiếp (xem [ví dụ này](https://github.com/pat-jj/s3/issues/20)).
+
+Việc tái tạo mô hình khá đơn giản — và chúng tôi thực sự **khuyến nghị huấn luyện từ đầu**, vì đánh giá thường tốn thời gian hơn huấn luyện — chúng tôi cũng cung cấp một checkpoint tham khảo: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), được huấn luyện trong khoảng một giờ.
+
+
+
 ## Lời cảm ơn
-Chúng tôi xin gửi lời cảm ơn đến các dự án sau:
+Chúng tôi xin cảm ơn các dự án sau:
 [verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
  
 
 ## Trích dẫn
-
-
 ```bibtex
 @article{jiang2025s3,
   title={s3: You Don't Need That Much Data to Train a Search Agent via RL},
@@ -219,6 +229,6 @@ Cảm ơn bạn đã quan tâm đến công việc của chúng tôi!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

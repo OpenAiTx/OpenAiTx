@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Bahasa</summary>
@@ -30,8 +31,8 @@
 
 <div align="center">
 
-# s3 - Pelatihan Agen Pencarian yang Efisien Namun Efektif melalui RL
-***Anda Tidak Membutuhkan Terlalu Banyak Data untuk Melatih Agen Pencarian***
+# s3 - Pelatihan Agen Pencarian Efisien dan Efektif melalui RL
+***Anda Tidak Membutuhkan Begitu Banyak Data untuk Melatih Agen Pencarian***
 
 <p align="center">
 
@@ -41,7 +42,7 @@
 </p>
 </div>
 
-**Gambaran Performa:**
+**Ikhtisar Kinerja:**
 
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png" alt="performance_overview" width="800">
 
@@ -52,25 +53,24 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png" alt="framework" width="800">
 
-**Kerangka s3**
+**Kerangka Kerja s3**
 </div>
 
-`s3` adalah kerangka kerja yang sederhana namun kuat untuk melatih agen pencarian dalam retrieval-augmented generation (RAG). Kerangka ini mengajarkan model bahasa cara melakukan pencarian dengan lebih efektif—tanpa mengubah generator itu sendiri. Dengan hanya berfokus pada komponen pencarian, `s3` mencapai performa tinggi di berbagai tugas QA hanya dengan sebagian kecil data yang digunakan oleh metode sebelumnya. Ini modular, efisien, dan dirancang agar dapat bekerja mulus dengan LLM apa pun sebagai black-box.
+`s3` adalah kerangka kerja yang sederhana namun kuat untuk melatih agen pencarian dalam retrieval-augmented generation (RAG). Kerangka ini mengajarkan model bahasa cara mencari dengan lebih efektif—tanpa mengubah generator itu sendiri. Dengan hanya berfokus pada komponen pencarian, `s3` mencapai performa yang kuat di berbagai tugas QA dengan hanya sebagian kecil dari data yang digunakan oleh metode sebelumnya. Kerangka ini modular, efisien, dan dirancang untuk bekerja secara mulus dengan LLM black-box apa pun.
 
 
 
 ## Daftar Isi
 
-- [📦 Instalasi](#-installation)
-- [💡 Persiapan](#-preparation)
-- [🏋️ Jalankan Pelatihan](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
-- [🔍 Jalankan Pencarian/Retrieval](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)
-- [📈 Jalankan Evaluasi](#-run-evaluation)
+- [📦 Instalasi](#-instalasi)
+- [💡 Persiapan](#-persiapan)
+- [🏋️ Jalankan Pelatihan](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-jalankan-pelatihan)
+- [🔍 Jalankan Pencarian/Retrieval](https://github.com/pat-jj/s3?tab=readme-ov-file#-jalankan-pencarianretrieval)
+- [📈 Jalankan Evaluasi](#-jalankan-evaluasi)
 
 ## 📦 Instalasi
 
 **Lingkungan Searcher & Generator**
-
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -80,7 +80,7 @@ pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1
 pip3 install ray
 
 # verl
-cd code
+# cd code
 pip install -e .
 
 # flash attention 2
@@ -113,8 +113,8 @@ python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
 gzip -d $save_path/wiki-18.jsonl.gz
 ```
-***Pra-komputasi Inisialisasi RAG Naif***
 
+***Pra-komputasi Inisialisasi RAG Naïf*** (atau Anda dapat mengunduh data yang telah kami proses di sini: [huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data))
 
 ```bash
 # deploy retriever
@@ -194,14 +194,24 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 ```bash
 bash scripts/evaluation/run.sh
 ```
-## Ucapan Terima Kasih
-Kami ingin mengucapkan terima kasih kepada proyek-proyek berikut:
+
+## Tanya Jawab
+### Data Kustom?
+Jika Anda ingin menguji s3 pada korpus/dataset milik Anda sendiri, Anda dapat merujuk ke commit berikut untuk melihat apa yang perlu Anda lakukan untuk membangun pipeline Anda sendiri: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+
+### Mereproduksi Hasil?
+Beberapa pengembang telah berhasil mereproduksi hasil kami. Jika Anda memiliki pertanyaan atau mengalami kendala, silakan [buka isu](https://github.com/pat-jj/s3/issues) — kami dengan senang hati akan memberikan panduan langsung (lihat [contoh ini](https://github.com/pat-jj/s3/issues/20)).
+
+Walaupun mereproduksi model sendiri cukup mudah — dan kami sebenarnya **merekomendasikan pelatihan dari awal**, karena evaluasi biasanya jauh lebih memakan waktu daripada pelatihan — kami juga menyediakan checkpoint referensi: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), yang dilatih sekitar satu jam.
+
+
+
+## Penghargaan
+Kami ingin berterima kasih kepada proyek-proyek berikut:
 [verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
  
 
 ## Sitasi
-
-
 ```bibtex
 @article{jiang2025s3,
   title={s3: You Don't Need That Much Data to Train a Search Agent via RL},
@@ -219,6 +229,6 @@ Terima kasih atas ketertarikan Anda pada pekerjaan kami!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

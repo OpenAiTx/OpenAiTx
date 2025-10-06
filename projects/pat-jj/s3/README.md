@@ -80,7 +80,7 @@ pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1
 pip3 install ray
 
 # verl
-cd code
+# cd code
 pip install -e .
 
 # flash attention 2
@@ -114,7 +114,7 @@ cat $save_path/part_* > $save_path/e5_Flat.index
 gzip -d $save_path/wiki-18.jsonl.gz
 ```
 
-***Precompute Naïve RAG Initialization***
+***Precompute Naïve RAG Initialization*** (or you can download our processed data here: [huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data))
 
 ```bash
 # deploy retriever
@@ -194,6 +194,16 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 ```bash
 bash scripts/evaluation/run.sh
 ```
+
+## Q&A
+### Customized Data?
+If you want to test s3 on your own corpus/dataset, you can refer to this commit to see what you need to do to build your own pipeline: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+
+### Reproducing Results?
+Several developers have already reproduced our results successfully. If you have questions or run into issues, feel free to [open an issue](https://github.com/pat-jj/s3/issues) — we’re happy to provide hands-on guidance (see [this example](https://github.com/pat-jj/s3/issues/20)).
+
+Although reproducing the model yourself is straightforward — and we actually **recommend training from scratch**, since evaluation is often much more time-consuming than training — we also provide a reference checkpoint: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), trained in about one hour.
+
 
 
 ## Acknowledgement

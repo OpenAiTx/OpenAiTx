@@ -1,4 +1,5 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 Dil</summary>
     <div>
@@ -32,24 +33,24 @@
 
 # ZipVoice⚡
 
-## Flow Matching ile Hızlı ve Yüksek Kaliteli Sıfırdan Metinden Konuşmaya
+## Flow Matching ile Hızlı ve Yüksek Kaliteli Sıfırdan Metinden Sese Dönüşüm
 </div>
 
 ## Genel Bakış
 
-ZipVoice, akış eşleştirmeye dayalı hızlı ve yüksek kaliteli sıfırdan TTS modelleri serisidir.
+ZipVoice, flow matching tabanlı hızlı ve yüksek kaliteli sıfır atışlı TTS modellerinden oluşan bir seridir.
 
 ### 1. Temel Özellikler
 
-- Küçük ve hızlı: sadece 123M parametre.
+- Küçük ve hızlı: yalnızca 123M parametre.
 
-- Yüksek kaliteli ses klonlama: konuşmacı benzerliği, anlaşılırlık ve doğallıkta son teknoloji performans.
+- Yüksek kaliteli ses klonlama: konuşmacı benzerliği, anlaşılabilirlik ve doğallıkta alanında öncü performans.
 
 - Çok dilli: Çince ve İngilizce desteği.
 
-- Çok modlu: hem tek konuşmacılı hem de diyalog konuşma üretimi desteği.
+- Çok modlu: hem tek konuşmacılı hem de diyalog konuşması üretimini destekler.
 
-### 2. Model Varyantları
+### 2. Model varyantları
 
 <table>
   <thead>
@@ -63,39 +64,38 @@ ZipVoice, akış eşleştirmeye dayalı hızlı ve yüksek kaliteli sıfırdan T
   <tbody>
     <tr>
       <td>ZipVoice</td>
-      <td>Çince ve İngilizce'de sıfırdan tek konuşmacılı TTS desteği sunan temel model.</td>
-      <td rowspan="2"><a href="https://arxiv.org/abs/2506.13053"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
-      <td rowspan="2"><a href="https://zipvoice.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
+      <td>Çince ve İngilizce'de sıfır atışlı tek konuşmacılı TTS'yi destekleyen temel model.</td>
+      <td rowspan="2"><a href="https://arxiv.org/abs/2506.13053"><img src="https://img.shields.io/badge/arXiv-Makale-COLOR.svg"></a></td>
+      <td rowspan="2"><a href="https://zipvoice.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Sayfası-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Distill</td>
-      <td>ZipVoice'ın damıtılmış versiyonu, minimum performans kaybı ile geliştirilmiş hız sunar.</td>
+      <td>ZipVoice’un damıtılmış sürümü; minimum performans kaybıyla geliştirilmiş hız sunar.</td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog</td>
-      <td>ZipVoice üzerine kurulu bir diyalog üretim modeli; tek kanallı iki taraflı konuşma diyalogları üretebilir.</td>
-      <td rowspan="2"><a href="https://arxiv.org/abs/2507.09318"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
-      <td rowspan="2"><a href="https://zipvoice-dialog.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
+      <td>ZipVoice üzerine kurulu, tek kanallı iki taraflı konuşma diyalogları üretebilen bir diyalog üretim modeli.</td>
+      <td rowspan="2"><a href="https://arxiv.org/abs/2507.09318"><img src="https://img.shields.io/badge/arXiv-Makale-COLOR.svg"></a></td>
+      <td rowspan="2"><a href="https://zipvoice-dialog.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Sayfası-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog-Stereo</td>
-      <td>ZipVoice-Dialog'un stereo varyantı, her konuşmacının farklı bir kanala atandığı iki kanallı diyalog üretimini sağlar.</td>
+      <td>ZipVoice-Dialog'ın stereo varyantı, her konuşmacının ayrı bir kanala atanmasıyla iki kanallı diyalog üretimini sağlar.</td>
     </tr>
   </tbody>
 </table>
 
 ## Haberler
 
-**2025/07/14**: **ZipVoice-Dialog** ve **ZipVoice-Dialog-Stereo**, iki konuşmalı diyalog üretim modeli yayımlandı. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
+**2025/07/14**: **ZipVoice-Dialog** ve **ZipVoice-Dialog-Stereo**, iki konuşma diyalogu üretim modeli yayınlandı. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
 
-**2025/07/14**: **OpenDialog** veri kümesi, 6.8k saatlik konuşmalı diyalog veri kümesi yayımlandı. İndir: [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog). Detaylar için: [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318).
+**2025/07/14**: **OpenDialog** veri seti, 6.8k saatlik konuşma diyalogu veri seti yayınlandı. İndir: [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog). Detaylara bakınız: [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318).
 
-**2025/06/16**: **ZipVoice** ve **ZipVoice-Distill** yayımlandı. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)
+**2025/06/16**: **ZipVoice** ve **ZipVoice-Distill** yayınlandı. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)
 
 ## Kurulum
 
 ### 1. ZipVoice deposunu klonlayın
-
 
 ```bash
 git clone https://github.com/k2-fsa/ZipVoice.git
@@ -129,7 +129,7 @@ Lütfen ayrıntılar için https://k2-fsa.org/get-started/k2/ adresine bakınız
 - k2 kurulumunu kontrol etmek için:
 
 
-```
+```bash
 python3 -c "import k2; print(k2.__file__)"
 ```
 ## Kullanım
@@ -149,17 +149,10 @@ python3 -m zipvoice.bin.infer_zipvoice \
     --text "I am the text to be synthesized." \
     --res-wav-path result.wav
 ```
-- `--model-name` olarak `zipvoice` veya `zipvoice_distill` kullanılabilir, bunlar sırasıyla distilasyon öncesi ve sonrası modellerdir.
-- Metinde `<>` veya `[]` görünürse, bunlar arasına alınan dizeler özel semboller olarak işlenir. `<>` Çince pinyin, `[]` ise diğer özel etiketler için kullanılır.
-- `zipvoice.bin.infer_zipvoice_onnx` ile ONNX modelleri CPU'da daha hızlı çalıştırabilirsiniz.
-
-> **Not:** HuggingFace'e bağlanmakta sorun yaşarsanız, şunu deneyin:
-> ```bash
-> export HF_ENDPOINT=https://hf-mirror.com
-> ```
+- `--model-name` değeri `zipvoice` veya `zipvoice_distill` olabilir; bunlar sırasıyla distilasyon öncesi ve sonrası modellerdir.
+- Eğer metinde `<>` veya `[]` görünürse, bunlar arasındaki dizeler özel belirteçler olarak kabul edilir. `<>` Çin pinyin'ini, `[]` ise diğer özel etiketleri ifade eder.
 
 #### 1.2 Bir cümle listesinin çıkarımı
-
 
 ```bash
 python3 -m zipvoice.bin.infer_zipvoice \
@@ -194,55 +187,93 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 ```
 {wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}
 ```
+
 - `wav_name`, çıktı wav dosyasının adıdır.
-- `prompt_transcription`, konuşma istemi wav dosyasının transkripsiyonudur, örn. "[S1] Merhaba. [S2] Nasılsın?"
+- `prompt_transcription`, konuşma istemi wav dosyasının transkripsiyonudur, örneğin, "[S1] Merhaba. [S2] Nasılsın?"
 - `prompt_wav`, istem wav dosyasının yoludur.
-- `text`, sentezlenecek metindir, örn. "[S1] İyiyim. [S2] Senin adın ne?"
+- `text`, sentezlenecek metindir, örneğin, "[S1] İyiyim. [S2] Adın ne? [S1] Ben Eric. [S2] Merhaba Eric."
 
-(2) **Bölünmüş istem formatı** burada iki konuşmacının sesleri ve transkripsiyonları ayrı dosyalarda bulunur:
-
+(2) **Bölünmüş istem formatı**: iki konuşmacının sesleri ve transkripsiyonları ayrı dosyalarda bulunur:
 
 ```
-{wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
+{wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
-- `wav_name`, çıktı wav dosyasının adıdır.
-- `spk1_prompt_transcription`, birinci konuşmacının prompt wav dosyasının transkripsiyonudur, örneğin, "Merhaba"
-- `spk2_prompt_transcription`, ikinci konuşmacının prompt wav dosyasının transkripsiyonudur, örneğin, "Nasılsın?"
-- `spk1_prompt_wav`, birinci konuşmacının prompt wav dosyasının yoludur.
-- `spk2_prompt_wav`, ikinci konuşmacının prompt wav dosyasının yoludur.
-- `text`, sentezlenecek metindir, örneğin: "[S1] İyiyim. [S2] Adın ne?"
+- `wav_name` çıktı wav dosyasının adıdır.
+- `spk1_prompt_transcription` birinci konuşmacının prompt wav dosyasının transkripsiyonudur, örneğin, "Merhaba"
+- `spk2_prompt_transcription` ikinci konuşmacının prompt wav dosyasının transkripsiyonudur, örneğin, "Nasılsın?"
+- `spk1_prompt_wav` birinci konuşmacının prompt wav dosyasının yoludur.
+- `spk2_prompt_wav` ikinci konuşmacının prompt wav dosyasının yoludur.
+- `text` sentezlenecek metindir, örneğin, "[S1] İyiyim. [S2] Adın ne? [S1] Ben Eric. [S2] Merhaba Eric."
 
-### 3. Diğer özellikler
+### 3 Daha iyi kullanım için rehberlik:
 
-#### 3.1 Yanlış telaffuz edilen Çince çok sesli karakterlerin düzeltilmesi
+#### 3.1 Prompt uzunluğu
 
-Çince karakterleri pinyin'e çevirmek için [pypinyin](https://github.com/mozillazg/python-pinyin) kullanıyoruz. Ancak, bazen **çok sesli karakterleri** (多音字) yanlış telaffuz edebilir.
+Daha hızlı çıkarım hızı için kısa bir prompt wav dosyası öneriyoruz (örneğin, tek konuşmacılı konuşma üretimi için 3 saniyeden az, diyalog konuşma üretimi için 10 saniyeden az). Çok uzun bir prompt çıkarımı yavaşlatır ve konuşma kalitesini bozar.
 
-Bu yanlış telaffuzları manuel olarak düzeltmek için, **düzeltilmiş pinyin'i** açılı ayraçlar `< >` içine alın ve **ton işaretini** ekleyin.
+#### 3.2 Hız optimizasyonu
+
+Eğer çıkarım hızı yeterli değilse, aşağıdaki şekilde hızlandırabilirsiniz:
+
+- **Distill model ve daha az adım**: Tek konuşmacılı konuşma üretim modeli için, daha iyi konuşma kalitesi için varsayılan olarak `zipvoice` modelini kullanıyoruz. Daha hızlı bir hız önceliğiniz ise, `zipvoice_distill` modeline geçebilir ve `--num-steps` değerini `4`'e kadar düşürebilirsiniz (varsayılan olarak 8).
+
+- **CPU ile çoklu iş parçacığı hızlandırması**: CPU üzerinde çalışırken, daha hızlı bir hız için `--num-thread` parametresini (örneğin, `--num-thread 4`) geçebilirsiniz. Varsayılan olarak 1 iş parçacığı kullanıyoruz.
+
+- **ONNX ile CPU hızlandırması**: CPU üzerinde çalışırken, daha hızlı bir hız için `zipvoice.bin.infer_zipvoice_onnx` ile ONNX modellerini kullanabilirsiniz (henüz diyalog üretim modelleri için ONNX desteklenmiyor). Daha da hızlı bir hız için, INT8-kuantize edilmiş bir ONNX modeli kullanmak için `--onnx-int8 True` ayarlayabilirsiniz. Kuantize model konuşma kalitesinde belli bir bozulmaya yol açacaktır. **GPU'da ONNX kullanmayın**, çünkü GPU'da PyTorch'tan daha yavaştır.
+
+#### 3.3 Bellek kontrolü
+
+Verilen metin, noktalama işaretlerine (tek konuşmacılı konuşma üretimi için) veya konuşmacı dönüşü sembolüne (diyalog konuşma üretimi için) göre parçalara ayrılır. Sonra, parçalanmış metinler toplu olarak işlenir. Bu nedenle, model neredeyse sabit bellek kullanımıyla sınırsız uzunlukta metni işleyebilir. Bellek kullanımını `--max-duration` parametresini ayarlayarak kontrol edebilirsiniz.
+
+#### 3.4 "Ham" değerlendirme
+
+Varsayılan olarak, girdileri (prompt wav, prompt transkripsiyonu ve metin) verimli çıkarım ve daha iyi performans için ön işliyoruz. Modelin "ham" performansını tam olarak sağlanan girdilerle değerlendirmek isterseniz (örneğin, makalemizdeki sonuçları yeniden üretmek için), `--raw-evaluation True` parametresini geçebilirsiniz.
+
+#### 3.5 Kısa metin
+
+Çok kısa metinler için konuşma üretirken (örneğin, bir veya iki kelime), üretilen konuşma bazen bazı telaffuzları atlayabilir. Bu sorunu çözmek için, üretilen konuşmanın süresini uzatmak için `--speed 0.3` (burada 0.3 ayarlanabilir bir değerdir) parametresini kullanabilirsiniz.
+
+#### 3.6 Yanlış telaffuz edilen Çince çok sesli karakterleri düzeltme
+
+Çince karakterleri pinyin'e dönüştürmek için [pypinyin](https://github.com/mozillazg/python-pinyin) kullanıyoruz. Ancak, bazen **çok sesli karakterleri** (多音字) yanlış telaffuz edebilir.
+
+
+Bu yanlış telaffuzları manuel olarak düzeltmek için, **düzeltilmiş pinyin**'i açı köşeli parantezler `< >` içine alın ve **ton işaretini** ekleyin.
 
 **Örnek:**
 
 - Orijinal metin: `这把剑长三十公分`
-- `长` karakterinin pinyin'ini düzeltin:  `这把剑<chang2>三十公分`
+- `长` kelimesinin pinyinini düzeltin:  `这把剑<chang2>三十公分`
 
-> **Not:** Eğer manuel olarak birden fazla pinyin atamak isterseniz, her pinyin'i `<>` ile sarın, örneğin, `这把<jian4><chang2><san1>十公分`
+> **Not:** Birden fazla pinyin manuel olarak atamak isterseniz, her pinyini `<>` ile ayırın, örn. `这把<jian4><chang2><san1>十公分`
+
+#### 3.7 Oluşturulan sesten uzun sessizlikleri kaldırma
+
+Model, oluşturulan seste sessizliklerin konumunu ve süresini otomatik olarak belirleyecektir. Bazen konuşmanın ortasında uzun bir sessizlik olur. Bunu istemiyorsanız, oluşturulan sesin ortasındaki uzun sessizlikleri kaldırmak için `--remove-long-sil` parametresini kullanabilirsiniz (kenar sessizlikler varsayılan olarak kaldırılır).
+
+#### 3.8 Model indirme
+
+Önceden eğitilmiş modelleri indirirken HuggingFace ile bağlantı kurmakta sorun yaşarsanız, uç noktayı aynalı siteye değiştirmeyi deneyin: `export HF_ENDPOINT=https://hf-mirror.com`.
 
 ## Kendi Modelinizi Eğitin
 
-Eğitim, ince ayar ve değerlendirme örnekleri için [egs](egs) dizinine bakınız.
+Eğitim, ince ayar ve değerlendirme örnekleri için [egs](egs) dizinine bakın.
+
+## C++ Dağıtımı
+
+CPU üzerinde C++ dağıtım çözümü için [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) adresine göz atın.
 
 ## Tartışma & İletişim
 
 Doğrudan [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) üzerinden tartışabilirsiniz.
 
-Ayrıca, QR kodunu tarayarak wechat grubumuza katılabilir veya wechat resmi hesabımızı takip edebilirsiniz.
+Ayrıca QR kodu tarayarak wechat grubumuza katılabilir veya resmi wechat hesabımızı takip edebilirsiniz.
 
 | Wechat Grubu | Wechat Resmi Hesabı |
 | ------------ | ------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Atıf
-
 
 ```bibtex
 @article{zhu2025zipvoice,
@@ -265,6 +296,6 @@ Ayrıca, QR kodunu tarayarak wechat grubumuza katılabilir veya wechat resmi hes
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

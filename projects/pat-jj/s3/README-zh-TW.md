@@ -1,10 +1,11 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 語言</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-CN">簡體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=pat-jj&project=s3&lang=ko">한국어</a>
@@ -30,8 +31,8 @@
 
 <div align="center">
 
-# s3 - 透過強化學習高效且有效的搜尋代理訓練
-***你不需要太多資料來訓練搜尋代理***
+# s3 - 透過強化學習訓練高效且有效的搜尋代理人
+***你不需要大量資料來訓練搜尋代理人***
 
 <p align="center">
 
@@ -41,7 +42,7 @@
 </p>
 </div>
 
-**效能總覽：**
+**效能概覽：**
 
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png" alt="performance_overview" width="800">
 
@@ -52,10 +53,10 @@
 <div align="center">
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png" alt="framework" width="800">
 
-**s3 架構**
+**s3 框架**
 </div>
 
-`s3` 是一個簡單但強大的框架，用於在檢索增強生成（RAG）中訓練搜尋代理。它教授語言模型如何更有效地進行搜尋——而無需更改生成器本身。`s3` 只專注於搜尋組件，僅使用以往方法一小部分的數據，就能在問答任務中取得優異表現。它具備模組化、高效能，並可無縫搭配任何黑盒大型語言模型使用。
+`s3` 是一個簡潔且強大的框架，用於訓練搜尋代理於檢索增強生成（RAG）中。它教導語言模型如何更有效地搜尋——而不需要改變生成器本身。通過只專注於搜尋組件，`s3` 能以遠少於先前方法所需資料量，在問答任務中取得卓越表現。它模組化、高效能，並設計可無縫搭配任何黑箱 LLM 使用。
 
 
 
@@ -63,14 +64,13 @@
 
 - [📦 安裝](#-installation)
 - [💡 準備](#-preparation)
-- [🏋️ 開始訓練](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
+- [🏋️ 執行訓練](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
 - [🔍 執行搜尋／檢索](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)
 - [📈 執行評估](#-run-evaluation)
 
 ## 📦 安裝
 
 **搜尋器與生成器環境**
-
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -80,7 +80,7 @@ pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1
 pip3 install ray
 
 # verl
-cd code
+# cd code
 pip install -e .
 
 # flash attention 2
@@ -115,8 +115,8 @@ python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
 gzip -d $save_path/wiki-18.jsonl.gz
 ```
-***預先計算簡單RAG初始化***
 
+***預先計算 Naïve RAG 初始化***（或者你可以在這裡下載我們處理過的資料：[huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data)）
 
 ```bash
 # deploy retriever
@@ -196,14 +196,24 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 ```bash
 bash scripts/evaluation/run.sh
 ```
+
+## 問答
+### 自訂資料？
+如果你想在自己的語料庫/資料集上測試 s3，可以參考這個提交來瞭解如何建立自己的流程：[commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+
+### 重現結果？
+已有多位開發者成功重現我們的結果。如果你有疑問或遇到問題，歡迎[提出 issue](https://github.com/pat-jj/s3/issues) — 我們很樂意提供實際指導（參見[此範例](https://github.com/pat-jj/s3/issues/20)）。
+
+雖然自行重現模型很簡單 — 我們其實**建議從零開始訓練**，因為評估通常比訓練更耗時 — 我們也提供了參考檢查點：[s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)，約一小時訓練完成。
+
+
+
 ## 致謝
-我們要感謝以下專案：
+我們感謝以下專案：
 [verl](https://github.com/volcengine/verl)、[RAGEN](https://github.com/RAGEN-AI/RAGEN)、[Search-R1](https://github.com/PeterGriffinJin/Search-R1)、[DeepRetrieval](https://github.com/pat-jj/DeepRetrieval)、[PySerini](https://github.com/castorini/pySerini)。
  
 
 ## 引用
-
-
 ```bibtex
 @article{jiang2025s3,
   title={s3: You Don't Need That Much Data to Train a Search Agent via RL},
@@ -221,6 +231,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

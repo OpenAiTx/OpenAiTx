@@ -1,4 +1,5 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 言語</summary>
     <div>
@@ -30,8 +31,8 @@
 
 <div align="center">
 
-# s3 - 効率的かつ効果的な検索エージェントのRLによるトレーニング
-***検索エージェントのトレーニングには、そんなに多くのデータは必要ありません***
+# s3 - 効率的かつ効果的な検索エージェントの強化学習によるトレーニング
+***検索エージェントのトレーニングにはそれほど多くのデータは必要ありません***
 
 <p align="center">
 
@@ -41,21 +42,21 @@
 </p>
 </div>
 
-**パフォーマンス概要:**
+**パフォーマンス概要：**
 
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png" alt="performance_overview" width="800">
 
 
 
-## s3とは？
+## s3とは何ですか？
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png" alt="framework" width="800">
 
-**s3 フレームワーク**
+**s3フレームワーク**
 </div>
 
-`s3`は、検索エージェントを検索強化生成（RAG）でトレーニングするための、シンプルかつ強力なフレームワークです。これは、生成器自体を変更せずに言語モデルにより効果的な検索方法を教えます。検索コンポーネントのみに焦点を当てることで、`s3`は従来手法のほんの一部のデータで、QAタスクにおいて高いパフォーマンスを実現します。モジュール型で効率的、かつどんなブラックボックス型LLMともシームレスに動作する設計です。
+`s3`は、検索エージェントを訓練するためのシンプルで強力なフレームワークであり、検索強化生成（RAG）で利用されます。これは言語モデルに、生成器自体を変更することなく、より効果的に検索する方法を教えます。検索コンポーネントのみに注力することで、`s3`は従来手法のごく一部のデータのみで、QAタスクにおいて高いパフォーマンスを実現します。モジュール構造で効率的、あらゆるブラックボックスLLMとシームレスに動作するよう設計されています。
 
 
 
@@ -64,13 +65,12 @@
 - [📦 インストール](#-installation)
 - [💡 準備](#-preparation)
 - [🏋️ トレーニングの実行](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-run-training)
-- [🔍 検索/検索実行](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)
+- [🔍 検索/リトリーバルの実行](https://github.com/pat-jj/s3?tab=readme-ov-file#-run-searchretrieval)
 - [📈 評価の実行](#-run-evaluation)
 
 ## 📦 インストール
 
-**Searcher & Generator 環境**
-
+**サーチャー＆ジェネレーター環境**
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -80,7 +80,7 @@ pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1
 pip3 install ray
 
 # verl
-cd code
+# cd code
 pip install -e .
 
 # flash attention 2
@@ -115,8 +115,8 @@ python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
 gzip -d $save_path/wiki-18.jsonl.gz
 ```
-***事前計算による単純なRAG初期化***
 
+***ナイーブRAG初期化の事前計算***（または、こちらから処理済みデータをダウンロードできます：[huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data)）
 
 ```bash
 # deploy retriever
@@ -196,15 +196,24 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 ```bash
 bash scripts/evaluation/run.sh
 ```
+
+## Q&A
+### カスタマイズされたデータについて
+独自のコーパスやデータセットでs3をテストしたい場合は、このコミットを参考にして独自のパイプラインを構築するために必要な手順を確認できます: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+
+### 結果の再現について
+複数の開発者がすでに本結果の再現に成功しています。質問がある場合や問題が発生した場合は、遠慮なく[issueをオープン](https://github.com/pat-jj/s3/issues)してください — 実践的なサポートも喜んで提供します（[この例](https://github.com/pat-jj/s3/issues/20)をご参照ください）。
+
+モデルの再現は比較的簡単です — 実際に評価は学習よりもはるかに時間がかかることが多いため、**スクラッチからの学習を推奨します** — 参考用のチェックポイントも提供しています: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)、約1時間で学習済みです。
+
+
+
 ## 謝辞
-以下のプロジェクトに感謝いたします：
+以下のプロジェクトに感謝します:
 [verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
  
 
 ## 引用
-
-
-
 ```bibtex
 @article{jiang2025s3,
   title={s3: You Don't Need That Much Data to Train a Search Agent via RL},
@@ -222,6 +231,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

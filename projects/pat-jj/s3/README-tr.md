@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Dil</summary>
@@ -31,7 +32,7 @@
 <div align="center">
 
 # s3 - RL ile Verimli ve Etkili Arama Ajanı Eğitimi
-***Bir Arama Ajanı Eğitmek İçin O Kadar Veriye İhtiyacınız Yok***
+***Bir Arama Ajanı Eğitmek İçin O Kadar Fazla Veriye İhtiyacınız Yok***
 
 <p align="center">
 
@@ -41,13 +42,13 @@
 </p>
 </div>
 
-**Performans Genel Bakış:**
+**Performans Genel Bakışı:**
 
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/performance_overview.png" alt="performance_overview" width="800">
 
 
 
-## s3 Nedir?
+## s3 nedir?
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/pat-jj/s3/main/images/framework.png" alt="framework" width="800">
@@ -55,7 +56,7 @@
 **s3 Çerçevesi**
 </div>
 
-`s3`, retrieval-augmented generation (RAG) alanında arama ajanlarını eğitmek için basit ama güçlü bir çerçevedir. Dil modellerine, jeneratörü değiştirmeden daha etkili nasıl arama yapılacağını öğretir. Yalnızca arama bileşenine odaklanarak, `s3` önceki yöntemlerden çok daha az veriyle Soru-Cevap görevlerinde güçlü performans elde eder. Modülerdir, verimlidir ve herhangi bir kara kutu LLM ile sorunsuz çalışacak şekilde tasarlanmıştır.
+`s3`, arama ajanlarını geri alma ile artırılmış üretim (RAG) kapsamında eğitmek için basit ama güçlü bir çerçevedir. Dil modellerine, üreticiyi değiştirmeden daha etkili arama yapmayı öğretir. Yalnızca arama bileşenine odaklanarak, `s3` önceki yöntemlere kıyasla kullanılan verinin sadece küçük bir kısmıyla QA görevlerinde yüksek performans elde eder. Modülerdir, verimlidir ve herhangi bir kara kutu LLM ile sorunsuz çalışacak şekilde tasarlanmıştır.
 
 
 
@@ -63,14 +64,13 @@
 
 - [📦 Kurulum](#-kurulum)
 - [💡 Hazırlık](#-hazırlık)
-- [🏋️ Eğitim Çalıştırma](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-e%C4%9Fitim-%C3%A7al%C4%B1%C5%9Ft%C4%B1rma)
-- [🔍 Arama/Çekme Çalıştırma](https://github.com/pat-jj/s3?tab=readme-ov-file#-arama%C3%A7ekme-%C3%A7al%C4%B1%C5%9Ft%C4%B1rma)
-- [📈 Değerlendirme Çalıştırma](#-de%C4%9Ferlendirme-%C3%A7al%C4%B1%C5%9Ft%C4%B1rma)
+- [🏋️ Eğitim Çalıştır](https://github.com/pat-jj/s3?tab=readme-ov-file#%EF%B8%8F-e%C4%9Fitim-%C3%A7al%C4%B1%C5%9Ft%C4%B1r)
+- [🔍 Arama/Geri Alma Çalıştır](https://github.com/pat-jj/s3?tab=readme-ov-file#-arama-geri-alma-%C3%A7al%C4%B1%C5%9Ft%C4%B1r)
+- [📈 Değerlendirme Çalıştır](#-de%C4%9Eerlendirme-%C3%A7al%C4%B1%C5%9Ft%C4%B1r)
 
 ## 📦 Kurulum
 
-**Arayıcı & Üreteç Ortamı**
-
+**Arama ve Üretici Ortamı**
 ```bash
 conda create -n s3 python=3.9
 # install torch [or you can skip this step and let vllm to install the correct version for you]
@@ -80,7 +80,7 @@ pip3 install vllm==0.6.3 # or you can install 0.5.4, 0.4.2 and 0.3.1
 pip3 install ray
 
 # verl
-cd code
+# cd code
 pip install -e .
 
 # flash attention 2
@@ -113,8 +113,8 @@ python scripts/download.py --save_path $save_path
 cat $save_path/part_* > $save_path/e5_Flat.index
 gzip -d $save_path/wiki-18.jsonl.gz
 ```
-***Naïf RAG Başlatmasını Önceden Hesapla***
 
+***Naif RAG Başlatmasını Önceden Hesapla*** (veya işlenmiş verimizi buradan indirebilirsiniz: [huggingface](https://huggingface.co/datasets/pat-jj/s3_processed_data))
 
 ```bash
 # deploy retriever
@@ -194,14 +194,24 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 ```bash
 bash scripts/evaluation/run.sh
 ```
+
+## Soru&Cevap
+### Özelleştirilmiş Veri?
+S3'ü kendi korpusunuz/veri setiniz üzerinde test etmek istiyorsanız, kendi hattınızı nasıl kurmanız gerektiğini görmek için şu commite başvurabilirsiniz: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+
+### Sonuçların Yeniden Üretilmesi?
+Birçok geliştirici sonuçlarımızı başarıyla yeniden üretti. Sorularınız varsa veya bir sorunla karşılaşırsanız, [issue açmaktan](https://github.com/pat-jj/s3/issues) çekinmeyin — pratik destek sağlamaktan mutluluk duyarız (bkz. [bu örnek](https://github.com/pat-jj/s3/issues/20)).
+
+Modeli kendinizin yeniden üretmesi oldukça kolaydır — ve aslında **sıfırdan eğitmenizi tavsiye ediyoruz**, çünkü değerlendirme çoğu zaman eğitimden daha fazla zaman alabiliyor — ayrıca referans bir kontrol noktası da sunuyoruz: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), yaklaşık bir saatte eğitilmiştir.
+
+
+
 ## Teşekkür
 Aşağıdaki projelere teşekkür etmek isteriz:
 [verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
  
 
 ## Atıf
-
-
 ```bibtex
 @article{jiang2025s3,
   title={s3: You Don't Need That Much Data to Train a Search Agent via RL},
@@ -219,6 +229,6 @@ Aşağıdaki projelere teşekkür etmek isteriz:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

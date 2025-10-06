@@ -1,0 +1,498 @@
+[
+  {
+    "Id": 1,
+    "Content": "# actix-web 3.0 中文文档\n\n## 1.说明\n基本上算是翻译了官文档,但是示例并不一定和官方的相同. 所有的示例代码都源自官方文档中的示例,但又不完全与之相同.\n\n算是一边学习一边理解写出来的demo代码且全部都能正常运行.\n\n可以使用如下命令 + 指定文件名执行并查看结果:\n",
+    "ContentSha": "nUzQKOxwqN+NuoCAd8EfM4x1KLlwfAyEGTk49iwAJIw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# actix-web 3.0 中文文档\n\n## 1.説明\n基本的には公式ドキュメントを翻訳したものですが、サンプルは必ずしも公式と同じではありません。すべてのサンプルコードは公式ドキュメントの例を元にしていますが、完全に同一ではありません。\n\n学びながら理解して書いたデモコードで、すべて正常に動作します。\n\n以下のコマンド + 指定ファイル名で実行して結果を確認できます:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "vLchMPNejwdQI7443p/vcWXx0F2NK1YGAOTOzL78fDU=",
+        "originContent": "# actix-web 3.0 中文文档",
+        "translatedContent": "# actix-web 3.0 中文文档"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "xLmUKo+x6VxPwI/C9+n4Yq7BQ4RSf1Fkpx9zrlhNWW0=",
+        "originContent": "## 1.说明",
+        "translatedContent": "## 1.説明"
+      },
+      {
+        "row": 4,
+        "rowsha": "Px20dw7oehsu+aBFVF2AQYzZ573nytreeLExDoP+y0M=",
+        "originContent": "基本上算是翻译了官文档,但是示例并不一定和官方的相同. 所有的示例代码都源自官方文档中的示例,但又不完全与之相同.",
+        "translatedContent": "基本的には公式ドキュメントを翻訳したものですが、サンプルは必ずしも公式と同じではありません。すべてのサンプルコードは公式ドキュメントの例を元にしていますが、完全に同一ではありません。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Bq0wU//zA2JLIzdoQ5iY0bsfxl5zwu8NAWs/TFENIas=",
+        "originContent": "算是一边学习一边理解写出来的demo代码且全部都能正常运行.",
+        "translatedContent": "学びながら理解して書いたデモコードで、すべて正常に動作します。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "teM8H0zAcuoMVXdz2oEvqs2vDGG5CXpGO5sIPz7NWXQ=",
+        "originContent": "可以使用如下命令 + 指定文件名执行并查看结果:",
+        "translatedContent": "以下のコマンド + 指定ファイル名で実行して結果を確認できます:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```shell script\ncargo run --bin hello_world\n```",
+    "ContentSha": "f6gcTff8oeUNp558rnq5obBYVjIYkYiufLRHWRNXevI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\ncargo run --bin hello_world\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "meFuuwBv49FBDHtxtrbhNpLawQ10JByhBjNZyFz1u4o=",
+        "originContent": "cargo run --bin hello_world",
+        "translatedContent": "cargo run --bin hello_world"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n**另外:** `Actix-Web` 的网络部分是基于[Tokio](https://tokio.rs/tokio/tutorial) 来实现的. 因此要想更加深入的了解`Actix-web`的实现细节, `Tokio`是你\n必须要学习和了解的框架. `Tokio` 的中文文档指南请参考: [这里](https://github.com/dslchd/tokio-cn-doc).\n\n## 2.文档索引\n### 介绍(Introduction)\n[欢迎(Welcome)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/WelcomeToActix.md)\n\n[什么是Actix(What is Actix)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/WhatIsActix.md)\n### 基础(Basics)\n[起步(Getting Started)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/GettingStarted.md)\n\n[应用(Application)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Application.md)\n\n[服务器(Server)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Server.md)\n\n[处理器(Handlers)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Handlers.md)\n\n[提取器(Extractors)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Extractors.md)\n\n### 高级(Advanced)\n[错误(Errors)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Errors.md)\n\n[URL分发(URL Dispatch)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/URLDispatch.md)\n\n[请求(Requests)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Requests.md)\n\n[响应(Responses)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Responses.md)\n\n[测试(Testing)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Testing.md)\n\n[中间件(Middleware)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Middleware.md)\n\n[静态文件(Static Files)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/StaticFiles.md)\n\n### 协议(Protocols)\n[Websockets](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Webscokets.md)\n\n[HTTP/2](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/HTTP2.md)\n",
+    "ContentSha": "J81OMsgo9ha78Z5c2M61pKD7OPiNXS/lMB/abGBV7x0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**另外:** `Actix-Web` 的网络部分是基于[Tokio](https://tokio.rs/tokio/tutorial) 来实现的. 因此要想更加深入的了解`Actix-web`的实现细节, `Tokio`是你\n必须要学习和了解的框架. `Tokio` 的中文文档指南请参考: [这里](https://github.com/dslchd/tokio-cn-doc).\n\n## 2.文档索引\n### 介绍(Introduction)\n[欢迎(Welcome)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/WelcomeToActix.md)\n\n[什么是Actix(What is Actix)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/WhatIsActix.md)\n### 基础(Basics)\n[起步(Getting Started)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/GettingStarted.md)\n\n[应用(Application)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Application.md)\n\n[服务器(Server)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Server.md)\n\n[处理器(Handlers)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Handlers.md)\n\n[提取器(Extractors)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Extractors.md)\n\n### 高级(Advanced)\n[错误(Errors)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Errors.md)\n\n[URL分发(URL Dispatch)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/URLDispatch.md)\n\n[请求(Requests)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Requests.md)\n\n[响应(Responses)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Responses.md)\n\n[测试(Testing)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Testing.md)\n\n[中间件(Middleware)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Middleware.md)\n\n[静态文件(Static Files)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/StaticFiles.md)\n\n### 协议(Protocols)\n[Websockets](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Webscokets.md)\n\n[HTTP/2](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/HTTP2.md)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "q1oPbFi6sq/wxfjYeaON97XH/VMMdIZwJP2JjQ06hTA=",
+        "originContent": "**另外:** `Actix-Web` 的网络部分是基于[Tokio](https://tokio.rs/tokio/tutorial) 来实现的. 因此要想更加深入的了解`Actix-web`的实现细节, `Tokio`是你",
+        "translatedContent": "**另外:** `Actix-Web` 的网络部分是基于[Tokio](https://tokio.rs/tokio/tutorial) 来实现的. 因此要想更加深入的了解`Actix-web`的实现细节, `Tokio`是你"
+      },
+      {
+        "row": 3,
+        "rowsha": "3a6FWA+qKAtPg3vbOjae2WXdZmMSIZwYFN6zJxo6N9w=",
+        "originContent": "必须要学习和了解的框架. `Tokio` 的中文文档指南请参考: [这里](https://github.com/dslchd/tokio-cn-doc).",
+        "translatedContent": "必须要学习和了解的框架. `Tokio` 的中文文档指南请参考: [这里](https://github.com/dslchd/tokio-cn-doc)."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "W6inwZ4tdtNFsAt9i27k+aljQuNINiQ7H4NgxHfsB1k=",
+        "originContent": "## 2.文档索引",
+        "translatedContent": "## 2.文档索引"
+      },
+      {
+        "row": 6,
+        "rowsha": "zHoba20kWDnPgIGdG5tseb3Ih6mVoKYz+ySlKUWSpbo=",
+        "originContent": "### 介绍(Introduction)",
+        "translatedContent": "### 介绍(Introduction)"
+      },
+      {
+        "row": 7,
+        "rowsha": "2HcbCfNnNACkeE47dhPDXFFD0iMh5QmACHcXL7RU018=",
+        "originContent": "[欢迎(Welcome)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/WelcomeToActix.md)",
+        "translatedContent": "[欢迎(Welcome)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/WelcomeToActix.md)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "byy6OsmTYv0YmhkvD0aTm7krFmv0ZmQD/5BX94DRir0=",
+        "originContent": "[什么是Actix(What is Actix)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/WhatIsActix.md)",
+        "translatedContent": "[什么是Actix(What is Actix)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/WhatIsActix.md)"
+      },
+      {
+        "row": 10,
+        "rowsha": "poGdUU3CL13liQmTpOgldMAMSbj6Q1fOSiEWvSrBJy0=",
+        "originContent": "### 基础(Basics)",
+        "translatedContent": "### 基础(Basics)"
+      },
+      {
+        "row": 11,
+        "rowsha": "yfdVMpcCpIGS56LcpJ8/pWDJAH6dPEawiANG+1wE0f4=",
+        "originContent": "[起步(Getting Started)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/GettingStarted.md)",
+        "translatedContent": "[起步(Getting Started)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/GettingStarted.md)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "BJ5VDoi6lQKLoUQT/C9vDjln93LWQrfhs/edGk5uook=",
+        "originContent": "[应用(Application)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Application.md)",
+        "translatedContent": "[应用(Application)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Application.md)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "PcxGzRnbPqYbLZh0Dh4zsc7FbypcB66hA1FzuvGOg3c=",
+        "originContent": "[服务器(Server)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Server.md)",
+        "translatedContent": "[服务器(Server)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Server.md)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "nbgGL8coeh/RMVLnTjuJ10HLkIZuGNAKI2Byg8cCtr8=",
+        "originContent": "[处理器(Handlers)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Handlers.md)",
+        "translatedContent": "[处理器(Handlers)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Handlers.md)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "9jA5l8qapuW9WoeYm2Ojia+WyNRvDtAHWVyDFqgmpgU=",
+        "originContent": "[提取器(Extractors)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Extractors.md)",
+        "translatedContent": "[提取器(Extractors)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Extractors.md)"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "0K4fXIZ66ahMFkNiB9QUAWTT9maQ78sinVOH5mFjpL8=",
+        "originContent": "### 高级(Advanced)",
+        "translatedContent": "### 高级(Advanced)"
+      },
+      {
+        "row": 22,
+        "rowsha": "MrGNimyDPJTochbTI+7SZKoj5pvX0HIzrZ+xXohDaVs=",
+        "originContent": "[错误(Errors)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Errors.md)",
+        "translatedContent": "[错误(Errors)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Errors.md)"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Y88GQPtYdx6oA33GYAedpt9JKHHrI9FsxY2lFM4J+28=",
+        "originContent": "[URL分发(URL Dispatch)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/URLDispatch.md)",
+        "translatedContent": "[URL分发(URL Dispatch)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/URLDispatch.md)"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "SA7TlZk+NpZO5Ot9SbNrns6/GVZmLxPPvLqJgSn1Qh4=",
+        "originContent": "[请求(Requests)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Requests.md)",
+        "translatedContent": "[请求(Requests)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Requests.md)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "C0+Y2cUgInO3kLfmxo5zfaipsv12cWkQHQxHob1oKhU=",
+        "originContent": "[响应(Responses)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Responses.md)",
+        "translatedContent": "[响应(Responses)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Responses.md)"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "pRaH8MFqNtqYrWB+DB1SIsDtCnZ5TbfTYkB5GCOyeSo=",
+        "originContent": "[测试(Testing)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Testing.md)",
+        "translatedContent": "[测试(Testing)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Testing.md)"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "jV0BWKtgA6UBjVut281+saWn15xBGuyrdNawGP5LYi4=",
+        "originContent": "[中间件(Middleware)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Middleware.md)",
+        "translatedContent": "[中间件(Middleware)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Middleware.md)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "GmKw4gtcg+Gdj6cVJs1WuRGbbRMq18bWLznVFmTy7u0=",
+        "originContent": "[静态文件(Static Files)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/StaticFiles.md)",
+        "translatedContent": "[静态文件(Static Files)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/StaticFiles.md)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "qzGbQld6524fw0riHhP8JmlGiw/1P5/Er4hAD7KlZq4=",
+        "originContent": "### 协议(Protocols)",
+        "translatedContent": "### 协议(Protocols)"
+      },
+      {
+        "row": 37,
+        "rowsha": "GiXfgr5kVzx/wX4Xi0zaU3CthcQr0TCQJUqi7rkoGBI=",
+        "originContent": "[Websockets](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Webscokets.md)",
+        "translatedContent": "[Websockets](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Webscokets.md)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "kpU4He4cGBReMlhOZBOdh7dpcc0JFyK2mCqEUpbNkRY=",
+        "originContent": "[HTTP/2](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/HTTP2.md)",
+        "translatedContent": "[HTTP/2](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/HTTP2.md)"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "## 模式(Patterns)\n[自动重载(Auto-Reloading)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/AutoReloading.md)\n\n[数据库(Databases)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Databases.md)\n\n## 图解(Diagrams)\n[HTTP服务初始化(HTTP Server Initialization)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/HTTPServerInitialization.md)\n\n[链接生命周期(Connection Lifecycle)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/ConnectionLifecycle.md)\n\n## API文档\n[actix](https://docs.rs/actix)\n\n[actix-web](https://docs.rs/actix-web/)\n\n## 3.其它\n由于水平有限,在翻译过程中过程中难免有错误或遗漏,可以发现后及时向我提出(提 issue).\n\n希望此文档能给不想看英文原文或英文不太好的朋友, 在使用或学习 `Actix-web` 与 `Rust` 来开发Web应用时带来帮助,\n大家共同提高, 为Rust的流行作出丁点贡献.\n\n**如果觉得给你的学习带来了帮助, 可以帮忙点个star, 这将是我一直同步更新下去的动力.**",
+    "ContentSha": "zOQ8rAS0Y2fZUGql6SwwlRrPVAr+hVC2hAjbopsAiGY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## パターン(Patterns)\n[自動リロード(Auto-Reloading)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/AutoReloading.md)\n\n[データベース(Databases)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Databases.md)\n\n## 図解(Diagrams)\n[HTTPサーバー初期化(HTTP Server Initialization)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/HTTPServerInitialization.md)\n\n[コネクションライフサイクル(Connection Lifecycle)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/ConnectionLifecycle.md)\n\n## APIドキュメント\n[actix](https://docs.rs/actix)\n\n[actix-web](https://docs.rs/actix-web/)\n\n## 3.その他\n実力不足のため、翻訳過程で誤りや抜けがあるかもしれません。見つけた場合は速やかにご指摘ください（issueを提起）。\n\nこのドキュメントが、英語原文を読みたくない、または英語が苦手な方が `Actix-web` と `Rust` を使ってWebアプリケーションを開発・学習する際の助けになれば幸いです。\n皆で共に成長し、Rustの普及に微力ながら貢献できればと思います。\n\n**もしこの学習が役に立ったと思われたら、スターを押していただけると励みになります。これからも継続して更新していく原動力となります。**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oCWQKU4y+2dohAqvMxpm8KZ72++ueGRu1Yu5Hoo8Pnw=",
+        "originContent": "## 模式(Patterns)",
+        "translatedContent": "## パターン(Patterns)"
+      },
+      {
+        "row": 2,
+        "rowsha": "sJK/c++FJWGmOVZjWJ9AoUAdtt3p+Nx6jT5HUEo0T5Y=",
+        "originContent": "[自动重载(Auto-Reloading)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/AutoReloading.md)",
+        "translatedContent": "[自動リロード(Auto-Reloading)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/AutoReloading.md)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "iWPrr7lbXoPHOIMkAyCLaBXaRFxH8AiwbbLuZCOBrXU=",
+        "originContent": "[数据库(Databases)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Databases.md)",
+        "translatedContent": "[データベース(Databases)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/Databases.md)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "go23E/ddfbREmk2kZTnjkie+jNK0aWHJyoOVM+izrZU=",
+        "originContent": "## 图解(Diagrams)",
+        "translatedContent": "## 図解(Diagrams)"
+      },
+      {
+        "row": 7,
+        "rowsha": "CBD3XES4x3CnTtnEqqhbiw77q71tQbzchpI/lGql4Qk=",
+        "originContent": "[HTTP服务初始化(HTTP Server Initialization)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/HTTPServerInitialization.md)",
+        "translatedContent": "[HTTPサーバー初期化(HTTP Server Initialization)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/HTTPServerInitialization.md)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "xGwPaxWuy3ug0ML792HpscadWxSlX9s2dgaOyU1TaDw=",
+        "originContent": "[链接生命周期(Connection Lifecycle)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/ConnectionLifecycle.md)",
+        "translatedContent": "[コネクションライフサイクル(Connection Lifecycle)](https://raw.githubusercontent.com/dslchd/actix-web3-CN-doc/master/doc/ConnectionLifecycle.md)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "CG9iliggVaUsJR15gKF48sWnmV4QL/r/14rCp8XBjtg=",
+        "originContent": "## API文档",
+        "translatedContent": "## APIドキュメント"
+      },
+      {
+        "row": 12,
+        "rowsha": "s7cARiBLz+vMQVx+7Z4x9+CfU+hyXCpgxeEWN2d0Egs=",
+        "originContent": "[actix](https://docs.rs/actix)",
+        "translatedContent": "[actix](https://docs.rs/actix)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "2gbHVVjBDQk15rhKN5/uBs5EEICnDAeF8LE+SeZTves=",
+        "originContent": "[actix-web](https://docs.rs/actix-web/)",
+        "translatedContent": "[actix-web](https://docs.rs/actix-web/)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "40G4M/rKMu3wSs9+7TmofA96NjIYNkSCUuh/6X8KGIU=",
+        "originContent": "## 3.其它",
+        "translatedContent": "## 3.その他"
+      },
+      {
+        "row": 17,
+        "rowsha": "tIFkWKz7AYtJuC8GS+ilhiYoXTF/EFrpSCX/4RcWjoo=",
+        "originContent": "由于水平有限,在翻译过程中过程中难免有错误或遗漏,可以发现后及时向我提出(提 issue).",
+        "translatedContent": "実力不足のため、翻訳過程で誤りや抜けがあるかもしれません。見つけた場合は速やかにご指摘ください（issueを提起）。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "xO6nMxIZSbzP9Q/moaF3lWTg2pG0RbAnGlesZuN0UVY=",
+        "originContent": "希望此文档能给不想看英文原文或英文不太好的朋友, 在使用或学习 `Actix-web` 与 `Rust` 来开发Web应用时带来帮助,",
+        "translatedContent": "このドキュメントが、英語原文を読みたくない、または英語が苦手な方が `Actix-web` と `Rust` を使ってWebアプリケーションを開発・学習する際の助けになれば幸いです。"
+      },
+      {
+        "row": 20,
+        "rowsha": "CJF6Dt7j7xYXMQIrvdFJVPNk5DxuffWrxAqxbQvfHII=",
+        "originContent": "大家共同提高, 为Rust的流行作出丁点贡献.",
+        "translatedContent": "皆で共に成長し、Rustの普及に微力ながら貢献できればと思います。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "NADa4huUM9tQZO7CE3NgaexdPZS/iLojPt2M6yzuOXM=",
+        "originContent": "**如果觉得给你的学习带来了帮助, 可以帮忙点个star, 这将是我一直同步更新下去的动力.**",
+        "translatedContent": "**もしこの学習が役に立ったと思われたら、スターを押していただけると励みになります。これからも継続して更新していく原動力となります。**"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,4 +1,5 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 Sprache</summary>
     <div>
@@ -37,13 +38,13 @@
 
 ## Übersicht
 
-ZipVoice ist eine Serie schneller und hochwertiger Zero-Shot-TTS-Modelle, die auf Flow Matching basieren.
+ZipVoice ist eine Serie von schnellen und hochwertigen Zero-Shot-TTS-Modellen, die auf Flow Matching basieren.
 
 ### 1. Hauptmerkmale
 
 - Klein und schnell: nur 123M Parameter.
 
-- Hochwertiges Voice Cloning: State-of-the-Art-Leistung bei Sprecherähnlichkeit, Verständlichkeit und Natürlichkeit.
+- Hochwertiges Voice Cloning: branchenführende Leistung bei Sprecherähnlichkeit, Verständlichkeit und Natürlichkeit.
 
 - Mehrsprachig: unterstützt Chinesisch und Englisch.
 
@@ -69,33 +70,32 @@ ZipVoice ist eine Serie schneller und hochwertiger Zero-Shot-TTS-Modelle, die au
     </tr>
     <tr>
       <td>ZipVoice-Distill</td>
-      <td>Die destillierte Version von ZipVoice, mit verbesserter Geschwindigkeit und minimalem Leistungsverlust.</td>
+      <td>Die destillierte Version von ZipVoice mit verbesserter Geschwindigkeit und minimalem Leistungsverlust.</td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog</td>
-      <td>Ein Dialoggenerierungsmodell auf Basis von ZipVoice, das in der Lage ist, einspurige Zwei-Parteien-Gespräche zu erzeugen.</td>
+      <td>Ein Dialoggenerierungsmodell, das auf ZipVoice basiert und einsprachige Zwei-Parteien-Gespräche erzeugen kann.</td>
       <td rowspan="2"><a href="https://arxiv.org/abs/2507.09318"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
       <td rowspan="2"><a href="https://zipvoice-dialog.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog-Stereo</td>
-      <td>Die Stereo-Variante von ZipVoice-Dialog, die Zwei-Kanal-Dialoggenerierung ermöglicht, wobei jeder Sprecher einem eigenen Kanal zugewiesen wird.</td>
+      <td>Die Stereo-Variante von ZipVoice-Dialog, ermöglicht zweikanalige Dialoggenerierung mit jedem Sprecher auf einem eigenen Kanal.</td>
     </tr>
   </tbody>
 </table>
 
 ## Neuigkeiten
 
-**2025/07/14**: **ZipVoice-Dialog** und **ZipVoice-Dialog-Stereo**, zwei gesprochene Dialoggenerierungsmodelle, sind veröffentlicht. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
+**2025/07/14**: **ZipVoice-Dialog** und **ZipVoice-Dialog-Stereo**, zwei Modelle zur gesprochenen Dialoggenerierung, sind veröffentlicht. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![Demo-Seite](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
 
-**2025/07/14**: **OpenDialog**-Datensatz, ein 6.8k-Stunden-Sprachdialogdatensatz, ist veröffentlicht. Download unter [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog). Details unter [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318).
+**2025/07/14**: **OpenDialog** Datensatz, ein 6,8k-Stunden-Datensatz für gesprochene Dialoge, ist veröffentlicht. Download unter [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog). Details unter [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318).
 
-**2025/06/16**: **ZipVoice** und **ZipVoice-Distill** sind veröffentlicht. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)
+**2025/06/16**: **ZipVoice** und **ZipVoice-Distill** sind veröffentlicht. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![Demo-Seite](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)
 
 ## Installation
 
-### 1. Klonen Sie das ZipVoice-Repository
-
+### 1. Klone das ZipVoice-Repository
 
 ```bash
 git clone https://github.com/k2-fsa/ZipVoice.git
@@ -129,7 +129,7 @@ Nutzer in Festlandchina können https://k2-fsa.org/zh-CN/get-started/k2/ nutzen.
 - Um die k2-Installation zu überprüfen:
 
 
-```
+```bash
 python3 -c "import k2; print(k2.__file__)"
 ```
 ## Verwendung
@@ -150,16 +150,9 @@ python3 -m zipvoice.bin.infer_zipvoice \
     --res-wav-path result.wav
 ```
 - `--model-name` kann `zipvoice` oder `zipvoice_distill` sein, was jeweils die Modelle vor und nach der Destillation bezeichnet.
-- Wenn `<>` oder `[]` im Text erscheinen, werden die darin eingeschlossenen Zeichenfolgen als spezielle Tokens behandelt. `<>` steht für chinesische Pinyin und `[]` für andere spezielle Tags.
-- Mit `zipvoice.bin.infer_zipvoice_onnx` können ONNX-Modelle auf der CPU schneller ausgeführt werden.
-
-> **Hinweis:** Wenn Sie Probleme beim Verbinden mit HuggingFace haben, versuchen Sie Folgendes:
-> ```bash
-> export HF_ENDPOINT=https://hf-mirror.com
-> ```
+- Wenn `<>` oder `[]` im Text erscheinen, werden von ihnen eingeschlossene Zeichenfolgen als spezielle Tokens behandelt. `<>` steht für chinesische Pinyin und `[]` für andere spezielle Tags.
 
 #### 1.2 Inferenz einer Liste von Sätzen
-
 
 ```bash
 python3 -m zipvoice.bin.infer_zipvoice \
@@ -194,55 +187,93 @@ Jede Zeile in `test.tsv` hat eines der folgenden Formate:
 ```
 {wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}
 ```
+
 - `wav_name` ist der Name der Ausgabedatei im wav-Format.
-- `prompt_transcription` ist die Transkription der Gesprächsvorgabe-wav, z. B. "[S1] Hallo. [S2] Wie geht es dir?"
-- `prompt_wav` ist der Pfad zur Vorgabe-wav.
-- `text` ist der zu synthetisierende Text, z. B. "[S1] Mir geht es gut. [S2] Wie heißt du?"
+- `prompt_transcription` ist die Transkription der Konversationsaufforderung (Prompt-wav), z.B. "[S1] Hallo. [S2] Wie geht es dir?"
+- `prompt_wav` ist der Pfad zur Prompt-wav-Datei.
+- `text` ist der zu synthetisierende Text, z.B. "[S1] Mir geht es gut. [S2] Wie heißt du? [S1] Ich bin Eric. [S2] Hallo Eric."
 
 (2) **Geteiltes Prompt-Format**, bei dem die Audiodateien und Transkriptionen der beiden Sprecher in separaten Dateien vorliegen:
 
-
 ```
-{wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
+{wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
-- `wav_name` ist der Name der Ausgabedatei im wav-Format.
-- `spk1_prompt_transcription` ist die Transkription der Prompt-wav des ersten Sprechers, z. B. "Hallo"
-- `spk2_prompt_transcription` ist die Transkription der Prompt-wav des zweiten Sprechers, z. B. "Wie geht's?"
-- `spk1_prompt_wav` ist der Pfad zur Prompt-wav-Datei des ersten Sprechers.
-- `spk2_prompt_wav` ist der Pfad zur Prompt-wav-Datei des zweiten Sprechers.
-- `text` ist der zu synthetisierende Text, z. B. "[S1] Mir geht's gut. [S2] Wie heißt du?"
+- `wav_name` ist der Name der Ausgabedatei im WAV-Format.
+- `spk1_prompt_transcription` ist die Transkription der Prompt-WAV-Datei des ersten Sprechers, z. B. „Hallo“.
+- `spk2_prompt_transcription` ist die Transkription der Prompt-WAV-Datei des zweiten Sprechers, z. B. „Wie geht es dir?“
+- `spk1_prompt_wav` ist der Pfad zur Prompt-WAV-Datei des ersten Sprechers.
+- `spk2_prompt_wav` ist der Pfad zur Prompt-WAV-Datei des zweiten Sprechers.
+- `text` ist der zu synthetisierende Text, z. B. „[S1] Mir geht's gut. [S2] Wie heißt du? [S1] Ich bin Eric. [S2] Hallo Eric.“
 
-### 3. Weitere Funktionen
+### 3 Hinweise für bessere Nutzung:
 
-#### 3.1 Korrektur falsch ausgesprochener chinesischer Polyphon-Zeichen
+#### 3.1 Promptlänge
 
-Wir verwenden [pypinyin](https://github.com/mozillazg/python-pinyin), um chinesische Zeichen in Pinyin umzuwandeln. Allerdings kann es gelegentlich **Polyphon-Zeichen** (多音字) falsch aussprechen.
+Wir empfehlen eine kurze Prompt-WAV-Datei (z. B. weniger als 3 Sekunden für die Sprachsynthese mit einem Sprecher, weniger als 10 Sekunden für die Dialog-Sprachsynthese) für eine schnellere Inferenzgeschwindigkeit. Eine sehr lange Prompt-Datei verlangsamt die Inferenz und verschlechtert die Sprachqualität.
 
-Um diese Fehlinterpretationen manuell zu korrigieren, setzen Sie das **korrigierte Pinyin** in spitze Klammern `< >` und fügen Sie die **Tonmarkierung** hinzu.
+#### 3.2 Geschwindigkeitsoptimierung
+
+Falls die Inferenzgeschwindigkeit unzureichend ist, können Sie diese wie folgt erhöhen:
+
+- **Distill-Modell und weniger Schritte**: Für das Einzelsprecher-Sprachgenerierungsmodell verwenden wir standardmäßig das `zipvoice`-Modell für bessere Sprachqualität. Wenn schnellere Geschwindigkeit Priorität hat, können Sie auf `zipvoice_distill` umschalten und die Anzahl der `--num-steps` auf bis zu `4` reduzieren (Standard ist 8).
+
+- **CPU-Beschleunigung durch Multithreading**: Beim Ausführen auf der CPU können Sie den Parameter `--num-thread` (z. B. `--num-thread 4`) verwenden, um die Anzahl der Threads für höhere Geschwindigkeit zu erhöhen. Standardmäßig wird 1 Thread verwendet.
+
+- **CPU-Beschleunigung mit ONNX**: Beim Ausführen auf der CPU können Sie ONNX-Modelle mit `zipvoice.bin.infer_zipvoice_onnx` für höhere Geschwindigkeit verwenden (ONNX wird für Dialoggenerierungsmodelle bisher nicht unterstützt). Für noch höhere Geschwindigkeit können Sie zusätzlich `--onnx-int8 True` setzen, um ein INT8-quantisiertes ONNX-Modell zu nutzen. Beachten Sie, dass das quantisierte Modell zu einer gewissen Verschlechterung der Sprachqualität führt. **Verwenden Sie ONNX nicht auf der GPU**, da es langsamer ist als PyTorch auf der GPU.
+
+#### 3.3 Speichersteuerung
+
+Der angegebene Text wird anhand von Satzzeichen (für Einzelsprecher-Sprachsynthese) oder Sprecherwechsel-Symbolen (für Dialog-Sprachsynthese) in Abschnitte unterteilt. Anschließend werden die Abschnitte stapelweise verarbeitet. Das Modell kann daher beliebig lange Texte mit nahezu konstantem Speicherverbrauch verarbeiten. Sie können den Speicherverbrauch durch Anpassung des Parameters `--max-duration` steuern.
+
+#### 3.4 „Raw“-Bewertung
+
+Standardmäßig werden die Eingaben (Prompt-WAV, Prompt-Transkription und Text) vorverarbeitet, um eine effiziente Inferenz und bessere Leistung zu erzielen. Wenn Sie die „rohe“ Leistung des Modells mit den exakt vorgegebenen Eingaben bewerten möchten (z. B. um die Ergebnisse aus unserer Publikation zu reproduzieren), können Sie `--raw-evaluation True` verwenden.
+
+#### 3.5 Kurzer Text
+
+Bei der Spracherzeugung für sehr kurze Texte (z. B. ein oder zwei Wörter) kann es vorkommen, dass die erzeugte Sprache bestimmte Aussprachen auslässt. Um dieses Problem zu beheben, können Sie `--speed 0.3` verwenden (wobei 0.3 ein anpassbarer Wert ist), um die Dauer der erzeugten Sprache zu verlängern.
+
+#### 3.6 Korrektur falsch ausgesprochener chinesischer Polyphon-Zeichen
+
+Wir verwenden [pypinyin](https://github.com/mozillazg/python-pinyin), um chinesische Schriftzeichen in Pinyin umzuwandeln. Allerdings kann es gelegentlich zu falscher Aussprache von **Polyphon-Zeichen** (多音字) kommen.
+
+
+Um diese Fehl-Aussprache manuell zu korrigieren, setze das **korrigierte Pinyin** in spitze Klammern `< >` und füge das **Tonzeichen** hinzu.
 
 **Beispiel:**
 
 - Originaltext: `这把剑长三十公分`
 - Korrigiere das Pinyin von `长`:  `这把剑<chang2>三十公分`
 
-> **Hinweis:** Wenn Sie mehreren Zeichen manuell Pinyin zuweisen möchten, setzen Sie jedes Pinyin in `<>`, z. B. `这把<jian4><chang2><san1>十公分`
+> **Hinweis:** Wenn du mehreren Zeichen manuell Pinyin zuweisen möchtest, setze jedes Pinyin in `< >`, z.B.: `这把<jian4><chang2><san1>十公分`
 
-## Eigenes Modell trainieren
+#### 3.7 Entfernen von langen Pausen aus der generierten Sprache
 
-Siehe das Verzeichnis [egs](egs) für Trainings-, Feinabstimmungs- und Bewertungsbeispiele.
+Das Modell bestimmt automatisch die Positionen und Längen der Pausen in der generierten Sprache. Gelegentlich gibt es eine lange Pause mitten in der Sprache. Wenn du das nicht möchtest, kannst du `--remove-long-sil` verwenden, um lange Pausen in der Mitte der generierten Sprache zu entfernen (Randpausen werden standardmäßig entfernt).
+
+#### 3.8 Modell-Download
+
+Wenn du beim Herunterladen der vortrainierten Modelle Probleme hast, dich mit HuggingFace zu verbinden, versuche, den Endpunkt auf die Mirror-Seite zu wechseln: `export HF_ENDPOINT=https://hf-mirror.com`.
+
+## Trainiere dein eigenes Modell
+
+Siehe das [egs](egs) Verzeichnis für Beispiele zum Training, Fine-Tuning und zur Auswertung.
+
+## C++-Bereitstellung
+
+Siehe [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) für die C++-Bereitstellungslösung auf der CPU.
 
 ## Diskussion & Kommunikation
 
-Sie können direkt auf [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) diskutieren.
+Du kannst direkt in [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) diskutieren.
 
-Sie können auch den QR-Code scannen, um unserer WeChat-Gruppe beizutreten oder unserem offiziellen WeChat-Account zu folgen.
+Du kannst auch den QR-Code scannen, um unserer Wechat-Gruppe beizutreten oder unserem offiziellen Wechat-Account zu folgen.
 
-| WeChat-Gruppe | Offizieller WeChat-Account |
+| Wechat-Gruppe | Offizieller Wechat-Account |
 | ------------- | -------------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Zitation
-
 
 ```bibtex
 @article{zhu2025zipvoice,
@@ -265,6 +296,6 @@ Sie können auch den QR-Code scannen, um unserer WeChat-Gruppe beizutreten oder 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

@@ -1,9 +1,10 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 Lingua</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=en">Inglese</a>
+        <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=en">English</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ja">日本語</a>
@@ -32,22 +33,22 @@
 
 # ZipVoice⚡
 
-## Sintesi vocale testuale zero-shot veloce e di alta qualità con Flow Matching
+## Sintesi Vocale Testo-a-Voce Rapida e di Alta Qualità Zero-Shot con Flow Matching
 </div>
 
 ## Panoramica
 
-ZipVoice è una serie di modelli TTS zero-shot veloci e di alta qualità basati su flow matching.
+ZipVoice è una serie di modelli TTS zero-shot rapidi e di alta qualità basati su flow matching.
 
 ### 1. Caratteristiche principali
 
-- Piccolo e veloce: solo 123M parametri.
+- Piccolo e veloce: solo 123M di parametri.
 
-- Clonazione vocale di alta qualità: prestazioni all'avanguardia in somiglianza della voce, intelligibilità e naturalezza.
+- Clonazione vocale di alta qualità: prestazioni all'avanguardia in somiglianza vocale, intelligibilità e naturalezza.
 
 - Multilingue: supporta cinese e inglese.
 
-- Multimodale: supporta la generazione vocale sia per singolo parlante sia per dialoghi.
+- Multimodale: supporta sia la generazione vocale singola che dialoghi.
 
 ### 2. Varianti del modello
 
@@ -63,23 +64,23 @@ ZipVoice è una serie di modelli TTS zero-shot veloci e di alta qualità basati 
   <tbody>
     <tr>
       <td>ZipVoice</td>
-      <td>Il modello base che supporta la sintesi vocale testuale zero-shot per singolo parlante in cinese e inglese.</td>
-      <td rowspan="2"><a href="https://arxiv.org/abs/2506.13053"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
-      <td rowspan="2"><a href="https://zipvoice.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
+      <td>Il modello base che supporta TTS zero-shot a singolo parlante sia in cinese che in inglese.</td>
+      <td rowspan="2"><a href="https://arxiv.org/abs/2506.13053"><img src="https://img.shields.io/badge/arXiv-Articolo-COLOR.svg"></a></td>
+      <td rowspan="2"><a href="https://zipvoice.github.io"><img src="https://img.shields.io/badge/GitHub.io-Pagina_Demo-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Distill</td>
-      <td>La versione distillata di ZipVoice, con velocità migliorata e minima perdita di prestazioni.</td>
+      <td>La versione distillata di ZipVoice, con velocità migliorata e degrado minimo delle prestazioni.</td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog</td>
-      <td>Un modello per la generazione di dialoghi basato su ZipVoice, in grado di generare dialoghi parlati a due voci su un unico canale.</td>
-      <td rowspan="2"><a href="https://arxiv.org/abs/2507.09318"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
-      <td rowspan="2"><a href="https://zipvoice-dialog.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
+      <td>Un modello di generazione di dialoghi basato su ZipVoice, capace di generare dialoghi parlati a due parti su singolo canale.</td>
+      <td rowspan="2"><a href="https://arxiv.org/abs/2507.09318"><img src="https://img.shields.io/badge/arXiv-Articolo-COLOR.svg"></a></td>
+      <td rowspan="2"><a href="https://zipvoice-dialog.github.io"><img src="https://img.shields.io/badge/GitHub.io-Pagina_Demo-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog-Stereo</td>
-      <td>La variante stereo di ZipVoice-Dialog, che consente la generazione di dialoghi su due canali con ogni parlante assegnato a un canale distinto.</td>
+      <td>La variante stereo di ZipVoice-Dialog, che consente la generazione di dialoghi a due canali con ogni speaker assegnato a un canale distinto.</td>
     </tr>
   </tbody>
 </table>
@@ -88,14 +89,13 @@ ZipVoice è una serie di modelli TTS zero-shot veloci e di alta qualità basati 
 
 **14/07/2025**: **ZipVoice-Dialog** e **ZipVoice-Dialog-Stereo**, due modelli di generazione di dialoghi vocali, sono stati rilasciati. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
 
-**14/07/2025**: Il dataset **OpenDialog**, un dataset di dialoghi vocali di 6.8k ore, è stato rilasciato. Scaricalo da [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog). Dettagli su [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318).
+**14/07/2025**: Il dataset **OpenDialog**, un dataset di dialoghi vocali di 6,8k ore, è stato rilasciato. Scarica da [![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog). Consulta i dettagli su [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318).
 
 **16/06/2025**: **ZipVoice** e **ZipVoice-Distill** sono stati rilasciati. [![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)
 
 ## Installazione
 
-### 1. Clonare il repository ZipVoice
-
+### 1. Clona il repository ZipVoice
 
 ```bash
 git clone https://github.com/k2-fsa/ZipVoice.git
@@ -129,7 +129,7 @@ Gli utenti nella Cina continentale possono fare riferimento a https://k2-fsa.org
 - Per verificare l'installazione di k2:
 
 
-```
+```bash
 python3 -c "import k2; print(k2.__file__)"
 ```
 ## Utilizzo
@@ -150,16 +150,9 @@ python3 -m zipvoice.bin.infer_zipvoice \
     --res-wav-path result.wav
 ```
 - `--model-name` può essere `zipvoice` o `zipvoice_distill`, che sono rispettivamente i modelli prima e dopo la distillazione.
-- Se nel testo compaiono `<>` o `[]`, le stringhe racchiuse da essi saranno trattate come token speciali. `<>` indica il pinyin cinese e `[]` indica altri tag speciali.
-- È possibile eseguire modelli ONNX sulla CPU più velocemente con `zipvoice.bin.infer_zipvoice_onnx`.
-
-> **Nota:** Se hai problemi a connetterti a HuggingFace, prova:
-> ```bash
-> export HF_ENDPOINT=https://hf-mirror.com
-> ```
+- Se nel testo compaiono `<>` o `[]`, le stringhe racchiuse da questi saranno trattate come token speciali. `<>` indica il pinyin cinese e `[]` indica altri tag speciali.
 
 #### 1.2 Inferenza di una lista di frasi
-
 
 ```bash
 python3 -m zipvoice.bin.infer_zipvoice \
@@ -194,42 +187,81 @@ Ogni riga di `test.tsv` è in uno dei seguenti formati:
 ```
 {wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}
 ```
+
 - `wav_name` è il nome del file wav di output.
-- `prompt_transcription` è la trascrizione del prompt conversazionale wav, ad esempio, "[S1] Ciao. [S2] Come stai?"
-- `prompt_wav` è il percorso del prompt wav.
-- `text` è il testo da sintetizzare, ad esempio, "[S1] Sto bene. [S2] Come ti chiami?"
+- `prompt_transcription` è la trascrizione del file wav del prompt conversazionale, ad esempio, "[S1] Ciao. [S2] Come stai?"
+- `prompt_wav` è il percorso del file wav del prompt.
+- `text` è il testo da sintetizzare, ad esempio, "[S1] Sto bene. [S2] Come ti chiami? [S1] Sono Eric. [S2] Ciao Eric."
 
-(2) **Formato prompt suddiviso** dove gli audio e le trascrizioni dei due parlanti esistono in file separati:
-
+(2) **Formato prompt separato** dove gli audio e le trascrizioni dei due interlocutori esistono in file separati:
 
 ```
-{wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
+{wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
 - `wav_name` è il nome del file wav di output.
-- `spk1_prompt_transcription` è la trascrizione del prompt wav del primo speaker, ad esempio, "Ciao"
-- `spk2_prompt_transcription` è la trascrizione del prompt wav del secondo speaker, ad esempio, "Come stai?"
-- `spk1_prompt_wav` è il percorso del file wav del prompt del primo speaker.
-- `spk2_prompt_wav` è il percorso del file wav del prompt del secondo speaker.
-- `text` è il testo da sintetizzare, ad esempio. "[S1] Sto bene. [S2] Come ti chiami?"
+- `spk1_prompt_transcription` è la trascrizione del file wav di prompt del primo speaker, ad esempio, "Ciao"
+- `spk2_prompt_transcription` è la trascrizione del file wav di prompt del secondo speaker, ad esempio, "Come stai?"
+- `spk1_prompt_wav` è il percorso al file wav di prompt del primo speaker.
+- `spk2_prompt_wav` è il percorso al file wav di prompt del secondo speaker.
+- `text` è il testo da sintetizzare, ad esempio: "[S1] Sto bene. [S2] Come ti chiami? [S1] Sono Eric. [S2] Ciao Eric."
 
-### 3. Altre funzionalità
+### 3 Guida per un uso migliore:
 
-#### 3.1 Correzione dei caratteri polifonici cinesi pronunciati erroneamente
+#### 3.1 Lunghezza del prompt
 
-Utilizziamo [pypinyin](https://github.com/mozillazg/python-pinyin) per convertire i caratteri cinesi in pinyin. Tuttavia, può occasionalmente pronunciare in modo errato i **caratteri polifonici** (多音字).
+Si raccomanda un file wav di prompt breve (ad esempio, meno di 3 secondi per la generazione vocale a singolo speaker, meno di 10 secondi per la generazione di dialoghi) per una velocità di inferenza più rapida. Un prompt molto lungo rallenterà l'inferenza e peggiorerà la qualità del parlato.
 
-Per correggere manualmente queste pronunce errate, racchiudere il **pinyin corretto** tra parentesi angolari `< >` e includere il **tono**.
+#### 3.2 Ottimizzazione della velocità
+
+Se la velocità di inferenza non è soddisfacente, puoi accelerarla come segue:
+
+- **Modello distillato e meno passi**: Per il modello di generazione vocale a singolo speaker, usiamo il modello `zipvoice` di default per una migliore qualità del parlato. Se la velocità è una priorità, puoi passare a `zipvoice_distill` e ridurre `--num-steps` fino a `4` (di default è 8).
+
+- **Velocizzazione CPU con multi-threading**: Quando si esegue su CPU, è possibile passare il parametro `--num-thread` (ad esempio, `--num-thread 4`) per aumentare il numero di thread per una maggiore velocità. Di default usiamo 1 thread.
+
+- **Velocizzazione CPU con ONNX**: Quando si esegue su CPU, puoi utilizzare i modelli ONNX con `zipvoice.bin.infer_zipvoice_onnx` per una maggiore velocità (ONNX non è ancora supportato per modelli di generazione di dialoghi). Per una velocità ancora maggiore, puoi impostare `--onnx-int8 True` per usare un modello ONNX quantizzato INT8. Nota che il modello quantizzato comporterà una certa degradazione della qualità del parlato. **Non usare ONNX su GPU**, perché è più lento di PyTorch su GPU.
+
+#### 3.3 Controllo della memoria
+
+Il testo fornito verrà suddiviso in blocchi in base alla punteggiatura (per la generazione vocale a singolo speaker) o ai simboli di cambio speaker (per la generazione di dialoghi). I testi suddivisi verranno poi elaborati in batch. Pertanto, il modello può processare testi di qualsiasi lunghezza con un uso di memoria quasi costante. Puoi controllare l'uso di memoria regolando il parametro `--max-duration`.
+
+#### 3.4 Valutazione "Raw"
+
+Di default, preprocessiamo gli input (wav di prompt, trascrizione del prompt e testo) per inferenza efficiente e migliori prestazioni. Se vuoi valutare la performance "raw" del modello usando gli input esatti forniti (ad esempio, per riprodurre i risultati del nostro paper), puoi passare `--raw-evaluation True`.
+
+#### 3.5 Testo corto
+
+Quando si genera parlato per testi molto brevi (ad esempio, una o due parole), il parlato generato potrebbe talvolta omettere alcune pronunce. Per risolvere questo problema, puoi passare `--speed 0.3` (dove 0.3 è un valore regolabile) per estendere la durata del parlato generato.
+
+#### 3.6 Correzione dei caratteri polifoni cinesi pronunciati erroneamente
+
+Utilizziamo [pypinyin](https://github.com/mozillazg/python-pinyin) per convertire i caratteri cinesi in pinyin. Tuttavia, può occasionalmente pronunciare erroneamente i **caratteri polifoni** (多音字).
+
+
+Per correggere manualmente queste pronunce errate, racchiudi il **pinyin corretto** tra parentesi angolari `< >` e includi il **tono**.
 
 **Esempio:**
 
 - Testo originale: `这把剑长三十公分`
-- Correggere il pinyin di `长`:  `这把剑<chang2>三十公分`
+- Correggi il pinyin di `长`:  `这把剑<chang2>三十公分`
 
-> **Nota:** Se si desidera assegnare manualmente più pinyin, racchiudere ciascun pinyin con `<>`, ad esempio, `这把<jian4><chang2><san1>十公分`
+> **Nota:** Se vuoi assegnare manualmente più pinyin, racchiudi ciascun pinyin tra `<>`, ad esempio: `这把<jian4><chang2><san1>十公分`
 
-## Allena il tuo modello
+#### 3.7 Rimuovere le pause lunghe dal parlato generato
+
+Il modello determina automaticamente le posizioni e le durate delle pause nel parlato generato. Talvolta si verificano pause lunghe nel mezzo del discorso. Se non lo desideri, puoi passare `--remove-long-sil` per rimuovere le pause lunghe nel mezzo del parlato generato (le pause ai margini vengono rimosse di default).
+
+#### 3.8 Download del modello
+
+Se hai problemi di connessione a HuggingFace durante il download dei modelli pre-addestrati, prova a cambiare endpoint al sito mirror: `export HF_ENDPOINT=https://hf-mirror.com`.
+
+## Addestra il tuo modello
 
 Consulta la directory [egs](egs) per esempi di addestramento, fine-tuning e valutazione.
+
+## Deployment C++
+
+Consulta [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) per la soluzione di deployment C++ su CPU.
 
 ## Discussione & Comunicazione
 
@@ -242,7 +274,6 @@ Puoi anche scansionare il codice QR per unirti al nostro gruppo wechat o seguire
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Citazione
-
 
 ```bibtex
 @article{zhu2025zipvoice,
@@ -265,6 +296,6 @@ Puoi anche scansionare il codice QR per unirti al nostro gruppo wechat o seguire
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---

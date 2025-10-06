@@ -1,4 +1,5 @@
-﻿<div align="right">
+
+<div align="right">
   <details>
     <summary >🌐 言語</summary>
     <div>
@@ -13,16 +14,16 @@
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fr">Français</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=de">Deutsch</a>
         | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=it">Itapano</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=it">イタリア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ru">ロシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pt">ポルトガル語</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=nl">オランダ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=pl">ポーランド語</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=ar">アラビア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=fa">ペルシャ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=tr">トルコ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=vi">ベトナム語</a>
+        | <a href="https://openaitx.github.io/view.html?user=k2-fsa&project=ZipVoice&lang=id">インドネシア語</a>
       </div>
     </div>
   </details>
@@ -37,17 +38,17 @@
 
 ## 概要
 
-ZipVoiceは、flow matchingに基づく高速かつ高品質なゼロショットTTS（音声合成）モデルのシリーズです。
+ZipVoiceは、フローマッチングに基づく高速かつ高品質なゼロショットTTSモデルシリーズです。
 
 ### 1. 主な特徴
 
-- 小型かつ高速：パラメータ数わずか123M。
+- 小型かつ高速：パラメータ数は123Mのみ。
 
-- 高品質な音声クローン：話者類似性・明瞭性・自然さで最先端の性能。
+- 高品質な音声クローン：話者類似性、可聴性、自然さで最先端の性能。
 
-- 多言語対応：中国語および英語をサポート。
+- 多言語対応：中国語と英語をサポート。
 
-- マルチモード：単一話者・対話音声生成の両方に対応。
+- マルチモード対応：単一話者および対話音声生成をサポート。
 
 ### 2. モデルバリエーション
 
@@ -63,39 +64,38 @@ ZipVoiceは、flow matchingに基づく高速かつ高品質なゼロショッ�
   <tbody>
     <tr>
       <td>ZipVoice</td>
-      <td>中国語および英語でゼロショット単一話者TTSをサポートする基本モデル。</td>
+      <td>中国語と英語のゼロショット単一話者TTSをサポートする基本モデル。</td>
       <td rowspan="2"><a href="https://arxiv.org/abs/2506.13053"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
       <td rowspan="2"><a href="https://zipvoice.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Distill</td>
-      <td>ZipVoiceの蒸留版。速度が向上し、性能劣化は最小限。</td>
+      <td>ZipVoiceの蒸留バージョンで、性能低下を最小限に抑えつつ速度を向上。</td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog</td>
-      <td>ZipVoiceを基盤とした対話生成モデル。単一チャンネルで2者対話音声を生成可能。</td>
+      <td>ZipVoice上に構築された対話生成モデルで、単一チャネルの二者会話音声生成が可能。</td>
       <td rowspan="2"><a href="https://arxiv.org/abs/2507.09318"><img src="https://img.shields.io/badge/arXiv-Paper-COLOR.svg"></a></td>
       <td rowspan="2"><a href="https://zipvoice-dialog.github.io"><img src="https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square"></a></td>
     </tr>
     <tr>
       <td>ZipVoice-Dialog-Stereo</td>
-      <td>ZipVoice-Dialogのステレオ版。2チャンネル出力で、各話者を別チャンネルに割り当てた対話生成が可能。</td>
+      <td>ZipVoice-Dialogのステレオバリアントであり、各話者が異なるチャンネルに割り当てられる2チャンネル対話生成を実現します。</td>
     </tr>
   </tbody>
 </table>
 
 ## ニュース
 
-**2025/07/14**: **ZipVoice-Dialog**および**ZipVoice-Dialog-Stereo**の2つの対話音声生成モデルを公開。[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
+**2025/07/14**: **ZipVoice-Dialog**および**ZipVoice-Dialog-Stereo**、2つの音声対話生成モデルをリリースしました。[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice-dialog.github.io)
 
-**2025/07/14**: 6.8k時間の対話音声データセット**OpenDialog**を公開。ダウンロードは[![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog)、[![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog)から。詳細は[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318)。
+**2025/07/14**: **OpenDialog**データセット（6.8k時間の音声対話データセット）を公開しました。ダウンロードは[![hf](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/k2-fsa/OpenDialog), [![ms](https://img.shields.io/badge/ModelScope-Dataset-blue?logo=data)](https://www.modelscope.cn/datasets/k2-fsa/OpenDialog)。詳細は[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2507.09318)をご覧ください。
 
-**2025/06/16**: **ZipVoice**および**ZipVoice-Distill**を公開。[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)
+**2025/06/16**: **ZipVoice**および**ZipVoice-Distill**をリリースしました。[![arXiv](https://img.shields.io/badge/arXiv-Paper-COLOR.svg)](https://arxiv.org/abs/2506.13053) [![demo page](https://img.shields.io/badge/GitHub.io-Demo_Page-blue?logo=Github&style=flat-square)](https://zipvoice.github.io)
 
 ## インストール
 
-### 1. ZipVoiceリポジトリのクローン
-
+### 1. ZipVoiceリポジトリをクローンする
 
 ```bash
 git clone https://github.com/k2-fsa/ZipVoice.git
@@ -129,7 +129,7 @@ pip install k2==1.24.4.dev20250208+cuda12.1.torch2.5.1 -f https://k2-fsa.github.
 - k2 のインストールを確認するには:
 
 
-```
+```bash
 python3 -c "import k2; print(k2.__file__)"
 ```
 ## 使用方法
@@ -149,17 +149,10 @@ python3 -m zipvoice.bin.infer_zipvoice \
     --text "I am the text to be synthesized." \
     --res-wav-path result.wav
 ```
-- `--model-name` は `zipvoice` または `zipvoice_distill` で、前者が蒸留前のモデル、後者が蒸留後のモデルです。  
-- テキスト内に `<>` または `[]` が出現した場合、それらで囲まれた文字列は特殊トークンとして扱われます。`<>` は中国語のピンインを示し、`[]` はその他の特殊タグを示します。  
-- `zipvoice.bin.infer_zipvoice_onnx` を使用すると、CPU上でONNXモデルをより高速に実行可能です。  
+- `--model-name` は `zipvoice` または `zipvoice_distill` を指定でき、それぞれ蒸留前および蒸留後のモデルです。
+- テキストに `<>` や `[]` が現れる場合、それらで囲まれた文字列は特殊トークンとして扱われます。`<>` は中国語のピンインを、`[]` はその他の特殊タグを表します。
 
-> **注意：** HuggingFaceへの接続に問題がある場合は、以下を試してください：  
-> ```bash  
-> export HF_ENDPOINT=https://hf-mirror.com  
-> ```  
-
-#### 1.2 文のリストの推論  
-
+#### 1.2 複数文の推論
 
 ```bash
 python3 -m zipvoice.bin.infer_zipvoice \
@@ -194,55 +187,93 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 ```
 {wav_name}\t{prompt_transcription}\t{prompt_wav}\t{text}
 ```
-- `wav_name` は出力されるwavファイルの名前です。
-- `prompt_transcription` は会話プロンプトwavの文字起こしで、例: "[S1] こんにちは。 [S2] お元気ですか？"
-- `prompt_wav` はプロンプトwavへのパスです。
-- `text` は合成されるテキストで、例: "[S1] 元気です。 [S2] あなたの名前は？"
 
-(2) **分割されたプロンプト形式** では、2人の話者の音声と文字起こしが別々のファイルに存在します:
+- `wav_name` は出力される wav ファイルの名前です。
+- `prompt_transcription` は会話プロンプトの音声ファイルの書き起こしであり、例: "[S1] こんにちは。[S2] お元気ですか？"
+- `prompt_wav` はプロンプト音声ファイルへのパスです。
+- `text` は合成するテキストであり、例: "[S1] 元気です。[S2] お名前は？[S1] エリックです。[S2] こんにちは、エリック。"
 
+(2) **分割プロンプト形式** では、2人の話者の音声と書き起こしが別々のファイルに存在します。
 
 ```
-{wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}'
+{wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
-- `wav_name` は出力されるwavファイルの名前です。
-- `spk1_prompt_transcription` は最初の話者のプロンプトwavの書き起こしです。例:「Hello」
-- `spk2_prompt_transcription` は2番目の話者のプロンプトwavの書き起こしです。例:「How are you?」
-- `spk1_prompt_wav` は最初の話者のプロンプトwavファイルのパスです。
-- `spk2_prompt_wav` は2番目の話者のプロンプトwavファイルのパスです。
-- `text` は合成するテキストです。例:「[S1] I'm fine. [S2] What's your name?」
+- `wav_name` は出力される wav ファイルの名前です。
+- `spk1_prompt_transcription` は最初の話者のプロンプト wav の書き起こし例です。例:「Hello」
+- `spk2_prompt_transcription` は2番目の話者のプロンプト wav の書き起こし例です。例:「How are you?」
+- `spk1_prompt_wav` は最初の話者のプロンプト wav ファイルのパスです。
+- `spk2_prompt_wav` は2番目の話者のプロンプト wav ファイルのパスです。
+- `text` は合成するテキストです。例:「[S1] I'm fine. [S2] What's your name? [S1] I'm Eric. [S2] Hi Eric.」
 
-### 3. その他の機能
+### 3 より良い利用のためのガイダンス:
 
-#### 3.1 中国語多音字の誤発音修正
+#### 3.1 プロンプトの長さ
 
-中国語の文字をピンインに変換するために [pypinyin](https://github.com/mozillazg/python-pinyin) を使用しています。ただし、**多音字**（多音節文字）を誤って発音する場合があります。
+推論速度を速くするために、短いプロンプト wav ファイル（例: 単一話者音声生成の場合は3秒未満、対話音声生成の場合は10秒未満）を推奨します。非常に長いプロンプトは推論を遅くし、音声品質を低下させます。
 
-これらの誤発音を手動で修正するには、**修正したピンイン**を山括弧 `< >` で囲み、**声調記号**も含めます。
+#### 3.2 速度最適化
 
-**例:**
+推論速度が満足できない場合は、以下の方法で高速化できます。
+
+- **蒸留モデルおよびステップ数削減**: 単一話者音声生成モデルでは、デフォルトで `zipvoice` モデルを使用し、高品質な音声生成を実現しています。速度を優先する場合は、`zipvoice_distill` に切り替え、`--num-steps` を最低 `4`（デフォルトは8）まで減らすことができます。
+
+- **CPUのマルチスレッドによる高速化**: CPU上で動作させる場合、`--num-thread` パラメータ（例: `--num-thread 4`）を指定することで、スレッド数を増やし高速化できます。デフォルトは1スレッドです。
+
+- **CPUでONNXによる高速化**: CPU上で動作させる場合、ONNXモデルを `zipvoice.bin.infer_zipvoice_onnx` で利用することで高速化できます（対話生成モデルはまだONNX未対応）。さらに高速化したい場合は、`--onnx-int8 True` を指定して INT8 量子化 ONNX モデルを利用できます。ただし、量子化モデルは音声品質が若干低下します。**GPU上ではONNXを使用しないでください**。GPU上ではPyTorchより遅くなります。
+
+#### 3.3 メモリ制御
+
+指定されたテキストは、句読点（単一話者音声生成の場合）や話者交代記号（対話音声生成の場合）で分割されます。その後、分割されたテキストがバッチ処理されます。これにより、モデルはほぼ一定のメモリ使用量で任意の長さのテキストを処理できます。`--max-duration` パラメータを調整することでメモリ使用量を制御できます。
+
+#### 3.4 「Raw」評価
+
+デフォルトでは、効率的な推論と性能向上のために（プロンプトwav、プロンプト書き起こし、テキスト）を前処理しています。モデルの「生」の性能を厳密に評価したい場合（例: 論文の結果を再現する場合）は、`--raw-evaluation True` を指定できます。
+
+#### 3.5 短いテキスト
+
+非常に短いテキスト（例: 1～2単語）の音声を生成する際、生成音声が一部の発音を省略してしまうことがあります。この問題を解決するには、`--speed 0.3`（0.3は調整可能な値）を指定して、生成音声の持続時間を延長できます。
+
+#### 3.6 中国語の多音字の発音修正
+
+中国語文字をピンインに変換するために [pypinyin](https://github.com/mozillazg/python-pinyin) を使用しています。ただし、**多音字**（複数の読み方がある漢字）の発音を誤ることがあります。
+
+
+これらの誤発音を手動で修正するには、**修正したピンイン**を山括弧 `< >` で囲み、**声調記号**を含めてください。
+
+**例：**
 
 - 元のテキスト: `这把剑长三十公分`
 - `长` のピンインを修正:  `这把剑<chang2>三十公分`
 
-> **注意:** 複数のピンインを手動で割り当てたい場合は、それぞれのピンインを `<>` で囲みます。例: `这把<jian4><chang2><san1>十公分`
+> **注意:** 複数のピンインを手動で割り当てたい場合は、それぞれを `<>` で囲んでください。例: `这把<jian4><chang2><san1>十公分`
+
+#### 3.7 生成音声から長い無音部分を除去
+
+モデルは生成された音声の無音部分の位置と長さを自動的に判定します。時折、音声の途中に長い無音が発生します。これを避けたい場合は、`--remove-long-sil` を指定することで、生成音声の途中の長い無音を除去できます（端の無音はデフォルトで除去されます）。
+
+#### 3.8 モデルのダウンロード
+
+事前学習済みモデルのダウンロード時に HuggingFace への接続がうまくいかない場合は、ミラーサイトへのエンドポイント切り替えをお試しください: `export HF_ENDPOINT=https://hf-mirror.com`
 
 ## 独自モデルの学習
 
-トレーニング、ファインチューニング、および評価の例については [egs](egs) ディレクトリを参照してください。
+トレーニング、ファインチューニング、評価の例については [egs](egs) ディレクトリをご覧ください。
 
-## 議論とコミュニケーション
+## C++ デプロイ
 
-[Github Issues](https://github.com/k2-fsa/ZipVoice/issues) で直接議論できます。
+CPU 上での C++ デプロイソリューションについては [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) をご確認ください。
 
-また、QRコードをスキャンしてWeChatグループに参加したり、WeChat公式アカウントをフォローしたりできます。
+## ディスカッション & コミュニケーション
 
-| Wechatグループ | Wechat公式アカウント |
+[Github Issues](https://github.com/k2-fsa/ZipVoice/issues) で直接ディスカッションできます。
+
+QRコードをスキャンして WeChat グループに参加したり、公式アカウントをフォローすることもできます。
+
+| WeChat グループ | WeChat 公式アカウント |
 | ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## 引用
-
 
 ```bibtex
 @article{zhu2025zipvoice,
@@ -265,6 +296,6 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
 
 ---
