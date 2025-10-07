@@ -1,0 +1,620 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n# 🎬 yt-dlp 视频批量下载工具（Windows / Linux 支持）\n\n> 基于 [yt-dlp](https://github.com/yt-dlp/yt-dlp) 的一键式视频下载脚本，灵感来源于 [NodeSeek 大佬的分享](https://www.nodeseek.com/post-334093-2#15)。\n> 支持单视频与批量下载，兼容 Windows 与主流 Linux 发行版（Debian / Ubuntu / Alpine / CentOS）。\n\n---\n\n## ✨ 功能特色\n\n* 📥 **一键运行**：无需手动配置，按提示输入即可开始下载\n* 🍪 **支持自定义 Cookie**：适用于需要登录才能下载的视频（⚠️ 该功能尚未验证，可能存在 Bug）\n* 📂 **支持自定义输出目录**：轻松保存到指定文件夹\n* 📃 **支持批量下载**：自动读取 `urls.txt` 文件中的链接进行下载\n* ⚙️ **自动安装依赖**：Linux 环境下自动安装 `yt-dlp` 和 `ffmpeg`\n\n---\n\n## 🖼️ 截图预览\n\n| 示例 1                                                                   | 示例 2                                                                   |\n| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |\n| ![示例 1](https://img.uutv.dpdns.org/file/1746720584399_1000193433.jpg) | ![示例 2](https://img.uutv.dpdns.org/file/1746720581006_1000193434.jpg) |\n| ![示例 3](https://img.uutv.dpdns.org/file/1746720588978_1000193428.jpg) | ![示例 4](https://img.uutv.dpdns.org/file/1746720587272_1000193427.jpg) |\n\n---\n\n## 🪟 Windows 使用方法\n\n1. 下载以下文件：\n\n   * [`yt-dlp.exe`](https://github.com/yt-dlp/yt-dlp)\n   * [`ffmpeg` Windows 版本](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z)\n\n2. 解压后，将下列文件放入同一目录（如 `yt-dlp` 文件夹）：\n\n   * `yt-dlp.exe`\n   * `ffmpeg.exe`\n   * `ffprobe.exe`\n   * `yt-dlp.bat`（脚本文件）",
+    "ContentSha": "HUe1h4sNghNwzrFx/j7cfgfX+RYr6nFlz5QZzBVNBIs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# 🎬 yt-dlp 비디오 일괄 다운로드 도구（Windows / Linux 지원）\n\n> [yt-dlp](https://github.com/yt-dlp/yt-dlp)를 기반으로 한 원클릭 비디오 다운로드 스크립트로, [NodeSeek 대가의 공유](https://www.nodeseek.com/post-334093-2#15)에서 영감을 받았습니다.\n> 단일 비디오 및 일괄 다운로드를 지원하며, Windows 및 주요 Linux 배포판(Debian / Ubuntu / Alpine / CentOS)과 호환됩니다.\n\n---\n\n## ✨ 기능 특징\n\n* 📥 **원클릭 실행**：수동 설정 없이 안내에 따라 입력하면 바로 다운로드 시작\n* 🍪 **커스텀 쿠키 지원**：로그인이 필요한 비디오 다운로드에 적합（⚠️ 이 기능은 아직 검증되지 않았으며, 버그가 있을 수 있습니다）\n* 📂 **커스텀 출력 디렉토리 지원**：지정 폴더에 쉽게 저장\n* 📃 **일괄 다운로드 지원**：`urls.txt` 파일 내 링크를 자동으로 읽어 다운로드\n* ⚙️ **의존성 자동 설치**：Linux 환경에서 `yt-dlp` 및 `ffmpeg` 자동 설치\n\n---\n\n## 🖼️ 스크린샷 미리보기\n\n| 예시 1                                                                   | 예시 2                                                                   |\n| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |\n| ![예시 1](https://img.uutv.dpdns.org/file/1746720584399_1000193433.jpg) | ![예시 2](https://img.uutv.dpdns.org/file/1746720581006_1000193434.jpg) |\n| ![예시 3](https://img.uutv.dpdns.org/file/1746720588978_1000193428.jpg) | ![예시 4](https://img.uutv.dpdns.org/file/1746720587272_1000193427.jpg) |\n\n---\n\n## 🪟 Windows 사용 방법\n\n1. 다음 파일을 다운로드하세요：\n\n   * [`yt-dlp.exe`](https://github.com/yt-dlp/yt-dlp)\n   * [`ffmpeg` Windows 버전](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z)\n\n2. 압축 해제 후, 다음 파일들을 같은 디렉토리(예: `yt-dlp` 폴더)에 넣으세요：\n\n   * `yt-dlp.exe`\n   * `ffmpeg.exe`\n   * `ffprobe.exe`\n   * `yt-dlp.bat`（스크립트 파일）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PYYhSMLkXURtDxFZ+r8f01dNYQGSygrWICLrzz8mD54=",
+        "originContent": "# 🎬 yt-dlp 视频批量下载工具（Windows / Linux 支持）",
+        "translatedContent": "# 🎬 yt-dlp 비디오 일괄 다운로드 도구（Windows / Linux 지원）"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ik9vcVwBbh7iN0j1gxwFt/VbMql8QEwsZra1WRNK/+c=",
+        "originContent": "> 基于 [yt-dlp](https://github.com/yt-dlp/yt-dlp) 的一键式视频下载脚本，灵感来源于 [NodeSeek 大佬的分享](https://www.nodeseek.com/post-334093-2#15)。",
+        "translatedContent": "> [yt-dlp](https://github.com/yt-dlp/yt-dlp)를 기반으로 한 원클릭 비디오 다운로드 스크립트로, [NodeSeek 대가의 공유](https://www.nodeseek.com/post-334093-2#15)에서 영감을 받았습니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "KnJ+6f6wb+7+o38Frrg//GVC/5ai0nRlrTA4wp4knKE=",
+        "originContent": "> 支持单视频与批量下载，兼容 Windows 与主流 Linux 发行版（Debian / Ubuntu / Alpine / CentOS）。",
+        "translatedContent": "> 단일 비디오 및 일괄 다운로드를 지원하며, Windows 및 주요 Linux 배포판(Debian / Ubuntu / Alpine / CentOS)과 호환됩니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "rBfoXPhy7CyNsjs3JmdBanixgZFt0szn14N5WclGVrM=",
+        "originContent": "## ✨ 功能特色",
+        "translatedContent": "## ✨ 기능 특징"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "wY2gfoaHooN0r2+ZBmKRSh/mKshEAfUuBa9pHwGw0dI=",
+        "originContent": "* 📥 **一键运行**：无需手动配置，按提示输入即可开始下载",
+        "translatedContent": "* 📥 **원클릭 실행**：수동 설정 없이 안내에 따라 입력하면 바로 다운로드 시작"
+      },
+      {
+        "row": 12,
+        "rowsha": "gjJVYkP94qzfeD95fXQDQf4bUagGNbBdNo+rDAz8f94=",
+        "originContent": "* 🍪 **支持自定义 Cookie**：适用于需要登录才能下载的视频（⚠️ 该功能尚未验证，可能存在 Bug）",
+        "translatedContent": "* 🍪 **커스텀 쿠키 지원**：로그인이 필요한 비디오 다운로드에 적합（⚠️ 이 기능은 아직 검증되지 않았으며, 버그가 있을 수 있습니다）"
+      },
+      {
+        "row": 13,
+        "rowsha": "c2NQ18mea/jEgijQIcqkBRSOtHni5TEOlsQXB+YlFNY=",
+        "originContent": "* 📂 **支持自定义输出目录**：轻松保存到指定文件夹",
+        "translatedContent": "* 📂 **커스텀 출력 디렉토리 지원**：지정 폴더에 쉽게 저장"
+      },
+      {
+        "row": 14,
+        "rowsha": "fCkPjd19uOKesINeVGVCnEL+ZhR98G00xF/Yf2guc4o=",
+        "originContent": "* 📃 **支持批量下载**：自动读取 `urls.txt` 文件中的链接进行下载",
+        "translatedContent": "* 📃 **일괄 다운로드 지원**：`urls.txt` 파일 내 링크를 자동으로 읽어 다운로드"
+      },
+      {
+        "row": 15,
+        "rowsha": "ioL39bjxMzu2eWBExw9myTk45VctaK24aWjsgHQlqks=",
+        "originContent": "* ⚙️ **自动安装依赖**：Linux 环境下自动安装 `yt-dlp` 和 `ffmpeg`",
+        "translatedContent": "* ⚙️ **의존성 자동 설치**：Linux 환경에서 `yt-dlp` 및 `ffmpeg` 자동 설치"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "3ItJ5wDD1Z3gA6SCME3Nv/cDoZ/yJRXRPxg/9dFrEw8=",
+        "originContent": "## 🖼️ 截图预览",
+        "translatedContent": "## 🖼️ 스크린샷 미리보기"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "oKLYnVUtwegGFiLuHWsRgxJWrjB5maQUlDt8lSjgI4U=",
+        "originContent": "| 示例 1                                                                   | 示例 2                                                                   |",
+        "translatedContent": "| 예시 1                                                                   | 예시 2                                                                   |"
+      },
+      {
+        "row": 22,
+        "rowsha": "wxAX9UIBxd+Kxriamkhz/Un9JyGMgodGo27oKlAntC8=",
+        "originContent": "| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |",
+        "translatedContent": "| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |"
+      },
+      {
+        "row": 23,
+        "rowsha": "FSK92ayJfOhqinlQ/sP0s24CzLl4QJi0Ql9UG72Poq8=",
+        "originContent": "| ![示例 1](https://img.uutv.dpdns.org/file/1746720584399_1000193433.jpg) | ![示例 2](https://img.uutv.dpdns.org/file/1746720581006_1000193434.jpg) |",
+        "translatedContent": "| ![예시 1](https://img.uutv.dpdns.org/file/1746720584399_1000193433.jpg) | ![예시 2](https://img.uutv.dpdns.org/file/1746720581006_1000193434.jpg) |"
+      },
+      {
+        "row": 24,
+        "rowsha": "wppVa44I4nTs9XBvgS9jPdaX7opm6SBTkFpQNwRpNho=",
+        "originContent": "| ![示例 3](https://img.uutv.dpdns.org/file/1746720588978_1000193428.jpg) | ![示例 4](https://img.uutv.dpdns.org/file/1746720587272_1000193427.jpg) |",
+        "translatedContent": "| ![예시 3](https://img.uutv.dpdns.org/file/1746720588978_1000193428.jpg) | ![예시 4](https://img.uutv.dpdns.org/file/1746720587272_1000193427.jpg) |"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "YaMsF4pOaYWZ+l8b1Yv6YAR2BrJoJMKkAZAW1teMcO8=",
+        "originContent": "## 🪟 Windows 使用方法",
+        "translatedContent": "## 🪟 Windows 사용 방법"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "uqWzVudui5TNwQDkPBQAmmrSAz8ROP/Om7srCUbfbLg=",
+        "originContent": "1. 下载以下文件：",
+        "translatedContent": "1. 다음 파일을 다운로드하세요："
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "iUZc7dtrG43nfQdIlMOzWtW0Oata6Zzej2LjRGZ9ApU=",
+        "originContent": "   * [`yt-dlp.exe`](https://github.com/yt-dlp/yt-dlp)",
+        "translatedContent": "   * [`yt-dlp.exe`](https://github.com/yt-dlp/yt-dlp)"
+      },
+      {
+        "row": 33,
+        "rowsha": "uHot11WZEipS4LrH+NHYYJHb3C7lrng8n2+j7JJjLfQ=",
+        "originContent": "   * [`ffmpeg` Windows 版本](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z)",
+        "translatedContent": "   * [`ffmpeg` Windows 버전](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "yKmcD8jApv60eFW2TYXPN6CWh4wiNMWjgWfKLvUnTPc=",
+        "originContent": "2. 解压后，将下列文件放入同一目录（如 `yt-dlp` 文件夹）：",
+        "translatedContent": "2. 압축 해제 후, 다음 파일들을 같은 디렉토리(예: `yt-dlp` 폴더)에 넣으세요："
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "wfXWR16ST/QlfW49eGuson680pdmwdVu1RuNGoAasV0=",
+        "originContent": "   * `yt-dlp.exe`",
+        "translatedContent": "   * `yt-dlp.exe`"
+      },
+      {
+        "row": 38,
+        "rowsha": "q8Or188x9AyzotxmU7Exj8FqUwfjwuWJb0xKZFKT2fc=",
+        "originContent": "   * `ffmpeg.exe`",
+        "translatedContent": "   * `ffmpeg.exe`"
+      },
+      {
+        "row": 39,
+        "rowsha": "tCp3N7nq3V8XfR9q+6WHbaPqgUHxLMGQ4mFkU76xaJo=",
+        "originContent": "   * `ffprobe.exe`",
+        "translatedContent": "   * `ffprobe.exe`"
+      },
+      {
+        "row": 40,
+        "rowsha": "2MhlRGhwgAI/htpDHuDq8VXy/1XSg1UDKChHr7l2Iao=",
+        "originContent": "   * `yt-dlp.bat`（脚本文件）",
+        "translatedContent": "   * `yt-dlp.bat`（스크립트 파일）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n3. 双击运行 `yt-dlp.bat`，根据提示操作即可下载视频。\n4. 编辑config/config.ini进行默认配置修改\n\n---\n\n## 🐧 Linux 使用方法(科技lion大佬最新脚本内也集成了相同功能脚本)\n\n**支持系统**：Debian / Ubuntu / Alpine / CentOS\n\n一键部署或更新并运行：\n",
+    "ContentSha": "XssgK980paa5g374cZLrV+J1xE8LdXAbiTFW3Uwhzq4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. `yt-dlp.bat`를 더블 클릭하여 실행하고, 안내에 따라 작업하면 동영상을 다운로드할 수 있습니다.  \n4. 기본 설정 수정을 위해 config/config.ini 파일을 편집하세요.  \n\n---  \n\n## 🐧 Linux 사용 방법(과학 lion 대가 최신 스크립트 내에도 동일 기능 스크립트 포함)  \n\n**지원 시스템**：Debian / Ubuntu / Alpine / CentOS  \n\n원클릭 배포 또는 업데이트 및 실행:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. `yt-dlp.bat`를 더블 클릭하여 실행하고, 안내에 따라 작업하면 동영상을 다운로드할 수 있습니다.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "YuPeXQ3hgTXTr0xx6PLoPk9oadLYrrXtf4fspabseJo=",
+        "originContent": "3. 双击运行 `yt-dlp.bat`，根据提示操作即可下载视频。",
+        "translatedContent": "4. 기본 설정 수정을 위해 config/config.ini 파일을 편집하세요.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "9iFXdhkFsuMdWyDFHH33G18Fy8e2rbkCtHXdwZsRAMk=",
+        "originContent": "4. 编辑config/config.ini进行默认配置修改",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🐧 Linux 사용 방법(과학 lion 대가 최신 스크립트 내에도 동일 기능 스크립트 포함)  "
+      },
+      {
+        "row": 7,
+        "rowsha": "i2NqQJScdiEB6VHvGQZ5Cv7rh7a3uPxc2uH+IQuC6AQ=",
+        "originContent": "## 🐧 Linux 使用方法(科技lion大佬最新脚本内也集成了相同功能脚本)",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**지원 시스템**：Debian / Ubuntu / Alpine / CentOS  "
+      },
+      {
+        "row": 9,
+        "rowsha": "q/vLEgemBTDMzyfPISyYW9hhajAlnDvIMvm94lBe4fc=",
+        "originContent": "**支持系统**：Debian / Ubuntu / Alpine / CentOS",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "원클릭 배포 또는 업데이트 및 실행:"
+      },
+      {
+        "row": 11,
+        "rowsha": "9RGneFjNztbxd2tBsJs31VwVeuDUxEwRuHxvDPbAFEw=",
+        "originContent": "一键部署或更新并运行：",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\nbash -c \"$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/install.sh)\"\n```",
+    "ContentSha": "b2cHxg8LL8fN8Mcce7N2M3TLgRAcAXeBawCGEBS5Ezk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbash -c \"$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/install.sh)\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "WD4wskvb4TUZqxiFgGpRcsgrna1F7rrUOQjQqV+eCrA=",
+        "originContent": "bash -c \"$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/install.sh)\"",
+        "translatedContent": "bash -c \"$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/install.sh)\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n如需卸载：\n",
+    "ContentSha": "uXOj6N+AMGltvbd0QhBHsDpL3xvE9AiGM4U3EpU/ZzE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n제거하려면：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5UUlCj71MP7sRS4Zys9qkouZLODfTnA+EYpvxO4+llo=",
+        "originContent": "如需卸载：",
+        "translatedContent": "제거하려면："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\nbash -c \"$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/uninstall.sh)\"\n```",
+    "ContentSha": "811zL0Y6+1aIfydQu9a3XxSFZ2z82WzIDVcmNOOYCOA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbash -c \"$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/uninstall.sh)\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "/fNDhcyxrISlsAjkB4cxDL2Wl1O77OUdu0Jc7f8g7y4=",
+        "originContent": "bash -c \"$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/uninstall.sh)\"",
+        "translatedContent": "bash -c \"$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/uninstall.sh)\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n---\n\n## 📱 Android 使用推荐\n\n1. 使用 [Seal](https://github.com/JunkFood02/Seal) App，在 Android 上体验 `yt-dlp` 功能。\n2. termux安装Debian也能下载，不过咱没必要用这个，Seal非常好用\n\n---\n\n## ⚠️ 注意事项\n\n1. **批量下载模式**：脚本将自动读取当前目录下的 `config\\urls.txt`，每行一个视频链接。若文件不存在，将自动创建。\n2. **资源占用提示**：内存较小的设备请避免同时下载多个大视频，或设置过高的并发线程。\n3. **CentOS 特别说明**：由于环境较为特殊，尚未全面测试，建议在非生产环境中使用。其余主流系统均已验证可用。\n4. Linux版小bug：脚本运行到首页，就会检测一次依赖，遵从代码能跑就行的原则，懒得改了\n5. Windows版小bug：当其他页面回到首页，再进行选择时，默认选项可能会失效，然后卡循环，能力有限，没修复好\n两种解决方案：\n    1. 退出重新运行\n    2. 不要默认，按照数字选就行\n\n---\n\n## 📄 License\n\n本项目遵循 [MIT License](https://opensource.org/licenses/MIT)。\n\n---\n",
+    "ContentSha": "YgbTCei96qJGE6JoGeGtrgcnr7HuNEBw/2Bxxelq2HE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 📱 Android 사용 추천\n\n1. [Seal](https://github.com/JunkFood02/Seal) 앱을 사용하여 Android에서 `yt-dlp` 기능을 체험하세요.\n2. termux에서 Debian을 설치해도 다운로드가 가능하지만, 굳이 사용할 필요 없이 Seal이 매우 편리합니다.\n\n---\n\n## ⚠️ 주의사항\n\n1. **일괄 다운로드 모드**: 스크립트는 현재 디렉터리의 `config\\urls.txt` 파일을 자동으로 읽으며, 각 줄에 하나씩 영상 링크를 입력합니다. 파일이 없으면 자동으로 생성됩니다.\n2. **자원 사용 안내**: 메모리가 적은 장치는 여러 개의 대용량 영상을 동시에 다운로드하거나 너무 높은 동시 실행 스레드를 설정하지 마세요.\n3. **CentOS 특별 안내**: 환경이 다소 특수하여 아직 완전한 테스트가 이루어지지 않았으니, 비생산 환경에서 사용을 권장합니다. 그 외 주요 시스템은 모두 검증되었습니다.\n4. Linux 버전 소소한 버그: 스크립트가 홈 페이지까지 실행되면 한 번 의존성을 검사하는데, 코드가 실행되면 된다는 원칙으로 귀찮아서 수정하지 않았습니다.\n5. Windows 버전 소소한 버그: 다른 페이지에서 홈으로 돌아와 선택할 때 기본 옵션이 무효화되고 루프가 걸릴 수 있습니다. 능력 부족으로 제대로 고치지 못했습니다.\n해결 방법 두 가지:\n    1. 종료 후 다시 실행\n    2. 기본값을 사용하지 말고 숫자로 선택하세요\n\n---\n\n## 📄 라이선스\n\n본 프로젝트는 [MIT License](https://opensource.org/licenses/MIT)를 따릅니다.\n\n---\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Qau7RQpGdpBp8tzlXtv7i7oW4+eRaFC+p4dPGYR/6I4=",
+        "originContent": "## 📱 Android 使用推荐",
+        "translatedContent": "## 📱 Android 사용 추천"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "lWw7YlN1/zQVqS9tksJFFKvbsWzxOw2eX/SpikEP8kA=",
+        "originContent": "1. 使用 [Seal](https://github.com/JunkFood02/Seal) App，在 Android 上体验 `yt-dlp` 功能。",
+        "translatedContent": "1. [Seal](https://github.com/JunkFood02/Seal) 앱을 사용하여 Android에서 `yt-dlp` 기능을 체험하세요."
+      },
+      {
+        "row": 7,
+        "rowsha": "KLOqFgd4rHiG7yCCXnQvNjBKd0HJPR5nTN6tf5Tgcd8=",
+        "originContent": "2. termux安装Debian也能下载，不过咱没必要用这个，Seal非常好用",
+        "translatedContent": "2. termux에서 Debian을 설치해도 다운로드가 가능하지만, 굳이 사용할 필요 없이 Seal이 매우 편리합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "LtCpC/PsnesmIblvbWFwch4rTsm3YrIaR9ugC/pYBI4=",
+        "originContent": "## ⚠️ 注意事项",
+        "translatedContent": "## ⚠️ 주의사항"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "vNxv0B6S8gAsv/6KB21XGEL19Wr8ACI8WfEGbVjipaY=",
+        "originContent": "1. **批量下载模式**：脚本将自动读取当前目录下的 `config\\urls.txt`，每行一个视频链接。若文件不存在，将自动创建。",
+        "translatedContent": "1. **일괄 다운로드 모드**: 스크립트는 현재 디렉터리의 `config\\urls.txt` 파일을 자동으로 읽으며, 각 줄에 하나씩 영상 링크를 입력합니다. 파일이 없으면 자동으로 생성됩니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "FvGaRUtz379RIbAp83/3aIJTmk9dIWdnvD04D6yef50=",
+        "originContent": "2. **资源占用提示**：内存较小的设备请避免同时下载多个大视频，或设置过高的并发线程。",
+        "translatedContent": "2. **자원 사용 안내**: 메모리가 적은 장치는 여러 개의 대용량 영상을 동시에 다운로드하거나 너무 높은 동시 실행 스레드를 설정하지 마세요."
+      },
+      {
+        "row": 15,
+        "rowsha": "LG8WCktzxqy9R64hukkmp6rxStjxsN+KabDPcqv07gc=",
+        "originContent": "3. **CentOS 特别说明**：由于环境较为特殊，尚未全面测试，建议在非生产环境中使用。其余主流系统均已验证可用。",
+        "translatedContent": "3. **CentOS 특별 안내**: 환경이 다소 특수하여 아직 완전한 테스트가 이루어지지 않았으니, 비생산 환경에서 사용을 권장합니다. 그 외 주요 시스템은 모두 검증되었습니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "numEYVYd3i9NIBYqIhCUv2kJF3HqkUtkOKOy1z+fz7E=",
+        "originContent": "4. Linux版小bug：脚本运行到首页，就会检测一次依赖，遵从代码能跑就行的原则，懒得改了",
+        "translatedContent": "4. Linux 버전 소소한 버그: 스크립트가 홈 페이지까지 실행되면 한 번 의존성을 검사하는데, 코드가 실행되면 된다는 원칙으로 귀찮아서 수정하지 않았습니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "wA7hYzGdBrrI5z/mXMWLoxD+qM3H9oRbgZy2ETyqShA=",
+        "originContent": "5. Windows版小bug：当其他页面回到首页，再进行选择时，默认选项可能会失效，然后卡循环，能力有限，没修复好",
+        "translatedContent": "5. Windows 버전 소소한 버그: 다른 페이지에서 홈으로 돌아와 선택할 때 기본 옵션이 무효화되고 루프가 걸릴 수 있습니다. 능력 부족으로 제대로 고치지 못했습니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "twokTywiW1qRYeb43ewM1HKm25RZbkBEIwgQqAeNc3A=",
+        "originContent": "两种解决方案：",
+        "translatedContent": "해결 방법 두 가지:"
+      },
+      {
+        "row": 19,
+        "rowsha": "saGc5BXMDRNTtddoRcgdp1NOSN1b/B3xyNo6hAtNH0I=",
+        "originContent": "    1. 退出重新运行",
+        "translatedContent": "    1. 종료 후 다시 실행"
+      },
+      {
+        "row": 20,
+        "rowsha": "r6O4BaCpxpxXC6rcGtRAGJGKbuS2ggfPCpZOOQ4rLXY=",
+        "originContent": "    2. 不要默认，按照数字选就行",
+        "translatedContent": "    2. 기본값을 사용하지 말고 숫자로 선택하세요"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+        "originContent": "## 📄 License",
+        "translatedContent": "## 📄 라이선스"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "TXBJDw/+X6U4IcgR3GRCr+rvy8oA/WZ8CiAqiq+97TY=",
+        "originContent": "本项目遵循 [MIT License](https://opensource.org/licenses/MIT)。",
+        "translatedContent": "본 프로젝트는 [MIT License](https://opensource.org/licenses/MIT)를 따릅니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

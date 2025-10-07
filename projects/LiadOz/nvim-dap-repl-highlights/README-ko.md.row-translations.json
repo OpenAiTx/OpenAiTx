@@ -1,0 +1,368 @@
+[
+  {
+    "row": 1,
+    "rowsha": "czTJQAXwNZXTLQPu8xm0FDuQTa/qp1bN3UgVYHp3LZE=",
+    "originContent": "# nvim-dap-repl-highlights",
+    "translatedContent": "# nvim-dap-repl-highlights"
+  },
+  {
+    "row": 2,
+    "rowsha": "JjrwxyTcuPuR6oGlCrfiC9UwzD1X/028uT6e+51qtgY=",
+    "originContent": "Add syntax highlighting to the [nvim-dap](https://github.com/mfussenegger/nvim-dap) REPL buffer using treesitter.",
+    "translatedContent": "[nvim-dap](https://github.com/mfussenegger/nvim-dap) REPL 버퍼에 treesitter를 사용하여 문법 하이라이팅을 추가합니다."
+  },
+  {
+    "row": 3,
+    "rowsha": "9WuOSLD8+xRX6TDxCiF1hgQUO+O6jqVpcHCPKEYMGpM=",
+    "originContent": "| Before                                                                                                          | After                                                                                                          |",
+    "translatedContent": "| 이전                                                                                                            | 이후                                                                                                            |"
+  },
+  {
+    "row": 4,
+    "rowsha": "NZc1CCoxtrgEeHrpiAw5fF6IbSRdjyg6M1KW25frGsE=",
+    "originContent": "| --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |",
+    "translatedContent": "| --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |"
+  },
+  {
+    "row": 5,
+    "rowsha": "mlMV33ej47NvqyS9D3KGxlKupMyLm+hMlTwWtWOiB14=",
+    "originContent": "| ![before](https://user-images.githubusercontent.com/20954878/235993939-a3ad95eb-9dfa-41a4-b70e-3a4e890e2adf.png) | ![image](https://user-images.githubusercontent.com/20954878/235993604-642fe658-6cc9-40e0-846c-00df11d963e1.png)|",
+    "translatedContent": "| ![before](https://user-images.githubusercontent.com/20954878/235993939-a3ad95eb-9dfa-41a4-b70e-3a4e890e2adf.png) | ![image](https://user-images.githubusercontent.com/20954878/235993604-642fe658-6cc9-40e0-846c-00df11d963e1.png)|"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "## 요구 사항"
+  },
+  {
+    "row": 8,
+    "rowsha": "++0x6WyyxA/tjE7wTZWxUfND1SnUBXkgoWQGsQjmBEA=",
+    "originContent": "* Neovim 0.9 or later",
+    "translatedContent": "* Neovim 0.9 이상"
+  },
+  {
+    "row": 9,
+    "rowsha": "23Flv62VR/K/zI5HoPAfj25uaS8yEFCB3rCo2aA1wsk=",
+    "originContent": "* [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)",
+    "translatedContent": "* [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+    "originContent": "## Setup",
+    "translatedContent": "## 설정"
+  },
+  {
+    "row": 12,
+    "rowsha": "IZ4zfaUQZe4hZ/8zXF+1/hMAfhIAI0n8+5AJ9wxPkps=",
+    "originContent": "Install the plugin and the requirements using your favourite method. Once installed, make sure you configured treesitter [highlighting](https://github.com/nvim-treesitter/nvim-treesitter#modules) then add the following to your lua config",
+    "translatedContent": "선호하는 방법으로 플러그인과 요구 사항을 설치하세요. 설치가 완료되면 treesitter [하이라이팅](https://github.com/nvim-treesitter/nvim-treesitter#modules)을 설정했는지 확인한 후, 다음을 lua 설정에 추가하세요"
+  },
+  {
+    "row": 13,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 14,
+    "rowsha": "jyeaDbuFWw7b1CWo/xs+zx8yUHNY5WwV5ykFO0fc7PI=",
+    "originContent": "require('nvim-dap-repl-highlights').setup()",
+    "translatedContent": "require('nvim-dap-repl-highlights').setup()"
+  },
+  {
+    "row": 15,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 16,
+    "rowsha": "0XNlfqiRa2ptqfwLlfV52+L8orC9hQQ5Af+9paG5aRk=",
+    "originContent": "After initially setting up the plugin the dap_repl parser needs to be installed, this can be done manually by running `:TSInstall dap_repl`.",
+    "translatedContent": "플러그인을 처음 설정한 후에는 dap_repl 파서를 설치해야 합니다. 이는 `:TSInstall dap_repl` 명령을 실행하여 수동으로 할 수 있습니다."
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "mf3uFk+wNcISYj8+X+zekJFaUaqROHDlh1lsOC00cqU=",
+    "originContent": "Or automatically through Treesitter configuration:",
+    "translatedContent": "또는 Treesitter 설정을 통해 자동으로 할 수 있습니다:"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "k6kity9M+uVdWr6uh7CFfjQpJ2nIqpa0xxz54xchoXQ=",
+    "originContent": "**Using `ensure_installed` (nvim-treesitter master branch)**",
+    "translatedContent": "**`ensure_installed` 사용하기 (nvim-treesitter 마스터 브랜치)**"
+  },
+  {
+    "row": 21,
+    "rowsha": "iM/5F5dPx0V4PiBBP4WUWmqbFtXsYqLjx1XrqGQlVCU=",
+    "originContent": "> ⚠️ **NOTE:** You must call nvim-dap-repl-highlights.setup() before Treesitter, or the dap_repl parser won't be found.",
+    "translatedContent": "> ⚠️ **참고:** nvim-dap-repl-highlights.setup()을 Treesitter보다 먼저 호출해야 하며, 그렇지 않으면 dap_repl 파서를 찾을 수 없습니다."
+  },
+  {
+    "row": 22,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 23,
+    "rowsha": "jyeaDbuFWw7b1CWo/xs+zx8yUHNY5WwV5ykFO0fc7PI=",
+    "originContent": "require('nvim-dap-repl-highlights').setup()",
+    "translatedContent": "require('nvim-dap-repl-highlights').setup()"
+  },
+  {
+    "row": 24,
+    "rowsha": "9cK13kxEeA/FJfZrdKdyd/lp3xgn2r8NuwxPAZc1M+s=",
+    "originContent": "require('nvim-treesitter.configs').setup {",
+    "translatedContent": "require('nvim-treesitter.configs').setup {"
+  },
+  {
+    "row": 25,
+    "rowsha": "aC94groLqG0iKuv9mUv5SevGaTG9xSjWWp1DcOBaObI=",
+    "originContent": "  highlight = {",
+    "translatedContent": "  highlight = {"
+  },
+  {
+    "row": 26,
+    "rowsha": "nO98/qhQItI7/592yXtnBNCw1tupT78S08UEZEPXRr8=",
+    "originContent": "    enable = true,",
+    "translatedContent": "    enable = true,"
+  },
+  {
+    "row": 27,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 28,
+    "rowsha": "/6QOop6KojboegQ2xfTX88nA0jZF1tI6jdcwK/xboEs=",
+    "originContent": "  ensure_installed = { 'dap_repl', ... },",
+    "translatedContent": "  ensure_installed = { 'dap_repl', ... },"
+  },
+  {
+    "row": 29,
+    "rowsha": "BJo/S9HKlcIDfq/vrzW+cjFZ0AjqDtYk7AJKk9LzUdg=",
+    "originContent": "  ...",
+    "translatedContent": "  ..."
+  },
+  {
+    "row": 30,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 31,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 32,
+    "rowsha": "wCL6bm4us2b6yE6Ho2a85IShuYI0gGDGEr4jMluQc3c=",
+    "originContent": "**Using `nvim-treesitter.install` (nvim-treesitter main branch)**",
+    "translatedContent": "**`nvim-treesitter.install` 사용하기 (nvim-treesitter 메인 브랜치)**"
+  },
+  {
+    "row": 33,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 34,
+    "rowsha": "jyeaDbuFWw7b1CWo/xs+zx8yUHNY5WwV5ykFO0fc7PI=",
+    "originContent": "require('nvim-dap-repl-highlights').setup()",
+    "translatedContent": "require('nvim-dap-repl-highlights').setup()"
+  },
+  {
+    "row": 35,
+    "rowsha": "6SpA8BW2lcYy5ZyHGAEJy3R+qJ8OT0YUbuKCMNBrViw=",
+    "originContent": "require('nvim-treesitter').install { 'dap_repl' }",
+    "translatedContent": "require('nvim-treesitter').install { 'dap_repl' }"
+  },
+  {
+    "row": 36,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 37,
+    "rowsha": "MHT+T9WxBajZSmZGydNNPhYIgZUecgsAX/XhU2MwNdQ=",
+    "originContent": "> ⚠️ If this ever stops working or the API changes, check the official Treesitter docs for the latest install method:",
+    "translatedContent": "> ⚠️ 이 기능이 작동을 멈추거나 API가 변경될 경우, 최신 설치 방법은 공식 Treesitter 문서를 확인하세요:"
+  },
+  {
+    "row": 38,
+    "rowsha": "Tmp3mpNjG7RLWlq4Knz9xws2DjATesRiuldm6TkEJmE=",
+    "originContent": "> 👉 https://github.com/nvim-treesitter/nvim-treesitter",
+    "translatedContent": "> 👉 https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 41,
+    "rowsha": "VO0bLHAWxzhbhLRTTntLsIg7+lacTBkIK1IxAq/UoAI=",
+    "originContent": "By default, the plugin detects the language to use in the REPL by looking at the **filetype** used to to launch dap. Obviously in order to have syntax highlighting for certain language you will need to have a treesitter parser for that language, alongside the `dap_repl` parser.",
+    "translatedContent": "기본적으로, 이 플러그인은 dap를 실행할 때 사용된 **filetype**을 보고 REPL에서 사용할 언어를 감지합니다. 특정 언어에 대한 구문 강조를 위해서는 해당 언어에 대한 treesitter 파서와 함께 `dap_repl` 파서가 필요합니다."
+  },
+  {
+    "row": 42,
+    "rowsha": "FoVczULfRjbx/QB0G16GZfFmXb/DPHuQblQlLsG10UY=",
+    "originContent": "This may not fit all use cases.",
+    "translatedContent": "이 방법이 모든 사용 사례에 적합하지 않을 수 있습니다."
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "onqzkowpRTKBYIH2Q7UVHM/81UyefM/zyaSeUp1d6Ms=",
+    "originContent": "You could instead use the command `:lua require('nvim-dap-repl-highlights').setup_highlights('python')` which will set python highlights in the current repl buffer. ",
+    "translatedContent": "대신 `:lua require('nvim-dap-repl-highlights').setup_highlights('python')` 명령을 사용하여 현재 repl 버퍼에 파이썬 하이라이트를 설정할 수 있습니다."
+  },
+  {
+    "row": 45,
+    "rowsha": "nG5vu5zlzJAE5N6jkzwgKbTxpmXSA2dXcBfTsR1yLTI=",
+    "originContent": "Alternatively the function can be called without specifiying the language, this will prompt the user for a language.",
+    "translatedContent": "또는 함수 호출 시 언어를 지정하지 않으면, 사용자에게 언어를 선택하도록 요청합니다."
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "J7h+EOdYsQcmJn87Fi2gyv3zGQyspQ3gHE81MgA8NOE=",
+    "originContent": "Additionally you could specify in the **dap** configuration the repl language to use, for example if you want your python repl to have javascript highlighting:",
+    "translatedContent": "추가로, **dap** 설정에서 사용할 repl 언어를 지정할 수 있습니다. 예를 들어 파이썬 repl에 자바스크립트 하이라이트를 적용하려면:"
+  },
+  {
+    "row": 48,
+    "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+    "originContent": "```lua",
+    "translatedContent": "```lua"
+  },
+  {
+    "row": 49,
+    "rowsha": "0DdNn9uIaCBI+96VrqPlrZ9Zma3rvV9qv3Q4T8jyhys=",
+    "originContent": "local dap = require('dap')",
+    "translatedContent": "local dap = require('dap')"
+  },
+  {
+    "row": 50,
+    "rowsha": "HnSysqvhD6KYJBKUm318ZqyMUTjvTQ36A6OTH+UPdcY=",
+    "originContent": "dap.configurations.python = {",
+    "translatedContent": "dap.configurations.python = {"
+  },
+  {
+    "row": 51,
+    "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+    "originContent": "  {",
+    "translatedContent": "  {"
+  },
+  {
+    "row": 52,
+    "rowsha": "h3NbiL2AXBwYJR1GPZS3a1aiVcpltidLJGI6HNO+FEA=",
+    "originContent": "    name = \"Python with javascript repl because I like to watch the world burn 🔥🔥🔥\",",
+    "translatedContent": "    name = \"Python with javascript repl because I like to watch the world burn 🔥🔥🔥\","
+  },
+  {
+    "row": 53,
+    "rowsha": "If3aFM1eZuvpeaM4fCVjVBrBYecNSSwSs7TfdIArRyA=",
+    "originContent": "    type = \"python\",",
+    "translatedContent": "    type = \"python\","
+  },
+  {
+    "row": 54,
+    "rowsha": "oanCDxwKAS6PNUVngf/fE0jUjRGnhywaDcnJPYTalwg=",
+    "originContent": "    request = \"launch\",",
+    "translatedContent": "    request = \"launch\","
+  },
+  {
+    "row": 55,
+    "rowsha": "k9gEdMTuyZuuC3msA+B4nWppT3Mrbtgd40mXrpvKKOs=",
+    "originContent": "    program = \"${file}\",",
+    "translatedContent": "    program = \"${file}\","
+  },
+  {
+    "row": 56,
+    "rowsha": "xbNHSFiaiIKV75cj8VeQcrP1xPu7L6OU2jHuTE7vfkk=",
+    "originContent": "    repl_lang = \"javascript\"",
+    "translatedContent": "    repl_lang = \"javascript\""
+  },
+  {
+    "row": 57,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 58,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 59,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 60,
+    "rowsha": "GR1rChjILiFtTKVRTZbd6MSDtWuqR8dCA5Wtf6lKsic=",
+    "originContent": "The repl_lang option takes precedence over the filetype.",
+    "translatedContent": "repl_lang 옵션이 filetype보다 우선합니다."
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

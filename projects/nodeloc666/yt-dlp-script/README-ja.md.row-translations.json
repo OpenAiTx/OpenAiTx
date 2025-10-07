@@ -1,0 +1,542 @@
+[
+  {
+    "row": 1,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 2,
+    "rowsha": "PYYhSMLkXURtDxFZ+r8f01dNYQGSygrWICLrzz8mD54=",
+    "originContent": "# 🎬 yt-dlp 视频批量下载工具（Windows / Linux 支持）",
+    "translatedContent": "# 🎬 yt-dlp 動画一括ダウンロードツール（Windows / Linux 対応）"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "ik9vcVwBbh7iN0j1gxwFt/VbMql8QEwsZra1WRNK/+c=",
+    "originContent": "> 基于 [yt-dlp](https://github.com/yt-dlp/yt-dlp) 的一键式视频下载脚本，灵感来源于 [NodeSeek 大佬的分享](https://www.nodeseek.com/post-334093-2#15)。",
+    "translatedContent": "> [yt-dlp](https://github.com/yt-dlp/yt-dlp) をベースにしたワンクリック動画ダウンロードスクリプトで、[NodeSeek 氏の共有](https://www.nodeseek.com/post-334093-2#15)に触発されました。"
+  },
+  {
+    "row": 5,
+    "rowsha": "KnJ+6f6wb+7+o38Frrg//GVC/5ai0nRlrTA4wp4knKE=",
+    "originContent": "> 支持单视频与批量下载，兼容 Windows 与主流 Linux 发行版（Debian / Ubuntu / Alpine / CentOS）。",
+    "translatedContent": "> 単一動画および一括ダウンロードに対応し、Windows と主要な Linux ディストリビューション（Debian / Ubuntu / Alpine / CentOS）に対応しています。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "rBfoXPhy7CyNsjs3JmdBanixgZFt0szn14N5WclGVrM=",
+    "originContent": "## ✨ 功能特色",
+    "translatedContent": "## ✨ 機能特徴"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "wY2gfoaHooN0r2+ZBmKRSh/mKshEAfUuBa9pHwGw0dI=",
+    "originContent": "* 📥 **一键运行**：无需手动配置，按提示输入即可开始下载",
+    "translatedContent": "* 📥 **ワンクリック実行**：手動設定不要、プロンプトに従って入力するだけでダウンロード開始"
+  },
+  {
+    "row": 12,
+    "rowsha": "gjJVYkP94qzfeD95fXQDQf4bUagGNbBdNo+rDAz8f94=",
+    "originContent": "* 🍪 **支持自定义 Cookie**：适用于需要登录才能下载的视频（⚠️ 该功能尚未验证，可能存在 Bug）",
+    "translatedContent": "* 🍪 **カスタム Cookie 対応**：ログインが必要な動画のダウンロードに対応（⚠️ この機能は未検証でバグの可能性あり）"
+  },
+  {
+    "row": 13,
+    "rowsha": "c2NQ18mea/jEgijQIcqkBRSOtHni5TEOlsQXB+YlFNY=",
+    "originContent": "* 📂 **支持自定义输出目录**：轻松保存到指定文件夹",
+    "translatedContent": "* 📂 **出力フォルダのカスタマイズ対応**：指定フォルダに簡単保存"
+  },
+  {
+    "row": 14,
+    "rowsha": "fCkPjd19uOKesINeVGVCnEL+ZhR98G00xF/Yf2guc4o=",
+    "originContent": "* 📃 **支持批量下载**：自动读取 `urls.txt` 文件中的链接进行下载",
+    "translatedContent": "* 📃 **一括ダウンロード対応**：`urls.txt` ファイル内のリンクを自動で読み込みダウンロード"
+  },
+  {
+    "row": 15,
+    "rowsha": "ioL39bjxMzu2eWBExw9myTk45VctaK24aWjsgHQlqks=",
+    "originContent": "* ⚙️ **自动安装依赖**：Linux 环境下自动安装 `yt-dlp` 和 `ffmpeg`",
+    "translatedContent": "* ⚙️ **依存関係の自動インストール**：Linux 環境下で `yt-dlp` と `ffmpeg` を自動インストール"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "3ItJ5wDD1Z3gA6SCME3Nv/cDoZ/yJRXRPxg/9dFrEw8=",
+    "originContent": "## 🖼️ 截图预览",
+    "translatedContent": "## 🖼️ スクリーンショットプレビュー"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "oKLYnVUtwegGFiLuHWsRgxJWrjB5maQUlDt8lSjgI4U=",
+    "originContent": "| 示例 1                                                                   | 示例 2                                                                   |",
+    "translatedContent": "| サンプル 1                                                              | サンプル 2                                                              |"
+  },
+  {
+    "row": 22,
+    "rowsha": "wxAX9UIBxd+Kxriamkhz/Un9JyGMgodGo27oKlAntC8=",
+    "originContent": "| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |",
+    "translatedContent": "| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |"
+  },
+  {
+    "row": 23,
+    "rowsha": "FSK92ayJfOhqinlQ/sP0s24CzLl4QJi0Ql9UG72Poq8=",
+    "originContent": "| ![示例 1](https://img.uutv.dpdns.org/file/1746720584399_1000193433.jpg) | ![示例 2](https://img.uutv.dpdns.org/file/1746720581006_1000193434.jpg) |",
+    "translatedContent": "| ![サンプル 1](https://img.uutv.dpdns.org/file/1746720584399_1000193433.jpg) | ![サンプル 2](https://img.uutv.dpdns.org/file/1746720581006_1000193434.jpg) |"
+  },
+  {
+    "row": 24,
+    "rowsha": "wppVa44I4nTs9XBvgS9jPdaX7opm6SBTkFpQNwRpNho=",
+    "originContent": "| ![示例 3](https://img.uutv.dpdns.org/file/1746720588978_1000193428.jpg) | ![示例 4](https://img.uutv.dpdns.org/file/1746720587272_1000193427.jpg) |",
+    "translatedContent": "| ![サンプル 3](https://img.uutv.dpdns.org/file/1746720588978_1000193428.jpg) | ![サンプル 4](https://img.uutv.dpdns.org/file/1746720587272_1000193427.jpg) |"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "YaMsF4pOaYWZ+l8b1Yv6YAR2BrJoJMKkAZAW1teMcO8=",
+    "originContent": "## 🪟 Windows 使用方法",
+    "translatedContent": "## 🪟 Windows 使用方法"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "uqWzVudui5TNwQDkPBQAmmrSAz8ROP/Om7srCUbfbLg=",
+    "originContent": "1. 下载以下文件：",
+    "translatedContent": "1. 以下のファイルをダウンロードしてください："
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "iUZc7dtrG43nfQdIlMOzWtW0Oata6Zzej2LjRGZ9ApU=",
+    "originContent": "   * [`yt-dlp.exe`](https://github.com/yt-dlp/yt-dlp)",
+    "translatedContent": "   * [`yt-dlp.exe`](https://github.com/yt-dlp/yt-dlp)"
+  },
+  {
+    "row": 33,
+    "rowsha": "uHot11WZEipS4LrH+NHYYJHb3C7lrng8n2+j7JJjLfQ=",
+    "originContent": "   * [`ffmpeg` Windows 版本](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z)",
+    "translatedContent": "   * [`ffmpeg` Windows 版](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z)"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "yKmcD8jApv60eFW2TYXPN6CWh4wiNMWjgWfKLvUnTPc=",
+    "originContent": "2. 解压后，将下列文件放入同一目录（如 `yt-dlp` 文件夹）：",
+    "translatedContent": "2. 解凍後、以下のファイルを同じフォルダ（例：`yt-dlp` フォルダ）に入れてください："
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "wfXWR16ST/QlfW49eGuson680pdmwdVu1RuNGoAasV0=",
+    "originContent": "   * `yt-dlp.exe`",
+    "translatedContent": "   * `yt-dlp.exe`"
+  },
+  {
+    "row": 38,
+    "rowsha": "q8Or188x9AyzotxmU7Exj8FqUwfjwuWJb0xKZFKT2fc=",
+    "originContent": "   * `ffmpeg.exe`",
+    "translatedContent": "   * `ffmpeg.exe`"
+  },
+  {
+    "row": 39,
+    "rowsha": "tCp3N7nq3V8XfR9q+6WHbaPqgUHxLMGQ4mFkU76xaJo=",
+    "originContent": "   * `ffprobe.exe`",
+    "translatedContent": "   * `ffprobe.exe`"
+  },
+  {
+    "row": 40,
+    "rowsha": "2MhlRGhwgAI/htpDHuDq8VXy/1XSg1UDKChHr7l2Iao=",
+    "originContent": "   * `yt-dlp.bat`（脚本文件）",
+    "translatedContent": "   * `yt-dlp.bat`（スクリプトファイル）"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. ダブルクリックで `yt-dlp.bat` を実行し、指示に従って動画をダウンロードします。  "
+  },
+  {
+    "row": 42,
+    "rowsha": "YuPeXQ3hgTXTr0xx6PLoPk9oadLYrrXtf4fspabseJo=",
+    "originContent": "3. 双击运行 `yt-dlp.bat`，根据提示操作即可下载视频。",
+    "translatedContent": "4. config/config.ini を編集してデフォルト設定を変更します。  "
+  },
+  {
+    "row": 43,
+    "rowsha": "9iFXdhkFsuMdWyDFHH33G18Fy8e2rbkCtHXdwZsRAMk=",
+    "originContent": "4. 编辑config/config.ini进行默认配置修改",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---  "
+  },
+  {
+    "row": 45,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🐧 Linux 使用方法(科技lion大佬最新スクリプトにも同様の機能スクリプトが統合されています)  "
+  },
+  {
+    "row": 47,
+    "rowsha": "i2NqQJScdiEB6VHvGQZ5Cv7rh7a3uPxc2uH+IQuC6AQ=",
+    "originContent": "## 🐧 Linux 使用方法(科技lion大佬最新脚本内也集成了相同功能脚本)",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**対応システム**：Debian / Ubuntu / Alpine / CentOS  "
+  },
+  {
+    "row": 49,
+    "rowsha": "q/vLEgemBTDMzyfPISyYW9hhajAlnDvIMvm94lBe4fc=",
+    "originContent": "**支持系统**：Debian / Ubuntu / Alpine / CentOS",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ワンクリックでデプロイまたは更新して実行："
+  },
+  {
+    "row": 51,
+    "rowsha": "9RGneFjNztbxd2tBsJs31VwVeuDUxEwRuHxvDPbAFEw=",
+    "originContent": "一键部署或更新并运行：",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 54,
+    "rowsha": "WD4wskvb4TUZqxiFgGpRcsgrna1F7rrUOQjQqV+eCrA=",
+    "originContent": "bash -c \"$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/install.sh)\"",
+    "translatedContent": "bash -c \"$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/install.sh)\""
+  },
+  {
+    "row": 55,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "アンインストールするには："
+  },
+  {
+    "row": 57,
+    "rowsha": "5UUlCj71MP7sRS4Zys9qkouZLODfTnA+EYpvxO4+llo=",
+    "originContent": "如需卸载：",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 60,
+    "rowsha": "/fNDhcyxrISlsAjkB4cxDL2Wl1O77OUdu0Jc7f8g7y4=",
+    "originContent": "bash -c \"$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/uninstall.sh)\"",
+    "translatedContent": "bash -c \"$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/uninstall.sh)\""
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "Qau7RQpGdpBp8tzlXtv7i7oW4+eRaFC+p4dPGYR/6I4=",
+    "originContent": "## 📱 Android 使用推荐",
+    "translatedContent": "## 📱 Android 使用推薦"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "lWw7YlN1/zQVqS9tksJFFKvbsWzxOw2eX/SpikEP8kA=",
+    "originContent": "1. 使用 [Seal](https://github.com/JunkFood02/Seal) App，在 Android 上体验 `yt-dlp` 功能。",
+    "translatedContent": "1. 使用 [Seal](https://github.com/JunkFood02/Seal) アプリで、Android 上で `yt-dlp` 機能を体験できます。"
+  },
+  {
+    "row": 68,
+    "rowsha": "KLOqFgd4rHiG7yCCXnQvNjBKd0HJPR5nTN6tf5Tgcd8=",
+    "originContent": "2. termux安装Debian也能下载，不过咱没必要用这个，Seal非常好用",
+    "translatedContent": "2. termuxでDebianをインストールしてもダウンロード可能ですが、わざわざ使う必要はなく、Sealが非常に使いやすいです。"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "LtCpC/PsnesmIblvbWFwch4rTsm3YrIaR9ugC/pYBI4=",
+    "originContent": "## ⚠️ 注意事项",
+    "translatedContent": "## ⚠️ 注意事項"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "vNxv0B6S8gAsv/6KB21XGEL19Wr8ACI8WfEGbVjipaY=",
+    "originContent": "1. **批量下载模式**：脚本将自动读取当前目录下的 `config\\urls.txt`，每行一个视频链接。若文件不存在，将自动创建。",
+    "translatedContent": "1. **一括ダウンロードモード**：スクリプトは現在のディレクトリの `config\\urls.txt` を自動的に読み込み、1行に1つの動画リンクを期待します。ファイルが存在しない場合は自動で作成されます。"
+  },
+  {
+    "row": 75,
+    "rowsha": "FvGaRUtz379RIbAp83/3aIJTmk9dIWdnvD04D6yef50=",
+    "originContent": "2. **资源占用提示**：内存较小的设备请避免同时下载多个大视频，或设置过高的并发线程。",
+    "translatedContent": "2. **リソース使用に関する注意**：メモリが少ないデバイスでは複数の大きな動画を同時にダウンロードしたり、高すぎる並列スレッド数の設定は避けてください。"
+  },
+  {
+    "row": 76,
+    "rowsha": "LG8WCktzxqy9R64hukkmp6rxStjxsN+KabDPcqv07gc=",
+    "originContent": "3. **CentOS 特别说明**：由于环境较为特殊，尚未全面测试，建议在非生产环境中使用。其余主流系统均已验证可用。",
+    "translatedContent": "3. **CentOS 特別説明**：環境が特殊なため、全面的なテストはされていません。非本番環境での使用を推奨します。他の主要なシステムは動作確認済みです。"
+  },
+  {
+    "row": 77,
+    "rowsha": "numEYVYd3i9NIBYqIhCUv2kJF3HqkUtkOKOy1z+fz7E=",
+    "originContent": "4. Linux版小bug：脚本运行到首页，就会检测一次依赖，遵从代码能跑就行的原则，懒得改了",
+    "translatedContent": "4. Linux版の小さなバグ：スクリプトがトップページに到達すると依存関係を一度チェックします。コードが動けば良いという方針なので修正していません。"
+  },
+  {
+    "row": 78,
+    "rowsha": "wA7hYzGdBrrI5z/mXMWLoxD+qM3H9oRbgZy2ETyqShA=",
+    "originContent": "5. Windows版小bug：当其他页面回到首页，再进行选择时，默认选项可能会失效，然后卡循环，能力有限，没修复好",
+    "translatedContent": "5. Windows版の小さなバグ：他のページからトップページに戻り再度選択すると、デフォルト選択肢が無効になりループする場合があります。対応能力に限界があり、修正できていません。"
+  },
+  {
+    "row": 79,
+    "rowsha": "twokTywiW1qRYeb43ewM1HKm25RZbkBEIwgQqAeNc3A=",
+    "originContent": "两种解决方案：",
+    "translatedContent": "二つの解決策："
+  },
+  {
+    "row": 80,
+    "rowsha": "saGc5BXMDRNTtddoRcgdp1NOSN1b/B3xyNo6hAtNH0I=",
+    "originContent": "    1. 退出重新运行",
+    "translatedContent": "    1. 終了して再起動する"
+  },
+  {
+    "row": 81,
+    "rowsha": "r6O4BaCpxpxXC6rcGtRAGJGKbuS2ggfPCpZOOQ4rLXY=",
+    "originContent": "    2. 不要默认，按照数字选就行",
+    "translatedContent": "    2. デフォルトは使わず、数字で選択する"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+    "originContent": "## 📄 License",
+    "translatedContent": "## 📄 ライセンス"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "TXBJDw/+X6U4IcgR3GRCr+rvy8oA/WZ8CiAqiq+97TY=",
+    "originContent": "本项目遵循 [MIT License](https://opensource.org/licenses/MIT)。",
+    "translatedContent": "本プロジェクトは [MIT License](https://opensource.org/licenses/MIT) に準拠しています。"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

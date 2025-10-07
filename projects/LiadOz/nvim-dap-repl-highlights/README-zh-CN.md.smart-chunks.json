@@ -1,0 +1,485 @@
+[
+  {
+    "Id": 1,
+    "Content": "# nvim-dap-repl-highlights\nAdd syntax highlighting to the [nvim-dap](https://github.com/mfussenegger/nvim-dap) REPL buffer using treesitter.\n| Before                                                                                                          | After                                                                                                          |\n| --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |\n| ![before](https://user-images.githubusercontent.com/20954878/235993939-a3ad95eb-9dfa-41a4-b70e-3a4e890e2adf.png) | ![image](https://user-images.githubusercontent.com/20954878/235993604-642fe658-6cc9-40e0-846c-00df11d963e1.png)|\n\n## Requirements\n* Neovim 0.9 or later\n* [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)\n\n## Setup\nInstall the plugin and the requirements using your favourite method. Once installed, make sure you configured treesitter [highlighting](https://github.com/nvim-treesitter/nvim-treesitter#modules) then add the following to your lua config",
+    "ContentSha": "jwMueRVX1Qksnnrz3nx3bGjMQWz4l3WCvfSfCdF3Hjo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# nvim-dap-repl-highlights\n使用 treesitter 为 [nvim-dap](https://github.com/mfussenegger/nvim-dap) REPL 缓冲区添加语法高亮。\n| 之前                                                                                                            | 之后                                                                                                            |\n| --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |\n| ![before](https://user-images.githubusercontent.com/20954878/235993939-a3ad95eb-9dfa-41a4-b70e-3a4e890e2adf.png) | ![image](https://user-images.githubusercontent.com/20954878/235993604-642fe658-6cc9-40e0-846c-00df11d963e1.png) |\n\n## 要求\n* Neovim 0.9 或更高版本\n* [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)\n\n## 设置\n使用你喜欢的方法安装插件和依赖。安装完成后，确保你已配置 treesitter 的[高亮](https://github.com/nvim-treesitter/nvim-treesitter#modules)，然后将以下内容添加到你的 lua 配置中",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "czTJQAXwNZXTLQPu8xm0FDuQTa/qp1bN3UgVYHp3LZE=",
+        "originContent": "# nvim-dap-repl-highlights",
+        "translatedContent": "# nvim-dap-repl-highlights"
+      },
+      {
+        "row": 2,
+        "rowsha": "JjrwxyTcuPuR6oGlCrfiC9UwzD1X/028uT6e+51qtgY=",
+        "originContent": "Add syntax highlighting to the [nvim-dap](https://github.com/mfussenegger/nvim-dap) REPL buffer using treesitter.",
+        "translatedContent": "使用 treesitter 为 [nvim-dap](https://github.com/mfussenegger/nvim-dap) REPL 缓冲区添加语法高亮。"
+      },
+      {
+        "row": 3,
+        "rowsha": "9WuOSLD8+xRX6TDxCiF1hgQUO+O6jqVpcHCPKEYMGpM=",
+        "originContent": "| Before                                                                                                          | After                                                                                                          |",
+        "translatedContent": "| 之前                                                                                                            | 之后                                                                                                            |"
+      },
+      {
+        "row": 4,
+        "rowsha": "NZc1CCoxtrgEeHrpiAw5fF6IbSRdjyg6M1KW25frGsE=",
+        "originContent": "| --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |",
+        "translatedContent": "| --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |"
+      },
+      {
+        "row": 5,
+        "rowsha": "mlMV33ej47NvqyS9D3KGxlKupMyLm+hMlTwWtWOiB14=",
+        "originContent": "| ![before](https://user-images.githubusercontent.com/20954878/235993939-a3ad95eb-9dfa-41a4-b70e-3a4e890e2adf.png) | ![image](https://user-images.githubusercontent.com/20954878/235993604-642fe658-6cc9-40e0-846c-00df11d963e1.png)|",
+        "translatedContent": "| ![before](https://user-images.githubusercontent.com/20954878/235993939-a3ad95eb-9dfa-41a4-b70e-3a4e890e2adf.png) | ![image](https://user-images.githubusercontent.com/20954878/235993604-642fe658-6cc9-40e0-846c-00df11d963e1.png) |"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "## 要求"
+      },
+      {
+        "row": 8,
+        "rowsha": "++0x6WyyxA/tjE7wTZWxUfND1SnUBXkgoWQGsQjmBEA=",
+        "originContent": "* Neovim 0.9 or later",
+        "translatedContent": "* Neovim 0.9 或更高版本"
+      },
+      {
+        "row": 9,
+        "rowsha": "23Flv62VR/K/zI5HoPAfj25uaS8yEFCB3rCo2aA1wsk=",
+        "originContent": "* [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)",
+        "translatedContent": "* [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## 设置"
+      },
+      {
+        "row": 12,
+        "rowsha": "IZ4zfaUQZe4hZ/8zXF+1/hMAfhIAI0n8+5AJ9wxPkps=",
+        "originContent": "Install the plugin and the requirements using your favourite method. Once installed, make sure you configured treesitter [highlighting](https://github.com/nvim-treesitter/nvim-treesitter#modules) then add the following to your lua config",
+        "translatedContent": "使用你喜欢的方法安装插件和依赖。安装完成后，确保你已配置 treesitter 的[高亮](https://github.com/nvim-treesitter/nvim-treesitter#modules)，然后将以下内容添加到你的 lua 配置中"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```lua\nrequire('nvim-dap-repl-highlights').setup()\n```",
+    "ContentSha": "PzmKXSUzjmIOeAMCROwviAVs4QBxkfj/wMKm/r4+sUM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nrequire('nvim-dap-repl-highlights').setup()\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "jyeaDbuFWw7b1CWo/xs+zx8yUHNY5WwV5ykFO0fc7PI=",
+        "originContent": "require('nvim-dap-repl-highlights').setup()",
+        "translatedContent": "require('nvim-dap-repl-highlights').setup()"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "After initially setting up the plugin the dap_repl parser needs to be installed, this can be done manually by running `:TSInstall dap_repl`.\n\nOr automatically through Treesitter configuration:\n\n**Using `ensure_installed` (nvim-treesitter master branch)**\n> ⚠️ **NOTE:** You must call nvim-dap-repl-highlights.setup() before Treesitter, or the dap_repl parser won't be found.",
+    "ContentSha": "hULIobv+Dz7DzjT9dRNEDBjWjUhOjtpSmkiejjGOi28=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "在初次设置插件后，需要安装 dap_repl 解析器，这可以通过运行 `:TSInstall dap_repl` 手动完成。\n\n或者通过 Treesitter 配置自动完成：\n\n**使用 `ensure_installed`（nvim-treesitter 主分支）**\n> ⚠️ **注意：** 你必须在调用 Treesitter 之前先调用 nvim-dap-repl-highlights.setup()，否则无法找到 dap_repl 解析器。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0XNlfqiRa2ptqfwLlfV52+L8orC9hQQ5Af+9paG5aRk=",
+        "originContent": "After initially setting up the plugin the dap_repl parser needs to be installed, this can be done manually by running `:TSInstall dap_repl`.",
+        "translatedContent": "在初次设置插件后，需要安装 dap_repl 解析器，这可以通过运行 `:TSInstall dap_repl` 手动完成。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "mf3uFk+wNcISYj8+X+zekJFaUaqROHDlh1lsOC00cqU=",
+        "originContent": "Or automatically through Treesitter configuration:",
+        "translatedContent": "或者通过 Treesitter 配置自动完成："
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "k6kity9M+uVdWr6uh7CFfjQpJ2nIqpa0xxz54xchoXQ=",
+        "originContent": "**Using `ensure_installed` (nvim-treesitter master branch)**",
+        "translatedContent": "**使用 `ensure_installed`（nvim-treesitter 主分支）**"
+      },
+      {
+        "row": 6,
+        "rowsha": "iM/5F5dPx0V4PiBBP4WUWmqbFtXsYqLjx1XrqGQlVCU=",
+        "originContent": "> ⚠️ **NOTE:** You must call nvim-dap-repl-highlights.setup() before Treesitter, or the dap_repl parser won't be found.",
+        "translatedContent": "> ⚠️ **注意：** 你必须在调用 Treesitter 之前先调用 nvim-dap-repl-highlights.setup()，否则无法找到 dap_repl 解析器。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```lua\nrequire('nvim-dap-repl-highlights').setup()\nrequire('nvim-treesitter.configs').setup {\n  highlight = {\n    enable = true,\n  },\n  ensure_installed = { 'dap_repl', ... },\n  ...\n}\n```",
+    "ContentSha": "iiPXhv0S4Zm1EdHC9DumA3X/te6hR2/ysJhQpJLo1eE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nrequire('nvim-dap-repl-highlights').setup()\nrequire('nvim-treesitter.configs').setup {\n  highlight = {\n    enable = true,\n  },\n  ensure_installed = { 'dap_repl', ... },\n  ...\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "jyeaDbuFWw7b1CWo/xs+zx8yUHNY5WwV5ykFO0fc7PI=",
+        "originContent": "require('nvim-dap-repl-highlights').setup()",
+        "translatedContent": "require('nvim-dap-repl-highlights').setup()"
+      },
+      {
+        "row": 3,
+        "rowsha": "9cK13kxEeA/FJfZrdKdyd/lp3xgn2r8NuwxPAZc1M+s=",
+        "originContent": "require('nvim-treesitter.configs').setup {",
+        "translatedContent": "require('nvim-treesitter.configs').setup {"
+      },
+      {
+        "row": 4,
+        "rowsha": "aC94groLqG0iKuv9mUv5SevGaTG9xSjWWp1DcOBaObI=",
+        "originContent": "  highlight = {",
+        "translatedContent": "  highlight = {"
+      },
+      {
+        "row": 5,
+        "rowsha": "nO98/qhQItI7/592yXtnBNCw1tupT78S08UEZEPXRr8=",
+        "originContent": "    enable = true,",
+        "translatedContent": "    enable = true,"
+      },
+      {
+        "row": 6,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 7,
+        "rowsha": "/6QOop6KojboegQ2xfTX88nA0jZF1tI6jdcwK/xboEs=",
+        "originContent": "  ensure_installed = { 'dap_repl', ... },",
+        "translatedContent": "  ensure_installed = { 'dap_repl', ... },"
+      },
+      {
+        "row": 8,
+        "rowsha": "BJo/S9HKlcIDfq/vrzW+cjFZ0AjqDtYk7AJKk9LzUdg=",
+        "originContent": "  ...",
+        "translatedContent": "  ..."
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "**Using `nvim-treesitter.install` (nvim-treesitter main branch)**",
+    "ContentSha": "wCL6bm4us2b6yE6Ho2a85IShuYI0gGDGEr4jMluQc3c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**使用 `nvim-treesitter.install`（nvim-treesitter 主分支）**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wCL6bm4us2b6yE6Ho2a85IShuYI0gGDGEr4jMluQc3c=",
+        "originContent": "**Using `nvim-treesitter.install` (nvim-treesitter main branch)**",
+        "translatedContent": "**使用 `nvim-treesitter.install`（nvim-treesitter 主分支）**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```lua\nrequire('nvim-dap-repl-highlights').setup()\nrequire('nvim-treesitter').install { 'dap_repl' }\n```",
+    "ContentSha": "s7XxyuPYj6VvSpy6Ix3llzEeRcy80Ut6vB1XNwYZUvs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nrequire('nvim-dap-repl-highlights').setup()\nrequire('nvim-treesitter').install { 'dap_repl' }\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "jyeaDbuFWw7b1CWo/xs+zx8yUHNY5WwV5ykFO0fc7PI=",
+        "originContent": "require('nvim-dap-repl-highlights').setup()",
+        "translatedContent": "require('nvim-dap-repl-highlights').setup()"
+      },
+      {
+        "row": 3,
+        "rowsha": "6SpA8BW2lcYy5ZyHGAEJy3R+qJ8OT0YUbuKCMNBrViw=",
+        "originContent": "require('nvim-treesitter').install { 'dap_repl' }",
+        "translatedContent": "require('nvim-treesitter').install { 'dap_repl' }"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "> ⚠️ If this ever stops working or the API changes, check the official Treesitter docs for the latest install method:\n> 👉 https://github.com/nvim-treesitter/nvim-treesitter\n\n## Usage\nBy default, the plugin detects the language to use in the REPL by looking at the **filetype** used to to launch dap. Obviously in order to have syntax highlighting for certain language you will need to have a treesitter parser for that language, alongside the `dap_repl` parser.\nThis may not fit all use cases.\n\nYou could instead use the command `:lua require('nvim-dap-repl-highlights').setup_highlights('python')` which will set python highlights in the current repl buffer. \nAlternatively the function can be called without specifiying the language, this will prompt the user for a language.\n\nAdditionally you could specify in the **dap** configuration the repl language to use, for example if you want your python repl to have javascript highlighting:",
+    "ContentSha": "eZASm2sdlWLGl4PAKGYAaZOuGvSRe2y1B+3S3VVk4NM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> ⚠️ 如果此功能停止工作或 API 发生变化，请查看官方 Treesitter 文档以获取最新的安装方法：\n> 👉 https://github.com/nvim-treesitter/nvim-treesitter\n\n## 使用方法\n默认情况下，插件通过查看用于启动 dap 的 **文件类型** 来检测 REPL 中使用的语言。显然，为了让某些语言具有语法高亮，您需要为该语言安装对应的 treesitter 解析器，以及 `dap_repl` 解析器。\n这可能不适用于所有用例。\n\n您也可以使用命令 `:lua require('nvim-dap-repl-highlights').setup_highlights('python')`，这将在当前 repl 缓冲区设置 Python 高亮。\n或者该函数也可以在不指定语言的情况下调用，这将提示用户输入语言。\n\n另外，您还可以在 **dap** 配置中指定 repl 使用的语言，例如如果您想让 Python repl 使用 JavaScript 高亮：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MHT+T9WxBajZSmZGydNNPhYIgZUecgsAX/XhU2MwNdQ=",
+        "originContent": "> ⚠️ If this ever stops working or the API changes, check the official Treesitter docs for the latest install method:",
+        "translatedContent": "> ⚠️ 如果此功能停止工作或 API 发生变化，请查看官方 Treesitter 文档以获取最新的安装方法："
+      },
+      {
+        "row": 2,
+        "rowsha": "Tmp3mpNjG7RLWlq4Knz9xws2DjATesRiuldm6TkEJmE=",
+        "originContent": "> 👉 https://github.com/nvim-treesitter/nvim-treesitter",
+        "translatedContent": "> 👉 https://github.com/nvim-treesitter/nvim-treesitter"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 5,
+        "rowsha": "VO0bLHAWxzhbhLRTTntLsIg7+lacTBkIK1IxAq/UoAI=",
+        "originContent": "By default, the plugin detects the language to use in the REPL by looking at the **filetype** used to to launch dap. Obviously in order to have syntax highlighting for certain language you will need to have a treesitter parser for that language, alongside the `dap_repl` parser.",
+        "translatedContent": "默认情况下，插件通过查看用于启动 dap 的 **文件类型** 来检测 REPL 中使用的语言。显然，为了让某些语言具有语法高亮，您需要为该语言安装对应的 treesitter 解析器，以及 `dap_repl` 解析器。"
+      },
+      {
+        "row": 6,
+        "rowsha": "FoVczULfRjbx/QB0G16GZfFmXb/DPHuQblQlLsG10UY=",
+        "originContent": "This may not fit all use cases.",
+        "translatedContent": "这可能不适用于所有用例。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "onqzkowpRTKBYIH2Q7UVHM/81UyefM/zyaSeUp1d6Ms=",
+        "originContent": "You could instead use the command `:lua require('nvim-dap-repl-highlights').setup_highlights('python')` which will set python highlights in the current repl buffer. ",
+        "translatedContent": "您也可以使用命令 `:lua require('nvim-dap-repl-highlights').setup_highlights('python')`，这将在当前 repl 缓冲区设置 Python 高亮。"
+      },
+      {
+        "row": 9,
+        "rowsha": "nG5vu5zlzJAE5N6jkzwgKbTxpmXSA2dXcBfTsR1yLTI=",
+        "originContent": "Alternatively the function can be called without specifiying the language, this will prompt the user for a language.",
+        "translatedContent": "或者该函数也可以在不指定语言的情况下调用，这将提示用户输入语言。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "J7h+EOdYsQcmJn87Fi2gyv3zGQyspQ3gHE81MgA8NOE=",
+        "originContent": "Additionally you could specify in the **dap** configuration the repl language to use, for example if you want your python repl to have javascript highlighting:",
+        "translatedContent": "另外，您还可以在 **dap** 配置中指定 repl 使用的语言，例如如果您想让 Python repl 使用 JavaScript 高亮："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```lua\nlocal dap = require('dap')\ndap.configurations.python = {\n  {\n    name = \"Python with javascript repl because I like to watch the world burn 🔥🔥🔥\",\n    type = \"python\",\n    request = \"launch\",\n    program = \"${file}\",\n    repl_lang = \"javascript\"\n  },\n}\n```",
+    "ContentSha": "E0+ff301sUBve8Ubt52QBX9K8YgHurl10ICSYbVotv4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```lua\nlocal dap = require('dap')\ndap.configurations.python = {\n  {\n    name = \"Python with javascript repl because I like to watch the world burn 🔥🔥🔥\",\n    type = \"python\",\n    request = \"launch\",\n    program = \"${file}\",\n    repl_lang = \"javascript\"\n  },\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oouBIN8Svc42FMXhYYivPh58jmBitJ9rB/NZ/msUdsw=",
+        "originContent": "```lua",
+        "translatedContent": "```lua"
+      },
+      {
+        "row": 2,
+        "rowsha": "0DdNn9uIaCBI+96VrqPlrZ9Zma3rvV9qv3Q4T8jyhys=",
+        "originContent": "local dap = require('dap')",
+        "translatedContent": "local dap = require('dap')"
+      },
+      {
+        "row": 3,
+        "rowsha": "HnSysqvhD6KYJBKUm318ZqyMUTjvTQ36A6OTH+UPdcY=",
+        "originContent": "dap.configurations.python = {",
+        "translatedContent": "dap.configurations.python = {"
+      },
+      {
+        "row": 4,
+        "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+        "originContent": "  {",
+        "translatedContent": "  {"
+      },
+      {
+        "row": 5,
+        "rowsha": "h3NbiL2AXBwYJR1GPZS3a1aiVcpltidLJGI6HNO+FEA=",
+        "originContent": "    name = \"Python with javascript repl because I like to watch the world burn 🔥🔥🔥\",",
+        "translatedContent": "    name = \"Python with javascript repl because I like to watch the world burn 🔥🔥🔥\","
+      },
+      {
+        "row": 6,
+        "rowsha": "If3aFM1eZuvpeaM4fCVjVBrBYecNSSwSs7TfdIArRyA=",
+        "originContent": "    type = \"python\",",
+        "translatedContent": "    type = \"python\","
+      },
+      {
+        "row": 7,
+        "rowsha": "oanCDxwKAS6PNUVngf/fE0jUjRGnhywaDcnJPYTalwg=",
+        "originContent": "    request = \"launch\",",
+        "translatedContent": "    request = \"launch\","
+      },
+      {
+        "row": 8,
+        "rowsha": "k9gEdMTuyZuuC3msA+B4nWppT3Mrbtgd40mXrpvKKOs=",
+        "originContent": "    program = \"${file}\",",
+        "translatedContent": "    program = \"${file}\","
+      },
+      {
+        "row": 9,
+        "rowsha": "xbNHSFiaiIKV75cj8VeQcrP1xPu7L6OU2jHuTE7vfkk=",
+        "originContent": "    repl_lang = \"javascript\"",
+        "translatedContent": "    repl_lang = \"javascript\""
+      },
+      {
+        "row": 10,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "The repl_lang option takes precedence over the filetype.\n",
+    "ContentSha": "2fCuM8KaYeLjZscEAm81gqgcz9bPkdKvwDAfucxtFWc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "repl_lang 选项优先于文件类型。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GR1rChjILiFtTKVRTZbd6MSDtWuqR8dCA5Wtf6lKsic=",
+        "originContent": "The repl_lang option takes precedence over the filetype.",
+        "translatedContent": "repl_lang 选项优先于文件类型。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
