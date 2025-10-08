@@ -1,49 +1,49 @@
-# cross-border
-크로스보더 전자상거래 관련 자료, 신청, 결제, 해외무역, 틱톡, 아마존, 스토어 개설, 신규 유입 등 자원, 지속 업데이트 중
+# 크로스보더
+크로스보더 전자상거래 관련 자료, 신청, 결제, 해외무역, 틱톡, 아마존, 매장 오픈, 신규 고객 확보 등 자원, 지속적으로 업데이트 중
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=id)
 
 ------------
-# [202507](https://raw.githubusercontent.com/mswnlz/cross-border/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/cross-border/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/cross-border/main/202506.md)
+# [202508](https://raw.githubusercontent.com/mswnlz/cross-border/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/cross-border/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/cross-border/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/cross-border/main/202506.md)
 
 
 
 ---------------
-### 프로젝트 추가 자료
+### 项目更多资源
 
-[🎁강력 추천 자료! 원가 59,880위안 절판 중의학 강좌 자료 대전【소장판 1.18TB】, 기초, 영상, 외치, 침구, 서적 등 모두 포함](https://github.com/mswnlz/chinese-traditional)
+[🎁重磅资源！原价59880元 绝版中医课程资料大全【收藏版1.18TB】，包括基础、视频、外治、针灸，书籍等等等应有尽有](https://github.com/mswnlz/chinese-traditional)
 
-[다양한 유용한 도구 관련 자료, 운영체제, 각종 플러그인, 그린 크랙버전 도구 등, 계속 업데이트 중](https://github.com/mswnlz/tools)
+[各种好用工具相关的资源，包括操作系统，各种插件，绿色破解版工具等等，持续更新中](https://github.com/mswnlz/tools)
 
 
-[크로스보더 전자상거래 관련 자료, 신청, 결제, 해외무역, 틱톡, 아마존, 스토어 개설, 신규 유입 등 자원, 지속 업데이트 중](https://github.com/mswnlz/cross-border)
+[跨境电商相关的资料，申请，支付、外贸，tiktok，亚马逊，开店铺，拉新等资源，持续更新中](https://github.com/mswnlz/cross-border)
 
-[자미디어 관련 자료, 신규 유입, 트래픽 운영법, 고객 확보, 전환, 수익화 등 자료, 지속 업데이트 중](https://github.com/mswnlz/self-media)
+[自媒体相关资源，包括拉新，流量玩法、获客，转化、变现等资料，持续更新中](https://github.com/mswnlz/self-media)
 
-[교육 자료 모음, 유치원부터 초등, 중등, 학이사, 만위, 원보도 등 여러 기관 자료, 지속적으로 추가 중](https://github.com/mswnlz/edu-knowlege)
+[ 教育各种资料，从幼儿园到小学、中学，涵盖学而思，万维、猿辅导等多个机构，持续增加中](https://github.com/mswnlz/edu-knowlege)
 
-[AI 관련 지식, 프롬프트, 튜토리얼, 동영상 강좌, 수익화 강좌 등, 지속 업데이트 중](https://github.com/mswnlz/AIknowledge)
+[AI相关知识，提示词，教程，视频教程，变现课程等，持续更新中](https://github.com/mswnlz/AIknowledge)
 
-[다양한 강의 자료, 더다오, 인기 온라인 자료, 다른 프로젝트에 올리기 어려운 자료 등 다양하게 포함, 계속 업데이트 중](https://github.com/mswnlz/curriculum)
+[各种课程材料，包括得到，网上流行材料，跟其他项目不好放的资料，都在这里面，等等等，持续更新中](https://github.com/mswnlz/curriculum)
 
-[영화, 다큐멘터리, 음악, 콘서트 등 각종 미디어 자원, 지속 업데이트 중](https://github.com/mswnlz/movies)
+[影视媒体资源，电影，记录片，音乐，演唱会等等，持续更新中](https://github.com/mswnlz/movies)
 
-[서적 자료 관련, 각종 튜토리얼, 소설 등 다양한 책 포함](https://github.com/mswnlz/book)
+[书籍资料相关的，包括各种教程、小说等各种书籍](https://github.com/mswnlz/book)
 
-[피트니스, 운동, 식단, 영양, 건강, 수면 등, 지속적으로 업데이트 중](https://github.com/mswnlz/healthy)
+[健身、锻炼、饮食，营养，健康，睡眠等，持续更新中](https://github.com/mswnlz/healthy)
 
 
 
 ---------------
 
-# 자료 메인 페이지
-[각종 자료, 지식, 영화, 다큐멘터리, 음악, 서적, 미디어 모음, 지속적으로 정리 중](https://github.com/mswnlz)
+# 资源主页
+[各种资料、知识、影视，记录片，音乐，书籍，媒体聚集地，持续整理中](https://github.com/mswnlz)
 
 ---------------
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-08
 
 ---

@@ -1,10 +1,10 @@
-# cross-border
-跨境电商相关资料，申请，支付、外贸，tiktok，亚马逊，开店铺，拉新等资源，持续更新中
+# 跨境
+跨境电商相关资料、申请、支付、外贸、tiktok、亚马逊、开店铺、拉新等资源，持续更新中
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=cross-border&lang=id)
 
 ------------
-# [202507](https://raw.githubusercontent.com/mswnlz/cross-border/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/cross-border/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/cross-border/main/202506.md)
+# [202508](https://raw.githubusercontent.com/mswnlz/cross-border/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/cross-border/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/cross-border/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/cross-border/main/202506.md)
 
 
 
@@ -44,6 +44,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-08
 
 ---
