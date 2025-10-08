@@ -1,18 +1,50 @@
 
-# 🎬 yt-dlp 비디오 일괄 다운로드 도구（Windows / Linux 지원）
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=nodeloc666&project=yt-dlp-script&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
 
-> [yt-dlp](https://github.com/yt-dlp/yt-dlp)를 기반으로 한 원클릭 비디오 다운로드 스크립트로, [NodeSeek 대가의 공유](https://www.nodeseek.com/post-334093-2#15)에서 영감을 받았습니다.
-> 단일 비디오 및 일괄 다운로드를 지원하며, Windows 및 주요 Linux 배포판(Debian / Ubuntu / Alpine / CentOS)과 호환됩니다.
+
+# 🎬 yt-dlp 동영상 일괄 다운로드 도구 (Windows / Linux 지원)
+
+> [yt-dlp](https://github.com/yt-dlp/yt-dlp) 기반의 원클릭 동영상 다운로드 스크립트입니다. [NodeSeek 고수의 공유](https://www.nodeseek.com/post-334093-2#15)에서 영감을 받았습니다.
+> 단일 동영상 및 일괄 다운로드를 지원하며, Windows와 주요 Linux 배포판(Debian / Ubuntu / Alpine / CentOS)과 호환됩니다.
 
 ---
 
 ## ✨ 기능 특징
 
-* 📥 **원클릭 실행**：수동 설정 없이 안내에 따라 입력하면 바로 다운로드 시작
-* 🍪 **커스텀 쿠키 지원**：로그인이 필요한 비디오 다운로드에 적합（⚠️ 이 기능은 아직 검증되지 않았으며, 버그가 있을 수 있습니다）
-* 📂 **커스텀 출력 디렉토리 지원**：지정 폴더에 쉽게 저장
-* 📃 **일괄 다운로드 지원**：`urls.txt` 파일 내 링크를 자동으로 읽어 다운로드
-* ⚙️ **의존성 자동 설치**：Linux 환경에서 `yt-dlp` 및 `ffmpeg` 자동 설치
+* 📥 **원클릭 실행**: 별도의 수동 설정 없이 안내에 따라 입력하면 바로 다운로드 시작
+* 🍪 **커스텀 쿠키 지원**: 로그인 후 다운로드가 필요한 영상에 사용 가능(⚠️ 본 기능은 아직 검증되지 않았으며 버그가 있을 수 있음)
+* 📂 **커스텀 출력 폴더 지원**: 원하는 폴더에 쉽게 저장 가능
+* 📃 **일괄 다운로드 지원**: `urls.txt` 파일의 링크를 자동으로 읽어 다운로드
+* ⚙️ **의존성 자동 설치**: Linux 환경에서 `yt-dlp`와 `ffmpeg`를 자동 설치
 
 ---
 
@@ -27,28 +59,28 @@
 
 ## 🪟 Windows 사용 방법
 
-1. 다음 파일을 다운로드하세요：
+1. 다음 파일을 다운로드합니다:
 
    * [`yt-dlp.exe`](https://github.com/yt-dlp/yt-dlp)
    * [`ffmpeg` Windows 버전](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z)
 
-2. 압축 해제 후, 다음 파일들을 같은 디렉토리(예: `yt-dlp` 폴더)에 넣으세요：
+2. 압축 해제 후 아래 파일들을 동일한 폴더(예: `yt-dlp` 폴더)에 넣습니다:
 
    * `yt-dlp.exe`
    * `ffmpeg.exe`
    * `ffprobe.exe`
-   * `yt-dlp.bat`（스크립트 파일）
-3. `yt-dlp.bat`를 더블 클릭하여 실행하고, 안내에 따라 작업하면 동영상을 다운로드할 수 있습니다.  
-4. 기본 설정 수정을 위해 config/config.ini 파일을 편집하세요.  
+   * `yt-dlp.bat`(스크립트 파일)
 
----  
+3. `yt-dlp.bat`를 더블클릭하여 실행 후 안내에 따라 영상을 다운로드합니다.
+4. config/config.ini 파일을 편집하여 기본 설정을 수정합니다.
 
-## 🐧 Linux 사용 방법(과학 lion 대가 최신 스크립트 내에도 동일 기능 스크립트 포함)  
+---
 
-**지원 시스템**：Debian / Ubuntu / Alpine / CentOS  
+## 🐧 Linux 사용 방법(과학lion님의 최신 스크립트에도 동일 기능이 통합되어 있음)
 
-원클릭 배포 또는 업데이트 및 실행:
+**지원 시스템**: Debian / Ubuntu / Alpine / CentOS
 
+원클릭 배포 또는 업데이트 후 실행:
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script/main/install.sh)"
@@ -91,6 +123,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/nodeloc666/yt-dlp-script
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-07
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-08
 
 ---

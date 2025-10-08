@@ -5,7 +5,7 @@ Kiến thức liên quan đến AI, từ khoá gợi ý, hướng dẫn, video h
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=AIknowledge&lang=id)
 
 ------------
-# [202508](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202506.md)
+# [202510](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202510.md) [202508](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/AIknowledge/main/202506.md)
 
 
 ---------------
@@ -42,11 +42,11 @@ Kiến thức liên quan đến AI, từ khoá gợi ý, hướng dẫn, video h
 ---------------
 
 
-### 
+###
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-19
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-08
 
 ---
