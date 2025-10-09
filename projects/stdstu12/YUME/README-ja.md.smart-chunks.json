@@ -1,0 +1,1039 @@
+[
+  {
+    "Id": 1,
+    "Content": "<div align=\"center\">\n<img src=assets/yume.png width=\"20%\"/>\n</div>\n\n# Yume: An Interactive World Generation Model\n\nYume is a long-term project that aims to create an interactive, realistic, and dynamic world through the input of text, images, or videos.\n\n\n<div align=\"center\">\n\n\n\n\n[![project page](https://img.shields.io/badge/Project-Page-2ea44f)](https://stdstu12.github.io/YUME-Project/)&nbsp;\n[![arXiv](https://img.shields.io/badge/arXiv%20paper-2507.17744-b31b1b.svg)](https://arxiv.org/abs/2507.17744)&nbsp;\n[![model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/stdstu123/Yume-I2V-540P)&nbsp;\n[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=51VII_iJ1EM)&nbsp;\n\n</div>\n\n- A distillation recipes for video DiT.\n- [FramePack-Like](https://github.com/lllyasviel/FramePack) training code.\n- Long video generation method with DDP/FSDP sampling support\n\n\n\n## 🔧 Installation\nThe code is tested on Python 3.10.0, CUDA 12.1 and A100.",
+    "ContentSha": "M3pR40zXotT9Wzba+88h8mHoYkq+ActOCPMM2b8bH8c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"center\">\n<img src=assets/yume.png width=\"20%\"/>\n</div>\n\n# Yume: インタラクティブな世界生成モデル\n\nYumeは、テキスト、画像、または動画の入力を通じて、インタラクティブでリアルかつ動的な世界を作り出すことを目指した長期プロジェクトです。\n\n\n<div align=\"center\">\n\n\n\n\n[![project page](https://img.shields.io/badge/Project-Page-2ea44f)](https://stdstu12.github.io/YUME-Project/)&nbsp;\n[![arXiv](https://img.shields.io/badge/arXiv%20paper-2507.17744-b31b1b.svg)](https://arxiv.org/abs/2507.17744)&nbsp;\n[![model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/stdstu123/Yume-I2V-540P)&nbsp;\n[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=51VII_iJ1EM)&nbsp;\n\n</div>\n\n- 動画DiTの蒸留レシピ。\n- [FramePack-Like](https://github.com/lllyasviel/FramePack) トレーニングコード。\n- DDP/FSDPサンプリング対応の長尺動画生成手法。\n\n\n\n## 🔧 インストール\nコードはPython 3.10.0、CUDA 12.1、A100上でテスト済みです。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "S3YQj2qghpd7er6kCcrW9bTL7hESEtg5KzTNumTiN4I=",
+        "originContent": "<img src=assets/yume.png width=\"20%\"/>",
+        "translatedContent": "<img src=assets/yume.png width=\"20%\"/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "TSJRj30Ldc+GYp1t7vg6NrJ1I5GpZnuVlJTpV7HKT6o=",
+        "originContent": "# Yume: An Interactive World Generation Model",
+        "translatedContent": "# Yume: インタラクティブな世界生成モデル"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "vtGGvJle+ZEw4Aq5sNgmWHiT3Ds5e564Q3V4L2qX7mo=",
+        "originContent": "Yume is a long-term project that aims to create an interactive, realistic, and dynamic world through the input of text, images, or videos.",
+        "translatedContent": "Yumeは、テキスト、画像、または動画の入力を通じて、インタラクティブでリアルかつ動的な世界を作り出すことを目指した長期プロジェクトです。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "F8h4pXRVQC/YR0pAdFv+8kmw8Qr70zwqU0v3WTuWmFQ=",
+        "originContent": "[![project page](https://img.shields.io/badge/Project-Page-2ea44f)](https://stdstu12.github.io/YUME-Project/)&nbsp;",
+        "translatedContent": "[![project page](https://img.shields.io/badge/Project-Page-2ea44f)](https://stdstu12.github.io/YUME-Project/)&nbsp;"
+      },
+      {
+        "row": 16,
+        "rowsha": "93nq2FXjNKCrWkM39jbUmlRSp/DXNtmaG2wHvOFJsOc=",
+        "originContent": "[![arXiv](https://img.shields.io/badge/arXiv%20paper-2507.17744-b31b1b.svg)](https://arxiv.org/abs/2507.17744)&nbsp;",
+        "translatedContent": "[![arXiv](https://img.shields.io/badge/arXiv%20paper-2507.17744-b31b1b.svg)](https://arxiv.org/abs/2507.17744)&nbsp;"
+      },
+      {
+        "row": 17,
+        "rowsha": "tVLNq00M3RP66InzAH2YUBZNy/xNsM70rO6zVMRrYqA=",
+        "originContent": "[![model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/stdstu123/Yume-I2V-540P)&nbsp;",
+        "translatedContent": "[![model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/stdstu123/Yume-I2V-540P)&nbsp;"
+      },
+      {
+        "row": 18,
+        "rowsha": "407d9bvs2F6eY6ULAnaX3x4jyvgy7seQaWXWLQ0MySE=",
+        "originContent": "[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=51VII_iJ1EM)&nbsp;",
+        "translatedContent": "[![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=51VII_iJ1EM)&nbsp;"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "NMF1ErLMtV4FuOYsvY/9w1AG3A6KwJW84UvpeEA+GMY=",
+        "originContent": "- A distillation recipes for video DiT.",
+        "translatedContent": "- 動画DiTの蒸留レシピ。"
+      },
+      {
+        "row": 23,
+        "rowsha": "stROvOMErYc5uNuZWhtGEE0T0EfIC/RDGUO5/PsOoiE=",
+        "originContent": "- [FramePack-Like](https://github.com/lllyasviel/FramePack) training code.",
+        "translatedContent": "- [FramePack-Like](https://github.com/lllyasviel/FramePack) トレーニングコード。"
+      },
+      {
+        "row": 24,
+        "rowsha": "O6u1z6phry4H/qiE0i2qWlMpmVtFUnMqjDHAc5RxuYE=",
+        "originContent": "- Long video generation method with DDP/FSDP sampling support",
+        "translatedContent": "- DDP/FSDPサンプリング対応の長尺動画生成手法。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "WKFmXAmfm6DEx9WVYWcKegGRoEIZrNL2yi4nwiVBqTk=",
+        "originContent": "## 🔧 Installation",
+        "translatedContent": "## 🔧 インストール"
+      },
+      {
+        "row": 29,
+        "rowsha": "rR3mThoG4s5B0I1LK84hsBEc++FkTwzDBi9NNeqeFfA=",
+        "originContent": "The code is tested on Python 3.10.0, CUDA 12.1 and A100.",
+        "translatedContent": "コードはPython 3.10.0、CUDA 12.1、A100上でテスト済みです。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n./env_setup.sh fastvideo\npip install -r requirements.txt\n```",
+    "ContentSha": "40VrABm5sllMkurEHdb4++LEsqg36jOf6rfMzlhuceY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n./env_setup.sh fastvideo\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "koxSrYteDt3v1sN65YJroAf7nlo3TagGmC76eFr5dh4=",
+        "originContent": "./env_setup.sh fastvideo",
+        "translatedContent": "./env_setup.sh fastvideo"
+      },
+      {
+        "row": 3,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "You need to run `pip install .` after each code modification, or alternatively, you can copy the modified files directly into your virtual environment. For example, if I modified `wan/image2video.py` and my virtual environment is `yume`, I can copy the file to:\n`envs/yume/lib/python3.10/site-packages/wan/image2video.py`.\n\n## 🚀 Inference\n\n### ODE\nFor image-to-video generation, we use `--jpg_dir=\"./jpg\"` to specify the input image directory and `--caption_path=\"./caption.txt\"` to provide text conditioning inputs, where each line corresponds to a generation instance controlling 2-second video output.",
+    "ContentSha": "1ZXjtwd2mbtr8q527gRQi4T99loymqcF29oLiooA74o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "コードを変更するたびに `pip install .` を実行する必要があります。あるいは、変更したファイルを直接仮想環境にコピーすることもできます。例えば、`wan/image2video.py` を変更し、仮想環境が `yume` の場合、次のようにファイルをコピーします：\n`envs/yume/lib/python3.10/site-packages/wan/image2video.py`。\n\n## 🚀 推論\n\n### ODE\n画像から動画生成には、入力画像ディレクトリを指定するために `--jpg_dir=\"./jpg\"` を使用し、テキスト条件入力を提供するために `--caption_path=\"./caption.txt\"` を使用します。ここで各行は、2秒間の動画出力を制御する生成インスタンスに対応します。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "dg46b+2NrtFRvKgfDPFtK099eDxBFY/zIb/2WStykgI=",
+        "originContent": "You need to run `pip install .` after each code modification, or alternatively, you can copy the modified files directly into your virtual environment. For example, if I modified `wan/image2video.py` and my virtual environment is `yume`, I can copy the file to:",
+        "translatedContent": "コードを変更するたびに `pip install .` を実行する必要があります。あるいは、変更したファイルを直接仮想環境にコピーすることもできます。例えば、`wan/image2video.py` を変更し、仮想環境が `yume` の場合、次のようにファイルをコピーします："
+      },
+      {
+        "row": 2,
+        "rowsha": "XElNgxViAao55eKUhNEbSQdRYq4EClJHh1yvUy86A68=",
+        "originContent": "`envs/yume/lib/python3.10/site-packages/wan/image2video.py`.",
+        "translatedContent": "`envs/yume/lib/python3.10/site-packages/wan/image2video.py`。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "aj6qeE9oZzfGcTPnVmTPWQZR/R1mb16fU5DykkYs8Go=",
+        "originContent": "## 🚀 Inference",
+        "translatedContent": "## 🚀 推論"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "mau4X8dQqpPBBt0cq1BDK5fANmwyD5Tr6aB6phgcoHU=",
+        "originContent": "### ODE",
+        "translatedContent": "### ODE"
+      },
+      {
+        "row": 7,
+        "rowsha": "RkWgavycFoEiuH+rI5kfUcLfaCS1m6Vw1Wq8BkLPTH0=",
+        "originContent": "For image-to-video generation, we use `--jpg_dir=\"./jpg\"` to specify the input image directory and `--caption_path=\"./caption.txt\"` to provide text conditioning inputs, where each line corresponds to a generation instance controlling 2-second video output.",
+        "translatedContent": "画像から動画生成には、入力画像ディレクトリを指定するために `--jpg_dir=\"./jpg\"` を使用し、テキスト条件入力を提供するために `--caption_path=\"./caption.txt\"` を使用します。ここで各行は、2秒間の動画出力を制御する生成インスタンスに対応します。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n# Download the model weights and place them in Path_To_Yume.\nbash scripts/inference/sample_jpg.sh \n```",
+    "ContentSha": "pfhi9WZ2DP9bJcYRBERLB2/9R/g7jz0LYhg4C9j5ExE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Download the model weights and place them in Path_To_Yume.\nbash scripts/inference/sample_jpg.sh \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Br3/zsJz6cu6hOGw7xJY+mfY2IEmOJES/pSiSBXMs10=",
+        "originContent": "# Download the model weights and place them in Path_To_Yume.",
+        "translatedContent": "# Download the model weights and place them in Path_To_Yume."
+      },
+      {
+        "row": 3,
+        "rowsha": "LQ2NM8j1ai+FN2iyEpl8bhc3fhuS97y4va6zjEdU7HI=",
+        "originContent": "bash scripts/inference/sample_jpg.sh ",
+        "translatedContent": "bash scripts/inference/sample_jpg.sh "
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "We also consider generating videos using the data from `./val`, where `--test_data_dir=\"./val\"` specifies the location of the example data.",
+    "ContentSha": "ixMgw4VKN7T+X5iqd4aeOU+btjtsDJZKtEq4R9g6cOY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "また、`--test_data_dir=\"./val\"`が例のデータの場所を指定する形で、`./val`のデータを使用して動画を生成することも検討しています。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ixMgw4VKN7T+X5iqd4aeOU+btjtsDJZKtEq4R9g6cOY=",
+        "originContent": "We also consider generating videos using the data from `./val`, where `--test_data_dir=\"./val\"` specifies the location of the example data.",
+        "translatedContent": "また、`--test_data_dir=\"./val\"`が例のデータの場所を指定する形で、`./val`のデータを使用して動画を生成することも検討しています。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# Download the model weights and place them in Path_To_Yume.\nbash scripts/inference/sample.sh \n```",
+    "ContentSha": "Hc1Vz2qBPo0xccpGLXenpJPMVYDTgdr2P6fbxsg7u2w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Download the model weights and place them in Path_To_Yume.\nbash scripts/inference/sample.sh \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Br3/zsJz6cu6hOGw7xJY+mfY2IEmOJES/pSiSBXMs10=",
+        "originContent": "# Download the model weights and place them in Path_To_Yume.",
+        "translatedContent": "# Download the model weights and place them in Path_To_Yume."
+      },
+      {
+        "row": 3,
+        "rowsha": "BZTosKJm7mcdgvkdujMYhYsqu3jFWB67K+bWRBcgh/M=",
+        "originContent": "bash scripts/inference/sample.sh ",
+        "translatedContent": "bash scripts/inference/sample.sh "
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "### SDE\nWe perform TTS sampling, where `args.sde` controls whether to use SDE-based sampling.",
+    "ContentSha": "E9O4cOzCpdxUvfe4BpbCvpkfkU3uX09fIarxkLtHo7w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### SDE\nTTSサンプリングを実行します。`args.sde`はSDEベースのサンプリングを使用するかどうかを制御します。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6kcn6/Uz/+LKiadVGbGpkKD2/KpvmeHdPnVbrtbhbeE=",
+        "originContent": "### SDE",
+        "translatedContent": "### SDE"
+      },
+      {
+        "row": 2,
+        "rowsha": "S+31T5sVR1y/Fr80ftqPUIkdkCrjnFvDf2iC2JjRslA=",
+        "originContent": "We perform TTS sampling, where `args.sde` controls whether to use SDE-based sampling.",
+        "translatedContent": "TTSサンプリングを実行します。`args.sde`はSDEベースのサンプリングを使用するかどうかを制御します。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n# Download the model weights and place them in Path_To_Yume.\nbash scripts/inference/sample_tts.sh \n```",
+    "ContentSha": "U3WJzfB4iyyxuzUAz+1B9X3v1i38vJC5hlnCfSOfatQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Download the model weights and place them in Path_To_Yume.\nbash scripts/inference/sample_tts.sh \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Br3/zsJz6cu6hOGw7xJY+mfY2IEmOJES/pSiSBXMs10=",
+        "originContent": "# Download the model weights and place them in Path_To_Yume.",
+        "translatedContent": "# Download the model weights and place them in Path_To_Yume."
+      },
+      {
+        "row": 3,
+        "rowsha": "X8OgsAmzARQIWLh2BPPMA1vH1EBmAPhCLeyiWIg+YJo=",
+        "originContent": "bash scripts/inference/sample_tts.sh ",
+        "translatedContent": "bash scripts/inference/sample_tts.sh "
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nFor optimal results, we recommend keeping Actual distance, Angular change rate (turn speed), and View rotation speed within the range of 0.1 to 10. \n\nKey adjustment guidelines:\n1. When executing Camera remains still (·), reduce the Actual distance value\n2. When executing Person stands still, decrease both Angular change rate and View rotation speed values\n\nNote that these parameters (Actual distance, Angular change rate, and View rotation speed) do impact generation results. As an alternative approach, you may consider removing these parameters entirely for simplified operation.\n\n\n\n## 🎯 Training & Distill \nFor model training, we use `args.MVDT` to launch the MVDT framework, which requires at least 16 A100 GPUs. Loading T5 onto the CPU may help conserve GPU memory. We employ `args.Distil` to enable adversarial distillation.",
+    "ContentSha": "0+UdqyWGs9Yb5Xg4LTHHwMDFxTkQW+hMar1glowXTb4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "最適な結果を得るために、実際の距離、角速度（回転速度）、および視点回転速度を0.1から10の範囲内に保つことを推奨します。\n\n主な調整ガイドライン：\n1. カメラが静止している場合（·）、実際の距離の値を減らす\n2. 人物が静止している場合、角速度と視点回転速度の両方の値を減らす\n\nこれらのパラメータ（実際の距離、角速度、視点回転速度）は生成結果に影響を与えることに注意してください。簡略化のために、これらのパラメータを完全に除去する方法も検討できます。\n\n\n\n## 🎯 トレーニングと蒸留\nモデルのトレーニングには、`args.MVDT`を使用してMVDTフレームワークを起動し、最低でも16台のA100 GPUが必要です。T5をCPUにロードすることでGPUメモリの節約が可能です。`args.Distil`を用いて敵対的蒸留を有効にします。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "最適な結果を得るために、実際の距離、角速度（回転速度）、および視点回転速度を0.1から10の範囲内に保つことを推奨します。"
+      },
+      {
+        "row": 2,
+        "rowsha": "vnz6oWB98LRngPC/7VwyqpdVo4A9bQgZIiiIZ8iJB7w=",
+        "originContent": "For optimal results, we recommend keeping Actual distance, Angular change rate (turn speed), and View rotation speed within the range of 0.1 to 10. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "主な調整ガイドライン："
+      },
+      {
+        "row": 4,
+        "rowsha": "0WHAwsm0P24htgnSdTOWzO71STBCDnS3H0kAtYKIU1A=",
+        "originContent": "Key adjustment guidelines:",
+        "translatedContent": "1. カメラが静止している場合（·）、実際の距離の値を減らす"
+      },
+      {
+        "row": 5,
+        "rowsha": "SZT7RFjFKHlcoLWjeVGHgJFqE3gQq2BHKQ3KIa886Pk=",
+        "originContent": "1. When executing Camera remains still (·), reduce the Actual distance value",
+        "translatedContent": "2. 人物が静止している場合、角速度と視点回転速度の両方の値を減らす"
+      },
+      {
+        "row": 6,
+        "rowsha": "jv75hz2jUm7JcmsL4M4znjkI09PeIjUNTQD/Ja8Xc58=",
+        "originContent": "2. When executing Person stands still, decrease both Angular change rate and View rotation speed values",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "これらのパラメータ（実際の距離、角速度、視点回転速度）は生成結果に影響を与えることに注意してください。簡略化のために、これらのパラメータを完全に除去する方法も検討できます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "/yDPrfYhf25kNGXcKpwKM1KOCsT5+45+WSdMTxWz73M=",
+        "originContent": "Note that these parameters (Actual distance, Angular change rate, and View rotation speed) do impact generation results. As an alternative approach, you may consider removing these parameters entirely for simplified operation.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🎯 トレーニングと蒸留"
+      },
+      {
+        "row": 12,
+        "rowsha": "AKhXGUAZyHmB7IJoKX7P83U1FdkstQG40Fagc0xCRc4=",
+        "originContent": "## 🎯 Training & Distill ",
+        "translatedContent": "モデルのトレーニングには、`args.MVDT`を使用してMVDTフレームワークを起動し、最低でも16台のA100 GPUが必要です。T5をCPUにロードすることでGPUメモリの節約が可能です。`args.Distil`を用いて敵対的蒸留を有効にします。"
+      },
+      {
+        "row": 13,
+        "rowsha": "Dq/tGT2/nKoFLlSoTtwMGrAegUYqsbOUNfqPggFWwIk=",
+        "originContent": "For model training, we use `args.MVDT` to launch the MVDT framework, which requires at least 16 A100 GPUs. Loading T5 onto the CPU may help conserve GPU memory. We employ `args.Distil` to enable adversarial distillation.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n# Download the model weights and place them in Path_To_Yume.\nbash scripts/finetune/finetune.sh\n```",
+    "ContentSha": "LV29G66v/GazgatLXa4JFeAaCApwhUnZx5zlAuXDsTc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Download the model weights and place them in Path_To_Yume.\nbash scripts/finetune/finetune.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Br3/zsJz6cu6hOGw7xJY+mfY2IEmOJES/pSiSBXMs10=",
+        "originContent": "# Download the model weights and place them in Path_To_Yume.",
+        "translatedContent": "# Download the model weights and place them in Path_To_Yume."
+      },
+      {
+        "row": 3,
+        "rowsha": "E4g/GzYIYbxhq1RhO/eOtpilsrFuaPMNmcoTXOtEfBg=",
+        "originContent": "bash scripts/finetune/finetune.sh",
+        "translatedContent": "bash scripts/finetune/finetune.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## 🧱 Dataset Preparation\nPlease refer to https://github.com/Lixsp11/sekai-codebase to download the dataset. For the processed data format, refer to `./test_video`.",
+    "ContentSha": "lt3K86VrgmC6r+TYlULgq1frdyvFlaVS998se6p8HFs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🧱 データセット準備\nデータセットのダウンロードについては https://github.com/Lixsp11/sekai-codebase を参照してください。処理済みデータの形式については `./test_video` を参照してください。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iUGVmz6aMxTb9P4+hWz50Q2Mds85CJCe+uj9/WbbgZk=",
+        "originContent": "## 🧱 Dataset Preparation",
+        "translatedContent": "## 🧱 データセット準備"
+      },
+      {
+        "row": 3,
+        "rowsha": "MHPJXv8AZnxbXz5XdnTv5Mi+emB/OvjSvPpiSPPkJwY=",
+        "originContent": "Please refer to https://github.com/Lixsp11/sekai-codebase to download the dataset. For the processed data format, refer to `./test_video`.",
+        "translatedContent": "データセットのダウンロードについては https://github.com/Lixsp11/sekai-codebase を参照してください。処理済みデータの形式については `./test_video` を参照してください。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\npath_to_processed_dataset_folder/\n├── Keys_None_Mouse_Down/ \n│   ├── video_id.mp4\n│   ├── video_id.txt\n├── Keys_None_Mouse_Up\n│──  ...\n└── Keys_S_Mouse_·\n```",
+    "ContentSha": "UVs+WnvoyHlHN3Yd9EXV1NUFH32mDKDZxuv1bbMpLhk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npath_to_processed_dataset_folder/\n├── Keys_None_Mouse_Down/ \n│   ├── video_id.mp4\n│   ├── video_id.txt\n├── Keys_None_Mouse_Up\n│──  ...\n└── Keys_S_Mouse_·\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "x4vELoV4R9LEpQCcEDW/fIVgAXdhXz6kR+vIMUJgkuU=",
+        "originContent": "path_to_processed_dataset_folder/",
+        "translatedContent": "path_to_processed_dataset_folder/"
+      },
+      {
+        "row": 3,
+        "rowsha": "WgBtkCp7jjcVr3Am4WzMQHezL0EnzEMPhYtxR+0z8ww=",
+        "originContent": "├── Keys_None_Mouse_Down/ ",
+        "translatedContent": "├── Keys_None_Mouse_Down/ "
+      },
+      {
+        "row": 4,
+        "rowsha": "CFrnz/ZU3tgZmQcQQQvJw/c8oS77yOqascO7XrS1nfQ=",
+        "originContent": "│   ├── video_id.mp4",
+        "translatedContent": "│   ├── video_id.mp4"
+      },
+      {
+        "row": 5,
+        "rowsha": "or/CVr4GGH8rGkN+OcFnjpyDbSKyLCpH+p4N0AtDRxw=",
+        "originContent": "│   ├── video_id.txt",
+        "translatedContent": "│   ├── video_id.txt"
+      },
+      {
+        "row": 6,
+        "rowsha": "k7e9Yqrpumty4zkvvtipYz8Rtr5Llh00MgynTwuYN4g=",
+        "originContent": "├── Keys_None_Mouse_Up",
+        "translatedContent": "├── Keys_None_Mouse_Up"
+      },
+      {
+        "row": 7,
+        "rowsha": "LR1pXxkS8VwKieuezR7s975z5Eet4juG6UIeAvTXuHM=",
+        "originContent": "│──  ...",
+        "translatedContent": "│──  ..."
+      },
+      {
+        "row": 8,
+        "rowsha": "UAp0eslAQAAwV70xeyEMDWTlkucraiAb0RLRP6bZJUk=",
+        "originContent": "└── Keys_S_Mouse_·",
+        "translatedContent": "└── Keys_S_Mouse_·"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "The provided TXT file content record either camera motion control parameters or animation keyframe data, with the following field definitions:",
+    "ContentSha": "1ZKKpcMYAjPp/dqP3NQc+dvBa43U3+3S9FnrsUtO4fA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "提供されたTXTファイルの内容は、カメラのモーションコントロールパラメータまたはアニメーションのキーフレームデータのいずれかを記録しており、以下のフィールド定義を持ちます：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1ZKKpcMYAjPp/dqP3NQc+dvBa43U3+3S9FnrsUtO4fA=",
+        "originContent": "The provided TXT file content record either camera motion control parameters or animation keyframe data, with the following field definitions:",
+        "translatedContent": "提供されたTXTファイルの内容は、カメラのモーションコントロールパラメータまたはアニメーションのキーフレームデータのいずれかを記録しており、以下のフィールド定義を持ちます："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\nStart Frame: 2 #Starting frame number (begins at frame 2 at origin video)\n\nEnd Frame: 50 #Ending frame number\n\nDuration: 49 frames #Total duration\n\nKeys: W #Keyboard input\n\nMouse: ↓ #Mouse action\n```",
+    "ContentSha": "ovRrJHPazrhPtG2Phzfw8ds9E89RffWWPqGxZAIhXHo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nStart Frame: 2 #Starting frame number (begins at frame 2 at origin video)\n\nEnd Frame: 50 #Ending frame number\n\nDuration: 49 frames #Total duration\n\nKeys: W #Keyboard input\n\nMouse: ↓ #Mouse action\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "bNlYqMBg8jnBvb0U+pZItyn21aAzxa5ptSOKELa+b9s=",
+        "originContent": "Start Frame: 2 #Starting frame number (begins at frame 2 at origin video)",
+        "translatedContent": "Start Frame: 2 #Starting frame number (begins at frame 2 at origin video)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Uo4IQy3K+Y8ezIJmKMmk0ZsRmJLhXjOnFldp4VXOJt4=",
+        "originContent": "End Frame: 50 #Ending frame number",
+        "translatedContent": "End Frame: 50 #Ending frame number"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "mdCoESyDHhpger8VI/Ojf+1UpgcuKSvMO9TYzErEKzg=",
+        "originContent": "Duration: 49 frames #Total duration",
+        "translatedContent": "Duration: 49 frames #Total duration"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "R/Sl0l6CJpWQfwTvwmDpkwwcppj1gz0V2RRN+reFcsk=",
+        "originContent": "Keys: W #Keyboard input",
+        "translatedContent": "Keys: W #Keyboard input"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "2YGAjSUvNjsjHfZbFmOgkNczAG/QczkI77oPi3rvVUw=",
+        "originContent": "Mouse: ↓ #Mouse action",
+        "translatedContent": "Mouse: ↓ #Mouse action"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "In `scripts/finetune/finetune.sh`, `args.root_dir` represents the `path_to_processed_dataset_folder`, and `args.root_dir` represents the full path to the Sekai dataset.\n\n\n## 📑 Development Plan\n- Dataset processing\n  - [ ] Providing processed datasets\n- Code update\n  - [ ] fp8 support\n  - [ ] Better distillation methods\n- ​​Model Update\n  - [ ] Quantized and Distilled Models\n  - [ ] Models for 720p Resolution Generation​\n\n## 🤝 Contributing\nWe welcome all contributions.\n\n\n## Acknowledgement\nWe learned and reused code from the following projects:\n- [FastVideo](https://github.com/hao-ai-lab/FastVideo)\n- [diffusers](https://github.com/huggingface/diffusers)\n- [HunyuanVideo-I2V](https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V)\n- [Wan2.1](https://github.com/Wan-Video/Wan2.1)\n- [Skywork-Reward-V2](https://github.com/SkyworkAI/Skywork-Reward-V2)\n- [MDT](https://github.com/sail-sg/MDT)\n- [AddSR](https://github.com/NJU-PCALab/AddSR)\n\n## Citation\nIf you use Yume for your research, please cite our paper:\n",
+    "ContentSha": "wrVxoRTxLH9d8TBqD0szVwXNAHpu83feoyWIQvCqtGE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`scripts/finetune/finetune.sh` において、`args.root_dir` は `path_to_processed_dataset_folder` を表し、`args.root_dir` は Sekai データセットへのフルパスを表します。\n\n## 📑 開発計画\n- データセット処理\n  - [ ] 処理済みデータセットの提供\n- コード更新\n  - [ ] fp8 サポート\n  - [ ] より良い蒸留手法\n- モデル更新\n  - [ ] 量子化および蒸留モデル\n  - [ ] 720p 解像度生成用モデル​\n\n## 🤝 貢献\nすべての貢献を歓迎します。\n\n## 謝辞\n以下のプロジェクトからコードを学び、再利用しました：\n- [FastVideo](https://github.com/hao-ai-lab/FastVideo)\n- [diffusers](https://github.com/huggingface/diffusers)\n- [HunyuanVideo-I2V](https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V)\n- [Wan2.1](https://github.com/Wan-Video/Wan2.1)\n- [Skywork-Reward-V2](https://github.com/SkyworkAI/Skywork-Reward-V2)\n- [MDT](https://github.com/sail-sg/MDT)\n- [AddSR](https://github.com/NJU-PCALab/AddSR)\n\n## 引用\n研究に Yume を使用する場合は、以下の論文を引用してください：\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S8aSwYys5zMweGpoIY3NljlKrKihIUyQc7j/d7JARbg=",
+        "originContent": "In `scripts/finetune/finetune.sh`, `args.root_dir` represents the `path_to_processed_dataset_folder`, and `args.root_dir` represents the full path to the Sekai dataset.",
+        "translatedContent": "`scripts/finetune/finetune.sh` において、`args.root_dir` は `path_to_processed_dataset_folder` を表し、`args.root_dir` は Sekai データセットへのフルパスを表します。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📑 開発計画"
+      },
+      {
+        "row": 4,
+        "rowsha": "j1igOIP4fkMwRJuyPttoDfMnRuMwLId+1rnwT1w/RvE=",
+        "originContent": "## 📑 Development Plan",
+        "translatedContent": "- データセット処理"
+      },
+      {
+        "row": 5,
+        "rowsha": "ipOIaeljwiz11Lfsu2xJw4Gbbctn09dFJrvS1VR99fA=",
+        "originContent": "- Dataset processing",
+        "translatedContent": "  - [ ] 処理済みデータセットの提供"
+      },
+      {
+        "row": 6,
+        "rowsha": "hrwJH3yf8TEtzWpowQ6kKgp3N1qJqhnALLxngxXnfRk=",
+        "originContent": "  - [ ] Providing processed datasets",
+        "translatedContent": "- コード更新"
+      },
+      {
+        "row": 7,
+        "rowsha": "Fi3CLW0O2Y+lPJDJQw9wOA5v2+RePKV9Mq/L+t5u1TQ=",
+        "originContent": "- Code update",
+        "translatedContent": "  - [ ] fp8 サポート"
+      },
+      {
+        "row": 8,
+        "rowsha": "PzL1aTY81eO52j271DZGErB+35UqcKb5C66N1rdMWuc=",
+        "originContent": "  - [ ] fp8 support",
+        "translatedContent": "  - [ ] より良い蒸留手法"
+      },
+      {
+        "row": 9,
+        "rowsha": "Qp3aSqn4GpSLuzCeSoM4YVLNK28DwGbjWZIDyKrchRo=",
+        "originContent": "  - [ ] Better distillation methods",
+        "translatedContent": "- モデル更新"
+      },
+      {
+        "row": 10,
+        "rowsha": "ogBTJcrynljRwVvbHE4o/JYLIY5N5WCMgOKLZkWgFCQ=",
+        "originContent": "- ​​Model Update",
+        "translatedContent": "  - [ ] 量子化および蒸留モデル"
+      },
+      {
+        "row": 11,
+        "rowsha": "AVav9wIcJHMmOZGFAxdaz1rUhJnDqwj8Z4TBmCqoVTA=",
+        "originContent": "  - [ ] Quantized and Distilled Models",
+        "translatedContent": "  - [ ] 720p 解像度生成用モデル​"
+      },
+      {
+        "row": 12,
+        "rowsha": "sCuu6hf8cvHa5Jrqg6zepX6DY6S7ZuuA6cuC0QykiDY=",
+        "originContent": "  - [ ] Models for 720p Resolution Generation​",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🤝 貢献"
+      },
+      {
+        "row": 14,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": "すべての貢献を歓迎します。"
+      },
+      {
+        "row": 15,
+        "rowsha": "tWhqentCFV01vKtjhzH+PAMXaSxcMTrBhvBRKR0oHuA=",
+        "originContent": "We welcome all contributions.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 謝辞"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "以下のプロジェクトからコードを学び、再利用しました："
+      },
+      {
+        "row": 18,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": "- [FastVideo](https://github.com/hao-ai-lab/FastVideo)"
+      },
+      {
+        "row": 19,
+        "rowsha": "rTdoFYMI1FYDD3sxrbp/zBC5xvI3vg8BXvJ9NjHhTlo=",
+        "originContent": "We learned and reused code from the following projects:",
+        "translatedContent": "- [diffusers](https://github.com/huggingface/diffusers)"
+      },
+      {
+        "row": 20,
+        "rowsha": "q4zn8HImpSVpGQT3yqlZGIL+PWlDotjBYcyU4wSgZFw=",
+        "originContent": "- [FastVideo](https://github.com/hao-ai-lab/FastVideo)",
+        "translatedContent": "- [HunyuanVideo-I2V](https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V)"
+      },
+      {
+        "row": 21,
+        "rowsha": "nfNtneacbU/qFQjUfehPyqAC3EZuQY8DgCb8X1XfbP8=",
+        "originContent": "- [diffusers](https://github.com/huggingface/diffusers)",
+        "translatedContent": "- [Wan2.1](https://github.com/Wan-Video/Wan2.1)"
+      },
+      {
+        "row": 22,
+        "rowsha": "iBZZ/p/nc/EaYrWdtJhL7r06tudNNSKUu7IPZcsUnts=",
+        "originContent": "- [HunyuanVideo-I2V](https://github.com/Tencent-Hunyuan/HunyuanVideo-I2V)",
+        "translatedContent": "- [Skywork-Reward-V2](https://github.com/SkyworkAI/Skywork-Reward-V2)"
+      },
+      {
+        "row": 23,
+        "rowsha": "vcDsmCqObadO5kXFY+s7CT4MQsmIwkIRUiuhItAw/o0=",
+        "originContent": "- [Wan2.1](https://github.com/Wan-Video/Wan2.1)",
+        "translatedContent": "- [MDT](https://github.com/sail-sg/MDT)"
+      },
+      {
+        "row": 24,
+        "rowsha": "TBs3iTQdnJ2Z0m72WZgvLMAvza4Yw8iiPWCKT9/C0oI=",
+        "originContent": "- [Skywork-Reward-V2](https://github.com/SkyworkAI/Skywork-Reward-V2)",
+        "translatedContent": "- [AddSR](https://github.com/NJU-PCALab/AddSR)"
+      },
+      {
+        "row": 25,
+        "rowsha": "WhMyP7iq4jMm3WW7RrAufBd4K8z+Ax2h/+040suzOl0=",
+        "originContent": "- [MDT](https://github.com/sail-sg/MDT)",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "3UYjNYqDZ7YhF2oUrZ5YJIu0c6VpdT9Pl19W96CLVnc=",
+        "originContent": "- [AddSR](https://github.com/NJU-PCALab/AddSR)",
+        "translatedContent": "## 引用"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "研究に Yume を使用する場合は、以下の論文を引用してください："
+      },
+      {
+        "row": 28,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "/D736Nkt6UY3VzBgJFDMKv/Oc1c4kKG8Ce3xJt8oiuI=",
+        "originContent": "If you use Yume for your research, please cite our paper:",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bibtex\n@article{mao2025yume,\n  title={Yume: An Interactive World Generation Model},\n  author={Mao, Xiaofeng and Lin, Shaoheng and Li, Zhen and Li, Chuanhao and Peng, Wenshuo and He, Tong and Pang, Jiangmiao and Chi, Mingmin and Qiao, Yu and Zhang, Kaipeng},\n  journal={arXiv preprint arXiv:2507.17744},\n  year={2025}\n}\n\n```",
+    "ContentSha": "Dx5oQn2C8U3HiyYH1Fr10PlFL6psyPIVPVDPkwyGC/o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@article{mao2025yume,\n  title={Yume: An Interactive World Generation Model},\n  author={Mao, Xiaofeng and Lin, Shaoheng and Li, Zhen and Li, Chuanhao and Peng, Wenshuo and He, Tong and Pang, Jiangmiao and Chi, Mingmin and Qiao, Yu and Zhang, Kaipeng},\n  journal={arXiv preprint arXiv:2507.17744},\n  year={2025}\n}\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "G1T3T4a89cgGT7ThtlziRvhxE1KcZsBakRHZsjrlLMk=",
+        "originContent": "@article{mao2025yume,",
+        "translatedContent": "@article{mao2025yume,"
+      },
+      {
+        "row": 3,
+        "rowsha": "qzlGW2djQR06V4zwjRH81fsBsu2wMgzW8lURb7GSUxk=",
+        "originContent": "  title={Yume: An Interactive World Generation Model},",
+        "translatedContent": "  title={Yume: An Interactive World Generation Model},"
+      },
+      {
+        "row": 4,
+        "rowsha": "x5V4n6hzkFVPohBZIVW1uuwn7P+NxyuEPEj+ewAIMEs=",
+        "originContent": "  author={Mao, Xiaofeng and Lin, Shaoheng and Li, Zhen and Li, Chuanhao and Peng, Wenshuo and He, Tong and Pang, Jiangmiao and Chi, Mingmin and Qiao, Yu and Zhang, Kaipeng},",
+        "translatedContent": "  author={Mao, Xiaofeng and Lin, Shaoheng and Li, Zhen and Li, Chuanhao and Peng, Wenshuo and He, Tong and Pang, Jiangmiao and Chi, Mingmin and Qiao, Yu and Zhang, Kaipeng},"
+      },
+      {
+        "row": 5,
+        "rowsha": "lQc29AmW2IdKvK9P2Aci6vFJ9RSWagT10TOVVEAGD6A=",
+        "originContent": "  journal={arXiv preprint arXiv:2507.17744},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2507.17744},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

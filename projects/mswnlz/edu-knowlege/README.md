@@ -6,7 +6,7 @@
 超过 100T，各种资料、知识、影视、记录片、音乐、书籍、媒体、健身，健康营养等聚集地，持续整理中 https://doc.869hr.uk
 ------------------
 
-# [202508](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202506.md)
+# [202510](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202510.md) [202508](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/edu-knowlege/main/202506.md)
 
 
 ---------------
