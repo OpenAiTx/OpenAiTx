@@ -1,18 +1,279 @@
 [
   {
     "Id": 1,
-    "Content": "<div align=\"center\">\n<p><a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/nuget/v/MiniExcel.svg\" alt=\"NuGet\"></a>  <a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/nuget/dt/MiniExcel.svg\" alt=\"\"></a>\n<a href=\"https://ci.appveyor.com/project/mini-software/miniexcel/branch/master\"><img src=\"https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true\" alt=\"Build status\"></a>\n<a href=\"https://gitee.com/dotnetchina/MiniExcel\"><img src=\"https://gitee.com/dotnetchina/MiniExcel/badge/star.svg\" alt=\"star\"></a> <a href=\"https://github.com/mini-software/MiniExcel\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github\" alt=\"GitHub stars\"></a>\n<a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg\" alt=\"version\"></a>\n<a href=\"https://deepwiki.com/mini-software/MiniExcel\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"Ask DeepWiki\"></a>\n</p>\n</div>\n\n---\n\n[<img align=\"right\" src=\"https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true\" width=\"100\" />](https://www.dotnetfoundation.org/)\n\n<div align=\"center\">\n<p>This project is part of the <a href=\"https://www.dotnetfoundation.org/\">.NET Foundation</a> and operates under their <a href=\"https://www.dotnetfoundation.org/code-of-conduct\">code of conduct</a>. </p>\n</div>\n\n---\n\n<div align=\"center\">\n<p><strong><a href=\"README.md\">English</a> | <a href=\"README.zh-CN.md\">简体中文</a> | <a href=\"README.zh-Hant.md\">繁體中文</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja\">日本語</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko\">한국어</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi\">हिन्दी</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th\">ไทย</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr\">Français</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de\">Deutsch</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es\">Español</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it\">Italiano</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru\">Русский</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt\">Português</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl\">Nederlands</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl\">Polski</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar\">العربية</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa\">فارسی</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr\">Türkçe</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi\">Tiếng Việt</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id\">Bahasa Indonesia</a><p></p>\n</strong></p>\n</div>\n\n\n---\n\n<div align=\"center\">\n Your <a href=\"https://github.com/mini-software/MiniExcel\">Stars</a> or <a href=\"https://miniexcel.github.io\">Donations</a> can make MiniExcel better\n</div>\n\n---\n\n### Introduction\n\nMiniExcel is a simple and efficient Excel processing tool for .NET, specifically designed to minimize memory usage.\n\nAt present, most popular frameworks need to load all the data from an Excel document into memory to facilitate operations, but this may cause memory consumption problems. MiniExcel's approach is different: the data is processed row by row in a streaming manner, reducing the original consumption from potentially hundreds of megabytes to just a few megabytes, effectively preventing out-of-memory(OOM) issues.\n",
-    "ContentSha": "fnsyX9dGg5qGA4t/OVMP7GwjGdkoAMaCTxm1x7c4FtY=",
+    "Content": "<div align=\"center\">\n<p><a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/nuget/v/MiniExcel.svg\" alt=\"NuGet\"></a>  <a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/nuget/dt/MiniExcel.svg\" alt=\"\"></a>\n<a href=\"https://ci.appveyor.com/project/mini-software/miniexcel/branch/master\"><img src=\"https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true\" alt=\"Build status\"></a>\n<a href=\"https://gitee.com/dotnetchina/MiniExcel\"><img src=\"https://gitee.com/dotnetchina/MiniExcel/badge/star.svg\" alt=\"star\"></a> <a href=\"https://github.com/mini-software/MiniExcel\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github\" alt=\"GitHub stars\"></a>\n<a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg\" alt=\"version\"></a>\n<a href=\"https://deepwiki.com/mini-software/MiniExcel\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"Ask DeepWiki\"></a>\n</p>\n</div>\n\n---\n\n[<img align=\"right\" src=\"https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true\" width=\"100\" />](https://www.dotnetfoundation.org/)\n\n<div align=\"center\">\n<p>This project is part of the <a href=\"https://www.dotnetfoundation.org/\">.NET Foundation</a> and operates under their <a href=\"https://www.dotnetfoundation.org/code-of-conduct\">code of conduct</a>. </p>\n</div>\n\n---\n\n<div align=\"center\">",
+    "ContentSha": "i6iPCzRIA/t1KtLStAyHRIvDjlB9tsxiDk+6m1y/eDQ=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div align=\"center\">\n<p><a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/nuget/v/MiniExcel.svg\" alt=\"NuGet\"></a>  <a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/nuget/dt/MiniExcel.svg\" alt=\"\"></a>\n<a href=\"https://ci.appveyor.com/project/mini-software/miniexcel/branch/master\"><img src=\"https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true\" alt=\"Build status\"></a>\n<a href=\"https://gitee.com/dotnetchina/MiniExcel\"><img src=\"https://gitee.com/dotnetchina/MiniExcel/badge/star.svg\" alt=\"star\"></a> <a href=\"https://github.com/mini-software/MiniExcel\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github\" alt=\"GitHub stars\"></a>\n<a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg\" alt=\"version\"></a>\n<a href=\"https://deepwiki.com/mini-software/MiniExcel\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"Ask DeepWiki\"></a>\n</p>\n</div>\n\n---\n\n[<img align=\"right\" src=\"https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true\" width=\"100\" />](https://www.dotnetfoundation.org/)\n\n<div align=\"center\">\n<p>Bu proje <a href=\"https://www.dotnetfoundation.org/\">.NET Foundation</a>'ın bir parçasıdır ve onların <a href=\"https://www.dotnetfoundation.org/code-of-conduct\">davranış kurallarına</a> uygun olarak yürütülmektedir. </p>\n</div>\n\n---\n\n<div align=\"center\">\n<p><strong><a href=\"README.md\">English</a> | <a href=\"README.zh-CN.md\">简体中文</a> | <a href=\"README.zh-Hant.md\">繁體中文</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja\">日本語</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko\">한국어</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi\">हिन्दी</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th\">ไทย</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr\">Français</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de\">Deutsch</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es\">Español</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it\">Italiano</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru\">Русский</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt\">Português</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl\">Nederlands</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl\">Polski</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar\">العربية</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa\">فارسی</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr\">Türkçe</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi\">Tiếng Việt</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id\">Bahasa Indonesia</a><p></p>\n</strong></p>\n</div>\n\n\n---\n\n<div align=\"center\">\n Sizin <a href=\"https://github.com/mini-software/MiniExcel\">Yıldızlarınız</a> veya <a href=\"https://miniexcel.github.io\">Bağışlarınız</a> MiniExcel'i daha iyi hale getirebilir\n</div>\n\n---\n\n### Giriş\n\nMiniExcel, bellek kullanımını en aza indirmek için özel olarak tasarlanmış, .NET için basit ve verimli bir Excel işleme aracıdır.\n\nŞu anda, çoğu popüler framework, işlemleri kolaylaştırmak için bir Excel belgesindeki tüm verileri belleğe yüklemek zorundadır, ancak bu durum bellek tüketimi sorunlarına yol açabilir. MiniExcel'in yaklaşımı ise farklıdır: Veriler satır satır akış şeklinde işlenir, böylece orijinal tüketim potansiyel olarak yüzlerce megabayttan sadece birkaç megabayta düşürülerek bellek taşması (OOM) sorunları etkin şekilde önlenir.\n",
+    "Translation": "<div align=\"center\">\n<p><a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/nuget/v/MiniExcel.svg\" alt=\"NuGet\"></a>  <a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/nuget/dt/MiniExcel.svg\" alt=\"\"></a>\n<a href=\"https://ci.appveyor.com/project/mini-software/miniexcel/branch/master\"><img src=\"https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true\" alt=\"Build durumu\"></a>\n<a href=\"https://gitee.com/dotnetchina/MiniExcel\"><img src=\"https://gitee.com/dotnetchina/MiniExcel/badge/star.svg\" alt=\"star\"></a> <a href=\"https://github.com/mini-software/MiniExcel\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github\" alt=\"GitHub yıldızları\"></a>\n<a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg\" alt=\"sürüm\"></a>\n<a href=\"https://deepwiki.com/mini-software/MiniExcel\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"DeepWiki'ye Sor\"></a>\n</p>\n</div>\n\n---\n\n[<img align=\"right\" src=\"https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true\" width=\"100\" />](https://www.dotnetfoundation.org/)\n\n<div align=\"center\">\n<p>Bu proje <a href=\"https://www.dotnetfoundation.org/\">.NET Foundation</a>'ın bir parçasıdır ve onların <a href=\"https://www.dotnetfoundation.org/code-of-conduct\">davranış kuralları</a> kapsamında çalışmaktadır. </p>\n</div>\n\n---\n\n<div align=\"center\">",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "8MsBkSFMPbm/3TD5JBWITJoaA3kaWbSG+KcXJRJbWTc=",
+        "originContent": "<p><a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/nuget/v/MiniExcel.svg\" alt=\"NuGet\"></a>  <a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/nuget/dt/MiniExcel.svg\" alt=\"\"></a>",
+        "translatedContent": "<p><a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/nuget/v/MiniExcel.svg\" alt=\"NuGet\"></a>  <a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/nuget/dt/MiniExcel.svg\" alt=\"\"></a>"
+      },
+      {
+        "row": 3,
+        "rowsha": "+cpdejI5RkvMFjila59inoaQPTwknAZ4/48fZ2Nw3ao=",
+        "originContent": "<a href=\"https://ci.appveyor.com/project/mini-software/miniexcel/branch/master\"><img src=\"https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true\" alt=\"Build status\"></a>",
+        "translatedContent": "<a href=\"https://ci.appveyor.com/project/mini-software/miniexcel/branch/master\"><img src=\"https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true\" alt=\"Build durumu\"></a>"
+      },
+      {
+        "row": 4,
+        "rowsha": "uAcmiPtewCnx/XWXavypRhFVQCTmUoCEdLBeTXgvXr4=",
+        "originContent": "<a href=\"https://gitee.com/dotnetchina/MiniExcel\"><img src=\"https://gitee.com/dotnetchina/MiniExcel/badge/star.svg\" alt=\"star\"></a> <a href=\"https://github.com/mini-software/MiniExcel\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github\" alt=\"GitHub stars\"></a>",
+        "translatedContent": "<a href=\"https://gitee.com/dotnetchina/MiniExcel\"><img src=\"https://gitee.com/dotnetchina/MiniExcel/badge/star.svg\" alt=\"star\"></a> <a href=\"https://github.com/mini-software/MiniExcel\" rel=\"nofollow\"><img src=\"https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github\" alt=\"GitHub yıldızları\"></a>"
+      },
+      {
+        "row": 5,
+        "rowsha": "Fb3y2YzdQ+UZ76KsXxmwBQZVEniuyAvk1ZlWeYkytpU=",
+        "originContent": "<a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg\" alt=\"version\"></a>",
+        "translatedContent": "<a href=\"https://www.nuget.org/packages/MiniExcel\"><img src=\"https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg\" alt=\"sürüm\"></a>"
+      },
+      {
+        "row": 6,
+        "rowsha": "PouqQtna28Voxdl/jGKvfJ0uCfDO4uWsW7tiSUWwl34=",
+        "originContent": "<a href=\"https://deepwiki.com/mini-software/MiniExcel\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"Ask DeepWiki\"></a>",
+        "translatedContent": "<a href=\"https://deepwiki.com/mini-software/MiniExcel\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"DeepWiki'ye Sor\"></a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "jARsznL+AKPPeY7Y/IIcJdEGown7W36WRpMLUudyZy8=",
+        "originContent": "[<img align=\"right\" src=\"https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true\" width=\"100\" />](https://www.dotnetfoundation.org/)",
+        "translatedContent": "[<img align=\"right\" src=\"https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true\" width=\"100\" />](https://www.dotnetfoundation.org/)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "p/IHVHVEocCwh7XhQLs+IoUuSPHIp+Mql9KAHzs78qo=",
+        "originContent": "<p>This project is part of the <a href=\"https://www.dotnetfoundation.org/\">.NET Foundation</a> and operates under their <a href=\"https://www.dotnetfoundation.org/code-of-conduct\">code of conduct</a>. </p>",
+        "translatedContent": "<p>Bu proje <a href=\"https://www.dotnetfoundation.org/\">.NET Foundation</a>'ın bir parçasıdır ve onların <a href=\"https://www.dotnetfoundation.org/code-of-conduct\">davranış kuralları</a> kapsamında çalışmaktadır. </p>"
+      },
+      {
+        "row": 16,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      }
+    ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
+    "Content": "<p><strong><a href=\"README.md\">English</a> | <a href=\"README.zh-CN.md\">简体中文</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=zh-TW\">繁體中文</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja\">日本語</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko\">한국어</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi\">हिन्दी</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th\">ไทย</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr\">Français</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de\">Deutsch</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es\">Español</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it\">Italiano</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru\">Русский</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt\">Português</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl\">Nederlands</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl\">Polski</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar\">العربية</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa\">فارسی</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr\">Türkçe</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi\">Tiếng Việt</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id\">Bahasa Indonesia</a><p></p>",
+    "ContentSha": "q3Y2uqTIHJCnIh4kZmQxP3+wX+9vSAq95vy8PHizAYM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p><strong><a href=\"README.md\">English</a> | <a href=\"README.zh-CN.md\">简体中文</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=zh-TW\">繁體中文</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja\">日本語</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko\">한국어</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi\">हिन्दी</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th\">ไทย</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr\">Français</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de\">Deutsch</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es\">Español</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it\">Italiano</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru\">Русский</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt\">Português</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl\">Nederlands</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl\">Polski</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar\">العربية</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa\">فارسی</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr\">Türkçe</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi\">Tiếng Việt</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id\">Bahasa Indonesia</a><p></p>",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "q3Y2uqTIHJCnIh4kZmQxP3+wX+9vSAq95vy8PHizAYM=",
+        "originContent": "<p><strong><a href=\"README.md\">English</a> | <a href=\"README.zh-CN.md\">简体中文</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=zh-TW\">繁體中文</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja\">日本語</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko\">한국어</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi\">हिन्दी</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th\">ไทย</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr\">Français</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de\">Deutsch</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es\">Español</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it\">Italiano</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru\">Русский</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt\">Português</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl\">Nederlands</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl\">Polski</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar\">العربية</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa\">فارسی</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr\">Türkçe</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi\">Tiếng Việt</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id\">Bahasa Indonesia</a><p></p>",
+        "translatedContent": "<p><strong><a href=\"README.md\">English</a> | <a href=\"README.zh-CN.md\">简体中文</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=zh-TW\">繁體中文</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja\">日本語</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko\">한국어</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi\">हिन्दी</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th\">ไทย</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr\">Français</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de\">Deutsch</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es\">Español</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it\">Italiano</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru\">Русский</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt\">Português</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl\">Nederlands</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl\">Polski</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar\">العربية</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa\">فارسی</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr\">Türkçe</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi\">Tiếng Việt</a> | <a href=\"https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id\">Bahasa Indonesia</a><p></p>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "</strong></p>\n</div>\n\n\n---\n\n<div align=\"center\">\n Your <a href=\"https://github.com/mini-software/MiniExcel\">Stars</a> or <a href=\"https://miniexcel.github.io\">Donations</a> can make MiniExcel better\n</div>\n\n---\n\n### Introduction\n\nMiniExcel is a simple and efficient Excel processing tool for .NET, specifically designed to minimize memory usage.\n\nAt present, most popular frameworks need to load all the data from an Excel document into memory to facilitate operations, but this may cause memory consumption problems. MiniExcel's approach is different: the data is processed row by row in a streaming manner, reducing the original consumption from potentially hundreds of megabytes to just a few megabytes, effectively preventing out-of-memory(OOM) issues.\n",
+    "ContentSha": "OEfCoE72VbE+mxo4xtxfHnRBh9S+WHJPIjEO1GhQEX0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "</strong></p>\n</div>\n\n\n---\n\n<div align=\"center\">\n Sizin <a href=\"https://github.com/mini-software/MiniExcel\">Yıldızlarınız</a> veya <a href=\"https://miniexcel.github.io\">Bağışlarınız</a> MiniExcel'i daha iyi yapabilir\n</div>\n\n---\n\n### Giriş\n\nMiniExcel, .NET için özel olarak tasarlanmış, hafıza kullanımını en aza indirmek üzere geliştirilmiş basit ve verimli bir Excel işleme aracıdır.\n\nMevcut durumda, çoğu popüler framework, Excel belgesindeki tüm verileri belleğe yükleyerek işlem yapmayı kolaylaştırır, ancak bu durum hafıza tüketimi sorunlarına yol açabilir. MiniExcel'in yaklaşımı ise farklıdır: veriler satır satır akış halinde işlenir, böylece orijinalde yüzlerce megabayt olabilecek tüketim sadece birkaç megabayta düşer ve bellek taşması (OOM) sorunlarının önüne etkin bir şekilde geçilir.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+TueqhSkYmSUPbewkSBkuY58pMexokMmy2YXgJCxza8=",
+        "originContent": "</strong></p>",
+        "translatedContent": "</strong></p>"
+      },
+      {
+        "row": 2,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "wF3KUUpyFo/CeNdfFGGQhBiswLzcxM8IXt1Q606zDUI=",
+        "originContent": " Your <a href=\"https://github.com/mini-software/MiniExcel\">Stars</a> or <a href=\"https://miniexcel.github.io\">Donations</a> can make MiniExcel better",
+        "translatedContent": " Sizin <a href=\"https://github.com/mini-software/MiniExcel\">Yıldızlarınız</a> veya <a href=\"https://miniexcel.github.io\">Bağışlarınız</a> MiniExcel'i daha iyi yapabilir"
+      },
+      {
+        "row": 9,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "OPCmkLSln/6qmcKafK4OoGh/h8+Hi2XaZe80ucJ8NCA=",
+        "originContent": "### Introduction",
+        "translatedContent": "### Giriş"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "0v8t3jo1uKmrcNdKaFVW+j6jGn9CTf9NvAZzS4tZovw=",
+        "originContent": "MiniExcel is a simple and efficient Excel processing tool for .NET, specifically designed to minimize memory usage.",
+        "translatedContent": "MiniExcel, .NET için özel olarak tasarlanmış, hafıza kullanımını en aza indirmek üzere geliştirilmiş basit ve verimli bir Excel işleme aracıdır."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "HAPHU2e2l/9+3FYlhDjxzqzhYXhxzv+miq1vPF6q8z0=",
+        "originContent": "At present, most popular frameworks need to load all the data from an Excel document into memory to facilitate operations, but this may cause memory consumption problems. MiniExcel's approach is different: the data is processed row by row in a streaming manner, reducing the original consumption from potentially hundreds of megabytes to just a few megabytes, effectively preventing out-of-memory(OOM) issues.",
+        "translatedContent": "Mevcut durumda, çoğu popüler framework, Excel belgesindeki tüm verileri belleğe yükleyerek işlem yapmayı kolaylaştırır, ancak bu durum hafıza tüketimi sorunlarına yol açabilir. MiniExcel'in yaklaşımı ise farklıdır: veriler satır satır akış halinde işlenir, böylece orijinalde yüzlerce megabayt olabilecek tüketim sadece birkaç megabayta düşer ve bellek taşması (OOM) sorunlarının önüne etkin bir şekilde geçilir."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
     "Content": "```mermaid\nflowchart LR\n    A1([\"Excel analysis<br>process\"]) --> A2{{\"Unzipping<br>XLSX file\"}} --> A3{{\"Parsing<br>OpenXML\"}} --> A4{{\"Model<br>conversion\"}} --> A5([\"Output\"])\n\n    B1([\"Other Excel<br>Frameworks\"]) --> B2{{\"Memory\"}} --> B3{{\"Memory\"}} --> B4{{\"Workbooks &<br>Worksheets\"}} --> B5([\"All rows at<br>the same time\"])\n\n    C1([\"MiniExcel\"]) --> C2{{\"Stream\"}} --> C3{{\"Stream\"}} --> C4{{\"POCO or dynamic\"}} --> C5([\"Deferred execution<br>row by row\"])\n\n    classDef analysis fill:#D0E8FF,stroke:#1E88E5,color:#0D47A1,font-weight:bold;\n    classDef others fill:#FCE4EC,stroke:#EC407A,color:#880E4F,font-weight:bold;\n    classDef miniexcel fill:#E8F5E9,stroke:#388E3C,color:#1B5E20,font-weight:bold;\n\n    class A1,A2,A3,A4,A5 analysis;\n    class B1,B2,B3,B4,B5 others;\n    class C1,C2,C3,C4,C5 miniexcel;\n```",
     "ContentSha": "bnIFwd8LvBFJAOaKE6MBE2NrNZ6/WESKpZeaRylRWaU=",
     "SectionType": "",
@@ -24,19 +285,339 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 3,
-    "Content": "\n### Features\n\n- Minimizes memory consumption, preventing out-of-memory (OOM) errors and avoiding full garbage collections\n- Enables real-time, row-level data operations for better performance on large datasets\n- Supports LINQ with deferred execution, allowing for fast, memory-efficient paging and complex queries\n- Lightweight, without the need for Microsoft Office or COM+ components, and a DLL size under 500KB\n- Simple and intuitive API style to read/write/fill excel\n\n### Get Started\n\n- [Import/Query Excel](#getstart1)\n\n- [Export/Create Excel](#getstart2)\n\n- [Excel Template](#getstart3)\n\n- [Excel Column Name/Index/Ignore Attribute](#getstart4)\n\n- [Examples](#getstart5)\n\n\n\n### Installation\n\nYou can install the package [from NuGet](https://www.nuget.org/packages/MiniExcel)\n\n### Release Notes\n\nPlease Check [Release Notes](docs)\n\n### TODO\n\nPlease Check  [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)\n\n### Performance\n\nThe code for the benchmarks can be found in [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs).\n\nThe file used to test performance is [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), a 32MB document containing 1,000,000 rows * 10 columns whose cells are filled with the string \"HelloWorld\".\n\nTo run all the benchmarks use:\n",
-    "ContentSha": "2UgPykHhGd9H/aLIYfiXZAzaTEiTOpNvuXxX23XZVMM=",
+    "Id": 5,
+    "Content": "\n### Features\n\n- Minimizes memory consumption, preventing out-of-memory (OOM) errors and avoiding full garbage collections\n- Enables real-time, row-level data operations for better performance on large datasets\n- Supports LINQ with deferred execution, allowing for fast, memory-efficient paging and complex queries\n- Lightweight, without the need for Microsoft Office or COM+ components, and a DLL size under 500KB\n- Simple and intuitive API style to read/write/fill excel\n\n### Version 2.0 preview\n\nWe are working on a future MiniExcel version, with a new modular and focused API, \nseparate nuget packages for Core and Csv funcionalities, full support for asynchronously streamed queries through `IAsyncEnumerable`,\nand more to come soon! The packages are gonna be available in pre-release, so feel free to check them out and give us some feedback!\n\nIf you do, make sure to also check out the [new docs](https://raw.githubusercontent.com/mini-software/MiniExcel/master/README-V2.md) and the [upgrade notes](https://raw.githubusercontent.com/mini-software/MiniExcel/master/V2-Upgrade-Notes.md).\n\n\n### Get Started\n\n- [Import/Query Excel](#getstart1)\n\n- [Export/Create Excel](#getstart2)\n\n- [Excel Template](#getstart3)\n\n- [Excel Column Name/Index/Ignore Attribute](#getstart4)\n\n- [Examples](#getstart5)\n\n\n### Installation\n\nYou can install the package [from NuGet](https://www.nuget.org/packages/MiniExcel)\n\n### Release Notes\n\nPlease Check [Release Notes](docs)\n\n### TODO",
+    "ContentSha": "dzIeSUY1xztnz8EMZy8FDqOpLLi/+Hp/BZIYpobB/2A=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "### Özellikler\n\n- Bellek tüketimini minimize eder, bellek taşması (OOM) hatalarını önler ve tam çöp toplama işlemlerinden kaçınır\n- Büyük veri kümelerinde daha iyi performans için gerçek zamanlı, satır düzeyinde veri işlemleri sağlar\n- Ertelenmiş yürütme ile LINQ desteği sunar, böylece hızlı ve bellek dostu sayfalama ile karmaşık sorgular gerçekleştirilebilir\n- Hafif yapıdadır, Microsoft Office veya COM+ bileşenlerine ihtiyaç duymaz ve DLL boyutu 500KB altındadır\n- Excel okuma/yazma/doldurma işlemleri için basit ve sezgisel API stili\n\n### Başlarken\n\n- [Excel İçe Aktarma/Sorgulama](#getstart1)\n\n- [Excel Dışa Aktarma/Oluşturma](#getstart2)\n\n- [Excel Şablonu](#getstart3)\n\n- [Excel Sütun Adı/İndeksi/Yoksayma Özelliği](#getstart4)\n\n- [Örnekler](#getstart5)\n\n\n\n### Kurulum\n\nPaketi [NuGet üzerinden yükleyebilirsiniz](https://www.nuget.org/packages/MiniExcel)\n\n### Sürüm Notları\n\nLütfen [Sürüm Notlarını](docs) kontrol edin\n\n### YAPILACAKLAR\n\nLütfen [YAPILACAKLAR](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true) kısmını kontrol edin\n\n### Performans\n\nKıyaslama kodlarına [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs) üzerinden ulaşabilirsiniz.\n\nPerformans testi için kullanılan dosya [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx) olup, 1.000.000 satır * 10 sütundan oluşan ve hücreleri \"HelloWorld\" ile doldurulmuş 32MB'lık bir belgedir.\n\nTüm kıyaslamaları çalıştırmak için:\n\n",
+    "Translation": "\n### Özellikler\n\n- Bellek tüketimini en aza indirir, bellek taşması (OOM) hatalarını önler ve tam çöp toplamalarını engeller\n- Gerçek zamanlı, satır düzeyinde veri işlemleriyle büyük veri kümelerinde daha iyi performans sağlar\n- Gecikmeli yürütme ile LINQ desteği sunar, hızlı ve bellek dostu sayfalama ve karmaşık sorgulara olanak tanır\n- Microsoft Office veya COM+ bileşenlerine ihtiyaç duymaz, hafif bir yapıda olup DLL boyutu 500KB’ın altındadır\n- Excel okuma/yazma/doldurma işlemleri için basit ve sezgisel API stili\n\n### Sürüm 2.0 önizlemesi\n\nGelecekteki MiniExcel sürümü üzerinde çalışıyoruz; yeni, modüler ve odaklanmış bir API, \nCore ve Csv işlevleri için ayrı nuget paketleri, `IAsyncEnumerable` ile tam asenkron akışlı sorgu desteği\nve yakında daha fazlası! Paketler ön sürüm olarak sunulacak, dilediğinizde deneyebilir ve bize geri bildirim verebilirsiniz!\n\nBunu yaparsanız, lütfen [yeni dokümanları](https://raw.githubusercontent.com/mini-software/MiniExcel/master/README-V2.md) ve [güncelleme notlarını](https://raw.githubusercontent.com/mini-software/MiniExcel/master/V2-Upgrade-Notes.md) da inceleyin.\n\n\n### Başlarken\n\n- [Excel İçe Aktarma/Sorgulama](#getstart1)\n\n- [Excel Dışa Aktarma/Oluşturma](#getstart2)\n\n- [Excel Şablonu](#getstart3)\n\n- [Excel Sütun Adı/İndeksi/Yoksay Özelliği](#getstart4)\n\n- [Örnekler](#getstart5)\n\n\n### Kurulum\n\nPaketi [NuGet üzerinden yükleyebilirsiniz](https://www.nuget.org/packages/MiniExcel)\n\n### Sürüm Notları\n\nLütfen [Sürüm Notlarına](docs) bakın\n\n### YAPILACAKLAR",
     "Status": "ok",
-    "RowTranslations": [],
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Va7ER4dHPfmt1CvLSeep2AEpy33nUzxb+6qMZz++7BQ=",
+        "originContent": "### Features",
+        "translatedContent": "### Özellikler"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "JOmN6SLH2dZr4v1CFEyJh97jFnX2O/eFYpzSK/TOYoo=",
+        "originContent": "- Minimizes memory consumption, preventing out-of-memory (OOM) errors and avoiding full garbage collections",
+        "translatedContent": "- Bellek tüketimini en aza indirir, bellek taşması (OOM) hatalarını önler ve tam çöp toplamalarını engeller"
+      },
+      {
+        "row": 5,
+        "rowsha": "Htj9mkBjP1OItR2VMbphfdDgNKDKeZ+UHN3Sv5g6I+w=",
+        "originContent": "- Enables real-time, row-level data operations for better performance on large datasets",
+        "translatedContent": "- Gerçek zamanlı, satır düzeyinde veri işlemleriyle büyük veri kümelerinde daha iyi performans sağlar"
+      },
+      {
+        "row": 6,
+        "rowsha": "vmQHR0XEaoIUxJ2uBgBFcPNDdouHaw8fqgoQ5GPYlJc=",
+        "originContent": "- Supports LINQ with deferred execution, allowing for fast, memory-efficient paging and complex queries",
+        "translatedContent": "- Gecikmeli yürütme ile LINQ desteği sunar, hızlı ve bellek dostu sayfalama ve karmaşık sorgulara olanak tanır"
+      },
+      {
+        "row": 7,
+        "rowsha": "td5CuK/iTapatubsYvTtLeHyrnXUH3PmsM1YhWD1CYA=",
+        "originContent": "- Lightweight, without the need for Microsoft Office or COM+ components, and a DLL size under 500KB",
+        "translatedContent": "- Microsoft Office veya COM+ bileşenlerine ihtiyaç duymaz, hafif bir yapıda olup DLL boyutu 500KB’ın altındadır"
+      },
+      {
+        "row": 8,
+        "rowsha": "YjuJsmIcVg3xh6eZdOxUep5PtUdHPjElYHdxf5PShbQ=",
+        "originContent": "- Simple and intuitive API style to read/write/fill excel",
+        "translatedContent": "- Excel okuma/yazma/doldurma işlemleri için basit ve sezgisel API stili"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "3uxQ470B6bsX/26rLhsfSvWRi4kgFG7Wi86VeiHXh5g=",
+        "originContent": "### Version 2.0 preview",
+        "translatedContent": "### Sürüm 2.0 önizlemesi"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "OqAPhAlDLzYtnkDWScPJuM3oFoQO3XWzBdauvyF6c1o=",
+        "originContent": "We are working on a future MiniExcel version, with a new modular and focused API, ",
+        "translatedContent": "Gelecekteki MiniExcel sürümü üzerinde çalışıyoruz; yeni, modüler ve odaklanmış bir API, "
+      },
+      {
+        "row": 13,
+        "rowsha": "8O/dN+V4ZsN5vmglzTuq5thyDZ8bDqihUr/8engTPBs=",
+        "originContent": "separate nuget packages for Core and Csv funcionalities, full support for asynchronously streamed queries through `IAsyncEnumerable`,",
+        "translatedContent": "Core ve Csv işlevleri için ayrı nuget paketleri, `IAsyncEnumerable` ile tam asenkron akışlı sorgu desteği"
+      },
+      {
+        "row": 14,
+        "rowsha": "acCxQwfu+hBw+KN9mdYHirJND0D5UD1gORt0fom6AFg=",
+        "originContent": "and more to come soon! The packages are gonna be available in pre-release, so feel free to check them out and give us some feedback!",
+        "translatedContent": "ve yakında daha fazlası! Paketler ön sürüm olarak sunulacak, dilediğinizde deneyebilir ve bize geri bildirim verebilirsiniz!"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "3TSUblgauTM6BqVqnVht21matUrQqziIO1l8P6/of40=",
+        "originContent": "If you do, make sure to also check out the [new docs](https://raw.githubusercontent.com/mini-software/MiniExcel/master/README-V2.md) and the [upgrade notes](https://raw.githubusercontent.com/mini-software/MiniExcel/master/V2-Upgrade-Notes.md).",
+        "translatedContent": "Bunu yaparsanız, lütfen [yeni dokümanları](https://raw.githubusercontent.com/mini-software/MiniExcel/master/README-V2.md) ve [güncelleme notlarını](https://raw.githubusercontent.com/mini-software/MiniExcel/master/V2-Upgrade-Notes.md) da inceleyin."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "08//RRu/6H7fyjX0UhqYGyFiwKjkhFemLeOssh93kwc=",
+        "originContent": "### Get Started",
+        "translatedContent": "### Başlarken"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "a8kdR4Mj9cvrgF8rfddRk+RvJQD5DLo1mTvLUsrK7L0=",
+        "originContent": "- [Import/Query Excel](#getstart1)",
+        "translatedContent": "- [Excel İçe Aktarma/Sorgulama](#getstart1)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "fAI1rmIOAyYoAwJ25Agsc1ZYhrrGXwTMRpY/azKDBU4=",
+        "originContent": "- [Export/Create Excel](#getstart2)",
+        "translatedContent": "- [Excel Dışa Aktarma/Oluşturma](#getstart2)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "KcKJ+Cjcclb8RxHeZqicujbUCHNQ21MsD1umewI4Z0Q=",
+        "originContent": "- [Excel Template](#getstart3)",
+        "translatedContent": "- [Excel Şablonu](#getstart3)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "NpJ6zfg/JyMXY6nOiSEKK5nKtAqyl1f2h7vHMmTm09c=",
+        "originContent": "- [Excel Column Name/Index/Ignore Attribute](#getstart4)",
+        "translatedContent": "- [Excel Sütun Adı/İndeksi/Yoksay Özelliği](#getstart4)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "raxjfYsVvz3EfEgXQz7nSKEnAHzn2fXpEXmcpKYdRso=",
+        "originContent": "- [Examples](#getstart5)",
+        "translatedContent": "- [Örnekler](#getstart5)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### Kurulum"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "sAFRPB9YnIeW48AgEMKYoGfBhp3nOmxk2MRPoOK1vBA=",
+        "originContent": "You can install the package [from NuGet](https://www.nuget.org/packages/MiniExcel)",
+        "translatedContent": "Paketi [NuGet üzerinden yükleyebilirsiniz](https://www.nuget.org/packages/MiniExcel)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "0rXZG5e8WSaQeLoIIQW3aFZFk+2np8bOoZpMfwdfr5s=",
+        "originContent": "### Release Notes",
+        "translatedContent": "### Sürüm Notları"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "6glDEnzKUwBBFQWehygbHAofD6RTXVKWBdKdH5XtI14=",
+        "originContent": "Please Check [Release Notes](docs)",
+        "translatedContent": "Lütfen [Sürüm Notlarına](docs) bakın"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "F8LwUOZ4tDJeV2W/K2C9N0HW21H4xuvFdGr6cF8VLK4=",
+        "originContent": "### TODO",
+        "translatedContent": "### YAPILACAKLAR"
+      }
+    ],
     "IsCodeBlock": false
   },
   {
-    "Id": 4,
+    "Id": 6,
+    "Content": "\nPlease Check  [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)\n\n### Performance\n\nThe code for the benchmarks can be found in [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs).\n\nThe file used to test performance is [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), a 32MB document containing 1,000,000 rows * 10 columns whose cells are filled with the string \"HelloWorld\".\n\nTo run all the benchmarks use:\n",
+    "ContentSha": "GdyX29/iU40dk7FGn7uL6acYDfNaSMJxoQo/FDu/zT4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nLütfen [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true) adresini kontrol edin\n\n### Performans\n\nKarşılaştırmalar için kullanılan kod [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs) adresinde bulunabilir.\n\nPerformans testi için kullanılan dosya [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx) dosyasıdır; hücrelerinde \"HelloWorld\" yazılı 1.000.000 satır * 10 sütun içeren 32MB büyüklüğünde bir belgedir.\n\nTüm karşılaştırmaları çalıştırmak için şunu kullanın:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mhKaiCxmm/ZJJWDNqrSGNwLbl96dmiyee0oRa4A1l/o=",
+        "originContent": "Please Check  [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)",
+        "translatedContent": "Lütfen [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true) adresini kontrol edin"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0Qb7J7NNDFOWTzu3jehHtiAPXVpyQ3fb/6bL9d29HtM=",
+        "originContent": "### Performance",
+        "translatedContent": "### Performans"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "lJad+2SkaA6tvBfheprzhC0KexYW/uCv6olLBZksSnM=",
+        "originContent": "The code for the benchmarks can be found in [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs).",
+        "translatedContent": "Karşılaştırmalar için kullanılan kod [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs) adresinde bulunabilir."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "HhyzvlsPpItyo5JxUqbTeHH8UFHSL3yJePD3jod3xY0=",
+        "originContent": "The file used to test performance is [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), a 32MB document containing 1,000,000 rows * 10 columns whose cells are filled with the string \"HelloWorld\".",
+        "translatedContent": "Performans testi için kullanılan dosya [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx) dosyasıdır; hücrelerinde \"HelloWorld\" yazılı 1.000.000 satır * 10 sütun içeren 32MB büyüklüğünde bir belgedir."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "nyd9/qzpIiN/zJHzl3xubyEx9IQmPubz0GM8cJnIgWc=",
+        "originContent": "To run all the benchmarks use:",
+        "translatedContent": "Tüm karşılaştırmaları çalıştırmak için şunu kullanın:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
     "Content": "```bash\ndotnet run -project .\\benchmarks\\MiniExcel.Benchmarks -c Release -f net9.0 -filter * --join\n```",
     "ContentSha": "MEF/2+7PD/OGKiFiAH54Uh22Gbk1lSVJY3caZpF1C+w=",
     "SectionType": "",
@@ -48,7 +629,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 5,
+    "Id": 8,
     "Content": "\nYou can find the benchmarks' results for the latest release [here](benchmarks/results).\n\n\n### Excel Query/Import  <a name=\"getstart1\"></a>\n\n#### 1. Execute a query and map the results to a strongly typed IEnumerable [[Try it]](https://dotnetfiddle.net/w5WD1J)\n\nRecommand to use Stream.Query because of better efficiency.\n",
     "ContentSha": "HeSgXOxQHY3aicwcbSvagnTLLLya3vCPzcty5cAKzmc=",
     "SectionType": "",
@@ -60,7 +641,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 6,
+    "Id": 9,
     "Content": "```csharp\npublic class UserAccount\n{\n    public Guid ID { get; set; }\n    public string Name { get; set; }\n    public DateTime BoD { get; set; }\n    public int Age { get; set; }\n    public bool VIP { get; set; }\n    public decimal Points { get; set; }\n}\n\nvar rows = MiniExcel.Query<UserAccount>(path);\n\n// or\n\nusing (var stream = File.OpenRead(path))\n    var rows = stream.Query<UserAccount>();\n```",
     "ContentSha": "cLconHwnnKmBqHC0/Wmu90yyg0WLR4s26P3TtXeUPJw=",
     "SectionType": "",
@@ -72,7 +653,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 7,
+    "Id": 10,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/111107423-c8c46b80-8591-11eb-982f-c97a2dafb379.png)\n\n#### 2. Execute a query and map it to a list of dynamic objects without using head [[Try it]](https://dotnetfiddle.net/w5WD1J)\n\n* dynamic key is `A.B.C.D..`\n\n| MiniExcel | 1 |\n|-----------|---|\n| Github    | 2 |\n",
     "ContentSha": "gioEAB/rMfupv6YQa6R4+9TQRVVzid74xvcdobWZY1E=",
     "SectionType": "",
@@ -84,7 +665,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 8,
+    "Id": 11,
     "Content": "```csharp\n\nvar rows = MiniExcel.Query(path).ToList();\n\n// or\nusing (var stream = File.OpenRead(path))\n{\n    var rows = stream.Query().ToList();\n\n    Assert.Equal(\"MiniExcel\", rows[0].A);\n    Assert.Equal(1, rows[0].B);\n    Assert.Equal(\"Github\", rows[1].A);\n    Assert.Equal(2, rows[1].B);\n}\n```",
     "ContentSha": "x7QWjOi1cd7Xsnxys/qE+wxOVEmSYninSZ+gSaZn0IE=",
     "SectionType": "",
@@ -96,7 +677,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 9,
+    "Id": 12,
     "Content": "\n#### 3. Execute a query with first header row [[Try it]](https://dotnetfiddle.net/w5WD1J)\n\nnote : same column name use last right one\n\nInput Excel :\n\n| Column1   | Column2 |\n|-----------|---------|\n| MiniExcel | 1       |\n| Github    | 2       |\n\n",
     "ContentSha": "N47ztr+uJ4w2wom+qHo19WTtqSfMVTZzNEMxmergXEE=",
     "SectionType": "",
@@ -108,7 +689,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 10,
+    "Id": 13,
     "Content": "```csharp\n\nvar rows = MiniExcel.Query(useHeaderRow:true).ToList();\n\n// or\n\nusing (var stream = File.OpenRead(path))\n{\n    var rows = stream.Query(useHeaderRow:true).ToList();\n\n    Assert.Equal(\"MiniExcel\", rows[0].Column1);\n    Assert.Equal(1, rows[0].Column2);\n    Assert.Equal(\"Github\", rows[1].Column1);\n    Assert.Equal(2, rows[1].Column2);\n}\n```",
     "ContentSha": "lpgF5LPjcBqsQ5stqqngCaGIdV9pPzvn/I3xouxkWC0=",
     "SectionType": "",
@@ -120,7 +701,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 11,
+    "Id": 14,
     "Content": "\n#### 4. Query Support LINQ Extension First/Take/Skip ...etc\n\nQuery First",
     "ContentSha": "Dv+u+OiAZ2/wIfjQSDKXvMmnYJ7kYmBy7/dw24u/fYQ=",
     "SectionType": "",
@@ -132,7 +713,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 12,
+    "Id": 15,
     "Content": "```csharp\nvar row = MiniExcel.Query(path).First();\nAssert.Equal(\"HelloWorld\", row.A);\n\n// or\n\nusing (var stream = File.OpenRead(path))\n{\n    var row = stream.Query().First();\n    Assert.Equal(\"HelloWorld\", row.A);\n}\n```",
     "ContentSha": "o4xMZPgtf9yny18ztgi2oj8kD2QnynEQcmSXR/6Bma8=",
     "SectionType": "",
@@ -144,7 +725,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 13,
+    "Id": 16,
     "Content": "\nPerformance between MiniExcel/ExcelDataReader/ClosedXML/EPPlus\n![queryfirst](https://user-images.githubusercontent.com/12729184/111072392-6037a900-8515-11eb-9693-5ce2dad1e460.gif)\n\n#### 5. Query by sheet name\n",
     "ContentSha": "JexnguNEhtFAH05mAdpYGAFqrENKtYY1qJVbw+zDKeA=",
     "SectionType": "",
@@ -156,7 +737,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 14,
+    "Id": 17,
     "Content": "```csharp\nMiniExcel.Query(path, sheetName: \"SheetName\");\n//or\nstream.Query(sheetName: \"SheetName\");\n```",
     "ContentSha": "HEsU0MCZzQQqUU7IRpbxIPkqqpBeZ3agNDuBe+ZfW0M=",
     "SectionType": "",
@@ -168,7 +749,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 15,
+    "Id": 18,
     "Content": "\n#### 6. Query all sheet name and rows\n",
     "ContentSha": "zxLYbs/fQYgcc+yYJYA68nxFdyp4EldiRc3akVXjpnk=",
     "SectionType": "",
@@ -180,7 +761,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 16,
+    "Id": 19,
     "Content": "```csharp\nvar sheetNames = MiniExcel.GetSheetNames(path);\nforeach (var sheetName in sheetNames)\n{\n    var rows = MiniExcel.Query(path, sheetName: sheetName);\n}\n```",
     "ContentSha": "a3vCrrvf6qQNHABWOBwO+3TzRKd5l9C5cLl/DurtYJk=",
     "SectionType": "",
@@ -192,7 +773,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 17,
+    "Id": 20,
     "Content": "\n#### 7. Get Columns\n",
     "ContentSha": "SbddHE1QZ99iRGATNs5MFXzLx4+oLz1u+Phrl4reQuE=",
     "SectionType": "",
@@ -204,7 +785,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 18,
+    "Id": 21,
     "Content": "```csharp\nvar columns = MiniExcel.GetColumns(path); // e.g result : [\"A\",\"B\"...]\n\nvar cnt = columns.Count;  // get column count\n```",
     "ContentSha": "oaLqhdvH6rEG8r67nZhcGqA1B+t7df3s3HJx4jK0pAU=",
     "SectionType": "",
@@ -216,7 +797,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 19,
+    "Id": 22,
     "Content": "\n#### 8. Dynamic Query cast row to `IDictionary<string,object>`\n",
     "ContentSha": "HEYcL/ELf9Vsbax93hMN1ksCss+DRSwQrdC9xf3MIUI=",
     "SectionType": "",
@@ -228,7 +809,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 20,
+    "Id": 23,
     "Content": "```csharp\nforeach(IDictionary<string,object> row in MiniExcel.Query(path))\n{\n    //..\n}\n\n// or\nvar rows = MiniExcel.Query(path).Cast<IDictionary<string,object>>();\n// or Query specified ranges (capitalized)\n// A2 represents the second row of column A, C3 represents the third row of column C\n// If you don't want to restrict rows, just don't include numbers\nvar rows = MiniExcel.QueryRange(path, startCell: \"A2\", endCell: \"C3\").Cast<IDictionary<string, object>>();\n```",
     "ContentSha": "EgKJJifMNH3j+zuly1CTXp9SCyBILDIkvvts0Cs0poA=",
     "SectionType": "",
@@ -240,7 +821,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 21,
+    "Id": 24,
     "Content": "\n\n\n#### 9. Query Excel return DataTable\n\nNot recommended, because DataTable will load all data into memory and lose MiniExcel's low memory consumption feature.\n",
     "ContentSha": "hc1WMyqkLmsvin6hPPDZLplzvR0KSmAYHdR/vDt2+1U=",
     "SectionType": "",
@@ -252,7 +833,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 22,
+    "Id": 25,
     "Content": "```C#\nvar table = MiniExcel.QueryAsDataTable(path, useHeaderRow: true);\n```",
     "ContentSha": "QJ2qGXB1e5ANwoa5EwjzH0ny8wBjjfeZIaddm2bSawk=",
     "SectionType": "",
@@ -264,7 +845,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 23,
+    "Id": 26,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/116673475-07917200-a9d6-11eb-947e-a6f68cce58df.png)\n\n\n\n#### 10. Specify the cell to start reading data\n",
     "ContentSha": "sgA2q4A9NIxJzl+E03p22mCKQh8UQsmADNAO0YVSE+A=",
     "SectionType": "",
@@ -276,7 +857,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 24,
+    "Id": 27,
     "Content": "```csharp\nMiniExcel.Query(path,useHeaderRow:true,startCell:\"B3\")\n```",
     "ContentSha": "k6M36VQGhG/ZUU5mjZnaYfrJsi+tER9NTLSVLeZ1jPg=",
     "SectionType": "",
@@ -288,7 +869,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 25,
+    "Id": 28,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/117260316-8593c400-ae81-11eb-9877-c087b7ac2b01.png)\n\n\n\n#### 11. Fill Merged Cells\n\nNote: The efficiency is slower compared to `not using merge fill`\n\nReason: The OpenXml standard puts mergeCells at the bottom of the file, which leads to the need to foreach the sheetxml twice\n",
     "ContentSha": "UhT6TZS//JdXuNiaffFIFUJIJ09P2FhWZi/Ug1ryI/k=",
     "SectionType": "",
@@ -300,7 +881,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 26,
+    "Id": 29,
     "Content": "```csharp\n    var config = new OpenXmlConfiguration()\n    {\n        FillMergedCells = true\n    };\n    var rows = MiniExcel.Query(path, configuration: config);\n```",
     "ContentSha": "1fOxdg2Ob/D/MwI22nXUtXpa7mKxtXq3HqeH6eSvyHA=",
     "SectionType": "",
@@ -312,7 +893,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 27,
+    "Id": 30,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/117973630-3527d500-b35f-11eb-95c3-bde255f8114e.png)\n\nsupport variable length and width multi-row and column filling\n\n![image](https://user-images.githubusercontent.com/12729184/117973820-6d2f1800-b35f-11eb-88d8-555063938108.png)\n\n#### 12. Reading big file by disk-base cache (Disk-Base Cache - SharedString)\n\nIf the SharedStrings size exceeds 5 MB, MiniExcel default will use local disk cache, e.g, [10x100000.xlsx](https://github.com/MiniExcel/MiniExcel/files/8403819/NotDuplicateSharedStrings_10x100000.xlsx)(one million rows data), when disable disk cache the maximum memory usage is 195MB, but able disk cache only needs 65MB. Note, this optimization needs some efficiency cost, so this case will increase reading time from 7.4 seconds to 27.2 seconds, If you don't need it that you can disable disk cache with the following code:\n",
     "ContentSha": "QcKgirCKTcRYenWL1cxJzgdEv5RAQ37V1Y5ANx5qxmY=",
     "SectionType": "",
@@ -324,7 +905,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 28,
+    "Id": 31,
     "Content": "```csharp\nvar config = new OpenXmlConfiguration { EnableSharedStringCache = false };\nMiniExcel.Query(path,configuration: config)\n```",
     "ContentSha": "IVcr7MvrWByHl4pixAd9MK0IVRq/yAVYttcaeE7h6lE=",
     "SectionType": "",
@@ -336,7 +917,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 29,
+    "Id": 32,
     "Content": "\nYou can use `SharedStringCacheSize ` to change the sharedString file size beyond the specified size for disk caching",
     "ContentSha": "zBwtPRqN9aTgT8cOgNhwzvNrnkZI+G37S9DtmwCwRrs=",
     "SectionType": "",
@@ -348,7 +929,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 30,
+    "Id": 33,
     "Content": "```csharp\nvar config = new OpenXmlConfiguration { SharedStringCacheSize=500*1024*1024 };\nMiniExcel.Query(path, configuration: config);\n```",
     "ContentSha": "gAs+brQdCh5I5PJ3AcSsKpUJSBfU1E+QzRfJJgamItE=",
     "SectionType": "",
@@ -360,7 +941,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 31,
+    "Id": 34,
     "Content": "\n\n![image](https://user-images.githubusercontent.com/12729184/161411851-1c3f72a7-33b3-4944-84dc-ffc1d16747dd.png)\n\n![image](https://user-images.githubusercontent.com/12729184/161411825-17f53ec7-bef4-4b16-b234-e24799ea41b0.png)\n\n\n\n\n\n\n\n\n\n### Create/Export Excel  <a name=\"getstart2\"></a>\n\n1. Must be a non-abstract type with a public parameterless constructor .\n\n2. MiniExcel support parameter IEnumerable Deferred Execution, If you want to use least memory, please do not call methods such as ToList\n\ne.g : ToList or not memory usage\n![image](https://user-images.githubusercontent.com/12729184/112587389-752b0b00-8e38-11eb-8a52-cfb76c57e5eb.png)\n\n\n\n#### 1. Anonymous or strongly type [[Try it]](https://dotnetfiddle.net/w5WD1J)\n",
     "ContentSha": "AnHa5Q2gSGz1ZJpau8gAjLotpIRKnub7jFAKn/hJC5Y=",
     "SectionType": "",
@@ -372,7 +953,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 32,
+    "Id": 35,
     "Content": "```csharp\nvar path = Path.Combine(Path.GetTempPath(), $\"{Guid.NewGuid()}.xlsx\");\nMiniExcel.SaveAs(path, new[] {\n    new { Column1 = \"MiniExcel\", Column2 = 1 },\n    new { Column1 = \"Github\", Column2 = 2}\n});\n```",
     "ContentSha": "DiGtyNzjhXgDCMA3q1rfnficm62qC8GArM5prO/IQ40=",
     "SectionType": "",
@@ -384,7 +965,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 33,
+    "Id": 36,
     "Content": "\n#### 2. `IEnumerable<IDictionary<string, object>>`\n",
     "ContentSha": "QKNANFUaick+IuYCi39uuUu0IQVimeJNeZmKSyh6oqE=",
     "SectionType": "",
@@ -396,7 +977,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 34,
+    "Id": 37,
     "Content": "```csharp\nvar values = new List<Dictionary<string, object>>()\n{\n    new Dictionary<string,object>{{ \"Column1\", \"MiniExcel\" }, { \"Column2\", 1 } },\n    new Dictionary<string,object>{{ \"Column1\", \"Github\" }, { \"Column2\", 2 } }\n};\nMiniExcel.SaveAs(path, values);\n```",
     "ContentSha": "+oudhqOhVjkFbNTtCQZvkHbcAO9T/1k9NvChsONglOA=",
     "SectionType": "",
@@ -408,7 +989,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 35,
+    "Id": 38,
     "Content": "\nCreate File Result :\n\n| Column1   | Column2 |\n|-----------|---------|\n| MiniExcel | 1       |\n| Github    | 2       |\n\n\n#### 3.  IDataReader\n- `Recommended`, it can avoid to load all data into memory",
     "ContentSha": "Zja2XoPqZENwchlmpa5Kq0SmLUta2out1zXUUFNkwvw=",
     "SectionType": "",
@@ -420,7 +1001,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 36,
+    "Id": 39,
     "Content": "```csharp\nMiniExcel.SaveAs(path, reader);\n```",
     "ContentSha": "HWvB/KQUlPSLsO8AFbuJMjF3T6lYmgBUnbCsFyAe5cI=",
     "SectionType": "",
@@ -432,7 +1013,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 37,
+    "Id": 40,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/121275378-149a5e80-c8bc-11eb-85fe-5453552134f0.png)\n\nDataReader export multiple sheets (recommand by Dapper ExecuteReader)\n",
     "ContentSha": "43Ymy4fu9uXZJbrPug1WiD3ajNNZN4cuGodeY4Ed8EM=",
     "SectionType": "",
@@ -444,7 +1025,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 38,
+    "Id": 41,
     "Content": "```csharp\nusing (var cnn = Connection)\n{\n    cnn.Open();\n    var sheets = new Dictionary<string,object>();\n    sheets.Add(\"sheet1\", cnn.ExecuteReader(\"select 1 id\"));\n    sheets.Add(\"sheet2\", cnn.ExecuteReader(\"select 2 id\"));\n    MiniExcel.SaveAs(\"Demo.xlsx\", sheets);\n}\n```",
     "ContentSha": "80AiPJro4WBh6ITImUlC/c8HulXSdsWzOUhAv8vBzLQ=",
     "SectionType": "",
@@ -456,7 +1037,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 39,
+    "Id": 42,
     "Content": "\n\n\n#### 4. Datatable\n\n- `Not recommended`, it will load all data into memory\n\n- DataTable use Caption for column name first, then use columname\n",
     "ContentSha": "4VQN6w10ViOigi7VIEBEsiosjhi5lUdMi3pLBdEiChY=",
     "SectionType": "",
@@ -468,7 +1049,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 40,
+    "Id": 43,
     "Content": "```csharp\nvar path = Path.Combine(Path.GetTempPath(), $\"{Guid.NewGuid()}.xlsx\");\nvar table = new DataTable();\n{\n    table.Columns.Add(\"Column1\", typeof(string));\n    table.Columns.Add(\"Column2\", typeof(decimal));\n    table.Rows.Add(\"MiniExcel\", 1);\n    table.Rows.Add(\"Github\", 2);\n}\n\nMiniExcel.SaveAs(path, table);\n```",
     "ContentSha": "/jWe1CLXNKct6YmIgsXSCfX2/aqiY+VrTQw7+dTiBzo=",
     "SectionType": "",
@@ -480,7 +1061,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 41,
+    "Id": 44,
     "Content": "\n####  5. Dapper Query\n\nThanks @shaofing #552 , please use `CommandDefinition + CommandFlags.NoCache`\n",
     "ContentSha": "iXLrtUhvD7BxyAW8HoiG6Oytksn9xldUgQMg0vO2M38=",
     "SectionType": "",
@@ -492,7 +1073,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 42,
+    "Id": 45,
     "Content": "```csharp\nusing (var connection = GetConnection(connectionString))\n{\n    var rows = connection.Query(\n        new CommandDefinition(\n            @\"select 'MiniExcel' as Column1,1 as Column2 union all select 'Github',2\"\n            , flags: CommandFlags.NoCache)\n        );\n    // Note: QueryAsync will throw close connection exception\n    MiniExcel.SaveAs(path, rows);\n}\n```",
     "ContentSha": "/ge2sjLSdDNPxnIDjEaOZMpidn0FwQViJwArRrtAUfc=",
     "SectionType": "",
@@ -504,7 +1085,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 43,
+    "Id": 46,
     "Content": "\nBelow code will load all data into memory\n",
     "ContentSha": "OSbYVPeCoWC17f14bVkhbgiuPcqZbIFAuWyqekZX4Dc=",
     "SectionType": "",
@@ -516,7 +1097,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 44,
+    "Id": 47,
     "Content": "```csharp\nusing (var connection = GetConnection(connectionString))\n{\n    var rows = connection.Query(@\"select 'MiniExcel' as Column1,1 as Column2 union all select 'Github',2\");\n    MiniExcel.SaveAs(path, rows);\n}\n```",
     "ContentSha": "SgvPNYsKBl9YgBccL31qIbm6lnV0IudsqqdKlTsmpyo=",
     "SectionType": "",
@@ -528,7 +1109,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 45,
+    "Id": 48,
     "Content": "\n\n#### 6. SaveAs to MemoryStream  [[Try it]](https://dotnetfiddle.net/JOen0e)\n",
     "ContentSha": "1t7UD8roGjVP6npUZ+MZ2e5pUBiB0tm1TazKWIqNcpM=",
     "SectionType": "",
@@ -540,7 +1121,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 46,
+    "Id": 49,
     "Content": "```csharp\nusing (var stream = new MemoryStream()) //support FileStream,MemoryStream ect.\n{\n    stream.SaveAs(values);\n}\n```",
     "ContentSha": "zJnQ7IhRU0bVjP85+Bh4h0t0LdY0iUWHNQpsTAk7h5g=",
     "SectionType": "",
@@ -552,7 +1133,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 47,
+    "Id": 50,
     "Content": "\ne.g : api of export excel\n",
     "ContentSha": "iz+o7VVYDtYoC+MzriLDbefSZdMfteM+2nZzDRf9cpc=",
     "SectionType": "",
@@ -564,7 +1145,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 48,
+    "Id": 51,
     "Content": "```csharp\npublic IActionResult DownloadExcel()\n{\n    var values = new[] {\n        new { Column1 = \"MiniExcel\", Column2 = 1 },\n        new { Column1 = \"Github\", Column2 = 2}\n    };\n\n    var memoryStream = new MemoryStream();\n    memoryStream.SaveAs(values);\n    memoryStream.Seek(0, SeekOrigin.Begin);\n    return new FileStreamResult(memoryStream, \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\")\n    {\n        FileDownloadName = \"demo.xlsx\"\n    };\n}\n```",
     "ContentSha": "o7whkqfRQ7tEJK2p9RPJgVuukCrEsyBVIemoUeI4+S0=",
     "SectionType": "",
@@ -576,7 +1157,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 49,
+    "Id": 52,
     "Content": "\n\n#### 7. Create Multiple Sheets\n",
     "ContentSha": "lTcnM310oFpFX/ClvYTshveUtqx11fyaI5SFDrJ304s=",
     "SectionType": "",
@@ -588,7 +1169,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 50,
+    "Id": 53,
     "Content": "```csharp\n// 1. Dictionary<string,object>\nvar users = new[] { new { Name = \"Jack\", Age = 25 }, new { Name = \"Mike\", Age = 44 } };\nvar department = new[] { new { ID = \"01\", Name = \"HR\" }, new { ID = \"02\", Name = \"IT\" } };\nvar sheets = new Dictionary<string, object>\n{\n    [\"users\"] = users,\n    [\"department\"] = department\n};\nMiniExcel.SaveAs(path, sheets);\n\n// 2. DataSet\nvar sheets = new DataSet();\nsheets.Add(UsersDataTable);\nsheets.Add(DepartmentDataTable);\n//..\nMiniExcel.SaveAs(path, sheets);\n```",
     "ContentSha": "6dRrO3Jqf+VddatAI0vgepwz6Hw/r0+47pgVmzrFw6Q=",
     "SectionType": "",
@@ -600,7 +1181,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 51,
+    "Id": 54,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/118130875-6e7c4580-b430-11eb-9b82-22f02716bd63.png)\n\n\n#### 8. TableStyles Options\n\nDefault style\n\n![image](https://user-images.githubusercontent.com/12729184/138234373-cfa97109-b71f-4711-b7f5-0eaaa4a0a3a6.png)\n\nWithout style configuration\n",
     "ContentSha": "g8KyJhUw2PPjLdNTpNrGYaU3W1NynvO1MY8jlXuPJm8=",
     "SectionType": "",
@@ -612,7 +1193,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 52,
+    "Id": 55,
     "Content": "```csharp\nvar config = new OpenXmlConfiguration()\n{\n     TableStyles = TableStyles.None\n};\nMiniExcel.SaveAs(path, value,configuration:config);\n```",
     "ContentSha": "PwE9+iqqeoL4FYEFQEgOlDJGd3PuEHpMHggaQHePmR4=",
     "SectionType": "",
@@ -624,7 +1205,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 53,
+    "Id": 56,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/118784917-f3e57700-b8c2-11eb-8718-8d955b1bc197.png)\n\n\n#### 9. AutoFilter\n\nSince v0.19.0  `OpenXmlConfiguration.AutoFilter` can en/unable AutoFilter , default value is `true`, and setting AutoFilter way:\n",
     "ContentSha": "dfzu2LDkg9NNZheHnNdbBwf/sSm2vwCqCNXRktM1LmI=",
     "SectionType": "",
@@ -636,7 +1217,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 54,
+    "Id": 57,
     "Content": "```csharp\nMiniExcel.SaveAs(path, value, configuration: new OpenXmlConfiguration() { AutoFilter = false });\n```",
     "ContentSha": "VRmO5gJPDNV0hffw0MiwbzlNPU3vzAkJB1gc9XLx4r4=",
     "SectionType": "",
@@ -648,7 +1229,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 55,
+    "Id": 58,
     "Content": "\n\n\n#### 10. Create Image\n",
     "ContentSha": "so+Rl2mfsMzsVdN2yuKr5dfGQnj8iU/vRt4xZZbNuKk=",
     "SectionType": "",
@@ -660,7 +1241,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 56,
+    "Id": 59,
     "Content": "```csharp\nvar value = new[] {\n    new { Name=\"github\",Image=File.ReadAllBytes(PathHelper.GetFile(\"images/github_logo.png\"))},\n    new { Name=\"google\",Image=File.ReadAllBytes(PathHelper.GetFile(\"images/google_logo.png\"))},\n    new { Name=\"microsoft\",Image=File.ReadAllBytes(PathHelper.GetFile(\"images/microsoft_logo.png\"))},\n    new { Name=\"reddit\",Image=File.ReadAllBytes(PathHelper.GetFile(\"images/reddit_logo.png\"))},\n    new { Name=\"statck_overflow\",Image=File.ReadAllBytes(PathHelper.GetFile(\"images/statck_overflow_logo.png\"))},\n};\nMiniExcel.SaveAs(path, value);\n```",
     "ContentSha": "BSMer1AejjI9TMUi83jMPyqTiwS5ip93rH5+kyD9Kkw=",
     "SectionType": "",
@@ -672,7 +1253,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 57,
+    "Id": 60,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/150462383-ad9931b3-ed8d-4221-a1d6-66f799743433.png)\n\n\n\n#### 11. Byte Array File Export\n\nSince 1.22.0, when value type is `byte[]` then system will save file path at cell by default, and when import system can be converted to `byte[]`. And if you don't want to use it, you can set  `OpenXmlConfiguration.EnableConvertByteArray` to `false`, it can improve the system efficiency.\n\n![image](https://user-images.githubusercontent.com/12729184/153702334-c3b834f4-6ae4-4ddf-bd4e-e5005d5d8c6a.png)\n\nSince 1.22.0, when value type is `byte[]` then system will save file path at cell by default, and when import system can be converted to `byte[]`. And if you don't want to use it, you can set  `OpenXmlConfiguration.EnableConvertByteArray` to `false`, it can improve the system efficiency.\n\n![image](https://user-images.githubusercontent.com/12729184/153702334-c3b834f4-6ae4-4ddf-bd4e-e5005d5d8c6a.png)\n\n#### 12. Merge same cells vertically\n\nThis functionality is only supported in `xlsx` format and merges cells vertically between @merge and @endmerge tags.\nYou can use @mergelimit to limit boundaries of merging cells vertically.\n",
     "ContentSha": "mP+GEjw+n5ry/NcPlt4yBj/ZaPNLt7ZRFvYKgckN9Fo=",
     "SectionType": "",
@@ -684,7 +1265,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 58,
+    "Id": 61,
     "Content": "```csharp\nvar mergedFilePath = Path.Combine(Path.GetTempPath(), $\"{Guid.NewGuid().ToString()}.xlsx\");\n\nvar path = @\"../../../../../samples/xlsx/TestMergeWithTag.xlsx\";\n\nMiniExcel.MergeSameCells(mergedFilePath, path);\n```",
     "ContentSha": "hVwv1CnRppsTd4KsCWBYsV/WYn2Vjy2b5JmMpWMl57w=",
     "SectionType": "",
@@ -696,7 +1277,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 59,
+    "Id": 62,
     "Content": "",
     "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "SectionType": "",
@@ -708,7 +1289,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 60,
+    "Id": 63,
     "Content": "```csharp\nvar memoryStream = new MemoryStream();\n\nvar path = @\"../../../../../samples/xlsx/TestMergeWithTag.xlsx\";\n\nmemoryStream.MergeSameCells(path);\n```",
     "ContentSha": "ttYqv/VAJiY/CkeO0Uf2/xbZEiGLzSfDI+Pkq3DBDXo=",
     "SectionType": "",
@@ -720,7 +1301,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 61,
+    "Id": 64,
     "Content": "\nFile content before and after merge:\n\nWithout merge limit:\n\n<img width=\"318\" alt=\"Screenshot 2023-08-07 at 11 59 24\" src=\"https://github.com/mini-software/MiniExcel/assets/38832863/49cc96b9-6c35-4bf3-8d43-a9752a15b22e\">\n\n<img width=\"318\" alt=\"Screenshot 2023-08-07 at 11 59 57\" src=\"https://github.com/mini-software/MiniExcel/assets/38832863/3fbd529b-3ae6-4bbe-b4d8-2793a5a58010\">\n\nWith merge limit:\n\n<img width=\"346\" alt=\"Screenshot 2023-08-08 at 18 21 00\" src=\"https://github.com/mini-software/MiniExcel/assets/38832863/04049d28-84d5-4c2a-bcff-5847547df5e1\">\n\n<img width=\"346\" alt=\"Screenshot 2023-08-08 at 18 21 40\" src=\"https://github.com/mini-software/MiniExcel/assets/38832863/f5cf8957-b0b0-4831-b8fc-8556299235c2\">\n\n#### 13. Skip null values\n\nNew explicit option to write empty cells for null values:\n",
     "ContentSha": "4U0Ey4yU00Pq+cGQrlxdrYLK8No//yiuG2zpkjciL4M=",
     "SectionType": "",
@@ -732,7 +1313,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 62,
+    "Id": 65,
     "Content": "```csharp\nDataTable dt = new DataTable();\n\n/* ... */\n\nDataRow dr = dt.NewRow();\n\ndr[\"Name1\"] = \"Somebody once\";\ndr[\"Name2\"] = null;\ndr[\"Name3\"] = \"told me.\";\n\ndt.Rows.Add(dr);\n\nOpenXmlConfiguration configuration = new OpenXmlConfiguration()\n{\n     EnableWriteNullValueCell = true // Default value.\n};\n\nMiniExcel.SaveAs(@\"C:\\temp\\Book1.xlsx\", dt, configuration: configuration);\n```",
     "ContentSha": "xHA4nV9ZPQ0ebVrVYXdYkOgEtD7EI4DATT/tGpSFZLk=",
     "SectionType": "",
@@ -744,7 +1325,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 63,
+    "Id": 66,
     "Content": "\n![image](https://user-images.githubusercontent.com/31481586/241419455-3c0aec8a-4e5f-4d83-b7ec-6572124c165d.png)\n",
     "ContentSha": "5shBEiBBVrh0zUGo2VK3Q2F+tO15dFw6MeoHOJA7ehQ=",
     "SectionType": "",
@@ -756,7 +1337,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 64,
+    "Id": 67,
     "Content": "```xml\n<x:row r=\"2\">\n    <x:c r=\"A2\" t =\"str\" s=\"2\">\n        <x:v>Somebody once</x:v>\n    </x:c>\n    <x:c r=\"B2\" s=\"2\"></x:c>\n    <x:c r=\"C2\" t =\"str\" s=\"2\">\n        <x:v>told me.</x:v>\n    </x:c>\n</x:row>\n```",
     "ContentSha": "tvNgAZTYNCviMgZm0aycKPo0Q2bEvdA04osV7UuUhxc=",
     "SectionType": "",
@@ -768,7 +1349,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 65,
+    "Id": 68,
     "Content": "\nPrevious behavior:\n",
     "ContentSha": "3ZPK1gGfk78nqeMIJ9BV2lryfPcKxEZwglnP+2QWcgg=",
     "SectionType": "",
@@ -780,7 +1361,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 66,
+    "Id": 69,
     "Content": "```csharp\n/* ... */\n\nOpenXmlConfiguration configuration = new OpenXmlConfiguration()\n{\n     EnableWriteNullValueCell = false // Default value is true.\n};\n\nMiniExcel.SaveAs(@\"C:\\temp\\Book1.xlsx\", dt, configuration: configuration);\n```",
     "ContentSha": "x6haRIhVyvUFDLAQvB7mJ0xaTKhXnf52REpLnuL1Yk8=",
     "SectionType": "",
@@ -792,7 +1373,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 67,
+    "Id": 70,
     "Content": "\n![image](https://user-images.githubusercontent.com/31481586/241419441-c4f27e8f-3f87-46db-a10f-08665864c874.png)\n",
     "ContentSha": "OcWTPNkAgKKjG3646HsPonfsJg38WX2p7A/Y6pj6LMA=",
     "SectionType": "",
@@ -804,7 +1385,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 68,
+    "Id": 71,
     "Content": "```xml\n<x:row r=\"2\">\n    <x:c r=\"A2\" t =\"str\" s=\"2\">\n        <x:v>Somebody once</x:v>\n    </x:c>\n    <x:c r=\"B2\" t =\"str\" s=\"2\">\n        <x:v></x:v>\n    </x:c>\n    <x:c r=\"C2\" t =\"str\" s=\"2\">\n        <x:v>told me.</x:v>\n    </x:c>\n</x:row>\n```",
     "ContentSha": "qW6ZS8EtNIVbwT05vSM3z/dISEtnvcPQP2rW9vT320M=",
     "SectionType": "",
@@ -816,7 +1397,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 69,
+    "Id": 72,
     "Content": "\nWorks for null and DBNull values.\n\n#### 14. Freeze Panes",
     "ContentSha": "SEb+ySvjTTpmREu3Ivb3lKQ+i3ktkWe6jwh2ssXPuH8=",
     "SectionType": "",
@@ -828,7 +1409,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 70,
+    "Id": 73,
     "Content": "```csharp\n/* ... */\n\nOpenXmlConfiguration configuration = new OpenXmlConfiguration()\n{\n    FreezeRowCount = 1,     // default is 1\n    FreezeColumnCount = 2   // default is 0\n};\n\nMiniExcel.SaveAs(@\"C:\\temp\\Book1.xlsx\", dt, configuration: configuration);\n```",
     "ContentSha": "sWfMVn25b56KxeOAwJ2/1OU/VOMa9HfKcrzTR2h2sGM=",
     "SectionType": "",
@@ -840,7 +1421,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 71,
+    "Id": 74,
     "Content": "\n![image](https://raw.githubusercontent.com/mini-software/MiniExcel/master/docs/images/freeze-pane-1.png)\n\n\n### Fill Data To Excel Template <a name=\"getstart3\"></a>\n\n- The declaration is similar to Vue template `{{variable name}}`, or the collection rendering `{{collection name.field name}}`\n- Collection rendering support IEnumerable/DataTable/DapperRow\n\n#### 1. Basic Fill\n\nTemplate:\n![image](https://user-images.githubusercontent.com/12729184/114537556-ed8d2b00-9c84-11eb-8303-a69f62c41e5b.png)\n\nResult:\n![image](https://user-images.githubusercontent.com/12729184/114537490-d8180100-9c84-11eb-8c69-db58692f3a85.png)\n\nCode:",
     "ContentSha": "nhQYZWl96KcZGnQTUxNiZPM0K3eJR6uprBWY62eFsNE=",
     "SectionType": "",
@@ -852,7 +1433,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 72,
+    "Id": 75,
     "Content": "```csharp\n// 1. By POCO\nvar value = new\n{\n    Name = \"Jack\",\n    CreateDate = new DateTime(2021, 01, 01),\n    VIP = true,\n    Points = 123\n};\nMiniExcel.SaveAsByTemplate(path, templatePath, value);\n\n\n// 2. By Dictionary\nvar value = new Dictionary<string, object>()\n{\n    [\"Name\"] = \"Jack\",\n    [\"CreateDate\"] = new DateTime(2021, 01, 01),\n    [\"VIP\"] = true,\n    [\"Points\"] = 123\n};\nMiniExcel.SaveAsByTemplate(path, templatePath, value);\n```",
     "ContentSha": "p9dEiYRjny7/ngXnKelYXwhrUdqu6/8NCM9KnJ5zckE=",
     "SectionType": "",
@@ -864,7 +1445,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 73,
+    "Id": 76,
     "Content": "\n\n\n#### 2. IEnumerable Data Fill\n\n> Note1: Use the first IEnumerable of the same column as the basis for filling list\n\nTemplate:\n![image](https://user-images.githubusercontent.com/12729184/114564652-14f2f080-9ca3-11eb-831f-09e3fedbc5fc.png)\n\nResult:\n![image](https://user-images.githubusercontent.com/12729184/114564204-b2015980-9ca2-11eb-900d-e21249f93f7c.png)\n\nCode:",
     "ContentSha": "M1hj9uMI1n0Vctb7LGxkyOkxXVkFF9gNR4BMgRes15M=",
     "SectionType": "",
@@ -876,7 +1457,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 74,
+    "Id": 77,
     "Content": "```csharp\n//1. By POCO\nvar value = new\n{\n    employees = new[] {\n        new {name=\"Jack\",department=\"HR\"},\n        new {name=\"Lisa\",department=\"HR\"},\n        new {name=\"John\",department=\"HR\"},\n        new {name=\"Mike\",department=\"IT\"},\n        new {name=\"Neo\",department=\"IT\"},\n        new {name=\"Loan\",department=\"IT\"}\n    }\n};\nMiniExcel.SaveAsByTemplate(path, templatePath, value);\n\n//2. By Dictionary\nvar value = new Dictionary<string, object>()\n{\n    [\"employees\"] = new[] {\n        new {name=\"Jack\",department=\"HR\"},\n        new {name=\"Lisa\",department=\"HR\"},\n        new {name=\"John\",department=\"HR\"},\n        new {name=\"Mike\",department=\"IT\"},\n        new {name=\"Neo\",department=\"IT\"},\n        new {name=\"Loan\",department=\"IT\"}\n    }\n};\nMiniExcel.SaveAsByTemplate(path, templatePath, value);\n```",
     "ContentSha": "4qTUIKolrow2eiEo5qJp6CoYTAme5dN2v2+ferczoCM=",
     "SectionType": "",
@@ -888,7 +1469,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 75,
+    "Id": 78,
     "Content": "\n\n\n#### 3. Complex Data Fill\n\n> Note: Support multi-sheets and using same varible\n\nTemplate:\n\n![image](https://user-images.githubusercontent.com/12729184/114565255-acf0da00-9ca3-11eb-8a7f-8131b2265ae8.png)\n\nResult:\n\n![image](https://user-images.githubusercontent.com/12729184/114565329-bf6b1380-9ca3-11eb-85e3-3969e8bf6378.png)\n",
     "ContentSha": "OZti5xekFclglkJuozdmjVjVYIVKpsDZsY7+kPHaV2I=",
     "SectionType": "",
@@ -900,7 +1481,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 76,
+    "Id": 79,
     "Content": "```csharp\n// 1. By POCO\nvar value = new\n{\n    title = \"FooCompany\",\n    managers = new[] {\n        new {name=\"Jack\",department=\"HR\"},\n        new {name=\"Loan\",department=\"IT\"}\n    },\n    employees = new[] {\n        new {name=\"Wade\",department=\"HR\"},\n        new {name=\"Felix\",department=\"HR\"},\n        new {name=\"Eric\",department=\"IT\"},\n        new {name=\"Keaton\",department=\"IT\"}\n    }\n};\nMiniExcel.SaveAsByTemplate(path, templatePath, value);\n\n// 2. By Dictionary\nvar value = new Dictionary<string, object>()\n{\n    [\"title\"] = \"FooCompany\",\n    [\"managers\"] = new[] {\n        new {name=\"Jack\",department=\"HR\"},\n        new {name=\"Loan\",department=\"IT\"}\n    },\n    [\"employees\"] = new[] {\n        new {name=\"Wade\",department=\"HR\"},\n        new {name=\"Felix\",department=\"HR\"},\n        new {name=\"Eric\",department=\"IT\"},\n        new {name=\"Keaton\",department=\"IT\"}\n    }\n};\nMiniExcel.SaveAsByTemplate(path, templatePath, value);\n```",
     "ContentSha": "ZpGTeeVTUoKOLgTkM1S4n0SObxGcnvBqzcpDtck+9F4=",
     "SectionType": "",
@@ -912,7 +1493,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 77,
+    "Id": 80,
     "Content": "\n#### 4. Fill Big Data Performance\n\n> NOTE: Using IEnumerable deferred execution not ToList can save max memory usage in MiniExcel\n\n![image](https://user-images.githubusercontent.com/12729184/114577091-5046ec80-9cae-11eb-924b-087c7becf8da.png)\n\n\n\n#### 5. Cell value auto mapping type\n\nTemplate\n\n![image](https://user-images.githubusercontent.com/12729184/114802504-64830a80-9dd0-11eb-8d56-8e8c401b3ace.png)\n\nResult\n\n![image](https://user-images.githubusercontent.com/12729184/114802419-43221e80-9dd0-11eb-9ffe-a2ce34fe7076.png)\n\nClass\n",
     "ContentSha": "9olq3HH9B8CY3eGlebiMac6xklXhHLzYHVp6ptUKMcM=",
     "SectionType": "",
@@ -924,7 +1505,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 78,
+    "Id": 81,
     "Content": "```csharp\npublic class Poco\n{\n    public string @string { get; set; }\n    public int? @int { get; set; }\n    public decimal? @decimal { get; set; }\n    public double? @double { get; set; }\n    public DateTime? datetime { get; set; }\n    public bool? @bool { get; set; }\n    public Guid? Guid { get; set; }\n}\n```",
     "ContentSha": "ZF++Un7H9PYfBmDiycopK6xc9iR5Wv/Sexl1S4yEMjw=",
     "SectionType": "",
@@ -936,7 +1517,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 79,
+    "Id": 82,
     "Content": "\nCode\n",
     "ContentSha": "Q60d4hFMAeB4HYk8SxPF+dO8FItDJ5qUzbWXcOtyq38=",
     "SectionType": "",
@@ -948,7 +1529,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 80,
+    "Id": 83,
     "Content": "```csharp\nvar poco = new TestIEnumerableTypePoco { @string = \"string\", @int = 123, @decimal = decimal.Parse(\"123.45\"), @double = (double)123.33, @datetime = new DateTime(2021, 4, 1), @bool = true, @Guid = Guid.NewGuid() };\nvar value = new\n{\n    Ts = new[] {\n        poco,\n        new TestIEnumerableTypePoco{},\n        null,\n        poco\n    }\n};\nMiniExcel.SaveAsByTemplate(path, templatePath, value);\n```",
     "ContentSha": "CpBPYW2afluiD5RdHwP51o0Kv6eJq85PdAdDFdrHKTQ=",
     "SectionType": "",
@@ -960,7 +1541,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 81,
+    "Id": 84,
     "Content": "\n\n\n#### 6. Example :  List Github Projects\n\nTemplate\n\n![image](https://user-images.githubusercontent.com/12729184/115068623-12073280-9f25-11eb-9124-f4b3efcdb2a7.png)\n\n\nResult\n\n![image](https://user-images.githubusercontent.com/12729184/115068639-1a5f6d80-9f25-11eb-9f45-27c434d19a78.png)\n\nCode\n",
     "ContentSha": "OkIaCx9Rtmqt4OT/t0iKykbC8hsYiiGVz4Ak+25mcnw=",
     "SectionType": "",
@@ -972,7 +1553,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 82,
+    "Id": 85,
     "Content": "```csharp\nvar projects = new[]\n{\n    new {Name = \"MiniExcel\",Link=\"https://github.com/mini-software/MiniExcel\",Star=146, CreateTime=new DateTime(2021,03,01)},\n    new {Name = \"HtmlTableHelper\",Link=\"https://github.com/mini-software/HtmlTableHelper\",Star=16, CreateTime=new DateTime(2020,02,01)},\n    new {Name = \"PocoClassGenerator\",Link=\"https://github.com/mini-software/PocoClassGenerator\",Star=16, CreateTime=new DateTime(2019,03,17)}\n};\nvar value = new\n{\n    User = \"ITWeiHan\",\n    Projects = projects,\n    TotalStar = projects.Sum(s => s.Star)\n};\nMiniExcel.SaveAsByTemplate(path, templatePath, value);\n```",
     "ContentSha": "ko4LvsBQ4/nsIr7Ewl9vyJR+JSAKkCBwkp6GmVX+o9Y=",
     "SectionType": "",
@@ -984,7 +1565,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 83,
+    "Id": 86,
     "Content": "\n#### 7. Grouped Data Fill\n",
     "ContentSha": "72n+jnR0cjNS4tbPngwFwBBh4XjIbOcMGt0HSE2qsTA=",
     "SectionType": "",
@@ -996,7 +1577,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 84,
+    "Id": 87,
     "Content": "```csharp\nvar value = new Dictionary<string, object>()\n{\n    [\"employees\"] = new[] {\n        new {name=\"Jack\",department=\"HR\"},\n        new {name=\"Jack\",department=\"HR\"},\n        new {name=\"John\",department=\"HR\"},\n        new {name=\"John\",department=\"IT\"},\n        new {name=\"Neo\",department=\"IT\"},\n        new {name=\"Loan\",department=\"IT\"}\n    }\n};\nawait MiniExcel.SaveAsByTemplateAsync(path, templatePath, value);\n```",
     "ContentSha": "HjYvoWgTLWJP4WJuQriBQDtdvYLMpRP6+9zmwiMlBh4=",
     "SectionType": "",
@@ -1008,7 +1589,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 85,
+    "Id": 88,
     "Content": "##### 1. With `@group` tag and with `@header` tag\n\nBefore\n\n![before_with_header](https://user-images.githubusercontent.com/38832863/218646717-21b9d57a-2be2-4e9a-801b-ae212231d2b4.PNG)\n\nAfter\n\n![after_with_header](https://user-images.githubusercontent.com/38832863/218646721-58a7a340-7004-4bc2-af24-cffcb2c20737.PNG)\n\n##### 2. With @group tag and without @header tag\n\nBefore\n\n![before_without_header](https://user-images.githubusercontent.com/38832863/218646873-b12417fa-801b-4890-8e96-669ed3b43902.PNG)\n\nAfter\n\n![after_without_header](https://user-images.githubusercontent.com/38832863/218646872-622461ba-342e-49ee-834f-b91ad9c2dac3.PNG)\n\n##### 3. Without @group tag\n\nBefore\n\n![without_group](https://user-images.githubusercontent.com/38832863/218646975-f52a68eb-e031-43b5-abaa-03b67c052d1a.PNG)\n\nAfter\n\n![without_group_after](https://user-images.githubusercontent.com/38832863/218646974-4a3c0e07-7c66-4088-ad07-b4ad3695b7e1.PNG)\n\n#### 8. If/ElseIf/Else Statements inside cell\n\nRules:\n1. Supports DateTime, Double, Int with ==, !=, >, >=, <, <= operators.\n2. Supports String with ==, != operators.\n3. Each statement should be new line.\n4. Single space should be added before and after operators.\n5. There shouldn't be new line inside of statements.\n6. Cell should be in exact format as below.\n",
     "ContentSha": "1pMk7ho7b/YYs1NzXkkkPfulJ1U6H+oHrzMJauRBLog=",
     "SectionType": "",
@@ -1020,7 +1601,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 86,
+    "Id": 89,
     "Content": "```csharp\n@if(name == Jack)\n{{employees.name}}\n@elseif(name == Neo)\nTest {{employees.name}}\n@else\n{{employees.department}}\n@endif\n```",
     "ContentSha": "6oaKHpzwLd7+REbPVnG4d2IxqH3o3cQ136I5KUwPYhw=",
     "SectionType": "",
@@ -1032,7 +1613,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 87,
+    "Id": 90,
     "Content": "\nBefore\n\n![if_before](https://user-images.githubusercontent.com/38832863/235360606-ca654769-ff55-4f5b-98d2-d2ec0edb8173.PNG)\n\nAfter\n\n![if_after](https://user-images.githubusercontent.com/38832863/235360609-869bb960-d63d-45ae-8d64-9e8b0d0ab658.PNG)\n\n#### 9. DataTable as parameter\n",
     "ContentSha": "ZhDyx1IJjckYIVJ5nJC7KSDMHz+usW/6bElB3xNnbPE=",
     "SectionType": "",
@@ -1044,7 +1625,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 88,
+    "Id": 91,
     "Content": "```csharp\nvar managers = new DataTable();\n{\n    managers.Columns.Add(\"name\");\n    managers.Columns.Add(\"department\");\n    managers.Rows.Add(\"Jack\", \"HR\");\n    managers.Rows.Add(\"Loan\", \"IT\");\n}\nvar value = new Dictionary<string, object>()\n{\n    [\"title\"] = \"FooCompany\",\n    [\"managers\"] = managers,\n};\nMiniExcel.SaveAsByTemplate(path, templatePath, value);\n```",
     "ContentSha": "WelcLS8bD6QBSfmzhilcOnvJh2FCQS5ElA+thMME6X8=",
     "SectionType": "",
@@ -1056,7 +1637,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 89,
+    "Id": 92,
     "Content": "#### 10. Formulas\n\n##### 1. Example\nPrefix your formula with `$` and use `$enumrowstart` and `$enumrowend` to mark references to the enumerable start and end rows:\n\n![image](https://raw.githubusercontent.com/mini-software/MiniExcel/master/docs/images/template-formulas-1.png)\n\nWhen the template is rendered, the `$` prefix will be removed and `$enumrowstart` and `$enumrowend` will be replaced with the start and end row numbers of the enumerable:\n\n![image](https://raw.githubusercontent.com/mini-software/MiniExcel/master/docs/images/template-formulas-2.png)\n\n##### 2. Other Example Formulas:\n\n|              |                                                                                           |\n|--------------|-------------------------------------------------------------------------------------------|\n| Sum          | `$=SUM(C{{$enumrowstart}}:C{{$enumrowend}})`                                              |\n| Alt. Average | `$=SUM(C{{$enumrowstart}}:C{{$enumrowend}}) / COUNT(C{{$enumrowstart}}:C{{$enumrowend}})` |\n| Range        | `$=MAX(C{{$enumrowstart}}:C{{$enumrowend}}) - MIN(C{{$enumrowstart}}:C{{$enumrowend}})`   |\n\n\n#### 11. Other\n\n##### 1. Checking template parameter key\n\nSince V1.24.0 , default ignore template missing parameter key and replace it with empty string, `IgnoreTemplateParameterMissing` can control throwing exception or not.\n",
     "ContentSha": "12o7rOMkfXQZ5kN2Dap2sJDuDKQVeJxBLk26wxAoGwY=",
     "SectionType": "",
@@ -1068,7 +1649,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 90,
+    "Id": 93,
     "Content": "```csharp\nvar config = new OpenXmlConfiguration()\n{\n    IgnoreTemplateParameterMissing = false,\n};\nMiniExcel.SaveAsByTemplate(path, templatePath, value, config)\n```",
     "ContentSha": "ozBaitff7XPgcjIKQSS4oC+kdGoOpM6i4G03CbMYD5k=",
     "SectionType": "",
@@ -1080,7 +1661,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 91,
+    "Id": 94,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/157464332-e316f829-54aa-4c84-a5aa-9aef337b668d.png)\n\n\n\n### Excel Column Name/Index/Ignore Attribute <a name=\"getstart4\"></a>\n\n\n\n#### 1. Specify the column name, column index, column ignore\n\nExcel Example\n\n![image](https://user-images.githubusercontent.com/12729184/114230869-3e163700-99ac-11eb-9a90-2039d4b4b313.png)\n\nCode\n",
     "ContentSha": "V7uPiJfp4Aa80dZDI8Cy7u7qwoTjIZgj8MgsiXvFiLU=",
     "SectionType": "",
@@ -1092,7 +1673,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 92,
+    "Id": 95,
     "Content": "```csharp\npublic class ExcelAttributeDemo\n{\n    [ExcelColumnName(\"Column1\")]\n    public string Test1 { get; set; }\n    [ExcelColumnName(\"Column2\")]\n    public string Test2 { get; set; }\n    [ExcelIgnore]\n    public string Test3 { get; set; }\n    [ExcelColumnIndex(\"I\")] // system will convert \"I\" to 8 index\n    public string Test4 { get; set; }\n    public string Test5 { get; } //wihout set will ignore\n    public string Test6 { get; private set; } //un-public set will ignore\n    [ExcelColumnIndex(3)] // start with 0\n    public string Test7 { get; set; }\n}\n\nvar rows = MiniExcel.Query<ExcelAttributeDemo>(path).ToList();\nAssert.Equal(\"Column1\", rows[0].Test1);\nAssert.Equal(\"Column2\", rows[0].Test2);\nAssert.Null(rows[0].Test3);\nAssert.Equal(\"Test7\", rows[0].Test4);\nAssert.Null(rows[0].Test5);\nAssert.Null(rows[0].Test6);\nAssert.Equal(\"Test4\", rows[0].Test7);\n```",
     "ContentSha": "PnmSkf1ZdPmy237uDYVTYVijtilX7TwqwN6Ku1i5xS8=",
     "SectionType": "",
@@ -1104,7 +1685,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 93,
+    "Id": 96,
     "Content": "\n\n\n\n\n#### 2. Custom Format (ExcelFormatAttribute)\n\nSince V0.21.0 support class which contains `ToString(string content)` method format\n\nClass\n",
     "ContentSha": "YjTK2G57TPJQaVon8OkhbmLEgQOG2nfefMfoCV1GQFM=",
     "SectionType": "",
@@ -1116,7 +1697,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 94,
+    "Id": 97,
     "Content": "```csharp\npublic class Dto\n{\n    public string Name { get; set; }\n\n    [ExcelFormat(\"MMMM dd, yyyy\")]\n    public DateTime InDate { get; set; }\n}\n```",
     "ContentSha": "U1iDI8S2/wFHPVc3K2d4RMoiSooOSZ3qRQP9xa2f8i8=",
     "SectionType": "",
@@ -1128,7 +1709,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 95,
+    "Id": 98,
     "Content": "\nCode\n",
     "ContentSha": "Q60d4hFMAeB4HYk8SxPF+dO8FItDJ5qUzbWXcOtyq38=",
     "SectionType": "",
@@ -1140,7 +1721,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 96,
+    "Id": 99,
     "Content": "```csharp\nvar value = new Dto[] {\n    new Issue241Dto{ Name=\"Jack\",InDate=new DateTime(2021,01,04)},\n    new Issue241Dto{ Name=\"Henry\",InDate=new DateTime(2020,04,05)},\n};\nMiniExcel.SaveAs(path, value);\n```",
     "ContentSha": "nrOD+UJNMHUp8SL1SJHz7lGPiYvUT/+PyDb5XXLFNTE=",
     "SectionType": "",
@@ -1152,7 +1733,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 97,
+    "Id": 100,
     "Content": "\nResult\n\n![image](https://user-images.githubusercontent.com/12729184/118910788-ab2bcd80-b957-11eb-8d42-bfce36621b1b.png)\n\nQuery supports custom format conversion\n\n![image](https://user-images.githubusercontent.com/12729184/118911286-87b55280-b958-11eb-9a88-c8ff403d240a.png)\n\n#### 3. Set Column Width(ExcelColumnWidthAttribute)\n",
     "ContentSha": "z4CXPgYvXMOdbSeO6fnlOGgPd48eTM2wBsRHhn/mc/0=",
     "SectionType": "",
@@ -1164,7 +1745,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 98,
+    "Id": 101,
     "Content": "```csharp\npublic class Dto\n{\n    [ExcelColumnWidth(20)]\n    public int ID { get; set; }\n    [ExcelColumnWidth(15.50)]\n    public string Name { get; set; }\n}\n```",
     "ContentSha": "ajX0m0FIrc14E+GZMa4O7CMTLrxx0qFAgzlnVfJtM+8=",
     "SectionType": "",
@@ -1176,7 +1757,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 99,
+    "Id": 102,
     "Content": "\n#### 4. Multiple column names mapping to the same property.\n",
     "ContentSha": "CAGuJmwlKa1dqJl09mQfApKhia3mh4OK6hxliU1Ebcs=",
     "SectionType": "",
@@ -1188,7 +1769,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 100,
+    "Id": 103,
     "Content": "```csharp\npublic class Dto\n{\n    [ExcelColumnName(excelColumnName:\"EmployeeNo\",aliases:new[] { \"EmpNo\",\"No\" })]\n    public string Empno { get; set; }\n    public string Name { get; set; }\n}\n```",
     "ContentSha": "fGFmQCKjXt7dJErGeqvq82B+rnmp7N1wndtRkX2eL/M=",
     "SectionType": "",
@@ -1200,7 +1781,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 101,
+    "Id": 104,
     "Content": "\n\n\n#### 5. System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute\n\nSince 1.24.0, system supports System.ComponentModel.DisplayNameAttribute = ExcelColumnName.excelColumnNameAttribute\n",
     "ContentSha": "12NR9FdPevqNLH4BcKuXVX83rNRW3A6v/bfyd8xAinQ=",
     "SectionType": "",
@@ -1212,7 +1793,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 102,
+    "Id": 105,
     "Content": "```C#\npublic class TestIssueI4TXGTDto\n{\n    public int ID { get; set; }\n    public string Name { get; set; }\n    [DisplayName(\"Specification\")]\n    public string Spc { get; set; }\n    [DisplayName(\"Unit Price\")]\n    public decimal Up { get; set; }\n}\n```",
     "ContentSha": "EYPeTfaPZEJs+L+5Qoy4a9It+cev/ktj3Z8L7KuUp/U=",
     "SectionType": "",
@@ -1224,7 +1805,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 103,
+    "Id": 106,
     "Content": "\n\n\n#### 6. ExcelColumnAttribute\n\nSince V1.26.0, multiple attributes can be simplified like :",
     "ContentSha": "jughh5+UILo/3g0AA7GHZaUFTvURM3Eh2ZpNw6eWVtU=",
     "SectionType": "",
@@ -1236,7 +1817,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 104,
+    "Id": 107,
     "Content": "```csharp\n        public class TestIssueI4ZYUUDto\n        {\n            [ExcelColumn(Name = \"ID\",Index =0)]\n            public string MyProperty { get; set; }\n            [ExcelColumn(Name = \"CreateDate\", Index = 1,Format =\"yyyy-MM\",Width =100)]\n            public DateTime MyProperty2 { get; set; }\n        }\n```",
     "ContentSha": "MgZbybYXC9qNI28jBasnZXTFdsG0AziCCqOsPmLF7wQ=",
     "SectionType": "",
@@ -1248,7 +1829,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 105,
+    "Id": 108,
     "Content": "\n\n\n#### 7. DynamicColumnAttribute\n\nSince V1.26.0, we can set the attributes of Column dynamically",
     "ContentSha": "7D0jndqio9uZt23MSlDGiB+6NnlHLZLXxXZBG3/sWGo=",
     "SectionType": "",
@@ -1260,7 +1841,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 106,
+    "Id": 109,
     "Content": "```csharp\n            var config = new OpenXmlConfiguration\n            {\n                DynamicColumns = new DynamicExcelColumn[] {\n                    new DynamicExcelColumn(\"id\"){Ignore=true},\n                    new DynamicExcelColumn(\"name\"){Index=1,Width=10},\n                    new DynamicExcelColumn(\"createdate\"){Index=0,Format=\"yyyy-MM-dd\",Width=15},\n                    new DynamicExcelColumn(\"point\"){Index=2,Name=\"Account Point\"},\n                }\n            };\n            var path = PathHelper.GetTempPath();\n            var value = new[] { new { id = 1, name = \"Jack\", createdate = new DateTime(2022, 04, 12) ,point = 123.456} };\n            MiniExcel.SaveAs(path, value, configuration: config);\n```",
     "ContentSha": "Dq7/m6XMX0ZoQBiFX3/Xzhg0Wc+zPpm6T/KPlbXylZg=",
     "SectionType": "",
@@ -1272,7 +1853,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 107,
+    "Id": 110,
     "Content": "![image](https://user-images.githubusercontent.com/12729184/164510353-5aecbc4e-c3ce-41e8-b6cf-afd55eb23b68.png)\n\n#### 8. DynamicSheetAttribute\n\nSince V1.31.4 we can set the attributes of Sheet dynamically. We can set sheet name and state (visibility).",
     "ContentSha": "qfGBgWpl5LHWrT2T+v3VVe4/RAyYPxcva6K9XoT2QAc=",
     "SectionType": "",
@@ -1284,7 +1865,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 108,
+    "Id": 111,
     "Content": "```csharp\n            var configuration = new OpenXmlConfiguration\n            {\n                DynamicSheets = new DynamicExcelSheet[] {\n                    new DynamicExcelSheet(\"usersSheet\") { Name = \"Users\", State = SheetState.Visible },\n                    new DynamicExcelSheet(\"departmentSheet\") { Name = \"Departments\", State = SheetState.Hidden }\n                }\n            };\n\n            var users = new[] { new { Name = \"Jack\", Age = 25 }, new { Name = \"Mike\", Age = 44 } };\n            var department = new[] { new { ID = \"01\", Name = \"HR\" }, new { ID = \"02\", Name = \"IT\" } };\n            var sheets = new Dictionary<string, object>\n            {\n                [\"usersSheet\"] = users,\n                [\"departmentSheet\"] = department\n            };\n\n            var path = PathHelper.GetTempPath();\n            MiniExcel.SaveAs(path, sheets, configuration: configuration);\n```",
     "ContentSha": "WP2IkXJ+34HDRqxiGs6dJX6C7P08yXdIIC7sdMdiVhI=",
     "SectionType": "",
@@ -1296,7 +1877,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 109,
+    "Id": 112,
     "Content": "\nWe can also use new attribute ExcelSheetAttribute:\n",
     "ContentSha": "r5h7ysi1ijmd468XS8AuZSZIuWpGfbcQueqdvsINX+E=",
     "SectionType": "",
@@ -1308,7 +1889,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 110,
+    "Id": 113,
     "Content": "```C#\n   [ExcelSheet(Name = \"Departments\", State = SheetState.Hidden)]\n   private class DepartmentDto\n   {\n      [ExcelColumn(Name = \"ID\",Index = 0)]\n      public string ID { get; set; }\n      [ExcelColumn(Name = \"Name\",Index = 1)]\n      public string Name { get; set; }\n   }\n```",
     "ContentSha": "AZJhyVf8fUVWJ22rseCUIJ210BHjMf6Cc4Fv+0WqElg=",
     "SectionType": "",
@@ -1320,7 +1901,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 111,
+    "Id": 114,
     "Content": "\n### Add, Delete, Update\n\n#### Add\n\nv1.28.0 support CSV insert N rows data after last row\n",
     "ContentSha": "xgV4ytWIvFi7uyesyncG9G5UmvlvWd15W27n5cpM1sk=",
     "SectionType": "",
@@ -1332,7 +1913,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 112,
+    "Id": 115,
     "Content": "```csharp\n// Origin\n{\n    var value = new[] {\n          new { ID=1,Name =\"Jack\",InDate=new DateTime(2021,01,03)},\n          new { ID=2,Name =\"Henry\",InDate=new DateTime(2020,05,03)},\n    };\n    MiniExcel.SaveAs(path, value);\n}\n// Insert 1 rows after last\n{\n    var value = new { ID=3,Name = \"Mike\", InDate = new DateTime(2021, 04, 23) };\n    MiniExcel.Insert(path, value);\n}\n// Insert N rows after last\n{\n    var value = new[] {\n          new { ID=4,Name =\"Frank\",InDate=new DateTime(2021,06,07)},\n          new { ID=5,Name =\"Gloria\",InDate=new DateTime(2022,05,03)},\n    };\n    MiniExcel.Insert(path, value);\n}\n```",
     "ContentSha": "9oWjdZprLFB8cQGzSIHXT/PwskwLNK1dquGfy4G6AYg=",
     "SectionType": "",
@@ -1344,7 +1925,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 113,
+    "Id": 116,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/191023733-1e2fa732-db5c-4a3a-9722-b891fe5aa069.png)\n\nv1.37.0 support excel insert a new sheet into an existing workbook\n",
     "ContentSha": "ZyupHO3D5V9ffQp1bPn37sER3NDy/enFQaKH3p/LAqU=",
     "SectionType": "",
@@ -1356,7 +1937,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 114,
+    "Id": 117,
     "Content": "```csharp\n// Origin excel\n{\n    var value = new[] {\n          new { ID=1,Name =\"Jack\",InDate=new DateTime(2021,01,03)},\n          new { ID=2,Name =\"Henry\",InDate=new DateTime(2020,05,03)},\n    };\n    MiniExcel.SaveAs(path, value, sheetName: \"Sheet1\");\n}\n// Insert a new sheet\n{\n    var value = new { ID=3,Name = \"Mike\", InDate = new DateTime(2021, 04, 23) };\n    MiniExcel.Insert(path, table, sheetName: \"Sheet2\");\n}\n```",
     "ContentSha": "VAZAX5RFCfikAEALDj1Q2HV44rbxCArvFJMxTJDaHm0=",
     "SectionType": "",
@@ -1368,7 +1949,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 115,
+    "Id": 118,
     "Content": "\n\n\n#### Delete(waiting)\n\n#### Update(waiting)\n\n\n\n### Excel Type Auto Check <a name=\"getstart5\"></a>\n\n- MiniExcel will check whether it is xlsx or csv based on the `file extension` by default, but there may be inaccuracy, please specify it manually.\n- Stream cannot be know from which excel, please specify it manually.\n",
     "ContentSha": "1xkcFd502MjBprcJmdLj1vyTDL3x4ykGpEIF/oFXDEA=",
     "SectionType": "",
@@ -1380,7 +1961,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 116,
+    "Id": 119,
     "Content": "```csharp\nstream.SaveAs(excelType:ExcelType.CSV);\n//or\nstream.SaveAs(excelType:ExcelType.XLSX);\n//or\nstream.Query(excelType:ExcelType.CSV);\n//or\nstream.Query(excelType:ExcelType.XLSX);\n```",
     "ContentSha": "NrsYxMYs29SI+nHbkcd9AQWdIyeyFjzz6TbhjAtzmp0=",
     "SectionType": "",
@@ -1392,7 +1973,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 117,
+    "Id": 120,
     "Content": "\n\n\n\n\n### CSV\n\n#### Note\n\n- Default return `string` type, and value will not be converted to numbers or datetime, unless the type is defined by strong typing generic.\n\n\n\n#### Custom separator\n\nThe default is `,` as the separator, you can modify the `Seperator` property for customization\n",
     "ContentSha": "zyCRlQDZQp65PqpHi42+6eQ9njDatT7VJlE22RHEKoE=",
     "SectionType": "",
@@ -1404,7 +1985,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 118,
+    "Id": 121,
     "Content": "```csharp\nvar config = new MiniExcelLibs.Csv.CsvConfiguration()\n{\n    Seperator=';'\n};\nMiniExcel.SaveAs(path, values,configuration: config);\n```",
     "ContentSha": "vXV7FqBmYVYNt/hbrMIxJLrreWzu1oyl2frxVpe4ZkM=",
     "SectionType": "",
@@ -1416,7 +1997,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 119,
+    "Id": 122,
     "Content": "\nSince V1.30.1 support function to custom separator (thanks @hyzx86)\n",
     "ContentSha": "+cXMZ0ESRslw6eoYVgbxOm6JpJoqQx4+BkuqVzwg8ps=",
     "SectionType": "",
@@ -1428,7 +2009,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 120,
+    "Id": 123,
     "Content": "```csharp\nvar config = new CsvConfiguration()\n{\n    SplitFn = (row) => Regex.Split(row, $\"[\\t,](?=(?:[^\\\"]|\\\"[^\\\"]*\\\")*$)\")\n        .Select(s => Regex.Replace(s.Replace(\"\\\"\\\"\", \"\\\"\"), \"^\\\"|\\\"$\", \"\")).ToArray()\n};\nvar rows = MiniExcel.Query(path, configuration: config).ToList();\n```",
     "ContentSha": "+9o4E3gSyM1CrZBF41eJ+zN5hbE8/eIXjLHIgEyrbcU=",
     "SectionType": "",
@@ -1440,7 +2021,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 121,
+    "Id": 124,
     "Content": "\n\n\n#### Custom line break\n\nThe default is `\\r\\n` as the newline character, you can modify the `NewLine` property for customization\n",
     "ContentSha": "g1j/YreJnT+5tS3JjAWqhhCjmPqlHh0xdOcJmpaJYDM=",
     "SectionType": "",
@@ -1452,7 +2033,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 122,
+    "Id": 125,
     "Content": "```csharp\nvar config = new MiniExcelLibs.Csv.CsvConfiguration()\n{\n    NewLine='\\n'\n};\nMiniExcel.SaveAs(path, values,configuration: config);\n```",
     "ContentSha": "+/Y84ylV3pr86jKbzaS7wLxQmun+RCft86Qjg1luRms=",
     "SectionType": "",
@@ -1464,7 +2045,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 123,
+    "Id": 126,
     "Content": "\n\n\n#### Custom coding\n\n- The default encoding is \"Detect Encoding From Byte Order Marks\"  (detectEncodingFromByteOrderMarks: true)\n- f you have custom encoding requirements, please modify the StreamReaderFunc / StreamWriterFunc  property\n",
     "ContentSha": "Hg6OIyPQzZ/iecVw7N8rdjfylP+fl388ljVUCfQtDxE=",
     "SectionType": "",
@@ -1476,7 +2057,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 124,
+    "Id": 127,
     "Content": "```csharp\n// Read\nvar config = new MiniExcelLibs.Csv.CsvConfiguration()\n{\n    StreamReaderFunc = (stream) => new StreamReader(stream,Encoding.GetEncoding(\"gb2312\"))\n};\nvar rows = MiniExcel.Query(path, true,excelType:ExcelType.CSV,configuration: config);\n\n// Write\nvar config = new MiniExcelLibs.Csv.CsvConfiguration()\n{\n    StreamWriterFunc = (stream) => new StreamWriter(stream, Encoding.GetEncoding(\"gb2312\"))\n};\nMiniExcel.SaveAs(path, value,excelType:ExcelType.CSV, configuration: config);\n```",
     "ContentSha": "a/xiC7/W+Mgl8E/GdOwVrSaospPXCpcexgtEaKH2gfE=",
     "SectionType": "",
@@ -1488,7 +2069,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 125,
+    "Id": 128,
     "Content": "\n#### Read empty string as null\n\nBy default, empty values are mapped to string.Empty. You can modify this behavior\n",
     "ContentSha": "QRFcPkSotP24Of7ydird2F1cPXvwei/ngr47Y+/hSew=",
     "SectionType": "",
@@ -1500,7 +2081,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 126,
+    "Id": 129,
     "Content": "```csharp\nvar config = new MiniExcelLibs.Csv.CsvConfiguration()\n{\n   ReadEmptyStringAsNull = true\n};\n```",
     "ContentSha": "7U48R/BDcuw7rKJnPsx9mWM/D0U35N/Y75DqmP1z57M=",
     "SectionType": "",
@@ -1512,7 +2093,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 127,
+    "Id": 130,
     "Content": "\n\n### DataReader\n\n#### 1. GetReader\nSince 1.23.0, you can GetDataReader\n",
     "ContentSha": "gsuxTCG/V0xZQIQlpdsjv0ZvdbRhRqUa5N3BaZsCqMk=",
     "SectionType": "",
@@ -1524,7 +2105,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 128,
+    "Id": 131,
     "Content": "```csharp\n    using (var reader = MiniExcel.GetReader(path,true))\n    {\n        while (reader.Read())\n        {\n            for (int i = 0; i < reader.FieldCount; i++)\n            {\n                var value = reader.GetValue(i);\n            }\n        }\n    }\n```",
     "ContentSha": "TwpFHcMkEUOjNhWZKltlRgFTF8qqePEozR3bGDjktag=",
     "SectionType": "",
@@ -1536,7 +2117,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 129,
+    "Id": 132,
     "Content": "\n\n\n###  Async\n\n- v0.17.0 support Async (thanks isdaniel ( SHIH,BING-SIOU)](https://github.com/isdaniel))\n",
     "ContentSha": "PPo7xcbroD3W8lf1BZoB9MgfURhF9JKy4ksfe5e9joo=",
     "SectionType": "",
@@ -1548,7 +2129,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 130,
+    "Id": 133,
     "Content": "```csharp\npublic static Task SaveAsAsync(string path, object value, bool printHeader = true, string sheetName = \"Sheet1\", ExcelType excelType = ExcelType.UNKNOWN, IConfiguration configuration = null)\npublic static Task SaveAsAsync(this Stream stream, object value, bool printHeader = true, string sheetName = \"Sheet1\", ExcelType excelType = ExcelType.XLSX, IConfiguration configuration = null)\npublic static Task<IEnumerable<dynamic>> QueryAsync(string path, bool useHeaderRow = false, string sheetName = null, ExcelType excelType = ExcelType.UNKNOWN, string startCell = \"A1\", IConfiguration configuration = null)\npublic static Task<IEnumerable<T>> QueryAsync<T>(this Stream stream, string sheetName = null, ExcelType excelType = ExcelType.UNKNOWN, string startCell = \"A1\", IConfiguration configuration = null) where T : class, new()\npublic static Task<IEnumerable<T>> QueryAsync<T>(string path, string sheetName = null, ExcelType excelType = ExcelType.UNKNOWN, string startCell = \"A1\", IConfiguration configuration = null) where T : class, new()\npublic static Task<IEnumerable<IDictionary<string, object>>> QueryAsync(this Stream stream, bool useHeaderRow = false, string sheetName = null, ExcelType excelType = ExcelType.UNKNOWN, string startCell = \"A1\", IConfiguration configuration = null)\npublic static Task SaveAsByTemplateAsync(this Stream stream, string templatePath, object value)\npublic static Task SaveAsByTemplateAsync(this Stream stream, byte[] templateBytes, object value)\npublic static Task SaveAsByTemplateAsync(string path, string templatePath, object value)\npublic static Task SaveAsByTemplateAsync(string path, byte[] templateBytes, object value)\npublic static Task<DataTable> QueryAsDataTableAsync(string path, bool useHeaderRow = true, string sheetName = null, ExcelType excelType = ExcelType.UNKNOWN, string startCell = \"A1\", IConfiguration configuration = null)\n```",
     "ContentSha": "6hjKfRLe64Z2ER4UwkfeYvOIPW3RFJOeTUOM88x00Xc=",
     "SectionType": "",
@@ -1560,7 +2141,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 131,
+    "Id": 134,
     "Content": "\n-  v1.25.0 support `cancellationToken`。\n\n\n\n### Others\n\n#### 1. Enum\n\nBe sure excel & property name same, system will auto mapping (case insensitive)\n\n![image](https://user-images.githubusercontent.com/12729184/116210595-9784b100-a775-11eb-936f-8e7a8b435961.png)\n\nSince V0.18.0 support Enum Description\n",
     "ContentSha": "UqznKmIjKB2rS8268A33WVyfn9JAFBze2TkK1+MoTkc=",
     "SectionType": "",
@@ -1572,7 +2153,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 132,
+    "Id": 135,
     "Content": "```csharp\npublic class Dto\n{\n    public string Name { get; set; }\n    public I49RYZUserType UserType { get; set; }\n}\n\npublic enum Type\n{\n    [Description(\"General User\")]\n    V1,\n    [Description(\"General Administrator\")]\n    V2,\n    [Description(\"Super Administrator\")]\n    V3\n}\n```",
     "ContentSha": "MWfrEGM2ishrNFZST0Jxpj09gTlJhjgs4aIxX0Icf10=",
     "SectionType": "",
@@ -1584,7 +2165,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 133,
+    "Id": 136,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/133116630-27cc7161-099a-48b8-9784-cd1e443af3d1.png)\n\nSince 1.30.0 version support excel Description to Enum , thanks @KaneLeung\n\n#### 2. Convert CSV to XLSX or Convert XLSX to CSV\n",
     "ContentSha": "M4wLy8CiEFQZWP7oWHjfr93FPg2z5JOn1hjbrW9swI8=",
     "SectionType": "",
@@ -1596,7 +2177,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 134,
+    "Id": 137,
     "Content": "```csharp\nMiniExcel.ConvertXlsxToCsv(xlsxPath, csvPath);\nMiniExcel.ConvertXlsxToCsv(xlsxStream, csvStream);\nMiniExcel.ConvertCsvToXlsx(csvPath, xlsxPath);\nMiniExcel.ConvertCsvToXlsx(csvStream, xlsxStream);\n```",
     "ContentSha": "foaHCFUSykvx+N8uAAngiR3D4L1ukBm6QAwaA94FHMQ=",
     "SectionType": "",
@@ -1608,7 +2189,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 135,
+    "Id": 138,
     "Content": "```csharp\nusing (var excelStream = new FileStream(path: filePath, FileMode.Open, FileAccess.Read))\nusing (var csvStream = new MemoryStream())\n{\n   MiniExcel.ConvertXlsxToCsv(excelStream, csvStream);\n}\n```",
     "ContentSha": "sZ6yWSABFfKJPsqkxQdy3+DvMMrGoir2aOGq7gXORa4=",
     "SectionType": "",
@@ -1620,7 +2201,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 136,
+    "Id": 139,
     "Content": "\n#### 3. Custom CultureInfo\n\nSince 1.22.0, you can custom CultureInfo like below, system default `CultureInfo.InvariantCulture`.\n",
     "ContentSha": "g9KHjayEmoCmU4hQoSaCw3HMSCKbzxgtva73j6Zjq6w=",
     "SectionType": "",
@@ -1632,7 +2213,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 137,
+    "Id": 140,
     "Content": "```csharp\nvar config = new CsvConfiguration()\n{\n    Culture = new CultureInfo(\"fr-FR\"),\n};\nMiniExcel.SaveAs(path, value, configuration: config);\n\n// or\nMiniExcel.Query(path, configuration: config);\n```",
     "ContentSha": "wzPN6FNGsi3byqF/W/tLlh2ypmaPmAGKeEGgqoaYwe0=",
     "SectionType": "",
@@ -1644,7 +2225,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 138,
+    "Id": 141,
     "Content": "\n\n#### 4. Custom Buffer Size",
     "ContentSha": "uOHCvbjoDRBQq5gKAwvxc8zUENtZeV2mxGQm3V91Puw=",
     "SectionType": "",
@@ -1656,7 +2237,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 139,
+    "Id": 142,
     "Content": "```csharp\n    public abstract class Configuration : IConfiguration\n    {\n        public int BufferSize { get; set; } = 1024 * 512;\n    }\n```",
     "ContentSha": "SK1KbGmVJHJnCoT8cAhtY21BSYw3D0Ix8n5KV70Wy9I=",
     "SectionType": "",
@@ -1668,7 +2249,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 140,
+    "Id": 143,
     "Content": "\n#### 5. FastMode\n\nSystem will not control memory, but you can get faster save speed.\n",
     "ContentSha": "NL9A3pN890W9hcAxzsbHy+Bd1mUIcDse8LbNQOUMTDs=",
     "SectionType": "",
@@ -1680,7 +2261,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 141,
+    "Id": 144,
     "Content": "```csharp\nvar config = new OpenXmlConfiguration() { FastMode = true };\nMiniExcel.SaveAs(path, reader,configuration:config);\n```",
     "ContentSha": "R+VyUxZOwpfyXU0cPGr4kMpdjen7XGwB8u6SUPhS44A=",
     "SectionType": "",
@@ -1692,7 +2273,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 142,
+    "Id": 145,
     "Content": "\n#### 6. Batch Add Image (MiniExcel.AddPicture)\n\nPlease add pictures before batch generate rows data, or system will load large memory usage when calling AddPicture.\n",
     "ContentSha": "dD1YAk9BvNc3i3jz0u/kR+zqHQ2xo8zKsaPx/aDh3LQ=",
     "SectionType": "",
@@ -1704,7 +2285,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 143,
+    "Id": 146,
     "Content": "```csharp\nvar images = new[]\n{\n    new MiniExcelPicture\n    {\n        ImageBytes = File.ReadAllBytes(PathHelper.GetFile(\"images/github_logo.png\")),\n        SheetName = null, // default null is first sheet\n        CellAddress = \"C3\", // required\n    },\n    new MiniExcelPicture\n    {\n        ImageBytes = File.ReadAllBytes(PathHelper.GetFile(\"images/google_logo.png\")),\n        PictureType = \"image/png\", // default PictureType = image/png\n        SheetName = \"Demo\",\n        CellAddress = \"C9\", // required\n        WidthPx = 100,\n        HeightPx = 100,\n    },\n};\nMiniExcel.AddPicture(path, images);\n```",
     "ContentSha": "NEM5cnuhEQJzInMZ9gfXiLf71hKXT7hafQ1HI2ZPBus=",
     "SectionType": "",
@@ -1716,7 +2297,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 144,
+    "Id": 147,
     "Content": "![Image](https://github.com/user-attachments/assets/19c4d241-9753-4ede-96c8-f810c1a22247)\n\n#### 7. Get Sheets Dimension\n",
     "ContentSha": "XUio8teriwppRwLPkcdZpWOlnjmwdsXQ2lQJ7AyLyWI=",
     "SectionType": "",
@@ -1728,7 +2309,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 145,
+    "Id": 148,
     "Content": "```csharp\nvar dim = MiniExcel.GetSheetDimensions(path);\n```",
     "ContentSha": "gv+sgxE6CiefDl4FacFl1R3qMm4FrRq+sSyTGjVnhmM=",
     "SectionType": "",
@@ -1740,7 +2321,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 146,
+    "Id": 149,
     "Content": "\n### Examples:\n\n#### 1. SQLite & Dapper `Large Size File` SQL Insert Avoid OOM\n\nnote : please don't call ToList/ToArray methods after Query, it'll load all data into memory\n",
     "ContentSha": "KaUG19+pXGuIIPd6pJLGl3rtHBURtP59a1XE2Qm7Ac4=",
     "SectionType": "",
@@ -1752,7 +2333,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 147,
+    "Id": 150,
     "Content": "```csharp\nusing (var connection = new SQLiteConnection(connectionString))\n{\n    connection.Open();\n    using (var transaction = connection.BeginTransaction())\n    using (var stream = File.OpenRead(path))\n    {\n       var rows = stream.Query();\n       foreach (var row in rows)\n             connection.Execute(\"insert into T (A,B) values (@A,@B)\", new { row.A, row.B }, transaction: transaction);\n       transaction.Commit();\n    }\n}\n```",
     "ContentSha": "Tz4qX43YGeWXdtMgJjk/wwhDeBxw0mUsawgx9c5PGsM=",
     "SectionType": "",
@@ -1764,7 +2345,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 148,
+    "Id": 151,
     "Content": "\nperformance:\n![image](https://user-images.githubusercontent.com/12729184/111072579-2dda7b80-8516-11eb-9843-c01a1edc88ec.png)\n\n\n\n\n\n#### 2. ASP.NET Core 3.1 or MVC 5 Download/Upload Excel Xlsx API Demo [Try it](https://raw.githubusercontent.com/mini-software/MiniExcel/master/tests/MiniExcel.Tests.AspNetCore)\n",
     "ContentSha": "TVfEx7ijHKCE74ICc3wAEv3dKsrUlB7PAN1JFNl49a8=",
     "SectionType": "",
@@ -1776,7 +2357,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 149,
+    "Id": 152,
     "Content": "```csharp\npublic class ApiController : Controller\n{\n    public IActionResult Index()\n    {\n        return new ContentResult\n        {\n            ContentType = \"text/html\",\n            StatusCode = (int)HttpStatusCode.OK,\n            Content = @\"<html><body>\n<a href='api/DownloadExcel'>DownloadExcel</a><br>\n<a href='api/DownloadExcelFromTemplatePath'>DownloadExcelFromTemplatePath</a><br>\n<a href='api/DownloadExcelFromTemplateBytes'>DownloadExcelFromTemplateBytes</a><br>\n<p>Upload Excel</p>\n<form method='post' enctype='multipart/form-data' action='/api/uploadexcel'>\n    <input type='file' name='excel'> <br>\n    <input type='submit' >\n</form>\n</body></html{{\"\n        };\n    }\n\n    public IActionResult DownloadExcel()\n    {\n        var values = new[] {\n            new { Column1 = \"MiniExcel\", Column2 = 1 },\n            new { Column1 = \"Github\", Column2 = 2}\n        };\n        var memoryStream = new MemoryStream();\n        memoryStream.SaveAs(values);\n        memoryStream.Seek(0, SeekOrigin.Begin);\n        return new FileStreamResult(memoryStream, \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\")\n        {\n            FileDownloadName = \"demo.xlsx\"\n        };\n    }\n\n    public IActionResult DownloadExcelFromTemplatePath()\n    {\n        string templatePath = \"TestTemplateComplex.xlsx\";\n\n        Dictionary<string, object> value = new Dictionary<string, object>()\n        {\n            [\"title\"] = \"FooCompany\",\n            [\"managers\"] = new[] {\n                new {name=\"Jack\",department=\"HR\"},\n                new {name=\"Loan\",department=\"IT\"}\n            },\n            [\"employees\"] = new[] {\n                new {name=\"Wade\",department=\"HR\"},\n                new {name=\"Felix\",department=\"HR\"},\n                new {name=\"Eric\",department=\"IT\"},\n                new {name=\"Keaton\",department=\"IT\"}\n            }\n        };\n\n        MemoryStream memoryStream = new MemoryStream();\n        memoryStream.SaveAsByTemplate(templatePath, value);\n        memoryStream.Seek(0, SeekOrigin.Begin);\n        return new FileStreamResult(memoryStream, \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\")\n        {\n            FileDownloadName = \"demo.xlsx\"\n        };\n    }\n\n    private static Dictionary<string, Byte[]> TemplateBytesCache = new Dictionary<string, byte[]>();\n\n    static ApiController()\n    {\n        string templatePath = \"TestTemplateComplex.xlsx\";\n        byte[] bytes = System.IO.File.ReadAllBytes(templatePath);\n        TemplateBytesCache.Add(templatePath, bytes);\n    }\n\n    public IActionResult DownloadExcelFromTemplateBytes()\n    {\n        byte[] bytes = TemplateBytesCache[\"TestTemplateComplex.xlsx\"];\n\n        Dictionary<string, object> value = new Dictionary<string, object>()\n        {\n            [\"title\"] = \"FooCompany\",\n            [\"managers\"] = new[] {\n                new {name=\"Jack\",department=\"HR\"},\n                new {name=\"Loan\",department=\"IT\"}\n            },\n            [\"employees\"] = new[] {\n                new {name=\"Wade\",department=\"HR\"},\n                new {name=\"Felix\",department=\"HR\"},\n                new {name=\"Eric\",department=\"IT\"},\n                new {name=\"Keaton\",department=\"IT\"}\n            }\n        };\n\n        MemoryStream memoryStream = new MemoryStream();\n        memoryStream.SaveAsByTemplate(bytes, value);\n        memoryStream.Seek(0, SeekOrigin.Begin);\n        return new FileStreamResult(memoryStream, \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\")\n        {\n            FileDownloadName = \"demo.xlsx\"\n        };\n    }\n\n    public IActionResult UploadExcel(IFormFile excel)\n    {\n        var stream = new MemoryStream();\n        excel.CopyTo(stream);\n\n        foreach (var item in stream.Query(true))\n        {\n            // do your logic etc.\n        }\n\n        return Ok(\"File uploaded successfully\");\n    }\n}\n```",
     "ContentSha": "tcYTxxSWToy2aEgmtzE6XRFIewJ5VSIg/lg4/4xJXdg=",
     "SectionType": "",
@@ -1788,7 +2369,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 150,
+    "Id": 153,
     "Content": "\n####  3. Paging Query\n",
     "ContentSha": "K3Nzu57bx/BiR6ek9V6m65QRGHBTzBOCuRbZxCt4CXU=",
     "SectionType": "",
@@ -1800,7 +2381,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 151,
+    "Id": 154,
     "Content": "```csharp\nvoid Main()\n{\n    var rows = MiniExcel.Query(path);\n\n    Console.WriteLine(\"==== No.1 Page ====\");\n    Console.WriteLine(Page(rows,pageSize:3,page:1));\n    Console.WriteLine(\"==== No.50 Page ====\");\n    Console.WriteLine(Page(rows,pageSize:3,page:50));\n    Console.WriteLine(\"==== No.5000 Page ====\");\n    Console.WriteLine(Page(rows,pageSize:3,page:5000));\n}\n\npublic static IEnumerable<T> Page<T>(IEnumerable<T> en, int pageSize, int page)\n{\n    return en.Skip(page * pageSize).Take(pageSize);\n}\n```",
     "ContentSha": "DA/be4TrD8nAX+dlfL4KC+Vd8AAA1CprkY0r8LvAeG4=",
     "SectionType": "",
@@ -1812,7 +2393,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 152,
+    "Id": 155,
     "Content": "\n![20210419](https://user-images.githubusercontent.com/12729184/114679083-6ef4c400-9d3e-11eb-9f78-a86daa45fe46.gif)\n\n\n\n#### 4. WebForm export Excel by memorystream\n",
     "ContentSha": "VjuuD1+jJ0mxRN+X+FpHIa7+xAnlJK4TseQzQt3FRRk=",
     "SectionType": "",
@@ -1824,7 +2405,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 153,
+    "Id": 156,
     "Content": "```csharp\nvar fileName = \"Demo.xlsx\";\nvar sheetName = \"Sheet1\";\nHttpResponse response = HttpContext.Current.Response;\nresponse.Clear();\nresponse.ContentType = \"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\";\nresponse.AddHeader(\"Content-Disposition\", $\"attachment;filename=\\\"{fileName}\\\"\");\nvar values = new[] {\n    new { Column1 = \"MiniExcel\", Column2 = 1 },\n    new { Column1 = \"Github\", Column2 = 2}\n};\nvar memoryStream = new MemoryStream();\nmemoryStream.SaveAs(values, sheetName: sheetName);\nmemoryStream.Seek(0, SeekOrigin.Begin);\nmemoryStream.CopyTo(Response.OutputStream);\nresponse.End();\n```",
     "ContentSha": "VUXj5jWbUYiJBB3tU6vqVJDcpqyL1yvYFOcZX5H+ebw=",
     "SectionType": "",
@@ -1836,7 +2417,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 154,
+    "Id": 157,
     "Content": "\n\n\n#### 5. Dynamic i18n multi-language and role authority management\n\nLike the example, create a method to handle i18n and permission management, and use `yield return to return IEnumerable<Dictionary<string, object>>` to achieve dynamic and low-memory processing effects\n",
     "ContentSha": "5wFDAbGjv8nxMqrUfVUhQqnuoEYgZXej2SINOCAUPeQ=",
     "SectionType": "",
@@ -1848,7 +2429,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 155,
+    "Id": 158,
     "Content": "```csharp\nvoid Main()\n{\n    var value = new Order[] {\n        new Order(){OrderNo = \"SO01\",CustomerID=\"C001\",ProductID=\"P001\",Qty=100,Amt=500},\n        new Order(){OrderNo = \"SO02\",CustomerID=\"C002\",ProductID=\"P002\",Qty=300,Amt=400},\n    };\n\n    Console.WriteLine(\"en-Us and Sales role\");\n    {\n        var path = Path.GetTempPath() + Guid.NewGuid() + \".xlsx\";\n        var lang = \"en-US\";\n        var role = \"Sales\";\n        MiniExcel.SaveAs(path, GetOrders(lang, role, value));\n        MiniExcel.Query(path, true).Dump();\n    }\n\n    Console.WriteLine(\"zh-CN and PMC role\");\n    {\n        var path = Path.GetTempPath() + Guid.NewGuid() + \".xlsx\";\n        var lang = \"zh-CN\";\n        var role = \"PMC\";\n        MiniExcel.SaveAs(path, GetOrders(lang, role, value));\n        MiniExcel.Query(path, true).Dump();\n    }\n}\n\nprivate IEnumerable<Dictionary<string, object>> GetOrders(string lang, string role, Order[] orders)\n{\n    foreach (var order in orders)\n    {\n        var newOrder = new Dictionary<string, object>();\n\n        if (lang == \"zh-CN\")\n        {\n            newOrder.Add(\"客户编号\", order.CustomerID);\n            newOrder.Add(\"订单编号\", order.OrderNo);\n            newOrder.Add(\"产品编号\", order.ProductID);\n            newOrder.Add(\"数量\", order.Qty);\n            if (role == \"Sales\")\n                newOrder.Add(\"价格\", order.Amt);\n            yield return newOrder;\n        }\n        else if (lang == \"en-US\")\n        {\n            newOrder.Add(\"Customer ID\", order.CustomerID);\n            newOrder.Add(\"Order No\", order.OrderNo);\n            newOrder.Add(\"Product ID\", order.ProductID);\n            newOrder.Add(\"Quantity\", order.Qty);\n            if (role == \"Sales\")\n                newOrder.Add(\"Amount\", order.Amt);\n            yield return newOrder;\n        }\n        else\n        {\n            throw new InvalidDataException($\"lang {lang} wrong\");\n        }\n    }\n}\n\npublic class Order\n{\n    public string OrderNo { get; set; }\n    public string CustomerID { get; set; }\n    public decimal Qty { get; set; }\n    public string ProductID { get; set; }\n    public decimal Amt { get; set; }\n}\n```",
     "ContentSha": "IjHJAf6qNGTnLyrdybwDtXW8anXg2ud2EPUFZBKLrT4=",
     "SectionType": "",
@@ -1860,7 +2441,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 156,
+    "Id": 159,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/118939964-d24bc480-b982-11eb-88dd-f06655f6121a.png)\n\n\n\n### FAQ\n\n#### Q: Excel header title not equal class property name, how to mapping?\n\nA. Please use ExcelColumnName attribute\n\n![image](https://user-images.githubusercontent.com/12729184/116020475-eac50980-a678-11eb-8804-129e87200e5e.png)\n\n#### Q. How to query or export multiple-sheets?\n\nA. `GetSheetNames` method with  Query  sheetName parameter.\n\n\n",
     "ContentSha": "iB0BAVOV613eax15YkbPEqDw/XmGWO1V/ZXvCkwI0AI=",
     "SectionType": "",
@@ -1872,7 +2453,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 157,
+    "Id": 160,
     "Content": "```csharp\nvar sheets = MiniExcel.GetSheetNames(path);\nforeach (var sheet in sheets)\n{\n    Console.WriteLine($\"sheet name : {sheet} \");\n    var rows = MiniExcel.Query(path,useHeaderRow:true,sheetName:sheet);\n    Console.WriteLine(rows);\n}\n```",
     "ContentSha": "z1RNE9ik5YA2FcEmupWfazwTkBSHUFsr4GzH3l6hqvk=",
     "SectionType": "",
@@ -1884,7 +2465,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 158,
+    "Id": 161,
     "Content": "\n![image](https://user-images.githubusercontent.com/12729184/116199841-2a1f5300-a76a-11eb-90a3-6710561cf6db.png)\n\n#### Q. How to query or export information about sheet visibility?\n\nA. `GetSheetInformations` method.\n\n\n",
     "ContentSha": "jHsOSk8WQ93l7WcPbWGotp1hymd9DPFAJ7PZQc6/zDA=",
     "SectionType": "",
@@ -1896,7 +2477,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 159,
+    "Id": 162,
     "Content": "```csharp\nvar sheets = MiniExcel.GetSheetInformations(path);\nforeach (var sheetInfo in sheets)\n{\n    Console.WriteLine($\"sheet index : {sheetInfo.Index} \"); // next sheet index - numbered from 0\n    Console.WriteLine($\"sheet name : {sheetInfo.Name} \");   // sheet name\n    Console.WriteLine($\"sheet state : {sheetInfo.State} \"); // sheet visibility state - visible / hidden\n}\n```",
     "ContentSha": "AiAAPco7HL+DRZQHkUaAz86X9plvjCMeRrvCrSn1yxI=",
     "SectionType": "",
@@ -1908,7 +2489,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 160,
+    "Id": 163,
     "Content": "\n\n#### Q. Whether to use Count will load all data into the memory?\n\nNo, the image test has 1 million rows*10 columns of data, the maximum memory usage is <60MB, and it takes 13.65 seconds\n\n![image](https://user-images.githubusercontent.com/12729184/117118518-70586000-adc3-11eb-9ce3-2ba76cf8b5e5.png)\n\n#### Q. How does Query use integer indexs?\n\nThe default index of Query is the string Key: A,B,C.... If you want to change to numeric index, please create the following method to convert\n",
     "ContentSha": "SWPgFvpVXTZzLWe18WiK/1FWKn0zrSPWWBFNCTJcrMQ=",
     "SectionType": "",
@@ -1920,7 +2501,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 161,
+    "Id": 164,
     "Content": "```csharp\nvoid Main()\n{\n    var path = @\"D:\\git\\MiniExcel\\samples\\xlsx\\TestTypeMapping.xlsx\";\n    var rows = MiniExcel.Query(path,true);\n    foreach (var r in ConvertToIntIndexRows(rows))\n    {\n        Console.Write($\"column 0 : {r[0]} ,column 1 : {r[1]}\");\n        Console.WriteLine();\n    }\n}\n\nprivate IEnumerable<Dictionary<int, object>> ConvertToIntIndexRows(IEnumerable<object> rows)\n{\n    ICollection<string> keys = null;\n    var isFirst = true;\n    foreach (IDictionary<string,object> r in rows)\n    {\n        if(isFirst)\n        {\n            keys = r.Keys;\n            isFirst = false;\n        }\n\n        var dic = new Dictionary<int, object>();\n        var index = 0;\n        foreach (var key in keys)\n            dic[index++] = r[key];\n        yield return dic;\n    }\n}\n```",
     "ContentSha": "aRRJiFdEEHoWtEQaxufBWOQTz+rrHyJ/YHJSNORwdcc=",
     "SectionType": "",
@@ -1932,7 +2513,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 162,
+    "Id": 165,
     "Content": "\n#### Q. No title empty excel is generated when the value is empty when exporting Excel\n\nBecause MiniExcel uses a logic similar to JSON.NET to dynamically get type from values to simplify API operations, type cannot be knew without data. You can check [issue #133](https://github.com/mini-software/MiniExcel/issues/133) for understanding.\n\n![image](https://user-images.githubusercontent.com/12729184/122639771-546c0c00-d12e-11eb-800c-498db27889ca.png)\n\n> Strong type & DataTable will generate headers, but Dictionary are still empty Excel\n\n#### Q. How to stop the foreach when blank row?\n\nMiniExcel can be used with `LINQ TakeWhile` to stop foreach iterator.\n\n![Image](https://user-images.githubusercontent.com/12729184/130209137-162621c2-f337-4479-9996-beeac65bc4d4.png)\n\n#### Q. How to remove empty rows?\n\n![image](https://user-images.githubusercontent.com/12729184/137873865-7107d8f5-eb59-42db-903a-44e80589f1b2.png)\n\n\nIEnumerable :\n",
     "ContentSha": "cyxsnsuSXdZCYbkOF4HsAy0mURhCfYLvxEDoZ00eyw4=",
     "SectionType": "",
@@ -1944,7 +2525,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 163,
+    "Id": 166,
     "Content": "```csharp\npublic static IEnumerable<dynamic> QueryWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)\n{\n    var rows = stream.Query(useHeaderRow,sheetName,excelType,startCell,configuration);\n    foreach (IDictionary<string,object> row in rows)\n    {\n        if(row.Keys.Any(key=>row[key]!=null))\n            yield return row;\n    }\n}\n```",
     "ContentSha": "kADW1g7qYyVwDAC3JrRXJPFjGC6slV6XVWM2/j/sH9g=",
     "SectionType": "",
@@ -1956,7 +2537,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 164,
+    "Id": 167,
     "Content": "\n\n\nDataTable :\n",
     "ContentSha": "hpIY40kVEknO6fURaKNhBg6hHAujmb2A3P/kzzjUcQ4=",
     "SectionType": "",
@@ -1968,7 +2549,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 165,
+    "Id": 168,
     "Content": "```csharp\npublic static DataTable QueryAsDataTableWithoutEmptyRow(Stream stream, bool useHeaderRow, string sheetName, ExcelType excelType, string startCell, IConfiguration configuration)\n{\n    if (sheetName == null && excelType != ExcelType.CSV) /*Issue #279*/\n        sheetName = stream.GetSheetNames().First();\n\n    var dt = new DataTable(sheetName);\n    var first = true;\n    var rows = stream.Query(useHeaderRow,sheetName,excelType,startCell,configuration);\n    foreach (IDictionary<string, object> row in rows)\n    {\n        if (first)\n        {\n\n            foreach (var key in row.Keys)\n            {\n                var column = new DataColumn(key, typeof(object)) { Caption = key };\n                dt.Columns.Add(column);\n            }\n\n            dt.BeginLoadData();\n            first = false;\n        }\n\n        var newRow = dt.NewRow();\n        var isNull=true;\n        foreach (var key in row.Keys)\n        {\n            var _v = row[key];\n            if(_v!=null)\n                isNull = false;\n            newRow[key] = _v;\n        }\n\n        if(!isNull)\n            dt.Rows.Add(newRow);\n    }\n\n    dt.EndLoadData();\n    return dt;\n}\n```",
     "ContentSha": "sxZaT0t0QVfuvZ7RpXxYQeXgPwQ9zf2N47BevAgRXK0=",
     "SectionType": "",
@@ -1980,7 +2561,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 166,
+    "Id": 169,
     "Content": "\n\n\n#### Q. How SaveAs(path,value) to replace exists file and without throwing \"The file ...xlsx already exists error\"\n\n\nPlease use Stream class to custom file creating logic, e.g:\n",
     "ContentSha": "2AZ3n6ciH6Zrplh0BlanqKMPmwiSyqxjHIAyuIvDB8A=",
     "SectionType": "",
@@ -1992,7 +2573,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 167,
+    "Id": 170,
     "Content": "```C#\n    using (var stream = File.Create(\"Demo.xlsx\"))\n        MiniExcel.SaveAs(stream,value);\n```",
     "ContentSha": "9G76Epj3yOR2BwtjbxGU4suSUzFRwzsxh+fZjz94H9A=",
     "SectionType": "",
@@ -2004,7 +2585,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 168,
+    "Id": 171,
     "Content": "\n\n\nor, since V1.25.0, SaveAs support overwriteFile parameter for enable/unable overwriting exist file\n",
     "ContentSha": "yzO8mFFoKaOBU0UVaLCwfD7D68poDESAXu/vFtKKeOU=",
     "SectionType": "",
@@ -2016,7 +2597,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 169,
+    "Id": 172,
     "Content": "```csharp\n    MiniExcel.SaveAs(path, value, overwriteFile: true);\n```",
     "ContentSha": "LRnQY9wzojM50N96Mwq8buQh3y/hVci8FlVPM9rEY9I=",
     "SectionType": "",
@@ -2028,7 +2609,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 170,
+    "Id": 173,
     "Content": "\n\n\n\n### Limitations and caveats\n\n- Not support xls and encrypted file now\n- xlsm only support Query\n\n\n\n### Reference\n\n[ExcelDataReader](https://github.com/ExcelDataReader/ExcelDataReader)  / [ClosedXML](https://github.com/ClosedXML/ClosedXML) / [Dapper](https://github.com/DapperLib/Dapper) / [ExcelNumberFormat](https://github.com/andersnm/ExcelNumberFormat)\n\n\n\n### Thanks\n\n####  [Jetbrains](https://www.jetbrains.com/)\n\n![jetbrains-variant-2](https://user-images.githubusercontent.com/12729184/123997015-8456c180-da02-11eb-829a-aec476fe8e94.png)\n\nThanks for providing a free All product IDE for this project ([License](https://user-images.githubusercontent.com/12729184/123988233-6ab17c00-d9fa-11eb-8739-2a08c6a4a263.png))\n\n\n\n### Contribution sharing donate\nLink https://github.com/orgs/mini-software/discussions/754\n\n### Contributors\n\n![](https://contrib.rocks/image?repo=mini-software/MiniExcel)\n",
     "ContentSha": "R1dg7/S9s5d7m+0T6hpFWdky9lxABxCi5vaXhewbPK4=",
     "SectionType": "",

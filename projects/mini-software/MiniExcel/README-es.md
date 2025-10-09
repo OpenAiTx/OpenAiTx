@@ -1,9 +1,9 @@
-﻿<div align="center">
+<div align="center">
 <p><a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/v/MiniExcel.svg" alt="NuGet"></a>  <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/nuget/dt/MiniExcel.svg" alt=""></a>
 <a href="https://ci.appveyor.com/project/mini-software/miniexcel/branch/master"><img src="https://ci.appveyor.com/api/projects/status/b2vustrwsuqx45f4/branch/master?svg=true" alt="Estado de compilación"></a>
-<a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="star"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="Estrellas de GitHub"></a>
+<a href="https://gitee.com/dotnetchina/MiniExcel"><img src="https://gitee.com/dotnetchina/MiniExcel/badge/star.svg" alt="estrella"></a> <a href="https://github.com/mini-software/MiniExcel" rel="nofollow"><img src="https://img.shields.io/github/stars/mini-software/MiniExcel?logo=github" alt="Estrellas de GitHub"></a>
 <a href="https://www.nuget.org/packages/MiniExcel"><img src="https://img.shields.io/badge/.NET-%3E%3D%204.5-red.svg" alt="versión"></a>
-<a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Preguntar a DeepWiki"></a>
+<a href="https://deepwiki.com/mini-software/MiniExcel"><img src="https://deepwiki.com/badge.svg" alt="Preguntar en DeepWiki"></a>
 </p>
 </div>
 
@@ -12,13 +12,13 @@
 [<img align="right" src="https://github.com/dotnet-foundation/swag/blob/main/logo/dotnetfoundation_v4.png?raw=true" width="100" />](https://www.dotnetfoundation.org/)
 
 <div align="center">
-<p>Este proyecto forma parte de la <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> y opera bajo su <a href="https://www.dotnetfoundation.org/code-of-conduct">código de conducta</a>. </p>
+<p>Este proyecto es parte de la <a href="https://www.dotnetfoundation.org/">.NET Foundation</a> y opera bajo su <a href="https://www.dotnetfoundation.org/code-of-conduct">código de conducta</a>. </p>
 </div>
 
 ---
 
 <div align="center">
-<p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.zh-Hant.md">繁體中文</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja">日本語</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko">한국어</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi">हिन्दी</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th">ไทย</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr">Français</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de">Deutsch</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es">Español</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it">Italiano</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru">Русский</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt">Português</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl">Nederlands</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl">Polski</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar">العربية</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa">فارسی</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr">Türkçe</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi">Tiếng Việt</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id">Bahasa Indonesia</a><p></p>
+<p><strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=zh-TW">繁體中文</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ja">日本語</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ko">한국어</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=hi">हिन्दी</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=th">ไทย</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fr">Français</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=de">Deutsch</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=es">Español</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=it">Italiano</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ru">Русский</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pt">Português</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=nl">Nederlands</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=pl">Polski</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=ar">العربية</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=fa">فارسی</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=tr">Türkçe</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=vi">Tiếng Việt</a> | <a href="https://openaitx.github.io/view.html?user=mini-software&amp;project=MiniExcel&amp;lang=id">Bahasa Indonesia</a><p></p>
 </strong></p>
 </div>
 
@@ -26,7 +26,7 @@
 ---
 
 <div align="center">
- Tus <a href="https://github.com/mini-software/MiniExcel">estrellas</a> o <a href="https://miniexcel.github.io">donaciones</a> pueden hacer que MiniExcel sea mejor
+ Tus <a href="https://github.com/mini-software/MiniExcel">Estrellas</a> o <a href="https://miniexcel.github.io">Donaciones</a> pueden hacer que MiniExcel sea mejor
 </div>
 
 ---
@@ -35,7 +35,7 @@
 
 MiniExcel es una herramienta sencilla y eficiente para procesar archivos Excel en .NET, diseñada específicamente para minimizar el uso de memoria.
 
-Actualmente, la mayoría de los frameworks populares necesitan cargar todos los datos de un documento Excel en memoria para facilitar las operaciones, pero esto puede provocar problemas de consumo de memoria. El enfoque de MiniExcel es diferente: los datos se procesan fila por fila de manera secuencial, reduciendo el consumo original de potencialmente cientos de megabytes a solo unos pocos megabytes, previniendo eficazmente los problemas de memoria insuficiente (OOM).
+Actualmente, la mayoría de los frameworks populares necesitan cargar todos los datos de un documento Excel en memoria para facilitar las operaciones, pero esto puede provocar problemas de consumo de memoria. El enfoque de MiniExcel es diferente: los datos se procesan fila por fila de manera secuencial, reduciendo el consumo original de potencialmente cientos de megabytes a solo unos pocos megabytes, previniendo eficazmente los problemas de falta de memoria (OOM).
 
 ```mermaid
 flowchart LR
@@ -53,15 +53,25 @@ flowchart LR
     class B1,B2,B3,B4,B5 others;
     class C1,C2,C3,C4,C5 miniexcel;
 ```
+
 ### Características
 
 - Minimiza el consumo de memoria, previniendo errores de falta de memoria (OOM) y evitando recolecciones completas de basura
 - Permite operaciones de datos en tiempo real a nivel de fila para un mejor rendimiento en conjuntos de datos grandes
 - Soporta LINQ con ejecución diferida, permitiendo paginación rápida y eficiente en memoria y consultas complejas
-- Ligero, sin necesidad de Microsoft Office ni componentes COM+, y un tamaño de DLL menor a 500KB
-- API simple e intuitivo para leer/escribir/llenar excel
+- Ligero, sin necesidad de Microsoft Office ni componentes COM+, y un tamaño de DLL inferior a 500KB
+- API simple e intuitiva para leer/escribir/llenar excel
 
-### Comenzar
+### Vista previa de la versión 2.0
+
+Estamos trabajando en una futura versión de MiniExcel, con una nueva API modular y enfocada,
+paquetes nuget separados para funcionalidades Core y Csv, soporte completo para consultas transmitidas asincrónicamente a través de `IAsyncEnumerable`,
+¡y mucho más próximamente! Los paquetes estarán disponibles en pre-lanzamiento, así que siéntete libre de probarlos y darnos tu opinión.
+
+Si lo haces, asegúrate también de revisar la [nueva documentación](https://raw.githubusercontent.com/mini-software/MiniExcel/master/README-V2.md) y las [notas de actualización](https://raw.githubusercontent.com/mini-software/MiniExcel/master/V2-Upgrade-Notes.md).
+
+
+### Primeros pasos
 
 - [Importar/Consultar Excel](#getstart1)
 
@@ -69,32 +79,30 @@ flowchart LR
 
 - [Plantilla de Excel](#getstart3)
 
-- [Nombre de Columna/Índice/Atributo Ignorar de Excel](#getstart4)
+- [Nombre de columna de Excel/Índice/Atributo de ignorar](#getstart4)
 
 - [Ejemplos](#getstart5)
-
 
 
 ### Instalación
 
 Puedes instalar el paquete [desde NuGet](https://www.nuget.org/packages/MiniExcel)
 
-### Notas de la Versión
+### Notas de Lanzamiento
 
-Por favor revisa [Notas de la Versión](docs)
+Por favor revisa las [Notas de Lanzamiento](docs)
 
-### TODO
+### PENDIENTE
 
-Por favor revisa [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)
+Por favor, consulte [TODO](https://github.com/mini-software/MiniExcel/projects/1?fullscreen=true)
 
 ### Rendimiento
 
-El código para las pruebas de rendimiento se encuentra en [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs).
+El código para los benchmarks se puede encontrar en [MiniExcel.Benchmarks](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Program.cs).
 
-El archivo usado para probar el rendimiento es [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), un documento de 32MB que contiene 1,000,000 filas * 10 columnas cuyos celdas están llenas con la cadena "HelloWorld".
+El archivo utilizado para probar el rendimiento es [**Test1,000,000x10.xlsx**](https://raw.githubusercontent.com/mini-software/MiniExcel/master/benchmarks/MiniExcel.Benchmarks/Test1%2C000%2C000x10.xlsx), un documento de 32 MB que contiene 1,000,000 filas * 10 columnas cuyas celdas están llenas con la cadena "HelloWorld".
 
-Para ejecutar todas las pruebas de rendimiento usa:
-
+Para ejecutar todos los benchmarks use:
 
 ```bash
 dotnet run -project .\benchmarks\MiniExcel.Benchmarks -c Release -f net9.0 -filter * --join
@@ -2012,6 +2020,6 @@ Enlace https://github.com/orgs/mini-software/discussions/754
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-09
 
 ---

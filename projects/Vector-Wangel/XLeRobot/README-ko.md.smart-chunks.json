@@ -1,0 +1,950 @@
+[
+  {
+    "Id": 1,
+    "Content": "# [XLeRobot 🤖](https://xlerobot.readthedocs.io/en/latest/index.html)\n\n[![en](https://img.shields.io/badge/lang-en-blue.svg)](README.md)\n[![中文](https://img.shields.io/badge/lang-中文-brown.svg)](README_CN.md)\n\n<a href=\"https://xlerobot.readthedocs.io/en/latest/index.html\">\n  <img width=\"1725\" height=\"1140\" alt=\"front\" src=\"https://github.com/user-attachments/assets/f9c454ee-2c46-42b4-a5d7-88834a1c95ab\" />\n</a>\n\n[![Apache License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![Twitter/X](https://img.shields.io/twitter/follow/VectorWang?style=social)](https://twitter.com/VectorWang2)\n[![Docs status](https://img.shields.io/badge/docs-passing-brightgreen.svg)](https://xlerobot.readthedocs.io/en/latest/)\n[![Discord](https://img.shields.io/badge/Discord-XLeRobot-7289da?style=flat&logo=discord&logoColor=white)](https://discord.gg/bjZveEUh6F)\n---\n\n\n**🚀 Bringing Embodied AI to Everyone - Cheaper Than an iPhone! 📱**  \n**💵 Starts from $660 cost and ⏰ <4hrs total assembly time!!**\n\n*Built upon the giants: [LeRobot](https://github.com/huggingface/lerobot), [SO-100/SO-101](https://github.com/TheRobotStudio/SO-ARM100), [Lekiwi](https://github.com/SIGRobotics-UIUC/LeKiwi), [Bambot](https://github.com/timqian/bambot)*\n\n<table>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/17e31979-bd5e-4790-be70-566ea8bb181e\" width=\"250\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/96ff4a3e-3402-47a2-bc6b-b45137ee3fdd\" width=\"250\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/f6d52acc-bc8d-46f6-b3cd-8821f0306a7f\" width=\"250\"/></td>\n  </tr>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/59086300-3e6f-4a3c-b5e0-db893eeabc0c\" width=\"250\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/4ddbc0ff-ca42-4ad0-94c6-4e0f4047fd01\" width=\"250\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/7abc890e-9c9c-4983-8b25-122573028de5\" width=\"250\"/></td>\n  </tr>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/e74a602b-0146-49c4-953d-3fa3b038a7f7\" width=\"250\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/d8090b15-97f3-4abc-98c8-208ae79894d5\" width=\"250\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/8b54adc3-d61b-42a0-8985-ea28f2e8f64c\" width=\"250\"/></td>\n  </tr>\n</table>\n\n---",
+    "ContentSha": "E2rMEgl85DHtOOidYMoX0G1VCtfR2DWAmLMkdSy/NZY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# [XLeRobot 🤖](https://xlerobot.readthedocs.io/en/latest/index.html)\n\n[![en](https://img.shields.io/badge/lang-en-blue.svg)](README.md)\n[![中文](https://img.shields.io/badge/lang-中文-brown.svg)](README_CN.md)\n\n<a href=\"https://xlerobot.readthedocs.io/en/latest/index.html\">\n  <img width=\"1725\" height=\"1140\" alt=\"front\" src=\"https://github.com/user-attachments/assets/f9c454ee-2c46-42b4-a5d7-88834a1c95ab\" />\n</a>\n\n[![Apache License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![Twitter/X](https://img.shields.io/twitter/follow/VectorWang?style=social)](https://twitter.com/VectorWang2)\n[![Docs status](https://img.shields.io/badge/docs-passing-brightgreen.svg)](https://xlerobot.readthedocs.io/en/latest/)\n[![Discord](https://img.shields.io/badge/Discord-XLeRobot-7289da?style=flat&logo=discord&logoColor=white)](https://discord.gg/bjZveEUh6F)\n---\n\n\n**🚀 모두를 위한 구현형 AI - 아이폰보다 저렴하게! 📱**  \n**💵 $660부터 시작하며 ⏰ 총 조립 시간은 4시간 미만!!**\n\n*거인들의 기반 위에 구축됨: [LeRobot](https://github.com/huggingface/lerobot), [SO-100/SO-101](https://github.com/TheRobotStudio/SO-ARM100), [Lekiwi](https://github.com/SIGRobotics-UIUC/LeKiwi), [Bambot](https://github.com/timqian/bambot)*\n\n<table>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/17e31979-bd5e-4790-be70-566ea8bb181e\" width=\"250\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/96ff4a3e-3402-47a2-bc6b-b45137ee3fdd\" width=\"250\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/f6d52acc-bc8d-46f6-b3cd-8821f0306a7f\" width=\"250\"/></td>\n  </tr>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/59086300-3e6f-4a3c-b5e0-db893eeabc0c\" width=\"250\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/4ddbc0ff-ca42-4ad0-94c6-4e0f4047fd01\" width=\"250\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/7abc890e-9c9c-4983-8b25-122573028de5\" width=\"250\"/></td>\n  </tr>\n  <tr>\n    <td><img src=\"https://github.com/user-attachments/assets/e74a602b-0146-49c4-953d-3fa3b038a7f7\" width=\"250\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/d8090b15-97f3-4abc-98c8-208ae79894d5\" width=\"250\"/></td>\n    <td><img src=\"https://github.com/user-attachments/assets/8b54adc3-d61b-42a0-8985-ea28f2e8f64c\" width=\"250\"/></td>\n  </tr>\n</table>\n\n---",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rdcogHldxE4i4OJWc57aRw/QZcjNsQqVDcRzWxZgChQ=",
+        "originContent": "# [XLeRobot 🤖](https://xlerobot.readthedocs.io/en/latest/index.html)",
+        "translatedContent": "# [XLeRobot 🤖](https://xlerobot.readthedocs.io/en/latest/index.html)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "57yJXdLsIzIr7KPrDDDpV63paubsuMC0PbgjeLsFx84=",
+        "originContent": "[![en](https://img.shields.io/badge/lang-en-blue.svg)](README.md)",
+        "translatedContent": "[![en](https://img.shields.io/badge/lang-en-blue.svg)](README.md)"
+      },
+      {
+        "row": 4,
+        "rowsha": "nzOWI9xomujASaC52Fm9ujOoipfr5JbICf1PHo9p24w=",
+        "originContent": "[![中文](https://img.shields.io/badge/lang-中文-brown.svg)](README_CN.md)",
+        "translatedContent": "[![中文](https://img.shields.io/badge/lang-中文-brown.svg)](README_CN.md)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "pERPJPwHtrIpExF1kOEgYjYrdK30I+f4UqX4vEfysqY=",
+        "originContent": "<a href=\"https://xlerobot.readthedocs.io/en/latest/index.html\">",
+        "translatedContent": "<a href=\"https://xlerobot.readthedocs.io/en/latest/index.html\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "hboDaarcf8AZ3K3PPIY1XePyeGlrG8FS9kyMw3/E9Mk=",
+        "originContent": "  <img width=\"1725\" height=\"1140\" alt=\"front\" src=\"https://github.com/user-attachments/assets/f9c454ee-2c46-42b4-a5d7-88834a1c95ab\" />",
+        "translatedContent": "  <img width=\"1725\" height=\"1140\" alt=\"front\" src=\"https://github.com/user-attachments/assets/f9c454ee-2c46-42b4-a5d7-88834a1c95ab\" />"
+      },
+      {
+        "row": 8,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Tr95+jH1bjWSNVjqK/4YyZpq0jOU4Edp4nfOEPBSvYY=",
+        "originContent": "[![Apache License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+        "translatedContent": "[![Apache License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+      },
+      {
+        "row": 11,
+        "rowsha": "KImSV3a1OMuFOOoIGYh0PUZ7EovoeGgYOxuk1RFUbCU=",
+        "originContent": "[![Twitter/X](https://img.shields.io/twitter/follow/VectorWang?style=social)](https://twitter.com/VectorWang2)",
+        "translatedContent": "[![Twitter/X](https://img.shields.io/twitter/follow/VectorWang?style=social)](https://twitter.com/VectorWang2)"
+      },
+      {
+        "row": 12,
+        "rowsha": "euA4u1PIhHtc4nlvPFC29tdxdOzlf6oDsP310G2206c=",
+        "originContent": "[![Docs status](https://img.shields.io/badge/docs-passing-brightgreen.svg)](https://xlerobot.readthedocs.io/en/latest/)",
+        "translatedContent": "[![Docs status](https://img.shields.io/badge/docs-passing-brightgreen.svg)](https://xlerobot.readthedocs.io/en/latest/)"
+      },
+      {
+        "row": 13,
+        "rowsha": "Y0/QhP410awagXJ570vEikHW6m4uwqympZABSQbi5aY=",
+        "originContent": "[![Discord](https://img.shields.io/badge/Discord-XLeRobot-7289da?style=flat&logo=discord&logoColor=white)](https://discord.gg/bjZveEUh6F)",
+        "translatedContent": "[![Discord](https://img.shields.io/badge/Discord-XLeRobot-7289da?style=flat&logo=discord&logoColor=white)](https://discord.gg/bjZveEUh6F)"
+      },
+      {
+        "row": 14,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "HBqicypMfdCA+aTngDUbwrsZvTmsyXu5xFXIpYlN8kc=",
+        "originContent": "**🚀 Bringing Embodied AI to Everyone - Cheaper Than an iPhone! 📱**  ",
+        "translatedContent": "**🚀 모두를 위한 구현형 AI - 아이폰보다 저렴하게! 📱**  "
+      },
+      {
+        "row": 18,
+        "rowsha": "bQCX4/2yKSFeevwmCjuVT5UoWGq/MsroWbIrlNphdvI=",
+        "originContent": "**💵 Starts from $660 cost and ⏰ <4hrs total assembly time!!**",
+        "translatedContent": "**💵 $660부터 시작하며 ⏰ 총 조립 시간은 4시간 미만!!**"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "h+z1mt/Frcci7iR1trFaxBSRnuZG7SQUnVqkrLs4fz8=",
+        "originContent": "*Built upon the giants: [LeRobot](https://github.com/huggingface/lerobot), [SO-100/SO-101](https://github.com/TheRobotStudio/SO-ARM100), [Lekiwi](https://github.com/SIGRobotics-UIUC/LeKiwi), [Bambot](https://github.com/timqian/bambot)*",
+        "translatedContent": "*거인들의 기반 위에 구축됨: [LeRobot](https://github.com/huggingface/lerobot), [SO-100/SO-101](https://github.com/TheRobotStudio/SO-ARM100), [Lekiwi](https://github.com/SIGRobotics-UIUC/LeKiwi), [Bambot](https://github.com/timqian/bambot)*"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "kq0DFTS69SZCm3Odp9SwOmLuj08yYNkZvbhcRxtdMkQ=",
+        "originContent": "<table>",
+        "translatedContent": "<table>"
+      },
+      {
+        "row": 23,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 24,
+        "rowsha": "4XDjOZji/7rosDuKOzGmaEiLx2vUjxT45GgRS0iwPIQ=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/17e31979-bd5e-4790-be70-566ea8bb181e\" width=\"250\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/17e31979-bd5e-4790-be70-566ea8bb181e\" width=\"250\"/></td>"
+      },
+      {
+        "row": 25,
+        "rowsha": "sMZZZnoWRZp8iLdFV+IhFjlwBHReRhqtFB4LI553i3Q=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/96ff4a3e-3402-47a2-bc6b-b45137ee3fdd\" width=\"250\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/96ff4a3e-3402-47a2-bc6b-b45137ee3fdd\" width=\"250\"/></td>"
+      },
+      {
+        "row": 26,
+        "rowsha": "Re2dG51sRHmbBp4rDYhU/F+HWqsZ7We7BGTdwDbfc78=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/f6d52acc-bc8d-46f6-b3cd-8821f0306a7f\" width=\"250\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/f6d52acc-bc8d-46f6-b3cd-8821f0306a7f\" width=\"250\"/></td>"
+      },
+      {
+        "row": 27,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 28,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 29,
+        "rowsha": "oK3322sVxj4+aHfDGKu4YaXMl55xVfhlf+HlHSSO+JA=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/59086300-3e6f-4a3c-b5e0-db893eeabc0c\" width=\"250\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/59086300-3e6f-4a3c-b5e0-db893eeabc0c\" width=\"250\"/></td>"
+      },
+      {
+        "row": 30,
+        "rowsha": "dY1KwIpzF5LE5CTxMyIp+m6mavOWRZm9QlepSGuAbs8=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/4ddbc0ff-ca42-4ad0-94c6-4e0f4047fd01\" width=\"250\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/4ddbc0ff-ca42-4ad0-94c6-4e0f4047fd01\" width=\"250\"/></td>"
+      },
+      {
+        "row": 31,
+        "rowsha": "0XhaDx0OOFHSS07wGofq9LsU5g38AfZmeR382I0e6DA=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/7abc890e-9c9c-4983-8b25-122573028de5\" width=\"250\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/7abc890e-9c9c-4983-8b25-122573028de5\" width=\"250\"/></td>"
+      },
+      {
+        "row": 32,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 33,
+        "rowsha": "6o+qeLcGxX0dvrGBva8HKZWaO7Np0FI8WMiMEuNtFfo=",
+        "originContent": "  <tr>",
+        "translatedContent": "  <tr>"
+      },
+      {
+        "row": 34,
+        "rowsha": "qGxd0oy7omu6XayFxBdWDdK+Hh1Nifhfv+FCFGrWPoI=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/e74a602b-0146-49c4-953d-3fa3b038a7f7\" width=\"250\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/e74a602b-0146-49c4-953d-3fa3b038a7f7\" width=\"250\"/></td>"
+      },
+      {
+        "row": 35,
+        "rowsha": "DB2Lu0hxU3I1N5Nlavg3abuM5xvqAEHoVcd4Xgj70XI=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/d8090b15-97f3-4abc-98c8-208ae79894d5\" width=\"250\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/d8090b15-97f3-4abc-98c8-208ae79894d5\" width=\"250\"/></td>"
+      },
+      {
+        "row": 36,
+        "rowsha": "UdD2WkQWcVQewC4JCZNYyPJ8xRDy2tVo9qIEgMo7FK8=",
+        "originContent": "    <td><img src=\"https://github.com/user-attachments/assets/8b54adc3-d61b-42a0-8985-ea28f2e8f64c\" width=\"250\"/></td>",
+        "translatedContent": "    <td><img src=\"https://github.com/user-attachments/assets/8b54adc3-d61b-42a0-8985-ea28f2e8f64c\" width=\"250\"/></td>"
+      },
+      {
+        "row": 37,
+        "rowsha": "K/5+WkLxQhra7MeDt9eLvVWUGxfQGKcxloLKL96ZcDc=",
+        "originContent": "  </tr>",
+        "translatedContent": "  </tr>"
+      },
+      {
+        "row": 38,
+        "rowsha": "H+dtb55ry3VN2CLvAetudgE9ICnYQdUralLHuIqMdZM=",
+        "originContent": "</table>",
+        "translatedContent": "</table>"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n# 📰 News \n- 2025-09-22: **Hardware Assembly Video Tutorial** availabe at [Youtube](https://www.youtube.com/watch?v=upB1CEFeOlk) and [Bilibili](https://www.bilibili.com/video/BV1AGWFzUEJf/). Thanks WOWROBO for making this video!\n- 2025-09-09: **Developer Assembly kit (excluding battery and IKEA cart) ready for purchase** in [China (Taobao) for **3699￥**](https://e.tb.cn/h.SZFbBgZABZ8zRPe?tk=ba514rTBRjQ) and [world-wide for **579\\$**](https://shop.wowrobo.com/products/xlerobot-dual-arm-mobile-household-robot-kit?variant=47297659961561). _(In collaboration with **Wowrobo**, one of the official collaborators with Huggingface SO101 arm, they have sold 5k+ SO101 arm worldwide with great customer feedback.)_\n  <img width=\"1482\" height=\"485\" alt=\"image\" src=\"https://github.com/user-attachments/assets/788836c1-966a-4d11-a911-5c37befc0b85\" />\n  - Non-profit, I personally don't earn any from this. I also asked Wowrobo to set the price as low as possible.\n  - This is only the assembly kit for developers, please check documentation website and this repo for available codes and tutorials before you purchase.\n- 2025-09-09: Joined [Embodied AI Home Robot Hackathon](https://www.seeedstudio.com/embodied-ai-worldwide-hackathon-home-robot.html) (Oct 25–26, Bay Area) held by **SEEED x Nvidia x Huggingface** as mentor! [Register HERE](https://docs.google.com/forms/d/e/1FAIpQLSdYYDegdgIypxuGJNLcoc8kbdmU4jKgl49zg4X-107LAmBN4g/viewform).\n- <img width=\"2400\" height=\"1256\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4132c23b-5c86-4bb9-94b4-a6b12059685b\" />\n\n- 2025-08-30: XLeRobot 0.3.0 Release with final outfit touch up and household chores showcase demos. \n\n\n\n- 2025-07-30: [Control XLeRobot in real life](https://xlerobot.readthedocs.io/en/latest/software/index.html) with **keyboard/Xbox controller/Switch joycon** in the wild anywhere. All bluetooth, no wifi needed and zero latency.\n- ![rea](https://github.com/user-attachments/assets/de8f50ad-a370-406c-97fb-fc01638d5624)\n\n\n- 2025-07-08: [**Simulation**](https://xlerobot.readthedocs.io/en/latest/simulation/index.html) with updated urdfs, control scripts (support Quest3 VR, keyboard, Xbox controller, switch joycon), support for new hardware and cameras, RL environment. Get started in 15 min.\n-  ![vr](https://github.com/user-attachments/assets/68b77bea-fdcf-4f42-9cf0-efcf1b188358)\n\n- 2025-07-01: [**Documentation** website](https://xlerobot.readthedocs.io/en/latest/index.html) out for more orgainized tutorials, demos and resources.\n\n- 2025-06-13: [**XLeRobot 0.2.0**](https://xlerobot.readthedocs.io) hardware setup, the 1st version fully capable for autonomous household tasks, starts from 660$. \n\n---\n\n## 💵 Total Cost 💵\n\n> [!NOTE] \n> Cost excludes 3D printing, tools, shipping, and taxes.\n\n| Price (Buy all the parts yourself) | US | EU | CN | IN |\n| --- | --- | --- | --- | --- |\n| **Basic** (use your laptop, single RGB head cam) | **~$660** | **~€680** | **~¥3999** | **~₹87000** |\n| ↑ Stereo dual-eye RGB head cam | +$30 | +€30 | +¥199 | +₹6550 |\n| + RasberryPi | +$79 | +€79 | +¥399 | +₹7999 |\n| ↑ RealSense RGBD head cam | +$220 | +€230 | +¥1499 | +₹35726 |\n\n",
+    "ContentSha": "v5eC5FfLrHIwZFzwE01U9XSBXVuvP2eDO6mEAUyUIik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 📰 뉴스 \n- 2025-09-22: **하드웨어 조립 영상 튜토리얼**이 [유튜브](https://www.youtube.com/watch?v=upB1CEFeOlk)와 [비리비리](https://www.bilibili.com/video/BV1AGWFzUEJf/)에서 제공됩니다. 이 영상을 제작해 주신 WOWROBO에 감사드립니다!\n- 2025-09-09: **개발자용 조립 키트(배터리 및 IKEA 카트 제외)**가 [중국(타오바오)에서 **3699￥**에](https://e.tb.cn/h.SZFbBgZABZ8zRPe?tk=ba514rTBRjQ) 및 [전 세계적으로 **579\\$**에](https://shop.wowrobo.com/products/xlerobot-dual-arm-mobile-household-robot-kit?variant=47297659961561) 구매 가능합니다. _(Huggingface SO101 암 공식 협력사 중 하나인 **Wowrobo**와 협력하여, 전 세계에 5천 개 이상의 SO101 암을 성공적으로 판매했으며 고객 평가도 우수합니다.)_\n  <img width=\"1482\" height=\"485\" alt=\"image\" src=\"https://github.com/user-attachments/assets/788836c1-966a-4d11-a911-5c37befc0b85\" />\n  - 비영리, 개인적으로 이익을 전혀 취하지 않습니다. 가격을 최대한 낮게 책정해 달라고 Wowrobo에 요청했습니다.\n  - 이 키트는 개발자용 조립 키트이며, 구매 전에 문서 사이트와 이 저장소에서 제공하는 코드 및 튜토리얼을 반드시 확인해 주세요.\n- 2025-09-09: **SEEED x Nvidia x Huggingface**가 주최하는 [Embodied AI 홈 로봇 해커톤](https://www.seeedstudio.com/embodied-ai-worldwide-hackathon-home-robot.html)(10월 25~26일, 베이 지역)에 멘토로 참가했습니다! [여기에서 등록하세요](https://docs.google.com/forms/d/e/1FAIpQLSdYYDegdgIypxuGJNLcoc8kbdmU4jKgl49zg4X-107LAmBN4g/viewform).\n- <img width=\"2400\" height=\"1256\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4132c23b-5c86-4bb9-94b4-a6b12059685b\" />\n\n- 2025-08-30: XLeRobot 0.3.0 버전 출시, 최종 의상 손질 및 가사 작업 시연 데모 포함. \n\n\n\n- 2025-07-30: [실제 환경에서 XLeRobot을 제어하는 방법](https://xlerobot.readthedocs.io/en/latest/software/index.html) - **키보드/Xbox 컨트롤러/Switch 조이콘** 지원. 모두 블루투스 연결, 와이파이 불필요, 지연 시간 0.\n- ![rea](https://github.com/user-attachments/assets/de8f50ad-a370-406c-97fb-fc01638d5624)\n\n\n- 2025-07-08: [**시뮬레이션**](https://xlerobot.readthedocs.io/en/latest/simulation/index.html) - 업데이트된 URDF, 제어 스크립트(Quest3 VR, 키보드, Xbox 컨트롤러, 스위치 조이콘 지원), 새 하드웨어 및 카메라 지원, RL 환경 포함. 15분 내 시작 가능.\n-  ![vr](https://github.com/user-attachments/assets/68b77bea-fdcf-4f42-9cf0-efcf1b188358)\n\n- 2025-07-01: 보다 체계적인 튜토리얼, 데모 및 자료를 위한 [**문서** 웹사이트](https://xlerobot.readthedocs.io/en/latest/index.html) 공개.\n\n- 2025-06-13: [**XLeRobot 0.2.0**](https://xlerobot.readthedocs.io) 하드웨어 설치 가이드, 가사 작업 완전 자율 수행 첫 버전, 시작가 660$.\n\n---\n\n## 💵 총 비용 💵\n\n> [!NOTE] \n> 비용에는 3D 프린팅, 도구, 배송, 세금은 포함되지 않습니다.\n\n| 가격 (부품을 직접 구매할 경우) | 미국 | 유럽 | 중국 | 인도 |\n| --- | --- | --- | --- | --- |\n| **기본** (노트북 사용, 단일 RGB 헤드 카메라) | **~$660** | **~€680** | **~¥3999** | **~₹87000** |\n| ↑ 스테레오 듀얼 아이 RGB 헤드 카메라 | +$30 | +€30 | +¥199 | +₹6550 |\n| + 라즈베리파이 | +$79 | +€79 | +¥399 | +₹7999 |\n| ↑ RealSense RGBD 헤드 카메라 | +$220 | +€230 | +¥1499 | +₹35726 |\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# 📰 뉴스 "
+      },
+      {
+        "row": 2,
+        "rowsha": "pu6iMUCvrH0wK+roML9z34xy9bJIbDH49X+2fAp28BE=",
+        "originContent": "# 📰 News ",
+        "translatedContent": "- 2025-09-22: **하드웨어 조립 영상 튜토리얼**이 [유튜브](https://www.youtube.com/watch?v=upB1CEFeOlk)와 [비리비리](https://www.bilibili.com/video/BV1AGWFzUEJf/)에서 제공됩니다. 이 영상을 제작해 주신 WOWROBO에 감사드립니다!"
+      },
+      {
+        "row": 3,
+        "rowsha": "pcWduYUO6ETg0NP6l3xiH9R/Sh76A8oa76qLCqIZ4uI=",
+        "originContent": "- 2025-09-22: **Hardware Assembly Video Tutorial** availabe at [Youtube](https://www.youtube.com/watch?v=upB1CEFeOlk) and [Bilibili](https://www.bilibili.com/video/BV1AGWFzUEJf/). Thanks WOWROBO for making this video!",
+        "translatedContent": "- 2025-09-09: **개발자용 조립 키트(배터리 및 IKEA 카트 제외)**가 [중국(타오바오)에서 **3699￥**에](https://e.tb.cn/h.SZFbBgZABZ8zRPe?tk=ba514rTBRjQ) 및 [전 세계적으로 **579\\$**에](https://shop.wowrobo.com/products/xlerobot-dual-arm-mobile-household-robot-kit?variant=47297659961561) 구매 가능합니다. _(Huggingface SO101 암 공식 협력사 중 하나인 **Wowrobo**와 협력하여, 전 세계에 5천 개 이상의 SO101 암을 성공적으로 판매했으며 고객 평가도 우수합니다.)_"
+      },
+      {
+        "row": 4,
+        "rowsha": "gojvNopu3vOdmWKa+JhdUkCTKWo9R20FrOOyzUPxP8w=",
+        "originContent": "- 2025-09-09: **Developer Assembly kit (excluding battery and IKEA cart) ready for purchase** in [China (Taobao) for **3699￥**](https://e.tb.cn/h.SZFbBgZABZ8zRPe?tk=ba514rTBRjQ) and [world-wide for **579\\$**](https://shop.wowrobo.com/products/xlerobot-dual-arm-mobile-household-robot-kit?variant=47297659961561). _(In collaboration with **Wowrobo**, one of the official collaborators with Huggingface SO101 arm, they have sold 5k+ SO101 arm worldwide with great customer feedback.)_",
+        "translatedContent": "  <img width=\"1482\" height=\"485\" alt=\"image\" src=\"https://github.com/user-attachments/assets/788836c1-966a-4d11-a911-5c37befc0b85\" />"
+      },
+      {
+        "row": 5,
+        "rowsha": "iG/vwFxEC+IbAwcRHJs3pdLPDjutEH48weOxOJI/408=",
+        "originContent": "  <img width=\"1482\" height=\"485\" alt=\"image\" src=\"https://github.com/user-attachments/assets/788836c1-966a-4d11-a911-5c37befc0b85\" />",
+        "translatedContent": "  - 비영리, 개인적으로 이익을 전혀 취하지 않습니다. 가격을 최대한 낮게 책정해 달라고 Wowrobo에 요청했습니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "4p3NePT1OdwGiVdKDJGsjYKQFrBATIsyrofdKby9nUo=",
+        "originContent": "  - Non-profit, I personally don't earn any from this. I also asked Wowrobo to set the price as low as possible.",
+        "translatedContent": "  - 이 키트는 개발자용 조립 키트이며, 구매 전에 문서 사이트와 이 저장소에서 제공하는 코드 및 튜토리얼을 반드시 확인해 주세요."
+      },
+      {
+        "row": 7,
+        "rowsha": "fqZ6nZoHx0TpAckPEdJ9S6MberVZm/n7LOr01LdKyD8=",
+        "originContent": "  - This is only the assembly kit for developers, please check documentation website and this repo for available codes and tutorials before you purchase.",
+        "translatedContent": "- 2025-09-09: **SEEED x Nvidia x Huggingface**가 주최하는 [Embodied AI 홈 로봇 해커톤](https://www.seeedstudio.com/embodied-ai-worldwide-hackathon-home-robot.html)(10월 25~26일, 베이 지역)에 멘토로 참가했습니다! [여기에서 등록하세요](https://docs.google.com/forms/d/e/1FAIpQLSdYYDegdgIypxuGJNLcoc8kbdmU4jKgl49zg4X-107LAmBN4g/viewform)."
+      },
+      {
+        "row": 8,
+        "rowsha": "DqOE78OExiYVJa3jby4YH8tU5++0tJilVi5bI3aa/co=",
+        "originContent": "- 2025-09-09: Joined [Embodied AI Home Robot Hackathon](https://www.seeedstudio.com/embodied-ai-worldwide-hackathon-home-robot.html) (Oct 25–26, Bay Area) held by **SEEED x Nvidia x Huggingface** as mentor! [Register HERE](https://docs.google.com/forms/d/e/1FAIpQLSdYYDegdgIypxuGJNLcoc8kbdmU4jKgl49zg4X-107LAmBN4g/viewform).",
+        "translatedContent": "- <img width=\"2400\" height=\"1256\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4132c23b-5c86-4bb9-94b4-a6b12059685b\" />"
+      },
+      {
+        "row": 9,
+        "rowsha": "goT+7hgZQjVkFN1vp1jQ495hWtgrlvoQ7hEUWO/vhjk=",
+        "originContent": "- <img width=\"2400\" height=\"1256\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4132c23b-5c86-4bb9-94b4-a6b12059685b\" />",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 2025-08-30: XLeRobot 0.3.0 버전 출시, 최종 의상 손질 및 가사 작업 시연 데모 포함. "
+      },
+      {
+        "row": 11,
+        "rowsha": "rpNBuXvaLB4lpiOW2JSGBUlqGlNUJrlAxqNEXElW0gc=",
+        "originContent": "- 2025-08-30: XLeRobot 0.3.0 Release with final outfit touch up and household chores showcase demos. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 2025-07-30: [실제 환경에서 XLeRobot을 제어하는 방법](https://xlerobot.readthedocs.io/en/latest/software/index.html) - **키보드/Xbox 컨트롤러/Switch 조이콘** 지원. 모두 블루투스 연결, 와이파이 불필요, 지연 시간 0."
+      },
+      {
+        "row": 15,
+        "rowsha": "6z++7LJeWVEzx29EO6iXlzHkTJuwetc5F5wOQV2V1Bg=",
+        "originContent": "- 2025-07-30: [Control XLeRobot in real life](https://xlerobot.readthedocs.io/en/latest/software/index.html) with **keyboard/Xbox controller/Switch joycon** in the wild anywhere. All bluetooth, no wifi needed and zero latency.",
+        "translatedContent": "- ![rea](https://github.com/user-attachments/assets/de8f50ad-a370-406c-97fb-fc01638d5624)"
+      },
+      {
+        "row": 16,
+        "rowsha": "Nz9Mh4IDcjqY6wf3IZmt86USM5/5OknbnKFXCwY3gmE=",
+        "originContent": "- ![rea](https://github.com/user-attachments/assets/de8f50ad-a370-406c-97fb-fc01638d5624)",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 2025-07-08: [**시뮬레이션**](https://xlerobot.readthedocs.io/en/latest/simulation/index.html) - 업데이트된 URDF, 제어 스크립트(Quest3 VR, 키보드, Xbox 컨트롤러, 스위치 조이콘 지원), 새 하드웨어 및 카메라 지원, RL 환경 포함. 15분 내 시작 가능."
+      },
+      {
+        "row": 19,
+        "rowsha": "MIiilQeR8DC0b8/6g8sPkOn51hdtgfQpJiJ4oGoMUoU=",
+        "originContent": "- 2025-07-08: [**Simulation**](https://xlerobot.readthedocs.io/en/latest/simulation/index.html) with updated urdfs, control scripts (support Quest3 VR, keyboard, Xbox controller, switch joycon), support for new hardware and cameras, RL environment. Get started in 15 min.",
+        "translatedContent": "-  ![vr](https://github.com/user-attachments/assets/68b77bea-fdcf-4f42-9cf0-efcf1b188358)"
+      },
+      {
+        "row": 20,
+        "rowsha": "44zRhlST5trMHqsnBzflHqB7qsMPfd/o+hxyJvd0AWo=",
+        "originContent": "-  ![vr](https://github.com/user-attachments/assets/68b77bea-fdcf-4f42-9cf0-efcf1b188358)",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 2025-07-01: 보다 체계적인 튜토리얼, 데모 및 자료를 위한 [**문서** 웹사이트](https://xlerobot.readthedocs.io/en/latest/index.html) 공개."
+      },
+      {
+        "row": 22,
+        "rowsha": "WisEEq1bC7nGVYJDsHRjQGpMNpZ9SyJ3Y5aXYx1cN8Q=",
+        "originContent": "- 2025-07-01: [**Documentation** website](https://xlerobot.readthedocs.io/en/latest/index.html) out for more orgainized tutorials, demos and resources.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 2025-06-13: [**XLeRobot 0.2.0**](https://xlerobot.readthedocs.io) 하드웨어 설치 가이드, 가사 작업 완전 자율 수행 첫 버전, 시작가 660$."
+      },
+      {
+        "row": 24,
+        "rowsha": "2Jp7dDhvldBP70WHAjLZqGpHFAhAYJQDTq20IchPEyI=",
+        "originContent": "- 2025-06-13: [**XLeRobot 0.2.0**](https://xlerobot.readthedocs.io) hardware setup, the 1st version fully capable for autonomous household tasks, starts from 660$. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 26,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 💵 총 비용 💵"
+      },
+      {
+        "row": 28,
+        "rowsha": "6YFjwkZiMM+8S4EcziHwqB1VLPS3I6HH3yDZ4eweFZs=",
+        "originContent": "## 💵 Total Cost 💵",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> [!NOTE] "
+      },
+      {
+        "row": 30,
+        "rowsha": "Vzspm0eoaJmJSKFFsr7yWcmQ0G9sPLgpO6OieAfskxQ=",
+        "originContent": "> [!NOTE] ",
+        "translatedContent": "> 비용에는 3D 프린팅, 도구, 배송, 세금은 포함되지 않습니다."
+      },
+      {
+        "row": 31,
+        "rowsha": "46kWGAH9VRd7JwJUu9+ZB38gQxfRF4IX/tcd2zF1PYU=",
+        "originContent": "> Cost excludes 3D printing, tools, shipping, and taxes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 가격 (부품을 직접 구매할 경우) | 미국 | 유럽 | 중국 | 인도 |"
+      },
+      {
+        "row": 33,
+        "rowsha": "nAC1Pax2CXh2bWx5qd/OARzR/TfpypDmQ8MvIEFGueY=",
+        "originContent": "| Price (Buy all the parts yourself) | US | EU | CN | IN |",
+        "translatedContent": "| --- | --- | --- | --- | --- |"
+      },
+      {
+        "row": 34,
+        "rowsha": "Ln45ioTHp/09dERb4CN9uZkT+iRl3RnpH4Fk3nQWKiY=",
+        "originContent": "| --- | --- | --- | --- | --- |",
+        "translatedContent": "| **기본** (노트북 사용, 단일 RGB 헤드 카메라) | **~$660** | **~€680** | **~¥3999** | **~₹87000** |"
+      },
+      {
+        "row": 35,
+        "rowsha": "CdSqfen6ygdYlhvz879ldDj+cP4tEHl/qDPbWZPhhXU=",
+        "originContent": "| **Basic** (use your laptop, single RGB head cam) | **~$660** | **~€680** | **~¥3999** | **~₹87000** |",
+        "translatedContent": "| ↑ 스테레오 듀얼 아이 RGB 헤드 카메라 | +$30 | +€30 | +¥199 | +₹6550 |"
+      },
+      {
+        "row": 36,
+        "rowsha": "2NGs3nKQPp+3Dn1Avm3O/w+/BOBCDMC5xhMwQi2fS+U=",
+        "originContent": "| ↑ Stereo dual-eye RGB head cam | +$30 | +€30 | +¥199 | +₹6550 |",
+        "translatedContent": "| + 라즈베리파이 | +$79 | +€79 | +¥399 | +₹7999 |"
+      },
+      {
+        "row": 37,
+        "rowsha": "RjHAr9GvD/mOECaWpLSbGNwpHtkY8rLvnNjffBxv9nk=",
+        "originContent": "| + RasberryPi | +$79 | +€79 | +¥399 | +₹7999 |",
+        "translatedContent": "| ↑ RealSense RGBD 헤드 카메라 | +$220 | +€230 | +¥1499 | +₹35726 |"
+      },
+      {
+        "row": 38,
+        "rowsha": "nXCJtK0ffg5Islm8BfTvaMrSwy98o+LjEIWPRa4lJNE=",
+        "originContent": "| ↑ RealSense RGBD head cam | +$220 | +€230 | +¥1499 | +₹35726 |",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "---\n## 🚀 Get Started 🚀\n\n> [!NOTE] \n> If you are totally new to programming, please spend at least a day to get yourself familiar with basic Python, Ubuntu and Github (with the help of Google and AI). At least you should know how to setup ubuntu system, git clone, pip install, use intepreters (VS Code, Cursor, Pycharm, etc.) and directly run commands in the terminals.\n\n1. 💵 **Buy your parts**: [Bill of Materials](https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/material.html)\n2. 🖨️ **Print your stuff**: [3D printing](https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/3d.html)\n3. 🔨 ~~Avengers~~: [**Assemble**!](https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/assemble.html)\n4. 💻 **Software**: [Get your robot moving!](https://xlerobot.readthedocs.io/en/latest/software/index.html)\n\n---\n\n## Contribute\n\n\n**👋 Want to contribute to XLeRobot?**\nPlease refer to [CONTRIBUTING.md](https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/CONTRIBUTING.md) for guidance on how to get involved!\n\n**Main Contributors**\n\n- [Gaotian/Vector Wang](https://vector-wangel.github.io/)\n- [Zhuoyi Lu](https://lzhuoyi.github.io/Zhuoyi_Lu.github.io/): RL sim2real deploy, teleop on real robot (Xbox, VR, Joycon)\n- Yiyang Huang: RL & VLA implementation (ongoing)\n- YCP: WebUI for remote control (ongoing)\n- [Lixing Zhang](https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/lixingzhang.com): Hardware design improvements\n- Nicole Yue: Documentation website setup\n- Yuesong Wang: Mujoco simulation\n\n\nThis is just a small brick in the pyramid, made possible by [LeRobot](https://github.com/huggingface/lerobot), [SO-100](https://github.com/TheRobotStudio/SO-ARM100), [Lekiwi](https://github.com/SIGRobotics-UIUC/LeKiwi), and [Bambot](https://github.com/timqian/bambot). Thanks to all the talented contributors behind these detailed and professional projects.\n\nLooking forward to collaborating with anyone interested in contributing to this project!\n\n## About me\n\n[Gaotian/Vector Wang](https://vector-wangel.github.io/)\n\nI am a CS graduate student at Rice University [RobotPi Lab](https://robotpilab.github.io/), focusing on robust object manipulation, where we propse virtual cages and funnels and physics-aware world models to close the Sim2real gap and achieve robust manipulation under uncertainties. One of my papers, Caging in Time, has recently been accepted by International Journal of Robotics Research (IJRR).\n",
+    "ContentSha": "U0Q5372c24AYsstwvUBS1zNPwgb6RC6oQlyxNCdTZhU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---\n## 🚀 시작하기 🚀\n\n> [!NOTE] \n> 프로그래밍이 완전히 처음이라면, 최소 하루는 기본적인 Python, Ubuntu 및 Github 사용법에 익숙해지는데 시간을 투자하세요 (Google과 AI의 도움을 받으세요). 최소한 Ubuntu 시스템 설정, git clone, pip install, 인터프리터 사용(VS Code, Cursor, Pycharm 등) 및 터미널에서 명령어를 직접 실행하는 방법을 알아야 합니다.\n\n1. 💵 **부품 구매하기**: [자재 명세서](https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/material.html)\n2. 🖨️ **부품 출력하기**: [3D 프린팅](https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/3d.html)\n3. 🔨 ~~어벤져스~~: [**조립하기!**](https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/assemble.html)\n4. 💻 **소프트웨어**: [로봇 움직이게 하기!](https://xlerobot.readthedocs.io/en/latest/software/index.html)\n\n---\n\n## 기여하기\n\n\n**👋 XLeRobot에 기여하고 싶으신가요?**\n참여 방법에 대해서는 [CONTRIBUTING.md](https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/CONTRIBUTING.md)를 참고하세요!\n\n**주요 기여자**\n\n- [Gaotian/Vector Wang](https://vector-wangel.github.io/)\n- [Zhuoyi Lu](https://lzhuoyi.github.io/Zhuoyi_Lu.github.io/): RL sim2real 배포, 실제 로봇 원격 조종(Xbox, VR, Joycon)\n- Yiyang Huang: RL & VLA 구현 (진행 중)\n- YCP: 원격 제어용 WebUI (진행 중)\n- [Lixing Zhang](https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/lixingzhang.com): 하드웨어 설계 개선\n- Nicole Yue: 문서 웹사이트 구축\n- Yuesong Wang: Mujoco 시뮬레이션\n\n\n이 프로젝트는 [LeRobot](https://github.com/huggingface/lerobot), [SO-100](https://github.com/TheRobotStudio/SO-ARM100), [Lekiwi](https://github.com/SIGRobotics-UIUC/LeKiwi), 그리고 [Bambot](https://github.com/timqian/bambot)의 도움으로 만들어진 작은 성과입니다. 이러한 세밀하고 전문적인 프로젝트 뒤에 있는 모든 재능 있는 기여자들에게 감사를 전합니다.\n\n이 프로젝트에 기여하고자 하는 분들과 협력하기를 기대합니다!\n\n## 소개\n\n[Gaotian/Vector Wang](https://vector-wangel.github.io/)\n\n저는 Rice University [RobotPi Lab](https://robotpilab.github.io/)에서 컴퓨터공학 대학원생으로, 강건한 객체 조작에 중점을 두고 있습니다. 우리는 가상 케이지와 깔때기, 물리 인지 세계 모델을 제안하여 Sim2real 격차를 줄이고 불확실성 하에서 강건한 조작을 달성하고자 합니다. 제 논문 중 하나인 Caging in Time은 최근 International Journal of Robotics Research (IJRR)에 게재 승인되었습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 2,
+        "rowsha": "FnKPS/bXlHw1Tuteknss4RWLuKVYiQYzfcXl2KT6+5Y=",
+        "originContent": "## 🚀 Get Started 🚀",
+        "translatedContent": "## 🚀 시작하기 🚀"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Vzspm0eoaJmJSKFFsr7yWcmQ0G9sPLgpO6OieAfskxQ=",
+        "originContent": "> [!NOTE] ",
+        "translatedContent": "> [!NOTE] "
+      },
+      {
+        "row": 5,
+        "rowsha": "gCoacyJgq5+hXgkDD1kkS4jI/qoxdtsVtR6RL41beCE=",
+        "originContent": "> If you are totally new to programming, please spend at least a day to get yourself familiar with basic Python, Ubuntu and Github (with the help of Google and AI). At least you should know how to setup ubuntu system, git clone, pip install, use intepreters (VS Code, Cursor, Pycharm, etc.) and directly run commands in the terminals.",
+        "translatedContent": "> 프로그래밍이 완전히 처음이라면, 최소 하루는 기본적인 Python, Ubuntu 및 Github 사용법에 익숙해지는데 시간을 투자하세요 (Google과 AI의 도움을 받으세요). 최소한 Ubuntu 시스템 설정, git clone, pip install, 인터프리터 사용(VS Code, Cursor, Pycharm 등) 및 터미널에서 명령어를 직접 실행하는 방법을 알아야 합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Ftehgl5zK+CC+Cf/A1CWVrvdX2qwhwQ7JgjYLjBKEWE=",
+        "originContent": "1. 💵 **Buy your parts**: [Bill of Materials](https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/material.html)",
+        "translatedContent": "1. 💵 **부품 구매하기**: [자재 명세서](https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/material.html)"
+      },
+      {
+        "row": 8,
+        "rowsha": "+PydqncMP1JVQGwxwiffd8561XI2h2/DCQGvB0SbN+Y=",
+        "originContent": "2. 🖨️ **Print your stuff**: [3D printing](https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/3d.html)",
+        "translatedContent": "2. 🖨️ **부품 출력하기**: [3D 프린팅](https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/3d.html)"
+      },
+      {
+        "row": 9,
+        "rowsha": "T9uiuFYjPjAsUfzJPWEffiO8cjsprAKtSu1qsdOJ1Gk=",
+        "originContent": "3. 🔨 ~~Avengers~~: [**Assemble**!](https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/assemble.html)",
+        "translatedContent": "3. 🔨 ~~어벤져스~~: [**조립하기!**](https://xlerobot.readthedocs.io/en/latest/hardware/getting_started/assemble.html)"
+      },
+      {
+        "row": 10,
+        "rowsha": "buI2S9B+u2+lKM5DUF4shywtA5HjWgZQMpcsYl2RQOc=",
+        "originContent": "4. 💻 **Software**: [Get your robot moving!](https://xlerobot.readthedocs.io/en/latest/software/index.html)",
+        "translatedContent": "4. 💻 **소프트웨어**: [로봇 움직이게 하기!](https://xlerobot.readthedocs.io/en/latest/software/index.html)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "fMu080v6eh/hFkmstsVs1QR9bj14O7X3mMQkwTJevBw=",
+        "originContent": "## Contribute",
+        "translatedContent": "## 기여하기"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "j6p/OR9wtWhka8LKp/SPPtC+hwMSnOfDWIrkwm/f7cg=",
+        "originContent": "**👋 Want to contribute to XLeRobot?**",
+        "translatedContent": "**👋 XLeRobot에 기여하고 싶으신가요?**"
+      },
+      {
+        "row": 18,
+        "rowsha": "XLWFkzCsogr5xLg1VMWwLpRnUQsj6EZ8E25vB1NKOd0=",
+        "originContent": "Please refer to [CONTRIBUTING.md](https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/CONTRIBUTING.md) for guidance on how to get involved!",
+        "translatedContent": "참여 방법에 대해서는 [CONTRIBUTING.md](https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/CONTRIBUTING.md)를 참고하세요!"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "jQ6IcldKAc+xLs4q7XuhcjbrLCz0o7CtbvX8BSVhXt4=",
+        "originContent": "**Main Contributors**",
+        "translatedContent": "**주요 기여자**"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Od1EJhUJG3w/I0OFqroiNrIK/39udsDFA2sCqF5+kyo=",
+        "originContent": "- [Gaotian/Vector Wang](https://vector-wangel.github.io/)",
+        "translatedContent": "- [Gaotian/Vector Wang](https://vector-wangel.github.io/)"
+      },
+      {
+        "row": 23,
+        "rowsha": "xfdMaHQuiSRcWPx9w/vrCtmAPmFe+9KqTw2EYd3/9vo=",
+        "originContent": "- [Zhuoyi Lu](https://lzhuoyi.github.io/Zhuoyi_Lu.github.io/): RL sim2real deploy, teleop on real robot (Xbox, VR, Joycon)",
+        "translatedContent": "- [Zhuoyi Lu](https://lzhuoyi.github.io/Zhuoyi_Lu.github.io/): RL sim2real 배포, 실제 로봇 원격 조종(Xbox, VR, Joycon)"
+      },
+      {
+        "row": 24,
+        "rowsha": "V3y8Qz6l6DxKGxFTRajhfDJsxqNKm3SPotZb/TgFFLA=",
+        "originContent": "- Yiyang Huang: RL & VLA implementation (ongoing)",
+        "translatedContent": "- Yiyang Huang: RL & VLA 구현 (진행 중)"
+      },
+      {
+        "row": 25,
+        "rowsha": "PveuVkGRSCFiEHDlmbqNZxsgxMNagDfiaee4l2Xdn2g=",
+        "originContent": "- YCP: WebUI for remote control (ongoing)",
+        "translatedContent": "- YCP: 원격 제어용 WebUI (진행 중)"
+      },
+      {
+        "row": 26,
+        "rowsha": "QifZ/Q7gXAAotwfcwza+/6yr7jwmwQHnEa26jV5cBDg=",
+        "originContent": "- [Lixing Zhang](https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/lixingzhang.com): Hardware design improvements",
+        "translatedContent": "- [Lixing Zhang](https://raw.githubusercontent.com/Vector-Wangel/XLeRobot/main/lixingzhang.com): 하드웨어 설계 개선"
+      },
+      {
+        "row": 27,
+        "rowsha": "lmUgYXkYhTrKCcUe57HcNtOoxD7uFRwYBbURy6OvvFw=",
+        "originContent": "- Nicole Yue: Documentation website setup",
+        "translatedContent": "- Nicole Yue: 문서 웹사이트 구축"
+      },
+      {
+        "row": 28,
+        "rowsha": "dV9u1fDlMPDvgoX6Xj9Q/zNP7ye6+SMvmNyZgFcGuLo=",
+        "originContent": "- Yuesong Wang: Mujoco simulation",
+        "translatedContent": "- Yuesong Wang: Mujoco 시뮬레이션"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "Yr5PDgE1MaXrNaAl5AtpuKLpnRn87T3HDlD7xz8S1IQ=",
+        "originContent": "This is just a small brick in the pyramid, made possible by [LeRobot](https://github.com/huggingface/lerobot), [SO-100](https://github.com/TheRobotStudio/SO-ARM100), [Lekiwi](https://github.com/SIGRobotics-UIUC/LeKiwi), and [Bambot](https://github.com/timqian/bambot). Thanks to all the talented contributors behind these detailed and professional projects.",
+        "translatedContent": "이 프로젝트는 [LeRobot](https://github.com/huggingface/lerobot), [SO-100](https://github.com/TheRobotStudio/SO-ARM100), [Lekiwi](https://github.com/SIGRobotics-UIUC/LeKiwi), 그리고 [Bambot](https://github.com/timqian/bambot)의 도움으로 만들어진 작은 성과입니다. 이러한 세밀하고 전문적인 프로젝트 뒤에 있는 모든 재능 있는 기여자들에게 감사를 전합니다."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "Fc0oDqtI1JMdEjGe+vlUzKGgbChIXCqSubV+RKkHh5c=",
+        "originContent": "Looking forward to collaborating with anyone interested in contributing to this project!",
+        "translatedContent": "이 프로젝트에 기여하고자 하는 분들과 협력하기를 기대합니다!"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "r5Zy4mI+93b5JuM86Tp0QeCow00Kbn8Km6azwbkx+Uo=",
+        "originContent": "## About me",
+        "translatedContent": "## 소개"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "264MZcqF3cm1JzZnEuV0Kg3ZB1oTqMfZxGaWtk/FjNg=",
+        "originContent": "[Gaotian/Vector Wang](https://vector-wangel.github.io/)",
+        "translatedContent": "[Gaotian/Vector Wang](https://vector-wangel.github.io/)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "t4auft6ZuzOUEpn3V5DsKXRhVzHu0kVGiZf36wgWbBs=",
+        "originContent": "I am a CS graduate student at Rice University [RobotPi Lab](https://robotpilab.github.io/), focusing on robust object manipulation, where we propse virtual cages and funnels and physics-aware world models to close the Sim2real gap and achieve robust manipulation under uncertainties. One of my papers, Caging in Time, has recently been accepted by International Journal of Robotics Research (IJRR).",
+        "translatedContent": "저는 Rice University [RobotPi Lab](https://robotpilab.github.io/)에서 컴퓨터공학 대학원생으로, 강건한 객체 조작에 중점을 두고 있습니다. 우리는 가상 케이지와 깔때기, 물리 인지 세계 모델을 제안하여 Sim2real 격차를 줄이고 불확실성 하에서 강건한 조작을 달성하고자 합니다. 제 논문 중 하나인 Caging in Time은 최근 International Journal of Robotics Research (IJRR)에 게재 승인되었습니다."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "I built XLeRobot as a personal hobby to instantiate my research theory, also to provide a low-cost platform for people who are interested in robotics and embodied AI to work with. \n\n[![Star History Chart](https://api.star-history.com/svg?repos=Vector-Wangel/XLeRobot&type=Timeline)](https://star-history.com/#Vector-Wangel/XLeRobot&Timeline)\n---\n\n## Citation\n\nIf you want, you can cite this work with:\n",
+    "ContentSha": "AdJR5wc3+Na0cFkS08PmCu3/1wdnK5gU+dmEmAYAb8M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "저는 제 연구 이론을 실체화하고, 로봇공학 및 구현된 AI에 관심 있는 사람들이 저렴한 비용으로 작업할 수 있는 플랫폼을 제공하기 위해 개인 취미로 XLeRobot을 만들었습니다.\n\n[![Star History Chart](https://api.star-history.com/svg?repos=Vector-Wangel/XLeRobot&type=Timeline)](https://star-history.com/#Vector-Wangel/XLeRobot&Timeline)\n---\n\n## 인용\n\n원하신다면, 이 작업을 다음과 같이 인용할 수 있습니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HO2LNcPiuqpEb2fBV7K9V5Qcv4erulQ35gTXaOkfmrA=",
+        "originContent": "I built XLeRobot as a personal hobby to instantiate my research theory, also to provide a low-cost platform for people who are interested in robotics and embodied AI to work with. ",
+        "translatedContent": "저는 제 연구 이론을 실체화하고, 로봇공학 및 구현된 AI에 관심 있는 사람들이 저렴한 비용으로 작업할 수 있는 플랫폼을 제공하기 위해 개인 취미로 XLeRobot을 만들었습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "QZmGJ157CVGneMP3jYBHUJdQw3B9kbEJAZqs++Y6IEA=",
+        "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=Vector-Wangel/XLeRobot&type=Timeline)](https://star-history.com/#Vector-Wangel/XLeRobot&Timeline)",
+        "translatedContent": "[![Star History Chart](https://api.star-history.com/svg?repos=Vector-Wangel/XLeRobot&type=Timeline)](https://star-history.com/#Vector-Wangel/XLeRobot&Timeline)"
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## 인용"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "a+U+EJGuoLJzEYJFOq1GHNCqrA2OETKe2KKDHQ5gkmA=",
+        "originContent": "If you want, you can cite this work with:",
+        "translatedContent": "원하신다면, 이 작업을 다음과 같이 인용할 수 있습니다:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bibtex\n@misc{wang2025xlerobot,\n    author = {Wang, Gaotian and Lu, Zhuoyi},\n    title = {XLeRobot: A Practical Low-cost Household Dual-Arm Mobile Robot Design for General Manipulation},\n    howpublished = \"\\url{https://github.com/Vector-Wangel/XLeRobot}\",\n    year = {2025}\n}\n```",
+    "ContentSha": "jOHdEBdTsoMNJLn2wFSEuJ2PRYfGCjxHQ2Yx15sRyy4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@misc{wang2025xlerobot,\n    author = {Wang, Gaotian and Lu, Zhuoyi},\n    title = {XLeRobot: A Practical Low-cost Household Dual-Arm Mobile Robot Design for General Manipulation},\n    howpublished = \"\\url{https://github.com/Vector-Wangel/XLeRobot}\",\n    year = {2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "IlmbDBa20SI0ZtIC/aNNSwrNaseCJ+vC3wlKz3sYif8=",
+        "originContent": "@misc{wang2025xlerobot,",
+        "translatedContent": "@misc{wang2025xlerobot,"
+      },
+      {
+        "row": 3,
+        "rowsha": "RITlj8/T5uL9P1alaRkg5FWFvL4bwos7Re3ibg/Ey/k=",
+        "originContent": "    author = {Wang, Gaotian and Lu, Zhuoyi},",
+        "translatedContent": "    author = {Wang, Gaotian and Lu, Zhuoyi},"
+      },
+      {
+        "row": 4,
+        "rowsha": "1xvg+7wgjJum+pemU5cJjD9un7evIod91CuavuB1NhQ=",
+        "originContent": "    title = {XLeRobot: A Practical Low-cost Household Dual-Arm Mobile Robot Design for General Manipulation},",
+        "translatedContent": "    title = {XLeRobot: A Practical Low-cost Household Dual-Arm Mobile Robot Design for General Manipulation},"
+      },
+      {
+        "row": 5,
+        "rowsha": "9C9kLjZ0dEmt/8jPUc12PHs2laX80KUiKic2QhuJbCk=",
+        "originContent": "    howpublished = \"\\url{https://github.com/Vector-Wangel/XLeRobot}\",",
+        "translatedContent": "    howpublished = \"\\url{https://github.com/Vector-Wangel/XLeRobot}\","
+      },
+      {
+        "row": 6,
+        "rowsha": "ezumUK23aW6yr9nJZXB1Jj/wjf0MKfat+oSrheD7zRY=",
+        "originContent": "    year = {2025}",
+        "translatedContent": "    year = {2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "---![Generated Image August 27, 2025 - 4_58PM](https://github.com/user-attachments/assets/682ef049-bb42-4b50-bf98-74d6311e774d)\n\n\n## 🪧 Disclaimer 🪧\n\n> [!NOTE]\n> If you build, buy, or develop a XLeRobot based on this repo, you will be fully responsible for all the physical and mental damages it does to you or others.\n",
+    "ContentSha": "kBdWM74iDLGGblvdbRUjiZBg19kwfDGbaDIg8sjuT7w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "---![생성된 이미지 2025년 8월 27일 - 오후 4:58](https://github.com/user-attachments/assets/682ef049-bb42-4b50-bf98-74d6311e774d)\n\n\n## 🪧 면책 조항 🪧\n\n> [!NOTE]\n> 이 저장소를 기반으로 XLeRobot을 제작, 구매 또는 개발하는 경우, 해당 로봇이 본인 또는 타인에게 끼치는 모든 신체적 및 정신적 피해에 대해 전적으로 책임을 집니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CYspIUZA00NTpxcNEWP74hJrJG+ux/bMAqaxS7a/3Do=",
+        "originContent": "---![Generated Image August 27, 2025 - 4_58PM](https://github.com/user-attachments/assets/682ef049-bb42-4b50-bf98-74d6311e774d)",
+        "translatedContent": "---![생성된 이미지 2025년 8월 27일 - 오후 4:58](https://github.com/user-attachments/assets/682ef049-bb42-4b50-bf98-74d6311e774d)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "FWxCkykfsEgXHps/vHdck3rnu275G5qjas3uAaxl7/Q=",
+        "originContent": "## 🪧 Disclaimer 🪧",
+        "translatedContent": "## 🪧 면책 조항 🪧"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 7,
+        "rowsha": "D+f1yJeuPVo11aEesR9oluCh/Pcu+/0+019Kc89G/xQ=",
+        "originContent": "> If you build, buy, or develop a XLeRobot based on this repo, you will be fully responsible for all the physical and mental damages it does to you or others.",
+        "translatedContent": "> 이 저장소를 기반으로 XLeRobot을 제작, 구매 또는 개발하는 경우, 해당 로봇이 본인 또는 타인에게 끼치는 모든 신체적 및 정신적 피해에 대해 전적으로 책임을 집니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
