@@ -1,0 +1,1383 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2412.09606\">Feat2GS: Probing Visual Foundation Models with Gaussian Splatting</a>\n</h2>\n\n<h5 align=\"center\">\n\n[![arXiv](https://img.shields.io/badge/Arxiv-2412.09606-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.09606) \n[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://fanegg.github.io/Feat2GS/)  [![youtube](https://img.shields.io/badge/Video-E33122?logo=Youtube)](https://youtu.be/4fT5lzcAJqo?si=_fCSIuXNBSmov2VA)  [![Gradio](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-orange)](https://huggingface.co/spaces/endless-ai/Feat2GS)  [![X](https://img.shields.io/badge/@Yue%20Chen-black?logo=X)](https://twitter.com/faneggchen)  [![Bluesky](https://img.shields.io/badge/@Yue%20Chen-white?logo=Bluesky)](https://bsky.app/profile/fanegg.bsky.social)\n\n[Yue Chen](https://fanegg.github.io/),\n[Xingyu Chen](https://rover-xingyu.github.io/),\n[Anpei Chen](https://apchenstu.github.io/),\n[Gerard Pons-Moll](https://virtualhumans.mpi-inf.mpg.de/),\n[Yuliang Xiu](https://xiuyuliang.cn/)\n</h5>\n\n<div align=\"center\">\nThis repository is the official implementation of Feat2GS, a unified framework to probe “texturel and geometry awareness” of visual foundation models. Novel view synthesis serves as an effective proxy for 3D evaluation.\n</div>\n<br>\n\nhttps://github.com/user-attachments/assets/07ebb8e1-6001-47bf-bf74-984b0032cc17\n\n\n## Updates\n\n- [July 10, 2025] Add a new evaluation of VGGT encoder and decoder features. See the results [here](https://raw.githubusercontent.com/fanegg/Feat2GS/main/assets/Feat2GS_Benchmark.pdf).\n\n## Get Started\n\n### Installation\n1. Clone Feat2GS and download pre-trained model from [DUSt3R](https://github.com/naver/dust3r)/[MASt3R](https://github.com/naver/mast3r).",
+    "ContentSha": "KoTgEzp2o1sraNuueC/bhbUFwP0YW5KVcUvei3y3uyE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2412.09606\">Feat2GS: Explorando modelos visuales fundamentales con Gaussian Splatting</a>\n</h2>\n\n<h5 align=\"center\">\n\n[![arXiv](https://img.shields.io/badge/Arxiv-2412.09606-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.09606) \n[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://fanegg.github.io/Feat2GS/)  [![youtube](https://img.shields.io/badge/Video-E33122?logo=Youtube)](https://youtu.be/4fT5lzcAJqo?si=_fCSIuXNBSmov2VA)  [![Gradio](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-orange)](https://huggingface.co/spaces/endless-ai/Feat2GS)  [![X](https://img.shields.io/badge/@Yue%20Chen-black?logo=X)](https://twitter.com/faneggchen)  [![Bluesky](https://img.shields.io/badge/@Yue%20Chen-white?logo=Bluesky)](https://bsky.app/profile/fanegg.bsky.social)\n\n[Yue Chen](https://fanegg.github.io/),\n[Xingyu Chen](https://rover-xingyu.github.io/),\n[Anpei Chen](https://apchenstu.github.io/),\n[Gerard Pons-Moll](https://virtualhumans.mpi-inf.mpg.de/),\n[Yuliang Xiu](https://xiuyuliang.cn/)\n</h5>\n\n<div align=\"center\">\nEste repositorio es la implementación oficial de Feat2GS, un marco unificado para explorar la \"conciencia de textura y geometría\" de los modelos visuales fundamentales. La síntesis de vistas novedosas sirve como un proxy efectivo para la evaluación 3D.\n</div>\n<br>\n\nhttps://github.com/user-attachments/assets/07ebb8e1-6001-47bf-bf74-984b0032cc17\n\n\n## Actualizaciones\n\n- [10 de julio de 2025] Añadida una nueva evaluación de las características del codificador y decodificador VGGT. Ver los resultados [aquí](https://raw.githubusercontent.com/fanegg/Feat2GS/main/assets/Feat2GS_Benchmark.pdf).\n\n## Comenzar\n\n### Instalación\n1. Clonar Feat2GS y descargar el modelo preentrenado desde [DUSt3R](https://github.com/naver/dust3r)/[MASt3R](https://github.com/naver/mast3r).",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "vC9c/qs7/NxfXeQjCEj48IRriejMFB98IrWPNXpAZUI=",
+        "originContent": "<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2412.09606\">Feat2GS: Probing Visual Foundation Models with Gaussian Splatting</a>",
+        "translatedContent": "<h2 align=\"center\"> <a href=\"https://arxiv.org/abs/2412.09606\">Feat2GS: Explorando modelos visuales fundamentales con Gaussian Splatting</a>"
+      },
+      {
+        "row": 3,
+        "rowsha": "zvkhCrDoF8KgpHtRKAFP1Wd8gMoco105aBgHZaKSw3E=",
+        "originContent": "</h2>",
+        "translatedContent": "</h2>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "8+zfK9kBhhsLwJaEPhEVyCGp11UJQ3HBO6F/B2a8x7E=",
+        "originContent": "<h5 align=\"center\">",
+        "translatedContent": "<h5 align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "MKGX+bHo9gwbTVAMJcblRlOvV0zqPumBDhbClQzjH6Q=",
+        "originContent": "[![arXiv](https://img.shields.io/badge/Arxiv-2412.09606-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.09606) ",
+        "translatedContent": "[![arXiv](https://img.shields.io/badge/Arxiv-2412.09606-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.09606) "
+      },
+      {
+        "row": 8,
+        "rowsha": "do31fv9FL0PIXYX9mQnqYIhVQxRHEDwdEjp31d3iYjo=",
+        "originContent": "[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://fanegg.github.io/Feat2GS/)  [![youtube](https://img.shields.io/badge/Video-E33122?logo=Youtube)](https://youtu.be/4fT5lzcAJqo?si=_fCSIuXNBSmov2VA)  [![Gradio](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-orange)](https://huggingface.co/spaces/endless-ai/Feat2GS)  [![X](https://img.shields.io/badge/@Yue%20Chen-black?logo=X)](https://twitter.com/faneggchen)  [![Bluesky](https://img.shields.io/badge/@Yue%20Chen-white?logo=Bluesky)](https://bsky.app/profile/fanegg.bsky.social)",
+        "translatedContent": "[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://fanegg.github.io/Feat2GS/)  [![youtube](https://img.shields.io/badge/Video-E33122?logo=Youtube)](https://youtu.be/4fT5lzcAJqo?si=_fCSIuXNBSmov2VA)  [![Gradio](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-orange)](https://huggingface.co/spaces/endless-ai/Feat2GS)  [![X](https://img.shields.io/badge/@Yue%20Chen-black?logo=X)](https://twitter.com/faneggchen)  [![Bluesky](https://img.shields.io/badge/@Yue%20Chen-white?logo=Bluesky)](https://bsky.app/profile/fanegg.bsky.social)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "nRSrYW1mw81kFgtJ/xvkDoIk1P4RQjgFs0Za6PPtSj4=",
+        "originContent": "[Yue Chen](https://fanegg.github.io/),",
+        "translatedContent": "[Yue Chen](https://fanegg.github.io/),"
+      },
+      {
+        "row": 11,
+        "rowsha": "5+y0CDtS3zaS4hvM063Knd15EjtsKU8El2uogxq6vyE=",
+        "originContent": "[Xingyu Chen](https://rover-xingyu.github.io/),",
+        "translatedContent": "[Xingyu Chen](https://rover-xingyu.github.io/),"
+      },
+      {
+        "row": 12,
+        "rowsha": "LUbk3k1jI3Mc89dggAoiaR0Wiu/9orP+SjmvscwawE4=",
+        "originContent": "[Anpei Chen](https://apchenstu.github.io/),",
+        "translatedContent": "[Anpei Chen](https://apchenstu.github.io/),"
+      },
+      {
+        "row": 13,
+        "rowsha": "KMB51Qk4jiAlwf6DK66RIzsxUoXYY5vJuR0hHqwZ/GI=",
+        "originContent": "[Gerard Pons-Moll](https://virtualhumans.mpi-inf.mpg.de/),",
+        "translatedContent": "[Gerard Pons-Moll](https://virtualhumans.mpi-inf.mpg.de/),"
+      },
+      {
+        "row": 14,
+        "rowsha": "SevLIVxRfCyl2HuxWSPV+1zOlZvJzg2voawhyv8r+BY=",
+        "originContent": "[Yuliang Xiu](https://xiuyuliang.cn/)",
+        "translatedContent": "[Yuliang Xiu](https://xiuyuliang.cn/)"
+      },
+      {
+        "row": 15,
+        "rowsha": "YM0w/+Gy2nPkE/+F3BY5fsV16Jbdv4iAtRjMamnhSqE=",
+        "originContent": "</h5>",
+        "translatedContent": "</h5>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+        "originContent": "<div align=\"center\">",
+        "translatedContent": "<div align=\"center\">"
+      },
+      {
+        "row": 18,
+        "rowsha": "6vpf0mDzfMZdRfwTeScabW4busZywD2188E/jZHF7fA=",
+        "originContent": "This repository is the official implementation of Feat2GS, a unified framework to probe “texturel and geometry awareness” of visual foundation models. Novel view synthesis serves as an effective proxy for 3D evaluation.",
+        "translatedContent": "Este repositorio es la implementación oficial de Feat2GS, un marco unificado para explorar la \"conciencia de textura y geometría\" de los modelos visuales fundamentales. La síntesis de vistas novedosas sirve como un proxy efectivo para la evaluación 3D."
+      },
+      {
+        "row": 19,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 20,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "7etccVSGoIaHFRrJ/VR82YagRjZcogyVSyfpq1ZMWeE=",
+        "originContent": "https://github.com/user-attachments/assets/07ebb8e1-6001-47bf-bf74-984b0032cc17",
+        "translatedContent": "https://github.com/user-attachments/assets/07ebb8e1-6001-47bf-bf74-984b0032cc17"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "33rz/QaTx1fSJq1J/I+4UruMGDlkyUTWsPmF1Y9FSSI=",
+        "originContent": "## Updates",
+        "translatedContent": "## Actualizaciones"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "q7cB1jdhwc6h3zVlrL2Y+iRRzwPhePSjuPBkxKKis+g=",
+        "originContent": "- [July 10, 2025] Add a new evaluation of VGGT encoder and decoder features. See the results [here](https://raw.githubusercontent.com/fanegg/Feat2GS/main/assets/Feat2GS_Benchmark.pdf).",
+        "translatedContent": "- [10 de julio de 2025] Añadida una nueva evaluación de las características del codificador y decodificador VGGT. Ver los resultados [aquí](https://raw.githubusercontent.com/fanegg/Feat2GS/main/assets/Feat2GS_Benchmark.pdf)."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "fdzSvcVmecTeZF5A18WcXJ925k4OTH/HculV8+p+hkk=",
+        "originContent": "## Get Started",
+        "translatedContent": "## Comenzar"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": "### Instalación"
+      },
+      {
+        "row": 32,
+        "rowsha": "49zZPtxtZ5+TWXD45pS4+BoiQbybEfvyYgPlLymg490=",
+        "originContent": "1. Clone Feat2GS and download pre-trained model from [DUSt3R](https://github.com/naver/dust3r)/[MASt3R](https://github.com/naver/mast3r).",
+        "translatedContent": "1. Clonar Feat2GS y descargar el modelo preentrenado desde [DUSt3R](https://github.com/naver/dust3r)/[MASt3R](https://github.com/naver/mast3r)."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/fanegg/Feat2GS.git\ncd Feat2GS/submodules/mast3r/\nmkdir -p checkpoints/\nwget https://download.europe.naverlabs.com/ComputerVision/DUSt3R/DUSt3R_ViTLarge_BaseDecoder_512_dpt.pth -P checkpoints/\nwget https://download.europe.naverlabs.com/ComputerVision/MASt3R/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric.pth -P checkpoints/\ncd ../../\n```",
+    "ContentSha": "t3or5GL3W1iHOFCNQpqG/FIws3ZkuzWkP3WcN7GbExY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/fanegg/Feat2GS.git\ncd Feat2GS/submodules/mast3r/\nmkdir -p checkpoints/\nwget https://download.europe.naverlabs.com/ComputerVision/DUSt3R/DUSt3R_ViTLarge_BaseDecoder_512_dpt.pth -P checkpoints/\nwget https://download.europe.naverlabs.com/ComputerVision/MASt3R/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric.pth -P checkpoints/\ncd ../../\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "KNWtOD9YWyOCW8xPxzepXipNjMc68Rr0TrCdpC2pKlk=",
+        "originContent": "git clone https://github.com/fanegg/Feat2GS.git",
+        "translatedContent": "git clone https://github.com/fanegg/Feat2GS.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "hQN4ROabtCzgGU3mdCndQQ5N1zty8ZM7DOH/QxEWgh0=",
+        "originContent": "cd Feat2GS/submodules/mast3r/",
+        "translatedContent": "cd Feat2GS/submodules/mast3r/"
+      },
+      {
+        "row": 4,
+        "rowsha": "h7uOu06BN+buh8TKgyuA/eq4aI2lqysF8zGhRzoY/pg=",
+        "originContent": "mkdir -p checkpoints/",
+        "translatedContent": "mkdir -p checkpoints/"
+      },
+      {
+        "row": 5,
+        "rowsha": "oy+nlUCKJBElJFas0wcZ9Gihz4tPfXfFGMDWhLH0blg=",
+        "originContent": "wget https://download.europe.naverlabs.com/ComputerVision/DUSt3R/DUSt3R_ViTLarge_BaseDecoder_512_dpt.pth -P checkpoints/",
+        "translatedContent": "wget https://download.europe.naverlabs.com/ComputerVision/DUSt3R/DUSt3R_ViTLarge_BaseDecoder_512_dpt.pth -P checkpoints/"
+      },
+      {
+        "row": 6,
+        "rowsha": "RE38fqpFJve3Kl7vJK2pnhH01H0H+ytsM7HCJQfb/dg=",
+        "originContent": "wget https://download.europe.naverlabs.com/ComputerVision/MASt3R/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric.pth -P checkpoints/",
+        "translatedContent": "wget https://download.europe.naverlabs.com/ComputerVision/MASt3R/MASt3R_ViTLarge_BaseDecoder_512_catmlpdpt_metric.pth -P checkpoints/"
+      },
+      {
+        "row": 7,
+        "rowsha": "VqqupK46U7dreT5Sz49BRVCaRbnekFlKpLfe/kMBdts=",
+        "originContent": "cd ../../",
+        "translatedContent": "cd ../../"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2. Create the environment, here we show an example using conda.",
+    "ContentSha": "uFFgdlSgaQmYZfoX1oCHZbkjMNTC1PduC9MtdEalzM0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. Crear el entorno, aquí mostramos un ejemplo usando conda.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. Crear el entorno, aquí mostramos un ejemplo usando conda."
+      },
+      {
+        "row": 2,
+        "rowsha": "31Dfad6AcdyB5XsnbjSCkDHWMyt/0ZHFBQUxR6ts+G0=",
+        "originContent": "2. Create the environment, here we show an example using conda.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nconda create -n feat2gs python=3.11 cmake=3.14.0\nconda activate feat2gs\npip install \"torch==2.5.1\" \"torchvision==0.20.1\" \"numpy<2\" --index-url https://download.pytorch.org/whl/cu121  # use the correct version of cuda for your system\ncd Feat2GS/\npip install -r requirements.txt\npip install submodules/simple-knn\n```",
+    "ContentSha": "8sX30UVJKN5V1754DhfrgXqap6bLkynDqYrPBjKrfJs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nconda create -n feat2gs python=3.11 cmake=3.14.0\nconda activate feat2gs\npip install \"torch==2.5.1\" \"torchvision==0.20.1\" \"numpy<2\" --index-url https://download.pytorch.org/whl/cu121  # use the correct version of cuda for your system\ncd Feat2GS/\npip install -r requirements.txt\npip install submodules/simple-knn\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TU8r4YRtPy0BPhGvTAclNrKD5SJsHWJhaGrgIaywFgM=",
+        "originContent": "conda create -n feat2gs python=3.11 cmake=3.14.0",
+        "translatedContent": "conda create -n feat2gs python=3.11 cmake=3.14.0"
+      },
+      {
+        "row": 3,
+        "rowsha": "7kjIC79MlG/MpK8QuXLdSyowA2dowatnh80qKkWpaCU=",
+        "originContent": "conda activate feat2gs",
+        "translatedContent": "conda activate feat2gs"
+      },
+      {
+        "row": 4,
+        "rowsha": "ktJCkyrGjdIAfji4IEOoIOpMHJ4gB5iwrS3FK8NcHNM=",
+        "originContent": "pip install \"torch==2.5.1\" \"torchvision==0.20.1\" \"numpy<2\" --index-url https://download.pytorch.org/whl/cu121  # use the correct version of cuda for your system",
+        "translatedContent": "pip install \"torch==2.5.1\" \"torchvision==0.20.1\" \"numpy<2\" --index-url https://download.pytorch.org/whl/cu121  # use the correct version of cuda for your system"
+      },
+      {
+        "row": 5,
+        "rowsha": "nh53AYypS0/Tr1LsO5AhIi+IKa7hThkX9h50d8NB59c=",
+        "originContent": "cd Feat2GS/",
+        "translatedContent": "cd Feat2GS/"
+      },
+      {
+        "row": 6,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 7,
+        "rowsha": "99v7zxn+r+Rpv8lk939YdtT1GG9vsNPW8rkppdV+Uas=",
+        "originContent": "pip install submodules/simple-knn",
+        "translatedContent": "pip install submodules/simple-knn"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n3. Optional but highly suggested, compile the cuda kernels for RoPE (as in CroCo v2).",
+    "ContentSha": "gfUkk9XXLVcOc/X68AxDeWPu6UH4LwsEWe8QIGoeGIA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. Opcional pero altamente recomendado, compilar los kernels de cuda para RoPE (como en CroCo v2).\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Opcional pero altamente recomendado, compilar los kernels de cuda para RoPE (como en CroCo v2)."
+      },
+      {
+        "row": 2,
+        "rowsha": "0lSA6isCfWwhKrJIZBCgjjY9U1ssabLnih2YbZYiYQw=",
+        "originContent": "3. Optional but highly suggested, compile the cuda kernels for RoPE (as in CroCo v2).",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# DUST3R relies on RoPE positional embeddings for which you can compile some cuda kernels for faster runtime.\ncd submodules/mast3r/dust3r/croco/models/curope/\npython setup.py build_ext --inplace\ncd ../../../../../../\n```",
+    "ContentSha": "7fY0ILYKdws3HKMqxxU2dhLdFihHG4/TdIIazN/1cGc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# DUST3R relies on RoPE positional embeddings for which you can compile some cuda kernels for faster runtime.\ncd submodules/mast3r/dust3r/croco/models/curope/\npython setup.py build_ext --inplace\ncd ../../../../../../\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "bXaezCPkCY9nE+2TYEI9f1Qp5QEiWdAwfWeyNb1Z87c=",
+        "originContent": "# DUST3R relies on RoPE positional embeddings for which you can compile some cuda kernels for faster runtime.",
+        "translatedContent": "# DUST3R relies on RoPE positional embeddings for which you can compile some cuda kernels for faster runtime."
+      },
+      {
+        "row": 3,
+        "rowsha": "nDNvDTPP/t8wB+yYbxHpNEiNSFda3PiARDBZ3D4BYf8=",
+        "originContent": "cd submodules/mast3r/dust3r/croco/models/curope/",
+        "translatedContent": "cd submodules/mast3r/dust3r/croco/models/curope/"
+      },
+      {
+        "row": 4,
+        "rowsha": "EO6iGOJXxFWOCJlIhhvRylaZpoa1R8PznZM9jDek55w=",
+        "originContent": "python setup.py build_ext --inplace",
+        "translatedContent": "python setup.py build_ext --inplace"
+      },
+      {
+        "row": 5,
+        "rowsha": "3bSltk/gaM8Hghqf4THiH0Z4//OVZK2ZQMFL+cib1H8=",
+        "originContent": "cd ../../../../../../",
+        "translatedContent": "cd ../../../../../../"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n4. (Optional) follow [this instruction](https://github.com/cvlab-columbia/zero123?tab=readme-ov-file#novel-view-synthesis-1) to install requirements for probing [Zero123](https://github.com/cvlab-columbia/zero123).\n\n### Usage\n1. Data preparation (We provide our evaluation and inference datasets: [link](https://drive.google.com/file/d/1PLTFcvJfiPucrB-pIwfp5QG-AIHcJdjN/view?usp=drive_link))",
+    "ContentSha": "cH1zYhlIZItViD2dAGGso0EL2PtqnDvQyH9Ktfl2gtA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n4. (Opcional) siga [esta instrucción](https://github.com/cvlab-columbia/zero123?tab=readme-ov-file#novel-view-synthesis-1) para instalar los requisitos para probar [Zero123](https://github.com/cvlab-columbia/zero123).\n\n### Uso\n1. Preparación de datos (Proporcionamos nuestros conjuntos de datos de evaluación e inferencia: [enlace](https://drive.google.com/file/d/1PLTFcvJfiPucrB-pIwfp5QG-AIHcJdjN/view?usp=drive_link))",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lW0arfkjUGgMnZrKbztrQvPJ+PRSqRSv0WPSe+jqhJ0=",
+        "originContent": "4. (Optional) follow [this instruction](https://github.com/cvlab-columbia/zero123?tab=readme-ov-file#novel-view-synthesis-1) to install requirements for probing [Zero123](https://github.com/cvlab-columbia/zero123).",
+        "translatedContent": "4. (Opcional) siga [esta instrucción](https://github.com/cvlab-columbia/zero123?tab=readme-ov-file#novel-view-synthesis-1) para instalar los requisitos para probar [Zero123](https://github.com/cvlab-columbia/zero123)."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+        "originContent": "### Usage",
+        "translatedContent": "### Uso"
+      },
+      {
+        "row": 5,
+        "rowsha": "rq2jIPDRpiyMDB1q1gxKG4WJV8c0+oPs+v1cPXknDSs=",
+        "originContent": "1. Data preparation (We provide our evaluation and inference datasets: [link](https://drive.google.com/file/d/1PLTFcvJfiPucrB-pIwfp5QG-AIHcJdjN/view?usp=drive_link))",
+        "translatedContent": "1. Preparación de datos (Proporcionamos nuestros conjuntos de datos de evaluación e inferencia: [enlace](https://drive.google.com/file/d/1PLTFcvJfiPucrB-pIwfp5QG-AIHcJdjN/view?usp=drive_link))"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n  cd <data_root>/Feat2GS/\n```",
+    "ContentSha": "+ee1sZBWaUwnYmQmwWvNhS5YM96uUlTd9jD5ik88zfk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  cd <data_root>/Feat2GS/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "+7+dl+U+EoaO9zYcHApeTbyqn0QleN5p/HX5yoD80vs=",
+        "originContent": "  cd <data_root>/Feat2GS/",
+        "translatedContent": "  cd <data_root>/Feat2GS/"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n> If you want to build custom datasets, please follow and edit:\n> ```\n> build_dataset/0_create_json.py ## create dataset_split.json to split train/test set\n> build_dataset/1_create_feat2gs_dataset.py ## use dataset_split.json to create dataset\n> ```\n\n\n2. Evaluate Visual Foundation Models:\n\n  | Step | Description (link to command) |\n  |------|-------------|\n  | (1)  | [DUSt3R initialization & Feature extraction](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L245-L250) |\n  | (2)  | [Readout 3DGS from features & Jointly optimize pose](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L253-L262) |\n  | (3)  | [Test pose initialization](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L265-L270) |\n  | (4)  | [Render test view for evaluation](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L273-L282) |\n  | (5)  | [Metric](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L298-L301) |\n  | (Optional)  | [Render video with generated trajectory](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L304-L315) |\n",
+    "ContentSha": "CWDH653XyBMUo8foLOLXi6MJ1YUzkXPN+BA9THm2+9s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> Si desea construir conjuntos de datos personalizados, por favor siga y edite:\n> ```\n> build_dataset/0_create_json.py ## crear dataset_split.json para dividir el conjunto de entrenamiento/prueba\n> build_dataset/1_create_feat2gs_dataset.py ## usar dataset_split.json para crear el conjunto de datos\n> ```\n\n\n2. Evaluar Modelos Fundamentales Visuales:\n\n  | Paso | Descripción (enlace al comando) |\n  |------|-------------|\n  | (1)  | [Inicialización DUSt3R y extracción de características](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L245-L250) |\n  | (2)  | [Lectura 3DGS de características y optimización conjunta de la pose](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L253-L262) |\n  | (3)  | [Inicialización de pose de prueba](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L265-L270) |\n  | (4)  | [Renderizar vista de prueba para evaluación](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L273-L282) |\n  | (5)  | [Métrica](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L298-L301) |\n  | (Opcional)  | [Renderizar video con trayectoria generada](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L304-L315) |\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2qw5xxkUMsasLb/ww3H9C9IiCltB+1W6aWjpJYvUKng=",
+        "originContent": "> If you want to build custom datasets, please follow and edit:",
+        "translatedContent": "> Si desea construir conjuntos de datos personalizados, por favor siga y edite:"
+      },
+      {
+        "row": 3,
+        "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+        "originContent": "> ```",
+        "translatedContent": "> ```"
+      },
+      {
+        "row": 4,
+        "rowsha": "IdZFvnXuklfFm50cPyn9WjWNi/xu8CV7QVACaavvYdw=",
+        "originContent": "> build_dataset/0_create_json.py ## create dataset_split.json to split train/test set",
+        "translatedContent": "> build_dataset/0_create_json.py ## crear dataset_split.json para dividir el conjunto de entrenamiento/prueba"
+      },
+      {
+        "row": 5,
+        "rowsha": "dCWFOS1Yef/haSB3/luqLngTG+cCyliSlLozRGeu/lw=",
+        "originContent": "> build_dataset/1_create_feat2gs_dataset.py ## use dataset_split.json to create dataset",
+        "translatedContent": "> build_dataset/1_create_feat2gs_dataset.py ## usar dataset_split.json para crear el conjunto de datos"
+      },
+      {
+        "row": 6,
+        "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+        "originContent": "> ```",
+        "translatedContent": "> ```"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "GITcr/mrtI+NQmTwFdyeZMKVeHVHxBeWndDDrTxmqHk=",
+        "originContent": "2. Evaluate Visual Foundation Models:",
+        "translatedContent": "2. Evaluar Modelos Fundamentales Visuales:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "2j5Ec0DENZGlvj7M3mJMVRNmx3fZJOJKsby+NFxDNQc=",
+        "originContent": "  | Step | Description (link to command) |",
+        "translatedContent": "  | Paso | Descripción (enlace al comando) |"
+      },
+      {
+        "row": 12,
+        "rowsha": "UhIH0dBNvGPUSlO1WMiUg8zk6vBI8ffwpzu2dfzavoo=",
+        "originContent": "  |------|-------------|",
+        "translatedContent": "  |------|-------------|"
+      },
+      {
+        "row": 13,
+        "rowsha": "RXhTxD9BP8kQ45u7ehVTyW6wGrkkLdwBHaruM1JpqwU=",
+        "originContent": "  | (1)  | [DUSt3R initialization & Feature extraction](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L245-L250) |",
+        "translatedContent": "  | (1)  | [Inicialización DUSt3R y extracción de características](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L245-L250) |"
+      },
+      {
+        "row": 14,
+        "rowsha": "HBTR6SLGNvU0KGiSM875VqufgjyutD4Xy2nohe7A+uI=",
+        "originContent": "  | (2)  | [Readout 3DGS from features & Jointly optimize pose](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L253-L262) |",
+        "translatedContent": "  | (2)  | [Lectura 3DGS de características y optimización conjunta de la pose](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L253-L262) |"
+      },
+      {
+        "row": 15,
+        "rowsha": "h6iM7jng/Pu77UbILu621i77UnoPNu3Hc8yO/WvAJUA=",
+        "originContent": "  | (3)  | [Test pose initialization](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L265-L270) |",
+        "translatedContent": "  | (3)  | [Inicialización de pose de prueba](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L265-L270) |"
+      },
+      {
+        "row": 16,
+        "rowsha": "dTPz9LyKUsKFG5IhO49StcEw14CilZGR1Lr/FXzArp4=",
+        "originContent": "  | (4)  | [Render test view for evaluation](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L273-L282) |",
+        "translatedContent": "  | (4)  | [Renderizar vista de prueba para evaluación](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L273-L282) |"
+      },
+      {
+        "row": 17,
+        "rowsha": "CHg2+xnfa+qJtcFOYJQvXSwoH4rKvG/ogz5lcozy6YM=",
+        "originContent": "  | (5)  | [Metric](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L298-L301) |",
+        "translatedContent": "  | (5)  | [Métrica](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L298-L301) |"
+      },
+      {
+        "row": 18,
+        "rowsha": "8M6NKUO2Xu1jKQQEj42nqRrwOk/jVPU25gyW6fsUsSg=",
+        "originContent": "  | (Optional)  | [Render video with generated trajectory](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L304-L315) |",
+        "translatedContent": "  | (Opcional)  | [Renderizar video con trayectoria generada](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L304-L315) |"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n  # Run evaluation for all datasets, all VFM features, all probing modes\n  bash scripts/run_feat2gs_eval_parallel.sh\n\n  # (Example) Run evaluation for a single scene, DINO feature, Geometry mode\n  bash scripts/run_feat2gs_eval.sh\n```",
+    "ContentSha": "sDivlyr/+adO2YJPhSeNwqfsEDux20gr7z+03kCeeTk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  # Run evaluation for all datasets, all VFM features, all probing modes\n  bash scripts/run_feat2gs_eval_parallel.sh\n\n  # (Example) Run evaluation for a single scene, DINO feature, Geometry mode\n  bash scripts/run_feat2gs_eval.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "kWMulYIzkqaPC3Q8+D8w5jY0jo61xZkOrxnPxl0pS+Q=",
+        "originContent": "  # Run evaluation for all datasets, all VFM features, all probing modes",
+        "translatedContent": "  # Run evaluation for all datasets, all VFM features, all probing modes"
+      },
+      {
+        "row": 3,
+        "rowsha": "zcupHEvjq3Xeb/bqEdc8lkSX6nsqDaYmdJC/DqAPJVE=",
+        "originContent": "  bash scripts/run_feat2gs_eval_parallel.sh",
+        "translatedContent": "  bash scripts/run_feat2gs_eval_parallel.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "E54ocO3goN2/aHKIptcUa74dW2zEgUGkSFv6AV5wzAU=",
+        "originContent": "  # (Example) Run evaluation for a single scene, DINO feature, Geometry mode",
+        "translatedContent": "  # (Example) Run evaluation for a single scene, DINO feature, Geometry mode"
+      },
+      {
+        "row": 6,
+        "rowsha": "uPCoM4eS1/0ZEcPTzEyg1GSeq7TGp3L6MbrYdXEyQfs=",
+        "originContent": "  bash scripts/run_feat2gs_eval.sh",
+        "translatedContent": "  bash scripts/run_feat2gs_eval.sh"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "> [!NOTE]\n> To run experiments in parallel, we added a **GPU lock** feature to ensure only one evaluation experiment runs per GPU. Once an experiment finishes, the GPU is automatically unlocked. **If interrupted by `Ctrl+C`, the GPU won’t be unlocked automatically.** To fix this, manually delete the `.lock` files in your `LOCK_DIR`. To disable this feature, comment out these lines in the script:\n    [L4-L5](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L4-L5),\n    [L9-L22](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L9-L22),\n    [L223-L233](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L223-L233),\n    [L330-L331](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L330-L331).\n\n  | Config | Operation |\n  |--------|-----------------|\n  | GPU | Edit in [`<AVAILABLE_GPUS>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L7) |\n  | Dataset | Edit in [`<SCENES[$Dataset]>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L105-L111) |\n  | Scene | Edit in [`<SCENES_$Dataset>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L31-L99) |\n  | Visual Foundation Model | Edit in [`<FEATURES>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L120-L162) |\n  | Probing Mode | Edit in [`<MODELS>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L181-L188) |\n  | Inference-only Mode | Comment out STEP (3)(4)(5) in [`execute_command`](https://github.com/fanegg/Feat2GS/blob/main/scripts/run_feat2gs_eval_parallel.sh#L325-L327) |\n",
+    "ContentSha": "CxEKrKUkjBaGZ2KPGpeIHqs4nJaP3/kbISxKmrwJBRI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> [!NOTA]\n> Para ejecutar experimentos en paralelo, añadimos una función de **bloqueo de GPU** para asegurar que solo se ejecute un experimento de evaluación por GPU. Una vez que un experimento termina, la GPU se desbloquea automáticamente. **Si se interrumpe con `Ctrl+C`, la GPU no se desbloqueará automáticamente.** Para solucionar esto, elimine manualmente los archivos `.lock` en su `LOCK_DIR`. Para desactivar esta función, comente estas líneas en el script:\n    [L4-L5](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L4-L5),\n    [L9-L22](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L9-L22),\n    [L223-L233](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L223-L233),\n    [L330-L331](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L330-L331).\n\n  | Configuración | Operación |\n  |--------------|------------------|\n  | GPU | Editar en [`<AVAILABLE_GPUS>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L7) |\n  | Dataset | Editar en [`<SCENES[$Dataset]>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L105-L111) |\n  | Escena | Editar en [`<SCENES_$Dataset>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L31-L99) |\n  | Modelo de Fundación Visual | Editar en [`<FEATURES>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L120-L162) |\n  | Modo de Sondeo | Editar en [`<MODELS>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L181-L188) |\n  | Modo Solo Inferencia | Comentar STEP (3)(4)(5) en [`execute_command`](https://github.com/fanegg/Feat2GS/blob/main/scripts/run_feat2gs_eval_parallel.sh#L325-L327) |\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTA]"
+      },
+      {
+        "row": 2,
+        "rowsha": "FZJyCt4gj3TFJ4YNJS/psUKxDjYQteJZ2PDVZParbyw=",
+        "originContent": "> To run experiments in parallel, we added a **GPU lock** feature to ensure only one evaluation experiment runs per GPU. Once an experiment finishes, the GPU is automatically unlocked. **If interrupted by `Ctrl+C`, the GPU won’t be unlocked automatically.** To fix this, manually delete the `.lock` files in your `LOCK_DIR`. To disable this feature, comment out these lines in the script:",
+        "translatedContent": "> Para ejecutar experimentos en paralelo, añadimos una función de **bloqueo de GPU** para asegurar que solo se ejecute un experimento de evaluación por GPU. Una vez que un experimento termina, la GPU se desbloquea automáticamente. **Si se interrumpe con `Ctrl+C`, la GPU no se desbloqueará automáticamente.** Para solucionar esto, elimine manualmente los archivos `.lock` en su `LOCK_DIR`. Para desactivar esta función, comente estas líneas en el script:"
+      },
+      {
+        "row": 3,
+        "rowsha": "QKQhMNYkOrgJ4AHswLhKKWLm7QaSgJZ/fEleqaxnjms=",
+        "originContent": "    [L4-L5](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L4-L5),",
+        "translatedContent": "    [L4-L5](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L4-L5),"
+      },
+      {
+        "row": 4,
+        "rowsha": "wEB8dSqt5T52fuMLsHYj9j+X2mLw7zwz9G/PM1znDWc=",
+        "originContent": "    [L9-L22](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L9-L22),",
+        "translatedContent": "    [L9-L22](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L9-L22),"
+      },
+      {
+        "row": 5,
+        "rowsha": "cOp0v5zFql4e5e7AClclwc2saS/H8qxYtmKnYgKCGiE=",
+        "originContent": "    [L223-L233](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L223-L233),",
+        "translatedContent": "    [L223-L233](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L223-L233),"
+      },
+      {
+        "row": 6,
+        "rowsha": "xu7kdjbMlLihyAyaUFoaIkfBO+r3ihdJ2iATvXjQcIo=",
+        "originContent": "    [L330-L331](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L330-L331).",
+        "translatedContent": "    [L330-L331](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L330-L331)."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "/YQstdFWgI6LMeoMK3py40l66Xx6vn+/Nfsnzcfc4Uc=",
+        "originContent": "  | Config | Operation |",
+        "translatedContent": "  | Configuración | Operación |"
+      },
+      {
+        "row": 9,
+        "rowsha": "MIzUMgv8IxkOxBd43tDxKOmC5yuryzBfWu5zgkMVQRc=",
+        "originContent": "  |--------|-----------------|",
+        "translatedContent": "  |--------------|------------------|"
+      },
+      {
+        "row": 10,
+        "rowsha": "uzlw309N3OihOt+rRP6osG1YF3R7Cq2OMzcRLi9lFV8=",
+        "originContent": "  | GPU | Edit in [`<AVAILABLE_GPUS>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L7) |",
+        "translatedContent": "  | GPU | Editar en [`<AVAILABLE_GPUS>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L7) |"
+      },
+      {
+        "row": 11,
+        "rowsha": "ZHhiZh1+507LQ+pcrmMmZA34n9vihjwAdZKZNp/FWeA=",
+        "originContent": "  | Dataset | Edit in [`<SCENES[$Dataset]>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L105-L111) |",
+        "translatedContent": "  | Dataset | Editar en [`<SCENES[$Dataset]>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L105-L111) |"
+      },
+      {
+        "row": 12,
+        "rowsha": "6l33+7qixCMeCzJBfN8KSUqSERb4Y1FqGrVFYiH22E0=",
+        "originContent": "  | Scene | Edit in [`<SCENES_$Dataset>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L31-L99) |",
+        "translatedContent": "  | Escena | Editar en [`<SCENES_$Dataset>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L31-L99) |"
+      },
+      {
+        "row": 13,
+        "rowsha": "xWUKFAymxiCFhxTxoHWBQXsxblf8VFFJu0HOtcmPcbw=",
+        "originContent": "  | Visual Foundation Model | Edit in [`<FEATURES>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L120-L162) |",
+        "translatedContent": "  | Modelo de Fundación Visual | Editar en [`<FEATURES>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L120-L162) |"
+      },
+      {
+        "row": 14,
+        "rowsha": "Cy9bb2B6FNaLoBlBZ9bdINtVkVFyilG6y/wtx9dFTgc=",
+        "originContent": "  | Probing Mode | Edit in [`<MODELS>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L181-L188) |",
+        "translatedContent": "  | Modo de Sondeo | Editar en [`<MODELS>`](https://github.com/fanegg/Feat2GS/blob/b8eadaa54549d34420eba61b388548b8ec8e7325/scripts/run_feat2gs_eval_parallel.sh#L181-L188) |"
+      },
+      {
+        "row": 15,
+        "rowsha": "yg6TkYVBfJ8yhP0xiQgfefqhN5CaPxcGXJiG8dFF5Oo=",
+        "originContent": "  | Inference-only Mode | Comment out STEP (3)(4)(5) in [`execute_command`](https://github.com/fanegg/Feat2GS/blob/main/scripts/run_feat2gs_eval_parallel.sh#L325-L327) |",
+        "translatedContent": "  | Modo Solo Inferencia | Comentar STEP (3)(4)(5) en [`execute_command`](https://github.com/fanegg/Feat2GS/blob/main/scripts/run_feat2gs_eval_parallel.sh#L325-L327) |"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\n  # Evaluate Visual Foundation Models on DTU dataset\n  bash scripts/run_feat2gs_eval_dtu_parallel.sh\n\n  # Run InstantSplat for evaluation\n  bash scripts/run_instantsplat_eval_parallel.sh\n```",
+    "ContentSha": "IEX4MkQVsDg8upetUP+rHfxtl7v4un+CzrJCf/fJpRA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  # Evaluate Visual Foundation Models on DTU dataset\n  bash scripts/run_feat2gs_eval_dtu_parallel.sh\n\n  # Run InstantSplat for evaluation\n  bash scripts/run_instantsplat_eval_parallel.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "bbLlo6rqu9WXzUfrsx4Z8lZWTXNMRH8cEIH6M3Cd9jg=",
+        "originContent": "  # Evaluate Visual Foundation Models on DTU dataset",
+        "translatedContent": "  # Evaluate Visual Foundation Models on DTU dataset"
+      },
+      {
+        "row": 3,
+        "rowsha": "TeeNu9WEO+mgumCOE48uIPkq4EcGmHnFoUaWlr2VqMk=",
+        "originContent": "  bash scripts/run_feat2gs_eval_dtu_parallel.sh",
+        "translatedContent": "  bash scripts/run_feat2gs_eval_dtu_parallel.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "X0UJsYOzLzB2+I6WaKaMkpZoch6NVPjvQvST2yVS5i0=",
+        "originContent": "  # Run InstantSplat for evaluation",
+        "translatedContent": "  # Run InstantSplat for evaluation"
+      },
+      {
+        "row": 6,
+        "rowsha": "ipIOXrOrTF4tSQcjCo6hgAYINY2tp+TNugR4qbT+gP0=",
+        "originContent": "  bash scripts/run_instantsplat_eval_parallel.sh",
+        "translatedContent": "  bash scripts/run_instantsplat_eval_parallel.sh"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n\n3. After training, render RGB/depth/normal video with generated trajectory.",
+    "ContentSha": "hXSGjfWq9lemgmRyJuGSzI7OF0VDDEmlQrMZ/rWqLOc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. Después del entrenamiento, renderice video RGB/profundidad/normal con la trayectoria generada.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. Después del entrenamiento, renderice video RGB/profundidad/normal con la trayectoria generada."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ySrFHbcmLJIXXWEpajlJbxuCv0WJBPbrnP5s5Q0KDG0=",
+        "originContent": "3. After training, render RGB/depth/normal video with generated trajectory.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\n  # If render depth/normal, set RENDER_DEPTH_NORMAL=true\n  # Set type of generated trjectory by editing <TRAJ_SCENES>\n  bash scripts/run_video_render.sh\n\n  # Render video on DTU dataset\n  bash scripts/run_video_render_dtu.sh\n```",
+    "ContentSha": "uIyIpKw70RPy3iVRcTWRJ4hZMSHSUhLq4+kca3d3/EE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  # If render depth/normal, set RENDER_DEPTH_NORMAL=true\n  # Set type of generated trjectory by editing <TRAJ_SCENES>\n  bash scripts/run_video_render.sh\n\n  # Render video on DTU dataset\n  bash scripts/run_video_render_dtu.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9mS2+XIZm+LcfJ597gkaoSMSdxP3JXnsQLLY04DMgok=",
+        "originContent": "  # If render depth/normal, set RENDER_DEPTH_NORMAL=true",
+        "translatedContent": "  # If render depth/normal, set RENDER_DEPTH_NORMAL=true"
+      },
+      {
+        "row": 3,
+        "rowsha": "8INz67rvvJUnwcOSiPo7MA2K1fab5OJcQPNJvdU2f4U=",
+        "originContent": "  # Set type of generated trjectory by editing <TRAJ_SCENES>",
+        "translatedContent": "  # Set type of generated trjectory by editing <TRAJ_SCENES>"
+      },
+      {
+        "row": 4,
+        "rowsha": "A4V1WkhFHXMYgM2cdJexsBgUaHO88TO4Y9jESkTx7pM=",
+        "originContent": "  bash scripts/run_video_render.sh",
+        "translatedContent": "  bash scripts/run_video_render.sh"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "2DuCw1f1cHYcyGIMjZaQKZK5LEbE/UhJFg4ga+N0lCA=",
+        "originContent": "  # Render video on DTU dataset",
+        "translatedContent": "  # Render video on DTU dataset"
+      },
+      {
+        "row": 7,
+        "rowsha": "pFOr+xP2X4W1coV3qZOUQECMKaziE7S5FtkQZETAJOQ=",
+        "originContent": "  bash scripts/run_video_render_dtu.sh",
+        "translatedContent": "  bash scripts/run_video_render_dtu.sh"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "### 🎮 Interactive demo\n\n#### 🚀 Quickstart\n1. **Input Images**\n* Upload 2 or more images of the same scene from different views\n* For best results, ensure images have good overlap\n\n2. **Step 1: DUSt3R Initialization & Feature Extraction**\n* Click \"RUN Step 1\" to process your images\n* This step estimates initial DUSt3R point cloud and camera poses, and extracts DUSt3R features for each pixel\n\n3. **Step 2: Readout 3DGS from Features**\n* Set the number of training iterations, larger number leads to better quality but longer time (default: 2000, max: 8000) \n* Click \"RUN Step 2\" to optimize the 3D model\n\n4. **Step 3: Video Rendering**\n* Choose a camera trajectory\n* Click \"RUN Step 3\" to generate a video of your 3D model\n  ",
+    "ContentSha": "MxER4jo6BleGdE+MeQhdCsKp41vJ7K3feK7jIR4TLrw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 🎮 Demostración interactiva\n\n#### 🚀 Inicio rápido\n1. **Imágenes de entrada**\n* Sube 2 o más imágenes de la misma escena desde diferentes vistas\n* Para mejores resultados, asegúrate de que las imágenes tengan buena superposición\n\n2. **Paso 1: Inicialización de DUSt3R y extracción de características**\n* Haz clic en \"EJECUTAR Paso 1\" para procesar tus imágenes\n* Este paso estima la nube de puntos inicial de DUSt3R y las posiciones de la cámara, y extrae características DUSt3R para cada píxel\n\n3. **Paso 2: Lectura 3DGS desde características**\n* Establece el número de iteraciones de entrenamiento, un número mayor conduce a mejor calidad pero mayor tiempo (por defecto: 2000, máximo: 8000) \n* Haz clic en \"EJECUTAR Paso 2\" para optimizar el modelo 3D\n\n4. **Paso 3: Renderizado de video**\n* Elige una trayectoria de cámara\n* Haz clic en \"EJECUTAR Paso 3\" para generar un video de tu modelo 3D\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "nIBwHOeciEZBz236HUWuhICoTP5LgKUJVCcwKka5rAM=",
+        "originContent": "### 🎮 Interactive demo",
+        "translatedContent": "### 🎮 Demostración interactiva"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "xLOl4My32wXhrJhzzy0YDFQQUPiEDDqwVc2bYQqJCK0=",
+        "originContent": "#### 🚀 Quickstart",
+        "translatedContent": "#### 🚀 Inicio rápido"
+      },
+      {
+        "row": 4,
+        "rowsha": "JP01ZXw9KTpPRdqX9FpGT3VqMOE8bvoYyiioy0d4GXA=",
+        "originContent": "1. **Input Images**",
+        "translatedContent": "1. **Imágenes de entrada**"
+      },
+      {
+        "row": 5,
+        "rowsha": "YxPZpqDnbkd8gGWXDTkHfD3dkrjwIouLtjeQiZ2XkXg=",
+        "originContent": "* Upload 2 or more images of the same scene from different views",
+        "translatedContent": "* Sube 2 o más imágenes de la misma escena desde diferentes vistas"
+      },
+      {
+        "row": 6,
+        "rowsha": "QRmO3PZn0Qfgsr8dU1ch1gZpyOM3pqho2zKU9UP8B+A=",
+        "originContent": "* For best results, ensure images have good overlap",
+        "translatedContent": "* Para mejores resultados, asegúrate de que las imágenes tengan buena superposición"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "6qxF6YBRu8GE/hFkuTk0M8bmVDRUg+WXBbxgAlh5Jks=",
+        "originContent": "2. **Step 1: DUSt3R Initialization & Feature Extraction**",
+        "translatedContent": "2. **Paso 1: Inicialización de DUSt3R y extracción de características**"
+      },
+      {
+        "row": 9,
+        "rowsha": "knG3qms0O6Ri19q7B5+bvKWVJmGfTZVsiq81DFrtdVk=",
+        "originContent": "* Click \"RUN Step 1\" to process your images",
+        "translatedContent": "* Haz clic en \"EJECUTAR Paso 1\" para procesar tus imágenes"
+      },
+      {
+        "row": 10,
+        "rowsha": "kemsDidSJYyA4cJctYDUROav/7+6OaxMnwBVhiCpS30=",
+        "originContent": "* This step estimates initial DUSt3R point cloud and camera poses, and extracts DUSt3R features for each pixel",
+        "translatedContent": "* Este paso estima la nube de puntos inicial de DUSt3R y las posiciones de la cámara, y extrae características DUSt3R para cada píxel"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "8vGRXPF3rgEgvLuEd2gAArdqFRh49/HHLrTSbGnDyN0=",
+        "originContent": "3. **Step 2: Readout 3DGS from Features**",
+        "translatedContent": "3. **Paso 2: Lectura 3DGS desde características**"
+      },
+      {
+        "row": 13,
+        "rowsha": "99BXeZgzBlG6FLZlgQHiqhVo4O6Rgy7PUiO+ILpa92M=",
+        "originContent": "* Set the number of training iterations, larger number leads to better quality but longer time (default: 2000, max: 8000) ",
+        "translatedContent": "* Establece el número de iteraciones de entrenamiento, un número mayor conduce a mejor calidad pero mayor tiempo (por defecto: 2000, máximo: 8000) "
+      },
+      {
+        "row": 14,
+        "rowsha": "zbA4HScZpM1TOMk84FW1GZQSMaNn4qCjNBiZQ7dcbQg=",
+        "originContent": "* Click \"RUN Step 2\" to optimize the 3D model",
+        "translatedContent": "* Haz clic en \"EJECUTAR Paso 2\" para optimizar el modelo 3D"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "sGPY3JujfdoWalPBgqdA7tJRQeW98zeysn4D25yjUsk=",
+        "originContent": "4. **Step 3: Video Rendering**",
+        "translatedContent": "4. **Paso 3: Renderizado de video**"
+      },
+      {
+        "row": 17,
+        "rowsha": "XTQsu3V1+j8+ckCeaOiJL92wE9dOxSz+4H1+T13PDn8=",
+        "originContent": "* Choose a camera trajectory",
+        "translatedContent": "* Elige una trayectoria de cámara"
+      },
+      {
+        "row": 18,
+        "rowsha": "xZ8n2wu9wW2EURIU/Hrg3i8Gv6UEBKssx7w8lT/AIh0=",
+        "originContent": "* Click \"RUN Step 3\" to generate a video of your 3D model",
+        "translatedContent": "* Haz clic en \"EJECUTAR Paso 3\" para generar un video de tu modelo 3D"
+      },
+      {
+        "row": 19,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\ngradio demo.py\n```",
+    "ContentSha": "blXKBHFnm1c0XKMjbuCZlH6dUZGOdnv2RwhPMPYKw50=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngradio demo.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6TytbG68INcMNvZA7Xt5YIfECZ3n8JvYpKWxLCRotgE=",
+        "originContent": "gradio demo.py",
+        "translatedContent": "gradio demo.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n#### 💡 Tips\n* Processing time depends on image resolution and quantity\n* For optimal performance, test on high-end GPUs (A100/4090)\n* Use the mouse to interact with 3D models:\n  - Left button: Rotate\n  - Scroll wheel: Zoom\n  - Right button: Pan\n\n\n## Acknowledgement\n\nThis work is built on many amazing research works and open-source projects, thanks a lot to all the authors for sharing!\n\n- [Gaussian-Splatting](https://github.com/graphdeco-inria/gaussian-splatting) and [diff-gaussian-rasterization](https://github.com/graphdeco-inria/diff-gaussian-rasterization)\n- [gsplat](https://github.com/nerfstudio-project/gsplat)\n- [DUSt3R](https://github.com/naver/dust3r) and [MASt3R](https://github.com/naver/mast3r)\n- [InstantSplat](https://github.com/NVlabs/InstantSplat)\n- [Probe3D](https://github.com/mbanani/probe3d)\n- [FeatUp](https://github.com/mhamilton723/FeatUp)\n- [Shape of Motion](https://github.com/vye16/shape-of-motion/)\n- [Splatt3R](https://github.com/btsmart/splatt3r)\n- [VGGT](https://github.com/facebookresearch/vggt)\n\n## Citation\nIf you find our work useful in your research, please consider giving a star :star: and citing the following paper :pencil:.\n",
+    "ContentSha": "OJCt33zvs8pPnb216AgtDuoSryPPlo51ja3oQpoEpOA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### 💡 Consejos\n* El tiempo de procesamiento depende de la resolución y cantidad de imágenes\n* Para un rendimiento óptimo, pruebe en GPUs de alta gama (A100/4090)\n* Use el ratón para interactuar con modelos 3D:\n  - Botón izquierdo: Rotar\n  - Rueda de desplazamiento: Zoom\n  - Botón derecho: Desplazar\n\n\n## Agradecimientos\n\nEste trabajo está basado en muchos trabajos de investigación y proyectos de código abierto increíbles, ¡muchas gracias a todos los autores por compartir!\n\n- [Gaussian-Splatting](https://github.com/graphdeco-inria/gaussian-splatting) y [diff-gaussian-rasterization](https://github.com/graphdeco-inria/diff-gaussian-rasterization)\n- [gsplat](https://github.com/nerfstudio-project/gsplat)\n- [DUSt3R](https://github.com/naver/dust3r) y [MASt3R](https://github.com/naver/mast3r)\n- [InstantSplat](https://github.com/NVlabs/InstantSplat)\n- [Probe3D](https://github.com/mbanani/probe3d)\n- [FeatUp](https://github.com/mhamilton723/FeatUp)\n- [Shape of Motion](https://github.com/vye16/shape-of-motion/)\n- [Splatt3R](https://github.com/btsmart/splatt3r)\n- [VGGT](https://github.com/facebookresearch/vggt)\n\n## Citación\nSi encuentra nuestro trabajo útil para su investigación, por favor considere dar una estrella :star: y citar el siguiente artículo :pencil:.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qPTFpv2Ej1UUrDsRJVxzjYdg+oB6eQZYVXxQQ9rQWdQ=",
+        "originContent": "#### 💡 Tips",
+        "translatedContent": "#### 💡 Consejos"
+      },
+      {
+        "row": 3,
+        "rowsha": "APnxQGdm0dLmnjgHT8eg+bG5tEVbRnSGWDnu0UC0xmU=",
+        "originContent": "* Processing time depends on image resolution and quantity",
+        "translatedContent": "* El tiempo de procesamiento depende de la resolución y cantidad de imágenes"
+      },
+      {
+        "row": 4,
+        "rowsha": "VWnMicTJwTsA5hzwWOxORGa35CQEiF/9bmziYLnEdVU=",
+        "originContent": "* For optimal performance, test on high-end GPUs (A100/4090)",
+        "translatedContent": "* Para un rendimiento óptimo, pruebe en GPUs de alta gama (A100/4090)"
+      },
+      {
+        "row": 5,
+        "rowsha": "gVHEcHzl8ePIrZod3Gx0HQoY13CVjiSqkQ8gzt6F+ok=",
+        "originContent": "* Use the mouse to interact with 3D models:",
+        "translatedContent": "* Use el ratón para interactuar con modelos 3D:"
+      },
+      {
+        "row": 6,
+        "rowsha": "4QtY9vjf07geLtxb3s+DdVicYD8uGxTQ4J0rB46GJ2M=",
+        "originContent": "  - Left button: Rotate",
+        "translatedContent": "  - Botón izquierdo: Rotar"
+      },
+      {
+        "row": 7,
+        "rowsha": "CN7/8ol8MepUznhwZtQ1ab58xOk9XNrtwrAcamiU4LI=",
+        "originContent": "  - Scroll wheel: Zoom",
+        "translatedContent": "  - Rueda de desplazamiento: Zoom"
+      },
+      {
+        "row": 8,
+        "rowsha": "8ynhxe1ToO9ZzKZmy7r05syP+Y7q6HRnD0zFKKP4QqY=",
+        "originContent": "  - Right button: Pan",
+        "translatedContent": "  - Botón derecho: Desplazar"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": "## Agradecimientos"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "hvk/5yyMYlM/E0WEue2tv08cxUQuAa6CST9/NYKChlI=",
+        "originContent": "This work is built on many amazing research works and open-source projects, thanks a lot to all the authors for sharing!",
+        "translatedContent": "Este trabajo está basado en muchos trabajos de investigación y proyectos de código abierto increíbles, ¡muchas gracias a todos los autores por compartir!"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "g8yt/SYfDCc0Mn1n4iUEHUxCyTmQH0KYkAxxBaJcxdM=",
+        "originContent": "- [Gaussian-Splatting](https://github.com/graphdeco-inria/gaussian-splatting) and [diff-gaussian-rasterization](https://github.com/graphdeco-inria/diff-gaussian-rasterization)",
+        "translatedContent": "- [Gaussian-Splatting](https://github.com/graphdeco-inria/gaussian-splatting) y [diff-gaussian-rasterization](https://github.com/graphdeco-inria/diff-gaussian-rasterization)"
+      },
+      {
+        "row": 16,
+        "rowsha": "bN7hWTzmVv9pfKLy5H4Ket455ftRh6Nteew6lKqcuAc=",
+        "originContent": "- [gsplat](https://github.com/nerfstudio-project/gsplat)",
+        "translatedContent": "- [gsplat](https://github.com/nerfstudio-project/gsplat)"
+      },
+      {
+        "row": 17,
+        "rowsha": "65e1wnFCDMiDU0IugLt2jbLRDugvZkpdxQI6EZm8xoI=",
+        "originContent": "- [DUSt3R](https://github.com/naver/dust3r) and [MASt3R](https://github.com/naver/mast3r)",
+        "translatedContent": "- [DUSt3R](https://github.com/naver/dust3r) y [MASt3R](https://github.com/naver/mast3r)"
+      },
+      {
+        "row": 18,
+        "rowsha": "ltPMmMJ25kIPez7dyspt6EctRtfZ4S6qCKg4xU2tY4Y=",
+        "originContent": "- [InstantSplat](https://github.com/NVlabs/InstantSplat)",
+        "translatedContent": "- [InstantSplat](https://github.com/NVlabs/InstantSplat)"
+      },
+      {
+        "row": 19,
+        "rowsha": "5DgdpRGpDJ4vlQqOd+zEzGMla2wo4WcdsXMeUXk8Kyw=",
+        "originContent": "- [Probe3D](https://github.com/mbanani/probe3d)",
+        "translatedContent": "- [Probe3D](https://github.com/mbanani/probe3d)"
+      },
+      {
+        "row": 20,
+        "rowsha": "Woj3wcoZyYIjMFzLLml+Rv/S//x+sPX1qAf6p3eV1gA=",
+        "originContent": "- [FeatUp](https://github.com/mhamilton723/FeatUp)",
+        "translatedContent": "- [FeatUp](https://github.com/mhamilton723/FeatUp)"
+      },
+      {
+        "row": 21,
+        "rowsha": "KqVu/8ZQRDoqHfXki1GaGFIK8TnoBDvw1/QnNvKIPLA=",
+        "originContent": "- [Shape of Motion](https://github.com/vye16/shape-of-motion/)",
+        "translatedContent": "- [Shape of Motion](https://github.com/vye16/shape-of-motion/)"
+      },
+      {
+        "row": 22,
+        "rowsha": "7ECFxxzjecB93PHMcVVH6AlVLneKx+7hOMWM7Z/NI6k=",
+        "originContent": "- [Splatt3R](https://github.com/btsmart/splatt3r)",
+        "translatedContent": "- [Splatt3R](https://github.com/btsmart/splatt3r)"
+      },
+      {
+        "row": 23,
+        "rowsha": "XqeQabuTI3t4n4Uu5Em99XpTBj1JimWMKr/REJT4T5g=",
+        "originContent": "- [VGGT](https://github.com/facebookresearch/vggt)",
+        "translatedContent": "- [VGGT](https://github.com/facebookresearch/vggt)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## Citación"
+      },
+      {
+        "row": 26,
+        "rowsha": "MtqKMhnZ++8qD6WxpyjcL8f/zvsBG+ewNAZu2GGCnfw=",
+        "originContent": "If you find our work useful in your research, please consider giving a star :star: and citing the following paper :pencil:.",
+        "translatedContent": "Si encuentra nuestro trabajo útil para su investigación, por favor considere dar una estrella :star: y citar el siguiente artículo :pencil:."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```bibTeX\n@inproceedings{chen2025feat2gs,\n  title={Feat2gs: Probing visual foundation models with gaussian splatting},\n  author={Chen, Yue and Chen, Xingyu and Chen, Anpei and Pons-Moll, Gerard and Xiu, Yuliang},\n  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},\n  pages={6348--6361},\n  year={2025}\n}\n```",
+    "ContentSha": "WXZTfiyEJ74F6Q0/tVt3Bu99bS0JOAtE9p1HUXb8SF8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibTeX\n@inproceedings{chen2025feat2gs,\n  title={Feat2gs: Probing visual foundation models with gaussian splatting},\n  author={Chen, Yue and Chen, Xingyu and Chen, Anpei and Pons-Moll, Gerard and Xiu, Yuliang},\n  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},\n  pages={6348--6361},\n  year={2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "c2hAOAD620O/aTLSGxA8dyKC15a5A4RC8h2Ib1VXhQk=",
+        "originContent": "```bibTeX",
+        "translatedContent": "```bibTeX"
+      },
+      {
+        "row": 2,
+        "rowsha": "OrLXa+EAIhJOmZTrsV2I0XiHlG7BnRI0GRWfUmgfJs8=",
+        "originContent": "@inproceedings{chen2025feat2gs,",
+        "translatedContent": "@inproceedings{chen2025feat2gs,"
+      },
+      {
+        "row": 3,
+        "rowsha": "qYbPlQHdCfh6AK/ctNri2U1E8FakYUxIJ974WS4xeO4=",
+        "originContent": "  title={Feat2gs: Probing visual foundation models with gaussian splatting},",
+        "translatedContent": "  title={Feat2gs: Probing visual foundation models with gaussian splatting},"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZlH7KeIQ37q7JFzVpWwusF6iGLFhxlz8UW4/hPK8dDA=",
+        "originContent": "  author={Chen, Yue and Chen, Xingyu and Chen, Anpei and Pons-Moll, Gerard and Xiu, Yuliang},",
+        "translatedContent": "  author={Chen, Yue and Chen, Xingyu and Chen, Anpei and Pons-Moll, Gerard and Xiu, Yuliang},"
+      },
+      {
+        "row": 5,
+        "rowsha": "Tdu4fB+gVh/DbAO0LazGnLUP/1XmCsy7zHrXOdVvSPs=",
+        "originContent": "  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},",
+        "translatedContent": "  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},"
+      },
+      {
+        "row": 6,
+        "rowsha": "3OEv9jKjyg2Q0KN8+RSub+OOCnyfUdbMV0s2sfajYgI=",
+        "originContent": "  pages={6348--6361},",
+        "translatedContent": "  pages={6348--6361},"
+      },
+      {
+        "row": 7,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n## Contact\n\nFor feedback, questions, or press inquiries please contact [Yue Chen](https://raw.githubusercontent.com/fanegg/Feat2GS/main/mailto:faneggchen@gmail.com) and [Xingyu Chen](https://raw.githubusercontent.com/fanegg/Feat2GS/main/mailto:roverxingyu@gmail.com).\n",
+    "ContentSha": "DpIHjl/2sl7HYoESSbMoLpw355oHoq8SfRYlaEqVU0k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Contacto\n\nPara comentarios, preguntas o consultas de prensa, por favor contacte a [Yue Chen](https://raw.githubusercontent.com/fanegg/Feat2GS/main/mailto:faneggchen@gmail.com) y [Xingyu Chen](https://raw.githubusercontent.com/fanegg/Feat2GS/main/mailto:roverxingyu@gmail.com).\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZX9nbduzXgvmAaK8yTd+tNgwR7cV79HXV/+xbvL8suw=",
+        "originContent": "## Contact",
+        "translatedContent": "## Contacto"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "TY+8dkkOOh6b0tc0o3eNhdK9fiBrOq65TwARUJ/OIn8=",
+        "originContent": "For feedback, questions, or press inquiries please contact [Yue Chen](https://raw.githubusercontent.com/fanegg/Feat2GS/main/mailto:faneggchen@gmail.com) and [Xingyu Chen](https://raw.githubusercontent.com/fanegg/Feat2GS/main/mailto:roverxingyu@gmail.com).",
+        "translatedContent": "Para comentarios, preguntas o consultas de prensa, por favor contacte a [Yue Chen](https://raw.githubusercontent.com/fanegg/Feat2GS/main/mailto:faneggchen@gmail.com) y [Xingyu Chen](https://raw.githubusercontent.com/fanegg/Feat2GS/main/mailto:roverxingyu@gmail.com)."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
