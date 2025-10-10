@@ -1,13 +1,13 @@
-# curriculum
+# カリキュラム
 
-各种课程材料，包括得到，网上流行材料，跟其他项目不好放的资料，都在这里面，等等等，持续更新中
+各種コース教材、得られた資料、オンラインで人気のある教材、他のプロジェクトに適さない資料など、すべてここにまとめています。随時更新中です。
 
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=curriculum&lang=id)
 
 -------------------
 
-# [202508](https://raw.githubusercontent.com/mswnlz/curriculum/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/curriculum/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/curriculum/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/curriculum/main/202506.md)
+# [202510](https://raw.githubusercontent.com/mswnlz/curriculum/main/202510.md) [202508](https://raw.githubusercontent.com/mswnlz/curriculum/main/202508.md) [202507](https://raw.githubusercontent.com/mswnlz/curriculum/main/202507.md) [202505](https://raw.githubusercontent.com/mswnlz/curriculum/main/202505.md) [202506](https://raw.githubusercontent.com/mswnlz/curriculum/main/202506.md)
 
 ---------------
 ### 项目更多资源
@@ -43,6 +43,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-05
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-10
 
 ---
