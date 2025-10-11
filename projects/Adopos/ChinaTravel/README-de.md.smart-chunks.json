@@ -8,248 +8,7 @@
     "EndLine": 0,
     "Translation": "<center>\n  <h1>ChinaTravel: Ein praxisnaher Benchmark für Sprachagenten in der chinesischen Reiseplanung\n</h1>\n</center>\n\nOffizieller Codebestand für das Paper \"ChinaTravel: Ein praxisnaher Benchmark für Sprachagenten in der chinesischen Reiseplanung\".\n\n<!-- | [Webseite](https://www.lamda.nju.edu.cn/shaojj/chinatravel/) | [Paper](https://arxiv.org/abs/2412.13682) | [Datensatz(Huggingface)](https://huggingface.co/datasets/LAMDA-NeSy/ChinaTravel)| -->\n\n[![Webseite](https://img.shields.io/badge/Webpage-Visit-blue)](https://www.lamda.nju.edu.cn/shaojj/chinatravel/)\n[![Paper](https://img.shields.io/badge/Paper-View-red)](https://arxiv.org/abs/2412.13682)\n[![Datensatz(Huggingface)](https://img.shields.io/badge/Dataset-Huggingface-yellow)](https://huggingface.co/datasets/LAMDA-NeSy/ChinaTravel)\n[![Wettbewerb(TPC@IJCAI2025)](https://img.shields.io/badge/IJCAI%20Competition-TPC@IJCAI2025-green)](https://chinatravel-competition.github.io/IJCAI2025/)\n[![Wettbewerb(TPC@AIC2025)](https://img.shields.io/badge/AIC%20Competition-TPC@AIC2025-green)](TPC@AIC2025/readme.md)\n\n\n<!-- \n![Übersicht](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/images/overview.png) -->\n\n## 🏆 IJCAI 2025 Reiseplanungs-Challenge (TPC@IJCAI)\n\nWir freuen uns bekannt zu geben, dass ChinaTravel als offizieller Benchmark für die **Travel Planning Challenge (TPC) @ IJCAI 2025** ausgewählt wurde!\n\n**Offizielle Wettbewerbswebseite**:\n[https://chinatravel-competition.github.io/IJCAI2025/](https://chinatravel-competition.github.io/IJCAI2025/)\n\nTeilnehmer sind eingeladen, neuartige Agenten zu entwickeln, die reale Reiseplanungsszenarien unter komplexen Bedingungen bewältigen können. Dieser Wettbewerb präsentiert fortschrittliche Ansätze in der Forschung zu Sprachagenten.\n\n## 📝 Änderungsprotokoll\n\n### 2025.09\n1. Hochladen der Siegerlösung des TPC@IJCAI2025 DSL-Tracks. Vielen Dank an [@evergreenee](https://github.com/evergreenee) für die Beiträge.  \n\n\n### 2025.06\n\n1. Fehlerbehebung bei der Sammlung im Bewertungscode für Commonsense. \n2. Fehlerbehebung in der Pipeline des reinen Neuro-Agenten\n3. Fehlerbehebung beim Laden von Datensätzen von Huggingface\n4. Aktualisierung der Ausnahmebehandlung bei der Syntaxüberprüfung",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "NvIt6oyP7oJOw163oQxE13ksiH8YLrxXRbO73VM1aT0=",
-        "originContent": "<center>",
-        "translatedContent": "<center>"
-      },
-      {
-        "row": 2,
-        "rowsha": "92A2Qxba4U1oiRDH2MOXKkSzP3W81/QKKV8jVpBa2m0=",
-        "originContent": "  <h1>ChinaTravel: A Real-World Benchmark for Language Agents in Chinese Travel Planning",
-        "translatedContent": "  <h1>ChinaTravel: Ein praxisnaher Benchmark für Sprachagenten in der chinesischen Reiseplanung"
-      },
-      {
-        "row": 3,
-        "rowsha": "jx7VTIaGwMtwY3ZiSh8xEG0MuMzGD34Xs/9PCAcDvw8=",
-        "originContent": "</h1>",
-        "translatedContent": "</h1>"
-      },
-      {
-        "row": 4,
-        "rowsha": "N0GDUlEjTxuCEQhngpjfnKbhp7siPAQ0ths/EZgYKx8=",
-        "originContent": "</center>",
-        "translatedContent": "</center>"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "HFFF/YpGSP+3ShxRsTbEngRiTpzoNeqrQM2s7y5Akgw=",
-        "originContent": "Official codebase for the paper \"ChinaTravel: A Real-World Benchmark for Language Agents in Chinese Travel Planning\".",
-        "translatedContent": "Offizieller Codebestand für das Paper \"ChinaTravel: Ein praxisnaher Benchmark für Sprachagenten in der chinesischen Reiseplanung\"."
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "0gOeOsChiuPOvb3lfz48smlB0PreFMmge5umHG31LUU=",
-        "originContent": "<!-- | [Webpage](https://www.lamda.nju.edu.cn/shaojj/chinatravel/) | [Paper](https://arxiv.org/abs/2412.13682) | [Dataset(Huggingface)](https://huggingface.co/datasets/LAMDA-NeSy/ChinaTravel)| -->",
-        "translatedContent": "<!-- | [Webseite](https://www.lamda.nju.edu.cn/shaojj/chinatravel/) | [Paper](https://arxiv.org/abs/2412.13682) | [Datensatz(Huggingface)](https://huggingface.co/datasets/LAMDA-NeSy/ChinaTravel)| -->"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "EWwo2hlwmSlPLRPE/H9ITn2epJo3/l5XbIjApHu6KI0=",
-        "originContent": "[![Webpage](https://img.shields.io/badge/Webpage-Visit-blue)](https://www.lamda.nju.edu.cn/shaojj/chinatravel/)",
-        "translatedContent": "[![Webseite](https://img.shields.io/badge/Webpage-Visit-blue)](https://www.lamda.nju.edu.cn/shaojj/chinatravel/)"
-      },
-      {
-        "row": 11,
-        "rowsha": "WlNXZUCdHzXU2pYiRjcf+bynM5wLSz+6TJ5dLpPGmpQ=",
-        "originContent": "[![Paper](https://img.shields.io/badge/Paper-View-red)](https://arxiv.org/abs/2412.13682)",
-        "translatedContent": "[![Paper](https://img.shields.io/badge/Paper-View-red)](https://arxiv.org/abs/2412.13682)"
-      },
-      {
-        "row": 12,
-        "rowsha": "ixFKP9bEbg6GvRq6cmkA5x1bJ9U7oSF0L/SWBFmpgjA=",
-        "originContent": "[![Dataset(Huggingface)](https://img.shields.io/badge/Dataset-Huggingface-yellow)](https://huggingface.co/datasets/LAMDA-NeSy/ChinaTravel)",
-        "translatedContent": "[![Datensatz(Huggingface)](https://img.shields.io/badge/Dataset-Huggingface-yellow)](https://huggingface.co/datasets/LAMDA-NeSy/ChinaTravel)"
-      },
-      {
-        "row": 13,
-        "rowsha": "LA3h7G5Q8GrfiOJPzmMZwjNZM4+wM5HR6SPtMxT8MD8=",
-        "originContent": "[![Competition(TPC@IJCAI2025)](https://img.shields.io/badge/IJCAI%20Competition-TPC@IJCAI2025-green)](https://chinatravel-competition.github.io/IJCAI2025/)",
-        "translatedContent": "[![Wettbewerb(TPC@IJCAI2025)](https://img.shields.io/badge/IJCAI%20Competition-TPC@IJCAI2025-green)](https://chinatravel-competition.github.io/IJCAI2025/)"
-      },
-      {
-        "row": 14,
-        "rowsha": "I0mZBFVgrBOBUmLBODENwzuEFvFrjvDkyufwndYQlCE=",
-        "originContent": "[![Competition(TPC@AIC2025)](https://img.shields.io/badge/AIC%20Competition-TPC@AIC2025-green)](TPC@AIC2025/readme.md)",
-        "translatedContent": "[![Wettbewerb(TPC@AIC2025)](https://img.shields.io/badge/AIC%20Competition-TPC@AIC2025-green)](TPC@AIC2025/readme.md)"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "RU0q/UtVDC+mNFGNMDxHOlylYF/5rsBe7vM7iP1MvNk=",
-        "originContent": "<!-- ",
-        "translatedContent": "<!-- "
-      },
-      {
-        "row": 18,
-        "rowsha": "2SQasChwXQtACFNtyczJSc5RW6uU/FHdtvuoVPIDDC8=",
-        "originContent": "![Overview](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/images/overview.png) -->",
-        "translatedContent": "![Übersicht](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/images/overview.png) -->"
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 20,
-        "rowsha": "XDVG/fvMgTkzFLX1IYMjvbOC6kiY8NjA1YzOPoZkB9U=",
-        "originContent": "## 🏆 IJCAI 2025 Travel Planning Challenge (TPC@IJCAI)",
-        "translatedContent": "## 🏆 IJCAI 2025 Reiseplanungs-Challenge (TPC@IJCAI)"
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "AAhGAHX6Te3MCycVx/zV9OHaVW8+SAvLrSCwUuhfJeI=",
-        "originContent": "We are proud to announce that ChinaTravel has been selected as the official benchmark for the **Travel Planning Challenge (TPC) @ IJCAI 2025**!",
-        "translatedContent": "Wir freuen uns bekannt zu geben, dass ChinaTravel als offizieller Benchmark für die **Travel Planning Challenge (TPC) @ IJCAI 2025** ausgewählt wurde!"
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "doalbcf8W3aMZaE7HgwRiVOi4mJOTiYisweLexU3lao=",
-        "originContent": "**Official Competition Website**:",
-        "translatedContent": "**Offizielle Wettbewerbswebseite**:"
-      },
-      {
-        "row": 25,
-        "rowsha": "RU01CPSobzOmFBg3UKWfIKV0jQeCsgU+SADKZqJBM5w=",
-        "originContent": "[https://chinatravel-competition.github.io/IJCAI2025/](https://chinatravel-competition.github.io/IJCAI2025/)",
-        "translatedContent": "[https://chinatravel-competition.github.io/IJCAI2025/](https://chinatravel-competition.github.io/IJCAI2025/)"
-      },
-      {
-        "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 27,
-        "rowsha": "H2M6cy6/eboqeNbJOvvLEQvsqQVmDofM/J92fTYO9ko=",
-        "originContent": "Participants are invited to develop novel agents that can tackle real-world travel planning scenarios under complex constraints. This competition will showcase state-of-the-art approaches in language agent research.",
-        "translatedContent": "Teilnehmer sind eingeladen, neuartige Agenten zu entwickeln, die reale Reiseplanungsszenarien unter komplexen Bedingungen bewältigen können. Dieser Wettbewerb präsentiert fortschrittliche Ansätze in der Forschung zu Sprachagenten."
-      },
-      {
-        "row": 28,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 29,
-        "rowsha": "u4gLTSBhvzOP9Z5UzULHvy6KG1ccvBnth8JARuDxG9o=",
-        "originContent": "## 📝 ChangeLog",
-        "translatedContent": "## 📝 Änderungsprotokoll"
-      },
-      {
-        "row": 30,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 31,
-        "rowsha": "Xk/xoLSd4sRk1G23GlY3KLJRRUSTiBHXI0HmvQQv+Ow=",
-        "originContent": "### 2025.09",
-        "translatedContent": "### 2025.09"
-      },
-      {
-        "row": 32,
-        "rowsha": "cQmBVg60vtPd1T9H8fnY7CYYbh8XvSK2qGaKLJiYcHQ=",
-        "originContent": "1. Upload the champion solution of TPC@IJCAI2025 DSL track. Thanks the [@evergreenee](https://github.com/evergreenee) for their contributions.  ",
-        "translatedContent": "1. Hochladen der Siegerlösung des TPC@IJCAI2025 DSL-Tracks. Vielen Dank an [@evergreenee](https://github.com/evergreenee) für die Beiträge.  "
-      },
-      {
-        "row": 33,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 34,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 35,
-        "rowsha": "H1lWz8BQqnp/EP/chuS7cAG+fbLf5XvaEPG7ARWcevw=",
-        "originContent": "### 2025.06",
-        "translatedContent": "### 2025.06"
-      },
-      {
-        "row": 36,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 37,
-        "rowsha": "5EgyMXrue0M2NnW6JRV3MG/A7qVp3QA2q1a0KYAJ4t4=",
-        "originContent": "1. Fix error collection in the evaluation code of commonsense. ",
-        "translatedContent": "1. Fehlerbehebung bei der Sammlung im Bewertungscode für Commonsense. "
-      },
-      {
-        "row": 38,
-        "rowsha": "TpN2cw5TMe5z0eFl8jAKjO0WiZLU5s//ueS4toGksCE=",
-        "originContent": "2. Fix pure-neuro agent's pipeline",
-        "translatedContent": "2. Fehlerbehebung in der Pipeline des reinen Neuro-Agenten"
-      },
-      {
-        "row": 39,
-        "rowsha": "NtZ573pKw//Hqz1VJbcyabpiqxUtUkdWd2bLbiel2mY=",
-        "originContent": "3. Fix load_datasets from huggingface",
-        "translatedContent": "3. Fehlerbehebung beim Laden von Datensätzen von Huggingface"
-      },
-      {
-        "row": 40,
-        "rowsha": "U1x7q1zto+RjR6T2R9/0sgUwCSQVkNA03IGhCz3VBKQ=",
-        "originContent": "4. Update exception handling in syntax verification",
-        "translatedContent": "4. Aktualisierung der Ausnahmebehandlung bei der Syntaxüberprüfung"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -261,152 +20,7 @@
     "EndLine": 0,
     "Translation": "\n\n### 2025.05\n\n1. Protokollieren Sie die Aktualisierungen für die neueste Version.\n2. Stellen Sie den Bewertungscode für das TPC bereit.\n\n### 2025.04\n\n1. Lokaler Datenlader hinzugefügt. Benutzer können nun benutzerdefinierte Abfragen lokal laden. Bei Angabe von nicht standardmäßigen splits_name-Werten (z. B. \"abc\") für \"run_exp.py\" lädt das System automatisch entsprechende Dateien aus evaluation/default_splits/abc.txt, wobei die TXT-Datei die Dateinamen der Zielabfragen enthält.\n2. Detaillierte Klassifizierung von Einschränkungen. Siehe ausführliche Dokumentation unter [Evaluation README](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/chinatravel/symbol_verification/readme.md)\n3. LLM-Modulo-Baseline eingeführt\n   Implementierung der LLM-Modulo-Pipeline mit einem symbolischen Ground-Truth-Verifizierer.\n   Basierend auf der Methodik aus:\n   Paper: Robust Planning with Compound LLM Architectures: An LLM-Modulo Approach\n   Codebasis: https://github.com/Atharva-Gundawar/LLM-Modulo-prompts\n4. Unterstützung für lokale LLM-Inferenz mit Qwen3-8B/4B.\n\n## 🚀 Schnellstart\n\n### ⚙️ Einrichtung\n\n1. Erstellen Sie eine Conda-Umgebung und installieren Sie die Abhängigkeiten:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "hAw9X9hq18CFR3Cw1LALtqjZPmc3lDIYhnBJoYAfIyc=",
-        "originContent": "### 2025.05",
-        "translatedContent": "### 2025.05"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "4TP6URS7lJ+pOZjnJ1Uk1NASLq8LP5jDbQb7gCs9gv4=",
-        "originContent": "1. Update logs for the latest version.",
-        "translatedContent": "1. Protokollieren Sie die Aktualisierungen für die neueste Version."
-      },
-      {
-        "row": 6,
-        "rowsha": "yEGalyo/AcK5TD18Dro+/z9s/ffQv3ZlZcbbEKnISaM=",
-        "originContent": "2. Provide the evaluation code for the TPC.",
-        "translatedContent": "2. Stellen Sie den Bewertungscode für das TPC bereit."
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "iYEU5g4VFyfV3Rs30j0OE4I0WqpG4NT0OV0B9vItxLA=",
-        "originContent": "### 2025.04",
-        "translatedContent": "### 2025.04"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "10IZbfN8fcP1KN9AUwHypYtT7+y+ZNNm0JejQPezXLM=",
-        "originContent": "1. Added local data loader. Users can now load custom queries locally. When specifying non-default splits_name values (e.g., \"abc\") for \"run_exp.py\", the system will automatically load corresponding files from evaluation/default_splits/abc.txt, where the TXT file contains the target query filenames.",
-        "translatedContent": "1. Lokaler Datenlader hinzugefügt. Benutzer können nun benutzerdefinierte Abfragen lokal laden. Bei Angabe von nicht standardmäßigen splits_name-Werten (z. B. \"abc\") für \"run_exp.py\" lädt das System automatisch entsprechende Dateien aus evaluation/default_splits/abc.txt, wobei die TXT-Datei die Dateinamen der Zielabfragen enthält."
-      },
-      {
-        "row": 11,
-        "rowsha": "PwI9UWtaPPJgPNdzi74o/YNFq76P4IUYkh3Y8tV/qrc=",
-        "originContent": "2. Detailed constraints classification. See detailed docs at [Evaluation README](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/chinatravel/symbol_verification/readme.md)",
-        "translatedContent": "2. Detaillierte Klassifizierung von Einschränkungen. Siehe ausführliche Dokumentation unter [Evaluation README](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/chinatravel/symbol_verification/readme.md)"
-      },
-      {
-        "row": 12,
-        "rowsha": "xCk5aYmBAnDbwt9raJvi5aRYU+Q8tyMjWcs93EhR+vE=",
-        "originContent": "3. Introduced LLM-modulo baseline",
-        "translatedContent": "3. LLM-Modulo-Baseline eingeführt"
-      },
-      {
-        "row": 13,
-        "rowsha": "429XAGoApiQED1Li6LJkahPIamUydCwj30E6F3DAyQ4=",
-        "originContent": "   Implement the LLM-modulo pipeline with a ground-truth symbolic verifier.",
-        "translatedContent": "   Implementierung der LLM-Modulo-Pipeline mit einem symbolischen Ground-Truth-Verifizierer."
-      },
-      {
-        "row": 14,
-        "rowsha": "f1TvGQXYjnjpVwSKRvC7RLr/43oh1bL+SvumfQmu9W8=",
-        "originContent": "   Based on methodology from:",
-        "translatedContent": "   Basierend auf der Methodik aus:"
-      },
-      {
-        "row": 15,
-        "rowsha": "IAMIPEMihIc0QrEG7WytCrToMw/eembbV9GxUC8lADk=",
-        "originContent": "   Paper: Robust Planning with Compound LLM Architectures: An LLM-Modulo Approach",
-        "translatedContent": "   Paper: Robust Planning with Compound LLM Architectures: An LLM-Modulo Approach"
-      },
-      {
-        "row": 16,
-        "rowsha": "p/up7V6b+XA7pVubpfyBG8zCshKic9w+F9CQaDoyfB8=",
-        "originContent": "   Codebase: https://github.com/Atharva-Gundawar/LLM-Modulo-prompts",
-        "translatedContent": "   Codebasis: https://github.com/Atharva-Gundawar/LLM-Modulo-prompts"
-      },
-      {
-        "row": 17,
-        "rowsha": "sfBRc1IpqgfSpPP303AjSva031eEb4eAdQYp6SIkHRA=",
-        "originContent": "4. Support local LLMs inference with Qwen3-8B/4B.",
-        "translatedContent": "4. Unterstützung für lokale LLM-Inferenz mit Qwen3-8B/4B."
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
-        "originContent": "## 🚀 Quick Start",
-        "translatedContent": "## 🚀 Schnellstart"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "K0pn10c3h2ABuR3Gb9uNfyAolN1gXCuikF05Tf4bxKo=",
-        "originContent": "### ⚙️ Setup",
-        "translatedContent": "### ⚙️ Einrichtung"
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "eD2kDFRdiaeL22Wyt58Aqzd7oqKLTyikQdJEBswxDCk=",
-        "originContent": "1. Create a conda environment and install dependencies:",
-        "translatedContent": "1. Erstellen Sie eine Conda-Umgebung und installieren Sie die Abhängigkeiten:"
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -418,38 +32,7 @@
     "EndLine": 0,
     "Translation": "```bash\nconda create -n chinatravel python=3.9  \nconda activate chinatravel  \npip install -r requirements.txt  \n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "iAtEa1Y02ogl+pJrvVXusITDzaBH+lOrmjWpvk43i4o=",
-        "originContent": "conda create -n chinatravel python=3.9  ",
-        "translatedContent": "conda create -n chinatravel python=3.9  "
-      },
-      {
-        "row": 3,
-        "rowsha": "EWB71WXBRmkX+16teYQC70/veViSPmMtJTe2zoFISdg=",
-        "originContent": "conda activate chinatravel  ",
-        "translatedContent": "conda activate chinatravel  "
-      },
-      {
-        "row": 4,
-        "rowsha": "/Dnm5NfClS2eE/ELJL4ETcbzKj5ysVqpgvOf/QgxrU8=",
-        "originContent": "pip install -r requirements.txt  ",
-        "translatedContent": "pip install -r requirements.txt  "
-      },
-      {
-        "row": 5,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -461,50 +44,7 @@
     "EndLine": 0,
     "Translation": "\n2. Laden Sie die Datenbank herunter und entpacken Sie sie in das Verzeichnis \"chinatravel/environment/\"\n\nDownload-Links: [Google Drive](https://drive.google.com/drive/folders/1bJ7jA5cfExO_NKxKfi9qgcxEbkYeSdAU), [NJU Drive](https://box.nju.edu.cn/d/dd83e5a4a9e242ed8eb4/)\n\n3. Laden Sie die Open-Source-LLMs herunter (optional).\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "PfCZTUpvM/rBWVRkbKevYsp+MPfbLWLG/hlK8Y927Rk=",
-        "originContent": "2. Download the database and unzip it to the \"chinatravel/environment/\" directory",
-        "translatedContent": "2. Laden Sie die Datenbank herunter und entpacken Sie sie in das Verzeichnis \"chinatravel/environment/\""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "YwS18eksnNWe0Zg2BvsrYUExVe83Y5EKN0E/zqDz2dA=",
-        "originContent": "Download Links: [Google Drive](https://drive.google.com/drive/folders/1bJ7jA5cfExO_NKxKfi9qgcxEbkYeSdAU), [NJU Drive](https://box.nju.edu.cn/d/dd83e5a4a9e242ed8eb4/)",
-        "translatedContent": "Download-Links: [Google Drive](https://drive.google.com/drive/folders/1bJ7jA5cfExO_NKxKfi9qgcxEbkYeSdAU), [NJU Drive](https://box.nju.edu.cn/d/dd83e5a4a9e242ed8eb4/)"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "Qsp8ucMFkoRN1AqgXh2JH7Z9o/2UZSB7URXs7x5WyiI=",
-        "originContent": "3. Download the open-source LLMs (optional).",
-        "translatedContent": "3. Laden Sie die Open-Source-LLMs herunter (optional)."
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -516,26 +56,7 @@
     "EndLine": 0,
     "Translation": "```bash\nbash download_llm.sh\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "6SgZ7JLiNz51sgoWGpfHaFdvZB1Ejd8J0x5X69UvGCY=",
-        "originContent": "bash download_llm.sh",
-        "translatedContent": "bash download_llm.sh"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -547,26 +68,7 @@
     "EndLine": 0,
     "Translation": "\n4. Laden Sie die Tokenizer herunter.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "pFMpUTh2++sgxTtwODJeSMhu2kyJHfKRiraBZA8w2I8=",
-        "originContent": "4. Download the tokenizers.",
-        "translatedContent": "4. Laden Sie die Tokenizer herunter."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -578,32 +80,7 @@
     "EndLine": 0,
     "Translation": "```bash\nwget https://cdn.deepseek.com/api-docs/deepseek_v3_tokenizer.zip -P chinatravel/local_llm/\nunzip chinatravel/local_llm/deepseek_v3_tokenizer.zip -d chinatravel/local_llm/\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "O4NDwJMr1ai1naT4+75JlIu9GbEGZlN3yoJfbl4LnMI=",
-        "originContent": "wget https://cdn.deepseek.com/api-docs/deepseek_v3_tokenizer.zip -P chinatravel/local_llm/",
-        "translatedContent": "wget https://cdn.deepseek.com/api-docs/deepseek_v3_tokenizer.zip -P chinatravel/local_llm/"
-      },
-      {
-        "row": 3,
-        "rowsha": "7R4LKYrDYFnvbTMBgoW4hnjcBaPohkSUv9o+F/jmVn8=",
-        "originContent": "unzip chinatravel/local_llm/deepseek_v3_tokenizer.zip -d chinatravel/local_llm/",
-        "translatedContent": "unzip chinatravel/local_llm/deepseek_v3_tokenizer.zip -d chinatravel/local_llm/"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -615,38 +92,7 @@
     "EndLine": 0,
     "Translation": "\n### ▶️ Ausführung\n\nWir unterstützen Deepseek (offizielle API von Deepseek), GPT-4o (chatgpt-4o-latest), GLM4-Plus und lokale Inferenz mit Qwen (Qwen3-8B), Llama, Mistral (Mistral-7B-Instruct-v0.3) usw.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "pZZuUGlWBJ1JKlUC5DPuR3k/G1zmbi27RxZGDwuT2Gg=",
-        "originContent": "### ▶️ Running",
-        "translatedContent": "### ▶️ Ausführung"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "Fr2oCtMUTt+IbZKbw+sC6CwztNtDn3TYHPMUQ5kxQJY=",
-        "originContent": "We support the deepseek (offical API from deepseek), gpt-4o (chatgpt-4o-latest), glm4-plus, and local inferences with Qwen (Qwen3-8B), llama, mistral (Mistral-7B-Instruct-v0.3), etc.",
-        "translatedContent": "Wir unterstützen Deepseek (offizielle API von Deepseek), GPT-4o (chatgpt-4o-latest), GLM4-Plus und lokale Inferenz mit Qwen (Qwen3-8B), Llama, Mistral (Mistral-7B-Instruct-v0.3) usw."
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -658,110 +104,7 @@
     "EndLine": 0,
     "Translation": "```bash\nexport OPENAI_API_KEY=\"\"\n\npython run_exp.py --splits easy --agent LLMNeSy --llm deepseek --oracle_translation\npython run_exp.py --splits medium --agent LLMNeSy --llm deepseek --oracle_translation\npython run_exp.py --splits human --agent LLMNeSy --llm deepseek --oracle_translation\n\npython run_exp.py --splits human --agent LLMNeSy --llm Qwen3-8B --oracle_translation\n\n\npython run_exp.py --splits human --agent LLMNeSy --llm deepseek \npython run_exp.py --splits human --agent LLMNeSy --llm Qwen3-8B \n\n\npython run_exp.py --splits human --agent LLM-modulo --llm deepseek --refine_steps 10 --oracle_translation\npython run_exp.py --splits human --agent LLM-modulo --llm Qwen3-8B --refine_steps 10 --oracle_translation\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "m59zFHYB6ofmGayUxI+RjLcH7NZRDxsDXcc2z/86+m0=",
-        "originContent": "export OPENAI_API_KEY=\"\"",
-        "translatedContent": "export OPENAI_API_KEY=\"\""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "NbSXwZ3ONQ2zddsOGRJuVwZgtpsN3J9WAo+JBNGWpo0=",
-        "originContent": "python run_exp.py --splits easy --agent LLMNeSy --llm deepseek --oracle_translation",
-        "translatedContent": "python run_exp.py --splits easy --agent LLMNeSy --llm deepseek --oracle_translation"
-      },
-      {
-        "row": 5,
-        "rowsha": "eJc87jK4GrkYoPjw3f+MaFk8BbdfKSDSWdhLc+Rguqc=",
-        "originContent": "python run_exp.py --splits medium --agent LLMNeSy --llm deepseek --oracle_translation",
-        "translatedContent": "python run_exp.py --splits medium --agent LLMNeSy --llm deepseek --oracle_translation"
-      },
-      {
-        "row": 6,
-        "rowsha": "bTcvVLXBBanyXyVBgYInZiYTmFCuAY8VKaakrQ1u3j0=",
-        "originContent": "python run_exp.py --splits human --agent LLMNeSy --llm deepseek --oracle_translation",
-        "translatedContent": "python run_exp.py --splits human --agent LLMNeSy --llm deepseek --oracle_translation"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "vYuf8bhOS5nCdCxDt40VJ68yWeejWn/J1N2lMeEUcA8=",
-        "originContent": "python run_exp.py --splits human --agent LLMNeSy --llm Qwen3-8B --oracle_translation",
-        "translatedContent": "python run_exp.py --splits human --agent LLMNeSy --llm Qwen3-8B --oracle_translation"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "toh9CMmW0mg4IUVLA8Uw7GT0xJYSR8R2ONdgKmgshuM=",
-        "originContent": "python run_exp.py --splits human --agent LLMNeSy --llm deepseek ",
-        "translatedContent": "python run_exp.py --splits human --agent LLMNeSy --llm deepseek "
-      },
-      {
-        "row": 12,
-        "rowsha": "sJRAaNMuuxQzCEd6otgbQe2hrfY5MUrgZqbwR1EVBec=",
-        "originContent": "python run_exp.py --splits human --agent LLMNeSy --llm Qwen3-8B ",
-        "translatedContent": "python run_exp.py --splits human --agent LLMNeSy --llm Qwen3-8B "
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "wxwdklg+DmHMl/HjYKi5iNUeiNKPbCteIb3q1H3YJiQ=",
-        "originContent": "python run_exp.py --splits human --agent LLM-modulo --llm deepseek --refine_steps 10 --oracle_translation",
-        "translatedContent": "python run_exp.py --splits human --agent LLM-modulo --llm deepseek --refine_steps 10 --oracle_translation"
-      },
-      {
-        "row": 16,
-        "rowsha": "vTglIooiDQVKSmMw7EmL5vssIkTIpKpZMAbqRMJVpLg=",
-        "originContent": "python run_exp.py --splits human --agent LLM-modulo --llm Qwen3-8B --refine_steps 10 --oracle_translation",
-        "translatedContent": "python run_exp.py --splits human --agent LLM-modulo --llm Qwen3-8B --refine_steps 10 --oracle_translation"
-      },
-      {
-        "row": 17,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -773,62 +116,7 @@
     "EndLine": 0,
     "Translation": "\n**Hinweis**:\n\n- Das Flag `--oracle_translation` ermöglicht den Zugriff auf annotierte Ground-Truth-Daten, einschließlich:\n\n  - `hard_logic_py`: Ausführbarer Verifizierungs-DSL-Code\n  - `hard_logic_nl`: Die entsprechenden Beschreibungen der Einschränkungen\n  - Beispielstruktur der Annotation:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "94odqHADlbhIuGdt+a+pswa5euTobixpyaddenFKojI=",
-        "originContent": "**Note**:",
-        "translatedContent": "**Hinweis**:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "lEOi+jAguQuJqBjz5M6hUJQdv0VDtGQgnpLYLOOyQGw=",
-        "originContent": "- The `--oracle_translation` flag enables access to annotated ground truth including:",
-        "translatedContent": "- Das Flag `--oracle_translation` ermöglicht den Zugriff auf annotierte Ground-Truth-Daten, einschließlich:"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "T6Wdq5hrAum32KtiWh1FSI6/D3cm1VhTXUO64M60vvU=",
-        "originContent": "  - `hard_logic_py`: Executable verification DSL code",
-        "translatedContent": "  - `hard_logic_py`: Ausführbarer Verifizierungs-DSL-Code"
-      },
-      {
-        "row": 7,
-        "rowsha": "mowG/vzHOU3CLyQ8S5tpuSypZEofezhYBokR2geBNuc=",
-        "originContent": "  - `hard_logic_nl`: The corrsponding constraint descriptions",
-        "translatedContent": "  - `hard_logic_nl`: Die entsprechenden Beschreibungen der Einschränkungen"
-      },
-      {
-        "row": 8,
-        "rowsha": "tQ85va9QIZ3yfKiflnr4ybpH2TGEuLkzOKD6wzu3P1A=",
-        "originContent": "  - Example annotation structure:",
-        "translatedContent": "  - Beispielstruktur der Annotation:"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -840,134 +128,7 @@
     "EndLine": 0,
     "Translation": "  ```python\n  {\n    \"hard_logic_py\": [\n      \"\n      total_cost=0 \n      for activity in allactivities(plan):\n          total_cost+=activity_cost(activity)\n              total_cost += innercity_transport_cost(activity_transports(activity))\n      result=(total_cost<=1000)\n      \", \n      \"\n      innercity_transport_set=set()\n      for activity in allactivities(plan):\n          if activity_transports(activity)!=[]:              \n              innercity_transport_set.add(innercity_transport_type(activity_transports(activity)))\n      result=(innercity_transport_set<={'taxi'})\n      \"\n    ], \n    \"hard_logic_nl\": [\"总预算为1800元\", \"市内交通选择taxi\"], \n  }\n  ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "N4kscwlOyxHjkIofMiDGA8u3cJwEnZPxpGWB3WQ0JUo=",
-        "originContent": "  ```python",
-        "translatedContent": "  ```python"
-      },
-      {
-        "row": 2,
-        "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
-        "originContent": "  {",
-        "translatedContent": "  {"
-      },
-      {
-        "row": 3,
-        "rowsha": "LowhTCnfAwJyx5eXITH1faj75Jwv9H6BWx74MMb1xBg=",
-        "originContent": "    \"hard_logic_py\": [",
-        "translatedContent": "    \"hard_logic_py\": ["
-      },
-      {
-        "row": 4,
-        "rowsha": "/yyXDMCNKlHG2ZIYFM58suO6trBoOAjcLXeL74M3hMc=",
-        "originContent": "      \"",
-        "translatedContent": "      \""
-      },
-      {
-        "row": 5,
-        "rowsha": "Ytwoy0lB61Pulc2EUx82xfiGWkNe1SpSLOqNzFNqUjo=",
-        "originContent": "      total_cost=0 ",
-        "translatedContent": "      total_cost=0 "
-      },
-      {
-        "row": 6,
-        "rowsha": "V52znWRn5dAXjYAf9sYIw1SSmD+hQEbPD28vhXrPvEg=",
-        "originContent": "      for activity in allactivities(plan):",
-        "translatedContent": "      for activity in allactivities(plan):"
-      },
-      {
-        "row": 7,
-        "rowsha": "2UBK0FVdwLipgD5Led4yWbW/yi1gTFT15UtbDbo4SJg=",
-        "originContent": "          total_cost+=activity_cost(activity)",
-        "translatedContent": "          total_cost+=activity_cost(activity)"
-      },
-      {
-        "row": 8,
-        "rowsha": "IF6uyk48Xt6oRb8mNCM57LZc8q35e9cUKNUKGUHGsy8=",
-        "originContent": "              total_cost += innercity_transport_cost(activity_transports(activity))",
-        "translatedContent": "              total_cost += innercity_transport_cost(activity_transports(activity))"
-      },
-      {
-        "row": 9,
-        "rowsha": "oSWxW//uOdp8aAcZLeEGKzOlHdaGwp+VFmZ0j9CcW/I=",
-        "originContent": "      result=(total_cost<=1000)",
-        "translatedContent": "      result=(total_cost<=1000)"
-      },
-      {
-        "row": 10,
-        "rowsha": "VQSFjsfG9P2y/sUkgUL8y8vL/epM2ABrzpyQFczBWJM=",
-        "originContent": "      \", ",
-        "translatedContent": "      \", "
-      },
-      {
-        "row": 11,
-        "rowsha": "/yyXDMCNKlHG2ZIYFM58suO6trBoOAjcLXeL74M3hMc=",
-        "originContent": "      \"",
-        "translatedContent": "      \""
-      },
-      {
-        "row": 12,
-        "rowsha": "0Fbyqe0HH6RAmxmTirJlqTHHESLAZi1wRfUdhV1oKhU=",
-        "originContent": "      innercity_transport_set=set()",
-        "translatedContent": "      innercity_transport_set=set()"
-      },
-      {
-        "row": 13,
-        "rowsha": "V52znWRn5dAXjYAf9sYIw1SSmD+hQEbPD28vhXrPvEg=",
-        "originContent": "      for activity in allactivities(plan):",
-        "translatedContent": "      for activity in allactivities(plan):"
-      },
-      {
-        "row": 14,
-        "rowsha": "ALPZOwiSxUbwKbMsdwNf4eC6BdrhSNcbSQWzQJg2Rz4=",
-        "originContent": "          if activity_transports(activity)!=[]:              ",
-        "translatedContent": "          if activity_transports(activity)!=[]:              "
-      },
-      {
-        "row": 15,
-        "rowsha": "x7/rev6f++T5Qhd1+g9hurjwfYSXJxwABFCxyZm83eA=",
-        "originContent": "              innercity_transport_set.add(innercity_transport_type(activity_transports(activity)))",
-        "translatedContent": "              innercity_transport_set.add(innercity_transport_type(activity_transports(activity)))"
-      },
-      {
-        "row": 16,
-        "rowsha": "BdF2a9rP5zMSBB6vP2+yTqGF9XbrVkqKNDm9tl/ieu0=",
-        "originContent": "      result=(innercity_transport_set<={'taxi'})",
-        "translatedContent": "      result=(innercity_transport_set<={'taxi'})"
-      },
-      {
-        "row": 17,
-        "rowsha": "/yyXDMCNKlHG2ZIYFM58suO6trBoOAjcLXeL74M3hMc=",
-        "originContent": "      \"",
-        "translatedContent": "      \""
-      },
-      {
-        "row": 18,
-        "rowsha": "JWGNsvFrVXQGPUoAf8G9NO6LDbhgOww77TkBwt9juIM=",
-        "originContent": "    ], ",
-        "translatedContent": "    ], "
-      },
-      {
-        "row": 19,
-        "rowsha": "nvW9brjQg1TBX9Hu8A4pvdjSQSa1ieUd+MWYx2eX9jk=",
-        "originContent": "    \"hard_logic_nl\": [\"总预算为1800元\", \"市内交通选择taxi\"], ",
-        "translatedContent": "    \"hard_logic_nl\": [\"总预算为1800元\", \"市内交通选择taxi\"], "
-      },
-      {
-        "row": 20,
-        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
-        "originContent": "  }",
-        "translatedContent": "  }"
-      },
-      {
-        "row": 21,
-        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
-        "originContent": "  ```",
-        "translatedContent": "  ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -979,32 +140,7 @@
     "EndLine": 0,
     "Translation": "- Die LLM-Modulo-Methode **erfordert** den Oracle_Translation-Modus für ihren symbolischen Verfeinerungsprozess\n\n### 📊 Bewertung\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "qmAhrI86qiahL+m7YltcpxnjScb5l4TXPUfwcAGTa5A=",
-        "originContent": "- LLM-modulo method **requires** oracle_translation mode for its symbolic refinement process",
-        "translatedContent": "- Die LLM-Modulo-Methode **erfordert** den Oracle_Translation-Modus für ihren symbolischen Verfeinerungsprozess"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "Sxq+KWIZIGg6kc294S9poCLGHlbMV5avdMu2rPCGBDM=",
-        "originContent": "### 📊 Evaluation",
-        "translatedContent": "### 📊 Bewertung"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1016,50 +152,7 @@
     "EndLine": 0,
     "Translation": "```bash\npython eval_exp.py --splits human --method LLMNeSy_deepseek_oracletranslation\npython eval_exp.py --splits human --method LLMNeSy_deepseek\npython eval_exp.py --splits human --method LLM-modulo_deepseek_10steps_oracletranslation\npython eval_exp.py --splits human --method LLM-modulo_Qwen3-8B_10steps_oracletranslation\n\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "jvUv0RRjqEfdDQ5OrDp6zK4tOyK+eHC9E4a0E0zhxF0=",
-        "originContent": "python eval_exp.py --splits human --method LLMNeSy_deepseek_oracletranslation",
-        "translatedContent": "python eval_exp.py --splits human --method LLMNeSy_deepseek_oracletranslation"
-      },
-      {
-        "row": 3,
-        "rowsha": "pBtSPPTnO9pnk9NFLzYi4P7ilJV5lga5rs4Xr3yMyT4=",
-        "originContent": "python eval_exp.py --splits human --method LLMNeSy_deepseek",
-        "translatedContent": "python eval_exp.py --splits human --method LLMNeSy_deepseek"
-      },
-      {
-        "row": 4,
-        "rowsha": "Iw0LXqyMFneqLqDjM7biY+RW1RggFPfEYlhBjXT8V98=",
-        "originContent": "python eval_exp.py --splits human --method LLM-modulo_deepseek_10steps_oracletranslation",
-        "translatedContent": "python eval_exp.py --splits human --method LLM-modulo_deepseek_10steps_oracletranslation"
-      },
-      {
-        "row": 5,
-        "rowsha": "+7u101XSTu03GBMLBJTiwBEmrL2PKk6IQbp010+Vm98=",
-        "originContent": "python eval_exp.py --splits human --method LLM-modulo_Qwen3-8B_10steps_oracletranslation",
-        "translatedContent": "python eval_exp.py --splits human --method LLM-modulo_Qwen3-8B_10steps_oracletranslation"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1071,26 +164,7 @@
     "EndLine": 0,
     "Translation": "\nIm TPC@IJCAI2025 wird der Bewertungscode in der Datei `eval_tpc.py` bereitgestellt. Sie können den Bewertungscode wie folgt ausführen:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "IYOGpQ1CgaGRip0DCj2lLas+CECpydg0AmoZNyqKqVc=",
-        "originContent": "In TPC@IJCAI2025, the evaluation code is provided in the `eval_tpc.py` file. You can run the evaluation code as follows:",
-        "translatedContent": "Im TPC@IJCAI2025 wird der Bewertungscode in der Datei `eval_tpc.py` bereitgestellt. Sie können den Bewertungscode wie folgt ausführen:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1102,26 +176,7 @@
     "EndLine": 0,
     "Translation": "```bash\npython eval_tpc.py --splits tpc_phase1 --method YOUR_METHOD_NAME\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "5nEpwqu0I3ryhKl7itbWdaQKQFZUi/ap7BgeaX5R4Vw=",
-        "originContent": "python eval_tpc.py --splits tpc_phase1 --method YOUR_METHOD_NAME",
-        "translatedContent": "python eval_tpc.py --splits tpc_phase1 --method YOUR_METHOD_NAME"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1133,104 +188,7 @@
     "EndLine": 0,
     "Translation": "\n## 📚 Dokumentation\n\n[Umgebung](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/chinatravel/environment/readme.md)\n[Einschränkungen](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/chinatravel/symbol_verification/readme.md)\n\n## 🛠️ Erweiterte Entwicklung\n\n### 1. Entwickeln Sie Ihren eigenen Agenten-Algorithmus\n\nUm Ihren eigenen Agenten-Algorithmus zu entwickeln, müssen Sie die Klasse `BaseAgent` aus `chinatravel/agent/base.py` erben und die Logik für Ihren Algorithmus in die Funktion `init_agent` in `chinatravel/agent/load_model.py` einfügen. Wir stellen ein Beispiel für einen leeren Agenten namens `TPCAgent` bereit.\n\nSchritte:\n\n- **Erben Sie die Klasse `BaseAgent`**: Erstellen Sie eine neue Python-Datei im Verzeichnis `chinatravel/agent` und definieren Sie Ihre eigene Agentenklasse, indem Sie von `BaseAgent` erben.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "iSqTXkvLzBv9nJXGqnXmaFj95HXMjymgtIKElLQkTzo=",
-        "originContent": "## 📚 Docs",
-        "translatedContent": "## 📚 Dokumentation"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "HJx3Hyg7N2Um7rRoh/j29FOBqg23oNZHOu5y2KUFla8=",
-        "originContent": "[Environment](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/chinatravel/environment/readme.md)",
-        "translatedContent": "[Umgebung](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/chinatravel/environment/readme.md)"
-      },
-      {
-        "row": 5,
-        "rowsha": "DHg+WHzHWkefwRkiJd1rfoa1LdtQKtLT6DdxEjOsZxs=",
-        "originContent": "[Constraints](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/chinatravel/symbol_verification/readme.md)",
-        "translatedContent": "[Einschränkungen](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/chinatravel/symbol_verification/readme.md)"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "/m26dtIuQuQ5HKkj3C28UFaqgYOXXMEJ/cnedh8nK0w=",
-        "originContent": "## 🛠️ Advanced Development",
-        "translatedContent": "## 🛠️ Erweiterte Entwicklung"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "2MsLwuCV+/RA0BND1oCJsjEryw/EFVl5yrj+33/pnG8=",
-        "originContent": "### 1. Develop Your Own Agent Algorithm",
-        "translatedContent": "### 1. Entwickeln Sie Ihren eigenen Agenten-Algorithmus"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "EdOkOU7r7o/dO8EvK/nVNJTrOzRmvGsGNVOyXR9dI7E=",
-        "originContent": "To develop your own agent algorithm, you need to inherit the `BaseAgent` class from `chinatravel/agent/base.py` and add the logic for your algorithm to the `init_agent` function in `chinatravel/agent/load_model.py`. We provide an empty agent example named `TPCAgent`.",
-        "translatedContent": "Um Ihren eigenen Agenten-Algorithmus zu entwickeln, müssen Sie die Klasse `BaseAgent` aus `chinatravel/agent/base.py` erben und die Logik für Ihren Algorithmus in die Funktion `init_agent` in `chinatravel/agent/load_model.py` einfügen. Wir stellen ein Beispiel für einen leeren Agenten namens `TPCAgent` bereit."
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "0BRlKhn9YAwrBvAa+jBDqqhQoOpf24XIl5rgVeQsueo=",
-        "originContent": "Steps:",
-        "translatedContent": "Schritte:"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "Addd4DZ0u2p2crQGzzsnTrMeIsmerenA5hP7ig/zWe8=",
-        "originContent": "- **Inherit the `BaseAgent` class**: Create a new Python file in the `chinatravel/agent` directory and define your own agent class, inheriting from `BaseAgent`.",
-        "translatedContent": "- **Erben Sie die Klasse `BaseAgent`**: Erstellen Sie eine neue Python-Datei im Verzeichnis `chinatravel/agent` und definieren Sie Ihre eigene Agentenklasse, indem Sie von `BaseAgent` erben."
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1242,80 +200,7 @@
     "EndLine": 0,
     "Translation": "```python:chinatravel/agent/your_agent.py\nfrom .base import BaseAgent\n\nclass YourAgent(BaseAgent):\n    def __init__(self, **kwargs):\n        super().__init__(**kwargs)\n        # Initialization logic\n\n    def act(self, observation):\n        # Implement the decision - making logic of the agent\n        pass\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "REvTtg8Ug/wYPKBmq7vlYvUZXLHiDMvOGrZ4WOaf0sI=",
-        "originContent": "```python:chinatravel/agent/your_agent.py",
-        "translatedContent": "```python:chinatravel/agent/your_agent.py"
-      },
-      {
-        "row": 2,
-        "rowsha": "RJ9ABzNOeo5VVpAmR8cUY8cQolEOj58f+d8OAb/kPMA=",
-        "originContent": "from .base import BaseAgent",
-        "translatedContent": "from .base import BaseAgent"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "ptRx64bKARwOhPIeos0MvYqomkUoY74DnecdXckNNqA=",
-        "originContent": "class YourAgent(BaseAgent):",
-        "translatedContent": "class YourAgent(BaseAgent):"
-      },
-      {
-        "row": 5,
-        "rowsha": "neU5A7UcsWcnOCzL6vWVcUqCPYMTtVVFE254WZFuG08=",
-        "originContent": "    def __init__(self, **kwargs):",
-        "translatedContent": "    def __init__(self, **kwargs):"
-      },
-      {
-        "row": 6,
-        "rowsha": "B3Um7SXm8D29utu+B71JkJvLytUqW3sSeA1ZKxvzaHo=",
-        "originContent": "        super().__init__(**kwargs)",
-        "translatedContent": "        super().__init__(**kwargs)"
-      },
-      {
-        "row": 7,
-        "rowsha": "DOo04OsKAQr2MUM1R2p6sFG0r+6EHVD4Vkld+JAolqM=",
-        "originContent": "        # Initialization logic",
-        "translatedContent": "        # Initialization logic"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "alzZucfN+8GOHKxvyXdY6SuY01mego2/SrjrLrVqfSo=",
-        "originContent": "    def act(self, observation):",
-        "translatedContent": "    def act(self, observation):"
-      },
-      {
-        "row": 10,
-        "rowsha": "0w+yVlFMP3UYjiLxxhaGO8BXSa5kLz4LylkmFb1vfDM=",
-        "originContent": "        # Implement the decision - making logic of the agent",
-        "translatedContent": "        # Implement the decision - making logic of the agent"
-      },
-      {
-        "row": 11,
-        "rowsha": "CzVHD9kOMY7VHnVNWDfr1R4a2yuxHuXE1Pt85DRddnM=",
-        "originContent": "        pass",
-        "translatedContent": "        pass"
-      },
-      {
-        "row": 12,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1327,26 +212,7 @@
     "EndLine": 0,
     "Translation": "\n- **Fügen Sie Code zur Funktion init_agent hinzu**: Öffnen Sie die Datei chinatravel/agent/load_model.py und fügen Sie Unterstützung für Ihren neuen Agenten in der Funktion init_agent hinzu.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "ig5zXRF+TrhAWgSkCzKUm+lKotl65oCoHGe+snCdw5w=",
-        "originContent": "- **Add code to the init_agent function**: Open the chinatravel/agent/load_model.py file and add support for your new agent in the init_agent function.",
-        "translatedContent": "- **Fügen Sie Code zur Funktion init_agent hinzu**: Öffnen Sie die Datei chinatravel/agent/load_model.py und fügen Sie Unterstützung für Ihren neuen Agenten in der Funktion init_agent hinzu."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1358,68 +224,7 @@
     "EndLine": 0,
     "Translation": "```python:\ndef init_agent(kwargs):\n    # ... existing code ...\n    elif kwargs[\"method\"] == \"YourMethodName\":\n        agent = YourAgent(\n            **kwargs\n        )\n    # ... existing code ...\n    return agent\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "WJ0/lCEooZKQMVXXCBEVtyqDuQMef9BTfoeRSAmhN+0=",
-        "originContent": "```python:",
-        "translatedContent": "```python:"
-      },
-      {
-        "row": 2,
-        "rowsha": "8oAEcIxL0RbgOY1akBhdMeGltJpotQRZnrI5yma8I+k=",
-        "originContent": "def init_agent(kwargs):",
-        "translatedContent": "def init_agent(kwargs):"
-      },
-      {
-        "row": 3,
-        "rowsha": "peqmrOSfOdH34MueFjqeHaGpo5X95aqtaciQPP1CUyk=",
-        "originContent": "    # ... existing code ...",
-        "translatedContent": "    # ... existing code ..."
-      },
-      {
-        "row": 4,
-        "rowsha": "6Ats8+xdlpvnzZaipaS1aDk6HIcMhU327LSJx4leYP0=",
-        "originContent": "    elif kwargs[\"method\"] == \"YourMethodName\":",
-        "translatedContent": "    elif kwargs[\"method\"] == \"YourMethodName\":"
-      },
-      {
-        "row": 5,
-        "rowsha": "58k0KX0H27RjxDeatSfxofFyWmvXhrV8lwyPGMea0rU=",
-        "originContent": "        agent = YourAgent(",
-        "translatedContent": "        agent = YourAgent("
-      },
-      {
-        "row": 6,
-        "rowsha": "brm/TN9jPrHj84N0fw9H6qQK1i/dM3CYakQMbwXj2kA=",
-        "originContent": "            **kwargs",
-        "translatedContent": "            **kwargs"
-      },
-      {
-        "row": 7,
-        "rowsha": "qzjo1midRSsRUHKP4UDpYDctWoenaIz1GwPwmWYIuEI=",
-        "originContent": "        )",
-        "translatedContent": "        )"
-      },
-      {
-        "row": 8,
-        "rowsha": "peqmrOSfOdH34MueFjqeHaGpo5X95aqtaciQPP1CUyk=",
-        "originContent": "    # ... existing code ...",
-        "translatedContent": "    # ... existing code ..."
-      },
-      {
-        "row": 9,
-        "rowsha": "i3mLu/3YAOQ2iWVOQRB1V2K5XBZNiT58WwXtgNueVlg=",
-        "originContent": "    return agent",
-        "translatedContent": "    return agent"
-      },
-      {
-        "row": 10,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1431,56 +236,7 @@
     "EndLine": 0,
     "Translation": "\n### 2. Entwickeln Sie Ihr eigenes lokales LLM\n\nUm Ihr eigenes lokales Large Language Model (LLM) zu entwickeln, müssen Sie die AbstractLLM-Klasse aus chinatravel/agent/llms.py erben und den entsprechenden lokalen LLM-Inferenzcode in llms.py hinzufügen. Wir stellen ein leeres LLM-Beispiel namens TPCLLM bereit.\nSchritte:\n\n- **Erben Sie die AbstractLLM-Klasse**: Definieren Sie Ihre eigene LLM-Klasse in der Datei chinatravel/agent/llms.py, indem Sie von AbstractLLM erben.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "J8/vx7W6LZn9xqARVEn/WrFeVQ4wY/sxcVue1Y+4erM=",
-        "originContent": "### 2. Develop Your Own Local LLM",
-        "translatedContent": "### 2. Entwickeln Sie Ihr eigenes lokales LLM"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "k4KGk2Hg32OQWgrmZLeK+YN4nFBCuuGHN59FqrboOlM=",
-        "originContent": "To develop your own local large - language model (LLM), you need to inherit the AbstractLLM class from chinatravel/agent/llms.py and add the corresponding local LLM inference code in llms.py. We provide an empty LLM example named TPCLLM.",
-        "translatedContent": "Um Ihr eigenes lokales Large Language Model (LLM) zu entwickeln, müssen Sie die AbstractLLM-Klasse aus chinatravel/agent/llms.py erben und den entsprechenden lokalen LLM-Inferenzcode in llms.py hinzufügen. Wir stellen ein leeres LLM-Beispiel namens TPCLLM bereit."
-      },
-      {
-        "row": 5,
-        "rowsha": "0BRlKhn9YAwrBvAa+jBDqqhQoOpf24XIl5rgVeQsueo=",
-        "originContent": "Steps:",
-        "translatedContent": "Schritte:"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "VvdDxwEADDA5NsnuKz2jhtFAexvXXlsvuH4Ei/JIHoQ=",
-        "originContent": "- **Inherit the AbstractLLM class**:  Define your own LLM class in the chinatravel/agent/llms.py file, inheriting from AbstractLLM.",
-        "translatedContent": "- **Erben Sie die AbstractLLM-Klasse**: Definieren Sie Ihre eigene LLM-Klasse in der Datei chinatravel/agent/llms.py, indem Sie von AbstractLLM erben."
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1492,116 +248,7 @@
     "EndLine": 0,
     "Translation": "```python\nclass YourLLM(AbstractLLM):\n    def __init__(self):\n        super().__init__()\n        # Initialization logic\n        self.name = \"YourLLMName\"\n\n    def _get_response(self, messages, one_line, json_mode):\n        # Implement the response logic of the LLM\n        response = \"Your LLM response\"\n        if json_mode:\n            # Handle JSON mode\n            pass\n        elif one_line:\n            # Handle one - line mode\n            response = response.split(\"\\n\")[0]\n        return response\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
-        "originContent": "```python",
-        "translatedContent": "```python"
-      },
-      {
-        "row": 2,
-        "rowsha": "yb3gnYXEXagJSJPeihaEPRI6hVMitiH2bG43+qIvju8=",
-        "originContent": "class YourLLM(AbstractLLM):",
-        "translatedContent": "class YourLLM(AbstractLLM):"
-      },
-      {
-        "row": 3,
-        "rowsha": "XO9tQbyupXsQiyohbv1fnjEpnD3g/5FyxWupvijHR88=",
-        "originContent": "    def __init__(self):",
-        "translatedContent": "    def __init__(self):"
-      },
-      {
-        "row": 4,
-        "rowsha": "87OsgbX8Y/JUlpR4Nt8dZBP0U+Jl5MSmreC72sir844=",
-        "originContent": "        super().__init__()",
-        "translatedContent": "        super().__init__()"
-      },
-      {
-        "row": 5,
-        "rowsha": "DOo04OsKAQr2MUM1R2p6sFG0r+6EHVD4Vkld+JAolqM=",
-        "originContent": "        # Initialization logic",
-        "translatedContent": "        # Initialization logic"
-      },
-      {
-        "row": 6,
-        "rowsha": "5kBosHtu1MoM36//9VKzpUqXA6Z5V09SFL/JINep4nc=",
-        "originContent": "        self.name = \"YourLLMName\"",
-        "translatedContent": "        self.name = \"YourLLMName\""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "GrHk2ALW1vfEcHWIxdGViFZGGEfFGLBrov+MIR9nevY=",
-        "originContent": "    def _get_response(self, messages, one_line, json_mode):",
-        "translatedContent": "    def _get_response(self, messages, one_line, json_mode):"
-      },
-      {
-        "row": 9,
-        "rowsha": "lNtCLYH9oEOOD6NxHXdSj9ubDav+qecDbY14YvVGdvs=",
-        "originContent": "        # Implement the response logic of the LLM",
-        "translatedContent": "        # Implement the response logic of the LLM"
-      },
-      {
-        "row": 10,
-        "rowsha": "EC6kSJvnT4n8vU6vqQvGwxbfU7QbvxiUwsiAw7bv1X8=",
-        "originContent": "        response = \"Your LLM response\"",
-        "translatedContent": "        response = \"Your LLM response\""
-      },
-      {
-        "row": 11,
-        "rowsha": "fg8hS7iUkSlYAdM7r6ONuk9j7b8wqdM+guB7ZjW4xD8=",
-        "originContent": "        if json_mode:",
-        "translatedContent": "        if json_mode:"
-      },
-      {
-        "row": 12,
-        "rowsha": "k0uRuQfFbW0eR+MjF89x9d03qi24ICbuAh674ufUdYM=",
-        "originContent": "            # Handle JSON mode",
-        "translatedContent": "            # Handle JSON mode"
-      },
-      {
-        "row": 13,
-        "rowsha": "YiPzHQSGbU8fltRSqKtEIJvNiC5CDxpv4BDYIXbhGfo=",
-        "originContent": "            pass",
-        "translatedContent": "            pass"
-      },
-      {
-        "row": 14,
-        "rowsha": "+YDbo1mue7CRBLiDMGLKc1TW4WJTxMOdDnT+es7syPY=",
-        "originContent": "        elif one_line:",
-        "translatedContent": "        elif one_line:"
-      },
-      {
-        "row": 15,
-        "rowsha": "j0L71ORFV7auWqW2ZIhdJIqMU4MzHxFy+pwVkvcMUtw=",
-        "originContent": "            # Handle one - line mode",
-        "translatedContent": "            # Handle one - line mode"
-      },
-      {
-        "row": 16,
-        "rowsha": "C5AA1AWR8gywDT3uJeHVv+DJwQajSkbzQ/3KWuPH860=",
-        "originContent": "            response = response.split(\"\\n\")[0]",
-        "translatedContent": "            response = response.split(\"\\n\")[0]"
-      },
-      {
-        "row": 17,
-        "rowsha": "T+grntrV2aFk0Pe0s7Eo2OGOe+Xd298pJdrasGb+1sg=",
-        "originContent": "        return response",
-        "translatedContent": "        return response"
-      },
-      {
-        "row": 18,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1613,26 +260,7 @@
     "EndLine": 0,
     "Translation": "\n- **Fügen Sie Code zur Funktion init_agent hinzu**: Öffnen Sie die Datei chinatravel/agent/load_model.py und fügen Sie Unterstützung für Ihr neues LLM in der Funktion init_llm hinzu.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "fjR4qZw0caXlbu9CUt+Gw4rA+tW8Elz960NraFH0ans=",
-        "originContent": "- **Add code to the init_agent function**: Open the chinatravel/agent/load_model.py file and add support for your new llm in the init_llm function.",
-        "translatedContent": "- **Fügen Sie Code zur Funktion init_agent hinzu**: Öffnen Sie die Datei chinatravel/agent/load_model.py und fügen Sie Unterstützung für Ihr neues LLM in der Funktion init_llm hinzu."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1644,56 +272,7 @@
     "EndLine": 0,
     "Translation": "```python:\ndef init_llm(kwargs):\n    # ... existing code ...\n    elif llm_name == \"glm4-plus\":\n        llm = YourLLM()\n    # ... existing code ...\n    return llm\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "WJ0/lCEooZKQMVXXCBEVtyqDuQMef9BTfoeRSAmhN+0=",
-        "originContent": "```python:",
-        "translatedContent": "```python:"
-      },
-      {
-        "row": 2,
-        "rowsha": "+kf29AG/x1yO7tY0UloxKJ6jWZ2xv3FqOSaS2jzDth4=",
-        "originContent": "def init_llm(kwargs):",
-        "translatedContent": "def init_llm(kwargs):"
-      },
-      {
-        "row": 3,
-        "rowsha": "peqmrOSfOdH34MueFjqeHaGpo5X95aqtaciQPP1CUyk=",
-        "originContent": "    # ... existing code ...",
-        "translatedContent": "    # ... existing code ..."
-      },
-      {
-        "row": 4,
-        "rowsha": "hj7C/F/XqBM+n65Andi9LheyarlbmjakugnUc2XwjZY=",
-        "originContent": "    elif llm_name == \"glm4-plus\":",
-        "translatedContent": "    elif llm_name == \"glm4-plus\":"
-      },
-      {
-        "row": 5,
-        "rowsha": "VgR3Xq3fCci7acLKZT8EFxyPNTQJ0V5aQpyFfIzTBmY=",
-        "originContent": "        llm = YourLLM()",
-        "translatedContent": "        llm = YourLLM()"
-      },
-      {
-        "row": 6,
-        "rowsha": "peqmrOSfOdH34MueFjqeHaGpo5X95aqtaciQPP1CUyk=",
-        "originContent": "    # ... existing code ...",
-        "translatedContent": "    # ... existing code ..."
-      },
-      {
-        "row": 7,
-        "rowsha": "CTF7X9ucaT82mu077f+6PPfHspYM52LWGYtx5noSBeo=",
-        "originContent": "    return llm",
-        "translatedContent": "    return llm"
-      },
-      {
-        "row": 8,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1705,50 +284,7 @@
     "EndLine": 0,
     "Translation": "\n### 3. Führen Sie Ihren Code mit Experiment-Skripten aus\n\nNach Abschluss der oben genannten Entwicklung können Sie die Experiment-Skripte verwenden, um Ihren Code auszuführen.\n\nBeispiel für die Ausführung:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "lD2s8hKfWlsTq+OeQaBRpvMTEcXbC/JzGfy/wXLEnz0=",
-        "originContent": "### 3. Run Your Code Using Experiment Scripts",
-        "translatedContent": "### 3. Führen Sie Ihren Code mit Experiment-Skripten aus"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "Os5RXe+0t4hRm4aU3LQmKf80GyDgYmdPWRflipST98c=",
-        "originContent": "After completing the above development, you can use the experiment scripts to run your code.",
-        "translatedContent": "Nach Abschluss der oben genannten Entwicklung können Sie die Experiment-Skripte verwenden, um Ihren Code auszuführen."
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "6Wtv1wIoauhUUyYiOD/4pAmTCk2ouTSb4dtj1vtjgYg=",
-        "originContent": "Example of running:",
-        "translatedContent": "Beispiel für die Ausführung:"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1760,32 +296,7 @@
     "EndLine": 0,
     "Translation": "```bash\npython run_tpc.py --splits easy --agent TPCAgent --llm TPCLLM\npython run_exp.py --splits easy --agent YourMethodName --llm YourLLMName\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "8yJqp3xZfog0JTk8vjJNiQyWIpTzClJO+9LP6tYMzK8=",
-        "originContent": "python run_tpc.py --splits easy --agent TPCAgent --llm TPCLLM",
-        "translatedContent": "python run_tpc.py --splits easy --agent TPCAgent --llm TPCLLM"
-      },
-      {
-        "row": 3,
-        "rowsha": "wnfkTPIB14ScCTMFm77tORJ5ObuHkVNxT0bLZSX4Ev8=",
-        "originContent": "python run_exp.py --splits easy --agent YourMethodName --llm YourLLMName",
-        "translatedContent": "python run_exp.py --splits easy --agent YourMethodName --llm YourLLMName"
-      },
-      {
-        "row": 4,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1797,74 +308,7 @@
     "EndLine": 0,
     "Translation": "\nDie Ergebnisse werden im Verzeichnis `results/YourMethodName_YourLLMName_xxx` gespeichert, z. B. `results/TPCAgent_TPCLLM`.\n\n## ✉️ Kontakt\n\nBei Problemen wenden Sie sich bitte an [Jie-Jing Shao](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/shaojj@lamda.nju.edu.cn), [Bo-Wen Zhang](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/221900200@smail.nju.edu.cn), [Xiao-Wen Yang](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/yangxw@lamda.nju.edu.cn).\n\n## 📌 Zitation\n\nWenn unsere Arbeit oder verwandte Ressourcen für Ihre Forschung wertvoll sind, bitten wir um eine entsprechende Zitation.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "WsgXcTyDH9WFO4QRy8DOS9P0obPSvbX4TPkoteEpFwQ=",
-        "originContent": "The results will be saved in the `results/YourMethodName_YourLLMName_xxx` directory, e.g., `results/TPCAgent_TPCLLM`.",
-        "translatedContent": "Die Ergebnisse werden im Verzeichnis `results/YourMethodName_YourLLMName_xxx` gespeichert, z. B. `results/TPCAgent_TPCLLM`."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "V7cdbvf0KfahHFXI8/TwZBgJnxWfbzNbWKsS30WYRzY=",
-        "originContent": "## ✉️ Contact",
-        "translatedContent": "## ✉️ Kontakt"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "gQs4H9nXAjUuPF5TH997T2QJnpywFs8VxWR4AyamSMk=",
-        "originContent": "If you have any problems, please contact [Jie-Jing Shao](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/shaojj@lamda.nju.edu.cn), [Bo-Wen Zhang](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/221900200@smail.nju.edu.cn), [Xiao-Wen Yang](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/yangxw@lamda.nju.edu.cn).",
-        "translatedContent": "Bei Problemen wenden Sie sich bitte an [Jie-Jing Shao](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/shaojj@lamda.nju.edu.cn), [Bo-Wen Zhang](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/221900200@smail.nju.edu.cn), [Xiao-Wen Yang](https://raw.githubusercontent.com/Adopos/ChinaTravel/main/yangxw@lamda.nju.edu.cn)."
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "A4soJLbZDJ5jsV21yB+YcMlje6BkPWiyME67jma7Kxo=",
-        "originContent": "## 📌 Citation",
-        "translatedContent": "## 📌 Zitation"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "kqP61P2b4Ru+ErNMjQTj1bw1Hv/6ffPd0bk/UOA97P8=",
-        "originContent": "If our paper or related resources prove valuable to your research, we kindly ask for citation.",
-        "translatedContent": "Wenn unsere Arbeit oder verwandte Ressourcen für Ihre Forschung wertvoll sind, bitten wir um eine entsprechende Zitation."
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1876,74 +320,7 @@
     "EndLine": 0,
     "Translation": "```\n@misc{shao2024chinatravelrealworldbenchmarklanguage,\n      title={ChinaTravel: A Real-World Benchmark for Language Agents in Chinese Travel Planning}, \n      author={Jie-Jing Shao and Xiao-Wen Yang and Bo-Wen Zhang and Baizhi Chen and Wen-Da Wei and Guohao Cai and Zhenhua Dong and Lan-Zhe Guo and Yu-feng Li},\n      year={2024},\n      eprint={2412.13682},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2412.13682}, \n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "7xwwbiU0KgrLByovqV59egAUrAObbPZGsOe96RDpG50=",
-        "originContent": "@misc{shao2024chinatravelrealworldbenchmarklanguage,",
-        "translatedContent": "@misc{shao2024chinatravelrealworldbenchmarklanguage,"
-      },
-      {
-        "row": 3,
-        "rowsha": "16uEOlOWC4AgwgLKL/InjupSuB6erNldLSJjMrWeK+8=",
-        "originContent": "      title={ChinaTravel: A Real-World Benchmark for Language Agents in Chinese Travel Planning}, ",
-        "translatedContent": "      title={ChinaTravel: A Real-World Benchmark for Language Agents in Chinese Travel Planning}, "
-      },
-      {
-        "row": 4,
-        "rowsha": "XEZfOVUueUWL6rSLE38OggwQmwx2zC/nQ5ZkyGvSeHc=",
-        "originContent": "      author={Jie-Jing Shao and Xiao-Wen Yang and Bo-Wen Zhang and Baizhi Chen and Wen-Da Wei and Guohao Cai and Zhenhua Dong and Lan-Zhe Guo and Yu-feng Li},",
-        "translatedContent": "      author={Jie-Jing Shao and Xiao-Wen Yang and Bo-Wen Zhang and Baizhi Chen and Wen-Da Wei and Guohao Cai and Zhenhua Dong and Lan-Zhe Guo and Yu-feng Li},"
-      },
-      {
-        "row": 5,
-        "rowsha": "uqROWAGDIn5qDkIxkd056RTQ+SbXg6BFb7UhemVNliM=",
-        "originContent": "      year={2024},",
-        "translatedContent": "      year={2024},"
-      },
-      {
-        "row": 6,
-        "rowsha": "cKYbmD2+FcTrFA2BuoqcUJbTmcFG63nE6tbb8wMxpFs=",
-        "originContent": "      eprint={2412.13682},",
-        "translatedContent": "      eprint={2412.13682},"
-      },
-      {
-        "row": 7,
-        "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
-        "originContent": "      archivePrefix={arXiv},",
-        "translatedContent": "      archivePrefix={arXiv},"
-      },
-      {
-        "row": 8,
-        "rowsha": "w5nk13nLeXZYb9pPwm0BJ8BfAHbr8a+0FbZmmU4zA4w=",
-        "originContent": "      primaryClass={cs.AI},",
-        "translatedContent": "      primaryClass={cs.AI},"
-      },
-      {
-        "row": 9,
-        "rowsha": "c8cDeYZhpJV5a/1u5cN2nYa7n3geE983bx8j6Caz9gk=",
-        "originContent": "      url={https://arxiv.org/abs/2412.13682}, ",
-        "translatedContent": "      url={https://arxiv.org/abs/2412.13682}, "
-      },
-      {
-        "row": 10,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 11,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1955,14 +332,7 @@
     "EndLine": 0,
     "Translation": "[English](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=th) | [Français](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=de) | [Español](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=it) | [Русский](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=ru) | [Português](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=as)",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "xDOBtFBt+n5Zs5Gw9DnrxwmFIliQnh2/itR3X8VIrzk=",
-        "originContent": "[English](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=th) | [Français](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=de) | [Español](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=it) | [Русский](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=ru) | [Português](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=as)",
-        "translatedContent": "[English](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=en) | [简体中文](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=zh-CN) | [繁體中文](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=zh-TW) | [日本語](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=ja) | [한국어](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=ko) | [हिन्दी](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=hi) | [ไทย](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=th) | [Français](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=fr) | [Deutsch](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=de) | [Español](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=es) | [Italiano](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=it) | [Русский](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=ru) | [Português](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=pt) | [Nederlands](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=nl) | [Polski](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=pl) | [العربية](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=ar) | [فارسی](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=fa) | [Türkçe](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=tr) | [Tiếng Việt](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=id) | [অসমীয়া](https://openaitx.github.io/#/view?user=Adopos&project=ChinaTravel&lang=as)"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1974,14 +344,7 @@
     "EndLine": 0,
     "Translation": "",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

