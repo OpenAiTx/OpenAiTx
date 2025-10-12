@@ -269,6 +269,6 @@ Jika makalah atau sumber daya terkait kami terbukti bermanfaat untuk penelitian 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-12
 
 ---

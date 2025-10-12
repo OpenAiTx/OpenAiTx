@@ -269,6 +269,6 @@ Se nosso artigo ou recursos relacionados forem valiosos para sua pesquisa, solic
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-11
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-12
 
 ---
