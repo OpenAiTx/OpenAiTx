@@ -1,0 +1,578 @@
+[
+  {
+    "Id": 1,
+    "Content": "> This repo is only for v1 and supports Bilibil and YouTube!\n\n# 🤖 BibiGPT: one-Click AI Summary for Audio/Video & Chat with Learning Content [https://bibigpt.co](https://bibigpt.co)\n\n🎉 Effortlessly summarize YouTube and Bilibili videos with our AI-driven Video Summarizer. It also works for Podcasts, Twitter, Meetings, Lectures, Tiktok videos, and more. Discover a more brilliant way to learn with ChatGPT, your best AI-powered study companion! (formerly BiliGPT) \"stream-saving artifact & class representative\".\n\nAlternate address: https://b.jimmylv.cn\nBrowser extension: https://bibigpt.co/extension\n\n---\n\n## 🤖 BibiGPT · AI 音视频内容一键总结 & 对话 [https://bibigpt.co](https://bibigpt.co)\n\n🎉 ChatGPT AI 音视频一键总结，轻松学习哔哩哔哩丨 YouTube 丨本地视频丨本地音频丨播客丨小红书丨抖音丨会议丨讲座丨网页等任意内容。BibiGPT 助力于成为最好的 AI 学习助理，支持免费试用！(原 BiliGPT 省流神器 & AI 课代表)（支持 iOS 快捷指令 & 微信服务号）。\n\n备用地址：https://b.jimmylv.cn\n浏览器插件: https://bibigpt.co/extension\n\n---\n\n🎬 This project summarizes YouTube/Bilibili/Twitter/TikTok/Podcast/Lecture/Meeting/... videos or audios for you using AI.\n\n🤯 Inspired by [Nutlope/news-summarizer](https://github.com/Nutlope/news-summarizer) & [zhengbangbo/chat-simplifier](https://github.com/zhengbangbo/chat-simplifier/) & [lxfater/BilibiliSummary](https://github.com/lxfater/BilibiliSummary)\n\n[![BibiGPT音视频总结神器](https://raw.githubusercontent.com/JimmyLv/BibiGPT-v1/main/./public/BibiGPT.gif)](https://twitter.com/Jimmy_JingLv/status/1630137750572728320?s=20)\n\n🚀 First Launch: [【BibiGPT】AI 自动总结 B 站视频内容，GPT-3 智能提取并总结字幕](https://www.bilibili.com/video/BV1fX4y1Q7Ux/?vd_source=dd5a650b0ad84edd0d54bb18196ecb86)\n\n## How it works\n\nThis project uses the [OpenAI ChatGPT API](https://openai.com/api/) (specifically, gpt-3.5-turbo) and [Vercel Edge functions](https://vercel.com/features/edge-functions) with streaming and [Upstash](https://console.upstash.com/) for Redis cache and rate limiting. It fetches the content on a Bilibili video, sends it in a prompt to the GPT-3 API to summarize it via a Vercel Edge function, then streams the response back to the application.\n\n## Saving costs\n\nProjects like this can get expensive so in order to save costs if you want to make your own version and share it publicly, I recommend three things:\n\n- [x] 1. Implement rate limiting so people can't abuse your site\n- [x] 2. Implement caching to avoid expensive AI re-generations\n- [x] 3. Use `text-curie-001` instead of `text-dacinci-003` in the `summarize` edge function\n",
+    "ContentSha": "H/YaVgXo3m3bxWmcRhaaQsROHTfhEYcZToXAaA9eH+s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> 本仓库仅支持 v1 版本，适用于哔哩哔哩和 YouTube！\n\n# 🤖 BibiGPT：音视频内容一键 AI 总结与学习内容对话 [https://bibigpt.co](https://bibigpt.co)\n\n🎉 使用我们的 AI 驱动视频总结工具，轻松总结 YouTube 和哔哩哔哩视频内容。它同样适用于播客、推特、会议、讲座、抖音视频等多种场景。通过 ChatGPT，发现更聪明的学习方式，成为你最好的 AI 学习伴侣！（原 BiliGPT）“省流神器 & 课代表”。\n\n备用地址：https://b.jimmylv.cn  \n浏览器插件：https://bibigpt.co/extension\n\n---\n\n## 🤖 BibiGPT · AI 音视频内容一键总结 & 对话 [https://bibigpt.co](https://bibigpt.co)\n\n🎉 ChatGPT AI 一键总结音视频，轻松学习哔哩哔哩丨YouTube丨本地视频丨本地音频丨播客丨小红书丨抖音丨会议丨讲座丨网页等任意内容。BibiGPT 致力于成为最佳 AI 学习助理，支持免费试用！（原 BiliGPT 省流神器 & AI 课代表）（支持 iOS 快捷指令 & 微信服务号）。\n\n备用地址：https://b.jimmylv.cn  \n浏览器插件：https://bibigpt.co/extension\n\n---\n\n🎬 本项目使用 AI 为您总结 YouTube/Bilibili/Twitter/TikTok/播客/讲座/会议/... 视频或音频内容。\n\n🤯 灵感来源于 [Nutlope/news-summarizer](https://github.com/Nutlope/news-summarizer) & [zhengbangbo/chat-simplifier](https://github.com/zhengbangbo/chat-simplifier/) & [lxfater/BilibiliSummary](https://github.com/lxfater/BilibiliSummary)\n\n[![BibiGPT音视频总结神器](https://raw.githubusercontent.com/JimmyLv/BibiGPT-v1/main/./public/BibiGPT.gif)](https://twitter.com/Jimmy_JingLv/status/1630137750572728320?s=20)\n\n🚀 首次发布：[【BibiGPT】AI 自动总结 B 站视频内容，GPT-3 智能提取并总结字幕](https://www.bilibili.com/video/BV1fX4y1Q7Ux/?vd_source=dd5a650b0ad84edd0d54bb18196ecb86)\n\n## 工作原理\n\n本项目使用 [OpenAI ChatGPT API](https://openai.com/api/)（具体为 gpt-3.5-turbo）和 [Vercel Edge functions](https://vercel.com/features/edge-functions) 的流式处理，结合 [Upstash](https://console.upstash.com/) 提供的 Redis 缓存和限流功能。它抓取哔哩哔哩视频内容，发送提示给 GPT-3 API 通过 Vercel Edge 函数进行总结，然后将响应流式返回给应用。\n\n## 节省成本\n\n此类项目可能成本较高，若您想制作自己的版本并公开分享，建议以下三点：\n\n- [x] 1. 实现限流，防止滥用网站  \n- [x] 2. 实现缓存，避免高成本的 AI 重复生成  \n- [x] 3. 在 `summarize` edge 函数中使用 `text-curie-001` 替代 `text-dacinci-003`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ljS0TTsy83HlPitCfVQ+F6h+reg95gyxGkq6F+ULX8I=",
+        "originContent": "> This repo is only for v1 and supports Bilibil and YouTube!",
+        "translatedContent": "> 本仓库仅支持 v1 版本，适用于哔哩哔哩和 YouTube！"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "rj5SNRGE2eF7iiFz5O14GQloXRzk4sKKTLhGrdpxYa4=",
+        "originContent": "# 🤖 BibiGPT: one-Click AI Summary for Audio/Video & Chat with Learning Content [https://bibigpt.co](https://bibigpt.co)",
+        "translatedContent": "# 🤖 BibiGPT：音视频内容一键 AI 总结与学习内容对话 [https://bibigpt.co](https://bibigpt.co)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "J4zUWgE95vFib4QowUTH/VgQtQL2NC3H+9RVOcCtJnQ=",
+        "originContent": "🎉 Effortlessly summarize YouTube and Bilibili videos with our AI-driven Video Summarizer. It also works for Podcasts, Twitter, Meetings, Lectures, Tiktok videos, and more. Discover a more brilliant way to learn with ChatGPT, your best AI-powered study companion! (formerly BiliGPT) \"stream-saving artifact & class representative\".",
+        "translatedContent": "🎉 使用我们的 AI 驱动视频总结工具，轻松总结 YouTube 和哔哩哔哩视频内容。它同样适用于播客、推特、会议、讲座、抖音视频等多种场景。通过 ChatGPT，发现更聪明的学习方式，成为你最好的 AI 学习伴侣！（原 BiliGPT）“省流神器 & 课代表”。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "z03VYXW+STi4BFxTNAbpuAG5Q8T6m5kja7Ig9YMx9Es=",
+        "originContent": "Alternate address: https://b.jimmylv.cn",
+        "translatedContent": "备用地址：https://b.jimmylv.cn  "
+      },
+      {
+        "row": 8,
+        "rowsha": "M39RTIMoAtFAYXpm75aFGH0sZkLfYPYO+wxhYNwTbnM=",
+        "originContent": "Browser extension: https://bibigpt.co/extension",
+        "translatedContent": "浏览器插件：https://bibigpt.co/extension"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "b9HQTiGCYPH7PP9xnju8xAsGv0qz4uNok/Oz0u+w8bM=",
+        "originContent": "## 🤖 BibiGPT · AI 音视频内容一键总结 & 对话 [https://bibigpt.co](https://bibigpt.co)",
+        "translatedContent": "## 🤖 BibiGPT · AI 音视频内容一键总结 & 对话 [https://bibigpt.co](https://bibigpt.co)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "Mehb/LlEDfVW2EhhcBp8IbEjp5u8gFpySRv47gJMA0A=",
+        "originContent": "🎉 ChatGPT AI 音视频一键总结，轻松学习哔哩哔哩丨 YouTube 丨本地视频丨本地音频丨播客丨小红书丨抖音丨会议丨讲座丨网页等任意内容。BibiGPT 助力于成为最好的 AI 学习助理，支持免费试用！(原 BiliGPT 省流神器 & AI 课代表)（支持 iOS 快捷指令 & 微信服务号）。",
+        "translatedContent": "🎉 ChatGPT AI 一键总结音视频，轻松学习哔哩哔哩丨YouTube丨本地视频丨本地音频丨播客丨小红书丨抖音丨会议丨讲座丨网页等任意内容。BibiGPT 致力于成为最佳 AI 学习助理，支持免费试用！（原 BiliGPT 省流神器 & AI 课代表）（支持 iOS 快捷指令 & 微信服务号）。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "vH63tJFoEPM077bZHYCEyztLbs5tzlXMmZoRFP8Otsg=",
+        "originContent": "备用地址：https://b.jimmylv.cn",
+        "translatedContent": "备用地址：https://b.jimmylv.cn  "
+      },
+      {
+        "row": 17,
+        "rowsha": "ImE+lwWNCCR4OQ+xs8VGD0w1B+R2nhkwh4dXr+6Cjas=",
+        "originContent": "浏览器插件: https://bibigpt.co/extension",
+        "translatedContent": "浏览器插件：https://bibigpt.co/extension"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "oz05oA3khjni4GUUR6tyy8enbhVwMDz0tf9n7f/X2ug=",
+        "originContent": "🎬 This project summarizes YouTube/Bilibili/Twitter/TikTok/Podcast/Lecture/Meeting/... videos or audios for you using AI.",
+        "translatedContent": "🎬 本项目使用 AI 为您总结 YouTube/Bilibili/Twitter/TikTok/播客/讲座/会议/... 视频或音频内容。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "k6eyC+yaIVKQKXBou1/BPO2Wb1zJzXuFl1zIoHR7paw=",
+        "originContent": "🤯 Inspired by [Nutlope/news-summarizer](https://github.com/Nutlope/news-summarizer) & [zhengbangbo/chat-simplifier](https://github.com/zhengbangbo/chat-simplifier/) & [lxfater/BilibiliSummary](https://github.com/lxfater/BilibiliSummary)",
+        "translatedContent": "🤯 灵感来源于 [Nutlope/news-summarizer](https://github.com/Nutlope/news-summarizer) & [zhengbangbo/chat-simplifier](https://github.com/zhengbangbo/chat-simplifier/) & [lxfater/BilibiliSummary](https://github.com/lxfater/BilibiliSummary)"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "t0d22lfFpKXvXQh+zutUpe2Drvi7I1ikY0t+geDwOBs=",
+        "originContent": "[![BibiGPT音视频总结神器](https://raw.githubusercontent.com/JimmyLv/BibiGPT-v1/main/./public/BibiGPT.gif)](https://twitter.com/Jimmy_JingLv/status/1630137750572728320?s=20)",
+        "translatedContent": "[![BibiGPT音视频总结神器](https://raw.githubusercontent.com/JimmyLv/BibiGPT-v1/main/./public/BibiGPT.gif)](https://twitter.com/Jimmy_JingLv/status/1630137750572728320?s=20)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "AE9UyYSyxhwt0ZbFw6wwo+wo6GqyCXOn/nGnzQ1kYkY=",
+        "originContent": "🚀 First Launch: [【BibiGPT】AI 自动总结 B 站视频内容，GPT-3 智能提取并总结字幕](https://www.bilibili.com/video/BV1fX4y1Q7Ux/?vd_source=dd5a650b0ad84edd0d54bb18196ecb86)",
+        "translatedContent": "🚀 首次发布：[【BibiGPT】AI 自动总结 B 站视频内容，GPT-3 智能提取并总结字幕](https://www.bilibili.com/video/BV1fX4y1Q7Ux/?vd_source=dd5a650b0ad84edd0d54bb18196ecb86)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "WuQ4YQzxbjHrWEpFPXb0XZT20bsUdRRGrE6Z4+N8M6g=",
+        "originContent": "## How it works",
+        "translatedContent": "## 工作原理"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "wnhiM1bPsD6GHnzalpmy77iQFI7bE4GQbuIwDqSN16o=",
+        "originContent": "This project uses the [OpenAI ChatGPT API](https://openai.com/api/) (specifically, gpt-3.5-turbo) and [Vercel Edge functions](https://vercel.com/features/edge-functions) with streaming and [Upstash](https://console.upstash.com/) for Redis cache and rate limiting. It fetches the content on a Bilibili video, sends it in a prompt to the GPT-3 API to summarize it via a Vercel Edge function, then streams the response back to the application.",
+        "translatedContent": "本项目使用 [OpenAI ChatGPT API](https://openai.com/api/)（具体为 gpt-3.5-turbo）和 [Vercel Edge functions](https://vercel.com/features/edge-functions) 的流式处理，结合 [Upstash](https://console.upstash.com/) 提供的 Redis 缓存和限流功能。它抓取哔哩哔哩视频内容，发送提示给 GPT-3 API 通过 Vercel Edge 函数进行总结，然后将响应流式返回给应用。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "FrdVePSirE93YwZLiwxHmNBMulxIsoARZOH5setoZ54=",
+        "originContent": "## Saving costs",
+        "translatedContent": "## 节省成本"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "5rJ/4UR1xmad7jaxoCDMmzEqvbpnfkCN8GZs+/htS+8=",
+        "originContent": "Projects like this can get expensive so in order to save costs if you want to make your own version and share it publicly, I recommend three things:",
+        "translatedContent": "此类项目可能成本较高，若您想制作自己的版本并公开分享，建议以下三点："
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "OQ6s0KxQKynx8fqv5dDks9fPqLS7THjSk9xW4nDHDXI=",
+        "originContent": "- [x] 1. Implement rate limiting so people can't abuse your site",
+        "translatedContent": "- [x] 1. 实现限流，防止滥用网站  "
+      },
+      {
+        "row": 38,
+        "rowsha": "Nyp1fgvh64Wk5z++SK0w8qb30gK687e4UyF0E88pgz8=",
+        "originContent": "- [x] 2. Implement caching to avoid expensive AI re-generations",
+        "translatedContent": "- [x] 2. 实现缓存，避免高成本的 AI 重复生成  "
+      },
+      {
+        "row": 39,
+        "rowsha": "GWrgcmvHqdnnFu46ZOBxMQ/IcYFrBeqmdfUkzVzOmyc=",
+        "originContent": "- [x] 3. Use `text-curie-001` instead of `text-dacinci-003` in the `summarize` edge function",
+        "translatedContent": "- [x] 3. 在 `summarize` edge 函数中使用 `text-curie-001` 替代 `text-dacinci-003`"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Running Locally\n\nAfter cloning the repo, go to [OpenAI](https://beta.openai.com/account/api-keys) to make an account and put your API key in a file called `.env`.\n\nThen, run the application in the command line and it will be available at `http://localhost:3000`.\n\n[specific running procedure is described in this document - Chinese version](https://raw.githubusercontent.com/JimmyLv/BibiGPT-v1/main/./deploy-ch.md)\n",
+    "ContentSha": "4/7otWHoZRP2/hf2GFnMuNURDx6wZa+R6Zu68XTSu88=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 本地运行\n\n克隆仓库后，访问 [OpenAI](https://beta.openai.com/account/api-keys) 创建账户，并将你的 API 密钥放入名为 `.env` 的文件中。\n\n然后，在命令行运行应用程序，应用将可通过 `http://localhost:3000` 访问。\n\n[具体运行步骤详见此文档 - 中文版](https://raw.githubusercontent.com/JimmyLv/BibiGPT-v1/main/./deploy-ch.md)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "vS775K4W7SKogZf/wsw+CDU7Sdqg7bdQnoHWvRX6a8A=",
+        "originContent": "## Running Locally",
+        "translatedContent": "## 本地运行"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "NgjBdYi7GOVNDQXQqVS+o6GlafO10V7sXhuqFcIMpBQ=",
+        "originContent": "After cloning the repo, go to [OpenAI](https://beta.openai.com/account/api-keys) to make an account and put your API key in a file called `.env`.",
+        "translatedContent": "克隆仓库后，访问 [OpenAI](https://beta.openai.com/account/api-keys) 创建账户，并将你的 API 密钥放入名为 `.env` 的文件中。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "RxPpT/vqf9t0LzufMH16b1dU3dAdKRvXN/eFiDfzUyQ=",
+        "originContent": "Then, run the application in the command line and it will be available at `http://localhost:3000`.",
+        "translatedContent": "然后，在命令行运行应用程序，应用将可通过 `http://localhost:3000` 访问。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "mGs8As7YorngLoQ4LvNNoPWOzNy2UnzSZyuCINLiLNI=",
+        "originContent": "[specific running procedure is described in this document - Chinese version](https://raw.githubusercontent.com/JimmyLv/BibiGPT-v1/main/./deploy-ch.md)",
+        "translatedContent": "[具体运行步骤详见此文档 - 中文版](https://raw.githubusercontent.com/JimmyLv/BibiGPT-v1/main/./deploy-ch.md)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\nnpm run dev\n```",
+    "ContentSha": "5P9R2wA4yiKaSLfMZBkkmb+yh2bd/WD1egocQ/wrBUc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpm run dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "IfFnfI9PhCQWiefGw310ACvgFob6wDpxDKh2mTUm//c=",
+        "originContent": "npm run dev",
+        "translatedContent": "npm run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## Deployment\n\nDeploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples)\n\nSetup the env variables, by following the `./example.env` file.\n\n## Support Docker\n\nhttps://github.com/JimmyLv/BibiGPT/pull/133\n",
+    "ContentSha": "ApClCpDMCVbP6KjTBva5PBHEuMac5zmJkksPazk83zM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 部署\n\n使用 [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples) 部署示例\n\n按照 `./example.env` 文件设置环境变量。\n\n## 支持 Docker\n\nhttps://github.com/JimmyLv/BibiGPT/pull/133\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "oUcjOwvGZfpDnnu9v6RBeruqoyW0NhuibqTnSGQMS4w=",
+        "originContent": "## Deployment",
+        "translatedContent": "## 部署"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "wPf7DB6nHnBPWRsDPF8V/+Je0EUNXj5SWEIAK29duXE=",
+        "originContent": "Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples)",
+        "translatedContent": "使用 [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples) 部署示例"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "PLIFxv59n5m6ZoP08C5pNFiddmxbcbWwabf85LBdUfA=",
+        "originContent": "Setup the env variables, by following the `./example.env` file.",
+        "translatedContent": "按照 `./example.env` 文件设置环境变量。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "WY2vPdKQp0pauXK15ogMx3uvgTcuCb/c1xZI7V9noaU=",
+        "originContent": "## Support Docker",
+        "translatedContent": "## 支持 Docker"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "16AzME+OQI2mQpT66nTDCPJo7pbG++fEiSj7nHoaiAs=",
+        "originContent": "https://github.com/JimmyLv/BibiGPT/pull/133",
+        "translatedContent": "https://github.com/JimmyLv/BibiGPT/pull/133"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```shell\n# make sure setup .env file firstly\ndocker compose up -d\n```",
+    "ContentSha": "XPhVganD+IAe6gRql1OeDlQdkCNhuwlXLhvr/i/Jn8A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n# make sure setup .env file firstly\ndocker compose up -d\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "gi4VaExbeD1k5nlIfKu9R2YcCDS99iLUfuj/rDWRv+s=",
+        "originContent": "# make sure setup .env file firstly",
+        "translatedContent": "# make sure setup .env file firstly"
+      },
+      {
+        "row": 3,
+        "rowsha": "Mx5NzM1SvqjT2/8dFmacWsyf3foddC+jxQH2dABZqZk=",
+        "originContent": "docker compose up -d",
+        "translatedContent": "docker compose up -d"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n## Support -> Contact Me\n\n![](https://raw.githubusercontent.com/JimmyLv/BibiGPT-v1/main/./public/wechat.jpg)\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=JimmyLv/BibiGPT&type=Date)](https://star-history.com/#JimmyLv/BibiGPT&Date)\n\n## Contributors\n\nThis project exists thanks to all the people who contribute.\n\n <a href=\"https://github.com/JimmyLv/BibiGPT/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=JimmyLv/BibiGPT\" />\n </a>\n",
+    "ContentSha": "dG5ZbctukKPSriue315fDT2EGKaVJXZcu5BqE4NYUUQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Support -> Contact Me\n\n![](https://raw.githubusercontent.com/JimmyLv/BibiGPT-v1/main/./public/wechat.jpg)\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=JimmyLv/BibiGPT&type=Date)](https://star-history.com/#JimmyLv/BibiGPT&Date)\n\n## Contributors\n\nThis project exists thanks to all the people who contribute.\n\n <a href=\"https://github.com/JimmyLv/BibiGPT/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=JimmyLv/BibiGPT\" />\n </a>\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "/BfQ+yZBtsYzHq6ALHPOfMJ600vBnlhfrhl5Ci6wtng=",
+        "originContent": "## Support -> Contact Me",
+        "translatedContent": "## Support -> Contact Me"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "38HLds9XtwjXZq1acvGHYkb3eE9zaAzssgu+xzVRoiU=",
+        "originContent": "![](https://raw.githubusercontent.com/JimmyLv/BibiGPT-v1/main/./public/wechat.jpg)",
+        "translatedContent": "![](https://raw.githubusercontent.com/JimmyLv/BibiGPT-v1/main/./public/wechat.jpg)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": "## Star History"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "F5c0H6Tq6Js87dXOpYNnWifmFU3SwEjuHqIKiOwyXZQ=",
+        "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=JimmyLv/BibiGPT&type=Date)](https://star-history.com/#JimmyLv/BibiGPT&Date)",
+        "translatedContent": "[![Star History Chart](https://api.star-history.com/svg?repos=JimmyLv/BibiGPT&type=Date)](https://star-history.com/#JimmyLv/BibiGPT&Date)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "GMscHjUCoBEPz56g0tY/7ter43HRnA3db4DiaL3El9Y=",
+        "originContent": "## Contributors",
+        "translatedContent": "## Contributors"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "6SfIT3S71uu16xURMVPzZbhEfWiqWWsvVZVLkdiNl80=",
+        "originContent": "This project exists thanks to all the people who contribute.",
+        "translatedContent": "This project exists thanks to all the people who contribute."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "cHcGnK4yZUspEd0I/unSJQSLOyIiHh9A5BB1wTcNhsk=",
+        "originContent": " <a href=\"https://github.com/JimmyLv/BibiGPT/graphs/contributors\">",
+        "translatedContent": " <a href=\"https://github.com/JimmyLv/BibiGPT/graphs/contributors\">"
+      },
+      {
+        "row": 15,
+        "rowsha": "6YnnjWXDTzz89w45x3Pgt5YcxSCzFaSSPH8w8wzCkXc=",
+        "originContent": "  <img src=\"https://contrib.rocks/image?repo=JimmyLv/BibiGPT\" />",
+        "translatedContent": "  <img src=\"https://contrib.rocks/image?repo=JimmyLv/BibiGPT\" />"
+      },
+      {
+        "row": 16,
+        "rowsha": "Ju6UQKm7zXi7Whu9wwpZC0tkqeqgBe5xyAcKbQki30U=",
+        "originContent": " </a>",
+        "translatedContent": " </a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

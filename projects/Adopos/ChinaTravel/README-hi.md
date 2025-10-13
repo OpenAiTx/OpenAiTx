@@ -269,6 +269,6 @@ python run_exp.py --splits easy --agent YourMethodName --llm YourLLMName
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-12
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---
