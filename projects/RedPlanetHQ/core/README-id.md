@@ -41,43 +41,43 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>Dokumentasi</b></a> •
+    <a href="https://docs.heysol.ai/introduction"><b>Dokumentasi</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
 ## 🔥 Sorotan Riset
 
-Memori CORE mencapai **88,24%** akurasi rata-rata pada dataset Locomo di semua tugas penalaran, secara signifikan melampaui penyedia memori lainnya. Lihat [blog](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/) ini untuk info lebih lanjut.
+Memori CORE mencapai **88,24%** akurasi rata-rata pada dataset Locomo di semua tugas penalaran, secara signifikan melebihi penyedia memori lainnya. Baca [blog](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/) ini untuk info lebih lanjut.
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) Pertanyaan single-hop membutuhkan jawaban berdasarkan satu sesi; (2) Pertanyaan multi-hop membutuhkan sintesis informasi dari beberapa sesi berbeda; (3) Pertanyaan pengetahuan open-domain dapat dijawab dengan mengintegrasikan informasi yang diberikan pembicara dengan pengetahuan eksternal seperti pengetahuan umum atau fakta dunia; (4) Pertanyaan penalaran temporal dapat dijawab melalui penalaran waktu dan menangkap petunjuk data terkait waktu dalam percakapan;
+(1) Pertanyaan single-hop membutuhkan jawaban berdasarkan satu sesi; (2) Pertanyaan multi-hop membutuhkan sintesis informasi dari beberapa sesi berbeda; (3) Pertanyaan pengetahuan domain terbuka dapat dijawab dengan mengintegrasikan informasi yang diberikan pembicara dengan pengetahuan eksternal seperti pengetahuan umum atau fakta dunia; (4) Pertanyaan penalaran temporal dapat dijawab melalui penalaran temporal dan menangkap petunjuk data terkait waktu dalam percakapan;
 
 ## Ikhtisar
 
-**Masalah**
+**Permasalahan** 
 
-Pengembang membuang waktu untuk menjelaskan ulang konteks ke alat AI. Kena batas token di Claude? Mulai dari awal dan semua hilang. Beralih dari ChatGPT/Claude ke Cursor? Jelaskan lagi konteksmu. Percakapan, keputusan, dan wawasanmu hilang antar sesi. Dengan setiap alat AI baru, biaya pergantian konteks semakin besar.
+Pengembang membuang waktu untuk menjelaskan ulang konteks ke alat AI. Terbatas token di Claude? Mulai dari awal dan kehilangan semuanya. Beralih dari ChatGPT/Claude ke Cursor? Jelaskan lagi konteksmu. Percakapan, keputusan, dan wawasanmu hilang di antara sesi. Setiap alat AI baru memperbesar biaya pergantian konteks.
 
 **Solusi** - **CORE** (**Contextual Observation & Recall Engine**)
 
-CORE adalah lapisan memori persisten dan terintegrasi open-source untuk semua alat AI-mu. Konteksmu mengikuti dari Cursor ke Claude ke ChatGPT ke Claude Code. Satu knowledge graph mengingat siapa yang berkata apa, kapan, dan mengapa. Sambung sekali, ingat di mana saja. Berhenti mengelola konteks, mulai membangun.
+CORE adalah lapisan memori terpadu dan persisten open-source untuk semua alat AI Anda. Konteks Anda mengikuti dari Cursor ke Claude ke ChatGPT ke Claude Code. Satu grafik pengetahuan mengingat siapa berkata apa, kapan, dan mengapa. Hubungkan sekali, ingat di mana saja. Berhenti mengelola konteks dan mulai membangun.
 
 ## 🚀 Mulai Sekarang
-**Bangun unified memory graph-mu dalam 5 menit:**
+**Bangun grafik memori terpadu Anda dalam 5 menit:**
 
-1. **Daftar** di [core.heysol.ai](https://core.heysol.ai) dan buat akunmu
-2. **Tambahkan memori pertamamu** - bagikan konteks tentang dirimu
+1. **Daftar** di [core.heysol.ai](https://core.heysol.ai) dan buat akun Anda
+2. **Tambahkan memori pertama Anda** - bagikan konteks tentang diri Anda
 
-    <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
+    <img width="2088" height="1212" alt="memori-pertama" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
-3. **Visualisasikan memory graph-mu** dan lihat bagaimana CORE otomatis membentuk koneksi antar fakta
-5. **Coba langsung** - tanyakan "Apa yang kamu tahu tentang saya?" di bagian percakapan
-6. Hubungkan ke alatmu:
-   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - ngoding dengan konteks
-   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Gemini CLI](https://docs.heysol.ai/providers/claude-code) - ngoding berbasis terminal dengan memori
-   - [Tambah Ekstensi Browser](https://docs.heysol.ai/providers/browser-extension) - bawa memorimu ke website mana saja
+3. **Visualisasikan grafik memori Anda** dan lihat bagaimana CORE secara otomatis membentuk koneksi antar fakta
+5. **Coba** - tanyakan "Apa yang kamu tahu tentang saya?" di bagian percakapan
+6. Hubungkan ke alat Anda:
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - coding dengan konteks
+   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) - coding berbasis terminal dengan memori
+   - [Tambah Ekstensi Browser](https://docs.heysol.ai/providers/browser-extension) - bawa memori Anda ke situs web mana saja
    - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) - tambahkan konteks proyek secara otomatis
 
 ## 🧩 Fitur Utama
@@ -158,9 +158,9 @@ Saat Anda bertanya pada CORE, ia tidak hanya mencari teks - ia menelusuri seluru
 1. **Pencarian**: CORE menelusuri memori dari berbagai sudut sekaligus - pencarian kata kunci untuk hasil yang tepat, pencarian semantik untuk ide terkait meski berbeda cara penyampaiannya, dan penelusuran graf untuk mengikuti tautan antar konsep yang terhubung.
 2. **Pemeringkatan Ulang**: Hasil yang didapat akan diurutkan ulang untuk menonjolkan yang paling relevan dan beragam, memastikan Anda tidak hanya melihat kecocokan yang jelas tetapi juga koneksi yang lebih mendalam.
 3. **Penyaringan**: CORE menerapkan filter cerdas berdasarkan waktu, reliabilitas, dan kekuatan hubungan, sehingga hanya pengetahuan paling bermakna yang muncul.
-4. **Output**: Anda akan mendapatkan kembali baik fakta (pernyataan yang jelas) maupun episode (konteks asli tempat fakta itu berasal), sehingga penarikan selalu didasarkan pada konteks, waktu, dan cerita.
+4. **Output**: Anda akan mendapatkan kembali baik fakta (pernyataan jelas) maupun episode (konteks asli dari mana mereka berasal), sehingga recall selalu didasarkan pada konteks, waktu, dan cerita.
 
-Hasilnya: CORE tidak hanya mengingat fakta - tapi juga mengingatnya dalam konteks, waktu, dan cerita yang tepat, sehingga agen dapat merespons sebagaimana Anda mengingatnya.
+Hasilnya: CORE tidak hanya mengingat fakta - tapi juga mengingatnya dalam konteks, waktu, dan cerita yang tepat, sehingga agen dapat merespon seperti cara Anda mengingat.
 
 ## Dokumentasi
 
@@ -170,30 +170,32 @@ Jelajahi dokumentasi kami untuk memaksimalkan penggunaan CORE
 - [Self Hosting](https://docs.heysol.ai/self-hosting/overview)
 - [Hubungkan Core MCP dengan Claude](https://docs.heysol.ai/providers/claude)
 - [Hubungkan Core MCP dengan Cursor](https://docs.heysol.ai/providers/cursor)
+- [Hubungkan Core MCP dengan Claude Code](https://docs.heysol.ai/providers/claude-code)
+- [Hubungkan Core MCP dengan Codex](https://docs.heysol.ai/providers/codex)
 
 - [Konsep Dasar](https://docs.heysol.ai/overview)
-- [Referensi API](https://docs.heysol.ai/local-setup)
+- [Referensi API](https://docs.heysol.ai/api-reference/get-user-profile)
 
 ## 🔒 Keamanan
 
 CORE sangat memperhatikan keamanan. Kami menerapkan praktik keamanan standar industri untuk melindungi data Anda:
 
-- **Enkripsi Data**: Semua data dalam perjalanan (TLS 1.3) dan saat disimpan (AES-256)
-- **Otentikasi**: OAuth 2.0 dan otentikasi magic link
+- **Enkripsi Data**: Semua data saat transit (TLS 1.3) dan saat disimpan (AES-256)
+- **Autentikasi**: OAuth 2.0 dan autentikasi magic link
 - **Kontrol Akses**: Isolasi berbasis workspace dan izin berbasis peran
 - **Pelaporan Kerentanan**: Silakan laporkan masalah keamanan ke harshith@tegon.ai
 
-Untuk informasi keamanan lebih detail, lihat [Kebijakan Keamanan](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) kami.
+Untuk informasi keamanan lebih rinci, lihat [Kebijakan Keamanan](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) kami.
 
 ## 🧑‍💻 Dukungan
 
 Punya pertanyaan atau masukan? Kami siap membantu:
 
-- Discord: [Bergabung di channel core-support](https://discord.gg/YGUZcvDjUa)
+- Discord: [Bergabung ke channel core-support](https://discord.gg/YGUZcvDjUa)
 - Dokumentasi: [docs.heysol.ai](https://docs.heysol.ai)
 - Email: manik@poozle.dev
 
-## Pedoman Penggunaan
+## Panduan Penggunaan
 
 **Simpan:**
 
@@ -222,8 +224,11 @@ Punya pertanyaan atau masukan? Kami siap membantu:
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---

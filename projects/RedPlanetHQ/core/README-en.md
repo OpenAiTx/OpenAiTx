@@ -41,17 +41,17 @@
 </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>Documentation</b></a> •
+    <a href="https://docs.heysol.ai/introduction"><b>Documentation</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
 ## 🔥 Research Highlights
 
-CORE memory achieves **88.24%** average accuracy on the Locomo dataset across all reasoning tasks, significantly outperforming other memory providers. Check out this [blog](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/) for more info.
+CORE memory achieves **88.24%** average accuracy on the Locomo dataset across all reasoning tasks, significantly outperforming other memory providers. Check out this [blog](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/) for more info.
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) Single-hop questions require answers based on a single session; (2) Multi-hop questions require synthesizing information from multiple different sessions; (3) Open-domain knowledge questions can be answered by integrating information provided by the speaker with external knowledge such as commonsense or world facts; (4) Temporal reasoning questions can be answered by reasoning about time and capturing time-related cues in the conversation;
+(1) Single-hop questions require answers based on a single session; (2) Multi-hop questions require synthesizing information from multiple different sessions; (3) Open-domain knowledge questions can be answered by integrating a speaker’s provided information with external knowledge such as commonsense or world facts; (4) Temporal reasoning questions can be answered through temporal reasoning and capturing time-related data cues within the conversation;
 
 ## Overview
 
@@ -76,7 +76,7 @@ CORE is an open-source unified, persistent memory layer for all your AI tools. Y
 5. **Test it out** - ask "What do you know about me?" in the conversation section
 6. Connect to your tools:
    - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - coding with context
-   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Gemini CLI](https://docs.heysol.ai/providers/claude-code) - terminal-based coding with memory
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) - terminal-based coding with memory
    - [Add Browser Extension](https://docs.heysol.ai/providers/browser-extension) - bring your memory to any website
    - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) - automatically add project context
 
@@ -158,36 +158,38 @@ When you ask CORE a question, it doesn’t just look up text - it digs into your
 1. **Search**: CORE looks through memory from multiple angles at once - keyword search for exact matches, semantic search for related ideas even if phrased differently, and graph traversal to follow links between connected concepts.
 2. **Re-Rank**: The retrieved results are reordered to highlight the most relevant and diverse ones, ensuring you don’t just see obvious matches but also deeper connections.
 3. **Filtering**: CORE applies smart filters based on time, reliability, and relationship strength, so only the most meaningful knowledge surfaces.
-4. **Output**: You receive both facts (clear statements) and episodes (the original context they were drawn from), so recall is always anchored in context, time, and narrative.
+4. **Output**: You receive both facts (clear statements) and episodes (the original context they originated from), so recall is always anchored in context, time, and narrative.
 
-The result: CORE not only recalls facts - it recalls them in the correct context, time, and story, so agents can respond as you would remember.
+The result: CORE doesn't just retrieve facts—it brings them back within the right context, time, and story, allowing agents to respond as you would remember.
 
 ## Documentation
 
-Explore our documentation to make the most of CORE
+Explore our documentation to maximize your experience with CORE
 
 - [Basic Concepts](https://docs.heysol.ai/concepts/memory_graph)
 - [Self Hosting](https://docs.heysol.ai/self-hosting/overview)
 - [Connect Core MCP with Claude](https://docs.heysol.ai/providers/claude)
 - [Connect Core MCP with Cursor](https://docs.heysol.ai/providers/cursor)
+- [Connect Core MCP with Claude Code](https://docs.heysol.ai/providers/claude-code)
+- [Connect Core MCP with Codex](https://docs.heysol.ai/providers/codex) 
 
 - [Basic Concepts](https://docs.heysol.ai/overview)
-- [API Reference](https://docs.heysol.ai/local-setup)
+- [API Reference](https://docs.heysol.ai/api-reference/get-user-profile)
 
 ## 🔒 Security
 
-CORE takes security seriously. We employ industry-standard security practices to protect your data:
+CORE is committed to security. We apply industry-standard security measures to safeguard your data:
 
 - **Data Encryption**: All data in transit (TLS 1.3) and at rest (AES-256)
 - **Authentication**: OAuth 2.0 and magic link authentication
 - **Access Control**: Workspace-based isolation and role-based permissions
 - **Vulnerability Reporting**: Please report security issues to harshith@tegon.ai
 
-For detailed security information, refer to our [Security Policy](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
+For comprehensive security details, review our [Security Policy](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
 
 ## 🧑‍💻 Support
 
-Have questions or feedback? We're here to assist:
+Have questions or feedback? We're ready to assist:
 
 - Discord: [Join core-support channel](https://discord.gg/YGUZcvDjUa)
 - Documentation: [docs.heysol.ai](https://docs.heysol.ai)
@@ -222,8 +224,11 @@ Have questions or feedback? We're here to assist:
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---

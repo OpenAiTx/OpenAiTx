@@ -41,42 +41,42 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>Documentación</b></a> •
+    <a href="https://docs.heysol.ai/introduction"><b>Documentación</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
-## 🔥 Aspectos destacados de la investigación
+## 🔥 Destacados de Investigación
 
-La memoria CORE logra un **88.24%** de precisión promedio en el conjunto de datos Locomo en todas las tareas de razonamiento, superando significativamente a otros proveedores de memoria. Consulta este [blog](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/) para más información.
+La memoria CORE alcanza **88.24%** de precisión promedio en el conjunto de datos Locomo en todas las tareas de razonamiento, superando significativamente a otros proveedores de memoria. Consulta este [blog](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/) para más información.
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) Las preguntas de salto único requieren respuestas basadas en una sola sesión; (2) Las preguntas de salto múltiple requieren sintetizar información de varias sesiones diferentes; (3) Las preguntas de conocimiento de dominio abierto pueden responderse integrando la información proporcionada por el hablante con conocimiento externo como el sentido común o hechos del mundo; (4) Las preguntas de razonamiento temporal pueden responderse mediante razonamiento temporal y capturando indicios relacionados con el tiempo dentro de la conversación;
+(1) Las preguntas de salto único requieren respuestas basadas en una sola sesión; (2) Las preguntas de salto múltiple requieren sintetizar información de varias sesiones diferentes; (3) Las preguntas de conocimiento de dominio abierto pueden responderse integrando la información proporcionada por el hablante con conocimiento externo como sentido común o hechos mundiales; (4) Las preguntas de razonamiento temporal pueden responderse mediante razonamiento temporal y capturando señales de datos relacionadas con el tiempo dentro de la conversación;
 
-## Visión general
+## Visión General
 
-**Problema** 
+**Problema**
 
-Los desarrolladores pierden tiempo volviendo a explicar el contexto a las herramientas de IA. ¿Llegaste al límite de tokens en Claude? Empieza de nuevo y pierdes todo. ¿Cambias de ChatGPT/Claude a Cursor? Explica tu contexto otra vez. Tus conversaciones, decisiones y conocimientos desaparecen entre sesiones. Con cada nueva herramienta de IA, el coste del cambio de contexto aumenta.
+Los desarrolladores pierden tiempo re-explicando el contexto a las herramientas de IA. ¿Llegaste al límite de tokens en Claude? Comienza de nuevo y pierdes todo. ¿Cambias de ChatGPT/Claude a Cursor? Explica tu contexto otra vez. Tus conversaciones, decisiones e ideas desaparecen entre sesiones. Con cada nueva herramienta de IA, el costo de cambiar de contexto aumenta.
 
 **Solución** - **CORE** (**Motor de Observación y Recuperación Contextual**)
 
-CORE es una capa de memoria unificada y persistente de código abierto para todas tus herramientas de IA. Tu contexto te acompaña de Cursor a Claude, de ChatGPT a Claude Code. Un solo grafo de conocimiento recuerda quién dijo qué, cuándo y por qué. Conéctate una vez, recuerda en todas partes. Deja de gestionar el contexto y empieza a construir.
+CORE es una capa de memoria unificada, persistente y de código abierto para todas tus herramientas de IA. Tu contexto te sigue desde Cursor a Claude, ChatGPT y Claude Code. Un solo grafo de conocimiento recuerda quién dijo qué, cuándo y por qué. Conéctate una vez, recuerda en todas partes. Deja de gestionar contexto y comienza a construir.
 
-## 🚀 Comienza
+## 🚀 Comienza Ahora
 **Construye tu grafo de memoria unificado en 5 minutos:**
 
 1. **Regístrate** en [core.heysol.ai](https://core.heysol.ai) y crea tu cuenta
-2. **Agrega tu primera memoria** - comparte contexto sobre ti
+2. **Agrega tu primer recuerdo** - comparte contexto sobre ti
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
-3. **Visualiza tu grafo de memoria** y observa cómo CORE forma automáticamente conexiones entre hechos
+3. **Visualiza tu grafo de memoria** y observa cómo CORE forma conexiones automáticamente entre hechos
 5. **Pruébalo** - pregunta "¿Qué sabes sobre mí?" en la sección de conversación
 6. Conecta tus herramientas:
    - [Claude](https://docs.heysol.ai/providers/claude) y [Cursor](https://docs.heysol.ai/providers/cursor) - programación con contexto
-   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) y [Gemini CLI](https://docs.heysol.ai/providers/claude-code) - programación en terminal con memoria
+   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) y [Codex CLI](https://docs.heysol.ai/providers/codex) - programación en terminal con memoria
    - [Agrega la extensión de navegador](https://docs.heysol.ai/providers/browser-extension) - lleva tu memoria a cualquier sitio web
    - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) - añade contexto de proyecto automáticamente
 
@@ -158,9 +158,9 @@ Cuando le haces una pregunta a CORE, no solo busca texto; explora todo tu grafo 
 1. **Búsqueda**: CORE revisa la memoria desde múltiples ángulos a la vez: búsqueda por palabras clave para coincidencias exactas, búsqueda semántica para ideas relacionadas aunque se expresen diferente, y recorrido de grafo para seguir enlaces entre conceptos conectados.
 2. **Reordenar**: Los resultados obtenidos se reordenan para resaltar los más relevantes y diversos, asegurando que no solo veas coincidencias obvias sino también conexiones más profundas.
 3. **Filtrado**: CORE aplica filtros inteligentes basados en tiempo, confiabilidad y fuerza de relación, para que solo surja el conocimiento más significativo.
-4. **Salida**: Obtienes tanto hechos (declaraciones claras) como episodios (el contexto original de donde provienen), así que el recuerdo siempre está fundamentado en el contexto, el tiempo y la historia.
+4. **Salida**: Recibes tanto hechos (declaraciones claras) como episodios (el contexto original del que provienen), por lo que el recuerdo siempre está fundamentado en el contexto, el tiempo y la historia.
 
-El resultado: CORE no solo recuerda hechos, los recuerda en el contexto, tiempo e historia adecuados, para que los agentes respondan como tú recordarías.
+El resultado: CORE no solo recuerda hechos, los recuerda en el contexto, tiempo e historia adecuados, para que los agentes puedan responder como tú lo harías.
 
 ## Documentación
 
@@ -170,20 +170,22 @@ Explora nuestra documentación para sacar el máximo provecho de CORE
 - [Autoalojamiento](https://docs.heysol.ai/self-hosting/overview)
 - [Conectar Core MCP con Claude](https://docs.heysol.ai/providers/claude)
 - [Conectar Core MCP con Cursor](https://docs.heysol.ai/providers/cursor)
+- [Conectar Core MCP con Claude Code](https://docs.heysol.ai/providers/claude-code)
+- [Conectar Core MCP con Codex](https://docs.heysol.ai/providers/codex)
 
 - [Conceptos Básicos](https://docs.heysol.ai/overview)
-- [Referencia de API](https://docs.heysol.ai/local-setup)
+- [Referencia API](https://docs.heysol.ai/api-reference/get-user-profile)
 
 ## 🔒 Seguridad
 
-CORE toma la seguridad en serio. Implementamos prácticas de seguridad estándar de la industria para proteger tus datos:
+CORE se toma la seguridad en serio. Implementamos prácticas de seguridad estándar de la industria para proteger tus datos:
 
-- **Cifrado de Datos**: Todos los datos en tránsito (TLS 1.3) y en reposo (AES-256)
-- **Autenticación**: OAuth 2.0 y autenticación por enlace mágico
+- **Encriptación de Datos**: Todos los datos en tránsito (TLS 1.3) y en reposo (AES-256)
+- **Autenticación**: OAuth 2.0 y autenticación mediante enlace mágico
 - **Control de Acceso**: Aislamiento basado en espacios de trabajo y permisos basados en roles
 - **Reporte de Vulnerabilidades**: Por favor reporta problemas de seguridad a harshith@tegon.ai
 
-Para información detallada de seguridad, consulta nuestra [Política de Seguridad](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
+Para información detallada sobre seguridad, consulta nuestra [Política de Seguridad](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
 
 ## 🧑‍💻 Soporte
 
@@ -191,7 +193,7 @@ Para información detallada de seguridad, consulta nuestra [Política de Segurid
 
 - Discord: [Únete al canal core-support](https://discord.gg/YGUZcvDjUa)
 - Documentación: [docs.heysol.ai](https://docs.heysol.ai)
-- Email: manik@poozle.dev
+- Correo electrónico: manik@poozle.dev
 
 ## Directrices de Uso
 
@@ -209,7 +211,7 @@ Para información detallada de seguridad, consulta nuestra [Política de Segurid
 - Registros del sistema
 - Datos temporales
 
-## 👥 Contribuyentes
+## 👥 Colaboradores
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
@@ -222,8 +224,11 @@ Para información detallada de seguridad, consulta nuestra [Política de Segurid
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---

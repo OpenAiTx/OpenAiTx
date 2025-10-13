@@ -41,43 +41,43 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>Tài liệu hướng dẫn</b></a> •
+    <a href="https://docs.heysol.ai/introduction"><b>Tài liệu hướng dẫn</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
-## 🔥 Điểm nổi bật về nghiên cứu
+## 🔥 Điểm nổi bật nghiên cứu
 
-Bộ nhớ CORE đạt **88,24%** độ chính xác trung bình trên bộ dữ liệu Locomo ở tất cả các nhiệm vụ suy luận, vượt trội đáng kể so với các nhà cung cấp bộ nhớ khác. Xem thêm bài [blog](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/) để biết thêm thông tin.
+CORE memory đạt **88,24%** độ chính xác trung bình trên bộ dữ liệu Locomo qua tất cả các nhiệm vụ suy luận, vượt trội hơn hẳn các nhà cung cấp bộ nhớ khác. Xem thêm [blog này](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/) để biết thêm thông tin.
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) Câu hỏi đơn bước yêu cầu trả lời dựa trên một phiên duy nhất; (2) Câu hỏi đa bước cần tổng hợp thông tin từ nhiều phiên khác nhau; (3) Câu hỏi kiến thức mở có thể trả lời bằng cách kết hợp thông tin người nói cung cấp với kiến thức ngoài như kiến thức thường thức hoặc thực tế thế giới; (4) Câu hỏi suy luận thời gian có thể trả lời bằng cách suy luận thời gian và nắm bắt dữ liệu liên quan đến thời gian trong hội thoại;
+(1) Câu hỏi single-hop yêu cầu trả lời dựa trên một phiên duy nhất; (2) Câu hỏi multi-hop cần tổng hợp thông tin từ nhiều phiên khác nhau; (3) Câu hỏi kiến thức mở có thể trả lời bằng cách tích hợp thông tin do người nói cung cấp với kiến thức bên ngoài như lẽ thường hoặc sự kiện thế giới; (4) Câu hỏi suy luận thời gian có thể trả lời thông qua suy luận thời gian và nhận diện các dữ liệu liên quan đến thời gian trong cuộc hội thoại;
 
 ## Tổng quan
 
-**Vấn đề** 
+**Vấn đề**
 
-Nhà phát triển mất thời gian giải thích lại ngữ cảnh cho công cụ AI. Hết giới hạn token ở Claude? Bắt đầu lại và mất hết mọi thứ. Chuyển từ ChatGPT/Claude sang Cursor? Lại phải giải thích ngữ cảnh. Cuộc trò chuyện, quyết định, và nhận định của bạn biến mất giữa các phiên. Mỗi công cụ AI mới, chi phí chuyển ngữ cảnh lại tăng.
+Nhà phát triển lãng phí thời gian giải thích lại bối cảnh cho các công cụ AI. Gặp giới hạn token ở Claude? Bắt đầu lại và mất tất cả. Chuyển từ ChatGPT/Claude sang Cursor? Lại phải giải thích bối cảnh. Cuộc hội thoại, quyết định, và hiểu biết của bạn biến mất giữa các phiên. Với mỗi công cụ AI mới, chi phí chuyển đổi ngữ cảnh ngày càng tăng.
 
 **Giải pháp** - **CORE** (**Contextual Observation & Recall Engine**)
 
-CORE là lớp bộ nhớ hợp nhất, bền vững, mã nguồn mở cho tất cả công cụ AI của bạn. Ngữ cảnh của bạn đi theo từ Cursor sang Claude, từ ChatGPT tới Claude Code. Một đồ thị tri thức duy nhất ghi nhớ ai nói gì, khi nào và tại sao. Kết nối một lần, nhớ ở mọi nơi. Ngừng quản lý ngữ cảnh và bắt đầu xây dựng.
+CORE là lớp bộ nhớ hợp nhất, bền vững mã nguồn mở cho mọi công cụ AI của bạn. Bối cảnh của bạn theo bạn từ Cursor sang Claude, ChatGPT tới Claude Code. Một đồ thị tri thức ghi nhớ ai nói gì, khi nào, và tại sao. Kết nối một lần, ghi nhớ mọi nơi. Ngừng quản lý ngữ cảnh, bắt đầu xây dựng.
 
-## 🚀 Bắt đầu ngay
-**Xây dựng đồ thị bộ nhớ hợp nhất của bạn trong 5 phút:**
+## 🚀 Bắt đầu
+**Xây dựng đồ thị bộ nhớ hợp nhất trong 5 phút:**
 
 1. **Đăng ký** tại [core.heysol.ai](https://core.heysol.ai) và tạo tài khoản của bạn
-2. **Thêm bộ nhớ đầu tiên** - chia sẻ ngữ cảnh về bản thân bạn
+2. **Thêm bộ nhớ đầu tiên** - chia sẻ bối cảnh về bản thân bạn
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
-3. **Hình dung đồ thị bộ nhớ của bạn** và xem cách CORE tự động kết nối các sự kiện
-5. **Thử nghiệm** - hỏi "Bạn biết gì về tôi?" trong phần hội thoại
+3. **Trực quan hóa đồ thị bộ nhớ của bạn** và xem CORE tự động kết nối các sự kiện như thế nào
+5. **Thử nghiệm** - hỏi "Bạn biết gì về tôi?" ở phần hội thoại
 6. Kết nối với các công cụ của bạn:
    - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - lập trình có ngữ cảnh
-   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Gemini CLI](https://docs.heysol.ai/providers/claude-code) - lập trình trên terminal với bộ nhớ
-   - [Thêm tiện ích mở rộng trình duyệt](https://docs.heysol.ai/providers/browser-extension) - mang bộ nhớ của bạn tới mọi website
+   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) - lập trình trên terminal với bộ nhớ
+   - [Thêm tiện ích trình duyệt](https://docs.heysol.ai/providers/browser-extension) - mang bộ nhớ của bạn đến bất kỳ website nào
    - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) - tự động thêm ngữ cảnh dự án
 
 ## 🧩 Tính Năng Chính
@@ -158,11 +158,11 @@ Khi bạn hỏi CORE một câu, nó không chỉ tra cứu văn bản—mà cò
 2. **Xếp hạng lại**: Kết quả truy xuất được sắp xếp lại để làm nổi bật các kết quả liên quan và đa dạng nhất, đảm bảo bạn không chỉ thấy các kết quả rõ ràng mà còn cả những kết nối sâu sắc hơn.
 3. **Lọc**: CORE áp dụng bộ lọc thông minh dựa trên thời gian, độ tin cậy và sức mạnh mối quan hệ, để chỉ những kiến thức ý nghĩa nhất được hiện ra.
 
-4. **Đầu ra**: Bạn nhận lại cả các sự kiện (khẳng định rõ ràng) và các tập truyện (ngữ cảnh gốc mà chúng xuất phát), vì vậy việc ghi nhớ luôn được đặt trong bối cảnh, thời gian, và câu chuyện.
+4. **Kết quả trả về**: Bạn nhận được cả các sự kiện (các phát biểu rõ ràng) và các tập (bối cảnh gốc mà chúng xuất phát), nên việc ghi nhớ luôn dựa trên ngữ cảnh, thời gian và câu chuyện.
 
-Kết quả: CORE không chỉ ghi nhớ sự kiện - nó còn ghi nhớ chúng trong đúng bối cảnh, thời gian, và câu chuyện, giúp các tác nhân phản hồi như cách bạn ghi nhớ.
+Kết quả: CORE không chỉ ghi nhớ sự kiện - nó còn ghi nhớ trong đúng ngữ cảnh, thời gian và câu chuyện, để các tác vụ phản hồi như cách bạn nhớ lại.
 
-## Tài liệu hướng dẫn
+## Tài liệu
 
 Khám phá tài liệu của chúng tôi để tận dụng tối đa CORE
 
@@ -170,27 +170,29 @@ Khám phá tài liệu của chúng tôi để tận dụng tối đa CORE
 - [Tự triển khai](https://docs.heysol.ai/self-hosting/overview)
 - [Kết nối Core MCP với Claude](https://docs.heysol.ai/providers/claude)
 - [Kết nối Core MCP với Cursor](https://docs.heysol.ai/providers/cursor)
+- [Kết nối Core MCP với Claude Code](https://docs.heysol.ai/providers/claude-code)
+- [Kết nối Core MCP với Codex](https://docs.heysol.ai/providers/codex) 
 
 - [Khái niệm cơ bản](https://docs.heysol.ai/overview)
-- [Tham khảo API](https://docs.heysol.ai/local-setup)
+- [Tham khảo API](https://docs.heysol.ai/api-reference/get-user-profile)
 
 ## 🔒 Bảo mật
 
-CORE rất coi trọng bảo mật. Chúng tôi triển khai các phương pháp bảo mật tiêu chuẩn ngành để bảo vệ dữ liệu của bạn:
+CORE coi trọng vấn đề bảo mật. Chúng tôi áp dụng các biện pháp bảo mật tiêu chuẩn ngành để bảo vệ dữ liệu của bạn:
 
-- **Mã hóa dữ liệu**: Tất cả dữ liệu khi truyền (TLS 1.3) và lưu trữ (AES-256)
-- **Xác thực**: OAuth 2.0 và xác thực liên kết ma thuật
+- **Mã hóa dữ liệu**: Tất cả dữ liệu truyền tải (TLS 1.3) và lưu trữ (AES-256)
+- **Xác thực**: OAuth 2.0 và xác thực qua liên kết ma thuật
 - **Kiểm soát truy cập**: Cách ly theo không gian làm việc và phân quyền theo vai trò
-- **Báo cáo lỗ hổng**: Vui lòng báo cáo các vấn đề bảo mật tới harshith@tegon.ai
+- **Báo cáo lỗ hổng**: Vui lòng gửi vấn đề bảo mật đến harshith@tegon.ai
 
-Để biết thông tin bảo mật chi tiết, xem [Chính sách Bảo mật](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
+Để biết chi tiết về bảo mật, xem [Chính sách bảo mật](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
 
 ## 🧑‍💻 Hỗ trợ
 
-Có câu hỏi hoặc phản hồi? Chúng tôi sẵn sàng hỗ trợ:
+Có câu hỏi hoặc phản hồi? Chúng tôi luôn sẵn sàng hỗ trợ:
 
 - Discord: [Tham gia kênh core-support](https://discord.gg/YGUZcvDjUa)
-- Tài liệu hướng dẫn: [docs.heysol.ai](https://docs.heysol.ai)
+- Tài liệu: [docs.heysol.ai](https://docs.heysol.ai)
 - Email: manik@poozle.dev
 
 ## Hướng dẫn sử dụng
@@ -198,7 +200,7 @@ Có câu hỏi hoặc phản hồi? Chúng tôi sẵn sàng hỗ trợ:
 **Lưu trữ:**
 
 - Lịch sử hội thoại
-- Sở thích người dùng
+- Sở thích của người dùng
 - Bối cảnh nhiệm vụ
 - Tài liệu tham khảo
 
@@ -209,7 +211,7 @@ Có câu hỏi hoặc phản hồi? Chúng tôi sẵn sàng hỗ trợ:
 - Nhật ký hệ thống
 - Dữ liệu tạm thời
 
-## 👥 Người đóng góp
+## 👥 Những người đóng góp
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
@@ -222,8 +224,11 @@ Có câu hỏi hoặc phản hồi? Chúng tôi sẵn sàng hỗ trợ:
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---

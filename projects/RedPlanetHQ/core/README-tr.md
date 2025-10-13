@@ -41,43 +41,43 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>Dokümantasyon</b></a> •
+    <a href="https://docs.heysol.ai/introduction"><b>Dokümantasyon</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
-## 🔥 Araştırma Vurguları
+## 🔥 Araştırma Öne Çıkanlar
 
-CORE hafızası, Locomo veri setinde tüm akıl yürütme görevlerinde **%88,24** ortalama doğruluk elde ederek diğer hafıza sağlayıcılarını önemli ölçüde geride bırakıyor. Daha fazla bilgi için bu [blogu](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/) inceleyin.
+CORE memory, Locomo veri setinde tüm muhakeme görevlerinde ortalama **%88.24** doğruluk elde ederek diğer bellek sağlayıcılarını önemli ölçüde geride bırakmıştır. Daha fazla bilgi için bu [blogu](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/) inceleyin.
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) Tek adımlı sorular, yanıtın tek bir oturuma dayandırılmasını gerektirir; (2) Çok adımlı sorular, birden fazla farklı oturumdan bilgi sentezlenmesini gerektirir; (3) Açık alan bilgi soruları, bir konuşmacının verdiği bilgiler ile dış bilgiler (örneğin, sağduyu veya dünya gerçekleri) birleştirilerek yanıtlanabilir; (4) Zamanlama akıl yürütmesi soruları, konuşmadaki zamanla ilgili veri ipuçları yakalanarak ve zamanlama ile akıl yürütme yapılarak yanıtlanabilir;
+(1) Tek adımlı sorular, yalnızca bir oturuma dayalı yanıt gerektirir; (2) Çok adımlı sorular, birden fazla farklı oturumdan bilgi sentezlemeyi gerektirir; (3) Açık alan bilgi soruları, konuşmacının sağladığı bilgi ile dışsal bilgi (sağduyu veya dünya gerçekleri gibi) entegre edilerek yanıtlanabilir; (4) Zamansal muhakeme soruları, konuşma sırasında zamanla ilgili veri ipuçlarını yakalayarak ve zamansal muhakeme yoluyla yanıtlanabilir;
 
 ## Genel Bakış
 
 **Sorun** 
 
-Geliştiriciler, AI araçlarına sürekli olarak bağlamı tekrar açıklamak zorunda kalıyor. Claude’da token sınırına mı ulaştınız? Baştan başlayın ve her şeyi kaybedin. ChatGPT/Claude’dan Cursor’a mı geçtiniz? Bağlamınızı tekrar anlatın. Konuşmalarınız, kararlarınız ve içgörüleriniz oturumlar arasında kaybolur. Her yeni AI aracıyla bağlam değiştirme maliyeti artar.
+Geliştiriciler, AI araçlarına bağlamı tekrar tekrar açıklayarak zaman kaybeder. Claude'da token sınırına mı takıldınız? Baştan başla ve her şeyi kaybet. ChatGPT/Claude'dan Cursor'a mı geçtin? Bağlamını tekrar açıkla. Sohbetleriniz, kararlarınız ve içgörüleriniz oturumlar arasında kaybolur. Her yeni AI aracıyla, bağlam değiştirme maliyeti artar.
 
 **Çözüm** - **CORE** (**Bağlamsal Gözlem & Hatırlama Motoru**)
 
-CORE, tüm AI araçlarınız için açık kaynaklı, birleşik ve kalıcı bir hafıza katmanıdır. Bağlamınız Cursor’dan Claude’a, ChatGPT’den Claude Code’a kadar sizinle birlikte taşınır. Tek bir bilgi grafiği, kim neyi, ne zaman ve neden söylediğini hatırlar. Bir kez bağlanın, her yerde hatırlayın. Bağlam yönetmeyi bırakın, üretmeye başlayın.
+CORE, tüm AI araçlarınız için açık kaynaklı, birleşik ve kalıcı bir bellek katmanıdır. Bağlamınız Cursor'dan Claude'a, ChatGPT'den Claude Code'a sizinle birlikte taşınır. Bir bilgi grafiği kim, ne zaman, ne söyledi ve neden söylediğini hatırlar. Bir kez bağlan, her yerde hatırla. Bağlamı yönetmeyi bırak, inşa etmeye başla.
 
-## 🚀 Hemen Başlayın
-**Birleşik hafıza grafiğinizi 5 dakikada oluşturun:**
+## 🚀 Başlarken
+**5 dakikada birleşik bellek grafiğinizi oluşturun:**
 
-1. [core.heysol.ai](https://core.heysol.ai) adresinden **Kaydolun** ve hesabınızı oluşturun
-2. **İlk hafızanızı ekleyin** - kendinizle ilgili bağlamı paylaşın
+1. [core.heysol.ai](https://core.heysol.ai) adresinden **Kayıt Olun** ve hesabınızı oluşturun
+2. **İlk belleğinizi ekleyin** - kendinizle ilgili bağlamı paylaşın
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
-3. **Hafıza grafiğinizi görselleştirin** ve CORE’un gerçekler arasında otomatik olarak nasıl bağlantılar kurduğunu görün
-5. **Test edin** - sohbet bölümünde "Benim hakkımda ne biliyorsun?" diye sorun
+3. **Bellek grafiğinizi görselleştirin** ve CORE'un otomatik olarak gerçekler arasında nasıl bağlantı kurduğunu görün
+5. **Deneyin** - konuşma bölümünde "Hakkımda ne biliyorsun?" diye sorun
 6. Araçlarınıza bağlanın:
    - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - bağlam ile kodlama
-   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Gemini CLI](https://docs.heysol.ai/providers/claude-code) - terminal tabanlı hafızalı kodlama
-   - [Tarayıcı Eklentisi Ekle](https://docs.heysol.ai/providers/browser-extension) - hafızanızı herhangi bir web sitesine taşıyın
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) - terminal tabanlı bellekli kodlama
+   - [Tarayıcı Eklentisi Ekle](https://docs.heysol.ai/providers/browser-extension) - belleğinizi herhangi bir web sitesine taşıyın
    - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) - proje bağlamını otomatik olarak ekleyin
 
 ## 🧩 Anahtar Özellikler
@@ -158,36 +158,38 @@ CORE’a bir soru sorduğunuzda, sadece metin aramaz—tüm bilgi grafiğinizi t
 1. **Arama**: CORE, hafızada aynı anda birden fazla açıdan arama yapar—anahtar kelimeyle tam eşleşmeleri, anlamsal aramayla farklı biçimlerde ifade edilmiş ilgili fikirleri ve grafik gezintisiyle bağlantılı kavramlar arasındaki ilişkileri takip eder.
 2. **Yeniden Sıralama**: Getirilen sonuçlar, en alakalı ve çeşitli olanlar öne çıkarılacak şekilde yeniden sıralanır; böylece sadece bariz eşleşmeleri değil, derin bağlantıları da görürsünüz.
 3. **Filtreleme**: CORE, zaman, güvenilirlik ve ilişki gücüne göre akıllı filtreler uygular; böylece yalnızca en anlamlı bilgiler yüzeye çıkar.
-4. **Çıktı**: Hem gerçekleri (açık ifadeler) hem de bölümleri (geldikleri orijinal bağlam) geri alırsınız, böylece hatırlama her zaman bağlama, zamana ve hikayeye dayanır.
+4. **Çıktı**: Hem gerçekleri (açık ifadeler) hem de bölümleri (geldikleri orijinal bağlam) geri alırsınız, böylece hatırlama her zaman bağlam, zaman ve hikaye ile ilişkilidir.
 
-Sonuç: CORE sadece gerçekleri hatırlamakla kalmaz - onları doğru bağlamda, zamanda ve hikayede hatırlar, böylece ajanlar sizin hatırladığınız gibi yanıt verebilir.
+Sonuç: CORE sadece gerçekleri hatırlamakla kalmaz - onları doğru bağlam, zaman ve hikaye içinde hatırlar, böylece ajanlar sizin hatırladığınız gibi yanıt verebilir.
 
 ## Dokümantasyon
 
-CORE'den en iyi şekilde yararlanmak için dokümantasyonumuzu keşfedin
+CORE'dan en iyi şekilde yararlanmak için dokümantasyonumuzu inceleyin
 
 - [Temel Kavramlar](https://docs.heysol.ai/concepts/memory_graph)
-- [Kendi Sunucunda Barındırma](https://docs.heysol.ai/self-hosting/overview)
+- [Kendi Sunucunuzda Barındırma](https://docs.heysol.ai/self-hosting/overview)
 - [Core MCP’yi Claude ile Bağlama](https://docs.heysol.ai/providers/claude)
 - [Core MCP’yi Cursor ile Bağlama](https://docs.heysol.ai/providers/cursor)
+- [Core MCP’yi Claude Code ile Bağlama](https://docs.heysol.ai/providers/claude-code)
+- [Core MCP’yi Codex ile Bağlama](https://docs.heysol.ai/providers/codex) 
 
 - [Temel Kavramlar](https://docs.heysol.ai/overview)
-- [API Referansı](https://docs.heysol.ai/local-setup)
+- [API Referansı](https://docs.heysol.ai/api-reference/get-user-profile)
 
 ## 🔒 Güvenlik
 
-CORE güvenliği ciddiye alır. Verilerinizi korumak için endüstri standardı güvenlik uygulamalarını uygularız:
+CORE güvenliği ciddiye alır. Verilerinizi korumak için sektör standartlarında güvenlik uygulamaları uygularız:
 
-- **Veri Şifreleme**: Tüm veriler aktarımda (TLS 1.3) ve depoda (AES-256)
+- **Veri Şifreleme**: Aktarımda (TLS 1.3) ve depoda (AES-256) tüm veri
 - **Kimlik Doğrulama**: OAuth 2.0 ve sihirli bağlantı ile kimlik doğrulama
-- **Erişim Kontrolü**: Çalışma alanı tabanlı izolasyon ve rol tabanlı izinler
-- **Açıklar için Raporlama**: Lütfen güvenlik açıklarını harshith@tegon.ai adresine bildirin
+- **Erişim Kontrolü**: Çalışma alanı tabanlı ayrıştırma ve rol tabanlı izinler
+- **Açıklar Bildirimi**: Lütfen güvenlik sorunlarını harshith@tegon.ai adresine bildirin
 
-Detaylı güvenlik bilgileri için [Güvenlik Politikamıza](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) bakın.
+Detaylı güvenlik bilgisi için [Güvenlik Politikamıza](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) bakın.
 
 ## 🧑‍💻 Destek
 
-Sorunuz veya geri bildiriminiz mi var? Yardım etmek için buradayız:
+Sorularınız veya geri bildiriminiz mi var? Yardım için buradayız:
 
 - Discord: [core-support kanalına katılın](https://discord.gg/YGUZcvDjUa)
 - Dokümantasyon: [docs.heysol.ai](https://docs.heysol.ai)
@@ -195,16 +197,16 @@ Sorunuz veya geri bildiriminiz mi var? Yardım etmek için buradayız:
 
 ## Kullanım Yönergeleri
 
-**Depolama:**
+**Saklama:**
 
 - Konuşma geçmişi
 - Kullanıcı tercihleri
 - Görev bağlamı
 - Referans materyalleri
 
-**Saklanmamalıdır:**
+**Saklanmamalı:**
 
-- Hassas veriler (Kişisel Tanımlanabilir Bilgi)
+- Hassas veriler (Kişisel Tanımlanabilir Bilgiler)
 - Kimlik bilgileri
 - Sistem günlükleri
 - Geçici veriler
@@ -222,8 +224,11 @@ Sorunuz veya geri bildiriminiz mi var? Yardım etmek için buradayız:
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---

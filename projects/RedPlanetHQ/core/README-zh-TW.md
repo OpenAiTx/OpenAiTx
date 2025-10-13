@@ -41,43 +41,43 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>文件說明</b></a> •
-    <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
+    <a href="https://docs.heysol.ai/introduction"><b>文件說明</b></a> •
+    <a href="https://discord.gg/YGUZcvDjUa"><b>Discord 群組</b></a>
 </p>
 </div>
 
 ## 🔥 研究亮點
 
-CORE 記憶在 Locomo 資料集所有推理任務中達到 **88.24%** 平均準確率，顯著超越其他記憶提供者。更多資訊請參考這篇 [部落格](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/)。
+CORE 記憶在 Locomo 資料集所有推理任務中達到 **88.24%** 平均準確率，顯著優於其他記憶提供者。詳情請參考這篇 [部落格](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/)。
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) 單跳問題需要依據單一會話來回答；(2) 多跳問題需整合多個不同會話的資訊來作答；(3) 開放領域知識問題可透過結合講者提供的資訊與外部知識（如常識或世界事實）來回答；(4) 時序推理問題則可透過時序推理並捕捉對話中的時間相關資料線索來作答；
+(1) 單跳問題需要根據單一會話回答；(2) 多跳問題需要整合多個不同會話中的資訊；(3) 開放域知識問題可藉由結合講者提供的資訊與外部知識（如常識或世界事實）回答；(4) 時序推理問題可透過時序推理及捕捉會話中的時間相關資料線索來回答；
 
-## 概述
+## 概覽
 
 **問題** 
 
-開發者常因需向 AI 工具重複解釋背景而浪費時間。在 Claude 達到 token 限制？必須重新開始，所有內容都消失。從 ChatGPT/Claude 切換到 Cursor？又得重新解釋你的背景。你的對話、決策和洞見在每次會話間消失。每換一個 AI 工具，情境切換的成本就更高。
+開發者耗費大量時間向 AI 工具重複說明情境。Claude 達到 token 限制？只能重新開始，所有內容都消失。從 ChatGPT/Claude 切換到 Cursor？又得重述你的情境。你的對話、決策與洞察在不同會話間消失。每換一個新 AI 工具，情境切換的成本就升高。
 
 **解決方案** - **CORE**（**Contextual Observation & Recall Engine**）
 
-CORE 是一個開源、統一、持久的記憶層，適用於所有你的 AI 工具。你的情境可從 Cursor 到 Claude 到 ChatGPT 到 Claude Code 都能跟隨。單一知識圖譜記得誰說了什麼、何時、為何。一次連接，處處記憶。停止管理情境，開始創造價值。
+CORE 是一個開源、統一且持久的 AI 工具記憶層。你的情境可從 Cursor 到 Claude，再到 ChatGPT、Claude Code 都能跟著你。單一知識圖譜記住每個人何時、何地、為何說了什麼。只需連接一次，記憶無處不在。告別手動管理情境，開始專注於創造。
 
-## 🚀 快速開始
-**5 分鐘建立你的統一記憶圖譜：**
+## 🚀 開始使用
+**5 分鐘內建立你的統一記憶圖：**
 
-1. **註冊帳號**，前往 [core.heysol.ai](https://core.heysol.ai) 並建立你的帳戶
-2. **新增第一個記憶** - 分享有關自己的情境
+1. **註冊帳號**，前往 [core.heysol.ai](https://core.heysol.ai) 創建你的帳號
+2. **新增你的第一個記憶** - 分享有關你自己的情境
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
-3. **視覺化你的記憶圖譜**，查看 CORE 如何自動建立事實間的連結
-5. **測試看看** - 在對話區詢問「你對我知道什麼？」
-6. 連接到你的工具：
-   - [Claude](https://docs.heysol.ai/providers/claude) 及 [Cursor](https://docs.heysol.ai/providers/cursor) - 支援情境的程式開發
-   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) 及 [Gemini CLI](https://docs.heysol.ai/providers/claude-code) - 終端機記憶式程式開發
-   - [安裝瀏覽器擴充功能](https://docs.heysol.ai/providers/browser-extension) - 讓你的記憶隨時應用於各網站
+3. **視覺化你的記憶圖**，看看 CORE 如何自動將事實建立連結
+5. **試用看看** - 在對話區詢問「你對我了解什麼？」
+6. 連接你的工具：
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - 具情境的程式開發
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) - 終端機記憶式程式開發
+   - [新增瀏覽器擴充套件](https://docs.heysol.ai/providers/browser-extension) - 讓你的記憶延伸至所有網站
    - [Linear](https://docs.heysol.ai/integrations/linear)、[Github](https://docs.heysol.ai/integrations/github) - 自動新增專案背景資訊
 
 ## 🧩 主要功能
@@ -158,38 +158,40 @@ CORE 的資料擷取流程分為四個階段，旨在捕捉不斷演變的情境
 1. **搜尋**：CORE 會從多個角度同時搜尋記憶——關鍵字搜尋用於精確匹配，語意搜尋可找到用不同說法表達的相關概念，圖譜遍歷則追蹤彼此連結的概念。
 2. **重新排序**：檢索到的結果會重新排序，突出最相關且多元的內容，確保你看到的不僅是明顯的匹配，也包括更深層的連結。
 3. **篩選**：CORE 依據時間、可靠性及關係強度套用智慧型篩選，讓最具意義的知識浮現。
-4. **輸出**：你可以同時獲得事實（明確陳述）和事件（它們原始的上下文），因此召回總是有上下文、時間和故事作為依據。
+4. **輸出**：您會獲得事實（明確的陳述）和事件（它們原始的上下文），因此回憶總是植根於上下文、時間和故事。
 
-結果：CORE不只是召回事實——它能在正確的上下文、時間和故事中召回事實，讓代理能以你記憶的方式回應。
+結果：CORE不僅僅是回憶事實——它還能在正確的上下文、時間和故事中回憶，讓代理能以您記憶的方式回應。
 
 ## 文件
 
-瀏覽我們的文件，充分發揮CORE的效能
+探索我們的文件，以充分發揮CORE的效能
 
 - [基本概念](https://docs.heysol.ai/concepts/memory_graph)
 - [自我託管](https://docs.heysol.ai/self-hosting/overview)
-- [將Core MCP連接到Claude](https://docs.heysol.ai/providers/claude)
-- [將Core MCP連接到Cursor](https://docs.heysol.ai/providers/cursor)
+- [連接Core MCP與Claude](https://docs.heysol.ai/providers/claude)
+- [連接Core MCP與Cursor](https://docs.heysol.ai/providers/cursor)
+- [連接Core MCP與Claude Code](https://docs.heysol.ai/providers/claude-code)
+- [連接Core MCP與Codex](https://docs.heysol.ai/providers/codex)
 
 - [基本概念](https://docs.heysol.ai/overview)
-- [API參考](https://docs.heysol.ai/local-setup)
+- [API參考](https://docs.heysol.ai/api-reference/get-user-profile)
 
 ## 🔒 安全性
 
-CORE非常重視安全。我們實施業界標準的安全措施來保護你的資料：
+CORE非常重視安全性。我們採用業界標準的安全措施來保護您的資料：
 
-- **資料加密**：所有傳輸中的資料（TLS 1.3）與靜態資料（AES-256）
-- **認證**：OAuth 2.0與魔法連結認證
-- **存取控制**：以工作區為基礎的隔離與角色權限管理
-- **漏洞回報**：請回報安全問題至 harshith@tegon.ai
+- **資料加密**：所有傳輸中的資料（TLS 1.3）和靜態資料（AES-256）
+- **認證**：OAuth 2.0和魔術連結認證
+- **存取控制**：以工作區為基礎的隔離與角色權限
+- **漏洞回報**：請將安全性問題回報至 harshith@tegon.ai
 
-詳細安全資訊，請參閱我們的 [安全政策](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)。
+欲了解詳細的安全資訊，請參閱我們的[安全政策](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)。
 
 ## 🧑‍💻 支援
 
-有疑問或反饋嗎？我們隨時為你服務：
+有問題或回饋嗎？我們隨時為您服務：
 
-- Discord：[加入core-support頻道](https://discord.gg/YGUZcvDjUa)
+- Discord：[加入 core-support 頻道](https://discord.gg/YGUZcvDjUa)
 - 文件：[docs.heysol.ai](https://docs.heysol.ai)
 - 電子郵件：manik@poozle.dev
 
@@ -204,7 +206,7 @@ CORE非常重視安全。我們實施業界標準的安全措施來保護你的�
 
 **請勿儲存：**
 
-- 敏感資料（個人識別資訊，PII）
+- 敏感資料（PII）
 - 憑證
 - 系統日誌
 - 臨時資料
@@ -222,8 +224,11 @@ CORE非常重視安全。我們實施業界標準的安全措施來保護你的�
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---

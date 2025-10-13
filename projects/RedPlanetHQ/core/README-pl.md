@@ -38,46 +38,46 @@
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
         <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Odznaka" />
-    </a>
+</a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>Dokumentacja</b></a> •
+    <a href="https://docs.heysol.ai/introduction"><b>Dokumentacja</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
-## 🔥 Najważniejsze osiągnięcia badawcze
+## 🔥 Najważniejsze wyniki badań
 
-Pamięć CORE osiąga **88,24%** średniej dokładności na zbiorze danych Locomo we wszystkich zadaniach wymagających rozumowania, znacznie przewyższając innych dostawców pamięci. Sprawdź ten [blog](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/), aby dowiedzieć się więcej.
+Pamięć CORE osiąga **88,24%** średniej dokładności na zbiorze danych Locomo we wszystkich zadaniach wymagających rozumowania, znacznie przewyższając innych dostawców pamięci. Zobacz [blog](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/), aby dowiedzieć się więcej.
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) Pytania typu single-hop wymagają odpowiedzi na podstawie jednej sesji; (2) Pytania multi-hop wymagają syntezy informacji z wielu różnych sesji; (3) Pytania z zakresu wiedzy otwarto-domenowej można rozwiązać, integrując informacje podane przez rozmówcę z wiedzą zewnętrzną, taką jak zdrowy rozsądek lub fakty ze świata; (4) Pytania wymagające rozumowania czasowego można rozwiązać poprzez analizę czasową i wychwytywanie wskazówek związanych z czasem w rozmowie;
+(1) Pytania typu single-hop wymagają odpowiedzi na podstawie jednej sesji; (2) Pytania multi-hop wymagają syntezy informacji z wielu różnych sesji; (3) Pytania o wiedzę z otwartego zakresu można rozwiązać integrując informacje od rozmówcy z wiedzą zewnętrzną, np. zdrowym rozsądkiem czy faktami o świecie; (4) Pytania wymagające rozumowania temporalnego można rozwiązać przez analizę czasową i wychwytywanie wskazówek związanych z czasem w rozmowie;
 
 ## Przegląd
 
-**Problem** 
+**Problem**
 
-Deweloperzy tracą czas na ponowne wyjaśnianie kontekstu narzędziom AI. Napotykasz limity tokenów w Claude? Zaczynasz od nowa i tracisz wszystko. Przechodzisz z ChatGPT/Claude do Cursor? Ponownie tłumaczysz swój kontekst. Twoje rozmowy, decyzje i spostrzeżenia znikają między sesjami. Przy każdej zmianie narzędzia AI koszt przełączania kontekstu rośnie.
+Deweloperzy tracą czas na ponowne tłumaczenie kontekstu narzędziom AI. Osiągnąłeś limit tokenów w Claude? Zaczynasz od nowa i wszystko przepada. Przełączasz się z ChatGPT/Claude na Cursor? Znowu musisz tłumaczyć kontekst. Twoje rozmowy, decyzje i wnioski znikają między sesjami. Z każdą nową aplikacją AI koszt przełączania kontekstu rośnie.
 
 **Rozwiązanie** - **CORE** (**Contextual Observation & Recall Engine**)
 
-CORE to otwartoźródłowa, zunifikowana i trwała warstwa pamięci dla wszystkich Twoich narzędzi AI. Twój kontekst podąża za Tobą z Cursor do Claude, z ChatGPT do Claude Code. Jeden graf wiedzy pamięta, kto co powiedział, kiedy i dlaczego. Podłącz raz, pamiętaj wszędzie. Przestań zarządzać kontekstem i zacznij budować.
+CORE to otwartoźródłowa, zunifikowana i trwała warstwa pamięci dla wszystkich Twoich narzędzi AI. Twój kontekst podąża za Tobą od Cursor przez Claude po ChatGPT i Claude Code. Jeden graf wiedzy zapamiętuje, kto, kiedy i dlaczego coś powiedział. Połącz raz, pamiętaj wszędzie. Przestań zarządzać kontekstem, zacznij budować.
 
-## 🚀 Zacznij
+## 🚀 Pierwsze kroki
 **Zbuduj swój zunifikowany graf pamięci w 5 minut:**
 
 1. **Zarejestruj się** na [core.heysol.ai](https://core.heysol.ai) i utwórz konto
-2. **Dodaj swoją pierwszą pamięć** – podziel się kontekstem o sobie
+2. **Dodaj swoją pierwszą pamięć** – podziel się informacjami o sobie
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
-3. **Zobacz swój graf pamięci** i sprawdź, jak CORE automatycznie tworzy połączenia między faktami
-5. **Przetestuj to** – zapytaj w sekcji rozmowy: "Co o mnie wiesz?"
-6. Podłącz do swoich narzędzi:
-   - [Claude](https://docs.heysol.ai/providers/claude) i [Cursor](https://docs.heysol.ai/providers/cursor) – kodowanie z kontekstem
-   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) i [Gemini CLI](https://docs.heysol.ai/providers/claude-code) – kodowanie w terminalu z pamięcią
-   - [Dodaj rozszerzenie do przeglądarki](https://docs.heysol.ai/providers/browser-extension) – zabierz swoją pamięć na każdą stronę internetową
+3. **Zwizualizuj swój graf pamięci** i zobacz, jak CORE automatycznie tworzy połączenia między faktami
+5. **Wypróbuj** – zapytaj w sekcji rozmowy "Co o mnie wiesz?"
+6. Połącz ze swoimi narzędziami:
+   - [Claude](https://docs.heysol.ai/providers/claude) i [Cursor](https://docs.heysol.ai/providers/cursor) – programowanie z kontekstem
+   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) i [Codex CLI](https://docs.heysol.ai/providers/codex) – programowanie w terminalu z pamięcią
+   - [Dodaj rozszerzenie przeglądarki](https://docs.heysol.ai/providers/browser-extension) – zabierz swoją pamięć na każdą stronę internetową
    - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) – automatyczne dodawanie kontekstu projektu
 
 ## 🧩 Kluczowe funkcje
@@ -158,56 +158,58 @@ Gdy zadasz pytanie CORE, nie tylko wyszukuje tekst - zagłębia się w cały Tw�
 1. **Wyszukiwanie**: CORE przeszukuje pamięć z różnych perspektyw jednocześnie - wyszukiwanie słów kluczowych dla dokładnych dopasowań, wyszukiwanie semantyczne dla powiązanych idei nawet jeśli są opisane inaczej, oraz przechodzenie po grafie by podążać za powiązanymi koncepcjami.
 2. **Ponowne sortowanie**: Odzyskane wyniki są sortowane, aby wyróżnić najbardziej trafne i zróżnicowane, zapewniając, że nie zobaczysz tylko oczywistych dopasowań, ale także głębsze powiązania.
 3. **Filtrowanie**: CORE stosuje inteligentne filtry na podstawie czasu, wiarygodności i siły relacji, dzięki czemu wyłania się tylko najbardziej istotna wiedza.
-4. **Wynik**: Otrzymujesz zarówno fakty (jasne stwierdzenia), jak i epizody (oryginalny kontekst, z którego pochodzą), więc przypomnienia są zawsze zakorzenione w kontekście, czasie i historii.
+4. **Wyjście**: Otrzymujesz zarówno fakty (jasne stwierdzenia), jak i epizody (oryginalny kontekst, z którego pochodzą), więc pamięć jest zawsze osadzona w kontekście, czasie i historii.
 
-Rezultat: CORE nie tylko przywołuje fakty – przywołuje je we właściwym kontekście, czasie i historii, dzięki czemu agenci mogą reagować tak, jak byś pamiętał.
+Rezultat: CORE nie tylko odtwarza fakty - odtwarza je we właściwym kontekście, czasie i historii, dzięki czemu agenci mogą reagować tak, jakbyś to pamiętał.
 
 ## Dokumentacja
 
-Odkryj naszą dokumentację, aby w pełni wykorzystać możliwości CORE
+Przeglądaj naszą dokumentację, aby w pełni wykorzystać możliwości CORE
 
 - [Podstawowe pojęcia](https://docs.heysol.ai/concepts/memory_graph)
-- [Samodzielna instalacja](https://docs.heysol.ai/self-hosting/overview)
+- [Samodzielne hostowanie](https://docs.heysol.ai/self-hosting/overview)
 - [Połącz Core MCP z Claude](https://docs.heysol.ai/providers/claude)
 - [Połącz Core MCP z Cursor](https://docs.heysol.ai/providers/cursor)
+- [Połącz Core MCP z Claude Code](https://docs.heysol.ai/providers/claude-code)
+- [Połącz Core MCP z Codex](https://docs.heysol.ai/providers/codex)
 
 - [Podstawowe pojęcia](https://docs.heysol.ai/overview)
-- [Dokumentacja API](https://docs.heysol.ai/local-setup)
+- [Dokumentacja API](https://docs.heysol.ai/api-reference/get-user-profile)
 
 ## 🔒 Bezpieczeństwo
 
-CORE traktuje bezpieczeństwo poważnie. Wdrażamy branżowe standardy bezpieczeństwa, aby chronić Twoje dane:
+CORE traktuje bezpieczeństwo bardzo poważnie. Wdrażamy standardowe praktyki branżowe, aby chronić Twoje dane:
 
-- **Szyfrowanie danych**: Wszystkie dane w tranzycie (TLS 1.3) i w spoczynku (AES-256)
-- **Uwierzytelnianie**: OAuth 2.0 oraz uwierzytelnianie za pomocą magicznego linku
-- **Kontrola dostępu**: Izolacja oparta na przestrzeni roboczej i uprawnienia oparte na rolach
-- **Zgłaszanie podatności**: Prosimy zgłaszać kwestie bezpieczeństwa na harshith@tegon.ai
+- **Szyfrowanie danych**: Całe dane w tranzycie (TLS 1.3) i w spoczynku (AES-256)
+- **Uwierzytelnianie**: OAuth 2.0 oraz uwierzytelnianie przez magic link
+- **Kontrola dostępu**: Izolacja oparta na przestrzeni roboczej i uprawnieniach ról
+- **Zgłaszanie luk**: Prosimy zgłaszać problemy z bezpieczeństwem na harshith@tegon.ai
 
-Szczegółowe informacje dotyczące bezpieczeństwa znajdziesz w naszej [Polityce bezpieczeństwa](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
+Szczegółowe informacje dotyczące bezpieczeństwa znajdziesz w naszej [Polityce Bezpieczeństwa](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
 
 ## 🧑‍💻 Wsparcie
 
-Masz pytania lub uwagi? Jesteśmy tutaj, aby pomóc:
+Masz pytania lub uwagi? Jesteśmy tu, by pomóc:
 
 - Discord: [Dołącz do kanału core-support](https://discord.gg/YGUZcvDjUa)
 - Dokumentacja: [docs.heysol.ai](https://docs.heysol.ai)
-- E-mail: manik@poozle.dev
+- Email: manik@poozle.dev
 
-## Wytyczne dotyczące użytkowania
+## Wytyczne użytkowania
 
-**Przechowywanie:**
+**Przechowuj:**
 
-- Historia rozmów
+- Historia konwersacji
 - Preferencje użytkownika
 - Kontekst zadania
 - Materiały referencyjne
 
 **Nie przechowuj:**
 
-- Danych wrażliwych (PII)
-- Poświadczeń
-- Logów systemowych
-- Danych tymczasowych
+- Dane wrażliwe (PII)
+- Dane uwierzytelniające
+- Logi systemowe
+- Dane tymczasowe
 
 ## 👥 Współtwórcy
 
@@ -222,8 +224,11 @@ Masz pytania lub uwagi? Jesteśmy tutaj, aby pomóc:
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---

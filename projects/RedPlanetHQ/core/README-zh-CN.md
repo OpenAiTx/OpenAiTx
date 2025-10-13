@@ -41,43 +41,43 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>文档</b></a> •
-    <a href="https://discord.gg/YGUZcvDjUa"><b>Discord 交流群</b></a>
+    <a href="https://docs.heysol.ai/introduction"><b>文档</b></a> •
+    <a href="https://discord.gg/YGUZcvDjUa"><b>Discord 频道</b></a>
 </p>
 </div>
 
 ## 🔥 研究亮点
 
-CORE 内存在 Locomo 数据集的所有推理任务上实现了 **88.24%** 的平均准确率，显著优于其他内存提供者。更多信息请查阅这篇 [博客](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/)。
+CORE memory 在 Locomo 数据集所有推理任务中平均准确率达到 **88.24%**，显著超越其他记忆提供者。更多信息请查看这篇[博客](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/)。
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) 单跳问题仅需基于单个会话作答；(2) 多跳问题需从多个不同会话中综合信息；(3) 开放域知识问题可通过整合说话者提供的信息与常识或世界事实等外部知识进行回答；(4) 时序推理问题需通过时序推理和捕捉对话中的时间相关数据线索来回答；
+(1) 单跳问题需要基于单一会话回答；(2) 多跳问题需要整合多个不同会话的信息；(3) 开放领域知识问题可以通过结合说话者提供的信息和外部常识或世界事实来回答；(4) 时序推理问题可通过时序推理及捕捉对话中的时间相关数据线索来解答；
 
 ## 概述
 
 **问题**
 
-开发者需要反复向 AI 工具解释上下文，浪费大量时间。Claude 的 token 达到上限？只能重新开始并失去所有内容。从 ChatGPT/Claude 切换到 Cursor？又要重新解释你的背景。你的对话、决策和洞察在不同会话间消失。每换一个新的 AI 工具，切换上下文的成本就更高。
+开发者浪费时间向 AI 工具重复解释上下文。在 Claude 中遇到 Token 限制？重头开始，所有内容丢失。从 ChatGPT/Claude 切换到 Cursor？需要再次解释你的上下文。你的对话、决策和洞察在会话间消失。每换一个 AI 工具，上下文切换的成本就增加。
 
-**解决方案** - **CORE**（**Contextual Observation & Recall Engine**，上下文观察与回忆引擎）
+**解决方案** - **CORE**（**上下文观察与回忆引擎**）
 
-CORE 是一个开源的统一持久内存层，适用于所有 AI 工具。你的上下文可以在 Cursor、Claude、ChatGPT、Claude Code 间无缝跟随。一个知识图谱记录了谁说了什么、何时说的、为什么说。只需连接一次，处处记得，无需再管理上下文，专注于构建内容。
+CORE 是一个开源的统一、持久化记忆层，适用于你所有的 AI 工具。你的上下文从 Cursor 到 Claude，再到 ChatGPT 与 Claude Code，都能随你而来。一个知识图谱记录了谁说了什么、何时说的、为何说的。一次连接，处处记忆。无需再管理上下文，专注于创造。
 
-## 🚀 快速上手
-**5 分钟构建你的统一内存图谱：**
+## 🚀 快速开始
+**5 分钟构建你的统一记忆图谱：**
 
-1. 在 [core.heysol.ai](https://core.heysol.ai) **注册**并创建账户
-2. **添加你的第一条记忆**——分享你的个人上下文
+1. 在 [core.heysol.ai](https://core.heysol.ai) **注册**并创建你的账户
+2. **添加第一条记忆**——分享关于你自己的上下文
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
 3. **可视化你的记忆图谱**，查看 CORE 如何自动连接事实之间的关系
-5. **试用**——在会话区输入“你了解我什么？”进行体验
+5. **试用一下**——在会话区问：“你知道我什么？”
 6. 连接你的工具：
-   - [Claude](https://docs.heysol.ai/providers/claude) 与 [Cursor](https://docs.heysol.ai/providers/cursor)——带上下文编程
-   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) 与 [Gemini CLI](https://docs.heysol.ai/providers/claude-code)——基于终端的带记忆编程
-   - [添加浏览器扩展](https://docs.heysol.ai/providers/browser-extension)——让你的记忆随时在任意网站可用
+   - [Claude](https://docs.heysol.ai/providers/claude) 和 [Cursor](https://docs.heysol.ai/providers/cursor)——带上下文的编程
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) 和 [Codex CLI](https://docs.heysol.ai/providers/codex)——基于终端的记忆编程
+   - [添加浏览器扩展](https://docs.heysol.ai/providers/browser-extension)——让你的记忆随时进入任意网站
    - [Linear](https://docs.heysol.ai/integrations/linear)，[Github](https://docs.heysol.ai/integrations/github) - 自动添加项目上下文
 
 ## 🧩 主要功能
@@ -158,46 +158,48 @@ CORE 的摄取流程分为四个阶段，旨在捕获不断变化的上下文：
 1. **搜索**：CORE 会同时从多个角度查找记忆——关键词搜索用于精确匹配，语义搜索用于发现表述不同但相关的想法，以及图遍历以追踪关联概念之间的链接。
 2. **重排序**：检索到的结果会被重新排序，突出最相关和最多样化的内容，确保你不仅看到明显匹配，还能发现更深层的联系。
 3. **过滤**：CORE 根据时间、可靠性和关系强度应用智能过滤，只让最有意义的知识呈现出来。
-4. **输出**：你将获得事实（明确陈述）和情节（它们的原始上下文），因此回忆始终有上下文、时间和故事作为基础。
+4. **输出**：你将获得事实（明确的陈述）和片段（它们来自的原始上下文），因此回忆始终基于上下文、时间和故事。
 
-结果：CORE不仅仅回忆事实——它还能在正确的上下文、时间和故事中回忆事实，使代理能够以你记忆的方式做出回应。
+结果：CORE不仅仅回忆事实——它还能在正确的上下文、时间和故事中回忆它们，这样代理就能以你记忆的方式做出响应。
 
 ## 文档
 
-查阅我们的文档，充分利用CORE
+浏览我们的文档，以充分利用CORE
 
 - [基本概念](https://docs.heysol.ai/concepts/memory_graph)
 - [自托管](https://docs.heysol.ai/self-hosting/overview)
 - [将Core MCP连接到Claude](https://docs.heysol.ai/providers/claude)
 - [将Core MCP连接到Cursor](https://docs.heysol.ai/providers/cursor)
+- [将Core MCP连接到Claude Code](https://docs.heysol.ai/providers/claude-code)
+- [将Core MCP连接到Codex](https://docs.heysol.ai/providers/codex)
 
 - [基本概念](https://docs.heysol.ai/overview)
-- [API参考](https://docs.heysol.ai/local-setup)
+- [API参考](https://docs.heysol.ai/api-reference/get-user-profile)
 
-## 🔒 安全性
+## 🔒 安全
 
-CORE高度重视安全。我们采用行业标准的安全措施保护您的数据：
+CORE高度重视安全。我们采用行业标准的安全措施来保护您的数据：
 
 - **数据加密**：所有传输中的数据（TLS 1.3）和静态数据（AES-256）
-- **身份认证**：OAuth 2.0和魔法链接认证
+- **身份验证**：OAuth 2.0和魔法链接认证
 - **访问控制**：基于工作区的隔离和基于角色的权限
 - **漏洞报告**：请将安全问题报告至 harshith@tegon.ai
 
-有关详细的安全信息，请参阅我们的[安全政策](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)。
+详细安全信息请查阅我们的[安全政策](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)。
 
 ## 🧑‍💻 支持
 
-有问题或反馈？我们随时为您服务：
+有疑问或反馈？我们随时为您提供帮助：
 
-- Discord：[加入core-support频道](https://discord.gg/YGUZcvDjUa)
-- 文档：[docs.heysol.ai](https://docs.heysol.ai)
-- 邮箱：manik@poozle.dev
+- Discord: [加入core-support频道](https://discord.gg/YGUZcvDjUa)
+- 文档: [docs.heysol.ai](https://docs.heysol.ai)
+- 邮箱: manik@poozle.dev
 
 ## 使用指南
 
 **存储：**
 
-- 对话历史
+- 会话历史
 - 用户偏好
 - 任务上下文
 - 参考资料
@@ -205,7 +207,7 @@ CORE高度重视安全。我们采用行业标准的安全措施保护您的数�
 **请勿存储：**
 
 - 敏感数据（个人身份信息）
-- 证书
+- 认证信息
 - 系统日志
 - 临时数据
 
@@ -222,8 +224,11 @@ CORE高度重视安全。我们采用行业标准的安全措施保护您的数�
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---

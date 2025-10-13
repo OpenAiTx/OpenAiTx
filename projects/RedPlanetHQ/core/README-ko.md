@@ -41,43 +41,43 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>문서</b></a> •
+    <a href="https://docs.heysol.ai/introduction"><b>문서</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>디스코드</b></a>
 </p>
 </div>
 
 ## 🔥 연구 하이라이트
 
-CORE 메모리는 Locomo 데이터셋의 모든 추론 작업에서 평균 **88.24%** 정확도를 달성하며, 다른 메모리 제공자들보다 현저히 우수한 성능을 보입니다. 자세한 내용은 이 [블로그](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/)를 참고하세요.
+CORE 메모리는 Locomo 데이터셋의 모든 추론 작업에서 **88.24%**의 평균 정확도를 달성하여 다른 메모리 제공자보다 현저히 뛰어납니다. 자세한 내용은 이 [블로그](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/)를 참고하세요.
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) 싱글 홉 질문은 한 세션의 정보만으로 답변해야 합니다; (2) 멀티 홉 질문은 서로 다른 여러 세션에서 정보를 종합해야 합니다; (3) 오픈 도메인 지식 질문은 화자가 제공한 정보와 상식이나 세계 사실과 같은 외부 지식을 결합하여 답변할 수 있습니다; (4) 시간적 추론 질문은 대화 내 시간 관련 데이터 단서를 포착하여 시간 추론을 통해 답변할 수 있습니다;
+(1) 싱글 홉 질문은 단일 세션에 기반한 답변을 필요로 합니다; (2) 멀티 홉 질문은 여러 다양한 세션의 정보를 종합해야 답변할 수 있습니다; (3) 오픈 도메인 지식 질문은 화자가 제공한 정보와 상식 또는 세계 사실 등 외부 지식을 통합하여 답변할 수 있습니다; (4) 시간적 추론 질문은 대화 내의 시간 관련 데이터 신호를 포착하여 시간적 추론을 통해 답변할 수 있습니다;
 
 ## 개요
 
 **문제점** 
 
-개발자들은 AI 도구에 맥락을 반복해서 설명하는 데 시간을 낭비합니다. Claude에서 토큰 한도에 도달하면 모든 것을 잃고 새로 시작해야 합니다. ChatGPT/Claude에서 Cursor로 전환하면 맥락을 다시 설명해야 합니다. 당신의 대화, 결정, 인사이트가 세션 사이에서 사라집니다. 새로운 AI 도구마다 맥락 전환의 비용이 커집니다.
+개발자들은 AI 도구에 맥락을 반복해서 설명하는 데 시간을 낭비합니다. Claude에서 토큰 한도에 도달하면 모든 것을 잃고 새로 시작해야 합니다. ChatGPT/Claude에서 Cursor로 바꿀 때도 다시 맥락을 설명해야 합니다. 여러분의 대화, 결정, 인사이트가 세션 사이에서 사라집니다. 새로운 AI 도구가 나올 때마다 맥락 전환 비용은 커집니다.
 
 **해결책** - **CORE** (**Contextual Observation & Recall Engine**)
 
-CORE는 모든 AI 도구에 사용할 수 있는 오픈소스 통합 영속적 메모리 레이어입니다. Cursor에서 Claude, ChatGPT, Claude Code로 이동해도 당신의 맥락이 따라갑니다. 하나의 지식 그래프가 누가, 언제, 무엇을, 왜 말했는지 기억합니다. 한 번 연결하면 어디서든 기억합니다. 맥락을 관리하는 대신, 바로 구축을 시작하세요.
+CORE는 모든 AI 도구를 위한 오픈소스 통합 영구 메모리 레이어입니다. 여러분의 맥락이 Cursor, Claude, ChatGPT, Claude Code 어디에서든 따라갑니다. 하나의 지식 그래프가 누가, 언제, 무엇을, 왜 말했는지 기억합니다. 한 번 연결하면 어디서든 기억합니다. 맥락을 관리하는 대신 구축을 시작하세요.
 
 ## 🚀 시작하기
-**5분 만에 통합 메모리 그래프를 구축하세요:**
+**5분 만에 통합 메모리 그래프 구축하기:**
 
 1. [core.heysol.ai](https://core.heysol.ai)에서 **회원가입** 후 계정 생성
-2. **첫 메모리 추가** - 자신에 대한 맥락을 공유하세요
+2. **첫 번째 메모리 추가** - 나에 대한 맥락을 공유하세요
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
-3. **메모리 그래프 시각화** - CORE가 사실 간 연결을 자동으로 형성하는 것을 확인
-5. **테스트하기** - conversatio 섹션에서 "나에 대해 무엇을 알고 있나요?"라고 물어보세요
-6. 도구에 연결:
-   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - 맥락을 포함한 코딩
-   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Gemini CLI](https://docs.heysol.ai/providers/claude-code) - 터미널 기반 메모리 코딩
-   - [브라우저 확장 프로그램 추가](https://docs.heysol.ai/providers/browser-extension) - 모든 웹사이트에서 당신의 메모리를 사용하세요
+3. **메모리 그래프 시각화** 및 CORE가 자동으로 사실 간의 연결을 형성하는 과정을 확인하세요
+5. **테스트하기** - 대화 섹션에서 "나에 대해 무엇을 알고 있나요?"라고 질문해보세요
+6. 도구에 연결하기:
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - 맥락과 함께 코딩
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) - 터미널 기반 메모리 코딩
+   - [브라우저 확장 프로그램 추가](https://docs.heysol.ai/providers/browser-extension) - 모든 웹사이트에서 메모리 활용
    - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) - 프로젝트 컨텍스트를 자동으로 추가
 
 ## 🧩 주요 기능
@@ -158,54 +158,56 @@ CORE에 질문하면 단순히 텍스트를 조회하는 것이 아니라 전체
 1. **검색**: CORE는 메모리를 여러 각도에서 동시에 탐색합니다. 정확한 키워드 검색, 다르게 표현된 관련 아이디어를 위한 의미 검색, 연결된 개념 사이의 링크를 따라가는 그래프 탐색을 수행합니다.
 2. **재정렬**: 검색된 결과는 가장 관련성 높고 다양한 항목이 강조되도록 재정렬되어, 단순한 일치뿐만 아니라 더 깊은 연결도 볼 수 있습니다.
 3. **필터링**: CORE는 시간, 신뢰성, 관계 강도를 기반으로 스마트 필터를 적용해 가장 의미 있는 지식만을 표면화합니다.
-4. **출력**: 명확한 사실(선명한 진술)과 에피소드(그 사실이 나온 원래 맥락)를 모두 반환하므로, 모든 기억은 항상 맥락, 시간, 이야기 속에 기반합니다.
+4. **출력**: 사실(명확한 진술)과 에피소드(그들이 나온 원래의 맥락) 모두를 반환하므로, 기억은 항상 맥락, 시간, 이야기와 함께 유지됩니다.
 
-결과: CORE는 단순히 사실만을 기억하는 것이 아니라, 올바른 맥락, 시간, 이야기 속에서 기억하므로, 에이전트가 여러분이 기억하는 방식으로 응답할 수 있습니다.
+결과: CORE는 단순히 사실만 기억하는 것이 아니라, 올바른 맥락, 시간, 이야기와 함께 기억하여 에이전트가 사용자가 기억하는 방식으로 응답할 수 있게 합니다.
 
 ## 문서
 
-CORE를 최대한 활용하기 위해 문서를 탐색하세요
+CORE를 최대한 활용하려면 아래 문서를 참고하세요.
 
 - [기본 개념](https://docs.heysol.ai/concepts/memory_graph)
 - [셀프 호스팅](https://docs.heysol.ai/self-hosting/overview)
 - [Core MCP와 Claude 연결](https://docs.heysol.ai/providers/claude)
 - [Core MCP와 Cursor 연결](https://docs.heysol.ai/providers/cursor)
+- [Core MCP와 Claude Code 연결](https://docs.heysol.ai/providers/claude-code)
+- [Core MCP와 Codex 연결](https://docs.heysol.ai/providers/codex)
 
 - [기본 개념](https://docs.heysol.ai/overview)
-- [API 참조](https://docs.heysol.ai/local-setup)
+- [API 참고](https://docs.heysol.ai/api-reference/get-user-profile)
 
 ## 🔒 보안
 
-CORE는 보안을 매우 중요하게 생각합니다. 데이터 보호를 위해 업계 표준의 보안 관행을 구현합니다:
+CORE는 보안을 매우 중요하게 생각합니다. 데이터 보호를 위해 업계 표준 보안 방식을 적용합니다:
 
-- **데이터 암호화**: 모든 전송 중 데이터(TLS 1.3) 및 저장 데이터(AES-256)
+- **데이터 암호화**: 전송 중(TLS 1.3) 및 저장 시(AES-256) 모든 데이터 암호화
 - **인증**: OAuth 2.0 및 매직 링크 인증
-- **접근 제어**: 워크스페이스 기반 격리 및 역할 기반 권한
+- **접근 제어**: 워크스페이스 기반 격리 및 역할 기반 권한 부여
 - **취약점 신고**: 보안 문제는 harshith@tegon.ai로 신고해 주세요
 
-자세한 보안 정보는 [보안 정책](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)을 참조하세요.
+자세한 보안 정보는 [보안 정책](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)을 참고하세요.
 
 ## 🧑‍💻 지원
 
-질문이나 피드백이 있으신가요? 저희가 도와드리겠습니다:
+질문이나 피드백이 있으신가요? 언제든지 도와드리겠습니다:
 
 - Discord: [core-support 채널 참여](https://discord.gg/YGUZcvDjUa)
 - 문서: [docs.heysol.ai](https://docs.heysol.ai)
 - 이메일: manik@poozle.dev
 
-## 사용 지침
+## 사용 가이드라인
 
 **저장:**
 
 - 대화 기록
-- 사용자 환경설정
+- 사용자 선호도
 - 작업 컨텍스트
 - 참고 자료
 
-**저장하지 마세요:**
+**저장하지 않음:**
 
 - 민감한 데이터(PII)
-- 자격 증명
+- 인증 정보
 - 시스템 로그
 - 임시 데이터
 
@@ -222,8 +224,11 @@ CORE는 보안을 매우 중요하게 생각합니다. 데이터 보호를 위�
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---

@@ -41,43 +41,43 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>Dokumentation</b></a> •
+    <a href="https://docs.heysol.ai/introduction"><b>Dokumentation</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
 ## 🔥 Forschungshighlights
 
-CORE Memory erreicht **88,24 %** durchschnittliche Genauigkeit im Locomo-Datensatz über alle Reasoning-Aufgaben und übertrifft damit andere Memory-Anbieter deutlich. Weitere Informationen findest du in diesem [Blog](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/).
+CORE Memory erreicht **88,24 %** durchschnittliche Genauigkeit im Locomo-Datensatz über alle Reasoning-Aufgaben und übertrifft damit andere Memory-Anbieter deutlich. Weitere Informationen finden Sie in diesem [Blog](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/).
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) Single-Hop-Fragen erfordern Antworten basierend auf einer einzelnen Sitzung; (2) Multi-Hop-Fragen erfordern die Synthese von Informationen aus mehreren verschiedenen Sitzungen; (3) Fragen zu offenem Wissen können beantwortet werden, indem die vom Sprecher bereitgestellten Informationen mit externem Wissen wie Alltagswissen oder Weltfakten kombiniert werden; (4) Zeitliche Reasoning-Fragen können durch zeitliches Schließen und Erfassen zeitbezogener Datenhinweise innerhalb des Gesprächs beantwortet werden;
+(1) Single-hop-Fragen erfordern Antworten basierend auf einer einzelnen Sitzung; (2) Multi-hop-Fragen erfordern die Synthese von Informationen aus mehreren verschiedenen Sitzungen; (3) Open-Domain-Wissensfragen können durch die Integration von Informationen des Sprechers mit externem Wissen wie Alltagswissen oder Weltfakten beantwortet werden; (4) Zeitliche Reasoning-Fragen können durch zeitliches Schlussfolgern und Erfassung zeitbezogener Datenhinweise im Gespräch beantwortet werden;
 
-## Überblick
+## Übersicht
 
 **Problem** 
 
-Entwickler verschwenden Zeit damit, KI-Tools den Kontext erneut zu erklären. Token-Limit bei Claude erreicht? Neu anfangen und alles verlieren. Von ChatGPT/Claude zu Cursor wechseln? Kontext erneut erklären. Deine Gespräche, Entscheidungen und Erkenntnisse verschwinden zwischen den Sitzungen. Mit jedem neuen KI-Tool steigen die Kosten für Kontextwechsel.
+Entwickler verschwenden Zeit, indem sie Kontext für KI-Tools erneut erklären müssen. Token-Limits bei Claude erreicht? Von vorne beginnen und alles verlieren. Wechsel von ChatGPT/Claude zu Cursor? Kontext erneut erklären. Ihre Gespräche, Entscheidungen und Erkenntnisse verschwinden zwischen den Sitzungen. Mit jedem neuen KI-Tool steigen die Kosten des Kontextwechsels.
 
 **Lösung** - **CORE** (**Contextual Observation & Recall Engine**)
 
-CORE ist eine Open-Source, einheitliche, persistente Memory-Schicht für alle deine KI-Tools. Dein Kontext folgt dir von Cursor zu Claude zu ChatGPT zu Claude Code. Ein Wissensgraph merkt sich, wer was, wann und warum gesagt hat. Einmal verbinden, überall erinnern. Höre auf, Kontext zu verwalten, und fange an, zu entwickeln.
+CORE ist eine Open-Source, einheitliche und persistente Speicherschicht für all Ihre KI-Tools. Ihr Kontext folgt Ihnen von Cursor zu Claude zu ChatGPT zu Claude Code. Ein Wissensgraph merkt sich, wer was, wann und warum gesagt hat. Einmal verbinden, überall erinnern. Hören Sie auf, Kontext zu verwalten, und beginnen Sie zu bauen.
 
 ## 🚀 Loslegen
-**Erstelle deinen einheitlichen Memory-Graphen in 5 Minuten:**
+**Erstellen Sie Ihren einheitlichen Memory-Graph in 5 Minuten:**
 
-1. **Registriere dich** unter [core.heysol.ai](https://core.heysol.ai) und erstelle deinen Account
-2. **Füge deine erste Erinnerung hinzu** – teile Kontext über dich selbst
+1. **Registrieren Sie sich** bei [core.heysol.ai](https://core.heysol.ai) und erstellen Sie Ihr Konto
+2. **Fügen Sie Ihre erste Erinnerung hinzu** – teilen Sie Kontext über sich selbst
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
-3. **Visualisiere deinen Memory-Graphen** und sieh, wie CORE automatisch Verbindungen zwischen Fakten herstellt
-5. **Teste es aus** – frage im Konversationsbereich "Was weißt du über mich?"
-6. Verbinde deine Tools:
-   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) – Coden mit Kontext
-   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Gemini CLI](https://docs.heysol.ai/providers/claude-code) – Terminal-basiertes Coden mit Memory
-   - [Browser-Erweiterung hinzufügen](https://docs.heysol.ai/providers/browser-extension) – bringe dein Memory auf jede Webseite
+3. **Visualisieren Sie Ihren Memory-Graph** und sehen Sie, wie CORE automatisch Verbindungen zwischen Fakten herstellt
+5. **Testen Sie es** – fragen Sie im Gesprächsbereich: "Was weißt du über mich?"
+6. Verbinden Sie Ihre Tools:
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) – Programmieren mit Kontext
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) – Terminal-basiertes Programmieren mit Memory
+   - [Browser-Erweiterung hinzufügen](https://docs.heysol.ai/providers/browser-extension) – bringen Sie Ihr Memory auf jede Website
    - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) – Projektkontext automatisch hinzufügen
 
 ## 🧩 Hauptfunktionen
@@ -160,36 +160,38 @@ Wenn du CORE eine Frage stellst, sucht es nicht nur nach Text – es durchforste
 3. **Filterung**: CORE wendet intelligente Filter basierend auf Zeit, Zuverlässigkeit und Beziehungsstärke an, sodass nur das bedeutungsvollste Wissen angezeigt wird.
 4. **Ausgabe**: Sie erhalten sowohl Fakten (klare Aussagen) als auch Episoden (den ursprünglichen Kontext, aus dem sie stammen), sodass Erinnerungen immer im Kontext, in der Zeit und in der Geschichte verankert sind.
 
-Das Ergebnis: CORE ruft nicht nur Fakten ab – es erinnert sie im richtigen Kontext, zur richtigen Zeit und in der passenden Geschichte, sodass Agenten so reagieren können, wie Sie sich erinnern würden.
+Das Ergebnis: CORE erinnert sich nicht nur an Fakten – es erinnert sich an sie im richtigen Kontext, zur richtigen Zeit und in der richtigen Geschichte, sodass Agenten so reagieren können, wie Sie sich erinnern würden.
 
 ## Dokumentation
 
-Entdecken Sie unsere Dokumentation, um CORE optimal zu nutzen
+Entdecken Sie unsere Dokumentation, um das Beste aus CORE herauszuholen
 
-- [Grundlegende Konzepte](https://docs.heysol.ai/concepts/memory_graph)
+- [Grundlagen](https://docs.heysol.ai/concepts/memory_graph)
 - [Self Hosting](https://docs.heysol.ai/self-hosting/overview)
 - [Core MCP mit Claude verbinden](https://docs.heysol.ai/providers/claude)
 - [Core MCP mit Cursor verbinden](https://docs.heysol.ai/providers/cursor)
+- [Core MCP mit Claude Code verbinden](https://docs.heysol.ai/providers/claude-code)
+- [Core MCP mit Codex verbinden](https://docs.heysol.ai/providers/codex)
 
-- [Grundlegende Konzepte](https://docs.heysol.ai/overview)
-- [API Referenz](https://docs.heysol.ai/local-setup)
+- [Grundlagen](https://docs.heysol.ai/overview)
+- [API Referenz](https://docs.heysol.ai/api-reference/get-user-profile)
 
 ## 🔒 Sicherheit
 
 CORE nimmt Sicherheit ernst. Wir implementieren branchenübliche Sicherheitsmaßnahmen zum Schutz Ihrer Daten:
 
-- **Datenverschlüsselung**: Alle Daten während der Übertragung (TLS 1.3) und im Ruhezustand (AES-256)
+- **Datenverschlüsselung**: Alle Daten im Transit (TLS 1.3) und im Ruhezustand (AES-256)
 - **Authentifizierung**: OAuth 2.0 und Magic-Link-Authentifizierung
-- **Zugriffssteuerung**: Arbeitsbereich-basierte Isolation und rollenbasierte Berechtigungen
-- **Schwachstellenmeldung**: Bitte melden Sie Sicherheitsprobleme an harshith@tegon.ai
+- **Zugriffskontrolle**: Arbeitsbereich-basierte Isolierung und rollenbasierte Berechtigungen
+- **Schwachstellen melden**: Bitte melden Sie Sicherheitsprobleme an harshith@tegon.ai
 
-Detaillierte Sicherheitsinformationen finden Sie in unserer [Sicherheitsrichtlinie](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
+Für detaillierte Sicherheitsinformationen siehe unsere [Sicherheitsrichtlinie](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
 
 ## 🧑‍💻 Support
 
 Haben Sie Fragen oder Feedback? Wir helfen Ihnen gerne weiter:
 
-- Discord: [Treten Sie dem core-support-Kanal bei](https://discord.gg/YGUZcvDjUa)
+- Discord: [core-support Kanal beitreten](https://discord.gg/YGUZcvDjUa)
 - Dokumentation: [docs.heysol.ai](https://docs.heysol.ai)
 - E-Mail: manik@poozle.dev
 
@@ -222,8 +224,11 @@ Haben Sie Fragen oder Feedback? Wir helfen Ihnen gerne weiter:
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---

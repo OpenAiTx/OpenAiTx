@@ -41,43 +41,43 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>ドキュメント</b></a> ・
+    <a href="https://docs.heysol.ai/introduction"><b>ドキュメント</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
 ## 🔥 研究ハイライト
 
-COREメモリはLocomoデータセット全体の推論タスクで**88.24%**の平均正答率を達成し、他のメモリプロバイダーを大きく上回ります。詳細はこの[ブログ](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/)をご覧ください。
+COREメモリは、Locomoデータセットのすべての推論タスクにおいて平均正答率**88.24%**を達成し、他のメモリプロバイダーを大きく上回りました。詳細はこの[ブログ](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/)をご覧ください。
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) シングルホップ質問は1つのセッションの情報に基づいて回答する必要があります。(2) マルチホップ質問は複数の異なるセッションから情報を統合する必要があります。(3) オープンドメイン知識質問は、話者の情報と外部知識（常識や世界の事実など）を統合して回答できます。(4) 時間推論質問は、会話内の時間的なデータ手がかりを捉えて時間推論することで回答できます。
+(1) シングルホップ質問は1回のセッションに基づいて回答します。(2) マルチホップ質問は複数の異なるセッションから情報を統合して回答します。(3) オープンドメイン知識質問は、話者が提供した情報と常識や世界の事実など外部知識を組み合わせて回答できます。(4) 時間推論質問は、会話内の時間関連データ手がかりを捉えて時間推論を行うことで回答できます。
 
 ## 概要
 
-**課題** 
+**課題**
 
-開発者はAIツールに何度も文脈を説明するのに時間を浪費します。Claudeでトークン制限に達すると、すべてを失い最初からやり直し。ChatGPT/ClaudeからCursorに切り替えると、また文脈を説明し直し。会話、決定、洞察はセッション間で消えてしまいます。新しいAIツールを使うたびに、文脈の切り替えコストが増加します。
+開発者はAIツールに何度もコンテキストを説明し直すため、時間を浪費しています。Claudeでトークン制限に達すると、すべてを失って最初からやり直すことになります。ChatGPTやClaudeからCursorに切り替えると、またコンテキストを説明し直さなければなりません。会話、決定、洞察はセッション間で消えてしまいます。新しいAIツールを使うたびに、コンテキスト切り替えのコストが増大します。
 
 **解決策** - **CORE**（**Contextual Observation & Recall Engine**）
 
-COREは、すべてのAIツールのためのオープンソース統合・永続的メモリレイヤーです。あなたの文脈はCursorからClaude、ChatGPT、Claude Codeへと引き継がれます。ひとつのナレッジグラフが「誰が」「いつ」「何を」「なぜ」言ったかを記憶します。一度接続すれば、どこでも覚えてくれます。文脈管理から解放され、開発に集中できます。
+COREは、すべてのAIツール向けのオープンソース統合型・永続的メモリレイヤーです。あなたのコンテキストはCursorからClaude、ChatGPT、Claude Codeへと引き継がれます。1つの知識グラフが「誰が、いつ、何を、なぜ言ったか」を記憶します。一度接続すれば、どこでも記憶します。コンテキストの管理をやめて、構築を始めましょう。
 
-## 🚀 はじめよう
-**5分で統合メモリグラフを構築：**
+## 🚀 はじめ方
+**5分で統合メモリグラフを構築できます：**
 
-1. [core.heysol.ai](https://core.heysol.ai)で**サインアップ**し、アカウントを作成
-2. **最初のメモリを追加** - 自分の文脈を共有しましょう
+1. [core.heysol.ai](https://core.heysol.ai)で**サインアップ**し、アカウントを作成します
+2. **最初のメモリを追加** - 自分についてのコンテキストを共有しましょう
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
-3. **メモリグラフを可視化**し、COREが自動的に事実間の接続を形成する様子を確認
-5. **試してみる** - 会話セクションで「私について何を知っていますか？」と質問
-6. ツールと接続：
-   - [Claude](https://docs.heysol.ai/providers/claude)と[Cursor](https://docs.heysol.ai/providers/cursor) - 文脈付きコーディング
-   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) と [Gemini CLI](https://docs.heysol.ai/providers/claude-code) - メモリ付きターミナルコーディング
-   - [ブラウザ拡張を追加](https://docs.heysol.ai/providers/browser-extension) - あなたのメモリをあらゆるウェブサイトで活用
+3. **メモリグラフを可視化**し、COREが事実間の接続を自動形成する様子を確認します
+5. **試してみる** - 会話セクションで「私について何を知っていますか？」と聞いてみましょう
+6. ツールに接続する：
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - コンテキスト付きコーディング
+   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) - メモリ付きターミナルコーディング
+   - [ブラウザ拡張機能追加](https://docs.heysol.ai/providers/browser-extension) - メモリをあらゆるウェブサイトに持ち込む
    - [Linear](https://docs.heysol.ai/integrations/linear)、[Github](https://docs.heysol.ai/integrations/github) - プロジェクトのコンテキストを自動で追加
 
 ## 🧩 主な特徴
@@ -158,9 +158,9 @@ COREに質問すると、単にテキストを検索するのではなく、知�
 1. **検索**: COREは複数の角度から同時に記憶を検索します ― キーワード検索で正確な一致を、意味検索で言い回しが違っても関連するアイデアを、グラフ探索でつながった概念間のリンクを追跡します。
 2. **再ランク**: 取得された結果は、最も関連性が高く多様なものを強調するように並べ替えられ、単純な一致だけでなく深い関連も見逃しません。
 3. **フィルタリング**: COREは時間・信頼性・関係強度に基づいたスマートなフィルタを適用し、最も意味のある知識だけが表面化します。
-4. **出力**: あなたは事実（明確な記述）とエピソード（それらが得られた元の文脈）の両方を取得します。そのため、想起は常に文脈、時間、ストーリーに基づいています。
+4. **出力**: あなたは事実（明確な記述）とエピソード（それが元々あったコンテキストの情報）の両方を受け取ります。したがって、リコールは常にコンテキスト、時間、ストーリーに根ざしています。
 
-結果: COREは単に事実を想起するだけではなく、それらを正しい文脈、時間、ストーリーで想起するため、エージェントはあなたが覚えているように応答できます。
+結果：COREは単に事実を呼び出すだけでなく、それを正しいコンテキスト、時間、ストーリーで呼び出すため、エージェントはあなたが覚えている方法で応答できます。
 
 ## ドキュメント
 
@@ -170,30 +170,32 @@ COREを最大限に活用するためにドキュメントをご覧ください
 - [セルフホスティング](https://docs.heysol.ai/self-hosting/overview)
 - [Core MCPとClaudeの接続](https://docs.heysol.ai/providers/claude)
 - [Core MCPとCursorの接続](https://docs.heysol.ai/providers/cursor)
+- [Core MCPとClaude Codeの接続](https://docs.heysol.ai/providers/claude-code)
+- [Core MCPとCodexの接続](https://docs.heysol.ai/providers/codex)
 
 - [基本概念](https://docs.heysol.ai/overview)
-- [APIリファレンス](https://docs.heysol.ai/local-setup)
+- [APIリファレンス](https://docs.heysol.ai/api-reference/get-user-profile)
 
 ## 🔒 セキュリティ
 
-COREはセキュリティを重視しています。お客様のデータを保護するために業界標準のセキュリティ対策を実装しています:
+COREはセキュリティを重視しています。業界標準のセキュリティ対策を実施し、あなたのデータを保護します：
 
-- **データ暗号化**: 転送中（TLS 1.3）および保存時（AES-256）のすべてのデータ
+- **データ暗号化**: すべての転送中データ（TLS 1.3）および保存データ（AES-256）
 - **認証**: OAuth 2.0およびマジックリンク認証
 - **アクセス制御**: ワークスペースベースの分離とロールベースの権限
-- **脆弱性報告**: セキュリティ問題はharshith@tegon.aiまでご報告ください
+- **脆弱性報告**: セキュリティ問題は harshith@tegon.ai までご報告ください
 
-詳細なセキュリティ情報は、[セキュリティポリシー](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)をご覧ください。
+詳細なセキュリティ情報については、[セキュリティポリシー](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)をご覧ください。
 
 ## 🧑‍💻 サポート
 
-ご質問やフィードバックはございますか？私たちがサポートします:
+ご質問やご意見がありますか？私たちがサポートします：
 
 - Discord: [core-supportチャンネルに参加](https://discord.gg/YGUZcvDjUa)
 - ドキュメント: [docs.heysol.ai](https://docs.heysol.ai)
 - メール: manik@poozle.dev
 
-## 使用ガイドライン
+## 利用ガイドライン
 
 **保存:**
 
@@ -202,10 +204,10 @@ COREはセキュリティを重視しています。お客様のデータを保�
 - タスクのコンテキスト
 - 参考資料
 
-**保存しないでください:**
+**保存しないもの:**
 
-- 機密データ（個人識別情報）
-- 資格情報
+- 機微なデータ（PII）
+- 認証情報
 - システムログ
 - 一時データ
 
@@ -222,8 +224,11 @@ COREはセキュリティを重視しています。お客様のデータを保�
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---

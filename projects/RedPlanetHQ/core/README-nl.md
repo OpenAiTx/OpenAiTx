@@ -41,43 +41,43 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/core/overview"><b>Documentatie</b></a> •
+    <a href="https://docs.heysol.ai/introduction"><b>Documentatie</b></a> •
     <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
 </p>
 </div>
 
-## 🔥 Onderzoek Hoogtepunten
+## 🔥 Onderzoekshoogtepunten
 
-CORE-geheugen behaalt **88,24%** gemiddelde nauwkeurigheid op de Locomo dataset bij alle redeneertaken, aanzienlijk beter dan andere geheugenproviders. Bekijk deze [blog](https://blog.heysol.ai/we-built-memory-for-individuals-and-achieved-sota-on-locomo-benchmark/) voor meer informatie.
+CORE-geheugen behaalt een gemiddelde nauwkeurigheid van **88,24%** op de Locomo-dataset over alle redeneertaken, en presteert daarmee aanzienlijk beter dan andere geheugenproviders. Bekijk deze [blog](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/) voor meer info.
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) Single-hop vragen vereisen antwoorden op basis van één sessie; (2) Multi-hop vragen vereisen het samenvoegen van informatie uit meerdere verschillende sessies; (3) Open domein kennisvragen kunnen beantwoord worden door informatie van de spreker te integreren met externe kennis zoals gezond verstand of wereldfeiten; (4) Temporele redeneervragen kunnen beantwoord worden via temporeel redeneren en het vastleggen van tijdgerelateerde datapunten in het gesprek;
+(1) Single-hop vragen vereisen antwoorden op basis van één sessie; (2) Multi-hop vragen vereisen het combineren van informatie uit meerdere verschillende sessies; (3) Open-domein kennisvragen kunnen worden beantwoord door informatie van de spreker te integreren met externe kennis zoals algemene feiten of wereldkennis; (4) Temporele redeneervragen kunnen worden opgelost door temporeel redeneren en het vastleggen van tijdsgerelateerde gegevens in het gesprek;
 
 ## Overzicht
 
-**Probleem**
+**Probleem** 
 
-Ontwikkelaars verspillen tijd aan het steeds opnieuw uitleggen van context aan AI-tools. Tokenlimiet bereikt in Claude? Opnieuw beginnen en alles kwijt. Wisselen van ChatGPT/Claude naar Cursor? Opnieuw je context uitleggen. Je gesprekken, beslissingen en inzichten verdwijnen tussen sessies. Met elke nieuwe AI-tool wordt de prijs van contextwissel groter.
+Ontwikkelaars verspillen tijd aan het opnieuw uitleggen van context aan AI-tools. Bots je tegen tokenlimieten in Claude? Begin je opnieuw en verlies je alles. Wissel je van ChatGPT/Claude naar Cursor? Leg je context weer uit. Je gesprekken, beslissingen en inzichten verdwijnen tussen sessies. Met elke nieuwe AI-tool nemen de kosten van contextwisseling toe.
 
 **Oplossing** - **CORE** (**Contextual Observation & Recall Engine**)
 
-CORE is een open-source, verenigde, persistente geheugenlaag voor al jouw AI-tools. Je context volgt je van Cursor naar Claude naar ChatGPT naar Claude Code. Eén kennisgrafiek onthoudt wie wat zei, wanneer en waarom. Eén keer verbinden, overal onthouden. Stop met context beheren en begin met bouwen.
+CORE is een open-source, uniforme en permanente geheugenslaag voor al je AI-tools. Jouw context volgt je van Cursor naar Claude naar ChatGPT naar Claude Code. Eén kennisgrafiek onthoudt wie wat, wanneer en waarom heeft gezegd. Eén keer verbinden, overal onthouden. Stop met context beheren en begin met bouwen.
 
 ## 🚀 Aan de slag
-**Bouw jouw uniforme geheugengrafiek in 5 minuten:**
+**Bouw je uniforme geheugengrafiek in 5 minuten:**
 
-1. **Meld je aan** op [core.heysol.ai](https://core.heysol.ai) en maak een account aan
+1. **Meld je aan** op [core.heysol.ai](https://core.heysol.ai) en maak je account aan
 2. **Voeg je eerste geheugen toe** - deel context over jezelf
 
     <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
 
 
 3. **Visualiseer je geheugengrafiek** en zie hoe CORE automatisch verbindingen legt tussen feiten
-5. **Probeer het uit** - vraag "Wat weet je over mij?" in het conversatiegedeelte
-6. Verbind met je tools:
+5. **Test het uit** - vraag "Wat weet je over mij?" in het conversatiedeel
+6. Koppel aan je tools:
    - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - coderen met context
-   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Gemini CLI](https://docs.heysol.ai/providers/claude-code) - terminal-gebaseerd coderen met geheugen
-   - [Voeg Browser Extensie toe](https://docs.heysol.ai/providers/browser-extension) - neem je geheugen mee naar elke website
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) - terminal-gebaseerd coderen met geheugen
+   - [Voeg Browserextensie toe](https://docs.heysol.ai/providers/browser-extension) - neem je geheugen mee naar elke website
    - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) - voeg automatisch projectcontext toe
 
 ## 🧩 Belangrijkste Functionaliteiten
@@ -158,38 +158,40 @@ Wanneer je CORE een vraag stelt, zoekt het niet alleen tekst op—het duikt in j
 1. **Zoeken**: CORE doorzoekt het geheugen vanuit meerdere invalshoeken tegelijk—trefwoordzoektocht voor exacte overeenkomsten, semantische zoekopdrachten voor gerelateerde ideeën (ook als ze anders zijn verwoord), en graftraversals om verbindingen tussen gekoppelde concepten te volgen.
 2. **Her-rangschikken**: De gevonden resultaten worden opnieuw gerangschikt om de meest relevante en diverse naar voren te halen, zodat je niet alleen voor de hand liggende matches ziet, maar ook diepere verbanden.
 3. **Filteren**: CORE past slimme filters toe op basis van tijd, betrouwbaarheid en sterkte van relaties, zodat alleen de meest betekenisvolle kennis naar boven komt.
-4. **Uitvoer**: Je krijgt zowel feiten (duidelijke uitspraken) als episodes (de oorspronkelijke context waaruit ze afkomstig zijn) terug, zodat herinneringen altijd zijn verankerd in context, tijd en verhaal.
+4. **Uitvoer**: Je krijgt zowel feiten (duidelijke uitspraken) als episodes (de oorspronkelijke context waaruit ze komen) terug, zodat herinnering altijd is verankerd in context, tijd en verhaal.
 
-Het resultaat: CORE herinnert zich niet alleen feiten - het herinnert zich ze in de juiste context, tijd en verhaal, zodat agenten kunnen reageren zoals jij je zou herinneren.
+Het resultaat: CORE herinnert zich niet alleen feiten - het herinnert ze in de juiste context, tijd en verhaal, zodat agenten kunnen reageren zoals jij je zou herinneren.
 
 ## Documentatie
 
-Ontdek onze documentatie om het meeste uit CORE te halen
+Bekijk onze documentatie om het meeste uit CORE te halen
 
 - [Basisconcepten](https://docs.heysol.ai/concepts/memory_graph)
-- [Zelf hosten](https://docs.heysol.ai/self-hosting/overview)
-- [Verbind Core MCP met Claude](https://docs.heysol.ai/providers/claude)
-- [Verbind Core MCP met Cursor](https://docs.heysol.ai/providers/cursor)
+- [Zelf Hostend](https://docs.heysol.ai/self-hosting/overview)
+- [Koppel Core MCP met Claude](https://docs.heysol.ai/providers/claude)
+- [Koppel Core MCP met Cursor](https://docs.heysol.ai/providers/cursor)
+- [Koppel Core MCP met Claude Code](https://docs.heysol.ai/providers/claude-code)
+- [Koppel Core MCP met Codex](https://docs.heysol.ai/providers/codex)
 
 - [Basisconcepten](https://docs.heysol.ai/overview)
-- [API Referentie](https://docs.heysol.ai/local-setup)
+- [API Referentie](https://docs.heysol.ai/api-reference/get-user-profile)
 
 ## 🔒 Beveiliging
 
-CORE neemt beveiliging serieus. We implementeren beveiligingspraktijken volgens de industrienormen om je gegevens te beschermen:
+CORE neemt beveiliging serieus. We hanteren industriestandaard beveiligingsmaatregelen om je gegevens te beschermen:
 
 - **Gegevensversleuteling**: Alle gegevens tijdens transport (TLS 1.3) en in rust (AES-256)
 - **Authenticatie**: OAuth 2.0 en magic link-authenticatie
-- **Toegangscontrole**: Werkruimte-gebaseerde isolatie en rolgebaseerde rechten
-- **Kwetsbaarheidsmelding**: Meld beveiligingsproblemen aan harshith@tegon.ai
+- **Toegangscontrole**: Workspace-gebaseerde isolatie en rolgebaseerde permissies
+- **Kwetsbaarheden melden**: Meld beveiligingsproblemen aan harshith@tegon.ai
 
 Voor gedetailleerde beveiligingsinformatie, zie ons [Beveiligingsbeleid](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
 
 ## 🧑‍💻 Ondersteuning
 
-Vragen of feedback? Wij helpen je graag:
+Vragen of feedback? Wij staan klaar om te helpen:
 
-- Discord: [Word lid van core-support kanaal](https://discord.gg/YGUZcvDjUa)
+- Discord: [Word lid van het core-support kanaal](https://discord.gg/YGUZcvDjUa)
 - Documentatie: [docs.heysol.ai](https://docs.heysol.ai)
 - E-mail: manik@poozle.dev
 
@@ -200,12 +202,12 @@ Vragen of feedback? Wij helpen je graag:
 - Gespreksgeschiedenis
 - Gebruikersvoorkeuren
 - Taakcontext
-- Referentiemateriaal
+- Referentiematerialen
 
 **Niet opslaan:**
 
 - Gevoelige gegevens (PII)
-- Referenties
+- Inloggegevens
 - Systeemlogboeken
 - Tijdelijke gegevens
 
@@ -222,8 +224,11 @@ Vragen of feedback? Wij helpen je graag:
 
 
 
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
 
 ---
