@@ -33,7 +33,7 @@
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### CORE: Unified Memory Layer for Claude, Cursor, ChatGPT & All AI Tools
+### CORE: Your Personal Memory Layer for AI Apps
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
@@ -63,18 +63,47 @@ Developers waste time re-explaining context to AI tools. Hit token limits in Cla
 
 CORE is an open-source unified, persistent memory layer for all your AI tools. Your context follows you from Cursor to Claude to ChatGPT to Claude Code. One knowledge graph remembers who said what, when, and why. Connect once, remember everywhere. Stop managing context and start building.
 
-## 🚀 Get Started
+## 🚀 CORE Self-Hosting
+Want to run CORE on your own infrastructure? Self-hosting gives you complete control over your data and deployment.
+
+**Prerequisites**:
+
+- Docker (20.10.0+) and Docker Compose (2.20.0+) installed
+- OpenAI API key
+
+> **Note on Open-Source Models:** We tested OSS options like Ollama and GPT models, but their fact extraction and graph quality fell short. We're actively looking for options.
+
+### Setup
+
+1. Clone the repository:
+```
+git clone https://github.com/RedPlanetHQ/core.git
+cd core
+```
+2. Configure environment variables in `core/.env`:
+```
+OPENAI_API_KEY=your_openai_api_key
+```
+3. Start the service
+```
+docker-compose up -d
+```
+
+Once deployed, you can configure your AI providers (OpenAI, Anthropic) and start building your memory graph.
+
+👉 [View complete self-hosting guide](https://docs.heysol.ai/self-hosting/docker)
+
+Note: We tried open-source models like Ollama or GPT OSS but facts generation were not good, we are still figuring out how to improve on that and then will also support OSS models.
+
+## 🚀 CORE Cloud
 **Build your unified memory graph in 5 minutes:**
 
+Don't want to manage infrastructure? CORE Cloud lets you build your personal memory system instantly - no setup, no servers, just memory that works.
+
 1. **Sign Up** at [core.heysol.ai](https://core.heysol.ai) and create your account
-2. **Add your first memory** - share context about yourself
-
-    <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
-
-
-3. **Visualize your memory graph** and see how CORE automatically forms connections between facts
-5. **Test it out** - ask "What do you know about me?" in conversatio section
-6. Connect to your tools:
+2. **Visualize your memory graph** and see how CORE automatically forms connections between facts
+3. **Test it out** - ask "What do you know about me?" in conversation section
+4. Connect to your tools:
    - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - coding with context
    - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) - terminal-based coding with memory
    - [Add Browser Extension](https://docs.heysol.ai/providers/browser-extension) - bring your memory to any website
@@ -183,7 +212,7 @@ CORE takes security seriously. We implement industry-standard security practices
 - **Data Encryption**: All data in transit (TLS 1.3) and at rest (AES-256)
 - **Authentication**: OAuth 2.0 and magic link authentication
 - **Access Control**: Workspace-based isolation and role-based permissions
-- **Vulnerability Reporting**: Please report security issues to harshith@tegon.ai
+- **Vulnerability Reporting**: Please report security issues to harshith@poozle.dev
 
 For detailed security information, see our [Security Policy](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
 
@@ -216,6 +245,10 @@ Have questions or feedback? We're here to help:
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
 </a>
+
+
+
+
 
 
 

@@ -1,0 +1,1130 @@
+[
+  {
+    "row": 1,
+    "rowsha": "GMwMMrmA8dvLPKa0NXAaeJV8A6hOim8DHx9P0Bp/+Vk=",
+    "originContent": "# DemoFile.Net ![NuGet](https://img.shields.io/nuget/v/DemoFile) ![Build status](https://github.com/saul/demofile-net/actions/workflows/dotnet.yml/badge.svg)",
+    "translatedContent": "# DemoFile.Net ![NuGet](https://img.shields.io/nuget/v/DemoFile) ![Build status](https://github.com/saul/demofile-net/actions/workflows/dotnet.yml/badge.svg)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "e55tFvK2VgXZIuWs9acTLc+lJ1B46nBxTPI1FLKHVbw=",
+    "originContent": "DemoFile.Net is a blazing fast demo parser library for Source 2 games, written in C#. It is cross-platform, and can be",
+    "translatedContent": "DemoFile.Net 是一个专为 Source 2 游戏设计的超高速演示解析库，使用 C# 编写。它是跨平台的，可以在 Windows、Mac 或 Linux 上使用。该解析器当前支持："
+  },
+  {
+    "row": 4,
+    "rowsha": "ewiNqhXpFoj1h7q0xNlJ4XxcBZomsuO+6rC4r6haC5w=",
+    "originContent": "used on Windows, Mac or Linux. This parser currently supports:",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 游戏              | NuGet 包                                                                            | 入门指南                  |"
+  },
+  {
+    "row": 6,
+    "rowsha": "XsFNvLuZ8HrQ8lF4jeWB3lLf7SRIuqpxcuXitQN0rZM=",
+    "originContent": "| Game             | NuGet package                                                                     | Getting started            |",
+    "translatedContent": "|-------------------|-------------------------------------------------------------------------------------|---------------------------|"
+  },
+  {
+    "row": 7,
+    "rowsha": "eMtMHTSKhyXW4YdKA876NCsuAzycUH1G9TC8kijg1Pw=",
+    "originContent": "|------------------|-----------------------------------------------------------------------------------|----------------------------|",
+    "translatedContent": "| 反恐精英 2        | ✅ [DemoFile.Game.Cs](https://www.nuget.org/packages/DemoFile.Game.Cs)               | `new CsDemoParser()`       |"
+  },
+  {
+    "row": 8,
+    "rowsha": "n2ukf8a6H8gEywqx0vGpSlxZUq8p5B5OEbOMyF3267c=",
+    "originContent": "| Counter-Strike 2 | ✅ [DemoFile.Game.Cs](https://www.nuget.org/packages/DemoFile.Game.Cs)             | `new CsDemoParser()`       |",
+    "translatedContent": "| Deadlock          | ✅ [DemoFile.Game.Deadlock](https://www.nuget.org/packages/DemoFile.Game.Deadlock)   | `new DeadlockDemoParser()` |"
+  },
+  {
+    "row": 9,
+    "rowsha": "8bZLMYuPE3utBeqVPGTytKwqF8rODMIMGimFJwSt1aY=",
+    "originContent": "| Deadlock         | ✅ [DemoFile.Game.Deadlock](https://www.nuget.org/packages/DemoFile.Game.Deadlock) | `new DeadlockDemoParser()` |",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> [!IMPORTANT]"
+  },
+  {
+    "row": 11,
+    "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+    "originContent": "> [!IMPORTANT]",
+    "translatedContent": "> `DemoFile` 是基础核心库，不支持解析任何特定游戏。"
+  },
+  {
+    "row": 12,
+    "rowsha": "QDQ3Gdma5CGOW7JkANTpOHmDAVRLn6TNYXyK1rgs68g=",
+    "originContent": "> `DemoFile` is the base, core library and does not provide support for parsing any specific game.",
+    "translatedContent": "> 请改为添加对某个 `DemoFile.Game.*` 包的引用。"
+  },
+  {
+    "row": 13,
+    "rowsha": "/vrPPOZxu3pKOcgap5vFh817ImyQppk4KI/0qKWLWzk=",
+    "originContent": "> Add a reference to one of the `DemoFile.Game.*` packages instead.",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![DemoFile.Net 截图](https://raw.githubusercontent.com/saul/demofile-net/main/assets/screenshot-2x.png)"
+  },
+  {
+    "row": 15,
+    "rowsha": "xO7II+8C/HKszvJ6HWUhZbX0FhQJwG+VFoTw2hfZRsY=",
+    "originContent": "![Screenshot of DemoFile.Net](https://raw.githubusercontent.com/saul/demofile-net/main/assets/screenshot-2x.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "通过 IDE 内置的自动补全功能，轻松发现可用数据："
+  },
+  {
+    "row": 17,
+    "rowsha": "w6xo0FYX4zVWajOzEsZPfT4HVE7OY334RFk+MlShZfs=",
+    "originContent": "Easy discoverability of available data through your IDE's inbuilt autocompletion:",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-1.png) | ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-2.png) |"
+  },
+  {
+    "row": 19,
+    "rowsha": "OMFlvsSksUvXZz97t1i5DqUFA385je6G6ww9zp8Y6og=",
+    "originContent": "| ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-1.png) | ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-2.png) |",
+    "translatedContent": "|-------------------------|-------------------------|"
+  },
+  {
+    "row": 20,
+    "rowsha": "j1+rq0jod17jHLm5wVJugZmnASZ64okuJk8xAOQ9WFc=",
+    "originContent": "|-------------------------|-------------------------|",
+    "translatedContent": "| ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-3.png) | ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-4.png) |"
+  },
+  {
+    "row": 21,
+    "rowsha": "k4n8MDrPE+0B+KbTC9o/BXtBVUKvp+Wkro23Xue/H6g=",
+    "originContent": "| ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-3.png) | ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-4.png) |",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 特性"
+  },
+  {
+    "row": 23,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 特性                                              | 支持情况     |"
+  },
+  {
+    "row": 25,
+    "rowsha": "L2rBALVg/dmJDWsgm/HwIQUfp4KLMcXFI/rbK6sxy/o=",
+    "originContent": "| Feature                                           | Availability   |",
+    "translatedContent": "|--------------------------------------------------|--------------|"
+  },
+  {
+    "row": 26,
+    "rowsha": "Udccstv+Na+DOlwKcActQ6bYn2Bl7KHQN1LTZhpUwJM=",
+    "originContent": "|---------------------------------------------------|----------------|",
+    "translatedContent": "| CSTV / GOTV 演示                                  | ✅ 完全支持   |"
+  },
+  {
+    "row": 27,
+    "rowsha": "78WZuP1pb5NW1vJbFsm1hlZggnIEPSY4cvRp6cDrEF4=",
+    "originContent": "| CSTV / GOTV demos                                 | ✅ Full support |",
+    "translatedContent": "| POV 演示                                          | ✅ 完全支持   |"
+  },
+  {
+    "row": 28,
+    "rowsha": "VyXYPsaoWG5k4fb2EI/qg4rmjTC+CiB0PDeTr/f9af8=",
+    "originContent": "| POV demos                                         | ✅ Full support |",
+    "translatedContent": "| HTTP 广播                                         | ✅ 完全支持   |"
+  },
+  {
+    "row": 29,
+    "rowsha": "jfO/VspgaM/VGYPuv4KcvJDzV33s9yZu73C4wWXa0Tc=",
+    "originContent": "| HTTP broadcasts                                   | ✅ Full support  |",
+    "translatedContent": "| 游戏事件（如 `player_death`）                     | ✅ 完全支持   |"
+  },
+  {
+    "row": 30,
+    "rowsha": "jizDZZ3S9eGWk1N5Q81c2AvKoPj7uVsQ/ZUNDDgOYv4=",
+    "originContent": "| Game events (e.g. `player_death`)                 | ✅ Full support |",
+    "translatedContent": "| 实体更新（玩家位置、手雷等）                      | ✅ 完全支持   |"
+  },
+  {
+    "row": 31,
+    "rowsha": "zQ1S04pQzYAqYf8IcB8RQE0QTgHS1Yx9onvj0PWSwsc=",
+    "originContent": "| Entity updates (player positions, grenades, etc.) | ✅ Full support |",
+    "translatedContent": "| 向前/向后查找演示                                 | ✅ 完全支持   |"
+  },
+  {
+    "row": 32,
+    "rowsha": "Iqy4sQ3Q67TDi/gyVktCYFSFsMcfpG3rWO1QZJ/aQqs=",
+    "originContent": "| Seeking forwards/backwards through the demo       | ✅ Full support |",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 入门指南"
+  },
+  {
+    "row": 34,
+    "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+    "originContent": "## Getting Started",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 安装"
+  },
+  {
+    "row": 36,
+    "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+    "originContent": "### Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "将相应的 NuGet 包添加到您的项目中："
+  },
+  {
+    "row": 38,
+    "rowsha": "JOlHUw5YSxnbkA7Ms2WM+U5kOVEb6oci1DBDFEazms8=",
+    "originContent": "Add the appropriate NuGet package to your project:",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 41,
+    "rowsha": "opz5G4rG71YeDpkfbxmU86BPTwFlyZWlWbV9J7O+97Y=",
+    "originContent": "# For Counter-Strike 2",
+    "translatedContent": "# For Counter-Strike 2"
+  },
+  {
+    "row": 42,
+    "rowsha": "qftsMeKsc4afbawNnLc71WVdhZNGvIXNs+etbfpc2BY=",
+    "originContent": "dotnet add package DemoFile.Game.Cs",
+    "translatedContent": "dotnet add package DemoFile.Game.Cs"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "s7MtJfFhcfUN6mLLAol3ChzRoUOvgSC35qX6uYoGb7s=",
+    "originContent": "# For Deadlock",
+    "translatedContent": "# For Deadlock"
+  },
+  {
+    "row": 45,
+    "rowsha": "KV7/brh8Tm8fsmvTGMtTOON74TQFNzuhwKSbIN0CXyE=",
+    "originContent": "dotnet add package DemoFile.Game.Deadlock",
+    "translatedContent": "dotnet add package DemoFile.Game.Deadlock"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "qwWY7P47JqonFUUvUAujmI3i0aD6KQEJ90a+gO+DuVw=",
+    "originContent": "### Basic Usage",
+    "translatedContent": "### 基本用法"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "KgTHv11JYykr5TRCkfFWfyoOUllnjdbxGWX7cuVY01A=",
+    "originContent": "Here's a simple example that prints kill feed information from a CS2 demo:",
+    "translatedContent": "下面是一个简单的示例，演示如何从CS2演示中打印击杀信息："
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "ZFeo+RWCoqeE/vNh4JrC8vBUV9Ckx9K4j+fOmHbEcxU=",
+    "originContent": "```c#",
+    "translatedContent": "```c#"
+  },
+  {
+    "row": 53,
+    "rowsha": "lSAz7fUxm19rQxXYaIb37w8TanN2tMr9bbmfocumSSA=",
+    "originContent": "using DemoFile;",
+    "translatedContent": "using DemoFile;"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "+G2rOvRnPyoSDc8yOd+XMip6qkKWBTi7HEo2dmPxh0A=",
+    "originContent": "internal class Program",
+    "translatedContent": "internal class Program"
+  },
+  {
+    "row": 56,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 57,
+    "rowsha": "QkkHr59Hb8x8K9ELNLmJqJ+APgU4FnFeXnRYxGb8po4=",
+    "originContent": "    public static async Task Main(string[] args)",
+    "translatedContent": "    public static async Task Main(string[] args)"
+  },
+  {
+    "row": 58,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 59,
+    "rowsha": "DDGZKYxuIz6ZGWMtk/HC0kOrUfvCAJD6fJS7hymvEKM=",
+    "originContent": "        var path = args.SingleOrDefault() ?? throw new Exception(\"Expected a single argument: <path to .dem>\");",
+    "translatedContent": "        var path = args.SingleOrDefault() ?? throw new Exception(\"Expected a single argument: <path to .dem>\");"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "Hp/M2Tve6Ew/KuOlG+CqUo7wkV12Z1vdZYmiO9msPQQ=",
+    "originContent": "        var demo = new CsDemoParser();",
+    "translatedContent": "        var demo = new CsDemoParser();"
+  },
+  {
+    "row": 62,
+    "rowsha": "d0WcdnPzGTLv/+fv2B0pPzoeaL+5dPD2v8k5yGF+mqI=",
+    "originContent": "        demo.Source1GameEvents.PlayerDeath += e =>",
+    "translatedContent": "        demo.Source1GameEvents.PlayerDeath += e =>"
+  },
+  {
+    "row": 63,
+    "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+    "originContent": "        {",
+    "translatedContent": "        {"
+  },
+  {
+    "row": 64,
+    "rowsha": "9fBnmAaWl5Yd+8k0hLInwuU5FKvrlsXvVzPa6aiTXNs=",
+    "originContent": "            Console.WriteLine($\"{e.Attacker?.PlayerName} [{e.Weapon}] {e.Player?.PlayerName}\");",
+    "translatedContent": "            Console.WriteLine($\"{e.Attacker?.PlayerName} [{e.Weapon}] {e.Player?.PlayerName}\");"
+  },
+  {
+    "row": 65,
+    "rowsha": "8OSK9LfN3EMF8KXXcn/88MTQZvz8cJjzbAD9AoLmCFQ=",
+    "originContent": "        };",
+    "translatedContent": "        };"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "P/X0nwCECIPv7EF19xLr+WfEYWW/mwczspoTyocjWaE=",
+    "originContent": "        var reader = DemoFileReader.Create(demo, File.OpenRead(path));",
+    "translatedContent": "        var reader = DemoFileReader.Create(demo, File.OpenRead(path));"
+  },
+  {
+    "row": 68,
+    "rowsha": "8EljSb7ZcyV5L2M5tUSaqvN+TK04YV/LbFYhPHnHnvE=",
+    "originContent": "        await reader.ReadAllAsync();",
+    "translatedContent": "        await reader.ReadAllAsync();"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "boKEoz8Ra0kk8QCZHRr5T49tBya2AAD+RqMy0iTBgAc=",
+    "originContent": "        Console.WriteLine(\"\\nFinished!\");",
+    "translatedContent": "        Console.WriteLine(\"\\nFinished!\");"
+  },
+  {
+    "row": 71,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 72,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 73,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "NVPvOct8VJTuw2zf76095o2rTYAr13sJn2FYWwFmSn8=",
+    "originContent": "## Advanced Examples",
+    "translatedContent": "## 高级示例"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "i0uxAnff5mX5JOPQIN53pz67groQ9awejBVnGP5adEU=",
+    "originContent": "### Tracking Player Positions",
+    "translatedContent": "### 跟踪玩家位置"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "wBK5QDzt5L6fHqjEl+qgIZuReX0vP+EfHoYiUaZTPbM=",
+    "originContent": "You can track player positions and other entity data throughout the demo:",
+    "translatedContent": "您可以在整个演示过程中跟踪玩家位置和其他实体数据："
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "ZFeo+RWCoqeE/vNh4JrC8vBUV9Ckx9K4j+fOmHbEcxU=",
+    "originContent": "```c#",
+    "translatedContent": "```c#"
+  },
+  {
+    "row": 82,
+    "rowsha": "P1BoVwxX56llSZKRBM6WoYrtWnIb/VI54pVwxBgKqBY=",
+    "originContent": "var demo = new CsDemoParser();",
+    "translatedContent": "var demo = new CsDemoParser();"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "QI+ISoexQSZ9qQ5WC1AXSqKRcUfBAITlAdDj6YUWf2w=",
+    "originContent": "// Subscribe to tick events to get data at specific points in time",
+    "translatedContent": "// Subscribe to tick events to get data at specific points in time"
+  },
+  {
+    "row": 85,
+    "rowsha": "V4rfrn0wR/oi2cXI1mvHFUI+vfvOjG4JY1hlLuTKBEo=",
+    "originContent": "demo.TickEnd += (_, tick) =>",
+    "translatedContent": "demo.TickEnd += (_, tick) =>"
+  },
+  {
+    "row": 86,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 87,
+    "rowsha": "WctnjLLe9wvcRO++HdxJ9xtoTg19SiP8hNV7h8tLuHk=",
+    "originContent": "    // Get all active players",
+    "translatedContent": "    // Get all active players"
+  },
+  {
+    "row": 88,
+    "rowsha": "MghuGCLxCyl2J9z68kXxMSPQdh/yGAmhv1cV1auI18g=",
+    "originContent": "    foreach (var player in demo.Entities.Players)",
+    "translatedContent": "    foreach (var player in demo.Entities.Players)"
+  },
+  {
+    "row": 89,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 90,
+    "rowsha": "jnsToWT8KmpakwiIgJPxGhPlrnfKTCrBhARhv6eVdgc=",
+    "originContent": "        if (player.Pawn is { } pawn)",
+    "translatedContent": "        if (player.Pawn is { } pawn)"
+  },
+  {
+    "row": 91,
+    "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+    "originContent": "        {",
+    "translatedContent": "        {"
+  },
+  {
+    "row": 92,
+    "rowsha": "QpnikDBgtfpcn7XQh9hNezNWWRb4lYmWRCyPkm4kw64=",
+    "originContent": "            Console.WriteLine($\"Player {player.PlayerName} is at position {pawn.CBodyComponent?.Position}\");",
+    "translatedContent": "            Console.WriteLine($\"Player {player.PlayerName} is at position {pawn.CBodyComponent?.Position}\");"
+  },
+  {
+    "row": 93,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 94,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 95,
+    "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+    "originContent": "};",
+    "translatedContent": "};"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "alJewAsMcRK1xKmRsjL00NnO4Kjo3/sU2RqDxo7TEJs=",
+    "originContent": "var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));",
+    "translatedContent": "var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));"
+  },
+  {
+    "row": 98,
+    "rowsha": "Pn2YAm5dyyQGKaV3K72JjlAWuYZ1WNMTrGIff3deZTo=",
+    "originContent": "await reader.ReadAllAsync();",
+    "translatedContent": "await reader.ReadAllAsync();"
+  },
+  {
+    "row": 99,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "5GA7UOLFy1CFhrv6OxyJ+m2qPKLAFk3+dRkYdTyJQpw=",
+    "originContent": "### Working with Game Events",
+    "translatedContent": "### 使用游戏事件"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "EQ3+k6+RZuyMoYG0YORsGYVHyzwrKK0chjqdV7rEHaQ=",
+    "originContent": "DemoFile.Net provides strongly-typed access to game events:",
+    "translatedContent": "DemoFile.Net 提供对游戏事件的强类型访问："
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "ZFeo+RWCoqeE/vNh4JrC8vBUV9Ckx9K4j+fOmHbEcxU=",
+    "originContent": "```c#",
+    "translatedContent": "```c#"
+  },
+  {
+    "row": 106,
+    "rowsha": "P1BoVwxX56llSZKRBM6WoYrtWnIb/VI54pVwxBgKqBY=",
+    "originContent": "var demo = new CsDemoParser();",
+    "translatedContent": "var demo = new CsDemoParser();"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "nGSpzy/rpbinGmsh5KnddHm+PMDEvJSLrnpRT1ruofY=",
+    "originContent": "// Track round wins",
+    "translatedContent": "// Track round wins"
+  },
+  {
+    "row": 109,
+    "rowsha": "mqKz+v4j8Cw4zEuKH+qRo0twTAosF/gfQxZsHnDgsLI=",
+    "originContent": "demo.Source1GameEvents.RoundEnd += e => ",
+    "translatedContent": "demo.Source1GameEvents.RoundEnd += e => "
+  },
+  {
+    "row": 110,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 111,
+    "rowsha": "iB5gjqZlEhlkH/vBYQVHA1N6ZlZ6pq/fwaoFZM+aDPo=",
+    "originContent": "    Console.WriteLine($\"Round ended. Winner: {e.Winner}. Reason: {e.Reason}\");",
+    "translatedContent": "    Console.WriteLine($\"Round ended. Winner: {e.Winner}. Reason: {e.Reason}\");"
+  },
+  {
+    "row": 112,
+    "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+    "originContent": "};",
+    "translatedContent": "};"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "m63+CniI/+Ag2amz9Ncnti0pS5cBFEFRaw1LfAT31/M=",
+    "originContent": "// Track bomb events",
+    "translatedContent": "// Track bomb events"
+  },
+  {
+    "row": 115,
+    "rowsha": "gRtPBisDKXNMU4DXzcPqdQrHf9FwSGiZwvJqGpgXXA4=",
+    "originContent": "demo.Source1GameEvents.BombPlanted += e => ",
+    "translatedContent": "demo.Source1GameEvents.BombPlanted += e => "
+  },
+  {
+    "row": 116,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 117,
+    "rowsha": "2V9j+SxlcH2HMdl9v3SxULgHwlFxnBDMUeSdNHZcSZc=",
+    "originContent": "    Console.WriteLine($\"Bomb planted by {e.Player?.PlayerName} at site {e.Site}\");",
+    "translatedContent": "    Console.WriteLine($\"Bomb planted by {e.Player?.PlayerName} at site {e.Site}\");"
+  },
+  {
+    "row": 118,
+    "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+    "originContent": "};",
+    "translatedContent": "};"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "NApz85gW/3uT4I3+9ytDO9v5UGyQJI/ncM+HGQNMLkM=",
+    "originContent": "demo.Source1GameEvents.BombDefused += e => ",
+    "translatedContent": "demo.Source1GameEvents.BombDefused += e => "
+  },
+  {
+    "row": 121,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 122,
+    "rowsha": "5ZthtHkUJdmJZigZSsmJkwLIitVDB9sIZizrJiUboZQ=",
+    "originContent": "    Console.WriteLine($\"Bomb defused by {e.Player?.PlayerName}\");",
+    "translatedContent": "    Console.WriteLine($\"Bomb defused by {e.Player?.PlayerName}\");"
+  },
+  {
+    "row": 123,
+    "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+    "originContent": "};",
+    "translatedContent": "};"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "alJewAsMcRK1xKmRsjL00NnO4Kjo3/sU2RqDxo7TEJs=",
+    "originContent": "var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));",
+    "translatedContent": "var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));"
+  },
+  {
+    "row": 126,
+    "rowsha": "Pn2YAm5dyyQGKaV3K72JjlAWuYZ1WNMTrGIff3deZTo=",
+    "originContent": "await reader.ReadAllAsync();",
+    "translatedContent": "await reader.ReadAllAsync();"
+  },
+  {
+    "row": 127,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "ZsgSC0jjogn20pEmu+jR45z0+1IWkezBd6T5zrhdXXE=",
+    "originContent": "### Parallel Processing for Maximum Performance",
+    "translatedContent": "### 最大性能的并行处理"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "j+deNPEf2tzUXIbAJ/+8a0mdWMb6+EI35cM1YKAHOR4=",
+    "originContent": "For maximum performance, parse demos in parallel using multiple CPU cores:",
+    "translatedContent": "为了获得最大性能，使用多个CPU核心并行解析演示文件："
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "ZFeo+RWCoqeE/vNh4JrC8vBUV9Ckx9K4j+fOmHbEcxU=",
+    "originContent": "```c#",
+    "translatedContent": "```c#"
+  },
+  {
+    "row": 134,
+    "rowsha": "P1BoVwxX56llSZKRBM6WoYrtWnIb/VI54pVwxBgKqBY=",
+    "originContent": "var demo = new CsDemoParser();",
+    "translatedContent": "var demo = new CsDemoParser();"
+  },
+  {
+    "row": 135,
+    "rowsha": "nSiLJTL/HNJo5yUQiG44gLrwSxY9F3YhegGbkhDwth0=",
+    "originContent": "// Set up your event handlers...",
+    "translatedContent": "// Set up your event handlers..."
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "alJewAsMcRK1xKmRsjL00NnO4Kjo3/sU2RqDxo7TEJs=",
+    "originContent": "var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));",
+    "translatedContent": "var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));"
+  },
+  {
+    "row": 138,
+    "rowsha": "dlU9COoP19tf0HZzaoYIW4nyGIu+phcsL96BJhOB8KA=",
+    "originContent": "await reader.ReadAllParallelAsync();  // Uses all available CPU cores",
+    "translatedContent": "await reader.ReadAllParallelAsync();  // Uses all available CPU cores"
+  },
+  {
+    "row": 139,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "N3vit/DhV5kmhLMYd+qoqvR1ZMDZvN4QfDhSQSDEkvM=",
+    "originContent": "### HTTP Broadcast Support",
+    "translatedContent": "### HTTP 广播支持"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "/VVSdFzBFewkS7kbJur/nSL5HbmTXMNBFZuOWFLdqwc=",
+    "originContent": "DemoFile.Net can parse live HTTP broadcasts:",
+    "translatedContent": "DemoFile.Net 可以解析实时 HTTP 广播："
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "ZFeo+RWCoqeE/vNh4JrC8vBUV9Ckx9K4j+fOmHbEcxU=",
+    "originContent": "```c#",
+    "translatedContent": "```c#"
+  },
+  {
+    "row": 146,
+    "rowsha": "P1BoVwxX56llSZKRBM6WoYrtWnIb/VI54pVwxBgKqBY=",
+    "originContent": "var demo = new CsDemoParser();",
+    "translatedContent": "var demo = new CsDemoParser();"
+  },
+  {
+    "row": 147,
+    "rowsha": "nSiLJTL/HNJo5yUQiG44gLrwSxY9F3YhegGbkhDwth0=",
+    "originContent": "// Set up your event handlers...",
+    "translatedContent": "// Set up your event handlers..."
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "T0wyeiK9yeS/uY/ij3F7Hrq4g50Zx000GFiRiiqwOZM=",
+    "originContent": "var reader = HttpBroadcastReader.Create(demo, \"http://localhost:8080/broadcast\");",
+    "translatedContent": "var reader = HttpBroadcastReader.Create(demo, \"http://localhost:8080/broadcast\");"
+  },
+  {
+    "row": 150,
+    "rowsha": "Pn2YAm5dyyQGKaV3K72JjlAWuYZ1WNMTrGIff3deZTo=",
+    "originContent": "await reader.ReadAllAsync();",
+    "translatedContent": "await reader.ReadAllAsync();"
+  },
+  {
+    "row": 151,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "请参阅 [examples/](https://github.com/saul/demofile-net/tree/main/examples) 文件夹中的更完整示例："
+  },
+  {
+    "row": 153,
+    "rowsha": "w4RDCKsp2QYW0zKbU7T8FNal44Xpjk2Vr4urX6Q1Zmk=",
+    "originContent": "See the [examples/](https://github.com/saul/demofile-net/tree/main/examples) folder for more complete examples:",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [Basic](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.Basic/Program.cs) - 简单的演示解析"
+  },
+  {
+    "row": 155,
+    "rowsha": "eKfc4H99G5vGnJBldGGf/Z7ZW9CTZPHzGkeXUMi/X3Q=",
+    "originContent": "- [Basic](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.Basic/Program.cs) - Simple demo parsing",
+    "translatedContent": "- [MultiThreaded](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.MultiThreaded/Program.cs) - 并行处理以获得最大性能"
+  },
+  {
+    "row": 156,
+    "rowsha": "7dGXtR/b+uJsfb8NwWJnvA/WFE3Rw8C6V+G2PlBHMnc=",
+    "originContent": "- [MultiThreaded](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.MultiThreaded/Program.cs) - Parallel processing for maximum performance",
+    "translatedContent": "- [PlayerPositions](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.PlayerPositions/Program.cs) - 跟踪玩家位置和移动"
+  },
+  {
+    "row": 157,
+    "rowsha": "pVadXLG/z0lJ+4z6jiELxKq7chpWNdeep9XPtbiq4tk=",
+    "originContent": "- [PlayerPositions](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.PlayerPositions/Program.cs) - Tracking player positions and movements",
+    "translatedContent": "- [HttpBroadcast](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.HttpBroadcast/Program.cs) - 解析实时 HTTP 广播"
+  },
+  {
+    "row": 158,
+    "rowsha": "U0p9ACPp9lBCGsW2LHtAIbH8ntzxPipLdiKdcGsdFA0=",
+    "originContent": "- [HttpBroadcast](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.HttpBroadcast/Program.cs) - Parsing live HTTP broadcasts",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 基准测试"
+  },
+  {
+    "row": 160,
+    "rowsha": "ZrB6WAnr2MUw+xxeGHyQMYA7Rp0gMGJzZS08QrJ5eE8=",
+    "originContent": "## Benchmarks",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "在 M1 MacBook Pro 上，DemoFile.Net 能够在 1.3 秒内读取完整的竞技比赛（游戏时间不到 1 小时）。"
+  },
+  {
+    "row": 162,
+    "rowsha": "sD9iyDlG935TakjY+F7hHPVd/gH/W3r9GPKGwQwlFWw=",
+    "originContent": "On an M1 MacBook Pro, DemoFile.Net can read a full competitive game (just under 1 hour of game time) in 1.3 seconds.",
+    "translatedContent": "使用 `ReadAllParallelAsync` 方法在多线程解析时，时间降至接近 500 毫秒。"
+  },
+  {
+    "row": 163,
+    "rowsha": "rWbHqIwta3jiEpcWv0taQcA2QwTEG12XuGjDpeLoa5g=",
+    "originContent": "When parsing across multiple threads, using the `ReadAllParallelAsync` method, this drops to nearly 500 milliseconds.",
+    "translatedContent": "这包括解析所有实体数据（玩家位置、速度、武器追踪、手榴弹等）。"
+  },
+  {
+    "row": 164,
+    "rowsha": "hnUjGYqFbB+HRajxSh8way/D7JNRJPwUMpHV6T+5W8I=",
+    "originContent": "This includes parsing all entity data (player positions, velocities, weapon tracking, grenades, etc).",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 方法              |           平均值 |    误差 |   标准差 | 分配内存 |"
+  },
+  {
+    "row": 166,
+    "rowsha": "JezRTT0SdqQSStVzbynBKK/DsE3qoRLHWExh7C8DTRY=",
+    "originContent": "| Method            |           Mean |    Error |   StdDev | Allocated |",
+    "translatedContent": "|-------------------|----------------:|--------:|---------:|---------:|"
+  },
+  {
+    "row": 167,
+    "rowsha": "y0D/cWJDBHWTwRF6NWa+pFaeCAi5t0wAUbOCW1rYHn8=",
+    "originContent": "|-------------------|---------------:|---------:|---------:|----------:|",
+    "translatedContent": "| ParseDemo         | **1,294.6 毫秒** |  3.68 毫秒 |  2.88 毫秒 | 491.48 MB |"
+  },
+  {
+    "row": 168,
+    "rowsha": "LK3TYxE9Ly9TH6obfRZXndcIOWtzpmHknJFYZAGnbZc=",
+    "originContent": "| ParseDemo         | **1,294.6 ms** |  3.68 ms |  2.88 ms | 491.48 MB |",
+    "translatedContent": "| ParseDemoParallel |   **540.1 毫秒** | 23.99 毫秒 | 22.44 毫秒 | 600.67 MB |"
+  },
+  {
+    "row": 169,
+    "rowsha": "iZsHQmf7fOIjRfPWQzwANgfSwBf8dNHgomgsQYoknh8=",
+    "originContent": "| ParseDemoParallel |   **540.1 ms** | 23.99 ms | 22.44 ms | 600.67 MB |",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 作者及致谢"
+  },
+  {
+    "row": 171,
+    "rowsha": "9kdiK4brEAUH16EKcP1fAwYwPnNWKrFC1lyFLLfStJQ=",
+    "originContent": "## Author and acknowledgements",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "DemoFile.Net 由 [Saul Rennison](https://saul.re) 开发。没有以下项目，这个库的开发是不可能的："
+  },
+  {
+    "row": 173,
+    "rowsha": "+0nor1EzBdIUQkSltvFr+wsbgjweRauJ3pDreqCEMJg=",
+    "originContent": "DemoFile.Net is developed by [Saul Rennison](https://saul.re). The development of this library would not have been",
+    "translatedContent": "[demoparser by LaihoE](https://github.com/LaihoE/demoparser)"
+  },
+  {
+    "row": 174,
+    "rowsha": "35GWBAI/oGAswH4Jgh9fqEYbhvZ0OOpUsNZe6rRwyq8=",
+    "originContent": "possible without [demoparser by LaihoE](https://github.com/LaihoE/demoparser)",
+    "translatedContent": "和 [Manta by Dotabuff](https://raw.githubusercontent.com/dotabuff/manta/master/README.md)，后者依赖于许多人的努力："
+  },
+  {
+    "row": 175,
+    "rowsha": "sCr/zWDRm/AXN/w7njbQaEyVjU4Pba4TYA+IMwBC99Y=",
+    "originContent": "and [Manta by Dotabuff](https://raw.githubusercontent.com/dotabuff/manta/master/README.md), the latter of which depends",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "fadRz+0BUVm1PEHZXjtk1KG1I5gGEheA8dfUmzlr+vE=",
+    "originContent": "on the efforts of a number of people:",
+    "translatedContent": "- [Michael Fellinger](https://github.com/manveru) 构建了 Dotabuff 的 Source 1"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  解析器 [yasha](https://github.com/dotabuff/yasha)。"
+  },
+  {
+    "row": 178,
+    "rowsha": "9HqZ3gZHA+PoYZIXq/YQ8J2zIh4OctvXvLpmtqjXkqM=",
+    "originContent": "- [Michael Fellinger](https://github.com/manveru) built Dotabuff's Source 1",
+    "translatedContent": "- [Robin Dietrich](https://github.com/invokr) 构建了 C++ 解析器 [Alice](https://github.com/AliceStats/Alice)。"
+  },
+  {
+    "row": 179,
+    "rowsha": "QWqkkFd2IqAA3y/PTGfR6xDGzY4QJ2w6kLGsCzYLeGw=",
+    "originContent": "  parser [yasha](https://github.com/dotabuff/yasha).",
+    "translatedContent": "- [Martin Schrodt](https://github.com/spheenik) 构建了 Java 解析器 [clarity](https://github.com/skadistats/clarity)。"
+  },
+  {
+    "row": 180,
+    "rowsha": "NSnejjlDWXXbaq9u2q5C+RO25OaTtlO5opOkwkcK4XY=",
+    "originContent": "- [Robin Dietrich](https://github.com/invokr) built the C++ parser [Alice](https://github.com/AliceStats/Alice).",
+    "translatedContent": "- [Drew Schleck](https://github.com/dschleck) 构建了原始的 C++ 解析器 [edith](https://github.com/dschleck/edith)。"
+  },
+  {
+    "row": 181,
+    "rowsha": "gXsKcPp8fFXkMK/Mj2oErTz3Pj6I6QIDVXoWgYl1keA=",
+    "originContent": "- [Martin Schrodt](https://github.com/spheenik) built the Java parser [clarity](https://github.com/skadistats/clarity).",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "TXy33ZwHamYNHkIHazscM2bGiGRmZTh8lD6CbzEAYhc=",
+    "originContent": "- [Drew Schleck](https://github.com/dschleck) built an original C++ parser [edith](https://github.com/dschleck/edith).",
+    "translatedContent": "一个经过修改的 [Source2Gen by neverlosecc](https://github.com/neverlosecc/source2gen) 被用来静态生成游戏的模式类和枚举。"
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "cw6Ux/VqzsVtG23iYqHg1lRfZoSGWbp+SCW0VO6Mp00=",
+    "originContent": "A modified version of [Source2Gen by neverlosecc](https://github.com/neverlosecc/source2gen) is used to statically",
+    "translatedContent": "有关许可信息，请参见 [ACKNOWLEDGEMENTS](./ACKNOWLEDGEMENTS)。"
+  },
+  {
+    "row": 185,
+    "rowsha": "u5xreG/8pVqGWZbywAkuKwHYsF4JkuX1nFdODsqcMkM=",
+    "originContent": "generate the game schema classes and enums.",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "SBvZ3paGtjeSdt3bZ0WtQHHK6/oVMc0gZnyUkhQZViw=",
+    "originContent": "See [ACKNOWLEDGEMENTS](./ACKNOWLEDGEMENTS) for license information.",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,746 @@
+[
+  {
+    "row": 1,
+    "rowsha": "GhUv5PY5RTP9gElyH+IVhyiuRD0X3O9OkS6DKU7pL7M=",
+    "originContent": "Simple Config GeoIP for Quantumult X (QuantumultX), Loon, Stash 预配置文件包含 Apple News解锁规则、去广告分流规则、TikTok 解锁 Rewrite、神机分流规则和 VIP 视频解析重写, 并提供相应的快捷方式",
+    "translatedContent": "Simple Config GeoIP for Quantumult X (QuantumultX), Loon, Stash pre-configuration file includes Apple News unlock rules, ad-blocking routing rules, TikTok unlock Rewrite, Divine Machine routing rules, and VIP video parsing rewrite, and provides corresponding shortcuts"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "lOn1oue8SxyOiV3rT24sa2FAbOX1ZsDNWPz9MjtO8+o=",
+    "originContent": "## 简介",
+    "translatedContent": "## Introduction"
+  },
+  {
+    "row": 4,
+    "rowsha": "GiH36DJvaVfErt/OCFI6cksWxE6LULez5IHe2+syuec=",
+    "originContent": "> + 利用 Quantumult X 和 GeoIP 特性整合多个重写配置, 剔除大部分规则以节省开销, 通过 Vercel 重定向精简规则和配置文件",
+    "translatedContent": "> + Integrate multiple rewrite configurations using Quantumult X and GeoIP features, remove most rules to save overhead, streamline rules and configuration files through Vercel redirection"
+  },
+  {
+    "row": 5,
+    "rowsha": "HCpzkAAP1KUJBqg/cUsjWsA3qvHPDRgsi7i7OFC1CGc=",
+    "originContent": "- [使用方法](https://github.com/smxl/500#使用方法)",
+    "translatedContent": "- [Usage](https://github.com/smxl/500#使用方法)"
+  },
+  {
+    "row": 6,
+    "rowsha": "HrcxprapjRZObzTerjPicYVxrYPZCv6BO6kwpfoL8qs=",
+    "originContent": "- [分流规则和重写](https://github.com/smxl/500#分流规则和重写)",
+    "translatedContent": "- [Routing Rules and Rewrite](https://github.com/smxl/500#分流规则和重写)"
+  },
+  {
+    "row": 7,
+    "rowsha": "nOSyVu8wHeWSealFm048SYJ7gKPd+xJqqfo4W/WZovA=",
+    "originContent": "- [小工具](https://github.com/smxl/500#小工具)",
+    "translatedContent": "- [Tools](https://github.com/smxl/500#小工具)"
+  },
+  {
+    "row": 8,
+    "rowsha": "oQHUq9Shu8IAPl0VFVX2KlRwom8YZfNPJzX7efLEous=",
+    "originContent": "- [配置文件更新](https://github.com/smxl/500#配置文件更新)",
+    "translatedContent": "- [Configuration File Updates](https://github.com/smxl/500#配置文件更新)"
+  },
+  {
+    "row": 9,
+    "rowsha": "tFKFTcHT2FcJt2ySktmONfuwEtG0lFts/6+f02yUTuI=",
+    "originContent": "- [推荐](https://github.com/smxl/500#推荐)",
+    "translatedContent": "- [Recommendations](https://github.com/smxl/500#推荐)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "8kz4XVsbant2Zya/eFrcBBnJNYDYdWbmAMfzEUeYDwA=",
+    "originContent": "## 声明",
+    "translatedContent": "## Disclaimer"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "WTUFQU+1UcklfWaLcoWlgDHVhvn/LFUa8BcAJy9qSAI=",
+    "originContent": "Disclaimer: 部分脚本和内容由 ChatGPT 编写",
+    "translatedContent": "Disclaimer: Some scripts and content are written by ChatGPT"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "zvi7vyhpnJNjdW5fl/9qIbo88x8BT/sShBIPkME+f3E=",
+    "originContent": "本项目在多个 [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620) 配置文件上进行了优化",
+    "translatedContent": "This project has been optimized on multiple [Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620) configuration files"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "et76kGr79x2SDWkMSOC8yZZ0+y4RcPnmvBPDBHcq7n4=",
+    "originContent": "所有内容仅供参考, 不对本项目上的任何第三方内容负责, 这些链接和内容仅供参考和方便使用, 不代表本项目对这些内容的赞同或认可",
+    "translatedContent": "All content is for reference only, no responsibility is assumed for any third-party content on this project, these links and contents are for reference and convenience only, and do not represent endorsement or approval by this project"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "Yh7Y/yTMwbgjNmcTM6LHhArXgDASCAKaiuW6tVLayy8=",
+    "originContent": "Github 地址: [https://github.com/smxl/500](https://github.com/smxl/500)",
+    "translatedContent": "Github address: [https://github.com/smxl/500](https://github.com/smxl/500)"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "B3NO8rTZPKCvxuXiVlfljeYqHcdo9Pp8GSBrzF76TUo=",
+    "originContent": "##  使用方法",
+    "translatedContent": "## Usage"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "yYQl4p1RTfREhQ+PEw3DmI8jSJDcrlxEK8khsioR4ss=",
+    "originContent": "1. 下载或复制配置文件",
+    "translatedContent": "1. Download or copy the configuration file"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "zX4PKNo2+nhDUfIKn8sl3vEX/f//Us6677c8xMHAZ1s=",
+    "originContent": "[https://github.com/smxl/500/raw/main/500.conf](https://github.com/smxl/500/raw/main/500.conf)",
+    "translatedContent": "[https://github.com/smxl/500/raw/main/500.conf](https://github.com/smxl/500/raw/main/500.conf)"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "cahGMBsTXoeXlCsauh9cEnBHfuUedFVJ7xrYC24yxKI=",
+    "originContent": "[https://cnn.vercel.app/500.conf](https://cnn.vercel.app/500.conf)",
+    "translatedContent": "[https://cnn.vercel.app/500.conf](https://cnn.vercel.app/500.conf)"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "ZX5mlM6rYxQlktES3kBJYq9X8bhgDNZJ1MTU3Dw+BNc=",
+    "originContent": "2. Quantumult X - 风车 - 配置文件 -下载 - 粘贴 - 确定",
+    "translatedContent": "2. Quantumult X - Gear - Configuration - Download - Paste - Confirm"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "oF9RnNau7aPc6o5LVzQjwjfb6bYINQrgnk6oB/fiypE=",
+    "originContent": "3. Mitm - 生成证书 - 配置证书 - 安装证书",
+    "translatedContent": "3. Mitm - Generate Certificate - Configure Certificate - Install Certificate"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "J0xzQQjqAIUd/DOMNNPuVGWGfZCc2REeKlUa2fMFg00=",
+    "originContent": "4. 系统 - 设置 - 通用 - 关于 - 信任证书",
+    "translatedContent": "4. System - Settings - General - About - Trust Certificate"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "fLY1dN3uFBPD/wm4xJGpuLaKb1zxNq1/6Ozatvcbo0Y=",
+    "originContent": "5. Quantumult X - 风车 - 节点 - 引用 (订阅) - 右上角添加 - 填写标签和资源路径 (自己的机场订阅链接)",
+    "translatedContent": "5. Quantumult X - Gear - Nodes - Reference (Subscription) - Add at top right - Fill in label and resource path (your own subscription link)"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "HEalhTqf64/fRqHDFrpTVPP1hH4zUgfXAdMdFPrO4Kg=",
+    "originContent": "6. Quantumult X - 风车 - 其他设置 - GeoLite2 来源 添加 GeoIP",
+    "translatedContent": "6. Quantumult X - Gear - Other Settings - GeoLite2 Source Add GeoIP"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "JwFlfgb+JtE6S+G6uHdsE7pOoMyOSwBz8dV2pjKjvHo=",
+    "originContent": "7. GeoIP2-CN 选一 (复制链接或下载导入)",
+    "translatedContent": "7. Choose one GeoIP2-CN (copy link or download and import)"
+  },
+  {
+    "row": 40,
+    "rowsha": "Pb78lkPj0iQ8K7JUr+hN5rU5GNOFAAcW6qeGwelQu2A=",
+    "originContent": "> - [Loyalsoldier](https://github.com/Loyalsoldier/geoip/raw/release/Country-only-cn-private.mmdb)",
+    "translatedContent": "> - [Loyalsoldier](https://github.com/Loyalsoldier/geoip/raw/release/Country-only-cn-private.mmdb)"
+  },
+  {
+    "row": 41,
+    "rowsha": "5dsnNTM0AxNGdVFVTocHlyDp7P6F/xZQFbjCM/fiFl8=",
+    "originContent": "> - [Hackl0us](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb)",
+    "translatedContent": "> - [Hackl0us](https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb)"
+  },
+  {
+    "row": 42,
+    "rowsha": "lvDcWS9lofrU5ApgKYGac8qXy7yKboDGaSwFTyk5wwc=",
+    "originContent": "> - [soffchen](https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb)",
+    "translatedContent": "> - [soffchen](https://github.com/soffchen/GeoIP2-CN/raw/release/Country.mmdb)"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "OxQymlbU3B6txsAWN7k9J/l9QCc85Yk4qY6FF7aGcIc=",
+    "originContent": "8. 如你没有自己的订阅链接, 可直接使用, 若需要使用自己的订阅, 可把配置文件中 [server_remote] 下方 https://cnn.vercel.app/xv-sub 改为你的订阅链接",
+    "translatedContent": "8. If you do not have your own subscription link, you can use it directly. If you need to use your own subscription, you can change the https://cnn.vercel.app/xv-sub under [server_remote] in the configuration file to your subscription link."
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "Lf3xd42cSIYiRpQdv+qmZAoAHIFZ/4aV2e8i42F1dpc=",
+    "originContent": "9. 启动, 由于 Quantumult X 不支持 url schema / url-schema 启动, 建议打开 其他设置 - VPN - 始终开启, 剩余开关按需选择",
+    "translatedContent": "9. Startup: Since Quantumult X does not support url schema / url-schema startup, it is recommended to open Other Settings - VPN - Always On, and choose the remaining switches as needed."
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "eMa3j3c+vxylm8J5FBQvrFYgYsloaXQSTsAiKancBuU=",
+    "originContent": "注1: 本配置文件默认的订阅链接为网上公开的信息, 对隐私需求较高的用户不建议长期使用 ~~另本配置使用了公开的 MITM 证书, 建议自行生成替换 (生成证书后, 导出时不输入密码即可跳过 passphrase)~~",
+    "translatedContent": "Note 1: The default subscription link of this configuration file is publicly available information on the internet, and users with high privacy requirements are not recommended to use it for a long time. ~~Also, this configuration uses a public MITM certificate, it is recommended to generate and replace it yourself (when generating the certificate, you can skip the passphrase by not entering a password when exporting).~~"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "KsE925yFAFJ60du6hwZ759FE1bJFH9MSN8c3n8rh1Io=",
+    "originContent": "注2: 由于 QX 并未提供对 NaïveProxy (naiveproxy) 的支持, 当下版本推荐在局域网内的 OpenWRT 上运行, 通过本地服务 ```socks5=192.168.124.124:1080, tag=LAN``` 链接, 路由端添加启动脚本 ```naive /[PATH]/config.json```",
+    "translatedContent": "Note 2: Because QX does not provide support for NaïveProxy (naiveproxy), the current version is recommended to run on OpenWRT within the local network, linked through the local service ```socks5=192.168.124.124:1080, tag=LAN```, and add the startup script ```naive /[PATH]/config.json``` on the router side."
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "VizZ2pwo34Q5MpkzmP1PzgBKtehC7BCt41sb7S1HE8k=",
+    "originContent": "## 分流规则和重写",
+    "translatedContent": "## Routing Rules and Rewrite"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "DjbdL23ut9cVOXzq/m5CQQlx8LAmvsVAyC5F5wBTai8=",
+    "originContent": "tag 名|类型|短链|介绍 - 删除线表示停用",
+    "translatedContent": "tag name|Type|Short link|Description - Strikethrough indicates disabled"
+  },
+  {
+    "row": 55,
+    "rowsha": "REhgTJIr7FTl1Qse1Y4LnmZ7eJ7AetbUmSd4exoEb40=",
+    "originContent": "-|-|-|-",
+    "translatedContent": "-|-|-|-"
+  },
+  {
+    "row": 56,
+    "rowsha": "W7OWiqPy+lEYndNF0RYQB/EVVqgyZ/qzAd7/DtY+YxQ=",
+    "originContent": "ads|规则|https://cnn.vercel.app/xf-ads|去广告阻止",
+    "translatedContent": "ads|Rule|https://cnn.vercel.app/xf-ads|Ad blocking"
+  },
+  {
+    "row": 57,
+    "rowsha": "IAXR00Agg95WCpW+g3rQbf5YBkfOPM/a2g3affIb4Zk=",
+    "originContent": "cn|规则|https://cnn.vercel.app/xf-cn|大陆服务直联",
+    "translatedContent": "cn|Rule|https://cnn.vercel.app/xf-cn|Direct connection to Mainland China services"
+  },
+  {
+    "row": 58,
+    "rowsha": "2RdiCmhsjwGOtwuBTRGLrSI3eQBYG70k74D15AzsYIA=",
+    "originContent": "global|规则|https://cnn.vercel.app/xf-global|国际服务",
+    "translatedContent": "global|Rule|https://cnn.vercel.app/xf-global|International services"
+  },
+  {
+    "row": 59,
+    "rowsha": "Llpq3NAsuehwWmdn5veZOrhdj+7Ls4sNuLTM2aH3o74=",
+    "originContent": "hijacking|规则|https://cnn.vercel.app/xf-hijacking|防劫持",
+    "translatedContent": "hijacking|Rule|https://cnn.vercel.app/xf-hijacking|Anti-hijacking"
+  },
+  {
+    "row": 60,
+    "rowsha": "tBnelg1tA1ei3FWBw2/AaGVH9H1spPiXYFRjtdlUkzo=",
+    "originContent": "privacy|规则|https://cnn.vercel.app/xf-privacy|隐私",
+    "translatedContent": "privacy|Rule|https://cnn.vercel.app/xf-privacy|Privacy"
+  },
+  {
+    "row": 61,
+    "rowsha": "YrYBtTQp2SutmfG54ds+xQ5bfrujrjnxir+9kZfFtsU=",
+    "originContent": "tg|规则|https://cnn.vercel.app/xf-tg|Telegram",
+    "translatedContent": "tg|Rule|https://cnn.vercel.app/xf-tg|Telegram"
+  },
+  {
+    "row": 62,
+    "rowsha": "FrSA2HfEfqqNWQLr5vRlWVPiTEum2ovIsGQgeoYEon0=",
+    "originContent": "unbreak|规则|https://cnn.vercel.app/xf-unbreak|规则修正",
+    "translatedContent": "unbreak|Rule|https://cnn.vercel.app/xf-unbreak|Rule fixes"
+  },
+  {
+    "row": 63,
+    "rowsha": "REhgTJIr7FTl1Qse1Y4LnmZ7eJ7AetbUmSd4exoEb40=",
+    "originContent": "-|-|-|-",
+    "translatedContent": "-|-|-|-"
+  },
+  {
+    "row": 64,
+    "rowsha": "04GfBzA0L1l8aodzGbO2Oav608a8jPH591kM+dY9on8=",
+    "originContent": "adlite|重写|https://cnn.vercel.app/xr-adlite|复写去广告",
+    "translatedContent": "adlite|Rewrite|https://cnn.vercel.app/xr-adlite|Rewrite for ad blocking"
+  },
+  {
+    "row": 65,
+    "rowsha": "X7PyLgRL5XJdaydL5cNwiSLwFmhldD3iDjxGBWFoM7s=",
+    "originContent": "ads|重写|https://cnn.vercel.app/xr-ads|重写去广告",
+    "translatedContent": "ads|Rewrite|https://cnn.vercel.app/xr-ads|Rewrite for ad blocking"
+  },
+  {
+    "row": 66,
+    "rowsha": "dmK0ZdOVlEU2p3b6TIP8N1c2+HZ67gp6HV51SbFPjw0=",
+    "originContent": "adscript|重写|https://cnn.vercel.app/xr-adscript|脚本去广告",
+    "translatedContent": "adscript|Rewrite|https://cnn.vercel.app/xr-adscript|Script ad blocking"
+  },
+  {
+    "row": 67,
+    "rowsha": "bdsnIOqHIJw7UNluzX/2RcDsGJ2GMUv5DBoRMgCUpC4=",
+    "originContent": "apple|重写|https://cnn.vercel.app/xr-apple|解锁受限的 Apple 服务, 去掉天气兼容 iOS16 请用 Scriptable/IQair/在意空气 小组件显示美标 AQI",
+    "translatedContent": "apple|Rewrite|https://cnn.vercel.app/xr-apple|Unlock restricted Apple services, remove weather compatibility for iOS16, please use Scriptable/IQair/Air Quality widgets to display US AQI"
+  },
+  {
+    "row": 68,
+    "rowsha": "yzEaABWq0XBbXDmFoY188TGRy7+1psTOAy4R6uD3E90=",
+    "originContent": "bing|重写|https://cnn.vercel.app/xr-bing|New Bing w/ Safari w\\ Edge",
+    "translatedContent": "bing|Rewrite|https://cnn.vercel.app/xr-bing|New Bing with Safari w\\ Edge"
+  },
+  {
+    "row": 69,
+    "rowsha": "EJTLJfDYiMgrKYrmYiVf2rFCakPKJ6Dm9uOvYbimvpU=",
+    "originContent": "bili|重写|https://cnn.vercel.app/xr-bili|Bilibili 界面优化",
+    "translatedContent": "bili|Rewrite|https://cnn.vercel.app/xr-bili|Bilibili interface optimization"
+  },
+  {
+    "row": 70,
+    "rowsha": "1ceVfOVLkUitEgrFAm3v9LGoYmc3Sc0dDZqhDA2g6BU=",
+    "originContent": "box|重写|https://cnn.vercel.app/xr-box|BoxJS",
+    "translatedContent": "box|Rewrite|https://cnn.vercel.app/xr-box|BoxJS"
+  },
+  {
+    "row": 71,
+    "rowsha": "63v172Uzp8KJ0+XTUluUmwwnJbRNlITS2CWaJ669IAs=",
+    "originContent": "-|-|-|手动添加",
+    "translatedContent": "-|-|-|Manual addition"
+  },
+  {
+    "row": 72,
+    "rowsha": "9bc+BmAOlLc5wG5TAeFu9D6fwm0V3CxDfjYQOihYnBQ=",
+    "originContent": "covidsc|重写|https://cnn.vercel.app/xr-covidsc|24h 内核酸检测报告 四川天府健康通 全功能 - 支付宝+微信 默认关闭",
+    "translatedContent": "covidsc|Rewrite|https://cnn.vercel.app/xr-covidsc|24h nucleic acid test report for Sichuan Tianfu Health Code full features - Alipay + WeChat, default off"
+  },
+  {
+    "row": 73,
+    "rowsha": "NCLj/LOuR7flZiBYWyndYX0yj3mTjv22HnzA/38nw6s=",
+    "originContent": "covidsc|重写|https://cnn.vercel.app/xr-covidhn|24h 内核酸检测报告 河南豫康码 默认关闭",
+    "translatedContent": "covidsc|Rewrite|https://cnn.vercel.app/xr-covidhn|24h nucleic acid test report for Henan Yukan Code, default off"
+  },
+  {
+    "row": 74,
+    "rowsha": "lM6+Nknn2ixmNeXz11tYLGYJnHQUvevUSeLiaJxYiWc=",
+    "originContent": "emby|重写|https://cnn.vercel.app/xr-emby|Emby 解锁, 无通知",
+    "translatedContent": "emby|Rewrite|https://cnn.vercel.app/xr-emby|Emby unlock, no notifications"
+  },
+  {
+    "row": 75,
+    "rowsha": "OM2qW7234pUtecCDoBsEGc0kBJeW+xKr0K2/SWMR31M=",
+    "originContent": "fake|重写|https://cnn.vercel.app/xr-fake|Fake Pro 解锁, lk 的基础上进行了精简, 并增加了 Spotify Pro",
+    "translatedContent": "fake|Rewrite|https://cnn.vercel.app/xr-fake|Fake Pro unlock, streamlined based on lk, and added Spotify Pro"
+  },
+  {
+    "row": 76,
+    "rowsha": "3rt/CqcIwLDnsIrWlpbvHzYvUmbZRIYEdDnSU7oxywI=",
+    "originContent": "jsc|重写|https://cnn.vercel.app/xr-jsc|脚本获取 Cookies",
+    "translatedContent": "jsc|Rewrite|https://cnn.vercel.app/xr-jsc|Script to obtain Cookies"
+  },
+  {
+    "row": 77,
+    "rowsha": "i6E3LWOJVskCjtPBeZN7BVmoDYaNaLcM3Dm+9G5ijcw=",
+    "originContent": "lk|重写|https://cnn.vercel.app/xr-lk|国外服务 Fake VIP",
+    "translatedContent": "lk|Rewrite|https://cnn.vercel.app/xr-lk|Fake VIP for foreign services"
+  },
+  {
+    "row": 78,
+    "rowsha": "Fhx/zJObOV/lIOcx6VKY53o03xAeIzlXT40qKVzOwws=",
+    "originContent": "upgrade|重写|https://cnn.vercel.app/xr-upgrade|屏蔽应用更新检查",
+    "translatedContent": "upgrade|Rewrite|https://cnn.vercel.app/xr-upgrade|Block app update checks"
+  },
+  {
+    "row": 79,
+    "rowsha": "TlWJa9R4tzNhUmPE9vYP3IseL+3Sqjay/dOEdzCxhWA=",
+    "originContent": "res|重写|https://cnn.vercel.app/xr-res|大陆软件优化",
+    "translatedContent": "res|Rewrite|https://cnn.vercel.app/xr-res|Mainland software optimization"
+  },
+  {
+    "row": 80,
+    "rowsha": "VIRzEWZQnfQTFZPaFXKUUiITo4QTrKvEE1vnlY7mOfU=",
+    "originContent": "search|重写|https://cnn.vercel.app/xr-search|DuckDuckGo 搜索引擎重写",
+    "translatedContent": "search|Rewrite|https://cnn.vercel.app/xr-search|DuckDuckGo search engine rewrite"
+  },
+  {
+    "row": 81,
+    "rowsha": "qF9PWL2m8dcsuBhWsen1CNzZPv+YtKqprUup4mojPFQ=",
+    "originContent": "v|重写|https://cnn.vercel.app/xr-v|视频解析重写",
+    "translatedContent": "v|Rewrite|https://cnn.vercel.app/xr-v|Video Parsing Rewrite"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "LPh5FneTo1BV/fm+sPEvfG0d+a+Hjjs4f4oCVpiF5EM=",
+    "originContent": "你可以根据自己的情况调整上述规则和重写是否需要启用, 举例: 如果你很少使用海外软件, 那么 ```lk 重写 https://cnn.vercel.app/xr-lk 国外服务 Fake VIP``` 其中提供的多款软件的 VIP/Pro 解锁则对你无用 [其中部分重写已经失效]",
+    "translatedContent": "You can adjust the above rules and whether rewriting needs to be enabled according to your situation. For example: If you rarely use overseas software, then ```lk Rewrite https://cnn.vercel.app/xr-lk Foreign Services Fake VIP``` The VIP/Pro unlocks provided for multiple software are useless to you [some of these rewrites have expired]"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "LBN+s140cyMi76cUdUBhkBNnwoAmylWUb2qtUBpdJsg=",
+    "originContent": "同理如此 ```fake https://cnn.vercel.app/xr-fake Fake Pro 解锁``` 是该规则的精简",
+    "translatedContent": "Similarly, ```fake https://cnn.vercel.app/xr-fake Fake Pro Unlock``` is a simplified version of this rule"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "4Xxc/2yTrLBEvDU3jyQaT1vubAvq+R3t1eMwSvwviiY=",
+    "originContent": "2024 年由于 iOS API 的变动, TikTok 新版本只需要修改系统国家和一条分流规则即可使用 ```host-wildcard, *tiktok*, proxy```",
+    "translatedContent": "In 2024, due to changes in the iOS API, the new version of TikTok only needs to modify the system country and one routing rule to use ```host-wildcard, *tiktok*, proxy```"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "8P0tfNyu+swiNKLnnTIxjXrSreP5lY7Ne7O50EgTIGA=",
+    "originContent": "## 小工具",
+    "translatedContent": "## Utilities"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "Lnbx5CpvPRAX6QKiE6obd5C+js4QpkX9BKFS9BbPU0Q=",
+    "originContent": "工具|作用|链接/补充",
+    "translatedContent": "Tool|Function|Link/Supplement"
+  },
+  {
+    "row": 92,
+    "rowsha": "bX9gPHxMhPSn5oe4UsQZpd9WqOmg60qkaXT6/CQbdzI=",
+    "originContent": "-|-|-",
+    "translatedContent": "-|-|-"
+  },
+  {
+    "row": 93,
+    "rowsha": "3DPnXLbuc06ErxCz6wB65NRTQhA7VXTPlB4dMNe0oD8=",
+    "originContent": "快速搜索|设置 Safari 默认搜索引擎为 DuckDuckGo|默认谷歌, 前缀两个字母指定其他搜索引擎 Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + 空格 + 关键词",
+    "translatedContent": "Quick Search|Set Safari default search engine to DuckDuckGo|Default is Google, prefix two letters to specify other search engines Baidu:bd/Magi:mm/Twitter:tt/YouTube:yt/WolframAlpha:wa + space + keyword"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "wS56fHE35Pt24BwfR4wnrb1CGLDzz+LNV7CIj2YNCHc=",
+    "originContent": "启用 fake 重写后, 这些软件有增强效果: Adguard, Day One, Draft, Documents, Lightroom, PS Express, Memrise, Spotify pro*... 标*表示不确定是否解锁内购或模拟 VIP",
+    "translatedContent": "After enabling fake rewrite, these software have enhanced effects: Adguard, Day One, Draft, Documents, Lightroom, PS Express, Memrise, Spotify pro*... Asterisk* indicates uncertainty whether in-app purchase or VIP simulation is unlocked"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "vOEHKup4CvpSobM+Lxth0dWWSDa47UCrKLCfxlsxcX8=",
+    "originContent": "启用 res 重写后, 这些软件有增强: 哔哩哔哩, 彩云天气, 微信, 百度网盘...",
+    "translatedContent": "After enabling res rewrite, these software have enhancements: Bilibili, Caiyun Weather, WeChat, Baidu Netdisk..."
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "7cQ8gWX3iMLFvxWam4FzMG1YotWEjYDEsW6XRMv+v1M=",
+    "originContent": "## 配置文件更新",
+    "translatedContent": "## Configuration File Update"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "7zzVNSotYqho8matKIrvJcp0ZvyTtysZDOh4+IUVWtQ=",
+    "originContent": "500.conf",
+    "translatedContent": "500.conf"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "zX4PKNo2+nhDUfIKn8sl3vEX/f//Us6677c8xMHAZ1s=",
+    "originContent": "[https://github.com/smxl/500/raw/main/500.conf](https://github.com/smxl/500/raw/main/500.conf)",
+    "translatedContent": "[https://github.com/smxl/500/raw/main/500.conf](https://github.com/smxl/500/raw/main/500.conf)"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "rkxpuZoesfgUj0VNVKQ1oqWuei6u1pZam92oXDRgF+4=",
+    "originContent": "[https://cnn.vercel.app/q](https://cnn.vercel.app/q)",
+    "translatedContent": "[https://cnn.vercel.app/q](https://cnn.vercel.app/q)"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "P9EwAh1EbnvcusFGV6fUA0h7XWEhmS/406emlFakg1U=",
+    "originContent": "## 推荐",
+    "translatedContent": "## Recommendation"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "W1m4SEyCTPqOLz9CaV7hjga+huQIhsuyEEyJEw4maSI=",
+    "originContent": "本配置文件引用了一些项目或服务, 你可以在 vercel.json 找到他们",
+    "translatedContent": "This configuration file references some projects or services, you can find them in vercel.json"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "BUxz0TCbaICnSZ7ehLJXxCkcOQS5FRNMWtlIeFBSxog=",
+    "originContent": "为方便访问原项目, 配置文件中的引用方式使用 `https://github.com/用户/项目/raw/分支/目录/文件` 的格式",
+    "translatedContent": "To facilitate access to the original projects, the references in the configuration file use the format `https://github.com/user/project/raw/branch/directory/file`"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "MY5fh16687rOOQIHzmpmc2bWhAQmCVe9DYBy9KzAyI4=",
+    "originContent": "请复制 `https://github.com/用户/项目/` 到地址栏访问引用项目",
+    "translatedContent": "Please copy `https://github.com/user/project/` to the address bar to access the referenced project"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "2BVrrgxCQ9N0L8Tpd02KzqvgQQJJ1yDIVfmK/Ij/hGw=",
+    "originContent": "--",
+    "translatedContent": "--"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "Ftwk0Wr+gZIYL7/tnyjjZZCtOtKi41+dubZDBDYCw70=",
+    "originContent": "极简模板 https://cnn.vercel.app 去掉大部分无用配置, 仅保留基础框架",
+    "translatedContent": "Minimalist template https://cnn.vercel.app removes most useless configurations, keeping only the basic framework"
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "YXAvUZx/aWSRiK7/KyBoLg6hvDdR5e7bnFjT0kA+1fA=",
+    "originContent": "感谢 ilovexjp ILoveNucleicAcidTest etc.",
+    "translatedContent": "Thanks to ilovexjp ILoveNucleicAcidTest etc."
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "dXkT5p45ZuzP4mUkR6II7Xw0heeABS4qKGHR+lKxHzg=",
+    "originContent": "感谢 AI, Web3 和白纸",
+    "translatedContent": "Thanks to AI, Web3, and whitepapers"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "mmtcG0e1LE3vW8o4nepJ3Ravbc3LIXDFoKDNH4X8EI0=",
+    "originContent": "感谢娱乐和你自己",
+    "translatedContent": "Thanks to entertainment and yourself"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

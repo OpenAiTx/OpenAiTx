@@ -1,0 +1,656 @@
+[
+  {
+    "Id": 1,
+    "Content": "In Player Episode Preview\n====================\n## About ##\nThis plugin adds an episode list to the video player, which allows you to preview every episode of the TV show without having to leave the player.\n\nThis modification has support for the following clients:\n* [Jellyfin Web Client](https://github.com/jellyfin/jellyfin-web)\n* [Jellyfin Media Player](https://github.com/jellyfin/jellyfin-media-player) (JMP) Desktop Client\n\n### Features ###\n* List all episodes of a season\n* Switch between seasons\n* Shows episode title, description, thumbnail and playback progress\n* Shows episode details like community ranking\n* Mark episodes as played or favourite\n* Start a new episode\n* Should work with custom themes\n\n## Preview ##\n<img src=\"https://github.com/Namo2/InPlayerEpisodePreview/blob/master/Images/preview.gif\" width=\"550\" height=\"450\">\n\nUsed Theme: (SkinManager) Kaleidochromic\n<br>\nThis preview is missing the new buttons for marking an episode as completed or favourite.\n\n## Installation ##\n\n### Jellyfin Web Client (Server) ###\n1. Add the manifest `https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json` as a Jellyfin plugin repository to your server.\n2. Install the plugin `InPlayerEpisodePreview` from the repository.\n3. Restart the Jellyfin server.\n\n<br/>\n\n### Jellyfin Media Player (JMP) Desktop Client ###\n### **Deprecated with JMP Version [1.11.0](https://github.com/jellyfin/jellyfin-media-player/releases/tag/v1.11.0)** ###\nBecause the new JMP client is using the current web player from the server itself, it is no longer needed to make any changes to the client code directly.\n\nThis is the recommended way to install the script on the desktop client.\nIf you don't feel comfortable editing the nativeshell.js file yourself (step 3 to 6), you can download the full release instead, which includes the script already added to the nativeshell.js file.",
+    "ContentSha": "0Z5mNJuEn2PcBnHZb4CruXu8EvXniqGOlELcQ6Xz72w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "In Player 集数预览\n====================\n## 关于 ##\n此插件为视频播放器添加了一个剧集列表，允许您在播放器内预览电视剧的每一集，无需离开播放器。\n\n此修改支持以下客户端：\n* [Jellyfin Web 客户端](https://github.com/jellyfin/jellyfin-web)\n* [Jellyfin 媒体播放器](https://github.com/jellyfin/jellyfin-media-player)（JMP）桌面客户端\n\n### 功能 ###\n* 列出一季中的所有剧集\n* 在季之间切换\n* 显示剧集标题、简介、缩略图和播放进度\n* 显示剧集详情，如社区评分\n* 标记剧集为已播放或收藏\n* 开始新的剧集播放\n* 应支持自定义主题\n\n## 预览 ##\n<img src=\"https://github.com/Namo2/InPlayerEpisodePreview/blob/master/Images/preview.gif\" width=\"550\" height=\"450\">\n\n使用主题：（SkinManager）Kaleidochromic\n<br>\n此预览缺少标记剧集为完成或收藏的新按钮。\n\n## 安装 ##\n\n### Jellyfin Web 客户端（服务器） ###\n1. 将清单 `https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json` 添加为服务器的 Jellyfin 插件仓库。\n2. 从该仓库安装插件 `InPlayerEpisodePreview`。\n3. 重启 Jellyfin 服务器。\n\n<br/>\n\n### Jellyfin 媒体播放器（JMP）桌面客户端 ###\n### **自 JMP 版本 [1.11.0](https://github.com/jellyfin/jellyfin-media-player/releases/tag/v1.11.0) 起已废弃** ###\n由于新版 JMP 客户端使用的是来自服务器本身的当前网页版播放器，因此不再需要直接修改客户端代码。\n\n这是在桌面客户端上安装脚本的推荐方式。\n如果您对自行编辑 nativeshell.js 文件（步骤3至6）不熟悉，可以下载完整版本，该版本已将脚本添加到 nativeshell.js 文件中。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "U4GpPIGTRinT+qd7ghIDEcRRhjTd+2KbSuEnAvj2/fk=",
+        "originContent": "In Player Episode Preview",
+        "translatedContent": "In Player 集数预览"
+      },
+      {
+        "row": 2,
+        "rowsha": "lm9urXkOeXcpE8PiTJh6Mu4SBVzB//PdhL0HMTDNzRU=",
+        "originContent": "====================",
+        "translatedContent": "===================="
+      },
+      {
+        "row": 3,
+        "rowsha": "qRXR5acXcx5Lw0ecnZUDsF/ywPkRc0OiZZKLGvfcpsw=",
+        "originContent": "## About ##",
+        "translatedContent": "## 关于 ##"
+      },
+      {
+        "row": 4,
+        "rowsha": "r+M3g+tao4bljDD1bD1PDYC01zzYiUnCX0xiNI6DEOw=",
+        "originContent": "This plugin adds an episode list to the video player, which allows you to preview every episode of the TV show without having to leave the player.",
+        "translatedContent": "此插件为视频播放器添加了一个剧集列表，允许您在播放器内预览电视剧的每一集，无需离开播放器。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "yudWYKr+2ooVcVf4VnKw/R1BcYZ/awyw/u823Qjf5ew=",
+        "originContent": "This modification has support for the following clients:",
+        "translatedContent": "此修改支持以下客户端："
+      },
+      {
+        "row": 7,
+        "rowsha": "YOedyKzurThYG+oxpk4ZU2g1reMQnh5T3QXOundsiqs=",
+        "originContent": "* [Jellyfin Web Client](https://github.com/jellyfin/jellyfin-web)",
+        "translatedContent": "* [Jellyfin Web 客户端](https://github.com/jellyfin/jellyfin-web)"
+      },
+      {
+        "row": 8,
+        "rowsha": "PnZ/AwxeHPiBHYfJlQWRka7tA0AZzQSokMDi022Z46E=",
+        "originContent": "* [Jellyfin Media Player](https://github.com/jellyfin/jellyfin-media-player) (JMP) Desktop Client",
+        "translatedContent": "* [Jellyfin 媒体播放器](https://github.com/jellyfin/jellyfin-media-player)（JMP）桌面客户端"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "BHydToLVDbZy0iJ55fZZ7p+fAEnsum3e/sDDU+gMaTo=",
+        "originContent": "### Features ###",
+        "translatedContent": "### 功能 ###"
+      },
+      {
+        "row": 11,
+        "rowsha": "hBMQ7L1ppg7W8kSExF3Q9HMPiy3hFbg/e/IVF1TCKxc=",
+        "originContent": "* List all episodes of a season",
+        "translatedContent": "* 列出一季中的所有剧集"
+      },
+      {
+        "row": 12,
+        "rowsha": "vKQsn5jVfhK5vfWYBIaxkAVkLtIqgvpfk67fPHBD0zA=",
+        "originContent": "* Switch between seasons",
+        "translatedContent": "* 在季之间切换"
+      },
+      {
+        "row": 13,
+        "rowsha": "vjD0u44uzVG0U/5V4IL4gs6wYobfscOvwFJcJstjjHU=",
+        "originContent": "* Shows episode title, description, thumbnail and playback progress",
+        "translatedContent": "* 显示剧集标题、简介、缩略图和播放进度"
+      },
+      {
+        "row": 14,
+        "rowsha": "lZyMZh442xxAFvmvm4WlkeB4YlJ8t61+33phOA1Jwf0=",
+        "originContent": "* Shows episode details like community ranking",
+        "translatedContent": "* 显示剧集详情，如社区评分"
+      },
+      {
+        "row": 15,
+        "rowsha": "tetSCoGZ3cGVPmm244YN43vQFX9c/67m3xV43iFD+AE=",
+        "originContent": "* Mark episodes as played or favourite",
+        "translatedContent": "* 标记剧集为已播放或收藏"
+      },
+      {
+        "row": 16,
+        "rowsha": "Y2YJ5XYwzSKlN+qdSlBtdXYXYLs/2u6qJt/sxQ+62ZM=",
+        "originContent": "* Start a new episode",
+        "translatedContent": "* 开始新的剧集播放"
+      },
+      {
+        "row": 17,
+        "rowsha": "+Rdbx42v59NCx8M8yvU5ppiUVi3GkdQ61Jt33tUY2CQ=",
+        "originContent": "* Should work with custom themes",
+        "translatedContent": "* 应支持自定义主题"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "jOziwwmlEGagsb0G6DhT91qIXg7XtIx+bp+RRhmn/qs=",
+        "originContent": "## Preview ##",
+        "translatedContent": "## 预览 ##"
+      },
+      {
+        "row": 20,
+        "rowsha": "xkR6+IFSueVKQcuwWZq9LRPPwx6JvBVlcduLhI/IcgU=",
+        "originContent": "<img src=\"https://github.com/Namo2/InPlayerEpisodePreview/blob/master/Images/preview.gif\" width=\"550\" height=\"450\">",
+        "translatedContent": "<img src=\"https://github.com/Namo2/InPlayerEpisodePreview/blob/master/Images/preview.gif\" width=\"550\" height=\"450\">"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "4ojsvFPMuH57RvYcIo4R1DM7k91/tDrQeSe/5Ff6k7g=",
+        "originContent": "Used Theme: (SkinManager) Kaleidochromic",
+        "translatedContent": "使用主题：（SkinManager）Kaleidochromic"
+      },
+      {
+        "row": 23,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 24,
+        "rowsha": "r7CMdXTW22Vzg268MnkbYo0TzaIARQxu+JI10hpsNYA=",
+        "originContent": "This preview is missing the new buttons for marking an episode as completed or favourite.",
+        "translatedContent": "此预览缺少标记剧集为完成或收藏的新按钮。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "+Z2pHjc8AMv2WmdU3/DX0VozUQuKhxvG1SFXh4gJEBw=",
+        "originContent": "## Installation ##",
+        "translatedContent": "## 安装 ##"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "kjlRzIQY7AgKm9FvHMIUecra86B713PX//APoaHCLpo=",
+        "originContent": "### Jellyfin Web Client (Server) ###",
+        "translatedContent": "### Jellyfin Web 客户端（服务器） ###"
+      },
+      {
+        "row": 29,
+        "rowsha": "K1XmUiHdKR2wbUILPbiaHFwtMcD3XCI1lJ5RQlS08QY=",
+        "originContent": "1. Add the manifest `https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json` as a Jellyfin plugin repository to your server.",
+        "translatedContent": "1. 将清单 `https://raw.githubusercontent.com/Namo2/InPlayerEpisodePreview/master/manifest.json` 添加为服务器的 Jellyfin 插件仓库。"
+      },
+      {
+        "row": 30,
+        "rowsha": "hls1AG0VIP3XNwt5mRChxWqym32Sp2E6R0gZVbDkEdc=",
+        "originContent": "2. Install the plugin `InPlayerEpisodePreview` from the repository.",
+        "translatedContent": "2. 从该仓库安装插件 `InPlayerEpisodePreview`。"
+      },
+      {
+        "row": 31,
+        "rowsha": "RjZEMebFPjuE8ZsBWm9t9CGsvLtpiTutMiznU61oDSU=",
+        "originContent": "3. Restart the Jellyfin server.",
+        "translatedContent": "3. 重启 Jellyfin 服务器。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Bsl0KBFaxDmTpSMkgvNgq1TP8xIn2vynBlzisD4t2E4=",
+        "originContent": "### Jellyfin Media Player (JMP) Desktop Client ###",
+        "translatedContent": "### Jellyfin 媒体播放器（JMP）桌面客户端 ###"
+      },
+      {
+        "row": 36,
+        "rowsha": "0liw2RUMje4aCW5AHiKaavLp+i5c9JbBEcAhX39L1rI=",
+        "originContent": "### **Deprecated with JMP Version [1.11.0](https://github.com/jellyfin/jellyfin-media-player/releases/tag/v1.11.0)** ###",
+        "translatedContent": "### **自 JMP 版本 [1.11.0](https://github.com/jellyfin/jellyfin-media-player/releases/tag/v1.11.0) 起已废弃** ###"
+      },
+      {
+        "row": 37,
+        "rowsha": "sNjFRU7BbQqegdUi+3SAK1f0789ACbTyeg8r4HHFQzQ=",
+        "originContent": "Because the new JMP client is using the current web player from the server itself, it is no longer needed to make any changes to the client code directly.",
+        "translatedContent": "由于新版 JMP 客户端使用的是来自服务器本身的当前网页版播放器，因此不再需要直接修改客户端代码。"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "c2vIbap7Js2KYYQoBQbnyhdkjAGeoZpt4cgJcgk78nE=",
+        "originContent": "This is the recommended way to install the script on the desktop client.",
+        "translatedContent": "这是在桌面客户端上安装脚本的推荐方式。"
+      },
+      {
+        "row": 40,
+        "rowsha": "YwJrkyZvbN2eE8totpZ2P4/iTWIiFWBOzGQe3Fv/lbk=",
+        "originContent": "If you don't feel comfortable editing the nativeshell.js file yourself (step 3 to 6), you can download the full release instead, which includes the script already added to the nativeshell.js file.",
+        "translatedContent": "如果您对自行编辑 nativeshell.js 文件（步骤3至6）不熟悉，可以下载完整版本，该版本已将脚本添加到 nativeshell.js 文件中。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "It is yet unclear if there could be potential issues, replacing the nativeshell.js file with the one from the release, so it is recommended to follow all steps below.\n\n1. Download the latest release [JMP](https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.1.0.0/inPlayerEpisodePreview-1.1.0.0-jmp.zip) or [JMP-full](https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.1.0.0/inPlayerEpisodePreview-1.1.0.0-jmp-full.zip) (includes the script already added to the nativeshell.js file)\n2. Extract the zip file into your Jellyfin directory (e.g. C:\\Program Files\\Jellyfin\\Jellyfin Media Player)\n3. Inside your Jellyfin directory follow the folder path \"web-client\\extension\"\n4. Open the \"nativeshell.js\" file in a text editor.\n5. Inside the file find the section `const plugins = [];`. Add a new line at the start of the list and paste in `'inPlayerEpisodePreviewPlugin',`. The section should now look similar to this:",
+    "ContentSha": "JuC5oTjfG+a21UsS4MhAWaHPnDz69CPj+IVOox+Fgg0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "目前尚不清楚用发布版的 nativeshell.js 文件替换原文件是否会出现潜在问题，因此建议按照以下所有步骤操作。\n\n1. 下载最新版本 [JMP](https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.1.0.0/inPlayerEpisodePreview-1.1.0.0-jmp.zip) 或 [JMP-full](https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.1.0.0/inPlayerEpisodePreview-1.1.0.0-jmp-full.zip)（已包含添加至 nativeshell.js 文件的脚本）\n2. 将压缩包解压到你的 Jellyfin 目录（例如 C:\\Program Files\\Jellyfin\\Jellyfin Media Player）\n3. 在 Jellyfin 目录中，依次进入文件夹路径 \"web-client\\extension\"\n4. 用文本编辑器打开 \"nativeshell.js\" 文件。\n5. 在文件中找到 `const plugins = [];` 这一部分。在列表开头添加一行，粘贴 `'inPlayerEpisodePreviewPlugin',`。该部分应类似如下所示：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0ijTF64b2oi1I4mWbZTrhFXT0H0ukm5iTsoqRH6ZaOM=",
+        "originContent": "It is yet unclear if there could be potential issues, replacing the nativeshell.js file with the one from the release, so it is recommended to follow all steps below.",
+        "translatedContent": "目前尚不清楚用发布版的 nativeshell.js 文件替换原文件是否会出现潜在问题，因此建议按照以下所有步骤操作。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ny9+MeYAboQlS4DtWjrsCN7NH2VzJRFAXe2bef6OxOI=",
+        "originContent": "1. Download the latest release [JMP](https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.1.0.0/inPlayerEpisodePreview-1.1.0.0-jmp.zip) or [JMP-full](https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.1.0.0/inPlayerEpisodePreview-1.1.0.0-jmp-full.zip) (includes the script already added to the nativeshell.js file)",
+        "translatedContent": "1. 下载最新版本 [JMP](https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.1.0.0/inPlayerEpisodePreview-1.1.0.0-jmp.zip) 或 [JMP-full](https://github.com/Namo2/InPlayerEpisodePreview/releases/download/v1.1.0.0/inPlayerEpisodePreview-1.1.0.0-jmp-full.zip)（已包含添加至 nativeshell.js 文件的脚本）"
+      },
+      {
+        "row": 4,
+        "rowsha": "iafzA2NaP+U7wWTPpzVyHQv2Z8qfs3awFp3hrZ3mVjs=",
+        "originContent": "2. Extract the zip file into your Jellyfin directory (e.g. C:\\Program Files\\Jellyfin\\Jellyfin Media Player)",
+        "translatedContent": "2. 将压缩包解压到你的 Jellyfin 目录（例如 C:\\Program Files\\Jellyfin\\Jellyfin Media Player）"
+      },
+      {
+        "row": 5,
+        "rowsha": "QiloyDZ+f2y+v3z+H62dshK5pns5jnylpCOY3fF3x2g=",
+        "originContent": "3. Inside your Jellyfin directory follow the folder path \"web-client\\extension\"",
+        "translatedContent": "3. 在 Jellyfin 目录中，依次进入文件夹路径 \"web-client\\extension\""
+      },
+      {
+        "row": 6,
+        "rowsha": "M0hmN1Y/HvBvKf9e+6bU/tH++EW2UOp4LA+6Yl8yEXg=",
+        "originContent": "4. Open the \"nativeshell.js\" file in a text editor.",
+        "translatedContent": "4. 用文本编辑器打开 \"nativeshell.js\" 文件。"
+      },
+      {
+        "row": 7,
+        "rowsha": "eB6kf28mdkV0Mcqa9Y+1dJLA52xgj3srN48QwtxJjmg=",
+        "originContent": "5. Inside the file find the section `const plugins = [];`. Add a new line at the start of the list and paste in `'inPlayerEpisodePreviewPlugin',`. The section should now look similar to this:",
+        "translatedContent": "5. 在文件中找到 `const plugins = [];` 这一部分。在列表开头添加一行，粘贴 `'inPlayerEpisodePreviewPlugin',`。该部分应类似如下所示："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```javascript\nconst plugins = [\n    'inPlayerEpisodePreviewPlugin',\n    'mpvVideoPlayer',\n    'mpvAudioPlayer',\n    'jmpInputPlugin',\n    'jmpUpdatePlugin',\n    'jellyscrubPlugin',\n    'skipIntroPlugin'\n];\n```",
+    "ContentSha": "qyXEW+ssGGo1rx/V6T8k0d5TvQ4DZ7w0qvHwwFSkS2c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```javascript\nconst plugins = [\n    'inPlayerEpisodePreviewPlugin',\n    'mpvVideoPlayer',\n    'mpvAudioPlayer',\n    'jmpInputPlugin',\n    'jmpUpdatePlugin',\n    'jellyscrubPlugin',\n    'skipIntroPlugin'\n];\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+        "originContent": "```javascript",
+        "translatedContent": "```javascript"
+      },
+      {
+        "row": 2,
+        "rowsha": "EZmSxkA8OvwYWAa/1aXq1fcVPRSM0wRMC0W98q/juUk=",
+        "originContent": "const plugins = [",
+        "translatedContent": "const plugins = ["
+      },
+      {
+        "row": 3,
+        "rowsha": "zX2JlSp2cfXWkbeFocqtXMG7ZmJtIon5hGZoIoU8Xk4=",
+        "originContent": "    'inPlayerEpisodePreviewPlugin',",
+        "translatedContent": "    'inPlayerEpisodePreviewPlugin',"
+      },
+      {
+        "row": 4,
+        "rowsha": "d/9fXfEu2EqdhQb2PhgCrw2cjX1reIdrH9mOUCLH5U0=",
+        "originContent": "    'mpvVideoPlayer',",
+        "translatedContent": "    'mpvVideoPlayer',"
+      },
+      {
+        "row": 5,
+        "rowsha": "GHBWLD7yUyt+4EroXJfNWqpGYFxsD+uw+YhJCCF8U04=",
+        "originContent": "    'mpvAudioPlayer',",
+        "translatedContent": "    'mpvAudioPlayer',"
+      },
+      {
+        "row": 6,
+        "rowsha": "aBm1nlLNElUFF0QpTVlHiBnJ5/4ilQqM+rTPzi/i0kg=",
+        "originContent": "    'jmpInputPlugin',",
+        "translatedContent": "    'jmpInputPlugin',"
+      },
+      {
+        "row": 7,
+        "rowsha": "tCMB3P2195PQVM/XrYJ8ifHqrsVPxXJG6ih+KaEkw9I=",
+        "originContent": "    'jmpUpdatePlugin',",
+        "translatedContent": "    'jmpUpdatePlugin',"
+      },
+      {
+        "row": 8,
+        "rowsha": "ir10aLiore+fRMzHKA54LdIlopMnWLjyJq5xGEIfi8c=",
+        "originContent": "    'jellyscrubPlugin',",
+        "translatedContent": "    'jellyscrubPlugin',"
+      },
+      {
+        "row": 9,
+        "rowsha": "XXIPg5/+i1h4426TEVCGJhgmqMTZRd79b2tzk5txvEc=",
+        "originContent": "    'skipIntroPlugin'",
+        "translatedContent": "    'skipIntroPlugin'"
+      },
+      {
+        "row": 10,
+        "rowsha": "NYuj8iI3hNgA6iuo33czj0wIyzssKA7IswIJJforxO8=",
+        "originContent": "];",
+        "translatedContent": "];"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "6. Save the file and restart the JMP client.\n\n## Troubleshooting ##\n\n### 1. The preview button isn't visible ###\nThis is most likely related to wrong permissions for the `index.html` file.\n\n#### 1.1 Change Ownership inside a docker container ####\nIf you're running jellyfin in a docker container, you can change the ownership with thie following command\n(replace jellyfin with your containername, user and group with the user and group of your container):",
+    "ContentSha": "zYfqSBz/7GvZXHpMLm2wrRCo4rcO6DY8BttoC0OSmmU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "6. 保存文件并重启 JMP 客户端。\n\n## 故障排除 ##\n\n### 1. 预览按钮不可见 ###\n这很可能与 `index.html` 文件的权限错误有关。\n\n#### 1.1 在 Docker 容器内更改所有权 ####\n如果您在 Docker 容器中运行 jellyfin，可以使用以下命令更改所有权\n（将 jellyfin 替换为您的容器名称，user 和 group 替换为您的容器的用户和组）：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Dw45z3U5CMVwNp4m28mR3gTdfUDM0lUCfUXnhbYito0=",
+        "originContent": "6. Save the file and restart the JMP client.",
+        "translatedContent": "6. 保存文件并重启 JMP 客户端。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "QiI/3DaCpXNwYY8YRxUUlP+ArT9pZQTqSFyDgSIN6uU=",
+        "originContent": "## Troubleshooting ##",
+        "translatedContent": "## 故障排除 ##"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "lfv46AQCtc5cF+FhyjwooU+3R6UygYmVpf7GTQdrRoA=",
+        "originContent": "### 1. The preview button isn't visible ###",
+        "translatedContent": "### 1. 预览按钮不可见 ###"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ychlge0XA3ZGEi1s0kGdHF0UHNdQVPrLWsUzzJlmACk=",
+        "originContent": "This is most likely related to wrong permissions for the `index.html` file.",
+        "translatedContent": "这很可能与 `index.html` 文件的权限错误有关。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "9Isn842y5gFk0Z5NErEbgAjY3iJWrUgcu6/fFGp6s+U=",
+        "originContent": "#### 1.1 Change Ownership inside a docker container ####",
+        "translatedContent": "#### 1.1 在 Docker 容器内更改所有权 ####"
+      },
+      {
+        "row": 9,
+        "rowsha": "nOcTcuFDAc9ary6BVi9tDGDrmiXIMV1LLOMhDB5yXZI=",
+        "originContent": "If you're running jellyfin in a docker container, you can change the ownership with thie following command",
+        "translatedContent": "如果您在 Docker 容器中运行 jellyfin，可以使用以下命令更改所有权"
+      },
+      {
+        "row": 10,
+        "rowsha": "HPCNJ6JkUWm5jb/SiwyHfNYJ1r1bVe3nR9mB1tuoxkQ=",
+        "originContent": "(replace jellyfin with your containername, user and group with the user and group of your container):",
+        "translatedContent": "（将 jellyfin 替换为您的容器名称，user 和 group 替换为您的容器的用户和组）："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```\ndocker exec -it --user root jellyfin chown user:group /jellyfin/jellyfin-web/index.html && docker restart jellyfin\n```",
+    "ContentSha": "NcZGKJOuJLCzSHSVBr2ciwNnXvTu+enbhW0KmNSZqaI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ndocker exec -it --user root jellyfin chown user:group /jellyfin/jellyfin-web/index.html && docker restart jellyfin\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "a4eFci+YIOnAvhBBM7sGxjXuXmtt6nZS+iypaCwWrtM=",
+        "originContent": "docker exec -it --user root jellyfin chown user:group /jellyfin/jellyfin-web/index.html && docker restart jellyfin",
+        "translatedContent": "docker exec -it --user root jellyfin chown user:group /jellyfin/jellyfin-web/index.html && docker restart jellyfin"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "You can run this as a cron job on system startup.\n\n(Thanks to [muisje](https://github.com/muisje) for helping with [this](https://github.com/Namo2/InPlayerEpisodePreview/issues/49#issue-2825745530) solution)\n\n#### 1.2 Change Ownership running on a Windows installation ####\n1. Navigate to: `C:\\Program Files\\Jellyfin\\Server\\jellyfin-web\\`\n2. Right-click on `index.html` → `Properties` → `Security tab` → Click on `Edit`\n3. Select your user from the list and check the Write `permission` box.\n4. Restart both the server and client.\n\n(Thanks to [xeuc](https://github.com/xeuc) for [this](https://github.com/Namo2/InPlayerEpisodePreview/issues/49#issuecomment-2746136069) solution)\n\nIf this does not work, please follow the discussion in [this](https://github.com/Namo2/InPlayerEpisodePreview/issues/10) (or [this](https://github.com/Namo2/InPlayerEpisodePreview/issues/49)) issue.\n\n<br/>\nIf you encounter any error which you can't solve yourself, feel free to open up an issue.\n<br/>Please keep in mind that any system is different which can lead to unexpected behaviour, so add as much information about it as possible.\n<br/>Jellyfin logs and console logs from the browser (prefixed as [InPlayerEpisodePreview]) are always useful.\n\n## Drawbacks ##\n* The plugin will download some extra data like the episode description from the server.\n\n## Credits ##\nThe plugin structure is based and inspired on the [Jellyscrub](https://github.com/nicknsy/jellyscrub) plugin by [NickNSY](https://github.com/nicknsy).\n",
+    "ContentSha": "DKieE6GRRZSIQxE944fqMe7e+AuXLqnKZSjvNDnCZPc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "您可以将此作为系统启动时的cron作业运行。\n\n（感谢 [muisje](https://github.com/muisje) 帮助解决了 [此问题](https://github.com/Namo2/InPlayerEpisodePreview/issues/49#issue-2825745530)）\n\n#### 1.2 在Windows安装上更改所有权 ####\n1. 进入路径：`C:\\Program Files\\Jellyfin\\Server\\jellyfin-web\\`\n2. 右键点击 `index.html` → `属性` → `安全` 选项卡 → 点击 `编辑`\n3. 从列表中选择您的用户并勾选写入 `权限` 框。\n4. 重启服务器和客户端。\n\n（感谢 [xeuc](https://github.com/xeuc) 提供了 [此解决方案](https://github.com/Namo2/InPlayerEpisodePreview/issues/49#issuecomment-2746136069)）\n\n如果这仍然不起作用，请参阅 [此](https://github.com/Namo2/InPlayerEpisodePreview/issues/10)（或 [此](https://github.com/Namo2/InPlayerEpisodePreview/issues/49)）问题中的讨论。\n\n<br/>\n如果您遇到无法自行解决的错误，欢迎随时提交问题。\n<br/>请记住，每个系统都有所不同，这可能导致意外行为，因此请尽可能提供详细信息。\n<br/>Jellyfin日志和浏览器控制台日志（带有 [InPlayerEpisodePreview] 前缀）总是非常有用。\n\n## 缺点 ##\n* 插件会从服务器下载一些额外的数据，如剧集描述。\n\n## 致谢 ##\n该插件结构基于并受到了 [NickNSY](https://github.com/nicknsy) 的 [Jellyscrub](https://github.com/nicknsy/jellyscrub) 插件的启发。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "EKHcU0Mj9mUZY2nSDpzY/QOIgqCXNc0VrJZZtiTYfi4=",
+        "originContent": "You can run this as a cron job on system startup.",
+        "translatedContent": "您可以将此作为系统启动时的cron作业运行。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "HoOfeG+EsoOIptnnoYaD5TlU/p+H9DpSmHGF0WeZgM0=",
+        "originContent": "(Thanks to [muisje](https://github.com/muisje) for helping with [this](https://github.com/Namo2/InPlayerEpisodePreview/issues/49#issue-2825745530) solution)",
+        "translatedContent": "（感谢 [muisje](https://github.com/muisje) 帮助解决了 [此问题](https://github.com/Namo2/InPlayerEpisodePreview/issues/49#issue-2825745530)）"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "plj4z7S4ZrsG+hj+F7o4NdjxGKSkOOxWjDeUcNNotes=",
+        "originContent": "#### 1.2 Change Ownership running on a Windows installation ####",
+        "translatedContent": "#### 1.2 在Windows安装上更改所有权 ####"
+      },
+      {
+        "row": 6,
+        "rowsha": "bDn074Cb+TAkB0QlK848KHEQA2dGVSEzJiJD2t6pv2Q=",
+        "originContent": "1. Navigate to: `C:\\Program Files\\Jellyfin\\Server\\jellyfin-web\\`",
+        "translatedContent": "1. 进入路径：`C:\\Program Files\\Jellyfin\\Server\\jellyfin-web\\`"
+      },
+      {
+        "row": 7,
+        "rowsha": "b2RiIhPtkkd5b49E662pREeEGHuXpXgo4vF749MBt44=",
+        "originContent": "2. Right-click on `index.html` → `Properties` → `Security tab` → Click on `Edit`",
+        "translatedContent": "2. 右键点击 `index.html` → `属性` → `安全` 选项卡 → 点击 `编辑`"
+      },
+      {
+        "row": 8,
+        "rowsha": "+7l1YTbMzZe6pe6yu/WMGS4v0zSbp3WUdGWKASY1i2M=",
+        "originContent": "3. Select your user from the list and check the Write `permission` box.",
+        "translatedContent": "3. 从列表中选择您的用户并勾选写入 `权限` 框。"
+      },
+      {
+        "row": 9,
+        "rowsha": "7oThL7UtrCLCSGiv2RMN2JZ3Vtnck02lLDIM4R7wZUE=",
+        "originContent": "4. Restart both the server and client.",
+        "translatedContent": "4. 重启服务器和客户端。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "HkQD0aO9INLtyxdv8exI+l6M5V1VwTmVwvxBIGa7TQY=",
+        "originContent": "(Thanks to [xeuc](https://github.com/xeuc) for [this](https://github.com/Namo2/InPlayerEpisodePreview/issues/49#issuecomment-2746136069) solution)",
+        "translatedContent": "（感谢 [xeuc](https://github.com/xeuc) 提供了 [此解决方案](https://github.com/Namo2/InPlayerEpisodePreview/issues/49#issuecomment-2746136069)）"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "NDWCQkxWvz1VManBrsTNsaZpq/1ZPH0C1yqAmFyMFzM=",
+        "originContent": "If this does not work, please follow the discussion in [this](https://github.com/Namo2/InPlayerEpisodePreview/issues/10) (or [this](https://github.com/Namo2/InPlayerEpisodePreview/issues/49)) issue.",
+        "translatedContent": "如果这仍然不起作用，请参阅 [此](https://github.com/Namo2/InPlayerEpisodePreview/issues/10)（或 [此](https://github.com/Namo2/InPlayerEpisodePreview/issues/49)）问题中的讨论。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+        "originContent": "<br/>",
+        "translatedContent": "<br/>"
+      },
+      {
+        "row": 16,
+        "rowsha": "qTmNwXBvb09Hr+cn4Dq6CP/8a7ldHH4HDTkj+mdl+mk=",
+        "originContent": "If you encounter any error which you can't solve yourself, feel free to open up an issue.",
+        "translatedContent": "如果您遇到无法自行解决的错误，欢迎随时提交问题。"
+      },
+      {
+        "row": 17,
+        "rowsha": "IMbn5I7WxkyXCNT0ss+mFKfDpmOuq8L+Rz2jrlD3hKw=",
+        "originContent": "<br/>Please keep in mind that any system is different which can lead to unexpected behaviour, so add as much information about it as possible.",
+        "translatedContent": "<br/>请记住，每个系统都有所不同，这可能导致意外行为，因此请尽可能提供详细信息。"
+      },
+      {
+        "row": 18,
+        "rowsha": "k7i/hezE66MCK9EvOt48jkqPkMJZEtg8PTNXIOggHCo=",
+        "originContent": "<br/>Jellyfin logs and console logs from the browser (prefixed as [InPlayerEpisodePreview]) are always useful.",
+        "translatedContent": "<br/>Jellyfin日志和浏览器控制台日志（带有 [InPlayerEpisodePreview] 前缀）总是非常有用。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "rwa3b42Iq9YfEH3HEgHMMS1ZdnGAax2arjIliU5jnlc=",
+        "originContent": "## Drawbacks ##",
+        "translatedContent": "## 缺点 ##"
+      },
+      {
+        "row": 21,
+        "rowsha": "+9otISGXjWdXgIBgtFABu+zrJDkzvnULOZYm226tBa0=",
+        "originContent": "* The plugin will download some extra data like the episode description from the server.",
+        "translatedContent": "* 插件会从服务器下载一些额外的数据，如剧集描述。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "/UYr5KjwqOE0S82wV+NoMWw1mmrAx+1eMajPDXj00wo=",
+        "originContent": "## Credits ##",
+        "translatedContent": "## 致谢 ##"
+      },
+      {
+        "row": 24,
+        "rowsha": "CyDvnqJtjtoQADZ4xO2xjYrYGJlRoSl3cm6NFS6/O9U=",
+        "originContent": "The plugin structure is based and inspired on the [Jellyscrub](https://github.com/nicknsy/jellyscrub) plugin by [NickNSY](https://github.com/nicknsy).",
+        "translatedContent": "该插件结构基于并受到了 [NickNSY](https://github.com/nicknsy) 的 [Jellyscrub](https://github.com/nicknsy/jellyscrub) 插件的启发。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

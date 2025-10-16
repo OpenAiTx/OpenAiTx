@@ -1,0 +1,1299 @@
+[
+  {
+    "Id": 1,
+    "Content": "# DemoFile.Net ![NuGet](https://img.shields.io/nuget/v/DemoFile) ![Build status](https://github.com/saul/demofile-net/actions/workflows/dotnet.yml/badge.svg)\n\nDemoFile.Net is a blazing fast demo parser library for Source 2 games, written in C#. It is cross-platform, and can be\nused on Windows, Mac or Linux. This parser currently supports:\n\n| Game             | NuGet package                                                                     | Getting started            |\n|------------------|-----------------------------------------------------------------------------------|----------------------------|\n| Counter-Strike 2 | ✅ [DemoFile.Game.Cs](https://www.nuget.org/packages/DemoFile.Game.Cs)             | `new CsDemoParser()`       |\n| Deadlock         | ✅ [DemoFile.Game.Deadlock](https://www.nuget.org/packages/DemoFile.Game.Deadlock) | `new DeadlockDemoParser()` |\n\n> [!IMPORTANT]\n> `DemoFile` is the base, core library and does not provide support for parsing any specific game.\n> Add a reference to one of the `DemoFile.Game.*` packages instead.\n\n![Screenshot of DemoFile.Net](https://raw.githubusercontent.com/saul/demofile-net/main/assets/screenshot-2x.png)\n\nEasy discoverability of available data through your IDE's inbuilt autocompletion:\n\n| ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-1.png) | ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-2.png) |\n|-------------------------|-------------------------|\n| ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-3.png) | ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-4.png) |\n\n## Features\n\n| Feature                                           | Availability   |\n|---------------------------------------------------|----------------|\n| CSTV / GOTV demos                                 | ✅ Full support |\n| POV demos                                         | ✅ Full support |\n| HTTP broadcasts                                   | ✅ Full support  |\n| Game events (e.g. `player_death`)                 | ✅ Full support |\n| Entity updates (player positions, grenades, etc.) | ✅ Full support |\n| Seeking forwards/backwards through the demo       | ✅ Full support |\n\n## Getting Started\n\n### Installation\n\nAdd the appropriate NuGet package to your project:\n",
+    "ContentSha": "crpjNBOBBm5bk/gPSa/2XMT8HUCVny+FXEL28Wp71l4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# DemoFile.Net ![NuGet](https://img.shields.io/nuget/v/DemoFile) ![Build status](https://github.com/saul/demofile-net/actions/workflows/dotnet.yml/badge.svg)\n\nDemoFile.Net은 C#으로 작성된 Source 2 게임용 초고속 데모 파서 라이브러리입니다. 크로스 플랫폼으로 Windows, Mac 또는 Linux에서 사용할 수 있습니다. 이 파서는 현재 다음을 지원합니다:\n\n| 게임              | NuGet 패키지                                                                        | 시작하기                   |\n|------------------|-----------------------------------------------------------------------------------|----------------------------|\n| Counter-Strike 2 | ✅ [DemoFile.Game.Cs](https://www.nuget.org/packages/DemoFile.Game.Cs)             | `new CsDemoParser()`       |\n| Deadlock         | ✅ [DemoFile.Game.Deadlock](https://www.nuget.org/packages/DemoFile.Game.Deadlock) | `new DeadlockDemoParser()` |\n\n> [!IMPORTANT]\n> `DemoFile`은 기본 핵심 라이브러리로 특정 게임 파싱을 지원하지 않습니다.\n> 대신 `DemoFile.Game.*` 패키지 중 하나를 참조에 추가하세요.\n\n![DemoFile.Net 스크린샷](https://raw.githubusercontent.com/saul/demofile-net/main/assets/screenshot-2x.png)\n\nIDE 내장 자동완성 기능을 통한 사용 가능한 데이터의 쉬운 탐색:\n\n| ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-1.png) | ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-2.png) |\n|-------------------------|-------------------------|\n| ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-3.png) | ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-4.png) |\n\n## 기능\n\n| 기능                                               | 지원 여부       |\n|---------------------------------------------------|----------------|\n| CSTV / GOTV 데모                                  | ✅ 완전 지원    |\n| POV 데모                                          | ✅ 완전 지원    |\n| HTTP 방송                                         | ✅ 완전 지원    |\n| 게임 이벤트 (예: `player_death`)                   | ✅ 완전 지원    |\n| 엔티티 업데이트 (플레이어 위치, 수류탄 등)          | ✅ 완전 지원    |\n| 데모 내 앞으로/뒤로 탐색                            | ✅ 완전 지원    |\n\n## 시작하기\n\n### 설치\n\n프로젝트에 적절한 NuGet 패키지를 추가하세요:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "GMwMMrmA8dvLPKa0NXAaeJV8A6hOim8DHx9P0Bp/+Vk=",
+        "originContent": "# DemoFile.Net ![NuGet](https://img.shields.io/nuget/v/DemoFile) ![Build status](https://github.com/saul/demofile-net/actions/workflows/dotnet.yml/badge.svg)",
+        "translatedContent": "# DemoFile.Net ![NuGet](https://img.shields.io/nuget/v/DemoFile) ![Build status](https://github.com/saul/demofile-net/actions/workflows/dotnet.yml/badge.svg)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "e55tFvK2VgXZIuWs9acTLc+lJ1B46nBxTPI1FLKHVbw=",
+        "originContent": "DemoFile.Net is a blazing fast demo parser library for Source 2 games, written in C#. It is cross-platform, and can be",
+        "translatedContent": "DemoFile.Net은 C#으로 작성된 Source 2 게임용 초고속 데모 파서 라이브러리입니다. 크로스 플랫폼으로 Windows, Mac 또는 Linux에서 사용할 수 있습니다. 이 파서는 현재 다음을 지원합니다:"
+      },
+      {
+        "row": 4,
+        "rowsha": "ewiNqhXpFoj1h7q0xNlJ4XxcBZomsuO+6rC4r6haC5w=",
+        "originContent": "used on Windows, Mac or Linux. This parser currently supports:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 게임              | NuGet 패키지                                                                        | 시작하기                   |"
+      },
+      {
+        "row": 6,
+        "rowsha": "XsFNvLuZ8HrQ8lF4jeWB3lLf7SRIuqpxcuXitQN0rZM=",
+        "originContent": "| Game             | NuGet package                                                                     | Getting started            |",
+        "translatedContent": "|------------------|-----------------------------------------------------------------------------------|----------------------------|"
+      },
+      {
+        "row": 7,
+        "rowsha": "eMtMHTSKhyXW4YdKA876NCsuAzycUH1G9TC8kijg1Pw=",
+        "originContent": "|------------------|-----------------------------------------------------------------------------------|----------------------------|",
+        "translatedContent": "| Counter-Strike 2 | ✅ [DemoFile.Game.Cs](https://www.nuget.org/packages/DemoFile.Game.Cs)             | `new CsDemoParser()`       |"
+      },
+      {
+        "row": 8,
+        "rowsha": "n2ukf8a6H8gEywqx0vGpSlxZUq8p5B5OEbOMyF3267c=",
+        "originContent": "| Counter-Strike 2 | ✅ [DemoFile.Game.Cs](https://www.nuget.org/packages/DemoFile.Game.Cs)             | `new CsDemoParser()`       |",
+        "translatedContent": "| Deadlock         | ✅ [DemoFile.Game.Deadlock](https://www.nuget.org/packages/DemoFile.Game.Deadlock) | `new DeadlockDemoParser()` |"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bZLMYuPE3utBeqVPGTytKwqF8rODMIMGimFJwSt1aY=",
+        "originContent": "| Deadlock         | ✅ [DemoFile.Game.Deadlock](https://www.nuget.org/packages/DemoFile.Game.Deadlock) | `new DeadlockDemoParser()` |",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> [!IMPORTANT]"
+      },
+      {
+        "row": 11,
+        "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+        "originContent": "> [!IMPORTANT]",
+        "translatedContent": "> `DemoFile`은 기본 핵심 라이브러리로 특정 게임 파싱을 지원하지 않습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "QDQ3Gdma5CGOW7JkANTpOHmDAVRLn6TNYXyK1rgs68g=",
+        "originContent": "> `DemoFile` is the base, core library and does not provide support for parsing any specific game.",
+        "translatedContent": "> 대신 `DemoFile.Game.*` 패키지 중 하나를 참조에 추가하세요."
+      },
+      {
+        "row": 13,
+        "rowsha": "/vrPPOZxu3pKOcgap5vFh817ImyQppk4KI/0qKWLWzk=",
+        "originContent": "> Add a reference to one of the `DemoFile.Game.*` packages instead.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![DemoFile.Net 스크린샷](https://raw.githubusercontent.com/saul/demofile-net/main/assets/screenshot-2x.png)"
+      },
+      {
+        "row": 15,
+        "rowsha": "xO7II+8C/HKszvJ6HWUhZbX0FhQJwG+VFoTw2hfZRsY=",
+        "originContent": "![Screenshot of DemoFile.Net](https://raw.githubusercontent.com/saul/demofile-net/main/assets/screenshot-2x.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "IDE 내장 자동완성 기능을 통한 사용 가능한 데이터의 쉬운 탐색:"
+      },
+      {
+        "row": 17,
+        "rowsha": "w6xo0FYX4zVWajOzEsZPfT4HVE7OY334RFk+MlShZfs=",
+        "originContent": "Easy discoverability of available data through your IDE's inbuilt autocompletion:",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-1.png) | ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-2.png) |"
+      },
+      {
+        "row": 19,
+        "rowsha": "OMFlvsSksUvXZz97t1i5DqUFA385je6G6ww9zp8Y6og=",
+        "originContent": "| ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-1.png) | ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-2.png) |",
+        "translatedContent": "|-------------------------|-------------------------|"
+      },
+      {
+        "row": 20,
+        "rowsha": "j1+rq0jod17jHLm5wVJugZmnASZ64okuJk8xAOQ9WFc=",
+        "originContent": "|-------------------------|-------------------------|",
+        "translatedContent": "| ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-3.png) | ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-4.png) |"
+      },
+      {
+        "row": 21,
+        "rowsha": "k4n8MDrPE+0B+KbTC9o/BXtBVUKvp+Wkro23Xue/H6g=",
+        "originContent": "| ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-3.png) | ![](https://raw.githubusercontent.com/saul/demofile-net/main/assets/ide-4.png) |",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 23,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 기능                                               | 지원 여부       |"
+      },
+      {
+        "row": 25,
+        "rowsha": "L2rBALVg/dmJDWsgm/HwIQUfp4KLMcXFI/rbK6sxy/o=",
+        "originContent": "| Feature                                           | Availability   |",
+        "translatedContent": "|---------------------------------------------------|----------------|"
+      },
+      {
+        "row": 26,
+        "rowsha": "Udccstv+Na+DOlwKcActQ6bYn2Bl7KHQN1LTZhpUwJM=",
+        "originContent": "|---------------------------------------------------|----------------|",
+        "translatedContent": "| CSTV / GOTV 데모                                  | ✅ 완전 지원    |"
+      },
+      {
+        "row": 27,
+        "rowsha": "78WZuP1pb5NW1vJbFsm1hlZggnIEPSY4cvRp6cDrEF4=",
+        "originContent": "| CSTV / GOTV demos                                 | ✅ Full support |",
+        "translatedContent": "| POV 데모                                          | ✅ 완전 지원    |"
+      },
+      {
+        "row": 28,
+        "rowsha": "VyXYPsaoWG5k4fb2EI/qg4rmjTC+CiB0PDeTr/f9af8=",
+        "originContent": "| POV demos                                         | ✅ Full support |",
+        "translatedContent": "| HTTP 방송                                         | ✅ 완전 지원    |"
+      },
+      {
+        "row": 29,
+        "rowsha": "jfO/VspgaM/VGYPuv4KcvJDzV33s9yZu73C4wWXa0Tc=",
+        "originContent": "| HTTP broadcasts                                   | ✅ Full support  |",
+        "translatedContent": "| 게임 이벤트 (예: `player_death`)                   | ✅ 완전 지원    |"
+      },
+      {
+        "row": 30,
+        "rowsha": "jizDZZ3S9eGWk1N5Q81c2AvKoPj7uVsQ/ZUNDDgOYv4=",
+        "originContent": "| Game events (e.g. `player_death`)                 | ✅ Full support |",
+        "translatedContent": "| 엔티티 업데이트 (플레이어 위치, 수류탄 등)          | ✅ 완전 지원    |"
+      },
+      {
+        "row": 31,
+        "rowsha": "zQ1S04pQzYAqYf8IcB8RQE0QTgHS1Yx9onvj0PWSwsc=",
+        "originContent": "| Entity updates (player positions, grenades, etc.) | ✅ Full support |",
+        "translatedContent": "| 데모 내 앞으로/뒤로 탐색                            | ✅ 완전 지원    |"
+      },
+      {
+        "row": 32,
+        "rowsha": "Iqy4sQ3Q67TDi/gyVktCYFSFsMcfpG3rWO1QZJ/aQqs=",
+        "originContent": "| Seeking forwards/backwards through the demo       | ✅ Full support |",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 시작하기"
+      },
+      {
+        "row": 34,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 설치"
+      },
+      {
+        "row": 36,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "프로젝트에 적절한 NuGet 패키지를 추가하세요:"
+      },
+      {
+        "row": 38,
+        "rowsha": "JOlHUw5YSxnbkA7Ms2WM+U5kOVEb6oci1DBDFEazms8=",
+        "originContent": "Add the appropriate NuGet package to your project:",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n# For Counter-Strike 2\ndotnet add package DemoFile.Game.Cs\n\n# For Deadlock\ndotnet add package DemoFile.Game.Deadlock\n```",
+    "ContentSha": "Zy5EeHojNxPdEeLFBC3+qv7tZzJOxgaesBr0fHrsrss=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# For Counter-Strike 2\ndotnet add package DemoFile.Game.Cs\n\n# For Deadlock\ndotnet add package DemoFile.Game.Deadlock\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "opz5G4rG71YeDpkfbxmU86BPTwFlyZWlWbV9J7O+97Y=",
+        "originContent": "# For Counter-Strike 2",
+        "translatedContent": "# For Counter-Strike 2"
+      },
+      {
+        "row": 3,
+        "rowsha": "qftsMeKsc4afbawNnLc71WVdhZNGvIXNs+etbfpc2BY=",
+        "originContent": "dotnet add package DemoFile.Game.Cs",
+        "translatedContent": "dotnet add package DemoFile.Game.Cs"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "s7MtJfFhcfUN6mLLAol3ChzRoUOvgSC35qX6uYoGb7s=",
+        "originContent": "# For Deadlock",
+        "translatedContent": "# For Deadlock"
+      },
+      {
+        "row": 6,
+        "rowsha": "KV7/brh8Tm8fsmvTGMtTOON74TQFNzuhwKSbIN0CXyE=",
+        "originContent": "dotnet add package DemoFile.Game.Deadlock",
+        "translatedContent": "dotnet add package DemoFile.Game.Deadlock"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Basic Usage\n\nHere's a simple example that prints kill feed information from a CS2 demo:\n",
+    "ContentSha": "zfH0bvsBBHjbEahmFJZrjWCZdhcAyzKdU2XlNlnKKLg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 기본 사용법\n\n다음은 CS2 데모에서 킬 피드 정보를 출력하는 간단한 예제입니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 기본 사용법"
+      },
+      {
+        "row": 2,
+        "rowsha": "qwWY7P47JqonFUUvUAujmI3i0aD6KQEJ90a+gO+DuVw=",
+        "originContent": "### Basic Usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "다음은 CS2 데모에서 킬 피드 정보를 출력하는 간단한 예제입니다:"
+      },
+      {
+        "row": 4,
+        "rowsha": "KgTHv11JYykr5TRCkfFWfyoOUllnjdbxGWX7cuVY01A=",
+        "originContent": "Here's a simple example that prints kill feed information from a CS2 demo:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```c#\nusing DemoFile;\n\ninternal class Program\n{\n    public static async Task Main(string[] args)\n    {\n        var path = args.SingleOrDefault() ?? throw new Exception(\"Expected a single argument: <path to .dem>\");\n\n        var demo = new CsDemoParser();\n        demo.Source1GameEvents.PlayerDeath += e =>\n        {\n            Console.WriteLine($\"{e.Attacker?.PlayerName} [{e.Weapon}] {e.Player?.PlayerName}\");\n        };\n\n        var reader = DemoFileReader.Create(demo, File.OpenRead(path));\n        await reader.ReadAllAsync();\n\n        Console.WriteLine(\"\\nFinished!\");\n    }\n}\n```",
+    "ContentSha": "Va3Co+QUd18P+UGSSHMo0lN1ZMR76JoZ3drMhDEvaAc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```c#\nusing DemoFile;\n\ninternal class Program\n{\n    public static async Task Main(string[] args)\n    {\n        var path = args.SingleOrDefault() ?? throw new Exception(\"Expected a single argument: <path to .dem>\");\n\n        var demo = new CsDemoParser();\n        demo.Source1GameEvents.PlayerDeath += e =>\n        {\n            Console.WriteLine($\"{e.Attacker?.PlayerName} [{e.Weapon}] {e.Player?.PlayerName}\");\n        };\n\n        var reader = DemoFileReader.Create(demo, File.OpenRead(path));\n        await reader.ReadAllAsync();\n\n        Console.WriteLine(\"\\nFinished!\");\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZFeo+RWCoqeE/vNh4JrC8vBUV9Ckx9K4j+fOmHbEcxU=",
+        "originContent": "```c#",
+        "translatedContent": "```c#"
+      },
+      {
+        "row": 2,
+        "rowsha": "lSAz7fUxm19rQxXYaIb37w8TanN2tMr9bbmfocumSSA=",
+        "originContent": "using DemoFile;",
+        "translatedContent": "using DemoFile;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+G2rOvRnPyoSDc8yOd+XMip6qkKWBTi7HEo2dmPxh0A=",
+        "originContent": "internal class Program",
+        "translatedContent": "internal class Program"
+      },
+      {
+        "row": 5,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 6,
+        "rowsha": "QkkHr59Hb8x8K9ELNLmJqJ+APgU4FnFeXnRYxGb8po4=",
+        "originContent": "    public static async Task Main(string[] args)",
+        "translatedContent": "    public static async Task Main(string[] args)"
+      },
+      {
+        "row": 7,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 8,
+        "rowsha": "DDGZKYxuIz6ZGWMtk/HC0kOrUfvCAJD6fJS7hymvEKM=",
+        "originContent": "        var path = args.SingleOrDefault() ?? throw new Exception(\"Expected a single argument: <path to .dem>\");",
+        "translatedContent": "        var path = args.SingleOrDefault() ?? throw new Exception(\"Expected a single argument: <path to .dem>\");"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Hp/M2Tve6Ew/KuOlG+CqUo7wkV12Z1vdZYmiO9msPQQ=",
+        "originContent": "        var demo = new CsDemoParser();",
+        "translatedContent": "        var demo = new CsDemoParser();"
+      },
+      {
+        "row": 11,
+        "rowsha": "d0WcdnPzGTLv/+fv2B0pPzoeaL+5dPD2v8k5yGF+mqI=",
+        "originContent": "        demo.Source1GameEvents.PlayerDeath += e =>",
+        "translatedContent": "        demo.Source1GameEvents.PlayerDeath += e =>"
+      },
+      {
+        "row": 12,
+        "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+        "originContent": "        {",
+        "translatedContent": "        {"
+      },
+      {
+        "row": 13,
+        "rowsha": "9fBnmAaWl5Yd+8k0hLInwuU5FKvrlsXvVzPa6aiTXNs=",
+        "originContent": "            Console.WriteLine($\"{e.Attacker?.PlayerName} [{e.Weapon}] {e.Player?.PlayerName}\");",
+        "translatedContent": "            Console.WriteLine($\"{e.Attacker?.PlayerName} [{e.Weapon}] {e.Player?.PlayerName}\");"
+      },
+      {
+        "row": 14,
+        "rowsha": "8OSK9LfN3EMF8KXXcn/88MTQZvz8cJjzbAD9AoLmCFQ=",
+        "originContent": "        };",
+        "translatedContent": "        };"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "P/X0nwCECIPv7EF19xLr+WfEYWW/mwczspoTyocjWaE=",
+        "originContent": "        var reader = DemoFileReader.Create(demo, File.OpenRead(path));",
+        "translatedContent": "        var reader = DemoFileReader.Create(demo, File.OpenRead(path));"
+      },
+      {
+        "row": 17,
+        "rowsha": "8EljSb7ZcyV5L2M5tUSaqvN+TK04YV/LbFYhPHnHnvE=",
+        "originContent": "        await reader.ReadAllAsync();",
+        "translatedContent": "        await reader.ReadAllAsync();"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "boKEoz8Ra0kk8QCZHRr5T49tBya2AAD+RqMy0iTBgAc=",
+        "originContent": "        Console.WriteLine(\"\\nFinished!\");",
+        "translatedContent": "        Console.WriteLine(\"\\nFinished!\");"
+      },
+      {
+        "row": 20,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 21,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 22,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Advanced Examples\n\n### Tracking Player Positions\n\nYou can track player positions and other entity data throughout the demo:\n",
+    "ContentSha": "HoiUWuL8mdfJIEXBYXnPTIcMuLJiriKEwWCO1Hw6uaY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 고급 예제\n\n### 플레이어 위치 추적\n\n데모 전반에 걸쳐 플레이어 위치 및 기타 엔티티 데이터를 추적할 수 있습니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 고급 예제"
+      },
+      {
+        "row": 2,
+        "rowsha": "NVPvOct8VJTuw2zf76095o2rTYAr13sJn2FYWwFmSn8=",
+        "originContent": "## Advanced Examples",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 플레이어 위치 추적"
+      },
+      {
+        "row": 4,
+        "rowsha": "i0uxAnff5mX5JOPQIN53pz67groQ9awejBVnGP5adEU=",
+        "originContent": "### Tracking Player Positions",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "데모 전반에 걸쳐 플레이어 위치 및 기타 엔티티 데이터를 추적할 수 있습니다:"
+      },
+      {
+        "row": 6,
+        "rowsha": "wBK5QDzt5L6fHqjEl+qgIZuReX0vP+EfHoYiUaZTPbM=",
+        "originContent": "You can track player positions and other entity data throughout the demo:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```c#\nvar demo = new CsDemoParser();\n\n// Subscribe to tick events to get data at specific points in time\ndemo.TickEnd += (_, tick) =>\n{\n    // Get all active players\n    foreach (var player in demo.Entities.Players)\n    {\n        if (player.Pawn is { } pawn)\n        {\n            Console.WriteLine($\"Player {player.PlayerName} is at position {pawn.CBodyComponent?.Position}\");\n        }\n    }\n};\n\nvar reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));\nawait reader.ReadAllAsync();\n```",
+    "ContentSha": "Tfj1WFCJpjli6Ytx2Y1B1JAXnyod40Q0/KNn0DXfMFw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```c#\nvar demo = new CsDemoParser();\n\n// Subscribe to tick events to get data at specific points in time\ndemo.TickEnd += (_, tick) =>\n{\n    // Get all active players\n    foreach (var player in demo.Entities.Players)\n    {\n        if (player.Pawn is { } pawn)\n        {\n            Console.WriteLine($\"Player {player.PlayerName} is at position {pawn.CBodyComponent?.Position}\");\n        }\n    }\n};\n\nvar reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));\nawait reader.ReadAllAsync();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZFeo+RWCoqeE/vNh4JrC8vBUV9Ckx9K4j+fOmHbEcxU=",
+        "originContent": "```c#",
+        "translatedContent": "```c#"
+      },
+      {
+        "row": 2,
+        "rowsha": "P1BoVwxX56llSZKRBM6WoYrtWnIb/VI54pVwxBgKqBY=",
+        "originContent": "var demo = new CsDemoParser();",
+        "translatedContent": "var demo = new CsDemoParser();"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "QI+ISoexQSZ9qQ5WC1AXSqKRcUfBAITlAdDj6YUWf2w=",
+        "originContent": "// Subscribe to tick events to get data at specific points in time",
+        "translatedContent": "// Subscribe to tick events to get data at specific points in time"
+      },
+      {
+        "row": 5,
+        "rowsha": "V4rfrn0wR/oi2cXI1mvHFUI+vfvOjG4JY1hlLuTKBEo=",
+        "originContent": "demo.TickEnd += (_, tick) =>",
+        "translatedContent": "demo.TickEnd += (_, tick) =>"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 7,
+        "rowsha": "WctnjLLe9wvcRO++HdxJ9xtoTg19SiP8hNV7h8tLuHk=",
+        "originContent": "    // Get all active players",
+        "translatedContent": "    // Get all active players"
+      },
+      {
+        "row": 8,
+        "rowsha": "MghuGCLxCyl2J9z68kXxMSPQdh/yGAmhv1cV1auI18g=",
+        "originContent": "    foreach (var player in demo.Entities.Players)",
+        "translatedContent": "    foreach (var player in demo.Entities.Players)"
+      },
+      {
+        "row": 9,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 10,
+        "rowsha": "jnsToWT8KmpakwiIgJPxGhPlrnfKTCrBhARhv6eVdgc=",
+        "originContent": "        if (player.Pawn is { } pawn)",
+        "translatedContent": "        if (player.Pawn is { } pawn)"
+      },
+      {
+        "row": 11,
+        "rowsha": "qWZHcZor3nj5p5pSn5GUOY6dd3LUglu+qw7kVUQ2XhE=",
+        "originContent": "        {",
+        "translatedContent": "        {"
+      },
+      {
+        "row": 12,
+        "rowsha": "QpnikDBgtfpcn7XQh9hNezNWWRb4lYmWRCyPkm4kw64=",
+        "originContent": "            Console.WriteLine($\"Player {player.PlayerName} is at position {pawn.CBodyComponent?.Position}\");",
+        "translatedContent": "            Console.WriteLine($\"Player {player.PlayerName} is at position {pawn.CBodyComponent?.Position}\");"
+      },
+      {
+        "row": 13,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 14,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 15,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "alJewAsMcRK1xKmRsjL00NnO4Kjo3/sU2RqDxo7TEJs=",
+        "originContent": "var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));",
+        "translatedContent": "var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));"
+      },
+      {
+        "row": 18,
+        "rowsha": "Pn2YAm5dyyQGKaV3K72JjlAWuYZ1WNMTrGIff3deZTo=",
+        "originContent": "await reader.ReadAllAsync();",
+        "translatedContent": "await reader.ReadAllAsync();"
+      },
+      {
+        "row": 19,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Working with Game Events\n\nDemoFile.Net provides strongly-typed access to game events:\n",
+    "ContentSha": "vAByIUuI8jQNO+IxWB1JAfxFGm9DcRqei38TkLCNaHw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 게임 이벤트 작업하기\n\nDemoFile.Net은 게임 이벤트에 대해 강력한 형식의 접근을 제공합니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5GA7UOLFy1CFhrv6OxyJ+m2qPKLAFk3+dRkYdTyJQpw=",
+        "originContent": "### Working with Game Events",
+        "translatedContent": "### 게임 이벤트 작업하기"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "EQ3+k6+RZuyMoYG0YORsGYVHyzwrKK0chjqdV7rEHaQ=",
+        "originContent": "DemoFile.Net provides strongly-typed access to game events:",
+        "translatedContent": "DemoFile.Net은 게임 이벤트에 대해 강력한 형식의 접근을 제공합니다:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```c#\nvar demo = new CsDemoParser();\n\n// Track round wins\ndemo.Source1GameEvents.RoundEnd += e => \n{\n    Console.WriteLine($\"Round ended. Winner: {e.Winner}. Reason: {e.Reason}\");\n};\n\n// Track bomb events\ndemo.Source1GameEvents.BombPlanted += e => \n{\n    Console.WriteLine($\"Bomb planted by {e.Player?.PlayerName} at site {e.Site}\");\n};\n\ndemo.Source1GameEvents.BombDefused += e => \n{\n    Console.WriteLine($\"Bomb defused by {e.Player?.PlayerName}\");\n};\n\nvar reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));\nawait reader.ReadAllAsync();\n```",
+    "ContentSha": "dNJi83FP05SZZ78NvAjDOmekymBvhL7qLUIfoq+XGZM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```c#\nvar demo = new CsDemoParser();\n\n// Track round wins\ndemo.Source1GameEvents.RoundEnd += e => \n{\n    Console.WriteLine($\"Round ended. Winner: {e.Winner}. Reason: {e.Reason}\");\n};\n\n// Track bomb events\ndemo.Source1GameEvents.BombPlanted += e => \n{\n    Console.WriteLine($\"Bomb planted by {e.Player?.PlayerName} at site {e.Site}\");\n};\n\ndemo.Source1GameEvents.BombDefused += e => \n{\n    Console.WriteLine($\"Bomb defused by {e.Player?.PlayerName}\");\n};\n\nvar reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));\nawait reader.ReadAllAsync();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZFeo+RWCoqeE/vNh4JrC8vBUV9Ckx9K4j+fOmHbEcxU=",
+        "originContent": "```c#",
+        "translatedContent": "```c#"
+      },
+      {
+        "row": 2,
+        "rowsha": "P1BoVwxX56llSZKRBM6WoYrtWnIb/VI54pVwxBgKqBY=",
+        "originContent": "var demo = new CsDemoParser();",
+        "translatedContent": "var demo = new CsDemoParser();"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nGSpzy/rpbinGmsh5KnddHm+PMDEvJSLrnpRT1ruofY=",
+        "originContent": "// Track round wins",
+        "translatedContent": "// Track round wins"
+      },
+      {
+        "row": 5,
+        "rowsha": "mqKz+v4j8Cw4zEuKH+qRo0twTAosF/gfQxZsHnDgsLI=",
+        "originContent": "demo.Source1GameEvents.RoundEnd += e => ",
+        "translatedContent": "demo.Source1GameEvents.RoundEnd += e => "
+      },
+      {
+        "row": 6,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 7,
+        "rowsha": "iB5gjqZlEhlkH/vBYQVHA1N6ZlZ6pq/fwaoFZM+aDPo=",
+        "originContent": "    Console.WriteLine($\"Round ended. Winner: {e.Winner}. Reason: {e.Reason}\");",
+        "translatedContent": "    Console.WriteLine($\"Round ended. Winner: {e.Winner}. Reason: {e.Reason}\");"
+      },
+      {
+        "row": 8,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "m63+CniI/+Ag2amz9Ncnti0pS5cBFEFRaw1LfAT31/M=",
+        "originContent": "// Track bomb events",
+        "translatedContent": "// Track bomb events"
+      },
+      {
+        "row": 11,
+        "rowsha": "gRtPBisDKXNMU4DXzcPqdQrHf9FwSGiZwvJqGpgXXA4=",
+        "originContent": "demo.Source1GameEvents.BombPlanted += e => ",
+        "translatedContent": "demo.Source1GameEvents.BombPlanted += e => "
+      },
+      {
+        "row": 12,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 13,
+        "rowsha": "2V9j+SxlcH2HMdl9v3SxULgHwlFxnBDMUeSdNHZcSZc=",
+        "originContent": "    Console.WriteLine($\"Bomb planted by {e.Player?.PlayerName} at site {e.Site}\");",
+        "translatedContent": "    Console.WriteLine($\"Bomb planted by {e.Player?.PlayerName} at site {e.Site}\");"
+      },
+      {
+        "row": 14,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "NApz85gW/3uT4I3+9ytDO9v5UGyQJI/ncM+HGQNMLkM=",
+        "originContent": "demo.Source1GameEvents.BombDefused += e => ",
+        "translatedContent": "demo.Source1GameEvents.BombDefused += e => "
+      },
+      {
+        "row": 17,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 18,
+        "rowsha": "5ZthtHkUJdmJZigZSsmJkwLIitVDB9sIZizrJiUboZQ=",
+        "originContent": "    Console.WriteLine($\"Bomb defused by {e.Player?.PlayerName}\");",
+        "translatedContent": "    Console.WriteLine($\"Bomb defused by {e.Player?.PlayerName}\");"
+      },
+      {
+        "row": 19,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "alJewAsMcRK1xKmRsjL00NnO4Kjo3/sU2RqDxo7TEJs=",
+        "originContent": "var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));",
+        "translatedContent": "var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));"
+      },
+      {
+        "row": 22,
+        "rowsha": "Pn2YAm5dyyQGKaV3K72JjlAWuYZ1WNMTrGIff3deZTo=",
+        "originContent": "await reader.ReadAllAsync();",
+        "translatedContent": "await reader.ReadAllAsync();"
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Parallel Processing for Maximum Performance\n\nFor maximum performance, parse demos in parallel using multiple CPU cores:\n",
+    "ContentSha": "vZerMnyxpCfxp+ksvZmo2wv2ncYtIpwHIR4vfNnbO+w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 최대 성능을 위한 병렬 처리\n\n최대 성능을 위해 여러 CPU 코어를 사용하여 데모를 병렬로 파싱하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZsgSC0jjogn20pEmu+jR45z0+1IWkezBd6T5zrhdXXE=",
+        "originContent": "### Parallel Processing for Maximum Performance",
+        "translatedContent": "### 최대 성능을 위한 병렬 처리"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "j+deNPEf2tzUXIbAJ/+8a0mdWMb6+EI35cM1YKAHOR4=",
+        "originContent": "For maximum performance, parse demos in parallel using multiple CPU cores:",
+        "translatedContent": "최대 성능을 위해 여러 CPU 코어를 사용하여 데모를 병렬로 파싱하세요:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```c#\nvar demo = new CsDemoParser();\n// Set up your event handlers...\n\nvar reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));\nawait reader.ReadAllParallelAsync();  // Uses all available CPU cores\n```",
+    "ContentSha": "QlxNb+QAHP7UCJYqX0RWCh9BC+TkhhkW2sBFf1K6ups=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```c#\nvar demo = new CsDemoParser();\n// Set up your event handlers...\n\nvar reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));\nawait reader.ReadAllParallelAsync();  // Uses all available CPU cores\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZFeo+RWCoqeE/vNh4JrC8vBUV9Ckx9K4j+fOmHbEcxU=",
+        "originContent": "```c#",
+        "translatedContent": "```c#"
+      },
+      {
+        "row": 2,
+        "rowsha": "P1BoVwxX56llSZKRBM6WoYrtWnIb/VI54pVwxBgKqBY=",
+        "originContent": "var demo = new CsDemoParser();",
+        "translatedContent": "var demo = new CsDemoParser();"
+      },
+      {
+        "row": 3,
+        "rowsha": "nSiLJTL/HNJo5yUQiG44gLrwSxY9F3YhegGbkhDwth0=",
+        "originContent": "// Set up your event handlers...",
+        "translatedContent": "// Set up your event handlers..."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "alJewAsMcRK1xKmRsjL00NnO4Kjo3/sU2RqDxo7TEJs=",
+        "originContent": "var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));",
+        "translatedContent": "var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));"
+      },
+      {
+        "row": 6,
+        "rowsha": "dlU9COoP19tf0HZzaoYIW4nyGIu+phcsL96BJhOB8KA=",
+        "originContent": "await reader.ReadAllParallelAsync();  // Uses all available CPU cores",
+        "translatedContent": "await reader.ReadAllParallelAsync();  // Uses all available CPU cores"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### HTTP Broadcast Support\n\nDemoFile.Net can parse live HTTP broadcasts:\n",
+    "ContentSha": "TO9gdc/qMshmjls24GIPj4kTrttnrGH0cbPhrbiJB+Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### HTTP 방송 지원\n\nDemoFile.Net은 라이브 HTTP 방송을 파싱할 수 있습니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "N3vit/DhV5kmhLMYd+qoqvR1ZMDZvN4QfDhSQSDEkvM=",
+        "originContent": "### HTTP Broadcast Support",
+        "translatedContent": "### HTTP 방송 지원"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "/VVSdFzBFewkS7kbJur/nSL5HbmTXMNBFZuOWFLdqwc=",
+        "originContent": "DemoFile.Net can parse live HTTP broadcasts:",
+        "translatedContent": "DemoFile.Net은 라이브 HTTP 방송을 파싱할 수 있습니다:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```c#\nvar demo = new CsDemoParser();\n// Set up your event handlers...\n\nvar reader = HttpBroadcastReader.Create(demo, \"http://localhost:8080/broadcast\");\nawait reader.ReadAllAsync();\n```",
+    "ContentSha": "iKxL1Foun1ZDBZbUSkXGBHaoRQUwkUMqAflvfY+sAoI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```c#\nvar demo = new CsDemoParser();\n// Set up your event handlers...\n\nvar reader = HttpBroadcastReader.Create(demo, \"http://localhost:8080/broadcast\");\nawait reader.ReadAllAsync();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZFeo+RWCoqeE/vNh4JrC8vBUV9Ckx9K4j+fOmHbEcxU=",
+        "originContent": "```c#",
+        "translatedContent": "```c#"
+      },
+      {
+        "row": 2,
+        "rowsha": "P1BoVwxX56llSZKRBM6WoYrtWnIb/VI54pVwxBgKqBY=",
+        "originContent": "var demo = new CsDemoParser();",
+        "translatedContent": "var demo = new CsDemoParser();"
+      },
+      {
+        "row": 3,
+        "rowsha": "nSiLJTL/HNJo5yUQiG44gLrwSxY9F3YhegGbkhDwth0=",
+        "originContent": "// Set up your event handlers...",
+        "translatedContent": "// Set up your event handlers..."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "T0wyeiK9yeS/uY/ij3F7Hrq4g50Zx000GFiRiiqwOZM=",
+        "originContent": "var reader = HttpBroadcastReader.Create(demo, \"http://localhost:8080/broadcast\");",
+        "translatedContent": "var reader = HttpBroadcastReader.Create(demo, \"http://localhost:8080/broadcast\");"
+      },
+      {
+        "row": 6,
+        "rowsha": "Pn2YAm5dyyQGKaV3K72JjlAWuYZ1WNMTrGIff3deZTo=",
+        "originContent": "await reader.ReadAllAsync();",
+        "translatedContent": "await reader.ReadAllAsync();"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nSee the [examples/](https://github.com/saul/demofile-net/tree/main/examples) folder for more complete examples:\n\n- [Basic](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.Basic/Program.cs) - Simple demo parsing\n- [MultiThreaded](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.MultiThreaded/Program.cs) - Parallel processing for maximum performance\n- [PlayerPositions](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.PlayerPositions/Program.cs) - Tracking player positions and movements\n- [HttpBroadcast](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.HttpBroadcast/Program.cs) - Parsing live HTTP broadcasts\n\n## Benchmarks\n\nOn an M1 MacBook Pro, DemoFile.Net can read a full competitive game (just under 1 hour of game time) in 1.3 seconds.\nWhen parsing across multiple threads, using the `ReadAllParallelAsync` method, this drops to nearly 500 milliseconds.\nThis includes parsing all entity data (player positions, velocities, weapon tracking, grenades, etc).\n\n| Method            |           Mean |    Error |   StdDev | Allocated |\n|-------------------|---------------:|---------:|---------:|----------:|\n| ParseDemo         | **1,294.6 ms** |  3.68 ms |  2.88 ms | 491.48 MB |\n| ParseDemoParallel |   **540.1 ms** | 23.99 ms | 22.44 ms | 600.67 MB |\n\n## Author and acknowledgements\n\nDemoFile.Net is developed by [Saul Rennison](https://saul.re). The development of this library would not have been\npossible without [demoparser by LaihoE](https://github.com/LaihoE/demoparser)\nand [Manta by Dotabuff](https://raw.githubusercontent.com/dotabuff/manta/master/README.md), the latter of which depends\non the efforts of a number of people:\n\n- [Michael Fellinger](https://github.com/manveru) built Dotabuff's Source 1\n  parser [yasha](https://github.com/dotabuff/yasha).\n- [Robin Dietrich](https://github.com/invokr) built the C++ parser [Alice](https://github.com/AliceStats/Alice).\n- [Martin Schrodt](https://github.com/spheenik) built the Java parser [clarity](https://github.com/skadistats/clarity).\n- [Drew Schleck](https://github.com/dschleck) built an original C++ parser [edith](https://github.com/dschleck/edith).\n\nA modified version of [Source2Gen by neverlosecc](https://github.com/neverlosecc/source2gen) is used to statically\ngenerate the game schema classes and enums.\n\nSee [ACKNOWLEDGEMENTS](./ACKNOWLEDGEMENTS) for license information.\n",
+    "ContentSha": "V2h+nOf6woaqXdGteTU2flw5EZzXxym/LXAnUM3KB1Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[examples/](https://github.com/saul/demofile-net/tree/main/examples) 폴더에서 더 완성도 높은 예제를 확인하세요:\n\n- [Basic](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.Basic/Program.cs) - 간단한 데모 파싱\n- [MultiThreaded](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.MultiThreaded/Program.cs) - 최대 성능을 위한 병렬 처리\n- [PlayerPositions](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.PlayerPositions/Program.cs) - 플레이어 위치 및 이동 추적\n- [HttpBroadcast](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.HttpBroadcast/Program.cs) - 실시간 HTTP 방송 파싱\n\n## 벤치마크\n\nM1 MacBook Pro에서 DemoFile.Net은 전체 경쟁 게임(약 1시간 게임 시간)을 1.3초 만에 읽을 수 있습니다.\n`ReadAllParallelAsync` 메서드를 사용해 여러 스레드로 파싱할 경우 거의 500밀리초까지 단축됩니다.\n여기에는 모든 엔티티 데이터(플레이어 위치, 속도, 무기 추적, 수류탄 등) 파싱이 포함됩니다.\n\n| 메서드             |           평균 |    오류 |   표준편차 | 할당량     |\n|-------------------|---------------:|---------:|---------:|----------:|\n| ParseDemo         | **1,294.6 ms** |  3.68 ms |  2.88 ms | 491.48 MB |\n| ParseDemoParallel |   **540.1 ms** | 23.99 ms | 22.44 ms | 600.67 MB |\n\n## 저자 및 감사의 글\n\nDemoFile.Net은 [Saul Rennison](https://saul.re)이 개발했습니다. 이 라이브러리 개발은\n[demoparser by LaihoE](https://github.com/LaihoE/demoparser)\n와 [Manta by Dotabuff](https://raw.githubusercontent.com/dotabuff/manta/master/README.md) 없이는 불가능했으며,\n후자는 여러 사람들의 노력에 의존합니다:\n\n- [Michael Fellinger](https://github.com/manveru)는 Dotabuff의 Source 1\n  파서 [yasha](https://github.com/dotabuff/yasha)를 개발했습니다.\n- [Robin Dietrich](https://github.com/invokr)는 C++ 파서 [Alice](https://github.com/AliceStats/Alice)를 개발했습니다.\n- [Martin Schrodt](https://github.com/spheenik)는 Java 파서 [clarity](https://github.com/skadistats/clarity)를 개발했습니다.\n- [Drew Schleck](https://github.com/dschleck)는 원본 C++ 파서 [edith](https://github.com/dschleck/edith)를 개발했습니다.\n\n수정된 버전의 [Source2Gen by neverlosecc](https://github.com/neverlosecc/source2gen)가 게임 스키마 클래스 및 열거형을\n정적으로 생성하는 데 사용됩니다.\n\n라이선스 정보는 [ACKNOWLEDGEMENTS](./ACKNOWLEDGEMENTS)에서 확인하세요.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[examples/](https://github.com/saul/demofile-net/tree/main/examples) 폴더에서 더 완성도 높은 예제를 확인하세요:"
+      },
+      {
+        "row": 2,
+        "rowsha": "w4RDCKsp2QYW0zKbU7T8FNal44Xpjk2Vr4urX6Q1Zmk=",
+        "originContent": "See the [examples/](https://github.com/saul/demofile-net/tree/main/examples) folder for more complete examples:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Basic](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.Basic/Program.cs) - 간단한 데모 파싱"
+      },
+      {
+        "row": 4,
+        "rowsha": "eKfc4H99G5vGnJBldGGf/Z7ZW9CTZPHzGkeXUMi/X3Q=",
+        "originContent": "- [Basic](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.Basic/Program.cs) - Simple demo parsing",
+        "translatedContent": "- [MultiThreaded](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.MultiThreaded/Program.cs) - 최대 성능을 위한 병렬 처리"
+      },
+      {
+        "row": 5,
+        "rowsha": "7dGXtR/b+uJsfb8NwWJnvA/WFE3Rw8C6V+G2PlBHMnc=",
+        "originContent": "- [MultiThreaded](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.MultiThreaded/Program.cs) - Parallel processing for maximum performance",
+        "translatedContent": "- [PlayerPositions](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.PlayerPositions/Program.cs) - 플레이어 위치 및 이동 추적"
+      },
+      {
+        "row": 6,
+        "rowsha": "pVadXLG/z0lJ+4z6jiELxKq7chpWNdeep9XPtbiq4tk=",
+        "originContent": "- [PlayerPositions](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.PlayerPositions/Program.cs) - Tracking player positions and movements",
+        "translatedContent": "- [HttpBroadcast](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.HttpBroadcast/Program.cs) - 실시간 HTTP 방송 파싱"
+      },
+      {
+        "row": 7,
+        "rowsha": "U0p9ACPp9lBCGsW2LHtAIbH8ntzxPipLdiKdcGsdFA0=",
+        "originContent": "- [HttpBroadcast](https://raw.githubusercontent.com/saul/demofile-net/main/./examples/DemoFile.Example.HttpBroadcast/Program.cs) - Parsing live HTTP broadcasts",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 벤치마크"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZrB6WAnr2MUw+xxeGHyQMYA7Rp0gMGJzZS08QrJ5eE8=",
+        "originContent": "## Benchmarks",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "M1 MacBook Pro에서 DemoFile.Net은 전체 경쟁 게임(약 1시간 게임 시간)을 1.3초 만에 읽을 수 있습니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "sD9iyDlG935TakjY+F7hHPVd/gH/W3r9GPKGwQwlFWw=",
+        "originContent": "On an M1 MacBook Pro, DemoFile.Net can read a full competitive game (just under 1 hour of game time) in 1.3 seconds.",
+        "translatedContent": "`ReadAllParallelAsync` 메서드를 사용해 여러 스레드로 파싱할 경우 거의 500밀리초까지 단축됩니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "rWbHqIwta3jiEpcWv0taQcA2QwTEG12XuGjDpeLoa5g=",
+        "originContent": "When parsing across multiple threads, using the `ReadAllParallelAsync` method, this drops to nearly 500 milliseconds.",
+        "translatedContent": "여기에는 모든 엔티티 데이터(플레이어 위치, 속도, 무기 추적, 수류탄 등) 파싱이 포함됩니다."
+      },
+      {
+        "row": 13,
+        "rowsha": "hnUjGYqFbB+HRajxSh8way/D7JNRJPwUMpHV6T+5W8I=",
+        "originContent": "This includes parsing all entity data (player positions, velocities, weapon tracking, grenades, etc).",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 메서드             |           평균 |    오류 |   표준편차 | 할당량     |"
+      },
+      {
+        "row": 15,
+        "rowsha": "JezRTT0SdqQSStVzbynBKK/DsE3qoRLHWExh7C8DTRY=",
+        "originContent": "| Method            |           Mean |    Error |   StdDev | Allocated |",
+        "translatedContent": "|-------------------|---------------:|---------:|---------:|----------:|"
+      },
+      {
+        "row": 16,
+        "rowsha": "y0D/cWJDBHWTwRF6NWa+pFaeCAi5t0wAUbOCW1rYHn8=",
+        "originContent": "|-------------------|---------------:|---------:|---------:|----------:|",
+        "translatedContent": "| ParseDemo         | **1,294.6 ms** |  3.68 ms |  2.88 ms | 491.48 MB |"
+      },
+      {
+        "row": 17,
+        "rowsha": "LK3TYxE9Ly9TH6obfRZXndcIOWtzpmHknJFYZAGnbZc=",
+        "originContent": "| ParseDemo         | **1,294.6 ms** |  3.68 ms |  2.88 ms | 491.48 MB |",
+        "translatedContent": "| ParseDemoParallel |   **540.1 ms** | 23.99 ms | 22.44 ms | 600.67 MB |"
+      },
+      {
+        "row": 18,
+        "rowsha": "iZsHQmf7fOIjRfPWQzwANgfSwBf8dNHgomgsQYoknh8=",
+        "originContent": "| ParseDemoParallel |   **540.1 ms** | 23.99 ms | 22.44 ms | 600.67 MB |",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 저자 및 감사의 글"
+      },
+      {
+        "row": 20,
+        "rowsha": "9kdiK4brEAUH16EKcP1fAwYwPnNWKrFC1lyFLLfStJQ=",
+        "originContent": "## Author and acknowledgements",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "DemoFile.Net은 [Saul Rennison](https://saul.re)이 개발했습니다. 이 라이브러리 개발은"
+      },
+      {
+        "row": 22,
+        "rowsha": "+0nor1EzBdIUQkSltvFr+wsbgjweRauJ3pDreqCEMJg=",
+        "originContent": "DemoFile.Net is developed by [Saul Rennison](https://saul.re). The development of this library would not have been",
+        "translatedContent": "[demoparser by LaihoE](https://github.com/LaihoE/demoparser)"
+      },
+      {
+        "row": 23,
+        "rowsha": "35GWBAI/oGAswH4Jgh9fqEYbhvZ0OOpUsNZe6rRwyq8=",
+        "originContent": "possible without [demoparser by LaihoE](https://github.com/LaihoE/demoparser)",
+        "translatedContent": "와 [Manta by Dotabuff](https://raw.githubusercontent.com/dotabuff/manta/master/README.md) 없이는 불가능했으며,"
+      },
+      {
+        "row": 24,
+        "rowsha": "sCr/zWDRm/AXN/w7njbQaEyVjU4Pba4TYA+IMwBC99Y=",
+        "originContent": "and [Manta by Dotabuff](https://raw.githubusercontent.com/dotabuff/manta/master/README.md), the latter of which depends",
+        "translatedContent": "후자는 여러 사람들의 노력에 의존합니다:"
+      },
+      {
+        "row": 25,
+        "rowsha": "fadRz+0BUVm1PEHZXjtk1KG1I5gGEheA8dfUmzlr+vE=",
+        "originContent": "on the efforts of a number of people:",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Michael Fellinger](https://github.com/manveru)는 Dotabuff의 Source 1"
+      },
+      {
+        "row": 27,
+        "rowsha": "9HqZ3gZHA+PoYZIXq/YQ8J2zIh4OctvXvLpmtqjXkqM=",
+        "originContent": "- [Michael Fellinger](https://github.com/manveru) built Dotabuff's Source 1",
+        "translatedContent": "  파서 [yasha](https://github.com/dotabuff/yasha)를 개발했습니다."
+      },
+      {
+        "row": 28,
+        "rowsha": "QWqkkFd2IqAA3y/PTGfR6xDGzY4QJ2w6kLGsCzYLeGw=",
+        "originContent": "  parser [yasha](https://github.com/dotabuff/yasha).",
+        "translatedContent": "- [Robin Dietrich](https://github.com/invokr)는 C++ 파서 [Alice](https://github.com/AliceStats/Alice)를 개발했습니다."
+      },
+      {
+        "row": 29,
+        "rowsha": "NSnejjlDWXXbaq9u2q5C+RO25OaTtlO5opOkwkcK4XY=",
+        "originContent": "- [Robin Dietrich](https://github.com/invokr) built the C++ parser [Alice](https://github.com/AliceStats/Alice).",
+        "translatedContent": "- [Martin Schrodt](https://github.com/spheenik)는 Java 파서 [clarity](https://github.com/skadistats/clarity)를 개발했습니다."
+      },
+      {
+        "row": 30,
+        "rowsha": "gXsKcPp8fFXkMK/Mj2oErTz3Pj6I6QIDVXoWgYl1keA=",
+        "originContent": "- [Martin Schrodt](https://github.com/spheenik) built the Java parser [clarity](https://github.com/skadistats/clarity).",
+        "translatedContent": "- [Drew Schleck](https://github.com/dschleck)는 원본 C++ 파서 [edith](https://github.com/dschleck/edith)를 개발했습니다."
+      },
+      {
+        "row": 31,
+        "rowsha": "TXy33ZwHamYNHkIHazscM2bGiGRmZTh8lD6CbzEAYhc=",
+        "originContent": "- [Drew Schleck](https://github.com/dschleck) built an original C++ parser [edith](https://github.com/dschleck/edith).",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "수정된 버전의 [Source2Gen by neverlosecc](https://github.com/neverlosecc/source2gen)가 게임 스키마 클래스 및 열거형을"
+      },
+      {
+        "row": 33,
+        "rowsha": "cw6Ux/VqzsVtG23iYqHg1lRfZoSGWbp+SCW0VO6Mp00=",
+        "originContent": "A modified version of [Source2Gen by neverlosecc](https://github.com/neverlosecc/source2gen) is used to statically",
+        "translatedContent": "정적으로 생성하는 데 사용됩니다."
+      },
+      {
+        "row": 34,
+        "rowsha": "u5xreG/8pVqGWZbywAkuKwHYsF4JkuX1nFdODsqcMkM=",
+        "originContent": "generate the game schema classes and enums.",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "라이선스 정보는 [ACKNOWLEDGEMENTS](./ACKNOWLEDGEMENTS)에서 확인하세요."
+      },
+      {
+        "row": 36,
+        "rowsha": "SBvZ3paGtjeSdt3bZ0WtQHHK6/oVMc0gZnyUkhQZViw=",
+        "originContent": "See [ACKNOWLEDGEMENTS](./ACKNOWLEDGEMENTS) for license information.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

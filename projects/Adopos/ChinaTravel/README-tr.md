@@ -269,6 +269,6 @@ Makalemiz veya ilgili kaynaklarımız araştırmanız için değerli olduysa, l�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-16
 
 ---

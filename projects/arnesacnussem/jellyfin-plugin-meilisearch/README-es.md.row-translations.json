@@ -1,0 +1,302 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Csbn0mUe/5Zb+FZ+eBnRf3S7gt/2DBIlR9Fd7YlK3Iw=",
+    "originContent": "# Meilisearch Plugin for Jellyfin",
+    "translatedContent": "# Plugin Meilisearch para Jellyfin"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "TGCmrN5rDYfUiI7ChshPHTADb9PCGKuUzSejFvEcHeo=",
+    "originContent": "A plugin for Jellyfin that try to improves search speed and result by utilize Meilisearch as search engine.",
+    "translatedContent": "Un plugin para Jellyfin que intenta mejorar la velocidad de búsqueda y los resultados utilizando Meilisearch como motor de búsqueda."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "1dcmT07SuJ+HPA60MSiz5+c7qVuB3thYWzunGVv/gnQ=",
+    "originContent": "This plugin offload search logic to Meilisearch, and modifies response from Jellyfin.",
+    "translatedContent": "Este plugin descarga la lógica de búsqueda a Meilisearch y modifica la respuesta de Jellyfin."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "QYfF1T1MMzb1ZJv6E4Sod7WzbZGM173gQSwap4cB8Hc=",
+    "originContent": "As long as your client uses `/Items` endpoint for search, it should be supported seamlessly I guess.",
+    "translatedContent": "Mientras tu cliente use el endpoint `/Items` para la búsqueda, debería ser compatible sin problemas, supongo."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "mcN0UZyapKmtL6j31AIAwEkO+p41iMqd0QkFES1LmOs=",
+    "originContent": "Inspired by [JellySearch](https://gitlab.com/DomiStyle/jellysearch).",
+    "translatedContent": "Inspirado por [JellySearch](https://gitlab.com/DomiStyle/jellysearch)."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+    "originContent": "### Usage",
+    "translatedContent": "### Uso"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "UAGQq7PVZL5Zk1WCC+p/ocSLlXZ31hX6nf1myYU2TPQ=",
+    "originContent": "1. Setup a Meilisearch instance (maybe a hosted one in the cloud will also work, but I don't recommend).",
+    "translatedContent": "1. Configura una instancia de Meilisearch (quizás una alojada en la nube también funcione, pero no lo recomiendo)."
+  },
+  {
+    "row": 16,
+    "rowsha": "fzY7gzEqwqIeC4gaRtWxFVekTgWWljglvYLaM55WT9o=",
+    "originContent": "2. Add following repository and install the Meilisearch plugin.",
+    "translatedContent": "2. Añade el siguiente repositorio e instala el plugin de Meilisearch."
+  },
+  {
+    "row": 17,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 18,
+    "rowsha": "cRsqyDwRHlX/X92RwAQT6f0MtBKR7f7sJOrZ8iZrCwg=",
+    "originContent": "    https://raw.githubusercontent.com/arnesacnussem/jellyfin-plugin-meilisearch/refs/heads/master/manifest.json",
+    "translatedContent": "    https://raw.githubusercontent.com/arnesacnussem/jellyfin-plugin-meilisearch/refs/heads/master/manifest.json"
+  },
+  {
+    "row": 19,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 20,
+    "rowsha": "cP0oaTLo8DAAqRQWO5SP4IUP/1v4qOb7jmgnO0rnPts=",
+    "originContent": "3. Fill url to your Meilisearch instance in plugin settings, and maybe api key also required according to your Meilisearch setup.",
+    "translatedContent": "3. Rellene la URL de su instancia de Meilisearch en la configuración del plugin, y tal vez también se requiera la clave API según la configuración de su Meilisearch.  "
+  },
+  {
+    "row": 21,
+    "rowsha": "jXAOVMqR2LuZR9XfMD5RXZ61r07AnVwU0Dr9wt7Rxqc=",
+    "originContent": "4. If you want share one Meilisearch instance across multiple Jellyfin instance, you can fill the `Meilisearch Index Name`, if leaving empty, it will use the server name.",
+    "translatedContent": "4. Si desea compartir una instancia de Meilisearch entre múltiples instancias de Jellyfin, puede rellenar el `Nombre del Índice de Meilisearch`; si lo deja vacío, usará el nombre del servidor.  "
+  },
+  {
+    "row": 22,
+    "rowsha": "+q7o8RDdIpE8MBKYJttWE7D07REf6z0MLy54tGHj4rQ=",
+    "originContent": "5. Remember click `Save` and make sure the status reports `ok`.",
+    "translatedContent": "5. Recuerde hacer clic en `Guardar` y asegúrese de que el estado informe `ok`.  "
+  },
+  {
+    "row": 23,
+    "rowsha": "iR7kaIzpKfGhfkSe7FvrpQ3BGxldn6WjsDvK7lHiUKo=",
+    "originContent": "6. Try typing something in search page.",
+    "translatedContent": "6. Intente escribir algo en la página de búsqueda.  "
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "TJyStMPH+nr/okPtOveDH0mLXFadF+GGPHkODS/1Aww=",
+    "originContent": "    ---",
+    "translatedContent": "    ---  "
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "LH1hyZeiQY1a+xD6CPjmvhJ5AuTJtyh8RVYi90LDb8I=",
+    "originContent": "Index will update on following events:",
+    "translatedContent": "El índice se actualizará en los siguientes eventos:  "
+  },
+  {
+    "row": 28,
+    "rowsha": "P8XFijUQRKIWxTD8d7nU7UvCeMQaz2L4tE1mZcBPASc=",
+    "originContent": "- Server start",
+    "translatedContent": "- Inicio del servidor  "
+  },
+  {
+    "row": 29,
+    "rowsha": "8Vsv/yOci6OLna8HInaHXRA1bciRo6qDx9T6Ui11PHE=",
+    "originContent": "- Configuration change",
+    "translatedContent": "- Cambio de configuración  "
+  },
+  {
+    "row": 30,
+    "rowsha": "3pAIberxeRSrlwuosrdU575Jrzc8CR1yzZjp43ySKRM=",
+    "originContent": "- Library scan complete",
+    "translatedContent": "- Escaneo completo de la biblioteca  "
+  },
+  {
+    "row": 31,
+    "rowsha": "8eoD/VZdVrkgbuzCKMDM7/vuBbc4T4wA/x9QmwKar18=",
+    "originContent": "- Update index task being triggered",
+    "translatedContent": "- Tarea de actualización de índice activada  "
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---  "
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "FLUdG6q+Y9dSDbuA0a513hsEGBMcpbQ+dgUneBfVnEQ=",
+    "originContent": "### How it works",
+    "translatedContent": "### Cómo funciona  "
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "DEYab7WVlpvHt++lWEMhjGgyYEbdq0RyLQKybH+jPxc=",
+    "originContent": "The core feature, which is to mutate the search request, is done by injecting an [`ActionFilter`](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-8.0#action-filters).",
+    "translatedContent": "La función principal, que es modificar la solicitud de búsqueda, se realiza inyectando un [`ActionFilter`](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-8.0#action-filters).  "
+  },
+  {
+    "row": 38,
+    "rowsha": "7MtMGSuNr+hv3eJ9J9WSisXFEAOivVrEW8jfoSarFD4=",
+    "originContent": "So it may only support a few versions of Jellyfin. At the moment I'm using `Jellyfin 10.10.0`,",
+    "translatedContent": "Por lo tanto, puede que solo sea compatible con algunas versiones de Jellyfin. En este momento estoy usando `Jellyfin 10.10.0`,  "
+  },
+  {
+    "row": 39,
+    "rowsha": "/7mfuudzdfvtVvsrQCzA3WEjQ8B2wyFXNDmuIHGUCWM=",
+    "originContent": "but it should work on other versions as long as the required parameter name of `/Items` endpoint doesn't change.",
+    "translatedContent": "pero debería funcionar en otras versiones siempre que no cambie el nombre del parámetro requerido del endpoint `/Items`.  "
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---  "
+  },
+  {
+    "row": 42,
+    "rowsha": "VtxtR3N9FVr93v2hryDEDJATU8Ii0B5wt7TgIfLk9Ug=",
+    "originContent": "###",
+    "translatedContent": "###  "
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "wG5qh4LmaE6xnAvkmbMbOi/8vYHroh93gj1YALDDvyY=",
+    "originContent": "I've seen JellySearch, which is a wonderful project, but I don't really like setting up a reverse proxy or any of that hassle.",
+    "translatedContent": "He visto JellySearch, que es un proyecto maravilloso, pero realmente no me gusta configurar un proxy inverso ni toda esa complicación.  "
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "4zRJL5uXY+QejGAuitCWII7JVaih62ZC/NEcJ/kjIIU=",
+    "originContent": "So I am writing this, but it still requires a Meilisearch instance.",
+    "translatedContent": "Así que estoy escribiendo esto, pero aún requiere una instancia de Meilisearch.  "
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "G4Rs6lOsOd9xrL2iq6WH3hwJQQIBk5HILn7+22SVSZc=",
+    "originContent": "At this moment, only the `/Items` endpoint is affected by this plugin, but it still improves a lot on my 200k items library.",
+    "translatedContent": "En este momento, solo el endpoint `/Items` se ve afectado por este plugin, pero aún así mejora mucho en mi biblioteca de 200k ítems.  "
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

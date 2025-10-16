@@ -1,0 +1,341 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Meilisearch Plugin for Jellyfin\n\nA plugin for Jellyfin that try to improves search speed and result by utilize Meilisearch as search engine.\n\nThis plugin offload search logic to Meilisearch, and modifies response from Jellyfin.\n\nAs long as your client uses `/Items` endpoint for search, it should be supported seamlessly I guess.\n\nInspired by [JellySearch](https://gitlab.com/DomiStyle/jellysearch).\n\n---\n\n### Usage\n\n1. Setup a Meilisearch instance (maybe a hosted one in the cloud will also work, but I don't recommend).\n2. Add following repository and install the Meilisearch plugin.",
+    "ContentSha": "1FbyMhWWKlMS3dvXVri8X/FgO4aP/4Qi8c5UBm8e080=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Jellyfin용 Meilisearch 플러그인\n\nMeilisearch를 검색 엔진으로 활용하여 검색 속도와 결과를 향상시키려는 Jellyfin용 플러그인입니다.\n\n이 플러그인은 검색 로직을 Meilisearch로 오프로드하고 Jellyfin의 응답을 수정합니다.\n\n클라이언트가 `/Items` 엔드포인트를 검색에 사용하는 한 원활하게 지원될 것이라고 생각합니다.\n\n[JellySearch](https://gitlab.com/DomiStyle/jellysearch)에서 영감을 받았습니다.\n\n---\n\n### 사용법\n\n1. Meilisearch 인스턴스를 설정합니다(클라우드에 호스팅된 인스턴스도 작동할 수 있지만 추천하지 않습니다).\n2. 다음 저장소를 추가하고 Meilisearch 플러그인을 설치합니다.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Csbn0mUe/5Zb+FZ+eBnRf3S7gt/2DBIlR9Fd7YlK3Iw=",
+        "originContent": "# Meilisearch Plugin for Jellyfin",
+        "translatedContent": "# Jellyfin용 Meilisearch 플러그인"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "TGCmrN5rDYfUiI7ChshPHTADb9PCGKuUzSejFvEcHeo=",
+        "originContent": "A plugin for Jellyfin that try to improves search speed and result by utilize Meilisearch as search engine.",
+        "translatedContent": "Meilisearch를 검색 엔진으로 활용하여 검색 속도와 결과를 향상시키려는 Jellyfin용 플러그인입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "1dcmT07SuJ+HPA60MSiz5+c7qVuB3thYWzunGVv/gnQ=",
+        "originContent": "This plugin offload search logic to Meilisearch, and modifies response from Jellyfin.",
+        "translatedContent": "이 플러그인은 검색 로직을 Meilisearch로 오프로드하고 Jellyfin의 응답을 수정합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "QYfF1T1MMzb1ZJv6E4Sod7WzbZGM173gQSwap4cB8Hc=",
+        "originContent": "As long as your client uses `/Items` endpoint for search, it should be supported seamlessly I guess.",
+        "translatedContent": "클라이언트가 `/Items` 엔드포인트를 검색에 사용하는 한 원활하게 지원될 것이라고 생각합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "mcN0UZyapKmtL6j31AIAwEkO+p41iMqd0QkFES1LmOs=",
+        "originContent": "Inspired by [JellySearch](https://gitlab.com/DomiStyle/jellysearch).",
+        "translatedContent": "[JellySearch](https://gitlab.com/DomiStyle/jellysearch)에서 영감을 받았습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+        "originContent": "### Usage",
+        "translatedContent": "### 사용법"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "UAGQq7PVZL5Zk1WCC+p/ocSLlXZ31hX6nf1myYU2TPQ=",
+        "originContent": "1. Setup a Meilisearch instance (maybe a hosted one in the cloud will also work, but I don't recommend).",
+        "translatedContent": "1. Meilisearch 인스턴스를 설정합니다(클라우드에 호스팅된 인스턴스도 작동할 수 있지만 추천하지 않습니다)."
+      },
+      {
+        "row": 16,
+        "rowsha": "fzY7gzEqwqIeC4gaRtWxFVekTgWWljglvYLaM55WT9o=",
+        "originContent": "2. Add following repository and install the Meilisearch plugin.",
+        "translatedContent": "2. 다음 저장소를 추가하고 Meilisearch 플러그인을 설치합니다."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "    ```\n    https://raw.githubusercontent.com/arnesacnussem/jellyfin-plugin-meilisearch/refs/heads/master/manifest.json\n    ```",
+    "ContentSha": "QndVby7sWLQpRY6DH8/KuAv8aNPYdarBa2Miu8BKyWc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```\n    https://raw.githubusercontent.com/arnesacnussem/jellyfin-plugin-meilisearch/refs/heads/master/manifest.json\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "cRsqyDwRHlX/X92RwAQT6f0MtBKR7f7sJOrZ8iZrCwg=",
+        "originContent": "    https://raw.githubusercontent.com/arnesacnussem/jellyfin-plugin-meilisearch/refs/heads/master/manifest.json",
+        "translatedContent": "    https://raw.githubusercontent.com/arnesacnussem/jellyfin-plugin-meilisearch/refs/heads/master/manifest.json"
+      },
+      {
+        "row": 3,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "3. Fill url to your Meilisearch instance in plugin settings, and maybe api key also required according to your Meilisearch setup.\n4. If you want share one Meilisearch instance across multiple Jellyfin instance, you can fill the `Meilisearch Index Name`, if leaving empty, it will use the server name.\n5. Remember click `Save` and make sure the status reports `ok`.\n6. Try typing something in search page.\n\n    ---\n\nIndex will update on following events:\n- Server start\n- Configuration change\n- Library scan complete\n- Update index task being triggered\n\n---\n\n### How it works\n\nThe core feature, which is to mutate the search request, is done by injecting an [`ActionFilter`](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-8.0#action-filters).\nSo it may only support a few versions of Jellyfin. At the moment I'm using `Jellyfin 10.10.0`,\nbut it should work on other versions as long as the required parameter name of `/Items` endpoint doesn't change.\n\n---\n###\n\nI've seen JellySearch, which is a wonderful project, but I don't really like setting up a reverse proxy or any of that hassle.\n\nSo I am writing this, but it still requires a Meilisearch instance.\n\nAt this moment, only the `/Items` endpoint is affected by this plugin, but it still improves a lot on my 200k items library.\n\n",
+    "ContentSha": "J53itaEMtwhmuzlNlwaTBhq87UdTHunpVGX5V6s8KAY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. 플러그인 설정에서 Meilisearch 인스턴스의 URL을 입력하세요. Meilisearch 설정에 따라 API 키도 필요할 수 있습니다.  \n4. 여러 Jellyfin 인스턴스에서 하나의 Meilisearch 인스턴스를 공유하려면 `Meilisearch Index Name`을 입력하세요. 비워두면 서버 이름을 사용합니다.  \n5. `저장` 버튼을 클릭하고 상태가 `ok`로 표시되는지 확인하세요.  \n6. 검색 페이지에서 무언가를 입력해 보세요.  \n\n    ---  \n\n인덱스는 다음 이벤트에서 업데이트됩니다:  \n- 서버 시작  \n- 설정 변경  \n- 라이브러리 스캔 완료  \n- 인덱스 업데이트 작업 트리거  \n\n---  \n\n### 작동 방식  \n\n검색 요청을 변형하는 핵심 기능은 [`ActionFilter`](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-8.0#action-filters)를 주입하여 구현됩니다.  \n따라서 Jellyfin의 몇몇 버전만 지원할 수 있습니다. 현재는 `Jellyfin 10.10.0`을 사용 중이며,  \n`/Items` 엔드포인트의 필수 파라미터 이름이 변경되지 않는 한 다른 버전에서도 작동할 것입니다.  \n\n---  \n###  \n\n저는 JellySearch라는 훌륭한 프로젝트를 봤지만, 리버스 프록시 설정이나 그런 번거로운 작업은 별로 좋아하지 않습니다.  \n\n그래서 이 플러그인을 작성했지만, 여전히 Meilisearch 인스턴스가 필요합니다.  \n\n현재 이 플러그인은 `/Items` 엔드포인트에만 영향을 미치지만, 20만 개 항목의 라이브러리에서 상당한 개선을 이뤘습니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cP0oaTLo8DAAqRQWO5SP4IUP/1v4qOb7jmgnO0rnPts=",
+        "originContent": "3. Fill url to your Meilisearch instance in plugin settings, and maybe api key also required according to your Meilisearch setup.",
+        "translatedContent": "3. 플러그인 설정에서 Meilisearch 인스턴스의 URL을 입력하세요. Meilisearch 설정에 따라 API 키도 필요할 수 있습니다.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "jXAOVMqR2LuZR9XfMD5RXZ61r07AnVwU0Dr9wt7Rxqc=",
+        "originContent": "4. If you want share one Meilisearch instance across multiple Jellyfin instance, you can fill the `Meilisearch Index Name`, if leaving empty, it will use the server name.",
+        "translatedContent": "4. 여러 Jellyfin 인스턴스에서 하나의 Meilisearch 인스턴스를 공유하려면 `Meilisearch Index Name`을 입력하세요. 비워두면 서버 이름을 사용합니다.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "+q7o8RDdIpE8MBKYJttWE7D07REf6z0MLy54tGHj4rQ=",
+        "originContent": "5. Remember click `Save` and make sure the status reports `ok`.",
+        "translatedContent": "5. `저장` 버튼을 클릭하고 상태가 `ok`로 표시되는지 확인하세요.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "iR7kaIzpKfGhfkSe7FvrpQ3BGxldn6WjsDvK7lHiUKo=",
+        "originContent": "6. Try typing something in search page.",
+        "translatedContent": "6. 검색 페이지에서 무언가를 입력해 보세요.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "TJyStMPH+nr/okPtOveDH0mLXFadF+GGPHkODS/1Aww=",
+        "originContent": "    ---",
+        "translatedContent": "    ---  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "LH1hyZeiQY1a+xD6CPjmvhJ5AuTJtyh8RVYi90LDb8I=",
+        "originContent": "Index will update on following events:",
+        "translatedContent": "인덱스는 다음 이벤트에서 업데이트됩니다:  "
+      },
+      {
+        "row": 9,
+        "rowsha": "P8XFijUQRKIWxTD8d7nU7UvCeMQaz2L4tE1mZcBPASc=",
+        "originContent": "- Server start",
+        "translatedContent": "- 서버 시작  "
+      },
+      {
+        "row": 10,
+        "rowsha": "8Vsv/yOci6OLna8HInaHXRA1bciRo6qDx9T6Ui11PHE=",
+        "originContent": "- Configuration change",
+        "translatedContent": "- 설정 변경  "
+      },
+      {
+        "row": 11,
+        "rowsha": "3pAIberxeRSrlwuosrdU575Jrzc8CR1yzZjp43ySKRM=",
+        "originContent": "- Library scan complete",
+        "translatedContent": "- 라이브러리 스캔 완료  "
+      },
+      {
+        "row": 12,
+        "rowsha": "8eoD/VZdVrkgbuzCKMDM7/vuBbc4T4wA/x9QmwKar18=",
+        "originContent": "- Update index task being triggered",
+        "translatedContent": "- 인덱스 업데이트 작업 트리거  "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "FLUdG6q+Y9dSDbuA0a513hsEGBMcpbQ+dgUneBfVnEQ=",
+        "originContent": "### How it works",
+        "translatedContent": "### 작동 방식  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "DEYab7WVlpvHt++lWEMhjGgyYEbdq0RyLQKybH+jPxc=",
+        "originContent": "The core feature, which is to mutate the search request, is done by injecting an [`ActionFilter`](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-8.0#action-filters).",
+        "translatedContent": "검색 요청을 변형하는 핵심 기능은 [`ActionFilter`](https://learn.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-8.0#action-filters)를 주입하여 구현됩니다.  "
+      },
+      {
+        "row": 19,
+        "rowsha": "7MtMGSuNr+hv3eJ9J9WSisXFEAOivVrEW8jfoSarFD4=",
+        "originContent": "So it may only support a few versions of Jellyfin. At the moment I'm using `Jellyfin 10.10.0`,",
+        "translatedContent": "따라서 Jellyfin의 몇몇 버전만 지원할 수 있습니다. 현재는 `Jellyfin 10.10.0`을 사용 중이며,  "
+      },
+      {
+        "row": 20,
+        "rowsha": "/7mfuudzdfvtVvsrQCzA3WEjQ8B2wyFXNDmuIHGUCWM=",
+        "originContent": "but it should work on other versions as long as the required parameter name of `/Items` endpoint doesn't change.",
+        "translatedContent": "`/Items` 엔드포인트의 필수 파라미터 이름이 변경되지 않는 한 다른 버전에서도 작동할 것입니다.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 23,
+        "rowsha": "VtxtR3N9FVr93v2hryDEDJATU8Ii0B5wt7TgIfLk9Ug=",
+        "originContent": "###",
+        "translatedContent": "###  "
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "wG5qh4LmaE6xnAvkmbMbOi/8vYHroh93gj1YALDDvyY=",
+        "originContent": "I've seen JellySearch, which is a wonderful project, but I don't really like setting up a reverse proxy or any of that hassle.",
+        "translatedContent": "저는 JellySearch라는 훌륭한 프로젝트를 봤지만, 리버스 프록시 설정이나 그런 번거로운 작업은 별로 좋아하지 않습니다.  "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "4zRJL5uXY+QejGAuitCWII7JVaih62ZC/NEcJ/kjIIU=",
+        "originContent": "So I am writing this, but it still requires a Meilisearch instance.",
+        "translatedContent": "그래서 이 플러그인을 작성했지만, 여전히 Meilisearch 인스턴스가 필요합니다.  "
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "G4Rs6lOsOd9xrL2iq6WH3hwJQQIBk5HILn7+22SVSZc=",
+        "originContent": "At this moment, only the `/Items` endpoint is affected by this plugin, but it still improves a lot on my 200k items library.",
+        "translatedContent": "현재 이 플러그인은 `/Items` 엔드포인트에만 영향을 미치지만, 20만 개 항목의 라이브러리에서 상당한 개선을 이뤘습니다."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

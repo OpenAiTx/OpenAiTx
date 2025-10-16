@@ -30,14 +30,14 @@
 
 <div align="center">
   <a href="https://core.heysol.ai">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="COREロゴ" />
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE ロゴ" />
   </a>
 
-### CORE: Claude、Cursor、ChatGPTおよび全AIツールのための統合メモリレイヤー
+### CORE: AIアプリのためのあなた専用のメモリレイヤー
 
 <p align="center">
     <a href="https://deepwiki.com/RedPlanetHQ/core">
-        <img src="https://deepwiki.com/badge.svg" alt="DeepWikiバッジ" />
+        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki バッジ" />
     </a>
 </p>
 <p align="center">
@@ -48,119 +48,148 @@
 
 ## 🔥 研究ハイライト
 
-COREメモリは、Locomoデータセットのすべての推論タスクにおいて平均正答率**88.24%**を達成し、他のメモリプロバイダーを大きく上回りました。詳細はこの[ブログ](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/)をご覧ください。
+COREメモリはLocomoデータセットの全推論タスクで平均**88.24%**の精度を達成し、他のメモリプロバイダーを大きく上回りました。詳細は[ブログ](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/)をご覧ください。
 
 <img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) シングルホップ質問は1回のセッションに基づいて回答します。(2) マルチホップ質問は複数の異なるセッションから情報を統合して回答します。(3) オープンドメイン知識質問は、話者が提供した情報と常識や世界の事実など外部知識を組み合わせて回答できます。(4) 時間推論質問は、会話内の時間関連データ手がかりを捉えて時間推論を行うことで回答できます。
+(1) シングルホップ質問は1つのセッションに基づいて回答されます；(2) マルチホップ質問は複数の異なるセッションから情報を統合して回答します；(3) オープンドメイン知識質問は話者が提供した情報と外部知識（常識や世界の事実など）を統合して回答できます；(4) 時間推論質問は会話内の時系列データ手がかりを捉えることで時間推論によって回答されます；
 
 ## 概要
 
-**課題**
+**問題点** 
 
-開発者はAIツールに何度もコンテキストを説明し直すため、時間を浪費しています。Claudeでトークン制限に達すると、すべてを失って最初からやり直すことになります。ChatGPTやClaudeからCursorに切り替えると、またコンテキストを説明し直さなければなりません。会話、決定、洞察はセッション間で消えてしまいます。新しいAIツールを使うたびに、コンテキスト切り替えのコストが増大します。
+開発者はAIツールに文脈を何度も説明するのに時間を浪費しています。Claudeでトークン上限に達すると、最初からやり直してすべて失います。ChatGPT/ClaudeからCursorへ切り替えたら、また文脈を説明し直さなければなりません。会話、決定、洞察はセッション間で消えてしまいます。新しいAIツールを使うたびに、コンテキスト切り替えのコストが増大します。
 
 **解決策** - **CORE**（**Contextual Observation & Recall Engine**）
 
-COREは、すべてのAIツール向けのオープンソース統合型・永続的メモリレイヤーです。あなたのコンテキストはCursorからClaude、ChatGPT、Claude Codeへと引き継がれます。1つの知識グラフが「誰が、いつ、何を、なぜ言ったか」を記憶します。一度接続すれば、どこでも記憶します。コンテキストの管理をやめて、構築を始めましょう。
+COREはすべてのAIツール向けのオープンソース統合型・永続型メモリレイヤーです。あなたの文脈はCursorからClaude、ChatGPT、Claude Codeへと引き継がれます。一つのナレッジグラフが「誰が、いつ、何を、なぜ」話したかを記憶します。一度接続すれば、どこでも記憶。文脈管理はやめて、構築を始めましょう。
 
-## 🚀 はじめ方
-**5分で統合メモリグラフを構築できます：**
+## 🚀 COREセルフホスティング
+COREを自分のインフラで稼働させたいですか？セルフホスティングなら、データと運用を完全にコントロールできます。
 
-1. [core.heysol.ai](https://core.heysol.ai)で**サインアップ**し、アカウントを作成します
-2. **最初のメモリを追加** - 自分についてのコンテキストを共有しましょう
+**前提条件**:
 
-    <img width="2088" height="1212" alt="first-memory" src="https://github.com/user-attachments/assets/ecfab88e-e91a-474d-9ef5-fc6c19b655a8" />
+- Docker（20.10.0以上）およびDocker Compose（2.20.0以上）がインストール済み
+- OpenAI APIキー
 
+> **オープンソースモデルに関する注意:** OllamaやGPTモデルなどOSSオプションをテストしましたが、事実抽出とグラフ品質は基準に達しませんでした。現在も選択肢を積極的に探しています。
 
-3. **メモリグラフを可視化**し、COREが事実間の接続を自動形成する様子を確認します
-5. **試してみる** - 会話セクションで「私について何を知っていますか？」と聞いてみましょう
-6. ツールに接続する：
-   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - コンテキスト付きコーディング
-   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) - メモリ付きターミナルコーディング
-   - [ブラウザ拡張機能追加](https://docs.heysol.ai/providers/browser-extension) - メモリをあらゆるウェブサイトに持ち込む
-   - [Linear](https://docs.heysol.ai/integrations/linear)、[Github](https://docs.heysol.ai/integrations/github) - プロジェクトのコンテキストを自動で追加
+### セットアップ
 
-## 🧩 主な特徴
+1. リポジトリをクローンします:
+```
+git clone https://github.com/RedPlanetHQ/core.git
+cd core
+```
+2. `core/.env`で環境変数を設定します。
+```
+OPENAI_API_KEY=your_openai_api_key
+```
+3. サービスを開始します
+```
+docker-compose up -d
+```
 
-### 🧠 **統合・ポータブルメモリ**:
-**Cursor、Windsurf、Claude Desktop、Claude Code、Gemini CLI、AWSのKiro、VS Code、Roo Code**全体でMCPを介してメモリの追加・呼び出しが可能
+デプロイが完了したら、AIプロバイダー（OpenAI、Anthropic）の設定を行い、メモリーグラフの構築を開始できます。
+
+👉 [完全なセルフホスティングガイドを表示](https://docs.heysol.ai/self-hosting/docker)
+
+注意: OllamaやGPT OSSなどのオープンソースモデルを試しましたが、事実生成の精度が低かったため、現在も改善方法を模索しています。改善でき次第、OSSモデルもサポート予定です。
+
+## 🚀 CORE Cloud
+**5分で統合メモリーグラフを構築：**
+
+インフラ管理をしたくない場合は、CORE Cloudで即座に個人用メモリーシステムを構築可能—セットアップ不要、サーバー不要、ただ使えるメモリー。
+
+1. [core.heysol.ai](https://core.heysol.ai)で**サインアップ**し、アカウントを作成
+2. **メモリーグラフを可視化**し、COREが事実間の接続を自動で形成する様子を確認
+3. **テスト実施**—会話セクションで「私について知っていることは？」と質問
+4. ツールと連携：
+   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) — 文脈を活用したコーディング
+   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) — メモリー搭載のターミナルコーディング
+   - [ブラウザー拡張機能追加](https://docs.heysol.ai/providers/browser-extension) — メモリーを任意のウェブサイトで活用
+   - [Linear](https://docs.heysol.ai/integrations/linear)、[Github](https://docs.heysol.ai/integrations/github) — プロジェクト文脈を自動追加
+
+## 🧩 主な機能
+
+### 🧠 **統合・ポータブルメモリー**: 
+**Cursor、Windsurf、Claude Desktop、Claude Code、Gemini CLI、AWSのKiro、VS Code、Roo Code**でMCPを介してメモリーの追加と呼び出しが可能
 
 ![core-claude](https://github.com/user-attachments/assets/56c98288-ee87-4cd0-8b02-860aca1c7f9a)
 
 
-### 🕸️ **時間的＋具象化知識グラフ**:
+### 🕸️ **時系列＋具体化ナレッジグラフ**: 
 
-すべての事実の背後にあるストーリーを記憶―誰が、いつ、なぜ発言したかを豊かな関係性と完全な出自情報で追跡し、単なるフラットな保存ではなく管理
+すべての事実の背景ストーリーを記憶—誰が、いつ、なぜ発言したかを豊かな関係性と完全な来歴で追跡し、単なる平面的な保存ではない
 
 ![core-memory-graph](https://github.com/user-attachments/assets/5d1ee659-d519-4624-85d1-e0497cbdd60a)
 
 
-### 🌐 **ブラウザー拡張機能**:
+### 🌐 **ブラウザー拡張機能**: 
 
-ChatGPT、Grok、Gemini、Twitter、YouTube、ブログ記事、あらゆるウェブページから会話やコンテンツを直接COREメモリに保存できます。
+ChatGPT、Grok、Gemini、Twitter、YouTube、ブログ記事、任意のウェブページの会話とコンテンツを直接COREメモリーへ保存可能。
 
 **拡張機能の使い方**
-1. [Chromeウェブストア](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)から拡張機能をダウンロードします。
-2. [COREダッシュボード](https://core.heysol.ai)にログイン
-   - 設定（左下）に移動
-   - APIキー → 新しいキーを生成 → 「extension」と名前をつける
-3. 拡張機能を開き、APIキーを貼り付けて保存
+1. [Chrome ウェブストア](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)から拡張機能をダウンロードします。
+2. [COREダッシュボード](https://core.heysol.ai)にログインします
+   - 設定（左下）へ移動
+   - APIキー → 新しいキーを生成 → 名前は「extension」にする。
+3. 拡張機能を開き、APIキーを貼り付けて保存します。
 
 https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
 
 
-### 💬 **メモリとチャット**:
-「私の執筆の好みは何？」などの質問を、接続された知識から瞬時にインサイトを得て回答
+### 💬 **メモリ付きチャット**: 
+「私の執筆の好みは？」などの質問をして、接続された知識から即座に洞察を得ることができます
 
 ![chat-with-memory](https://github.com/user-attachments/assets/d798802f-bd51-4daf-b2b5-46de7d206f66)
 
 
 ### ⚡ **アプリからの自動同期**:
 
-Linear、Slack、Notion、GitHubなど接続されたアプリから、関連するコンテキストをCOREメモリに自動で取り込み
+Linear、Slack、Notion、GitHubなど接続されたアプリから関連するコンテキストをCOREメモリに自動で取り込みます
 
-📖 **[すべての統合を見る](https://raw.githubusercontent.com/RedPlanetHQ/core/main/./integrations/README.md)** - サポートされているサービスとその機能の完全なリスト
+📖 **[統合一覧を見る](https://raw.githubusercontent.com/RedPlanetHQ/core/main/./integrations/README.md)** - サポートされているサービスとその機能の完全リスト
 
 ![core-slack](https://github.com/user-attachments/assets/d5fefe38-221e-4076-8a44-8ed673960f03)
 
 
-### 🔗 **MCP統合ハブ**: 
+### 🔗 **MCPインテグレーションハブ**: 
 
-Linear、Slack、GitHub、Notionを一度COREに接続すると、ClaudeやCursor、または任意のMCPクライアントで、すべてのツールを単一URLで利用可能
+Linear、Slack、GitHub、Notionを一度COREに接続すれば、Claude、Cursor、または任意のMCPクライアントで全てのツールを単一URLで利用可能
 
 
 ![core-linear-claude](https://github.com/user-attachments/assets/7d59d92b-8c56-4745-a7ab-9a3c0341aa32)
 
 
 
-## COREが記憶を作成する方法
+## COREがメモリを作成する方法
 
 <img width="12885" height="3048" alt="memory-ingest-diagram" src="https://github.com/user-attachments/assets/c51679de-8260-4bee-bebf-aff32c6b8e13" />
 
-COREのインジェストパイプラインは、進化するコンテキストを捉えるために設計された4つのフェーズで構成されています：
+COREの取り込みパイプラインは、進化するコンテキストを捉えるために設計された4つのフェーズで構成されています:
 
-1. **正規化**: 新しい情報を最近のコンテキストにリンクし、長いドキュメントを一貫したチャンクに分割しつつ相互参照を保持し、用語を標準化することで、COREが知識を抽出する時点で乱雑なテキストではなく、クリーンでコンテキスト化された入力を扱えるようにします。
-2. **抽出**: 正規化されたテキストから意味を引き出し、エンティティ（人物、ツール、プロジェクト、概念）を特定し、それらをコンテキスト・情報源・時間とともにステートメントに変換し、関係性をマッピングします。例：「We wrote CORE in Next.js」は、エンティティ（Core、Next.js）、ステートメント（COREはNext.jsで開発された）、関係（開発に使用された）となります。
-3. **解決**: 矛盾を検出し、好みの変化を追跡し、複数の視点を情報源付きで保持することで、最新のスナップショットだけでなく、全体の旅を反映した記憶を残します。
-4. **グラフ統合**: エンティティ、ステートメント、エピソードを時間的知識グラフに接続し、事実をそのコンテキストと履歴にリンクすることで、孤立したデータをエージェントが実際に活用できる生きた知識のウェブへと変換します。
+1. **正規化**: 新しい情報を最近のコンテキストにリンクし、長いドキュメントをクロスリファレンスを維持しつつ一貫したチャンクに分割し、用語を標準化します。これにより、COREが知識を抽出する時点では、雑多なテキストではなく、クリーンで文脈化された入力を扱います。
+2. **抽出**: 正規化されたテキストから意味を引き出し、エンティティ（人物、ツール、プロジェクト、概念）を特定し、文脈・出典・時刻を付与したステートメントに変換し、関係性をマッピングします。例えば「We wrote CORE in Next.js」は、エンティティ（CORE, Next.js）、ステートメント（COREはNext.jsで開発された）、関係（開発された）となります。
+3. **解決**: 矛盾を検出し、嗜好の変化を追跡し、複数の視点を出典付きで保持することで、最新のスナップショットだけでなく全体の記憶の軌跡を反映します。
+4. **グラフ統合**: エンティティ、ステートメント、エピソードを時系列のナレッジグラフに接続し、事実をその文脈や履歴にリンクさせ、孤立したデータをエージェントが実際に活用できる生きた知識のウェブに変換します。
 
-結果：フラットなデータベースではなく、COREはあなたと共に成長・変化する記憶を提供し、コンテキスト・進化・所有権を保持することで、エージェントが実際に活用できるようになります。
+結果: フラットなデータベースではなく、COREはあなたと共に成長・変化する記憶を提供します。文脈、進化、所有権を保持し、エージェントが実際に利用できるようになります。
 
 
 ![memory-ingest-eg](https://github.com/user-attachments/assets/1d0a8007-153a-4842-9586-f6f4de43e647)
 
-## COREが記憶から呼び出す方法
+## COREによる記憶からのリコール方法
 
 <img width="10610" height="3454" alt="memory-search-diagram" src="https://github.com/user-attachments/assets/3541893e-f7c9-42b9-8fad-6dabf138dbeb" />
 
-COREに質問すると、単にテキストを検索するのではなく、知識グラフ全体を掘り下げて最も有用な答えを探します。
+あなたがCOREに質問すると、単にテキストを検索するだけでなく、全ナレッジグラフを掘り下げて最も有用な答えを見つけます。
 
-1. **検索**: COREは複数の角度から同時に記憶を検索します ― キーワード検索で正確な一致を、意味検索で言い回しが違っても関連するアイデアを、グラフ探索でつながった概念間のリンクを追跡します。
-2. **再ランク**: 取得された結果は、最も関連性が高く多様なものを強調するように並べ替えられ、単純な一致だけでなく深い関連も見逃しません。
-3. **フィルタリング**: COREは時間・信頼性・関係強度に基づいたスマートなフィルタを適用し、最も意味のある知識だけが表面化します。
-4. **出力**: あなたは事実（明確な記述）とエピソード（それが元々あったコンテキストの情報）の両方を受け取ります。したがって、リコールは常にコンテキスト、時間、ストーリーに根ざしています。
+1. **検索**: COREは複数の角度から記憶を検索します――キーワード検索による完全一致、セマンティック検索で異なる表現でも関連するアイデアを探し、グラフトラバーサルで繋がった概念間のリンクを辿ります。
+2. **再ランク**: 検索結果は最も関連性が高く多様なものが目立つように並び替えられ、単なる一致だけでなく深い関連も見つけやすくします。
+3. **フィルタリング**: COREは時刻、信頼性、関係の強さなどに基づくスマートなフィルターを適用し、最も意味のある知識だけが表面化します。
+4. **出力**: 明確な事実（ステートメント）と、その出典となるエピソード（元の文脈）の両方が返されるので、リコールは常に文脈・時刻・ストーリーに根ざします。
 
-結果：COREは単に事実を呼び出すだけでなく、それを正しいコンテキスト、時間、ストーリーで呼び出すため、エージェントはあなたが覚えている方法で応答できます。
+結果: COREは単なる事実を呼び出すだけでなく、適切な文脈・時刻・ストーリーとともに呼び出すため、エージェントがあなたの記憶通りに応答できます。
 
 ## ドキュメント
 
@@ -171,47 +200,46 @@ COREを最大限に活用するためにドキュメントをご覧ください
 - [Core MCPとClaudeの接続](https://docs.heysol.ai/providers/claude)
 - [Core MCPとCursorの接続](https://docs.heysol.ai/providers/cursor)
 - [Core MCPとClaude Codeの接続](https://docs.heysol.ai/providers/claude-code)
-- [Core MCPとCodexの接続](https://docs.heysol.ai/providers/codex)
+- [Core MCPとCodexの接続](https://docs.heysol.ai/providers/codex) 
 
 - [基本概念](https://docs.heysol.ai/overview)
 - [APIリファレンス](https://docs.heysol.ai/api-reference/get-user-profile)
 
 ## 🔒 セキュリティ
 
-COREはセキュリティを重視しています。業界標準のセキュリティ対策を実施し、あなたのデータを保護します：
+COREはセキュリティを重視しています。業界標準のセキュリティ対策を実装し、あなたのデータを保護します。
+- **データ暗号化**：転送中のデータ（TLS 1.3）および保存時のデータ（AES-256）をすべて暗号化
+- **認証**：OAuth 2.0とマジックリンク認証
+- **アクセス制御**：ワークスペース単位の分離とロールベースの権限管理
+- **脆弱性報告**：セキュリティ問題は harshith@poozle.dev までご報告ください
 
-- **データ暗号化**: すべての転送中データ（TLS 1.3）および保存データ（AES-256）
-- **認証**: OAuth 2.0およびマジックリンク認証
-- **アクセス制御**: ワークスペースベースの分離とロールベースの権限
-- **脆弱性報告**: セキュリティ問題は harshith@tegon.ai までご報告ください
-
-詳細なセキュリティ情報については、[セキュリティポリシー](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)をご覧ください。
+詳細なセキュリティ情報は、[セキュリティポリシー](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)をご覧ください。
 
 ## 🧑‍💻 サポート
 
-ご質問やご意見がありますか？私たちがサポートします：
+ご質問やご意見がありますか？私たちがサポートします:
 
-- Discord: [core-supportチャンネルに参加](https://discord.gg/YGUZcvDjUa)
+- Discord: [core-support チャンネルに参加](https://discord.gg/YGUZcvDjUa)
 - ドキュメント: [docs.heysol.ai](https://docs.heysol.ai)
 - メール: manik@poozle.dev
 
 ## 利用ガイドライン
 
-**保存:**
+**保存するもの:**
 
 - 会話履歴
-- ユーザーの設定
+- ユーザー設定
 - タスクのコンテキスト
 - 参考資料
 
 **保存しないもの:**
 
-- 機微なデータ（PII）
+- 機微情報（PII）
 - 認証情報
 - システムログ
 - 一時データ
 
-## 👥 貢献者
+## 👥 コントリビューター
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
@@ -227,8 +255,13 @@ COREはセキュリティを重視しています。業界標準のセキュリ�
 
 
 
+
+
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-16
 
 ---

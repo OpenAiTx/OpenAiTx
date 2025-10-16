@@ -1,0 +1,764 @@
+[
+  {
+    "row": 1,
+    "rowsha": "7RKxa4XAL/svk7eDq3R/NhrfUp+aBOJfAWUc4y3zAuQ=",
+    "originContent": "[![Build](https://github.com/alexVinarskis/dell-powermanager/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/alexVinarskis/dell-powermanager/actions/workflows/build.yml)",
+    "translatedContent": "[![Build](https://github.com/alexVinarskis/dell-powermanager/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/alexVinarskis/dell-powermanager/actions/workflows/build.yml)"
+  },
+  {
+    "row": 2,
+    "rowsha": "MEanAOv5AOgUw8IGOUYuh2yhzEHGK3mJLjOhP0kBGSc=",
+    "originContent": "[![GitHub release (with filter)](https://img.shields.io/github/v/release/alexVinarskis/dell-powermanager?label=Release)](https://github.com/alexVinarskis/dell-powermanager/releases/latest)",
+    "translatedContent": "[![GitHub release (with filter)](https://img.shields.io/github/v/release/alexVinarskis/dell-powermanager?label=Release)](https://github.com/alexVinarskis/dell-powermanager/releases/latest)"
+  },
+  {
+    "row": 3,
+    "rowsha": "jrDXXsbMzazgkSlFoMrJS3DcH6WzbXbzZsPaxIQpj7M=",
+    "originContent": "![GitHub all releases](https://img.shields.io/github/downloads/alexVinarskis/dell-powermanager/total?label=Downloads)",
+    "translatedContent": "![GitHub all releases](https://img.shields.io/github/downloads/alexVinarskis/dell-powermanager/total?label=Downloads)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "6Tvg+3kiGoYKmDlT0/6+9pICYYu+eahDUc/+3DrpD+Q=",
+    "originContent": "# Dell Power Manager",
+    "translatedContent": "# Dell Power Manager"
+  },
+  {
+    "row": 6,
+    "rowsha": "z1Jt0O/kv+MrT36xEixSm60l34vM6R2eB7n7a633kVw=",
+    "originContent": "Cross-Platform Dell Power Manager re-implementation in Flutter. More screenshots in [Wiki](https://github.com/alexVinarskis/dell-powermanager/wiki).",
+    "translatedContent": "크로스 플랫폼 Dell Power Manager를 Flutter로 재구현한 버전입니다. 더 많은 스크린샷은 [Wiki](https://github.com/alexVinarskis/dell-powermanager/wiki)에서 확인할 수 있습니다."
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "lcxObqKgZOwPtkEvPhZr+yLp3v5iZYjp6x3lmgPmmIo=",
+    "originContent": "![Screenshot Summary](https://raw.githubusercontent.com/alexVinarskis/dell-powermanager/master/images/screenshot_summary.png)",
+    "translatedContent": "![Screenshot Summary](https://raw.githubusercontent.com/alexVinarskis/dell-powermanager/master/images/screenshot_summary.png)"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "cHbd0n3XbVIsYvWAnCbWDq4E6GCMz2Wteckgofg0Jdg=",
+    "originContent": "## Why",
+    "translatedContent": "## 이유"
+  },
+  {
+    "row": 11,
+    "rowsha": "nNOYHoHce9NULiWtadD4QGKUMoYNdO4BT++jI/YFapU=",
+    "originContent": "Dell machines (XPS and Precision series laptops, potentially others) offer advanced in-bios configurable options, such as multiple thermal profiles, battery charging thresholds, etc. It may be very desirable to adjust these on the go, and there is no way to configure it from OS without Dell's proprietary tools (which are luckily provided). Settings can be changed via:",
+    "translatedContent": "Dell 기기(XPS 및 Precision 시리즈 노트북, 잠재적으로 기타 모델)는 여러 가지 열 프로필, 배터리 충전 임계값 등과 같은 고급 BIOS 내 구성 옵션을 제공합니다. 이러한 설정을 외부에서 조절하는 것이 매우 바람직할 수 있지만, Dell의 독점 도구(운 좋게도 제공됨) 없이는 운영체제에서 이를 구성할 방법이 없습니다. 설정 변경 방법은 다음과 같습니다:"
+  },
+  {
+    "row": 12,
+    "rowsha": "3U631uAjjJdj1HY+YxG6k6Nwl9BgCBWMqMLcaQ5YIzM=",
+    "originContent": "* BIOS directly, requires reboot",
+    "translatedContent": "* BIOS 직접 접속, 재부팅 필요"
+  },
+  {
+    "row": 13,
+    "rowsha": "7FlKV8YXmXBHJrTMLiAYXc3/q9cn0MlswO8hBgAPkSc=",
+    "originContent": "* [Dell Command | Configure](https://www.dell.com/support/kbdoc/en-us/000178000/dell-command-configure) CLI, available for both Windows and Linux, with impressive [list of capabilities](https://dl.dell.com/topicspdf/command-configure_reference-guide4_en-us.pdf).",
+    "translatedContent": "* Windows와 Linux 모두에서 사용할 수 있는 [Dell Command | Configure](https://www.dell.com/support/kbdoc/en-us/000178000/dell-command-configure) CLI, 인상적인 [기능 목록](https://dl.dell.com/topicspdf/command-configure_reference-guide4_en-us.pdf) 포함"
+  },
+  {
+    "row": 14,
+    "rowsha": "KeQ28L2hB7PEOgs+Qzdsw/6WfJNyDb0in2Axb9uUXRI=",
+    "originContent": "* [Dell Power Manager](https://www.dell.com/support/contents/en-au/article/product-support/self-support-knowledgebase/software-and-downloads/dell-power-manager) GUI, available for Windows only. On top of that, it is ridiculously slow to start, and (subjectively) ugly.",
+    "translatedContent": "* Windows 전용 GUI인 [Dell Power Manager](https://www.dell.com/support/contents/en-au/article/product-support/self-support-knowledgebase/software-and-downloads/dell-power-manager). 게다가 시작 속도가 매우 느리며, (주관적으로) UI가 보기 좋지 않습니다."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "mImXNpk1wvaCnuEjjLuIhagO7ZZWK/BezyBSWEuBJes=",
+    "originContent": "This app is a modern, Flutter based GUI on top of Dell Command | Configure CLI, with main goal to replicate behavior of Dell Power Manager for Linux users, but also does run on Windows.",
+    "translatedContent": "이 앱은 Dell Command | Configure CLI 위에 구축된 현대적인 Flutter 기반 GUI로, 주된 목표는 Linux 사용자를 위해 Dell Power Manager의 동작을 복제하는 것이며, Windows에서도 실행됩니다."
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 기능"
+  },
+  {
+    "row": 19,
+    "rowsha": "TlXG56jdVX/VnFQP9k9Tlsi7VlTj/bWm8nkAXdWCDp0=",
+    "originContent": "* Implements control via 'Dell Command | Configure CLI' (CCTK)",
+    "translatedContent": "* 'Dell Command | Configure CLI' (CCTK)를 통한 제어 구현"
+  },
+  {
+    "row": 20,
+    "rowsha": "Rlr4XD/bdpnrMgOFUxOutVjGcYY3iesPP0SzoEHyilI=",
+    "originContent": "* Modern animated UI, supports Dark Mode",
+    "translatedContent": "* 현대적인 애니메이션 UI, 다크 모드 지원"
+  },
+  {
+    "row": 21,
+    "rowsha": "IAFgNUWJBoANL/nLDVZRUXDk4U0wyN7CqK3TTkImEBY=",
+    "originContent": "* Short startup time, much faster than Dell's Windows app",
+    "translatedContent": "* Dell Windows 앱보다 훨씬 빠른 시작 시간"
+  },
+  {
+    "row": 22,
+    "rowsha": "VF/++Cdru54xlc8AetL2YXq8wsK3I0cnwpo/janKTcQ=",
+    "originContent": "* Detects and handles unsupported modes on supported machines",
+    "translatedContent": "* 지원되는 기기에서 지원하지 않는 모드 감지 및 처리"
+  },
+  {
+    "row": 23,
+    "rowsha": "ayYi4240GMeS+O7RfbKUzDXgphNw+C7xdFNYc0VmYDw=",
+    "originContent": "* Detects non-dell machines, shows error message",
+    "translatedContent": "* Dell이 아닌 기기 감지 시 오류 메시지 표시"
+  },
+  {
+    "row": 24,
+    "rowsha": "QAA+zm7dzZesN0CbmPbMJKY7NkkLsPzK4gy++e1gXvA=",
+    "originContent": "* Support protected BIOS (System/Setup/Owner passwords), and secure key saving",
+    "translatedContent": "* 보호된 BIOS(시스템/설정/소유자 비밀번호) 및 보안 키 저장 지원"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "3fiPXfWRB8U0guB9iVL70L7pYPwsJAkbn16sKWs4Mcs=",
+    "originContent": "For Debian/Ubuntu based Linux and Windows, app is slightly more productized:",
+    "translatedContent": "Debian/Ubuntu 기반 Linux 및 Windows용으로 약간 더 제품화됨:"
+  },
+  {
+    "row": 27,
+    "rowsha": "UpDHiiO8gEr+xHU+TvCKv+rg5qKfTZyvJUpi56pYL6A=",
+    "originContent": "* Integrated dependencies downloader and installer",
+    "translatedContent": "* 통합된 의존성 다운로드 및 설치기"
+  },
+  {
+    "row": 28,
+    "rowsha": "oKg1ba2TjBphTVj68n2XLNfsCsbOvAdX4FZhQuMMcdM=",
+    "originContent": "* Packaged to `.deb`/`.msi`, with start menu shortcuts etc.",
+    "translatedContent": "* `.deb`/`.msi` 패키징, 시작 메뉴 바로가기 포함"
+  },
+  {
+    "row": 29,
+    "rowsha": "KrRl363nVPS7PJe1xpD77toKVxfH94OEj17uVhbBS6s=",
+    "originContent": "* Integrated OTA via Github API",
+    "translatedContent": "* Github API를 통한 통합 OTA"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "/Kh8PkhHIlwWJF4MvflWlVKPEy5GrKN7XkKndHHnbo4=",
+    "originContent": "Control features:",
+    "translatedContent": "제어 기능:"
+  },
+  {
+    "row": 32,
+    "rowsha": "C0m7QWO7/j2H5p5Ks76osxvyqA1AEd6WbBhyYLVWvnI=",
+    "originContent": "* Battery status overview (health etc.)",
+    "translatedContent": "* 배터리 상태 개요 (건강 상태 등)"
+  },
+  {
+    "row": 33,
+    "rowsha": "bDNJ+H+kbDJmyBT1DGiw9uZSCwgcV97tYuVeGKXMfV8=",
+    "originContent": "* Battery charging control (w/o advanced/daily timing mode for now)",
+    "translatedContent": "* 배터리 충전 제어 (현재는 고급/일일 타이밍 모드 미지원)"
+  },
+  {
+    "row": 34,
+    "rowsha": "79a0f91NApQceI9ebkmcj5NHr5sshIdpQyld3z7JiO8=",
+    "originContent": "* Thermal profiles control",
+    "translatedContent": "* 열 프로필 제어"
+  },
+  {
+    "row": 35,
+    "rowsha": "NaCGk2cA7JZGgl0eUi5FLv31oKQ3j5v94zgtNbECifY=",
+    "originContent": "* Detects OS's power mode",
+    "translatedContent": "* 운영체제의 전원 모드 감지"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "3pMVvzw41BfHypRr/le9fC5TNVn7KEmc3FqbvbLdVGE=",
+    "originContent": "Planned TODOs:",
+    "translatedContent": "예정된 TODO:"
+  },
+  {
+    "row": 38,
+    "rowsha": "FjNy6e4k19VgkMXUhctZU31ffFQbQTJJ/PotHhJzcaE=",
+    "originContent": "* Advanced battery charging control/shceduling ([Feature Request](https://github.com/alexVinarskis/dell-powermanager/issues/24))",
+    "translatedContent": "* 고급 배터리 충전 제어/스케줄링 ([기능 요청](https://github.com/alexVinarskis/dell-powermanager/issues/24))"
+  },
+  {
+    "row": 39,
+    "rowsha": "nZjXm2kTjvZyohKaUfe/lY+1U3p83CvK2p6+w2iBsgc=",
+    "originContent": "* \"Peak Shift\" control ([Feature Request](https://github.com/alexVinarskis/dell-powermanager/issues/57))",
+    "translatedContent": "* \"Peak Shift\" 제어 ([기능 요청](https://github.com/alexVinarskis/dell-powermanager/issues/57))"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "+3GL63llBiuEyl+vCiOugeUSAjE5K2MFYJCevH1363g=",
+    "originContent": "Potential future features to consider:",
+    "translatedContent": "잠재적인 미래 기능 고려 사항:"
+  },
+  {
+    "row": 42,
+    "rowsha": "7S/a+W8EPoRVVmakA0lLFCwhMx1occ4bCkCcTdsQWRA=",
+    "originContent": "* Add monitoring service for auto switching thermal profiles based on CPU load",
+    "translatedContent": "* CPU 부하에 따라 자동으로 열 프로파일을 전환하는 모니터링 서비스 추가"
+  },
+  {
+    "row": 43,
+    "rowsha": "K0l8fZsnOTGid4adyeBxyKc++83rYNG/5lMc7GhnYTg=",
+    "originContent": "* Add monitoring service for auto switching thermal profiles based on power settings, eg. Battery level, plug/unplugged etc.",
+    "translatedContent": "* 전원 설정(예: 배터리 수준, 플러그 연결/해제 등)에 따라 자동으로 열 프로파일을 전환하는 모니터링 서비스 추가"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "oP2ghPSr+Up8hV0hhRuAtuNj4q2vdc5gXSwxIxJfgBw=",
+    "originContent": "## Development status",
+    "translatedContent": "## 개발 상태"
+  },
+  {
+    "row": 46,
+    "rowsha": "vPTE3J36gDG8OE9CJQAdIU8CkJdYMjL21JhK1szZMLs=",
+    "originContent": "Application is currently in **stable, maintained** state.",
+    "translatedContent": "애플리케이션은 현재 **안정적이고 유지 관리 중**인 상태입니다."
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "pZgBVotXIpGSrbagbtG5i67wov/n2Zqz/3tQXYgzu/4=",
+    "originContent": "* Dell's CCTK integrated (with automated installer for select OSs)",
+    "translatedContent": "* Dell의 CCTK 통합(선택된 OS에 대한 자동 설치 프로그램 포함)"
+  },
+  {
+    "row": 49,
+    "rowsha": "ddg3JYRid1yPEA9cussWZwUmke2DzYxsiLPV0eWQBIo=",
+    "originContent": "* Update checks implemented (with OTA ia Github API for select OSs)",
+    "translatedContent": "* 업데이트 확인 구현(선택된 OS에 대해 Github API를 통한 OTA 포함)"
+  },
+  {
+    "row": 50,
+    "rowsha": "6lmDGfTLsrKg7TNmlXFxURbp11azv5fi56QuLFkgq1s=",
+    "originContent": "* UI tested, build and packaging asserted by CI",
+    "translatedContent": "* UI 테스트 완료, CI를 통한 빌드 및 패키징 검증"
+  },
+  {
+    "row": 51,
+    "rowsha": "UP1BtTO1xvQzCFUqskaGU106N1T7yK4uFrMKTGmtn6U=",
+    "originContent": "* Packaged to `.msi`, `.deb`, `.tar.xz`. Get latest stable build at [Releases](https://github.com/alexVinarskis/dell-powermanager/releases/latest), or latest development build at [CI artifacts](https://github.com/alexVinarskis/dell-powermanager/actions/workflows/build.yml?query=branch%3Amaster)",
+    "translatedContent": "* `.msi`, `.deb`, `.tar.xz` 형식으로 패키징. 최신 안정 빌드는 [Releases](https://github.com/alexVinarskis/dell-powermanager/releases/latest)에서, 최신 개발 빌드는 [CI artifacts](https://github.com/alexVinarskis/dell-powermanager/actions/workflows/build.yml?query=branch%3Amaster)에서 확인 가능"
+  },
+  {
+    "row": 52,
+    "rowsha": "GcIeweTeoA07GKLjQKrzZX824OQXka7zsq8L+T8FQRI=",
+    "originContent": "* Tested on multiple platforms, see [Compatibility](#compatibility). Supported on:",
+    "translatedContent": "* 여러 플랫폼에서 테스트됨, [호환성](#compatibility) 참조. 지원 플랫폼:"
+  },
+  {
+    "row": 53,
+    "rowsha": "bydzf7/1FInP0aeFbu9A+H3FB7hnfBaeSXdZKWbCY24=",
+    "originContent": "    * Windows, x86_64 (Native `.msi`)",
+    "translatedContent": "    * Windows, x86_64 (네이티브 `.msi`)"
+  },
+  {
+    "row": 54,
+    "rowsha": "9OQ77Wo2SgDUFkn8JQHw5a0URptoOhl5EB2mW5CndM4=",
+    "originContent": "    * Windows, arm64 (x64_86 `.msi` running in emulation)",
+    "translatedContent": "    * Windows, arm64 (에뮬레이션에서 실행되는 x86_64 `.msi`)"
+  },
+  {
+    "row": 55,
+    "rowsha": "8q/s75GL4rrUeXOieR4RF7cDRQ49ctFfA3TI8JSzAmI=",
+    "originContent": "    * Linux, x86_64 (Native `.deb`, `.tar`)",
+    "translatedContent": "    * Linux, x86_64 (네이티브 `.deb`, `.tar`)"
+  },
+  {
+    "row": 56,
+    "rowsha": "vuBUTEO6N+Udv+HjPrTucQutA402AyXp4Gkd3iEfETg=",
+    "originContent": "    * Linux, arm64* (Native `.deb`, `.tar`) _Only battery info part is working - not actual control as CCTK from Dell are not available for arm64 (yet?)_",
+    "translatedContent": "    * Linux, arm64* (네이티브 `.deb`, `.tar`) _배터리 정보 부분만 작동 - Dell의 CCTK가 arm64용으로 아직 제공되지 않아 실제 제어는 불가(아직?)_"
+  },
+  {
+    "row": 57,
+    "rowsha": "VuGIuEpfgyqbJQhqJA1HcbWrpmKxwU5U6IKzzxQrHTI=",
+    "originContent": "## Build from source",
+    "translatedContent": "## 소스에서 빌드하기"
+  },
+  {
+    "row": 58,
+    "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+    "originContent": "### Linux",
+    "translatedContent": "### Linux"
+  },
+  {
+    "row": 59,
+    "rowsha": "LXzMzDnqa635Tw4b6yg887OZy4+yaxyeuikjTnGS90E=",
+    "originContent": "* Install dependencies:",
+    "translatedContent": "* 의존성 설치:"
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "idpivzoHgO9z2FKMB7vbc8CaNs1suh7RDlbccfQyFOw=",
+    "originContent": "sudo apt-get install -y ninja-build libgtk-3-dev libsqlite3-dev libsecret-1-0 libsecret-1-dev",
+    "translatedContent": "sudo apt-get install -y ninja-build libgtk-3-dev libsqlite3-dev libsecret-1-0 libsecret-1-dev"
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "y8Jr7i97PUa236qXw0j/DEZF6WUYlOBi0gsn6Ox5MhU=",
+    "originContent": "* Run from source via `flutter run`, build via `flutter build linux --release`",
+    "translatedContent": "* `flutter run` 명령어로 소스에서 실행, `flutter build linux --release` 명령어로 빌드"
+  },
+  {
+    "row": 64,
+    "rowsha": "VhMxb13AnUkOi7k0IhQgrZgitUWybv3WlUtZtXKrR2A=",
+    "originContent": "* Package to `.deb`, `.tar.xz` via `./package.sh`",
+    "translatedContent": "* `./package.sh` 스크립트로 `.deb`, `.tar.xz` 패키징"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "I8OqWxAPxRGlyXf2eaBl+y3OA+W+oEB2YOLztE7fZ5U=",
+    "originContent": "ATTENTION: do _not_ install flutter from `snap`, you native [installation instead](https://docs.flutter.dev/get-started/install/linux/desktop) - snap-provided flutter will fail to compile for this project due to [snap specific issues](https://github.com/juliansteenbakker/flutter_secure_storage/issues/676).",
+    "translatedContent": "주의: flutter를 `snap`으로 설치하지 마십시오, 대신 [네이티브 설치 방법](https://docs.flutter.dev/get-started/install/linux/desktop)을 사용하세요 - snap으로 제공되는 flutter는 [snap 특유의 문제](https://github.com/juliansteenbakker/flutter_secure_storage/issues/676) 때문에 이 프로젝트에서 컴파일에 실패합니다."
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "0FiuH2W03qY+Bo6hltZlihXJBluFMyZj/iTpeAXb4Xk=",
+    "originContent": "### Windows",
+    "translatedContent": "### Windows"
+  },
+  {
+    "row": 69,
+    "rowsha": "jjEho+6ZxEB1d0iE9pdtO1fY/VdVInUIlTbvyc6vRkY=",
+    "originContent": "* Run from source via `flutter run`, build via `flutter build windows --release`",
+    "translatedContent": "* `flutter run` 명령어로 소스에서 실행, `flutter build windows --release` 명령어로 빌드"
+  },
+  {
+    "row": 70,
+    "rowsha": "l7Tte9iOioRNVKdp31O5pEh/J7xCHIE4FBR3vz+i+EY=",
+    "originContent": "* Package to `.msi` via `.\\package.bat`",
+    "translatedContent": "* `.\\package.bat` 스크립트로 `.msi` 패키징"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## 기여하기"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "TIX/JOwnwkQe58ppe2noaO2wkOzmMkMGI6BWWBThor0=",
+    "originContent": "### Debugging",
+    "translatedContent": "### 디버깅"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "TG2c/WTwdGXemrY8R0FirxUOjFrx1aV7ebv3zR7rkTc=",
+    "originContent": "By default, all logging is supressed. Export `POWERMANAGER_DEBUG=true` before running app from CLI to get logs.",
+    "translatedContent": "기본적으로 모든 로깅이 비활성화되어 있습니다. CLI에서 앱 실행 전에 `POWERMANAGER_DEBUG=true`를 내보내면 로그를 확인할 수 있습니다.  "
+  },
+  {
+    "row": 77,
+    "rowsha": "A1DKQqy4VIdeBfZWAH84fu+0kCOhPe1SCmFXkNf2r/E=",
+    "originContent": "Eg.: `export POWERMANAGER_DEBUG=true && ./dell-powermanager > file.log`. When opening an issue, kindly save and attach the log.",
+    "translatedContent": "예: `export POWERMANAGER_DEBUG=true && ./dell-powermanager > file.log`. 이슈를 제기할 때 로그를 저장하여 첨부해 주시기 바랍니다."
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "HszqyHrwTkD6nR/lrVJ9IpMzbk4ZXBOwctDF0AlYh50=",
+    "originContent": "### Translations",
+    "translatedContent": "### 번역"
+  },
+  {
+    "row": 80,
+    "rowsha": "tDmLVQn6n5HM0f1V6ZlonpGvEVzD5zFzATqTonvSBxo=",
+    "originContent": "App supports multiple languages via Flutter's localization library. If you want to contribute:",
+    "translatedContent": "앱은 Flutter의 지역화 라이브러리를 통해 다국어를 지원합니다. 기여를 원하시면:"
+  },
+  {
+    "row": 81,
+    "rowsha": "nNtfXAGoJemOYsaVB3UdzIWVygOymppK5VcPgdK2tpw=",
+    "originContent": "* Check out [lib/l10n/*.arb](https://raw.githubusercontent.com/alexVinarskis/dell-powermanager/master/lib/l10n/app_en.arb) files.",
+    "translatedContent": "* [lib/l10n/*.arb](https://raw.githubusercontent.com/alexVinarskis/dell-powermanager/master/lib/l10n/app_en.arb) 파일을 확인하세요."
+  },
+  {
+    "row": 82,
+    "rowsha": "k9enkiZ4ApB2Oo0Cd8j6Y9BIm5tw6hS1AJnCZ3OPdIQ=",
+    "originContent": "* Create similar file for you language, translate the strings.",
+    "translatedContent": "* 본인 언어에 맞는 유사한 파일을 생성하고 문자열을 번역하세요."
+  },
+  {
+    "row": 83,
+    "rowsha": "m9iVWtEB+SiIRqEOGsUGT3HII2ram6u+VPZtsmiRo0E=",
+    "originContent": "* Open PR with your changes.",
+    "translatedContent": "* 변경 사항을 포함한 PR을 열어 주세요."
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "ToF55XSC5N+RkvpW3gy7KfKIb5yrXRpshO7tai3jNdg=",
+    "originContent": "## Compatibility",
+    "translatedContent": "## 호환성"
+  },
+  {
+    "row": 86,
+    "rowsha": "VtMZfUEJD2fy68gfG9e2jrcECddy0YrJ5RM2L8XxqoE=",
+    "originContent": "Tested on the following devices:",
+    "translatedContent": "다음 장치에서 테스트되었습니다:"
+  },
+  {
+    "row": 87,
+    "rowsha": "ixmtBAxX1gzDi8N9dAKKmyVDstr/tUdn7I5jdZ8LdT4=",
+    "originContent": "* Dell G3 15 3500",
+    "translatedContent": "* Dell G3 15 3500"
+  },
+  {
+    "row": 88,
+    "rowsha": "z5aFTIHH967BfW78umCxtheHXdCh9yeojy7NuGQouO0=",
+    "originContent": "    * [Windows 11 24H2 (OS Build 26100.4061)](https://github.com/alexVinarskis/dell-powermanager/issues/65)",
+    "translatedContent": "    * [Windows 11 24H2 (OS Build 26100.4061)](https://github.com/alexVinarskis/dell-powermanager/issues/65)"
+  },
+  {
+    "row": 89,
+    "rowsha": "UTfBp37QPvbtI57rYTTCC0hgRUyQBWY/N19LT3FNig4=",
+    "originContent": "* Dell Latitude 5400",
+    "translatedContent": "* Dell Latitude 5400"
+  },
+  {
+    "row": 90,
+    "rowsha": "9kL4h0C/wGXNcU0gMA/w69BgrQFwV94kh/Z8I8jPUY0=",
+    "originContent": "    * [Ubuntu 24.04](https://github.com/alexVinarskis/dell-powermanager/issues/56)",
+    "translatedContent": "    * [Ubuntu 24.04](https://github.com/alexVinarskis/dell-powermanager/issues/56)"
+  },
+  {
+    "row": 91,
+    "rowsha": "AbEdMuYCKzORdHyeBXm4QYGNm44kx8po0lcfX+ys89w=",
+    "originContent": "* Dell Precision 7560",
+    "translatedContent": "* Dell Precision 7560"
+  },
+  {
+    "row": 92,
+    "rowsha": "cQsHSJw61ytSfJ4RVax8CQzLmBu8RLyGNYmqv8q8qts=",
+    "originContent": "    * [Fedora 41, 6.12.4](https://github.com/alexVinarskis/dell-powermanager/issues/47)",
+    "translatedContent": "    * [Fedora 41, 6.12.4](https://github.com/alexVinarskis/dell-powermanager/issues/47)"
+  },
+  {
+    "row": 93,
+    "rowsha": "DAtE7ciCpstdFnr9pLyDn2DArfDMHGg/pdU7XIs50aE=",
+    "originContent": "* Dell XPS 17 9700",
+    "translatedContent": "* Dell XPS 17 9700"
+  },
+  {
+    "row": 94,
+    "rowsha": "snk2UTsfVATWxTth6hq9Pv/DdZy9UaCbD/p/1HH+XUI=",
+    "originContent": "    * [Tumbleweed OpenSUSE, 6.7.5](https://github.com/alexVinarskis/dell-powermanager/issues/31)",
+    "translatedContent": "    * [Tumbleweed OpenSUSE, 6.7.5](https://github.com/alexVinarskis/dell-powermanager/issues/31)"
+  },
+  {
+    "row": 95,
+    "rowsha": "AHUURPMuxoWjnFF4/dSZDQyRakyOfIInbHtFPoP1I5w=",
+    "originContent": "* Dell XPS 15 9560",
+    "translatedContent": "* Dell XPS 15 9560"
+  },
+  {
+    "row": 96,
+    "rowsha": "Lh2dWg9QLOFdmSHlcD9LDJ2Srz8HPYm9pOb4D0J7eT0=",
+    "originContent": "    * [Arch Linux, 6.11.6-arch1-1](https://github.com/alexVinarskis/dell-powermanager/issues/46)",
+    "translatedContent": "    * [Arch Linux, 6.11.6-arch1-1](https://github.com/alexVinarskis/dell-powermanager/issues/46)"
+  },
+  {
+    "row": 97,
+    "rowsha": "9Rxwy3xEltHNITBV1VnbGTIoN7ryTKPbf/z0yZPuk3g=",
+    "originContent": "* Dell XPS 15 9530 (2023/Fiorano)",
+    "translatedContent": "* Dell XPS 15 9530 (2023/Fiorano)"
+  },
+  {
+    "row": 98,
+    "rowsha": "9/xrT/ZR2ABG4kyNQo9VRs8kmA4nWQTi1Cc4w99VeIY=",
+    "originContent": "    * Ubuntu 23.04, 6.5.0-060500-generic",
+    "translatedContent": "    * Ubuntu 23.04, 6.5.0-060500-generic"
+  },
+  {
+    "row": 99,
+    "rowsha": "nmG082uePGxWdoLpgCn95oX2tjz0MQ0BVpQkL/uXGyI=",
+    "originContent": "    * Ubuntu 23.10, 6.5.0-060500-generic",
+    "translatedContent": "    * Ubuntu 23.10, 6.5.0-060500-generic"
+  },
+  {
+    "row": 100,
+    "rowsha": "RkGvFKOhkz1g4Ze0v/abvsYrZmwulxGS9whzXuPodS8=",
+    "originContent": "    * Windows 11 Pro 22H2, 22621.2428",
+    "translatedContent": "    * Windows 11 Pro 22H2, 22621.2428"
+  },
+  {
+    "row": 101,
+    "rowsha": "g7T1YZouS3m1O3W7fj+Fo7irMLBCr9plZqDQo5v8wJw=",
+    "originContent": "* Dell XPS 15 9520",
+    "translatedContent": "* Dell XPS 15 9520"
+  },
+  {
+    "row": 102,
+    "rowsha": "NHpi2gTskGuFQXk4gVB7CM7i4EDH6aIU4ymq3qUtXDw=",
+    "originContent": "    * [Arch, 6.7.5](https://github.com/alexVinarskis/dell-powermanager/issues/31)",
+    "translatedContent": "    * [Arch, 6.7.5](https://github.com/alexVinarskis/dell-powermanager/issues/31)"
+  },
+  {
+    "row": 103,
+    "rowsha": "h95ZnYBwE5QVt96kmC2LT9s6STqkWwPDs0RQ5rd/nTw=",
+    "originContent": "    * Ubuntu 22.04, 6.2.0",
+    "translatedContent": "    * Ubuntu 22.04, 6.2.0"
+  },
+  {
+    "row": 104,
+    "rowsha": "Ex1s0hwPNTM7d2mwnQG2C/L5BJiiScNwqGAiyhkqkoY=",
+    "originContent": "    * Windows 11 Home 22H2, 22621.2428",
+    "translatedContent": "    * Windows 11 Home 22H2, 22621.2428"
+  },
+  {
+    "row": 105,
+    "rowsha": "rnGVg6qFdKnvNvOuxENkAe0k8ceWgcqTeE//qPmyseM=",
+    "originContent": "* Dell XPS 13 9345 (Tributo)",
+    "translatedContent": "* Dell XPS 13 9345 (Tributo)"
+  },
+  {
+    "row": 106,
+    "rowsha": "zLwvNLgX3ZnRgPgT66zyrJPijoo+K9NRRku5rtA0W/Q=",
+    "originContent": "    * Ubuntu 24.10, 6.12.0-28-qcom-x1e (only battery info)",
+    "translatedContent": "    * Ubuntu 24.10, 6.12.0-28-qcom-x1e (배터리 정보만 지원)"
+  },
+  {
+    "row": 107,
+    "rowsha": "tAWTiZQBYmJVqp8N55zIqG8l9knBfw8j4rD+kSDz844=",
+    "originContent": "    * Windows 11 pro",
+    "translatedContent": "    * Windows 11 프로"
+  },
+  {
+    "row": 108,
+    "rowsha": "8iIs0+XQLk+yxIH+oJLKsFp/ihw7NPfWwK1TtQdhoHk=",
+    "originContent": "* Dell XPS 13 9310",
+    "translatedContent": "* Dell XPS 13 9310"
+  },
+  {
+    "row": 109,
+    "rowsha": "tpGhEeYesPyL1aMlCw82697w3K4j3d5B+1iRgCN5FFM=",
+    "originContent": "    * Ubuntu 22.04.3, 6.2.0-26-generic",
+    "translatedContent": "    * Ubuntu 22.04.3, 6.2.0-26-generic"
+  },
+  {
+    "row": 110,
+    "rowsha": "FBIOTGH/3HyIV58aJCE4wEqc9/hKWpmCId5Q0yZjdhk=",
+    "originContent": "    * Windows 10 pro 22H2, 19045.3324",
+    "translatedContent": "    * Windows 10 프로 22H2, 19045.3324"
+  },
+  {
+    "row": 111,
+    "rowsha": "ynDCrnA7nI9NC94vExuOzxqjlDc2I8lTLH3+wbIbODQ=",
+    "originContent": "* Dell Vostro 5401",
+    "translatedContent": "* Dell Vostro 5401"
+  },
+  {
+    "row": 112,
+    "rowsha": "XJnqhGtziEM8lX8aPJ2TnT+0Sh7x1TaP/T7hQhx4dBM=",
+    "originContent": "    * [Ubuntu 23.10](https://github.com/alexVinarskis/dell-powermanager/issues/23) ",
+    "translatedContent": "    * [Ubuntu 23.10](https://github.com/alexVinarskis/dell-powermanager/issues/23) "
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "INzw4nWAJwkVl9j9RE3+ts2vyqpnQmDo2vw+WO2/nl4=",
+    "originContent": "If you experienced problems with any of the above mentioned devices, please open [**Bug Report**](https://github.com/alexVinarskis/dell-powermanager/issues/new?template=bug_report.md&title=[BUG]). If you have tested it on other devices, please report [**Tested device**](https://github.com/alexVinarskis/dell-powermanager/issues).",
+    "translatedContent": "위에 언급된 장치 중 문제를 경험하셨다면, [**버그 리포트**](https://github.com/alexVinarskis/dell-powermanager/issues/new?template=bug_report.md&title=[BUG])를 열어주시기 바랍니다. 다른 장치에서 테스트하셨다면, [**테스트된 장치**](https://github.com/alexVinarskis/dell-powermanager/issues)로 보고해 주세요."
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "TOy22i5AzASubjDPPx58vQcD5QB4y3wWLAyhTCm+UFg=",
+    "originContent": "## Known issues",
+    "translatedContent": "## 알려진 문제"
+  },
+  {
+    "row": 117,
+    "rowsha": "LyVWuxxXZwM0vjr2BIw/vbwxGAjo/tVNR6GGzI1ftDo=",
+    "originContent": "Please see [issues](https://github.com/alexVinarskis/dell-powermanager/issues).",
+    "translatedContent": "자세한 내용은 [이슈](https://github.com/alexVinarskis/dell-powermanager/issues)를 참고하세요."
+  },
+  {
+    "row": 118,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": "## 크레딧"
+  },
+  {
+    "row": 119,
+    "rowsha": "emFzrL4RdpGgrhHsPlzFEy6LZn4dny3MKsLJHWtgkio=",
+    "originContent": "* Dell for providing 'Dell Command | Configure CLI'",
+    "translatedContent": "* 'Dell Command | Configure CLI'를 제공한 Dell에 감사드립니다."
+  },
+  {
+    "row": 120,
+    "rowsha": "ObbHPMCYWcob/VsuFbqX5zJrsUDf8m5lXtb6gqOyEdw=",
+    "originContent": "* Google for creating Flutter :)",
+    "translatedContent": "* Flutter를 만든 Google에 감사드립니다 :)"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "aU2AoMUV45em9//+jYmdfv83JGc0QNF5oAwpldQ5sVo=",
+    "originContent": "## Disclaimer",
+    "translatedContent": "## 면책 조항"
+  },
+  {
+    "row": 123,
+    "rowsha": "RnVEDmfzlhCOSfinyZbGC6JZzDtBXbbbY1/ueeAVEiU=",
+    "originContent": "As per license, this software is provided as-is, without any warranty. It is not affiliated with Dell in any way. Use at your own risk. Me or any other contributors are not responsible for any damage caused by this software, including but not limited to data loss, hardware damage, data breaches etc. Where applicable, integrated solution for secure key saving is used, but it is not guaranteed to be secure in any way. Understand risk and implications before using it. No legal claims can be made against the author or contributors.",
+    "translatedContent": "라이선스에 따라 이 소프트웨어는 어떠한 보증 없이 있는 그대로 제공됩니다. Dell과 어떤 형태로든 제휴되어 있지 않습니다. 사용은 전적으로 사용자 책임입니다. 저나 다른 기여자는 이 소프트웨어로 인해 발생하는 데이터 손실, 하드웨어 손상, 데이터 유출 등 모든 피해에 대해 책임지지 않습니다. 적용 가능한 경우, 보안 키 저장을 위한 통합 솔루션을 사용하지만, 보안이 보장되지는 않습니다. 사용 전에 위험과 영향을 충분히 이해하시기 바랍니다. 작성자나 기여자에게 법적 청구를 할 수 없습니다."
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 126,
+    "rowsha": "gCPaSgkbwErd24Zq0lYDiwgW9TbfmNY5yTnD31nYYbw=",
+    "originContent": "This application is licensed under GPLv3. In short, this means you use/copy/modify/distribute it for free, but you must provide source code of your modifications, and keep the same license. You cannot sell it as proprietary software. See [LICENSE](LICENSE) for details.",
+    "translatedContent": "이 애플리케이션은 GPLv3 라이선스 하에 배포됩니다. 간단히 말해, 이를 무료로 사용/복사/수정/배포할 수 있지만, 수정한 소스 코드를 제공하고 동일한 라이선스를 유지해야 합니다. 독점 소프트웨어로 판매할 수 없습니다. 자세한 내용은 [LICENSE](LICENSE)를 참조하세요."
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
