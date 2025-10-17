@@ -1,0 +1,189 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Winger - A Window Manager\n\nName windows, switch windows, move tabs between windows, and more. A Firefox web extension to fluidly operate multiple windows and organize tabs.\n\nInstall Winger from here: https://addons.mozilla.org/firefox/addon/winger/\n\n## Code and documentation conventions\n\n### Terminology\n\n- `active` tabs are \"focused\"\n- `highlighted` tabs are \"selected\"\n\n### Variable names\n\n- Most variables and functions are camelCased\n- Classes, modules and namespace objects (which group related functions together, hardcoded) are usually PascalCased\n- Hardcoded constants are usually UPPER_SNAKE_CASED\n- Storage keys are usually lower_snake_cased\n- Arrays are usually plural\n- Objects are usually singular\n- Objects that serve to group things together (as opposed to representing a thing) are usually suffixed with `Dict`\n- Object properties that are only referenced inside their object are usually prefixed with `_`\n- Maps are usually suffixed with `Map`\n- Sets are usually suffixed with `Set`\n- Booleans are usually prefixed with words like `is` and `has`\n- DOM nodes and collections of DOM nodes are usually prefixed with `$`\n- Custom properties (a.k.a. expandos) in standard built-in objects (e.g. Arrays, DOM nodes) are prefixed with `_`, or `$` if referencing DOM nodes\n",
+    "ContentSha": "mjASAilZ1ihwbOOvBxYT3uS8/0k9yjjG0wze/FaHeew=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Winger - Un gestionnaire de fenêtres\n\nNommez les fenêtres, changez de fenêtres, déplacez des onglets entre les fenêtres, et plus encore. Une extension web Firefox pour gérer plusieurs fenêtres de manière fluide et organiser les onglets.\n\nInstallez Winger ici : https://addons.mozilla.org/firefox/addon/winger/\n\n## Conventions de code et de documentation\n\n### Terminologie\n\n- Les onglets `actifs` sont \"focalisés\"\n- Les onglets `surlignés` sont \"sélectionnés\"\n\n### Noms de variables\n\n- La plupart des variables et fonctions sont en camelCase\n- Les classes, modules et objets namespace (qui regroupent des fonctions liées, codées en dur) sont généralement en PascalCase\n- Les constantes codées en dur sont généralement en UPPER_SNAKE_CASE\n- Les clés de stockage sont généralement en lower_snake_case\n- Les tableaux sont généralement au pluriel\n- Les objets sont généralement au singulier\n- Les objets servant à regrouper des éléments (plutôt que de représenter une chose) sont généralement suffixés par `Dict`\n- Les propriétés d’objet référencées uniquement à l’intérieur de leur objet sont généralement préfixées par `_`\n- Les maps sont généralement suffixées par `Map`\n- Les sets sont généralement suffixés par `Set`\n- Les booléens sont généralement préfixés par des mots comme `is` et `has`\n- Les nœuds DOM et collections de nœuds DOM sont généralement préfixés par `$`\n- Les propriétés personnalisées (alias expandos) dans les objets intégrés standards (ex. Arrays, nœuds DOM) sont préfixées par `_`, ou `$` si elles font référence à des nœuds DOM\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2p+4Ij0f005NXRI/+kLTYUZvXKQKOkzI0gC5bzMkyNM=",
+        "originContent": "# Winger - A Window Manager",
+        "translatedContent": "# Winger - Un gestionnaire de fenêtres"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "VlmF1ywwa3jdbayiafrXHdqpbeecpM/5GNoV+DyeTfw=",
+        "originContent": "Name windows, switch windows, move tabs between windows, and more. A Firefox web extension to fluidly operate multiple windows and organize tabs.",
+        "translatedContent": "Nommez les fenêtres, changez de fenêtres, déplacez des onglets entre les fenêtres, et plus encore. Une extension web Firefox pour gérer plusieurs fenêtres de manière fluide et organiser les onglets."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "H1/EmBP/PRDWp/uQwgeTgnxn7e79eo3bZ1JxbaDWJvA=",
+        "originContent": "Install Winger from here: https://addons.mozilla.org/firefox/addon/winger/",
+        "translatedContent": "Installez Winger ici : https://addons.mozilla.org/firefox/addon/winger/"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "tIwRyKg/xuRv2ihbwn33ki+hSeCcX7ITyNW58YV2wvY=",
+        "originContent": "## Code and documentation conventions",
+        "translatedContent": "## Conventions de code et de documentation"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "KX7cafpxmc9r8RmHrYjb5al4xyR8i1MwKp6c9nTkAHU=",
+        "originContent": "### Terminology",
+        "translatedContent": "### Terminologie"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "j1a8pZEizVv5iLDLHL3c2Wn1OZY+ZOPVpLb1W0nCzko=",
+        "originContent": "- `active` tabs are \"focused\"",
+        "translatedContent": "- Les onglets `actifs` sont \"focalisés\""
+      },
+      {
+        "row": 12,
+        "rowsha": "rOKyXoa9qP/fj2gd8dVu8wPmgi3jBgjn6sMgrUx9DKg=",
+        "originContent": "- `highlighted` tabs are \"selected\"",
+        "translatedContent": "- Les onglets `surlignés` sont \"sélectionnés\""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "+WlRkwR/vKg4pH2GG5+qlT4rYynXzARSrvSRXcllx7I=",
+        "originContent": "### Variable names",
+        "translatedContent": "### Noms de variables"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "jlmxYRSv5UPXTRaFEvMdcuepuSCLqd5dURtZF+JmRbk=",
+        "originContent": "- Most variables and functions are camelCased",
+        "translatedContent": "- La plupart des variables et fonctions sont en camelCase"
+      },
+      {
+        "row": 17,
+        "rowsha": "N/mQ/Pe9IKQGc1oTTa3KvWccskkB8onYjCHSfcg/20A=",
+        "originContent": "- Classes, modules and namespace objects (which group related functions together, hardcoded) are usually PascalCased",
+        "translatedContent": "- Les classes, modules et objets namespace (qui regroupent des fonctions liées, codées en dur) sont généralement en PascalCase"
+      },
+      {
+        "row": 18,
+        "rowsha": "TVHBuLT6PmlBM2Bol+7mCc8B76KlF5b3wB5y06UlN/E=",
+        "originContent": "- Hardcoded constants are usually UPPER_SNAKE_CASED",
+        "translatedContent": "- Les constantes codées en dur sont généralement en UPPER_SNAKE_CASE"
+      },
+      {
+        "row": 19,
+        "rowsha": "N9Hy9PHMLO7f07y4I6Zhl2YK7aiI8jUJYQpfpdDAssY=",
+        "originContent": "- Storage keys are usually lower_snake_cased",
+        "translatedContent": "- Les clés de stockage sont généralement en lower_snake_case"
+      },
+      {
+        "row": 20,
+        "rowsha": "FthwnESdTk5PV2U04j9/UsPZyGEogv5w8TXWDdhrhzU=",
+        "originContent": "- Arrays are usually plural",
+        "translatedContent": "- Les tableaux sont généralement au pluriel"
+      },
+      {
+        "row": 21,
+        "rowsha": "GtseIt8cRJ5nj3VNDC/KauDQLcetkhLN4YdlCz7XSoE=",
+        "originContent": "- Objects are usually singular",
+        "translatedContent": "- Les objets sont généralement au singulier"
+      },
+      {
+        "row": 22,
+        "rowsha": "Tcz6nUWBDJ20mlGEp4Be55XVLHtm8jnj64iqx0S4QQ8=",
+        "originContent": "- Objects that serve to group things together (as opposed to representing a thing) are usually suffixed with `Dict`",
+        "translatedContent": "- Les objets servant à regrouper des éléments (plutôt que de représenter une chose) sont généralement suffixés par `Dict`"
+      },
+      {
+        "row": 23,
+        "rowsha": "59I+MMQ+tBwJDHsPOk/XgySNFyR7ScB9ZMggIQGa81Y=",
+        "originContent": "- Object properties that are only referenced inside their object are usually prefixed with `_`",
+        "translatedContent": "- Les propriétés d’objet référencées uniquement à l’intérieur de leur objet sont généralement préfixées par `_`"
+      },
+      {
+        "row": 24,
+        "rowsha": "MU0SqoxvuSMNlO8qdMSdtyS+yh/S+VpHxr58p+C7CBg=",
+        "originContent": "- Maps are usually suffixed with `Map`",
+        "translatedContent": "- Les maps sont généralement suffixées par `Map`"
+      },
+      {
+        "row": 25,
+        "rowsha": "hKQii89D+RPM/VchfC2Z7uGW3+zS6ykPzKRQOM4EqnU=",
+        "originContent": "- Sets are usually suffixed with `Set`",
+        "translatedContent": "- Les sets sont généralement suffixés par `Set`"
+      },
+      {
+        "row": 26,
+        "rowsha": "ZppRk3vmtrBk4GpIlbHwJXV0oh0vBIM4EFgMFIGtZpI=",
+        "originContent": "- Booleans are usually prefixed with words like `is` and `has`",
+        "translatedContent": "- Les booléens sont généralement préfixés par des mots comme `is` et `has`"
+      },
+      {
+        "row": 27,
+        "rowsha": "OQ0Egum0R0sPVOho7GuL0PmVR58t33CK7QUdJrmBakk=",
+        "originContent": "- DOM nodes and collections of DOM nodes are usually prefixed with `$`",
+        "translatedContent": "- Les nœuds DOM et collections de nœuds DOM sont généralement préfixés par `$`"
+      },
+      {
+        "row": 28,
+        "rowsha": "OChTPvmmklB12xCTCkqEoXAmDHhJtdL00AG0LgSAuYo=",
+        "originContent": "- Custom properties (a.k.a. expandos) in standard built-in objects (e.g. Arrays, DOM nodes) are prefixed with `_`, or `$` if referencing DOM nodes",
+        "translatedContent": "- Les propriétés personnalisées (alias expandos) dans les objets intégrés standards (ex. Arrays, nœuds DOM) sont préfixées par `_`, ou `$` si elles font référence à des nœuds DOM"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

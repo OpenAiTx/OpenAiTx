@@ -269,6 +269,6 @@ Wenn unsere Arbeit oder verwandte Ressourcen für Ihre Forschung wertvoll sind, 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-17
 
 ---

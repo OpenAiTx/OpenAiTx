@@ -1,0 +1,176 @@
+[
+  {
+    "row": 1,
+    "rowsha": "2p+4Ij0f005NXRI/+kLTYUZvXKQKOkzI0gC5bzMkyNM=",
+    "originContent": "# Winger - A Window Manager",
+    "translatedContent": "# Winger - ウィンドウマネージャー"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "VlmF1ywwa3jdbayiafrXHdqpbeecpM/5GNoV+DyeTfw=",
+    "originContent": "Name windows, switch windows, move tabs between windows, and more. A Firefox web extension to fluidly operate multiple windows and organize tabs.",
+    "translatedContent": "ウィンドウに名前を付け、ウィンドウを切り替え、タブをウィンドウ間で移動するなど。複数のウィンドウを流動的に操作し、タブを整理するためのFirefoxウェブ拡張機能。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "H1/EmBP/PRDWp/uQwgeTgnxn7e79eo3bZ1JxbaDWJvA=",
+    "originContent": "Install Winger from here: https://addons.mozilla.org/firefox/addon/winger/",
+    "translatedContent": "Wingerをここからインストールしてください：https://addons.mozilla.org/firefox/addon/winger/"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "tIwRyKg/xuRv2ihbwn33ki+hSeCcX7ITyNW58YV2wvY=",
+    "originContent": "## Code and documentation conventions",
+    "translatedContent": "## コードおよびドキュメントの規約"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "KX7cafpxmc9r8RmHrYjb5al4xyR8i1MwKp6c9nTkAHU=",
+    "originContent": "### Terminology",
+    "translatedContent": "### 用語"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "j1a8pZEizVv5iLDLHL3c2Wn1OZY+ZOPVpLb1W0nCzko=",
+    "originContent": "- `active` tabs are \"focused\"",
+    "translatedContent": "- `active` タブは「フォーカスされた」"
+  },
+  {
+    "row": 12,
+    "rowsha": "rOKyXoa9qP/fj2gd8dVu8wPmgi3jBgjn6sMgrUx9DKg=",
+    "originContent": "- `highlighted` tabs are \"selected\"",
+    "translatedContent": "- `highlighted` タブは「選択された」"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "+WlRkwR/vKg4pH2GG5+qlT4rYynXzARSrvSRXcllx7I=",
+    "originContent": "### Variable names",
+    "translatedContent": "### 変数名"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "jlmxYRSv5UPXTRaFEvMdcuepuSCLqd5dURtZF+JmRbk=",
+    "originContent": "- Most variables and functions are camelCased",
+    "translatedContent": "- ほとんどの変数と関数はcamelCaseを使用"
+  },
+  {
+    "row": 17,
+    "rowsha": "N/mQ/Pe9IKQGc1oTTa3KvWccskkB8onYjCHSfcg/20A=",
+    "originContent": "- Classes, modules and namespace objects (which group related functions together, hardcoded) are usually PascalCased",
+    "translatedContent": "- クラス、モジュール、名前空間オブジェクト（関連関数をまとめるためのハードコードされたもの）は通常PascalCase"
+  },
+  {
+    "row": 18,
+    "rowsha": "TVHBuLT6PmlBM2Bol+7mCc8B76KlF5b3wB5y06UlN/E=",
+    "originContent": "- Hardcoded constants are usually UPPER_SNAKE_CASED",
+    "translatedContent": "- ハードコードされた定数は通常UPPER_SNAKE_CASE"
+  },
+  {
+    "row": 19,
+    "rowsha": "N9Hy9PHMLO7f07y4I6Zhl2YK7aiI8jUJYQpfpdDAssY=",
+    "originContent": "- Storage keys are usually lower_snake_cased",
+    "translatedContent": "- ストレージキーは通常lower_snake_case"
+  },
+  {
+    "row": 20,
+    "rowsha": "FthwnESdTk5PV2U04j9/UsPZyGEogv5w8TXWDdhrhzU=",
+    "originContent": "- Arrays are usually plural",
+    "translatedContent": "- 配列は通常複数形"
+  },
+  {
+    "row": 21,
+    "rowsha": "GtseIt8cRJ5nj3VNDC/KauDQLcetkhLN4YdlCz7XSoE=",
+    "originContent": "- Objects are usually singular",
+    "translatedContent": "- オブジェクトは通常単数形"
+  },
+  {
+    "row": 22,
+    "rowsha": "Tcz6nUWBDJ20mlGEp4Be55XVLHtm8jnj64iqx0S4QQ8=",
+    "originContent": "- Objects that serve to group things together (as opposed to representing a thing) are usually suffixed with `Dict`",
+    "translatedContent": "- 物を表すのではなくグループ化のためのオブジェクトは通常`Dict`で終わる"
+  },
+  {
+    "row": 23,
+    "rowsha": "59I+MMQ+tBwJDHsPOk/XgySNFyR7ScB9ZMggIQGa81Y=",
+    "originContent": "- Object properties that are only referenced inside their object are usually prefixed with `_`",
+    "translatedContent": "- オブジェクト内だけで参照されるプロパティは通常`_`で始まる"
+  },
+  {
+    "row": 24,
+    "rowsha": "MU0SqoxvuSMNlO8qdMSdtyS+yh/S+VpHxr58p+C7CBg=",
+    "originContent": "- Maps are usually suffixed with `Map`",
+    "translatedContent": "- マップは通常`Map`で終わる"
+  },
+  {
+    "row": 25,
+    "rowsha": "hKQii89D+RPM/VchfC2Z7uGW3+zS6ykPzKRQOM4EqnU=",
+    "originContent": "- Sets are usually suffixed with `Set`",
+    "translatedContent": "- セットは通常`Set`で終わる"
+  },
+  {
+    "row": 26,
+    "rowsha": "ZppRk3vmtrBk4GpIlbHwJXV0oh0vBIM4EFgMFIGtZpI=",
+    "originContent": "- Booleans are usually prefixed with words like `is` and `has`",
+    "translatedContent": "- ブール値は通常`is`や`has`などの単語で始まる"
+  },
+  {
+    "row": 27,
+    "rowsha": "OQ0Egum0R0sPVOho7GuL0PmVR58t33CK7QUdJrmBakk=",
+    "originContent": "- DOM nodes and collections of DOM nodes are usually prefixed with `$`",
+    "translatedContent": "- DOMノードおよびDOMノードのコレクションは通常`$`で始まる"
+  },
+  {
+    "row": 28,
+    "rowsha": "OChTPvmmklB12xCTCkqEoXAmDHhJtdL00AG0LgSAuYo=",
+    "originContent": "- Custom properties (a.k.a. expandos) in standard built-in objects (e.g. Arrays, DOM nodes) are prefixed with `_`, or `$` if referencing DOM nodes",
+    "translatedContent": "- 標準の組み込みオブジェクト（例：配列、DOMノード）におけるカスタムプロパティ（いわゆるエクスパンド）は、DOMノード参照の場合は`$`、それ以外は`_`で始まる"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

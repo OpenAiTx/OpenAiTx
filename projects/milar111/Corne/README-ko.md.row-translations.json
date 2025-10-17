@@ -1,0 +1,938 @@
+[
+  {
+    "row": 1,
+    "rowsha": "zRtixetiK5/FLCe6ZURkj8k3z+inQjf2QJ6Nn8cv0pk=",
+    "originContent": "# Budget Wireless Corne Keyboard Build",
+    "translatedContent": "# 예산형 무선 코른 키보드 제작"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "7VspD9KY/oxWplyq71YP/P6f8meCUZIl7rkKjy//xZE=",
+    "originContent": "A DIY wireless split keyboard based on the Corne layout, built for approximately $25 USD. This project uses a ProMicro clone with nrf52840 chip, making it a cost-effective alternative to traditional wireless split keyboard builds.",
+    "translatedContent": "약 25달러(USD)로 제작한 코른 레이아웃 기반 DIY 무선 분할 키보드입니다. 이 프로젝트는 nrf52840 칩이 탑재된 ProMicro 클론을 사용하여 기존 무선 분할 키보드 제작에 비해 비용 효율적인 대안을 제공합니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 기능"
+  },
+  {
+    "row": 6,
+    "rowsha": "apnoA7XAz26cBpSAuUxq7E30ZkaqvstzuAjKm5JxcZ4=",
+    "originContent": "- Fully wireless using Bluetooth",
+    "translatedContent": "- 블루투스 완전 무선"
+  },
+  {
+    "row": 7,
+    "rowsha": "A72DsV0SDr3uoUefaTI/f6d4CqBC0fMP/If/TmR4uk0=",
+    "originContent": "- Split ergonomic design (Corne layout)",
+    "translatedContent": "- 분할 인체공학적 디자인 (코른 레이아웃)"
+  },
+  {
+    "row": 8,
+    "rowsha": "fN5y5SvMldFHHXkUxN96djHIeveUB/bN5QyP59XVZsc=",
+    "originContent": "- Low profile design for portability",
+    "translatedContent": "- 휴대성을 위한 저프로파일 디자인"
+  },
+  {
+    "row": 9,
+    "rowsha": "Qf6QJiU4K/z/rWMvHy+Kiy76EB2reYUOJX57I9W3aHo=",
+    "originContent": "- Battery-powered with power switch",
+    "translatedContent": "- 전원 스위치가 있는 배터리 구동"
+  },
+  {
+    "row": 10,
+    "rowsha": "O7RAD4dcAw77sgklx02jmYgop9d8LJqbzdGGPFBZi+0=",
+    "originContent": "- ZMK firmware",
+    "translatedContent": "- ZMK 펌웨어"
+  },
+  {
+    "row": 11,
+    "rowsha": "ekLSTVmySscZbb/Urtz5yRwfKKJiaJJtebT0nWGjDnk=",
+    "originContent": "- Estimated battery life: 1+ month",
+    "translatedContent": "- 예상 배터리 수명: 1개월 이상"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "RV6Vzz+1PIpdHV8aLdf91Mrjl2eqMHk3chRYmwgtdQA=",
+    "originContent": "## Bill of Materials",
+    "translatedContent": "## 부품 목록"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "OhlltvlbP69DOCb9Mbr12ibwjPatOo1EEsPrY9q37IQ=",
+    "originContent": "| Component | Quantity | Cost (USD) | Link |",
+    "translatedContent": "| 부품 | 수량 | 비용 (USD) | 링크 |"
+  },
+  {
+    "row": 16,
+    "rowsha": "1LWblQaowKb8ko2tNLZw84yJ4MHSv0BbSG89BHZB3Ks=",
+    "originContent": "|-----------|----------|------------|------|",
+    "translatedContent": "|-----------|----------|------------|------|"
+  },
+  {
+    "row": 17,
+    "rowsha": "DuTwc/vsFCRrftXmFzddbmjB+B1FNk+a5SDxw7ZNbIY=",
+    "originContent": "| Controller boards (ProMicro nrf52840) | 2 | 6.82 | [AliExpress](https://a.aliexpress.com/_EIV3vwY) |",
+    "translatedContent": "| 컨트롤러 보드 (ProMicro nrf52840) | 2 | 6.82 | [AliExpress](https://a.aliexpress.com/_EIV3vwY) |"
+  },
+  {
+    "row": 18,
+    "rowsha": "/AnD0I4cpVYUQIWpO/DJ4qLGu8GNZ7MHDSdSe7zZQGI=",
+    "originContent": "| Batteries | 2 | 4.20 | [AliExpress](https://a.aliexpress.com/_Eynt9TK) |",
+    "translatedContent": "| 배터리 | 2 | 4.20 | [AliExpress](https://a.aliexpress.com/_Eynt9TK) |"
+  },
+  {
+    "row": 19,
+    "rowsha": "DeC2UG8rlbgNaz4FblDjI3muO3rpWHOfb30f7k1KT70=",
+    "originContent": "| Mechanical Switches | 50 | 7.47 | [AliExpress](https://a.aliexpress.com/_EGhMxEC) |",
+    "translatedContent": "| 기계식 스위치 | 50 | 7.47 | [AliExpress](https://a.aliexpress.com/_EGhMxEC) |"
+  },
+  {
+    "row": 20,
+    "rowsha": "ldxR/3szoaz1oGQlj6Zj+IX1N5gfd9CcqKXc9xPz+lY=",
+    "originContent": "| Keycaps | Set | 3.79 | [Option 1](https://a.aliexpress.com/_EzQyNtA) / [Option 2](https://a.aliexpress.com/_EH8mNqs) |",
+    "translatedContent": "| 키캡 | 세트 | 3.79 | [옵션 1](https://a.aliexpress.com/_EzQyNtA) / [옵션 2](https://a.aliexpress.com/_EH8mNqs) |"
+  },
+  {
+    "row": 21,
+    "rowsha": "5/pnV4A3KfA6VSQonMOA5FcFD2mx0f3FwpV1Y3ZKWjg=",
+    "originContent": "| Diodes (1N4148) | 100 | 0.85 | [AliExpress](https://a.aliexpress.com/_EwZoG2G) |",
+    "translatedContent": "| 다이오드 (1N4148) | 100 | 0.85 | [AliExpress](https://a.aliexpress.com/_EwZoG2G) |"
+  },
+  {
+    "row": 22,
+    "rowsha": "FC1I7N684qLL7ajS4jhjHlb7/ngklmsXbIasC7J6+4w=",
+    "originContent": "| Slide Switches | 2 | 0.11 | |",
+    "translatedContent": "| 슬라이드 스위치 | 2 | 0.11 | |"
+  },
+  {
+    "row": 23,
+    "rowsha": "RKZ0ZijjTwxgrtKlBL67arSFao8j7dMUd3vwB5riugg=",
+    "originContent": "| 3D Printed Parts | Set | 1.80 | Files provided |",
+    "translatedContent": "| 3D 프린팅 부품 | 세트 | 1.80 | 파일 제공 |"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "b3Lx//zrS9P1nRkVB9tgwAYchEerI8ev4Kn7qkiJZKs=",
+    "originContent": "**Total Cost**: $25.04 (excluding wires and screws)",
+    "translatedContent": "**총 비용**: $25.04 (배선 및 나사 제외)"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "tprw2wmfh+T6Tt/G/ODF7DVinvud3FwPUYn9KzGzXB4=",
+    "originContent": "## Current Keymap",
+    "translatedContent": "## 현재 키맵"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "flRDgCKBEHqGQw5MW5IVAQ96d0E8mWGHrgCK8QM4NIs=",
+    "originContent": "![image](https://github.com/user-attachments/assets/362ff580-5528-4f7a-ad09-1fa24acbc6c7)",
+    "translatedContent": "![image](https://github.com/user-attachments/assets/362ff580-5528-4f7a-ad09-1fa24acbc6c7)"
+  },
+  {
+    "row": 30,
+    "rowsha": "3pSunyAZn6PoZdaGfll92uFa2wCBNTqRfgZwyyAgQU0=",
+    "originContent": "![image](https://github.com/user-attachments/assets/3da97ceb-8e2a-43c5-a241-cf9ad4206688)",
+    "translatedContent": "![image](https://github.com/user-attachments/assets/3da97ceb-8e2a-43c5-a241-cf9ad4206688)"
+  },
+  {
+    "row": 31,
+    "rowsha": "N6iQruIEksRRGjcWm1AfOm/3evZ96FYnECAxzuIQo4M=",
+    "originContent": "![image](https://github.com/user-attachments/assets/e262846d-57bf-43b6-b32c-b7e37d3ebb8c)",
+    "translatedContent": "![image](https://github.com/user-attachments/assets/e262846d-57bf-43b6-b32c-b7e37d3ebb8c)"
+  },
+  {
+    "row": 32,
+    "rowsha": "5vD18Jt4jq0RTy+lkPNYza1TDFajTSt8BhWNNCYKUVg=",
+    "originContent": "![image](https://github.com/user-attachments/assets/2a8999cc-e58c-4d51-a142-067cb7ca768c)",
+    "translatedContent": "![image](https://github.com/user-attachments/assets/2a8999cc-e58c-4d51-a142-067cb7ca768c)"
+  },
+  {
+    "row": 33,
+    "rowsha": "8Ch2pu5rjyVToDxjFAmU3DkNrimCTUuP3R8gGXMouh4=",
+    "originContent": "![image](https://github.com/user-attachments/assets/06909fd8-bb4d-4956-88a1-f5d6a8b80e5f)",
+    "translatedContent": "![image](https://github.com/user-attachments/assets/06909fd8-bb4d-4956-88a1-f5d6a8b80e5f)"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "02brIDMJhhVkD5zCgD5/85YpG55qiYDlkoVuP40rnpY=",
+    "originContent": "## Build Instructions",
+    "translatedContent": "## 제작 지침"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+    "originContent": "### Prerequisites",
+    "translatedContent": "### 사전 준비 사항"
+  },
+  {
+    "row": 38,
+    "rowsha": "3ryIghpzIPZHwbrhYeC5WnhvG5lvPgc70l6uI+uAh+0=",
+    "originContent": "- Basic soldering skills",
+    "translatedContent": "- 기본 납땜 기술"
+  },
+  {
+    "row": 39,
+    "rowsha": "A1R/sLaWFe0fglCPMAb0pktL0VKOQkdbajYMP1a4hjU=",
+    "originContent": "- Access to a 3D printer",
+    "translatedContent": "- 3D 프린터 접근 가능"
+  },
+  {
+    "row": 40,
+    "rowsha": "Z2Wmb0uzNuHd+3W7Z3OdAyNLbHICL2tPKL5vj9oh/Pk=",
+    "originContent": "- Basic understanding of keyboard firmware",
+    "translatedContent": "- 키보드 펌웨어에 대한 기본 이해"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 케이스 조립  "
+  },
+  {
+    "row": 42,
+    "rowsha": "YHr3yqivU9xNq959Ev8KxNfFf79R1Zv4PdEytCUkB3M=",
+    "originContent": "### Case Assembly",
+    "translatedContent": "1. 케이스 파일 인쇄 (`3DFiles` 디렉토리에 제공된 STL 파일)  "
+  },
+  {
+    "row": 43,
+    "rowsha": "DNjY+mBx6iftTU+aGAGo7taS8mMErHz9HUCj+HawErc=",
+    "originContent": "1. Print the case files (STL files provided in `3DFiles` directory)",
+    "translatedContent": "2. 참고: 다음을 조정해야 할 수 있습니다:  "
+  },
+  {
+    "row": 44,
+    "rowsha": "cmFwbnrg/Y9xqNBB8gdRWUGZoN/furG7OEtZ4P1aXpw=",
+    "originContent": "2. Note: You may need to adjust the:",
+    "translatedContent": "   - 배터리 구획 크기  "
+  },
+  {
+    "row": 45,
+    "rowsha": "45a2WLcc0achyHh1dK1d/niHhdNoIpoVKtx7IF2ds+I=",
+    "originContent": "   - Battery compartment size",
+    "translatedContent": "   - 슬라이드 스위치 구멍  "
+  },
+  {
+    "row": 46,
+    "rowsha": "ixC9j59J4KinT20dSKfBit6MB4/Z2B+HzNLPE422vGM=",
+    "originContent": "   - Slide switch holes",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 배선  "
+  },
+  {
+    "row": 48,
+    "rowsha": "fdgaovma7iIEA5cbZJT1Wgmw6eIcUMTgrchACqsnw3I=",
+    "originContent": "### Wiring",
+    "translatedContent": "1. 스위치를 매트릭스 구성으로 배선  "
+  },
+  {
+    "row": 49,
+    "rowsha": "ESP2kMBLoNoixFICz7WonJXpgeD+UgrmtzocK5A4Ct8=",
+    "originContent": "1. Wire switches in a matrix configuration",
+    "translatedContent": "2. 다이오드 연결:  "
+  },
+  {
+    "row": 50,
+    "rowsha": "qBw0AfH8e9OLZRcpd59ogAJyYX4nt1JxdOliYw/SNbw=",
+    "originContent": "2. Connect diodes:",
+    "translatedContent": "   - 방향이 중요함 (검은 선은 캐소드 표시)  "
+  },
+  {
+    "row": 51,
+    "rowsha": "bFZsHLR7Haoo7DY3FfDTEIARdpOUeeX/PpOFIOXhvVY=",
+    "originContent": "   - Direction matters (black line indicates cathode)",
+    "translatedContent": "   - 행에는 다이오드 다리를 사용  "
+  },
+  {
+    "row": 52,
+    "rowsha": "xEbohpdptpv+afcRZC1af8x9b/Hzo7SbKl3Lu/0g4wo=",
+    "originContent": "   - Use diode legs for the rows",
+    "translatedContent": "   - 열에는 별도의 선 사용  "
+  },
+  {
+    "row": 53,
+    "rowsha": "WRYGsED8oE/9iuBEUVb7wP+JqZGqTUFLLYaSeVOm7kw=",
+    "originContent": "   - Use separate wires for columns",
+    "translatedContent": "3. 배선이 나사 구멍과 겹치지 않도록 주의  "
+  },
+  {
+    "row": 54,
+    "rowsha": "yUWZkFeRRrCIYAnGzKqOC7G20XYI2VVuWmLp4JEmIak=",
+    "originContent": "3. Keep wiring clear of screw holes",
+    "translatedContent": "4. 배터리 연결:  "
+  },
+  {
+    "row": 55,
+    "rowsha": "sWfCciWkc+myUKhoCiKHtgIUP03M1cCDSbvuzBf3EnI=",
+    "originContent": "4. Connect the battery:",
+    "translatedContent": "   - GND를 GND 핀에 연결  "
+  },
+  {
+    "row": 56,
+    "rowsha": "eHjY30VOekd1A2PZL//C3T/vu7qnf+f+G23BdfDbbMM=",
+    "originContent": "   - GND to GND pin",
+    "translatedContent": "   - 양극은 슬라이드 스위치의 한쪽 다리에 연결  "
+  },
+  {
+    "row": 57,
+    "rowsha": "ABhhtPtdKkmGvNVjytgAvnP/JRRb5xMZdoq2H1WUlfk=",
+    "originContent": "   - Positive to one of the side legs on the slide switch",
+    "translatedContent": "   - 슬라이드 스위치의 가운데 핀은 RAW 핀에 연결  "
+  },
+  {
+    "row": 58,
+    "rowsha": "vYV1Dc55pwf/8rpBUI+OF+IgsgN+2QFdkDLi9rJhP2s=",
+    "originContent": "   - Middle pin of the slide switch to the RAW pin",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 행과 열의 핀 연결  "
+  },
+  {
+    "row": 60,
+    "rowsha": "wP89tWY9Kdl1Shi+mqumdDjb6AZxDK5zYRxxZ6P7oKA=",
+    "originContent": "### Pin Connections for Rows and Columns",
+    "translatedContent": "매트릭스 구성은 nRF52840 Pro Micro 클론의 GPIO 핀을 사용합니다. 아래는 연결 정보입니다:  "
+  },
+  {
+    "row": 61,
+    "rowsha": "JOPyKLB/IIFa2bMe9CG2zqaIccPvD3WU4EVObtIHPRM=",
+    "originContent": "The matrix configuration uses GPIO pins on the nRF52840 Pro Micro clone. Below are the connections:",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![pinout](https://github.com/user-attachments/assets/ae1bf9eb-8071-4a8f-8cac-c95a39f61f9e)  "
+  },
+  {
+    "row": 63,
+    "rowsha": "350fXI/6d4dh7VbgIEsX/mNo1R/TScGQhuHW2JeGAy4=",
+    "originContent": "![pinout](https://github.com/user-attachments/assets/ae1bf9eb-8071-4a8f-8cac-c95a39f61f9e)",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 행과 열의 번호 매기기 방법  "
+  },
+  {
+    "row": 65,
+    "rowsha": "rUos7b1xnrA/PkDhr/RQCP+bl7U+x/tHLj4F2hNu5Vg=",
+    "originContent": "#### How Rows and Columns Are Numbered",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **행**: 양쪽 절반 모두에서 행은 항상 위에서 아래로 번호가 매겨집니다.  "
+  },
+  {
+    "row": 67,
+    "rowsha": "BC61CN+wdR+gzsii874A4GLd9TTrfIiyeNzzzeHK9nk=",
+    "originContent": "- **Rows**: Rows are always numbered from top to bottom on both halves.",
+    "translatedContent": "- **열**: 열은 항상 (배선이 이루어지는 판의 뒷면에서 본 방향으로) 왼쪽에서 오른쪽으로 번호가 매겨집니다.  "
+  },
+  {
+    "row": 68,
+    "rowsha": "s5vK6hwnf21IEd1zpgZlAnucKyVUv3v8bPNytmu4cUI=",
+    "originContent": "- **Columns**: Columns are always numbered from left to right (as viewed from the back of the plate (where the wiring is done)).",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "⚠️ **참고**: 행이나 열을 잘못된 핀에 납땜했더라도 납땜을 제거할 필요는 없습니다. 펌웨어 구성 파일에서 매핑을 수정할 수 있습니다:  "
+  },
+  {
+    "row": 70,
+    "rowsha": "0ebo3vjQwphLJUfhvZhg6bMDdho41ir5/fFqG4E8yKI=",
+    "originContent": "⚠️ **Note**: If you accidentally solder the rows or columns to the wrong pins, you do not need to desolder. The mappings can be fixed in the firmware configuration files:",
+    "translatedContent": "- `corne.dtsi`: 양쪽 절반의 행 정의  "
+  },
+  {
+    "row": 71,
+    "rowsha": "x/ixCjnR1Uc5/impntPCXUaBqdx78J7nC1t0RAdmrE0=",
+    "originContent": "- `corne.dtsi`: Defines rows for both halves.",
+    "translatedContent": "- `corne_left.overlay`: 왼쪽 절반의 열 정의  "
+  },
+  {
+    "row": 72,
+    "rowsha": "IYHfIctVpX4y4NnS548ya4VdnHohwtnzpboExg0n33w=",
+    "originContent": "- `corne_left.overlay`: Defines columns for the left half.",
+    "translatedContent": "- `corne_right.overlay`: 오른쪽 절반의 열 정의  "
+  },
+  {
+    "row": 73,
+    "rowsha": "bMLeCLQ+QHkvSP6zRDYO6s73PUuJQtGnv3G2NX05Kls=",
+    "originContent": "- `corne_right.overlay`: Defines columns for the right half.",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 왼쪽 절반 핀 할당  "
+  },
+  {
+    "row": 75,
+    "rowsha": "/Rm79u9KDUOm3WuIIYRnSys2pd5I2Sga7eKJU/P5Dt0=",
+    "originContent": "#### Left Half Pin Assignments",
+    "translatedContent": "- **행 (`row-gpios`에 연결됨)**:  "
+  },
+  {
+    "row": 76,
+    "rowsha": "cM0sav9E/P2796ZllrY0wVIlZuaGES9f8HFUJgpJhDY=",
+    "originContent": "- **Rows (Connected to `row-gpios`)**:",
+    "translatedContent": "  - 행 0: 핀 21  "
+  },
+  {
+    "row": 77,
+    "rowsha": "cB4ZnBWOUAzOiZGFHKM/AoiLrms4/lecElq5SePZJKQ=",
+    "originContent": "  - Row 0: Pin 21",
+    "translatedContent": "  - 행 1: 핀 20  "
+  },
+  {
+    "row": 78,
+    "rowsha": "4FTsF1RTdCXXkBRJAGWbKflU5R/3/Ms3RFczICmDT+I=",
+    "originContent": "  - Row 1: Pin 20",
+    "translatedContent": "  - 행 2: 핀 19  "
+  },
+  {
+    "row": 79,
+    "rowsha": "u/4si3HBussyaLjOHeSJMYD06wVymTUALh4CZeWt+6I=",
+    "originContent": "  - Row 2: Pin 19",
+    "translatedContent": "  - 행 3: 핀 18"
+  },
+  {
+    "row": 80,
+    "rowsha": "6TpX+aRScQRjauwZ9uL7ZnWJ2Z/ZKZ/UND18T+KKg8k=",
+    "originContent": "  - Row 3: Pin 18",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "zoqyCFuJIfhulStjriZnw2zCsH+KeRbsHMXyKDozCJ8=",
+    "originContent": "- **Columns (Connected to `col-gpios`)**:",
+    "translatedContent": "- **열 (`col-gpios`에 연결됨)**:"
+  },
+  {
+    "row": 82,
+    "rowsha": "DAi6/WDlginqsqjm2CRWuSjGcBKTH4BZ+fW57kFvK0Q=",
+    "originContent": "  - Column 0: Pin 2",
+    "translatedContent": "  - 열 0: 핀 2"
+  },
+  {
+    "row": 83,
+    "rowsha": "/4DNQnKEJwiC4Uh8PoX4iOvmxAhLLuaJZPbOH5ged1g=",
+    "originContent": "  - Column 1: Pin 7",
+    "translatedContent": "  - 열 1: 핀 7"
+  },
+  {
+    "row": 84,
+    "rowsha": "sQcmPvaQhkzAoan5oR/tD/Huq1UO+cSr06p4AWwCnpA=",
+    "originContent": "  - Column 2: Pin 6",
+    "translatedContent": "  - 열 2: 핀 6"
+  },
+  {
+    "row": 85,
+    "rowsha": "NLghne2EdJDWsRaohgAWXB1Q48wT215ZnEPg6wD9998=",
+    "originContent": "  - Column 3: Pin 5",
+    "translatedContent": "  - 열 3: 핀 5"
+  },
+  {
+    "row": 86,
+    "rowsha": "2wxMRuS3busXWSFZNG7gcVERdSMU4tnYqL+9YQWerzs=",
+    "originContent": "  - Column 4: Pin 4",
+    "translatedContent": "  - 열 4: 핀 4"
+  },
+  {
+    "row": 87,
+    "rowsha": "zj/v97cPfOFXMH9VAY61JqzHcrsBY6c4x1g8Nh+JIQc=",
+    "originContent": "  - Column 5: Pin 3",
+    "translatedContent": "  - 열 5: 핀 3"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "NnHFU1FklMRLYA0kGkFBNvm5G/K64CKHqTDlkzpLWuA=",
+    "originContent": "#### Right Half Pin Assignments",
+    "translatedContent": "#### 오른쪽 절반 핀 할당"
+  },
+  {
+    "row": 90,
+    "rowsha": "3Ko+EHvJhLfpfWXhmuQbTO+OginN8YRYEVle16H3yw8=",
+    "originContent": "- **Rows (`row-gpios`)**:",
+    "translatedContent": "- **행 (`row-gpios`)**:"
+  },
+  {
+    "row": 91,
+    "rowsha": "cB4ZnBWOUAzOiZGFHKM/AoiLrms4/lecElq5SePZJKQ=",
+    "originContent": "  - Row 0: Pin 21",
+    "translatedContent": "  - 행 0: 핀 21"
+  },
+  {
+    "row": 92,
+    "rowsha": "4FTsF1RTdCXXkBRJAGWbKflU5R/3/Ms3RFczICmDT+I=",
+    "originContent": "  - Row 1: Pin 20",
+    "translatedContent": "  - 행 1: 핀 20"
+  },
+  {
+    "row": 93,
+    "rowsha": "u/4si3HBussyaLjOHeSJMYD06wVymTUALh4CZeWt+6I=",
+    "originContent": "  - Row 2: Pin 19",
+    "translatedContent": "  - 행 2: 핀 19"
+  },
+  {
+    "row": 94,
+    "rowsha": "6TpX+aRScQRjauwZ9uL7ZnWJ2Z/ZKZ/UND18T+KKg8k=",
+    "originContent": "  - Row 3: Pin 18",
+    "translatedContent": "  - 행 3: 핀 18"
+  },
+  {
+    "row": 95,
+    "rowsha": "tg9m8iUBMZ9K+zf1cMpxCOvjM3AjZNvcSv2dBsI7uXA=",
+    "originContent": "- **Columns (`col-gpios`)**:",
+    "translatedContent": "- **열 (`col-gpios`)**:"
+  },
+  {
+    "row": 96,
+    "rowsha": "ceIGYBSse4xthVTJ3WIZOaDSrrbJyIxYV64PkV3i17U=",
+    "originContent": "  - Column 0: Pin 3",
+    "translatedContent": "  - 열 0: 핀 3"
+  },
+  {
+    "row": 97,
+    "rowsha": "nbHU6m8fwsa/gJDFBsagAWORV8k331fvHGOSy8GUU7w=",
+    "originContent": "  - Column 1: Pin 4",
+    "translatedContent": "  - 열 1: 핀 4"
+  },
+  {
+    "row": 98,
+    "rowsha": "DlzmocS78EAKYEyNYNAbeg8l/RLeOorF8WcjgNy8K+o=",
+    "originContent": "  - Column 2: Pin 5",
+    "translatedContent": "  - 열 2: 핀 5"
+  },
+  {
+    "row": 99,
+    "rowsha": "AhlTnR3yK7BzJsrysD5nBoT6nr8MEbdMaxsCgp02xOE=",
+    "originContent": "  - Column 3: Pin 6",
+    "translatedContent": "  - 열 3: 핀 6"
+  },
+  {
+    "row": 100,
+    "rowsha": "PMRX6uLPAzcA73kKo4pr5ignaw9b7g25nYmihNwNn38=",
+    "originContent": "  - Column 4: Pin 7",
+    "translatedContent": "  - 열 4: 핀 7"
+  },
+  {
+    "row": 101,
+    "rowsha": "vhXjAxr3m6WAw+yKHnYwWS5MKMmucTmLSWCP0urVki0=",
+    "originContent": "  - Column 5: Pin 2",
+    "translatedContent": "  - 열 5: 핀 2"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "guCcoCIrndnxSH3zscwXfwnxYYQe88/Z2WuGZCKqzZg=",
+    "originContent": "### Firmware Setup",
+    "translatedContent": "### 펌웨어 설정"
+  },
+  {
+    "row": 104,
+    "rowsha": "Emuckvkth25Gy6ExgM1D9dURysLIqftTHJY0+ThqhCY=",
+    "originContent": "This keyboard uses ZMK firmware. The left half acts as the main controller that connects to your device.",
+    "translatedContent": "이 키보드는 ZMK 펌웨어를 사용합니다. 왼쪽 절반은 장치에 연결되는 메인 컨트롤러 역할을 합니다."
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "jQricQMlSTFumaRbiaflvrAcXfrRwkz8smMyCcUERcc=",
+    "originContent": "To flash the firmware:",
+    "translatedContent": "펌웨어를 플래시하려면:"
+  },
+  {
+    "row": 107,
+    "rowsha": "ZWaGpiogz4hpLUYG3Qdy6Y5ZBUHb22iY9dItty67xBo=",
+    "originContent": "1. Double press the reset button",
+    "translatedContent": "1. 리셋 버튼을 두 번 누릅니다"
+  },
+  {
+    "row": 108,
+    "rowsha": "SXd53NDONMNVbirbE2QUTAzZOCtgH2dlr8PzPt0UtUY=",
+    "originContent": "2. Board will appear as mass storage device",
+    "translatedContent": "2. 보드가 대용량 저장 장치로 나타납니다"
+  },
+  {
+    "row": 109,
+    "rowsha": "c7jnTk9xMQV04yrz1tQMf4oXKUBAXbH8JHOHgjiZPQY=",
+    "originContent": "3. Flash the appropriate firmware file",
+    "translatedContent": "3. 적절한 펌웨어 파일을 플래시합니다"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "yYJ1OP+6fOzamoa1MOEvVQ4fMhoiT6QSkcD2303nKBU=",
+    "originContent": "If you forgot the keyboard from your device and can't reconnect:",
+    "translatedContent": "장치에서 키보드를 잊어버려 다시 연결할 수 없는 경우:"
+  },
+  {
+    "row": 112,
+    "rowsha": "DPTracFdvWuOf6f8IrNE08pYVKqyOKJs4LRSD+R7XLE=",
+    "originContent": "1. Flash the `settings_reset-nice_nano_v2-zmk.uf2` file",
+    "translatedContent": "1. `settings_reset-nice_nano_v2-zmk.uf2` 파일을 플래시합니다"
+  },
+  {
+    "row": 113,
+    "rowsha": "MDSMM4HPyCFF8JuIkZHKaZYes3ov3OYSm0d3Y/0qPLM=",
+    "originContent": "2. Reflash the regular firmware",
+    "translatedContent": "2. 일반 펌웨어를 다시 플래시합니다"
+  },
+  {
+    "row": 114,
+    "rowsha": "yP6CB8ZynR0WF45VwdS0F3cRWZivNbI9mBsbiFGFTPg=",
+    "originContent": "3. Pair",
+    "translatedContent": "3. 페어링합니다"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "4YmSzpzFxS1sIl9f+qnViulCsiQaK92OjsAy48LamXw=",
+    "originContent": "## Repository Structure",
+    "translatedContent": "## 저장소 구조"
+  },
+  {
+    "row": 117,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 118,
+    "rowsha": "ydUokR8ZvlRO4op5VabDfen7NTRB/zgwhjdxC40Yqcc=",
+    "originContent": "├── .github/workflows/",
+    "translatedContent": "├── .github/workflows/"
+  },
+  {
+    "row": 119,
+    "rowsha": "dDxJOTXj97hLZV10BVpYdfoCMfOq/bl+C/eJIyDbeDs=",
+    "originContent": "│   └── build.yml",
+    "translatedContent": "│   └── build.yml"
+  },
+  {
+    "row": 120,
+    "rowsha": "yfwXS73VX9IOdoJi5gcYpyktVHRvbgpyH3CW8csVf9o=",
+    "originContent": "├── 3DFiles/",
+    "translatedContent": "├── 3DFiles/"
+  },
+  {
+    "row": 121,
+    "rowsha": "GynOYjSrmAVrEAJ/5XKwLzAnMWcvJmZLRsRULwrJmL8=",
+    "originContent": "│   ├── STEP/",
+    "translatedContent": "│   ├── STEP/"
+  },
+  {
+    "row": 122,
+    "rowsha": "0AytlQIjMsWiTPWdjfb1FxDeK4MDwkt4HviDz3z+tM4=",
+    "originContent": "│   │   └── CorneSTEP.step",
+    "translatedContent": "│   │   └── CorneSTEP.step"
+  },
+  {
+    "row": 123,
+    "rowsha": "bTBuyM1jCmZMXyOqANq+0KCQHDAFxzHrnzzc55gGLxw=",
+    "originContent": "│   ├── STL/",
+    "translatedContent": "│   ├── STL/"
+  },
+  {
+    "row": 124,
+    "rowsha": "YJd7Ho3OgWMowJuSuxSAgoari92aF/Ksa0ujQx3w7bg=",
+    "originContent": "│   │   ├── Case_Left.stl",
+    "translatedContent": "│   │   ├── Case_Left.stl"
+  },
+  {
+    "row": 125,
+    "rowsha": "Ku3J5T+OTp5gZ1RGR5I+lBLt7a6ejlJxXouGdC7SdlM=",
+    "originContent": "│   │   ├── Case_Right.stl",
+    "translatedContent": "│   │   ├── Case_Right.stl"
+  },
+  {
+    "row": 126,
+    "rowsha": "34tawMyVN6/vFANaDeldn0e8a3fD2DNUgmYHGJ/Z0qo=",
+    "originContent": "│   │   └── PlateCorne.stl",
+    "translatedContent": "│   │   └── PlateCorne.stl"
+  },
+  {
+    "row": 127,
+    "rowsha": "j+FCcQ0I+FwPSQ7ObEhx7LZaQDXUPKukQ6vWtHvw8vw=",
+    "originContent": "├── config/",
+    "translatedContent": "├── config/"
+  },
+  {
+    "row": 128,
+    "rowsha": "V4XAYkAtsAIW6RCe376U4dDNXA12XGw0hNwjShkaBSo=",
+    "originContent": "│   ├── boards/shields/corne/",
+    "translatedContent": "│   ├── boards/shields/corne/"
+  },
+  {
+    "row": 129,
+    "rowsha": "FwhDYZ70xZazyOGxwZpHQxZZef+H0JKdSduXyX2wgHE=",
+    "originContent": "│   │   ├── corne_left.conf",
+    "translatedContent": "│   │   ├── corne_left.conf"
+  },
+  {
+    "row": 130,
+    "rowsha": "j9yKXL7SE/1z8Y3mbAyl6JcPaURsOTG/+TNOMVXGNOU=",
+    "originContent": "│   │   ├── corne_left.overlay",
+    "translatedContent": "│   │   ├── corne_left.overlay"
+  },
+  {
+    "row": 131,
+    "rowsha": "eDHzbtGHppmr7grbzgNYFDZdRDYDv3pkph80hP/ZoJw=",
+    "originContent": "│   │   ├── corne_right.conf",
+    "translatedContent": "│   │   ├── corne_right.conf"
+  },
+  {
+    "row": 132,
+    "rowsha": "/Vo2Cg+9+G7kAJ1cbSCCDC1bL25CUT2xtE1cHET+LWw=",
+    "originContent": "│   │   ├── corne_right.overlay",
+    "translatedContent": "│   │   ├── corne_right.overlay"
+  },
+  {
+    "row": 133,
+    "rowsha": "kNoFV2c18zCxymu4BzxL8fd0mLzdEfSw10Az2GC3zww=",
+    "originContent": "│   │   ├── corne.conf",
+    "translatedContent": "│   │   ├── corne.conf"
+  },
+  {
+    "row": 134,
+    "rowsha": "DfvZm41HWzP2rwzHxQ87lPDk2vJvE+xih1UfsD2+FeM=",
+    "originContent": "│   │   ├── corne.dtsi",
+    "translatedContent": "│   │   ├── corne.dtsi"
+  },
+  {
+    "row": 135,
+    "rowsha": "ytYDDkDOlS5yUNR1TzW80GUQ+4yVHR5DIFgKwlxc3Bw=",
+    "originContent": "│   │   ├── Kconfig.defconfig",
+    "translatedContent": "│   │   ├── Kconfig.defconfig"
+  },
+  {
+    "row": 136,
+    "rowsha": "sSxenf6/7+OJE6Qs7EfqMVdqSEDfYUEEpJCwhegNn5o=",
+    "originContent": "│   │   └── Kconfig.shield",
+    "translatedContent": "│   │   └── Kconfig.shield"
+  },
+  {
+    "row": 137,
+    "rowsha": "1vkjp1mHQZ6+B1cIg3VUvigVWOEz4cr+kUPJRMXapZM=",
+    "originContent": "│   ├── corne.keymap",
+    "translatedContent": "│   ├── corne.keymap"
+  },
+  {
+    "row": 138,
+    "rowsha": "/nU0D4SDDhGnjh3X4O4NjaaxrJ1Do8CYh4Wyfwsh3GQ=",
+    "originContent": "│   └── west.yml",
+    "translatedContent": "│   └── west.yml"
+  },
+  {
+    "row": 139,
+    "rowsha": "RS+g8F250j4s+2NYP5xm0z2ke6X41b/VEm8TxmKvOos=",
+    "originContent": "├── firmware/",
+    "translatedContent": "├── firmware/"
+  },
+  {
+    "row": 140,
+    "rowsha": "nb21Nrq9wJ4wLW1vz1oBr1/RbW0dA9HGqbVOhHtYsaM=",
+    "originContent": "│   ├── corne_left-nice_nano_v2-zmk.uf2",
+    "translatedContent": "│   ├── corne_left-nice_nano_v2-zmk.uf2"
+  },
+  {
+    "row": 141,
+    "rowsha": "tWKA/1FT4Hf2s+PuCIbneSon5DxEeE6iLhiEjgGbXT0=",
+    "originContent": "│   ├── corne_right-nice_nano_v2-zmk.uf2",
+    "translatedContent": "│   ├── corne_right-nice_nano_v2-zmk.uf2"
+  },
+  {
+    "row": 142,
+    "rowsha": "ZH6UpXadSVLS31GnFVWgwkuHaZ1gaSLiMJeRDXeL9nk=",
+    "originContent": "│   └── settings_reset-nice_nano_v2-zmk.uf2",
+    "translatedContent": "│   └── settings_reset-nice_nano_v2-zmk.uf2"
+  },
+  {
+    "row": 143,
+    "rowsha": "ZrukFXFpbvb32qwPQiPn7vKLt5cRQWnMsciKwrNSnAg=",
+    "originContent": "└── zephyr/",
+    "translatedContent": "└── zephyr/"
+  },
+  {
+    "row": 144,
+    "rowsha": "vD7muuIahy+fK3iMlHziu6TwcdntSkTqosfLlqh9kW0=",
+    "originContent": "    ├── module.yml",
+    "translatedContent": "    ├── module.yml"
+  },
+  {
+    "row": 145,
+    "rowsha": "iZ6Ovs+AS9m6OEH7vlxeh2vRrGTeN4aA3+UfbOF5okw=",
+    "originContent": "    └── build.yaml",
+    "translatedContent": "    └── build.yaml"
+  },
+  {
+    "row": 146,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 알려진 문제점"
+  },
+  {
+    "row": 148,
+    "rowsha": "QnKQgThnoAqznwiN4+axqy8APTfZTdp6m9i+oi/OrN0=",
+    "originContent": "## Known Issues",
+    "translatedContent": "- 배터리가 부풀면 왼쪽 케이스에 뒤틀림 문제가 발생할 수 있습니다"
+  },
+  {
+    "row": 149,
+    "rowsha": "snv5sRlXDYG+S8Q8s8G9tg9oXK9oxMv9uGSduYrQ0ZY=",
+    "originContent": "- Left side case may have warping issues if battery swells",
+    "translatedContent": "- 슬라이드 스위치 구멍은 부품에 따라 조정이 필요할 수 있습니다"
+  },
+  {
+    "row": 150,
+    "rowsha": "2eWTcGScGZxInSWKKw0WXSV4+qzavSUVEOKCj6uYTBs=",
+    "originContent": "- Slide switch holes may need adjustment based on your components",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 최종 결과"
+  },
+  {
+    "row": 152,
+    "rowsha": "QGPayV4YnhQvpOOQZKtIA3WchSrko6NKNlYyZslWH5c=",
+    "originContent": "## Final result",
+    "translatedContent": "![im1](https://github.com/user-attachments/assets/f57abe5a-585d-4f4e-b741-5c103c7af887)"
+  },
+  {
+    "row": 153,
+    "rowsha": "v1WR5aafleCH3C8wOulc7O8kR1ZJrIaPfFq4h9Ykbzs=",
+    "originContent": "![im1](https://github.com/user-attachments/assets/f57abe5a-585d-4f4e-b741-5c103c7af887)",
+    "translatedContent": "![im3](https://github.com/user-attachments/assets/1ed52801-5bc1-44b9-8378-1a5e53600e92)"
+  },
+  {
+    "row": 154,
+    "rowsha": "1yJ50+bfNlDcyVNe2M0dhlZymBGqhtmlsMw9OT5QqiQ=",
+    "originContent": "![im3](https://github.com/user-attachments/assets/1ed52801-5bc1-44b9-8378-1a5e53600e92)",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

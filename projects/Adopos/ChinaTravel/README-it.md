@@ -269,6 +269,6 @@ Se il nostro articolo o le risorse correlate risultano utili per la tua ricerca,
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-17
 
 ---
