@@ -295,6 +295,6 @@ USSO 软件本身由[Apache 2.0 许可协议](https://github.com/ussoio/usso/blo
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
 
 ---
