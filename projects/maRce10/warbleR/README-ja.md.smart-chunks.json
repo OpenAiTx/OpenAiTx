@@ -1,409 +1,505 @@
 [
   {
     "Id": 1,
-    "Content": "warbleR: Streamline Bioacoustic Analysis\n================\n\n<!-- README.md is generated from README.Rmd. Please edit that file -->\n<!-- badges: start -->\n\n[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)\n[![Dependencies](https://tinyverse.netlify.com/badge/warbleR)](https://cran.r-project.org/package=warbleR)\n[![Project Status: Active The project has reached a stable, usable state\nand is being actively\ndeveloped.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)\n[![Licence](https://img.shields.io/badge/licence-GPL--2-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)\n[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)\n[![Total\nDownloads](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)\n[![Codecov test\ncoverage](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)\n[![R-CMD-check](https://github.com/maRce10/warbleR/workflows/R-CMD-check/badge.svg)](https://github.com/ropensci/baRulho/actions/workflows/R-CMD-check.yaml)\n<!-- badges: end -->\n\n<img src=\"https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png\" alt=\"warbleR logo\" align=\"right\" width = \"25%\" height=\"25%\"/>\n\n[warbleR](https://cran.r-project.org/package=warbleR) is intended to\nfacilitate the analysis of the structure of animal acoustic signals in\nR. Users can collect open-access avian recordings or enter their own\ndata into a workflow that facilitates spectrographic visualization and\nmeasurement of acoustic parameters.\n[warbleR](https://cran.r-project.org/package=warbleR) makes use of the\nfundamental sound analysis tools of the seewave package, and offers new\ntools for acoustic structure analysis. These tools are available for\nbatch analysis of acoustic signals.\n\nThe main features of the package are:\n\n- Diverse tools for measuring acoustic structure\n- The use of loops to apply tasks through acoustic signals referenced in\n  a selection table\n- The production of images in the working directory with spectrograms to\n  allow users organize data and verify acoustic analyses\n",
-    "ContentSha": "B4c6doAXHYYuh/4FbDbZkZAuZM/sL3QJD0z1K4U87e0=",
+    "Content": "<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n\nwarbleR: Streamline Bioacoustic Analysis\n================\n\n<!-- README.md is generated from README.Rmd. Please edit that file -->\n<!-- badges: start -->\n\n[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)\n[![status](https://tinyverse.netlify.app/badge/warbleR)](https://CRAN.R-project.org/package=warbleR)",
+    "ContentSha": "UhM+HRXsGw+9Ox21bffFkx1mLjd8FzYuUVP8QBOszns=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "warbleR: バイオアコースティック分析の効率化\n================\n\n<!-- README.md は README.Rmd から生成されています。そちらのファイルを編集してください -->\n<!-- バッジ: 開始 -->\n\n[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)\n[![Dependencies](https://tinyverse.netlify.com/badge/warbleR)](https://cran.r-project.org/package=warbleR)\n[![Project Status: Active The project has reached a stable, usable state\nand is being actively\ndeveloped.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)\n[![Licence](https://img.shields.io/badge/licence-GPL--2-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)\n[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)\n[![Total\nDownloads](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)\n[![Codecov test\ncoverage](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)\n[![R-CMD-check](https://github.com/maRce10/warbleR/workflows/R-CMD-check/badge.svg)](https://github.com/ropensci/baRulho/actions/workflows/R-CMD-check.yaml)\n<!-- バッジ: 終了 -->\n\n<img src=\"https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png\" alt=\"warbleR ロゴ\" align=\"right\" width = \"25%\" height=\"25%\"/>\n\n[warbleR](https://cran.r-project.org/package=warbleR) は\nR における動物の音響信号の構造解析を支援することを目的としています。利用者はオープンアクセスの鳥類録音を収集したり、\n自身のデータを入力して、スペクトログラムの可視化および音響パラメータの測定を容易にするワークフローに沿って操作できます。\n[warbleR](https://cran.r-project.org/package=warbleR) は\nseewave パッケージの基本的な音響解析ツールを利用し、新たに音響構造解析のためのツールを提供します。これらのツールは\n音響信号のバッチ解析に対応しています。\n\nパッケージの主な特徴は以下の通りです:\n\n- 音響構造を測定する多様なツール\n- 選択テーブルで参照される音響信号に対してループを用いてタスクを適用\n- 作業ディレクトリにスペクトログラム画像を生成し、データの整理や音響解析の検証を支援\n\n\n\n\n\n",
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 言語</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n\nwarbleR: バイオアコースティック解析の効率化\n================\n\n<!-- README.mdはREADME.Rmdから生成されています。編集する際はREADME.Rmdをご利用ください -->\n<!-- バッジ: 開始 -->\n\n[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)\n[![status](https://tinyverse.netlify.app/badge/warbleR)](https://CRAN.R-project.org/package=warbleR)",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "ji9HPd4Q7iAZ/aCa+vXdxQbQv+R1W3H96FH+F7utASA=",
-        "originContent": "warbleR: Streamline Bioacoustic Analysis",
-        "translatedContent": "warbleR: バイオアコースティック分析の効率化"
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 2,
-        "rowsha": "CY4ORglt+wllc4mshEAOc7VyDcaEd0CppOjo1koarUE=",
-        "originContent": "================",
-        "translatedContent": "================"
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
       },
       {
         "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 言語</summary>"
       },
       {
         "row": 4,
-        "rowsha": "j76z3xAdFgVS+UgyfW925BW1MDl6iOQ8XiJGsWvL6iI=",
-        "originContent": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
-        "translatedContent": "<!-- README.md は README.Rmd から生成されています。そちらのファイルを編集してください -->"
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
       },
       {
         "row": 5,
-        "rowsha": "5wbnf95PE51XDx1JSI3zfMw3XfDaX5gpiRyKvmuZi5g=",
-        "originContent": "<!-- badges: start -->",
-        "translatedContent": "<!-- バッジ: 開始 -->"
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "CAk330j2mODIbeYCfwUlkbhKeFmm0C7pfUAElJoDd8I=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=en\">English</a>"
       },
       {
         "row": 7,
-        "rowsha": "GAazQv5uXpTnRmHRBJLBSZxOtBSTkHWrjbGF0RXL9hM=",
-        "originContent": "[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)",
-        "translatedContent": "[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)"
+        "rowsha": "RqLfalEXUNWZDuR9Ozo7hHEFRinzSLYmRrjDbi5hE4o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 8,
-        "rowsha": "D9dIfwOZxf4sOvNXW9tbWEKuoSdJwHQTyeiDkepr+mY=",
-        "originContent": "[![Dependencies](https://tinyverse.netlify.com/badge/warbleR)](https://cran.r-project.org/package=warbleR)",
-        "translatedContent": "[![Dependencies](https://tinyverse.netlify.com/badge/warbleR)](https://cran.r-project.org/package=warbleR)"
+        "rowsha": "xLJQJIglwPvHsrTqpKyB5bwVh+VxnVJGaiUiviseWPY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 9,
-        "rowsha": "Jk/XBgsaV/qwjVemsr1E+cP/ZZEolfYGQ6ieHQ1zWYw=",
-        "originContent": "[![Project Status: Active The project has reached a stable, usable state",
-        "translatedContent": "[![Project Status: Active The project has reached a stable, usable state"
+        "rowsha": "NyNzyBPNrZSQ6HP0jNfXHHZlwZ5CHQO/IBDjXoxLw+0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ja\">日本語</a>"
       },
       {
         "row": 10,
-        "rowsha": "JlSpKWPE9CJevURdkRhWDXjXKEjSu6RjY7HDFoWt5vU=",
-        "originContent": "and is being actively",
-        "translatedContent": "and is being actively"
+        "rowsha": "izvKweTzRO73pMd78FCqPtEr5bvI9SNoWa8xgW3GFh4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ko\">한국어</a>"
       },
       {
         "row": 11,
-        "rowsha": "XonNc6bC7JGs9wba8mPFuHT0oWJTq8/Ys9EKZNFwuqE=",
-        "originContent": "developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)",
-        "translatedContent": "developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)"
+        "rowsha": "/soVY/oFbdyP/roTkMGOSzYorXu1a8zaCOwKJf0JoG8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 12,
-        "rowsha": "vDplwzm1R9jo5JGHIpe9iamfZQfBKzBMUGDt9Pek9Cg=",
-        "originContent": "[![Licence](https://img.shields.io/badge/licence-GPL--2-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)",
-        "translatedContent": "[![Licence](https://img.shields.io/badge/licence-GPL--2-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)"
+        "rowsha": "vapGSl5NjtbU75qkDsUwmm9+nK7naq2N6BQ32ye4QII=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=th\">ไทย</a>"
       },
       {
         "row": 13,
-        "rowsha": "FugQMMILhOm75N5lqbkVqkTxxvn1fqPR5ePMD1n2LkI=",
-        "originContent": "[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)",
-        "translatedContent": "[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)"
+        "rowsha": "mIhjp7RS79zls3rW079/KqBQ5AEkzdVVOoWmR8ZiXoQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fr\">Français</a>"
       },
       {
         "row": 14,
-        "rowsha": "XE9mWVl+DU+5hzrimZ1OzwrypHDw+EmhYjT7R4gCE9M=",
-        "originContent": "[![Total",
-        "translatedContent": "[![Total"
+        "rowsha": "uIf5eOZY67Kdyas4NXXK8xssl5Hf4CcmUR28R5NKBGs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=de\">Deutsch</a>"
       },
       {
         "row": 15,
-        "rowsha": "BvIepYqDTUQIGbzPActde63cqOzcvCq+8Y25EsdOK+E=",
-        "originContent": "Downloads](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)",
-        "translatedContent": "Downloads](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)"
+        "rowsha": "MD1mBYctGVjT/UtEOtev9NuWEt4+8L3fKbBEP+skwvM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=es\">Español</a>"
       },
       {
         "row": 16,
-        "rowsha": "ahzoW7jG91Zhlql9bgpakN6sgCOKBsky9b+pL5B9m48=",
-        "originContent": "[![Codecov test",
-        "translatedContent": "[![Codecov test"
+        "rowsha": "G4orLMNmmEtRlb3kl/I24QNLcALmNwBrvBD3vWTHi38=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=it\">Italiano</a>"
       },
       {
         "row": 17,
-        "rowsha": "4fvDC8TU69QaJ4HSwuNNxy7K0jNNV5ImHxQn6u/HKlg=",
-        "originContent": "coverage](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)",
-        "translatedContent": "coverage](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)"
+        "rowsha": "ZqggVV9ESvIoyL0DbIMI7INlQU+SKJa4JdIaZUep/Q0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ru\">Русский</a>"
       },
       {
         "row": 18,
-        "rowsha": "I2mOLVCeW2MNu8rE5sGnsPqwQ3yGh9Q0VeLNfCid094=",
-        "originContent": "[![R-CMD-check](https://github.com/maRce10/warbleR/workflows/R-CMD-check/badge.svg)](https://github.com/ropensci/baRulho/actions/workflows/R-CMD-check.yaml)",
-        "translatedContent": "[![R-CMD-check](https://github.com/maRce10/warbleR/workflows/R-CMD-check/badge.svg)](https://github.com/ropensci/baRulho/actions/workflows/R-CMD-check.yaml)"
+        "rowsha": "hh55TKABp7bElmxSvn9MVmvCKAiuVmP/MUH2EDXhZ34=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pt\">Português</a>"
       },
       {
         "row": 19,
-        "rowsha": "Qi6Px1IPHaFVWPjcUN7kxRZwrDEIBxgUYCPcmB9K5dQ=",
-        "originContent": "<!-- badges: end -->",
-        "translatedContent": "<!-- バッジ: 終了 -->"
+        "rowsha": "1msjVu/1LZFSqHpMJXHDYlakWVFypvSErHh0roenpOg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=nl\">Nederlands</a>"
       },
       {
         "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "DYRbBWN1TVf1n8/GiGcsPdWKnufJwJ8MDNTGNdaZjuM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=pl\">Polski</a>"
       },
       {
         "row": 21,
-        "rowsha": "bKvRo781WZQW52uwqcPiCOXiltXu3tywNbA+Fsva1hU=",
-        "originContent": "<img src=\"https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png\" alt=\"warbleR logo\" align=\"right\" width = \"25%\" height=\"25%\"/>",
-        "translatedContent": "<img src=\"https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png\" alt=\"warbleR ロゴ\" align=\"right\" width = \"25%\" height=\"25%\"/>"
+        "rowsha": "UIgBa3k+aQckuKW+Ov1g7Uu4PGSmrZpkYlzi1c5n2XM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=ar\">العربية</a>"
       },
       {
         "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "Zj0vD13lpFma2ypd3qDjDM8k3K89XK4qx9gYx0bS8x4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=fa\">فارسی</a>"
       },
       {
         "row": 23,
-        "rowsha": "q4NtMPd7JKhlNZFOls3VM5OW1Ra+SF93w4RqlqnI5YM=",
-        "originContent": "[warbleR](https://cran.r-project.org/package=warbleR) is intended to",
-        "translatedContent": "[warbleR](https://cran.r-project.org/package=warbleR) は"
+        "rowsha": "0cDs6S/L1jpJurs0mtMiOzSBHkWUQsIV4NK7mn9Mll0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=tr\">Türkçe</a>"
       },
       {
         "row": 24,
-        "rowsha": "4NaXItNlMA2YUqbKqtUsGbwdBwTLmLrLGq2WalsbZZw=",
-        "originContent": "facilitate the analysis of the structure of animal acoustic signals in",
-        "translatedContent": "R における動物の音響信号の構造解析を支援することを目的としています。利用者はオープンアクセスの鳥類録音を収集したり、"
+        "rowsha": "tX9kZXPT3m6FNi6wL4flBMWn+UkcBw9oXvgJuJzpWWY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 25,
-        "rowsha": "KoAgpoeWx3Cid5YqAydvypZoJwYKmlXBy1aNC6gGBFc=",
-        "originContent": "R. Users can collect open-access avian recordings or enter their own",
-        "translatedContent": "自身のデータを入力して、スペクトログラムの可視化および音響パラメータの測定を容易にするワークフローに沿って操作できます。"
+        "rowsha": "ERzRkrsxv9EZcImuxYj1X4v5BufExEN694g1cxI/pZA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 26,
-        "rowsha": "0psKs+/cGJJFMKromfuFdedLBW83QDAJQI/mA5PQ76w=",
-        "originContent": "data into a workflow that facilitates spectrographic visualization and",
-        "translatedContent": "[warbleR](https://cran.r-project.org/package=warbleR) は"
+        "rowsha": "eF6VnUi+j0jGao52t1xL4/c32wjrAAcgDfUfG1Nlprw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=maRce10&project=warbleR&lang=as\">অসমীয়া</"
       },
       {
         "row": 27,
-        "rowsha": "L8ugBK+gLUwsdH994NKCPpOx3e90atK/odttLRNj7XA=",
-        "originContent": "measurement of acoustic parameters.",
-        "translatedContent": "seewave パッケージの基本的な音響解析ツールを利用し、新たに音響構造解析のためのツールを提供します。これらのツールは"
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
       },
       {
         "row": 28,
-        "rowsha": "sHYyecCzo5UPCubWLk1ZNPctnjes4dIc+OlmO/UVpd8=",
-        "originContent": "[warbleR](https://cran.r-project.org/package=warbleR) makes use of the",
-        "translatedContent": "音響信号のバッチ解析に対応しています。"
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
       },
       {
         "row": 29,
-        "rowsha": "3MsQ9LwTAAZBNKpZco8GcmonOJXhnVYKS2ozXufcvKg=",
-        "originContent": "fundamental sound analysis tools of the seewave package, and offers new",
-        "translatedContent": ""
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
       },
       {
         "row": 30,
-        "rowsha": "+/20hSJFoh13IQmwZr/ZNDaKLreEkyrS2EM9+GAUHQM=",
-        "originContent": "tools for acoustic structure analysis. These tools are available for",
-        "translatedContent": "パッケージの主な特徴は以下の通りです:"
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
       },
       {
         "row": 31,
-        "rowsha": "QGNeidjewOuQJk4mNugqFeJjNh2jojtr7PCLGgafhZ4=",
-        "originContent": "batch analysis of acoustic signals.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 32,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "- 音響構造を測定する多様なツール"
+        "translatedContent": ""
       },
       {
         "row": 33,
-        "rowsha": "IguBP9KW/kftubOEe/v1hkZLl/UtoSgnT+ziJqg0v0A=",
-        "originContent": "The main features of the package are:",
-        "translatedContent": "- 選択テーブルで参照される音響信号に対してループを用いてタスクを適用"
+        "rowsha": "ji9HPd4Q7iAZ/aCa+vXdxQbQv+R1W3H96FH+F7utASA=",
+        "originContent": "warbleR: Streamline Bioacoustic Analysis",
+        "translatedContent": "warbleR: バイオアコースティック解析の効率化"
       },
       {
         "row": 34,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- 作業ディレクトリにスペクトログラム画像を生成し、データの整理や音響解析の検証を支援"
+        "rowsha": "CY4ORglt+wllc4mshEAOc7VyDcaEd0CppOjo1koarUE=",
+        "originContent": "================",
+        "translatedContent": "================"
       },
       {
         "row": 35,
-        "rowsha": "GCbAkJ5aabOaIr0YiCjD07m8PETmKaS2JwOjxBRnJ18=",
-        "originContent": "- Diverse tools for measuring acoustic structure",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 36,
-        "rowsha": "0zuDiqgCvwt7MdpC4jQ5RfaqVJ1SXj/Pk3NH98MVjyY=",
-        "originContent": "- The use of loops to apply tasks through acoustic signals referenced in",
-        "translatedContent": ""
+        "rowsha": "j76z3xAdFgVS+UgyfW925BW1MDl6iOQ8XiJGsWvL6iI=",
+        "originContent": "<!-- README.md is generated from README.Rmd. Please edit that file -->",
+        "translatedContent": "<!-- README.mdはREADME.Rmdから生成されています。編集する際はREADME.Rmdをご利用ください -->"
       },
       {
         "row": 37,
-        "rowsha": "e8tipsX/ENXcyOqzbVKwKUBa2kr48vClaIMV4qu2Jrc=",
-        "originContent": "  a selection table",
-        "translatedContent": ""
+        "rowsha": "5wbnf95PE51XDx1JSI3zfMw3XfDaX5gpiRyKvmuZi5g=",
+        "originContent": "<!-- badges: start -->",
+        "translatedContent": "<!-- バッジ: 開始 -->"
       },
       {
         "row": 38,
-        "rowsha": "KiSrrrQPxkukbLoGnb4r4mmP6lk5ye5JaaLAFpJfwP0=",
-        "originContent": "- The production of images in the working directory with spectrograms to",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 39,
-        "rowsha": "c7UPVO9qf9cMUZtnmMdmGSdQtttetvirN0XlnZ2FShE=",
-        "originContent": "  allow users organize data and verify acoustic analyses",
-        "translatedContent": ""
+        "rowsha": "GAazQv5uXpTnRmHRBJLBSZxOtBSTkHWrjbGF0RXL9hM=",
+        "originContent": "[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)",
+        "translatedContent": "[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)"
       },
       {
         "row": 40,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "ZZUfyEBFuyW6D8O59GE1QxqFRX10S9BJmLmb7TGTKMc=",
+        "originContent": "[![status](https://tinyverse.netlify.app/badge/warbleR)](https://CRAN.R-project.org/package=warbleR)",
+        "translatedContent": "[![status](https://tinyverse.netlify.app/badge/warbleR)](https://CRAN.R-project.org/package=warbleR)"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "The package offers functions to:\n\n- Explore and download [Xeno‐Canto](https://xeno-canto.org/) recordings\n- Explore, organize and manipulate multiple sound files\n- Detect signals automatically (in frequency and time) (but check the R\n  package [ohun](https://docs.ropensci.org/ohun/) for a more thorough\n  and friendly implementation)\n- Create spectrograms of complete recordings or individual signals\n- Run different measures of acoustic signal structure\n- Evaluate the performance of measurement methods\n- Catalog signals\n- Characterize different structural levels in acoustic signals\n- Statistical analysis of duet coordination\n- Consolidate databases and annotation tables\n\nMost of the functions allow the parallelization of tasks, which\ndistributes the tasks among several processors to improve computational\nefficiency. Tools to evaluate the performance of the analysis at each\nstep are also available.\n\n## Installing\n\nInstall/load the package from CRAN as follows:\n",
-    "ContentSha": "v7mmeua7sD5HuulI8qphBrCzjFsq15Y0VApI39du0aU=",
+    "Content": "[![Project Status: Active The project has reached a stable, usable state\nand is being actively\ndeveloped.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)\n[![License: GPL\nv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)\n[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)\n[![Total\nDownloads](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)\n[![Codecov test\ncoverage](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)\n<!-- badges: end -->\n\n<img src=\"https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png\" alt=\"warbleR logo\" align=\"right\" width = \"25%\" height=\"25%\"/>\n\n[warbleR](https://cran.r-project.org/package=warbleR) is intended to\nfacilitate the analysis of the structure of animal acoustic signals in\nR. Users can collect open-access avian recordings or enter their own\ndata into a workflow that facilitates spectrographic visualization and\nmeasurement of acoustic parameters.\n[warbleR](https://cran.r-project.org/package=warbleR) makes use of the\nfundamental sound analysis tools of the seewave package, and offers new\ntools for acoustic structure analysis. These tools are available for\nbatch analysis of acoustic signals.\n\nThe main features of the package are:\n\n- Diverse tools for measuring acoustic structure\n- The use of loops to apply tasks through acoustic signals referenced in\n  a selection table\n- The production of images in the working directory with spectrograms to\n  allow users organize data and verify acoustic analyses\n\nThe package offers functions to:\n\n- Explore and download [Xeno‐Canto](https://xeno-canto.org/) recordings\n- Explore, organize and manipulate multiple sound files\n- Detect signals automatically (in frequency and time) (but check the R\n  package [ohun](https://docs.ropensci.org/ohun/) for a more thorough\n  and friendly implementation)\n- Create spectrograms of complete recordings or individual signals",
+    "ContentSha": "5FSmYgTsVnLkHcYlD+INVUCcqQnZWN0KJMUH4qKDI8U=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "このパッケージは以下の機能を提供します：\n\n- [Xeno‐Canto](https://xeno-canto.org/)の録音を探索およびダウンロード\n- 複数の音声ファイルの探索、整理、操作\n- 信号の自動検出（周波数および時間）（より詳細で使いやすい実装についてはRパッケージ[ohun](https://docs.ropensci.org/ohun/)を参照）\n- 録音全体または個別信号のスペクトログラム作成\n- 音響信号構造の各種測定の実行\n- 測定方法の性能評価\n- 信号のカタログ化\n- 音響信号の異なる構造レベルの特徴付け\n- デュエットの協調の統計解析\n- データベースおよび注釈テーブルの統合\n\nほとんどの関数はタスクの並列化を可能にしており、\n複数のプロセッサ間でタスクを分配して計算効率を向上させます。\n各ステップでの分析性能を評価するツールも利用可能です。\n\n## インストール\n\nCRANからパッケージを以下のようにインストール／ロードしてください：\n\n\n\n",
+    "Translation": "[![プロジェクトステータス: アクティブ このプロジェクトは安定して使用可能な状態に達しており、積極的に開発されています。](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)\n[![ライセンス: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)\n[![CRAN ステータス バッジ](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)\n[![総ダウンロード数](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)\n[![Codecov テストカバレッジ](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)\n<!-- バッジ: 終了 -->\n\n<img src=\"https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png\" alt=\"warbleR ロゴ\" align=\"right\" width = \"25%\" height=\"25%\"/>\n\n[warbleR](https://cran.r-project.org/package=warbleR) は、R における動物の音響信号の構造解析を支援することを目的としています。ユーザーはオープンアクセスの鳥類録音を収集するか、独自のデータをワークフローに入力して、スペクトログラムによる可視化や音響パラメータの測定を行うことができます。\n[warbleR](https://cran.r-project.org/package=warbleR) は、seewave パッケージの基本的な音響解析ツールを活用し、さらに新しい音響構造解析ツールを提供します。これらのツールは、音響信号のバッチ解析にも利用可能です。\n\nパッケージの主な特徴は以下の通りです:\n\n- 音響構造の測定に関する多様なツール\n- ループを用いて、選択テーブルで参照された音響信号に対しタスクを適用\n- ワーキングディレクトリ内にスペクトログラム画像を生成し、データの整理や音響解析の検証を可能にする\n\nパッケージは以下の機能を提供します:\n\n- [Xeno‐Canto](https://xeno-canto.org/) の録音データの探索とダウンロード\n- 複数の音声ファイルの探索、整理、操作\n- 信号の自動検出（周波数および時間領域で）（より高度で使いやすい実装については R パッケージ [ohun](https://docs.ropensci.org/ohun/) をご確認ください）\n- 完全な録音または個々の信号のスペクトログラム作成\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "5Dh0VErAvngqWsAVvCvz06ijJQUqZScpURI6hGvD96M=",
-        "originContent": "The package offers functions to:",
-        "translatedContent": "このパッケージは以下の機能を提供します："
+        "rowsha": "Jk/XBgsaV/qwjVemsr1E+cP/ZZEolfYGQ6ieHQ1zWYw=",
+        "originContent": "[![Project Status: Active The project has reached a stable, usable state",
+        "translatedContent": "[![プロジェクトステータス: アクティブ このプロジェクトは安定して使用可能な状態に達しており、積極的に開発されています。](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)"
       },
       {
         "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "JlSpKWPE9CJevURdkRhWDXjXKEjSu6RjY7HDFoWt5vU=",
+        "originContent": "and is being actively",
+        "translatedContent": "[![ライセンス: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
       },
       {
         "row": 3,
-        "rowsha": "3TW+zKws7FC4xfrrF8z2ndp5atQ6JcRj0Vm3t/pthOM=",
-        "originContent": "- Explore and download [Xeno‐Canto](https://xeno-canto.org/) recordings",
-        "translatedContent": "- [Xeno‐Canto](https://xeno-canto.org/)の録音を探索およびダウンロード"
+        "rowsha": "XonNc6bC7JGs9wba8mPFuHT0oWJTq8/Ys9EKZNFwuqE=",
+        "originContent": "developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)",
+        "translatedContent": "[![CRAN ステータス バッジ](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)"
       },
       {
         "row": 4,
-        "rowsha": "7EYm6TZPsLdfHQJ4esnW08A89HQxkG5Uh5JSnqYxbBg=",
-        "originContent": "- Explore, organize and manipulate multiple sound files",
-        "translatedContent": "- 複数の音声ファイルの探索、整理、操作"
+        "rowsha": "RrnaoL6ikutaHzfgb3bGmOzcKSSaEyBCwUWyqt+7zHA=",
+        "originContent": "[![License: GPL",
+        "translatedContent": "[![総ダウンロード数](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)"
       },
       {
         "row": 5,
-        "rowsha": "XkLvAtJD6xzOTcSP2qusU5oYEBvPv5qsgpg/1F3gKkM=",
-        "originContent": "- Detect signals automatically (in frequency and time) (but check the R",
-        "translatedContent": "- 信号の自動検出（周波数および時間）（より詳細で使いやすい実装についてはRパッケージ[ohun](https://docs.ropensci.org/ohun/)を参照）"
+        "rowsha": "6L59rt9k2dFs7jHpA+WicswNJ7heaMh164N1MlELLQs=",
+        "originContent": "v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+        "translatedContent": "[![Codecov テストカバレッジ](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)"
       },
       {
         "row": 6,
-        "rowsha": "ZPr3seJMsxjJhSFl4HCCOdNwAL7tODcev3r5VYXeNxE=",
-        "originContent": "  package [ohun](https://docs.ropensci.org/ohun/) for a more thorough",
-        "translatedContent": "- 録音全体または個別信号のスペクトログラム作成"
+        "rowsha": "FugQMMILhOm75N5lqbkVqkTxxvn1fqPR5ePMD1n2LkI=",
+        "originContent": "[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/warbleR)](https://cran.r-project.org/package=warbleR)",
+        "translatedContent": "<!-- バッジ: 終了 -->"
       },
       {
         "row": 7,
-        "rowsha": "cTQICxZchUzpZm1tIQZvlOIJr95bw3XqLb6FTBUkDUg=",
-        "originContent": "  and friendly implementation)",
-        "translatedContent": "- 音響信号構造の各種測定の実行"
+        "rowsha": "XE9mWVl+DU+5hzrimZ1OzwrypHDw+EmhYjT7R4gCE9M=",
+        "originContent": "[![Total",
+        "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "rUBGgwlUXnsncDrBAaoFY/41upk0JjUaf5SFHnnGlGA=",
-        "originContent": "- Create spectrograms of complete recordings or individual signals",
-        "translatedContent": "- 測定方法の性能評価"
+        "rowsha": "BvIepYqDTUQIGbzPActde63cqOzcvCq+8Y25EsdOK+E=",
+        "originContent": "Downloads](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)](https://cranlogs.r-pkg.org/badges/grand-total/warbleR)",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png\" alt=\"warbleR ロゴ\" align=\"right\" width = \"25%\" height=\"25%\"/>"
       },
       {
         "row": 9,
-        "rowsha": "04zhrK0P/Ux8wirhppj4m39FbLbWo2N7W9SZ/rFMNTk=",
-        "originContent": "- Run different measures of acoustic signal structure",
-        "translatedContent": "- 信号のカタログ化"
+        "rowsha": "ahzoW7jG91Zhlql9bgpakN6sgCOKBsky9b+pL5B9m48=",
+        "originContent": "[![Codecov test",
+        "translatedContent": ""
       },
       {
         "row": 10,
-        "rowsha": "iOk6F45ZjWhZ+tBG+lxlDxY3NebTI70S4gVDUtHpcVc=",
-        "originContent": "- Evaluate the performance of measurement methods",
-        "translatedContent": "- 音響信号の異なる構造レベルの特徴付け"
+        "rowsha": "4fvDC8TU69QaJ4HSwuNNxy7K0jNNV5ImHxQn6u/HKlg=",
+        "originContent": "coverage](https://codecov.io/gh/maRce10/warbleR/branch/master/graph/badge.svg)](https://app.codecov.io/gh/maRce10/warbleR?branch=master)",
+        "translatedContent": "[warbleR](https://cran.r-project.org/package=warbleR) は、R における動物の音響信号の構造解析を支援することを目的としています。ユーザーはオープンアクセスの鳥類録音を収集するか、独自のデータをワークフローに入力して、スペクトログラムによる可視化や音響パラメータの測定を行うことができます。"
       },
       {
         "row": 11,
-        "rowsha": "HHM/pnhRFSXr+QtBX6iLxB5TGKuE/4aDzxoZ5rWoY2o=",
-        "originContent": "- Catalog signals",
-        "translatedContent": "- デュエットの協調の統計解析"
+        "rowsha": "Qi6Px1IPHaFVWPjcUN7kxRZwrDEIBxgUYCPcmB9K5dQ=",
+        "originContent": "<!-- badges: end -->",
+        "translatedContent": "[warbleR](https://cran.r-project.org/package=warbleR) は、seewave パッケージの基本的な音響解析ツールを活用し、さらに新しい音響構造解析ツールを提供します。これらのツールは、音響信号のバッチ解析にも利用可能です。"
       },
       {
         "row": 12,
-        "rowsha": "Yd5CnxFfQ5gp82XQdU2tHEY2vJpKHgZ0Obf8OKdmvsk=",
-        "originContent": "- Characterize different structural levels in acoustic signals",
-        "translatedContent": "- データベースおよび注釈テーブルの統合"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 13,
-        "rowsha": "YNbctSP4cFPsdeG0O/eW8HVF4D4s3I0/IxnVSX2WC7U=",
-        "originContent": "- Statistical analysis of duet coordination",
-        "translatedContent": ""
+        "rowsha": "bKvRo781WZQW52uwqcPiCOXiltXu3tywNbA+Fsva1hU=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/maRce10/warbleR/master/man/figures/warbleR_sticker.png\" alt=\"warbleR logo\" align=\"right\" width = \"25%\" height=\"25%\"/>",
+        "translatedContent": "パッケージの主な特徴は以下の通りです:"
       },
       {
         "row": 14,
-        "rowsha": "HaZ1fZfGdvd/ERme2ebqEibW69X7Yjf9ekdtbtH57HU=",
-        "originContent": "- Consolidate databases and annotation tables",
-        "translatedContent": "ほとんどの関数はタスクの並列化を可能にしており、"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "複数のプロセッサ間でタスクを分配して計算効率を向上させます。"
+        "rowsha": "q4NtMPd7JKhlNZFOls3VM5OW1Ra+SF93w4RqlqnI5YM=",
+        "originContent": "[warbleR](https://cran.r-project.org/package=warbleR) is intended to",
+        "translatedContent": "- 音響構造の測定に関する多様なツール"
       },
       {
         "row": 16,
-        "rowsha": "i9JY48KF4eXp6UOeaNdqXadpOTK1N6QVEfUVm5zYJz0=",
-        "originContent": "Most of the functions allow the parallelization of tasks, which",
-        "translatedContent": "各ステップでの分析性能を評価するツールも利用可能です。"
+        "rowsha": "4NaXItNlMA2YUqbKqtUsGbwdBwTLmLrLGq2WalsbZZw=",
+        "originContent": "facilitate the analysis of the structure of animal acoustic signals in",
+        "translatedContent": "- ループを用いて、選択テーブルで参照された音響信号に対しタスクを適用"
       },
       {
         "row": 17,
-        "rowsha": "50ZhnbtgNBjBUH+y1Rm69uvGDn4gHB8DZwMmMgyHyf4=",
-        "originContent": "distributes the tasks among several processors to improve computational",
-        "translatedContent": ""
+        "rowsha": "KoAgpoeWx3Cid5YqAydvypZoJwYKmlXBy1aNC6gGBFc=",
+        "originContent": "R. Users can collect open-access avian recordings or enter their own",
+        "translatedContent": "- ワーキングディレクトリ内にスペクトログラム画像を生成し、データの整理や音響解析の検証を可能にする"
       },
       {
         "row": 18,
-        "rowsha": "QyMDDln4SRItjCguevPBhL4LxCGHjjdr2uSuilu4vpc=",
-        "originContent": "efficiency. Tools to evaluate the performance of the analysis at each",
-        "translatedContent": "## インストール"
+        "rowsha": "0psKs+/cGJJFMKromfuFdedLBW83QDAJQI/mA5PQ76w=",
+        "originContent": "data into a workflow that facilitates spectrographic visualization and",
+        "translatedContent": ""
       },
       {
         "row": 19,
-        "rowsha": "VHsXh90H1sdt2cOWqrrnkXk1dsHcUgnzZrE78af8YI8=",
-        "originContent": "step are also available.",
-        "translatedContent": ""
+        "rowsha": "L8ugBK+gLUwsdH994NKCPpOx3e90atK/odttLRNj7XA=",
+        "originContent": "measurement of acoustic parameters.",
+        "translatedContent": "パッケージは以下の機能を提供します:"
       },
       {
         "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "CRANからパッケージを以下のようにインストール／ロードしてください："
+        "rowsha": "sHYyecCzo5UPCubWLk1ZNPctnjes4dIc+OlmO/UVpd8=",
+        "originContent": "[warbleR](https://cran.r-project.org/package=warbleR) makes use of the",
+        "translatedContent": ""
       },
       {
         "row": 21,
-        "rowsha": "oDVP3SR/aiqGlwC3MYkKbuw/xKWgDvrUk2CdNhgTxg4=",
-        "originContent": "## Installing",
-        "translatedContent": ""
+        "rowsha": "3MsQ9LwTAAZBNKpZco8GcmonOJXhnVYKS2ozXufcvKg=",
+        "originContent": "fundamental sound analysis tools of the seewave package, and offers new",
+        "translatedContent": "- [Xeno‐Canto](https://xeno-canto.org/) の録音データの探索とダウンロード"
       },
       {
         "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "+/20hSJFoh13IQmwZr/ZNDaKLreEkyrS2EM9+GAUHQM=",
+        "originContent": "tools for acoustic structure analysis. These tools are available for",
+        "translatedContent": "- 複数の音声ファイルの探索、整理、操作"
       },
       {
         "row": 23,
-        "rowsha": "7N5eROyMmSGFIA0/AxXNKPMiVhGCwNrF7L7lylXCKHs=",
-        "originContent": "Install/load the package from CRAN as follows:",
-        "translatedContent": ""
+        "rowsha": "QGNeidjewOuQJk4mNugqFeJjNh2jojtr7PCLGgafhZ4=",
+        "originContent": "batch analysis of acoustic signals.",
+        "translatedContent": "- 信号の自動検出（周波数および時間領域で）（より高度で使いやすい実装については R パッケージ [ohun](https://docs.ropensci.org/ohun/) をご確認ください）"
       },
       {
         "row": 24,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
+        "translatedContent": "- 完全な録音または個々の信号のスペクトログラム作成"
+      },
+      {
+        "row": 25,
+        "rowsha": "IguBP9KW/kftubOEe/v1hkZLl/UtoSgnT+ziJqg0v0A=",
+        "originContent": "The main features of the package are:",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "GCbAkJ5aabOaIr0YiCjD07m8PETmKaS2JwOjxBRnJ18=",
+        "originContent": "- Diverse tools for measuring acoustic structure",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "0zuDiqgCvwt7MdpC4jQ5RfaqVJ1SXj/Pk3NH98MVjyY=",
+        "originContent": "- The use of loops to apply tasks through acoustic signals referenced in",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "e8tipsX/ENXcyOqzbVKwKUBa2kr48vClaIMV4qu2Jrc=",
+        "originContent": "  a selection table",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "KiSrrrQPxkukbLoGnb4r4mmP6lk5ye5JaaLAFpJfwP0=",
+        "originContent": "- The production of images in the working directory with spectrograms to",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "c7UPVO9qf9cMUZtnmMdmGSdQtttetvirN0XlnZ2FShE=",
+        "originContent": "  allow users organize data and verify acoustic analyses",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "5Dh0VErAvngqWsAVvCvz06ijJQUqZScpURI6hGvD96M=",
+        "originContent": "The package offers functions to:",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "3TW+zKws7FC4xfrrF8z2ndp5atQ6JcRj0Vm3t/pthOM=",
+        "originContent": "- Explore and download [Xeno‐Canto](https://xeno-canto.org/) recordings",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "7EYm6TZPsLdfHQJ4esnW08A89HQxkG5Uh5JSnqYxbBg=",
+        "originContent": "- Explore, organize and manipulate multiple sound files",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "XkLvAtJD6xzOTcSP2qusU5oYEBvPv5qsgpg/1F3gKkM=",
+        "originContent": "- Detect signals automatically (in frequency and time) (but check the R",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "ZPr3seJMsxjJhSFl4HCCOdNwAL7tODcev3r5VYXeNxE=",
+        "originContent": "  package [ohun](https://docs.ropensci.org/ohun/) for a more thorough",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "cTQICxZchUzpZm1tIQZvlOIJr95bw3XqLb6FTBUkDUg=",
+        "originContent": "  and friendly implementation)",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "rUBGgwlUXnsncDrBAaoFY/41upk0JjUaf5SFHnnGlGA=",
+        "originContent": "- Create spectrograms of complete recordings or individual signals",
         "translatedContent": ""
       }
     ],
@@ -411,89 +507,106 @@
   },
   {
     "Id": 3,
-    "Content": "``` r\ninstall.packages(\"warbleR\")\n\n# load package\nlibrary(warbleR)\n```",
-    "ContentSha": "lGmGraaquIRvSOBL+yZLDzw58qHz7yIRnJXAN0t2nkw=",
+    "Content": "- Run different measures of acoustic signal structure\n- Evaluate the performance of measurement methods\n- Catalog signals\n- Characterize different structural levels in acoustic signals\n- Statistical analysis of duet coordination\n- Consolidate databases and annotation tables\n\nMost of the functions allow the parallelization of tasks, which\ndistributes the tasks among several processors to improve computational\nefficiency. Tools to evaluate the performance of the analysis at each\nstep are also available.\n\n## Installing\n\nInstall/load the package from CRAN as follows:\n",
+    "ContentSha": "cos0lJ05+CPnv4IaK4YnPrvzDFuxAalyoGZfYVJ3qPY=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "``` r\ninstall.packages(\"warbleR\")\n\n# load package\nlibrary(warbleR)\n```",
+    "Translation": "- 音響信号構造の様々な測定方法を実行する\n- 測定方法の性能を評価する\n- 信号をカタログ化する\n- 音響信号の異なる構造レベルを特徴付ける\n- 二重唱の協調性の統計解析\n- データベースとアノテーションテーブルの統合\n\nほとんどの機能はタスクの並列化を可能にしており、\n複数のプロセッサにタスクを分散させて計算効率を向上させます。\n各ステップで分析の性能を評価するツールも利用可能です。\n\n## インストール\n\nCRANから以下のようにパッケージをインストール／読み込みします：\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "HW+/4C3UI5euHUtNfcvI4A1MA95CRw9PnFPnMK+IviQ=",
-        "originContent": "``` r",
-        "translatedContent": "``` r"
+        "rowsha": "04zhrK0P/Ux8wirhppj4m39FbLbWo2N7W9SZ/rFMNTk=",
+        "originContent": "- Run different measures of acoustic signal structure",
+        "translatedContent": "- 音響信号構造の様々な測定方法を実行する"
       },
       {
         "row": 2,
-        "rowsha": "VbxZAek8jZ2SLci9r5zF7WfztaSEfmedVWwCZr05aD8=",
-        "originContent": "install.packages(\"warbleR\")",
-        "translatedContent": "install.packages(\"warbleR\")"
+        "rowsha": "iOk6F45ZjWhZ+tBG+lxlDxY3NebTI70S4gVDUtHpcVc=",
+        "originContent": "- Evaluate the performance of measurement methods",
+        "translatedContent": "- 測定方法の性能を評価する"
       },
       {
         "row": 3,
+        "rowsha": "HHM/pnhRFSXr+QtBX6iLxB5TGKuE/4aDzxoZ5rWoY2o=",
+        "originContent": "- Catalog signals",
+        "translatedContent": "- 信号をカタログ化する"
+      },
+      {
+        "row": 4,
+        "rowsha": "Yd5CnxFfQ5gp82XQdU2tHEY2vJpKHgZ0Obf8OKdmvsk=",
+        "originContent": "- Characterize different structural levels in acoustic signals",
+        "translatedContent": "- 音響信号の異なる構造レベルを特徴付ける"
+      },
+      {
+        "row": 5,
+        "rowsha": "YNbctSP4cFPsdeG0O/eW8HVF4D4s3I0/IxnVSX2WC7U=",
+        "originContent": "- Statistical analysis of duet coordination",
+        "translatedContent": "- 二重唱の協調性の統計解析"
+      },
+      {
+        "row": 6,
+        "rowsha": "HaZ1fZfGdvd/ERme2ebqEibW69X7Yjf9ekdtbtH57HU=",
+        "originContent": "- Consolidate databases and annotation tables",
+        "translatedContent": "- データベースとアノテーションテーブルの統合"
+      },
+      {
+        "row": 7,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 4,
-        "rowsha": "Xy5mTYnsRL9JldgkQ6ia4f607/e9B8WvRLzVF9apogI=",
-        "originContent": "# load package",
-        "translatedContent": "# load package"
+        "row": 8,
+        "rowsha": "i9JY48KF4eXp6UOeaNdqXadpOTK1N6QVEfUVm5zYJz0=",
+        "originContent": "Most of the functions allow the parallelization of tasks, which",
+        "translatedContent": "ほとんどの機能はタスクの並列化を可能にしており、"
       },
       {
-        "row": 5,
-        "rowsha": "w9vyFLkQMbMHulofM8+fvSloqLKO83NgCWr7to42JbQ=",
-        "originContent": "library(warbleR)",
-        "translatedContent": "library(warbleR)"
+        "row": 9,
+        "rowsha": "50ZhnbtgNBjBUH+y1Rm69uvGDn4gHB8DZwMmMgyHyf4=",
+        "originContent": "distributes the tasks among several processors to improve computational",
+        "translatedContent": "複数のプロセッサにタスクを分散させて計算効率を向上させます。"
       },
       {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 4,
-    "Content": "\nTo install the latest developmental version from\n[github](https://github.com/) you will need the R package\n[remotes](https://cran.r-project.org/package=remotes):\n",
-    "ContentSha": "LWxZ432AZU3qpeKOpOwyxmek7J1UsQXQsV5djXcHqx8=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "最新の開発版を\n[github](https://github.com/)からインストールするには、\nRパッケージの\n[remotes](https://cran.r-project.org/package=remotes)が必要です：\n",
-    "Status": "ok",
-    "RowTranslations": [
+        "row": 10,
+        "rowsha": "QyMDDln4SRItjCguevPBhL4LxCGHjjdr2uSuilu4vpc=",
+        "originContent": "efficiency. Tools to evaluate the performance of the analysis at each",
+        "translatedContent": "各ステップで分析の性能を評価するツールも利用可能です。"
+      },
       {
-        "row": 1,
+        "row": 11,
+        "rowsha": "VHsXh90H1sdt2cOWqrrnkXk1dsHcUgnzZrE78af8YI8=",
+        "originContent": "step are also available.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "最新の開発版を"
+        "translatedContent": "## インストール"
       },
       {
-        "row": 2,
-        "rowsha": "X4A6FF4ZCwDDsBV3JEQv6fGxDCfbrY838EOBvGEouXU=",
-        "originContent": "To install the latest developmental version from",
-        "translatedContent": "[github](https://github.com/)からインストールするには、"
+        "row": 13,
+        "rowsha": "oDVP3SR/aiqGlwC3MYkKbuw/xKWgDvrUk2CdNhgTxg4=",
+        "originContent": "## Installing",
+        "translatedContent": ""
       },
       {
-        "row": 3,
-        "rowsha": "h22WlVGnVMvnk7/0mug6LAbwQGUVGGKcU+xc6igjDig=",
-        "originContent": "[github](https://github.com/) you will need the R package",
-        "translatedContent": "Rパッケージの"
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "CRANから以下のようにパッケージをインストール／読み込みします："
       },
       {
-        "row": 4,
-        "rowsha": "3n+eohVL06OrVRAvr26sorqGr7jgYsAZrsVffbEe4Y0=",
-        "originContent": "[remotes](https://cran.r-project.org/package=remotes):",
-        "translatedContent": "[remotes](https://cran.r-project.org/package=remotes)が必要です："
+        "row": 15,
+        "rowsha": "7N5eROyMmSGFIA0/AxXNKPMiVhGCwNrF7L7lylXCKHs=",
+        "originContent": "Install/load the package from CRAN as follows:",
+        "translatedContent": ""
       },
       {
-        "row": 5,
+        "row": 16,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -502,7 +615,31 @@
     "IsCodeBlock": false
   },
   {
+    "Id": 4,
+    "Content": "``` r\ninstall.packages(\"warbleR\")\n\n# load package\nlibrary(warbleR)\n```",
+    "ContentSha": "lGmGraaquIRvSOBL+yZLDzw58qHz7yIRnJXAN0t2nkw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` r\ninstall.packages(\"warbleR\")\n\n# load package\nlibrary(warbleR)\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
     "Id": 5,
+    "Content": "\nTo install the latest developmental version from\n[github](https://github.com/) you will need the R package\n[remotes](https://cran.r-project.org/package=remotes):\n",
+    "ContentSha": "LWxZ432AZU3qpeKOpOwyxmek7J1UsQXQsV5djXcHqx8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "最新の開発版を\n[github](https://github.com/)からインストールするには、\nRパッケージの\n[remotes](https://cran.r-project.org/package=remotes)が必要です：\n",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
     "Content": "``` r\nremotes::install_github(\"maRce10/warbleR\")\n\n# load package\nlibrary(warbleR)\n```",
     "ContentSha": "Mh78yeiRqspnegPDGCTOev3+buhjBFZUlGWQI3jm2TA=",
     "SectionType": "",
@@ -510,127 +647,90 @@
     "EndLine": 0,
     "Translation": "``` r\nremotes::install_github(\"maRce10/warbleR\")\n\n# load package\nlibrary(warbleR)\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "HW+/4C3UI5euHUtNfcvI4A1MA95CRw9PnFPnMK+IviQ=",
-        "originContent": "``` r",
-        "translatedContent": "``` r"
-      },
-      {
-        "row": 2,
-        "rowsha": "iDKoXdtFgyDFuYgAxOpxuIDPpFIAIaSPTusP0VGIokY=",
-        "originContent": "remotes::install_github(\"maRce10/warbleR\")",
-        "translatedContent": "remotes::install_github(\"maRce10/warbleR\")"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "Xy5mTYnsRL9JldgkQ6ia4f607/e9B8WvRLzVF9apogI=",
-        "originContent": "# load package",
-        "translatedContent": "# load package"
-      },
-      {
-        "row": 5,
-        "rowsha": "w9vyFLkQMbMHulofM8+fvSloqLKO83NgCWr7to42JbQ=",
-        "originContent": "library(warbleR)",
-        "translatedContent": "library(warbleR)"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 6,
-    "Content": "\n## Usage\n\nThe package includes several vignettes explaining its main features. The\n[Intro to\nwarbleR](https://marce10.github.io/warbleR/articles/warbleR.html)\nprovides an overview of the package functionalities. The vignette\n[Annotation data\nformat](https://marce10.github.io/warbleR/articles/annotation_data_format.html)\ngives a detailed description of the required format for input\nannotations. There are also three additional [package\nvignettes](https://marce10.github.io/warbleR/articles/) with examples on\nhow to organize functions in an acoustic analysis workflow.\n\nA full description of the package (although a bit outdated) can be found\nin this [journal article](https://doi.org/10.1111/2041-210X.12624).\n\n## Other packages\n\nThe packages [seewave](https://cran.r-project.org/package=seewave) and\n[tuneR](https://cran.r-project.org/package=seewave) provide a huge\nvariety of functions for acoustic analysis and manipulation. They moslty\nworks on wave objects already imported into the R environment. The\npackage [baRulho](https://cran.r-project.org/package=baRulho) focuses on\nquantifying habitat-induced degradatio of acoustic signals with data\ninputs and ouputs similar to those of\n[warbleR](https://cran.r-project.org/package=warbleR). The package\n[Rraven](https://cran.r-project.org/package=Rraven) facilitates the\nexchange of data between R and [Raven sound analysis\nsoftware](https://www.ravensoundsoftware.com/) ([Cornell Lab of\nOrnithology](https://www.birds.cornell.edu/home)) and can be very\nhelpful for incorporating Raven as the annotating tool into acoustic\nanalysis workflow in R. The package\n[ohun](https://docs.ropensci.org/ohun/) works on automated detection of\nsound events, providing functions to diagnose and optimize detection\nroutines. [dynaSpec](https://cran.r-project.org/package=seewave) is\nallows to create dynamic spectrograms (i.e. spectrogram videos).\n\n## Citation\n",
-    "ContentSha": "p2dBZcBd2KZF1zRHYF+0MBeT4iNzHdhHZPOhFPi5Lcw=",
+    "Id": 7,
+    "Content": "\n## Usage\n\nThe package includes several vignettes explaining its main features. The\n[Intro to\nwarbleR](https://marce10.github.io/warbleR/articles/warbleR.html)\nprovides an overview of the package functionalities. The vignette\n[Annotation data\nformat](https://marce10.github.io/warbleR/articles/annotation_data_format.html)\ngives a detailed description of the required format for input\nannotations. There are also three additional [package\nvignettes](https://marce10.github.io/warbleR/articles/) with examples on\nhow to organize functions in an acoustic analysis workflow.\n\nA full description of the package (although a bit outdated) can be found\nin this [journal\narticle](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12624).\n\n## Other packages\n\nThe packages [seewave](https://cran.r-project.org/package=seewave) and\n[tuneR](https://cran.r-project.org/package=seewave) provide a huge\nvariety of functions for acoustic analysis and manipulation. They moslty\nworks on wave objects already imported into the R environment. The\npackage [baRulho](https://cran.r-project.org/package=baRulho) focuses on\nquantifying habitat-induced degradation of acoustic signals with data\ninputs and ouputs similar to those of\n[warbleR](https://cran.r-project.org/package=warbleR). The package\n[Rraven](https://cran.r-project.org/package=Rraven) facilitates the\nexchange of data between R and [Raven sound analysis\nsoftware](https://www.ravensoundsoftware.com/) ([Cornell Lab of\nOrnithology](https://www.birds.cornell.edu/home)) and can be very\nhelpful for incorporating Raven as the annotating tool into acoustic\nanalysis workflow in R. The package\n[ohun](https://docs.ropensci.org/ohun/) works on automated detection of\nsound events, providing functions to diagnose and optimize detection\nroutines. [dynaSpec](https://cran.r-project.org/package=seewave) is\nallows to create dynamic spectrograms (i.e. spectrogram videos).\n\n## Citation",
+    "ContentSha": "hAzPIOP4BYfYcbYnxzNcBg1+YLL9bvva1dtxNzeg+Uo=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "## 使用法\n\nこのパッケージには、主な機能を説明するいくつかのビネットが含まれています。  \n[warbleR入門](https://marce10.github.io/warbleR/articles/warbleR.html)  \nではパッケージの機能概要が提供されています。ビネット  \n[アノテーションデータ形式](https://marce10.github.io/warbleR/articles/annotation_data_format.html)  \nでは入力アノテーションに必要な形式の詳細な説明がなされています。  \nまた、音響解析ワークフローでの関数の組織方法に関する例を示した  \n[追加のパッケージビネット](https://marce10.github.io/warbleR/articles/) が3つあります。\n\nパッケージの完全な説明（やや古いですが）は、こちらの  \n[ジャーナル記事](https://doi.org/10.1111/2041-210X.12624) で確認できます。\n\n## その他のパッケージ\n\n[seewave](https://cran.r-project.org/package=seewave) と  \n[tuneR](https://cran.r-project.org/package=seewave) のパッケージは、  \n音響解析および操作のための多種多様な関数を提供しています。  \nこれらは主にR環境に既にインポートされたwaveオブジェクトを対象とします。  \n[baRulho](https://cran.r-project.org/package=baRulho) パッケージは、  \n[warbleR](https://cran.r-project.org/package=warbleR) と同様のデータ入力・出力を用い、  \n生息環境による音響信号の劣化を定量化することに焦点を当てています。  \n[Rraven](https://cran.r-project.org/package=Rraven) パッケージは、  \nRと[Raven音響解析ソフト](https://www.ravensoundsoftware.com/)  \n（[コーネル鳥類学研究所](https://www.birds.cornell.edu/home)）とのデータ交換を容易にし、  \nRにおける音響解析ワークフローにRavenをアノテーションツールとして組み込む際に非常に役立ちます。  \n[ohun](https://docs.ropensci.org/ohun/) パッケージは、音響イベントの自動検出を行い、  \n検出ルーチンの診断および最適化のための関数を提供します。  \n[dynaSpec](https://cran.r-project.org/package=seewave) は、  \n動的スペクトログラム（すなわちスペクトログラム動画）を作成することができます。\n\n## 引用方法\n\n\n\n\n\n\n\n",
+    "Translation": "\n## 使用方法\n\nこのパッケージには、その主な機能を説明するいくつかのビネットが含まれています。\n[warbleR入門](https://marce10.github.io/warbleR/articles/warbleR.html)\nでは、パッケージの機能概要を提供しています。ビネット\n[アノテーションデータ形式](https://marce10.github.io/warbleR/articles/annotation_data_format.html)\nでは、入力アノテーションに必要な形式について詳細に説明しています。また、音響解析ワークフローで関数を整理する方法の例を示した、3つの追加[パッケージビネット](https://marce10.github.io/warbleR/articles/)もあります。\n\nパッケージの完全な説明（やや古いですが）は、この[ジャーナル記事](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12624)で見つけることができます。\n\n## 他のパッケージ\n\n[seewave](https://cran.r-project.org/package=seewave) および\n[tuneR](https://cran.r-project.org/package=seewave) パッケージは、音響解析と操作のための豊富な関数を提供しています。これらは主に、すでにR環境にインポートされたウェーブオブジェクトで動作します。\n[baRulho](https://cran.r-project.org/package=baRulho) パッケージは、音響信号の生息地による劣化を定量化することに焦点を当てており、データの入力と出力は\n[warbleR](https://cran.r-project.org/package=warbleR) に類似しています。パッケージ\n[Rraven](https://cran.r-project.org/package=Rraven) は、Rと[Raven音響解析ソフトウェア](https://www.ravensoundsoftware.com/)（[コーネル大学鳥類学研究所](https://www.birds.cornell.edu/home)）とのデータ交換を容易にし、RでRavenをアノテーションツールとして音響解析ワークフローに組み込む際に非常に役立ちます。パッケージ\n[ohun](https://docs.ropensci.org/ohun/) は、音イベントの自動検出に対応し、検出ルーチンを診断・最適化する関数を提供します。[dynaSpec](https://cran.r-project.org/package=seewave) は、\n動的スペクトログラム（すなわちスペクトログラム動画）の作成を可能にします。\n\n## 引用\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## 使用法"
+        "translatedContent": ""
       },
       {
         "row": 2,
         "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
         "originContent": "## Usage",
-        "translatedContent": ""
+        "translatedContent": "## 使用方法"
       },
       {
         "row": 3,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "このパッケージには、主な機能を説明するいくつかのビネットが含まれています。  "
+        "translatedContent": ""
       },
       {
         "row": 4,
         "rowsha": "n33+Hz2HclBzQ6P/MoKVFei84pUKb4wg8tNdUtn6rnc=",
         "originContent": "The package includes several vignettes explaining its main features. The",
-        "translatedContent": "[warbleR入門](https://marce10.github.io/warbleR/articles/warbleR.html)  "
+        "translatedContent": "このパッケージには、その主な機能を説明するいくつかのビネットが含まれています。"
       },
       {
         "row": 5,
         "rowsha": "a+pJMAyFFydnA3gZshCBbeE1SFrxfVHTjth3s6+yUvE=",
         "originContent": "[Intro to",
-        "translatedContent": "ではパッケージの機能概要が提供されています。ビネット  "
+        "translatedContent": "[warbleR入門](https://marce10.github.io/warbleR/articles/warbleR.html)"
       },
       {
         "row": 6,
         "rowsha": "5FoLjY3bJzHD3PRMiiKQXBthz/uemqg/LTO9tG7/4xM=",
         "originContent": "warbleR](https://marce10.github.io/warbleR/articles/warbleR.html)",
-        "translatedContent": "[アノテーションデータ形式](https://marce10.github.io/warbleR/articles/annotation_data_format.html)  "
+        "translatedContent": "では、パッケージの機能概要を提供しています。ビネット"
       },
       {
         "row": 7,
         "rowsha": "xLV+2IN5rPRS9Lv8dZ5LeVDh1cNSnSh4FXv90Xzp95U=",
         "originContent": "provides an overview of the package functionalities. The vignette",
-        "translatedContent": "では入力アノテーションに必要な形式の詳細な説明がなされています。  "
+        "translatedContent": "[アノテーションデータ形式](https://marce10.github.io/warbleR/articles/annotation_data_format.html)"
       },
       {
         "row": 8,
         "rowsha": "JC79lVRqQJrDnNp33dUP7ANBXksTTAtKMrnP2VE2KAA=",
         "originContent": "[Annotation data",
-        "translatedContent": "また、音響解析ワークフローでの関数の組織方法に関する例を示した  "
+        "translatedContent": "では、入力アノテーションに必要な形式について詳細に説明しています。また、音響解析ワークフローで関数を整理する方法の例を示した、3つの追加[パッケージビネット](https://marce10.github.io/warbleR/articles/)もあります。"
       },
       {
         "row": 9,
         "rowsha": "KiICwwHFGttFbpK3QCFhOW8LmZXAh3SqqQybEwAU4hU=",
         "originContent": "format](https://marce10.github.io/warbleR/articles/annotation_data_format.html)",
-        "translatedContent": "[追加のパッケージビネット](https://marce10.github.io/warbleR/articles/) が3つあります。"
+        "translatedContent": ""
       },
       {
         "row": 10,
         "rowsha": "V2LjQD1ag6cLDLtbwnFNxIrHrV1IWUF4kSsWMBebhL8=",
         "originContent": "gives a detailed description of the required format for input",
-        "translatedContent": ""
+        "translatedContent": "パッケージの完全な説明（やや古いですが）は、この[ジャーナル記事](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12624)で見つけることができます。"
       },
       {
         "row": 11,
         "rowsha": "s3z+eU3vsDXV6qpG+fU1W0Aw4scl3Fy7GCyjns4A6i8=",
         "originContent": "annotations. There are also three additional [package",
-        "translatedContent": "パッケージの完全な説明（やや古いですが）は、こちらの  "
+        "translatedContent": ""
       },
       {
         "row": 12,
         "rowsha": "AHFyZO3g5brjgsBKq8NsKc33E9LiFNUyg3encjN9zCU=",
         "originContent": "vignettes](https://marce10.github.io/warbleR/articles/) with examples on",
-        "translatedContent": "[ジャーナル記事](https://doi.org/10.1111/2041-210X.12624) で確認できます。"
+        "translatedContent": "## 他のパッケージ"
       },
       {
         "row": 13,
@@ -642,245 +742,251 @@
         "row": 14,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "## その他のパッケージ"
+        "translatedContent": "[seewave](https://cran.r-project.org/package=seewave) および"
       },
       {
         "row": 15,
         "rowsha": "Af53DNpqwV0Eij0ZgJJmgaRxysGokDFIseakG5kYRPo=",
         "originContent": "A full description of the package (although a bit outdated) can be found",
-        "translatedContent": ""
+        "translatedContent": "[tuneR](https://cran.r-project.org/package=seewave) パッケージは、音響解析と操作のための豊富な関数を提供しています。これらは主に、すでにR環境にインポートされたウェーブオブジェクトで動作します。"
       },
       {
         "row": 16,
-        "rowsha": "VrE7eMP5Phd1ISREiB11i7LQRZWpETYiKEyP+itIGHA=",
-        "originContent": "in this [journal article](https://doi.org/10.1111/2041-210X.12624).",
-        "translatedContent": "[seewave](https://cran.r-project.org/package=seewave) と  "
+        "rowsha": "6dz82AcRVNlQYnWaCeLKRBuR7id6eVpCggvMW7hcc2Y=",
+        "originContent": "in this [journal",
+        "translatedContent": "[baRulho](https://cran.r-project.org/package=baRulho) パッケージは、音響信号の生息地による劣化を定量化することに焦点を当てており、データの入力と出力は"
       },
       {
         "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "[tuneR](https://cran.r-project.org/package=seewave) のパッケージは、  "
+        "rowsha": "/5uBEOrlD4UiHu4OjF/5+8XPQ7nL1CuM9wAITWBj2VU=",
+        "originContent": "article](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12624).",
+        "translatedContent": "[warbleR](https://cran.r-project.org/package=warbleR) に類似しています。パッケージ"
       },
       {
         "row": 18,
-        "rowsha": "yj6NSk2bZXjThYuJhReBLh1dCrv1TNK70AOsx23gfI4=",
-        "originContent": "## Other packages",
-        "translatedContent": "音響解析および操作のための多種多様な関数を提供しています。  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Rraven](https://cran.r-project.org/package=Rraven) は、Rと[Raven音響解析ソフトウェア](https://www.ravensoundsoftware.com/)（[コーネル大学鳥類学研究所](https://www.birds.cornell.edu/home)）とのデータ交換を容易にし、RでRavenをアノテーションツールとして音響解析ワークフローに組み込む際に非常に役立ちます。パッケージ"
       },
       {
         "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "これらは主にR環境に既にインポートされたwaveオブジェクトを対象とします。  "
+        "rowsha": "yj6NSk2bZXjThYuJhReBLh1dCrv1TNK70AOsx23gfI4=",
+        "originContent": "## Other packages",
+        "translatedContent": "[ohun](https://docs.ropensci.org/ohun/) は、音イベントの自動検出に対応し、検出ルーチンを診断・最適化する関数を提供します。[dynaSpec](https://cran.r-project.org/package=seewave) は、"
       },
       {
         "row": 20,
-        "rowsha": "ti7Dh5bUBYGvbKa7MVxwZL0uXFiGO00TINRLfhAUTZE=",
-        "originContent": "The packages [seewave](https://cran.r-project.org/package=seewave) and",
-        "translatedContent": "[baRulho](https://cran.r-project.org/package=baRulho) パッケージは、  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "動的スペクトログラム（すなわちスペクトログラム動画）の作成を可能にします。"
       },
       {
         "row": 21,
-        "rowsha": "yfhp16/Nhw+8hwbgscYFEjT7QILG6h7AUi90SyoIzWk=",
-        "originContent": "[tuneR](https://cran.r-project.org/package=seewave) provide a huge",
-        "translatedContent": "[warbleR](https://cran.r-project.org/package=warbleR) と同様のデータ入力・出力を用い、  "
+        "rowsha": "ti7Dh5bUBYGvbKa7MVxwZL0uXFiGO00TINRLfhAUTZE=",
+        "originContent": "The packages [seewave](https://cran.r-project.org/package=seewave) and",
+        "translatedContent": ""
       },
       {
         "row": 22,
-        "rowsha": "F/uZfhPEwpTX1Ga1CfzFGkLtw+gPabPDj91kvpyNVb0=",
-        "originContent": "variety of functions for acoustic analysis and manipulation. They moslty",
-        "translatedContent": "生息環境による音響信号の劣化を定量化することに焦点を当てています。  "
+        "rowsha": "yfhp16/Nhw+8hwbgscYFEjT7QILG6h7AUi90SyoIzWk=",
+        "originContent": "[tuneR](https://cran.r-project.org/package=seewave) provide a huge",
+        "translatedContent": "## 引用"
       },
       {
         "row": 23,
-        "rowsha": "8hdYWozdDq6gghGitCpGuQ7uRt2UD5rkXmqcMoutrXM=",
-        "originContent": "works on wave objects already imported into the R environment. The",
-        "translatedContent": "[Rraven](https://cran.r-project.org/package=Rraven) パッケージは、  "
+        "rowsha": "F/uZfhPEwpTX1Ga1CfzFGkLtw+gPabPDj91kvpyNVb0=",
+        "originContent": "variety of functions for acoustic analysis and manipulation. They moslty",
+        "translatedContent": ""
       },
       {
         "row": 24,
-        "rowsha": "DIYPpS6fVq5QfqYjkv349EQ6+ow/uyNFwRr5dqGAc18=",
-        "originContent": "package [baRulho](https://cran.r-project.org/package=baRulho) focuses on",
-        "translatedContent": "Rと[Raven音響解析ソフト](https://www.ravensoundsoftware.com/)  "
+        "rowsha": "8hdYWozdDq6gghGitCpGuQ7uRt2UD5rkXmqcMoutrXM=",
+        "originContent": "works on wave objects already imported into the R environment. The",
+        "translatedContent": ""
       },
       {
         "row": 25,
-        "rowsha": "FXwhWFcGdJ2s9vlrCqANcaMMExrfKeZMQJWovq6GbNA=",
-        "originContent": "quantifying habitat-induced degradatio of acoustic signals with data",
-        "translatedContent": "（[コーネル鳥類学研究所](https://www.birds.cornell.edu/home)）とのデータ交換を容易にし、  "
+        "rowsha": "DIYPpS6fVq5QfqYjkv349EQ6+ow/uyNFwRr5dqGAc18=",
+        "originContent": "package [baRulho](https://cran.r-project.org/package=baRulho) focuses on",
+        "translatedContent": ""
       },
       {
         "row": 26,
-        "rowsha": "ZK6OhcJXHUrucm02Jnlm3QPRCNKmQ3fnpW5R909tAYg=",
-        "originContent": "inputs and ouputs similar to those of",
-        "translatedContent": "Rにおける音響解析ワークフローにRavenをアノテーションツールとして組み込む際に非常に役立ちます。  "
+        "rowsha": "IUB7QDFK46Rv4OwKoNejwzh2EAGSEfzuYikjdzfKnxw=",
+        "originContent": "quantifying habitat-induced degradation of acoustic signals with data",
+        "translatedContent": ""
       },
       {
         "row": 27,
-        "rowsha": "Ho2tP+3LBo5TOr8EeXwVZCoUb7XNdrsxPWOvm5jhvtE=",
-        "originContent": "[warbleR](https://cran.r-project.org/package=warbleR). The package",
-        "translatedContent": "[ohun](https://docs.ropensci.org/ohun/) パッケージは、音響イベントの自動検出を行い、  "
+        "rowsha": "ZK6OhcJXHUrucm02Jnlm3QPRCNKmQ3fnpW5R909tAYg=",
+        "originContent": "inputs and ouputs similar to those of",
+        "translatedContent": ""
       },
       {
         "row": 28,
-        "rowsha": "yDesjsI9TiGBNU3Uo2wMflG3vMJlmWyumA739yPDbeM=",
-        "originContent": "[Rraven](https://cran.r-project.org/package=Rraven) facilitates the",
-        "translatedContent": "検出ルーチンの診断および最適化のための関数を提供します。  "
+        "rowsha": "Ho2tP+3LBo5TOr8EeXwVZCoUb7XNdrsxPWOvm5jhvtE=",
+        "originContent": "[warbleR](https://cran.r-project.org/package=warbleR). The package",
+        "translatedContent": ""
       },
       {
         "row": 29,
-        "rowsha": "mMTzFG57Dtrw6zSCzMhwSQPbr4IPg166s4TCcd9SMfM=",
-        "originContent": "exchange of data between R and [Raven sound analysis",
-        "translatedContent": "[dynaSpec](https://cran.r-project.org/package=seewave) は、  "
+        "rowsha": "yDesjsI9TiGBNU3Uo2wMflG3vMJlmWyumA739yPDbeM=",
+        "originContent": "[Rraven](https://cran.r-project.org/package=Rraven) facilitates the",
+        "translatedContent": ""
       },
       {
         "row": 30,
-        "rowsha": "mdrbHc4d5xkBCoaWgCWUyq0LQfPV0MJUL1vRN03pT1E=",
-        "originContent": "software](https://www.ravensoundsoftware.com/) ([Cornell Lab of",
-        "translatedContent": "動的スペクトログラム（すなわちスペクトログラム動画）を作成することができます。"
+        "rowsha": "mMTzFG57Dtrw6zSCzMhwSQPbr4IPg166s4TCcd9SMfM=",
+        "originContent": "exchange of data between R and [Raven sound analysis",
+        "translatedContent": ""
       },
       {
         "row": 31,
+        "rowsha": "mdrbHc4d5xkBCoaWgCWUyq0LQfPV0MJUL1vRN03pT1E=",
+        "originContent": "software](https://www.ravensoundsoftware.com/) ([Cornell Lab of",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
         "rowsha": "BJun0BWWAR8S2zZL4VIxhHaWORNkTYtduiwcxyinPFI=",
         "originContent": "Ornithology](https://www.birds.cornell.edu/home)) and can be very",
         "translatedContent": ""
       },
       {
-        "row": 32,
+        "row": 33,
         "rowsha": "gD+YudZt9XHgfkV/Kl9wCM5ddrjiXrd8Uz/NL/gaHMA=",
         "originContent": "helpful for incorporating Raven as the annotating tool into acoustic",
-        "translatedContent": "## 引用方法"
+        "translatedContent": ""
       },
       {
-        "row": 33,
+        "row": 34,
         "rowsha": "BAeOwz6/3WzQO7ST9JPngSYOccnI/eD0NrclHn7s0YA=",
         "originContent": "analysis workflow in R. The package",
         "translatedContent": ""
       },
       {
-        "row": 34,
+        "row": 35,
         "rowsha": "2HOX/dyezjWIeJr9VCBbYBlCR4gGvC7FO+N9F77KODA=",
         "originContent": "[ohun](https://docs.ropensci.org/ohun/) works on automated detection of",
         "translatedContent": ""
       },
       {
-        "row": 35,
+        "row": 36,
         "rowsha": "yIAzJw1F0GnEBXs/ltLUipG4wF1A8ho1pevsGGZPbwM=",
         "originContent": "sound events, providing functions to diagnose and optimize detection",
         "translatedContent": ""
       },
       {
-        "row": 36,
+        "row": 37,
         "rowsha": "6Aq/dH48RoFGQEMPbq6hf+X1N48Li89IUITJWXs01Fc=",
         "originContent": "routines. [dynaSpec](https://cran.r-project.org/package=seewave) is",
         "translatedContent": ""
       },
       {
-        "row": 37,
+        "row": 38,
         "rowsha": "k0lx7B+E/z2SkFngYx6tcr16sRYg4t+qEFskI87OLpc=",
         "originContent": "allows to create dynamic spectrograms (i.e. spectrogram videos).",
         "translatedContent": ""
       },
       {
-        "row": 38,
+        "row": 39,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 39,
-        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
-        "originContent": "## Citation",
         "translatedContent": ""
       },
       {
         "row": 40,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
         "translatedContent": ""
       }
     ],
     "IsCodeBlock": false
   },
   {
-    "Id": 7,
-    "Content": "Please cite [warbleR](https://cran.r-project.org/package=warbleR) as\nfollows:\n\nAraya-Salas, M. and Smith-Vidaurre, G. (2017), *warbleR: an r package to\nstreamline analysis of animal acoustic signals*. Methods Ecol Evol. 8,\n184-191.\n\nNOTE: please also cite the\n[tuneR](https://cran.r-project.org/package=tuneR) and\n[seewave](https://cran.r-project.org/package=seewave) packages if you\nuse any spectrogram-creating or acoustic-measuring functions\n",
-    "ContentSha": "nzIv04RqPnFI3smgt3BmKqGrDMp+zJUiE0kLYZNAyow=",
+    "Id": 8,
+    "Content": "\nPlease cite [warbleR](https://cran.r-project.org/package=warbleR) as\nfollows:\n\nAraya-Salas, M. and Smith-Vidaurre, G. (2017), *warbleR: an r package to\nstreamline analysis of animal acoustic signals*. Methods Ecol Evol. 8,\n184-191.\n\nNOTE: please also cite the\n[tuneR](https://cran.r-project.org/package=tuneR) and\n[seewave](https://cran.r-project.org/package=seewave) packages if you\nuse any spectrogram-creating or acoustic-measuring functions\n",
+    "ContentSha": "7QuSKmTZfzOPRw6G6fg6IYEoqWkSfJEKhgbo8wt0dEc=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "次のように[warbleR](https://cran.r-project.org/package=warbleR)を引用してください：\n\nAraya-Salas, M. and Smith-Vidaurre, G. (2017), *warbleR: an r package to\nstreamline analysis of animal acoustic signals*. Methods Ecol Evol. 8,\n184-191.\n\n注意：スペクトログラム作成や音響測定機能を使用する場合は、\n[tuneR](https://cran.r-project.org/package=tuneR)および\n[seewave](https://cran.r-project.org/package=seewave)のパッケージも\n引用してください。\n\n",
+    "Translation": "\n[warbleR](https://cran.r-project.org/package=warbleR)を以下のように引用してください:\n\nAraya-Salas, M. および Smith-Vidaurre, G. (2017), *warbleR: 動物の音響信号解析を効率化するRパッケージ*。Methods Ecol Evol. 8, 184-191。\n\n注意: スペクトログラムの作成や音響測定機能を使用する場合は、\n[tuneR](https://cran.r-project.org/package=tuneR)および\n[seewave](https://cran.r-project.org/package=seewave)パッケージも\n併せて引用してください\n\n\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "dXw1/BP88Q2UMkUSG3EZVC9t/LB6vukWoXjNPUI5OW4=",
-        "originContent": "Please cite [warbleR](https://cran.r-project.org/package=warbleR) as",
-        "translatedContent": "次のように[warbleR](https://cran.r-project.org/package=warbleR)を引用してください："
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 2,
+        "rowsha": "dXw1/BP88Q2UMkUSG3EZVC9t/LB6vukWoXjNPUI5OW4=",
+        "originContent": "Please cite [warbleR](https://cran.r-project.org/package=warbleR) as",
+        "translatedContent": "[warbleR](https://cran.r-project.org/package=warbleR)を以下のように引用してください:"
+      },
+      {
+        "row": 3,
         "rowsha": "ZkNxq7hohz+a4sjBQZ7AfAQ7QnmD6EtyDP9Kq95khok=",
         "originContent": "follows:",
         "translatedContent": ""
       },
       {
-        "row": 3,
+        "row": 4,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "Araya-Salas, M. and Smith-Vidaurre, G. (2017), *warbleR: an r package to"
-      },
-      {
-        "row": 4,
-        "rowsha": "9EaU18fgVz/cLhB7rVYlGB9vR8jjRKJc6qUsiEqpmbQ=",
-        "originContent": "Araya-Salas, M. and Smith-Vidaurre, G. (2017), *warbleR: an r package to",
-        "translatedContent": "streamline analysis of animal acoustic signals*. Methods Ecol Evol. 8,"
+        "translatedContent": "Araya-Salas, M. および Smith-Vidaurre, G. (2017), *warbleR: 動物の音響信号解析を効率化するRパッケージ*。Methods Ecol Evol. 8, 184-191。"
       },
       {
         "row": 5,
-        "rowsha": "vmRG7dUc1DLojOE8OJlJq8Wcyj1MvLq6YTUgSvaQVWg=",
-        "originContent": "streamline analysis of animal acoustic signals*. Methods Ecol Evol. 8,",
-        "translatedContent": "184-191."
-      },
-      {
-        "row": 6,
-        "rowsha": "TIpAMcOte13Oziq9l+8DjNjvLW1gSgCYQQIvLmqaQpg=",
-        "originContent": "184-191.",
+        "rowsha": "9EaU18fgVz/cLhB7rVYlGB9vR8jjRKJc6qUsiEqpmbQ=",
+        "originContent": "Araya-Salas, M. and Smith-Vidaurre, G. (2017), *warbleR: an r package to",
         "translatedContent": ""
       },
       {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "注意：スペクトログラム作成や音響測定機能を使用する場合は、"
+        "row": 6,
+        "rowsha": "vmRG7dUc1DLojOE8OJlJq8Wcyj1MvLq6YTUgSvaQVWg=",
+        "originContent": "streamline analysis of animal acoustic signals*. Methods Ecol Evol. 8,",
+        "translatedContent": "注意: スペクトログラムの作成や音響測定機能を使用する場合は、"
       },
       {
-        "row": 8,
-        "rowsha": "fI61JcoYq5bHQDVEiWjhK59nLqYwhsVBMFyYJQQ8P9k=",
-        "originContent": "NOTE: please also cite the",
+        "row": 7,
+        "rowsha": "TIpAMcOte13Oziq9l+8DjNjvLW1gSgCYQQIvLmqaQpg=",
+        "originContent": "184-191.",
         "translatedContent": "[tuneR](https://cran.r-project.org/package=tuneR)および"
       },
       {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[seewave](https://cran.r-project.org/package=seewave)パッケージも"
+      },
+      {
         "row": 9,
-        "rowsha": "AlwaVH3LCd4wZ6iUt3JEJ7qK+aoAQ1ROZX0UDItdcmg=",
-        "originContent": "[tuneR](https://cran.r-project.org/package=tuneR) and",
-        "translatedContent": "[seewave](https://cran.r-project.org/package=seewave)のパッケージも"
+        "rowsha": "fI61JcoYq5bHQDVEiWjhK59nLqYwhsVBMFyYJQQ8P9k=",
+        "originContent": "NOTE: please also cite the",
+        "translatedContent": "併せて引用してください"
       },
       {
         "row": 10,
-        "rowsha": "aaV08INxv6ne25txF08mw5GsQ1BP1IynWVKjxFC+9/U=",
-        "originContent": "[seewave](https://cran.r-project.org/package=seewave) packages if you",
-        "translatedContent": "引用してください。"
+        "rowsha": "AlwaVH3LCd4wZ6iUt3JEJ7qK+aoAQ1ROZX0UDItdcmg=",
+        "originContent": "[tuneR](https://cran.r-project.org/package=tuneR) and",
+        "translatedContent": ""
       },
       {
         "row": 11,
+        "rowsha": "aaV08INxv6ne25txF08mw5GsQ1BP1IynWVKjxFC+9/U=",
+        "originContent": "[seewave](https://cran.r-project.org/package=seewave) packages if you",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
         "rowsha": "1nVBchSYEVdOIWfxr0R+Pn69eNmzWg+rdFXNb87S+4A=",
         "originContent": "use any spectrogram-creating or acoustic-measuring functions",
         "translatedContent": ""
       },
       {
-        "row": 12,
+        "row": 13,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

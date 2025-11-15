@@ -1,193 +1,193 @@
 [
   {
     "Id": 1,
-    "Content": "[![Pre-Release](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)\n![License: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)\n![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)\n![Supported Compilers](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)\n\n![Unit Tests](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)\n\n# Sky Dolly\nSky Dolly - The Black Sheep for Your Flight Recordings.\n\n## About\nSky Dolly connects to a running Flight Simulator 2020 instance and records various simulation variables, for replay.\n\n![Sky Dolly v0.11.0](https://raw.githubusercontent.com/till213/SkyDolly/main/./img/SkyDolly-v0.11.0.png)\n\nThe connection is made via SimConnect, a standard API introduced with Flight Simulator X to connect with the flight simulator.\n\nAso refer to the [ABOUT.md](https://raw.githubusercontent.com/till213/SkyDolly/main/ABOUT.MD).\n\n## Features\n- Record / Pause / Play\n- Formation flights (multiple aircraft, replay during recording, \"fly with formation\", time offset)\n- Settable recording sample rate: fixed or variable (\"auto\")\n- Adjustable replay speed (\"slow motion\", \"timelapse\"), replay loop\n- Position, velocity and basic flight control simulation variables (ailerons, rudder, flaps, gears, ...) are recorded\n- Plugin architecture with various import/export plugins (CSV, GPX, IGC, KML)\n- Location module with over 100 default locations and import/export functionality\n- Database (SQLite) based persistence (\"logbook\")\n\nWatch the (preview) release trailer on [YouTube](https://www.youtube.com/watch?v=_n4qRtm78_I):\n\n[![Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (Cinematic Teaser Trailer)](https://img.youtube.com/vi/_n4qRtm78_I/0.jpg)](https://www.youtube.com/watch?v=_n4qRtm78_I \"Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (Cinematic Teaser Trailer)\")\n\nFor more videos created with Sky Dolly also refer to [SHOWCASE](https://raw.githubusercontent.com/till213/SkyDolly/main/SHOWCASE.md). New and upcoming features are found in the [CHANGELOG](https://raw.githubusercontent.com/till213/SkyDolly/main/CHANGELOG.md).\n\n## Basic Usage\n\n- Start a flight\n- Click on \"Record\" (key R)\n- You may pause recording (key P)",
-    "ContentSha": "k3UxzAfJzKrhNEkLVnydCGO6kopsef3e1WmnM1VNUCQ=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n\n</div>\n\n[![Pre-Release](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)\n![License: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)\n![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)\n![Supported Compilers](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)\n\n![Unit Tests](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)\n",
+    "ContentSha": "HZcVRfZL54jHsmoElAckXs0xlcbXBCTD2BdPqaBsCRc=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "[![Pré-Version](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)\n![Licence : MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)\n![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)\n![Compilateurs supportés](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)\n\n![Tests unitaires](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)\n\n# Sky Dolly\nSky Dolly - Le mouton noir pour vos enregistrements de vol.\n\n## À propos\nSky Dolly se connecte à une instance en cours de Flight Simulator 2020 et enregistre diverses variables de simulation, pour la lecture.\n\n![Sky Dolly v0.11.0](https://raw.githubusercontent.com/till213/SkyDolly/main/./img/SkyDolly-v0.11.0.png)\n\nLa connexion se fait via SimConnect, une API standard introduite avec Flight Simulator X pour se connecter au simulateur de vol.\n\nVoir aussi le [ABOUT.md](https://raw.githubusercontent.com/till213/SkyDolly/main/ABOUT.MD).\n\n## Fonctionnalités\n- Enregistrer / Pause / Lecture\n- Vols en formation (plusieurs avions, lecture pendant l'enregistrement, \"voler en formation\", décalage temporel)\n- Taux d’échantillonnage d’enregistrement réglable : fixe ou variable (\"auto\")\n- Vitesse de lecture ajustable (\"ralenti\", \"accéléré\"), boucle de lecture\n- Position, vitesse et variables de simulation de contrôle de vol de base (ailerons, gouvernail, volets, trains d’atterrissage, ...) sont enregistrés\n- Architecture de plugin avec divers plugins d’import/export (CSV, GPX, IGC, KML)\n- Module de localisation avec plus de 100 emplacements par défaut et fonction d’import/export\n- Persistance basée sur une base de données (SQLite) (\"carnet de vol\")\n\nRegardez la bande-annonce (preview) sur [YouTube](https://www.youtube.com/watch?v=_n4qRtm78_I) :\n\n[![Sky Dolly - Enregistreur et lecture de vol pour Flight Simulator 2020 (Bande-annonce cinématique)](https://img.youtube.com/vi/_n4qRtm78_I/0.jpg)](https://www.youtube.com/watch?v=_n4qRtm78_I \"Sky Dolly - Enregistreur et lecture de vol pour Flight Simulator 2020 (Bande-annonce cinématique)\")\n\nPour plus de vidéos créées avec Sky Dolly, voir aussi [SHOWCASE](https://raw.githubusercontent.com/till213/SkyDolly/main/SHOWCASE.md). Les nouveautés et fonctionnalités à venir sont listées dans le [CHANGELOG](https://raw.githubusercontent.com/till213/SkyDolly/main/CHANGELOG.md).\n\n## Utilisation de base\n\n- Démarrer un vol\n- Cliquer sur \"Enregistrer\" (touche R)\n- Vous pouvez mettre en pause l’enregistrement (touche P)",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Langue</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n\n</div>\n\n[![Pré-version](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)\n![Licence : MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)\n![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)\n![Compilateurs pris en charge](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)\n\n![Tests unitaires](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "obc53L3k/ROeH3TIBq+E+hdfCrq9wfmVI7GPRYfSipY=",
-        "originContent": "[![Pre-Release](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)",
-        "translatedContent": "[![Pré-Version](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 2,
-        "rowsha": "8RbBoN4EMdA85KMhb5qTXn98744sWZ3lRjRlhMVRrV4=",
-        "originContent": "![License: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)",
-        "translatedContent": "![Licence : MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)"
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 3,
-        "rowsha": "7vHlJi8MQXNIQAPNc4BKhvNYTBjw3DfAoHVlzWyEApM=",
-        "originContent": "![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)",
-        "translatedContent": "![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)"
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
       },
       {
         "row": 4,
-        "rowsha": "3m49JTziqtpZmTdnEqGaAe5UiLRveM6tanJOdF/Hvzk=",
-        "originContent": "![Supported Compilers](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)",
-        "translatedContent": "![Compilateurs supportés](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)"
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Langue</summary>"
       },
       {
         "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
       },
       {
         "row": 6,
-        "rowsha": "fXROMy2+RBd07BjRRdfdFzT/162qOlMf3L/ud15eSLE=",
-        "originContent": "![Unit Tests](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)",
-        "translatedContent": "![Tests unitaires](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)"
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "Ibk9m1AT1y0LSgYso8y1udT/Gliq9L9RxU91eF6V3aU=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=en\">English</a>"
       },
       {
         "row": 8,
-        "rowsha": "0RlExJ+WBClj8KHEXJXMKXjUjmXSBJFi+04of1S0XxM=",
-        "originContent": "# Sky Dolly",
-        "translatedContent": "# Sky Dolly"
+        "rowsha": "twnitQh8ZvJIQ4j0DBu3DVX4FXPRha6f8z/H37DYaKc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 9,
-        "rowsha": "9W0Z0eNBraf0TUc50UePSWRa7z7zLWLNFOFpR9lgIHU=",
-        "originContent": "Sky Dolly - The Black Sheep for Your Flight Recordings.",
-        "translatedContent": "Sky Dolly - Le mouton noir pour vos enregistrements de vol."
+        "rowsha": "5yVTgfN0A7n6I3NZ0Vx74fBZgFEvHVFVRGsIpSggmZU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "Dn/8nujfQcTBdNfCPZf6RqueP984ApgcSgLe0V3OIdU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ja\">日本語</a>"
       },
       {
         "row": 11,
-        "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
-        "originContent": "## About",
-        "translatedContent": "## À propos"
+        "rowsha": "YJ6egTsV7R1hBpeJKR4+y3gksa73nScTIwvZomx0QIs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ko\">한국어</a>"
       },
       {
         "row": 12,
-        "rowsha": "CZoTVQQtzsNPLYcWCZh7M80c+LoEaiJV6M7taCYRTng=",
-        "originContent": "Sky Dolly connects to a running Flight Simulator 2020 instance and records various simulation variables, for replay.",
-        "translatedContent": "Sky Dolly se connecte à une instance en cours de Flight Simulator 2020 et enregistre diverses variables de simulation, pour la lecture."
+        "rowsha": "cQascqUiclQaS7jTUpLNxRpnT1g8iymO/mzASGsax5g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "a2FK4nm3FFGmp8SdZJMbqaHaAlEkcvZo4x7orYj9pFY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=th\">ไทย</a>"
       },
       {
         "row": 14,
-        "rowsha": "8wkO1sDg3qgvm+oqVBf2J2r89PIvy6k9skHlH3zSIK8=",
-        "originContent": "![Sky Dolly v0.11.0](https://raw.githubusercontent.com/till213/SkyDolly/main/./img/SkyDolly-v0.11.0.png)",
-        "translatedContent": "![Sky Dolly v0.11.0](https://raw.githubusercontent.com/till213/SkyDolly/main/./img/SkyDolly-v0.11.0.png)"
+        "rowsha": "glu0e9FD96MmRz4G+AmCyfCGL1RODebdMPnpAW45GKs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=fr\">Français</a>"
       },
       {
         "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "ApdfB1eOgF9qXZyNzNjS/ZVNS0qlXzOymGK9xDZbR2c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=de\">Deutsch</a>"
       },
       {
         "row": 16,
-        "rowsha": "kgj4pfwrAf/ZSaJNPj6Xhgvc9B4KhdN9a5bsZSLustY=",
-        "originContent": "The connection is made via SimConnect, a standard API introduced with Flight Simulator X to connect with the flight simulator.",
-        "translatedContent": "La connexion se fait via SimConnect, une API standard introduite avec Flight Simulator X pour se connecter au simulateur de vol."
+        "rowsha": "+V5pxVlJPkJenMB+Kfix0/3KHGdkWfLa6XhtJAn2f3A=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=es\">Español</a>"
       },
       {
         "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "wm9lJvJBsdGw4HPRquatAZ8bzAuRgHy7rqlVOGpHubE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=it\">Italiano</a>"
       },
       {
         "row": 18,
-        "rowsha": "l20KRwot1qf9HgdxtvbgoFfICYlYxRQ4ChtQpfJLtKw=",
-        "originContent": "Aso refer to the [ABOUT.md](https://raw.githubusercontent.com/till213/SkyDolly/main/ABOUT.MD).",
-        "translatedContent": "Voir aussi le [ABOUT.md](https://raw.githubusercontent.com/till213/SkyDolly/main/ABOUT.MD)."
+        "rowsha": "NFoIWbQmPFzB3uAYPksfBlSDa2MK1E/JBR2oka2OZvk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ru\">Русский</a>"
       },
       {
         "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "MvxuiEMzIxMaxGQ4bgM2IjBiZ+zubZpG72YXXeeVNoA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=pt\">Português</a>"
       },
       {
         "row": 20,
-        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
-        "originContent": "## Features",
-        "translatedContent": "## Fonctionnalités"
+        "rowsha": "Z20ZsEo9hKAoodRfjInbOs+f4+5K3jTC48ryXul6ifQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=nl\">Nederlands</a>"
       },
       {
         "row": 21,
-        "rowsha": "SSSEy4NVIhZES7MSm2dS9zs8+UiDBqR1NyyXLQ+D8+o=",
-        "originContent": "- Record / Pause / Play",
-        "translatedContent": "- Enregistrer / Pause / Lecture"
+        "rowsha": "SWs5gXFt2or3qzCUEOITm01iwJ+Xv146t07qZKW1Bwk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=pl\">Polski</a>"
       },
       {
         "row": 22,
-        "rowsha": "1JoA13jiEmom84/hRieoNnpFM985dZMDOuTuPWN+yhU=",
-        "originContent": "- Formation flights (multiple aircraft, replay during recording, \"fly with formation\", time offset)",
-        "translatedContent": "- Vols en formation (plusieurs avions, lecture pendant l'enregistrement, \"voler en formation\", décalage temporel)"
+        "rowsha": "3RDPj48jJ5t1rgMroeiNkfv3cJO1MfLpQWyNbFmrHEM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ar\">العربية</a>"
       },
       {
         "row": 23,
-        "rowsha": "Bnw8XV+wquL7rJOc3MjBnO+CcDSY8wcIyqEZ97d5nKA=",
-        "originContent": "- Settable recording sample rate: fixed or variable (\"auto\")",
-        "translatedContent": "- Taux d’échantillonnage d’enregistrement réglable : fixe ou variable (\"auto\")"
+        "rowsha": "YFUWP3NcpVtkU44UcHeWm8HRrVlZQLZMaFXJrWfc5jQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=fa\">فارسی</a>"
       },
       {
         "row": 24,
-        "rowsha": "UZ6lT3Nhw4DLsztx/YoRUi2W/5CkGT2EO5ehbNThpSo=",
-        "originContent": "- Adjustable replay speed (\"slow motion\", \"timelapse\"), replay loop",
-        "translatedContent": "- Vitesse de lecture ajustable (\"ralenti\", \"accéléré\"), boucle de lecture"
+        "rowsha": "dT6gDRbfPkQlRazdB72XsEot8e4Wn2NklkhJELbMR9E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=tr\">Türkçe</a>"
       },
       {
         "row": 25,
-        "rowsha": "ECBM5iJBBrXL2qRPIsLjjRrQM3jMQEKpdWUN1k+xLPQ=",
-        "originContent": "- Position, velocity and basic flight control simulation variables (ailerons, rudder, flaps, gears, ...) are recorded",
-        "translatedContent": "- Position, vitesse et variables de simulation de contrôle de vol de base (ailerons, gouvernail, volets, trains d’atterrissage, ...) sont enregistrés"
+        "rowsha": "//OnmICAItPjCxaRp6a/VSfWrkbzk+jV7YAIIK4zrrw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 26,
-        "rowsha": "04dgZDHPAR/Rs0M2LC6UY5NM6wCjebWM92jynw5zMD0=",
-        "originContent": "- Plugin architecture with various import/export plugins (CSV, GPX, IGC, KML)",
-        "translatedContent": "- Architecture de plugin avec divers plugins d’import/export (CSV, GPX, IGC, KML)"
+        "rowsha": "pKa0CQve3yFpN4HFz0T/N1+Zni7V8TLodzca1pvZ0A8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 27,
-        "rowsha": "JMbe4cg2yflHnnIHlc4oPSvh7UDHLkrz/cJUqC/Iykw=",
-        "originContent": "- Location module with over 100 default locations and import/export functionality",
-        "translatedContent": "- Module de localisation avec plus de 100 emplacements par défaut et fonction d’import/export"
+        "rowsha": "IF0ndpmj8wJbb+s/1xAyZwCYlaSUaNkap/zLWRtSVUU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=as\">অসমীয়া</"
       },
       {
         "row": 28,
-        "rowsha": "5ptbGKmCpGuFYFj1pwajqYN7H04qthCjsHACZMvWmd4=",
-        "originContent": "- Database (SQLite) based persistence (\"logbook\")",
-        "translatedContent": "- Persistance basée sur une base de données (SQLite) (\"carnet de vol\")"
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
       },
       {
         "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
       },
       {
         "row": 30,
-        "rowsha": "k26IWsL3hrrTAWyRlf/WPo5+VBc2zcicA72A00QR0CA=",
-        "originContent": "Watch the (preview) release trailer on [YouTube](https://www.youtube.com/watch?v=_n4qRtm78_I):",
-        "translatedContent": "Regardez la bande-annonce (preview) sur [YouTube](https://www.youtube.com/watch?v=_n4qRtm78_I) :"
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
       },
       {
         "row": 31,
@@ -197,9 +197,9 @@
       },
       {
         "row": 32,
-        "rowsha": "wtXmiAt56NA/etp8nnk/5vlJRTD6DpbNPTP3Ty/pKzo=",
-        "originContent": "[![Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (Cinematic Teaser Trailer)](https://img.youtube.com/vi/_n4qRtm78_I/0.jpg)](https://www.youtube.com/watch?v=_n4qRtm78_I \"Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (Cinematic Teaser Trailer)\")",
-        "translatedContent": "[![Sky Dolly - Enregistreur et lecture de vol pour Flight Simulator 2020 (Bande-annonce cinématique)](https://img.youtube.com/vi/_n4qRtm78_I/0.jpg)](https://www.youtube.com/watch?v=_n4qRtm78_I \"Sky Dolly - Enregistreur et lecture de vol pour Flight Simulator 2020 (Bande-annonce cinématique)\")"
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
       },
       {
         "row": 33,
@@ -209,280 +209,280 @@
       },
       {
         "row": 34,
-        "rowsha": "Q09twmPibmi8yf6GTKQx1lnFsw0OeDTePAKyCV0Nqso=",
-        "originContent": "For more videos created with Sky Dolly also refer to [SHOWCASE](https://raw.githubusercontent.com/till213/SkyDolly/main/SHOWCASE.md). New and upcoming features are found in the [CHANGELOG](https://raw.githubusercontent.com/till213/SkyDolly/main/CHANGELOG.md).",
-        "translatedContent": "Pour plus de vidéos créées avec Sky Dolly, voir aussi [SHOWCASE](https://raw.githubusercontent.com/till213/SkyDolly/main/SHOWCASE.md). Les nouveautés et fonctionnalités à venir sont listées dans le [CHANGELOG](https://raw.githubusercontent.com/till213/SkyDolly/main/CHANGELOG.md)."
+        "rowsha": "obc53L3k/ROeH3TIBq+E+hdfCrq9wfmVI7GPRYfSipY=",
+        "originContent": "[![Pre-Release](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)",
+        "translatedContent": "[![Pré-version](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)"
       },
       {
         "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "8RbBoN4EMdA85KMhb5qTXn98744sWZ3lRjRlhMVRrV4=",
+        "originContent": "![License: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)",
+        "translatedContent": "![Licence : MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)"
       },
       {
         "row": 36,
-        "rowsha": "Lh+CO4+XL4trbaDGaAT86mzGQ5FCSAp1i4b5+mSZVOk=",
-        "originContent": "## Basic Usage",
-        "translatedContent": "## Utilisation de base"
+        "rowsha": "7vHlJi8MQXNIQAPNc4BKhvNYTBjw3DfAoHVlzWyEApM=",
+        "originContent": "![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)",
+        "translatedContent": "![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)"
       },
       {
         "row": 37,
+        "rowsha": "3m49JTziqtpZmTdnEqGaAe5UiLRveM6tanJOdF/Hvzk=",
+        "originContent": "![Supported Compilers](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)",
+        "translatedContent": "![Compilateurs pris en charge](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)"
+      },
+      {
+        "row": 38,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 38,
-        "rowsha": "UH0zwOnPtR63oeWtQM0ugWLsuyEdBlVoX7lgaJ8jloM=",
-        "originContent": "- Start a flight",
-        "translatedContent": "- Démarrer un vol"
-      },
-      {
         "row": 39,
-        "rowsha": "/oX5/1m84+lTGwUqa+R9m9Kzf3scCmXtZOhgR3xwCIc=",
-        "originContent": "- Click on \"Record\" (key R)",
-        "translatedContent": "- Cliquer sur \"Enregistrer\" (touche R)"
+        "rowsha": "fXROMy2+RBd07BjRRdfdFzT/162qOlMf3L/ud15eSLE=",
+        "originContent": "![Unit Tests](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)",
+        "translatedContent": "![Tests unitaires](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)"
       },
       {
         "row": 40,
-        "rowsha": "hXFXY7ABvcpNhkbMbwOkY519LAy8clLq3nbM+T/VMj4=",
-        "originContent": "- You may pause recording (key P)",
-        "translatedContent": "- Vous pouvez mettre en pause l’enregistrement (touche P)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "- Stop recording (key R) and click on \"Play\" (spacebar)\n- Adjust the replay speed and seek the play position, also during replay\n- Recorded flights are automatically persisted in the \"logbook\"\n- Select a flight in the logbook and press \"Load\" (or double-click the row) to load the persisted flight\n\n### Formation Recording & Replay\n\n#### Recording\n\n- Switch to the \"Formation\" module (key F2)\n- Click on \"Record\" (key R)\n- Each recorded aircraft is added to the current flight\n- While existing aircraft are replayed during the recording with \"auto\" sample rate you may still change the recording sample rate \n\n#### Position\n\n- The last recorded aircraft becomes the \"user aircraft\" (being followed by the camera in the flight simulator)\n- Select a position relative to the current \"user aircraft\" before recording\n\n#### Replay\n\n- Simply click on \"Play\", \"Pause\" and seek in the timeline, just like with a single aircraft flight\n- Change the \"user aircraft\" (also during replay) to \"jump from cockpit to cockpit\"\n- Take control of the \"user aircraft\" by selecting either \"Take control\" or \"Fly with Formation\" option\n\n#### Managing Formations\n\n- You may delete single aircraft from a flight (\"formation\")\n- There must be at least one aircraft per flight, so the last aircraft cannot be deleted\n- Add a time offset to the selected aircraft (\"multiplayer formation flight synchronisation\")\n- To start a new, single-aircraft flight change back to the \"Logbook\" module (key F1) and click on \"Record\" (key R)\n\nWhy don't you try it with one of the guided [\"Tell Tours\"](https://github.com/till213/Tell-Tours)? :)\n\n## Download\n\nGo to [Releases](https://github.com/till213/SkyDolly/releases) and download the latest release.\n\nLatest (pre-)release: **Sky Dolly 0.19.2**\n",
-    "ContentSha": "teJPCQvhbNhzV6VbZifxsQRniN+JKsY8BP4JbVFsg30=",
+    "Content": "# Sky Dolly\nSky Dolly - The Black Sheep for Your Flight Recordings.\n\n## About\nSky Dolly connects to a running Flight Simulator 2020 instance and records various simulation variables, for replay.\n\n![Sky Dolly v0.11.0](https://raw.githubusercontent.com/till213/SkyDolly/main/./img/SkyDolly-v0.11.0.png)\n\nThe connection is made via SimConnect, a standard API introduced with Flight Simulator X to connect with the flight simulator.\n\nAso refer to the [ABOUT.md](https://raw.githubusercontent.com/till213/SkyDolly/main/ABOUT.md).\n\n## Features\n- Record / Pause / Play\n- Formation flights (multiple aircraft, replay during recording, \"fly with formation\", time offset)\n- Settable recording sample rate: fixed or variable (\"auto\")\n- Adjustable replay speed (\"slow motion\", \"timelapse\"), replay loop\n- Position, velocity and basic flight control simulation variables (ailerons, rudder, flaps, gears, ...) are recorded\n- Plugin architecture with various import/export plugins (CSV, GPX, IGC, KML)\n- Location module with over 100 default locations and import/export functionality\n- Database (SQLite) based persistence (\"logbook\")\n\nWatch the (preview) release trailer on [YouTube](https://www.youtube.com/watch?v=_n4qRtm78_I):\n\n[![Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (Cinematic Teaser Trailer)](https://img.youtube.com/vi/_n4qRtm78_I/0.jpg)](https://www.youtube.com/watch?v=_n4qRtm78_I \"Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (Cinematic Teaser Trailer)\")\n\nFor more videos created with Sky Dolly also refer to [SHOWCASE](https://raw.githubusercontent.com/till213/SkyDolly/main/SHOWCASE.md). New and upcoming features are found in the [CHANGELOG](https://raw.githubusercontent.com/till213/SkyDolly/main/CHANGELOG.md).\n\n## Basic Usage\n\n- Start a flight\n- Click on \"Record\" (key R)\n- You may pause recording (key P)\n- Stop recording (key R) and click on \"Play\" (spacebar)\n- Adjust the replay speed and seek the play position, also during replay\n- Recorded flights are automatically persisted in the \"logbook\"\n- Select a flight in the logbook and press \"Load\" (or double-click the row) to load the persisted flight\n\n### Formation Recording & Replay\n",
+    "ContentSha": "Q6NPWBctdqnOqWLqtpXrJVdkF462eIi/C0ZFFEipaRg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- Arrêtez l'enregistrement (touche R) et cliquez sur \"Lecture\" (barre d'espace)\n- Ajustez la vitesse de relecture et recherchez la position de lecture, même pendant la relecture\n- Les vols enregistrés sont automatiquement sauvegardés dans le \"carnet de vol\"\n- Sélectionnez un vol dans le carnet de vol et appuyez sur \"Charger\" (ou double-cliquez sur la ligne) pour charger le vol sauvegardé\n\n### Enregistrement & Relecture de Formation\n\n#### Enregistrement\n\n- Passez au module \"Formation\" (touche F2)\n- Cliquez sur \"Enregistrer\" (touche R)\n- Chaque avion enregistré est ajouté au vol en cours\n- Pendant que les avions existants sont rejoués durant l'enregistrement avec un taux d'échantillonnage \"auto\", vous pouvez toujours changer ce taux d'enregistrement\n\n#### Position\n\n- Le dernier avion enregistré devient \"l'avion utilisateur\" (suivi par la caméra dans le simulateur de vol)\n- Sélectionnez une position relative à l'\"avion utilisateur\" actuel avant l'enregistrement\n\n#### Relecture\n\n- Cliquez simplement sur \"Lecture\", \"Pause\" et naviguez dans la timeline, comme pour un vol d'un seul avion\n- Changez l'\"avion utilisateur\" (même pendant la relecture) pour \"sauter de cockpit en cockpit\"\n- Prenez le contrôle de \"l'avion utilisateur\" en sélectionnant soit \"Prendre le contrôle\" soit \"Voler avec la Formation\"\n\n#### Gestion des Formations\n\n- Vous pouvez supprimer un seul avion d'un vol (\"formation\")\n- Il doit y avoir au moins un avion par vol, donc le dernier avion ne peut pas être supprimé\n- Ajoutez un décalage temporel à l'avion sélectionné (\"synchronisation de vol en formation multijoueur\")\n- Pour commencer un nouveau vol avec un seul avion, revenez au module \"Carnet de vol\" (touche F1) et cliquez sur \"Enregistrer\" (touche R)\n\nPourquoi ne pas essayer avec une des [\"Tell Tours\"](https://github.com/till213/Tell-Tours) guidées ? :)\n\n## Télécharger\n\nAllez sur [Releases](https://github.com/till213/SkyDolly/releases) et téléchargez la dernière version.\n\nDernière version (pré-)release : **Sky Dolly 0.19.2**\n",
+    "Translation": "# Sky Dolly\nSky Dolly - La brebis galeuse pour vos enregistrements de vol.\n\n## À propos\nSky Dolly se connecte à une instance de Flight Simulator 2020 en cours d’exécution et enregistre diverses variables de simulation, pour la relecture.\n\n![Sky Dolly v0.11.0](https://raw.githubusercontent.com/till213/SkyDolly/main/./img/SkyDolly-v0.11.0.png)\n\nLa connexion s'effectue via SimConnect, une API standard introduite avec Flight Simulator X pour se connecter au simulateur de vol.\n\nConsultez également le fichier [ABOUT.md](https://raw.githubusercontent.com/till213/SkyDolly/main/ABOUT.md).\n\n## Fonctionnalités\n- Enregistrement / Pause / Lecture\n- Vols en formation (plusieurs avions, relecture pendant l'enregistrement, \"voler en formation\", décalage temporel)\n- Taux d'échantillonnage d'enregistrement paramétrable : fixe ou variable (\"auto\")\n- Vitesse de relecture ajustable (\"ralenti\", \"accéléré\"), boucle de relecture\n- Les variables de simulation de position, vitesse et commandes de vol de base (ailerons, gouverne, volets, trains, ...) sont enregistrées\n- Architecture par plugins avec divers plugins d'import/export (CSV, GPX, IGC, KML)\n- Module de localisation avec plus de 100 emplacements par défaut et fonctionnalités d'import/export\n- Persistance basée sur base de données (SQLite) (\"carnet de vol\")\n\nRegardez la bande-annonce (aperçu) de la version sur [YouTube](https://www.youtube.com/watch?v=_n4qRtm78_I):\n\n[![Sky Dolly - Enregistreur de vol et relecture pour Flight Simulator 2020 (Cinematic Teaser Trailer)](https://img.youtube.com/vi/_n4qRtm78_I/0.jpg)](https://www.youtube.com/watch?v=_n4qRtm78_I \"Sky Dolly - Enregistreur de vol et relecture pour Flight Simulator 2020 (Cinematic Teaser Trailer)\")\n\nPour plus de vidéos créées avec Sky Dolly, consultez également [SHOWCASE](https://raw.githubusercontent.com/till213/SkyDolly/main/SHOWCASE.md). Les nouvelles fonctionnalités et celles à venir sont dans le [CHANGELOG](https://raw.githubusercontent.com/till213/SkyDolly/main/CHANGELOG.md).\n\n## Utilisation de base\n\n- Démarrez un vol\n- Cliquez sur \"Enregistrer\" (touche R)\n- Vous pouvez mettre l'enregistrement en pause (touche P)\n- Arrêtez l'enregistrement (touche R) et cliquez sur \"Lecture\" (barre d'espace)\n- Ajustez la vitesse de relecture et recherchez la position de lecture, même pendant la relecture\n- Les vols enregistrés sont automatiquement sauvegardés dans le \"carnet de vol\"\n- Sélectionnez un vol dans le carnet et appuyez sur \"Charger\" (ou double-cliquez sur la ligne) pour charger le vol sauvegardé\n\n### Enregistrement et relecture en formation\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "JKMYmQyybyb2yBo1mMqmZutGbLcrJ5X1/ti9SOjh34Y=",
-        "originContent": "- Stop recording (key R) and click on \"Play\" (spacebar)",
-        "translatedContent": "- Arrêtez l'enregistrement (touche R) et cliquez sur \"Lecture\" (barre d'espace)"
+        "rowsha": "0RlExJ+WBClj8KHEXJXMKXjUjmXSBJFi+04of1S0XxM=",
+        "originContent": "# Sky Dolly",
+        "translatedContent": "# Sky Dolly"
       },
       {
         "row": 2,
-        "rowsha": "UGNyQaSNYdMbh8wWZbq/nDkDbx1xtOKlOlalNEFWhXQ=",
-        "originContent": "- Adjust the replay speed and seek the play position, also during replay",
-        "translatedContent": "- Ajustez la vitesse de relecture et recherchez la position de lecture, même pendant la relecture"
+        "rowsha": "9W0Z0eNBraf0TUc50UePSWRa7z7zLWLNFOFpR9lgIHU=",
+        "originContent": "Sky Dolly - The Black Sheep for Your Flight Recordings.",
+        "translatedContent": "Sky Dolly - La brebis galeuse pour vos enregistrements de vol."
       },
       {
         "row": 3,
-        "rowsha": "0uopa7Pug5I6bHaOrNiWbezI7u0caHHY37FTPS6pzQs=",
-        "originContent": "- Recorded flights are automatically persisted in the \"logbook\"",
-        "translatedContent": "- Les vols enregistrés sont automatiquement sauvegardés dans le \"carnet de vol\""
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 4,
-        "rowsha": "4TI+Ydz4Y5ccp1L+rl+5ZTqiTAts0xxGFYrZWETgJgI=",
-        "originContent": "- Select a flight in the logbook and press \"Load\" (or double-click the row) to load the persisted flight",
-        "translatedContent": "- Sélectionnez un vol dans le carnet de vol et appuyez sur \"Charger\" (ou double-cliquez sur la ligne) pour charger le vol sauvegardé"
+        "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
+        "originContent": "## About",
+        "translatedContent": "## À propos"
       },
       {
         "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "CZoTVQQtzsNPLYcWCZh7M80c+LoEaiJV6M7taCYRTng=",
+        "originContent": "Sky Dolly connects to a running Flight Simulator 2020 instance and records various simulation variables, for replay.",
+        "translatedContent": "Sky Dolly se connecte à une instance de Flight Simulator 2020 en cours d’exécution et enregistre diverses variables de simulation, pour la relecture."
       },
       {
         "row": 6,
-        "rowsha": "BGkA5UbW5cEqzUZcOyeGSH0Va/MA0R/Qke5q7GL315o=",
-        "originContent": "### Formation Recording & Replay",
-        "translatedContent": "### Enregistrement & Relecture de Formation"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "8wkO1sDg3qgvm+oqVBf2J2r89PIvy6k9skHlH3zSIK8=",
+        "originContent": "![Sky Dolly v0.11.0](https://raw.githubusercontent.com/till213/SkyDolly/main/./img/SkyDolly-v0.11.0.png)",
+        "translatedContent": "![Sky Dolly v0.11.0](https://raw.githubusercontent.com/till213/SkyDolly/main/./img/SkyDolly-v0.11.0.png)"
       },
       {
         "row": 8,
-        "rowsha": "/OQ1b33LlrNwWi31blNrUqb93GvlTOwNolsXGuVf2zE=",
-        "originContent": "#### Recording",
-        "translatedContent": "#### Enregistrement"
-      },
-      {
-        "row": 9,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 9,
+        "rowsha": "kgj4pfwrAf/ZSaJNPj6Xhgvc9B4KhdN9a5bsZSLustY=",
+        "originContent": "The connection is made via SimConnect, a standard API introduced with Flight Simulator X to connect with the flight simulator.",
+        "translatedContent": "La connexion s'effectue via SimConnect, une API standard introduite avec Flight Simulator X pour se connecter au simulateur de vol."
+      },
+      {
         "row": 10,
-        "rowsha": "IJw5LzupBUE57a6n8I5hXKS79DFG3iSdYhc+gjOgjZc=",
-        "originContent": "- Switch to the \"Formation\" module (key F2)",
-        "translatedContent": "- Passez au module \"Formation\" (touche F2)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 11,
+        "rowsha": "GHF97XJMbVcfpnv+Cr5jvyPXCyCCFIxB4Y4axT7L7Zk=",
+        "originContent": "Aso refer to the [ABOUT.md](https://raw.githubusercontent.com/till213/SkyDolly/main/ABOUT.md).",
+        "translatedContent": "Consultez également le fichier [ABOUT.md](https://raw.githubusercontent.com/till213/SkyDolly/main/ABOUT.md)."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Fonctionnalités"
+      },
+      {
+        "row": 14,
+        "rowsha": "SSSEy4NVIhZES7MSm2dS9zs8+UiDBqR1NyyXLQ+D8+o=",
+        "originContent": "- Record / Pause / Play",
+        "translatedContent": "- Enregistrement / Pause / Lecture"
+      },
+      {
+        "row": 15,
+        "rowsha": "1JoA13jiEmom84/hRieoNnpFM985dZMDOuTuPWN+yhU=",
+        "originContent": "- Formation flights (multiple aircraft, replay during recording, \"fly with formation\", time offset)",
+        "translatedContent": "- Vols en formation (plusieurs avions, relecture pendant l'enregistrement, \"voler en formation\", décalage temporel)"
+      },
+      {
+        "row": 16,
+        "rowsha": "Bnw8XV+wquL7rJOc3MjBnO+CcDSY8wcIyqEZ97d5nKA=",
+        "originContent": "- Settable recording sample rate: fixed or variable (\"auto\")",
+        "translatedContent": "- Taux d'échantillonnage d'enregistrement paramétrable : fixe ou variable (\"auto\")"
+      },
+      {
+        "row": 17,
+        "rowsha": "UZ6lT3Nhw4DLsztx/YoRUi2W/5CkGT2EO5ehbNThpSo=",
+        "originContent": "- Adjustable replay speed (\"slow motion\", \"timelapse\"), replay loop",
+        "translatedContent": "- Vitesse de relecture ajustable (\"ralenti\", \"accéléré\"), boucle de relecture"
+      },
+      {
+        "row": 18,
+        "rowsha": "ECBM5iJBBrXL2qRPIsLjjRrQM3jMQEKpdWUN1k+xLPQ=",
+        "originContent": "- Position, velocity and basic flight control simulation variables (ailerons, rudder, flaps, gears, ...) are recorded",
+        "translatedContent": "- Les variables de simulation de position, vitesse et commandes de vol de base (ailerons, gouverne, volets, trains, ...) sont enregistrées"
+      },
+      {
+        "row": 19,
+        "rowsha": "04dgZDHPAR/Rs0M2LC6UY5NM6wCjebWM92jynw5zMD0=",
+        "originContent": "- Plugin architecture with various import/export plugins (CSV, GPX, IGC, KML)",
+        "translatedContent": "- Architecture par plugins avec divers plugins d'import/export (CSV, GPX, IGC, KML)"
+      },
+      {
+        "row": 20,
+        "rowsha": "JMbe4cg2yflHnnIHlc4oPSvh7UDHLkrz/cJUqC/Iykw=",
+        "originContent": "- Location module with over 100 default locations and import/export functionality",
+        "translatedContent": "- Module de localisation avec plus de 100 emplacements par défaut et fonctionnalités d'import/export"
+      },
+      {
+        "row": 21,
+        "rowsha": "5ptbGKmCpGuFYFj1pwajqYN7H04qthCjsHACZMvWmd4=",
+        "originContent": "- Database (SQLite) based persistence (\"logbook\")",
+        "translatedContent": "- Persistance basée sur base de données (SQLite) (\"carnet de vol\")"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "k26IWsL3hrrTAWyRlf/WPo5+VBc2zcicA72A00QR0CA=",
+        "originContent": "Watch the (preview) release trailer on [YouTube](https://www.youtube.com/watch?v=_n4qRtm78_I):",
+        "translatedContent": "Regardez la bande-annonce (aperçu) de la version sur [YouTube](https://www.youtube.com/watch?v=_n4qRtm78_I):"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "wtXmiAt56NA/etp8nnk/5vlJRTD6DpbNPTP3Ty/pKzo=",
+        "originContent": "[![Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (Cinematic Teaser Trailer)](https://img.youtube.com/vi/_n4qRtm78_I/0.jpg)](https://www.youtube.com/watch?v=_n4qRtm78_I \"Sky Dolly - Flight Recorder & Replay for Flight Simulator 2020 (Cinematic Teaser Trailer)\")",
+        "translatedContent": "[![Sky Dolly - Enregistreur de vol et relecture pour Flight Simulator 2020 (Cinematic Teaser Trailer)](https://img.youtube.com/vi/_n4qRtm78_I/0.jpg)](https://www.youtube.com/watch?v=_n4qRtm78_I \"Sky Dolly - Enregistreur de vol et relecture pour Flight Simulator 2020 (Cinematic Teaser Trailer)\")"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Q09twmPibmi8yf6GTKQx1lnFsw0OeDTePAKyCV0Nqso=",
+        "originContent": "For more videos created with Sky Dolly also refer to [SHOWCASE](https://raw.githubusercontent.com/till213/SkyDolly/main/SHOWCASE.md). New and upcoming features are found in the [CHANGELOG](https://raw.githubusercontent.com/till213/SkyDolly/main/CHANGELOG.md).",
+        "translatedContent": "Pour plus de vidéos créées avec Sky Dolly, consultez également [SHOWCASE](https://raw.githubusercontent.com/till213/SkyDolly/main/SHOWCASE.md). Les nouvelles fonctionnalités et celles à venir sont dans le [CHANGELOG](https://raw.githubusercontent.com/till213/SkyDolly/main/CHANGELOG.md)."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "Lh+CO4+XL4trbaDGaAT86mzGQ5FCSAp1i4b5+mSZVOk=",
+        "originContent": "## Basic Usage",
+        "translatedContent": "## Utilisation de base"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "UH0zwOnPtR63oeWtQM0ugWLsuyEdBlVoX7lgaJ8jloM=",
+        "originContent": "- Start a flight",
+        "translatedContent": "- Démarrez un vol"
+      },
+      {
+        "row": 32,
         "rowsha": "/oX5/1m84+lTGwUqa+R9m9Kzf3scCmXtZOhgR3xwCIc=",
         "originContent": "- Click on \"Record\" (key R)",
         "translatedContent": "- Cliquez sur \"Enregistrer\" (touche R)"
       },
       {
-        "row": 12,
-        "rowsha": "RgoEXURvwFm2PQeW1cJh1cfV7yVIWrELm5s+ua2tCDs=",
-        "originContent": "- Each recorded aircraft is added to the current flight",
-        "translatedContent": "- Chaque avion enregistré est ajouté au vol en cours"
-      },
-      {
-        "row": 13,
-        "rowsha": "eWC0E/Lm6pxloiOg1mdToQrvx6dsPrjhfNqRJhZyT9s=",
-        "originContent": "- While existing aircraft are replayed during the recording with \"auto\" sample rate you may still change the recording sample rate ",
-        "translatedContent": "- Pendant que les avions existants sont rejoués durant l'enregistrement avec un taux d'échantillonnage \"auto\", vous pouvez toujours changer ce taux d'enregistrement"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "3B5diioFHcJxUjrnVF5pfqKEqIpjJL1KqMLa3BZ+GdQ=",
-        "originContent": "#### Position",
-        "translatedContent": "#### Position"
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "0a9RsKj0RrKoLz+Q8Bq8iJLy8fbFqrI0srokLmvI2G8=",
-        "originContent": "- The last recorded aircraft becomes the \"user aircraft\" (being followed by the camera in the flight simulator)",
-        "translatedContent": "- Le dernier avion enregistré devient \"l'avion utilisateur\" (suivi par la caméra dans le simulateur de vol)"
-      },
-      {
-        "row": 18,
-        "rowsha": "dzAA992G7pukbFjTnT2C2L07vGkP4vjZZzDPBnSNDss=",
-        "originContent": "- Select a position relative to the current \"user aircraft\" before recording",
-        "translatedContent": "- Sélectionnez une position relative à l'\"avion utilisateur\" actuel avant l'enregistrement"
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 20,
-        "rowsha": "NmLx3sM/I5OzhBU9qkVrkoohTxnzguaWUVMulaIGeWY=",
-        "originContent": "#### Replay",
-        "translatedContent": "#### Relecture"
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "gymSKY2HyYyy770zk9IIbbK3c+dCR2ocx2x1urh9YyU=",
-        "originContent": "- Simply click on \"Play\", \"Pause\" and seek in the timeline, just like with a single aircraft flight",
-        "translatedContent": "- Cliquez simplement sur \"Lecture\", \"Pause\" et naviguez dans la timeline, comme pour un vol d'un seul avion"
-      },
-      {
-        "row": 23,
-        "rowsha": "HWo8hy6ec6OnJMidMbEz9NTa55I9h482I37ApSEsgTQ=",
-        "originContent": "- Change the \"user aircraft\" (also during replay) to \"jump from cockpit to cockpit\"",
-        "translatedContent": "- Changez l'\"avion utilisateur\" (même pendant la relecture) pour \"sauter de cockpit en cockpit\""
-      },
-      {
-        "row": 24,
-        "rowsha": "sWyPUw1wpxRE/McKoRyDQUqTeg8ydOanT6qBqgIzwvk=",
-        "originContent": "- Take control of the \"user aircraft\" by selecting either \"Take control\" or \"Fly with Formation\" option",
-        "translatedContent": "- Prenez le contrôle de \"l'avion utilisateur\" en sélectionnant soit \"Prendre le contrôle\" soit \"Voler avec la Formation\""
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "QiuYyAm+5MXjzUkyaroKrtBKUjOHnOq6QdZ1kBt8p9o=",
-        "originContent": "#### Managing Formations",
-        "translatedContent": "#### Gestion des Formations"
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "OA3GwHFg+WQTzfbuY7az3pGaumS9qQzV0mwWb6pla0I=",
-        "originContent": "- You may delete single aircraft from a flight (\"formation\")",
-        "translatedContent": "- Vous pouvez supprimer un seul avion d'un vol (\"formation\")"
-      },
-      {
-        "row": 29,
-        "rowsha": "gnv25TrJb702mZpUdpF4Z7HaqRryLLTmSUYYCLANsdI=",
-        "originContent": "- There must be at least one aircraft per flight, so the last aircraft cannot be deleted",
-        "translatedContent": "- Il doit y avoir au moins un avion par vol, donc le dernier avion ne peut pas être supprimé"
-      },
-      {
-        "row": 30,
-        "rowsha": "GDDEknbNC37bU4P6H3QAvFXX6sNKGNu1guu5EYq9mp0=",
-        "originContent": "- Add a time offset to the selected aircraft (\"multiplayer formation flight synchronisation\")",
-        "translatedContent": "- Ajoutez un décalage temporel à l'avion sélectionné (\"synchronisation de vol en formation multijoueur\")"
-      },
-      {
-        "row": 31,
-        "rowsha": "fBei5ipchdEq8gwSNoe1nrlc6K9XkN1DNb58npudbkE=",
-        "originContent": "- To start a new, single-aircraft flight change back to the \"Logbook\" module (key F1) and click on \"Record\" (key R)",
-        "translatedContent": "- Pour commencer un nouveau vol avec un seul avion, revenez au module \"Carnet de vol\" (touche F1) et cliquez sur \"Enregistrer\" (touche R)"
-      },
-      {
-        "row": 32,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
         "row": 33,
-        "rowsha": "o2f+nDmErTNBObYN2s8W+XAIYcYMVXFGjYvgHeTaMKI=",
-        "originContent": "Why don't you try it with one of the guided [\"Tell Tours\"](https://github.com/till213/Tell-Tours)? :)",
-        "translatedContent": "Pourquoi ne pas essayer avec une des [\"Tell Tours\"](https://github.com/till213/Tell-Tours) guidées ? :)"
+        "rowsha": "hXFXY7ABvcpNhkbMbwOkY519LAy8clLq3nbM+T/VMj4=",
+        "originContent": "- You may pause recording (key P)",
+        "translatedContent": "- Vous pouvez mettre l'enregistrement en pause (touche P)"
       },
       {
         "row": 34,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "JKMYmQyybyb2yBo1mMqmZutGbLcrJ5X1/ti9SOjh34Y=",
+        "originContent": "- Stop recording (key R) and click on \"Play\" (spacebar)",
+        "translatedContent": "- Arrêtez l'enregistrement (touche R) et cliquez sur \"Lecture\" (barre d'espace)"
       },
       {
         "row": 35,
-        "rowsha": "QthUtrLFJhAm9mK+lb9STCileImPtOmEdm/neA89axg=",
-        "originContent": "## Download",
-        "translatedContent": "## Télécharger"
+        "rowsha": "UGNyQaSNYdMbh8wWZbq/nDkDbx1xtOKlOlalNEFWhXQ=",
+        "originContent": "- Adjust the replay speed and seek the play position, also during replay",
+        "translatedContent": "- Ajustez la vitesse de relecture et recherchez la position de lecture, même pendant la relecture"
       },
       {
         "row": 36,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "0uopa7Pug5I6bHaOrNiWbezI7u0caHHY37FTPS6pzQs=",
+        "originContent": "- Recorded flights are automatically persisted in the \"logbook\"",
+        "translatedContent": "- Les vols enregistrés sont automatiquement sauvegardés dans le \"carnet de vol\""
       },
       {
         "row": 37,
-        "rowsha": "bdb9svpPoVUeVA9FdBR01sgiT83WJDvS3pyEJz8yMMs=",
-        "originContent": "Go to [Releases](https://github.com/till213/SkyDolly/releases) and download the latest release.",
-        "translatedContent": "Allez sur [Releases](https://github.com/till213/SkyDolly/releases) et téléchargez la dernière version."
+        "rowsha": "4TI+Ydz4Y5ccp1L+rl+5ZTqiTAts0xxGFYrZWETgJgI=",
+        "originContent": "- Select a flight in the logbook and press \"Load\" (or double-click the row) to load the persisted flight",
+        "translatedContent": "- Sélectionnez un vol dans le carnet et appuyez sur \"Charger\" (ou double-cliquez sur la ligne) pour charger le vol sauvegardé"
       },
       {
         "row": 38,
@@ -492,9 +492,9 @@
       },
       {
         "row": 39,
-        "rowsha": "+vYNb4NmUF8W/zosgZl1Mz0eV1DYD+It9Sf8u1oDAyM=",
-        "originContent": "Latest (pre-)release: **Sky Dolly 0.19.2**",
-        "translatedContent": "Dernière version (pré-)release : **Sky Dolly 0.19.2**"
+        "rowsha": "BGkA5UbW5cEqzUZcOyeGSH0Va/MA0R/Qke5q7GL315o=",
+        "originContent": "### Formation Recording & Replay",
+        "translatedContent": "### Enregistrement et relecture en formation"
       },
       {
         "row": 40,
@@ -507,19 +507,19 @@
   },
   {
     "Id": 3,
-    "Content": "Compute and compare your checksum against the [published SHA-256 checksums](https://raw.githubusercontent.com/till213/SkyDolly/main/SHASUM256.md), to verify the integrity of your downloaded copy.\n\n## Build\n\nRefer to the [BUILD](https://raw.githubusercontent.com/till213/SkyDolly/main/BUILD.md) documentation.\n\n## Related Projects\n\n- https://github.com/nguyenquyhy/Flight-Recorder - A .Net based flight recording & replay application\n- https://github.com/saltysimulations/saltyreplay/ - A recording & replay with a web user interface\n- https://github.com/SAHorowitz/MSFS2020-PilotPathRecorder - Records the flight and generates Google Earth (KML format) \"replays\"\n- https://github.com/Elephant42/FS_Tool - A simple tool that allows to set the aircraft location and simulation rate\n- https://github.com/pyviator/msfs-geoshot - Takes screenshots and automatically \"geotags\" them\n- https://github.com/ijl20/msfs_logger_replay - IGC logger and replay (for FSX)\n- https://joinfs.net/ - Allows to synchronise multiplayer flights across different flight simulators (MSFS, Prepar3D/FSX, XPlane). Also provides a flight recorder with formation flight recording (\"overdub\").\n- https://github.com/paulalexandrow/a32nx-webremote - WebRemote for FlyByWire's A32NX: control cockpit functionality of the FBW A320, using FSUIPC7\n- https://flightloganalyzer.com/ - FlightLog Analyer analyses the MSFS logbook and has a CSV export readable by Sky Dolly\n- https://github.com/BojoteX/FSAutoSave/ - FSAutoSave automatically (or upon request) stores flight plans\n- https://github.com/mracko/MSFS-Landing-Inspector - Analyses your landing performance\n- [Points of Interest (Google Maps)](https://www.google.com/maps/d/viewer?mid=1KUg5jwyT_9k2A9n5IZ99UChlhfVUfO5S&ll=-3.81666561775622e-14%2C-23.028915134521867&z=1) - Points of Interest, Airports and 3D cities in Microsoft Flight Simulator.\n\n## Other Useful Resources\n\n- https://obsproject.com/ - Screen capture / broadcast application\n- https://sqlitebrowser.org/ - Browse the Sky Dolly logbook (*.sdlog) database files, execute your own SQL queries\n",
-    "ContentSha": "4CVXDua/me2nVlE+uiBW8MyHyL9gExYdhgrkHWzYYAY=",
+    "Content": "#### Recording\n\n- Switch to the \"Formation\" module (key F2)\n- Click on \"Record\" (key R)\n- Each recorded aircraft is added to the current flight\n- While existing aircraft are replayed during the recording with \"auto\" sample rate you may still change the recording sample rate \n\n#### Position\n\n- The last recorded aircraft becomes the \"user aircraft\" (being followed by the camera in the flight simulator)\n- Select a position relative to the current \"user aircraft\" before recording\n\n#### Replay\n\n- Simply click on \"Play\", \"Pause\" and seek in the timeline, just like with a single aircraft flight\n- Change the \"user aircraft\" (also during replay) to \"jump from cockpit to cockpit\"\n- Take control of the \"user aircraft\" by selecting either \"Take control\" or \"Fly with Formation\" option\n\n#### Managing Formations\n\n- You may delete single aircraft from a flight (\"formation\")\n- There must be at least one aircraft per flight, so the last aircraft cannot be deleted\n- Add a time offset to the selected aircraft (\"multiplayer formation flight synchronisation\")\n- To start a new, single-aircraft flight change back to the \"Logbook\" module (key F1) and click on \"Record\" (key R)\n\nWhy don't you try it with one of the guided [\"Tell Tours\"](https://github.com/till213/Tell-Tours)? :)\n\n## Download\n\nGo to [Releases](https://github.com/till213/SkyDolly/releases) and download the latest release.\n\nLatest (pre-)release: **Sky Dolly 0.19.2**\n\nCompute and compare your checksum against the [published SHA-256 checksums](https://raw.githubusercontent.com/till213/SkyDolly/main/SHASUM256.md), to verify the integrity of your downloaded copy.\n\n## Build\n\nRefer to the [BUILD](https://raw.githubusercontent.com/till213/SkyDolly/main/BUILD.md) documentation.\n\n## Related Projects",
+    "ContentSha": "JXL12k9RojHBWIpPcz+gxz6/NEBH8gh7vhtnJu+VYOE=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "Calculez et comparez votre somme de contrôle avec les [sommes de contrôle SHA-256 publiées](https://raw.githubusercontent.com/till213/SkyDolly/main/SHASUM256.md), pour vérifier l'intégrité de votre copie téléchargée.\n\n## Compilation\n\nRéférez-vous à la documentation [BUILD](https://raw.githubusercontent.com/till213/SkyDolly/main/BUILD.md).\n\n## Projets Associés\n\n- https://github.com/nguyenquyhy/Flight-Recorder - Une application d'enregistrement et de relecture de vol basée sur .Net\n- https://github.com/saltysimulations/saltyreplay/ - Enregistrement et relecture avec une interface utilisateur web\n- https://github.com/SAHorowitz/MSFS2020-PilotPathRecorder - Enregistre le vol et génère des \"relectures\" Google Earth (format KML)\n- https://github.com/Elephant42/FS_Tool - Un outil simple permettant de définir la position de l'avion et le taux de simulation\n- https://github.com/pyviator/msfs-geoshot - Prend des captures d'écran et les \"géolocalise\" automatiquement\n- https://github.com/ijl20/msfs_logger_replay - Enregistreur IGC et relecture (pour FSX)\n- https://joinfs.net/ - Permet de synchroniser des vols multijoueurs entre différents simulateurs de vol (MSFS, Prepar3D/FSX, XPlane). Fournit également un enregistreur de vol avec enregistrement en formation (\"overdub\").\n- https://github.com/paulalexandrow/a32nx-webremote - WebRemote pour FlyByWire's A32NX : contrôle des fonctionnalités du cockpit du FBW A320, utilisant FSUIPC7\n- https://flightloganalyzer.com/ - FlightLog Analyzer analyse le carnet de vol MSFS et propose une exportation CSV lisible par Sky Dolly\n- https://github.com/BojoteX/FSAutoSave/ - FSAutoSave enregistre automatiquement (ou sur demande) les plans de vol\n- https://github.com/mracko/MSFS-Landing-Inspector - Analyse votre performance d'atterrissage\n- [Points d'intérêt (Google Maps)](https://www.google.com/maps/d/viewer?mid=1KUg5jwyT_9k2A9n5IZ99UChlhfVUfO5S&ll=-3.81666561775622e-14%2C-23.028915134521867&z=1) - Points d'intérêt, aéroports et villes 3D dans Microsoft Flight Simulator.\n\n## Autres Ressources Utiles\n\n- https://obsproject.com/ - Application de capture d'écran / diffusion\n- https://sqlitebrowser.org/ - Parcourez les fichiers de base de données du carnet de vol Sky Dolly (*.sdlog), exécutez vos propres requêtes SQL\n",
+    "Translation": "#### Enregistrement\n\n- Passez au module \"Formation\" (touche F2)\n- Cliquez sur \"Enregistrer\" (touche R)\n- Chaque avion enregistré est ajouté au vol en cours\n- Bien que les avions existants soient rejoués pendant l’enregistrement avec le taux d’échantillonnage \"auto\", vous pouvez toujours modifier le taux d’échantillonnage de l’enregistrement\n\n#### Position\n\n- Le dernier avion enregistré devient \"l’avion utilisateur\" (suivi par la caméra dans le simulateur de vol)\n- Sélectionnez une position relative à l’actuel \"avion utilisateur\" avant d’enregistrer\n\n#### Relecture\n\n- Il suffit de cliquer sur \"Lecture\", \"Pause\" et de naviguer dans la chronologie, comme pour un vol d’avion unique\n- Changez \"l’avion utilisateur\" (également pendant la relecture) pour \"sauter de cockpit en cockpit\"\n- Prenez le contrôle de \"l’avion utilisateur\" en sélectionnant \"Prendre le contrôle\" ou l’option \"Voler en formation\"\n\n#### Gestion des formations\n\n- Vous pouvez supprimer des avions individuels d’un vol (\"formation\")\n- Il doit y avoir au moins un avion par vol, donc le dernier avion ne peut pas être supprimé\n- Ajoutez un décalage temporel à l’avion sélectionné (\"synchronisation du vol en formation multijoueur\")\n- Pour démarrer un nouveau vol avec un seul avion, revenez au module \"Carnet de vol\" (touche F1) et cliquez sur \"Enregistrer\" (touche R)\n\nPourquoi ne pas essayer avec l’un des [\"Tell Tours\"](https://github.com/till213/Tell-Tours) guidés ? :)\n\n## Téléchargement\n\nAllez sur [Releases](https://github.com/till213/SkyDolly/releases) et téléchargez la dernière version.\n\nDernière (pré-)version : **Sky Dolly 0.19.2**\n\nCalculez et comparez votre somme de contrôle avec les [SHA-256 publiés](https://raw.githubusercontent.com/till213/SkyDolly/main/SHASUM256.md), pour vérifier l’intégrité de votre copie téléchargée.\n\n## Compilation\n\nReportez-vous à la documentation [BUILD](https://raw.githubusercontent.com/till213/SkyDolly/main/BUILD.md).\n\n## Projets associés",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "a3KuaUN2wG8xldBeAZsl4+UXWi87VnO8cNZ5zl6fdyQ=",
-        "originContent": "Compute and compare your checksum against the [published SHA-256 checksums](https://raw.githubusercontent.com/till213/SkyDolly/main/SHASUM256.md), to verify the integrity of your downloaded copy.",
-        "translatedContent": "Calculez et comparez votre somme de contrôle avec les [sommes de contrôle SHA-256 publiées](https://raw.githubusercontent.com/till213/SkyDolly/main/SHASUM256.md), pour vérifier l'intégrité de votre copie téléchargée."
+        "rowsha": "/OQ1b33LlrNwWi31blNrUqb93GvlTOwNolsXGuVf2zE=",
+        "originContent": "#### Recording",
+        "translatedContent": "#### Enregistrement"
       },
       {
         "row": 2,
@@ -529,144 +529,355 @@
       },
       {
         "row": 3,
+        "rowsha": "IJw5LzupBUE57a6n8I5hXKS79DFG3iSdYhc+gjOgjZc=",
+        "originContent": "- Switch to the \"Formation\" module (key F2)",
+        "translatedContent": "- Passez au module \"Formation\" (touche F2)"
+      },
+      {
+        "row": 4,
+        "rowsha": "/oX5/1m84+lTGwUqa+R9m9Kzf3scCmXtZOhgR3xwCIc=",
+        "originContent": "- Click on \"Record\" (key R)",
+        "translatedContent": "- Cliquez sur \"Enregistrer\" (touche R)"
+      },
+      {
+        "row": 5,
+        "rowsha": "RgoEXURvwFm2PQeW1cJh1cfV7yVIWrELm5s+ua2tCDs=",
+        "originContent": "- Each recorded aircraft is added to the current flight",
+        "translatedContent": "- Chaque avion enregistré est ajouté au vol en cours"
+      },
+      {
+        "row": 6,
+        "rowsha": "eWC0E/Lm6pxloiOg1mdToQrvx6dsPrjhfNqRJhZyT9s=",
+        "originContent": "- While existing aircraft are replayed during the recording with \"auto\" sample rate you may still change the recording sample rate ",
+        "translatedContent": "- Bien que les avions existants soient rejoués pendant l’enregistrement avec le taux d’échantillonnage \"auto\", vous pouvez toujours modifier le taux d’échantillonnage de l’enregistrement"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "3B5diioFHcJxUjrnVF5pfqKEqIpjJL1KqMLa3BZ+GdQ=",
+        "originContent": "#### Position",
+        "translatedContent": "#### Position"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "0a9RsKj0RrKoLz+Q8Bq8iJLy8fbFqrI0srokLmvI2G8=",
+        "originContent": "- The last recorded aircraft becomes the \"user aircraft\" (being followed by the camera in the flight simulator)",
+        "translatedContent": "- Le dernier avion enregistré devient \"l’avion utilisateur\" (suivi par la caméra dans le simulateur de vol)"
+      },
+      {
+        "row": 11,
+        "rowsha": "dzAA992G7pukbFjTnT2C2L07vGkP4vjZZzDPBnSNDss=",
+        "originContent": "- Select a position relative to the current \"user aircraft\" before recording",
+        "translatedContent": "- Sélectionnez une position relative à l’actuel \"avion utilisateur\" avant d’enregistrer"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "NmLx3sM/I5OzhBU9qkVrkoohTxnzguaWUVMulaIGeWY=",
+        "originContent": "#### Replay",
+        "translatedContent": "#### Relecture"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "gymSKY2HyYyy770zk9IIbbK3c+dCR2ocx2x1urh9YyU=",
+        "originContent": "- Simply click on \"Play\", \"Pause\" and seek in the timeline, just like with a single aircraft flight",
+        "translatedContent": "- Il suffit de cliquer sur \"Lecture\", \"Pause\" et de naviguer dans la chronologie, comme pour un vol d’avion unique"
+      },
+      {
+        "row": 16,
+        "rowsha": "HWo8hy6ec6OnJMidMbEz9NTa55I9h482I37ApSEsgTQ=",
+        "originContent": "- Change the \"user aircraft\" (also during replay) to \"jump from cockpit to cockpit\"",
+        "translatedContent": "- Changez \"l’avion utilisateur\" (également pendant la relecture) pour \"sauter de cockpit en cockpit\""
+      },
+      {
+        "row": 17,
+        "rowsha": "sWyPUw1wpxRE/McKoRyDQUqTeg8ydOanT6qBqgIzwvk=",
+        "originContent": "- Take control of the \"user aircraft\" by selecting either \"Take control\" or \"Fly with Formation\" option",
+        "translatedContent": "- Prenez le contrôle de \"l’avion utilisateur\" en sélectionnant \"Prendre le contrôle\" ou l’option \"Voler en formation\""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "QiuYyAm+5MXjzUkyaroKrtBKUjOHnOq6QdZ1kBt8p9o=",
+        "originContent": "#### Managing Formations",
+        "translatedContent": "#### Gestion des formations"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "OA3GwHFg+WQTzfbuY7az3pGaumS9qQzV0mwWb6pla0I=",
+        "originContent": "- You may delete single aircraft from a flight (\"formation\")",
+        "translatedContent": "- Vous pouvez supprimer des avions individuels d’un vol (\"formation\")"
+      },
+      {
+        "row": 22,
+        "rowsha": "gnv25TrJb702mZpUdpF4Z7HaqRryLLTmSUYYCLANsdI=",
+        "originContent": "- There must be at least one aircraft per flight, so the last aircraft cannot be deleted",
+        "translatedContent": "- Il doit y avoir au moins un avion par vol, donc le dernier avion ne peut pas être supprimé"
+      },
+      {
+        "row": 23,
+        "rowsha": "GDDEknbNC37bU4P6H3QAvFXX6sNKGNu1guu5EYq9mp0=",
+        "originContent": "- Add a time offset to the selected aircraft (\"multiplayer formation flight synchronisation\")",
+        "translatedContent": "- Ajoutez un décalage temporel à l’avion sélectionné (\"synchronisation du vol en formation multijoueur\")"
+      },
+      {
+        "row": 24,
+        "rowsha": "fBei5ipchdEq8gwSNoe1nrlc6K9XkN1DNb58npudbkE=",
+        "originContent": "- To start a new, single-aircraft flight change back to the \"Logbook\" module (key F1) and click on \"Record\" (key R)",
+        "translatedContent": "- Pour démarrer un nouveau vol avec un seul avion, revenez au module \"Carnet de vol\" (touche F1) et cliquez sur \"Enregistrer\" (touche R)"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "o2f+nDmErTNBObYN2s8W+XAIYcYMVXFGjYvgHeTaMKI=",
+        "originContent": "Why don't you try it with one of the guided [\"Tell Tours\"](https://github.com/till213/Tell-Tours)? :)",
+        "translatedContent": "Pourquoi ne pas essayer avec l’un des [\"Tell Tours\"](https://github.com/till213/Tell-Tours) guidés ? :)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "QthUtrLFJhAm9mK+lb9STCileImPtOmEdm/neA89axg=",
+        "originContent": "## Download",
+        "translatedContent": "## Téléchargement"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "bdb9svpPoVUeVA9FdBR01sgiT83WJDvS3pyEJz8yMMs=",
+        "originContent": "Go to [Releases](https://github.com/till213/SkyDolly/releases) and download the latest release.",
+        "translatedContent": "Allez sur [Releases](https://github.com/till213/SkyDolly/releases) et téléchargez la dernière version."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "+vYNb4NmUF8W/zosgZl1Mz0eV1DYD+It9Sf8u1oDAyM=",
+        "originContent": "Latest (pre-)release: **Sky Dolly 0.19.2**",
+        "translatedContent": "Dernière (pré-)version : **Sky Dolly 0.19.2**"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "a3KuaUN2wG8xldBeAZsl4+UXWi87VnO8cNZ5zl6fdyQ=",
+        "originContent": "Compute and compare your checksum against the [published SHA-256 checksums](https://raw.githubusercontent.com/till213/SkyDolly/main/SHASUM256.md), to verify the integrity of your downloaded copy.",
+        "translatedContent": "Calculez et comparez votre somme de contrôle avec les [SHA-256 publiés](https://raw.githubusercontent.com/till213/SkyDolly/main/SHASUM256.md), pour vérifier l’intégrité de votre copie téléchargée."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
         "rowsha": "sJ/yPrjOl4CqqmNX52jV/O9t1ocQUKu6R6aB9zUAdQM=",
         "originContent": "## Build",
         "translatedContent": "## Compilation"
       },
       {
-        "row": 4,
+        "row": 37,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 5,
+        "row": 38,
         "rowsha": "iQYBMpg6Sapu6GBd36l0iyBt9iMovJvjk24NEuqsaNo=",
         "originContent": "Refer to the [BUILD](https://raw.githubusercontent.com/till213/SkyDolly/main/BUILD.md) documentation.",
-        "translatedContent": "Référez-vous à la documentation [BUILD](https://raw.githubusercontent.com/till213/SkyDolly/main/BUILD.md)."
+        "translatedContent": "Reportez-vous à la documentation [BUILD](https://raw.githubusercontent.com/till213/SkyDolly/main/BUILD.md)."
       },
       {
-        "row": 6,
+        "row": 39,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 7,
+        "row": 40,
         "rowsha": "029pqroXXjHSLawpWTocF2CPk5dLz29+pGq/paa0amA=",
         "originContent": "## Related Projects",
-        "translatedContent": "## Projets Associés"
-      },
+        "translatedContent": "## Projets associés"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "\n- https://github.com/nguyenquyhy/Flight-Recorder - A .Net based flight recording & replay application\n- https://github.com/saltysimulations/saltyreplay/ - A recording & replay with a web user interface\n- https://github.com/SAHorowitz/MSFS2020-PilotPathRecorder - Records the flight and generates Google Earth (KML format) \"replays\"\n- https://github.com/Elephant42/FS_Tool - A simple tool that allows to set the aircraft location and simulation rate\n- https://github.com/pyviator/msfs-geoshot - Takes screenshots and automatically \"geotags\" them\n- https://github.com/ijl20/msfs_logger_replay - IGC logger and replay (for FSX)\n- https://joinfs.net/ - Allows to synchronise multiplayer flights across different flight simulators (MSFS, Prepar3D/FSX, XPlane). Also provides a flight recorder with formation flight recording (\"overdub\").\n- https://github.com/paulalexandrow/a32nx-webremote - WebRemote for FlyByWire's A32NX: control cockpit functionality of the FBW A320, using FSUIPC7\n- https://flightloganalyzer.com/ - FlightLog Analyer analyses the MSFS logbook and has a CSV export readable by Sky Dolly\n- https://github.com/BojoteX/FSAutoSave/ - FSAutoSave automatically (or upon request) stores flight plans\n- https://github.com/mracko/MSFS-Landing-Inspector - Analyses your landing performance\n- [Points of Interest (Google Maps)](https://www.google.com/maps/d/viewer?mid=1KUg5jwyT_9k2A9n5IZ99UChlhfVUfO5S&ll=-3.81666561775622e-14%2C-23.028915134521867&z=1) - Points of Interest, Airports and 3D cities in Microsoft Flight Simulator.\n\n## Other Useful Resources\n\n- https://obsproject.com/ - Screen capture / broadcast application\n- https://sqlitebrowser.org/ - Browse the Sky Dolly logbook (*.sdlog) database files, execute your own SQL queries\n",
+    "ContentSha": "r2qZDk55aUUCqYB+sIxOQRQxrCqrncmWwJob1elyAFE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- https://github.com/nguyenquyhy/Flight-Recorder - Une application d'enregistrement et de relecture de vol basée sur .Net\n- https://github.com/saltysimulations/saltyreplay/ - Un outil d'enregistrement et de relecture avec une interface web utilisateur\n- https://github.com/SAHorowitz/MSFS2020-PilotPathRecorder - Enregistre le vol et génère des \"relectures\" au format Google Earth (KML)\n- https://github.com/Elephant42/FS_Tool - Un outil simple permettant de définir l'emplacement de l'appareil et le taux de simulation\n- https://github.com/pyviator/msfs-geoshot - Prend des captures d'écran et leur attribue automatiquement une \"géolocalisation\"\n- https://github.com/ijl20/msfs_logger_replay - Enregistreur et relecteur IGC (pour FSX)\n- https://joinfs.net/ - Permet de synchroniser les vols multijoueurs entre différents simulateurs de vol (MSFS, Prepar3D/FSX, XPlane). Fournit également un enregistreur de vol avec enregistrement de vol en formation (\"overdub\").\n- https://github.com/paulalexandrow/a32nx-webremote - WebRemote pour le A32NX de FlyByWire : contrôle des fonctionnalités du cockpit de l'A320 FBW via FSUIPC7\n- https://flightloganalyzer.com/ - FlightLog Analyzer analyse le carnet de vol MSFS et propose une exportation CSV lisible par Sky Dolly\n- https://github.com/BojoteX/FSAutoSave/ - FSAutoSave sauvegarde automatiquement (ou à la demande) les plans de vol\n- https://github.com/mracko/MSFS-Landing-Inspector - Analyse la performance de vos atterrissages\n- [Points d'intérêt (Google Maps)](https://www.google.com/maps/d/viewer?mid=1KUg5jwyT_9k2A9n5IZ99UChlhfVUfO5S&ll=-3.81666561775622e-14%2C-23.028915134521867&z=1) - Points d'intérêt, aéroports et villes 3D dans Microsoft Flight Simulator.\n\n## Autres ressources utiles\n\n- https://obsproject.com/ - Application de capture et de diffusion d'écran\n- https://sqlitebrowser.org/ - Parcourez les fichiers de base de données du carnet de vol Sky Dolly (*.sdlog), exécutez vos propres requêtes SQL\n",
+    "Status": "ok",
+    "RowTranslations": [
       {
-        "row": 8,
+        "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 9,
+        "row": 2,
         "rowsha": "w2iCoNeGJ/Z2Qf3SwSsYU8xyQVSE7b4/r7bgLcWxb2U=",
         "originContent": "- https://github.com/nguyenquyhy/Flight-Recorder - A .Net based flight recording & replay application",
         "translatedContent": "- https://github.com/nguyenquyhy/Flight-Recorder - Une application d'enregistrement et de relecture de vol basée sur .Net"
       },
       {
-        "row": 10,
+        "row": 3,
         "rowsha": "M6A6e0SWRnSylfVhmuTerCWrZu55r6uWwCq+G39NG2M=",
         "originContent": "- https://github.com/saltysimulations/saltyreplay/ - A recording & replay with a web user interface",
-        "translatedContent": "- https://github.com/saltysimulations/saltyreplay/ - Enregistrement et relecture avec une interface utilisateur web"
+        "translatedContent": "- https://github.com/saltysimulations/saltyreplay/ - Un outil d'enregistrement et de relecture avec une interface web utilisateur"
       },
       {
-        "row": 11,
+        "row": 4,
         "rowsha": "Bz+U61xW5qmTu6id7xsTyLmU2/Ba1wDhLAT0xQMw2aE=",
         "originContent": "- https://github.com/SAHorowitz/MSFS2020-PilotPathRecorder - Records the flight and generates Google Earth (KML format) \"replays\"",
-        "translatedContent": "- https://github.com/SAHorowitz/MSFS2020-PilotPathRecorder - Enregistre le vol et génère des \"relectures\" Google Earth (format KML)"
+        "translatedContent": "- https://github.com/SAHorowitz/MSFS2020-PilotPathRecorder - Enregistre le vol et génère des \"relectures\" au format Google Earth (KML)"
       },
       {
-        "row": 12,
+        "row": 5,
         "rowsha": "L1CpMZO1vpQAV+PGKyCcDSKfJ9EkK3SoRLbfvXf+7Pk=",
         "originContent": "- https://github.com/Elephant42/FS_Tool - A simple tool that allows to set the aircraft location and simulation rate",
-        "translatedContent": "- https://github.com/Elephant42/FS_Tool - Un outil simple permettant de définir la position de l'avion et le taux de simulation"
+        "translatedContent": "- https://github.com/Elephant42/FS_Tool - Un outil simple permettant de définir l'emplacement de l'appareil et le taux de simulation"
       },
       {
-        "row": 13,
+        "row": 6,
         "rowsha": "xwo8WXFL1OhX34dTqf2MdzVqXBOryON2tjQa+uFKUxI=",
         "originContent": "- https://github.com/pyviator/msfs-geoshot - Takes screenshots and automatically \"geotags\" them",
-        "translatedContent": "- https://github.com/pyviator/msfs-geoshot - Prend des captures d'écran et les \"géolocalise\" automatiquement"
+        "translatedContent": "- https://github.com/pyviator/msfs-geoshot - Prend des captures d'écran et leur attribue automatiquement une \"géolocalisation\""
       },
       {
-        "row": 14,
+        "row": 7,
         "rowsha": "gxTVVETceQMf+OBsvYxZQhTt8BHVMR1AMvAXZ6Bi7qI=",
         "originContent": "- https://github.com/ijl20/msfs_logger_replay - IGC logger and replay (for FSX)",
-        "translatedContent": "- https://github.com/ijl20/msfs_logger_replay - Enregistreur IGC et relecture (pour FSX)"
+        "translatedContent": "- https://github.com/ijl20/msfs_logger_replay - Enregistreur et relecteur IGC (pour FSX)"
       },
       {
-        "row": 15,
+        "row": 8,
         "rowsha": "mDxXk9TseMvwyHWDxeyxmRZT/mZs8oLGjw0RzRoGvJ8=",
         "originContent": "- https://joinfs.net/ - Allows to synchronise multiplayer flights across different flight simulators (MSFS, Prepar3D/FSX, XPlane). Also provides a flight recorder with formation flight recording (\"overdub\").",
-        "translatedContent": "- https://joinfs.net/ - Permet de synchroniser des vols multijoueurs entre différents simulateurs de vol (MSFS, Prepar3D/FSX, XPlane). Fournit également un enregistreur de vol avec enregistrement en formation (\"overdub\")."
+        "translatedContent": "- https://joinfs.net/ - Permet de synchroniser les vols multijoueurs entre différents simulateurs de vol (MSFS, Prepar3D/FSX, XPlane). Fournit également un enregistreur de vol avec enregistrement de vol en formation (\"overdub\")."
       },
       {
-        "row": 16,
+        "row": 9,
         "rowsha": "WpfROaGReY9gJIIDkrXPYGPY15fEKb4kkS/3uDmqhtk=",
         "originContent": "- https://github.com/paulalexandrow/a32nx-webremote - WebRemote for FlyByWire's A32NX: control cockpit functionality of the FBW A320, using FSUIPC7",
-        "translatedContent": "- https://github.com/paulalexandrow/a32nx-webremote - WebRemote pour FlyByWire's A32NX : contrôle des fonctionnalités du cockpit du FBW A320, utilisant FSUIPC7"
+        "translatedContent": "- https://github.com/paulalexandrow/a32nx-webremote - WebRemote pour le A32NX de FlyByWire : contrôle des fonctionnalités du cockpit de l'A320 FBW via FSUIPC7"
       },
       {
-        "row": 17,
+        "row": 10,
         "rowsha": "+DCyr/VAOhFAsKTeksf6uqN2fzQVMEhGC/wStLZdCvA=",
         "originContent": "- https://flightloganalyzer.com/ - FlightLog Analyer analyses the MSFS logbook and has a CSV export readable by Sky Dolly",
         "translatedContent": "- https://flightloganalyzer.com/ - FlightLog Analyzer analyse le carnet de vol MSFS et propose une exportation CSV lisible par Sky Dolly"
       },
       {
-        "row": 18,
+        "row": 11,
         "rowsha": "OP3PVAw0lBGOrOpGPWXrrwoW0D6cw8w+dMSu2Hl5Sg4=",
         "originContent": "- https://github.com/BojoteX/FSAutoSave/ - FSAutoSave automatically (or upon request) stores flight plans",
-        "translatedContent": "- https://github.com/BojoteX/FSAutoSave/ - FSAutoSave enregistre automatiquement (ou sur demande) les plans de vol"
+        "translatedContent": "- https://github.com/BojoteX/FSAutoSave/ - FSAutoSave sauvegarde automatiquement (ou à la demande) les plans de vol"
       },
       {
-        "row": 19,
+        "row": 12,
         "rowsha": "aI/KQ5/XCHaYXTnqjRliRwsUIVbotg2WNLGCLmhBE9k=",
         "originContent": "- https://github.com/mracko/MSFS-Landing-Inspector - Analyses your landing performance",
-        "translatedContent": "- https://github.com/mracko/MSFS-Landing-Inspector - Analyse votre performance d'atterrissage"
+        "translatedContent": "- https://github.com/mracko/MSFS-Landing-Inspector - Analyse la performance de vos atterrissages"
       },
       {
-        "row": 20,
+        "row": 13,
         "rowsha": "MNy1E9igqdMAAieJ0H9PuQjLQy5vQ0qui3s4EMNjrwQ=",
         "originContent": "- [Points of Interest (Google Maps)](https://www.google.com/maps/d/viewer?mid=1KUg5jwyT_9k2A9n5IZ99UChlhfVUfO5S&ll=-3.81666561775622e-14%2C-23.028915134521867&z=1) - Points of Interest, Airports and 3D cities in Microsoft Flight Simulator.",
         "translatedContent": "- [Points d'intérêt (Google Maps)](https://www.google.com/maps/d/viewer?mid=1KUg5jwyT_9k2A9n5IZ99UChlhfVUfO5S&ll=-3.81666561775622e-14%2C-23.028915134521867&z=1) - Points d'intérêt, aéroports et villes 3D dans Microsoft Flight Simulator."
       },
       {
-        "row": 21,
+        "row": 14,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 22,
+        "row": 15,
         "rowsha": "yT+HtGm7Yn/XIJOEcLIgWBJSq7iADuyzMcYWbmjJaKQ=",
         "originContent": "## Other Useful Resources",
-        "translatedContent": "## Autres Ressources Utiles"
+        "translatedContent": "## Autres ressources utiles"
       },
       {
-        "row": 23,
+        "row": 16,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 24,
+        "row": 17,
         "rowsha": "bn5MfzLKK2EwA1c+7lJsMwLIxTu9Kzgc/TCiba0HG4M=",
         "originContent": "- https://obsproject.com/ - Screen capture / broadcast application",
-        "translatedContent": "- https://obsproject.com/ - Application de capture d'écran / diffusion"
+        "translatedContent": "- https://obsproject.com/ - Application de capture et de diffusion d'écran"
       },
       {
-        "row": 25,
+        "row": 18,
         "rowsha": "0vIt1Pl1ZSIvMGvgofyklDKlaZFAm2vc4Kv7jPpqzp8=",
         "originContent": "- https://sqlitebrowser.org/ - Browse the Sky Dolly logbook (*.sdlog) database files, execute your own SQL queries",
         "translatedContent": "- https://sqlitebrowser.org/ - Parcourez les fichiers de base de données du carnet de vol Sky Dolly (*.sdlog), exécutez vos propres requêtes SQL"
       },
       {
-        "row": 26,
+        "row": 19,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""

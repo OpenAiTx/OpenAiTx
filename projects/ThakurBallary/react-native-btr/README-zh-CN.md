@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=ThakurBallary&project=react-native-btr&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # REACT NATIVE BTR
 React Native UI 组件 :fire: :rocket: :star2:
 
@@ -6,9 +38,9 @@ React Native UI 组件 :fire: :rocket: :star2:
 [![NPM](https://nodei.co/npm/react-native-btr.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-btr/)
 
 ## 演示
-[![Google Play Store](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png?w=10)](https://play.google.com/store/apps/details?id=com.thakurballary.reactnativebtrdemo)
+[![Google Play 商店](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png?w=10)](https://play.google.com/store/apps/details?id=com.thakurballary.reactnativebtrdemo)
 
-## 快速开始
+## 入门
 ```
 npm i react-native-btr --save
 ```
@@ -34,6 +66,6 @@ yarn add react-native-btr
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
 
 ---
