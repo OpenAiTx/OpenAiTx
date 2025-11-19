@@ -1,0 +1,503 @@
+[
+  {
+    "Id": 1,
+    "Content": "# An API to retrieve bookcovers from the internet.\n\nThis is a simple API that fetches book cover images from Goodreads. You can search for covers using either a book's title and author, or its ISBN number. It returns a direct URL to the cover image that you can use in your applications.\n\n## Documentation\n\n### GET /bookcover\n\nSearch for a book cover using the book title and author name.\n\n**Required Parameters:**\n- `book_title` (string): The title of the book\n- `author_name` (string): The name of the book's author\n\n**Example Request:**",
+    "ContentSha": "lCehTE9kf45hYjAdTa6D9LzVkAuCWtdOY7W2ceoI2c8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 一个用于从互联网检索书籍封面的API。\n\n这是一个简单的API，从Goodreads获取书籍封面图片。您可以使用书名和作者，或使用ISBN编号搜索封面。它返回一个封面图片的直接URL，您可以在应用程序中使用。\n\n## 文档\n\n### GET /bookcover\n\n使用书名和作者名搜索书籍封面。\n\n**必需参数：**\n- `book_title` (字符串)：书名\n- `author_name` (字符串)：书籍作者名\n\n**示例请求：**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "BAH11NO03QSZeXtwDd7nzvJC41+w+k7Wt1+kRQYsEGw=",
+        "originContent": "# An API to retrieve bookcovers from the internet.",
+        "translatedContent": "# 一个用于从互联网检索书籍封面的API。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "7AfYtmTVyFGM+xzmgY237HojQItE8TD1DetTdMTyjws=",
+        "originContent": "This is a simple API that fetches book cover images from Goodreads. You can search for covers using either a book's title and author, or its ISBN number. It returns a direct URL to the cover image that you can use in your applications.",
+        "translatedContent": "这是一个简单的API，从Goodreads获取书籍封面图片。您可以使用书名和作者，或使用ISBN编号搜索封面。它返回一个封面图片的直接URL，您可以在应用程序中使用。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## 文档"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "iT2a/vz+z/Y2kY4gNHngd0839AL0h1cRVrE2eeWR8ps=",
+        "originContent": "### GET /bookcover",
+        "translatedContent": "### GET /bookcover"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "AU/gtCg3LYWH5JnrTmr6l8CeU/jaCUkifVXC98urhn0=",
+        "originContent": "Search for a book cover using the book title and author name.",
+        "translatedContent": "使用书名和作者名搜索书籍封面。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "YR8jkhl4iiRc7hVf7y0oy1+qKTii+F8IxHIOR+6kpOk=",
+        "originContent": "**Required Parameters:**",
+        "translatedContent": "**必需参数：**"
+      },
+      {
+        "row": 12,
+        "rowsha": "3jPZJ6aLzMVHTo18uF4G1CImDAp+uwQgTSTxrfRyuqE=",
+        "originContent": "- `book_title` (string): The title of the book",
+        "translatedContent": "- `book_title` (字符串)：书名"
+      },
+      {
+        "row": 13,
+        "rowsha": "1LaO7YtVFmVEcTLZYmQmUnNx5ww9VDbqGruNLc98F4s=",
+        "originContent": "- `author_name` (string): The name of the book's author",
+        "translatedContent": "- `author_name` (字符串)：书籍作者名"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "PDKWWxKlMBjtcP7OE53l2OcHVZu6JIZ+nY2nCSGLQng=",
+        "originContent": "**Example Request:**",
+        "translatedContent": "**示例请求：**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ncurl -X GET \"https://bookcover.longitood.com/bookcover?book_title=The+Pale+Blue+Dot&author_name=Carl+Sagan\"\n```",
+    "ContentSha": "wG9fVyyvyWBXT7cD3MWRJ2wdR3Wc1Jdmi669bbe8GUM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -X GET \"https://bookcover.longitood.com/bookcover?book_title=The+Pale+Blue+Dot&author_name=Carl+Sagan\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "/s+LqleCsdDjtqwZ2vfYH3R+IaOsrSr2+phuS8isMLc=",
+        "originContent": "curl -X GET \"https://bookcover.longitood.com/bookcover?book_title=The+Pale+Blue+Dot&author_name=Carl+Sagan\"",
+        "translatedContent": "curl -X GET \"https://bookcover.longitood.com/bookcover?book_title=The+Pale+Blue+Dot&author_name=Carl+Sagan\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n**Example Response:**",
+    "ContentSha": "taHbLzIxg9hDPSrF6RuFjvqOnqvltq6b+LaBiz3DAvk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**示例响应：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**示例响应：**"
+      },
+      {
+        "row": 2,
+        "rowsha": "c47CjD+u0sKIXvqip4dMcQueD2naTw+qhvbKurhQudY=",
+        "originContent": "**Example Response:**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```json\n{\n  \"url\": \"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388620656i/55030.jpg\"\n}\n```",
+    "ContentSha": "klCWdeFOTCduA1goakt1tvpWR1zBBWIMAhvBGH9m7JM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"url\": \"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388620656i/55030.jpg\"\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "4fS4tu7JjiRS8TOrU5kmLo6gxJyW+CtT3wHcYxnvOY8=",
+        "originContent": "  \"url\": \"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388620656i/55030.jpg\"",
+        "translatedContent": "  \"url\": \"https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388620656i/55030.jpg\""
+      },
+      {
+        "row": 4,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### GET /bookcover/:isbn\n\nSearch for a book cover using its ISBN-13 number.\n\n**Example Request:**",
+    "ContentSha": "clLGnTgyCEWr2hVxzGeNWKZ0l7i8/0902rSeYL+ZQZQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### GET /bookcover/:isbn\n\n使用ISBN-13号搜索书籍封面。\n\n**示例请求：**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Wa4GanpjNaQgHJDrSpRrd1Os1Fr1yHDk04Yh5ESEgd0=",
+        "originContent": "### GET /bookcover/:isbn",
+        "translatedContent": "### GET /bookcover/:isbn"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "MDF2BRzNSMfOibrs9ULhx+aDt/ES87Cn/QM7AX+flww=",
+        "originContent": "Search for a book cover using its ISBN-13 number.",
+        "translatedContent": "使用ISBN-13号搜索书籍封面。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "PDKWWxKlMBjtcP7OE53l2OcHVZu6JIZ+nY2nCSGLQng=",
+        "originContent": "**Example Request:**",
+        "translatedContent": "**示例请求：**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ncurl -X GET \"https://bookcover.longitood.com/bookcover/978-0345376596\"\n```",
+    "ContentSha": "Tp1lM/mfX2Z1iUAABVUcKIMnQ9/I6vUgR13/gQw7cC0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -X GET \"https://bookcover.longitood.com/bookcover/978-0345376596\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9vAL7yb7NWusZy8qIZfXGqWUs2IZC3rhQ5aIpXhEGN8=",
+        "originContent": "curl -X GET \"https://bookcover.longitood.com/bookcover/978-0345376596\"",
+        "translatedContent": "curl -X GET \"https://bookcover.longitood.com/bookcover/978-0345376596\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n**Example Response:**",
+    "ContentSha": "taHbLzIxg9hDPSrF6RuFjvqOnqvltq6b+LaBiz3DAvk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**示例响应：**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**示例响应：**"
+      },
+      {
+        "row": 2,
+        "rowsha": "c47CjD+u0sKIXvqip4dMcQueD2naTw+qhvbKurhQudY=",
+        "originContent": "**Example Response:**",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```json\n{\n  \"url\": \"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1500191671i/61663.jpg\"\n}\n```",
+    "ContentSha": "SCigXzKlApOkygHn5+PXt0Ms2t5lP3lYDAn/I+ptYMc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"url\": \"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1500191671i/61663.jpg\"\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "anOBFzci6kBkaTdfdkiCTf/3UwLr6OvzdkbbZ6Tlx8g=",
+        "originContent": "  \"url\": \"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1500191671i/61663.jpg\"",
+        "translatedContent": "  \"url\": \"https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1500191671i/61663.jpg\""
+      },
+      {
+        "row": 4,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## How It Works\n\nThe API fetches book cover images from Goodreads using two different approaches:\n\n1. **Search by Title and Author**\n   - Takes the book title and author name as input\n   - Searches Goodreads and finds the matching book\n   - Extracts the high-quality cover image URL\n   - Caches the result for faster future requests\n\n2. **Search by ISBN-13**\n   - Accepts a 13-digit ISBN number\n   - Performs a direct lookup on Goodreads\n   - Returns the book cover URL\n   - Also caches successful results\n\n\nThe API provides clear error messages in JSON format:\n- 400 Bad Request: Missing parameters or invalid ISBN\n- 404 Not Found: No matching book cover found\n- All responses include appropriate CORS headers\n",
+    "ContentSha": "NIMYkKcxD3fv/OTaIKEolAQHvSEqi6E0WWMaB8pevn8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 工作原理\n\n该 API 使用两种不同的方法从 Goodreads 获取图书封面图片：\n\n1. **按书名和作者搜索**\n   - 以书名和作者名作为输入\n   - 在 Goodreads 中搜索并找到匹配的图书\n   - 提取高质量封面图片的 URL\n   - 缓存结果以加快未来请求速度\n\n2. **按 ISBN-13 搜索**\n   - 接受 13 位 ISBN 编号\n   - 在 Goodreads 上直接查询\n   - 返回图书封面 URL\n   - 同时缓存成功的结果\n\n\n该 API 以 JSON 格式提供清晰的错误信息：\n- 400 错误请求：缺少参数或 ISBN 无效\n- 404 未找到：未找到匹配的图书封面\n- 所有响应均包含适当的 CORS 头信息\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "8Cn7DTPwgC5TRYcpx6IHELZx2Ghn/Zy5V2CaSviu4ik=",
+        "originContent": "## How It Works",
+        "translatedContent": "## 工作原理"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "fgRlDD8S2U9Xd6ID+i0A5BZMSU0EqFUtJm3UK4eBuLY=",
+        "originContent": "The API fetches book cover images from Goodreads using two different approaches:",
+        "translatedContent": "该 API 使用两种不同的方法从 Goodreads 获取图书封面图片："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "hByV+7WcPosuGNjaNF0Fse+yeBdqM9gmamebWJ7Iw74=",
+        "originContent": "1. **Search by Title and Author**",
+        "translatedContent": "1. **按书名和作者搜索**"
+      },
+      {
+        "row": 7,
+        "rowsha": "HaU0pUrKoB2coMGi9D6tKejSVedzfjILWMLA07D7QCM=",
+        "originContent": "   - Takes the book title and author name as input",
+        "translatedContent": "   - 以书名和作者名作为输入"
+      },
+      {
+        "row": 8,
+        "rowsha": "8J6v5IRVjI44PMxjiEXogSDfKvHveeMjaGuiFyJAJwY=",
+        "originContent": "   - Searches Goodreads and finds the matching book",
+        "translatedContent": "   - 在 Goodreads 中搜索并找到匹配的图书"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZcW92naoyqz3HiooV9MoYB5AFvLiwnHTBZFM+JwFSO8=",
+        "originContent": "   - Extracts the high-quality cover image URL",
+        "translatedContent": "   - 提取高质量封面图片的 URL"
+      },
+      {
+        "row": 10,
+        "rowsha": "yXFujuWCJaIZSrv06Hi+UHsF8U+ZdKRIHQNmTVEaB2Q=",
+        "originContent": "   - Caches the result for faster future requests",
+        "translatedContent": "   - 缓存结果以加快未来请求速度"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "fM9ABgNZ6dfPcEGt1wxV8hprIiK34zxQynXiWvz+Hjg=",
+        "originContent": "2. **Search by ISBN-13**",
+        "translatedContent": "2. **按 ISBN-13 搜索**"
+      },
+      {
+        "row": 13,
+        "rowsha": "4OHZ/MOywSahAd0lkyS441BxWEbVTeP3n8vOBNPxl9U=",
+        "originContent": "   - Accepts a 13-digit ISBN number",
+        "translatedContent": "   - 接受 13 位 ISBN 编号"
+      },
+      {
+        "row": 14,
+        "rowsha": "9jV4JW6DInAXuVOJ+8pKbsUgGKScwctw0ObzWBoF9Oo=",
+        "originContent": "   - Performs a direct lookup on Goodreads",
+        "translatedContent": "   - 在 Goodreads 上直接查询"
+      },
+      {
+        "row": 15,
+        "rowsha": "1XaN2Zx2RFxhEHi9ah5JmqmTH2X/psr9+CS11p56IXQ=",
+        "originContent": "   - Returns the book cover URL",
+        "translatedContent": "   - 返回图书封面 URL"
+      },
+      {
+        "row": 16,
+        "rowsha": "fdvu7t8FKtOIH8Bh3d7FhNZZYgy3HUXequk7AbPqNKs=",
+        "originContent": "   - Also caches successful results",
+        "translatedContent": "   - 同时缓存成功的结果"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "ujQYaSzkQsUIKgkLz+xvnVj5XcozTMR2bc65WEG2UYY=",
+        "originContent": "The API provides clear error messages in JSON format:",
+        "translatedContent": "该 API 以 JSON 格式提供清晰的错误信息："
+      },
+      {
+        "row": 20,
+        "rowsha": "9tG3vGMWzmttKjge5h3w/ZpiXRsfpNDV+58nSFxYKIk=",
+        "originContent": "- 400 Bad Request: Missing parameters or invalid ISBN",
+        "translatedContent": "- 400 错误请求：缺少参数或 ISBN 无效"
+      },
+      {
+        "row": 21,
+        "rowsha": "peKtpOlNTxmwM1maD89NO5EcThiZINZCyb1OIlHw8pM=",
+        "originContent": "- 404 Not Found: No matching book cover found",
+        "translatedContent": "- 404 未找到：未找到匹配的图书封面"
+      },
+      {
+        "row": 22,
+        "rowsha": "rYoi0w1FXZOZgjhmkJ38NKwegbV60Nu+1+LcQtLlnbY=",
+        "originContent": "- All responses include appropriate CORS headers",
+        "translatedContent": "- 所有响应均包含适当的 CORS 头信息"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

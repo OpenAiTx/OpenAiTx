@@ -1,0 +1,95 @@
+# Flares 🔥
+
+Flares 是一个 CloudFlare DNS 备份工具，它将您的 DNS 表导出到屏幕或以 BIND 格式的区域文件导出。
+
+[![BSD 许可证](https://img.shields.io/badge/license-BSD-blue.svg?style=flat)](LICENSE)
+[![FOSSA 状态](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flfaoro%2Fflares.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flfaoro%2Fflares?ref=badge_shield)
+[![Go 报告卡](https://goreportcard.com/badge/github.com/lfaoro/flares)](https://goreportcard.com/report/github.com/lfaoro/flares)
+
+![Docker 拉取](https://img.shields.io/docker/pulls/lfaoro/flares.svg?logo=docker&style=popout-square)
+[![PayPal](https://img.shields.io/badge/paypal-contribute-blue.svg?style=popout-square&logo=paypal)](https://www.paypal.com/pools/c/8fm4OKBYMa)
+
+## 快速开始
+
+### [视频教程](https://asciinema.org/a/NLVa6TyQzvTEhnzZDdH1q79lO)
+
+### Docker
+
+```bash
+# Fetch your CloudFlare API token from here:
+# https://dash.cloudflare.com/profile/api-tokens
+# -> Create Token
+# -> Edit zone DNS
+# -> Permission: read
+# -> Zone resources: Include -> All zones
+
+$ export CF_API_TOKEN="KClp4y8BgD2LQiz2..."
+
+$ docker run -it --rm \
+-e CF_API_TOKEN="$CF_API_TOKEN" \
+lfaoro/flares domain1.tld domain2.tld
+```
+
+### macOS
+```bash
+brew install lfaoro/tap/flares
+```
+
+### Linux/BSD
+```bash
+curl https://raw.githubusercontent.com/lfaoro/flares/master/install.sh | bash
+```
+
+### 开发者
+> Go 安装程序：https://golang.org/dl/
+```bash
+go get -u github.com/lfaoro/flares
+make install
+flares -h
+
+make test
+```
+
+## 示例
+
+```bash
+$ make install
+$ flares -h
+
+$ flares domain1.tld
+;;
+;; Domain:     domain1.tld
+;; Exported:   2019-06-03 06:31:29
+...continued
+
+$ flares --export domain1.tld domain2.tld
+BIND table for domain1.tld successfully exported
+BIND table for domain2.tld successfully exported
+$ ls
+domain1.tld domain2.tld
+```
+
+## 自动化
+
+### GitLab CI/CD
+
+- 复制仓库中的 [.gitlab-ci.yml](.gitlab-ci.yml)
+- 使用 [pipeline schedules](https://gitlab.com/help/user/project/pipelines/schedules) 功能
+- 每次任务运行都会生成一个 DNS 备份，作为可下载的工件存储
+
+# 贡献
+
+> 任何帮助和建议都非常欢迎和感激。请先打开一个 [issue](https://github.com/lfaoro/flares/issues/new)。
+
+- Fork 本项目
+- 创建你的功能分支 `git checkout -b my-new-feature`
+- 提交你的更改 `git commit -am 'Add my feature'`
+- 推送到分支 `git push origin my-new-feature`
+- 针对主分支创建一个新的拉取请求
+
+
+---
+
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-19
+
+---

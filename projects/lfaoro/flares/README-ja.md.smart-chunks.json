@@ -1,0 +1,679 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Flares 🔥\n\nFlares is a CloudFlare DNS backup tool, it dumps your DNS table to the screen or exports it as BIND formatted zone\nfiles.\n\n[![BSD License](https://img.shields.io/badge/license-BSD-blue.svg?style=flat)](LICENSE)\n[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flfaoro%2Fflares.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flfaoro%2Fflares?ref=badge_shield)\n[![Go Report Card](https://goreportcard.com/badge/github.com/lfaoro/flares)](https://goreportcard.com/report/github.com/lfaoro/flares)\n\n![Docker Pulls](https://img.shields.io/docker/pulls/lfaoro/flares.svg?logo=docker&style=popout-square)\n[![PayPal](https://img.shields.io/badge/paypal-contribute-blue.svg?style=popout-square&logo=paypal)](https://www.paypal.com/pools/c/8fm4OKBYMa)\n\n## Quick Start\n\n### [Video Tutorial](https://asciinema.org/a/NLVa6TyQzvTEhnzZDdH1q79lO)\n\n### Docker",
+    "ContentSha": "Xeahyme7dsMNXz26iuLfEUsFiQ2ldUYUFo5h+CXI4Ps=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Flares 🔥\n\nFlaresはCloudFlareのDNSバックアップツールで、DNSテーブルを画面に表示したり、BIND形式のゾーンファイルとしてエクスポートします。\n\n[![BSD License](https://img.shields.io/badge/license-BSD-blue.svg?style=flat)](LICENSE)\n[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flfaoro%2Fflares.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flfaoro%2Fflares?ref=badge_shield)\n[![Go Report Card](https://goreportcard.com/badge/github.com/lfaoro/flares)](https://goreportcard.com/report/github.com/lfaoro/flares)\n\n![Docker Pulls](https://img.shields.io/docker/pulls/lfaoro/flares.svg?logo=docker&style=popout-square)\n[![PayPal](https://img.shields.io/badge/paypal-contribute-blue.svg?style=popout-square&logo=paypal)](https://www.paypal.com/pools/c/8fm4OKBYMa)\n\n## クイックスタート\n\n### [ビデオチュートリアル](https://asciinema.org/a/NLVa6TyQzvTEhnzZDdH1q79lO)\n\n### Docker\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "v+hgUygtovOiHcGSJqBwXJL1UmT6PWDYjYupYAbY3xM=",
+        "originContent": "# Flares 🔥",
+        "translatedContent": "# Flares 🔥"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "TiI2SR1QhCSE6ymwLUvcWnS6srZArhZsrKca+sNlbhM=",
+        "originContent": "Flares is a CloudFlare DNS backup tool, it dumps your DNS table to the screen or exports it as BIND formatted zone",
+        "translatedContent": "FlaresはCloudFlareのDNSバックアップツールで、DNSテーブルを画面に表示したり、BIND形式のゾーンファイルとしてエクスポートします。"
+      },
+      {
+        "row": 4,
+        "rowsha": "KVtGdQlYveuMHWSyRQf4lUTM4b8KcnWybYWIkN8EDCs=",
+        "originContent": "files.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![BSD License](https://img.shields.io/badge/license-BSD-blue.svg?style=flat)](LICENSE)"
+      },
+      {
+        "row": 6,
+        "rowsha": "bzGx3xi4tKBy88vJ9EB6i+mc2AoTsHVoMS3XngtGFs4=",
+        "originContent": "[![BSD License](https://img.shields.io/badge/license-BSD-blue.svg?style=flat)](LICENSE)",
+        "translatedContent": "[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flfaoro%2Fflares.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flfaoro%2Fflares?ref=badge_shield)"
+      },
+      {
+        "row": 7,
+        "rowsha": "JkEKmkDs+3L0fzJjADX0ffJe8kn7YijqpFjLaCDWvJM=",
+        "originContent": "[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flfaoro%2Fflares.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flfaoro%2Fflares?ref=badge_shield)",
+        "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/lfaoro/flares)](https://goreportcard.com/report/github.com/lfaoro/flares)"
+      },
+      {
+        "row": 8,
+        "rowsha": "gTMSQuq2y4iUH48sfu6mypi6s5MoaN1uia2TPHAKguQ=",
+        "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/lfaoro/flares)](https://goreportcard.com/report/github.com/lfaoro/flares)",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Docker Pulls](https://img.shields.io/docker/pulls/lfaoro/flares.svg?logo=docker&style=popout-square)"
+      },
+      {
+        "row": 10,
+        "rowsha": "jMTuV67gqv3Lasa9gvaAKugM3W7t19sgaKhdZjX8iaU=",
+        "originContent": "![Docker Pulls](https://img.shields.io/docker/pulls/lfaoro/flares.svg?logo=docker&style=popout-square)",
+        "translatedContent": "[![PayPal](https://img.shields.io/badge/paypal-contribute-blue.svg?style=popout-square&logo=paypal)](https://www.paypal.com/pools/c/8fm4OKBYMa)"
+      },
+      {
+        "row": 11,
+        "rowsha": "A0uRVudxUYZv5MEPP+2mvmJ20MQvFxs9IDAdj9vRNcE=",
+        "originContent": "[![PayPal](https://img.shields.io/badge/paypal-contribute-blue.svg?style=popout-square&logo=paypal)](https://www.paypal.com/pools/c/8fm4OKBYMa)",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## クイックスタート"
+      },
+      {
+        "row": 13,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### [ビデオチュートリアル](https://asciinema.org/a/NLVa6TyQzvTEhnzZDdH1q79lO)"
+      },
+      {
+        "row": 15,
+        "rowsha": "rPLmicK2Xh0ULOtzXdVbzbjHS4xhGwQI/pvPMP/oAr8=",
+        "originContent": "### [Video Tutorial](https://asciinema.org/a/NLVa6TyQzvTEhnzZDdH1q79lO)",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Docker"
+      },
+      {
+        "row": 17,
+        "rowsha": "rJkp0SR6AFuVEobhFmXJXexK+tjY3K/G58vFhiH70GA=",
+        "originContent": "### Docker",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n# Fetch your CloudFlare API token from here:\n# https://dash.cloudflare.com/profile/api-tokens\n# -> Create Token\n# -> Edit zone DNS\n# -> Permission: read\n# -> Zone resources: Include -> All zones\n\n$ export CF_API_TOKEN=\"KClp4y8BgD2LQiz2...\"\n\n$ docker run -it --rm \\\n-e CF_API_TOKEN=\"$CF_API_TOKEN\" \\\nlfaoro/flares domain1.tld domain2.tld\n```",
+    "ContentSha": "QwBX8Fj1aO9rdib5eTOdXszyxUEI9VJANXYGn64V3Ug=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Fetch your CloudFlare API token from here:\n# https://dash.cloudflare.com/profile/api-tokens\n# -> Create Token\n# -> Edit zone DNS\n# -> Permission: read\n# -> Zone resources: Include -> All zones\n\n$ export CF_API_TOKEN=\"KClp4y8BgD2LQiz2...\"\n\n$ docker run -it --rm \\\n-e CF_API_TOKEN=\"$CF_API_TOKEN\" \\\nlfaoro/flares domain1.tld domain2.tld\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "X/hAP6i/nAYrkpmUfeS0bT7RtPbBKbov6qVH0/NNW0s=",
+        "originContent": "# Fetch your CloudFlare API token from here:",
+        "translatedContent": "# Fetch your CloudFlare API token from here:"
+      },
+      {
+        "row": 3,
+        "rowsha": "NAqvl5/H2IO2u6SwRuqB6Rvgm8Sl6yB+zM8K/+zUmKU=",
+        "originContent": "# https://dash.cloudflare.com/profile/api-tokens",
+        "translatedContent": "# https://dash.cloudflare.com/profile/api-tokens"
+      },
+      {
+        "row": 4,
+        "rowsha": "B9Mcb/7P60Sk6LzjsA7V71fKrrk1gE72yv7GWFTUDW0=",
+        "originContent": "# -> Create Token",
+        "translatedContent": "# -> Create Token"
+      },
+      {
+        "row": 5,
+        "rowsha": "slM46ALl/JbY4imNtmwHRM/RxIJe9H8fx06XrVRE4B0=",
+        "originContent": "# -> Edit zone DNS",
+        "translatedContent": "# -> Edit zone DNS"
+      },
+      {
+        "row": 6,
+        "rowsha": "Hep4yiDhMWMBHccxU/1D2SdKiB/vKYclKWC9Ko1dsUc=",
+        "originContent": "# -> Permission: read",
+        "translatedContent": "# -> Permission: read"
+      },
+      {
+        "row": 7,
+        "rowsha": "zeoLet6lncFv2nUBUiBFr+cb4RYO+DfLSeDAM961Mzg=",
+        "originContent": "# -> Zone resources: Include -> All zones",
+        "translatedContent": "# -> Zone resources: Include -> All zones"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "lI9mZwoBXIxJ5APNTUxRBF/oKoA16gN4Mfh4jHlYGpQ=",
+        "originContent": "$ export CF_API_TOKEN=\"KClp4y8BgD2LQiz2...\"",
+        "translatedContent": "$ export CF_API_TOKEN=\"KClp4y8BgD2LQiz2...\""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Zgq64zHpxw9JRXB3b6tXGxyMj7LNdTgs10Nih1iWFPg=",
+        "originContent": "$ docker run -it --rm \\",
+        "translatedContent": "$ docker run -it --rm \\"
+      },
+      {
+        "row": 12,
+        "rowsha": "B9j/zCOcQuWcScYaeVVme2QrEu4hlqgyv9gECzovEho=",
+        "originContent": "-e CF_API_TOKEN=\"$CF_API_TOKEN\" \\",
+        "translatedContent": "-e CF_API_TOKEN=\"$CF_API_TOKEN\" \\"
+      },
+      {
+        "row": 13,
+        "rowsha": "0UewWhC/i9jk+6QD2NCyoPjixGFePNwBQNsV5IQKn2s=",
+        "originContent": "lfaoro/flares domain1.tld domain2.tld",
+        "translatedContent": "lfaoro/flares domain1.tld domain2.tld"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### macOS",
+    "ContentSha": "QBCKLLHlJy1J2K+tjMHyYg0TDKevU6uSihBjeNYLLO8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### macOS\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### macOS"
+      },
+      {
+        "row": 2,
+        "rowsha": "IOz6D23yxKVaZDi62cZaiowUVIuAS1nmW/2UxanscU8=",
+        "originContent": "### macOS",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nbrew install lfaoro/tap/flares\n```",
+    "ContentSha": "BjTtV4gVj+ItSguG6h2wXHA9vcq2xePPguglASbPZtw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nbrew install lfaoro/tap/flares\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "QUGScG7TuFSapTO/jLWgVw74YoNryH5t4c/UTETOJ4c=",
+        "originContent": "brew install lfaoro/tap/flares",
+        "translatedContent": "brew install lfaoro/tap/flares"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Linux/BSD",
+    "ContentSha": "CsnbEwMRVenWuKE4BVC4aeoy93uTaZ8btQ4uVq/VQRY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Linux/BSD\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Linux/BSD"
+      },
+      {
+        "row": 2,
+        "rowsha": "XGYsu0/jR0ook/X+6wj8yUOnEZ40IopdcfQExpYMjJs=",
+        "originContent": "### Linux/BSD",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ncurl https://raw.githubusercontent.com/lfaoro/flares/master/install.sh | bash\n```",
+    "ContentSha": "LETpjwhpCxqeWbm+cT4e4rFZxrbEf7a+UvtQ+k0I4BA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl https://raw.githubusercontent.com/lfaoro/flares/master/install.sh | bash\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "J/iowmiB/vFNv4p99lqdd2FO5kvC39/noEVUQuQQm6k=",
+        "originContent": "curl https://raw.githubusercontent.com/lfaoro/flares/master/install.sh | bash",
+        "translatedContent": "curl https://raw.githubusercontent.com/lfaoro/flares/master/install.sh | bash"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Developers\n> Go installer: https://golang.org/dl/",
+    "ContentSha": "aftdIuDizCDO9geLyyvhMUCF44ALe5topnTLyeNQ6fA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 開発者\n> Go インストーラー: https://golang.org/dl/",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Zmq5NOZlnZ/rQfR/oEs34stJETMJ1aTxoLhNwrUzL10=",
+        "originContent": "### Developers",
+        "translatedContent": "### 開発者"
+      },
+      {
+        "row": 3,
+        "rowsha": "udjN9AeX2O5RZdTizJepNy5cKowVg7Z0mFpWx4WemJs=",
+        "originContent": "> Go installer: https://golang.org/dl/",
+        "translatedContent": "> Go インストーラー: https://golang.org/dl/"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\ngo get -u github.com/lfaoro/flares\nmake install\nflares -h\n\nmake test\n```",
+    "ContentSha": "k2o8bp7AicpIh9fO4kDTyYd8N7NlH4eT/jslu8D92qM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngo get -u github.com/lfaoro/flares\nmake install\nflares -h\n\nmake test\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6rGFiBZ3DH4XvytfdWUv2jM2bnMd8Eul8pfBEZ9FbgA=",
+        "originContent": "go get -u github.com/lfaoro/flares",
+        "translatedContent": "go get -u github.com/lfaoro/flares"
+      },
+      {
+        "row": 3,
+        "rowsha": "1zF5PmhOR+kM5JzW++rL6ymqoCtlCJKI+WWDVjwVCE8=",
+        "originContent": "make install",
+        "translatedContent": "make install"
+      },
+      {
+        "row": 4,
+        "rowsha": "Ct0jHmCQl+5yei7HKR/GQiLgTjJ08yQ7jREU/z5AAso=",
+        "originContent": "flares -h",
+        "translatedContent": "flares -h"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Isxmqn0mJLTrTVthZYYUzWwyR3sSOvv328f8PX0PNxM=",
+        "originContent": "make test",
+        "translatedContent": "make test"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Examples\n",
+    "ContentSha": "a9exgBcrvHprHqM9wJLeD1neKh32WsFEjG3chYepWj4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 例示\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+        "originContent": "## Examples",
+        "translatedContent": "## 例示"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n$ make install\n$ flares -h\n\n$ flares domain1.tld\n;;\n;; Domain:     domain1.tld\n;; Exported:   2019-06-03 06:31:29\n...continued\n\n$ flares --export domain1.tld domain2.tld\nBIND table for domain1.tld successfully exported\nBIND table for domain2.tld successfully exported\n$ ls\ndomain1.tld domain2.tld\n```",
+    "ContentSha": "28Gq1/Vq0tumGPzrhPtUZm0GC2ck/aq9PpUpH9SJ1ZM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ make install\n$ flares -h\n\n$ flares domain1.tld\n;;\n;; Domain:     domain1.tld\n;; Exported:   2019-06-03 06:31:29\n...continued\n\n$ flares --export domain1.tld domain2.tld\nBIND table for domain1.tld successfully exported\nBIND table for domain2.tld successfully exported\n$ ls\ndomain1.tld domain2.tld\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "WPETnyHJsD4t9dyw4VR6Xn0RbeylMui84NBmxZdT9qM=",
+        "originContent": "$ make install",
+        "translatedContent": "$ make install"
+      },
+      {
+        "row": 3,
+        "rowsha": "t4knFaLtVsBla4KwiIaa8grqdzNEeY9r5+dp6R2akxY=",
+        "originContent": "$ flares -h",
+        "translatedContent": "$ flares -h"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "OMQ9Pqbgj2rvBdaidqXXObB9i5QSEvkMaXm1+i13tRM=",
+        "originContent": "$ flares domain1.tld",
+        "translatedContent": "$ flares domain1.tld"
+      },
+      {
+        "row": 6,
+        "rowsha": "qQMtD6zNeXfVMEhLU2jE28bHyJZJQalKl6JpwHnJ8uo=",
+        "originContent": ";;",
+        "translatedContent": ";;"
+      },
+      {
+        "row": 7,
+        "rowsha": "Jp7E690deMUunEhKQVGZetH393rstRJk1dinC0CL2k4=",
+        "originContent": ";; Domain:     domain1.tld",
+        "translatedContent": ";; Domain:     domain1.tld"
+      },
+      {
+        "row": 8,
+        "rowsha": "IKZ3UwJKhN1rXGgDVFx7AvdZKC53keAHSONPwvYDOi4=",
+        "originContent": ";; Exported:   2019-06-03 06:31:29",
+        "translatedContent": ";; Exported:   2019-06-03 06:31:29"
+      },
+      {
+        "row": 9,
+        "rowsha": "jSTllkckXcKXW2cU4+CfavUNAvakpU7cxBPX5RYGtYU=",
+        "originContent": "...continued",
+        "translatedContent": "...continued"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "rPvEvkkBSd3ZuUIPy+0X/Yc5a0/fGPNNSEcwmXWsK+Q=",
+        "originContent": "$ flares --export domain1.tld domain2.tld",
+        "translatedContent": "$ flares --export domain1.tld domain2.tld"
+      },
+      {
+        "row": 12,
+        "rowsha": "BsYMlpKI1U2x82cQFDyRSGVrYpOBWZI+c8zv/NjI6zM=",
+        "originContent": "BIND table for domain1.tld successfully exported",
+        "translatedContent": "BIND table for domain1.tld successfully exported"
+      },
+      {
+        "row": 13,
+        "rowsha": "GwDZ5oOGQIrvpClT+eJI6BI3koc8B6CMLw+hWeerTkA=",
+        "originContent": "BIND table for domain2.tld successfully exported",
+        "translatedContent": "BIND table for domain2.tld successfully exported"
+      },
+      {
+        "row": 14,
+        "rowsha": "q9ik39yMQswKs95GSLpveYYB028w9tztb4xASA5NRko=",
+        "originContent": "$ ls",
+        "translatedContent": "$ ls"
+      },
+      {
+        "row": 15,
+        "rowsha": "6aONVPdsbTlrLYkI+v4nR/zwnQfPlvv7hUXDeW0eJ2U=",
+        "originContent": "domain1.tld domain2.tld",
+        "translatedContent": "domain1.tld domain2.tld"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Automation\n\n### GitLab CI/CD\n\n- Copy [.gitlab-ci.yml](.gitlab-ci.yml) inside your repo\n- Use the [pipeline schedules](https://gitlab.com/help/user/project/pipelines/schedules) feature\n- Each run of the task will generate a DNS backup stored as a downloadable artifact\n\n# Contributing\n\n> Any help and suggestions are very welcome and appreciated. Start by opening an [issue](https://github.com/lfaoro/flares/issues/new).\n\n- Fork the project\n- Create your feature branch `git checkout -b my-new-feature`\n- Commit your changes `git commit -am 'Add my feature'`\n- Push to the branch `git push origin my-new-feature`\n- Create a new pull request against the master branch\n",
+    "ContentSha": "wxU/aYd9KwxcWAMGdp8VPF75fv3L/TReQsRsspdZhqU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 自動化\n\n### GitLab CI/CD\n\n- リポジトリ内に [.gitlab-ci.yml](.gitlab-ci.yml) をコピーする\n- [パイプラインスケジュール](https://gitlab.com/help/user/project/pipelines/schedules) 機能を使用する\n- タスクの各実行で、ダウンロード可能なアーティファクトとして保存されるDNSバックアップが生成される\n\n# 貢献\n\n> どんな助けや提案も大歓迎で感謝します。まずは [issue](https://github.com/lfaoro/flares/issues/new) を開いてください。\n\n- プロジェクトをフォークする\n- 新しい機能ブランチを作成する `git checkout -b my-new-feature`\n- 変更をコミットする `git commit -am 'Add my feature'`\n- ブランチにプッシュする `git push origin my-new-feature`\n- マスターブランチに対してプルリクエストを作成する\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "gptTufWSKZo1ckKxXm49sIYF3k1q+9R4Kr1rODuoh/M=",
+        "originContent": "## Automation",
+        "translatedContent": "## 自動化"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "PeK4JrlUr9U/VCWvLiqD6fkIOBxoggcQwXFnro0yzHw=",
+        "originContent": "### GitLab CI/CD",
+        "translatedContent": "### GitLab CI/CD"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "4TYPb3Mxix//tG4kVvLUgIao/0R9tGr97DxZV26qm+A=",
+        "originContent": "- Copy [.gitlab-ci.yml](.gitlab-ci.yml) inside your repo",
+        "translatedContent": "- リポジトリ内に [.gitlab-ci.yml](.gitlab-ci.yml) をコピーする"
+      },
+      {
+        "row": 7,
+        "rowsha": "clHhL0WYAtrSqB3lrE060brx4xT/+qpQ+YKh8pI26vM=",
+        "originContent": "- Use the [pipeline schedules](https://gitlab.com/help/user/project/pipelines/schedules) feature",
+        "translatedContent": "- [パイプラインスケジュール](https://gitlab.com/help/user/project/pipelines/schedules) 機能を使用する"
+      },
+      {
+        "row": 8,
+        "rowsha": "ctc26iUqPlhT0yy6tpTKtTDDgjj+o+2sXh0KKhf+wzo=",
+        "originContent": "- Each run of the task will generate a DNS backup stored as a downloadable artifact",
+        "translatedContent": "- タスクの各実行で、ダウンロード可能なアーティファクトとして保存されるDNSバックアップが生成される"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "1yCoKNoREHM/a6qGHb4WHakxWqjS55ccm8ypI1TWTPM=",
+        "originContent": "# Contributing",
+        "translatedContent": "# 貢献"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "kJ6CxgnRBYlxQqbtatF2UWfh0TFWCp+UqUDBkF2lhXg=",
+        "originContent": "> Any help and suggestions are very welcome and appreciated. Start by opening an [issue](https://github.com/lfaoro/flares/issues/new).",
+        "translatedContent": "> どんな助けや提案も大歓迎で感謝します。まずは [issue](https://github.com/lfaoro/flares/issues/new) を開いてください。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "d96i1KiIQ1msiddMQLUnZIRnuLaBAVxZ4rucCroZX8c=",
+        "originContent": "- Fork the project",
+        "translatedContent": "- プロジェクトをフォークする"
+      },
+      {
+        "row": 15,
+        "rowsha": "4ELGjIJhT7hJC2CXSpBaBQbsZ4ZW1+gAJWMtM/nYtCc=",
+        "originContent": "- Create your feature branch `git checkout -b my-new-feature`",
+        "translatedContent": "- 新しい機能ブランチを作成する `git checkout -b my-new-feature`"
+      },
+      {
+        "row": 16,
+        "rowsha": "xrIbEVSvx+lLtVocJKvfjQuprtvStEMYq9Y7g3Usr6Y=",
+        "originContent": "- Commit your changes `git commit -am 'Add my feature'`",
+        "translatedContent": "- 変更をコミットする `git commit -am 'Add my feature'`"
+      },
+      {
+        "row": 17,
+        "rowsha": "iiHlX3K5KxF+Ho0sZaSBXsua44XhNJy2GFdXwy/6qlM=",
+        "originContent": "- Push to the branch `git push origin my-new-feature`",
+        "translatedContent": "- ブランチにプッシュする `git push origin my-new-feature`"
+      },
+      {
+        "row": 18,
+        "rowsha": "k09O06geyVtfEq2a76mtWX7vOVWGLyPF/FnjTWSoaQU=",
+        "originContent": "- Create a new pull request against the master branch",
+        "translatedContent": "- マスターブランチに対してプルリクエストを作成する"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
