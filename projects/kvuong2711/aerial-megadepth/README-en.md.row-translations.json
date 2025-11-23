@@ -1,0 +1,836 @@
+[
+  {
+    "row": 1,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "WTL4l/PbyucvGRUnWgmOantDIRikBE7W59wiZQ07i80=",
+    "originContent": "# AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis",
+    "translatedContent": "# AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "v8Xvy443frO5P3c98Ld0IFyr82LLatmOWBUTBsKv5rA=",
+    "originContent": "[Khiem Vuong](https://www.khiemvuong.com/), [Anurag Ghosh](https://anuragxel.github.io/), [Deva Ramanan*](https://www.cs.cmu.edu/~deva), [Srinivasa Narasimhan*](https://www.cs.cmu.edu/~srinivas), [Shubham Tulsiani*](https://shubhtuls.github.io/)",
+    "translatedContent": "[Khiem Vuong](https://www.khiemvuong.com/), [Anurag Ghosh](https://anuragxel.github.io/), [Deva Ramanan*](https://www.cs.cmu.edu/~deva), [Srinivasa Narasimhan*](https://www.cs.cmu.edu/~srinivas), [Shubham Tulsiani*](https://shubhtuls.github.io/)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "YXlGXneleGHLPxn6OYeYC+Km4Gqh/gebZpFlRTxdPxQ=",
+    "originContent": "**CVPR 2025**",
+    "translatedContent": "**CVPR 2025**"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "sJUPnoFKu9cq8mGJPm6jd1NRdn4+TBFo6hP4eHBkxSw=",
+    "originContent": "[[`arXiv`](https://arxiv.org/abs/2504.13157)]",
+    "translatedContent": "[[`arXiv`](https://arxiv.org/abs/2504.13157)]"
+  },
+  {
+    "row": 10,
+    "rowsha": "z9h+cGJeIBTCyAKF98uTg+lWNT3xtjRSVyD1Albus6s=",
+    "originContent": "[[`Project Page`](https://aerial-megadepth.github.io/)]",
+    "translatedContent": "[[`Project Page`](https://aerial-megadepth.github.io/)]"
+  },
+  {
+    "row": 11,
+    "rowsha": "PywbcmF1puD4ucqx8KqLZVY+oTx3FkkBz+IfT9NVnJY=",
+    "originContent": "[[`3D Web Viewer`](https://aerial-megadepth.github.io/web-viewer/)]",
+    "translatedContent": "[[`3D Web Viewer`](https://aerial-megadepth.github.io/web-viewer/)]"
+  },
+  {
+    "row": 12,
+    "rowsha": "YIQ5ViZGCnIRTo0Gbvvvik6vydDKVj09F2gPw2A38BA=",
+    "originContent": "[[`Bibtex`](#citation)]",
+    "translatedContent": "[[`Bibtex`](#citation)]"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "emfsieLHJxhCu2sXgMitGit2I4Fne780BNIqkDSCv5A=",
+    "originContent": "## 📢 News",
+    "translatedContent": "## 📢 News"
+  },
+  {
+    "row": 17,
+    "rowsha": "nv7Ofj2bTce2c7UTt5WxZcXusrmAV1EB7vWmDRlmmR4=",
+    "originContent": "- (Sep 5, 2025): We have moved the full dataset to HuggingFace to make it easier to download. Please refer to [data_generation](data_generation) for full instructions.",
+    "translatedContent": "- (Sep 5, 2025): We have moved the full dataset to HuggingFace to make it easier to download. Please refer to [data_generation](data_generation) for full instructions."
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+    "originContent": "## Table of Contents",
+    "translatedContent": "## Table of Contents"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+    "originContent": "- [Installation](#installation)",
+    "translatedContent": "- [Installation](#installation)"
+  },
+  {
+    "row": 22,
+    "rowsha": "5A1kV2blPs6QoyKEmFQa4E6tKg6YHlmDO3FbnzsrLUo=",
+    "originContent": "- [Quick Start](#quick-start)",
+    "translatedContent": "- [Quick Start](#quick-start)"
+  },
+  {
+    "row": 23,
+    "rowsha": "J/yMrgyV1lQOx5OFCP0qp4ayRNYj3rM4nq5DlP222mk=",
+    "originContent": "- [Evaluation](#evaluation)",
+    "translatedContent": "- [Evaluation](#evaluation)"
+  },
+  {
+    "row": 24,
+    "rowsha": "cJpTmGDgfAzCVjblSmUZrzAreJLbQDtArnnjBICTsV0=",
+    "originContent": "- [Data Generation](#data-generation)",
+    "translatedContent": "- [Data Generation](#data-generation)"
+  },
+  {
+    "row": 25,
+    "rowsha": "KB8Cki0ozr9K0qhZP5MF2ZsqcCiCVEWcyviQluR3sSE=",
+    "originContent": "- [Acknowledgement](#acknowledgement)",
+    "translatedContent": "- [Acknowledgement](#acknowledgement)"
+  },
+  {
+    "row": 26,
+    "rowsha": "rR19KDsnrs+Fn6E0u7Ks9i7Lhh938eXPX38vqMXU+cs=",
+    "originContent": "- [Citation](#citation)",
+    "translatedContent": "- [Citation](#citation)"
+  },
+  {
+    "row": 27,
+    "rowsha": "kcUhIXOPrExbRLP50JcOZdt1S9NnjTqsNDoa1vgNPlY=",
+    "originContent": "- [Issues](#issues)",
+    "translatedContent": "- [Issues](#issues)"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "dXDn3rFCTmy/dDM3zTph7TYw/EGvIkraRfAVcc6+WuY=",
+    "originContent": "## 📋 Before You Start...",
+    "translatedContent": "## 📋 Before You Start..."
+  },
+  {
+    "row": 31,
+    "rowsha": "hZp00+F36ijzl+2FNr4fubp1/6h9ACIJzUL7K+TtFFE=",
+    "originContent": "Depending on what you're interested in:",
+    "translatedContent": "Depending on what you're interested in:"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "u01sj5cDu1LHgoX+bhMNMZ/4mx4UERLO0LVn51ZFUDY=",
+    "originContent": "- 🚀 **If you want to download pretrained checkpoints and run the demo**: you can continue reading below.",
+    "translatedContent": "- 🚀 **If you want to download pretrained checkpoints and run the demo**: you can continue reading below."
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "7NWks6MjA6g/Ta/1P8vWh+/ly7+NL76cjSWyXUD5DCs=",
+    "originContent": "- 🛠️ **If you want to access or generate the dataset yourself**: please refer to [data_generation](data_generation) for full instructions.",
+    "translatedContent": "- 🛠️ **If you want to access or generate the dataset yourself**: please refer to [data_generation](data_generation) for full instructions."
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "8gcNl9ktN8VRtXePkR4U3TzAEePWla/uCUpUAsUUeMI=",
+    "originContent": "Below are the setup instructions (mostly following [MASt3R repo](https://github.com/naver/mast3r)). We follow the MASt3R setup since it encapsulates DUSt3R, but both should work similarly.",
+    "translatedContent": "Below are the setup instructions (mostly following [MASt3R repo](https://github.com/naver/mast3r)). We follow the MASt3R setup since it encapsulates DUSt3R, but both should work similarly."
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. Clone the repository:"
+  },
+  {
+    "row": 42,
+    "rowsha": "hG22SbQBn/awFhy/7NjM1QaurZuLva3Zcxx701Nf8Vo=",
+    "originContent": "1. Clone the repository:",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 44,
+    "rowsha": "s9Lp9+tZZcjUmawBvMDqaVUaIos+LjXuAPU5qhjaOUk=",
+    "originContent": "git clone --recursive https://github.com/kvuong2711/aerial-megadepth.git",
+    "translatedContent": "git clone --recursive https://github.com/kvuong2711/aerial-megadepth.git"
+  },
+  {
+    "row": 45,
+    "rowsha": "CWoG8wm/77YUWB52s8aDlR0PlQpHff1dhvqZ2BenIFc=",
+    "originContent": "cd aerial-megadepth/mast3r",
+    "translatedContent": "cd aerial-megadepth/mast3r"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "ZroZW9vBBC3pYVLybKN9DH1lVLfIOnleEcxU6qXzLL0=",
+    "originContent": "# If you already cloned the repository, you can update the submodules:",
+    "translatedContent": "# If you already cloned the repository, you can update the submodules:"
+  },
+  {
+    "row": 48,
+    "rowsha": "OudfFbL1r9zO2+RfXEM2fpPOFrk1CK+zmOvDgi4tgRc=",
+    "originContent": "# git submodule update --init --recursive",
+    "translatedContent": "# git submodule update --init --recursive"
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "p9Oif3woPJM4w8wvYGHYgqIhSr0TbJiukehDUy3+/wI=",
+    "originContent": "2. Create environment and install dependencies:",
+    "translatedContent": "2. Create environment and install dependencies:"
+  },
+  {
+    "row": 51,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 52,
+    "rowsha": "pWHZYGER+DDFkiArbsQA20eIvNdMiD4tFXXW5HgkOoM=",
+    "originContent": "conda create -n aerialmd python=3.11 cmake=3.14.0",
+    "translatedContent": "conda create -n aerialmd python=3.11 cmake=3.14.0"
+  },
+  {
+    "row": 53,
+    "rowsha": "d9kk/K4gYg1G4UXlxJo0GmP5vPUghlUMo0Dnez72TC4=",
+    "originContent": "conda activate aerialmd ",
+    "translatedContent": "conda activate aerialmd "
+  },
+  {
+    "row": 54,
+    "rowsha": "8TMi6S+2jnVV/H8ljHIgQSzLaOI9x/kTjdsuZ8TCsgo=",
+    "originContent": "conda install pytorch torchvision pytorch-cuda=12.1 -c pytorch -c nvidia  # use the correct version of cuda for your system",
+    "translatedContent": "conda install pytorch torchvision pytorch-cuda=12.1 -c pytorch -c nvidia  # use the correct version of cuda for your system"
+  },
+  {
+    "row": 55,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 56,
+    "rowsha": "VOJcADvqOcvS/TtA+ku/w79QDBivUlpRRipxKr+YMsA=",
+    "originContent": "pip install -r dust3r/requirements.txt",
+    "translatedContent": "pip install -r dust3r/requirements.txt"
+  },
+  {
+    "row": 57,
+    "rowsha": "xQpqwPaW2xywq9kViOXaenSe0PMGsPw4utOeeOoKcT8=",
+    "originContent": "pip install -r dust3r/requirements_optional.txt",
+    "translatedContent": "pip install -r dust3r/requirements_optional.txt"
+  },
+  {
+    "row": 58,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 59,
+    "rowsha": "l7N76KRAV8lU0XU9Mi3Eo1vPGId7evqHSRJJOPhnFX0=",
+    "originContent": "3. Optional, compile the cuda kernels for RoPE (as in CroCo v2):",
+    "translatedContent": "3. Optional, compile the cuda kernels for RoPE (as in CroCo v2):"
+  },
+  {
+    "row": 60,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 61,
+    "rowsha": "bXaezCPkCY9nE+2TYEI9f1Qp5QEiWdAwfWeyNb1Z87c=",
+    "originContent": "# DUST3R relies on RoPE positional embeddings for which you can compile some cuda kernels for faster runtime.",
+    "translatedContent": "# DUST3R relies on RoPE positional embeddings for which you can compile some cuda kernels for faster runtime."
+  },
+  {
+    "row": 62,
+    "rowsha": "NBUZkj5WuqoFYiTuTBIZqaucoj6v0suJJ4iNCW2hsV0=",
+    "originContent": "cd dust3r/croco/models/curope/",
+    "translatedContent": "cd dust3r/croco/models/curope/"
+  },
+  {
+    "row": 63,
+    "rowsha": "EO6iGOJXxFWOCJlIhhvRylaZpoa1R8PznZM9jDek55w=",
+    "originContent": "python setup.py build_ext --inplace",
+    "translatedContent": "python setup.py build_ext --inplace"
+  },
+  {
+    "row": 64,
+    "rowsha": "gEvxoUJs9F5fl/f2uf7tsc8cMLW21jOqaHO5Ljexo3Y=",
+    "originContent": "cd ../../../../",
+    "translatedContent": "cd ../../../../"
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## Quick Start"
+  },
+  {
+    "row": 68,
+    "rowsha": "O+7KKQEMnKQM6WNzb/xysb1yvCwGsfn5up7Hr8Q/3DE=",
+    "originContent": "Our finetuned checkpoints are fully compatible with the original DUSt3R/MASt3R/MASt3R-SfM codebase - if you already have them set up, you can simply swap the checkpoint for aerial-ground scenarios!",
+    "translatedContent": "Our finetuned checkpoints are fully compatible with the original DUSt3R/MASt3R/MASt3R-SfM codebase - if you already have them set up, you can simply swap the checkpoint for aerial-ground scenarios!"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "LMYBnBWQnuA1IAqZRv+5DrwdAjLsggVyIK0xij6ZF70=",
+    "originContent": "### Checkpoints",
+    "translatedContent": "### Checkpoints"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "Tek3jSWLOV7j6LDeg5uwkAzkGo1+tmOgjYHqU1cEqZg=",
+    "originContent": "There are two options for downloading DUSt3R and MASt3R checkpoint finetuned on our AerialMegaDepth dataset:",
+    "translatedContent": "There are two options for downloading DUSt3R and MASt3R checkpoint finetuned on our AerialMegaDepth dataset:"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "hCK+FGMfOWKuHRhFa2atGIz5R8QXQulJ1dqYK8ZVgvI=",
+    "originContent": "1. You can use our huggingface_hub integration: the models ([aerial-dust3r](https://huggingface.co/kvuong2711/checkpoint-aerial-dust3r) or [aerial-mast3r](https://huggingface.co/kvuong2711/checkpoint-aerial-mast3r)) will be downloaded automatically.",
+    "translatedContent": "1. You can use our huggingface_hub integration: the models ([aerial-dust3r](https://huggingface.co/kvuong2711/checkpoint-aerial-dust3r) or [aerial-mast3r](https://huggingface.co/kvuong2711/checkpoint-aerial-mast3r)) will be downloaded automatically."
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "YYCYqfZG+S/sF8PQIWtPZu8ToMBowPNtKGhgS5yF3lU=",
+    "originContent": "2. Or, download the checkpoints manually (using [gdown](https://github.com/wkentaro/gdown), install using `pip install gdown`):",
+    "translatedContent": "2. Or, download the checkpoints manually (using [gdown](https://github.com/wkentaro/gdown), install using `pip install gdown`):"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 79,
+    "rowsha": "ya0qND6TzYWF/VrR67YegZsyC+4ELNOlc3xcnVqD9yU=",
+    "originContent": "# you are inside aerial-megadepth/mast3r",
+    "translatedContent": "# you are inside aerial-megadepth/mast3r"
+  },
+  {
+    "row": 80,
+    "rowsha": "h7uOu06BN+buh8TKgyuA/eq4aI2lqysF8zGhRzoY/pg=",
+    "originContent": "mkdir -p checkpoints/",
+    "translatedContent": "mkdir -p checkpoints/"
+  },
+  {
+    "row": 81,
+    "rowsha": "6IRjshlhQuAz9JhGaedZ0bFmLsgGr1Wq7xqy/lg1jrg=",
+    "originContent": "gdown --fuzzy \"https://drive.google.com/open?id=1wSGpYwWeGn99J8dVWNkfefwmWMAH7LFT\" -O checkpoints/  # checkpoint-aerial-dust3r.pth",
+    "translatedContent": "gdown --fuzzy \"https://drive.google.com/open?id=1wSGpYwWeGn99J8dVWNkfefwmWMAH7LFT\" -O checkpoints/  # checkpoint-aerial-dust3r.pth"
+  },
+  {
+    "row": 82,
+    "rowsha": "lALzjfQZHzpz2rr9b2BlujTMCpv9e8QI9gm6K8EP1Fk=",
+    "originContent": "gdown --fuzzy \"https://drive.google.com/open?id=1LrRNUQRQZcVzcioyYHYYx9ImypSZpUq2\" -O checkpoints/  # checkpoint-aerial-mast3r.pth",
+    "translatedContent": "gdown --fuzzy \"https://drive.google.com/open?id=1LrRNUQRQZcVzcioyYHYYx9ImypSZpUq2\" -O checkpoints/  # checkpoint-aerial-mast3r.pth"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "+t0q9AshS95fZNLsCSaCLi1g36R5HQLHFYP/hKR63LY=",
+    "originContent": "### Inference/Demo",
+    "translatedContent": "### Inference/Demo"
+  },
+  {
+    "row": 86,
+    "rowsha": "19o4lmm3cpQvIZ3uCC293sR36pfHQKbO/yzhdy3a8Xs=",
+    "originContent": "We provide a few example images in the [assets](assets) folder for quick testing, including images from [ULTRRA challenge](https://sites.google.com/view/ultrra-wacv-2025) and [Accenture-NVS1](https://arxiv.org/pdf/2503.18711).",
+    "translatedContent": "We provide a few example images in the [assets](assets) folder for quick testing, including images from [ULTRRA challenge](https://sites.google.com/view/ultrra-wacv-2025) and [Accenture-NVS1](https://arxiv.org/pdf/2503.18711)."
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "WeQPjqUFzeaVc2rUbXmmKCNPWIiqZMwSjHsziUKegTQ=",
+    "originContent": "Each script (e.g., [demo_dust3r_nongradio.py](https://raw.githubusercontent.com/kvuong2711/aerial-megadepth/main/mast3r/demo_dust3r_nongradio.py)) contains predefined image paths to demonstrate typical use cases. You can modify the `image_list` variable inside the script to try different pairs. You can run inference using the following commands:",
+    "translatedContent": "Each script (e.g., [demo_dust3r_nongradio.py](https://raw.githubusercontent.com/kvuong2711/aerial-megadepth/main/mast3r/demo_dust3r_nongradio.py)) contains predefined image paths to demonstrate typical use cases. You can modify the `image_list` variable inside the script to try different pairs. You can run inference using the following commands:"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "BXd5eUPmga5XKD3VpBLYp1Ms/PMeqtXOwgPk5YC2Z/0=",
+    "originContent": "- DUSt3R demo code:",
+    "translatedContent": "- DUSt3R demo code:"
+  },
+  {
+    "row": 91,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 92,
+    "rowsha": "nH5kFdR+wgQDW7Mr9DndwIxNhuEDWRblf1sj8p5XhjM=",
+    "originContent": "python demo_dust3r_nongradio.py --weights kvuong2711/checkpoint-aerial-dust3r",
+    "translatedContent": "python demo_dust3r_nongradio.py --weights kvuong2711/checkpoint-aerial-dust3r"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "vBbFPaKa2km78y7CzvLt/iizBLLM8UqUKwUJbGP5FmA=",
+    "originContent": "# or, if you downloaded the checkpoints manually:",
+    "translatedContent": "# or, if you downloaded the checkpoints manually:"
+  },
+  {
+    "row": 95,
+    "rowsha": "bql9Vi4F5Y+miSkhTuQ9phvn5zE3LOSe0g8uneaD2BU=",
+    "originContent": "# python demo_dust3r_nongradio.py --weights checkpoints/checkpoint-aerial-dust3r.pth",
+    "translatedContent": "# python demo_dust3r_nongradio.py --weights checkpoints/checkpoint-aerial-dust3r.pth"
+  },
+  {
+    "row": 96,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "HaSoGKjnwCPNALkxedem2AM+qSQZQjIfG8GGxLgRuaE=",
+    "originContent": "- MASt3R demo code:",
+    "translatedContent": "- MASt3R 演示代码："
+  },
+  {
+    "row": 99,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 100,
+    "rowsha": "Ai0IZhOqI3DAECsssq7I+SxfltTgFlR/7Y3iSwJgC3o=",
+    "originContent": "python demo_mast3r_nongradio.py --weights kvuong2711/checkpoint-aerial-mast3r",
+    "translatedContent": "python demo_mast3r_nongradio.py --weights kvuong2711/checkpoint-aerial-mast3r"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "vBbFPaKa2km78y7CzvLt/iizBLLM8UqUKwUJbGP5FmA=",
+    "originContent": "# or, if you downloaded the checkpoints manually:",
+    "translatedContent": "# or, if you downloaded the checkpoints manually:"
+  },
+  {
+    "row": 103,
+    "rowsha": "UGpmGqgIeQlSv62P0gjwCZIrq0oFgf+mhWUQpBf+VxM=",
+    "originContent": "# python demo_mast3r_nongradio.py --weights checkpoints/checkpoint-aerial-mast3r.pth",
+    "translatedContent": "# python demo_mast3r_nongradio.py --weights checkpoints/checkpoint-aerial-mast3r.pth"
+  },
+  {
+    "row": 104,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 105,
+    "rowsha": "aT9ajREIYPb7DFZHyfYxfgTsX5nrOLKv11eza4DBJjc=",
+    "originContent": "![matching example](https://raw.githubusercontent.com/kvuong2711/aerial-megadepth/main/assets/figures/matches_figure.png)",
+    "translatedContent": "![matching example](https://raw.githubusercontent.com/kvuong2711/aerial-megadepth/main/assets/figures/matches_figure.png)"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "Lls8H2uTWGb5aqbRumacEGCmILhDJm7y1QAXsnORtIg=",
+    "originContent": "## Evaluation",
+    "translatedContent": "## Evaluation"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "3hQ0PA4sZD37+jW+U6BeLlxmzGt4/A8sHbtatMuWu2U=",
+    "originContent": "- [ ] **TODO:** Evaluation data will be released soon.",
+    "translatedContent": "- [ ] **TODO:** Evaluation data will be released soon."
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "ZdO0CF3qeWCwT5j05QiwdwTcjYfmh76NL2QbxlhLTRc=",
+    "originContent": "Once data is downloaded, run the evaluation script:",
+    "translatedContent": "Once data is downloaded, run the evaluation script:"
+  },
+  {
+    "row": 112,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 113,
+    "rowsha": "6VCAtONJ3bRUsYBVO9agvdm75uWWYiYdA1Zi0VGgXpo=",
+    "originContent": "python eval.py \\",
+    "translatedContent": "python eval.py \\"
+  },
+  {
+    "row": 114,
+    "rowsha": "OYg64HxogwjwIFduacdt8/N2X0Ei4QswjQmauJlQIww=",
+    "originContent": "    --weights checkpoints/checkpoint-aerial-dust3r.pth \\",
+    "translatedContent": "    --weights checkpoints/checkpoint-aerial-dust3r.pth \\"
+  },
+  {
+    "row": 115,
+    "rowsha": "XgpwprzlBWOHcvvW+4vrg5Kw1vwe87QbaQz+swiAF7M=",
+    "originContent": "    --eval_data_dir data/eval_data_release",
+    "translatedContent": "    --eval_data_dir data/eval_data_release"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "Oz8Y/KbOSKS6yxV3Ihf/s8DSlh7shK79Rxkcll+wewQ=",
+    "originContent": "This script (adapted from [PoseDiffusion](https://github.com/facebookresearch/PoseDiffusion)) reports RRA and RTA at various degree thresholds.",
+    "translatedContent": "This script (adapted from [PoseDiffusion](https://github.com/facebookresearch/PoseDiffusion)) reports RRA and RTA at various degree thresholds."
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "yDo4RKpCxMlqZ/kF/qXsG3x4F0Pd84d2WdxwLsSKRuw=",
+    "originContent": "## Data Generation",
+    "translatedContent": "## Data Generation"
+  },
+  {
+    "row": 120,
+    "rowsha": "oaJOZphKezGgAVkOnt8r5kQmoOweMzG8TF+XL7OWnWY=",
+    "originContent": "For instructions on how to download and/or generate the data, please refer to [data_generation](data_generation).",
+    "translatedContent": "For instructions on how to download and/or generate the data, please refer to [data_generation](data_generation)."
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+    "originContent": "## Acknowledgement",
+    "translatedContent": "## Acknowledgement"
+  },
+  {
+    "row": 123,
+    "rowsha": "i2tsReQidjQEfBmbxqGFunG53hvtQPqC4SlrHzCl3dA=",
+    "originContent": "This codebase builds upon many excellent open-source projects, such as [MegaDepth](https://www.cs.cornell.edu/projects/megadepth), [DUSt3R](https://github.com/naver/dust3r), [hloc](https://github.com/cvg/Hierarchical-Localization), [COLMAP](https://github.com/colmap/colmap), etc. We thank the respective authors for making their work publicly available.",
+    "translatedContent": "This codebase builds upon many excellent open-source projects, such as [MegaDepth](https://www.cs.cornell.edu/projects/megadepth), [DUSt3R](https://github.com/naver/dust3r), [hloc](https://github.com/cvg/Hierarchical-Localization), [COLMAP](https://github.com/colmap/colmap), etc. We thank the respective authors for making their work publicly available."
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "## Citation"
+  },
+  {
+    "row": 126,
+    "rowsha": "20eAZHgiXcYBV6xlHXIAwN0MLCb9skODnaOhP46IV3E=",
+    "originContent": "If you find our work to be useful in your research, please consider citing our paper:",
+    "translatedContent": "If you find our work to be useful in your research, please consider citing our paper:"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 129,
+    "rowsha": "ES/dBdRrh7ZumIYVzVixQKETZTYa2Sxgzm+7UhPsyWs=",
+    "originContent": "@inproceedings{vuong2025aerialmegadepth,",
+    "translatedContent": "@inproceedings{vuong2025aerialmegadepth,"
+  },
+  {
+    "row": 130,
+    "rowsha": "Yhkc5AH+GOhLDiSAjlQQEhIpgUxtbf7AJJdmhhYcw7k=",
+    "originContent": "  title={AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis},",
+    "translatedContent": "  title={AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis},"
+  },
+  {
+    "row": 131,
+    "rowsha": "PQSGZ8LLcs2Hwfn07prru5jGGud6epK3nx2fgqoR+Gw=",
+    "originContent": "  author={Vuong, Khiem and Ghosh, Anurag and Ramanan, Deva and Narasimhan, Srinivasa and Tulsiani, Shubham},",
+    "translatedContent": "  author={Vuong, Khiem and Ghosh, Anurag and Ramanan, Deva and Narasimhan, Srinivasa and Tulsiani, Shubham},"
+  },
+  {
+    "row": 132,
+    "rowsha": "IuLbTK6RIf/1AHEIMMS+xeW8Y5WE78EEpz/IImkCoF4=",
+    "originContent": "  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},",
+    "translatedContent": "  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},"
+  },
+  {
+    "row": 133,
+    "rowsha": "Ke27aPhsKHbgkUrooY2+2yT7HqHlYsKl8lWn5w6GeCs=",
+    "originContent": "  year={2025},",
+    "translatedContent": "  year={2025},"
+  },
+  {
+    "row": 134,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 135,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "SOHoTyczzE2dykvhN7RF5URhGMRaVtt1NdUAqSrXRZ4=",
+    "originContent": "## Issues",
+    "translatedContent": "## Issues"
+  },
+  {
+    "row": 138,
+    "rowsha": "zxMnF+f1PfuHkfNHBgWF/CXEOUUUqNh04KYNutKLoF8=",
+    "originContent": "If you have any problem/question/suggestion, feel free to create an issue or reach out directly to me via [email](https://raw.githubusercontent.com/kvuong2711/aerial-megadepth/main/mailto:kvuong@andrew.cmu.edu).",
+    "translatedContent": "If you have any problem/question/suggestion, feel free to create an issue or reach out directly to me via [email](https://raw.githubusercontent.com/kvuong2711/aerial-megadepth/main/mailto:kvuong@andrew.cmu.edu)."
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
