@@ -1,0 +1,620 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Annotator\n\n<p align=\"center\">\n  <a href=\"https://appcenter.elementary.io/com.github.phase1geo.annotator\">\n    <img src=\"https://appcenter.elementary.io/badge.svg\" alt=\"Get it on AppCenter\"/>\n  </a>\n</p>\n\n![<center><b>Main Window - Light Theme</b></center>](https://raw.githubusercontent.com/phase1geo/Annotator/master/data/screenshots/screenshot-editor.png \"Image Annotation for Elementary OS\")\n\n## Overview\n\nAnnotate your images and let a picture say 1000 words.\n\n- Load image from the file system, clipboard, or create a screenshot to annotate.\n- Add shapes, stickers, images, text, drawings, and other callouts to highlight image details.\n- Add magnifiers to enhance image details.\n- Blur out portions of the image to obfuscate data.\n- Crop, resize and add image borders.\n- Control colors, line thickness and font details.\n- Zoom support.\n- Color picker support within a loaded image.\n- Unlimited undo/redo of any change.\n- Drag-and-drop PNG copies of the annotated image.\n- Export to JPEG, PNG, TIFF, BMP, PDF, SVG and WebP image formats.\n- Support for copying annotated image to clipboard.\n- Printer support.\n\n## Installation\n\n### Debian (from source)\n\nYou will need the following dependencies to build Annotator:\n\n- meson\n- valac\n- debhelper\n- gobject-2.0\n- glib-2.0\n- libgee-0.8-dev",
+    "ContentSha": "zpJ8V9hoBy3LLkaSAx4ABKFtKuFMsNR2kAnir7wztcE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# アノテーター\n\n<p align=\"center\">\n  <a href=\"https://appcenter.elementary.io/com.github.phase1geo.annotator\">\n    <img src=\"https://appcenter.elementary.io/badge.svg\" alt=\"AppCenterで入手\"/>\n  </a>\n</p>\n\n![<center><b>メインウィンドウ - ライトテーマ</b></center>](https://raw.githubusercontent.com/phase1geo/Annotator/master/data/screenshots/screenshot-editor.png \"Elementary OS用画像注釈\")\n\n## 概要\n\n画像に注釈を付けて、1枚の写真で1000語を伝えましょう。\n\n- ファイルシステム、クリップボードから画像を読み込むか、スクリーンショットを作成して注釈を付けます。\n- 画像の詳細を強調するために、図形、ステッカー、画像、テキスト、描画、その他のコールアウトを追加します。\n- 拡大鏡を追加して画像の詳細を強調します。\n- 画像の一部をぼかしてデータを隠します。\n- トリミング、リサイズ、画像の枠線を追加します。\n- 色、線の太さ、フォントの詳細を制御します。\n- ズーム対応。\n- 読み込んだ画像内でのカラーピッカー対応。\n- 変更の無制限の元に戻す/やり直し。\n- 注釈付き画像のPNGコピーをドラッグアンドドロップ。\n- JPEG、PNG、TIFF、BMP、PDF、SVG、WebP形式でエクスポート。\n- 注釈付き画像のクリップボードへのコピー対応。\n- プリンター対応。\n\n## インストール\n\n### Debian（ソースから）\n\nAnnotatorをビルドするには以下の依存関係が必要です：\n\n- meson\n- valac\n- debhelper\n- gobject-2.0\n- glib-2.0\n- libgee-0.8-dev",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "SbWfi+TJ+yWEYcf3Vr6kcfHkzKvdQKCuMadWL+T8QWs=",
+        "originContent": "# Annotator",
+        "translatedContent": "# アノテーター"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "hJqo9dE+bylYonAwzyvv1gMkEOywGljq0/oGyv/5nGI=",
+        "originContent": "  <a href=\"https://appcenter.elementary.io/com.github.phase1geo.annotator\">",
+        "translatedContent": "  <a href=\"https://appcenter.elementary.io/com.github.phase1geo.annotator\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "jtXI6eOE77aU2OvJogyoDVFqEmm2+zsvRRCRaLoPdUw=",
+        "originContent": "    <img src=\"https://appcenter.elementary.io/badge.svg\" alt=\"Get it on AppCenter\"/>",
+        "translatedContent": "    <img src=\"https://appcenter.elementary.io/badge.svg\" alt=\"AppCenterで入手\"/>"
+      },
+      {
+        "row": 6,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "paOfcJboaJOozqdY2w0NYQE0opmDgtRZp7QI+0A43pc=",
+        "originContent": "![<center><b>Main Window - Light Theme</b></center>](https://raw.githubusercontent.com/phase1geo/Annotator/master/data/screenshots/screenshot-editor.png \"Image Annotation for Elementary OS\")",
+        "translatedContent": "![<center><b>メインウィンドウ - ライトテーマ</b></center>](https://raw.githubusercontent.com/phase1geo/Annotator/master/data/screenshots/screenshot-editor.png \"Elementary OS用画像注釈\")"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+        "originContent": "## Overview",
+        "translatedContent": "## 概要"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "d/KmH/RT1vmxHTppW4DHeC1vofCwOAJmP83k9WnZOdg=",
+        "originContent": "Annotate your images and let a picture say 1000 words.",
+        "translatedContent": "画像に注釈を付けて、1枚の写真で1000語を伝えましょう。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "YxKQuwLLfHQdwEqmd9MBxD950B91MPdKkP146+jBBm4=",
+        "originContent": "- Load image from the file system, clipboard, or create a screenshot to annotate.",
+        "translatedContent": "- ファイルシステム、クリップボードから画像を読み込むか、スクリーンショットを作成して注釈を付けます。"
+      },
+      {
+        "row": 16,
+        "rowsha": "KisRV5Nr+RhKMKMAaatddj4B57ilUjPd06aeA0rmy48=",
+        "originContent": "- Add shapes, stickers, images, text, drawings, and other callouts to highlight image details.",
+        "translatedContent": "- 画像の詳細を強調するために、図形、ステッカー、画像、テキスト、描画、その他のコールアウトを追加します。"
+      },
+      {
+        "row": 17,
+        "rowsha": "WHhJLMH9rYevjcWVInoHINNjY0IRr5B8XvmLB4fdljI=",
+        "originContent": "- Add magnifiers to enhance image details.",
+        "translatedContent": "- 拡大鏡を追加して画像の詳細を強調します。"
+      },
+      {
+        "row": 18,
+        "rowsha": "VK0r+/l7XrfJB/jsElik1qON41LujbXm7yACNRLtZXs=",
+        "originContent": "- Blur out portions of the image to obfuscate data.",
+        "translatedContent": "- 画像の一部をぼかしてデータを隠します。"
+      },
+      {
+        "row": 19,
+        "rowsha": "8fM4B5rqwoMoSsNBYSNV+1nq96ICIHnd2epqPd+tDPY=",
+        "originContent": "- Crop, resize and add image borders.",
+        "translatedContent": "- トリミング、リサイズ、画像の枠線を追加します。"
+      },
+      {
+        "row": 20,
+        "rowsha": "d2bakzWamNSNYkKz7dCaci2TFTmalpHNKiW0Dw+LFXc=",
+        "originContent": "- Control colors, line thickness and font details.",
+        "translatedContent": "- 色、線の太さ、フォントの詳細を制御します。"
+      },
+      {
+        "row": 21,
+        "rowsha": "JICjJGf49UJfvFSbo69HDzW31XrKitE6RPApzv2pdRk=",
+        "originContent": "- Zoom support.",
+        "translatedContent": "- ズーム対応。"
+      },
+      {
+        "row": 22,
+        "rowsha": "Lipf9itqeE86fjmDdi0zP4QcFfbDhj1w3Q8s/ie3mR4=",
+        "originContent": "- Color picker support within a loaded image.",
+        "translatedContent": "- 読み込んだ画像内でのカラーピッカー対応。"
+      },
+      {
+        "row": 23,
+        "rowsha": "Bit9bRohJwqfqcVxy1ZBH+yGv7dAxhH4ozA8WgYVGHU=",
+        "originContent": "- Unlimited undo/redo of any change.",
+        "translatedContent": "- 変更の無制限の元に戻す/やり直し。"
+      },
+      {
+        "row": 24,
+        "rowsha": "MCezISkuy18azb3Gk88fJH8o+sO//k9M9/sc6YREPR8=",
+        "originContent": "- Drag-and-drop PNG copies of the annotated image.",
+        "translatedContent": "- 注釈付き画像のPNGコピーをドラッグアンドドロップ。"
+      },
+      {
+        "row": 25,
+        "rowsha": "geNCxzrnKEfXzPm5Ld+cvGQjNZ4edjJsoGqMUORl9c8=",
+        "originContent": "- Export to JPEG, PNG, TIFF, BMP, PDF, SVG and WebP image formats.",
+        "translatedContent": "- JPEG、PNG、TIFF、BMP、PDF、SVG、WebP形式でエクスポート。"
+      },
+      {
+        "row": 26,
+        "rowsha": "W2E987uLiyVAlm8guYm4ltv0ln5B8AwKvbMYhRHl0Q0=",
+        "originContent": "- Support for copying annotated image to clipboard.",
+        "translatedContent": "- 注釈付き画像のクリップボードへのコピー対応。"
+      },
+      {
+        "row": 27,
+        "rowsha": "p7ghu+7z9a6Sn7by34O3uU8/zF7t7Ni/mnDwnTXUaSY=",
+        "originContent": "- Printer support.",
+        "translatedContent": "- プリンター対応。"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "4rtWcwYf2Q8vLQjzoiwoJcJIueQfNjB8I3/VZZDbBjU=",
+        "originContent": "### Debian (from source)",
+        "translatedContent": "### Debian（ソースから）"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "lve5s0jvh8KIz2yZqyyBLxeSbD0aqGsDlBUUnd3YuMc=",
+        "originContent": "You will need the following dependencies to build Annotator:",
+        "translatedContent": "Annotatorをビルドするには以下の依存関係が必要です："
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "qYtmrzEhzAaj0bRiUVYk2MFXR8ggesfutY8QLFbyJ2Q=",
+        "originContent": "- meson",
+        "translatedContent": "- meson"
+      },
+      {
+        "row": 36,
+        "rowsha": "+q9+NPL7o73ZTCVg+NhKkcwYTohlo9El8aYBxe9GMVM=",
+        "originContent": "- valac",
+        "translatedContent": "- valac"
+      },
+      {
+        "row": 37,
+        "rowsha": "MlJoeaBJbXrhjjopvYAUhZdxc5gUQqO2FHDMFsMIR7Q=",
+        "originContent": "- debhelper",
+        "translatedContent": "- debhelper"
+      },
+      {
+        "row": 38,
+        "rowsha": "4u2owsPSTMSTL7b7xv49vJg9f4naQxJwCs+KuqG3iuA=",
+        "originContent": "- gobject-2.0",
+        "translatedContent": "- gobject-2.0"
+      },
+      {
+        "row": 39,
+        "rowsha": "JmTgCX4IM48hycpJ8lzfrE/xF8yDXqdOGeldYpQIuT0=",
+        "originContent": "- glib-2.0",
+        "translatedContent": "- glib-2.0"
+      },
+      {
+        "row": 40,
+        "rowsha": "87LzSMlkVSGaZ79r/ElFM7DQ8nnR84QA0/cd6wq9WtA=",
+        "originContent": "- libgee-0.8-dev",
+        "translatedContent": "- libgee-0.8-dev"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- libgranite-dev\n- libxml2-dev\n- libgtk-3-dev\n- libhandy-1-dev\n- libwebp-dev\n\nTo install Annotator from source, run `./app install`.\n\nTo run Annotator, run `com.github.phase1geo.annotator`.\n\n### Ubuntu (PPA)\n\nYou can use the [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/) maintained by @PandaJim. The PPA supports Ubuntu 20.04+. Enter the following commands one by one\n",
+    "ContentSha": "/zWpbO6/Cg6aSoCTUSAvWqCFvBxHn0phW9DL5XNkBuA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- libgranite-dev  \n- libxml2-dev  \n- libgtk-3-dev  \n- libhandy-1-dev  \n- libwebp-dev  \n\nAnnotatorをソースからインストールするには、`./app install`を実行してください。  \n\nAnnotatorを実行するには、`com.github.phase1geo.annotator`を実行してください。  \n\n### Ubuntu (PPA)  \n\n@PandaJimが管理する[ PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/)を使用できます。PPAはUbuntu 20.04以降をサポートしています。以下のコマンドを一つずつ入力してください。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1BLrBUFzlE7g92tfzTZTc87i50fn/JNOhLqW3qMuFMg=",
+        "originContent": "- libgranite-dev",
+        "translatedContent": "- libgranite-dev  "
+      },
+      {
+        "row": 2,
+        "rowsha": "0TxZUi1Wf7qHm2Zwpx1zacWWk/OvaVBEG0ardaGxW0s=",
+        "originContent": "- libxml2-dev",
+        "translatedContent": "- libxml2-dev  "
+      },
+      {
+        "row": 3,
+        "rowsha": "mDFwaCq1kmmzn4NUwj6USdC/ecHDFttjpLHflsus050=",
+        "originContent": "- libgtk-3-dev",
+        "translatedContent": "- libgtk-3-dev  "
+      },
+      {
+        "row": 4,
+        "rowsha": "XxRZwEaV0Av97xO1+qG5qy6xOBBsMMEQ6XUXoK+nzV0=",
+        "originContent": "- libhandy-1-dev",
+        "translatedContent": "- libhandy-1-dev  "
+      },
+      {
+        "row": 5,
+        "rowsha": "8bGaNMb1mUkxSILiZq7afILj25FmaGVW0xoqd9eL+2E=",
+        "originContent": "- libwebp-dev",
+        "translatedContent": "- libwebp-dev  "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "epvvL5Mh4PUM1vCr3g3PFQ3Ttsq0lmk/cSlhs9G/mJA=",
+        "originContent": "To install Annotator from source, run `./app install`.",
+        "translatedContent": "Annotatorをソースからインストールするには、`./app install`を実行してください。  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "k40ua+FARI75FAg3GBERGuTzYwE3UfpvArrOOhSSJvk=",
+        "originContent": "To run Annotator, run `com.github.phase1geo.annotator`.",
+        "translatedContent": "Annotatorを実行するには、`com.github.phase1geo.annotator`を実行してください。  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "upqLy97B5F2KPsOBj6slwtFnfZTi7g4BN2M24JW/Lr4=",
+        "originContent": "### Ubuntu (PPA)",
+        "translatedContent": "### Ubuntu (PPA)  "
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "ha2HGq6XU3rDfVQZnRjJucDZgphO0AP5bZKglqPM86M=",
+        "originContent": "You can use the [PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/) maintained by @PandaJim. The PPA supports Ubuntu 20.04+. Enter the following commands one by one",
+        "translatedContent": "@PandaJimが管理する[ PPA](https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/annotator/)を使用できます。PPAはUbuntu 20.04以降をサポートしています。以下のコマンドを一つずつ入力してください。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```\nsudo add-apt-repository ppa:ubuntuhandbook1/annotator\nsudo apt update\nsudo apt install com.github.phase1geo.annotator\n```",
+    "ContentSha": "CUgel6AmiGyRoQW95PAnmMAVvVK/X8IehT2WMJmdsic=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nsudo add-apt-repository ppa:ubuntuhandbook1/annotator\nsudo apt update\nsudo apt install com.github.phase1geo.annotator\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "K4HEyqxl8i/aH0lJpkJsvql2yY+N04wJcYJgfTlYD6Q=",
+        "originContent": "sudo add-apt-repository ppa:ubuntuhandbook1/annotator",
+        "translatedContent": "sudo add-apt-repository ppa:ubuntuhandbook1/annotator"
+      },
+      {
+        "row": 3,
+        "rowsha": "vsYfDMWqUGKl0v9rj6v4u69Jc+N5Z5zxQIom0T0+4Mo=",
+        "originContent": "sudo apt update",
+        "translatedContent": "sudo apt update"
+      },
+      {
+        "row": 4,
+        "rowsha": "2RTmCBMgL7ZvT5R+8DPrX8TnHmAlCWfeBDBim57ZW4I=",
+        "originContent": "sudo apt install com.github.phase1geo.annotator",
+        "translatedContent": "sudo apt install com.github.phase1geo.annotator"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n### Arch Linux\n\nIf you're an Arch Linux user, there's an\n[AUR package](https://aur.archlinux.org/packages/annotator/)\n`annotator`:\n",
+    "ContentSha": "dmK5ji3nm51rwEN6PPb8+Y67+lScs/PrXQnT8OE0q2Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Arch Linux\n\nArch Linuxユーザーの場合は、\n[AURパッケージ](https://aur.archlinux.org/packages/annotator/)\n`annotator`があります：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "RQFrN56R8SItWveUdvw3XJmmo6YZk0kQVJGKa+yl2Zc=",
+        "originContent": "### Arch Linux",
+        "translatedContent": "### Arch Linux"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Zi8YHMNtJzrhl3FLFrS5u7a67K1SHJP4QAAhe2W3yj4=",
+        "originContent": "If you're an Arch Linux user, there's an",
+        "translatedContent": "Arch Linuxユーザーの場合は、"
+      },
+      {
+        "row": 5,
+        "rowsha": "bDjh+jI5qwHuu0BUgsUWYSSTZDRqs91Yb/EcIH3Cgzg=",
+        "originContent": "[AUR package](https://aur.archlinux.org/packages/annotator/)",
+        "translatedContent": "[AURパッケージ](https://aur.archlinux.org/packages/annotator/)"
+      },
+      {
+        "row": 6,
+        "rowsha": "i72n6iiAW18fs/BEXHm2GnPkdJfH3VHkUFdAE1Qm6sw=",
+        "originContent": "`annotator`:",
+        "translatedContent": "`annotator`があります："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```\n% yay -S annotator\n```",
+    "ContentSha": "Xw4Yv3tdvyCpX+YSmBAHkm6YjRQevXqvSWqB04xGqsM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n% yay -S annotator\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "u6jvpiFPCz2u3rJnWqC3YOCx71gt/h0gE6EABryQRis=",
+        "originContent": "% yay -S annotator",
+        "translatedContent": "% yay -S annotator"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n### Flatpak\n\nAdditionally, Annotator can be installed and run via Flatpak.\n\nTo build and install the Flatpak from source, run `./app flatpak`.\n\nAfterwards, you can run it via: `flatpak run com.github.phase1geo.annotator`.\n\n<p align=\"center\">\n  <a href=\"https://appcenter.elementary.io/com.github.phase1geo.annotator\">\n    <img src=\"https://appcenter.elementary.io/badge.svg\" alt=\"Get it on AppCenter\"/>\n  </a>\n</p>\n\n## Credits\n\nIncorporates `document-edit-symbolic.svg` and `image-crop-symbolic.svg` from\n[elementary/icons](https://github.com/elementary/icons/tree/main/actions/symbolic),\nunder the terms of the GPL v3.0 license.\n",
+    "ContentSha": "Ug25DAmsrLeGx2qzcAV9d5nMRVKTl8yZfdi75eB17P0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Flatpak\n\nさらに、AnnotatorはFlatpakを通じてインストールおよび実行できます。\n\nソースからFlatpakをビルドしてインストールするには、`./app flatpak`を実行してください。\n\nその後、`flatpak run com.github.phase1geo.annotator`で実行できます。\n\n<p align=\"center\">\n  <a href=\"https://appcenter.elementary.io/com.github.phase1geo.annotator\">\n    <img src=\"https://appcenter.elementary.io/badge.svg\" alt=\"AppCenterで入手\"/>\n  </a>\n</p>\n\n## クレジット\n\n[elementary/icons](https://github.com/elementary/icons/tree/main/actions/symbolic) の  \n`document-edit-symbolic.svg` と `image-crop-symbolic.svg` を組み込んでおり、  \nGPL v3.0ライセンスの条件のもとで提供されています。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Flatpak"
+      },
+      {
+        "row": 2,
+        "rowsha": "gvnWf719y9EYiuazZ0AClbm3/gD0pXb2+JNGbipj8UY=",
+        "originContent": "### Flatpak",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "さらに、AnnotatorはFlatpakを通じてインストールおよび実行できます。"
+      },
+      {
+        "row": 4,
+        "rowsha": "KH5baVHZq+2sWA7uvONvDOOv/4W4j+vRYR+WVy8g6ew=",
+        "originContent": "Additionally, Annotator can be installed and run via Flatpak.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ソースからFlatpakをビルドしてインストールするには、`./app flatpak`を実行してください。"
+      },
+      {
+        "row": 6,
+        "rowsha": "V+NPIA15tq7tiBlgx7ZccySvrb/+Bja4SLiLSukUZDg=",
+        "originContent": "To build and install the Flatpak from source, run `./app flatpak`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "その後、`flatpak run com.github.phase1geo.annotator`で実行できます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "1J+g3Ev8+aNE5KbHJntBglwnw14sk0Ow5PdKBUJ12Qk=",
+        "originContent": "Afterwards, you can run it via: `flatpak run com.github.phase1geo.annotator`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "  <a href=\"https://appcenter.elementary.io/com.github.phase1geo.annotator\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "hJqo9dE+bylYonAwzyvv1gMkEOywGljq0/oGyv/5nGI=",
+        "originContent": "  <a href=\"https://appcenter.elementary.io/com.github.phase1geo.annotator\">",
+        "translatedContent": "    <img src=\"https://appcenter.elementary.io/badge.svg\" alt=\"AppCenterで入手\"/>"
+      },
+      {
+        "row": 12,
+        "rowsha": "jtXI6eOE77aU2OvJogyoDVFqEmm2+zsvRRCRaLoPdUw=",
+        "originContent": "    <img src=\"https://appcenter.elementary.io/badge.svg\" alt=\"Get it on AppCenter\"/>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 14,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## クレジット"
+      },
+      {
+        "row": 16,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[elementary/icons](https://github.com/elementary/icons/tree/main/actions/symbolic) の  "
+      },
+      {
+        "row": 18,
+        "rowsha": "KPhHa0cn8xl3sMoOlmDAJV4JKkuJ/GUJLNNU+QOfEhg=",
+        "originContent": "Incorporates `document-edit-symbolic.svg` and `image-crop-symbolic.svg` from",
+        "translatedContent": "`document-edit-symbolic.svg` と `image-crop-symbolic.svg` を組み込んでおり、  "
+      },
+      {
+        "row": 19,
+        "rowsha": "eLGhtwLiAG32WjIx4iX0jcGTE7t5zpNK2BxRQ1iTlAs=",
+        "originContent": "[elementary/icons](https://github.com/elementary/icons/tree/main/actions/symbolic),",
+        "translatedContent": "GPL v3.0ライセンスの条件のもとで提供されています。"
+      },
+      {
+        "row": 20,
+        "rowsha": "tKbyoWWluGbXkgl2ZNyumg7BjOw0jEKUUI5Zs4zyD2A=",
+        "originContent": "under the terms of the GPL v3.0 license.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
