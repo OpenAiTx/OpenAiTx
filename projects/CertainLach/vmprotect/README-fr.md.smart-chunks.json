@@ -1,0 +1,1037 @@
+[
+  {
+    "Id": 1,
+    "Content": "# vmprotect ![crates.io](https://img.shields.io/crates/v/vmprotect.svg)\n\nWIP VMProtect SDK for rust\n\n## Basic VMProtect features\n\n### `protected` attribute\n\nYou need to add [this script](https://raw.githubusercontent.com/CertainLach/vmprotect/master/./script.lua) to vmprotect project for this attribute\n\nSyntax:\n",
+    "ContentSha": "aVJLeZIVnQMlI3REjzL7ESB6VJUXCE3B9vJtRli0XP0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# vmprotect ![crates.io](https://img.shields.io/crates/v/vmprotect.svg)\n\nSDK VMProtect en cours de développement pour Rust\n\n## Fonctionnalités de base de VMProtect\n\n### Attribut `protected`\n\nVous devez ajouter [ce script](https://raw.githubusercontent.com/CertainLach/vmprotect/master/./script.lua) au projet vmprotect pour cet attribut\n\nSyntaxe :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "sWJ6gfhR8OQZcErbFN7se4CaHO+O3lUArW7xAB4Ua7s=",
+        "originContent": "# vmprotect ![crates.io](https://img.shields.io/crates/v/vmprotect.svg)",
+        "translatedContent": "# vmprotect ![crates.io](https://img.shields.io/crates/v/vmprotect.svg)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "usfn6V/BpfiUQFPcbMhA5sxzkD+2h/wMYUMHjj4Lmgk=",
+        "originContent": "WIP VMProtect SDK for rust",
+        "translatedContent": "SDK VMProtect en cours de développement pour Rust"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "zbFwaXyARrEoXRfJ+A21BuXyDDpndUWclgGE43HihAk=",
+        "originContent": "## Basic VMProtect features",
+        "translatedContent": "## Fonctionnalités de base de VMProtect"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "cH4Fkp1n7lJdNGIuRiFNfPGsA1Kx+bkUS7E9wiBTqe0=",
+        "originContent": "### `protected` attribute",
+        "translatedContent": "### Attribut `protected`"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "SERvtNSbdrWh3Pcz5o2PPlucd9VQQhqTzkREvbno83M=",
+        "originContent": "You need to add [this script](https://raw.githubusercontent.com/CertainLach/vmprotect/master/./script.lua) to vmprotect project for this attribute",
+        "translatedContent": "Vous devez ajouter [ce script](https://raw.githubusercontent.com/CertainLach/vmprotect/master/./script.lua) au projet vmprotect pour cet attribut"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "InbQ77mNqBp9JcO/409kyO0XUNu1hkH79lrT8LS7I9w=",
+        "originContent": "Syntax:",
+        "translatedContent": "Syntaxe :"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```rust\n#[protected(TYPE[, lock])]\nfn some_fn() { ... }\n```",
+    "ContentSha": "GeFL8W2lcR3S/EAkqeGE48Sfva7sl5E1IdJ1d9tWlqE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\n#[protected(TYPE[, lock])]\nfn some_fn() { ... }\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "dvDmA1VWzeQYt0D0BgkCgLgq+6iDb/GhZzM04k8/nW4=",
+        "originContent": "#[protected(TYPE[, lock])]",
+        "translatedContent": "#[protected(TYPE[, lock])]"
+      },
+      {
+        "row": 3,
+        "rowsha": "+eozWnK6R7Cqp0pk7KV+DWNnS2Qi1jcKOsMCcoV5sNk=",
+        "originContent": "fn some_fn() { ... }",
+        "translatedContent": "fn some_fn() { ... }"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n- TYPE: Protection type\n- [, lock]: Require license to get this function to work.\n\nExample:\n",
+    "ContentSha": "R7q8dd3Kmjs0u4b6uliLgq3vttFGDYmo9FQAsBu86pI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- TYPE : Type de protection\n- [, verrouiller] : Nécessite une licence pour que cette fonction fonctionne.\n\nExemple :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "dai9ZmLIWZXgz+El7KPfupMLgG9dKJmwVHlaiAxPpqY=",
+        "originContent": "- TYPE: Protection type",
+        "translatedContent": "- TYPE : Type de protection"
+      },
+      {
+        "row": 3,
+        "rowsha": "hIxtFLX/q+RG62bp65oAwypac2bgD0T2FgpxUsnLCDM=",
+        "originContent": "- [, lock]: Require license to get this function to work.",
+        "translatedContent": "- [, verrouiller] : Nécessite une licence pour que cette fonction fonctionne."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "Exemple :"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```rust\n#[protected(virtualize)]\nfn stringify<T: Display>(value: T) -> String {\n    format!(\"{}\", value)\n}\n```",
+    "ContentSha": "/BFouxNwhgt23NYpoiTxt2OS2Q/Y9iNzozkQEhLEk+E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\n#[protected(virtualize)]\nfn stringify<T: Display>(value: T) -> String {\n    format!(\"{}\", value)\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "m8IrkhEKFK2m5waj8hIVuFeIiUL+9zq7tOnrcb/Nvq4=",
+        "originContent": "#[protected(virtualize)]",
+        "translatedContent": "#[protected(virtualize)]"
+      },
+      {
+        "row": 3,
+        "rowsha": "8N2pp8Tbw+rE6F6ZzmFkkjnEgyhP59sanMmTxbTzGJw=",
+        "originContent": "fn stringify<T: Display>(value: T) -> String {",
+        "translatedContent": "fn stringify<T: Display>(value: T) -> String {"
+      },
+      {
+        "row": 4,
+        "rowsha": "3O7RkERJ5nlvWhh2tdPoNvS6KkUXLFalqPrpskc5nwI=",
+        "originContent": "    format!(\"{}\", value)",
+        "translatedContent": "    format!(\"{}\", value)"
+      },
+      {
+        "row": 5,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### `protected!` macro for code\n\nSyntax:\n",
+    "ContentSha": "Sd0ymOfCn7YyZdVdZIJJel2c/Vm0fiKoAMFaDktiUXg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Macro `protected!` pour le code\n\nSyntaxe :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "rBYp45amDUXDa+A1XymhethNBWh+3+xwoulmqLgfs10=",
+        "originContent": "### `protected!` macro for code",
+        "translatedContent": "### Macro `protected!` pour le code"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "InbQ77mNqBp9JcO/409kyO0XUNu1hkH79lrT8LS7I9w=",
+        "originContent": "Syntax:",
+        "translatedContent": "Syntaxe :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```rust\nuse vmprotect::protected;\n\nprotected!(TYPE[, lock] \"NAME\"; { /*CODE*/ })\n```",
+    "ContentSha": "brz5xtqxKB2xNQjcELmoxBYfZAgLniJjE14w+iNt+zI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nuse vmprotect::protected;\n\nprotected!(TYPE[, lock] \"NAME\"; { /*CODE*/ })\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "2vkCIA7nJYQ48113RW5FcAsW0albTuDh4b3Kc3a/qOI=",
+        "originContent": "use vmprotect::protected;",
+        "translatedContent": "use vmprotect::protected;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "DSyhE8pmfcNARZD+GhjrsAnf/DHBsLBP2Qktwk0FWi4=",
+        "originContent": "protected!(TYPE[, lock] \"NAME\"; { /*CODE*/ })",
+        "translatedContent": "protected!(TYPE[, lock] \"NAME\"; { /*CODE*/ })"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n- NAME: Which name will be displayed in VMProtect GUI\n- TYPE: Protection type (mutate/virtualize/ultra per VMProtect docs)\n- [, lock]: For virtualize/ultra only, require license activation to get this function to work\n- CODE: Your code goes here\n\nProtected code block is works like any other rust block, i.e:\n",
+    "ContentSha": "U/AslnLB3Kz7LkaDt/nSOwaGz771tq/dlqIkFUB8Q+A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- NAME : Quel nom sera affiché dans l'interface graphique de VMProtect  \n- TYPE : Type de protection (muter/virtualiser/ultra selon la documentation de VMProtect)  \n- [, lock] : Pour virtualiser/ultra uniquement, nécessite l'activation de la licence pour que cette fonction fonctionne  \n- CODE : Votre code va ici  \n\nLe bloc de code protégé fonctionne comme n'importe quel autre bloc Rust, c'est-à-dire :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3YQYBxgMibzjGosP3XG6JD8tSSMBGm/QbIxFloyH0Q4=",
+        "originContent": "- NAME: Which name will be displayed in VMProtect GUI",
+        "translatedContent": "- NAME : Quel nom sera affiché dans l'interface graphique de VMProtect  "
+      },
+      {
+        "row": 3,
+        "rowsha": "xo/5mUNIjJv74GTV/dJd7TzCWfl7q2cW1k0wdvG+5/s=",
+        "originContent": "- TYPE: Protection type (mutate/virtualize/ultra per VMProtect docs)",
+        "translatedContent": "- TYPE : Type de protection (muter/virtualiser/ultra selon la documentation de VMProtect)  "
+      },
+      {
+        "row": 4,
+        "rowsha": "RWmHg4TLPKvaAZ6dULrn+zsHGe4FU8pFIXFw+7e1JuA=",
+        "originContent": "- [, lock]: For virtualize/ultra only, require license activation to get this function to work",
+        "translatedContent": "- [, lock] : Pour virtualiser/ultra uniquement, nécessite l'activation de la licence pour que cette fonction fonctionne  "
+      },
+      {
+        "row": 5,
+        "rowsha": "21fNvJyx43UTLn4xQarspP9Zx3yfa+9jfOhnOxYqCoc=",
+        "originContent": "- CODE: Your code goes here",
+        "translatedContent": "- CODE : Votre code va ici  "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "9HG+lT3JD6AKlTIwLEZZn+qmx0ZL4/nE7baTm8VAFJI=",
+        "originContent": "Protected code block is works like any other rust block, i.e:",
+        "translatedContent": "Le bloc de code protégé fonctionne comme n'importe quel autre bloc Rust, c'est-à-dire :"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```rust\nuse vmprotect::protected;\n\n// Before protection\nlet a = {2+3};\n// After protection\nlet a = protected!(virtualize \"Addiction\"; { 2 + 3 });\n```",
+    "ContentSha": "0zpEqSwKAZzPtYAiyJfG87oYYIoXvHMR1isKyO8nOaY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nuse vmprotect::protected;\n\n// Before protection\nlet a = {2+3};\n// After protection\nlet a = protected!(virtualize \"Addiction\"; { 2 + 3 });\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "2vkCIA7nJYQ48113RW5FcAsW0albTuDh4b3Kc3a/qOI=",
+        "originContent": "use vmprotect::protected;",
+        "translatedContent": "use vmprotect::protected;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "IMsVYf9pnenXz7//wa+H7CTBDOI0CC7P2/X32frBACs=",
+        "originContent": "// Before protection",
+        "translatedContent": "// Before protection"
+      },
+      {
+        "row": 5,
+        "rowsha": "oj1eUtoxfIYwmZ8LdZAAO5Uq+pD/+1LV+naylylZs3k=",
+        "originContent": "let a = {2+3};",
+        "translatedContent": "let a = {2+3};"
+      },
+      {
+        "row": 6,
+        "rowsha": "tHoyrxoe7k+F1v/UVT+zNLbX5MQJT1O61EIKzdNPz6w=",
+        "originContent": "// After protection",
+        "translatedContent": "// After protection"
+      },
+      {
+        "row": 7,
+        "rowsha": "wN9Pr004hve0+6wvgXDTACixyNcNJ7Pr+Q6zmO3wTZ4=",
+        "originContent": "let a = protected!(virtualize \"Addiction\"; { 2 + 3 });",
+        "translatedContent": "let a = protected!(virtualize \"Addiction\"; { 2 + 3 });"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nExample:\n",
+    "ContentSha": "FqOabBnJRhPDX6v502MZ7e0x7JuoEOp0ShjMzERxzMA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Exemple :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Exemple :"
+      },
+      {
+        "row": 2,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```rust\nfn main() {\n    println!(\"{} + {} = {}\", a, b, protected!(ultra \"Adding\"; {\n        a + b\n    }));\n}\n```",
+    "ContentSha": "rLs16kPyz0+REa5+tXbeLsto9BP/cqiAogNrDGg4apc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nfn main() {\n    println!(\"{} + {} = {}\", a, b, protected!(ultra \"Adding\"; {\n        a + b\n    }));\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "coebvCNPjfi9lAlxF/m6fSZazkMAKTvaJDk8E8Zr3rk=",
+        "originContent": "fn main() {",
+        "translatedContent": "fn main() {"
+      },
+      {
+        "row": 3,
+        "rowsha": "9pdvzd55cJ1yjSOZVmvES0JDNJ1ixHzBuOebrP0OD2Q=",
+        "originContent": "    println!(\"{} + {} = {}\", a, b, protected!(ultra \"Adding\"; {",
+        "translatedContent": "    println!(\"{} + {} = {}\", a, b, protected!(ultra \"Adding\"; {"
+      },
+      {
+        "row": 4,
+        "rowsha": "f0q7Y83hrmeXm70qbI5Em03IQknx8J9GR9TlEfj7OAk=",
+        "originContent": "        a + b",
+        "translatedContent": "        a + b"
+      },
+      {
+        "row": 5,
+        "rowsha": "HeCT59s27T8dRxpVTHuIduWToOJ6xYeQvcMOZu340PA=",
+        "originContent": "    }));",
+        "translatedContent": "    }));"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n### `protected!` macro for texts\n\nSyntax:\n",
+    "ContentSha": "QSWmFIfcp9gxdFwBWGLc5NDUx3yzI9DpF23lSiDCXKY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Macro `protected!` pour les textes\n\nSyntaxe :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "MVzYtEqEZBfXSrpsJ9c8TlwjR9eDxmTMJe3+26oREAA=",
+        "originContent": "### `protected!` macro for texts",
+        "translatedContent": "### Macro `protected!` pour les textes"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "InbQ77mNqBp9JcO/409kyO0XUNu1hkH79lrT8LS7I9w=",
+        "originContent": "Syntax:",
+        "translatedContent": "Syntaxe :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```rust\nuse vmprotect::protected;\n\nprotected!(TYPE \"TEXT\")\n```",
+    "ContentSha": "NdFRPK5k7MvAQoe8PM/7cyJPGphMYShqniZix1XIgHI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nuse vmprotect::protected;\n\nprotected!(TYPE \"TEXT\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "2vkCIA7nJYQ48113RW5FcAsW0albTuDh4b3Kc3a/qOI=",
+        "originContent": "use vmprotect::protected;",
+        "translatedContent": "use vmprotect::protected;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "TpAl/AFJhPAGB8B3lKeGE+xUMgazuIGnpItGTqvgZ4c=",
+        "originContent": "protected!(TYPE \"TEXT\")",
+        "translatedContent": "protected!(TYPE \"TEXT\")"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n- TYPE: Text type, possible values: cstr (for normal c strings)/cwstr (for uint16_t c strings (Used i.e in windows))\n- TEXT: Your text, should be supported by your selected text type\n\nThis macro returns string, which can be transformed to normal one. This string is freed when dropped, implementations is located at `vmprotect::strings::{encrypted_a::EncryptedStringA, encrypted_w::EncryptedStringW}`\n",
+    "ContentSha": "tf3dT4bIBnW9CqBWOarYvzX7i4KKb8bAugCWbDFJQ/c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n- TYPE : Type de texte, valeurs possibles : cstr (pour les chaînes c normales) / cwstr (pour les chaînes c uint16_t (utilisées par ex. sous Windows))\n- TEXT : Votre texte, doit être compatible avec le type de texte sélectionné\n\nCette macro renvoie une chaîne, qui peut être transformée en une chaîne normale. Cette chaîne est libérée lorsqu'elle est supprimée, l'implémentation se trouve dans `vmprotect::strings::{encrypted_a::EncryptedStringA, encrypted_w::EncryptedStringW}`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Rd2tqfdoxkjZfc0Na5Un4weJRPxkNA8tV/FkLsaYM/4=",
+        "originContent": "- TYPE: Text type, possible values: cstr (for normal c strings)/cwstr (for uint16_t c strings (Used i.e in windows))",
+        "translatedContent": "- TYPE : Type de texte, valeurs possibles : cstr (pour les chaînes c normales) / cwstr (pour les chaînes c uint16_t (utilisées par ex. sous Windows))"
+      },
+      {
+        "row": 3,
+        "rowsha": "s6IDam2paHZHxqm7XgfZ5FMcRQQ7P0hjhoQgtAcS6js=",
+        "originContent": "- TEXT: Your text, should be supported by your selected text type",
+        "translatedContent": "- TEXT : Votre texte, doit être compatible avec le type de texte sélectionné"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Ou0w/NOz+lI9zcJ5LF4CfdeJTkoO9+vNM8DQhw2qffE=",
+        "originContent": "This macro returns string, which can be transformed to normal one. This string is freed when dropped, implementations is located at `vmprotect::strings::{encrypted_a::EncryptedStringA, encrypted_w::EncryptedStringW}`",
+        "translatedContent": "Cette macro renvoie une chaîne, qui peut être transformée en une chaîne normale. Cette chaîne est libérée lorsqu'elle est supprimée, l'implémentation se trouve dans `vmprotect::strings::{encrypted_a::EncryptedStringA, encrypted_w::EncryptedStringW}`"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```rust\nuse vmprotect::protected;\n\n// Before protection\nlet a = \"Hello, world!\";\n// After protection\nlet a = protected!(cstr \"Hello, world!\");\n// Also for wide-strings:\nlet a = protected!(cwstr \"Привет, мир!\");\n```",
+    "ContentSha": "+LG1D5TCxlVePcHJvWg3IqZeYPRhu3kNUXGggoj335w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nuse vmprotect::protected;\n\n// Before protection\nlet a = \"Hello, world!\";\n// After protection\nlet a = protected!(cstr \"Hello, world!\");\n// Also for wide-strings:\nlet a = protected!(cwstr \"Привет, мир!\");\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "2vkCIA7nJYQ48113RW5FcAsW0albTuDh4b3Kc3a/qOI=",
+        "originContent": "use vmprotect::protected;",
+        "translatedContent": "use vmprotect::protected;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "IMsVYf9pnenXz7//wa+H7CTBDOI0CC7P2/X32frBACs=",
+        "originContent": "// Before protection",
+        "translatedContent": "// Before protection"
+      },
+      {
+        "row": 5,
+        "rowsha": "top0rpE2vqColyzpKAvmf47HvrFB495oae97kFORqPo=",
+        "originContent": "let a = \"Hello, world!\";",
+        "translatedContent": "let a = \"Hello, world!\";"
+      },
+      {
+        "row": 6,
+        "rowsha": "tHoyrxoe7k+F1v/UVT+zNLbX5MQJT1O61EIKzdNPz6w=",
+        "originContent": "// After protection",
+        "translatedContent": "// After protection"
+      },
+      {
+        "row": 7,
+        "rowsha": "FtuZaB+IVu+bQxrHQqibCwZj01sVyAH1PFqp4GK5POU=",
+        "originContent": "let a = protected!(cstr \"Hello, world!\");",
+        "translatedContent": "let a = protected!(cstr \"Hello, world!\");"
+      },
+      {
+        "row": 8,
+        "rowsha": "fLOGOpiFFBY3oXqHQWMPOQ25kR/MxWVpQ8hIpMW2nHA=",
+        "originContent": "// Also for wide-strings:",
+        "translatedContent": "// Also for wide-strings:"
+      },
+      {
+        "row": 9,
+        "rowsha": "X/ie+j1t5o0Qphx4A1U/jnnw2qNdTwWK4oPE1dIos4Q=",
+        "originContent": "let a = protected!(cwstr \"Привет, мир!\");",
+        "translatedContent": "let a = protected!(cwstr \"Привет, мир!\");"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nExample:\n",
+    "ContentSha": "FqOabBnJRhPDX6v502MZ7e0x7JuoEOp0ShjMzERxzMA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Exemple :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Exemple :"
+      },
+      {
+        "row": 2,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```rust\nuse vmprotect::protected;\n\nfn main() {\n    println!(\"Hello, {:?}!\", protected!(A; \"%Username%\").into() as String);\n}\n```",
+    "ContentSha": "hQtAs+chxhkN7RYqc+ADD/7Bl1zm3Cruakl5HbUlKjw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nuse vmprotect::protected;\n\nfn main() {\n    println!(\"Hello, {:?}!\", protected!(A; \"%Username%\").into() as String);\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "2vkCIA7nJYQ48113RW5FcAsW0albTuDh4b3Kc3a/qOI=",
+        "originContent": "use vmprotect::protected;",
+        "translatedContent": "use vmprotect::protected;"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "coebvCNPjfi9lAlxF/m6fSZazkMAKTvaJDk8E8Zr3rk=",
+        "originContent": "fn main() {",
+        "translatedContent": "fn main() {"
+      },
+      {
+        "row": 5,
+        "rowsha": "yjmphxVY3Jtc6v9qFLfQQPS51gq0nhpJ2NPkIl/dL7w=",
+        "originContent": "    println!(\"Hello, {:?}!\", protected!(A; \"%Username%\").into() as String);",
+        "translatedContent": "    println!(\"Hello, {:?}!\", protected!(A; \"%Username%\").into() as String);"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n## Licensing\n\nTODO Section, see docs for now\n\n### HWID\n\nExample:\n",
+    "ContentSha": "9T5H0LD0ndU63IMqRQLJvwC904+jc/NepFmOVo8KqL0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Licence\n\nSection TODO, voir la documentation pour l'instant\n\n### HWID\n\nExemple :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9kZJ9AHbaDi1PwwMKlLBj3sOUMbQcuYN6HLToKE8Jd0=",
+        "originContent": "## Licensing",
+        "translatedContent": "## Licence"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "YY1q3rkH+nEhBbMAMe8yjygtD6IqTZl+h16u27b8/Hw=",
+        "originContent": "TODO Section, see docs for now",
+        "translatedContent": "Section TODO, voir la documentation pour l'instant"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Uj3RKt4RZPB2wFa1Bh+HYdoMuECoLaYw3L1L9iXyVGk=",
+        "originContent": "### HWID",
+        "translatedContent": "### HWID"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "Exemple :"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```rust\nprintln!(\"Your hwid is \\\"{}\\\"\", vmprotect::licensing::get_hwid().to_str().unwrap());\n```",
+    "ContentSha": "NfSg65fA3cBre6cR2GLVoKNjJ/P48KJDWqHJk+BQzsc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rust\nprintln!(\"Your hwid is \\\"{}\\\"\", vmprotect::licensing::get_hwid().to_str().unwrap());\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+        "originContent": "```rust",
+        "translatedContent": "```rust"
+      },
+      {
+        "row": 2,
+        "rowsha": "cbmpkApBf5l/zFpcP8OWq6ft0BYc1gDtta8ndNB5U8w=",
+        "originContent": "println!(\"Your hwid is \\\"{}\\\"\", vmprotect::licensing::get_hwid().to_str().unwrap());",
+        "translatedContent": "println!(\"Your hwid is \\\"{}\\\"\", vmprotect::licensing::get_hwid().to_str().unwrap());"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n## Known problems\n\n### MacOS: Not enough space for the new segment in the file header\n\nCan be fixed by adding `-C link-arg=-Wl,-headerpad,0x500` to rustc args\n\nFor cargo:\n",
+    "ContentSha": "iDFd02NdtsvdVQS9omIU9Kv1h6T7pBFrEODzNzT3q0E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Problèmes connus\n\n### MacOS : Pas assez d'espace pour le nouveau segment dans l'en-tête du fichier\n\nPeut être corrigé en ajoutant `-C link-arg=-Wl,-headerpad,0x500` aux arguments de rustc\n\nPour cargo :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "fjap3f+iLNBza3+1M81U2+8yCJBJGWfcEpNgxPpgVKA=",
+        "originContent": "## Known problems",
+        "translatedContent": "## Problèmes connus"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "kvexDsPdNFzx1mfFA/S0JESrZwpBI3yD5NC4y8J4XK4=",
+        "originContent": "### MacOS: Not enough space for the new segment in the file header",
+        "translatedContent": "### MacOS : Pas assez d'espace pour le nouveau segment dans l'en-tête du fichier"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "W05MUkqNcGkDWuJZ2hWEdW27mNPAcy24NsSf4Mgsp6k=",
+        "originContent": "Can be fixed by adding `-C link-arg=-Wl,-headerpad,0x500` to rustc args",
+        "translatedContent": "Peut être corrigé en ajoutant `-C link-arg=-Wl,-headerpad,0x500` aux arguments de rustc"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "NFU0ffWb0i2QUmIuhCW2THa3Bj3tud0/Rx+rn2GpVL4=",
+        "originContent": "For cargo:",
+        "translatedContent": "Pour cargo :"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```rs\nexport RUSTFLAGS=\"-C link-arg=-Wl,-headerpad,0x500\"\n```",
+    "ContentSha": "xuJUPyWpWc82oKtFD1mOjl4mMVCB0ND4/nb8PP7dJek=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```rs\nexport RUSTFLAGS=\"-C link-arg=-Wl,-headerpad,0x500\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rOfML5LD5dSAagOskncmjikB2j/EUV16HmaZHnwlOD4=",
+        "originContent": "```rs",
+        "translatedContent": "```rs"
+      },
+      {
+        "row": 2,
+        "rowsha": "2tZp9qNojnagf+BdAqmZ9fUY+J4DS/h9rqG75P+KR6I=",
+        "originContent": "export RUSTFLAGS=\"-C link-arg=-Wl,-headerpad,0x500\"",
+        "translatedContent": "export RUSTFLAGS=\"-C link-arg=-Wl,-headerpad,0x500\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n(Based on <http://vmpsoft.com/forum/viewtopic.php?f=2&t=6837&start=15#p10527>)\n",
+    "ContentSha": "HvlNZmDJ+lk0KHUIoy60E2A0i1ID01eW7IUun52Nids=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n(Basé sur <http://vmpsoft.com/forum/viewtopic.php?f=2&t=6837&start=15#p10527>)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2e79jj1UGJJUdua7q0i6blkVgU18UMgRFY/65Xmg9gw=",
+        "originContent": "(Based on <http://vmpsoft.com/forum/viewtopic.php?f=2&t=6837&start=15#p10527>)",
+        "translatedContent": "(Basé sur <http://vmpsoft.com/forum/viewtopic.php?f=2&t=6837&start=15#p10527>)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

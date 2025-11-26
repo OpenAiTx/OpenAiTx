@@ -1,0 +1,764 @@
+[
+  {
+    "row": 1,
+    "rowsha": "sWJ6gfhR8OQZcErbFN7se4CaHO+O3lUArW7xAB4Ua7s=",
+    "originContent": "# vmprotect ![crates.io](https://img.shields.io/crates/v/vmprotect.svg)",
+    "translatedContent": "# vmprotect ![crates.io](https://img.shields.io/crates/v/vmprotect.svg)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "usfn6V/BpfiUQFPcbMhA5sxzkD+2h/wMYUMHjj4Lmgk=",
+    "originContent": "WIP VMProtect SDK for rust",
+    "translatedContent": "Rust 的 VMProtect SDK 开发中"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "zbFwaXyARrEoXRfJ+A21BuXyDDpndUWclgGE43HihAk=",
+    "originContent": "## Basic VMProtect features",
+    "translatedContent": "## 基本的 VMProtect 功能"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "cH4Fkp1n7lJdNGIuRiFNfPGsA1Kx+bkUS7E9wiBTqe0=",
+    "originContent": "### `protected` attribute",
+    "translatedContent": "### `protected` 属性"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "SERvtNSbdrWh3Pcz5o2PPlucd9VQQhqTzkREvbno83M=",
+    "originContent": "You need to add [this script](https://raw.githubusercontent.com/CertainLach/vmprotect/master/./script.lua) to vmprotect project for this attribute",
+    "translatedContent": "您需要将[此脚本](https://raw.githubusercontent.com/CertainLach/vmprotect/master/./script.lua)添加到 vmprotect 项目中以使用此属性"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "InbQ77mNqBp9JcO/409kyO0XUNu1hkH79lrT8LS7I9w=",
+    "originContent": "Syntax:",
+    "translatedContent": "语法："
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 14,
+    "rowsha": "dvDmA1VWzeQYt0D0BgkCgLgq+6iDb/GhZzM04k8/nW4=",
+    "originContent": "#[protected(TYPE[, lock])]",
+    "translatedContent": "#[protected(TYPE[, lock])]"
+  },
+  {
+    "row": 15,
+    "rowsha": "+eozWnK6R7Cqp0pk7KV+DWNnS2Qi1jcKOsMCcoV5sNk=",
+    "originContent": "fn some_fn() { ... }",
+    "translatedContent": "fn some_fn() { ... }"
+  },
+  {
+    "row": 16,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "dai9ZmLIWZXgz+El7KPfupMLgG9dKJmwVHlaiAxPpqY=",
+    "originContent": "- TYPE: Protection type",
+    "translatedContent": "- 类型：保护类型"
+  },
+  {
+    "row": 19,
+    "rowsha": "hIxtFLX/q+RG62bp65oAwypac2bgD0T2FgpxUsnLCDM=",
+    "originContent": "- [, lock]: Require license to get this function to work.",
+    "translatedContent": "- [, 锁定]：需要许可证才能使此功能正常工作。"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+    "originContent": "Example:",
+    "translatedContent": "示例："
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 24,
+    "rowsha": "m8IrkhEKFK2m5waj8hIVuFeIiUL+9zq7tOnrcb/Nvq4=",
+    "originContent": "#[protected(virtualize)]",
+    "translatedContent": "#[protected(virtualize)]"
+  },
+  {
+    "row": 25,
+    "rowsha": "8N2pp8Tbw+rE6F6ZzmFkkjnEgyhP59sanMmTxbTzGJw=",
+    "originContent": "fn stringify<T: Display>(value: T) -> String {",
+    "translatedContent": "fn stringify<T: Display>(value: T) -> String {"
+  },
+  {
+    "row": 26,
+    "rowsha": "3O7RkERJ5nlvWhh2tdPoNvS6KkUXLFalqPrpskc5nwI=",
+    "originContent": "    format!(\"{}\", value)",
+    "translatedContent": "    format!(\"{}\", value)"
+  },
+  {
+    "row": 27,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 28,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "rBYp45amDUXDa+A1XymhethNBWh+3+xwoulmqLgfs10=",
+    "originContent": "### `protected!` macro for code",
+    "translatedContent": "### 用于代码的 `protected!` 宏"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "InbQ77mNqBp9JcO/409kyO0XUNu1hkH79lrT8LS7I9w=",
+    "originContent": "Syntax:",
+    "translatedContent": "语法："
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 35,
+    "rowsha": "2vkCIA7nJYQ48113RW5FcAsW0albTuDh4b3Kc3a/qOI=",
+    "originContent": "use vmprotect::protected;",
+    "translatedContent": "use vmprotect::protected;"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "DSyhE8pmfcNARZD+GhjrsAnf/DHBsLBP2Qktwk0FWi4=",
+    "originContent": "protected!(TYPE[, lock] \"NAME\"; { /*CODE*/ })",
+    "translatedContent": "protected!(TYPE[, lock] \"NAME\"; { /*CODE*/ })"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- NAME: 在 VMProtect 界面中显示的名称"
+  },
+  {
+    "row": 40,
+    "rowsha": "3YQYBxgMibzjGosP3XG6JD8tSSMBGm/QbIxFloyH0Q4=",
+    "originContent": "- NAME: Which name will be displayed in VMProtect GUI",
+    "translatedContent": "- TYPE: 保护类型（根据 VMProtect 文档，mutate/virtualize/ultra）"
+  },
+  {
+    "row": 41,
+    "rowsha": "xo/5mUNIjJv74GTV/dJd7TzCWfl7q2cW1k0wdvG+5/s=",
+    "originContent": "- TYPE: Protection type (mutate/virtualize/ultra per VMProtect docs)",
+    "translatedContent": "- [, lock]: 仅适用于 virtualize/ultra，需要激活许可才能使用此功能"
+  },
+  {
+    "row": 42,
+    "rowsha": "RWmHg4TLPKvaAZ6dULrn+zsHGe4FU8pFIXFw+7e1JuA=",
+    "originContent": "- [, lock]: For virtualize/ultra only, require license activation to get this function to work",
+    "translatedContent": "- CODE: 你的代码写在这里"
+  },
+  {
+    "row": 43,
+    "rowsha": "21fNvJyx43UTLn4xQarspP9Zx3yfa+9jfOhnOxYqCoc=",
+    "originContent": "- CODE: Your code goes here",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "受保护的代码块工作方式与其他 Rust 代码块相同，即："
+  },
+  {
+    "row": 45,
+    "rowsha": "9HG+lT3JD6AKlTIwLEZZn+qmx0ZL4/nE7baTm8VAFJI=",
+    "originContent": "Protected code block is works like any other rust block, i.e:",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 48,
+    "rowsha": "2vkCIA7nJYQ48113RW5FcAsW0albTuDh4b3Kc3a/qOI=",
+    "originContent": "use vmprotect::protected;",
+    "translatedContent": "use vmprotect::protected;"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "IMsVYf9pnenXz7//wa+H7CTBDOI0CC7P2/X32frBACs=",
+    "originContent": "// Before protection",
+    "translatedContent": "// Before protection"
+  },
+  {
+    "row": 51,
+    "rowsha": "oj1eUtoxfIYwmZ8LdZAAO5Uq+pD/+1LV+naylylZs3k=",
+    "originContent": "let a = {2+3};",
+    "translatedContent": "let a = {2+3};"
+  },
+  {
+    "row": 52,
+    "rowsha": "tHoyrxoe7k+F1v/UVT+zNLbX5MQJT1O61EIKzdNPz6w=",
+    "originContent": "// After protection",
+    "translatedContent": "// After protection"
+  },
+  {
+    "row": 53,
+    "rowsha": "wN9Pr004hve0+6wvgXDTACixyNcNJ7Pr+Q6zmO3wTZ4=",
+    "originContent": "let a = protected!(virtualize \"Addiction\"; { 2 + 3 });",
+    "translatedContent": "let a = protected!(virtualize \"Addiction\"; { 2 + 3 });"
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "示例："
+  },
+  {
+    "row": 56,
+    "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+    "originContent": "Example:",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 59,
+    "rowsha": "coebvCNPjfi9lAlxF/m6fSZazkMAKTvaJDk8E8Zr3rk=",
+    "originContent": "fn main() {",
+    "translatedContent": "fn main() {"
+  },
+  {
+    "row": 60,
+    "rowsha": "9pdvzd55cJ1yjSOZVmvES0JDNJ1ixHzBuOebrP0OD2Q=",
+    "originContent": "    println!(\"{} + {} = {}\", a, b, protected!(ultra \"Adding\"; {",
+    "translatedContent": "    println!(\"{} + {} = {}\", a, b, protected!(ultra \"Adding\"; {"
+  },
+  {
+    "row": 61,
+    "rowsha": "f0q7Y83hrmeXm70qbI5Em03IQknx8J9GR9TlEfj7OAk=",
+    "originContent": "        a + b",
+    "translatedContent": "        a + b"
+  },
+  {
+    "row": 62,
+    "rowsha": "HeCT59s27T8dRxpVTHuIduWToOJ6xYeQvcMOZu340PA=",
+    "originContent": "    }));",
+    "translatedContent": "    }));"
+  },
+  {
+    "row": 63,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "MVzYtEqEZBfXSrpsJ9c8TlwjR9eDxmTMJe3+26oREAA=",
+    "originContent": "### `protected!` macro for texts",
+    "translatedContent": "### 文本的 `protected!` 宏"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "InbQ77mNqBp9JcO/409kyO0XUNu1hkH79lrT8LS7I9w=",
+    "originContent": "Syntax:",
+    "translatedContent": "语法："
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 71,
+    "rowsha": "2vkCIA7nJYQ48113RW5FcAsW0albTuDh4b3Kc3a/qOI=",
+    "originContent": "use vmprotect::protected;",
+    "translatedContent": "use vmprotect::protected;"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "TpAl/AFJhPAGB8B3lKeGE+xUMgazuIGnpItGTqvgZ4c=",
+    "originContent": "protected!(TYPE \"TEXT\")",
+    "translatedContent": "protected!(TYPE \"TEXT\")"
+  },
+  {
+    "row": 74,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- TYPE: 文本类型，可能的值：cstr（普通 C 字符串）/cwstr（uint16_t C 字符串（用于例如 Windows））"
+  },
+  {
+    "row": 76,
+    "rowsha": "Rd2tqfdoxkjZfc0Na5Un4weJRPxkNA8tV/FkLsaYM/4=",
+    "originContent": "- TYPE: Text type, possible values: cstr (for normal c strings)/cwstr (for uint16_t c strings (Used i.e in windows))",
+    "translatedContent": "- TEXT: 您的文本，应支持所选的文本类型"
+  },
+  {
+    "row": 77,
+    "rowsha": "s6IDam2paHZHxqm7XgfZ5FMcRQQ7P0hjhoQgtAcS6js=",
+    "originContent": "- TEXT: Your text, should be supported by your selected text type",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "该宏返回字符串，可转换为普通字符串。该字符串在释放时被释放，具体实现位于 `vmprotect::strings::{encrypted_a::EncryptedStringA, encrypted_w::EncryptedStringW}`"
+  },
+  {
+    "row": 79,
+    "rowsha": "Ou0w/NOz+lI9zcJ5LF4CfdeJTkoO9+vNM8DQhw2qffE=",
+    "originContent": "This macro returns string, which can be transformed to normal one. This string is freed when dropped, implementations is located at `vmprotect::strings::{encrypted_a::EncryptedStringA, encrypted_w::EncryptedStringW}`",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 82,
+    "rowsha": "2vkCIA7nJYQ48113RW5FcAsW0albTuDh4b3Kc3a/qOI=",
+    "originContent": "use vmprotect::protected;",
+    "translatedContent": "use vmprotect::protected;"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "IMsVYf9pnenXz7//wa+H7CTBDOI0CC7P2/X32frBACs=",
+    "originContent": "// Before protection",
+    "translatedContent": "// Before protection"
+  },
+  {
+    "row": 85,
+    "rowsha": "top0rpE2vqColyzpKAvmf47HvrFB495oae97kFORqPo=",
+    "originContent": "let a = \"Hello, world!\";",
+    "translatedContent": "let a = \"Hello, world!\";"
+  },
+  {
+    "row": 86,
+    "rowsha": "tHoyrxoe7k+F1v/UVT+zNLbX5MQJT1O61EIKzdNPz6w=",
+    "originContent": "// After protection",
+    "translatedContent": "// After protection"
+  },
+  {
+    "row": 87,
+    "rowsha": "FtuZaB+IVu+bQxrHQqibCwZj01sVyAH1PFqp4GK5POU=",
+    "originContent": "let a = protected!(cstr \"Hello, world!\");",
+    "translatedContent": "let a = protected!(cstr \"Hello, world!\");"
+  },
+  {
+    "row": 88,
+    "rowsha": "fLOGOpiFFBY3oXqHQWMPOQ25kR/MxWVpQ8hIpMW2nHA=",
+    "originContent": "// Also for wide-strings:",
+    "translatedContent": "// Also for wide-strings:"
+  },
+  {
+    "row": 89,
+    "rowsha": "X/ie+j1t5o0Qphx4A1U/jnnw2qNdTwWK4oPE1dIos4Q=",
+    "originContent": "let a = protected!(cwstr \"Привет, мир!\");",
+    "translatedContent": "let a = protected!(cwstr \"Привет, мир!\");"
+  },
+  {
+    "row": 90,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "例子："
+  },
+  {
+    "row": 92,
+    "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+    "originContent": "Example:",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 95,
+    "rowsha": "2vkCIA7nJYQ48113RW5FcAsW0albTuDh4b3Kc3a/qOI=",
+    "originContent": "use vmprotect::protected;",
+    "translatedContent": "use vmprotect::protected;"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "coebvCNPjfi9lAlxF/m6fSZazkMAKTvaJDk8E8Zr3rk=",
+    "originContent": "fn main() {",
+    "translatedContent": "fn main() {"
+  },
+  {
+    "row": 98,
+    "rowsha": "yjmphxVY3Jtc6v9qFLfQQPS51gq0nhpJ2NPkIl/dL7w=",
+    "originContent": "    println!(\"Hello, {:?}!\", protected!(A; \"%Username%\").into() as String);",
+    "translatedContent": "    println!(\"Hello, {:?}!\", protected!(A; \"%Username%\").into() as String);"
+  },
+  {
+    "row": 99,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 100,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "9kZJ9AHbaDi1PwwMKlLBj3sOUMbQcuYN6HLToKE8Jd0=",
+    "originContent": "## Licensing",
+    "translatedContent": "## 许可"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "YY1q3rkH+nEhBbMAMe8yjygtD6IqTZl+h16u27b8/Hw=",
+    "originContent": "TODO Section, see docs for now",
+    "translatedContent": "待办部分，暂时请参见文档"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "Uj3RKt4RZPB2wFa1Bh+HYdoMuECoLaYw3L1L9iXyVGk=",
+    "originContent": "### HWID",
+    "translatedContent": "### 硬件ID"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+    "originContent": "Example:",
+    "translatedContent": "示例："
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 111,
+    "rowsha": "cbmpkApBf5l/zFpcP8OWq6ft0BYc1gDtta8ndNB5U8w=",
+    "originContent": "println!(\"Your hwid is \\\"{}\\\"\", vmprotect::licensing::get_hwid().to_str().unwrap());",
+    "translatedContent": "println!(\"Your hwid is \\\"{}\\\"\", vmprotect::licensing::get_hwid().to_str().unwrap());"
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "fjap3f+iLNBza3+1M81U2+8yCJBJGWfcEpNgxPpgVKA=",
+    "originContent": "## Known problems",
+    "translatedContent": "## 已知问题"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "kvexDsPdNFzx1mfFA/S0JESrZwpBI3yD5NC4y8J4XK4=",
+    "originContent": "### MacOS: Not enough space for the new segment in the file header",
+    "translatedContent": "### MacOS：文件头中新段空间不足"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "W05MUkqNcGkDWuJZ2hWEdW27mNPAcy24NsSf4Mgsp6k=",
+    "originContent": "Can be fixed by adding `-C link-arg=-Wl,-headerpad,0x500` to rustc args",
+    "translatedContent": "可以通过向 rustc 参数添加 `-C link-arg=-Wl,-headerpad,0x500` 解决"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "NFU0ffWb0i2QUmIuhCW2THa3Bj3tud0/Rx+rn2GpVL4=",
+    "originContent": "For cargo:",
+    "translatedContent": "对于 cargo："
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "rOfML5LD5dSAagOskncmjikB2j/EUV16HmaZHnwlOD4=",
+    "originContent": "```rs",
+    "translatedContent": "```rs"
+  },
+  {
+    "row": 123,
+    "rowsha": "2tZp9qNojnagf+BdAqmZ9fUY+J4DS/h9rqG75P+KR6I=",
+    "originContent": "export RUSTFLAGS=\"-C link-arg=-Wl,-headerpad,0x500\"",
+    "translatedContent": "export RUSTFLAGS=\"-C link-arg=-Wl,-headerpad,0x500\""
+  },
+  {
+    "row": 124,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "2e79jj1UGJJUdua7q0i6blkVgU18UMgRFY/65Xmg9gw=",
+    "originContent": "(Based on <http://vmpsoft.com/forum/viewtopic.php?f=2&t=6837&start=15#p10527>)",
+    "translatedContent": "（基于 <http://vmpsoft.com/forum/viewtopic.php?f=2&t=6837&start=15#p10527>）"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
