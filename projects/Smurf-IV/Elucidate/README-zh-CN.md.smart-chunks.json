@@ -1,0 +1,599 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Elucidate\n\n- [Project Description](#project-description)\n- [System Requirements:](#os-requirements)\n- [FAQs](#faqs)\n- [roadmap](#roadmap)\n- [Screenshots](#screenshots)\n\n## Project Description\n\nElucidate is a Windows GUI front-end for the command-line SnapRAID application.\n\n*This project is continues the amalgamation of the great work done by myself and other contributors.\n\n## System Requirements\n\n- Windows Operating System\n- .Net Runtime 4.8.0\n- SnapRaid Version 11.5 or lower\n- 10MB Free Space on target drive\n\n## FAQs\n\n**Q**: What is SnapRAID?<br/>\n**A**: SnapRAID is a software-defined snapshot-parity engine for Windows and Linux operating systems. On the most basic level, it offers protection to the contents of a file-system under its umbrella by computing the hashes of its component files and storing the results on a parity file. In the event of a complete hard drive failure, this parity file can be used to reconstruct the lost data. For full detail, visit SnapRAID's [official comparison of file protection engines.](http://snapraid.sourceforge.net/compare.html)\n\n**Q**: Why a GUI, the Command Line works!<br/>\n**A**: The larger goal is to create a feature-complete GUI with additional management features designed to aid a user in maintaining a functioning SnapRAID environment. Sometimes, ‘point and clicks’ are easier for a novice to get going with. SnapRAID's technical documentation and deep configurability can make adopting it off-putting to those looking to try it out!\n\n**Q**: I'm still uncertain, is there more ?<br/>\n**A**: Yes, Have a look at the [documentation](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./docs/Documentation.md) for pictures etc.\n\n**Q**: So what are the \"Larger Goals\" ?<br/>\n**A**: See the __Roadmap__ below for a complete breakdown.\n\n## Roadmap\n\n- [x] Phase I\n  - [x] Attempt to keep up with the minimum support of the latest SnapRAID. - __On-going.__\n  - [x] Ease of use",
+    "ContentSha": "ySH+yZ98ygYtrPK9wjKaU6yLODQbrnl/oEDa0dXfekw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Elucidate\n\n- [项目描述](#project-description)\n- [系统要求](#os-requirements)\n- [常见问题](#faqs)\n- [路线图](#roadmap)\n- [截图](#screenshots)\n\n## 项目描述\n\nElucidate 是 SnapRAID 命令行应用程序的 Windows 图形用户界面前端。\n\n*该项目是我与其他贡献者共同努力的成果的延续。*\n\n## 系统要求\n\n- Windows 操作系统\n- .Net 运行时 4.8.0\n- SnapRaid 版本 11.5 或更低\n- 目标驱动器上有 10MB 空闲空间\n\n## 常见问题\n\n**问**：什么是 SnapRAID？<br/>\n**答**：SnapRAID 是一款适用于 Windows 和 Linux 操作系统的软件定义快照奇偶校验引擎。它在最基本的层面上，通过计算其组件文件的哈希值并将结果存储在奇偶校验文件中，来保护其覆盖的文件系统内容。如果发生硬盘完全故障，可以使用该奇偶校验文件重建丢失的数据。详情请访问 SnapRAID 的[文件保护引擎官方比较页面](http://snapraid.sourceforge.net/compare.html)。\n\n**问**：为什么要用图形界面，命令行不就行了吗？<br/>\n**答**：更大的目标是创建一个功能完整的图形界面，附加管理功能，帮助用户维护一个正常运行的 SnapRAID 环境。有时候，“点点点击”对于初学者来说更易上手。SnapRAID 的技术文档和深度可配置性可能让想尝试的人望而却步！\n\n**问**：我还是不确定，还有更多内容吗？<br/>\n**答**：有的，请查看[文档](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./docs/Documentation.md)了解图片等内容。\n\n**问**：“更大的目标”是什么？<br/>\n**答**：详见下方的 __路线图__。\n\n## 路线图\n\n- [x] 第一阶段\n  - [x] 尽力支持最新 SnapRAID 的最低版本。- __进行中。__\n  - [x] 易用性",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+MeBL4+Kf5TklLIeHIThM7uIFUEgMf89C7/R6BCyNPU=",
+        "originContent": "# Elucidate",
+        "translatedContent": "# Elucidate"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "sZjWJTtrQtY7jFGLobHnBz7AX/fJPNKJXwsfzD8iHTQ=",
+        "originContent": "- [Project Description](#project-description)",
+        "translatedContent": "- [项目描述](#project-description)"
+      },
+      {
+        "row": 4,
+        "rowsha": "QZVHBJ1h1YC8/wJLGbcOBCGShMgU6NZdIp0tgHUXKVs=",
+        "originContent": "- [System Requirements:](#os-requirements)",
+        "translatedContent": "- [系统要求](#os-requirements)"
+      },
+      {
+        "row": 5,
+        "rowsha": "/zH/qzKq4cZ+t0ZyEuPU9ujr42+aWCQQ7o8HRXwdBg8=",
+        "originContent": "- [FAQs](#faqs)",
+        "translatedContent": "- [常见问题](#faqs)"
+      },
+      {
+        "row": 6,
+        "rowsha": "NRXcjUTW6onZ7iwUhMNs5ibXR2n/LFeh8q1QMj2g0rc=",
+        "originContent": "- [roadmap](#roadmap)",
+        "translatedContent": "- [路线图](#roadmap)"
+      },
+      {
+        "row": 7,
+        "rowsha": "0+KUDrloA3bDnIILx8rLgTLgt/tgBRLMz30GHbgGncA=",
+        "originContent": "- [Screenshots](#screenshots)",
+        "translatedContent": "- [截图](#screenshots)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "UAvl3Lo4Oa+B4c8Rs3KkivhVMf5CJ3riNdvraQQ0wcc=",
+        "originContent": "## Project Description",
+        "translatedContent": "## 项目描述"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "+Oe4wUxYdineNB81202sFip0+w1EopNgutJcju3OoXg=",
+        "originContent": "Elucidate is a Windows GUI front-end for the command-line SnapRAID application.",
+        "translatedContent": "Elucidate 是 SnapRAID 命令行应用程序的 Windows 图形用户界面前端。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "o/p/pIfXCYYpX3GafKPO0Fi29xU1qBThizk0mDpCWwc=",
+        "originContent": "*This project is continues the amalgamation of the great work done by myself and other contributors.",
+        "translatedContent": "*该项目是我与其他贡献者共同努力的成果的延续。*"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "xR2/Mop5mguaIJjDdfZCwmuU/8AHPHGnYkhwp1/U5mY=",
+        "originContent": "## System Requirements",
+        "translatedContent": "## 系统要求"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "nr/ZSth9dRG1ixKFshgo3N8+/tDBfd0QXtkEkTFy+9U=",
+        "originContent": "- Windows Operating System",
+        "translatedContent": "- Windows 操作系统"
+      },
+      {
+        "row": 18,
+        "rowsha": "F3hQHHjTsF3CMMihTRITsh0pJWgd1mk8LL27aix9Xvk=",
+        "originContent": "- .Net Runtime 4.8.0",
+        "translatedContent": "- .Net 运行时 4.8.0"
+      },
+      {
+        "row": 19,
+        "rowsha": "eqyC/MQbqvF03cTPJoInAaKR4vq7GOAJ3SqahBQf5LM=",
+        "originContent": "- SnapRaid Version 11.5 or lower",
+        "translatedContent": "- SnapRaid 版本 11.5 或更低"
+      },
+      {
+        "row": 20,
+        "rowsha": "wl8cUPMke92GKmdmeFnmz3Ij/k61vSw/S+AW+bPcX/o=",
+        "originContent": "- 10MB Free Space on target drive",
+        "translatedContent": "- 目标驱动器上有 10MB 空闲空间"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "O9gQs7Xm0P9dduG2J0IDZ2cTJQzChzoC45KEBUc0zRc=",
+        "originContent": "## FAQs",
+        "translatedContent": "## 常见问题"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "Fd/gwj+N8pRW0NBYePn6MRO6Ehta79Xbi2rn0ceod3U=",
+        "originContent": "**Q**: What is SnapRAID?<br/>",
+        "translatedContent": "**问**：什么是 SnapRAID？<br/>"
+      },
+      {
+        "row": 25,
+        "rowsha": "oMGVavHsyy+KTJ1teie2a0Qr9Rj5hDhe9KMT/4j6mQA=",
+        "originContent": "**A**: SnapRAID is a software-defined snapshot-parity engine for Windows and Linux operating systems. On the most basic level, it offers protection to the contents of a file-system under its umbrella by computing the hashes of its component files and storing the results on a parity file. In the event of a complete hard drive failure, this parity file can be used to reconstruct the lost data. For full detail, visit SnapRAID's [official comparison of file protection engines.](http://snapraid.sourceforge.net/compare.html)",
+        "translatedContent": "**答**：SnapRAID 是一款适用于 Windows 和 Linux 操作系统的软件定义快照奇偶校验引擎。它在最基本的层面上，通过计算其组件文件的哈希值并将结果存储在奇偶校验文件中，来保护其覆盖的文件系统内容。如果发生硬盘完全故障，可以使用该奇偶校验文件重建丢失的数据。详情请访问 SnapRAID 的[文件保护引擎官方比较页面](http://snapraid.sourceforge.net/compare.html)。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Ac2YvYBbGnwZbmwjCGTZtZwp/C5178Gbhh3ZNPo/QCo=",
+        "originContent": "**Q**: Why a GUI, the Command Line works!<br/>",
+        "translatedContent": "**问**：为什么要用图形界面，命令行不就行了吗？<br/>"
+      },
+      {
+        "row": 28,
+        "rowsha": "eVBy2p0QtIv4glQQO8OWCXryqLBGsE3rqR4ImS2E0so=",
+        "originContent": "**A**: The larger goal is to create a feature-complete GUI with additional management features designed to aid a user in maintaining a functioning SnapRAID environment. Sometimes, ‘point and clicks’ are easier for a novice to get going with. SnapRAID's technical documentation and deep configurability can make adopting it off-putting to those looking to try it out!",
+        "translatedContent": "**答**：更大的目标是创建一个功能完整的图形界面，附加管理功能，帮助用户维护一个正常运行的 SnapRAID 环境。有时候，“点点点击”对于初学者来说更易上手。SnapRAID 的技术文档和深度可配置性可能让想尝试的人望而却步！"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "ozZscF9qtuV4ZBqZzPrcKGXoS8Wr4Y6hnixGkWgHq08=",
+        "originContent": "**Q**: I'm still uncertain, is there more ?<br/>",
+        "translatedContent": "**问**：我还是不确定，还有更多内容吗？<br/>"
+      },
+      {
+        "row": 31,
+        "rowsha": "550k0kxi6mytVwWRv+9BhpAK+My2B2rJmJI64F8TV90=",
+        "originContent": "**A**: Yes, Have a look at the [documentation](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./docs/Documentation.md) for pictures etc.",
+        "translatedContent": "**答**：有的，请查看[文档](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./docs/Documentation.md)了解图片等内容。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "D9vHR5wUB69hFJ/5+OI4LxCRNow97gwr/uphWobA91c=",
+        "originContent": "**Q**: So what are the \"Larger Goals\" ?<br/>",
+        "translatedContent": "**问**：“更大的目标”是什么？<br/>"
+      },
+      {
+        "row": 34,
+        "rowsha": "Q9lFtwgDt33lQK007utRXZDB6l0nAJ7jImygBmmpTZE=",
+        "originContent": "**A**: See the __Roadmap__ below for a complete breakdown.",
+        "translatedContent": "**答**：详见下方的 __路线图__。"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "uRQ4dBQEv6RHmBfuRiXr10ur0TwKlFiD+9olmuSkhDY=",
+        "originContent": "## Roadmap",
+        "translatedContent": "## 路线图"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "E9ysLZrQGMxdwmq98Gt7BdKuoKIhPV0RxtkHDW3Y4HY=",
+        "originContent": "- [x] Phase I",
+        "translatedContent": "- [x] 第一阶段"
+      },
+      {
+        "row": 39,
+        "rowsha": "02Irv9koA8gQSWjtF5nwLXEvDRbG7oOHhdVlataDwOk=",
+        "originContent": "  - [x] Attempt to keep up with the minimum support of the latest SnapRAID. - __On-going.__",
+        "translatedContent": "  - [x] 尽力支持最新 SnapRAID 的最低版本。- __进行中。__"
+      },
+      {
+        "row": 40,
+        "rowsha": "FqKWe9qkeLTCAxo2AANNrldEpri/tGnzrtzc+Hp7ajU=",
+        "originContent": "  - [x] Ease of use",
+        "translatedContent": "  - [x] 易用性"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  - [x] SnapRAID has three commands, so lets make them simple to access for a novice \n  - [x] Progress indicator(s) \n  - [x] Logging \"Interactive\" and straight to log. \n  - [x] Auto start-up on user login \n  - [x] Tool-tips to guide •\t\n\n- [x] Phase II Phase II Feature requests\n  - [x] Pause, Change priority, Abort.\n  - [x] Command Extension - \"Allow extra parameters to the defaults used.\"\n  - [x] Scheduling \n    - Removed, use the CommandLine\n  - [x] Graphical view(s) of the protected data.\n\n- [ ] Phase III (Restart for 2017-03 onwards)\n  - [x] New Compiler and .Net 4.7.x\t\n  - [x] Command Line interface\n  - [ ] New Layout via Krypton Toolkit / Navigator / etc. \n    - In Progress\n  - [ ] Translations \n  - [x] New Commands\n  - [ ] Mailer with status reports\n  - [ ] Document Test steps\n    - In Progress\n  - [ ] Add to Documentation / Update Images\n    - In Progress\n  - [ ] Add _Windows EventLog_ reporting of Errors\n  - [x] Add _ExceptionLess_ for online reporting of Exceptions\n  - [x] Show what could be recovered. \n\n- [ ] Phase IV (new SnapRAID Commands ?) \n  - [ ] Extended Help with disk recovery - interactive guides etc.. \n  - [ ] Notify the user if their SnapRAID version is outdated\n  - [ ] Interpret the SnapRAID logs (used by the changes below)\n  - [ ] Provide the status of the array following a command run\n  - [ ] Modify the sync command to include an initial diff\n  - [ ] Modify the sync command to throw a warning if the diff has reported problems above a threshold\n  - [ ] Add user configurable settings for sync threshold requirements\n\n\n## Screenshots",
+    "ContentSha": "SVdq2rCp1RFLmIGRBV46dqAlCzkQRc7GIsR2IjAhH5g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - [x] SnapRAID 有三个命令，因此让它们对新手来说更容易访问  \n  - [x] 进度指示器  \n  - [x] 日志记录“交互式”和直接写入日志。  \n  - [x] 用户登录时自动启动  \n  - [x] 工具提示指导 •\n\n- [x] 第二阶段 第二阶段功能请求  \n  - [x] 暂停、更改优先级、中止。  \n  - [x] 命令扩展 - “允许对默认参数进行额外参数设置。”  \n  - [x] 调度  \n    - 已移除，使用命令行  \n  - [x] 受保护数据的图形视图。\n\n- [ ] 第三阶段（2017-03 以后重启）  \n  - [x] 新编译器和 .Net 4.7.x  \n  - [x] 命令行界面  \n  - [ ] 通过 Krypton 工具包 / 导航器 / 等新布局  \n    - 进行中  \n  - [ ] 翻译  \n  - [x] 新命令  \n  - [ ] 带状态报告的邮件发送器  \n  - [ ] 文档测试步骤  \n    - 进行中  \n  - [ ] 添加到文档 / 更新图片  \n    - 进行中  \n  - [ ] 添加 _Windows 事件日志_ 报告错误  \n  - [x] 添加 _ExceptionLess_ 进行异常在线报告  \n  - [x] 显示可恢复内容。\n\n- [ ] 第四阶段（新的 SnapRAID 命令？）  \n  - [ ] 扩展帮助，带磁盘恢复 - 交互式指南等。  \n  - [ ] 通知用户其 SnapRAID 版本已过时  \n  - [ ] 解析 SnapRAID 日志（被以下更改使用）  \n  - [ ] 在命令运行后提供阵列状态  \n  - [ ] 修改同步命令以包含初始差异  \n  - [ ] 修改同步命令，如果差异报告的问题超过阈值则抛出警告  \n  - [ ] 添加用户可配置的同步阈值要求设置\n\n\n## 截图",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qrqPh0uMa8/sn9sP+GSqLZjvMoePHzCu0/d3IBfdEJ8=",
+        "originContent": "  - [x] SnapRAID has three commands, so lets make them simple to access for a novice ",
+        "translatedContent": "  - [x] SnapRAID 有三个命令，因此让它们对新手来说更容易访问  "
+      },
+      {
+        "row": 2,
+        "rowsha": "f1JukGq2xkcUybZBTUdFZOAd9qKmLGi0TlkbxIGZrS0=",
+        "originContent": "  - [x] Progress indicator(s) ",
+        "translatedContent": "  - [x] 进度指示器  "
+      },
+      {
+        "row": 3,
+        "rowsha": "VbsUlUdvkXIttxCWbAMTTCK8qyRc0yw93BBXyb7pD4Q=",
+        "originContent": "  - [x] Logging \"Interactive\" and straight to log. ",
+        "translatedContent": "  - [x] 日志记录“交互式”和直接写入日志。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "ZBNmIB2Jjz4g6Ik5BYmPfba3fZTC1NCx/88Exrpb++Q=",
+        "originContent": "  - [x] Auto start-up on user login ",
+        "translatedContent": "  - [x] 用户登录时自动启动  "
+      },
+      {
+        "row": 5,
+        "rowsha": "JDC+chv3Cm20oLfy4UhlLVwDWc3SFv13pAEBbN2FLBw=",
+        "originContent": "  - [x] Tool-tips to guide •\t",
+        "translatedContent": "  - [x] 工具提示指导 •"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "v5fh8Hbr0b9aa6y98lDQBk3OaKnGPnNyhPV4m1Sh2qM=",
+        "originContent": "- [x] Phase II Phase II Feature requests",
+        "translatedContent": "- [x] 第二阶段 第二阶段功能请求  "
+      },
+      {
+        "row": 8,
+        "rowsha": "Y1MiKOhK8oXXzkiT+NvdnCJn9WXWkTpwhR2QeDgXJc4=",
+        "originContent": "  - [x] Pause, Change priority, Abort.",
+        "translatedContent": "  - [x] 暂停、更改优先级、中止。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "C05YC8l1lRHSlKrkybVmwXE1WgLeUf1TYJZkl698mz4=",
+        "originContent": "  - [x] Command Extension - \"Allow extra parameters to the defaults used.\"",
+        "translatedContent": "  - [x] 命令扩展 - “允许对默认参数进行额外参数设置。”  "
+      },
+      {
+        "row": 10,
+        "rowsha": "NUfMolOhLGvmJC2+pGMJTc33EkSQ0NS1/v+7FUwgJVY=",
+        "originContent": "  - [x] Scheduling ",
+        "translatedContent": "  - [x] 调度  "
+      },
+      {
+        "row": 11,
+        "rowsha": "W2XUJcKWEnGh7qsEI1s1APUhJYEElp9CUH8cHZvQ694=",
+        "originContent": "    - Removed, use the CommandLine",
+        "translatedContent": "    - 已移除，使用命令行  "
+      },
+      {
+        "row": 12,
+        "rowsha": "eEt90h6BR+8yjpkLJlX4sGChahvpqUsbcyLcmsM2YRo=",
+        "originContent": "  - [x] Graphical view(s) of the protected data.",
+        "translatedContent": "  - [x] 受保护数据的图形视图。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "cvLGF4tK2XDyilThJn1IQ8jADoXMegIMGQVagfjb/Ug=",
+        "originContent": "- [ ] Phase III (Restart for 2017-03 onwards)",
+        "translatedContent": "- [ ] 第三阶段（2017-03 以后重启）  "
+      },
+      {
+        "row": 15,
+        "rowsha": "c6MGINKL5CAwx+rfjMyVuS9dtpDVVW7RvAyf0zoesDc=",
+        "originContent": "  - [x] New Compiler and .Net 4.7.x\t",
+        "translatedContent": "  - [x] 新编译器和 .Net 4.7.x  "
+      },
+      {
+        "row": 16,
+        "rowsha": "TA21ZJWekpFuIOwt2BY5ihrTgbjeONQ+9/ZlaLdJ7k8=",
+        "originContent": "  - [x] Command Line interface",
+        "translatedContent": "  - [x] 命令行界面  "
+      },
+      {
+        "row": 17,
+        "rowsha": "Ui3K5+nhCF8D0+jMqVtMGy/WEv4U9WZKVnGGk7cWjYk=",
+        "originContent": "  - [ ] New Layout via Krypton Toolkit / Navigator / etc. ",
+        "translatedContent": "  - [ ] 通过 Krypton 工具包 / 导航器 / 等新布局  "
+      },
+      {
+        "row": 18,
+        "rowsha": "G5zIPNmZBxQTpdYV7CbAdn2nXi1S04Rv9ZlEJyPBqGs=",
+        "originContent": "    - In Progress",
+        "translatedContent": "    - 进行中  "
+      },
+      {
+        "row": 19,
+        "rowsha": "zgyWOebk3g3jJBytx3j2FJzFsjoDfcPh2Uv8kr2us9c=",
+        "originContent": "  - [ ] Translations ",
+        "translatedContent": "  - [ ] 翻译  "
+      },
+      {
+        "row": 20,
+        "rowsha": "dVjMjjZRu5S9MH7FmYV3eSQ6YhdhxqfJZMP9Bd9HLqw=",
+        "originContent": "  - [x] New Commands",
+        "translatedContent": "  - [x] 新命令  "
+      },
+      {
+        "row": 21,
+        "rowsha": "8vsMKY1PwB2lLZaf9VqiXNpL3SNfBzWoabMP0PEcMq4=",
+        "originContent": "  - [ ] Mailer with status reports",
+        "translatedContent": "  - [ ] 带状态报告的邮件发送器  "
+      },
+      {
+        "row": 22,
+        "rowsha": "gqKBngc9rxIRvGqjOLt/lhgT7O1kFvh88XpmRSg66wc=",
+        "originContent": "  - [ ] Document Test steps",
+        "translatedContent": "  - [ ] 文档测试步骤  "
+      },
+      {
+        "row": 23,
+        "rowsha": "G5zIPNmZBxQTpdYV7CbAdn2nXi1S04Rv9ZlEJyPBqGs=",
+        "originContent": "    - In Progress",
+        "translatedContent": "    - 进行中  "
+      },
+      {
+        "row": 24,
+        "rowsha": "NJExgd44HWoaYs7TyoxpkQ8IqbWtqcGIAmF/RszjZdQ=",
+        "originContent": "  - [ ] Add to Documentation / Update Images",
+        "translatedContent": "  - [ ] 添加到文档 / 更新图片  "
+      },
+      {
+        "row": 25,
+        "rowsha": "G5zIPNmZBxQTpdYV7CbAdn2nXi1S04Rv9ZlEJyPBqGs=",
+        "originContent": "    - In Progress",
+        "translatedContent": "    - 进行中  "
+      },
+      {
+        "row": 26,
+        "rowsha": "ish0YPHEtsllNZrKQB735viSjm5YL4ZIVBK+QpPCYjI=",
+        "originContent": "  - [ ] Add _Windows EventLog_ reporting of Errors",
+        "translatedContent": "  - [ ] 添加 _Windows 事件日志_ 报告错误  "
+      },
+      {
+        "row": 27,
+        "rowsha": "qiM3VnLwvdd5/WFHniGXHgjxqWCSboMNVjTfthli36k=",
+        "originContent": "  - [x] Add _ExceptionLess_ for online reporting of Exceptions",
+        "translatedContent": "  - [x] 添加 _ExceptionLess_ 进行异常在线报告  "
+      },
+      {
+        "row": 28,
+        "rowsha": "ZT/F5CE/C/HNP41DxHftJA9W8jQbIRFK+oz/fE4AmNs=",
+        "originContent": "  - [x] Show what could be recovered. ",
+        "translatedContent": "  - [x] 显示可恢复内容。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "1Som/6jMfQK/JhInVktBMxNTKbCshudqDIp/BvS3JSQ=",
+        "originContent": "- [ ] Phase IV (new SnapRAID Commands ?) ",
+        "translatedContent": "- [ ] 第四阶段（新的 SnapRAID 命令？）  "
+      },
+      {
+        "row": 31,
+        "rowsha": "nq4qDZBcR652rrESTtLEVj3ZF8PZHJPmeiS26g6G0+0=",
+        "originContent": "  - [ ] Extended Help with disk recovery - interactive guides etc.. ",
+        "translatedContent": "  - [ ] 扩展帮助，带磁盘恢复 - 交互式指南等。  "
+      },
+      {
+        "row": 32,
+        "rowsha": "TWSDdAY0UjSG7y6q2W9Dty2Rg+RdlXmGxByDm4/K4Lk=",
+        "originContent": "  - [ ] Notify the user if their SnapRAID version is outdated",
+        "translatedContent": "  - [ ] 通知用户其 SnapRAID 版本已过时  "
+      },
+      {
+        "row": 33,
+        "rowsha": "FER8k4Wa0xoX6zY3T3a1ZMSYTuRUgCV2m0FlmcnltBE=",
+        "originContent": "  - [ ] Interpret the SnapRAID logs (used by the changes below)",
+        "translatedContent": "  - [ ] 解析 SnapRAID 日志（被以下更改使用）  "
+      },
+      {
+        "row": 34,
+        "rowsha": "PSsDbuhiXUuiPzqach9LTooP/AIxFZT+B/GjN5IueII=",
+        "originContent": "  - [ ] Provide the status of the array following a command run",
+        "translatedContent": "  - [ ] 在命令运行后提供阵列状态  "
+      },
+      {
+        "row": 35,
+        "rowsha": "dhHBZpCxUOgQp/YAfD/Vl47qw7Zu0iUySZ76HkuapoI=",
+        "originContent": "  - [ ] Modify the sync command to include an initial diff",
+        "translatedContent": "  - [ ] 修改同步命令以包含初始差异  "
+      },
+      {
+        "row": 36,
+        "rowsha": "E0VCdebEh+yFiocik/Pk+016szJWI5bm5QbJjtOvPIY=",
+        "originContent": "  - [ ] Modify the sync command to throw a warning if the diff has reported problems above a threshold",
+        "translatedContent": "  - [ ] 修改同步命令，如果差异报告的问题超过阈值则抛出警告  "
+      },
+      {
+        "row": 37,
+        "rowsha": "g46V/4ENS05Kf08JRx+0IzGJFK3RbAL//bZnWonE5vA=",
+        "originContent": "  - [ ] Add user configurable settings for sync threshold requirements",
+        "translatedContent": "  - [ ] 添加用户可配置的同步阈值要求设置"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "CrQ1XO/et1agLOmJnlaLYfcfQdvL77gCZWQqAUysVwM=",
+        "originContent": "## Screenshots",
+        "translatedContent": "## 截图"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n![Starting View](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/starting_view.png)\n\n![Settings Form](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/Settings_Form.PNG)\n\n\n## Can you Help ? \n- Looking for testers (All .Net platforms) \n- Can help translate \n- Help / User interface guides \n- Any other ideas :-) \n- Developers for the ideas \n",
+    "ContentSha": "wRBOT7ccH1k2xe0kWSr2fLYEInaSM0W9b9UIJoLSPDY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n![起始视图](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/starting_view.png)\n\n![设置表单](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/Settings_Form.PNG)\n\n\n## 你能帮忙吗？\n- 寻找测试人员（所有 .Net 平台）\n- 可以帮助翻译\n- 帮助 / 用户界面指南\n- 任何其他想法 :-)\n- 这些想法的开发者\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "q0VR1mLue2/aY3ozpmiWHtUgWRJ26sE566u7K4dLzXc=",
+        "originContent": "![Starting View](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/starting_view.png)",
+        "translatedContent": "![起始视图](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/starting_view.png)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ho7rehpcHnJU3MiJ6CdWzVUxTp9074SNQJHRCaQdk7M=",
+        "originContent": "![Settings Form](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/Settings_Form.PNG)",
+        "translatedContent": "![设置表单](https://raw.githubusercontent.com/Smurf-IV/Elucidate/master/./Images/Settings_Form.PNG)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "RUi/xBvyJrTYUilHJl1mvMvlc1ny7C56dxHRHNuJ61Q=",
+        "originContent": "## Can you Help ? ",
+        "translatedContent": "## 你能帮忙吗？"
+      },
+      {
+        "row": 8,
+        "rowsha": "tgOfnDJe4SPSvJV3ar+fb4Clp/l5WPq63O6mHnfQZIE=",
+        "originContent": "- Looking for testers (All .Net platforms) ",
+        "translatedContent": "- 寻找测试人员（所有 .Net 平台）"
+      },
+      {
+        "row": 9,
+        "rowsha": "TnBAswGhBR3wSWOXAKksDDUQ3vSeHT4jxfSSv1GJw0A=",
+        "originContent": "- Can help translate ",
+        "translatedContent": "- 可以帮助翻译"
+      },
+      {
+        "row": 10,
+        "rowsha": "5LeGeJPyqMqPEGrAH25gmMGAMKsO1hXMoodBrlwu/jQ=",
+        "originContent": "- Help / User interface guides ",
+        "translatedContent": "- 帮助 / 用户界面指南"
+      },
+      {
+        "row": 11,
+        "rowsha": "7vOGnNpGszVJQduIlUiVV5hkpBX8IzfEXh6pnNeFkyY=",
+        "originContent": "- Any other ideas :-) ",
+        "translatedContent": "- 任何其他想法 :-)"
+      },
+      {
+        "row": 12,
+        "rowsha": "7RCflp98K8ykF9FoYGa7euW+79l+BwJx7P1KSAC3ohs=",
+        "originContent": "- Developers for the ideas ",
+        "translatedContent": "- 这些想法的开发者"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
