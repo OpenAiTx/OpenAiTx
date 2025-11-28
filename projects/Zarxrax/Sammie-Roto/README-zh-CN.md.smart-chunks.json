@@ -1,0 +1,382 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n# Sammie-Roto\n**S**egment **A**nything **M**odel with **M**atting **I**ntegrated **E**legantly\n\n![Sammie-Roto screenshot](https://raw.githubusercontent.com/Zarxrax/Sammie-Roto/main/sammie/sammie_screenshot.webp)\n\nSammie-Roto is designed to be a user-friendly tool for AI assisted masking of video clips. It serves as a free alternative to commercial solutions such as Adobe’s Roto Brush or DaVinci Resolve's Magic Mask. It is generally less accurate than manual rotoscoping, but can usually give a pretty good result with little effort.\n\n## Check out the new [Sammie-Roto 2](https://github.com/Zarxrax/Sammie-Roto-2)!\n\n### Updates\n- [10/31/2025] [Sammie-Roto 2](https://github.com/Zarxrax/Sammie-Roto-2) is now out! All future updates will be on that version.\n- [09/22/2025] Added PNG Export, import image sequences, fixed bugs in matting export, and load videos via CLI.\n- [08/23/2025] Added options on the export tab to put various information into the filename.\n- [08/16/2025] Added border fix slider to help fix masks around the edge of the frame. Reduced VRAM used during matting.\n- [08/03/2025] Added deduplication to reduce chatter around edges on anime content.\n- [05/10/2025] Added support for importing/exporting single images. Export settings are now remembered.\n- [04/23/2025] Added installer for Linux/Mac, reduced VRAM consumption, several improvements and bug fixes\n- [04/04/2025] Added some adjustment sliders to the Matting page.\n- [02/26/2025] Added human video matting support though [MatAnyone](https://github.com/pq-yang/MatAnyone), along with many other improvements.\n- [01/26/2025] Initial release\n\n### Features\n- Supports Windows, Linux, and Mac\n- Simple installer automatically downloads all dependencies and models\n- Can run on as little as 4GB VRAM or even on CPU (but 6GB Nvidia GPU is recommended)\n- Includes 3 segmentation models: Sam 2.1 Large, Sam 2.1 Base+, and EfficientTAM_s_512x512.\n- Supports MatAnyone model for human video matting.\n- Easy to use interface.\n- Multi-object support.\n- Various mask postprocessing options, including edge-smoothing.\n- Supports deduplication to reduce chatter around edges on anime content.\n- Multiple export options: Black and White Matte, Alpha channel, and Greenscreen.\n\n### Installation (Windows):\n- Download latest Windows version from [releases](https://github.com/Zarxrax/Sammie-Roto/releases)\n- Extract the zip archive.\n- Run 'install_dependencies.bat' and follow the prompt.\n- Run 'run_sammie.bat' to launch the software.\n",
+    "ContentSha": "QVAKW10dFZg95Vyx8iDGJCxsWAV7bmS4yMC9CsPOc8I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# Sammie-Roto\n**S**egment **A**nything **M**odel 与 **M**atting **I**ntegrated **E**legantly\n\n![Sammie-Roto 截图](https://raw.githubusercontent.com/Zarxrax/Sammie-Roto/main/sammie/sammie_screenshot.webp)\n\nSammie-Roto 旨在成为一个用户友好的 AI 辅助视频剪辑遮罩工具。它作为 Adobe 的 Roto Brush 或 DaVinci Resolve 的 Magic Mask 等商业解决方案的免费替代品。它的准确度通常不及手动转描，但通常可以以较少的努力获得相当不错的结果。\n\n## 试试新的 [Sammie-Roto 2](https://github.com/Zarxrax/Sammie-Roto-2)！\n\n### 更新日志\n- [2025/10/31] [Sammie-Roto 2](https://github.com/Zarxrax/Sammie-Roto-2) 现已发布！所有未来更新将在该版本上进行。\n- [2025/09/22] 新增 PNG 导出、导入图像序列，修复抠像导出中的错误，支持通过命令行加载视频。\n- [2025/08/23] 在导出标签页新增选项，可将各种信息加入文件名。\n- [2025/08/16] 新增边界修复滑块，帮助修正画面边缘的遮罩。减少抠像时的显存使用。\n- [2025/08/03] 新增去重功能，减少动漫内容边缘的噪点。\n- [2025/05/10] 支持导入/导出单张图片。导出设置现可记忆。\n- [2025/04/23] 新增 Linux/Mac 安装程序，减少显存消耗，多项改进与错误修复。\n- [2025/04/04] 抠像页面新增一些调节滑块。\n- [2025/02/26] 通过 [MatAnyone](https://github.com/pq-yang/MatAnyone) 新增人体视频抠像支持，以及众多其他改进。\n- [2025/01/26] 初始发布\n\n### 功能特点\n- 支持 Windows、Linux 和 Mac\n- 简单安装程序自动下载所有依赖和模型\n- 最低可在 4GB 显存甚至 CPU 上运行（推荐使用 6GB Nvidia GPU）\n- 内置 3 个分割模型：Sam 2.1 Large、Sam 2.1 Base+ 以及 EfficientTAM_s_512x512。\n- 支持 MatAnyone 模型进行人体视频抠像。\n- 界面简洁易用。\n- 支持多对象处理。\n- 多种遮罩后处理选项，包括边缘平滑。\n- 支持去重以减少动漫内容边缘的噪点。\n- 多种导出选项：黑白遮罩、Alpha 通道和绿幕。\n\n### 安装（Windows）：\n- 从 [发布页面](https://github.com/Zarxrax/Sammie-Roto/releases) 下载最新 Windows 版本\n- 解压缩 zip 文件。\n- 运行 'install_dependencies.bat' 并按提示操作。\n- 运行 'run_sammie.bat' 启动软件。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "8wMyAni/K7cf74gajG+heQRJs796eJHjeaiHMSTjvQs=",
+        "originContent": "# Sammie-Roto",
+        "translatedContent": "# Sammie-Roto"
+      },
+      {
+        "row": 3,
+        "rowsha": "aUzbgmCmlk1PnSCQkxxP0/duGygLr+dtjxtnjbkRMDc=",
+        "originContent": "**S**egment **A**nything **M**odel with **M**atting **I**ntegrated **E**legantly",
+        "translatedContent": "**S**egment **A**nything **M**odel 与 **M**atting **I**ntegrated **E**legantly"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "bIHpMobntDBIwiLFtisTv7wdrzEkWmCJovNUX0cQBtU=",
+        "originContent": "![Sammie-Roto screenshot](https://raw.githubusercontent.com/Zarxrax/Sammie-Roto/main/sammie/sammie_screenshot.webp)",
+        "translatedContent": "![Sammie-Roto 截图](https://raw.githubusercontent.com/Zarxrax/Sammie-Roto/main/sammie/sammie_screenshot.webp)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "M7ruIqceZ4sa73Hof/x//llI3hT8pG53xB92u1mczuI=",
+        "originContent": "Sammie-Roto is designed to be a user-friendly tool for AI assisted masking of video clips. It serves as a free alternative to commercial solutions such as Adobe’s Roto Brush or DaVinci Resolve's Magic Mask. It is generally less accurate than manual rotoscoping, but can usually give a pretty good result with little effort.",
+        "translatedContent": "Sammie-Roto 旨在成为一个用户友好的 AI 辅助视频剪辑遮罩工具。它作为 Adobe 的 Roto Brush 或 DaVinci Resolve 的 Magic Mask 等商业解决方案的免费替代品。它的准确度通常不及手动转描，但通常可以以较少的努力获得相当不错的结果。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ChUBrEeVnuog8Y6Qn3e0q3mvaZPpTUYibBXfel9iyjg=",
+        "originContent": "## Check out the new [Sammie-Roto 2](https://github.com/Zarxrax/Sammie-Roto-2)!",
+        "translatedContent": "## 试试新的 [Sammie-Roto 2](https://github.com/Zarxrax/Sammie-Roto-2)！"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "UeYXUF5jqcTyPf/MPQyZEfzbLfxv4ypi3FEFzj1+S6Q=",
+        "originContent": "### Updates",
+        "translatedContent": "### 更新日志"
+      },
+      {
+        "row": 12,
+        "rowsha": "qfSX6BiHlOYdXG72kotfQM+SIM2i8iBXfgFsXoPRTsc=",
+        "originContent": "- [10/31/2025] [Sammie-Roto 2](https://github.com/Zarxrax/Sammie-Roto-2) is now out! All future updates will be on that version.",
+        "translatedContent": "- [2025/10/31] [Sammie-Roto 2](https://github.com/Zarxrax/Sammie-Roto-2) 现已发布！所有未来更新将在该版本上进行。"
+      },
+      {
+        "row": 13,
+        "rowsha": "GpGEtxynNJaWVaaSGb5AX9uxc88Fg5OXykQN0x9xjeI=",
+        "originContent": "- [09/22/2025] Added PNG Export, import image sequences, fixed bugs in matting export, and load videos via CLI.",
+        "translatedContent": "- [2025/09/22] 新增 PNG 导出、导入图像序列，修复抠像导出中的错误，支持通过命令行加载视频。"
+      },
+      {
+        "row": 14,
+        "rowsha": "rC5Czi768YX5111pCBstl55S5L1R4SmmrJBr8u7nmZs=",
+        "originContent": "- [08/23/2025] Added options on the export tab to put various information into the filename.",
+        "translatedContent": "- [2025/08/23] 在导出标签页新增选项，可将各种信息加入文件名。"
+      },
+      {
+        "row": 15,
+        "rowsha": "GNgmBzgJcZHlpftkh4TEu1U4h2kEn6LjIvB9Xeaj/qk=",
+        "originContent": "- [08/16/2025] Added border fix slider to help fix masks around the edge of the frame. Reduced VRAM used during matting.",
+        "translatedContent": "- [2025/08/16] 新增边界修复滑块，帮助修正画面边缘的遮罩。减少抠像时的显存使用。"
+      },
+      {
+        "row": 16,
+        "rowsha": "ABK20jWD/e6GBo9a5GviE8/JiBcglYmSDN3L886eUP0=",
+        "originContent": "- [08/03/2025] Added deduplication to reduce chatter around edges on anime content.",
+        "translatedContent": "- [2025/08/03] 新增去重功能，减少动漫内容边缘的噪点。"
+      },
+      {
+        "row": 17,
+        "rowsha": "05ZYl2ToiBOamzmd/FvpbPDCj0qqEXDUxiEmb24GtxE=",
+        "originContent": "- [05/10/2025] Added support for importing/exporting single images. Export settings are now remembered.",
+        "translatedContent": "- [2025/05/10] 支持导入/导出单张图片。导出设置现可记忆。"
+      },
+      {
+        "row": 18,
+        "rowsha": "7BxXmhhQ7P7xoIT/nN2v8tlr2p8osY52e+tcumILeUk=",
+        "originContent": "- [04/23/2025] Added installer for Linux/Mac, reduced VRAM consumption, several improvements and bug fixes",
+        "translatedContent": "- [2025/04/23] 新增 Linux/Mac 安装程序，减少显存消耗，多项改进与错误修复。"
+      },
+      {
+        "row": 19,
+        "rowsha": "jzluoWrmYEMC9t9cMZcEkFuFQL50TPPEQ0ljTMna+mM=",
+        "originContent": "- [04/04/2025] Added some adjustment sliders to the Matting page.",
+        "translatedContent": "- [2025/04/04] 抠像页面新增一些调节滑块。"
+      },
+      {
+        "row": 20,
+        "rowsha": "I1r6t3cv1ryoIZ+VvIlIQbq3wiusr7ySHU6dSdZT4Hg=",
+        "originContent": "- [02/26/2025] Added human video matting support though [MatAnyone](https://github.com/pq-yang/MatAnyone), along with many other improvements.",
+        "translatedContent": "- [2025/02/26] 通过 [MatAnyone](https://github.com/pq-yang/MatAnyone) 新增人体视频抠像支持，以及众多其他改进。"
+      },
+      {
+        "row": 21,
+        "rowsha": "FN8bqvllC7lHWmB3Qb82M7H79kk4JrcK82hR8prbIdQ=",
+        "originContent": "- [01/26/2025] Initial release",
+        "translatedContent": "- [2025/01/26] 初始发布"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "Va7ER4dHPfmt1CvLSeep2AEpy33nUzxb+6qMZz++7BQ=",
+        "originContent": "### Features",
+        "translatedContent": "### 功能特点"
+      },
+      {
+        "row": 24,
+        "rowsha": "JNQURs1xtLGLF23RU7gSKGb76kbxM/ec1vULsxZlxGk=",
+        "originContent": "- Supports Windows, Linux, and Mac",
+        "translatedContent": "- 支持 Windows、Linux 和 Mac"
+      },
+      {
+        "row": 25,
+        "rowsha": "CYv7bi/p8iM/DC19FEl0x7GFrSNstPB5cALEU3bzJq0=",
+        "originContent": "- Simple installer automatically downloads all dependencies and models",
+        "translatedContent": "- 简单安装程序自动下载所有依赖和模型"
+      },
+      {
+        "row": 26,
+        "rowsha": "2cBdQF71ZZaEqer060hiUJBMPJojcvPRUNo7vDW0+6M=",
+        "originContent": "- Can run on as little as 4GB VRAM or even on CPU (but 6GB Nvidia GPU is recommended)",
+        "translatedContent": "- 最低可在 4GB 显存甚至 CPU 上运行（推荐使用 6GB Nvidia GPU）"
+      },
+      {
+        "row": 27,
+        "rowsha": "ABmUOthkvK44KG+PXyOrxN+PkdNQHDVvubx2PxDjQrs=",
+        "originContent": "- Includes 3 segmentation models: Sam 2.1 Large, Sam 2.1 Base+, and EfficientTAM_s_512x512.",
+        "translatedContent": "- 内置 3 个分割模型：Sam 2.1 Large、Sam 2.1 Base+ 以及 EfficientTAM_s_512x512。"
+      },
+      {
+        "row": 28,
+        "rowsha": "dk9UqX2wbN6vgX61P53oZTmz1Dz85nbDW867CsB9JF0=",
+        "originContent": "- Supports MatAnyone model for human video matting.",
+        "translatedContent": "- 支持 MatAnyone 模型进行人体视频抠像。"
+      },
+      {
+        "row": 29,
+        "rowsha": "hwYZcFfPagxgI4fHDhbAh2enZOOoFAZKa82VdQLNLeI=",
+        "originContent": "- Easy to use interface.",
+        "translatedContent": "- 界面简洁易用。"
+      },
+      {
+        "row": 30,
+        "rowsha": "EGBjFBPL+MXinpukxGBOm59jctHZqvSciWvXGNDuiVw=",
+        "originContent": "- Multi-object support.",
+        "translatedContent": "- 支持多对象处理。"
+      },
+      {
+        "row": 31,
+        "rowsha": "4erFFM8Fe/ZqOnv5ChLAKxcczS+i9apE/wlNRvo1s7o=",
+        "originContent": "- Various mask postprocessing options, including edge-smoothing.",
+        "translatedContent": "- 多种遮罩后处理选项，包括边缘平滑。"
+      },
+      {
+        "row": 32,
+        "rowsha": "brEU5WrCeRx8UCGc8PxlqaNAE6Be+fzGTm+dt3qs+ms=",
+        "originContent": "- Supports deduplication to reduce chatter around edges on anime content.",
+        "translatedContent": "- 支持去重以减少动漫内容边缘的噪点。"
+      },
+      {
+        "row": 33,
+        "rowsha": "AlZFPgmphI69ff+37S/LmhYczV8BmJySDIdx8cZMJDQ=",
+        "originContent": "- Multiple export options: Black and White Matte, Alpha channel, and Greenscreen.",
+        "translatedContent": "- 多种导出选项：黑白遮罩、Alpha 通道和绿幕。"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "vlu9dGYuVHkWJG7lN6Xdlj4XLhWsb0FU7ihcNBRLDW4=",
+        "originContent": "### Installation (Windows):",
+        "translatedContent": "### 安装（Windows）："
+      },
+      {
+        "row": 36,
+        "rowsha": "dMjJt2uNXCiLrakDAMSqVDkVMB9ghgoz+jNhtUqTfyM=",
+        "originContent": "- Download latest Windows version from [releases](https://github.com/Zarxrax/Sammie-Roto/releases)",
+        "translatedContent": "- 从 [发布页面](https://github.com/Zarxrax/Sammie-Roto/releases) 下载最新 Windows 版本"
+      },
+      {
+        "row": 37,
+        "rowsha": "RZMPJ1DsM67gxN8kNMGy2fYKjZxYPN3iSCxAhXRCyak=",
+        "originContent": "- Extract the zip archive.",
+        "translatedContent": "- 解压缩 zip 文件。"
+      },
+      {
+        "row": 38,
+        "rowsha": "bb/yQ/NaUX7G2HjOPX38Cdl0WO4gcal/iCy6KmhINVU=",
+        "originContent": "- Run 'install_dependencies.bat' and follow the prompt.",
+        "translatedContent": "- 运行 'install_dependencies.bat' 并按提示操作。"
+      },
+      {
+        "row": 39,
+        "rowsha": "q6ab3Cor/hJN4ih9mkYhWQ4iJ/qyMi0OAJhBeoZKIMc=",
+        "originContent": "- Run 'run_sammie.bat' to launch the software.",
+        "translatedContent": "- 运行 'run_sammie.bat' 启动软件。"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "Everything is self-contained in the Sammie-Roto folder. If you want to remove the application, simply delete this folder. You can also move the folder.\n\n### Installation (Linux, Mac)\n- Ensure [Python](https://www.python.org/) is installed (version 3.10 or higher)\n- Download latest Linux/Mac version from [releases](https://github.com/Zarxrax/Sammie-Roto/releases)\n- Extract the zip archive.\n- Open a terminal and navigate to the Sammie-Roto folder that you just extracted from the zip.\n- Execute the following command: `bash install_dependencies.sh` then follow the prompt.\n- MacOS users: double-click \"run_sammie.command\" to launch the program. Linux users: `bash run_sammie.command` or execute the file however you prefer.\n\n### Tutorial\n[![Sammie-Roto Tutorial](https://img.youtube.com/vi/042uKTqlJ_c/0.jpg)](https://www.youtube.com/watch?v=042uKTqlJ_c)\n\n### Acknowledgements\n* [SAM 2](https://github.com/facebookresearch/sam2)\n* [EfficientTAM](https://github.com/yformer/EfficientTAM)\n* [MatAnyone](https://github.com/pq-yang/MatAnyone)\n* [Wan2GP](https://github.com/deepbeepmeep/Wan2GP) (for optimized MatAnyone)\n",
+    "ContentSha": "6YiHR0jnMon8ONbac+7fwQHhOHfp5TxcgSEoV8B/v2w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "所有内容都包含在 Sammie-Roto 文件夹中。如果您想删除该应用程序，只需删除此文件夹。您也可以移动该文件夹。\n\n### 安装（Linux，Mac）\n- 确保已安装 [Python](https://www.python.org/)（版本 3.10 或更高）\n- 从 [releases](https://github.com/Zarxrax/Sammie-Roto/releases) 下载最新的 Linux/Mac 版本\n- 解压缩 zip 文件。\n- 打开终端，导航到刚刚从 zip 解压的 Sammie-Roto 文件夹。\n- 执行以下命令：`bash install_dependencies.sh`，然后按照提示操作。\n- MacOS 用户：双击“run_sammie.command”以启动程序。Linux 用户：`bash run_sammie.command` 或以您喜欢的方式执行该文件。\n\n### 教程\n[![Sammie-Roto 教程](https://img.youtube.com/vi/042uKTqlJ_c/0.jpg)](https://www.youtube.com/watch?v=042uKTqlJ_c)\n\n### 致谢\n* [SAM 2](https://github.com/facebookresearch/sam2)\n* [EfficientTAM](https://github.com/yformer/EfficientTAM)\n* [MatAnyone](https://github.com/pq-yang/MatAnyone)\n* [Wan2GP](https://github.com/deepbeepmeep/Wan2GP)（用于优化 MatAnyone）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VOZQv3RJ6tBc7DNJoIcJIRxUKJSCNFSv6s1DIKkYIZY=",
+        "originContent": "Everything is self-contained in the Sammie-Roto folder. If you want to remove the application, simply delete this folder. You can also move the folder.",
+        "translatedContent": "所有内容都包含在 Sammie-Roto 文件夹中。如果您想删除该应用程序，只需删除此文件夹。您也可以移动该文件夹。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "9Yck3k6KOI7QNcweE+qGqAeEEesaIIhVgtmVFKhhwQs=",
+        "originContent": "### Installation (Linux, Mac)",
+        "translatedContent": "### 安装（Linux，Mac）"
+      },
+      {
+        "row": 4,
+        "rowsha": "Pj7IhVoUrDqy+6OLbi6X5B6IAiBse/S9w6rMlMFYOtE=",
+        "originContent": "- Ensure [Python](https://www.python.org/) is installed (version 3.10 or higher)",
+        "translatedContent": "- 确保已安装 [Python](https://www.python.org/)（版本 3.10 或更高）"
+      },
+      {
+        "row": 5,
+        "rowsha": "cXOh5nTkYxuFDu3vKP8j2y31mM34TflPt88lpU+EN8I=",
+        "originContent": "- Download latest Linux/Mac version from [releases](https://github.com/Zarxrax/Sammie-Roto/releases)",
+        "translatedContent": "- 从 [releases](https://github.com/Zarxrax/Sammie-Roto/releases) 下载最新的 Linux/Mac 版本"
+      },
+      {
+        "row": 6,
+        "rowsha": "RZMPJ1DsM67gxN8kNMGy2fYKjZxYPN3iSCxAhXRCyak=",
+        "originContent": "- Extract the zip archive.",
+        "translatedContent": "- 解压缩 zip 文件。"
+      },
+      {
+        "row": 7,
+        "rowsha": "t0LeuEq+M3eEIds2pfkQyjrLmOYWaSh5cAvnXZdEfWs=",
+        "originContent": "- Open a terminal and navigate to the Sammie-Roto folder that you just extracted from the zip.",
+        "translatedContent": "- 打开终端，导航到刚刚从 zip 解压的 Sammie-Roto 文件夹。"
+      },
+      {
+        "row": 8,
+        "rowsha": "9apEc/axnuxdL7fvHfl3DrDdAOjaZrPWpTqkBoNG1uY=",
+        "originContent": "- Execute the following command: `bash install_dependencies.sh` then follow the prompt.",
+        "translatedContent": "- 执行以下命令：`bash install_dependencies.sh`，然后按照提示操作。"
+      },
+      {
+        "row": 9,
+        "rowsha": "RPpQE0SJmlaDZfgnHgED6JT8mIvI+fuTgfyguODYlPA=",
+        "originContent": "- MacOS users: double-click \"run_sammie.command\" to launch the program. Linux users: `bash run_sammie.command` or execute the file however you prefer.",
+        "translatedContent": "- MacOS 用户：双击“run_sammie.command”以启动程序。Linux 用户：`bash run_sammie.command` 或以您喜欢的方式执行该文件。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "wogAI+hj7Ve9IiTyne7bSLyD1+PsanFxGFPmt21Yank=",
+        "originContent": "### Tutorial",
+        "translatedContent": "### 教程"
+      },
+      {
+        "row": 12,
+        "rowsha": "XYb5fxxmebkup3X/dFJ++LT449Whj66CKtsWJAUAEcI=",
+        "originContent": "[![Sammie-Roto Tutorial](https://img.youtube.com/vi/042uKTqlJ_c/0.jpg)](https://www.youtube.com/watch?v=042uKTqlJ_c)",
+        "translatedContent": "[![Sammie-Roto 教程](https://img.youtube.com/vi/042uKTqlJ_c/0.jpg)](https://www.youtube.com/watch?v=042uKTqlJ_c)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "hK4t5wQP82Nclo4jjtwdvaEvc/czcaa2remKUSd76z0=",
+        "originContent": "### Acknowledgements",
+        "translatedContent": "### 致谢"
+      },
+      {
+        "row": 15,
+        "rowsha": "JCDhhfbMnMwVN0s+PcGsBOt8oWsiMM04Z7FlFN1DDyE=",
+        "originContent": "* [SAM 2](https://github.com/facebookresearch/sam2)",
+        "translatedContent": "* [SAM 2](https://github.com/facebookresearch/sam2)"
+      },
+      {
+        "row": 16,
+        "rowsha": "NdivGW0tzJYsn8NQR5FnocdnvkhjfMlxGMyFwCW/Wy8=",
+        "originContent": "* [EfficientTAM](https://github.com/yformer/EfficientTAM)",
+        "translatedContent": "* [EfficientTAM](https://github.com/yformer/EfficientTAM)"
+      },
+      {
+        "row": 17,
+        "rowsha": "DGf4tqneznFwZTqQCybJh+BGCdcmX1JLTbBOlF3Zot0=",
+        "originContent": "* [MatAnyone](https://github.com/pq-yang/MatAnyone)",
+        "translatedContent": "* [MatAnyone](https://github.com/pq-yang/MatAnyone)"
+      },
+      {
+        "row": 18,
+        "rowsha": "rZG/HOxf+SgqyVXCT0SqAKnbJba06HIds38lqJ8DGDo=",
+        "originContent": "* [Wan2GP](https://github.com/deepbeepmeep/Wan2GP) (for optimized MatAnyone)",
+        "translatedContent": "* [Wan2GP](https://github.com/deepbeepmeep/Wan2GP)（用于优化 MatAnyone）"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
