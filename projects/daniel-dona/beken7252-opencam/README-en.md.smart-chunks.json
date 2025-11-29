@@ -1,0 +1,328 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Beken7252 OpenCam\nRT-Thread alternative project for A9 cameras\n\n# Updates\n## 25/09/25\nI have finished my MSc and now have a bit more free time, with many of these cameras still around. It's time to plan a first proper release for this project. I've been working on this for some weeks and right now I have an early version that boots, connects to Wi-Fi, reads and writes from SD card, supports MQTT and most importantly, works with at least 3 different camera sensors: GC0311, HI704 and GC0328. This include storing pictures and streaming using HTTP (with multipart/x-mixed-replace). \n\nIt still needs additional testing for stability and improving the general state of the SDK and the project. \n\nCheck [this ticket](https://github.com/daniel-dona/beken7252-opencam/issues/21) for a detailed plan for version 1.0.0.\n\n## 20/11/2023\nLast month, I was waiting for some additional A9 cameras to arrive, as I only had one, and I was concerned about ruining the PCB with this constant soldering and unsoldering of test wires.\nWell, that didn't result as expected. I got like 12 different cameras as they were just like 3€ in Aliexpress, and I got:\n\n~6 with a Beken chip\n\n~3 with an unknown chip, that looks like some custom XRadio/Allwinner\n\n~1 with other vendor that I don't remember\n\n~1 with a chip with any markings\n\nYeah, the numbers don't sum up very well; the important thing is that I got more with the Beken chip... or is It? \n\nThe chip is marked as BK7252, but the pinout is different. The chip that is documented and that we have at least a datasheet has 68 pints; this has 48 pins and the reference is BK7252UQN48. \n\nMore here: https://github.com/daniel-dona/beken7252-opencam/wiki/BK7252-SoC-variations\n\nI'm not going to work with this chip for the moment. I tried to upload a working code to this chip, and it is not working as expected. For sure, they removed some functionalities, or now they are muxed differently. Maybe memory regions for some registers are different, perhaps I'm stupid, and I uploaded the code wrong...\n\nIn any case, I think it is better to work first to have something working in the known chip, and then we can explore this new one. \n\n# Known SDKs\n- FreeRTOS: https://github.com/YanMinge/beken_freertos_sdk_release\n- RT-Thread: https://github.com/YangAlex66/bdk_rtt and https://github.com/biemster/bdk_rtt_v3\n\n# Related sources and posts:\n- [TODO]\n",
+    "ContentSha": "7rLtmy7g0mvadNsf8mWLE7hdBK9LmrlbW6A+75B/6H0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Beken7252 OpenCam\nRT-Thread alternative project for A9 cameras\n\n# Updates\n## 25/09/25\nI have finished my MSc and now have a bit more free time, with many of these cameras still around. It's time to plan a first proper release for this project. I've been working on this for some weeks and right now I have an early version that boots, connects to Wi-Fi, reads and writes from SD card, supports MQTT and most importantly, works with at least 3 different camera sensors: GC0311, HI704 and GC0328. This include storing pictures and streaming using HTTP (with multipart/x-mixed-replace). \n\nIt still needs additional testing for stability and improving the general state of the SDK and the project. \n\nCheck [this ticket](https://github.com/daniel-dona/beken7252-opencam/issues/21) for a detailed plan for version 1.0.0.\n\n## 20/11/2023\nLast month, I was waiting for some additional A9 cameras to arrive, as I only had one, and I was concerned about ruining the PCB with this constant soldering and unsoldering of test wires.\nWell, that didn't result as expected. I got like 12 different cameras as they were just like 3€ in Aliexpress, and I got:\n\n~6 with a Beken chip\n\n~3 with an unknown chip, that looks like some custom XRadio/Allwinner\n\n~1 with other vendor that I don't remember\n\n~1 with a chip with any markings\n\nYeah, the numbers don't sum up very well; the important thing is that I got more with the Beken chip... or is It? \n\nThe chip is marked as BK7252, but the pinout is different. The chip that is documented and that we have at least a datasheet has 68 pints; this has 48 pins and the reference is BK7252UQN48. \n\nMore here: https://github.com/daniel-dona/beken7252-opencam/wiki/BK7252-SoC-variations\n\nI'm not going to work with this chip for the moment. I tried to upload a working code to this chip, and it is not working as expected. For sure, they removed some functionalities, or now they are muxed differently. Maybe memory regions for some registers are different, perhaps I'm stupid, and I uploaded the code wrong...\n\nIn any case, I think it is better to work first to have something working in the known chip, and then we can explore this new one. \n\n# Known SDKs\n- FreeRTOS: https://github.com/YanMinge/beken_freertos_sdk_release\n- RT-Thread: https://github.com/YangAlex66/bdk_rtt and https://github.com/biemster/bdk_rtt_v3\n\n# Related sources and posts:\n- [TODO]\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "udnBXa4KmWMrQVsYRIjrwBCmhChe40DSPD9GA476g+E=",
+        "originContent": "# Beken7252 OpenCam",
+        "translatedContent": "# Beken7252 OpenCam"
+      },
+      {
+        "row": 2,
+        "rowsha": "XsZ4WOsCvROR3s2GL+wJmBDdK+0wWfLO66XMR/9mpwE=",
+        "originContent": "RT-Thread alternative project for A9 cameras",
+        "translatedContent": "RT-Thread alternative project for A9 cameras"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "CIgQytJqJBhsXTjs6sGe2kOiC16UshSo9tEN1rB+cGc=",
+        "originContent": "# Updates",
+        "translatedContent": "# Updates"
+      },
+      {
+        "row": 5,
+        "rowsha": "Z9YlBntJIbT5kX6FmBWfHXWcuUdhM0y1+o6E4dDP5O0=",
+        "originContent": "## 25/09/25",
+        "translatedContent": "## 25/09/25"
+      },
+      {
+        "row": 6,
+        "rowsha": "/22+VfxeZpOsVHE/SBDY+M7hgWZfpY9S4EGLaeJM9AI=",
+        "originContent": "I have finished my MSc and now have a bit more free time, with many of these cameras still around. It's time to plan a first proper release for this project. I've been working on this for some weeks and right now I have an early version that boots, connects to Wi-Fi, reads and writes from SD card, supports MQTT and most importantly, works with at least 3 different camera sensors: GC0311, HI704 and GC0328. This include storing pictures and streaming using HTTP (with multipart/x-mixed-replace). ",
+        "translatedContent": "I have finished my MSc and now have a bit more free time, with many of these cameras still around. It's time to plan a first proper release for this project. I've been working on this for some weeks and right now I have an early version that boots, connects to Wi-Fi, reads and writes from SD card, supports MQTT and most importantly, works with at least 3 different camera sensors: GC0311, HI704 and GC0328. This include storing pictures and streaming using HTTP (with multipart/x-mixed-replace). "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "upNU6pT/Z6sqwUDIvX+xl+OhPAN5dfCs+qdybxDCOgc=",
+        "originContent": "It still needs additional testing for stability and improving the general state of the SDK and the project. ",
+        "translatedContent": "It still needs additional testing for stability and improving the general state of the SDK and the project. "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "8+ATuOWkoecDG/mjeDqw8E8S9BH4xl0sEJRmXzQ5JA0=",
+        "originContent": "Check [this ticket](https://github.com/daniel-dona/beken7252-opencam/issues/21) for a detailed plan for version 1.0.0.",
+        "translatedContent": "Check [this ticket](https://github.com/daniel-dona/beken7252-opencam/issues/21) for a detailed plan for version 1.0.0."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "MLHeNdH8ubzbPX2FP498BCbmyxf4nEdtee3oAOpvqMc=",
+        "originContent": "## 20/11/2023",
+        "translatedContent": "## 20/11/2023"
+      },
+      {
+        "row": 13,
+        "rowsha": "3FNYa8N8pxRRkD5WCo1FC8NMh4LdjCIVAcNH6HxHoiI=",
+        "originContent": "Last month, I was waiting for some additional A9 cameras to arrive, as I only had one, and I was concerned about ruining the PCB with this constant soldering and unsoldering of test wires.",
+        "translatedContent": "Last month, I was waiting for some additional A9 cameras to arrive, as I only had one, and I was concerned about ruining the PCB with this constant soldering and unsoldering of test wires."
+      },
+      {
+        "row": 14,
+        "rowsha": "iz6eVt5lDSWPZl8mdN0iIvJcg/uFkvWb7bSQcbnA88U=",
+        "originContent": "Well, that didn't result as expected. I got like 12 different cameras as they were just like 3€ in Aliexpress, and I got:",
+        "translatedContent": "Well, that didn't result as expected. I got like 12 different cameras as they were just like 3€ in Aliexpress, and I got:"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "aCsXEmduelrtncGHGkJTkHvD1iRQsl8wt3q2stTaJzk=",
+        "originContent": "~6 with a Beken chip",
+        "translatedContent": "~6 with a Beken chip"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "fWT6S9nvgY3G2rOEk8HmmZv0r0ogOR6TB2YhKrCo5Jg=",
+        "originContent": "~3 with an unknown chip, that looks like some custom XRadio/Allwinner",
+        "translatedContent": "~3 with an unknown chip, that looks like some custom XRadio/Allwinner"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "WjNyER4C9n30q6xMqJPUAJLac3oLemFj1PyRl7OVNwg=",
+        "originContent": "~1 with other vendor that I don't remember",
+        "translatedContent": "~1 with other vendor that I don't remember"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "eC4HYs8TLrZlUmoxmypVoIUwPKZmra+GEMwFdo9MFQ4=",
+        "originContent": "~1 with a chip with any markings",
+        "translatedContent": "~1 with a chip with any markings"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "NdGv8SUdwcIP6Bsw4NEhKHMyu/RXrM5M3FgvZScoBxQ=",
+        "originContent": "Yeah, the numbers don't sum up very well; the important thing is that I got more with the Beken chip... or is It? ",
+        "translatedContent": "Yeah, the numbers don't sum up very well; the important thing is that I got more with the Beken chip... or is It? "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "WdVHbGXRzeSspKmpcithdlkH84FMs0VbQKMlhRekpMA=",
+        "originContent": "The chip is marked as BK7252, but the pinout is different. The chip that is documented and that we have at least a datasheet has 68 pints; this has 48 pins and the reference is BK7252UQN48. ",
+        "translatedContent": "The chip is marked as BK7252, but the pinout is different. The chip that is documented and that we have at least a datasheet has 68 pints; this has 48 pins and the reference is BK7252UQN48. "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "Fe2OgojYo/+i9NI2b0Z+J3WAUJjXQfHbo3iIsqLT0IA=",
+        "originContent": "More here: https://github.com/daniel-dona/beken7252-opencam/wiki/BK7252-SoC-variations",
+        "translatedContent": "More here: https://github.com/daniel-dona/beken7252-opencam/wiki/BK7252-SoC-variations"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "DFvj928oodLm9Mig0Y83axOOx5VfBFCGveVZD9RQ9kU=",
+        "originContent": "I'm not going to work with this chip for the moment. I tried to upload a working code to this chip, and it is not working as expected. For sure, they removed some functionalities, or now they are muxed differently. Maybe memory regions for some registers are different, perhaps I'm stupid, and I uploaded the code wrong...",
+        "translatedContent": "I'm not going to work with this chip for the moment. I tried to upload a working code to this chip, and it is not working as expected. For sure, they removed some functionalities, or now they are muxed differently. Maybe memory regions for some registers are different, perhaps I'm stupid, and I uploaded the code wrong..."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "W68q1aV1IEchzeIlG0fIECpflsiKbXDPRCZoF4WqLlU=",
+        "originContent": "In any case, I think it is better to work first to have something working in the known chip, and then we can explore this new one. ",
+        "translatedContent": "In any case, I think it is better to work first to have something working in the known chip, and then we can explore this new one. "
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "xLOZ3riD0mL3j0nhxBUa1Ukmk+EJUSodGEX0gAQlkys=",
+        "originContent": "# Known SDKs",
+        "translatedContent": "# Known SDKs"
+      },
+      {
+        "row": 35,
+        "rowsha": "lGrRGy9i0927tweqYkEArNFzm6pzwWdvxOOxF789FT4=",
+        "originContent": "- FreeRTOS: https://github.com/YanMinge/beken_freertos_sdk_release",
+        "translatedContent": "- FreeRTOS: https://github.com/YanMinge/beken_freertos_sdk_release"
+      },
+      {
+        "row": 36,
+        "rowsha": "WQ0GgmRlGy+Tex2HZ8/+E0nkPg5sVerX1TMf/5XdJdc=",
+        "originContent": "- RT-Thread: https://github.com/YangAlex66/bdk_rtt and https://github.com/biemster/bdk_rtt_v3",
+        "translatedContent": "- RT-Thread: https://github.com/YangAlex66/bdk_rtt and https://github.com/biemster/bdk_rtt_v3"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "obQZSVLvnKa56bzVCkt6S6DSXh3mcIIVEvGknOugubo=",
+        "originContent": "# Related sources and posts:",
+        "translatedContent": "# Related sources and posts:"
+      },
+      {
+        "row": 39,
+        "rowsha": "rQDMLV8sVIHipN1U6SZh8KtD76rPksi0c52OP0X7emA=",
+        "originContent": "- [TODO]",
+        "translatedContent": "- [TODO]"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n# TODO\n\n- Document variants for PCB and sensors\n- Document pinouts for camera variants\n- Document flashing procedure (and unbricking)\n- Cleanup Beken SDK\n- Migrate SDK code to more modern GCC and Scons\n- Other (?)\n",
+    "ContentSha": "WACti/rZIwyrO8PNbLZyLcj/YZBh/SUxvjzaNrdpbMo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# TODO\n\n- Document variants for PCB and sensors\n- Document pinouts for camera variants\n- Document flashing procedure (and unbricking)\n- Cleanup Beken SDK\n- Migrate SDK code to more modern GCC and Scons\n- Other (?)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "chG3GNX2BBDTWIuSVfZUJ/YF/ZVBSoel2d/AN0OChS0=",
+        "originContent": "# TODO",
+        "translatedContent": "# TODO"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "kjJ6KKEBfl50tQKpBAh4dzAcINjJcskba4tcWOQuJpo=",
+        "originContent": "- Document variants for PCB and sensors",
+        "translatedContent": "- Document variants for PCB and sensors"
+      },
+      {
+        "row": 5,
+        "rowsha": "il51ZKv04pF1ARbEqAiWy8ffX1Jf5CKTfBZj9mBseSs=",
+        "originContent": "- Document pinouts for camera variants",
+        "translatedContent": "- Document pinouts for camera variants"
+      },
+      {
+        "row": 6,
+        "rowsha": "QsFdgaJ/DAQItMR5E+JkNL/mbbciHjBto0wBtcXh87s=",
+        "originContent": "- Document flashing procedure (and unbricking)",
+        "translatedContent": "- Document flashing procedure (and unbricking)"
+      },
+      {
+        "row": 7,
+        "rowsha": "/fCIvl3kwYgkGFkiWe9LtRqOdMoMu8NSH1khDhaAWI0=",
+        "originContent": "- Cleanup Beken SDK",
+        "translatedContent": "- Cleanup Beken SDK"
+      },
+      {
+        "row": 8,
+        "rowsha": "3Foy8nNmlJrUvWIwpp27wbWWf9AoBxVOVPFj3x/jG28=",
+        "originContent": "- Migrate SDK code to more modern GCC and Scons",
+        "translatedContent": "- Migrate SDK code to more modern GCC and Scons"
+      },
+      {
+        "row": 9,
+        "rowsha": "9j8sjhdN9S7IdfRN6NbLF1LXlJQW5FMxWU+pNJOMMuk=",
+        "originContent": "- Other (?)",
+        "translatedContent": "- Other (?)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
