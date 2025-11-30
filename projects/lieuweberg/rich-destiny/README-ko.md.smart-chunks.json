@@ -1,0 +1,195 @@
+[
+  {
+    "Id": 1,
+    "Content": "![GitHub all releases](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/latest/total) ![Time spent coding (15 minute timeout)](https://wakatime.com/badge/user/a637a12a-da87-4487-8b1e-660151dc3e7b/project/94fa2fc6-7e9b-4c74-b6eb-4ce6a09b4cdf.svg)\n\n# rich-destiny\n| <img src=\"https://richdestiny.app/favicon.ico\" width=\"100\"> | Plug-and-play background program that puts your current Destiny 2 activity in your Discord status. Modern, no flaky screenshots and tiny in size. |\n| :---: | :---: |\n\n## Contributing ✨\n\nIf you want to contribute, awesome! For new features, please ask first on the Discord server or make an issue with what you want to make. If you want to fix a bug, just create a PR. Asking is still recommended however, in case \"it's not a bug, it's a feature.\"\n\n## Developing 🛠\nPrerequisites:\n - (client) Have a recent Go 1.x version.\n - (client) For windows: have git bash. You can also run the commands in the build script manually but I use the bash script :)\n - (web) Have a recent version of Node.js and npm.\n\nBuilding:\n - Clone the repo.\n  \n - The client:\n   - `cd client`\n   - Duplicate the `config.go.example` to `config.go` and fill in the values. For redirect uri, you can use `https://richdestiny.app/login` -- also on the Bungie.net developer portal. It's just a redirect to the localhost redirect.\n   - `go get`\n   - `./build dev`\n     - You can use `./build vX.Y.Z` with a valid semver version number, but for development purposes use dev. It automatically disables updates and possibly other things in the future.\n\n - The website:\n   - `cd web`\n   - `npm install`\n   - `npm run start` for a local development server or `npm run build` for a production build.",
+    "ContentSha": "GInoVj6dvr3wHXmt6Qytb/WXsp/8URhVhnw9GCI33ZM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![GitHub all releases](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/latest/total) ![Time spent coding (15 minute timeout)](https://wakatime.com/badge/user/a637a12a-da87-4487-8b1e-660151dc3e7b/project/94fa2fc6-7e9b-4c74-b6eb-4ce6a09b4cdf.svg)\n\n# rich-destiny\n| <img src=\"https://richdestiny.app/favicon.ico\" width=\"100\"> | 현재 Destiny 2 활동을 Discord 상태에 표시하는 플러그 앤 플레이 백그라운드 프로그램입니다. 현대적이고, 불안정한 스크린샷이 없으며 크기가 작습니다. |\n| :---: | :---: |\n\n## 기여 ✨\n\n기여하고 싶다면 환영합니다! 새로운 기능에 대해서는 먼저 Discord 서버에서 문의하거나 만들고자 하는 내용을 이슈로 작성해 주세요. 버그를 수정하고 싶다면 그냥 PR을 생성하면 됩니다. 그래도 “버그가 아니라 기능입니다”일 수도 있으니 문의하는 것이 권장됩니다.\n\n## 개발 🛠\n필수 조건:\n - (클라이언트) 최신 Go 1.x 버전을 설치하세요.\n - (클라이언트) 윈도우의 경우: git bash가 필요합니다. 빌드 스크립트의 명령어를 수동으로 실행할 수도 있지만 저는 bash 스크립트를 사용합니다 :)\n - (웹) 최신 버전의 Node.js와 npm이 필요합니다.\n\n빌드:\n - 저장소를 클론하세요.\n  \n - 클라이언트:\n   - `cd client`\n   - `config.go.example` 파일을 `config.go`로 복사하고 값을 입력하세요. 리디렉트 URI는 `https://richdestiny.app/login`을 사용할 수 있으며 Bungie.net 개발자 포털에도 등록되어 있습니다. 이는 로컬호스트 리디렉트로 연결됩니다.\n   - `go get`\n   - `./build dev`\n     - 유효한 semver 버전 번호와 함께 `./build vX.Y.Z`를 사용할 수도 있지만 개발 용도에는 dev를 사용하세요. 자동으로 업데이트를 비활성화하고 앞으로 다른 기능도 비활성화할 수 있습니다.\n\n - 웹사이트:\n   - `cd web`\n   - `npm install`\n   - 로컬 개발 서버를 위해 `npm run start` 또는 프로덕션 빌드를 위해 `npm run build`를 실행하세요.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wv5M01+9MXMLbg9iExGoQ5YLUB1Fb/OOegDRS4Zc56Q=",
+        "originContent": "![GitHub all releases](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/latest/total) ![Time spent coding (15 minute timeout)](https://wakatime.com/badge/user/a637a12a-da87-4487-8b1e-660151dc3e7b/project/94fa2fc6-7e9b-4c74-b6eb-4ce6a09b4cdf.svg)",
+        "translatedContent": "![GitHub all releases](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/latest/total) ![Time spent coding (15 minute timeout)](https://wakatime.com/badge/user/a637a12a-da87-4487-8b1e-660151dc3e7b/project/94fa2fc6-7e9b-4c74-b6eb-4ce6a09b4cdf.svg)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ihVaWfYKdYgeUCZInKYsbBrHfcjmN+I6GXMTKI5DxsE=",
+        "originContent": "# rich-destiny",
+        "translatedContent": "# rich-destiny"
+      },
+      {
+        "row": 4,
+        "rowsha": "4VjGi4ThgfDviHX7VignrRjIW7uJLVbJh9bz6yHCXeE=",
+        "originContent": "| <img src=\"https://richdestiny.app/favicon.ico\" width=\"100\"> | Plug-and-play background program that puts your current Destiny 2 activity in your Discord status. Modern, no flaky screenshots and tiny in size. |",
+        "translatedContent": "| <img src=\"https://richdestiny.app/favicon.ico\" width=\"100\"> | 현재 Destiny 2 활동을 Discord 상태에 표시하는 플러그 앤 플레이 백그라운드 프로그램입니다. 현대적이고, 불안정한 스크린샷이 없으며 크기가 작습니다. |"
+      },
+      {
+        "row": 5,
+        "rowsha": "8GaWgmq/f/fdAQFWWPTgmpZPFnre3hdiqonxtP5oJGs=",
+        "originContent": "| :---: | :---: |",
+        "translatedContent": "| :---: | :---: |"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "V72LMh0BqYPe4XjUmUNNZN7iPZU9+ABvZFNRNxxzyEQ=",
+        "originContent": "## Contributing ✨",
+        "translatedContent": "## 기여 ✨"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "GNtfPxT0z3AUSN+zUPXfXtYI10812KQFId1wgJHcDwY=",
+        "originContent": "If you want to contribute, awesome! For new features, please ask first on the Discord server or make an issue with what you want to make. If you want to fix a bug, just create a PR. Asking is still recommended however, in case \"it's not a bug, it's a feature.\"",
+        "translatedContent": "기여하고 싶다면 환영합니다! 새로운 기능에 대해서는 먼저 Discord 서버에서 문의하거나 만들고자 하는 내용을 이슈로 작성해 주세요. 버그를 수정하고 싶다면 그냥 PR을 생성하면 됩니다. 그래도 “버그가 아니라 기능입니다”일 수도 있으니 문의하는 것이 권장됩니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "4vU+371HaD1bX+umOGGG1uWuUTM/1UkrDoYeZecFFik=",
+        "originContent": "## Developing 🛠",
+        "translatedContent": "## 개발 🛠"
+      },
+      {
+        "row": 12,
+        "rowsha": "N2Q4MW4bdY4YPeV+84MIJimARox5bqZvoZhP1wpXUL0=",
+        "originContent": "Prerequisites:",
+        "translatedContent": "필수 조건:"
+      },
+      {
+        "row": 13,
+        "rowsha": "bkUfzqKMqItWAhLj6mP/yktf7ePKtme8qFVwFFUWL0o=",
+        "originContent": " - (client) Have a recent Go 1.x version.",
+        "translatedContent": " - (클라이언트) 최신 Go 1.x 버전을 설치하세요."
+      },
+      {
+        "row": 14,
+        "rowsha": "S42HtcJEbX+ASBHyUvSA0+kMuM6YrSZQD66Lujq9Ifc=",
+        "originContent": " - (client) For windows: have git bash. You can also run the commands in the build script manually but I use the bash script :)",
+        "translatedContent": " - (클라이언트) 윈도우의 경우: git bash가 필요합니다. 빌드 스크립트의 명령어를 수동으로 실행할 수도 있지만 저는 bash 스크립트를 사용합니다 :)"
+      },
+      {
+        "row": 15,
+        "rowsha": "XxUs0gsVxawOlPQLWpjbbepzPAaMZQSevYZN5sUZiao=",
+        "originContent": " - (web) Have a recent version of Node.js and npm.",
+        "translatedContent": " - (웹) 최신 버전의 Node.js와 npm이 필요합니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Noa71k63CXwK9z4tGiKBuy+IHKOfCBhNRTD2IjYZ9j4=",
+        "originContent": "Building:",
+        "translatedContent": "빌드:"
+      },
+      {
+        "row": 18,
+        "rowsha": "hbz7qYQtcQV5+qAhk5f5ZULvZzXEhuSvlAQEBlpkvFc=",
+        "originContent": " - Clone the repo.",
+        "translatedContent": " - 저장소를 클론하세요."
+      },
+      {
+        "row": 19,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 20,
+        "rowsha": "mOIOaMtik22D0h6GKDmhZ2s7GDF/wVIw/as8WpmvMOU=",
+        "originContent": " - The client:",
+        "translatedContent": " - 클라이언트:"
+      },
+      {
+        "row": 21,
+        "rowsha": "z8W7h2OaUA01uSIfdsaLCQUAo1ZgwbTH4SsiS5s9I3g=",
+        "originContent": "   - `cd client`",
+        "translatedContent": "   - `cd client`"
+      },
+      {
+        "row": 22,
+        "rowsha": "WvUWdYPTg/iwIehMH+v/1N1L0mMSIaJCj2erRRLK/TY=",
+        "originContent": "   - Duplicate the `config.go.example` to `config.go` and fill in the values. For redirect uri, you can use `https://richdestiny.app/login` -- also on the Bungie.net developer portal. It's just a redirect to the localhost redirect.",
+        "translatedContent": "   - `config.go.example` 파일을 `config.go`로 복사하고 값을 입력하세요. 리디렉트 URI는 `https://richdestiny.app/login`을 사용할 수 있으며 Bungie.net 개발자 포털에도 등록되어 있습니다. 이는 로컬호스트 리디렉트로 연결됩니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "wzBjRySHxMPuYqLEQu4Y78uB05GPjN9TJFxsBOVtJEM=",
+        "originContent": "   - `go get`",
+        "translatedContent": "   - `go get`"
+      },
+      {
+        "row": 24,
+        "rowsha": "y85XxNY2ccRnDhqclbUOIt80yAibEclrVzNzCEGBVew=",
+        "originContent": "   - `./build dev`",
+        "translatedContent": "   - `./build dev`"
+      },
+      {
+        "row": 25,
+        "rowsha": "sYSAu/SEoGKtYpIUcn4Js00uz+87Y3RLB2ldHoyHx+I=",
+        "originContent": "     - You can use `./build vX.Y.Z` with a valid semver version number, but for development purposes use dev. It automatically disables updates and possibly other things in the future.",
+        "translatedContent": "     - 유효한 semver 버전 번호와 함께 `./build vX.Y.Z`를 사용할 수도 있지만 개발 용도에는 dev를 사용하세요. 자동으로 업데이트를 비활성화하고 앞으로 다른 기능도 비활성화할 수 있습니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "pDUjiOiMVrgmdEGuVaVHeLTh1Gyqc7Ymo6akHnI6U30=",
+        "originContent": " - The website:",
+        "translatedContent": " - 웹사이트:"
+      },
+      {
+        "row": 28,
+        "rowsha": "sKjvL9UUTdkuAGjGQZpXiWGX/oTl0nCUa7ENnUkj4Jk=",
+        "originContent": "   - `cd web`",
+        "translatedContent": "   - `cd web`"
+      },
+      {
+        "row": 29,
+        "rowsha": "24/DHlREdlXpxs6jTvdiZ/adi8i0fzqk3/rw87KAoh8=",
+        "originContent": "   - `npm install`",
+        "translatedContent": "   - `npm install`"
+      },
+      {
+        "row": 30,
+        "rowsha": "fAkuGB6I1BG+dzrf77huH8oLOBBFQek/uUJmrJermOE=",
+        "originContent": "   - `npm run start` for a local development server or `npm run build` for a production build.",
+        "translatedContent": "   - 로컬 개발 서버를 위해 `npm run start` 또는 프로덕션 빌드를 위해 `npm run build`를 실행하세요."
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "Id": 1,
+    "Content": "![GitHub all releases](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/latest/total) ![Time spent coding (15 minute timeout)](https://wakatime.com/badge/user/a637a12a-da87-4487-8b1e-660151dc3e7b/project/94fa2fc6-7e9b-4c74-b6eb-4ce6a09b4cdf.svg)\n\n# rich-destiny\n| <img src=\"https://richdestiny.app/favicon.ico\" width=\"100\"> | Plug-and-play background program that puts your current Destiny 2 activity in your Discord status. Modern, no flaky screenshots and tiny in size. |\n| :---: | :---: |\n\n## Contributing ✨\n\nIf you want to contribute, awesome! For new features, please ask first on the Discord server or make an issue with what you want to make. If you want to fix a bug, just create a PR. Asking is still recommended however, in case \"it's not a bug, it's a feature.\"\n\n## Developing 🛠\nPrerequisites:\n - (client) Have a recent Go 1.x version.\n - (client) For windows: have git bash. You can also run the commands in the build script manually but I use the bash script :)\n - (web) Have a recent version of Node.js and npm.\n\nBuilding:\n - Clone the repo.\n  \n - The client:\n   - `cd client`\n   - Duplicate the `config.go.example` to `config.go` and fill in the values. For redirect uri, you can use `https://richdestiny.app/login` -- also on the Bungie.net developer portal. It's just a redirect to the localhost redirect.\n   - `go get`\n   - `./build dev`\n     - You can use `./build vX.Y.Z` with a valid semver version number, but for development purposes use dev. It automatically disables updates and possibly other things in the future.\n\n - The website:\n   - `cd web`\n   - `npm install`\n   - `npm run start` for a local development server or `npm run build` for a production build.",
+    "ContentSha": "GInoVj6dvr3wHXmt6Qytb/WXsp/8URhVhnw9GCI33ZM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![GitHub all releases](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/latest/total) ![Time spent coding (15 minute timeout)](https://wakatime.com/badge/user/a637a12a-da87-4487-8b1e-660151dc3e7b/project/94fa2fc6-7e9b-4c74-b6eb-4ce6a09b4cdf.svg)\n\n# rich-destiny\n| <img src=\"https://richdestiny.app/favicon.ico\" width=\"100\"> | Discordのステータスに現在のDestiny 2のアクティビティを表示するプラグアンドプレイのバックグラウンドプログラム。モダンで、スクリーンショットを使わず、サイズも小さいです。 |\n| :---: | :---: |\n\n## 貢献について ✨\n\nもし貢献したい場合は素晴らしいです！新機能については、まずDiscordサーバーで相談するか、作りたい内容を記載したIssueを作成してください。バグ修正の場合は、直接PRを作成してください。ただし「バグではなく機能です」ということもあるので、相談することを推奨します。\n\n## 開発 🛠\n前提条件:\n - (クライアント) 最近のGo 1.xバージョンをインストールしていること。\n - (クライアント) Windowsの場合はgit bashが必要です。ビルドスクリプトのコマンドは手動で実行しても構いませんが、私はbashスクリプトを使っています :)\n - (ウェブ) Node.jsとnpmの最近のバージョンをインストールしていること。\n\nビルド方法:\n - リポジトリをクローンします。\n  \n - クライアント:\n   - `cd client`\n   - `config.go.example`を複製して`config.go`にし、値を入力します。リダイレクトURIには`https://richdestiny.app/login`を使用できます — Bungie.netの開発者ポータルでも同様です。これはlocalhostのリダイレクトへのリダイレクトにすぎません。\n   - `go get`\n   - `./build dev`\n     - 有効なsemverのバージョン番号を使って`./build vX.Y.Z`も可能ですが、開発目的の場合はdevを使ってください。これにより自動的にアップデートや将来的に他の機能が無効になります。\n\n - ウェブサイト:\n   - `cd web`\n   - `npm install`\n   - ローカル開発サーバーは`npm run start`、本番ビルドは`npm run build`を実行してください。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wv5M01+9MXMLbg9iExGoQ5YLUB1Fb/OOegDRS4Zc56Q=",
+        "originContent": "![GitHub all releases](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/latest/total) ![Time spent coding (15 minute timeout)](https://wakatime.com/badge/user/a637a12a-da87-4487-8b1e-660151dc3e7b/project/94fa2fc6-7e9b-4c74-b6eb-4ce6a09b4cdf.svg)",
+        "translatedContent": "![GitHub all releases](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/latest/total) ![Time spent coding (15 minute timeout)](https://wakatime.com/badge/user/a637a12a-da87-4487-8b1e-660151dc3e7b/project/94fa2fc6-7e9b-4c74-b6eb-4ce6a09b4cdf.svg)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ihVaWfYKdYgeUCZInKYsbBrHfcjmN+I6GXMTKI5DxsE=",
+        "originContent": "# rich-destiny",
+        "translatedContent": "# rich-destiny"
+      },
+      {
+        "row": 4,
+        "rowsha": "4VjGi4ThgfDviHX7VignrRjIW7uJLVbJh9bz6yHCXeE=",
+        "originContent": "| <img src=\"https://richdestiny.app/favicon.ico\" width=\"100\"> | Plug-and-play background program that puts your current Destiny 2 activity in your Discord status. Modern, no flaky screenshots and tiny in size. |",
+        "translatedContent": "| <img src=\"https://richdestiny.app/favicon.ico\" width=\"100\"> | Discordのステータスに現在のDestiny 2のアクティビティを表示するプラグアンドプレイのバックグラウンドプログラム。モダンで、スクリーンショットを使わず、サイズも小さいです。 |"
+      },
+      {
+        "row": 5,
+        "rowsha": "8GaWgmq/f/fdAQFWWPTgmpZPFnre3hdiqonxtP5oJGs=",
+        "originContent": "| :---: | :---: |",
+        "translatedContent": "| :---: | :---: |"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "V72LMh0BqYPe4XjUmUNNZN7iPZU9+ABvZFNRNxxzyEQ=",
+        "originContent": "## Contributing ✨",
+        "translatedContent": "## 貢献について ✨"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "GNtfPxT0z3AUSN+zUPXfXtYI10812KQFId1wgJHcDwY=",
+        "originContent": "If you want to contribute, awesome! For new features, please ask first on the Discord server or make an issue with what you want to make. If you want to fix a bug, just create a PR. Asking is still recommended however, in case \"it's not a bug, it's a feature.\"",
+        "translatedContent": "もし貢献したい場合は素晴らしいです！新機能については、まずDiscordサーバーで相談するか、作りたい内容を記載したIssueを作成してください。バグ修正の場合は、直接PRを作成してください。ただし「バグではなく機能です」ということもあるので、相談することを推奨します。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "4vU+371HaD1bX+umOGGG1uWuUTM/1UkrDoYeZecFFik=",
+        "originContent": "## Developing 🛠",
+        "translatedContent": "## 開発 🛠"
+      },
+      {
+        "row": 12,
+        "rowsha": "N2Q4MW4bdY4YPeV+84MIJimARox5bqZvoZhP1wpXUL0=",
+        "originContent": "Prerequisites:",
+        "translatedContent": "前提条件:"
+      },
+      {
+        "row": 13,
+        "rowsha": "bkUfzqKMqItWAhLj6mP/yktf7ePKtme8qFVwFFUWL0o=",
+        "originContent": " - (client) Have a recent Go 1.x version.",
+        "translatedContent": " - (クライアント) 最近のGo 1.xバージョンをインストールしていること。"
+      },
+      {
+        "row": 14,
+        "rowsha": "S42HtcJEbX+ASBHyUvSA0+kMuM6YrSZQD66Lujq9Ifc=",
+        "originContent": " - (client) For windows: have git bash. You can also run the commands in the build script manually but I use the bash script :)",
+        "translatedContent": " - (クライアント) Windowsの場合はgit bashが必要です。ビルドスクリプトのコマンドは手動で実行しても構いませんが、私はbashスクリプトを使っています :)"
+      },
+      {
+        "row": 15,
+        "rowsha": "XxUs0gsVxawOlPQLWpjbbepzPAaMZQSevYZN5sUZiao=",
+        "originContent": " - (web) Have a recent version of Node.js and npm.",
+        "translatedContent": " - (ウェブ) Node.jsとnpmの最近のバージョンをインストールしていること。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Noa71k63CXwK9z4tGiKBuy+IHKOfCBhNRTD2IjYZ9j4=",
+        "originContent": "Building:",
+        "translatedContent": "ビルド方法:"
+      },
+      {
+        "row": 18,
+        "rowsha": "hbz7qYQtcQV5+qAhk5f5ZULvZzXEhuSvlAQEBlpkvFc=",
+        "originContent": " - Clone the repo.",
+        "translatedContent": " - リポジトリをクローンします。"
+      },
+      {
+        "row": 19,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 20,
+        "rowsha": "mOIOaMtik22D0h6GKDmhZ2s7GDF/wVIw/as8WpmvMOU=",
+        "originContent": " - The client:",
+        "translatedContent": " - クライアント:"
+      },
+      {
+        "row": 21,
+        "rowsha": "z8W7h2OaUA01uSIfdsaLCQUAo1ZgwbTH4SsiS5s9I3g=",
+        "originContent": "   - `cd client`",
+        "translatedContent": "   - `cd client`"
+      },
+      {
+        "row": 22,
+        "rowsha": "WvUWdYPTg/iwIehMH+v/1N1L0mMSIaJCj2erRRLK/TY=",
+        "originContent": "   - Duplicate the `config.go.example` to `config.go` and fill in the values. For redirect uri, you can use `https://richdestiny.app/login` -- also on the Bungie.net developer portal. It's just a redirect to the localhost redirect.",
+        "translatedContent": "   - `config.go.example`を複製して`config.go`にし、値を入力します。リダイレクトURIには`https://richdestiny.app/login`を使用できます — Bungie.netの開発者ポータルでも同様です。これはlocalhostのリダイレクトへのリダイレクトにすぎません。"
+      },
+      {
+        "row": 23,
+        "rowsha": "wzBjRySHxMPuYqLEQu4Y78uB05GPjN9TJFxsBOVtJEM=",
+        "originContent": "   - `go get`",
+        "translatedContent": "   - `go get`"
+      },
+      {
+        "row": 24,
+        "rowsha": "y85XxNY2ccRnDhqclbUOIt80yAibEclrVzNzCEGBVew=",
+        "originContent": "   - `./build dev`",
+        "translatedContent": "   - `./build dev`"
+      },
+      {
+        "row": 25,
+        "rowsha": "sYSAu/SEoGKtYpIUcn4Js00uz+87Y3RLB2ldHoyHx+I=",
+        "originContent": "     - You can use `./build vX.Y.Z` with a valid semver version number, but for development purposes use dev. It automatically disables updates and possibly other things in the future.",
+        "translatedContent": "     - 有効なsemverのバージョン番号を使って`./build vX.Y.Z`も可能ですが、開発目的の場合はdevを使ってください。これにより自動的にアップデートや将来的に他の機能が無効になります。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "pDUjiOiMVrgmdEGuVaVHeLTh1Gyqc7Ymo6akHnI6U30=",
+        "originContent": " - The website:",
+        "translatedContent": " - ウェブサイト:"
+      },
+      {
+        "row": 28,
+        "rowsha": "sKjvL9UUTdkuAGjGQZpXiWGX/oTl0nCUa7ENnUkj4Jk=",
+        "originContent": "   - `cd web`",
+        "translatedContent": "   - `cd web`"
+      },
+      {
+        "row": 29,
+        "rowsha": "24/DHlREdlXpxs6jTvdiZ/adi8i0fzqk3/rw87KAoh8=",
+        "originContent": "   - `npm install`",
+        "translatedContent": "   - `npm install`"
+      },
+      {
+        "row": 30,
+        "rowsha": "fAkuGB6I1BG+dzrf77huH8oLOBBFQek/uUJmrJermOE=",
+        "originContent": "   - `npm run start` for a local development server or `npm run build` for a production build.",
+        "translatedContent": "   - ローカル開発サーバーは`npm run start`、本番ビルドは`npm run build`を実行してください。"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

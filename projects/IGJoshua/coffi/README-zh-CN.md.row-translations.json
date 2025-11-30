@@ -1,0 +1,968 @@
+[
+  {
+    "row": 1,
+    "rowsha": "RfMnA5vFWy5kUsriMyodQVkSYs11VDzYz+y7KhIltIY=",
+    "originContent": "# coffi",
+    "translatedContent": "# coffi"
+  },
+  {
+    "row": 2,
+    "rowsha": "K8I5/Jnkorq0C6TjEN3IsV6tMnlLn+T9suy8fxU2xbs=",
+    "originContent": "[![Clojars Project](https://img.shields.io/clojars/v/org.suskalo/coffi.svg)](https://clojars.org/org.suskalo/coffi)",
+    "translatedContent": "[![Clojars Project](https://img.shields.io/clojars/v/org.suskalo/coffi.svg)](https://clojars.org/org.suskalo/coffi)"
+  },
+  {
+    "row": 3,
+    "rowsha": "P0Wy3t1dmZbNEs+skgQiMgHzrY/EzXuklRDyGO552Pk=",
+    "originContent": "[![cljdoc badge](https://cljdoc.org/badge/org.suskalo/coffi)](https://cljdoc.org/d/org.suskalo/coffi)",
+    "translatedContent": "[![cljdoc badge](https://cljdoc.org/badge/org.suskalo/coffi)](https://cljdoc.org/d/org.suskalo/coffi)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "iUooX8N3hTxfwqVd+WdXIBO0w+dmdom5idzUb/51SOU=",
+    "originContent": "Coffi is a foreign function interface library for Clojure, using the [Foreign",
+    "translatedContent": "Coffi 是一个用于 Clojure 的外部函数接口库，使用 JDK 22 及更高版本中的 [Foreign"
+  },
+  {
+    "row": 6,
+    "rowsha": "zgaU0U6Dtb5VHpPZIHNTwXOJ/Jh9MKQA2yKbXjEW9hQ=",
+    "originContent": "Function & Memory API](https://openjdk.org/jeps/454) in JDK 22 and later. This",
+    "translatedContent": "Function & Memory API](https://openjdk.org/jeps/454)。这允许直接从 Clojure 调用本地代码，"
+  },
+  {
+    "row": 7,
+    "rowsha": "1Lv3iV4zeP2D2sfGM6MHmvRdGlA2ikp0V3RSX+R0qNs=",
+    "originContent": "allows calling native code directly from Clojure without the need for either",
+    "translatedContent": "而无需像 JNI 那样依赖于库特定的 Java 或本地代码。Coffi 侧重于易用性，包括用于创建包装器的函数和宏，"
+  },
+  {
+    "row": 8,
+    "rowsha": "w715LWCaG0/+4rymxoIf/MfoMKKxSyACuSia8EGxU6g=",
+    "originContent": "Java or native code specific to the library, as e.g. the JNI does. Coffi focuses",
+    "translatedContent": "使得生成的本地函数表现得就像 Clojure 函数一样，但这并不妨碍编写系统以最小化数据编组成本并优化性能，"
+  },
+  {
+    "row": 9,
+    "rowsha": "eR83087rWkroqgnnRA/2vV+RKbWR/m3pZm5Q2L3YWXU=",
+    "originContent": "on ease of use, including functions and macros for creating wrappers to allow",
+    "translatedContent": "利用 FF&M API 提供的低级访问能力。"
+  },
+  {
+    "row": 10,
+    "rowsha": "jKLLC+Wqt9o7uYmt5CMJv78Fehm5cV0+UAl+oFGt9ms=",
+    "originContent": "the resulting native functions to act just like Clojure ones, however this",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Kh2/SYU3wQK6kUPAOT4Fxwq+gEfFVHPFU85Ee3Css+Y=",
+    "originContent": "doesn't remove the ability to write systems which minimize the cost of",
+    "translatedContent": "- [快速入门](https://cljdoc.org/d/org.suskalo/coffi/CURRENT/doc/getting-started)"
+  },
+  {
+    "row": 12,
+    "rowsha": "sYYJpZ0rc4qSHnPpmgiHlF6L1Hk7wwclZfdbm+7DON8=",
+    "originContent": "marshaling data and optimize for performance, to make use of the low-level",
+    "translatedContent": "- [API 文档](https://cljdoc.org/d/org.suskalo/coffi/CURRENT/api/coffi)"
+  },
+  {
+    "row": 13,
+    "rowsha": "Z86X0j84Tv2BFnNIrrVu4icAtkRzfOE0GXqKofTAdUE=",
+    "originContent": "access the FF&M API gives us.",
+    "translatedContent": "- [更新记录](https://raw.githubusercontent.com/IGJoshua/coffi/develop/CHANGELOG.md)"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "93zICuPEJ5IXrRVYtPOxdz8z0Z3RXLM5Kn33bG+wK54=",
+    "originContent": "- [Getting Started](https://cljdoc.org/d/org.suskalo/coffi/CURRENT/doc/getting-started)",
+    "translatedContent": "## 安装"
+  },
+  {
+    "row": 16,
+    "rowsha": "MiGRYWVuTWW/CrUwt2wAplSxQRAl6QVIpEDuSweK7OA=",
+    "originContent": "- [API Documentation](https://cljdoc.org/d/org.suskalo/coffi/CURRENT/api/coffi)",
+    "translatedContent": "此库可在 Clojars 上获得，也可以作为 git 依赖。将以下条目之一添加到你的 `deps.edn` 文件的 `:deps` 键中："
+  },
+  {
+    "row": 17,
+    "rowsha": "4SRt0584p6J18Z5nK6iuVXSJyqtIfmB/DYJy/zXOmoM=",
+    "originContent": "- [Recent Changes](https://raw.githubusercontent.com/IGJoshua/coffi/develop/CHANGELOG.md)",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "lST3jY3eo2n2i1zq5mMRQPaX+7MZNIwmrXiMzFWv42A=",
+    "originContent": "This library is available on Clojars, or as a git dependency. Add one of the",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "Ty+aYgPq8wvaspR63MCW34yIYjGWGAsIL7i99DZ4Uig=",
+    "originContent": "following entries to the `:deps` key of your `deps.edn`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "9I9AL2uh+oY3uwkLuU0Cn4d3Hfwk4VusimshjfJrzEg=",
+    "originContent": "```clojure",
+    "translatedContent": "```clojure"
+  },
+  {
+    "row": 24,
+    "rowsha": "wMs2md1y9D1TpfXLGOoyRqPHKXd6Xf0QTQ10CiytyOY=",
+    "originContent": "org.suskalo/coffi {:mvn/version \"1.0.615\"}",
+    "translatedContent": "org.suskalo/coffi {:mvn/version \"1.0.615\"}"
+  },
+  {
+    "row": 25,
+    "rowsha": "WnO65FBPrCbf+CvIDDqd3DDbvWqfHbx7CcNLUSf2oVM=",
+    "originContent": "io.github.IGJoshua/coffi {:git/tag \"v1.0.615\" :git/sha \"7401485\"}",
+    "translatedContent": "io.github.IGJoshua/coffi {:git/tag \"v1.0.615\" :git/sha \"7401485\"}"
+  },
+  {
+    "row": 26,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "如果您将此库作为 git 依赖使用，您需要准备该库。"
+  },
+  {
+    "row": 28,
+    "rowsha": "5PxOhsiyAIER4C0rNbTqA1DCNH0H1p4VJIwt/MUJS6M=",
+    "originContent": "If you use this library as a git dependency, you will need to prepare the",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "X0WuPp2fo9DimUiNtFnGxwxQ+BB5XGjJIS1V+y0Ud2c=",
+    "originContent": "library.",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 32,
+    "rowsha": "XflY5Xju75nbV+yqdlRxNDRqaQ/4qPpBXgyosIiH3/M=",
+    "originContent": "$ clj -X:deps prep",
+    "translatedContent": "$ clj -X:deps prep"
+  },
+  {
+    "row": 33,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Coffi 需要使用包 `java.lang.foreign`，并且大多数操作被 JDK 视为不安全，因此在不传递某些命令行标志的情况下，您的代码无法使用这些操作。为了使用 coffi，请向您的应用程序添加以下 JVM 参数。"
+  },
+  {
+    "row": 35,
+    "rowsha": "efZMVmTc5Kpr2rmXNaBC5d3TVtXqIHzTturynuL9N9g=",
+    "originContent": "Coffi requires usage of the package `java.lang.foreign`, and most of the",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "u0kJhtmRN1gY5QmuhetFgfqbiX2pbc8kPB+Cw8t5kDk=",
+    "originContent": "operations are considered unsafe by the JDK, and are therefore unavailable to",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "ot0ZuizkXHO3hDxINChdNO5yJUxctdTHDIgVR3kc7uU=",
+    "originContent": "your code without passing some command line flags. In order to use coffi, add",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "rhLnUpu4lXHBkC1atL8KX8vzVDmSjTGyxEI3PU59em8=",
+    "originContent": "the following JVM arguments to your application.",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 41,
+    "rowsha": "dr8cczK+Sm6QocKTCjk6IFYZYMcVG/BDEEMSWN/gJWk=",
+    "originContent": "--enable-native-access=ALL-UNNAMED",
+    "translatedContent": "--enable-native-access=ALL-UNNAMED"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "85S46xzwRLkcoUmC4pfk2ayjmWlVxqMvTjxOLNCWu7I=",
+    "originContent": "You can specify JVM arguments in a particular invocation of the Clojure CLI with",
+    "translatedContent": "您可以在特定的 Clojure CLI 调用中使用 `-J` 标志指定 JVM 参数，方法如下："
+  },
+  {
+    "row": 45,
+    "rowsha": "Em9i84yh3MmGvBtSJr+AQ0nL60Z+q1pYZL4zskWx/O4=",
+    "originContent": "the `-J` flag like so:",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "TxsoiXwt+7iaUaHrFrQ38v0GKrXBOtBaph6vhYTmTmk=",
+    "originContent": "``` sh",
+    "translatedContent": "``` sh"
+  },
+  {
+    "row": 48,
+    "rowsha": "54ZgREpHUDsJskJdeUV1O66eUvmaetfn/PAALcSUR0M=",
+    "originContent": "clj -J--enable-native-access=ALL-UNNAMED",
+    "translatedContent": "clj -J--enable-native-access=ALL-UNNAMED"
+  },
+  {
+    "row": 49,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "7p2y7f2HQUSbKk7KRepufz3KgF5AAGntLI6kGOSM9SE=",
+    "originContent": "You can also specify them in an alias in your `deps.edn` file under the",
+    "translatedContent": "你也可以在你的 `deps.edn` 文件中的别名下通过"
+  },
+  {
+    "row": 52,
+    "rowsha": "A04TTbBKtBAgt38podqXyxwc6pexvtGp9yOvhEKLW4s=",
+    "originContent": "`:jvm-opts` key (see the next example) and then invoking the CLI with that alias",
+    "translatedContent": "`:jvm-opts` 键指定它们（见下一个示例），然后使用 `-M`、`-A` 或 `-X`"
+  },
+  {
+    "row": 53,
+    "rowsha": "z0Z6Zzfsaw3ZJEIAl06ESlGfKgJcM4KOWFFMZypw7ao=",
+    "originContent": "using `-M`, `-A`, or `-X`.",
+    "translatedContent": "调用带有该别名的 CLI。"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "zSFigbK/1ERSLJUO1Y54Wmbo3ZMe6bCz26EpN/dw9uk=",
+    "originContent": "``` clojure",
+    "translatedContent": "``` clojure"
+  },
+  {
+    "row": 56,
+    "rowsha": "jHKiIER5xljv7ie88jmeeLgv1uRw8f7tXoJYlIwtXxQ=",
+    "originContent": "{:aliases {:dev {:jvm-opts [\"--enable-native-access=ALL-UNNAMED\"]}}}",
+    "translatedContent": "{:aliases {:dev {:jvm-opts [\"--enable-native-access=ALL-UNNAMED\"]}}}"
+  },
+  {
+    "row": 57,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "其他构建工具如果查阅它们的文档，也应提供类似的功能。"
+  },
+  {
+    "row": 59,
+    "rowsha": "1MsJMJBFE1hO/AFd1+r+7jSX7Q3+UdqrPxpoNOXv8Uc=",
+    "originContent": "Other build tools should provide similar functionality if you check their",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "iU6YjN+UyqlbdFxN8sHyqQzlc4tWqsAMmXCA0skNf7o=",
+    "originContent": "documentation.",
+    "translatedContent": "在创建可执行的 jar 文件时，可以通过向 jar 添加清单属性 `Enable-Native-Access: ALL-UNNAMED` 来避免传递此参数的需求。有关如何添加，请参阅您的构建工具文档。"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "/zXH5S5LBjnrG91OEx7jU1mANpL5BoUjgLfX8kkloG4=",
+    "originContent": "When creating an executable jar file, you can avoid the need to pass this",
+    "translatedContent": "Coffi 还支持 linter clj-kondo。如果您使用 clj-kondo 并且该库的宏未正确进行 lint，您可能需要安装随库捆绑的配置。您可以通过以下 shell 命令完成，需在项目目录下运行："
+  },
+  {
+    "row": 63,
+    "rowsha": "KJYsaKAkL9+vMhRmi+lsNbDTr/pYbFFQWIOwcEIkg0g=",
+    "originContent": "argument by adding the manifest attribute `Enable-Native-Access: ALL-UNNAMED` to",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "sSmHyYMrv2ZPWnG+9ifjWT5vg9Oa+geP81f5z20GgHI=",
+    "originContent": "your jar. See your build tool's documentation for how to add this.",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "hAwpKbMlN0SAUFwv/F0wghNa+qj6vjPogXyMED6M1Ao=",
+    "originContent": "Coffi also includes support for the linter clj-kondo. If you use clj-kondo and",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "4lHcoMrZ2qdK0KSrMeFgUNaOtmLjzS8tVqrANUoMUBU=",
+    "originContent": "this library's macros are not linting correctly, you may need to install the",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "ZZ1nflo0kxHJBZoTHtu2x9Vnn07h9/WKJ8T1QBdsrco=",
+    "originContent": "config bundled with the library. You can do so with the following shell command,",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "0mvRbzrfUVWCbjmdZf40Q1+3uhGVonL+TjsfqQL4NmM=",
+    "originContent": "run from your project directory:",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 72,
+    "rowsha": "c5GD+k/56qyORSlWYw8FewCqHHqtE9zwKww4/lCWDF4=",
+    "originContent": "$ clj-kondo --copy-configs --dependencies --lint \"$(clojure -Spath)\"",
+    "translatedContent": "$ clj-kondo --copy-configs --dependencies --lint \"$(clojure -Spath)\""
+  },
+  {
+    "row": 73,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 76,
+    "rowsha": "z9mc7ssrswdjyHUipldc/PE9iOeFHm16L1kuWTYkWbo=",
+    "originContent": "The two main namespaces are `coffi.mem` which provides functions for allocating",
+    "translatedContent": "两个主要的命名空间是 `coffi.mem`，它提供分配和操作堆外内存以及（反）序列化值的函数，和 `coffi.ffi`，它可以加载本地库，声明本地函数包装器，以及将函数作为回调进行（反）序列化。"
+  },
+  {
+    "row": 77,
+    "rowsha": "Gsu9X8TYeVMMdBaOoe/Cqdzp3vEanxCG5RU8uWOB7Ks=",
+    "originContent": "and manipulating off-heap memory and (de)serializing values, and `coffi.ffi`",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "ml3ot0YBq2DX66TXHuupPCUGF3A190+rEUPX7x2RT3k=",
+    "originContent": "which can load native libraries, declare native function wrappers, and",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "gJD815crAK9v9VunuMVw+cYJrHoaN6guputMAR2YthE=",
+    "originContent": "(de)serialize functions as callbacks.",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "9I9AL2uh+oY3uwkLuU0Cn4d3Hfwk4VusimshjfJrzEg=",
+    "originContent": "```clojure",
+    "translatedContent": "```clojure"
+  },
+  {
+    "row": 82,
+    "rowsha": "3ImBF8wnCTLlij0eYayfgpeMMOHthMjEx5orCoTYpL0=",
+    "originContent": "(require '[coffi.mem :as mem])",
+    "translatedContent": "(require '[coffi.mem :as mem])"
+  },
+  {
+    "row": 83,
+    "rowsha": "TchcGSaSr76TL5USS8nM2E5ar+TrAOPPdve1mmo8low=",
+    "originContent": "(require '[coffi.ffi :as ffi :refer [defcfn]])",
+    "translatedContent": "(require '[coffi.ffi :as ffi :refer [defcfn]])"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "Afu/GuT90ppCEJz6om2KmQiQeEbucS0cD8NbUn7GXo4=",
+    "originContent": "(defcfn strlen",
+    "translatedContent": "(defcfn strlen"
+  },
+  {
+    "row": 86,
+    "rowsha": "sHcbBxODAwjJkWnHaZut+HREWwpM3zRgXO2nNgMWfnc=",
+    "originContent": "  \"Given a string, measures its length in bytes.\"",
+    "translatedContent": "  \"Given a string, measures its length in bytes.\""
+  },
+  {
+    "row": 87,
+    "rowsha": "986DyFeyK4ZKWcC0lMun7AKHauf1hXsBd0x/SnuOEgc=",
+    "originContent": "  strlen [::mem/c-string] ::mem/long)",
+    "translatedContent": "  strlen [::mem/c-string] ::mem/long)"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "D3blAkJZo7HmDgjK3KIW9FE2OW72IRKJkgAzcbkGEMc=",
+    "originContent": "(strlen \"hello\")",
+    "translatedContent": "(strlen \"hello\")"
+  },
+  {
+    "row": 90,
+    "rowsha": "BnSY326qCMsCMqm3PkfVHir1e4PrJCn0V7+N7Az8OQM=",
+    "originContent": ";; => 5",
+    "translatedContent": ";; => 5"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "0F89xJE27KlADFEbkzlVCoEIYOghFuGmAEjX/nEKcLY=",
+    "originContent": "(ffi/load-system-library \"z\")",
+    "translatedContent": "(ffi/load-system-library \"z\")"
+  },
+  {
+    "row": 93,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "在 `coffi.mem` 命名空间中，包含了所有 C 语言中有符号原始数值类型的类型，此外还有 `::mem/pointer` 和 `::mem/c-string`，以及使用类似 malli 的类型声明来定义结构体、联合体、数组、枚举和标志集的方法。"
+  },
+  {
+    "row": 95,
+    "rowsha": "kr0UNF9Fg2S9XQNEqQQVf6FFadxx1eAFUMevtX6OEl8=",
+    "originContent": "In the `coffi.mem` namespace there are types for all the signed primitive",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "2oHmxJx2aPuCvMHanTjeLbBWwsrDm7+BKjyTrIzIp1U=",
+    "originContent": "numeric types in C, plus `::mem/pointer` and `::mem/c-string`, and ways to use",
+    "translatedContent": "## 替代方案"
+  },
+  {
+    "row": 97,
+    "rowsha": "OuLyhruWpOFpbrOIdt8307jHLYk2sFbbru5paz8cLv8=",
+    "originContent": "malli-like type declarations to define structs, unions, arrays, enums, and",
+    "translatedContent": "该库并不是唯一提供访问本地代码的 Clojure 库。此外，还存在以下（以及其他）库："
+  },
+  {
+    "row": 98,
+    "rowsha": "PZJeQt0uaCU51R8UxmKWY+R+G1CXA/PAHk7fHSxgU4g=",
+    "originContent": "flagsets.",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [dtype-next](https://github.com/cnuernber/dtype-next)"
+  },
+  {
+    "row": 100,
+    "rowsha": "59WXeEO/EB5EgnOQ4Gtja1J2wjDmHnjp8KNyFn8CcI0=",
+    "originContent": "## Alternatives",
+    "translatedContent": "- [tech.jna](https://github.com/techascent/tech.jna)"
+  },
+  {
+    "row": 101,
+    "rowsha": "L+yXBfo21G2cKmaosbVxTfp2CL3WqwM63bmY4M1jYTU=",
+    "originContent": "This library is not the only Clojure library providing access to native code. In",
+    "translatedContent": "- [clojure-jna](https://github.com/Chouser/clojure-jna)"
+  },
+  {
+    "row": 102,
+    "rowsha": "gdf/+CcQNSZG4djOsNbDxFcXpyYaUe2TjUpM/4/yHeo=",
+    "originContent": "addition the following libraries (among others) exist:",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Dtype-next 支持 Java 版本 8-15、17+ 以及 GraalVM，但重点是基于数组的编程，并且侧重于将内存保持在本地端，而不是在 Clojure 本地结构和 C 之间来回传递数据。在 Java 17+ 中，它使用外部函数与内存 API（Project Panama 的一部分，直到 JDK 22 稳定），而在其他 Java 版本中使用 JNA。"
+  },
+  {
+    "row": 104,
+    "rowsha": "sUiIzesVGYVGoAaFAJN+tUYIPuxdtySRfZOb5KG2IcA=",
+    "originContent": "- [dtype-next](https://github.com/cnuernber/dtype-next)",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "jt1FpIqqoqI9TKBEufXFnu07ZHRB8zeEzGRh7gffn54=",
+    "originContent": "- [tech.jna](https://github.com/techascent/tech.jna)",
+    "translatedContent": "Tech.jna 和 clojure-jna 在所有情况下都使用 JNA 库，并且都不提供对回调的显式支持。JNA 允许使用 `java.nio.ByteBuffer` 来按值传递结构体，这两个库都提供了使用这种按值构造来调用按引用 API 的方式。"
+  },
+  {
+    "row": 106,
+    "rowsha": "1FUViNsgt/BHImTxLvnF0QZWgaObKbBSPgGKiiAv/Go=",
+    "originContent": "- [clojure-jna](https://github.com/Chouser/clojure-jna)",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "coffi 的另一个替代方案是直接使用 JNI，这是 JVM 中封装本地代码最久远的方法，但缺点是你需要编写本地代码和 Java 代码，即使你只打算从 Clojure 中使用它。"
+  },
+  {
+    "row": 108,
+    "rowsha": "1Dv6r8FhLKT5lePNhCYuISFTdYqOkRpUJIQhtyHJt+w=",
+    "originContent": "Dtype-next has support for Java versions 8-15, 17+, and GraalVM, but is focused",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "n9ZfWvJKqSoDzAzvKQXplHaWE50bdK6MCGz2kqpBYdY=",
+    "originContent": "strongly on array-based programming, as well as being focused on keeping memory",
+    "translatedContent": "如果你的应用需要能够运行在早于 JVM 22 的版本中，应考虑这些其他选项。Dtype-next 提供了最强大的本地代码支持，但如果你只是封装一个简单的库，其他库可能更具吸引力，因为它们的 API 面较小，且更容易封装函数。"
+  },
+  {
+    "row": 110,
+    "rowsha": "8Xdnz1TgA+1rotM07TNyVmOR90iV7yFbOPm0AcLYWOU=",
+    "originContent": "in the native side rather than marshaling data to and from Clojure-native",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "q80O5VWOPTBgrONTH1xQ6K7pfDegN/48PHTb52Rqc2c=",
+    "originContent": "structures. In Java 17+, this uses the Foreign Function & Memory API (a part of",
+    "translatedContent": "此外，还有一个 [第三方 FFI 选项汇总](https://docs.google.com/spreadsheets/d/1ViLHNUgrO2osh2AH0h7MaCaXz8g0UpLbyWojY5f10kk/edit?gid=332155605#gid=332155605) 列出了 Clojure 的 FFI 选项。"
+  },
+  {
+    "row": 112,
+    "rowsha": "KBOvFY1umCWU2nvMPaebM4r6LIXEQLisfm5p7TZHo3Y=",
+    "originContent": "Project Panama until stabilization in JDK 22), while in other Java versions it",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "r6Xy4A+I9N/zZ4zKCvBp7LzA54pjByqlAqdAF2OUjGk=",
+    "originContent": "uses JNA.",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "vHIEU8QpIQGKeU5MDkaKcm2Sl54Yvf+dFFJPkpKanVA=",
+    "originContent": "Tech.jna and clojure-jna both use the JNA library in all cases, and neither",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "Hy724SuzH5qU/S5jVhXr7mkSKkm4ztUU7DenTf5sxYw=",
+    "originContent": "provide explicit support for callbacks. JNA allows the use of",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "rHG+6AY4qE+4rxsiNT3NHzNRe4fU8PvXTuSYpGf0LMQ=",
+    "originContent": "`java.nio.ByteBuffer`s to pass structs by value, and both libraries provide ways",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "g6LaUBAWkLBwyN1FZQmHWGsUHNEeCsmA9TrkAY4TKAo=",
+    "originContent": "to use this by-value construction to call by-reference apis.",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "7dCbqmb4o5uv6/jOsSJEXdqppUlcgJxdgt04UDukhps=",
+    "originContent": "An additional alternative to coffi is to directly use the JNI, which is the",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "QN91ueqcZMPG3+Nngc+xMau16kQ/LpAOdfPhFVCmwZc=",
+    "originContent": "longest-standing method of wrapping native code in the JVM, but comes with the",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "wPk1rd8pLw/iiUWkrfFkO9PhOSbj9XpSnVbrGCbl2v4=",
+    "originContent": "downside that it requires you to write both native and Java code to use, even if",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "6GlnjOncHjs7Z68xZeFdPEcpYwBaImMYREfqgSEDIyw=",
+    "originContent": "you only intend to use it from Clojure.",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "INFq4MDx8KPP5NUFMH24Th0XP/1FlDwvVWovatzqHIU=",
+    "originContent": "If your application needs to be able to run in earlier versions of the JVM than",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "wpkaM4mnvACr+26fVSxpsbNDn1nVjErbA744kwtZoJM=",
+    "originContent": "22, you should consider these other options. Dtype-next provides the most robust",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "idgKIiFTHzird+yE83zeGxOUg9XdAsaIy6sPMp0lSsU=",
+    "originContent": "support for native code, but if you are wrapping a simple library then the other",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "s71ajWZeZbGFmmp5TjSbr4Ak5tjrUXVdVMcKbpZJqlk=",
+    "originContent": "libraries may be more appealing, as they have a smaller API surface area and",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "XN97T+D9/yjseLurgCnM6CQlMhWYCcZmz9d3/46CniI=",
+    "originContent": "it's easier to wrap functions.",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "MD9cIDoxKY9jKphpnXSHUBkDOZdYPLhdZT+2q2l3f7g=",
+    "originContent": "There is also a [third party round up](https://docs.google.com/spreadsheets/d/1ViLHNUgrO2osh2AH0h7MaCaXz8g0UpLbyWojY5f10kk/edit?gid=332155605#gid=332155605)",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "IAp7BifZEU89YvU9PPhTlAehh2zdrImPvLVqWSJsYTE=",
+    "originContent": "of FFI options for Clojure.",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "QnKQgThnoAqznwiN4+axqy8APTfZTdp6m9i+oi/OrN0=",
+    "originContent": "## Known Issues",
+    "translatedContent": "## 已知问题"
+  },
+  {
+    "row": 135,
+    "rowsha": "ZnjHeMEGSigoowvc+LOkZyO9DGrCpnUCJBRgksws/PA=",
+    "originContent": "The project author is aware of these issues and plans to fix them in a future",
+    "translatedContent": "项目作者已知晓这些问题，并计划在未来的版本中修复它们："
+  },
+  {
+    "row": 136,
+    "rowsha": "ZAbHxpc6EUN891EMgWqif8M0tDrPGN9Y/NezdZJSLfk=",
+    "originContent": "release:",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 当在依赖 coffi 的库中使用 codox 生成文档时，会出现以下错误。临时的解决方法是在你的 codox 构建中显式依赖版本为 0.2.1 的 insn。"
+  },
+  {
+    "row": 138,
+    "rowsha": "A3neZKM0k80RSAXqRRiGHoERNkBBb2zByJohdMe6p2Y=",
+    "originContent": "- When generating docs with codox in a library that depends on coffi, the below error will be produced. A temporary workaround is to add an explicit dependency in your codox build on insn at version 0.2.1",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 140,
+    "rowsha": "0rB+3F9rFFbylD92K16nHHniSlhjylwkaPskfMGljAU=",
+    "originContent": "  Unable to find static field: ACC_OPEN in interface org.objectweb.asm.Opcodes",
+    "translatedContent": "  Unable to find static field: ACC_OPEN in interface org.objectweb.asm.Opcodes"
+  },
+  {
+    "row": 141,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "BbJVvOf2VBYPtaTDxRZ/xPIYEdp6vJC8JNp3VdcpRzM=",
+    "originContent": "## Future Plans",
+    "translatedContent": "## 未来计划"
+  },
+  {
+    "row": 144,
+    "rowsha": "yt4lDeYsBpz54R4Ukt2clhYR0o56sWnmfEvZG1OU9r0=",
+    "originContent": "These features are planned for future releases.",
+    "translatedContent": "这些功能计划在未来版本中实现。"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "a6OEJPO45+Ym1V6t3IL68R/B365V4+oJdmB9pavx4nc=",
+    "originContent": "- Support for va_args type",
+    "translatedContent": "- 支持 va_args 类型"
+  },
+  {
+    "row": 147,
+    "rowsha": "+PIpHXd6U8pRes/APq6AXgxsnt34x94HNGys5cRjMn0=",
+    "originContent": "- Header parsing tool for generating a data model? (maybe just work with [clong](https://github.com/phronmophobic/clong)?)",
+    "translatedContent": "- 用于生成数据模型的头文件解析工具？（也许只需配合 [clong](https://github.com/phronmophobic/clong) 使用？）"
+  },
+  {
+    "row": 148,
+    "rowsha": "Q5f/d84sViMPfbMG0q+Nwr0ojfcG3J8llxnw3hv2QFw=",
+    "originContent": "- Generic type aliases",
+    "translatedContent": "- 泛型类型别名"
+  },
+  {
+    "row": 149,
+    "rowsha": "4FKqSnlNts75aXs2teJyKKuWQbuZwRV12Asa8S8Hs4A=",
+    "originContent": "- Unsigned integer types",
+    "translatedContent": "- 无符号整数类型"
+  },
+  {
+    "row": 150,
+    "rowsha": "AmyYZOLZOCngIeElrbX1HIaHkdcL0yHsjh5C6ulMNgo=",
+    "originContent": "- Helper macro for out arguments",
+    "translatedContent": "- 用于输出参数的辅助宏"
+  },
+  {
+    "row": 151,
+    "rowsha": "b1coXkt8Dfdt69ncKDctfX4pYPfIU16XZNrfo7i1lbg=",
+    "originContent": "- Improve error messages from defcfn macro",
+    "translatedContent": "- 改进 defcfn 宏的错误信息"
+  },
+  {
+    "row": 152,
+    "rowsha": "SYR3FY3ATXckFDTWh2Tv1wmtaNvc1sxUQ+wbjzb/Y2c=",
+    "originContent": "- Mapped memory",
+    "translatedContent": "- 映射内存"
+  },
+  {
+    "row": 153,
+    "rowsha": "tkKMGcdcvS38Z0YUTB0i8qYvp8nwoHztcdzzspULqzU=",
+    "originContent": "- Helper macros for custom serde implementations for more composite data types",
+    "translatedContent": "- 用于更复杂数据类型自定义 serde 实现的辅助宏"
+  },
+  {
+    "row": 154,
+    "rowsha": "+PMZyHuKxItWoju0smfG0WmP5noayoG2jdsFR0NVukg=",
+    "originContent": "- Support for GraalVM Native Image (once their support for FFM becomes mature)",
+    "translatedContent": "- 支持 GraalVM Native Image（待其对 FFM 的支持成熟后）"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## 许可证"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "NbV3zdsSqDA7M7o08XKfPzft8krB7R+VE1EX4UKrwg0=",
+    "originContent": "Copyright © 2023 Joshua Suskalo",
+    "translatedContent": "版权所有 © 2023 Joshua Suskalo"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "afowo7SwatyKScYCMDMCdv4kPY7kl1v4JKXLB33K9kk=",
+    "originContent": "Distributed under the Eclipse Public License version 1.0.",
+    "translatedContent": "根据 Eclipse 公共许可证版本 1.0 发布。"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

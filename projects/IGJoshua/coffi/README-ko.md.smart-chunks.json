@@ -1,0 +1,1202 @@
+[
+  {
+    "Id": 1,
+    "Content": "# coffi\n[![Clojars Project](https://img.shields.io/clojars/v/org.suskalo/coffi.svg)](https://clojars.org/org.suskalo/coffi)\n[![cljdoc badge](https://cljdoc.org/badge/org.suskalo/coffi)](https://cljdoc.org/d/org.suskalo/coffi)\n\nCoffi is a foreign function interface library for Clojure, using the [Foreign\nFunction & Memory API](https://openjdk.org/jeps/454) in JDK 22 and later. This\nallows calling native code directly from Clojure without the need for either\nJava or native code specific to the library, as e.g. the JNI does. Coffi focuses\non ease of use, including functions and macros for creating wrappers to allow\nthe resulting native functions to act just like Clojure ones, however this\ndoesn't remove the ability to write systems which minimize the cost of\nmarshaling data and optimize for performance, to make use of the low-level\naccess the FF&M API gives us.\n\n- [Getting Started](https://cljdoc.org/d/org.suskalo/coffi/CURRENT/doc/getting-started)\n- [API Documentation](https://cljdoc.org/d/org.suskalo/coffi/CURRENT/api/coffi)\n- [Recent Changes](https://raw.githubusercontent.com/IGJoshua/coffi/develop/CHANGELOG.md)\n\n## Installation\nThis library is available on Clojars, or as a git dependency. Add one of the\nfollowing entries to the `:deps` key of your `deps.edn`:\n",
+    "ContentSha": "bOaJOXT+QpHUc8xscRekyrpat9Mb6huwFYEIKSeXjGg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# coffi\n[![Clojars Project](https://img.shields.io/clojars/v/org.suskalo/coffi.svg)](https://clojars.org/org.suskalo/coffi)\n[![cljdoc badge](https://cljdoc.org/badge/org.suskalo/coffi)](https://cljdoc.org/d/org.suskalo/coffi)\n\nCoffi는 JDK 22 이상에서 [Foreign Function & Memory API](https://openjdk.org/jeps/454)를 사용하는 Clojure용 외부 함수 인터페이스 라이브러리입니다.  \n이는 JNI처럼 라이브러리 전용 자바 또는 네이티브 코드를 필요로 하지 않고 Clojure에서 네이티브 코드를 직접 호출할 수 있게 합니다. Coffi는 사용 편의성에 중점을 두어 래퍼를 생성하는 함수와 매크로를 포함하여 네이티브 함수가 마치 Clojure 함수처럼 동작하도록 합니다. 그러나 이는 FF&M API가 제공하는 저수준 접근을 활용하여 데이터 마샬링 비용을 최소화하고 성능 최적화를 위한 시스템을 작성하는 능력을 제한하지 않습니다.\n\n- [시작하기](https://cljdoc.org/d/org.suskalo/coffi/CURRENT/doc/getting-started)\n- [API 문서](https://cljdoc.org/d/org.suskalo/coffi/CURRENT/api/coffi)\n- [최근 변경사항](https://raw.githubusercontent.com/IGJoshua/coffi/develop/CHANGELOG.md)\n\n## 설치\n이 라이브러리는 Clojars에서 사용 가능하며, git 의존성으로도 사용할 수 있습니다.  \n다음 항목 중 하나를 `deps.edn`의 `:deps` 키에 추가하세요:\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RfMnA5vFWy5kUsriMyodQVkSYs11VDzYz+y7KhIltIY=",
+        "originContent": "# coffi",
+        "translatedContent": "# coffi"
+      },
+      {
+        "row": 2,
+        "rowsha": "K8I5/Jnkorq0C6TjEN3IsV6tMnlLn+T9suy8fxU2xbs=",
+        "originContent": "[![Clojars Project](https://img.shields.io/clojars/v/org.suskalo/coffi.svg)](https://clojars.org/org.suskalo/coffi)",
+        "translatedContent": "[![Clojars Project](https://img.shields.io/clojars/v/org.suskalo/coffi.svg)](https://clojars.org/org.suskalo/coffi)"
+      },
+      {
+        "row": 3,
+        "rowsha": "P0Wy3t1dmZbNEs+skgQiMgHzrY/EzXuklRDyGO552Pk=",
+        "originContent": "[![cljdoc badge](https://cljdoc.org/badge/org.suskalo/coffi)](https://cljdoc.org/d/org.suskalo/coffi)",
+        "translatedContent": "[![cljdoc badge](https://cljdoc.org/badge/org.suskalo/coffi)](https://cljdoc.org/d/org.suskalo/coffi)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "iUooX8N3hTxfwqVd+WdXIBO0w+dmdom5idzUb/51SOU=",
+        "originContent": "Coffi is a foreign function interface library for Clojure, using the [Foreign",
+        "translatedContent": "Coffi는 JDK 22 이상에서 [Foreign Function & Memory API](https://openjdk.org/jeps/454)를 사용하는 Clojure용 외부 함수 인터페이스 라이브러리입니다.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "zgaU0U6Dtb5VHpPZIHNTwXOJ/Jh9MKQA2yKbXjEW9hQ=",
+        "originContent": "Function & Memory API](https://openjdk.org/jeps/454) in JDK 22 and later. This",
+        "translatedContent": "이는 JNI처럼 라이브러리 전용 자바 또는 네이티브 코드를 필요로 하지 않고 Clojure에서 네이티브 코드를 직접 호출할 수 있게 합니다. Coffi는 사용 편의성에 중점을 두어 래퍼를 생성하는 함수와 매크로를 포함하여 네이티브 함수가 마치 Clojure 함수처럼 동작하도록 합니다. 그러나 이는 FF&M API가 제공하는 저수준 접근을 활용하여 데이터 마샬링 비용을 최소화하고 성능 최적화를 위한 시스템을 작성하는 능력을 제한하지 않습니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "1Lv3iV4zeP2D2sfGM6MHmvRdGlA2ikp0V3RSX+R0qNs=",
+        "originContent": "allows calling native code directly from Clojure without the need for either",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "w715LWCaG0/+4rymxoIf/MfoMKKxSyACuSia8EGxU6g=",
+        "originContent": "Java or native code specific to the library, as e.g. the JNI does. Coffi focuses",
+        "translatedContent": "- [시작하기](https://cljdoc.org/d/org.suskalo/coffi/CURRENT/doc/getting-started)"
+      },
+      {
+        "row": 9,
+        "rowsha": "eR83087rWkroqgnnRA/2vV+RKbWR/m3pZm5Q2L3YWXU=",
+        "originContent": "on ease of use, including functions and macros for creating wrappers to allow",
+        "translatedContent": "- [API 문서](https://cljdoc.org/d/org.suskalo/coffi/CURRENT/api/coffi)"
+      },
+      {
+        "row": 10,
+        "rowsha": "jKLLC+Wqt9o7uYmt5CMJv78Fehm5cV0+UAl+oFGt9ms=",
+        "originContent": "the resulting native functions to act just like Clojure ones, however this",
+        "translatedContent": "- [최근 변경사항](https://raw.githubusercontent.com/IGJoshua/coffi/develop/CHANGELOG.md)"
+      },
+      {
+        "row": 11,
+        "rowsha": "Kh2/SYU3wQK6kUPAOT4Fxwq+gEfFVHPFU85Ee3Css+Y=",
+        "originContent": "doesn't remove the ability to write systems which minimize the cost of",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "sYYJpZ0rc4qSHnPpmgiHlF6L1Hk7wwclZfdbm+7DON8=",
+        "originContent": "marshaling data and optimize for performance, to make use of the low-level",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 13,
+        "rowsha": "Z86X0j84Tv2BFnNIrrVu4icAtkRzfOE0GXqKofTAdUE=",
+        "originContent": "access the FF&M API gives us.",
+        "translatedContent": "이 라이브러리는 Clojars에서 사용 가능하며, git 의존성으로도 사용할 수 있습니다.  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "다음 항목 중 하나를 `deps.edn`의 `:deps` 키에 추가하세요:"
+      },
+      {
+        "row": 15,
+        "rowsha": "93zICuPEJ5IXrRVYtPOxdz8z0Z3RXLM5Kn33bG+wK54=",
+        "originContent": "- [Getting Started](https://cljdoc.org/d/org.suskalo/coffi/CURRENT/doc/getting-started)",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "MiGRYWVuTWW/CrUwt2wAplSxQRAl6QVIpEDuSweK7OA=",
+        "originContent": "- [API Documentation](https://cljdoc.org/d/org.suskalo/coffi/CURRENT/api/coffi)",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "4SRt0584p6J18Z5nK6iuVXSJyqtIfmB/DYJy/zXOmoM=",
+        "originContent": "- [Recent Changes](https://raw.githubusercontent.com/IGJoshua/coffi/develop/CHANGELOG.md)",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "lST3jY3eo2n2i1zq5mMRQPaX+7MZNIwmrXiMzFWv42A=",
+        "originContent": "This library is available on Clojars, or as a git dependency. Add one of the",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Ty+aYgPq8wvaspR63MCW34yIYjGWGAsIL7i99DZ4Uig=",
+        "originContent": "following entries to the `:deps` key of your `deps.edn`:",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```clojure\norg.suskalo/coffi {:mvn/version \"1.0.615\"}\nio.github.IGJoshua/coffi {:git/tag \"v1.0.615\" :git/sha \"7401485\"}\n```",
+    "ContentSha": "SElbCKUlZHNdOBBHbW9SYNr5PrluP0dF5LPH73KELG4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```clojure\norg.suskalo/coffi {:mvn/version \"1.0.615\"}\nio.github.IGJoshua/coffi {:git/tag \"v1.0.615\" :git/sha \"7401485\"}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9I9AL2uh+oY3uwkLuU0Cn4d3Hfwk4VusimshjfJrzEg=",
+        "originContent": "```clojure",
+        "translatedContent": "```clojure"
+      },
+      {
+        "row": 2,
+        "rowsha": "wMs2md1y9D1TpfXLGOoyRqPHKXd6Xf0QTQ10CiytyOY=",
+        "originContent": "org.suskalo/coffi {:mvn/version \"1.0.615\"}",
+        "translatedContent": "org.suskalo/coffi {:mvn/version \"1.0.615\"}"
+      },
+      {
+        "row": 3,
+        "rowsha": "WnO65FBPrCbf+CvIDDqd3DDbvWqfHbx7CcNLUSf2oVM=",
+        "originContent": "io.github.IGJoshua/coffi {:git/tag \"v1.0.615\" :git/sha \"7401485\"}",
+        "translatedContent": "io.github.IGJoshua/coffi {:git/tag \"v1.0.615\" :git/sha \"7401485\"}"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nIf you use this library as a git dependency, you will need to prepare the\nlibrary.\n",
+    "ContentSha": "a37bo+vvsBpvgjewoZaLwx9WXAu7utkC5r2lcr0ru34=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이 라이브러리를 git 종속성으로 사용할 경우, 라이브러리를 준비해야 합니다.\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 라이브러리를 git 종속성으로 사용할 경우, 라이브러리를 준비해야 합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "5PxOhsiyAIER4C0rNbTqA1DCNH0H1p4VJIwt/MUJS6M=",
+        "originContent": "If you use this library as a git dependency, you will need to prepare the",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "X0WuPp2fo9DimUiNtFnGxwxQ+BB5XGjJIS1V+y0Ud2c=",
+        "originContent": "library.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\n$ clj -X:deps prep\n```",
+    "ContentSha": "ifVsALrN2Vlhu3upP4vU85w83sZpFmx+tLQm8KRCoDQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n$ clj -X:deps prep\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "XflY5Xju75nbV+yqdlRxNDRqaQ/4qPpBXgyosIiH3/M=",
+        "originContent": "$ clj -X:deps prep",
+        "translatedContent": "$ clj -X:deps prep"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nCoffi requires usage of the package `java.lang.foreign`, and most of the\noperations are considered unsafe by the JDK, and are therefore unavailable to\nyour code without passing some command line flags. In order to use coffi, add\nthe following JVM arguments to your application.\n",
+    "ContentSha": "7BX85SaZ2xGfJLzTdFCSelwx7JQNVU6MT/fDLE6d+YA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Coffi는 `java.lang.foreign` 패키지의 사용을 요구하며, 대부분의\n작업은 JDK에서 안전하지 않은 것으로 간주되어\n명령줄 플래그를 전달하지 않으면 코드에서 사용할 수 없습니다.\ncoffi를 사용하려면 애플리케이션에 다음 JVM 인수를 추가하세요.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Coffi는 `java.lang.foreign` 패키지의 사용을 요구하며, 대부분의"
+      },
+      {
+        "row": 2,
+        "rowsha": "efZMVmTc5Kpr2rmXNaBC5d3TVtXqIHzTturynuL9N9g=",
+        "originContent": "Coffi requires usage of the package `java.lang.foreign`, and most of the",
+        "translatedContent": "작업은 JDK에서 안전하지 않은 것으로 간주되어"
+      },
+      {
+        "row": 3,
+        "rowsha": "u0kJhtmRN1gY5QmuhetFgfqbiX2pbc8kPB+Cw8t5kDk=",
+        "originContent": "operations are considered unsafe by the JDK, and are therefore unavailable to",
+        "translatedContent": "명령줄 플래그를 전달하지 않으면 코드에서 사용할 수 없습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "ot0ZuizkXHO3hDxINChdNO5yJUxctdTHDIgVR3kc7uU=",
+        "originContent": "your code without passing some command line flags. In order to use coffi, add",
+        "translatedContent": "coffi를 사용하려면 애플리케이션에 다음 JVM 인수를 추가하세요."
+      },
+      {
+        "row": 5,
+        "rowsha": "rhLnUpu4lXHBkC1atL8KX8vzVDmSjTGyxEI3PU59em8=",
+        "originContent": "the following JVM arguments to your application.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh\n--enable-native-access=ALL-UNNAMED\n```",
+    "ContentSha": "dWBLa0tV7OnDaHC5OWiPdYkBNI3WfoDhrAEXZ/E/7s0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n--enable-native-access=ALL-UNNAMED\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "dr8cczK+Sm6QocKTCjk6IFYZYMcVG/BDEEMSWN/gJWk=",
+        "originContent": "--enable-native-access=ALL-UNNAMED",
+        "translatedContent": "--enable-native-access=ALL-UNNAMED"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nYou can specify JVM arguments in a particular invocation of the Clojure CLI with\nthe `-J` flag like so:\n",
+    "ContentSha": "ozuCYtnM+puqYUxyRyErOUFAQflt0cjXvlUmU++Pebs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nJVM 인수를 Clojure CLI의 특정 호출에서 지정하려면\n다음과 같이 `-J` 플래그를 사용합니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "85S46xzwRLkcoUmC4pfk2ayjmWlVxqMvTjxOLNCWu7I=",
+        "originContent": "You can specify JVM arguments in a particular invocation of the Clojure CLI with",
+        "translatedContent": "JVM 인수를 Clojure CLI의 특정 호출에서 지정하려면"
+      },
+      {
+        "row": 3,
+        "rowsha": "Em9i84yh3MmGvBtSJr+AQ0nL60Z+q1pYZL4zskWx/O4=",
+        "originContent": "the `-J` flag like so:",
+        "translatedContent": "다음과 같이 `-J` 플래그를 사용합니다:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "``` sh\nclj -J--enable-native-access=ALL-UNNAMED\n```",
+    "ContentSha": "ERaUufge/ewhD+n5NrA90/UeQa/C3TNvzZE9C99gzNA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` sh\nclj -J--enable-native-access=ALL-UNNAMED\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "TxsoiXwt+7iaUaHrFrQ38v0GKrXBOtBaph6vhYTmTmk=",
+        "originContent": "``` sh",
+        "translatedContent": "``` sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "54ZgREpHUDsJskJdeUV1O66eUvmaetfn/PAALcSUR0M=",
+        "originContent": "clj -J--enable-native-access=ALL-UNNAMED",
+        "translatedContent": "clj -J--enable-native-access=ALL-UNNAMED"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nYou can also specify them in an alias in your `deps.edn` file under the\n`:jvm-opts` key (see the next example) and then invoking the CLI with that alias\nusing `-M`, `-A`, or `-X`.\n",
+    "ContentSha": "awjZ8hKiiHWFNK15rXMhApIIOilVVbRVHvSOheP5/tc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n`deps.edn` 파일의 `:jvm-opts` 키 아래에 별칭으로 지정할 수도 있습니다(다음 예 참조).\n그런 다음 해당 별칭을 사용하여 CLI를 `-M`, `-A` 또는 `-X`와 함께 호출합니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7p2y7f2HQUSbKk7KRepufz3KgF5AAGntLI6kGOSM9SE=",
+        "originContent": "You can also specify them in an alias in your `deps.edn` file under the",
+        "translatedContent": "`deps.edn` 파일의 `:jvm-opts` 키 아래에 별칭으로 지정할 수도 있습니다(다음 예 참조)."
+      },
+      {
+        "row": 3,
+        "rowsha": "A04TTbBKtBAgt38podqXyxwc6pexvtGp9yOvhEKLW4s=",
+        "originContent": "`:jvm-opts` key (see the next example) and then invoking the CLI with that alias",
+        "translatedContent": "그런 다음 해당 별칭을 사용하여 CLI를 `-M`, `-A` 또는 `-X`와 함께 호출합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "z0Z6Zzfsaw3ZJEIAl06ESlGfKgJcM4KOWFFMZypw7ao=",
+        "originContent": "using `-M`, `-A`, or `-X`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "``` clojure\n{:aliases {:dev {:jvm-opts [\"--enable-native-access=ALL-UNNAMED\"]}}}\n```",
+    "ContentSha": "LbYo/Ttt18oBDkvG9AQncCSRvs5+LxjWqg1FXDB2aX0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` clojure\n{:aliases {:dev {:jvm-opts [\"--enable-native-access=ALL-UNNAMED\"]}}}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "zSFigbK/1ERSLJUO1Y54Wmbo3ZMe6bCz26EpN/dw9uk=",
+        "originContent": "``` clojure",
+        "translatedContent": "``` clojure"
+      },
+      {
+        "row": 2,
+        "rowsha": "jHKiIER5xljv7ie88jmeeLgv1uRw8f7tXoJYlIwtXxQ=",
+        "originContent": "{:aliases {:dev {:jvm-opts [\"--enable-native-access=ALL-UNNAMED\"]}}}",
+        "translatedContent": "{:aliases {:dev {:jvm-opts [\"--enable-native-access=ALL-UNNAMED\"]}}}"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nOther build tools should provide similar functionality if you check their\ndocumentation.\n\nWhen creating an executable jar file, you can avoid the need to pass this\nargument by adding the manifest attribute `Enable-Native-Access: ALL-UNNAMED` to\nyour jar. See your build tool's documentation for how to add this.\n\nCoffi also includes support for the linter clj-kondo. If you use clj-kondo and\nthis library's macros are not linting correctly, you may need to install the\nconfig bundled with the library. You can do so with the following shell command,\nrun from your project directory:\n",
+    "ContentSha": "BL6AnzrtfGUappa+tLdW5+XSwPEOAk8s9y6zkp4Pzpc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "다른 빌드 도구들도 문서를 확인하면 유사한 기능을 제공할 것입니다.\n\n실행 가능한 jar 파일을 만들 때, 매니페스트 속성 `Enable-Native-Access: ALL-UNNAMED`를\njar에 추가하면 이 인수를 전달할 필요가 없습니다. 추가 방법은 빌드 도구의 문서를 참고하세요.\n\nCoffi는 또한 린터 clj-kondo를 지원합니다. clj-kondo를 사용 중이고\n이 라이브러리의 매크로가 올바르게 린팅되지 않는 경우, 라이브러리와 함께 제공되는\n설정을 설치해야 할 수 있습니다. 프로젝트 디렉토리에서 다음 셸 명령어를 실행하여 설치할 수 있습니다:\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "다른 빌드 도구들도 문서를 확인하면 유사한 기능을 제공할 것입니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "1MsJMJBFE1hO/AFd1+r+7jSX7Q3+UdqrPxpoNOXv8Uc=",
+        "originContent": "Other build tools should provide similar functionality if you check their",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "iU6YjN+UyqlbdFxN8sHyqQzlc4tWqsAMmXCA0skNf7o=",
+        "originContent": "documentation.",
+        "translatedContent": "실행 가능한 jar 파일을 만들 때, 매니페스트 속성 `Enable-Native-Access: ALL-UNNAMED`를"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "jar에 추가하면 이 인수를 전달할 필요가 없습니다. 추가 방법은 빌드 도구의 문서를 참고하세요."
+      },
+      {
+        "row": 5,
+        "rowsha": "/zXH5S5LBjnrG91OEx7jU1mANpL5BoUjgLfX8kkloG4=",
+        "originContent": "When creating an executable jar file, you can avoid the need to pass this",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "KJYsaKAkL9+vMhRmi+lsNbDTr/pYbFFQWIOwcEIkg0g=",
+        "originContent": "argument by adding the manifest attribute `Enable-Native-Access: ALL-UNNAMED` to",
+        "translatedContent": "Coffi는 또한 린터 clj-kondo를 지원합니다. clj-kondo를 사용 중이고"
+      },
+      {
+        "row": 7,
+        "rowsha": "sSmHyYMrv2ZPWnG+9ifjWT5vg9Oa+geP81f5z20GgHI=",
+        "originContent": "your jar. See your build tool's documentation for how to add this.",
+        "translatedContent": "이 라이브러리의 매크로가 올바르게 린팅되지 않는 경우, 라이브러리와 함께 제공되는"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "설정을 설치해야 할 수 있습니다. 프로젝트 디렉토리에서 다음 셸 명령어를 실행하여 설치할 수 있습니다:"
+      },
+      {
+        "row": 9,
+        "rowsha": "hAwpKbMlN0SAUFwv/F0wghNa+qj6vjPogXyMED6M1Ao=",
+        "originContent": "Coffi also includes support for the linter clj-kondo. If you use clj-kondo and",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "4lHcoMrZ2qdK0KSrMeFgUNaOtmLjzS8tVqrANUoMUBU=",
+        "originContent": "this library's macros are not linting correctly, you may need to install the",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ZZ1nflo0kxHJBZoTHtu2x9Vnn07h9/WKJ8T1QBdsrco=",
+        "originContent": "config bundled with the library. You can do so with the following shell command,",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "0mvRbzrfUVWCbjmdZf40Q1+3uhGVonL+TjsfqQL4NmM=",
+        "originContent": "run from your project directory:",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```sh\n$ clj-kondo --copy-configs --dependencies --lint \"$(clojure -Spath)\"\n```",
+    "ContentSha": "qoeR3qBX7vtHmWsFnQknLTRfsKQyzMaLCWjKMQWaBAI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\n$ clj-kondo --copy-configs --dependencies --lint \"$(clojure -Spath)\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "c5GD+k/56qyORSlWYw8FewCqHHqtE9zwKww4/lCWDF4=",
+        "originContent": "$ clj-kondo --copy-configs --dependencies --lint \"$(clojure -Spath)\"",
+        "translatedContent": "$ clj-kondo --copy-configs --dependencies --lint \"$(clojure -Spath)\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## Usage\nThe two main namespaces are `coffi.mem` which provides functions for allocating\nand manipulating off-heap memory and (de)serializing values, and `coffi.ffi`\nwhich can load native libraries, declare native function wrappers, and\n(de)serialize functions as callbacks.\n",
+    "ContentSha": "amNclYhXYrBgSyFLCLkVDnMtBNFDlhKM5xZ9HCvXYtI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 사용법\n두 개의 주요 네임스페이스는 `coffi.mem`으로, 오프힙 메모리를 할당하고 조작하며 값을 (역)직렬화하는 기능을 제공합니다, 그리고 `coffi.ffi`로, 네이티브 라이브러리를 로드하고 네이티브 함수 래퍼를 선언하며 콜백으로서 함수를 (역)직렬화할 수 있습니다.\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 3,
+        "rowsha": "z9mc7ssrswdjyHUipldc/PE9iOeFHm16L1kuWTYkWbo=",
+        "originContent": "The two main namespaces are `coffi.mem` which provides functions for allocating",
+        "translatedContent": "두 개의 주요 네임스페이스는 `coffi.mem`으로, 오프힙 메모리를 할당하고 조작하며 값을 (역)직렬화하는 기능을 제공합니다, 그리고 `coffi.ffi`로, 네이티브 라이브러리를 로드하고 네이티브 함수 래퍼를 선언하며 콜백으로서 함수를 (역)직렬화할 수 있습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "Gsu9X8TYeVMMdBaOoe/Cqdzp3vEanxCG5RU8uWOB7Ks=",
+        "originContent": "and manipulating off-heap memory and (de)serializing values, and `coffi.ffi`",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ml3ot0YBq2DX66TXHuupPCUGF3A190+rEUPX7x2RT3k=",
+        "originContent": "which can load native libraries, declare native function wrappers, and",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "gJD815crAK9v9VunuMVw+cYJrHoaN6guputMAR2YthE=",
+        "originContent": "(de)serialize functions as callbacks.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```clojure\n(require '[coffi.mem :as mem])\n(require '[coffi.ffi :as ffi :refer [defcfn]])\n\n(defcfn strlen\n  \"Given a string, measures its length in bytes.\"\n  strlen [::mem/c-string] ::mem/long)\n\n(strlen \"hello\")\n;; => 5\n\n(ffi/load-system-library \"z\")\n```",
+    "ContentSha": "XTI+vjU37iA9ljrx4f+PfkuQorD0zQXDdyiBC0iQupQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```clojure\n(require '[coffi.mem :as mem])\n(require '[coffi.ffi :as ffi :refer [defcfn]])\n\n(defcfn strlen\n  \"Given a string, measures its length in bytes.\"\n  strlen [::mem/c-string] ::mem/long)\n\n(strlen \"hello\")\n;; => 5\n\n(ffi/load-system-library \"z\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9I9AL2uh+oY3uwkLuU0Cn4d3Hfwk4VusimshjfJrzEg=",
+        "originContent": "```clojure",
+        "translatedContent": "```clojure"
+      },
+      {
+        "row": 2,
+        "rowsha": "3ImBF8wnCTLlij0eYayfgpeMMOHthMjEx5orCoTYpL0=",
+        "originContent": "(require '[coffi.mem :as mem])",
+        "translatedContent": "(require '[coffi.mem :as mem])"
+      },
+      {
+        "row": 3,
+        "rowsha": "TchcGSaSr76TL5USS8nM2E5ar+TrAOPPdve1mmo8low=",
+        "originContent": "(require '[coffi.ffi :as ffi :refer [defcfn]])",
+        "translatedContent": "(require '[coffi.ffi :as ffi :refer [defcfn]])"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Afu/GuT90ppCEJz6om2KmQiQeEbucS0cD8NbUn7GXo4=",
+        "originContent": "(defcfn strlen",
+        "translatedContent": "(defcfn strlen"
+      },
+      {
+        "row": 6,
+        "rowsha": "sHcbBxODAwjJkWnHaZut+HREWwpM3zRgXO2nNgMWfnc=",
+        "originContent": "  \"Given a string, measures its length in bytes.\"",
+        "translatedContent": "  \"Given a string, measures its length in bytes.\""
+      },
+      {
+        "row": 7,
+        "rowsha": "986DyFeyK4ZKWcC0lMun7AKHauf1hXsBd0x/SnuOEgc=",
+        "originContent": "  strlen [::mem/c-string] ::mem/long)",
+        "translatedContent": "  strlen [::mem/c-string] ::mem/long)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "D3blAkJZo7HmDgjK3KIW9FE2OW72IRKJkgAzcbkGEMc=",
+        "originContent": "(strlen \"hello\")",
+        "translatedContent": "(strlen \"hello\")"
+      },
+      {
+        "row": 10,
+        "rowsha": "BnSY326qCMsCMqm3PkfVHir1e4PrJCn0V7+N7Az8OQM=",
+        "originContent": ";; => 5",
+        "translatedContent": ";; => 5"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "0F89xJE27KlADFEbkzlVCoEIYOghFuGmAEjX/nEKcLY=",
+        "originContent": "(ffi/load-system-library \"z\")",
+        "translatedContent": "(ffi/load-system-library \"z\")"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nIn the `coffi.mem` namespace there are types for all the signed primitive\nnumeric types in C, plus `::mem/pointer` and `::mem/c-string`, and ways to use\nmalli-like type declarations to define structs, unions, arrays, enums, and\nflagsets.\n\n## Alternatives\nThis library is not the only Clojure library providing access to native code. In\naddition the following libraries (among others) exist:\n\n- [dtype-next](https://github.com/cnuernber/dtype-next)\n- [tech.jna](https://github.com/techascent/tech.jna)\n- [clojure-jna](https://github.com/Chouser/clojure-jna)\n\nDtype-next has support for Java versions 8-15, 17+, and GraalVM, but is focused\nstrongly on array-based programming, as well as being focused on keeping memory\nin the native side rather than marshaling data to and from Clojure-native\nstructures. In Java 17+, this uses the Foreign Function & Memory API (a part of\nProject Panama until stabilization in JDK 22), while in other Java versions it\nuses JNA.\n\nTech.jna and clojure-jna both use the JNA library in all cases, and neither\nprovide explicit support for callbacks. JNA allows the use of\n`java.nio.ByteBuffer`s to pass structs by value, and both libraries provide ways\nto use this by-value construction to call by-reference apis.\n\nAn additional alternative to coffi is to directly use the JNI, which is the\nlongest-standing method of wrapping native code in the JVM, but comes with the\ndownside that it requires you to write both native and Java code to use, even if\nyou only intend to use it from Clojure.\n\nIf your application needs to be able to run in earlier versions of the JVM than\n22, you should consider these other options. Dtype-next provides the most robust\nsupport for native code, but if you are wrapping a simple library then the other\nlibraries may be more appealing, as they have a smaller API surface area and\nit's easier to wrap functions.\n\nThere is also a [third party round up](https://docs.google.com/spreadsheets/d/1ViLHNUgrO2osh2AH0h7MaCaXz8g0UpLbyWojY5f10kk/edit?gid=332155605#gid=332155605)\nof FFI options for Clojure.\n",
+    "ContentSha": "u8UBoG/zeh4aB10SQZFE+Z9GXt+4+Jt4InRlzf2qiS8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`coffi.mem` 네임스페이스에는 C의 모든 부호 있는 원시 숫자형 타입과 `::mem/pointer`, `::mem/c-string` 타입이 있으며,\nmalli와 유사한 타입 선언을 사용하여 구조체, 공용체, 배열, 열거형, 플래그셋을 정의하는 방법이 포함되어 있습니다.\n\n## 대안들\n이 라이브러리는 네이티브 코드에 접근할 수 있는 유일한 클로저 라이브러리가 아닙니다. \n추가로 다음과 같은 라이브러리들이 존재합니다(그 외에도 다수 있음):\n\n- [dtype-next](https://github.com/cnuernber/dtype-next)\n- [tech.jna](https://github.com/techascent/tech.jna)\n- [clojure-jna](https://github.com/Chouser/clojure-jna)\n\nDtype-next는 Java 8-15, 17+, 그리고 GraalVM을 지원하지만, 주로 배열 기반 프로그래밍에 집중하며,\n데이터를 클로저 네이티브 구조로 마샬링하기보다는 네이티브 쪽 메모리를 유지하는 데 중점을 둡니다.\nJava 17+에서는 Foreign Function & Memory API(프로젝트 파나마의 일부로 JDK 22에서 안정화 예정)를 사용하며,\n다른 Java 버전에서는 JNA를 사용합니다.\n\nTech.jna와 clojure-jna는 모두 모든 경우에 JNA 라이브러리를 사용하며, 콜백에 대한 명시적 지원은 제공하지 않습니다.\nJNA는 `java.nio.ByteBuffer`를 사용하여 구조체를 값으로 전달하는 것을 허용하며,\n두 라이브러리 모두 이 값 전달 방식을 이용해 참조로 API를 호출하는 방법을 제공합니다.\n\ncoffi의 또 다른 대안은 JNI를 직접 사용하는 것인데, 이는 JVM에서 네이티브 코드를 래핑하는 가장 오래된 방법입니다.\n하지만 네이티브 코드와 자바 코드를 모두 작성해야 한다는 단점이 있으며,\n클로저에서만 사용하려는 경우에도 마찬가지입니다.\n\n애플리케이션이 JVM 22 이전 버전에서 실행되어야 한다면,\n다른 옵션들을 고려하는 것이 좋습니다. Dtype-next가 네이티브 코드에 대해 가장 견고한 지원을 제공하지만,\n단순한 라이브러리를 래핑하는 경우에는 API 표면적이 더 작고 함수 래핑이 더 쉬운 다른 라이브러리들이 더 매력적일 수 있습니다.\n\n또한 클로저용 FFI 옵션에 대한 [서드파티 정리](https://docs.google.com/spreadsheets/d/1ViLHNUgrO2osh2AH0h7MaCaXz8g0UpLbyWojY5f10kk/edit?gid=332155605#gid=332155605)도 있습니다.\n\n\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`coffi.mem` 네임스페이스에는 C의 모든 부호 있는 원시 숫자형 타입과 `::mem/pointer`, `::mem/c-string` 타입이 있으며,"
+      },
+      {
+        "row": 2,
+        "rowsha": "kr0UNF9Fg2S9XQNEqQQVf6FFadxx1eAFUMevtX6OEl8=",
+        "originContent": "In the `coffi.mem` namespace there are types for all the signed primitive",
+        "translatedContent": "malli와 유사한 타입 선언을 사용하여 구조체, 공용체, 배열, 열거형, 플래그셋을 정의하는 방법이 포함되어 있습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "2oHmxJx2aPuCvMHanTjeLbBWwsrDm7+BKjyTrIzIp1U=",
+        "originContent": "numeric types in C, plus `::mem/pointer` and `::mem/c-string`, and ways to use",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "OuLyhruWpOFpbrOIdt8307jHLYk2sFbbru5paz8cLv8=",
+        "originContent": "malli-like type declarations to define structs, unions, arrays, enums, and",
+        "translatedContent": "## 대안들"
+      },
+      {
+        "row": 5,
+        "rowsha": "PZJeQt0uaCU51R8UxmKWY+R+G1CXA/PAHk7fHSxgU4g=",
+        "originContent": "flagsets.",
+        "translatedContent": "이 라이브러리는 네이티브 코드에 접근할 수 있는 유일한 클로저 라이브러리가 아닙니다. "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "추가로 다음과 같은 라이브러리들이 존재합니다(그 외에도 다수 있음):"
+      },
+      {
+        "row": 7,
+        "rowsha": "59WXeEO/EB5EgnOQ4Gtja1J2wjDmHnjp8KNyFn8CcI0=",
+        "originContent": "## Alternatives",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "L+yXBfo21G2cKmaosbVxTfp2CL3WqwM63bmY4M1jYTU=",
+        "originContent": "This library is not the only Clojure library providing access to native code. In",
+        "translatedContent": "- [dtype-next](https://github.com/cnuernber/dtype-next)"
+      },
+      {
+        "row": 9,
+        "rowsha": "gdf/+CcQNSZG4djOsNbDxFcXpyYaUe2TjUpM/4/yHeo=",
+        "originContent": "addition the following libraries (among others) exist:",
+        "translatedContent": "- [tech.jna](https://github.com/techascent/tech.jna)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [clojure-jna](https://github.com/Chouser/clojure-jna)"
+      },
+      {
+        "row": 11,
+        "rowsha": "sUiIzesVGYVGoAaFAJN+tUYIPuxdtySRfZOb5KG2IcA=",
+        "originContent": "- [dtype-next](https://github.com/cnuernber/dtype-next)",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "jt1FpIqqoqI9TKBEufXFnu07ZHRB8zeEzGRh7gffn54=",
+        "originContent": "- [tech.jna](https://github.com/techascent/tech.jna)",
+        "translatedContent": "Dtype-next는 Java 8-15, 17+, 그리고 GraalVM을 지원하지만, 주로 배열 기반 프로그래밍에 집중하며,"
+      },
+      {
+        "row": 13,
+        "rowsha": "1FUViNsgt/BHImTxLvnF0QZWgaObKbBSPgGKiiAv/Go=",
+        "originContent": "- [clojure-jna](https://github.com/Chouser/clojure-jna)",
+        "translatedContent": "데이터를 클로저 네이티브 구조로 마샬링하기보다는 네이티브 쪽 메모리를 유지하는 데 중점을 둡니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Java 17+에서는 Foreign Function & Memory API(프로젝트 파나마의 일부로 JDK 22에서 안정화 예정)를 사용하며,"
+      },
+      {
+        "row": 15,
+        "rowsha": "1Dv6r8FhLKT5lePNhCYuISFTdYqOkRpUJIQhtyHJt+w=",
+        "originContent": "Dtype-next has support for Java versions 8-15, 17+, and GraalVM, but is focused",
+        "translatedContent": "다른 Java 버전에서는 JNA를 사용합니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "n9ZfWvJKqSoDzAzvKQXplHaWE50bdK6MCGz2kqpBYdY=",
+        "originContent": "strongly on array-based programming, as well as being focused on keeping memory",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "8Xdnz1TgA+1rotM07TNyVmOR90iV7yFbOPm0AcLYWOU=",
+        "originContent": "in the native side rather than marshaling data to and from Clojure-native",
+        "translatedContent": "Tech.jna와 clojure-jna는 모두 모든 경우에 JNA 라이브러리를 사용하며, 콜백에 대한 명시적 지원은 제공하지 않습니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "q80O5VWOPTBgrONTH1xQ6K7pfDegN/48PHTb52Rqc2c=",
+        "originContent": "structures. In Java 17+, this uses the Foreign Function & Memory API (a part of",
+        "translatedContent": "JNA는 `java.nio.ByteBuffer`를 사용하여 구조체를 값으로 전달하는 것을 허용하며,"
+      },
+      {
+        "row": 19,
+        "rowsha": "KBOvFY1umCWU2nvMPaebM4r6LIXEQLisfm5p7TZHo3Y=",
+        "originContent": "Project Panama until stabilization in JDK 22), while in other Java versions it",
+        "translatedContent": "두 라이브러리 모두 이 값 전달 방식을 이용해 참조로 API를 호출하는 방법을 제공합니다."
+      },
+      {
+        "row": 20,
+        "rowsha": "r6Xy4A+I9N/zZ4zKCvBp7LzA54pjByqlAqdAF2OUjGk=",
+        "originContent": "uses JNA.",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "coffi의 또 다른 대안은 JNI를 직접 사용하는 것인데, 이는 JVM에서 네이티브 코드를 래핑하는 가장 오래된 방법입니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "vHIEU8QpIQGKeU5MDkaKcm2Sl54Yvf+dFFJPkpKanVA=",
+        "originContent": "Tech.jna and clojure-jna both use the JNA library in all cases, and neither",
+        "translatedContent": "하지만 네이티브 코드와 자바 코드를 모두 작성해야 한다는 단점이 있으며,"
+      },
+      {
+        "row": 23,
+        "rowsha": "Hy724SuzH5qU/S5jVhXr7mkSKkm4ztUU7DenTf5sxYw=",
+        "originContent": "provide explicit support for callbacks. JNA allows the use of",
+        "translatedContent": "클로저에서만 사용하려는 경우에도 마찬가지입니다."
+      },
+      {
+        "row": 24,
+        "rowsha": "rHG+6AY4qE+4rxsiNT3NHzNRe4fU8PvXTuSYpGf0LMQ=",
+        "originContent": "`java.nio.ByteBuffer`s to pass structs by value, and both libraries provide ways",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "g6LaUBAWkLBwyN1FZQmHWGsUHNEeCsmA9TrkAY4TKAo=",
+        "originContent": "to use this by-value construction to call by-reference apis.",
+        "translatedContent": "애플리케이션이 JVM 22 이전 버전에서 실행되어야 한다면,"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "다른 옵션들을 고려하는 것이 좋습니다. Dtype-next가 네이티브 코드에 대해 가장 견고한 지원을 제공하지만,"
+      },
+      {
+        "row": 27,
+        "rowsha": "7dCbqmb4o5uv6/jOsSJEXdqppUlcgJxdgt04UDukhps=",
+        "originContent": "An additional alternative to coffi is to directly use the JNI, which is the",
+        "translatedContent": "단순한 라이브러리를 래핑하는 경우에는 API 표면적이 더 작고 함수 래핑이 더 쉬운 다른 라이브러리들이 더 매력적일 수 있습니다."
+      },
+      {
+        "row": 28,
+        "rowsha": "QN91ueqcZMPG3+Nngc+xMau16kQ/LpAOdfPhFVCmwZc=",
+        "originContent": "longest-standing method of wrapping native code in the JVM, but comes with the",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "wPk1rd8pLw/iiUWkrfFkO9PhOSbj9XpSnVbrGCbl2v4=",
+        "originContent": "downside that it requires you to write both native and Java code to use, even if",
+        "translatedContent": "또한 클로저용 FFI 옵션에 대한 [서드파티 정리](https://docs.google.com/spreadsheets/d/1ViLHNUgrO2osh2AH0h7MaCaXz8g0UpLbyWojY5f10kk/edit?gid=332155605#gid=332155605)도 있습니다."
+      },
+      {
+        "row": 30,
+        "rowsha": "6GlnjOncHjs7Z68xZeFdPEcpYwBaImMYREfqgSEDIyw=",
+        "originContent": "you only intend to use it from Clojure.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "INFq4MDx8KPP5NUFMH24Th0XP/1FlDwvVWovatzqHIU=",
+        "originContent": "If your application needs to be able to run in earlier versions of the JVM than",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "wpkaM4mnvACr+26fVSxpsbNDn1nVjErbA744kwtZoJM=",
+        "originContent": "22, you should consider these other options. Dtype-next provides the most robust",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "idgKIiFTHzird+yE83zeGxOUg9XdAsaIy6sPMp0lSsU=",
+        "originContent": "support for native code, but if you are wrapping a simple library then the other",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "s71ajWZeZbGFmmp5TjSbr4Ak5tjrUXVdVMcKbpZJqlk=",
+        "originContent": "libraries may be more appealing, as they have a smaller API surface area and",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "XN97T+D9/yjseLurgCnM6CQlMhWYCcZmz9d3/46CniI=",
+        "originContent": "it's easier to wrap functions.",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "MD9cIDoxKY9jKphpnXSHUBkDOZdYPLhdZT+2q2l3f7g=",
+        "originContent": "There is also a [third party round up](https://docs.google.com/spreadsheets/d/1ViLHNUgrO2osh2AH0h7MaCaXz8g0UpLbyWojY5f10kk/edit?gid=332155605#gid=332155605)",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "IAp7BifZEU89YvU9PPhTlAehh2zdrImPvLVqWSJsYTE=",
+        "originContent": "of FFI options for Clojure.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "## Known Issues\nThe project author is aware of these issues and plans to fix them in a future\nrelease:\n\n- When generating docs with codox in a library that depends on coffi, the below error will be produced. A temporary workaround is to add an explicit dependency in your codox build on insn at version 0.2.1",
+    "ContentSha": "/NfzzfsLNdQVLqLWEwgHnd7O+pdX3I80vCe81umKlpQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 알려진 문제\n프로젝트 작성자는 이 문제들을 인지하고 있으며 향후 릴리스에서 수정할 계획입니다:\n\n- coffi에 의존하는 라이브러리에서 codox로 문서를 생성할 때 아래와 같은 오류가 발생합니다. 임시 해결책으로는 codox 빌드에 명시적으로 insn 0.2.1 버전을 의존성으로 추가하는 것입니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QnKQgThnoAqznwiN4+axqy8APTfZTdp6m9i+oi/OrN0=",
+        "originContent": "## Known Issues",
+        "translatedContent": "## 알려진 문제"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZnjHeMEGSigoowvc+LOkZyO9DGrCpnUCJBRgksws/PA=",
+        "originContent": "The project author is aware of these issues and plans to fix them in a future",
+        "translatedContent": "프로젝트 작성자는 이 문제들을 인지하고 있으며 향후 릴리스에서 수정할 계획입니다:"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZAbHxpc6EUN891EMgWqif8M0tDrPGN9Y/NezdZJSLfk=",
+        "originContent": "release:",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- coffi에 의존하는 라이브러리에서 codox로 문서를 생성할 때 아래와 같은 오류가 발생합니다. 임시 해결책으로는 codox 빌드에 명시적으로 insn 0.2.1 버전을 의존성으로 추가하는 것입니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "A3neZKM0k80RSAXqRRiGHoERNkBBb2zByJohdMe6p2Y=",
+        "originContent": "- When generating docs with codox in a library that depends on coffi, the below error will be produced. A temporary workaround is to add an explicit dependency in your codox build on insn at version 0.2.1",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "  ```\n  Unable to find static field: ACC_OPEN in interface org.objectweb.asm.Opcodes\n  ```",
+    "ContentSha": "9oAguClLBwrM270OvOiNbSK04G4eYAeuoEKXLQhPHBo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```\n  Unable to find static field: ACC_OPEN in interface org.objectweb.asm.Opcodes\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      },
+      {
+        "row": 2,
+        "rowsha": "0rB+3F9rFFbylD92K16nHHniSlhjylwkaPskfMGljAU=",
+        "originContent": "  Unable to find static field: ACC_OPEN in interface org.objectweb.asm.Opcodes",
+        "translatedContent": "  Unable to find static field: ACC_OPEN in interface org.objectweb.asm.Opcodes"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n## Future Plans\nThese features are planned for future releases.\n\n- Support for va_args type\n- Header parsing tool for generating a data model? (maybe just work with [clong](https://github.com/phronmophobic/clong)?)\n- Generic type aliases\n- Unsigned integer types\n- Helper macro for out arguments\n- Improve error messages from defcfn macro\n- Mapped memory\n- Helper macros for custom serde implementations for more composite data types\n- Support for GraalVM Native Image (once their support for FFM becomes mature)\n\n## License\n\nCopyright © 2023 Joshua Suskalo\n\nDistributed under the Eclipse Public License version 1.0.\n",
+    "ContentSha": "bnoy3af79ggy2CIZyytNHUNuFO8d78LTiv3MfW79xeM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 미래 계획\n이 기능들은 향후 릴리스에서 계획되어 있습니다.\n\n- va_args 타입 지원\n- 데이터 모델 생성을 위한 헤더 파싱 도구? (아마도 [clong](https://github.com/phronmophobic/clong)과 함께 작동 가능?)\n- 제네릭 타입 별칭\n- 부호 없는 정수 타입\n- 출력 인자를 위한 헬퍼 매크로\n- defcfn 매크로의 오류 메시지 개선\n- 매핑된 메모리\n- 더 복합적인 데이터 타입을 위한 사용자 정의 serde 구현용 헬퍼 매크로\n- GraalVM Native Image 지원 (FFM 지원이 성숙해지면)\n\n## 라이선스\n\n저작권 © 2023 Joshua Suskalo\n\nEclipse Public License 버전 1.0에 따라 배포됩니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 미래 계획"
+      },
+      {
+        "row": 2,
+        "rowsha": "BbJVvOf2VBYPtaTDxRZ/xPIYEdp6vJC8JNp3VdcpRzM=",
+        "originContent": "## Future Plans",
+        "translatedContent": "이 기능들은 향후 릴리스에서 계획되어 있습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "yt4lDeYsBpz54R4Ukt2clhYR0o56sWnmfEvZG1OU9r0=",
+        "originContent": "These features are planned for future releases.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- va_args 타입 지원"
+      },
+      {
+        "row": 5,
+        "rowsha": "a6OEJPO45+Ym1V6t3IL68R/B365V4+oJdmB9pavx4nc=",
+        "originContent": "- Support for va_args type",
+        "translatedContent": "- 데이터 모델 생성을 위한 헤더 파싱 도구? (아마도 [clong](https://github.com/phronmophobic/clong)과 함께 작동 가능?)"
+      },
+      {
+        "row": 6,
+        "rowsha": "+PIpHXd6U8pRes/APq6AXgxsnt34x94HNGys5cRjMn0=",
+        "originContent": "- Header parsing tool for generating a data model? (maybe just work with [clong](https://github.com/phronmophobic/clong)?)",
+        "translatedContent": "- 제네릭 타입 별칭"
+      },
+      {
+        "row": 7,
+        "rowsha": "Q5f/d84sViMPfbMG0q+Nwr0ojfcG3J8llxnw3hv2QFw=",
+        "originContent": "- Generic type aliases",
+        "translatedContent": "- 부호 없는 정수 타입"
+      },
+      {
+        "row": 8,
+        "rowsha": "4FKqSnlNts75aXs2teJyKKuWQbuZwRV12Asa8S8Hs4A=",
+        "originContent": "- Unsigned integer types",
+        "translatedContent": "- 출력 인자를 위한 헬퍼 매크로"
+      },
+      {
+        "row": 9,
+        "rowsha": "AmyYZOLZOCngIeElrbX1HIaHkdcL0yHsjh5C6ulMNgo=",
+        "originContent": "- Helper macro for out arguments",
+        "translatedContent": "- defcfn 매크로의 오류 메시지 개선"
+      },
+      {
+        "row": 10,
+        "rowsha": "b1coXkt8Dfdt69ncKDctfX4pYPfIU16XZNrfo7i1lbg=",
+        "originContent": "- Improve error messages from defcfn macro",
+        "translatedContent": "- 매핑된 메모리"
+      },
+      {
+        "row": 11,
+        "rowsha": "SYR3FY3ATXckFDTWh2Tv1wmtaNvc1sxUQ+wbjzb/Y2c=",
+        "originContent": "- Mapped memory",
+        "translatedContent": "- 더 복합적인 데이터 타입을 위한 사용자 정의 serde 구현용 헬퍼 매크로"
+      },
+      {
+        "row": 12,
+        "rowsha": "tkKMGcdcvS38Z0YUTB0i8qYvp8nwoHztcdzzspULqzU=",
+        "originContent": "- Helper macros for custom serde implementations for more composite data types",
+        "translatedContent": "- GraalVM Native Image 지원 (FFM 지원이 성숙해지면)"
+      },
+      {
+        "row": 13,
+        "rowsha": "+PMZyHuKxItWoju0smfG0WmP5noayoG2jdsFR0NVukg=",
+        "originContent": "- Support for GraalVM Native Image (once their support for FFM becomes mature)",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 15,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "저작권 © 2023 Joshua Suskalo"
+      },
+      {
+        "row": 17,
+        "rowsha": "NbV3zdsSqDA7M7o08XKfPzft8krB7R+VE1EX4UKrwg0=",
+        "originContent": "Copyright © 2023 Joshua Suskalo",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Eclipse Public License 버전 1.0에 따라 배포됩니다."
+      },
+      {
+        "row": 19,
+        "rowsha": "afowo7SwatyKScYCMDMCdv4kPY7kl1v4JKXLB33K9kk=",
+        "originContent": "Distributed under the Eclipse Public License version 1.0.",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,195 @@
+[
+  {
+    "Id": 1,
+    "Content": "![GitHub all releases](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/latest/total) ![Time spent coding (15 minute timeout)](https://wakatime.com/badge/user/a637a12a-da87-4487-8b1e-660151dc3e7b/project/94fa2fc6-7e9b-4c74-b6eb-4ce6a09b4cdf.svg)\n\n# rich-destiny\n| <img src=\"https://richdestiny.app/favicon.ico\" width=\"100\"> | Plug-and-play background program that puts your current Destiny 2 activity in your Discord status. Modern, no flaky screenshots and tiny in size. |\n| :---: | :---: |\n\n## Contributing ✨\n\nIf you want to contribute, awesome! For new features, please ask first on the Discord server or make an issue with what you want to make. If you want to fix a bug, just create a PR. Asking is still recommended however, in case \"it's not a bug, it's a feature.\"\n\n## Developing 🛠\nPrerequisites:\n - (client) Have a recent Go 1.x version.\n - (client) For windows: have git bash. You can also run the commands in the build script manually but I use the bash script :)\n - (web) Have a recent version of Node.js and npm.\n\nBuilding:\n - Clone the repo.\n  \n - The client:\n   - `cd client`\n   - Duplicate the `config.go.example` to `config.go` and fill in the values. For redirect uri, you can use `https://richdestiny.app/login` -- also on the Bungie.net developer portal. It's just a redirect to the localhost redirect.\n   - `go get`\n   - `./build dev`\n     - You can use `./build vX.Y.Z` with a valid semver version number, but for development purposes use dev. It automatically disables updates and possibly other things in the future.\n\n - The website:\n   - `cd web`\n   - `npm install`\n   - `npm run start` for a local development server or `npm run build` for a production build.",
+    "ContentSha": "GInoVj6dvr3wHXmt6Qytb/WXsp/8URhVhnw9GCI33ZM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![GitHub all releases](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/latest/total) ![Time spent coding (15 minute timeout)](https://wakatime.com/badge/user/a637a12a-da87-4487-8b1e-660151dc3e7b/project/94fa2fc6-7e9b-4c74-b6eb-4ce6a09b4cdf.svg)\n\n# rich-destiny\n| <img src=\"https://richdestiny.app/favicon.ico\" width=\"100\"> | 即插即用的后台程序，将您当前的《命运2》活动显示在 Discord 状态中。现代化设计，无需截图，体积小巧。 |\n| :---: | :---: |\n\n## 贡献 ✨\n\n如果您想贡献，太棒了！对于新功能，请先在 Discord 服务器上询问或创建一个您想实现内容的问题。如果您想修复错误，可以直接创建 PR。不过建议先询问，以防“这不是错误，这是功能”。\n\n## 开发 🛠\n先决条件：\n - （客户端）拥有较新的 Go 1.x 版本。\n - （客户端）Windows 用户需要安装 git bash。您也可以手动运行构建脚本中的命令，但我使用 bash 脚本 :)\n - （网站）拥有较新的 Node.js 和 npm 版本。\n\n构建：\n - 克隆仓库。\n  \n - 客户端：\n   - `cd client`\n   - 复制 `config.go.example` 为 `config.go` 并填写相关值。对于重定向 URI，您可以使用 `https://richdestiny.app/login` —— 在 Bungie.net 开发者门户也有相同设置。它只是重定向到本地主机的重定向地址。\n   - `go get`\n   - `./build dev`\n     - 你可以使用带有有效语义版本号的 `./build vX.Y.Z`，但开发时请使用 dev。它会自动禁用更新以及未来可能的其他功能。\n\n - 网站：\n   - `cd web`\n   - `npm install`\n   - 使用 `npm run start` 启动本地开发服务器，或使用 `npm run build` 进行生产构建。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wv5M01+9MXMLbg9iExGoQ5YLUB1Fb/OOegDRS4Zc56Q=",
+        "originContent": "![GitHub all releases](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/latest/total) ![Time spent coding (15 minute timeout)](https://wakatime.com/badge/user/a637a12a-da87-4487-8b1e-660151dc3e7b/project/94fa2fc6-7e9b-4c74-b6eb-4ce6a09b4cdf.svg)",
+        "translatedContent": "![GitHub all releases](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/total) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/lieuweberg/rich-destiny/latest/total) ![Time spent coding (15 minute timeout)](https://wakatime.com/badge/user/a637a12a-da87-4487-8b1e-660151dc3e7b/project/94fa2fc6-7e9b-4c74-b6eb-4ce6a09b4cdf.svg)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ihVaWfYKdYgeUCZInKYsbBrHfcjmN+I6GXMTKI5DxsE=",
+        "originContent": "# rich-destiny",
+        "translatedContent": "# rich-destiny"
+      },
+      {
+        "row": 4,
+        "rowsha": "4VjGi4ThgfDviHX7VignrRjIW7uJLVbJh9bz6yHCXeE=",
+        "originContent": "| <img src=\"https://richdestiny.app/favicon.ico\" width=\"100\"> | Plug-and-play background program that puts your current Destiny 2 activity in your Discord status. Modern, no flaky screenshots and tiny in size. |",
+        "translatedContent": "| <img src=\"https://richdestiny.app/favicon.ico\" width=\"100\"> | 即插即用的后台程序，将您当前的《命运2》活动显示在 Discord 状态中。现代化设计，无需截图，体积小巧。 |"
+      },
+      {
+        "row": 5,
+        "rowsha": "8GaWgmq/f/fdAQFWWPTgmpZPFnre3hdiqonxtP5oJGs=",
+        "originContent": "| :---: | :---: |",
+        "translatedContent": "| :---: | :---: |"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "V72LMh0BqYPe4XjUmUNNZN7iPZU9+ABvZFNRNxxzyEQ=",
+        "originContent": "## Contributing ✨",
+        "translatedContent": "## 贡献 ✨"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "GNtfPxT0z3AUSN+zUPXfXtYI10812KQFId1wgJHcDwY=",
+        "originContent": "If you want to contribute, awesome! For new features, please ask first on the Discord server or make an issue with what you want to make. If you want to fix a bug, just create a PR. Asking is still recommended however, in case \"it's not a bug, it's a feature.\"",
+        "translatedContent": "如果您想贡献，太棒了！对于新功能，请先在 Discord 服务器上询问或创建一个您想实现内容的问题。如果您想修复错误，可以直接创建 PR。不过建议先询问，以防“这不是错误，这是功能”。"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "4vU+371HaD1bX+umOGGG1uWuUTM/1UkrDoYeZecFFik=",
+        "originContent": "## Developing 🛠",
+        "translatedContent": "## 开发 🛠"
+      },
+      {
+        "row": 12,
+        "rowsha": "N2Q4MW4bdY4YPeV+84MIJimARox5bqZvoZhP1wpXUL0=",
+        "originContent": "Prerequisites:",
+        "translatedContent": "先决条件："
+      },
+      {
+        "row": 13,
+        "rowsha": "bkUfzqKMqItWAhLj6mP/yktf7ePKtme8qFVwFFUWL0o=",
+        "originContent": " - (client) Have a recent Go 1.x version.",
+        "translatedContent": " - （客户端）拥有较新的 Go 1.x 版本。"
+      },
+      {
+        "row": 14,
+        "rowsha": "S42HtcJEbX+ASBHyUvSA0+kMuM6YrSZQD66Lujq9Ifc=",
+        "originContent": " - (client) For windows: have git bash. You can also run the commands in the build script manually but I use the bash script :)",
+        "translatedContent": " - （客户端）Windows 用户需要安装 git bash。您也可以手动运行构建脚本中的命令，但我使用 bash 脚本 :)"
+      },
+      {
+        "row": 15,
+        "rowsha": "XxUs0gsVxawOlPQLWpjbbepzPAaMZQSevYZN5sUZiao=",
+        "originContent": " - (web) Have a recent version of Node.js and npm.",
+        "translatedContent": " - （网站）拥有较新的 Node.js 和 npm 版本。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "Noa71k63CXwK9z4tGiKBuy+IHKOfCBhNRTD2IjYZ9j4=",
+        "originContent": "Building:",
+        "translatedContent": "构建："
+      },
+      {
+        "row": 18,
+        "rowsha": "hbz7qYQtcQV5+qAhk5f5ZULvZzXEhuSvlAQEBlpkvFc=",
+        "originContent": " - Clone the repo.",
+        "translatedContent": " - 克隆仓库。"
+      },
+      {
+        "row": 19,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 20,
+        "rowsha": "mOIOaMtik22D0h6GKDmhZ2s7GDF/wVIw/as8WpmvMOU=",
+        "originContent": " - The client:",
+        "translatedContent": " - 客户端："
+      },
+      {
+        "row": 21,
+        "rowsha": "z8W7h2OaUA01uSIfdsaLCQUAo1ZgwbTH4SsiS5s9I3g=",
+        "originContent": "   - `cd client`",
+        "translatedContent": "   - `cd client`"
+      },
+      {
+        "row": 22,
+        "rowsha": "WvUWdYPTg/iwIehMH+v/1N1L0mMSIaJCj2erRRLK/TY=",
+        "originContent": "   - Duplicate the `config.go.example` to `config.go` and fill in the values. For redirect uri, you can use `https://richdestiny.app/login` -- also on the Bungie.net developer portal. It's just a redirect to the localhost redirect.",
+        "translatedContent": "   - 复制 `config.go.example` 为 `config.go` 并填写相关值。对于重定向 URI，您可以使用 `https://richdestiny.app/login` —— 在 Bungie.net 开发者门户也有相同设置。它只是重定向到本地主机的重定向地址。"
+      },
+      {
+        "row": 23,
+        "rowsha": "wzBjRySHxMPuYqLEQu4Y78uB05GPjN9TJFxsBOVtJEM=",
+        "originContent": "   - `go get`",
+        "translatedContent": "   - `go get`"
+      },
+      {
+        "row": 24,
+        "rowsha": "y85XxNY2ccRnDhqclbUOIt80yAibEclrVzNzCEGBVew=",
+        "originContent": "   - `./build dev`",
+        "translatedContent": "   - `./build dev`"
+      },
+      {
+        "row": 25,
+        "rowsha": "sYSAu/SEoGKtYpIUcn4Js00uz+87Y3RLB2ldHoyHx+I=",
+        "originContent": "     - You can use `./build vX.Y.Z` with a valid semver version number, but for development purposes use dev. It automatically disables updates and possibly other things in the future.",
+        "translatedContent": "     - 你可以使用带有有效语义版本号的 `./build vX.Y.Z`，但开发时请使用 dev。它会自动禁用更新以及未来可能的其他功能。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "pDUjiOiMVrgmdEGuVaVHeLTh1Gyqc7Ymo6akHnI6U30=",
+        "originContent": " - The website:",
+        "translatedContent": " - 网站："
+      },
+      {
+        "row": 28,
+        "rowsha": "sKjvL9UUTdkuAGjGQZpXiWGX/oTl0nCUa7ENnUkj4Jk=",
+        "originContent": "   - `cd web`",
+        "translatedContent": "   - `cd web`"
+      },
+      {
+        "row": 29,
+        "rowsha": "24/DHlREdlXpxs6jTvdiZ/adi8i0fzqk3/rw87KAoh8=",
+        "originContent": "   - `npm install`",
+        "translatedContent": "   - `npm install`"
+      },
+      {
+        "row": 30,
+        "rowsha": "fAkuGB6I1BG+dzrf77huH8oLOBBFQek/uUJmrJermOE=",
+        "originContent": "   - `npm run start` for a local development server or `npm run build` for a production build.",
+        "translatedContent": "   - 使用 `npm run start` 启动本地开发服务器，或使用 `npm run build` 进行生产构建。"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
