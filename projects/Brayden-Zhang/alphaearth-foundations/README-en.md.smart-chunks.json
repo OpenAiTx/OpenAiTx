@@ -1,0 +1,544 @@
+[
+  {
+    "Id": 1,
+    "Content": "# AlphaEarth Foundations\n\nA PyTorch implementation of the AlphaEarth geospatial foundation model from Google DeepMind, which generates Earth embeddings for global environmental monitoring and analysis.\nAccompanying the paper is a global dataset of embeddings from 2017 to 2024, available through Earth Engine. The goal of these embeddings is to serve as a highly general geospatial representation for a huge amount of downstream applications, without the need for retraining. \n\n> [!NOTE]\n> This model is a work in progress and was not actually trained on the full dataset, it is just a framework that provides a general base for the paper's architecture. The code is simplified compared to the DeepMind's actual implementation (in JAX). \n\n### Key parts of the methodology\n\n- **Continuous Time Support**: First EO featurization approach to support continuous time, allowing for temporal interpolation and extrapolation.\n- **Space Time Precision (STP) Architecture**: Multi-resolution encoder with spatial (1/16L), temporal (1/8L), and precision (1/2L) operators - designed to maintain localized representations while also modeling long-distance relationships across time and space. \n- **von Mises-Fisher Embeddings**: 64-byte embeddings distributed on unit sphere S^63, very compact representation. \n\n\n## Architecture\n\n### Space Time Precision (STP) Encoder\n\nThe STP encoder processes multi-temporal, multi-source data through three simultaneous operators:\n- **Space Operator**: ViT-like spatial self-attention (1/16L resolution)\n- **Time Operator**: Time-axial self-attention (1/8L resolution) \n- **Precision Operator**: 3x3 convolutions (1/2L resolution)\n\n### Teacher-Student-Text Framework\n\n1. **Teacher Video Embedding Model**: Main model with implicit decoders\n2. **Student Video Embedding Model**: Shares parameters with teacher for contrastive learning\n3. **Text Alignment Model**: Enables text-image contrastive learning\n\n\n## Data Sources\n\nThe model is trained on many data sources including:\n- **Optical**: Sentinel-2, Landsat 8/9. *Note: for simplicty, my implementation only supports Sentinel-2, but it should be relatively straightforward to add new datasets to the training*\n- **Radar**: Sentinel-1, PALSAR2\n- **LiDAR**: GEDI\n- **Environmental**: GLO-30, ERA5-Land, GRACE\n- **Annotated/Text**: NLCD, Wikipedia\n",
+    "ContentSha": "EkbWGtQIhcz3fHn4pd/Jfx3lMLrzgQIes+q9yMy8LxM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# AlphaEarth Foundations\n\nA PyTorch implementation of the AlphaEarth geospatial foundation model from Google DeepMind, which generates Earth embeddings for global environmental monitoring and analysis.  \nAccompanying the paper is a global dataset of embeddings from 2017 to 2024, available through Earth Engine. The goal of these embeddings is to serve as a highly general geospatial representation for a huge amount of downstream applications, without the need for retraining.  \n\n> [!NOTE]  \n> This model is a work in progress and was not actually trained on the full dataset, it is just a framework that provides a general base for the paper's architecture. The code is simplified compared to the DeepMind's actual implementation (in JAX).  \n\n### Key parts of the methodology  \n\n- **Continuous Time Support**: First EO featurization approach to support continuous time, allowing for temporal interpolation and extrapolation.  \n- **Space Time Precision (STP) Architecture**: Multi-resolution encoder with spatial (1/16L), temporal (1/8L), and precision (1/2L) operators - designed to maintain localized representations while also modeling long-distance relationships across time and space.  \n- **von Mises-Fisher Embeddings**: 64-byte embeddings distributed on unit sphere S^63, very compact representation.  \n\n## Architecture  \n\n### Space Time Precision (STP) Encoder  \n\nThe STP encoder processes multi-temporal, multi-source data through three simultaneous operators:  \n- **Space Operator**: ViT-like spatial self-attention (1/16L resolution)  \n- **Time Operator**: Time-axial self-attention (1/8L resolution)  \n- **Precision Operator**: 3x3 convolutions (1/2L resolution)  \n\n### Teacher-Student-Text Framework  \n\n1. **Teacher Video Embedding Model**: Main model with implicit decoders  \n2. **Student Video Embedding Model**: Shares parameters with teacher for contrastive learning  \n3. **Text Alignment Model**: Enables text-image contrastive learning  \n\n## Data Sources  \n\nThe model is trained on many data sources including:  \n- **Optical**: Sentinel-2, Landsat 8/9. *Note: for simplicty, my implementation only supports Sentinel-2, but it should be relatively straightforward to add new datasets to the training*  \n- **Radar**: Sentinel-1, PALSAR2  \n- **LiDAR**: GEDI  \n- **Environmental**: GLO-30, ERA5-Land, GRACE  \n- **Annotated/Text**: NLCD, Wikipedia  \n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KPMbQCLZii3Ghs1iTjKm1o6gVOZMnEr8FQBsh6nWoUk=",
+        "originContent": "# AlphaEarth Foundations",
+        "translatedContent": "# AlphaEarth Foundations"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Fb1MgEZINPEbsUTaP1c7v2Wuu7RxldhwZifx3Y2aJWo=",
+        "originContent": "A PyTorch implementation of the AlphaEarth geospatial foundation model from Google DeepMind, which generates Earth embeddings for global environmental monitoring and analysis.",
+        "translatedContent": "A PyTorch implementation of the AlphaEarth geospatial foundation model from Google DeepMind, which generates Earth embeddings for global environmental monitoring and analysis.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "hRdX0nqtLvoc5/wqoseo7WgX+RcOLF9HGtoynqHq3Bw=",
+        "originContent": "Accompanying the paper is a global dataset of embeddings from 2017 to 2024, available through Earth Engine. The goal of these embeddings is to serve as a highly general geospatial representation for a huge amount of downstream applications, without the need for retraining. ",
+        "translatedContent": "Accompanying the paper is a global dataset of embeddings from 2017 to 2024, available through Earth Engine. The goal of these embeddings is to serve as a highly general geospatial representation for a huge amount of downstream applications, without the need for retraining.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTE]  "
+      },
+      {
+        "row": 7,
+        "rowsha": "Id13cQ/S7E2taE2RU9gavgkFrHMsc+zQOgb27u/Ulew=",
+        "originContent": "> This model is a work in progress and was not actually trained on the full dataset, it is just a framework that provides a general base for the paper's architecture. The code is simplified compared to the DeepMind's actual implementation (in JAX). ",
+        "translatedContent": "> This model is a work in progress and was not actually trained on the full dataset, it is just a framework that provides a general base for the paper's architecture. The code is simplified compared to the DeepMind's actual implementation (in JAX).  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "SR3dtB4YvVI0rFMdcWHOQf1i7TnafCh7wYaRTy1680k=",
+        "originContent": "### Key parts of the methodology",
+        "translatedContent": "### Key parts of the methodology  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Gd8kMTxP3TzVhLqYeunmfA4sA91HDtZ9k4LEpHv4Pg4=",
+        "originContent": "- **Continuous Time Support**: First EO featurization approach to support continuous time, allowing for temporal interpolation and extrapolation.",
+        "translatedContent": "- **Continuous Time Support**: First EO featurization approach to support continuous time, allowing for temporal interpolation and extrapolation.  "
+      },
+      {
+        "row": 12,
+        "rowsha": "GF/q3JYX9UVdYLx/ysUICEeztnB9VTstLDdvnX5rZ3A=",
+        "originContent": "- **Space Time Precision (STP) Architecture**: Multi-resolution encoder with spatial (1/16L), temporal (1/8L), and precision (1/2L) operators - designed to maintain localized representations while also modeling long-distance relationships across time and space. ",
+        "translatedContent": "- **Space Time Precision (STP) Architecture**: Multi-resolution encoder with spatial (1/16L), temporal (1/8L), and precision (1/2L) operators - designed to maintain localized representations while also modeling long-distance relationships across time and space.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "IfhPAy063rMlaMeNTU/igYtNZQGqQmcl9JFeTgYK5z0=",
+        "originContent": "- **von Mises-Fisher Embeddings**: 64-byte embeddings distributed on unit sphere S^63, very compact representation. ",
+        "translatedContent": "- **von Mises-Fisher Embeddings**: 64-byte embeddings distributed on unit sphere S^63, very compact representation.  "
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Architecture  "
+      },
+      {
+        "row": 16,
+        "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+        "originContent": "## Architecture",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Space Time Precision (STP) Encoder  "
+      },
+      {
+        "row": 18,
+        "rowsha": "o5VWZ+R3BQjZmk6lmESbF9FwplPc26ucF1aQmeFL5k8=",
+        "originContent": "### Space Time Precision (STP) Encoder",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The STP encoder processes multi-temporal, multi-source data through three simultaneous operators:  "
+      },
+      {
+        "row": 20,
+        "rowsha": "otS2oKNNny5cMXxwTSLNpeBIx8C1nADwikQTU1iIXog=",
+        "originContent": "The STP encoder processes multi-temporal, multi-source data through three simultaneous operators:",
+        "translatedContent": "- **Space Operator**: ViT-like spatial self-attention (1/16L resolution)  "
+      },
+      {
+        "row": 21,
+        "rowsha": "nvQSTCykiai5/4D0S2LkGAjXwUWbQw7dXzIAhMwIL28=",
+        "originContent": "- **Space Operator**: ViT-like spatial self-attention (1/16L resolution)",
+        "translatedContent": "- **Time Operator**: Time-axial self-attention (1/8L resolution)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "P1Q2bkqWQJnM4a5ZSb2eFO0UcgDhh41olQPBHqMoST4=",
+        "originContent": "- **Time Operator**: Time-axial self-attention (1/8L resolution) ",
+        "translatedContent": "- **Precision Operator**: 3x3 convolutions (1/2L resolution)  "
+      },
+      {
+        "row": 23,
+        "rowsha": "/xUxNq6udkEOoUu+apjMPS+lIAlv0na/dzBGy800QOY=",
+        "originContent": "- **Precision Operator**: 3x3 convolutions (1/2L resolution)",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Teacher-Student-Text Framework  "
+      },
+      {
+        "row": 25,
+        "rowsha": "G1/AXTf3DGrN9fp1a2HFaMseIN9O9LI5oMd2JvH+OKs=",
+        "originContent": "### Teacher-Student-Text Framework",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **Teacher Video Embedding Model**: Main model with implicit decoders  "
+      },
+      {
+        "row": 27,
+        "rowsha": "gluY3K9WZKj6TUrEeNo0UD3NnG8LnWhDn4hunKFY63Q=",
+        "originContent": "1. **Teacher Video Embedding Model**: Main model with implicit decoders",
+        "translatedContent": "2. **Student Video Embedding Model**: Shares parameters with teacher for contrastive learning  "
+      },
+      {
+        "row": 28,
+        "rowsha": "Iyh6jMPaush2jH6+57EvvvGU2f+xnm1DLW9tAKWkofU=",
+        "originContent": "2. **Student Video Embedding Model**: Shares parameters with teacher for contrastive learning",
+        "translatedContent": "3. **Text Alignment Model**: Enables text-image contrastive learning  "
+      },
+      {
+        "row": 29,
+        "rowsha": "O4wvoVGU/2CNVFhPfuHLhlk8Z9uS4eqW6I3r9F+kjR8=",
+        "originContent": "3. **Text Alignment Model**: Enables text-image contrastive learning",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Data Sources  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "kWIv99NNWtJF2DTAQAGx/mkbCAJzZq3CoKk1l+THitk=",
+        "originContent": "## Data Sources",
+        "translatedContent": "The model is trained on many data sources including:  "
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **Optical**: Sentinel-2, Landsat 8/9. *Note: for simplicty, my implementation only supports Sentinel-2, but it should be relatively straightforward to add new datasets to the training*  "
+      },
+      {
+        "row": 34,
+        "rowsha": "RtbQDS4/HisTRO9N8bqYxv2BX/rkfTCCUjvx67SG4qc=",
+        "originContent": "The model is trained on many data sources including:",
+        "translatedContent": "- **Radar**: Sentinel-1, PALSAR2  "
+      },
+      {
+        "row": 35,
+        "rowsha": "wLvnsbVnblSd2XjJ+hZ2lxkH41HRATzY384Kqxw2B18=",
+        "originContent": "- **Optical**: Sentinel-2, Landsat 8/9. *Note: for simplicty, my implementation only supports Sentinel-2, but it should be relatively straightforward to add new datasets to the training*",
+        "translatedContent": "- **LiDAR**: GEDI  "
+      },
+      {
+        "row": 36,
+        "rowsha": "Fc2Ch6A1JZeW8za/C8y5wwpkGylPconYjOcak8Ilisk=",
+        "originContent": "- **Radar**: Sentinel-1, PALSAR2",
+        "translatedContent": "- **Environmental**: GLO-30, ERA5-Land, GRACE  "
+      },
+      {
+        "row": 37,
+        "rowsha": "4GKRxVHnVv7yTzddJ2LaY5trxBWhcP7sXJCurm8Mj64=",
+        "originContent": "- **LiDAR**: GEDI",
+        "translatedContent": "- **Annotated/Text**: NLCD, Wikipedia  "
+      },
+      {
+        "row": 38,
+        "rowsha": "RkAIFL9UNDHx/Eejx3AxTRq9flEu6Dq6nBNb/HVlhRw=",
+        "originContent": "- **Environmental**: GLO-30, ERA5-Land, GRACE",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "h9j054ypMbNVCbO5JR/y3YsmHHirDrKEgyfDZd33H6s=",
+        "originContent": "- **Annotated/Text**: NLCD, Wikipedia",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Installation\n",
+    "ContentSha": "wy/dzyG91ulFkJwMfpQbJ59mMV5SMRImMA8Bz2YVauA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Installation\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\n# Clone the repository\ngit clone https://github.com/brayden-zhang/alphaearth-foundations.git\ncd alphaearth-foundations\n\n# Install dependencies\nuv pip install -r requirements.txt\n\n# Install the package \nuv pip install -e .\n```",
+    "ContentSha": "ckzqGGHhMxwrVkBEoyff+/+4tTZCPVSBot47ZMyxYYI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Clone the repository\ngit clone https://github.com/brayden-zhang/alphaearth-foundations.git\ncd alphaearth-foundations\n\n# Install dependencies\nuv pip install -r requirements.txt\n\n# Install the package \nuv pip install -e .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "EJ1kGcOyM89S1RwOEHSj/NB/bjY/T7n0DRgAblC5zSQ=",
+        "originContent": "# Clone the repository",
+        "translatedContent": "# Clone the repository"
+      },
+      {
+        "row": 3,
+        "rowsha": "CahoAB9eGNjdPdi98TuAbfzbBk8tnOsIHC8rYRoHI9c=",
+        "originContent": "git clone https://github.com/brayden-zhang/alphaearth-foundations.git",
+        "translatedContent": "git clone https://github.com/brayden-zhang/alphaearth-foundations.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "8pln9HFPgs0no9RxlXlH/H9kSqGzsxM8nbLICVaKXJ8=",
+        "originContent": "cd alphaearth-foundations",
+        "translatedContent": "cd alphaearth-foundations"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "eZl+L3vwMSfnhJPApyjgp5MAN3lox2CikfYeIVqDi7M=",
+        "originContent": "# Install dependencies",
+        "translatedContent": "# Install dependencies"
+      },
+      {
+        "row": 7,
+        "rowsha": "8MGsvthhq9AAjXH5hZI63az8axUF8OKzH/5SwOoaQHU=",
+        "originContent": "uv pip install -r requirements.txt",
+        "translatedContent": "uv pip install -r requirements.txt"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "FdRhPs14tAb3jHwyDXL6n0EZp71wa2nwYQe0YpcCyzg=",
+        "originContent": "# Install the package ",
+        "translatedContent": "# Install the package "
+      },
+      {
+        "row": 10,
+        "rowsha": "hGoeSLGWxuZSrbcBtdd4ULq19+HXZLyGH7wUYAZRF1E=",
+        "originContent": "uv pip install -e .",
+        "translatedContent": "uv pip install -e ."
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nHow to run a training step:",
+    "ContentSha": "8vbq343UDykHnc/WPG4Ry1PXcHyeC5RCpiu/W79mks4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "How to run a training step:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "How to run a training step:"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ne4MiMMzfyQHhqI8nBxdCvg+uAY/pRtc296mKkLrp+8=",
+        "originContent": "How to run a training step:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```\npython -m alphaearth.run_train\n```",
+    "ContentSha": "p8CPGZ1Y9ZbviBDV0OQ7tdcgkAqr1qLMoMFhEUF0Fgk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython -m alphaearth.run_train\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "8auTjWW6qZYKU1J6PZ8tYgJJ1DEWQ4FkSzGSap6doPM=",
+        "originContent": "python -m alphaearth.run_train",
+        "translatedContent": "python -m alphaearth.run_train"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n## Paper Citation\n",
+    "ContentSha": "ZsmfhHbjEY25+AHcVm8s87QBG64PIduApyTlm13Wm8U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Paper Citation\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZDFAelIjO2eZVUnkkAg5vsep95mR8iCcvKsQ+2eiR2U=",
+        "originContent": "## Paper Citation",
+        "translatedContent": "## Paper Citation"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bibtex\n@misc{brown2025alphaearthfoundationsembeddingfield,\n      title={AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}, \n      author={Christopher F. Brown and Michal R. Kazmierski and Valerie J. Pasquarella and William J. Rucklidge and Masha Samsikova and Chenhui Zhang and Evan Shelhamer and Estefania Lahera and Olivia Wiles and Simon Ilyushchenko and Noel Gorelick and Lihui Lydia Zhang and Sophia Alj and Emily Schechter and Sean Askay and Oliver Guinan and Rebecca Moore and Alexis Boukouvalas and Pushmeet Kohli},\n      year={2025},\n      eprint={2507.22291},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2507.22291}, \n}\n```",
+    "ContentSha": "RaoycGMPMvAByHEgeOhisvR92B3rwtTay5pqEbxnuCQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@misc{brown2025alphaearthfoundationsembeddingfield,\n      title={AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}, \n      author={Christopher F. Brown and Michal R. Kazmierski and Valerie J. Pasquarella and William J. Rucklidge and Masha Samsikova and Chenhui Zhang and Evan Shelhamer and Estefania Lahera and Olivia Wiles and Simon Ilyushchenko and Noel Gorelick and Lihui Lydia Zhang and Sophia Alj and Emily Schechter and Sean Askay and Oliver Guinan and Rebecca Moore and Alexis Boukouvalas and Pushmeet Kohli},\n      year={2025},\n      eprint={2507.22291},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2507.22291}, \n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "5xbl3YW1vVTQGHUcBwrmseRmT+Qx+LlXEl1v+RyhjBY=",
+        "originContent": "@misc{brown2025alphaearthfoundationsembeddingfield,",
+        "translatedContent": "@misc{brown2025alphaearthfoundationsembeddingfield,"
+      },
+      {
+        "row": 3,
+        "rowsha": "doBCfH+U8DPHJajlrqVi7g3HSrlZTebK0kH/TRRxMkk=",
+        "originContent": "      title={AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}, ",
+        "translatedContent": "      title={AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}, "
+      },
+      {
+        "row": 4,
+        "rowsha": "o2Dj4Jefh1YyHSQquBjHaLo8wZ6PvkaE+DfRTtUYqPg=",
+        "originContent": "      author={Christopher F. Brown and Michal R. Kazmierski and Valerie J. Pasquarella and William J. Rucklidge and Masha Samsikova and Chenhui Zhang and Evan Shelhamer and Estefania Lahera and Olivia Wiles and Simon Ilyushchenko and Noel Gorelick and Lihui Lydia Zhang and Sophia Alj and Emily Schechter and Sean Askay and Oliver Guinan and Rebecca Moore and Alexis Boukouvalas and Pushmeet Kohli},",
+        "translatedContent": "      author={Christopher F. Brown and Michal R. Kazmierski and Valerie J. Pasquarella and William J. Rucklidge and Masha Samsikova and Chenhui Zhang and Evan Shelhamer and Estefania Lahera and Olivia Wiles and Simon Ilyushchenko and Noel Gorelick and Lihui Lydia Zhang and Sophia Alj and Emily Schechter and Sean Askay and Oliver Guinan and Rebecca Moore and Alexis Boukouvalas and Pushmeet Kohli},"
+      },
+      {
+        "row": 5,
+        "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+        "originContent": "      year={2025},",
+        "translatedContent": "      year={2025},"
+      },
+      {
+        "row": 6,
+        "rowsha": "l+imRuLQbUKJADtaHyu9k3pQV1eOFkKmQEMgFVpWZBc=",
+        "originContent": "      eprint={2507.22291},",
+        "translatedContent": "      eprint={2507.22291},"
+      },
+      {
+        "row": 7,
+        "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+        "originContent": "      archivePrefix={arXiv},",
+        "translatedContent": "      archivePrefix={arXiv},"
+      },
+      {
+        "row": 8,
+        "rowsha": "RPNBhgHdrY2A+XYLnuhpAr/aqag2LU2pAjasgtM0tg4=",
+        "originContent": "      primaryClass={cs.CV},",
+        "translatedContent": "      primaryClass={cs.CV},"
+      },
+      {
+        "row": 9,
+        "rowsha": "YQ4ptlMTWrflsq6+/CjZ1n9XVcmAwhkfK9L96ueBcHo=",
+        "originContent": "      url={https://arxiv.org/abs/2507.22291}, ",
+        "translatedContent": "      url={https://arxiv.org/abs/2507.22291}, "
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

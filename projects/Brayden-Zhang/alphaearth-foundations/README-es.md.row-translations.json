@@ -1,0 +1,440 @@
+[
+  {
+    "row": 1,
+    "rowsha": "KPMbQCLZii3Ghs1iTjKm1o6gVOZMnEr8FQBsh6nWoUk=",
+    "originContent": "# AlphaEarth Foundations",
+    "translatedContent": "# Fundaciones AlphaEarth"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "Fb1MgEZINPEbsUTaP1c7v2Wuu7RxldhwZifx3Y2aJWo=",
+    "originContent": "A PyTorch implementation of the AlphaEarth geospatial foundation model from Google DeepMind, which generates Earth embeddings for global environmental monitoring and analysis.",
+    "translatedContent": "Una implementación en PyTorch del modelo fundamental geoespacial AlphaEarth de Google DeepMind, que genera incrustaciones de la Tierra para la monitorización y análisis ambiental global.  "
+  },
+  {
+    "row": 4,
+    "rowsha": "hRdX0nqtLvoc5/wqoseo7WgX+RcOLF9HGtoynqHq3Bw=",
+    "originContent": "Accompanying the paper is a global dataset of embeddings from 2017 to 2024, available through Earth Engine. The goal of these embeddings is to serve as a highly general geospatial representation for a huge amount of downstream applications, without the need for retraining. ",
+    "translatedContent": "Acompañando al artículo hay un conjunto de datos global de incrustaciones desde 2017 hasta 2024, disponible a través de Earth Engine. El objetivo de estas incrustaciones es servir como una representación geoespacial altamente general para una gran cantidad de aplicaciones posteriores, sin necesidad de reentrenamiento.  "
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+    "originContent": "> [!NOTE]",
+    "translatedContent": "> [!NOTA]  "
+  },
+  {
+    "row": 7,
+    "rowsha": "Id13cQ/S7E2taE2RU9gavgkFrHMsc+zQOgb27u/Ulew=",
+    "originContent": "> This model is a work in progress and was not actually trained on the full dataset, it is just a framework that provides a general base for the paper's architecture. The code is simplified compared to the DeepMind's actual implementation (in JAX). ",
+    "translatedContent": "> Este modelo está en desarrollo y no fue entrenado con el conjunto de datos completo, es solo un marco que proporciona una base general para la arquitectura del artículo. El código está simplificado en comparación con la implementación real de DeepMind (en JAX).  "
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "SR3dtB4YvVI0rFMdcWHOQf1i7TnafCh7wYaRTy1680k=",
+    "originContent": "### Key parts of the methodology",
+    "translatedContent": "### Partes clave de la metodología"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Gd8kMTxP3TzVhLqYeunmfA4sA91HDtZ9k4LEpHv4Pg4=",
+    "originContent": "- **Continuous Time Support**: First EO featurization approach to support continuous time, allowing for temporal interpolation and extrapolation.",
+    "translatedContent": "- **Soporte de Tiempo Continuo**: Primer enfoque de caracterización EO que soporta tiempo continuo, permitiendo interpolación y extrapolación temporal.  "
+  },
+  {
+    "row": 12,
+    "rowsha": "GF/q3JYX9UVdYLx/ysUICEeztnB9VTstLDdvnX5rZ3A=",
+    "originContent": "- **Space Time Precision (STP) Architecture**: Multi-resolution encoder with spatial (1/16L), temporal (1/8L), and precision (1/2L) operators - designed to maintain localized representations while also modeling long-distance relationships across time and space. ",
+    "translatedContent": "- **Arquitectura de Precisión Espacio-Tiempo (STP)**: Codificador multiresolución con operadores espaciales (1/16L), temporales (1/8L) y de precisión (1/2L), diseñado para mantener representaciones localizadas mientras modela relaciones a larga distancia en tiempo y espacio.  "
+  },
+  {
+    "row": 13,
+    "rowsha": "IfhPAy063rMlaMeNTU/igYtNZQGqQmcl9JFeTgYK5z0=",
+    "originContent": "- **von Mises-Fisher Embeddings**: 64-byte embeddings distributed on unit sphere S^63, very compact representation. ",
+    "translatedContent": "- **Incrustaciones von Mises-Fisher**: Incrustaciones de 64 bytes distribuidas en la esfera unitaria S^63, representación muy compacta.  "
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+    "originContent": "## Architecture",
+    "translatedContent": "## Arquitectura"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "o5VWZ+R3BQjZmk6lmESbF9FwplPc26ucF1aQmeFL5k8=",
+    "originContent": "### Space Time Precision (STP) Encoder",
+    "translatedContent": "### Codificador de Precisión Espacio-Tiempo (STP)"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "otS2oKNNny5cMXxwTSLNpeBIx8C1nADwikQTU1iIXog=",
+    "originContent": "The STP encoder processes multi-temporal, multi-source data through three simultaneous operators:",
+    "translatedContent": "El codificador STP procesa datos multitemporales y multisource mediante tres operadores simultáneos:  "
+  },
+  {
+    "row": 21,
+    "rowsha": "nvQSTCykiai5/4D0S2LkGAjXwUWbQw7dXzIAhMwIL28=",
+    "originContent": "- **Space Operator**: ViT-like spatial self-attention (1/16L resolution)",
+    "translatedContent": "- **Operador Espacio**: Autoatención espacial tipo ViT (resolución 1/16L)  "
+  },
+  {
+    "row": 22,
+    "rowsha": "P1Q2bkqWQJnM4a5ZSb2eFO0UcgDhh41olQPBHqMoST4=",
+    "originContent": "- **Time Operator**: Time-axial self-attention (1/8L resolution) ",
+    "translatedContent": "- **Operador Tiempo**: Autoatención axial temporal (resolución 1/8L)  "
+  },
+  {
+    "row": 23,
+    "rowsha": "/xUxNq6udkEOoUu+apjMPS+lIAlv0na/dzBGy800QOY=",
+    "originContent": "- **Precision Operator**: 3x3 convolutions (1/2L resolution)",
+    "translatedContent": "- **Operador Precisión**: Convoluciones 3x3 (resolución 1/2L)  "
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "G1/AXTf3DGrN9fp1a2HFaMseIN9O9LI5oMd2JvH+OKs=",
+    "originContent": "### Teacher-Student-Text Framework",
+    "translatedContent": "### Marco Maestro-Estudiante-Texto"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "gluY3K9WZKj6TUrEeNo0UD3NnG8LnWhDn4hunKFY63Q=",
+    "originContent": "1. **Teacher Video Embedding Model**: Main model with implicit decoders",
+    "translatedContent": "1. **Modelo Maestro de Incrustación de Video**: Modelo principal con decodificadores implícitos  "
+  },
+  {
+    "row": 28,
+    "rowsha": "Iyh6jMPaush2jH6+57EvvvGU2f+xnm1DLW9tAKWkofU=",
+    "originContent": "2. **Student Video Embedding Model**: Shares parameters with teacher for contrastive learning",
+    "translatedContent": "2. **Modelo Estudiante de Incrustación de Video**: Comparte parámetros con el maestro para aprendizaje contrastivo  "
+  },
+  {
+    "row": 29,
+    "rowsha": "O4wvoVGU/2CNVFhPfuHLhlk8Z9uS4eqW6I3r9F+kjR8=",
+    "originContent": "3. **Text Alignment Model**: Enables text-image contrastive learning",
+    "translatedContent": "3. **Modelo de Alineación de Texto**: Habilita aprendizaje contrastivo texto-imagen  "
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "kWIv99NNWtJF2DTAQAGx/mkbCAJzZq3CoKk1l+THitk=",
+    "originContent": "## Data Sources",
+    "translatedContent": "## Fuentes de Datos"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "RtbQDS4/HisTRO9N8bqYxv2BX/rkfTCCUjvx67SG4qc=",
+    "originContent": "The model is trained on many data sources including:",
+    "translatedContent": "El modelo se entrena con muchas fuentes de datos incluyendo:  "
+  },
+  {
+    "row": 35,
+    "rowsha": "wLvnsbVnblSd2XjJ+hZ2lxkH41HRATzY384Kqxw2B18=",
+    "originContent": "- **Optical**: Sentinel-2, Landsat 8/9. *Note: for simplicty, my implementation only supports Sentinel-2, but it should be relatively straightforward to add new datasets to the training*",
+    "translatedContent": "- **Óptico**: Sentinel-2, Landsat 8/9. *Nota: por simplicidad, mi implementación solo soporta Sentinel-2, pero debería ser relativamente sencillo añadir nuevos conjuntos de datos para el entrenamiento*  "
+  },
+  {
+    "row": 36,
+    "rowsha": "Fc2Ch6A1JZeW8za/C8y5wwpkGylPconYjOcak8Ilisk=",
+    "originContent": "- **Radar**: Sentinel-1, PALSAR2",
+    "translatedContent": "- **Radar**: Sentinel-1, PALSAR2  "
+  },
+  {
+    "row": 37,
+    "rowsha": "4GKRxVHnVv7yTzddJ2LaY5trxBWhcP7sXJCurm8Mj64=",
+    "originContent": "- **LiDAR**: GEDI",
+    "translatedContent": "- **LiDAR**: GEDI  "
+  },
+  {
+    "row": 38,
+    "rowsha": "RkAIFL9UNDHx/Eejx3AxTRq9flEu6Dq6nBNb/HVlhRw=",
+    "originContent": "- **Environmental**: GLO-30, ERA5-Land, GRACE",
+    "translatedContent": "- **Ambiental**: GLO-30, ERA5-Land, GRACE  "
+  },
+  {
+    "row": 39,
+    "rowsha": "h9j054ypMbNVCbO5JR/y3YsmHHirDrKEgyfDZd33H6s=",
+    "originContent": "- **Annotated/Text**: NLCD, Wikipedia",
+    "translatedContent": "- **Anotado/Texto**: NLCD, Wikipedia  "
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Instalación"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 44,
+    "rowsha": "EJ1kGcOyM89S1RwOEHSj/NB/bjY/T7n0DRgAblC5zSQ=",
+    "originContent": "# Clone the repository",
+    "translatedContent": "# Clone the repository"
+  },
+  {
+    "row": 45,
+    "rowsha": "CahoAB9eGNjdPdi98TuAbfzbBk8tnOsIHC8rYRoHI9c=",
+    "originContent": "git clone https://github.com/brayden-zhang/alphaearth-foundations.git",
+    "translatedContent": "git clone https://github.com/brayden-zhang/alphaearth-foundations.git"
+  },
+  {
+    "row": 46,
+    "rowsha": "8pln9HFPgs0no9RxlXlH/H9kSqGzsxM8nbLICVaKXJ8=",
+    "originContent": "cd alphaearth-foundations",
+    "translatedContent": "cd alphaearth-foundations"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "eZl+L3vwMSfnhJPApyjgp5MAN3lox2CikfYeIVqDi7M=",
+    "originContent": "# Install dependencies",
+    "translatedContent": "# Install dependencies"
+  },
+  {
+    "row": 49,
+    "rowsha": "8MGsvthhq9AAjXH5hZI63az8axUF8OKzH/5SwOoaQHU=",
+    "originContent": "uv pip install -r requirements.txt",
+    "translatedContent": "uv pip install -r requirements.txt"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "FdRhPs14tAb3jHwyDXL6n0EZp71wa2nwYQe0YpcCyzg=",
+    "originContent": "# Install the package ",
+    "translatedContent": "# Install the package "
+  },
+  {
+    "row": 52,
+    "rowsha": "hGoeSLGWxuZSrbcBtdd4ULq19+HXZLyGH7wUYAZRF1E=",
+    "originContent": "uv pip install -e .",
+    "translatedContent": "uv pip install -e ."
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Cómo ejecutar un paso de entrenamiento:"
+  },
+  {
+    "row": 55,
+    "rowsha": "Ne4MiMMzfyQHhqI8nBxdCvg+uAY/pRtc296mKkLrp+8=",
+    "originContent": "How to run a training step:",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 57,
+    "rowsha": "8auTjWW6qZYKU1J6PZ8tYgJJ1DEWQ4FkSzGSap6doPM=",
+    "originContent": "python -m alphaearth.run_train",
+    "translatedContent": "python -m alphaearth.run_train"
+  },
+  {
+    "row": 58,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "ZDFAelIjO2eZVUnkkAg5vsep95mR8iCcvKsQ+2eiR2U=",
+    "originContent": "## Paper Citation",
+    "translatedContent": "## Cita del artículo"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 63,
+    "rowsha": "5xbl3YW1vVTQGHUcBwrmseRmT+Qx+LlXEl1v+RyhjBY=",
+    "originContent": "@misc{brown2025alphaearthfoundationsembeddingfield,",
+    "translatedContent": "@misc{brown2025alphaearthfoundationsembeddingfield,"
+  },
+  {
+    "row": 64,
+    "rowsha": "doBCfH+U8DPHJajlrqVi7g3HSrlZTebK0kH/TRRxMkk=",
+    "originContent": "      title={AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}, ",
+    "translatedContent": "      title={AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}, "
+  },
+  {
+    "row": 65,
+    "rowsha": "o2Dj4Jefh1YyHSQquBjHaLo8wZ6PvkaE+DfRTtUYqPg=",
+    "originContent": "      author={Christopher F. Brown and Michal R. Kazmierski and Valerie J. Pasquarella and William J. Rucklidge and Masha Samsikova and Chenhui Zhang and Evan Shelhamer and Estefania Lahera and Olivia Wiles and Simon Ilyushchenko and Noel Gorelick and Lihui Lydia Zhang and Sophia Alj and Emily Schechter and Sean Askay and Oliver Guinan and Rebecca Moore and Alexis Boukouvalas and Pushmeet Kohli},",
+    "translatedContent": "      author={Christopher F. Brown and Michal R. Kazmierski and Valerie J. Pasquarella and William J. Rucklidge and Masha Samsikova and Chenhui Zhang and Evan Shelhamer and Estefania Lahera and Olivia Wiles and Simon Ilyushchenko and Noel Gorelick and Lihui Lydia Zhang and Sophia Alj and Emily Schechter and Sean Askay and Oliver Guinan and Rebecca Moore and Alexis Boukouvalas and Pushmeet Kohli},"
+  },
+  {
+    "row": 66,
+    "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+    "originContent": "      year={2025},",
+    "translatedContent": "      year={2025},"
+  },
+  {
+    "row": 67,
+    "rowsha": "l+imRuLQbUKJADtaHyu9k3pQV1eOFkKmQEMgFVpWZBc=",
+    "originContent": "      eprint={2507.22291},",
+    "translatedContent": "      eprint={2507.22291},"
+  },
+  {
+    "row": 68,
+    "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+    "originContent": "      archivePrefix={arXiv},",
+    "translatedContent": "      archivePrefix={arXiv},"
+  },
+  {
+    "row": 69,
+    "rowsha": "RPNBhgHdrY2A+XYLnuhpAr/aqag2LU2pAjasgtM0tg4=",
+    "originContent": "      primaryClass={cs.CV},",
+    "translatedContent": "      primaryClass={cs.CV},"
+  },
+  {
+    "row": 70,
+    "rowsha": "YQ4ptlMTWrflsq6+/CjZ1n9XVcmAwhkfK9L96ueBcHo=",
+    "originContent": "      url={https://arxiv.org/abs/2507.22291}, ",
+    "translatedContent": "      url={https://arxiv.org/abs/2507.22291}, "
+  },
+  {
+    "row": 71,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

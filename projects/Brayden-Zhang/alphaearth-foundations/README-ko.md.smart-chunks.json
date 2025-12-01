@@ -1,0 +1,544 @@
+[
+  {
+    "Id": 1,
+    "Content": "# AlphaEarth Foundations\n\nA PyTorch implementation of the AlphaEarth geospatial foundation model from Google DeepMind, which generates Earth embeddings for global environmental monitoring and analysis.\nAccompanying the paper is a global dataset of embeddings from 2017 to 2024, available through Earth Engine. The goal of these embeddings is to serve as a highly general geospatial representation for a huge amount of downstream applications, without the need for retraining. \n\n> [!NOTE]\n> This model is a work in progress and was not actually trained on the full dataset, it is just a framework that provides a general base for the paper's architecture. The code is simplified compared to the DeepMind's actual implementation (in JAX). \n\n### Key parts of the methodology\n\n- **Continuous Time Support**: First EO featurization approach to support continuous time, allowing for temporal interpolation and extrapolation.\n- **Space Time Precision (STP) Architecture**: Multi-resolution encoder with spatial (1/16L), temporal (1/8L), and precision (1/2L) operators - designed to maintain localized representations while also modeling long-distance relationships across time and space. \n- **von Mises-Fisher Embeddings**: 64-byte embeddings distributed on unit sphere S^63, very compact representation. \n\n\n## Architecture\n\n### Space Time Precision (STP) Encoder\n\nThe STP encoder processes multi-temporal, multi-source data through three simultaneous operators:\n- **Space Operator**: ViT-like spatial self-attention (1/16L resolution)\n- **Time Operator**: Time-axial self-attention (1/8L resolution) \n- **Precision Operator**: 3x3 convolutions (1/2L resolution)\n\n### Teacher-Student-Text Framework\n\n1. **Teacher Video Embedding Model**: Main model with implicit decoders\n2. **Student Video Embedding Model**: Shares parameters with teacher for contrastive learning\n3. **Text Alignment Model**: Enables text-image contrastive learning\n\n\n## Data Sources\n\nThe model is trained on many data sources including:\n- **Optical**: Sentinel-2, Landsat 8/9. *Note: for simplicty, my implementation only supports Sentinel-2, but it should be relatively straightforward to add new datasets to the training*\n- **Radar**: Sentinel-1, PALSAR2\n- **LiDAR**: GEDI\n- **Environmental**: GLO-30, ERA5-Land, GRACE\n- **Annotated/Text**: NLCD, Wikipedia\n",
+    "ContentSha": "EkbWGtQIhcz3fHn4pd/Jfx3lMLrzgQIes+q9yMy8LxM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# AlphaEarth Foundations\n\nGoogle DeepMind의 AlphaEarth 지리공간 기초 모델을 PyTorch로 구현한 것으로, 전 지구 환경 모니터링 및 분석을 위한 지구 임베딩을 생성합니다.  \n논문과 함께 2017년부터 2024년까지의 임베딩 글로벌 데이터셋이 Earth Engine을 통해 제공됩니다. 이 임베딩의 목표는 재학습 없이도 방대한 다운스트림 응용 프로그램에 매우 일반적인 지리공간 표현을 제공하는 것입니다.\n\n> [!NOTE]  \n> 이 모델은 진행 중인 작업이며 전체 데이터셋으로 실제 학습된 것은 아니며, 논문의 아키텍처를 위한 일반적인 기반을 제공하는 프레임워크일 뿐입니다. 코드는 DeepMind의 실제 구현(JAX)과 비교하여 간소화되어 있습니다.\n\n### 방법론의 핵심 부분\n\n- **연속 시간 지원**: 연속 시간을 지원하는 최초의 EO 특징화 접근법으로, 시간적 보간 및 외삽을 허용합니다.  \n- **시공간 정밀도(STP) 아키텍처**: 공간(1/16L), 시간(1/8L), 정밀도(1/2L) 연산자가 있는 다중 해상도 인코더 - 지역화된 표현을 유지하면서도 시공간에 걸친 장거리 관계를 모델링하도록 설계되었습니다.  \n- **폰 미제스-피셔 임베딩**: 단위 구 S^63 위에 분포하는 64바이트 임베딩으로 매우 컴팩트한 표현입니다.\n\n## 아키텍처\n\n### 시공간 정밀도(STP) 인코더\n\nSTP 인코더는 세 가지 동시 연산자를 통해 다중 시간, 다중 소스 데이터를 처리합니다:  \n- **공간 연산자**: ViT 유사 공간 자기 주의 (1/16L 해상도)  \n- **시간 연산자**: 시간 축 자기 주의 (1/8L 해상도)  \n- **정밀도 연산자**: 3x3 합성곱 (1/2L 해상도)\n\n### 교사-학생-텍스트 프레임워크\n\n1. **교사 비디오 임베딩 모델**: 암묵적 디코더가 있는 주요 모델  \n2. **학생 비디오 임베딩 모델**: 대조 학습을 위해 교사와 매개변수를 공유  \n3. **텍스트 정렬 모델**: 텍스트-이미지 대조 학습 가능\n\n## 데이터 소스\n\n이 모델은 다음을 포함한 여러 데이터 소스에서 학습됩니다:  \n- **광학**: Sentinel-2, Landsat 8/9. *참고: 단순화를 위해 제 구현은 Sentinel-2만 지원하지만, 학습에 새로운 데이터셋을 추가하는 것은 비교적 간단해야 합니다*  \n- **레이더**: Sentinel-1, PALSAR2  \n- **라이다**: GEDI  \n- **환경**: GLO-30, ERA5-Land, GRACE  \n- **주석/텍스트**: NLCD, Wikipedia\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "KPMbQCLZii3Ghs1iTjKm1o6gVOZMnEr8FQBsh6nWoUk=",
+        "originContent": "# AlphaEarth Foundations",
+        "translatedContent": "# AlphaEarth Foundations"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Fb1MgEZINPEbsUTaP1c7v2Wuu7RxldhwZifx3Y2aJWo=",
+        "originContent": "A PyTorch implementation of the AlphaEarth geospatial foundation model from Google DeepMind, which generates Earth embeddings for global environmental monitoring and analysis.",
+        "translatedContent": "Google DeepMind의 AlphaEarth 지리공간 기초 모델을 PyTorch로 구현한 것으로, 전 지구 환경 모니터링 및 분석을 위한 지구 임베딩을 생성합니다.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "hRdX0nqtLvoc5/wqoseo7WgX+RcOLF9HGtoynqHq3Bw=",
+        "originContent": "Accompanying the paper is a global dataset of embeddings from 2017 to 2024, available through Earth Engine. The goal of these embeddings is to serve as a highly general geospatial representation for a huge amount of downstream applications, without the need for retraining. ",
+        "translatedContent": "논문과 함께 2017년부터 2024년까지의 임베딩 글로벌 데이터셋이 Earth Engine을 통해 제공됩니다. 이 임베딩의 목표는 재학습 없이도 방대한 다운스트림 응용 프로그램에 매우 일반적인 지리공간 표현을 제공하는 것입니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTE]  "
+      },
+      {
+        "row": 7,
+        "rowsha": "Id13cQ/S7E2taE2RU9gavgkFrHMsc+zQOgb27u/Ulew=",
+        "originContent": "> This model is a work in progress and was not actually trained on the full dataset, it is just a framework that provides a general base for the paper's architecture. The code is simplified compared to the DeepMind's actual implementation (in JAX). ",
+        "translatedContent": "> 이 모델은 진행 중인 작업이며 전체 데이터셋으로 실제 학습된 것은 아니며, 논문의 아키텍처를 위한 일반적인 기반을 제공하는 프레임워크일 뿐입니다. 코드는 DeepMind의 실제 구현(JAX)과 비교하여 간소화되어 있습니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "SR3dtB4YvVI0rFMdcWHOQf1i7TnafCh7wYaRTy1680k=",
+        "originContent": "### Key parts of the methodology",
+        "translatedContent": "### 방법론의 핵심 부분"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Gd8kMTxP3TzVhLqYeunmfA4sA91HDtZ9k4LEpHv4Pg4=",
+        "originContent": "- **Continuous Time Support**: First EO featurization approach to support continuous time, allowing for temporal interpolation and extrapolation.",
+        "translatedContent": "- **연속 시간 지원**: 연속 시간을 지원하는 최초의 EO 특징화 접근법으로, 시간적 보간 및 외삽을 허용합니다.  "
+      },
+      {
+        "row": 12,
+        "rowsha": "GF/q3JYX9UVdYLx/ysUICEeztnB9VTstLDdvnX5rZ3A=",
+        "originContent": "- **Space Time Precision (STP) Architecture**: Multi-resolution encoder with spatial (1/16L), temporal (1/8L), and precision (1/2L) operators - designed to maintain localized representations while also modeling long-distance relationships across time and space. ",
+        "translatedContent": "- **시공간 정밀도(STP) 아키텍처**: 공간(1/16L), 시간(1/8L), 정밀도(1/2L) 연산자가 있는 다중 해상도 인코더 - 지역화된 표현을 유지하면서도 시공간에 걸친 장거리 관계를 모델링하도록 설계되었습니다.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "IfhPAy063rMlaMeNTU/igYtNZQGqQmcl9JFeTgYK5z0=",
+        "originContent": "- **von Mises-Fisher Embeddings**: 64-byte embeddings distributed on unit sphere S^63, very compact representation. ",
+        "translatedContent": "- **폰 미제스-피셔 임베딩**: 단위 구 S^63 위에 분포하는 64바이트 임베딩으로 매우 컴팩트한 표현입니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 아키텍처"
+      },
+      {
+        "row": 16,
+        "rowsha": "p+VkcrEb08g4vIGZYB9aVScRKgA8afv5WwErwTVzoZM=",
+        "originContent": "## Architecture",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 시공간 정밀도(STP) 인코더"
+      },
+      {
+        "row": 18,
+        "rowsha": "o5VWZ+R3BQjZmk6lmESbF9FwplPc26ucF1aQmeFL5k8=",
+        "originContent": "### Space Time Precision (STP) Encoder",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "STP 인코더는 세 가지 동시 연산자를 통해 다중 시간, 다중 소스 데이터를 처리합니다:  "
+      },
+      {
+        "row": 20,
+        "rowsha": "otS2oKNNny5cMXxwTSLNpeBIx8C1nADwikQTU1iIXog=",
+        "originContent": "The STP encoder processes multi-temporal, multi-source data through three simultaneous operators:",
+        "translatedContent": "- **공간 연산자**: ViT 유사 공간 자기 주의 (1/16L 해상도)  "
+      },
+      {
+        "row": 21,
+        "rowsha": "nvQSTCykiai5/4D0S2LkGAjXwUWbQw7dXzIAhMwIL28=",
+        "originContent": "- **Space Operator**: ViT-like spatial self-attention (1/16L resolution)",
+        "translatedContent": "- **시간 연산자**: 시간 축 자기 주의 (1/8L 해상도)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "P1Q2bkqWQJnM4a5ZSb2eFO0UcgDhh41olQPBHqMoST4=",
+        "originContent": "- **Time Operator**: Time-axial self-attention (1/8L resolution) ",
+        "translatedContent": "- **정밀도 연산자**: 3x3 합성곱 (1/2L 해상도)"
+      },
+      {
+        "row": 23,
+        "rowsha": "/xUxNq6udkEOoUu+apjMPS+lIAlv0na/dzBGy800QOY=",
+        "originContent": "- **Precision Operator**: 3x3 convolutions (1/2L resolution)",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 교사-학생-텍스트 프레임워크"
+      },
+      {
+        "row": 25,
+        "rowsha": "G1/AXTf3DGrN9fp1a2HFaMseIN9O9LI5oMd2JvH+OKs=",
+        "originContent": "### Teacher-Student-Text Framework",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. **교사 비디오 임베딩 모델**: 암묵적 디코더가 있는 주요 모델  "
+      },
+      {
+        "row": 27,
+        "rowsha": "gluY3K9WZKj6TUrEeNo0UD3NnG8LnWhDn4hunKFY63Q=",
+        "originContent": "1. **Teacher Video Embedding Model**: Main model with implicit decoders",
+        "translatedContent": "2. **학생 비디오 임베딩 모델**: 대조 학습을 위해 교사와 매개변수를 공유  "
+      },
+      {
+        "row": 28,
+        "rowsha": "Iyh6jMPaush2jH6+57EvvvGU2f+xnm1DLW9tAKWkofU=",
+        "originContent": "2. **Student Video Embedding Model**: Shares parameters with teacher for contrastive learning",
+        "translatedContent": "3. **텍스트 정렬 모델**: 텍스트-이미지 대조 학습 가능"
+      },
+      {
+        "row": 29,
+        "rowsha": "O4wvoVGU/2CNVFhPfuHLhlk8Z9uS4eqW6I3r9F+kjR8=",
+        "originContent": "3. **Text Alignment Model**: Enables text-image contrastive learning",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 데이터 소스"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "kWIv99NNWtJF2DTAQAGx/mkbCAJzZq3CoKk1l+THitk=",
+        "originContent": "## Data Sources",
+        "translatedContent": "이 모델은 다음을 포함한 여러 데이터 소스에서 학습됩니다:  "
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **광학**: Sentinel-2, Landsat 8/9. *참고: 단순화를 위해 제 구현은 Sentinel-2만 지원하지만, 학습에 새로운 데이터셋을 추가하는 것은 비교적 간단해야 합니다*  "
+      },
+      {
+        "row": 34,
+        "rowsha": "RtbQDS4/HisTRO9N8bqYxv2BX/rkfTCCUjvx67SG4qc=",
+        "originContent": "The model is trained on many data sources including:",
+        "translatedContent": "- **레이더**: Sentinel-1, PALSAR2  "
+      },
+      {
+        "row": 35,
+        "rowsha": "wLvnsbVnblSd2XjJ+hZ2lxkH41HRATzY384Kqxw2B18=",
+        "originContent": "- **Optical**: Sentinel-2, Landsat 8/9. *Note: for simplicty, my implementation only supports Sentinel-2, but it should be relatively straightforward to add new datasets to the training*",
+        "translatedContent": "- **라이다**: GEDI  "
+      },
+      {
+        "row": 36,
+        "rowsha": "Fc2Ch6A1JZeW8za/C8y5wwpkGylPconYjOcak8Ilisk=",
+        "originContent": "- **Radar**: Sentinel-1, PALSAR2",
+        "translatedContent": "- **환경**: GLO-30, ERA5-Land, GRACE  "
+      },
+      {
+        "row": 37,
+        "rowsha": "4GKRxVHnVv7yTzddJ2LaY5trxBWhcP7sXJCurm8Mj64=",
+        "originContent": "- **LiDAR**: GEDI",
+        "translatedContent": "- **주석/텍스트**: NLCD, Wikipedia"
+      },
+      {
+        "row": 38,
+        "rowsha": "RkAIFL9UNDHx/Eejx3AxTRq9flEu6Dq6nBNb/HVlhRw=",
+        "originContent": "- **Environmental**: GLO-30, ERA5-Land, GRACE",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "h9j054ypMbNVCbO5JR/y3YsmHHirDrKEgyfDZd33H6s=",
+        "originContent": "- **Annotated/Text**: NLCD, Wikipedia",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "## Installation\n",
+    "ContentSha": "wy/dzyG91ulFkJwMfpQbJ59mMV5SMRImMA8Bz2YVauA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 설치\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\n# Clone the repository\ngit clone https://github.com/brayden-zhang/alphaearth-foundations.git\ncd alphaearth-foundations\n\n# Install dependencies\nuv pip install -r requirements.txt\n\n# Install the package \nuv pip install -e .\n```",
+    "ContentSha": "ckzqGGHhMxwrVkBEoyff+/+4tTZCPVSBot47ZMyxYYI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Clone the repository\ngit clone https://github.com/brayden-zhang/alphaearth-foundations.git\ncd alphaearth-foundations\n\n# Install dependencies\nuv pip install -r requirements.txt\n\n# Install the package \nuv pip install -e .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "EJ1kGcOyM89S1RwOEHSj/NB/bjY/T7n0DRgAblC5zSQ=",
+        "originContent": "# Clone the repository",
+        "translatedContent": "# Clone the repository"
+      },
+      {
+        "row": 3,
+        "rowsha": "CahoAB9eGNjdPdi98TuAbfzbBk8tnOsIHC8rYRoHI9c=",
+        "originContent": "git clone https://github.com/brayden-zhang/alphaearth-foundations.git",
+        "translatedContent": "git clone https://github.com/brayden-zhang/alphaearth-foundations.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "8pln9HFPgs0no9RxlXlH/H9kSqGzsxM8nbLICVaKXJ8=",
+        "originContent": "cd alphaearth-foundations",
+        "translatedContent": "cd alphaearth-foundations"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "eZl+L3vwMSfnhJPApyjgp5MAN3lox2CikfYeIVqDi7M=",
+        "originContent": "# Install dependencies",
+        "translatedContent": "# Install dependencies"
+      },
+      {
+        "row": 7,
+        "rowsha": "8MGsvthhq9AAjXH5hZI63az8axUF8OKzH/5SwOoaQHU=",
+        "originContent": "uv pip install -r requirements.txt",
+        "translatedContent": "uv pip install -r requirements.txt"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "FdRhPs14tAb3jHwyDXL6n0EZp71wa2nwYQe0YpcCyzg=",
+        "originContent": "# Install the package ",
+        "translatedContent": "# Install the package "
+      },
+      {
+        "row": 10,
+        "rowsha": "hGoeSLGWxuZSrbcBtdd4ULq19+HXZLyGH7wUYAZRF1E=",
+        "originContent": "uv pip install -e .",
+        "translatedContent": "uv pip install -e ."
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nHow to run a training step:",
+    "ContentSha": "8vbq343UDykHnc/WPG4Ry1PXcHyeC5RCpiu/W79mks4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n학습 단계를 실행하는 방법:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Ne4MiMMzfyQHhqI8nBxdCvg+uAY/pRtc296mKkLrp+8=",
+        "originContent": "How to run a training step:",
+        "translatedContent": "학습 단계를 실행하는 방법:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```\npython -m alphaearth.run_train\n```",
+    "ContentSha": "p8CPGZ1Y9ZbviBDV0OQ7tdcgkAqr1qLMoMFhEUF0Fgk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython -m alphaearth.run_train\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "8auTjWW6qZYKU1J6PZ8tYgJJ1DEWQ4FkSzGSap6doPM=",
+        "originContent": "python -m alphaearth.run_train",
+        "translatedContent": "python -m alphaearth.run_train"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n## Paper Citation\n",
+    "ContentSha": "ZsmfhHbjEY25+AHcVm8s87QBG64PIduApyTlm13Wm8U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 논문 인용\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZDFAelIjO2eZVUnkkAg5vsep95mR8iCcvKsQ+2eiR2U=",
+        "originContent": "## Paper Citation",
+        "translatedContent": "## 논문 인용"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```bibtex\n@misc{brown2025alphaearthfoundationsembeddingfield,\n      title={AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}, \n      author={Christopher F. Brown and Michal R. Kazmierski and Valerie J. Pasquarella and William J. Rucklidge and Masha Samsikova and Chenhui Zhang and Evan Shelhamer and Estefania Lahera and Olivia Wiles and Simon Ilyushchenko and Noel Gorelick and Lihui Lydia Zhang and Sophia Alj and Emily Schechter and Sean Askay and Oliver Guinan and Rebecca Moore and Alexis Boukouvalas and Pushmeet Kohli},\n      year={2025},\n      eprint={2507.22291},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2507.22291}, \n}\n```",
+    "ContentSha": "RaoycGMPMvAByHEgeOhisvR92B3rwtTay5pqEbxnuCQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@misc{brown2025alphaearthfoundationsembeddingfield,\n      title={AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}, \n      author={Christopher F. Brown and Michal R. Kazmierski and Valerie J. Pasquarella and William J. Rucklidge and Masha Samsikova and Chenhui Zhang and Evan Shelhamer and Estefania Lahera and Olivia Wiles and Simon Ilyushchenko and Noel Gorelick and Lihui Lydia Zhang and Sophia Alj and Emily Schechter and Sean Askay and Oliver Guinan and Rebecca Moore and Alexis Boukouvalas and Pushmeet Kohli},\n      year={2025},\n      eprint={2507.22291},\n      archivePrefix={arXiv},\n      primaryClass={cs.CV},\n      url={https://arxiv.org/abs/2507.22291}, \n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "5xbl3YW1vVTQGHUcBwrmseRmT+Qx+LlXEl1v+RyhjBY=",
+        "originContent": "@misc{brown2025alphaearthfoundationsembeddingfield,",
+        "translatedContent": "@misc{brown2025alphaearthfoundationsembeddingfield,"
+      },
+      {
+        "row": 3,
+        "rowsha": "doBCfH+U8DPHJajlrqVi7g3HSrlZTebK0kH/TRRxMkk=",
+        "originContent": "      title={AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}, ",
+        "translatedContent": "      title={AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data}, "
+      },
+      {
+        "row": 4,
+        "rowsha": "o2Dj4Jefh1YyHSQquBjHaLo8wZ6PvkaE+DfRTtUYqPg=",
+        "originContent": "      author={Christopher F. Brown and Michal R. Kazmierski and Valerie J. Pasquarella and William J. Rucklidge and Masha Samsikova and Chenhui Zhang and Evan Shelhamer and Estefania Lahera and Olivia Wiles and Simon Ilyushchenko and Noel Gorelick and Lihui Lydia Zhang and Sophia Alj and Emily Schechter and Sean Askay and Oliver Guinan and Rebecca Moore and Alexis Boukouvalas and Pushmeet Kohli},",
+        "translatedContent": "      author={Christopher F. Brown and Michal R. Kazmierski and Valerie J. Pasquarella and William J. Rucklidge and Masha Samsikova and Chenhui Zhang and Evan Shelhamer and Estefania Lahera and Olivia Wiles and Simon Ilyushchenko and Noel Gorelick and Lihui Lydia Zhang and Sophia Alj and Emily Schechter and Sean Askay and Oliver Guinan and Rebecca Moore and Alexis Boukouvalas and Pushmeet Kohli},"
+      },
+      {
+        "row": 5,
+        "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+        "originContent": "      year={2025},",
+        "translatedContent": "      year={2025},"
+      },
+      {
+        "row": 6,
+        "rowsha": "l+imRuLQbUKJADtaHyu9k3pQV1eOFkKmQEMgFVpWZBc=",
+        "originContent": "      eprint={2507.22291},",
+        "translatedContent": "      eprint={2507.22291},"
+      },
+      {
+        "row": 7,
+        "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+        "originContent": "      archivePrefix={arXiv},",
+        "translatedContent": "      archivePrefix={arXiv},"
+      },
+      {
+        "row": 8,
+        "rowsha": "RPNBhgHdrY2A+XYLnuhpAr/aqag2LU2pAjasgtM0tg4=",
+        "originContent": "      primaryClass={cs.CV},",
+        "translatedContent": "      primaryClass={cs.CV},"
+      },
+      {
+        "row": 9,
+        "rowsha": "YQ4ptlMTWrflsq6+/CjZ1n9XVcmAwhkfK9L96ueBcHo=",
+        "originContent": "      url={https://arxiv.org/abs/2507.22291}, ",
+        "translatedContent": "      url={https://arxiv.org/abs/2507.22291}, "
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
