@@ -1,0 +1,935 @@
+[
+  {
+    "Id": 1,
+    "Content": "<h1 align=\"center\">CleanIt</h1>\n\n[![Build Status](https://github.com/Sollimann/CleanIt/actions/workflows/rust-ci.yml/badge.svg)](https://github.com/Sollimann/CleanIt/actions)\n[![codecov](https://codecov.io/gh/Sollimann/CleanIt/branch/main/graph/badge.svg?token=EY3JRZN71M)](https://codecov.io/gh/Sollimann/CleanIt)\n[![minimum rustc 1.45](https://img.shields.io/badge/rustc-1.45+-blue.svg)](https://rust-lang.github.io/rfcs/2495-min-rust-version.html)\n[![version](https://img.shields.io/badge/version-1.0.0-blue)](https://GitHub.com/Sollimann/CleanIt/releases/)\n[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Sollimann/CleanIt/graphs/commit-activity)\n[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Sollimann/CleanIt.svg)](https://GitHub.com/Sollimann/CleanIt/pulls)\n[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/Sollimann/CleanIt.svg)](https://GitHub.com/Sollimann/CleanIt/pulls)\n![ViewCount](https://views.whatilearened.today/views/github/Sollimann/CleanIt.svg)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n<p align=\"center\">\n    <em>Open-source Autonomy Software in Rust-lang with gRPC for the Roomba series robot vacuum cleaners</em>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://github.com/Sollimann/CleanIt/blob/main/resources/gifs/roomba.gif\">\n</p>\n\n## Motivation\n\nMotivation is to build a complete DIY autonomy software from scratch (motion planning, guidance and motion control, SLAM, mission control, 2D/3D visualization etc..) with a real-time client-server communication stream using async gRPC for intercommunication and distributed compute.\n\nThe SLAM part is work-in-progress here: https://github.com/Sollimann/Occupancy-Grid-FastSLAM/tree/main\n\n## Contributions are welcome!\n\nWould you like to contribute with work and/or ideas, feel free to check out the [Project Backlog](https://github.com/Sollimann/CleanIt/projects)\n\n## Run the Roomba client and API\n\n#### Run the server\n",
+    "ContentSha": "U6SoolcMbEHiUXqjvfKbPfTrVmmGA9zm71GIy3q0ik8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<h1 align=\"center\">CleanIt</h1>\n\n[![Build Status](https://github.com/Sollimann/CleanIt/actions/workflows/rust-ci.yml/badge.svg)](https://github.com/Sollimann/CleanIt/actions)\n[![codecov](https://codecov.io/gh/Sollimann/CleanIt/branch/main/graph/badge.svg?token=EY3JRZN71M)](https://codecov.io/gh/Sollimann/CleanIt)\n[![minimum rustc 1.45](https://img.shields.io/badge/rustc-1.45+-blue.svg)](https://rust-lang.github.io/rfcs/2495-min-rust-version.html)\n[![version](https://img.shields.io/badge/version-1.0.0-blue)](https://GitHub.com/Sollimann/CleanIt/releases/)\n[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Sollimann/CleanIt/graphs/commit-activity)\n[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Sollimann/CleanIt.svg)](https://GitHub.com/Sollimann/CleanIt/pulls)\n[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/Sollimann/CleanIt.svg)](https://GitHub.com/Sollimann/CleanIt/pulls)\n![ViewCount](https://views.whatilearened.today/views/github/Sollimann/CleanIt.svg)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n<p align=\"center\">\n    <em>Logiciel d'autonomie open-source en Rust-lang avec gRPC pour les aspirateurs robots de la série Roomba</em>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://github.com/Sollimann/CleanIt/blob/main/resources/gifs/roomba.gif\">\n</p>\n\n## Motivation\n\nLa motivation est de construire un logiciel d'autonomie complet en DIY à partir de zéro (planification de mouvement, guidage et contrôle du mouvement, SLAM, contrôle de mission, visualisation 2D/3D, etc.) avec un flux de communication client-serveur en temps réel utilisant gRPC asynchrone pour l'intercommunication et le calcul distribué.\n\nLa partie SLAM est en cours de réalisation ici : https://github.com/Sollimann/Occupancy-Grid-FastSLAM/tree/main\n\n## Les contributions sont les bienvenues !\n\nSouhaitez-vous contribuer par du travail et/ou des idées ? N'hésitez pas à consulter le [Project Backlog](https://github.com/Sollimann/CleanIt/projects)\n\n## Exécuter le client Roomba et l'API\n\n#### Exécuter le serveur\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RiId6QXtoAw8OvmlERXdSIDpzLRgj6k+hlkK15hYbK4=",
+        "originContent": "<h1 align=\"center\">CleanIt</h1>",
+        "translatedContent": "<h1 align=\"center\">CleanIt</h1>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Dx+cDEEU2Dn/K8Jj3wRqss5ZaOUfaxnFNuS4tz/GV1A=",
+        "originContent": "[![Build Status](https://github.com/Sollimann/CleanIt/actions/workflows/rust-ci.yml/badge.svg)](https://github.com/Sollimann/CleanIt/actions)",
+        "translatedContent": "[![Build Status](https://github.com/Sollimann/CleanIt/actions/workflows/rust-ci.yml/badge.svg)](https://github.com/Sollimann/CleanIt/actions)"
+      },
+      {
+        "row": 4,
+        "rowsha": "PIrx+6ZZj8ZCUsttBo9wnN6kdEW3UUPVVOh7a/sXadc=",
+        "originContent": "[![codecov](https://codecov.io/gh/Sollimann/CleanIt/branch/main/graph/badge.svg?token=EY3JRZN71M)](https://codecov.io/gh/Sollimann/CleanIt)",
+        "translatedContent": "[![codecov](https://codecov.io/gh/Sollimann/CleanIt/branch/main/graph/badge.svg?token=EY3JRZN71M)](https://codecov.io/gh/Sollimann/CleanIt)"
+      },
+      {
+        "row": 5,
+        "rowsha": "VX2NwTB52syFsIZUfkgfJDOYMyuNoRd6/kpetNEoaow=",
+        "originContent": "[![minimum rustc 1.45](https://img.shields.io/badge/rustc-1.45+-blue.svg)](https://rust-lang.github.io/rfcs/2495-min-rust-version.html)",
+        "translatedContent": "[![minimum rustc 1.45](https://img.shields.io/badge/rustc-1.45+-blue.svg)](https://rust-lang.github.io/rfcs/2495-min-rust-version.html)"
+      },
+      {
+        "row": 6,
+        "rowsha": "Cx5fNDcfPx+K+cZ/dde+UoCxHp5Sh1V8OAXkm9e1Inw=",
+        "originContent": "[![version](https://img.shields.io/badge/version-1.0.0-blue)](https://GitHub.com/Sollimann/CleanIt/releases/)",
+        "translatedContent": "[![version](https://img.shields.io/badge/version-1.0.0-blue)](https://GitHub.com/Sollimann/CleanIt/releases/)"
+      },
+      {
+        "row": 7,
+        "rowsha": "zsZxIqsIY1hqNrscqW8eGMOfjh3n4irCD6ZIP9KKd4s=",
+        "originContent": "[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Sollimann/CleanIt/graphs/commit-activity)",
+        "translatedContent": "[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Sollimann/CleanIt/graphs/commit-activity)"
+      },
+      {
+        "row": 8,
+        "rowsha": "7DOQtkX9NrLSFfYt9cTDg9MIwKlTJGL7P7LbkguEBnQ=",
+        "originContent": "[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Sollimann/CleanIt.svg)](https://GitHub.com/Sollimann/CleanIt/pulls)",
+        "translatedContent": "[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Sollimann/CleanIt.svg)](https://GitHub.com/Sollimann/CleanIt/pulls)"
+      },
+      {
+        "row": 9,
+        "rowsha": "TJRy8DaSMZKnV7XPnk4mLfeVHCl5Nj0u/aUCg2KffxM=",
+        "originContent": "[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/Sollimann/CleanIt.svg)](https://GitHub.com/Sollimann/CleanIt/pulls)",
+        "translatedContent": "[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/Sollimann/CleanIt.svg)](https://GitHub.com/Sollimann/CleanIt/pulls)"
+      },
+      {
+        "row": 10,
+        "rowsha": "0w2OIU4QJv21EjL2ig11faoV1gSCpnYp88n6vwtNEgs=",
+        "originContent": "![ViewCount](https://views.whatilearened.today/views/github/Sollimann/CleanIt.svg)",
+        "translatedContent": "![ViewCount](https://views.whatilearened.today/views/github/Sollimann/CleanIt.svg)"
+      },
+      {
+        "row": 11,
+        "rowsha": "5l9EBMX+xpg3IKegexFP4++mEhzb3dzUumoGkJ5nThc=",
+        "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+        "translatedContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "Gs1yXs6FXLe7vxg64HLgCdtABgWhbz2m+oexUQVyvNw=",
+        "originContent": "    <em>Open-source Autonomy Software in Rust-lang with gRPC for the Roomba series robot vacuum cleaners</em>",
+        "translatedContent": "    <em>Logiciel d'autonomie open-source en Rust-lang avec gRPC pour les aspirateurs robots de la série Roomba</em>"
+      },
+      {
+        "row": 15,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 18,
+        "rowsha": "3Go5wiDB4uNsS5K9KsUU8Xq6QCJtXA+3ctg98PamwvQ=",
+        "originContent": "  <img src=\"https://github.com/Sollimann/CleanIt/blob/main/resources/gifs/roomba.gif\">",
+        "translatedContent": "  <img src=\"https://github.com/Sollimann/CleanIt/blob/main/resources/gifs/roomba.gif\">"
+      },
+      {
+        "row": 19,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "XkjmO8GZw+NPlqtsKIz94hXoCCSSximfmFKrLHYsZ2I=",
+        "originContent": "## Motivation",
+        "translatedContent": "## Motivation"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ZTR6mR3lyC2cYz6aiKU99ye3zoDS/itjV3Z/Y+RB5eU=",
+        "originContent": "Motivation is to build a complete DIY autonomy software from scratch (motion planning, guidance and motion control, SLAM, mission control, 2D/3D visualization etc..) with a real-time client-server communication stream using async gRPC for intercommunication and distributed compute.",
+        "translatedContent": "La motivation est de construire un logiciel d'autonomie complet en DIY à partir de zéro (planification de mouvement, guidage et contrôle du mouvement, SLAM, contrôle de mission, visualisation 2D/3D, etc.) avec un flux de communication client-serveur en temps réel utilisant gRPC asynchrone pour l'intercommunication et le calcul distribué."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "LZHx2i1wLyy2eIoPLahY3tAQQnhkj2QBHI07Pn69Gvk=",
+        "originContent": "The SLAM part is work-in-progress here: https://github.com/Sollimann/Occupancy-Grid-FastSLAM/tree/main",
+        "translatedContent": "La partie SLAM est en cours de réalisation ici : https://github.com/Sollimann/Occupancy-Grid-FastSLAM/tree/main"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "ipcly4vEt8qqH/hZUvD7CoPzZ27TpUHQGVIYHA9+FbQ=",
+        "originContent": "## Contributions are welcome!",
+        "translatedContent": "## Les contributions sont les bienvenues !"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "EnHPpTgO6XxMugvA+0Svi1QRxhn1mGTNqqnHYQxFjiU=",
+        "originContent": "Would you like to contribute with work and/or ideas, feel free to check out the [Project Backlog](https://github.com/Sollimann/CleanIt/projects)",
+        "translatedContent": "Souhaitez-vous contribuer par du travail et/ou des idées ? N'hésitez pas à consulter le [Project Backlog](https://github.com/Sollimann/CleanIt/projects)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "mtsCnvX6J38jJyeQisxj5AnEJEkkuZLEs39YgBY9oKM=",
+        "originContent": "## Run the Roomba client and API",
+        "translatedContent": "## Exécuter le client Roomba et l'API"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "pU38gKZS+KkLEhRZytrRY2UlFmnWAID/YjKpeVjPD4k=",
+        "originContent": "#### Run the server",
+        "translatedContent": "#### Exécuter le serveur"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n$ cargo run --bin streaming-server\n```",
+    "ContentSha": "PMmhBC7yB0lX/jIfyC3zEwFeryZVX38iJEWsXD2zHO4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n$ cargo run --bin streaming-server\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "uEZ1/Nf6kFLY67aJp9U8bAGj/i2kbIjenF7CDq7dPy8=",
+        "originContent": "$ cargo run --bin streaming-server",
+        "translatedContent": "$ cargo run --bin streaming-server"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n#### Run the client\n",
+    "ContentSha": "AvZ5TXomAQcSQ1dC/ceJ42ZOSI77G4s9X7tQrA7F+EU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### Exécuter le client\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Exécuter le client"
+      },
+      {
+        "row": 2,
+        "rowsha": "hBJIupvmZEiAQ4gAWhG7eXRI9YKiarzdzlGFaARoRGM=",
+        "originContent": "#### Run the client",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\n$ cargo run --bin roomba-client\n```",
+    "ContentSha": "kXdLgJ1F6S9LYNBxnzXlOBd/LH3oijjbaJE09mZaZPc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n$ cargo run --bin roomba-client\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "8m+ywWjifMC9DSCvidAdFyxZI9ofgwcqErn4I4FArck=",
+        "originContent": "$ cargo run --bin roomba-client",
+        "translatedContent": "$ cargo run --bin roomba-client"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Structure\n \n#### Project Layout",
+    "ContentSha": "9+Oyii27Jb0HJbZskP1z8rnpbbXinBtO16MxkGYd69M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Structure\n \n#### Organisation du projet",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "camRgop9QqIw21dUGKdOeescgAFqBk7HMtLEqPaisMY=",
+        "originContent": "## Structure",
+        "translatedContent": "## Structure"
+      },
+      {
+        "row": 3,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 4,
+        "rowsha": "Z5O7nJs+w+c7lkFrr/1pGok9c5PvjcEjFbReR/n0BEc=",
+        "originContent": "#### Project Layout",
+        "translatedContent": "#### Organisation du projet"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": " ```bash\n ├── Cargo.toml (workspace)\n ├── Cargo.lock\n ├── api (lib/bin)\n |   └── client\n |   └── server\n ├── autonomy (bin)\n |   └── mission\n |   └── motion\n |   └── slam\n |   └── perception\n |   └── risk\n ├── drivers (lib)\n |   └── roomba\n |   └── realsense\n |   └── rplidar\n |   └── raspberryPi\n └── proto (lib)\n |   └── roomba_service.proto\n |   └── messages.proto\n |   └── types.proto\n |   └── robot_state.proto\n |   └── map2D.proto\n ├── setup (bin)\n |   └── config\n |   └── main\n └── visualization (bin)\n |   └── urdf\n |   └── map\n |   └── camera\n ```",
+    "ContentSha": "7V0v+uVCXrfQ5q5yvsZwNLZ1/Ng0X2m/ha2q3aem3lc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " ```bash\n ├── Cargo.toml (workspace)\n ├── Cargo.lock\n ├── api (lib/bin)\n |   └── client\n |   └── server\n ├── autonomy (bin)\n |   └── mission\n |   └── motion\n |   └── slam\n |   └── perception\n |   └── risk\n ├── drivers (lib)\n |   └── roomba\n |   └── realsense\n |   └── rplidar\n |   └── raspberryPi\n └── proto (lib)\n |   └── roomba_service.proto\n |   └── messages.proto\n |   └── types.proto\n |   └── robot_state.proto\n |   └── map2D.proto\n ├── setup (bin)\n |   └── config\n |   └── main\n └── visualization (bin)\n |   └── urdf\n |   └── map\n |   └── camera\n ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+IHA+JL3CS3LVxzljvPVqaYuyLvmd7uR8NZG+Zp3zhk=",
+        "originContent": " ```bash",
+        "translatedContent": " ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "dKpVr41AP7H1Z5PYzY7x4yRppjDF1sZSuIbKSupDOQ0=",
+        "originContent": " ├── Cargo.toml (workspace)",
+        "translatedContent": " ├── Cargo.toml (workspace)"
+      },
+      {
+        "row": 3,
+        "rowsha": "vvyNnVZb5qVDhou9vVf6LkDPow3/hXusslIFN3fH/qU=",
+        "originContent": " ├── Cargo.lock",
+        "translatedContent": " ├── Cargo.lock"
+      },
+      {
+        "row": 4,
+        "rowsha": "94HIISlgaUWWBI5HwUqboM84fryyo6jubdagfrRiTW0=",
+        "originContent": " ├── api (lib/bin)",
+        "translatedContent": " ├── api (lib/bin)"
+      },
+      {
+        "row": 5,
+        "rowsha": "ahWuWz0sErPrq2JUWUOCE3bLEleh9bpTQK/8igKjt6U=",
+        "originContent": " |   └── client",
+        "translatedContent": " |   └── client"
+      },
+      {
+        "row": 6,
+        "rowsha": "KGWL7SsslM8icftGnVaCZYSKWx5I7ye+vHS5d8WxMnc=",
+        "originContent": " |   └── server",
+        "translatedContent": " |   └── server"
+      },
+      {
+        "row": 7,
+        "rowsha": "1L/4tqHNVBIKtDE4tH7LvKP4pdmSV4GrNogIDpB7xwg=",
+        "originContent": " ├── autonomy (bin)",
+        "translatedContent": " ├── autonomy (bin)"
+      },
+      {
+        "row": 8,
+        "rowsha": "wBTHV1cSYPdDh0PF8gDz0xjGHErokqwrAvCCpTv4uIo=",
+        "originContent": " |   └── mission",
+        "translatedContent": " |   └── mission"
+      },
+      {
+        "row": 9,
+        "rowsha": "8Td/n6t4dtekGRC0gnTqJFJ1PrxXQCDj9pPOknTer7E=",
+        "originContent": " |   └── motion",
+        "translatedContent": " |   └── motion"
+      },
+      {
+        "row": 10,
+        "rowsha": "fsyLrs1rZB+byeS+SziZlLbrQ3oIxgtm68Pg3V0N+g0=",
+        "originContent": " |   └── slam",
+        "translatedContent": " |   └── slam"
+      },
+      {
+        "row": 11,
+        "rowsha": "7UjX8TNxIxa4jDp+lqICgr/QRvZSXTf2TVa/20rGD+Q=",
+        "originContent": " |   └── perception",
+        "translatedContent": " |   └── perception"
+      },
+      {
+        "row": 12,
+        "rowsha": "ka5pJ1CDKluTPK1Z0GEYy4j/iOqCoNy8ox9YBqLX3Zk=",
+        "originContent": " |   └── risk",
+        "translatedContent": " |   └── risk"
+      },
+      {
+        "row": 13,
+        "rowsha": "xG0CnZYGMW1nfx/Wqywylc0953IPZpZL8J0Zeaniroc=",
+        "originContent": " ├── drivers (lib)",
+        "translatedContent": " ├── drivers (lib)"
+      },
+      {
+        "row": 14,
+        "rowsha": "Trgir/8Cg9CUXakHphL5yofPHAdU9GD1mDx9EFtoiQQ=",
+        "originContent": " |   └── roomba",
+        "translatedContent": " |   └── roomba"
+      },
+      {
+        "row": 15,
+        "rowsha": "U41eyPaQzVxnb79MgCixq9UjTI7UZ3jtZ7jiYeHhiGE=",
+        "originContent": " |   └── realsense",
+        "translatedContent": " |   └── realsense"
+      },
+      {
+        "row": 16,
+        "rowsha": "sFM6qt0WcgpwbiFRVFMhhhcL6wMTSkFkcQ5LHtNLVSQ=",
+        "originContent": " |   └── rplidar",
+        "translatedContent": " |   └── rplidar"
+      },
+      {
+        "row": 17,
+        "rowsha": "i/JJ1LvPNqU7f7Zp32P3cm1mX9YrhM9qYzOZ8srbXWg=",
+        "originContent": " |   └── raspberryPi",
+        "translatedContent": " |   └── raspberryPi"
+      },
+      {
+        "row": 18,
+        "rowsha": "PgCjf7emyyM/M1frMWlLOvvU0QoJUXxAyIiUUMADlbs=",
+        "originContent": " └── proto (lib)",
+        "translatedContent": " └── proto (lib)"
+      },
+      {
+        "row": 19,
+        "rowsha": "o9Rp1yDFxYhCJOOpZrUq6WAHf/aQMMoeai3cHbZQ2l0=",
+        "originContent": " |   └── roomba_service.proto",
+        "translatedContent": " |   └── roomba_service.proto"
+      },
+      {
+        "row": 20,
+        "rowsha": "wnRK/hd3s92ZPTfyfK8ugC6+cCqb9J8kveKJb8+3W4o=",
+        "originContent": " |   └── messages.proto",
+        "translatedContent": " |   └── messages.proto"
+      },
+      {
+        "row": 21,
+        "rowsha": "YBD8jFd0xPT16XDepOwdTtaD8rfwiy/EoS3V2nu/72M=",
+        "originContent": " |   └── types.proto",
+        "translatedContent": " |   └── types.proto"
+      },
+      {
+        "row": 22,
+        "rowsha": "s59K7mkSXwrNzUmyFwyMI2YGZxDkuobFaE6NSlEMjco=",
+        "originContent": " |   └── robot_state.proto",
+        "translatedContent": " |   └── robot_state.proto"
+      },
+      {
+        "row": 23,
+        "rowsha": "kOIgTqiGUmB5cxWN20Ys75LwplCBkp7s2DGVHPZU5vs=",
+        "originContent": " |   └── map2D.proto",
+        "translatedContent": " |   └── map2D.proto"
+      },
+      {
+        "row": 24,
+        "rowsha": "qsHPpNmXzZC39zGyEVqVuWePrXJVGflJsCb2G7fWAxA=",
+        "originContent": " ├── setup (bin)",
+        "translatedContent": " ├── setup (bin)"
+      },
+      {
+        "row": 25,
+        "rowsha": "XDN1y71srG+xRRdYpec/A2F9SCo5vW+8h3Ru3mQzSQo=",
+        "originContent": " |   └── config",
+        "translatedContent": " |   └── config"
+      },
+      {
+        "row": 26,
+        "rowsha": "1si4VbN51QwpT/Bm1Iykw7TVM46fcvB2fuHQz5NSowg=",
+        "originContent": " |   └── main",
+        "translatedContent": " |   └── main"
+      },
+      {
+        "row": 27,
+        "rowsha": "fGzyn5iYPhN/fxgj2ayoBHE2U9v+RXSrJPmoFiiZO2E=",
+        "originContent": " └── visualization (bin)",
+        "translatedContent": " └── visualization (bin)"
+      },
+      {
+        "row": 28,
+        "rowsha": "ta75XxtaFMb6+dwWxBiMr1dYgIh4jUvcCLbLOvqawFY=",
+        "originContent": " |   └── urdf",
+        "translatedContent": " |   └── urdf"
+      },
+      {
+        "row": 29,
+        "rowsha": "yRZaO5p+E93j7uGARrTfT2mopzc/opgOGByVJc+jPl0=",
+        "originContent": " |   └── map",
+        "translatedContent": " |   └── map"
+      },
+      {
+        "row": 30,
+        "rowsha": "Njbeh4BlPlsADOygCf3jXQU4zqo1RTmQeEXSQEnw7pE=",
+        "originContent": " |   └── camera",
+        "translatedContent": " |   └── camera"
+      },
+      {
+        "row": 31,
+        "rowsha": "+yeshfat/UFFBR11hhUjUnHZG4lqIMvFysnt0D6FJwQ=",
+        "originContent": " ```",
+        "translatedContent": " ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": " \n#### Crate/package Layout",
+    "ContentSha": "YW7XGMrj4uZg8N8axErq0I5KoHyA8f58DvtkeqhE7Ns=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " \n#### Disposition de la caisse/du paquet",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 2,
+        "rowsha": "VIKp7RZuKbLO5hQ2wguFVNIZ+kkMddpZGrlRCNqQRBc=",
+        "originContent": "#### Crate/package Layout",
+        "translatedContent": "#### Disposition de la caisse/du paquet"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n├── Cargo.toml\n├── Cargo.lock\n├── src\n│   ├── main.rs\n│   ├── lib.rs\n│   └── bin\n│       └── another_executable.rs\n├── tests\n│   └── some_integration_tests.rs\n├── benches\n│   └── simple_bench.rs\n└── examples\n    └── simple_example.rs\n```",
+    "ContentSha": "kRh+nXD5kezrMOKOgFdGeNBNseEWOWFXMGRYfVGiKY0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n├── Cargo.toml\n├── Cargo.lock\n├── src\n│   ├── main.rs\n│   ├── lib.rs\n│   └── bin\n│       └── another_executable.rs\n├── tests\n│   └── some_integration_tests.rs\n├── benches\n│   └── simple_bench.rs\n└── examples\n    └── simple_example.rs\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "vW+59c6rLb7eNd4Gcda8db+5Z6uCmUB2IxBfH/Fw6wE=",
+        "originContent": "├── Cargo.toml",
+        "translatedContent": "├── Cargo.toml"
+      },
+      {
+        "row": 3,
+        "rowsha": "SalN2gOeHJXzTIM6lujrGrKkx4ok2+gYd1iYoev7pDo=",
+        "originContent": "├── Cargo.lock",
+        "translatedContent": "├── Cargo.lock"
+      },
+      {
+        "row": 4,
+        "rowsha": "kOUjL8oqfhfrtmyYLrnGFUmLSc+AFCzD/I5+qQ1r8KY=",
+        "originContent": "├── src",
+        "translatedContent": "├── src"
+      },
+      {
+        "row": 5,
+        "rowsha": "UeO1ONkVl4z/oAf+Lq/B0gRzUjPdGTrYGnA2dXaA2vE=",
+        "originContent": "│   ├── main.rs",
+        "translatedContent": "│   ├── main.rs"
+      },
+      {
+        "row": 6,
+        "rowsha": "PZOBHTTo3yxbeVw1xBwTUst0pC/8z7l60foTEgRKN8o=",
+        "originContent": "│   ├── lib.rs",
+        "translatedContent": "│   ├── lib.rs"
+      },
+      {
+        "row": 7,
+        "rowsha": "4sTXYcybmvdE9+gRZx9F2XscyNJKIPREty3N1BCwYzM=",
+        "originContent": "│   └── bin",
+        "translatedContent": "│   └── bin"
+      },
+      {
+        "row": 8,
+        "rowsha": "eyHWTzKpVuoD1buYVdoZIHOGAL43FWm/ijeEQLbmdig=",
+        "originContent": "│       └── another_executable.rs",
+        "translatedContent": "│       └── another_executable.rs"
+      },
+      {
+        "row": 9,
+        "rowsha": "NVq0zVGApZFSD1zSogBD+KvTdnIs/mwa8a3+ejdUzoI=",
+        "originContent": "├── tests",
+        "translatedContent": "├── tests"
+      },
+      {
+        "row": 10,
+        "rowsha": "+cmDJOvxy/Qi6H5QH4F6HKZxvFto+ofKU8cfatcD6lQ=",
+        "originContent": "│   └── some_integration_tests.rs",
+        "translatedContent": "│   └── some_integration_tests.rs"
+      },
+      {
+        "row": 11,
+        "rowsha": "Dzj/iyA1sJC/Owj0Q/IpCBW1zbhrz++sVxgLV+LvDDA=",
+        "originContent": "├── benches",
+        "translatedContent": "├── benches"
+      },
+      {
+        "row": 12,
+        "rowsha": "/i5LvrQjnJeTdbrM+oqhSKQYdznbHI6OS8aPXRKHPfU=",
+        "originContent": "│   └── simple_bench.rs",
+        "translatedContent": "│   └── simple_bench.rs"
+      },
+      {
+        "row": 13,
+        "rowsha": "I6mCbIZs4qmuI7E4YreQMsYm4GJ6n+HQRjNb9Wsixhw=",
+        "originContent": "└── examples",
+        "translatedContent": "└── examples"
+      },
+      {
+        "row": 14,
+        "rowsha": "ul2ask8pgbE2vmNSbn4YSomQH5GeqBOkx9hLT5xuwMQ=",
+        "originContent": "    └── simple_example.rs",
+        "translatedContent": "    └── simple_example.rs"
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Pre-requisites\n\n### *Software*\n\n#### _Linux_",
+    "ContentSha": "bYidq61n4SLnWQC/LaTOGQlh5FWDHPM2PdiMCKGvn3o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Prérequis\n\n### *Logiciel*\n\n#### _Linux_",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "YRdi2LVl+Q2NRNOXs/FRXLhWlB7PHXWEgAF+yxSiJBA=",
+        "originContent": "## Pre-requisites",
+        "translatedContent": "## Prérequis"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "sbOF1Ex2HArHEAndj95734HoLDXKTSPKkia6HPmOlYs=",
+        "originContent": "### *Software*",
+        "translatedContent": "### *Logiciel*"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "XWDxFqmJxTWMxbm52lxw5upYLNLaLNGUjp8Kxpt0Dxk=",
+        "originContent": "#### _Linux_",
+        "translatedContent": "#### _Linux_"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n$ [sudo] apt-get install libudev-dev pkg-config\n```",
+    "ContentSha": "T63OyK4bXxIsSWLnQzAylWJdTsyWkgkxwIeeaf5QQ3M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ [sudo] apt-get install libudev-dev pkg-config\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "J/jH4eKwCc6e+O5QQnVLUBbblbkIVA5xrqqyJXn4Ptw=",
+        "originContent": "$ [sudo] apt-get install libudev-dev pkg-config",
+        "translatedContent": "$ [sudo] apt-get install libudev-dev pkg-config"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nUser serial permission is required to connect to Create over serial. You can add your user to the dialout group to get permission:\n",
+    "ContentSha": "Wo4e3X1ssdH4GRGGU35NGH7wUl4v6IseznbCWUGHjus=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nLa permission d’utilisateur série est requise pour se connecter à Create via le port série. Vous pouvez ajouter votre utilisateur au groupe dialout pour obtenir cette permission :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "81u83fQ37yxCn76umhlCcDCyY8pGCH2LwN1oi0YdpAU=",
+        "originContent": "User serial permission is required to connect to Create over serial. You can add your user to the dialout group to get permission:",
+        "translatedContent": "La permission d’utilisateur série est requise pour se connecter à Create via le port série. Vous pouvez ajouter votre utilisateur au groupe dialout pour obtenir cette permission :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\n$ [sudo] usermod -a -G dialout $USER\n```",
+    "ContentSha": "HvRNgspB/izOp1TdF38DVzp5tdjzw1xPji6ataoueTI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ [sudo] usermod -a -G dialout $USER\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "kXlU4t3XMnHmjs03pke2+IMBI72pN2Yzfu1GYT4XVno=",
+        "originContent": "$ [sudo] usermod -a -G dialout $USER",
+        "translatedContent": "$ [sudo] usermod -a -G dialout $USER"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nLogout and login again for this to take effect.\n##### _MacOs_",
+    "ContentSha": "BU8Aiewn5dTbLPbjsYZv9T2lZDmyWEcO7JBCwnS6i9M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nDéconnectez-vous puis reconnectez-vous pour que cela prenne effet.\n##### _MacOs_",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Hbs359K5Je7I/AQMSldpJiyFG8QpQEwUNGZkcuXmc50=",
+        "originContent": "Logout and login again for this to take effect.",
+        "translatedContent": "Déconnectez-vous puis reconnectez-vous pour que cela prenne effet."
+      },
+      {
+        "row": 3,
+        "rowsha": "5BXxjAUy4t3mYHyaRXqGK8lQv+Xkp28o5zdBZkbHFvU=",
+        "originContent": "##### _MacOs_",
+        "translatedContent": "##### _MacOs_"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\n$ brew install *TODO*\n```",
+    "ContentSha": "34ULVQggjMgBGqoTYtIgyxAGDdpV//vOm2AtnIztXII=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n$ brew install *TODO*\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "hW24ypCQWURWGozXsJVJA2DRXvj48bknbGQkGIGrZ+A=",
+        "originContent": "$ brew install *TODO*",
+        "translatedContent": "$ brew install *TODO*"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### *Hardware*\n - iRobot Create 2 (or iRobot Roomba 6xx series with serial USB cable - https://store.irobot.com/en_US/parts-and-accessories/create-accessories/communication-cable-for-create-2/4466502.html )\n - Raspberry Pi 4 (4GB)\n - Intel RealSense D435 or D435i depth camera\n \n",
+    "ContentSha": "x7iMF8Tk0BT3SQ3rRu/FF13oYq/8rufp6iZuVBBv84g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### *Matériel*\n - iRobot Create 2 (ou iRobot Roomba série 6xx avec câble USB série - https://store.irobot.com/en_US/parts-and-accessories/create-accessories/communication-cable-for-create-2/4466502.html )\n - Raspberry Pi 4 (4 Go)\n - Caméra de profondeur Intel RealSense D435 ou D435i\n \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "lCrJ0W0VQkMpRinbmhaydi/Ag5XUet9+YMGVczlq+DI=",
+        "originContent": "### *Hardware*",
+        "translatedContent": "### *Matériel*"
+      },
+      {
+        "row": 3,
+        "rowsha": "r9Y8Gz3aTCJh4NpWfHB8N3zYfxI1AtBqwvFjTJ6xJpw=",
+        "originContent": " - iRobot Create 2 (or iRobot Roomba 6xx series with serial USB cable - https://store.irobot.com/en_US/parts-and-accessories/create-accessories/communication-cable-for-create-2/4466502.html )",
+        "translatedContent": " - iRobot Create 2 (ou iRobot Roomba série 6xx avec câble USB série - https://store.irobot.com/en_US/parts-and-accessories/create-accessories/communication-cable-for-create-2/4466502.html )"
+      },
+      {
+        "row": 4,
+        "rowsha": "DkYzjHJcUzqWaAI93ewobjd3iYRLbj6s3G8au/UR0cU=",
+        "originContent": " - Raspberry Pi 4 (4GB)",
+        "translatedContent": " - Raspberry Pi 4 (4 Go)"
+      },
+      {
+        "row": 5,
+        "rowsha": "ypYx4dqb1DFwu+WqqQIBMgBIgk//DM3eEGXj5lgU/yI=",
+        "originContent": " - Intel RealSense D435 or D435i depth camera",
+        "translatedContent": " - Caméra de profondeur Intel RealSense D435 ou D435i"
+      },
+      {
+        "row": 6,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,608 @@
+[
+  {
+    "row": 1,
+    "rowsha": "3DO3AgGc/7viU5YyZpB8RiuVjziHlZIfcP5Lp2dNfvE=",
+    "originContent": "# Chocolatey-for-wine",
+    "translatedContent": "# Chocolatey-for-wine"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "ZZpMsWh4U0ug7aZIqfyoFj+6VyBtZYNi6gF9rLJ9Q9c=",
+    "originContent": "Chocolatey packagemanager automatic installer in wine, handy to install quickly programs in wine (and subsequently find bugs in wine ;) )  ",
+    "translatedContent": "Installateur automatique du gestionnaire de paquets Chocolatey dans wine, pratique pour installer rapidement des programmes dans wine (et par la suite trouver des bugs dans wine ;) )  "
+  },
+  {
+    "row": 4,
+    "rowsha": "HmQhP2mubqzu0sEMutQKvyANyIPnhjLRLJKJ4jH0AUI=",
+    "originContent": "For some bugs workarounds are added like for Visual Studio Community 2022 and nodejs, see further on.  ",
+    "translatedContent": "Pour certains bugs, des contournements sont ajoutés comme pour Visual Studio Community 2022 et nodejs, voir plus loin.  "
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "suaJJS06wCeVL/bqMSCMZGJ+ZkBdwYXCGaxx/ONW4xs=",
+    "originContent": "As I was bored during lock-down I wrote a custom winetricks(.ps1) with verbs I find handy. Just do 'winetricks' to see them.",
+    "translatedContent": "Comme je m'ennuyais pendant le confinement, j'ai écrit un winetricks(.ps1) personnalisé avec des verbes que je trouve pratiques. Faites simplement 'winetricks' pour les voir.  "
+  },
+  {
+    "row": 7,
+    "rowsha": "57Ya1iSz9N007imgkIO1rwcf9BnK5V6pz4wbacs2RRk=",
+    "originContent": "For some verbs a full restart of wine is needed (due to recent wine changes). You'll see a messagebox and the session will be ended. Just start powershell again and retry the verb. If this is done once, it won't be needed anymore for any verb.  ",
+    "translatedContent": "Pour certains verbes, un redémarrage complet de wine est nécessaire (à cause des récents changements de wine). Vous verrez une boîte de message et la session sera terminée. Il suffit de relancer powershell et de réessayer le verbe. Une fois cela fait une fois, ce ne sera plus nécessaire pour aucun verbe.  "
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "317dAzH70mcDLpmGCVvQrk7QSeW0Mv6je5W24CCREvY=",
+    "originContent": "Example:  ",
+    "translatedContent": "Exemple :  "
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "vKOcYblFejE+tzpbJhnYBh8tsviHNyKFwiwPJm2ah9w=",
+    "originContent": "'winetricks vs22_interactiveinstaller'  ( --> session will be ended)  ",
+    "translatedContent": "'winetricks vs22_interactiveinstaller'  ( --> la session sera terminée)  "
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "dvwLn74YfFYnNdC4Qvm87q+o2osnAZTDp7KzgkCckOw=",
+    "originContent": "do 'wine powershell'  ",
+    "translatedContent": "faire 'wine powershell'  "
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "vJFYgib35Ed9Wfh9SRXAqrg18G4d+0q0l0feK7J3a8U=",
+    "originContent": "do 'winetricks vs22_interactiveinstaller'  ",
+    "translatedContent": "faire 'winetricks vs22_interactiveinstaller'  "
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "HUyWIWSDvlBJ0Dx7R4Mr7aHitFyibAFuN63bPOvXLr4=",
+    "originContent": "(BTW via 'winetricks vs22_interactive_installer' you can install select what to install via the Visual Studio 2022 installer; 'winetricks vs22_interactive_installer' now got me in ten minutes into the main program (selected Desktop development with C++)).",
+    "translatedContent": "(PS via 'winetricks vs22_interactive_installer' vous pouvez sélectionner ce que vous voulez installer via l'installateur Visual Studio 2022 ; 'winetricks vs22_interactive_installer' m'a maintenant permis en dix minutes d'accéder au programme principal (sélectionné Développement de bureau avec C++))."
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "Z9ZZH77tvDxIv8EqM4zxw2cpbF8JXiGYSLut630Ufcc=",
+    "originContent": "Install :",
+    "translatedContent": "Installation :  "
+  },
+  {
+    "row": 21,
+    "rowsha": "7Zf6xBWSLaZ+RdtbCRLzQbRtEFKQ+I4VPfd8JFpAbvA=",
+    "originContent": "- Download and unzip the release zip-file and do 'wine ChoCinstaller_0.5c.751.exe' (takes about a minute to complete)",
+    "translatedContent": "- Télécharger et dézipper le fichier zip de la release et faire 'wine ChoCinstaller_0.5c.751.exe' (prend environ une minute pour se terminer)"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "pzkN3t2OiV/NFLpzJbe0AIzWE9SSTfpL3XU1WTj/TXg=",
+    "originContent": "Optional:",
+    "translatedContent": "Optionnel :  "
+  },
+  {
+    "row": 24,
+    "rowsha": "3OCTRr6zjDTWHQPcr6pFJvWqySU0lGA5cxSRP5pqsX0=",
+    "originContent": "- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /s' , then the install files (like Powershell*.msi and dotnet48) are saved in ",
+    "translatedContent": "- Lancer l'installateur comme 'wine ChoCinstaller_0.5a.751.exe /s', alors les fichiers d'installation (comme Powershell*.msi et dotnet48) sont sauvegardés dans  "
+  },
+  {
+    "row": 25,
+    "rowsha": "4/pY48xjSSQP/qKw+XQRN2pZWbjT4bjgEwMyCxaQglU=",
+    "originContent": "  MyDocuments and they don't need to be downloaded again if you create a new prefix)",
+    "translatedContent": "  MesDocuments et ils n'ont pas besoin d'être retéléchargés si vous créez un nouveau préfixe)  "
+  },
+  {
+    "row": 26,
+    "rowsha": "pzkN3t2OiV/NFLpzJbe0AIzWE9SSTfpL3XU1WTj/TXg=",
+    "originContent": "Optional:",
+    "translatedContent": "Optionnel :  "
+  },
+  {
+    "row": 27,
+    "rowsha": "Q4p+X+UxSvaFtBejf2OXRjz4NC6GXA8xznY5pN+udu8=",
+    "originContent": "- Run the installer like 'wine ChoCinstaller_0.5a.751.exe /q' to prevent the automatic launch of the powershell window (so install only). ",
+    "translatedContent": "- Lancer l'installateur comme 'wine ChoCinstaller_0.5a.751.exe /q' pour empêcher le lancement automatique de la fenêtre powershell (installation seule).  "
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "pzkN3t2OiV/NFLpzJbe0AIzWE9SSTfpL3XU1WTj/TXg=",
+    "originContent": "Optional:",
+    "translatedContent": "Optionnel :  "
+  },
+  {
+    "row": 30,
+    "rowsha": "pEUB9eVHFMi06lo5vBNeIMaKUiCJLFlremREa8E8Y9Y=",
+    "originContent": "- Check if things went well: \"choco install chromium\" and  \"start chrome.exe (--no-sandbox not needed anymore as of wine-8,4)\" ",
+    "translatedContent": "- Vérifiez si tout s'est bien passé : \"choco install chromium\" et  \"start chrome.exe (--no-sandbox plus nécessaire depuis wine-8.4)\"  "
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "r7kWvuGGp11mJ2Y5CZN7dz6hlHICUCwj4uc9PUyeFck=",
+    "originContent": "![Screenshot from 2022-08-26 12-31-18](https://user-images.githubusercontent.com/26839562/186885380-d5a617c4-9cf4-4831-a475-2bd85a3b5784.png)",
+    "translatedContent": "![Screenshot from 2022-08-26 12-31-18](https://user-images.githubusercontent.com/26839562/186885380-d5a617c4-9cf4-4831-a475-2bd85a3b5784.png)  "
+  },
+  {
+    "row": 33,
+    "rowsha": "Hu7Ox+KIYmJkdOdy382F6V6U6dY/5lceJCAovjvhBY4=",
+    "originContent": "About PowerShell:",
+    "translatedContent": "À propos de PowerShell :  "
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "0Pg/bqe5GRwGho6kAf4ZZuCSBdT2xTuLuk5w3V5hX3w=",
+    "originContent": "Tip: Chocolatey usually installs the latest version of a program, which might reveal new wine bugs. You might have more luck with an older version of the software.  ",
+    "translatedContent": "Astuce : Chocolatey installe généralement la dernière version d’un programme, ce qui peut révéler de nouveaux bugs dans wine. Vous aurez peut-être plus de chance avec une version plus ancienne du logiciel.  "
+  },
+  {
+    "row": 36,
+    "rowsha": "317dAzH70mcDLpmGCVvQrk7QSeW0Mv6je5W24CCREvY=",
+    "originContent": "Example:  ",
+    "translatedContent": "Exemple :  "
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "Uzg0JqlGRbbnTR0pTBsncogLZLpEjQ7hbA5vfSx4ong=",
+    "originContent": "choco search --exact microsoft-edge --all (--> list all versions)  ",
+    "translatedContent": "choco search --exact microsoft-edge --all (--> liste toutes les versions)  "
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "NpDiyDEngnRXJQ8JuzNfwsosZTnGPSrdMgto2Y3fHwM=",
+    "originContent": "choco install microsoft-edge --version --version='135.0.3179.98'",
+    "translatedContent": "choco install microsoft-edge --version --version='135.0.3179.98'"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Informations générales :"
+  },
+  {
+    "row": 42,
+    "rowsha": "d33BvMy+zUA5eUhqxOBXIKa70Ry9w1Kk1WI6qS/X/e0=",
+    "originContent": "General info:",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 'wine powershell.exe' lance la console PowerShell-Core."
+  },
+  {
+    "row": 44,
+    "rowsha": "oFrbfR5KazIwiY6U/dM3ECk7mhpQcJPGdLC8EAqwVoc=",
+    "originContent": "- 'wine powershell.exe' starts the PowerShell-Core console.",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": " "
+  },
+  {
+    "row": 46,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": "À propos de ConEmu :"
+  },
+  {
+    "row": 47,
+    "rowsha": "scRMOdfWvTR/lP/mxXpLdFR9iwT4PSafwe1Yq9eGunA=",
+    "originContent": "About ConEmu:",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "La console ConEmu souffre de quelques bugs liés à wine :"
+  },
+  {
+    "row": 49,
+    "rowsha": "pOHTkmefPrTIBn92LHUJ+n4QVbH22ucmZm1HA51GVqs=",
+    "originContent": "ConEmu console suffers from a few wine-bugs:",
+    "translatedContent": "  - Ctrl^C pour quitter un programme qui ne revient pas à la console ne fonctionne pas. Utilisez plutôt Shift^Ctrl^C."
+  },
+  {
+    "row": 50,
+    "rowsha": "emNd9jplfyykX6bOKsrpBSR6R8nsd6oxvvpdbzOsuEY=",
+    "originContent": "  - Ctrl^C to quit a program that doesn't return to the console doesn`t work. Use Shift^Ctrl^C instead.",
+    "translatedContent": "  - La sélection de texte dans la fenêtre ConEmu (pour copier/coller) ne met pas en surbrillance la sélection. Un hack très triste est inclus contre les versions récentes de wine qui contourne ce problème, donc la mise en surbrillance devrait maintenant fonctionner."
+  },
+  {
+    "row": 51,
+    "rowsha": "1eRABPi6RrHIUmNu/busOAWf6I3B9ElXqWS7Nf+So8Y=",
+    "originContent": "  - Selecting text in the ConEmu window (for copy/paste) doesn't highlight the selection. Included is a very sad hack       against recent wine versions that works around this, so highlighting should just work now.",
+    "translatedContent": "   "
+  },
+  {
+    "row": 52,
+    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+    "originContent": "   ",
+    "translatedContent": "À propos de winetricks(.ps1) :"
+  },
+  {
+    "row": 53,
+    "rowsha": "jKTm8HK7CuMmIxkEAV2N3sWNQXoMpg4VPFhNseSho38=",
+    "originContent": "About winetricks(.ps1):",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Si vous ne l'appelez pas ('winetricks' dans la console powershell), rien n'est téléchargé, donc aucun surcoût."
+  },
+  {
+    "row": 55,
+    "rowsha": "SuoF1/zyLLyHOCUdB6QQPYyDAnPT7D2hyVtuf9St4F8=",
+    "originContent": "- If you don't call it ('winetricks' in powershell-console) , nothing gets downloaded so no overhead there. ",
+    "translatedContent": "- Beaucoup de verbes (comme powershell 5.1) nécessitent quelques fichiers essentiels pour extraire des éléments des paquets msu. Installer ces fichiers essentiels requiert d'abord des téléchargements volumineux, et prend beaucoup de temps lors de la première utilisation. Mais après mise en cache, cela va vite. Par exemple, si vous voulez essayer 'winetricks ps51' en premier, cela prendra environ 15 minutes. Certains autres verbes peuvent prendre 5 minutes lors de la première utilisation. Mais après avoir appelé un verbe une fois, cette nuisance disparaît."
+  },
+  {
+    "row": 56,
+    "rowsha": "FOgn1DI/omJCVS0D5c+SjZx0ErEg33wmo+6LiRdY038=",
+    "originContent": "- A lot of verbs (like powershell 5.1) need a few essential files to extract stuff from msu packages. Installing these essential files requires first huge downloads , and  takes lots of time during 1st time usage. But after things are cached it goes quickly . For example if you might wanna try 'winetricks ps51' first, it will take about  approx. 15 minutes. Some other verbs might take 5 minutes on first time usage. But after you called a verb once this nuisance is gone.",
+    "translatedContent": "- Les fichiers sont mis en cache dans le répertoire MesDocuments. Si vous appelez tous les verbes, cela prendra environ 800 Mo là-bas."
+  },
+  {
+    "row": 57,
+    "rowsha": "pePS2Y6apX6sdrqccqUdcmrKoNFdbRUA1jt71DmqABA=",
+    "originContent": "- Files are cached in directory MyDocuments. If you call all verbs it'll take about 800 MB there.",
+    "translatedContent": "- Espoir d'un meilleur support 64 bits pour divers verbes."
+  },
+  {
+    "row": 58,
+    "rowsha": "5EdrfgDlSS0bMYok4MfpaRMESce2QJdWLdoDAr0IQRc=",
+    "originContent": "- Hopefully some better 64-bit support for various verbs.",
+    "translatedContent": "- Possibilité d'extraire un fichier et (essayer de) l'installer à partir d'un fichier msu. Faites 'winetricks install_dll_from_msu' pour voir comment."
+  },
+  {
+    "row": 59,
+    "rowsha": "8xL5CBh7tpsWMvHSxKvr/uStzw7Fq1OQPbre5TCIhmI=",
+    "originContent": "- Possibility to extract a file and (try) install from an msu file. Do 'winetricks install_dll_from_msu' to see how.",
+    "translatedContent": "- Un Powershell 5.1 rudimentaire."
+  },
+  {
+    "row": 60,
+    "rowsha": "e7tFqlQS8dviVpmZahz37Xs0qKA2vzHY6AuamdSPWs0=",
+    "originContent": "- A rudimentary Powershell 5.1.",
+    "translatedContent": "- Installation expérimentale de dotnet481, et dotnet35 (peut être nécessaire pour des applications non satisfaites par l'installation actuelle de dotnet48)."
+  },
+  {
+    "row": 61,
+    "rowsha": "Xi0aCeZCFR+HRrLITmAO79Jf0MslCpo+9B8NYJtKaeQ=",
+    "originContent": "- experimental dotnet481 installation, and dotnet35 (might be needed by apps not satisfied with current dotnet48 installation).",
+    "translatedContent": "- Auto-complétion par tabulation. Note : lors de l'utilisation de plusieurs verbes en ligne de commande, ils doivent être séparés par une virgule"
+  },
+  {
+    "row": 62,
+    "rowsha": "K8JPbBa0aEWrIb0E0pPYAB3h8JobjeDY8NMmDMWOd8A=",
+    "originContent": "- Autotab-completion. Note: while using multiple verbs from command line they have to be seperated by a comma",
+    "translatedContent": "  désormais (c'est ainsi que powershell gère plusieurs arguments)."
+  },
+  {
+    "row": 63,
+    "rowsha": "LPfC6Jvm0Yz8svGYIlu3Tz+GpMiZbAJHhm7LdPU99OY=",
+    "originContent": "  from now on (this is how powershell handles multiple arguments)",
+    "translatedContent": "  Donc 'winetricks riched20 gdiplus' ne fonctionne plus, utilisez 'winetricks riched20,gdiplus' à la place."
+  },
+  {
+    "row": 64,
+    "rowsha": "yeDARbOHvC4aG+OfECvDNPBNUeNDLO2ZyTUfLxsf9M8=",
+    "originContent": "  So 'winetricks riched20 gdiplus' won't work anymore, use 'winetricks riched20,gdiplus' instead",
+    "translatedContent": "- Certains programmes échouent à s'installer/s'exécuter lorsqu'on les essaie via Chocolatey à cause de bugs de wine. J'ai ajouté quelques contournements dans winetricks pour eux, voir ci-dessous."
+  },
+  {
+    "row": 65,
+    "rowsha": "ZyDlvUh2QFRgpgGsMSfpgjnrf7x/X7zEajpdjoFNmj8=",
+    "originContent": "- Some programs fail to install/run when you try them via Chocolatey due to wine-bugs. I added a few workarounds in winetricks for them, see below.",
+    "translatedContent": "- Verbes spéciaux (winetricks vs19, vs22 et vs22_interactive_installer) pour installer Visual Studio Community 2019 et 2022 fonctionnels (voir capture d'écran, >10 min pour installer et nécessite environ 10 Go !, après installation, lancez devenv.exe depuis le répertoire c:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE/)"
+  },
+  {
+    "row": 66,
+    "rowsha": "3yqV0UCH4PE/6jtvnu1BtESS55VwyTxlAcACx7B8DGU=",
+    "originContent": "- Special verbs (winetricks vs19, vs22 and vs22_interactive_installer) to install working Visual Studio Community 2019 and 2022 (see screenshot, >10 mins to install and requires approx. 10GB!, after install start devenv.exe from directory c:\\Program\\ Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE/)",
+    "translatedContent": "  ![capture d'écran](https://github.com/PietJankbal/Chocolatey-for-wine/assets/26839562/d576a619-c752-4eb1-81c2-6f6b66b50ff6)"
+  },
+  {
+    "row": 67,
+    "rowsha": "qtXiMEWtstctuQQAgLop9nJADZmd25ae7W40w7ApUh8=",
+    "originContent": "  ![screenshot](https://github.com/PietJankbal/Chocolatey-for-wine/assets/26839562/d576a619-c752-4eb1-81c2-6f6b66b50ff6)",
+    "translatedContent": "- Verbe spécial pour accéder à diverses commandes unix comme grep, sed, file, less, curl etc. etc. (winetricks git.portable, avertissement : certaines commandes ne fonctionnent pas encore à cause de bugs wine)"
+  },
+  {
+    "row": 68,
+    "rowsha": "/GjD8saONTMtC2tlH4cX0mwjjv7ftsxgLTKSL2O9K3k=",
+    "originContent": "- Special verb to get access to various unix commands like grep,sed, file, less, curl etc. etc. (winetricks git.portable, Disclaimer: some commands do not yet work due to wine bugs",
+    "translatedContent": "- Inclus également quelques scripts powershell adaptés de snippets trouvés sur internet :"
+  },
+  {
+    "row": 69,
+    "rowsha": "LLTQ08maFhHOBgVvTCJpu5DO/WG8W1OV8OWA5iL2V3k=",
+    "originContent": "- Also included a few powershell scripts adapted from codesnippets found on the internet:",
+    "translatedContent": "    - Comment intégrer un exe dans un script powershell via Invoke-ReflectivePEInjection (l'exe n'apparaît pas dans tasklist)."
+  },
+  {
+    "row": 70,
+    "rowsha": "YBWK69aSyr1QY9TYkLgT1PYpefUXY42kc1L2F6fU+W0=",
+    "originContent": "    - How to embed an exe in a powershell script via Invoke-ReflectivePEInjection (the exe won't show up in tasklist).",
+    "translatedContent": "    - Comment créer des boîtes de dialogue élégantes"
+  },
+  {
+    "row": 71,
+    "rowsha": "4M31Ohv7NJFA+1c4cIpWHdlgmWvcw+3X5ARh8tcaGrE=",
+    "originContent": "    - How to make fancy messageboxes",
+    "translatedContent": "    - Convertir un script powershell (ps1) en exe."
+  },
+  {
+    "row": 72,
+    "rowsha": "XhEdfTKyRvTmyv2IDNaQ4DwsPjEukyqZKqVSVApL3ZA=",
+    "originContent": "    - Convert a powershell script (ps1) into an exe.",
+    "translatedContent": "    - Et quelques autres"
+  },
+  {
+    "row": 73,
+    "rowsha": "Kr5Cv6CZqwXfEyqCWZCgvsbH1tYa9ZYIohhTLqQ9GXo=",
+    "originContent": "    - And a few other",
+    "translatedContent": " "
+  },
+  {
+    "row": 74,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": "     "
+  },
+  {
+    "row": 75,
+    "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
+    "originContent": "     ",
+    "translatedContent": "À propos des programmes système :"
+  },
+  {
+    "row": 76,
+    "rowsha": "t0kxEw6Vc9QBsjT3sUwrp5q4xIMpaqckgm/XXrNwoFw=",
+    "originContent": "About system programs:",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Une fonctionnalité est ajoutée pour remplacer les programmes système simples comme par exemple setx.exe par une fonction dans"
+  },
+  {
+    "row": 78,
+    "rowsha": "rt3ItOHlaOT9v/ODC6k5nmcli4M9vWLOVvkQ+bqB/eE=",
+    "originContent": "Feature is added to replace simple system programs like for example setx.exe by a function in",
+    "translatedContent": "c:\\\\Program Files\\Powershell\\7\\profile.ps1. Ou ajouter des programmes système manquants comme getmac.exe."
+  },
+  {
+    "row": 79,
+    "rowsha": "OJGecXF+zdxRY2eo2wQL+BrArFtJbrwokiXD3FIA5C0=",
+    "originContent": "c:\\\\Program Files\\Powershell\\7\\profile.ps1. Or add system programs that are missing like getmac.exe.",
+    "translatedContent": "Si des programmes échouent à cause de programmes système immatures ou manquants, on pourrait écrire un "
+  },
+  {
+    "row": 80,
+    "rowsha": "Q2nHm/bPcjVs/19JAdHG0TEkfkDytCb4T8NYKvlKbXs=",
+    "originContent": "If programs fail because of insufficient mature or missing system programs one could write a ",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "dgaq/ck0fB1ho/mn78C+6AvxPFFV8m/VMyJ3xS9crn8=",
+    "originContent": "function to return whatever the program expects. ",
+    "translatedContent": "fonction pour retourner ce que le programme attend.  "
+  },
+  {
+    "row": 82,
+    "rowsha": "sSmiYHn/SkQq1dJ4/SJG2rExBreo+KY0zus2u5vbDpk=",
+    "originContent": "Like in profile.ps1 I added (amongst others) a wmic.exe that supports a bit more options,",
+    "translatedContent": "Comme dans profile.ps1, j'ai ajouté (entre autres) un wmic.exe qui supporte un peu plus d'options,  "
+  },
+  {
+    "row": 83,
+    "rowsha": "BcedUgcb0K6VNKwT2/NTduR9/s21a/eDsEJkuBGRNYs=",
+    "originContent": "and a basic setx.exe.",
+    "translatedContent": "et un setx.exe basique.  "
+  },
+  {
+    "row": 84,
+    "rowsha": "9/DOQfZWxZiVrdaA8skc+9RJRL90ccsCcDKKVocwIA4=",
+    "originContent": "Or you could just manipulate the arguments passed to the system program. See profile.ps1 and choc_install.ps1.",
+    "translatedContent": "Ou vous pouvez simplement manipuler les arguments passés au programme système. Voir profile.ps1 et choc_install.ps1.  "
+  },
+  {
+    "row": 85,
+    "rowsha": "SQXc75DX4B6W+5tT6Jcm/Vk0ZlNFmU0s7ezFyJWhsKA=",
+    "originContent": "No garantuee this works for more complex programs as well... ",
+    "translatedContent": "Aucune garantie que cela fonctionne aussi pour des programmes plus complexes...  "
+  },
+  {
+    "row": 86,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 87,
+    "rowsha": "2k9+pY2WOxowK3a4+lVwGQEGxnO5zyl1RouMrqXic4Q=",
+    "originContent": "Notes:",
+    "translatedContent": "Notes :  "
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  "
+  },
+  {
+    "row": 89,
+    "rowsha": "1TQiBEms8kuwfw+HizbdYzk3B8akVYcR95gPSwEtYdY=",
+    "originContent": "  - Do NOT use on existing wineprefix, only on fresh new created prefix! The installer just stupidly installs dotnet48 itsself and messes with registrykeys.",
+    "translatedContent": "  - NE PAS utiliser sur un wineprefix existant, uniquement sur un nouveau prefix fraîchement créé ! L'installateur installe bêtement dotnet48 lui-même et perturbe les clés du registre.  "
+  },
+  {
+    "row": 90,
+    "rowsha": "Ec6BbZYMK7I0YYLQ9Vk1R7ku0p+ku+FamPQT2UBlUME=",
+    "originContent": "    If you have any dotnet version already installed with regular winetricks.sh, it will likely fail, and even if it succeeds, you'll likely end up with a broken prefix.",
+    "translatedContent": "    Si vous avez déjà une version de dotnet installée avec winetricks.sh classique, cela échouera probablement, et même si cela réussit, vous risquez d'avoir un prefix cassé.  "
+  },
+  {
+    "row": 91,
+    "rowsha": "rMtHds//bu+1BopKsxs42ryjviNFuJYngyvrO2VemZc=",
+    "originContent": "    If you need to install stuff with regular winetricks.sh for programs, do NOT use any of the dotnet* verbs. ",
+    "translatedContent": "    Si vous devez installer des choses avec winetricks.sh classique pour des programmes, N'UTILISEZ PAS les verbes dotnet*.  "
+  },
+  {
+    "row": 92,
+    "rowsha": "5MV5XsM93quURSpHYZwojnmG4A5oIDMI6V1+YOTFmrs=",
+    "originContent": "    BTW 'Arial' and 'd3dcompiler_47' verbs are already installed by default.",
+    "translatedContent": "    Au fait, les verbes 'Arial' et 'd3dcompiler_47' sont déjà installés par défaut.  "
+  },
+  {
+    "row": 93,
+    "rowsha": "RRB2WT7zJ5ThGTybVmy2rH0NUDr8ABJqEyIA7dv2T+Q=",
+    "originContent": "  - WINEARCH=win32 is _not_ supported!",
+    "translatedContent": "  - WINEARCH=win32 n'est _pas_ supporté !  "
+  },
+  {
+    "row": 94,
+    "rowsha": "QySXLWMgF5SnnE51h9r+cAGX07L4AVwZJZr5D4g+lOc=",
+    "originContent": "  - Updating from a previous version is for now not (yet) supported, maybe later",
+    "translatedContent": "  - La mise à jour depuis une version précédente n'est pour l'instant pas (encore) supportée, peut-être plus tard  "
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  "
+  },
+  {
+    "row": 96,
+    "rowsha": "RQKeoRpfxpY6QrYigKxzMUuWVKNoYNETjEv5D95gDsM=",
+    "originContent": "Compile:",
+    "translatedContent": "Compiler :  "
+  },
+  {
+    "row": 97,
+    "rowsha": "DMkqBnbKoC7a+tKq+drMTWeLH1u8WZfb1mvU/tjlulE=",
+    "originContent": "  - If you want to compile yourself instead of downloading binaries: see compilation instructions in mainv1.c and installer.c ",
+    "translatedContent": "  - Si vous voulez compiler vous-même au lieu de télécharger les binaires : voir les instructions de compilation dans mainv1.c et installer.c  "
+  },
+  {
+    "row": 98,
+    "rowsha": "4IHJD6DfHtL2LwouILcf77sIrM4qnYsfgzrccooEoUA=",
+    "originContent": "  - Then copy choc_install.ps1 into the same directory",
+    "translatedContent": "  - Puis copiez choc_install.ps1 dans le même répertoire  "
+  },
+  {
+    "row": 99,
+    "rowsha": "4N/rqOjjWGBJ32nhZAfItywFhSdibpff6J70jNV7Lbo=",
+    "originContent": "  - Then do 'wine ChoCinstaller_0.5a.735.exe'",
+    "translatedContent": "  - Ensuite faites 'wine ChoCinstaller_0.5a.735.exe'  "
+  },
+  {
+    "row": 100,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
