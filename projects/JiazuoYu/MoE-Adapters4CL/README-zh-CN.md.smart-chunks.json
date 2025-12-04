@@ -1,0 +1,579 @@
+[
+  {
+    "Id": 1,
+    "Content": "# MoE-Adapters4CL\nCode for paper \"[**Boosting Continual Learning of Vision-Language Models via Mixture-of-Experts Adapters**](https://arxiv.org/abs/2403.11549)\" CVPR2024.\n\n## Table of Contents\n  - [Abstract](#Abstract)\n  - [Approach](#Approach)\n  - [Install](#Install)\n  - [Data preparation](#Data-preparation)\n  - [Getting Started](#getting-started)\n    - [Model ckpt](#Model-ckpt)\n    - [MTCL](#MTCL)\n      - [Test](#Test)\n      - [Train](#Train)\n    - [CIL](#CIL)\n      - [Train](#Train)\n  - [Citation](#Citation)\n  - [Acknowledgement](#Acknowledgement)\n\n## Abstract",
+    "ContentSha": "5zcEFjP8uY7pRcmQKo80kdfxXuPsw/vuFzBJUx22SjY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# MoE-Adapters4CL\n论文代码：“[**通过混合专家适配器提升视觉语言模型的持续学习能力**](https://arxiv.org/abs/2403.11549)” CVPR2024。\n\n## 目录\n  - [摘要](#Abstract)\n  - [方法](#Approach)\n  - [安装](#Install)\n  - [数据准备](#Data-preparation)\n  - [快速开始](#getting-started)\n    - [模型权重](#Model-ckpt)\n    - [MTCL](#MTCL)\n      - [测试](#Test)\n      - [训练](#Train)\n    - [CIL](#CIL)\n      - [训练](#Train)\n  - [引用](#Citation)\n  - [致谢](#Acknowledgement)\n\n## 摘要",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LU1MnFdz3C5PxIJX/+pOYgXAj/IvqsefF+GKtYOpcVQ=",
+        "originContent": "# MoE-Adapters4CL",
+        "translatedContent": "# MoE-Adapters4CL"
+      },
+      {
+        "row": 2,
+        "rowsha": "344NH8SFBGTtLWlE2U4p0oCC2e1+hr0vZvM3+cEp+lk=",
+        "originContent": "Code for paper \"[**Boosting Continual Learning of Vision-Language Models via Mixture-of-Experts Adapters**](https://arxiv.org/abs/2403.11549)\" CVPR2024.",
+        "translatedContent": "论文代码：“[**通过混合专家适配器提升视觉语言模型的持续学习能力**](https://arxiv.org/abs/2403.11549)” CVPR2024。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## 目录"
+      },
+      {
+        "row": 5,
+        "rowsha": "rODNKqAtBMTk8cGA6mqf42v0FKEpKwEG7dLuPR4ktT0=",
+        "originContent": "  - [Abstract](#Abstract)",
+        "translatedContent": "  - [摘要](#Abstract)"
+      },
+      {
+        "row": 6,
+        "rowsha": "OY9K2b0/Vc0QQZVUQ4ujcaRRrQyAef1Y0e1K4ixIevg=",
+        "originContent": "  - [Approach](#Approach)",
+        "translatedContent": "  - [方法](#Approach)"
+      },
+      {
+        "row": 7,
+        "rowsha": "oPAuO/yx5Ua2LRC3x37Z9WRvBBfQBgjh8F4Pk8fKwRM=",
+        "originContent": "  - [Install](#Install)",
+        "translatedContent": "  - [安装](#Install)"
+      },
+      {
+        "row": 8,
+        "rowsha": "ADUK98MIbpd/YpK0MdAZmXMT2Pf6UhErPYOYZ/gvm6w=",
+        "originContent": "  - [Data preparation](#Data-preparation)",
+        "translatedContent": "  - [数据准备](#Data-preparation)"
+      },
+      {
+        "row": 9,
+        "rowsha": "cF2fkHtTIxk3MdZe+Z+FZOnTcs1rxL5PoK5Jhe3GPeA=",
+        "originContent": "  - [Getting Started](#getting-started)",
+        "translatedContent": "  - [快速开始](#getting-started)"
+      },
+      {
+        "row": 10,
+        "rowsha": "bCM/A4xAMokMpscnveBvj5sg7DkpIhI3wqqHAkE1Myc=",
+        "originContent": "    - [Model ckpt](#Model-ckpt)",
+        "translatedContent": "    - [模型权重](#Model-ckpt)"
+      },
+      {
+        "row": 11,
+        "rowsha": "U3SxSvPrJ37wXvZD3J4VPTXVttn5o9OgR5Y/pcTT1/A=",
+        "originContent": "    - [MTCL](#MTCL)",
+        "translatedContent": "    - [MTCL](#MTCL)"
+      },
+      {
+        "row": 12,
+        "rowsha": "GxKd1M2hSeBq4ujHfdvnLiU4kiV2bG5QbyKPebjgc3o=",
+        "originContent": "      - [Test](#Test)",
+        "translatedContent": "      - [测试](#Test)"
+      },
+      {
+        "row": 13,
+        "rowsha": "By9ikcMP4AkVYOraEQye+li8jqxlvg5qMm7tzHSQ4Ow=",
+        "originContent": "      - [Train](#Train)",
+        "translatedContent": "      - [训练](#Train)"
+      },
+      {
+        "row": 14,
+        "rowsha": "PNY2JklLhvmjaUKMIr9U7pgGlii6V3n61tgCw/2FnC4=",
+        "originContent": "    - [CIL](#CIL)",
+        "translatedContent": "    - [CIL](#CIL)"
+      },
+      {
+        "row": 15,
+        "rowsha": "By9ikcMP4AkVYOraEQye+li8jqxlvg5qMm7tzHSQ4Ow=",
+        "originContent": "      - [Train](#Train)",
+        "translatedContent": "      - [训练](#Train)"
+      },
+      {
+        "row": 16,
+        "rowsha": "iUnj/JkaM12BvKU9bnE9A5rarzK2ixs945nWfXaN3/8=",
+        "originContent": "  - [Citation](#Citation)",
+        "translatedContent": "  - [引用](#Citation)"
+      },
+      {
+        "row": 17,
+        "rowsha": "GdzZVx+zlLphNCBpZgOwIlPj46apyxLOWDOezYLx3D8=",
+        "originContent": "  - [Acknowledgement](#Acknowledgement)",
+        "translatedContent": "  - [致谢](#Acknowledgement)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "JmwhuBCuZXUfpw84ioZ+lNGA55/RXGntVNrn3x0pFms=",
+        "originContent": "## Abstract",
+        "translatedContent": "## 摘要"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "Continual learning can empower vision-language models to continuously acquire new knowledge, without the need for access to the entire historical dataset. However, mitigating the performance degradation in large-scale models is non-trivial due to (i) parameter shifts throughout lifelong learning and (ii) significant computational burdens associated with full-model tuning. In this work, we present a parameter-efficient continual learning framework to alleviate long-term forgetting in incremental learning with vision-language models. Our approach involves the dynamic expansion of a pre-trained CLIP model, through the integration of Mixture-of-Experts (MoE) adapters in response to new tasks. To preserve the zero-shot recognition capability of vision-language models, we further introduce a Distribution Discriminative Auto-Selector (DDAS) that automatically routes in-distribution and out-of-distribution inputs to the MoE Adapter and the original CLIP, respectively. Through extensive experiments across various settings, our proposed method consistently outperforms previous state-of-the-art approaches while concurrently reducing parameter training burdens by 60%. ",
+    "ContentSha": "CuRZZhgAxuJtTXFL8+kSYkaVC/S6I+VQV32nLjmbbuU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Continual learning can empower vision-language models to continuously acquire new knowledge, without the need for access to the entire historical dataset. However, mitigating the performance degradation in large-scale models is non-trivial due to (i) parameter shifts throughout lifelong learning and (ii) significant computational burdens associated with full-model tuning. In this work, we present a parameter-efficient continual learning framework to alleviate long-term forgetting in incremental learning with vision-language models. Our approach involves the dynamic expansion of a pre-trained CLIP model, through the integration of Mixture-of-Experts (MoE) adapters in response to new tasks. To preserve the zero-shot recognition capability of vision-language models, we further introduce a Distribution Discriminative Auto-Selector (DDAS) that automatically routes in-distribution and out-of-distribution inputs to the MoE Adapter and the original CLIP, respectively. Through extensive experiments across various settings, our proposed method consistently outperforms previous state-of-the-art approaches while concurrently reducing parameter training burdens by 60%. ",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "CuRZZhgAxuJtTXFL8+kSYkaVC/S6I+VQV32nLjmbbuU=",
+        "originContent": "Continual learning can empower vision-language models to continuously acquire new knowledge, without the need for access to the entire historical dataset. However, mitigating the performance degradation in large-scale models is non-trivial due to (i) parameter shifts throughout lifelong learning and (ii) significant computational burdens associated with full-model tuning. In this work, we present a parameter-efficient continual learning framework to alleviate long-term forgetting in incremental learning with vision-language models. Our approach involves the dynamic expansion of a pre-trained CLIP model, through the integration of Mixture-of-Experts (MoE) adapters in response to new tasks. To preserve the zero-shot recognition capability of vision-language models, we further introduce a Distribution Discriminative Auto-Selector (DDAS) that automatically routes in-distribution and out-of-distribution inputs to the MoE Adapter and the original CLIP, respectively. Through extensive experiments across various settings, our proposed method consistently outperforms previous state-of-the-art approaches while concurrently reducing parameter training burdens by 60%. ",
+        "translatedContent": "Continual learning can empower vision-language models to continuously acquire new knowledge, without the need for access to the entire historical dataset. However, mitigating the performance degradation in large-scale models is non-trivial due to (i) parameter shifts throughout lifelong learning and (ii) significant computational burdens associated with full-model tuning. In this work, we present a parameter-efficient continual learning framework to alleviate long-term forgetting in incremental learning with vision-language models. Our approach involves the dynamic expansion of a pre-trained CLIP model, through the integration of Mixture-of-Experts (MoE) adapters in response to new tasks. To preserve the zero-shot recognition capability of vision-language models, we further introduce a Distribution Discriminative Auto-Selector (DDAS) that automatically routes in-distribution and out-of-distribution inputs to the MoE Adapter and the original CLIP, respectively. Through extensive experiments across various settings, our proposed method consistently outperforms previous state-of-the-art approaches while concurrently reducing parameter training burdens by 60%. "
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "## Approach\n___\n![example image](https://raw.githubusercontent.com/JiazuoYu/MoE-Adapters4CL/MoE-Adapters/fig/framework.png)\n\n\n## Install",
+    "ContentSha": "EqjI19V3f5Ctr4WB6gapOJxNRsmSn7nZk+fAiuW5CHg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 方法\n___\n![示例图片](https://raw.githubusercontent.com/JiazuoYu/MoE-Adapters4CL/MoE-Adapters/fig/framework.png)\n\n\n## 安装",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "y7iGcK8tXnldKR8pIUqbT83v9P/krrFgTgt5JxZDjHI=",
+        "originContent": "## Approach",
+        "translatedContent": "## 方法"
+      },
+      {
+        "row": 2,
+        "rowsha": "vaJRVQvwR49BcqiuspHWVD/qCQFQuCw+KIGlNyHq+ZA=",
+        "originContent": "___",
+        "translatedContent": "___"
+      },
+      {
+        "row": 3,
+        "rowsha": "htfHNU9EXC6uugBBeJznAowizFSp/+YzyrJjzPVtx8M=",
+        "originContent": "![example image](https://raw.githubusercontent.com/JiazuoYu/MoE-Adapters4CL/MoE-Adapters/fig/framework.png)",
+        "translatedContent": "![示例图片](https://raw.githubusercontent.com/JiazuoYu/MoE-Adapters4CL/MoE-Adapters/fig/framework.png)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## 安装"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nconda create -n MoE_Adapters4CL python=3.9\nconda activate MoE_Adapters4CL\nconda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=11.8 -c pytorch -c nvidia\ncd cil\npip install -r requirements.txt\n```",
+    "ContentSha": "SBITgzXT3eiSuORQZ9SgQaIR/gzZvnRW5eFGCoXbjXw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nconda create -n MoE_Adapters4CL python=3.9\nconda activate MoE_Adapters4CL\nconda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=11.8 -c pytorch -c nvidia\ncd cil\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "GAKfBMW8K0TQ4E+370aZ+faSY1IhRw9leCL+fdU8ZJI=",
+        "originContent": "conda create -n MoE_Adapters4CL python=3.9",
+        "translatedContent": "conda create -n MoE_Adapters4CL python=3.9"
+      },
+      {
+        "row": 3,
+        "rowsha": "uuXU66VJu3zH/zlrlPGnUVOOV7cdi74t1EtA1B3NvZU=",
+        "originContent": "conda activate MoE_Adapters4CL",
+        "translatedContent": "conda activate MoE_Adapters4CL"
+      },
+      {
+        "row": 4,
+        "rowsha": "kJ1D+crN4XjmYEnqRDMdOJy9q+pH9Nx3P88WpHk14Cg=",
+        "originContent": "conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=11.8 -c pytorch -c nvidia",
+        "translatedContent": "conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=11.8 -c pytorch -c nvidia"
+      },
+      {
+        "row": 5,
+        "rowsha": "Y8UxdLKIJGrE1zMruCPsMtMGmyF0KseQdjMuphQDp+o=",
+        "originContent": "cd cil",
+        "translatedContent": "cd cil"
+      },
+      {
+        "row": 6,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Data preparation\nTarget Datasets: Aircraft, Caltech101,CIFAR10, CIFAR100, DTD, EuroSAT, Flowers, Food, MNIST, OxfordPet,StanfordCars, SUN397, TinyImagenet.\n\nIf you have problems with Caltech101, you can refer to [issue#6](https://github.com/JiazuoYu/MoE-Adapters4CL/issues/6).\n\nMore details can refer to [datasets.md](https://raw.githubusercontent.com/JiazuoYu/MoE-Adapters4CL/MoE-Adapters/mtil%2Fdatasets.md) of [ZSCL](https://github.com/Thunderbeee/ZSCL). Big thanks to them for their awesome work!\n## Model ckpt\n|                  | Model                                                                | Link |\n|------------------|----------------------------------------------------------------------|---------------------------------------------------------------------- |\n| full_shot_order1 | full_shot_order1_1000iters.pth                  | [Baidu Disk](https://pan.baidu.com/s/1brWYIMrv34fhdc4kC9B0_g?pwd=p3zp) / [Google Drive](https://drive.google.com/drive/folders/1f2GB2kmBYoxzWI9E33XqPnkIKrAB2fh9?usp=sharing)      |\n| few_shot_order1  | few_shot_order1_1000iters.pth | [Baidu Disk](https://pan.baidu.com/s/1Z7q3tTLdRFN3zmtkj3_i4g?pwd=4edw) / [Google Drive](https://drive.google.com/drive/folders/1f2GB2kmBYoxzWI9E33XqPnkIKrAB2fh9?usp=sharing)       |\n## MTCL\n### Test stage\nExample:\n1. Move the checkpoints to MoE-Adapters4CL/ckpt\n2. ```cd MoE-Adapters4CL/mtil```\n3. Run the script ```bash srcipts/test/Full_Shot_order1.sh ```\n\n\n### Train stage\nExample:\n1. Move the checkpoints to MoE-Adapters4CL/ckpt\n2. ```cd MoE-Adapters4CL/mtil```\n3. Run the script ```bash srcipts/train/train_full_shot_router11_experts22_1000iters.sh```\n\n## Class Incremental Learning\n\n### Train stage\nExample:\n1. ```cd cil```\n2. ```bash run_cifar100-2-2.sh ```\n\n## Citation",
+    "ContentSha": "2lBZnPl0TJgrKDFjTFt/IB6WFJbFkGy1YpVlh51awKY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 数据准备  \n目标数据集：Aircraft, Caltech101, CIFAR10, CIFAR100, DTD, EuroSAT, Flowers, Food, MNIST, OxfordPet, StanfordCars, SUN397, TinyImagenet。  \n\n如果你在使用 Caltech101 时遇到问题，可以参考 [issue#6](https://github.com/JiazuoYu/MoE-Adapters4CL/issues/6)。  \n\n更多详情可参考 [ZSCL](https://github.com/Thunderbeee/ZSCL) 的 [datasets.md](https://raw.githubusercontent.com/JiazuoYu/MoE-Adapters4CL/MoE-Adapters/mtil%2Fdatasets.md)。非常感谢他们的出色工作！  \n## 模型权重  \n|                  | 模型                                                                | 链接 |\n|------------------|----------------------------------------------------------------------|---------------------------------------------------------------------- |\n| full_shot_order1 | full_shot_order1_1000iters.pth                  | [百度网盘](https://pan.baidu.com/s/1brWYIMrv34fhdc4kC9B0_g?pwd=p3zp) / [Google Drive](https://drive.google.com/drive/folders/1f2GB2kmBYoxzWI9E33XqPnkIKrAB2fh9?usp=sharing)      |\n| few_shot_order1  | few_shot_order1_1000iters.pth | [百度网盘](https://pan.baidu.com/s/1Z7q3tTLdRFN3zmtkj3_i4g?pwd=4edw) / [Google Drive](https://drive.google.com/drive/folders/1f2GB2kmBYoxzWI9E33XqPnkIKrAB2fh9?usp=sharing)       |\n## MTCL  \n### 测试阶段  \n示例：  \n1. 将权重文件移动到 MoE-Adapters4CL/ckpt  \n2. ```cd MoE-Adapters4CL/mtil```  \n3. 运行脚本 ```bash srcipts/test/Full_Shot_order1.sh ```  \n\n### 训练阶段  \n示例：  \n1. 将权重文件移动到 MoE-Adapters4CL/ckpt  \n2. ```cd MoE-Adapters4CL/mtil```  \n3. 运行脚本 ```bash srcipts/train/train_full_shot_router11_experts22_1000iters.sh```  \n\n## 类增量学习  \n\n### 训练阶段  \n示例：  \n1. ```cd cil```  \n2. ```bash run_cifar100-2-2.sh ```  \n\n## 引用\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 数据准备  "
+      },
+      {
+        "row": 2,
+        "rowsha": "r826vq6z75JctjfbnbfEtftksR7Fz4pNMNYhhi5wZ3g=",
+        "originContent": "## Data preparation",
+        "translatedContent": "目标数据集：Aircraft, Caltech101, CIFAR10, CIFAR100, DTD, EuroSAT, Flowers, Food, MNIST, OxfordPet, StanfordCars, SUN397, TinyImagenet。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "z75T5OOBGbsmfBL8UbBi3rkSN6Wa55ajPXbKmy1+ZBY=",
+        "originContent": "Target Datasets: Aircraft, Caltech101,CIFAR10, CIFAR100, DTD, EuroSAT, Flowers, Food, MNIST, OxfordPet,StanfordCars, SUN397, TinyImagenet.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果你在使用 Caltech101 时遇到问题，可以参考 [issue#6](https://github.com/JiazuoYu/MoE-Adapters4CL/issues/6)。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "wL+mqZPZ9SN2c5gLtgVbSMNgOEY3HeQu1vgw4d4CNGU=",
+        "originContent": "If you have problems with Caltech101, you can refer to [issue#6](https://github.com/JiazuoYu/MoE-Adapters4CL/issues/6).",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "更多详情可参考 [ZSCL](https://github.com/Thunderbeee/ZSCL) 的 [datasets.md](https://raw.githubusercontent.com/JiazuoYu/MoE-Adapters4CL/MoE-Adapters/mtil%2Fdatasets.md)。非常感谢他们的出色工作！  "
+      },
+      {
+        "row": 7,
+        "rowsha": "cTY3+D3PhZGkVnYrczj3vkSXNyVFHILmVRYIrnaRTno=",
+        "originContent": "More details can refer to [datasets.md](https://raw.githubusercontent.com/JiazuoYu/MoE-Adapters4CL/MoE-Adapters/mtil%2Fdatasets.md) of [ZSCL](https://github.com/Thunderbeee/ZSCL). Big thanks to them for their awesome work!",
+        "translatedContent": "## 模型权重  "
+      },
+      {
+        "row": 8,
+        "rowsha": "0TwZzQU5KBsIddl3mCHQCtcRtR3hz8W3lc24Stk1euQ=",
+        "originContent": "## Model ckpt",
+        "translatedContent": "|                  | 模型                                                                | 链接 |"
+      },
+      {
+        "row": 9,
+        "rowsha": "SaekvDtBt/wpr328fjKYMssZ8oKYSbEjOaBZg348EEU=",
+        "originContent": "|                  | Model                                                                | Link |",
+        "translatedContent": "|------------------|----------------------------------------------------------------------|---------------------------------------------------------------------- |"
+      },
+      {
+        "row": 10,
+        "rowsha": "f+gGTac5FdsKjGtn2jCgBafqmCViO8iA9bK+FQcZ/kM=",
+        "originContent": "|------------------|----------------------------------------------------------------------|---------------------------------------------------------------------- |",
+        "translatedContent": "| full_shot_order1 | full_shot_order1_1000iters.pth                  | [百度网盘](https://pan.baidu.com/s/1brWYIMrv34fhdc4kC9B0_g?pwd=p3zp) / [Google Drive](https://drive.google.com/drive/folders/1f2GB2kmBYoxzWI9E33XqPnkIKrAB2fh9?usp=sharing)      |"
+      },
+      {
+        "row": 11,
+        "rowsha": "RjklwrZtF+VExgxqKVFQapmWUOTHDTHYPf56w9t5ExA=",
+        "originContent": "| full_shot_order1 | full_shot_order1_1000iters.pth                  | [Baidu Disk](https://pan.baidu.com/s/1brWYIMrv34fhdc4kC9B0_g?pwd=p3zp) / [Google Drive](https://drive.google.com/drive/folders/1f2GB2kmBYoxzWI9E33XqPnkIKrAB2fh9?usp=sharing)      |",
+        "translatedContent": "| few_shot_order1  | few_shot_order1_1000iters.pth | [百度网盘](https://pan.baidu.com/s/1Z7q3tTLdRFN3zmtkj3_i4g?pwd=4edw) / [Google Drive](https://drive.google.com/drive/folders/1f2GB2kmBYoxzWI9E33XqPnkIKrAB2fh9?usp=sharing)       |"
+      },
+      {
+        "row": 12,
+        "rowsha": "Kh/VwsuCFQQDyFCvOLI4V7fCKMM9xECXN8fG5gIQ+CA=",
+        "originContent": "| few_shot_order1  | few_shot_order1_1000iters.pth | [Baidu Disk](https://pan.baidu.com/s/1Z7q3tTLdRFN3zmtkj3_i4g?pwd=4edw) / [Google Drive](https://drive.google.com/drive/folders/1f2GB2kmBYoxzWI9E33XqPnkIKrAB2fh9?usp=sharing)       |",
+        "translatedContent": "## MTCL  "
+      },
+      {
+        "row": 13,
+        "rowsha": "E+CrMjBT/g1xHYtptRRqIVRD90oeZAW3VvrkrB7fxok=",
+        "originContent": "## MTCL",
+        "translatedContent": "### 测试阶段  "
+      },
+      {
+        "row": 14,
+        "rowsha": "k9XrtnF+aM4LH57QFOj3agZa6Kyq48DpQpjFnTVaHOA=",
+        "originContent": "### Test stage",
+        "translatedContent": "示例：  "
+      },
+      {
+        "row": 15,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "1. 将权重文件移动到 MoE-Adapters4CL/ckpt  "
+      },
+      {
+        "row": 16,
+        "rowsha": "yAImN7jsPpGYOloIjXOOaqHWCqGMjeYyJrHvvqwPvIw=",
+        "originContent": "1. Move the checkpoints to MoE-Adapters4CL/ckpt",
+        "translatedContent": "2. ```cd MoE-Adapters4CL/mtil```  "
+      },
+      {
+        "row": 17,
+        "rowsha": "BEcMM8I5jrBxjpmZco7hW7vgE0MnoSf2qfxrTW0IBxQ=",
+        "originContent": "2. ```cd MoE-Adapters4CL/mtil```",
+        "translatedContent": "3. 运行脚本 ```bash srcipts/test/Full_Shot_order1.sh ```  "
+      },
+      {
+        "row": 18,
+        "rowsha": "SSpdvzM6J8P/0j/0l2zrQAlroHRt1BUqwHc7QP65GDg=",
+        "originContent": "3. Run the script ```bash srcipts/test/Full_Shot_order1.sh ```",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 训练阶段  "
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "示例：  "
+      },
+      {
+        "row": 21,
+        "rowsha": "1IM1Qbhr0xSaeNaVclWZWv+/b55ywxTDLFlG3xgaQ5c=",
+        "originContent": "### Train stage",
+        "translatedContent": "1. 将权重文件移动到 MoE-Adapters4CL/ckpt  "
+      },
+      {
+        "row": 22,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "2. ```cd MoE-Adapters4CL/mtil```  "
+      },
+      {
+        "row": 23,
+        "rowsha": "yAImN7jsPpGYOloIjXOOaqHWCqGMjeYyJrHvvqwPvIw=",
+        "originContent": "1. Move the checkpoints to MoE-Adapters4CL/ckpt",
+        "translatedContent": "3. 运行脚本 ```bash srcipts/train/train_full_shot_router11_experts22_1000iters.sh```  "
+      },
+      {
+        "row": 24,
+        "rowsha": "BEcMM8I5jrBxjpmZco7hW7vgE0MnoSf2qfxrTW0IBxQ=",
+        "originContent": "2. ```cd MoE-Adapters4CL/mtil```",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "8DWrPTqlqO5pcOVt5c/Jz/3/K/S5jbTVfh301iftD9U=",
+        "originContent": "3. Run the script ```bash srcipts/train/train_full_shot_router11_experts22_1000iters.sh```",
+        "translatedContent": "## 类增量学习  "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "fyUJBOmdKmQgYGfhBm2zQf9Xu1zvjMbk0Mjr761lCXk=",
+        "originContent": "## Class Incremental Learning",
+        "translatedContent": "### 训练阶段  "
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "示例：  "
+      },
+      {
+        "row": 29,
+        "rowsha": "1IM1Qbhr0xSaeNaVclWZWv+/b55ywxTDLFlG3xgaQ5c=",
+        "originContent": "### Train stage",
+        "translatedContent": "1. ```cd cil```  "
+      },
+      {
+        "row": 30,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": "2. ```bash run_cifar100-2-2.sh ```  "
+      },
+      {
+        "row": 31,
+        "rowsha": "gwuUvslrqATKPgIzIJSxv/e9cb7XL8yNVKE0lI2ov8s=",
+        "originContent": "1. ```cd cil```",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "E+TUrykwGvF6czaIgn7+gQYR1Z03eJUpiXhgaKh0QOY=",
+        "originContent": "2. ```bash run_cifar100-2-2.sh ```",
+        "translatedContent": "## 引用"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\n@inproceedings{yu2024boosting,\n  title={Boosting continual learning of vision-language models via mixture-of-experts adapters},\n  author={Yu, Jiazuo and Zhuge, Yunzhi and Zhang, Lu and Hu, Ping and Wang, Dong and Lu, Huchuan and He, You},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={23219--23230},\n  year={2024}\n}\n```",
+    "ContentSha": "PJp1FA6d8p2a+85chMlB7md9+EA3EG/0xy0+Hc0fdBs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@inproceedings{yu2024boosting,\n  title={Boosting continual learning of vision-language models via mixture-of-experts adapters},\n  author={Yu, Jiazuo and Zhuge, Yunzhi and Zhang, Lu and Hu, Ping and Wang, Dong and Lu, Huchuan and He, You},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={23219--23230},\n  year={2024}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "6x1cChX3P2R4vz7Xay6LDGG4E2IO6b+TTIUKD3V303M=",
+        "originContent": "@inproceedings{yu2024boosting,",
+        "translatedContent": "@inproceedings{yu2024boosting,"
+      },
+      {
+        "row": 3,
+        "rowsha": "QZCPuP4qFfYJyb1PfRcQdQqFif3EdkCEEh5UEPBfSbc=",
+        "originContent": "  title={Boosting continual learning of vision-language models via mixture-of-experts adapters},",
+        "translatedContent": "  title={Boosting continual learning of vision-language models via mixture-of-experts adapters},"
+      },
+      {
+        "row": 4,
+        "rowsha": "t4UK7wJq54Fufo9AZmh/LeZjxN7rINSvkreFq8WYTxc=",
+        "originContent": "  author={Yu, Jiazuo and Zhuge, Yunzhi and Zhang, Lu and Hu, Ping and Wang, Dong and Lu, Huchuan and He, You},",
+        "translatedContent": "  author={Yu, Jiazuo and Zhuge, Yunzhi and Zhang, Lu and Hu, Ping and Wang, Dong and Lu, Huchuan and He, You},"
+      },
+      {
+        "row": 5,
+        "rowsha": "IuLbTK6RIf/1AHEIMMS+xeW8Y5WE78EEpz/IImkCoF4=",
+        "originContent": "  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},",
+        "translatedContent": "  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},"
+      },
+      {
+        "row": 6,
+        "rowsha": "kvS2dvY0Zs2nfml2U4Vf82tUupNp7oSjdApnZk7fLJU=",
+        "originContent": "  pages={23219--23230},",
+        "translatedContent": "  pages={23219--23230},"
+      },
+      {
+        "row": 7,
+        "rowsha": "9vunU7Tk7EiCUudFrq1MUG4YCfjMDMPMikZF6BT/eLU=",
+        "originContent": "  year={2024}",
+        "translatedContent": "  year={2024}"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "## Acknowledgement\nOur repo is built on [wise-ft](https://github.com/mlfoundations/wise-ft), [Continual-CLIP](https://github.com/vgthengane/Continual-CLIP/tree/master) and [ZSCL](https://github.com/Thunderbeee/ZSCL). We thank the authors for sharing their codes.\n\n\n",
+    "ContentSha": "SezPCNJQyuYxwnEdiTkt6sjN0706ikNNDtCLvH6/Yik=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 致谢\n我们的代码库基于 [wise-ft](https://github.com/mlfoundations/wise-ft)、[Continual-CLIP](https://github.com/vgthengane/Continual-CLIP/tree/master) 和 [ZSCL](https://github.com/Thunderbeee/ZSCL) 构建。我们感谢作者们分享他们的代码。\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+        "originContent": "## Acknowledgement",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 2,
+        "rowsha": "sNRpEJpVx7ad1hA3kEXpo0V9QbEO16nYskj4DztIOvc=",
+        "originContent": "Our repo is built on [wise-ft](https://github.com/mlfoundations/wise-ft), [Continual-CLIP](https://github.com/vgthengane/Continual-CLIP/tree/master) and [ZSCL](https://github.com/Thunderbeee/ZSCL). We thank the authors for sharing their codes.",
+        "translatedContent": "我们的代码库基于 [wise-ft](https://github.com/mlfoundations/wise-ft)、[Continual-CLIP](https://github.com/vgthengane/Continual-CLIP/tree/master) 和 [ZSCL](https://github.com/Thunderbeee/ZSCL) 构建。我们感谢作者们分享他们的代码。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
