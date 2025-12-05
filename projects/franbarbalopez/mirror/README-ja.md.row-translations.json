@@ -1,0 +1,2300 @@
+[
+  {
+    "row": 1,
+    "rowsha": "dhwDIM4z6JUVGWA90Ma8CzoWUyUIVMRB6dgl0YEKh1w=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/franbarbalopez/mirror/master/art/logo.png\" alt=\"Mirror Logo\">",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/franbarbalopez/mirror/master/art/logo.png\" alt=\"Mirror ロゴ\">"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
+    "originContent": "<div align=\"center\">",
+    "translatedContent": "<div align=\"center\">"
+  },
+  {
+    "row": 4,
+    "rowsha": "94hTu4OkSHqvLyjRxXegkYKx43j8W8cMJ+G2DcQrchE=",
+    "originContent": "    <img alt=\"Latest Version on Packagist\" src=\"https://img.shields.io/packagist/v/franbarbalopez/mirror.svg\">",
+    "translatedContent": "    <img alt=\"Packagistの最新バージョン\" src=\"https://img.shields.io/packagist/v/franbarbalopez/mirror.svg\">"
+  },
+  {
+    "row": 5,
+    "rowsha": "P+O+h18tdFGQ96AoHC2MmUzaUmN1p79V1BzEW604oBE=",
+    "originContent": "    <img alt=\"GitHub Tests Action Status\" src=\"https://img.shields.io/github/actions/workflow/status/franbarbalopez/mirror/tests.yml?label=tests\">",
+    "translatedContent": "    <img alt=\"GitHubテストアクションステータス\" src=\"https://img.shields.io/github/actions/workflow/status/franbarbalopez/mirror/tests.yml?label=tests\">"
+  },
+  {
+    "row": 6,
+    "rowsha": "LCcztlYpXiQStCqU8EKleqUuborKAtPfUpM/D4ns/mg=",
+    "originContent": "    <img alt=\"Total Downloads\" src=\"https://img.shields.io/packagist/dt/franbarbalopez/mirror.svg\">",
+    "translatedContent": "    <img alt=\"合計ダウンロード数\" src=\"https://img.shields.io/packagist/dt/franbarbalopez/mirror.svg\">"
+  },
+  {
+    "row": 7,
+    "rowsha": "OUENL9bYVOEKAn0rIhfMnO64EjQIURx4BKJ9CXwsHtw=",
+    "originContent": "    <img alt=\"License\" src=\"https://img.shields.io/packagist/l/franbarbalopez/mirror.svg\">",
+    "translatedContent": "    <img alt=\"ライセンス\" src=\"https://img.shields.io/packagist/l/franbarbalopez/mirror.svg\">"
+  },
+  {
+    "row": 8,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "OtalTnS/4Pmgbvi8eVLiFrx3mmxe/HfKeYDK937n0DU=",
+    "originContent": "# Mirror",
+    "translatedContent": "# Mirror"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "EI8dbGaYd8vqCDWMDswXp1u/rBgdDjrI08L0wK9jU3w=",
+    "originContent": "Mirror is an elegant user impersonation package for Laravel. It allows administrators to seamlessly log in as other users to troubleshoot issues, provide support, or test user experiences. Mirror handles session integrity with cryptographic verification, automatic expiration, multi-guard support, flexible middleware, and lifecycle events for audit logging. Perfect for production applications that need reliable and secure user impersonation.",
+    "translatedContent": "MirrorはLaravel向けのエレガントなユーザーなりすましパッケージです。管理者が他のユーザーとしてシームレスにログインし、問題のトラブルシューティング、サポート提供、またはユーザー体験のテストを行うことを可能にします。Mirrorは暗号検証によるセッションの整合性、自動期限切れ、マルチガード対応、柔軟なミドルウェア、監査ログ用のライフサイクルイベントを扱います。信頼性と安全なユーザーなりすましが必要な本番環境向けに最適です。"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 特徴"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "woC9x828VXukQ09PQNXusuRJhEaUZca9bAb8b3DL2Gg=",
+    "originContent": "- HMAC-SHA256 session integrity to prevent tampering",
+    "translatedContent": "- 改ざん防止のためのHMAC-SHA256セッション整合性"
+  },
+  {
+    "row": 17,
+    "rowsha": "zcUuT+BPoBFpCkXVR7YdlVNB+SKR8nC8c0AiClqUvso=",
+    "originContent": "- Configurable TTL expiration",
+    "translatedContent": "- 設定可能なTTL（有効期限）"
+  },
+  {
+    "row": 18,
+    "rowsha": "65R8T7GAemaawTP58eSR9FmVWPX/bYng7Z4kifhxrJY=",
+    "originContent": "- Middleware for access control and TTL enforcement",
+    "translatedContent": "- アクセス制御およびTTL適用のためのミドルウェア"
+  },
+  {
+    "row": 19,
+    "rowsha": "JjPKpF+PqTXo2U6Y8xNLXR/fVQT96jdH+5djrAUE/iQ=",
+    "originContent": "- Multi-guard support",
+    "translatedContent": "- マルチガード対応"
+  },
+  {
+    "row": 20,
+    "rowsha": "tX48ScgoZkfAR8i2eUu6SSXXYonVQoMNq+z4lkmVukg=",
+    "originContent": "- Flexible URL redirection",
+    "translatedContent": "- 柔軟なURLリダイレクション"
+  },
+  {
+    "row": 21,
+    "rowsha": "p8iyY5vGN5CChfPIy4G8MriBi3FXtDb/JZM688Ryi+k=",
+    "originContent": "- Lifecycle events for audit logging",
+    "translatedContent": "- 監査ログ用のライフサイクルイベント"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "## 要件"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "ZZImxK2FfOtxRhQHaGNkjAG4WPJKXYPaJk5nC8kehI0=",
+    "originContent": "- PHP 8.2+",
+    "translatedContent": "- PHP 8.2以上"
+  },
+  {
+    "row": 26,
+    "rowsha": "MbMaepKL1O+QhNkMzXLxmlC96FOzu6Uu3WRCdoZY5r8=",
+    "originContent": "- Laravel 11+",
+    "translatedContent": "- Laravel 11以上"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 31,
+    "rowsha": "0hRZJm+ykDhRGQ+ZPwBKxAC3ZyU/UNHOTlfkui7YpBI=",
+    "originContent": "composer require franbarbalopez/mirror",
+    "translatedContent": "composer require franbarbalopez/mirror"
+  },
+  {
+    "row": 32,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "オプション - 設定ファイルを公開する:"
+  },
+  {
+    "row": 34,
+    "rowsha": "52y2bI8GTd3mxP8QNhMAfO4/QUS+/3l9+5uAlM/L/yc=",
+    "originContent": "Optional - publish the config file:",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 37,
+    "rowsha": "3mCn9dD8VQKDRCpySzUEeyM5/hvp4HHw4W+zGIaq5HM=",
+    "originContent": "php artisan vendor:publish --tag=mirror",
+    "translatedContent": "php artisan vendor:publish --tag=mirror"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## クイックスタート"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "ZxcvZwUYhcrFTU+O1jl9fG8koHkCbV2rHIBN594UsFc=",
+    "originContent": "### 1. Add Trait to User Model",
+    "translatedContent": "### 1. ユーザーモデルにトレイトを追加する"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 45,
+    "rowsha": "J/lW7Yyj7ls90dbooiictPaXmFLS55qH7SeKP3bDWfY=",
+    "originContent": "use Illuminate\\Foundation\\Auth\\User as Authenticatable;",
+    "translatedContent": "use Illuminate\\Foundation\\Auth\\User as Authenticatable;"
+  },
+  {
+    "row": 46,
+    "rowsha": "JdP9a+gvYGyVpCZFRBFjMkkugoDOQFQitr1/ffx9Hv0=",
+    "originContent": "use Mirror\\Concerns\\Impersonatable;",
+    "translatedContent": "use Mirror\\Concerns\\Impersonatable;"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "+1TsADIsza8y7w10k44A9wsybLILbL7AGguE2cgtKtg=",
+    "originContent": "class User extends Authenticatable",
+    "translatedContent": "class User extends Authenticatable"
+  },
+  {
+    "row": 49,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 50,
+    "rowsha": "jQqmSIZJc1Ya9LPOATz0hztSh8fIGl6PlA7dZUAW43c=",
+    "originContent": "    use Impersonatable;",
+    "translatedContent": "    use Impersonatable;"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "GgVd3g5HTbeRAaiXtjjy+/bBiB0XhlSlHKQsSq8fHno=",
+    "originContent": "    public function canImpersonate(): bool",
+    "translatedContent": "    public function canImpersonate(): bool"
+  },
+  {
+    "row": 53,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 54,
+    "rowsha": "qJHGgD1IMjBAF69yRhD3RWe4onrJkYQO0h+eU7XxW/c=",
+    "originContent": "        return $this->hasRole('admin');",
+    "translatedContent": "        return $this->hasRole('admin');"
+  },
+  {
+    "row": 55,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "/NR/e5FXpVPtU+Sdnq5+MrSjSKiarV5+/5/jd3AxViw=",
+    "originContent": "    public function canBeImpersonated(): bool",
+    "translatedContent": "    public function canBeImpersonated(): bool"
+  },
+  {
+    "row": 58,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 59,
+    "rowsha": "nFwJ6PdRbBdiiI9XvLCRUuctqwEs+E8ty5ozsj4iG/I=",
+    "originContent": "        return ! $this->hasRole('super-admin');",
+    "translatedContent": "        return ! $this->hasRole('super-admin');"
+  },
+  {
+    "row": 60,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 61,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "9BrCiQL1FWQ/pxH0bL5sJfeG2cBRq9qMrivmQbtDg2c=",
+    "originContent": "**Important:** If you don't implement `canImpersonate()`, everyone can impersonate everyone. The trait returns `true` by default.",
+    "translatedContent": "**重要:** `canImpersonate()` を実装しないと、誰でも誰にでもなりすますことができます。トレイトはデフォルトで `true` を返します。"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "G3tbG+3E6AGp8zkvgW1y9xYX3veadvBKx1jGaQcOtqI=",
+    "originContent": "### 2. Start Impersonating",
+    "translatedContent": "### 2. なりすましを開始する"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 69,
+    "rowsha": "JSGCKHZU1QCiYAWK3Rlu7HDoXj4Kq1GYgvZCUtP9h4g=",
+    "originContent": "use Mirror\\Facades\\Mirror;",
+    "translatedContent": "use Mirror\\Facades\\Mirror;"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "kjYr0fsVmNpDaO5uuRDn6DE3b5cOhIr/70Je+M9Aiq8=",
+    "originContent": "public function impersonate(User $user)",
+    "translatedContent": "public function impersonate(User $user)"
+  },
+  {
+    "row": 72,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 73,
+    "rowsha": "vzN4fcJ8EpxjqTyhTaegNik4GJdDO8aLeS1xsln9MM4=",
+    "originContent": "    Mirror::start($user);",
+    "translatedContent": "    Mirror::start($user);"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "Ah9OuzSBLta2qfmR3FKKiz/8YOr+lGNLXD7P8Py7WdY=",
+    "originContent": "    return redirect()->route('dashboard');",
+    "translatedContent": "    return redirect()->route('dashboard');"
+  },
+  {
+    "row": 76,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "GQhx6QbLE13e366cMIon5h7mOXC4KRFTJ0sA9xvYnjo=",
+    "originContent": "### 3. Stop Impersonating",
+    "translatedContent": "### 3. なりすましをやめる"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 82,
+    "rowsha": "VkXVG5fjYh9el+nqw3dqaxxM06somMQen8g9JePRjU4=",
+    "originContent": "public function leave()",
+    "translatedContent": "public function leave()"
+  },
+  {
+    "row": 83,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 84,
+    "rowsha": "TyWxjDmMRZ78W2SR8l4XanrZusO33FvV7pviIeNd2qE=",
+    "originContent": "    Mirror::stop();",
+    "translatedContent": "    Mirror::stop();"
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "jbouWHEK8GavKMY6BCnYKbmGr+sKoaj2Omm2migN4Zo=",
+    "originContent": "    return redirect()->route('admin.users.index');",
+    "translatedContent": "    return redirect()->route('admin.users.index');"
+  },
+  {
+    "row": 87,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 88,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "UlQ9upvw00moCjWDduBZqkTiv0PRDG/mYeqnsF8DP6Q=",
+    "originContent": "## Security",
+    "translatedContent": "## セキュリティ"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "Nz2fh067ItyMZlq4T/ejU4uG8F9wMmy21Mv/XWWkrpI=",
+    "originContent": "Impersonation sessions are protected with HMAC-SHA256 hashes using your app key. The hash covers the impersonator ID, guard name, start time, and redirect URL. On every `stop()` call, Mirror verifies this hash - if someone's tampered with the session, it throws an exception and clears everything.",
+    "translatedContent": "なりすましセッションは、アプリキーを用いたHMAC-SHA256ハッシュで保護されています。ハッシュはなりすましユーザーID、ガード名、開始時刻、リダイレクトURLを対象としています。`stop()`が呼ばれるたびに、Mirrorはこのハッシュを検証し、改ざんがあった場合は例外を投げてすべてをクリアします。"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "iMASu44WPaRKXSZXSIvAOVjF9ZnwqptWjrHMPLvo5to=",
+    "originContent": "Configure TTL in `config/mirror.php` to automatically expire sessions after a set time.",
+    "translatedContent": "`config/mirror.php`でTTLを設定し、一定時間後にセッションを自動的に期限切れにできます。"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "nvAYtiZ8HdVYa6kQLlWO++52V6Dkv1H6BZ+0YJLenok=",
+    "originContent": "## API Reference",
+    "translatedContent": "## APIリファレンス"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "LSVCuArg0ilonYRzuhx3Dp6L688ajiHtMwt6ZoIQAFQ=",
+    "originContent": "### Starting Impersonation",
+    "translatedContent": "### なりすましの開始"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "pig277vhZiO5Z8HuiFRDB+LDR+NZk33UFRbhcNurMrw=",
+    "originContent": "By user instance:",
+    "translatedContent": "ユーザーインスタンスによる:"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 103,
+    "rowsha": "A7Pfl58id+zo2sjmI6WV3/hn5uRAjjirrEwAL5lAPF4=",
+    "originContent": "Mirror::start($user);",
+    "translatedContent": "Mirror::start($user);"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "0h0d6BhmggvSELJAa6enzubTc6Qgx6ghpMJXK6R9jSM=",
+    "originContent": "// With redirect URLs",
+    "translatedContent": "// With redirect URLs"
+  },
+  {
+    "row": 106,
+    "rowsha": "o6VJK3f7WrS7LuyQCSRTqlnj+kyrPeaOfIRtRIedf20=",
+    "originContent": "$redirectUrl = Mirror::start(",
+    "translatedContent": "$redirectUrl = Mirror::start("
+  },
+  {
+    "row": 107,
+    "rowsha": "yVUxqAG909Go1XBTaG0m8KzSkLUt9e/0m7JJn5M73vs=",
+    "originContent": "    user: $targetUser,",
+    "translatedContent": "    user: $targetUser,"
+  },
+  {
+    "row": 108,
+    "rowsha": "UyVIDV+sjGwQFeRddz9tj5EHWromxmFJmsF0tXLnL/A=",
+    "originContent": "    leaveRedirectUrl: route('admin.users.index'),",
+    "translatedContent": "    leaveRedirectUrl: route('admin.users.index'),"
+  },
+  {
+    "row": 109,
+    "rowsha": "VQE3LeJk+obcqm7AK3sgWoaHQiWjizuJ+SwB1pvHZqY=",
+    "originContent": "    startRedirectUrl: route('dashboard')",
+    "translatedContent": "    startRedirectUrl: route('dashboard')"
+  },
+  {
+    "row": 110,
+    "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+    "originContent": ");",
+    "translatedContent": ");"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "ABvwkuPb60ia39bPOnRFaD2G0lP0kFenMclucfyYSIo=",
+    "originContent": "return redirect($redirectUrl);",
+    "translatedContent": "return redirect($redirectUrl);"
+  },
+  {
+    "row": 113,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "プライマリキーによる検索（int、UUID、ULIDなどに対応）:"
+  },
+  {
+    "row": 115,
+    "rowsha": "vatfg8FIN4jtN8WC0/mVqYhhrA4mcXGhNP/Z3FtSnQA=",
+    "originContent": "By primary key (works with int, UUID, ULID, etc.):",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 118,
+    "rowsha": "ug7seSzqs9czBMXUdGP/drgMwC92oZ3eC6Y+sr/0Kjg=",
+    "originContent": "Mirror::startByKey(123);",
+    "translatedContent": "Mirror::startByKey(123);"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "pO6Id/2A3Cu9RPSg7pIP/FikWpbx+b609v0Rrd3lIFM=",
+    "originContent": "Mirror::startByKey('550e8400-e29b-41d4-a716-446655440000');",
+    "translatedContent": "Mirror::startByKey('550e8400-e29b-41d4-a716-446655440000');"
+  },
+  {
+    "row": 121,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "メールで："
+  },
+  {
+    "row": 123,
+    "rowsha": "VBCmztpuD+F4eCsA4ZAULXKteU+PW3jODayTLaF/5jY=",
+    "originContent": "By email:",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 126,
+    "rowsha": "b0hlcV8Qb6RduYyi1YlV3r5F9Gk5S1SKyo4KUzRCnqQ=",
+    "originContent": "Mirror::startByEmail('user@example.com');",
+    "translatedContent": "Mirror::startByEmail('user@example.com');"
+  },
+  {
+    "row": 127,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "1hvMJRc/wATFSGpb22RLsQWuEoHti4jASs/0y5++dyw=",
+    "originContent": "### Stopping Impersonation",
+    "translatedContent": "### なりすましの停止"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 132,
+    "rowsha": "c04cnY4jJajq0FhDWbAoP6EY5ConN4aBulDZIi88puc=",
+    "originContent": "Mirror::stop();",
+    "translatedContent": "Mirror::stop();"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "Vh0M+lx12cqj7qITVBCLFiCgYHtE+0UfrifX0lSTEFc=",
+    "originContent": "// Force stop - bypasses TTL check but still verifies integrity",
+    "translatedContent": "// Force stop - bypasses TTL check but still verifies integrity"
+  },
+  {
+    "row": 135,
+    "rowsha": "JqkzjmKLhI/faDe1j3DsSkOYweidrBznhLWw/xfsOGc=",
+    "originContent": "Mirror::forceStop();",
+    "translatedContent": "Mirror::forceStop();"
+  },
+  {
+    "row": 136,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "8Or+tfXNCJXVMZdZTJgq9YAm6Z/9x1qRMo//5iUfmwg=",
+    "originContent": "Use `forceStop()` when you need to end impersonation from admin actions or cleanup scripts - it skips the TTL check but still throws if the session's been tampered with.",
+    "translatedContent": "管理者操作やクリーンアップスクリプトからのなりすましを終了する必要がある場合は、`forceStop()`を使用してください - TTLチェックをスキップしますが、セッションが改ざんされている場合は例外を投げます。"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "dWHISz/S0vRE7W4i5N3KILhRIXX9dW+sufyJDi2gojM=",
+    "originContent": "### Checking State",
+    "translatedContent": "### 状態の確認"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 143,
+    "rowsha": "wn69nc1NWlqcIwg//f0ODZJaiWb6Q4xhx5tQ3g36CPg=",
+    "originContent": "Mirror::isImpersonating(): bool",
+    "translatedContent": "Mirror::isImpersonating(): bool"
+  },
+  {
+    "row": 144,
+    "rowsha": "iPGcLqBRnVnLDfctitI1oxKK66djCU7I1W+i/R1ANPk=",
+    "originContent": "Mirror::getImpersonator(): ?Authenticatable",
+    "translatedContent": "Mirror::getImpersonator(): ?Authenticatable"
+  },
+  {
+    "row": 145,
+    "rowsha": "wAOhwnor1LHbrW5rFtYXXLAEOXUIR7iNMvcey7cjjNc=",
+    "originContent": "Mirror::impersonatorId(): int|string|null",
+    "translatedContent": "Mirror::impersonatorId(): int|string|null"
+  },
+  {
+    "row": 146,
+    "rowsha": "XCCfmtKpc06Y+ob6GHoX/RHHe4GNQB3vDNfDwiZfAdc=",
+    "originContent": "Mirror::getLeaveRedirectUrl(): ?string",
+    "translatedContent": "Mirror::getLeaveRedirectUrl(): ?string"
+  },
+  {
+    "row": 147,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "YDNFEOO+w2UZqxWwJHlm18q3rH0tmGaJmAXKiScX/7s=",
+    "originContent": "### Aliases",
+    "translatedContent": "### エイリアス"
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 152,
+    "rowsha": "xX+zgKpnvccOFKQ5Pxc6DoFNqXVfds8Q0rma1lHqKGQ=",
+    "originContent": "Mirror::as($user);           // same as start()",
+    "translatedContent": "Mirror::as($user);           // same as start()"
+  },
+  {
+    "row": 153,
+    "rowsha": "CGFGEO6H/QsyN6j2cExHytu6ubgDiujUrpGCUOlLEEs=",
+    "originContent": "Mirror::leave();             // same as stop()",
+    "translatedContent": "Mirror::leave();             // same as stop()"
+  },
+  {
+    "row": 154,
+    "rowsha": "5bQUEnNGJXSlUGI87z797Qz33mi8B9HUblsknlOd6vs=",
+    "originContent": "Mirror::impersonating();     // same as isImpersonating()",
+    "translatedContent": "Mirror::impersonating();     // same as isImpersonating()"
+  },
+  {
+    "row": 155,
+    "rowsha": "3ie3VFJi1v00DUtmAp6j4VGTpkUxKwl5sZ0ne6YSiNk=",
+    "originContent": "Mirror::impersonator();      // same as getImpersonator()",
+    "translatedContent": "Mirror::impersonator();      // same as getImpersonator()"
+  },
+  {
+    "row": 156,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "FW1hP8lwtn8uShkFdBUKLenfZtjBF5cfzarJ3MOcylo=",
+    "originContent": "## Middleware",
+    "translatedContent": "## ミドルウェア"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "RU/8LAVTnadZ7LZDuaWY0/dpUbuBqN87jLkEpEHSCC0=",
+    "originContent": "### `mirror.ttl`",
+    "translatedContent": "### `mirror.ttl`"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "GjmM5vV3dk7L3QVJAqKgSagf9jQPx9y9OIE9fXbY9qg=",
+    "originContent": "Checks if the impersonation session has expired and automatically calls `stop()` if needed:",
+    "translatedContent": "なりすましセッションが期限切れかどうかを確認し、必要に応じて自動的に `stop()` を呼び出します:"
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 165,
+    "rowsha": "bxoexYOi+Mlk5c0m+3Sk6gKfTECol4Q/gQPcBWiVDLo=",
+    "originContent": "Route::middleware('mirror.ttl')->group(function () {",
+    "translatedContent": "Route::middleware('mirror.ttl')->group(function () {"
+  },
+  {
+    "row": 166,
+    "rowsha": "oksjhOe33wip+++/BozIQdx4he4ndCk2AR6TfdbELGM=",
+    "originContent": "    Route::get('/admin/users', [UserController::class, 'index']);",
+    "translatedContent": "    Route::get('/admin/users', [UserController::class, 'index']);"
+  },
+  {
+    "row": 167,
+    "rowsha": "4CNuC57rp6JCThDjNOrrTBKxh76d2r3027e+rT7Y58E=",
+    "originContent": "    Route::get('/admin/users/{user}', [UserController::class, 'show']);",
+    "translatedContent": "    Route::get('/admin/users/{user}', [UserController::class, 'show']);"
+  },
+  {
+    "row": 168,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 169,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "ui3trFiwnTUI9LrVv5qDZ7/iOXRKeal6jBCBKCxBtOg=",
+    "originContent": "Good for protecting sensitive admin areas where you want expired sessions to exit gracefully. Note that when TTL expires, this middleware will end the impersonation and redirect, so make sure your session cleanup is set up properly.",
+    "translatedContent": "管理者の機密エリアを保護するのに適しており、有効期限切れのセッションが正常に終了することを保証します。TTLが切れると、このミドルウェアはなりすましを終了してリダイレクトするため、セッションのクリーンアップが適切に設定されていることを確認してください。"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "OBKuLK9n9RFbP5GFOuSRMHcw1a+bJz1uZM/cdlvotwE=",
+    "originContent": "### `mirror.require`",
+    "translatedContent": "### `mirror.require`"
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 175,
+    "rowsha": "TgaeB+DfXReo2HyWwtJk8t6z52QENwQh88YV1C4mcOc=",
+    "originContent": "Only allows access if actively impersonating:",
+    "translatedContent": "なりすまし中の場合にのみアクセスを許可します："
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 178,
+    "rowsha": "dhpWT4yTrxAzvtlQ3Z80oBAuG4IiQMisnJ8B8RaYvF4=",
+    "originContent": "Route::middleware('mirror.require')->group(function () {",
+    "translatedContent": "Route::middleware('mirror.require')->group(function () {"
+  },
+  {
+    "row": 179,
+    "rowsha": "XM65dB+VeeMfh6fd/gAdnCzDQxzgKVt0BGsfmtQP+MI=",
+    "originContent": "    Route::get('/impersonation/banner', function () {",
+    "translatedContent": "    Route::get('/impersonation/banner', function () {"
+  },
+  {
+    "row": 180,
+    "rowsha": "Z3ZTf30Y8Q5HBlcnc0+Qsz1Alx4c6Gu9OMLYBRsFLVk=",
+    "originContent": "        return view('impersonation.banner');",
+    "translatedContent": "        return view('impersonation.banner');"
+  },
+  {
+    "row": 181,
+    "rowsha": "J1qSMWPEACGxjVVVepYn/QGoe0S8Ili1BNZcMfXgap0=",
+    "originContent": "    });",
+    "translatedContent": "    });"
+  },
+  {
+    "row": 182,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 183,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "DmcpXQo51uA3s461cgyu7I4v7NMWTwpxwRPqTxYEJOA=",
+    "originContent": "Useful for special UI components that only make sense during impersonation - like a banner showing who you're impersonating.",
+    "translatedContent": "なりすまし中にのみ意味を持つ特別なUIコンポーネントに便利です - 例えば、誰になりすましているかを示すバナーなど。"
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "CfG9uxpzM7senokZFZcTJeEEkNqChxRFV4ToGwc5LzY=",
+    "originContent": "### `mirror.prevent`",
+    "translatedContent": "### `mirror.prevent`"
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "LCcCSXJIenHXfN3GSwJtUn2Jg6ETV/aCRcl0B6+5gxc=",
+    "originContent": "Blocks access while impersonating:",
+    "translatedContent": "なりすまし中のアクセスをブロックします："
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 192,
+    "rowsha": "3WblbW22EyXiPNfDycOmvclVQaPui4QlXyIYD4dFs7E=",
+    "originContent": "Route::middleware('mirror.prevent')->group(function () {",
+    "translatedContent": "Route::middleware('mirror.prevent')->group(function () {"
+  },
+  {
+    "row": 193,
+    "rowsha": "RXJ0is+/HlQS7kYmBNIaoqgzb277slZ1feS9lT8ojJE=",
+    "originContent": "    Route::post('/admin/users/{user}/delete', [UserController::class, 'destroy']);",
+    "translatedContent": "    Route::post('/admin/users/{user}/delete', [UserController::class, 'destroy']);"
+  },
+  {
+    "row": 194,
+    "rowsha": "+ZzpGihLaWNAE29pxi0BwIRf23VrRVLN6IY/kV35hkA=",
+    "originContent": "    Route::get('/admin/settings', [SettingsController::class, 'edit']);",
+    "translatedContent": "    Route::get('/admin/settings', [SettingsController::class, 'edit']);"
+  },
+  {
+    "row": 195,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 196,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "6roV3/qnJQLWbY53OBJw5V5K9MOSPy4IEHL65w5IJ1M=",
+    "originContent": "Protects destructive actions or sensitive settings that should only be accessed as the original user, not while impersonating someone else.",
+    "translatedContent": "破壊的な操作や、なりすまし中ではなく元のユーザーとしてのみアクセスすべき機密設定を保護します。"
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "frD4nV68AAXC9SWFOdRuDVS//lGdL/RUL4b2TcAAKmc=",
+    "originContent": "## Authorization",
+    "translatedContent": "## 認可"
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "hF0qZLq19YdyyG80d/YwjfWIz3yneraFDEhT6eOedfo=",
+    "originContent": "The `Impersonatable` trait provides two methods that both return `true` by default. Override them to add your own logic:",
+    "translatedContent": "`Impersonatable` トレイトは、デフォルトで両方とも `true` を返す2つのメソッドを提供します。これらをオーバーライドして独自のロジックを追加してください："
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 205,
+    "rowsha": "JdP9a+gvYGyVpCZFRBFjMkkugoDOQFQitr1/ffx9Hv0=",
+    "originContent": "use Mirror\\Concerns\\Impersonatable;",
+    "translatedContent": "use Mirror\\Concerns\\Impersonatable;"
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "+1TsADIsza8y7w10k44A9wsybLILbL7AGguE2cgtKtg=",
+    "originContent": "class User extends Authenticatable",
+    "translatedContent": "class User extends Authenticatable"
+  },
+  {
+    "row": 208,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 209,
+    "rowsha": "jQqmSIZJc1Ya9LPOATz0hztSh8fIGl6PlA7dZUAW43c=",
+    "originContent": "    use Impersonatable;",
+    "translatedContent": "    use Impersonatable;"
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "GgVd3g5HTbeRAaiXtjjy+/bBiB0XhlSlHKQsSq8fHno=",
+    "originContent": "    public function canImpersonate(): bool",
+    "translatedContent": "    public function canImpersonate(): bool"
+  },
+  {
+    "row": 212,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 213,
+    "rowsha": "qJHGgD1IMjBAF69yRhD3RWe4onrJkYQO0h+eU7XxW/c=",
+    "originContent": "        return $this->hasRole('admin');",
+    "translatedContent": "        return $this->hasRole('admin');"
+  },
+  {
+    "row": 214,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 215,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "/NR/e5FXpVPtU+Sdnq5+MrSjSKiarV5+/5/jd3AxViw=",
+    "originContent": "    public function canBeImpersonated(): bool",
+    "translatedContent": "    public function canBeImpersonated(): bool"
+  },
+  {
+    "row": 217,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 218,
+    "rowsha": "nFwJ6PdRbBdiiI9XvLCRUuctqwEs+E8ty5ozsj4iG/I=",
+    "originContent": "        return ! $this->hasRole('super-admin');",
+    "translatedContent": "        return ! $this->hasRole('super-admin');"
+  },
+  {
+    "row": 219,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 220,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 221,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 222,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 223,
+    "rowsha": "j0ZfTbSRsYaqDy1dHA45SoSf8p/8RjGP0aQ1BFTPRSY=",
+    "originContent": "You don't need the trait - Mirror will look for these methods on your user model regardless:",
+    "translatedContent": "トレイトは必要ありません - Mirror はこれらのメソッドをユーザーモデルで自動的に探します:"
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 226,
+    "rowsha": "+1TsADIsza8y7w10k44A9wsybLILbL7AGguE2cgtKtg=",
+    "originContent": "class User extends Authenticatable",
+    "translatedContent": "class User extends Authenticatable"
+  },
+  {
+    "row": 227,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 228,
+    "rowsha": "GgVd3g5HTbeRAaiXtjjy+/bBiB0XhlSlHKQsSq8fHno=",
+    "originContent": "    public function canImpersonate(): bool",
+    "translatedContent": "    public function canImpersonate(): bool"
+  },
+  {
+    "row": 229,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 230,
+    "rowsha": "7gl3zQbzWf1js3t5rWAfcccWHqvX4QgOTLnWJuNfIkk=",
+    "originContent": "        return $this->hasPermission('impersonate-users');",
+    "translatedContent": "        return $this->hasPermission('impersonate-users');"
+  },
+  {
+    "row": 231,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 232,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 233,
+    "rowsha": "/NR/e5FXpVPtU+Sdnq5+MrSjSKiarV5+/5/jd3AxViw=",
+    "originContent": "    public function canBeImpersonated(): bool",
+    "translatedContent": "    public function canBeImpersonated(): bool"
+  },
+  {
+    "row": 234,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 235,
+    "rowsha": "emJaScE3oXenu8qPkvFTQWjY05S7MtW4kkk/XvdqN70=",
+    "originContent": "        return ! $this->is_system_account;",
+    "translatedContent": "        return ! $this->is_system_account;"
+  },
+  {
+    "row": 236,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 237,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 238,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 239,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 240,
+    "rowsha": "hv4bUjPSSbNjzGBdkFQqGhK+FN2OYrEht2FwXBRiINM=",
+    "originContent": "## URL Redirection",
+    "translatedContent": "## URLリダイレクション"
+  },
+  {
+    "row": 241,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 242,
+    "rowsha": "wi4FDxFNw5Okya/0dkJzwdVkud89+knxURJy8PcG+bo=",
+    "originContent": "You can control where users go when starting and stopping impersonation:",
+    "translatedContent": "なりすましの開始時と停止時にユーザーが移動する先を制御できます："
+  },
+  {
+    "row": 243,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 244,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 245,
+    "rowsha": "kjYr0fsVmNpDaO5uuRDn6DE3b5cOhIr/70Je+M9Aiq8=",
+    "originContent": "public function impersonate(User $user)",
+    "translatedContent": "public function impersonate(User $user)"
+  },
+  {
+    "row": 246,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 247,
+    "rowsha": "kOC32tpOrb2W2nXUEC3goR2BxvG4FiT20Gd6izFss+8=",
+    "originContent": "    $redirectUrl = Mirror::start(",
+    "translatedContent": "    $redirectUrl = Mirror::start("
+  },
+  {
+    "row": 248,
+    "rowsha": "l8HsqfCAp8Itw1xGVE7xjmMA6mOvdtRWtTQZJ/C6Ksg=",
+    "originContent": "        user: $user,",
+    "translatedContent": "        user: $user,"
+  },
+  {
+    "row": 249,
+    "rowsha": "fShDwmMraGGJvVKXFF7UzQs25jAK01HWzbCYaZLbWeA=",
+    "originContent": "        leaveRedirectUrl: route('admin.users.index'),  // where to go when they stop",
+    "translatedContent": "        leaveRedirectUrl: route('admin.users.index'),  // where to go when they stop"
+  },
+  {
+    "row": 250,
+    "rowsha": "Gptti74Kd00eR7axQujrlnjTxVqVfC2iBYhV3GJhD+g=",
+    "originContent": "        startRedirectUrl: route('dashboard')            // where to go right now",
+    "translatedContent": "        startRedirectUrl: route('dashboard')            // where to go right now"
+  },
+  {
+    "row": 251,
+    "rowsha": "Z2lMElzKjKCmJyXf71joUm6rTSJ2l9cz8FUpXZAfx3I=",
+    "originContent": "    );",
+    "translatedContent": "    );"
+  },
+  {
+    "row": 252,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 253,
+    "rowsha": "k8YR9BYBgyWTxyJbFbJYrii0SFt7Lwc0jH1yOcCMX2c=",
+    "originContent": "    return redirect($redirectUrl);",
+    "translatedContent": "    return redirect($redirectUrl);"
+  },
+  {
+    "row": 254,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 255,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 256,
+    "rowsha": "VkXVG5fjYh9el+nqw3dqaxxM06somMQen8g9JePRjU4=",
+    "originContent": "public function leave()",
+    "translatedContent": "public function leave()"
+  },
+  {
+    "row": 257,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 258,
+    "rowsha": "TyWxjDmMRZ78W2SR8l4XanrZusO33FvV7pviIeNd2qE=",
+    "originContent": "    Mirror::stop();",
+    "translatedContent": "    Mirror::stop();"
+  },
+  {
+    "row": 259,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 260,
+    "rowsha": "q5ZBEK2lawZ8nMZORYaxhLKqvDYrqouiDjWb6n0jW4Q=",
+    "originContent": "    return redirect(Mirror::getLeaveRedirectUrl());",
+    "translatedContent": "    return redirect(Mirror::getLeaveRedirectUrl());"
+  },
+  {
+    "row": 261,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 262,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 263,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "もし `leaveRedirectUrl` を指定しない場合、`start()` が呼び出された現在のURLがデフォルトになります。"
+  },
+  {
+    "row": 264,
+    "rowsha": "iHnCjCYbegdBQpIES9UxXaMm8Glo2PX46w12b/BIAaY=",
+    "originContent": "If you don't specify `leaveRedirectUrl`, it defaults to the current URL where `start()` was called.",
+    "translatedContent": ""
+  },
+  {
+    "row": 265,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## イベント"
+  },
+  {
+    "row": 266,
+    "rowsha": "9Hdro9D9U85AMXDMLYzKeihj0dCt+KNCMtuTHmDpGDA=",
+    "originContent": "## Events",
+    "translatedContent": ""
+  },
+  {
+    "row": 267,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Mirrorはリッスン可能な2つのイベントを発行します："
+  },
+  {
+    "row": 268,
+    "rowsha": "RaqMFjganuCwMigDSi0SKk7JwbHsGrGYKZ2Rop5UH6Y=",
+    "originContent": "Mirror dispatches two events you can listen to:",
+    "translatedContent": ""
+  },
+  {
+    "row": 269,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `Mirror\\Events\\ImpersonationStarted`"
+  },
+  {
+    "row": 270,
+    "rowsha": "nmrwNU9vXMMyr67rX7+Zwr2AZWH2Ht6bDAS+HastpSc=",
+    "originContent": "- `Mirror\\Events\\ImpersonationStarted`",
+    "translatedContent": "- `Mirror\\Events\\ImpersonationStopped`"
+  },
+  {
+    "row": 271,
+    "rowsha": "ll20JK5832kaDjifRGuKL94xOr9DBX+kdMKosbiTp34=",
+    "originContent": "- `Mirror\\Events\\ImpersonationStopped`",
+    "translatedContent": ""
+  },
+  {
+    "row": 272,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "両方のイベントにはなりすましを行うユーザー、対象ユーザー、およびガード名が含まれます。監査ログやワークフローのトリガーに適しています。"
+  },
+  {
+    "row": 273,
+    "rowsha": "Oeev8arn8W/PptLQCcl29znzQM8h5TGPvCUNxtr0qiM=",
+    "originContent": "Both events contain the impersonator, the target user, and the guard name. Good for audit logs or triggering workflows.",
+    "translatedContent": ""
+  },
+  {
+    "row": 274,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "イベントはクライアントへのレスポンス送信**後**に発行され、重要ななりすまし操作が遅延なく完了することを保証します。これは、すべてのリクエストで実行される可能性がある `mirror.ttl` のようなミドルウェアにとって特に重要です。"
+  },
+  {
+    "row": 275,
+    "rowsha": "Y7uClypREzpU3Af3KpIPC/JM+m2zOfDZ7mHl/WI1JcY=",
+    "originContent": "Events are dispatched **after the response** is sent to the client, ensuring that critical impersonation operations complete without delay. This is especially important for middleware like `mirror.ttl` that may run on every request.",
+    "translatedContent": ""
+  },
+  {
+    "row": 276,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 277,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 278,
+    "rowsha": "jchxcepOxwDbmRvBclfVj5nVFQERn6Ly/5KWRTsXFzE=",
+    "originContent": "use Mirror\\Events\\ImpersonationStarted;",
+    "translatedContent": "use Mirror\\Events\\ImpersonationStarted;"
+  },
+  {
+    "row": 279,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 280,
+    "rowsha": "XtN3F4Q8CmTIQ7KP627LLwnavBQTlaXPVf99TooB0Ck=",
+    "originContent": "Event::listen(ImpersonationStarted::class, function (ImpersonationStarted $event) {",
+    "translatedContent": "Event::listen(ImpersonationStarted::class, function (ImpersonationStarted $event) {"
+  },
+  {
+    "row": 281,
+    "rowsha": "z7f2wivfOFQI3MIQQrpkdDPTg4DND+98DcT+vgR3aV4=",
+    "originContent": "    // Log the activity to your audit system of choice",
+    "translatedContent": "    // Log the activity to your audit system of choice"
+  },
+  {
+    "row": 282,
+    "rowsha": "v6TZputJ/ra8+pn31dIxhXMZ+4ybJ93e2OCVfCDkbtE=",
+    "originContent": "    Log::info('User impersonation started', [",
+    "translatedContent": "    Log::info('User impersonation started', ["
+  },
+  {
+    "row": 283,
+    "rowsha": "JIYoJi86KWUeP/hMD6InwQvmCfkded+dyTBeinPHO4I=",
+    "originContent": "        'impersonator_id' => $event->impersonator->id,",
+    "translatedContent": "        'impersonator_id' => $event->impersonator->id,"
+  },
+  {
+    "row": 284,
+    "rowsha": "bKLa59sUKxLG7/3JdJVuy+P7I0Nn32GGIXEDiGO6Mgo=",
+    "originContent": "        'impersonated_id' => $event->impersonated->id,",
+    "translatedContent": "        'impersonated_id' => $event->impersonated->id,"
+  },
+  {
+    "row": 285,
+    "rowsha": "Q+IlUzLqQfVUBHmh2e1Z5De8qKakd2WjtFlAMtJDYUg=",
+    "originContent": "        'guard' => $event->guardName,",
+    "translatedContent": "        'guard' => $event->guardName,"
+  },
+  {
+    "row": 286,
+    "rowsha": "OFJqyarrbbAJW0KxGa9zOW74b6jukjklfrvuWWl6xzo=",
+    "originContent": "    ]);",
+    "translatedContent": "    ]);"
+  },
+  {
+    "row": 287,
+    "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
+    "originContent": "});",
+    "translatedContent": "});"
+  },
+  {
+    "row": 288,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 289,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 290,
+    "rowsha": "QFllIyd+LM8n4Z714rXIpl8MDVC79gmbOp40T9+gevI=",
+    "originContent": "## Performance & Optimization",
+    "translatedContent": "## パフォーマンスと最適化"
+  },
+  {
+    "row": 291,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 292,
+    "rowsha": "F/qSUi+7QoOEHzNz915qARBF9nHaqet650wOL9Cm51c=",
+    "originContent": "Mirror is optimized for high-performance applications:",
+    "translatedContent": "Mirrorは高性能アプリケーション向けに最適化されています："
+  },
+  {
+    "row": 293,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 294,
+    "rowsha": "y3DVg2tTU06v+644a3GNIAEsqGjCPl0pvoq2FSf0Nl4=",
+    "originContent": "### Request-Scoped Caching",
+    "translatedContent": "### リクエストスコープのキャッシュ"
+  },
+  {
+    "row": 295,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 296,
+    "rowsha": "SoZNWQoIjFlf7ix1GxV7yGeVP2gcNPAntYMEtV0wIVA=",
+    "originContent": "The impersonator model is cached within a single request to avoid redundant database queries:",
+    "translatedContent": "なりすましモデルは単一のリクエスト内でキャッシュされ、冗長なデータベースクエリを回避します："
+  },
+  {
+    "row": 297,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 298,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 299,
+    "rowsha": "IV+sJFjtADZKDoZcX+Ttwb3yleqT4Q7VW3eUw/UuJ4I=",
+    "originContent": "// This first call will query the database",
+    "translatedContent": "// This first call will query the database"
+  },
+  {
+    "row": 300,
+    "rowsha": "LFIyNxn4oQuVkojsisyC/GFV4CeJxTfN3AL07XAeTQs=",
+    "originContent": "$impersonator = Mirror::getImpersonator();",
+    "translatedContent": "$impersonator = Mirror::getImpersonator();"
+  },
+  {
+    "row": 301,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 302,
+    "rowsha": "BDUX+la7qovM+qQzVmX9wfwDU7Y8HceuIE+mkoNT7OI=",
+    "originContent": "// Subsequent calls in the same request use the cached instance, therefore this one will not:",
+    "translatedContent": "// Subsequent calls in the same request use the cached instance, therefore this one will not:"
+  },
+  {
+    "row": 303,
+    "rowsha": "LFIyNxn4oQuVkojsisyC/GFV4CeJxTfN3AL07XAeTQs=",
+    "originContent": "$impersonator = Mirror::getImpersonator();",
+    "translatedContent": "$impersonator = Mirror::getImpersonator();"
+  },
+  {
+    "row": 304,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 305,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 306,
+    "rowsha": "Dzz/cJh9cGS/RdaCvY15oi4zHqeaFWOmmgluoUfD/0c=",
+    "originContent": "This is particularly beneficial for middleware like `mirror.ttl` that run on every request.",
+    "translatedContent": "これは、すべてのリクエストで実行される `mirror.ttl` のようなミドルウェアに特に有益です。"
+  },
+  {
+    "row": 307,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 308,
+    "rowsha": "PTvqGdynTT5najyl8KpHOzqKTQGbZxlk9cEYwq/ywnU=",
+    "originContent": "### Deferred Event Dispatching",
+    "translatedContent": "### イベントの遅延ディスパッチ"
+  },
+  {
+    "row": 309,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 310,
+    "rowsha": "lfWZPZ6WXKKPya2wspxlfHuei4Sel6JaAQyH3a2SYSY=",
+    "originContent": "Impersonation events are dispatched after the response is sent to the client, ensuring that event listeners don't impact response time. This keeps your request cycle fast while still allowing audit logging and other background tasks.",
+    "translatedContent": "インパーソネーションイベントは、レスポンスがクライアントに送信された後にディスパッチされ、イベントリスナーがレスポンスタイムに影響を与えないようにします。これにより、リクエストサイクルを高速に保ちつつ、監査ログやその他のバックグラウンドタスクを可能にします。"
+  },
+  {
+    "row": 311,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 312,
+    "rowsha": "w1qtSvowNpp8EKyt9TXKNXk54GIoaYpneMN0Iq5An/k=",
+    "originContent": "## Multi-Guard Support",
+    "translatedContent": "## マルチガードサポート"
+  },
+  {
+    "row": 313,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 314,
+    "rowsha": "NmD3WjSJQGvaUdSArVD/ZMevhEcYdFCgnMILfXGKkos=",
+    "originContent": "Mirror automatically detects which guard you're using:",
+    "translatedContent": "Mirrorは使用しているガードを自動的に検出します："
+  },
+  {
+    "row": 315,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 316,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 317,
+    "rowsha": "rPhPIAwkhEDB9GCGHmHxfhF2sxtCxwJ8VGtc/rjBRCc=",
+    "originContent": "Auth::guard('admin')->login($admin);",
+    "translatedContent": "Auth::guard('admin')->login($admin);"
+  },
+  {
+    "row": 318,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 319,
+    "rowsha": "8O5B8BqsRzj2H0sB4H8SkF4XzG1O9pyHEV/uN9pyr2g=",
+    "originContent": "Mirror::start($user); // uses 'admin' guard",
+    "translatedContent": "Mirror::start($user); // uses 'admin' guard"
+  },
+  {
+    "row": 320,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 321,
+    "rowsha": "Z8fLSsjh7xC9Vnj9kQJBh0BXiLwXgVHkiGC1VoTY/B4=",
+    "originContent": "Mirror::stop(); // restores to 'admin' guard",
+    "translatedContent": "Mirror::stop(); // restores to 'admin' guard"
+  },
+  {
+    "row": 322,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 323,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 324,
+    "rowsha": "UyFlDoA+vB4w+kk8VQOwOmjoUJ/ikYS9GsGmyJm62cA=",
+    "originContent": "You don't need to specify the guard manually - it figures it out from the current auth context.",
+    "translatedContent": "ガードを手動で指定する必要はありません - 現在の認証コンテキストから自動的に判断します。"
+  },
+  {
+    "row": 325,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 326,
+    "rowsha": "lkxm6RokaoE9+9uY7N1kTIzwX/GGzsgRCiXMSM7l9zM=",
+    "originContent": "## Blade Directives",
+    "translatedContent": "## Bladeディレクティブ"
+  },
+  {
+    "row": 327,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 328,
+    "rowsha": "pyd/1OxreeGoQ0qhijpV9lMVzDGW3lBeYStNcdgVNp0=",
+    "originContent": "**@impersonating**",
+    "translatedContent": "**@impersonating**"
+  },
+  {
+    "row": 329,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 330,
+    "rowsha": "PqeLQeEMT7x8W+cEu1eqxup+bMb3J96RLCMzbg13W0M=",
+    "originContent": "```blade",
+    "translatedContent": "```blade"
+  },
+  {
+    "row": 331,
+    "rowsha": "C0qd9QEd6DtoFDBjz9az9Oq+vOswgPCFBxo8Bs6xYJM=",
+    "originContent": "@impersonating",
+    "translatedContent": "@impersonating"
+  },
+  {
+    "row": 332,
+    "rowsha": "oyOREDXtDolRzVwkGfhBwStdvoNApWZyxhsO3922NeI=",
+    "originContent": "    <div class=\"alert\">",
+    "translatedContent": "    <div class=\"alert\">"
+  },
+  {
+    "row": 333,
+    "rowsha": "GahekKqWLlrjYntOWUT/rKxXhYFWUehBbxhOzu8/Yi8=",
+    "originContent": "        You're impersonating {{ auth()->user()->name }}.",
+    "translatedContent": "        You're impersonating {{ auth()->user()->name }}."
+  },
+  {
+    "row": 334,
+    "rowsha": "bN1P95JG4Gu2KkkmnzamdXASANo+tleolsjtcnr8P2A=",
+    "originContent": "        <a href=\"{{ route('impersonation.leave') }}\">Exit</a>",
+    "translatedContent": "        <a href=\"{{ route('impersonation.leave') }}\">Exit</a>"
+  },
+  {
+    "row": 335,
+    "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+    "originContent": "    </div>",
+    "translatedContent": "    </div>"
+  },
+  {
+    "row": 336,
+    "rowsha": "ScZQh0wvgjxMufJcwObggiirBlFj0+q+qZVjeJnWdoE=",
+    "originContent": "@endimpersonating",
+    "translatedContent": "@endimpersonating"
+  },
+  {
+    "row": 337,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 338,
+    "rowsha": "ERmgkoSa+2F53lkAlVk65xb3JcosT3uJowKZdkUGDVM=",
+    "originContent": "{{-- Check specific guard --}}",
+    "translatedContent": "{{-- Check specific guard --}}"
+  },
+  {
+    "row": 339,
+    "rowsha": "rPP4YOUj1DK4hNEaN60iB1gWsyErwBNPFP4HieGMxFY=",
+    "originContent": "@impersonating('admin')",
+    "translatedContent": "@impersonating('admin')"
+  },
+  {
+    "row": 340,
+    "rowsha": "3VOaaElsZbXmngQGXM0tSVVFB9c7/urX8LVvf+wWAeY=",
+    "originContent": "    <div>Impersonating via admin guard</div>",
+    "translatedContent": "    <div>Impersonating via admin guard</div>"
+  },
+  {
+    "row": 341,
+    "rowsha": "ScZQh0wvgjxMufJcwObggiirBlFj0+q+qZVjeJnWdoE=",
+    "originContent": "@endimpersonating",
+    "translatedContent": "@endimpersonating"
+  },
+  {
+    "row": 342,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 343,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 344,
+    "rowsha": "etNz8kzRTM0LykMK0NxDt+Fldp+KvHQZZStBPtZYxx0=",
+    "originContent": "**@canImpersonate**",
+    "translatedContent": "**@canImpersonate**"
+  },
+  {
+    "row": 345,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 346,
+    "rowsha": "PqeLQeEMT7x8W+cEu1eqxup+bMb3J96RLCMzbg13W0M=",
+    "originContent": "```blade",
+    "translatedContent": "```blade"
+  },
+  {
+    "row": 347,
+    "rowsha": "6xPiG3VpfuLmAHdJOWtNyxGK1ClWbwfenClYX57vlM8=",
+    "originContent": "@canImpersonate",
+    "translatedContent": "@canImpersonate"
+  },
+  {
+    "row": 348,
+    "rowsha": "QpBv0UZfu386/HdAhQWnJ4MGgSVgIFwiwwpewiweMaY=",
+    "originContent": "    <a href=\"{{ route('admin.users.index') }}\">Manage Users</a>",
+    "translatedContent": "    <a href=\"{{ route('admin.users.index') }}\">Manage Users</a>"
+  },
+  {
+    "row": 349,
+    "rowsha": "dEkcV1TFpd3/xqAUD/QbaBYVeuJQZko2fyDXjv/ctto=",
+    "originContent": "@endcanImpersonate",
+    "translatedContent": "@endcanImpersonate"
+  },
+  {
+    "row": 350,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 351,
+    "rowsha": "KjfwYF8IHnKxN+lzFiWjv+FLUXEqJv3aFTYa3QJeA9s=",
+    "originContent": "{{-- With guard --}}",
+    "translatedContent": "{{-- With guard --}}"
+  },
+  {
+    "row": 352,
+    "rowsha": "+pMVQU1en6u/FRVUydy34LjT8PUjDMd0rSQ0sS/z2ic=",
+    "originContent": "@canImpersonate('admin')",
+    "translatedContent": "@canImpersonate('admin')"
+  },
+  {
+    "row": 353,
+    "rowsha": "fVHb23sUYsk90FS0pjgwe/vaVofGDd3gnaVUkOfDQyc=",
+    "originContent": "    <div>Admin tools</div>",
+    "translatedContent": "    <div>Admin tools</div>"
+  },
+  {
+    "row": 354,
+    "rowsha": "dEkcV1TFpd3/xqAUD/QbaBYVeuJQZko2fyDXjv/ctto=",
+    "originContent": "@endcanImpersonate",
+    "translatedContent": "@endcanImpersonate"
+  },
+  {
+    "row": 355,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 356,
+    "rowsha": "PqeLQeEMT7x8W+cEu1eqxup+bMb3J96RLCMzbg13W0M=",
+    "originContent": "```blade",
+    "translatedContent": "```blade"
+  },
+  {
+    "row": 357,
+    "rowsha": "9NeqZ6NbJ//i8QHFja2z0CIj+DH/DF4w/LD3Nov3MOs=",
+    "originContent": "{{-- Check current user --}}",
+    "translatedContent": "{{-- Check current user --}}"
+  },
+  {
+    "row": 358,
+    "rowsha": "vui8pI4o5dPx/CSolfsdRHm+7jrP8LDsOtjd6ePpOL0=",
+    "originContent": "@canBeImpersonated",
+    "translatedContent": "@canBeImpersonated"
+  },
+  {
+    "row": 359,
+    "rowsha": "m994VAirVSAKzo8Tdc3E2zbQAmAUxbhgSlOjOQcPS9c=",
+    "originContent": "    <span>Available for support</span>",
+    "translatedContent": "    <span>Available for support</span>"
+  },
+  {
+    "row": 360,
+    "rowsha": "aXmj3kiDMAcFP0gciGbC1P+TQWvxPjymoQDuwLmADls=",
+    "originContent": "@endcanBeImpersonated",
+    "translatedContent": "@endcanBeImpersonated"
+  },
+  {
+    "row": 361,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 362,
+    "rowsha": "yOdupEeT5PNSaKuEWzeKjcMLFf01YovocNQsU9PAhXM=",
+    "originContent": "{{-- Check specific user --}}",
+    "translatedContent": "{{-- Check specific user --}}"
+  },
+  {
+    "row": 363,
+    "rowsha": "GMg7Xedqgc51xHmI38mHCzne7zgAYDFqfv2QNHXvaqk=",
+    "originContent": "@canBeImpersonated($user)",
+    "translatedContent": "@canBeImpersonated($user)"
+  },
+  {
+    "row": 364,
+    "rowsha": "M0MX+vtHmk2Ahj2VDs49EJ0oanWNEg6DprUL1TWOxFo=",
+    "originContent": "    <form method=\"POST\" action=\"{{ route('impersonation.start', $user) }}\">",
+    "translatedContent": "    <form method=\"POST\" action=\"{{ route('impersonation.start', $user) }}\">"
+  },
+  {
+    "row": 365,
+    "rowsha": "rBFruj7s2dQcWq/1Si8TN7tJY2aDcbUiwLNerzxjxVk=",
+    "originContent": "        @csrf",
+    "translatedContent": "        @csrf"
+  },
+  {
+    "row": 366,
+    "rowsha": "sFwBn70Jn0ULWuDKQMeBfUeVUDG4d0gd8gZRoKs0+fA=",
+    "originContent": "        <button>Impersonate</button>",
+    "translatedContent": "        <button>Impersonate</button>"
+  },
+  {
+    "row": 367,
+    "rowsha": "3LGg5DopvTlCSj3rlbw91oqoX/sKKPzV4H8F6oN9oKw=",
+    "originContent": "    </form>",
+    "translatedContent": "    </form>"
+  },
+  {
+    "row": 368,
+    "rowsha": "aXmj3kiDMAcFP0gciGbC1P+TQWvxPjymoQDuwLmADls=",
+    "originContent": "@endcanBeImpersonated",
+    "translatedContent": "@endcanBeImpersonated"
+  },
+  {
+    "row": 369,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 370,
+    "rowsha": "KjfwYF8IHnKxN+lzFiWjv+FLUXEqJv3aFTYa3QJeA9s=",
+    "originContent": "{{-- With guard --}}",
+    "translatedContent": "{{-- With guard --}}"
+  },
+  {
+    "row": 371,
+    "rowsha": "HBfE2mm2xd9/D/XJPmLGmg8o3rXoATnc7vizmBoNBqs=",
+    "originContent": "@canBeImpersonated($user, 'admin')",
+    "translatedContent": "@canBeImpersonated($user, 'admin')"
+  },
+  {
+    "row": 372,
+    "rowsha": "4u7UThQsS8PZIvnx4Q9nNCkN4dYduPB3FO6POdKZ4OE=",
+    "originContent": "    <button>Login as this user</button>",
+    "translatedContent": "    <button>Login as this user</button>"
+  },
+  {
+    "row": 373,
+    "rowsha": "aXmj3kiDMAcFP0gciGbC1P+TQWvxPjymoQDuwLmADls=",
+    "originContent": "@endcanBeImpersonated",
+    "translatedContent": "@endcanBeImpersonated"
+  },
+  {
+    "row": 374,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 375,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 376,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 377,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 378,
+    "rowsha": "3SsUJOA3xq4qqUxZv1ZyIAmz6NNpQ16Zxt84Q79t+nw=",
+    "originContent": "MIT. See [LICENSE.md](https://raw.githubusercontent.com/franbarbalopez/mirror/master/LICENSE.md).",
+    "translatedContent": "MIT。[LICENSE.md](https://raw.githubusercontent.com/franbarbalopez/mirror/master/LICENSE.md)を参照してください。"
+  },
+  {
+    "row": 379,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 380,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": "## クレジット"
+  },
+  {
+    "row": 381,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 382,
+    "rowsha": "7uoI0XNzN3LvXxizZKXUVmkKYR6NDmnjnNuotbb0Sqw=",
+    "originContent": "Developed by [franbarbalopez](https://github.com/franbarbalopez).",
+    "translatedContent": "開発者：[franbarbalopez](https://github.com/franbarbalopez)。"
+  },
+  {
+    "row": 383,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
