@@ -1,0 +1,794 @@
+[
+  {
+    "row": 1,
+    "rowsha": "8zLdCCtLi1g3+qkYPRfMVlaVMx/3JAlhn2V+wNAnQGI=",
+    "originContent": "# Azure-Runbooks ",
+    "translatedContent": "# Azure-Runbooks "
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "5l9EBMX+xpg3IKegexFP4++mEhzb3dzUumoGkJ5nThc=",
+    "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    "translatedContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+  },
+  {
+    "row": 4,
+    "rowsha": "cyY/x4nQpscAdiYAfHEKgenXSIDZQtwux5LqVq2GX2E=",
+    "originContent": "[![PowerShell](https://img.shields.io/badge/PowerShell-7.2+-blue.svg)](https://github.com/PowerShell/PowerShell)",
+    "translatedContent": "[![PowerShell](https://img.shields.io/badge/PowerShell-7.2+-blue.svg)](https://github.com/PowerShell/PowerShell)"
+  },
+  {
+    "row": 5,
+    "rowsha": "nNHLmLboM6uxq1LnnTiLKE3Q14lEMLpFUYlTTB4KQkY=",
+    "originContent": "[![Microsoft 365](https://img.shields.io/badge/Microsoft_365-compatible-brightgreen.svg)](https://www.microsoft.com/microsoft-365)",
+    "translatedContent": "[![Microsoft 365](https://img.shields.io/badge/Microsoft_365-compatible-brightgreen.svg)](https://www.microsoft.com/microsoft-365)"
+  },
+  {
+    "row": 6,
+    "rowsha": "odBUD534Fy5HZvqssUt165+jN8p9VtJ8xKipIQDmYE8=",
+    "originContent": "[![Graph API](https://img.shields.io/badge/Microsoft_Graph-v1.0-blue.svg)](https://developer.microsoft.com/en-us/graph)",
+    "translatedContent": "[![Graph API](https://img.shields.io/badge/Microsoft_Graph-v1.0-blue.svg)](https://developer.microsoft.com/en-us/graph)"
+  },
+  {
+    "row": 7,
+    "rowsha": "2ReFjgO9GkmkDHFv7gjnQ0FgklDriwKSUVInGawJEVg=",
+    "originContent": "[![Azure](https://img.shields.io/badge/Azure_Automation-compatible-0089D6.svg)](https://azure.microsoft.com/en-us/products/automation)",
+    "translatedContent": "[![Azure](https://img.shields.io/badge/Azure_Automation-compatible-0089D6.svg)](https://azure.microsoft.com/en-us/products/automation)"
+  },
+  {
+    "row": 8,
+    "rowsha": "mUVpba/CxwdfNhJPXDllWXbi6X4NlpCXKv+f1ffDjDg=",
+    "originContent": "[![GitHub release](https://img.shields.io/github/release/sargeschultz11/Azure-Runbooks.svg)](https://GitHub.com/sargeschultz11/Azure-Runbooks/releases/)",
+    "translatedContent": "[![GitHub release](https://img.shields.io/github/release/sargeschultz11/Azure-Runbooks.svg)](https://GitHub.com/sargeschultz11/Azure-Runbooks/releases/)"
+  },
+  {
+    "row": 9,
+    "rowsha": "THyw2RW6Yxnm2tCP8Yi3yjcRzIiEcAX9NAC4TE0oJH0=",
+    "originContent": "[![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/sargeschultz11/Azure-Runbooks)",
+    "translatedContent": "[![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/sargeschultz11/Azure-Runbooks)"
+  },
+  {
+    "row": 10,
+    "rowsha": "5a0pR1Cw/vl7rx3e2UhAXj2g7vbN1Y7mbdneUk0admw=",
+    "originContent": "[![Made with](https://img.shields.io/badge/Made%20with-PowerShell-1f425f.svg)](https://www.microsoft.com/powershell)",
+    "translatedContent": "[![Made with](https://img.shields.io/badge/Made%20with-PowerShell-1f425f.svg)](https://www.microsoft.com/powershell)"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "NULEfO1flSWpb2s+tvZD2QT2khWnDisqR0GswLizH+Y=",
+    "originContent": "A collection of Azure Automation runbooks for Microsoft 365 and Intune management.",
+    "translatedContent": "A collection of Azure Automation runbooks for Microsoft 365 and Intune management."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+    "originContent": "## Overview",
+    "translatedContent": "## Overview"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "f8LwXNUxvUWHikDMtZ+ME0FD9X5rAP9C6EqSohkN638=",
+    "originContent": "This repository contains PowerShell scripts designed to be used as Azure Automation runbooks for automating various Microsoft 365 and Intune management tasks. These scripts help streamline administrative processes, maintain consistency across your environment, and reduce manual overhead.",
+    "translatedContent": "This repository contains PowerShell scripts designed to be used as Azure Automation runbooks for automating various Microsoft 365 and Intune management tasks. These scripts help streamline administrative processes, maintain consistency across your environment, and reduce manual overhead."
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "4YmSzpzFxS1sIl9f+qnViulCsiQaK92OjsAy48LamXw=",
+    "originContent": "## Repository Structure",
+    "translatedContent": "## Repository Structure"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "p3cJdcZPVNsiBhjOn6JRV66HsfN6HIl7hnqT9CiCJe4=",
+    "originContent": "The repository is organized into folders, with each folder containing a specific runbook solution:",
+    "translatedContent": "The repository is organized into folders, with each folder containing a specific runbook solution:"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 23,
+    "rowsha": "LuAUXDZbuNwB+ly1FVVX8dTeOwq9/cnfIAR+i/2tngg=",
+    "originContent": "Azure-Runbooks/",
+    "translatedContent": "Azure-Runbooks/"
+  },
+  {
+    "row": 24,
+    "rowsha": "mrX8KOh8dCZe9JW8+zgHIWubnTdbfkWzEt8CRTHBdc0=",
+    "originContent": "├── DeviceCategorySync/             # Sync device categories with user departments",
+    "translatedContent": "├── DeviceCategorySync/             # Sync device categories with user departments"
+  },
+  {
+    "row": 25,
+    "rowsha": "xcX62maTyz7rJuONdq0EDUEeTdHbwUshHM/T4/W6rts=",
+    "originContent": "├── Report-DiscoveredApps/          # Generate reports of discovered applications",
+    "translatedContent": "├── Report-DiscoveredApps/          # Generate reports of discovered applications"
+  },
+  {
+    "row": 26,
+    "rowsha": "17yoIWdq6ZeDVKG/MepZ69rIXGgrT6fZ1LJhK3Yvx0U=",
+    "originContent": "├── Report-IntuneDeviceCompliance/  # Generate device compliance reports",
+    "translatedContent": "├── Report-IntuneDeviceCompliance/  # Generate device compliance reports"
+  },
+  {
+    "row": 27,
+    "rowsha": "0qndol5uRTCoRtMhqq0ByZ4kUSSDKkfmNkz7NQ/m/GI=",
+    "originContent": "├── Report-DevicesWithApp/          # Find devices with specific applications",
+    "translatedContent": "├── Report-DevicesWithApp/          # Find devices with specific applications"
+  },
+  {
+    "row": 28,
+    "rowsha": "Gv3SEtq1xXosXmII/CIH61odZio1VQUXxXrvgm3sLlo=",
+    "originContent": "├── Alert-DeviceSyncReminder/       # Send reminders for devices needing sync",
+    "translatedContent": "├── Alert-DeviceSyncReminder/       # Send reminders for devices needing sync"
+  },
+  {
+    "row": 29,
+    "rowsha": "vFmfzuUoSlfSFUm3Cee+QCKt+y0d9EhQDN761eH1l0I=",
+    "originContent": "├── Update-AutopilotDeviceGroupTags/ # Sync Autopilot group tags with Intune categories",
+    "translatedContent": "├── Update-AutopilotDeviceGroupTags/ # Sync Autopilot group tags with Intune categories"
+  },
+  {
+    "row": 30,
+    "rowsha": "lYPRokrNDC9hdbdyolvDGITPL1dKUurf7qUwQL/4wz4=",
+    "originContent": "├── Alert-IntuneAppleTokenMonitor/  # Monitor Apple token expirations",
+    "translatedContent": "├── Alert-IntuneAppleTokenMonitor/  # Monitor Apple token expirations"
+  },
+  {
+    "row": 31,
+    "rowsha": "qkSu6vx6l+waC+6m2z/7p8GqxKPfk2d+2VXKri9CdJg=",
+    "originContent": "├── Report-UserManagers/            # Generate reports of users and their managers",
+    "translatedContent": "├── Report-UserManagers/            # Generate reports of users and their managers"
+  },
+  {
+    "row": 32,
+    "rowsha": "tbJ4Gc42ZErkGELq3rD0kEmItMpRuJSFDWtrNg0qo60=",
+    "originContent": "├── Report-MissingSecurityUpdates/  # Report on devices missing security updates",
+    "translatedContent": "├── Report-MissingSecurityUpdates/  # Report on devices missing security updates"
+  },
+  {
+    "row": 33,
+    "rowsha": "mykL7AlAE29sQmwbCBQyJyoutskjQqKAJWVrPpzsQs8=",
+    "originContent": "├── Sync-IntuneDevices/             # Force sync all managed Intune devices",
+    "translatedContent": "├── Sync-IntuneDevices/             # Force sync all managed Intune devices"
+  },
+  {
+    "row": 34,
+    "rowsha": "YOp67+T8kBz/n93sYm9lTH67Vik1M0/FFRAAb0Chd3A=",
+    "originContent": "├── Report-DeviceSyncOverdue/       # Report on devices overdue for sync",
+    "translatedContent": "├── Report-DeviceSyncOverdue/       # Report on devices overdue for sync"
+  },
+  {
+    "row": 35,
+    "rowsha": "p1k/lqJF5PA5lu5TQBJXnBewktCYpdBjNrsS5kpCFFc=",
+    "originContent": "├── Report-OneDriveSharedItems/     # Generate reports of shared items in OneDrive",
+    "translatedContent": "├── Report-OneDriveSharedItems/     # Generate reports of shared items in OneDrive"
+  },
+  {
+    "row": 36,
+    "rowsha": "/a6bzbBAGe5ZO3Msvl9gda2Sqb6yjybsxjobLeFVLwk=",
+    "originContent": "├── Task-SetCompanyAttribute/       # Set company attribute for all users",
+    "translatedContent": "├── Task-SetCompanyAttribute/       # Set company attribute for all users"
+  },
+  {
+    "row": 37,
+    "rowsha": "akMZbRnldTCOiwrgUpVlNIhu2K5eJqM+LhtCMdlO3tk=",
+    "originContent": "├── Snipe-IT-UserSync/              # Sync Microsoft 365 users to Snipe-IT users",
+    "translatedContent": "├── Snipe-IT-UserSync/              # Sync Microsoft 365 users to Snipe-IT users"
+  },
+  {
+    "row": 38,
+    "rowsha": "NTIpH9eM08mCiPxIC+Y1PoFjSz0/gbXU82rnomTFnZE=",
+    "originContent": "├── Sync-IntuneToAction1Categories/ # Sync Intune device categories to Action1 custom attributes",
+    "translatedContent": "├── Sync-IntuneToAction1Categories/ # Sync Intune device categories to Action1 custom attributes"
+  },
+  {
+    "row": 39,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "各ランブックフォルダーには以下が含まれています："
+  },
+  {
+    "row": 41,
+    "rowsha": "SmOW4OWngsc0351beINVH0hVItqbBveJrIerh+H1IR8=",
+    "originContent": "Each runbook folder contains:",
+    "translatedContent": "- メインのPowerShellスクリプト（`.ps1`）"
+  },
+  {
+    "row": 42,
+    "rowsha": "gVpiA4rkNDlq5mrO8hJ18Hxwu6VIpDag01JYYXZTGr8=",
+    "originContent": "- The main PowerShell script (`.ps1`)",
+    "translatedContent": "- 権限設定用のヘルパースクリプト（`Add-GraphPermissions.ps1`）"
+  },
+  {
+    "row": 43,
+    "rowsha": "F/SNDvT/e4el3HhOT6PPHuGzoqj9/cauDt5YkSmOvS4=",
+    "originContent": "- A helper script for setting up permissions (`Add-GraphPermissions.ps1`)",
+    "translatedContent": "- 詳細なドキュメント（`README.md`）"
+  },
+  {
+    "row": 44,
+    "rowsha": "WwN9ATq11vctuZPTmvgixONvls8wGv3z39qQG8kIKBY=",
+    "originContent": "- Detailed documentation (`README.md`)",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 認証"
+  },
+  {
+    "row": 46,
+    "rowsha": "35Z3PIq8c13U8h9f+c5iPk1UTNYNAl7roOidyh4Pkjg=",
+    "originContent": "## Authentication",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このリポジトリ内のすべてのランブックは、Azure Automationのシステム割り当てマネージドIDを認証に使用するよう設計されており、これはAzure Automationで推奨される方法です。各フォルダーには、AutomationアカウントのマネージドIDに必要なMicrosoft Graph APIの権限を割り当てるための`Add-GraphPermissions.ps1`スクリプトが含まれています。"
+  },
+  {
+    "row": 48,
+    "rowsha": "VFsebfb9QfIRJ33nCm1VgEyGSA1nkubAE0MRLIYJQw0=",
+    "originContent": "All runbooks in this repository are designed to use Azure Automation's System-Assigned Managed Identity for authentication, which is the recommended approach for Azure Automation. Each folder includes an `Add-GraphPermissions.ps1` script that helps assign the necessary Microsoft Graph API permissions to your Automation Account's Managed Identity.",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## はじめに"
+  },
+  {
+    "row": 50,
+    "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+    "originContent": "## Getting Started",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "各ランブックには実装と使用法に関する詳細なドキュメントが含まれています。一般的に、これらのランブックを使用するには："
+  },
+  {
+    "row": 52,
+    "rowsha": "x8OOfkcomS09kNiNanbXeG35nKs8VQMoMl6QRGUO77g=",
+    "originContent": "Each runbook includes detailed documentation for implementation and usage. In general, to use these runbooks:",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. スクリプトをAzure Automationアカウントにインポートする"
+  },
+  {
+    "row": 54,
+    "rowsha": "Zq+9tHIaPUhsVnalvkZRzq+d2D8JllPqRy6mkp9xb68=",
+    "originContent": "1. Import the script into your Azure Automation account",
+    "translatedContent": "2. Automationアカウントでシステム割り当てマネージドIDを有効にする"
+  },
+  {
+    "row": 55,
+    "rowsha": "v899GQdsgsx2stVUuIYhBLilkU7UmfCzKoCruE3swTg=",
+    "originContent": "2. Enable System-Assigned Managed Identity on your Automation account",
+    "translatedContent": "3. 同梱の`Add-GraphPermissions.ps1`スクリプトを使用して必要なGraph APIの権限を割り当てる"
+  },
+  {
+    "row": 56,
+    "rowsha": "RjrG9Wy9iKz7woVJ66x8NnmBn+cYGb3qV2fmeoTyR2k=",
+    "originContent": "3. Use the included `Add-GraphPermissions.ps1` script to assign necessary Graph API permissions",
+    "translatedContent": "4. 環境に特有の必要なパラメーターを設定する"
+  },
+  {
+    "row": 57,
+    "rowsha": "78C23QGEqqWKJ8+qz59pDoYZKOacXxobyz8VqKeY0qU=",
+    "originContent": "4. Configure any required parameters specific to your environment",
+    "translatedContent": "5. ランブックをスケジュールするか、必要に応じてオンデマンドで実行する"
+  },
+  {
+    "row": 58,
+    "rowsha": "kho2Mn2bbcPpmpMZFLovL16BCSOom2k7P7A2p2AFH+w=",
+    "originContent": "5. Schedule the runbook or run it on-demand as needed",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 利用可能なランブック"
+  },
+  {
+    "row": 60,
+    "rowsha": "AKNZVbktD3ATrjuAywyfd4CV5508d36piUtyKCAEzvs=",
+    "originContent": "## Available Runbooks",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### レポート"
+  },
+  {
+    "row": 62,
+    "rowsha": "5l35a+TdMacazGLR/j6EnJslEWQ328kDKZ38dIc/7pY=",
+    "originContent": "### Reporting",
+    "translatedContent": "- **デバイスコンプライアンスレポート**：Intune管理デバイスの包括的なコンプライアンスレポートを生成します。"
+  },
+  {
+    "row": 63,
+    "rowsha": "ufOnzhnCTVta3DuAaODeOnFnxdHWqm9b29UKDcjym/s=",
+    "originContent": "- **Device Compliance Report**: Generate comprehensive compliance reports for Intune-managed devices.",
+    "translatedContent": "- **検出されたアプリレポート**：管理デバイス上で検出されたアプリケーションの詳細レポートを作成します。"
+  },
+  {
+    "row": 64,
+    "rowsha": "f/QOskb0ZLEnYWXb4xd4n0yvM9pLj51z7JUmCUVBUck=",
+    "originContent": "- **Discovered Apps Report**: Create detailed reports of applications discovered on managed devices.",
+    "translatedContent": "- **特定アプリ搭載デバイスレポート**：特定のアプリケーションがインストールされているすべてのデバイスを特定します。"
+  },
+  {
+    "row": 65,
+    "rowsha": "MihPWe8mLZW2YI8J8vzbR0/uH0mpCJyuVrIp1lnBbps=",
+    "originContent": "- **Devices with Specific App Report**: Identify all devices with a specific application installed.",
+    "translatedContent": "- **ユーザーマネージャーレポート**：ライセンスされた内部ユーザー全員とそのマネージャー情報のレポートを生成します。"
+  },
+  {
+    "row": 66,
+    "rowsha": "JM4T8BnHtuPhBvX3LbUdP1rbNQESUFgjl4l126TYoKY=",
+    "originContent": "- **User Managers Report**: Generate a report of all licensed internal users along with their manager information.",
+    "translatedContent": "- **セキュリティ更新不足レポート**：複数のセキュリティ更新が不足しているWindowsデバイスを特定し、自動レポートを行います。"
+  },
+  {
+    "row": 67,
+    "rowsha": "5SZth85DFYP23MB8hGcz6ePjIt3TEb2TPggiWk/lX44=",
+    "originContent": "- **Missing Security Updates Report**: Identify Windows devices missing multiple security updates with automated reporting.",
+    "translatedContent": "- **デバイス同期遅延レポート**：指定された期間内に同期されていないデバイスのレポートを生成します。"
+  },
+  {
+    "row": 68,
+    "rowsha": "ZKa0qHe8gvdoI1H+/kC0kGPkxnM6SI1XiKkJ+pLyZ04=",
+    "originContent": "- **Device Sync Overdue Report**: Generate reports of devices that haven't synced within a specified threshold.",
+    "translatedContent": "- **OneDrive共有アイテムレポート**：OneDrive for Businessで外部共有されたアイテムのレポートを作成します。"
+  },
+  {
+    "row": 69,
+    "rowsha": "mMD4JfgXIko9r7Sethiuga7BEn3CCoZunBt2ZVZh3Xw=",
+    "originContent": "- **OneDrive Shared Items Report**: Create reports of items shared externally in OneDrive for Business.",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### デバイス管理"
+  },
+  {
+    "row": 71,
+    "rowsha": "tfxImYpM1/N2AYqKARGYIQ0cMbjKpHQdT4/QJPoYzCo=",
+    "originContent": "### Device Management",
+    "translatedContent": "- **デバイスカテゴリ同期**：ユーザーの部門情報に基づいてIntuneデバイスカテゴリを自動的に同期します。"
+  },
+  {
+    "row": 72,
+    "rowsha": "d2/oLsHlvU9a784XydHwn0Yv9s34H+B05z3qpkVx7/I=",
+    "originContent": "- **Device Category Sync**: Automatically synchronize Intune device categories based on user department information.",
+    "translatedContent": "- **Autopilotグループタグ同期**：IntuneデバイスカテゴリとAutopilotデバイスグループタグを同期させます。"
+  },
+  {
+    "row": 73,
+    "rowsha": "NAKXSc7GnwlLK0XLi63Z9ocJ+KEdi+rB61euytkiKgk=",
+    "originContent": "- **Autopilot Group Tag Sync**: Keep Autopilot device group tags in sync with Intune device categories.",
+    "translatedContent": "- **強制デバイス同期**：バッチ処理とスロットリング保護を用いて、管理対象Intuneデバイスすべてに同期コマンドを送信します。"
+  },
+  {
+    "row": 74,
+    "rowsha": "BsTDJPogGVgn2/69iV3jGB+EimMLYM1M7HElfawdAgg=",
+    "originContent": "- **Force Device Sync**: Initiate sync commands for all managed Intune devices with batching and throttling protection.",
+    "translatedContent": "- **IntuneからAction1カテゴリ同期**：シリアル番号を照合してIntuneデバイスカテゴリをAction1のカスタム属性に同期します。"
+  },
+  {
+    "row": 75,
+    "rowsha": "ZlcAwMnW/ERu7jRzVL8v+OJpx4+0/5duEyipeir1eio=",
+    "originContent": "- **Intune to Action1 Category Sync**: Sync Intune device categories to Action1 custom attributes by matching serial numbers.",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### アラートと通知"
+  },
+  {
+    "row": 77,
+    "rowsha": "NyXdlm0S0/4cqs73Q1i1FCxuJeYpmZD4OOgXpwK7VxQ=",
+    "originContent": "### Alerts and Notifications",
+    "translatedContent": "- **デバイス同期リマインダー**：最近同期していないユーザーに自動メールリマインダーを送信します。"
+  },
+  {
+    "row": 78,
+    "rowsha": "IeBOAnzu3HNqIlITBYA9QyFx761iMLIFQ5SC3GJiHWc=",
+    "originContent": "- **Device Sync Reminder**: Send automated email reminders to users whose devices haven't synced recently.",
+    "translatedContent": "- **Appleトークンモニター**：Appleプッシュ通知証明書とトークンの有効期限を監視し、アラートを出します。"
+  },
+  {
+    "row": 79,
+    "rowsha": "VNFfWw2RRYbinep5qOLovqEFKLCc4Xp52gr5q2TyXUk=",
+    "originContent": "- **Apple Token Monitor**: Monitor and alert on Apple Push Notification certificate and token expirations.",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ユーザー管理"
+  },
+  {
+    "row": 81,
+    "rowsha": "iZzNnJOec0Whmav/ZOXxyDS26yiIhAI6QsTDYBJI24Q=",
+    "originContent": "### User Management",
+    "translatedContent": "- **会社属性設定**: Microsoft 365 テナント内のすべてのユーザーアカウントに一貫した会社属性を設定します。"
+  },
+  {
+    "row": 82,
+    "rowsha": "sGhpRHuce1Px+cOyjBkUBXchOTzJAYiY3xj/ai4K8qo=",
+    "originContent": "- **Company Attribute Setting**: Set a consistent company attribute across all user accounts in your Microsoft 365 tenant.",
+    "translatedContent": "- **Snipe-IT ユーザー同期**: Microsoft 365 テナントのメールをアンカーとして使用し、新規ユーザーには安全なパスワードを設定し、ログイン/招待のオンオフをオプションで設定して、Snipe-IT ユーザーを作成または更新します。"
+  },
+  {
+    "row": 83,
+    "rowsha": "FUanUFYcK+g4/A2ekPrjfFYnp5mSEs4cC1pqdU9DK44=",
+    "originContent": "- **Snipe-IT User Sync**: Create or update Snipe-IT users from your Microsoft 365 tenant, using email as the anchor, with secure passwords for new users and optional login/invite toggles.",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### サードパーティ統合"
+  },
+  {
+    "row": 85,
+    "rowsha": "IzPwKYoBTdSqIKgxooMfVoeYo4lP7whFIurkDFh7StE=",
+    "originContent": "### Third-Party Integration",
+    "translatedContent": "- **Action1 統合**: Intune のデバイスカテゴリを Action1 RMM のカスタム属性に同期し、プラットフォーム間で統一されたデバイス管理を実現します。"
+  },
+  {
+    "row": 86,
+    "rowsha": "8MPvd9MCidU1wNWcZhERwrQUFkahnUSFY65eL814b+k=",
+    "originContent": "- **Action1 Integration**: Sync Intune device categories to Action1 RMM custom attributes for unified device management across platforms.",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ブランチ管理"
+  },
+  {
+    "row": 88,
+    "rowsha": "TW9DN/HdO8c+sq+Qo7u+v0wucA6GbaZhb65Rqt/J8wQ=",
+    "originContent": "## Branch Management",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このリポジトリはシンプルな Git ワークフローに従っています："
+  },
+  {
+    "row": 90,
+    "rowsha": "kLV1jB2ph4d2sUQifOLQwC+hULeWDLa2lZif6lRYKdc=",
+    "originContent": "This repository follows a simplified Git workflow:",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `main` ブランチは安定した本番用スクリプトを含みます"
+  },
+  {
+    "row": 92,
+    "rowsha": "QlUKqMNK//msWidhop8uq0SGTTg+mgdoO1+GrzIvQDg=",
+    "originContent": "- The `main` branch contains stable, production-ready scripts",
+    "translatedContent": "- 新機能や大幅な変更には開発ブランチを作成します"
+  },
+  {
+    "row": 93,
+    "rowsha": "qWUeWKiektwva28sw1CdO9FYEZnjJbDvUFOZxr+NM9E=",
+    "originContent": "- Development branches are created for new features or significant modifications",
+    "translatedContent": "- 開発作業が `main` にマージされると、通常は開発ブランチは削除されます"
+  },
+  {
+    "row": 94,
+    "rowsha": "fPYPWih8AHcWwIVtMPdphGdxtzU+7n2S4BOnJt6Rypg=",
+    "originContent": "- Once development work is merged into `main`, the development branches are typically deleted",
+    "translatedContent": "- このリポジトリをクローンしているユーザーは、作業完了後に開発ブランチが消える可能性があることに注意してください"
+  },
+  {
+    "row": 95,
+    "rowsha": "uRqLbuaoJzMmMin3l7sYFxpN9zOKGYVuS3iLEJ+eNn8=",
+    "originContent": "- For users who have cloned this repository, note that development branches may disappear after their work is completed",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "特定の開発ブランチで作業している場合は、ブランチ削除の影響を受けないように自分のフォークを作成することを検討してください。"
+  },
+  {
+    "row": 97,
+    "rowsha": "BhJWThYSrmY8OWy8HulHbJd91ctZVad8Iw4AIsfAaxQ=",
+    "originContent": "If you're working with a specific development branch, consider creating your own fork to ensure your work isn't affected when branches are deleted.",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## v1.4.0 の新機能"
+  },
+  {
+    "row": 99,
+    "rowsha": "57tJV/VX+OVkapG6uDoOXMIiAbB5j6kAQAXRTD+CUh8=",
+    "originContent": "## What's New in v1.4.0",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 新ランブック: Sync-IntuneToAction1Categories"
+  },
+  {
+    "row": 101,
+    "rowsha": "ZQAfbMBOS1PoEDQG/jd3IbRjusrHKVl147NWLqmkc5Q=",
+    "originContent": "### New Runbook: Sync-IntuneToAction1Categories",
+    "translatedContent": "このリリースでは Action1 RMM との新しい統合を導入し、Intune のデバイスカテゴリを Action1 のカスタム属性に自動的に同期できるようになりました。主な特徴は："
+  },
+  {
+    "row": 102,
+    "rowsha": "3ZeBOxZgjqzdt0eIQAzckqdSQvc6SGSV97QJw398Lv8=",
+    "originContent": "This release introduces a new integration with Action1 RMM, enabling automated synchronization of Intune device categories to Action1 custom attributes. Key features include:",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- シリアル番号を使用した Intune と Action1 間のデバイス自動マッチング"
+  },
+  {
+    "row": 104,
+    "rowsha": "5ef7wkiQBzWdj1aRPnnP51fSUyo52E6zTVmHLGmOXM8=",
+    "originContent": "- Automatic matching of devices between Intune and Action1 using serial numbers",
+    "translatedContent": "- Intune のデバイスカテゴリを設定可能な Action1 カスタム属性に同期"
+  },
+  {
+    "row": 105,
+    "rowsha": "Wp6lCvswjqlDHh8zFJOSyJmlhGdsvIqbOvR2dFffWOI=",
+    "originContent": "- Syncs Intune device categories to configurable Action1 custom attributes",
+    "translatedContent": "- 複数の Action1 リージョン（北米、ヨーロッパ、オーストラリア）をサポート"
+  },
+  {
+    "row": 106,
+    "rowsha": "gsqadcWPxo5Dh/3If/8tYvZU64aUolbQyrYFiQyysBw=",
+    "originContent": "- Supports multiple Action1 regions (North America, Europe, Australia)",
+    "translatedContent": "- Azure Automation の暗号化変数による安全な資格情報管理"
+  },
+  {
+    "row": 107,
+    "rowsha": "QU2sJefchgkbfvH4pQqnSOCt1xHltxi5/Y8gy4rO1c4=",
+    "originContent": "- Secure credential management through Azure Automation encrypted variables",
+    "translatedContent": "- 変更を加えずにテスト可能な WhatIf モード"
+  },
+  {
+    "row": 108,
+    "rowsha": "TcJzSr3KQY6jp0qDphYywKFky6qexzRYT8KKijs/8fs=",
+    "originContent": "- WhatIf mode for testing without making changes",
+    "translatedContent": "- 詳細なログと統計情報"
+  },
+  {
+    "row": 109,
+    "rowsha": "FeNKRsCZmsdl4fPZTkpOzXmu4su1PH7jo1JzFhZvi7w=",
+    "originContent": "- Comprehensive logging and statistics",
+    "translatedContent": "- PSAction1 PowerShell モジュールを基盤に構築"
+  },
+  {
+    "row": 110,
+    "rowsha": "nAM9vMizZgJQ2KSUtym9TvFxlNvefcUa0qh6EtiFtqA=",
+    "originContent": "- Built on the PSAction1 PowerShell module",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "この統合により、Microsoft Intune と Action1 RMM の両プラットフォームで一貫したデバイス分類を維持でき、より良いレポート作成、ポリシー適用、デバイス管理ワークフローが可能になります。"
+  },
+  {
+    "row": 112,
+    "rowsha": "+7ZKFyiiYJuVnaiyWaKdZLRqYoUR5TgbTmowV5IdfJU=",
+    "originContent": "This integration helps organizations maintain consistent device categorization across both Microsoft Intune and Action1 RMM platforms, enabling better reporting, policy application, and device management workflows.",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ディスカッション"
+  },
+  {
+    "row": 114,
+    "rowsha": "Fv/np7YgLT7uMZdMGpGxer/g3dh2Fpvk3GqL5eDDCw0=",
+    "originContent": "## Discussions",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このリポジトリでは GitHub Discussions を有効にしており、ユーザー間の協力とサポートを促進します。ここは以下の場として最適です："
+  },
+  {
+    "row": 116,
+    "rowsha": "yyAojGsHTpGh1KVlNlF8FAUs3vWA4c9k1P/sYnIn7KI=",
+    "originContent": "I've enabled GitHub Discussions for this repository to foster collaboration and support among users. This is the best place to:",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 特定のランブックの実装に関する質問"
+  },
+  {
+    "row": 118,
+    "rowsha": "LF42+HaMMmJhf9oTjDUhxLZSX/MWPyuh+/NsB2O8Pys=",
+    "originContent": "* Ask questions about implementing specific runbooks",
+    "translatedContent": "* 成功事例や実装例の共有"
+  },
+  {
+    "row": 119,
+    "rowsha": "jLVtsNceAJzWRji/W4n4K3/hcJeWAF3BzDSoPDQzRnQ=",
+    "originContent": "* Share your success stories and implementations ",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "Jmy3A64C8BhobW4Ti36+v2XwOoCJY7J0uzYkKeFeSh4=",
+    "originContent": "* Suggest new runbook ideas or improvements",
+    "translatedContent": "* 新しいランブックのアイデアや改善案を提案する"
+  },
+  {
+    "row": 121,
+    "rowsha": "u9aQ5EJDiA+9eVdqcneunJc6IpGmSCu9yOlFjeKLWK4=",
+    "originContent": "* Discuss best practices for Azure Automation",
+    "translatedContent": "* Azure Automationのベストプラクティスを議論する"
+  },
+  {
+    "row": 122,
+    "rowsha": "UphzHxqakiW++054QjaLKIRlx0j6PLPAOZ7DP1BMi3Y=",
+    "originContent": "* Get help with troubleshooting",
+    "translatedContent": "* トラブルシューティングの支援を受ける"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "My6aca+QSLPS0LCL4aeqrPNeyDp2PridzTewaOLFawA=",
+    "originContent": "Check out the [Discussions](https://github.com/sargeschultz11/Azure-Runbooks/discussions) tab to join the conversation. We encourage you to use Discussions for general questions and community interaction, while Issues should be used for reporting bugs or specific problems with the scripts.",
+    "translatedContent": "[Discussions](https://github.com/sargeschultz11/Azure-Runbooks/discussions) タブをチェックして会話に参加してください。一般的な質問やコミュニティとの交流にはDiscussionsを使用し、バグ報告やスクリプトの特定の問題にはIssuesを使用することを推奨します。"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## 貢献について"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "uzHm27hI0pQOSub0cjefBl/U6rheS+FSd4dkcJepsDU=",
+    "originContent": "Feel free to use these scripts as a starting point for your own automation needs. Contributions, improvements, and suggestions are welcome!",
+    "translatedContent": "これらのスクリプトを自身の自動化ニーズの出発点として自由に使用してください。貢献、改善、提案を歓迎します！"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "fOZgQLjSABDxHjJbYQ1wqD20ynEX33m+IkBDktyXUqY=",
+    "originContent": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
+    "translatedContent": "本プロジェクトはMITライセンスのもとで提供されています。詳細は[LICENSE](LICENSE)ファイルをご覧ください。"
+  }
+]

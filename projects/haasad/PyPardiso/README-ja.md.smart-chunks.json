@@ -1,0 +1,317 @@
+[
+  {
+    "Id": 1,
+    "Content": "[![pypardiso-tests](https://github.com/haasad/PyPardisoProject/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/haasad/PyPardisoProject/actions/workflows/tests.yaml)\n# PyPardiso\n\nPyPardiso is a python package to solve large sparse linear systems of equations with the [Intel oneAPI Math Kernel Library PARDISO solver](https://www.intel.com/content/www/us/en/develop/documentation/onemkl-developer-reference-fortran/top/sparse-solver-routines/onemkl-pardiso-parallel-direct-sparse-solver-iface.html), a shared-memory multiprocessing parallel direct sparse solver.\n\nPyPardiso provides the same functionality as SciPy's [scipy.sparse.linalg.spsolve](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.spsolve.html#scipy.sparse.linalg.spsolve) for solving the sparse linear system `Ax=b`. However in many cases it is significantly faster than SciPy's built-in single-threaded SuperLU solver.\n\nPyPardiso is not a python interface to the PARDISO Solver from the [PARDISO 7.2 Solver Project](https://www.pardiso-project.org/) and it also doesn't currently support complex numbers. Check out [JuliaSparse/Pardiso.jl](https://github.com/JuliaSparse/Pardiso.jl/) for these more advanced use cases. For macOS users we recommend [scikit-umfpack](https://github.com/scikit-umfpack/scikit-umfpack) as an alternative fast solver, since MKL is not available on Apple silicon.\n\n## Installation\n\nPyPardiso runs on Linux and Windows. It can be installed with __conda__ or __pip__. It is recommended to install PyPardiso using a virtual environment.\n\nconda-forge | PyPI\n:---:|:---:\n[![conda-forge version](https://anaconda.org/conda-forge/pypardiso/badges/version.svg)](https://anaconda.org/conda-forge/pypardiso) | [![PyPI version](https://badge.fury.io/py/pypardiso.svg)](https://pypi.org/project/pypardiso/)\n`conda install -c conda-forge pypardiso` | `pip install pypardiso`\n\n\n## Basic usage\n\nHow to solve the sparse linear system `Ax=b` for `x`, where `A` is a square, sparse matrix in CSR (or CSC) format and `b` is a vector (or matrix):",
+    "ContentSha": "cgvRuMRHlbYc5W1EzPGKkmkZhmsmKUyi1A2Uwqy/+I8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[![pypardiso-tests](https://github.com/haasad/PyPardisoProject/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/haasad/PyPardisoProject/actions/workflows/tests.yaml)\n# PyPardiso\n\nPyPardisoは、[Intel oneAPI Math Kernel Library PARDISOソルバー](https://www.intel.com/content/www/us/en/develop/documentation/onemkl-developer-reference-fortran/top/sparse-solver-routines/onemkl-pardiso-parallel-direct-sparse-solver-iface.html)を用いて、大規模な疎線形方程式系を解くためのPythonパッケージです。これは共有メモリマルチプロセッシング並列直接疎ソルバーです。\n\nPyPardisoは、疎線形系 `Ax=b` を解くためのSciPyの[scipy.sparse.linalg.spsolve](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.spsolve.html#scipy.sparse.linalg.spsolve)と同様の機能を提供します。ただし、多くの場合、SciPyの組み込みの単一スレッドのSuperLUソルバーよりも大幅に高速です。\n\nPyPardisoは、[PARDISO 7.2 Solver Project](https://www.pardiso-project.org/)のPARDISOソルバーのPythonインターフェースではなく、現在複素数には対応していません。これらのより高度なユースケースには[JuliaSparse/Pardiso.jl](https://github.com/JuliaSparse/Pardiso.jl/)を参照してください。macOSユーザーには、Appleシリコン上でMKLが利用できないため、代替の高速ソルバーとして[scikit-umfpack](https://github.com/scikit-umfpack/scikit-umfpack)を推奨します。\n\n## インストール\n\nPyPardisoはLinuxおよびWindowsで動作します。__conda__または__pip__でインストール可能です。仮想環境を使用してPyPardisoをインストールすることを推奨します。\n\nconda-forge | PyPI\n:---:|:---:\n[![conda-forge version](https://anaconda.org/conda-forge/pypardiso/badges/version.svg)](https://anaconda.org/conda-forge/pypardiso) | [![PyPI version](https://badge.fury.io/py/pypardiso.svg)](https://pypi.org/project/pypardiso/)\n`conda install -c conda-forge pypardiso` | `pip install pypardiso`\n\n\n## 基本的な使い方\n\n`A` がCSR（またはCSC）形式の正方疎行列で、`b` がベクトル（または行列）のとき、疎線形系 `Ax=b` を `x` について解く方法：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "l8piquLN2q3sLUZNTV7PwMdvkn7hcvto4QTHhsEQzbU=",
+        "originContent": "[![pypardiso-tests](https://github.com/haasad/PyPardisoProject/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/haasad/PyPardisoProject/actions/workflows/tests.yaml)",
+        "translatedContent": "[![pypardiso-tests](https://github.com/haasad/PyPardisoProject/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/haasad/PyPardisoProject/actions/workflows/tests.yaml)"
+      },
+      {
+        "row": 2,
+        "rowsha": "g0h2aWlh3AzuqQ7fXxme7v1gLqZbWuZ6YLbagUr4Lew=",
+        "originContent": "# PyPardiso",
+        "translatedContent": "# PyPardiso"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "DNxszWSFHL946QsQS+zLMwbju3jn+0vmY3TeFJUEtr8=",
+        "originContent": "PyPardiso is a python package to solve large sparse linear systems of equations with the [Intel oneAPI Math Kernel Library PARDISO solver](https://www.intel.com/content/www/us/en/develop/documentation/onemkl-developer-reference-fortran/top/sparse-solver-routines/onemkl-pardiso-parallel-direct-sparse-solver-iface.html), a shared-memory multiprocessing parallel direct sparse solver.",
+        "translatedContent": "PyPardisoは、[Intel oneAPI Math Kernel Library PARDISOソルバー](https://www.intel.com/content/www/us/en/develop/documentation/onemkl-developer-reference-fortran/top/sparse-solver-routines/onemkl-pardiso-parallel-direct-sparse-solver-iface.html)を用いて、大規模な疎線形方程式系を解くためのPythonパッケージです。これは共有メモリマルチプロセッシング並列直接疎ソルバーです。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "zNw7VFcc915l67+cyEHBWkvk56EapD4LCzKUGX+7nQM=",
+        "originContent": "PyPardiso provides the same functionality as SciPy's [scipy.sparse.linalg.spsolve](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.spsolve.html#scipy.sparse.linalg.spsolve) for solving the sparse linear system `Ax=b`. However in many cases it is significantly faster than SciPy's built-in single-threaded SuperLU solver.",
+        "translatedContent": "PyPardisoは、疎線形系 `Ax=b` を解くためのSciPyの[scipy.sparse.linalg.spsolve](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.spsolve.html#scipy.sparse.linalg.spsolve)と同様の機能を提供します。ただし、多くの場合、SciPyの組み込みの単一スレッドのSuperLUソルバーよりも大幅に高速です。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "RkemLVH3aW/jhrBf2+h+QI19Ju/zL+dGJqs4EYjcO+w=",
+        "originContent": "PyPardiso is not a python interface to the PARDISO Solver from the [PARDISO 7.2 Solver Project](https://www.pardiso-project.org/) and it also doesn't currently support complex numbers. Check out [JuliaSparse/Pardiso.jl](https://github.com/JuliaSparse/Pardiso.jl/) for these more advanced use cases. For macOS users we recommend [scikit-umfpack](https://github.com/scikit-umfpack/scikit-umfpack) as an alternative fast solver, since MKL is not available on Apple silicon.",
+        "translatedContent": "PyPardisoは、[PARDISO 7.2 Solver Project](https://www.pardiso-project.org/)のPARDISOソルバーのPythonインターフェースではなく、現在複素数には対応していません。これらのより高度なユースケースには[JuliaSparse/Pardiso.jl](https://github.com/JuliaSparse/Pardiso.jl/)を参照してください。macOSユーザーには、Appleシリコン上でMKLが利用できないため、代替の高速ソルバーとして[scikit-umfpack](https://github.com/scikit-umfpack/scikit-umfpack)を推奨します。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "1WAWbGwF0zj+VJK1H42LGnLYGElS08E3DXCPc3cgXOs=",
+        "originContent": "PyPardiso runs on Linux and Windows. It can be installed with __conda__ or __pip__. It is recommended to install PyPardiso using a virtual environment.",
+        "translatedContent": "PyPardisoはLinuxおよびWindowsで動作します。__conda__または__pip__でインストール可能です。仮想環境を使用してPyPardisoをインストールすることを推奨します。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "majb/DyX5ikVVziIfnzURlRqe43YR1oCgEMgSxLJt7o=",
+        "originContent": "conda-forge | PyPI",
+        "translatedContent": "conda-forge | PyPI"
+      },
+      {
+        "row": 15,
+        "rowsha": "ZsOcxVG6f9E0JcZ43tdDUJYtpQgiv604ADn/F+5n8wE=",
+        "originContent": ":---:|:---:",
+        "translatedContent": ":---:|:---:"
+      },
+      {
+        "row": 16,
+        "rowsha": "qWu+pc9UNDZKFKRLaCnz17XfkxAsdP/cPAuD06Pw6EA=",
+        "originContent": "[![conda-forge version](https://anaconda.org/conda-forge/pypardiso/badges/version.svg)](https://anaconda.org/conda-forge/pypardiso) | [![PyPI version](https://badge.fury.io/py/pypardiso.svg)](https://pypi.org/project/pypardiso/)",
+        "translatedContent": "[![conda-forge version](https://anaconda.org/conda-forge/pypardiso/badges/version.svg)](https://anaconda.org/conda-forge/pypardiso) | [![PyPI version](https://badge.fury.io/py/pypardiso.svg)](https://pypi.org/project/pypardiso/)"
+      },
+      {
+        "row": 17,
+        "rowsha": "zMGw7Lh72sS1YF8B4SgHU9Q9NnQGLZCeoWr7nSYmfSc=",
+        "originContent": "`conda install -c conda-forge pypardiso` | `pip install pypardiso`",
+        "translatedContent": "`conda install -c conda-forge pypardiso` | `pip install pypardiso`"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "75izzo7cBtkCClrVg8YS970hpy4hyGADFxBflTpzW8U=",
+        "originContent": "## Basic usage",
+        "translatedContent": "## 基本的な使い方"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "rKQ9DdmGdxD57ZtR0bqZcuFNpeugv7CuPeEhg1EZujI=",
+        "originContent": "How to solve the sparse linear system `Ax=b` for `x`, where `A` is a square, sparse matrix in CSR (or CSC) format and `b` is a vector (or matrix):",
+        "translatedContent": "`A` がCSR（またはCSC）形式の正方疎行列で、`b` がベクトル（または行列）のとき、疎線形系 `Ax=b` を `x` について解く方法："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```python\nIn [1]: import pypardiso\n\nIn [2]: import numpy as np\n\nIn [3]: import scipy.sparse as sp\n\nIn [4]: A = sp.rand(10, 10, density=0.5, format='csr')\n\nIn [5]: A\nOut[5]:\n<10x10 sparse matrix of type '<class 'numpy.float64'>'\n\twith 50 stored elements in Compressed Sparse Row format>\n\nIn [6]: b = np.random.rand(10)\n\nIn [7]: x = pypardiso.spsolve(A, b)\n\nIn [8]: x\nOut[8]:\narray([ 0.02918389,  0.59629935,  0.33407289, -0.48788966,  3.44508841,\n        0.52565687, -0.48420646,  0.22136413, -0.95464127,  0.58297397])\n```",
+    "ContentSha": "d0TVwHfnRUVRAGL105F32hEBlhox+qSiRpz+E294loU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nIn [1]: import pypardiso\n\nIn [2]: import numpy as np\n\nIn [3]: import scipy.sparse as sp\n\nIn [4]: A = sp.rand(10, 10, density=0.5, format='csr')\n\nIn [5]: A\nOut[5]:\n<10x10 sparse matrix of type '<class 'numpy.float64'>'\n\twith 50 stored elements in Compressed Sparse Row format>\n\nIn [6]: b = np.random.rand(10)\n\nIn [7]: x = pypardiso.spsolve(A, b)\n\nIn [8]: x\nOut[8]:\narray([ 0.02918389,  0.59629935,  0.33407289, -0.48788966,  3.44508841,\n        0.52565687, -0.48420646,  0.22136413, -0.95464127,  0.58297397])\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "pNcGSMCzgK/5hVwuNv0Sl097VpkWPEE/nF0KFcmR2kU=",
+        "originContent": "In [1]: import pypardiso",
+        "translatedContent": "In [1]: import pypardiso"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "F6MaGc+lYQqtVIxnyZI93WS6Ojw0+Yf3yBs6kOan0lA=",
+        "originContent": "In [2]: import numpy as np",
+        "translatedContent": "In [2]: import numpy as np"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "6ehnzkkitajAAV2EHpI7udezGl2BTHbFjQOwiSDR6IY=",
+        "originContent": "In [3]: import scipy.sparse as sp",
+        "translatedContent": "In [3]: import scipy.sparse as sp"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "sOABPN5X09rWBUMYXNqSove0mHwZRTQtEdJmTVMX1BI=",
+        "originContent": "In [4]: A = sp.rand(10, 10, density=0.5, format='csr')",
+        "translatedContent": "In [4]: A = sp.rand(10, 10, density=0.5, format='csr')"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "D5HLlhh1NWmZMFNmdHVzj6N39dlwhF846NJBlgpVi7w=",
+        "originContent": "In [5]: A",
+        "translatedContent": "In [5]: A"
+      },
+      {
+        "row": 11,
+        "rowsha": "LCHKADCY+jyUSqN1tco+1TY0a3YRijZy+yIarv9OsuI=",
+        "originContent": "Out[5]:",
+        "translatedContent": "Out[5]:"
+      },
+      {
+        "row": 12,
+        "rowsha": "F3JBo3mhX4ec5gFESX/RmN1LLlS+qqCNVR8RK3zFjwA=",
+        "originContent": "<10x10 sparse matrix of type '<class 'numpy.float64'>'",
+        "translatedContent": "<10x10 sparse matrix of type '<class 'numpy.float64'>'"
+      },
+      {
+        "row": 13,
+        "rowsha": "AF5dHkz1CLT5FtBIHy62iXdO0OcwSTVsVyw2De8tNXs=",
+        "originContent": "\twith 50 stored elements in Compressed Sparse Row format>",
+        "translatedContent": "\twith 50 stored elements in Compressed Sparse Row format>"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "6qyba0D4gfwwOJCOpjdPa4Q7OTkw9fa0DMXrqsZxUqk=",
+        "originContent": "In [6]: b = np.random.rand(10)",
+        "translatedContent": "In [6]: b = np.random.rand(10)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "ZvrIalHnPxUFJsIodoQMRcaFVlzbCLFjsnl7dMslZX4=",
+        "originContent": "In [7]: x = pypardiso.spsolve(A, b)",
+        "translatedContent": "In [7]: x = pypardiso.spsolve(A, b)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "NjskYvD8kaOl6UVlQCi3NoREcJZEar83ioMUVhwF4vQ=",
+        "originContent": "In [8]: x",
+        "translatedContent": "In [8]: x"
+      },
+      {
+        "row": 20,
+        "rowsha": "BIC+VCY80RK3ZqIOTRfb3Z++xV4ghqRJgI/ecZIZBFA=",
+        "originContent": "Out[8]:",
+        "translatedContent": "Out[8]:"
+      },
+      {
+        "row": 21,
+        "rowsha": "kzfrynZ99f4XeQ5Wh8knzFFNEKBqIMjhRUKxntzJV+o=",
+        "originContent": "array([ 0.02918389,  0.59629935,  0.33407289, -0.48788966,  3.44508841,",
+        "translatedContent": "array([ 0.02918389,  0.59629935,  0.33407289, -0.48788966,  3.44508841,"
+      },
+      {
+        "row": 22,
+        "rowsha": "28Tf0R0vTdAGOV0utEMl2N8NiyIl30b9pnHJ3ZJaQvU=",
+        "originContent": "        0.52565687, -0.48420646,  0.22136413, -0.95464127,  0.58297397])",
+        "translatedContent": "        0.52565687, -0.48420646,  0.22136413, -0.95464127,  0.58297397])"
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

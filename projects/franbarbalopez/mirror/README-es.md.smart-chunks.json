@@ -8,182 +8,7 @@
     "EndLine": 0,
     "Translation": "<img src=\"https://raw.githubusercontent.com/franbarbalopez/mirror/master/art/logo.png\" alt=\"Mirror Logo\">\n\n<div align=\"center\">\n    <img alt=\"Última Versión en Packagist\" src=\"https://img.shields.io/packagist/v/franbarbalopez/mirror.svg\">\n    <img alt=\"Estado de Acciones de Pruebas en GitHub\" src=\"https://img.shields.io/github/actions/workflow/status/franbarbalopez/mirror/tests.yml?label=tests\">\n    <img alt=\"Descargas Totales\" src=\"https://img.shields.io/packagist/dt/franbarbalopez/mirror.svg\">\n    <img alt=\"Licencia\" src=\"https://img.shields.io/packagist/l/franbarbalopez/mirror.svg\">\n</div>\n\n# Mirror\n\nMirror es un paquete elegante de suplantación de usuario para Laravel. Permite a los administradores iniciar sesión como otros usuarios sin problemas para solucionar problemas, brindar soporte o probar experiencias de usuario. Mirror maneja la integridad de la sesión con verificación criptográfica, expiración automática, soporte multi-guard, middleware flexible y eventos de ciclo de vida para el registro de auditoría. Perfecto para aplicaciones en producción que necesitan una suplantación de usuario confiable y segura.\n\n## Características\n\n- Integridad de sesión HMAC-SHA256 para prevenir manipulaciones\n- Expiración TTL configurable\n- Middleware para control de acceso y aplicación de TTL\n- Soporte multi-guard\n- Redirección de URL flexible\n- Eventos de ciclo de vida para registro de auditoría\n\n## Requisitos\n\n- PHP 8.2+\n- Laravel 11+\n\n## Instalación\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "dhwDIM4z6JUVGWA90Ma8CzoWUyUIVMRB6dgl0YEKh1w=",
-        "originContent": "<img src=\"https://raw.githubusercontent.com/franbarbalopez/mirror/master/art/logo.png\" alt=\"Mirror Logo\">",
-        "translatedContent": "<img src=\"https://raw.githubusercontent.com/franbarbalopez/mirror/master/art/logo.png\" alt=\"Mirror Logo\">"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "94MDjHJY1ZLwHNTLIEUIfk7TMc9cq1L/1FmwhqBTe/k=",
-        "originContent": "<div align=\"center\">",
-        "translatedContent": "<div align=\"center\">"
-      },
-      {
-        "row": 4,
-        "rowsha": "94hTu4OkSHqvLyjRxXegkYKx43j8W8cMJ+G2DcQrchE=",
-        "originContent": "    <img alt=\"Latest Version on Packagist\" src=\"https://img.shields.io/packagist/v/franbarbalopez/mirror.svg\">",
-        "translatedContent": "    <img alt=\"Última Versión en Packagist\" src=\"https://img.shields.io/packagist/v/franbarbalopez/mirror.svg\">"
-      },
-      {
-        "row": 5,
-        "rowsha": "P+O+h18tdFGQ96AoHC2MmUzaUmN1p79V1BzEW604oBE=",
-        "originContent": "    <img alt=\"GitHub Tests Action Status\" src=\"https://img.shields.io/github/actions/workflow/status/franbarbalopez/mirror/tests.yml?label=tests\">",
-        "translatedContent": "    <img alt=\"Estado de Acciones de Pruebas en GitHub\" src=\"https://img.shields.io/github/actions/workflow/status/franbarbalopez/mirror/tests.yml?label=tests\">"
-      },
-      {
-        "row": 6,
-        "rowsha": "LCcztlYpXiQStCqU8EKleqUuborKAtPfUpM/D4ns/mg=",
-        "originContent": "    <img alt=\"Total Downloads\" src=\"https://img.shields.io/packagist/dt/franbarbalopez/mirror.svg\">",
-        "translatedContent": "    <img alt=\"Descargas Totales\" src=\"https://img.shields.io/packagist/dt/franbarbalopez/mirror.svg\">"
-      },
-      {
-        "row": 7,
-        "rowsha": "OUENL9bYVOEKAn0rIhfMnO64EjQIURx4BKJ9CXwsHtw=",
-        "originContent": "    <img alt=\"License\" src=\"https://img.shields.io/packagist/l/franbarbalopez/mirror.svg\">",
-        "translatedContent": "    <img alt=\"Licencia\" src=\"https://img.shields.io/packagist/l/franbarbalopez/mirror.svg\">"
-      },
-      {
-        "row": 8,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
-        "translatedContent": "</div>"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "OtalTnS/4Pmgbvi8eVLiFrx3mmxe/HfKeYDK937n0DU=",
-        "originContent": "# Mirror",
-        "translatedContent": "# Mirror"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "EI8dbGaYd8vqCDWMDswXp1u/rBgdDjrI08L0wK9jU3w=",
-        "originContent": "Mirror is an elegant user impersonation package for Laravel. It allows administrators to seamlessly log in as other users to troubleshoot issues, provide support, or test user experiences. Mirror handles session integrity with cryptographic verification, automatic expiration, multi-guard support, flexible middleware, and lifecycle events for audit logging. Perfect for production applications that need reliable and secure user impersonation.",
-        "translatedContent": "Mirror es un paquete elegante de suplantación de usuario para Laravel. Permite a los administradores iniciar sesión como otros usuarios sin problemas para solucionar problemas, brindar soporte o probar experiencias de usuario. Mirror maneja la integridad de la sesión con verificación criptográfica, expiración automática, soporte multi-guard, middleware flexible y eventos de ciclo de vida para el registro de auditoría. Perfecto para aplicaciones en producción que necesitan una suplantación de usuario confiable y segura."
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
-        "originContent": "## Features",
-        "translatedContent": "## Características"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "woC9x828VXukQ09PQNXusuRJhEaUZca9bAb8b3DL2Gg=",
-        "originContent": "- HMAC-SHA256 session integrity to prevent tampering",
-        "translatedContent": "- Integridad de sesión HMAC-SHA256 para prevenir manipulaciones"
-      },
-      {
-        "row": 17,
-        "rowsha": "zcUuT+BPoBFpCkXVR7YdlVNB+SKR8nC8c0AiClqUvso=",
-        "originContent": "- Configurable TTL expiration",
-        "translatedContent": "- Expiración TTL configurable"
-      },
-      {
-        "row": 18,
-        "rowsha": "65R8T7GAemaawTP58eSR9FmVWPX/bYng7Z4kifhxrJY=",
-        "originContent": "- Middleware for access control and TTL enforcement",
-        "translatedContent": "- Middleware para control de acceso y aplicación de TTL"
-      },
-      {
-        "row": 19,
-        "rowsha": "JjPKpF+PqTXo2U6Y8xNLXR/fVQT96jdH+5djrAUE/iQ=",
-        "originContent": "- Multi-guard support",
-        "translatedContent": "- Soporte multi-guard"
-      },
-      {
-        "row": 20,
-        "rowsha": "tX48ScgoZkfAR8i2eUu6SSXXYonVQoMNq+z4lkmVukg=",
-        "originContent": "- Flexible URL redirection",
-        "translatedContent": "- Redirección de URL flexible"
-      },
-      {
-        "row": 21,
-        "rowsha": "p8iyY5vGN5CChfPIy4G8MriBi3FXtDb/JZM688Ryi+k=",
-        "originContent": "- Lifecycle events for audit logging",
-        "translatedContent": "- Eventos de ciclo de vida para registro de auditoría"
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
-        "originContent": "## Requirements",
-        "translatedContent": "## Requisitos"
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 25,
-        "rowsha": "ZZImxK2FfOtxRhQHaGNkjAG4WPJKXYPaJk5nC8kehI0=",
-        "originContent": "- PHP 8.2+",
-        "translatedContent": "- PHP 8.2+"
-      },
-      {
-        "row": 26,
-        "rowsha": "MbMaepKL1O+QhNkMzXLxmlC96FOzu6Uu3WRCdoZY5r8=",
-        "originContent": "- Laravel 11+",
-        "translatedContent": "- Laravel 11+"
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
-        "originContent": "## Installation",
-        "translatedContent": "## Instalación"
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -195,26 +20,7 @@
     "EndLine": 0,
     "Translation": "```bash\ncomposer require franbarbalopez/mirror\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "0hRZJm+ykDhRGQ+ZPwBKxAC3ZyU/UNHOTlfkui7YpBI=",
-        "originContent": "composer require franbarbalopez/mirror",
-        "translatedContent": "composer require franbarbalopez/mirror"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -226,26 +32,7 @@
     "EndLine": 0,
     "Translation": "Opcional - publicar el archivo de configuración:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Opcional - publicar el archivo de configuración:"
-      },
-      {
-        "row": 2,
-        "rowsha": "52y2bI8GTd3mxP8QNhMAfO4/QUS+/3l9+5uAlM/L/yc=",
-        "originContent": "Optional - publish the config file:",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -257,26 +44,7 @@
     "EndLine": 0,
     "Translation": "```bash\nphp artisan vendor:publish --tag=mirror\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "3mCn9dD8VQKDRCpySzUEeyM5/hvp4HHw4W+zGIaq5HM=",
-        "originContent": "php artisan vendor:publish --tag=mirror",
-        "translatedContent": "php artisan vendor:publish --tag=mirror"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -288,38 +56,7 @@
     "EndLine": 0,
     "Translation": "\n## Inicio Rápido\n\n### 1. Agregar Trait al Modelo de Usuario\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
-        "originContent": "## Quick Start",
-        "translatedContent": "## Inicio Rápido"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "ZxcvZwUYhcrFTU+O1jl9fG8koHkCbV2rHIBN594UsFc=",
-        "originContent": "### 1. Add Trait to User Model",
-        "translatedContent": "### 1. Agregar Trait al Modelo de Usuario"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -331,122 +68,7 @@
     "EndLine": 0,
     "Translation": "```php\nuse Illuminate\\Foundation\\Auth\\User as Authenticatable;\nuse Mirror\\Concerns\\Impersonatable;\n\nclass User extends Authenticatable\n{\n    use Impersonatable;\n\n    public function canImpersonate(): bool\n    {\n        return $this->hasRole('admin');\n    }\n\n    public function canBeImpersonated(): bool\n    {\n        return ! $this->hasRole('super-admin');\n    }\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "J/lW7Yyj7ls90dbooiictPaXmFLS55qH7SeKP3bDWfY=",
-        "originContent": "use Illuminate\\Foundation\\Auth\\User as Authenticatable;",
-        "translatedContent": "use Illuminate\\Foundation\\Auth\\User as Authenticatable;"
-      },
-      {
-        "row": 3,
-        "rowsha": "JdP9a+gvYGyVpCZFRBFjMkkugoDOQFQitr1/ffx9Hv0=",
-        "originContent": "use Mirror\\Concerns\\Impersonatable;",
-        "translatedContent": "use Mirror\\Concerns\\Impersonatable;"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "+1TsADIsza8y7w10k44A9wsybLILbL7AGguE2cgtKtg=",
-        "originContent": "class User extends Authenticatable",
-        "translatedContent": "class User extends Authenticatable"
-      },
-      {
-        "row": 6,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 7,
-        "rowsha": "jQqmSIZJc1Ya9LPOATz0hztSh8fIGl6PlA7dZUAW43c=",
-        "originContent": "    use Impersonatable;",
-        "translatedContent": "    use Impersonatable;"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "GgVd3g5HTbeRAaiXtjjy+/bBiB0XhlSlHKQsSq8fHno=",
-        "originContent": "    public function canImpersonate(): bool",
-        "translatedContent": "    public function canImpersonate(): bool"
-      },
-      {
-        "row": 10,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 11,
-        "rowsha": "qJHGgD1IMjBAF69yRhD3RWe4onrJkYQO0h+eU7XxW/c=",
-        "originContent": "        return $this->hasRole('admin');",
-        "translatedContent": "        return $this->hasRole('admin');"
-      },
-      {
-        "row": 12,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "/NR/e5FXpVPtU+Sdnq5+MrSjSKiarV5+/5/jd3AxViw=",
-        "originContent": "    public function canBeImpersonated(): bool",
-        "translatedContent": "    public function canBeImpersonated(): bool"
-      },
-      {
-        "row": 15,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 16,
-        "rowsha": "nFwJ6PdRbBdiiI9XvLCRUuctqwEs+E8ty5ozsj4iG/I=",
-        "originContent": "        return ! $this->hasRole('super-admin');",
-        "translatedContent": "        return ! $this->hasRole('super-admin');"
-      },
-      {
-        "row": 17,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 18,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 19,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -458,38 +80,7 @@
     "EndLine": 0,
     "Translation": "\n**Importante:** Si no implementas `canImpersonate()`, todos pueden suplantar a todos. El trait devuelve `true` por defecto.\n\n### 2. Comenzar a suplantar\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "9BrCiQL1FWQ/pxH0bL5sJfeG2cBRq9qMrivmQbtDg2c=",
-        "originContent": "**Important:** If you don't implement `canImpersonate()`, everyone can impersonate everyone. The trait returns `true` by default.",
-        "translatedContent": "**Importante:** Si no implementas `canImpersonate()`, todos pueden suplantar a todos. El trait devuelve `true` por defecto."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "G3tbG+3E6AGp8zkvgW1y9xYX3veadvBKx1jGaQcOtqI=",
-        "originContent": "### 2. Start Impersonating",
-        "translatedContent": "### 2. Comenzar a suplantar"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -501,68 +92,7 @@
     "EndLine": 0,
     "Translation": "```php\nuse Mirror\\Facades\\Mirror;\n\npublic function impersonate(User $user)\n{\n    Mirror::start($user);\n\n    return redirect()->route('dashboard');\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "JSGCKHZU1QCiYAWK3Rlu7HDoXj4Kq1GYgvZCUtP9h4g=",
-        "originContent": "use Mirror\\Facades\\Mirror;",
-        "translatedContent": "use Mirror\\Facades\\Mirror;"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "kjYr0fsVmNpDaO5uuRDn6DE3b5cOhIr/70Je+M9Aiq8=",
-        "originContent": "public function impersonate(User $user)",
-        "translatedContent": "public function impersonate(User $user)"
-      },
-      {
-        "row": 5,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 6,
-        "rowsha": "vzN4fcJ8EpxjqTyhTaegNik4GJdDO8aLeS1xsln9MM4=",
-        "originContent": "    Mirror::start($user);",
-        "translatedContent": "    Mirror::start($user);"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "Ah9OuzSBLta2qfmR3FKKiz/8YOr+lGNLXD7P8Py7WdY=",
-        "originContent": "    return redirect()->route('dashboard');",
-        "translatedContent": "    return redirect()->route('dashboard');"
-      },
-      {
-        "row": 9,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 10,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -574,26 +104,7 @@
     "EndLine": 0,
     "Translation": "\n### 3. Deja de suplantar identidad\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "GQhx6QbLE13e366cMIon5h7mOXC4KRFTJ0sA9xvYnjo=",
-        "originContent": "### 3. Stop Impersonating",
-        "translatedContent": "### 3. Deja de suplantar identidad"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -605,56 +116,7 @@
     "EndLine": 0,
     "Translation": "```php\npublic function leave()\n{\n    Mirror::stop();\n\n    return redirect()->route('admin.users.index');\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "VkXVG5fjYh9el+nqw3dqaxxM06somMQen8g9JePRjU4=",
-        "originContent": "public function leave()",
-        "translatedContent": "public function leave()"
-      },
-      {
-        "row": 3,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 4,
-        "rowsha": "TyWxjDmMRZ78W2SR8l4XanrZusO33FvV7pviIeNd2qE=",
-        "originContent": "    Mirror::stop();",
-        "translatedContent": "    Mirror::stop();"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "jbouWHEK8GavKMY6BCnYKbmGr+sKoaj2Omm2migN4Zo=",
-        "originContent": "    return redirect()->route('admin.users.index');",
-        "translatedContent": "    return redirect()->route('admin.users.index');"
-      },
-      {
-        "row": 7,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 8,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -666,86 +128,7 @@
     "EndLine": 0,
     "Translation": "\n## Seguridad\n\nLas sesiones de suplantación están protegidas con hashes HMAC-SHA256 usando la clave de tu aplicación. El hash cubre el ID del suplantador, el nombre del guardia, la hora de inicio y la URL de redirección. En cada llamada a `stop()`, Mirror verifica este hash; si alguien ha manipulado la sesión, lanza una excepción y borra todo.\n\nConfigura el TTL en `config/mirror.php` para que las sesiones expiren automáticamente después de un tiempo establecido.\n\n## Referencia de la API\n\n### Iniciar Suplantación\n\nPor instancia de usuario:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "UlQ9upvw00moCjWDduBZqkTiv0PRDG/mYeqnsF8DP6Q=",
-        "originContent": "## Security",
-        "translatedContent": "## Seguridad"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "Nz2fh067ItyMZlq4T/ejU4uG8F9wMmy21Mv/XWWkrpI=",
-        "originContent": "Impersonation sessions are protected with HMAC-SHA256 hashes using your app key. The hash covers the impersonator ID, guard name, start time, and redirect URL. On every `stop()` call, Mirror verifies this hash - if someone's tampered with the session, it throws an exception and clears everything.",
-        "translatedContent": "Las sesiones de suplantación están protegidas con hashes HMAC-SHA256 usando la clave de tu aplicación. El hash cubre el ID del suplantador, el nombre del guardia, la hora de inicio y la URL de redirección. En cada llamada a `stop()`, Mirror verifica este hash; si alguien ha manipulado la sesión, lanza una excepción y borra todo."
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "iMASu44WPaRKXSZXSIvAOVjF9ZnwqptWjrHMPLvo5to=",
-        "originContent": "Configure TTL in `config/mirror.php` to automatically expire sessions after a set time.",
-        "translatedContent": "Configura el TTL en `config/mirror.php` para que las sesiones expiren automáticamente después de un tiempo establecido."
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "nvAYtiZ8HdVYa6kQLlWO++52V6Dkv1H6BZ+0YJLenok=",
-        "originContent": "## API Reference",
-        "translatedContent": "## Referencia de la API"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "LSVCuArg0ilonYRzuhx3Dp6L688ajiHtMwt6ZoIQAFQ=",
-        "originContent": "### Starting Impersonation",
-        "translatedContent": "### Iniciar Suplantación"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "pig277vhZiO5Z8HuiFRDB+LDR+NZk33UFRbhcNurMrw=",
-        "originContent": "By user instance:",
-        "translatedContent": "Por instancia de usuario:"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -757,80 +140,7 @@
     "EndLine": 0,
     "Translation": "```php\nMirror::start($user);\n\n// With redirect URLs\n$redirectUrl = Mirror::start(\n    user: $targetUser,\n    leaveRedirectUrl: route('admin.users.index'),\n    startRedirectUrl: route('dashboard')\n);\n\nreturn redirect($redirectUrl);\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "A7Pfl58id+zo2sjmI6WV3/hn5uRAjjirrEwAL5lAPF4=",
-        "originContent": "Mirror::start($user);",
-        "translatedContent": "Mirror::start($user);"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "0h0d6BhmggvSELJAa6enzubTc6Qgx6ghpMJXK6R9jSM=",
-        "originContent": "// With redirect URLs",
-        "translatedContent": "// With redirect URLs"
-      },
-      {
-        "row": 5,
-        "rowsha": "o6VJK3f7WrS7LuyQCSRTqlnj+kyrPeaOfIRtRIedf20=",
-        "originContent": "$redirectUrl = Mirror::start(",
-        "translatedContent": "$redirectUrl = Mirror::start("
-      },
-      {
-        "row": 6,
-        "rowsha": "yVUxqAG909Go1XBTaG0m8KzSkLUt9e/0m7JJn5M73vs=",
-        "originContent": "    user: $targetUser,",
-        "translatedContent": "    user: $targetUser,"
-      },
-      {
-        "row": 7,
-        "rowsha": "UyVIDV+sjGwQFeRddz9tj5EHWromxmFJmsF0tXLnL/A=",
-        "originContent": "    leaveRedirectUrl: route('admin.users.index'),",
-        "translatedContent": "    leaveRedirectUrl: route('admin.users.index'),"
-      },
-      {
-        "row": 8,
-        "rowsha": "VQE3LeJk+obcqm7AK3sgWoaHQiWjizuJ+SwB1pvHZqY=",
-        "originContent": "    startRedirectUrl: route('dashboard')",
-        "translatedContent": "    startRedirectUrl: route('dashboard')"
-      },
-      {
-        "row": 9,
-        "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
-        "originContent": ");",
-        "translatedContent": ");"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "ABvwkuPb60ia39bPOnRFaD2G0lP0kFenMclucfyYSIo=",
-        "originContent": "return redirect($redirectUrl);",
-        "translatedContent": "return redirect($redirectUrl);"
-      },
-      {
-        "row": 12,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -842,26 +152,7 @@
     "EndLine": 0,
     "Translation": "\nPor clave primaria (funciona con int, UUID, ULID, etc.):\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "vatfg8FIN4jtN8WC0/mVqYhhrA4mcXGhNP/Z3FtSnQA=",
-        "originContent": "By primary key (works with int, UUID, ULID, etc.):",
-        "translatedContent": "Por clave primaria (funciona con int, UUID, ULID, etc.):"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -873,38 +164,7 @@
     "EndLine": 0,
     "Translation": "```php\nMirror::startByKey(123);\n\nMirror::startByKey('550e8400-e29b-41d4-a716-446655440000');\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "ug7seSzqs9czBMXUdGP/drgMwC92oZ3eC6Y+sr/0Kjg=",
-        "originContent": "Mirror::startByKey(123);",
-        "translatedContent": "Mirror::startByKey(123);"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "pO6Id/2A3Cu9RPSg7pIP/FikWpbx+b609v0Rrd3lIFM=",
-        "originContent": "Mirror::startByKey('550e8400-e29b-41d4-a716-446655440000');",
-        "translatedContent": "Mirror::startByKey('550e8400-e29b-41d4-a716-446655440000');"
-      },
-      {
-        "row": 5,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -916,26 +176,7 @@
     "EndLine": 0,
     "Translation": "\nPor correo electrónico:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "VBCmztpuD+F4eCsA4ZAULXKteU+PW3jODayTLaF/5jY=",
-        "originContent": "By email:",
-        "translatedContent": "Por correo electrónico:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -947,26 +188,7 @@
     "EndLine": 0,
     "Translation": "```php\nMirror::startByEmail('user@example.com');\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "b0hlcV8Qb6RduYyi1YlV3r5F9Gk5S1SKyo4KUzRCnqQ=",
-        "originContent": "Mirror::startByEmail('user@example.com');",
-        "translatedContent": "Mirror::startByEmail('user@example.com');"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -978,26 +200,7 @@
     "EndLine": 0,
     "Translation": "\n### Detener la suplantación\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "1hvMJRc/wATFSGpb22RLsQWuEoHti4jASs/0y5++dyw=",
-        "originContent": "### Stopping Impersonation",
-        "translatedContent": "### Detener la suplantación"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1009,44 +212,7 @@
     "EndLine": 0,
     "Translation": "```php\nMirror::stop();\n\n// Force stop - bypasses TTL check but still verifies integrity\nMirror::forceStop();\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "c04cnY4jJajq0FhDWbAoP6EY5ConN4aBulDZIi88puc=",
-        "originContent": "Mirror::stop();",
-        "translatedContent": "Mirror::stop();"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "Vh0M+lx12cqj7qITVBCLFiCgYHtE+0UfrifX0lSTEFc=",
-        "originContent": "// Force stop - bypasses TTL check but still verifies integrity",
-        "translatedContent": "// Force stop - bypasses TTL check but still verifies integrity"
-      },
-      {
-        "row": 5,
-        "rowsha": "JqkzjmKLhI/faDe1j3DsSkOYweidrBznhLWw/xfsOGc=",
-        "originContent": "Mirror::forceStop();",
-        "translatedContent": "Mirror::forceStop();"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1058,38 +224,7 @@
     "EndLine": 0,
     "Translation": "\nUse `forceStop()` cuando necesite terminar la suplantación desde acciones de administrador o scripts de limpieza - omite la verificación de TTL pero aún lanza un error si la sesión ha sido manipulada.\n\n### Comprobación del estado\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "8Or+tfXNCJXVMZdZTJgq9YAm6Z/9x1qRMo//5iUfmwg=",
-        "originContent": "Use `forceStop()` when you need to end impersonation from admin actions or cleanup scripts - it skips the TTL check but still throws if the session's been tampered with.",
-        "translatedContent": "Use `forceStop()` cuando necesite terminar la suplantación desde acciones de administrador o scripts de limpieza - omite la verificación de TTL pero aún lanza un error si la sesión ha sido manipulada."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "dWHISz/S0vRE7W4i5N3KILhRIXX9dW+sufyJDi2gojM=",
-        "originContent": "### Checking State",
-        "translatedContent": "### Comprobación del estado"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1101,44 +236,7 @@
     "EndLine": 0,
     "Translation": "```php\nMirror::isImpersonating(): bool\nMirror::getImpersonator(): ?Authenticatable\nMirror::impersonatorId(): int|string|null\nMirror::getLeaveRedirectUrl(): ?string\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "wn69nc1NWlqcIwg//f0ODZJaiWb6Q4xhx5tQ3g36CPg=",
-        "originContent": "Mirror::isImpersonating(): bool",
-        "translatedContent": "Mirror::isImpersonating(): bool"
-      },
-      {
-        "row": 3,
-        "rowsha": "iPGcLqBRnVnLDfctitI1oxKK66djCU7I1W+i/R1ANPk=",
-        "originContent": "Mirror::getImpersonator(): ?Authenticatable",
-        "translatedContent": "Mirror::getImpersonator(): ?Authenticatable"
-      },
-      {
-        "row": 4,
-        "rowsha": "wAOhwnor1LHbrW5rFtYXXLAEOXUIR7iNMvcey7cjjNc=",
-        "originContent": "Mirror::impersonatorId(): int|string|null",
-        "translatedContent": "Mirror::impersonatorId(): int|string|null"
-      },
-      {
-        "row": 5,
-        "rowsha": "XCCfmtKpc06Y+ob6GHoX/RHHe4GNQB3vDNfDwiZfAdc=",
-        "originContent": "Mirror::getLeaveRedirectUrl(): ?string",
-        "translatedContent": "Mirror::getLeaveRedirectUrl(): ?string"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1150,26 +248,7 @@
     "EndLine": 0,
     "Translation": "\n### Alias\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "YDNFEOO+w2UZqxWwJHlm18q3rH0tmGaJmAXKiScX/7s=",
-        "originContent": "### Aliases",
-        "translatedContent": "### Alias"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1181,44 +260,7 @@
     "EndLine": 0,
     "Translation": "```php\nMirror::as($user);           // same as start()\nMirror::leave();             // same as stop()\nMirror::impersonating();     // same as isImpersonating()\nMirror::impersonator();      // same as getImpersonator()\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "xX+zgKpnvccOFKQ5Pxc6DoFNqXVfds8Q0rma1lHqKGQ=",
-        "originContent": "Mirror::as($user);           // same as start()",
-        "translatedContent": "Mirror::as($user);           // same as start()"
-      },
-      {
-        "row": 3,
-        "rowsha": "CGFGEO6H/QsyN6j2cExHytu6ubgDiujUrpGCUOlLEEs=",
-        "originContent": "Mirror::leave();             // same as stop()",
-        "translatedContent": "Mirror::leave();             // same as stop()"
-      },
-      {
-        "row": 4,
-        "rowsha": "5bQUEnNGJXSlUGI87z797Qz33mi8B9HUblsknlOd6vs=",
-        "originContent": "Mirror::impersonating();     // same as isImpersonating()",
-        "translatedContent": "Mirror::impersonating();     // same as isImpersonating()"
-      },
-      {
-        "row": 5,
-        "rowsha": "3ie3VFJi1v00DUtmAp6j4VGTpkUxKwl5sZ0ne6YSiNk=",
-        "originContent": "Mirror::impersonator();      // same as getImpersonator()",
-        "translatedContent": "Mirror::impersonator();      // same as getImpersonator()"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1230,50 +272,7 @@
     "EndLine": 0,
     "Translation": "\n## Middleware\n\n### `mirror.ttl`\n\nComprueba si la sesión de suplantación ha expirado y llama automáticamente a `stop()` si es necesario:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "FW1hP8lwtn8uShkFdBUKLenfZtjBF5cfzarJ3MOcylo=",
-        "originContent": "## Middleware",
-        "translatedContent": "## Middleware"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "RU/8LAVTnadZ7LZDuaWY0/dpUbuBqN87jLkEpEHSCC0=",
-        "originContent": "### `mirror.ttl`",
-        "translatedContent": "### `mirror.ttl`"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "GjmM5vV3dk7L3QVJAqKgSagf9jQPx9y9OIE9fXbY9qg=",
-        "originContent": "Checks if the impersonation session has expired and automatically calls `stop()` if needed:",
-        "translatedContent": "Comprueba si la sesión de suplantación ha expirado y llama automáticamente a `stop()` si es necesario:"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1285,44 +284,7 @@
     "EndLine": 0,
     "Translation": "```php\nRoute::middleware('mirror.ttl')->group(function () {\n    Route::get('/admin/users', [UserController::class, 'index']);\n    Route::get('/admin/users/{user}', [UserController::class, 'show']);\n});\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "bxoexYOi+Mlk5c0m+3Sk6gKfTECol4Q/gQPcBWiVDLo=",
-        "originContent": "Route::middleware('mirror.ttl')->group(function () {",
-        "translatedContent": "Route::middleware('mirror.ttl')->group(function () {"
-      },
-      {
-        "row": 3,
-        "rowsha": "oksjhOe33wip+++/BozIQdx4he4ndCk2AR6TfdbELGM=",
-        "originContent": "    Route::get('/admin/users', [UserController::class, 'index']);",
-        "translatedContent": "    Route::get('/admin/users', [UserController::class, 'index']);"
-      },
-      {
-        "row": 4,
-        "rowsha": "4CNuC57rp6JCThDjNOrrTBKxh76d2r3027e+rT7Y58E=",
-        "originContent": "    Route::get('/admin/users/{user}', [UserController::class, 'show']);",
-        "translatedContent": "    Route::get('/admin/users/{user}', [UserController::class, 'show']);"
-      },
-      {
-        "row": 5,
-        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
-        "originContent": "});",
-        "translatedContent": "});"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1334,50 +296,7 @@
     "EndLine": 0,
     "Translation": "\nBueno para proteger áreas administrativas sensibles donde deseas que las sesiones expiradas terminen de manera elegante. Ten en cuenta que cuando el TTL expira, este middleware finalizará la suplantación y redirigirá, así que asegúrate de que la limpieza de tu sesión esté configurada correctamente.\n\n### `mirror.require`\n\nSolo permite el acceso si se está suplantando activamente:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "ui3trFiwnTUI9LrVv5qDZ7/iOXRKeal6jBCBKCxBtOg=",
-        "originContent": "Good for protecting sensitive admin areas where you want expired sessions to exit gracefully. Note that when TTL expires, this middleware will end the impersonation and redirect, so make sure your session cleanup is set up properly.",
-        "translatedContent": "Bueno para proteger áreas administrativas sensibles donde deseas que las sesiones expiradas terminen de manera elegante. Ten en cuenta que cuando el TTL expira, este middleware finalizará la suplantación y redirigirá, así que asegúrate de que la limpieza de tu sesión esté configurada correctamente."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "OBKuLK9n9RFbP5GFOuSRMHcw1a+bJz1uZM/cdlvotwE=",
-        "originContent": "### `mirror.require`",
-        "translatedContent": "### `mirror.require`"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "TgaeB+DfXReo2HyWwtJk8t6z52QENwQh88YV1C4mcOc=",
-        "originContent": "Only allows access if actively impersonating:",
-        "translatedContent": "Solo permite el acceso si se está suplantando activamente:"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1389,50 +308,7 @@
     "EndLine": 0,
     "Translation": "```php\nRoute::middleware('mirror.require')->group(function () {\n    Route::get('/impersonation/banner', function () {\n        return view('impersonation.banner');\n    });\n});\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "dhpWT4yTrxAzvtlQ3Z80oBAuG4IiQMisnJ8B8RaYvF4=",
-        "originContent": "Route::middleware('mirror.require')->group(function () {",
-        "translatedContent": "Route::middleware('mirror.require')->group(function () {"
-      },
-      {
-        "row": 3,
-        "rowsha": "XM65dB+VeeMfh6fd/gAdnCzDQxzgKVt0BGsfmtQP+MI=",
-        "originContent": "    Route::get('/impersonation/banner', function () {",
-        "translatedContent": "    Route::get('/impersonation/banner', function () {"
-      },
-      {
-        "row": 4,
-        "rowsha": "Z3ZTf30Y8Q5HBlcnc0+Qsz1Alx4c6Gu9OMLYBRsFLVk=",
-        "originContent": "        return view('impersonation.banner');",
-        "translatedContent": "        return view('impersonation.banner');"
-      },
-      {
-        "row": 5,
-        "rowsha": "J1qSMWPEACGxjVVVepYn/QGoe0S8Ili1BNZcMfXgap0=",
-        "originContent": "    });",
-        "translatedContent": "    });"
-      },
-      {
-        "row": 6,
-        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
-        "originContent": "});",
-        "translatedContent": "});"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1444,50 +320,7 @@
     "EndLine": 0,
     "Translation": "\nÚtil para componentes de UI especiales que solo tienen sentido durante la suplantación, como un banner que muestra a quién estás suplantando.\n\n### `mirror.prevent`\n\nBloquea el acceso mientras se está suplantando:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "DmcpXQo51uA3s461cgyu7I4v7NMWTwpxwRPqTxYEJOA=",
-        "originContent": "Useful for special UI components that only make sense during impersonation - like a banner showing who you're impersonating.",
-        "translatedContent": "Útil para componentes de UI especiales que solo tienen sentido durante la suplantación, como un banner que muestra a quién estás suplantando."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "CfG9uxpzM7senokZFZcTJeEEkNqChxRFV4ToGwc5LzY=",
-        "originContent": "### `mirror.prevent`",
-        "translatedContent": "### `mirror.prevent`"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "LCcCSXJIenHXfN3GSwJtUn2Jg6ETV/aCRcl0B6+5gxc=",
-        "originContent": "Blocks access while impersonating:",
-        "translatedContent": "Bloquea el acceso mientras se está suplantando:"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1499,44 +332,7 @@
     "EndLine": 0,
     "Translation": "```php\nRoute::middleware('mirror.prevent')->group(function () {\n    Route::post('/admin/users/{user}/delete', [UserController::class, 'destroy']);\n    Route::get('/admin/settings', [SettingsController::class, 'edit']);\n});\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "3WblbW22EyXiPNfDycOmvclVQaPui4QlXyIYD4dFs7E=",
-        "originContent": "Route::middleware('mirror.prevent')->group(function () {",
-        "translatedContent": "Route::middleware('mirror.prevent')->group(function () {"
-      },
-      {
-        "row": 3,
-        "rowsha": "RXJ0is+/HlQS7kYmBNIaoqgzb277slZ1feS9lT8ojJE=",
-        "originContent": "    Route::post('/admin/users/{user}/delete', [UserController::class, 'destroy']);",
-        "translatedContent": "    Route::post('/admin/users/{user}/delete', [UserController::class, 'destroy']);"
-      },
-      {
-        "row": 4,
-        "rowsha": "+ZzpGihLaWNAE29pxi0BwIRf23VrRVLN6IY/kV35hkA=",
-        "originContent": "    Route::get('/admin/settings', [SettingsController::class, 'edit']);",
-        "translatedContent": "    Route::get('/admin/settings', [SettingsController::class, 'edit']);"
-      },
-      {
-        "row": 5,
-        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
-        "originContent": "});",
-        "translatedContent": "});"
-      },
-      {
-        "row": 6,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1548,50 +344,7 @@
     "EndLine": 0,
     "Translation": "\nProtege acciones destructivas o configuraciones sensibles que solo deben ser accesibles como el usuario original, no mientras se está suplantando a otra persona.\n\n## Autorización\n\nEl trait `Impersonatable` proporciona dos métodos que ambos retornan `true` por defecto. Sobrescríbelos para agregar tu propia lógica:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "6roV3/qnJQLWbY53OBJw5V5K9MOSPy4IEHL65w5IJ1M=",
-        "originContent": "Protects destructive actions or sensitive settings that should only be accessed as the original user, not while impersonating someone else.",
-        "translatedContent": "Protege acciones destructivas o configuraciones sensibles que solo deben ser accesibles como el usuario original, no mientras se está suplantando a otra persona."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "frD4nV68AAXC9SWFOdRuDVS//lGdL/RUL4b2TcAAKmc=",
-        "originContent": "## Authorization",
-        "translatedContent": "## Autorización"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "hF0qZLq19YdyyG80d/YwjfWIz3yneraFDEhT6eOedfo=",
-        "originContent": "The `Impersonatable` trait provides two methods that both return `true` by default. Override them to add your own logic:",
-        "translatedContent": "El trait `Impersonatable` proporciona dos métodos que ambos retornan `true` por defecto. Sobrescríbelos para agregar tu propia lógica:"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1603,116 +356,7 @@
     "EndLine": 0,
     "Translation": "```php\nuse Mirror\\Concerns\\Impersonatable;\n\nclass User extends Authenticatable\n{\n    use Impersonatable;\n\n    public function canImpersonate(): bool\n    {\n        return $this->hasRole('admin');\n    }\n\n    public function canBeImpersonated(): bool\n    {\n        return ! $this->hasRole('super-admin');\n    }\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "JdP9a+gvYGyVpCZFRBFjMkkugoDOQFQitr1/ffx9Hv0=",
-        "originContent": "use Mirror\\Concerns\\Impersonatable;",
-        "translatedContent": "use Mirror\\Concerns\\Impersonatable;"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "+1TsADIsza8y7w10k44A9wsybLILbL7AGguE2cgtKtg=",
-        "originContent": "class User extends Authenticatable",
-        "translatedContent": "class User extends Authenticatable"
-      },
-      {
-        "row": 5,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 6,
-        "rowsha": "jQqmSIZJc1Ya9LPOATz0hztSh8fIGl6PlA7dZUAW43c=",
-        "originContent": "    use Impersonatable;",
-        "translatedContent": "    use Impersonatable;"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "GgVd3g5HTbeRAaiXtjjy+/bBiB0XhlSlHKQsSq8fHno=",
-        "originContent": "    public function canImpersonate(): bool",
-        "translatedContent": "    public function canImpersonate(): bool"
-      },
-      {
-        "row": 9,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 10,
-        "rowsha": "qJHGgD1IMjBAF69yRhD3RWe4onrJkYQO0h+eU7XxW/c=",
-        "originContent": "        return $this->hasRole('admin');",
-        "translatedContent": "        return $this->hasRole('admin');"
-      },
-      {
-        "row": 11,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "/NR/e5FXpVPtU+Sdnq5+MrSjSKiarV5+/5/jd3AxViw=",
-        "originContent": "    public function canBeImpersonated(): bool",
-        "translatedContent": "    public function canBeImpersonated(): bool"
-      },
-      {
-        "row": 14,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 15,
-        "rowsha": "nFwJ6PdRbBdiiI9XvLCRUuctqwEs+E8ty5ozsj4iG/I=",
-        "originContent": "        return ! $this->hasRole('super-admin');",
-        "translatedContent": "        return ! $this->hasRole('super-admin');"
-      },
-      {
-        "row": 16,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 17,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 18,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1724,26 +368,7 @@
     "EndLine": 0,
     "Translation": "\nNo necesitas el trait: Mirror buscará estos métodos en tu modelo de usuario independientemente:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "j0ZfTbSRsYaqDy1dHA45SoSf8p/8RjGP0aQ1BFTPRSY=",
-        "originContent": "You don't need the trait - Mirror will look for these methods on your user model regardless:",
-        "translatedContent": "No necesitas el trait: Mirror buscará estos métodos en tu modelo de usuario independientemente:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1755,92 +380,7 @@
     "EndLine": 0,
     "Translation": "```php\nclass User extends Authenticatable\n{\n    public function canImpersonate(): bool\n    {\n        return $this->hasPermission('impersonate-users');\n    }\n\n    public function canBeImpersonated(): bool\n    {\n        return ! $this->is_system_account;\n    }\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "+1TsADIsza8y7w10k44A9wsybLILbL7AGguE2cgtKtg=",
-        "originContent": "class User extends Authenticatable",
-        "translatedContent": "class User extends Authenticatable"
-      },
-      {
-        "row": 3,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 4,
-        "rowsha": "GgVd3g5HTbeRAaiXtjjy+/bBiB0XhlSlHKQsSq8fHno=",
-        "originContent": "    public function canImpersonate(): bool",
-        "translatedContent": "    public function canImpersonate(): bool"
-      },
-      {
-        "row": 5,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 6,
-        "rowsha": "7gl3zQbzWf1js3t5rWAfcccWHqvX4QgOTLnWJuNfIkk=",
-        "originContent": "        return $this->hasPermission('impersonate-users');",
-        "translatedContent": "        return $this->hasPermission('impersonate-users');"
-      },
-      {
-        "row": 7,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "/NR/e5FXpVPtU+Sdnq5+MrSjSKiarV5+/5/jd3AxViw=",
-        "originContent": "    public function canBeImpersonated(): bool",
-        "translatedContent": "    public function canBeImpersonated(): bool"
-      },
-      {
-        "row": 10,
-        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
-        "originContent": "    {",
-        "translatedContent": "    {"
-      },
-      {
-        "row": 11,
-        "rowsha": "emJaScE3oXenu8qPkvFTQWjY05S7MtW4kkk/XvdqN70=",
-        "originContent": "        return ! $this->is_system_account;",
-        "translatedContent": "        return ! $this->is_system_account;"
-      },
-      {
-        "row": 12,
-        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
-        "originContent": "    }",
-        "translatedContent": "    }"
-      },
-      {
-        "row": 13,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 14,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -1852,38 +392,7 @@
     "EndLine": 0,
     "Translation": "\n## Redirección de URL\n\nPuedes controlar a dónde van los usuarios al iniciar y detener la suplantación:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "hv4bUjPSSbNjzGBdkFQqGhK+FN2OYrEht2FwXBRiINM=",
-        "originContent": "## URL Redirection",
-        "translatedContent": "## Redirección de URL"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "wi4FDxFNw5Okya/0dkJzwdVkud89+knxURJy8PcG+bo=",
-        "originContent": "You can control where users go when starting and stopping impersonation:",
-        "translatedContent": "Puedes controlar a dónde van los usuarios al iniciar y detener la suplantación:"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -1895,122 +404,7 @@
     "EndLine": 0,
     "Translation": "```php\npublic function impersonate(User $user)\n{\n    $redirectUrl = Mirror::start(\n        user: $user,\n        leaveRedirectUrl: route('admin.users.index'),  // where to go when they stop\n        startRedirectUrl: route('dashboard')            // where to go right now\n    );\n\n    return redirect($redirectUrl);\n}\n\npublic function leave()\n{\n    Mirror::stop();\n\n    return redirect(Mirror::getLeaveRedirectUrl());\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "kjYr0fsVmNpDaO5uuRDn6DE3b5cOhIr/70Je+M9Aiq8=",
-        "originContent": "public function impersonate(User $user)",
-        "translatedContent": "public function impersonate(User $user)"
-      },
-      {
-        "row": 3,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 4,
-        "rowsha": "kOC32tpOrb2W2nXUEC3goR2BxvG4FiT20Gd6izFss+8=",
-        "originContent": "    $redirectUrl = Mirror::start(",
-        "translatedContent": "    $redirectUrl = Mirror::start("
-      },
-      {
-        "row": 5,
-        "rowsha": "l8HsqfCAp8Itw1xGVE7xjmMA6mOvdtRWtTQZJ/C6Ksg=",
-        "originContent": "        user: $user,",
-        "translatedContent": "        user: $user,"
-      },
-      {
-        "row": 6,
-        "rowsha": "fShDwmMraGGJvVKXFF7UzQs25jAK01HWzbCYaZLbWeA=",
-        "originContent": "        leaveRedirectUrl: route('admin.users.index'),  // where to go when they stop",
-        "translatedContent": "        leaveRedirectUrl: route('admin.users.index'),  // where to go when they stop"
-      },
-      {
-        "row": 7,
-        "rowsha": "Gptti74Kd00eR7axQujrlnjTxVqVfC2iBYhV3GJhD+g=",
-        "originContent": "        startRedirectUrl: route('dashboard')            // where to go right now",
-        "translatedContent": "        startRedirectUrl: route('dashboard')            // where to go right now"
-      },
-      {
-        "row": 8,
-        "rowsha": "Z2lMElzKjKCmJyXf71joUm6rTSJ2l9cz8FUpXZAfx3I=",
-        "originContent": "    );",
-        "translatedContent": "    );"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "k8YR9BYBgyWTxyJbFbJYrii0SFt7Lwc0jH1yOcCMX2c=",
-        "originContent": "    return redirect($redirectUrl);",
-        "translatedContent": "    return redirect($redirectUrl);"
-      },
-      {
-        "row": 11,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "VkXVG5fjYh9el+nqw3dqaxxM06somMQen8g9JePRjU4=",
-        "originContent": "public function leave()",
-        "translatedContent": "public function leave()"
-      },
-      {
-        "row": 14,
-        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
-        "originContent": "{",
-        "translatedContent": "{"
-      },
-      {
-        "row": 15,
-        "rowsha": "TyWxjDmMRZ78W2SR8l4XanrZusO33FvV7pviIeNd2qE=",
-        "originContent": "    Mirror::stop();",
-        "translatedContent": "    Mirror::stop();"
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "q5ZBEK2lawZ8nMZORYaxhLKqvDYrqouiDjWb6n0jW4Q=",
-        "originContent": "    return redirect(Mirror::getLeaveRedirectUrl());",
-        "translatedContent": "    return redirect(Mirror::getLeaveRedirectUrl());"
-      },
-      {
-        "row": 18,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 19,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -2022,92 +416,7 @@
     "EndLine": 0,
     "Translation": "Si no especificas `leaveRedirectUrl`, se usará por defecto la URL actual donde se llamó a `start()`.\n\n## Eventos\n\nMirror envía dos eventos a los que puedes suscribirte:\n\n- `Mirror\\Events\\ImpersonationStarted`\n- `Mirror\\Events\\ImpersonationStopped`\n\nAmbos eventos contienen al suplantador, al usuario objetivo y el nombre del guardia. Útil para registros de auditoría o para activar flujos de trabajo.\n\nLos eventos se envían **después de que la respuesta** se envía al cliente, asegurando que las operaciones críticas de suplantación se completen sin demora. Esto es especialmente importante para middleware como `mirror.ttl` que puede ejecutarse en cada solicitud.\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Si no especificas `leaveRedirectUrl`, se usará por defecto la URL actual donde se llamó a `start()`."
-      },
-      {
-        "row": 2,
-        "rowsha": "iHnCjCYbegdBQpIES9UxXaMm8Glo2PX46w12b/BIAaY=",
-        "originContent": "If you don't specify `leaveRedirectUrl`, it defaults to the current URL where `start()` was called.",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Eventos"
-      },
-      {
-        "row": 4,
-        "rowsha": "9Hdro9D9U85AMXDMLYzKeihj0dCt+KNCMtuTHmDpGDA=",
-        "originContent": "## Events",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Mirror envía dos eventos a los que puedes suscribirte:"
-      },
-      {
-        "row": 6,
-        "rowsha": "RaqMFjganuCwMigDSi0SKk7JwbHsGrGYKZ2Rop5UH6Y=",
-        "originContent": "Mirror dispatches two events you can listen to:",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "- `Mirror\\Events\\ImpersonationStarted`"
-      },
-      {
-        "row": 8,
-        "rowsha": "nmrwNU9vXMMyr67rX7+Zwr2AZWH2Ht6bDAS+HastpSc=",
-        "originContent": "- `Mirror\\Events\\ImpersonationStarted`",
-        "translatedContent": "- `Mirror\\Events\\ImpersonationStopped`"
-      },
-      {
-        "row": 9,
-        "rowsha": "ll20JK5832kaDjifRGuKL94xOr9DBX+kdMKosbiTp34=",
-        "originContent": "- `Mirror\\Events\\ImpersonationStopped`",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Ambos eventos contienen al suplantador, al usuario objetivo y el nombre del guardia. Útil para registros de auditoría o para activar flujos de trabajo."
-      },
-      {
-        "row": 11,
-        "rowsha": "Oeev8arn8W/PptLQCcl29znzQM8h5TGPvCUNxtr0qiM=",
-        "originContent": "Both events contain the impersonator, the target user, and the guard name. Good for audit logs or triggering workflows.",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Los eventos se envían **después de que la respuesta** se envía al cliente, asegurando que las operaciones críticas de suplantación se completen sin demora. Esto es especialmente importante para middleware como `mirror.ttl` que puede ejecutarse en cada solicitud."
-      },
-      {
-        "row": 13,
-        "rowsha": "Y7uClypREzpU3Af3KpIPC/JM+m2zOfDZ7mHl/WI1JcY=",
-        "originContent": "Events are dispatched **after the response** is sent to the client, ensuring that critical impersonation operations complete without delay. This is especially important for middleware like `mirror.ttl` that may run on every request.",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -2119,80 +428,7 @@
     "EndLine": 0,
     "Translation": "```php\nuse Mirror\\Events\\ImpersonationStarted;\n\nEvent::listen(ImpersonationStarted::class, function (ImpersonationStarted $event) {\n    // Log the activity to your audit system of choice\n    Log::info('User impersonation started', [\n        'impersonator_id' => $event->impersonator->id,\n        'impersonated_id' => $event->impersonated->id,\n        'guard' => $event->guardName,\n    ]);\n});\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "jchxcepOxwDbmRvBclfVj5nVFQERn6Ly/5KWRTsXFzE=",
-        "originContent": "use Mirror\\Events\\ImpersonationStarted;",
-        "translatedContent": "use Mirror\\Events\\ImpersonationStarted;"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "XtN3F4Q8CmTIQ7KP627LLwnavBQTlaXPVf99TooB0Ck=",
-        "originContent": "Event::listen(ImpersonationStarted::class, function (ImpersonationStarted $event) {",
-        "translatedContent": "Event::listen(ImpersonationStarted::class, function (ImpersonationStarted $event) {"
-      },
-      {
-        "row": 5,
-        "rowsha": "z7f2wivfOFQI3MIQQrpkdDPTg4DND+98DcT+vgR3aV4=",
-        "originContent": "    // Log the activity to your audit system of choice",
-        "translatedContent": "    // Log the activity to your audit system of choice"
-      },
-      {
-        "row": 6,
-        "rowsha": "v6TZputJ/ra8+pn31dIxhXMZ+4ybJ93e2OCVfCDkbtE=",
-        "originContent": "    Log::info('User impersonation started', [",
-        "translatedContent": "    Log::info('User impersonation started', ["
-      },
-      {
-        "row": 7,
-        "rowsha": "JIYoJi86KWUeP/hMD6InwQvmCfkded+dyTBeinPHO4I=",
-        "originContent": "        'impersonator_id' => $event->impersonator->id,",
-        "translatedContent": "        'impersonator_id' => $event->impersonator->id,"
-      },
-      {
-        "row": 8,
-        "rowsha": "bKLa59sUKxLG7/3JdJVuy+P7I0Nn32GGIXEDiGO6Mgo=",
-        "originContent": "        'impersonated_id' => $event->impersonated->id,",
-        "translatedContent": "        'impersonated_id' => $event->impersonated->id,"
-      },
-      {
-        "row": 9,
-        "rowsha": "Q+IlUzLqQfVUBHmh2e1Z5De8qKakd2WjtFlAMtJDYUg=",
-        "originContent": "        'guard' => $event->guardName,",
-        "translatedContent": "        'guard' => $event->guardName,"
-      },
-      {
-        "row": 10,
-        "rowsha": "OFJqyarrbbAJW0KxGa9zOW74b6jukjklfrvuWWl6xzo=",
-        "originContent": "    ]);",
-        "translatedContent": "    ]);"
-      },
-      {
-        "row": 11,
-        "rowsha": "KVdrVOJV48lI7qW1kE+ji4FoL908vZroQf8Oe9gNOUw=",
-        "originContent": "});",
-        "translatedContent": "});"
-      },
-      {
-        "row": 12,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -2204,62 +440,7 @@
     "EndLine": 0,
     "Translation": "\n## Rendimiento y Optimización\n\nMirror está optimizado para aplicaciones de alto rendimiento:\n\n### Caché con Ámbito de Solicitud\n\nEl modelo de suplantación se almacena en caché dentro de una única solicitud para evitar consultas redundantes a la base de datos:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "QFllIyd+LM8n4Z714rXIpl8MDVC79gmbOp40T9+gevI=",
-        "originContent": "## Performance & Optimization",
-        "translatedContent": "## Rendimiento y Optimización"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "F/qSUi+7QoOEHzNz915qARBF9nHaqet650wOL9Cm51c=",
-        "originContent": "Mirror is optimized for high-performance applications:",
-        "translatedContent": "Mirror está optimizado para aplicaciones de alto rendimiento:"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "y3DVg2tTU06v+644a3GNIAEsqGjCPl0pvoq2FSf0Nl4=",
-        "originContent": "### Request-Scoped Caching",
-        "translatedContent": "### Caché con Ámbito de Solicitud"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "SoZNWQoIjFlf7ix1GxV7yGeVP2gcNPAntYMEtV0wIVA=",
-        "originContent": "The impersonator model is cached within a single request to avoid redundant database queries:",
-        "translatedContent": "El modelo de suplantación se almacena en caché dentro de una única solicitud para evitar consultas redundantes a la base de datos:"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -2271,50 +452,7 @@
     "EndLine": 0,
     "Translation": "```php\n// This first call will query the database\n$impersonator = Mirror::getImpersonator();\n\n// Subsequent calls in the same request use the cached instance, therefore this one will not:\n$impersonator = Mirror::getImpersonator();\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "IV+sJFjtADZKDoZcX+Ttwb3yleqT4Q7VW3eUw/UuJ4I=",
-        "originContent": "// This first call will query the database",
-        "translatedContent": "// This first call will query the database"
-      },
-      {
-        "row": 3,
-        "rowsha": "LFIyNxn4oQuVkojsisyC/GFV4CeJxTfN3AL07XAeTQs=",
-        "originContent": "$impersonator = Mirror::getImpersonator();",
-        "translatedContent": "$impersonator = Mirror::getImpersonator();"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "BDUX+la7qovM+qQzVmX9wfwDU7Y8HceuIE+mkoNT7OI=",
-        "originContent": "// Subsequent calls in the same request use the cached instance, therefore this one will not:",
-        "translatedContent": "// Subsequent calls in the same request use the cached instance, therefore this one will not:"
-      },
-      {
-        "row": 6,
-        "rowsha": "LFIyNxn4oQuVkojsisyC/GFV4CeJxTfN3AL07XAeTQs=",
-        "originContent": "$impersonator = Mirror::getImpersonator();",
-        "translatedContent": "$impersonator = Mirror::getImpersonator();"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -2326,74 +464,7 @@
     "EndLine": 0,
     "Translation": "\nEsto es particularmente beneficioso para middleware como `mirror.ttl` que se ejecutan en cada solicitud.\n\n### Despacho Diferido de Eventos\n\nLos eventos de suplantación se despachan después de que la respuesta se envía al cliente, asegurando que los escuchas de eventos no afecten el tiempo de respuesta. Esto mantiene rápido tu ciclo de solicitud mientras permite el registro de auditorías y otras tareas en segundo plano.\n\n## Soporte Multi-Guard\n\nMirror detecta automáticamente qué guardia estás usando:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "Dzz/cJh9cGS/RdaCvY15oi4zHqeaFWOmmgluoUfD/0c=",
-        "originContent": "This is particularly beneficial for middleware like `mirror.ttl` that run on every request.",
-        "translatedContent": "Esto es particularmente beneficioso para middleware como `mirror.ttl` que se ejecutan en cada solicitud."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "PTvqGdynTT5najyl8KpHOzqKTQGbZxlk9cEYwq/ywnU=",
-        "originContent": "### Deferred Event Dispatching",
-        "translatedContent": "### Despacho Diferido de Eventos"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "lfWZPZ6WXKKPya2wspxlfHuei4Sel6JaAQyH3a2SYSY=",
-        "originContent": "Impersonation events are dispatched after the response is sent to the client, ensuring that event listeners don't impact response time. This keeps your request cycle fast while still allowing audit logging and other background tasks.",
-        "translatedContent": "Los eventos de suplantación se despachan después de que la respuesta se envía al cliente, asegurando que los escuchas de eventos no afecten el tiempo de respuesta. Esto mantiene rápido tu ciclo de solicitud mientras permite el registro de auditorías y otras tareas en segundo plano."
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "w1qtSvowNpp8EKyt9TXKNXk54GIoaYpneMN0Iq5An/k=",
-        "originContent": "## Multi-Guard Support",
-        "translatedContent": "## Soporte Multi-Guard"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "NmD3WjSJQGvaUdSArVD/ZMevhEcYdFCgnMILfXGKkos=",
-        "originContent": "Mirror automatically detects which guard you're using:",
-        "translatedContent": "Mirror detecta automáticamente qué guardia estás usando:"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -2405,50 +476,7 @@
     "EndLine": 0,
     "Translation": "```php\nAuth::guard('admin')->login($admin);\n\nMirror::start($user); // uses 'admin' guard\n\nMirror::stop(); // restores to 'admin' guard\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
-        "originContent": "```php",
-        "translatedContent": "```php"
-      },
-      {
-        "row": 2,
-        "rowsha": "rPhPIAwkhEDB9GCGHmHxfhF2sxtCxwJ8VGtc/rjBRCc=",
-        "originContent": "Auth::guard('admin')->login($admin);",
-        "translatedContent": "Auth::guard('admin')->login($admin);"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "8O5B8BqsRzj2H0sB4H8SkF4XzG1O9pyHEV/uN9pyr2g=",
-        "originContent": "Mirror::start($user); // uses 'admin' guard",
-        "translatedContent": "Mirror::start($user); // uses 'admin' guard"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "Z8fLSsjh7xC9Vnj9kQJBh0BXiLwXgVHkiGC1VoTY/B4=",
-        "originContent": "Mirror::stop(); // restores to 'admin' guard",
-        "translatedContent": "Mirror::stop(); // restores to 'admin' guard"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -2460,50 +488,7 @@
     "EndLine": 0,
     "Translation": "\nNo necesitas especificar el guard manualmente: lo determina a partir del contexto de autenticación actual.\n\n## Directivas de Blade\n\n**@impersonating**\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "UyFlDoA+vB4w+kk8VQOwOmjoUJ/ikYS9GsGmyJm62cA=",
-        "originContent": "You don't need to specify the guard manually - it figures it out from the current auth context.",
-        "translatedContent": "No necesitas especificar el guard manualmente: lo determina a partir del contexto de autenticación actual."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "lkxm6RokaoE9+9uY7N1kTIzwX/GGzsgRCiXMSM7l9zM=",
-        "originContent": "## Blade Directives",
-        "translatedContent": "## Directivas de Blade"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "pyd/1OxreeGoQ0qhijpV9lMVzDGW3lBeYStNcdgVNp0=",
-        "originContent": "**@impersonating**",
-        "translatedContent": "**@impersonating**"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -2515,86 +500,7 @@
     "EndLine": 0,
     "Translation": "```blade\n@impersonating\n    <div class=\"alert\">\n        You're impersonating {{ auth()->user()->name }}.\n        <a href=\"{{ route('impersonation.leave') }}\">Exit</a>\n    </div>\n@endimpersonating\n\n{{-- Check specific guard --}}\n@impersonating('admin')\n    <div>Impersonating via admin guard</div>\n@endimpersonating\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "PqeLQeEMT7x8W+cEu1eqxup+bMb3J96RLCMzbg13W0M=",
-        "originContent": "```blade",
-        "translatedContent": "```blade"
-      },
-      {
-        "row": 2,
-        "rowsha": "C0qd9QEd6DtoFDBjz9az9Oq+vOswgPCFBxo8Bs6xYJM=",
-        "originContent": "@impersonating",
-        "translatedContent": "@impersonating"
-      },
-      {
-        "row": 3,
-        "rowsha": "oyOREDXtDolRzVwkGfhBwStdvoNApWZyxhsO3922NeI=",
-        "originContent": "    <div class=\"alert\">",
-        "translatedContent": "    <div class=\"alert\">"
-      },
-      {
-        "row": 4,
-        "rowsha": "GahekKqWLlrjYntOWUT/rKxXhYFWUehBbxhOzu8/Yi8=",
-        "originContent": "        You're impersonating {{ auth()->user()->name }}.",
-        "translatedContent": "        You're impersonating {{ auth()->user()->name }}."
-      },
-      {
-        "row": 5,
-        "rowsha": "bN1P95JG4Gu2KkkmnzamdXASANo+tleolsjtcnr8P2A=",
-        "originContent": "        <a href=\"{{ route('impersonation.leave') }}\">Exit</a>",
-        "translatedContent": "        <a href=\"{{ route('impersonation.leave') }}\">Exit</a>"
-      },
-      {
-        "row": 6,
-        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
-        "originContent": "    </div>",
-        "translatedContent": "    </div>"
-      },
-      {
-        "row": 7,
-        "rowsha": "ScZQh0wvgjxMufJcwObggiirBlFj0+q+qZVjeJnWdoE=",
-        "originContent": "@endimpersonating",
-        "translatedContent": "@endimpersonating"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "ERmgkoSa+2F53lkAlVk65xb3JcosT3uJowKZdkUGDVM=",
-        "originContent": "{{-- Check specific guard --}}",
-        "translatedContent": "{{-- Check specific guard --}}"
-      },
-      {
-        "row": 10,
-        "rowsha": "rPP4YOUj1DK4hNEaN60iB1gWsyErwBNPFP4HieGMxFY=",
-        "originContent": "@impersonating('admin')",
-        "translatedContent": "@impersonating('admin')"
-      },
-      {
-        "row": 11,
-        "rowsha": "3VOaaElsZbXmngQGXM0tSVVFB9c7/urX8LVvf+wWAeY=",
-        "originContent": "    <div>Impersonating via admin guard</div>",
-        "translatedContent": "    <div>Impersonating via admin guard</div>"
-      },
-      {
-        "row": 12,
-        "rowsha": "ScZQh0wvgjxMufJcwObggiirBlFj0+q+qZVjeJnWdoE=",
-        "originContent": "@endimpersonating",
-        "translatedContent": "@endimpersonating"
-      },
-      {
-        "row": 13,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -2606,26 +512,7 @@
     "EndLine": 0,
     "Translation": "\n**@puedoPersonificar**\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "etNz8kzRTM0LykMK0NxDt+Fldp+KvHQZZStBPtZYxx0=",
-        "originContent": "**@canImpersonate**",
-        "translatedContent": "**@puedoPersonificar**"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -2637,68 +524,7 @@
     "EndLine": 0,
     "Translation": "```blade\n@canImpersonate\n    <a href=\"{{ route('admin.users.index') }}\">Manage Users</a>\n@endcanImpersonate\n\n{{-- With guard --}}\n@canImpersonate('admin')\n    <div>Admin tools</div>\n@endcanImpersonate\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "PqeLQeEMT7x8W+cEu1eqxup+bMb3J96RLCMzbg13W0M=",
-        "originContent": "```blade",
-        "translatedContent": "```blade"
-      },
-      {
-        "row": 2,
-        "rowsha": "6xPiG3VpfuLmAHdJOWtNyxGK1ClWbwfenClYX57vlM8=",
-        "originContent": "@canImpersonate",
-        "translatedContent": "@canImpersonate"
-      },
-      {
-        "row": 3,
-        "rowsha": "QpBv0UZfu386/HdAhQWnJ4MGgSVgIFwiwwpewiweMaY=",
-        "originContent": "    <a href=\"{{ route('admin.users.index') }}\">Manage Users</a>",
-        "translatedContent": "    <a href=\"{{ route('admin.users.index') }}\">Manage Users</a>"
-      },
-      {
-        "row": 4,
-        "rowsha": "dEkcV1TFpd3/xqAUD/QbaBYVeuJQZko2fyDXjv/ctto=",
-        "originContent": "@endcanImpersonate",
-        "translatedContent": "@endcanImpersonate"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "KjfwYF8IHnKxN+lzFiWjv+FLUXEqJv3aFTYa3QJeA9s=",
-        "originContent": "{{-- With guard --}}",
-        "translatedContent": "{{-- With guard --}}"
-      },
-      {
-        "row": 7,
-        "rowsha": "+pMVQU1en6u/FRVUydy34LjT8PUjDMd0rSQ0sS/z2ic=",
-        "originContent": "@canImpersonate('admin')",
-        "translatedContent": "@canImpersonate('admin')"
-      },
-      {
-        "row": 8,
-        "rowsha": "fVHb23sUYsk90FS0pjgwe/vaVofGDd3gnaVUkOfDQyc=",
-        "originContent": "    <div>Admin tools</div>",
-        "translatedContent": "    <div>Admin tools</div>"
-      },
-      {
-        "row": 9,
-        "rowsha": "dEkcV1TFpd3/xqAUD/QbaBYVeuJQZko2fyDXjv/ctto=",
-        "originContent": "@endcanImpersonate",
-        "translatedContent": "@endcanImpersonate"
-      },
-      {
-        "row": 10,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -2710,26 +536,7 @@
     "EndLine": 0,
     "Translation": "\n**@puedeSerSuplantado**\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "A6V7isEDeG9WV7H2OYdB9TEOhxH45O8zgqtgvvv4EQY=",
-        "originContent": "**@canBeImpersonated**",
-        "translatedContent": "**@puedeSerSuplantado**"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
@@ -2741,122 +548,7 @@
     "EndLine": 0,
     "Translation": "```blade\n{{-- Check current user --}}\n@canBeImpersonated\n    <span>Available for support</span>\n@endcanBeImpersonated\n\n{{-- Check specific user --}}\n@canBeImpersonated($user)\n    <form method=\"POST\" action=\"{{ route('impersonation.start', $user) }}\">\n        @csrf\n        <button>Impersonate</button>\n    </form>\n@endcanBeImpersonated\n\n{{-- With guard --}}\n@canBeImpersonated($user, 'admin')\n    <button>Login as this user</button>\n@endcanBeImpersonated\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "PqeLQeEMT7x8W+cEu1eqxup+bMb3J96RLCMzbg13W0M=",
-        "originContent": "```blade",
-        "translatedContent": "```blade"
-      },
-      {
-        "row": 2,
-        "rowsha": "9NeqZ6NbJ//i8QHFja2z0CIj+DH/DF4w/LD3Nov3MOs=",
-        "originContent": "{{-- Check current user --}}",
-        "translatedContent": "{{-- Check current user --}}"
-      },
-      {
-        "row": 3,
-        "rowsha": "vui8pI4o5dPx/CSolfsdRHm+7jrP8LDsOtjd6ePpOL0=",
-        "originContent": "@canBeImpersonated",
-        "translatedContent": "@canBeImpersonated"
-      },
-      {
-        "row": 4,
-        "rowsha": "m994VAirVSAKzo8Tdc3E2zbQAmAUxbhgSlOjOQcPS9c=",
-        "originContent": "    <span>Available for support</span>",
-        "translatedContent": "    <span>Available for support</span>"
-      },
-      {
-        "row": 5,
-        "rowsha": "aXmj3kiDMAcFP0gciGbC1P+TQWvxPjymoQDuwLmADls=",
-        "originContent": "@endcanBeImpersonated",
-        "translatedContent": "@endcanBeImpersonated"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "yOdupEeT5PNSaKuEWzeKjcMLFf01YovocNQsU9PAhXM=",
-        "originContent": "{{-- Check specific user --}}",
-        "translatedContent": "{{-- Check specific user --}}"
-      },
-      {
-        "row": 8,
-        "rowsha": "GMg7Xedqgc51xHmI38mHCzne7zgAYDFqfv2QNHXvaqk=",
-        "originContent": "@canBeImpersonated($user)",
-        "translatedContent": "@canBeImpersonated($user)"
-      },
-      {
-        "row": 9,
-        "rowsha": "M0MX+vtHmk2Ahj2VDs49EJ0oanWNEg6DprUL1TWOxFo=",
-        "originContent": "    <form method=\"POST\" action=\"{{ route('impersonation.start', $user) }}\">",
-        "translatedContent": "    <form method=\"POST\" action=\"{{ route('impersonation.start', $user) }}\">"
-      },
-      {
-        "row": 10,
-        "rowsha": "rBFruj7s2dQcWq/1Si8TN7tJY2aDcbUiwLNerzxjxVk=",
-        "originContent": "        @csrf",
-        "translatedContent": "        @csrf"
-      },
-      {
-        "row": 11,
-        "rowsha": "sFwBn70Jn0ULWuDKQMeBfUeVUDG4d0gd8gZRoKs0+fA=",
-        "originContent": "        <button>Impersonate</button>",
-        "translatedContent": "        <button>Impersonate</button>"
-      },
-      {
-        "row": 12,
-        "rowsha": "3LGg5DopvTlCSj3rlbw91oqoX/sKKPzV4H8F6oN9oKw=",
-        "originContent": "    </form>",
-        "translatedContent": "    </form>"
-      },
-      {
-        "row": 13,
-        "rowsha": "aXmj3kiDMAcFP0gciGbC1P+TQWvxPjymoQDuwLmADls=",
-        "originContent": "@endcanBeImpersonated",
-        "translatedContent": "@endcanBeImpersonated"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "KjfwYF8IHnKxN+lzFiWjv+FLUXEqJv3aFTYa3QJeA9s=",
-        "originContent": "{{-- With guard --}}",
-        "translatedContent": "{{-- With guard --}}"
-      },
-      {
-        "row": 16,
-        "rowsha": "HBfE2mm2xd9/D/XJPmLGmg8o3rXoATnc7vizmBoNBqs=",
-        "originContent": "@canBeImpersonated($user, 'admin')",
-        "translatedContent": "@canBeImpersonated($user, 'admin')"
-      },
-      {
-        "row": 17,
-        "rowsha": "4u7UThQsS8PZIvnx4Q9nNCkN4dYduPB3FO6POdKZ4OE=",
-        "originContent": "    <button>Login as this user</button>",
-        "translatedContent": "    <button>Login as this user</button>"
-      },
-      {
-        "row": 18,
-        "rowsha": "aXmj3kiDMAcFP0gciGbC1P+TQWvxPjymoQDuwLmADls=",
-        "originContent": "@endcanBeImpersonated",
-        "translatedContent": "@endcanBeImpersonated"
-      },
-      {
-        "row": 19,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
@@ -2868,62 +560,7 @@
     "EndLine": 0,
     "Translation": "\n## Licencia\n\nMIT. Ver [LICENSE.md](https://raw.githubusercontent.com/franbarbalopez/mirror/master/LICENSE.md).\n\n## Créditos\n\nDesarrollado por [franbarbalopez](https://github.com/franbarbalopez).\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": "## Licencia"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "3SsUJOA3xq4qqUxZv1ZyIAmz6NNpQ16Zxt84Q79t+nw=",
-        "originContent": "MIT. See [LICENSE.md](https://raw.githubusercontent.com/franbarbalopez/mirror/master/LICENSE.md).",
-        "translatedContent": "MIT. Ver [LICENSE.md](https://raw.githubusercontent.com/franbarbalopez/mirror/master/LICENSE.md)."
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
-        "originContent": "## Credits",
-        "translatedContent": "## Créditos"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "7uoI0XNzN3LvXxizZKXUVmkKYR6NDmnjnNuotbb0Sqw=",
-        "originContent": "Developed by [franbarbalopez](https://github.com/franbarbalopez).",
-        "translatedContent": "Desarrollado por [franbarbalopez](https://github.com/franbarbalopez)."
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]
