@@ -1,0 +1,716 @@
+[
+  {
+    "row": 1,
+    "rowsha": "JQhqM+6mfJxNdglqCxgCRubcM8aZPatJxoa2ItpBUTw=",
+    "originContent": "# Publish VS Code Extension &#8212; GitHub Action",
+    "translatedContent": "# Publicar extensión de VS Code &#8212; Acción de GitHub"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "34fx12Q5q1AwKYfiO2Rh/XcqdWp8i+046+th4fx6otc=",
+    "originContent": "[![Build, Lint, Test and Deploy](https://img.shields.io/github/actions/workflow/status/HaaLeo/publish-vscode-extension/CI.yml?style=flat-square&label=Lint%2C%20Build%2C%20Test%20and%20Deploy)](https://github.com/HaaLeo/publish-vscode-extension/actions?query=workflow%3A%22Build%2C+Lint%2C+Test+and+Deploy%22) [![Coverage Status](https://img.shields.io/coveralls/github/HaaLeo/publish-vscode-extension?style=flat-square)](https://coveralls.io/github/HaaLeo/publish-vscode-extension)  ",
+    "translatedContent": "[![Build, Lint, Test and Deploy](https://img.shields.io/github/actions/workflow/status/HaaLeo/publish-vscode-extension/CI.yml?style=flat-square&label=Lint%2C%20Build%2C%20Test%20and%20Deploy)](https://github.com/HaaLeo/publish-vscode-extension/actions?query=workflow%3A%22Build%2C+Lint%2C+Test+and+Deploy%22) [![Coverage Status](https://img.shields.io/coveralls/github/HaaLeo/publish-vscode-extension?style=flat-square)](https://coveralls.io/github/HaaLeo/publish-vscode-extension)  "
+  },
+  {
+    "row": 4,
+    "rowsha": "0KsVr7S1SPvn1zE7IxuJnCj+nqT1s47aFQDXajynydo=",
+    "originContent": "[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://raw.githubusercontent.com/HaaLeo/publish-vscode-extension/master/LICENSE.txt) [![Stars](https://img.shields.io/github/stars/HaaLeo/publish-vscode-extension.svg?label=Stars&logo=github&style=flat-square)](https://github.com/HaaLeo/publish-vscode-extension/stargazers)  ",
+    "translatedContent": "[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://raw.githubusercontent.com/HaaLeo/publish-vscode-extension/master/LICENSE.txt) [![Stars](https://img.shields.io/github/stars/HaaLeo/publish-vscode-extension.svg?label=Stars&logo=github&style=flat-square)](https://github.com/HaaLeo/publish-vscode-extension/stargazers)  "
+  },
+  {
+    "row": 5,
+    "rowsha": "Xk4OVusSvuURcy3D86CZD5nAxsTvW1cBVlVLb4/6lqY=",
+    "originContent": "[![Donate](https://img.shields.io/badge/☕️-Buy%20Me%20a%20Coffee-blue.svg?&style=flat-square)](https://www.paypal.me/LeoHanisch/3eur)",
+    "translatedContent": "[![Donate](https://img.shields.io/badge/☕️-Buy%20Me%20a%20Coffee-blue.svg?&style=flat-square)](https://www.paypal.me/LeoHanisch/3eur)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "2yQpkNK2lLFEJrv0S8uHduRGJN152/5Z570Wb88pwC4=",
+    "originContent": "GitHub action to publish your VS Code Extension to the [Open VSX Registry](https://open-vsx.org/) or the [Visual Studio Marketplace](https://marketplace.visualstudio.com).",
+    "translatedContent": "Acción de GitHub para publicar tu extensión de VS Code en el [Open VSX Registry](https://open-vsx.org/) o en el [Visual Studio Marketplace](https://marketplace.visualstudio.com)."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "cioKbK+0xgStxrxOhSRsb27M8g54z+cY3LGH/6XPBnM=",
+    "originContent": "> All breaking changes of **v2** are listed in the [changelog](https://raw.githubusercontent.com/HaaLeo/publish-vscode-extension/master/CHANGELOG.md#changelog)",
+    "translatedContent": "> Todos los cambios importantes de **v2** están listados en el [registro de cambios](https://raw.githubusercontent.com/HaaLeo/publish-vscode-extension/master/CHANGELOG.md#changelog)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Uso"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "qEIzitVuef2iqiLJhcsx9IrOIocArocbtS9LaJ6JHpg=",
+    "originContent": "To use the GitHub Action, just [reference the action](https://help.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow#referencing-actions-in-your-workflow) in your workflow file.",
+    "translatedContent": "Para usar la Acción de GitHub, solo tienes que [referenciar la acción](https://help.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow#referencing-actions-in-your-workflow) en el archivo de tu flujo de trabajo."
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "ubVEm05cwr9zkNMJhipJo9vwQDDsclfTaTISW9TgglY=",
+    "originContent": "### Example",
+    "translatedContent": "### Ejemplo"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "5BoWhTEP15FTqemE2vTcfwGuRCYTwa/61IwuwNchzqQ=",
+    "originContent": "The following example shows a workflow that publishes an extension to the Open VSX Registry as well as to the Visual Studio Marketplace when a new tag was created:",
+    "translatedContent": "El siguiente ejemplo muestra un flujo de trabajo que publica una extensión tanto en el Open VSX Registry como en el Visual Studio Marketplace cuando se crea una nueva etiqueta:"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 20,
+    "rowsha": "/IE1/RJkFioKmx+0E886tYovB6DXhxfe14EIqVDqe3U=",
+    "originContent": "on:",
+    "translatedContent": "on:"
+  },
+  {
+    "row": 21,
+    "rowsha": "nOtnMZ3ucWhmyv8g2ot0DOGGETRetBJ1eEX/A9lB4vo=",
+    "originContent": "  push:",
+    "translatedContent": "  push:"
+  },
+  {
+    "row": 22,
+    "rowsha": "TbjdMoU9vbZKAoPkSQFRnCle/XKOmUrTAuJrmhYVR58=",
+    "originContent": "    tags:",
+    "translatedContent": "    tags:"
+  },
+  {
+    "row": 23,
+    "rowsha": "tURSr5xQt+Y1Eby1KK7dIqLasaZBveSzjd8FbxVELHo=",
+    "originContent": "      - \"*\"",
+    "translatedContent": "      - \"*\""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "aJo4qVd4Vr40R1ZNZVxrzesP+PCx09Q2tSPHNh/Nz0c=",
+    "originContent": "name: Deploy Extension",
+    "translatedContent": "name: Deploy Extension"
+  },
+  {
+    "row": 26,
+    "rowsha": "MdlDD0SwaBhkENfsyIRY4M9eZ7Q5lR8Dw5HPCs4/H/4=",
+    "originContent": "jobs:",
+    "translatedContent": "jobs:"
+  },
+  {
+    "row": 27,
+    "rowsha": "73WdAsyQDMjLfeVUjqqD51Wo8p9Fc7e04V9UDeI360Q=",
+    "originContent": "  deploy:",
+    "translatedContent": "  deploy:"
+  },
+  {
+    "row": 28,
+    "rowsha": "YPX+1GfynlA/mt/uIDupjes73e4YUduCf0seCMA4BZg=",
+    "originContent": "    runs-on: ubuntu-latest",
+    "translatedContent": "    runs-on: ubuntu-latest"
+  },
+  {
+    "row": 29,
+    "rowsha": "hS4CmHrAmWwwZHAnLuwnwgytfTId/6QpTYuGJvdvdwg=",
+    "originContent": "    steps:",
+    "translatedContent": "    steps:"
+  },
+  {
+    "row": 30,
+    "rowsha": "093orPQ0+Kw0IvK38M22NtQAsF42E9tiTrpFJhAayDw=",
+    "originContent": "      - uses: actions/checkout@v4",
+    "translatedContent": "      - uses: actions/checkout@v4"
+  },
+  {
+    "row": 31,
+    "rowsha": "wSQP6Hop8fRT6m9EEWcXrpM2WPlH5oXl4oJB7/K6At8=",
+    "originContent": "      - uses: actions/setup-node@v4",
+    "translatedContent": "      - uses: actions/setup-node@v4"
+  },
+  {
+    "row": 32,
+    "rowsha": "Lu8+iomrI/Mtd0xcO7VunVyqrK7xc/iXHS5ehYng/5M=",
+    "originContent": "        with:",
+    "translatedContent": "        with:"
+  },
+  {
+    "row": 33,
+    "rowsha": "lTuvDnQHG81jmeP7sa747WckQfHYBdDnpQbhxjmBw8g=",
+    "originContent": "          node-version: 20",
+    "translatedContent": "          node-version: 20"
+  },
+  {
+    "row": 34,
+    "rowsha": "XvmiXb39Xa1qwuLk99UzGS2ul/BDX/y1g5sf1sM7eg0=",
+    "originContent": "      - run: npm ci",
+    "translatedContent": "      - run: npm ci"
+  },
+  {
+    "row": 35,
+    "rowsha": "nk/pPsIc7MTZxAg3P59a7GdVK+fVrVcRFCZ6WjM0M2I=",
+    "originContent": "      - name: Publish to Open VSX Registry",
+    "translatedContent": "      - name: Publish to Open VSX Registry"
+  },
+  {
+    "row": 36,
+    "rowsha": "BrDpHn1z257HaSWoBMMq7MOqaSEqyaz1rK8GqX6yJ4s=",
+    "originContent": "        uses: HaaLeo/publish-vscode-extension@v2",
+    "translatedContent": "        uses: HaaLeo/publish-vscode-extension@v2"
+  },
+  {
+    "row": 37,
+    "rowsha": "Lu8+iomrI/Mtd0xcO7VunVyqrK7xc/iXHS5ehYng/5M=",
+    "originContent": "        with:",
+    "translatedContent": "        with:"
+  },
+  {
+    "row": 38,
+    "rowsha": "uRaQmduKp1cBnhQTu5cVu9I1TqPSOjVvjwIfJzvM0xI=",
+    "originContent": "          pat: ${{ secrets.OPEN_VSX_TOKEN }}",
+    "translatedContent": "          pat: ${{ secrets.OPEN_VSX_TOKEN }}"
+  },
+  {
+    "row": 39,
+    "rowsha": "Ygn5M99XfKOSZjWdYETlKmcVl2bEYu5BT3fE9C1aizw=",
+    "originContent": "      - name: Publish to Visual Studio Marketplace",
+    "translatedContent": "      - name: Publish to Visual Studio Marketplace"
+  },
+  {
+    "row": 40,
+    "rowsha": "BrDpHn1z257HaSWoBMMq7MOqaSEqyaz1rK8GqX6yJ4s=",
+    "originContent": "        uses: HaaLeo/publish-vscode-extension@v2",
+    "translatedContent": "        uses: HaaLeo/publish-vscode-extension@v2"
+  },
+  {
+    "row": 41,
+    "rowsha": "Lu8+iomrI/Mtd0xcO7VunVyqrK7xc/iXHS5ehYng/5M=",
+    "originContent": "        with:",
+    "translatedContent": "        with:"
+  },
+  {
+    "row": 42,
+    "rowsha": "gxWQGkqBUlI9GlFyviQXXZWxhAND/fenx8AUQ/QDR1I=",
+    "originContent": "          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}",
+    "translatedContent": "          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}"
+  },
+  {
+    "row": 43,
+    "rowsha": "DRfL6fBsnTsm3ZlLseMwFyZ7ljW4WpaxRydkThGefMo=",
+    "originContent": "          registryUrl: https://marketplace.visualstudio.com",
+    "translatedContent": "          registryUrl: https://marketplace.visualstudio.com"
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Para empaquetar la extensión solo una vez y publicar el archivo `.vsix` **idéntico** en ambos registros, se pueden usar los siguientes dos pasos en su lugar:"
+  },
+  {
+    "row": 46,
+    "rowsha": "KU4ewF6UsV2Guw0Q3B7+djly8hlRZWUt7ix3Amq+fZk=",
+    "originContent": "To package the extension only once and publish the **identical** `.vsix` file to both registries one can use the following two steps instead:",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 49,
+    "rowsha": "A98zFE7UBZVynEYPanHKHU2DtYYrpW7EZtyaQD2j0LE=",
+    "originContent": "- name: Publish to Open VSX Registry",
+    "translatedContent": "- name: Publish to Open VSX Registry"
+  },
+  {
+    "row": 50,
+    "rowsha": "tVsMfohe9Q54Im7FJLQ8VXqyema8tw+ApspAoi+kRoE=",
+    "originContent": "  uses: HaaLeo/publish-vscode-extension@v2",
+    "translatedContent": "  uses: HaaLeo/publish-vscode-extension@v2"
+  },
+  {
+    "row": 51,
+    "rowsha": "MtqjJodW3I/PFoyln2ybhR7NeDl0J0865+iuPF0dwLg=",
+    "originContent": "  id: publishToOpenVSX",
+    "translatedContent": "  id: publishToOpenVSX"
+  },
+  {
+    "row": 52,
+    "rowsha": "PI+NwuhomK4iVx5cssnWfp+zdZq61aEbfpwurZJiEWw=",
+    "originContent": "  with:",
+    "translatedContent": "  with:"
+  },
+  {
+    "row": 53,
+    "rowsha": "3ygIELTah5cjs6zKJszKVLFm33Pzl0o+MC8L+aiQY3k=",
+    "originContent": "    pat: ${{ secrets.OPEN_VSX_TOKEN }}",
+    "translatedContent": "    pat: ${{ secrets.OPEN_VSX_TOKEN }}"
+  },
+  {
+    "row": 54,
+    "rowsha": "vle8gJDK2iNpo5MDODnhQvfufBBLtJXi28L0ULBgAig=",
+    "originContent": "- name: Publish to Visual Studio Marketplace",
+    "translatedContent": "- name: Publish to Visual Studio Marketplace"
+  },
+  {
+    "row": 55,
+    "rowsha": "tVsMfohe9Q54Im7FJLQ8VXqyema8tw+ApspAoi+kRoE=",
+    "originContent": "  uses: HaaLeo/publish-vscode-extension@v2",
+    "translatedContent": "  uses: HaaLeo/publish-vscode-extension@v2"
+  },
+  {
+    "row": 56,
+    "rowsha": "PI+NwuhomK4iVx5cssnWfp+zdZq61aEbfpwurZJiEWw=",
+    "originContent": "  with:",
+    "translatedContent": "  with:"
+  },
+  {
+    "row": 57,
+    "rowsha": "K1ewDDrAsxFdFfhNW+fNK8TEfBiUe61WlJ9Lz4+vslY=",
+    "originContent": "    pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}",
+    "translatedContent": "    pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}"
+  },
+  {
+    "row": 58,
+    "rowsha": "312UEzyfJkkYz3Y4zCGT79WPjFSZtDTx/80BhYfrIoQ=",
+    "originContent": "    registryUrl: https://marketplace.visualstudio.com",
+    "translatedContent": "    registryUrl: https://marketplace.visualstudio.com"
+  },
+  {
+    "row": 59,
+    "rowsha": "WGa73+4rBcucH6K8tW2zwGLQHuO/wzpk+M21Wsc2DZ4=",
+    "originContent": "    extensionFile: ${{ steps.publishToOpenVSX.outputs.vsixPath }}",
+    "translatedContent": "    extensionFile: ${{ steps.publishToOpenVSX.outputs.vsixPath }}"
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Para un ejemplo más completo y complejo, se puede consultar el flujo de trabajo de [`HaaLeo/vscode-timing`](https://github.com/HaaLeo/vscode-timing/blob/master/.github/workflows/cicd.yml#L1)."
+  },
+  {
+    "row": 62,
+    "rowsha": "E1UPA3p0SkKI584vcls8wvXeSPqWi3V8q+OrRRgrOF8=",
+    "originContent": "For a more complete and complex example one can check out the workflow of [`HaaLeo/vscode-timing`](https://github.com/HaaLeo/vscode-timing/blob/master/.github/workflows/cicd.yml#L1).",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Registro Open VSX"
+  },
+  {
+    "row": 64,
+    "rowsha": "MMinUzf27d+sHOnafSAe8epRdruZvsCDLGYj6vecrTA=",
+    "originContent": "### Open VSX Registry",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Para publicar en el Registro Open VSX, asegúrate de que el [namespace de tu extensión](https://github.com/eclipse/openvsx/wiki/Publishing-Extensions#2-create-the-namespace) fue creado **previamente**."
+  },
+  {
+    "row": 66,
+    "rowsha": "DHyf2ONzhD8uk+Xii4mim5/6aOHeZJ+84U1OrPR10k8=",
+    "originContent": "To publish to the Open VSX Registry ensure that your [extension's namespace](https://github.com/eclipse/openvsx/wiki/Publishing-Extensions#2-create-the-namespace) was created **beforehand**.",
+    "translatedContent": "Necesitas configurar el parámetro `pat` con tu [token de acceso de Open VSX](https://github.com/eclipse/openvsx/wiki/Publishing-Extensions#1-create-an-access-token)."
+  },
+  {
+    "row": 67,
+    "rowsha": "yKhTKYqzn/pdDo0rqBhm8JQioba5BReL0ayPu7lS/Jo=",
+    "originContent": "You need to set the `pat` parameter to your [Open VSX access token](https://github.com/eclipse/openvsx/wiki/Publishing-Extensions#1-create-an-access-token).",
+    "translatedContent": "Además, debes asegurarte de publicar únicamente una extensión que esté licenciada."
+  },
+  {
+    "row": 68,
+    "rowsha": "Ikntk+dXvr+8xDuAl7bautP4WZZ+ZH29AQrhRYHML7Y=",
+    "originContent": "Further, you should ensure that you only publish an extension which is licensed.",
+    "translatedContent": "Para más información sobre la línea temporal de Open VSX y la licencia de sus extensiones, consulta el [blog de Brian King](https://blogs.eclipse.org/post/brian-king/open-vsx-registry-under-new-management) (sección \"Licensing\" y \"Timeline\")."
+  },
+  {
+    "row": 69,
+    "rowsha": "Qyph5Dk/gkhLnjNUYWQCCV51QfuPDL56NE9ioPjoTZY=",
+    "originContent": "For more information regarding Open VSX' timeline and its extensions' licensing check out [Brian King's blog](https://blogs.eclipse.org/post/brian-king/open-vsx-registry-under-new-management) (section \"Licensing\" and \"Timeline\").",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Actualmente, esta acción de GitHub permite publicar extensiones que no especifican sus términos de licencia."
+  },
+  {
+    "row": 71,
+    "rowsha": "OjdV9MpN6U0RlxyQuiGebpH5n7WKY7RF/3lQa3B9Rvo=",
+    "originContent": "Currently, this GitHub action allows you to publish extensions which do not state their license terms.",
+    "translatedContent": "Sin embargo, este comportamiento está obsoleto y una futura versión de esta acción rechazará extensiones sin licencia."
+  },
+  {
+    "row": 72,
+    "rowsha": "uDMf2RRpG3Yt+0/HkwP719j8ZU3SgjZlXa/Q1kjjFj8=",
+    "originContent": "However, this behavior is deprecated and a future release of this action will reject unlicensed extensions.",
+    "translatedContent": "Por lo tanto, te recomiendo encarecidamente publicar una extensión con una licencia (permisiva) como la [licencia MIT](https://choosealicense.com/licenses/mit/)."
+  },
+  {
+    "row": 73,
+    "rowsha": "Ui+x/n6dwne/mgXL7JgNYDsMBFW5Wk+aQDxi565hn2w=",
+    "originContent": "Therefore, I heavily encourage you to publish an extension with a (permissive) license such as the [MIT license](https://choosealicense.com/licenses/mit/).",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Visual Studio Marketplace"
+  },
+  {
+    "row": 75,
+    "rowsha": "Vc3IfzT/GBI80hbLgqsybmUOwXHsFDooaXs3rpkNLns=",
+    "originContent": "### Visual Studio Marketplace",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Para subir tu extensión al VS Marketplace, necesitas configurar la opción `pat` con el correspondiente [token de acceso](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token). "
+  },
+  {
+    "row": 77,
+    "rowsha": "DgNONUb1IOCzgRtVqKKWOnlEcCVA+o97Elri/1/ajUQ=",
+    "originContent": "In order to upload your extension to the VS Marketplace you need to set the `pat` option to the corresponding [access token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token). ",
+    "translatedContent": "Además, la opción `registryUrl` debe establecerse en `https://marketplace.visualstudio.com`."
+  },
+  {
+    "row": 78,
+    "rowsha": "wXFFSPXQsE1jtKC3qJQQJgI2EzKewPKq5K4pTsOY3io=",
+    "originContent": "Further, the `registryUrl` must be set to `https://marketplace.visualstudio.com`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Parámetros de entrada"
+  },
+  {
+    "row": 81,
+    "rowsha": "WcyzuOVHBAxbEcX2r1Wo6bffBiHxeUFiIOTtYX0LxpA=",
+    "originContent": "## Input Parameters",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Puedes configurar cualquiera o todos los siguientes parámetros de entrada:"
+  },
+  {
+    "row": 83,
+    "rowsha": "dlQ/stg/EDRsZe6EWH6ipRP72+XIy9a1X+MCYlYWO4M=",
+    "originContent": "You can set any or all of the following input parameters:",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "|Nombre |Tipo |¿Requerido? |Por defecto |Descripción"
+  },
+  {
+    "row": 85,
+    "rowsha": "Gar0exxcLrygX6HGCIz4l9wjeAd6EBuwSrhTAFwKDoE=",
+    "originContent": "|Name |Type |Required? |Default |Description",
+    "translatedContent": "|-|-|-|-|-"
+  },
+  {
+    "row": 86,
+    "rowsha": "Wsjgp7BiOVTI7dyRV20LgRQ1c9SF2BnyXKVC1M8kt9g=",
+    "originContent": "|-|-|-|-|-",
+    "translatedContent": "|`pat` |string  |sí |-|El token de acceso personal para el registro correspondiente."
+  },
+  {
+    "row": 87,
+    "rowsha": "hQRAnvLPC3qgtChcQ4uz9+QG9qOVplfNCS9jZ0L7bVo=",
+    "originContent": "|`pat` |string  |yes |-|The personal access token to the corresponding registry.",
+    "translatedContent": "|`extensionFile` |string  |no | - |Ruta al archivo vsix que será publicado. Esta opción tendrá preferencia cuando se establezca junto con `packagePath`."
+  },
+  {
+    "row": 88,
+    "rowsha": "OhHqnAHTaApaerwJqyDCfflxRrbaYLd5DWxwmiypzzQ=",
+    "originContent": "|`extensionFile` |string  |no | - |Path to the vsix file to be published. This option will be preferred when set together with `packagePath`.",
+    "translatedContent": "|`registryUrl` |string  |no |`https://open-vsx.org` |Usar la API del registro en esta URL base"
+  },
+  {
+    "row": 89,
+    "rowsha": "h7+AaClSYxDbGxqNOYV+fxBTrbrrMKKZllugDq4zcf8=",
+    "originContent": "|`registryUrl` |string  |no |`https://open-vsx.org` |Use the registry API at this base URL",
+    "translatedContent": "|`packagePath` |string |no | `./` |Ruta a la extensión que se empaquetará y publicará. Cuando `extensionFile` también está configurado, se ignora `packagePath`."
+  },
+  {
+    "row": 90,
+    "rowsha": "mTDSIs80i3w39rcUB3h1vI+IW8gLRkEhEYoCw8N3dgg=",
+    "originContent": "|`packagePath` |string |no | `./` |Path to the extension to be packaged and published. When `extensionFile` is set too `packagePath` is ignored.",
+    "translatedContent": "|`baseContentUrl` |string |no | - | Anteponer esta URL a todos los enlaces relativos en README.md."
+  },
+  {
+    "row": 91,
+    "rowsha": "coC9WWwbTnPPTh+FqovO6Fed5iCosITP3Y4Z8ikG2cA=",
+    "originContent": "|`baseContentUrl` |string |no | - | Prepend all relative links in README.md with this URL.",
+    "translatedContent": "|`baseImagesUrl` |string |no | - | Anteponer esta URL a todos los enlaces relativos de imágenes en README.md."
+  },
+  {
+    "row": 92,
+    "rowsha": "gRR53VnwMGaHY0z6wMhOwo79dl3XAI4rPhYGmA41LdI=",
+    "originContent": "|`baseImagesUrl` |string |no | - | Prepend all relative image links in README.md with this URL.",
+    "translatedContent": "|`yarn` |boolean |no | `false` | Usar yarn en lugar de npm para empaquetar los archivos de la extensión."
+  },
+  {
+    "row": 93,
+    "rowsha": "Y1WWhtV8IOcPuUTdKNRuSxkXPrDOPnsgUaQ/KodoyfE=",
+    "originContent": "|`yarn` |boolean |no | `false` | Use yarn instead of npm while packing extension files.",
+    "translatedContent": "|`dryRun` |boolean |no | `false` | Establecer esta opción en `true` para empaquetar tu extensión pero no publicarla. Al usar esta opción, configura `pat` con un valor ficticio."
+  },
+  {
+    "row": 94,
+    "rowsha": "j6DagAXDgNj2gvWxZ46CTeZnMkINX4DezegFYGtZfJQ=",
+    "originContent": "|`dryRun` |boolean |no | `false` | Set this option to `true` to package your extension but do not publish it. When using this option set the `pat` option to a stub value.",
+    "translatedContent": "|`noVerify` |boolean| no |`false` | Permitir publicar extensiones en el Visual Studio Marketplace que usan una API propuesta (enableProposedApi: true). Similar al argumento de línea de comando `--noVerify` de vsce."
+  },
+  {
+    "row": 95,
+    "rowsha": "7UDUgGqpo7w8UW8DGk6M7n219OR8qvJ8nWPmp00D24s=",
+    "originContent": "|`noVerify` |boolean| no |`false` | Allow publishing extensions to the visual studio marketplace which use a proposed API (enableProposedApi: true). Similar to vsce's `--noVerify` command line argument.",
+    "translatedContent": "|`preRelease` |boolean| no |`false` | Marcar la versión de la extensión como pre-lanzamiento. Solo se considera al empaquetar una extensión."
+  },
+  {
+    "row": 96,
+    "rowsha": "h8rAZRQ0CMGTy55DROMumIK2d5OyCTK1sYLwSNVmN+Q=",
+    "originContent": "|`preRelease` |boolean| no |`false` | Mark the extensions release as pre-release. Is only considered when packaging an extension.",
+    "translatedContent": "|`dependencies` |boolean| no |`true` | Verificar que las dependencias definidas en `package.json` existan en `node_modules`. Establecer en `false` si se usa pnpm o yarn v2+ con PnP."
+  },
+  {
+    "row": 97,
+    "rowsha": "KrFPwshoolHLHaUJwA4ZiCk1se1ZttdqivbCVv21Sm4=",
+    "originContent": "|`dependencies` |boolean| no |`true` | Check that dependencies defined in `package.json` exist in `node_modules`. Set to `false` if using pnpm or yarn v2+ with PnP.",
+    "translatedContent": "|`skipDuplicate` |boolean| no |`false` | Fallar silenciosamente si la versión ya existe en el marketplace. Equivalente a la opción `--skip-duplicate` de la CLI de vsce."
+  },
+  {
+    "row": 98,
+    "rowsha": "zJSRZfdydKK0gq5LusYldmKxxOL9Pu4UjM2qbp8EsjM=",
+    "originContent": "|`skipDuplicate` |boolean| no |`false` | Fail silently if version already exists on the marketplace. Equivalent to the `--skip-duplicate` option of the vsce CLI.",
+    "translatedContent": "|`target` |string| no | - | Arquitectura(s) objetivo en las que debe ejecutarse la extensión. Separe múltiples objetivos con espacios. Ejemplo: `'win32-x64 linux-x64'`"
+  },
+  {
+    "row": 99,
+    "rowsha": "JkycOGokYyMlKttNXySK9FpaYwpoyX3Cwtxc0PR9d4g=",
+    "originContent": "|`target` |string| no | - | Target architecture(s) the extension should run on. Separate multiple targets with spaces. E.g.: `'win32-x64 linux-x64'`",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "5xkxC/TnfOOac9GfVjvnT+s3Ayzma4Z0KXJNINr/QzM=",
+    "originContent": "## Outputs",
+    "translatedContent": "## Salidas"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "A+9iWxsEoM9RTwLaAV6KcApGIcO0vkTRtRz0sp80QRI=",
+    "originContent": "The action exposes the following outputs:",
+    "translatedContent": "La acción expone las siguientes salidas:"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "0W4W0oVbdDbHeNVL6i6cSsSW0SpnEO4kUoOo3OE0Bos=",
+    "originContent": "|Name |Type |Description",
+    "translatedContent": "|Nombre |Tipo |Descripción"
+  },
+  {
+    "row": 106,
+    "rowsha": "bOZ29oXZLRDT+/k4cg+hcuXNJtDNfrzTkHma+gdzX4I=",
+    "originContent": "|-|-|-",
+    "translatedContent": "|-|-|-"
+  },
+  {
+    "row": 107,
+    "rowsha": "g+DXSkGfgH/rfyrFzNt58Q5rngsPpmN+Z1hdPaSitXk=",
+    "originContent": "|`vsixPath` |string |The path to the packaged and published VSIX file.",
+    "translatedContent": "|`vsixPath` |string |La ruta al archivo VSIX empaquetado y publicado."
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "zkHOt0UOVxAJsBonYtcjf1+nJbrp5LIAt7uYkWjQMOM=",
+    "originContent": "## Contribution",
+    "translatedContent": "## Contribución"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "rUcW0KzxHxHzkGaamAt3Qk5bcf6XjG9rL6cVW2kHjTY=",
+    "originContent": "If you found a bug or are missing a feature do not hesitate to [file an issue](https://github.com/HaaLeo/publish-vscode-extension/issues/new/choose).  ",
+    "translatedContent": "Si encontraste un error o falta una función no dudes en [abrir un issue](https://github.com/HaaLeo/publish-vscode-extension/issues/new/choose).  "
+  },
+  {
+    "row": 112,
+    "rowsha": "gzkWcSJx7LehJMg7ka0JODKARhapCUv03BjvUTw9Rmo=",
+    "originContent": "Pull Requests are welcome!",
+    "translatedContent": "¡Los Pull Requests son bienvenidos!"
+  },
+  {
+    "row": 113,
+    "rowsha": "26WDMwNqbTSCwq3lzmlMFs3XPqGVO1JEob+fojnz4OE=",
+    "originContent": "To get started submitting code changes please take a look at the [CONTRIBUTING.md](https://raw.githubusercontent.com/HaaLeo/publish-vscode-extension/master/./CONTRIBUTING.md) file first.",
+    "translatedContent": "Para comenzar a enviar cambios de código, por favor revisa primero el archivo [CONTRIBUTING.md](https://raw.githubusercontent.com/HaaLeo/publish-vscode-extension/master/./CONTRIBUTING.md)."
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "IomX/Z8fZRvFPjDCjVVFhdA00U2wXcfNBs9BCtGX13M=",
+    "originContent": "## Support",
+    "translatedContent": "## Soporte"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "idBMbB0FpfonSE5cN/JkI6iJ5yKpQ39f9Hwn7rxzM1c=",
+    "originContent": "When you like this extension make sure to [star the repo](https://github.com/HaaLeo/publish-vscode-extension/stargazers). I am always looking for new ideas and feedback.  ",
+    "translatedContent": "Si te gusta esta extensión asegúrate de [darle una estrella al repositorio](https://github.com/HaaLeo/publish-vscode-extension/stargazers). Siempre estoy buscando nuevas ideas y retroalimentación.  "
+  },
+  {
+    "row": 118,
+    "rowsha": "aASIY+vYNoH/uJ27le4upBdaSK7MvFteor/+0rpLoHE=",
+    "originContent": "In addition, it is possible to [donate via paypal](https://www.paypal.me/LeoHanisch/3eur).",
+    "translatedContent": "Además, es posible [donar vía paypal](https://www.paypal.me/LeoHanisch/3eur)."
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
