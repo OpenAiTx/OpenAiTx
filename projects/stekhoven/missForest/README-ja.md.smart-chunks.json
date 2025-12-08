@@ -1,0 +1,1210 @@
+[
+  {
+    "Id": 1,
+    "Content": "# missForest\n\n<!-- badges: start -->\n\n[![CRAN status](https://www.r-pkg.org/badges/version/missForest)](https://CRAN.R-project.org/package=missForest)\n[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-month/missForest?color=blue)](https://r-pkg.org/pkg/missForest)\n[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/missForest?color=blue)](https://r-pkg.org/pkg/missForest)\n[![R-CMD-check](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml)\n[![test-coverage](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml)\n[![License: GPL (≥ 2)](https://img.shields.io/badge/license-GPL%20(%E2%89%A5%202)-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)\n\n<!-- badges: end -->\n\n**missForest** is a nonparametric imputation method for **mixed-type** tabular data in R. It handles **numeric and categorical** variables simultaneously by iteratively training random forests to predict missing entries from the observed ones. No explicit modeling assumptions, no matrix factorizations—just strong predictive baselines that work well out of the box.\n\n* Works with **any mix of numeric and factor columns**\n* Captures **nonlinearities** and **interactions**\n* Reports **out-of-bag (OOB)** imputation error (NRMSE/PFC)\n* Supports **parallel execution** (per-variable or per-forest)\n* Two forest backends: **[`ranger`](https://cran.r-project.org/package=ranger)** (default) and **[`randomForest`](https://cran.r-project.org/package=randomForest)** (legacy/compat)\n\nThe package also includes utilities to measure imputation error, generate missingness for experiments, and inspect variable types.\n\n---\n\n## Installation\n",
+    "ContentSha": "ORhNVRxecOSIyCGEEgrgswCF2kGnjQWBxYnk48epQ7c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# missForest\n\n<!-- badges: start -->\n\n[![CRAN status](https://www.r-pkg.org/badges/version/missForest)](https://CRAN.R-project.org/package=missForest)\n[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-month/missForest?color=blue)](https://r-pkg.org/pkg/missForest)\n[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/missForest?color=blue)](https://r-pkg.org/pkg/missForest)\n[![R-CMD-check](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml)\n[![test-coverage](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml)\n[![License: GPL (≥ 2)](https://img.shields.io/badge/license-GPL%20(%E2%89%A5%202)-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)\n\n<!-- badges: end -->\n\n**missForest** は、Rにおける**混合型**表形式データの非パラメトリックな補完手法です。数値変数とカテゴリ変数を同時に扱い、観測データから欠損値を予測するランダムフォレストを反復的に学習させます。明示的なモデル仮定や行列分解は不要で、すぐに使える強力な予測ベースラインを提供します。\n\n* **数値列と因子列の任意の組み合わせ**に対応\n* **非線形性**と**相互作用**を捉える\n* **アウト・オブ・バッグ（OOB）**補完誤差（NRMSE/PFC）を報告\n* **並列実行**をサポート（変数単位または森林単位）\n* 2つのフォレストバックエンド：**[`ranger`](https://cran.r-project.org/package=ranger)**（デフォルト）と**[`randomForest`](https://cran.r-project.org/package=randomForest)**（旧版/互換）\n\nこのパッケージには、補完誤差の測定、実験用の欠損生成、変数型の検査に役立つユーティリティも含まれています。\n\n---\n\n## インストール\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ok8dpkTiyXl6+GsC1AamKKZ14sV9OYyoHzpJAhLAk24=",
+        "originContent": "# missForest",
+        "translatedContent": "# missForest"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "5wbnf95PE51XDx1JSI3zfMw3XfDaX5gpiRyKvmuZi5g=",
+        "originContent": "<!-- badges: start -->",
+        "translatedContent": "<!-- badges: start -->"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "1PX9dP6q8BrCUIsFTXUg4cbh+fJBfg06SncrvCVDnF4=",
+        "originContent": "[![CRAN status](https://www.r-pkg.org/badges/version/missForest)](https://CRAN.R-project.org/package=missForest)",
+        "translatedContent": "[![CRAN status](https://www.r-pkg.org/badges/version/missForest)](https://CRAN.R-project.org/package=missForest)"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ngk5zU23uPjCXxO1h0pmBQHcJU1S3bBzGmofzH85z8A=",
+        "originContent": "[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-month/missForest?color=blue)](https://r-pkg.org/pkg/missForest)",
+        "translatedContent": "[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-month/missForest?color=blue)](https://r-pkg.org/pkg/missForest)"
+      },
+      {
+        "row": 7,
+        "rowsha": "xxTG24Wqmrsb1A/fU01wd4hANPd2oFNZo7P/urWoPos=",
+        "originContent": "[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/missForest?color=blue)](https://r-pkg.org/pkg/missForest)",
+        "translatedContent": "[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/missForest?color=blue)](https://r-pkg.org/pkg/missForest)"
+      },
+      {
+        "row": 8,
+        "rowsha": "F9xbZjpxduZDals60BEbCb9ttrTP5nNSx6qt2BWuJpk=",
+        "originContent": "[![R-CMD-check](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml)",
+        "translatedContent": "[![R-CMD-check](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml)"
+      },
+      {
+        "row": 9,
+        "rowsha": "bxvDFlV4siBO9OeHx+yU6pY5NBMVXy8LKy1wzpKyHqU=",
+        "originContent": "[![test-coverage](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml)",
+        "translatedContent": "[![test-coverage](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml)"
+      },
+      {
+        "row": 10,
+        "rowsha": "cfm+vrpE0OjTci75Vs4Z7qCGPW4qWbJHv14timsg/0Q=",
+        "originContent": "[![License: GPL (≥ 2)](https://img.shields.io/badge/license-GPL%20(%E2%89%A5%202)-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)",
+        "translatedContent": "[![License: GPL (≥ 2)](https://img.shields.io/badge/license-GPL%20(%E2%89%A5%202)-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Qi6Px1IPHaFVWPjcUN7kxRZwrDEIBxgUYCPcmB9K5dQ=",
+        "originContent": "<!-- badges: end -->",
+        "translatedContent": "<!-- badges: end -->"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "GzFBOzKXM8HamxCddY4Rw4Ms2lt1oFIasf3GeLH+LwM=",
+        "originContent": "**missForest** is a nonparametric imputation method for **mixed-type** tabular data in R. It handles **numeric and categorical** variables simultaneously by iteratively training random forests to predict missing entries from the observed ones. No explicit modeling assumptions, no matrix factorizations—just strong predictive baselines that work well out of the box.",
+        "translatedContent": "**missForest** は、Rにおける**混合型**表形式データの非パラメトリックな補完手法です。数値変数とカテゴリ変数を同時に扱い、観測データから欠損値を予測するランダムフォレストを反復的に学習させます。明示的なモデル仮定や行列分解は不要で、すぐに使える強力な予測ベースラインを提供します。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "OB/IFTn23aCE7eEjNK+CEF7YfCcOTQrNxxDqBt1FuGA=",
+        "originContent": "* Works with **any mix of numeric and factor columns**",
+        "translatedContent": "* **数値列と因子列の任意の組み合わせ**に対応"
+      },
+      {
+        "row": 17,
+        "rowsha": "Pcw6dMAeh2N0oqobj7DCEqt/LypQGsltdQZ651GZqbU=",
+        "originContent": "* Captures **nonlinearities** and **interactions**",
+        "translatedContent": "* **非線形性**と**相互作用**を捉える"
+      },
+      {
+        "row": 18,
+        "rowsha": "UwIgbaxs/G6K5ft6XNHHA2jKTbkf+Johongoeg/I0hY=",
+        "originContent": "* Reports **out-of-bag (OOB)** imputation error (NRMSE/PFC)",
+        "translatedContent": "* **アウト・オブ・バッグ（OOB）**補完誤差（NRMSE/PFC）を報告"
+      },
+      {
+        "row": 19,
+        "rowsha": "7ykF6RfyEC4Ro4cvb9xheTKMWREhirUAY8OD36cit0Q=",
+        "originContent": "* Supports **parallel execution** (per-variable or per-forest)",
+        "translatedContent": "* **並列実行**をサポート（変数単位または森林単位）"
+      },
+      {
+        "row": 20,
+        "rowsha": "qaondP1RSuHJ6hEs9TpeYm06zzNdIU8d+yICNjqVicw=",
+        "originContent": "* Two forest backends: **[`ranger`](https://cran.r-project.org/package=ranger)** (default) and **[`randomForest`](https://cran.r-project.org/package=randomForest)** (legacy/compat)",
+        "translatedContent": "* 2つのフォレストバックエンド：**[`ranger`](https://cran.r-project.org/package=ranger)**（デフォルト）と**[`randomForest`](https://cran.r-project.org/package=randomForest)**（旧版/互換）"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "/8M2LDada4pbagKXIFIKSanwgVBxMh/Sk/Ea9aHY1a4=",
+        "originContent": "The package also includes utilities to measure imputation error, generate missingness for experiments, and inspect variable types.",
+        "translatedContent": "このパッケージには、補完誤差の測定、実験用の欠損生成、変数型の検査に役立つユーティリティも含まれています。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```r\n# CRAN (recommended)\ninstall.packages(\"missForest\")\n\n# Development version (from GitHub)\n# install.packages(\"remotes\")\nremotes::install_github(\"stekhoven/missForest\")\n```",
+    "ContentSha": "803k1FAHD/95zXTl0MFMCtqOS7AwolZsIOYMfi0hNcg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```r\n# CRAN (recommended)\ninstall.packages(\"missForest\")\n\n# Development version (from GitHub)\n# install.packages(\"remotes\")\nremotes::install_github(\"stekhoven/missForest\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QbM3JeUB4iTPp3Ls1AmmSvwdt3rcy8awHcxG8hWopQg=",
+        "originContent": "```r",
+        "translatedContent": "```r"
+      },
+      {
+        "row": 2,
+        "rowsha": "ShNBaD7wMbQNM+SN2OvE4W30S4QxOeVpUo3JCEUMJU4=",
+        "originContent": "# CRAN (recommended)",
+        "translatedContent": "# CRAN (recommended)"
+      },
+      {
+        "row": 3,
+        "rowsha": "MW1+F5grqsCTNNCF3TkJdFGuGeeXeyKejYoHqAESErg=",
+        "originContent": "install.packages(\"missForest\")",
+        "translatedContent": "install.packages(\"missForest\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "4UwuILQz3B+X71cBDfUAgYpmykbojGx4TAsqYjE2KPE=",
+        "originContent": "# Development version (from GitHub)",
+        "translatedContent": "# Development version (from GitHub)"
+      },
+      {
+        "row": 6,
+        "rowsha": "HDgNgmCeO+b50VORUl5AupG5HwjE7RtoPyVbyKuwHVE=",
+        "originContent": "# install.packages(\"remotes\")",
+        "translatedContent": "# install.packages(\"remotes\")"
+      },
+      {
+        "row": 7,
+        "rowsha": "AgrZ1DvlWK3GiJHdUxSdEw15LhNWyHPLH7z8pPzWqvU=",
+        "originContent": "remotes::install_github(\"stekhoven/missForest\")",
+        "translatedContent": "remotes::install_github(\"stekhoven/missForest\")"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n---\n\n## Quick start\n",
+    "ContentSha": "5Kf/U96Lxry08mKsKNdfv+NnWiFbOy26uGCHVBORvQQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## Quick start\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "lTWxC+mrt6h3iMP1EHwhgic0pFB660ZPhxD7jEhmuWU=",
+        "originContent": "## Quick start",
+        "translatedContent": "## Quick start"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```r\nlibrary(missForest)\n\n# Example data\ndata(iris)\n\n# Introduce ~20% MCAR missingness\nset.seed(81)\niris_mis <- prodNA(iris, noNA = 0.20)\n\n# Impute with default backend (ranger)\nimp <- missForest(iris_mis, xtrue = iris, verbose = TRUE)\n\n# Imputed data\nhead(imp$ximp)\n\n# Estimated OOB errors (NRMSE for numeric, PFC for factors)\nimp$OOBerror\n\n# True error if xtrue was provided (for benchmarking only)\nimp$error\n```",
+    "ContentSha": "TRvz3jILjlH3ZSnFDNeD+0AubHen83GIl09fgnPn8x8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```r\nlibrary(missForest)\n\n# Example data\ndata(iris)\n\n# Introduce ~20% MCAR missingness\nset.seed(81)\niris_mis <- prodNA(iris, noNA = 0.20)\n\n# Impute with default backend (ranger)\nimp <- missForest(iris_mis, xtrue = iris, verbose = TRUE)\n\n# Imputed data\nhead(imp$ximp)\n\n# Estimated OOB errors (NRMSE for numeric, PFC for factors)\nimp$OOBerror\n\n# True error if xtrue was provided (for benchmarking only)\nimp$error\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QbM3JeUB4iTPp3Ls1AmmSvwdt3rcy8awHcxG8hWopQg=",
+        "originContent": "```r",
+        "translatedContent": "```r"
+      },
+      {
+        "row": 2,
+        "rowsha": "Q43C6WFVhiY+lG96/dn5wm2L5dlPTgRautufwNvAlPM=",
+        "originContent": "library(missForest)",
+        "translatedContent": "library(missForest)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "UKymJT+0dG5F94c9XvMK+lgPqQkzLXtYxtDNcZR3q9Q=",
+        "originContent": "# Example data",
+        "translatedContent": "# Example data"
+      },
+      {
+        "row": 5,
+        "rowsha": "mzrI1lji9YmvAZzANW8ewmLd6GJ7Aogs+GtOvEFrR34=",
+        "originContent": "data(iris)",
+        "translatedContent": "data(iris)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "7kdUIFAK7w2SejTlzr5EsNJ49muCTVyIQA2VskqzIDY=",
+        "originContent": "# Introduce ~20% MCAR missingness",
+        "translatedContent": "# Introduce ~20% MCAR missingness"
+      },
+      {
+        "row": 8,
+        "rowsha": "nVfR42/YP1SjHkkQZqlanLpcKCkorgN/IzjVIBASWJ4=",
+        "originContent": "set.seed(81)",
+        "translatedContent": "set.seed(81)"
+      },
+      {
+        "row": 9,
+        "rowsha": "725zDsmAZ99l1aqIXpyPso2F7tnvzFcsxQKyhUqwq5s=",
+        "originContent": "iris_mis <- prodNA(iris, noNA = 0.20)",
+        "translatedContent": "iris_mis <- prodNA(iris, noNA = 0.20)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "kUKjVafnHFS540LIsJySVMYa1uZxvoVDSgJYwxefnDc=",
+        "originContent": "# Impute with default backend (ranger)",
+        "translatedContent": "# Impute with default backend (ranger)"
+      },
+      {
+        "row": 12,
+        "rowsha": "gOyvy2cnQYqVaBt7evoLifUtr0+6U5ls77yZs3fD4ss=",
+        "originContent": "imp <- missForest(iris_mis, xtrue = iris, verbose = TRUE)",
+        "translatedContent": "imp <- missForest(iris_mis, xtrue = iris, verbose = TRUE)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "3b2cb4s3gxJCxM9s2qukbB+o5zDS9VpipQsC83G2Wus=",
+        "originContent": "# Imputed data",
+        "translatedContent": "# Imputed data"
+      },
+      {
+        "row": 15,
+        "rowsha": "K9Njt7KWZ8dQ57Z2BNQ/wH4Pt3NgBwum191sCCbpJng=",
+        "originContent": "head(imp$ximp)",
+        "translatedContent": "head(imp$ximp)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "YyXbCekm3ZiWgZm6/pVK0jDEhd9vYp9f8SOkzrnOoGU=",
+        "originContent": "# Estimated OOB errors (NRMSE for numeric, PFC for factors)",
+        "translatedContent": "# Estimated OOB errors (NRMSE for numeric, PFC for factors)"
+      },
+      {
+        "row": 18,
+        "rowsha": "MWMY1oVUyggUUP9eB6eQpxTEN1fses4zoq8Uy0lrpl0=",
+        "originContent": "imp$OOBerror",
+        "translatedContent": "imp$OOBerror"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "BM7XuUYS9DcpYYSHyWK5FqSLbbAfyElUacf+o8OdUv0=",
+        "originContent": "# True error if xtrue was provided (for benchmarking only)",
+        "translatedContent": "# True error if xtrue was provided (for benchmarking only)"
+      },
+      {
+        "row": 21,
+        "rowsha": "9cFaC4xOhe6RFmzLZhKfIz9m2CsnXIVfnXVaGL6tiR8=",
+        "originContent": "imp$error",
+        "translatedContent": "imp$error"
+      },
+      {
+        "row": 22,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Choosing a backend\n",
+    "ContentSha": "AFLBaqEDi5/93CFlLNuNL206sprV5dw/wRvLio/wqJg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### バックエンドの選択\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "s++VYJh7jLvRGNaBx388mjJJQm/3EnfY8pd94N3NMIE=",
+        "originContent": "### Choosing a backend",
+        "translatedContent": "### バックエンドの選択"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```r\n# Legacy behavior using randomForest\nimp_rf <- missForest(iris_mis, backend = \"randomForest\")\n\n# Explicitly use ranger with limited threads\nimp_rg <- missForest(iris_mis, backend = \"ranger\", num.threads = 2)\n```",
+    "ContentSha": "1cs0M4gVZ1iNLO0DblcSbDFydJpl1lApMArRXQiEufY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```r\n# Legacy behavior using randomForest\nimp_rf <- missForest(iris_mis, backend = \"randomForest\")\n\n# Explicitly use ranger with limited threads\nimp_rg <- missForest(iris_mis, backend = \"ranger\", num.threads = 2)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QbM3JeUB4iTPp3Ls1AmmSvwdt3rcy8awHcxG8hWopQg=",
+        "originContent": "```r",
+        "translatedContent": "```r"
+      },
+      {
+        "row": 2,
+        "rowsha": "R3b9e4uom3bH2+KzqKDm85G6yIyYotEsZsUIf3DJrTI=",
+        "originContent": "# Legacy behavior using randomForest",
+        "translatedContent": "# Legacy behavior using randomForest"
+      },
+      {
+        "row": 3,
+        "rowsha": "V8twraOtKoS2yWWqoBBC3HdXp0dDnpYEryOQ2ijcQnc=",
+        "originContent": "imp_rf <- missForest(iris_mis, backend = \"randomForest\")",
+        "translatedContent": "imp_rf <- missForest(iris_mis, backend = \"randomForest\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "aAcR26+9ZWiF05eDi+HLwPTX+lpgLr2JvMTwZ83rn2Y=",
+        "originContent": "# Explicitly use ranger with limited threads",
+        "translatedContent": "# Explicitly use ranger with limited threads"
+      },
+      {
+        "row": 6,
+        "rowsha": "Va+LzhX4W21TGThzN6KgtDj+maTcYOeCkUgAZKbwTlc=",
+        "originContent": "imp_rg <- missForest(iris_mis, backend = \"ranger\", num.threads = 2)",
+        "translatedContent": "imp_rg <- missForest(iris_mis, backend = \"ranger\", num.threads = 2)"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### Parallelization\n\nTwo modes are available via `parallelize`:\n\n* `\"variables\"`: build forests for different variables in parallel (register a foreach backend).\n* `\"forests\"`: parallelize within a single variable’s forest (ranger threads; or foreach sub-forests for randomForest).\n",
+    "ContentSha": "m7/zj64ZjlO5gJUvo943m/BbEwFAE+7Akb4+t3VYJB8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 並列化\n\n`parallelize` には2つのモードがあります：\n\n* `\"variables\"`：異なる変数のために並行してフォレストを構築します（foreachバックエンドを登録）。\n* `\"forests\"`：単一変数のフォレスト内で並列化します（rangerのスレッド、またはrandomForestのforeachサブフォレスト）。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jp+9Qg9ir1+gNutrCTdDiUdbEXIVZYLFjWUBtgraTEE=",
+        "originContent": "### Parallelization",
+        "translatedContent": "### 並列化"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "xmThw61wS/7ONzonPqn8KPosd6dOM7LK9la8mlWBPYU=",
+        "originContent": "Two modes are available via `parallelize`:",
+        "translatedContent": "`parallelize` には2つのモードがあります："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "pWcQIalSUePqVLQCQkBzQEZiSouIPbGdIa8bHI0Yhm8=",
+        "originContent": "* `\"variables\"`: build forests for different variables in parallel (register a foreach backend).",
+        "translatedContent": "* `\"variables\"`：異なる変数のために並行してフォレストを構築します（foreachバックエンドを登録）。"
+      },
+      {
+        "row": 7,
+        "rowsha": "Odq9l5Sm3KXaB5L7Q5pVaibMaYRCpNcl+ReVSqZRDAI=",
+        "originContent": "* `\"forests\"`: parallelize within a single variable’s forest (ranger threads; or foreach sub-forests for randomForest).",
+        "translatedContent": "* `\"forests\"`：単一変数のフォレスト内で並列化します（rangerのスレッド、またはrandomForestのforeachサブフォレスト）。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```r\n# Not run:\n# library(doParallel)\n# registerDoParallel(2)\n# imp_vars <- missForest(iris_mis, parallelize = \"variables\", verbose = TRUE)\n# imp_fors <- missForest(iris_mis, parallelize = \"forests\",  verbose = TRUE, num.threads = 2)\n```",
+    "ContentSha": "0VKExkkGD/ddNqoclYVK3xLTtlgjO1GlKBozPtgEP8I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```r\n# Not run:\n# library(doParallel)\n# registerDoParallel(2)\n# imp_vars <- missForest(iris_mis, parallelize = \"variables\", verbose = TRUE)\n# imp_fors <- missForest(iris_mis, parallelize = \"forests\",  verbose = TRUE, num.threads = 2)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QbM3JeUB4iTPp3Ls1AmmSvwdt3rcy8awHcxG8hWopQg=",
+        "originContent": "```r",
+        "translatedContent": "```r"
+      },
+      {
+        "row": 2,
+        "rowsha": "tBE9buLSrDOJapvl9/p3TU/dF8Vh3qqpvaKYRuuIkHU=",
+        "originContent": "# Not run:",
+        "translatedContent": "# Not run:"
+      },
+      {
+        "row": 3,
+        "rowsha": "+Y0RosRKOWcQFkDBg0jAgele8m4uda57ydxZjZD2S1s=",
+        "originContent": "# library(doParallel)",
+        "translatedContent": "# library(doParallel)"
+      },
+      {
+        "row": 4,
+        "rowsha": "Mq+HuSHjXiE0uR8IvmXGK4iGEsAWuCE2Vw7nU701H2k=",
+        "originContent": "# registerDoParallel(2)",
+        "translatedContent": "# registerDoParallel(2)"
+      },
+      {
+        "row": 5,
+        "rowsha": "xXelLtc0GhFfQXgr58BnEoezJBHv7400XtVPOcfl9+Y=",
+        "originContent": "# imp_vars <- missForest(iris_mis, parallelize = \"variables\", verbose = TRUE)",
+        "translatedContent": "# imp_vars <- missForest(iris_mis, parallelize = \"variables\", verbose = TRUE)"
+      },
+      {
+        "row": 6,
+        "rowsha": "Vz6Samj4eql3f/07h4Gq8G3rdLefE5+QZpWEkF7F36Q=",
+        "originContent": "# imp_fors <- missForest(iris_mis, parallelize = \"forests\",  verbose = TRUE, num.threads = 2)",
+        "translatedContent": "# imp_fors <- missForest(iris_mis, parallelize = \"forests\",  verbose = TRUE, num.threads = 2)"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n---\n\n## API overview\n\n### `missForest(xmis, ...)`\n\nCore imputation function.\n\nKey arguments:\n\n* `xmis` — data frame/matrix with missing values (columns must be `numeric` or `factor`).\n* `maxiter` — maximum iterations (default `10`).\n* `ntree` — trees per forest (default `100`).\n* `mtry` — variables tried at each split (default `sqrt(p)`).\n* `nodesize` — **length-2 numeric**: minimum node size for **c(numeric, factor)**. Default `c(5, 1)`.\n* `variablewise` — return per-variable OOB error if `TRUE`.\n* `parallelize` — `\"no\"`, `\"variables\"`, or `\"forests\"`.\n* `num.threads` — threads for `ranger` (ignored by `randomForest`).\n* `backend` — `\"ranger\"` (default) or `\"randomForest\"`.\n* `xtrue` — optional complete data for **benchmarking** (adds `$error`).\n\nSome argument mappings for `backend = \"ranger\"`:\n\n* `ntree → num.trees`\n* `nodesize → min.bucket` (separately for regression/classification; default `c(5,1)`)\n* `sampsize` (counts) → `sample.fraction` (fractions; overall or per-class)\n* `classwt → class.weights`\n* `cutoff` handled by fitting **probability forests** and post-thresholding\n\n### Utilities\n\n* `mixError(ximp, xmis, xtrue)` — computes **NRMSE** (numeric) and **PFC** (factor) over true missing entries.\n* `nrmse(ximp, xmis, xtrue)` — NRMSE for continuous-only data.\n* `prodNA(x, noNA = 0.1)` — injects MCAR missingness into a data frame.\n* `varClass(x)` — returns `\"numeric\"`/`\"factor\"` per column.\n\n---\n\n## Tips & best practices",
+    "ContentSha": "YnPFT5s2EAfV14Nz+vdYOQ6ars0qrfHH1qDeIb7Z6T0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## API概要\n\n### `missForest(xmis, ...)`\n\nコアの補完関数。\n\n主な引数:\n\n* `xmis` — 欠損値を含むデータフレーム/マトリクス（列は `numeric` または `factor` でなければならない）。\n* `maxiter` — 最大反復回数（デフォルトは `10`）。\n* `ntree` — 森あたりの木の数（デフォルトは `100`）。\n* `mtry` — 各分割で試す変数の数（デフォルトは `sqrt(p)`）。\n* `nodesize` — **長さ2の数値ベクトル**：**c(numeric, factor)** に対する最小ノードサイズ。デフォルトは `c(5, 1)`。\n* `variablewise` — `TRUE` の場合、変数ごとのOOB誤差を返す。\n* `parallelize` — `\"no\"`、`\"variables\"`、または `\"forests\"`。\n* `num.threads` — `ranger` 用のスレッド数（`randomForest` では無視される）。\n* `backend` — `\"ranger\"`（デフォルト）または `\"randomForest\"`。\n* `xtrue` — **ベンチマーク用**の完全なデータ（`$error` を追加）。\n\n`backend = \"ranger\"` の引数対応例:\n\n* `ntree → num.trees`\n* `nodesize → min.bucket`（回帰/分類で別々に；デフォルトは `c(5,1)`）\n* `sampsize`（カウント）→ `sample.fraction`（割合；全体またはクラスごと）\n* `classwt → class.weights`\n* `cutoff` は確率フォレストを学習し、閾値処理で対応\n\n### ユーティリティ\n\n* `mixError(ximp, xmis, xtrue)` — 真の欠損箇所に対する **NRMSE**（数値）と **PFC**（因子）を計算。\n* `nrmse(ximp, xmis, xtrue)` — 連続値のみのデータに対するNRMSE。\n* `prodNA(x, noNA = 0.1)` — データフレームにMCAR欠損を注入。\n* `varClass(x)` — 列ごとに `\"numeric\"`/`\"factor\"` を返す。\n\n---\n\n## ヒントとベストプラクティス",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "hKdVj+st20delsiFHeO43ly0PqbhmeL/S6ypcpiZP4U=",
+        "originContent": "## API overview",
+        "translatedContent": "## API概要"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "KSCH+hZu4yqWf+NPhxWDYbZ8MjAF7uSdBDs3SGUxTQY=",
+        "originContent": "### `missForest(xmis, ...)`",
+        "translatedContent": "### `missForest(xmis, ...)`"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "pY07BAkZdqacfQtzecQ3DJGxo4aN4yPyHaotpb9fMJ0=",
+        "originContent": "Core imputation function.",
+        "translatedContent": "コアの補完関数。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "g/co8j6XUTSclwVVZns62PpdBRMuVyRFZJRSzXDuZE8=",
+        "originContent": "Key arguments:",
+        "translatedContent": "主な引数:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "jL/x6Fz0dbzsmypaoAY1cMKOclQnTXk5mz00iRLTBR0=",
+        "originContent": "* `xmis` — data frame/matrix with missing values (columns must be `numeric` or `factor`).",
+        "translatedContent": "* `xmis` — 欠損値を含むデータフレーム/マトリクス（列は `numeric` または `factor` でなければならない）。"
+      },
+      {
+        "row": 13,
+        "rowsha": "If4SF8hDkP/w8jJC/20wT6h5YhHEMHUn5OTlRa1kI8g=",
+        "originContent": "* `maxiter` — maximum iterations (default `10`).",
+        "translatedContent": "* `maxiter` — 最大反復回数（デフォルトは `10`）。"
+      },
+      {
+        "row": 14,
+        "rowsha": "/PnoHYZsZdrBcpGmg5XS0n+D+WA87UUoUBDu4YCYoI4=",
+        "originContent": "* `ntree` — trees per forest (default `100`).",
+        "translatedContent": "* `ntree` — 森あたりの木の数（デフォルトは `100`）。"
+      },
+      {
+        "row": 15,
+        "rowsha": "vIEc4oU9x0t4NR/fYW7LFrY5ur85wqpOnsPjnY1Eop0=",
+        "originContent": "* `mtry` — variables tried at each split (default `sqrt(p)`).",
+        "translatedContent": "* `mtry` — 各分割で試す変数の数（デフォルトは `sqrt(p)`）。"
+      },
+      {
+        "row": 16,
+        "rowsha": "ZgNqEzPG2zcB6BOVeG0cTISZDO0KEfML542ouXdJfOs=",
+        "originContent": "* `nodesize` — **length-2 numeric**: minimum node size for **c(numeric, factor)**. Default `c(5, 1)`.",
+        "translatedContent": "* `nodesize` — **長さ2の数値ベクトル**：**c(numeric, factor)** に対する最小ノードサイズ。デフォルトは `c(5, 1)`。"
+      },
+      {
+        "row": 17,
+        "rowsha": "1k0wbRQbQDO8PFknfqJT0L9Hs+Ri1juVktiwwnp+C+8=",
+        "originContent": "* `variablewise` — return per-variable OOB error if `TRUE`.",
+        "translatedContent": "* `variablewise` — `TRUE` の場合、変数ごとのOOB誤差を返す。"
+      },
+      {
+        "row": 18,
+        "rowsha": "x/C/C2MD6K7W7Cp5s5DIiQBsRT83DANaxEANKoCNkaQ=",
+        "originContent": "* `parallelize` — `\"no\"`, `\"variables\"`, or `\"forests\"`.",
+        "translatedContent": "* `parallelize` — `\"no\"`、`\"variables\"`、または `\"forests\"`。"
+      },
+      {
+        "row": 19,
+        "rowsha": "NYCEfXqJJXx1d/2vgUP2s1LiI+qpuXGGLnmHc6RSKMs=",
+        "originContent": "* `num.threads` — threads for `ranger` (ignored by `randomForest`).",
+        "translatedContent": "* `num.threads` — `ranger` 用のスレッド数（`randomForest` では無視される）。"
+      },
+      {
+        "row": 20,
+        "rowsha": "3n5wgY/huM3VqhDC8qPgOm1xOWv7+6ssDPFs3nMEAYQ=",
+        "originContent": "* `backend` — `\"ranger\"` (default) or `\"randomForest\"`.",
+        "translatedContent": "* `backend` — `\"ranger\"`（デフォルト）または `\"randomForest\"`。"
+      },
+      {
+        "row": 21,
+        "rowsha": "15kjxz+KCZvxXQqu1nDj9D/P+oeYF4KiXSAxw2ib+X0=",
+        "originContent": "* `xtrue` — optional complete data for **benchmarking** (adds `$error`).",
+        "translatedContent": "* `xtrue` — **ベンチマーク用**の完全なデータ（`$error` を追加）。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "8eHZGhV5reKNX4PrSdrLeI3bNZ2QjSjPwJ/khknoarI=",
+        "originContent": "Some argument mappings for `backend = \"ranger\"`:",
+        "translatedContent": "`backend = \"ranger\"` の引数対応例:"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "XZxxKzhzFLTbkPaScYbenFiu7qNU5TuCTlLwDkCT+J4=",
+        "originContent": "* `ntree → num.trees`",
+        "translatedContent": "* `ntree → num.trees`"
+      },
+      {
+        "row": 26,
+        "rowsha": "W8BQ6LHOfWSl1tblcECe6wLh058Di8APEnoe1+xnUgU=",
+        "originContent": "* `nodesize → min.bucket` (separately for regression/classification; default `c(5,1)`)",
+        "translatedContent": "* `nodesize → min.bucket`（回帰/分類で別々に；デフォルトは `c(5,1)`）"
+      },
+      {
+        "row": 27,
+        "rowsha": "MnEibNsloH+jw3VJ/LHRIDrthN29xl+mNrFUEVSuSi4=",
+        "originContent": "* `sampsize` (counts) → `sample.fraction` (fractions; overall or per-class)",
+        "translatedContent": "* `sampsize`（カウント）→ `sample.fraction`（割合；全体またはクラスごと）"
+      },
+      {
+        "row": 28,
+        "rowsha": "lQRv5KOROSG97lpXqJRwg/nR16XsT0Jl+KHFUsvSQ0Q=",
+        "originContent": "* `classwt → class.weights`",
+        "translatedContent": "* `classwt → class.weights`"
+      },
+      {
+        "row": 29,
+        "rowsha": "PwhZcqxDAt1DdYit8WOmcKTA+Bzo+IsqgorRkwR/rgk=",
+        "originContent": "* `cutoff` handled by fitting **probability forests** and post-thresholding",
+        "translatedContent": "* `cutoff` は確率フォレストを学習し、閾値処理で対応"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "CMj8oo3YwE9CF+KpT+zwXU1SGJkScqoB44lhh7CgcFI=",
+        "originContent": "### Utilities",
+        "translatedContent": "### ユーティリティ"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "sJkX+NDYqM+pCSrUu1fsZp+5j0AfDtIlqm0DpQaDmic=",
+        "originContent": "* `mixError(ximp, xmis, xtrue)` — computes **NRMSE** (numeric) and **PFC** (factor) over true missing entries.",
+        "translatedContent": "* `mixError(ximp, xmis, xtrue)` — 真の欠損箇所に対する **NRMSE**（数値）と **PFC**（因子）を計算。"
+      },
+      {
+        "row": 34,
+        "rowsha": "h1bhpyrQ69gOGL+2vtw9ogVcwSWuK4QceTv2KW3mitQ=",
+        "originContent": "* `nrmse(ximp, xmis, xtrue)` — NRMSE for continuous-only data.",
+        "translatedContent": "* `nrmse(ximp, xmis, xtrue)` — 連続値のみのデータに対するNRMSE。"
+      },
+      {
+        "row": 35,
+        "rowsha": "0+WK6DUL5rR0sDRXzaQTEocSMjB9KUv7heaGANi0FW8=",
+        "originContent": "* `prodNA(x, noNA = 0.1)` — injects MCAR missingness into a data frame.",
+        "translatedContent": "* `prodNA(x, noNA = 0.1)` — データフレームにMCAR欠損を注入。"
+      },
+      {
+        "row": 36,
+        "rowsha": "5LirCzw8IM4eGe48Gs8YxhEarDMCkmG3FJX/ggXQAs0=",
+        "originContent": "* `varClass(x)` — returns `\"numeric\"`/`\"factor\"` per column.",
+        "translatedContent": "* `varClass(x)` — 列ごとに `\"numeric\"`/`\"factor\"` を返す。"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "AorgqpzkebziYgQ6Yvh+ERxD2DnMy6PU36UHriRqq8s=",
+        "originContent": "## Tips & best practices",
+        "translatedContent": "## ヒントとベストプラクティス"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "\n* Convert character columns to factors before calling `missForest`.\n* For wide data, consider `parallelize = \"variables\"`. For deep/expensive trees, consider `parallelize = \"forests\"`.\n* Set a seed for quasi-reproducible results:\n",
+    "ContentSha": "ZSpnzEmoyFBYZUYbv9Td53IzK1IElm4cGbsSZnVJiCs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n* `missForest`を呼び出す前に、文字列の列を因子に変換します。\n* ワイドデータの場合は`parallelize = \"variables\"`を検討してください。深いまたは計算コストの高い木の場合は`parallelize = \"forests\"`を検討してください。\n* 準再現性のある結果を得るためにシードを設定します：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "UKUWwg23OI3He05gkgEhGDwNH8d6BNNUGaW19YAhPfA=",
+        "originContent": "* Convert character columns to factors before calling `missForest`.",
+        "translatedContent": "* `missForest`を呼び出す前に、文字列の列を因子に変換します。"
+      },
+      {
+        "row": 3,
+        "rowsha": "Tfy/gCsz/LyP3jFzhdH+g5jg63qsGbaz27nDoA/PbB0=",
+        "originContent": "* For wide data, consider `parallelize = \"variables\"`. For deep/expensive trees, consider `parallelize = \"forests\"`.",
+        "translatedContent": "* ワイドデータの場合は`parallelize = \"variables\"`を検討してください。深いまたは計算コストの高い木の場合は`parallelize = \"forests\"`を検討してください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "VZC9JGFgcQiaO2cfKCtvbcH4dx4jOTE9NLba5YGHxHc=",
+        "originContent": "* Set a seed for quasi-reproducible results:",
+        "translatedContent": "* 準再現性のある結果を得るためにシードを設定します："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "  ```r\n  set.seed(123); imp <- missForest(x)\n  ```",
+    "ContentSha": "I01B65Le0T+yTrzp0rKeGVxU46De4KGRafXOckpRg9E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  ```r\n  set.seed(123); imp <- missForest(x)\n  ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "wPmp1JT/dbkxkaCYNfHX8RaH48lxh06802Q4MLlCGj0=",
+        "originContent": "  ```r",
+        "translatedContent": "  ```r"
+      },
+      {
+        "row": 2,
+        "rowsha": "OwSnPZl//xJrIaEiPmjAhk/x+LXFSfzavhwdvqiWFck=",
+        "originContent": "  set.seed(123); imp <- missForest(x)",
+        "translatedContent": "  set.seed(123); imp <- missForest(x)"
+      },
+      {
+        "row": 3,
+        "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+        "originContent": "  ```",
+        "translatedContent": "  ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "* You can lower `ntree` during prototyping to speed up iteration.\n\n---\n\n## Citation\n\nIf you use **missForest**, please cite:\n\n* Stekhoven, D. J. & Bühlmann, P. (2012). *MissForest—nonparametric missing value imputation for mixed-type data.* **Bioinformatics**, 28(1), 112–118. [https://doi.org/10.1093/bioinformatics/btr597](https://doi.org/10.1093/bioinformatics/btr597)\n\nYou can also cite the package:\n",
+    "ContentSha": "PccWNkwuK5HsWTKn63+bRAkDmrkn5QK3W+8gDNt9W1Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* プロトタイピング中は反復を高速化するために `ntree` を下げることができます。\n\n---\n\n## 引用\n\n**missForest** を使用する場合は、以下を引用してください：\n\n* Stekhoven, D. J. & Bühlmann, P. (2012). *MissForest—混合型データのための非パラメトリック欠損値補完手法.* **Bioinformatics**, 28(1), 112–118. [https://doi.org/10.1093/bioinformatics/btr597](https://doi.org/10.1093/bioinformatics/btr597)\n\nパッケージ自体を引用することもできます：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ZLwsfXu87V8cPVDm3rdHBKUVjuAkpLkEp26/PTqQN/E=",
+        "originContent": "* You can lower `ntree` during prototyping to speed up iteration.",
+        "translatedContent": "* プロトタイピング中は反復を高速化するために `ntree` を下げることができます。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+        "originContent": "## Citation",
+        "translatedContent": "## 引用"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "tlD6UrsPhnqns3moN+NGw4qxdWid9oCJLpdoKc74bmo=",
+        "originContent": "If you use **missForest**, please cite:",
+        "translatedContent": "**missForest** を使用する場合は、以下を引用してください："
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Lyn5Tv27+uICsOhex3+yaAaJCLSMeUWqOOzMhmI9shw=",
+        "originContent": "* Stekhoven, D. J. & Bühlmann, P. (2012). *MissForest—nonparametric missing value imputation for mixed-type data.* **Bioinformatics**, 28(1), 112–118. [https://doi.org/10.1093/bioinformatics/btr597](https://doi.org/10.1093/bioinformatics/btr597)",
+        "translatedContent": "* Stekhoven, D. J. & Bühlmann, P. (2012). *MissForest—混合型データのための非パラメトリック欠損値補完手法.* **Bioinformatics**, 28(1), 112–118. [https://doi.org/10.1093/bioinformatics/btr597](https://doi.org/10.1093/bioinformatics/btr597)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "8p2xmwZ/P5d9Z2BEYXqZybrmbuv2gVYc1fjjpejgjBg=",
+        "originContent": "You can also cite the package:",
+        "translatedContent": "パッケージ自体を引用することもできます："
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```r\ncitation(\"missForest\")\n```",
+    "ContentSha": "AFak4dy4dwiAW3cKoFOZMmfnK45sSrSO/Hb/Rb/mLk4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```r\ncitation(\"missForest\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "QbM3JeUB4iTPp3Ls1AmmSvwdt3rcy8awHcxG8hWopQg=",
+        "originContent": "```r",
+        "translatedContent": "```r"
+      },
+      {
+        "row": 2,
+        "rowsha": "JqFFNsLPPICdQh91iuL3l7ZuJlRsoFNshQvdyUQ+jjM=",
+        "originContent": "citation(\"missForest\")",
+        "translatedContent": "citation(\"missForest\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n---\n\n## Contributing\n\nIssues and pull requests are welcome. Please include a minimal reproducible example when reporting bugs. For performance discussions, share small benchmarks and session info.\n\n---\n\n## License\n\nGPL (≥ 2)\n\n---\n\n## Contact\n\nDaniel J. Stekhoven — [stekhoven@nexus.ethz.ch](https://raw.githubusercontent.com/stekhoven/missForest/master/mailto:stekhoven@nexus.ethz.ch)\n\n---\n",
+    "ContentSha": "okqhsvSiy1TkDvPM+VA6p7y3zSaYNqY2hXPDwAzvB2I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## Contributing\n\nIssues and pull requests are welcome. Please include a minimal reproducible example when reporting bugs. For performance discussions, share small benchmarks and session info.\n\n---\n\n## License\n\nGPL (≥ 2)\n\n---\n\n## Contact\n\nDaniel J. Stekhoven — [stekhoven@nexus.ethz.ch](https://raw.githubusercontent.com/stekhoven/missForest/master/mailto:stekhoven@nexus.ethz.ch)\n\n---\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contributing"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "k5jEEa4cfbvpNoVh/e86Qv3cHVlUfuzZXfZgcq1sRZM=",
+        "originContent": "Issues and pull requests are welcome. Please include a minimal reproducible example when reporting bugs. For performance discussions, share small benchmarks and session info.",
+        "translatedContent": "Issues and pull requests are welcome. Please include a minimal reproducible example when reporting bugs. For performance discussions, share small benchmarks and session info."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## License"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "RPZ3nf3B8u5SKKKs/KGG7KzTryuVYaRuHfAwwXQ5fCw=",
+        "originContent": "GPL (≥ 2)",
+        "translatedContent": "GPL (≥ 2)"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "ZX9nbduzXgvmAaK8yTd+tNgwR7cV79HXV/+xbvL8suw=",
+        "originContent": "## Contact",
+        "translatedContent": "## Contact"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "4ExGzrZn6yA2fSimk8pbzaZ1baTdnXBbVnjOEX2dKvo=",
+        "originContent": "Daniel J. Stekhoven — [stekhoven@nexus.ethz.ch](https://raw.githubusercontent.com/stekhoven/missForest/master/mailto:stekhoven@nexus.ethz.ch)",
+        "translatedContent": "Daniel J. Stekhoven — [stekhoven@nexus.ethz.ch](https://raw.githubusercontent.com/stekhoven/missForest/master/mailto:stekhoven@nexus.ethz.ch)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

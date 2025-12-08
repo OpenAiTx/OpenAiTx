@@ -1,0 +1,1028 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Ok8dpkTiyXl6+GsC1AamKKZ14sV9OYyoHzpJAhLAk24=",
+    "originContent": "# missForest",
+    "translatedContent": "# missForest"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "5wbnf95PE51XDx1JSI3zfMw3XfDaX5gpiRyKvmuZi5g=",
+    "originContent": "<!-- badges: start -->",
+    "translatedContent": "<!-- badges: start -->"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "1PX9dP6q8BrCUIsFTXUg4cbh+fJBfg06SncrvCVDnF4=",
+    "originContent": "[![CRAN status](https://www.r-pkg.org/badges/version/missForest)](https://CRAN.R-project.org/package=missForest)",
+    "translatedContent": "[![CRAN status](https://www.r-pkg.org/badges/version/missForest)](https://CRAN.R-project.org/package=missForest)"
+  },
+  {
+    "row": 6,
+    "rowsha": "Ngk5zU23uPjCXxO1h0pmBQHcJU1S3bBzGmofzH85z8A=",
+    "originContent": "[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-month/missForest?color=blue)](https://r-pkg.org/pkg/missForest)",
+    "translatedContent": "[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/last-month/missForest?color=blue)](https://r-pkg.org/pkg/missForest)"
+  },
+  {
+    "row": 7,
+    "rowsha": "xxTG24Wqmrsb1A/fU01wd4hANPd2oFNZo7P/urWoPos=",
+    "originContent": "[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/missForest?color=blue)](https://r-pkg.org/pkg/missForest)",
+    "translatedContent": "[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/missForest?color=blue)](https://r-pkg.org/pkg/missForest)"
+  },
+  {
+    "row": 8,
+    "rowsha": "F9xbZjpxduZDals60BEbCb9ttrTP5nNSx6qt2BWuJpk=",
+    "originContent": "[![R-CMD-check](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml)",
+    "translatedContent": "[![R-CMD-check](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/R-CMD-check.yaml)"
+  },
+  {
+    "row": 9,
+    "rowsha": "bxvDFlV4siBO9OeHx+yU6pY5NBMVXy8LKy1wzpKyHqU=",
+    "originContent": "[![test-coverage](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml)",
+    "translatedContent": "[![test-coverage](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/stekhoven/missForest/actions/workflows/test-coverage.yaml)"
+  },
+  {
+    "row": 10,
+    "rowsha": "cfm+vrpE0OjTci75Vs4Z7qCGPW4qWbJHv14timsg/0Q=",
+    "originContent": "[![License: GPL (≥ 2)](https://img.shields.io/badge/license-GPL%20(%E2%89%A5%202)-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)",
+    "translatedContent": "[![License: GPL (≥ 2)](https://img.shields.io/badge/license-GPL%20(%E2%89%A5%202)-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "Qi6Px1IPHaFVWPjcUN7kxRZwrDEIBxgUYCPcmB9K5dQ=",
+    "originContent": "<!-- badges: end -->",
+    "translatedContent": "<!-- badges: end -->"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "GzFBOzKXM8HamxCddY4Rw4Ms2lt1oFIasf3GeLH+LwM=",
+    "originContent": "**missForest** is a nonparametric imputation method for **mixed-type** tabular data in R. It handles **numeric and categorical** variables simultaneously by iteratively training random forests to predict missing entries from the observed ones. No explicit modeling assumptions, no matrix factorizations—just strong predictive baselines that work well out of the box.",
+    "translatedContent": "**missForest** est une méthode d'imputation non paramétrique pour les données tabulaires de **type mixte** dans R. Elle gère simultanément les variables **numériques et catégorielles** en entraînant itérativement des forêts aléatoires pour prédire les valeurs manquantes à partir des valeurs observées. Aucune hypothèse de modélisation explicite, pas de factorisation de matrice—juste des bases prédictives solides qui fonctionnent bien dès le départ."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "OB/IFTn23aCE7eEjNK+CEF7YfCcOTQrNxxDqBt1FuGA=",
+    "originContent": "* Works with **any mix of numeric and factor columns**",
+    "translatedContent": "* Fonctionne avec **n'importe quelle combinaison de colonnes numériques et factorielles**"
+  },
+  {
+    "row": 17,
+    "rowsha": "Pcw6dMAeh2N0oqobj7DCEqt/LypQGsltdQZ651GZqbU=",
+    "originContent": "* Captures **nonlinearities** and **interactions**",
+    "translatedContent": "* Capture les **non-linéarités** et les **interactions**"
+  },
+  {
+    "row": 18,
+    "rowsha": "UwIgbaxs/G6K5ft6XNHHA2jKTbkf+Johongoeg/I0hY=",
+    "originContent": "* Reports **out-of-bag (OOB)** imputation error (NRMSE/PFC)",
+    "translatedContent": "* Fournit une estimation de l'erreur d'imputation **hors échantillon (OOB)** (NRMSE/PFC)"
+  },
+  {
+    "row": 19,
+    "rowsha": "7ykF6RfyEC4Ro4cvb9xheTKMWREhirUAY8OD36cit0Q=",
+    "originContent": "* Supports **parallel execution** (per-variable or per-forest)",
+    "translatedContent": "* Supporte l’**exécution parallèle** (par variable ou par forêt)"
+  },
+  {
+    "row": 20,
+    "rowsha": "qaondP1RSuHJ6hEs9TpeYm06zzNdIU8d+yICNjqVicw=",
+    "originContent": "* Two forest backends: **[`ranger`](https://cran.r-project.org/package=ranger)** (default) and **[`randomForest`](https://cran.r-project.org/package=randomForest)** (legacy/compat)",
+    "translatedContent": "* Deux moteurs de forêt : **[`ranger`](https://cran.r-project.org/package=ranger)** (par défaut) et **[`randomForest`](https://cran.r-project.org/package=randomForest)** (héritage/compatibilité)"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "/8M2LDada4pbagKXIFIKSanwgVBxMh/Sk/Ea9aHY1a4=",
+    "originContent": "The package also includes utilities to measure imputation error, generate missingness for experiments, and inspect variable types.",
+    "translatedContent": "Le package inclut également des utilitaires pour mesurer l'erreur d'imputation, générer des données manquantes pour les expériences, et inspecter les types de variables."
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "QbM3JeUB4iTPp3Ls1AmmSvwdt3rcy8awHcxG8hWopQg=",
+    "originContent": "```r",
+    "translatedContent": "```r"
+  },
+  {
+    "row": 29,
+    "rowsha": "ShNBaD7wMbQNM+SN2OvE4W30S4QxOeVpUo3JCEUMJU4=",
+    "originContent": "# CRAN (recommended)",
+    "translatedContent": "# CRAN (recommended)"
+  },
+  {
+    "row": 30,
+    "rowsha": "MW1+F5grqsCTNNCF3TkJdFGuGeeXeyKejYoHqAESErg=",
+    "originContent": "install.packages(\"missForest\")",
+    "translatedContent": "install.packages(\"missForest\")"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "4UwuILQz3B+X71cBDfUAgYpmykbojGx4TAsqYjE2KPE=",
+    "originContent": "# Development version (from GitHub)",
+    "translatedContent": "# Development version (from GitHub)"
+  },
+  {
+    "row": 33,
+    "rowsha": "HDgNgmCeO+b50VORUl5AupG5HwjE7RtoPyVbyKuwHVE=",
+    "originContent": "# install.packages(\"remotes\")",
+    "translatedContent": "# install.packages(\"remotes\")"
+  },
+  {
+    "row": 34,
+    "rowsha": "AgrZ1DvlWK3GiJHdUxSdEw15LhNWyHPLH7z8pPzWqvU=",
+    "originContent": "remotes::install_github(\"stekhoven/missForest\")",
+    "translatedContent": "remotes::install_github(\"stekhoven/missForest\")"
+  },
+  {
+    "row": 35,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "lTWxC+mrt6h3iMP1EHwhgic0pFB660ZPhxD7jEhmuWU=",
+    "originContent": "## Quick start",
+    "translatedContent": "## Quick start"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "QbM3JeUB4iTPp3Ls1AmmSvwdt3rcy8awHcxG8hWopQg=",
+    "originContent": "```r",
+    "translatedContent": "```r"
+  },
+  {
+    "row": 42,
+    "rowsha": "Q43C6WFVhiY+lG96/dn5wm2L5dlPTgRautufwNvAlPM=",
+    "originContent": "library(missForest)",
+    "translatedContent": "library(missForest)"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "UKymJT+0dG5F94c9XvMK+lgPqQkzLXtYxtDNcZR3q9Q=",
+    "originContent": "# Example data",
+    "translatedContent": "# Example data"
+  },
+  {
+    "row": 45,
+    "rowsha": "mzrI1lji9YmvAZzANW8ewmLd6GJ7Aogs+GtOvEFrR34=",
+    "originContent": "data(iris)",
+    "translatedContent": "data(iris)"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "7kdUIFAK7w2SejTlzr5EsNJ49muCTVyIQA2VskqzIDY=",
+    "originContent": "# Introduce ~20% MCAR missingness",
+    "translatedContent": "# Introduce ~20% MCAR missingness"
+  },
+  {
+    "row": 48,
+    "rowsha": "nVfR42/YP1SjHkkQZqlanLpcKCkorgN/IzjVIBASWJ4=",
+    "originContent": "set.seed(81)",
+    "translatedContent": "set.seed(81)"
+  },
+  {
+    "row": 49,
+    "rowsha": "725zDsmAZ99l1aqIXpyPso2F7tnvzFcsxQKyhUqwq5s=",
+    "originContent": "iris_mis <- prodNA(iris, noNA = 0.20)",
+    "translatedContent": "iris_mis <- prodNA(iris, noNA = 0.20)"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "kUKjVafnHFS540LIsJySVMYa1uZxvoVDSgJYwxefnDc=",
+    "originContent": "# Impute with default backend (ranger)",
+    "translatedContent": "# Impute with default backend (ranger)"
+  },
+  {
+    "row": 52,
+    "rowsha": "gOyvy2cnQYqVaBt7evoLifUtr0+6U5ls77yZs3fD4ss=",
+    "originContent": "imp <- missForest(iris_mis, xtrue = iris, verbose = TRUE)",
+    "translatedContent": "imp <- missForest(iris_mis, xtrue = iris, verbose = TRUE)"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "3b2cb4s3gxJCxM9s2qukbB+o5zDS9VpipQsC83G2Wus=",
+    "originContent": "# Imputed data",
+    "translatedContent": "# Imputed data"
+  },
+  {
+    "row": 55,
+    "rowsha": "K9Njt7KWZ8dQ57Z2BNQ/wH4Pt3NgBwum191sCCbpJng=",
+    "originContent": "head(imp$ximp)",
+    "translatedContent": "head(imp$ximp)"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "YyXbCekm3ZiWgZm6/pVK0jDEhd9vYp9f8SOkzrnOoGU=",
+    "originContent": "# Estimated OOB errors (NRMSE for numeric, PFC for factors)",
+    "translatedContent": "# Estimated OOB errors (NRMSE for numeric, PFC for factors)"
+  },
+  {
+    "row": 58,
+    "rowsha": "MWMY1oVUyggUUP9eB6eQpxTEN1fses4zoq8Uy0lrpl0=",
+    "originContent": "imp$OOBerror",
+    "translatedContent": "imp$OOBerror"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "BM7XuUYS9DcpYYSHyWK5FqSLbbAfyElUacf+o8OdUv0=",
+    "originContent": "# True error if xtrue was provided (for benchmarking only)",
+    "translatedContent": "# True error if xtrue was provided (for benchmarking only)"
+  },
+  {
+    "row": 61,
+    "rowsha": "9cFaC4xOhe6RFmzLZhKfIz9m2CsnXIVfnXVaGL6tiR8=",
+    "originContent": "imp$error",
+    "translatedContent": "imp$error"
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "s++VYJh7jLvRGNaBx388mjJJQm/3EnfY8pd94N3NMIE=",
+    "originContent": "### Choosing a backend",
+    "translatedContent": "### Choisir un backend"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "QbM3JeUB4iTPp3Ls1AmmSvwdt3rcy8awHcxG8hWopQg=",
+    "originContent": "```r",
+    "translatedContent": "```r"
+  },
+  {
+    "row": 67,
+    "rowsha": "R3b9e4uom3bH2+KzqKDm85G6yIyYotEsZsUIf3DJrTI=",
+    "originContent": "# Legacy behavior using randomForest",
+    "translatedContent": "# Legacy behavior using randomForest"
+  },
+  {
+    "row": 68,
+    "rowsha": "V8twraOtKoS2yWWqoBBC3HdXp0dDnpYEryOQ2ijcQnc=",
+    "originContent": "imp_rf <- missForest(iris_mis, backend = \"randomForest\")",
+    "translatedContent": "imp_rf <- missForest(iris_mis, backend = \"randomForest\")"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "aAcR26+9ZWiF05eDi+HLwPTX+lpgLr2JvMTwZ83rn2Y=",
+    "originContent": "# Explicitly use ranger with limited threads",
+    "translatedContent": "# Explicitly use ranger with limited threads"
+  },
+  {
+    "row": 71,
+    "rowsha": "Va+LzhX4W21TGThzN6KgtDj+maTcYOeCkUgAZKbwTlc=",
+    "originContent": "imp_rg <- missForest(iris_mis, backend = \"ranger\", num.threads = 2)",
+    "translatedContent": "imp_rg <- missForest(iris_mis, backend = \"ranger\", num.threads = 2)"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "jp+9Qg9ir1+gNutrCTdDiUdbEXIVZYLFjWUBtgraTEE=",
+    "originContent": "### Parallelization",
+    "translatedContent": "### Parallélisation"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "xmThw61wS/7ONzonPqn8KPosd6dOM7LK9la8mlWBPYU=",
+    "originContent": "Two modes are available via `parallelize`:",
+    "translatedContent": "Deux modes sont disponibles via `parallelize` :"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "pWcQIalSUePqVLQCQkBzQEZiSouIPbGdIa8bHI0Yhm8=",
+    "originContent": "* `\"variables\"`: build forests for different variables in parallel (register a foreach backend).",
+    "translatedContent": "* `\"variables\"` : construire des forêts pour différentes variables en parallèle (enregistrer un backend foreach)."
+  },
+  {
+    "row": 79,
+    "rowsha": "Odq9l5Sm3KXaB5L7Q5pVaibMaYRCpNcl+ReVSqZRDAI=",
+    "originContent": "* `\"forests\"`: parallelize within a single variable’s forest (ranger threads; or foreach sub-forests for randomForest).",
+    "translatedContent": "* `\"forests\"` : paralléliser au sein de la forêt d’une seule variable (threads ranger ; ou sous-forêts foreach pour randomForest)."
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "QbM3JeUB4iTPp3Ls1AmmSvwdt3rcy8awHcxG8hWopQg=",
+    "originContent": "```r",
+    "translatedContent": "```r"
+  },
+  {
+    "row": 82,
+    "rowsha": "tBE9buLSrDOJapvl9/p3TU/dF8Vh3qqpvaKYRuuIkHU=",
+    "originContent": "# Not run:",
+    "translatedContent": "# Not run:"
+  },
+  {
+    "row": 83,
+    "rowsha": "+Y0RosRKOWcQFkDBg0jAgele8m4uda57ydxZjZD2S1s=",
+    "originContent": "# library(doParallel)",
+    "translatedContent": "# library(doParallel)"
+  },
+  {
+    "row": 84,
+    "rowsha": "Mq+HuSHjXiE0uR8IvmXGK4iGEsAWuCE2Vw7nU701H2k=",
+    "originContent": "# registerDoParallel(2)",
+    "translatedContent": "# registerDoParallel(2)"
+  },
+  {
+    "row": 85,
+    "rowsha": "xXelLtc0GhFfQXgr58BnEoezJBHv7400XtVPOcfl9+Y=",
+    "originContent": "# imp_vars <- missForest(iris_mis, parallelize = \"variables\", verbose = TRUE)",
+    "translatedContent": "# imp_vars <- missForest(iris_mis, parallelize = \"variables\", verbose = TRUE)"
+  },
+  {
+    "row": 86,
+    "rowsha": "Vz6Samj4eql3f/07h4Gq8G3rdLefE5+QZpWEkF7F36Q=",
+    "originContent": "# imp_fors <- missForest(iris_mis, parallelize = \"forests\",  verbose = TRUE, num.threads = 2)",
+    "translatedContent": "# imp_fors <- missForest(iris_mis, parallelize = \"forests\",  verbose = TRUE, num.threads = 2)"
+  },
+  {
+    "row": 87,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "hKdVj+st20delsiFHeO43ly0PqbhmeL/S6ypcpiZP4U=",
+    "originContent": "## API overview",
+    "translatedContent": "## Vue d'ensemble de l'API"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "KSCH+hZu4yqWf+NPhxWDYbZ8MjAF7uSdBDs3SGUxTQY=",
+    "originContent": "### `missForest(xmis, ...)`",
+    "translatedContent": "### `missForest(xmis, ...)`"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "pY07BAkZdqacfQtzecQ3DJGxo4aN4yPyHaotpb9fMJ0=",
+    "originContent": "Core imputation function.",
+    "translatedContent": "Fonction principale d'imputation."
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "g/co8j6XUTSclwVVZns62PpdBRMuVyRFZJRSzXDuZE8=",
+    "originContent": "Key arguments:",
+    "translatedContent": "Arguments clés :"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "jL/x6Fz0dbzsmypaoAY1cMKOclQnTXk5mz00iRLTBR0=",
+    "originContent": "* `xmis` — data frame/matrix with missing values (columns must be `numeric` or `factor`).",
+    "translatedContent": "* `xmis` — data frame/matrice avec valeurs manquantes (les colonnes doivent être `numeric` ou `factor`)."
+  },
+  {
+    "row": 100,
+    "rowsha": "If4SF8hDkP/w8jJC/20wT6h5YhHEMHUn5OTlRa1kI8g=",
+    "originContent": "* `maxiter` — maximum iterations (default `10`).",
+    "translatedContent": "* `maxiter` — nombre maximal d'itérations (par défaut `10`)."
+  },
+  {
+    "row": 101,
+    "rowsha": "/PnoHYZsZdrBcpGmg5XS0n+D+WA87UUoUBDu4YCYoI4=",
+    "originContent": "* `ntree` — trees per forest (default `100`).",
+    "translatedContent": "* `ntree` — arbres par forêt (par défaut `100`)."
+  },
+  {
+    "row": 102,
+    "rowsha": "vIEc4oU9x0t4NR/fYW7LFrY5ur85wqpOnsPjnY1Eop0=",
+    "originContent": "* `mtry` — variables tried at each split (default `sqrt(p)`).",
+    "translatedContent": "* `mtry` — variables essayées à chaque division (par défaut `sqrt(p)`)."
+  },
+  {
+    "row": 103,
+    "rowsha": "ZgNqEzPG2zcB6BOVeG0cTISZDO0KEfML542ouXdJfOs=",
+    "originContent": "* `nodesize` — **length-2 numeric**: minimum node size for **c(numeric, factor)**. Default `c(5, 1)`.",
+    "translatedContent": "* `nodesize` — **numérique de longueur 2** : taille minimale des nœuds pour **c(numérique, facteur)**. Par défaut `c(5, 1)`."
+  },
+  {
+    "row": 104,
+    "rowsha": "1k0wbRQbQDO8PFknfqJT0L9Hs+Ri1juVktiwwnp+C+8=",
+    "originContent": "* `variablewise` — return per-variable OOB error if `TRUE`.",
+    "translatedContent": "* `variablewise` — retourne l'erreur OOB par variable si `TRUE`."
+  },
+  {
+    "row": 105,
+    "rowsha": "x/C/C2MD6K7W7Cp5s5DIiQBsRT83DANaxEANKoCNkaQ=",
+    "originContent": "* `parallelize` — `\"no\"`, `\"variables\"`, or `\"forests\"`.",
+    "translatedContent": "* `parallelize` — `\"no\"`, `\"variables\"`, ou `\"forests\"`."
+  },
+  {
+    "row": 106,
+    "rowsha": "NYCEfXqJJXx1d/2vgUP2s1LiI+qpuXGGLnmHc6RSKMs=",
+    "originContent": "* `num.threads` — threads for `ranger` (ignored by `randomForest`).",
+    "translatedContent": "* `num.threads` — threads pour `ranger` (ignoré par `randomForest`)."
+  },
+  {
+    "row": 107,
+    "rowsha": "3n5wgY/huM3VqhDC8qPgOm1xOWv7+6ssDPFs3nMEAYQ=",
+    "originContent": "* `backend` — `\"ranger\"` (default) or `\"randomForest\"`.",
+    "translatedContent": "* `backend` — `\"ranger\"` (par défaut) ou `\"randomForest\"`."
+  },
+  {
+    "row": 108,
+    "rowsha": "15kjxz+KCZvxXQqu1nDj9D/P+oeYF4KiXSAxw2ib+X0=",
+    "originContent": "* `xtrue` — optional complete data for **benchmarking** (adds `$error`).",
+    "translatedContent": "* `xtrue` — données complètes optionnelles pour **benchmark** (ajoute `$error`)."
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "8eHZGhV5reKNX4PrSdrLeI3bNZ2QjSjPwJ/khknoarI=",
+    "originContent": "Some argument mappings for `backend = \"ranger\"`:",
+    "translatedContent": "Quelques correspondances d'arguments pour `backend = \"ranger\"` :"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "XZxxKzhzFLTbkPaScYbenFiu7qNU5TuCTlLwDkCT+J4=",
+    "originContent": "* `ntree → num.trees`",
+    "translatedContent": "* `ntree → num.trees`"
+  },
+  {
+    "row": 113,
+    "rowsha": "W8BQ6LHOfWSl1tblcECe6wLh058Di8APEnoe1+xnUgU=",
+    "originContent": "* `nodesize → min.bucket` (separately for regression/classification; default `c(5,1)`)",
+    "translatedContent": "* `nodesize → min.bucket` (séparément pour régression/classification ; par défaut `c(5,1)`)"
+  },
+  {
+    "row": 114,
+    "rowsha": "MnEibNsloH+jw3VJ/LHRIDrthN29xl+mNrFUEVSuSi4=",
+    "originContent": "* `sampsize` (counts) → `sample.fraction` (fractions; overall or per-class)",
+    "translatedContent": "* `sampsize` (comptes) → `sample.fraction` (fractions ; global ou par classe)"
+  },
+  {
+    "row": 115,
+    "rowsha": "lQRv5KOROSG97lpXqJRwg/nR16XsT0Jl+KHFUsvSQ0Q=",
+    "originContent": "* `classwt → class.weights`",
+    "translatedContent": "* `classwt → class.weights`"
+  },
+  {
+    "row": 116,
+    "rowsha": "PwhZcqxDAt1DdYit8WOmcKTA+Bzo+IsqgorRkwR/rgk=",
+    "originContent": "* `cutoff` handled by fitting **probability forests** and post-thresholding",
+    "translatedContent": "* `cutoff` géré en ajustant des **forêts de probabilité** puis post-seuillage"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "CMj8oo3YwE9CF+KpT+zwXU1SGJkScqoB44lhh7CgcFI=",
+    "originContent": "### Utilities",
+    "translatedContent": "### Utilitaires"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "sJkX+NDYqM+pCSrUu1fsZp+5j0AfDtIlqm0DpQaDmic=",
+    "originContent": "* `mixError(ximp, xmis, xtrue)` — computes **NRMSE** (numeric) and **PFC** (factor) over true missing entries.",
+    "translatedContent": "* `mixError(ximp, xmis, xtrue)` — calcule le **NRMSE** (numérique) et le **PFC** (facteur) sur les entrées manquantes réelles."
+  },
+  {
+    "row": 121,
+    "rowsha": "h1bhpyrQ69gOGL+2vtw9ogVcwSWuK4QceTv2KW3mitQ=",
+    "originContent": "* `nrmse(ximp, xmis, xtrue)` — NRMSE for continuous-only data.",
+    "translatedContent": "* `nrmse(ximp, xmis, xtrue)` — NRMSE pour données uniquement continues."
+  },
+  {
+    "row": 122,
+    "rowsha": "0+WK6DUL5rR0sDRXzaQTEocSMjB9KUv7heaGANi0FW8=",
+    "originContent": "* `prodNA(x, noNA = 0.1)` — injects MCAR missingness into a data frame.",
+    "translatedContent": "* `prodNA(x, noNA = 0.1)` — injecte des valeurs manquantes MCAR dans un data frame."
+  },
+  {
+    "row": 123,
+    "rowsha": "5LirCzw8IM4eGe48Gs8YxhEarDMCkmG3FJX/ggXQAs0=",
+    "originContent": "* `varClass(x)` — returns `\"numeric\"`/`\"factor\"` per column.",
+    "translatedContent": "* `varClass(x)` — retourne `\"numeric\"`/`\"factor\"` par colonne."
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "AorgqpzkebziYgQ6Yvh+ERxD2DnMy6PU36UHriRqq8s=",
+    "originContent": "## Tips & best practices",
+    "translatedContent": "## Conseils & bonnes pratiques"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "UKUWwg23OI3He05gkgEhGDwNH8d6BNNUGaW19YAhPfA=",
+    "originContent": "* Convert character columns to factors before calling `missForest`.",
+    "translatedContent": "* Convertir les colonnes de caractères en facteurs avant d'appeler `missForest`."
+  },
+  {
+    "row": 130,
+    "rowsha": "Tfy/gCsz/LyP3jFzhdH+g5jg63qsGbaz27nDoA/PbB0=",
+    "originContent": "* For wide data, consider `parallelize = \"variables\"`. For deep/expensive trees, consider `parallelize = \"forests\"`.",
+    "translatedContent": "* Pour les données larges, envisager `parallelize = \"variables\"`. Pour les arbres profonds/coûteux, envisager `parallelize = \"forests\"`."
+  },
+  {
+    "row": 131,
+    "rowsha": "VZC9JGFgcQiaO2cfKCtvbcH4dx4jOTE9NLba5YGHxHc=",
+    "originContent": "* Set a seed for quasi-reproducible results:",
+    "translatedContent": "* Définir une graine pour des résultats quasi-reproductibles :"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "wPmp1JT/dbkxkaCYNfHX8RaH48lxh06802Q4MLlCGj0=",
+    "originContent": "  ```r",
+    "translatedContent": "  ```r"
+  },
+  {
+    "row": 134,
+    "rowsha": "OwSnPZl//xJrIaEiPmjAhk/x+LXFSfzavhwdvqiWFck=",
+    "originContent": "  set.seed(123); imp <- missForest(x)",
+    "translatedContent": "  set.seed(123); imp <- missForest(x)"
+  },
+  {
+    "row": 135,
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
+  },
+  {
+    "row": 136,
+    "rowsha": "ZLwsfXu87V8cPVDm3rdHBKUVjuAkpLkEp26/PTqQN/E=",
+    "originContent": "* You can lower `ntree` during prototyping to speed up iteration.",
+    "translatedContent": "* Vous pouvez réduire `ntree` lors du prototypage pour accélérer les itérations."
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "ZwTp5ajUmpHTJefyHhIKzXcG2wnB1jv8iv8cvmdcb/g=",
+    "originContent": "## Citation",
+    "translatedContent": "## Citation"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "tlD6UrsPhnqns3moN+NGw4qxdWid9oCJLpdoKc74bmo=",
+    "originContent": "If you use **missForest**, please cite:",
+    "translatedContent": "Si vous utilisez **missForest**, veuillez citer :"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "Lyn5Tv27+uICsOhex3+yaAaJCLSMeUWqOOzMhmI9shw=",
+    "originContent": "* Stekhoven, D. J. & Bühlmann, P. (2012). *MissForest—nonparametric missing value imputation for mixed-type data.* **Bioinformatics**, 28(1), 112–118. [https://doi.org/10.1093/bioinformatics/btr597](https://doi.org/10.1093/bioinformatics/btr597)",
+    "translatedContent": "* Stekhoven, D. J. & Bühlmann, P. (2012). *MissForest—imputation non paramétrique des valeurs manquantes pour des données de type mixte.* **Bioinformatics**, 28(1), 112–118. [https://doi.org/10.1093/bioinformatics/btr597](https://doi.org/10.1093/bioinformatics/btr597)"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "8p2xmwZ/P5d9Z2BEYXqZybrmbuv2gVYc1fjjpejgjBg=",
+    "originContent": "You can also cite the package:",
+    "translatedContent": "Vous pouvez également citer le package :"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "QbM3JeUB4iTPp3Ls1AmmSvwdt3rcy8awHcxG8hWopQg=",
+    "originContent": "```r",
+    "translatedContent": "```r"
+  },
+  {
+    "row": 149,
+    "rowsha": "JqFFNsLPPICdQh91iuL3l7ZuJlRsoFNshQvdyUQ+jjM=",
+    "originContent": "citation(\"missForest\")",
+    "translatedContent": "citation(\"missForest\")"
+  },
+  {
+    "row": 150,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## Contributing"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "k5jEEa4cfbvpNoVh/e86Qv3cHVlUfuzZXfZgcq1sRZM=",
+    "originContent": "Issues and pull requests are welcome. Please include a minimal reproducible example when reporting bugs. For performance discussions, share small benchmarks and session info.",
+    "translatedContent": "Issues and pull requests are welcome. Please include a minimal reproducible example when reporting bugs. For performance discussions, share small benchmarks and session info."
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "RPZ3nf3B8u5SKKKs/KGG7KzTryuVYaRuHfAwwXQ5fCw=",
+    "originContent": "GPL (≥ 2)",
+    "translatedContent": "GPL (≥ 2)"
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "ZX9nbduzXgvmAaK8yTd+tNgwR7cV79HXV/+xbvL8suw=",
+    "originContent": "## Contact",
+    "translatedContent": "## Contact"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "4ExGzrZn6yA2fSimk8pbzaZ1baTdnXBbVnjOEX2dKvo=",
+    "originContent": "Daniel J. Stekhoven — [stekhoven@nexus.ethz.ch](https://raw.githubusercontent.com/stekhoven/missForest/master/mailto:stekhoven@nexus.ethz.ch)",
+    "translatedContent": "Daniel J. Stekhoven — [stekhoven@nexus.ethz.ch](https://raw.githubusercontent.com/stekhoven/missForest/master/mailto:stekhoven@nexus.ethz.ch)"
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
