@@ -1,0 +1,1040 @@
+[
+  {
+    "row": 1,
+    "rowsha": "MsaG/DG2s+HEAeM7dQGLwKiqrr+qTp70CCm0zndfVus=",
+    "originContent": "# HDD Fan control",
+    "translatedContent": "# HDDファン制御"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "uwWtksZzrsEj85KDjQCCWGMrubHzKUkqZ+B8FMZlYCw=",
+    "originContent": "[![CI status](https://img.shields.io/github/actions/workflow/status/desbma/hddfancontrol/ci.yml)](https://github.com/desbma/hddfancontrol/actions)",
+    "translatedContent": "[![CIステータス](https://img.shields.io/github/actions/workflow/status/desbma/hddfancontrol/ci.yml)](https://github.com/desbma/hddfancontrol/actions)"
+  },
+  {
+    "row": 4,
+    "rowsha": "F/uwLy5xz9eYJy2FWidQDhSK2L+///S4owUATHRz/sk=",
+    "originContent": "[![crates.io version](https://img.shields.io/crates/v/hddfancontrol)](https://crates.io/crates/hddfancontrol)",
+    "translatedContent": "[![crates.ioバージョン](https://img.shields.io/crates/v/hddfancontrol)](https://crates.io/crates/hddfancontrol)"
+  },
+  {
+    "row": 5,
+    "rowsha": "zZms7g3vRDbQGaEgokiNGgg5FBHcT+vWkNdFQnsI39E=",
+    "originContent": "[![AUR version](https://img.shields.io/aur/version/hddfancontrol.svg?style=flat)](https://aur.archlinux.org/packages/hddfancontrol/)",
+    "translatedContent": "[![AURバージョン](https://img.shields.io/aur/version/hddfancontrol.svg?style=flat)](https://aur.archlinux.org/packages/hddfancontrol/)"
+  },
+  {
+    "row": 6,
+    "rowsha": "7vP2D6YILqbJoE9lVJT4aqP/CMbA6mQrfEQloPoHjkw=",
+    "originContent": "[![License](https://img.shields.io/github/license/desbma/hddfancontrol.svg?style=flat)](https://github.com/desbma/hddfancontrol/blob/master/LICENSE)",
+    "translatedContent": "[![ライセンス](https://img.shields.io/github/license/desbma/hddfancontrol.svg?style=flat)](https://github.com/desbma/hddfancontrol/blob/master/LICENSE)"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "ZEOTtMdEwRoxsmMDaVpd1IkVcb42Cylcy2FufLVgB8Y=",
+    "originContent": "Since version 2.0, this tool has been rewritten in Rust. The previous Python version can be found in the [v1 branch](https://github.com/desbma/hddfancontrol/tree/v1). See [Migrating from v1.x](#migrating-from-v1x) for migration.",
+    "translatedContent": "バージョン2.0以降、このツールはRustで書き直されました。以前のPython版は[v1ブランチ](https://github.com/desbma/hddfancontrol/tree/v1)で見つけることができます。移行については[バージョン1.xからの移行](#migrating-from-v1x)を参照してください。"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "fUY/LcmtLG46RMYmKUAumGjrQGL4BKcpnS/7H0ueLnA=",
+    "originContent": "HDD Fan control is a command line tool to dynamically control fan speed according to hard drive temperature on Linux.",
+    "translatedContent": "HDDファン制御は、Linux上でハードドライブの温度に応じてファン速度を動的に制御するコマンドラインツールです。"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "KSojAgyJp1ZdEJkVqhH50FHTAftQTGHPQC08rZEsSJ4=",
+    "originContent": "This has 3 benefits:",
+    "translatedContent": "これには3つの利点があります："
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "xaRzuR05TbGFTvMkA9MfApnY9RsF1wfQTMIwbZK1gB0=",
+    "originContent": "- it allows maintaining your hard drives in the ideal temperature range to have maximum longevity and avoid overheating",
+    "translatedContent": "- ハードドライブを理想的な温度範囲に保ち、最大の寿命を維持し過熱を防止できます"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "TA1hS3OS2oITUxB346PjmiqBA2kHpjUqlxvhETXMpso=",
+    "originContent": "Because fans will slow down or stop when not needed:",
+    "translatedContent": "ファンは不要なときに減速または停止するため："
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "PT57AJAs19Aa3YEDw7RhG1cirrKcODtOgwfzy/IBgKM=",
+    "originContent": "- it minimizes noise generated by the fans",
+    "translatedContent": "- ファンから発生する騒音を最小限に抑えます"
+  },
+  {
+    "row": 23,
+    "rowsha": "bLipMpAXywPycF+0ikFVzY8zKrXCJ1VCFNldc8btq8c=",
+    "originContent": "- it minimizes power consumption at the same time",
+    "translatedContent": "- 同時に消費電力も最小限に抑えます"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "rKT/xrT3048abwojq7dMp0PtHWh9qjV2b61PFz604ro=",
+    "originContent": "## Table of content",
+    "translatedContent": "## 目次"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "3PXHOTKgLlvkHGp5g037sEJ5ve4XaGQ6ZLrZ0KgCIUE=",
+    "originContent": "- [When is this useful?](#when-is-this-useful)",
+    "translatedContent": "- [いつ役立つのか？](#when-is-this-useful)"
+  },
+  {
+    "row": 28,
+    "rowsha": "BI+Zz2NbZ0AX7YgD9EjinH4VCYulypQnBww5RTqTSDI=",
+    "originContent": "- [Features](#features)",
+    "translatedContent": "- [機能](#features)"
+  },
+  {
+    "row": 29,
+    "rowsha": "LkonNtZhFUHPWyu6Cn4cETMO6de7OmFiqwZwPbHI/z0=",
+    "originContent": "- [Prerequisites](#prerequisites)",
+    "translatedContent": "- [前提条件](#prerequisites)"
+  },
+  {
+    "row": 30,
+    "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+    "originContent": "- [Installation](#installation)",
+    "translatedContent": "- [インストール](#installation)"
+  },
+  {
+    "row": 31,
+    "rowsha": "yhbC+PI1BGf4JZm2h6h84kNu+16w8vuea0oVfmOmWW0=",
+    "originContent": "  - [Distribution packages](#distribution-packages)",
+    "translatedContent": "  - [ディストリビューションパッケージ](#distribution-packages)"
+  },
+  {
+    "row": 32,
+    "rowsha": "+Mf5X9raHDLK/nNRo9prtkcuaPemsvhxesvCxIQ4X0I=",
+    "originContent": "  - [From source](#from-source)",
+    "translatedContent": "  - [ソースから](#from-source)"
+  },
+  {
+    "row": 33,
+    "rowsha": "CMDXxvgYRLE9tGhh0i56JO4QvwIQJhFMEjLEiYa+0Wc=",
+    "originContent": "- [Configuration](#configuration)",
+    "translatedContent": "- [設定](#configuration)"
+  },
+  {
+    "row": 34,
+    "rowsha": "va/vZp7ddUawqiLth2tWfR/npsnYpuICnUzSEtd9U4w=",
+    "originContent": "  - [A word of caution](#a-word-of-caution)",
+    "translatedContent": "  - [注意事項](#a-word-of-caution)"
+  },
+  {
+    "row": 35,
+    "rowsha": "TpCG3HKmp/67GEXkD5++7y5v6Qmd7FVs+bMOpqP5kVc=",
+    "originContent": "  - [Fan configuration](#fan-configuration)",
+    "translatedContent": "  - [ファン設定](#fan-configuration)"
+  },
+  {
+    "row": 36,
+    "rowsha": "LFurGVC0dnsWKSFLQhF7fbCdK0N1VJTDWZm6a/nmOjk=",
+    "originContent": "- [Changelog](#changelog)",
+    "translatedContent": "- [更新履歴](#changelog)"
+  },
+  {
+    "row": 37,
+    "rowsha": "84/iS7Z2+0oyZu+It1JT6EqG6ooLDZJ1V4pm4uYs23A=",
+    "originContent": "  - [Migrating from v1.x](#migrating-from-v1x)",
+    "translatedContent": "  - [バージョン1.xからの移行](#migrating-from-v1x)"
+  },
+  {
+    "row": 38,
+    "rowsha": "WLPkGnCwGtXovGdJIHlZFt/gKxemI51WxZXT8CFBrjw=",
+    "originContent": "- [Command line usage](#command-line-usage)",
+    "translatedContent": "- [コマンドライン使用法](#command-line-usage)"
+  },
+  {
+    "row": 39,
+    "rowsha": "uVHHRFLi4k6C4yKpBTuATZ78jJ3bifuiIEYDbJtaFho=",
+    "originContent": "- [systemd service](#systemd-service)",
+    "translatedContent": "- [systemdサービス](#systemd-service)"
+  },
+  {
+    "row": 40,
+    "rowsha": "aiElU+9O/5KGvOFd7CcJXGSaQL0/8Fg5sGxP7wVVzv4=",
+    "originContent": "- [License](#license)",
+    "translatedContent": "- [ライセンス](#license)"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## これはいつ役立つのか？"
+  },
+  {
+    "row": 42,
+    "rowsha": "T0bIQZbNigk5DJW9EAvKRXRwu9weJ2z8pDgbRh9S/U8=",
+    "originContent": "## When is this useful?",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "HDDファン制御は、1台または複数のハードドライブの近くに1台または複数のファンがあり、マザーボードにファン速度を制御させたくない場合に役立ちます。マザーボードはファン速度を静的に制御するか、実際のドライブ温度とは関係のない温度センサー（CPU上またはマザーボードの他の場所）を使って制御するためです。"
+  },
+  {
+    "row": 44,
+    "rowsha": "5EkjLnSQTrjpwB0Yzts1lCew/AVyFFUem2Sj30S23GM=",
+    "originContent": "HDD Fan control is useful when you have one or several hard drives with one or several fans close to them, and do not want to let the motherboard control the fan speed, because it does so either statically, or using a temperature sensor unrelated to the real drive temperature (either on the CPU or on some other place on the motherboard).",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "理想的な使用例は、複数のハードドライブを搭載したNASで、低消費電力CPU（例えばARMやIntel Atom）をパッシブ冷却（ファンなし）で使用し、シャーシにハードドライブ近くにファンがある場合です。この場合、CPUはハードドライブよりも熱をあまり発生しないため、主要な熱源に応じてファン速度を制御するのが理にかなっています。"
+  },
+  {
+    "row": 46,
+    "rowsha": "GGpYyNaqCfDzH+g7TGVUMzrAOPDQJp0Y0DDtYnnqGlo=",
+    "originContent": "The ideal use case is for a NAS with several hard drives, a low power CPU (ie. ARM or Intel Atom) with passive cooling (no fans), and a chassis with fans close to the hard drive. It that case the CPU will generate less heat than the hard drives and it makes sense to control fan speed according to the main heat source.",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 特長"
+  },
+  {
+    "row": 48,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 複数のファンおよび／または複数のドライブを一度の呼び出しで制御可能"
+  },
+  {
+    "row": 50,
+    "rowsha": "HCsS9oFaluE9tL3KsqmZq8Ri7wf1U7VPrdY7MJcNvtc=",
+    "originContent": "- Can control several fans and/or several drives with a single invocation",
+    "translatedContent": "- 温度取得方法を6通りサポート："
+  },
+  {
+    "row": 51,
+    "rowsha": "bpFgZvvklu4+fz/5CRw3gQXvP0UU3wHur0CwN8waAPQ=",
+    "originContent": "- Supports 6 different ways of querying temperature:",
+    "translatedContent": "  - `hddtemp`呼び出し"
+  },
+  {
+    "row": 52,
+    "rowsha": "TAc/DLeVKU3YUVkZwD+sG1m1AKF02tBYPqSB1EjD/0Y=",
+    "originContent": "  - `hddtemp` invocation",
+    "translatedContent": "  - `hddtemp`デーモンクエリ"
+  },
+  {
+    "row": 53,
+    "rowsha": "/6W0p49Ij18h1dAxh5dmwo95S04/uSoIhocSSszuUYk=",
+    "originContent": "  - `hddtemp` daemon query",
+    "translatedContent": "  - `hdparm`呼び出し"
+  },
+  {
+    "row": 54,
+    "rowsha": "7BmwfZUHjFQhpscfSWT3T7Jaldn253WKu3UsQIENgSQ=",
+    "originContent": "  - `hdparm` invocation",
+    "translatedContent": "  - `smartctl`呼び出し（SCT）"
+  },
+  {
+    "row": 55,
+    "rowsha": "UZSg1uJxJUFHDYnX3OD63ZI9aT7XPXElHvcW9LLPm8c=",
+    "originContent": "  - `smartctl` invocation (SCT)",
+    "translatedContent": "  - `smartctl`呼び出し（SMART属性）"
+  },
+  {
+    "row": 56,
+    "rowsha": "Zvv8/+fZUXz4nUQTRTmuVbIB6Wmc8D33C2Vp9axOJqo=",
+    "originContent": "  - `smartctl` invocation (SMART attributes)",
+    "translatedContent": "  - `drivetemp`ネイティブカーネルhwmon"
+  },
+  {
+    "row": 57,
+    "rowsha": "AGJxA/qvpiMiMPZQ3ReWItfH/MFfPKGqDryNzykuSec=",
+    "originContent": "  - `drivetemp` native kernel hwmon",
+    "translatedContent": "- 異なるファン特性に適応可能"
+  },
+  {
+    "row": 58,
+    "rowsha": "+OBqL+M9leL/nJC07wIJKZJd3wKz3VNtBJo2ev8wb1k=",
+    "originContent": "- Can adapt to different fan characteristics",
+    "translatedContent": "- ニーズに合わせてカスタマイズ可能："
+  },
+  {
+    "row": 59,
+    "rowsha": "71QcbM9ScAO7l2nb18jsQZR6ZfnBfsMwuhklPnWhSaw=",
+    "originContent": "- Can be customized to your needs:",
+    "translatedContent": "  - カスタマイズ可能な温度でファンを停止または全速で動作させる"
+  },
+  {
+    "row": 60,
+    "rowsha": "J/o0ABTvYlTyAsxQtK+SGh5m6PEBRzf3PzFVh8dCOvo=",
+    "originContent": "  - to stop fans or run them at full speed at customizable temperatures",
+    "translatedContent": "  - ファン速度を一定の下限以下に設定しない（HDDファン制御がシャーシ内で唯一のファン制御の場合に有用）"
+  },
+  {
+    "row": 61,
+    "rowsha": "fM9F6gdvEMBXjByjmYuXv95qQEmLTwrg+2wEAZ6RGT0=",
+    "originContent": "  - to never set the fans below a certain speed (useful if the fans controlled by HDD Fan control are the only ones available in the chassis)",
+    "translatedContent": "- オプションでCPU温度も監視し、それに応じてファン速度を制御可能"
+  },
+  {
+    "row": 62,
+    "rowsha": "HZpJdbRAFwjbW/f+4Da4WcMZB5YHHzCMd53qtkqr/pE=",
+    "originContent": "- Can also optionally monitor CPU temperature, and control fan speed accordingly",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 前提条件"
+  },
+  {
+    "row": 64,
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Linuxディストリビューション"
+  },
+  {
+    "row": 66,
+    "rowsha": "StgYBZy29WJGsJoa8jZRtEdMV9c8cx5LmDe6x1MnuAA=",
+    "originContent": "- A Linux distribution",
+    "translatedContent": "- 少なくとも1台のSATA/SAS\\*ハードドライブで、以下をサポートしていること："
+  },
+  {
+    "row": 67,
+    "rowsha": "3VD1WiQNMZIIiExx4XDIUasC3PigovQPcMRLzqWsQ/o=",
+    "originContent": "- A least one SATA/SAS\\* hard drive, that supports:",
+    "translatedContent": "  - 温度クエリ"
+  },
+  {
+    "row": 68,
+    "rowsha": "NHcT1r+9Pm3mSuMTIDXeeoPIQFT+C1QJCYclq8TLOcE=",
+    "originContent": "  - Temperature querying",
+    "translatedContent": "  - 電源状態クエリ"
+  },
+  {
+    "row": 69,
+    "rowsha": "C20pDb1uabNtjIF0g5i5Ksf55XbonJOIj0v+VHpkSgc=",
+    "originContent": "  - Power state querying",
+    "translatedContent": "- マザーボードは以下をOSに公開していること："
+  },
+  {
+    "row": 70,
+    "rowsha": "gfJ19rWF1GogxC7v/xwEZjxjvmA7e7WQUQc2+7oKcDI=",
+    "originContent": "- A motherboard which:",
+    "translatedContent": "  - ファン速度制御用PWM"
+  },
+  {
+    "row": 71,
+    "rowsha": "hQYl8883u3CZ30jjii/hH+E4kg3PPM1jPe4EqoA1X/8=",
+    "originContent": "  - exposes to the OS a PWM to control fan speed",
+    "translatedContent": "  - ファン速度クエリ用センサー"
+  },
+  {
+    "row": 72,
+    "rowsha": "Tmvb9TrF/RjMkCKIklcTTDeLuhTDQNfGpcOomj5A1xM=",
+    "originContent": "  - exposes to the OS a sensor to query fan speed",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "ほとんどのマザーボードおよびSATAドライブはこれらの要件に適合します。"
+  },
+  {
+    "row": 74,
+    "rowsha": "4jHVQLm2GDllHTtfmwGW2fIdTJlUyidniULyidvy0HY=",
+    "originContent": "Most motherboards and SATA drives fit these requirements.",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "\\* SASドライブで`hddfancontrol`が良好に動作したとの報告はいくつかありますが、SATAよりテストは少なめです。"
+  },
+  {
+    "row": 76,
+    "rowsha": "cKe66BgxJ0v8pIzSbcNos4BzXN8Rl37jF+biC0FpZ2U=",
+    "originContent": "\\* There has been several reports of `hddfancontrol` working well with SAS drives, however this has been less tested than SATA.",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 78,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ディストリビューションパッケージ"
+  },
+  {
+    "row": 80,
+    "rowsha": "/KriMSIe1DyDQNWcz4M3Dvu87FWvNtiTB+F7dzvYhq4=",
+    "originContent": "### Distribution packages",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "VaqagDr23fOEA2shyTTks/ELPyJS9KNe68WoICkGtFQ=",
+    "originContent": "Some Linux distributions have a hddfancontrol package available in their repository:",
+    "translatedContent": "いくつかのLinuxディストリビューションでは、リポジトリにhddfancontrolパッケージが用意されています："
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "LPnI7CGBPGIeXp5aFocUhSq0cNszlv7Lnvl3aTGdjI0=",
+    "originContent": "- Alpine Linux (testing): [hddfancontrol](https://pkgs.alpinelinux.org/package/edge/testing/x86_64/hddfancontrol)",
+    "translatedContent": "- Alpine Linux（テスト版）：[hddfancontrol](https://pkgs.alpinelinux.org/package/edge/testing/x86_64/hddfancontrol)"
+  },
+  {
+    "row": 85,
+    "rowsha": "wIwf5KQR/11BEQj92PcQbWlVx4mbJ+bAT9cNlTU4TWk=",
+    "originContent": "- Arch Linux (AUR): [hddfancontrol](https://aur.archlinux.org/packages/hddfancontrol/)",
+    "translatedContent": "- Arch Linux（AUR）：[hddfancontrol](https://aur.archlinux.org/packages/hddfancontrol/)"
+  },
+  {
+    "row": 86,
+    "rowsha": "OnpBCaZJP1McX6ew2WmuM9Z4iwmoju9jEFqY6xQlq2M=",
+    "originContent": "- Fedora: [hddfancontrol](https://packages.fedoraproject.org/pkgs/hddfancontrol/hddfancontrol/)",
+    "translatedContent": "- Fedora：[hddfancontrol](https://packages.fedoraproject.org/pkgs/hddfancontrol/hddfancontrol/)"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "6B0s7SunokTx33m1g40Q5WLBBCwFA37dukHK8urzCec=",
+    "originContent": "See [GitHub releases](https://github.com/desbma/hddfancontrol/releases) for other packages/binaries built for each tagged version.",
+    "translatedContent": "各タグ付けバージョン用にビルドされた他のパッケージやバイナリは[GitHubのリリース](https://github.com/desbma/hddfancontrol/releases)をご覧ください。"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "0oUPV6jIxHMtjc/3YyA/4fctwLLumTsCsZAewC4f0fw=",
+    "originContent": "### From source",
+    "translatedContent": "### ソースから"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "NmLq0J7+MJn7VIPP9XQVD9yT8N6sPh1WBYBo8MKCIeM=",
+    "originContent": "You need a Rust build environment for example from [rustup](https://rustup.rs/).",
+    "translatedContent": "[rustup](https://rustup.rs/)などでRustのビルド環境が必要です。"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "sZ1g3I2dcz+Oc8HTOveMDoOkS/MivvMNg0YV6lV7Z6I=",
+    "originContent": "Run in the current repository:",
+    "translatedContent": "現在のリポジトリで以下を実行してください："
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 97,
+    "rowsha": "QbRskjoJo1EyPe3xomSnbIj+llmIagYeZojksq7EuPs=",
+    "originContent": "cargo build --release",
+    "translatedContent": "cargo build --release"
+  },
+  {
+    "row": 98,
+    "rowsha": "q9gfovf2HfCIA+rwe97+0H0M1KzigPIT/QpN9K40GbM=",
+    "originContent": "install -Dm 755 -t /usr/local/bin target/release/hddfancontrol",
+    "translatedContent": "install -Dm 755 -t /usr/local/bin target/release/hddfancontrol"
+  },
+  {
+    "row": 99,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "RWeq2jV2MJdq76SJl02w8mzI0Ff8M+lmqjDf864b3Mg=",
+    "originContent": "Also install [hdparm](http://sourceforge.net/projects/hdparm/), [smartctl](https://www.smartmontools.org/), [sdparm](https://sg.danny.cz/sg/sdparm.html) (for SAS drive support), and optionally [hddtemp](http://www.guzu.net/linux/hddtemp.php).",
+    "translatedContent": "また、[hdparm](http://sourceforge.net/projects/hdparm/)、[smartctl](https://www.smartmontools.org/)、[sdparm](https://sg.danny.cz/sg/sdparm.html)（SASドライブ対応用）、およびオプションで[hddtemp](http://www.guzu.net/linux/hddtemp.php)をインストールしてください。  "
+  },
+  {
+    "row": 102,
+    "rowsha": "a0ys3ejPzQnH54tyhEzhSmPU4TEYKphHNQJyiM0m/08=",
+    "originContent": "On recent Ubuntu and other Debian derivatives: `sudo apt install hdparm sdparm smartmontools`.",
+    "translatedContent": "最近のUbuntuやその他のDebian派生ディストリビューションでは、`sudo apt install hdparm sdparm smartmontools` を実行します。"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "RGEH7r00pWHcZ9VkXDtStiqqAxzIrQPw8OSYux5Nfzw=",
+    "originContent": "See [systemd service](#systemd-service) to easily manage the daemon.",
+    "translatedContent": "デーモンの管理を簡単に行うには、[systemdサービス](#systemd-service)を参照してください。"
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "hQQrV5p1J75Jdvm55DrK4kYNqmvw+Zqqdbwx60fsEzY=",
+    "originContent": "### From [`crates.io`](https://crates.io/)",
+    "translatedContent": "### [`crates.io`](https://crates.io/)からのインストール"
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "/QZBmGxn3BcxfYb2lYOuBsstOikI0kuOlfUmXM/0Z2k=",
+    "originContent": "sudo cargo install --root /usr/local",
+    "translatedContent": "sudo cargo install --root /usr/local"
+  },
+  {
+    "row": 110,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 設定"
+  },
+  {
+    "row": 112,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 注意事項"
+  },
+  {
+    "row": 114,
+    "rowsha": "+o3ZBtzo0qQlnxxnzexSjOfDQy+xaR7Yara4T6rgeko=",
+    "originContent": "### A word of caution",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "デフォルトのパラメータでは、温度が50°Cを超えるとファンを100%の速度で回し、30°C未満の場合は20%の速度で回します。これは一般的に推奨されるドライブの動作温度に対応しています。システム内に大きな熱を発生させる他のコンポーネントがないことを確信している場合、他のファンでシステムを冷却している場合、またはパッシブ冷却に最適化されたケースを使用している場合は、最小速度を0%に設定できます。これにより温度が最小閾値を下回るとファンが停止します。"
+  },
+  {
+    "row": 116,
+    "rowsha": "0YFrDpXJThtkAXdyAkH0OW1cxTqDX4TL089Z+IK8PKc=",
+    "originContent": "The default parameters will run fans at 100% speed at temperatures > 50°C, and run them a 20% speed if < 30°C, which corresponds to the usual recommended drive operating temperature. If you are sure that there are no other components in your system that generate significant heat, if you have other fans to cool down your system, or if you have a case optimized for passive cooling, you can set minimum speed to 0%, which will stop the fans if temperature is below the minimum threshold.",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**このツールの設定ミスは、システムの冷却不良を引き起こし、コンポーネントに損傷を与えたり寿命を短くする可能性があることに注意してください。**"
+  },
+  {
+    "row": 118,
+    "rowsha": "gHLDOftGBcwOqfL6e85RbYh9MXWnWn4tQ7CKew8jUwA=",
+    "originContent": "**Be aware that a misconfiguration of this tool can lead to a failure to cool down your system properly which can damage components or reduce their lifetime.**",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "長時間無監視でHDDファン制御を使用する前に、安全のために最低ファンスピードを維持し、システムの温度が期待通りの範囲内にあることを確認することをお勧めします。"
+  },
+  {
+    "row": 120,
+    "rowsha": "BfZqtYmO1L/fiJ+2kg2yiMcPBBAD22GDB8l9OzEutDg=",
+    "originContent": "Before using HDD Fan control unmonitored for long period of time, I recommend keeping a minimum fan speed for security, and checking that the temperature of your system stays in reasonable range as expected.",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ファンの設定"
+  },
+  {
+    "row": 122,
+    "rowsha": "Lad4gg3h2jbt7sDJJjkO7UUCmISw8h5OKGLz3RsVS6c=",
+    "originContent": "### Fan configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`--pwm` パラメータの開始/停止値を取得するには、以下のいずれかを行います："
+  },
+  {
+    "row": 124,
+    "rowsha": "mNIY1quJjclbSSI2v4wWWKEAuOTHF9PNyokpu1YpNl4=",
+    "originContent": "To get the start/stop values for the `--pwm` parameter, you can either:",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `pwm-test` コマンド（`hddfancontrol pwm-test ...`）を使用してテストを実行し、ファンが開始および停止する値を検出します。ただし、事前にPWMファイル（`--pwm` パラメータ）を特定しておく必要があります。"
+  },
+  {
+    "row": 126,
+    "rowsha": "k7+zFBWVkQGIDclc0Bu/M1HL7We+Fp0kPpoI2FPbags=",
+    "originContent": "- Use the `pwm-test` command (`hddfancontrol pwm-test ...`), which will run some tests and detect the values at which the fans start and stop. However you need to have previously identified the PWM file (the `--pwm` parameter)",
+    "translatedContent": "- [pwmconfigツール](http://www.lm-sensors.org/wiki/man/pwmconfig)を使用します。"
+  },
+  {
+    "row": 127,
+    "rowsha": "uJRms0PCsiTf80cbtQIRnrU2g0FmU6BgNc571fUgeNA=",
+    "originContent": "- use the [pwmconfig tool](http://www.lm-sensors.org/wiki/man/pwmconfig).",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 変更履歴"
+  },
+  {
+    "row": 129,
+    "rowsha": "sZNBxWTOjK92d5uVdMmWULuGrk66hbr3n+TVP60yreM=",
+    "originContent": "## Changelog",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "初版2以降のすべての変更については、[詳細な変更履歴](https://raw.githubusercontent.com/desbma/hddfancontrol/master/./CHANGELOG.md)をご覧ください。"
+  },
+  {
+    "row": 131,
+    "rowsha": "Bt06r7hgvXGEOeGDYRb2TkUMzFaUMo9FzynJgGVNDjk=",
+    "originContent": "See [detailed changelog](https://raw.githubusercontent.com/desbma/hddfancontrol/master/./CHANGELOG.md) for all changes since initial version 2.",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### v1.xからの移行"
+  },
+  {
+    "row": 133,
+    "rowsha": "t2+4DjWfz3/HswnmqSaNsoKQnreih2GH11VdLqFsxPs=",
+    "originContent": "### Migrating from v1.x",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "バージョン2では、`hddfancontrol` はRust言語で完全に書き直されました。バージョン1からの主な変更点は以下の通りです："
+  },
+  {
+    "row": 135,
+    "rowsha": "PDGmC/rd3X8MuzXxZTtTxCb4+01wIVO72TgzO4CIAWs=",
+    "originContent": "With version 2, `hddfancontrol` has been completely rewritten in the Rust language. The main changes coming from version 1 are:",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `hddfancontrol` はコンパイル済みバイナリとなり、Pythonインタプリタは不要になりました。"
+  },
+  {
+    "row": 137,
+    "rowsha": "UskBqA+c5zQZ0UpS3LRgZa9EW/yFy05KkPQiOGPVTpQ=",
+    "originContent": "- `hddfancontrol` is a compiled binary, and does not require a Python interpreter anymore.",
+    "translatedContent": "- コマンドライン引数が若干変更されており、手動で調整する必要があります。`hddfancontrol` の呼び出し時か、systemdサービス経由で使用している場合は `/etc/conf.d/hddfancontrol` ファイルで調整してください。参照は `hddfancontrol daemon -h` をご覧ください。"
+  },
+  {
+    "row": 138,
+    "rowsha": "9XGRHpEDdwS6KXecCDJ3g+6erMHcAoSQkClgKepF3Gk=",
+    "originContent": "- Command line arguments are slightly changed, and will required to be manually adjusted, either in your `hddfancontrol` invocations, or in the `/etc/conf.d/hddfancontrol` file if you use it through the systemd service. See `hddfancontrol daemon -h` for a reference.",
+    "translatedContent": "- 自動ドライブスピンダウン機能は削除されました。必要な場合は、[hd-idle](https://github.com/adelolmo/hd-idle)（同名のプロジェクトが複数あるので注意）を使用することをお勧めします。`hddfancontrol` と併用可能です。"
+  },
+  {
+    "row": 139,
+    "rowsha": "5A/1SWjfBBB2eLow+MdRgGtZVBYgsHYeD23a8vHdtsw=",
+    "originContent": "- The auto drive spin down feature has been removed. If you need it, I recommend using [hd-idle](https://github.com/adelolmo/hd-idle) (beware there are several similarly named projects), which works well alongside `hddfancontrol`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## コマンドライン使用法"
+  },
+  {
+    "row": 141,
+    "rowsha": "JocPL+ee1MFuKdnR3p4W2KaU+HgAewMceHhQCG04to8=",
+    "originContent": "## Command line usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`hddfancontrol -h` を実行すると、完全なコマンドラインリファレンスが表示されます。"
+  },
+  {
+    "row": 143,
+    "rowsha": "/ECESgfPAXASXQnyB34IpWwMpGICdP/2e7YB1duCyME=",
+    "originContent": "Run `hddfancontrol -h` to get full command line reference.",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "例として、以下のコマンドラインはHDDファン制御に対して以下を指示します："
+  },
+  {
+    "row": 145,
+    "rowsha": "ZMnPHHHKKi7OMxcgYs++6dyqTKFdlk9GoYR4uIgO1JA=",
+    "originContent": "As an example, the command line below will instruct HDD Fan control to:",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `/dev/sda` と `/dev/sdb` のドライブ温度を監視"
+  },
+  {
+    "row": 147,
+    "rowsha": "DVnb3tzvAv5WHuM1hZ7DDB7nQP39q++kqUljuPY3nFA=",
+    "originContent": "- monitor temperature of drives `/dev/sda` and `/dev/sdb`",
+    "translatedContent": "- `/sys/class/hwmon/hwmon1/device/` 内のPWM 2および3を使用してファンスピードを制御"
+  },
+  {
+    "row": 148,
+    "rowsha": "pzfp+VY1Bsx5rtZlinnPkgL5i7IKnAtfn/Cl5e1jhCY=",
+    "originContent": "- control fan speed using PWM 2 and 3 in `/sys/class/hwmon/hwmon1/device/`",
+    "translatedContent": "- 両方のファンをPWM値200で開始"
+  },
+  {
+    "row": 149,
+    "rowsha": "gccSeo8YM1fAf99fihB0IOtqowyGN1M2DOtzXTHpCxY=",
+    "originContent": "- start both fans using PWM value 200",
+    "translatedContent": "- ファンがPWM値75で停止すると見なす"
+  },
+  {
+    "row": 150,
+    "rowsha": "TSrBXfQeIAIUvnH41rYhcE3U+ShRHhU/YmMRvTfvi9o=",
+    "originContent": "- consider the fans will stop with PWM value 75",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "4E3M7YjiASEVq6YLC8Kwv+WK5Ap2UMZpWTnCbptkl8Q=",
+    "originContent": "- never run the fans below 10% of their maximum speed",
+    "translatedContent": "- ファンを最大速度の10%未満で動作させないこと  "
+  },
+  {
+    "row": 152,
+    "rowsha": "D9CwoijR+rvAISzyG6xzTdSyO5tiKcJfNyHotTu6N9A=",
+    "originContent": "- check temperature at least every minute",
+    "translatedContent": "- 温度を少なくとも毎分チェックすること  "
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "wtj5NlENEOL65XNBUIGeSl2SY7btNmJmhh5wuVNco+I=",
+    "originContent": "`hddfancontrol daemon -d /dev/sda /dev/sdb -p /sys/class/hwmon/hwmon1/device/pwm2:200:75 /sys/class/hwmon/hwmon1/device/pwm3:200:75 --min-fan-speed-prct 10 -i 1min`",
+    "translatedContent": "`hddfancontrol daemon -d /dev/sda /dev/sdb -p /sys/class/hwmon/hwmon1/device/pwm2:200:75 /sys/class/hwmon/hwmon1/device/pwm3:200:75 --min-fan-speed-prct 10 -i 1min`  "
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "cF0E9u13Sc7sCNBKdPruoS8mUtYWswFzTPrmlAvOpO4=",
+    "originContent": "## systemd service",
+    "translatedContent": "## systemd サービス  "
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "CAiZJY6s1u+Xgwjg/82PxCtgQNVMJwuej4I3NLeLG3w=",
+    "originContent": "A systemd service file is provided to control the daemon easily.",
+    "translatedContent": "systemdサービスファイルが提供されており、デーモンを簡単に制御できます。  "
+  },
+  {
+    "row": 159,
+    "rowsha": "w1TRo62uSE4ef6lWtmtRCJ/Fnge1uXvoXsUqL7y8hZ8=",
+    "originContent": "If you installed hddfancontrol from a distribution package, you likely already have it installed, otherwise you can install it from the sources of this repository with:",
+    "translatedContent": "もしhddfancontrolをディストリビューションのパッケージからインストールしていれば、すでにインストールされている可能性が高いですが、そうでなければこのリポジトリのソースからインストールできます。"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 162,
+    "rowsha": "wAvY034k0q+UYwSTq24cL9PvIbyfd0fqKfARvmDc+TM=",
+    "originContent": "sudo install -Dm 644 ./systemd/hddfancontrol.service /etc/systemd/system/hddfancontrol.service",
+    "translatedContent": "sudo install -Dm 644 ./systemd/hddfancontrol.service /etc/systemd/system/hddfancontrol.service"
+  },
+  {
+    "row": 163,
+    "rowsha": "6c6MEMCtuIQI2exxGdI1Y4gWnWKgvEEEP5hTZphhVL8=",
+    "originContent": "sudo install -Dm 644 ./systemd/hddfancontrol.conf /etc/conf.d/hddfancontrol",
+    "translatedContent": "sudo install -Dm 644 ./systemd/hddfancontrol.conf /etc/conf.d/hddfancontrol"
+  },
+  {
+    "row": 164,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "g+GfW97Np0sne+1Zwov+ujpZuYLTQYVrJ3l3fP9tMYA=",
+    "originContent": "Then you need to edit the `HDDFANCONTROL_DAEMON_ARGS` variable in `/etc/conf.d/hddfancontrol` to set the parameters (drives, temperature range...).",
+    "translatedContent": "次に、パラメータ（ドライブ、温度範囲など）を設定するために、`/etc/conf.d/hddfancontrol` 内の `HDDFANCONTROL_DAEMON_ARGS` 変数を編集する必要があります。"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "6j2WFBv2LLMHxItq6W/yLekpbPIl06ZPVukuNlRI1qc=",
+    "originContent": "You can then start the daemon with `sudo systemctl start hddfancontrol`, see its status with `sudo systemctl status hddfancontrol` and enable automatic startup at boot time with `sudo systemctl enable hddfancontrol`.",
+    "translatedContent": "その後、`sudo systemctl start hddfancontrol` でデーモンを起動し、`sudo systemctl status hddfancontrol` でその状態を確認し、`sudo systemctl enable hddfancontrol` で起動時の自動起動を有効にできます。"
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "Tb7tzuQiEd9+LJC+bF1LUAnqsWU03S4dtIyM1RXQJDM=",
+    "originContent": "[GPLv3](https://www.gnu.org/licenses/gpl-3.0-standalone.html)",
+    "translatedContent": "[GPLv3](https://www.gnu.org/licenses/gpl-3.0-standalone.html)"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
