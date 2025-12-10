@@ -1,0 +1,1849 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ytcc\n[![lint and test](https://github.com/woefe/ytcc/actions/workflows/lint_and_test.yml/badge.svg)](https://github.com/woefe/ytcc/actions/workflows/lint_and_test.yml)\n\nCommand line tool to keep track of your favorite playlists on YouTube and many other places.\n\n## Installation",
+    "ContentSha": "YmmtwMWLJuUbe0NgGNySgTY8gFtENSeEJEeMLAdkD84=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ytcc\n[![lint and test](https://github.com/woefe/ytcc/actions/workflows/lint_and_test.yml/badge.svg)](https://github.com/woefe/ytcc/actions/workflows/lint_and_test.yml)\n\nYouTubeやその他多くの場所でお気に入りのプレイリストを管理するためのコマンドラインツール。\n\n## インストール",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "R/SNa0MNwRRP+SAIxON5jNU9Mg36olofbMkHckFJBMM=",
+        "originContent": "# ytcc",
+        "translatedContent": "# ytcc"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ec8nuY6+3nNbL3ojAx3efVTAid8fJn4+l8LeRM0abIo=",
+        "originContent": "[![lint and test](https://github.com/woefe/ytcc/actions/workflows/lint_and_test.yml/badge.svg)](https://github.com/woefe/ytcc/actions/workflows/lint_and_test.yml)",
+        "translatedContent": "[![lint and test](https://github.com/woefe/ytcc/actions/workflows/lint_and_test.yml/badge.svg)](https://github.com/woefe/ytcc/actions/workflows/lint_and_test.yml)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "m5G2RC43d5swuPF/rVNlx8rqAMbufJ010BUDLbH71DY=",
+        "originContent": "Command line tool to keep track of your favorite playlists on YouTube and many other places.",
+        "translatedContent": "YouTubeやその他多くの場所でお気に入りのプレイリストを管理するためのコマンドラインツール。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## インストール"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```shell script\npipx install ytcc\n```",
+    "ContentSha": "sfDycgfr+vHb/NJcVolBN2SVAun1FhKZzkQaNBC8G8Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\npipx install ytcc\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "gBmaMVjCpm0kQqve/0IQTlrl9r3eaytdqwpZVHEpAFE=",
+        "originContent": "pipx install ytcc",
+        "translatedContent": "pipx install ytcc"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "Alternative installation methods are described in the [documentation](https://github.com/woefe/ytcc/tree/master/doc/install.md).\n\n## Usage\n\nAdd \"subscriptions\".\nNote that `subscribe` does not save discovered videos to the database.\nRun `ytcc update` to check and fetch video metadata after subscribing.",
+    "ContentSha": "n3XVtmb7mySxaBGuA9gdcduptsfbYSOCj3q93Ssj6aQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "代替のインストール方法は[ドキュメント](https://github.com/woefe/ytcc/tree/master/doc/install.md)に記載されています。\n\n## 使い方\n\n「subscriptions」を追加します。\n`subscribe` は発見した動画をデータベースに保存しないことに注意してください。\n購読後に動画のメタデータを確認および取得するには、`ytcc update` を実行してください。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uZEISwy2UwNkvCAmbimofVKW08r9vnpIqPsiUgDfglA=",
+        "originContent": "Alternative installation methods are described in the [documentation](https://github.com/woefe/ytcc/tree/master/doc/install.md).",
+        "translatedContent": "代替のインストール方法は[ドキュメント](https://github.com/woefe/ytcc/tree/master/doc/install.md)に記載されています。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使い方"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "EsAc+LtWAGY11EiJGzRFyhNYGKSAbVSj/4wMe7rnFuc=",
+        "originContent": "Add \"subscriptions\".",
+        "translatedContent": "「subscriptions」を追加します。"
+      },
+      {
+        "row": 6,
+        "rowsha": "yZv8u8LS17/FsV9ptv4mkojGqMxQ6quB3SAJGRIxN8Y=",
+        "originContent": "Note that `subscribe` does not save discovered videos to the database.",
+        "translatedContent": "`subscribe` は発見した動画をデータベースに保存しないことに注意してください。"
+      },
+      {
+        "row": 7,
+        "rowsha": "MVtbJQZ0EnAxoliD4931a+LrheFnI/10sfEW3IpTOh4=",
+        "originContent": "Run `ytcc update` to check and fetch video metadata after subscribing.",
+        "translatedContent": "購読後に動画のメタデータを確認および取得するには、`ytcc update` を実行してください。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```shell script\n# Any playlist supported by yt-dlp (or youtube-dl)\nytcc subscribe \"Jupiter Broadcasting\" \"https://www.youtube.com/c/JupiterBroadcasting/videos\"\nytcc subscribe \"NCS: House\" \"https://www.youtube.com/playlist?list=PLRBp0Fe2GpgmsW46rJyudVFlY6IYjFBIK\"\nytcc subscribe \"Neus\" \"https://soundcloud.com/neus/tracks\"\n\n# RSS feed podcasts\nytcc subscribe \"LINUX Unplugged\" \"https://linuxunplugged.com/rss\"\nytcc subscribe \"Darknet Diaries\" \"https://feeds.megaphone.fm/darknetdiaries\"\n```",
+    "ContentSha": "8utRa/YPqsWyB+e+Zc9MziSa9dxA316F7h5pAoZFgyY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\n# Any playlist supported by yt-dlp (or youtube-dl)\nytcc subscribe \"Jupiter Broadcasting\" \"https://www.youtube.com/c/JupiterBroadcasting/videos\"\nytcc subscribe \"NCS: House\" \"https://www.youtube.com/playlist?list=PLRBp0Fe2GpgmsW46rJyudVFlY6IYjFBIK\"\nytcc subscribe \"Neus\" \"https://soundcloud.com/neus/tracks\"\n\n# RSS feed podcasts\nytcc subscribe \"LINUX Unplugged\" \"https://linuxunplugged.com/rss\"\nytcc subscribe \"Darknet Diaries\" \"https://feeds.megaphone.fm/darknetdiaries\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "6r3P+Yn2qvUdlMmet8AglJCLQwe5DonX+S8wPntJBYU=",
+        "originContent": "# Any playlist supported by yt-dlp (or youtube-dl)",
+        "translatedContent": "# Any playlist supported by yt-dlp (or youtube-dl)"
+      },
+      {
+        "row": 3,
+        "rowsha": "pvpd3kGAYIufJGdiJq/afCE7B3oTBzENjFFvcis+WcE=",
+        "originContent": "ytcc subscribe \"Jupiter Broadcasting\" \"https://www.youtube.com/c/JupiterBroadcasting/videos\"",
+        "translatedContent": "ytcc subscribe \"Jupiter Broadcasting\" \"https://www.youtube.com/c/JupiterBroadcasting/videos\""
+      },
+      {
+        "row": 4,
+        "rowsha": "dBNupBxvc/iNpLUltgNafvF5UsHL11FuQLgcmvtdMvo=",
+        "originContent": "ytcc subscribe \"NCS: House\" \"https://www.youtube.com/playlist?list=PLRBp0Fe2GpgmsW46rJyudVFlY6IYjFBIK\"",
+        "translatedContent": "ytcc subscribe \"NCS: House\" \"https://www.youtube.com/playlist?list=PLRBp0Fe2GpgmsW46rJyudVFlY6IYjFBIK\""
+      },
+      {
+        "row": 5,
+        "rowsha": "4lKfCXabOI3ar1DzA2+CZmNuh/fR/WVRAgsssAX3EGc=",
+        "originContent": "ytcc subscribe \"Neus\" \"https://soundcloud.com/neus/tracks\"",
+        "translatedContent": "ytcc subscribe \"Neus\" \"https://soundcloud.com/neus/tracks\""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "IMYBs6OEUh9QZaL8KJRq5MTF22FRSMe9JuNDJyGEHic=",
+        "originContent": "# RSS feed podcasts",
+        "translatedContent": "# RSS feed podcasts"
+      },
+      {
+        "row": 8,
+        "rowsha": "y0brhm9EQdXIo7P9p4Hnqn+MEfyzkLuRqZhuDILwLQo=",
+        "originContent": "ytcc subscribe \"LINUX Unplugged\" \"https://linuxunplugged.com/rss\"",
+        "translatedContent": "ytcc subscribe \"LINUX Unplugged\" \"https://linuxunplugged.com/rss\""
+      },
+      {
+        "row": 9,
+        "rowsha": "d4s/wz8FGp9cJJv6VIdmhPmt6Z8OSbLUG7ZAz8m7eTk=",
+        "originContent": "ytcc subscribe \"Darknet Diaries\" \"https://feeds.megaphone.fm/darknetdiaries\"",
+        "translatedContent": "ytcc subscribe \"Darknet Diaries\" \"https://feeds.megaphone.fm/darknetdiaries\""
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nImport subscriptions from [Google Takeout](https://takeout.google.com/).\n*Hint*: When requesting a takeout make sure to select only the YouTube data, otherwise the takeout might take quite long to complete.",
+    "ContentSha": "PJG6Ihyhsbe1qBrwSOM9pf4lO9yFUiMSEL/HQ6Ndjbo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n[Google Takeout](https://takeout.google.com/) から購読情報をインポートします。\n*ヒント*: Takeout をリクエストする際は、YouTube のデータのみを選択してください。そうしないと、完了までにかなり時間がかかることがあります。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LokwWk4Q1g7BPVzVwbr/pnSF4sClnekN6ep03e/o+rI=",
+        "originContent": "Import subscriptions from [Google Takeout](https://takeout.google.com/).",
+        "translatedContent": "[Google Takeout](https://takeout.google.com/) から購読情報をインポートします。"
+      },
+      {
+        "row": 3,
+        "rowsha": "zJkuGZ4J7g9Hm5/iVK16PfJKnirdJpPjtqyA0AmUaBE=",
+        "originContent": "*Hint*: When requesting a takeout make sure to select only the YouTube data, otherwise the takeout might take quite long to complete.",
+        "translatedContent": "*ヒント*: Takeout をリクエストする際は、YouTube のデータのみを選択してください。そうしないと、完了までにかなり時間がかかることがあります。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```shell script\nytcc import ~/Downloads/Takeout/Youtube/subscriptions/subscriptions.csv\n```",
+    "ContentSha": "Af2p/tOwI8vE4PLRTmHY12cZonqa4N/9iHYhnGmzVOA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nytcc import ~/Downloads/Takeout/Youtube/subscriptions/subscriptions.csv\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "TnSmq9jyNl/AqcWClMUFe8Hl9kLU/SsRZn6r+hE6wfk=",
+        "originContent": "ytcc import ~/Downloads/Takeout/Youtube/subscriptions/subscriptions.csv",
+        "translatedContent": "ytcc import ~/Downloads/Takeout/Youtube/subscriptions/subscriptions.csv"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nFetch metadata of new videos.",
+    "ContentSha": "oD7wzlOnH8NLS3vWAVE9sEHdp0z8KqrIgaWP/RzDesk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "新しい動画のメタデータを取得します。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "新しい動画のメタデータを取得します。"
+      },
+      {
+        "row": 2,
+        "rowsha": "9/P6Ao8iJBFC3oDiTpS4tlVjfZPS0fvYBO2KYaJJ6GE=",
+        "originContent": "Fetch metadata of new videos.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```shell script\nytcc update\n```",
+    "ContentSha": "9I77Rd7JCwLKmgtK+3lFpH0NjU+q6c9aJeYbwvDrnlc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nytcc update\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "9hDeYiWFY5fkfCO3nqTsKSqva4KVEQyoA/TeykeMYuc=",
+        "originContent": "ytcc update",
+        "translatedContent": "ytcc update"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nList unwatched videos.",
+    "ContentSha": "p5cZ7+2pydmVyC7Srfvs/1ZCsW5rgxhkR9V/YAmXz8I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "未視聴のビデオを一覧表示します。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "未視聴のビデオを一覧表示します。"
+      },
+      {
+        "row": 2,
+        "rowsha": "stPWMJAbEs2mrhjEwjZOW7+orPW7YNeyUwuU4ImJFRs=",
+        "originContent": "List unwatched videos.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```shell script\nytcc list\n```",
+    "ContentSha": "3odgLgUP8gtokpeXtb8twoZqWiHahi8qI49iDvsETV8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nytcc list\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "Utz0vRwcZq54hDRm/I2VOaYs2OuW9cVfrdM9V0nSkI4=",
+        "originContent": "ytcc list",
+        "translatedContent": "ytcc list"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nList playlist content in JSON format.",
+    "ContentSha": "CQGROupWYGbyCFnxMJxRxN+1qZp1Q600w8zvEhIO6uw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "JSON形式でプレイリストの内容を一覧表示します。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "JSON形式でプレイリストの内容を一覧表示します。"
+      },
+      {
+        "row": 2,
+        "rowsha": "aupsLdolRF4COC9gX0kEDNUE1bk6bL/GzorpaeqRbzs=",
+        "originContent": "List playlist content in JSON format.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```shell script\nytcc --output json list --playlist \"NCS: House\" --since 2020-07-07 --watched --unwatched\n```",
+    "ContentSha": "CSaAEpBxp31/otOA+Pv0TzA76j17xwFFc7s25wyZf/w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nytcc --output json list --playlist \"NCS: House\" --since 2020-07-07 --watched --unwatched\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "uz7qPFPQLu9DNi8j0ROEMX/LhaouQYLYQpbW7qcA8UQ=",
+        "originContent": "ytcc --output json list --playlist \"NCS: House\" --since 2020-07-07 --watched --unwatched",
+        "translatedContent": "ytcc --output json list --playlist \"NCS: House\" --since 2020-07-07 --watched --unwatched"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nList all videos as RSS feed.",
+    "ContentSha": "XiD6Qhff8wphFjW/WZ4e1vcEr6c7fkUUdv9noh6qC24=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "すべての動画をRSSフィードとして一覧表示します。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "すべての動画をRSSフィードとして一覧表示します。"
+      },
+      {
+        "row": 2,
+        "rowsha": "UNjZc+MyfKJ2yh88NLxFAcRu4kfiJTk3o05lARnaTtI=",
+        "originContent": "List all videos as RSS feed.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```shell script\nytcc --output rss list --watched --unwatched\n```",
+    "ContentSha": "PCqlNX6eDvbV7FgcIED5ItPR9l30UtWQa+jUwjx7k7M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nytcc --output rss list --watched --unwatched\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "gyKuRuMbwrkb11nm3ybFP5Bi6k4SI8ne11xeSPVUKi4=",
+        "originContent": "ytcc --output rss list --watched --unwatched",
+        "translatedContent": "ytcc --output rss list --watched --unwatched"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nStart the interactive terminal interface.",
+    "ContentSha": "Z8VRHYmzK043QYP/EKH5lW6orRlx0E8J5VQUaYeHu9U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nインタラクティブなターミナルインターフェースを開始します。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "MD0AElPvQYWQTMtarUcP92WhOyHMQ4Ns/0UW6ycJVwA=",
+        "originContent": "Start the interactive terminal interface.",
+        "translatedContent": "インタラクティブなターミナルインターフェースを開始します。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```shell script\nytcc tui\n```",
+    "ContentSha": "hyScCx9XMXFaVRxd88FbectumzpJ1K+nRu7uMitJ7jg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nytcc tui\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "p7rppwme59RoOSL4Q6oCdoFevf+Yg/LiLd10fudEiVo=",
+        "originContent": "ytcc tui",
+        "translatedContent": "ytcc tui"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nMark all videos of a playlist as watched without playing them.",
+    "ContentSha": "vlX7We5BIAgwLbJMLg6q4NKXF+hsJCAm2r+t5qz3cOA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "再生せずにプレイリスト内のすべての動画を視聴済みとしてマークします。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "再生せずにプレイリスト内のすべての動画を視聴済みとしてマークします。"
+      },
+      {
+        "row": 2,
+        "rowsha": "+7oUPy0Q3Ef2Sk0GQeBeC/31XUq49ZTZbRYtoKzExoU=",
+        "originContent": "Mark all videos of a playlist as watched without playing them.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```shell script\nytcc ls -p \"Jupiter Broadcasting\" | ytcc mark\n```",
+    "ContentSha": "AL4coWecorFxg+49T2EYxdSkbwMxL15CUROHny/R3po=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nytcc ls -p \"Jupiter Broadcasting\" | ytcc mark\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "RJbKNVYnAoXo9f5YHiOak4PfuaIPuA2Gg7GhWIkyjqw=",
+        "originContent": "ytcc ls -p \"Jupiter Broadcasting\" | ytcc mark",
+        "translatedContent": "ytcc ls -p \"Jupiter Broadcasting\" | ytcc mark"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\nListen to some music without limitations.",
+    "ContentSha": "/wdzm3DPQN6xm+qZMzJx1ezqVCUCJbd8I1RQ3F8Kgj0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n制限なしで音楽を聴く。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "abFKTEc2lIPsIQJPAJJCWID2PtEIkxufsKzqYDRCNTI=",
+        "originContent": "Listen to some music without limitations.",
+        "translatedContent": "制限なしで音楽を聴く。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```shell script\nytcc ls -p \"NCS: House\" | ytcc play --audio-only\n```",
+    "ContentSha": "Ajki0MnN+wLycJeOv9Wq/NLjy6qARKik7KHGWbLkmlc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nytcc ls -p \"NCS: House\" | ytcc play --audio-only\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "BIdw8gDjoJTOxzk3JvSKASEtLOvAAF7ccwyARyqQS/A=",
+        "originContent": "ytcc ls -p \"NCS: House\" | ytcc play --audio-only",
+        "translatedContent": "ytcc ls -p \"NCS: House\" | ytcc play --audio-only"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n**Alternative terminal interface with thumbnail support.**\nRequires [fzf](https://github.com/junegunn/fzf) version 0.23.1 or newer, optionally [curl](https://curl.se/) and either [ueberzug](https://github.com/seebye/ueberzug) or [kitty](https://sw.kovidgoyal.net/kitty/).\nThe script is automatically installed on most platforms during installation of ytcc.\nIf it's not installed, you can download it from [here](https://github.com/woefe/ytcc/tree/master/scripts/ytccf.sh).",
+    "ContentSha": "ZYuZ/dwsx65Xu2C+A7J9sHyYjzrAvslZqwScuq4aAws=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**サムネイル対応の代替ターミナルインターフェース。**\n[fzf](https://github.com/junegunn/fzf) バージョン0.23.1以降が必要で、オプションで[curl](https://curl.se/)および[ueberzug](https://github.com/seebye/ueberzug)か[kitty](https://sw.kovidgoyal.net/kitty/)のいずれかが必要です。\nこのスクリプトはytccのインストール時にほとんどのプラットフォームで自動的にインストールされます。\nインストールされていない場合は、[こちら](https://github.com/woefe/ytcc/tree/master/scripts/ytccf.sh)からダウンロードできます。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Jp2joaTP1IP4dLHdl09GzdmlJI6wP3O3thpMSh55jSQ=",
+        "originContent": "**Alternative terminal interface with thumbnail support.**",
+        "translatedContent": "**サムネイル対応の代替ターミナルインターフェース。**"
+      },
+      {
+        "row": 3,
+        "rowsha": "z9312pSdnCww8Mdn+rB5WmKxPR+Hlw4ggJFb7e6+31s=",
+        "originContent": "Requires [fzf](https://github.com/junegunn/fzf) version 0.23.1 or newer, optionally [curl](https://curl.se/) and either [ueberzug](https://github.com/seebye/ueberzug) or [kitty](https://sw.kovidgoyal.net/kitty/).",
+        "translatedContent": "[fzf](https://github.com/junegunn/fzf) バージョン0.23.1以降が必要で、オプションで[curl](https://curl.se/)および[ueberzug](https://github.com/seebye/ueberzug)か[kitty](https://sw.kovidgoyal.net/kitty/)のいずれかが必要です。"
+      },
+      {
+        "row": 4,
+        "rowsha": "ASgGI+MI27frWxsHJVwi/b+DABU04x8ikw+mvJcbiEY=",
+        "originContent": "The script is automatically installed on most platforms during installation of ytcc.",
+        "translatedContent": "このスクリプトはytccのインストール時にほとんどのプラットフォームで自動的にインストールされます。"
+      },
+      {
+        "row": 5,
+        "rowsha": "608btHjcXZai5DH8TqyYyfRBjOUCIiXwnJjqvEnY5xo=",
+        "originContent": "If it's not installed, you can download it from [here](https://github.com/woefe/ytcc/tree/master/scripts/ytccf.sh).",
+        "translatedContent": "インストールされていない場合は、[こちら](https://github.com/woefe/ytcc/tree/master/scripts/ytccf.sh)からダウンロードできます。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```shell script\nytccf.sh\n\n# Show help and key bindings\nytccf.sh --help\n```",
+    "ContentSha": "qeWg80KM4p1HzdsgtEZEExW5dPWBH/Q3vpg+RlEl+Fo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nytccf.sh\n\n# Show help and key bindings\nytccf.sh --help\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "oLp2zC69Gjz0CwuFLUHXL0kFvryvKUhBhTzuyrpbsMQ=",
+        "originContent": "ytccf.sh",
+        "translatedContent": "ytccf.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Im0sbKayOhDzZ3mNfgZ+XV8koavyJjHEzHhnH0one24=",
+        "originContent": "# Show help and key bindings",
+        "translatedContent": "# Show help and key bindings"
+      },
+      {
+        "row": 5,
+        "rowsha": "ZzNH/6KM2qgvugNak+BqQVUtpeRwtNSOfs2hitHOG6E=",
+        "originContent": "ytccf.sh --help",
+        "translatedContent": "ytccf.sh --help"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n## Configuration\nYtcc searches for a configuration file at the following locations:\n\n1. The file given with `-c` or `--config` options\n2. `~/.ytcc.conf`\n3. `$XDG_CONFIG_HOME/ytcc/ytcc.conf` or `~/.config/ytcc/ytcc.conf`\n4. `/etc/ytcc/ytcc.conf`\n\nIf no config file is found in these locations, a default config file is created at `$XDG_CONFIG_HOME/ytcc/ytcc.conf` or `~/.config/ytcc/ytcc.conf`\n\n### Example config\n",
+    "ContentSha": "W8As/1p4HYOxb9weALYoVcKDrn0hV9cRquBjpNBVaq8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 設定\nYtcc は以下の場所で設定ファイルを検索します：\n\n1. `-c` または `--config` オプションで指定されたファイル\n2. `~/.ytcc.conf`\n3. `$XDG_CONFIG_HOME/ytcc/ytcc.conf` または `~/.config/ytcc/ytcc.conf`\n4. `/etc/ytcc/ytcc.conf`\n\nこれらの場所に設定ファイルが見つからない場合、デフォルトの設定ファイルが `$XDG_CONFIG_HOME/ytcc/ytcc.conf` または `~/.config/ytcc/ytcc.conf` に作成されます。\n\n### 設定例\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "## 設定"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ewjru2GraXIg8DS0MYfs1zbr85E1FHJvTUG96ItJszE=",
+        "originContent": "Ytcc searches for a configuration file at the following locations:",
+        "translatedContent": "Ytcc は以下の場所で設定ファイルを検索します："
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "q+nBI65/tGgV5Dg1WFCom4gFwwCV+cZehsmRt2oK34A=",
+        "originContent": "1. The file given with `-c` or `--config` options",
+        "translatedContent": "1. `-c` または `--config` オプションで指定されたファイル"
+      },
+      {
+        "row": 6,
+        "rowsha": "apoqwaEEsPKXkHaNIgLV2cktsZhVJwjY7WOtBkZciWc=",
+        "originContent": "2. `~/.ytcc.conf`",
+        "translatedContent": "2. `~/.ytcc.conf`"
+      },
+      {
+        "row": 7,
+        "rowsha": "3uIZ81Id1op/g7SGH4jtjh8r9I2HMpaJAxt71mZdmv8=",
+        "originContent": "3. `$XDG_CONFIG_HOME/ytcc/ytcc.conf` or `~/.config/ytcc/ytcc.conf`",
+        "translatedContent": "3. `$XDG_CONFIG_HOME/ytcc/ytcc.conf` または `~/.config/ytcc/ytcc.conf`"
+      },
+      {
+        "row": 8,
+        "rowsha": "+gt/+3vRbZ0jc1c3dxGRuEiOKIBuH5jCiCMex+dIkSY=",
+        "originContent": "4. `/etc/ytcc/ytcc.conf`",
+        "translatedContent": "4. `/etc/ytcc/ytcc.conf`"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Sde9nZ8f+5UQlg8dq/Xc32zek8mdxgon5QaLbPO0pSw=",
+        "originContent": "If no config file is found in these locations, a default config file is created at `$XDG_CONFIG_HOME/ytcc/ytcc.conf` or `~/.config/ytcc/ytcc.conf`",
+        "translatedContent": "これらの場所に設定ファイルが見つからない場合、デフォルトの設定ファイルが `$XDG_CONFIG_HOME/ytcc/ytcc.conf` または `~/.config/ytcc/ytcc.conf` に作成されます。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "YE37ooypI4l+6BQO0zNxNMWfKOmV1435nP9ul5h/ODU=",
+        "originContent": "### Example config",
+        "translatedContent": "### 設定例"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```ini\n[ytcc]\n\n# Directory where downloads are saved, when --path is not given\ndownload_dir = ~/Downloads\n\n# Downloads videos to subdirectories by playlist name. If a video is on multiple playlists, ytcc\n# will download the video only to one subdirectory and symlink it to the other subdirectories.\ndownload_subdirs = on\n\n# Parameters passed to mpv. Adjusting these might break video playback in ytcc!\nmpv_flags = --ytdl --ytdl-format=bestvideo[height<=?1080]+bestaudio/best\n\n# Defines the order of video listings.\n# Possible options: id, url, title, description, publish_date, watched, duration, extractor_hash,\n# playlists. Every option must be suffixed with :desc or :asc for descending or ascending sort.\norder_by = playlists:asc, publish_date:desc\n\n# Default attributes shown in video listings.\n# Some ytcc commands allow overriding the default set here in the config.\nvideo_attrs = id, title, publish_date, duration, playlists\n\n# Default attributes shown in playlist/subscription listings.\n# Some ytcc commands allow overriding the default set here in the config.\nplaylist_attrs = name, url, reverse, tags\n\n# Path where the database is stored.\n# Can be used to sync the database between multiple machines.\ndb_path = ~/.local/share/ytcc/ytcc.db\n\n# The format of used to print dates\ndate_format = %Y-%m-%d\n\n# Default failure threshold before a video is ignored.\n# When a video could not be updated repeatedly, it will be ignored by ytcc after `max_update_fail`\n# attempts. This setting can be overridden with the --max-fail commandline parameter.\nmax_update_fail = 5\n\n# Default update backlog.\n# The update command will only check the first `max_update_backlog` videos of a playlist to improve\n# performance. This setting can be overridden with the --max-backlog commandline parameter.\nmax_update_backlog = 20\n\n# Ignore videos that have an age limit higher than the one specified here.\nage_limit = 0\n\n# Skips livestreams.\nskip_live_stream = true\n\n# Skips private and member-only videos.\nskip_non_public = true\n\n# Prompt and table colors. Supports 256 colors. Hence, values between 0-255 are allowed.\n# See https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit for the color codes.\n[theme]\nprompt_download_audio = 2\nprompt_download_video = 4\nprompt_play_audio = 2\nprompt_play_video = 4\nprompt_mark_watched = 1\ntable_alternate_background = 245\nplain_label_text = 244\n\n\n[tui]\n# The characters to use for selecting videos in interactive mode.\nalphabet = sdfervghnuiojkl\n\n# Default action of interactive mode.\n# Possible options: play_video, play_audio, mark_watched, download_audio, download_video\ndefault_action = play_video\n\n\n[youtube_dl]\n# Format (see FORMAT SELECTION in yt-dlp manpage). Make sure to use a video format here, if you\n# want to be able to download videos.\nformat = bestvideo[height<=?1080]+bestaudio/best\n\n# Output template (see OUTPUT TEMPLATE in yt-dlp manpage).\n# Note that the output template will be prefixed with the `download_dir` directory and the name of\n# the playlist if `download_sub_dir` is enabled.\noutput_template = %(title)s.%(ext)s\n\n# If a merge is required according to format selection, merge to the given container format.\n# One of mkv, mp4, ogg, webm, flv\nmerge_output_format = mkv\n\n# Limit download speed to the given bytes/second. Set 0 for no limit.\n# E.g. limit to one megabyte per second\n#ratelimit = 1000000\nratelimit = 0\n\n# Set number of retries before giving up on a download.\n# Set 0 for no retries.\nretries = 0\n\n# Subtitles for videos.\n# If enabled and available, automatic and manual subtitles for selected languages are embedded in\n# the video.\n#subtitles = en,de\nsubtitles = off\n\n# Embed the youtube thumbnail in audio downloads.\n# Transforms the resulting file to m4a, if enabled.\nthumbnail = on\n\n# Don't download videos longer than 'max_duration' seconds.\n# 0 disables the limit.\nmax_duration = 9000\n\n# Restrict filenames to only ASCII characters and avoid \"&\" and spaces in filenames.\nrestrict_filenames = off\n```",
+    "ContentSha": "bvEsvgVZIyaLSKkY5IvZ2isLJWIr8MfV5x7sm4iylvQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```ini\n[ytcc]\n\n# Directory where downloads are saved, when --path is not given\ndownload_dir = ~/Downloads\n\n# Downloads videos to subdirectories by playlist name. If a video is on multiple playlists, ytcc\n# will download the video only to one subdirectory and symlink it to the other subdirectories.\ndownload_subdirs = on\n\n# Parameters passed to mpv. Adjusting these might break video playback in ytcc!\nmpv_flags = --ytdl --ytdl-format=bestvideo[height<=?1080]+bestaudio/best\n\n# Defines the order of video listings.\n# Possible options: id, url, title, description, publish_date, watched, duration, extractor_hash,\n# playlists. Every option must be suffixed with :desc or :asc for descending or ascending sort.\norder_by = playlists:asc, publish_date:desc\n\n# Default attributes shown in video listings.\n# Some ytcc commands allow overriding the default set here in the config.\nvideo_attrs = id, title, publish_date, duration, playlists\n\n# Default attributes shown in playlist/subscription listings.\n# Some ytcc commands allow overriding the default set here in the config.\nplaylist_attrs = name, url, reverse, tags\n\n# Path where the database is stored.\n# Can be used to sync the database between multiple machines.\ndb_path = ~/.local/share/ytcc/ytcc.db\n\n# The format of used to print dates\ndate_format = %Y-%m-%d\n\n# Default failure threshold before a video is ignored.\n# When a video could not be updated repeatedly, it will be ignored by ytcc after `max_update_fail`\n# attempts. This setting can be overridden with the --max-fail commandline parameter.\nmax_update_fail = 5\n\n# Default update backlog.\n# The update command will only check the first `max_update_backlog` videos of a playlist to improve\n# performance. This setting can be overridden with the --max-backlog commandline parameter.\nmax_update_backlog = 20\n\n# Ignore videos that have an age limit higher than the one specified here.\nage_limit = 0\n\n# Skips livestreams.\nskip_live_stream = true\n\n# Skips private and member-only videos.\nskip_non_public = true\n\n# Prompt and table colors. Supports 256 colors. Hence, values between 0-255 are allowed.\n# See https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit for the color codes.\n[theme]\nprompt_download_audio = 2\nprompt_download_video = 4\nprompt_play_audio = 2\nprompt_play_video = 4\nprompt_mark_watched = 1\ntable_alternate_background = 245\nplain_label_text = 244\n\n\n[tui]\n# The characters to use for selecting videos in interactive mode.\nalphabet = sdfervghnuiojkl\n\n# Default action of interactive mode.\n# Possible options: play_video, play_audio, mark_watched, download_audio, download_video\ndefault_action = play_video\n\n\n[youtube_dl]\n# Format (see FORMAT SELECTION in yt-dlp manpage). Make sure to use a video format here, if you\n# want to be able to download videos.\nformat = bestvideo[height<=?1080]+bestaudio/best\n\n# Output template (see OUTPUT TEMPLATE in yt-dlp manpage).\n# Note that the output template will be prefixed with the `download_dir` directory and the name of\n# the playlist if `download_sub_dir` is enabled.\noutput_template = %(title)s.%(ext)s\n\n# If a merge is required according to format selection, merge to the given container format.\n# One of mkv, mp4, ogg, webm, flv\nmerge_output_format = mkv\n\n# Limit download speed to the given bytes/second. Set 0 for no limit.\n# E.g. limit to one megabyte per second\n#ratelimit = 1000000\nratelimit = 0\n\n# Set number of retries before giving up on a download.\n# Set 0 for no retries.\nretries = 0\n\n# Subtitles for videos.\n# If enabled and available, automatic and manual subtitles for selected languages are embedded in\n# the video.\n#subtitles = en,de\nsubtitles = off\n\n# Embed the youtube thumbnail in audio downloads.\n# Transforms the resulting file to m4a, if enabled.\nthumbnail = on\n\n# Don't download videos longer than 'max_duration' seconds.\n# 0 disables the limit.\nmax_duration = 9000\n\n# Restrict filenames to only ASCII characters and avoid \"&\" and spaces in filenames.\nrestrict_filenames = off\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "NOtYEj4xvNWpEB/tns9NY65hnruGx4mqSUdrkrrtBlQ=",
+        "originContent": "```ini",
+        "translatedContent": "```ini"
+      },
+      {
+        "row": 2,
+        "rowsha": "JZY83BnsKEWGiG5SnSRLbn4m4pMOTmm4LNfV6wtJUZk=",
+        "originContent": "[ytcc]",
+        "translatedContent": "[ytcc]"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "UAx+r9IQbeslOCuRdXRdciy5UDUdW7lQR3xQ6BmyaOE=",
+        "originContent": "# Directory where downloads are saved, when --path is not given",
+        "translatedContent": "# Directory where downloads are saved, when --path is not given"
+      },
+      {
+        "row": 5,
+        "rowsha": "IpoygIXOR3HY3Nus06Yc0Uxrg2KKIZzSeorQ4bgVPBE=",
+        "originContent": "download_dir = ~/Downloads",
+        "translatedContent": "download_dir = ~/Downloads"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "f5eAxGFKZPAVfiE1hHnZaKAib5yaV66z1eRADuLL3TI=",
+        "originContent": "# Downloads videos to subdirectories by playlist name. If a video is on multiple playlists, ytcc",
+        "translatedContent": "# Downloads videos to subdirectories by playlist name. If a video is on multiple playlists, ytcc"
+      },
+      {
+        "row": 8,
+        "rowsha": "AC42nTSjNeZ5Ql9888XzO1YqbrkQWgVEh9T0YKLzOPY=",
+        "originContent": "# will download the video only to one subdirectory and symlink it to the other subdirectories.",
+        "translatedContent": "# will download the video only to one subdirectory and symlink it to the other subdirectories."
+      },
+      {
+        "row": 9,
+        "rowsha": "OG0dF+CHitpCawUWUchm1RqfZRBr6lZOAhrFQk/ipPY=",
+        "originContent": "download_subdirs = on",
+        "translatedContent": "download_subdirs = on"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "z+d4fNM36zr+iedVCma/VpPTQ4+SxrGNKOeOMSNQIAM=",
+        "originContent": "# Parameters passed to mpv. Adjusting these might break video playback in ytcc!",
+        "translatedContent": "# Parameters passed to mpv. Adjusting these might break video playback in ytcc!"
+      },
+      {
+        "row": 12,
+        "rowsha": "fImC9m9fmKAMthCWhVNKEYb24jmyMXzVOfQW7MuDZUY=",
+        "originContent": "mpv_flags = --ytdl --ytdl-format=bestvideo[height<=?1080]+bestaudio/best",
+        "translatedContent": "mpv_flags = --ytdl --ytdl-format=bestvideo[height<=?1080]+bestaudio/best"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "35f4+TTfaWTda4tRWRgl8zat7BV2g5Wl1oa62ypKWM4=",
+        "originContent": "# Defines the order of video listings.",
+        "translatedContent": "# Defines the order of video listings."
+      },
+      {
+        "row": 15,
+        "rowsha": "9uo3UNxjWXRKE1wQ+0ZAcTithUMMDlMx+YZzi+F1ujg=",
+        "originContent": "# Possible options: id, url, title, description, publish_date, watched, duration, extractor_hash,",
+        "translatedContent": "# Possible options: id, url, title, description, publish_date, watched, duration, extractor_hash,"
+      },
+      {
+        "row": 16,
+        "rowsha": "2ITclJhvcsYZLU776l7UDgfso8sEOIUIMBE9tsG4nLo=",
+        "originContent": "# playlists. Every option must be suffixed with :desc or :asc for descending or ascending sort.",
+        "translatedContent": "# playlists. Every option must be suffixed with :desc or :asc for descending or ascending sort."
+      },
+      {
+        "row": 17,
+        "rowsha": "q3TnT6GuuKiFqWPkorN9cdd/Qq0pxPzOK4znpElMVi8=",
+        "originContent": "order_by = playlists:asc, publish_date:desc",
+        "translatedContent": "order_by = playlists:asc, publish_date:desc"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "cyiYvw9YY+Oid6oH56CNRGe1wMCbBbUJsQuMC9bi2t4=",
+        "originContent": "# Default attributes shown in video listings.",
+        "translatedContent": "# Default attributes shown in video listings."
+      },
+      {
+        "row": 20,
+        "rowsha": "hFU4kHo7XqfFqhLb45fEDtCUVfYN9tHUGxwQ+v2Xe3k=",
+        "originContent": "# Some ytcc commands allow overriding the default set here in the config.",
+        "translatedContent": "# Some ytcc commands allow overriding the default set here in the config."
+      },
+      {
+        "row": 21,
+        "rowsha": "CmeoNmRyvNlmeDePw//0g0lR+fRb0dhjwHvDb5BAxwY=",
+        "originContent": "video_attrs = id, title, publish_date, duration, playlists",
+        "translatedContent": "video_attrs = id, title, publish_date, duration, playlists"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "K/M+t2cXc4c4okQjQlHeSSwJXlxwkzefAEyotDugOY8=",
+        "originContent": "# Default attributes shown in playlist/subscription listings.",
+        "translatedContent": "# Default attributes shown in playlist/subscription listings."
+      },
+      {
+        "row": 24,
+        "rowsha": "hFU4kHo7XqfFqhLb45fEDtCUVfYN9tHUGxwQ+v2Xe3k=",
+        "originContent": "# Some ytcc commands allow overriding the default set here in the config.",
+        "translatedContent": "# Some ytcc commands allow overriding the default set here in the config."
+      },
+      {
+        "row": 25,
+        "rowsha": "FQpz7HM5mSFHWEvJb0lvk/9tVWXI84CuqvVRYq8e6/A=",
+        "originContent": "playlist_attrs = name, url, reverse, tags",
+        "translatedContent": "playlist_attrs = name, url, reverse, tags"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "SfQ8GNAQT75YBIpPOIFcSOGyLfDU8vA4WfyfGM5zgW4=",
+        "originContent": "# Path where the database is stored.",
+        "translatedContent": "# Path where the database is stored."
+      },
+      {
+        "row": 28,
+        "rowsha": "Fze7DbI3Xc4CRAeNuyruJk9Q3EiFed2OuBNonK9fBWY=",
+        "originContent": "# Can be used to sync the database between multiple machines.",
+        "translatedContent": "# Can be used to sync the database between multiple machines."
+      },
+      {
+        "row": 29,
+        "rowsha": "OiwNdB1s0IOF2Hg0Z7LSsG12KQU6nuJT1BtFdclXqKY=",
+        "originContent": "db_path = ~/.local/share/ytcc/ytcc.db",
+        "translatedContent": "db_path = ~/.local/share/ytcc/ytcc.db"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "zwnd3tETfcP2eerC0eCrbTk7rKu+4tXAC8Av9kHwY3s=",
+        "originContent": "# The format of used to print dates",
+        "translatedContent": "# The format of used to print dates"
+      },
+      {
+        "row": 32,
+        "rowsha": "Jc9hr6flhEdcphiGw1YUxaLpEblNLBu/PGgBaBwwZyI=",
+        "originContent": "date_format = %Y-%m-%d",
+        "translatedContent": "date_format = %Y-%m-%d"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "5N62BQTsN7Z3hOo95dZycVOwFu8kKLqUs1eFE6f71g0=",
+        "originContent": "# Default failure threshold before a video is ignored.",
+        "translatedContent": "# Default failure threshold before a video is ignored."
+      },
+      {
+        "row": 35,
+        "rowsha": "EsAm67mksXIn86epV2J4PuIUBFgRcT332VX4dsKS4HI=",
+        "originContent": "# When a video could not be updated repeatedly, it will be ignored by ytcc after `max_update_fail`",
+        "translatedContent": "# When a video could not be updated repeatedly, it will be ignored by ytcc after `max_update_fail`"
+      },
+      {
+        "row": 36,
+        "rowsha": "5S0oQma5wXVsdTJpK6zupPqycxGD0a1RUxw8rs1W8PA=",
+        "originContent": "# attempts. This setting can be overridden with the --max-fail commandline parameter.",
+        "translatedContent": "# attempts. This setting can be overridden with the --max-fail commandline parameter."
+      },
+      {
+        "row": 37,
+        "rowsha": "UUA6rtiOhrmzrq+Tqk2oNWkamTLVlV9rxu6JcUxZ5ew=",
+        "originContent": "max_update_fail = 5",
+        "translatedContent": "max_update_fail = 5"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "TafYcWjuF6zAZnnGYZJLVkU7IjzF2U0UbYZjCFMvLWk=",
+        "originContent": "# Default update backlog.",
+        "translatedContent": "# Default update backlog."
+      },
+      {
+        "row": 40,
+        "rowsha": "c+pD/Dz40Zy3JOTl5GqIpFJNM2JEdh3++iXYYAYZzf0=",
+        "originContent": "# The update command will only check the first `max_update_backlog` videos of a playlist to improve",
+        "translatedContent": "# The update command will only check the first `max_update_backlog` videos of a playlist to improve"
+      },
+      {
+        "row": 41,
+        "rowsha": "qYbJTP3zRRQNL0vl890gDqn0RgyxkUPgePUUpEdoxRM=",
+        "originContent": "# performance. This setting can be overridden with the --max-backlog commandline parameter.",
+        "translatedContent": "# performance. This setting can be overridden with the --max-backlog commandline parameter."
+      },
+      {
+        "row": 42,
+        "rowsha": "5ZC8/y7ml8Poa71tOlIVvD32iGkO1RI59RSlx/WKjDY=",
+        "originContent": "max_update_backlog = 20",
+        "translatedContent": "max_update_backlog = 20"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "QrwZzgsew+OrwQONuKtIYFa3LpCS96lJkQmndLPHHso=",
+        "originContent": "# Ignore videos that have an age limit higher than the one specified here.",
+        "translatedContent": "# Ignore videos that have an age limit higher than the one specified here."
+      },
+      {
+        "row": 45,
+        "rowsha": "vKISwJuD4TefQ0/9+IOIFehjncTXuMkG+jGyYirDTyI=",
+        "originContent": "age_limit = 0",
+        "translatedContent": "age_limit = 0"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "kQxmiR771AggQh7KyO0VQGJ3s+lRlaNOlJhzi3C0tAg=",
+        "originContent": "# Skips livestreams.",
+        "translatedContent": "# Skips livestreams."
+      },
+      {
+        "row": 48,
+        "rowsha": "scYjR/4Nj9Ix00NnaCSNZYsTjIfcqqPxqSn42i2U/VQ=",
+        "originContent": "skip_live_stream = true",
+        "translatedContent": "skip_live_stream = true"
+      },
+      {
+        "row": 49,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 50,
+        "rowsha": "pHfpxeuvHVgRBVjXfTghcVTxPFpUxM40Z/yV1UlJhp8=",
+        "originContent": "# Skips private and member-only videos.",
+        "translatedContent": "# Skips private and member-only videos."
+      },
+      {
+        "row": 51,
+        "rowsha": "JBs21LmFqNPX/bgbh+hTGNNI0oLnB6j90Ul4VV2VJLo=",
+        "originContent": "skip_non_public = true",
+        "translatedContent": "skip_non_public = true"
+      },
+      {
+        "row": 52,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 53,
+        "rowsha": "6BsbI0RsBeSmRB0/a66BcSqaFJEfpioIvVYlvEYMdY4=",
+        "originContent": "# Prompt and table colors. Supports 256 colors. Hence, values between 0-255 are allowed.",
+        "translatedContent": "# Prompt and table colors. Supports 256 colors. Hence, values between 0-255 are allowed."
+      },
+      {
+        "row": 54,
+        "rowsha": "gzfdZYAdBn3kz7Z5IlE4DEVz5gYYDReMsRl3tU9hqvA=",
+        "originContent": "# See https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit for the color codes.",
+        "translatedContent": "# See https://en.wikipedia.org/wiki/ANSI_escape_code#8-bit for the color codes."
+      },
+      {
+        "row": 55,
+        "rowsha": "sl2M4WpAfW1xM5aMN9P3VoOkJXTuY/nLRmVrzQZfCpI=",
+        "originContent": "[theme]",
+        "translatedContent": "[theme]"
+      },
+      {
+        "row": 56,
+        "rowsha": "ndBbtHxiABOjhHcRTcfuTIUyvxk05cy6S2M0/xdAs/8=",
+        "originContent": "prompt_download_audio = 2",
+        "translatedContent": "prompt_download_audio = 2"
+      },
+      {
+        "row": 57,
+        "rowsha": "QkZ+wRTWcqSgomoeSAUThsvrP/C2bqDSmz/YZ6sdpdM=",
+        "originContent": "prompt_download_video = 4",
+        "translatedContent": "prompt_download_video = 4"
+      },
+      {
+        "row": 58,
+        "rowsha": "QEd0FxULfpGJjD2fWXeeAnTqHOA7fZRisNYfpbbhVBU=",
+        "originContent": "prompt_play_audio = 2",
+        "translatedContent": "prompt_play_audio = 2"
+      },
+      {
+        "row": 59,
+        "rowsha": "5rUkdgvdnAHyYwAwq1WV/E22mv14gMe54c4DR4nLqRY=",
+        "originContent": "prompt_play_video = 4",
+        "translatedContent": "prompt_play_video = 4"
+      },
+      {
+        "row": 60,
+        "rowsha": "+004F/DAKtHZoNZzriCtUNiJwEiMZhwS1MgTSNn4u7M=",
+        "originContent": "prompt_mark_watched = 1",
+        "translatedContent": "prompt_mark_watched = 1"
+      },
+      {
+        "row": 61,
+        "rowsha": "vDfmB90L4RfPpvJAZ80KOEYmkHRlpNuNxmBdeo4mbOg=",
+        "originContent": "table_alternate_background = 245",
+        "translatedContent": "table_alternate_background = 245"
+      },
+      {
+        "row": 62,
+        "rowsha": "aw7S2FmPWggDzgzgec2BmN315hCj8vJ2lJiUjGreUB0=",
+        "originContent": "plain_label_text = 244",
+        "translatedContent": "plain_label_text = 244"
+      },
+      {
+        "row": 63,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 64,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 65,
+        "rowsha": "kc29vVijtnghjVhvJHbYqLMZjSyvuwAtJqo0Kc2K2+Q=",
+        "originContent": "[tui]",
+        "translatedContent": "[tui]"
+      },
+      {
+        "row": 66,
+        "rowsha": "NDdURy2LRgJA7xAmfP6pab2rIm6mK5+K4oyfFtfxZNI=",
+        "originContent": "# The characters to use for selecting videos in interactive mode.",
+        "translatedContent": "# The characters to use for selecting videos in interactive mode."
+      },
+      {
+        "row": 67,
+        "rowsha": "7sMrXZ/DNt8R2bOu0UlWsYDs5K7F6Z0eVBUkTOUCxwU=",
+        "originContent": "alphabet = sdfervghnuiojkl",
+        "translatedContent": "alphabet = sdfervghnuiojkl"
+      },
+      {
+        "row": 68,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 69,
+        "rowsha": "rRJzFU3vU/nfQCyiyVNAoTVRF4N0TkcCWhXpw4Yjhpc=",
+        "originContent": "# Default action of interactive mode.",
+        "translatedContent": "# Default action of interactive mode."
+      },
+      {
+        "row": 70,
+        "rowsha": "Uc/RupNsle+Rrp51hC/+8gNMNW5uuPj38jcBG0PKeyw=",
+        "originContent": "# Possible options: play_video, play_audio, mark_watched, download_audio, download_video",
+        "translatedContent": "# Possible options: play_video, play_audio, mark_watched, download_audio, download_video"
+      },
+      {
+        "row": 71,
+        "rowsha": "7CSoKHnw/8Szi3MCrMEHlUdvwtS5Yx5h5KTSg89cX/A=",
+        "originContent": "default_action = play_video",
+        "translatedContent": "default_action = play_video"
+      },
+      {
+        "row": 72,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 73,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 74,
+        "rowsha": "63m0bY6/M+owbWqbT346Rb41fMX7tJwYQE1RrLmWHCE=",
+        "originContent": "[youtube_dl]",
+        "translatedContent": "[youtube_dl]"
+      },
+      {
+        "row": 75,
+        "rowsha": "ylShQBGWyN+MMY3ZShA70qdASvzPO8/6eSgpId8Cdas=",
+        "originContent": "# Format (see FORMAT SELECTION in yt-dlp manpage). Make sure to use a video format here, if you",
+        "translatedContent": "# Format (see FORMAT SELECTION in yt-dlp manpage). Make sure to use a video format here, if you"
+      },
+      {
+        "row": 76,
+        "rowsha": "O9yAIRPHHYzlGuFIHxnY/oZvtcN2vVj8PwOx5+OUD2Q=",
+        "originContent": "# want to be able to download videos.",
+        "translatedContent": "# want to be able to download videos."
+      },
+      {
+        "row": 77,
+        "rowsha": "0gH1H6wQfcYW45VfrFk8OUsDTL/eLVdTZIPj/t8Co70=",
+        "originContent": "format = bestvideo[height<=?1080]+bestaudio/best",
+        "translatedContent": "format = bestvideo[height<=?1080]+bestaudio/best"
+      },
+      {
+        "row": 78,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 79,
+        "rowsha": "hdIY9w3aUoPRrjFRD0JxXNqxsVEy0rDNuSUKY+JnxIo=",
+        "originContent": "# Output template (see OUTPUT TEMPLATE in yt-dlp manpage).",
+        "translatedContent": "# Output template (see OUTPUT TEMPLATE in yt-dlp manpage)."
+      },
+      {
+        "row": 80,
+        "rowsha": "9gMuJOF9Fj+a+z/Oqg8O7RQJ3/glMzFBOK/39f62Hcc=",
+        "originContent": "# Note that the output template will be prefixed with the `download_dir` directory and the name of",
+        "translatedContent": "# Note that the output template will be prefixed with the `download_dir` directory and the name of"
+      },
+      {
+        "row": 81,
+        "rowsha": "wPRQ3gwUhWaVCCC2/LF36Z7zQ8tKvvMxweH3TxwpFxI=",
+        "originContent": "# the playlist if `download_sub_dir` is enabled.",
+        "translatedContent": "# the playlist if `download_sub_dir` is enabled."
+      },
+      {
+        "row": 82,
+        "rowsha": "LWQW9uByYsCOv6YxToziOAIATjEiUqrSK9BbqIcziNE=",
+        "originContent": "output_template = %(title)s.%(ext)s",
+        "translatedContent": "output_template = %(title)s.%(ext)s"
+      },
+      {
+        "row": 83,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 84,
+        "rowsha": "6g/3VAdkdWO9+5O0JcmdLZC4x7c2aKkNN5YXf5rDGlY=",
+        "originContent": "# If a merge is required according to format selection, merge to the given container format.",
+        "translatedContent": "# If a merge is required according to format selection, merge to the given container format."
+      },
+      {
+        "row": 85,
+        "rowsha": "n5MogEgbqVb8iFMRzNIfitXDJGI/2KJsj408n24WCLY=",
+        "originContent": "# One of mkv, mp4, ogg, webm, flv",
+        "translatedContent": "# One of mkv, mp4, ogg, webm, flv"
+      },
+      {
+        "row": 86,
+        "rowsha": "WiysfwQBX4ynWQh2/ZvslbLYzBl0XXfIGrGEFI7LbeM=",
+        "originContent": "merge_output_format = mkv",
+        "translatedContent": "merge_output_format = mkv"
+      },
+      {
+        "row": 87,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 88,
+        "rowsha": "T8kcQgIT8xd5+d0+6iZwMuohcjMkCrugKLvrwwTFf6w=",
+        "originContent": "# Limit download speed to the given bytes/second. Set 0 for no limit.",
+        "translatedContent": "# Limit download speed to the given bytes/second. Set 0 for no limit."
+      },
+      {
+        "row": 89,
+        "rowsha": "lLGJ7a8HoMaeZSMTb+gYvfQu1f9EY4+fnebjMWXqp2s=",
+        "originContent": "# E.g. limit to one megabyte per second",
+        "translatedContent": "# E.g. limit to one megabyte per second"
+      },
+      {
+        "row": 90,
+        "rowsha": "DS78HIftxW/z4lJJIjOoYBUGCHUISVKDY7odyte48zk=",
+        "originContent": "#ratelimit = 1000000",
+        "translatedContent": "#ratelimit = 1000000"
+      },
+      {
+        "row": 91,
+        "rowsha": "mV2AnuNzEcRNJEgiX8xDcehofAFax3H02lwGok6GQag=",
+        "originContent": "ratelimit = 0",
+        "translatedContent": "ratelimit = 0"
+      },
+      {
+        "row": 92,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 93,
+        "rowsha": "hyrMJ1sb1rjMcI/dppEb2H0A+CF1sKYMEuX7+JzMREk=",
+        "originContent": "# Set number of retries before giving up on a download.",
+        "translatedContent": "# Set number of retries before giving up on a download."
+      },
+      {
+        "row": 94,
+        "rowsha": "aLn6N7yP3/men8WzhUNS+vDcJhus5Yht/qoZCwQ7qbQ=",
+        "originContent": "# Set 0 for no retries.",
+        "translatedContent": "# Set 0 for no retries."
+      },
+      {
+        "row": 95,
+        "rowsha": "JY6ZoPw5d/TlS1PXq6JNeSzeE6d7Vc2vazi6/LqOzFo=",
+        "originContent": "retries = 0",
+        "translatedContent": "retries = 0"
+      },
+      {
+        "row": 96,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 97,
+        "rowsha": "zRRb0pHh7YJtXftOgV+Ma4ym0Dx8uXVN+3camnlAUfE=",
+        "originContent": "# Subtitles for videos.",
+        "translatedContent": "# Subtitles for videos."
+      },
+      {
+        "row": 98,
+        "rowsha": "4jfRe8ZF3BI5cHWDCpWBxxXgTmiKdN3U/7TyCKIrRqs=",
+        "originContent": "# If enabled and available, automatic and manual subtitles for selected languages are embedded in",
+        "translatedContent": "# If enabled and available, automatic and manual subtitles for selected languages are embedded in"
+      },
+      {
+        "row": 99,
+        "rowsha": "JtfzVEmUr8qkxeP+9RJRLm7xB00xKBJSAvMTVZEOdqI=",
+        "originContent": "# the video.",
+        "translatedContent": "# the video."
+      },
+      {
+        "row": 100,
+        "rowsha": "3TBlOa0YOjXsOcGoUNytZHAqazP5t/M642eVr7CfCjo=",
+        "originContent": "#subtitles = en,de",
+        "translatedContent": "#subtitles = en,de"
+      },
+      {
+        "row": 101,
+        "rowsha": "6obJaKJPSLsHKbVPiYLuK17qkXIDODnh5d2qr4tytXw=",
+        "originContent": "subtitles = off",
+        "translatedContent": "subtitles = off"
+      },
+      {
+        "row": 102,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 103,
+        "rowsha": "/G4fcbq2CBLoX21Rdy0ahpYRWPpUtxsxdR/TC1sQ4Fk=",
+        "originContent": "# Embed the youtube thumbnail in audio downloads.",
+        "translatedContent": "# Embed the youtube thumbnail in audio downloads."
+      },
+      {
+        "row": 104,
+        "rowsha": "9OYzZzqDIjB703PU1S5EDop+BJxFVWhwxtWYpFOs71Q=",
+        "originContent": "# Transforms the resulting file to m4a, if enabled.",
+        "translatedContent": "# Transforms the resulting file to m4a, if enabled."
+      },
+      {
+        "row": 105,
+        "rowsha": "sjrj+yCp+u7Zw+0lEu52dHPGwcZij3Q0YSqXrtox/DQ=",
+        "originContent": "thumbnail = on",
+        "translatedContent": "thumbnail = on"
+      },
+      {
+        "row": 106,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 107,
+        "rowsha": "eB689GuGsCuT68/4qmaZWMsag4tJyQXV546igSQZ/xQ=",
+        "originContent": "# Don't download videos longer than 'max_duration' seconds.",
+        "translatedContent": "# Don't download videos longer than 'max_duration' seconds."
+      },
+      {
+        "row": 108,
+        "rowsha": "LzaskGlsMI3xPKoNhQnP1pv73EvBsRUjI6CmN1LG8Ss=",
+        "originContent": "# 0 disables the limit.",
+        "translatedContent": "# 0 disables the limit."
+      },
+      {
+        "row": 109,
+        "rowsha": "0EuVJFDQPkyrWRDbzcgaP2P38iZ9Rbp8wpotagPlP70=",
+        "originContent": "max_duration = 9000",
+        "translatedContent": "max_duration = 9000"
+      },
+      {
+        "row": 110,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 111,
+        "rowsha": "ZHOLVXg8LvViBpwp1YTPcNB0nYWC4RMa32ynDed+rWQ=",
+        "originContent": "# Restrict filenames to only ASCII characters and avoid \"&\" and spaces in filenames.",
+        "translatedContent": "# Restrict filenames to only ASCII characters and avoid \"&\" and spaces in filenames."
+      },
+      {
+        "row": 112,
+        "rowsha": "LHcAHc5TBSpKyiHmr0j8JYvz7m/T6kj2Ag4S5XdYmg8=",
+        "originContent": "restrict_filenames = off",
+        "translatedContent": "restrict_filenames = off"
+      },
+      {
+        "row": 113,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n### mpv configuration\nYtcc uses [mpv](https://mpv.io) to play videos.\nYou can configure mpv to integrate nicely with ytcc.\nSpecifics are documented [here](https://github.com/woefe/ytcc/tree/master/doc/mpv.md).\n\n\n## Reporting issues\nCreate a new issue on the [GitHub issue tracker](https://github.com/woefe/ytcc/issues/new).\nDescribe the issue as detailed as possible, and please use the issue templates, if possible!\n**Important**: Remember to include the output of `ytcc bug-report` in bug reports.\nIt also might help a lot to run ytcc with the `--loglevel debug` option and include the output in your report.\n\n## Development\nWe use [hatch](https://hatch.pypa.io/latest/) for development.\n",
+    "ContentSha": "C59cLajHSS5RpAYzu1CuPJ2C3y93QZeaT2r8cRHGQ4Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### mpvの設定\nYtccは動画再生に[mpv](https://mpv.io)を使用します。\nmpvを設定してytccとスムーズに連携させることができます。\n詳細は[こちら](https://github.com/woefe/ytcc/tree/master/doc/mpv.md)に記載されています。\n\n\n## 問題報告\n[GitHubのissueトラッカー](https://github.com/woefe/ytcc/issues/new)で新しいissueを作成してください。\n問題をできるだけ詳しく説明し、可能であればissueテンプレートを使用してください！\n**重要**: バグ報告には必ず`ytcc bug-report`の出力を含めてください。\nまた、`--loglevel debug`オプションを付けてytccを実行し、その出力を報告に含めると非常に役立ちます。\n\n## 開発\n開発には[hatch](https://hatch.pypa.io/latest/)を使用しています。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "+g8X+JQr0FmLcHkOVNmxIGIiPdtaQRmy/GjuT6enoio=",
+        "originContent": "### mpv configuration",
+        "translatedContent": "### mpvの設定"
+      },
+      {
+        "row": 3,
+        "rowsha": "oIadU3UmZL4k+boxD0XIW1S1kIgSDPnJB/Nn2PZFUd8=",
+        "originContent": "Ytcc uses [mpv](https://mpv.io) to play videos.",
+        "translatedContent": "Ytccは動画再生に[mpv](https://mpv.io)を使用します。"
+      },
+      {
+        "row": 4,
+        "rowsha": "nNF11cNg9i64jEUtQiXf1+huTsjmpt3w5pky/beUrjY=",
+        "originContent": "You can configure mpv to integrate nicely with ytcc.",
+        "translatedContent": "mpvを設定してytccとスムーズに連携させることができます。"
+      },
+      {
+        "row": 5,
+        "rowsha": "lQAMWZvQ5IIXfRhmTVwuXUSV2HPmTkaBlQAtfW2K8/A=",
+        "originContent": "Specifics are documented [here](https://github.com/woefe/ytcc/tree/master/doc/mpv.md).",
+        "translatedContent": "詳細は[こちら](https://github.com/woefe/ytcc/tree/master/doc/mpv.md)に記載されています。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "SIEW0oFLKUhq8gzlQm2bzYjLkA+aPabMHHuF5BeejSA=",
+        "originContent": "## Reporting issues",
+        "translatedContent": "## 問題報告"
+      },
+      {
+        "row": 9,
+        "rowsha": "w8w4ZnO1tqX8ix6u8c/7MXi4YZMPFR+wp6brGeslUc8=",
+        "originContent": "Create a new issue on the [GitHub issue tracker](https://github.com/woefe/ytcc/issues/new).",
+        "translatedContent": "[GitHubのissueトラッカー](https://github.com/woefe/ytcc/issues/new)で新しいissueを作成してください。"
+      },
+      {
+        "row": 10,
+        "rowsha": "iGP3JSjFC+ovY+nDOmB0YoJ9X62MsR/0zEo1Nwc7xVI=",
+        "originContent": "Describe the issue as detailed as possible, and please use the issue templates, if possible!",
+        "translatedContent": "問題をできるだけ詳しく説明し、可能であればissueテンプレートを使用してください！"
+      },
+      {
+        "row": 11,
+        "rowsha": "WQoKxzD/B2cVbK+b81eG9zicfLfELvCx9N22TiWyCk4=",
+        "originContent": "**Important**: Remember to include the output of `ytcc bug-report` in bug reports.",
+        "translatedContent": "**重要**: バグ報告には必ず`ytcc bug-report`の出力を含めてください。"
+      },
+      {
+        "row": 12,
+        "rowsha": "CXRRywJ3y99mki72onO9bX5woDXimGGaxjJC0XxDaD4=",
+        "originContent": "It also might help a lot to run ytcc with the `--loglevel debug` option and include the output in your report.",
+        "translatedContent": "また、`--loglevel debug`オプションを付けてytccを実行し、その出力を報告に含めると非常に役立ちます。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": "## 開発"
+      },
+      {
+        "row": 15,
+        "rowsha": "4b+wHteuTmp70Vou3q6cIQZGxsTmA29nPO0cik9IFak=",
+        "originContent": "We use [hatch](https://hatch.pypa.io/latest/) for development.",
+        "translatedContent": "開発には[hatch](https://hatch.pypa.io/latest/)を使用しています。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```shell\nhatch env create\nhatch shell\n\n# Verify successful install\nytcc --help\n```",
+    "ContentSha": "cQjEEzC4Yxy2BxI33i27eZGn+5Hp3hAijsCPqeQKg9A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nhatch env create\nhatch shell\n\n# Verify successful install\nytcc --help\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "nID2mWr3qX3gmG2rhf7ZwGFXcI/sxTIUf0VL84ZvOto=",
+        "originContent": "hatch env create",
+        "translatedContent": "hatch env create"
+      },
+      {
+        "row": 3,
+        "rowsha": "yo+aBxdYaCbZZELGrnihWkibucgR+x2BC8uY2fuVxjA=",
+        "originContent": "hatch shell",
+        "translatedContent": "hatch shell"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "j0EQP1HXoarzbTAc+pvJQgEcErz5H6HDAM8xlvbDRQs=",
+        "originContent": "# Verify successful install",
+        "translatedContent": "# Verify successful install"
+      },
+      {
+        "row": 6,
+        "rowsha": "mBarMhc9QuimBy1UxXfD8KMxXLssVIkT6l9zj5oariE=",
+        "originContent": "ytcc --help",
+        "translatedContent": "ytcc --help"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\nRun the following commands before every pull request and fix the warnings or errors they produce.",
+    "ContentSha": "Xx9w3vzBklgL4ta1fN/m/1tADQLotETUfgjk1WClpsA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "プルリクエストを作成する前に、以下のコマンドを実行し、警告やエラーを修正してください。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "プルリクエストを作成する前に、以下のコマンドを実行し、警告やエラーを修正してください。"
+      },
+      {
+        "row": 2,
+        "rowsha": "VHX9hDo/yXTWmaePVuI8x8wgcCCxdTT8tK+j7XkugoE=",
+        "originContent": "Run the following commands before every pull request and fix the warnings or errors they produce.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```shell script\nhatch fmt --check\nhatch test\n```",
+    "ContentSha": "T1kD2+vYR0P5HgFZa3tjFktDH6AXU1w7G9Bp6DpuuEw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell script\nhatch fmt --check\nhatch test\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4fd7/2J0iQDcLMTy+SDAjTc2hOl+XLQ8sstf7U8lp58=",
+        "originContent": "```shell script",
+        "translatedContent": "```shell script"
+      },
+      {
+        "row": 2,
+        "rowsha": "XK4ok0Dm05jZpoNrfm2S7urfEeVTyNmlDX4p/ryoKY8=",
+        "originContent": "hatch fmt --check",
+        "translatedContent": "hatch fmt --check"
+      },
+      {
+        "row": 3,
+        "rowsha": "Q330da32V6BAh+kCB18HlOFNj1ds8SQDwGimN8gZZK4=",
+        "originContent": "hatch test",
+        "translatedContent": "hatch test"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n### External dependencies\nOptional requirements:\n- [ffmpeg](https://ffmpeg.org/) for `.mp4` or `.mkv` merging\n- [mpv](https://mpv.io/), if you want to play audio or video\n\nRequirements for the ytccf.sh bash script:\n- [fzf](https://github.com/junegunn/fzf) version 0.23.1 or newer\n- Optionally, for thumbnail support\n    - [curl](https://curl.se/)\n    - Either [ueberzug](https://github.com/seebye/ueberzug) or [kitty](https://sw.kovidgoyal.net/kitty/).\n",
+    "ContentSha": "yLVPZwG9EUF/ko1yl6TDRNX5uq6GmK/3BQKNZbdSzvU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 外部依存関係\nオプションの要件:\n- `.mp4` または `.mkv` の結合には [ffmpeg](https://ffmpeg.org/)\n- 音声や動画を再生する場合は [mpv](https://mpv.io/)\n\nytccf.sh bashスクリプトの要件:\n- バージョン0.23.1以降の [fzf](https://github.com/junegunn/fzf)\n- サムネイルサポート用にオプションで\n    - [curl](https://curl.se/)\n    - [ueberzug](https://github.com/seebye/ueberzug) または [kitty](https://sw.kovidgoyal.net/kitty/) のいずれか。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 外部依存関係"
+      },
+      {
+        "row": 2,
+        "rowsha": "1gAplaltX6nHbb+crxIYKO8ty9oHtxOWFc5CbWnCxYc=",
+        "originContent": "### External dependencies",
+        "translatedContent": "オプションの要件:"
+      },
+      {
+        "row": 3,
+        "rowsha": "GFtcZ/RFfvWZG4if/bj/l/nhWxd9LPDPVmeq2hYVDWs=",
+        "originContent": "Optional requirements:",
+        "translatedContent": "- `.mp4` または `.mkv` の結合には [ffmpeg](https://ffmpeg.org/)"
+      },
+      {
+        "row": 4,
+        "rowsha": "+bYrCP2LCyHS/b1EWqf71oz3Eafisd1bQwD2+/RKkC0=",
+        "originContent": "- [ffmpeg](https://ffmpeg.org/) for `.mp4` or `.mkv` merging",
+        "translatedContent": "- 音声や動画を再生する場合は [mpv](https://mpv.io/)"
+      },
+      {
+        "row": 5,
+        "rowsha": "/qGWCYHETsjtMLNB/d8hKDN8YR5FVxmTO8mihJGCIOE=",
+        "originContent": "- [mpv](https://mpv.io/), if you want to play audio or video",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ytccf.sh bashスクリプトの要件:"
+      },
+      {
+        "row": 7,
+        "rowsha": "o2xVsu+dKGj/tQq4JTyHS1jX1O8X3soTkqVNZeaGXYM=",
+        "originContent": "Requirements for the ytccf.sh bash script:",
+        "translatedContent": "- バージョン0.23.1以降の [fzf](https://github.com/junegunn/fzf)"
+      },
+      {
+        "row": 8,
+        "rowsha": "H7iynIjfjSKAR5jLdJp8exQiSP21ra9r3M3xauBowOw=",
+        "originContent": "- [fzf](https://github.com/junegunn/fzf) version 0.23.1 or newer",
+        "translatedContent": "- サムネイルサポート用にオプションで"
+      },
+      {
+        "row": 9,
+        "rowsha": "VG3cde5I+BYaNy/KUxYQGZLlMjuvA7yMl/kqAPt/HVQ=",
+        "originContent": "- Optionally, for thumbnail support",
+        "translatedContent": "    - [curl](https://curl.se/)"
+      },
+      {
+        "row": 10,
+        "rowsha": "Sh+nLrCk6cctDuLYuTw7PFnlHAHJPp2xMrPVL4rw9wo=",
+        "originContent": "    - [curl](https://curl.se/)",
+        "translatedContent": "    - [ueberzug](https://github.com/seebye/ueberzug) または [kitty](https://sw.kovidgoyal.net/kitty/) のいずれか。"
+      },
+      {
+        "row": 11,
+        "rowsha": "S92ftAetbss+voAeEwdOgUjTkMZCbqy0dIOQc2B7lUc=",
+        "originContent": "    - Either [ueberzug](https://github.com/seebye/ueberzug) or [kitty](https://sw.kovidgoyal.net/kitty/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

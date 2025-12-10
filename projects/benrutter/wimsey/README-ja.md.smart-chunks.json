@@ -1,0 +1,543 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 🔍 Wimsey\n\n[![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=Codeberg&logoColor=white)](https://codeberg.org/benrutter/wimsey)\n[![PyPi](https://img.shields.io/badge/pypi-%23ececec.svg?style=for-the-badge&logo=pypi&logoColor=1f73b7)](https://pypi.org/project/wimsey/)\n\n[![Docs](https://img.shields.io/badge/Docs-hugo-blue)](https://benrutter.codeberg.page/wimsey-site/site/)\n![License](https://img.shields.io/badge/license-MIT-blue)\n![coverage](https://img.shields.io/badge/coverage-100-green)\n\n\nWimsey is lightweight, flexible and fully open-source data contract library.\n\n- 🐋 **Bring your own dataframe library**: Built on top of [Narwhals](https://github.com/narwhals-dev/narwhals) so your tests are carried out natively in your own dataframe library (including Pandas, Polars, Pyspark, Dask, DuckDB, CuDF, Rapids, Arrow and Modin)\n- 🎍 **Bring your own contract format**: Write contracts in yaml, json or python - whichever you prefer!\n- 🪶 **Ultra Lightweight**: Built for fast imports and minimal overwhead with only two dependencies ([Narwhals](https://github.com/narwhals-dev/narwhals) and [FSSpec](https://github.com/fsspec/filesystem_spec))\n- 🥔 **Simple, easy API**: Low mental overheads with two simple functions for testing dataframes, and a simple dataclass for results.\n\nCheck out the handy [test catalogue](https://benrutter.github.io/wimsey/possible_tests/) and [quick start guide](https://benrutter.github.io/wimsey/)\n\n## What is a data contract?\n\nAs well as being a good buzzword to mention at your next data event, data contracts are a good way of testing data values at boundary points. Ideally, all data would be usable when you recieve it, but you probably already have figured that's not always the case.\n\nA data contract is an expression of what *should* be true of some data - we might want to check that the only columns that exist are `first_name`, `last_name` and `rating`, or we might want to check that `rating` is a number less than 10.\n\nWimsey let's you write contracts in json, yaml or python, here's how the above checks would look in yaml:\n",
+    "ContentSha": "yuFSVTDNAVYM/pNkFHz/dehIVm9qyXi9YeT7Bjzt0qA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 🔍 Wimsey\n\n[![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=Codeberg&logoColor=white)](https://codeberg.org/benrutter/wimsey)\n[![PyPi](https://img.shields.io/badge/pypi-%23ececec.svg?style=for-the-badge&logo=pypi&logoColor=1f73b7)](https://pypi.org/project/wimsey/)\n\n[![Docs](https://img.shields.io/badge/Docs-hugo-blue)](https://benrutter.codeberg.page/wimsey-site/site/)\n![License](https://img.shields.io/badge/license-MIT-blue)\n![coverage](https://img.shields.io/badge/coverage-100-green)\n\n\nWimseyは軽量で柔軟、完全オープンソースのデータ契約ライブラリです。\n\n- 🐋 **お好きなデータフレームライブラリを使用可能**: [Narwhals](https://github.com/narwhals-dev/narwhals)の上に構築されており、Pandas、Polars、Pyspark、Dask、DuckDB、CuDF、Rapids、Arrow、Modinなど、お使いのデータフレームライブラリでネイティブにテストを実行できます。\n- 🎍 **お好きな契約フォーマットを使用可能**: yaml、json、python、どれでもお好みの形式で契約を書けます！\n- 🪶 **超軽量**: 速いインポートと最小限のオーバーヘッドのために、依存は2つだけ([Narwhals](https://github.com/narwhals-dev/narwhals)と[FSSpec](https://github.com/fsspec/filesystem_spec))。\n- 🥔 **シンプルで使いやすいAPI**: 2つの簡単な関数でデータフレームのテストができ、結果はシンプルなデータクラスで返されるため精神的負担が少ないです。\n\n便利な[test catalogue](https://benrutter.github.io/wimsey/possible_tests/)と[クイックスタートガイド](https://benrutter.github.io/wimsey/)もぜひご覧ください。\n\n## データ契約とは何ですか？\n\n次のデータイベントで話題にしたくなる良いバズワードであると同時に、データの境界値での検証に適した方法がデータ契約です。理想的には、受け取ったすべてのデータがすぐに使える状態であるべきですが、そうでないことが多いのはすでにご存知かもしれません。\n\nデータ契約とは、あるデータに対して*真であるべき*条件を表現したものです。例えば、存在する列は`first_name`、`last_name`、`rating`だけであることや、`rating`が10未満の数値であることをチェックしたい場合があります。\n\nWimseyではjson、yaml、pythonで契約を書けます。以下はyamlで上記のチェックを表現した例です：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4xWBSZqXyzGVLgMn7UzC2Po7YgHeEoZzUNifp3alPJc=",
+        "originContent": "# 🔍 Wimsey",
+        "translatedContent": "# 🔍 Wimsey"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "dGZDT/9+cmrsLp7WlVRTKVHYb0h0rUcn+2XwpELAxfY=",
+        "originContent": "[![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=Codeberg&logoColor=white)](https://codeberg.org/benrutter/wimsey)",
+        "translatedContent": "[![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=for-the-badge&logo=Codeberg&logoColor=white)](https://codeberg.org/benrutter/wimsey)"
+      },
+      {
+        "row": 4,
+        "rowsha": "8/1g8fXpKwcjdCh1TkPZiXnqvXuxf8bC0O5tOT92Spc=",
+        "originContent": "[![PyPi](https://img.shields.io/badge/pypi-%23ececec.svg?style=for-the-badge&logo=pypi&logoColor=1f73b7)](https://pypi.org/project/wimsey/)",
+        "translatedContent": "[![PyPi](https://img.shields.io/badge/pypi-%23ececec.svg?style=for-the-badge&logo=pypi&logoColor=1f73b7)](https://pypi.org/project/wimsey/)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "U5SonlMoD75lU8y0buf4uKcyVc95UcQiNhwWDw+Gmm4=",
+        "originContent": "[![Docs](https://img.shields.io/badge/Docs-hugo-blue)](https://benrutter.codeberg.page/wimsey-site/site/)",
+        "translatedContent": "[![Docs](https://img.shields.io/badge/Docs-hugo-blue)](https://benrutter.codeberg.page/wimsey-site/site/)"
+      },
+      {
+        "row": 7,
+        "rowsha": "maQEtyE3dFDPl1j81jqqlkbgzpl+wI78kN6blr9wrYs=",
+        "originContent": "![License](https://img.shields.io/badge/license-MIT-blue)",
+        "translatedContent": "![License](https://img.shields.io/badge/license-MIT-blue)"
+      },
+      {
+        "row": 8,
+        "rowsha": "tCYw3V2ToUAzwccmEgL7DzO92/6ycLiCdSAsZCPO0mA=",
+        "originContent": "![coverage](https://img.shields.io/badge/coverage-100-green)",
+        "translatedContent": "![coverage](https://img.shields.io/badge/coverage-100-green)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "nXkieOVCI9EAoULpnU3Xpg6hBqdTv7MEj8OTHurxuLU=",
+        "originContent": "Wimsey is lightweight, flexible and fully open-source data contract library.",
+        "translatedContent": "Wimseyは軽量で柔軟、完全オープンソースのデータ契約ライブラリです。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "dlZnFEy2D7m1vTecW5Ya0UvIVR2LcZlBJdtjwkXFBus=",
+        "originContent": "- 🐋 **Bring your own dataframe library**: Built on top of [Narwhals](https://github.com/narwhals-dev/narwhals) so your tests are carried out natively in your own dataframe library (including Pandas, Polars, Pyspark, Dask, DuckDB, CuDF, Rapids, Arrow and Modin)",
+        "translatedContent": "- 🐋 **お好きなデータフレームライブラリを使用可能**: [Narwhals](https://github.com/narwhals-dev/narwhals)の上に構築されており、Pandas、Polars、Pyspark、Dask、DuckDB、CuDF、Rapids、Arrow、Modinなど、お使いのデータフレームライブラリでネイティブにテストを実行できます。"
+      },
+      {
+        "row": 14,
+        "rowsha": "S1x4kv4V1SUYQb/dxszQvGQCXIAYEhScfy2BVqAik7M=",
+        "originContent": "- 🎍 **Bring your own contract format**: Write contracts in yaml, json or python - whichever you prefer!",
+        "translatedContent": "- 🎍 **お好きな契約フォーマットを使用可能**: yaml、json、python、どれでもお好みの形式で契約を書けます！"
+      },
+      {
+        "row": 15,
+        "rowsha": "/71jshWlUtbseCPvUjRO8nl2nu4Y9RxKGLpsDZbQUTs=",
+        "originContent": "- 🪶 **Ultra Lightweight**: Built for fast imports and minimal overwhead with only two dependencies ([Narwhals](https://github.com/narwhals-dev/narwhals) and [FSSpec](https://github.com/fsspec/filesystem_spec))",
+        "translatedContent": "- 🪶 **超軽量**: 速いインポートと最小限のオーバーヘッドのために、依存は2つだけ([Narwhals](https://github.com/narwhals-dev/narwhals)と[FSSpec](https://github.com/fsspec/filesystem_spec))。"
+      },
+      {
+        "row": 16,
+        "rowsha": "BzbmJ+vl2NOz4qnc+wnksVQbQAvD9BD6jE8wbCjHNDk=",
+        "originContent": "- 🥔 **Simple, easy API**: Low mental overheads with two simple functions for testing dataframes, and a simple dataclass for results.",
+        "translatedContent": "- 🥔 **シンプルで使いやすいAPI**: 2つの簡単な関数でデータフレームのテストができ、結果はシンプルなデータクラスで返されるため精神的負担が少ないです。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "/XgcYnOAyAW4s/18jnpa//b+BzsZNDFqaOpZFSGDdbE=",
+        "originContent": "Check out the handy [test catalogue](https://benrutter.github.io/wimsey/possible_tests/) and [quick start guide](https://benrutter.github.io/wimsey/)",
+        "translatedContent": "便利な[test catalogue](https://benrutter.github.io/wimsey/possible_tests/)と[クイックスタートガイド](https://benrutter.github.io/wimsey/)もぜひご覧ください。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Xeht6oq0CftdLP2E+cHDoeyLGKuGhqJCGDBoTw/D1cM=",
+        "originContent": "## What is a data contract?",
+        "translatedContent": "## データ契約とは何ですか？"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "DCdrocISW9PsyMi7XcHZKn0PKsww0JzIhmx1Y+X8onE=",
+        "originContent": "As well as being a good buzzword to mention at your next data event, data contracts are a good way of testing data values at boundary points. Ideally, all data would be usable when you recieve it, but you probably already have figured that's not always the case.",
+        "translatedContent": "次のデータイベントで話題にしたくなる良いバズワードであると同時に、データの境界値での検証に適した方法がデータ契約です。理想的には、受け取ったすべてのデータがすぐに使える状態であるべきですが、そうでないことが多いのはすでにご存知かもしれません。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "4yVm2vg5Hxet5GY1MWmm2yawF709IONdHn3fwrUiTPQ=",
+        "originContent": "A data contract is an expression of what *should* be true of some data - we might want to check that the only columns that exist are `first_name`, `last_name` and `rating`, or we might want to check that `rating` is a number less than 10.",
+        "translatedContent": "データ契約とは、あるデータに対して*真であるべき*条件を表現したものです。例えば、存在する列は`first_name`、`last_name`、`rating`だけであることや、`rating`が10未満の数値であることをチェックしたい場合があります。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "epNQteLm2ZQPbuMrxiblhbKCrPEkSzW4Q5fuKkNzFHQ=",
+        "originContent": "Wimsey let's you write contracts in json, yaml or python, here's how the above checks would look in yaml:",
+        "translatedContent": "Wimseyではjson、yaml、pythonで契約を書けます。以下はyamlで上記のチェックを表現した例です："
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```yaml\n- test: columns_should\n  be:\n    - first_name\n    - last_name\n    - rating\n- column: rating\n  test: max_should\n  be_less_than_or_equal_to: 10\n```",
+    "ContentSha": "ZnC9T4nRaZKl9aGUG+b375+m/BVC5Bglr6jFjgXk6N4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\n- test: columns_should\n  be:\n    - first_name\n    - last_name\n    - rating\n- column: rating\n  test: max_should\n  be_less_than_or_equal_to: 10\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "qGXygvvzJc3owfmDSLmkl6tzR5dDb4QOaCUkEPtAhMQ=",
+        "originContent": "- test: columns_should",
+        "translatedContent": "- test: columns_should"
+      },
+      {
+        "row": 3,
+        "rowsha": "og2SnnkPWbE/fxBbU9GbpDsTPXhVTNFo7r8ocQDNVwc=",
+        "originContent": "  be:",
+        "translatedContent": "  be:"
+      },
+      {
+        "row": 4,
+        "rowsha": "cYt9kLsqy1EZMkMs2BmCr40fz/ApvcKzEax9shjNt/s=",
+        "originContent": "    - first_name",
+        "translatedContent": "    - first_name"
+      },
+      {
+        "row": 5,
+        "rowsha": "a/4xIoe9WBhELnwFUkug6x3NdmEHi7h6vbOicrQtZQo=",
+        "originContent": "    - last_name",
+        "translatedContent": "    - last_name"
+      },
+      {
+        "row": 6,
+        "rowsha": "n/hPbbWvhXeomt5v49WqGMqag7okNV9ymEmE+Td3Mz8=",
+        "originContent": "    - rating",
+        "translatedContent": "    - rating"
+      },
+      {
+        "row": 7,
+        "rowsha": "0nBEC45yv1SOGjv8/Ggyh9hjnLTBRJ1VT6p03RmRQWs=",
+        "originContent": "- column: rating",
+        "translatedContent": "- column: rating"
+      },
+      {
+        "row": 8,
+        "rowsha": "xt1JopzH1lVDiVNKhVB4iwxMbTdBPH2jP4u3pdCK1Jo=",
+        "originContent": "  test: max_should",
+        "translatedContent": "  test: max_should"
+      },
+      {
+        "row": 9,
+        "rowsha": "SSYcw5snvxhu4nZ1F6u4zCrHnU0IEPSdHwAWHa3bYIU=",
+        "originContent": "  be_less_than_or_equal_to: 10",
+        "translatedContent": "  be_less_than_or_equal_to: 10"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nWimsey then can execute tests for you in a couple of ways, `validate` - which will throw an error if tests fail, and otherwise pass back your dataframe - and `test`, which will give you a detailed run down of individual test success and fails.\n\nValidate is designed to work nicely with polars or pandas `pipe` methods as a handy guard:\n",
+    "ContentSha": "kT4pGxfwqQEE353UI+wJI6RHpE3ZPZh/H1s2jicGnq8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nWimsey は次の2つの方法でテストを実行できます。`validate` はテストが失敗した場合にエラーをスローし、それ以外の場合はデータフレームを返します。`test` は個々のテストの成功と失敗の詳細な概要を提供します。\n\nValidate は polars や pandas の `pipe` メソッドと組み合わせて便利なガードとして機能するよう設計されています：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "+LwPMZsPt4gmVaaqYvzOQQSyikKTqjs3IJ8lB8SkNPg=",
+        "originContent": "Wimsey then can execute tests for you in a couple of ways, `validate` - which will throw an error if tests fail, and otherwise pass back your dataframe - and `test`, which will give you a detailed run down of individual test success and fails.",
+        "translatedContent": "Wimsey は次の2つの方法でテストを実行できます。`validate` はテストが失敗した場合にエラーをスローし、それ以外の場合はデータフレームを返します。`test` は個々のテストの成功と失敗の詳細な概要を提供します。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "uJV4e6UFRl/sWxRQmaXyiNEd59nsVNsVTSdRpaGBV0A=",
+        "originContent": "Validate is designed to work nicely with polars or pandas `pipe` methods as a handy guard:",
+        "translatedContent": "Validate は polars や pandas の `pipe` メソッドと組み合わせて便利なガードとして機能するよう設計されています："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```python\nimport polars as pl\nimport wimsey\n\ndf = (\n  pl.read_csv(\"hopefully_nice_data.csv\")\n  .pipe(wimsey.validate, \"tests.json\")\n  .group_by(\"name\").agg(pl.col(\"value\").sum())\n)\n```",
+    "ContentSha": "ODgbhafpcVWL1RD7K0lUxY5s6jJUe3w9J8f1WNEOlu8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nimport polars as pl\nimport wimsey\n\ndf = (\n  pl.read_csv(\"hopefully_nice_data.csv\")\n  .pipe(wimsey.validate, \"tests.json\")\n  .group_by(\"name\").agg(pl.col(\"value\").sum())\n)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "4Y77G5BO0U2GTJAGaKrgGrp+zrg6oQNCbLrK3yGbmf0=",
+        "originContent": "import polars as pl",
+        "translatedContent": "import polars as pl"
+      },
+      {
+        "row": 3,
+        "rowsha": "sT7+/GLtlExIRdXg5NJVbYFHx/0s/KSbnTw8mDFYmag=",
+        "originContent": "import wimsey",
+        "translatedContent": "import wimsey"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "VJHaJDK5nu5wC9eKm96nT226t7yoDQEB5bkOTkoNax4=",
+        "originContent": "df = (",
+        "translatedContent": "df = ("
+      },
+      {
+        "row": 6,
+        "rowsha": "148TH9LInSow/fUlZy7ATO6rZlkkFDbO2PHHZxnjylc=",
+        "originContent": "  pl.read_csv(\"hopefully_nice_data.csv\")",
+        "translatedContent": "  pl.read_csv(\"hopefully_nice_data.csv\")"
+      },
+      {
+        "row": 7,
+        "rowsha": "XUYB1k4gRAtk0qbW7jfc0q0QopCwT3Q3OUL2Qe8kX4I=",
+        "originContent": "  .pipe(wimsey.validate, \"tests.json\")",
+        "translatedContent": "  .pipe(wimsey.validate, \"tests.json\")"
+      },
+      {
+        "row": 8,
+        "rowsha": "7B4gYoPBEsny7DVkXJWyuMpjH3utY+0KPtnLElQAqAY=",
+        "originContent": "  .group_by(\"name\").agg(pl.col(\"value\").sum())",
+        "translatedContent": "  .group_by(\"name\").agg(pl.col(\"value\").sum())"
+      },
+      {
+        "row": 9,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nTest is a single function call, returning a `FinalResult` data-type:\n",
+    "ContentSha": "jDFuiIzcGs0hA180p+cg4vQsrWTq4ERGVycCWMQ+yco=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "テストは単一の関数呼び出しであり、`FinalResult`データ型を返します：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "テストは単一の関数呼び出しであり、`FinalResult`データ型を返します："
+      },
+      {
+        "row": 2,
+        "rowsha": "Ms+F7x+5DWqiRptG8Rx8Ou24KBefqNd3zKBSMlGyFUM=",
+        "originContent": "Test is a single function call, returning a `FinalResult` data-type:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```python\nimport pandas as pd\nimport wimsey\n\ndf = pd.read_csv(\"hopefully_nice_data.csv\")\nresults = wimsey.test(df, \"tests.yaml\")\n\nif results.success:\n  print(\"Yay we have good data! 🥳\")\nelse:\n  print(f\"Oh nooo, something's up! 😭\")\n  print([i for i in results.results if not i.success])\n```",
+    "ContentSha": "0Fn5c33RoWXtajEZ4puTl+VYW60m3V4wK2umhn5O4ZM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nimport pandas as pd\nimport wimsey\n\ndf = pd.read_csv(\"hopefully_nice_data.csv\")\nresults = wimsey.test(df, \"tests.yaml\")\n\nif results.success:\n  print(\"Yay we have good data! 🥳\")\nelse:\n  print(f\"Oh nooo, something's up! 😭\")\n  print([i for i in results.results if not i.success])\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "jAhZqbEYaEkJfIyqxC7iOjDwPB9uyFjYl6yDjii0W1I=",
+        "originContent": "import pandas as pd",
+        "translatedContent": "import pandas as pd"
+      },
+      {
+        "row": 3,
+        "rowsha": "sT7+/GLtlExIRdXg5NJVbYFHx/0s/KSbnTw8mDFYmag=",
+        "originContent": "import wimsey",
+        "translatedContent": "import wimsey"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "0SB6oHVWffBudXrmXI76EWTv+357+L1FN3BJCsKmMOQ=",
+        "originContent": "df = pd.read_csv(\"hopefully_nice_data.csv\")",
+        "translatedContent": "df = pd.read_csv(\"hopefully_nice_data.csv\")"
+      },
+      {
+        "row": 6,
+        "rowsha": "VlbS4Gqj3GafDH0b3E5gfZOibylf2mKuhQ2i+P+4VeU=",
+        "originContent": "results = wimsey.test(df, \"tests.yaml\")",
+        "translatedContent": "results = wimsey.test(df, \"tests.yaml\")"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "msViWIEZV2cnEhG60JTcgjmFel3dmRTMXZrPJHFM2d4=",
+        "originContent": "if results.success:",
+        "translatedContent": "if results.success:"
+      },
+      {
+        "row": 9,
+        "rowsha": "LSmhQE55vYJ2Cb4nzG0xZixNwibScL7SPRoBcrRYvK8=",
+        "originContent": "  print(\"Yay we have good data! 🥳\")",
+        "translatedContent": "  print(\"Yay we have good data! 🥳\")"
+      },
+      {
+        "row": 10,
+        "rowsha": "Z1wnz0hHz1/kml9IK9pULXgABBm26WONlopUNUV8W5M=",
+        "originContent": "else:",
+        "translatedContent": "else:"
+      },
+      {
+        "row": 11,
+        "rowsha": "7aqWl4ccg7pQksxTdKlB2TjUD05XCK7XAmhWJIDUZEs=",
+        "originContent": "  print(f\"Oh nooo, something's up! 😭\")",
+        "translatedContent": "  print(f\"Oh nooo, something's up! 😭\")"
+      },
+      {
+        "row": 12,
+        "rowsha": "/dr/jpi47dUgyld0Tnssl+NtUgyohWqeB8bF/KZ2Fac=",
+        "originContent": "  print([i for i in results.results if not i.success])",
+        "translatedContent": "  print([i for i in results.results if not i.success])"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n# Roadmap, Contributing & Feedback\n\nWimsey's mirrored on github, but hosted and developed on [codeberg](https://codeberg.org/benrutter/wimsey). Issues and pull requests are accepted on both.\n\nFocus at the moment is on refining profiling and test generation, if you have tests or feature that would be helpful to you, feel free to reach out!\n",
+    "ContentSha": "5pDgejVfuhmxMccOhVBqCtZ1Txwo0F89jAkpjB2wvaQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# ロードマップ、貢献およびフィードバック\n\nWimseyはGitHubにミラーされていますが、ホスティングおよび開発は[codeberg](https://codeberg.org/benrutter/wimsey)で行われています。Issueやプルリクエストは両方で受け付けています。\n\n現在の焦点はプロファイリングとテスト生成の改善にあります。もし役立つテストや機能があれば、お気軽にご連絡ください！\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jBEnijFVXS0ufANCnhYTVpTECAXg2ufveT3+sIGNG0E=",
+        "originContent": "# Roadmap, Contributing & Feedback",
+        "translatedContent": "# ロードマップ、貢献およびフィードバック"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "D3E3eEjKq4Tl8OzOPCiR/JUmmqFDDLEHOowo0LYg8x4=",
+        "originContent": "Wimsey's mirrored on github, but hosted and developed on [codeberg](https://codeberg.org/benrutter/wimsey). Issues and pull requests are accepted on both.",
+        "translatedContent": "WimseyはGitHubにミラーされていますが、ホスティングおよび開発は[codeberg](https://codeberg.org/benrutter/wimsey)で行われています。Issueやプルリクエストは両方で受け付けています。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "hf3pFkRArBrey+phyJmj5Wd4OdmGR2BFhAOs+Fc7c0I=",
+        "originContent": "Focus at the moment is on refining profiling and test generation, if you have tests or feature that would be helpful to you, feel free to reach out!",
+        "translatedContent": "現在の焦点はプロファイリングとテスト生成の改善にあります。もし役立つテストや機能があれば、お気軽にご連絡ください！"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
