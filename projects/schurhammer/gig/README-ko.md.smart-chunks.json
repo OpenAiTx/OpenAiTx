@@ -1,0 +1,1486 @@
+[
+  {
+    "Id": 1,
+    "Content": "# gig\n\nGig is a gleam compiler written in gleam.\n\n## How to use\n\n### Compile and run a sample file:\n",
+    "ContentSha": "eqZs1DTJ6UY+59iOF1IRkoHJeLK4OAfGsDJlp640NqA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# gig\n\nGig은 gleam으로 작성된 gleam 컴파일러입니다.\n\n## 사용 방법\n\n### 샘플 파일 컴파일 및 실행:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rLxvutGm+0U/Kpm4bHweHWZiag9Ic2tHa8jhEGnZ1eY=",
+        "originContent": "# gig",
+        "translatedContent": "# gig"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "qRzGlrOhG0EKF4sx5uphfDcp75UrMg5QYrKwyw5Ege0=",
+        "originContent": "Gig is a gleam compiler written in gleam.",
+        "translatedContent": "Gig은 gleam으로 작성된 gleam 컴파일러입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "B0rZUVAuvA0woeHASaoNWRIBbA+LJfRLl9zTeDoLks0=",
+        "originContent": "## How to use",
+        "translatedContent": "## 사용 방법"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lyjMdjmCrrWjZeqY0CpVNiNFjmITzzJpz0EfWYquwnE=",
+        "originContent": "### Compile and run a sample file:",
+        "translatedContent": "### 샘플 파일 컴파일 및 실행:"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n# clone the repository\ngit clone https://github.com/schurhammer/gig\ncd gig\n\n# compile a sample\ngleam run samples/hello_world.gleam\n\n# run the sample\nsamples/hello_world.exe\n```",
+    "ContentSha": "EP22qccBoKp+5fjzIo18joYNijoboP5HHw4B8K4hPiY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# clone the repository\ngit clone https://github.com/schurhammer/gig\ncd gig\n\n# compile a sample\ngleam run samples/hello_world.gleam\n\n# run the sample\nsamples/hello_world.exe\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "liPA6mJIk078twzyw31ukbJuezJiiNLAFJ4qE95a660=",
+        "originContent": "# clone the repository",
+        "translatedContent": "# clone the repository"
+      },
+      {
+        "row": 3,
+        "rowsha": "jb4rylH4X1ZpbpTya3NUDsb8U10i4L3vJ2e7nIbctH4=",
+        "originContent": "git clone https://github.com/schurhammer/gig",
+        "translatedContent": "git clone https://github.com/schurhammer/gig"
+      },
+      {
+        "row": 4,
+        "rowsha": "XiKlTkf261T2ZZi4E//aKCLW4fEDZldUvTHWuiYnDX0=",
+        "originContent": "cd gig",
+        "translatedContent": "cd gig"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "hK82jfl3ifL9P/xwjvGflCGvGvZvSV35umuDkZrxRGE=",
+        "originContent": "# compile a sample",
+        "translatedContent": "# compile a sample"
+      },
+      {
+        "row": 7,
+        "rowsha": "Mj/8OmKTR5RZkzdHp2SfIKBFj8JopxB1Q/aATqmUJW4=",
+        "originContent": "gleam run samples/hello_world.gleam",
+        "translatedContent": "gleam run samples/hello_world.gleam"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "VD90FMFFJjXnln+1tbFbasaQSIL0j+F2p9cM4hNXK0A=",
+        "originContent": "# run the sample",
+        "translatedContent": "# run the sample"
+      },
+      {
+        "row": 10,
+        "rowsha": "ZIY6F3IzcFDQHmqMjv9VN0yQj/0mpaeOgKEvQDN/Jug=",
+        "originContent": "samples/hello_world.exe",
+        "translatedContent": "samples/hello_world.exe"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n- This will compile the file `samples/hello_world.gleam` to `samples/hello_world.c` and then use a c compiler to create the binary at `samples/hello_world.exe`.\n- Gig adds the `.exe` extension to avoid common naming conflicts with source directories.\n\n### Compile gig:\n",
+    "ContentSha": "pdtb2sDtodAmsO0StHC3hhuoWe65pg+vnYfhelK0d1k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 이것은 `samples/hello_world.gleam` 파일을 `samples/hello_world.c`로 컴파일한 다음 C 컴파일러를 사용하여 `samples/hello_world.exe`에 바이너리를 생성합니다.\n- Gig는 소스 디렉터리와의 일반적인 이름 충돌을 피하기 위해 `.exe` 확장자를 추가합니다.\n\n### gig 컴파일:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 이것은 `samples/hello_world.gleam` 파일을 `samples/hello_world.c`로 컴파일한 다음 C 컴파일러를 사용하여 `samples/hello_world.exe`에 바이너리를 생성합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "hOq62GwKHyKmVAU+/VNtaC/8rYWjv6zBWKsDAK2VbJk=",
+        "originContent": "- This will compile the file `samples/hello_world.gleam` to `samples/hello_world.c` and then use a c compiler to create the binary at `samples/hello_world.exe`.",
+        "translatedContent": "- Gig는 소스 디렉터리와의 일반적인 이름 충돌을 피하기 위해 `.exe` 확장자를 추가합니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "qZurIPbeQf9ysKJnJSXI9yKCByZx/PBOa51PZUtUFIc=",
+        "originContent": "- Gig adds the `.exe` extension to avoid common naming conflicts with source directories.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### gig 컴파일:"
+      },
+      {
+        "row": 5,
+        "rowsha": "XY6/kvp9rmTtsYKyRKbF9ZOgnc2v4KzY8YLOHQhGYnc=",
+        "originContent": "### Compile gig:",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n# compile gig into a binary\ngleam run src/gig.gleam --gc --release\n\n# compile a sample using the gig binary\nsrc/gig.exe samples/hello_world.gleam\n\n# run the sample\nsamples/hello_world.exe\n```",
+    "ContentSha": "aIcuB2wUEhXfRlvdfpmlgjsQHmTs9cQMPJedDVB0UUg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# compile gig into a binary\ngleam run src/gig.gleam --gc --release\n\n# compile a sample using the gig binary\nsrc/gig.exe samples/hello_world.gleam\n\n# run the sample\nsamples/hello_world.exe\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "CUmqTeO/GDtUiCWdb2xwIgZKF5FN1MT5BiIpCKPtNIA=",
+        "originContent": "# compile gig into a binary",
+        "translatedContent": "# compile gig into a binary"
+      },
+      {
+        "row": 3,
+        "rowsha": "EcsUJuNS1co8KsklkR8KK44nnIjhVfnjHeZcuq6wgls=",
+        "originContent": "gleam run src/gig.gleam --gc --release",
+        "translatedContent": "gleam run src/gig.gleam --gc --release"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "tW74N0fDjJLheHgJCiq+nyJwk4vyiNPADaS1hzUjfgs=",
+        "originContent": "# compile a sample using the gig binary",
+        "translatedContent": "# compile a sample using the gig binary"
+      },
+      {
+        "row": 6,
+        "rowsha": "lqXoT0r0/FHGO5teQA4/szYL43I0cSGXmQoLUi4XI3A=",
+        "originContent": "src/gig.exe samples/hello_world.gleam",
+        "translatedContent": "src/gig.exe samples/hello_world.gleam"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "VD90FMFFJjXnln+1tbFbasaQSIL0j+F2p9cM4hNXK0A=",
+        "originContent": "# run the sample",
+        "translatedContent": "# run the sample"
+      },
+      {
+        "row": 9,
+        "rowsha": "ZIY6F3IzcFDQHmqMjv9VN0yQj/0mpaeOgKEvQDN/Jug=",
+        "originContent": "samples/hello_world.exe",
+        "translatedContent": "samples/hello_world.exe"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Compile your project using the gig binary:\n\n- Add the `gig` executable to your path or copy it into your project.\n- Copy the `patch` directory into your project.\n",
+    "ContentSha": "XoUKQ+uvG6hYk6/O6aWa/joDa2xhMZDrD3+ow5eoB7E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### gig 바이너리를 사용하여 프로젝트 컴파일하기:\n\n- `gig` 실행 파일을 경로에 추가하거나 프로젝트에 복사하세요.\n- `patch` 디렉토리를 프로젝트에 복사하세요.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### gig 바이너리를 사용하여 프로젝트 컴파일하기:"
+      },
+      {
+        "row": 2,
+        "rowsha": "W1wnwNu/lJXC67dZ5IzcQVsk6iVy1/drbG2IP+QFhc4=",
+        "originContent": "### Compile your project using the gig binary:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `gig` 실행 파일을 경로에 추가하거나 프로젝트에 복사하세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "ka4kgYUqy7ec0qcYDa9hEiVmL5ERcCvzjbNuNFwZbR0=",
+        "originContent": "- Add the `gig` executable to your path or copy it into your project.",
+        "translatedContent": "- `patch` 디렉토리를 프로젝트에 복사하세요."
+      },
+      {
+        "row": 5,
+        "rowsha": "hvKM+ywTV6zGKRFQ04H98OKSy8/RS55q6iY1wMDm2HE=",
+        "originContent": "- Copy the `patch` directory into your project.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# you should be in your project root\ncd <your project root>\n\n# copy patch directory (adjust file paths to match your system)\ncp -r ../gig/patch patch\n\n# ensure dependencies are downloaded\ngleam deps download\n\n# compile your main module\ngig src/<main module>.gleam\n\n# run your main module\nsrc/<main module>.exe\n```",
+    "ContentSha": "946PvoyFztECayB8IUkZSzRx1s0GZNj+jYstQ4oobuE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# you should be in your project root\ncd <your project root>\n\n# copy patch directory (adjust file paths to match your system)\ncp -r ../gig/patch patch\n\n# ensure dependencies are downloaded\ngleam deps download\n\n# compile your main module\ngig src/<main module>.gleam\n\n# run your main module\nsrc/<main module>.exe\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "/VP/eoIk5JW6zglAE0hf2bKctEOVo0cNWwKbehCx7pM=",
+        "originContent": "# you should be in your project root",
+        "translatedContent": "# you should be in your project root"
+      },
+      {
+        "row": 3,
+        "rowsha": "G0z/70Dj7AcgSaV3zH8AYsUXEXtmBCWf5NfGct+exJA=",
+        "originContent": "cd <your project root>",
+        "translatedContent": "cd <your project root>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "pobKVqEzsOEdY2Kry5ucoML0CAoGNykwRoTEOSTtk2w=",
+        "originContent": "# copy patch directory (adjust file paths to match your system)",
+        "translatedContent": "# copy patch directory (adjust file paths to match your system)"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ul8lHECjIjQ/sGjiEXrJowdsHM6RhIX+FIhl4g1v3CY=",
+        "originContent": "cp -r ../gig/patch patch",
+        "translatedContent": "cp -r ../gig/patch patch"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Z28x73909lBUrbJtuUGZOoSDlxAeGBElovOKp6Zkk/M=",
+        "originContent": "# ensure dependencies are downloaded",
+        "translatedContent": "# ensure dependencies are downloaded"
+      },
+      {
+        "row": 9,
+        "rowsha": "vmNdNy5TNHZTKJ2aGFx0DZqAr00IA+gLzJZcLQNfQxs=",
+        "originContent": "gleam deps download",
+        "translatedContent": "gleam deps download"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "gJ4jxi0yqhEb7CvUslS6nMUYj23s3l+8Q6ShJoKm0Vs=",
+        "originContent": "# compile your main module",
+        "translatedContent": "# compile your main module"
+      },
+      {
+        "row": 12,
+        "rowsha": "GAUQoKYIg+tlLIr4tiIdZMIamD6GyYicfHzyaMnYUkA=",
+        "originContent": "gig src/<main module>.gleam",
+        "translatedContent": "gig src/<main module>.gleam"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "jwLF5dwq8mVJWgAS/gJyLNU/y0gCcWl2cNOn1FJ8qUU=",
+        "originContent": "# run your main module",
+        "translatedContent": "# run your main module"
+      },
+      {
+        "row": 15,
+        "rowsha": "KyFiI/XIH2Rr+ZhI0XjvFBLx7hBVmsVDkEm/Z+/peuM=",
+        "originContent": "src/<main module>.exe",
+        "translatedContent": "src/<main module>.exe"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n- You should run gig from the root directory of the project.\n- Gig will include source files from the main module's directory, the `patch` directory, and each source directory of downloaded dependencies (i.e. `build/packages/<package_name>/src`).\n- Download dependencies using `gleam deps download`.\n- Your main module should be non-nested i.e. directly in the `src` directory.\n\n### Compile your project using gig as a path dependency\n\n- Add gig as a path dependency in your `gleam.toml` file `gig = { path = \"../gig\" }`.\n- Copy the `patch` directory into your project.\n",
+    "ContentSha": "i8gMCpz3yuBoUqqAu+bPc4I8v85nmkzm4iRrPdfBWx0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- gig은 프로젝트의 루트 디렉토리에서 실행해야 합니다.\n- gig은 메인 모듈 디렉토리, `patch` 디렉토리, 그리고 다운로드된 의존성의 각 소스 디렉토리(예: `build/packages/<package_name>/src`)에서 소스 파일을 포함합니다.\n- 의존성은 `gleam deps download`를 사용하여 다운로드하세요.\n- 메인 모듈은 중첩되지 않은, 즉 `src` 디렉토리 바로 아래에 있어야 합니다.\n\n### gig을 경로 의존성으로 사용하여 프로젝트 컴파일하기\n\n- `gleam.toml` 파일에 gig을 경로 의존성으로 추가하세요 `gig = { path = \"../gig\" }`.\n- `patch` 디렉토리를 프로젝트로 복사하세요.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- gig은 프로젝트의 루트 디렉토리에서 실행해야 합니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "WX3+iztQKPZp5dSgQmDf6pQhmXRTDB2Oj29bAx5Tmxc=",
+        "originContent": "- You should run gig from the root directory of the project.",
+        "translatedContent": "- gig은 메인 모듈 디렉토리, `patch` 디렉토리, 그리고 다운로드된 의존성의 각 소스 디렉토리(예: `build/packages/<package_name>/src`)에서 소스 파일을 포함합니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "BUu5azv/UpLCgt7ccA0de8qW0C2DYZ66tQLlUU+V2bc=",
+        "originContent": "- Gig will include source files from the main module's directory, the `patch` directory, and each source directory of downloaded dependencies (i.e. `build/packages/<package_name>/src`).",
+        "translatedContent": "- 의존성은 `gleam deps download`를 사용하여 다운로드하세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "aLinukdX8lXPk9daNV82knS0bKTPSYRZo//8eCbTV8M=",
+        "originContent": "- Download dependencies using `gleam deps download`.",
+        "translatedContent": "- 메인 모듈은 중첩되지 않은, 즉 `src` 디렉토리 바로 아래에 있어야 합니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "NyQp3IyaovHWq68kWEAuBFqCqAKo2AGAIc9ClDqid64=",
+        "originContent": "- Your main module should be non-nested i.e. directly in the `src` directory.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### gig을 경로 의존성으로 사용하여 프로젝트 컴파일하기"
+      },
+      {
+        "row": 7,
+        "rowsha": "G/HE/rQ9uIHtECUVhtWzvggCVCYT0RN3TSE8xdvWlCw=",
+        "originContent": "### Compile your project using gig as a path dependency",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `gleam.toml` 파일에 gig을 경로 의존성으로 추가하세요 `gig = { path = \"../gig\" }`."
+      },
+      {
+        "row": 9,
+        "rowsha": "8+xn6BcMRK8/5Lgx/r0h9EpdkPUstCs/Ame2VfIdfEU=",
+        "originContent": "- Add gig as a path dependency in your `gleam.toml` file `gig = { path = \"../gig\" }`.",
+        "translatedContent": "- `patch` 디렉토리를 프로젝트로 복사하세요."
+      },
+      {
+        "row": 10,
+        "rowsha": "hvKM+ywTV6zGKRFQ04H98OKSy8/RS55q6iY1wMDm2HE=",
+        "originContent": "- Copy the `patch` directory into your project.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n# you should be in your project root\ncd <your project root>\n\n# copy patch directory (adjust file paths to match your system)\ncp -r ../gig/patch patch\n\n# ensure dependencies are downloaded\ngleam deps download\n\n# compile your project using gig as a path dependency\ngleam run -m gig src/<main module>.gleam\n\n# run your main module\nsrc/<main module>.exe\n```",
+    "ContentSha": "77QhRLAMcm/ir4LjF+VBFWv9JiJvMA1yb2STyqKwzF8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# you should be in your project root\ncd <your project root>\n\n# copy patch directory (adjust file paths to match your system)\ncp -r ../gig/patch patch\n\n# ensure dependencies are downloaded\ngleam deps download\n\n# compile your project using gig as a path dependency\ngleam run -m gig src/<main module>.gleam\n\n# run your main module\nsrc/<main module>.exe\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "/VP/eoIk5JW6zglAE0hf2bKctEOVo0cNWwKbehCx7pM=",
+        "originContent": "# you should be in your project root",
+        "translatedContent": "# you should be in your project root"
+      },
+      {
+        "row": 3,
+        "rowsha": "G0z/70Dj7AcgSaV3zH8AYsUXEXtmBCWf5NfGct+exJA=",
+        "originContent": "cd <your project root>",
+        "translatedContent": "cd <your project root>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "pobKVqEzsOEdY2Kry5ucoML0CAoGNykwRoTEOSTtk2w=",
+        "originContent": "# copy patch directory (adjust file paths to match your system)",
+        "translatedContent": "# copy patch directory (adjust file paths to match your system)"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ul8lHECjIjQ/sGjiEXrJowdsHM6RhIX+FIhl4g1v3CY=",
+        "originContent": "cp -r ../gig/patch patch",
+        "translatedContent": "cp -r ../gig/patch patch"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Z28x73909lBUrbJtuUGZOoSDlxAeGBElovOKp6Zkk/M=",
+        "originContent": "# ensure dependencies are downloaded",
+        "translatedContent": "# ensure dependencies are downloaded"
+      },
+      {
+        "row": 9,
+        "rowsha": "vmNdNy5TNHZTKJ2aGFx0DZqAr00IA+gLzJZcLQNfQxs=",
+        "originContent": "gleam deps download",
+        "translatedContent": "gleam deps download"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Z7rmNJzB0Sd02aW3hJDFcAjutvTuGRRxrRRI6u+3iwY=",
+        "originContent": "# compile your project using gig as a path dependency",
+        "translatedContent": "# compile your project using gig as a path dependency"
+      },
+      {
+        "row": 12,
+        "rowsha": "7Zu0DVtO2hiRTck4/ZehzLiWMi+dVsDp7mL+fLDotD8=",
+        "originContent": "gleam run -m gig src/<main module>.gleam",
+        "translatedContent": "gleam run -m gig src/<main module>.gleam"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "jwLF5dwq8mVJWgAS/gJyLNU/y0gCcWl2cNOn1FJ8qUU=",
+        "originContent": "# run your main module",
+        "translatedContent": "# run your main module"
+      },
+      {
+        "row": 15,
+        "rowsha": "KyFiI/XIH2Rr+ZhI0XjvFBLx7hBVmsVDkEm/Z+/peuM=",
+        "originContent": "src/<main module>.exe",
+        "translatedContent": "src/<main module>.exe"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Optional flags:\n\n- `--release`: enable optimisation.\n- `--gc`: enable garbage collection (otherwise no garbage collection).\n- `--debug`: include debug symbols.\n- `--headers`: generate header files for FFI functions.\n- `--compiler=name`: the name/path of the c compiler.\n- `-c`: only generate the c file (not the binary).\n\n> [!IMPORTANT]\n> In the likely case you encounter stack overflows, increase your stack size. These often show up as segfaults.\n>\n> ```\n> ulimit -s unlimited\n> ```\n\n## Required Dependencies:\n\n- C compiler (clang seems to work best)\n- Boehm GC is needed for `--gc` (aka `libgc`)\n\n## Standard Library\n\nSince much of the standard library is implemented with `@external` calls, not all functions are available at this time.\nSome functions have already been re-implemented with patches, see the `patch` directory. The compiler will print a warning if an unimplemented function is used, and a \"todo\" will be used as the function body.\n\n## Patch System\n\nSince gig is a third party project, most gleam libraries in the wild are\nunlikely to support it. For these situations we have a patch system that\nlets you override some modules that would otherwise not work. To do this simply\ncreate a module called `x.patch.gleam` where `x` is the name of the module\nyou wish to patch. The patch will be merged with the original module, so you\nonly need to implement the functions that are broken.\nPatches can be placed in the `patch` directory or any of the source directories.\n\nFor better c language support in your editor, you can add a `.clangd` and\n`compile_flags.txt` file to your project.\n",
+    "ContentSha": "QkCi7p1m2sTSGI1cUW4UQtY10PjauGyLjAAup4cGHzU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 선택적 플래그:\n\n- `--release`: 최적화 활성화.\n- `--gc`: 가비지 컬렉션 활성화 (그렇지 않으면 가비지 컬렉션 없음).\n- `--debug`: 디버그 심볼 포함.\n- `--headers`: FFI 함수용 헤더 파일 생성.\n- `--compiler=name`: C 컴파일러 이름/경로.\n- `-c`: C 파일만 생성 (바이너리 생성 안함).\n\n> [!IMPORTANT]\n> 스택 오버플로우가 발생할 가능성이 높은 경우, 스택 크기를 늘리세요. 이는 종종 세그멘테이션 폴트로 나타납니다.\n>\n> ```\n> ulimit -s unlimited\n> ```\n\n## 필수 의존성:\n\n- C 컴파일러 (clang이 가장 잘 작동하는 것으로 보임)\n- `--gc` 용도로 Boehm GC 필요 (일명 `libgc`)\n\n## 표준 라이브러리\n\n표준 라이브러리의 많은 부분이 `@external` 호출로 구현되어 있어 현재 모든 함수가 사용 가능하지 않습니다.\n일부 함수는 이미 패치를 통해 재구현되었으며, `patch` 디렉터리를 참조하세요. 미구현 함수가 사용되면 컴파일러가 경고를 출력하며 함수 본문은 \"todo\"로 처리됩니다.\n\n## 패치 시스템\n\ngig는 서드파티 프로젝트이기 때문에, 대부분의 Gleam 라이브러리는\n이 프로젝트를 지원하지 않을 가능성이 높습니다. 이런 상황을 위해\n작동하지 않는 일부 모듈을 덮어쓸 수 있는 패치 시스템이 있습니다.\n이를 위해 단순히 패치하려는 모듈 이름이 `x`일 경우 `x.patch.gleam`라는 모듈을 생성하세요.\n패치는 원래 모듈과 병합되므로, 고장 난 함수만 구현하면 됩니다.\n패치는 `patch` 디렉터리 또는 소스 디렉터리 어디에나 둘 수 있습니다.\n\n에디터에서 더 나은 C 언어 지원을 위해, 프로젝트에 `.clangd`와\n`compile_flags.txt` 파일을 추가할 수 있습니다.\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 선택적 플래그:"
+      },
+      {
+        "row": 2,
+        "rowsha": "yQJJUpNfmJjUvLSZIkXejefaSsqSIwz4F5ZZGY0XQ9A=",
+        "originContent": "### Optional flags:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `--release`: 최적화 활성화."
+      },
+      {
+        "row": 4,
+        "rowsha": "Keti+y8umN4FgvvMIz+k/8GfsQgNVCAZcmglVLNBs5s=",
+        "originContent": "- `--release`: enable optimisation.",
+        "translatedContent": "- `--gc`: 가비지 컬렉션 활성화 (그렇지 않으면 가비지 컬렉션 없음)."
+      },
+      {
+        "row": 5,
+        "rowsha": "KXoqLIjid9eB/nNV1Q/KhxRCgUYOZCxa/5FUaphHsoU=",
+        "originContent": "- `--gc`: enable garbage collection (otherwise no garbage collection).",
+        "translatedContent": "- `--debug`: 디버그 심볼 포함."
+      },
+      {
+        "row": 6,
+        "rowsha": "4klwZzG0FOlwZdjOhD3RpFXGcbIXgDIbXvSA9xVcrSY=",
+        "originContent": "- `--debug`: include debug symbols.",
+        "translatedContent": "- `--headers`: FFI 함수용 헤더 파일 생성."
+      },
+      {
+        "row": 7,
+        "rowsha": "AP9rMCL8WkrQFtDGD7judR0s3yJB/F1lVjYGC/trsQo=",
+        "originContent": "- `--headers`: generate header files for FFI functions.",
+        "translatedContent": "- `--compiler=name`: C 컴파일러 이름/경로."
+      },
+      {
+        "row": 8,
+        "rowsha": "6ziBvLD9MPyWYs8inNFWUyxeCAbvx+uC7Zoe6X0p5Ns=",
+        "originContent": "- `--compiler=name`: the name/path of the c compiler.",
+        "translatedContent": "- `-c`: C 파일만 생성 (바이너리 생성 안함)."
+      },
+      {
+        "row": 9,
+        "rowsha": "vgxtL6yF7/NOkEatMJhJHJOpevvsLMwIXqNn27c9mSg=",
+        "originContent": "- `-c`: only generate the c file (not the binary).",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> [!IMPORTANT]"
+      },
+      {
+        "row": 11,
+        "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+        "originContent": "> [!IMPORTANT]",
+        "translatedContent": "> 스택 오버플로우가 발생할 가능성이 높은 경우, 스택 크기를 늘리세요. 이는 종종 세그멘테이션 폴트로 나타납니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "JlX4a87/eFDk1oSx4fLSBXsw0MUJ51Fkg9k9BCqoNuE=",
+        "originContent": "> In the likely case you encounter stack overflows, increase your stack size. These often show up as segfaults.",
+        "translatedContent": ">"
+      },
+      {
+        "row": 13,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": "> ```"
+      },
+      {
+        "row": 14,
+        "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+        "originContent": "> ```",
+        "translatedContent": "> ulimit -s unlimited"
+      },
+      {
+        "row": 15,
+        "rowsha": "R8qdvIx6xVbrpogi/PRn39DIo3D9uaZuTiy6Pyoc0E8=",
+        "originContent": "> ulimit -s unlimited",
+        "translatedContent": "> ```"
+      },
+      {
+        "row": 16,
+        "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+        "originContent": "> ```",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 필수 의존성:"
+      },
+      {
+        "row": 18,
+        "rowsha": "TBwJbblxmfCojwYne4WONfUZuMVN6HDslPoCw0Dayss=",
+        "originContent": "## Required Dependencies:",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- C 컴파일러 (clang이 가장 잘 작동하는 것으로 보임)"
+      },
+      {
+        "row": 20,
+        "rowsha": "/zg6G6tyFgIudzj3ImBvkZl2xDmZ6f7klNPalR9LR/g=",
+        "originContent": "- C compiler (clang seems to work best)",
+        "translatedContent": "- `--gc` 용도로 Boehm GC 필요 (일명 `libgc`)"
+      },
+      {
+        "row": 21,
+        "rowsha": "jlwrjZdfMM+alqtOty0om04vktWKlqlbb77TpCNB6+E=",
+        "originContent": "- Boehm GC is needed for `--gc` (aka `libgc`)",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 표준 라이브러리"
+      },
+      {
+        "row": 23,
+        "rowsha": "sg5JrfDi5ttoyn3iQ27S019T969+DZQJrGgZC95Tow8=",
+        "originContent": "## Standard Library",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "표준 라이브러리의 많은 부분이 `@external` 호출로 구현되어 있어 현재 모든 함수가 사용 가능하지 않습니다."
+      },
+      {
+        "row": 25,
+        "rowsha": "waQrvFD++Ju3gPfztrXQ7JR5lP+mFTyfeFSLgC8z3s4=",
+        "originContent": "Since much of the standard library is implemented with `@external` calls, not all functions are available at this time.",
+        "translatedContent": "일부 함수는 이미 패치를 통해 재구현되었으며, `patch` 디렉터리를 참조하세요. 미구현 함수가 사용되면 컴파일러가 경고를 출력하며 함수 본문은 \"todo\"로 처리됩니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "PkiTuLgyWxvD5gwhHLq8qtdUt3uJS41qUJrvETIrpJ8=",
+        "originContent": "Some functions have already been re-implemented with patches, see the `patch` directory. The compiler will print a warning if an unimplemented function is used, and a \"todo\" will be used as the function body.",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 패치 시스템"
+      },
+      {
+        "row": 28,
+        "rowsha": "6w1TPkCFdAnUgR7zvoE5CfFbwuxH3xxFYqcFXWpSudQ=",
+        "originContent": "## Patch System",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "gig는 서드파티 프로젝트이기 때문에, 대부분의 Gleam 라이브러리는"
+      },
+      {
+        "row": 30,
+        "rowsha": "9IVX81d82CvGDX4zEqILFnsKeI7fYGgpvwsTrAmGY/4=",
+        "originContent": "Since gig is a third party project, most gleam libraries in the wild are",
+        "translatedContent": "이 프로젝트를 지원하지 않을 가능성이 높습니다. 이런 상황을 위해"
+      },
+      {
+        "row": 31,
+        "rowsha": "OI7p+vI9Lgq3wqQFHDWyDtY4h8Jnz8PIgETEQTFGzdc=",
+        "originContent": "unlikely to support it. For these situations we have a patch system that",
+        "translatedContent": "작동하지 않는 일부 모듈을 덮어쓸 수 있는 패치 시스템이 있습니다."
+      },
+      {
+        "row": 32,
+        "rowsha": "zu/ZDI/4zXqgNh0HZQXZqY0Mdyy4f2aFCrLH62laZK4=",
+        "originContent": "lets you override some modules that would otherwise not work. To do this simply",
+        "translatedContent": "이를 위해 단순히 패치하려는 모듈 이름이 `x`일 경우 `x.patch.gleam`라는 모듈을 생성하세요."
+      },
+      {
+        "row": 33,
+        "rowsha": "AVr4QKgBQor6ARiIwD9nJy5GjJRsfCxOoJsNS4jQlIQ=",
+        "originContent": "create a module called `x.patch.gleam` where `x` is the name of the module",
+        "translatedContent": "패치는 원래 모듈과 병합되므로, 고장 난 함수만 구현하면 됩니다."
+      },
+      {
+        "row": 34,
+        "rowsha": "Ko8ul3FIzcVcl8+9c2ZyrKqd6ql5IEJ8s5GsWopo4Dc=",
+        "originContent": "you wish to patch. The patch will be merged with the original module, so you",
+        "translatedContent": "패치는 `patch` 디렉터리 또는 소스 디렉터리 어디에나 둘 수 있습니다."
+      },
+      {
+        "row": 35,
+        "rowsha": "+CUiXX9K/3lqfoW1WQ/ceEQt8Rp8Hjwi30xoyPUIlFI=",
+        "originContent": "only need to implement the functions that are broken.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "3VhThgkf3nebkxVPI2yxh2JDXd5JrlcguAQlJjyk7hg=",
+        "originContent": "Patches can be placed in the `patch` directory or any of the source directories.",
+        "translatedContent": "에디터에서 더 나은 C 언어 지원을 위해, 프로젝트에 `.clangd`와"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`compile_flags.txt` 파일을 추가할 수 있습니다."
+      },
+      {
+        "row": 38,
+        "rowsha": "eWWCSiH/uqjVBi98YHsA+E9TGAKAhGBRYN2ehSmAu4k=",
+        "originContent": "For better c language support in your editor, you can add a `.clangd` and",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "iwShAu5xyfXul2FXYZhpj1CrHf0pTrA0qdYlQpMTNAI=",
+        "originContent": "`compile_flags.txt` file to your project.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "`.clangd`:\n",
+    "ContentSha": "nY6DgJql30P0Dg9YhTKc/keIL+jf0HZobTPEuS32opo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`.clangd`:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "oYLWBbsuHfRO2okHaWld77QE+Sdaru5kR3wpkhWfLBk=",
+        "originContent": "`.clangd`:",
+        "translatedContent": "`.clangd`:"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```\nCompileFlags:\n  Add: [-Ipatch]\n```",
+    "ContentSha": "amao2yOiyQitdcE5bu0p0cgTJuk/Oe+pU8WKH9o4084=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nCompileFlags:\n  Add: [-Ipatch]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "g2r7+Sx4ur326TAZRKRJcAjE7NVMC/NUJfecwdP7Phc=",
+        "originContent": "CompileFlags:",
+        "translatedContent": "CompileFlags:"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ehoawd4nQsmckKgU72IOyQmsedbLnZzxN/LtR/9MW1k=",
+        "originContent": "  Add: [-Ipatch]",
+        "translatedContent": "  Add: [-Ipatch]"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n`compile_flags.txt`: (empty file)\n\n## FFI\n\nYou can use the `@external(c, \"\", \"function_name\")` annotation to define C\nfunctions, similar to FFI in normal gleam.\nAfter this, run the compiler with the `--headers` option to generate a header file\nwith function and type declarations required to implement the external function.\nYour implementation C file should `#include` the header file and be named in the\nsame way as the header file.\nPreferably your functions should be namespaced e.g. `module_name_function_name()`.\n\n## Feature / Todo List\n\n### Basics\n\n- [x] Bool\n- [x] Int\n- [x] Float\n- [x] Number formats (other than decimal)\n- [x] String\n- [x] List\n- [x] Equality\n- [x] Assignments\n- [x] Discard patterns\n- [x] Type inference\n- [x] Type annotations\n- [x] Modules (note: modules are resolved relative to the target file)\n- [x] Dependencies\n- [x] Unqualified imports\n- [x] Type aliases\n- [x] Blocks\n- [x] Constants\n- [x] Memory Management (GC/RC)\n\n### Functions\n\n- [x] Functions\n- [x] Higher order functions",
+    "ContentSha": "RGhUHSbm5v2eojvLkevGC2kyl1hiDn1jP+Kphkqhuac=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`compile_flags.txt`: (빈 파일)\n\n## FFI\n\n`@external(c, \"\", \"function_name\")` 주석을 사용하여 C 함수를 정의할 수 있습니다.  \n일반 gleam의 FFI와 유사합니다.  \n이후, `--headers` 옵션을 사용하여 컴파일러를 실행하면  \n외부 함수 구현에 필요한 함수 및 타입 선언이 포함된 헤더 파일이 생성됩니다.  \n구현하는 C 파일은 이 헤더 파일을 `#include` 해야 하며  \n헤더 파일과 동일한 이름으로 명명되어야 합니다.  \n함수는 가능하면 네임스페이스를 사용하여 예를 들어 `module_name_function_name()`처럼 이름을 지어야 합니다.\n\n## 기능 / 할 일 목록\n\n### 기본 사항\n\n- [x] Bool  \n- [x] Int  \n- [x] Float  \n- [x] 십진법 이외의 숫자 형식  \n- [x] 문자열  \n- [x] 리스트  \n- [x] 동등성  \n- [x] 할당  \n- [x] 무시 패턴  \n- [x] 타입 추론  \n- [x] 타입 주석  \n- [x] 모듈 (참고: 모듈은 대상 파일을 기준으로 해결됩니다)  \n- [x] 의존성  \n- [x] 비한정 임포트  \n- [x] 타입 별칭  \n- [x] 블록  \n- [x] 상수  \n- [x] 메모리 관리 (GC/RC)\n\n### 함수\n\n- [x] 함수  \n- [x] 고차 함수\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`compile_flags.txt`: (빈 파일)"
+      },
+      {
+        "row": 2,
+        "rowsha": "mSxsL5iR1BRs6hnCnNIT0mblQql+jnz9dr52OQ/rg3c=",
+        "originContent": "`compile_flags.txt`: (empty file)",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## FFI"
+      },
+      {
+        "row": 4,
+        "rowsha": "oYWXtXoJXxZt2mdI3UZQueFi3rnxlxAzG6MQIXpUdEg=",
+        "originContent": "## FFI",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`@external(c, \"\", \"function_name\")` 주석을 사용하여 C 함수를 정의할 수 있습니다.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "proXzEtc/qFYgyV4Q4l9QdRCVcKJa0uFcpgOtm2rlDc=",
+        "originContent": "You can use the `@external(c, \"\", \"function_name\")` annotation to define C",
+        "translatedContent": "일반 gleam의 FFI와 유사합니다.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "ICixK4B1xJ6fuSwQJ0WUpF1g23yxPfCMJAFngotrjQY=",
+        "originContent": "functions, similar to FFI in normal gleam.",
+        "translatedContent": "이후, `--headers` 옵션을 사용하여 컴파일러를 실행하면  "
+      },
+      {
+        "row": 8,
+        "rowsha": "CJeQn0SuWAAlUAbAtYqaz295ixe2BbbWAv46oYT8IL4=",
+        "originContent": "After this, run the compiler with the `--headers` option to generate a header file",
+        "translatedContent": "외부 함수 구현에 필요한 함수 및 타입 선언이 포함된 헤더 파일이 생성됩니다.  "
+      },
+      {
+        "row": 9,
+        "rowsha": "RWTjzj5JXNVQc1PTtMF+IhTrGOJQUGxKd+8gN8FvLgo=",
+        "originContent": "with function and type declarations required to implement the external function.",
+        "translatedContent": "구현하는 C 파일은 이 헤더 파일을 `#include` 해야 하며  "
+      },
+      {
+        "row": 10,
+        "rowsha": "MJ4irT3w14x41kQPrYoSn7UrErFRf+1rzwNHJ4R0evI=",
+        "originContent": "Your implementation C file should `#include` the header file and be named in the",
+        "translatedContent": "헤더 파일과 동일한 이름으로 명명되어야 합니다.  "
+      },
+      {
+        "row": 11,
+        "rowsha": "felX5NvHzyiKGZb9PHCNe+f/ZD7m+XCIIsemXgiNWnY=",
+        "originContent": "same way as the header file.",
+        "translatedContent": "함수는 가능하면 네임스페이스를 사용하여 예를 들어 `module_name_function_name()`처럼 이름을 지어야 합니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "MbWR43ijIUEJkmkVtnnRiNoFXOIVElbQFLzTs/+xbRY=",
+        "originContent": "Preferably your functions should be namespaced e.g. `module_name_function_name()`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 기능 / 할 일 목록"
+      },
+      {
+        "row": 14,
+        "rowsha": "U4Xc1zbZ37B5WeZPCnhQ7TR4vTehynVJucIllowIpoA=",
+        "originContent": "## Feature / Todo List",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 기본 사항"
+      },
+      {
+        "row": 16,
+        "rowsha": "zifdDAwddAHVGNg6AOfT6hiuYXPLFkNaR39UFTsrHdc=",
+        "originContent": "### Basics",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [x] Bool  "
+      },
+      {
+        "row": 18,
+        "rowsha": "i1liqc+BTm49oc9Eq6E6XSEusyMSciGvVdfdzqmrbCw=",
+        "originContent": "- [x] Bool",
+        "translatedContent": "- [x] Int  "
+      },
+      {
+        "row": 19,
+        "rowsha": "NN1aVsw4OGqPU6ff9TbCtMIRZV//DRcO6Vr2aO/bir8=",
+        "originContent": "- [x] Int",
+        "translatedContent": "- [x] Float  "
+      },
+      {
+        "row": 20,
+        "rowsha": "znCuOCmqK70VcrWtyqJzSBDIfN8xlBTA8QZeFWAeDo0=",
+        "originContent": "- [x] Float",
+        "translatedContent": "- [x] 십진법 이외의 숫자 형식  "
+      },
+      {
+        "row": 21,
+        "rowsha": "1azYyUQpgzmwZOdo6lhSSVWXvY9FCGu8YIZ8GBXfemY=",
+        "originContent": "- [x] Number formats (other than decimal)",
+        "translatedContent": "- [x] 문자열  "
+      },
+      {
+        "row": 22,
+        "rowsha": "XpYF//Lh2TD5aATPsSoiG82t0HYzWpMbheb2Om3vcw8=",
+        "originContent": "- [x] String",
+        "translatedContent": "- [x] 리스트  "
+      },
+      {
+        "row": 23,
+        "rowsha": "LcqL9r6AaNso75FhC8ISkBON5UNya8Gny15a6fuA4Sg=",
+        "originContent": "- [x] List",
+        "translatedContent": "- [x] 동등성  "
+      },
+      {
+        "row": 24,
+        "rowsha": "TdEkfTpiev/pZIRq7dVB5rifk+MlhuZ1DO73j6UbRDY=",
+        "originContent": "- [x] Equality",
+        "translatedContent": "- [x] 할당  "
+      },
+      {
+        "row": 25,
+        "rowsha": "Om7Mz6xbug6PQO5fvGJmojKx3RAnnRHzp7lxMVCQYmU=",
+        "originContent": "- [x] Assignments",
+        "translatedContent": "- [x] 무시 패턴  "
+      },
+      {
+        "row": 26,
+        "rowsha": "EaTfJHdUZulL1sOopR+VrgDnaJrkmLPAVIdfD0IHBhc=",
+        "originContent": "- [x] Discard patterns",
+        "translatedContent": "- [x] 타입 추론  "
+      },
+      {
+        "row": 27,
+        "rowsha": "+sHm4ltlynF5wPk3g69q15RBQJwuhutuXNKBPAry/dI=",
+        "originContent": "- [x] Type inference",
+        "translatedContent": "- [x] 타입 주석  "
+      },
+      {
+        "row": 28,
+        "rowsha": "FWjFn1lw5XV6/bbmBJ+de1Rut8/Gmg7YmtXlk6ZE2pY=",
+        "originContent": "- [x] Type annotations",
+        "translatedContent": "- [x] 모듈 (참고: 모듈은 대상 파일을 기준으로 해결됩니다)  "
+      },
+      {
+        "row": 29,
+        "rowsha": "3fnPhdgVS8NMQTPIOPJpnp22fOtAoCg0IvCeq5MZmQg=",
+        "originContent": "- [x] Modules (note: modules are resolved relative to the target file)",
+        "translatedContent": "- [x] 의존성  "
+      },
+      {
+        "row": 30,
+        "rowsha": "uVuLmO4AF4V5MJQPgMdSysekGMJNX9om3OwzcCv1+gU=",
+        "originContent": "- [x] Dependencies",
+        "translatedContent": "- [x] 비한정 임포트  "
+      },
+      {
+        "row": 31,
+        "rowsha": "XLBr2n1aXDK5B7OZzawOQjQUM2785AMr22JfDrG13B8=",
+        "originContent": "- [x] Unqualified imports",
+        "translatedContent": "- [x] 타입 별칭  "
+      },
+      {
+        "row": 32,
+        "rowsha": "k6ipc8ketSR+BCvyEn9IXbRMlYSY9EVrHswMU5P9zHY=",
+        "originContent": "- [x] Type aliases",
+        "translatedContent": "- [x] 블록  "
+      },
+      {
+        "row": 33,
+        "rowsha": "l1DUegeVNV4SSSzI+CooEDkid72xHxRa5IKWmRYkl0M=",
+        "originContent": "- [x] Blocks",
+        "translatedContent": "- [x] 상수  "
+      },
+      {
+        "row": 34,
+        "rowsha": "uFfciIGsBHOCnwl9cUKInekUP3Q2brSoxW70M04KylQ=",
+        "originContent": "- [x] Constants",
+        "translatedContent": "- [x] 메모리 관리 (GC/RC)"
+      },
+      {
+        "row": 35,
+        "rowsha": "g22WNp5KZVkP+jatcaiASdVFi6de94I7dc84XPnrBfM=",
+        "originContent": "- [x] Memory Management (GC/RC)",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 함수"
+      },
+      {
+        "row": 37,
+        "rowsha": "XuS6YZxuafyI+mkZfzBDqM2LtOyUKya98v3zx41SNJw=",
+        "originContent": "### Functions",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [x] 함수  "
+      },
+      {
+        "row": 39,
+        "rowsha": "6X++7JG+9ZUh8DsSkZ0v2yCsLN9eAcKgzsRnf/0x+0g=",
+        "originContent": "- [x] Functions",
+        "translatedContent": "- [x] 고차 함수"
+      },
+      {
+        "row": 40,
+        "rowsha": "y0cGzIM6PaF69hd23J7MmLLI4Fn+6MBvvgJszMyzWyE=",
+        "originContent": "- [x] Higher order functions",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "- [x] Anonymous functions\n- [x] Function captures\n- [x] Generic functions\n- [x] Pipelines\n- [x] Labeled arguments\n- [ ] Documentation comments (ignored)\n- [ ] Deprecations (ignored)\n\n### Flow control\n\n- [x] Case expressions\n- [x] Variable patterns\n- [x] Constructor patterns\n- [x] String patterns\n- [x] List patterns\n- [x] Recursion\n- [ ] Tail calls (note: the c compiler may do this for us)\n- [x] Multiple subjects\n- [x] Alternative patterns\n- [x] Pattern aliases\n- [x] Guards\n- [ ] Exhaustiveness checking\n\n### Other Data types\n\n- [x] Tuples\n- [x] Custom Types\n- [x] Records\n- [x] Record accessors\n- [x] Record updates\n- [x] Generic custom types\n- [x] Results\n- [ ] Bit arrays (partial support)\n\n### Advanced features\n\n- [ ] Opaque types\n- [x] Use\n- [x] Todo\n- [x] Panic",
+    "ContentSha": "umC5DB/LG7RSG0Ijx5ys93yzgN+F6m1QyHTH8aSg02w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- [x] 익명 함수\n- [x] 함수 캡처\n- [x] 제네릭 함수\n- [x] 파이프라인\n- [x] 레이블 인수\n- [ ] 문서 주석 (무시됨)\n- [ ] 사용 중단 (무시됨)\n\n### 흐름 제어\n\n- [x] 케이스 표현식\n- [x] 변수 패턴\n- [x] 생성자 패턴\n- [x] 문자열 패턴\n- [x] 리스트 패턴\n- [x] 재귀\n- [ ] 꼬리 호출 (참고: c 컴파일러가 대신 처리할 수 있음)\n- [x] 다중 주제\n- [x] 대체 패턴\n- [x] 패턴 별칭\n- [x] 가드\n- [ ] 완전성 검사\n\n### 기타 데이터 타입\n\n- [x] 튜플\n- [x] 사용자 정의 타입\n- [x] 레코드\n- [x] 레코드 접근자\n- [x] 레코드 업데이트\n- [x] 제네릭 사용자 정의 타입\n- [x] 결과\n- [ ] 비트 배열 (부분 지원)\n\n### 고급 기능\n\n- [ ] 불투명 타입\n- [x] 사용\n- [x] 할 일\n- [x] 패닉",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HLR8Ft+u8d6imb/yKEOWqf8GHRcdfiBZCky6JsqvkoQ=",
+        "originContent": "- [x] Anonymous functions",
+        "translatedContent": "- [x] 익명 함수"
+      },
+      {
+        "row": 2,
+        "rowsha": "UtlPC5j2TcLAeeA74Q8SVrxdAMPNh9KwtLJD8ceGuks=",
+        "originContent": "- [x] Function captures",
+        "translatedContent": "- [x] 함수 캡처"
+      },
+      {
+        "row": 3,
+        "rowsha": "4wclWrN003f6a3tsSrklH6MrIScsYMNdwfrRDQmtV/k=",
+        "originContent": "- [x] Generic functions",
+        "translatedContent": "- [x] 제네릭 함수"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZkzzYpAVjhBvF2w+8nSXEg3Z5G77i7rvcwzHr47Cxu8=",
+        "originContent": "- [x] Pipelines",
+        "translatedContent": "- [x] 파이프라인"
+      },
+      {
+        "row": 5,
+        "rowsha": "qdLvFeHkdN6Y2cOxNEe3n0RycvNU/2tzreddp2rETn0=",
+        "originContent": "- [x] Labeled arguments",
+        "translatedContent": "- [x] 레이블 인수"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZPN9NPHCY9i3mX5DHj4lt/QIAgdPXFa2tvgPBRI8YEk=",
+        "originContent": "- [ ] Documentation comments (ignored)",
+        "translatedContent": "- [ ] 문서 주석 (무시됨)"
+      },
+      {
+        "row": 7,
+        "rowsha": "QQtsGnv+sjkQ6vQNTm1au01/TJN8AOAqDtebJVkAAWU=",
+        "originContent": "- [ ] Deprecations (ignored)",
+        "translatedContent": "- [ ] 사용 중단 (무시됨)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Gm6ziRwuB6rABvff5IaqrQS3NXvEvJtIGehK2H8eFbk=",
+        "originContent": "### Flow control",
+        "translatedContent": "### 흐름 제어"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "PNEVz/57qmaVkQkS9smZU1QDTQ1x7Na4v6HaNSHzbTw=",
+        "originContent": "- [x] Case expressions",
+        "translatedContent": "- [x] 케이스 표현식"
+      },
+      {
+        "row": 12,
+        "rowsha": "CuRn2QONVTHppVharfVlN6wiwJFvNgfK4GjoiJMIMYM=",
+        "originContent": "- [x] Variable patterns",
+        "translatedContent": "- [x] 변수 패턴"
+      },
+      {
+        "row": 13,
+        "rowsha": "qh1iY4HuZ32tjVLsT7QPvk/cYfSNJXxZqEmowMMqGNw=",
+        "originContent": "- [x] Constructor patterns",
+        "translatedContent": "- [x] 생성자 패턴"
+      },
+      {
+        "row": 14,
+        "rowsha": "afe7GTnjgT5/mI1r4Dwx1OJZghgWExKPnFum7D2v6zw=",
+        "originContent": "- [x] String patterns",
+        "translatedContent": "- [x] 문자열 패턴"
+      },
+      {
+        "row": 15,
+        "rowsha": "BmKTrQiFQmB16ouvuE3FDaG6G8yW0EA1wt5m85npjzI=",
+        "originContent": "- [x] List patterns",
+        "translatedContent": "- [x] 리스트 패턴"
+      },
+      {
+        "row": 16,
+        "rowsha": "ZyjCYovY5LnFyFjoIOIoC5jmrX24iQwDOsQk0GyQ7t0=",
+        "originContent": "- [x] Recursion",
+        "translatedContent": "- [x] 재귀"
+      },
+      {
+        "row": 17,
+        "rowsha": "KUxFuCLyllLrIQ8xKnUWyzMgwZDY80QvD1dXqYXlFj0=",
+        "originContent": "- [ ] Tail calls (note: the c compiler may do this for us)",
+        "translatedContent": "- [ ] 꼬리 호출 (참고: c 컴파일러가 대신 처리할 수 있음)"
+      },
+      {
+        "row": 18,
+        "rowsha": "9XRJi523lrfLcUFVr88wJ5UjY9licAmoOrpw3hY2B3U=",
+        "originContent": "- [x] Multiple subjects",
+        "translatedContent": "- [x] 다중 주제"
+      },
+      {
+        "row": 19,
+        "rowsha": "QD/n0ZZBhTcJ4DbE4l+jasc4EMwzEDG3omIycb3rAw0=",
+        "originContent": "- [x] Alternative patterns",
+        "translatedContent": "- [x] 대체 패턴"
+      },
+      {
+        "row": 20,
+        "rowsha": "zBXsyoQzE9C+lsueza3aJi5aQfwHYq1EWHhCx3Iy+Kg=",
+        "originContent": "- [x] Pattern aliases",
+        "translatedContent": "- [x] 패턴 별칭"
+      },
+      {
+        "row": 21,
+        "rowsha": "iD5yIkWlbcAOo8wKz9y/03MQuNTgnXDg+rAcUc86/sg=",
+        "originContent": "- [x] Guards",
+        "translatedContent": "- [x] 가드"
+      },
+      {
+        "row": 22,
+        "rowsha": "N1FgOtefpyxC03T7qwPppcfrpx65lBPdeiDQZabiZDs=",
+        "originContent": "- [ ] Exhaustiveness checking",
+        "translatedContent": "- [ ] 완전성 검사"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "UbusyNIy74z6dJlgCyRFxcQtCnezisREvV/ffvxxnos=",
+        "originContent": "### Other Data types",
+        "translatedContent": "### 기타 데이터 타입"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "HaM1Zt2rhCW8JI1QC4J4SOR3gH7j5LVl21rAF/i2v38=",
+        "originContent": "- [x] Tuples",
+        "translatedContent": "- [x] 튜플"
+      },
+      {
+        "row": 27,
+        "rowsha": "SrbhcGw1xYa874z0rK3GXrinQRkgrKyLHtTKLSV5FYc=",
+        "originContent": "- [x] Custom Types",
+        "translatedContent": "- [x] 사용자 정의 타입"
+      },
+      {
+        "row": 28,
+        "rowsha": "U5H2mrlItkrp8iAsXxMQI8tY2r758zctnDbIUIhC/Lk=",
+        "originContent": "- [x] Records",
+        "translatedContent": "- [x] 레코드"
+      },
+      {
+        "row": 29,
+        "rowsha": "Ffx2tsStIzCHXE8Ay8H/Tywqjy2jX4yqYz3jTPtvyhM=",
+        "originContent": "- [x] Record accessors",
+        "translatedContent": "- [x] 레코드 접근자"
+      },
+      {
+        "row": 30,
+        "rowsha": "bsNPAEZUxQbyuFrk44SynL4T2hCxjH1CkwWbW6jfUlA=",
+        "originContent": "- [x] Record updates",
+        "translatedContent": "- [x] 레코드 업데이트"
+      },
+      {
+        "row": 31,
+        "rowsha": "uKtebgR9WK/xYXBALXchNjp2S7KZh8K0u6EOmK0n1lA=",
+        "originContent": "- [x] Generic custom types",
+        "translatedContent": "- [x] 제네릭 사용자 정의 타입"
+      },
+      {
+        "row": 32,
+        "rowsha": "+PDwdtN8TO2VTERS3BLUq6/8whTJjHfDzWgc7x6xYgw=",
+        "originContent": "- [x] Results",
+        "translatedContent": "- [x] 결과"
+      },
+      {
+        "row": 33,
+        "rowsha": "C74RxYxueqKXAxxNRwA/hC3Hy26W8dJDHM2kSHHx/1A=",
+        "originContent": "- [ ] Bit arrays (partial support)",
+        "translatedContent": "- [ ] 비트 배열 (부분 지원)"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "xqHtykH8hkF78p0oRv+TmpAls3pcp8akOerPqNKCk/E=",
+        "originContent": "### Advanced features",
+        "translatedContent": "### 고급 기능"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "WkX7PPGiN61onfs3+iN04ckV5efLQoSC304VKpYUwvg=",
+        "originContent": "- [ ] Opaque types",
+        "translatedContent": "- [ ] 불투명 타입"
+      },
+      {
+        "row": 38,
+        "rowsha": "vL2shxguY2dJoBCB4O+633mjTrF/A3wjn6zSRqg6hlw=",
+        "originContent": "- [x] Use",
+        "translatedContent": "- [x] 사용"
+      },
+      {
+        "row": 39,
+        "rowsha": "VEL2586jKgAYNU0NIXSD3rA8NLVEJi73tRUlWl6C91Q=",
+        "originContent": "- [x] Todo",
+        "translatedContent": "- [x] 할 일"
+      },
+      {
+        "row": 40,
+        "rowsha": "XBzRF208RkhaxMRrWQVWD26FO3Us4OrvN++rfOT5gKg=",
+        "originContent": "- [x] Panic",
+        "translatedContent": "- [x] 패닉"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "- [x] Let assert\n- [x] Externals\n\n## Contributing\n\nI am not accepting code contributions at this time. Feel free to make issues, suggestions, or discussions though.\n",
+    "ContentSha": "jKEIlOPwPluQuJJGgl63PUvA+FS/45YlmLpUlGrTew8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- [x] let assert\n- [x] 외부 모듈\n\n## 기여하기\n\n현재 코드 기여는 받고 있지 않습니다. 다만 이슈, 제안, 토론은 언제든지 환영합니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MO/Bdy4ZWpPm12Ae8P9atXJEHhdzgJCvZvpUMtxpzRY=",
+        "originContent": "- [x] Let assert",
+        "translatedContent": "- [x] let assert"
+      },
+      {
+        "row": 2,
+        "rowsha": "yJZ8N2LTguoptqyBCGCJzwhTuM0WNveUukegN4U2NO8=",
+        "originContent": "- [x] Externals",
+        "translatedContent": "- [x] 외부 모듈"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## 기여하기"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "k/RWLb0jlGjqwc2MQ5+voQeJ1hTPkO/xF/JpMv5LaAs=",
+        "originContent": "I am not accepting code contributions at this time. Feel free to make issues, suggestions, or discussions though.",
+        "translatedContent": "현재 코드 기여는 받고 있지 않습니다. 다만 이슈, 제안, 토론은 언제든지 환영합니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

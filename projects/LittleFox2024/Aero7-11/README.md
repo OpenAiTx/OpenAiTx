@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
 
 # Aero7-11

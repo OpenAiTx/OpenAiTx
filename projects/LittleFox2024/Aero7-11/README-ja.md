@@ -1,62 +1,94 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=LittleFox2024&project=Aero7-11&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align="center">
 
 # Aero7-11
-Windows 11 23H2+用 Aero 7 テーマ！
+Windows 11 23H2+向けAero 7テーマ！
 
 </div>
 
 > [!NOTE]
-> Aero7-11 は Windows 11 のデフォルト `aero.msstyles` を使用して作成されています。これは Windows 11 23H2 および 24H2 で作成およびテストされました。
+> Aero7-11は、Windows 11のデフォルトの`aero.msstyles`を使用して作成されています。これは、Windows 11 23H2および24H2で作成・テストされました。
 > 
-> Aero7-11 は 22H2 から 23H2 をサポートしています。25H2 では未検証であり、24H2 では DWM の改造が少し不安定になる可能性があります。
+> Aero7-11は22H2から23H2までをサポートします。25H2では未検証であり、24H2ではDWMの改造がやや不安定になる場合があります。
 
 ## 注意事項
 
 > [!NOTE]
-> ライトアプリモードとダーク Windows モードの使用を推奨します。これはダークアプリモードには対応していません。Windows モードは重要ではありませんが、ほとんどのタスクバーモッドはライトベースよりもダークベースの方が安定しています。
+> アプリの表示モードはライト、Windowsの表示モードはダークを推奨します。ダークアプリモードは*非対応*です。Windowsの表示モード自体は問いませんが、多くのタスクバーモッドはライトベースよりダークベースでより良く動作します。
 >
-> 24H2 には問題があることが判明しています。ここ数か月で Windows を更新した場合、DWM の変更によってシステムが破損する可能性があります。24H2 および 25H2 でモッドを適用する場合は注意し、バックアップを必ず取ってください。
+> 24H2には問題が確認されています。最近数ヶ月以内にWindowsをアップデートしている場合、DWM改造によってシステムが破損する可能性があります。24H2や25H2で改造を適用する際は、必ずバックアップを保持し、慎重に進めてください。
 
 > [!WARNING]
-> このテーマの使用は自己責任であることにご注意ください。アップデートとの互換性を保証できず、いかなる損害についても責任を負いかねます。私はビジュアルスタイルの作成とサードパーティツールの案内のみを行っています。このリポジトリで作成した唯一のモッドは Borders モッドで、23H2 向けに作られています。
+> このテーマの使用は自己責任でお願いします。アップデートとの互換性は***保証できません***し、損害に対して責任を負いません。私はVisual Styleのみを扱い、サードパーティツールの紹介のみ行っています。唯一私が作成した改造はこのリポジトリ内のBorders modで、これは23H2用です。
 >
-> システムファイルを変更する場合は、システムが破損した際に元に戻せるように、**すべて**の手順やファイル（元のものも新しいものも）をバックアップすることを強く推奨します。
+> システムファイルを改変する場合は、**全ての**手順およびファイル（オリジナルと新規両方）を、システムが破損してもアクセスできる場所にバックアップしておくことを***強く推奨***します。
 
-## スクリーンショット：
+## スクリーンショット:
 ![image](https://github.com/user-attachments/assets/48751eb9-c8cf-402e-965e-22f5951d2337)
 
-テーマの動作例です。ご覧の通り完全に1:1ではなく、残念ながら現在のツールの制約により完全再現はできません。
+テーマの動作例です。ご覧の通り、完全一致ではありません。残念ながら現在のツールでは完全一致にすることはできません。
 
 ## インストール
-このセクションは、サードパーティテーマの使用を許可するためにシステムパッチを既に適用済みであることを前提としています。未適用の場合は、UltraUXThemePatcher や SecureUxTheme などのツールの使用方法を参照してください。
+このセクションは、サードパーティテーマの適用が可能なようにシステムパッチ済みであることを前提としています。未実施の場合は、方法を案内するガイドを参照してください。UltraUXThemePatcherやSecureUxThemeなどのツールが必要です。
 
-- リポジトリを ZIP ファイルとしてダウンロードし、お好みのフォルダーに展開します。
-- [1 - Theme](./1%20-%20Theme/) フォルダーの内容を `%SYSTEMROOT%\Resources\Themes` にコピーします。
-- [2 - Borders](./%20-%20Borders/) フォルダーの指示に従い、Windhawk と `Bring Back the Borders!` モッドを使ってボーダーを設定します。
-- [3 - Glass](./3%20-%20Glass/) フォルダーの指示に従い、ガラスエフェクトを設定します。
-- （オプション）[4 - (Optional) Extras](./4%20-%20(Optional)%20Extras/) フォルダーを開き、追加のテーマやリソースを探検してください。
-- デスクトップを右クリックして「個人用設定」を選択し、「テーマ」から希望のテーマを適用します。
+- リポジトリをZIPファイルとしてダウンロードし、任意のフォルダーに展開してください。
+- [1 - Theme](./1%20-%20Theme/)フォルダーの内容を`%SYSTEMROOT%\Resources\Themes`にコピーしてください。
+- Windhawkおよび`Bring Back the Borders!`モッドを使い、[2 - Borders](./%20-%20Borders/)フォルダーの手順に従いボーダーを設定してください。
+- [3 - Glass](./3%20-%20Glass/)フォルダーの手順に従いガラス効果を設定してください。
+- （任意）[4 - (Optional) Extras](./4%20-%20(Optional)%20Extras/)フォルダーを開き、追加テーマやリソースを確認してください。
+- デスクトップを右クリックし、「個人設定」を選択、「テーマ」へ進み、希望するテーマを選択して適用してください。
 
 ## クレジット
-このテーマは「オープンソース」であり、誰でも使用および編集が可能です。残念ながら、バイナリ形式で固定されているため、公開できるコードはありません。私はこれに対して一切の制限や料金を課していません。
 
-誰でもコピーを作成したり再配布したりできます。ただし、唯一の条件は無料のままであること、そして以下の全ての方々がWindowsカスタマイズへの貢献者としてクレジットされることです：
+このテーマは「オープンソース」です。誰でも自由に利用・編集できます。ただしバイナリ形式でしか提供できないため、コードの公開はできません。制限や支払いの義務はありません。
 
-- **teknixstuff**: IttrのuDWMパッチを基にWindhawkでオリジナルの「Bring Back the Borders!」モッドを作成。
-- **Zee-Ay (Za9-118)**: Shellstyle dllを提供し、Vistaテーマを作成。
-- **vaporvance**: オリジナルのAero10テーマでShellstyle dllを作成。
-- **Ittr**: 同梱のuDWM.dllパッチを作成。
-- **SandTechStuff**: 読みやすさのために指示を更新。
-- **TheDolphinSlayer**: Windows 7のalt tabリソースを追加。
-- **OG Nimbi**: Optional Extrasフォルダを実装し、複数ファイルの指示とフォーマットを読みやすく管理しやすいように更新。
-- **All Windows 7 Aero theme for Windows 10/11 developers**: さまざまなテーマから要素を取り入れました。
+誰でもコピーや再配布が可能ですが、唯一の条件は無料であること、そしてWindowsカスタマイズに貢献した以下の方々のクレジットを必ず記載することです。
 
-このテーマに関して、私がクレジットを受けるのはごく一部だけです。Windows 7のデザインを取り、Windows 11のaero.msstylesと統合し、すべてを一つにまとめて実装しただけです。これはWindows 11ユーザーが良いWindows 7テーマを探す助けになればという願いからです。
+- **teknixstuff**: Windhawkで元となる「Bring Back the Borders!」モッドを作成。Ittr氏のuDWMパッチがベース。
+- **Zee-Ay (Za9-118)**: Shellstyle dllの提供、Vistaテーマの作成者。
+- **vaporvance**: 元祖Aero10テーマでShellstyle dllを作成。
+- **Ittr**: uDWM.dllのパッチを作成しました（同梱されています）。
+- **SandTechStuff**: 読みやすさのために手順を更新しました。
+- **TheDolphinSlayer**: Windows 7のAlt+Tabリソースを追加しました。
+- **OG Nimbi**: Optional Extrasフォルダを実装し、複数ファイルの手順やフォーマットを読みやすさと管理のしやすさのために更新しました。
+- **Windows 10/11向けWindows 7 Aeroテーマの全開発者**: 私は様々なテーマからパーツを拝借しました。
 
+このテーマの功績はほとんどありません。Windows 7のデザインをWindows 11のaero.msstylesと組み合わせて、すべてを一つにまとめて実装しただけです。Windows 11ユーザーが自分のシステムに合う良いWindows 7テーマを探している場合に役立てばと思っています。
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-28
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
 
 ---

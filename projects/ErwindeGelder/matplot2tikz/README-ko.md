@@ -1,13 +1,45 @@
-# matplot2tikz
-이전 이름은 <em>tikzplotlib</em>이었던 아티스트입니다.
 
-![PyPI - 버전](https://img.shields.io/pypi/v/matplot2tikz)
-![GitHub 라이선스](https://img.shields.io/github/license/ErwindeGelder/matplot2tikz)
-![PyPI - 파이썬 버전](https://img.shields.io/pypi/pyversions/matplot2tikz)
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# matplot2tikz
+이전 명칭 <em>tikzplotlib</em>로 알려진 아티스트.
+
+![PyPI - Version](https://img.shields.io/pypi/v/matplot2tikz)
+![GitHub License](https://img.shields.io/github/license/ErwindeGelder/matplot2tikz)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/matplot2tikz)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![mypy 검사 완료](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
+[![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
 [![codecov](https://codecov.io/gh/ErwindeGelder/matplot2tikz/graph/badge.svg?token=YE2VNWL9HI)](https://codecov.io/gh/ErwindeGelder/matplot2tikz)
-[![PyPI 다운로드](https://static.pepy.tech/badge/matplot2tikz/month)](https://pepy.tech/projects/matplot2tikz)
+[![PyPI Downloads](https://static.pepy.tech/badge/matplot2tikz/month)](https://pepy.tech/projects/matplot2tikz)
 
 이것은 matplot2tikz로, matplotlib 그림을
 [PGFPlots](https://www.ctan.org/pkg/pgfplots) ([PGF/TikZ](https://www.ctan.org/pkg/pgf))
@@ -15,17 +47,17 @@
 
 ![](https://raw.githubusercontent.com/ErwindeGelder/matplot2tikz/refs/heads/main/example.png)
 
-LaTeX 또는 ConTeXt 문서에 네이티브로 포함할 수 있습니다.
+LaTeX 또는 ConTeXt 문서에 네이티브로 포함하기 위해 사용됩니다.
 
-matplot2tikz의 출력은 [PGFPlots](https://github.com/pgf-tikz/pgfplots/) 형식이며,
-이는 [PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ) 위에
-구축된 TeX 라이브러리로 축, 데이터 등으로 그래프를 기술합니다. 따라서 matplot2tikz의 출력은
+matplot2tikz의 출력은 [PGFPlots](https://github.com/pgf-tikz/pgfplots/)으로,
+이것은 [PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ) 위에서 동작하는 TeX
+라이브러리로, 축, 데이터 등과 같은 그래프를 설명합니다. 결과적으로 matplot2tikz의 출력은
 
--   더 많은 정보를 유지하고,
--   더 쉽게 이해할 수 있으며,
--   더 쉽게 편집할 수 있습니다.
+-   더 많은 정보를 보존하며,
+-   더 쉽게 이해할 수 있고,
+-   더 쉽게 편집할 수 있습니다
 
-이는 [원시 TikZ 출력](https://matplotlib.org/users/whats_new.html#pgf-tikz-backend)보다 우수합니다.
+[원시 TikZ 출력](https://matplotlib.org/users/whats_new.html#pgf-tikz-backend)보다 그렇습니다.
 예를 들어, matplotlib 그림은
 
 ```python
@@ -259,6 +291,6 @@ matplot2tikz는 [MIT 라이선스](https://en.wikipedia.org/wiki/MIT_License) �
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
 
 ---

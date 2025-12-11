@@ -1,13 +1,45 @@
-# Jimmy's Blog
 
-Next.js 15+를 기반으로 구축된 간결한 개인 블로그 시스템입니다.
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# Jimmy의 블로그
+
+Next.js 15+를 기반으로 제작된 미니멀리즘 개인 블로그 시스템입니다.
 
 ## 기술 스택
 
 - **프레임워크**: Next.js 13+ (App Router)
 - **스타일**: Tailwind CSS
 - **아이콘**: Lucide Icons
-- **테마**: 다크/라이트 모드 지원
+- **테마**: 다크/라이트 모드 전환 지원
 - **배포**: Vercel
 
 ## 기능 특징
@@ -16,7 +48,7 @@ Next.js 15+를 기반으로 구축된 간결한 개인 블로그 시스템입니
 - 🌓 다크/라이트 테마 전환
 - 📱 반응형 디자인
 - ⚡ 빠른 로딩
-- 📅 글 타임라인 표시
+- 📅 게시글 타임라인 표시
 
 ## 프로젝트 구조
 
@@ -102,6 +134,6 @@ MIT License
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
 
 ---

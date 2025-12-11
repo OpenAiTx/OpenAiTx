@@ -1,32 +1,64 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # matplot2tikz
 El artista anteriormente conocido como <em>tikzplotlib</em>.
 
-![PyPI - Version](https://img.shields.io/pypi/v/matplot2tikz)
-![GitHub License](https://img.shields.io/github/license/ErwindeGelder/matplot2tikz)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/matplot2tikz)
+![PyPI - Versión](https://img.shields.io/pypi/v/matplot2tikz)
+![Licencia GitHub](https://img.shields.io/github/license/ErwindeGelder/matplot2tikz)
+![PyPI - Versión de Python](https://img.shields.io/pypi/pyversions/matplot2tikz)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
 [![codecov](https://codecov.io/gh/ErwindeGelder/matplot2tikz/graph/badge.svg?token=YE2VNWL9HI)](https://codecov.io/gh/ErwindeGelder/matplot2tikz)
-[![PyPI Downloads](https://static.pepy.tech/badge/matplot2tikz/month)](https://pepy.tech/projects/matplot2tikz)
+[![Descargas PyPI](https://static.pepy.tech/badge/matplot2tikz/month)](https://pepy.tech/projects/matplot2tikz)
 
-Este es matplot2tikz, una herramienta de Python para convertir figuras de matplotlib en
-[PGFPlots](https://www.ctan.org/pkg/pgfplots) ([PGF/TikZ](https://www.ctan.org/pkg/pgf))
-figuras como
+Esto es matplot2tikz, una herramienta de Python para convertir figuras de matplotlib en
+figuras de [PGFPlots](https://www.ctan.org/pkg/pgfplots) ([PGF/TikZ](https://www.ctan.org/pkg/pgf))
+como
 
 ![](https://raw.githubusercontent.com/ErwindeGelder/matplot2tikz/refs/heads/main/example.png)
 
-para inclusión nativa en documentos LaTeX o ConTeXt.
+para su inclusión nativa en documentos LaTeX o ConTeXt.
 
-La salida de matplot2tikz está en [PGFPlots](https://github.com/pgf-tikz/pgfplots/), una biblioteca TeX
-que se basa en [PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ) y
+La salida de matplot2tikz está en [PGFPlots](https://github.com/pgf-tikz/pgfplots/), una biblioteca de TeX
+que se sitúa sobre [PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ) y
 describe gráficos en términos de ejes, datos, etc. En consecuencia, la salida de matplot2tikz
 
 -   conserva más información,
--   puede ser más fácilmente entendida, y
+-   puede entenderse más fácilmente, y
 -   es más fácilmente editable
 
-que la [salida TikZ en bruto](https://matplotlib.org/users/whats_new.html#pgf-tikz-backend).
-Por ejemplo, la figura matplotlib
+que la [salida TikZ cruda](https://matplotlib.org/users/whats_new.html#pgf-tikz-backend).
+Por ejemplo, la figura de matplotlib
 
 ```python
 import matplotlib.pyplot as plt
@@ -259,6 +291,6 @@ matplot2tikz se publica bajo la [licencia MIT](https://es.wikipedia.org/wiki/Lic
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
 
 ---

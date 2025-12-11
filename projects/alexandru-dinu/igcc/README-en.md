@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Interactive GCC
 
 [![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)
@@ -5,7 +37,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 > [!NOTE]
-> The original repo from Andy Balaam is here: https://codeberg.org/andybalaam/igcc.
+> The original repository from Andy Balaam is here: https://codeberg.org/andybalaam/igcc.
 > In this fork, I've done some refactoring and tried to make it easier to use.
 
 > [!WARNING]
@@ -23,30 +55,37 @@ The easiest way to get started is to use [pipx](https://pipx.pypa.io/stable/):
 ```
 pipx install git+https://github.com/alexandru-dinu/igcc.git
 ```
-Alternatively, you can also just use `pip` (a dedicated virtual environment is recommended).
-
-Now you can run the REPL with:
+Alternatively, you can also use `uv`:
 ```
-igcc
+uv tool run git+https://github.com/alexandru-dinu/igcc
+```
+And for dev:
+```
+git clone https://github.com/alexandru-dinu/igcc.git
+cd igcc
+uv sync
 ```
 
 Available args:
+<!-- MDUP:BEG uv run igcc --help -->
 ```
-$ igcc --help
-usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]] [-l LIB [LIB ...]]
+usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]]
+            [-l LIB [LIB ...]]
 
 options:
   -h, --help            show this help message and exit
   -I INCLUDE [INCLUDE ...]
-                        Add INCLUDE to the list of directories to be searched for header files.
+                        Add INCLUDE to the list of directories to be searched
+                        for header files.
   -L LIBDIR [LIBDIR ...]
-                        Add LIBDIR to the list of directories to be searched for library files.
+                        Add LIBDIR to the list of directories to be searched
+                        for library files.
   -l LIB [LIB ...]      Search the library LIB when linking.
 ```
+<!-- MDUP:END -->
 
 The code will be compiled with GCC (`g++`) and the results (if any) will be displayed.
 Type `.h` for help:
-
 ```
 $ igcc
 [1]> .h
@@ -204,6 +243,6 @@ See https://github.com/alexandru-dinu/igcc/issues
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
 
 ---

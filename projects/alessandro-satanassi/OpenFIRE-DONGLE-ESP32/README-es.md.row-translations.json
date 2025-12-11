@@ -1,0 +1,368 @@
+[
+  {
+    "row": 1,
+    "rowsha": "qAXiLAyel38pWA2qW35FciH8oixqWHCY3o47oV9EWTM=",
+    "originContent": "## OpenFIRE-DONGLE for EPS32",
+    "translatedContent": "## OpenFIRE-DONGLE para EPS32"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "jaYeq4vr8R4tJAkIJmiDWE6k9zGAS5sSvJRkQWB4J2c=",
+    "originContent": "![foto_dongle](https://github.com/user-attachments/assets/a38d7390-f7e7-42d7-844c-ad8388670f6d)",
+    "translatedContent": "![foto_dongle](https://github.com/user-attachments/assets/a38d7390-f7e7-42d7-844c-ad8388670f6d)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "bZAqVJi4WhZ2VmkMuVB4fKX4kMaxO7JknDb7SEfryXQ=",
+    "originContent": "https://github.com/user-attachments/assets/70a193a0-686e-4da3-8d30-f0067de6b63c",
+    "translatedContent": "https://github.com/user-attachments/assets/70a193a0-686e-4da3-8d30-f0067de6b63c"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "70298iGjAI8BkpjWETDR2MmCoWQWb5lvul4MFNkWeOk=",
+    "originContent": "Questo repository è stato creato per essere utilizzato insieme al codice del progetto OpenFIRE-Firmware-ESP32, un porting del progetto originale 'OpenFIRE-firmware' del TeamOpenFIRE, adattato per funzionare sul microcontrollore ESP32S3.",
+    "translatedContent": "Este repositorio fue creado para ser utilizado junto con el código del proyecto OpenFIRE-Firmware-ESP32, un port del proyecto original 'OpenFIRE-firmware' del TeamOpenFIRE, adaptado para funcionar en el microcontrolador ESP32S3."
+  },
+  {
+    "row": 13,
+    "rowsha": "rA/6fZUGoYaEp8XSCLLeecpqc1AXyFdy6v0SQBLZ4wU=",
+    "originContent": "Il progetto, sviluppato utilizzando PlatformIO, rappresenta il firmware per un ESP32S3 da usare come dongle collegato al PC, al fine di abilitare una connessione wireless tramite il protocollo ESP-NOW di ESP32. Questo dongle è progettato per essere usato in combinazione con il firmware 'OpenFIRE-Firmware-ESP32', da installare sulla lightgun.",
+    "translatedContent": "El proyecto, desarrollado usando PlatformIO, representa el firmware para un ESP32S3 para ser usado como dongle conectado al PC, con el fin de habilitar una conexión inalámbrica mediante el protocolo ESP-NOW de ESP32. Este dongle está diseñado para usarse en combinación con el firmware 'OpenFIRE-Firmware-ESP32', que se instala en la lightgun."
+  },
+  {
+    "row": 14,
+    "rowsha": "a35hcbsOS+Z8yBArfTs93dka3EILTUJ3PLjNLuANn1w=",
+    "originContent": "Il codice è strutturato per rilevare automaticamente le lightgun e configurarsi in modo autonomo.",
+    "translatedContent": "El código está estructurado para detectar automáticamente las lightgun y configurarse de forma autónoma."
+  },
+  {
+    "row": 15,
+    "rowsha": "fabP5/RNVu+IErOSuDvhP3oDFj3dHWg8ZIqD8I0PQ2U=",
+    "originContent": "La trasmissione tra lightgun e dongle è bidirezionale, consentendo di utilizzare la lightgun come se fosse connessa direttamente al PC via USB.",
+    "translatedContent": "La comunicación entre la lightgun y el dongle es bidireccional, permitiendo usar la lightgun como si estuviera conectada directamente al PC vía USB."
+  },
+  {
+    "row": 16,
+    "rowsha": "ZnVW/H5QumYpsP2ja3/zxmA/cIptMIMsdLXpLaJKmO4=",
+    "originContent": "Il PC non rileva alcuna differenza tra una connessione diretta tramite USB e una connessione wireless tramite dongle.",
+    "translatedContent": "El PC no detecta ninguna diferencia entre una conexión directa por USB y una conexión inalámbrica a través del dongle."
+  },
+  {
+    "row": 17,
+    "rowsha": "uVdCdFk+cSwuzIVAz4Wf7LF/NmBWSAv156xUKwRg3DE=",
+    "originContent": "Desidero esprimere la mia sincera gratitudine al TeamOpenFIRE per la creazione del progetto 'OpenFIRE': tutti i meriti e la mia piena riconoscenza vanno a loro.",
+    "translatedContent": "Quiero expresar mi sincera gratitud al TeamOpenFIRE por la creación del proyecto 'OpenFIRE': todo el mérito y mi más profundo reconocimiento van para ellos."
+  },
+  {
+    "row": 18,
+    "rowsha": "RdG3gnJX7kXwa+b/jHFsNGi6gixKHrT5I4alywJpY2Y=",
+    "originContent": "Una piccola parte del codice è stata estratta e modificata dal repository \"SerialTransfer\": https://github.com/PowerBroker2/SerialTransfer.git.",
+    "translatedContent": "Una pequeña parte del código fue extraída y modificada del repositorio \"SerialTransfer\": https://github.com/PowerBroker2/SerialTransfer.git."
+  },
+  {
+    "row": 19,
+    "rowsha": "RYfEykFvcikGNUMDu6ToTP8IyW8Y11/xaA3lR7CMcaQ=",
+    "originContent": "Desidero pertanto ringraziare anche l'autore di tale codice, PowerBroker2, per il suo contributo.",
+    "translatedContent": "Por lo tanto, deseo agradecer también al autor de dicho código, PowerBroker2, por su contribución."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "DMUECABIvLYWCdgEFo+Ca28UJawT0c3On/2nTuiZK2I=",
+    "originContent": "This repository was created to be used together with the code from the OpenFIRE-Firmware-ESP32 project, a porting of the original 'OpenFIRE-firmware' project by TeamOpenFIRE, adapted to work on the ESP32S3 microcontroller.",
+    "translatedContent": "Este repositorio fue creado para usarse junto con el código del proyecto OpenFIRE-Firmware-ESP32, un port del proyecto original 'OpenFIRE-firmware' de TeamOpenFIRE, adaptado para funcionar en el microcontrolador ESP32S3."
+  },
+  {
+    "row": 23,
+    "rowsha": "8GwmHl2OWenS7/q9Pz2948zrTYw3s2q3Gpp1hVHb4wA=",
+    "originContent": "The project, developed using PlatformIO, serves as the firmware for an ESP32S3 to be used as a dongle connected to the PC, enabling wireless connectivity through the ESP-NOW protocol of ESP32. This dongle is designed to be used in combination with the firmware 'OpenFIRE-Firmware-ESP32', which is installed on the lightgun.",
+    "translatedContent": "El proyecto, desarrollado usando PlatformIO, sirve como firmware para un ESP32S3 que se usa como dongle conectado al PC, habilitando conectividad inalámbrica mediante el protocolo ESP-NOW de ESP32. Este dongle está diseñado para usarse en combinación con el firmware 'OpenFIRE-Firmware-ESP32', que se instala en la lightgun."
+  },
+  {
+    "row": 24,
+    "rowsha": "Kbti1UsfsN6TcjCT1jWP2etGBexROO7PhILdFKLW+YA=",
+    "originContent": "The code is structured to automatically detect lightguns and configure itself independently.",
+    "translatedContent": "El código está estructurado para detectar automáticamente las lightgun y configurarse de forma independiente."
+  },
+  {
+    "row": 25,
+    "rowsha": "kNpv3YywxuiaVB/9zYDH9HJlFMd8yAp+S7VtUXzRwhs=",
+    "originContent": "The communication between the lightgun and the dongle is bidirectional, allowing the lightgun to function as if it were directly connected to the PC via USB.",
+    "translatedContent": "La comunicación entre la lightgun y el dongle es bidireccional, permitiendo que la lightgun funcione como si estuviera conectada directamente al PC vía USB."
+  },
+  {
+    "row": 26,
+    "rowsha": "ZMgVKf00FFZsD4HNS1NKsk/M1+pJ1fVo4lk8pH6WBQo=",
+    "originContent": "The PC does not notice any difference between a direct USB connection and a wireless connection through the dongle.",
+    "translatedContent": "El PC no nota ninguna diferencia entre una conexión USB directa y una conexión inalámbrica a través del dongle."
+  },
+  {
+    "row": 27,
+    "rowsha": "vJSami3LUzMwlTBL1vT4eUJgGQjVKNeuIrJO4RwU09U=",
+    "originContent": "I would like to express my sincere gratitude to TeamOpenFIRE for creating the 'OpenFIRE' project; all credit and my deepest appreciation go to them.",
+    "translatedContent": "Quisiera expresar mi sincera gratitud al TeamOpenFIRE por crear el proyecto 'OpenFIRE'; todo el crédito y mi más profundo agradecimiento son para ellos."
+  },
+  {
+    "row": 28,
+    "rowsha": "8qu8Q8qcO2b4QdqCBUiVYvB8MiXcJvTBB2xpNK4C6sg=",
+    "originContent": "A small portion of the code was taken and modified from the repository \"SerialTransfer\": https://github.com/PowerBroker2/SerialTransfer.git.",
+    "translatedContent": "Una pequeña porción del código fue tomada y modificada del repositorio \"SerialTransfer\": https://github.com/PowerBroker2/SerialTransfer.git."
+  },
+  {
+    "row": 29,
+    "rowsha": "vJRQ8HMviZWadkBP0abqVdegOSOEoar/SonqLNDmk1A=",
+    "originContent": "I would therefore like to thank the author of this code, PowerBroker2, for their contribution.",
+    "translatedContent": "Por lo tanto, quisiera agradecer al autor de este código, PowerBroker2, por su contribución."
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "w4A0NSS+mrFQcXNSL+LO2zibA3QzR7GwEifmKDaCE2k=",
+    "originContent": "## ... segue la pagina originale del progetto 'OpenFIRE-firmware' del TeamOpenFIRE",
+    "translatedContent": "## ... sigue la página original del proyecto 'OpenFIRE-firmware' del TeamOpenFIRE"
+  },
+  {
+    "row": 33,
+    "rowsha": "9/Qa1EzXqn1rQGe5Ect8psa8uqS7vs1d2x6KHUx6X3k=",
+    "originContent": "## ... follows the original project page 'OpenFIRE-firmware' project by TeamOpenFIRE",
+    "translatedContent": "## ... follows the original project page 'OpenFIRE-firmware' project by TeamOpenFIRE"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "JydajcWjg6Op8RjAvLhT/yWotKmxeaDXRQA1Hxlivj4=",
+    "originContent": "### Like our work? [Remember to support the developers!](https://github.com/TeamOpenFIRE/.github/blob/main/profile/README.md)",
+    "translatedContent": "### ¿Te gusta nuestro trabajo? [¡Recuerda apoyar a los desarrolladores!](https://github.com/TeamOpenFIRE/.github/blob/main/profile/README.md)"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "rhKjCdc+TRc5WL3+D2E/I7bnUOV13xg6DM+J9bKcA6A=",
+    "originContent": "![BannerDark](https://raw.githubusercontent.com/alessandro-satanassi/OpenFIRE-DONGLE-ESP32/main/docs/of_bannerLoD.png#gh-dark-mode-only)![BannerLight](https://raw.githubusercontent.com/alessandro-satanassi/OpenFIRE-DONGLE-ESP32/main/docs/of_bannerDoL.png#gh-light-mode-only)",
+    "translatedContent": "![BannerDark](https://raw.githubusercontent.com/alessandro-satanassi/OpenFIRE-DONGLE-ESP32/main/docs/of_bannerLoD.png#gh-dark-mode-only)![BannerLight](https://raw.githubusercontent.com/alessandro-satanassi/OpenFIRE-DONGLE-ESP32/main/docs/of_bannerDoL.png#gh-light-mode-only)"
+  },
+  {
+    "row": 38,
+    "rowsha": "Tmh+GojLsDz3tlhSt583FOMMba8qeLvJ9UbTX/j0qEs=",
+    "originContent": "# OpenFIRE - The Open *Four Infa-Red Emitter* Light Gun System",
+    "translatedContent": "# OpenFIRE - El Sistema de Light Gun de Emisor Infrarrojo Abierto *Four Infa-Red Emitter*"
+  },
+  {
+    "row": 39,
+    "rowsha": "uk/4ZBtHHMd3LYEWXo8NxWmfZz+1/rhkTFF9PVqn9aI=",
+    "originContent": "###### Successor to [IR-GUN4ALL](http://github.com/SeongGino/ir-light-gun-plus), which is based on the [Prow Enhanced fork](https://github.com/Prow7/ir-light-gun), which in itself is based on the 4IR Beta \"Big Code Update\" [SAMCO project](https://github.com/samuelballantyne/IR-Light-Gun)",
+    "translatedContent": "###### Sucesor de [IR-GUN4ALL](http://github.com/SeongGino/ir-light-gun-plus), que se basa en el fork [Prow Enhanced](https://github.com/Prow7/ir-light-gun), que a su vez se basa en el Beta 4IR \"Big Code Update\" [proyecto SAMCO](https://github.com/samuelballantyne/IR-Light-Gun)"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "fk8UMACLzwABnF0nU31szhY0mbIfTwOuK3Iwy9c8/lo=",
+    "originContent": "## Features:",
+    "translatedContent": "## Características:"
+  },
+  {
+    "row": 42,
+    "rowsha": "99uHWzZ6xAkamOvlw8GWb3Usg1CUtm9l8l3fBnQmtgo=",
+    "originContent": "- **Fully featured peripherals**, from Solenoid & Rumble Force Feedback, to TMP36 Temperature Monitoring, and others to come.",
+    "translatedContent": "- **Periféricos completamente funcionales**, desde solenoide y retroalimentación de fuerza por vibración, hasta monitoreo de temperatura TMP36, y otros por venir."
+  },
+  {
+    "row": 43,
+    "rowsha": "sqXCMPBXy/2ajf8UtsO33igjU1PVUsXaf5oBeWDuX2g=",
+    "originContent": "- **Multiple IR layouts support**, with *realtime perspective-adjusted tracking* for both double lightbar (recommended!) and Xwiigun-like diamond layouts (compatible with other systems).",
+    "translatedContent": "- **Soporte para múltiples configuraciones de IR**, con *seguimiento en tiempo real ajustado a la perspectiva* para barras de luz dobles (¡recomendado!) y configuraciones tipo diamante Xwiigun (compatibles con otros sistemas)."
+  },
+  {
+    "row": 44,
+    "rowsha": "iCOchGRJGDFU9e8D1NsE48KscHcV6NwdhlB8/J+6ZNI=",
+    "originContent": "- **Flexible Input System**, with outputs to Keyboard, 5-button ABS(olute Positioning) Mouse, and dual-stick gamepad w/ d-pad support, with a **robust button mapping system** to suit your needs!",
+    "translatedContent": "- **Sistema de entrada flexible**, con salidas a teclado, ratón ABS(oluto) de 5 botones y gamepad de doble palanca con soporte de d-pad, con un **sistema robusto de asignación de botones** para ajustarse a tus necesidades."
+  },
+  {
+    "row": 45,
+    "rowsha": "95l9wz7zWtXzQua7JsjL/CriU5ksxHAL3TfNbBoXB60=",
+    "originContent": "- **Easy installation** with simple *.UF2* binaries that can be drag'n'dropped directly onto an *RP2040*-based Microcontroller.",
+    "translatedContent": "- **Instalación fácil** con binarios *.UF2* simples que pueden ser arrastrados y soltados directamente en un microcontrolador basado en *RP2040*."
+  },
+  {
+    "row": 46,
+    "rowsha": "DDt/6ZONoltnCkef9mSBRhi0xKVcVf15pe1dG9/ymFs=",
+    "originContent": "- **Portable on-board settings** to store calibration profiles, toggles, settings, USB identifier, and more.",
+    "translatedContent": "- **Configuraciones portátiles integradas** para almacenar perfiles de calibración, conmutadores, ajustes, identificador USB y más."
+  },
+  {
+    "row": 47,
+    "rowsha": "SPuYMFW2zNGlJPRdHCBGfxgFz4EcV3wryTK4xcDlvyg=",
+    "originContent": "- **Integrates with the [OpenFIRE App](https://github.com/TeamOpenFIRE/OpenFIRE-App)** for user-friendly, and cross-platform on-the-fly configuration.",
+    "translatedContent": "- **Se integra con la [App OpenFIRE](https://github.com/TeamOpenFIRE/OpenFIRE-App)** para una configuración amigable y multiplataforma sobre la marcha."
+  },
+  {
+    "row": 48,
+    "rowsha": "I67+JbokoNUTOjv4Z6boDNWMyLfrx4fB/Hi5O8rzrj0=",
+    "originContent": "- **Optimized for the RP2040**, using its second core for input polling & queuing and serial handling, and the main core for camera and peripherals processing, whenever possible.",
+    "translatedContent": "- **Optimizado para el RP2040**, usando su segundo núcleo para sondeo y encolado de entradas y manejo serial, y el núcleo principal para procesamiento de cámara y periféricos, cuando sea posible."
+  },
+  {
+    "row": 49,
+    "rowsha": "cmVTEjpCThXH+yx/KbudSZ3/AEmscRIWSsPlT/H28AE=",
+    "originContent": "- **Compatible with PC Force Feedback handlers** such as [Mame Hooker](https://dragonking.arcadecontrols.com/static.php?page=aboutmamehooker), [The Hook Of The Reaper](https://github.com/6Bolt/Hook-Of-The-Reaper), and [QMamehook](https://github.com/SeongGino/QMamehook).",
+    "translatedContent": "- **Compatible con manejadores de retroalimentación de fuerza para PC** como [Mame Hooker](https://dragonking.arcadecontrols.com/static.php?page=aboutmamehooker), [The Hook Of The Reaper](https://github.com/6Bolt/Hook-Of-The-Reaper) y [QMamehook](https://github.com/SeongGino/QMamehook)."
+  },
+  {
+    "row": 50,
+    "rowsha": "gbUpURUSDFMLj8d3JbJVK6OQx5TbO7vM8RIQ8EYAQoo=",
+    "originContent": "- **Supports integrated OLED display output** for *SSD1306 I2C displays* for menu navigation and visual feedback of game elements such as life and current ammo counts.",
+    "translatedContent": "- **Soporta salida integrada en pantalla OLED** para *pantallas SSD1306 I2C* para navegación de menús y retroalimentación visual de elementos del juego como vida y munición actual."
+  },
+  {
+    "row": 51,
+    "rowsha": "G0mL6KUO2YcNhIzpmdhyCDxeg2q7T5m7ctP+74dilE0=",
+    "originContent": "- **Compatible with the MiSTer FPGA ecosystem**, with dedicated mappings to streamline the user experience as much as possible.",
+    "translatedContent": "- **Compatible con el ecosistema MiSTer FPGA**, con asignaciones dedicadas para optimizar al máximo la experiencia del usuario."
+  },
+  {
+    "row": 52,
+    "rowsha": "bvC8gq86/oiXRQOz0YARktqj96bCKG1HanJk10Dl/4Q=",
+    "originContent": "- **Forever free and open source to the lightgun community!**",
+    "translatedContent": "- **¡Siempre gratuito y de código abierto para la comunidad de pistolas de luz!**"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "vaJRVQvwR49BcqiuspHWVD/qCQFQuCw+KIGlNyHq+ZA=",
+    "originContent": "___",
+    "translatedContent": "___"
+  },
+  {
+    "row": 55,
+    "rowsha": "mHX+AhsAusqcsuqR9rbuVOV0cQ8SVg1paXN6DhPx4oA=",
+    "originContent": "## Thanks:",
+    "translatedContent": "## Agradecimientos:"
+  },
+  {
+    "row": 56,
+    "rowsha": "dfuXyU8kg4JZhWNYq2eGZ45XFd1DnQ8UZR2VDg5HjAg=",
+    "originContent": "* Samuel Ballantyne, for his original SAMCO project, the gorgeous OpenFIRE branding, and perspective-based tracking system.",
+    "translatedContent": "* Samuel Ballantyne, por su proyecto original SAMCO, la hermosa marca OpenFIRE y el sistema de seguimiento basado en perspectiva."
+  },
+  {
+    "row": 57,
+    "rowsha": "7ZF5kNTXP8oexqvhiWzY3XIG6+NOEBcTUOAvVTR+kUA=",
+    "originContent": "* Prow7, for his enhanced SAMCO fork which provided the basis of pause mode and saving subsystems.",
+    "translatedContent": "* Prow7, por su mejora del fork SAMCO que proporcionó la base para el modo pausa y los subsistemas de guardado."
+  },
+  {
+    "row": 58,
+    "rowsha": "UPmluxeYpVY91bH2jtYPb4XJGyfMNN7zXgSfcXB9i4g=",
+    "originContent": "* Odwalla-J, mrkylegp, RG2020 & lemmingDev for prerelease consultation, bug testing and feedback.",
+    "translatedContent": "* Odwalla-J, mrkylegp, RG2020 y lemmingDev por la consulta previa al lanzamiento, pruebas de errores y retroalimentación."
+  },
+  {
+    "row": 59,
+    "rowsha": "kSV+GljGZOjMgUIGFS1c7STAZ3aK5W/fOvwq0df4MFM=",
+    "originContent": "* The IR-GUN4ALL testers for their early feedback and feature requests - this wouldn't have happened without you lot!",
+    "translatedContent": "* Los testers de IR-GUN4ALL por sus comentarios iniciales y solicitudes de funciones - ¡esto no habría sido posible sin ustedes!"
+  },
+  {
+    "row": 60,
+    "rowsha": "sGmTwuJBjotte9jhz2moaTpF9pSphVEmoGjpurM6Zro=",
+    "originContent": "* Chris Young for his TinyUSB compatible library (now part of `TinyUSB_Devices`).",
+    "translatedContent": "* Chris Young por su biblioteca compatible con TinyUSB (ahora parte de `TinyUSB_Devices`)."
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

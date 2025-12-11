@@ -1,5 +1,37 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # matplot2tikz
-かつて<em>tikzplotlib</em>として知られていたアーティスト。
+以前は <em>tikzplotlib</em> として知られていました。
 
 ![PyPI - Version](https://img.shields.io/pypi/v/matplot2tikz)
 ![GitHub License](https://img.shields.io/github/license/ErwindeGelder/matplot2tikz)
@@ -9,27 +41,25 @@
 [![codecov](https://codecov.io/gh/ErwindeGelder/matplot2tikz/graph/badge.svg?token=YE2VNWL9HI)](https://codecov.io/gh/ErwindeGelder/matplot2tikz)
 [![PyPI Downloads](https://static.pepy.tech/badge/matplot2tikz/month)](https://pepy.tech/projects/matplot2tikz)
 
-これはmatplot2tikzであり、matplotlibの図を
-[PGFPlots](https://www.ctan.org/pkg/pgfplots) ([PGF/TikZ](https://www.ctan.org/pkg/pgf))
+これはmatplot2tikzです。matplotlibの図を
+[PGFPlots](https://www.ctan.org/pkg/pgfplots)（[PGF/TikZ](https://www.ctan.org/pkg/pgf)）
 の図に変換するPythonツールです。
 
 ![](https://raw.githubusercontent.com/ErwindeGelder/matplot2tikz/refs/heads/main/example.png)
 
-LaTeXやConTeXt文書にネイティブに組み込むためのものです。
+LaTeXやConTeXtドキュメントにネイティブに取り込むためのものです。
 
-matplot2tikzの出力は[PGFPlots](https://github.com/pgf-tikz/pgfplots/)形式で、
-これは[PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ)の上に構築されたTeX
-ライブラリであり、軸やデータなどの観点からグラフを記述します。したがって、
-matplot2tikzの出力は
+matplot2tikzの出力は[PGFPlots](https://github.com/pgf-tikz/pgfplots/)であり、これはTeXの
+ライブラリで、[PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ)の上位にあり、
+軸やデータなどの観点からグラフを記述します。したがって、matplot2tikzの出力は
 
 -   より多くの情報を保持し、
--   より理解しやすく、
--   より編集しやすい
+-   より簡単に理解でき、
+-   より簡単に編集可能です
 
-です。
-
-これは[生のTikZ出力](https://matplotlib.org/users/whats_new.html#pgf-tikz-backend)より優れています。
+[生のTikZ出力](https://matplotlib.org/users/whats_new.html#pgf-tikz-backend)よりも。
 例えば、matplotlibの図は
+
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
@@ -261,6 +291,6 @@ matplot2tikz は [MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
 
 ---

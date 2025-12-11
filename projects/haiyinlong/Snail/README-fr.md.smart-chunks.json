@@ -1,133 +1,386 @@
 [
   {
     "Id": 1,
-    "Content": "<!-- \nSpring Boot 3 微服务脚手架, Spring Cloud OAuth2 认证, shadcn ui 后台模板, \nJava 快速开发框架, Spring Boot Admin 前后端分离, Nacos 配置中心, \n微服务权限管理, JWT 登录, Spring Security 6, Vue3 管理系统 \n-->\n<p align=\"center\">\n  <h3 align=\"center\">Snail - 企业级微服务快速开发脚手架</h3>\n  <p align=\"center\">\n    🚀 基于 Spring Boot 3 + Spring Cloud + OAuth2 + shadcn/ui\n  </p>\n  <p align=\"center\">\n    <a href=\"#-快速开始\">快速开始</a> •\n    <a href=\"#-文档\">文档</a> •\n    <a href=\"#-贡献\">贡献</a> •\n  </p>\n  <p align=\"center\">\n    <img src=\"https://img.shields.io/github/stars/haiyinlong/snail?style=social\" alt=\"GitHub Stars\">\n    <img src=\"https://img.shields.io/github/forks/haiyinlong/snail?style=social\" alt=\"GitHub Forks\">\n  </p>\n</p>\n\n# 🐌 Snail - 轻量级 Spring Boot 快速开发脚手架\n\n> **Snail** 是一个基于 Spring Boot 3\n> 的现代化微服务快速开发框架，提供开箱即用的认证、授权、网关、资源服务等核心能力，助力企业快速构建安全、可扩展的云原生应用。\n\n🚀 **开箱即用 | 安全可靠 | 易于扩展 | 前后端一体化**\n\n---\n\n## 🌟 特性\n\n- ✅ **基于最新技术栈**：`Spring Boot 3.5.5` + `Spring Cloud 2025.0.0` +\n  `Spring Cloud Alibaba 2023.0.3.3`\n- 🔐 **OAuth2 认证授权**：集成 `Spring Security` + `JWT`，支持统一身份认证与细粒度权限控制\n- 🌐 **微服务架构**：模块化拆分，包含认证、授权、网关、资源服务，支持独立部署与横向扩展\n- ⚡ **高性能网关**：基于 `Spring Cloud Gateway` 实现路由、限流、熔断、鉴权\n- 🧩 **云原生支持**：兼容 Nacos、Sentinel、Seata，支持服务发现、配置中心、分布式事务\n- 🎨 **现代化管理后台**：基于 [shadcn-vue/ui](https://www.shadcn-vue.com/)\n  构建的简洁、响应式后台管理界面",
-    "ContentSha": "PLhJE39D4X7v3mldqdRZrwVNWdatu0HbdQWA4H/VrZc=",
+    "Content": "\n<div align=\"right\">\n  <details open>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n\n</div>\n\n<!-- \nSpring Boot 3 微服务脚手架, Spring Cloud OAuth2 认证, shadcn ui 后台模板, \nJava 快速开发框架, Spring Boot Admin 前后端分离, Nacos 配置中心, \n微服务权限管理, JWT 登录, Spring Security 6, Vue3 管理系统 \n-->\n<p align=\"center\">\n  <h3 align=\"center\">Snail - 企业级微服务快速开发脚手架</h3>",
+    "ContentSha": "mX78Z2ZZJY7DpMKstER9h6N2D9q4mKLps+9pgUA7dnU=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<!-- \nSpring Boot 3 microservices scaffold, Spring Cloud OAuth2 authentication, shadcn ui backend template, \nJava rapid development framework, Spring Boot Admin frontend-backend separation, Nacos configuration center, \nmicroservices permission management, JWT login, Spring Security 6, Vue3 management system \n-->\n<p align=\"center\">\n  <h3 align=\"center\">Snail - Scaffold de développement rapide de microservices d'entreprise</h3>\n  <p align=\"center\">\n    🚀 Basé sur Spring Boot 3 + Spring Cloud + OAuth2 + shadcn/ui\n  </p>\n  <p align=\"center\">\n    <a href=\"#-démarrage-rapide\">Démarrage rapide</a> •\n    <a href=\"#-documentation\">Documentation</a> •\n    <a href=\"#-contribution\">Contribution</a> •\n  </p>\n  <p align=\"center\">\n    <img src=\"https://img.shields.io/github/stars/haiyinlong/snail?style=social\" alt=\"GitHub Stars\">\n    <img src=\"https://img.shields.io/github/forks/haiyinlong/snail?style=social\" alt=\"GitHub Forks\">\n  </p>\n</p>\n\n# 🐌 Snail - Scaffold léger de développement rapide Spring Boot\n\n> **Snail** est un cadre moderne de développement rapide de microservices\n> basé sur Spring Boot 3, offrant des capacités clés prêtes à l'emploi telles que l'authentification, l'autorisation, la passerelle, le service de ressources, aidant les entreprises à construire rapidement des applications cloud natives sécurisées et extensibles.\n\n🚀 **Prêt à l'emploi | Sécurisé et fiable | Facile à étendre | Frontend et backend intégrés**\n\n---\n\n## 🌟 Caractéristiques\n\n- ✅ **Basé sur les dernières technologies** : `Spring Boot 3.5.5` + `Spring Cloud 2025.0.0` +\n  `Spring Cloud Alibaba 2023.0.3.3`\n- 🔐 **Authentification et autorisation OAuth2** : Intégration de `Spring Security` + `JWT`, prise en charge de l'authentification unifiée et du contrôle fin des permissions\n- 🌐 **Architecture microservices** : Modularisation avec authentification, autorisation, passerelle, services de ressources, prise en charge du déploiement indépendant et de l'extension horizontale\n- ⚡ **Passerelle haute performance** : Mise en œuvre des routes, limitation de débit, circuit breaker, authentification via `Spring Cloud Gateway`\n- 🧩 **Support cloud native** : Compatible avec Nacos, Sentinel, Seata, prise en charge de la découverte de services, du centre de configuration, des transactions distribuées\n- 🎨 **Interface d'administration moderne** : Interface d'administration simple et réactive construite avec [shadcn-vue/ui](https://www.shadcn-vue.com/)\n",
+    "Translation": "\n<div align=\"right\">\n  <details open>\n    <summary >🌐 Langue</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n\n</div>\n\n<!-- \nSpring Boot 3 microservices scaffolding, authentification Spring Cloud OAuth2, modèle d'administration shadcn ui, \nCadre de développement Java rapide, séparation front-end/back-end avec Spring Boot Admin, centre de configuration Nacos, \nGestion des autorisations microservices, connexion JWT, Spring Security 6, système d'administration Vue3 \n-->\n<p align=\"center\">\n  <h3 align=\"center\">Snail - Scaffolding de développement rapide de microservices d'entreprise</h3>",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "kKUKFcUSJntEkX/K61z3Vc969uK80CQ+aVjKjyta/QY=",
+        "originContent": "  <details open>",
+        "translatedContent": "  <details open>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Langue</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "lJiuryqicrcPGRnXkG8RxLUtiM+rk+CxOMZo9x9zdNs=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "yS/8TgN84dg1a5xPvjovcG1cVrWsLjVcqmIRTfQyMH0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "7LwuSjeJMCeFS45m9k4kMCB7gZmjV0YPyZlZKXOi1ko=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "Qijm5mj3cW0UmbsgdsKjaP+kfe0FQpsbYj9cf8oFpAQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "P0ZRVeXxwYlRMpZvgpStcB8b5CBp5xo9PwhLJj0+Gr4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "uErmb4egA2xqiJE5wA7S4wP/yx1fjhRh/YHnTO3SQH0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "EAGZGgrW5KvC0p3kqWPBKg0eQqxpg9xK25TWrkd3XDQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "7oIX/pTFto6j5gFdJPt9zSxIdA8Vcl4zr4+JOuLfUEc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "ejPTZNYSw1TJ+lDCt+b9cHN9/dKRu26ez8waQN131to=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "jUIaQIRnqjMqDEcqIb6LJNO4JJsaX6OQrSUyq+1ikHY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "VkpOPW7B1Sko/5unPvGUHnJMl+OtEv221ST3T6X8tAA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "tkGoisNbNku4NoRaGey/nJMK5qSQu3XxUWCtjBsbMh0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "wTwlWDHoRcVHHvcMQlgED+Zmay6KcAuLhJ/mhbTBKbE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "1zSy6bPxJg3Ggkj8goqyLbRWFKTZBuzqjPvlmiVAFRE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "+qPHpnOgkVuxHKzpfcArmG/3U0ysX5IGb/cDtqWW49w=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "tT79lvZiq9bupKIbCMOEsbBFJ+tRgQrw6OHxCoaswvQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "qskNq06MHBo0WT3rK8Z9tzu9OqfgMMxLayKc85w4QIw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "VtHRBvcD1tgzcZKLlgRebbQYDfc/Iyo0+//C7ah1LLo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "iDcvPsLP37z9V5KZ7i5uR58j5Xtf70PE4H0YyWLJQCw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "eByl+jyfzVDVP+NyCD41HZfRfMw5CzI7p1//QNGjxuc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "aLn1XCcsxImoe0f3JH7ERRelHTfH8cNb5Py8sz6oGsk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
         "rowsha": "RU0q/UtVDC+mNFGNMDxHOlylYF/5rsBe7vM7iP1MvNk=",
         "originContent": "<!-- ",
         "translatedContent": "<!-- "
       },
       {
-        "row": 2,
+        "row": 35,
         "rowsha": "uEbWtzkfZ940NviI8gzhwnSKn82CxNOqwifWhra061A=",
         "originContent": "Spring Boot 3 微服务脚手架, Spring Cloud OAuth2 认证, shadcn ui 后台模板, ",
-        "translatedContent": "Spring Boot 3 microservices scaffold, Spring Cloud OAuth2 authentication, shadcn ui backend template, "
+        "translatedContent": "Spring Boot 3 microservices scaffolding, authentification Spring Cloud OAuth2, modèle d'administration shadcn ui, "
       },
       {
-        "row": 3,
+        "row": 36,
         "rowsha": "ho0OmYYXylzq4Nujx6gtBQprmq3f4nfPPVkJn7I0Nkk=",
         "originContent": "Java 快速开发框架, Spring Boot Admin 前后端分离, Nacos 配置中心, ",
-        "translatedContent": "Java rapid development framework, Spring Boot Admin frontend-backend separation, Nacos configuration center, "
+        "translatedContent": "Cadre de développement Java rapide, séparation front-end/back-end avec Spring Boot Admin, centre de configuration Nacos, "
       },
       {
-        "row": 4,
+        "row": 37,
         "rowsha": "kjYcQ0vGapbcQgPa82fsl9Pdq+HCFQCn6t+OW2K/J1Y=",
         "originContent": "微服务权限管理, JWT 登录, Spring Security 6, Vue3 管理系统 ",
-        "translatedContent": "microservices permission management, JWT login, Spring Security 6, Vue3 management system "
+        "translatedContent": "Gestion des autorisations microservices, connexion JWT, Spring Security 6, système d'administration Vue3 "
       },
       {
-        "row": 5,
+        "row": 38,
         "rowsha": "XVud5tm5Xz4MlQr+dCpbs5yyX25uiGwQYDMQt788ujU=",
         "originContent": "-->",
         "translatedContent": "-->"
       },
       {
-        "row": 6,
+        "row": 39,
         "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
         "originContent": "<p align=\"center\">",
         "translatedContent": "<p align=\"center\">"
       },
       {
-        "row": 7,
+        "row": 40,
         "rowsha": "5W8JXs1kag9DJmRjq2T9aMN9VFOzw4q2H2nrMnnFEv4=",
         "originContent": "  <h3 align=\"center\">Snail - 企业级微服务快速开发脚手架</h3>",
-        "translatedContent": "  <h3 align=\"center\">Snail - Scaffold de développement rapide de microservices d'entreprise</h3>"
-      },
+        "translatedContent": "  <h3 align=\"center\">Snail - Scaffolding de développement rapide de microservices d'entreprise</h3>"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  <p align=\"center\">\n    🚀 基于 Spring Boot 3 + Spring Cloud + OAuth2 + shadcn/ui\n  </p>\n  <p align=\"center\">\n    <a href=\"#-快速开始\">快速开始</a> •\n    <a href=\"#-文档\">文档</a> •\n    <a href=\"#-贡献\">贡献</a> •\n  </p>\n  <p align=\"center\">\n    <img src=\"https://img.shields.io/github/stars/haiyinlong/snail?style=social\" alt=\"GitHub Stars\">\n    <img src=\"https://img.shields.io/github/forks/haiyinlong/snail?style=social\" alt=\"GitHub Forks\">\n  </p>\n</p>\n\n# 🐌 Snail - 轻量级 Spring Boot 快速开发脚手架\n\n> **Snail** 是一个基于 Spring Boot 3\n> 的现代化微服务快速开发框架，提供开箱即用的认证、授权、网关、资源服务等核心能力，助力企业快速构建安全、可扩展的云原生应用。\n\n🚀 **开箱即用 | 安全可靠 | 易于扩展 | 前后端一体化**\n\n---\n\n## 🌟 特性\n\n- ✅ **基于最新技术栈**：`Spring Boot 3.5.5` + `Spring Cloud 2025.0.0` +\n  `Spring Cloud Alibaba 2023.0.3.3`\n- 🔐 **OAuth2 认证授权**：集成 `Spring Security` + `JWT`，支持统一身份认证与细粒度权限控制\n- 🌐 **微服务架构**：模块化拆分，包含认证、授权、网关、资源服务，支持独立部署与横向扩展\n- ⚡ **高性能网关**：基于 `Spring Cloud Gateway` 实现路由、限流、熔断、鉴权\n- 🧩 **云原生支持**：兼容 Nacos、Sentinel、Seata，支持服务发现、配置中心、分布式事务\n- 🎨 **现代化管理后台**：基于 [shadcn-vue/ui](https://www.shadcn-vue.com/)\n  构建的简洁、响应式后台管理界面\n- 📚 **完善文档**：涵盖架构设计、部署指南、API 文档与二次开发说明\n\n---\n\n## 🛠 技术栈\n\n| 类别        | 技术                                                                |",
+    "ContentSha": "aAc65DfjKFbyLmMHGgv4NCH5jftqu8NqGCm868ZRkpM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  <p align=\"center\">\n    🚀 Basé sur Spring Boot 3 + Spring Cloud + OAuth2 + shadcn/ui\n  </p>\n  <p align=\"center\">\n    <a href=\"#-démarrage-rapide\">Démarrage rapide</a> •\n    <a href=\"#-documentation\">Documentation</a> •\n    <a href=\"#-contribution\">Contribution</a> •\n  </p>\n  <p align=\"center\">\n    <img src=\"https://img.shields.io/github/stars/haiyinlong/snail?style=social\" alt=\"GitHub Stars\">\n    <img src=\"https://img.shields.io/github/forks/haiyinlong/snail?style=social\" alt=\"GitHub Forks\">\n  </p>\n</p>\n\n# 🐌 Snail - Scaffold léger pour développement rapide avec Spring Boot\n\n> **Snail** est un framework moderne de développement rapide de microservices basé sur Spring Boot 3,\n> offrant des fonctionnalités clés prêtes à l'emploi telles que l'authentification, l'autorisation, la passerelle et les services de ressources, pour aider les entreprises à créer rapidement des applications cloud natives sécurisées et évolutives.\n\n🚀 **Prêt à l'emploi | Sûr et fiable | Facile à étendre | Intégration front-end/back-end**\n\n---\n\n## 🌟 Fonctionnalités\n\n- ✅ **Basé sur une stack technologique moderne** : `Spring Boot 3.5.5` + `Spring Cloud 2025.0.0` +\n  `Spring Cloud Alibaba 2023.0.3.3`\n- 🔐 **Authentification et autorisation OAuth2** : intégration de `Spring Security` + `JWT`, supporte l'authentification unifiée et le contrôle d'accès fin\n- 🌐 **Architecture microservices** : découpage modulaire incluant authentification, autorisation, passerelle, services de ressources, prise en charge du déploiement indépendant et de la montée en charge horizontale\n- ⚡ **Passerelle haute performance** : basée sur `Spring Cloud Gateway` pour le routage, la limitation de débit, le circuit breaker et l'autorisation\n- 🧩 **Support cloud natif** : compatible avec Nacos, Sentinel, Seata, gestion de découverte de services, centre de configuration et transactions distribuées\n- 🎨 **Console d'administration moderne** : interface d'administration réactive et épurée construite avec [shadcn-vue/ui](https://www.shadcn-vue.com/)\n- 📚 **Documentation complète** : couvrant la conception de l'architecture, le guide de déploiement, l'API et les instructions pour le développement secondaire\n\n---\n\n## 🛠 Stack technique\n\n| Catégorie   | Technologie                                                          |\n",
+    "Status": "ok",
+    "RowTranslations": [
       {
-        "row": 8,
+        "row": 1,
         "rowsha": "bxjJn5W5U4615UwnNH02Y8/BQYk3ChIXDUAi1KtQj40=",
         "originContent": "  <p align=\"center\">",
         "translatedContent": "  <p align=\"center\">"
       },
       {
-        "row": 9,
+        "row": 2,
         "rowsha": "gVIm8Xlvl2yf1vT+mks9IVQ/1mxWS/wZxZ3mQ0d5Dmc=",
         "originContent": "    🚀 基于 Spring Boot 3 + Spring Cloud + OAuth2 + shadcn/ui",
         "translatedContent": "    🚀 Basé sur Spring Boot 3 + Spring Cloud + OAuth2 + shadcn/ui"
       },
       {
-        "row": 10,
+        "row": 3,
         "rowsha": "xekGMwR1kXr+mg5XAB6V3dYHsyhEy+YsYHHE8Tdsue4=",
         "originContent": "  </p>",
         "translatedContent": "  </p>"
       },
       {
-        "row": 11,
+        "row": 4,
         "rowsha": "bxjJn5W5U4615UwnNH02Y8/BQYk3ChIXDUAi1KtQj40=",
         "originContent": "  <p align=\"center\">",
         "translatedContent": "  <p align=\"center\">"
       },
       {
-        "row": 12,
+        "row": 5,
         "rowsha": "OeWAwzZ93WXjVQEaulWuzEI1VG8NXevFZdBr5pZtzKw=",
         "originContent": "    <a href=\"#-快速开始\">快速开始</a> •",
         "translatedContent": "    <a href=\"#-démarrage-rapide\">Démarrage rapide</a> •"
       },
       {
-        "row": 13,
+        "row": 6,
         "rowsha": "C9nMNfyrdakwg+3h1O79eXpriKzEL1qMryDpd9h6Iwg=",
         "originContent": "    <a href=\"#-文档\">文档</a> •",
         "translatedContent": "    <a href=\"#-documentation\">Documentation</a> •"
       },
       {
-        "row": 14,
+        "row": 7,
         "rowsha": "gLKMy//qH0KR+lD8osMZqy/sMJM92JTrvLPbcDCgkAw=",
         "originContent": "    <a href=\"#-贡献\">贡献</a> •",
         "translatedContent": "    <a href=\"#-contribution\">Contribution</a> •"
       },
       {
-        "row": 15,
+        "row": 8,
         "rowsha": "xekGMwR1kXr+mg5XAB6V3dYHsyhEy+YsYHHE8Tdsue4=",
         "originContent": "  </p>",
         "translatedContent": "  </p>"
       },
       {
-        "row": 16,
+        "row": 9,
         "rowsha": "bxjJn5W5U4615UwnNH02Y8/BQYk3ChIXDUAi1KtQj40=",
         "originContent": "  <p align=\"center\">",
         "translatedContent": "  <p align=\"center\">"
       },
       {
-        "row": 17,
+        "row": 10,
         "rowsha": "jVdaRWuoSQu0AOJGBkkj03IhyAtV7ULCoBxtOgMg5/k=",
         "originContent": "    <img src=\"https://img.shields.io/github/stars/haiyinlong/snail?style=social\" alt=\"GitHub Stars\">",
         "translatedContent": "    <img src=\"https://img.shields.io/github/stars/haiyinlong/snail?style=social\" alt=\"GitHub Stars\">"
       },
       {
-        "row": 18,
+        "row": 11,
         "rowsha": "6VS9DeAopFTMbTQ1FWVq+eqR3tg60vMoVg5soj7ziTs=",
         "originContent": "    <img src=\"https://img.shields.io/github/forks/haiyinlong/snail?style=social\" alt=\"GitHub Forks\">",
         "translatedContent": "    <img src=\"https://img.shields.io/github/forks/haiyinlong/snail?style=social\" alt=\"GitHub Forks\">"
       },
       {
-        "row": 19,
+        "row": 12,
         "rowsha": "xekGMwR1kXr+mg5XAB6V3dYHsyhEy+YsYHHE8Tdsue4=",
         "originContent": "  </p>",
         "translatedContent": "  </p>"
       },
       {
-        "row": 20,
+        "row": 13,
         "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
         "originContent": "</p>",
         "translatedContent": "</p>"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "SV5x3A0ANCVV2n4taKqPmxYMS/nBcqMOSrzAVwizX0E=",
+        "originContent": "# 🐌 Snail - 轻量级 Spring Boot 快速开发脚手架",
+        "translatedContent": "# 🐌 Snail - Scaffold léger pour développement rapide avec Spring Boot"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "UoFfwGn/L7eCQmZgDG5ei9HL0ZzX0rW0Oe8tdR095YM=",
+        "originContent": "> **Snail** 是一个基于 Spring Boot 3",
+        "translatedContent": "> **Snail** est un framework moderne de développement rapide de microservices basé sur Spring Boot 3,"
+      },
+      {
+        "row": 18,
+        "rowsha": "icG+qaSxMkTtzJBTB/G/Dv+Gp9EmMKmo4jpAcKOltYw=",
+        "originContent": "> 的现代化微服务快速开发框架，提供开箱即用的认证、授权、网关、资源服务等核心能力，助力企业快速构建安全、可扩展的云原生应用。",
+        "translatedContent": "> offrant des fonctionnalités clés prêtes à l'emploi telles que l'authentification, l'autorisation, la passerelle et les services de ressources, pour aider les entreprises à créer rapidement des applications cloud natives sécurisées et évolutives."
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "XOT5aVEsR3EC0BrCzIkdF/2wFWwFTjrJEKpnrtMiqPU=",
+        "originContent": "🚀 **开箱即用 | 安全可靠 | 易于扩展 | 前后端一体化**",
+        "translatedContent": "🚀 **Prêt à l'emploi | Sûr et fiable | Facile à étendre | Intégration front-end/back-end**"
       },
       {
         "row": 21,
@@ -137,9 +390,9 @@
       },
       {
         "row": 22,
-        "rowsha": "SV5x3A0ANCVV2n4taKqPmxYMS/nBcqMOSrzAVwizX0E=",
-        "originContent": "# 🐌 Snail - 轻量级 Spring Boot 快速开发脚手架",
-        "translatedContent": "# 🐌 Snail - Scaffold léger de développement rapide Spring Boot"
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
       },
       {
         "row": 23,
@@ -149,237 +402,104 @@
       },
       {
         "row": 24,
-        "rowsha": "UoFfwGn/L7eCQmZgDG5ei9HL0ZzX0rW0Oe8tdR095YM=",
-        "originContent": "> **Snail** 是一个基于 Spring Boot 3",
-        "translatedContent": "> **Snail** est un cadre moderne de développement rapide de microservices"
+        "rowsha": "9Gj2llvcnlszleEYK490QZLw6rlWoqRy2JMI/w4zEME=",
+        "originContent": "## 🌟 特性",
+        "translatedContent": "## 🌟 Fonctionnalités"
       },
       {
         "row": 25,
-        "rowsha": "icG+qaSxMkTtzJBTB/G/Dv+Gp9EmMKmo4jpAcKOltYw=",
-        "originContent": "> 的现代化微服务快速开发框架，提供开箱即用的认证、授权、网关、资源服务等核心能力，助力企业快速构建安全、可扩展的云原生应用。",
-        "translatedContent": "> basé sur Spring Boot 3, offrant des capacités clés prêtes à l'emploi telles que l'authentification, l'autorisation, la passerelle, le service de ressources, aidant les entreprises à construire rapidement des applications cloud natives sécurisées et extensibles."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "7GAfuV4NJup18cxyxn/6BI5i25s8gxg23Y6mdZIcP+k=",
+        "originContent": "- ✅ **基于最新技术栈**：`Spring Boot 3.5.5` + `Spring Cloud 2025.0.0` +",
+        "translatedContent": "- ✅ **Basé sur une stack technologique moderne** : `Spring Boot 3.5.5` + `Spring Cloud 2025.0.0` +"
       },
       {
         "row": 27,
-        "rowsha": "XOT5aVEsR3EC0BrCzIkdF/2wFWwFTjrJEKpnrtMiqPU=",
-        "originContent": "🚀 **开箱即用 | 安全可靠 | 易于扩展 | 前后端一体化**",
-        "translatedContent": "🚀 **Prêt à l'emploi | Sécurisé et fiable | Facile à étendre | Frontend et backend intégrés**"
-      },
-      {
-        "row": 28,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 29,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 30,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 31,
-        "rowsha": "9Gj2llvcnlszleEYK490QZLw6rlWoqRy2JMI/w4zEME=",
-        "originContent": "## 🌟 特性",
-        "translatedContent": "## 🌟 Caractéristiques"
-      },
-      {
-        "row": 32,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 33,
-        "rowsha": "7GAfuV4NJup18cxyxn/6BI5i25s8gxg23Y6mdZIcP+k=",
-        "originContent": "- ✅ **基于最新技术栈**：`Spring Boot 3.5.5` + `Spring Cloud 2025.0.0` +",
-        "translatedContent": "- ✅ **Basé sur les dernières technologies** : `Spring Boot 3.5.5` + `Spring Cloud 2025.0.0` +"
-      },
-      {
-        "row": 34,
         "rowsha": "QE+5hv2GmivtNgM5t2L+dlQxyajHY6n7j+bqiNt9Plg=",
         "originContent": "  `Spring Cloud Alibaba 2023.0.3.3`",
         "translatedContent": "  `Spring Cloud Alibaba 2023.0.3.3`"
       },
       {
-        "row": 35,
+        "row": 28,
         "rowsha": "v1+VZILc0ktZcgd0IE+90AtnB1yuqJsRdZ0u8hvYPjc=",
         "originContent": "- 🔐 **OAuth2 认证授权**：集成 `Spring Security` + `JWT`，支持统一身份认证与细粒度权限控制",
-        "translatedContent": "- 🔐 **Authentification et autorisation OAuth2** : Intégration de `Spring Security` + `JWT`, prise en charge de l'authentification unifiée et du contrôle fin des permissions"
+        "translatedContent": "- 🔐 **Authentification et autorisation OAuth2** : intégration de `Spring Security` + `JWT`, supporte l'authentification unifiée et le contrôle d'accès fin"
+      },
+      {
+        "row": 29,
+        "rowsha": "DHNIa2QgBO8zLQMBFM2JOQHhkb2jlf19eOpvtF/oqXM=",
+        "originContent": "- 🌐 **微服务架构**：模块化拆分，包含认证、授权、网关、资源服务，支持独立部署与横向扩展",
+        "translatedContent": "- 🌐 **Architecture microservices** : découpage modulaire incluant authentification, autorisation, passerelle, services de ressources, prise en charge du déploiement indépendant et de la montée en charge horizontale"
+      },
+      {
+        "row": 30,
+        "rowsha": "OLsqGk7vThKQFn8NQjD3Gr8gCb6bKeNcL423r2D1rGs=",
+        "originContent": "- ⚡ **高性能网关**：基于 `Spring Cloud Gateway` 实现路由、限流、熔断、鉴权",
+        "translatedContent": "- ⚡ **Passerelle haute performance** : basée sur `Spring Cloud Gateway` pour le routage, la limitation de débit, le circuit breaker et l'autorisation"
+      },
+      {
+        "row": 31,
+        "rowsha": "2SbAEXcbW0LfbACGDEbtOzgP0dxYkZ4v+PKolae50OQ=",
+        "originContent": "- 🧩 **云原生支持**：兼容 Nacos、Sentinel、Seata，支持服务发现、配置中心、分布式事务",
+        "translatedContent": "- 🧩 **Support cloud natif** : compatible avec Nacos, Sentinel, Seata, gestion de découverte de services, centre de configuration et transactions distribuées"
+      },
+      {
+        "row": 32,
+        "rowsha": "y1VFs9SEIlkyNj1Z6xYn2QiWnxsk5MbHmlzPuzowEks=",
+        "originContent": "- 🎨 **现代化管理后台**：基于 [shadcn-vue/ui](https://www.shadcn-vue.com/)",
+        "translatedContent": "- 🎨 **Console d'administration moderne** : interface d'administration réactive et épurée construite avec [shadcn-vue/ui](https://www.shadcn-vue.com/)"
+      },
+      {
+        "row": 33,
+        "rowsha": "uJ9zu/iqx7tKTlARnNfIsUTE9Myh2LLKL8wD5HgmUIQ=",
+        "originContent": "  构建的简洁、响应式后台管理界面",
+        "translatedContent": "- 📚 **Documentation complète** : couvrant la conception de l'architecture, le guide de déploiement, l'API et les instructions pour le développement secondaire"
+      },
+      {
+        "row": 34,
+        "rowsha": "uvTt89xYL14PW+yJPD58uU/1H7U35tbEAxMwIPEm/ME=",
+        "originContent": "- 📚 **完善文档**：涵盖架构设计、部署指南、API 文档与二次开发说明",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
       },
       {
         "row": 36,
-        "rowsha": "DHNIa2QgBO8zLQMBFM2JOQHhkb2jlf19eOpvtF/oqXM=",
-        "originContent": "- 🌐 **微服务架构**：模块化拆分，包含认证、授权、网关、资源服务，支持独立部署与横向扩展",
-        "translatedContent": "- 🌐 **Architecture microservices** : Modularisation avec authentification, autorisation, passerelle, services de ressources, prise en charge du déploiement indépendant et de l'extension horizontale"
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
       },
       {
         "row": 37,
-        "rowsha": "OLsqGk7vThKQFn8NQjD3Gr8gCb6bKeNcL423r2D1rGs=",
-        "originContent": "- ⚡ **高性能网关**：基于 `Spring Cloud Gateway` 实现路由、限流、熔断、鉴权",
-        "translatedContent": "- ⚡ **Passerelle haute performance** : Mise en œuvre des routes, limitation de débit, circuit breaker, authentification via `Spring Cloud Gateway`"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🛠 Stack technique"
       },
       {
         "row": 38,
-        "rowsha": "2SbAEXcbW0LfbACGDEbtOzgP0dxYkZ4v+PKolae50OQ=",
-        "originContent": "- 🧩 **云原生支持**：兼容 Nacos、Sentinel、Seata，支持服务发现、配置中心、分布式事务",
-        "translatedContent": "- 🧩 **Support cloud native** : Compatible avec Nacos, Sentinel, Seata, prise en charge de la découverte de services, du centre de configuration, des transactions distribuées"
+        "rowsha": "kTkhXC+0EQKMvZSvoMXK+bmPXZUlCmgf2/xwW9Nmmog=",
+        "originContent": "## 🛠 技术栈",
+        "translatedContent": ""
       },
       {
         "row": 39,
-        "rowsha": "y1VFs9SEIlkyNj1Z6xYn2QiWnxsk5MbHmlzPuzowEks=",
-        "originContent": "- 🎨 **现代化管理后台**：基于 [shadcn-vue/ui](https://www.shadcn-vue.com/)",
-        "translatedContent": "- 🎨 **Interface d'administration moderne** : Interface d'administration simple et réactive construite avec [shadcn-vue/ui](https://www.shadcn-vue.com/)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Catégorie   | Technologie                                                          |"
       },
       {
         "row": 40,
-        "rowsha": "uJ9zu/iqx7tKTlARnNfIsUTE9Myh2LLKL8wD5HgmUIQ=",
-        "originContent": "  构建的简洁、响应式后台管理界面",
-        "translatedContent": ""
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 2,
-    "Content": "- 📚 **完善文档**：涵盖架构设计、部署指南、API 文档与二次开发说明\n\n---\n\n## 🛠 技术栈\n\n| 类别        | 技术                                                                |\n|-----------|-------------------------------------------------------------------|\n| **后端框架**  | Spring Boot 3.5.5, Spring Cloud 2025.0.0, Spring Security, OAuth2 |\n| **微服务治理** | Nacos（注册中心 & 配置中心）,                                               |\n| **网关**    | Spring Cloud Gateway                                              |\n| **数据库**   | MySQL 8                                                           |\n| **前端框架**  | Vue 3 + Vite + TypeScript + shadcn/ui                             |\n| **构建工具**  | Maven, Docker, Docker Compose                                     |\n| **监控**    | Spring Boot Actuator, Prometheus（可选）, Grafana（可选）                 |\n\n---\n\n## 🏗 项目结构\n",
-    "ContentSha": "1iewU+aTyUMSjxCcuhsbfqpEUYlElfDgqZ/zn1GVXak=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "- 📚 **Documentation complète** : Couvre la conception de l'architecture, le guide de déploiement, la documentation API et les instructions de développement secondaire\n\n---\n\n## 🛠 Pile technologique\n\n| Catégorie       | Technologie                                                      |\n|--------------|----------------------------------------------------------------|\n| **Framework back-end** | Spring Boot 3.5.5, Spring Cloud 2025.0.0, Spring Security, OAuth2 |\n| **Gestion microservices** | Nacos (centre d’enregistrement & centre de configuration),         |\n| **Passerelle**    | Spring Cloud Gateway                                            |\n| **Base de données** | MySQL 8                                                       |\n| **Framework front-end** | Vue 3 + Vite + TypeScript + shadcn/ui                         |\n| **Outils de build** | Maven, Docker, Docker Compose                                  |\n| **Surveillance**   | Spring Boot Actuator, Prometheus (optionnel), Grafana (optionnel) |\n\n---\n\n## 🏗 Structure du projet\n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "uvTt89xYL14PW+yJPD58uU/1H7U35tbEAxMwIPEm/ME=",
-        "originContent": "- 📚 **完善文档**：涵盖架构设计、部署指南、API 文档与二次开发说明",
-        "translatedContent": "- 📚 **Documentation complète** : Couvre la conception de l'architecture, le guide de déploiement, la documentation API et les instructions de développement secondaire"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "kTkhXC+0EQKMvZSvoMXK+bmPXZUlCmgf2/xwW9Nmmog=",
-        "originContent": "## 🛠 技术栈",
-        "translatedContent": "## 🛠 Pile technologique"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
         "rowsha": "OTPbnVd6nOltJtxvIkMS7morHKuJSHI6QvzlRM4VpKE=",
         "originContent": "| 类别        | 技术                                                                |",
-        "translatedContent": "| Catégorie       | Technologie                                                      |"
-      },
-      {
-        "row": 8,
-        "rowsha": "9I+hJ/4U1vA3STAMhRRAHYSAJX5QJxEcUkmIiUUf9ng=",
-        "originContent": "|-----------|-------------------------------------------------------------------|",
-        "translatedContent": "|--------------|----------------------------------------------------------------|"
-      },
-      {
-        "row": 9,
-        "rowsha": "rPM91lQqGvpFLlRpql1ZDkEc25HwE+g2WMqCEP3IYOM=",
-        "originContent": "| **后端框架**  | Spring Boot 3.5.5, Spring Cloud 2025.0.0, Spring Security, OAuth2 |",
-        "translatedContent": "| **Framework back-end** | Spring Boot 3.5.5, Spring Cloud 2025.0.0, Spring Security, OAuth2 |"
-      },
-      {
-        "row": 10,
-        "rowsha": "XRl1dWGt/tzjia3AowPNtEc+b/3HeCvncg2twYM02kY=",
-        "originContent": "| **微服务治理** | Nacos（注册中心 & 配置中心）,                                               |",
-        "translatedContent": "| **Gestion microservices** | Nacos (centre d’enregistrement & centre de configuration),         |"
-      },
-      {
-        "row": 11,
-        "rowsha": "pyM2jcxj3qqSDOqpORXG+SKZ5z5JxOCrVvFPC343cGY=",
-        "originContent": "| **网关**    | Spring Cloud Gateway                                              |",
-        "translatedContent": "| **Passerelle**    | Spring Cloud Gateway                                            |"
-      },
-      {
-        "row": 12,
-        "rowsha": "Q+/u7c7AvmSLE2VEDkj/ZUOWwZuX0Rpx4Gy7gMZO5O8=",
-        "originContent": "| **数据库**   | MySQL 8                                                           |",
-        "translatedContent": "| **Base de données** | MySQL 8                                                       |"
-      },
-      {
-        "row": 13,
-        "rowsha": "Vf4zugogu6EFNxE02LZhmRsZJb25yaBfQsNMzQBnKPY=",
-        "originContent": "| **前端框架**  | Vue 3 + Vite + TypeScript + shadcn/ui                             |",
-        "translatedContent": "| **Framework front-end** | Vue 3 + Vite + TypeScript + shadcn/ui                         |"
-      },
-      {
-        "row": 14,
-        "rowsha": "vOQWpBZE0ccP+4rq+sjFicX2llMELav9kkW3mJyh1As=",
-        "originContent": "| **构建工具**  | Maven, Docker, Docker Compose                                     |",
-        "translatedContent": "| **Outils de build** | Maven, Docker, Docker Compose                                  |"
-      },
-      {
-        "row": 15,
-        "rowsha": "B1MjeLWwknIdj6WfaJ4WEAzJX49JmXrvZ96GZdc4aQU=",
-        "originContent": "| **监控**    | Spring Boot Actuator, Prometheus（可选）, Grafana（可选）                 |",
-        "translatedContent": "| **Surveillance**   | Spring Boot Actuator, Prometheus (optionnel), Grafana (optionnel) |"
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "Kfv2WU7P6X8iFjDpFssV6s7Mea1yVSPhPEH0ny6gSQ4=",
-        "originContent": "## 🏗 项目结构",
-        "translatedContent": "## 🏗 Structure du projet"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
         "translatedContent": ""
       }
     ],
@@ -387,6 +507,97 @@
   },
   {
     "Id": 3,
+    "Content": "|-----------|-------------------------------------------------------------------|\n| **后端框架**  | Spring Boot 3.5.5, Spring Cloud 2025.0.0, Spring Security, OAuth2 |\n| **微服务治理** | Nacos（注册中心 & 配置中心）,                                               |\n| **网关**    | Spring Cloud Gateway                                              |\n| **数据库**   | MySQL 8                                                           |\n| **前端框架**  | Vue 3 + Vite + TypeScript + shadcn/ui                             |\n| **构建工具**  | Maven, Docker, Docker Compose                                     |\n| **监控**    | Spring Boot Actuator, Prometheus（可选）, Grafana（可选）                 |\n\n---\n\n## 🏗 项目结构\n",
+    "ContentSha": "qrapp1gsHKJXOQf6SiKk4CNoWZ1XZ6wORqp2p+TsLeQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "|-----------|-------------------------------------------------------------------|\n| **Framework Backend**  | Spring Boot 3.5.5, Spring Cloud 2025.0.0, Spring Security, OAuth2 |\n| **Gouvernance des microservices** | Nacos (centre d'enregistrement & centre de configuration),           |\n| **Passerelle**    | Spring Cloud Gateway                                              |\n| **Base de données**   | MySQL 8                                                           |\n| **Framework Frontend**  | Vue 3 + Vite + TypeScript + shadcn/ui                             |\n| **Outils de build**  | Maven, Docker, Docker Compose                                     |\n| **Supervision**    | Spring Boot Actuator, Prometheus (optionnel), Grafana (optionnel)                |\n\n---\n\n## 🏗 Structure du projet\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9I+hJ/4U1vA3STAMhRRAHYSAJX5QJxEcUkmIiUUf9ng=",
+        "originContent": "|-----------|-------------------------------------------------------------------|",
+        "translatedContent": "|-----------|-------------------------------------------------------------------|"
+      },
+      {
+        "row": 2,
+        "rowsha": "rPM91lQqGvpFLlRpql1ZDkEc25HwE+g2WMqCEP3IYOM=",
+        "originContent": "| **后端框架**  | Spring Boot 3.5.5, Spring Cloud 2025.0.0, Spring Security, OAuth2 |",
+        "translatedContent": "| **Framework Backend**  | Spring Boot 3.5.5, Spring Cloud 2025.0.0, Spring Security, OAuth2 |"
+      },
+      {
+        "row": 3,
+        "rowsha": "XRl1dWGt/tzjia3AowPNtEc+b/3HeCvncg2twYM02kY=",
+        "originContent": "| **微服务治理** | Nacos（注册中心 & 配置中心）,                                               |",
+        "translatedContent": "| **Gouvernance des microservices** | Nacos (centre d'enregistrement & centre de configuration),           |"
+      },
+      {
+        "row": 4,
+        "rowsha": "pyM2jcxj3qqSDOqpORXG+SKZ5z5JxOCrVvFPC343cGY=",
+        "originContent": "| **网关**    | Spring Cloud Gateway                                              |",
+        "translatedContent": "| **Passerelle**    | Spring Cloud Gateway                                              |"
+      },
+      {
+        "row": 5,
+        "rowsha": "Q+/u7c7AvmSLE2VEDkj/ZUOWwZuX0Rpx4Gy7gMZO5O8=",
+        "originContent": "| **数据库**   | MySQL 8                                                           |",
+        "translatedContent": "| **Base de données**   | MySQL 8                                                           |"
+      },
+      {
+        "row": 6,
+        "rowsha": "Vf4zugogu6EFNxE02LZhmRsZJb25yaBfQsNMzQBnKPY=",
+        "originContent": "| **前端框架**  | Vue 3 + Vite + TypeScript + shadcn/ui                             |",
+        "translatedContent": "| **Framework Frontend**  | Vue 3 + Vite + TypeScript + shadcn/ui                             |"
+      },
+      {
+        "row": 7,
+        "rowsha": "vOQWpBZE0ccP+4rq+sjFicX2llMELav9kkW3mJyh1As=",
+        "originContent": "| **构建工具**  | Maven, Docker, Docker Compose                                     |",
+        "translatedContent": "| **Outils de build**  | Maven, Docker, Docker Compose                                     |"
+      },
+      {
+        "row": 8,
+        "rowsha": "B1MjeLWwknIdj6WfaJ4WEAzJX49JmXrvZ96GZdc4aQU=",
+        "originContent": "| **监控**    | Spring Boot Actuator, Prometheus（可选）, Grafana（可选）                 |",
+        "translatedContent": "| **Supervision**    | Spring Boot Actuator, Prometheus (optionnel), Grafana (optionnel)                |"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Kfv2WU7P6X8iFjDpFssV6s7Mea1yVSPhPEH0ny6gSQ4=",
+        "originContent": "## 🏗 项目结构",
+        "translatedContent": "## 🏗 Structure du projet"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
     "Content": "```bash\nsnail/\n├── authentication/           # 认证服务（OAuth2 授权服务器）\n├── authorization/          # 授权服务（权限管理、角色、菜单）\n├── gateway/               # API 网关（路由、鉴权、限流）\n├── resource/              # 资源服务（业务 API 示例）\n├── snail-vue-app/          # 后台管理界面（Vue3 + shadcn/ui）\n└── pom.xml                      # Maven 父工程\n",
     "ContentSha": "Q7xbnE/eetk2w4ReEAWinf6VvVuM4B7ARXOmdbHg3hM=",
     "SectionType": "",
@@ -394,62 +605,7 @@
     "EndLine": 0,
     "Translation": "```bash\nsnail/\n├── authentication/           # Service d'authentification (serveur d'autorisation OAuth2)\n├── authorization/          # Service d'autorisation (gestion des permissions, rôles, menus)\n├── gateway/               # Passerelle API (routage, authentification, limitation de débit)\n├── resource/              # Service de ressources (exemple d'API métier)\n├── snail-vue-app/          # Interface d'administration (Vue3 + shadcn/ui)\n└── pom.xml                      # Projet parent Maven\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "Wu88YQ/MMQrZqhVfsnAsgPvmF+467m9XqFmMftFWojk=",
-        "originContent": "snail/",
-        "translatedContent": "snail/"
-      },
-      {
-        "row": 3,
-        "rowsha": "FFsXEzrbOCYoY+0gdOWmLioYLfBiDeZsf8cnb9ooxoE=",
-        "originContent": "├── authentication/           # 认证服务（OAuth2 授权服务器）",
-        "translatedContent": "├── authentication/           # Service d'authentification (serveur d'autorisation OAuth2)"
-      },
-      {
-        "row": 4,
-        "rowsha": "lFErKYpeSVDyMj+4fr1u5VPmAS+kCHfqRsxOVQ6DxD4=",
-        "originContent": "├── authorization/          # 授权服务（权限管理、角色、菜单）",
-        "translatedContent": "├── authorization/          # Service d'autorisation (gestion des permissions, rôles, menus)"
-      },
-      {
-        "row": 5,
-        "rowsha": "JlQPBDXBERHEgxKZ4jTOT69LmdHhBJ3HK+6f0s0kpw4=",
-        "originContent": "├── gateway/               # API 网关（路由、鉴权、限流）",
-        "translatedContent": "├── gateway/               # Passerelle API (routage, authentification, limitation de débit)"
-      },
-      {
-        "row": 6,
-        "rowsha": "JtkO7xN1x1XYaUU2gPHkqSaDkuYtNUhhOgVOK+ZCU6k=",
-        "originContent": "├── resource/              # 资源服务（业务 API 示例）",
-        "translatedContent": "├── resource/              # Service de ressources (exemple d'API métier)"
-      },
-      {
-        "row": 7,
-        "rowsha": "TrhFltagOIAXbHZVYYYHrzZ9unSlUde/ZkYaaD0ukL0=",
-        "originContent": "├── snail-vue-app/          # 后台管理界面（Vue3 + shadcn/ui）",
-        "translatedContent": "├── snail-vue-app/          # Interface d'administration (Vue3 + shadcn/ui)"
-      },
-      {
-        "row": 8,
-        "rowsha": "41ZVvBOgSiG54irImjlsy7sdSngrqwT4CrnpuFge38A=",
-        "originContent": "└── pom.xml                      # Maven 父工程",
-        "translatedContent": "└── pom.xml                      # Projet parent Maven"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

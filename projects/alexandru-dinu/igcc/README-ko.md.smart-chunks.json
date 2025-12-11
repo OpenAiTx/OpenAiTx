@@ -1,19 +1,272 @@
 [
   {
     "Id": 1,
-    "Content": "# Interactive GCC\n\n[![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)\n[![contrib](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/alexandru-dinu/igcc/issues)\n[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)\n\n> [!NOTE]\n> The original repo from Andy Balaam is here: https://codeberg.org/andybalaam/igcc.\n> In this fork, I've done some refactoring and tried to make it easier to use.\n\n> [!WARNING]\n> This project is a hacky attempt at getting a shorter feedback loop when working with C/C++ in some cases and it's obviously not intended for anything serious.\n\nInteractive GCC (`igcc`) is a read-eval-print loop (REPL) for C/C++. It works by manipulating a base source file with user commands, compiles the source after each modification, then executes the resulting binary and collects its stdout & stderr.\nMulti-line (block) input is supported, so you can add multiple lines in one go and invoke the compiler just once (examples below).\n\nYou can include various header files. For convenience, a default header is included: [`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h). Also, `using namespace std;` is not available by default, but you can explicitly add it (example below).\n\nVarious aspects of `igcc` can be configured, see [`config.yaml`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/config.yaml).\n\n## Getting started\nThe easiest way to get started is to use [pipx](https://pipx.pypa.io/stable/):",
-    "ContentSha": "y/FtfhcMIKCs386yKMOE6OWCcFR8nq3l8OAiHuj6D3w=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Interactive GCC\n\n[![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)\n[![contrib](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/alexandru-dinu/igcc/issues)\n[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)\n\n> [!NOTE]\n> The original repo from Andy Balaam is here: https://codeberg.org/andybalaam/igcc.",
+    "ContentSha": "SVBF3SyrbJkT2NFxC2e/kQTJVpc+D4e/YNjc6MsgWtU=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# Interactive GCC\n\n[![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)\n[![contrib](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/alexandru-dinu/igcc/issues)\n[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)\n\n> [!NOTE]\n> 원본 저장소는 Andy Balaam의 것으로 여기에서 확인할 수 있습니다: https://codeberg.org/andybalaam/igcc.\n> 이 포크에서는 일부 리팩토링을 진행했고 사용하기 쉽게 만들려고 노력했습니다.\n\n> [!WARNING]\n> 이 프로젝트는 C/C++ 작업 시 피드백 루프를 짧게 만들기 위한 해킹 시도이며, 명백히 심각한 용도로 의도된 것은 아닙니다.\n\nInteractive GCC(`igcc`)는 C/C++용 읽기-평가-출력 루프(REPL)입니다. 사용자 명령으로 기본 소스 파일을 조작하며, 각 수정 후 소스를 컴파일하고, 결과 바이너리를 실행한 뒤 stdout과 stderr를 수집하는 방식으로 작동합니다.\n여러 줄(블록) 입력을 지원하므로 한 번에 여러 줄을 추가하고 컴파일러를 한 번만 호출할 수 있습니다(아래 예시 참조).\n\n다양한 헤더 파일을 포함할 수 있습니다. 편의를 위해 기본 헤더가 포함되어 있습니다: [`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h). 또한, 기본적으로 `using namespace std;`는 활성화되어 있지 않지만, 명시적으로 추가할 수 있습니다(아래 예시 참조).\n\n`igcc`의 다양한 설정은 [`config.yaml`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/config.yaml)을 참조하세요.\n\n## 시작하기\n가장 쉬운 시작 방법은 [pipx](https://pipx.pypa.io/stable/)를 사용하는 것입니다:",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 언어</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# 인터랙티브 GCC\n\n[![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)\n[![contrib](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/alexandru-dinu/igcc/issues)\n[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)\n\n> [!NOTE]\n> Andy Balaam의 원본 저장소는 다음에서 확인할 수 있습니다: https://codeberg.org/andybalaam/igcc.",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 언어</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "y0FL49qAQReiGGWY+bEaZELWfUOJ9bMnZzEHPcFHhI0=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "vPdtXALzItJpJNInEmOdj4dsYy+/cgLWvYxSHZWwX+c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "jbcP+sJwflO1bx6BfY8wZgDKNr6FqfllMToYWBpnoKc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "CipGPaFY9ri4COjiwIpfvoX9wSnKvkFVOgE05bvKPOo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "YG+0Oap7qgHEPANF8SlH9tSD4JS2v2/mJc2OT6pQ2/o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "sit9wI6/+6QtsZnfJqaIwkhplZRuLS4Yx0NmzBTGBM0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "XNLHt05sdFkYP7Fb1g/tz77v2es+Yrd3GvPSzLPtPaw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "6mC+mIB/MAdoke8lzVDvgXLAb2PLtkU5muHwL3mc7Vs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "MWQrm4jRAgfWaE2Gc2hwbXyYaF4S5VMAAYeMey9/Pa8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "y8CfJIs04osS29O8cT4jUYyZfu9VDiKsyR02YIb8cA0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "qzOOIalNr3B4dsUAKa5s1b4cODPXB8gEk2a7DudHSJI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "m9yrLUmhCMSx6xdHg06bsEM//xOCiu+NGUUiTdxdB2Q=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "nsuj98ZveSvxun+SyJPWSBlKjN/tF7Zp5phxlAf5/jw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "NGq65kNOBM4VDlcuquO91tb8+QZ8RXbUneDNTPM2DEE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "QCe9gRgtm2k74IB5ceDtzA848FSwxrwxjosXfVCklZM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "ETELXG1bzpDgcOf++I3LQdcFQpGWZ3Wgya9HQw7MX8o=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "lPICh7iHRu5gPZPXQPBsnkMlTdvs+tTaq4/Carg7mPw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "CFZo1N5e8kNsCGrOzUyrEMAweplyZ1XupNF+VSymcc0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "2lJ/UrJlf8sPaAfb1U52iaMXS0aaaQw6y7dcsWGBekA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "rC97Why21pkr3VR6VRdWRNfPpq9LMQF0j/zBb1jUhNI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "o1fcSXxe5h4CDOwjkRjGa8CFSYXe7NiNpdqIjWpObbM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
         "rowsha": "iS8OQmlAgy6E6L3gu+YyWJIrFcaPv2EQgjqR99El6gY=",
         "originContent": "# Interactive GCC",
-        "translatedContent": "# Interactive GCC"
+        "translatedContent": "# 인터랙티브 GCC"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "3IhAcSQ9MTfhAaNGrnEDvWSTgNnKrK5FEGvhY6iUBx8=",
+        "originContent": "[![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)",
+        "translatedContent": "[![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)"
+      },
+      {
+        "row": 36,
+        "rowsha": "4BWnmQvkmNhkpWa1YcVHTFCR2PKNnH9TyxuqyV/ohFo=",
+        "originContent": "[![contrib](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/alexandru-dinu/igcc/issues)",
+        "translatedContent": "[![contrib](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/alexandru-dinu/igcc/issues)"
+      },
+      {
+        "row": 37,
+        "rowsha": "YPkILow6kKg7Sd+OPagzr5GnsBF1IUb9mjmsEYSr6Zc=",
+        "originContent": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
+        "translatedContent": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 40,
+        "rowsha": "WIf8lw4E/unwAl1cjSgxVSBl5v8v03jXf8IuEPF4CBM=",
+        "originContent": "> The original repo from Andy Balaam is here: https://codeberg.org/andybalaam/igcc.",
+        "translatedContent": "> Andy Balaam의 원본 저장소는 다음에서 확인할 수 있습니다: https://codeberg.org/andybalaam/igcc."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "> In this fork, I've done some refactoring and tried to make it easier to use.\n\n> [!WARNING]\n> This project is a hacky attempt at getting a shorter feedback loop when working with C/C++ in some cases and it's obviously not intended for anything serious.\n\nInteractive GCC (`igcc`) is a read-eval-print loop (REPL) for C/C++. It works by manipulating a base source file with user commands, compiles the source after each modification, then executes the resulting binary and collects its stdout & stderr.\nMulti-line (block) input is supported, so you can add multiple lines in one go and invoke the compiler just once (examples below).\n\nYou can include various header files. For convenience, a default header is included: [`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h). Also, `using namespace std;` is not available by default, but you can explicitly add it (example below).\n\nVarious aspects of `igcc` can be configured, see [`config.yaml`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/config.yaml).\n\n## Getting started\nThe easiest way to get started is to use [pipx](https://pipx.pypa.io/stable/):",
+    "ContentSha": "3YMq4M9A9NsgKJA/XTjMZF59CTsK3JsOf8jBauGE4oY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> 이 포크에서는 일부 리팩토링을 진행하여 사용하기 쉽게 만들려고 했습니다.\n\n> [!WARNING]\n> 이 프로젝트는 C/C++ 작업 시 일부 상황에서 더 짧은 피드백 루프를 얻기 위한 해키(hacky)한 시도이며, 명백히 중요한 용도로 사용하기 위한 것은 아닙니다.\n\nInteractive GCC(`igcc`)는 C/C++용 읽기-평가-출력 루프(REPL)입니다. 사용자 명령으로 기본 소스 파일을 조작하고, 각 변경 후 소스를 컴파일한 다음 생성된 바이너리를 실행하여 stdout 및 stderr을 수집합니다.\n다중 줄(블록) 입력을 지원하므로 여러 줄을 한 번에 추가하고 컴파일러를 한 번만 호출할 수 있습니다(아래 예시 참고).\n\n다양한 헤더 파일을 포함할 수 있습니다. 편의를 위해 기본 헤더가 포함되어 있습니다: [`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h). 또한, `using namespace std;`는 기본적으로 제공되지 않으나, 명시적으로 추가할 수 있습니다(아래 예시 참고).\n\n`igcc`의 다양한 측면을 구성할 수 있습니다. 자세한 내용은 [`config.yaml`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/config.yaml)을 참조하십시오.\n\n## 시작하기\n가장 쉬운 시작 방법은 [pipx](https://pipx.pypa.io/stable/)를 사용하는 것입니다:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UmNkyUvsjCU/yvj1i/YEkQV//MXyl8KCailwiRbymYg=",
+        "originContent": "> In this fork, I've done some refactoring and tried to make it easier to use.",
+        "translatedContent": "> 이 포크에서는 일부 리팩토링을 진행하여 사용하기 쉽게 만들려고 했습니다."
       },
       {
         "row": 2,
@@ -23,45 +276,45 @@
       },
       {
         "row": 3,
-        "rowsha": "3IhAcSQ9MTfhAaNGrnEDvWSTgNnKrK5FEGvhY6iUBx8=",
-        "originContent": "[![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)",
-        "translatedContent": "[![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)"
+        "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+        "originContent": "> [!WARNING]",
+        "translatedContent": "> [!WARNING]"
       },
       {
         "row": 4,
-        "rowsha": "4BWnmQvkmNhkpWa1YcVHTFCR2PKNnH9TyxuqyV/ohFo=",
-        "originContent": "[![contrib](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/alexandru-dinu/igcc/issues)",
-        "translatedContent": "[![contrib](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/alexandru-dinu/igcc/issues)"
+        "rowsha": "+oJEQIkcGPax+D0LJQcGL7G3F993Q0tUAqUSpx3oeKA=",
+        "originContent": "> This project is a hacky attempt at getting a shorter feedback loop when working with C/C++ in some cases and it's obviously not intended for anything serious.",
+        "translatedContent": "> 이 프로젝트는 C/C++ 작업 시 일부 상황에서 더 짧은 피드백 루프를 얻기 위한 해키(hacky)한 시도이며, 명백히 중요한 용도로 사용하기 위한 것은 아닙니다."
       },
       {
         "row": 5,
-        "rowsha": "YPkILow6kKg7Sd+OPagzr5GnsBF1IUb9mjmsEYSr6Zc=",
-        "originContent": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)",
-        "translatedContent": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
-      },
-      {
-        "row": 6,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 6,
+        "rowsha": "PG2jZSLEsWzrIGNI5MNJk4/SJFSac1ZiAozrBFT5rXU=",
+        "originContent": "Interactive GCC (`igcc`) is a read-eval-print loop (REPL) for C/C++. It works by manipulating a base source file with user commands, compiles the source after each modification, then executes the resulting binary and collects its stdout & stderr.",
+        "translatedContent": "Interactive GCC(`igcc`)는 C/C++용 읽기-평가-출력 루프(REPL)입니다. 사용자 명령으로 기본 소스 파일을 조작하고, 각 변경 후 소스를 컴파일한 다음 생성된 바이너리를 실행하여 stdout 및 stderr을 수집합니다."
+      },
+      {
         "row": 7,
-        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
-        "originContent": "> [!NOTE]",
-        "translatedContent": "> [!NOTE]"
+        "rowsha": "fyAV4nOfegoAsjZ8gSdgiz0uuX0ll+KEUr6AtGpp63I=",
+        "originContent": "Multi-line (block) input is supported, so you can add multiple lines in one go and invoke the compiler just once (examples below).",
+        "translatedContent": "다중 줄(블록) 입력을 지원하므로 여러 줄을 한 번에 추가하고 컴파일러를 한 번만 호출할 수 있습니다(아래 예시 참고)."
       },
       {
         "row": 8,
-        "rowsha": "WIf8lw4E/unwAl1cjSgxVSBl5v8v03jXf8IuEPF4CBM=",
-        "originContent": "> The original repo from Andy Balaam is here: https://codeberg.org/andybalaam/igcc.",
-        "translatedContent": "> 원본 저장소는 Andy Balaam의 것으로 여기에서 확인할 수 있습니다: https://codeberg.org/andybalaam/igcc."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 9,
-        "rowsha": "UmNkyUvsjCU/yvj1i/YEkQV//MXyl8KCailwiRbymYg=",
-        "originContent": "> In this fork, I've done some refactoring and tried to make it easier to use.",
-        "translatedContent": "> 이 포크에서는 일부 리팩토링을 진행했고 사용하기 쉽게 만들려고 노력했습니다."
+        "rowsha": "zg+cgSpPIa8vg6AjozbMA0mZJr12VkLEQfPGK/mw/yw=",
+        "originContent": "You can include various header files. For convenience, a default header is included: [`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h). Also, `using namespace std;` is not available by default, but you can explicitly add it (example below).",
+        "translatedContent": "다양한 헤더 파일을 포함할 수 있습니다. 편의를 위해 기본 헤더가 포함되어 있습니다: [`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h). 또한, `using namespace std;`는 기본적으로 제공되지 않으나, 명시적으로 추가할 수 있습니다(아래 예시 참고)."
       },
       {
         "row": 10,
@@ -71,72 +324,24 @@
       },
       {
         "row": 11,
-        "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
-        "originContent": "> [!WARNING]",
-        "translatedContent": "> [!WARNING]"
+        "rowsha": "zXTdMUCuuzyYae0+rTVOXRdmlsqRO9Suux8p+kep5hk=",
+        "originContent": "Various aspects of `igcc` can be configured, see [`config.yaml`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/config.yaml).",
+        "translatedContent": "`igcc`의 다양한 측면을 구성할 수 있습니다. 자세한 내용은 [`config.yaml`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/config.yaml)을 참조하십시오."
       },
       {
         "row": 12,
-        "rowsha": "+oJEQIkcGPax+D0LJQcGL7G3F993Q0tUAqUSpx3oeKA=",
-        "originContent": "> This project is a hacky attempt at getting a shorter feedback loop when working with C/C++ in some cases and it's obviously not intended for anything serious.",
-        "translatedContent": "> 이 프로젝트는 C/C++ 작업 시 피드백 루프를 짧게 만들기 위한 해킹 시도이며, 명백히 심각한 용도로 의도된 것은 아닙니다."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "PG2jZSLEsWzrIGNI5MNJk4/SJFSac1ZiAozrBFT5rXU=",
-        "originContent": "Interactive GCC (`igcc`) is a read-eval-print loop (REPL) for C/C++. It works by manipulating a base source file with user commands, compiles the source after each modification, then executes the resulting binary and collects its stdout & stderr.",
-        "translatedContent": "Interactive GCC(`igcc`)는 C/C++용 읽기-평가-출력 루프(REPL)입니다. 사용자 명령으로 기본 소스 파일을 조작하며, 각 수정 후 소스를 컴파일하고, 결과 바이너리를 실행한 뒤 stdout과 stderr를 수집하는 방식으로 작동합니다."
-      },
-      {
-        "row": 15,
-        "rowsha": "fyAV4nOfegoAsjZ8gSdgiz0uuX0ll+KEUr6AtGpp63I=",
-        "originContent": "Multi-line (block) input is supported, so you can add multiple lines in one go and invoke the compiler just once (examples below).",
-        "translatedContent": "여러 줄(블록) 입력을 지원하므로 한 번에 여러 줄을 추가하고 컴파일러를 한 번만 호출할 수 있습니다(아래 예시 참조)."
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "zg+cgSpPIa8vg6AjozbMA0mZJr12VkLEQfPGK/mw/yw=",
-        "originContent": "You can include various header files. For convenience, a default header is included: [`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h). Also, `using namespace std;` is not available by default, but you can explicitly add it (example below).",
-        "translatedContent": "다양한 헤더 파일을 포함할 수 있습니다. 편의를 위해 기본 헤더가 포함되어 있습니다: [`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h). 또한, 기본적으로 `using namespace std;`는 활성화되어 있지 않지만, 명시적으로 추가할 수 있습니다(아래 예시 참조)."
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "zXTdMUCuuzyYae0+rTVOXRdmlsqRO9Suux8p+kep5hk=",
-        "originContent": "Various aspects of `igcc` can be configured, see [`config.yaml`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/config.yaml).",
-        "translatedContent": "`igcc`의 다양한 설정은 [`config.yaml`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/config.yaml)을 참조하세요."
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
         "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
         "originContent": "## Getting started",
         "translatedContent": "## 시작하기"
       },
       {
-        "row": 22,
+        "row": 14,
         "rowsha": "Sc6Jg6AloSzEvKfLCBfvlVDJJXT5aKhnWqkXFrIo4Nw=",
         "originContent": "The easiest way to get started is to use [pipx](https://pipx.pypa.io/stable/):",
         "translatedContent": "가장 쉬운 시작 방법은 [pipx](https://pipx.pypa.io/stable/)를 사용하는 것입니다:"
@@ -145,7 +350,7 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 2,
+    "Id": 3,
     "Content": "```\npipx install git+https://github.com/alexandru-dinu/igcc.git\n```",
     "ContentSha": "fctAhT5RWJz6k2DYTZoVLvgijtFRC1IVrTvKCoEkFCo=",
     "SectionType": "",
@@ -153,67 +358,36 @@
     "EndLine": 0,
     "Translation": "```\npipx install git+https://github.com/alexandru-dinu/igcc.git\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "usjIrNTDQ60ymt+nVzBmohA8cYgftsATzC08fHLdAss=",
-        "originContent": "pipx install git+https://github.com/alexandru-dinu/igcc.git",
-        "translatedContent": "pipx install git+https://github.com/alexandru-dinu/igcc.git"
-      },
-      {
-        "row": 3,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 3,
-    "Content": "Alternatively, you can also just use `pip` (a dedicated virtual environment is recommended).\n\nNow you can run the REPL with:",
-    "ContentSha": "p2Fdby+C+SKJoGveL6EYMDn6RyBqLidhWlDx5kpC8OI=",
+    "Id": 4,
+    "Content": "Alternatively, you can also use `uv`:",
+    "ContentSha": "YkNGzAPt/16HApQzcCvAp7tuS9XXiAjgz6/eMLNhYqU=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "또는 `pip`를 사용할 수도 있습니다(전용 가상 환경 사용 권장).\n\n이제 다음 명령어로 REPL을 실행할 수 있습니다:",
+    "Translation": "또는, `uv`를 사용할 수도 있습니다:",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "QQsHRaUq4gEIofKyuFFjSuH+s8xhgJwzo32wBMK+OPo=",
-        "originContent": "Alternatively, you can also just use `pip` (a dedicated virtual environment is recommended).",
-        "translatedContent": "또는 `pip`를 사용할 수도 있습니다(전용 가상 환경 사용 권장)."
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "Y2uJPI+bYs2zcb3Yi8dA9nXQrVE5yKiXonXn1qRVuw4=",
-        "originContent": "Now you can run the REPL with:",
-        "translatedContent": "이제 다음 명령어로 REPL을 실행할 수 있습니다:"
+        "rowsha": "YkNGzAPt/16HApQzcCvAp7tuS9XXiAjgz6/eMLNhYqU=",
+        "originContent": "Alternatively, you can also use `uv`:",
+        "translatedContent": "또는, `uv`를 사용할 수도 있습니다:"
       }
     ],
     "IsCodeBlock": false
   },
   {
-    "Id": 4,
-    "Content": "```\nigcc\n```",
-    "ContentSha": "wHwFvUVv8KRBEHcxbJ1XLsWrYnyi0nW5VV4eZdCb7KY=",
+    "Id": 5,
+    "Content": "```\nuv tool run git+https://github.com/alexandru-dinu/igcc\n```",
+    "ContentSha": "ghGuHcEqqStdaUXLsG7ABx1unQ7kVW+ysJmoqzTeAiI=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```\nigcc\n```",
+    "Translation": "```\nuv tool run git+https://github.com/alexandru-dinu/igcc\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -224,9 +398,9 @@
       },
       {
         "row": 2,
-        "rowsha": "h0OOdffR3sMAzErtNj+avVqxg53Fb29sDz/OOcJ2zbs=",
-        "originContent": "igcc",
-        "translatedContent": "igcc"
+        "rowsha": "rnVKZonJbj6DniptPHQOjJTDmY+XAP6Y0VQ/RTEW8ng=",
+        "originContent": "uv tool run git+https://github.com/alexandru-dinu/igcc",
+        "translatedContent": "uv tool run git+https://github.com/alexandru-dinu/igcc"
       },
       {
         "row": 3,
@@ -238,38 +412,106 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 5,
-    "Content": "\nAvailable args:",
-    "ContentSha": "PwAAHdskbKYPU/rrynqXV0JOsPZlXa3qZgZzMPMauFY=",
+    "Id": 6,
+    "Content": "And for dev:",
+    "ContentSha": "rXxGK1G80WfMJywybxr+7ZK+nSmTCDijRfATUDN0ZFU=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "사용 가능한 인수:\n",
+    "Translation": "그리고 개발용:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rXxGK1G80WfMJywybxr+7ZK+nSmTCDijRfATUDN0ZFU=",
+        "originContent": "And for dev:",
+        "translatedContent": "그리고 개발용:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```\ngit clone https://github.com/alexandru-dinu/igcc.git\ncd igcc\nuv sync\n```",
+    "ContentSha": "ff25nojC9esybpD1L0G+sGNs67JdV5qYVY/hzTeYmEM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ngit clone https://github.com/alexandru-dinu/igcc.git\ncd igcc\nuv sync\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "UULwsXt2JV7GJTtY5qxKVAWCrj5YHIH+9VRjJxngSAU=",
+        "originContent": "git clone https://github.com/alexandru-dinu/igcc.git",
+        "translatedContent": "git clone https://github.com/alexandru-dinu/igcc.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "/2D7aW+xz0kvurNWavpNXcG5zQaTFaA94lHQIQc9csY=",
+        "originContent": "cd igcc",
+        "translatedContent": "cd igcc"
+      },
+      {
+        "row": 4,
+        "rowsha": "6IUt3swb9NwCpg2AB8+2bWbPmZ9skvhon0N/15abJBU=",
+        "originContent": "uv sync",
+        "translatedContent": "uv sync"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\nAvailable args:\n<!-- MDUP:BEG uv run igcc --help -->",
+    "ContentSha": "HtVU5+LSIk5ruv9peFLtxKvjoGaXuO3b2bvUZjs/hKE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n사용 가능한 인수:\n<!-- MDUP:BEG uv run igcc --help -->",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "사용 가능한 인수:"
+        "translatedContent": ""
       },
       {
         "row": 2,
         "rowsha": "i1Uel7XwhpjzotO/jZ8R9Qy+gU0q4JdqeiAZyxx3bXg=",
         "originContent": "Available args:",
-        "translatedContent": ""
+        "translatedContent": "사용 가능한 인수:"
+      },
+      {
+        "row": 3,
+        "rowsha": "Gc7IS1OlOacd3t307RxqTDO+rkyJ/7XPiX+9Nv442+w=",
+        "originContent": "<!-- MDUP:BEG uv run igcc --help -->",
+        "translatedContent": "<!-- MDUP:BEG uv run igcc --help -->"
       }
     ],
     "IsCodeBlock": false
   },
   {
-    "Id": 6,
-    "Content": "```\n$ igcc --help\nusage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]] [-l LIB [LIB ...]]\n\noptions:\n  -h, --help            show this help message and exit\n  -I INCLUDE [INCLUDE ...]\n                        Add INCLUDE to the list of directories to be searched for header files.\n  -L LIBDIR [LIBDIR ...]\n                        Add LIBDIR to the list of directories to be searched for library files.\n  -l LIB [LIB ...]      Search the library LIB when linking.\n```",
-    "ContentSha": "gAqCU6VND7r9cSqTDZ/IOqh4ceCgkFPOxYBAXpZonxk=",
+    "Id": 9,
+    "Content": "```\nusage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]]\n            [-l LIB [LIB ...]]\n\noptions:\n  -h, --help            show this help message and exit\n  -I INCLUDE [INCLUDE ...]\n                        Add INCLUDE to the list of directories to be searched\n                        for header files.\n  -L LIBDIR [LIBDIR ...]\n                        Add LIBDIR to the list of directories to be searched\n                        for library files.\n  -l LIB [LIB ...]      Search the library LIB when linking.\n```",
+    "ContentSha": "LSKjp9BwX0jLzZcJmzTLJ0TP7eRBoigZuQzs8iIYa+s=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```\n$ igcc --help\nusage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]] [-l LIB [LIB ...]]\n\noptions:\n  -h, --help            show this help message and exit\n  -I INCLUDE [INCLUDE ...]\n                        Add INCLUDE to the list of directories to be searched for header files.\n  -L LIBDIR [LIBDIR ...]\n                        Add LIBDIR to the list of directories to be searched for library files.\n  -l LIB [LIB ...]      Search the library LIB when linking.\n```",
+    "Translation": "```\nusage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]]\n            [-l LIB [LIB ...]]\n\noptions:\n  -h, --help            show this help message and exit\n  -I INCLUDE [INCLUDE ...]\n                        Add INCLUDE to the list of directories to be searched\n                        for header files.\n  -L LIBDIR [LIBDIR ...]\n                        Add LIBDIR to the list of directories to be searched\n                        for library files.\n  -l LIB [LIB ...]      Search the library LIB when linking.\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -280,15 +522,15 @@
       },
       {
         "row": 2,
-        "rowsha": "WGvCRs04EPYbpggOXkDhFuiJIHeDz2AXb+Ql4OiiszU=",
-        "originContent": "$ igcc --help",
-        "translatedContent": "$ igcc --help"
+        "rowsha": "ExyBAxeE98Ok24KP44AVf7X1U2JbLjJi8ZjYtfmofEo=",
+        "originContent": "usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]]",
+        "translatedContent": "usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]]"
       },
       {
         "row": 3,
-        "rowsha": "yBOJBuEKwYukhlhVYRZKBj6YtaTLERdDvDjVybbCUyg=",
-        "originContent": "usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]] [-l LIB [LIB ...]]",
-        "translatedContent": "usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]] [-l LIB [LIB ...]]"
+        "rowsha": "WQTdFddV7i1DhAmwAE6613Uaau49zV7w2tS5d5DNsco=",
+        "originContent": "            [-l LIB [LIB ...]]",
+        "translatedContent": "            [-l LIB [LIB ...]]"
       },
       {
         "row": 4,
@@ -316,30 +558,42 @@
       },
       {
         "row": 8,
-        "rowsha": "14s50mWVkhiuhTStyfgR60C7sojh2zpGKQuTvUmTzqs=",
-        "originContent": "                        Add INCLUDE to the list of directories to be searched for header files.",
-        "translatedContent": "                        Add INCLUDE to the list of directories to be searched for header files."
+        "rowsha": "JMaxd5VqBQjHlzaNovXlUeaOe6rI5dV46Gwzyk4F/kA=",
+        "originContent": "                        Add INCLUDE to the list of directories to be searched",
+        "translatedContent": "                        Add INCLUDE to the list of directories to be searched"
       },
       {
         "row": 9,
+        "rowsha": "FwLvuSTnafQz3CanXgQ2YB7l8bvQyRCwvjbxY68CNxA=",
+        "originContent": "                        for header files.",
+        "translatedContent": "                        for header files."
+      },
+      {
+        "row": 10,
         "rowsha": "fOebn86J0hHPSgwpq35qXzrlT2U73vJ7LhB2pQ88Z+w=",
         "originContent": "  -L LIBDIR [LIBDIR ...]",
         "translatedContent": "  -L LIBDIR [LIBDIR ...]"
       },
       {
-        "row": 10,
-        "rowsha": "6CqyIAaD4KL3AixtbSnkeQVNFvr+O67hlyvYhlH2eoo=",
-        "originContent": "                        Add LIBDIR to the list of directories to be searched for library files.",
-        "translatedContent": "                        Add LIBDIR to the list of directories to be searched for library files."
+        "row": 11,
+        "rowsha": "jZ93ACEeGyFZCmqa3YUzSFzH24MOiYIG0shTPXYnJ7c=",
+        "originContent": "                        Add LIBDIR to the list of directories to be searched",
+        "translatedContent": "                        Add LIBDIR to the list of directories to be searched"
       },
       {
-        "row": 11,
+        "row": 12,
+        "rowsha": "Vrro7V8hWxuVamaxSEvYCQLaoPKNSISXrmBwowNswec=",
+        "originContent": "                        for library files.",
+        "translatedContent": "                        for library files."
+      },
+      {
+        "row": 13,
         "rowsha": "txkTVOxRcPULoAY7d93N0FYABVank40p9sVucJKsCts=",
         "originContent": "  -l LIB [LIB ...]      Search the library LIB when linking.",
         "translatedContent": "  -l LIB [LIB ...]      Search the library LIB when linking."
       },
       {
-        "row": 12,
+        "row": 14,
         "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
         "originContent": "```",
         "translatedContent": "```"
@@ -348,44 +602,44 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 7,
-    "Content": "\nThe code will be compiled with GCC (`g++`) and the results (if any) will be displayed.\nType `.h` for help:\n",
-    "ContentSha": "blKeRVN0NOAc7fyr4Yghg12j6lUZLAyaqo2zpejMj44=",
+    "Id": 10,
+    "Content": "<!-- MDUP:END -->\n\nThe code will be compiled with GCC (`g++`) and the results (if any) will be displayed.\nType `.h` for help:",
+    "ContentSha": "5WlhL0Vt6Ix64XO1w+6Y0JAbTBOxx6lDNSU2e6ETvec=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "코드는 GCC(`g++`)로 컴파일되며 결과(있는 경우)가 표시됩니다.  \n도움말을 보려면 `.h`를 입력하세요:\n\n",
+    "Translation": "<!-- MDUP:END -->\n\n코드는 GCC(`g++`)로 컴파일되며, 결과(있는 경우)가 표시됩니다.\n도움말을 보려면 `.h`를 입력하세요:",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "코드는 GCC(`g++`)로 컴파일되며 결과(있는 경우)가 표시됩니다.  "
+        "rowsha": "5e1a2Q94dlyHrZAmSsdcKz18TZMQ9wNes6o7A9klmdY=",
+        "originContent": "<!-- MDUP:END -->",
+        "translatedContent": "<!-- MDUP:END -->"
       },
       {
         "row": 2,
-        "rowsha": "cvXZUxFQqPF79CR3xA7ryBpMiSXFsm79utquQuDwOUg=",
-        "originContent": "The code will be compiled with GCC (`g++`) and the results (if any) will be displayed.",
-        "translatedContent": "도움말을 보려면 `.h`를 입력하세요:"
-      },
-      {
-        "row": 3,
-        "rowsha": "PIubO1u6LV7mdqT7hcJiwCO4OBiBYFN58lBrO0r7460=",
-        "originContent": "Type `.h` for help:",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "cvXZUxFQqPF79CR3xA7ryBpMiSXFsm79utquQuDwOUg=",
+        "originContent": "The code will be compiled with GCC (`g++`) and the results (if any) will be displayed.",
+        "translatedContent": "코드는 GCC(`g++`)로 컴파일되며, 결과(있는 경우)가 표시됩니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "PIubO1u6LV7mdqT7hcJiwCO4OBiBYFN58lBrO0r7460=",
+        "originContent": "Type `.h` for help:",
+        "translatedContent": "도움말을 보려면 `.h`를 입력하세요:"
       }
     ],
     "IsCodeBlock": false
   },
   {
-    "Id": 8,
+    "Id": 11,
     "Content": "```\n$ igcc\n[1]> .h\n.h  Show this help message\n.e  Show the last compile errors/warnings\n.l  List the code you have entered\n.L  List the whole program as given to the compiler\n.r  Redo undone command\n.u  Undo previous command\n.q  Quit\n```",
     "ContentSha": "U3/X2odth2WkKpPL8KlOCFoEjM6FqtuCX7axDlc1BHA=",
     "SectionType": "",
@@ -393,78 +647,11 @@
     "EndLine": 0,
     "Translation": "```\n$ igcc\n[1]> .h\n.h  Show this help message\n.e  Show the last compile errors/warnings\n.l  List the code you have entered\n.L  List the whole program as given to the compiler\n.r  Redo undone command\n.u  Undo previous command\n.q  Quit\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "snoMI32bgVfCuY3irny2FgziV9nVnTIBCQwzsOBG8jI=",
-        "originContent": "$ igcc",
-        "translatedContent": "$ igcc"
-      },
-      {
-        "row": 3,
-        "rowsha": "nfnCXMas/06wz16wkRYb+UTUtuhIkhaedNEkRFTts2A=",
-        "originContent": "[1]> .h",
-        "translatedContent": "[1]> .h"
-      },
-      {
-        "row": 4,
-        "rowsha": "bcrJZmefEBHWtPEFVcPJ2sXsDWmJXiCXje9YeNyMWBA=",
-        "originContent": ".h  Show this help message",
-        "translatedContent": ".h  Show this help message"
-      },
-      {
-        "row": 5,
-        "rowsha": "uVtOKZTYOAZq580OOlI9rf7F+ncCk48rrmDLP+zAuwk=",
-        "originContent": ".e  Show the last compile errors/warnings",
-        "translatedContent": ".e  Show the last compile errors/warnings"
-      },
-      {
-        "row": 6,
-        "rowsha": "/sovqCYnmG2VkBOtaT9lt2dkLxKgLrEEvj05l1b2EXo=",
-        "originContent": ".l  List the code you have entered",
-        "translatedContent": ".l  List the code you have entered"
-      },
-      {
-        "row": 7,
-        "rowsha": "EAaCTPIYdhA1OuN2inmXL0cRRSIURy7q1wUb9175Rc4=",
-        "originContent": ".L  List the whole program as given to the compiler",
-        "translatedContent": ".L  List the whole program as given to the compiler"
-      },
-      {
-        "row": 8,
-        "rowsha": "ekXQe0GQmNSGNC8WDJcDfI9UQhKy++KdZmobQBV42ok=",
-        "originContent": ".r  Redo undone command",
-        "translatedContent": ".r  Redo undone command"
-      },
-      {
-        "row": 9,
-        "rowsha": "2Af7SqERcVxE0mfrEYdppBfQDKhGTREAbnTlLn4LWm0=",
-        "originContent": ".u  Undo previous command",
-        "translatedContent": ".u  Undo previous command"
-      },
-      {
-        "row": 10,
-        "rowsha": "F9Gi/ei6EbZLqw9pX8ORVONiXpuOAu/23kweBxx0YXE=",
-        "originContent": ".q  Quit",
-        "translatedContent": ".q  Quit"
-      },
-      {
-        "row": 11,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 9,
+    "Id": 12,
     "Content": "\n## Examples",
     "ContentSha": "KTtJYDgP8MI1wgZlPJwJQSzJoLQm0VGFJeKTkGcz5+g=",
     "SectionType": "",
@@ -472,24 +659,11 @@
     "EndLine": 0,
     "Translation": "\n## 예제",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
-        "originContent": "## Examples",
-        "translatedContent": "## 예제"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 10,
+    "Id": 13,
     "Content": "```\n$ igcc\n[1]> int a = 5;\n[2]> a += 2;\n[3]> using namespace std;\n[4]> cout << a << endl;\n7\n\n[5]> int b = 17;\n[6]> a *= b;\n[7]> cout << a << \", \" << b << endl;\n119, 17\n\n[8]> .L\n#include \"boilerplate.h\"\nusing namespace std;\n\nint main(void) {\n    int a = 5;\n    a += 2;\n    cout << a << endl;\n    int b = 17;\n    a *= b;\n    cout << a << \", \" << b << endl;\n\n    return 0;\n}\n```",
     "ContentSha": "nrK8fnGlHmT0jK25HRl4bZEHS190G7nq7kurKywxsIw=",
     "SectionType": "",
@@ -497,180 +671,11 @@
     "EndLine": 0,
     "Translation": "```\n$ igcc\n[1]> int a = 5;\n[2]> a += 2;\n[3]> using namespace std;\n[4]> cout << a << endl;\n7\n\n[5]> int b = 17;\n[6]> a *= b;\n[7]> cout << a << \", \" << b << endl;\n119, 17\n\n[8]> .L\n#include \"boilerplate.h\"\nusing namespace std;\n\nint main(void) {\n    int a = 5;\n    a += 2;\n    cout << a << endl;\n    int b = 17;\n    a *= b;\n    cout << a << \", \" << b << endl;\n\n    return 0;\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "snoMI32bgVfCuY3irny2FgziV9nVnTIBCQwzsOBG8jI=",
-        "originContent": "$ igcc",
-        "translatedContent": "$ igcc"
-      },
-      {
-        "row": 3,
-        "rowsha": "LyNzTz93vg4I9F2cAZgBVDp/1P2/lML+7G4LpDkuxOI=",
-        "originContent": "[1]> int a = 5;",
-        "translatedContent": "[1]> int a = 5;"
-      },
-      {
-        "row": 4,
-        "rowsha": "sS/MaNlIAl6oLbU3hOm4qVI3I3tWmZFpJdGLAPe2NS4=",
-        "originContent": "[2]> a += 2;",
-        "translatedContent": "[2]> a += 2;"
-      },
-      {
-        "row": 5,
-        "rowsha": "KZfivqLS8ssqf+F52F9G5IrUtij6HpjV9qTklH4LBGA=",
-        "originContent": "[3]> using namespace std;",
-        "translatedContent": "[3]> using namespace std;"
-      },
-      {
-        "row": 6,
-        "rowsha": "j7q/VWLnj7a0AZUNgqy6KScl23NaMHmHRMqJLv1sSu4=",
-        "originContent": "[4]> cout << a << endl;",
-        "translatedContent": "[4]> cout << a << endl;"
-      },
-      {
-        "row": 7,
-        "rowsha": "eQJpm+Qsio5G+7tFAXJlF+hrIsVqGJ92JabaSQgbJFE=",
-        "originContent": "7",
-        "translatedContent": "7"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "jYdYKMeDOiDKWq7cAigCZZ2lwlMO5Qyqwd1Z9Kajpls=",
-        "originContent": "[5]> int b = 17;",
-        "translatedContent": "[5]> int b = 17;"
-      },
-      {
-        "row": 10,
-        "rowsha": "+gM9FmDK3x+Xwwj98QUvpqIXw3MyGL664PRe7ZZsVvU=",
-        "originContent": "[6]> a *= b;",
-        "translatedContent": "[6]> a *= b;"
-      },
-      {
-        "row": 11,
-        "rowsha": "xaPGuLUZScA1sd8uMYGnvNWf6KvBI7Evjj99FCZ/cds=",
-        "originContent": "[7]> cout << a << \", \" << b << endl;",
-        "translatedContent": "[7]> cout << a << \", \" << b << endl;"
-      },
-      {
-        "row": 12,
-        "rowsha": "YR5QrT/Ippfv3ZEvZp1sLbhgVJ7IDGf+AbpS2HV8lNM=",
-        "originContent": "119, 17",
-        "translatedContent": "119, 17"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "s/ROq2oooIeKNHffKCqyY/hHjb9XSbhPESJ9Zd3iU6g=",
-        "originContent": "[8]> .L",
-        "translatedContent": "[8]> .L"
-      },
-      {
-        "row": 15,
-        "rowsha": "Ch7cOBCcWeyK3nrIog2cAOvB2kZYhEzXCCH7aDikcLE=",
-        "originContent": "#include \"boilerplate.h\"",
-        "translatedContent": "#include \"boilerplate.h\""
-      },
-      {
-        "row": 16,
-        "rowsha": "88d9w7WR9wInNRhyJYIVBBXf2znwmZh0TwWZwKM/OkA=",
-        "originContent": "using namespace std;",
-        "translatedContent": "using namespace std;"
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "ZdvaltFWLuX62mES9DiqKfST5pE/z+cly/BO4RSR5QA=",
-        "originContent": "int main(void) {",
-        "translatedContent": "int main(void) {"
-      },
-      {
-        "row": 19,
-        "rowsha": "GICCWSg67nXF/lhRxAYFoooQIUNCnALqHq6JbSdXEUs=",
-        "originContent": "    int a = 5;",
-        "translatedContent": "    int a = 5;"
-      },
-      {
-        "row": 20,
-        "rowsha": "m0wuAgWIU8kiVXygOVexYo1fPZ9179hMAQ8fhHGHNqQ=",
-        "originContent": "    a += 2;",
-        "translatedContent": "    a += 2;"
-      },
-      {
-        "row": 21,
-        "rowsha": "Bs3G9oqUoJKxg97bg6Bv2bZpb5WujCSRPKNvES4aLlU=",
-        "originContent": "    cout << a << endl;",
-        "translatedContent": "    cout << a << endl;"
-      },
-      {
-        "row": 22,
-        "rowsha": "Av+dDaUgYfVL6tojJKe+KnbYIh0cs7y/W/O5WCNlXJ0=",
-        "originContent": "    int b = 17;",
-        "translatedContent": "    int b = 17;"
-      },
-      {
-        "row": 23,
-        "rowsha": "o08y87wdpdtNQ3a5UQY51JvmuYMNtGa3KnBYsz2ioUs=",
-        "originContent": "    a *= b;",
-        "translatedContent": "    a *= b;"
-      },
-      {
-        "row": 24,
-        "rowsha": "v9i8w210wtNQmjQBHZWdMZZHHsL51e7TvFDrjMnHIVc=",
-        "originContent": "    cout << a << \", \" << b << endl;",
-        "translatedContent": "    cout << a << \", \" << b << endl;"
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "8pHc/FvRZDBIWcWWwH1A5WovfJ9PNWM+KWmFZTQ5CMc=",
-        "originContent": "    return 0;",
-        "translatedContent": "    return 0;"
-      },
-      {
-        "row": 27,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 28,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 11,
+    "Id": 14,
     "Content": "\n**Multi-line input** is supported (check `multiline_marker` from config). The benefit is avoiding multiple compiler calls.",
     "ContentSha": "R2GJGcr3yMfUYVwVQHC/wsG28gWvCtPfq7Qr8iYyB0U=",
     "SectionType": "",
@@ -678,24 +683,11 @@
     "EndLine": 0,
     "Translation": "\n**멀티라인 입력**이 지원됩니다 (`multiline_marker`를 구성에서 확인). 이점은 여러 번의 컴파일러 호출을 피하는 것입니다.",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "Cao8tswfbSO2JoHUTl/slgL7hVm0O+V80bc7H1WdjrU=",
-        "originContent": "**Multi-line input** is supported (check `multiline_marker` from config). The benefit is avoiding multiple compiler calls.",
-        "translatedContent": "**멀티라인 입력**이 지원됩니다 (`multiline_marker`를 구성에서 확인). 이점은 여러 번의 컴파일러 호출을 피하는 것입니다."
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 12,
+    "Id": 15,
     "Content": "```\n$ igcc\n[1]> .m\n... for (int i = 0; i < 10; i++) {\n...   std::cout << i << \" \";\n... }\n... std::cout << \"\\n\";\n... .m\n0 1 2 3 4 5 6 7 8 9\n```",
     "ContentSha": "V7dPPcrrhwm/HsbBIGm0jbRcwdab8nFCh4cJEFuUSbo=",
     "SectionType": "",
@@ -703,72 +695,11 @@
     "EndLine": 0,
     "Translation": "```\n$ igcc\n[1]> .m\n... for (int i = 0; i < 10; i++) {\n...   std::cout << i << \" \";\n... }\n... std::cout << \"\\n\";\n... .m\n0 1 2 3 4 5 6 7 8 9\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "snoMI32bgVfCuY3irny2FgziV9nVnTIBCQwzsOBG8jI=",
-        "originContent": "$ igcc",
-        "translatedContent": "$ igcc"
-      },
-      {
-        "row": 3,
-        "rowsha": "sX19rF1fGu5oK35JVRgSuef2aY6Rvi12TbNdve02fqo=",
-        "originContent": "[1]> .m",
-        "translatedContent": "[1]> .m"
-      },
-      {
-        "row": 4,
-        "rowsha": "TZq606+uD8gPyfwmeEJ8gtF/ezgh7rA+yi1J6nEfd4U=",
-        "originContent": "... for (int i = 0; i < 10; i++) {",
-        "translatedContent": "... for (int i = 0; i < 10; i++) {"
-      },
-      {
-        "row": 5,
-        "rowsha": "Zg57ewdg0j+exyikbkueA0eskoUlUt+dUp7Jj880edY=",
-        "originContent": "...   std::cout << i << \" \";",
-        "translatedContent": "...   std::cout << i << \" \";"
-      },
-      {
-        "row": 6,
-        "rowsha": "ZfPoLmmEKyxSdaCYJboQRV73y8nYeRX0JjPajn81ubs=",
-        "originContent": "... }",
-        "translatedContent": "... }"
-      },
-      {
-        "row": 7,
-        "rowsha": "ma/5IuFZxc09fSdK2sBb/N67BO/37ElGgSfkysYFvTU=",
-        "originContent": "... std::cout << \"\\n\";",
-        "translatedContent": "... std::cout << \"\\n\";"
-      },
-      {
-        "row": 8,
-        "rowsha": "qR6Iniv2sLPHlUOdS9ePZAGievTQYaUOWvh8YoLeh5w=",
-        "originContent": "... .m",
-        "translatedContent": "... .m"
-      },
-      {
-        "row": 9,
-        "rowsha": "EgdDpEgTmSdZB4tmjQ/9GIO9gG01WWGvyMn0h4/60GI=",
-        "originContent": "0 1 2 3 4 5 6 7 8 9",
-        "translatedContent": "0 1 2 3 4 5 6 7 8 9"
-      },
-      {
-        "row": 10,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 13,
+    "Id": 16,
     "Content": "\nYou can include headers:",
     "ContentSha": "vYDc7rIIOaJ21M2TH2vP7SSB7qOjoGmgc4u0PHPtPKE=",
     "SectionType": "",
@@ -776,24 +707,11 @@
     "EndLine": 0,
     "Translation": "\n헤더를 포함할 수 있습니다:",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "oedKFnuroJHVTMKvyuGPzLFNFRu64/nl6kiep7gHZtA=",
-        "originContent": "You can include headers:",
-        "translatedContent": "헤더를 포함할 수 있습니다:"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 14,
+    "Id": 17,
     "Content": "```\n$ igcc\n[1]> #include <vector>\n[2]> std::vector<int> xs{1,2,3};\n[3]> xs.push_back(17);\n[4]> .m\n... for (auto x : xs) {\n...   std::cout << x << \" \";\n... }\n... .m\n1 2 3 17\n```",
     "ContentSha": "2FFhrH063OH79b/Z6aSWQvb30RcOToalAaIwv5tIFQw=",
     "SectionType": "",
@@ -801,84 +719,11 @@
     "EndLine": 0,
     "Translation": "```\n$ igcc\n[1]> #include <vector>\n[2]> std::vector<int> xs{1,2,3};\n[3]> xs.push_back(17);\n[4]> .m\n... for (auto x : xs) {\n...   std::cout << x << \" \";\n... }\n... .m\n1 2 3 17\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "snoMI32bgVfCuY3irny2FgziV9nVnTIBCQwzsOBG8jI=",
-        "originContent": "$ igcc",
-        "translatedContent": "$ igcc"
-      },
-      {
-        "row": 3,
-        "rowsha": "eiqmyzfvY4WUJ7ltqCoeaNln5aKhg1aQz+NQtSWyOUs=",
-        "originContent": "[1]> #include <vector>",
-        "translatedContent": "[1]> #include <vector>"
-      },
-      {
-        "row": 4,
-        "rowsha": "E7Fe/sdBlaVI788+q04X/Yfnn5wgPrDux1x2XhoFQDw=",
-        "originContent": "[2]> std::vector<int> xs{1,2,3};",
-        "translatedContent": "[2]> std::vector<int> xs{1,2,3};"
-      },
-      {
-        "row": 5,
-        "rowsha": "SNBPoIyStuPLMKC5ZeL0v7sjSJ2PkS2CPmv0rtM5E0g=",
-        "originContent": "[3]> xs.push_back(17);",
-        "translatedContent": "[3]> xs.push_back(17);"
-      },
-      {
-        "row": 6,
-        "rowsha": "wPxTo/PWQhwVo0T3oTjn9LBF6qsJ62ZbXRajMOTdjT0=",
-        "originContent": "[4]> .m",
-        "translatedContent": "[4]> .m"
-      },
-      {
-        "row": 7,
-        "rowsha": "k33tfD/Fh+gro3MCczk78RxALfn6Y5Fxqb5fOCrI6gw=",
-        "originContent": "... for (auto x : xs) {",
-        "translatedContent": "... for (auto x : xs) {"
-      },
-      {
-        "row": 8,
-        "rowsha": "Imjg7+e5btcURxvNaBopTRQHnfPeeDFaQfnEF/u4E5g=",
-        "originContent": "...   std::cout << x << \" \";",
-        "translatedContent": "...   std::cout << x << \" \";"
-      },
-      {
-        "row": 9,
-        "rowsha": "ZfPoLmmEKyxSdaCYJboQRV73y8nYeRX0JjPajn81ubs=",
-        "originContent": "... }",
-        "translatedContent": "... }"
-      },
-      {
-        "row": 10,
-        "rowsha": "qR6Iniv2sLPHlUOdS9ePZAGievTQYaUOWvh8YoLeh5w=",
-        "originContent": "... .m",
-        "translatedContent": "... .m"
-      },
-      {
-        "row": 11,
-        "rowsha": "CjZVVlk224VLrbi/pqaPAzjvYhZLPITozKXCpNbqJUc=",
-        "originContent": "1 2 3 17",
-        "translatedContent": "1 2 3 17"
-      },
-      {
-        "row": 12,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 15,
+    "Id": 18,
     "Content": "\nLibs can be linked:",
     "ContentSha": "qgpR1nF+n65i1eC9sSwzxIHg9OYS0ri6SSTqzcm/0kY=",
     "SectionType": "",
@@ -886,24 +731,11 @@
     "EndLine": 0,
     "Translation": "\n라이브러리를 연결할 수 있습니다:",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "9BAsz3CYwsWdQKLugDgGqU3eg4684Ud3BZAVl1492N0=",
-        "originContent": "Libs can be linked:",
-        "translatedContent": "라이브러리를 연결할 수 있습니다:"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 16,
+    "Id": 19,
     "Content": "```\n$ igcc -lpthread\n[  1]> #include <pthread.h>\n[  2]> pthread_t thr;\n[  3]> const char* msg = \"Hello, World!\";\n[  4]> // assuming print_msg is defined somewhere\n[  5]> int ret = pthread_create(&thr, NULL, print_msg, (void*) msg); pthread_join(thr, NULL);\nHello, World!\n```",
     "ContentSha": "wS/oQRWWcrq1bt/fVXW+B/rsQ/lTyFkeoMQUbfiMhHw=",
     "SectionType": "",
@@ -911,66 +743,11 @@
     "EndLine": 0,
     "Translation": "```\n$ igcc -lpthread\n[  1]> #include <pthread.h>\n[  2]> pthread_t thr;\n[  3]> const char* msg = \"Hello, World!\";\n[  4]> // assuming print_msg is defined somewhere\n[  5]> int ret = pthread_create(&thr, NULL, print_msg, (void*) msg); pthread_join(thr, NULL);\nHello, World!\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "/Lqtmni0DkQUCp97fvMO7ojE9jDIbXu6HCTWJug++hk=",
-        "originContent": "$ igcc -lpthread",
-        "translatedContent": "$ igcc -lpthread"
-      },
-      {
-        "row": 3,
-        "rowsha": "Mxt7d4xho88BM6wVshR5kKkZ4uCVxRtEX1qb/4lbAo0=",
-        "originContent": "[  1]> #include <pthread.h>",
-        "translatedContent": "[  1]> #include <pthread.h>"
-      },
-      {
-        "row": 4,
-        "rowsha": "VX8EKr+zKb7xh+/XZraU/UruCRZfzJrZfENCoOM5rI8=",
-        "originContent": "[  2]> pthread_t thr;",
-        "translatedContent": "[  2]> pthread_t thr;"
-      },
-      {
-        "row": 5,
-        "rowsha": "kEhn1BCCNcUgYgBFJUqy+AAKrOkDMC0az4TVGKAOCaA=",
-        "originContent": "[  3]> const char* msg = \"Hello, World!\";",
-        "translatedContent": "[  3]> const char* msg = \"Hello, World!\";"
-      },
-      {
-        "row": 6,
-        "rowsha": "CG9yTNzERyzAClMWGakPUOQDqbX3s3UcK15rpCFCHuQ=",
-        "originContent": "[  4]> // assuming print_msg is defined somewhere",
-        "translatedContent": "[  4]> // assuming print_msg is defined somewhere"
-      },
-      {
-        "row": 7,
-        "rowsha": "5kIGeVdoHNS4A6T+sCTDTwAaJ9qGDeMkh2isGfm/nVk=",
-        "originContent": "[  5]> int ret = pthread_create(&thr, NULL, print_msg, (void*) msg); pthread_join(thr, NULL);",
-        "translatedContent": "[  5]> int ret = pthread_create(&thr, NULL, print_msg, (void*) msg); pthread_join(thr, NULL);"
-      },
-      {
-        "row": 8,
-        "rowsha": "3/1gIbsr1bCvZ2KQgJ7DpTGR3YHH9wpLKGiKNiGCmG8=",
-        "originContent": "Hello, World!",
-        "translatedContent": "Hello, World!"
-      },
-      {
-        "row": 9,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 17,
+    "Id": 20,
     "Content": "\nYou can also **undo** commands:",
     "ContentSha": "yCdy54UNJLrAAqbiVxg0LogFyaXvn2W6P89uMWPRbRA=",
     "SectionType": "",
@@ -978,24 +755,11 @@
     "EndLine": 0,
     "Translation": "명령을 **실행 취소**할 수도 있습니다:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "명령을 **실행 취소**할 수도 있습니다:"
-      },
-      {
-        "row": 2,
-        "rowsha": "tEWM0AcCBAzkF9R4MUlvt3ia98ZjW/vJ634WWZFlRLs=",
-        "originContent": "You can also **undo** commands:",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 18,
+    "Id": 21,
     "Content": "```\n$ igcc\n[1]> int x = 2\n Compile error - type .e to see it\n\n[2]> .e\n<stdin>: In function ‘int main()’:\n<stdin>:7:5: error: expected ‘,’ or ‘;’ before ‘return’\n<stdin>:5:9: warning: unused variable ‘x’ [-Wunused-variable]\n\n[2]> .u\nUndone `int x = 2`\n[1]> int x = 2;\n[2]> .L\n#include \"boilerplate.h\"\n\n\nint main(void) {\n    int x = 2;\n\n    return 0;\n}\n```",
     "ContentSha": "Unphks/aXd1Tjif9zh+UIX17qeEgyFeuzlrYjRMKVuY=",
     "SectionType": "",
@@ -1003,150 +767,11 @@
     "EndLine": 0,
     "Translation": "```\n$ igcc\n[1]> int x = 2\n Compile error - type .e to see it\n\n[2]> .e\n<stdin>: In function ‘int main()’:\n<stdin>:7:5: error: expected ‘,’ or ‘;’ before ‘return’\n<stdin>:5:9: warning: unused variable ‘x’ [-Wunused-variable]\n\n[2]> .u\nUndone `int x = 2`\n[1]> int x = 2;\n[2]> .L\n#include \"boilerplate.h\"\n\n\nint main(void) {\n    int x = 2;\n\n    return 0;\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "snoMI32bgVfCuY3irny2FgziV9nVnTIBCQwzsOBG8jI=",
-        "originContent": "$ igcc",
-        "translatedContent": "$ igcc"
-      },
-      {
-        "row": 3,
-        "rowsha": "YQbm5jyeJBuL9l3qyVCtxk7F4c8bW3J7/XQYnff1rOI=",
-        "originContent": "[1]> int x = 2",
-        "translatedContent": "[1]> int x = 2"
-      },
-      {
-        "row": 4,
-        "rowsha": "vCv358pGlQl+1Au5PIs+V+4D7/8IL4ozPcUDyq2ebbc=",
-        "originContent": " Compile error - type .e to see it",
-        "translatedContent": " Compile error - type .e to see it"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "gSQzLK+B4A1+UssZYgFiUYSItcmusq05xCfDw0bATes=",
-        "originContent": "[2]> .e",
-        "translatedContent": "[2]> .e"
-      },
-      {
-        "row": 7,
-        "rowsha": "vEGm4SsYaMmDmF7z+p9liwbWiHb59x/PerjBE3pdDYc=",
-        "originContent": "<stdin>: In function ‘int main()’:",
-        "translatedContent": "<stdin>: In function ‘int main()’:"
-      },
-      {
-        "row": 8,
-        "rowsha": "FMWTNy1mifalWx9/BPhYkCtgqWRl1bJt2V/R+oWCHK4=",
-        "originContent": "<stdin>:7:5: error: expected ‘,’ or ‘;’ before ‘return’",
-        "translatedContent": "<stdin>:7:5: error: expected ‘,’ or ‘;’ before ‘return’"
-      },
-      {
-        "row": 9,
-        "rowsha": "iVZ5God0P6UQ226ME8NKX2MzCc6Z1fAj84h6H8XL5r4=",
-        "originContent": "<stdin>:5:9: warning: unused variable ‘x’ [-Wunused-variable]",
-        "translatedContent": "<stdin>:5:9: warning: unused variable ‘x’ [-Wunused-variable]"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "mZgSptvk25sn4uvWDd56RwCs9uxbP7YFFb6Fy+qzZ8o=",
-        "originContent": "[2]> .u",
-        "translatedContent": "[2]> .u"
-      },
-      {
-        "row": 12,
-        "rowsha": "FTBOki0IJuTH3EKt/WO+8OL/Mz5v5CyqjWt0MG/t/2I=",
-        "originContent": "Undone `int x = 2`",
-        "translatedContent": "Undone `int x = 2`"
-      },
-      {
-        "row": 13,
-        "rowsha": "JKODK34uSOcW6SMsV3+5vGKNeoUfe1dxP9Attnn0K9Q=",
-        "originContent": "[1]> int x = 2;",
-        "translatedContent": "[1]> int x = 2;"
-      },
-      {
-        "row": 14,
-        "rowsha": "Jc/6cb+VqZa0PHniRyQzvxemWUIokP1tra8wmf4yYrM=",
-        "originContent": "[2]> .L",
-        "translatedContent": "[2]> .L"
-      },
-      {
-        "row": 15,
-        "rowsha": "Ch7cOBCcWeyK3nrIog2cAOvB2kZYhEzXCCH7aDikcLE=",
-        "originContent": "#include \"boilerplate.h\"",
-        "translatedContent": "#include \"boilerplate.h\""
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "ZdvaltFWLuX62mES9DiqKfST5pE/z+cly/BO4RSR5QA=",
-        "originContent": "int main(void) {",
-        "translatedContent": "int main(void) {"
-      },
-      {
-        "row": 19,
-        "rowsha": "6R8PPsq+u7rGqK6PGfkIUDRh+wc71YLal8tKgPr+cQg=",
-        "originContent": "    int x = 2;",
-        "translatedContent": "    int x = 2;"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "8pHc/FvRZDBIWcWWwH1A5WovfJ9PNWM+KWmFZTQ5CMc=",
-        "originContent": "    return 0;",
-        "translatedContent": "    return 0;"
-      },
-      {
-        "row": 22,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 23,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 19,
+    "Id": 22,
     "Content": "\n... or **redo** previously undone commands:",
     "ContentSha": "t91/S2tLpBT4Q4LiN3fgQ6tJQwM1azvq0uRv9gEQPYE=",
     "SectionType": "",
@@ -1154,24 +779,11 @@
     "EndLine": 0,
     "Translation": "\n... 또는 이전에 취소한 명령을 **다시 실행**합니다:",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "wCsAI183GQYhBIs8T6wY3Q+vNzQzb825zrvy5ZYDEFs=",
-        "originContent": "... or **redo** previously undone commands:",
-        "translatedContent": "... 또는 이전에 취소한 명령을 **다시 실행**합니다:"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 20,
+    "Id": 23,
     "Content": "```\n$ igcc\n[1]> int x = 2;\n[2]> std::cout << x;\n2\n[3]> .u\nUndone `std::cout << x;`\n[2]> .L\n#include \"boilerplate.h\"\n\n\nint main(void) {\n    int x = 2;\n\n    return 0;\n}\n[2]> .r\nRedone `std::cout << x;`\n2\n[3]> .L\n#include \"boilerplate.h\"\n\n\nint main(void) {\n    int x = 2;\n    std::cout << x;\n\n    return 0;\n}\n```",
     "ContentSha": "xJoPmZjJf0OWbhsnuAC4R3ubrwwFeMj5vEwqszTiWH8=",
     "SectionType": "",
@@ -1179,192 +791,11 @@
     "EndLine": 0,
     "Translation": "```\n$ igcc\n[1]> int x = 2;\n[2]> std::cout << x;\n2\n[3]> .u\nUndone `std::cout << x;`\n[2]> .L\n#include \"boilerplate.h\"\n\n\nint main(void) {\n    int x = 2;\n\n    return 0;\n}\n[2]> .r\nRedone `std::cout << x;`\n2\n[3]> .L\n#include \"boilerplate.h\"\n\n\nint main(void) {\n    int x = 2;\n    std::cout << x;\n\n    return 0;\n}\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      },
-      {
-        "row": 2,
-        "rowsha": "snoMI32bgVfCuY3irny2FgziV9nVnTIBCQwzsOBG8jI=",
-        "originContent": "$ igcc",
-        "translatedContent": "$ igcc"
-      },
-      {
-        "row": 3,
-        "rowsha": "JKODK34uSOcW6SMsV3+5vGKNeoUfe1dxP9Attnn0K9Q=",
-        "originContent": "[1]> int x = 2;",
-        "translatedContent": "[1]> int x = 2;"
-      },
-      {
-        "row": 4,
-        "rowsha": "Zhi4BeelY2Vg3o8Gy4chHFJqnF8xERuvp251e6cMv/o=",
-        "originContent": "[2]> std::cout << x;",
-        "translatedContent": "[2]> std::cout << x;"
-      },
-      {
-        "row": 5,
-        "rowsha": "1HNeOiZeFu7gP1lxi5tdAwGcB9i2xR+Q2jpmbuwTqzU=",
-        "originContent": "2",
-        "translatedContent": "2"
-      },
-      {
-        "row": 6,
-        "rowsha": "pB25K7Ik8QaJWYYGfa+G2jcGwqQqEyT5xiPzA0T4ifw=",
-        "originContent": "[3]> .u",
-        "translatedContent": "[3]> .u"
-      },
-      {
-        "row": 7,
-        "rowsha": "DRRyTDTCdYg314lEAwy0lYMm1bxn18VXTgsPn/499rE=",
-        "originContent": "Undone `std::cout << x;`",
-        "translatedContent": "Undone `std::cout << x;`"
-      },
-      {
-        "row": 8,
-        "rowsha": "Jc/6cb+VqZa0PHniRyQzvxemWUIokP1tra8wmf4yYrM=",
-        "originContent": "[2]> .L",
-        "translatedContent": "[2]> .L"
-      },
-      {
-        "row": 9,
-        "rowsha": "Ch7cOBCcWeyK3nrIog2cAOvB2kZYhEzXCCH7aDikcLE=",
-        "originContent": "#include \"boilerplate.h\"",
-        "translatedContent": "#include \"boilerplate.h\""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "ZdvaltFWLuX62mES9DiqKfST5pE/z+cly/BO4RSR5QA=",
-        "originContent": "int main(void) {",
-        "translatedContent": "int main(void) {"
-      },
-      {
-        "row": 13,
-        "rowsha": "6R8PPsq+u7rGqK6PGfkIUDRh+wc71YLal8tKgPr+cQg=",
-        "originContent": "    int x = 2;",
-        "translatedContent": "    int x = 2;"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "8pHc/FvRZDBIWcWWwH1A5WovfJ9PNWM+KWmFZTQ5CMc=",
-        "originContent": "    return 0;",
-        "translatedContent": "    return 0;"
-      },
-      {
-        "row": 16,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 17,
-        "rowsha": "QZc4fpP4WywhvD2J4Di3OMSKiNQJvSOoqy3ps2ARnE0=",
-        "originContent": "[2]> .r",
-        "translatedContent": "[2]> .r"
-      },
-      {
-        "row": 18,
-        "rowsha": "OgC+Eo7H4INq4d/2AYtDTZmobZu+t3TdSNp7GBiNwa8=",
-        "originContent": "Redone `std::cout << x;`",
-        "translatedContent": "Redone `std::cout << x;`"
-      },
-      {
-        "row": 19,
-        "rowsha": "1HNeOiZeFu7gP1lxi5tdAwGcB9i2xR+Q2jpmbuwTqzU=",
-        "originContent": "2",
-        "translatedContent": "2"
-      },
-      {
-        "row": 20,
-        "rowsha": "Vw8elOXiPgobjfHMMTFlllwKbDpYDEzUn0IMwY3zgR4=",
-        "originContent": "[3]> .L",
-        "translatedContent": "[3]> .L"
-      },
-      {
-        "row": 21,
-        "rowsha": "Ch7cOBCcWeyK3nrIog2cAOvB2kZYhEzXCCH7aDikcLE=",
-        "originContent": "#include \"boilerplate.h\"",
-        "translatedContent": "#include \"boilerplate.h\""
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "ZdvaltFWLuX62mES9DiqKfST5pE/z+cly/BO4RSR5QA=",
-        "originContent": "int main(void) {",
-        "translatedContent": "int main(void) {"
-      },
-      {
-        "row": 25,
-        "rowsha": "6R8PPsq+u7rGqK6PGfkIUDRh+wc71YLal8tKgPr+cQg=",
-        "originContent": "    int x = 2;",
-        "translatedContent": "    int x = 2;"
-      },
-      {
-        "row": 26,
-        "rowsha": "fiKWSeJTtKcL1D7/fii0ePcpLRKIhjGyB00u1rAORV0=",
-        "originContent": "    std::cout << x;",
-        "translatedContent": "    std::cout << x;"
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "8pHc/FvRZDBIWcWWwH1A5WovfJ9PNWM+KWmFZTQ5CMc=",
-        "originContent": "    return 0;",
-        "translatedContent": "    return 0;"
-      },
-      {
-        "row": 29,
-        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
-        "originContent": "}",
-        "translatedContent": "}"
-      },
-      {
-        "row": 30,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 21,
+    "Id": 24,
     "Content": "\n## Future work\nSee https://github.com/alexandru-dinu/igcc/issues\n\n## Similar projects\n- https://github.com/BenBrock/reple: \"Replay-based\" REPLs for compiled languages\n- https://github.com/root-project/cling: The cling C++ interpreter\n\n\n## Credits\n- [IGCC home page](http://www.artificialworlds.net/wiki/IGCC/IGCC)\n- [IGCC Sourceforge page](http://sourceforge.net/projects/igcc/)\n- [Andy Balaam's home page](http://www.artificialworlds.net)\n- [Andy Balaam's blog](http://www.artificialworlds.net/blog)\n- Andy Balaam may be contacted on axis3x3 at users dot sourceforge dot net\n- IGCC is Copyright (C) 2009 Andy Balaam\n- IGCC is Free Software released under the terms of the GNU General Public License version 3\n- IGCC comes with NO WARRANTY\n",
     "ContentSha": "F1KZLmz761cfOKcv8wlyVmUDEECFt51v1qy/1fPk81k=",
     "SectionType": "",
@@ -1372,122 +803,7 @@
     "EndLine": 0,
     "Translation": "## 향후 작업\nhttps://github.com/alexandru-dinu/igcc/issues 를 참조하세요\n\n## 유사 프로젝트\n- https://github.com/BenBrock/reple: 컴파일된 언어용 \"리플레이 기반\" REPL\n- https://github.com/root-project/cling: cling C++ 인터프리터\n\n\n## 크레딧\n- [IGCC 홈 페이지](http://www.artificialworlds.net/wiki/IGCC/IGCC)\n- [IGCC 소스포지 페이지](http://sourceforge.net/projects/igcc/)\n- [Andy Balaam의 홈 페이지](http://www.artificialworlds.net)\n- [Andy Balaam의 블로그](http://www.artificialworlds.net/blog)\n- Andy Balaam는 axis3x3 at users dot sourceforge dot net에서 연락할 수 있습니다\n- IGCC는 2009년 Andy Balaam의 저작권입니다\n- IGCC는 GNU 일반 공중 사용 허가서 버전 3 조항에 따라 배포되는 자유 소프트웨어입니다\n- IGCC는 보증이 없습니다\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 향후 작업"
-      },
-      {
-        "row": 2,
-        "rowsha": "3r+SHO9nyuxjZNjMphMYKGMrE7ts01IBqmhKmlki7wk=",
-        "originContent": "## Future work",
-        "translatedContent": "https://github.com/alexandru-dinu/igcc/issues 를 참조하세요"
-      },
-      {
-        "row": 3,
-        "rowsha": "vJclTWxMoHJ5kUtqTmD69WtlWsVCYmu1fndCgk/ORSI=",
-        "originContent": "See https://github.com/alexandru-dinu/igcc/issues",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 유사 프로젝트"
-      },
-      {
-        "row": 5,
-        "rowsha": "wBn+tp5rOeBG2NIs6oEL1suWkw1GUBdDNXH0fvs+gqI=",
-        "originContent": "## Similar projects",
-        "translatedContent": "- https://github.com/BenBrock/reple: 컴파일된 언어용 \"리플레이 기반\" REPL"
-      },
-      {
-        "row": 6,
-        "rowsha": "48qFgl6oeLPlYneytIcWt0dxFUOty95Q2xgshSKEG40=",
-        "originContent": "- https://github.com/BenBrock/reple: \"Replay-based\" REPLs for compiled languages",
-        "translatedContent": "- https://github.com/root-project/cling: cling C++ 인터프리터"
-      },
-      {
-        "row": 7,
-        "rowsha": "OzH0Q7enrRlcmCqkxTahEk6nKNfpIJjQCzHbsXMPBPc=",
-        "originContent": "- https://github.com/root-project/cling: The cling C++ interpreter",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 크레딧"
-      },
-      {
-        "row": 10,
-        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
-        "originContent": "## Credits",
-        "translatedContent": "- [IGCC 홈 페이지](http://www.artificialworlds.net/wiki/IGCC/IGCC)"
-      },
-      {
-        "row": 11,
-        "rowsha": "nlIvFDG0m4WgwTrfFy9VF3MSL+f8cC2s0l9A+ga+7o0=",
-        "originContent": "- [IGCC home page](http://www.artificialworlds.net/wiki/IGCC/IGCC)",
-        "translatedContent": "- [IGCC 소스포지 페이지](http://sourceforge.net/projects/igcc/)"
-      },
-      {
-        "row": 12,
-        "rowsha": "T6BFvbEBa/+v6OWfyqWw+mbEukSfUjUf6nO9Ba5xdRA=",
-        "originContent": "- [IGCC Sourceforge page](http://sourceforge.net/projects/igcc/)",
-        "translatedContent": "- [Andy Balaam의 홈 페이지](http://www.artificialworlds.net)"
-      },
-      {
-        "row": 13,
-        "rowsha": "JNQJTDKkE3QYzsR00x9yO4guzuIWeWu0+9hMIso5Tos=",
-        "originContent": "- [Andy Balaam's home page](http://www.artificialworlds.net)",
-        "translatedContent": "- [Andy Balaam의 블로그](http://www.artificialworlds.net/blog)"
-      },
-      {
-        "row": 14,
-        "rowsha": "fAhwxhiGBS93pPJT2JkhIjCjxoXAg8T+LFejquXRapY=",
-        "originContent": "- [Andy Balaam's blog](http://www.artificialworlds.net/blog)",
-        "translatedContent": "- Andy Balaam는 axis3x3 at users dot sourceforge dot net에서 연락할 수 있습니다"
-      },
-      {
-        "row": 15,
-        "rowsha": "pwJxvRnh2PM3JDvD1dr3fwi0qE4s63u9prj70BcNqX0=",
-        "originContent": "- Andy Balaam may be contacted on axis3x3 at users dot sourceforge dot net",
-        "translatedContent": "- IGCC는 2009년 Andy Balaam의 저작권입니다"
-      },
-      {
-        "row": 16,
-        "rowsha": "2AAIMpajFPUMQ5QJKwWAdnOfz2pHurS9SgqX6vnPfl8=",
-        "originContent": "- IGCC is Copyright (C) 2009 Andy Balaam",
-        "translatedContent": "- IGCC는 GNU 일반 공중 사용 허가서 버전 3 조항에 따라 배포되는 자유 소프트웨어입니다"
-      },
-      {
-        "row": 17,
-        "rowsha": "+56n+mr9ry9xMKsgkRTezEDl0iGouGZ+rVS3uBcWIBo=",
-        "originContent": "- IGCC is Free Software released under the terms of the GNU General Public License version 3",
-        "translatedContent": "- IGCC는 보증이 없습니다"
-      },
-      {
-        "row": 18,
-        "rowsha": "opw8/eSD5Wp/WDA8cAlQJVRP1Eal5RRA3l+1G8WhVgA=",
-        "originContent": "- IGCC comes with NO WARRANTY",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

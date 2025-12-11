@@ -1,31 +1,63 @@
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=ErwindeGelder&project=matplot2tikz&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # matplot2tikz
-之前名为 <em>tikzplotlib</em> 的工具。
+前称 <em>tikzplotlib</em>。
 
 ![PyPI - Version](https://img.shields.io/pypi/v/matplot2tikz)
 ![GitHub License](https://img.shields.io/github/license/ErwindeGelder/matplot2tikz)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/matplot2tikz)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/)
+
 [![codecov](https://codecov.io/gh/ErwindeGelder/matplot2tikz/graph/badge.svg?token=YE2VNWL9HI)](https://codecov.io/gh/ErwindeGelder/matplot2tikz)
 [![PyPI Downloads](https://static.pepy.tech/badge/matplot2tikz/month)](https://pepy.tech/projects/matplot2tikz)
 
 这是 matplot2tikz，一个用于将 matplotlib 图形转换为
 [PGFPlots](https://www.ctan.org/pkg/pgfplots)（[PGF/TikZ](https://www.ctan.org/pkg/pgf)）
-图形的 Python 工具，如下图所示
+图形的 Python 工具，例如
 
 ![](https://raw.githubusercontent.com/ErwindeGelder/matplot2tikz/refs/heads/main/example.png)
 
-以便原生地包含到 LaTeX 或 ConTeXt 文档中。
+可以原生嵌入到 LaTeX 或 ConTeXt 文档中。
 
-matplot2tikz 的输出格式是 [PGFPlots](https://github.com/pgf-tikz/pgfplots/)，这是一个 TeX
-库，基于 [PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ) 之上，
+matplot2tikz 的输出采用 [PGFPlots](https://github.com/pgf-tikz/pgfplots/)，它是一个 TeX
+库，构建在 [PGF/TikZ](https://en.wikipedia.org/wiki/PGF/TikZ) 之上，
 以坐标轴、数据等方式描述图形。因此，matplot2tikz 的输出
 
--   保留更多信息，
--   更易理解，
--   更易编辑
+-   保留了更多信息，
+-   更容易被理解，并且
+-   更方便编辑
 
-相比于 [原始 TikZ 输出](https://matplotlib.org/users/whats_new.html#pgf-tikz-backend)。
+相比于[原始 TikZ 输出](https://matplotlib.org/users/whats_new.html#pgf-tikz-backend)。
 例如，matplotlib 图形
 
 ```python
@@ -259,6 +291,6 @@ matplot2tikz 以 [MIT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-02
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
 
 ---

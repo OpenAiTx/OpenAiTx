@@ -1,0 +1,530 @@
+[
+  {
+    "row": 1,
+    "rowsha": "32z/LerHCytB5Yb6iduCwwwrqaqeT7zFLwUqt2LEz2o=",
+    "originContent": "## ... porting OpenFIRE-Boards for EPS32",
+    "translatedContent": "## ... 为EPS32移植OpenFIRE-Boards"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "Cb6cI98hGNH0Axz7wPIVQU9+BFUE/xdUNhPOQFru0kE=",
+    "originContent": "Questo repository è un porting del progetto originale 'OpenFIRE-Boards' del TeamOpenFIRE, adattato per funzionare sul microcontrollore ESP32S3.",
+    "translatedContent": "本仓库是TeamOpenFIRE原创项目“OpenFIRE-Boards”的移植版本，适配于ESP32S3微控制器。"
+  },
+  {
+    "row": 4,
+    "rowsha": "5ERp1tKD2DOit5CtksM3WV7pb8WeSYB0SToeuLgbN4o=",
+    "originContent": "Salvo alcuni adattamenti e piccole modifiche, il codice rimane sostanzialmente fedele all'originale del TeamOpenFIRE.",
+    "translatedContent": "除了一些适配和小幅修改外，代码基本保持与TeamOpenFIRE原版一致。"
+  },
+  {
+    "row": 5,
+    "rowsha": "mOUKT8e3GL9N9NjQpROEHK/RgMLnXvbWpcUQ9JFAkHA=",
+    "originContent": "Il codice di questo repository funziona anche sul microcontrollore RP2040.",
+    "translatedContent": "本仓库中的代码也可在RP2040微控制器上运行。"
+  },
+  {
+    "row": 6,
+    "rowsha": "f5pji4L8gPBaw8llEYWY0lxPokNRSL1MStADZVxeBzc=",
+    "originContent": "Ogni volta che verranno apportate modifiche al progetto originale 'OpenFIRE-Boards' del TeamOpenFIRE, aggiornerò di conseguenza anche il codice di questo repository.",
+    "translatedContent": "每当TeamOpenFIRE对“OpenFIRE-Boards”原项目做出修改时，我也会相应更新本仓库中的代码。"
+  },
+  {
+    "row": 7,
+    "rowsha": "7TcHSGb/k94TmvMA2bs69uS+eoo7XffB2R78UPRnNeA=",
+    "originContent": "Ringrazio di cuore il TeamOpenFIRE per la creazione del progetto 'OpenFIRE-Boards': a loro vanno tutti i meriti e la mia piena gratitudine.",
+    "translatedContent": "衷心感谢TeamOpenFIRE创建了“OpenFIRE-Boards”项目；所有荣誉和感谢都归于他们的付出。"
+  },
+  {
+    "row": 8,
+    "rowsha": "pQKHWUMAW341xV33TUDGAg49fsy6y5kMFJlfjbRQXdc=",
+    "originContent": "Questo è semplicemente un adattamento per il funzionamento su ESP32S3.",
+    "translatedContent": "这仅仅是为了在ESP32S3上运行所做的适配。"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "KBUhJ+0qBTek4jSBuXA6uUux3/UurqWBX6KQGvhhEkY=",
+    "originContent": "This repository is a porting of the original 'OpenFIRE-Boards' project by TeamOpenFIRE, adapted to work on the ESP32S3 microcontroller.",
+    "translatedContent": "本仓库是TeamOpenFIRE原创项目“OpenFIRE-Boards”的移植版本，适配于ESP32S3微控制器。"
+  },
+  {
+    "row": 12,
+    "rowsha": "jp8eT4t7230zCS1i0uBfmgkOQrE3Oi+mnTLVrZQuZis=",
+    "originContent": "Apart from some adaptations and minor adjustments, the code remains largely faithful to the original by TeamOpenFIRE.",
+    "translatedContent": "除了一些适配和小幅调整外，代码基本保持与TeamOpenFIRE原版一致。"
+  },
+  {
+    "row": 13,
+    "rowsha": "RixbHMq+XWmNYvMIz15tLivffQ0vpcu44V59wwUfiiA=",
+    "originContent": "The code in this repository also works on the RP2040 microcontroller.",
+    "translatedContent": "本仓库中的代码也可在RP2040微控制器上运行。"
+  },
+  {
+    "row": 14,
+    "rowsha": "Z4VXjI1efa+MbQ+TQlkEcRcHTUvp+mqJXTisyqVeGQM=",
+    "originContent": "Whenever changes are made to the original 'OpenFIRE-Boards' project by TeamOpenFIRE, I will update the code in this repository accordingly.",
+    "translatedContent": "每当TeamOpenFIRE对“OpenFIRE-Boards”原项目做出修改时，我也会相应更新本仓库中的代码。"
+  },
+  {
+    "row": 15,
+    "rowsha": "ZuvWyQnOO5o+CGAgANSC9/t51YjxBq4NCj/rUybvx7k=",
+    "originContent": "I sincerely thank TeamOpenFIRE for creating the 'OpenFIRE-Boards' project; all credit and gratitude go to them for their work.",
+    "translatedContent": "衷心感谢TeamOpenFIRE创建了“OpenFIRE-Boards”项目；所有荣誉和感谢都归于他们的付出。"
+  },
+  {
+    "row": 16,
+    "rowsha": "ImMeolZo4bok99WGphd+h1Sw5vmTpqpRMmRTVZ7Etw4=",
+    "originContent": "This is simply an adaptation to make it work on ESP32S3.",
+    "translatedContent": "这仅仅是为了在ESP32S3上运行所做的适配。"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "uHVY6ODjGPVv2YkrZNRr3ucb0yS30TP26ZbLUKoWExo=",
+    "originContent": "![Waveshare-esp32-s3-pico](https://github.com/user-attachments/assets/2ce848f3-f308-43cc-b753-3b1dac1647e4)",
+    "translatedContent": "![Waveshare-esp32-s3-pico](https://github.com/user-attachments/assets/2ce848f3-f308-43cc-b753-3b1dac1647e4)"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "LTkGnI0DAYo604aeenEq6akMnMpSTMwxp2gpUMZ9K7Q=",
+    "originContent": "![YD-esp32-s3-wroom1-DevKitC-1-N16R8](https://github.com/user-attachments/assets/080baf9b-f050-4b3e-ba59-4fb4aa784909)",
+    "translatedContent": "![YD-esp32-s3-wroom1-DevKitC-1-N16R8](https://github.com/user-attachments/assets/080baf9b-f050-4b3e-ba59-4fb4aa784909)"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "ppb7YxtaLXNvjLzjJbSap3bP5AIB8rf6jWB0FTDiDIU=",
+    "originContent": "## ... segue la pagina originale del progetto",
+    "translatedContent": "## ... 以下为项目原始页面"
+  },
+  {
+    "row": 24,
+    "rowsha": "6YNPh3Kl3pAz867qb6jljQtNy+IxsGcoly8pN0leXcw=",
+    "originContent": "## ... follows the original project page",
+    "translatedContent": "## ... follows the original project page"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "H1bD3IE5xwHfwDTnI/PbGa0ZYx60ZLqC9yfmY7kBUs0=",
+    "originContent": "# OpenFIRE-Boards",
+    "translatedContent": "# OpenFIRE-Boards"
+  },
+  {
+    "row": 27,
+    "rowsha": "02N4FHNFSb+0zm+qBd63mX3XvLaYYSbUUaps3keuWCg=",
+    "originContent": "Common repository of boards that are shared between OpenFIRE Firmware &amp; Desktop App",
+    "translatedContent": "OpenFIRE固件与桌面应用共用的开发板通用仓库"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "AsXIXulx9C+Fool2jhbd/+STtbE3G0+IdUXsEPS0ESs=",
+    "originContent": "# OpenFIRE Shared Resources",
+    "translatedContent": "# OpenFIRE共享资源"
+  },
+  {
+    "row": 30,
+    "rowsha": "OYIkR+tWqWRtm/Ermye47NWe9yr2H2IvGU/DukzXKWU=",
+    "originContent": "This repository contains resources that can be shared between implementations of the microcontroller Firmware and Applications intended to interface with and configure them on a PC device.",
+    "translatedContent": "本仓库包含可在微控制器固件实现与面向PC设备的接口和配置应用之间共享的资源。"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "fIiZuQwk0XODn9y9XpGeEf94dorUSv1HEEhCTydlp6s=",
+    "originContent": "## `OpenFIREshared.h`",
+    "translatedContent": "## `OpenFIREshared.h`"
+  },
+  {
+    "row": 33,
+    "rowsha": "j1MlnQgsZVfEFBAh2Se9nQiIF6Dqatz9lF7x0czBDM4=",
+    "originContent": "The top half of this file defines the following that are common in both Firmware and App implementations:",
+    "translatedContent": "此文件上半部分定义了固件和应用实现中共有的内容："
+  },
+  {
+    "row": 34,
+    "rowsha": "4hTdU7oE5ZvbjAga+bdpajkUFnnJ7HCSMGb83feCDtY=",
+    "originContent": " - Definitions of board names that the microcontroller will report on initial docking, as string literals.",
+    "translatedContent": " - 微控制器在首次对接时报告的开发板名称定义，作为字符串字面量。"
+  },
+  {
+    "row": 35,
+    "rowsha": "SuSrUL0Fl64T2nf8dYNUTl0DkJ9FfkK+D0UypJ8NSYc=",
+    "originContent": " - Enums of pin function types, toggles, settings, I2C devices and their settings, and commands used in serial communication between firmware and app.",
+    "translatedContent": " - 引脚功能类型、开关、设置、I2C设备及其设置，以及固件与应用串口通信中使用的命令的枚举。"
+  },
+  {
+    "row": 36,
+    "rowsha": "ZK+T4cHqhVPtSCT+LZJFvsNcmLgdyGH7p9veuB6+BpU=",
+    "originContent": " - Presets for defined boards that are loaded on bootup, and referenced by apps that show default board layouts.",
+    "translatedContent": " - 定义的开发板预设，在启动时加载，并被显示默认开发板布局的应用引用。"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "ftLVSyc40E91Z164f6H/BG9amtBd8vcGf9eZV27z770=",
+    "originContent": "Below the preprocessor check for `OF_APP` are 'pretty' strings for supported boards and pin functions, and board layouts that are used only by Desktop Apps to graphically represent GPIO pins for defined boards - showing where they should be rendered relative to a center-bound board vector, and alternative layouts for boards that the app should present as options to the user, if any.",
+    "translatedContent": "在`OF_APP`预处理器检查之后，是支持的开发板和引脚功能的“漂亮”字符串，以及仅被桌面应用用来图形化表示定义开发板GPIO引脚的布局——展示它们相对于以中心为基准的开发板向量应如何渲染，以及应用应向用户提供的该开发板的可选布局（如有）。"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "0T2JesTXY1CMFrA6QBOvO7sy8xB96Qk2YCSyV4WO+6w=",
+    "originContent": "### `boardPresetsMap`",
+    "translatedContent": "### `boardPresetsMap`"
+  },
+  {
+    "row": 41,
+    "rowsha": "/+hBKpSRGI0YkTaMpj1dqXNlkLXuv4vACi4GVdu1hqg=",
+    "originContent": "Supported boards should have a name that corresponds to the `OPENFIRE_BOARD` definition as defined at the top of the file, followed by a map of what function each GPIO should have as a default (this is loaded when `OF_Prefs::toggles[OF_Const::customPins]` is set as *true* in the board's current prefs). Each GPIO the microcontroller has should be represented here, with unmapped pins given `btnUnmapped` and pins that are either reserved or not exposed to the user to be given `unavailable`. RP2040 and RP235X-A boards should have thirty pins maximum - note that even if the `rpipico` only exposes around 26 pins, it still takes the hidden GPIO into consideration.",
+    "translatedContent": "支持的开发板应具有与文件顶部定义的 `OPENFIRE_BOARD` 定义对应的名称，后面跟着一个映射，说明每个 GPIO 默认应具有的功能（当板当前偏好设置中的 `OF_Prefs::toggles[OF_Const::customPins]` 设置为 *true* 时加载此映射）。微控制器拥有的每个 GPIO 都应在此处表示，未映射的引脚标记为 `btnUnmapped`，保留或不向用户暴露的引脚标记为 `unavailable`。RP2040 和 RP235X-A 开发板最多应有三十个引脚——注意，即使 `rpipico` 仅暴露大约 26 个引脚，仍会考虑隐藏的 GPIO。"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "a7jmKYVsjdBSJPltXj9ffZZ6kTWpKzkzwehkV8JHsF8=",
+    "originContent": "### `boardBoxPositions`",
+    "translatedContent": "### `boardBoxPositions`"
+  },
+  {
+    "row": 44,
+    "rowsha": "jStV3Tx2V+xy7rJ4XA5wFSFuk8bawKZY6V2Qb+AfdU4=",
+    "originContent": "Like `boardPresetsMap`, for each supported `OPENFIRE_BOARD`, this presents a map of roughly *where* each pin should be located in a Desktop App's graphical board view represented as a sum of two values - the left being the relative position as an positive integer starting from 1, and the right being an enum value of which side of the board the pin elements should be positioned by. Adding `posLeft`, `posRight`, and `posMiddle` will place this GPIO in the respective side of the board view, and adding `posNothing` (literally 0) will inform the app not to show this pin at all, which should be used for `unavailable` pins in `boardPresetsMap`. The amount of values should match the amount of GPIO as defined in the presets map.",
+    "translatedContent": "与 `boardPresetsMap` 类似，对于每个支持的 `OPENFIRE_BOARD`，此处提供一个映射，表示桌面应用程序图形化板视图中每个引脚大致的*位置*，用两个值的和表示——左边为从 1 开始的正整数相对位置，右边为枚举值，表示引脚元素应放置在板子的哪一侧。添加 `posLeft`、`posRight` 和 `posMiddle` 将把该 GPIO 放置在板视图的相应侧面，添加 `posNothing`（字面值为 0）将通知应用程序完全不显示该引脚，应对 `boardPresetsMap` 中的 `unavailable` 引脚使用。值的数量应与预设映射中定义的 GPIO 数量匹配。"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "bWojIJVMg5/QUZYbsE/12+26A9DoutZSLAZGL9lmDWY=",
+    "originContent": "### `boardsAltPresets`",
+    "translatedContent": "### `boardsAltPresets`"
+  },
+  {
+    "row": 47,
+    "rowsha": "Kuy8wddC1e9+sIwqgurZV57D3NFFhmBlMmppKc732xU=",
+    "originContent": "This is for optional alternative board presets, which are to be presented in a Board Layout view as a drop-down list of alt layout names. Each supported `OPENFIRE_BOARD` can be listed multiple times, one for each alt layout - the string after the board name indicating what label it should show in the interface, followed by a curly braced map of GPIO board functions indentically to `boardPresetsMap`; the same conventions and stipulations apply. This is primarily intended for matching the layout of adapter boards that use different suggested button mappings/wiring, such as `adafruitItsy`'s SAMCO 1.1 layout for those boards which has a different mapping from the default SAMCO 2.0 layout; also note that the current reference Desktop App supports exporting and importing custom layouts.",
+    "translatedContent": "这是用于可选的备用板预设，将在板布局视图中以下拉列表的形式显示备用布局名称。每个支持的 `OPENFIRE_BOARD` 可以列出多次，每个备用布局对应一次——板名后的字符串表示界面应显示的标签，后跟一个用大括号括起的 GPIO 板功能映射，与 `boardPresetsMap` 完全相同；相同的约定和限制适用。此功能主要用于匹配使用不同建议按钮映射/接线的适配器板的布局，例如 `adafruitItsy` 的 SAMCO 1.1 布局，该布局与默认的 SAMCO 2.0 布局映射不同；另外注意，当前参考桌面应用支持导出和导入自定义布局。"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "Fu61v4vwOfBbqabVOgFIAnCfwNdRzK4GHgt6nRCT1NA=",
+    "originContent": "## `boardPics/` - Board Vectors and Pin Highlights",
+    "translatedContent": "## `boardPics/` - 板矢量图和引脚高亮"
+  },
+  {
+    "row": 50,
+    "rowsha": "0VmTJtQifUtnXays9CA46ujZemMooY9oss5/0kzOEck=",
+    "originContent": "This is the repository of board vectors that Desktop Apps should use for Board Layout views to graphically represent the current board that's docked to the application. Board vectors should be exported as *Plain SVG* (or equivalent), and added to the `vectors.qrc` resource file, where the alias for each file should match the names as defined in `OpenFIREshared.h`'s `OPENFIRE_BOARD` string for the board.",
+    "translatedContent": "这是桌面应用应使用的板矢量图存储库，用于在板布局视图中图形化表示当前连接到应用程序的开发板。板矢量图应导出为*纯 SVG*（或等效格式），并添加到 `vectors.qrc` 资源文件中，每个文件的别名应与 `OpenFIREshared.h` 中 `OPENFIRE_BOARD` 字符串定义的板名匹配。"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "UPqysJoY7MCestf8uL3kWtiLbuHh4igHBwcLQWqAFRo=",
+    "originContent": "The current reference Desktop App is capable of showing *highlighted pins* when the user hovers over a GPIO pin item in the interface. To do this, the SVGs will need to be modified with the following (using Inkscape as the primary interface example):",
+    "translatedContent": "当前参考桌面应用能够在用户将鼠标悬停在界面中的 GPIO 引脚项上时显示*高亮引脚*。为此，SVG 需要按以下步骤修改（以 Inkscape 为主要示例界面）："
+  },
+  {
+    "row": 53,
+    "rowsha": "2Jj4zBKcD6MCuxOthUBVYKPYKeRvcYwTQgoN/lHWa50=",
+    "originContent": " 1. If it's not already, group all of the image's existing board objects into its own group (name doesn't matter). Also make sure that the pin holes are actually transparent beneath and are not filled with a background color.",
+    "translatedContent": " 1. 如果尚未分组，将图像现有的所有板对象分组为一个组（组名无关紧要）。同时确保引脚孔实际上是透明的，而不是填充背景色。"
+  },
+  {
+    "row": 54,
+    "rowsha": "n0KffwjrhV7EYweM76Y1r82hIfWLIxrQvDPIIfhcPj4=",
+    "originContent": " 2. Create a new group that's *below* the board group - again, name doesn't matter, but for ease of use you should call it something like `OF`",
+    "translatedContent": " 2. 创建一个新组，放置在板组的*下方*——组名无关紧要，但为了方便使用，建议命名为 `OF`。"
+  },
+  {
+    "row": 55,
+    "rowsha": "9a15Ttlb/o3lBYxVJLCRter8IbRU2xU/ebhWtsKLvfI=",
+    "originContent": " 3. Inside this newly made highlights group, create the highlight elements with no stroke, and basic single flat color fill (existing boards uses RGBA `ebe713`, or *R253/G231/B19*).",
+    "translatedContent": " 3. 在新建的高亮组内，创建高亮元素，不带描边，填充为单一纯色（现有板使用 RGBA 颜色 `ebe713`，即 *R253/G231/B19*）。"
+  },
+  {
+    "row": 56,
+    "rowsha": "GL1K2BaYoNLoyMZzpSt4e9Ez4rymMhftqGkMwAvasnI=",
+    "originContent": " 4. Select the highlight element and go to the *Object Properties* tab (or equivalent that shows the *\"ID\"* line): each highlight element needs to have an ID named `OF_pinX` - where X == GPIO pin number, without a leading 0.",
+    "translatedContent": " 4. 选择高亮元素，打开*对象属性*选项卡（或显示 *\"ID\"* 行的等效界面）：每个高亮元素需设置 ID，格式为 `OF_pinX` ——其中 X 为 GPIO 引脚号，无前导零。"
+  },
+  {
+    "row": 57,
+    "rowsha": "+UEVPa2zMVZDUdztEesbq3ehexKkK1dZoQKyYuedWWs=",
+    "originContent": " 5. While the element is highlighted, go to the *Fill and Stroke* tab (or equivalent that shows *\"Opacity (%)\"*) and set the Opacity to **0.0**.",
+    "translatedContent": " 5. 高亮元素选中时，打开*填充与描边*选项卡（或显示 *\"不透明度 (%)\"* 的等效界面），将不透明度设置为 **0.0**。"
+  },
+  {
+    "row": 58,
+    "rowsha": "R/PGXUULgopUoPR4jWVgDCrfHGh0mKu6MesdHbpWpJU=",
+    "originContent": " 6. Once the placement, naming, and opacity of everything is satisfactory, save the file as a ***Plain SVG*** file inside of the `boardPics` directory. Make sure `vectors.qrc` has this board listed as an alias to the `OPENFIRE_BOARD` string you set for this microcontroller in `OpenFIREshared.h`!",
+    "translatedContent": " 6. 确认所有元素的位置、命名和不透明度设置满意后，保存文件为 ***纯 SVG*** 格式，放入 `boardPics` 目录。确保 `vectors.qrc` 中已将该板列为与您在 `OpenFIREshared.h` 中为该微控制器设置的 `OPENFIRE_BOARD` 字符串匹配的别名！"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+    "originContent": "> [!NOTE]",
+    "translatedContent": "> [!注意]"
+  },
+  {
+    "row": 61,
+    "rowsha": "iwqirhmyv4AP1GCwd424uDBJwPvAF1FfL86ohD0KzKg=",
+    "originContent": "> This procedure should be done **only** for every *accessible* GPIO pin for the board (i.e. the pins that would be `unavailable` in the `boardPresetsMap` should not be added, as these will be hidden by the application).",
+    "translatedContent": "> 此操作应**仅**针对每个*可访问*的板上 GPIO 引脚执行（即 `boardPresetsMap` 中标记为 `unavailable` 的引脚不应添加，因为应用程序会隐藏这些引脚）。"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "AIW8mPHq/F3Ky4ADQd6deeMdsNcqYVMYDQE1pfBd5Zk=",
+    "originContent": "Once this is finished, rebuild the application and test out the board picture; the easiest way being to use the *Help->View Compatible Boards* window, and hover the mouse cursor over the labels corresponding to the GPIO.",
+    "translatedContent": "完成后，重新构建应用程序并测试板图；最简单的方法是使用 *帮助->查看兼容板* 窗口，并将鼠标悬停在对应 GPIO 的标签上。"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+    "originContent": "> [!NOTE]",
+    "translatedContent": "> [!注意]"
+  },
+  {
+    "row": 66,
+    "rowsha": "5xtBbdyjJ8ImUnFENVvzydFHWk1q5qf+R/vDb5w+utA=",
+    "originContent": "> - If the board picture doesn't display at all, it's likely that the vector either isn't named appropriately or wasn't exported properly - double check that you followed Step 6 above correctly.",
+    "translatedContent": "> - 如果板图完全不显示，可能是矢量文件未正确命名或导出——请仔细检查是否正确执行了第 6 步。"
+  },
+  {
+    "row": 67,
+    "rowsha": "YFHqzv0O1iC1SnCQTG8aT4bTA1MJmTrdjuOGaS1Ohz8=",
+    "originContent": "> - If the board picture displays, but highlights do not (or show up to the wrong pins), it's likely that you might need to manually edit some lines in the exported SVG in a text editor, such as Notepad. The technical requirements for vectors to work - and the things to check - are:",
+    "translatedContent": "> - 如果板图显示但高亮不显示（或显示在错误引脚上），可能需要手动在文本编辑器（如记事本）中编辑导出的 SVG 文件中的某些行。矢量文件工作的技术要求及检查点为："
+  },
+  {
+    "row": 68,
+    "rowsha": "Nc4/8iIH5RfpnAFYAXiOkFXnezjqLf5NrJJCDKAvSYE=",
+    "originContent": ">   - That the `id=\"OF_pinX\"` lines are *above* the `style=\"` line.",
+    "translatedContent": ">   - `id=\"OF_pinX\"` 行必须*在* `style=\"` 行之上。"
+  },
+  {
+    "row": 69,
+    "rowsha": "ekxMNxkjVSn8J7vC5PY6uW2kmHtYR/QxeVWqOlBBNLw=",
+    "originContent": ">   - That the `style=\"` line has `opacity:0` inside of it (preferably either `0` or `0.0`; whichever one it is doesn't matter, so long as it matches).",
+    "translatedContent": ">   - `style=\"` 行内必须包含 `opacity:0`（最好为 `0` 或 `0.0`，具体哪个无所谓，但要保持一致）。"
+  },
+  {
+    "row": 70,
+    "rowsha": "yBIT6xN9ALjMQU1f+iWgJuAc/3TcPfyf5Rl46Av13hg=",
+    "originContent": "> Refer to the following example below (snippit from [`pico.svg`](https://raw.githubusercontent.com/alessandro-satanassi/OpenFIRE-Boards-ESP32/main/boardPics/pico.svg)) for the general ideal formatting of each highlight element:",
+    "translatedContent": "> 参见下方示例（摘自 [`pico.svg`](https://raw.githubusercontent.com/alessandro-satanassi/OpenFIRE-Boards-ESP32/main/boardPics/pico.svg)），了解每个高亮元素的理想格式："
+  },
+  {
+    "row": 71,
+    "rowsha": "t3R+cwpuKBN1Dfiu40/LQ6vqo87VrjLqEdSdQzEiKc4=",
+    "originContent": "> ```html",
+    "translatedContent": "> ```html"
+  },
+  {
+    "row": 72,
+    "rowsha": "b5G532Y6EMRmjeoyzlLy0o1WjZLBx9kDXRQX2pSuATo=",
+    "originContent": ">   <g",
+    "translatedContent": ">   <g"
+  },
+  {
+    "row": 73,
+    "rowsha": "xLIZbuxVLEi3lGJitr2zIBvp7QPJYtEHRT3QRUoqFAY=",
+    "originContent": ">      id=\"OF\">",
+    "translatedContent": ">      id=\"OF\">"
+  },
+  {
+    "row": 74,
+    "rowsha": "nU/+3UyVNSy8YxTTx1YKW76HmUGNUYGDPEPZ118N8zk=",
+    "originContent": ">     <path",
+    "translatedContent": ">     <path"
+  },
+  {
+    "row": 75,
+    "rowsha": "q76fjaTF1jXKuArZU0eb2eOaWb73GHiAkwl8B/ZnDb8=",
+    "originContent": ">        id=\"OF_pin1\"",
+    "translatedContent": ">        id=\"OF_pin1\""
+  },
+  {
+    "row": 76,
+    "rowsha": "cYubh/byR3dpnD8FBCx6XMMWs52us9BPm/6Z+paz7mI=",
+    "originContent": ">        style=\"opacity:0;fill:#ebe713;fill-opacity:1\"",
+    "translatedContent": ">        style=\"opacity:0;fill:#ebe713;fill-opacity:1\""
+  },
+  {
+    "row": 77,
+    "rowsha": "/m01jA1vP+maaH1Vlpy+hbQg0oqzkmMbybgFIwTOg9k=",
+    "originContent": ">        class=\"st10\"",
+    "translatedContent": ">        class=\"st10\""
+  },
+  {
+    "row": 78,
+    "rowsha": "r1zRGmdt2rhLfwZjII7Muq+76XOLaJ9fXmFcUjlyRW8=",
+    "originContent": ">        d=\"M19.7,47.4c0,3.4-2.9,6.2-6.3,6.2s-6.2-2.8-6.3-6.2,2.7-6.3,6.1-6.4c3.4,0,6.3,2.6,6.5,6\" />",
+    "translatedContent": ">        d=\"M19.7,47.4c0,3.4-2.9,6.2-6.3,6.2s-6.2-2.8-6.3-6.2,2.7-6.3,6.1-6.4c3.4,0,6.3,2.6,6.5,6\" />"
+  },
+  {
+    "row": 79,
+    "rowsha": "nU/+3UyVNSy8YxTTx1YKW76HmUGNUYGDPEPZ118N8zk=",
+    "originContent": ">     <path",
+    "translatedContent": ">     <path"
+  },
+  {
+    "row": 80,
+    "rowsha": "NsbbRxVY8dFrrTjXsKg85JsTM4lMTyGf0LGXZW4KNxc=",
+    "originContent": ">        id=\"OF_pin2\"",
+    "translatedContent": ">        id=\"OF_pin2\""
+  },
+  {
+    "row": 81,
+    "rowsha": "cYubh/byR3dpnD8FBCx6XMMWs52us9BPm/6Z+paz7mI=",
+    "originContent": ">        style=\"opacity:0;fill:#ebe713;fill-opacity:1\"",
+    "translatedContent": ">        style=\"opacity:0;fill:#ebe713;fill-opacity:1\""
+  },
+  {
+    "row": 82,
+    "rowsha": "/m01jA1vP+maaH1Vlpy+hbQg0oqzkmMbybgFIwTOg9k=",
+    "originContent": ">        class=\"st10\"",
+    "translatedContent": ">        class=\"st10\""
+  },
+  {
+    "row": 83,
+    "rowsha": "PsS2qEeOcpyseIqzoKJdZw642KTp1FVicFTDP3XEFok=",
+    "originContent": ">        d=\"M19.8,88.1c0,3.4-2.9,6.2-6.3,6.2s-6.2-2.8-6.3-6.2c0-3.4,2.7-6.3,6.1-6.4,3.4,0,6.3,2.6,6.5,6\" />",
+    "translatedContent": ">        d=\"M19.8,88.1c0,3.4-2.9,6.2-6.3,6.2s-6.2-2.8-6.3-6.2c0-3.4,2.7-6.3,6.1-6.4,3.4,0,6.3,2.6,6.5,6\" />"
+  },
+  {
+    "row": 84,
+    "rowsha": "zaS0d5TRKpHOOiowN+J7tAfIF3opDY+34d0XAmPK79A=",
+    "originContent": "> ...",
+    "translatedContent": "> ..."
+  },
+  {
+    "row": 85,
+    "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+    "originContent": "> ```",
+    "translatedContent": "> ```"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,569 @@
+[
+  {
+    "Id": 1,
+    "Content": "## ... porting OpenFIRE-Boards for EPS32\n\nQuesto repository è un porting del progetto originale 'OpenFIRE-Boards' del TeamOpenFIRE, adattato per funzionare sul microcontrollore ESP32S3.\nSalvo alcuni adattamenti e piccole modifiche, il codice rimane sostanzialmente fedele all'originale del TeamOpenFIRE.\nIl codice di questo repository funziona anche sul microcontrollore RP2040.\nOgni volta che verranno apportate modifiche al progetto originale 'OpenFIRE-Boards' del TeamOpenFIRE, aggiornerò di conseguenza anche il codice di questo repository.\nRingrazio di cuore il TeamOpenFIRE per la creazione del progetto 'OpenFIRE-Boards': a loro vanno tutti i meriti e la mia piena gratitudine.\nQuesto è semplicemente un adattamento per il funzionamento su ESP32S3.\n\n\nThis repository is a porting of the original 'OpenFIRE-Boards' project by TeamOpenFIRE, adapted to work on the ESP32S3 microcontroller.\nApart from some adaptations and minor adjustments, the code remains largely faithful to the original by TeamOpenFIRE.\nThe code in this repository also works on the RP2040 microcontroller.\nWhenever changes are made to the original 'OpenFIRE-Boards' project by TeamOpenFIRE, I will update the code in this repository accordingly.\nI sincerely thank TeamOpenFIRE for creating the 'OpenFIRE-Boards' project; all credit and gratitude go to them for their work.\nThis is simply an adaptation to make it work on ESP32S3.\n\n![Waveshare-esp32-s3-pico](https://github.com/user-attachments/assets/2ce848f3-f308-43cc-b753-3b1dac1647e4)\n\n![YD-esp32-s3-wroom1-DevKitC-1-N16R8](https://github.com/user-attachments/assets/080baf9b-f050-4b3e-ba59-4fb4aa784909)\n\n\n## ... segue la pagina originale del progetto\n## ... follows the original project page\n\n# OpenFIRE-Boards\nCommon repository of boards that are shared between OpenFIRE Firmware &amp; Desktop App\n\n# OpenFIRE Shared Resources\nThis repository contains resources that can be shared between implementations of the microcontroller Firmware and Applications intended to interface with and configure them on a PC device.\n\n## `OpenFIREshared.h`\nThe top half of this file defines the following that are common in both Firmware and App implementations:\n - Definitions of board names that the microcontroller will report on initial docking, as string literals.\n - Enums of pin function types, toggles, settings, I2C devices and their settings, and commands used in serial communication between firmware and app.\n - Presets for defined boards that are loaded on bootup, and referenced by apps that show default board layouts.\n\nBelow the preprocessor check for `OF_APP` are 'pretty' strings for supported boards and pin functions, and board layouts that are used only by Desktop Apps to graphically represent GPIO pins for defined boards - showing where they should be rendered relative to a center-bound board vector, and alternative layouts for boards that the app should present as options to the user, if any.\n\n### `boardPresetsMap`",
+    "ContentSha": "8j2pRdAWNJJvMCfqcd26kimWLZOlL4bUGSQ7mwc2yp0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## ... porting OpenFIRE-Boards for EPS32\n\nThis repository is a porting of the original 'OpenFIRE-Boards' project by TeamOpenFIRE, adapted to work on the ESP32S3 microcontroller.  \nApart from some adaptations and minor adjustments, the code remains largely faithful to the original by TeamOpenFIRE.  \nThe code in this repository also works on the RP2040 microcontroller.  \nWhenever changes are made to the original 'OpenFIRE-Boards' project by TeamOpenFIRE, I will update the code in this repository accordingly.  \nI sincerely thank TeamOpenFIRE for creating the 'OpenFIRE-Boards' project; all credit and gratitude go to them for their work.  \nThis is simply an adaptation to make it work on ESP32S3.  \n\n\nThis repository is a porting of the original 'OpenFIRE-Boards' project by TeamOpenFIRE, adapted to work on the ESP32S3 microcontroller.  \nApart from some adaptations and minor adjustments, the code remains largely faithful to the original by TeamOpenFIRE.  \nThe code in this repository also works on the RP2040 microcontroller.  \nWhenever changes are made to the original 'OpenFIRE-Boards' project by TeamOpenFIRE, I will update the code in this repository accordingly.  \nI sincerely thank TeamOpenFIRE for creating the 'OpenFIRE-Boards' project; all credit and gratitude go to them for their work.  \nThis is simply an adaptation to make it work on ESP32S3.  \n\n\n![Waveshare-esp32-s3-pico](https://github.com/user-attachments/assets/2ce848f3-f308-43cc-b753-3b1dac1647e4)  \n\n![YD-esp32-s3-wroom1-DevKitC-1-N16R8](https://github.com/user-attachments/assets/080baf9b-f050-4b3e-ba59-4fb4aa784909)  \n\n\n## ... segue la pagina originale del progetto  \n## ... follows the original project page  \n\n# OpenFIRE-Boards  \nCommon repository of boards that are shared between OpenFIRE Firmware & Desktop App  \n\n# OpenFIRE Shared Resources  \nThis repository contains resources that can be shared between implementations of the microcontroller Firmware and Applications intended to interface with and configure them on a PC device.  \n\n## `OpenFIREshared.h`  \nThe top half of this file defines the following that are common in both Firmware and App implementations:  \n - Definitions of board names that the microcontroller will report on initial docking, as string literals.  \n - Enums of pin function types, toggles, settings, I2C devices and their settings, and commands used in serial communication between firmware and app.  \n - Presets for defined boards that are loaded on bootup, and referenced by apps that show default board layouts.  \n\nBelow the preprocessor check for `OF_APP` are 'pretty' strings for supported boards and pin functions, and board layouts that are used only by Desktop Apps to graphically represent GPIO pins for defined boards - showing where they should be rendered relative to a center-bound board vector, and alternative layouts for boards that the app should present as options to the user, if any.  \n\n### `boardPresetsMap`",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "32z/LerHCytB5Yb6iduCwwwrqaqeT7zFLwUqt2LEz2o=",
+        "originContent": "## ... porting OpenFIRE-Boards for EPS32",
+        "translatedContent": "## ... porting OpenFIRE-Boards for EPS32"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Cb6cI98hGNH0Axz7wPIVQU9+BFUE/xdUNhPOQFru0kE=",
+        "originContent": "Questo repository è un porting del progetto originale 'OpenFIRE-Boards' del TeamOpenFIRE, adattato per funzionare sul microcontrollore ESP32S3.",
+        "translatedContent": "This repository is a porting of the original 'OpenFIRE-Boards' project by TeamOpenFIRE, adapted to work on the ESP32S3 microcontroller.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "5ERp1tKD2DOit5CtksM3WV7pb8WeSYB0SToeuLgbN4o=",
+        "originContent": "Salvo alcuni adattamenti e piccole modifiche, il codice rimane sostanzialmente fedele all'originale del TeamOpenFIRE.",
+        "translatedContent": "Apart from some adaptations and minor adjustments, the code remains largely faithful to the original by TeamOpenFIRE.  "
+      },
+      {
+        "row": 5,
+        "rowsha": "mOUKT8e3GL9N9NjQpROEHK/RgMLnXvbWpcUQ9JFAkHA=",
+        "originContent": "Il codice di questo repository funziona anche sul microcontrollore RP2040.",
+        "translatedContent": "The code in this repository also works on the RP2040 microcontroller.  "
+      },
+      {
+        "row": 6,
+        "rowsha": "f5pji4L8gPBaw8llEYWY0lxPokNRSL1MStADZVxeBzc=",
+        "originContent": "Ogni volta che verranno apportate modifiche al progetto originale 'OpenFIRE-Boards' del TeamOpenFIRE, aggiornerò di conseguenza anche il codice di questo repository.",
+        "translatedContent": "Whenever changes are made to the original 'OpenFIRE-Boards' project by TeamOpenFIRE, I will update the code in this repository accordingly.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "7TcHSGb/k94TmvMA2bs69uS+eoo7XffB2R78UPRnNeA=",
+        "originContent": "Ringrazio di cuore il TeamOpenFIRE per la creazione del progetto 'OpenFIRE-Boards': a loro vanno tutti i meriti e la mia piena gratitudine.",
+        "translatedContent": "I sincerely thank TeamOpenFIRE for creating the 'OpenFIRE-Boards' project; all credit and gratitude go to them for their work.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "pQKHWUMAW341xV33TUDGAg49fsy6y5kMFJlfjbRQXdc=",
+        "originContent": "Questo è semplicemente un adattamento per il funzionamento su ESP32S3.",
+        "translatedContent": "This is simply an adaptation to make it work on ESP32S3.  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "KBUhJ+0qBTek4jSBuXA6uUux3/UurqWBX6KQGvhhEkY=",
+        "originContent": "This repository is a porting of the original 'OpenFIRE-Boards' project by TeamOpenFIRE, adapted to work on the ESP32S3 microcontroller.",
+        "translatedContent": "This repository is a porting of the original 'OpenFIRE-Boards' project by TeamOpenFIRE, adapted to work on the ESP32S3 microcontroller.  "
+      },
+      {
+        "row": 12,
+        "rowsha": "jp8eT4t7230zCS1i0uBfmgkOQrE3Oi+mnTLVrZQuZis=",
+        "originContent": "Apart from some adaptations and minor adjustments, the code remains largely faithful to the original by TeamOpenFIRE.",
+        "translatedContent": "Apart from some adaptations and minor adjustments, the code remains largely faithful to the original by TeamOpenFIRE.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "RixbHMq+XWmNYvMIz15tLivffQ0vpcu44V59wwUfiiA=",
+        "originContent": "The code in this repository also works on the RP2040 microcontroller.",
+        "translatedContent": "The code in this repository also works on the RP2040 microcontroller.  "
+      },
+      {
+        "row": 14,
+        "rowsha": "Z4VXjI1efa+MbQ+TQlkEcRcHTUvp+mqJXTisyqVeGQM=",
+        "originContent": "Whenever changes are made to the original 'OpenFIRE-Boards' project by TeamOpenFIRE, I will update the code in this repository accordingly.",
+        "translatedContent": "Whenever changes are made to the original 'OpenFIRE-Boards' project by TeamOpenFIRE, I will update the code in this repository accordingly.  "
+      },
+      {
+        "row": 15,
+        "rowsha": "ZuvWyQnOO5o+CGAgANSC9/t51YjxBq4NCj/rUybvx7k=",
+        "originContent": "I sincerely thank TeamOpenFIRE for creating the 'OpenFIRE-Boards' project; all credit and gratitude go to them for their work.",
+        "translatedContent": "I sincerely thank TeamOpenFIRE for creating the 'OpenFIRE-Boards' project; all credit and gratitude go to them for their work.  "
+      },
+      {
+        "row": 16,
+        "rowsha": "ImMeolZo4bok99WGphd+h1Sw5vmTpqpRMmRTVZ7Etw4=",
+        "originContent": "This is simply an adaptation to make it work on ESP32S3.",
+        "translatedContent": "This is simply an adaptation to make it work on ESP32S3.  "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "uHVY6ODjGPVv2YkrZNRr3ucb0yS30TP26ZbLUKoWExo=",
+        "originContent": "![Waveshare-esp32-s3-pico](https://github.com/user-attachments/assets/2ce848f3-f308-43cc-b753-3b1dac1647e4)",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Waveshare-esp32-s3-pico](https://github.com/user-attachments/assets/2ce848f3-f308-43cc-b753-3b1dac1647e4)  "
+      },
+      {
+        "row": 20,
+        "rowsha": "LTkGnI0DAYo604aeenEq6akMnMpSTMwxp2gpUMZ9K7Q=",
+        "originContent": "![YD-esp32-s3-wroom1-DevKitC-1-N16R8](https://github.com/user-attachments/assets/080baf9b-f050-4b3e-ba59-4fb4aa784909)",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![YD-esp32-s3-wroom1-DevKitC-1-N16R8](https://github.com/user-attachments/assets/080baf9b-f050-4b3e-ba59-4fb4aa784909)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ppb7YxtaLXNvjLzjJbSap3bP5AIB8rf6jWB0FTDiDIU=",
+        "originContent": "## ... segue la pagina originale del progetto",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "6YNPh3Kl3pAz867qb6jljQtNy+IxsGcoly8pN0leXcw=",
+        "originContent": "## ... follows the original project page",
+        "translatedContent": "## ... segue la pagina originale del progetto  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ... follows the original project page  "
+      },
+      {
+        "row": 26,
+        "rowsha": "H1bD3IE5xwHfwDTnI/PbGa0ZYx60ZLqC9yfmY7kBUs0=",
+        "originContent": "# OpenFIRE-Boards",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "02N4FHNFSb+0zm+qBd63mX3XvLaYYSbUUaps3keuWCg=",
+        "originContent": "Common repository of boards that are shared between OpenFIRE Firmware &amp; Desktop App",
+        "translatedContent": "# OpenFIRE-Boards  "
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Common repository of boards that are shared between OpenFIRE Firmware & Desktop App  "
+      },
+      {
+        "row": 29,
+        "rowsha": "AsXIXulx9C+Fool2jhbd/+STtbE3G0+IdUXsEPS0ESs=",
+        "originContent": "# OpenFIRE Shared Resources",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "OYIkR+tWqWRtm/Ermye47NWe9yr2H2IvGU/DukzXKWU=",
+        "originContent": "This repository contains resources that can be shared between implementations of the microcontroller Firmware and Applications intended to interface with and configure them on a PC device.",
+        "translatedContent": "# OpenFIRE Shared Resources  "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "This repository contains resources that can be shared between implementations of the microcontroller Firmware and Applications intended to interface with and configure them on a PC device.  "
+      },
+      {
+        "row": 32,
+        "rowsha": "fIiZuQwk0XODn9y9XpGeEf94dorUSv1HEEhCTydlp6s=",
+        "originContent": "## `OpenFIREshared.h`",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "j1MlnQgsZVfEFBAh2Se9nQiIF6Dqatz9lF7x0czBDM4=",
+        "originContent": "The top half of this file defines the following that are common in both Firmware and App implementations:",
+        "translatedContent": "## `OpenFIREshared.h`  "
+      },
+      {
+        "row": 34,
+        "rowsha": "4hTdU7oE5ZvbjAga+bdpajkUFnnJ7HCSMGb83feCDtY=",
+        "originContent": " - Definitions of board names that the microcontroller will report on initial docking, as string literals.",
+        "translatedContent": "The top half of this file defines the following that are common in both Firmware and App implementations:  "
+      },
+      {
+        "row": 35,
+        "rowsha": "SuSrUL0Fl64T2nf8dYNUTl0DkJ9FfkK+D0UypJ8NSYc=",
+        "originContent": " - Enums of pin function types, toggles, settings, I2C devices and their settings, and commands used in serial communication between firmware and app.",
+        "translatedContent": " - Definitions of board names that the microcontroller will report on initial docking, as string literals.  "
+      },
+      {
+        "row": 36,
+        "rowsha": "ZK+T4cHqhVPtSCT+LZJFvsNcmLgdyGH7p9veuB6+BpU=",
+        "originContent": " - Presets for defined boards that are loaded on bootup, and referenced by apps that show default board layouts.",
+        "translatedContent": " - Enums of pin function types, toggles, settings, I2C devices and their settings, and commands used in serial communication between firmware and app.  "
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": " - Presets for defined boards that are loaded on bootup, and referenced by apps that show default board layouts.  "
+      },
+      {
+        "row": 38,
+        "rowsha": "ftLVSyc40E91Z164f6H/BG9amtBd8vcGf9eZV27z770=",
+        "originContent": "Below the preprocessor check for `OF_APP` are 'pretty' strings for supported boards and pin functions, and board layouts that are used only by Desktop Apps to graphically represent GPIO pins for defined boards - showing where they should be rendered relative to a center-bound board vector, and alternative layouts for boards that the app should present as options to the user, if any.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Below the preprocessor check for `OF_APP` are 'pretty' strings for supported boards and pin functions, and board layouts that are used only by Desktop Apps to graphically represent GPIO pins for defined boards - showing where they should be rendered relative to a center-bound board vector, and alternative layouts for boards that the app should present as options to the user, if any.  "
+      },
+      {
+        "row": 40,
+        "rowsha": "0T2JesTXY1CMFrA6QBOvO7sy8xB96Qk2YCSyV4WO+6w=",
+        "originContent": "### `boardPresetsMap`",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "Supported boards should have a name that corresponds to the `OPENFIRE_BOARD` definition as defined at the top of the file, followed by a map of what function each GPIO should have as a default (this is loaded when `OF_Prefs::toggles[OF_Const::customPins]` is set as *true* in the board's current prefs). Each GPIO the microcontroller has should be represented here, with unmapped pins given `btnUnmapped` and pins that are either reserved or not exposed to the user to be given `unavailable`. RP2040 and RP235X-A boards should have thirty pins maximum - note that even if the `rpipico` only exposes around 26 pins, it still takes the hidden GPIO into consideration.\n\n### `boardBoxPositions`\nLike `boardPresetsMap`, for each supported `OPENFIRE_BOARD`, this presents a map of roughly *where* each pin should be located in a Desktop App's graphical board view represented as a sum of two values - the left being the relative position as an positive integer starting from 1, and the right being an enum value of which side of the board the pin elements should be positioned by. Adding `posLeft`, `posRight`, and `posMiddle` will place this GPIO in the respective side of the board view, and adding `posNothing` (literally 0) will inform the app not to show this pin at all, which should be used for `unavailable` pins in `boardPresetsMap`. The amount of values should match the amount of GPIO as defined in the presets map.\n\n### `boardsAltPresets`\nThis is for optional alternative board presets, which are to be presented in a Board Layout view as a drop-down list of alt layout names. Each supported `OPENFIRE_BOARD` can be listed multiple times, one for each alt layout - the string after the board name indicating what label it should show in the interface, followed by a curly braced map of GPIO board functions indentically to `boardPresetsMap`; the same conventions and stipulations apply. This is primarily intended for matching the layout of adapter boards that use different suggested button mappings/wiring, such as `adafruitItsy`'s SAMCO 1.1 layout for those boards which has a different mapping from the default SAMCO 2.0 layout; also note that the current reference Desktop App supports exporting and importing custom layouts.\n\n## `boardPics/` - Board Vectors and Pin Highlights\nThis is the repository of board vectors that Desktop Apps should use for Board Layout views to graphically represent the current board that's docked to the application. Board vectors should be exported as *Plain SVG* (or equivalent), and added to the `vectors.qrc` resource file, where the alias for each file should match the names as defined in `OpenFIREshared.h`'s `OPENFIRE_BOARD` string for the board.\n\nThe current reference Desktop App is capable of showing *highlighted pins* when the user hovers over a GPIO pin item in the interface. To do this, the SVGs will need to be modified with the following (using Inkscape as the primary interface example):\n 1. If it's not already, group all of the image's existing board objects into its own group (name doesn't matter). Also make sure that the pin holes are actually transparent beneath and are not filled with a background color.\n 2. Create a new group that's *below* the board group - again, name doesn't matter, but for ease of use you should call it something like `OF`\n 3. Inside this newly made highlights group, create the highlight elements with no stroke, and basic single flat color fill (existing boards uses RGBA `ebe713`, or *R253/G231/B19*).\n 4. Select the highlight element and go to the *Object Properties* tab (or equivalent that shows the *\"ID\"* line): each highlight element needs to have an ID named `OF_pinX` - where X == GPIO pin number, without a leading 0.\n 5. While the element is highlighted, go to the *Fill and Stroke* tab (or equivalent that shows *\"Opacity (%)\"*) and set the Opacity to **0.0**.\n 6. Once the placement, naming, and opacity of everything is satisfactory, save the file as a ***Plain SVG*** file inside of the `boardPics` directory. Make sure `vectors.qrc` has this board listed as an alias to the `OPENFIRE_BOARD` string you set for this microcontroller in `OpenFIREshared.h`!\n\n> [!NOTE]\n> This procedure should be done **only** for every *accessible* GPIO pin for the board (i.e. the pins that would be `unavailable` in the `boardPresetsMap` should not be added, as these will be hidden by the application).\n\nOnce this is finished, rebuild the application and test out the board picture; the easiest way being to use the *Help->View Compatible Boards* window, and hover the mouse cursor over the labels corresponding to the GPIO.\n\n> [!NOTE]\n> - If the board picture doesn't display at all, it's likely that the vector either isn't named appropriately or wasn't exported properly - double check that you followed Step 6 above correctly.\n> - If the board picture displays, but highlights do not (or show up to the wrong pins), it's likely that you might need to manually edit some lines in the exported SVG in a text editor, such as Notepad. The technical requirements for vectors to work - and the things to check - are:\n>   - That the `id=\"OF_pinX\"` lines are *above* the `style=\"` line.\n>   - That the `style=\"` line has `opacity:0` inside of it (preferably either `0` or `0.0`; whichever one it is doesn't matter, so long as it matches).\n> Refer to the following example below (snippit from [`pico.svg`](https://raw.githubusercontent.com/alessandro-satanassi/OpenFIRE-Boards-ESP32/main/boardPics/pico.svg)) for the general ideal formatting of each highlight element:\n> ```html\n>   <g\n>      id=\"OF\">\n>     <path\n>        id=\"OF_pin1\"\n>        style=\"opacity:0;fill:#ebe713;fill-opacity:1\"\n>        class=\"st10\"\n>        d=\"M19.7,47.4c0,3.4-2.9,6.2-6.3,6.2s-6.2-2.8-6.3-6.2,2.7-6.3,6.1-6.4c3.4,0,6.3,2.6,6.5,6\" />\n>     <path\n>        id=\"OF_pin2\"",
+    "ContentSha": "HRAtdCx7iZ/Ee3ct81t5rkTcxvWW4UtHNcv95W3F8/w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Supported boards should have a name that corresponds to the `OPENFIRE_BOARD` definition as defined at the top of the file, followed by a map of what function each GPIO should have as a default (this is loaded when `OF_Prefs::toggles[OF_Const::customPins]` is set as *true* in the board's current prefs). Each GPIO the microcontroller has should be represented here, with unmapped pins given `btnUnmapped` and pins that are either reserved or not exposed to the user to be given `unavailable`. RP2040 and RP235X-A boards should have thirty pins maximum - note that even if the `rpipico` only exposes around 26 pins, it still takes the hidden GPIO into consideration.\n\n### `boardBoxPositions`\nLike `boardPresetsMap`, for each supported `OPENFIRE_BOARD`, this presents a map of roughly *where* each pin should be located in a Desktop App's graphical board view represented as a sum of two values - the left being the relative position as an positive integer starting from 1, and the right being an enum value of which side of the board the pin elements should be positioned by. Adding `posLeft`, `posRight`, and `posMiddle` will place this GPIO in the respective side of the board view, and adding `posNothing` (literally 0) will inform the app not to show this pin at all, which should be used for `unavailable` pins in `boardPresetsMap`. The amount of values should match the amount of GPIO as defined in the presets map.\n\n### `boardsAltPresets`\nThis is for optional alternative board presets, which are to be presented in a Board Layout view as a drop-down list of alt layout names. Each supported `OPENFIRE_BOARD` can be listed multiple times, one for each alt layout - the string after the board name indicating what label it should show in the interface, followed by a curly braced map of GPIO board functions indentically to `boardPresetsMap`; the same conventions and stipulations apply. This is primarily intended for matching the layout of adapter boards that use different suggested button mappings/wiring, such as `adafruitItsy`'s SAMCO 1.1 layout for those boards which has a different mapping from the default SAMCO 2.0 layout; also note that the current reference Desktop App supports exporting and importing custom layouts.\n\n## `boardPics/` - Board Vectors and Pin Highlights\nThis is the repository of board vectors that Desktop Apps should use for Board Layout views to graphically represent the current board that's docked to the application. Board vectors should be exported as *Plain SVG* (or equivalent), and added to the `vectors.qrc` resource file, where the alias for each file should match the names as defined in `OpenFIREshared.h`'s `OPENFIRE_BOARD` string for the board.\n\nThe current reference Desktop App is capable of showing *highlighted pins* when the user hovers over a GPIO pin item in the interface. To do this, the SVGs will need to be modified with the following (using Inkscape as the primary interface example):\n 1. If it's not already, group all of the image's existing board objects into its own group (name doesn't matter). Also make sure that the pin holes are actually transparent beneath and are not filled with a background color.\n 2. Create a new group that's *below* the board group - again, name doesn't matter, but for ease of use you should call it something like `OF`\n 3. Inside this newly made highlights group, create the highlight elements with no stroke, and basic single flat color fill (existing boards uses RGBA `ebe713`, or *R253/G231/B19*).\n 4. Select the highlight element and go to the *Object Properties* tab (or equivalent that shows the *\"ID\"* line): each highlight element needs to have an ID named `OF_pinX` - where X == GPIO pin number, without a leading 0.\n 5. While the element is highlighted, go to the *Fill and Stroke* tab (or equivalent that shows *\"Opacity (%)\"*) and set the Opacity to **0.0**.\n 6. Once the placement, naming, and opacity of everything is satisfactory, save the file as a ***Plain SVG*** file inside of the `boardPics` directory. Make sure `vectors.qrc` has this board listed as an alias to the `OPENFIRE_BOARD` string you set for this microcontroller in `OpenFIREshared.h`!\n\n> [!NOTE]\n> This procedure should be done **only** for every *accessible* GPIO pin for the board (i.e. the pins that would be `unavailable` in the `boardPresetsMap` should not be added, as these will be hidden by the application).\n\nOnce this is finished, rebuild the application and test out the board picture; the easiest way being to use the *Help->View Compatible Boards* window, and hover the mouse cursor over the labels corresponding to the GPIO.\n\n> [!NOTE]\n> - If the board picture doesn't display at all, it's likely that the vector either isn't named appropriately or wasn't exported properly - double check that you followed Step 6 above correctly.\n> - If the board picture displays, but highlights do not (or show up to the wrong pins), it's likely that you might need to manually edit some lines in the exported SVG in a text editor, such as Notepad. The technical requirements for vectors to work - and the things to check - are:\n>   - That the `id=\"OF_pinX\"` lines are *above* the `style=\"` line.\n>   - That the `style=\"` line has `opacity:0` inside of it (preferably either `0` or `0.0`; whichever one it is doesn't matter, so long as it matches).\n> Refer to the following example below (snippit from [`pico.svg`](https://raw.githubusercontent.com/alessandro-satanassi/OpenFIRE-Boards-ESP32/main/boardPics/pico.svg)) for the general ideal formatting of each highlight element:\n> ```html\n>   <g\n>      id=\"OF\">\n>     <path\n>        id=\"OF_pin1\"\n>        style=\"opacity:0;fill:#ebe713;fill-opacity:1\"\n>        class=\"st10\"\n>        d=\"M19.7,47.4c0,3.4-2.9,6.2-6.3,6.2s-6.2-2.8-6.3-6.2,2.7-6.3,6.1-6.4c3.4,0,6.3,2.6,6.5,6\" />\n>     <path\n>        id=\"OF_pin2\"",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/+hBKpSRGI0YkTaMpj1dqXNlkLXuv4vACi4GVdu1hqg=",
+        "originContent": "Supported boards should have a name that corresponds to the `OPENFIRE_BOARD` definition as defined at the top of the file, followed by a map of what function each GPIO should have as a default (this is loaded when `OF_Prefs::toggles[OF_Const::customPins]` is set as *true* in the board's current prefs). Each GPIO the microcontroller has should be represented here, with unmapped pins given `btnUnmapped` and pins that are either reserved or not exposed to the user to be given `unavailable`. RP2040 and RP235X-A boards should have thirty pins maximum - note that even if the `rpipico` only exposes around 26 pins, it still takes the hidden GPIO into consideration.",
+        "translatedContent": "Supported boards should have a name that corresponds to the `OPENFIRE_BOARD` definition as defined at the top of the file, followed by a map of what function each GPIO should have as a default (this is loaded when `OF_Prefs::toggles[OF_Const::customPins]` is set as *true* in the board's current prefs). Each GPIO the microcontroller has should be represented here, with unmapped pins given `btnUnmapped` and pins that are either reserved or not exposed to the user to be given `unavailable`. RP2040 and RP235X-A boards should have thirty pins maximum - note that even if the `rpipico` only exposes around 26 pins, it still takes the hidden GPIO into consideration."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "a7jmKYVsjdBSJPltXj9ffZZ6kTWpKzkzwehkV8JHsF8=",
+        "originContent": "### `boardBoxPositions`",
+        "translatedContent": "### `boardBoxPositions`"
+      },
+      {
+        "row": 4,
+        "rowsha": "jStV3Tx2V+xy7rJ4XA5wFSFuk8bawKZY6V2Qb+AfdU4=",
+        "originContent": "Like `boardPresetsMap`, for each supported `OPENFIRE_BOARD`, this presents a map of roughly *where* each pin should be located in a Desktop App's graphical board view represented as a sum of two values - the left being the relative position as an positive integer starting from 1, and the right being an enum value of which side of the board the pin elements should be positioned by. Adding `posLeft`, `posRight`, and `posMiddle` will place this GPIO in the respective side of the board view, and adding `posNothing` (literally 0) will inform the app not to show this pin at all, which should be used for `unavailable` pins in `boardPresetsMap`. The amount of values should match the amount of GPIO as defined in the presets map.",
+        "translatedContent": "Like `boardPresetsMap`, for each supported `OPENFIRE_BOARD`, this presents a map of roughly *where* each pin should be located in a Desktop App's graphical board view represented as a sum of two values - the left being the relative position as an positive integer starting from 1, and the right being an enum value of which side of the board the pin elements should be positioned by. Adding `posLeft`, `posRight`, and `posMiddle` will place this GPIO in the respective side of the board view, and adding `posNothing` (literally 0) will inform the app not to show this pin at all, which should be used for `unavailable` pins in `boardPresetsMap`. The amount of values should match the amount of GPIO as defined in the presets map."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "bWojIJVMg5/QUZYbsE/12+26A9DoutZSLAZGL9lmDWY=",
+        "originContent": "### `boardsAltPresets`",
+        "translatedContent": "### `boardsAltPresets`"
+      },
+      {
+        "row": 7,
+        "rowsha": "Kuy8wddC1e9+sIwqgurZV57D3NFFhmBlMmppKc732xU=",
+        "originContent": "This is for optional alternative board presets, which are to be presented in a Board Layout view as a drop-down list of alt layout names. Each supported `OPENFIRE_BOARD` can be listed multiple times, one for each alt layout - the string after the board name indicating what label it should show in the interface, followed by a curly braced map of GPIO board functions indentically to `boardPresetsMap`; the same conventions and stipulations apply. This is primarily intended for matching the layout of adapter boards that use different suggested button mappings/wiring, such as `adafruitItsy`'s SAMCO 1.1 layout for those boards which has a different mapping from the default SAMCO 2.0 layout; also note that the current reference Desktop App supports exporting and importing custom layouts.",
+        "translatedContent": "This is for optional alternative board presets, which are to be presented in a Board Layout view as a drop-down list of alt layout names. Each supported `OPENFIRE_BOARD` can be listed multiple times, one for each alt layout - the string after the board name indicating what label it should show in the interface, followed by a curly braced map of GPIO board functions indentically to `boardPresetsMap`; the same conventions and stipulations apply. This is primarily intended for matching the layout of adapter boards that use different suggested button mappings/wiring, such as `adafruitItsy`'s SAMCO 1.1 layout for those boards which has a different mapping from the default SAMCO 2.0 layout; also note that the current reference Desktop App supports exporting and importing custom layouts."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Fu61v4vwOfBbqabVOgFIAnCfwNdRzK4GHgt6nRCT1NA=",
+        "originContent": "## `boardPics/` - Board Vectors and Pin Highlights",
+        "translatedContent": "## `boardPics/` - Board Vectors and Pin Highlights"
+      },
+      {
+        "row": 10,
+        "rowsha": "0VmTJtQifUtnXays9CA46ujZemMooY9oss5/0kzOEck=",
+        "originContent": "This is the repository of board vectors that Desktop Apps should use for Board Layout views to graphically represent the current board that's docked to the application. Board vectors should be exported as *Plain SVG* (or equivalent), and added to the `vectors.qrc` resource file, where the alias for each file should match the names as defined in `OpenFIREshared.h`'s `OPENFIRE_BOARD` string for the board.",
+        "translatedContent": "This is the repository of board vectors that Desktop Apps should use for Board Layout views to graphically represent the current board that's docked to the application. Board vectors should be exported as *Plain SVG* (or equivalent), and added to the `vectors.qrc` resource file, where the alias for each file should match the names as defined in `OpenFIREshared.h`'s `OPENFIRE_BOARD` string for the board."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "UPqysJoY7MCestf8uL3kWtiLbuHh4igHBwcLQWqAFRo=",
+        "originContent": "The current reference Desktop App is capable of showing *highlighted pins* when the user hovers over a GPIO pin item in the interface. To do this, the SVGs will need to be modified with the following (using Inkscape as the primary interface example):",
+        "translatedContent": "The current reference Desktop App is capable of showing *highlighted pins* when the user hovers over a GPIO pin item in the interface. To do this, the SVGs will need to be modified with the following (using Inkscape as the primary interface example):"
+      },
+      {
+        "row": 13,
+        "rowsha": "2Jj4zBKcD6MCuxOthUBVYKPYKeRvcYwTQgoN/lHWa50=",
+        "originContent": " 1. If it's not already, group all of the image's existing board objects into its own group (name doesn't matter). Also make sure that the pin holes are actually transparent beneath and are not filled with a background color.",
+        "translatedContent": " 1. If it's not already, group all of the image's existing board objects into its own group (name doesn't matter). Also make sure that the pin holes are actually transparent beneath and are not filled with a background color."
+      },
+      {
+        "row": 14,
+        "rowsha": "n0KffwjrhV7EYweM76Y1r82hIfWLIxrQvDPIIfhcPj4=",
+        "originContent": " 2. Create a new group that's *below* the board group - again, name doesn't matter, but for ease of use you should call it something like `OF`",
+        "translatedContent": " 2. Create a new group that's *below* the board group - again, name doesn't matter, but for ease of use you should call it something like `OF`"
+      },
+      {
+        "row": 15,
+        "rowsha": "9a15Ttlb/o3lBYxVJLCRter8IbRU2xU/ebhWtsKLvfI=",
+        "originContent": " 3. Inside this newly made highlights group, create the highlight elements with no stroke, and basic single flat color fill (existing boards uses RGBA `ebe713`, or *R253/G231/B19*).",
+        "translatedContent": " 3. Inside this newly made highlights group, create the highlight elements with no stroke, and basic single flat color fill (existing boards uses RGBA `ebe713`, or *R253/G231/B19*)."
+      },
+      {
+        "row": 16,
+        "rowsha": "GL1K2BaYoNLoyMZzpSt4e9Ez4rymMhftqGkMwAvasnI=",
+        "originContent": " 4. Select the highlight element and go to the *Object Properties* tab (or equivalent that shows the *\"ID\"* line): each highlight element needs to have an ID named `OF_pinX` - where X == GPIO pin number, without a leading 0.",
+        "translatedContent": " 4. Select the highlight element and go to the *Object Properties* tab (or equivalent that shows the *\"ID\"* line): each highlight element needs to have an ID named `OF_pinX` - where X == GPIO pin number, without a leading 0."
+      },
+      {
+        "row": 17,
+        "rowsha": "+UEVPa2zMVZDUdztEesbq3ehexKkK1dZoQKyYuedWWs=",
+        "originContent": " 5. While the element is highlighted, go to the *Fill and Stroke* tab (or equivalent that shows *\"Opacity (%)\"*) and set the Opacity to **0.0**.",
+        "translatedContent": " 5. While the element is highlighted, go to the *Fill and Stroke* tab (or equivalent that shows *\"Opacity (%)\"*) and set the Opacity to **0.0**."
+      },
+      {
+        "row": 18,
+        "rowsha": "R/PGXUULgopUoPR4jWVgDCrfHGh0mKu6MesdHbpWpJU=",
+        "originContent": " 6. Once the placement, naming, and opacity of everything is satisfactory, save the file as a ***Plain SVG*** file inside of the `boardPics` directory. Make sure `vectors.qrc` has this board listed as an alias to the `OPENFIRE_BOARD` string you set for this microcontroller in `OpenFIREshared.h`!",
+        "translatedContent": " 6. Once the placement, naming, and opacity of everything is satisfactory, save the file as a ***Plain SVG*** file inside of the `boardPics` directory. Make sure `vectors.qrc` has this board listed as an alias to the `OPENFIRE_BOARD` string you set for this microcontroller in `OpenFIREshared.h`!"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 21,
+        "rowsha": "iwqirhmyv4AP1GCwd424uDBJwPvAF1FfL86ohD0KzKg=",
+        "originContent": "> This procedure should be done **only** for every *accessible* GPIO pin for the board (i.e. the pins that would be `unavailable` in the `boardPresetsMap` should not be added, as these will be hidden by the application).",
+        "translatedContent": "> This procedure should be done **only** for every *accessible* GPIO pin for the board (i.e. the pins that would be `unavailable` in the `boardPresetsMap` should not be added, as these will be hidden by the application)."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "AIW8mPHq/F3Ky4ADQd6deeMdsNcqYVMYDQE1pfBd5Zk=",
+        "originContent": "Once this is finished, rebuild the application and test out the board picture; the easiest way being to use the *Help->View Compatible Boards* window, and hover the mouse cursor over the labels corresponding to the GPIO.",
+        "translatedContent": "Once this is finished, rebuild the application and test out the board picture; the easiest way being to use the *Help->View Compatible Boards* window, and hover the mouse cursor over the labels corresponding to the GPIO."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 26,
+        "rowsha": "5xtBbdyjJ8ImUnFENVvzydFHWk1q5qf+R/vDb5w+utA=",
+        "originContent": "> - If the board picture doesn't display at all, it's likely that the vector either isn't named appropriately or wasn't exported properly - double check that you followed Step 6 above correctly.",
+        "translatedContent": "> - If the board picture doesn't display at all, it's likely that the vector either isn't named appropriately or wasn't exported properly - double check that you followed Step 6 above correctly."
+      },
+      {
+        "row": 27,
+        "rowsha": "YFHqzv0O1iC1SnCQTG8aT4bTA1MJmTrdjuOGaS1Ohz8=",
+        "originContent": "> - If the board picture displays, but highlights do not (or show up to the wrong pins), it's likely that you might need to manually edit some lines in the exported SVG in a text editor, such as Notepad. The technical requirements for vectors to work - and the things to check - are:",
+        "translatedContent": "> - If the board picture displays, but highlights do not (or show up to the wrong pins), it's likely that you might need to manually edit some lines in the exported SVG in a text editor, such as Notepad. The technical requirements for vectors to work - and the things to check - are:"
+      },
+      {
+        "row": 28,
+        "rowsha": "Nc4/8iIH5RfpnAFYAXiOkFXnezjqLf5NrJJCDKAvSYE=",
+        "originContent": ">   - That the `id=\"OF_pinX\"` lines are *above* the `style=\"` line.",
+        "translatedContent": ">   - That the `id=\"OF_pinX\"` lines are *above* the `style=\"` line."
+      },
+      {
+        "row": 29,
+        "rowsha": "ekxMNxkjVSn8J7vC5PY6uW2kmHtYR/QxeVWqOlBBNLw=",
+        "originContent": ">   - That the `style=\"` line has `opacity:0` inside of it (preferably either `0` or `0.0`; whichever one it is doesn't matter, so long as it matches).",
+        "translatedContent": ">   - That the `style=\"` line has `opacity:0` inside of it (preferably either `0` or `0.0`; whichever one it is doesn't matter, so long as it matches)."
+      },
+      {
+        "row": 30,
+        "rowsha": "yBIT6xN9ALjMQU1f+iWgJuAc/3TcPfyf5Rl46Av13hg=",
+        "originContent": "> Refer to the following example below (snippit from [`pico.svg`](https://raw.githubusercontent.com/alessandro-satanassi/OpenFIRE-Boards-ESP32/main/boardPics/pico.svg)) for the general ideal formatting of each highlight element:",
+        "translatedContent": "> Refer to the following example below (snippit from [`pico.svg`](https://raw.githubusercontent.com/alessandro-satanassi/OpenFIRE-Boards-ESP32/main/boardPics/pico.svg)) for the general ideal formatting of each highlight element:"
+      },
+      {
+        "row": 31,
+        "rowsha": "t3R+cwpuKBN1Dfiu40/LQ6vqo87VrjLqEdSdQzEiKc4=",
+        "originContent": "> ```html",
+        "translatedContent": "> ```html"
+      },
+      {
+        "row": 32,
+        "rowsha": "b5G532Y6EMRmjeoyzlLy0o1WjZLBx9kDXRQX2pSuATo=",
+        "originContent": ">   <g",
+        "translatedContent": ">   <g"
+      },
+      {
+        "row": 33,
+        "rowsha": "xLIZbuxVLEi3lGJitr2zIBvp7QPJYtEHRT3QRUoqFAY=",
+        "originContent": ">      id=\"OF\">",
+        "translatedContent": ">      id=\"OF\">"
+      },
+      {
+        "row": 34,
+        "rowsha": "nU/+3UyVNSy8YxTTx1YKW76HmUGNUYGDPEPZ118N8zk=",
+        "originContent": ">     <path",
+        "translatedContent": ">     <path"
+      },
+      {
+        "row": 35,
+        "rowsha": "q76fjaTF1jXKuArZU0eb2eOaWb73GHiAkwl8B/ZnDb8=",
+        "originContent": ">        id=\"OF_pin1\"",
+        "translatedContent": ">        id=\"OF_pin1\""
+      },
+      {
+        "row": 36,
+        "rowsha": "cYubh/byR3dpnD8FBCx6XMMWs52us9BPm/6Z+paz7mI=",
+        "originContent": ">        style=\"opacity:0;fill:#ebe713;fill-opacity:1\"",
+        "translatedContent": ">        style=\"opacity:0;fill:#ebe713;fill-opacity:1\""
+      },
+      {
+        "row": 37,
+        "rowsha": "/m01jA1vP+maaH1Vlpy+hbQg0oqzkmMbybgFIwTOg9k=",
+        "originContent": ">        class=\"st10\"",
+        "translatedContent": ">        class=\"st10\""
+      },
+      {
+        "row": 38,
+        "rowsha": "r1zRGmdt2rhLfwZjII7Muq+76XOLaJ9fXmFcUjlyRW8=",
+        "originContent": ">        d=\"M19.7,47.4c0,3.4-2.9,6.2-6.3,6.2s-6.2-2.8-6.3-6.2,2.7-6.3,6.1-6.4c3.4,0,6.3,2.6,6.5,6\" />",
+        "translatedContent": ">        d=\"M19.7,47.4c0,3.4-2.9,6.2-6.3,6.2s-6.2-2.8-6.3-6.2,2.7-6.3,6.1-6.4c3.4,0,6.3,2.6,6.5,6\" />"
+      },
+      {
+        "row": 39,
+        "rowsha": "nU/+3UyVNSy8YxTTx1YKW76HmUGNUYGDPEPZ118N8zk=",
+        "originContent": ">     <path",
+        "translatedContent": ">     <path"
+      },
+      {
+        "row": 40,
+        "rowsha": "NsbbRxVY8dFrrTjXsKg85JsTM4lMTyGf0LGXZW4KNxc=",
+        "originContent": ">        id=\"OF_pin2\"",
+        "translatedContent": ">        id=\"OF_pin2\""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": ">        style=\"opacity:0;fill:#ebe713;fill-opacity:1\"\n>        class=\"st10\"\n>        d=\"M19.8,88.1c0,3.4-2.9,6.2-6.3,6.2s-6.2-2.8-6.3-6.2c0-3.4,2.7-6.3,6.1-6.4,3.4,0,6.3,2.6,6.5,6\" />\n> ...\n> ```\n\n\n",
+    "ContentSha": "KSoMqOIeYJAt5mTPm2DYoEaQwExH4imKoz/CXcGZ6IA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": ">        style=\"opacity:0;fill:#ebe713;fill-opacity:1\"\n>        class=\"st10\"\n>        d=\"M19.8,88.1c0,3.4-2.9,6.2-6.3,6.2s-6.2-2.8-6.3-6.2c0-3.4,2.7-6.3,6.1-6.4,3.4,0,6.3,2.6,6.5,6\" />\n> ...\n> ```\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "cYubh/byR3dpnD8FBCx6XMMWs52us9BPm/6Z+paz7mI=",
+        "originContent": ">        style=\"opacity:0;fill:#ebe713;fill-opacity:1\"",
+        "translatedContent": ">        style=\"opacity:0;fill:#ebe713;fill-opacity:1\""
+      },
+      {
+        "row": 2,
+        "rowsha": "/m01jA1vP+maaH1Vlpy+hbQg0oqzkmMbybgFIwTOg9k=",
+        "originContent": ">        class=\"st10\"",
+        "translatedContent": ">        class=\"st10\""
+      },
+      {
+        "row": 3,
+        "rowsha": "PsS2qEeOcpyseIqzoKJdZw642KTp1FVicFTDP3XEFok=",
+        "originContent": ">        d=\"M19.8,88.1c0,3.4-2.9,6.2-6.3,6.2s-6.2-2.8-6.3-6.2c0-3.4,2.7-6.3,6.1-6.4,3.4,0,6.3,2.6,6.5,6\" />",
+        "translatedContent": ">        d=\"M19.8,88.1c0,3.4-2.9,6.2-6.3,6.2s-6.2-2.8-6.3-6.2c0-3.4,2.7-6.3,6.1-6.4,3.4,0,6.3,2.6,6.5,6\" />"
+      },
+      {
+        "row": 4,
+        "rowsha": "zaS0d5TRKpHOOiowN+J7tAfIF3opDY+34d0XAmPK79A=",
+        "originContent": "> ...",
+        "translatedContent": "> ..."
+      },
+      {
+        "row": 5,
+        "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+        "originContent": "> ```",
+        "translatedContent": "> ```"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,52 +1,91 @@
-# Interactive GCC
+
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# 인터랙티브 GCC
 
 [![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)
 [![contrib](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/alexandru-dinu/igcc/issues)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 > [!NOTE]
-> 원본 저장소는 Andy Balaam의 것으로 여기에서 확인할 수 있습니다: https://codeberg.org/andybalaam/igcc.
-> 이 포크에서는 일부 리팩토링을 진행했고 사용하기 쉽게 만들려고 노력했습니다.
+> Andy Balaam의 원본 저장소는 다음에서 확인할 수 있습니다: https://codeberg.org/andybalaam/igcc.
+> 이 포크에서는 일부 리팩토링을 진행하여 사용하기 쉽게 만들려고 했습니다.
 
 > [!WARNING]
-> 이 프로젝트는 C/C++ 작업 시 피드백 루프를 짧게 만들기 위한 해킹 시도이며, 명백히 심각한 용도로 의도된 것은 아닙니다.
+> 이 프로젝트는 C/C++ 작업 시 일부 상황에서 더 짧은 피드백 루프를 얻기 위한 해키(hacky)한 시도이며, 명백히 중요한 용도로 사용하기 위한 것은 아닙니다.
 
-Interactive GCC(`igcc`)는 C/C++용 읽기-평가-출력 루프(REPL)입니다. 사용자 명령으로 기본 소스 파일을 조작하며, 각 수정 후 소스를 컴파일하고, 결과 바이너리를 실행한 뒤 stdout과 stderr를 수집하는 방식으로 작동합니다.
-여러 줄(블록) 입력을 지원하므로 한 번에 여러 줄을 추가하고 컴파일러를 한 번만 호출할 수 있습니다(아래 예시 참조).
+Interactive GCC(`igcc`)는 C/C++용 읽기-평가-출력 루프(REPL)입니다. 사용자 명령으로 기본 소스 파일을 조작하고, 각 변경 후 소스를 컴파일한 다음 생성된 바이너리를 실행하여 stdout 및 stderr을 수집합니다.
+다중 줄(블록) 입력을 지원하므로 여러 줄을 한 번에 추가하고 컴파일러를 한 번만 호출할 수 있습니다(아래 예시 참고).
 
-다양한 헤더 파일을 포함할 수 있습니다. 편의를 위해 기본 헤더가 포함되어 있습니다: [`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h). 또한, 기본적으로 `using namespace std;`는 활성화되어 있지 않지만, 명시적으로 추가할 수 있습니다(아래 예시 참조).
+다양한 헤더 파일을 포함할 수 있습니다. 편의를 위해 기본 헤더가 포함되어 있습니다: [`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h). 또한, `using namespace std;`는 기본적으로 제공되지 않으나, 명시적으로 추가할 수 있습니다(아래 예시 참고).
 
-`igcc`의 다양한 설정은 [`config.yaml`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/config.yaml)을 참조하세요.
+`igcc`의 다양한 측면을 구성할 수 있습니다. 자세한 내용은 [`config.yaml`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/config.yaml)을 참조하십시오.
 
 ## 시작하기
 가장 쉬운 시작 방법은 [pipx](https://pipx.pypa.io/stable/)를 사용하는 것입니다:
 ```
 pipx install git+https://github.com/alexandru-dinu/igcc.git
 ```
-또는 `pip`를 사용할 수도 있습니다(전용 가상 환경 사용 권장).
+또는, `uv`를 사용할 수도 있습니다:
+```
+uv tool run git+https://github.com/alexandru-dinu/igcc
+```
+그리고 개발용:
+```
+git clone https://github.com/alexandru-dinu/igcc.git
+cd igcc
+uv sync
+```
 
-이제 다음 명령어로 REPL을 실행할 수 있습니다:
-```
-igcc
-```
 사용 가능한 인수:
-
+<!-- MDUP:BEG uv run igcc --help -->
 ```
-$ igcc --help
-usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]] [-l LIB [LIB ...]]
+usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]]
+            [-l LIB [LIB ...]]
 
 options:
   -h, --help            show this help message and exit
   -I INCLUDE [INCLUDE ...]
-                        Add INCLUDE to the list of directories to be searched for header files.
+                        Add INCLUDE to the list of directories to be searched
+                        for header files.
   -L LIBDIR [LIBDIR ...]
-                        Add LIBDIR to the list of directories to be searched for library files.
+                        Add LIBDIR to the list of directories to be searched
+                        for library files.
   -l LIB [LIB ...]      Search the library LIB when linking.
 ```
-코드는 GCC(`g++`)로 컴파일되며 결과(있는 경우)가 표시됩니다.  
+<!-- MDUP:END -->
+
+코드는 GCC(`g++`)로 컴파일되며, 결과(있는 경우)가 표시됩니다.
 도움말을 보려면 `.h`를 입력하세요:
-
-
 ```
 $ igcc
 [1]> .h
@@ -204,6 +243,6 @@ https://github.com/alexandru-dinu/igcc/issues 를 참조하세요
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
 
 ---

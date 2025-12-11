@@ -1,12 +1,44 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=Lily-404&project=blog&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Jimmy's Blog
 
-A minimalist personal blog system built on Next.js 15+.
+A minimalist personal blog system built with Next.js 15+.
 
 ## Technology Stack
 
 - **Framework**: Next.js 13+ (App Router)
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide Icons
+- **Style**: Tailwind CSS
+- **Icon**: Lucide Icons
 - **Theme**: Supports dark/light mode switching
 - **Deployment**: Vercel
 
@@ -102,6 +134,6 @@ MIT License
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
 
 ---

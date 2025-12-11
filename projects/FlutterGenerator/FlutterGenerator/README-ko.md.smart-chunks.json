@@ -1,0 +1,697 @@
+[
+  {
+    "Id": 1,
+    "Content": "# FlutterGenerator Installation\n\n1. Download and install the PY (fwGenerator.py) from [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases)\n2. Download Termux and run fwGenerator.py and copy the file and upload it to your Gihab with the name.",
+    "ContentSha": "EguboKbePk4LahAQkyG0PRs2K1pwajUm6R89wb6dZeM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# FlutterGenerator 설치\n\n1. [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases)에서 PY(fwGenerator.py)를 다운로드하고 설치합니다.\n2. Termux를 다운로드하고 fwGenerator.py를 실행한 후 파일을 복사하여 이름과 함께 GitHub에 업로드합니다.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "c7MAeFPfeffIWQbir+hyffksj7SRnTJJVaRBGia0ZPg=",
+        "originContent": "# FlutterGenerator Installation",
+        "translatedContent": "# FlutterGenerator 설치"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "R/R9dOHF5YXvKlIay6I9KZM3ZOmCSV9PAp1kGM2Lqqo=",
+        "originContent": "1. Download and install the PY (fwGenerator.py) from [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases)",
+        "translatedContent": "1. [GitHub Releases](https://github.com/FlutterGenerator/FlutterGenerator/releases)에서 PY(fwGenerator.py)를 다운로드하고 설치합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "FnJwnBIaqedpJGUmhWgkPWHeOqwECFF4c4iT+62Rhu8=",
+        "originContent": "2. Download Termux and run fwGenerator.py and copy the file and upload it to your Gihab with the name.",
+        "translatedContent": "2. Termux를 다운로드하고 fwGenerator.py를 실행한 후 파일을 복사하여 이름과 함께 GitHub에 업로드합니다."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n.github/workflows\n```",
+    "ContentSha": "UcbRvscoZwY4q3CA57C7K3wnJQ9ZJnZKB0P8ErnC/mQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n.github/workflows\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "h+5VBKPiWsVYs0NyTJBfL3lJ6M7D2SucQwC7kir6Fk8=",
+        "originContent": ".github/workflows",
+        "translatedContent": ".github/workflows"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "# Flutter YML Old 32bit 64bit",
+    "ContentSha": "eh2dpG/3ltUtL5ibNOIBsFLbYrG8gjIIj8Xx8/Lrzh8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Flutter YML 구버전 32비트 64비트",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "eh2dpG/3ltUtL5ibNOIBsFLbYrG8gjIIj8Xx8/Lrzh8=",
+        "originContent": "# Flutter YML Old 32bit 64bit",
+        "translatedContent": "# Flutter YML 구버전 32비트 64비트"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\nname: Flutter Build\n\non:\n  push:\n    branches:\n      - main\n  pull_request:\n    branches:\n      - main\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n\n    steps:\n      - name: Checkout repository\n        uses: actions/checkout@v6\n\n      - name: Set up JDK\n        uses: actions/setup-java@v5\n        with:\n          distribution: 'temurin'\n          java-version: '17'\n\n      - name: Set up Flutter\n        uses: subosito/flutter-action@v2\n        with:\n          flutter-version: '{flutter_sdk_version}'\n\n      - name: Print Flutter version\n        run: flutter --version\n\n      - name: Create and set up Flutter project\n        run: |\n          flutter create flutter_so\n          cd flutter_so\n          flutter pub get\n\n      - name: Build APK for arm64 and armeabi-v7a\n        run: |\n          cd flutter_so\n          flutter build apk --release --target-platform android-arm,android-arm64\n\n      - name: Upload libflutter.so for arm64\n        uses: actions/upload-artifact@v5\n        with:\n          name: libflutter_so_arm64\n          path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/arm64-v8a/libflutter.so\n\n      - name: Upload libflutter.so for armeabi-v7a\n        uses: actions/upload-artifact@v5\n        with:\n          name: libflutter_so_armeabi_v7a\n          path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/armeabi-v7a/libflutter.so\n```",
+    "ContentSha": "yTV0Ka703OHcVudH55nBc9bYCTK6F5YWhbJiUvr+Jl0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nname: Flutter Build\n\non:\n  push:\n    branches:\n      - main\n  pull_request:\n    branches:\n      - main\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n\n    steps:\n      - name: Checkout repository\n        uses: actions/checkout@v6\n\n      - name: Set up JDK\n        uses: actions/setup-java@v5\n        with:\n          distribution: 'temurin'\n          java-version: '17'\n\n      - name: Set up Flutter\n        uses: subosito/flutter-action@v2\n        with:\n          flutter-version: '{flutter_sdk_version}'\n\n      - name: Print Flutter version\n        run: flutter --version\n\n      - name: Create and set up Flutter project\n        run: |\n          flutter create flutter_so\n          cd flutter_so\n          flutter pub get\n\n      - name: Build APK for arm64 and armeabi-v7a\n        run: |\n          cd flutter_so\n          flutter build apk --release --target-platform android-arm,android-arm64\n\n      - name: Upload libflutter.so for arm64\n        uses: actions/upload-artifact@v5\n        with:\n          name: libflutter_so_arm64\n          path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/arm64-v8a/libflutter.so\n\n      - name: Upload libflutter.so for armeabi-v7a\n        uses: actions/upload-artifact@v5\n        with:\n          name: libflutter_so_armeabi_v7a\n          path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/armeabi-v7a/libflutter.so\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "JZqC151VWn3LaLQfulVkI03UM20mx2zZf26ck5qLc1I=",
+        "originContent": "name: Flutter Build",
+        "translatedContent": "name: Flutter Build"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "/IE1/RJkFioKmx+0E886tYovB6DXhxfe14EIqVDqe3U=",
+        "originContent": "on:",
+        "translatedContent": "on:"
+      },
+      {
+        "row": 5,
+        "rowsha": "nOtnMZ3ucWhmyv8g2ot0DOGGETRetBJ1eEX/A9lB4vo=",
+        "originContent": "  push:",
+        "translatedContent": "  push:"
+      },
+      {
+        "row": 6,
+        "rowsha": "i82v3B6OcxygYbCqOzRkocyichsuUxMBGUlfkmyE7uA=",
+        "originContent": "    branches:",
+        "translatedContent": "    branches:"
+      },
+      {
+        "row": 7,
+        "rowsha": "Gp7lq12iZhvHg9MqDkK0z/tkd1WWCKvW+MFBmNL9sg0=",
+        "originContent": "      - main",
+        "translatedContent": "      - main"
+      },
+      {
+        "row": 8,
+        "rowsha": "9zPGjk9dsDn0k+iov1TMYM+G1Y5NcHNJxrHVmt0//yQ=",
+        "originContent": "  pull_request:",
+        "translatedContent": "  pull_request:"
+      },
+      {
+        "row": 9,
+        "rowsha": "i82v3B6OcxygYbCqOzRkocyichsuUxMBGUlfkmyE7uA=",
+        "originContent": "    branches:",
+        "translatedContent": "    branches:"
+      },
+      {
+        "row": 10,
+        "rowsha": "Gp7lq12iZhvHg9MqDkK0z/tkd1WWCKvW+MFBmNL9sg0=",
+        "originContent": "      - main",
+        "translatedContent": "      - main"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "MdlDD0SwaBhkENfsyIRY4M9eZ7Q5lR8Dw5HPCs4/H/4=",
+        "originContent": "jobs:",
+        "translatedContent": "jobs:"
+      },
+      {
+        "row": 13,
+        "rowsha": "e/ww1l+yNzvl2SquYFvJCfK9He5LY0AV9c0NLqEiCtk=",
+        "originContent": "  build:",
+        "translatedContent": "  build:"
+      },
+      {
+        "row": 14,
+        "rowsha": "YPX+1GfynlA/mt/uIDupjes73e4YUduCf0seCMA4BZg=",
+        "originContent": "    runs-on: ubuntu-latest",
+        "translatedContent": "    runs-on: ubuntu-latest"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "hS4CmHrAmWwwZHAnLuwnwgytfTId/6QpTYuGJvdvdwg=",
+        "originContent": "    steps:",
+        "translatedContent": "    steps:"
+      },
+      {
+        "row": 17,
+        "rowsha": "enhvOdladC5bMrom8noDzlpbfAmmc0hjuNVSznALtJQ=",
+        "originContent": "      - name: Checkout repository",
+        "translatedContent": "      - name: Checkout repository"
+      },
+      {
+        "row": 18,
+        "rowsha": "MI6iKH2hKkNxy6I+jKh0D7MrjreZ9nG1bXkO1yhkV1w=",
+        "originContent": "        uses: actions/checkout@v6",
+        "translatedContent": "        uses: actions/checkout@v6"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "xnGyYazOZZ4UTUoTu5B+Az62L/lS3V1lDBRBZg0GL6c=",
+        "originContent": "      - name: Set up JDK",
+        "translatedContent": "      - name: Set up JDK"
+      },
+      {
+        "row": 21,
+        "rowsha": "BgntOeK+LLVEaz/4pOQmJpHSH8aoPRe8v4BfRLrUAd0=",
+        "originContent": "        uses: actions/setup-java@v5",
+        "translatedContent": "        uses: actions/setup-java@v5"
+      },
+      {
+        "row": 22,
+        "rowsha": "Lu8+iomrI/Mtd0xcO7VunVyqrK7xc/iXHS5ehYng/5M=",
+        "originContent": "        with:",
+        "translatedContent": "        with:"
+      },
+      {
+        "row": 23,
+        "rowsha": "WAjRbXihqLm/OgYNBAUQygeiXkFvGt1Ns52JGJow19Y=",
+        "originContent": "          distribution: 'temurin'",
+        "translatedContent": "          distribution: 'temurin'"
+      },
+      {
+        "row": 24,
+        "rowsha": "8r0VCdoPe8TsVRndoq/HHXN/aZKy3Q8gpJuQ1MnPH8I=",
+        "originContent": "          java-version: '17'",
+        "translatedContent": "          java-version: '17'"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "DSKew0vDmBuzA+oCEn8Y6ZQT1BtXTWXUV7EJxt0vD5k=",
+        "originContent": "      - name: Set up Flutter",
+        "translatedContent": "      - name: Set up Flutter"
+      },
+      {
+        "row": 27,
+        "rowsha": "1d6Dr7HTCpjcXLp089m/3uO15dFKLFLRCkoQXtkaZAU=",
+        "originContent": "        uses: subosito/flutter-action@v2",
+        "translatedContent": "        uses: subosito/flutter-action@v2"
+      },
+      {
+        "row": 28,
+        "rowsha": "Lu8+iomrI/Mtd0xcO7VunVyqrK7xc/iXHS5ehYng/5M=",
+        "originContent": "        with:",
+        "translatedContent": "        with:"
+      },
+      {
+        "row": 29,
+        "rowsha": "6HZN2JAIF0XqpoYR5+BUDj6WxjnYwe7Yng+B9E3nfDA=",
+        "originContent": "          flutter-version: '{flutter_sdk_version}'",
+        "translatedContent": "          flutter-version: '{flutter_sdk_version}'"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "vBbTmqO5xMtJLZo1NIIDsruXkPtzakQ2l5auDhj2oII=",
+        "originContent": "      - name: Print Flutter version",
+        "translatedContent": "      - name: Print Flutter version"
+      },
+      {
+        "row": 32,
+        "rowsha": "VPqMz15qzkwZ3YYo4ClS0PgV5LmjybWv1L3tXozyl5Q=",
+        "originContent": "        run: flutter --version",
+        "translatedContent": "        run: flutter --version"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "r/VUrEjWun4B8IUeIX0DwZcDq/8DvyvLgjwL8YsLvaM=",
+        "originContent": "      - name: Create and set up Flutter project",
+        "translatedContent": "      - name: Create and set up Flutter project"
+      },
+      {
+        "row": 35,
+        "rowsha": "DOQ3SJWha68JkKp062R172o+bvEGb2I+dg3VJ6e0ZQM=",
+        "originContent": "        run: |",
+        "translatedContent": "        run: |"
+      },
+      {
+        "row": 36,
+        "rowsha": "Utii9EobuxrojKKFZej8GENpbC7ryivR8MGL2ymYetA=",
+        "originContent": "          flutter create flutter_so",
+        "translatedContent": "          flutter create flutter_so"
+      },
+      {
+        "row": 37,
+        "rowsha": "BSHfjvprrkVYfBxAwT5anDmHT13HmypbwXc2dWSn994=",
+        "originContent": "          cd flutter_so",
+        "translatedContent": "          cd flutter_so"
+      },
+      {
+        "row": 38,
+        "rowsha": "W0MdB6f9Q8zTFFqrc6SfU8AmRmR6p0sAD6o6A6F/DWo=",
+        "originContent": "          flutter pub get",
+        "translatedContent": "          flutter pub get"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "CtfoAnqc166GGUFyJQDepN3Y4kEXSXdQbzlz7wgB7Qo=",
+        "originContent": "      - name: Build APK for arm64 and armeabi-v7a",
+        "translatedContent": "      - name: Build APK for arm64 and armeabi-v7a"
+      },
+      {
+        "row": 41,
+        "rowsha": "DOQ3SJWha68JkKp062R172o+bvEGb2I+dg3VJ6e0ZQM=",
+        "originContent": "        run: |",
+        "translatedContent": "        run: |"
+      },
+      {
+        "row": 42,
+        "rowsha": "BSHfjvprrkVYfBxAwT5anDmHT13HmypbwXc2dWSn994=",
+        "originContent": "          cd flutter_so",
+        "translatedContent": "          cd flutter_so"
+      },
+      {
+        "row": 43,
+        "rowsha": "fYH4TjL+Wwm+vTR5Twi5Jhi7FF1ilqLWGvOPRiNlOr8=",
+        "originContent": "          flutter build apk --release --target-platform android-arm,android-arm64",
+        "translatedContent": "          flutter build apk --release --target-platform android-arm,android-arm64"
+      },
+      {
+        "row": 44,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 45,
+        "rowsha": "ceomNMBARk0KWpvxfgZoJLeQ9pcmBXpG1Nw5brijKjE=",
+        "originContent": "      - name: Upload libflutter.so for arm64",
+        "translatedContent": "      - name: Upload libflutter.so for arm64"
+      },
+      {
+        "row": 46,
+        "rowsha": "uHK2PvXK7qLoiejobxmH0kHQKJN8Ey7LAQi0c/CSHp0=",
+        "originContent": "        uses: actions/upload-artifact@v5",
+        "translatedContent": "        uses: actions/upload-artifact@v5"
+      },
+      {
+        "row": 47,
+        "rowsha": "Lu8+iomrI/Mtd0xcO7VunVyqrK7xc/iXHS5ehYng/5M=",
+        "originContent": "        with:",
+        "translatedContent": "        with:"
+      },
+      {
+        "row": 48,
+        "rowsha": "0om8nz6B5lSOZuVd3a7CSQ82jk6n+JYgk2Dt8Et2Y0A=",
+        "originContent": "          name: libflutter_so_arm64",
+        "translatedContent": "          name: libflutter_so_arm64"
+      },
+      {
+        "row": 49,
+        "rowsha": "P8YAEI8oyQvpTtXbJXzeQX+a6KbFV6r8Uzg4/zDcv8Y=",
+        "originContent": "          path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/arm64-v8a/libflutter.so",
+        "translatedContent": "          path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/arm64-v8a/libflutter.so"
+      },
+      {
+        "row": 50,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 51,
+        "rowsha": "QaRoi2FqcdORzVWhRWjSDhirNiO50SedZu7p/LVWCtc=",
+        "originContent": "      - name: Upload libflutter.so for armeabi-v7a",
+        "translatedContent": "      - name: Upload libflutter.so for armeabi-v7a"
+      },
+      {
+        "row": 52,
+        "rowsha": "uHK2PvXK7qLoiejobxmH0kHQKJN8Ey7LAQi0c/CSHp0=",
+        "originContent": "        uses: actions/upload-artifact@v5",
+        "translatedContent": "        uses: actions/upload-artifact@v5"
+      },
+      {
+        "row": 53,
+        "rowsha": "Lu8+iomrI/Mtd0xcO7VunVyqrK7xc/iXHS5ehYng/5M=",
+        "originContent": "        with:",
+        "translatedContent": "        with:"
+      },
+      {
+        "row": 54,
+        "rowsha": "ViT2TvF/tTvQPeKwou+fN0+6/g8UYYBkfS5LkYlsf+k=",
+        "originContent": "          name: libflutter_so_armeabi_v7a",
+        "translatedContent": "          name: libflutter_so_armeabi_v7a"
+      },
+      {
+        "row": 55,
+        "rowsha": "AjE6/k0vBz00V/3jBXV4rcrF3jGxyl3b1q1AKOSPgmg=",
+        "originContent": "          path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/armeabi-v7a/libflutter.so",
+        "translatedContent": "          path: flutter_so/build/app/intermediates/merged_native_libs/release/out/lib/armeabi-v7a/libflutter.so"
+      },
+      {
+        "row": 56,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "# MT Manager",
+    "ContentSha": "ncIcNgRcYr8nTjgyLCfkPSQNa6EwNPfVx323Zrjltu4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# MT 매니저",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ncIcNgRcYr8nTjgyLCfkPSQNa6EwNPfVx323Zrjltu4=",
+        "originContent": "# MT Manager",
+        "translatedContent": "# MT 매니저"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nlibflutter.so search (stable) and (beta) and (dev)\nversion code\n```",
+    "ContentSha": "gdlb102sIjQqNgfHoLhieaYJrdboSajR3w8KoqgUCc8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nlibflutter.so search (stable) and (beta) and (dev)\nversion code\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "/uNIXUGCkj2LkdazzqHB/TmEQF2jybs7dt8I9H3UlHs=",
+        "originContent": "libflutter.so search (stable) and (beta) and (dev)",
+        "translatedContent": "libflutter.so search (stable) and (beta) and (dev)"
+      },
+      {
+        "row": 3,
+        "rowsha": "0fxSKd603RrHOcAYEOuGTmZQWjLFfDxWK/V9fK4u88A=",
+        "originContent": "version code",
+        "translatedContent": "version code"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "# Archive|Flutter Version code",
+    "ContentSha": "7Jfr17J36VCT2W4taQjzblCfKW/FD9MeoQ/9m2K4/9Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 아카이브|Flutter 버전 코드",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7Jfr17J36VCT2W4taQjzblCfKW/FD9MeoQ/9m2K4/9Y=",
+        "originContent": "# Archive|Flutter Version code",
+        "translatedContent": "# 아카이브|Flutter 버전 코드"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nhttps://docs.flutter.dev/release/archive\n```",
+    "ContentSha": "RFccpBPHY8rKVT+sffYM8xo3SYDEADPqWb8E2HBj1zI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nhttps://docs.flutter.dev/release/archive\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3Lz2730XqATROcW/MlSfanKNe2TQNZfKi5yTwDKFoJw=",
+        "originContent": "https://docs.flutter.dev/release/archive",
+        "translatedContent": "https://docs.flutter.dev/release/archive"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "# Commands on Termux",
+    "ContentSha": "ePP0qgNS+ICWZfz+jC8V+LODi9ZQYmCXLjQs8J7+mmg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Termux에서의 명령어",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ePP0qgNS+ICWZfz+jC8V+LODi9ZQYmCXLjQs8J7+mmg=",
+        "originContent": "# Commands on Termux",
+        "translatedContent": "# Termux에서의 명령어"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\ntermux-setup-storage\napt update\napt upgrade\npkg install python -y\npython fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so\n```",
+    "ContentSha": "r7BkB2K0ePx8TgeyxuIOyqCfMAbx6c4rM8D9if5Gyv8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ntermux-setup-storage\napt update\napt upgrade\npkg install python -y\npython fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "DRtQGOGn316PsWz8Mssp/5i8+Cj3a41+h0gVmrqTtAs=",
+        "originContent": "termux-setup-storage",
+        "translatedContent": "termux-setup-storage"
+      },
+      {
+        "row": 3,
+        "rowsha": "s/cNGxycq1Uk0ApcZY69aeY89ZL/u/Hn6kVmBIRnR/w=",
+        "originContent": "apt update",
+        "translatedContent": "apt update"
+      },
+      {
+        "row": 4,
+        "rowsha": "09YMzc4ITvh9fIiedIYjRk2CKQIqz2yRiWs4wKrdxWM=",
+        "originContent": "apt upgrade",
+        "translatedContent": "apt upgrade"
+      },
+      {
+        "row": 5,
+        "rowsha": "sZ1O8LapnnMmSDC2umFe+l0B11zKoSdX2IFIU6DBPHQ=",
+        "originContent": "pkg install python -y",
+        "translatedContent": "pkg install python -y"
+      },
+      {
+        "row": 6,
+        "rowsha": "j5zNpNB/s0biGQgGacp+v+Tn4S+7kpbd8fV4ow9uqvo=",
+        "originContent": "python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so",
+        "translatedContent": "python fwGenerator.py /storage/emulated/0/MT2/apks/arm64-v8a/libflutter.so"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "# Tutorial Video\n[![Play on Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)\n\n# [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)\n\n# Info\n\n**🚀 Dart Version: 𒁍 2.7.0-dev.2.1 ➢ 3.10.3**\n\n**🚀 Flutter Version: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.4**\n",
+    "ContentSha": "IgkrDROXj4TD/N3Put83e7pzjdjLn9WembEUE/Dq/GY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 튜토리얼 비디오\n[![유튜브에서 재생](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)\n\n# [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)\n\n# 정보\n\n**🚀 다트 버전: 𒁍 2.7.0-dev.2.1 ➢ 3.10.3**\n\n**🚀 플러터 버전: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.4**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "hthk169s/9auGCkbKG9Gz/y4l58n0YBAMee9Qomlrqs=",
+        "originContent": "# Tutorial Video",
+        "translatedContent": "# 튜토리얼 비디오"
+      },
+      {
+        "row": 2,
+        "rowsha": "R2Wls/yKo+3XXG6zEgMiEYZRzbSvPxNXTUOTLAqBxDE=",
+        "originContent": "[![Play on Youtube](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)",
+        "translatedContent": "[![유튜브에서 재생](https://img.youtube.com/vi/oT6yT8LP1yY/0.jpg)](https://www.youtube.com/watch?v=oT6yT8LP1yY)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "e1kTp5S58yPgIAjlI73b8mtW5fajhHbb66JSTQqk5UA=",
+        "originContent": "# [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)",
+        "translatedContent": "# [Flutter-SO-Build](https://github.com/FlutterGenerator/Flutter-SO-Build)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "gD8UgmFgMIWDpAMG8LHTw3GIqe1V+bQ0FKaqwh2lDoc=",
+        "originContent": "# Info",
+        "translatedContent": "# 정보"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "EYs2KPzXnIVh43WvnX2NyiIEk1SppVS6UdHdaHXpGW8=",
+        "originContent": "**🚀 Dart Version: 𒁍 2.7.0-dev.2.1 ➢ 3.10.3**",
+        "translatedContent": "**🚀 다트 버전: 𒁍 2.7.0-dev.2.1 ➢ 3.10.3**"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "fzVexs5LkTfWxL6c4yDcfOcc5tu9W42923z89wZQlFk=",
+        "originContent": "**🚀 Flutter Version: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.4**",
+        "translatedContent": "**🚀 플러터 버전: 𒁍 v1.12.13+hotfix.5 ➢ 3.38.4**"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

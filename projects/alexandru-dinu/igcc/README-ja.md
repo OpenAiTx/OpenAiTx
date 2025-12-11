@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # インタラクティブGCC
 
 [![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)
@@ -5,48 +37,55 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 > [!NOTE]
-> 元のリポジトリはAndy Balaamによるものです: https://codeberg.org/andybalaam/igcc.
-> このフォークでは、リファクタリングを行い、より使いやすくしようと試みています。
+> Andy Balaamによるオリジナルリポジトリはこちらです: https://codeberg.org/andybalaam/igcc.
+> このフォークでは、リファクタリングを行い、使いやすくなるように工夫しました。
 
 > [!WARNING]
-> 本プロジェクトは、C/C++作業時のフィードバックループを短縮するためのハッキーな試みであり、真剣な用途には明らかに適していません。
+> このプロジェクトは、C/C++での開発時にフィードバックループを短縮することを目的としたハッキーな試みであり、明らかに本格的な用途を想定したものではありません。
 
-インタラクティブGCC（`igcc`）はC/C++のリード・イバル・プリントループ（REPL）です。ユーザーコマンドでベースのソースファイルを操作し、変更ごとにソースをコンパイルし、生成されたバイナリを実行して標準出力と標準エラー出力を収集します。
-複数行（ブロック）入力に対応しており、一度に複数行を追加してコンパイラを一度だけ呼び出すことができます（以下の例参照）。
+インタラクティブGCC（`igcc`）は、C/C++用のread-eval-printループ（REPL）です。これは、ユーザーコマンドでベースとなるソースファイルを操作し、各変更後にソースをコンパイルし、生成されたバイナリを実行してそのstdoutとstderrを収集することで動作します。
+複数行（ブロック）入力もサポートされており、一度に複数行を追加してコンパイラを一度だけ呼び出すことができます（下記の例を参照）。
 
-様々なヘッダーファイルをインクルード可能です。便宜上、デフォルトのヘッダーとして [`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h) が含まれています。また、`using namespace std;` はデフォルトでは利用できませんが、明示的に追加することも可能です（以下の例参照）。
+様々なヘッダファイルをインクルードできます。利便性のため、デフォルトで[`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h)がインクルードされています。また、`using namespace std;`はデフォルトでは有効になっていませんが、明示的に追加することができます（下記の例参照）。
 
-`igcc` の様々な設定は [`config.yaml`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/config.yaml) を参照してください。
+`igcc`の様々な設定項目は、[`config.yaml`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/config.yaml)で変更できます。
 
 ## はじめに
-最も簡単な始め方は [pipx](https://pipx.pypa.io/stable/) を使うことです:
+最も簡単な始め方は、[pipx](https://pipx.pypa.io/stable/)を使うことです。
 ```
 pipx install git+https://github.com/alexandru-dinu/igcc.git
 ```
-または、`pip` を使用することもできます（専用の仮想環境を推奨します）。
+または、`uv` を使うこともできます。
+```
+uv tool run git+https://github.com/alexandru-dinu/igcc
+```
+開発者向けには：
+```
+git clone https://github.com/alexandru-dinu/igcc.git
+cd igcc
+uv sync
+```
 
-これで REPL を次のコマンドで起動できます：
+使用可能な引数：
+<!-- MDUP:BEG uv run igcc --help -->
 ```
-igcc
-```
-利用可能な引数:
-
-```
-$ igcc --help
-usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]] [-l LIB [LIB ...]]
+usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]]
+            [-l LIB [LIB ...]]
 
 options:
   -h, --help            show this help message and exit
   -I INCLUDE [INCLUDE ...]
-                        Add INCLUDE to the list of directories to be searched for header files.
+                        Add INCLUDE to the list of directories to be searched
+                        for header files.
   -L LIBDIR [LIBDIR ...]
-                        Add LIBDIR to the list of directories to be searched for library files.
+                        Add LIBDIR to the list of directories to be searched
+                        for library files.
   -l LIB [LIB ...]      Search the library LIB when linking.
 ```
-コードはGCC（`g++`）でコンパイルされ、結果（ある場合）が表示されます。  
-ヘルプは`.h`と入力してください：  
+<!-- MDUP:END -->
 
-
+コードはGCC（`g++`）でコンパイルされ、結果（あれば）が表示されます。
+ヘルプを表示するには `.h` と入力してください。
 ```
 $ igcc
 [1]> .h
@@ -204,6 +243,6 @@ https://github.com/alexandru-dinu/igcc/issues を参照してください
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
 
 ---

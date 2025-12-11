@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Interactive GCC
 
 [![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)
@@ -23,30 +55,37 @@ The easiest way to get started is to use [pipx](https://pipx.pypa.io/stable/):
 ```
 pipx install git+https://github.com/alexandru-dinu/igcc.git
 ```
-Alternatively, you can also just use `pip` (a dedicated virtual environment is recommended).
-
-Now you can run the REPL with:
+Alternatively, you can also use `uv`:
 ```
-igcc
+uv tool run git+https://github.com/alexandru-dinu/igcc
+```
+And for dev:
+```
+git clone https://github.com/alexandru-dinu/igcc.git
+cd igcc
+uv sync
 ```
 
 Available args:
+<!-- MDUP:BEG uv run igcc --help -->
 ```
-$ igcc --help
-usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]] [-l LIB [LIB ...]]
+usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]]
+            [-l LIB [LIB ...]]
 
 options:
   -h, --help            show this help message and exit
   -I INCLUDE [INCLUDE ...]
-                        Add INCLUDE to the list of directories to be searched for header files.
+                        Add INCLUDE to the list of directories to be searched
+                        for header files.
   -L LIBDIR [LIBDIR ...]
-                        Add LIBDIR to the list of directories to be searched for library files.
+                        Add LIBDIR to the list of directories to be searched
+                        for library files.
   -l LIB [LIB ...]      Search the library LIB when linking.
 ```
+<!-- MDUP:END -->
 
 The code will be compiled with GCC (`g++`) and the results (if any) will be displayed.
 Type `.h` for help:
-
 ```
 $ igcc
 [1]> .h

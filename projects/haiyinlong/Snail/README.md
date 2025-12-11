@@ -1,3 +1,36 @@
+
+<div align="right">
+  <details open>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=haiyinlong&project=Snail&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+
+</div>
+
 <!-- 
 Spring Boot 3 微服务脚手架, Spring Cloud OAuth2 认证, shadcn ui 后台模板, 
 Java 快速开发框架, Spring Boot Admin 前后端分离, Nacos 配置中心, 

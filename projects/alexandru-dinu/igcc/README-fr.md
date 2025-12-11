@@ -1,18 +1,50 @@
-# GCC interactif
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=alexandru-dinu&project=igcc&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# GCC Interactif
 
 [![tests](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml/badge.svg)](https://github.com/alexandru-dinu/igcc/actions/workflows/main.yml)
 [![contrib](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/alexandru-dinu/igcc/issues)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 > [!NOTE]
-> Le dépôt original d'Andy Balaam est ici : https://codeberg.org/andybalaam/igcc.
-> Dans ce fork, j'ai fait un peu de refactoring et essayé de le rendre plus facile à utiliser.
+> Le dépôt original d’Andy Balaam se trouve ici : https://codeberg.org/andybalaam/igcc.
+> Dans ce fork, j'ai effectué quelques refactorisations et essayé de le rendre plus facile à utiliser.
 
-> [!WARNING]
-> Ce projet est une tentative bricolée pour obtenir une boucle de rétroaction plus courte lors du travail avec C/C++ dans certains cas et n'est évidemment pas destiné à un usage sérieux.
+> [!AVERTISSEMENT]
+> Ce projet est une tentative bricolée pour obtenir une boucle de rétroaction plus courte lors du travail avec C/C++ dans certains cas, et il n'est évidemment pas destiné à un usage sérieux.
 
-GCC interactif (`igcc`) est une boucle de lecture-évaluation-affichage (REPL) pour C/C++. Il fonctionne en manipulant un fichier source de base avec des commandes utilisateur, compile la source après chaque modification, puis exécute le binaire résultant et collecte sa sortie stdout & stderr.
-L'entrée multi-lignes (bloc) est prise en charge, vous pouvez donc ajouter plusieurs lignes en une seule fois et invoquer le compilateur une seule fois (exemples ci-dessous).
+GCC interactif (`igcc`) est une boucle read-eval-print (REPL) pour C/C++. Il fonctionne en manipulant un fichier source de base via les commandes utilisateur, compile la source après chaque modification, puis exécute le binaire résultant et collecte sa sortie standard et son erreur standard.
+L'entrée multi-lignes (bloc) est prise en charge, vous pouvez donc ajouter plusieurs lignes d'un coup et invoquer le compilateur une seule fois (exemples ci-dessous).
 
 Vous pouvez inclure divers fichiers d'en-tête. Pour plus de commodité, un en-tête par défaut est inclus : [`boilerplate.h`](https://github.com/alexandru-dinu/igcc/blob/main/igcc/assets/boilerplate.h). De plus, `using namespace std;` n'est pas disponible par défaut, mais vous pouvez l'ajouter explicitement (exemple ci-dessous).
 
@@ -23,30 +55,37 @@ La façon la plus simple de commencer est d'utiliser [pipx](https://pipx.pypa.io
 ```
 pipx install git+https://github.com/alexandru-dinu/igcc.git
 ```
-Alternativement, vous pouvez également simplement utiliser `pip` (un environnement virtuel dédié est recommandé).
-
-Vous pouvez maintenant exécuter le REPL avec :
+Vous pouvez également utiliser `uv` :
 ```
-igcc
+uv tool run git+https://github.com/alexandru-dinu/igcc
+```
+Et pour le développement :
+```
+git clone https://github.com/alexandru-dinu/igcc.git
+cd igcc
+uv sync
 ```
 
 Arguments disponibles :
+<!-- MDUP:BEG uv run igcc --help -->
 ```
-$ igcc --help
-usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]] [-l LIB [LIB ...]]
+usage: igcc [-h] [-I INCLUDE [INCLUDE ...]] [-L LIBDIR [LIBDIR ...]]
+            [-l LIB [LIB ...]]
 
 options:
   -h, --help            show this help message and exit
   -I INCLUDE [INCLUDE ...]
-                        Add INCLUDE to the list of directories to be searched for header files.
+                        Add INCLUDE to the list of directories to be searched
+                        for header files.
   -L LIBDIR [LIBDIR ...]
-                        Add LIBDIR to the list of directories to be searched for library files.
+                        Add LIBDIR to the list of directories to be searched
+                        for library files.
   -l LIB [LIB ...]      Search the library LIB when linking.
 ```
+<!-- MDUP:END -->
 
 Le code sera compilé avec GCC (`g++`) et les résultats (le cas échéant) seront affichés.
-Tapez `.h` pour obtenir de l’aide :
-
+Tapez `.h` pour obtenir de l'aide :
 ```
 $ igcc
 [1]> .h
@@ -204,6 +243,6 @@ Voir https://github.com/alexandru-dinu/igcc/issues
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-11
 
 ---
