@@ -5,58 +5,72 @@
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN">簡體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko">韓國語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi">印地語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th">泰語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr">法語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de">德語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es">西班牙語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it">義大利語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru">俄語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt">葡萄牙語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl">荷蘭語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl">波蘭語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar">阿拉伯語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa">波斯語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">土耳其語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">越南語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">印尼語</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">阿薩姆語</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-一款用 Rust 開發的應用程式，可將容器映像（如 Docker 等）轉換為 Git 儲存庫。每個容器層都對應為一個 Git 提交，完整保留原始映像的歷史和結構。
+[![文件說明](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![授權](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![下載量](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
+
+[//]: # (mock for future test.yaml)
+[//]: # ([![測試狀態]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+
+<div align="left"> </div>  
+</div>
+
+一個用於將容器映像檔（Docker 等）轉換為 Git 儲存庫的 Rust 應用程式。每個容器層都被表示為一個 Git 提交，保留原始映像的歷史和結構。
 
 ![OCI2Git 轉換 nginx 映像的演示](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
-## 特色
+## 功能特色
 
-- 分析 Docker 映像並提取層級資訊
-- 建立一個 Git 儲存庫，每個映像層級都以一次提交表示
-- 支援空層級（如 ENV、WORKDIR 等）作為空提交
-- 完整的中繼資料提取至 Markdown 格式
-- 可擴充架構以支援不同的容器引擎
+- 分析 Docker 映像並提取層資訊
+- 建立一個 Git 儲存庫，每個映像層都被表示為一個提交
+- 支援空層（如 ENV、WORKDIR 等）以空提交方式呈現
+- 完整的中繼資料抽取並匯出為 Markdown 格式
+- 可擴充架構，支援不同的容器引擎
 
-## 使用案例
+## 使用情境
 
-### 層級差異比對
-在排查容器問題時，可以利用 Git 強大的差異比對功能，精確找出任意兩層之間的變化。透過執行 `git diff` 於提交之間，工程師能清楚看到哪些檔案被新增、修改或刪除，使理解每個 Dockerfile 指令的影響及定位問題變更變得更加容易。
-![層級差異範例](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### 層差異比對
+在排查容器問題時，可以利用 Git 強大的差異比較功能來精確辨識任兩層之間的變更。透過在提交間執行 `git diff`，工程師可以清楚看到哪些檔案被新增、修改或刪除，更容易理解每個 Dockerfile 指令的影響並定位問題變更。
+![層差異範例](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### 來源追蹤
-利用 `git blame`，開發者可迅速判斷是哪一層級引入了特定檔案或程式碼行。這在診斷設定檔或相依性問題時尤其有價值。無需手動檢查每個層級，即可直接追溯任何檔案的來源層級及對應的 Dockerfile 指令。
+利用 `git blame`，開發者能快速判斷是哪一層引入了特定檔案或程式碼行。這在診斷設定檔或相依套件問題時特別有用。無需手動檢查每一層，您可立即追溯任何檔案的來源層及對應的 Dockerfile 指令。
 
 ### 檔案生命週期追蹤
-OCI2Git 讓您能夠追蹤特定檔案在容器映像歷史中的演變過程。您可以觀察檔案何時被建立、如何於各層級中被修改，以及是否／何時最終被移除。這種全面性檢視有助於理解檔案的演進，而無需手動追蹤可能多達數十層的變更。
+OCI2Git 讓您能夠追蹤特定檔案在容器映像歷史中的演變過程。您可以觀察檔案首次建立的時間、在各層間的修改，以及最終被移除的時點。這種全方位檢視，協助了解檔案演化過程，而不必手動追蹤數十層的變更。
 
-若要追蹤容器映像中某檔案的歷史——包括何時首次出現、被更動或刪除——轉換後可使用以下 Git 指令：
+要追蹤容器映像中檔案的歷史—包括首次出現、被修改或刪除的時點—您可以在轉換後使用以下 Git 指令：
 
 ```bash
 # Full history of a file (including renames)
@@ -192,7 +206,6 @@ repository/
 ├── Image.md     # Complete image metadata
 └── rootfs/      # Filesystem content from the container
 ```
-  
 ## 系統需求
 
 - Rust 2021 版本
@@ -203,9 +216,13 @@ repository/
 
 MIT
 
+[文件]: https://docs.rs/oci2git/
+
+
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

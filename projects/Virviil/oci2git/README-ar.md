@@ -24,39 +24,53 @@
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-تطبيق Rust يقوم بتحويل صور الحاويات (Docker وغيرها) إلى مستودعات Git. يتم تمثيل كل طبقة من الحاوية على هيئة عملية Git commit، مع الحفاظ على تاريخ وبنية الصورة الأصلية.
+[![التوثيق](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![الرخصة](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![التنزيلات](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-![عرض توضيحي لتحويل صورة nginx باستخدام OCI2Git](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+[//]: # (محاكاة لملف test.yaml مستقبلي)
+[//]: # ([![حالة الاختبار]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+
+<div align="left"> </div>  
+</div>
+
+تطبيق بلغة Rust يقوم بتحويل صور الحاويات (Docker، وغيرها) إلى مستودعات Git. كل طبقة في الحاوية تمثل كتزامن في Git، مع الحفاظ على السجل والبنية للصورة الأصلية.
+
+![عرض توضيحي لتحويل صورة nginx بواسطة OCI2Git](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## الميزات
 
 - تحليل صور Docker واستخراج معلومات الطبقات
-- إنشاء مستودع Git حيث يتم تمثيل كل طبقة صورة كعملية إيداع (commit)
-- دعم الطبقات الفارغة (مثل ENV، WORKDIR، إلخ) كعمليات إيداع فارغة
-- استخراج كامل للبيانات التعريفية بصيغة Markdown
+- إنشاء مستودع Git حيث تمثل كل طبقة صورة تزامنًا منفصلاً
+- دعم الطبقات الفارغة (ENV، WORKDIR، إلخ) كتزامنات فارغة
+- استخراج كامل للبيانات الوصفية بتنسيق Markdown
 - بنية قابلة للتوسعة لدعم محركات الحاويات المختلفة
 
 ## حالات الاستخدام
 
-### مقارنة الطبقات (Layer Diffing)
-عند استكشاف مشكلات الحاويات، يمكنك استخدام إمكانيات Git القوية للمقارنة لتحديد ما الذي تغير بالضبط بين أي طبقتين. من خلال تشغيل `git diff` بين عمليات الإيداع، يمكن للمهندسين رؤية الملفات التي أضيفت أو عُدلت أو حُذفت بدقة، مما يجعل من السهل فهم تأثير كل تعليمة في Dockerfile وتحديد التغييرات المسببة للمشكلات.
+### مقارنة الطبقات
+عند استكشاف مشاكل الحاويات، يمكنك استخدام قدرات Git القوية للمقارنة لمعرفة التغييرات الدقيقة بين أي طبقتين. باستخدام أمر `git diff` بين التزامين، يمكن للمهندسين رؤية الملفات التي تمت إضافتها أو تعديلها أو حذفها بدقة، مما يسهل فهم أثر كل تعليمة Dockerfile وتحديد التغييرات المسببة للمشاكل.
 ![مثال لمقارنة الطبقات](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### تتبع المصدر (Origin Tracking)
-باستخدام `git blame`، يمكن للمطورين تحديد الطبقة التي أدخلت ملفًا أو سطرًا معينًا بسرعة. هذا مفيد بشكل خاص عند تشخيص المشكلات في ملفات التكوين أو التبعيات. بدلاً من فحص كل طبقة يدويًا، يمكنك تتبع مصدر أي ملف مباشرة إلى طبقة المصدر وتعليمة Dockerfile المقابلة.
+### تتبع الأصل
+باستخدام `git blame`، يمكن للمطورين بسرعة تحديد الطبقة التي أدخلت ملفًا معينًا أو سطرًا من الشيفرة. هذا مفيد بشكل خاص عند تشخيص مشاكل ملفات الإعداد أو الاعتمادات. بدلاً من تفقد كل طبقة يدويًا، يمكنك تتبع أصل أي ملف مباشرة إلى الطبقة الأصلية وتعليمة Dockerfile المقابلة.
 
-### تتبع دورة حياة الملف (File Lifecycle Tracking)
-تتيح لك OCI2Git متابعة رحلة ملف معين خلال تاريخ صورة الحاوية. يمكنك ملاحظة متى تم إنشاء الملف لأول مرة، وكيف تم تعديله عبر الطبقات، وإذا / ومتى تم حذفه نهائيًا. يوفر هذا العرض الشامل فهمًا لتطور الملف دون الحاجة إلى تتبع التغييرات يدويًا عبر العديد من الطبقات.
+### تتبع دورة حياة الملفات
+تتيح لك أداة OCI2Git متابعة مسار أي ملف عبر تاريخ صورة الحاوية. يمكنك معرفة متى تم إنشاء الملف لأول مرة، وكيف تم تعديله عبر الطبقات، وإذا أو متى تم حذفه في النهاية. توفر هذه الرؤية الشاملة فهماً لتطور الملف دون الحاجة لتعقب التغييرات يدويًا عبر العديد من الطبقات.
 
-لتتبع تاريخ ملف في صورة الحاوية الخاصة بك — بما في ذلك متى ظهر لأول مرة، أو تم تغييره، أو حذفه — يمكنك استخدام أوامر Git التالية بعد التحويل:
+لتتبع تاريخ ملف في صورة الحاوية — بما في ذلك وقت ظهوره الأول، أو تغييره، أو حذفه — يمكنك استخدام أوامر Git التالية بعد التحويل:
 
 ```bash
 # Full history of a file (including renames)
@@ -192,20 +206,23 @@ repository/
 ├── Image.md     # Complete image metadata
 └── rootfs/      # Filesystem content from the container
 ```
-
-
 ## المتطلبات
 
 - إصدار Rust 2021
-- واجهة Docker CLI (لدعم محرك Docker)
+- واجهة أوامر Docker (لدعم محرك Docker)
 - Git
 
 ## الترخيص
 
 MIT
 
+[التوثيق]: https://docs.rs/oci2git/
+
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

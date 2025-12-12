@@ -24,13 +24,27 @@
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
+
+[![Documentación](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![Licencia](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![Descargas](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
+
+[//]: # (simulación para el futuro test.yaml)
+[//]: # ([![Estado de Prueba]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+
+<div align="left"> </div>  
+</div>
 
 Una aplicación en Rust que convierte imágenes de contenedores (Docker, etc.) en repositorios Git. Cada capa del contenedor se representa como un commit de Git, preservando la historia y la estructura de la imagen original.
 
@@ -38,25 +52,25 @@ Una aplicación en Rust que convierte imágenes de contenedores (Docker, etc.) e
 
 ## Características
 
-- Analiza imágenes de Docker y extrae información de las capas
+- Analiza imágenes Docker y extrae información de capas
 - Crea un repositorio Git donde cada capa de la imagen se representa como un commit
 - Soporte para capas vacías (ENV, WORKDIR, etc.) como commits vacíos
 - Extracción completa de metadatos en formato Markdown
 - Arquitectura extensible para soportar diferentes motores de contenedores
 
-## Casos de Uso
+## Casos de uso
 
-### Diferencias de Capas
-Al solucionar problemas de contenedores, puedes utilizar las potentes capacidades de comparación de Git para identificar exactamente qué cambió entre dos capas. Al ejecutar `git diff` entre commits, los ingenieros pueden ver con precisión qué archivos fueron agregados, modificados o eliminados, lo que facilita mucho entender el impacto de cada instrucción del Dockerfile y localizar cambios problemáticos.
+### Diferenciación de capas
+Al solucionar problemas de contenedores, puedes usar las potentes capacidades de comparación de Git para identificar exactamente qué cambió entre dos capas. Al ejecutar `git diff` entre commits, los ingenieros pueden ver con precisión qué archivos se agregaron, modificaron o eliminaron, facilitando mucho la comprensión del impacto de cada instrucción Dockerfile y la localización de cambios problemáticos.
 ![Ejemplo de diferencia de capa](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### Rastreo de Origen
-Utilizando `git blame`, los desarrolladores pueden determinar rápidamente qué capa introdujo un archivo o línea de código específico. Esto es especialmente valioso al diagnosticar problemas con archivos de configuración o dependencias. En lugar de inspeccionar manualmente cada capa, puedes rastrear inmediatamente el origen de cualquier archivo hasta su capa fuente y la instrucción correspondiente en el Dockerfile.
+### Rastreo de origen
+Usando `git blame`, los desarrolladores pueden determinar rápidamente qué capa introdujo un archivo específico o línea de código. Esto es especialmente útil al diagnosticar problemas con archivos de configuración o dependencias. En lugar de inspeccionar manualmente cada capa, puedes rastrear inmediatamente el origen de cualquier archivo hasta su capa fuente y la instrucción Dockerfile correspondiente.
 
-### Rastreo del Ciclo de Vida del Archivo
-OCI2Git te permite seguir el recorrido de un archivo específico a lo largo de la historia de la imagen del contenedor. Puedes observar cuándo se creó inicialmente un archivo, cómo se modificó a través de las capas y si/cuándo fue finalmente eliminado. Esta vista integral ayuda a entender la evolución del archivo sin tener que rastrear manualmente los cambios a través de decenas de capas.
+### Rastreo del ciclo de vida de archivos
+OCI2Git te permite seguir el recorrido de un archivo específico a lo largo de la historia de la imagen del contenedor. Puedes observar cuándo se creó originalmente un archivo, cómo fue modificado en diferentes capas, y si/cuándo fue eliminado. Esta vista integral ayuda a entender la evolución del archivo sin tener que rastrear manualmente los cambios en docenas de capas potenciales.
 
-Para rastrear el historial de un archivo en tu imagen de contenedor — incluyendo cuándo apareció por primera vez, fue cambiado o eliminado — puedes usar estos comandos de Git después de la conversión:
+Para rastrear el historial de un archivo en tu imagen de contenedor — incluyendo cuándo apareció por primera vez, fue cambiado, o eliminado — puedes usar estos comandos de Git después de la conversión:
 
 ```bash
 # Full history of a file (including renames)
@@ -195,17 +209,20 @@ repository/
 ## Requisitos
 
 - Rust edición 2021
-- CLI de Docker (para soporte del motor Docker)
+- Docker CLI (para soporte del motor Docker)
 - Git
 
 ## Licencia
 
 MIT
 
+[documentación]: https://docs.rs/oci2git/
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

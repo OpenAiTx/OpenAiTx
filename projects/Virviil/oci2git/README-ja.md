@@ -24,39 +24,53 @@
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-コンテナイメージ（Docker等）をGitリポジトリへ変換するRustアプリケーションです。各コンテナレイヤーはGitコミットとして表現され、元のイメージの履歴と構造が保持されます。
+[![ドキュメント](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![ライセンス](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![Downloads](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-![OCI2Gitがnginxイメージを変換するデモ](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+[//]: # (mock for future test.yaml)
+[//]: # ([![Test Status]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
 
-## 特徴
+<div align="left"> </div>  
+</div>
+
+Rustで開発されたアプリケーションで、コンテナイメージ（Dockerなど）をGitリポジトリへ変換します。各コンテナレイヤーはGitコミットとして表現され、元のイメージの履歴と構造を維持します。
+
+![Demo of OCI2Git converting the nginx image](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+
+## 特長
 
 - Dockerイメージを解析し、レイヤー情報を抽出
 - 各イメージレイヤーをコミットとして表現するGitリポジトリを作成
-- 空のレイヤー（ENV、WORKDIRなど）を空のコミットとしてサポート
-- 完全なメタデータ抽出をMarkdown形式で対応
-- 異なるコンテナエンジンをサポート可能な拡張性のあるアーキテクチャ
+- 空のレイヤー（ENV, WORKDIRなど）も空コミットとしてサポート
+- メタデータをMarkdown形式で完全抽出
+- 様々なコンテナエンジンに対応可能な拡張性の高いアーキテクチャ
 
 ## ユースケース
 
-### レイヤー差分
-コンテナの問題をトラブルシュートする際、Gitの強力なdiff機能を使って任意の2つのレイヤー間で何が変更されたか正確に特定できます。`git diff`をコミット間で実行することで、エンジニアはどのファイルが追加、変更、削除されたかを正確に把握でき、各Dockerfile命令の影響や問題のある変更箇所を簡単に見つけられます。
-![レイヤー差分の例](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### レイヤーの差分比較
+コンテナの問題をトラブルシュートする際、Gitの強力な差分機能を使って任意の2つのレイヤー間で何が変更されたか正確に特定できます。`git diff`をコミット間で実行することで、エンジニアはどのファイルが追加・変更・削除されたかを把握でき、各Dockerfile命令の影響や問題のある変更箇所を素早く特定できます。
+![Example for layer diff](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### オリジントラッキング
-`git blame`を使うことで、開発者は特定のファイルやコード行がどのレイヤーで導入されたかを素早く特定できます。これは設定ファイルや依存関係の問題を診断する際に特に有用です。各レイヤーを手作業で調査する代わりに、任意のファイルの起源を即座にその元レイヤーや対応するDockerfile命令まで遡ることができます。
+### 由来追跡
+`git blame`を利用することで、特定のファイルやコード行がどのレイヤーで導入されたかを素早く特定できます。これは設定ファイルや依存関係の問題を診断する際に特に有用です。各レイヤーを手作業で確認することなく、ファイルの由来や対応するDockerfile命令まで即座に遡ることができます。
 
-### ファイルのライフサイクルトラッキング
-OCI2Gitは、特定ファイルがコンテナイメージの履歴全体でどのように変遷したかを追跡できます。ファイルが最初に作成された時期、各レイヤーでどのように変更されたか、最終的に削除されたかどうかを観察できます。この包括的な視点により、多数のレイヤーにまたがる変更を手作業で追跡することなく、ファイルの進化を理解できます。
+### ファイルのライフサイクル追跡
+OCI2Gitを使うことで、特定のファイルがコンテナイメージの履歴の中でどのように変遷したかを追跡できます。ファイルがいつ作成され、各レイヤーでどのように変更され、最終的に削除されたかどうかまで観察できます。この包括的な視点により、多数のレイヤー間で手作業で変更を追跡することなく、ファイルの変遷を把握できます。
 
-コンテナイメージ内のファイル履歴を追跡するには（作成時期、変更、削除など）、変換後にこれらのGitコマンドを使用できます。
+コンテナイメージ内のファイルの履歴（生成・変更・削除）を追跡するには、変換後に以下のGitコマンドを利用できます。
 
 ```bash
 # Full history of a file (including renames)
@@ -193,19 +207,22 @@ repository/
 └── rootfs/      # Filesystem content from the container
 ```
 
-## 要件
+
+## 必要条件
 
 - Rust 2021 エディション
-- Docker CLI（Dockerエンジンのサポート用）
+- Docker CLI（Docker エンジン対応）
 - Git
 
 ## ライセンス
 
 MIT
 
+[documentation]: https://docs.rs/oci2git/
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

@@ -40,10 +40,10 @@
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
   <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
-    <img src="https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg" alt="Lisensi">
+    <img src="https://img.shields.io/badge/License-CC%20By%20SA%204.0-orange.svg" alt="License">
   </a>
   <a href="https://bird-interact.github.io/">
-    <img src="https://img.shields.io/badge/Leaderboard-2025-28a745.svg" alt="Papan Peringkat">
+    <img src="https://img.shields.io/badge/Leaderboard-2025-28a745.svg" alt="Leaderboard">
   </a>
   <a href="https://huggingface.co/datasets/birdsql/bird-interact-lite/tree/main">
     <img src="https://img.shields.io/badge/Dataset-HuggingFace-FFD21E.svg" alt="HuggingFace">
@@ -57,29 +57,39 @@
 </div>
 
 ## ⚠️ Pengumuman  
-Harap dicatat bahwa sebelum proses evaluasi Anda, ketika Docker memuat database, kesalahan kadang-kadang dapat terjadi karena inkonsistensi lingkungan (ini tidak akan menghentikan proses tetapi akan muncul di log Docker). Akibatnya, beberapa database mungkin gagal dimuat dengan benar, menyebabkan database kosong. Hal ini akan menyebabkan hasil evaluasi menjadi sangat rendah.  
-👉 Oleh karena itu, kami sangat menyarankan untuk memeriksa log Docker untuk setiap kesalahan **sebelum menjalankan evaluasi** dan memastikan bahwa semua database telah berhasil dimuat.
+Harap diperhatikan bahwa sebelum proses evaluasi Anda, saat Docker memuat database, kesalahan kadang-kadang dapat terjadi karena inkonsistensi lingkungan (ini tidak akan menghentikan proses tetapi akan muncul di log Docker). Akibatnya, beberapa database mungkin gagal dimuat dengan benar, sehingga database menjadi kosong. Hal ini akan menyebabkan hasil evaluasi menjadi sangat rendah.  
+👉 Oleh karena itu, kami sangat menyarankan untuk memeriksa log Docker untuk setiap kesalahan **sebelum menjalankan evaluasi** dan memastikan semua database telah berhasil dimuat.
+
+👉 Kami telah memperbarui **Pedoman Pengiriman**, yang kini mendukung kerangka kerja agen yang telah dikustomisasi. Silakan lihat pedoman pengiriman secara detail [di sini](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true).
 
 ## 📰 Berita
 
-- [2025-08-26] 🚀 Kami dengan senang hati mengumumkan rilis set **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
-Ini adalah set yang sulit — LLM terbaik hanya mencapai tingkat keberhasilan **16.33%**, dengan hanya **10.0%** pada bagian `c-interact` dan `a-interact`.  
-👉 Untuk detail lebih lanjut, silakan kunjungi [situs proyek kami](https://bird-interact.github.io/).
+- [2025-11-06] 🐛 **Perbaikan Bug** & 🐳 **Update Docker**: Memperbarui versi sqlglot ke 26.16.4 untuk memperbaiki bug di mana parser SQL tidak dapat mem-parsing SQL dengan benar untuk simulator pengguna. Anda dapat memperbaikinya dengan menginstal ulang menggunakan `pip install sqlglot==26.16.4` di lingkungan `bird_interact_eval`. Gambar `bird_interact_eval` juga telah diperbarui, sehingga Anda juga bisa menariknya dan membuat ulang kontainer `bird_interact_eval`.
+
+- [2025-10-21] 🐳 **Update Docker**: Kami menambahkan docker untuk Full DB Env. Dan kami telah mengunggah 3 gambar docker (Base/Full DB Env dan lingkungan evaluasi untuk `a-Interact` dan `c-Interact`) ke Docker Hub guna memudahkan penyiapan lingkungan. Tidak perlu mengunduh DB dump dan membangun gambar secara manual!
+
+- [2025-10-08] 📝 **[Makalah Bird-Interact](https://huggingface.co/papers/2510.05318)** kami kini tersedia untuk publik!  
+  Makalah ini menyajikan detail lengkap, metodologi, dan evaluasi dari benchmark interaktif text-to-SQL kami.  
+  👉 Silakan lihat dan pelajari lebih lanjut tentang ide di balik [BIRD-Interact](https://bird-interact.github.io/).
+
+- [2025-08-26] 🚀 Kami sangat senang mengumumkan perilisan set **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  
+Set ini sangat menantang — LLM terbaik hanya mencapai tingkat keberhasilan **16.33%**, dengan hanya **10.0%** pada bagian `c-interact` dan `a-interact`.  
+👉 Untuk detail lebih lanjut, silakan kunjungi [website proyek](https://bird-interact.github.io/).
 
 - [2025-08-26] 📬 Kami akan mengirimkan **Ground Truth & Test case** ke milis kami minggu ini.  
-Jika Anda ingin akses lebih awal, silakan kirim email sesuai petunjuk di situs untuk **unduhan otomatis**.  
+Jika Anda ingin akses awal, silakan kirim email sesuai instruksi di situs untuk **unduh otomatis**.  
 
-- [2025-08-26] 💾 Selain itu, kami juga merilis versi SQLite dari **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** untuk penelitian lokal yang lebih mudah.  
+- [2025-08-26] 💾 Sebagai catatan lain, kami juga telah merilis versi SQLite dari **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** untuk penelitian lokal yang lebih mudah.  
 Versi lengkap **LiveSQLBench-Base** dan **-Large** akan segera hadir!
 
-- [2025-08-22] **Perbaikan Bug**: Dalam kode Bird-Interact-Agent, kami memperbaiki bug di mana saat mengevaluasi SQL fase-2, SQL fase-1 yang disimpan tidak dapat dieksekusi dengan sukses, menyebabkan tingkat keberhasilan Fase-2 lebih rendah. Bug ini hanya mempengaruhi tugas di mana sql fase1 melakukan beberapa operasi pada database, misalnya CREATE table, dsb.
+- [2025-08-22] **Perbaikan Bug**: Pada kode Bird-Interact-Agent, kami memperbaiki bug di mana saat evaluasi fase-2 SQL, SQL fase-1 yang tersimpan tidak dapat dijalankan dengan sukses, sehingga menurunkan tingkat keberhasilan Fase-2. Bug ini hanya mempengaruhi tugas di mana SQL fase1 melakukan beberapa operasi pada database, seperti CREATE table, dll.
 
 ## 🧸 Ikhtisar
 
-BIRD-INTERACT, sebuah tolok ukur interaktif text-to-SQL, **mengimajinasikan kembali evaluasi Text-to-SQL melalui lensa interaksi dinamis**.
-Lingkungan ini memadukan basis pengetahuan hierarkis, dokumentasi database, dan simulator pengguna berbasis fungsi untuk merekonstruksi lingkungan perusahaan otentik di seluruh operasi **CRUD** secara penuh.
-Ini menawarkan dua mode pengujian yang ketat: (1) **Interaksi Percakapan** pasif dan (2) **Interaksi Agentik** aktif, mencakup 600 tugas beranotasi termasuk Business Intelligence (BI), operasi CRUD, dan lain-lain, masing-masing dijaga oleh kasus uji yang dapat dieksekusi.
-Evaluasi tipikal memicu 1.968-5.496 giliran interaksi antara model dan simulator pengguna, sementara model penalaran mutakhir saat ini hanya menyelesaikan **≈24%** dan **≈18%** tugas, menyoroti tantangan benchmark ini.
+BIRD-INTERACT, sebuah benchmark interaktif text-to-SQL, **mengimajinasikan kembali evaluasi Text-to-SQL melalui lensa interaksi dinamis**.
+Lingkungan ini menggabungkan basis pengetahuan hierarkis, dokumentasi basis data, dan simulator pengguna berbasis fungsi untuk menciptakan kembali lingkungan perusahaan yang autentik pada seluruh operasi **CRUD**.
+Benchmark ini menawarkan dua mode uji yang ketat: (1) **Interaksi Percakapan** pasif dan (2) **Interaksi Agenik** aktif, mencakup 600 tugas beranotasi termasuk Business Intelligence (BI), operasi CRUD dan lain-lain, masing-masing dijaga oleh kasus uji yang dapat dieksekusi.
+Evaluasi tipikal memicu 1.968-5.496 giliran interaksi antara model dan simulator pengguna, sementara model penalaran mutakhir saat ini hanya menyelesaikan **≈24%** dan **≈18%** tugas, menekankan tantangan benchmark ini.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
@@ -88,88 +98,198 @@ Evaluasi tipikal memicu 1.968-5.496 giliran interaksi antara model dan simulator
 
 ### ✅ Dua Mode Evaluasi
 
-BIRD-INTERACT mendukung dua mode evaluasi seperti yang disebutkan di atas:
+BIRD-INTERACT mendukung dua mode evaluasi seperti yang telah disebutkan di atas:
 
    - **c-Interact**: Interaksi Percakapan yang merupakan mode pasif dan alur kerjanya tetap. Kode dan informasi detail dapat ditemukan di `bird_interact_conv`.
-   - **a-Interact**: Interaksi Agentik yang merupakan mode aktif terwujud di mana alur kerjanya dinamis dan dipimpin oleh model. Kode dan informasi detail dapat ditemukan di `bird_interact_agent`.
+   - **a-Interact**: Interaksi Agenik yang merupakan mode aktif yang diwujudkan di mana alur kerja dinamis dan dipimpin oleh model. Kode dan informasi detail dapat ditemukan di `bird_interact_agent`.
 
 
 ### 🐣 Versi Lite
 
-Kami merilis versi lite dari BIRD-INTERACT, `bird-interact-lite-exp`, yang mencakup 270 tugas dunia nyata berkualitas tinggi khusus untuk PostgreSQL. Ini adalah titik awal yang baik untuk eksperimen cepat.
+Kami merilis versi lite dari BIRD-INTERACT, `bird-interact-lite-exp`, yang mencakup 270 tugas berkualitas tinggi dari dunia nyata khusus untuk PostgreSQL. Ini adalah titik awal yang baik untuk eksperimen cepat.
 
-### 🦜 Versi Penuh
+### 🦜 Versi Lengkap
 
-Versi penuh dari BIRD-INTERACT, `bird-interact-full`, adalah tolok ukur komprehensif yang mencakup 600 tugas untuk PostgreSQL. Ini mencakup berbagai operasi SQL dan kueri pengguna. Versi penuh akan segera hadir.
+Versi lengkap dari BIRD-INTERACT, `bird-interact-full`, merupakan benchmark komprehensif yang mencakup 600 tugas untuk PostgreSQL. Versi ini mencakup berbagai operasi SQL dan kueri pengguna. Versi lengkap akan segera hadir.
 
-### Hasil Performa Model pada BIRD-INTERACT Lite
+### Hasil Kinerja Model pada BIRD-INTERACT-FULL
 
-#### 1. Performa **c-Interact**
-| Peringkat | Nama Model         | Normalized Reward | Level        |
-|:------:|--------------------|:-------:|:--------------:|
-| 1    | o3-mini            | 33.04 | 🏆 Chat Sangat Baik |
-| 2    | GPT-4o             | 30.33 | 💎 Chat Baik      |
-| 3    | Gemini-2.0-flash   | 27.41 | 💎 Chat Baik      |
-| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Standar        |
-| 5    | DeepSeek-R1        | 21.74 | ✨ Standar        |
-| 6    | Qwen3              | 20.33 | ⚪ Dasar          |
-| 7    | DeepSeek-V3        | 15.85 | ⚪ Dasar          |
+#### 1. **Kinerja Text-to-SQL c-Interact**
+| Peringkat | Nama Model      | Reward Normalisasi | Biaya Rata-rata (USD)/Tugas | Level             |
+|:---------:|:---------------:|:------------------:|:---------------------------:|:-----------------:|
+| 1         | Gemini-2.5-Pro  | 20.92              | $0.04                       | 🏆 Chat Sangat Baik |
+| 2    | O3-Mini            | 20,27             | $0,07               | 🏆 Obrolan Luar Biasa  |
+| 3    | Claude-Sonnet-4    | 18,35             | $0,29               | 💎 Obrolan Bagus        |
+| 4    | Qwen-3-Coder-480B  | 17,75             | $0,11               | 💎 Obrolan Bagus        |
+| 5    | Deepseek-Chat-V3.1 | 15,15             | $0,12               | ✨ Standar              |
+| 6    | Claude-Sonnet-3.7  | 13,87             | $0,29               | ✨ Standar              |
+| 7    | GPT-5              | 12,58             | $0,08               | ⚪ Dasar                |
 
-#### 2. Performa **a-Interact**
-| Peringkat | Nama Model         | Parameter Budget* | Rata-rata Langkah/Tugas | Rata-rata Biaya (USD)/Tugas | Normalized Reward | Level            |
-|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|
-| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Interaksi Sangat Baik |
-| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 Interaksi Baik        |
-| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 Interaksi Baik        |
-| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ Standar               |
-| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ Standar               |
-| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ Dasar                 |
-| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Dasar                 |
+#### 2. **a-Interact Text-to-SQL** Performa
+| Peringkat | Nama Model         | Reward Ternormalisasi | Rata-rata Biaya (USD)/Tugas | Level                    |
+|:--------:|:-------------------|:---------------------:|:---------------------------:|:------------------------:|
+| 1        | GPT-5              | 25,52                 | $0,24                       | 🏆 Interaksi Luar Biasa  |
+| 2        | Claude-Sonnet-4    | 23,28                 | $0,51                       | 🏆 Interaksi Luar Biasa  |
+| 3        | Claude-Sonnet-3.7  | 17,45                 | $0,60                       | 💎 Interaksi Bagus       |
+| 4        | Gemini-2.5-Pro     | 17,33                 | $0,22                       | 💎 Interaksi Bagus       |
+| 5        | O3-Mini            | 16,43                 | $0,06                       | ✨ Standar               |
+| 6        | Deepseek-Chat-V3.1 | 13,47                 | $0,06                       | ✨ Standar               |
+| 7        | Qwen-3-Coder-480B  | 10,58                 | $0,07                       | ⚪ Dasar                 |
 
-> \* Parameter Anggaran: Anggaran Awal/Anggaran Kesabaran Pengguna, diukur dengan mata uang virtual *bird-coin* <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Lihat [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) untuk detail lebih lanjut.
+> \* Parameter Anggaran: Anggaran Awal/Anggaran Kesabaran Pengguna, diukur dengan mata uang virtual kami *bird-coin*s <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;">. Lihat [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) untuk detail lebih lanjut.
 
 ### Skala Waktu Interaksi (ITS)
 
-Skala Waktu Interaksi (ITS) mengacu pada kemampuan model untuk terus meningkatkan kinerja akhir melalui interaksi multi-langkah. Ketika performa interaktif ini melebihi performa ideal model dalam satu langkah pada tugas yang sepenuhnya terdefinisi dan tidak ambigu, kita katakan model tersebut memenuhi **hukum ITS**. Seiring meningkatnya kesabaran pengguna dan akumulasi jumlah interaksi, performa terus membaik, menunjukkan bahwa model dapat mempertahankan komunikasi efektif dalam percakapan panjang. Saat ini, hanya claude-3-7-sonnet yang memenuhi hukum ITS.
+Skala Waktu Interaksi (ITS) mengacu pada kemampuan model untuk terus meningkatkan performa akhirnya melalui interaksi multi-putaran. Ketika performa interaktif ini melampaui performa ideal model pada tugas satu putaran yang sudah ditentukan dan tidak ambigu, kami katakan model tersebut memenuhi **hukum ITS**. Saat kesabaran pengguna bertambah dan jumlah putaran interaksi meningkat, performa terus meningkat, menunjukkan bahwa model dapat mempertahankan komunikasi efektif dalam dialog yang panjang. Saat ini, hanya claude-3-7-sonnet yang ditemukan memenuhi hukum ITS.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png" 
        style="width: 100%; min-width: 100px; display: block; margin: auto; ">
 </p>
 
+## Persiapan Lingkungan
+
+1. Jalankan kontainer Docker untuk database bird-interact-lite, database bird-interact-full, dan lingkungan evaluasi:
+  
+  > Jika Anda hanya ingin melakukan evaluasi pada `bird-interact-lite`, Anda bisa memberi komentar pada layanan [`postgresql_full`](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) di `docker-compose.yml` untuk mempercepat proses setup lingkungan.
+  
+  Mulai lingkungan dengan menjalankan:
+   ```bash
+   cd env
+   docker compose pull 
+   docker compose up -d
+   ```
+   Tunggu beberapa menit untuk inisialisasi basis data.
+
+  Anda dapat memantau kemajuan pembangunan dengan:
+  ```bash
+  docker compose logs -f --tail=100 bird_interact_postgresql_full # or bird_interact_postgresql for bird-interact-lite
+  ```
+  Jika selesai, Anda seharusnya melihat log tanpa kesalahan seperti:
+
+  ```bash
+  bird_interact_postgresql_full  | 2025-10-28 17:58:30.413 HKT [1] LOG:  database system is ready to accept connection
+  ```
+  
+  Jika Anda telah membuat container sebelumnya dan ingin membuatnya kembali, Anda dapat menjalankan perintah berikut:
+  ```bash
+  docker compose down -v # this cmd removes the containers and the volumes
+  docker compose pull   # pull the latest images from Docker Hub
+  docker compose up -d --force-recreate # build and start the containers again. --force-recreate means force the recreation of the containers. 
+  # Or `docker compose up -d --force-recreate bird_interact_eval` to only recreate the bird_interact_eval container about evalution code environment.
+  ```
+   
+   Ini menjalankan 3 container menggunakan image yang sudah dibangun dari Docker Hub:
+   - `bird_interact_postgresql`: Database PostgreSQL untuk bird-interact-lite
+   - `bird_interact_postgresql_full`: Database PostgreSQL untuk bird-interact-full
+   - `bird_interact_eval`: Lingkungan evaluasi untuk `a-Interact` dan `c-Interact`.
+
+   Sekarang, Anda dapat memulai lingkungan evaluasi dengan menjalankan perintah berikut:
+   ```bash
+   docker compose exec bird_interact_eval bash
+   ```
+2. (Opsional) Bangun lingkungan secara manual (jika Anda ingin membangun image dari awal):
+   - Unduh database dump
+      - [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view). Ekstrak dan ubah namanya menjadi `env/postgre_table_dumps`.
+      - [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view). Ekstrak dan ubah namanya menjadi `env/postgre_table_dumps_full`.
+   - Bangun lingkungan secara manual dengan menjalankan `docker-compose.build.yml`.
+
+      ```bash
+      cd env/
+      docker compose -f docker-compose.build.yml build
+      docker compose -f docker-compose.build.yml up -d
+      ```
+
+3. (Direkomendasikan) Periksa bahwa kontainer basis data telah dibangun dan berjalan dengan sukses.
+
+-  Cetak log pembuatan kontainer untuk memastikan bahwa basis data telah dibangun dengan sukses tanpa kesalahan:
+   ```bash 
+   docker logs bird_interact_postgresql > build_bird_interact_postgresql.log 2>&1
+   docker logs bird_interact_postgresql_full > build_bird_interact_postgresql_full.log 2>&1
+   ```
+   Jika terjadi kesalahan, `"Terjadi kesalahan selama impor:"` akan dicetak di file log.
+
+
+-  Periksa apakah kontainer basis data dalam kondisi baik.
+   
+   Gunakan skrip Python yang kami sediakan untuk memverifikasi metadata basis data:
+   ```bash
+   docker compose exec bird_interact_eval bash
+   cd /app/env
+   python check_db_metadata.py --host bird_interact_postgresql
+   python check_db_metadata.py --host bird_interact_postgresql_full
+   ```
+   
+   Hasil yang diharapkan:
+   - **bird-interact-lite**: 
+     - 📈 Total Basis Data: 18
+     - 📋 Total Tabel: 175
+     - 🔢 Total Kolom: 2286
+     - 📈 Rata-rata Baris per Tabel: 1.038,48
+     - 💾 Total Ukuran: 207,15 MB (sekitar)
+   - **bird-interact-full**: 
+     - 📈 Total Basis Data: 22
+     - 📋 Total Tabel: 244
+     - 🔢 Total Kolom: 2011
+     - 📈 Rata-rata Baris per Tabel: 1.121,19
+     - 💾 Total Ukuran: 272,00 MB (sekitar)
+
+
 ## 📦 Detail Dataset
 
 ### Deskripsi Dataset
 
-- **Database:** Database PostgreSQL lengkap dapat diunduh dari [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Lihat bagian [Quick Eval](#quick-eval) untuk detail lebih lanjut.
+- **Basis Data:** Basis data PostgreSQL lengkap dapat diunduh dari [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) dan [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view).
 - **data:** Setiap instance data berisi bagian utama berikut:
-   - `selected_database`: Nama database.  
-   - `query`: Query pengguna yang tidak ambigu.  
-   - `amb_user_query`: Query pengguna dengan ambiguitas yang disisipkan.
-   - `user_query_ambiguity`: Ambiguitas yang dimasukkan ke dalam query pengguna.
-   - `non_critical_ambiguity`: Ambiguitas non-kritis seperti urutan, limit, dll.
-   - `knowledge_ambiguity`: Ambiguitas yang dibuat dengan menutupi pengetahuan eksternal. 
-   - `sol_sql`: Solusi SQL ground truth.  
-   - `preprocess_sql`: Query SQL yang dijalankan sebelum eksekusi solusi atau prediksi.  
-   - `clean_up_sql`: Query SQL yang dijalankan setelah test case untuk mengembalikan perubahan pada database.  
-   - `test_cases`: Kumpulan test case untuk validasi SQL hasil prediksi.
-   - `follow_up`: Pertanyaan follow up yang sudah diberi label.
-   - `external_knowledge`: Pengetahuan eksternal terkait tugas tertentu.
+   - `selected_database`: Nama basis data.  
+   - `query`: Permintaan pengguna yang jelas.  
+   - `amb_user_query`: Permintaan pengguna dengan ambiguitas yang disisipkan.
+   - `user_query_ambiguity`: Ambiguitas yang disisipkan ke permintaan pengguna.
+   - `non_critical_ambiguity`: Ambiguitas non-kritis seperti urutan, batas, dll.
+   - `knowledge_ambiguity`: Ambiguitas yang dibuat dari pengetahuan eksternal yang disembunyikan.
+   - `sol_sql`: Solusi SQL kebenaran dasar.  
+   - `preprocess_sql`: Kueri SQL yang dijalankan sebelum mengeksekusi solusi atau prediksi.  
+   - `clean_up_sql`: Kueri SQL yang dijalankan setelah kasus uji untuk membalik perubahan pada basis data.  
+   - `test_cases`: Sekumpulan kasus uji untuk memvalidasi SQL yang dikoreksi hasil prediksi.
+   - `follow_up`: Pertanyaan lanjutan yang telah diberi label.
+   - `external_knowledge`: Pengetahuan eksternal yang terkait dengan tugas spesifik.
 
-- **evaluation:** Kode evaluasi tersedia di direktori [`./evaluation`](./evaluation).
+- **evaluasi:** Kode evaluasi tersedia di direktori [`./evaluation`](./evaluation).
 - **Dikurasi oleh:** Tim BIRD & Google Cloud
 - **Lisensi:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - **Kartu Dataset HuggingFace:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
-
+  dan [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full)
 ### Penggunaan Dataset
 
-Untuk menghindari kebocoran data melalui auto-crawling, kami tidak menyertakan solusi sql GT dan kasus uji bersama data.
-silakan email ke [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) dengan tag `[bird-interact-lite GT&Test Cases]` pada judul untuk mendapatkan set lengkap, yang akan dikirimkan secara otomatis.
+Untuk menghindari kebocoran data melalui auto-crawling, kami tidak menyertakan sql solusi GT dan kasus uji bersama data.
+silakan email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) dengan tag `[bird-interact-lite GT&Test Cases]` atau `[bird-interact-full GT&Test Cases]` di judul untuk ground truth dan kasus uji untuk dataset bird-interact-lite atau bird-interact-full, yang akan dikirim secara otomatis.
 
 
-<!-- ### Gunakan Dataset dari HuggingFace
+### Menggabungkan data publik dengan ground truth dan kasus uji
 
-Anda dapat mengunduh dataset dari HuggingFace menggunakan perintah berikut:
+Kemudian gunakan skrip berikut untuk menggabungkan data publik dengan ground truth dan kasus uji:
+
+Ambil versi full sebagai contoh:
+(1) Jalankan:
+```bash
+python combine_public_with_gt.py /path/to/bird-interact-full/bird_interact_data.jsonl /path/to/bird_interact_full_gt_kg_testcases_08022.jsonl /path/to/bird_interact_data.jsonl  # bird_interact_full_gt_kg_testcases_08022.jsonl is the data of ground-truth fields, which is obtained by emailing us.
+```
+Ini akan membuat file baru di `/path/to/bird_interact_data.jsonl` dengan data yang telah digabungkan.
+
+(2) Kemudian ganti data publik asli dengan data yang telah digabungkan:
+
+```bash
+cp /path/to/bird_interact_data.jsonl /path/to/bird-interact-full/bird_interact_data.jsonl
+```
+
+Sama juga untuk versi lainnya: bird-interact-lite, versi mini, dll. Cukup atur jalur yang benar untuk data publik dan ground truth serta test case, lalu ganti data publik dengan data gabungan.
+
+
+
+
+<!-- ### Menggunakan Dataset dari HuggingFace
+
+Anda dapat mengunduh dataset dari HuggingFace dengan perintah berikut:
 ```bash
 from datasets import load_dataset
 # Load the flash version of the dataset
@@ -213,13 +333,16 @@ python pull_data.py \
 ```
 Detail tentang menjalankan **a-interact** dapat ditemukan di `./bird_interact_agent/README.md`; dan **c-interact** dapat ditemukan di `./bird_interact_conv/README.md`.
 
-## 📋 Daftar Tugas
+## 📋 Daftar Todo
 
-- [x] Rilis versi lite, bird-interact-lite (270).
-- [x] Rilis versi percakapan, bird-interact-conv.
-- [x] Rilis versi agent, bird-interact-agent.
-- [x] Rilis Full bird-interact-full (600).
-- [ ] SFT / RL pada Simulator Pengguna
+- [x] Merilis versi lite, bird-interact-lite (270).
+- [x] Merilis versi percakapan, bird-interact-conv.
+- [x] Merilis versi agen, bird-interact-agent.
+- [x] Merilis Full bird-interact-full (600).
+- [ ] SFT / RL untuk Simulator Pengguna
+
+## Penghargaan
+Kami ingin mengucapkan terima kasih yang sebesar-besarnya kepada **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, dan Profesor **Shinji Watanabe** atas diskusi yang bermanfaat dan wawasan berharga yang membantu meningkatkan proyek ini.
 
 ## Dibuat Oleh:
 Tim BIRD & Google Cloud
@@ -230,8 +353,15 @@ Tim BIRD & Google Cloud
 
 
 
+
+## Catatan Perubahan
+
+- [2025-11-06] 🐛 **Perbaikan Bug** & 🐳 **Pembaruan Docker**: Memperbarui versi sqlglot ke 26.16.4 untuk memperbaiki bug di mana sql parser tidak dapat mengurai SQL dengan benar untuk simulator pengguna. Anda dapat memperbaikinya dengan menginstal ulang menggunakan `pip install sqlglot==26.16.4` di lingkungan `bird_interact_eval`. Image `bird_interact_eval` juga telah diperbarui, jadi Anda juga bisa menariknya dan membuat ulang kontainer `bird_interact_eval`.
+- [2025-10-21] 🐳 **Pembaruan Docker**: Menambahkan docker untuk Full DB Env. Dan kami telah mengunggah 3 image docker (Base/Full DB Env dan lingkungan evaluasi untuk `a-Interact` dan `c-Interact`) ke Docker Hub untuk mempermudah penyiapan lingkungan. Tidak perlu mengunduh dump DB dan membangun image secara manual! Silakan tarik image terbaru dari Docker Hub dan buat ulang kontainernya, misalnya menggunakan `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.
+- [2025-08-22]  🐛 **Perbaikan Bug**: Memperbaiki bug di mana saat mengevaluasi SQL fase-2, SQL fase-1 yang disimpan tidak dapat dijalankan dengan sukses, sehingga menyebabkan tingkat keberhasilan Fase-2 lebih rendah. Bug ini hanya mempengaruhi tugas di mana sql fase1 melakukan operasi pada basis data, misalnya CREATE table, dll.
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

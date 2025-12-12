@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Taal</summary>
@@ -24,39 +23,54 @@
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-Een Rust-applicatie die containerafbeeldingen (Docker, enz.) converteert naar Git-repositories. Elke containerlaag wordt weergegeven als een Git-commit, waarbij de geschiedenis en structuur van de originele afbeelding behouden blijven.
+[![Documentatie](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![Licentie](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+
+[![Downloads](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
+
+[//]: # (mock voor toekomstige test.yaml)
+[//]: # ([![Teststatus]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+
+<div align="left"> </div>  
+</div>
+
+Een Rust-applicatie die containerimages (Docker, enz.) omzet naar Git-repositories. Elke containerlaag wordt weergegeven als een Git-commit, waarbij de geschiedenis en structuur van het originele image behouden blijven.
 
 ![Demo van OCI2Git die het nginx-image converteert](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## Functies
 
-- Analyseer Docker-images en extraheer laaginformatie
-- Maak een Git-repository waarbij elke imagelaag wordt weergegeven als een commit
+- Analyseer Docker-images en haal laaginformatie op
+- Maak een Git-repository waarbij elke imagelaag als een commit wordt weergegeven
 - Ondersteuning voor lege lagen (ENV, WORKDIR, enz.) als lege commits
 - Volledige metadata-extractie naar Markdown-formaat
 - Uitbreidbare architectuur voor ondersteuning van verschillende container-engines
 
-## Gebruiksscenario's
+## Gebruikssituaties
 
-### Laagverschillen
-Bij het oplossen van problemen met containers kun je gebruikmaken van de krachtige diff-mogelijkheden van Git om precies te identificeren wat er is veranderd tussen twee lagen. Door `git diff` uit te voeren tussen commits, kunnen engineers exact zien welke bestanden zijn toegevoegd, gewijzigd of verwijderd, waardoor het veel eenvoudiger wordt om de impact van elke Dockerfile-instructie te begrijpen en problematische wijzigingen te lokaliseren.
-![Voorbeeld van laagverschil](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### Laagvergelijking
+Bij het oplossen van containerproblemen kun je de krachtige vergelijkingstools van Git gebruiken om precies te zien wat er veranderd is tussen twee lagen. Door `git diff` uit te voeren tussen commits kunnen engineers exact zien welke bestanden zijn toegevoegd, gewijzigd of verwijderd, wat het veel eenvoudiger maakt om de impact van elke Dockerfile-instructie te begrijpen en problematische wijzigingen te vinden.
+![Voorbeeld van laagvergelijking](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### Oorsprongsherkomst
-Met behulp van `git blame` kunnen ontwikkelaars snel bepalen welke laag een specifiek bestand of regel code heeft geïntroduceerd. Dit is bijzonder waardevol bij het diagnosticeren van problemen met configuratiebestanden of afhankelijkheden. In plaats van handmatig elke laag te inspecteren, kun je direct de oorsprong van elk bestand traceren naar de bronlaag en bijbehorende Dockerfile-instructie.
+### Herkomstbepaling
+Met `git blame` kunnen ontwikkelaars snel bepalen welke laag een specifiek bestand of code-regel heeft geïntroduceerd. Dit is bijzonder waardevol bij het diagnosticeren van problemen met configuratiebestanden of afhankelijkheden. In plaats van elke laag handmatig te inspecteren, kun je direct de oorsprong van een bestand terugvinden tot de bronlaag en bijbehorende Dockerfile-instructie.
 
-### Bestandslevenscyclus volgen
-OCI2Git stelt je in staat om het traject van een specifiek bestand door de geschiedenis van de container-image te volgen. Je kunt zien wanneer een bestand oorspronkelijk is aangemaakt, hoe het is gewijzigd in verschillende lagen, en of/wanneer het uiteindelijk is verwijderd. Dit volledige overzicht helpt om de evolutie van bestanden te begrijpen zonder handmatig wijzigingen te hoeven volgen over mogelijk tientallen lagen.
+### Volgen van levenscyclus van bestand
+OCI2Git stelt je in staat om de reis van een specifiek bestand door de geschiedenis van een containerimage te volgen. Je kunt zien wanneer een bestand voor het eerst is aangemaakt, hoe het in lagen is gewijzigd en of/wanneer het uiteindelijk is verwijderd. Dit uitgebreide overzicht helpt om de evolutie van bestanden te begrijpen zonder handmatig wijzigingen door tientallen lagen te moeten volgen.
 
-Om de geschiedenis van een bestand in je container-image te volgen — inclusief wanneer het voor het eerst verscheen, werd gewijzigd of verwijderd — kun je deze Git-commando's gebruiken na conversie:
+Om de geschiedenis van een bestand in je containerimage te volgen — inclusief wanneer het voor het eerst verscheen, is veranderd of verwijderd — kun je na conversie deze Git-commando’s gebruiken:
 
 ```bash
 # Full history of a file (including renames)
@@ -192,20 +206,23 @@ repository/
 ├── Image.md     # Complete image metadata
 └── rootfs/      # Filesystem content from the container
 ```
-
-
 ## Vereisten
 
-- Rust 2021-editie
-- Docker CLI (voor ondersteuning van Docker-engine)
+- Rust 2021 editie
+- Docker CLI (voor Docker-engine ondersteuning)
 - Git
 
 ## Licentie
 
 MIT
 
+[documentatie]: https://docs.rs/oci2git/
+
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

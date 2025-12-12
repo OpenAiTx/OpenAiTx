@@ -24,39 +24,53 @@
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-Aplikacja napisana w Rust, która konwertuje obrazy kontenerów (Docker, itp.) do repozytoriów Git. Każda warstwa kontenera jest reprezentowana jako commit Git, zachowując historię i strukturę oryginalnego obrazu.
+[![Dokumentacja](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![Licencja](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![Pobrania](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-![Demo działania OCI2Git konwertującego obraz nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+[//]: # (mock na potrzeby przyszłego test.yaml)
+[//]: # ([![Status testu]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+
+<div align="left"> </div>  
+</div>
+
+Aplikacja Rust, która konwertuje obrazy kontenerów (Docker itd.) do repozytoriów Git. Każda warstwa kontenera jest reprezentowana jako commit Git, zachowując historię i strukturę oryginalnego obrazu.
+
+![Demo OCI2Git konwertującego obraz nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## Funkcje
 
-- Analizuj obrazy Dockera i wyodrębniaj informacje o warstwach
-- Utwórz repozytorium Git, w którym każda warstwa obrazu jest reprezentowana jako commit
-- Obsługa pustych warstw (ENV, WORKDIR, itp.) jako pustych commitów
+- Analizuj obrazy Docker i wyodrębniaj informacje o warstwach
+- Twórz repozytorium Git, gdzie każda warstwa obrazu jest reprezentowana jako commit
+- Obsługa pustych warstw (ENV, WORKDIR itd.) jako pustych commitów
 - Pełna ekstrakcja metadanych do formatu Markdown
-- Rozszerzalna architektura umożliwiająca obsługę różnych silników kontenerowych
+- Rozszerzalna architektura do obsługi różnych silników kontenerów
 
 ## Przypadki użycia
 
 ### Porównywanie warstw
-Podczas rozwiązywania problemów z kontenerami możesz użyć potężnych możliwości porównywania Git, aby dokładnie zidentyfikować, co zmieniło się pomiędzy dowolnymi dwoma warstwami. Uruchamiając `git diff` między commitami, inżynierowie mogą zobaczyć dokładnie, które pliki zostały dodane, zmodyfikowane lub usunięte, co znacznie ułatwia zrozumienie wpływu każdej instrukcji Dockerfile oraz lokalizację problematycznych zmian.
+Podczas rozwiązywania problemów z kontenerami możesz użyć potężnych możliwości porównywania Git, aby dokładnie zidentyfikować, co zmieniło się pomiędzy dowolnymi dwoma warstwami. Uruchamiając `git diff` między commitami, inżynierowie mogą zobaczyć, które pliki zostały dodane, zmodyfikowane lub usunięte, co znacznie ułatwia zrozumienie wpływu każdej instrukcji Dockerfile i lokalizowanie problematycznych zmian.
 ![Przykład porównania warstw](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### Śledzenie pochodzenia
-Korzystając z `git blame`, programiści mogą szybko ustalić, która warstwa wprowadziła konkretny plik lub linię kodu. Jest to szczególnie cenne podczas diagnozowania problemów z plikami konfiguracyjnymi lub zależnościami. Zamiast ręcznego przeglądania każdej warstwy, można natychmiast prześledzić pochodzenie dowolnego pliku do jego źródłowej warstwy i odpowiadającej instrukcji Dockerfile.
+Używając `git blame`, programiści mogą szybko określić, która warstwa wprowadziła dany plik lub linię kodu. Jest to szczególnie wartościowe podczas diagnozowania problemów z plikami konfiguracyjnymi lub zależnościami. Zamiast ręcznie przeszukiwać każdą warstwę, możesz natychmiast prześledzić pochodzenie dowolnego pliku do jego źródłowej warstwy i odpowiadającej instrukcji Dockerfile.
 
 ### Śledzenie cyklu życia pliku
-OCI2Git umożliwia śledzenie historii wybranego pliku w całym przebiegu historii obrazu kontenera. Możesz obserwować, kiedy plik został utworzony, jak był modyfikowany w kolejnych warstwach i czy/jeśli został ostatecznie usunięty. Ten kompleksowy widok pomaga zrozumieć ewolucję pliku bez konieczności ręcznego śledzenia zmian przez potencjalnie dziesiątki warstw.
+OCI2Git pozwala śledzić historię konkretnego pliku w całym obrazie kontenera. Możesz obserwować, kiedy plik został utworzony, jak był modyfikowany w kolejnych warstwach i czy/został usunięty. Ten kompleksowy widok pozwala zrozumieć ewolucję pliku bez konieczności ręcznego śledzenia zmian przez dziesiątki warstw.
 
-Aby śledzić historię pliku w obrazie kontenera — w tym moment jego pojawienia się, zmian lub usunięcia — możesz użyć tych poleceń Git po konwersji:
+Aby śledzić historię pliku w obrazie kontenera — w tym, kiedy pojawił się po raz pierwszy, został zmieniony lub usunięty — możesz użyć tych poleceń Git po konwersji:
 
 ```bash
 # Full history of a file (including renames)
@@ -192,20 +206,23 @@ repository/
 ├── Image.md     # Complete image metadata
 └── rootfs/      # Filesystem content from the container
 ```
-  
 ## Wymagania
 
-- Rust w wersji 2021
-- Docker CLI (dla obsługi silnika Docker)
+- Rust w edycji 2021
+- Docker CLI (dla wsparcia silnika Docker)
 - Git
 
 ## Licencja
 
 MIT
 
+[dokumentacja]: https://docs.rs/oci2git/
+
+
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

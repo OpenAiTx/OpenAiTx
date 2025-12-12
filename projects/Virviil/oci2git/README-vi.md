@@ -24,39 +24,53 @@
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-Một ứng dụng Rust chuyển đổi hình ảnh container (Docker, v.v.) thành kho lưu trữ Git. Mỗi lớp của container được thể hiện dưới dạng một lần commit trong Git, giữ nguyên lịch sử và cấu trúc của hình ảnh gốc.
+[![Tài liệu](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![Giấy phép](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![Số lượt tải xuống](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-![Demo OCI2Git chuyển đổi hình ảnh nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+[//]: # (giả lập cho future test.yaml)
+[//]: # ([![Trạng thái kiểm thử]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+
+<div align="left"> </div>  
+</div>
+
+Một ứng dụng Rust giúp chuyển đổi các image container (Docker, v.v.) sang kho lưu trữ Git. Mỗi layer của container sẽ được biểu diễn dưới dạng một commit Git, giữ nguyên lịch sử và cấu trúc của image gốc.
+
+![Demo OCI2Git chuyển đổi image nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## Tính năng
 
-- Phân tích các ảnh Docker và trích xuất thông tin về các lớp
-- Tạo kho Git nơi mỗi lớp ảnh được đại diện bằng một commit
-- Hỗ trợ các lớp rỗng (ENV, WORKDIR, v.v.) dưới dạng các commit rỗng
+- Phân tích image Docker và trích xuất thông tin layer
+- Tạo kho Git, trong đó mỗi layer của image là một commit
+- Hỗ trợ các layer rỗng (ENV, WORKDIR, v.v.) dưới dạng commit rỗng
 - Trích xuất đầy đủ metadata sang định dạng Markdown
-- Kiến trúc mở rộng để hỗ trợ các engine container khác nhau
+- Kiến trúc mở rộng, hỗ trợ nhiều engine container khác nhau
 
-## Các trường hợp sử dụng
+## Trường hợp sử dụng
 
-### So sánh các lớp
-Khi xử lý sự cố container, bạn có thể sử dụng khả năng so sánh mạnh mẽ của Git để xác định chính xác sự thay đổi giữa hai lớp bất kỳ. Bằng cách chạy `git diff` giữa các commit, kỹ sư có thể xem rõ những tệp nào đã được thêm, sửa đổi hoặc xóa, giúp dễ dàng hiểu tác động của mỗi lệnh Dockerfile và xác định các thay đổi gây ra lỗi.
-![Ví dụ về so sánh lớp](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### So sánh các layer
+Khi xử lý sự cố container, bạn có thể sử dụng khả năng diff mạnh mẽ của Git để xác định chính xác những gì đã thay đổi giữa hai layer bất kỳ. Bằng cách chạy `git diff` giữa các commit, kỹ sư có thể thấy rõ tệp nào được thêm, sửa đổi hoặc xóa, giúp dễ dàng hiểu tác động của từng lệnh Dockerfile và xác định thay đổi gây vấn đề.
+![Ví dụ về diff layer](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### Theo dõi nguồn gốc
-Sử dụng `git blame`, các lập trình viên có thể nhanh chóng xác định lớp nào đã tạo ra một tệp hoặc dòng mã cụ thể. Điều này đặc biệt hữu ích khi kiểm tra các vấn đề về tệp cấu hình hoặc phụ thuộc. Thay vì kiểm tra thủ công từng lớp, bạn có thể ngay lập tức truy dấu nguồn gốc của bất kỳ tệp nào về lớp nguồn và lệnh Dockerfile tương ứng.
+Sử dụng `git blame`, các nhà phát triển có thể nhanh chóng xác định layer nào đã giới thiệu một tệp hoặc dòng mã cụ thể. Điều này đặc biệt hữu ích khi xử lý sự cố với file cấu hình hoặc phụ thuộc. Thay vì kiểm tra từng layer một cách thủ công, bạn có thể truy dấu nguồn gốc bất kỳ tệp nào về đúng layer gốc và chỉ thị Dockerfile tương ứng.
 
-### Theo dõi vòng đời tệp
-OCI2Git cho phép bạn theo dõi quá trình phát triển của một tệp cụ thể xuyên suốt lịch sử ảnh container. Bạn có thể quan sát thời điểm tệp được tạo lần đầu, cách nó bị chỉnh sửa qua các lớp, và nếu/khi nó bị xóa. Góc nhìn toàn diện này giúp hiểu rõ sự phát triển của tệp mà không cần phải kiểm tra thủ công qua hàng chục lớp.
+### Theo dõi vòng đời tệp tin
+OCI2Git cho phép bạn theo dõi hành trình của một tệp cụ thể xuyên suốt lịch sử của image container. Bạn có thể xem khi nào tệp lần đầu xuất hiện, bị chỉnh sửa qua các layer, và khi nào (nếu có) bị xóa. Góc nhìn toàn diện này giúp hiểu quá trình phát triển của file mà không cần theo dõi thủ công qua hàng chục layer.
 
-Để theo dõi lịch sử của một tệp trong ảnh container — bao gồm thời điểm xuất hiện, bị thay đổi hoặc xóa — bạn có thể sử dụng các lệnh Git sau khi chuyển đổi:
+Để theo dõi lịch sử của một tệp trong image container — gồm khi nào nó xuất hiện, bị thay đổi, hoặc bị xóa — bạn có thể dùng các lệnh Git sau sau khi chuyển đổi:
 
 ```bash
 # Full history of a file (including renames)
@@ -192,11 +206,9 @@ repository/
 ├── Image.md     # Complete image metadata
 └── rootfs/      # Filesystem content from the container
 ```
-
-
 ## Yêu cầu
 
-- Phiên bản Rust 2021
+- Rust phiên bản 2021
 - Docker CLI (hỗ trợ Docker engine)
 - Git
 
@@ -204,8 +216,13 @@ repository/
 
 MIT
 
+[tài liệu]: https://docs.rs/oci2git/
+
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

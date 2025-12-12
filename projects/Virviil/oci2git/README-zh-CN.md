@@ -24,39 +24,53 @@
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-一个将容器镜像（如 Docker 等）转换为 Git 仓库的 Rust 应用程序。每个容器层都被表示为一个 Git 提交，保留了原始镜像的历史和结构。
+[![文档](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![许可证](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![下载量](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
+
+[//]: # (mock for future test.yaml)
+[//]: # ([![测试状态]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+
+<div align="left"> </div>  
+</div>
+
+一个将容器镜像（如 Docker 等）转换为 Git 仓库的 Rust 应用程序。每个容器层都表示为一个 Git 提交，保留了原始镜像的历史和结构。
 
 ![OCI2Git 转换 nginx 镜像的演示](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
-## 功能
+## 功能特性
 
 - 分析 Docker 镜像并提取层信息
-- 创建一个 Git 仓库，将每个镜像层表示为一次提交
-- 支持空层（如 ENV、WORKDIR 等）作为空提交
-- 完整的元数据提取为 Markdown 格式
+- 创建一个每个镜像层都作为提交的 Git 仓库
+- 支持空层（ENV、WORKDIR 等）作为空提交
+- 完整元数据提取并转为 Markdown 格式
 - 可扩展架构以支持不同的容器引擎
 
-## 使用场景
+## 应用场景
 
-### 层差异对比
-在排查容器问题时，你可以利用 Git 强大的差异比较功能，准确识别任意两层之间发生了哪些更改。通过在提交之间运行 `git diff`，工程师可以精确看到哪些文件被添加、修改或删除，从而更容易理解每条 Dockerfile 指令的影响并定位问题更改。
+### 层间差异分析
+在容器故障排查时，可以利用 Git 强大的差异分析功能，精确识别任意两层之间发生了什么变化。通过在提交间运行 `git diff`，工程师可以清楚看到哪些文件被添加、修改或删除，从而更容易理解每条 Dockerfile 指令的影响并定位有问题的变更。
 ![层差异示例](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### 源头追踪
-通过使用 `git blame`，开发者可以快速确定是哪一层引入了某个特定文件或代码行。这在诊断配置文件或依赖项问题时尤为有价值。无需手动检查每一层，你可以立刻将任意文件追溯到其来源层及对应的 Dockerfile 指令。
+使用 `git blame`，开发者可以快速确定是哪个层引入了特定文件或代码行。这在诊断配置文件或依赖项问题时尤其有价值。无需手动检查每个层，您可以立即追溯任意文件的来源层及其对应的 Dockerfile 指令。
 
 ### 文件生命周期追踪
-OCI2Git 让你可以跟踪特定文件在容器镜像历史中的变化历程。你可以观察文件最初何时创建、在各层如何被修改，以及是否/何时被最终删除。这个全面视图有助于理解文件的演变过程，无需手动跨越数十层追踪更改。
+OCI2Git 让您能够跟踪特定文件在容器镜像历史中的演变过程。可以观察文件最初创建时间、在各层中的修改情况，以及最终是否被删除。这种全面视角有助于理解文件的演化，无需手动在可能多达数十层间逐步检查变更。
 
-要在容器镜像中跟踪某个文件的历史——包括首次出现、被更改或删除的时间——转换后可以使用以下 Git 命令：
+要追踪容器镜像中特定文件的历史——包括首次出现、变更和删除时间——在转换后可以使用以下 Git 命令：
 
 ```bash
 # Full history of a file (including renames)
@@ -202,10 +216,13 @@ repository/
 
 MIT
 
+[文档]: https://docs.rs/oci2git/
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

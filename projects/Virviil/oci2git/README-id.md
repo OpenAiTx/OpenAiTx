@@ -24,39 +24,53 @@
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-Aplikasi Rust yang mengonversi image kontainer (Docker, dll.) menjadi repository Git. Setiap layer kontainer diwakili sebagai commit Git, menjaga riwayat dan struktur dari image asli.
+[![Dokumentasi](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![Lisensi](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![Unduhan](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
+
+[//]: # (mock untuk test.yaml di masa depan)
+[//]: # ([![Status Tes]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+
+<div align="left"> </div>  
+</div>
+
+Aplikasi Rust yang mengonversi image container (Docker, dll.) menjadi repository Git. Setiap layer container direpresentasikan sebagai commit Git, menjaga riwayat dan struktur dari image asli.
 
 ![Demo OCI2Git mengonversi image nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## Fitur
 
 - Menganalisis image Docker dan mengekstrak informasi layer
-- Membuat repositori Git di mana setiap layer image direpresentasikan sebagai sebuah commit
-- Mendukung layer kosong (ENV, WORKDIR, dll.) sebagai commit kosong
-- Ekstraksi metadata lengkap ke format Markdown
+- Membuat repository Git di mana setiap layer image direpresentasikan sebagai commit
+- Dukungan untuk layer kosong (ENV, WORKDIR, dll.) sebagai commit kosong
+- Ekstraksi metadata secara lengkap ke format Markdown
 - Arsitektur yang dapat diperluas untuk mendukung berbagai engine container
 
 ## Kasus Penggunaan
 
 ### Perbandingan Layer
-Saat melakukan troubleshooting pada masalah container, Anda dapat menggunakan kemampuan diffing Git yang kuat untuk mengidentifikasi secara tepat apa yang berubah di antara dua layer. Dengan menjalankan `git diff` antar commit, engineer dapat melihat dengan jelas file mana yang ditambahkan, dimodifikasi, atau dihapus, sehingga memudahkan untuk memahami dampak dari setiap instruksi Dockerfile dan menemukan perubahan yang bermasalah.
-![Contoh untuk perbandingan layer](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+Saat menelusuri masalah container, Anda dapat menggunakan kemampuan diffing Git yang kuat untuk mengidentifikasi perubahan tepat antara dua layer mana pun. Dengan menjalankan `git diff` antar commit, engineer dapat melihat secara persis file mana yang ditambahkan, diubah, atau dihapus, sehingga lebih mudah memahami dampak dari setiap instruksi Dockerfile dan menemukan perubahan bermasalah.
+![Contoh diff layer](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### Pelacakan Asal
-Dengan menggunakan `git blame`, developer dapat dengan cepat menentukan layer mana yang memperkenalkan sebuah file atau baris kode tertentu. Ini sangat berguna saat mendiagnosis masalah pada file konfigurasi atau dependensi. Alih-alih memeriksa setiap layer secara manual, Anda dapat langsung melacak asal-usul setiap file kembali ke layer sumbernya dan instruksi Dockerfile terkait.
+Dengan menggunakan `git blame`, developer dapat dengan cepat menentukan layer mana yang memperkenalkan file atau baris kode tertentu. Ini sangat berguna saat mendiagnosis masalah pada file konfigurasi atau dependensi. Alih-alih memeriksa setiap layer secara manual, Anda dapat langsung menelusuri asal file mana pun kembali ke layer sumbernya dan instruksi Dockerfile yang sesuai.
 
 ### Pelacakan Siklus Hidup File
-OCI2Git memungkinkan Anda mengikuti perjalanan sebuah file tertentu sepanjang sejarah image container. Anda dapat mengamati kapan file tersebut pertama kali dibuat, bagaimana ia dimodifikasi di setiap layer, dan jika/kapan akhirnya dihapus. Pandangan komprehensif ini membantu memahami evolusi file tanpa harus melacak perubahan secara manual di puluhan layer.
+OCI2Git memungkinkan Anda mengikuti perjalanan file tertentu sepanjang riwayat image container. Anda dapat mengamati kapan sebuah file pertama kali dibuat, bagaimana file tersebut diubah di berbagai layer, dan jika/kapan akhirnya dihapus. Pandangan komprehensif ini membantu memahami evolusi file tanpa harus melacak perubahan secara manual di puluhan layer.
 
-Untuk melacak riwayat sebuah file pada image container Anda — termasuk kapan pertama kali muncul, diubah, atau dihapus — Anda dapat menggunakan perintah Git berikut setelah konversi:
+Untuk melacak riwayat suatu file dalam image container Anda — termasuk kapan file itu pertama kali muncul, diubah, atau dihapus — Anda dapat menggunakan perintah Git berikut setelah konversi:
 
 ```bash
 # Full history of a file (including renames)
@@ -192,20 +206,23 @@ repository/
 ├── Image.md     # Complete image metadata
 └── rootfs/      # Filesystem content from the container
 ```
-  
 ## Persyaratan
 
-- Edisi Rust 2021
-- Docker CLI (untuk dukungan mesin Docker)
+- Rust edisi 2021
+- Docker CLI (untuk dukungan Docker engine)
 - Git
 
 ## Lisensi
 
 MIT
 
+[dokumentasi]: https://docs.rs/oci2git/
+
+
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

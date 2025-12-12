@@ -24,39 +24,53 @@
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-컨테이너 이미지(Docker 등)를 Git 저장소로 변환하는 Rust 애플리케이션입니다. 각 컨테이너 레이어는 Git 커밋으로 표현되며, 원본 이미지의 히스토리와 구조를 보존합니다.
+[![문서](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![라이선스](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![다운로드](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-![OCI2Git이 nginx 이미지를 변환하는 데모](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+[//]: # (향후 test.yaml을 위한 목업)
+[//]: # ([![테스트 상태]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
 
-## 주요 기능
+<div align="left"> </div>  
+</div>
 
-- Docker 이미지를 분석하고 레이어 정보를 추출합니다
-- 각 이미지 레이어가 커밋으로 표현되는 Git 저장소를 생성합니다
-- 빈 레이어(ENV, WORKDIR 등)를 빈 커밋으로 지원합니다
-- 메타데이터를 Markdown 형식으로 완전하게 추출합니다
+컨테이너 이미지(Docker 등)를 Git 저장소로 변환하는 Rust 애플리케이션입니다. 각 컨테이너 레이어는 Git 커밋으로 표현되어 원본 이미지의 히스토리와 구조를 보존합니다.
+
+![OCI2Git가 nginx 이미지를 변환하는 데모](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+
+## 특징
+
+- Docker 이미지를 분석하고 레이어 정보를 추출
+- 각 이미지 레이어를 커밋으로 표현하는 Git 저장소 생성
+- 빈 레이어(ENV, WORKDIR 등)를 빈 커밋으로 지원
+- 메타데이터를 완전히 추출하여 Markdown 형식으로 변환
 - 다양한 컨테이너 엔진 지원을 위한 확장 가능한 아키텍처
 
 ## 사용 사례
 
-### 레이어 차이 분석
-컨테이너 문제를 해결할 때, Git의 강력한 diff 기능을 사용하여 두 레이어 사이에 정확히 어떤 변경이 있었는지 식별할 수 있습니다. 커밋 간에 `git diff`를 실행하면 엔지니어가 어떤 파일이 추가, 수정 또는 삭제되었는지 정확하게 확인할 수 있어, 각 Dockerfile 명령의 영향과 문제를 유발한 변경 사항을 이해하기가 훨씬 쉬워집니다.
-![레이어 차이 예시](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### 레이어 디프(Layer Diffing)
+컨테이너 문제를 해결할 때, Git의 강력한 diff 기능을 사용하여 두 레이어 사이에 정확히 어떤 변화가 있었는지 식별할 수 있습니다. 커밋 간에 `git diff`를 실행하면 엔지니어는 어떤 파일이 추가, 수정, 삭제되었는지 정확히 볼 수 있어 각 Dockerfile 명령의 영향과 문제의 원인을 쉽게 파악할 수 있습니다.
+![레이어 디프 예시](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### 원본 추적
-`git blame`을 사용하면 개발자는 특정 파일이나 코드 라인이 어떤 레이어에서 도입되었는지 빠르게 확인할 수 있습니다. 이는 설정 파일이나 종속성 문제를 진단할 때 특히 유용합니다. 각 레이어를 수동으로 검사하지 않고도, 파일의 원본 레이어와 해당 Dockerfile 명령까지 즉시 추적할 수 있습니다.
+### 변경 출처 추적(Origin Tracking)
+`git blame`을 사용하면 개발자는 특정 파일이나 코드 라인이 어떤 레이어에서 도입되었는지 빠르게 확인할 수 있습니다. 이는 설정 파일이나 의존성 문제를 진단할 때 특히 유용합니다. 각 레이어를 수동으로 확인할 필요 없이 모든 파일의 출처를 즉시 해당 레이어와 Dockerfile 명령으로 추적할 수 있습니다.
 
-### 파일 라이프사이클 추적
-OCI2Git을 통해 컨테이너 이미지의 전체 히스토리에서 특정 파일의 이동 경로를 따라갈 수 있습니다. 파일이 처음 생성된 시점, 각 레이어에서 어떻게 수정되었는지, 그리고 최종적으로 삭제된 시점까지 관찰할 수 있습니다. 이 포괄적인 뷰를 통해 수십 개의 레이어에 걸친 변경 사항을 수동으로 추적하지 않고도 파일의 진화를 이해할 수 있습니다.
+### 파일 생애주기 추적(File Lifecycle Tracking)
+OCI2Git을 사용하면 컨테이너 이미지의 히스토리에서 특정 파일이 어떻게 변화하는지 전체 과정을 추적할 수 있습니다. 파일이 처음 생성된 시점, 각 레이어에서 어떻게 수정되었는지, 그리고 언제 삭제되었는지를 모두 관찰할 수 있어 수십 개의 레이어에서 수동으로 변경 내역을 추적하지 않아도 파일의 진화를 한눈에 파악할 수 있습니다.
 
-컨테이너 이미지 내 특정 파일의 히스토리(처음 등장, 변경, 삭제 시점 등)를 추적하려면 변환 후 다음 Git 명령어를 사용할 수 있습니다:
+컨테이너 이미지에서 파일의 히스토리를 추적하고(처음 등장, 변경, 삭제 시점 포함) 변환 이후에 다음 Git 명령어로 확인할 수 있습니다:
 
 ```bash
 # Full history of a file (including renames)
@@ -192,7 +206,7 @@ repository/
 ├── Image.md     # Complete image metadata
 └── rootfs/      # Filesystem content from the container
 ```
-
+  
 ## 요구 사항
 
 - Rust 2021 에디션
@@ -203,9 +217,12 @@ repository/
 
 MIT
 
+[documentation]: https://docs.rs/oci2git/
+
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

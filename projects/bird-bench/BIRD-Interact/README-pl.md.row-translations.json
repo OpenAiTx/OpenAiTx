@@ -117,13 +117,13 @@
     "row": 20,
     "rowsha": "qR/iuiQWsQ7j83o7cAhbO3yM99qEPz8jw9z3H616J9o=",
     "originContent": "Please note that before your evaluation process, when Docker loads the databases, errors may occasionally occur due to environment inconsistency (these will not terminate the process but will appear in the Docker logs). As a result, some databases may fail to load properly, leading to empty databases. This will cause the evaluation results to be abnormally low.  ",
-    "translatedContent": "Prosimy pamiętać, że przed procesem ewaluacji, podczas ładowania baz danych przez Dockera, mogą sporadycznie wystąpić błędy związane z niespójnością środowiska (nie zakończą one procesu, ale pojawią się w logach Dockera). W efekcie niektóre bazy mogą nie załadować się poprawnie, co prowadzi do pustych baz danych. Powoduje to nienormalnie niskie wyniki ewaluacji.  "
+    "translatedContent": "Prosimy pamiętać, że przed procesem ewaluacji, podczas ładowania baz danych przez Dockera, mogą sporadycznie wystąpić błędy spowodowane niespójnością środowiska (nie przerywają one procesu, ale pojawią się w logach Dockera). W rezultacie niektóre bazy mogą się nie załadować poprawnie, prowadząc do pustych baz. To spowoduje nienaturalnie niskie wyniki ewaluacji.  "
   },
   {
     "row": 21,
     "rowsha": "j3WE+j5u8Ng3SBgrMG35Bm6kDWNOXEnVhxpRhR2BM9w=",
     "originContent": "👉 Therefore, we strongly recommend checking the Docker logs for any errors **before running the evaluation** and verifying that all databases have been successfully loaded.",
-    "translatedContent": "👉 Dlatego zdecydowanie zalecamy sprawdzenie logów Dockera pod kątem błędów **przed uruchomieniem ewaluacji** oraz potwierdzenie, że wszystkie bazy danych zostały poprawnie załadowane."
+    "translatedContent": "👉 Z tego powodu zdecydowanie zalecamy sprawdzenie logów Dockera pod kątem błędów **przed uruchomieniem ewaluacji** oraz upewnienie się, że wszystkie bazy zostały załadowane poprawnie."
   },
   {
     "row": 22,
@@ -133,9 +133,9 @@
   },
   {
     "row": 23,
-    "rowsha": "0YeCyxpcm7/4RDbaM+OQoI8YfqEHQzDkpGW15VZdi1U=",
-    "originContent": "## 📰 News",
-    "translatedContent": "## 📰 Aktualności"
+    "rowsha": "KZY6Bs9wH08P6UdsDB5l8Z8KG67bCsVs1bNYgNPcdj8=",
+    "originContent": "👉 We have updated the **Submission Guidelines**, where the customized agent scaffolds are supported. Please feel free to take a look at our detailed submission guidelines [here](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true).",
+    "translatedContent": "👉 Zaktualizowaliśmy **Wytyczne dotyczące zgłoszeń**, gdzie obsługiwane są własne szablony agentów. Zapraszamy do zapoznania się ze szczegółowymi wytycznymi [tutaj](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true)."
   },
   {
     "row": 24,
@@ -145,21 +145,21 @@
   },
   {
     "row": 25,
-    "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
-    "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
-    "translatedContent": "- [2025-08-26] 🚀 Z radością ogłaszamy wydanie zestawu **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  "
+    "rowsha": "0YeCyxpcm7/4RDbaM+OQoI8YfqEHQzDkpGW15VZdi1U=",
+    "originContent": "## 📰 News",
+    "translatedContent": "## 📰 Aktualności"
   },
   {
     "row": 26,
-    "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
-    "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
-    "translatedContent": "To trudny zestaw — najlepsze LLM-y osiągają tylko **16,33%** skuteczności, z zaledwie **10,0%** dla części `c-interact` i `a-interact`.  "
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 27,
-    "rowsha": "uTh0Lj92DZu8zFDeupB/DHZqDkNrQJVNtDYmELxeRQg=",
-    "originContent": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).",
-    "translatedContent": "👉 Więcej szczegółów znajdziesz na naszej [stronie projektu](https://bird-interact.github.io/)."
+    "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
+    "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
+    "translatedContent": "- [2025-11-06] 🐛 **Naprawa błędu** & 🐳 **Aktualizacja Dockera**: Aktualizacja sqlglot do wersji 26.16.4, aby naprawić błąd, który uniemożliwiał parserowi SQL prawidłowe przetwarzanie zapytań użytkownika. Możesz naprawić to przez ponowną instalację: `pip install sqlglot==26.16.4` w środowisku `bird_interact_eval`. Obraz `bird_interact_eval` został również zaktualizowany, więc możesz go pobrać ponownie i utworzyć nowy kontener."
   },
   {
     "row": 28,
@@ -169,33 +169,33 @@
   },
   {
     "row": 29,
-    "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
-    "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
-    "translatedContent": "- [2025-08-26] 📬 W tym tygodniu wyślemy **Ground Truth & Test cases** na naszą listę mailingową.  "
+    "rowsha": "lMr4RDYFItZ9CRw58CMm96RH+m1TG6qtPaypnv8airE=",
+    "originContent": "- [2025-10-21] 🐳 **Docker update**: We added the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually!",
+    "translatedContent": "- [2025-10-21] 🐳 **Aktualizacja Dockera**: Dodaliśmy dockera dla środowiska Full DB. Wysłaliśmy 3 obrazy Dockera (Base/Full DB Env oraz środowisko ewaluacyjne zarówno dla `a-Interact`, jak i `c-Interact`) do Docker Hub, by ułatwić konfigurację środowiska. Nie musisz pobierać dumpów baz ani budować obrazów ręcznie!"
   },
   {
     "row": 30,
-    "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
-    "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
-    "translatedContent": "Jeśli chcesz uzyskać wcześniejszy dostęp, wyślij mail zgodnie z instrukcją na stronie, aby uzyskać **automatyczne pobranie**.  "
-  },
-  {
-    "row": 31,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 31,
+    "rowsha": "1Idw1dJinQ5ViE9XSo3nl6paFvPhRHLVF82HX7wrKMQ=",
+    "originContent": "- [2025-10-08] 📝 Our **[Bird-Interact paper](https://huggingface.co/papers/2510.05318)** is now publicly available!  ",
+    "translatedContent": "- [2025-10-08] 📝 Nasz **[artykuł o Bird-Interact](https://huggingface.co/papers/2510.05318)** jest już publicznie dostępny!  "
+  },
+  {
     "row": 32,
-    "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
-    "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
-    "translatedContent": "- [2025-08-26] 💾 Ponadto wydaliśmy wersję SQLite **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** ułatwiającą lokalne badania.  "
+    "rowsha": "CyhZ3V3Xw21cqVgFeKohnC9M+zgHFv7iAcLiXcj7GyI=",
+    "originContent": "  It presents the full details, methodology, and evaluation of our interactive text-to-SQL benchmark.  ",
+    "translatedContent": "  Prezentuje pełne szczegóły, metodykę i ewaluację naszego interaktywnego benchmarku text-to-SQL.  "
   },
   {
     "row": 33,
-    "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
-    "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
-    "translatedContent": "Pełne wersje **LiveSQLBench-Base** i **-Large** pojawią się wkrótce!"
+    "rowsha": "5LLNJEctcvyORsxcmNT01K5A7hUbbXe73EKwGwkOgMI=",
+    "originContent": "  👉 Check it out and know more about the ideas behind [BIRD-Interact](https://bird-interact.github.io/).",
+    "translatedContent": "  👉 Sprawdź i poznaj więcej o idei [BIRD-Interact](https://bird-interact.github.io/)."
   },
   {
     "row": 34,
@@ -205,21 +205,21 @@
   },
   {
     "row": 35,
-    "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
-    "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
-    "translatedContent": "- [2025-08-22] **Poprawka błędu**: W kodzie Bird-Interact-Agent naprawiliśmy błąd, który powodował, że podczas ewaluacji SQL fazy 2 zapisany SQL fazy 1 nie mógł być pomyślnie wykonany, co prowadziło do niższej skuteczności fazy 2. Błąd dotyczył tylko tych zadań, w których SQL fazy 1 wykonuje operacje na bazie danych, np. CREATE table itd."
+    "rowsha": "p8U7kXBDyt7dTwl5nGd41SRQeVKq/0RgaX0XX6TqnW4=",
+    "originContent": "- [2025-08-26] 🚀 We're excited to announce the release of the **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** set!  ",
+    "translatedContent": "- [2025-08-26] 🚀 Z radością ogłaszamy wydanie zestawu **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**!  "
   },
   {
     "row": 36,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "cZRLL0Cl1abpLmEsXUNPMa1FqgTG/AiR4Rta4dhhpzk=",
+    "originContent": "It's a tough one — the best LLMs are only achieving a **16.33%** success rate, with just **10.0%** on the `c-interact` and `a-interact` portions.  ",
+    "translatedContent": "To trudne zadanie — najlepsze LLM-y osiągają tylko **16,33%** skuteczności, zaledwie **10,0%** na częściach `c-interact` i `a-interact`.  "
   },
   {
     "row": 37,
-    "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
-    "originContent": "## 🧸 Overview",
-    "translatedContent": "## 🧸 Przegląd"
+    "rowsha": "uTh0Lj92DZu8zFDeupB/DHZqDkNrQJVNtDYmELxeRQg=",
+    "originContent": "👉 For more details, please visit our [project website](https://bird-interact.github.io/).",
+    "translatedContent": "👉 Po więcej szczegółów zapraszamy na [stronę projektu](https://bird-interact.github.io/)."
   },
   {
     "row": 38,
@@ -229,57 +229,57 @@
   },
   {
     "row": 39,
-    "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
-    "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
-    "translatedContent": "BIRD-INTERACT, interaktywny benchmark text-to-SQL, **na nowo definiuje ewaluację Text-to-SQL poprzez pryzmat dynamicznych interakcji**."
+    "rowsha": "njQxscmq+qoQRPFHu4zV50Xh0Om7eNBkzAW8d5sodrI=",
+    "originContent": "- [2025-08-26] 📬 We'll be sending the **Ground Truth & Test cases** to our mailing list this week.  ",
+    "translatedContent": "- [2025-08-26] 📬 W tym tygodniu wyślemy **Ground Truth & Test cases** do naszej listy mailingowej.  "
   },
   {
     "row": 40,
-    "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
-    "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
-    "translatedContent": "Środowisko łączy hierarchiczną bazę wiedzy, dokumentację bazy danych oraz symulator użytkownika oparty na funkcjach, by odwzorować autentyczne środowiska biznesowe obejmujące pełne operacje **CRUD**."
+    "rowsha": "HwzWO9mNhKPLTQfQ12WsbYV1MagdQY+HJT7EgFcBByA=",
+    "originContent": "If you want early access, please send an email as instructed on the site for an **automatic download**.  ",
+    "translatedContent": "Jeśli chcesz mieć wcześniejszy dostęp, wyślij maila zgodnie z instrukcją na stronie, aby uzyskać **automatyczne pobranie**.  "
   },
   {
     "row": 41,
-    "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
-    "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
-    "translatedContent": "Oferuje dwa rygorystyczne tryby testowania: (1) pasywną **Interakcję Konwersacyjną** oraz (2) aktywną **Interakcję Agentową**, obejmującą 600 adnotowanych zadań, w tym Business Intelligence (BI), operacje CRUD i inne, z których każde zabezpieczone jest wykonywalnymi przypadkami testowymi."
-  },
-  {
-    "row": 42,
-    "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
-    "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
-    "translatedContent": "Typowe oceny wywołują od 1 968 do 5 496 tur interakcji między modelem a symulatorem użytkownika, podczas gdy najnowocześniejsze modele rozumowania rozwiązują obecnie tylko **≈24%** oraz **≈18%** zadań, co podkreśla wyzwanie, jakie stanowi ten benchmark."
-  },
-  {
-    "row": 43,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
+    "row": 42,
+    "rowsha": "PdfleL4UEb/TpBvwZuRBaqVEtkXfwgIc/mpYLMRWtyc=",
+    "originContent": "- [2025-08-26] 💾 On another note, we've also released a SQLite version of **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** for easier local research.  ",
+    "translatedContent": "- [2025-08-26] 💾 Z innej beczki: opublikowaliśmy również wersję SQLite **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)** dla łatwiejszych badań lokalnych.  "
+  },
+  {
+    "row": 43,
+    "rowsha": "VxoqSMB6TpN2zObl1GDfFf/otbnzKtVIHirvSq2F8zI=",
+    "originContent": "The full **LiveSQLBench-Base** and **-Large** versions are coming soon!",
+    "translatedContent": "Pełne wersje **LiveSQLBench-Base** i **-Large** pojawią się wkrótce!"
+  },
+  {
     "row": 44,
-    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-    "originContent": "<p align=\"center\">",
-    "translatedContent": "<p align=\"center\">"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 45,
-    "rowsha": "75rx/bZj6j98j3RNS6gpBC2JCE4XvCP27x7SUM1Pp/k=",
-    "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" ",
-    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" "
+    "rowsha": "73VPSBicTOvoCvqOPfsvXHp4/SFquVX6NiITz3mxcnk=",
+    "originContent": "- [2025-08-22] **Bug Fix**: In Bird-Interact-Agent code, we fixed a bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
+    "translatedContent": "- [2025-08-22] **Poprawka błędu**: W kodzie Bird-Interact-Agent naprawiliśmy błąd, przez który przy ocenie fazy-2 SQL zapisane SQL z fazy-1 nie mogło być wykonane poprawnie, co prowadziło do niższego współczynnika sukcesu fazy-2. Błąd ten dotyczył tylko zadań, w których SQL z fazy-1 wykonuje operacje na bazie danych, np. CREATE table itp."
   },
   {
     "row": 46,
-    "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
-    "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
-    "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 47,
-    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-    "originContent": "</p>",
-    "translatedContent": "</p>"
+    "rowsha": "QhSpt0Gs7Alk+veU+/7r5eBWjEmUPNckehpOkHHTFfY=",
+    "originContent": "## 🧸 Overview",
+    "translatedContent": "## 🧸 Przegląd"
   },
   {
     "row": 48,
@@ -289,483 +289,483 @@
   },
   {
     "row": 49,
-    "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
-    "originContent": "### ✅ Two Evaluation Modes",
-    "translatedContent": "### ✅ Dwa Tryby Oceny"
+    "rowsha": "9U1B81vOnyeDPKlxb6O3XC4FXh0hbLXH8V57gCGlb0Q=",
+    "originContent": "BIRD-INTERACT, an interactive text-to-SQL benchmark, **re-imagines Text-to-SQL evaluation via lens of dynamic interactions**.",
+    "translatedContent": "BIRD-INTERACT, interaktywny benchmark text-to-SQL, **na nowo definiuje ewaluację Text-to-SQL przez pryzmat dynamicznych interakcji**."
   },
   {
     "row": 50,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "84g83RdosxtgIw+gRwhL1ror9irKd50meUk3EOxrDGA=",
+    "originContent": "The environment blends a hierarchical knowledge base, database documentation and a function-driven user simulator to recreate authentic enterprise environments across full **CRUD** operations.",
+    "translatedContent": "Środowisko łączy hierarchiczną bazę wiedzy, dokumentację bazy danych oraz symulator użytkownika oparty na funkcjach, aby odtworzyć autentyczne środowiska korporacyjne dla pełnych operacji **CRUD**."
   },
   {
     "row": 51,
-    "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
-    "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
-    "translatedContent": "BIRD-INTERACT obsługuje dwa tryby oceny, jak wspomniano powyżej:"
+    "rowsha": "9KzX3dvnS81NZYRZ9Lky7nqmWEbBkaBCTMs8AamBzSA=",
+    "originContent": "It offers two rigorous test modes: (1) passive **Conversational Interaction** and (2) active **Agentic Interaction**, spanning 600 annotated tasks including Business Intelligence (BI), CRUD operations and etc., each guarded by executable test cases.",
+    "translatedContent": "Oferuje dwa rygorystyczne tryby testowe: (1) pasywną **Konwersacyjną Interakcję** i (2) aktywną **Agentową Interakcję**, obejmujące 600 adnotowanych zadań, w tym Business Intelligence (BI), operacje CRUD itd., każde z nich chronione przez wykonywalne przypadki testowe."
   },
   {
     "row": 52,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "mpc5AeXDAHxdj52GwIefEDRc0bpXki0gsoYNYWijI0c=",
+    "originContent": "Typical evaluations trigger 1,968-5,496 interaction turns between model and user simulator, while state-of-the-art reasoning models currently solve only **≈24%** and **≈18%** of tasks, underscoring the benchmark's challenge.",
+    "translatedContent": "Typowa ewaluacja wywołuje 1 968-5 496 tur interakcji między modelem a symulatorem użytkownika, podczas gdy najnowsze modele rozumowania rozwiązują obecnie tylko **≈24%** i **≈18%** zadań, co podkreśla wyzwanie tego benchmarku."
   },
   {
     "row": 53,
-    "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
-    "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
-    "translatedContent": "   - **c-Interact**: Interakcja Konwersacyjna, która jest trybem pasywnym, a przepływ pracy jest stały. Kod i szczegółowe informacje można znaleźć w `bird_interact_conv`."
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 54,
-    "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
-    "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
-    "translatedContent": "   - **a-Interact**: Interakcja Agentowa, która jest ucieleśnionym trybem aktywnym, gdzie przepływ pracy jest dynamiczny i prowadzony przez modele. Kod i szczegółowe informacje można znaleźć w `bird_interact_agent`."
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
   },
   {
     "row": 55,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "75rx/bZj6j98j3RNS6gpBC2JCE4XvCP27x7SUM1Pp/k=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" ",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png\" "
   },
   {
     "row": 56,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### 🐣 Wersja Lite"
+    "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
+    "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
+    "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
   },
   {
     "row": 57,
-    "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
-    "originContent": "### 🐣 Lite Version",
-    "translatedContent": ""
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
   },
   {
     "row": 58,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Udostępniamy wersję lite BIRD-INTERACT, `bird-interact-lite-exp`, która obejmuje 270 wysokiej jakości zadań rzeczywistych specjalnie dla PostgreSQL. To dobry punkt wyjścia do szybkich eksperymentów."
+    "translatedContent": ""
   },
   {
     "row": 59,
-    "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
-    "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
-    "translatedContent": ""
+    "rowsha": "a+eobES8Y0aPdgWyMeEskYpAfe5mRRebAHJzTW4BWXY=",
+    "originContent": "### ✅ Two Evaluation Modes",
+    "translatedContent": "### ✅ Dwa tryby ewaluacji"
   },
   {
     "row": 60,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "### 🦜 Wersja Pełna"
+    "translatedContent": ""
   },
   {
     "row": 61,
-    "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
-    "originContent": "### 🦜 Full Version",
-    "translatedContent": ""
+    "rowsha": "rQgxc4D2aLnRS+OWIF63LnqSZtF255KZkRId/tY989s=",
+    "originContent": "BIRD-INTERACT supports two evaluation modes as mentioned above:",
+    "translatedContent": "BIRD-INTERACT obsługuje dwa tryby ewaluacji wymienione powyżej:"
   },
   {
     "row": 62,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "Pełna wersja BIRD-INTERACT, `bird-interact-full`, to kompleksowy benchmark zawierający 600 zadań dla PostgreSQL. Obejmuje szeroki zakres operacji SQL i zapytań użytkownika. Pełna wersja pojawi się wkrótce."
-  },
-  {
-    "row": 63,
-    "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
-    "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
     "translatedContent": ""
   },
   {
+    "row": 63,
+    "rowsha": "doLQcF2moo95fuQb//rTr1wBmz+PRVTsyIDgCDLJCr0=",
+    "originContent": "   - **c-Interact**: Conversational Interaction which is a passive mode and the workflow is fixed. The code and detailed information can be found in `bird_interact_conv`.",
+    "translatedContent": "   - **c-Interact**: Konwersacyjna Interakcja, czyli tryb pasywny z ustalonym przebiegiem. Kod i szczegóły znajdują się w `bird_interact_conv`."
+  },
+  {
     "row": 64,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "### Wyniki Wydajności Modeli na BIRD-INTERACT Lite"
+    "rowsha": "DPbnNKRyhiwaDJCP/LcyBaIbe1AFeT6wnnTq78NCOrw=",
+    "originContent": "   - **a-Interact**: Agentic Interaction which is an embodied active mode where the workflow is dynamic and led by models. The code and detailed information can be found in `bird_interact_agent`.",
+    "translatedContent": "   - **a-Interact**: Agentowa Interakcja, czyli tryb ucieleśnionej aktywnej interakcji, gdzie przebieg jest dynamiczny i prowadzony przez modele. Kod i szczegóły znajdują się w `bird_interact_agent`."
   },
   {
     "row": 65,
-    "rowsha": "KjrzNuwD4TPEmYvySM+ctLWl+Q5ZkaXVtsN+GtTReto=",
-    "originContent": "### Model Performance Results on BIRD-INTERACT Lite",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 66,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
-    "translatedContent": "#### 1. Wydajność **c-Interact**"
+    "translatedContent": ""
   },
   {
     "row": 67,
-    "rowsha": "iOxQRHuEgwShsnHL01Vwg9xhz8xYvf0L53GOe6FdyIE=",
-    "originContent": "#### 1. **c-Interact** Performance",
-    "translatedContent": "| Pozycja | Nazwa Modelu      | Znormalizowana Nagroda | Poziom       |"
+    "rowsha": "q5RzZ4z97zBrs0+Wz0A587XCSPhq1czDbEhkpV+/69A=",
+    "originContent": "### 🐣 Lite Version",
+    "translatedContent": "### 🐣 Wersja Lite"
   },
   {
     "row": 68,
-    "rowsha": "j5ipGeIiO/Ow8BanoW9+iPlyzHgKoAmggn3Wj1ixyPA=",
-    "originContent": "| Rank | Model Name         | Normalized Reward | Level        |",
-    "translatedContent": "|:------:|--------------------|:-------:|:--------------:|"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 69,
-    "rowsha": "TdCWOOIFJcB4b+Qo0Itf7ltUuxPh2hMsEycINC5YnNc=",
-    "originContent": "|:------:|--------------------|:-------:|:--------------:|",
-    "translatedContent": "| 1    | o3-mini            | 33.04 | 🏆 Doskonały Chat |"
+    "rowsha": "2CBSzGJ6FluIx3SWGBCAVjhuaYkr5V5Oouf6TjmieCI=",
+    "originContent": "We are releasing a lite version of BIRD-INTERACT, `bird-interact-lite-exp`, which includes 270 high-quality real-world tasks specifically for PostgreSQL. This is a good starting point for quick experimentation. ",
+    "translatedContent": "Wydajemy wersję lite BIRD-INTERACT, `bird-interact-lite-exp`, która obejmuje 270 wysokiej jakości rzeczywistych zadań specjalnie dla PostgreSQL. To dobry punkt wyjścia do szybkich eksperymentów. "
   },
   {
     "row": 70,
-    "rowsha": "+ZpucKQxeOg3XebYi3v6flLx2sX2MpCffyuNRRoXZ+w=",
-    "originContent": "| 1    | o3-mini            | 33.04 | 🏆 Excellent Chat |",
-    "translatedContent": "| 2    | GPT-4o             | 30.33 | 💎 Dobry Chat      |"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 71,
-    "rowsha": "QyS/o4mug3HzCU3ZN1LTdoJ5hBZLW7rIMXeJ8IREjvY=",
-    "originContent": "| 2    | GPT-4o             | 30.33 | 💎 Good Chat      |",
-    "translatedContent": "| 3    | Gemini-2.0-flash   | 27.41 | 💎 Dobry Chat      |"
+    "rowsha": "4NEf5b/8pW3NO+wyiruRc0fUjzemeI1cDyHO3LSPcQ8=",
+    "originContent": "### 🦜 Full Version",
+    "translatedContent": "### 🦜 Pełna wersja"
   },
   {
     "row": 72,
-    "rowsha": "VYqyrduDwf+SBAJWlLSO+/NfbYuHsb5FsKxNKXKgedo=",
-    "originContent": "| 3    | Gemini-2.0-flash   | 27.41 | 💎 Good Chat      |",
-    "translatedContent": "| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Standardowy     |"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 73,
-    "rowsha": "uDkuuPhhZOMd/XwRZ8JJh55t0MsFr3urv1EXeoixcxs=",
-    "originContent": "| 4    | Claude-3.7-sonnet  | 26.60 | ✨ Standard       |",
-    "translatedContent": "| 5    | DeepSeek-R1        | 21.74 | ✨ Standardowy     |"
+    "rowsha": "qxVDafA3gAj2+/1PZQ/Sh9MVXNARM4e0D2YJ1qokJO8=",
+    "originContent": "The full version of BIRD-INTERACT, `bird-interact-full`, is a comprehensive benchmark that includes 600 tasks for PostgreSQL. It covers a wide range of SQL operations and user queries. The full version is coming soon.",
+    "translatedContent": "Pełna wersja BIRD-INTERACT, `bird-interact-full`, to kompleksowy benchmark obejmujący 600 zadań dla PostgreSQL. Pokrywa szeroki zakres operacji SQL i zapytań użytkowników. Pełna wersja pojawi się wkrótce."
   },
   {
     "row": 74,
-    "rowsha": "U2o7UYEqIIB3njzFNAlDLUlCdqArpRHhtXGht9ruKgk=",
-    "originContent": "| 5    | DeepSeek-R1        | 21.74 | ✨ Standard       |",
-    "translatedContent": "| 6    | Qwen3              | 20.33 | ⚪ Podstawowy      |"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 75,
-    "rowsha": "Wp+rEkzuscLMBtRvaKIpn9fU5bLVqly53cimPvVI6Lg=",
-    "originContent": "| 6    | Qwen3              | 20.33 | ⚪ Basic          |",
-    "translatedContent": "| 7    | DeepSeek-V3        | 15.85 | ⚪ Podstawowy      |"
+    "rowsha": "e1fVIRnf5DJBlNl7U6EoyQI0eVJkYgfI3rTGBDoYd2M=",
+    "originContent": "### Model Performance Results on BIRD-INTERACT-FULL",
+    "translatedContent": "### Wyniki wydajności modeli na BIRD-INTERACT-FULL"
   },
   {
     "row": 76,
-    "rowsha": "veu91JeFqcGGGDuxlQNLf7/h1UQ4SkK1hlxTHYdz45s=",
-    "originContent": "| 7    | DeepSeek-V3        | 15.85 | ⚪ Basic          |",
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
     "translatedContent": ""
   },
   {
     "row": 77,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": "#### 2. Wydajność **a-Interact**"
+    "rowsha": "R2z5Tn93qsANHvoKru7vIhL4TbniwafDJfbyihPd/Ug=",
+    "originContent": "#### 1. **c-Interact Text-to-SQL** Performance",
+    "translatedContent": "#### 1. **Wydajność c-Interact Text-to-SQL**"
   },
   {
     "row": 78,
-    "rowsha": "ju1lbZDfCJsZwvzRy1S6dkfb/OfFbXcexLESH+MyXTs=",
-    "originContent": "#### 2. **a-Interact** Performance",
-    "translatedContent": "| Pozycja | Nazwa Modelu      | Parametry Budżetowe* | Średnia Liczba Kroków/Zadanie | Średni Koszt (USD)/Zadanie | Znormalizowana Nagroda | Poziom                |"
+    "rowsha": "Jq9h6d3xn5I7dko6pYZ1kyE7T6AkdSWLxen/zAFM3fQ=",
+    "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level              |",
+    "translatedContent": "| Pozycja | Nazwa modelu     | Znormalizowana nagroda | Śr. koszt (USD)/zadanie | Poziom                |"
   },
   {
     "row": 79,
-    "rowsha": "fkdoJklW1fC2P9Blza+o45eaC0Sk7EOAOLfzOjdR7vA=",
-    "originContent": "| Rank | Model Name         | Budget Parameters* | Avg Steps/Task | Avg Cost (USD)/Task | Normalized Reward | Level            |",
-    "translatedContent": "|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|"
+    "rowsha": "qk5BEHvGn26A4xMQOUxlM81RNWe62xncRk4IjTUEgFk=",
+    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|",
+    "translatedContent": "|:-------:|:-------------------|:---------------------:|:-----------------------:|:---------------------:|"
   },
   {
     "row": 80,
-    "rowsha": "aV56LTAib/ZlLvSUMuOn8K5WaCaVt2OOQHC8f+TSdcc=",
-    "originContent": "|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|",
-    "translatedContent": ""
+    "rowsha": "niovxHIv8QBH9Vb49dzVyYEQLTFso9bR0DXVaoZc0Tc=",
+    "originContent": "| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 Excellent Chat  |",
+    "translatedContent": "| 1       | Gemini-2.5-Pro     | 20,92                 | $0,04                   | 🏆 Doskonały Chat     |"
   },
   {
     "row": 81,
-    "rowsha": "ryPy3wFijpc1nUQ/r36HwCxz3eHD27C3AvpUJCeORN4=",
-    "originContent": "| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Excellent Interaction |",
-    "translatedContent": "| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 Doskonała Interakcja  |"
+    "rowsha": "efdWY6XZofU3BTXM7X1QSU3bodDl2zUs6qXYgYo/lDQ=",
+    "originContent": "| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 Excellent Chat  |",
+    "translatedContent": "| 2    | O3-Mini            | 20,27             | $0,07               | 🏆 Doskonały Chat  |"
   },
   {
     "row": 82,
-    "rowsha": "GcAbJL0QfeLlIM7ZQIDqCHYmP1REnn76QKCU3d7N9QE=",
-    "originContent": "| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 Good Interaction      |",
-    "translatedContent": "| 2    | o3-mini            | 6/6 | 7.8  | $0.0754 | 21.07 | 💎 Dobra Interakcja      |"
+    "rowsha": "nviRDKmcMgsryACogpf/kuPovN+vvfQZ7jOR25fdTZs=",
+    "originContent": "| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 Good Chat       |",
+    "translatedContent": "| 3    | Claude-Sonnet-4    | 18,35             | $0,29               | 💎 Dobry Chat       |"
   },
   {
     "row": 83,
-    "rowsha": "mvtZN86kF7hN3H8xt2/SYh4EVs5zEOp1ps9P7u1SpKE=",
-    "originContent": "| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 Good Interaction      |",
-    "translatedContent": "| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 Dobra Interakcja      |"
+    "rowsha": "RvN9yOCl1wRxaTwNu/KOntIycX4eUDfB5hhxokbPVMk=",
+    "originContent": "| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 Good Chat       |",
+    "translatedContent": "| 4    | Qwen-3-Coder-480B  | 17,75             | $0,11               | 💎 Dobry Chat       |"
   },
   {
     "row": 84,
-    "rowsha": "Osr9bAZufFfed5ZthEV5zzsSX6bqO0EM1W+qmgB12xU=",
-    "originContent": "| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ Standard              |",
-    "translatedContent": "| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ Standard              |"
+    "rowsha": "XnrIVaEU6JsLcBVIdTctBZgL3b5qOsvnbLFzA/dVvuc=",
+    "originContent": "| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ Standard        |",
+    "translatedContent": "| 5    | Deepseek-Chat-V3.1 | 15,15             | $0,12               | ✨ Standardowy      |"
   },
   {
     "row": 85,
-    "rowsha": "cA45HwQQsBKXZ9NESwwgScvFOrMYNBp87Yr4Un4JCHs=",
-    "originContent": "| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ Standard              |",
-    "translatedContent": "| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ Standard              |"
+    "rowsha": "i38LlBHIyjGbWdptOTFVCVg9koB64mcJiF+2JcIiv8M=",
+    "originContent": "| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ Standard        |",
+    "translatedContent": "| 6    | Claude-Sonnet-3.7  | 13,87             | $0,29               | ✨ Standardowy      |"
   },
   {
     "row": 86,
-    "rowsha": "hpnyQDuabQuA2ioU4dXMW4ZpuhvnLwOmGRgRmxDbIuM=",
-    "originContent": "| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ Basic                 |",
-    "translatedContent": "| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ Podstawowy            |"
+    "rowsha": "YfmrCm2i7EZR0ehYI/xncYwVmDUeNwVfSh2xtrrWf0g=",
+    "originContent": "| 7    | GPT-5              | 12.58             | $0.08               | ⚪ Basic           |",
+    "translatedContent": "| 7    | GPT-5              | 12,58             | $0,08               | ⚪ Podstawowy       |"
   },
   {
     "row": 87,
-    "rowsha": "JdOj2qVJ7/xgJ/5EXsM3+5IFPrr+aArY7hsLMSPbl8k=",
-    "originContent": "| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Basic                 |",
-    "translatedContent": "| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ Podstawowy            |"
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 88,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "Tqql2jza5bb6QlmVOGBB9geprkhJKPZ1jY96SFwnhVQ=",
+    "originContent": "#### 2. **a-Interact Text-to-SQL** Performance",
+    "translatedContent": "#### 2. **a-Interact Text-to-SQL** Wydajność"
   },
   {
     "row": 89,
-    "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
-    "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
-    "translatedContent": "> \\* Parametry budżetowe: Początkowy Budżet/Budżet Cierpliwości Użytkownika, mierzony naszą wirtualną walutą *bird-coin* <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Więcej szczegółów znajdziesz w [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)."
+    "rowsha": "0k1L/YlMi6EJx2r9l/+p0/MoPxfokyl2yBuqVKYHrvc=",
+    "originContent": "| Rank | Model Name         | Normalized Reward | Avg Cost (USD)/Task | Level                    |",
+    "translatedContent": "| Pozycja | Nazwa Modelu         | Znormalizowana Nagroda | Średni Koszt (USD)/Zadanie | Poziom                    |"
   },
   {
     "row": 90,
+    "rowsha": "Nj7icDShMepIyOwnKPfnjIUuMT7zkHPHYxjVXL2S9PU=",
+    "originContent": "|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|",
+    "translatedContent": "|:-------:|:--------------------:|:----------------------:|:--------------------------:|:-------------------------:|"
+  },
+  {
+    "row": 91,
+    "rowsha": "HPUqjETPdas09RgDiB02Y5JusE3mBlNYD8nz+Dx7c74=",
+    "originContent": "| 1    | GPT-5              | 25.52             | $0.24               | 🏆 Excellent Interaction |",
+    "translatedContent": "| 1       | GPT-5                | 25,52                  | $0,24                      | 🏆 Doskonała Interakcja   |"
+  },
+  {
+    "row": 92,
+    "rowsha": "bMQ3A+A1VULUzBWGbNnUcN0XlHUVtuXIr4V4Jz8vwVc=",
+    "originContent": "| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 Excellent Interaction |",
+    "translatedContent": "| 2       | Claude-Sonnet-4      | 23,28                  | $0,51                      | 🏆 Doskonała Interakcja   |"
+  },
+  {
+    "row": 93,
+    "rowsha": "rGnh3lbAUKn9WmgeJfVg6KftnPVmhopzlz9DWoXVIXE=",
+    "originContent": "| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 Good Interaction      |",
+    "translatedContent": "| 3       | Claude-Sonnet-3.7    | 17,45                  | $0,60                      | 💎 Dobra Interakcja       |"
+  },
+  {
+    "row": 94,
+    "rowsha": "4j/e+hmJNdDkZIiDoN6zuuevmfNQ0LZbddfDB7qMFQo=",
+    "originContent": "| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 Good Interaction      |",
+    "translatedContent": "| 4       | Gemini-2.5-Pro       | 17,33                  | $0,22                      | 💎 Dobra Interakcja       |"
+  },
+  {
+    "row": 95,
+    "rowsha": "Qat+3srGhiJLNyet0Hc4k2JCHILQ8OY4Styi9pEkXmE=",
+    "originContent": "| 5    | O3-Mini            | 16.43             | $0.06               | ✨ Standard              |",
+    "translatedContent": "| 5       | O3-Mini              | 16,43                  | $0,06                      | ✨ Standardowa            |"
+  },
+  {
+    "row": 96,
+    "rowsha": "J8+i15WAOqjKWwsNKKoZQtRjkMj9kns+HaUE16WPSaY=",
+    "originContent": "| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ Standard              |",
+    "translatedContent": "| 6       | Deepseek-Chat-V3.1   | 13,47                  | $0,06                      | ✨ Standardowa            |"
+  },
+  {
+    "row": 97,
+    "rowsha": "cAR/cpPakbQWvBq/RxtLIJ5sSCyZ8d5CpAtjqa0S1L8=",
+    "originContent": "| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ Basic                 |",
+    "translatedContent": "| 7       | Qwen-3-Coder-480B    | 10,58                  | $0,07                      | ⚪ Podstawowa             |"
+  },
+  {
+    "row": 98,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 91,
+    "row": 99,
+    "rowsha": "+Jpw7DNyX62i16RieTingm/y9I/fbyKt3QION65wVVM=",
+    "originContent": "> \\* Budget Parameters: Starting Budget/User Patience Budget, measured by our virtual currency *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Refer to [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting) for more details.",
+    "translatedContent": "> \\* Parametry Budżetu: Budżet początkowy/Budżet cierpliwości użytkownika, mierzony naszą wirtualną walutą *bird-coin*s <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png\" style=\"height: 1em; vertical-align: middle;\">. Szczegóły w [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)."
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
     "rowsha": "5u3FiJW4Jxe5q1dPL28qg/MUDpTFWL7rKBi3H4FV4ns=",
     "originContent": "### Interaction-Time Scaling (ITS)",
     "translatedContent": "### Skalowanie Czasu Interakcji (ITS)"
   },
   {
-    "row": 92,
+    "row": 102,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 93,
+    "row": 103,
     "rowsha": "NwBIsVzW+kYLShpJ6rffKZncWEjgGCQhf/Ih+5DLlLU=",
     "originContent": "Interaction-Time Scaling (ITS) refers to a model's ability to continuously increase its end performance through multi-turn interactions. When this interactive performance surpasses the model's idealized single-turn performance on a fully specified, unambiguous task, we say it satisfies the **ITS law**. As user patience grows and interaction turns accumulate, performance keeps improving, demonstrating that the model can sustain effective communication over extended dialogue. Currently, we only find claude-3-7-sonnet satisfies the ITS law.",
-    "translatedContent": "Skalowanie Czasu Interakcji (ITS) odnosi się do zdolności modelu do ciągłego zwiększania końcowej wydajności poprzez wieloturowe interakcje. Gdy ta wydajność interaktywna przewyższa idealizowaną, jednoetapową wydajność modelu dla w pełni określonego, jednoznacznego zadania, mówimy, że spełnia on **prawo ITS**. W miarę wzrostu cierpliwości użytkownika i liczby rund interakcji, wydajność stale się poprawia, pokazując, że model może utrzymać efektywną komunikację przez dłuższą rozmowę. Obecnie tylko claude-3-7-sonnet spełnia prawo ITS."
+    "translatedContent": "Skalowanie Czasu Interakcji (ITS) odnosi się do zdolności modelu do ciągłego zwiększania końcowej wydajności poprzez wielokrotne interakcje. Gdy ta wydajność interaktywna przekracza idealizowaną jednokrotną wydajność modelu na w pełni określonym, jednoznacznym zadaniu, mówimy, że spełnia on **prawo ITS**. W miarę wzrostu cierpliwości użytkownika i liczby rund interakcji, wydajność stale rośnie, pokazując, że model potrafi prowadzić efektywną komunikację w dłuższych dialogach. Obecnie tylko claude-3-7-sonnet spełnia prawo ITS."
   },
   {
-    "row": 94,
+    "row": 104,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 95,
+    "row": 105,
     "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
     "originContent": "<p align=\"center\">",
     "translatedContent": "<p align=\"center\">"
   },
   {
-    "row": 96,
+    "row": 106,
     "rowsha": "TW0AIFALwgyvJujlCuN+wyzJWtuuF1VkgusDlug821c=",
     "originContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" ",
     "translatedContent": "  <img src=\"https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png\" "
   },
   {
-    "row": 97,
+    "row": 107,
     "rowsha": "aDgO8tw/Oe/chC7PqEJ9H1DR2gYFbhe5JVYnZfR73O0=",
     "originContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">",
     "translatedContent": "       style=\"width: 100%; min-width: 100px; display: block; margin: auto; \">"
   },
   {
-    "row": 98,
+    "row": 108,
     "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
     "originContent": "</p>",
     "translatedContent": "</p>"
   },
   {
-    "row": 99,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 100,
-    "rowsha": "+k7Ca++d5jxjDrqQWYaSmQV+QrsPLeOVDWwp4LEOnLg=",
-    "originContent": "## 📦 Dataset Details",
-    "translatedContent": "## 📦 Szczegóły Zbioru Danych"
-  },
-  {
-    "row": 101,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 102,
-    "rowsha": "0CAgopT4uCrcP2XugQo54SQ7+3o6EmaZDPuISb7ZpYs=",
-    "originContent": "### Dataset Description",
-    "translatedContent": "### Opis Zbioru Danych"
-  },
-  {
-    "row": 103,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
-  },
-  {
-    "row": 104,
-    "rowsha": "R5TnQS3KWDoY0gQ+tKB/KWwqwHRuZjajharNCxl+SCU=",
-    "originContent": "- **Database:** The complete PostgreSQL database can be download from [the Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Check the [Quick Eval](#quick-eval) section for more details.",
-    "translatedContent": "- **Baza danych:** Kompletną bazę PostgreSQL można pobrać z [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view). Szczegóły znajdziesz w sekcji [Quick Eval](#quick-eval)."
-  },
-  {
-    "row": 105,
-    "rowsha": "Rg/lq5RTpV9VpKctp3slYhtbuoFhbkfaorRPygzg6Gk=",
-    "originContent": "- **data:** Each data instance contain the following main parts:",
-    "translatedContent": "- **data:** Każda instancja danych zawiera następujące główne części:"
-  },
-  {
-    "row": 106,
-    "rowsha": "oeZ/uzqCsA5VNpsUV6Q5FUwcPz5hnWM75+LkGTHBx5Y=",
-    "originContent": "   - `selected_database`: The name of the database.  ",
-    "translatedContent": "   - `selected_database`: Nazwa bazy danych.  "
-  },
-  {
-    "row": 107,
-    "rowsha": "oPNVshV/MIPpyhRk3j2Nxvx6eiSjlh78678fwhXHkyY=",
-    "originContent": "   - `query`: The unambiguous user query.  ",
-    "translatedContent": "   - `query`: Jednoznaczne zapytanie użytkownika.  "
-  },
-  {
-    "row": 108,
-    "rowsha": "FCnlkL1lk997F3W0Z2i178PvvixkNotyQ/PDUSEBG3I=",
-    "originContent": "   - `amb_user_query`: The user query with injected ambiguities.",
-    "translatedContent": "   - `amb_user_query`: Zapytanie użytkownika z wstrzykniętymi niejednoznacznościami."
-  },
-  {
     "row": 109,
-    "rowsha": "dwSIKvWoOZ0bAk3/MuxBQZx+roDRkZ8De8Z9EV1g+YE=",
-    "originContent": "   - `user_query_ambiguity`: The ambiguities injected into the user query.",
-    "translatedContent": "   - `user_query_ambiguity`: Niejednoznaczności wstrzyknięte do zapytania użytkownika."
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 110,
-    "rowsha": "2uIaqS3MsNEQQa0yxeGCprcga3iAl7rbNcCeOhVqcms=",
-    "originContent": "   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.",
-    "translatedContent": "   - `non_critical_ambiguity`: Niejednoznaczności niekrytyczne, takie jak kolejność, limit itp."
+    "rowsha": "GRA0o2JYSxg8X2purzLLk9Zt8XnGE8h4/VlGeFmnX9M=",
+    "originContent": "## Environment Setup",
+    "translatedContent": "## Konfiguracja Środowiska"
   },
   {
     "row": 111,
-    "rowsha": "jcfQ3RBzqQ5IoWI85TqetWQboWoj/TWcS2YjEGz1euw=",
-    "originContent": "   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. ",
-    "translatedContent": "   - `knowledge_ambiguity`: Niejednoznaczności powstałe przez zamaskowaną wiedzę zewnętrzną. "
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
   },
   {
     "row": 112,
-    "rowsha": "/i3/thp7p1thZ/xCsBw3OHgDabXZMsKgumrhx3ZwzjQ=",
-    "originContent": "   - `sol_sql`: The ground truth SQL solution.  ",
-    "translatedContent": "   - `sol_sql`: Prawidłowe rozwiązanie SQL.  "
+    "rowsha": "tDbEdv5pYPB1U4PN122epOKraa/YbzS/P35WOUd0B4g=",
+    "originContent": "1. Run Docker containers for bird-interact-lite database, bird-interact-full database, and evaluation environment:",
+    "translatedContent": "1. Uruchom kontenery Docker dla bazy danych bird-interact-lite, bazy bird-interact-full oraz środowiska ewaluacyjnego:"
   },
   {
     "row": 113,
-    "rowsha": "c+FiZvziVNHQ0BSlQNBGyAERMve99Hh3QFKIpYMnmY4=",
-    "originContent": "   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  ",
-    "translatedContent": "   - `preprocess_sql`: Zapytania SQL do wykonania przed uruchomieniem rozwiązania lub predykcji.  "
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
   },
   {
     "row": 114,
-    "rowsha": "xRrHhJsIZKbVIUl3a4LFJeid+TCYKXtGm2FO2voDCJA=",
-    "originContent": "   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  ",
-    "translatedContent": "   - `clean_up_sql`: Zapytania SQL do wykonania po testach w celu cofnięcia zmian w bazie danych.  "
+    "rowsha": "4mfOdzHzqWZKB8ryaBS2m9y2OzM2DrTzHMY36nSzYxw=",
+    "originContent": "  > If you just want to evaluate on `bird-interact-lite`, you could comment out the [`postgresql_full` service](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) in `docker-compose.yml` to speed up the environment setup.",
+    "translatedContent": "  > Jeśli chcesz jedynie ocenić `bird-interact-lite`, możesz zakomentować usługę [`postgresql_full`](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) w pliku `docker-compose.yml`, aby przyspieszyć konfigurację środowiska."
   },
   {
     "row": 115,
-    "rowsha": "AN8KsW9EANalz2xbGaJpzkDyz8Piw1aD8GW5coktVLI=",
-    "originContent": "   - `test_cases`: A set of test cases to validate the predicted corrected SQL.",
-    "translatedContent": "   - `test_cases`: Zestaw przypadków testowych weryfikujących przewidywane poprawione SQL."
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
   },
   {
     "row": 116,
-    "rowsha": "CJy/lmct2AT3OvidWiH5FLxFjM+3NIuJGemuO6IO3/I=",
-    "originContent": "   - `follow_up`: The labeled follow up questions.",
-    "translatedContent": "   - `follow_up`: Oznaczone pytania uzupełniające."
+    "rowsha": "cZZ1ihyKvQOGnE8KvasnKgESAfFl1bO6WjZnSt9gOKs=",
+    "originContent": "  Start the environment by running: ",
+    "translatedContent": "  Uruchom środowisko poleceniem:"
   },
   {
     "row": 117,
-    "rowsha": "rUHKXvHeVB4UqqvGBnj9yJY3C0rN/Oz3IsSbOVCSOLE=",
-    "originContent": "   - `external_knowledge`: The external knowledge related to the specific task.",
-    "translatedContent": "   - `external_knowledge`: Wiedza zewnętrzna związana z konkretnym zadaniem."
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
   },
   {
     "row": 118,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "U3ltaq2LINnerA+cgI4837KcE1zxlYemiI0UKBQ/ecA=",
+    "originContent": "   cd env",
+    "translatedContent": "   cd env"
   },
   {
     "row": 119,
-    "rowsha": "hQpiCMxX9dK0D0byHCQ4cUtoa8tKtWMoWCxcRBrGSks=",
-    "originContent": "- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.",
-    "translatedContent": "- **ewaluacja:** Kod ewaluacyjny znajduje się w katalogu [`./evaluation`](./evaluation)."
+    "rowsha": "hyxNUszpDhmg/N+pnaVRgi1DzodiEumtCXw1lW+HWWw=",
+    "originContent": "   docker compose pull ",
+    "translatedContent": "   docker compose pull "
   },
   {
     "row": 120,
-    "rowsha": "v59KK3oH49UautE6oU56wvhU8e75NEkRJddOGbaFnyo=",
-    "originContent": "- **Curated by:** BIRD Team & Google Cloud",
-    "translatedContent": "- **Opracowane przez:** Zespół BIRD & Google Cloud"
+    "rowsha": "9f7Bg6s7+R8vc+jX0UtoCdNeymWtgTPNHduPQ0XKIAY=",
+    "originContent": "   docker compose up -d",
+    "translatedContent": "   docker compose up -d"
   },
   {
     "row": 121,
-    "rowsha": "1/kQI3qUNugGt6yUagQdmVhx1FDPb1fFeNnmxrbHjpM=",
-    "originContent": "- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
-    "translatedContent": "- **Licencja:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
   },
   {
     "row": 122,
-    "rowsha": "EQ6KhGw1snJI5U6ZFWIjj/IpN04AkABGwoqpo5JQnkQ=",
-    "originContent": "- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)",
-    "translatedContent": "- **Karta zbioru danych HuggingFace:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)"
+    "rowsha": "Ly/IrPAFAn3uKza++BPZTAd086bJ1IPCkQCTUtNXeiw=",
+    "originContent": "   Wait for several minutes for database initialization. ",
+    "translatedContent": "   Poczekaj kilka minut na inicjalizację bazy danych."
   },
   {
     "row": 123,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+    "originContent": "   ",
+    "translatedContent": "   "
   },
   {
     "row": 124,
-    "rowsha": "JBijDrvexJ1GfbKj7poT//NH5iCfI6XH57cOWOG6jQc=",
-    "originContent": "### Dataset Uses",
-    "translatedContent": "### Zastosowania zbioru danych"
+    "rowsha": "LtLQ52ciYbU2lNXAp8si/E/9a15aPy/PQtg+5Dtma/A=",
+    "originContent": "  You could track the building progress by:",
+    "translatedContent": "  Możesz śledzić postęp budowy za pomocą:"
   },
   {
     "row": 125,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+    "originContent": "  ```bash",
+    "translatedContent": "  ```bash"
   },
   {
     "row": 126,
-    "rowsha": "XHdAwjxf4l6iSAmLupTaOJFamV5zkfFP+w/3HJJzmV8=",
-    "originContent": "To avoid data leakage by auto-crawling, we do not include GT solution sqls and test cases along with data.",
-    "translatedContent": "Aby uniknąć wycieku danych przez automatyczne pobieranie, nie dołączamy rozwiązań GT SQL ani przypadków testowych do danych."
+    "rowsha": "Gzaj8K70+kXEP86K2XMlasaUYr60SHb9nGVYlk3sszI=",
+    "originContent": "  docker compose logs -f --tail=100 bird_interact_postgresql_full # or bird_interact_postgresql for bird-interact-lite",
+    "translatedContent": "  docker compose logs -f --tail=100 bird_interact_postgresql_full # or bird_interact_postgresql for bird-interact-lite"
   },
   {
     "row": 127,
-    "rowsha": "Q9e5dkfldgsOAjC3z4DRR0OrrKXX9/s+M5y0WmI+Nag=",
-    "originContent": "please email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` in title for full set, which will be sent automatically.",
-    "translatedContent": "prosimy o kontakt mailowy na adres [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) z tagiem `[bird-interact-lite GT&Test Cases]` w tytule, aby otrzymać pełny zestaw, który zostanie wysłany automatycznie."
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
   },
   {
     "row": 128,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "9dMqFiVFLsKj3QDXnHtdxThNO8tA/dcT4rLLKRiRRVY=",
+    "originContent": "  If finished, you should see the logs without errors like:",
+    "translatedContent": "  Jeśli zakończono, powinieneś zobaczyć logi bez błędów, takich jak:"
   },
   {
     "row": 129,
@@ -775,99 +775,99 @@
   },
   {
     "row": 130,
-    "rowsha": "IROdTOtya22/xNwBA21bawIEiQ79tzz8+FTSeqo+zAQ=",
-    "originContent": "<!-- ### Use the Dataset from HuggingFace",
-    "translatedContent": "<!-- ### Użyj zbioru danych z HuggingFace"
+    "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+    "originContent": "  ```bash",
+    "translatedContent": "  ```bash"
   },
   {
     "row": 131,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "1EQDohcscz6P/a4QJ51MKHEHcq+pwxOkh/CBXPuplHc=",
+    "originContent": "  bird_interact_postgresql_full  | 2025-10-28 17:58:30.413 HKT [1] LOG:  database system is ready to accept connection",
+    "translatedContent": "  bird_interact_postgresql_full  | 2025-10-28 17:58:30.413 HKT [1] LOG:  database system is ready to accept connection"
   },
   {
     "row": 132,
-    "rowsha": "uKk3AJCcLznW9aT+voL6Iz4vZXP4iQl853lhxWPZvrY=",
-    "originContent": "You can download the dataset from HuggingFace using the following command:",
-    "translatedContent": "Możesz pobrać zbiór danych z HuggingFace, używając następującego polecenia:"
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
   },
   {
     "row": 133,
-    "rowsha": "GE0AusEadGNk/GYr/BF/88UKsGyopy2r8aCnyXHh4HI=",
-    "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.",
-    "translatedContent": "Szczegóły dotyczące uruchamiania **a-interact** można znaleźć w `./bird_interact_agent/README.md`; a **c-interact** w `./bird_interact_conv/README.md`."
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  "
   },
   {
     "row": 134,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "+WcvbdksEYjxoI/aFJa7fBUYo29s5YW2e0foiEZ/dVw=",
+    "originContent": "  If you have created containers before and want to recreate it, you could run the following command:",
+    "translatedContent": "  Jeśli wcześniej utworzyłeś kontenery i chcesz je odtworzyć, możesz uruchomić następujące polecenie:"
   },
   {
     "row": 135,
-    "rowsha": "f6chlfSVENLsNAyFyteH0qZqANkTbg9qD38E3rR7+l4=",
-    "originContent": "## 📋 Todo Lists",
-    "translatedContent": "## 📋 Listy rzeczy do zrobienia"
+    "rowsha": "GpvjVZo/3RA4N35GHHHR64wuFGBf0VkSR291B8px6kU=",
+    "originContent": "  ```bash",
+    "translatedContent": "  ```bash"
   },
   {
     "row": 136,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "8Lng9rCm574eQ0gKMJ2E+s+ZMg0WYUW3VSQhwxuu724=",
+    "originContent": "  docker compose down -v # this cmd removes the containers and the volumes",
+    "translatedContent": "  docker compose down -v # this cmd removes the containers and the volumes"
   },
   {
     "row": 137,
-    "rowsha": "EL1NQH2bug6G0ymI/d6FG7PFV2GnkPXixeKmwZPR78w=",
-    "originContent": "- [x] Release lite version, bird-interact-lite (270).",
-    "translatedContent": "- [x] Wydanie wersji lite, bird-interact-lite (270)."
+    "rowsha": "PinryHJHMZCdOfCREtCKT2ZQ6CoJeYuD0PJnmtuJLaU=",
+    "originContent": "  docker compose pull   # pull the latest images from Docker Hub",
+    "translatedContent": "  docker compose pull   # pull the latest images from Docker Hub"
   },
   {
     "row": 138,
-    "rowsha": "hKBdzfGYA7Z4jZ++QUac0jtKAk4XdrT5WpTUG30vQPQ=",
-    "originContent": "- [x] Release conversational version, bird-interact-conv.",
-    "translatedContent": "- [x] Wydanie wersji konwersacyjnej, bird-interact-conv."
+    "rowsha": "1Llf+NnUnsPK6bcc9G4qnDLFCWZ5vOzodkXu8Rkr4TY=",
+    "originContent": "  docker compose up -d --force-recreate # build and start the containers again. --force-recreate means force the recreation of the containers. ",
+    "translatedContent": "  docker compose up -d --force-recreate # build and start the containers again. --force-recreate means force the recreation of the containers. "
   },
   {
     "row": 139,
-    "rowsha": "WfzwLUQQqs71qDxmOxFIOr3TUazlzzHDkM2e4UDJDn8=",
-    "originContent": "- [x] Release agent version, bird-interact-agent.",
-    "translatedContent": "- [x] Wydanie wersji agenta, bird-interact-agent."
+    "rowsha": "xSONhNmohTtUTBJlVDeHnkxP6dq5aAJpsQ3xYtcBbnU=",
+    "originContent": "  # Or `docker compose up -d --force-recreate bird_interact_eval` to only recreate the bird_interact_eval container about evalution code environment.",
+    "translatedContent": "  # Or `docker compose up -d --force-recreate bird_interact_eval` to only recreate the bird_interact_eval container about evalution code environment."
   },
   {
     "row": 140,
-    "rowsha": "tfR+oV/Tx2mEPN6r3D2jkGwWZXobjbuEMudF9OxNLv0=",
-    "originContent": "- [x] Release Full bird-interact-full (600).",
-    "translatedContent": "- [x] Wydanie pełnej wersji, bird-interact-full (600)."
+    "rowsha": "Rmhu4TMsMlOs89kmG4vhE8fUZ6zORB8jNyxbJF3O88I=",
+    "originContent": "  ```",
+    "translatedContent": "  ```"
   },
   {
     "row": 141,
-    "rowsha": "vFAJSKqY7icL0MP2UvbRlITQrKGIlzdRt4TZvsoGFb0=",
-    "originContent": "- [ ] SFT / RL an User Simulator",
-    "translatedContent": "- [ ] SFT / RL symulatora użytkownika"
+    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+    "originContent": "   ",
+    "translatedContent": "   "
   },
   {
     "row": 142,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "4M5kZAmlVsVt+urBYkq2QCQjY2DbxmcGHf/YUwQHGLI=",
+    "originContent": "   This runs 3 containers using prebuilt images from Docker Hub:",
+    "translatedContent": "   To uruchamia 3 kontenery używając gotowych obrazów z Docker Hub:"
   },
   {
     "row": 143,
-    "rowsha": "mhQeFc5wMr+mccgqoEwgaSGTbadrwRv17Z+l5irQ6EI=",
-    "originContent": "## Created By:",
-    "translatedContent": "## Utworzone przez:"
+    "rowsha": "3ixpdxJKQklNCqApUIAHHoB4Ze4LXDsWiLrVJOd2bEM=",
+    "originContent": "   - `bird_interact_postgresql`: PostgreSQL database for bird-interact-lite",
+    "translatedContent": "   - `bird_interact_postgresql`: baza danych PostgreSQL dla bird-interact-lite"
   },
   {
     "row": 144,
-    "rowsha": "BcslIbMQUwitDZ/R23YsQQIVge1FMTXdOH6FqEchx/I=",
-    "originContent": "BIRD Team & Google Cloud",
-    "translatedContent": "Zespół BIRD & Google Cloud"
+    "rowsha": "QdgvgrxXxHmjL8P8hxj4aydiqiflOZw7cD/iqMyuWEA=",
+    "originContent": "   - `bird_interact_postgresql_full`: PostgreSQL database for bird-interact-full",
+    "translatedContent": "   - `bird_interact_postgresql_full`: baza danych PostgreSQL dla bird-interact-full"
   },
   {
     "row": 145,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "VgmiPQo1AsNlHr0xv4Of47wb133Le1rmPacH/iuNx3M=",
+    "originContent": "   - `bird_interact_eval`: Evaluation environment for both `a-Interact` and `c-Interact`.",
+    "translatedContent": "   - `bird_interact_eval`: środowisko ewaluacyjne dla `a-Interact` i `c-Interact`."
   },
   {
     "row": 146,
@@ -877,26 +877,806 @@
   },
   {
     "row": 147,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "ShgcHeV72Lpsqcx9K5NXrNXVIQzk5Frb4LlH8h0bqn0=",
+    "originContent": "   Now, you could start the evaluation environment by executing the following command:",
+    "translatedContent": "   Teraz możesz uruchomić środowisko ewaluacyjne, wykonując następujące polecenie:"
   },
   {
     "row": 148,
-    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-    "originContent": "",
-    "translatedContent": ""
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
   },
   {
     "row": 149,
+    "rowsha": "/vnAjMS38NIpMbPy0/lj9v3TLnWMbWc5EtiZgAh/pLk=",
+    "originContent": "   docker compose exec bird_interact_eval bash",
+    "translatedContent": "   docker compose exec bird_interact_eval bash"
+  },
+  {
+    "row": 150,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 151,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
   },
   {
-    "row": 150,
+    "row": 152,
+    "rowsha": "Sj3qMbCU7COMnEAM7Ur8nPVSECWImmUL/AZIo80GawM=",
+    "originContent": "2. (Optional) Build the environment manually (if you want to build the images from scratch): ",
+    "translatedContent": "2. (Opcjonalnie) Zbuduj środowisko ręcznie (jeśli chcesz zbudować obrazy od podstaw):"
+  },
+  {
+    "row": 153,
+    "rowsha": "u+FbE9BaxuM1P2PdO+Wwq1w+duwYpbOowLCV8fGCikA=",
+    "originContent": "   - Downdload the database dumps ",
+    "translatedContent": "   - Pobierz zrzuty bazy danych"
+  },
+  {
+    "row": 154,
+    "rowsha": "dS9j2PGDd8FlWohUadau7ipBoAqsgkBQNSgJfdLp+uQ=",
+    "originContent": "      - [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view). Unzip and rename it as `env/postgre_table_dumps`.",
+    "translatedContent": "      - [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view). Rozpakuj i zmień nazwę na `env/postgre_table_dumps`."
+  },
+  {
+    "row": 155,
+    "rowsha": "MS6ev81fW9YpkD2OsMMMDGDiwvQt+T3xgFcgKTHyixE=",
+    "originContent": "      - [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view). Unzip and rename it as `env/postgre_table_dumps_full`.",
+    "translatedContent": "      - [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view). Rozpakuj i zmień nazwę na `env/postgre_table_dumps_full`."
+  },
+  {
+    "row": 156,
+    "rowsha": "UFMzJLWvT+3LyQwYSVoUVjrHHcQ4nsp7voUlczEl7Jw=",
+    "originContent": "   - Build the environment manually by running `docker-compose.build.yml`.",
+    "translatedContent": "   - Zbuduj środowisko ręcznie uruchamiając `docker-compose.build.yml`."
+  },
+  {
+    "row": 157,
+    "rowsha": "cgwU1WWWUnVu2wjH/olriyRC8O3IDsmgiNsj9RCdxNE=",
+    "originContent": "      ```bash",
+    "translatedContent": "      ```bash"
+  },
+  {
+    "row": 158,
+    "rowsha": "QcEIBeM9tCFahNkCLhCDKFel6PKio37wlNOf0v3GU8E=",
+    "originContent": "      cd env/",
+    "translatedContent": "      cd env/"
+  },
+  {
+    "row": 159,
+    "rowsha": "GqOhbL+oZiNq5f5fDmZf5g4S+lbrTR9pJViK2x9xKH0=",
+    "originContent": "      docker compose -f docker-compose.build.yml build",
+    "translatedContent": "      docker compose -f docker-compose.build.yml build"
+  },
+  {
+    "row": 160,
+    "rowsha": "mTd654VMDRq90h6KQiadFoKbLVoMJ5JZZu8Mj1lIw+g=",
+    "originContent": "      docker compose -f docker-compose.build.yml up -d",
+    "translatedContent": "      docker compose -f docker-compose.build.yml up -d"
+  },
+  {
+    "row": 161,
+    "rowsha": "L06uJbFXUSpUClSu3YVZlcwHcTjFCtIkegjROI4ejcg=",
+    "originContent": "      ```",
+    "translatedContent": "      ```"
+  },
+  {
+    "row": 162,
     "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
     "originContent": "",
     "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "4SqAqzazX3VebCW2mww6a98h8XSeL1+onQNbnYeqmJk=",
+    "originContent": "3. (Recommended) Check the database containers are built and running successfully.",
+    "translatedContent": "3. (Zalecane) Sprawdź, czy kontenery baz danych zostały zbudowane i działają poprawnie."
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "8w4PROJih/T0lmaU5RuThvtId9uw675raE1+8Bt6Su0=",
+    "originContent": "-  Print the container build logs to ensure that the databases are built successfully without errors:",
+    "translatedContent": "-  Wyświetl logi budowania kontenerów, aby upewnić się, że bazy danych zostały zbudowane pomyślnie i bez błędów:"
+  },
+  {
+    "row": 166,
+    "rowsha": "eE6FDe3OjZGnB8wleXcskoCR7B7EPBI8SIiUIych0C4=",
+    "originContent": "   ```bash ",
+    "translatedContent": "   ```bash "
+  },
+  {
+    "row": 167,
+    "rowsha": "1dIS/wirUc+OLthEaPL1zskQfe80ipN1TYfSALnjHaI=",
+    "originContent": "   docker logs bird_interact_postgresql > build_bird_interact_postgresql.log 2>&1",
+    "translatedContent": "   docker logs bird_interact_postgresql > build_bird_interact_postgresql.log 2>&1"
+  },
+  {
+    "row": 168,
+    "rowsha": "76lGKDoD1uL7TkE++/WALMVjeP8dDKD+ja7Mn4s7FYM=",
+    "originContent": "   docker logs bird_interact_postgresql_full > build_bird_interact_postgresql_full.log 2>&1",
+    "translatedContent": "   docker logs bird_interact_postgresql_full > build_bird_interact_postgresql_full.log 2>&1"
+  },
+  {
+    "row": 169,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 170,
+    "rowsha": "yLAVOsVc8GaejHyPG2wTavLRMfsztsUunQODsxCD0Fk=",
+    "originContent": "   If errors occur, `\"Errors occurred during import:\"` will be printed in the log files.",
+    "translatedContent": "   Jeśli wystąpią błędy, w plikach dziennika zostanie wydrukowane `\"Wystąpiły błędy podczas importu:\"`."
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "VryFr49N8BcPjcseI7aTvJHTbHH9N6cFzzEupkVvCw0=",
+    "originContent": "-  Check if the database containers are in good shape.",
+    "translatedContent": "-  Sprawdź, czy kontenery bazy danych są w dobrym stanie."
+  },
+  {
+    "row": 174,
+    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+    "originContent": "   ",
+    "translatedContent": "   "
+  },
+  {
+    "row": 175,
+    "rowsha": "m459FGfAT8oHRqV1n6otnnoqkmYcUf4Moc7lHxd1eQU=",
+    "originContent": "   Use our provided Python script to verify database metadata:",
+    "translatedContent": "   Użyj naszego dostarczonego skryptu Python, aby zweryfikować metadane bazy danych:"
+  },
+  {
+    "row": 176,
+    "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+    "originContent": "   ```bash",
+    "translatedContent": "   ```bash"
+  },
+  {
+    "row": 177,
+    "rowsha": "/vnAjMS38NIpMbPy0/lj9v3TLnWMbWc5EtiZgAh/pLk=",
+    "originContent": "   docker compose exec bird_interact_eval bash",
+    "translatedContent": "   docker compose exec bird_interact_eval bash"
+  },
+  {
+    "row": 178,
+    "rowsha": "rrvTznkA+90ei+XE8dZMW0BOBbGJ6DPqoMdTHH4fAQI=",
+    "originContent": "   cd /app/env",
+    "translatedContent": "   cd /app/env"
+  },
+  {
+    "row": 179,
+    "rowsha": "cBLabG9X6hg22wTEwqpWwsn522jLmW2MIMxV7TRM1CQ=",
+    "originContent": "   python check_db_metadata.py --host bird_interact_postgresql",
+    "translatedContent": "   python check_db_metadata.py --host bird_interact_postgresql"
+  },
+  {
+    "row": 180,
+    "rowsha": "9AmZ2vbnyrxUAxzlDHzGpMZ1W3vN0doqj+5CtYLFp1M=",
+    "originContent": "   python check_db_metadata.py --host bird_interact_postgresql_full",
+    "translatedContent": "   python check_db_metadata.py --host bird_interact_postgresql_full"
+  },
+  {
+    "row": 181,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 182,
+    "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+    "originContent": "   ",
+    "translatedContent": "   "
+  },
+  {
+    "row": 183,
+    "rowsha": "B5pSKtG/+9GMzzpOYnLe7qrK6mhxroVzNZXAMDLU7hw=",
+    "originContent": "   Expected results:",
+    "translatedContent": "   Oczekiwane wyniki:"
+  },
+  {
+    "row": 184,
+    "rowsha": "FkBt4PLZIutayIU1YZJtJRqONA4bkIfhbQ275Yq+F5s=",
+    "originContent": "   - **bird-interact-lite**: ",
+    "translatedContent": "   - **bird-interact-lite**: "
+  },
+  {
+    "row": 185,
+    "rowsha": "5NWsT0Fd8R2v0vCGbwQKqvSwN3EhM1t4XrItZ4IyQq0=",
+    "originContent": "     - 📈 Total Databases: 18",
+    "translatedContent": "     - 📈 Łączna liczba baz danych: 18"
+  },
+  {
+    "row": 186,
+    "rowsha": "GxkB9TjFkjTTX7ePGuhRqlpSlH6sSUyesgmiaEDNM4s=",
+    "originContent": "     - 📋 Total Tables: 175",
+    "translatedContent": "     - 📋 Łączna liczba tabel: 175"
+  },
+  {
+    "row": 187,
+    "rowsha": "64NK/0JFIHOBULGy3WKnKPHhEkS+4lQrhVtsfO6n7LA=",
+    "originContent": "     - 🔢 Total Columns: 2286",
+    "translatedContent": "     - 🔢 Łączna liczba kolumn: 2286"
+  },
+  {
+    "row": 188,
+    "rowsha": "vp0WOneltYTksEwVArBR77uaVP0nMGm65qwAyAYgQYQ=",
+    "originContent": "     - 📈 Avg Rows per Table: 1,038.48",
+    "translatedContent": "     - 📈 Średnia liczba wierszy na tabelę: 1 038,48"
+  },
+  {
+    "row": 189,
+    "rowsha": "smSM6RGIjqKiM6lSQbAwIbd+5ZvegnsC6Md/+O+p92o=",
+    "originContent": "     - 💾 Total Size: 207.15 MB (around)",
+    "translatedContent": "     - 💾 Całkowity rozmiar: 207,15 MB (około)"
+  },
+  {
+    "row": 190,
+    "rowsha": "q97PZFA/39lTNwJk+iElAfEJ8GvYoZqsb0ikWfAPV0w=",
+    "originContent": "   - **bird-interact-full**: ",
+    "translatedContent": "   - **bird-interact-full**: "
+  },
+  {
+    "row": 191,
+    "rowsha": "RdvWgS8iUhAiF5quZdhTZBus0/m4rU7nqPh3LoKZ6x8=",
+    "originContent": "     - 📈 Total Databases: 22",
+    "translatedContent": "     - 📈 Łączna liczba baz danych: 22"
+  },
+  {
+    "row": 192,
+    "rowsha": "Mxos3+6xN1g+Da5EobFbmY/eHApVkRRmfEF2OW4RH3A=",
+    "originContent": "     - 📋 Total Tables: 244",
+    "translatedContent": "     - 📋 Łączna liczba tabel: 244"
+  },
+  {
+    "row": 193,
+    "rowsha": "1PoYS/otqkIuh9Jz/geFtvrHFHStUi2+8NE+UMA9K8A=",
+    "originContent": "     - 🔢 Total Columns: 2011",
+    "translatedContent": "     - 🔢 Łączna liczba kolumn: 2011"
+  },
+  {
+    "row": 194,
+    "rowsha": "4EW0pGD4/KBIHDsNlFvK+POLaGR09I9BWl5eGftNlwE=",
+    "originContent": "     - 📈 Avg Rows per Table: 1,121.19",
+    "translatedContent": "     - 📈 Średnia liczba wierszy na tabelę: 1 121,19"
+  },
+  {
+    "row": 195,
+    "rowsha": "b5bo53OBUMszCF5iwS5PzApDi4vHki5mOoloknRFcgk=",
+    "originContent": "     - 💾 Total Size: 272.00 MB (around)",
+    "translatedContent": "     - 💾 Całkowity rozmiar: 272,00 MB (około)"
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "+k7Ca++d5jxjDrqQWYaSmQV+QrsPLeOVDWwp4LEOnLg=",
+    "originContent": "## 📦 Dataset Details",
+    "translatedContent": "## 📦 Szczegóły zbioru danych"
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "0CAgopT4uCrcP2XugQo54SQ7+3o6EmaZDPuISb7ZpYs=",
+    "originContent": "### Dataset Description",
+    "translatedContent": "### Opis zbioru danych"
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "pkqV5xWW8I11T7Zl8mUQKLCjeKF4+mgKL0ur0oD13wg=",
+    "originContent": "- **Database:** The complete PostgreSQL database can be download from [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) and [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view).",
+    "translatedContent": "- **Baza danych:** Pełną bazę danych PostgreSQL można pobrać z [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) oraz [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view)."
+  },
+  {
+    "row": 203,
+    "rowsha": "Rg/lq5RTpV9VpKctp3slYhtbuoFhbkfaorRPygzg6Gk=",
+    "originContent": "- **data:** Each data instance contain the following main parts:",
+    "translatedContent": "- **dane:** Każda instancja danych zawiera następujące główne części:"
+  },
+  {
+    "row": 204,
+    "rowsha": "oeZ/uzqCsA5VNpsUV6Q5FUwcPz5hnWM75+LkGTHBx5Y=",
+    "originContent": "   - `selected_database`: The name of the database.  ",
+    "translatedContent": "   - `selected_database`: Nazwa bazy danych.  "
+  },
+  {
+    "row": 205,
+    "rowsha": "oPNVshV/MIPpyhRk3j2Nxvx6eiSjlh78678fwhXHkyY=",
+    "originContent": "   - `query`: The unambiguous user query.  ",
+    "translatedContent": "   - `query`: Jednoznaczne zapytanie użytkownika.  "
+  },
+  {
+    "row": 206,
+    "rowsha": "FCnlkL1lk997F3W0Z2i178PvvixkNotyQ/PDUSEBG3I=",
+    "originContent": "   - `amb_user_query`: The user query with injected ambiguities.",
+    "translatedContent": "   - `amb_user_query`: Zapytanie użytkownika z wstrzykniętymi niejednoznacznościami."
+  },
+  {
+    "row": 207,
+    "rowsha": "dwSIKvWoOZ0bAk3/MuxBQZx+roDRkZ8De8Z9EV1g+YE=",
+    "originContent": "   - `user_query_ambiguity`: The ambiguities injected into the user query.",
+    "translatedContent": "   - `user_query_ambiguity`: Niejednoznaczności wstrzyknięte do zapytania użytkownika."
+  },
+  {
+    "row": 208,
+    "rowsha": "2uIaqS3MsNEQQa0yxeGCprcga3iAl7rbNcCeOhVqcms=",
+    "originContent": "   - `non_critical_ambiguity`: The non-critical ambiguities like order, limit, etc.",
+    "translatedContent": "   - `non_critical_ambiguity`: Niekrytyczne niejednoznaczności jak order, limit, itp."
+  },
+  {
+    "row": 209,
+    "rowsha": "jcfQ3RBzqQ5IoWI85TqetWQboWoj/TWcS2YjEGz1euw=",
+    "originContent": "   - `knowledge_ambiguity`: The ambiguities created by masked external knowledges. ",
+    "translatedContent": "   - `knowledge_ambiguity`: Niejednoznaczności utworzone przez zamaskowaną wiedzę zewnętrzną. "
+  },
+  {
+    "row": 210,
+    "rowsha": "/i3/thp7p1thZ/xCsBw3OHgDabXZMsKgumrhx3ZwzjQ=",
+    "originContent": "   - `sol_sql`: The ground truth SQL solution.  ",
+    "translatedContent": "   - `sol_sql`: Prawidłowe rozwiązanie SQL.  "
+  },
+  {
+    "row": 211,
+    "rowsha": "c+FiZvziVNHQ0BSlQNBGyAERMve99Hh3QFKIpYMnmY4=",
+    "originContent": "   - `preprocess_sql`: SQL queries to run before executing the solution or prediction.  ",
+    "translatedContent": "   - `preprocess_sql`: Zapytania SQL do uruchomienia przed wykonaniem rozwiązania lub predykcji.  "
+  },
+  {
+    "row": 212,
+    "rowsha": "xRrHhJsIZKbVIUl3a4LFJeid+TCYKXtGm2FO2voDCJA=",
+    "originContent": "   - `clean_up_sql`: SQL queries to run after the test cases to revert any changes made to the database.  ",
+    "translatedContent": "   - `clean_up_sql`: Zapytania SQL do uruchomienia po przypadkach testowych, aby cofnąć zmiany w bazie danych.  "
+  },
+  {
+    "row": 213,
+    "rowsha": "AN8KsW9EANalz2xbGaJpzkDyz8Piw1aD8GW5coktVLI=",
+    "originContent": "   - `test_cases`: A set of test cases to validate the predicted corrected SQL.",
+    "translatedContent": "   - `test_cases`: Zestaw przypadków testowych do walidacji poprawności przewidywanego skorygowanego SQL."
+  },
+  {
+    "row": 214,
+    "rowsha": "CJy/lmct2AT3OvidWiH5FLxFjM+3NIuJGemuO6IO3/I=",
+    "originContent": "   - `follow_up`: The labeled follow up questions.",
+    "translatedContent": "   - `follow_up`: Oznaczone pytania uzupełniające."
+  },
+  {
+    "row": 215,
+    "rowsha": "rUHKXvHeVB4UqqvGBnj9yJY3C0rN/Oz3IsSbOVCSOLE=",
+    "originContent": "   - `external_knowledge`: The external knowledge related to the specific task.",
+    "translatedContent": "   - `external_knowledge`: Wiedza zewnętrzna związana z konkretnym zadaniem."
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "hQpiCMxX9dK0D0byHCQ4cUtoa8tKtWMoWCxcRBrGSks=",
+    "originContent": "- **evaluation:** The evaluation code is available in the [`./evaluation`](./evaluation) directory.",
+    "translatedContent": "- **ewaluacja:** Kod ewaluacyjny dostępny jest w katalogu [`./evaluation`](./evaluation)."
+  },
+  {
+    "row": 218,
+    "rowsha": "v59KK3oH49UautE6oU56wvhU8e75NEkRJddOGbaFnyo=",
+    "originContent": "- **Curated by:** BIRD Team & Google Cloud",
+    "translatedContent": "- **Opracowane przez:** Zespół BIRD & Google Cloud"
+  },
+  {
+    "row": 219,
+    "rowsha": "1/kQI3qUNugGt6yUagQdmVhx1FDPb1fFeNnmxrbHjpM=",
+    "originContent": "- **License:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
+    "translatedContent": "- **Licencja:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+  },
+  {
+    "row": 220,
+    "rowsha": "EQ6KhGw1snJI5U6ZFWIjj/IpN04AkABGwoqpo5JQnkQ=",
+    "originContent": "- **HuggingFace Dataset Card:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)",
+    "translatedContent": "- **Karta zbioru danych HuggingFace:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)"
+  },
+  {
+    "row": 221,
+    "rowsha": "vVdKpLdFOgQhWrr5eGgnZXRxhU35Ld9YaV7jChDE8u4=",
+    "originContent": "  and [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full)",
+    "translatedContent": "  oraz [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full)"
+  },
+  {
+    "row": 222,
+    "rowsha": "JBijDrvexJ1GfbKj7poT//NH5iCfI6XH57cOWOG6jQc=",
+    "originContent": "### Dataset Uses",
+    "translatedContent": "### Zastosowania zbioru danych"
+  },
+  {
+    "row": 223,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "XHdAwjxf4l6iSAmLupTaOJFamV5zkfFP+w/3HJJzmV8=",
+    "originContent": "To avoid data leakage by auto-crawling, we do not include GT solution sqls and test cases along with data.",
+    "translatedContent": "Aby uniknąć wycieku danych przez automatyczne pobieranie, nie dołączamy rozwiązań GT w SQL ani przypadków testowych wraz z danymi."
+  },
+  {
+    "row": 225,
+    "rowsha": "yj3h6xfq5OIYHB811iMWmk5hnKOticHw6+uOgjiBtMM=",
+    "originContent": "please email [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) with the tag `[bird-interact-lite GT&Test Cases]` or `[bird-interact-full GT&Test Cases]` in the title for ground truth and test cases for the bird-interact-lite or bird-interact-full dataset, which will be sent automatically.",
+    "translatedContent": "prosimy o kontakt mailowy na adres [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com) z tagiem `[bird-interact-lite GT&Test Cases]` lub `[bird-interact-full GT&Test Cases]` w tytule, aby otrzymać dane referencyjne oraz przypadki testowe dla zbioru bird-interact-lite lub bird-interact-full, które zostaną wysłane automatycznie."
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 228,
+    "rowsha": "WdQ407T6c5a3XzwNoRQeOzF4njZ+rycE37AgTjebWf0=",
+    "originContent": "### Combine the public data with the ground truth and test cases",
+    "translatedContent": "### Połączenie danych publicznych z danymi referencyjnymi i przypadkami testowymi"
+  },
+  {
+    "row": 229,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "FQo/ITTkFB2//G1CTHQj5j8320KVLTylVx0AUBjZkl4=",
+    "originContent": "Then use the following script to combine the public data with the ground truth and test cases:",
+    "translatedContent": "Następnie użyj poniższego skryptu, aby połączyć dane publiczne z danymi referencyjnymi i przypadkami testowymi:"
+  },
+  {
+    "row": 231,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 232,
+    "rowsha": "tWGRBHxHavZE4Eqq9dp32q9r4luRp8mS6FW6lMoJauM=",
+    "originContent": "Take the full version as an example:",
+    "translatedContent": "Weźmy wersję pełną jako przykład:"
+  },
+  {
+    "row": 233,
+    "rowsha": "E8rgr8XRlP4vdzVEbOeEHQJtU8KLy/AgzXXgUNgSygM=",
+    "originContent": "(1) Run:",
+    "translatedContent": "(1) Uruchom:"
+  },
+  {
+    "row": 234,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 235,
+    "rowsha": "jlfeIG9FERK+MoGtRQdFycdolDTyg34LSMkJ3b/ZbIs=",
+    "originContent": "python combine_public_with_gt.py /path/to/bird-interact-full/bird_interact_data.jsonl /path/to/bird_interact_full_gt_kg_testcases_08022.jsonl /path/to/bird_interact_data.jsonl  # bird_interact_full_gt_kg_testcases_08022.jsonl is the data of ground-truth fields, which is obtained by emailing us.",
+    "translatedContent": "python combine_public_with_gt.py /path/to/bird-interact-full/bird_interact_data.jsonl /path/to/bird_interact_full_gt_kg_testcases_08022.jsonl /path/to/bird_interact_data.jsonl  # bird_interact_full_gt_kg_testcases_08022.jsonl is the data of ground-truth fields, which is obtained by emailing us."
+  },
+  {
+    "row": 236,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 237,
+    "rowsha": "ma6goUt6uh8kKIeoZwOwegiIHUArJE/lC0isVscF6js=",
+    "originContent": "This will create a new file at `/path/to/bird_interact_data.jsonl` with the combined data. ",
+    "translatedContent": "To utworzy nowy plik w `/path/to/bird_interact_data.jsonl` z połączonymi danymi."
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 239,
+    "rowsha": "Xuyxtg4VyQM3rEIQkrDE8bHYB6lLi/o+46TBc2C41Wo=",
+    "originContent": "(2) Then replace the original public data with the combined data:",
+    "translatedContent": "(2) Następnie zastąp oryginalne dane publiczne połączonymi danymi:"
+  },
+  {
+    "row": 240,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 241,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 242,
+    "rowsha": "HVDYyPDhnNmEoPMherIbvYo3jbS3UGo7OtVgOJmObuM=",
+    "originContent": "cp /path/to/bird_interact_data.jsonl /path/to/bird-interact-full/bird_interact_data.jsonl",
+    "translatedContent": "cp /path/to/bird_interact_data.jsonl /path/to/bird-interact-full/bird_interact_data.jsonl"
+  },
+  {
+    "row": 243,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 244,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 245,
+    "rowsha": "nR7aZmEAdpzWKl/GCMyf45AbVlGmkZcMKyCVSiT0E2c=",
+    "originContent": "Same for the other versions: bird-interact-lite, mini version, etc. Just set correct paths for the public data and the ground truth and test cases, and then replace the public data with the combined data.",
+    "translatedContent": "To samo dotyczy innych wersji: bird-interact-lite, wersja mini itp. Wystarczy ustawić poprawne ścieżki do danych publicznych oraz danych referencyjnych i przypadków testowych, a następnie zastąpić dane publiczne danymi połączonymi."
+  },
+  {
+    "row": 246,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 247,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 248,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 249,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 250,
+    "rowsha": "IROdTOtya22/xNwBA21bawIEiQ79tzz8+FTSeqo+zAQ=",
+    "originContent": "<!-- ### Use the Dataset from HuggingFace",
+    "translatedContent": "<!-- ### Użyj zbioru danych z HuggingFace"
+  },
+  {
+    "row": 251,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 252,
+    "rowsha": "uKk3AJCcLznW9aT+voL6Iz4vZXP4iQl853lhxWPZvrY=",
+    "originContent": "You can download the dataset from HuggingFace using the following command:",
+    "translatedContent": "Zbiór danych możesz pobrać z HuggingFace za pomocą poniższego polecenia:"
+  },
+  {
+    "row": 253,
+    "rowsha": "GE0AusEadGNk/GYr/BF/88UKsGyopy2r8aCnyXHh4HI=",
+    "originContent": "The details about running **a-interact** can be found in `./bird_interact_agent/README.md`; and **c-interact** can be found in `./bird_interact_conv/README.md`.",
+    "translatedContent": "Szczegóły dotyczące uruchamiania **a-interact** można znaleźć w `./bird_interact_agent/README.md`; a **c-interact** w `./bird_interact_conv/README.md`."
+  },
+  {
+    "row": 254,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 255,
+    "rowsha": "f6chlfSVENLsNAyFyteH0qZqANkTbg9qD38E3rR7+l4=",
+    "originContent": "## 📋 Todo Lists",
+    "translatedContent": "## 📋 Listy zadań"
+  },
+  {
+    "row": 256,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 257,
+    "rowsha": "EL1NQH2bug6G0ymI/d6FG7PFV2GnkPXixeKmwZPR78w=",
+    "originContent": "- [x] Release lite version, bird-interact-lite (270).",
+    "translatedContent": "- [x] Wydanie wersji lite, bird-interact-lite (270)."
+  },
+  {
+    "row": 258,
+    "rowsha": "hKBdzfGYA7Z4jZ++QUac0jtKAk4XdrT5WpTUG30vQPQ=",
+    "originContent": "- [x] Release conversational version, bird-interact-conv.",
+    "translatedContent": "- [x] Wydanie wersji konwersacyjnej, bird-interact-conv."
+  },
+  {
+    "row": 259,
+    "rowsha": "WfzwLUQQqs71qDxmOxFIOr3TUazlzzHDkM2e4UDJDn8=",
+    "originContent": "- [x] Release agent version, bird-interact-agent.",
+    "translatedContent": "- [x] Wydanie wersji agenta, bird-interact-agent."
+  },
+  {
+    "row": 260,
+    "rowsha": "tfR+oV/Tx2mEPN6r3D2jkGwWZXobjbuEMudF9OxNLv0=",
+    "originContent": "- [x] Release Full bird-interact-full (600).",
+    "translatedContent": "- [x] Wydanie pełnej wersji bird-interact-full (600)."
+  },
+  {
+    "row": 261,
+    "rowsha": "vFAJSKqY7icL0MP2UvbRlITQrKGIlzdRt4TZvsoGFb0=",
+    "originContent": "- [ ] SFT / RL an User Simulator",
+    "translatedContent": "- [ ] SFT / RL Symulatora Użytkownika"
+  },
+  {
+    "row": 262,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 263,
+    "rowsha": "zeUL2mcUYd628fTHqknKcxv2uqjN5wj1hlMFcVnzrpU=",
+    "originContent": "## Acknowledgement",
+    "translatedContent": "## Podziękowania"
+  },
+  {
+    "row": 264,
+    "rowsha": "m2QkSisvveyCZX6DzbZF2v3cmidtsWxZeJ2QRiUaFs4=",
+    "originContent": "We would like to express our sincere gratitude to **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi**, and Professor **Shinji Watanabe** for their fruitful discussions and valuable insights that helped improve this project.",
+    "translatedContent": "Chcielibyśmy wyrazić naszą szczerą wdzięczność **Irina Saparina**, **Mohammadreza Pourreza**, **Mehdi Bouzouina**, **Hailong Li**, **Jiatong Shi** oraz profesorowi **Shinji Watanabe** za owocne dyskusje i cenne uwagi, które pomogły ulepszyć ten projekt."
+  },
+  {
+    "row": 265,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 266,
+    "rowsha": "mhQeFc5wMr+mccgqoEwgaSGTbadrwRv17Z+l5irQ6EI=",
+    "originContent": "## Created By:",
+    "translatedContent": "## Twórcy:"
+  },
+  {
+    "row": 267,
+    "rowsha": "BcslIbMQUwitDZ/R23YsQQIVge1FMTXdOH6FqEchx/I=",
+    "originContent": "BIRD Team & Google Cloud",
+    "translatedContent": "Zespół BIRD & Google Cloud"
+  },
+  {
+    "row": 268,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 269,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 270,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 271,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 272,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 273,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 274,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 275,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 276,
+    "rowsha": "Yy1L+liWEPiygBFNsm9+4WmZQmi0NpcYvH+ZHWiB74A=",
+    "originContent": "## Change Log",
+    "translatedContent": "## Dziennik zmian"
+  },
+  {
+    "row": 277,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 278,
+    "rowsha": "Z1U72G8iUw35F0VXT/QQ4hHQgL/nwD4xFuSMH8lzboc=",
+    "originContent": "- [2025-11-06] 🐛 **Bug Fix** & 🐳 **Docker update**: Update the sqlglot version to 26.16.4 to fix the bug that the sql parser cannot parse the SQL correctly for user simulator. You could fix this by re-install it by `pip install sqlglot==26.16.4` in the `bird_interact_eval` env. The `bird_interact_eval` image is also updated, so you could also pull it and recreate the `bird_interact_eval` container.",
+    "translatedContent": "- [2025-11-06] 🐛 **Poprawka błędu** & 🐳 **Aktualizacja Dockera**: Zaktualizowano wersję sqlglot do 26.16.4, aby naprawić błąd, przez który parser SQL nie mógł poprawnie analizować SQL dla symulatora użytkownika. Możesz to naprawić, ponownie instalując `pip install sqlglot==26.16.4` w środowisku `bird_interact_eval`. Obraz `bird_interact_eval` również został zaktualizowany, więc możesz go pobrać i odtworzyć kontener `bird_interact_eval`."
+  },
+  {
+    "row": 279,
+    "rowsha": "AOso64cmDJc8FxEExtaKElXz++MYq2Lc8TtifY/dAWY=",
+    "originContent": "- [2025-10-21] 🐳 **Docker update**: Add the docker for Full DB Env. And we pushed 3 docker images (Base/Full DB Env and the evaluation environment for both `a-Interact` and `c-Interact`) to Docker Hub to facilitate the environment setup. No need to download the DB dumps and build the images manually! Please pull the latest images from Docker Hub and recreates the containers, e.g. using `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`.",
+    "translatedContent": "- [2025-10-21] 🐳 **Aktualizacja Dockera**: Dodano dockera dla Full DB Env. Wysłaliśmy 3 obrazy dockera (Base/Full DB Env oraz środowisko ewaluacyjne dla obu `a-Interact` i `c-Interact`) do Docker Hub, aby ułatwić konfigurację środowiska. Nie ma potrzeby pobierania zrzutów DB i ręcznego budowania obrazów! Prosimy pobrać najnowsze obrazy z Docker Hub i odtworzyć kontenery, np. używając `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`."
+  },
+  {
+    "row": 280,
+    "rowsha": "H6Zyonsv0aL1AyBf5xeZKrbsY19tVfLl445zOVlMBJc=",
+    "originContent": "- [2025-08-22]  🐛 **Bug Fix**: Fix the bug that when evaluating phase-2 SQL, the stored phase-1 SQL cannot be executed successfully, leading to a lower success rate of Phase-2. This bug only affects those tasks where phase1 sql does some operations on the database, e.g. CREATE table, etc.",
+    "translatedContent": "- [2025-08-22]  🐛 **Poprawka błędu**: Naprawiono błąd, przez który podczas ewaluacji SQL fazy 2, zapisany SQL fazy 1 nie mógł zostać wykonany poprawnie, co prowadziło do niższego wskaźnika sukcesu fazy 2. Błąd ten dotyczył tylko tych zadań, gdzie SQL fazy 1 wykonuje operacje na bazie danych, np. CREATE table itp."
   }
 ]

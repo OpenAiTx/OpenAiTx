@@ -24,39 +24,53 @@
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-แอปพลิเคชัน Rust ที่แปลงอิมเมจคอนเทนเนอร์ (Docker ฯลฯ) เป็นที่เก็บ Git โดยแต่ละเลเยอร์ของคอนเทนเนอร์จะถูกแทนด้วยคอมมิตของ Git เพื่อรักษาประวัติและโครงสร้างของอิมเมจต้นฉบับ
+[![Documentation](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![License](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![ดาวน์โหลด](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-![ตัวอย่างการใช้ OCI2Git แปลงอิมเมจ nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+[//]: # (mock สำหรับ test.yaml ในอนาคต)
+[//]: # ([![Test Status]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+
+<div align="left"> </div>  
+</div>
+
+แอปพลิเคชัน Rust ที่แปลงอิมเมจคอนเทนเนอร์ (Docker ฯลฯ) เป็นคลัง Git โดยแต่ละเลเยอร์ของคอนเทนเนอร์จะถูกแทนด้วย commit ใน Git เพื่อรักษาประวัติและโครงสร้างของอิมเมจต้นฉบับ
+
+![ตัวอย่างการทำงานของ OCI2Git กับอิมเมจ nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## คุณสมบัติ
 
-- วิเคราะห์ Docker image และดึงข้อมูล layer
-- สร้าง Git repository โดยแต่ละ layer ของ image จะถูกแทนด้วย commit
-- รองรับ layer ว่าง (เช่น ENV, WORKDIR ฯลฯ) เป็น commit ว่าง
-- ดึงข้อมูล metadata อย่างครบถ้วนในรูปแบบ Markdown
-- สถาปัตยกรรมที่ขยายได้สำหรับรองรับ container engine หลากหลายชนิด
+- วิเคราะห์อิมเมจ Docker และดึงข้อมูลเลเยอร์ออกมา
+- สร้างคลัง Git ที่แต่ละเลเยอร์ของอิมเมจเป็น commit
+- รองรับเลเยอร์ว่าง (เช่น ENV, WORKDIR ฯลฯ) เป็น commit ว่าง
+- ดึงข้อมูลเมตาดาต้าออกมาเป็นรูปแบบ Markdown ได้อย่างสมบูรณ์
+- สถาปัตยกรรมที่สามารถขยายได้เพื่อรองรับเอนจินคอนเทนเนอร์ต่างๆ
 
 ## กรณีการใช้งาน
 
-### การเปรียบเทียบความแตกต่างของ Layer
-เมื่อแก้ไขปัญหาเกี่ยวกับ container คุณสามารถใช้ความสามารถในการเปรียบเทียบของ Git เพื่อระบุได้อย่างชัดเจนว่าอะไรเปลี่ยนแปลงไประหว่างสอง layer โดยการรัน `git diff` ระหว่าง commit วิศวกรจะเห็นได้อย่างแม่นยำว่าไฟล์ใดถูกเพิ่ม เปลี่ยนแปลง หรือถูกลบ ทำให้ง่ายต่อการเข้าใจผลกระทบของแต่ละ Dockerfile instruction และค้นหาการเปลี่ยนแปลงที่เป็นปัญหา
-![ตัวอย่างการเปรียบเทียบ layer](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### เปรียบเทียบเลเยอร์ (Layer Diffing)
+เมื่อแก้ไขปัญหาคอนเทนเนอร์ คุณสามารถใช้ความสามารถ diff ของ Git เพื่อดูว่าอะไรเปลี่ยนแปลงระหว่างเลเยอร์ได้อย่างแม่นยำ โดยการรัน `git diff` ระหว่าง commit วิศวกรจะเห็นได้ชัดเจนว่าไฟล์ใดถูกเพิ่ม แก้ไข หรือลบออก ช่วยให้เข้าใจผลกระทบของคำสั่ง Dockerfile แต่ละบรรทัดและหาต้นตอของปัญหาได้ง่ายขึ้น
+![ตัวอย่างเปรียบเทียบเลเยอร์](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### การติดตามต้นกำเนิด
-ด้วยการใช้ `git blame` นักพัฒนาสามารถระบุได้อย่างรวดเร็วว่า layer ใดนำไฟล์หรือบรรทัดของโค้ดนั้นเข้ามาในระบบ ซึ่งมีประโยชน์มากเมื่อวิเคราะห์ปัญหาเกี่ยวกับไฟล์คอนฟิกหรือ dependency แทนที่จะตรวจสอบแต่ละ layer ด้วยตัวเอง คุณสามารถติดตามต้นกำเนิดของไฟล์ไปยัง layer และ Dockerfile instruction ที่เกี่ยวข้องได้ทันที
+### การติดตามต้นกำเนิด (Origin Tracking)
+โดยใช้ `git blame` นักพัฒนาสามารถตรวจสอบได้ทันทีว่าเลเยอร์ใดเป็นผู้เพิ่มไฟล์หรือโค้ดบรรทัดนั้นๆ โดยตรง มีประโยชน์มากในการวิเคราะห์ปัญหาเกี่ยวกับไฟล์คอนฟิกหรือ dependency แทนที่จะต้องตรวจสอบแต่ละเลเยอร์ด้วยตนเอง คุณสามารถย้อนกลับไปยังต้นกำเนิดของไฟล์และคำสั่ง Dockerfile ที่เกี่ยวข้องได้ทันที
 
-### การติดตามวงจรชีวิตของไฟล์
-OCI2Git ช่วยให้คุณสามารถติดตามเส้นทางของไฟล์แต่ละไฟล์ตลอดประวัติของ image ใน container คุณจะเห็นได้ว่าไฟล์ถูกสร้างขึ้นเมื่อใด ถูกปรับเปลี่ยนอย่างไรในแต่ละ layer และถูกลบเมื่อใดหากเกิดขึ้น มุมมองแบบครบวงจรนี้ช่วยให้เข้าใจวิวัฒนาการของไฟล์โดยไม่ต้องติดตามการเปลี่ยนแปลงด้วยตนเองในหลาย layer
+### การติดตามวงจรชีวิตไฟล์ (File Lifecycle Tracking)
+OCI2Git ช่วยให้คุณติดตามประวัติของไฟล์แต่ละไฟล์ตลอดการเปลี่ยนแปลงในอิมเมจคอนเทนเนอร์ คุณจะเห็นได้ว่าไฟล์ถูกสร้างขึ้นเมื่อใด มีการแก้ไขในเลเยอร์ใดบ้าง และถูกลบออกเมื่อใด มุมมองนี้ช่วยให้เข้าใจวิวัฒนาการของไฟล์โดยไม่ต้องตรวจสอบการเปลี่ยนแปลงแต่ละเลเยอร์ด้วยตนเอง
 
-หากต้องการติดตามประวัติของไฟล์ใน image ของ container — รวมถึงเวลาที่ไฟล์ปรากฏครั้งแรก ถูกเปลี่ยนแปลง หรือถูกลบ — คุณสามารถใช้คำสั่ง Git เหล่านี้หลังจากแปลงข้อมูล:
+เพื่อดูประวัติไฟล์ในอิมเมจคอนเทนเนอร์ของคุณ — ว่าปรากฏเมื่อใด มีการเปลี่ยนแปลง หรือถูกลบ — สามารถใช้คำสั่ง Git เหล่านี้หลังจากแปลงแล้ว:
 
 ```bash
 # Full history of a file (including renames)
@@ -192,10 +206,11 @@ repository/
 ├── Image.md     # Complete image metadata
 └── rootfs/      # Filesystem content from the container
 ```
-  
+
+
 ## ข้อกำหนด
 
-- Rust รุ่นปี 2021
+- Rust รุ่น 2021
 - Docker CLI (สำหรับรองรับ Docker engine)
 - Git
 
@@ -203,9 +218,11 @@ repository/
 
 MIT
 
+[เอกสารประกอบ]: https://docs.rs/oci2git/
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

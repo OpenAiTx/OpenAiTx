@@ -24,39 +24,53 @@
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-Konteyner imajlarını (Docker, vb.) Git depolarına dönüştüren bir Rust uygulaması. Her konteyner katmanı bir Git commit'i olarak temsil edilir ve orijinal imajın geçmişi ile yapısı korunur.
+[![Dokümantasyon](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![Lisans](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![İndirmeler](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-![OCI2Git'in nginx imajını dönüştürdüğünü gösteren demo](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+[//]: # (gelecekteki test.yaml için mock)
+[//]: # ([![Test Durumu]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+
+<div align="left"> </div>  
+</div>
+
+Konteyner imajlarını (Docker, vb.) Git deposuna dönüştüren bir Rust uygulamasıdır. Her konteyner katmanı bir Git commit'i olarak temsil edilir, orijinal imajın geçmişi ve yapısı korunur.
+
+![OCI2Git'in nginx imajını dönüştürme demosu](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## Özellikler
 
-- Docker imajlarını analiz edin ve katman bilgilerini çıkarın
-- Her imaj katmanının bir commit olarak temsil edildiği bir Git deposu oluşturun
-- Boş katmanlar için destek (ENV, WORKDIR, vb.) boş commitler olarak
-- Markdown formatında tam meta veri çıkarımı
+- Docker imajlarını analiz eder ve katman bilgilerini çıkarır
+- Her imaj katmanının bir commit olarak temsil edildiği bir Git deposu oluşturur
+- Boş katmanlar (ENV, WORKDIR, vb.) için boş commit desteği
+- Tüm meta verileri Markdown formatında çıkarma
 - Farklı konteyner motorlarını desteklemek için genişletilebilir mimari
 
-## Kullanım Senaryoları
+## Kullanım Alanları
 
 ### Katman Karşılaştırma
-Konteyner sorunlarını giderirken, Git'in güçlü karşılaştırma (diff) özelliklerini kullanarak herhangi iki katman arasında tam olarak neyin değiştiğini belirleyebilirsiniz. Commitler arasında `git diff` komutunu çalıştırarak mühendisler, hangi dosyaların eklendiğini, değiştirildiğini veya silindiğini tam olarak görebilir; böylece her Dockerfile talimatının etkisini anlamak ve sorunlu değişiklikleri bulmak çok daha kolay hale gelir.
+Konteyner sorunlarını giderirken, Git'in güçlü karşılaştırma (diff) yeteneklerini kullanarak herhangi iki katman arasında tam olarak neyin değiştiğini belirleyebilirsiniz. Commitler arasında `git diff` çalıştırarak, mühendisler hangi dosyaların eklendiğini, değiştirildiğini veya silindiğini net bir şekilde görebilir, böylece her Dockerfile talimatının etkisini anlamak ve sorunlu değişiklikleri bulmak çok daha kolay hale gelir.
 ![Katman karşılaştırma örneği](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
 ### Kaynak Takibi
-`git blame` kullanarak geliştiriciler, belirli bir dosya veya kod satırının hangi katmanda oluşturulduğunu hızla belirleyebilir. Bu özellikle yapılandırma dosyaları veya bağımlılıklarla ilgili sorunları teşhis ederken çok değerlidir. Her katmanı elle incelemek yerine, herhangi bir dosyanın kaynağını ve ilgili Dockerfile talimatını anında takip edebilirsiniz.
+`git blame` kullanarak geliştiriciler, belirli bir dosya veya kod satırının hangi katmanda eklendiğini hızlıca belirleyebilir. Bu, özellikle yapılandırma dosyaları veya bağımlılıklarla ilgili sorunları teşhis ederken çok değerlidir. Her katmanı manuel olarak incelemek yerine, herhangi bir dosyanın kaynağını anında bulabilir ve ilgili Dockerfile talimatına kadar izleyebilirsiniz.
 
 ### Dosya Yaşam Döngüsü Takibi
-OCI2Git, bir dosyanın konteyner imajı boyunca yolculuğunu takip etmenizi sağlar. Bir dosyanın ne zaman oluşturulduğunu, katmanlar boyunca nasıl değiştirildiğini ve eğer varsa ne zaman silindiğini gözlemleyebilirsiniz. Bu kapsamlı görünüm, potansiyel olarak onlarca katmandaki değişiklikleri elle takip etmeden dosyanın evrimini anlamanıza yardımcı olur.
+OCI2Git sayesinde, bir dosyanın konteyner imajı boyunca izlediği yolu takip edebilirsiniz. Bir dosyanın ilk ne zaman oluşturulduğunu, katmanlar boyunca nasıl değiştirildiğini ve en sonunda ne zaman silindiğini gözlemleyebilirsiniz. Bu kapsamlı görünüm, dosyanın evrimini anlamanızı sağlar ve potansiyel olarak onlarca katman arasında değişiklikleri manuel olarak takip etme ihtiyacını ortadan kaldırır.
 
-Konteyner imajınızdaki bir dosyanın geçmişini izlemek için — ilk ne zaman göründüğünü, değiştirildiğini veya silindiğini görmek dahil — dönüşümden sonra şu Git komutlarını kullanabilirsiniz:
+Konteyner imajınızdaki bir dosyanın geçmişini — ilk ne zaman göründüğünü, değiştirildiğini veya silindiğini — dönüştürmeden sonra aşağıdaki Git komutları ile takip edebilirsiniz:
 
 ```bash
 # Full history of a file (including renames)
@@ -203,9 +217,12 @@ repository/
 
 MIT
 
+[dokümantasyon]: https://docs.rs/oci2git/
+
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

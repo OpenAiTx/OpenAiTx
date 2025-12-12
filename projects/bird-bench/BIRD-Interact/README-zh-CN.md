@@ -57,119 +57,239 @@
 </div>
 
 ## ⚠️ 公告  
-请注意，在您的评估流程开始前，当 Docker 加载数据库时，由于环境不一致偶尔会出现错误（这些错误不会终止流程，但会显示在 Docker 日志中）。因此，部分数据库可能无法正常加载，导致数据库为空。这将使评测结果异常偏低。  
-👉 因此，我们强烈建议您在**评测前检查 Docker 日志**是否有报错，并确认所有数据库均已成功加载。
+请注意，在您的评估流程前，Docker 加载数据库时偶尔会因环境不一致而出现错误（这些错误不会终止流程，但会在 Docker 日志中显示）。因此，部分数据库可能无法正常加载，导致数据库内容为空。这将导致评估结果异常偏低。  
+👉 因此，我们强烈建议在运行评测前，务必检查 Docker 日志中的错误，并确认所有数据库已成功加载。
+
+👉 我们已更新了**提交指南**，现支持自定义 Agent 脚手架。欢迎查阅我们详细的提交指南[此处](https://docs.google.com/document/d/1F1DSqHDBzGvXFlWU8iCl9otkqxIefgcH/edit?usp=sharing&ouid=108161566779099489782&rtpof=true&sd=true)。
 
 ## 📰 新闻
 
-- [2025-08-26] 🚀 我们很高兴宣布**[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)**数据集正式发布！  
-难度很高——目前最好的 LLM 仅获得了**16.33%**的成功率，`c-interact` 和 `a-interact`部分仅为**10.0%**。  
-👉 更多详情请访问我们的[项目主页](https://bird-interact.github.io/)。
+- [2025-11-06] 🐛 **Bug 修复** & 🐳 **Docker 更新**：将 sqlglot 版本升级至 26.16.4，修复用户模拟器 SQL 解析异常问题。可通过在 `bird_interact_eval` 环境中 `pip install sqlglot==26.16.4` 重新安装修复。`bird_interact_eval` 镜像已更新，可重新拉取并重建 `bird_interact_eval` 容器。
 
-- [2025-08-26] 📬 我们将在本周向邮件列表发送**真实答案与测试用例**。  
-如需提前获取，请按网站说明发邮件，开启**自动下载**通道。  
+- [2025-10-21] 🐳 **Docker 更新**：新增 Full DB Env 的 docker 镜像，并向 Docker Hub 推送了 3 个镜像（Base/Full DB Env 以及 `a-Interact` 和 `c-Interact` 的评测环境），便于环境快速搭建。无需手动下载 DB dumps 并构建镜像！
 
-- [2025-08-26] 💾 另外，我们已发布了**[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**的 SQLite 版本，更方便本地研究。  
-完整版 **LiveSQLBench-Base** 和 **-Large** 即将上线！
+- [2025-10-08] 📝 我们的 **[Bird-Interact 论文](https://huggingface.co/papers/2510.05318)** 现已公开！  
+  详细介绍了我们交互式 text-to-SQL 基准的完整细节、方法和评测。  
+  👉 欢迎查阅，了解 [BIRD-Interact](https://bird-interact.github.io/) 背后的理念。
 
-- [2025-08-22] **Bug 修复**：Bird-Interact-Agent 代码中修复了一个 bug，在评测 phase-2 SQL 时，储存的 phase-1 SQL 无法成功执行，导致 Phase-2 成功率降低。该 bug 仅影响 phase1 sql 对数据库有操作的任务，如创建表等。
+- [2025-08-26] 🚀 我们很高兴宣布 **[BIRD-Interact-Full (600)](https://huggingface.co/datasets/birdsql/bird-interact-full)** 集合正式发布！  
+这是一项极具挑战的任务 —— 最强大的 LLM 成功率仅为 **16.33%**，`c-interact` 和 `a-interact` 部分仅有 **10.0%**。  
+👉 详情请访问我们的[项目主页](https://bird-interact.github.io/)。
 
-## 🧸 概览
+- [2025-08-26] 📬 本周我们将通过邮件列表发送 **Ground Truth & Test cases**。  
+如需提前获取，请按网站说明发送邮件，可**自动下载**。  
+- [2025-08-26] 💾 另外，我们还发布了适用于本地研究的 SQLite 版本 **[LiveSQLBench-Lite](https://huggingface.co/datasets/birdsql/livesqlbench-base-lite-sqlite)**。  
+完整版 **LiveSQLBench-Base** 和 **-Large** 即将推出！
 
-BIRD-INTERACT 是一个交互式文本到 SQL 基准测试，通过**动态交互视角重新定义文本到 SQL 评测**。
-该环境融合分层知识库、数据库文档和功能驱动用户模拟器，重现企业真实环境，覆盖完整的**CRUD**操作。
-它提供了两种严格的测试模式：（1）被动的**对话交互**，以及（2）主动的**智能体交互**，涵盖了600个带有注释的任务，包括商业智能（BI）、CRUD操作等，每个任务都配有可执行的测试用例。
-典型评估会触发模型与用户模拟器之间1,968-5,496次交互回合，而当前最先进的推理模型仅能解决**约24%**和**约18%**的任务，突显了该基准的挑战性。
+- [2025-08-22] **Bug修复**：在 Bird-Interact-Agent 代码中，我们修复了一个 bug：在评估第2阶段 SQL 时，存储的第1阶段 SQL 无法成功执行，导致第2阶段成功率降低。此 bug 仅影响第1阶段 SQL 会对数据库做操作（如 CREATE table 等）的任务。
+
+## 🧸 概述
+
+BIRD-INTERACT 是一个交互式文本到 SQL 基准测试集，**通过动态交互视角重新定义 Text-to-SQL 评测**。
+该环境融合了分层知识库、数据库文档和基于函数的用户模拟器，真实还原企业环境下的全流程 **CRUD** 操作。
+它提供两种严格的测试模式：（1）被动式 **会话交互** 和（2）主动式 **Agent 智能交互**，涵盖 600 个标注任务，包括商业智能（BI）、CRUD 操作等，每个任务均有可执行的测试用例保障。
+典型评测中，模型与用户模拟器会触发 1,968-5,496 次交互回合，而最先进的推理模型目前仅能解决 **≈24%** 和 **≈18%** 的任务，凸显了该基准的挑战性。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/workflow.png" 
        style="width: 100%; min-width: 100px; display: block; margin: auto; ">
 </p>
 
-### ✅ 两种评估模式
+### ✅ 两种评测模式
 
-如上所述，BIRD-INTERACT支持两种评估模式：
+正如上文所述，BIRD-INTERACT 支持两种评测模式：
 
-   - **c-Interact**：对话交互，是一种被动模式，工作流程是固定的。代码和详细信息可在 `bird_interact_conv` 中找到。
-   - **a-Interact**：智能体交互，是一种具身的主动模式，工作流程是动态并由模型主导。代码和详细信息可在 `bird_interact_agent` 中找到。
-
+   - **c-Interact**：会话交互模式，为被动模式，流程固定。代码和详细信息见 `bird_interact_conv`。
+   - **a-Interact**：Agent 智能交互模式，为主动模式，流程由模型动态驱动。代码和详细信息见 `bird_interact_agent`。
 
 ### 🐣 精简版
 
-我们发布了BIRD-INTERACT的精简版 `bird-interact-lite-exp`，其中包含了专为PostgreSQL设计的270个高质量真实任务。非常适合快速实验的入门使用。
+我们发布了 BIRD-INTERACT 的精简版 `bird-interact-lite-exp`，包含 270 个高质量真实任务，专为 PostgreSQL 设计，适合快速实验起步。
 
 ### 🦜 完整版
 
-BIRD-INTERACT的完整版 `bird-interact-full` 是一个全面的基准测试，涵盖了PostgreSQL的600个任务。包含广泛的SQL操作和用户查询。完整版即将推出。
+BIRD-INTERACT 的完整版 `bird-interact-full` 是覆盖 600 个 PostgreSQL 任务的综合基准，涵盖各种 SQL 操作和用户查询。完整版即将上线。
 
-### BIRD-INTERACT 精简版模型性能结果
+### BIRD-INTERACT-FULL 的模型性能结果
 
-#### 1. **c-Interact** 性能
-| 排名 | 模型名称           | 标准化奖励 | 等级          |
-|:------:|--------------------|:-------:|:--------------:|
-| 1    | o3-mini            | 33.04 | 🏆 卓越对话      |
-| 2    | GPT-4o             | 30.33 | 💎 良好对话      |
-| 3    | Gemini-2.0-flash   | 27.41 | 💎 良好对话      |
-| 4    | Claude-3.7-sonnet  | 26.60 | ✨ 标准          |
-| 5    | DeepSeek-R1        | 21.74 | ✨ 标准          |
-| 6    | Qwen3              | 20.33 | ⚪ 基础          |
-| 7    | DeepSeek-V3        | 15.85 | ⚪ 基础          |
+#### 1. **c-Interact 文本到 SQL** 性能
+| 排名 | 模型名称           | 标准化奖励         | 平均成本(美元)/任务  | 水平                |
+|:----:|:-------------------|:-----------------:|:-------------------:|:------------------:|
+| 1    | Gemini-2.5-Pro     | 20.92             | $0.04               | 🏆 优秀会话模型      |
 
-#### 2. **a-Interact** 性能
-| 排名 | 模型名称           |预算参数*      | 平均步数/任务 | 平均花费（美元）/任务 | 标准化奖励   | 等级             |
-|:------:|--------------------|:-------------------:|:----------------:|:---------------------:|:-------------------:|:---------------------:|
-| 1    | Claude-3.7-sonnet  | 6/6 | 15.4 | $0.6668 | 29.19 | 🏆 卓越交互体验 |
-| 2    | o3-mini            | 6/6 | 7.8 | $0.0754 | 21.07 | 💎 良好交互体验 |
-| 3    | DeepSeek-V3        | 6/6 | 15.6 | $0.0629 | 19.19 | 💎 良好交互体验 |
-| 4    | Qwen3              | 6/6 | 12.5 | $0.0278 | 18.74 | ✨ 标准           |
-| 5    | GPT-4o             | 6/6 | 15.3 | $0.4594 | 18.37 | ✨ 标准           |
-| 6    | Gemini-2.0-flash   | 6/6 | 13.2 | $0.0337 | 17.26 | ⚪ 基础           |
-| 7    | DeepSeek-R1        | 6/6 | 12.0 | $0.0931 | 17.07 | ⚪ 基础           |
 
-> \* 预算参数：初始预算/用户耐心预算，均以我们的虚拟货币 *bird-coin* <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;"> 计量。详细信息请参考 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)。
+| 2    | O3-Mini            | 20.27             | $0.07               | 🏆 优秀聊天         |
+| 3    | Claude-Sonnet-4    | 18.35             | $0.29               | 💎 良好聊天         |
+| 4    | Qwen-3-Coder-480B  | 17.75             | $0.11               | 💎 良好聊天         |
+| 5    | Deepseek-Chat-V3.1 | 15.15             | $0.12               | ✨ 标准             |
+| 6    | Claude-Sonnet-3.7  | 13.87             | $0.29               | ✨ 标准             |
+| 7    | GPT-5              | 12.58             | $0.08               | ⚪ 基础             |
+
+#### 2. **a-Interact Text-to-SQL** 性能
+| 排名 | 模型名称           | 标准化奖励        | 平均成本（美元）/任务 | 等级                       |
+|:----:|:-------------------|:-----------------:|:-------------------:|:------------------------:|
+| 1    | GPT-5              | 25.52             | $0.24               | 🏆 优秀交互              |
+| 2    | Claude-Sonnet-4    | 23.28             | $0.51               | 🏆 优秀交互              |
+| 3    | Claude-Sonnet-3.7  | 17.45             | $0.60               | 💎 良好交互              |
+| 4    | Gemini-2.5-Pro     | 17.33             | $0.22               | 💎 良好交互              |
+| 5    | O3-Mini            | 16.43             | $0.06               | ✨ 标准                  |
+| 6    | Deepseek-Chat-V3.1 | 13.47             | $0.06               | ✨ 标准                  |
+| 7    | Qwen-3-Coder-480B  | 10.58             | $0.07               | ⚪ 基础                  |
+
+> \* 预算参数：起始预算/用户耐心预算，以我们的虚拟货币 *bird-coin* <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/materials/bird-coin.png" style="height: 1em; vertical-align: middle;"> 计量。更多详情请参考 [bird_interact_agent/README.md](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/bird_interact_agent/README.md#task-setting)。
 
 ### 交互时间扩展（ITS）
 
-交互时间扩展（ITS）指的是模型通过多轮交互不断提升最终表现的能力。当这种交互式表现超过模型在完全指定且无歧义任务上的理想单轮表现时，我们认为模型满足 **ITS 定律**。随着用户耐心提升与交互轮次增加，模型表现持续提升，展现出在长对话中保持高效沟通的能力。目前，仅有 claude-3-7-sonnet 满足 ITS 定律。
+交互时间扩展（ITS）指的是模型通过多轮交互持续提升最终性能的能力。当这种交互性能超过模型在完全明确的单轮理想任务下的表现时，我们称其满足 **ITS 法则**。随着用户耐心提升和交互轮数增加，性能不断提高，表明模型能够在长时间对话中保持有效沟通。目前，只有 claude-3-7-sonnet 满足 ITS 法则。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/materials/interaction_scaling_law.png" 
        style="width: 100%; min-width: 100px; display: block; margin: auto; ">
 </p>
 
+## 环境搭建
+
+1. 为 bird-interact-lite 数据库、bird-interact-full 数据库和评测环境运行 Docker 容器：
+  
+  > 如果您只想在 `bird-interact-lite` 上评测，可以注释掉 `docker-compose.yml` 文件中 [`postgresql_full` 服务](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/./env/docker-compose.yml#L21-L31) 以加快环境搭建速度。
+  
+  通过运行以下命令启动环境：
+   ```bash
+   cd env
+   docker compose pull 
+   docker compose up -d
+   ```
+   等待几分钟以完成数据库初始化。
+   
+  您可以通过以下方式跟踪构建进度：
+  ```bash
+  docker compose logs -f --tail=100 bird_interact_postgresql_full # or bird_interact_postgresql for bird-interact-lite
+  ```
+  如果完成，您应该会看到没有错误的日志，如下所示：
+
+  ```bash
+  bird_interact_postgresql_full  | 2025-10-28 17:58:30.413 HKT [1] LOG:  database system is ready to accept connection
+  ```
+  
+ 
+  ```bash
+  docker compose down -v # this cmd removes the containers and the volumes
+  docker compose pull   # pull the latest images from Docker Hub
+  docker compose up -d --force-recreate # build and start the containers again. --force-recreate means force the recreation of the containers. 
+  # Or `docker compose up -d --force-recreate bird_interact_eval` to only recreate the bird_interact_eval container about evalution code environment.
+  ```
+   
+   这将使用来自 Docker Hub 的预构建镜像运行 3 个容器：
+   - `bird_interact_postgresql`：bird-interact-lite 的 PostgreSQL 数据库
+   - `bird_interact_postgresql_full`：bird-interact-full 的 PostgreSQL 数据库
+   - `bird_interact_eval`：`a-Interact` 和 `c-Interact` 的评估环境。
+
+   现在，您可以通过执行以下命令启动评估环境：
+   ```bash
+   docker compose exec bird_interact_eval bash
+   ```
+2. （可选）手动构建环境（如果你希望从零开始构建镜像）：
+   - 下载数据库转储文件
+      - [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view)。解压后重命名为 `env/postgre_table_dumps`。
+      - [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view)。解压后重命名为 `env/postgre_table_dumps_full`。
+   - 通过运行 `docker-compose.build.yml` 手动构建环境。
+
+      ```bash
+      cd env/
+      docker compose -f docker-compose.build.yml build
+      docker compose -f docker-compose.build.yml up -d
+      ```
+
+3. （推荐）检查数据库容器是否已成功构建并正在运行。
+
+- 打印容器构建日志，以确保数据库已成功构建且没有错误：
+   ```bash 
+   docker logs bird_interact_postgresql > build_bird_interact_postgresql.log 2>&1
+   docker logs bird_interact_postgresql_full > build_bird_interact_postgresql_full.log 2>&1
+   ```
+   如果发生错误，日志文件中将打印 `"导入过程中发生错误："`。
+
+
+-  检查数据库容器是否正常。
+
+   使用我们提供的 Python 脚本来验证数据库元数据：
+   ```bash
+   docker compose exec bird_interact_eval bash
+   cd /app/env
+   python check_db_metadata.py --host bird_interact_postgresql
+   python check_db_metadata.py --host bird_interact_postgresql_full
+   ```
+   
+   预期结果：
+   - **bird-interact-lite**：
+     - 📈 数据库总数：18
+     - 📋 表总数：175
+     - 🔢 列总数：2286
+     - 📈 每表平均行数：1,038.48
+     - 💾 总大小：约 207.15 MB
+   - **bird-interact-full**：
+     - 📈 数据库总数：22
+     - 📋 表总数：244
+     - 🔢 列总数：2011
+     - 📈 每表平均行数：1,121.19
+     - 💾 总大小：约 272.00 MB
+
+
 ## 📦 数据集详情
 
 ### 数据集说明
 
-- **数据库：** 完整的 PostgreSQL 数据库可从 [Google Drive](https://drive.google.com/file/d/1KABce6czIqL9kMyIX7i-_A0CIQoDnmyW/view) 下载。更多信息见 [快速评测](#quick-eval) 部分。
+- **数据库：** 完整的 PostgreSQL 数据库可从 [bird-interact-lite](https://drive.google.com/file/d/1QIGQlRKbkqApAOrQXPqFJgUg8rQ7HRRZ/view) 和 [bird-interact-full](https://drive.google.com/file/d/1V9SFIWebi27JtaDUAScG1xE9ELbYcWLR/view) 下载。
 - **数据：** 每条数据实例包含以下主要部分：
-   - `selected_database`: 数据库名称。  
-   - `query`: 明确无歧义的用户查询。  
-   - `amb_user_query`: 注入歧义后的用户查询。
-   - `user_query_ambiguity`: 注入到用户查询中的歧义。
-   - `non_critical_ambiguity`: 非关键歧义，如排序、限制等。
-   - `knowledge_ambiguity`: 由屏蔽外部知识造成的歧义。 
-   - `sol_sql`: 标准 SQL 解决方案。  
-   - `preprocess_sql`: 在执行解决方案或预测前需运行的 SQL 查询。  
-   - `clean_up_sql`: 在测试用例后恢复数据库更改的 SQL 查询。  
-   - `test_cases`: 用于验证预测修正 SQL 的测试用例集合。
-   - `follow_up`: 标注的后续问题。
-   - `external_knowledge`: 与具体任务相关的外部知识。
+   - `selected_database`：数据库名称。  
+   - `query`：明确的用户查询。  
+   - `amb_user_query`：注入了歧义的用户查询。
+   - `user_query_ambiguity`：注入到用户查询中的歧义。
+   - `non_critical_ambiguity`：非关键性歧义，如排序、限制等。
+   - `knowledge_ambiguity`：由屏蔽外部知识产生的歧义。 
+   - `sol_sql`：真实 SQL 解决方案。  
+   - `preprocess_sql`：在执行解决方案或预测前需运行的 SQL 查询。  
+   - `clean_up_sql`：测试用例后运行以恢复数据库变动的 SQL 查询。  
+   - `test_cases`：用于验证预测修正 SQL 的一组测试用例。
+   - `follow_up`：标注的后续问题。
+   - `external_knowledge`：与特定任务相关的外部知识。
 
-- **评测：** 评测代码可在 [`./evaluation`](./evaluation) 目录下获取。
+- **评估：** 评估代码可在 [`./evaluation`](./evaluation) 目录中获得。
 - **整理团队：** BIRD 团队 & Google Cloud
-- **许可证:** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- **HuggingFace 数据集卡片:** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
-
+- **许可证：** [cc-by-sa-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- **HuggingFace 数据集卡片：** [bird-interact-lite](https://huggingface.co/datasets/birdsql/bird-interact-lite)
+  以及 [bird-interact-full](https://huggingface.co/datasets/birdsql/bird-interact-full)
 ### 数据集用途
 
-为避免通过自动爬取造成数据泄漏，我们未在数据中包含GT解决方案SQL和测试用例。
-如需完整数据集，请发送邮件至[bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com)，邮件标题请注明 `[bird-interact-lite GT&Test Cases]`，我们将自动发送完整数据集。
+为避免通过自动爬取导致的数据泄漏，我们没有将GT解决方案SQL和测试用例与数据一同包含。
+请发送电子邮件至 [bird.bench25@gmail.com](https://raw.githubusercontent.com/bird-bench/BIRD-Interact/main/mailto:bird.bench25@gmail.com)，邮件标题需包含标签 `[bird-interact-lite GT&Test Cases]` 或 `[bird-interact-full GT&Test Cases]`，以获取 bird-interact-lite 或 bird-interact-full 数据集的真实标签和测试用例，系统会自动发送相关内容。
 
 
-<!-- ### 从 HuggingFace 获取数据集
+### 将公开数据与真实标签和测试用例合并
+
+然后使用以下脚本将公开数据与真实标签和测试用例合并：
+
+以完整版为例：
+(1) 运行：
+```bash
+python combine_public_with_gt.py /path/to/bird-interact-full/bird_interact_data.jsonl /path/to/bird_interact_full_gt_kg_testcases_08022.jsonl /path/to/bird_interact_data.jsonl  # bird_interact_full_gt_kg_testcases_08022.jsonl is the data of ground-truth fields, which is obtained by emailing us.
+```
+这将在 `/path/to/bird_interact_data.jsonl` 创建一个包含合并数据的新文件。
+
+（2）然后用合并后的数据替换原始公共数据：
+
+```bash
+cp /path/to/bird_interact_data.jsonl /path/to/bird-interact-full/bird_interact_data.jsonl
+```
+其他版本也是如此：bird-interact-lite、mini 版本等。只需为公共数据、真实值和测试用例设置正确的路径，然后将公共数据替换为合并数据。
+
+
+
+
+<!-- ### 使用 HuggingFace 的数据集
 
 你可以使用以下命令从 HuggingFace 下载数据集：
+
 ```bash
 from datasets import load_dataset
 # Load the flash version of the dataset
@@ -211,17 +331,20 @@ python pull_data.py \
 │   ├── ...
 └── requirements.txt
 ```
-有关运行 **a-interact** 的详细信息可在 `./bird_interact_agent/README.md` 中找到；而有关 **c-interact** 的信息可在 `./bird_interact_conv/README.md` 中找到。
+有关运行 **a-interact** 的详细信息，请参见 `./bird_interact_agent/README.md`；有关 **c-interact** 的详细信息，请参见 `./bird_interact_conv/README.md`。
 
-## 📋 待办事项清单
+## 📋 待办事项列表
 
-- [x] 发布简化版，bird-interact-lite（270）。
+- [x] 发布精简版，bird-interact-lite (270)。
 - [x] 发布对话版，bird-interact-conv。
 - [x] 发布代理版，bird-interact-agent。
-- [x] 发布完整版，bird-interact-full（600）。
+- [x] 发布完整版，bird-interact-full (600)。
 - [ ] SFT / RL 用户模拟器
 
-## 创建者：
+## 致谢
+我们衷心感谢 **Irina Saparina**、**Mohammadreza Pourreza**、**Mehdi Bouzouina**、**Hailong Li**、**Jiatong Shi** 以及 **Shinji Watanabe** 教授，他们富有成效的讨论和宝贵见解极大地推动了本项目的完善。
+
+## 创建团队：
 BIRD 团队 & Google Cloud
 
 
@@ -230,8 +353,15 @@ BIRD 团队 & Google Cloud
 
 
 
+
+## 更新日志
+
+- [2025-11-06] 🐛 **漏洞修复** & 🐳 **Docker 更新**：将 sqlglot 版本更新至 26.16.4，以修复 SQL 解析器无法正确解析用户模拟器 SQL 的问题。你可以通过在 `bird_interact_eval` 环境下使用 `pip install sqlglot==26.16.4` 重新安装来解决此问题。`bird_interact_eval` 镜像也已更新，你也可以拉取并重新创建 `bird_interact_eval` 容器。
+- [2025-10-21] 🐳 **Docker 更新**：新增完整数据库环境的 Docker。我们已将3个 Docker 镜像（基础/完整数据库环境以及 `a-Interact` 与 `c-Interact` 的评测环境）推送至 Docker Hub，便于环境搭建。无需再手动下载数据库转储并构建镜像！请从 Docker Hub 拉取最新镜像并重建容器，例如使用 `docker compose down -v && docker compose pull && docker compose up -d --force-recreate`。
+- [2025-08-22]  🐛 **漏洞修复**：修复在评测 phase-2 SQL 时，存储的 phase-1 SQL 无法成功执行，导致 Phase-2 成功率降低的问题。此问题仅影响 phase1 sql 对数据库有操作的任务，例如 CREATE table 等。
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

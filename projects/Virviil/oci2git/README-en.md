@@ -5,34 +5,48 @@
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN">Simplified Chinese</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-TW">Traditional Chinese</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ja">Japanese</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko">Korean</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi">Hindi</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th">Thai</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr">French</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de">German</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es">Spanish</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it">Italian</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru">Russian</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt">Portuguese</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl">Dutch</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl">Polish</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar">Arabic</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa">Persian</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Turkish</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Vietnamese</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Indonesian</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">Assamese</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-A Rust application that converts container images (Docker, etc.) into Git repositories. Each container layer is mapped to a Git commit, retaining the history and structure of the original image.
+[![Documentation](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![License](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![Downloads](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
+
+[//]: # (mock for future test.yaml)
+[//]: # ([![Test Status]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+
+<div align="left"> </div>  
+</div>
+
+A Rust application that converts container images (Docker, etc.) to Git repositories. Each container layer is represented as a Git commit, preserving the history and structure of the original image.
 
 ![Demo of OCI2Git converting the nginx image](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
@@ -203,9 +217,12 @@ repository/
 
 MIT
 
+[documentation]: https://docs.rs/oci2git/
+
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---

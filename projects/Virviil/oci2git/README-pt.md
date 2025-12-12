@@ -24,39 +24,53 @@
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=tr">Türkçe</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=vi">Tiếng Việt</a>
         | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=Virviil&project=oci2git&lang=as">অসমীয়া</a>
       </div>
     </div>
   </details>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/Virviil/oci2git/main/assets/logo.png" width="140px" />
+
 # OCI2Git
 
-Uma aplicação Rust que converte imagens de contêiner (Docker, etc.) em repositórios Git. Cada camada do contêiner é representada como um commit do Git, preservando o histórico e a estrutura da imagem original.
+[![Documentação](https://docs.rs/oci2git/badge.svg)][documentation]
+[![Crates.io](https://img.shields.io/crates/v/oci2git.svg)](https://crates.io/crates/oci2git)
+[![Licença](https://img.shields.io/crates/l/oci2git.svg)](https://github.com/Virviil/oci2git/blob/master/LICENSE)
+[![Downloads](https://img.shields.io/crates/d/oci2git.svg)](https://crates.io/crates/oci2git)
 
-![Demonstração do OCI2Git convertendo a imagem nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
+[//]: # (mock para futuro test.yaml)
+[//]: # ([![Test Status]&#40;https://img.shields.io/github/actions/workflow/status/Virviil/oci2git/rust.yml?branch=master&event=push&label=Test&#41;]&#40;https://github.com/Virviil/oci2git/actions&#41;)
+
+<div align="left"> </div>  
+</div>
+
+Uma aplicação Rust que converte imagens de contêiner (Docker, etc.) em repositórios Git. Cada camada do contêiner é representada como um commit Git, preservando o histórico e a estrutura da imagem original.
+
+![Demo do OCI2Git convertendo a imagem nginx](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/nginx.gif)
 
 ## Funcionalidades
 
-- Analise imagens Docker e extraia informações das camadas
-- Crie um repositório Git onde cada camada de imagem é representada como um commit
+- Analisa imagens Docker e extrai informações das camadas
+- Cria um repositório Git onde cada camada da imagem é representada como um commit
 - Suporte para camadas vazias (ENV, WORKDIR, etc.) como commits vazios
 - Extração completa de metadados para o formato Markdown
-- Arquitetura extensível para suportar diferentes motores de contêiner
+- Arquitetura extensível para suportar diferentes engines de contêiner
 
 ## Casos de Uso
 
-### Diferenciação de Camadas
-Ao solucionar problemas de contêiner, você pode usar as poderosas capacidades de diferenciação do Git para identificar exatamente o que mudou entre duas camadas. Ao executar `git diff` entre commits, os engenheiros podem ver precisamente quais arquivos foram adicionados, modificados ou excluídos, tornando muito mais fácil entender o impacto de cada instrução do Dockerfile e localizar alterações problemáticas.
-![Exemplo de diff de camada](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
+### Diferença entre Camadas
+Ao solucionar problemas de contêineres, você pode usar os recursos avançados de diff do Git para identificar exatamente o que mudou entre duas camadas. Executando `git diff` entre commits, engenheiros podem ver precisamente quais arquivos foram adicionados, modificados ou removidos, facilitando a compreensão do impacto de cada instrução do Dockerfile e a localização de mudanças problemáticas.
+![Exemplo de diferença de camada](https://raw.githubusercontent.com/Virviil/oci2git/main/./assets/layer-diff.png)
 
-### Rastreamento de Origem
-Utilizando `git blame`, os desenvolvedores podem rapidamente determinar qual camada introduziu um arquivo ou linha de código específico. Isso é particularmente valioso ao diagnosticar problemas com arquivos de configuração ou dependências. Em vez de inspecionar manualmente cada camada, você pode rastrear imediatamente a origem de qualquer arquivo até sua camada fonte e instrução correspondente no Dockerfile.
+### Rastreio de Origem
+Usando `git blame`, desenvolvedores podem determinar rapidamente qual camada introduziu um arquivo ou linha de código específico. Isto é particularmente valioso ao diagnosticar problemas com arquivos de configuração ou dependências. Em vez de inspecionar manualmente cada camada, você pode imediatamente rastrear a origem de qualquer arquivo até sua camada de origem e a instrução correspondente do Dockerfile.
 
-### Rastreamento do Ciclo de Vida de Arquivo
-O OCI2Git permite que você acompanhe a trajetória de um arquivo específico ao longo da história da imagem do contêiner. É possível observar quando um arquivo foi criado inicialmente, como foi modificado ao longo das camadas e se/quando foi eventualmente removido. Essa visão abrangente ajuda a entender a evolução do arquivo sem precisar rastrear manualmente as mudanças através de dezenas de camadas.
+### Rastreio do Ciclo de Vida do Arquivo
+O OCI2Git permite que você acompanhe a jornada de um arquivo específico ao longo do histórico da imagem do contêiner. É possível observar quando um arquivo foi criado inicialmente, como foi modificado entre as camadas e se/quando foi eventualmente removido. Essa visão abrangente ajuda a entender a evolução do arquivo sem precisar rastrear manualmente as mudanças em dezenas de camadas.
 
-Para rastrear o histórico de um arquivo em sua imagem de contêiner — incluindo quando ele apareceu pela primeira vez, foi alterado ou excluído — você pode usar estes comandos Git após a conversão:
+Para rastrear o histórico de um arquivo na sua imagem de contêiner — incluindo quando ele apareceu pela primeira vez, foi alterado ou excluído — você pode usar estes comandos Git após a conversão:
 
 ```bash
 # Full history of a file (including renames)
@@ -192,11 +206,9 @@ repository/
 ├── Image.md     # Complete image metadata
 └── rootfs/      # Filesystem content from the container
 ```
-
-
 ## Requisitos
 
-- Edição Rust 2021
+- Rust edição 2021
 - Docker CLI (para suporte ao mecanismo Docker)
 - Git
 
@@ -204,8 +216,13 @@ repository/
 
 MIT
 
+[documentação]: https://docs.rs/oci2git/
+
+
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-26
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-12
 
 ---
