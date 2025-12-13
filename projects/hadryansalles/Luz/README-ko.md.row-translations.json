@@ -1,0 +1,566 @@
+[
+  {
+    "row": 1,
+    "rowsha": "21CirelEkR9r47aJVHNPqwPMmWlq/bDN8Ry4lY450lo=",
+    "originContent": "# Luz Engine",
+    "translatedContent": "# Luz 엔진"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "fR4iLjAGTZc+BIeaQX0d27BYJDEi7Iv5949AKvCz93k=",
+    "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)",
+    "translatedContent": "[![라이선스: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)"
+  },
+  {
+    "row": 4,
+    "rowsha": "4J1qpakDjy2SG1ewbvYtVAmP3yFJu6bLVPbJQzaQM7I=",
+    "originContent": "[![Windows](https://github.com/hadryansalles/Luz/actions/workflows/Windows.yml/badge.svg)](https://github.com/hadryansalles/Luz/actions/workflows/Windows.yml)",
+    "translatedContent": "[![윈도우](https://github.com/hadryansalles/Luz/actions/workflows/Windows.yml/badge.svg)](https://github.com/hadryansalles/Luz/actions/workflows/Windows.yml)"
+  },
+  {
+    "row": 5,
+    "rowsha": "vcEwts9h8fqn/MPmr66+2EyLjvTF354onllQfGv7EuM=",
+    "originContent": "[![Ubuntu](https://github.com/hadryansalles/Luz/actions/workflows/Ubuntu.yml/badge.svg)](https://github.com/hadryansalles/Luz/actions/workflows/Ubuntu.yml)",
+    "translatedContent": "[![우분투](https://github.com/hadryansalles/Luz/actions/workflows/Ubuntu.yml/badge.svg)](https://github.com/hadryansalles/Luz/actions/workflows/Ubuntu.yml)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "2feLR3MmwAyQcTCUzI8UlD9Vv/Lkx2HUnvXAsNoyjk0=",
+    "originContent": "A Vulkan engine that I'm developing to study and implement modern rendering techniques used by AAA games.",
+    "translatedContent": "AAA 게임에서 사용하는 최신 렌더링 기법을 연구하고 구현하기 위해 개발 중인 Vulkan 엔진입니다."
+  },
+  {
+    "row": 8,
+    "rowsha": "dcLutELHl36xHbsBBBolRdyCIL7+JXeimLkRRXnpRIE=",
+    "originContent": "- [Videos on Youtube](https://www.youtube.com/user/HadryanSalles/videos)",
+    "translatedContent": "- [유튜브 동영상](https://www.youtube.com/user/HadryanSalles/videos)"
+  },
+  {
+    "row": 9,
+    "rowsha": "BI+Zz2NbZ0AX7YgD9EjinH4VCYulypQnBww5RTqTSDI=",
+    "originContent": "- [Features](#features)",
+    "translatedContent": "- [특징](#features)"
+  },
+  {
+    "row": 10,
+    "rowsha": "5E5hiYHxSVEvJ9rZr/8YK2UQoSdfm08Uk4F7PuFrK2o=",
+    "originContent": "- [How to build and run](#build)",
+    "translatedContent": "- [빌드 및 실행 방법](#build)"
+  },
+  {
+    "row": 11,
+    "rowsha": "m8Pzd69uwCnAUvp/vXGPI+cNO9jnvZldaQO5bNHRLQM=",
+    "originContent": "- [References and credits](#references)",
+    "translatedContent": "- [참고 문헌 및 크레딧](#references)"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "3GbKEgGIxCwlxdMy6DhT6Gbb7RQTTyrv6LRoTDsOtPc=",
+    "originContent": "<a name=\"features\"/>",
+    "translatedContent": "<a name=\"features\"/>"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 특징"
+  },
+  {
+    "row": 16,
+    "rowsha": "TqfVHTNfVAa9ZyTjUafV6nIASKKa1zeOmUeWJncSLZ8=",
+    "originContent": "- Complete Vulkan Wrapper (including BLAS and TLAS creation)",
+    "translatedContent": "- 완전한 Vulkan 래퍼 (BLAS 및 TLAS 생성 포함)"
+  },
+  {
+    "row": 17,
+    "rowsha": "LklcdzSPkgZ5d13g2jptiKYSIAWqViBsRmzqM8keyZc=",
+    "originContent": "- 3 Approches for Volumetric Light: Froxels, Polygonon Mesh and Screen Space",
+    "translatedContent": "- 볼류메트릭 라이트를 위한 3가지 접근법: Froxels, 폴리곤 메시, 스크린 스페이스"
+  },
+  {
+    "row": 18,
+    "rowsha": "0mQ3eDawzUYgKmHtLL64HmK6fyQPYqilt0NQUImlIQY=",
+    "originContent": "- Temporal Anti-Aliasing",
+    "translatedContent": "- 시간적 안티앨리어싱"
+  },
+  {
+    "row": 19,
+    "rowsha": "nTrWxx0iyqzt60bz9tnucZRomKJpq8/56edcvH79c+4=",
+    "originContent": "- Shadow Maps",
+    "translatedContent": "- 섀도우 맵"
+  },
+  {
+    "row": 20,
+    "rowsha": "+srAbb/4AGTsjIL5fGA/2uqVQnPlGnoymdqwUx5Pd1w=",
+    "originContent": "- Atmospheric Scattering",
+    "translatedContent": "- 대기 산란"
+  },
+  {
+    "row": 21,
+    "rowsha": "MfO2Lr5ykoOzvfWZKOQ+Lai7MkZ/RM1Rej5DdGSWI0I=",
+    "originContent": "- Scene Serialization (JSON)",
+    "translatedContent": "- 씬 직렬화 (JSON)"
+  },
+  {
+    "row": 22,
+    "rowsha": "6ppHYYNijIwQKx4jlU2krlWKszW8CoMGRjcmTc06neU=",
+    "originContent": "- Deferred Rendering",
+    "translatedContent": "- 디퍼드 렌더링"
+  },
+  {
+    "row": 23,
+    "rowsha": "QPzIL6guEybNGrnumT2PwU0rOXSzd2S/hTwhvwbDY4c=",
+    "originContent": "- Real-time ray traced shadows and ambient occlusion",
+    "translatedContent": "- 실시간 레이트레이스 섀도우 및 앰비언트 오클루전"
+  },
+  {
+    "row": 24,
+    "rowsha": "Rb5WOIr9ez89Fu0jwc+m4k9rZTZDtlucNmWXvxijzvc=",
+    "originContent": "- PBR Shading with metallic, roughness, normal, ambient occlusion and emission",
+    "translatedContent": "- 금속성, 거칠기, 노멀, 앰비언트 오클루전 및 발광을 포함한 PBR 셰이딩"
+  },
+  {
+    "row": 25,
+    "rowsha": "nTKpzhjME/F5LvETtL+TKNM6da75b+74KcEAfbuCybw=",
+    "originContent": "- Vulkan bindless resources",
+    "translatedContent": "- Vulkan 바인드리스 리소스"
+  },
+  {
+    "row": 26,
+    "rowsha": "TwMfSrzSMRcdCy9TfgLRHvvF+5AMbxEMH7P78fekCZY=",
+    "originContent": "- Viewport camera with perspective and orthographic projections and fly and orbit controls",
+    "translatedContent": "- 원근 및 직교 투영, 플라이 및 오빗 컨트롤을 지원하는 뷰포트 카메라"
+  },
+  {
+    "row": 27,
+    "rowsha": "RS1ws0UWrtvT0ITR1XzS3UhX787HphBlkliua0eOzmE=",
+    "originContent": "- ImGui docking UI",
+    "translatedContent": "- ImGui 도킹 UI"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "yaNTtAGNeGRhcmIbpGHVi5Z6gFvYeZ1kLDSy+agqc3U=",
+    "originContent": "## Gallery",
+    "translatedContent": "## 갤러리"
+  },
+  {
+    "row": 30,
+    "rowsha": "CesjrGSPL4yAJbSW/gMF3Zyhzusuv5e54i8aHqNj40Y=",
+    "originContent": "- Froxel Based Volumetric Light",
+    "translatedContent": "- Froxel 기반 볼류메트릭 라이트"
+  },
+  {
+    "row": 31,
+    "rowsha": "0pcRJZTswzlKkyx1Dh3/JHNe/K3/V3viPIXBnpoBxyg=",
+    "originContent": "![froxel](https://github.com/user-attachments/assets/28efe343-f5be-45db-a3ac-246aee47faa4)",
+    "translatedContent": "![froxel](https://github.com/user-attachments/assets/28efe343-f5be-45db-a3ac-246aee47faa4)"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "3TTHHP6eBDbXsWvZMgOSTJUfnEh/igegBX7r2unE5go=",
+    "originContent": "- Polygonal Mesh Volumetric Light",
+    "translatedContent": "- 폴리곤 메시 볼류메트릭 라이트"
+  },
+  {
+    "row": 34,
+    "rowsha": "7b4bUBVfCgQtu1CdjX4cIFNH3VQzEpVg2IiTgQ+T9Vc=",
+    "originContent": "![polygonal](https://github.com/user-attachments/assets/c2113f1b-9081-4a1d-8b8a-516c6d81281f)",
+    "translatedContent": "![polygonal](https://github.com/user-attachments/assets/c2113f1b-9081-4a1d-8b8a-516c6d81281f)"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "on7eRK7lKL+jlj4yF02U9hT43OocgtsrPDlT1IrvqYo=",
+    "originContent": "- Screen Space Volumetric Light",
+    "translatedContent": "- 스크린 스페이스 볼류메트릭 라이트"
+  },
+  {
+    "row": 37,
+    "rowsha": "rdmPva2DDL1cHrFEWbelNx8XzLzwEJtejiH2wdM2w8U=",
+    "originContent": "![ssvl](https://github.com/user-attachments/assets/fcbd3fd5-881f-4640-a887-565d7190da23)",
+    "translatedContent": "![ssvl](https://github.com/user-attachments/assets/fcbd3fd5-881f-4640-a887-565d7190da23)"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "3AdoDkyU1LfHZzBVLpEve472LG7Y5/ozy2eex9h3HxY=",
+    "originContent": "- Deferred Rendering (Light, Albedo, Normal, Material, Emissive and Depth)",
+    "translatedContent": "- 디퍼드 렌더링 (라이트, 알베도, 노멀, 재질, 발광 및 깊이)"
+  },
+  {
+    "row": 40,
+    "rowsha": "q+WsmEyglzWoN1h+1+r5lMFBOWlADy/+9X1Gq4eDnfM=",
+    "originContent": "![deferred](https://user-images.githubusercontent.com/37905502/154867586-7dfa15d1-faf7-4eab-8337-c578831c9044.gif)",
+    "translatedContent": "![deferred](https://user-images.githubusercontent.com/37905502/154867586-7dfa15d1-faf7-4eab-8337-c578831c9044.gif)"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 레이 트레이스 그림자 및 앰비언트 오클루전  "
+  },
+  {
+    "row": 42,
+    "rowsha": "P+v+gjF0Bf1CB4DHUq+qxxFgrVxsheA0Eflg/M98mf0=",
+    "originContent": "- Ray traced shadows and ambient occlusion",
+    "translatedContent": "![raytraced](https://user-images.githubusercontent.com/37905502/144621461-52f1ab97-ff6b-4f6f-a83a-cc6f67f5ead6.gif)"
+  },
+  {
+    "row": 43,
+    "rowsha": "fbSH5cHqibLeLkwrjHfKFC9iQe5huORmZ22sDctagXw=",
+    "originContent": "![raytraced](https://user-images.githubusercontent.com/37905502/144621461-52f1ab97-ff6b-4f6f-a83a-cc6f67f5ead6.gif)",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- PBR 셰이딩 및 glTF 모델  "
+  },
+  {
+    "row": 45,
+    "rowsha": "PnDtkGVX6BTMJ/izaxU0NigafzywuexeTKIcsnAn0uc=",
+    "originContent": "- PBR Shading and glTF models",
+    "translatedContent": "![pbr](https://user-images.githubusercontent.com/37905502/144612584-1d752a16-c978-4f43-93d6-2e2362b2804b.gif)"
+  },
+  {
+    "row": 46,
+    "rowsha": "UtM0sceHm/jaDdjBNCgA8ZyUw+H6X2txdeD2jM3izb8=",
+    "originContent": "![pbr](https://user-images.githubusercontent.com/37905502/144612584-1d752a16-c978-4f43-93d6-2e2362b2804b.gif)",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 텍스처 드래그 앤 드롭  "
+  },
+  {
+    "row": 48,
+    "rowsha": "aOLc59mWu80LXM5qh4TyW1B0G4hG/cCPHGCaHPLL3EQ=",
+    "originContent": "- Textures drag and drop",
+    "translatedContent": "![dragndrop](https://user-images.githubusercontent.com/37905502/144619247-737d37c1-ba67-4f9a-abf4-63e4d2f965d6.gif)"
+  },
+  {
+    "row": 49,
+    "rowsha": "saLvNJbVJU01mxNtIETdzc1URLgJYMcO/IZkLEeXJ0g=",
+    "originContent": "![dragndrop](https://user-images.githubusercontent.com/37905502/144619247-737d37c1-ba67-4f9a-abf4-63e4d2f965d6.gif)",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<a name=\"build\"/>"
+  },
+  {
+    "row": 51,
+    "rowsha": "oBmCTVCLihHbwnMLWGEQlCpjhI4iflSOKBpwkyssVOk=",
+    "originContent": "<a name=\"build\"/>",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 요구 사항  "
+  },
+  {
+    "row": 53,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "- VK_KHR_ray_query 확장을 지원하는 GPU ([지원 GPU 목록](https://vulkan.gpuinfo.org/listdevicescoverage.php?extension=VK_KHR_ray_query&platform=all))  "
+  },
+  {
+    "row": 54,
+    "rowsha": "eJOJByfYDRPAATFykBuetac/YFMStCuIKlQbTCIX/l0=",
+    "originContent": "- A GPU that supports VK_KHR_ray_query extension ([list of supported GPUs](https://vulkan.gpuinfo.org/listdevicescoverage.php?extension=VK_KHR_ray_query&platform=all))",
+    "translatedContent": "- C++17 컴파일러. ``Visual Studio 2019``, ``Clang``, ``GCC``에서 테스트됨  "
+  },
+  {
+    "row": 55,
+    "rowsha": "x7RMQMp8ZGegI6Y26R7M3REvQJKFVAhvphgIsg/TfWw=",
+    "originContent": "- C++17 compiler. Tested with ``Visual Studio 2019``, ``Clang`` and ``GCC``",
+    "translatedContent": "- [CMake 3.7](https://cmake.org/download/) 이상  "
+  },
+  {
+    "row": 56,
+    "rowsha": "YbsmmeFWqejVDvatR79+e6MBuNpIXbIKwAeqoRc+a7s=",
+    "originContent": "- [CMake 3.7](https://cmake.org/download/) or higher",
+    "translatedContent": "- [Vulkan SDK](https://vulkan.lunarg.com/sdk/home)  "
+  },
+  {
+    "row": 57,
+    "rowsha": "BiehsxqJgsXdLxJ+wLV9xFDbMLUy51Xa1bBVwDxlPTU=",
+    "originContent": "- [Vulkan SDK](https://vulkan.lunarg.com/sdk/home)",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 리눅스용  "
+  },
+  {
+    "row": 59,
+    "rowsha": "SbltRGKGuRSEW/HZ9y47rmnLu5NF4Y3e4QpUyyDZiNM=",
+    "originContent": "### For Linux",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 프로젝트는 GLFW 라이브러리를 사용하며, 기본 Ubuntu 20.04와 같은 X11 환경에서 컴파일하려면 다음이 필요합니다:"
+  },
+  {
+    "row": 61,
+    "rowsha": "Q7uQ5XQEfD8XKMzkTLUpngyv9zhtUrDk+ShsXFJoP7U=",
+    "originContent": "This projects uses GLFW library, to compile it under Linux with X11 (like the default Ubuntu 20.04) you will need:",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 64,
+    "rowsha": "D08dxKwqtOXaq2Lpvy/MhXLqA9PNwN5Ly80UV/8dCLc=",
+    "originContent": "sudo apt-get install xorg-dev",
+    "translatedContent": "sudo apt-get install xorg-dev"
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "eDjfFspS/ZcZdEwWKivrubvfhI2NHJZT1eIuewpboho=",
+    "originContent": "If you are using another window manager (like Wayland) you can check the dependencies [here](https://www.glfw.org/docs/latest/compile.html#compile_deps).",
+    "translatedContent": "다른 윈도우 관리자(예: Wayland)를 사용 중인 경우, 의존성을 [여기](https://www.glfw.org/docs/latest/compile.html#compile_deps)에서 확인할 수 있습니다."
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "PQ9Ow6mcJJicRjq3WAYBSLI3U8FHlfzgsNsrLDu+8eg=",
+    "originContent": "## Build and Run",
+    "translatedContent": "## 빌드 및 실행"
+  },
+  {
+    "row": 70,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 71,
+    "rowsha": "Pquz4iUBmVT8cLpTuYyE2cQ6SMpiqj5B7UBxbbI9y8Q=",
+    "originContent": "git clone --recursive https://github.com/hadryansalles/Luz",
+    "translatedContent": "git clone --recursive https://github.com/hadryansalles/Luz"
+  },
+  {
+    "row": 72,
+    "rowsha": "WjNg7sW1vGcOCQ1Fn5hsDxvZHeJl3CbzaKOl4Rd2dhU=",
+    "originContent": "cd Luz",
+    "translatedContent": "cd Luz"
+  },
+  {
+    "row": 73,
+    "rowsha": "klYXsM14m4nOprfexqnXiyqPlC6FH6Z39Rbt9Y6MgzU=",
+    "originContent": "mkdir build",
+    "translatedContent": "mkdir build"
+  },
+  {
+    "row": 74,
+    "rowsha": "GSWzIAR8K85TNHqVfa6jdUaHOHstm5TnhaZt3E/s7C4=",
+    "originContent": "cmake . -Bbuild",
+    "translatedContent": "cmake . -Bbuild"
+  },
+  {
+    "row": 75,
+    "rowsha": "2QhdiOD7XWbnz74g2sLHg4FmGnKhCj7ia50i402i+r4=",
+    "originContent": "cmake --build build --parallel 4",
+    "translatedContent": "cmake --build build --parallel 4"
+  },
+  {
+    "row": 76,
+    "rowsha": "D7552+ot7hjA0N6mgMWMTl9ThfJ9f/RuNSGOAwaG5nk=",
+    "originContent": "./bin/Luz",
+    "translatedContent": "./bin/Luz"
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Visual Studio: ``build/Luz.sln``을 열고 프로젝트 ``Luz``를 컴파일/실행합니다."
+  },
+  {
+    "row": 79,
+    "rowsha": "W3oHsr25QQ4nwIdpYOH29lOBdbc7SOmvUSjwa5iBIoA=",
+    "originContent": "- Visual Studio: open ``build/Luz.sln`` and compile/run the project ``Luz``.",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<a name=\"references\"/>"
+  },
+  {
+    "row": 81,
+    "rowsha": "+6GvgGP7VHskP4Wo1BsM+LDRM7XgdPBl3jDYtS6RR98=",
+    "originContent": "<a name=\"references\"/>",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 참고 문헌 및 크레딧"
+  },
+  {
+    "row": 83,
+    "rowsha": "vzzgqK4lZbs9QSKWI+VZf9LXylyGnJA76vIj+O17rHw=",
+    "originContent": "## References and Credits",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [GLFW](https://github.com/glfw/glfw) 애플리케이션 창을 여는 데 사용"
+  },
+  {
+    "row": 85,
+    "rowsha": "o+JZNbhdKqXNhMtOtlF2+c+zwr6TpzU7Opiud4zxeSY=",
+    "originContent": "- [GLFW](https://github.com/glfw/glfw) used to open the application window",
+    "translatedContent": "- [glm](https://github.com/g-truc/glm) 수학 라이브러리로 사용"
+  },
+  {
+    "row": 86,
+    "rowsha": "rong5MMEzIekwU8W3x6J9rfUCzNSiFqHt+g1ESp2rVg=",
+    "originContent": "- [glm](https://github.com/g-truc/glm) used as the math library",
+    "translatedContent": "- [ImGui](https://github.com/ocornut/imgui) 사용자 인터페이스 제작에 사용"
+  },
+  {
+    "row": 87,
+    "rowsha": "GNQ5FHLOuHJh5fwFUponf+vpPhdbqhyvJ99ypZXL7nA=",
+    "originContent": "- [ImGui](https://github.com/ocornut/imgui) used to make the user interface",
+    "translatedContent": "- [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) 3D 기즈모 생성에 사용"
+  },
+  {
+    "row": 88,
+    "rowsha": "VA79QEJYeHWQ3OHZUxQ4kv9lx3UT4n52zNC/hC0Np0A=",
+    "originContent": "- [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) used to create 3D gizmos",
+    "translatedContent": "- [spdlog](https://github.com/gabime/spdlog) 로깅 라이브러리로 사용"
+  },
+  {
+    "row": 89,
+    "rowsha": "LxN9pMJ/SshijbLEUT+gjlzDkKtpJeq/H+df41cppI8=",
+    "originContent": "- [spdlog](https://github.com/gabime/spdlog) used as the logging library",
+    "translatedContent": "- [stb_image](https://github.com/nothings/stb) 이미지 파일 로드에 사용"
+  },
+  {
+    "row": 90,
+    "rowsha": "8yEFCmMR2WK1IQ+QyOszZ3avWyLl0aCK0ApwUbacQn4=",
+    "originContent": "- [stb_image](https://github.com/nothings/stb) used to load image files",
+    "translatedContent": "- [tiny_obj_loader](https://github.com/tinyobjloader/tinyobjloader) wavefront .obj 파일 로드에 사용"
+  },
+  {
+    "row": 91,
+    "rowsha": "TP4ykPkYMlG7W+GSNu0OFU6QCloe2HznjKinGpcHI4Q=",
+    "originContent": "- [tiny_obj_loader](https://github.com/tinyobjloader/tinyobjloader) used to load wavefront .obj files",
+    "translatedContent": "- [optick](https://github.com/bombomby/optick) 엔진 프로파일링에 사용"
+  },
+  {
+    "row": 92,
+    "rowsha": "e3YjnoMGAjq9NIVqujvvbvBsvUePTqQNi+FC4eDnzLg=",
+    "originContent": "- [optick](https://github.com/bombomby/optick) used to profile the engine",
+    "translatedContent": "- [pbr-sky](https://www.shadertoy.com/view/slyBDG) 대기 하늘 모델 참고용으로 사용"
+  },
+  {
+    "row": 93,
+    "rowsha": "BFoow0gqXTG3Pe2W3ahTXzg8XPJ+9c+HRVZCBlOtW50=",
+    "originContent": "- [pbr-sky](https://www.shadertoy.com/view/slyBDG) used as reference for atmospheric sky model",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

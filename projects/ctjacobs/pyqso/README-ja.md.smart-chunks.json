@@ -1,0 +1,575 @@
+[
+  {
+    "Id": 1,
+    "Content": "    Copyright (C) 2013-2018 Christian Thomas Jacobs.\n\n    This file is part of PyQSO.\n\n    PyQSO is free software: you can redistribute it and/or modify\n    it under the terms of the GNU General Public License as published by\n    the Free Software Foundation, either version 3 of the License, or\n    (at your option) any later version.\n\n    PyQSO is distributed in the hope that it will be useful,\n    but WITHOUT ANY WARRANTY; without even the implied warranty of\n    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n    GNU General Public License for more details.\n\n    You should have received a copy of the GNU General Public License\n    along with PyQSO.  If not, see <http://www.gnu.org/licenses/>.\n\n# PyQSO\n\nPyQSO is a contact logging tool for amateur radio operators.\n\n[![Documentation Status](https://readthedocs.org/projects/pyqso/badge/?version=latest)](https://readthedocs.org/projects/pyqso/?badge=latest)\n\n## Dependencies\n\nAs the name suggests, PyQSO is written primarily in the [Python](https://www.python.org/) programming language (version 3.x). The graphical user interface has been developed using the [GTK+ library](https://www.gtk.org/) through the [PyGObject bindings](https://pygobject.readthedocs.io). Therefore, in order to run PyQSO, the Python interpreter must be present on your system along with support for GTK+. On many Linux-based systems this can be accomplished by installing the following Debian packages:\n\n* python3\n* gir1.2-gtk-3.0\n* python3-gi-cairo\n\nSeveral extra packages are necessary to enable the full functionality of PyQSO. Many of these (specified in the `requirements.txt` file) can be readily installed system-wide using the Python package manager by issuing the following command in the terminal:\n\n    sudo pip3 install -U -r requirements.txt\n\nbut the complete list is given below:\n\n* python3-matplotlib (version 1.3.0 or later)\n* python3-numpy\n* libxcb-render0-dev",
+    "ContentSha": "3NNY5jW3T/C8+zPHPtewDLb6wOAv/+itttiPMHwzuE8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    Copyright (C) 2013-2018 Christian Thomas Jacobs.\n\n    このファイルは PyQSO の一部です。\n\n    PyQSO はフリーソフトウェアです。あなたはこれを再配布および/または修正することができます\n    フリーソフトウェア財団によって公開された GNU 一般公衆利用許諾契約書の条項の下で、\n    バージョン3、または（あなたの選択で）それ以降のバージョンに従います。\n\n    PyQSO は有用であることを願って配布されていますが、\n    商品性や特定目的への適合性の黙示的保証を含むいかなる保証もありません。詳細は\n    GNU 一般公衆利用許諾契約書をご覧ください。\n\n    あなたは PyQSO と一緒に GNU 一般公衆利用許諾契約書のコピーを受け取っているはずです。\n    受け取っていない場合は <http://www.gnu.org/licenses/> をご覧ください。\n\n# PyQSO\n\nPyQSO はアマチュア無線家向けの交信ログツールです。\n\n[![Documentation Status](https://readthedocs.org/projects/pyqso/badge/?version=latest)](https://readthedocs.org/projects/pyqso/?badge=latest)\n\n## 依存関係\n\n名前が示す通り、PyQSO は主に [Python](https://www.python.org/) プログラミング言語（バージョン3.x）で書かれています。  \nグラフィカルユーザーインターフェイスは [GTK+ ライブラリ](https://www.gtk.org/) を [PyGObject バインディング](https://pygobject.readthedocs.io) 経由で開発しています。  \nしたがって、PyQSO を実行するにはシステムに Python インタプリタと GTK+ のサポートが必要です。  \n多くの Linux ベースのシステムでは、以下の Debian パッケージをインストールすることでこれを達成できます：\n\n* python3\n* gir1.2-gtk-3.0\n* python3-gi-cairo\n\nPyQSO の全機能を有効にするにはいくつかの追加パッケージが必要です。  \nこれらの多くは（`requirements.txt` ファイルに指定されている）Python パッケージマネージャを使ってシステム全体に簡単にインストールできます。  \nターミナルで以下のコマンドを実行してください：\n\n    sudo pip3 install -U -r requirements.txt\n\nしかし、完全なリストは以下の通りです：\n\n* python3-matplotlib（バージョン1.3.0以上）\n* python3-numpy\n* libxcb-render0-dev",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5WJwRYpU2AkXD3Pm9b6/5xVlHnhmlrFZZZnoVnvXwgA=",
+        "originContent": "    Copyright (C) 2013-2018 Christian Thomas Jacobs.",
+        "translatedContent": "    Copyright (C) 2013-2018 Christian Thomas Jacobs."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ohnAAe+GRoHt4XpVrunVIEM6RWcfST4UVaQRiBEPH/s=",
+        "originContent": "    This file is part of PyQSO.",
+        "translatedContent": "    このファイルは PyQSO の一部です。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "vWu4aT52pt4MwmjhmSC0cUAwCkoRME7AJLmMJfTHanQ=",
+        "originContent": "    PyQSO is free software: you can redistribute it and/or modify",
+        "translatedContent": "    PyQSO はフリーソフトウェアです。あなたはこれを再配布および/または修正することができます"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZfdISY8AOrDH6jZ+1oJ5G3jSl7THmWS1Y3fpQYCDIP0=",
+        "originContent": "    it under the terms of the GNU General Public License as published by",
+        "translatedContent": "    フリーソフトウェア財団によって公開された GNU 一般公衆利用許諾契約書の条項の下で、"
+      },
+      {
+        "row": 7,
+        "rowsha": "EhsVC77J9cCaG2kJzfKBa/bi8BMpSvS37gZRrDlzH1w=",
+        "originContent": "    the Free Software Foundation, either version 3 of the License, or",
+        "translatedContent": "    バージョン3、または（あなたの選択で）それ以降のバージョンに従います。"
+      },
+      {
+        "row": 8,
+        "rowsha": "TB4dVeGLS9AMDdtCqHOx8MbakDDe2On4oZpZ8gNKbdg=",
+        "originContent": "    (at your option) any later version.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    PyQSO は有用であることを願って配布されていますが、"
+      },
+      {
+        "row": 10,
+        "rowsha": "PNcJD+Tm38+O6lZ1yueej7yBVLeuFS5S30yPVQ6Z6Mk=",
+        "originContent": "    PyQSO is distributed in the hope that it will be useful,",
+        "translatedContent": "    商品性や特定目的への適合性の黙示的保証を含むいかなる保証もありません。詳細は"
+      },
+      {
+        "row": 11,
+        "rowsha": "DoCV5NdC5T4nf7JAD1FSZ8kSuwUseByQ/y08Zi4cxEs=",
+        "originContent": "    but WITHOUT ANY WARRANTY; without even the implied warranty of",
+        "translatedContent": "    GNU 一般公衆利用許諾契約書をご覧ください。"
+      },
+      {
+        "row": 12,
+        "rowsha": "HPZ7McX6Ry5IU7iI9JQzoyusnzQ9pC6d6OImZbEHYZE=",
+        "originContent": "    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "w53vdcmKwy9/6wicSK4tV+Rxmjiq+UAuwNU2IjKanMk=",
+        "originContent": "    GNU General Public License for more details.",
+        "translatedContent": "    あなたは PyQSO と一緒に GNU 一般公衆利用許諾契約書のコピーを受け取っているはずです。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    受け取っていない場合は <http://www.gnu.org/licenses/> をご覧ください。"
+      },
+      {
+        "row": 15,
+        "rowsha": "EkeYijCGM9fVTMtpwyavCFeWjQ3zRmFs1u14g4lNjnk=",
+        "originContent": "    You should have received a copy of the GNU General Public License",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "CH+9nu2VRcBD3jNzWbrh3YD+qhjmNsYFSBkfn6TgClo=",
+        "originContent": "    along with PyQSO.  If not, see <http://www.gnu.org/licenses/>.",
+        "translatedContent": "# PyQSO"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "mcnZxr17mtFjppe3rMRh7ZLDI+0R8iON8nDq5nnkypo=",
+        "originContent": "# PyQSO",
+        "translatedContent": "PyQSO はアマチュア無線家向けの交信ログツールです。"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Fehk4lB/X3wZ9JNJGt8QjfOAl7hohPwVjLCBMb7RkMU=",
+        "originContent": "PyQSO is a contact logging tool for amateur radio operators.",
+        "translatedContent": "[![Documentation Status](https://readthedocs.org/projects/pyqso/badge/?version=latest)](https://readthedocs.org/projects/pyqso/?badge=latest)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "OiUHFcQ5ifGRJ+q6eLUsAk8apoi91PeotRI3VN7dgpM=",
+        "originContent": "[![Documentation Status](https://readthedocs.org/projects/pyqso/badge/?version=latest)](https://readthedocs.org/projects/pyqso/?badge=latest)",
+        "translatedContent": "## 依存関係"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "1GG6RzhUQg6MWK7hzadJlvIKgJovz9zWw6FnPT8QVK0=",
+        "originContent": "## Dependencies",
+        "translatedContent": "名前が示す通り、PyQSO は主に [Python](https://www.python.org/) プログラミング言語（バージョン3.x）で書かれています。  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "グラフィカルユーザーインターフェイスは [GTK+ ライブラリ](https://www.gtk.org/) を [PyGObject バインディング](https://pygobject.readthedocs.io) 経由で開発しています。  "
+      },
+      {
+        "row": 26,
+        "rowsha": "Q0IV54h2bqVOQQ22rX+DWWGHD3gMS6753+npbm/XLNk=",
+        "originContent": "As the name suggests, PyQSO is written primarily in the [Python](https://www.python.org/) programming language (version 3.x). The graphical user interface has been developed using the [GTK+ library](https://www.gtk.org/) through the [PyGObject bindings](https://pygobject.readthedocs.io). Therefore, in order to run PyQSO, the Python interpreter must be present on your system along with support for GTK+. On many Linux-based systems this can be accomplished by installing the following Debian packages:",
+        "translatedContent": "したがって、PyQSO を実行するにはシステムに Python インタプリタと GTK+ のサポートが必要です。  "
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "多くの Linux ベースのシステムでは、以下の Debian パッケージをインストールすることでこれを達成できます："
+      },
+      {
+        "row": 28,
+        "rowsha": "0Q9QWo5S5XaxWAh5UysDIZ+pG5JjjLfpP+LFTxzTpWU=",
+        "originContent": "* python3",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "HDNOUgnSrLOqXGAW8/54U8gyoYx9B5HTwQXGq6e0v58=",
+        "originContent": "* gir1.2-gtk-3.0",
+        "translatedContent": "* python3"
+      },
+      {
+        "row": 30,
+        "rowsha": "g0UnnQTUQFItrFEsY6mGE3ZrMOYeLYWBMLh8hXmZX/c=",
+        "originContent": "* python3-gi-cairo",
+        "translatedContent": "* gir1.2-gtk-3.0"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* python3-gi-cairo"
+      },
+      {
+        "row": 32,
+        "rowsha": "21TxAd2zs9Oq9gi79PrSSdisfgWmpxnPsXYZMbmAf10=",
+        "originContent": "Several extra packages are necessary to enable the full functionality of PyQSO. Many of these (specified in the `requirements.txt` file) can be readily installed system-wide using the Python package manager by issuing the following command in the terminal:",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "PyQSO の全機能を有効にするにはいくつかの追加パッケージが必要です。  "
+      },
+      {
+        "row": 34,
+        "rowsha": "MeOKX1IWaUewUOu0UsaNFqOQXS58b02Dvoyo2WoiLjw=",
+        "originContent": "    sudo pip3 install -U -r requirements.txt",
+        "translatedContent": "これらの多くは（`requirements.txt` ファイルに指定されている）Python パッケージマネージャを使ってシステム全体に簡単にインストールできます。  "
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ターミナルで以下のコマンドを実行してください："
+      },
+      {
+        "row": 36,
+        "rowsha": "xxR6om5SI2X/sKUH2687MQq5lO+fPUgsUruJmGRBL40=",
+        "originContent": "but the complete list is given below:",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    sudo pip3 install -U -r requirements.txt"
+      },
+      {
+        "row": 38,
+        "rowsha": "Vqx+i1IVVjd2UvwamfmKkOCKT9FBXHOkVGdeJ72smFw=",
+        "originContent": "* python3-matplotlib (version 1.3.0 or later)",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "gE/YMPO7Gl8kaPOlaW0pgpVvOKSFfbocEVktcxDnF2E=",
+        "originContent": "* python3-numpy",
+        "translatedContent": "しかし、完全なリストは以下の通りです："
+      },
+      {
+        "row": 40,
+        "rowsha": "sO+ecaJ26IHtH12ZbBRqjlvOEWBs41AS0s/bdoXEu9Y=",
+        "originContent": "* libxcb-render0-dev",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "* [cartopy](http://scitools.org.uk/cartopy/), for drawing the world map. This package in turn depends on python3-scipy, python3-cairocffi, cython, libproj-dev (version 4.9.0 or later), and libgeos-dev (version 3.3.3 or later).\n* [geocoder](https://pypi.python.org/pypi/geocoder), for QTH lookups.\n* python3-sphinx, for building the documentation.\n* python3-hamlib, for Hamlib support.\n\n### Hamlib support\n\nThere currently does not exist a Python 3-compatible Debian package for [Hamlib](http://www.hamlib.org). This library must be built manually to enable Hamlib support. As per the instructions on the [Hamlib mailing list](https://sourceforge.net/p/hamlib/mailman/message/35692744/), run the following commands in the Hamlib root directory (you may need to run `sudo apt-get install build-essential autoconf automake libtool` beforehand):\n\n    export PYTHON=/usr/bin/python3\n    autoreconf --install\n    ./configure --with-python-binding\n    make\n    sudo make install\n\nYou will also need to append the Hamlib `bindings` and `bindings/.libs` directories to the `PYTHONPATH`:\n\n    export PYTHONPATH=$PYTHONPATH:/path/to/hamlib/bindings:/path/to/hamlib/bindings/.libs\n\n## Installing and running\n\nAssuming that the current working directory is PyQSO's base directory (the directory that the `Makefile` is in), PyQSO can be run without installation by issuing the following command in the terminal:\n\n    python3 bin/pyqso\n\nIf the Python package manager `pip3` is available on your system then PyQSO can be installed system-wide using:\n\n    sudo make install\n\nOnce installed, the following command will run PyQSO:\n\n    pyqso\n\n## Documentation\n\nGuidance on how to use PyQSO is available on [Read the Docs](http://pyqso.readthedocs.io/) and in the screencast below.\n\n[![PyQSO: A Logging Tool for Amateur Radio Operators](https://img.youtube.com/vi/sVdZl9KnDsk/0.jpg)](https://www.youtube.com/watch?v=sVdZl9KnDsk)\n\nThe documentation can also be built locally with the following command:",
+    "ContentSha": "pyk1tLlR+zDDxSX0bjuM5gBWa2duPE0z7z+bvBzoMhI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* [cartopy](http://scitools.org.uk/cartopy/)、世界地図を描画するためのパッケージです。このパッケージは python3-scipy、python3-cairocffi、cython、libproj-dev（バージョン4.9.0以降）、および libgeos-dev（バージョン3.3.3以降）に依存しています。\n* [geocoder](https://pypi.python.org/pypi/geocoder)、QTH検索用。\n* python3-sphinx、ドキュメント作成用。\n* python3-hamlib、Hamlibサポート用。\n\n### Hamlib サポート\n\n現在、[Hamlib](http://www.hamlib.org) のPython 3対応Debianパッケージは存在しません。Hamlibサポートを有効にするには、このライブラリを手動でビルドする必要があります。[Hamlibメーリングリスト](https://sourceforge.net/p/hamlib/mailman/message/35692744/)の指示に従い、Hamlibのルートディレクトリで以下のコマンドを実行してください（事前に `sudo apt-get install build-essential autoconf automake libtool` を実行する必要があるかもしれません）：\n\n    export PYTHON=/usr/bin/python3\n    autoreconf --install\n    ./configure --with-python-binding\n    make\n    sudo make install\n\nさらに、Hamlibの `bindings` と `bindings/.libs` ディレクトリを `PYTHONPATH` に追加する必要があります：\n\n    export PYTHONPATH=$PYTHONPATH:/path/to/hamlib/bindings:/path/to/hamlib/bindings/.libs\n\n## インストールと実行\n\n現在の作業ディレクトリが PyQSO のベースディレクトリ（`Makefile` があるディレクトリ）であると仮定すると、以下のコマンドをターミナルで実行することでインストールなしに PyQSO を起動できます：\n\n    python3 bin/pyqso\n\nシステムに Python パッケージマネージャー `pip3` が利用可能な場合、以下のコマンドで PyQSO をシステム全体にインストールできます：\n\n    sudo make install\n\nインストール後は、以下のコマンドで PyQSO を起動できます：\n\n    pyqso\n\n## ドキュメント\n\nPyQSO の使い方については、[Read the Docs](http://pyqso.readthedocs.io/) と下記のスクリーンキャストで案内しています。\n\n[![PyQSO: アマチュア無線オペレーター向けのログツール](https://img.youtube.com/vi/sVdZl9KnDsk/0.jpg)](https://www.youtube.com/watch?v=sVdZl9KnDsk)\n\nドキュメントは以下のコマンドでローカルにビルドすることもできます：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "OjViwBN9QzjMIqaFfSIDk/lReMoXa3o3STxj0ZJUQ+4=",
+        "originContent": "* [cartopy](http://scitools.org.uk/cartopy/), for drawing the world map. This package in turn depends on python3-scipy, python3-cairocffi, cython, libproj-dev (version 4.9.0 or later), and libgeos-dev (version 3.3.3 or later).",
+        "translatedContent": "* [cartopy](http://scitools.org.uk/cartopy/)、世界地図を描画するためのパッケージです。このパッケージは python3-scipy、python3-cairocffi、cython、libproj-dev（バージョン4.9.0以降）、および libgeos-dev（バージョン3.3.3以降）に依存しています。"
+      },
+      {
+        "row": 2,
+        "rowsha": "wV7Ur1kgqCFMYqLqpTpBi3Stx4AxOMfrGCulqqQ9cVI=",
+        "originContent": "* [geocoder](https://pypi.python.org/pypi/geocoder), for QTH lookups.",
+        "translatedContent": "* [geocoder](https://pypi.python.org/pypi/geocoder)、QTH検索用。"
+      },
+      {
+        "row": 3,
+        "rowsha": "cAP2x2OxE2lzusftlS9NHLTMQp7UuoV1zqzhT2DIYP4=",
+        "originContent": "* python3-sphinx, for building the documentation.",
+        "translatedContent": "* python3-sphinx、ドキュメント作成用。"
+      },
+      {
+        "row": 4,
+        "rowsha": "Fxa71yWVfp1rDZjMSPK7/FYsMJqyHApR5NjTRPQRrKQ=",
+        "originContent": "* python3-hamlib, for Hamlib support.",
+        "translatedContent": "* python3-hamlib、Hamlibサポート用。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "xSyiZb9hYjkDqLHh/hOAQ1Tqwmiq6IKcmxgr7S+9UJg=",
+        "originContent": "### Hamlib support",
+        "translatedContent": "### Hamlib サポート"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "9YGMWQzkzGjouAAtR8mWiIxo6KgSuEG5uzXTWNi5mqw=",
+        "originContent": "There currently does not exist a Python 3-compatible Debian package for [Hamlib](http://www.hamlib.org). This library must be built manually to enable Hamlib support. As per the instructions on the [Hamlib mailing list](https://sourceforge.net/p/hamlib/mailman/message/35692744/), run the following commands in the Hamlib root directory (you may need to run `sudo apt-get install build-essential autoconf automake libtool` beforehand):",
+        "translatedContent": "現在、[Hamlib](http://www.hamlib.org) のPython 3対応Debianパッケージは存在しません。Hamlibサポートを有効にするには、このライブラリを手動でビルドする必要があります。[Hamlibメーリングリスト](https://sourceforge.net/p/hamlib/mailman/message/35692744/)の指示に従い、Hamlibのルートディレクトリで以下のコマンドを実行してください（事前に `sudo apt-get install build-essential autoconf automake libtool` を実行する必要があるかもしれません）："
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "mbRAkPalem5Poe+wJejrHX9hs3tOUaSvUse6lkImHc4=",
+        "originContent": "    export PYTHON=/usr/bin/python3",
+        "translatedContent": "    export PYTHON=/usr/bin/python3"
+      },
+      {
+        "row": 11,
+        "rowsha": "lJdX03iPTmXCM90xJpC2tpIQidU9GmIhtqMUCTVeFEk=",
+        "originContent": "    autoreconf --install",
+        "translatedContent": "    autoreconf --install"
+      },
+      {
+        "row": 12,
+        "rowsha": "4nmyvy91an6P9eAOevnTIxjlhsoTdCcxXVt4/bVYeYI=",
+        "originContent": "    ./configure --with-python-binding",
+        "translatedContent": "    ./configure --with-python-binding"
+      },
+      {
+        "row": 13,
+        "rowsha": "gsxnQz870Y5pdmozeCCDM/cbrwz1jztJil4y6ES8Eq4=",
+        "originContent": "    make",
+        "translatedContent": "    make"
+      },
+      {
+        "row": 14,
+        "rowsha": "z0eOit60rYJt4/qg7wxnSeXaMq9Osg9vyy3n1qYSRKw=",
+        "originContent": "    sudo make install",
+        "translatedContent": "    sudo make install"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "skARZvaxLHVusq6EBgRP/RDvWqbBp0+pWyq7uXTPNb8=",
+        "originContent": "You will also need to append the Hamlib `bindings` and `bindings/.libs` directories to the `PYTHONPATH`:",
+        "translatedContent": "さらに、Hamlibの `bindings` と `bindings/.libs` ディレクトリを `PYTHONPATH` に追加する必要があります："
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "ZonxeCqQAEMYMjkiFf+oA15vnf+pnyvy22qAYPbKbOQ=",
+        "originContent": "    export PYTHONPATH=$PYTHONPATH:/path/to/hamlib/bindings:/path/to/hamlib/bindings/.libs",
+        "translatedContent": "    export PYTHONPATH=$PYTHONPATH:/path/to/hamlib/bindings:/path/to/hamlib/bindings/.libs"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "4oTlOJ5Xk9QBuqy3ix6S+ZNYtgsFKDQrHW21ynUOIhA=",
+        "originContent": "## Installing and running",
+        "translatedContent": "## インストールと実行"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "5yEyU3MImhqif+1pyWoHyBe8GBQkfnbOowCepyqW8xY=",
+        "originContent": "Assuming that the current working directory is PyQSO's base directory (the directory that the `Makefile` is in), PyQSO can be run without installation by issuing the following command in the terminal:",
+        "translatedContent": "現在の作業ディレクトリが PyQSO のベースディレクトリ（`Makefile` があるディレクトリ）であると仮定すると、以下のコマンドをターミナルで実行することでインストールなしに PyQSO を起動できます："
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "hswZ/cDXogEVGnNfnUzzVbOcjhzNQH32Ubvi/hpjoqw=",
+        "originContent": "    python3 bin/pyqso",
+        "translatedContent": "    python3 bin/pyqso"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "g3A6gkvc+YLwpQUcxOEkW7P7h/BYaMJIzeT/5WN7cuI=",
+        "originContent": "If the Python package manager `pip3` is available on your system then PyQSO can be installed system-wide using:",
+        "translatedContent": "システムに Python パッケージマネージャー `pip3` が利用可能な場合、以下のコマンドで PyQSO をシステム全体にインストールできます："
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "z0eOit60rYJt4/qg7wxnSeXaMq9Osg9vyy3n1qYSRKw=",
+        "originContent": "    sudo make install",
+        "translatedContent": "    sudo make install"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "z63or89YRbQK8+izXI2t9ST26/c1VP3Y1Y/dzhtgssM=",
+        "originContent": "Once installed, the following command will run PyQSO:",
+        "translatedContent": "インストール後は、以下のコマンドで PyQSO を起動できます："
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "Apks3zO1W0XvR1c1WbtEgkEvt+8HTby6DBJH9HX6wD0=",
+        "originContent": "    pyqso",
+        "translatedContent": "    pyqso"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## ドキュメント"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "Yqt06zrWuFR6YNxPNqLNsfKDJuukTMKSaCL/RUXw5bc=",
+        "originContent": "Guidance on how to use PyQSO is available on [Read the Docs](http://pyqso.readthedocs.io/) and in the screencast below.",
+        "translatedContent": "PyQSO の使い方については、[Read the Docs](http://pyqso.readthedocs.io/) と下記のスクリーンキャストで案内しています。"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "9S3y9+6l8E2S8V9YvPWJn3zKEwnjnstNg9muCRpZyWQ=",
+        "originContent": "[![PyQSO: A Logging Tool for Amateur Radio Operators](https://img.youtube.com/vi/sVdZl9KnDsk/0.jpg)](https://www.youtube.com/watch?v=sVdZl9KnDsk)",
+        "translatedContent": "[![PyQSO: アマチュア無線オペレーター向けのログツール](https://img.youtube.com/vi/sVdZl9KnDsk/0.jpg)](https://www.youtube.com/watch?v=sVdZl9KnDsk)"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "artRNlmC8MdAumM/DqMBWBWYgWyYkjMvo9qYgJMeXII=",
+        "originContent": "The documentation can also be built locally with the following command:",
+        "translatedContent": "ドキュメントは以下のコマンドでローカルにビルドすることもできます："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n    make docs\n\nwhich will produce an HTML version of the documentation in `docs/build/html` that can be opened in a web browser.\n\n## Contact\n\nPlease raise any technical issues or feature suggestions about PyQSO on the GitHub issue tracker.\n",
+    "ContentSha": "jpX240l3C8A7UhLKacOrxdSOznG2VAcRoM0gp/q3nKs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n    make docs\n\nこれは、`docs/build/html` にHTML形式のドキュメントを生成し、ウェブブラウザで開くことができます。\n\n## お問い合わせ\n\nPyQSOに関する技術的な問題や機能の提案は、GitHubのイシュートラッカーでご報告ください。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3Ya+vP+JAbs17uMPemww7kHWeWsrsMpr46yX0OSRe0Y=",
+        "originContent": "    make docs",
+        "translatedContent": "    make docs"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GBwqbxG/jzOsBs/vinWAbEDiNY76dU07WtROLyZDiZU=",
+        "originContent": "which will produce an HTML version of the documentation in `docs/build/html` that can be opened in a web browser.",
+        "translatedContent": "これは、`docs/build/html` にHTML形式のドキュメントを生成し、ウェブブラウザで開くことができます。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ZX9nbduzXgvmAaK8yTd+tNgwR7cV79HXV/+xbvL8suw=",
+        "originContent": "## Contact",
+        "translatedContent": "## お問い合わせ"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Fh0gIniW/eNdgpeXe2WsK6wTfrKsr4abQYdknLSAXUA=",
+        "originContent": "Please raise any technical issues or feature suggestions about PyQSO on the GitHub issue tracker.",
+        "translatedContent": "PyQSOに関する技術的な問題や機能の提案は、GitHubのイシュートラッカーでご報告ください。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

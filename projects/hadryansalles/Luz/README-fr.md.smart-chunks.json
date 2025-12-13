@@ -1,0 +1,644 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Luz Engine\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)\n[![Windows](https://github.com/hadryansalles/Luz/actions/workflows/Windows.yml/badge.svg)](https://github.com/hadryansalles/Luz/actions/workflows/Windows.yml)\n[![Ubuntu](https://github.com/hadryansalles/Luz/actions/workflows/Ubuntu.yml/badge.svg)](https://github.com/hadryansalles/Luz/actions/workflows/Ubuntu.yml)\n\nA Vulkan engine that I'm developing to study and implement modern rendering techniques used by AAA games.\n- [Videos on Youtube](https://www.youtube.com/user/HadryanSalles/videos)\n- [Features](#features)\n- [How to build and run](#build)\n- [References and credits](#references)\n\n<a name=\"features\"/>\n\n## Features\n- Complete Vulkan Wrapper (including BLAS and TLAS creation)\n- 3 Approches for Volumetric Light: Froxels, Polygonon Mesh and Screen Space\n- Temporal Anti-Aliasing\n- Shadow Maps\n- Atmospheric Scattering\n- Scene Serialization (JSON)\n- Deferred Rendering\n- Real-time ray traced shadows and ambient occlusion\n- PBR Shading with metallic, roughness, normal, ambient occlusion and emission\n- Vulkan bindless resources\n- Viewport camera with perspective and orthographic projections and fly and orbit controls\n- ImGui docking UI\n\n## Gallery\n- Froxel Based Volumetric Light\n![froxel](https://github.com/user-attachments/assets/28efe343-f5be-45db-a3ac-246aee47faa4)\n\n- Polygonal Mesh Volumetric Light\n![polygonal](https://github.com/user-attachments/assets/c2113f1b-9081-4a1d-8b8a-516c6d81281f)\n\n- Screen Space Volumetric Light\n![ssvl](https://github.com/user-attachments/assets/fcbd3fd5-881f-4640-a887-565d7190da23)\n\n- Deferred Rendering (Light, Albedo, Normal, Material, Emissive and Depth)\n![deferred](https://user-images.githubusercontent.com/37905502/154867586-7dfa15d1-faf7-4eab-8337-c578831c9044.gif)",
+    "ContentSha": "lBxkDca0jjBNj5SUeUTbnKjzFd0lMAsYaJbrRlhP1s4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Moteur Luz\n\n[![Licence : MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)\n[![Windows](https://github.com/hadryansalles/Luz/actions/workflows/Windows.yml/badge.svg)](https://github.com/hadryansalles/Luz/actions/workflows/Windows.yml)\n[![Ubuntu](https://github.com/hadryansalles/Luz/actions/workflows/Ubuntu.yml/badge.svg)](https://github.com/hadryansalles/Luz/actions/workflows/Ubuntu.yml)\n\nUn moteur Vulkan que je développe pour étudier et implémenter des techniques de rendu modernes utilisées par les jeux AAA.\n- [Vidéos sur Youtube](https://www.youtube.com/user/HadryanSalles/videos)\n- [Fonctionnalités](#features)\n- [Comment compiler et exécuter](#build)\n- [Références et crédits](#references)\n\n<a name=\"features\"/>\n\n## Fonctionnalités\n- Wrapper Vulkan complet (incluant la création de BLAS et TLAS)\n- 3 Approches pour la lumière volumétrique : Froxels, maillage polygonal et espace écran\n- Anti-aliasing temporel\n- Cartes d'ombres\n- Diffusion atmosphérique\n- Sérialisation de scène (JSON)\n- Rendu différé\n- Ombres et occlusion ambiante tracées en temps réel par lancer de rayons\n- Ombrage PBR avec métallisé, rugosité, normal, occlusion ambiante et émission\n- Ressources Vulkan sans liaison\n- Caméra viewport avec projections perspective et orthographique, contrôles de vol et d'orbite\n- Interface utilisateur dockable ImGui\n\n## Galerie\n- Lumière volumétrique basée sur Froxel\n![froxel](https://github.com/user-attachments/assets/28efe343-f5be-45db-a3ac-246aee47faa4)\n\n- Lumière volumétrique par maillage polygonal\n![polygonal](https://github.com/user-attachments/assets/c2113f1b-9081-4a1d-8b8a-516c6d81281f)\n\n- Lumière volumétrique en espace écran\n![ssvl](https://github.com/user-attachments/assets/fcbd3fd5-881f-4640-a887-565d7190da23)\n\n- Rendu différé (Lumière, Albedo, Normale, Matériau, Émissif et Profondeur)\n![deferred](https://user-images.githubusercontent.com/37905502/154867586-7dfa15d1-faf7-4eab-8337-c578831c9044.gif)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "21CirelEkR9r47aJVHNPqwPMmWlq/bDN8Ry4lY450lo=",
+        "originContent": "# Luz Engine",
+        "translatedContent": "# Moteur Luz"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "fR4iLjAGTZc+BIeaQX0d27BYJDEi7Iv5949AKvCz93k=",
+        "originContent": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)",
+        "translatedContent": "[![Licence : MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)"
+      },
+      {
+        "row": 4,
+        "rowsha": "4J1qpakDjy2SG1ewbvYtVAmP3yFJu6bLVPbJQzaQM7I=",
+        "originContent": "[![Windows](https://github.com/hadryansalles/Luz/actions/workflows/Windows.yml/badge.svg)](https://github.com/hadryansalles/Luz/actions/workflows/Windows.yml)",
+        "translatedContent": "[![Windows](https://github.com/hadryansalles/Luz/actions/workflows/Windows.yml/badge.svg)](https://github.com/hadryansalles/Luz/actions/workflows/Windows.yml)"
+      },
+      {
+        "row": 5,
+        "rowsha": "vcEwts9h8fqn/MPmr66+2EyLjvTF354onllQfGv7EuM=",
+        "originContent": "[![Ubuntu](https://github.com/hadryansalles/Luz/actions/workflows/Ubuntu.yml/badge.svg)](https://github.com/hadryansalles/Luz/actions/workflows/Ubuntu.yml)",
+        "translatedContent": "[![Ubuntu](https://github.com/hadryansalles/Luz/actions/workflows/Ubuntu.yml/badge.svg)](https://github.com/hadryansalles/Luz/actions/workflows/Ubuntu.yml)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "2feLR3MmwAyQcTCUzI8UlD9Vv/Lkx2HUnvXAsNoyjk0=",
+        "originContent": "A Vulkan engine that I'm developing to study and implement modern rendering techniques used by AAA games.",
+        "translatedContent": "Un moteur Vulkan que je développe pour étudier et implémenter des techniques de rendu modernes utilisées par les jeux AAA."
+      },
+      {
+        "row": 8,
+        "rowsha": "dcLutELHl36xHbsBBBolRdyCIL7+JXeimLkRRXnpRIE=",
+        "originContent": "- [Videos on Youtube](https://www.youtube.com/user/HadryanSalles/videos)",
+        "translatedContent": "- [Vidéos sur Youtube](https://www.youtube.com/user/HadryanSalles/videos)"
+      },
+      {
+        "row": 9,
+        "rowsha": "BI+Zz2NbZ0AX7YgD9EjinH4VCYulypQnBww5RTqTSDI=",
+        "originContent": "- [Features](#features)",
+        "translatedContent": "- [Fonctionnalités](#features)"
+      },
+      {
+        "row": 10,
+        "rowsha": "5E5hiYHxSVEvJ9rZr/8YK2UQoSdfm08Uk4F7PuFrK2o=",
+        "originContent": "- [How to build and run](#build)",
+        "translatedContent": "- [Comment compiler et exécuter](#build)"
+      },
+      {
+        "row": 11,
+        "rowsha": "m8Pzd69uwCnAUvp/vXGPI+cNO9jnvZldaQO5bNHRLQM=",
+        "originContent": "- [References and credits](#references)",
+        "translatedContent": "- [Références et crédits](#references)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "3GbKEgGIxCwlxdMy6DhT6Gbb7RQTTyrv6LRoTDsOtPc=",
+        "originContent": "<a name=\"features\"/>",
+        "translatedContent": "<a name=\"features\"/>"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Fonctionnalités"
+      },
+      {
+        "row": 16,
+        "rowsha": "TqfVHTNfVAa9ZyTjUafV6nIASKKa1zeOmUeWJncSLZ8=",
+        "originContent": "- Complete Vulkan Wrapper (including BLAS and TLAS creation)",
+        "translatedContent": "- Wrapper Vulkan complet (incluant la création de BLAS et TLAS)"
+      },
+      {
+        "row": 17,
+        "rowsha": "LklcdzSPkgZ5d13g2jptiKYSIAWqViBsRmzqM8keyZc=",
+        "originContent": "- 3 Approches for Volumetric Light: Froxels, Polygonon Mesh and Screen Space",
+        "translatedContent": "- 3 Approches pour la lumière volumétrique : Froxels, maillage polygonal et espace écran"
+      },
+      {
+        "row": 18,
+        "rowsha": "0mQ3eDawzUYgKmHtLL64HmK6fyQPYqilt0NQUImlIQY=",
+        "originContent": "- Temporal Anti-Aliasing",
+        "translatedContent": "- Anti-aliasing temporel"
+      },
+      {
+        "row": 19,
+        "rowsha": "nTrWxx0iyqzt60bz9tnucZRomKJpq8/56edcvH79c+4=",
+        "originContent": "- Shadow Maps",
+        "translatedContent": "- Cartes d'ombres"
+      },
+      {
+        "row": 20,
+        "rowsha": "+srAbb/4AGTsjIL5fGA/2uqVQnPlGnoymdqwUx5Pd1w=",
+        "originContent": "- Atmospheric Scattering",
+        "translatedContent": "- Diffusion atmosphérique"
+      },
+      {
+        "row": 21,
+        "rowsha": "MfO2Lr5ykoOzvfWZKOQ+Lai7MkZ/RM1Rej5DdGSWI0I=",
+        "originContent": "- Scene Serialization (JSON)",
+        "translatedContent": "- Sérialisation de scène (JSON)"
+      },
+      {
+        "row": 22,
+        "rowsha": "6ppHYYNijIwQKx4jlU2krlWKszW8CoMGRjcmTc06neU=",
+        "originContent": "- Deferred Rendering",
+        "translatedContent": "- Rendu différé"
+      },
+      {
+        "row": 23,
+        "rowsha": "QPzIL6guEybNGrnumT2PwU0rOXSzd2S/hTwhvwbDY4c=",
+        "originContent": "- Real-time ray traced shadows and ambient occlusion",
+        "translatedContent": "- Ombres et occlusion ambiante tracées en temps réel par lancer de rayons"
+      },
+      {
+        "row": 24,
+        "rowsha": "Rb5WOIr9ez89Fu0jwc+m4k9rZTZDtlucNmWXvxijzvc=",
+        "originContent": "- PBR Shading with metallic, roughness, normal, ambient occlusion and emission",
+        "translatedContent": "- Ombrage PBR avec métallisé, rugosité, normal, occlusion ambiante et émission"
+      },
+      {
+        "row": 25,
+        "rowsha": "nTKpzhjME/F5LvETtL+TKNM6da75b+74KcEAfbuCybw=",
+        "originContent": "- Vulkan bindless resources",
+        "translatedContent": "- Ressources Vulkan sans liaison"
+      },
+      {
+        "row": 26,
+        "rowsha": "TwMfSrzSMRcdCy9TfgLRHvvF+5AMbxEMH7P78fekCZY=",
+        "originContent": "- Viewport camera with perspective and orthographic projections and fly and orbit controls",
+        "translatedContent": "- Caméra viewport avec projections perspective et orthographique, contrôles de vol et d'orbite"
+      },
+      {
+        "row": 27,
+        "rowsha": "RS1ws0UWrtvT0ITR1XzS3UhX787HphBlkliua0eOzmE=",
+        "originContent": "- ImGui docking UI",
+        "translatedContent": "- Interface utilisateur dockable ImGui"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "yaNTtAGNeGRhcmIbpGHVi5Z6gFvYeZ1kLDSy+agqc3U=",
+        "originContent": "## Gallery",
+        "translatedContent": "## Galerie"
+      },
+      {
+        "row": 30,
+        "rowsha": "CesjrGSPL4yAJbSW/gMF3Zyhzusuv5e54i8aHqNj40Y=",
+        "originContent": "- Froxel Based Volumetric Light",
+        "translatedContent": "- Lumière volumétrique basée sur Froxel"
+      },
+      {
+        "row": 31,
+        "rowsha": "0pcRJZTswzlKkyx1Dh3/JHNe/K3/V3viPIXBnpoBxyg=",
+        "originContent": "![froxel](https://github.com/user-attachments/assets/28efe343-f5be-45db-a3ac-246aee47faa4)",
+        "translatedContent": "![froxel](https://github.com/user-attachments/assets/28efe343-f5be-45db-a3ac-246aee47faa4)"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "3TTHHP6eBDbXsWvZMgOSTJUfnEh/igegBX7r2unE5go=",
+        "originContent": "- Polygonal Mesh Volumetric Light",
+        "translatedContent": "- Lumière volumétrique par maillage polygonal"
+      },
+      {
+        "row": 34,
+        "rowsha": "7b4bUBVfCgQtu1CdjX4cIFNH3VQzEpVg2IiTgQ+T9Vc=",
+        "originContent": "![polygonal](https://github.com/user-attachments/assets/c2113f1b-9081-4a1d-8b8a-516c6d81281f)",
+        "translatedContent": "![polygonal](https://github.com/user-attachments/assets/c2113f1b-9081-4a1d-8b8a-516c6d81281f)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "on7eRK7lKL+jlj4yF02U9hT43OocgtsrPDlT1IrvqYo=",
+        "originContent": "- Screen Space Volumetric Light",
+        "translatedContent": "- Lumière volumétrique en espace écran"
+      },
+      {
+        "row": 37,
+        "rowsha": "rdmPva2DDL1cHrFEWbelNx8XzLzwEJtejiH2wdM2w8U=",
+        "originContent": "![ssvl](https://github.com/user-attachments/assets/fcbd3fd5-881f-4640-a887-565d7190da23)",
+        "translatedContent": "![ssvl](https://github.com/user-attachments/assets/fcbd3fd5-881f-4640-a887-565d7190da23)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "3AdoDkyU1LfHZzBVLpEve472LG7Y5/ozy2eex9h3HxY=",
+        "originContent": "- Deferred Rendering (Light, Albedo, Normal, Material, Emissive and Depth)",
+        "translatedContent": "- Rendu différé (Lumière, Albedo, Normale, Matériau, Émissif et Profondeur)"
+      },
+      {
+        "row": 40,
+        "rowsha": "q+WsmEyglzWoN1h+1+r5lMFBOWlADy/+9X1Gq4eDnfM=",
+        "originContent": "![deferred](https://user-images.githubusercontent.com/37905502/154867586-7dfa15d1-faf7-4eab-8337-c578831c9044.gif)",
+        "translatedContent": "![deferred](https://user-images.githubusercontent.com/37905502/154867586-7dfa15d1-faf7-4eab-8337-c578831c9044.gif)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n- Ray traced shadows and ambient occlusion\n![raytraced](https://user-images.githubusercontent.com/37905502/144621461-52f1ab97-ff6b-4f6f-a83a-cc6f67f5ead6.gif)\n\n- PBR Shading and glTF models\n![pbr](https://user-images.githubusercontent.com/37905502/144612584-1d752a16-c978-4f43-93d6-2e2362b2804b.gif)\n\n- Textures drag and drop\n![dragndrop](https://user-images.githubusercontent.com/37905502/144619247-737d37c1-ba67-4f9a-abf4-63e4d2f965d6.gif)\n\n<a name=\"build\"/>\n\n## Requirements\n- A GPU that supports VK_KHR_ray_query extension ([list of supported GPUs](https://vulkan.gpuinfo.org/listdevicescoverage.php?extension=VK_KHR_ray_query&platform=all))\n- C++17 compiler. Tested with ``Visual Studio 2019``, ``Clang`` and ``GCC``\n- [CMake 3.7](https://cmake.org/download/) or higher\n- [Vulkan SDK](https://vulkan.lunarg.com/sdk/home)\n\n### For Linux\n\nThis projects uses GLFW library, to compile it under Linux with X11 (like the default Ubuntu 20.04) you will need:\n",
+    "ContentSha": "4CicQe7BpTIhXCmzqYjAouuwShnos4gqXzq1Bkf+W04=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Ombres tracées par lancer de rayons et occlusion ambiante  \n![raytraced](https://user-images.githubusercontent.com/37905502/144621461-52f1ab97-ff6b-4f6f-a83a-cc6f67f5ead6.gif)\n\n- Éclairage PBR et modèles glTF  \n![pbr](https://user-images.githubusercontent.com/37905502/144612584-1d752a16-c978-4f43-93d6-2e2362b2804b.gif)\n\n- Glisser-déposer des textures  \n![dragndrop](https://user-images.githubusercontent.com/37905502/144619247-737d37c1-ba67-4f9a-abf4-63e4d2f965d6.gif)\n\n<a name=\"build\"/>\n\n## Exigences  \n- Un GPU prenant en charge l'extension VK_KHR_ray_query ([liste des GPU supportés](https://vulkan.gpuinfo.org/listdevicescoverage.php?extension=VK_KHR_ray_query&platform=all))  \n- Compilateur C++17. Testé avec ``Visual Studio 2019``, ``Clang`` et ``GCC``  \n- [CMake 3.7](https://cmake.org/download/) ou supérieur  \n- [Vulkan SDK](https://vulkan.lunarg.com/sdk/home)\n\n### Pour Linux\n\nCe projet utilise la bibliothèque GLFW, pour le compiler sous Linux avec X11 (comme sous Ubuntu 20.04 par défaut) vous aurez besoin de :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Ombres tracées par lancer de rayons et occlusion ambiante  "
+      },
+      {
+        "row": 2,
+        "rowsha": "P+v+gjF0Bf1CB4DHUq+qxxFgrVxsheA0Eflg/M98mf0=",
+        "originContent": "- Ray traced shadows and ambient occlusion",
+        "translatedContent": "![raytraced](https://user-images.githubusercontent.com/37905502/144621461-52f1ab97-ff6b-4f6f-a83a-cc6f67f5ead6.gif)"
+      },
+      {
+        "row": 3,
+        "rowsha": "fbSH5cHqibLeLkwrjHfKFC9iQe5huORmZ22sDctagXw=",
+        "originContent": "![raytraced](https://user-images.githubusercontent.com/37905502/144621461-52f1ab97-ff6b-4f6f-a83a-cc6f67f5ead6.gif)",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Éclairage PBR et modèles glTF  "
+      },
+      {
+        "row": 5,
+        "rowsha": "PnDtkGVX6BTMJ/izaxU0NigafzywuexeTKIcsnAn0uc=",
+        "originContent": "- PBR Shading and glTF models",
+        "translatedContent": "![pbr](https://user-images.githubusercontent.com/37905502/144612584-1d752a16-c978-4f43-93d6-2e2362b2804b.gif)"
+      },
+      {
+        "row": 6,
+        "rowsha": "UtM0sceHm/jaDdjBNCgA8ZyUw+H6X2txdeD2jM3izb8=",
+        "originContent": "![pbr](https://user-images.githubusercontent.com/37905502/144612584-1d752a16-c978-4f43-93d6-2e2362b2804b.gif)",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Glisser-déposer des textures  "
+      },
+      {
+        "row": 8,
+        "rowsha": "aOLc59mWu80LXM5qh4TyW1B0G4hG/cCPHGCaHPLL3EQ=",
+        "originContent": "- Textures drag and drop",
+        "translatedContent": "![dragndrop](https://user-images.githubusercontent.com/37905502/144619247-737d37c1-ba67-4f9a-abf4-63e4d2f965d6.gif)"
+      },
+      {
+        "row": 9,
+        "rowsha": "saLvNJbVJU01mxNtIETdzc1URLgJYMcO/IZkLEeXJ0g=",
+        "originContent": "![dragndrop](https://user-images.githubusercontent.com/37905502/144619247-737d37c1-ba67-4f9a-abf4-63e4d2f965d6.gif)",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<a name=\"build\"/>"
+      },
+      {
+        "row": 11,
+        "rowsha": "oBmCTVCLihHbwnMLWGEQlCpjhI4iflSOKBpwkyssVOk=",
+        "originContent": "<a name=\"build\"/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Exigences  "
+      },
+      {
+        "row": 13,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": "- Un GPU prenant en charge l'extension VK_KHR_ray_query ([liste des GPU supportés](https://vulkan.gpuinfo.org/listdevicescoverage.php?extension=VK_KHR_ray_query&platform=all))  "
+      },
+      {
+        "row": 14,
+        "rowsha": "eJOJByfYDRPAATFykBuetac/YFMStCuIKlQbTCIX/l0=",
+        "originContent": "- A GPU that supports VK_KHR_ray_query extension ([list of supported GPUs](https://vulkan.gpuinfo.org/listdevicescoverage.php?extension=VK_KHR_ray_query&platform=all))",
+        "translatedContent": "- Compilateur C++17. Testé avec ``Visual Studio 2019``, ``Clang`` et ``GCC``  "
+      },
+      {
+        "row": 15,
+        "rowsha": "x7RMQMp8ZGegI6Y26R7M3REvQJKFVAhvphgIsg/TfWw=",
+        "originContent": "- C++17 compiler. Tested with ``Visual Studio 2019``, ``Clang`` and ``GCC``",
+        "translatedContent": "- [CMake 3.7](https://cmake.org/download/) ou supérieur  "
+      },
+      {
+        "row": 16,
+        "rowsha": "YbsmmeFWqejVDvatR79+e6MBuNpIXbIKwAeqoRc+a7s=",
+        "originContent": "- [CMake 3.7](https://cmake.org/download/) or higher",
+        "translatedContent": "- [Vulkan SDK](https://vulkan.lunarg.com/sdk/home)"
+      },
+      {
+        "row": 17,
+        "rowsha": "BiehsxqJgsXdLxJ+wLV9xFDbMLUy51Xa1bBVwDxlPTU=",
+        "originContent": "- [Vulkan SDK](https://vulkan.lunarg.com/sdk/home)",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Pour Linux"
+      },
+      {
+        "row": 19,
+        "rowsha": "SbltRGKGuRSEW/HZ9y47rmnLu5NF4Y3e4QpUyyDZiNM=",
+        "originContent": "### For Linux",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Ce projet utilise la bibliothèque GLFW, pour le compiler sous Linux avec X11 (comme sous Ubuntu 20.04 par défaut) vous aurez besoin de :"
+      },
+      {
+        "row": 21,
+        "rowsha": "Q7uQ5XQEfD8XKMzkTLUpngyv9zhtUrDk+ShsXFJoP7U=",
+        "originContent": "This projects uses GLFW library, to compile it under Linux with X11 (like the default Ubuntu 20.04) you will need:",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```sh\nsudo apt-get install xorg-dev\n```",
+    "ContentSha": "UqeSxyq/bzJ4121lZBOBLUvYIMalUHAj+Fvdlwf/37Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nsudo apt-get install xorg-dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "D08dxKwqtOXaq2Lpvy/MhXLqA9PNwN5Ly80UV/8dCLc=",
+        "originContent": "sudo apt-get install xorg-dev",
+        "translatedContent": "sudo apt-get install xorg-dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nIf you are using another window manager (like Wayland) you can check the dependencies [here](https://www.glfw.org/docs/latest/compile.html#compile_deps).\n\n## Build and Run",
+    "ContentSha": "70b5vuLXxCGJQWrlz6nqsJPY+/8d6ehx0s02/c6T0xM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSi vous utilisez un autre gestionnaire de fenêtres (comme Wayland), vous pouvez vérifier les dépendances [ici](https://www.glfw.org/docs/latest/compile.html#compile_deps).\n\n## Compiler et exécuter",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "eDjfFspS/ZcZdEwWKivrubvfhI2NHJZT1eIuewpboho=",
+        "originContent": "If you are using another window manager (like Wayland) you can check the dependencies [here](https://www.glfw.org/docs/latest/compile.html#compile_deps).",
+        "translatedContent": "Si vous utilisez un autre gestionnaire de fenêtres (comme Wayland), vous pouvez vérifier les dépendances [ici](https://www.glfw.org/docs/latest/compile.html#compile_deps)."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "PQ9Ow6mcJJicRjq3WAYBSLI3U8FHlfzgsNsrLDu+8eg=",
+        "originContent": "## Build and Run",
+        "translatedContent": "## Compiler et exécuter"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```sh\ngit clone --recursive https://github.com/hadryansalles/Luz\ncd Luz\nmkdir build\ncmake . -Bbuild\ncmake --build build --parallel 4\n./bin/Luz\n```",
+    "ContentSha": "HwAkMolvY/KQPEzjf1rFGryogl6SiKiEFFJSgX3fyC4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ngit clone --recursive https://github.com/hadryansalles/Luz\ncd Luz\nmkdir build\ncmake . -Bbuild\ncmake --build build --parallel 4\n./bin/Luz\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Pquz4iUBmVT8cLpTuYyE2cQ6SMpiqj5B7UBxbbI9y8Q=",
+        "originContent": "git clone --recursive https://github.com/hadryansalles/Luz",
+        "translatedContent": "git clone --recursive https://github.com/hadryansalles/Luz"
+      },
+      {
+        "row": 3,
+        "rowsha": "WjNg7sW1vGcOCQ1Fn5hsDxvZHeJl3CbzaKOl4Rd2dhU=",
+        "originContent": "cd Luz",
+        "translatedContent": "cd Luz"
+      },
+      {
+        "row": 4,
+        "rowsha": "klYXsM14m4nOprfexqnXiyqPlC6FH6Z39Rbt9Y6MgzU=",
+        "originContent": "mkdir build",
+        "translatedContent": "mkdir build"
+      },
+      {
+        "row": 5,
+        "rowsha": "GSWzIAR8K85TNHqVfa6jdUaHOHstm5TnhaZt3E/s7C4=",
+        "originContent": "cmake . -Bbuild",
+        "translatedContent": "cmake . -Bbuild"
+      },
+      {
+        "row": 6,
+        "rowsha": "2QhdiOD7XWbnz74g2sLHg4FmGnKhCj7ia50i402i+r4=",
+        "originContent": "cmake --build build --parallel 4",
+        "translatedContent": "cmake --build build --parallel 4"
+      },
+      {
+        "row": 7,
+        "rowsha": "D7552+ot7hjA0N6mgMWMTl9ThfJ9f/RuNSGOAwaG5nk=",
+        "originContent": "./bin/Luz",
+        "translatedContent": "./bin/Luz"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n- Visual Studio: open ``build/Luz.sln`` and compile/run the project ``Luz``.\n\n<a name=\"references\"/>\n\n## References and Credits\n\n- [GLFW](https://github.com/glfw/glfw) used to open the application window\n- [glm](https://github.com/g-truc/glm) used as the math library\n- [ImGui](https://github.com/ocornut/imgui) used to make the user interface\n- [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) used to create 3D gizmos\n- [spdlog](https://github.com/gabime/spdlog) used as the logging library\n- [stb_image](https://github.com/nothings/stb) used to load image files\n- [tiny_obj_loader](https://github.com/tinyobjloader/tinyobjloader) used to load wavefront .obj files\n- [optick](https://github.com/bombomby/optick) used to profile the engine\n- [pbr-sky](https://www.shadertoy.com/view/slyBDG) used as reference for atmospheric sky model\n",
+    "ContentSha": "sVk8bAJnPYpSgJonsOz9iiQ3gZSJKWA14XOcshxF59Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- Visual Studio : ouvrez ``build/Luz.sln`` et compilez/exécutez le projet ``Luz``.\n\n<a name=\"references\"/>\n\n## Références et Crédits\n\n- [GLFW](https://github.com/glfw/glfw) utilisé pour ouvrir la fenêtre de l'application\n- [glm](https://github.com/g-truc/glm) utilisé comme bibliothèque mathématique\n- [ImGui](https://github.com/ocornut/imgui) utilisé pour créer l'interface utilisateur\n- [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) utilisé pour créer des gizmos 3D\n- [spdlog](https://github.com/gabime/spdlog) utilisé comme bibliothèque de journalisation\n- [stb_image](https://github.com/nothings/stb) utilisé pour charger les fichiers image\n- [tiny_obj_loader](https://github.com/tinyobjloader/tinyobjloader) utilisé pour charger les fichiers wavefront .obj\n- [optick](https://github.com/bombomby/optick) utilisé pour profiler le moteur\n- [pbr-sky](https://www.shadertoy.com/view/slyBDG) utilisé comme référence pour le modèle atmosphérique du ciel\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Visual Studio : ouvrez ``build/Luz.sln`` et compilez/exécutez le projet ``Luz``."
+      },
+      {
+        "row": 2,
+        "rowsha": "W3oHsr25QQ4nwIdpYOH29lOBdbc7SOmvUSjwa5iBIoA=",
+        "originContent": "- Visual Studio: open ``build/Luz.sln`` and compile/run the project ``Luz``.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<a name=\"references\"/>"
+      },
+      {
+        "row": 4,
+        "rowsha": "+6GvgGP7VHskP4Wo1BsM+LDRM7XgdPBl3jDYtS6RR98=",
+        "originContent": "<a name=\"references\"/>",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Références et Crédits"
+      },
+      {
+        "row": 6,
+        "rowsha": "vzzgqK4lZbs9QSKWI+VZf9LXylyGnJA76vIj+O17rHw=",
+        "originContent": "## References and Credits",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [GLFW](https://github.com/glfw/glfw) utilisé pour ouvrir la fenêtre de l'application"
+      },
+      {
+        "row": 8,
+        "rowsha": "o+JZNbhdKqXNhMtOtlF2+c+zwr6TpzU7Opiud4zxeSY=",
+        "originContent": "- [GLFW](https://github.com/glfw/glfw) used to open the application window",
+        "translatedContent": "- [glm](https://github.com/g-truc/glm) utilisé comme bibliothèque mathématique"
+      },
+      {
+        "row": 9,
+        "rowsha": "rong5MMEzIekwU8W3x6J9rfUCzNSiFqHt+g1ESp2rVg=",
+        "originContent": "- [glm](https://github.com/g-truc/glm) used as the math library",
+        "translatedContent": "- [ImGui](https://github.com/ocornut/imgui) utilisé pour créer l'interface utilisateur"
+      },
+      {
+        "row": 10,
+        "rowsha": "GNQ5FHLOuHJh5fwFUponf+vpPhdbqhyvJ99ypZXL7nA=",
+        "originContent": "- [ImGui](https://github.com/ocornut/imgui) used to make the user interface",
+        "translatedContent": "- [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) utilisé pour créer des gizmos 3D"
+      },
+      {
+        "row": 11,
+        "rowsha": "VA79QEJYeHWQ3OHZUxQ4kv9lx3UT4n52zNC/hC0Np0A=",
+        "originContent": "- [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo) used to create 3D gizmos",
+        "translatedContent": "- [spdlog](https://github.com/gabime/spdlog) utilisé comme bibliothèque de journalisation"
+      },
+      {
+        "row": 12,
+        "rowsha": "LxN9pMJ/SshijbLEUT+gjlzDkKtpJeq/H+df41cppI8=",
+        "originContent": "- [spdlog](https://github.com/gabime/spdlog) used as the logging library",
+        "translatedContent": "- [stb_image](https://github.com/nothings/stb) utilisé pour charger les fichiers image"
+      },
+      {
+        "row": 13,
+        "rowsha": "8yEFCmMR2WK1IQ+QyOszZ3avWyLl0aCK0ApwUbacQn4=",
+        "originContent": "- [stb_image](https://github.com/nothings/stb) used to load image files",
+        "translatedContent": "- [tiny_obj_loader](https://github.com/tinyobjloader/tinyobjloader) utilisé pour charger les fichiers wavefront .obj"
+      },
+      {
+        "row": 14,
+        "rowsha": "TP4ykPkYMlG7W+GSNu0OFU6QCloe2HznjKinGpcHI4Q=",
+        "originContent": "- [tiny_obj_loader](https://github.com/tinyobjloader/tinyobjloader) used to load wavefront .obj files",
+        "translatedContent": "- [optick](https://github.com/bombomby/optick) utilisé pour profiler le moteur"
+      },
+      {
+        "row": 15,
+        "rowsha": "e3YjnoMGAjq9NIVqujvvbvBsvUePTqQNi+FC4eDnzLg=",
+        "originContent": "- [optick](https://github.com/bombomby/optick) used to profile the engine",
+        "translatedContent": "- [pbr-sky](https://www.shadertoy.com/view/slyBDG) utilisé comme référence pour le modèle atmosphérique du ciel"
+      },
+      {
+        "row": 16,
+        "rowsha": "BFoow0gqXTG3Pe2W3ahTXzg8XPJ+9c+HRVZCBlOtW50=",
+        "originContent": "- [pbr-sky](https://www.shadertoy.com/view/slyBDG) used as reference for atmospheric sky model",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
