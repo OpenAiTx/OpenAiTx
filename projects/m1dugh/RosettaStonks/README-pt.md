@@ -103,14 +103,15 @@ No seu navegador:
 ```bash
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
-- vá para `about:addons` no seu navegador
-- clique no botão de configurações e vá para `Depurar addons`.
-- clique em `Carregar Add-On Temporário`
+
+- vá para `about:debugging#/runtime/this-firefox` no seu navegador
+- clique no botão de configurações e vá para `Debug addons`.
+- clique em `Load Temporary Add-On`
 - selecione o arquivo `/tmp/rosettastonks.xpi` no seletor de arquivos.
 
-_Atenção: Este método instala a extensão temporariamente, ou seja, se
-você fechar o navegador, o addon será desinstalado. Isso ocorre devido às
-políticas do Firefox que não permitem o uso de extensões não verificadas._
+_Aviso: Este método instala a extensão temporariamente, ou seja, se você
+fechar o navegador, o addon será desinstalado. Isso ocorre devido às políticas
+do firefox que não permitem o uso de extensões não verificadas._
 
 ## Como usar
 
@@ -118,20 +119,20 @@ políticas do Firefox que não permitem o uso de extensões não verificadas._
 
 #### Adicionando tempo no Foundations
 
-Para adicionar tempo no produto `foundations`, você precisa acessar seus exercícios e
-clicar em ignorar ou resolver pelo menos uma questão. Feito isso, um campo de tempo
-deve aparecer na página da extensão, onde você poderá adicionar seu tempo.
+Para adicionar tempo no produto `foundations`, você precisa ir até seus exercícios e
+clicar em ignorar ou resolver pelo menos uma questão. Após isso, um campo de tempo
+deverá aparecer na página da extensão onde você pode adicionar seu tempo.
 
 #### Adicionando tempo no Fluency builder
 
-Para adicionar tempo no produto `fluency builder`, você precisa acessar seus exercícios e
-responder pelo menos um exercício. Se o campo para adicionar tempo não aparecer, isso
-significa que nenhuma solicitação de tempo foi capturada; você precisa atualizar a questão e respondê-la
-novamente. Para que o tempo seja adicionado, é necessário finalizar a lição que você utilizou para
-adicionar o tempo.
+Para adicionar tempo no produto `fluency builder`, você precisa ir até seus exercícios e
+responder pelo menos um exercício. Se o campo de adicionar tempo não aparecer, isso significa
+que nenhuma solicitação de tempo foi capturada; você precisa atualizar a questão e respondê-la
+novamente. Para que o tempo seja adicionado, é necessário finalizar a lição utilizada para
+adicionar tempo.
 
-_Nota: Se você não vê o campo para adicionar tempo, significa que as ações realizadas
-no site da Rosetta Stone não levaram ao registro de tempo legítimo, portanto,
+_Nota: Se você não vê o campo para adicionar tempo, significa que as ações que você realizou
+no site da Rosetta Stone não levaram ao acréscimo de tempo legítimo e, portanto,
 você precisa responder outras questões._
 
 ### Validando lição
@@ -139,10 +140,9 @@ você precisa responder outras questões._
 #### Validando lição no Foundations
 
 Para validar uma lição, é necessário iniciar uma lição e passar por todas as
-questões usando o botão `ignorar` no canto inferior direito. Assim que todas as
+questões usando o botão `ignorar` no canto inferior direito. Depois que todas as
 questões forem vistas, clicar no botão `validar lição` deve validar
-a lição. Caso contrário, volte para a sua página inicial, clique na mesma lição, ela
-
+a lição. Se não funcionar, volte para sua página inicial, clique na mesma lição, ela
 deve perguntar `Você deseja continuar ou reiniciar?`, você pode escolher ambos, e
 validar a lição novamente até que funcione. Deve funcionar após no máximo 3/4 tentativas.
 
@@ -192,13 +192,14 @@ Para empacotar a extensão para o Firefox, o seguinte comando pode ser executado
 $ make firefox
 ```
 
-O que irá produzir `rosettastonks.xpi`, o arquivo da extensão que pode ser
-carregado no firefox.
+Isso irá produzir `rosettastonks.xpi`, o arquivo da extensão que pode ser
+carregado no Firefox.
 
 📸 Prefere visuais? Confira o [Guia de Instalação do Chrome com Imagens](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---

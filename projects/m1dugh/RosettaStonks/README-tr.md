@@ -104,44 +104,44 @@ Tarayıcınızda:
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
 
-- Tarayıcınızda `about:addons` sayfasına gidin
-- Ayarlar düğmesine tıklayın ve `Eklentileri Hata Ayıkla` seçeneğine gidin.
-- `Geçici Eklenti Yükle` seçeneğine tıklayın
-- Dosya seçicide `/tmp/rosettastonks.xpi` dosyasını seçin.
+- Tarayıcınızda `about:debugging#/runtime/this-firefox` adresine gidin
+- Ayarlar düğmesine tıklayın ve `Debug addons` seçeneğine gidin.
+- `Geçici Eklenti Yükle`ye tıklayın
+- Dosya seçicisinden `/tmp/rosettastonks.xpi` dosyasını seçin.
 
-_Uyarı: Bu yöntem eklentiyi yalnızca geçici olarak yükler, yani tarayıcınızı kapatırsanız
-eklenti kaldırılır. Bunun nedeni, firefox politikalarının doğrulanmamış eklentilerin kullanılmasına izin vermemesidir._
+_Uyarı: Bu yöntem yalnızca uzantıyı geçici olarak yükler, yani
+tarayıcınızı kapatırsanız, eklenti kaldırılır. Bunun nedeni, firefox
+politikalarının doğrulanmamış uzantıların kullanılmasına izin vermemesidir._
 
-## Nasıl Kullanılır
+## Nasıl kullanılır
 
-### Zaman Ekleme
+### Zaman ekleme
 
-#### Foundations'da Zaman Ekleme
+#### Foundations'da zaman ekleme
 
-`foundations` ürününde zaman eklemek için egzersizlerinize gitmeniz ve
-en az bir soruyu yok saymanız veya çözmeniz gerekir. Bunu yaptıktan sonra,
-eklenti sayfasında zaman ekleyebileceğiniz bir alan görünmelidir.
+`foundations` ürününde zaman eklemek için, egzersizlerinize gidip
+en az bir soruyu yok say veya çöz düğmesine tıklamanız gerekir. Bu yapıldıktan sonra,
+uzantı sayfasında zaman ekleyebileceğiniz bir alan görünmelidir.
 
-#### Fluency builder'da Zaman Ekleme
+#### Fluency builder'da zaman ekleme
 
-`fluency builder` ürününde zaman eklemek için egzersizlerinize gitmeniz ve
-en az bir egzersizi yanıtlamanız gerekir. Zaman ekleme alanı görünmüyorsa,
-herhangi bir zaman isteği yakalanmamış demektir; soruyu yenileyip tekrar
-yanıtlamanız gerekir. Zamanın eklenmesi için, zaman eklediğiniz dersi
-tamamlamanız gerekir.
+`fluency builder` ürününde zaman eklemek için, egzersizlerinize gidip
+en az bir egzersizi yanıtlamanız gerekir. Eğer zaman ekleme alanı görünmüyorsa,
+herhangi bir zaman isteği yakalanmamış demektir, soruyu yenileyin ve tekrar yanıtlayın.
+Zamanın eklenmesi için, zaman eklediğiniz dersi bitirmeniz gerekir.
 
-_Not: Zaman ekleme alanını görmüyorsanız, Rosetta Stone sitesinde yaptığınız
-eylemler geçerli zaman eklenmesini sağlamamıştır; bu nedenle, başka soruları
-yanıtlamanız gerekir._
+_Not: Zaman ekleme alanını görmüyorsanız, Rosetta Stone sitesinde
+yaptığınız eylemler gerçek zaman eklenmesine yol açmamış demektir, bu nedenle
+başka soruları yanıtlamanız gerekir._
 
-### Dersi Doğrulama
+### Dersi doğrulama
 
-#### Foundations'da Dersi Doğrulama
+#### Foundations'da dersi doğrulama
 
-Bir dersi doğrulamak için, bir ders başlatılır ve tüm sorular
-sağ alttaki `yok say` butonuyla geçilir. Tüm sorular görüldükten sonra,
-`dersi doğrula` butonuna tıklamak dersi doğrulamalıdır. Eğer olmuyorsa, ana sayfanıza dönün, aynı derse tıklayın, bu
-
+Bir dersi doğrulamak için, bir dersi başlatıp,
+tüm soruları sağ alt köşedeki `ignore` düğmesiyle geçmeniz gerekir. Tüm
+sorular görüldükten sonra, `validate lesson` düğmesine tıklamak dersi doğrulamalıdır.
+Eğer olmazsa, ana sayfanıza geri dönün, aynı derse tıklayın,
 
 size sormalı `Devam etmek mi yoksa sıfırlamak mı istiyorsunuz?`, her ikisini de seçebilirsiniz ve
 dersi tekrar doğrulayabilirsiniz, çalışana kadar. Maksimum 3/4 kez sonra çalışmalıdır.
@@ -192,13 +192,14 @@ Firefox için uzantıyı paketlemek üzere aşağıdaki komut çalıştırılabi
 $ make firefox
 ```
 
-Bu işlem, firefox'ta yüklenebilen uzantı dosyası olan `rosettastonks.xpi` dosyasını oluşturacaktır.
+Bu, Firefox'ta yüklenebilen uzantının dosyası olan `rosettastonks.xpi` dosyasını oluşturacaktır.
 
-📸 Görselleri mi tercih ediyorsunuz? [Görsellerle Chrome Kurulum Rehberi](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md) bağlantısına göz atabilirsiniz.
+📸 Görselleri mi tercih ediyorsunuz? [Görsellerle Chrome Kurulum Kılavuzuna](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md) göz atın
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---

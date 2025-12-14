@@ -103,46 +103,46 @@ $ nix build --out-link "/tmp/rosettastonks" github:m1dugh/RosettaStonks#chrome
 ```bash
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
-- 브라우저에서 `about:addons`로 이동하세요  
-- 설정 버튼을 클릭하고 `Debug addons`로 이동하세요.  
-- `Load Temporary Add-On`을 클릭하세요  
-- 파일 선택기에서 `/tmp/rosettastonks.xpi` 파일을 선택하세요.  
+- 브라우저에서 `about:debugging#/runtime/this-firefox`로 이동합니다.
+- 설정 버튼을 클릭하고 `Debug addons`로 이동합니다.
+- `Load Temporary Add-On`을 클릭합니다.
+- 파일 선택기에서 `/tmp/rosettastonks.xpi` 파일을 선택합니다.
 
-_경고: 이 방법은 확장 기능을 임시로만 설치하므로,  
-브라우저를 닫으면 애드온이 제거됩니다. 이는 파이어폭스 정책상  
-검증되지 않은 확장 기능 사용을 허용하지 않기 때문입니다._  
+_경고: 이 방법은 확장 프로그램을 임시로만 설치하며, 브라우저를 종료하면 애드온이 제거됩니다. 이는 Firefox 정책상 검증되지 않은 확장 프로그램 사용이 허용되지 않기 때문입니다._
 
-## 사용 방법  
+## 사용 방법
 
-### 시간 추가하기  
+### 시간 추가
 
-#### Foundations에서 시간 추가하기  
+#### Foundations에서 시간 추가
 
-`foundations` 제품에서 시간을 추가하려면, 운동(exercises)으로 이동하여  
-최소한 하나의 질문을 무시(ignore)하거나 해결(resolve)해야 합니다.  
-이 작업이 완료되면, 확장 기능 페이지에 시간 입력 필드가 나타나며  
-여기에 시간을 추가할 수 있습니다.  
+`foundations` 제품에서 시간을 추가하려면, 자신의 연습문제로 이동하여 적어도 한 문제를 무시하거나 해결하세요. 이 작업을 완료하면 확장 프로그램 페이지에 시간 입력란이 표시되어 시간을 추가할 수 있습니다.
 
-#### Fluency builder에서 시간 추가하기  
+#### Fluency builder에서 시간 추가
 
-`fluency builder` 제품에서 시간을 추가하려면, 운동으로 이동하여  
-최소한 하나의 운동을 완료해야 합니다. 시간 추가 필드가 나타나지 않으면,  
-시간 요청이 감지되지 않은 것이므로 질문을 새로 고치고 다시 답하세요.  
-시간이 추가되려면, 시간을 추가한 후에 해당 레슨을 완료해야 합니다.  
+`fluency builder` 제품에서 시간을 추가하려면, 자신의 연습문제로 이동하여 적어도 한 문제를 풀어야 합니다. 만약 시간 추가 입력란이 표시되지 않으면, 시간 요청이 감지되지 않은 것입니다. 질문을 새로고침하고 다시 답변하세요. 시간을 추가하려면 시간을 추가한 레슨을 완료해야 합니다.
 
-_참고: 시간 추가 필드가 보이지 않는다면, Rosetta Stone 웹사이트에서  
-수행한 작업이 합법적인 시간 추가로 이어지지 않았음을 의미하므로,  
-다른 질문에 답해야 합니다._  
+_참고: 시간 추가 입력란이 보이지 않는다면, Rosetta stone 웹사이트에서 수행한 행동이 유효한 시간 추가로 연결되지 않았다는 의미이며, 다른 문제를 풀어야 합니다._
 
-### 레슨 검증하기  
+### 레슨 검증
 
-#### Foundations에서 레슨 검증하기  
+#### Foundations에서 레슨 검증
 
-레슨을 검증하려면, 레슨을 시작하고 모든 질문을  
-오른쪽 하단의 `ignore` 버튼을 통해 모두 확인해야 합니다.  
-모든 질문을 본 후, `validate lesson` 버튼을 클릭하면 레슨이  
-검증됩니다. 그렇지 않으면, 홈 페이지로 돌아가서 같은 레슨을 다시  
-선택하세요. 그것이
+레슨을 검증하려면, 레슨을 시작한 후 모든 문제를 오른쪽 하단의 `ignore` 버튼을 눌러서 진행하세요. 모든 문제를 확인한 후 `validate lesson` 버튼을 클릭하면 레슨이 검증됩니다. 만약 검증되지 않으면, 홈 페이지로 돌아가서 동일한 레슨을 클릭하세요.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 `계속하시겠습니까 아니면 재설정하시겠습니까?`라고 물어볼 것이며, 둘 다 선택할 수 있고  
 작동할 때까지 수업을 다시 검증할 수 있습니다. 최대 3~4회 후에는 작동해야 합니다.  
 
@@ -192,13 +192,14 @@ $ make chrome
 $ make firefox
 ```
 
-`rosettastonks.xpi` 파일을 생성하며, 이는 파이어폭스에서 로드할 수 있는 확장 프로그램 파일입니다.
+이렇게 하면 Firefox에서 로드할 수 있는 확장 프로그램 파일인 `rosettastonks.xpi`가 생성됩니다.
 
-📸 시각적인 설명을 원하시나요? [이미지와 함께하는 크롬 설치 가이드](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)를 확인해보세요.
+📸 시각 자료를 선호하시나요? [이미지가 포함된 Chrome 설치 가이드](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)를 확인하세요.
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---

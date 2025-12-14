@@ -103,14 +103,12 @@ $ nix build --out-link "/tmp/rosettastonks" github:m1dugh/RosettaStonks#chrome
 ```bash
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
-- ブラウザで `about:addons` にアクセスします  
-- 設定ボタンをクリックし、`Debug addons` に移動します。  
-- `Load Temporary Add-On` をクリックします  
-- ファイルピッカーで `/tmp/rosettastonks.xpi` ファイルを選択します。  
+- ブラウザで `about:debugging#/runtime/this-firefox` にアクセスしてください
+- 設定ボタンをクリックし、`Debug addons` に進んでください。
+- `Load Temporary Add-On` をクリックしてください
+- ファイルピッカーで `/tmp/rosettastonks.xpi` ファイルを選択してください。
 
-_警告: この方法は拡張機能を一時的にインストールするだけであり、  
-ブラウザを閉じるとアドオンはアンインストールされます。これは、  
-Firefoxのポリシーにより未検証の拡張機能の使用が許可されていないためです。_
+_警告: この方法は拡張機能を一時的にインストールするだけであり、ブラウザを閉じるとアドオンはアンインストールされます。これは、firefoxのポリシーにより、未確認の拡張機能の使用が許可されていないためです。_
 
 ## 使い方
 
@@ -118,27 +116,29 @@ Firefoxのポリシーにより未検証の拡張機能の使用が許可され�
 
 #### Foundationsでの時間追加
 
-`foundations` 製品で時間を追加するには、演習にアクセスし、  
-少なくとも1つの質問を無視または解決する必要があります。これが完了すると、  
-拡張機能ページに時間を追加できる時間フィールドが表示されます。  
+`foundations`製品で時間を追加するには、エクササイズに進み、最低一つの質問を無視または解決してください。これが完了すると、拡張機能ページに時間入力欄が表示され、そこで時間を追加できます。
 
 #### Fluency builderでの時間追加
 
-`fluency builder` 製品で時間を追加するには、演習にアクセスし、  
-少なくとも1つの演習に回答する必要があります。時間追加フィールドが表示されない場合、  
-時間リクエストが検出されていないことを意味します。その場合は質問をリフレッシュして  
-再度回答してください。時間を追加するには、時間を追加したレッスンを終了する必要があります。  
+`fluency builder`製品で時間を追加するには、エクササイズに進み、最低一つのエクササイズに回答してください。時間追加欄が表示されない場合、時間要求が取得できていないことを意味しますので、質問を再読み込みしてもう一度回答してください。時間を追加するには、時間を追加したレッスンを完了する必要があります。
 
-_注意: 時間追加フィールドが表示されない場合、Rosetta Stoneのウェブサイトでの操作が  
-正当な時間追加につながっていないため、別の質問に回答する必要があります。_
+_注意: 時間追加欄が表示されない場合は、Rosetta stoneウェブサイトで行った操作が正当な時間追加に至っていないことを意味しますので、他の質問に回答してください。_
 
-### レッスンの検証
+### レッスンの認証
 
-#### Foundationsでのレッスン検証
+#### Foundationsでのレッスン認証
 
-レッスンを検証するには、レッスンを開始し、すべての質問を右下の`ignore`ボタンで  
-進める必要があります。すべての質問を見終わったら、`validate lesson`ボタンをクリックすると  
-レッスンが検証されます。もし検証されない場合は、ホームページに戻り、同じレッスンをクリックし、それ
+レッスンを認証するには、レッスンを開始し、右下の `ignore` ボタンで全ての質問を進んでください。すべての質問を確認したら、`validate lesson` ボタンをクリックするとレッスンが認証されます。認証されない場合は、ホームページに戻り、同じレッスンをクリックしてください
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -192,13 +192,14 @@ Firefox用の拡張機能をパッケージ化するには、以下のコマン�
 $ make firefox
 ```
 
-`rosettastonks.xpi` を生成します。これは Firefox に読み込むことができる拡張機能のファイルです。
+これにより、Firefox で読み込むことができる拡張機能のファイル `rosettastonks.xpi` が生成されます。
 
-📸 視覚的な説明が好みですか？[画像付きChromeインストールガイド](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md) をご覧ください。
+📸 ビジュアル重視ですか？画像付きの [Chrome インストールガイド](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md) をご覧ください。
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---

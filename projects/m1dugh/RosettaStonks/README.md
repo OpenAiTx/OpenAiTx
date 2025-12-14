@@ -104,7 +104,7 @@ In your browser:
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
 
-- go to `about:addons` in your browser
+- go to `about:debugging#/runtime/this-firefox` in your browser
 - click the settings button and go to `Debug addons`.
 - click `Load Temporary Add-On`
 - select the `/tmp/rosettastonks.xpi` file in the file picker.

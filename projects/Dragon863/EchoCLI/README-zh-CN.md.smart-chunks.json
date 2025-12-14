@@ -1,0 +1,377 @@
+[
+  {
+    "Id": 1,
+    "Content": "> [!IMPORTANT]\n> If you are looking to root your echo, this project is now obselete; please use the solution documented [here](https://xdaforums.com/t/unlock-root-twrp-unbrick-amazon-echo-dot-2nd-gen-2016-biscuit.4761416/) instead. Thank you so much to everyone who made this possible, it's been so fun to work on this project! :)\n\n# EchoCLI\nA tethered root solution for your echo dot 2nd generation.\nTo start, run `main.py`\n<br>\n\n[<kbd> <br> How does this work? <br> </kbd>](https://dragon863.github.io/blog/echoroot.html)\n\n## Notice\n- Due to software updates being pushed constantly, I cannot guarantee that this will work for your echo. If you encounter any issues, feel free to contact me, and if you find a bug pull requests are welcome.\n- It is **strongly** recommended that you run this on a linux machine, as I am unable to test it on Windows and there is no guarantee that Windows-specific bugs are not present\n\n> **Warning**\n> \n> **This is a TETHERED root solution** It is _recommended_ to block amazon's OTA servers (https://d1s31zyz7dcc2d.cloudfront.net and https://d1s31zyz7dcc2d.cloudfront.prod.ota-cloudfront.net) to prevent updates from corrupting or removing root on your device. I am not responsible for any damage to your device\n\n## Features\n- Rooted ADB shell over USB or Wi-Fi\n- Record audio from device\n- Use your Echo as an indicator for Home Assistant without internet\n- Restore your device to factory configuration\n\n## Install\n- This project requires python 3.\n- I recommend using linux for running this program. Please ensure you have disabled ModemManager if you have it installed.\nInstall requirements using `pip`:",
+    "ContentSha": "prn/cXhUpc431jQFzg7/wgmKAY7N4sdhLoEmTsE7rtU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "> [!重要]\n> 如果您想要获取 echo 的 root 权限，本项目现已废弃；请改用此处文档中介绍的方案 [here](https://xdaforums.com/t/unlock-root-twrp-unbrick-amazon-echo-dot-2nd-gen-2016-biscuit.4761416/)。非常感谢所有使此项目成为可能的人，开发这个项目非常有趣！ :)\n\n# EchoCLI\n针对您的 echo dot 第二代的有线 root 解决方案。\n开始时，运行 `main.py`\n<br>\n\n[<kbd> <br> 这如何工作？ <br> </kbd>](https://dragon863.github.io/blog/echoroot.html)\n\n## 注意\n- 由于软件更新持续推送，我无法保证此方法对您的 echo 有效。如果遇到任何问题，欢迎联系我，发现漏洞也欢迎提交 pull request。\n- 强烈建议您在 Linux 机器上运行此程序，因为我无法在 Windows 上测试，且不保证不存在 Windows 特定的错误。\n\n> **警告**\n> \n> **这是一个有线（TETHERED）root 方案** 建议阻止亚马逊的 OTA 服务器（https://d1s31zyz7dcc2d.cloudfront.net 和 https://d1s31zyz7dcc2d.cloudfront.prod.ota-cloudfront.net）以防止更新损坏或移除设备上的 root 权限。对于设备的任何损坏，我概不负责。\n\n## 功能\n- 通过 USB 或 Wi-Fi 获得 root 权限的 ADB shell\n- 录制设备音频\n- 在无互联网的情况下，将您的 Echo 用作 Home Assistant 的指示器\n- 将设备恢复至出厂配置\n\n## 安装\n- 本项目需要 python 3。\n- 推荐使用 Linux 运行此程序。请确保如果安装了 ModemManager，已将其禁用。\n使用 `pip` 安装依赖：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+        "originContent": "> [!IMPORTANT]",
+        "translatedContent": "> [!重要]"
+      },
+      {
+        "row": 2,
+        "rowsha": "blDhHJDRyvERIN6NUtRLUSoqamOLSVYmPImOWVw/gI4=",
+        "originContent": "> If you are looking to root your echo, this project is now obselete; please use the solution documented [here](https://xdaforums.com/t/unlock-root-twrp-unbrick-amazon-echo-dot-2nd-gen-2016-biscuit.4761416/) instead. Thank you so much to everyone who made this possible, it's been so fun to work on this project! :)",
+        "translatedContent": "> 如果您想要获取 echo 的 root 权限，本项目现已废弃；请改用此处文档中介绍的方案 [here](https://xdaforums.com/t/unlock-root-twrp-unbrick-amazon-echo-dot-2nd-gen-2016-biscuit.4761416/)。非常感谢所有使此项目成为可能的人，开发这个项目非常有趣！ :)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Bhtit8KGPMMnQOQCktlEuu1Z24JLjQmx+UUPMtl/rj8=",
+        "originContent": "# EchoCLI",
+        "translatedContent": "# EchoCLI"
+      },
+      {
+        "row": 5,
+        "rowsha": "nO1KlYAV6fxPe9cLHS744I80Ot09Zxf+Jcr37AkJ4rg=",
+        "originContent": "A tethered root solution for your echo dot 2nd generation.",
+        "translatedContent": "针对您的 echo dot 第二代的有线 root 解决方案。"
+      },
+      {
+        "row": 6,
+        "rowsha": "l63jxIaQXFYuGnt7oTsD8F3CaTrDDteR1cpuxRddFrQ=",
+        "originContent": "To start, run `main.py`",
+        "translatedContent": "开始时，运行 `main.py`"
+      },
+      {
+        "row": 7,
+        "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+        "originContent": "<br>",
+        "translatedContent": "<br>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "i4BzBpoGMQp73FVxZKxbG2t+ju6lOVPMDMuuBf/Mi+U=",
+        "originContent": "[<kbd> <br> How does this work? <br> </kbd>](https://dragon863.github.io/blog/echoroot.html)",
+        "translatedContent": "[<kbd> <br> 这如何工作？ <br> </kbd>](https://dragon863.github.io/blog/echoroot.html)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "5iBKKxu2JWQnt9TNU0k3858E40fx84Mcw6rHgZqMnpQ=",
+        "originContent": "## Notice",
+        "translatedContent": "## 注意"
+      },
+      {
+        "row": 12,
+        "rowsha": "X6vxy84TZdmzWXAP+mftZYMf8YyQ+DIEh2qSVhKxGHI=",
+        "originContent": "- Due to software updates being pushed constantly, I cannot guarantee that this will work for your echo. If you encounter any issues, feel free to contact me, and if you find a bug pull requests are welcome.",
+        "translatedContent": "- 由于软件更新持续推送，我无法保证此方法对您的 echo 有效。如果遇到任何问题，欢迎联系我，发现漏洞也欢迎提交 pull request。"
+      },
+      {
+        "row": 13,
+        "rowsha": "QhdzSl7G1Vitvmndz7VHrt2QX4nItZ+3B6xhWb/rWTI=",
+        "originContent": "- It is **strongly** recommended that you run this on a linux machine, as I am unable to test it on Windows and there is no guarantee that Windows-specific bugs are not present",
+        "translatedContent": "- 强烈建议您在 Linux 机器上运行此程序，因为我无法在 Windows 上测试，且不保证不存在 Windows 特定的错误。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "v3O9N1GvvFjCNl5tuDbAsKQHHeSRlGEcW0aNl8mtKSU=",
+        "originContent": "> **Warning**",
+        "translatedContent": "> **警告**"
+      },
+      {
+        "row": 16,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> "
+      },
+      {
+        "row": 17,
+        "rowsha": "Zd+yG4HYAchu0vly4Yr3lnJ8KDj5+DdPuz56cgLFKZM=",
+        "originContent": "> **This is a TETHERED root solution** It is _recommended_ to block amazon's OTA servers (https://d1s31zyz7dcc2d.cloudfront.net and https://d1s31zyz7dcc2d.cloudfront.prod.ota-cloudfront.net) to prevent updates from corrupting or removing root on your device. I am not responsible for any damage to your device",
+        "translatedContent": "> **这是一个有线（TETHERED）root 方案** 建议阻止亚马逊的 OTA 服务器（https://d1s31zyz7dcc2d.cloudfront.net 和 https://d1s31zyz7dcc2d.cloudfront.prod.ota-cloudfront.net）以防止更新损坏或移除设备上的 root 权限。对于设备的任何损坏，我概不负责。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 20,
+        "rowsha": "ZpvFt30msFurqI6X5GmoAShttORO7H7gun/NK4I1bCg=",
+        "originContent": "- Rooted ADB shell over USB or Wi-Fi",
+        "translatedContent": "- 通过 USB 或 Wi-Fi 获得 root 权限的 ADB shell"
+      },
+      {
+        "row": 21,
+        "rowsha": "4/EKWUrdxjYbtorxQQpySQC89TLoNM5GDFoy2+FM+Uk=",
+        "originContent": "- Record audio from device",
+        "translatedContent": "- 录制设备音频"
+      },
+      {
+        "row": 22,
+        "rowsha": "voth4rtJOQ6lI8YvFMTEHk1vTyReeLsyjUIssWE5txM=",
+        "originContent": "- Use your Echo as an indicator for Home Assistant without internet",
+        "translatedContent": "- 在无互联网的情况下，将您的 Echo 用作 Home Assistant 的指示器"
+      },
+      {
+        "row": 23,
+        "rowsha": "NsmTGeIKfpzWdaTDQCOWA3RNxpuiPGF4jfKVeRlzzik=",
+        "originContent": "- Restore your device to factory configuration",
+        "translatedContent": "- 将设备恢复至出厂配置"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "mDBLgkO9nyYfW6eXpRm1Z9h+QbQo1yz1PTdPg+Z5UOE=",
+        "originContent": "## Install",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 26,
+        "rowsha": "eEgZR27SDGupGuY3i7FihMr/5utTLv1jrw943hB1yLk=",
+        "originContent": "- This project requires python 3.",
+        "translatedContent": "- 本项目需要 python 3。"
+      },
+      {
+        "row": 27,
+        "rowsha": "SPdFamX/dLHkBEe1CtdiJ8Pdofr4iYF8asooI5Mbqyw=",
+        "originContent": "- I recommend using linux for running this program. Please ensure you have disabled ModemManager if you have it installed.",
+        "translatedContent": "- 推荐使用 Linux 运行此程序。请确保如果安装了 ModemManager，已将其禁用。"
+      },
+      {
+        "row": 28,
+        "rowsha": "lg3tjZZj+pqeWunrjMt+u04NvNaWs5Pd3LyOAVQxsS4=",
+        "originContent": "Install requirements using `pip`:",
+        "translatedContent": "使用 `pip` 安装依赖："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\npip install -r requirements.txt\n```",
+    "ContentSha": "IyYArEAhzuaBh+lMyOtMI7OuN6+1zHkH/GxKOD25WkM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "- You will also require fastboot and ADB, there is a good guide on how to install these [here](https://wiki.lineageos.org/adb_fastboot_guide). After downloading these you can set the executable path in the config.json file.\n- Please ensure that the micro USB cable you use to connect your echo dot is a data cable and not a power-only variant.\n\n## Documentation\nYou can find how this tool works on [my website](https://dragon863.github.io/blog/echoroot.html).\n\nOnce you have rooted the device, a file called `preloader_no_hdr.bin` will be generated. To boot the device, you will need to install [mtkclient](https://github.com/bkerler/mtkclient), copy the file into its directory and run `python mtk plstage --ptype=kamakiri2 --preloader=preloader_no_hdr.bin`. Replace `python` with `python3` depending on the python version you have installed.\n\n## Home assistant indicator \nWhen using the home assistant indicator feature, I would recommend using a raspberry pi zero w or other small SBC to run the python flask server, and boot the device. You can use crontab to make this happen automatically on boot using mtkclient.\n\n## Bricked your echo?\nFollow the guide [here](https://github.com/Dragon863/EchoCLI/blob/main/debrick.md) to use mtkclient for unbricking a rooted or partially rooted echo\n\n## Thanks\n\nThis project would not have been possible without:\n- [j10hx40r](https://forum.xda-developers.com/m/j10hx40r.11878441/) - For helping me with initially rooting my device, redesigning the patching system and showing me how to use fos_flags in combination and generally pointing me in the right direction when finding resources\n- [xyzz's Amonet](https://github.com/xyzz/amonet) - This is the exploit I have adapted for this device, including the bootrom exploit\n- [chaosmaster](https://github.com/chaosmaster) - Wrote lots of useful amonet code from which I used several snippets, including for fixing my GPT\n\n## Contact me\n- You can email me at dragon863.dev@gmail.com\n- You can start a conversation on [XDA](https://forum.xda-developers.com/m/lemon86.12487447/)\n",
+    "ContentSha": "vNtVB38ReK9HTrD76yyDvoyzO4HCysi+Z71vfrRNEdc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- 您还需要 fastboot 和 ADB，关于如何安装它们，有一个很好的指南[这里](https://wiki.lineageos.org/adb_fastboot_guide)。下载后，您可以在 config.json 文件中设置可执行文件路径。\n- 请确保用于连接 echo dot 的 micro USB 数据线是数据线，而非仅供电线缆。\n\n## 文档\n您可以在[我的网站](https://dragon863.github.io/blog/echoroot.html)上了解该工具的工作原理。\n\n设备完成 root 后，将生成一个名为 `preloader_no_hdr.bin` 的文件。要启动设备，您需要安装 [mtkclient](https://github.com/bkerler/mtkclient)，将该文件复制到其目录下，并运行 `python mtk plstage --ptype=kamakiri2 --preloader=preloader_no_hdr.bin`。根据您安装的 Python 版本，将 `python` 替换为 `python3`。\n\n## Home assistant 指示器\n使用 Home assistant 指示器功能时，建议使用 Raspberry Pi Zero W 或其他小型 SBC 来运行 Python Flask 服务器并启动设备。您可以使用 crontab 设置开机自动通过 mtkclient 启动。\n\n## Echo 变砖了？\n请按照[这里](https://github.com/Dragon863/EchoCLI/blob/main/debrick.md)的指南使用 mtkclient 解砖已 root 或部分 root 的 echo。\n\n## 致谢\n\n本项目离不开以下支持：\n- [j10hx40r](https://forum.xda-developers.com/m/j10hx40r.11878441/) - 帮助我最初 root 设备，重新设计补丁系统，演示如何结合使用 fos_flags，并在寻找资源时指引我方向\n- [xyzz 的 Amonet](https://github.com/xyzz/amonet) - 这是我为本设备改编的漏洞利用代码，包括 bootrom 漏洞\n- [chaosmaster](https://github.com/chaosmaster) - 编写了大量有用的 amonet 代码，我使用了其中多个片段，包括用于修复我的 GPT\n\n## 联系我\n- 您可以发送邮件至 dragon863.dev@gmail.com\n- 您也可以在 [XDA](https://forum.xda-developers.com/m/lemon86.12487447/) 发起对话\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MjX477Nh1p2h/uzORMtCLU+sUqzPmaf8128kcql9GE4=",
+        "originContent": "- You will also require fastboot and ADB, there is a good guide on how to install these [here](https://wiki.lineageos.org/adb_fastboot_guide). After downloading these you can set the executable path in the config.json file.",
+        "translatedContent": "- 您还需要 fastboot 和 ADB，关于如何安装它们，有一个很好的指南[这里](https://wiki.lineageos.org/adb_fastboot_guide)。下载后，您可以在 config.json 文件中设置可执行文件路径。"
+      },
+      {
+        "row": 2,
+        "rowsha": "hiErFNm1SZPeKSRkgTIAO2+E4mVJblwrlwBfml3tZC8=",
+        "originContent": "- Please ensure that the micro USB cable you use to connect your echo dot is a data cable and not a power-only variant.",
+        "translatedContent": "- 请确保用于连接 echo dot 的 micro USB 数据线是数据线，而非仅供电线缆。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## 文档"
+      },
+      {
+        "row": 5,
+        "rowsha": "h8TUcrTDVw3OyDDpdtl9LJEhgJvd36j1fR6MU9ZCyvA=",
+        "originContent": "You can find how this tool works on [my website](https://dragon863.github.io/blog/echoroot.html).",
+        "translatedContent": "您可以在[我的网站](https://dragon863.github.io/blog/echoroot.html)上了解该工具的工作原理。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Or7Hvag7Vgsr/wUKB/FZmgQAxWDxskexKkf2UKqeqic=",
+        "originContent": "Once you have rooted the device, a file called `preloader_no_hdr.bin` will be generated. To boot the device, you will need to install [mtkclient](https://github.com/bkerler/mtkclient), copy the file into its directory and run `python mtk plstage --ptype=kamakiri2 --preloader=preloader_no_hdr.bin`. Replace `python` with `python3` depending on the python version you have installed.",
+        "translatedContent": "设备完成 root 后，将生成一个名为 `preloader_no_hdr.bin` 的文件。要启动设备，您需要安装 [mtkclient](https://github.com/bkerler/mtkclient)，将该文件复制到其目录下，并运行 `python mtk plstage --ptype=kamakiri2 --preloader=preloader_no_hdr.bin`。根据您安装的 Python 版本，将 `python` 替换为 `python3`。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "uYyq46E7jBi09pSErN2+c2G3yNbxtL6h4EbFEPY210Y=",
+        "originContent": "## Home assistant indicator ",
+        "translatedContent": "## Home assistant 指示器"
+      },
+      {
+        "row": 10,
+        "rowsha": "Ob6imxFKfNLQboxe95KBH2pfkgKwMvvf/3lilqNgJ1E=",
+        "originContent": "When using the home assistant indicator feature, I would recommend using a raspberry pi zero w or other small SBC to run the python flask server, and boot the device. You can use crontab to make this happen automatically on boot using mtkclient.",
+        "translatedContent": "使用 Home assistant 指示器功能时，建议使用 Raspberry Pi Zero W 或其他小型 SBC 来运行 Python Flask 服务器并启动设备。您可以使用 crontab 设置开机自动通过 mtkclient 启动。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "5G1E1JbjaHxdSTP1HKZRNbZ2BzSDa/XBaKqMWgOS2KQ=",
+        "originContent": "## Bricked your echo?",
+        "translatedContent": "## Echo 变砖了？"
+      },
+      {
+        "row": 13,
+        "rowsha": "7qmWtSJESBrKaECAN/Nt6VFiYKz4XWQofCCMGGq/I5U=",
+        "originContent": "Follow the guide [here](https://github.com/Dragon863/EchoCLI/blob/main/debrick.md) to use mtkclient for unbricking a rooted or partially rooted echo",
+        "translatedContent": "请按照[这里](https://github.com/Dragon863/EchoCLI/blob/main/debrick.md)的指南使用 mtkclient 解砖已 root 或部分 root 的 echo。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Hlc2b08rg0LOEYZFWHgWTiwJnUG0U95FbBqSFSDg31k=",
+        "originContent": "## Thanks",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "WsP5zcV4n3cf8rdj39SXqjt/kOPbnpV+zA8IveaJWqw=",
+        "originContent": "This project would not have been possible without:",
+        "translatedContent": "本项目离不开以下支持："
+      },
+      {
+        "row": 18,
+        "rowsha": "aeNGK/A0XnsokGsyC159ZbZ3GZpS7CyOy/OxC3QMUlA=",
+        "originContent": "- [j10hx40r](https://forum.xda-developers.com/m/j10hx40r.11878441/) - For helping me with initially rooting my device, redesigning the patching system and showing me how to use fos_flags in combination and generally pointing me in the right direction when finding resources",
+        "translatedContent": "- [j10hx40r](https://forum.xda-developers.com/m/j10hx40r.11878441/) - 帮助我最初 root 设备，重新设计补丁系统，演示如何结合使用 fos_flags，并在寻找资源时指引我方向"
+      },
+      {
+        "row": 19,
+        "rowsha": "bvXNysxdrPz+fikZXQ2MO+5ulaBvVMohxqnQ6JnvpsU=",
+        "originContent": "- [xyzz's Amonet](https://github.com/xyzz/amonet) - This is the exploit I have adapted for this device, including the bootrom exploit",
+        "translatedContent": "- [xyzz 的 Amonet](https://github.com/xyzz/amonet) - 这是我为本设备改编的漏洞利用代码，包括 bootrom 漏洞"
+      },
+      {
+        "row": 20,
+        "rowsha": "Yreflb+teReoJH3kOFtSUmLcEc1tvg5nZ+h8PrIm/zg=",
+        "originContent": "- [chaosmaster](https://github.com/chaosmaster) - Wrote lots of useful amonet code from which I used several snippets, including for fixing my GPT",
+        "translatedContent": "- [chaosmaster](https://github.com/chaosmaster) - 编写了大量有用的 amonet 代码，我使用了其中多个片段，包括用于修复我的 GPT"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "NC9urVPb87TEYPwrAnKPJjn8b1LIVgT8ool7lOnNbaE=",
+        "originContent": "## Contact me",
+        "translatedContent": "## 联系我"
+      },
+      {
+        "row": 23,
+        "rowsha": "irbYKLS3BZHyc9Bp6e4e9Uo5IDhPRixKu9ojIQbSMW4=",
+        "originContent": "- You can email me at dragon863.dev@gmail.com",
+        "translatedContent": "- 您可以发送邮件至 dragon863.dev@gmail.com"
+      },
+      {
+        "row": 24,
+        "rowsha": "35JCAP1yar9l17Ii2jw4PFcqm9mtsPa47oZmW8cFppg=",
+        "originContent": "- You can start a conversation on [XDA](https://forum.xda-developers.com/m/lemon86.12487447/)",
+        "translatedContent": "- 您也可以在 [XDA](https://forum.xda-developers.com/m/lemon86.12487447/) 发起对话"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

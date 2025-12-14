@@ -103,46 +103,46 @@ Nel tuo browser:
 ```bash
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
-
-- vai su `about:addons` nel tuo browser
+- vai su `about:debugging#/runtime/this-firefox` nel tuo browser
 - clicca sul pulsante delle impostazioni e vai su `Debug addons`.
-- clicca su `Carica componente aggiuntivo temporaneo`
-- seleziona il file `/tmp/rosettastonks.xpi` nel selettore di file.
+- clicca su `Load Temporary Add-On`
+- seleziona il file `/tmp/rosettastonks.xpi` nel selettore file.
 
 _Avviso: Questo metodo installa l'estensione solo temporaneamente, il che significa che se
-chiudi il browser, il componente aggiuntivo verrà disinstallato. Questo è dovuto alle
-politiche di Firefox che non permettono l'uso di estensioni non verificate._
+chiudi il browser, l'addon verrà disinstallato. Questo è dovuto alle politiche di Firefox
+che non consentono di usare estensioni non verificate._
 
-## Come utilizzare
+## Come usare
 
 ### Aggiunta del tempo
 
 #### Aggiunta del tempo in Foundations
 
 Per aggiungere tempo al prodotto `foundations`, devi andare nei tuoi esercizi e
-cliccare su ignora o risolvi almeno una domanda. Una volta fatto ciò, dovrebbe apparire
-un campo per il tempo nella pagina dell'estensione dove puoi aggiungere il tuo tempo.
+cliccare su ignora o risolvi almeno una domanda. Una volta fatto ciò, dovrebbe apparire un campo per il tempo
+nella pagina dell'estensione dove puoi aggiungere il tuo tempo.
 
 #### Aggiunta del tempo in Fluency builder
 
 Per aggiungere tempo al prodotto `fluency builder`, devi andare nei tuoi esercizi e
-rispondere ad almeno un esercizio. Se il campo di aggiunta tempo non appare, significa
-che non è stata intercettata alcuna richiesta di tempo, devi ricaricare la domanda e rispondere
-nuovamente. Per avere il tempo aggiunto, devi terminare la lezione che hai usato per
-aggiungere il tempo.
+rispondere almeno a un esercizio. Se il campo aggiungi tempo non appare, significa
+che non è stata intercettata alcuna richiesta di tempo, devi aggiornare la domanda e rispondere
+di nuovo. Per aggiungere il tempo, devi completare la lezione in cui hai aggiunto il tempo.
 
-_Nota: Se non vedi il campo di aggiunta tempo, significa che le azioni che hai
-fatto sul sito Rosetta Stone non hanno portato ad aggiungere tempo legittimo, e quindi,
+_Nota: Se non vedi il campo aggiungi tempo, significa che le azioni che hai effettuato
+sul sito Rosetta Stone non hanno portato all'aggiunta di tempo legittimo, quindi
 devi rispondere ad altre domande._
 
 ### Validazione della lezione
 
 #### Validazione della lezione in Foundations
 
-Per validare una lezione, occorre iniziare una lezione e passare attraverso tutte le
+Per validare una lezione, bisogna iniziare una lezione e passare tutte le
 domande tramite il pulsante `ignora` in basso a destra. Una volta che tutte le
-domande sono state viste, cliccando il pulsante `valida lezione` dovrebbe validare
-la lezione. Se non funziona, torna alla tua home page, clicca sulla stessa lezione, essa
+domande sono state visualizzate, cliccando sul pulsante `validate lesson` si dovrebbe validare
+la lezione. Se non succede, torna alla tua home page, clicca sulla stessa lezione, essa
+
+
 dovrebbe chiederti `Vuoi continuare o resettare?`, puoi scegliere entrambi, e
 validare la lezione di nuovo fino a quando funziona. Dovrebbe funzionare dopo un massimo di 3/4 volte.
 
@@ -193,12 +193,13 @@ $ make firefox
 ```
 
 Questo produrrà `rosettastonks.xpi`, il file dell'estensione che può essere
-caricato in Firefox.
+caricato in firefox.
 
-📸 Preferisci contenuti visivi? Consulta la [Guida all'installazione su Chrome con immagini](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
+📸 Preferisci i contenuti visivi? Consulta la [Guida all'installazione su Chrome con immagini](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---

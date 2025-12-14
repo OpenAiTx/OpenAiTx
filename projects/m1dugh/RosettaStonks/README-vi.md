@@ -103,15 +103,14 @@ Trên trình duyệt của bạn:
 ```bash
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
-
-- truy cập `about:addons` trong trình duyệt của bạn
-- nhấn nút cài đặt và vào `Debug addons`.
+- đi tới `about:debugging#/runtime/this-firefox` trong trình duyệt của bạn
+- nhấn nút cài đặt và đi tới `Debug addons`.
 - nhấn `Load Temporary Add-On`
-- chọn tệp `/tmp/rosettastonks.xpi` trong trình chọn tệp.
+- chọn tệp `/tmp/rosettastonks.xpi` trong bộ chọn tệp.
 
 _Cảnh báo: Phương pháp này chỉ cài đặt tiện ích mở rộng tạm thời, nghĩa là nếu
 bạn đóng trình duyệt, addon sẽ bị gỡ cài đặt. Điều này là do chính sách của firefox
-không cho phép sử dụng các tiện ích chưa được xác minh._
+không cho phép sử dụng các tiện ích mở rộng chưa được xác minh._
 
 ## Cách sử dụng
 
@@ -119,29 +118,30 @@ không cho phép sử dụng các tiện ích chưa được xác minh._
 
 #### Thêm thời gian trong Foundations
 
-Để thêm thời gian vào sản phẩm `foundations`, bạn cần vào các bài tập của mình, và
-nhấn bỏ qua hoặc giải ít nhất một câu hỏi. Khi hoàn thành, một trường thời gian
-sẽ xuất hiện trên trang tiện ích để bạn thêm thời gian của mình.
+Để thêm thời gian vào sản phẩm `foundations`, bạn cần vào phần bài tập của mình, và
+nhấn bỏ qua hoặc giải quyết ít nhất một câu hỏi. Khi hoàn tất, một trường thời gian
+sẽ xuất hiện trên trang tiện ích mở rộng để bạn thêm thời gian.
 
 #### Thêm thời gian trong Fluency builder
 
-Để thêm thời gian vào sản phẩm `fluency builder`, bạn cần vào các bài tập của mình, và
+Để thêm thời gian vào sản phẩm `fluency builder`, bạn cần vào phần bài tập của mình, và
 trả lời ít nhất một bài tập. Nếu trường thêm thời gian không xuất hiện, nghĩa là
-chưa có yêu cầu thời gian nào được ghi nhận, bạn cần làm mới câu hỏi và trả lời lại.
-Để thời gian được cộng vào, bạn cần hoàn thành bài học mà bạn dùng để thêm thời gian.
+không có yêu cầu thời gian nào được ghi nhận, bạn cần làm mới câu hỏi và trả lời lại.
+Để thời gian được thêm vào, bạn cần hoàn thành bài học mà bạn đã dùng để thêm thời gian.
 
-_Lưu ý: Nếu bạn không thấy trường thêm thời gian, nghĩa là các hành động bạn thực hiện
-trên trang Rosetta stone không dẫn đến việc cộng thời gian hợp lệ, do đó,
+_Lưu ý: Nếu bạn không thấy trường thêm thời gian, nghĩa là hành động của bạn
+trên trang web Rosetta stone không dẫn đến việc thêm thời gian hợp lệ, do đó,
 bạn cần trả lời các câu hỏi khác._
 
-### Xác thực bài học
+### Xác nhận bài học
 
-#### Xác thực bài học trong Foundations
+#### Xác nhận bài học trong Foundations
 
-Để xác thực một bài học, bạn cần bắt đầu một bài học, và đi qua tất cả các
-câu hỏi bằng nút `ignore` ở góc dưới bên phải. Khi đã xem hết các câu hỏi,
-nhấn nút `validate lesson` sẽ xác thực bài học. Nếu không được, hãy quay lại trang chủ,
-nhấn vào cùng một bài học, nó
+Để xác nhận một bài học, bạn cần bắt đầu một bài học, và đi qua tất cả các
+câu hỏi bằng nút `ignore` ở góc dưới bên phải. Khi tất cả các
+câu hỏi đã được xem, nhấn nút `validate lesson` sẽ xác nhận
+bài học. Nếu không, quay lại trang chủ của bạn, nhấn vào cùng một bài học, nó
+
 
 nên hỏi bạn `Bạn có muốn tiếp tục hay đặt lại không?`, bạn có thể chọn cả hai, và
 xác thực bài học lại cho đến khi nó hoạt động. Nó sẽ hoạt động sau tối đa 3/4 lần.
@@ -192,13 +192,14 @@ $ make chrome
 $ make firefox
 ```
 
-Điều này sẽ tạo ra `rosettastonks.xpi`, là tệp mở rộng có thể được
+Điều này sẽ tạo ra `rosettastonks.xpi`, tệp cho tiện ích mở rộng có thể được
 tải vào firefox.
 
-📸 Bạn thích hình ảnh? Xem [Hướng Dẫn Cài Đặt Chrome kèm Hình Ảnh](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
+📸 Thích hình ảnh hơn? Xem [Hướng dẫn Cài đặt Chrome có Hình ảnh](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---

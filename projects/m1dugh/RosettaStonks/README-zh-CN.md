@@ -103,42 +103,42 @@ $ nix build --out-link "/tmp/rosettastonks" github:m1dugh/RosettaStonks#chrome
 ```bash
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
-- 进入浏览器中的 `about:addons` 页面  
-- 点击设置按钮，进入 `调试插件`。  
-- 点击 `加载临时插件`  
-- 在文件选择器中选择 `/tmp/rosettastonks.xpi` 文件。  
+- 在浏览器中进入 `about:debugging#/runtime/this-firefox`
+- 点击设置按钮并进入 `Debug addons`。
+- 点击 `Load Temporary Add-On`
+- 在文件选择器中选择 `/tmp/rosettastonks.xpi` 文件。
 
-_警告：此方法仅临时安装扩展，意味着如果关闭浏览器，插件将被卸载。  
-这是因为 Firefox 政策不允许使用未验证的扩展。_  
+_警告：此方法仅临时安装扩展程序，意味着如果关闭浏览器，插件将被卸载。这是因为 Firefox 的政策不允许使用未验证的扩展程序。_
 
-## 如何使用  
+## 如何使用
 
-### 添加时间  
+### 添加时间
 
-#### 在 Foundations 中添加时间  
+#### 在 Foundations 中添加时间
 
-要在 `foundations` 产品中添加时间，需要进入你的练习，  
-至少点击忽略或解决一个问题。完成后，扩展页面上  
-应出现一个时间字段，你可以在此添加时间。  
+要在 `foundations` 产品上添加时间，你需要进入你的练习，并至少点击忽略或解决一个问题。完成后，扩展页面上应会出现一个时间字段，你可以在其中添加你的时间。
 
-#### 在 Fluency builder 中添加时间  
+#### 在 Fluency builder 中添加时间
 
-要在 `fluency builder` 产品中添加时间，需要进入你的练习，  
-至少完成一个练习。如果未出现添加时间字段，说明  
-未捕获到时间请求，你需要刷新问题并再次回答。  
-要使时间被添加，需要完成你用来添加时间的课程。  
+要在 `fluency builder` 产品上添加时间，你需要进入你的练习，并至少回答一个练习。如果未出现添加时间字段，说明没有捕捉到时间请求，你需要刷新题目并再次回答。要使时间被添加，你需要完成你用于添加时间的课程。
 
-_注意：如果看不到添加时间字段，说明你在 Rosetta stone 网站上的操作  
-未导致添加合法时间，因此需要回答其他问题。_  
+_注意：如果未看到添加时间字段，说明你在 Rosetta Stone 网站上的操作未导致添加合法时间，因此需要回答其他问题。_
 
-### 验证课程  
+### 验证课程
 
-#### 在 Foundations 中验证课程  
+#### 在 Foundations 中验证课程
 
-要验证课程，需要开始一个课程，  
-通过右下角的 `忽略` 按钮完成所有问题。  
-所有问题浏览完毕后，点击 `验证课程` 按钮应能验证课程。  
-如果不能，返回主页，点击同一课程，继续操作。
+要验证课程，需要开始一个课程，并通过右下角的 `ignore` 按钮浏览所有问题。所有问题浏览完后，点击 `validate lesson` 按钮即可验证课程。如果未验证，返回主页，点击同一个课程，它
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -194,11 +194,12 @@ $ make firefox
 
 这将生成 `rosettastonks.xpi`，这是可以在 Firefox 中加载的扩展文件。
 
-📸 更喜欢视觉效果？请查看[带图片的 Chrome 安装指南](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
+📸 更喜欢可视化操作？请查看[带图片的 Chrome 安装指南](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---

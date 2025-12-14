@@ -103,44 +103,44 @@ Di browser Anda:
 ```bash
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
-- buka `about:addons` di browser Anda
-- klik tombol pengaturan dan pergi ke `Debug addons`.
+- buka `about:debugging#/runtime/this-firefox` di browser Anda
+- klik tombol pengaturan dan masuk ke `Debug addons`.
 - klik `Load Temporary Add-On`
 - pilih file `/tmp/rosettastonks.xpi` di pemilih file.
 
-_Peringatan: Metode ini hanya menginstal ekstensi secara sementara, artinya jika
-Anda menutup browser, addon akan dihapus. Hal ini disebabkan oleh kebijakan firefox
-yang tidak mengizinkan ekstensi yang belum diverifikasi untuk digunakan._
+_Peringatan: Metode ini hanya memasang ekstensi secara sementara, artinya jika
+Anda menutup browser, addon akan dihapus. Hal ini disebabkan oleh kebijakan
+firefox yang tidak mengizinkan ekstensi yang tidak terverifikasi untuk digunakan._
 
 ## Cara menggunakan
 
-### Menambah waktu
+### Menambahkan waktu
 
-#### Menambah waktu di Foundations
+#### Menambahkan waktu di Foundations
 
-Untuk menambah waktu pada produk `foundations`, Anda perlu pergi ke latihan Anda, dan
-klik abaikan atau selesaikan setidaknya satu pertanyaan. Setelah itu dilakukan, kolom waktu
-akan muncul di halaman ekstensi di mana Anda dapat menambahkan waktu Anda.
+Untuk menambahkan waktu pada produk `foundations`, Anda perlu masuk ke latihan Anda, dan
+klik abaikan atau selesaikan setidaknya satu pertanyaan. Setelah ini selesai, kolom waktu
+harus muncul di halaman ekstensi di mana Anda dapat menambahkan waktu Anda.
 
-#### Menambah waktu di Fluency builder
+#### Menambahkan waktu di Fluency builder
 
-Untuk menambah waktu pada produk `fluency builder`, Anda perlu pergi ke latihan Anda, dan
-menjawab setidaknya satu latihan. Jika kolom tambah waktu tidak muncul, artinya
-tidak ada permintaan waktu yang tertangkap, Anda perlu menyegarkan pertanyaan dan menjawabnya
-sekali lagi. Agar waktu dapat ditambahkan, Anda harus menyelesaikan pelajaran yang Anda gunakan untuk
+Untuk menambahkan waktu pada produk `fluency builder`, Anda perlu masuk ke latihan Anda, dan
+menjawab setidaknya satu latihan. Jika kolom tambah waktu tidak muncul, itu berarti
+tidak ada permintaan waktu yang tertangkap, Anda perlu memuat ulang pertanyaan dan menjawabnya
+sekali lagi. Agar waktu ditambahkan, Anda perlu menyelesaikan pelajaran yang Anda gunakan untuk
 menambah waktu.
 
-_Catatan: Jika Anda tidak melihat kolom tambah waktu, artinya tindakan yang Anda lakukan
-di situs web Rosetta stone tidak menghasilkan penambahan waktu yang sah, sehingga,
-Anda harus menjawab pertanyaan lain._
+_Catatan: Jika Anda tidak melihat kolom tambah waktu, itu berarti tindakan yang Anda lakukan
+di situs Rosetta Stone tidak menghasilkan penambahan waktu yang sah, dan oleh karena itu,
+Anda perlu menjawab pertanyaan lain._
 
 ### Validasi pelajaran
 
 #### Validasi pelajaran di Foundations
 
-Untuk memvalidasi pelajaran, seseorang harus memulai pelajaran, dan melalui semua
-pertanyaan menggunakan tombol `abaikan` di kanan bawah. Setelah semua
-pertanyaan telah dilihat, klik tombol `validasi pelajaran` untuk memvalidasi
+Untuk memvalidasi pelajaran, seseorang perlu memulai pelajaran, dan melewati semua
+pertanyaan melalui tombol `ignore` di kanan bawah. Setelah semua
+pertanyaan telah dilihat, klik tombol `validate lesson` harus memvalidasi
 pelajaran. Jika tidak, kembali ke halaman utama Anda, klik pada pelajaran yang sama, itu
 
 harus menanyakan kepada Anda `Apakah Anda ingin melanjutkan atau mereset?`, Anda dapat memilih keduanya, dan
@@ -197,8 +197,9 @@ dimuat di firefox.
 
 📸 Lebih suka visual? Lihat [Panduan Instalasi Chrome dengan Gambar](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---

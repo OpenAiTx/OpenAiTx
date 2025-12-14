@@ -103,46 +103,46 @@ Dans votre navigateur :
 ```bash
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
-- allez à `about:addons` dans votre navigateur  
-- cliquez sur le bouton des paramètres et allez à `Déboguer les modules complémentaires`.  
-- cliquez sur `Charger un module complémentaire temporaire`  
-- sélectionnez le fichier `/tmp/rosettastonks.xpi` dans le sélecteur de fichiers.  
 
-_Attention : Cette méthode installe l’extension uniquement temporairement, ce qui signifie que si  
-vous fermez votre navigateur, le module complémentaire sera désinstallé. Cela est dû aux politiques  
-de Firefox qui n’autorisent pas l’utilisation d’extensions non vérifiées._  
+- allez à `about:debugging#/runtime/this-firefox` dans votre navigateur
+- cliquez sur le bouton paramètres et allez à `Déboguer les modules complémentaires`.
+- cliquez sur `Charger un module complémentaire temporaire`
+- sélectionnez le fichier `/tmp/rosettastonks.xpi` dans le sélecteur de fichiers.
 
-## Comment utiliser  
+_Avertissement : Cette méthode installe uniquement l'extension temporairement, c'est-à-dire que si
+vous fermez votre navigateur, le module complémentaire sera désinstallé. Ceci est dû aux politiques de Firefox
+qui n'autorisent pas l'utilisation des extensions non vérifiées._
 
-### Ajouter du temps  
+## Comment utiliser
 
-#### Ajouter du temps dans Foundations  
+### Ajouter du temps
 
-Pour ajouter du temps sur le produit `foundations`, vous devez aller à vos exercices, et  
-cliquer sur ignorer ou résoudre au moins une question. Une fois cela fait, un champ de temps  
-devrait apparaître sur la page de l’extension où vous pouvez ajouter votre temps.  
+#### Ajouter du temps dans Foundations
 
-#### Ajouter du temps dans Fluency builder  
+Pour ajouter du temps sur le produit `foundations`, vous devez aller dans vos exercices et
+cliquer sur ignorer ou résoudre au moins une question. Une fois cela fait, un champ de temps
+devrait apparaître sur la page de l'extension où vous pourrez ajouter votre temps.
 
-Pour ajouter du temps sur le produit `fluency builder`, vous devez aller à vos exercices, et  
-répondre à au moins un exercice. Si le champ d’ajout de temps n’apparaît pas, cela signifie  
-qu’aucune demande de temps n’a été détectée, vous devez actualiser la question et y répondre  
-à nouveau. Pour que le temps soit ajouté, vous devez terminer la leçon que vous avez utilisée  
-pour ajouter du temps.  
+#### Ajouter du temps dans Fluency builder
 
-_Remarque : Si vous ne voyez pas le champ d’ajout de temps, cela signifie que les actions que vous avez prises  
-sur le site Rosetta Stone n’ont pas conduit à l’ajout de temps légitime, et par conséquent,  
-vous devez répondre à d’autres questions._  
+Pour ajouter du temps sur le produit `fluency builder`, vous devez aller dans vos exercices et
+répondre à au moins un exercice. Si le champ d'ajout de temps n'apparaît pas, cela signifie
+qu'aucune requête de temps n'a été détectée, vous devez actualiser la question et y répondre
+à nouveau. Pour que le temps soit ajouté, vous devez terminer la leçon dans laquelle vous avez
+ajouté du temps.
 
-### Valider la leçon  
+_Remarque : Si vous ne voyez pas le champ d'ajout de temps, cela signifie que les actions que vous avez faites
+sur le site Rosetta Stone n'ont pas permis d'ajouter du temps légitime, et par conséquent,
+vous devez répondre à d'autres questions._
 
-#### Valider la leçon dans Foundations  
+### Validation d'une leçon
 
-Pour valider une leçon, il faut commencer une leçon, et passer par toutes les  
-questions en utilisant le bouton `ignorer` en bas à droite. Une fois que toutes les  
-questions ont été vues, cliquer sur le bouton `valider la leçon` devrait valider  
-la leçon. Sinon, retournez à votre page d’accueil, cliquez sur la même leçon, il
+#### Validation d'une leçon dans Foundations
 
+Pour valider une leçon, il faut commencer une leçon et passer par toutes les
+questions en utilisant le bouton `ignorer` en bas à droite. Une fois que toutes les
+questions ont été vues, cliquer sur le bouton `valider la leçon` devrait valider
+la leçon. Sinon, retournez à votre page d'accueil, cliquez sur la même leçon, elle
 devrait vous demander `Voulez-vous continuer ou réinitialiser ?`, vous pouvez choisir les deux, et  
 valider la leçon à nouveau jusqu'à ce que cela fonctionne. Cela devrait fonctionner après 3/4 tentatives maximum.  
 
@@ -192,13 +192,14 @@ Pour empaqueter l'extension pour Firefox, la commande suivante peut être exécu
 $ make firefox
 ```
 
-Ce qui produira `rosettastonks.xpi`, le fichier de l'extension pouvant être
-chargée dans Firefox.
+Cela produira `rosettastonks.xpi`, le fichier de l’extension pouvant être
+chargé dans Firefox.
 
 📸 Vous préférez les visuels ? Consultez le [Guide d'installation Chrome avec images](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---

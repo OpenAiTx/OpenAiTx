@@ -104,14 +104,14 @@ In je browser:
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
 
-- ga naar `about:addons` in je browser
-- klik op de instellingenknop en ga naar `Add-ons debuggen`.
-- klik op `Tijdelijke add-on laden`
-- selecteer het bestand `/tmp/rosettastonks.xpi` in de bestandskiezer.
+- ga naar `about:debugging#/runtime/this-firefox` in je browser
+- klik op de instellingenknop en ga naar `Debug addons`.
+- klik op `Load Temporary Add-On`
+- selecteer het `/tmp/rosettastonks.xpi` bestand in de bestandskiezer.
 
 _Waarschuwing: Deze methode installeert de extensie slechts tijdelijk, wat betekent dat als
-je de browser sluit, de add-on wordt verwijderd. Dit komt door het beleid van Firefox
-dat niet-geverifieerde extensies niet toestaat._
+je je browser sluit, de addon wordt verwijderd. Dit komt door het beleid van Firefox
+dat het gebruik van niet-geverifieerde extensies niet toestaat._
 
 ## Hoe te gebruiken
 
@@ -119,30 +119,30 @@ dat niet-geverifieerde extensies niet toestaat._
 
 #### Tijd toevoegen in Foundations
 
-Om tijd toe te voegen aan het product `foundations`, moet je naar je oefeningen gaan en
-op negeren of oplossen van ten minste één vraag klikken. Zodra dit is gebeurd, zou er een tijdveld
-op de extensiepagina moeten verschijnen waarop je je tijd kunt toevoegen.
+Om tijd toe te voegen aan het `foundations` product, moet je naar je oefeningen gaan en
+ten minste één vraag negeren of oplossen. Zodra dit is gedaan, zou er een tijdveld
+moeten verschijnen op de extensiepagina waarop je je tijd kunt toevoegen.
 
 #### Tijd toevoegen in Fluency builder
 
-Om tijd toe te voegen aan het product `fluency builder`, moet je naar je oefeningen gaan en
-minstens één oefening beantwoorden. Als het tijd toevoegen-veld niet verschijnt, betekent dit
-dat er geen tijdverzoek is opgevangen; je moet de vraag verversen en opnieuw beantwoorden. Om de tijd toe te voegen, moet je de les afronden waarin je tijd hebt toegevoegd.
+Om tijd toe te voegen aan het `fluency builder` product, moet je naar je oefeningen gaan en
+minstens één oefening beantwoorden. Als het tijd toevoegen-veld niet verschijnt, betekent
+dit dat er geen tijdsverzoek is geregistreerd; je moet de vraag verversen en opnieuw
+beantwoorden. Om de tijd toe te voegen, moet je de les afronden waarin je tijd hebt
+toegevoegd.
 
-_Notitie: Als je het tijd toevoegen-veld niet ziet, betekent dit dat de acties die je hebt uitgevoerd
-op de Rosetta Stone-website niet hebben geleid tot het toevoegen van legitieme tijd, en moet je dus andere vragen beantwoorden._
+_Noot: Als je het tijd toevoegen-veld niet ziet, betekent dit dat de acties die je hebt
+ondernomen op de Rosetta Stone-website niet hebben geleid tot het toevoegen van geldige tijd,
+en moet je andere vragen beantwoorden._
 
 ### Les valideren
 
 #### Les valideren in Foundations
 
-Om een les te valideren, moet je een les starten en door alle
-vragen gaan via de knop `negeren` rechtsonder. Zodra alle
-vragen zijn bekeken, zou het klikken op de knop `les valideren` de les moeten valideren. Zo niet, ga dan terug naar je startpagina, klik op dezelfde les, het
-
-
-
-
+Om een les te valideren, moet je een les starten en alle vragen doorlopen via de
+`negeren` knop rechtsonder. Zodra alle vragen zijn gezien, zou het klikken op de
+`les valideren` knop de les moeten valideren. Zo niet, ga dan terug naar je startpagina,
+klik op dezelfde les, het
 moet je vragen `Wilt u doorgaan of opnieuw instellen?`, je kunt beide kiezen, en
 de les opnieuw valideren totdat het werkt. Het zou na maximaal 3/4 pogingen moeten werken.
 
@@ -192,13 +192,14 @@ Om de extensie voor Firefox te verpakken, kan het volgende commando worden uitge
 $ make firefox
 ```
 
-Hierdoor wordt `rosettastonks.xpi` geproduceerd, het bestand voor de extensie die kan worden
+Hierdoor wordt `rosettastonks.xpi` geproduceerd, het bestand voor de extensie dat kan worden
 geladen in Firefox.
 
 📸 Liever visueel? Bekijk de [Chrome Installatiegids met Afbeeldingen](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---

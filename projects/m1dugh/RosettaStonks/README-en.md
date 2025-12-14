@@ -103,46 +103,46 @@ In your browser:
 ```bash
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
-- go to `about:addons` in your browser  
-- click the settings button and go to `Debug addons`.  
-- click `Load Temporary Add-On`  
-- select the `/tmp/rosettastonks.xpi` file in the file picker.  
 
-_Warning: This method only installs the extension temporarily, meaning that if  
-you close your browser, the addon will be uninstalled. This is due to firefox  
-policies not allowing unverified extensions to be used._  
+- go to `about:debugging#/runtime/this-firefox` in your browser
+- click the settings button and go to `Debug addons`.
+- click `Load Temporary Add-On`
+- select the `/tmp/rosettastonks.xpi` file in the file picker.
 
-## How to use  
+_Warning: This method only installs the extension temporarily, meaning that if
+you close your browser, the addon will be uninstalled. This is due to firefox
+policies not allowing unverified extensions to be used._
 
-### Adding time  
+## How to use
 
-#### Adding time in Foundations  
+### Adding time
 
-To add time on `foundations` product, you need to go to your exercises, and  
-click ignore or resolve one question at least. Once this is done, a time field  
-should appear on the extension page on which you can add your time.  
+#### Adding time in Foundations
 
-#### Adding time in Fluency builder  
+To add time on the `foundations` product, you need to go to your exercises, and
+click ignore or resolve at least one question. Once this is done, a time field
+should appear on the extension page where you can add your time.
 
-To add time on `fluency builder` product, you need to go to your exercises, and  
-answer at least one exercise. If the add time field does not appear, it means  
-that no time request was caught, you need to refresh the question and answer it  
-once again. To have the time added, you need to finish the lesson you used to  
-add time.  
+#### Adding time in Fluency builder
 
-_Note: If you don't see the add time field, it means that the actions you took  
-on Rosetta stone website did not lead to adding legitimate time, and therefore,  
-you need to answer other questions._  
+To add time on the `fluency builder` product, you need to go to your exercises, and
+answer at least one exercise. If the add time field does not appear, it means
+that no time request was caught; you need to refresh the question and answer it
+again. To have the time added, you need to finish the lesson where you used to
+add time.
 
-### Validating lesson  
+_Note: If you don't see the add time field, it means that the actions you took
+on the Rosetta Stone website did not lead to adding legitimate time, and therefore,
+you need to answer other questions._
 
-#### Validating lesson in Foundations  
+### Validating lesson
 
-To validate a lesson, one needs to start a lesson, and go through all of the  
-questions through the `ignore` button on the bottom right. Once all the  
-questions have been seen, clicking the `validate lesson` button should validate  
+#### Validating lesson in Foundations
+
+To validate a lesson, you need to start a lesson and go through all of the
+questions using the `ignore` button on the bottom right. Once all the
+questions have been seen, clicking the `validate lesson` button should validate
 the lesson. If not, go back to your home page, click on the same lesson, it
-
 should ask you `Do you want to continue or reset ?`, you can choose both, and  
 validate lesson again until it works. It should work after 3/4 times maximum.  
 
@@ -192,13 +192,14 @@ To package the extension for Firefox, the following command can be run:
 $ make firefox
 ```
 
-Which will produce `rosettastonks.xpi`, the file for the extension that can be
+This will produce `rosettastonks.xpi`, the file for the extension that can be
 loaded in Firefox.
 
 📸 Prefer visuals? Check out the [Chrome Installation Guide with Images](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---

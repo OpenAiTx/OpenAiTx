@@ -103,48 +103,46 @@ In Ihrem Browser:
 ```bash
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
-- Gehen Sie in Ihrem Browser zu `about:addons`
-- Klicken Sie auf die Schaltfläche Einstellungen und gehen Sie zu `Addons debuggen`.
+- Gehen Sie in Ihrem Browser zu `about:debugging#/runtime/this-firefox`
+- Klicken Sie auf die Einstellungen und gehen Sie zu `Debug Addons`.
 - Klicken Sie auf `Temporäres Add-On laden`
 - Wählen Sie die Datei `/tmp/rosettastonks.xpi` im Dateiauswahlfenster aus.
 
-_Warnung: Diese Methode installiert die Erweiterung nur vorübergehend. Wenn Sie
-Ihren Browser schließen, wird das Addon deinstalliert. Dies liegt an den
-Firefox-Richtlinien, die die Verwendung nicht verifizierter Erweiterungen nicht erlauben._
+_Warnung: Diese Methode installiert die Erweiterung nur vorübergehend. Das bedeutet, dass das Addon deinstalliert wird, wenn Sie Ihren Browser schließen. Dies liegt an den Firefox-Richtlinien, die nicht verifizierte Erweiterungen nicht zulassen._
 
-## Anwendung
+## Verwendung
 
 ### Zeit hinzufügen
 
-#### Zeit hinzufügen bei Foundations
+#### Zeit hinzufügen in Foundations
 
-Um Zeit im Produkt `Foundations` hinzuzufügen, müssen Sie zu Ihren Übungen gehen
-und mindestens eine Frage ignorieren oder lösen. Sobald dies geschehen ist,
-sollte ein Zeitfeld auf der Erweiterungsseite erscheinen, in das Sie Ihre Zeit
-eintragen können.
+Um Zeit im Produkt `foundations` hinzuzufügen, müssen Sie zu Ihren Übungen gehen und
+mindestens eine Frage ignorieren oder lösen. Sobald dies erledigt ist, sollte ein Zeitfeld
+auf der Erweiterungsseite erscheinen, in das Sie Ihre Zeit eintragen können.
 
-#### Zeit hinzufügen bei Fluency Builder
+#### Zeit hinzufügen im Fluency Builder
 
-Um Zeit im Produkt `Fluency Builder` hinzuzufügen, müssen Sie zu Ihren Übungen
-gehen und mindestens eine Übung beantworten. Wenn das Feld zum Hinzufügen der
-Zeit nicht erscheint, bedeutet das, dass keine Zeit-Anfrage erfasst wurde. Sie
-müssen die Frage aktualisieren und erneut beantworten. Damit die Zeit
-hinzugefügt wird, müssen Sie die Lektion abschließen, in der Sie die Zeit
+Um Zeit im Produkt `fluency builder` hinzuzufügen, müssen Sie zu Ihren Übungen gehen und
+mindestens eine Übung beantworten. Falls das Zeitfeld nicht erscheint, bedeutet das,
+dass keine Zeit-Anfrage erkannt wurde. Sie müssen die Frage neu laden und erneut beantworten.
+Damit die Zeit hinzugefügt wird, müssen Sie die Lektion abschließen, in der Sie Zeit
 hinzugefügt haben.
 
-_Hinweis: Wenn Sie das Feld zum Hinzufügen der Zeit nicht sehen, bedeutet das,
-dass die Aktionen auf der Rosetta Stone Webseite nicht zum Hinzufügen
-legitimer Zeit geführt haben. Sie müssen daher andere Fragen beantworten._
+_Hinweis: Wenn Sie das Zeitfeld nicht sehen, bedeutet das, dass Ihre Aktionen auf der
+Rosetta Stone Website nicht dazu geführt haben, dass legitime Zeit hinzugefügt wurde.
+Sie müssen daher andere Fragen beantworten._
 
 ### Lektion validieren
 
-#### Lektion validieren bei Foundations
+#### Lektion validieren in Foundations
 
-Um eine Lektion zu validieren, muss man eine Lektion starten und alle Fragen
-über die Schaltfläche `ignorieren` unten rechts durchgehen. Sobald alle Fragen
-gesehen wurden, sollte das Klicken auf die Schaltfläche `Lektion validieren`
-die Lektion validieren. Falls nicht, gehen Sie zurück zur Startseite, klicken
-Sie auf die gleiche Lektion, sie
+Um eine Lektion zu validieren, müssen Sie eine Lektion starten und alle Fragen
+über die Schaltfläche `Ignorieren` unten rechts durchgehen. Sobald alle
+Fragen gesehen wurden, sollte das Klicken auf den Button `Lektion validieren` die
+Lektion validieren. Falls nicht, gehen Sie zurück zur Startseite, klicken Sie auf die gleiche Lektion, sie
+
+
+
 sollte Sie fragen `Möchten Sie fortfahren oder zurücksetzen?`, Sie können beides wählen und
 die Lektion erneut validieren, bis es funktioniert. Es sollte nach maximal 3/4 Mal funktionieren.
 
@@ -194,13 +192,14 @@ Um die Erweiterung für Firefox zu paketieren, kann folgender Befehl ausgeführt
 $ make firefox
 ```
 
-Dadurch wird `rosettastonks.xpi` erstellt, die Datei für die Erweiterung, die in
+Dadurch wird `rosettastonks.xpi` erzeugt, die Datei für die Erweiterung, die in
 Firefox geladen werden kann.
 
 📸 Bevorzugen Sie visuelle Darstellungen? Sehen Sie sich die [Chrome-Installationsanleitung mit Bildern](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md) an.
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---

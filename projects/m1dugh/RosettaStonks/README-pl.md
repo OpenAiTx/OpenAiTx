@@ -103,14 +103,13 @@ W swojej przeglądarce:
 ```bash
 $ nix build --out-link "/tmp/rosettatonks.xpi" github:m1dugh/RosettaStonks#mozilla
 ```
-
-- przejdź do `about:addons` w swojej przeglądarce
+- przejdź do `about:debugging#/runtime/this-firefox` w swojej przeglądarce
 - kliknij przycisk ustawień i przejdź do `Debuguj dodatki`.
 - kliknij `Załaduj tymczasowy dodatek`
-- wybierz plik `/tmp/rosettastonks.xpi` w selektorze plików.
+- wybierz plik `/tmp/rosettastonks.xpi` w oknie wyboru pliku.
 
-_Ostrzeżenie: Ta metoda instaluje rozszerzenie tylko tymczasowo, co oznacza, że
-po zamknięciu przeglądarki dodatek zostanie odinstalowany. Wynika to z polityki
+_Uwaga: Ta metoda instaluje rozszerzenie tylko tymczasowo, co oznacza, że jeśli
+zamkniesz przeglądarkę, dodatek zostanie odinstalowany. Wynika to z polityki
 firefoxa, która nie pozwala na używanie niezweryfikowanych rozszerzeń._
 
 ## Jak używać
@@ -119,19 +118,19 @@ firefoxa, która nie pozwala na używanie niezweryfikowanych rozszerzeń._
 
 #### Dodawanie czasu w Foundations
 
-Aby dodać czas w produkcie `foundations`, musisz przejść do swoich ćwiczeń i
-kliknąć ignoruj lub rozwiąż co najmniej jedno pytanie. Po wykonaniu tej czynności
-pole czasu powinno pojawić się na stronie rozszerzenia, gdzie możesz dodać swój czas.
+Aby dodać czas na produkcie `foundations`, należy przejść do swoich ćwiczeń i
+kliknąć ignoruj lub rozwiąż przynajmniej jedno pytanie. Gdy to zostanie zrobione, pole czasu
+powinno pojawić się na stronie rozszerzenia, gdzie można dodać swój czas.
 
 #### Dodawanie czasu w Fluency builder
 
-Aby dodać czas w produkcie `fluency builder`, musisz przejść do swoich ćwiczeń i
-odpowiedzieć na co najmniej jedno ćwiczenie. Jeśli pole dodania czasu się nie pojawia,
-oznacza to, że żądanie czasu nie zostało wychwycone, musisz odświeżyć pytanie i odpowiedzieć
-jeszcze raz. Aby czas został dodany, musisz ukończyć lekcję, w której dodałeś czas.
+Aby dodać czas na produkcie `fluency builder`, należy przejść do swoich ćwiczeń i
+rozwiązać przynajmniej jedno ćwiczenie. Jeśli pole dodawania czasu się nie pojawi, oznacza to,
+że nie wychwycono żadnej prośby o czas, należy odświeżyć pytanie i odpowiedzieć na nie
+jeszcze raz. Aby czas został dodany, trzeba ukończyć lekcję, w której użyto dodawania czasu.
 
-_Uwaga: Jeśli nie widzisz pola dodania czasu, oznacza to, że działania podjęte
-na stronie Rosetta stone nie doprowadziły do dodania prawidłowego czasu, dlatego
+_Uwaga: Jeśli nie widzisz pola dodawania czasu, oznacza to, że działania podjęte
+na stronie Rosetta Stone nie prowadziły do dodania prawidłowego czasu, więc
 musisz odpowiedzieć na inne pytania._
 
 ### Walidacja lekcji
@@ -139,9 +138,10 @@ musisz odpowiedzieć na inne pytania._
 #### Walidacja lekcji w Foundations
 
 Aby zwalidować lekcję, należy rozpocząć lekcję i przejść przez wszystkie
-pytania za pomocą przycisku `ignoruj` w prawym dolnym rogu. Po obejrzeniu wszystkich
-pytań, kliknięcie przycisku `zatwierdź lekcję` powinno zwalidować
-lekcję. Jeśli nie, wróć do strony głównej, kliknij na tę samą lekcję, ona
+pytania za pomocą przycisku `ignoruj` w prawym dolnym rogu. Gdy wszystkie
+pytania zostaną obejrzane, kliknięcie przycisku `zwaliduj lekcję` powinno zwalidować
+lekcję. Jeśli nie, wróć do strony głównej, kliknij tę samą lekcję, ona
+
 
 powinien zapytać `Czy chcesz kontynuować czy zresetować?`, możesz wybrać obie opcje i
 zweryfikować lekcję ponownie, aż zadziała. Powinno działać po maksymalnie 3/4 próbach.
@@ -192,13 +192,14 @@ Aby spakować rozszerzenie dla Firefoxa, można uruchomić następujące polecen
 $ make firefox
 ```
 
-Co spowoduje wygenerowanie pliku `rosettastonks.xpi`, czyli pliku rozszerzenia, który można
+Które wygeneruje plik `rosettastonks.xpi`, czyli plik rozszerzenia, który można
 załadować w przeglądarce Firefox.
 
-📸 Preferujesz wizualizacje? Zobacz [Przewodnik instalacji Chrome ze zdjęciami](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
+📸 Wolisz obrazy? Zobacz [Przewodnik instalacji Chrome ze zdjęciami](https://raw.githubusercontent.com/m1dugh/RosettaStonks/master/INSTALL_GUI.md)
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-08-21
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-14
 
 ---
