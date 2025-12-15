@@ -1,0 +1,2483 @@
+[
+  {
+    "Id": 1,
+    "Content": "# nuxt-viewport\n\n[![npm version][npm-version-src]][npm-version-href]\n[![npm downloads][npm-downloads-src]][npm-downloads-href]\n[![License][license-src]][license-href]\n\n> Define custom viewports for your [Nuxt](https://nuxt.com/)️ project\n\n## Features\n\n- ⚡️&nbsp; Fast & Light with [MatchMedia API](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia) ⚡️\n- 🕶&nbsp; Auto detects the device viewport from Cookie & User-Agent\n- 👌&nbsp; Zero configuration to start\n- 👴️&nbsp; Supports IE9+\n\n> **Note**\\\n> This version is Nuxt 3+ & Nuxt Bridge only. For Nuxt 2 see [1.0.1](https://www.npmjs.com/package/nuxt-viewport/v/1.0.1)\n\n## Quick Setup\n\n1. Add `nuxt-viewport` dependency to your project\n",
+    "ContentSha": "u6HytliKj6qxwfCRla8qX6zwhOe2Uu+8lLnUdGVf058=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# nuxt-viewport\n\n[![versión npm][npm-version-src]][npm-version-href]\n[![descargas npm][npm-downloads-src]][npm-downloads-href]\n[![Licencia][license-src]][license-href]\n\n> Define puntos de vista personalizados para tu proyecto [Nuxt](https://nuxt.com/)️\n\n## Características\n\n- ⚡️&nbsp; Rápido y ligero con [MatchMedia API](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia) ⚡️\n- 🕶&nbsp; Detecta automáticamente el viewport del dispositivo desde Cookie y User-Agent\n- 👌&nbsp; Sin configuración para empezar\n- 👴️&nbsp; Compatible con IE9+\n\n> **Nota**\\\n> Esta versión es solo para Nuxt 3+ y Nuxt Bridge. Para Nuxt 2 ver [1.0.1](https://www.npmjs.com/package/nuxt-viewport/v/1.0.1)\n\n## Configuración rápida\n\n1. Añade la dependencia `nuxt-viewport` a tu proyecto\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "/jHEGNh+Cb6XEaFEOp1ZhoWRKIG4EvK6+AQeSYMtzjM=",
+        "originContent": "# nuxt-viewport",
+        "translatedContent": "# nuxt-viewport"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "l0nRHhmxDVIO77pPZTcn9nhS+qTu3BdKjCkmzxy1jTw=",
+        "originContent": "[![npm version][npm-version-src]][npm-version-href]",
+        "translatedContent": "[![versión npm][npm-version-src]][npm-version-href]"
+      },
+      {
+        "row": 4,
+        "rowsha": "hnIrGiscuuDH9YcgBWT3KbK5z+7pQh3ysv4vkQrNZ/4=",
+        "originContent": "[![npm downloads][npm-downloads-src]][npm-downloads-href]",
+        "translatedContent": "[![descargas npm][npm-downloads-src]][npm-downloads-href]"
+      },
+      {
+        "row": 5,
+        "rowsha": "/M0XgCc7eE8/VxDfvmaj3L6LQsaMZSRsKX4iskWhAK4=",
+        "originContent": "[![License][license-src]][license-href]",
+        "translatedContent": "[![Licencia][license-src]][license-href]"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "gB6vBAw4n8IcXJ6vS2904OKNqePvj7hsyJES17Yaq4A=",
+        "originContent": "> Define custom viewports for your [Nuxt](https://nuxt.com/)️ project",
+        "translatedContent": "> Define puntos de vista personalizados para tu proyecto [Nuxt](https://nuxt.com/)️"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Características"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "BYqdKyNRn0mQEkCTxT9ieauf7FGWiqBsF3S5QRfFAJ8=",
+        "originContent": "- ⚡️&nbsp; Fast & Light with [MatchMedia API](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia) ⚡️",
+        "translatedContent": "- ⚡️&nbsp; Rápido y ligero con [MatchMedia API](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia) ⚡️"
+      },
+      {
+        "row": 12,
+        "rowsha": "G4bJT8T5j/r+WXlYWKaS8gArkC4s3w6WHydzNjwUrT0=",
+        "originContent": "- 🕶&nbsp; Auto detects the device viewport from Cookie & User-Agent",
+        "translatedContent": "- 🕶&nbsp; Detecta automáticamente el viewport del dispositivo desde Cookie y User-Agent"
+      },
+      {
+        "row": 13,
+        "rowsha": "zKKvl8VBVMfC9SVnYty/Lis7OPXkhEEJr13gB565tQ4=",
+        "originContent": "- 👌&nbsp; Zero configuration to start",
+        "translatedContent": "- 👌&nbsp; Sin configuración para empezar"
+      },
+      {
+        "row": 14,
+        "rowsha": "y+LzVI3HNu/08Kvk8cp5fXtuMvPD+BsEn8DFZqKO50g=",
+        "originContent": "- 👴️&nbsp; Supports IE9+",
+        "translatedContent": "- 👴️&nbsp; Compatible con IE9+"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "0EHXgFOu9ETWZBaKiUPWqMVlq8vcFdJVLwoCedfDIjU=",
+        "originContent": "> **Note**\\",
+        "translatedContent": "> **Nota**\\"
+      },
+      {
+        "row": 17,
+        "rowsha": "1ooSU2j8h1WX3C8IB6hmoXs5y1rb8DvqnUbAkBR+v/4=",
+        "originContent": "> This version is Nuxt 3+ & Nuxt Bridge only. For Nuxt 2 see [1.0.1](https://www.npmjs.com/package/nuxt-viewport/v/1.0.1)",
+        "translatedContent": "> Esta versión es solo para Nuxt 3+ y Nuxt Bridge. Para Nuxt 2 ver [1.0.1](https://www.npmjs.com/package/nuxt-viewport/v/1.0.1)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "whDTkdcDH6o4sTo0SZngGpiUJ49K1jUNRHng74VpOiw=",
+        "originContent": "## Quick Setup",
+        "translatedContent": "## Configuración rápida"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Yv9ejHYmX2Oe10WwqyPVHFajL5ROae2xb0D267dcIoI=",
+        "originContent": "1. Add `nuxt-viewport` dependency to your project",
+        "translatedContent": "1. Añade la dependencia `nuxt-viewport` a tu proyecto"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\nnpx nuxi@latest module add nuxt-viewport\n```",
+    "ContentSha": "jgIhxaM0G9RyMHymu6OU9dka5JKSXF1bX2Dj3m0V4IE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nnpx nuxi@latest module add nuxt-viewport\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "gkHIj+fYh+xaCzRF8TXPAJVCGAibMInxYadHQXOBhVo=",
+        "originContent": "npx nuxi@latest module add nuxt-viewport",
+        "translatedContent": "npx nuxi@latest module add nuxt-viewport"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n2. Add `nuxt-viewport` to the `modules` section of `nuxt.config.js`\n",
+    "ContentSha": "+NxrqjBxw3kNIp0eqRyJighDXPVP1fRvSBMN32CB7F4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. Añade `nuxt-viewport` a la sección `modules` de `nuxt.config.js`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "DpPnCJueSOxWfeRu0Vqvq8nvbIJDZafdbzFkMeiEB5s=",
+        "originContent": "2. Add `nuxt-viewport` to the `modules` section of `nuxt.config.js`",
+        "translatedContent": "2. Añade `nuxt-viewport` a la sección `modules` de `nuxt.config.js`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```js\n{\n  modules: [\n    [\n      'nuxt-viewport', {\n        /* Viewport options */\n      }\n    ],\n  ]\n}\n```",
+    "ContentSha": "fQW31px2Xzy015PzTHgrnn6XRZhcwS0RK/9lngJRLdk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n{\n  modules: [\n    [\n      'nuxt-viewport', {\n        /* Viewport options */\n      }\n    ],\n  ]\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "ky17xkAW8nmRBLWRXRJWLmuOAYuacXY6bCwmLJuTY04=",
+        "originContent": "  modules: [",
+        "translatedContent": "  modules: ["
+      },
+      {
+        "row": 4,
+        "rowsha": "okCggNL9AVDz1iuWOWD6RScic1M33AfjjJtbWOf4JiQ=",
+        "originContent": "    [",
+        "translatedContent": "    ["
+      },
+      {
+        "row": 5,
+        "rowsha": "gGJP6iMnbGaeRuYawgfLvvIt9exwG7q80Yp6NYxz2pY=",
+        "originContent": "      'nuxt-viewport', {",
+        "translatedContent": "      'nuxt-viewport', {"
+      },
+      {
+        "row": 6,
+        "rowsha": "y27/+vDrGBe2zTpDtAjR2mYCrjMXxgpkqydjrONTpn0=",
+        "originContent": "        /* Viewport options */",
+        "translatedContent": "        /* Viewport options */"
+      },
+      {
+        "row": 7,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 8,
+        "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+        "originContent": "    ],",
+        "translatedContent": "    ],"
+      },
+      {
+        "row": 9,
+        "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
+        "originContent": "  ]",
+        "translatedContent": "  ]"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nusing top level options\n",
+    "ContentSha": "y5IOSVh0xcD1l8w9fKO+eEAD3bM/4VEdhYFG1hiwwWc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nusando opciones de nivel superior\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ujQKnlvVdfSsUKswqiaflXfYpD7Cyqcx5qThDN1oStQ=",
+        "originContent": "using top level options",
+        "translatedContent": "usando opciones de nivel superior"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```js\n{\n  modules: [\n    'nuxt-viewport',\n  ],\n\n  viewport: {\n    /* Viewport options */\n  },\n}\n```",
+    "ContentSha": "yuh5eCruNWz1K2rDieQ4jkfF5o57HLUQkn7goKznM9c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n{\n  modules: [\n    'nuxt-viewport',\n  ],\n\n  viewport: {\n    /* Viewport options */\n  },\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "ky17xkAW8nmRBLWRXRJWLmuOAYuacXY6bCwmLJuTY04=",
+        "originContent": "  modules: [",
+        "translatedContent": "  modules: ["
+      },
+      {
+        "row": 4,
+        "rowsha": "YfiCRTmOr3Ot74IqCtkGc0//tQ3KTerHyn4moRczwLg=",
+        "originContent": "    'nuxt-viewport',",
+        "translatedContent": "    'nuxt-viewport',"
+      },
+      {
+        "row": 5,
+        "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+        "originContent": "  ],",
+        "translatedContent": "  ],"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Ufd9pa32/Xg9umtj1ruJS44ldqMw+0JKogCdFhFx6/0=",
+        "originContent": "  viewport: {",
+        "translatedContent": "  viewport: {"
+      },
+      {
+        "row": 8,
+        "rowsha": "tZOPDH9pW6jHETUhucyBvHeHbpvHkr5gA6kYKB+F308=",
+        "originContent": "    /* Viewport options */",
+        "translatedContent": "    /* Viewport options */"
+      },
+      {
+        "row": 9,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Usage",
+    "ContentSha": "ILBjUuA0zzer3Qlu3QWEPF3ywyF7Vepbb8oEhU5yFT0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Uso\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Uso"
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```vue\n<script setup>\nimport { useNuxtApp } from '#app'\nconst { $viewport } = useNuxtApp()\n\nwatch($viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {\n  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)\n})\n</script>\n\n<template>\n  <div>\n    <div v-if=\"$viewport.isLessThan('tablet')\">Should render only on mobile</div>\n    <div v-else>Current breakpoint: {{ $viewport.breakpoint }}</div>\n  </div>\n</template>\n```",
+    "ContentSha": "ECSTVhSPc3ZtrtyJFzb3vcduzOlrsqJ8r1Lb7LB08ZY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```vue\n<script setup>\nimport { useNuxtApp } from '#app'\nconst { $viewport } = useNuxtApp()\n\nwatch($viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {\n  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)\n})\n</script>\n\n<template>\n  <div>\n    <div v-if=\"$viewport.isLessThan('tablet')\">Should render only on mobile</div>\n    <div v-else>Current breakpoint: {{ $viewport.breakpoint }}</div>\n  </div>\n</template>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "sjYrTXzAO/H2CDZkZSwaZ7drIR/liJxs2FeNvIKGdJE=",
+        "originContent": "```vue",
+        "translatedContent": "```vue"
+      },
+      {
+        "row": 2,
+        "rowsha": "/BJrG9WQbtT5ApW6yJWxOX2mbqcCJOsJZX0Uu41n74w=",
+        "originContent": "<script setup>",
+        "translatedContent": "<script setup>"
+      },
+      {
+        "row": 3,
+        "rowsha": "xeRvLWSGIgByfrXEd0nkU5rEfH6kyheVqKD8Uu1y+X8=",
+        "originContent": "import { useNuxtApp } from '#app'",
+        "translatedContent": "import { useNuxtApp } from '#app'"
+      },
+      {
+        "row": 4,
+        "rowsha": "vKXt46bRDJIbwNEaZVaUCOs+P4k/ylUPLNPjcRZxkJo=",
+        "originContent": "const { $viewport } = useNuxtApp()",
+        "translatedContent": "const { $viewport } = useNuxtApp()"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "tf1dxgUbN6Rnt5KTeCxCQfpIrd62eRqh/Xd3ROOhhXw=",
+        "originContent": "watch($viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {",
+        "translatedContent": "watch($viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {"
+      },
+      {
+        "row": 7,
+        "rowsha": "zj/syCNdLx+jV2C4L3Zh4m7doKfBETQr53bNDfcLU3M=",
+        "originContent": "  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)",
+        "translatedContent": "  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)"
+      },
+      {
+        "row": 8,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 9,
+        "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+        "originContent": "</script>",
+        "translatedContent": "</script>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Kq1EcNTskSPLsM+ILi5e1GbYmH1jGiqsZF6DsOcdgoc=",
+        "originContent": "<template>",
+        "translatedContent": "<template>"
+      },
+      {
+        "row": 12,
+        "rowsha": "wiE6+jWJxeFT73P55EqafPwYNbd52vNXgilScxFAB1U=",
+        "originContent": "  <div>",
+        "translatedContent": "  <div>"
+      },
+      {
+        "row": 13,
+        "rowsha": "yq4ssnfmvvSPmxKYRjRjxsieKWB8vHCxj0eRdUWNIfc=",
+        "originContent": "    <div v-if=\"$viewport.isLessThan('tablet')\">Should render only on mobile</div>",
+        "translatedContent": "    <div v-if=\"$viewport.isLessThan('tablet')\">Should render only on mobile</div>"
+      },
+      {
+        "row": 14,
+        "rowsha": "BXzWfo+WWs489Rbb2DhfRZJ38rGv1r2ANzxG759bHRo=",
+        "originContent": "    <div v-else>Current breakpoint: {{ $viewport.breakpoint }}</div>",
+        "translatedContent": "    <div v-else>Current breakpoint: {{ $viewport.breakpoint }}</div>"
+      },
+      {
+        "row": 15,
+        "rowsha": "TFeor9sDM2gZqn6BBqB9bb7gMaKqgk0Ph1pgaT3gpaM=",
+        "originContent": "  </div>",
+        "translatedContent": "  </div>"
+      },
+      {
+        "row": 16,
+        "rowsha": "gADIfArf+0AI9UvMusq6n+ATIvVjKRPKaMwvB5xz17c=",
+        "originContent": "</template>",
+        "translatedContent": "</template>"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## Usage with composable",
+    "ContentSha": "0+znPG0paNinDSbVPFY3XAlvJzde1Ry8/+2XgxAdqLU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Uso con composable",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "HMDOGK+D399x+TtwMGvf/YZRkHKnzSiHm+SK7ETm22Q=",
+        "originContent": "## Usage with composable",
+        "translatedContent": "## Uso con composable"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```vue\n<script setup>\nconst viewport = useViewport()\n\nwatch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {\n  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)\n})\n</script>\n\n<template>\n  <div>\n    <div v-if=\"viewport.isLessThan('tablet')\">Should render only on mobile</div>\n    <div v-else>Current breakpoint: {{ viewport.breakpoint }}</div>\n  </div>\n</template>\n```",
+    "ContentSha": "sR3DW7G5cbnNYVS1tL7kG66TNR5e3P2s1GIEdBjQFMc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```vue\n<script setup>\nconst viewport = useViewport()\n\nwatch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {\n  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)\n})\n</script>\n\n<template>\n  <div>\n    <div v-if=\"viewport.isLessThan('tablet')\">Should render only on mobile</div>\n    <div v-else>Current breakpoint: {{ viewport.breakpoint }}</div>\n  </div>\n</template>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "sjYrTXzAO/H2CDZkZSwaZ7drIR/liJxs2FeNvIKGdJE=",
+        "originContent": "```vue",
+        "translatedContent": "```vue"
+      },
+      {
+        "row": 2,
+        "rowsha": "/BJrG9WQbtT5ApW6yJWxOX2mbqcCJOsJZX0Uu41n74w=",
+        "originContent": "<script setup>",
+        "translatedContent": "<script setup>"
+      },
+      {
+        "row": 3,
+        "rowsha": "RO2QKibP/kVdQa7zqenfwWmMpoKebX0bFDrmlHkPSKM=",
+        "originContent": "const viewport = useViewport()",
+        "translatedContent": "const viewport = useViewport()"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "PVy1tzcnBIZkJrUddBqQz9APUpX/1BdLYO0aW5+AP/I=",
+        "originContent": "watch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {",
+        "translatedContent": "watch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {"
+      },
+      {
+        "row": 6,
+        "rowsha": "zj/syCNdLx+jV2C4L3Zh4m7doKfBETQr53bNDfcLU3M=",
+        "originContent": "  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)",
+        "translatedContent": "  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)"
+      },
+      {
+        "row": 7,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 8,
+        "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+        "originContent": "</script>",
+        "translatedContent": "</script>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Kq1EcNTskSPLsM+ILi5e1GbYmH1jGiqsZF6DsOcdgoc=",
+        "originContent": "<template>",
+        "translatedContent": "<template>"
+      },
+      {
+        "row": 11,
+        "rowsha": "wiE6+jWJxeFT73P55EqafPwYNbd52vNXgilScxFAB1U=",
+        "originContent": "  <div>",
+        "translatedContent": "  <div>"
+      },
+      {
+        "row": 12,
+        "rowsha": "FcJ8CnbzXqOm7J4+VdSnanSEfohZuw4Rx//Zyf62p+8=",
+        "originContent": "    <div v-if=\"viewport.isLessThan('tablet')\">Should render only on mobile</div>",
+        "translatedContent": "    <div v-if=\"viewport.isLessThan('tablet')\">Should render only on mobile</div>"
+      },
+      {
+        "row": 13,
+        "rowsha": "P+foPfHRwOy2ylMlNsIslD9s2W9twRrkBqhVC6LP+AY=",
+        "originContent": "    <div v-else>Current breakpoint: {{ viewport.breakpoint }}</div>",
+        "translatedContent": "    <div v-else>Current breakpoint: {{ viewport.breakpoint }}</div>"
+      },
+      {
+        "row": 14,
+        "rowsha": "TFeor9sDM2gZqn6BBqB9bb7gMaKqgk0Ph1pgaT3gpaM=",
+        "originContent": "  </div>",
+        "translatedContent": "  </div>"
+      },
+      {
+        "row": 15,
+        "rowsha": "gADIfArf+0AI9UvMusq6n+ATIvVjKRPKaMwvB5xz17c=",
+        "originContent": "</template>",
+        "translatedContent": "</template>"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n## Usage with \"@nuxt/bridge\"",
+    "ContentSha": "Tj7DUu46cJ5V7x0NEYqst+Wz+fF1EK1oes0PEfDPYB4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Uso con \"@nuxt/bridge\"\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Uso con \"@nuxt/bridge\""
+      },
+      {
+        "row": 2,
+        "rowsha": "sRTCmK2/VNkb9fpqPG5LINUHkG3fXwfYzfltmfEoK2w=",
+        "originContent": "## Usage with \"@nuxt/bridge\"",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```vue\n<script setup>\nconst viewport = useViewport()\n\nwatch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {\n  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)\n})\n</script>\n\n<template>\n  <div>\n    <div v-if=\"viewport.isLessThan('tablet')\">Should render only on mobile</div>\n    <div v-else>Current breakpoint: {{ $viewport.breakpoint }}</div>\n  </div>\n</template>\n```",
+    "ContentSha": "Q50uZ+EgfwCDO3dblcLYqO0V0VB9v7wXrJ7N7o57Flk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```vue\n<script setup>\nconst viewport = useViewport()\n\nwatch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {\n  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)\n})\n</script>\n\n<template>\n  <div>\n    <div v-if=\"viewport.isLessThan('tablet')\">Should render only on mobile</div>\n    <div v-else>Current breakpoint: {{ $viewport.breakpoint }}</div>\n  </div>\n</template>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "sjYrTXzAO/H2CDZkZSwaZ7drIR/liJxs2FeNvIKGdJE=",
+        "originContent": "```vue",
+        "translatedContent": "```vue"
+      },
+      {
+        "row": 2,
+        "rowsha": "/BJrG9WQbtT5ApW6yJWxOX2mbqcCJOsJZX0Uu41n74w=",
+        "originContent": "<script setup>",
+        "translatedContent": "<script setup>"
+      },
+      {
+        "row": 3,
+        "rowsha": "RO2QKibP/kVdQa7zqenfwWmMpoKebX0bFDrmlHkPSKM=",
+        "originContent": "const viewport = useViewport()",
+        "translatedContent": "const viewport = useViewport()"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "PVy1tzcnBIZkJrUddBqQz9APUpX/1BdLYO0aW5+AP/I=",
+        "originContent": "watch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {",
+        "translatedContent": "watch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {"
+      },
+      {
+        "row": 6,
+        "rowsha": "zj/syCNdLx+jV2C4L3Zh4m7doKfBETQr53bNDfcLU3M=",
+        "originContent": "  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)",
+        "translatedContent": "  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)"
+      },
+      {
+        "row": 7,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 8,
+        "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+        "originContent": "</script>",
+        "translatedContent": "</script>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "Kq1EcNTskSPLsM+ILi5e1GbYmH1jGiqsZF6DsOcdgoc=",
+        "originContent": "<template>",
+        "translatedContent": "<template>"
+      },
+      {
+        "row": 11,
+        "rowsha": "wiE6+jWJxeFT73P55EqafPwYNbd52vNXgilScxFAB1U=",
+        "originContent": "  <div>",
+        "translatedContent": "  <div>"
+      },
+      {
+        "row": 12,
+        "rowsha": "FcJ8CnbzXqOm7J4+VdSnanSEfohZuw4Rx//Zyf62p+8=",
+        "originContent": "    <div v-if=\"viewport.isLessThan('tablet')\">Should render only on mobile</div>",
+        "translatedContent": "    <div v-if=\"viewport.isLessThan('tablet')\">Should render only on mobile</div>"
+      },
+      {
+        "row": 13,
+        "rowsha": "BXzWfo+WWs489Rbb2DhfRZJ38rGv1r2ANzxG759bHRo=",
+        "originContent": "    <div v-else>Current breakpoint: {{ $viewport.breakpoint }}</div>",
+        "translatedContent": "    <div v-else>Current breakpoint: {{ $viewport.breakpoint }}</div>"
+      },
+      {
+        "row": 14,
+        "rowsha": "TFeor9sDM2gZqn6BBqB9bb7gMaKqgk0Ph1pgaT3gpaM=",
+        "originContent": "  </div>",
+        "translatedContent": "  </div>"
+      },
+      {
+        "row": 15,
+        "rowsha": "gADIfArf+0AI9UvMusq6n+ATIvVjKRPKaMwvB5xz17c=",
+        "originContent": "</template>",
+        "translatedContent": "</template>"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## Configuration\n\n### `breakpoints`\n\n- Type: Object\n\nAn object where the key is the name of the viewport, and the value is the viewport size.\n\n### `cookie`\n\n- Type: Object\n\nAn object with options for cookie.\nSee more https://www.npmjs.com/package/cookiejs#cookie-attributes\n\n### `defaultBreakpoints`\n\n- Type: Object\n- Detectable devices: `bot`, `desktop`, `mobile`, `tablet`, `tv`\n\nAn object where the key is the name of the detected device, and the value is the breakpoint key.\n\n### `fallbackBreakpoint`\n\n- Type: String\n- Default: `viewport`\n\nThe breakpoint key to be used, if the device was not detected.\n\n### `feature`\n\n- Type: `'minWidth' | 'maxWidth'`\n- Default: `'minWidth'`\n\nCSS media feature.\n\n## Default configuration\n",
+    "ContentSha": "+zOUW3ap82uT4ex0r+Bu921dEAf12XySM5T7qtgx2Pc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Configuración\n\n### `breakpoints`\n\n- Tipo: Objeto\n\nUn objeto donde la clave es el nombre del viewport, y el valor es el tamaño del viewport.\n\n### `cookie`\n\n- Tipo: Objeto\n\nUn objeto con opciones para cookie.\nVer más https://www.npmjs.com/package/cookiejs#cookie-attributes\n\n### `defaultBreakpoints`\n\n- Tipo: Objeto\n- Dispositivos detectables: `bot`, `desktop`, `mobile`, `tablet`, `tv`\n\nUn objeto donde la clave es el nombre del dispositivo detectado, y el valor es la clave del breakpoint.\n\n### `fallbackBreakpoint`\n\n- Tipo: Cadena\n- Predeterminado: `viewport`\n\nLa clave del breakpoint a usar, si el dispositivo no fue detectado.\n\n### `feature`\n\n- Tipo: `'minWidth' | 'maxWidth'`\n- Predeterminado: `'minWidth'`\n\nCaracterística CSS media.\n\n## Configuración predeterminada\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "## Configuración"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Sxa3ZN6Slq5Nke5ust+cYnxIlcq83PpKVpLUel9FWkM=",
+        "originContent": "### `breakpoints`",
+        "translatedContent": "### `breakpoints`"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "DBXXP9/zHAuNLDqk1z59Ep8esfA2/G0veCohkB5f+E0=",
+        "originContent": "- Type: Object",
+        "translatedContent": "- Tipo: Objeto"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "24IhgfqL8GCC7Q66u/BHPmpHTXbDoDMmr3kmKqplfx8=",
+        "originContent": "An object where the key is the name of the viewport, and the value is the viewport size.",
+        "translatedContent": "Un objeto donde la clave es el nombre del viewport, y el valor es el tamaño del viewport."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "EpaLSyKginQkTlWe6fouBHCiFIdzXNwj6OLyAhl4IMM=",
+        "originContent": "### `cookie`",
+        "translatedContent": "### `cookie`"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "DBXXP9/zHAuNLDqk1z59Ep8esfA2/G0veCohkB5f+E0=",
+        "originContent": "- Type: Object",
+        "translatedContent": "- Tipo: Objeto"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "IsbOgWhdDgrHF07RBc8wYt3oYSHG03k3LYEPLnv4Zzc=",
+        "originContent": "An object with options for cookie.",
+        "translatedContent": "Un objeto con opciones para cookie."
+      },
+      {
+        "row": 15,
+        "rowsha": "Fv3zJr4MogQk5Asjpe+BsxVyqDdEtxMSpV1zotOERr8=",
+        "originContent": "See more https://www.npmjs.com/package/cookiejs#cookie-attributes",
+        "translatedContent": "Ver más https://www.npmjs.com/package/cookiejs#cookie-attributes"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "s189uIvpBL4IGcgUqYVjlKVW3QUA7pYDnKio2DvPVqs=",
+        "originContent": "### `defaultBreakpoints`",
+        "translatedContent": "### `defaultBreakpoints`"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "DBXXP9/zHAuNLDqk1z59Ep8esfA2/G0veCohkB5f+E0=",
+        "originContent": "- Type: Object",
+        "translatedContent": "- Tipo: Objeto"
+      },
+      {
+        "row": 20,
+        "rowsha": "LKDlC5S5jQ6kOaHX8Fuv88B3fNQDP0dE7hvHilO1yGg=",
+        "originContent": "- Detectable devices: `bot`, `desktop`, `mobile`, `tablet`, `tv`",
+        "translatedContent": "- Dispositivos detectables: `bot`, `desktop`, `mobile`, `tablet`, `tv`"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "fGFfFUc1/TQy0dKuJvG174OfOEynY1zSz6xo3GuzYT4=",
+        "originContent": "An object where the key is the name of the detected device, and the value is the breakpoint key.",
+        "translatedContent": "Un objeto donde la clave es el nombre del dispositivo detectado, y el valor es la clave del breakpoint."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "zQY4O588aalDJMSBqqWmmr7UTk4XoIryi8b88gZimeQ=",
+        "originContent": "### `fallbackBreakpoint`",
+        "translatedContent": "### `fallbackBreakpoint`"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "6H1exeW7BVdSunigQxKnu31L3OXw+KBJMOZHpSK7/w8=",
+        "originContent": "- Type: String",
+        "translatedContent": "- Tipo: Cadena"
+      },
+      {
+        "row": 27,
+        "rowsha": "1+4n3bL1vZNjGqqDFsxpnWCYKY6DF/bgdQgJEzs5YDE=",
+        "originContent": "- Default: `viewport`",
+        "translatedContent": "- Predeterminado: `viewport`"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "6i7gypW1TQLHWYujjmZB0t1Mvv4Z7HrTiGHljKQxh0k=",
+        "originContent": "The breakpoint key to be used, if the device was not detected.",
+        "translatedContent": "La clave del breakpoint a usar, si el dispositivo no fue detectado."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "iAKMw1Ax6HtQKRmwGa7DKLPMTErGLbHyO3VVxfYCLY0=",
+        "originContent": "### `feature`",
+        "translatedContent": "### `feature`"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "jkh78251CS39aq1TIlrSPTg10rVam0Y3dO3pSmZ/u/I=",
+        "originContent": "- Type: `'minWidth' | 'maxWidth'`",
+        "translatedContent": "- Tipo: `'minWidth' | 'maxWidth'`"
+      },
+      {
+        "row": 34,
+        "rowsha": "X/UCl+BYrD0ws8y/00+JCFY1oQMUq57cDFnnsh7HmAI=",
+        "originContent": "- Default: `'minWidth'`",
+        "translatedContent": "- Predeterminado: `'minWidth'`"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "RvI9Y5tzhz0nJ8K8IV5e4RLqlKuKVyVvc6L7q5spHRs=",
+        "originContent": "CSS media feature.",
+        "translatedContent": "Característica CSS media."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "sCh2hbqSdlRIHnLgmIslUmpABrJqfihgpbJlYAbgsvk=",
+        "originContent": "## Default configuration",
+        "translatedContent": "## Configuración predeterminada"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```js\n{\n  // ...\n  viewport: {\n    breakpoints: {\n      desktop: 1024,\n      desktopMedium: 1280,\n      desktopWide: 1600,\n\n      mobile: 320,\n      mobileMedium: 375,\n      mobileWide: 425,\n\n      tablet: 768,\n    },\n\n    cookie: {\n      expires: 365, // 365 days\n      name: 'viewport',\n      path: '/',\n      sameSite: 'Strict',\n      secure: true,\n    },\n\n    defaultBreakpoints: {\n      desktop: 'desktop',\n      mobile: 'mobile',\n      tablet: 'tablet',\n    },\n\n    fallbackBreakpoint: 'desktop',\n\n    feature: 'minWidth',\n  },\n  // ...\n}\n```",
+    "ContentSha": "2yvgvILl3jzojUWVlQnd/7mqGzxGHxhag1K4gi1z2zQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n{\n  // ...\n  viewport: {\n    breakpoints: {\n      desktop: 1024,\n      desktopMedium: 1280,\n      desktopWide: 1600,\n\n      mobile: 320,\n      mobileMedium: 375,\n      mobileWide: 425,\n\n      tablet: 768,\n    },\n\n    cookie: {\n      expires: 365, // 365 days\n      name: 'viewport',\n      path: '/',\n      sameSite: 'Strict',\n      secure: true,\n    },\n\n    defaultBreakpoints: {\n      desktop: 'desktop',\n      mobile: 'mobile',\n      tablet: 'tablet',\n    },\n\n    fallbackBreakpoint: 'desktop',\n\n    feature: 'minWidth',\n  },\n  // ...\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "lTbtS0/I1oY7IIv07CUv1FacuyuURvnTS2gVJxMOnOk=",
+        "originContent": "  // ...",
+        "translatedContent": "  // ..."
+      },
+      {
+        "row": 4,
+        "rowsha": "Ufd9pa32/Xg9umtj1ruJS44ldqMw+0JKogCdFhFx6/0=",
+        "originContent": "  viewport: {",
+        "translatedContent": "  viewport: {"
+      },
+      {
+        "row": 5,
+        "rowsha": "t3O1s9wv8mOk5fZxf4tDbvqMFIY5zsHFptX4WR4532c=",
+        "originContent": "    breakpoints: {",
+        "translatedContent": "    breakpoints: {"
+      },
+      {
+        "row": 6,
+        "rowsha": "mbvUeXl0frAhDBjkDW1JS8o+t9lI+dtYA3kC3i24Nik=",
+        "originContent": "      desktop: 1024,",
+        "translatedContent": "      desktop: 1024,"
+      },
+      {
+        "row": 7,
+        "rowsha": "tL476lvBtpmxL4HptXWr+Edph13SelvvMklUqKaWjNE=",
+        "originContent": "      desktopMedium: 1280,",
+        "translatedContent": "      desktopMedium: 1280,"
+      },
+      {
+        "row": 8,
+        "rowsha": "eu++TMncIU6NQUyOHVJ8AwHqc05PXnqzMd8sS/d+1uQ=",
+        "originContent": "      desktopWide: 1600,",
+        "translatedContent": "      desktopWide: 1600,"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "iaejZbDcp+ohu/BMOcL67sjxspTucS7u1nRMHD2Y0ng=",
+        "originContent": "      mobile: 320,",
+        "translatedContent": "      mobile: 320,"
+      },
+      {
+        "row": 11,
+        "rowsha": "ay2bNteuRuRWda6cDyipux3tnK9rt3hF1lAzyHOVef0=",
+        "originContent": "      mobileMedium: 375,",
+        "translatedContent": "      mobileMedium: 375,"
+      },
+      {
+        "row": 12,
+        "rowsha": "60ZmTJkKJ4aqMivXw2XeMS8Hm4EpMe7VoqshLa2IpRw=",
+        "originContent": "      mobileWide: 425,",
+        "translatedContent": "      mobileWide: 425,"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "mCDeJXhN5zq2EgeW6bjrrNNXJIVvqmLLL/fEzIXu7Og=",
+        "originContent": "      tablet: 768,",
+        "translatedContent": "      tablet: 768,"
+      },
+      {
+        "row": 15,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "rv/H+pvyXoz9raZEzWuXfaeq/t7ZaVuU4ap0Q68p9QM=",
+        "originContent": "    cookie: {",
+        "translatedContent": "    cookie: {"
+      },
+      {
+        "row": 18,
+        "rowsha": "LnyZ4m1XhLWgx3D88gfIe5WKsuWQBAo10kzHSMsp92M=",
+        "originContent": "      expires: 365, // 365 days",
+        "translatedContent": "      expires: 365, // 365 days"
+      },
+      {
+        "row": 19,
+        "rowsha": "OzXpmv8Z4S6YJuQE01jfiT/vqEn3odapwwyN5u1U5HI=",
+        "originContent": "      name: 'viewport',",
+        "translatedContent": "      name: 'viewport',"
+      },
+      {
+        "row": 20,
+        "rowsha": "f4hTVqxSpo7p3uY57PrTP6noIjUrrS9tKDv7Y+Qp3XQ=",
+        "originContent": "      path: '/',",
+        "translatedContent": "      path: '/',"
+      },
+      {
+        "row": 21,
+        "rowsha": "4zw5ggXuuIqP/y9b5s+mCzWPc+todnoC677c7CmwrPo=",
+        "originContent": "      sameSite: 'Strict',",
+        "translatedContent": "      sameSite: 'Strict',"
+      },
+      {
+        "row": 22,
+        "rowsha": "sgOgLGFRgcfHLmrJEFMNoQXC6FGezJ6i+BOS7+4BjiM=",
+        "originContent": "      secure: true,",
+        "translatedContent": "      secure: true,"
+      },
+      {
+        "row": 23,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "nF+EWlbGizLfWtWyijzYhRvllD5tkfNejbzc1ExJLWE=",
+        "originContent": "    defaultBreakpoints: {",
+        "translatedContent": "    defaultBreakpoints: {"
+      },
+      {
+        "row": 26,
+        "rowsha": "+GMMV9tgVBePkwDnsjC44GMeRthUZ+OOe+UOQ/Juiyo=",
+        "originContent": "      desktop: 'desktop',",
+        "translatedContent": "      desktop: 'desktop',"
+      },
+      {
+        "row": 27,
+        "rowsha": "Ub1BHv31BUy+yGiUBZM6qxubKmRLKe6aZRXfd2AxUag=",
+        "originContent": "      mobile: 'mobile',",
+        "translatedContent": "      mobile: 'mobile',"
+      },
+      {
+        "row": 28,
+        "rowsha": "IPqZNyMrshS8gRXo2xu7PLWBAhdR06Mp4OovK9+8Kwk=",
+        "originContent": "      tablet: 'tablet',",
+        "translatedContent": "      tablet: 'tablet',"
+      },
+      {
+        "row": 29,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "l1Hg4ayDQCED1L8uBoKEexJJ48YOTelVXhnWALE+4Sk=",
+        "originContent": "    fallbackBreakpoint: 'desktop',",
+        "translatedContent": "    fallbackBreakpoint: 'desktop',"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "aUQq5hpfrTiYJR3Ep9lw7VxRuG9/ly5CbMCRz7jEpTE=",
+        "originContent": "    feature: 'minWidth',",
+        "translatedContent": "    feature: 'minWidth',"
+      },
+      {
+        "row": 34,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 35,
+        "rowsha": "lTbtS0/I1oY7IIv07CUv1FacuyuURvnTS2gVJxMOnOk=",
+        "originContent": "  // ...",
+        "translatedContent": "  // ..."
+      },
+      {
+        "row": 36,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 37,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n## Example configuration for Tailwind CSS",
+    "ContentSha": "5YESkaof8ynln5vJCqXyyA/SUfT1qoyPxMdrT44Vf1E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Ejemplo de configuración para Tailwind CSS",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "kw9+juX9HA7zq1xjoe0UBXg99uLd9PUWImWmTBk948M=",
+        "originContent": "## Example configuration for Tailwind CSS",
+        "translatedContent": "## Ejemplo de configuración para Tailwind CSS"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```js\n{\n  // ...\n  viewport: {\n    breakpoints: {\n      xs: 320,\n      sm: 640,\n      md: 768,\n      lg: 1024,\n      xl: 1280,\n      '2xl': 1536,\n    },\n\n    defaultBreakpoints: {\n      desktop: 'lg',\n      mobile: 'xs',\n      tablet: 'md',\n    },\n\n    fallbackBreakpoint: 'lg'\n  },\n  // ...\n}\n```",
+    "ContentSha": "jtuHpOtkxZr3vTkPDzhwim93+ZPYu4o+8gphmssf74k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n{\n  // ...\n  viewport: {\n    breakpoints: {\n      xs: 320,\n      sm: 640,\n      md: 768,\n      lg: 1024,\n      xl: 1280,\n      '2xl': 1536,\n    },\n\n    defaultBreakpoints: {\n      desktop: 'lg',\n      mobile: 'xs',\n      tablet: 'md',\n    },\n\n    fallbackBreakpoint: 'lg'\n  },\n  // ...\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "lTbtS0/I1oY7IIv07CUv1FacuyuURvnTS2gVJxMOnOk=",
+        "originContent": "  // ...",
+        "translatedContent": "  // ..."
+      },
+      {
+        "row": 4,
+        "rowsha": "Ufd9pa32/Xg9umtj1ruJS44ldqMw+0JKogCdFhFx6/0=",
+        "originContent": "  viewport: {",
+        "translatedContent": "  viewport: {"
+      },
+      {
+        "row": 5,
+        "rowsha": "t3O1s9wv8mOk5fZxf4tDbvqMFIY5zsHFptX4WR4532c=",
+        "originContent": "    breakpoints: {",
+        "translatedContent": "    breakpoints: {"
+      },
+      {
+        "row": 6,
+        "rowsha": "8LBa5nneQAms2XvqM94pv69y6FaXGem+2lHhRMiRC0I=",
+        "originContent": "      xs: 320,",
+        "translatedContent": "      xs: 320,"
+      },
+      {
+        "row": 7,
+        "rowsha": "+EbbAwo97SF6K0mGA3jkNz2a5QwfYzgP7UO2lSR+nmU=",
+        "originContent": "      sm: 640,",
+        "translatedContent": "      sm: 640,"
+      },
+      {
+        "row": 8,
+        "rowsha": "EUHspkHTxPKRV4N91rnXc01anHkZXE8w1v1DVgsDuyU=",
+        "originContent": "      md: 768,",
+        "translatedContent": "      md: 768,"
+      },
+      {
+        "row": 9,
+        "rowsha": "E0uyrxe1zoma6ZphO7OXQJAeTnrybj36ZaPjzJ83iMQ=",
+        "originContent": "      lg: 1024,",
+        "translatedContent": "      lg: 1024,"
+      },
+      {
+        "row": 10,
+        "rowsha": "m+bdRHL/9h3HyZM3jF/URxoKB9nJUmFbJh7VcJPmnjc=",
+        "originContent": "      xl: 1280,",
+        "translatedContent": "      xl: 1280,"
+      },
+      {
+        "row": 11,
+        "rowsha": "Vr5FzVTQz87h8EBRZNOVWvieTy8gdwGRUYNus8LrjFo=",
+        "originContent": "      '2xl': 1536,",
+        "translatedContent": "      '2xl': 1536,"
+      },
+      {
+        "row": 12,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "nF+EWlbGizLfWtWyijzYhRvllD5tkfNejbzc1ExJLWE=",
+        "originContent": "    defaultBreakpoints: {",
+        "translatedContent": "    defaultBreakpoints: {"
+      },
+      {
+        "row": 15,
+        "rowsha": "ZvxQAt//p/+lRw0bq2CoreYlDJyRxK55KEFtH5aoI68=",
+        "originContent": "      desktop: 'lg',",
+        "translatedContent": "      desktop: 'lg',"
+      },
+      {
+        "row": 16,
+        "rowsha": "2LOkYeQtnExmSKMCAYKP2ocpm2okqFa9evtfXcbfReE=",
+        "originContent": "      mobile: 'xs',",
+        "translatedContent": "      mobile: 'xs',"
+      },
+      {
+        "row": 17,
+        "rowsha": "5ebDfjGISVI/sahYdLn8n+Dj8hrZVis5g4S7K4xpZfw=",
+        "originContent": "      tablet: 'md',",
+        "translatedContent": "      tablet: 'md',"
+      },
+      {
+        "row": 18,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "4n7Q36YlDaheyekTEPQvAT1ViP7JWQFd0JOlojFRH8E=",
+        "originContent": "    fallbackBreakpoint: 'lg'",
+        "translatedContent": "    fallbackBreakpoint: 'lg'"
+      },
+      {
+        "row": 21,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 22,
+        "rowsha": "lTbtS0/I1oY7IIv07CUv1FacuyuURvnTS2gVJxMOnOk=",
+        "originContent": "  // ...",
+        "translatedContent": "  // ..."
+      },
+      {
+        "row": 23,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 24,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n## Per-page configuration\nYou can override the global configuration for specific pages using [`definePageMeta`](https://nuxt.com/docs/api/utils/define-page-meta).",
+    "ContentSha": "20WtoKT3v7PKrC0p0E0g0TuhvQsW/QyXUiHnRn4lkvk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Configuración por página\nPuedes sobrescribir la configuración global para páginas específicas usando [`definePageMeta`](https://nuxt.com/docs/api/utils/define-page-meta).",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "hxh36SEDXsoYNcTNkJsPg7ctPgODBDPePiI5iTY7qoE=",
+        "originContent": "## Per-page configuration",
+        "translatedContent": "## Configuración por página"
+      },
+      {
+        "row": 3,
+        "rowsha": "LMQCUlCV3L+GM+RcxBP0uC8lugeS//LpQzPUS2qrrec=",
+        "originContent": "You can override the global configuration for specific pages using [`definePageMeta`](https://nuxt.com/docs/api/utils/define-page-meta).",
+        "translatedContent": "Puedes sobrescribir la configuración global para páginas específicas usando [`definePageMeta`](https://nuxt.com/docs/api/utils/define-page-meta)."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```vue\n<script setup>\ndefinePageMeta({\n  viewport: {\n    breakpoints: {\n      desktop: 1024,\n      mobile: 320,\n      tablet: 768\n    },\n    cookie: {\n      name: 'viewport-per-page'\n    }\n    // Other fields will be inherited from the global configuration\n  }\n})\n</script>\n```",
+    "ContentSha": "GzlGs8QR8weDeJPvSC1+9aqMa7+I3dJGvusX/MyVde0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```vue\n<script setup>\ndefinePageMeta({\n  viewport: {\n    breakpoints: {\n      desktop: 1024,\n      mobile: 320,\n      tablet: 768\n    },\n    cookie: {\n      name: 'viewport-per-page'\n    }\n    // Other fields will be inherited from the global configuration\n  }\n})\n</script>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "sjYrTXzAO/H2CDZkZSwaZ7drIR/liJxs2FeNvIKGdJE=",
+        "originContent": "```vue",
+        "translatedContent": "```vue"
+      },
+      {
+        "row": 2,
+        "rowsha": "/BJrG9WQbtT5ApW6yJWxOX2mbqcCJOsJZX0Uu41n74w=",
+        "originContent": "<script setup>",
+        "translatedContent": "<script setup>"
+      },
+      {
+        "row": 3,
+        "rowsha": "v1vL2BpGuPVC5tJE78ETO2bIp1DVP/GxvYS+aHS6sbY=",
+        "originContent": "definePageMeta({",
+        "translatedContent": "definePageMeta({"
+      },
+      {
+        "row": 4,
+        "rowsha": "Ufd9pa32/Xg9umtj1ruJS44ldqMw+0JKogCdFhFx6/0=",
+        "originContent": "  viewport: {",
+        "translatedContent": "  viewport: {"
+      },
+      {
+        "row": 5,
+        "rowsha": "t3O1s9wv8mOk5fZxf4tDbvqMFIY5zsHFptX4WR4532c=",
+        "originContent": "    breakpoints: {",
+        "translatedContent": "    breakpoints: {"
+      },
+      {
+        "row": 6,
+        "rowsha": "mbvUeXl0frAhDBjkDW1JS8o+t9lI+dtYA3kC3i24Nik=",
+        "originContent": "      desktop: 1024,",
+        "translatedContent": "      desktop: 1024,"
+      },
+      {
+        "row": 7,
+        "rowsha": "iaejZbDcp+ohu/BMOcL67sjxspTucS7u1nRMHD2Y0ng=",
+        "originContent": "      mobile: 320,",
+        "translatedContent": "      mobile: 320,"
+      },
+      {
+        "row": 8,
+        "rowsha": "l91NIqHIB/xrTNLmfw0cFEse3Cf0C0YATA36jNy/iGY=",
+        "originContent": "      tablet: 768",
+        "translatedContent": "      tablet: 768"
+      },
+      {
+        "row": 9,
+        "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+        "originContent": "    },",
+        "translatedContent": "    },"
+      },
+      {
+        "row": 10,
+        "rowsha": "rv/H+pvyXoz9raZEzWuXfaeq/t7ZaVuU4ap0Q68p9QM=",
+        "originContent": "    cookie: {",
+        "translatedContent": "    cookie: {"
+      },
+      {
+        "row": 11,
+        "rowsha": "itkpmBfegIiIZrsAAC6oZN7yHKSITtFKhszMzb6wniw=",
+        "originContent": "      name: 'viewport-per-page'",
+        "translatedContent": "      name: 'viewport-per-page'"
+      },
+      {
+        "row": 12,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 13,
+        "rowsha": "O6IZgl7G3eYI6f+3ZXnMdMaiBOagYChyaEkrB7TMLA0=",
+        "originContent": "    // Other fields will be inherited from the global configuration",
+        "translatedContent": "    // Other fields will be inherited from the global configuration"
+      },
+      {
+        "row": 14,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 15,
+        "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+        "originContent": "})",
+        "translatedContent": "})"
+      },
+      {
+        "row": 16,
+        "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+        "originContent": "</script>",
+        "translatedContent": "</script>"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n## API\n\n### `viewport.breakpoint`\n- Type: String\n\nCurrent breakpoint.\n\n### `viewport.breakpointValue`\n- Type: Number\n",
+    "ContentSha": "9/BOHC+46wY9HjpwKjpzBgiiQQZUPAJ9Zbp87Y/ogo0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## API\n\n### `viewport.breakpoint`\n- Tipo: Cadena\n\nPunto de interrupción actual.\n\n### `viewport.breakpointValue`\n- Tipo: Número\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "QMr2bE3lbka3JIXEet/0kWxLx+Vj7Nn3J46dyvktHK0=",
+        "originContent": "## API",
+        "translatedContent": "## API"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "wLvaZhzzM2/jinqWOAXSw/v/dxBw8HUbvyp+P8ZRlv8=",
+        "originContent": "### `viewport.breakpoint`",
+        "translatedContent": "### `viewport.breakpoint`"
+      },
+      {
+        "row": 5,
+        "rowsha": "6H1exeW7BVdSunigQxKnu31L3OXw+KBJMOZHpSK7/w8=",
+        "originContent": "- Type: String",
+        "translatedContent": "- Tipo: Cadena"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "gBq+pLYVlYX7Ypf5PnD2Lrg3RagxrUpkDCK8B978zBE=",
+        "originContent": "Current breakpoint.",
+        "translatedContent": "Punto de interrupción actual."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "ahKIzZMpR8z8m8A+Q+C/xpYoW7FmzRrT9XyAdC3lVpk=",
+        "originContent": "### `viewport.breakpointValue`",
+        "translatedContent": "### `viewport.breakpointValue`"
+      },
+      {
+        "row": 10,
+        "rowsha": "Sm0fePviGXFb8dqp+tq0CIYINkk2C3ctbg3sRO6S56w=",
+        "originContent": "- Type: Number",
+        "translatedContent": "- Tipo: Número"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```js\n// Example using defaults.\n\nviewport.breakpointValue('desktop') // Result: 1024.\nviewport.breakpointValue('tablet') // Result: 768.\nviewport.breakpointValue('mobile') // Result: 320.\n```",
+    "ContentSha": "/QfhiKdHHwDo7xOcLrF2DNq14UGUZNmeps4WpflGHTs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// Example using defaults.\n\nviewport.breakpointValue('desktop') // Result: 1024.\nviewport.breakpointValue('tablet') // Result: 768.\nviewport.breakpointValue('mobile') // Result: 320.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "FF7L/dmcutlZdSqLez74Q02tyljIrh8XeisQGimqlos=",
+        "originContent": "// Example using defaults.",
+        "translatedContent": "// Example using defaults."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "rqeT7hZ6FrXT1bGp8KlMJNowRVFmy0fp7vgpjVO39ro=",
+        "originContent": "viewport.breakpointValue('desktop') // Result: 1024.",
+        "translatedContent": "viewport.breakpointValue('desktop') // Result: 1024."
+      },
+      {
+        "row": 5,
+        "rowsha": "o4tKJp5iO2hgRWXQQsXpRYU1EUoNGq2aDEPiw6IG5pU=",
+        "originContent": "viewport.breakpointValue('tablet') // Result: 768.",
+        "translatedContent": "viewport.breakpointValue('tablet') // Result: 768."
+      },
+      {
+        "row": 6,
+        "rowsha": "WCw6G7tlKbVIE4xCTGKwmkvpetEDdW5Cl16FdSar30Q=",
+        "originContent": "viewport.breakpointValue('mobile') // Result: 320.",
+        "translatedContent": "viewport.breakpointValue('mobile') // Result: 320."
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\n### `viewport.isGreaterThan`\n- Type: Boolean\n",
+    "ContentSha": "vvLcwRpheGIpOhG7sN8TtSNgfxevIHQBT4+VzvfoQQ8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `viewport.isGreaterThan`\n- Tipo: Booleano\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "xdm+60wAafy58nKkj9p68y+2lVJTgfgnmgOAdTSJVTI=",
+        "originContent": "### `viewport.isGreaterThan`",
+        "translatedContent": "### `viewport.isGreaterThan`"
+      },
+      {
+        "row": 3,
+        "rowsha": "6ywL5AHRj6v0k+IH9DsrhGjW34sVhCxkBh2Z0jsKE5M=",
+        "originContent": "- Type: Boolean",
+        "translatedContent": "- Tipo: Booleano"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```js\n// Example: viewport.breakpoint is \"mobile\".\n\nviewport.isGreaterThan('mobile') // Result: false.\nviewport.isGreaterThan('desktop') // Result: false.\n```",
+    "ContentSha": "9x/i5hpUkKlTKhlo34FgzLFU2OkQq0ZQZW+TqqLil50=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// Example: viewport.breakpoint is \"mobile\".\n\nviewport.isGreaterThan('mobile') // Result: false.\nviewport.isGreaterThan('desktop') // Result: false.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "5J8Y6ov6S74CvYp1/b8yFUAqELPZr/pAl251DuJuFPQ=",
+        "originContent": "// Example: viewport.breakpoint is \"mobile\".",
+        "translatedContent": "// Example: viewport.breakpoint is \"mobile\"."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "lQ46y6jRKBCu1E6Bm5T/xCcZh+A6jabwC6H4npZf5NI=",
+        "originContent": "viewport.isGreaterThan('mobile') // Result: false.",
+        "translatedContent": "viewport.isGreaterThan('mobile') // Result: false."
+      },
+      {
+        "row": 5,
+        "rowsha": "cyyDnGsZstjbURp/PlcqUI/VYWN6ExMdo+4vQgqC0zM=",
+        "originContent": "viewport.isGreaterThan('desktop') // Result: false.",
+        "translatedContent": "viewport.isGreaterThan('desktop') // Result: false."
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n### `viewport.isGreaterOrEquals`\n- Type: Boolean\n",
+    "ContentSha": "iOTWWwjqyIkJwb96SQ3GEVEeEE31cZLCgrjGv896YWc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `viewport.isGreaterOrEquals`\n- Tipo: Booleano\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FyJ8Mcg9Q/DeP6L0tZV49vg/lzbdb8RPcrW/7rBzP0g=",
+        "originContent": "### `viewport.isGreaterOrEquals`",
+        "translatedContent": "### `viewport.isGreaterOrEquals`"
+      },
+      {
+        "row": 3,
+        "rowsha": "6ywL5AHRj6v0k+IH9DsrhGjW34sVhCxkBh2Z0jsKE5M=",
+        "originContent": "- Type: Boolean",
+        "translatedContent": "- Tipo: Booleano"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```js\n// Example: viewport.breakpoint is \"mobile\".\n\nviewport.isGreaterOrEquals('mobile') // Result: true.\nviewport.isGreaterOrEquals('desktop') // Result: false.\n```",
+    "ContentSha": "cGmUdcyUKKohDFi2gtytjwyNF3rbyzMEv2NXLwasGkU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// Example: viewport.breakpoint is \"mobile\".\n\nviewport.isGreaterOrEquals('mobile') // Result: true.\nviewport.isGreaterOrEquals('desktop') // Result: false.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "5J8Y6ov6S74CvYp1/b8yFUAqELPZr/pAl251DuJuFPQ=",
+        "originContent": "// Example: viewport.breakpoint is \"mobile\".",
+        "translatedContent": "// Example: viewport.breakpoint is \"mobile\"."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VGiLdd7kGlLv8y4y+bsCqPCSLE96fLdAsczMhSBY+CU=",
+        "originContent": "viewport.isGreaterOrEquals('mobile') // Result: true.",
+        "translatedContent": "viewport.isGreaterOrEquals('mobile') // Result: true."
+      },
+      {
+        "row": 5,
+        "rowsha": "+SeRwJ/sQ7n9a1wwpiDJwVZLUqrGjPJFCleIxK6uj4k=",
+        "originContent": "viewport.isGreaterOrEquals('desktop') // Result: false.",
+        "translatedContent": "viewport.isGreaterOrEquals('desktop') // Result: false."
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n### `viewport.isLessThan`\n- Type: Boolean\n",
+    "ContentSha": "AhIKbV6RbwNTOACugtcHqzTzBv818hZnFqGN637+wBI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `viewport.isLessThan`\n- Tipo: Booleano\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Tx0sFYxAlAAyc7p7r93JXKTRW4u9sdWlvRZ6m+zZ2Is=",
+        "originContent": "### `viewport.isLessThan`",
+        "translatedContent": "### `viewport.isLessThan`"
+      },
+      {
+        "row": 3,
+        "rowsha": "6ywL5AHRj6v0k+IH9DsrhGjW34sVhCxkBh2Z0jsKE5M=",
+        "originContent": "- Type: Boolean",
+        "translatedContent": "- Tipo: Booleano"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```js\n// Example: viewport.breakpoint is \"desktop\".\n\nviewport.isLessThan('desktopWide') // Result: true.\nviewport.isLessThan('mobile') // Result: false.\n```",
+    "ContentSha": "ggwr9r+1vp2LEshePi8fudXU4ZbVrG4zgZG3p+JgCCk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// Example: viewport.breakpoint is \"desktop\".\n\nviewport.isLessThan('desktopWide') // Result: true.\nviewport.isLessThan('mobile') // Result: false.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "c9bdEHewpxZHFPRCIYxM3Gb2msWXfP4SnjX7ykWMYCQ=",
+        "originContent": "// Example: viewport.breakpoint is \"desktop\".",
+        "translatedContent": "// Example: viewport.breakpoint is \"desktop\"."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "7DJdeLTVtKpkVEs60I9XeJqsPQy931dWFtIETu/bG+U=",
+        "originContent": "viewport.isLessThan('desktopWide') // Result: true.",
+        "translatedContent": "viewport.isLessThan('desktopWide') // Result: true."
+      },
+      {
+        "row": 5,
+        "rowsha": "L7Au9sr16B9Yb3uu/lVxUm0C5vJ94Yt6eV+omTile1o=",
+        "originContent": "viewport.isLessThan('mobile') // Result: false.",
+        "translatedContent": "viewport.isLessThan('mobile') // Result: false."
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n### `viewport.isLessOrEquals`\n- Type: Boolean\n",
+    "ContentSha": "ZuThSTx4OcvfSsAADI4QK8uDjwT7h0fM4JG3JOC9HiE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `viewport.isLessOrEquals`\n- Tipo: Booleano\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Ls2Kxthz2TTiiZ2jMdtzE+9US0gGyZNtvVThJwQDoFI=",
+        "originContent": "### `viewport.isLessOrEquals`",
+        "translatedContent": "### `viewport.isLessOrEquals`"
+      },
+      {
+        "row": 3,
+        "rowsha": "6ywL5AHRj6v0k+IH9DsrhGjW34sVhCxkBh2Z0jsKE5M=",
+        "originContent": "- Type: Boolean",
+        "translatedContent": "- Tipo: Booleano"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```js\n// Example: viewport.breakpoint is \"tablet\".\n\nviewport.isLessOrEquals('tablet') // Result: true.\nviewport.isLessOrEquals('mobile') // Result: false.\n```",
+    "ContentSha": "xgzZk7MD9vXaCe3hpbxCHdCQUhAReMuqa7TLEDTDrtI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// Example: viewport.breakpoint is \"tablet\".\n\nviewport.isLessOrEquals('tablet') // Result: true.\nviewport.isLessOrEquals('mobile') // Result: false.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "xbxDixTgCrol1gTfZO532a2fKiUgZwDqumRKP8ba4+o=",
+        "originContent": "// Example: viewport.breakpoint is \"tablet\".",
+        "translatedContent": "// Example: viewport.breakpoint is \"tablet\"."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "eVfUH7H+ke97hux4hyOTrBXEvEZeo12S/r8fUTFp4a4=",
+        "originContent": "viewport.isLessOrEquals('tablet') // Result: true.",
+        "translatedContent": "viewport.isLessOrEquals('tablet') // Result: true."
+      },
+      {
+        "row": 5,
+        "rowsha": "y3ebvGONLUxGwZepNZqTvOSpZytK05+JZsq/6MxTZSI=",
+        "originContent": "viewport.isLessOrEquals('mobile') // Result: false.",
+        "translatedContent": "viewport.isLessOrEquals('mobile') // Result: false."
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n### `viewport.match`\n- Type: Boolean\n",
+    "ContentSha": "o/4HPMSF/Ijv0/XDKqBkW/nzTIaaoqsWuens12ZdCBY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `viewport.match`\n- Tipo: Booleano\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cidYMdRj+lOPBOONlHlyJiQN5Lc7AHfOLf+qwjMj00s=",
+        "originContent": "### `viewport.match`",
+        "translatedContent": "### `viewport.match`"
+      },
+      {
+        "row": 3,
+        "rowsha": "6ywL5AHRj6v0k+IH9DsrhGjW34sVhCxkBh2Z0jsKE5M=",
+        "originContent": "- Type: Boolean",
+        "translatedContent": "- Tipo: Booleano"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```js\n// Example: viewport.breakpoint is \"tablet\".\n\nviewport.match('tablet') // Result: true.\nviewport.match('desktop') // Result: false.\n```",
+    "ContentSha": "MwIpEBVDuM1/L0MXeycl9efLaAHSlfNc1lozl3ALjEo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// Example: viewport.breakpoint is \"tablet\".\n\nviewport.match('tablet') // Result: true.\nviewport.match('desktop') // Result: false.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "xbxDixTgCrol1gTfZO532a2fKiUgZwDqumRKP8ba4+o=",
+        "originContent": "// Example: viewport.breakpoint is \"tablet\".",
+        "translatedContent": "// Example: viewport.breakpoint is \"tablet\"."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "DvQ91H5un7qgjz9Y5Br6U4Dr5wJzkG+FaBN/9v2H56I=",
+        "originContent": "viewport.match('tablet') // Result: true.",
+        "translatedContent": "viewport.match('tablet') // Result: true."
+      },
+      {
+        "row": 5,
+        "rowsha": "3GOGDs2JDBnGf36KsiX9nt7MRZ3PzEPfqaBPO/TWspw=",
+        "originContent": "viewport.match('desktop') // Result: false.",
+        "translatedContent": "viewport.match('desktop') // Result: false."
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\n### `viewport.matches`\n- Type: Boolean\n",
+    "ContentSha": "90AoXss3aOaNznJmwIZGR8MNAQIfeGIpCMEyiwGP1bI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `viewport.matches`\n- Tipo: Booleano\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mS50xvWU/bVMDPG1JAC3V4ytrL8emv3dIrndwjPYbLs=",
+        "originContent": "### `viewport.matches`",
+        "translatedContent": "### `viewport.matches`"
+      },
+      {
+        "row": 3,
+        "rowsha": "6ywL5AHRj6v0k+IH9DsrhGjW34sVhCxkBh2Z0jsKE5M=",
+        "originContent": "- Type: Boolean",
+        "translatedContent": "- Tipo: Booleano"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "```js\n// Example: viewport.breakpoint is \"mobileWide\".\n\nviewport.matches('tablet', 'mobileWide') // Result: true.\nviewport.matches('mobile', 'tablet') // Result: false.\n```",
+    "ContentSha": "RPoOxD6bhvD0vsR1BGK3oe8xrb/gm2jg6/YjGFNxQxg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```js\n// Example: viewport.breakpoint is \"mobileWide\".\n\nviewport.matches('tablet', 'mobileWide') // Result: true.\nviewport.matches('mobile', 'tablet') // Result: false.\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+        "originContent": "```js",
+        "translatedContent": "```js"
+      },
+      {
+        "row": 2,
+        "rowsha": "geKBN8ioaxW7lV22HROS0ThOsZRS4YYXv3PEyRTL6AU=",
+        "originContent": "// Example: viewport.breakpoint is \"mobileWide\".",
+        "translatedContent": "// Example: viewport.breakpoint is \"mobileWide\"."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "RlF4IbA3YgFSgqWagIi3jek50lHUMHQ3l0Vs7d0z4HM=",
+        "originContent": "viewport.matches('tablet', 'mobileWide') // Result: true.",
+        "translatedContent": "viewport.matches('tablet', 'mobileWide') // Result: true."
+      },
+      {
+        "row": 5,
+        "rowsha": "IEzYZZ1FqQ2aKSz+SNOewhCTNFgpvyMh5FSZK634kTs=",
+        "originContent": "viewport.matches('mobile', 'tablet') // Result: false.",
+        "translatedContent": "viewport.matches('mobile', 'tablet') // Result: false."
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "\n### `viewport.queries`\n- Type: Object\n\nObject with generated media queries.\n\n## Contributing\n\nYou can contribute to this module online with CodeSandBox:\n\n[![Edit nuxt-viewport](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mvrlin/nuxt-viewport/tree/main/?fontsize=14&hidenavigation=1&theme=dark)\n\nOr locally:\n\n1. Clone this repository\n2. Install dependencies using `yarn install` or `npm install`\n3. Start development server using `yarn dev` or `npm run dev`\n\n## License\n\n[MIT License](./LICENSE)\n\nCopyright (c) mvrlin mvrlin@pm.me\n\n<!-- Badges -->\n[npm-version-src]: https://img.shields.io/npm/v/nuxt-viewport/latest.svg?style=for-the-badge\n[npm-version-href]: https://npmjs.com/package/nuxt-viewport\n\n[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-viewport.svg?style=for-the-badge\n[npm-downloads-href]: https://npmjs.com/package/nuxt-viewport\n\n[license-src]: https://img.shields.io/npm/l/nuxt-viewport.svg?style=for-the-badge\n[license-href]: https://npmjs.com/package/nuxt-viewport\n",
+    "ContentSha": "we0ui3qRIZYQV0DqPiBlrNfkvBO6/7HRKi9vHMUK5wU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### `viewport.queries`\n- Tipo: Objeto\n\nObjeto con consultas de medios generadas.\n\n## Contribuir\n\nPuedes contribuir a este módulo en línea con CodeSandBox:\n\n[![Editar nuxt-viewport](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mvrlin/nuxt-viewport/tree/main/?fontsize=14&hidenavigation=1&theme=dark)\n\nO localmente:\n\n1. Clona este repositorio\n2. Instala las dependencias usando `yarn install` o `npm install`\n3. Inicia el servidor de desarrollo usando `yarn dev` o `npm run dev`\n\n## Licencia\n\n[Licencia MIT](./LICENSE)\n\nCopyright (c) mvrlin mvrlin@pm.me\n\n<!-- Badges -->\n[npm-version-src]: https://img.shields.io/npm/v/nuxt-viewport/latest.svg?style=for-the-badge\n[npm-version-href]: https://npmjs.com/package/nuxt-viewport\n\n[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-viewport.svg?style=for-the-badge\n[npm-downloads-href]: https://npmjs.com/package/nuxt-viewport\n\n[license-src]: https://img.shields.io/npm/l/nuxt-viewport.svg?style=for-the-badge\n[license-href]: https://npmjs.com/package/nuxt-viewport\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "wXI0aXOb5enHrKKxWT3E2VE8DWWToWSBtgSbdYKliaE=",
+        "originContent": "### `viewport.queries`",
+        "translatedContent": "### `viewport.queries`"
+      },
+      {
+        "row": 3,
+        "rowsha": "DBXXP9/zHAuNLDqk1z59Ep8esfA2/G0veCohkB5f+E0=",
+        "originContent": "- Type: Object",
+        "translatedContent": "- Tipo: Objeto"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "6byGiMKBY0Je3lsJKycFkkOQ/K9oi6ggW1lVWjn6afo=",
+        "originContent": "Object with generated media queries.",
+        "translatedContent": "Objeto con consultas de medios generadas."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contribuir"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "8rJJFpaz2WNwkxpyxAJQWOmqk9K2N8mtY6W0BgNFyVs=",
+        "originContent": "You can contribute to this module online with CodeSandBox:",
+        "translatedContent": "Puedes contribuir a este módulo en línea con CodeSandBox:"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "96TOe5yDeupBfj7qMZPrJ11w7fksjN0dKnGYQwvtuFw=",
+        "originContent": "[![Edit nuxt-viewport](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mvrlin/nuxt-viewport/tree/main/?fontsize=14&hidenavigation=1&theme=dark)",
+        "translatedContent": "[![Editar nuxt-viewport](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mvrlin/nuxt-viewport/tree/main/?fontsize=14&hidenavigation=1&theme=dark)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "qDtr8zGstKXmnZ3QH970giRlaoS5kuYznaNB2tnZ3pA=",
+        "originContent": "Or locally:",
+        "translatedContent": "O localmente:"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "uQ/hpcsn+PKWI4+EsW0FFWPUwIPmR5RTRYfs5fij3hE=",
+        "originContent": "1. Clone this repository",
+        "translatedContent": "1. Clona este repositorio"
+      },
+      {
+        "row": 16,
+        "rowsha": "XQOr/67svXG4HMiTk7qJcRAWcBLwoy7nTPXNSMcYuks=",
+        "originContent": "2. Install dependencies using `yarn install` or `npm install`",
+        "translatedContent": "2. Instala las dependencias usando `yarn install` o `npm install`"
+      },
+      {
+        "row": 17,
+        "rowsha": "+LA7h5eSeDpM0s+9G1281JDgS94HbRZK6j+7vywQq6o=",
+        "originContent": "3. Start development server using `yarn dev` or `npm run dev`",
+        "translatedContent": "3. Inicia el servidor de desarrollo usando `yarn dev` o `npm run dev`"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licencia"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "/WUH+/u0CzWnaUNErrZIGMIZv/KdKcRsIQ6dUFG83lU=",
+        "originContent": "[MIT License](./LICENSE)",
+        "translatedContent": "[Licencia MIT](./LICENSE)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "tC69hK8qTPC5NbEZrhJf2RvTI4iW5+CleGehdgpVZp0=",
+        "originContent": "Copyright (c) mvrlin mvrlin@pm.me",
+        "translatedContent": "Copyright (c) mvrlin mvrlin@pm.me"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "M4oziECrwtJXsHT6Xs/KQ4oL6rbTnzTqxEczzFAlEbY=",
+        "originContent": "<!-- Badges -->",
+        "translatedContent": "<!-- Badges -->"
+      },
+      {
+        "row": 26,
+        "rowsha": "nJ2w9FJimhi+VpxgzW/4Uvfz5F+DeR47rxo1hw/Rb6w=",
+        "originContent": "[npm-version-src]: https://img.shields.io/npm/v/nuxt-viewport/latest.svg?style=for-the-badge",
+        "translatedContent": "[npm-version-src]: https://img.shields.io/npm/v/nuxt-viewport/latest.svg?style=for-the-badge"
+      },
+      {
+        "row": 27,
+        "rowsha": "icMfWY/OStJQIIYi3cA7ywmWf45FUrNbsFiVELlsGVM=",
+        "originContent": "[npm-version-href]: https://npmjs.com/package/nuxt-viewport",
+        "translatedContent": "[npm-version-href]: https://npmjs.com/package/nuxt-viewport"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "jBsTAIJFO2wN2pHfDVET54c7hMYba0QdcHdgcFXk1zk=",
+        "originContent": "[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-viewport.svg?style=for-the-badge",
+        "translatedContent": "[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-viewport.svg?style=for-the-badge"
+      },
+      {
+        "row": 30,
+        "rowsha": "fv9Qz9jroKqxGXCnseCJZX56qjl0HMCVDT6qcQkOtZY=",
+        "originContent": "[npm-downloads-href]: https://npmjs.com/package/nuxt-viewport",
+        "translatedContent": "[npm-downloads-href]: https://npmjs.com/package/nuxt-viewport"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "jX9uuvGs6Vtryviz01o1AYxqkgCTC+jOR2Q2OJufKsI=",
+        "originContent": "[license-src]: https://img.shields.io/npm/l/nuxt-viewport.svg?style=for-the-badge",
+        "translatedContent": "[license-src]: https://img.shields.io/npm/l/nuxt-viewport.svg?style=for-the-badge"
+      },
+      {
+        "row": 33,
+        "rowsha": "xNzn9IHOJCG05Dg2igbEwh4q7ph/VJzUgwxKVKpi2Pk=",
+        "originContent": "[license-href]: https://npmjs.com/package/nuxt-viewport",
+        "translatedContent": "[license-href]: https://npmjs.com/package/nuxt-viewport"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,2054 @@
+[
+  {
+    "row": 1,
+    "rowsha": "/jHEGNh+Cb6XEaFEOp1ZhoWRKIG4EvK6+AQeSYMtzjM=",
+    "originContent": "# nuxt-viewport",
+    "translatedContent": "# nuxt-viewport"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "l0nRHhmxDVIO77pPZTcn9nhS+qTu3BdKjCkmzxy1jTw=",
+    "originContent": "[![npm version][npm-version-src]][npm-version-href]",
+    "translatedContent": "[![npm version][npm-version-src]][npm-version-href]"
+  },
+  {
+    "row": 4,
+    "rowsha": "hnIrGiscuuDH9YcgBWT3KbK5z+7pQh3ysv4vkQrNZ/4=",
+    "originContent": "[![npm downloads][npm-downloads-src]][npm-downloads-href]",
+    "translatedContent": "[![npm downloads][npm-downloads-src]][npm-downloads-href]"
+  },
+  {
+    "row": 5,
+    "rowsha": "/M0XgCc7eE8/VxDfvmaj3L6LQsaMZSRsKX4iskWhAK4=",
+    "originContent": "[![License][license-src]][license-href]",
+    "translatedContent": "[![License][license-src]][license-href]"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "gB6vBAw4n8IcXJ6vS2904OKNqePvj7hsyJES17Yaq4A=",
+    "originContent": "> Define custom viewports for your [Nuxt](https://nuxt.com/)️ project",
+    "translatedContent": "> Define custom viewports for your [Nuxt](https://nuxt.com/)️ project"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## Features"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "BYqdKyNRn0mQEkCTxT9ieauf7FGWiqBsF3S5QRfFAJ8=",
+    "originContent": "- ⚡️&nbsp; Fast & Light with [MatchMedia API](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia) ⚡️",
+    "translatedContent": "- ⚡️&nbsp; Fast & Light with [MatchMedia API](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia) ⚡️"
+  },
+  {
+    "row": 12,
+    "rowsha": "G4bJT8T5j/r+WXlYWKaS8gArkC4s3w6WHydzNjwUrT0=",
+    "originContent": "- 🕶&nbsp; Auto detects the device viewport from Cookie & User-Agent",
+    "translatedContent": "- 🕶&nbsp; Auto detects the device viewport from Cookie & User-Agent"
+  },
+  {
+    "row": 13,
+    "rowsha": "zKKvl8VBVMfC9SVnYty/Lis7OPXkhEEJr13gB565tQ4=",
+    "originContent": "- 👌&nbsp; Zero configuration to start",
+    "translatedContent": "- 👌&nbsp; Zero configuration to start"
+  },
+  {
+    "row": 14,
+    "rowsha": "y+LzVI3HNu/08Kvk8cp5fXtuMvPD+BsEn8DFZqKO50g=",
+    "originContent": "- 👴️&nbsp; Supports IE9+",
+    "translatedContent": "- 👴️&nbsp; Supports IE9+"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "0EHXgFOu9ETWZBaKiUPWqMVlq8vcFdJVLwoCedfDIjU=",
+    "originContent": "> **Note**\\",
+    "translatedContent": "> **Note**\\"
+  },
+  {
+    "row": 17,
+    "rowsha": "1ooSU2j8h1WX3C8IB6hmoXs5y1rb8DvqnUbAkBR+v/4=",
+    "originContent": "> This version is Nuxt 3+ & Nuxt Bridge only. For Nuxt 2 see [1.0.1](https://www.npmjs.com/package/nuxt-viewport/v/1.0.1)",
+    "translatedContent": "> This version is Nuxt 3+ & Nuxt Bridge only. For Nuxt 2 see [1.0.1](https://www.npmjs.com/package/nuxt-viewport/v/1.0.1)"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "whDTkdcDH6o4sTo0SZngGpiUJ49K1jUNRHng74VpOiw=",
+    "originContent": "## Quick Setup",
+    "translatedContent": "## Quick Setup"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "Yv9ejHYmX2Oe10WwqyPVHFajL5ROae2xb0D267dcIoI=",
+    "originContent": "1. Add `nuxt-viewport` dependency to your project",
+    "translatedContent": "1. Add `nuxt-viewport` dependency to your project"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 24,
+    "rowsha": "gkHIj+fYh+xaCzRF8TXPAJVCGAibMInxYadHQXOBhVo=",
+    "originContent": "npx nuxi@latest module add nuxt-viewport",
+    "translatedContent": "npx nuxi@latest module add nuxt-viewport"
+  },
+  {
+    "row": 25,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. Add `nuxt-viewport` to the `modules` section of `nuxt.config.js`"
+  },
+  {
+    "row": 27,
+    "rowsha": "DpPnCJueSOxWfeRu0Vqvq8nvbIJDZafdbzFkMeiEB5s=",
+    "originContent": "2. Add `nuxt-viewport` to the `modules` section of `nuxt.config.js`",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 30,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 31,
+    "rowsha": "ky17xkAW8nmRBLWRXRJWLmuOAYuacXY6bCwmLJuTY04=",
+    "originContent": "  modules: [",
+    "translatedContent": "  modules: ["
+  },
+  {
+    "row": 32,
+    "rowsha": "okCggNL9AVDz1iuWOWD6RScic1M33AfjjJtbWOf4JiQ=",
+    "originContent": "    [",
+    "translatedContent": "    ["
+  },
+  {
+    "row": 33,
+    "rowsha": "gGJP6iMnbGaeRuYawgfLvvIt9exwG7q80Yp6NYxz2pY=",
+    "originContent": "      'nuxt-viewport', {",
+    "translatedContent": "      'nuxt-viewport', {"
+  },
+  {
+    "row": 34,
+    "rowsha": "y27/+vDrGBe2zTpDtAjR2mYCrjMXxgpkqydjrONTpn0=",
+    "originContent": "        /* Viewport options */",
+    "translatedContent": "        /* Viewport options */"
+  },
+  {
+    "row": 35,
+    "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+    "originContent": "      }",
+    "translatedContent": "      }"
+  },
+  {
+    "row": 36,
+    "rowsha": "/4y2mDluE/6gPlOuW99X51DJh7tetngAemmeBkzB+FY=",
+    "originContent": "    ],",
+    "translatedContent": "    ],"
+  },
+  {
+    "row": 37,
+    "rowsha": "Z+kA9vmM2PlCZvTIXMNBvSyUEN4PZY97Bt49YhDsI98=",
+    "originContent": "  ]",
+    "translatedContent": "  ]"
+  },
+  {
+    "row": 38,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 39,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "using top level options"
+  },
+  {
+    "row": 41,
+    "rowsha": "ujQKnlvVdfSsUKswqiaflXfYpD7Cyqcx5qThDN1oStQ=",
+    "originContent": "using top level options",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 44,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 45,
+    "rowsha": "ky17xkAW8nmRBLWRXRJWLmuOAYuacXY6bCwmLJuTY04=",
+    "originContent": "  modules: [",
+    "translatedContent": "  modules: ["
+  },
+  {
+    "row": 46,
+    "rowsha": "YfiCRTmOr3Ot74IqCtkGc0//tQ3KTerHyn4moRczwLg=",
+    "originContent": "    'nuxt-viewport',",
+    "translatedContent": "    'nuxt-viewport',"
+  },
+  {
+    "row": 47,
+    "rowsha": "71RbxKxIWBJSc0bkym6eaqhYnYyvxTJ+v01uOgLJFTY=",
+    "originContent": "  ],",
+    "translatedContent": "  ],"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "Ufd9pa32/Xg9umtj1ruJS44ldqMw+0JKogCdFhFx6/0=",
+    "originContent": "  viewport: {",
+    "translatedContent": "  viewport: {"
+  },
+  {
+    "row": 50,
+    "rowsha": "tZOPDH9pW6jHETUhucyBvHeHbpvHkr5gA6kYKB+F308=",
+    "originContent": "    /* Viewport options */",
+    "translatedContent": "    /* Viewport options */"
+  },
+  {
+    "row": 51,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 52,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 53,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Usage"
+  },
+  {
+    "row": 56,
+    "rowsha": "sjYrTXzAO/H2CDZkZSwaZ7drIR/liJxs2FeNvIKGdJE=",
+    "originContent": "```vue",
+    "translatedContent": "```vue"
+  },
+  {
+    "row": 57,
+    "rowsha": "/BJrG9WQbtT5ApW6yJWxOX2mbqcCJOsJZX0Uu41n74w=",
+    "originContent": "<script setup>",
+    "translatedContent": "<script setup>"
+  },
+  {
+    "row": 58,
+    "rowsha": "xeRvLWSGIgByfrXEd0nkU5rEfH6kyheVqKD8Uu1y+X8=",
+    "originContent": "import { useNuxtApp } from '#app'",
+    "translatedContent": "import { useNuxtApp } from '#app'"
+  },
+  {
+    "row": 59,
+    "rowsha": "vKXt46bRDJIbwNEaZVaUCOs+P4k/ylUPLNPjcRZxkJo=",
+    "originContent": "const { $viewport } = useNuxtApp()",
+    "translatedContent": "const { $viewport } = useNuxtApp()"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "tf1dxgUbN6Rnt5KTeCxCQfpIrd62eRqh/Xd3ROOhhXw=",
+    "originContent": "watch($viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {",
+    "translatedContent": "watch($viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {"
+  },
+  {
+    "row": 62,
+    "rowsha": "zj/syCNdLx+jV2C4L3Zh4m7doKfBETQr53bNDfcLU3M=",
+    "originContent": "  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)",
+    "translatedContent": "  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)"
+  },
+  {
+    "row": 63,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 64,
+    "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+    "originContent": "</script>",
+    "translatedContent": "</script>"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "Kq1EcNTskSPLsM+ILi5e1GbYmH1jGiqsZF6DsOcdgoc=",
+    "originContent": "<template>",
+    "translatedContent": "<template>"
+  },
+  {
+    "row": 67,
+    "rowsha": "wiE6+jWJxeFT73P55EqafPwYNbd52vNXgilScxFAB1U=",
+    "originContent": "  <div>",
+    "translatedContent": "  <div>"
+  },
+  {
+    "row": 68,
+    "rowsha": "yq4ssnfmvvSPmxKYRjRjxsieKWB8vHCxj0eRdUWNIfc=",
+    "originContent": "    <div v-if=\"$viewport.isLessThan('tablet')\">Should render only on mobile</div>",
+    "translatedContent": "    <div v-if=\"$viewport.isLessThan('tablet')\">Should render only on mobile</div>"
+  },
+  {
+    "row": 69,
+    "rowsha": "BXzWfo+WWs489Rbb2DhfRZJ38rGv1r2ANzxG759bHRo=",
+    "originContent": "    <div v-else>Current breakpoint: {{ $viewport.breakpoint }}</div>",
+    "translatedContent": "    <div v-else>Current breakpoint: {{ $viewport.breakpoint }}</div>"
+  },
+  {
+    "row": 70,
+    "rowsha": "TFeor9sDM2gZqn6BBqB9bb7gMaKqgk0Ph1pgaT3gpaM=",
+    "originContent": "  </div>",
+    "translatedContent": "  </div>"
+  },
+  {
+    "row": 71,
+    "rowsha": "gADIfArf+0AI9UvMusq6n+ATIvVjKRPKaMwvB5xz17c=",
+    "originContent": "</template>",
+    "translatedContent": "</template>"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Usage with composable"
+  },
+  {
+    "row": 74,
+    "rowsha": "HMDOGK+D399x+TtwMGvf/YZRkHKnzSiHm+SK7ETm22Q=",
+    "originContent": "## Usage with composable",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "sjYrTXzAO/H2CDZkZSwaZ7drIR/liJxs2FeNvIKGdJE=",
+    "originContent": "```vue",
+    "translatedContent": "```vue"
+  },
+  {
+    "row": 76,
+    "rowsha": "/BJrG9WQbtT5ApW6yJWxOX2mbqcCJOsJZX0Uu41n74w=",
+    "originContent": "<script setup>",
+    "translatedContent": "<script setup>"
+  },
+  {
+    "row": 77,
+    "rowsha": "RO2QKibP/kVdQa7zqenfwWmMpoKebX0bFDrmlHkPSKM=",
+    "originContent": "const viewport = useViewport()",
+    "translatedContent": "const viewport = useViewport()"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "PVy1tzcnBIZkJrUddBqQz9APUpX/1BdLYO0aW5+AP/I=",
+    "originContent": "watch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {",
+    "translatedContent": "watch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {"
+  },
+  {
+    "row": 80,
+    "rowsha": "zj/syCNdLx+jV2C4L3Zh4m7doKfBETQr53bNDfcLU3M=",
+    "originContent": "  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)",
+    "translatedContent": "  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)"
+  },
+  {
+    "row": 81,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 82,
+    "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+    "originContent": "</script>",
+    "translatedContent": "</script>"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "Kq1EcNTskSPLsM+ILi5e1GbYmH1jGiqsZF6DsOcdgoc=",
+    "originContent": "<template>",
+    "translatedContent": "<template>"
+  },
+  {
+    "row": 85,
+    "rowsha": "wiE6+jWJxeFT73P55EqafPwYNbd52vNXgilScxFAB1U=",
+    "originContent": "  <div>",
+    "translatedContent": "  <div>"
+  },
+  {
+    "row": 86,
+    "rowsha": "FcJ8CnbzXqOm7J4+VdSnanSEfohZuw4Rx//Zyf62p+8=",
+    "originContent": "    <div v-if=\"viewport.isLessThan('tablet')\">Should render only on mobile</div>",
+    "translatedContent": "    <div v-if=\"viewport.isLessThan('tablet')\">Should render only on mobile</div>"
+  },
+  {
+    "row": 87,
+    "rowsha": "P+foPfHRwOy2ylMlNsIslD9s2W9twRrkBqhVC6LP+AY=",
+    "originContent": "    <div v-else>Current breakpoint: {{ viewport.breakpoint }}</div>",
+    "translatedContent": "    <div v-else>Current breakpoint: {{ viewport.breakpoint }}</div>"
+  },
+  {
+    "row": 88,
+    "rowsha": "TFeor9sDM2gZqn6BBqB9bb7gMaKqgk0Ph1pgaT3gpaM=",
+    "originContent": "  </div>",
+    "translatedContent": "  </div>"
+  },
+  {
+    "row": 89,
+    "rowsha": "gADIfArf+0AI9UvMusq6n+ATIvVjKRPKaMwvB5xz17c=",
+    "originContent": "</template>",
+    "translatedContent": "</template>"
+  },
+  {
+    "row": 90,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "sRTCmK2/VNkb9fpqPG5LINUHkG3fXwfYzfltmfEoK2w=",
+    "originContent": "## Usage with \"@nuxt/bridge\"",
+    "translatedContent": "## Usage with \"@nuxt/bridge\""
+  },
+  {
+    "row": 93,
+    "rowsha": "sjYrTXzAO/H2CDZkZSwaZ7drIR/liJxs2FeNvIKGdJE=",
+    "originContent": "```vue",
+    "translatedContent": "```vue"
+  },
+  {
+    "row": 94,
+    "rowsha": "/BJrG9WQbtT5ApW6yJWxOX2mbqcCJOsJZX0Uu41n74w=",
+    "originContent": "<script setup>",
+    "translatedContent": "<script setup>"
+  },
+  {
+    "row": 95,
+    "rowsha": "RO2QKibP/kVdQa7zqenfwWmMpoKebX0bFDrmlHkPSKM=",
+    "originContent": "const viewport = useViewport()",
+    "translatedContent": "const viewport = useViewport()"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "PVy1tzcnBIZkJrUddBqQz9APUpX/1BdLYO0aW5+AP/I=",
+    "originContent": "watch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {",
+    "translatedContent": "watch(viewport.breakpoint, (newBreakpoint, oldBreakpoint) => {"
+  },
+  {
+    "row": 98,
+    "rowsha": "zj/syCNdLx+jV2C4L3Zh4m7doKfBETQr53bNDfcLU3M=",
+    "originContent": "  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)",
+    "translatedContent": "  console.log('Breakpoint updated:', oldBreakpoint, '->', newBreakpoint)"
+  },
+  {
+    "row": 99,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 100,
+    "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+    "originContent": "</script>",
+    "translatedContent": "</script>"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "Kq1EcNTskSPLsM+ILi5e1GbYmH1jGiqsZF6DsOcdgoc=",
+    "originContent": "<template>",
+    "translatedContent": "<template>"
+  },
+  {
+    "row": 103,
+    "rowsha": "wiE6+jWJxeFT73P55EqafPwYNbd52vNXgilScxFAB1U=",
+    "originContent": "  <div>",
+    "translatedContent": "  <div>"
+  },
+  {
+    "row": 104,
+    "rowsha": "FcJ8CnbzXqOm7J4+VdSnanSEfohZuw4Rx//Zyf62p+8=",
+    "originContent": "    <div v-if=\"viewport.isLessThan('tablet')\">Should render only on mobile</div>",
+    "translatedContent": "    <div v-if=\"viewport.isLessThan('tablet')\">Should render only on mobile</div>"
+  },
+  {
+    "row": 105,
+    "rowsha": "BXzWfo+WWs489Rbb2DhfRZJ38rGv1r2ANzxG759bHRo=",
+    "originContent": "    <div v-else>Current breakpoint: {{ $viewport.breakpoint }}</div>",
+    "translatedContent": "    <div v-else>Current breakpoint: {{ $viewport.breakpoint }}</div>"
+  },
+  {
+    "row": 106,
+    "rowsha": "TFeor9sDM2gZqn6BBqB9bb7gMaKqgk0Ph1pgaT3gpaM=",
+    "originContent": "  </div>",
+    "translatedContent": "  </div>"
+  },
+  {
+    "row": 107,
+    "rowsha": "gADIfArf+0AI9UvMusq6n+ATIvVjKRPKaMwvB5xz17c=",
+    "originContent": "</template>",
+    "translatedContent": "</template>"
+  },
+  {
+    "row": 108,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": "## Configuration"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "Sxa3ZN6Slq5Nke5ust+cYnxIlcq83PpKVpLUel9FWkM=",
+    "originContent": "### `breakpoints`",
+    "translatedContent": "### `breakpoints`"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "DBXXP9/zHAuNLDqk1z59Ep8esfA2/G0veCohkB5f+E0=",
+    "originContent": "- Type: Object",
+    "translatedContent": "- Type: Object"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "24IhgfqL8GCC7Q66u/BHPmpHTXbDoDMmr3kmKqplfx8=",
+    "originContent": "An object where the key is the name of the viewport, and the value is the viewport size.",
+    "translatedContent": "An object where the key is the name of the viewport, and the value is the viewport size."
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "EpaLSyKginQkTlWe6fouBHCiFIdzXNwj6OLyAhl4IMM=",
+    "originContent": "### `cookie`",
+    "translatedContent": "### `cookie`"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "DBXXP9/zHAuNLDqk1z59Ep8esfA2/G0veCohkB5f+E0=",
+    "originContent": "- Type: Object",
+    "translatedContent": "- Type: Object"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "IsbOgWhdDgrHF07RBc8wYt3oYSHG03k3LYEPLnv4Zzc=",
+    "originContent": "An object with options for cookie.",
+    "translatedContent": "An object with options for cookie."
+  },
+  {
+    "row": 123,
+    "rowsha": "Fv3zJr4MogQk5Asjpe+BsxVyqDdEtxMSpV1zotOERr8=",
+    "originContent": "See more https://www.npmjs.com/package/cookiejs#cookie-attributes",
+    "translatedContent": "See more https://www.npmjs.com/package/cookiejs#cookie-attributes"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "s189uIvpBL4IGcgUqYVjlKVW3QUA7pYDnKio2DvPVqs=",
+    "originContent": "### `defaultBreakpoints`",
+    "translatedContent": "### `defaultBreakpoints`"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "DBXXP9/zHAuNLDqk1z59Ep8esfA2/G0veCohkB5f+E0=",
+    "originContent": "- Type: Object",
+    "translatedContent": "- Type: Object"
+  },
+  {
+    "row": 128,
+    "rowsha": "LKDlC5S5jQ6kOaHX8Fuv88B3fNQDP0dE7hvHilO1yGg=",
+    "originContent": "- Detectable devices: `bot`, `desktop`, `mobile`, `tablet`, `tv`",
+    "translatedContent": "- Detectable devices: `bot`, `desktop`, `mobile`, `tablet`, `tv`"
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "fGFfFUc1/TQy0dKuJvG174OfOEynY1zSz6xo3GuzYT4=",
+    "originContent": "An object where the key is the name of the detected device, and the value is the breakpoint key.",
+    "translatedContent": "An object where the key is the name of the detected device, and the value is the breakpoint key."
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 132,
+    "rowsha": "zQY4O588aalDJMSBqqWmmr7UTk4XoIryi8b88gZimeQ=",
+    "originContent": "### `fallbackBreakpoint`",
+    "translatedContent": "### `fallbackBreakpoint`"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "6H1exeW7BVdSunigQxKnu31L3OXw+KBJMOZHpSK7/w8=",
+    "originContent": "- Type: String",
+    "translatedContent": "- Type: String"
+  },
+  {
+    "row": 135,
+    "rowsha": "1+4n3bL1vZNjGqqDFsxpnWCYKY6DF/bgdQgJEzs5YDE=",
+    "originContent": "- Default: `viewport`",
+    "translatedContent": "- Default: `viewport`"
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "6i7gypW1TQLHWYujjmZB0t1Mvv4Z7HrTiGHljKQxh0k=",
+    "originContent": "The breakpoint key to be used, if the device was not detected.",
+    "translatedContent": "The breakpoint key to be used, if the device was not detected."
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "iAKMw1Ax6HtQKRmwGa7DKLPMTErGLbHyO3VVxfYCLY0=",
+    "originContent": "### `feature`",
+    "translatedContent": "### `feature`"
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "jkh78251CS39aq1TIlrSPTg10rVam0Y3dO3pSmZ/u/I=",
+    "originContent": "- Type: `'minWidth' | 'maxWidth'`",
+    "translatedContent": "- Type: `'minWidth' | 'maxWidth'`"
+  },
+  {
+    "row": 142,
+    "rowsha": "X/UCl+BYrD0ws8y/00+JCFY1oQMUq57cDFnnsh7HmAI=",
+    "originContent": "- Default: `'minWidth'`",
+    "translatedContent": "- Default: `'minWidth'`"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "RvI9Y5tzhz0nJ8K8IV5e4RLqlKuKVyVvc6L7q5spHRs=",
+    "originContent": "CSS media feature.",
+    "translatedContent": "CSS media feature."
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "sCh2hbqSdlRIHnLgmIslUmpABrJqfihgpbJlYAbgsvk=",
+    "originContent": "## Default configuration",
+    "translatedContent": "## Default configuration"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 149,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 150,
+    "rowsha": "lTbtS0/I1oY7IIv07CUv1FacuyuURvnTS2gVJxMOnOk=",
+    "originContent": "  // ...",
+    "translatedContent": "  // ..."
+  },
+  {
+    "row": 151,
+    "rowsha": "Ufd9pa32/Xg9umtj1ruJS44ldqMw+0JKogCdFhFx6/0=",
+    "originContent": "  viewport: {",
+    "translatedContent": "  viewport: {"
+  },
+  {
+    "row": 152,
+    "rowsha": "t3O1s9wv8mOk5fZxf4tDbvqMFIY5zsHFptX4WR4532c=",
+    "originContent": "    breakpoints: {",
+    "translatedContent": "    breakpoints: {"
+  },
+  {
+    "row": 153,
+    "rowsha": "mbvUeXl0frAhDBjkDW1JS8o+t9lI+dtYA3kC3i24Nik=",
+    "originContent": "      desktop: 1024,",
+    "translatedContent": "      desktop: 1024,"
+  },
+  {
+    "row": 154,
+    "rowsha": "tL476lvBtpmxL4HptXWr+Edph13SelvvMklUqKaWjNE=",
+    "originContent": "      desktopMedium: 1280,",
+    "translatedContent": "      desktopMedium: 1280,"
+  },
+  {
+    "row": 155,
+    "rowsha": "eu++TMncIU6NQUyOHVJ8AwHqc05PXnqzMd8sS/d+1uQ=",
+    "originContent": "      desktopWide: 1600,",
+    "translatedContent": "      desktopWide: 1600,"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "iaejZbDcp+ohu/BMOcL67sjxspTucS7u1nRMHD2Y0ng=",
+    "originContent": "      mobile: 320,",
+    "translatedContent": "      mobile: 320,"
+  },
+  {
+    "row": 158,
+    "rowsha": "ay2bNteuRuRWda6cDyipux3tnK9rt3hF1lAzyHOVef0=",
+    "originContent": "      mobileMedium: 375,",
+    "translatedContent": "      mobileMedium: 375,"
+  },
+  {
+    "row": 159,
+    "rowsha": "60ZmTJkKJ4aqMivXw2XeMS8Hm4EpMe7VoqshLa2IpRw=",
+    "originContent": "      mobileWide: 425,",
+    "translatedContent": "      mobileWide: 425,"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "mCDeJXhN5zq2EgeW6bjrrNNXJIVvqmLLL/fEzIXu7Og=",
+    "originContent": "      tablet: 768,",
+    "translatedContent": "      tablet: 768,"
+  },
+  {
+    "row": 162,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "rv/H+pvyXoz9raZEzWuXfaeq/t7ZaVuU4ap0Q68p9QM=",
+    "originContent": "    cookie: {",
+    "translatedContent": "    cookie: {"
+  },
+  {
+    "row": 165,
+    "rowsha": "LnyZ4m1XhLWgx3D88gfIe5WKsuWQBAo10kzHSMsp92M=",
+    "originContent": "      expires: 365, // 365 days",
+    "translatedContent": "      expires: 365, // 365 days"
+  },
+  {
+    "row": 166,
+    "rowsha": "OzXpmv8Z4S6YJuQE01jfiT/vqEn3odapwwyN5u1U5HI=",
+    "originContent": "      name: 'viewport',",
+    "translatedContent": "      name: 'viewport',"
+  },
+  {
+    "row": 167,
+    "rowsha": "f4hTVqxSpo7p3uY57PrTP6noIjUrrS9tKDv7Y+Qp3XQ=",
+    "originContent": "      path: '/',",
+    "translatedContent": "      path: '/',"
+  },
+  {
+    "row": 168,
+    "rowsha": "4zw5ggXuuIqP/y9b5s+mCzWPc+todnoC677c7CmwrPo=",
+    "originContent": "      sameSite: 'Strict',",
+    "translatedContent": "      sameSite: 'Strict',"
+  },
+  {
+    "row": 169,
+    "rowsha": "sgOgLGFRgcfHLmrJEFMNoQXC6FGezJ6i+BOS7+4BjiM=",
+    "originContent": "      secure: true,",
+    "translatedContent": "      secure: true,"
+  },
+  {
+    "row": 170,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "nF+EWlbGizLfWtWyijzYhRvllD5tkfNejbzc1ExJLWE=",
+    "originContent": "    defaultBreakpoints: {",
+    "translatedContent": "    defaultBreakpoints: {"
+  },
+  {
+    "row": 173,
+    "rowsha": "+GMMV9tgVBePkwDnsjC44GMeRthUZ+OOe+UOQ/Juiyo=",
+    "originContent": "      desktop: 'desktop',",
+    "translatedContent": "      desktop: 'desktop',"
+  },
+  {
+    "row": 174,
+    "rowsha": "Ub1BHv31BUy+yGiUBZM6qxubKmRLKe6aZRXfd2AxUag=",
+    "originContent": "      mobile: 'mobile',",
+    "translatedContent": "      mobile: 'mobile',"
+  },
+  {
+    "row": 175,
+    "rowsha": "IPqZNyMrshS8gRXo2xu7PLWBAhdR06Mp4OovK9+8Kwk=",
+    "originContent": "      tablet: 'tablet',",
+    "translatedContent": "      tablet: 'tablet',"
+  },
+  {
+    "row": 176,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "l1Hg4ayDQCED1L8uBoKEexJJ48YOTelVXhnWALE+4Sk=",
+    "originContent": "    fallbackBreakpoint: 'desktop',",
+    "translatedContent": "    fallbackBreakpoint: 'desktop',"
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "aUQq5hpfrTiYJR3Ep9lw7VxRuG9/ly5CbMCRz7jEpTE=",
+    "originContent": "    feature: 'minWidth',",
+    "translatedContent": "    feature: 'minWidth',"
+  },
+  {
+    "row": 181,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 182,
+    "rowsha": "lTbtS0/I1oY7IIv07CUv1FacuyuURvnTS2gVJxMOnOk=",
+    "originContent": "  // ...",
+    "translatedContent": "  // ..."
+  },
+  {
+    "row": 183,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 184,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "kw9+juX9HA7zq1xjoe0UBXg99uLd9PUWImWmTBk948M=",
+    "originContent": "## Example configuration for Tailwind CSS",
+    "translatedContent": "## Example configuration for Tailwind CSS"
+  },
+  {
+    "row": 187,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 188,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 189,
+    "rowsha": "lTbtS0/I1oY7IIv07CUv1FacuyuURvnTS2gVJxMOnOk=",
+    "originContent": "  // ...",
+    "translatedContent": "  // ..."
+  },
+  {
+    "row": 190,
+    "rowsha": "Ufd9pa32/Xg9umtj1ruJS44ldqMw+0JKogCdFhFx6/0=",
+    "originContent": "  viewport: {",
+    "translatedContent": "  viewport: {"
+  },
+  {
+    "row": 191,
+    "rowsha": "t3O1s9wv8mOk5fZxf4tDbvqMFIY5zsHFptX4WR4532c=",
+    "originContent": "    breakpoints: {",
+    "translatedContent": "    breakpoints: {"
+  },
+  {
+    "row": 192,
+    "rowsha": "8LBa5nneQAms2XvqM94pv69y6FaXGem+2lHhRMiRC0I=",
+    "originContent": "      xs: 320,",
+    "translatedContent": "      xs: 320,"
+  },
+  {
+    "row": 193,
+    "rowsha": "+EbbAwo97SF6K0mGA3jkNz2a5QwfYzgP7UO2lSR+nmU=",
+    "originContent": "      sm: 640,",
+    "translatedContent": "      sm: 640,"
+  },
+  {
+    "row": 194,
+    "rowsha": "EUHspkHTxPKRV4N91rnXc01anHkZXE8w1v1DVgsDuyU=",
+    "originContent": "      md: 768,",
+    "translatedContent": "      md: 768,"
+  },
+  {
+    "row": 195,
+    "rowsha": "E0uyrxe1zoma6ZphO7OXQJAeTnrybj36ZaPjzJ83iMQ=",
+    "originContent": "      lg: 1024,",
+    "translatedContent": "      lg: 1024,"
+  },
+  {
+    "row": 196,
+    "rowsha": "m+bdRHL/9h3HyZM3jF/URxoKB9nJUmFbJh7VcJPmnjc=",
+    "originContent": "      xl: 1280,",
+    "translatedContent": "      xl: 1280,"
+  },
+  {
+    "row": 197,
+    "rowsha": "Vr5FzVTQz87h8EBRZNOVWvieTy8gdwGRUYNus8LrjFo=",
+    "originContent": "      '2xl': 1536,",
+    "translatedContent": "      '2xl': 1536,"
+  },
+  {
+    "row": 198,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "nF+EWlbGizLfWtWyijzYhRvllD5tkfNejbzc1ExJLWE=",
+    "originContent": "    defaultBreakpoints: {",
+    "translatedContent": "    defaultBreakpoints: {"
+  },
+  {
+    "row": 201,
+    "rowsha": "ZvxQAt//p/+lRw0bq2CoreYlDJyRxK55KEFtH5aoI68=",
+    "originContent": "      desktop: 'lg',",
+    "translatedContent": "      desktop: 'lg',"
+  },
+  {
+    "row": 202,
+    "rowsha": "2LOkYeQtnExmSKMCAYKP2ocpm2okqFa9evtfXcbfReE=",
+    "originContent": "      mobile: 'xs',",
+    "translatedContent": "      mobile: 'xs',"
+  },
+  {
+    "row": 203,
+    "rowsha": "5ebDfjGISVI/sahYdLn8n+Dj8hrZVis5g4S7K4xpZfw=",
+    "originContent": "      tablet: 'md',",
+    "translatedContent": "      tablet: 'md',"
+  },
+  {
+    "row": 204,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "4n7Q36YlDaheyekTEPQvAT1ViP7JWQFd0JOlojFRH8E=",
+    "originContent": "    fallbackBreakpoint: 'lg'",
+    "translatedContent": "    fallbackBreakpoint: 'lg'"
+  },
+  {
+    "row": 207,
+    "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+    "originContent": "  },",
+    "translatedContent": "  },"
+  },
+  {
+    "row": 208,
+    "rowsha": "lTbtS0/I1oY7IIv07CUv1FacuyuURvnTS2gVJxMOnOk=",
+    "originContent": "  // ...",
+    "translatedContent": "  // ..."
+  },
+  {
+    "row": 209,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 210,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 211,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 212,
+    "rowsha": "hxh36SEDXsoYNcTNkJsPg7ctPgODBDPePiI5iTY7qoE=",
+    "originContent": "## Per-page configuration",
+    "translatedContent": "## Per-page configuration"
+  },
+  {
+    "row": 213,
+    "rowsha": "LMQCUlCV3L+GM+RcxBP0uC8lugeS//LpQzPUS2qrrec=",
+    "originContent": "You can override the global configuration for specific pages using [`definePageMeta`](https://nuxt.com/docs/api/utils/define-page-meta).",
+    "translatedContent": "You can override the global configuration for specific pages using [`definePageMeta`](https://nuxt.com/docs/api/utils/define-page-meta)."
+  },
+  {
+    "row": 214,
+    "rowsha": "sjYrTXzAO/H2CDZkZSwaZ7drIR/liJxs2FeNvIKGdJE=",
+    "originContent": "```vue",
+    "translatedContent": "```vue"
+  },
+  {
+    "row": 215,
+    "rowsha": "/BJrG9WQbtT5ApW6yJWxOX2mbqcCJOsJZX0Uu41n74w=",
+    "originContent": "<script setup>",
+    "translatedContent": "<script setup>"
+  },
+  {
+    "row": 216,
+    "rowsha": "v1vL2BpGuPVC5tJE78ETO2bIp1DVP/GxvYS+aHS6sbY=",
+    "originContent": "definePageMeta({",
+    "translatedContent": "definePageMeta({"
+  },
+  {
+    "row": 217,
+    "rowsha": "Ufd9pa32/Xg9umtj1ruJS44ldqMw+0JKogCdFhFx6/0=",
+    "originContent": "  viewport: {",
+    "translatedContent": "  viewport: {"
+  },
+  {
+    "row": 218,
+    "rowsha": "t3O1s9wv8mOk5fZxf4tDbvqMFIY5zsHFptX4WR4532c=",
+    "originContent": "    breakpoints: {",
+    "translatedContent": "    breakpoints: {"
+  },
+  {
+    "row": 219,
+    "rowsha": "mbvUeXl0frAhDBjkDW1JS8o+t9lI+dtYA3kC3i24Nik=",
+    "originContent": "      desktop: 1024,",
+    "translatedContent": "      desktop: 1024,"
+  },
+  {
+    "row": 220,
+    "rowsha": "iaejZbDcp+ohu/BMOcL67sjxspTucS7u1nRMHD2Y0ng=",
+    "originContent": "      mobile: 320,",
+    "translatedContent": "      mobile: 320,"
+  },
+  {
+    "row": 221,
+    "rowsha": "l91NIqHIB/xrTNLmfw0cFEse3Cf0C0YATA36jNy/iGY=",
+    "originContent": "      tablet: 768",
+    "translatedContent": "      tablet: 768"
+  },
+  {
+    "row": 222,
+    "rowsha": "WGNt2RaDM5CS9wC/Od2XzvCKt+GnXlriS9x94uzxbUA=",
+    "originContent": "    },",
+    "translatedContent": "    },"
+  },
+  {
+    "row": 223,
+    "rowsha": "rv/H+pvyXoz9raZEzWuXfaeq/t7ZaVuU4ap0Q68p9QM=",
+    "originContent": "    cookie: {",
+    "translatedContent": "    cookie: {"
+  },
+  {
+    "row": 224,
+    "rowsha": "itkpmBfegIiIZrsAAC6oZN7yHKSITtFKhszMzb6wniw=",
+    "originContent": "      name: 'viewport-per-page'",
+    "translatedContent": "      name: 'viewport-per-page'"
+  },
+  {
+    "row": 225,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 226,
+    "rowsha": "O6IZgl7G3eYI6f+3ZXnMdMaiBOagYChyaEkrB7TMLA0=",
+    "originContent": "    // Other fields will be inherited from the global configuration",
+    "translatedContent": "    // Other fields will be inherited from the global configuration"
+  },
+  {
+    "row": 227,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 228,
+    "rowsha": "LFiw8rCUlE0o8e0h4XBR/CGSFswMoMsS6UMdQ0STe2s=",
+    "originContent": "})",
+    "translatedContent": "})"
+  },
+  {
+    "row": 229,
+    "rowsha": "bJZWIQoCAnGcHMPzO7pRITXCa7jZcNI1BVLnXSV2Mco=",
+    "originContent": "</script>",
+    "translatedContent": "</script>"
+  },
+  {
+    "row": 230,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 231,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 232,
+    "rowsha": "QMr2bE3lbka3JIXEet/0kWxLx+Vj7Nn3J46dyvktHK0=",
+    "originContent": "## API",
+    "translatedContent": "## API"
+  },
+  {
+    "row": 233,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 234,
+    "rowsha": "wLvaZhzzM2/jinqWOAXSw/v/dxBw8HUbvyp+P8ZRlv8=",
+    "originContent": "### `viewport.breakpoint`",
+    "translatedContent": "### `viewport.breakpoint`"
+  },
+  {
+    "row": 235,
+    "rowsha": "6H1exeW7BVdSunigQxKnu31L3OXw+KBJMOZHpSK7/w8=",
+    "originContent": "- Type: String",
+    "translatedContent": "- Type: String"
+  },
+  {
+    "row": 236,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 237,
+    "rowsha": "gBq+pLYVlYX7Ypf5PnD2Lrg3RagxrUpkDCK8B978zBE=",
+    "originContent": "Current breakpoint.",
+    "translatedContent": "Current breakpoint."
+  },
+  {
+    "row": 238,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 239,
+    "rowsha": "ahKIzZMpR8z8m8A+Q+C/xpYoW7FmzRrT9XyAdC3lVpk=",
+    "originContent": "### `viewport.breakpointValue`",
+    "translatedContent": "### `viewport.breakpointValue`"
+  },
+  {
+    "row": 240,
+    "rowsha": "Sm0fePviGXFb8dqp+tq0CIYINkk2C3ctbg3sRO6S56w=",
+    "originContent": "- Type: Number",
+    "translatedContent": "- Type: Number"
+  },
+  {
+    "row": 241,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 242,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 243,
+    "rowsha": "FF7L/dmcutlZdSqLez74Q02tyljIrh8XeisQGimqlos=",
+    "originContent": "// Example using defaults.",
+    "translatedContent": "// Example using defaults."
+  },
+  {
+    "row": 244,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 245,
+    "rowsha": "rqeT7hZ6FrXT1bGp8KlMJNowRVFmy0fp7vgpjVO39ro=",
+    "originContent": "viewport.breakpointValue('desktop') // Result: 1024.",
+    "translatedContent": "viewport.breakpointValue('desktop') // Result: 1024."
+  },
+  {
+    "row": 246,
+    "rowsha": "o4tKJp5iO2hgRWXQQsXpRYU1EUoNGq2aDEPiw6IG5pU=",
+    "originContent": "viewport.breakpointValue('tablet') // Result: 768.",
+    "translatedContent": "viewport.breakpointValue('tablet') // Result: 768."
+  },
+  {
+    "row": 247,
+    "rowsha": "WCw6G7tlKbVIE4xCTGKwmkvpetEDdW5Cl16FdSar30Q=",
+    "originContent": "viewport.breakpointValue('mobile') // Result: 320.",
+    "translatedContent": "viewport.breakpointValue('mobile') // Result: 320."
+  },
+  {
+    "row": 248,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 249,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 250,
+    "rowsha": "xdm+60wAafy58nKkj9p68y+2lVJTgfgnmgOAdTSJVTI=",
+    "originContent": "### `viewport.isGreaterThan`",
+    "translatedContent": "### `viewport.isGreaterThan`"
+  },
+  {
+    "row": 251,
+    "rowsha": "6ywL5AHRj6v0k+IH9DsrhGjW34sVhCxkBh2Z0jsKE5M=",
+    "originContent": "- Type: Boolean",
+    "translatedContent": "- Type: Boolean"
+  },
+  {
+    "row": 252,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 253,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 254,
+    "rowsha": "5J8Y6ov6S74CvYp1/b8yFUAqELPZr/pAl251DuJuFPQ=",
+    "originContent": "// Example: viewport.breakpoint is \"mobile\".",
+    "translatedContent": "// Example: viewport.breakpoint is \"mobile\"."
+  },
+  {
+    "row": 255,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 256,
+    "rowsha": "lQ46y6jRKBCu1E6Bm5T/xCcZh+A6jabwC6H4npZf5NI=",
+    "originContent": "viewport.isGreaterThan('mobile') // Result: false.",
+    "translatedContent": "viewport.isGreaterThan('mobile') // Result: false."
+  },
+  {
+    "row": 257,
+    "rowsha": "cyyDnGsZstjbURp/PlcqUI/VYWN6ExMdo+4vQgqC0zM=",
+    "originContent": "viewport.isGreaterThan('desktop') // Result: false.",
+    "translatedContent": "viewport.isGreaterThan('desktop') // Result: false."
+  },
+  {
+    "row": 258,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 259,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 260,
+    "rowsha": "FyJ8Mcg9Q/DeP6L0tZV49vg/lzbdb8RPcrW/7rBzP0g=",
+    "originContent": "### `viewport.isGreaterOrEquals`",
+    "translatedContent": "### `viewport.isGreaterOrEquals`"
+  },
+  {
+    "row": 261,
+    "rowsha": "6ywL5AHRj6v0k+IH9DsrhGjW34sVhCxkBh2Z0jsKE5M=",
+    "originContent": "- Type: Boolean",
+    "translatedContent": "- Type: Boolean"
+  },
+  {
+    "row": 262,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 263,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 264,
+    "rowsha": "5J8Y6ov6S74CvYp1/b8yFUAqELPZr/pAl251DuJuFPQ=",
+    "originContent": "// Example: viewport.breakpoint is \"mobile\".",
+    "translatedContent": "// Example: viewport.breakpoint is \"mobile\"."
+  },
+  {
+    "row": 265,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 266,
+    "rowsha": "VGiLdd7kGlLv8y4y+bsCqPCSLE96fLdAsczMhSBY+CU=",
+    "originContent": "viewport.isGreaterOrEquals('mobile') // Result: true.",
+    "translatedContent": "viewport.isGreaterOrEquals('mobile') // Result: true."
+  },
+  {
+    "row": 267,
+    "rowsha": "+SeRwJ/sQ7n9a1wwpiDJwVZLUqrGjPJFCleIxK6uj4k=",
+    "originContent": "viewport.isGreaterOrEquals('desktop') // Result: false.",
+    "translatedContent": "viewport.isGreaterOrEquals('desktop') // Result: false."
+  },
+  {
+    "row": 268,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 269,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 270,
+    "rowsha": "Tx0sFYxAlAAyc7p7r93JXKTRW4u9sdWlvRZ6m+zZ2Is=",
+    "originContent": "### `viewport.isLessThan`",
+    "translatedContent": "### `viewport.isLessThan`"
+  },
+  {
+    "row": 271,
+    "rowsha": "6ywL5AHRj6v0k+IH9DsrhGjW34sVhCxkBh2Z0jsKE5M=",
+    "originContent": "- Type: Boolean",
+    "translatedContent": "- Type: Boolean"
+  },
+  {
+    "row": 272,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 273,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 274,
+    "rowsha": "c9bdEHewpxZHFPRCIYxM3Gb2msWXfP4SnjX7ykWMYCQ=",
+    "originContent": "// Example: viewport.breakpoint is \"desktop\".",
+    "translatedContent": "// Example: viewport.breakpoint is \"desktop\"."
+  },
+  {
+    "row": 275,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 276,
+    "rowsha": "7DJdeLTVtKpkVEs60I9XeJqsPQy931dWFtIETu/bG+U=",
+    "originContent": "viewport.isLessThan('desktopWide') // Result: true.",
+    "translatedContent": "viewport.isLessThan('desktopWide') // Result: true."
+  },
+  {
+    "row": 277,
+    "rowsha": "L7Au9sr16B9Yb3uu/lVxUm0C5vJ94Yt6eV+omTile1o=",
+    "originContent": "viewport.isLessThan('mobile') // Result: false.",
+    "translatedContent": "viewport.isLessThan('mobile') // Result: false."
+  },
+  {
+    "row": 278,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 279,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 280,
+    "rowsha": "Ls2Kxthz2TTiiZ2jMdtzE+9US0gGyZNtvVThJwQDoFI=",
+    "originContent": "### `viewport.isLessOrEquals`",
+    "translatedContent": "### `viewport.isLessOrEquals`"
+  },
+  {
+    "row": 281,
+    "rowsha": "6ywL5AHRj6v0k+IH9DsrhGjW34sVhCxkBh2Z0jsKE5M=",
+    "originContent": "- Type: Boolean",
+    "translatedContent": "- Type: Boolean"
+  },
+  {
+    "row": 282,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 283,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 284,
+    "rowsha": "xbxDixTgCrol1gTfZO532a2fKiUgZwDqumRKP8ba4+o=",
+    "originContent": "// Example: viewport.breakpoint is \"tablet\".",
+    "translatedContent": "// Example: viewport.breakpoint is \"tablet\"."
+  },
+  {
+    "row": 285,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 286,
+    "rowsha": "eVfUH7H+ke97hux4hyOTrBXEvEZeo12S/r8fUTFp4a4=",
+    "originContent": "viewport.isLessOrEquals('tablet') // Result: true.",
+    "translatedContent": "viewport.isLessOrEquals('tablet') // Result: true."
+  },
+  {
+    "row": 287,
+    "rowsha": "y3ebvGONLUxGwZepNZqTvOSpZytK05+JZsq/6MxTZSI=",
+    "originContent": "viewport.isLessOrEquals('mobile') // Result: false.",
+    "translatedContent": "viewport.isLessOrEquals('mobile') // Result: false."
+  },
+  {
+    "row": 288,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 289,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 290,
+    "rowsha": "cidYMdRj+lOPBOONlHlyJiQN5Lc7AHfOLf+qwjMj00s=",
+    "originContent": "### `viewport.match`",
+    "translatedContent": "### `viewport.match`"
+  },
+  {
+    "row": 291,
+    "rowsha": "6ywL5AHRj6v0k+IH9DsrhGjW34sVhCxkBh2Z0jsKE5M=",
+    "originContent": "- Type: Boolean",
+    "translatedContent": "- Type: Boolean"
+  },
+  {
+    "row": 292,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 293,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 294,
+    "rowsha": "xbxDixTgCrol1gTfZO532a2fKiUgZwDqumRKP8ba4+o=",
+    "originContent": "// Example: viewport.breakpoint is \"tablet\".",
+    "translatedContent": "// Example: viewport.breakpoint is \"tablet\"."
+  },
+  {
+    "row": 295,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 296,
+    "rowsha": "DvQ91H5un7qgjz9Y5Br6U4Dr5wJzkG+FaBN/9v2H56I=",
+    "originContent": "viewport.match('tablet') // Result: true.",
+    "translatedContent": "viewport.match('tablet') // Result: true."
+  },
+  {
+    "row": 297,
+    "rowsha": "3GOGDs2JDBnGf36KsiX9nt7MRZ3PzEPfqaBPO/TWspw=",
+    "originContent": "viewport.match('desktop') // Result: false.",
+    "translatedContent": "viewport.match('desktop') // Result: false."
+  },
+  {
+    "row": 298,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 299,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 300,
+    "rowsha": "mS50xvWU/bVMDPG1JAC3V4ytrL8emv3dIrndwjPYbLs=",
+    "originContent": "### `viewport.matches`",
+    "translatedContent": "### `viewport.matches`"
+  },
+  {
+    "row": 301,
+    "rowsha": "6ywL5AHRj6v0k+IH9DsrhGjW34sVhCxkBh2Z0jsKE5M=",
+    "originContent": "- Type: Boolean",
+    "translatedContent": "- Type: Boolean"
+  },
+  {
+    "row": 302,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 303,
+    "rowsha": "6IXHjyAaUImYsJ5BaklYyXzUO0AADdWSuW9x1J7wxDQ=",
+    "originContent": "```js",
+    "translatedContent": "```js"
+  },
+  {
+    "row": 304,
+    "rowsha": "geKBN8ioaxW7lV22HROS0ThOsZRS4YYXv3PEyRTL6AU=",
+    "originContent": "// Example: viewport.breakpoint is \"mobileWide\".",
+    "translatedContent": "// Example: viewport.breakpoint is \"mobileWide\"."
+  },
+  {
+    "row": 305,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 306,
+    "rowsha": "RlF4IbA3YgFSgqWagIi3jek50lHUMHQ3l0Vs7d0z4HM=",
+    "originContent": "viewport.matches('tablet', 'mobileWide') // Result: true.",
+    "translatedContent": "viewport.matches('tablet', 'mobileWide') // Result: true."
+  },
+  {
+    "row": 307,
+    "rowsha": "IEzYZZ1FqQ2aKSz+SNOewhCTNFgpvyMh5FSZK634kTs=",
+    "originContent": "viewport.matches('mobile', 'tablet') // Result: false.",
+    "translatedContent": "viewport.matches('mobile', 'tablet') // Result: false."
+  },
+  {
+    "row": 308,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 309,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 310,
+    "rowsha": "wXI0aXOb5enHrKKxWT3E2VE8DWWToWSBtgSbdYKliaE=",
+    "originContent": "### `viewport.queries`",
+    "translatedContent": "### `viewport.queries`"
+  },
+  {
+    "row": 311,
+    "rowsha": "DBXXP9/zHAuNLDqk1z59Ep8esfA2/G0veCohkB5f+E0=",
+    "originContent": "- Type: Object",
+    "translatedContent": "- Type: Object"
+  },
+  {
+    "row": 312,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 313,
+    "rowsha": "6byGiMKBY0Je3lsJKycFkkOQ/K9oi6ggW1lVWjn6afo=",
+    "originContent": "Object with generated media queries.",
+    "translatedContent": "Object with generated media queries."
+  },
+  {
+    "row": 314,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 315,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## Contributing"
+  },
+  {
+    "row": 316,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 317,
+    "rowsha": "8rJJFpaz2WNwkxpyxAJQWOmqk9K2N8mtY6W0BgNFyVs=",
+    "originContent": "You can contribute to this module online with CodeSandBox:",
+    "translatedContent": "You can contribute to this module online with CodeSandBox:"
+  },
+  {
+    "row": 318,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 319,
+    "rowsha": "96TOe5yDeupBfj7qMZPrJ11w7fksjN0dKnGYQwvtuFw=",
+    "originContent": "[![Edit nuxt-viewport](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mvrlin/nuxt-viewport/tree/main/?fontsize=14&hidenavigation=1&theme=dark)",
+    "translatedContent": "[![Edit nuxt-viewport](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mvrlin/nuxt-viewport/tree/main/?fontsize=14&hidenavigation=1&theme=dark)"
+  },
+  {
+    "row": 320,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 321,
+    "rowsha": "qDtr8zGstKXmnZ3QH970giRlaoS5kuYznaNB2tnZ3pA=",
+    "originContent": "Or locally:",
+    "translatedContent": "Or locally:"
+  },
+  {
+    "row": 322,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 323,
+    "rowsha": "uQ/hpcsn+PKWI4+EsW0FFWPUwIPmR5RTRYfs5fij3hE=",
+    "originContent": "1. Clone this repository",
+    "translatedContent": "1. Clone this repository"
+  },
+  {
+    "row": 324,
+    "rowsha": "XQOr/67svXG4HMiTk7qJcRAWcBLwoy7nTPXNSMcYuks=",
+    "originContent": "2. Install dependencies using `yarn install` or `npm install`",
+    "translatedContent": "2. Install dependencies using `yarn install` or `npm install`"
+  },
+  {
+    "row": 325,
+    "rowsha": "+LA7h5eSeDpM0s+9G1281JDgS94HbRZK6j+7vywQq6o=",
+    "originContent": "3. Start development server using `yarn dev` or `npm run dev`",
+    "translatedContent": "3. Start development server using `yarn dev` or `npm run dev`"
+  },
+  {
+    "row": 326,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 327,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 328,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 329,
+    "rowsha": "/WUH+/u0CzWnaUNErrZIGMIZv/KdKcRsIQ6dUFG83lU=",
+    "originContent": "[MIT License](./LICENSE)",
+    "translatedContent": "[MIT License](./LICENSE)"
+  },
+  {
+    "row": 330,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 331,
+    "rowsha": "tC69hK8qTPC5NbEZrhJf2RvTI4iW5+CleGehdgpVZp0=",
+    "originContent": "Copyright (c) mvrlin mvrlin@pm.me",
+    "translatedContent": "Copyright (c) mvrlin mvrlin@pm.me"
+  },
+  {
+    "row": 332,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 333,
+    "rowsha": "M4oziECrwtJXsHT6Xs/KQ4oL6rbTnzTqxEczzFAlEbY=",
+    "originContent": "<!-- Badges -->",
+    "translatedContent": "<!-- Badges -->"
+  },
+  {
+    "row": 334,
+    "rowsha": "nJ2w9FJimhi+VpxgzW/4Uvfz5F+DeR47rxo1hw/Rb6w=",
+    "originContent": "[npm-version-src]: https://img.shields.io/npm/v/nuxt-viewport/latest.svg?style=for-the-badge",
+    "translatedContent": "[npm-version-src]: https://img.shields.io/npm/v/nuxt-viewport/latest.svg?style=for-the-badge"
+  },
+  {
+    "row": 335,
+    "rowsha": "icMfWY/OStJQIIYi3cA7ywmWf45FUrNbsFiVELlsGVM=",
+    "originContent": "[npm-version-href]: https://npmjs.com/package/nuxt-viewport",
+    "translatedContent": "[npm-version-href]: https://npmjs.com/package/nuxt-viewport"
+  },
+  {
+    "row": 336,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 337,
+    "rowsha": "jBsTAIJFO2wN2pHfDVET54c7hMYba0QdcHdgcFXk1zk=",
+    "originContent": "[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-viewport.svg?style=for-the-badge",
+    "translatedContent": "[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-viewport.svg?style=for-the-badge"
+  },
+  {
+    "row": 338,
+    "rowsha": "fv9Qz9jroKqxGXCnseCJZX56qjl0HMCVDT6qcQkOtZY=",
+    "originContent": "[npm-downloads-href]: https://npmjs.com/package/nuxt-viewport",
+    "translatedContent": "[npm-downloads-href]: https://npmjs.com/package/nuxt-viewport"
+  },
+  {
+    "row": 339,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 340,
+    "rowsha": "jX9uuvGs6Vtryviz01o1AYxqkgCTC+jOR2Q2OJufKsI=",
+    "originContent": "[license-src]: https://img.shields.io/npm/l/nuxt-viewport.svg?style=for-the-badge",
+    "translatedContent": "[license-src]: https://img.shields.io/npm/l/nuxt-viewport.svg?style=for-the-badge"
+  },
+  {
+    "row": 341,
+    "rowsha": "xNzn9IHOJCG05Dg2igbEwh4q7ph/VJzUgwxKVKpi2Pk=",
+    "originContent": "[license-href]: https://npmjs.com/package/nuxt-viewport",
+    "translatedContent": "[license-href]: https://npmjs.com/package/nuxt-viewport"
+  },
+  {
+    "row": 342,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
