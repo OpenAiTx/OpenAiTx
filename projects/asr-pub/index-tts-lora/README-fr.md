@@ -1,12 +1,44 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # index-tts-lora
 
-[中文版本](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [Version française](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
+[Version chinoise](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [Version anglaise](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-Ce projet est basé sur [index-tts](https://github.com/index-tts/index-tts) de Bilibili, fournissant des solutions de **fine-tuning LoRA** pour des configurations **mono-locuteur et multi-locuteurs**. Il vise à améliorer la **prosodie et la naturalité** dans la synthèse audio de haute qualité des locuteurs.
+Ce projet est basé sur [index-tts](https://github.com/index-tts/index-tts) de Bilibili, fournissant des solutions de **finetuning LoRA** pour des configurations **mono-locuteur et multi-locuteurs**. Il vise à améliorer la **prosodie et le naturel** dans la synthèse audio de locuteurs de haute qualité.
 
 ### Entraînement & Inférence
 
-#### 1. Extraction des tokens audio et de la condition locuteur
+#### 1. Extraction du jeton audio et de la condition du locuteur
 
 ```shell
 # Extract tokens and speaker conditions
@@ -81,6 +113,6 @@ Pour les détails de l’ensemble d’évaluation, voir : [Benchmark 2025 des mo
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
 
 ---

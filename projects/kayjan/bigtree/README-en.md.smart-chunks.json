@@ -1,0 +1,1220 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Big Tree Python Package\n\nTree Implementation and Methods for Python, integrated with list, dictionary, pandas and polars DataFrame.\n\nIt is pythonic, making it easy to learn and extendable to many types of workflows.\n\n----\n\nRelated Links:\n- [Documentation](https://bigtree.readthedocs.io/)\n- [GitHub](https://github.com/kayjan/bigtree/)\n- Community\n  - [Issues](https://github.com/kayjan/bigtree/issues)\n  / [Discussions](https://github.com/kayjan/bigtree/discussions)\n  / [Changelog](https://github.com/kayjan/bigtree/blob/master/CHANGELOG.md)\n  / [Contributing](https://bigtree.readthedocs.io/stable/home/contributing/)\n- Package\n  - [PyPI](https://pypi.org/project/bigtree/)\n  / [Conda](https://anaconda.org/conda-forge/bigtree)\n- Articles\n  - [Python Tree Implementation with BigTree](https://medium.com/data-science/python-tree-implementation-with-bigtree-13cdabd77adc#245a-94ae81f0b3f1)\n  - [The Reingold Tilford Algorithm Explained, with Walkthrough](https://medium.com/data-science/reingold-tilford-algorithm-explained-with-walkthrough-be5810e8ed93?sk=2db8e10398cee76c486c4b06b0b33322)\n- <div><p>If you want to support bigtree, <a href=\"https://www.buymeacoffee.com/kayjan\"><img src=\"https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black\" alt=\"Buy Me a Coffee\" style=\"vertical-align:middle\"></a></p></div>\n\n-----\n\n## Components\nThere are 3 segments to Big Tree consisting of Tree, Binary Tree, and Directed Acyclic Graph (DAG) implementation.\n\nFor **Tree** implementation, there are 12 main components.\n\n1. [**🌺 Node**](https://bigtree.readthedocs.io/stable/bigtree/node/node/)\n   1. ``BaseNode``, extendable class\n   2. ``Node``, BaseNode with node name attribute\n2. [**🎄 Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/tree/)\n   1. ``Tree``, wrapper around ``Node``, providing high-level APIs to build, iterate, query, and export the entire tree structure\n3. [**✨ Constructing Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/construct/)\n   1. From `Node`, using parent and children constructors\n   2. From *str*, using tree display or Newick string notation\n   3. From *list*, using paths or parent-child tuples",
+    "ContentSha": "Z0msLNvNfnfCQI4BAxVPPAa9slJ3P7NnEQEA87uBykw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Big Tree Python Package\n\nTree Implementation and Methods for Python, integrated with list, dictionary, pandas and polars DataFrame.\n\nIt is pythonic, making it easy to learn and extendable to many types of workflows.\n\n----\n\nRelated Links:\n- [Documentation](https://bigtree.readthedocs.io/)\n- [GitHub](https://github.com/kayjan/bigtree/)\n- Community\n  - [Issues](https://github.com/kayjan/bigtree/issues)\n  / [Discussions](https://github.com/kayjan/bigtree/discussions)\n  / [Changelog](https://github.com/kayjan/bigtree/blob/master/CHANGELOG.md)\n  / [Contributing](https://bigtree.readthedocs.io/stable/home/contributing/)\n- Package\n  - [PyPI](https://pypi.org/project/bigtree/)\n  / [Conda](https://anaconda.org/conda-forge/bigtree)\n- Articles\n  - [Python Tree Implementation with BigTree](https://medium.com/data-science/python-tree-implementation-with-bigtree-13cdabd77adc#245a-94ae81f0b3f1)\n  - [The Reingold Tilford Algorithm Explained, with Walkthrough](https://medium.com/data-science/reingold-tilford-algorithm-explained-with-walkthrough-be5810e8ed93?sk=2db8e10398cee76c486c4b06b0b33322)\n- <div><p>If you want to support bigtree, <a href=\"https://www.buymeacoffee.com/kayjan\"><img src=\"https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black\" alt=\"Buy Me a Coffee\" style=\"vertical-align:middle\"></a></p></div>\n\n-----\n\n## Components\nThere are 3 segments to Big Tree consisting of Tree, Binary Tree, and Directed Acyclic Graph (DAG) implementation.\n\nFor **Tree** implementation, there are 12 main components.\n\n1. [**🌺 Node**](https://bigtree.readthedocs.io/stable/bigtree/node/node/)\n   1. ``BaseNode``, extendable class\n   2. ``Node``, BaseNode with node name attribute\n2. [**🎄 Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/tree/)\n   1. ``Tree``, wrapper around ``Node``, providing high-level APIs to build, iterate, query, and export the entire tree structure\n3. [**✨ Constructing Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/construct/)\n   1. From `Node`, using parent and children constructors\n   2. From *str*, using tree display or Newick string notation\n   3. From *list*, using paths or parent-child tuples",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ufiLwbuhOoUFeuMaw6dem/P6LrOiKAL7k5oftm7qHdk=",
+        "originContent": "# Big Tree Python Package",
+        "translatedContent": "# Big Tree Python Package"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "rXxA1SQGuuC6EtXz5vctkBOSny1iyAIiA3XM1vlOAH4=",
+        "originContent": "Tree Implementation and Methods for Python, integrated with list, dictionary, pandas and polars DataFrame.",
+        "translatedContent": "Tree Implementation and Methods for Python, integrated with list, dictionary, pandas and polars DataFrame."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "9ImrlAQsfWPSGto9nR9eYxeIfxvrWub8cPFsBd531cs=",
+        "originContent": "It is pythonic, making it easy to learn and extendable to many types of workflows.",
+        "translatedContent": "It is pythonic, making it easy to learn and extendable to many types of workflows."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "vWS7jvpbPyfmRC8jYAw7UWEn6hfiNyS0HlDaTCKIPt0=",
+        "originContent": "----",
+        "translatedContent": "----"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "wuu64vdMYSTfl5lpBJYa7FSeqVk+QZHEnWCEQuHSwTk=",
+        "originContent": "Related Links:",
+        "translatedContent": "Related Links:"
+      },
+      {
+        "row": 10,
+        "rowsha": "TuCyS/WMPKmY3SOI2ik+Sa5vHPLoqObMW/4Pj6YoH+U=",
+        "originContent": "- [Documentation](https://bigtree.readthedocs.io/)",
+        "translatedContent": "- [Documentation](https://bigtree.readthedocs.io/)"
+      },
+      {
+        "row": 11,
+        "rowsha": "rhZL+zv2uTGLxFAI0I2WKld6uTzcph6hNslepnsS7C8=",
+        "originContent": "- [GitHub](https://github.com/kayjan/bigtree/)",
+        "translatedContent": "- [GitHub](https://github.com/kayjan/bigtree/)"
+      },
+      {
+        "row": 12,
+        "rowsha": "N8qe7Vys0dXzpxel6I/vL03vvZSRK/t/D1iVjFK02zg=",
+        "originContent": "- Community",
+        "translatedContent": "- Community"
+      },
+      {
+        "row": 13,
+        "rowsha": "IlJQzvSmVwp3KLY3wRSYROI3ZzOYEQoCDUc67K32Wq4=",
+        "originContent": "  - [Issues](https://github.com/kayjan/bigtree/issues)",
+        "translatedContent": "  - [Issues](https://github.com/kayjan/bigtree/issues)"
+      },
+      {
+        "row": 14,
+        "rowsha": "VxEuoc8nLzfAypzjDRLFZ4nNvTLXpW9rmbSjx6QZhe0=",
+        "originContent": "  / [Discussions](https://github.com/kayjan/bigtree/discussions)",
+        "translatedContent": "  / [Discussions](https://github.com/kayjan/bigtree/discussions)"
+      },
+      {
+        "row": 15,
+        "rowsha": "5AmjkVvJ7mNomuodSog74qMvgtJwTnsKWKAoZXeaVwU=",
+        "originContent": "  / [Changelog](https://github.com/kayjan/bigtree/blob/master/CHANGELOG.md)",
+        "translatedContent": "  / [Changelog](https://github.com/kayjan/bigtree/blob/master/CHANGELOG.md)"
+      },
+      {
+        "row": 16,
+        "rowsha": "ojWX1E8rZ7kL1R6T6B2SAlhoUVKJ7W35XX+H3WyNZQ0=",
+        "originContent": "  / [Contributing](https://bigtree.readthedocs.io/stable/home/contributing/)",
+        "translatedContent": "  / [Contributing](https://bigtree.readthedocs.io/stable/home/contributing/)"
+      },
+      {
+        "row": 17,
+        "rowsha": "Dv8Qdw40rqs8MFdTlJILuMFd8i3G5yLQhGOstZsN16c=",
+        "originContent": "- Package",
+        "translatedContent": "- Package"
+      },
+      {
+        "row": 18,
+        "rowsha": "iT+lwMJEPhV4LoQrIE9C6nuBD9Gr34x3onltxWqBb/4=",
+        "originContent": "  - [PyPI](https://pypi.org/project/bigtree/)",
+        "translatedContent": "  - [PyPI](https://pypi.org/project/bigtree/)"
+      },
+      {
+        "row": 19,
+        "rowsha": "Bo9/6OAc68sZZIWEo2UllpM6czNoz7wtVnDlgEXCBVE=",
+        "originContent": "  / [Conda](https://anaconda.org/conda-forge/bigtree)",
+        "translatedContent": "  / [Conda](https://anaconda.org/conda-forge/bigtree)"
+      },
+      {
+        "row": 20,
+        "rowsha": "y6TXHh3lHp2mS3SR+ZEQc3ofF1aKSu3T0SufRXyJDCQ=",
+        "originContent": "- Articles",
+        "translatedContent": "- Articles"
+      },
+      {
+        "row": 21,
+        "rowsha": "jpqNhJ1U7KfTsAyqkxLYUi4mvTDMl91Pamxun1rv5YQ=",
+        "originContent": "  - [Python Tree Implementation with BigTree](https://medium.com/data-science/python-tree-implementation-with-bigtree-13cdabd77adc#245a-94ae81f0b3f1)",
+        "translatedContent": "  - [Python Tree Implementation with BigTree](https://medium.com/data-science/python-tree-implementation-with-bigtree-13cdabd77adc#245a-94ae81f0b3f1)"
+      },
+      {
+        "row": 22,
+        "rowsha": "3GyysEtVIoKE02vLDb5RbdulXZFwivQo85TJfYYd1G8=",
+        "originContent": "  - [The Reingold Tilford Algorithm Explained, with Walkthrough](https://medium.com/data-science/reingold-tilford-algorithm-explained-with-walkthrough-be5810e8ed93?sk=2db8e10398cee76c486c4b06b0b33322)",
+        "translatedContent": "  - [The Reingold Tilford Algorithm Explained, with Walkthrough](https://medium.com/data-science/reingold-tilford-algorithm-explained-with-walkthrough-be5810e8ed93?sk=2db8e10398cee76c486c4b06b0b33322)"
+      },
+      {
+        "row": 23,
+        "rowsha": "uDeBl+hQM4XK12gIudFE+GbKZnv7cr9K2qq+jki0FS0=",
+        "originContent": "- <div><p>If you want to support bigtree, <a href=\"https://www.buymeacoffee.com/kayjan\"><img src=\"https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black\" alt=\"Buy Me a Coffee\" style=\"vertical-align:middle\"></a></p></div>",
+        "translatedContent": "- <div><p>If you want to support bigtree, <a href=\"https://www.buymeacoffee.com/kayjan\"><img src=\"https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black\" alt=\"Buy Me a Coffee\" style=\"vertical-align:middle\"></a></p></div>"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "c74IfpMID55DaJK30YLfZjlLx52/XfEZ2TV99hseu/s=",
+        "originContent": "-----",
+        "translatedContent": "-----"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "NkvD729g9pv8OB6AR5fImHG6o+W/5Lli8Fqxis9xMm0=",
+        "originContent": "## Components",
+        "translatedContent": "## Components"
+      },
+      {
+        "row": 28,
+        "rowsha": "YaVP0stOHxLtaqz05n2hroGN9vMVMaNw/38AAWFaSjE=",
+        "originContent": "There are 3 segments to Big Tree consisting of Tree, Binary Tree, and Directed Acyclic Graph (DAG) implementation.",
+        "translatedContent": "There are 3 segments to Big Tree consisting of Tree, Binary Tree, and Directed Acyclic Graph (DAG) implementation."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "RFVmViDiDYTaw9DLIIdDn0LTB6y7VKfWFgOmZkvsp6o=",
+        "originContent": "For **Tree** implementation, there are 12 main components.",
+        "translatedContent": "For **Tree** implementation, there are 12 main components."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "BbGvcIPZDTtsHa6t8DYrCHKLSX1wAOayRYekO78enWQ=",
+        "originContent": "1. [**🌺 Node**](https://bigtree.readthedocs.io/stable/bigtree/node/node/)",
+        "translatedContent": "1. [**🌺 Node**](https://bigtree.readthedocs.io/stable/bigtree/node/node/)"
+      },
+      {
+        "row": 33,
+        "rowsha": "mxcvTmQYUO+ZK+AK4+prihLJj8lfDRBVeL3oXiBu3Ks=",
+        "originContent": "   1. ``BaseNode``, extendable class",
+        "translatedContent": "   1. ``BaseNode``, extendable class"
+      },
+      {
+        "row": 34,
+        "rowsha": "3OnFSs4i+9IFD0pWZR3MeFm8nbUHC6DB4UmShgYMmMA=",
+        "originContent": "   2. ``Node``, BaseNode with node name attribute",
+        "translatedContent": "   2. ``Node``, BaseNode with node name attribute"
+      },
+      {
+        "row": 35,
+        "rowsha": "t8aEdi+8g7qU2xNzQ8qCiSKNcCGLC76lqnCciRpcaeE=",
+        "originContent": "2. [**🎄 Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/tree/)",
+        "translatedContent": "2. [**🎄 Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/tree/)"
+      },
+      {
+        "row": 36,
+        "rowsha": "NhK1UAbOJWMB7Vv9Qz3Sa1zwcWSxchT+VEg96BkZuho=",
+        "originContent": "   1. ``Tree``, wrapper around ``Node``, providing high-level APIs to build, iterate, query, and export the entire tree structure",
+        "translatedContent": "   1. ``Tree``, wrapper around ``Node``, providing high-level APIs to build, iterate, query, and export the entire tree structure"
+      },
+      {
+        "row": 37,
+        "rowsha": "J/766bTDBce91oBUnzlLNgOwnDpQN+IB6WKUX7gYXVk=",
+        "originContent": "3. [**✨ Constructing Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/construct/)",
+        "translatedContent": "3. [**✨ Constructing Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/construct/)"
+      },
+      {
+        "row": 38,
+        "rowsha": "i+dcfkWbpkqJd7JYEEZ9PPmINOuUb2+lxX4pWU5Bgj4=",
+        "originContent": "   1. From `Node`, using parent and children constructors",
+        "translatedContent": "   1. From `Node`, using parent and children constructors"
+      },
+      {
+        "row": 39,
+        "rowsha": "g5kTiMHs27oEG585NtsSNerViPxPbjWinqeVYlaFo14=",
+        "originContent": "   2. From *str*, using tree display or Newick string notation",
+        "translatedContent": "   2. From *str*, using tree display or Newick string notation"
+      },
+      {
+        "row": 40,
+        "rowsha": "CVo7Jji0t8Gv3whZc/bfE7IcdY85iokqpqls5AweSSY=",
+        "originContent": "   3. From *list*, using paths or parent-child tuples",
+        "translatedContent": "   3. From *list*, using paths or parent-child tuples"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   4. From *nested dictionary*, using path-attribute key-value pairs or recursive structure\n   5. From *pandas DataFrame*, using paths or parent-child columns\n   6. From *polars DataFrame*, using paths or parent-child columns\n   7. From *interactive UI*\n   8. Add nodes to existing tree using path string\n   9. Add nodes and attributes to existing tree using *dictionary*, *pandas DataFrame*, or *polars DataFrame*, using path\n   10. Add only attributes to existing tree using *dictionary*, *pandas DataFrame*, or *polars DataFrame*, using node name\n4. [**➰ Traversing Tree**](https://bigtree.readthedocs.io/stable/bigtree/utils/iterators/)\n   1. Pre-Order Traversal\n   2. Post-Order Traversal\n   3. Level-Order Traversal\n   4. Level-Order-Group Traversal\n   5. ZigZag Traversal\n   6. ZigZag-Group Traversal\n5. [**🧩 Parsing Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/parsing/)\n   1. Get common ancestors between nodes\n   2. Get path from one node to another node\n6. [**📝 Modifying Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/modify/)\n   1. Copy nodes from location to destination\n   2. Shift nodes from location to destination\n   3. Shift and replace nodes from location to destination\n   4. Copy nodes from one tree to another\n   5. Copy and replace nodes from one tree to another\n7. [**📌 Querying Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/query/)\n   1. Filter tree using Tree Query Language\n8. [**🔍 Tree Search**](https://bigtree.readthedocs.io/stable/bigtree/tree/search/)\n   1. Find multiple nodes based on name, partial path, relative path, attribute value, user-defined condition\n   2. Find single nodes based on name, partial path, relative path, full path, attribute value, user-defined condition\n   3. Find multiple child nodes based on user-defined condition\n   4. Find single child node based on name, user-defined condition\n9. [**🔧 Helper Function**](https://bigtree.readthedocs.io/stable/bigtree/tree/helper/)\n   1. Cloning tree to another `Node` type\n   2. Get subtree (smaller tree with different root)\n   3. Prune tree (smaller tree with same root)\n   4. Get difference between two trees\n10. [**📊 Plotting Tree**](https://bigtree.readthedocs.io/stable/bigtree/utils/plot/)\n   1. Enhanced Reingold Tilford Algorithm to retrieve (x, y) coordinates for a tree structure\n   2. Plot tree using matplotlib (optional dependency)\n11. [**🔨 Exporting Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/export/)\n   1. Print to console, in vertical or horizontal orientation",
+    "ContentSha": "89bBDasROHcPVem4y3uWwdNmHF/eq7xTcXH4RXOLDKo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   4. From *nested dictionary*, using path-attribute key-value pairs or recursive structure\n   5. From *pandas DataFrame*, using paths or parent-child columns\n   6. From *polars DataFrame*, using paths or parent-child columns\n   7. From *interactive UI*\n   8. Add nodes to existing tree using path string\n   9. Add nodes and attributes to existing tree using *dictionary*, *pandas DataFrame*, or *polars DataFrame*, using path\n   10. Add only attributes to existing tree using *dictionary*, *pandas DataFrame*, or *polars DataFrame*, using node name\n4. [**➰ Traversing Tree**](https://bigtree.readthedocs.io/stable/bigtree/utils/iterators/)\n   1. Pre-Order Traversal\n   2. Post-Order Traversal\n   3. Level-Order Traversal\n   4. Level-Order-Group Traversal\n   5. ZigZag Traversal\n   6. ZigZag-Group Traversal\n5. [**🧩 Parsing Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/parsing/)\n   1. Get common ancestors between nodes\n   2. Get path from one node to another node\n6. [**📝 Modifying Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/modify/)\n   1. Copy nodes from location to destination\n   2. Shift nodes from location to destination\n   3. Shift and replace nodes from location to destination\n   4. Copy nodes from one tree to another\n   5. Copy and replace nodes from one tree to another\n7. [**📌 Querying Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/query/)\n   1. Filter tree using Tree Query Language\n8. [**🔍 Tree Search**](https://bigtree.readthedocs.io/stable/bigtree/tree/search/)\n   1. Find multiple nodes based on name, partial path, relative path, attribute value, user-defined condition\n   2. Find single nodes based on name, partial path, relative path, full path, attribute value, user-defined condition\n   3. Find multiple child nodes based on user-defined condition\n   4. Find single child node based on name, user-defined condition\n9. [**🔧 Helper Function**](https://bigtree.readthedocs.io/stable/bigtree/tree/helper/)\n   1. Cloning tree to another `Node` type\n   2. Get subtree (smaller tree with different root)\n   3. Prune tree (smaller tree with same root)\n   4. Get difference between two trees\n10. [**📊 Plotting Tree**](https://bigtree.readthedocs.io/stable/bigtree/utils/plot/)\n   1. Enhanced Reingold Tilford Algorithm to retrieve (x, y) coordinates for a tree structure\n   2. Plot tree using matplotlib (optional dependency)\n11. [**🔨 Exporting Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/export/)\n   1. Print to console, in vertical or horizontal orientation",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ctTjeZ2Iv4vO7lHf77tqLF5CWYVT1mw6Ux7l0kN0cR8=",
+        "originContent": "   4. From *nested dictionary*, using path-attribute key-value pairs or recursive structure",
+        "translatedContent": "   4. From *nested dictionary*, using path-attribute key-value pairs or recursive structure"
+      },
+      {
+        "row": 2,
+        "rowsha": "JGD8Du7a+U7f3sQIURZJDoMakhLNH1Qjn375QFRiJkQ=",
+        "originContent": "   5. From *pandas DataFrame*, using paths or parent-child columns",
+        "translatedContent": "   5. From *pandas DataFrame*, using paths or parent-child columns"
+      },
+      {
+        "row": 3,
+        "rowsha": "3ESvPnH6m/J3WaKahPb/k+8P+iRU8w5G1nl6twRC8FA=",
+        "originContent": "   6. From *polars DataFrame*, using paths or parent-child columns",
+        "translatedContent": "   6. From *polars DataFrame*, using paths or parent-child columns"
+      },
+      {
+        "row": 4,
+        "rowsha": "i8tWTfrfqZSz0H/04GBtg0U7j0BkeS1bv7Ihk5JjLeA=",
+        "originContent": "   7. From *interactive UI*",
+        "translatedContent": "   7. From *interactive UI*"
+      },
+      {
+        "row": 5,
+        "rowsha": "dUUtOoi8W5nhAZ+9AF0LtMVY8YBeky12sLjXphQjWzg=",
+        "originContent": "   8. Add nodes to existing tree using path string",
+        "translatedContent": "   8. Add nodes to existing tree using path string"
+      },
+      {
+        "row": 6,
+        "rowsha": "u+XFANLxNhEBptguCZm76PgxyPuuxnKoxtnIDDoo0vY=",
+        "originContent": "   9. Add nodes and attributes to existing tree using *dictionary*, *pandas DataFrame*, or *polars DataFrame*, using path",
+        "translatedContent": "   9. Add nodes and attributes to existing tree using *dictionary*, *pandas DataFrame*, or *polars DataFrame*, using path"
+      },
+      {
+        "row": 7,
+        "rowsha": "F1S2fy3neOeGnH6KDAMPVVO3r2dZErE+OBCs+gZbHy8=",
+        "originContent": "   10. Add only attributes to existing tree using *dictionary*, *pandas DataFrame*, or *polars DataFrame*, using node name",
+        "translatedContent": "   10. Add only attributes to existing tree using *dictionary*, *pandas DataFrame*, or *polars DataFrame*, using node name"
+      },
+      {
+        "row": 8,
+        "rowsha": "p2N3cajVy/0mLB6cUMBzJeWDUGQrM7f9B1NYbzcoHf4=",
+        "originContent": "4. [**➰ Traversing Tree**](https://bigtree.readthedocs.io/stable/bigtree/utils/iterators/)",
+        "translatedContent": "4. [**➰ Traversing Tree**](https://bigtree.readthedocs.io/stable/bigtree/utils/iterators/)"
+      },
+      {
+        "row": 9,
+        "rowsha": "KPajaeHDXcivy8DZ9KE+pKJDg96EnreVAKbTixsBOu8=",
+        "originContent": "   1. Pre-Order Traversal",
+        "translatedContent": "   1. Pre-Order Traversal"
+      },
+      {
+        "row": 10,
+        "rowsha": "vG4nsGsuZdf8PSVnv5Oiy4kYNaa2FjXdvlnX8ChPsgg=",
+        "originContent": "   2. Post-Order Traversal",
+        "translatedContent": "   2. Post-Order Traversal"
+      },
+      {
+        "row": 11,
+        "rowsha": "h2MbPYr39mgy6JOdtEU4+RTg4ALNBl8B/LYPGHsU5NY=",
+        "originContent": "   3. Level-Order Traversal",
+        "translatedContent": "   3. Level-Order Traversal"
+      },
+      {
+        "row": 12,
+        "rowsha": "XHCBjgTehYOTmhAuCJ1xZc1vTIP0TAUHzTguzcow/kE=",
+        "originContent": "   4. Level-Order-Group Traversal",
+        "translatedContent": "   4. Level-Order-Group Traversal"
+      },
+      {
+        "row": 13,
+        "rowsha": "s7coariyz34rahbw8LRRbGvRzzWrQA979j11udqW838=",
+        "originContent": "   5. ZigZag Traversal",
+        "translatedContent": "   5. ZigZag Traversal"
+      },
+      {
+        "row": 14,
+        "rowsha": "sSbELXOJyxgUvE9AIueY1SNobKYaAFz4HRGhkOAlTQM=",
+        "originContent": "   6. ZigZag-Group Traversal",
+        "translatedContent": "   6. ZigZag-Group Traversal"
+      },
+      {
+        "row": 15,
+        "rowsha": "5Vx+cX7lltdQuNuAL97spUFhwiuhYiwZOFPdBLRm60s=",
+        "originContent": "5. [**🧩 Parsing Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/parsing/)",
+        "translatedContent": "5. [**🧩 Parsing Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/parsing/)"
+      },
+      {
+        "row": 16,
+        "rowsha": "nv2cU2SWFmfqjX5pSIkmlrS7/nMbORNu6K5LJVd15RI=",
+        "originContent": "   1. Get common ancestors between nodes",
+        "translatedContent": "   1. Get common ancestors between nodes"
+      },
+      {
+        "row": 17,
+        "rowsha": "I8o6SiujQ7/yIrrDLtRWC+pPFbysOAbnlxFey66fBQU=",
+        "originContent": "   2. Get path from one node to another node",
+        "translatedContent": "   2. Get path from one node to another node"
+      },
+      {
+        "row": 18,
+        "rowsha": "//OmW0aRIblabKBIjSuuZAmiqoMasBdrL5/I0f7dP5Q=",
+        "originContent": "6. [**📝 Modifying Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/modify/)",
+        "translatedContent": "6. [**📝 Modifying Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/modify/)"
+      },
+      {
+        "row": 19,
+        "rowsha": "k+0MLXDMLT1bes3A8wOa8SZULIUX4mmYR6NJOO/20BE=",
+        "originContent": "   1. Copy nodes from location to destination",
+        "translatedContent": "   1. Copy nodes from location to destination"
+      },
+      {
+        "row": 20,
+        "rowsha": "srIpprNbI5Bvb2b2Qy8dZPKjr0RXMPPR1ZjhWZ2dS9U=",
+        "originContent": "   2. Shift nodes from location to destination",
+        "translatedContent": "   2. Shift nodes from location to destination"
+      },
+      {
+        "row": 21,
+        "rowsha": "95y5Q7shbOn5xDIsIJK/ec+xh01jgMz1weddNecFlnI=",
+        "originContent": "   3. Shift and replace nodes from location to destination",
+        "translatedContent": "   3. Shift and replace nodes from location to destination"
+      },
+      {
+        "row": 22,
+        "rowsha": "cF65POZ10FkmZfKTtcIw5mzajyq57mWV7lBtAQZal74=",
+        "originContent": "   4. Copy nodes from one tree to another",
+        "translatedContent": "   4. Copy nodes from one tree to another"
+      },
+      {
+        "row": 23,
+        "rowsha": "nLFwkR3WBherKnj7yK2kGyAu4S2hyf57GfiIp1ca+TE=",
+        "originContent": "   5. Copy and replace nodes from one tree to another",
+        "translatedContent": "   5. Copy and replace nodes from one tree to another"
+      },
+      {
+        "row": 24,
+        "rowsha": "fwNu9W3fC5HMeIpD99jtFMdggAJv+5HNNKl6DEJSDM0=",
+        "originContent": "7. [**📌 Querying Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/query/)",
+        "translatedContent": "7. [**📌 Querying Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/query/)"
+      },
+      {
+        "row": 25,
+        "rowsha": "rS7l3AgUrXldgAHRt2RkMxY9j251v1NORV4o84a4kfo=",
+        "originContent": "   1. Filter tree using Tree Query Language",
+        "translatedContent": "   1. Filter tree using Tree Query Language"
+      },
+      {
+        "row": 26,
+        "rowsha": "L6Oy1/RW7vUBWnsycpPG21ULsoPr+ZscOa7/d7kJwEk=",
+        "originContent": "8. [**🔍 Tree Search**](https://bigtree.readthedocs.io/stable/bigtree/tree/search/)",
+        "translatedContent": "8. [**🔍 Tree Search**](https://bigtree.readthedocs.io/stable/bigtree/tree/search/)"
+      },
+      {
+        "row": 27,
+        "rowsha": "fBvyUr/Yo50T2nJA+7Qc5vTgxZJgqp6QG1sq6hwwQbM=",
+        "originContent": "   1. Find multiple nodes based on name, partial path, relative path, attribute value, user-defined condition",
+        "translatedContent": "   1. Find multiple nodes based on name, partial path, relative path, attribute value, user-defined condition"
+      },
+      {
+        "row": 28,
+        "rowsha": "BoSdTR82CmjGsBywtT/SFkgxb6/CuoH+fTQ0s5SKzzI=",
+        "originContent": "   2. Find single nodes based on name, partial path, relative path, full path, attribute value, user-defined condition",
+        "translatedContent": "   2. Find single nodes based on name, partial path, relative path, full path, attribute value, user-defined condition"
+      },
+      {
+        "row": 29,
+        "rowsha": "MspLSFiQ8o1Z0Wa7rsWHMJ4vNgrlodp19l+5nOu5/AY=",
+        "originContent": "   3. Find multiple child nodes based on user-defined condition",
+        "translatedContent": "   3. Find multiple child nodes based on user-defined condition"
+      },
+      {
+        "row": 30,
+        "rowsha": "/yxuZZWZZ21E5X7S8pqMEIGByOHjlIud0Wxu1PNfUP0=",
+        "originContent": "   4. Find single child node based on name, user-defined condition",
+        "translatedContent": "   4. Find single child node based on name, user-defined condition"
+      },
+      {
+        "row": 31,
+        "rowsha": "iUAeYeGGq0j34lunvqCr71szQLv0JO6TOOmgXXFSmgw=",
+        "originContent": "9. [**🔧 Helper Function**](https://bigtree.readthedocs.io/stable/bigtree/tree/helper/)",
+        "translatedContent": "9. [**🔧 Helper Function**](https://bigtree.readthedocs.io/stable/bigtree/tree/helper/)"
+      },
+      {
+        "row": 32,
+        "rowsha": "fUypXMqs3qVPLsdC/gd+r64wOOyNk9HMaCKXTzxFLZs=",
+        "originContent": "   1. Cloning tree to another `Node` type",
+        "translatedContent": "   1. Cloning tree to another `Node` type"
+      },
+      {
+        "row": 33,
+        "rowsha": "NO0GHlYeu2Ag9dilypiASbhfQQwUXP1Y1poDL94hWJM=",
+        "originContent": "   2. Get subtree (smaller tree with different root)",
+        "translatedContent": "   2. Get subtree (smaller tree with different root)"
+      },
+      {
+        "row": 34,
+        "rowsha": "KsSnUr+gRe0TMALQgIeOHWYxjbrMXT3WqHs+QmTBUWI=",
+        "originContent": "   3. Prune tree (smaller tree with same root)",
+        "translatedContent": "   3. Prune tree (smaller tree with same root)"
+      },
+      {
+        "row": 35,
+        "rowsha": "F3x0bWcMndFvWkTNczEFXc0Is6PuniDtWGC5Zuqc87k=",
+        "originContent": "   4. Get difference between two trees",
+        "translatedContent": "   4. Get difference between two trees"
+      },
+      {
+        "row": 36,
+        "rowsha": "/yZDJsk+cCCYmeZCfsKKsoB/eOqfi3LFoVuR9QzrAtQ=",
+        "originContent": "10. [**📊 Plotting Tree**](https://bigtree.readthedocs.io/stable/bigtree/utils/plot/)",
+        "translatedContent": "10. [**📊 Plotting Tree**](https://bigtree.readthedocs.io/stable/bigtree/utils/plot/)"
+      },
+      {
+        "row": 37,
+        "rowsha": "kNFbI1aNPN11ongeuJSzCbBIh4Hrax/33Yo4mMpLAjU=",
+        "originContent": "   1. Enhanced Reingold Tilford Algorithm to retrieve (x, y) coordinates for a tree structure",
+        "translatedContent": "   1. Enhanced Reingold Tilford Algorithm to retrieve (x, y) coordinates for a tree structure"
+      },
+      {
+        "row": 38,
+        "rowsha": "40cbi1SyB7tmDye4T1CSqWspEDLl1f0dWLJakpGz7PU=",
+        "originContent": "   2. Plot tree using matplotlib (optional dependency)",
+        "translatedContent": "   2. Plot tree using matplotlib (optional dependency)"
+      },
+      {
+        "row": 39,
+        "rowsha": "HikEMFO1bBG1e12/e9ZcL6JmxUHdaEvi+dUsMfES0Ds=",
+        "originContent": "11. [**🔨 Exporting Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/export/)",
+        "translatedContent": "11. [**🔨 Exporting Tree**](https://bigtree.readthedocs.io/stable/bigtree/tree/export/)"
+      },
+      {
+        "row": 40,
+        "rowsha": "xkxT+8o0TOUZu7YgY2ce3hElH7A3Tf7uVLXfeB7eI2c=",
+        "originContent": "   1. Print to console, in vertical or horizontal orientation",
+        "translatedContent": "   1. Print to console, in vertical or horizontal orientation"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "   2. Export to *Newick string notation*, *dictionary*, *nested dictionary*, *pandas DataFrame*, or *polars DataFrame*\n   3. Export tree to *dot* (can save to .dot, .png, .svg, .jpeg files)\n   4. Export tree to *Pillow* (can save to .png, .jpg)\n   5. Export tree to *Mermaid Flowchart* (can display on .md)\n   6. Export tree to *Pyvis Network* (can display interactive .html)\n12. [**✔️ Workflows**](https://bigtree.readthedocs.io/stable/bigtree/workflows/app_todo)\n   1. Sample workflows for tree demonstration!\n\n--------\n\nFor **Binary Tree** implementation, there are 4 main components.\nBinary Node inherits from Node, so the components in Tree implementation are also available in Binary Tree.\n\n1. [**🌿 Node**](https://bigtree.readthedocs.io/stable/bigtree/node/binarynode)\n   1. ``BinaryNode``, Node with binary tree rules\n2. [**🎄 Binary Tree**](https://bigtree.readthedocs.io/stable/bigtree/binarytree/binarytree/)\n   1. ``BinaryTree``, wrapper around ``BinaryNode``, providing high-level APIs to build, iterate, query, and export the entire tree structure\n3. [**✨ Constructing Binary Tree**](https://bigtree.readthedocs.io/stable/bigtree/binarytree/construct/)\n   1. From *list*, using flattened list structure\n4. [**➰ Traversing Binary Tree**](https://bigtree.readthedocs.io/stable/bigtree/utils/iterators/)\n   1. In-Order Traversal\n\n-----\n\nFor **Directed Acyclic Graph (DAG)** implementation, there are 6 main components.\n\n1. [**🌼 Node**](https://bigtree.readthedocs.io/stable/bigtree/node/dagnode/)\n   1. ``DAGNode``, extendable class for constructing Directed Acyclic Graph (DAG)\n2. [**🎄 DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/dag/)\n   1. ``DAG``, wrapper around ``DAGNode``, providing high-level APIs to build, export, and iterate the entire DAG\n3. [**✨ Constructing DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/construct/)\n   1. From *list*, containing parent-child tuples\n   2. From *nested dictionary*\n   3. From *pandas DataFrame*\n4. [**➰ Traversing DAG**](https://bigtree.readthedocs.io/stable/bigtree/utils/iterators/)\n   1. Generic traversal method\n5. [**🧩 Parsing DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/parsing/)\n   1. Get possible paths from one node to another node\n6. [**🔨 Exporting DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/export/)\n   1. Export to *list*, *dictionary*, or *pandas DataFrame*",
+    "ContentSha": "5emECVzXE1wmy7WRqPqsyITWczF7WmU9QS7ZJ9DwIjY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   2. Export to *Newick string notation*, *dictionary*, *nested dictionary*, *pandas DataFrame*, or *polars DataFrame*\n   3. Export tree to *dot* (can save to .dot, .png, .svg, .jpeg files)\n   4. Export tree to *Pillow* (can save to .png, .jpg)\n   5. Export tree to *Mermaid Flowchart* (can display on .md)\n   6. Export tree to *Pyvis Network* (can display interactive .html)\n12. [**✔️ Workflows**](https://bigtree.readthedocs.io/stable/bigtree/workflows/app_todo)\n   1. Sample workflows for tree demonstration!\n\n--------\n\nFor **Binary Tree** implementation, there are 4 main components.\nBinary Node inherits from Node, so the components in Tree implementation are also available in Binary Tree.\n\n1. [**🌿 Node**](https://bigtree.readthedocs.io/stable/bigtree/node/binarynode)\n   1. ``BinaryNode``, Node with binary tree rules\n2. [**🎄 Binary Tree**](https://bigtree.readthedocs.io/stable/bigtree/binarytree/binarytree/)\n   1. ``BinaryTree``, wrapper around ``BinaryNode``, providing high-level APIs to build, iterate, query, and export the entire tree structure\n3. [**✨ Constructing Binary Tree**](https://bigtree.readthedocs.io/stable/bigtree/binarytree/construct/)\n   1. From *list*, using flattened list structure\n4. [**➰ Traversing Binary Tree**](https://bigtree.readthedocs.io/stable/bigtree/utils/iterators/)\n   1. In-Order Traversal\n\n-----\n\nFor **Directed Acyclic Graph (DAG)** implementation, there are 6 main components.\n\n1. [**🌼 Node**](https://bigtree.readthedocs.io/stable/bigtree/node/dagnode/)\n   1. ``DAGNode``, extendable class for constructing Directed Acyclic Graph (DAG)\n2. [**🎄 DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/dag/)\n   1. ``DAG``, wrapper around ``DAGNode``, providing high-level APIs to build, export, and iterate the entire DAG\n3. [**✨ Constructing DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/construct/)\n   1. From *list*, containing parent-child tuples\n   2. From *nested dictionary*\n   3. From *pandas DataFrame*\n4. [**➰ Traversing DAG**](https://bigtree.readthedocs.io/stable/bigtree/utils/iterators/)\n   1. Generic traversal method\n5. [**🧩 Parsing DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/parsing/)\n   1. Get possible paths from one node to another node\n6. [**🔨 Exporting DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/export/)\n   1. Export to *list*, *dictionary*, or *pandas DataFrame*",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "q58XGcpdPLVLxXltbO8bekUFcsIzUOJoCqljjdPISc0=",
+        "originContent": "   2. Export to *Newick string notation*, *dictionary*, *nested dictionary*, *pandas DataFrame*, or *polars DataFrame*",
+        "translatedContent": "   2. Export to *Newick string notation*, *dictionary*, *nested dictionary*, *pandas DataFrame*, or *polars DataFrame*"
+      },
+      {
+        "row": 2,
+        "rowsha": "Bro2SO/FWUmwZ+yoBLjL+9HJqTPhEhA0WRBlE+oGBtA=",
+        "originContent": "   3. Export tree to *dot* (can save to .dot, .png, .svg, .jpeg files)",
+        "translatedContent": "   3. Export tree to *dot* (can save to .dot, .png, .svg, .jpeg files)"
+      },
+      {
+        "row": 3,
+        "rowsha": "wRIqOf8o8KKYKktPQIbdzt+sZW02Qx2NAHEUhNs/Ass=",
+        "originContent": "   4. Export tree to *Pillow* (can save to .png, .jpg)",
+        "translatedContent": "   4. Export tree to *Pillow* (can save to .png, .jpg)"
+      },
+      {
+        "row": 4,
+        "rowsha": "fulJtiDnOOlOu+9AveQ8JtxEKIo3qaIJ8babg+K6i3Q=",
+        "originContent": "   5. Export tree to *Mermaid Flowchart* (can display on .md)",
+        "translatedContent": "   5. Export tree to *Mermaid Flowchart* (can display on .md)"
+      },
+      {
+        "row": 5,
+        "rowsha": "cg9r+5Ee8mWaNphQT/CoL1c1zMUWj/dvegMnCzlWReE=",
+        "originContent": "   6. Export tree to *Pyvis Network* (can display interactive .html)",
+        "translatedContent": "   6. Export tree to *Pyvis Network* (can display interactive .html)"
+      },
+      {
+        "row": 6,
+        "rowsha": "tsGAfbuM9f9ReJXdqvF43OUC+DB3sZ/GWik1vk6Vu10=",
+        "originContent": "12. [**✔️ Workflows**](https://bigtree.readthedocs.io/stable/bigtree/workflows/app_todo)",
+        "translatedContent": "12. [**✔️ Workflows**](https://bigtree.readthedocs.io/stable/bigtree/workflows/app_todo)"
+      },
+      {
+        "row": 7,
+        "rowsha": "JUSDl8nUo2Oa1+yi8iGlasKGi1TwZ9YHmJrH2LgAjEc=",
+        "originContent": "   1. Sample workflows for tree demonstration!",
+        "translatedContent": "   1. Sample workflows for tree demonstration!"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Nw2bcQYL6WjZfebekf/yAOTdc55OH9fW6YPZp8YL27A=",
+        "originContent": "--------",
+        "translatedContent": "--------"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "w658JbEVQueR9xgKHaegitNdSyLV7CYroadJVrXVHwY=",
+        "originContent": "For **Binary Tree** implementation, there are 4 main components.",
+        "translatedContent": "For **Binary Tree** implementation, there are 4 main components."
+      },
+      {
+        "row": 12,
+        "rowsha": "wNQqzqk0ywoPLkkqYrGu2k45Cyk9GYaDVZgZk2vKkN8=",
+        "originContent": "Binary Node inherits from Node, so the components in Tree implementation are also available in Binary Tree.",
+        "translatedContent": "Binary Node inherits from Node, so the components in Tree implementation are also available in Binary Tree."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "IyDgbp/ky05YE6yq/NEdalkkuEG9oDyzFJpPxyN/1TA=",
+        "originContent": "1. [**🌿 Node**](https://bigtree.readthedocs.io/stable/bigtree/node/binarynode)",
+        "translatedContent": "1. [**🌿 Node**](https://bigtree.readthedocs.io/stable/bigtree/node/binarynode)"
+      },
+      {
+        "row": 15,
+        "rowsha": "CzerN5DYUy4xJknBVz7eudCsxt5HgKGtAsXJwx67Q6I=",
+        "originContent": "   1. ``BinaryNode``, Node with binary tree rules",
+        "translatedContent": "   1. ``BinaryNode``, Node with binary tree rules"
+      },
+      {
+        "row": 16,
+        "rowsha": "g7NkPr1x1FwbtlxtmFt/kT0TSElhK+do9RQlp01W0zA=",
+        "originContent": "2. [**🎄 Binary Tree**](https://bigtree.readthedocs.io/stable/bigtree/binarytree/binarytree/)",
+        "translatedContent": "2. [**🎄 Binary Tree**](https://bigtree.readthedocs.io/stable/bigtree/binarytree/binarytree/)"
+      },
+      {
+        "row": 17,
+        "rowsha": "dJzn5kz9PItUaSaEuyJphUGIHzn2fRUiif8vNakA81I=",
+        "originContent": "   1. ``BinaryTree``, wrapper around ``BinaryNode``, providing high-level APIs to build, iterate, query, and export the entire tree structure",
+        "translatedContent": "   1. ``BinaryTree``, wrapper around ``BinaryNode``, providing high-level APIs to build, iterate, query, and export the entire tree structure"
+      },
+      {
+        "row": 18,
+        "rowsha": "bPwbR4aitLp72hO1bbF9dsoIi8S5h8kXUSFCRBnmFoU=",
+        "originContent": "3. [**✨ Constructing Binary Tree**](https://bigtree.readthedocs.io/stable/bigtree/binarytree/construct/)",
+        "translatedContent": "3. [**✨ Constructing Binary Tree**](https://bigtree.readthedocs.io/stable/bigtree/binarytree/construct/)"
+      },
+      {
+        "row": 19,
+        "rowsha": "BcLfbaP3Tbv8gBoFr6zjApdzSUQQw+CMCFpLi3H1Zmg=",
+        "originContent": "   1. From *list*, using flattened list structure",
+        "translatedContent": "   1. From *list*, using flattened list structure"
+      },
+      {
+        "row": 20,
+        "rowsha": "+4xzNAKnOH+OhK5QvWQWB7e4rQq1vEdKXaLT4tPMG8Y=",
+        "originContent": "4. [**➰ Traversing Binary Tree**](https://bigtree.readthedocs.io/stable/bigtree/utils/iterators/)",
+        "translatedContent": "4. [**➰ Traversing Binary Tree**](https://bigtree.readthedocs.io/stable/bigtree/utils/iterators/)"
+      },
+      {
+        "row": 21,
+        "rowsha": "ot2VczAk23A36OS8r8Z9687ndBB8IFdZkqevUijMINU=",
+        "originContent": "   1. In-Order Traversal",
+        "translatedContent": "   1. In-Order Traversal"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "c74IfpMID55DaJK30YLfZjlLx52/XfEZ2TV99hseu/s=",
+        "originContent": "-----",
+        "translatedContent": "-----"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "JunHnkrPR9oxI4Oluf83fR5xsEIXK0yigTxxytQEeyM=",
+        "originContent": "For **Directed Acyclic Graph (DAG)** implementation, there are 6 main components.",
+        "translatedContent": "For **Directed Acyclic Graph (DAG)** implementation, there are 6 main components."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Cc5Jfq87RkVeninn3sS0iHo6Vm9S9tXc/EE23GC8knI=",
+        "originContent": "1. [**🌼 Node**](https://bigtree.readthedocs.io/stable/bigtree/node/dagnode/)",
+        "translatedContent": "1. [**🌼 Node**](https://bigtree.readthedocs.io/stable/bigtree/node/dagnode/)"
+      },
+      {
+        "row": 28,
+        "rowsha": "LcnsmXZ1VaByfly5yXvjSseqqzAuPHEYB7aGNHzmk8E=",
+        "originContent": "   1. ``DAGNode``, extendable class for constructing Directed Acyclic Graph (DAG)",
+        "translatedContent": "   1. ``DAGNode``, extendable class for constructing Directed Acyclic Graph (DAG)"
+      },
+      {
+        "row": 29,
+        "rowsha": "XyTBIsJAFaumBaHXIgJq2dNYfflJlHYqEKvxjZWtVeQ=",
+        "originContent": "2. [**🎄 DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/dag/)",
+        "translatedContent": "2. [**🎄 DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/dag/)"
+      },
+      {
+        "row": 30,
+        "rowsha": "+cN9FkxItzthDA8yaYU8edbGshjWoMAC4Qw2kl6lPtc=",
+        "originContent": "   1. ``DAG``, wrapper around ``DAGNode``, providing high-level APIs to build, export, and iterate the entire DAG",
+        "translatedContent": "   1. ``DAG``, wrapper around ``DAGNode``, providing high-level APIs to build, export, and iterate the entire DAG"
+      },
+      {
+        "row": 31,
+        "rowsha": "QOCrHZo77kLBf5zWIA5jD4pufBoYd7SNWNUQ1r44chY=",
+        "originContent": "3. [**✨ Constructing DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/construct/)",
+        "translatedContent": "3. [**✨ Constructing DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/construct/)"
+      },
+      {
+        "row": 32,
+        "rowsha": "P9goMOKM9U3inCbNk8Fq6/F+FkHUIUtCCAFL440W/RY=",
+        "originContent": "   1. From *list*, containing parent-child tuples",
+        "translatedContent": "   1. From *list*, containing parent-child tuples"
+      },
+      {
+        "row": 33,
+        "rowsha": "Drkqq8utg9Pl05ca7uK2Lz4Dxeri5IPOGx6z0pWhoAA=",
+        "originContent": "   2. From *nested dictionary*",
+        "translatedContent": "   2. From *nested dictionary*"
+      },
+      {
+        "row": 34,
+        "rowsha": "Xw5E6EoPCrulZ4QZiv0zodwP70fuxVhkJdTDv6W9zdg=",
+        "originContent": "   3. From *pandas DataFrame*",
+        "translatedContent": "   3. From *pandas DataFrame*"
+      },
+      {
+        "row": 35,
+        "rowsha": "i6D7vnVbn1hXkWxonXI0jDXVTJ900k8I/BOQvucNNYQ=",
+        "originContent": "4. [**➰ Traversing DAG**](https://bigtree.readthedocs.io/stable/bigtree/utils/iterators/)",
+        "translatedContent": "4. [**➰ Traversing DAG**](https://bigtree.readthedocs.io/stable/bigtree/utils/iterators/)"
+      },
+      {
+        "row": 36,
+        "rowsha": "wMwtE2SXyc+uBRXtdq5SCxi2Zp44ef/3/6W2DhtVEts=",
+        "originContent": "   1. Generic traversal method",
+        "translatedContent": "   1. Generic traversal method"
+      },
+      {
+        "row": 37,
+        "rowsha": "+fHrS3y1y4Fn6vRLLcO6aFjLlXTs0nohWHBhfa+lI2I=",
+        "originContent": "5. [**🧩 Parsing DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/parsing/)",
+        "translatedContent": "5. [**🧩 Parsing DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/parsing/)"
+      },
+      {
+        "row": 38,
+        "rowsha": "kABwVjMlolmnRd/kfWThsOHlXFtTwajqDmwpHFIdcm4=",
+        "originContent": "   1. Get possible paths from one node to another node",
+        "translatedContent": "   1. Get possible paths from one node to another node"
+      },
+      {
+        "row": 39,
+        "rowsha": "96lSg+jYSdbjnos+P9nyxKlr28d8ngpqMUJcWuXnXSo=",
+        "originContent": "6. [**🔨 Exporting DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/export/)",
+        "translatedContent": "6. [**🔨 Exporting DAG**](https://bigtree.readthedocs.io/stable/bigtree/dag/export/)"
+      },
+      {
+        "row": 40,
+        "rowsha": "HyAakXWonpCCouQGaAfJ2489laNeGMcKAy3h35klfn0=",
+        "originContent": "   1. Export to *list*, *dictionary*, or *pandas DataFrame*",
+        "translatedContent": "   1. Export to *list*, *dictionary*, or *pandas DataFrame*"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   2. Export DAG to *dot* (can save to .dot, .png, .svg, .jpeg files)\n\n-----\n\n## Installation\n\n`bigtree` requires Python 3.10+. There are two ways to install `bigtree`, with pip (recommended) or conda.\n\n### a) Installation with pip\n\n#### Basic Installation\n\nTo install `bigtree`, run the following line in command prompt:\n",
+    "ContentSha": "bHwrlbLd8OM8U6+tFW7//YGgejR2bbd8NLAc373Bmx0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   2. Export DAG to *dot* (can save to .dot, .png, .svg, .jpeg files)\n\n-----\n\n## Installation\n\n`bigtree` requires Python 3.10+. There are two ways to install `bigtree`, with pip (recommended) or conda.\n\n### a) Installation with pip\n\n#### Basic Installation\n\nTo install `bigtree`, run the following line in command prompt:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "BYI3SB+tcpS7KSyprbkx6UHsB9uC28jFzyxw5X4u26Q=",
+        "originContent": "   2. Export DAG to *dot* (can save to .dot, .png, .svg, .jpeg files)",
+        "translatedContent": "   2. Export DAG to *dot* (can save to .dot, .png, .svg, .jpeg files)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "c74IfpMID55DaJK30YLfZjlLx52/XfEZ2TV99hseu/s=",
+        "originContent": "-----",
+        "translatedContent": "-----"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "6eA6K2EbiUeifS5vk6zeUPRaT6BAITPKceI2MyUv/UE=",
+        "originContent": "`bigtree` requires Python 3.10+. There are two ways to install `bigtree`, with pip (recommended) or conda.",
+        "translatedContent": "`bigtree` requires Python 3.10+. There are two ways to install `bigtree`, with pip (recommended) or conda."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Q6Niulgu9D7HhkegdptihFGm8b3POHmrxlCw8EWMlac=",
+        "originContent": "### a) Installation with pip",
+        "translatedContent": "### a) Installation with pip"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "uhvUn/i5iNpSR5XbxmHrsiTP8smA6yGKgu4OxTKvlMY=",
+        "originContent": "#### Basic Installation",
+        "translatedContent": "#### Basic Installation"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "g91QER27SqzZvw/K6XINIZF7l6bQhqn0LJkN/v4i46k=",
+        "originContent": "To install `bigtree`, run the following line in command prompt:",
+        "translatedContent": "To install `bigtree`, run the following line in command prompt:"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```console\n$ pip install bigtree\n```",
+    "ContentSha": "TWsmbCNpcjPHkXSxU8xVn2SPiIXPpyvfrKllUMB3hKM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```console\n$ pip install bigtree\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+        "originContent": "```console",
+        "translatedContent": "```console"
+      },
+      {
+        "row": 2,
+        "rowsha": "P4H4kowfnhzaw5jSdJ1D/QpoTTcnpU7yRYyht8thrPg=",
+        "originContent": "$ pip install bigtree",
+        "translatedContent": "$ pip install bigtree"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n#### Installing optional dependencies\n\n`bigtree` have a number of optional dependencies, which can be installed using \"extras\" syntax.\n",
+    "ContentSha": "DAM8INYeACFlfFrBR35xHXB0l160OyYJz1g/geuFIBo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### Installing optional dependencies\n\n`bigtree` has a number of optional dependencies, which can be installed using the \"extras\" syntax.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WELRIJSjWX760Q6l/bYbZ/rnExepzP849xh9QJ+ygKI=",
+        "originContent": "#### Installing optional dependencies",
+        "translatedContent": "#### Installing optional dependencies"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "8RQpzMhQA1F10VBfWlJx+QYuT8ASPdO1X1Kex/fv4DU=",
+        "originContent": "`bigtree` have a number of optional dependencies, which can be installed using \"extras\" syntax.",
+        "translatedContent": "`bigtree` has a number of optional dependencies, which can be installed using the \"extras\" syntax."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```console\n$ pip install 'bigtree[extra_1, extra_2]'\n```",
+    "ContentSha": "YoIRY6tAmlgODj4RAtyWqBIjMIHTf5hGr+YJSVs03Uk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```console\n$ pip install 'bigtree[extra_1, extra_2]'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+        "originContent": "```console",
+        "translatedContent": "```console"
+      },
+      {
+        "row": 2,
+        "rowsha": "39AQUWXBdSRX5NR5uS1dNwP31jZDGxalgeHCeUczMK4=",
+        "originContent": "$ pip install 'bigtree[extra_1, extra_2]'",
+        "translatedContent": "$ pip install 'bigtree[extra_1, extra_2]'"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\nExamples of extra packages include:\n\n- `all`: include all optional dependencies\n- `image`: for exporting tree to image\n- `matplotlib`: for plotting trees\n- `pandas`: for pandas methods\n- `polars`: for polars methods\n- `query` for tree query methods\n- `vis`: for pyvis visualisation\n\nFor `image` extra dependency, you may need to install more plugins.\n",
+    "ContentSha": "811J84tbLi9UcT24iRVYBid6cfvA6KBS7RYFIrNsVVc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nExamples of extra packages include:\n\n- `all`: include all optional dependencies\n- `image`: for exporting tree to image\n- `matplotlib`: for plotting trees\n- `pandas`: for pandas methods\n- `polars`: for polars methods\n- `query` for tree query methods\n- `vis`: for pyvis visualization\n\nFor `image` extra dependency, you may need to install more plugins.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WVqVmXBdEcp4KaIcH+gJgVR6ju7BcvDj2mDF25EInRs=",
+        "originContent": "Examples of extra packages include:",
+        "translatedContent": "Examples of extra packages include:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "xvV6qn9JnZSvJjWhVpX0kgii9i9CdvqEv2UytWNkcww=",
+        "originContent": "- `all`: include all optional dependencies",
+        "translatedContent": "- `all`: include all optional dependencies"
+      },
+      {
+        "row": 5,
+        "rowsha": "FkRyN26lwWGw1eFzTbDVETaKKIlkFAjt2zq2jcap18w=",
+        "originContent": "- `image`: for exporting tree to image",
+        "translatedContent": "- `image`: for exporting tree to image"
+      },
+      {
+        "row": 6,
+        "rowsha": "70kzVE7+HEs/7BMAdM1aMacG7xdeigiZ1IvVjM11yQY=",
+        "originContent": "- `matplotlib`: for plotting trees",
+        "translatedContent": "- `matplotlib`: for plotting trees"
+      },
+      {
+        "row": 7,
+        "rowsha": "uAZkyLYO406ZiD5R5aFxT1q76yVK0WN89ArkA7VbxD0=",
+        "originContent": "- `pandas`: for pandas methods",
+        "translatedContent": "- `pandas`: for pandas methods"
+      },
+      {
+        "row": 8,
+        "rowsha": "gMTT3TtTEBrUE5R14AFg+wQSbMjSgxN/aF3k3P08S8A=",
+        "originContent": "- `polars`: for polars methods",
+        "translatedContent": "- `polars`: for polars methods"
+      },
+      {
+        "row": 9,
+        "rowsha": "8F93HDifXHpWb2BROIKFTit9BB9uI/lsYVo6IMgGTvs=",
+        "originContent": "- `query` for tree query methods",
+        "translatedContent": "- `query` for tree query methods"
+      },
+      {
+        "row": 10,
+        "rowsha": "+Ly1V8JuttADyiJdqi5t5DhRKNusLNXR4HMZst5qF6w=",
+        "originContent": "- `vis`: for pyvis visualisation",
+        "translatedContent": "- `vis`: for pyvis visualization"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "dZtV2Jx73Q6WX1z8t+2DJnopKAJbkXheu1XkJ0oLzbg=",
+        "originContent": "For `image` extra dependency, you may need to install more plugins.",
+        "translatedContent": "For `image` extra dependency, you may need to install more plugins."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```console\n$ brew install gprof2dot  # for MacOS\n$ conda install graphviz  # for Windows\n```",
+    "ContentSha": "c+VZPrmryra6FGyymWUyVfiDBpV4B5K1/AP+DO8yNK4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```console\n$ brew install gprof2dot  # for MacOS\n$ conda install graphviz  # for Windows\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+        "originContent": "```console",
+        "translatedContent": "```console"
+      },
+      {
+        "row": 2,
+        "rowsha": "OFZnKSAHTIEmfsco9Yg9wsWIA2/fz/1vJDToEHml8Uk=",
+        "originContent": "$ brew install gprof2dot  # for MacOS",
+        "translatedContent": "$ brew install gprof2dot  # for MacOS"
+      },
+      {
+        "row": 3,
+        "rowsha": "L1cVWCipyzl7JmlbABgEjgH5GN4mfM8NLxbLG8FkTFs=",
+        "originContent": "$ conda install graphviz  # for Windows",
+        "translatedContent": "$ conda install graphviz  # for Windows"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n### b) Installation with conda\n\nTo install `bigtree` with conda, run the following line in command prompt:\n",
+    "ContentSha": "AT3RQQQkq5QTqFK5SrHb7OaV6NQvNxiJhbYt72L5kWg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### b) Installation with conda\n\nTo install `bigtree` with conda, run the following line in the command prompt:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tal4WWQ1u1YRuAflDsUFUPAbJpLBoLWayT9pXi5XyvU=",
+        "originContent": "### b) Installation with conda",
+        "translatedContent": "### b) Installation with conda"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "xfM+RdBL5yOT5r97MqF5ggUEIhKcozsEtnCHaVZF+eY=",
+        "originContent": "To install `bigtree` with conda, run the following line in command prompt:",
+        "translatedContent": "To install `bigtree` with conda, run the following line in the command prompt:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```console\n$ conda install -c conda-forge bigtree\n```",
+    "ContentSha": "xXPGVOdPIj6qsXSFiw2FVKJOQBnYjzRNF4pONXIV+xg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```console\n$ conda install -c conda-forge bigtree\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+        "originContent": "```console",
+        "translatedContent": "```console"
+      },
+      {
+        "row": 2,
+        "rowsha": "pqsCx41SZqu1NkGAQL9jmQZKtG64l3ei2yL+jmuxCWY=",
+        "originContent": "$ conda install -c conda-forge bigtree",
+        "translatedContent": "$ conda install -c conda-forge bigtree"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n-----\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=kayjan/bigtree&type=Date)](https://star-history.com/#kayjan/bigtree&Date)\n",
+    "ContentSha": "Nq9huuTx2QB33dV6SjCFGU7CUnnQoE4eUdlBQKM+uwQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n-----\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=kayjan/bigtree&type=Date)](https://star-history.com/#kayjan/bigtree&Date)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "c74IfpMID55DaJK30YLfZjlLx52/XfEZ2TV99hseu/s=",
+        "originContent": "-----",
+        "translatedContent": "-----"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": "## Star History"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "s00VuqMP/bV4DuDI3z4zjo7sDXscnX1HQCo3kcbiI3A=",
+        "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=kayjan/bigtree&type=Date)](https://star-history.com/#kayjan/bigtree&Date)",
+        "translatedContent": "[![Star History Chart](https://api.star-history.com/svg?repos=kayjan/bigtree&type=Date)](https://star-history.com/#kayjan/bigtree&Date)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
