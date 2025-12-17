@@ -1,0 +1,637 @@
+[
+  {
+    "Id": 1,
+    "Content": "# SSH-List\nSSH connection manager with a TUI interface.\n\n![demo gif](https://raw.githubusercontent.com/akinoiro/ssh-list/main/images/demo.gif)\n\nKey Features:\n- Add and edit connections\n- Rearrange and sort connections\n- Import hosts from ~/.ssh/config\n- Search and filter connections\n- Execute commands on remote hosts\n\nThis application does not modify your existing SSH configuration files. Host settings can be spread across multiple files referenced by Include directives (and between system and user configs), so automatic editing is unreliable.\n\nThis application does not store passwords. For secure authentication, use SSH keys.\n\n## Prerequisites\nYou must have an OpenSSH client installed on your system.\n## Install from GitHub Release\nDownload the latest binary from the [Releases page](https://github.com/akinoiro/ssh-list/releases).\n\n#### To run the `ssh-list` command from terminal:",
+    "ContentSha": "IJsL5Yw7Jxhxtis1kxaY22EhhX4ehGDzNN20vzTr/Ok=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# SSH-List\n带有TUI界面的SSH连接管理器。\n\n![demo gif](https://raw.githubusercontent.com/akinoiro/ssh-list/main/images/demo.gif)\n\n主要功能：\n- 添加和编辑连接\n- 重新排列和排序连接\n- 从 ~/.ssh/config 导入主机\n- 搜索和过滤连接\n- 在远程主机上执行命令\n\n此应用不会修改您现有的SSH配置文件。主机设置可能分散在多个由Include指令引用的文件中（以及系统和用户配置之间），因此自动编辑不可靠。\n\n此应用不存储密码。为实现安全认证，请使用SSH密钥。\n\n## 前提条件\n您必须在系统中安装OpenSSH客户端。\n## 从GitHub Release安装\n从[发行页面](https://github.com/akinoiro/ssh-list/releases)下载最新的二进制文件。\n\n#### 在终端运行 `ssh-list` 命令：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Jmxq4GpXuHy8k67hahXN0mjFozjWaDhkRgLdMSa+BSI=",
+        "originContent": "# SSH-List",
+        "translatedContent": "# SSH-List"
+      },
+      {
+        "row": 2,
+        "rowsha": "SYcmmkO0cVUcQ+/RFqI0sQAX+eQE5zRWNgmBrfXCLeg=",
+        "originContent": "SSH connection manager with a TUI interface.",
+        "translatedContent": "带有TUI界面的SSH连接管理器。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GtKQy3LhCnqK1h8Vh6cG81vj6u8bekEsGkZPzGPu0Gw=",
+        "originContent": "![demo gif](https://raw.githubusercontent.com/akinoiro/ssh-list/main/images/demo.gif)",
+        "translatedContent": "![demo gif](https://raw.githubusercontent.com/akinoiro/ssh-list/main/images/demo.gif)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "C0tKL3/KTgdsCO/MlfyL8OczmlbXdSdk/tAqg+p0Jlk=",
+        "originContent": "Key Features:",
+        "translatedContent": "主要功能："
+      },
+      {
+        "row": 7,
+        "rowsha": "gAz64ka3LdaKSWkFrgUfXaiAooCU8D5EPWG8y17b0jk=",
+        "originContent": "- Add and edit connections",
+        "translatedContent": "- 添加和编辑连接"
+      },
+      {
+        "row": 8,
+        "rowsha": "NifxhrRcxbXsDxqb828rvVPfwmn9REe6oW3V3Lqg1qg=",
+        "originContent": "- Rearrange and sort connections",
+        "translatedContent": "- 重新排列和排序连接"
+      },
+      {
+        "row": 9,
+        "rowsha": "eTA5QclJgE/aU+FgsO6DyRTTCczsId04pJJ+VgXqFgY=",
+        "originContent": "- Import hosts from ~/.ssh/config",
+        "translatedContent": "- 从 ~/.ssh/config 导入主机"
+      },
+      {
+        "row": 10,
+        "rowsha": "rY6F2Vgh5ZQ+mArSaIVcxh9C1aQlKSpcJklhcEi+RXw=",
+        "originContent": "- Search and filter connections",
+        "translatedContent": "- 搜索和过滤连接"
+      },
+      {
+        "row": 11,
+        "rowsha": "K2MWhs+H283BQLYpUaFSsumJW4GAB8JIvVHAx2mx8eY=",
+        "originContent": "- Execute commands on remote hosts",
+        "translatedContent": "- 在远程主机上执行命令"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "d7PIPLQhke8Tb5D9gzwAbOp5EpUQOyVxCBYvkoE1ucc=",
+        "originContent": "This application does not modify your existing SSH configuration files. Host settings can be spread across multiple files referenced by Include directives (and between system and user configs), so automatic editing is unreliable.",
+        "translatedContent": "此应用不会修改您现有的SSH配置文件。主机设置可能分散在多个由Include指令引用的文件中（以及系统和用户配置之间），因此自动编辑不可靠。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "CGWKjtcWnoE0UPSb4NJ37JrdRD76FpWpVHus6+T6mKg=",
+        "originContent": "This application does not store passwords. For secure authentication, use SSH keys.",
+        "translatedContent": "此应用不存储密码。为实现安全认证，请使用SSH密钥。"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": "## 前提条件"
+      },
+      {
+        "row": 18,
+        "rowsha": "c/PiWpzDznbP7bl4KqRfEpdgXSqRwGugEtn4zDJrFDg=",
+        "originContent": "You must have an OpenSSH client installed on your system.",
+        "translatedContent": "您必须在系统中安装OpenSSH客户端。"
+      },
+      {
+        "row": 19,
+        "rowsha": "XcPnp8xp6cbLDP57oUx62caqybFqI4THclHKlbGr9gU=",
+        "originContent": "## Install from GitHub Release",
+        "translatedContent": "## 从GitHub Release安装"
+      },
+      {
+        "row": 20,
+        "rowsha": "ncPWuSHuFkUAYU3H+XSvf5U7nc+A5cA1RIrBNqCV5XI=",
+        "originContent": "Download the latest binary from the [Releases page](https://github.com/akinoiro/ssh-list/releases).",
+        "translatedContent": "从[发行页面](https://github.com/akinoiro/ssh-list/releases)下载最新的二进制文件。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "pMN2WZP68aXV+YTKzXytAHOZAh+ShfXS4Wat1yuUUnY=",
+        "originContent": "#### To run the `ssh-list` command from terminal:",
+        "translatedContent": "#### 在终端运行 `ssh-list` 命令："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n# Make the binary executable\nchmod +x ssh-list\n# Move it to a directory in your PATH\nsudo mv ssh-list /usr/local/bin/\n```",
+    "ContentSha": "JHdPvXzMhlZ1kABZcnYN0j5yDJFesnA/fZSKJWYU5pM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n# Make the binary executable\nchmod +x ssh-list\n# Move it to a directory in your PATH\nsudo mv ssh-list /usr/local/bin/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "LPWQJpFTQ8CTsyNAVEaSRwaJsrlCvrXD0iZp6XUhR3M=",
+        "originContent": "# Make the binary executable",
+        "translatedContent": "# Make the binary executable"
+      },
+      {
+        "row": 3,
+        "rowsha": "oWDG55PNwBjyTEpRCDFgHCaBl/V9ZMqlyrptnFhzxqE=",
+        "originContent": "chmod +x ssh-list",
+        "translatedContent": "chmod +x ssh-list"
+      },
+      {
+        "row": 4,
+        "rowsha": "YbECDg5FDEeVktjd+YnlPTmDEwMFZo//VQrHHtQb67Q=",
+        "originContent": "# Move it to a directory in your PATH",
+        "translatedContent": "# Move it to a directory in your PATH"
+      },
+      {
+        "row": 5,
+        "rowsha": "Fg+dM9FgKU2vTa7zyWdsJ2qCCyrefAtbnd6i2oRT214=",
+        "originContent": "sudo mv ssh-list /usr/local/bin/",
+        "translatedContent": "sudo mv ssh-list /usr/local/bin/"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Install from crates.io",
+    "ContentSha": "6JkyFBykuklSnlt75fwVVGmG6O00zfYs34W8D35H4W4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 从 crates.io 安装\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 从 crates.io 安装"
+      },
+      {
+        "row": 2,
+        "rowsha": "dwUYzpsTF862x9cXiL/i3UNw+5Qy+1cDjH92jMjSh2k=",
+        "originContent": "## Install from crates.io",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\ncargo install ssh-list\n```",
+    "ContentSha": "eumrVcS1xpuZJ3gDfQfrkCN1/nUZZdYwv1yhNk0Yb3Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncargo install ssh-list\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "pL7w+0dN6046Dx/2sB94dbyH/LEqsb6eme0L7yuDS1I=",
+        "originContent": "cargo install ssh-list",
+        "translatedContent": "cargo install ssh-list"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "## Install from AUR (Arch Linux)",
+    "ContentSha": "2MZz8FvgFDml81Ahx1OM9j0WJKxU48XX4S910XVltqw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 从 AUR 安装（Arch Linux）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "2MZz8FvgFDml81Ahx1OM9j0WJKxU48XX4S910XVltqw=",
+        "originContent": "## Install from AUR (Arch Linux)",
+        "translatedContent": "## 从 AUR 安装（Arch Linux）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\nparu -S ssh-list\n```",
+    "ContentSha": "QowvsFou+4810SKwzvXRmuvp2cqtLxRSn8uYKjujPA8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nparu -S ssh-list\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "0SZ0DW3tu1gT2qiWi34mlZeFqmLRgF/Mk/EmVU+NivQ=",
+        "originContent": "paru -S ssh-list",
+        "translatedContent": "paru -S ssh-list"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "## Install from PPA (Ubuntu, Linux Mint)",
+    "ContentSha": "75mQuMWXIO7hvCeCTXueEMJzF8G+GRR4WeVxv1ISFxI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 从PPA安装（Ubuntu，Linux Mint）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "75mQuMWXIO7hvCeCTXueEMJzF8G+GRR4WeVxv1ISFxI=",
+        "originContent": "## Install from PPA (Ubuntu, Linux Mint)",
+        "translatedContent": "## 从PPA安装（Ubuntu，Linux Mint）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nsudo add-apt-repository ppa:akinoiro/ssh-list\nsudo apt update\nsudo apt install ssh-list\n```",
+    "ContentSha": "5CrWJYg61pnJo5DcerWMoQnghdN0f6EEKCsn0VzCAko=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nsudo add-apt-repository ppa:akinoiro/ssh-list\nsudo apt update\nsudo apt install ssh-list\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "Hlpo21pC1fSaktxgUhx8qIc7qzcgfpdyn57e02v4RFE=",
+        "originContent": "sudo add-apt-repository ppa:akinoiro/ssh-list",
+        "translatedContent": "sudo add-apt-repository ppa:akinoiro/ssh-list"
+      },
+      {
+        "row": 3,
+        "rowsha": "vsYfDMWqUGKl0v9rj6v4u69Jc+N5Z5zxQIom0T0+4Mo=",
+        "originContent": "sudo apt update",
+        "translatedContent": "sudo apt update"
+      },
+      {
+        "row": 4,
+        "rowsha": "bgzR67dZos3YmrGjOqYhLyxiNcTZP5uvKWgEBgDoZOc=",
+        "originContent": "sudo apt install ssh-list",
+        "translatedContent": "sudo apt install ssh-list"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "## Install from Homebrew (macOS, Linux)",
+    "ContentSha": "Lss96xxu42JMGd3IXVCHFr6t+hQitdrNu02ncNeMY94=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 通过 Homebrew 安装（macOS，Linux）",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Lss96xxu42JMGd3IXVCHFr6t+hQitdrNu02ncNeMY94=",
+        "originContent": "## Install from Homebrew (macOS, Linux)",
+        "translatedContent": "## 通过 Homebrew 安装（macOS，Linux）"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\nbrew tap akinoiro/tap\nbrew install ssh-list\n```",
+    "ContentSha": "sWSdqd0D/qjUWWiqqnR7kdRbrr20n0ascoPVkAH8WAc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nbrew tap akinoiro/tap\nbrew install ssh-list\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "3drjLlVFL7b04GTHbhP8Qlbgu9SirOgMxx6xt66ST+o=",
+        "originContent": "brew tap akinoiro/tap",
+        "translatedContent": "brew tap akinoiro/tap"
+      },
+      {
+        "row": 3,
+        "rowsha": "693naxcEDVTHAmkDUxD3m86yk0TWZZFoYg0gadI9Qcg=",
+        "originContent": "brew install ssh-list",
+        "translatedContent": "brew install ssh-list"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "## Build from source\nYou will need Rust and Cargo installed.",
+    "ContentSha": "tASXgtQvYpPgfA8OtfCKVCIJtW814Sn+lnpC/FT8c6Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 从源码构建\n您需要安装 Rust 和 Cargo。",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VuGIuEpfgyqbJQhqJA1HcbWrpmKxwU5U6IKzzxQrHTI=",
+        "originContent": "## Build from source",
+        "translatedContent": "## 从源码构建"
+      },
+      {
+        "row": 2,
+        "rowsha": "NIAAFLjXbZgkvtktstdaJdsBOTy8D94OIjd0lWjTaTs=",
+        "originContent": "You will need Rust and Cargo installed.",
+        "translatedContent": "您需要安装 Rust 和 Cargo。"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\ngit clone https://github.com/akinoiro/ssh-list\ncd ssh-list\ncargo build --release\n```",
+    "ContentSha": "abQOAOms2WvG7ph19mLN7vPuf2RG4H9IO/75cWONdFI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ngit clone https://github.com/akinoiro/ssh-list\ncd ssh-list\ncargo build --release\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "QrrzQynpp3yWsJT/naZMgi8RCxQHxxNBbdHx8PEEsKY=",
+        "originContent": "git clone https://github.com/akinoiro/ssh-list",
+        "translatedContent": "git clone https://github.com/akinoiro/ssh-list"
+      },
+      {
+        "row": 3,
+        "rowsha": "OrEDlFAlEBVSVpjwmke13HigEfh4rXoTOH6nBCtaat4=",
+        "originContent": "cd ssh-list",
+        "translatedContent": "cd ssh-list"
+      },
+      {
+        "row": 4,
+        "rowsha": "QbRskjoJo1EyPe3xomSnbIj+llmIagYeZojksq7EuPs=",
+        "originContent": "cargo build --release",
+        "translatedContent": "cargo build --release"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "The binary will be located at target/release/\n## Configuration files\nssh-list automatically creates files to store your connections:",
+    "ContentSha": "hy6lr7FRFg5FRxKW6hwWXjNQNbBTyhNu7fq39aAtu9s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "二进制文件将位于 target/release/  \n## 配置文件  \nssh-list 会自动创建文件来存储您的连接：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "1QkUG8OOWSrIpZ+5sU+MRs8xzBNcnEA+wCDehHmI0sc=",
+        "originContent": "The binary will be located at target/release/",
+        "translatedContent": "二进制文件将位于 target/release/  "
+      },
+      {
+        "row": 2,
+        "rowsha": "41JdOqphTj91Hp9x7TAV9WbCqgfquQhtooXjhu61ddU=",
+        "originContent": "## Configuration files",
+        "translatedContent": "## 配置文件  "
+      },
+      {
+        "row": 3,
+        "rowsha": "rCC4hbCiN5FiZyZ4Asu4TJ3uMeoa4F13GXO9+7Fd/Iw=",
+        "originContent": "ssh-list automatically creates files to store your connections:",
+        "translatedContent": "ssh-list 会自动创建文件来存储您的连接："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```\n~/.ssh/ssh-list.json\n```",
+    "ContentSha": "NOow1Cdtnv+9ialv+l/j3+450kUxXrDK7/OaQ3bXigE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n~/.ssh/ssh-list.json\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "OSqhm3j4C7D4AA3h42Cr0ViuxZZcnwk5CRT+EO8mINU=",
+        "originContent": "~/.ssh/ssh-list.json",
+        "translatedContent": "~/.ssh/ssh-list.json"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "and application settings:",
+    "ContentSha": "flMD4m2gHnUNm2D3QV9x3AZ6NFMv3dvArGCbRB8hi4w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "以及应用程序设置：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "flMD4m2gHnUNm2D3QV9x3AZ6NFMv3dvArGCbRB8hi4w=",
+        "originContent": "and application settings:",
+        "translatedContent": "以及应用程序设置："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```\n~/.ssh/ssh-list_config.toml\n```",
+    "ContentSha": "sLyrYcmlDJakSeAGxQ+/SjJKXGEnV7JntJTHS9vCGQ0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n~/.ssh/ssh-list_config.toml\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "pvnUQq2+gyzD/Pi3nbY0KvMpph5IAUGFlz0ZBsLkdS0=",
+        "originContent": "~/.ssh/ssh-list_config.toml",
+        "translatedContent": "~/.ssh/ssh-list_config.toml"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "## Appearance customization\n\n![demo settingsgif](https://raw.githubusercontent.com/akinoiro/ssh-list/main/images/demo_settings.gif)\n",
+    "ContentSha": "sv8m6819X/Z1SL5r2XxI6rigrb2bWH+XwfBifUI+QFg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Appearance customization\n\n![demo settingsgif](https://raw.githubusercontent.com/akinoiro/ssh-list/main/images/demo_settings.gif)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "l4m3AnzBAV/70iWDAA/dOzwOphibvODuQbWMPf5TyEY=",
+        "originContent": "## Appearance customization",
+        "translatedContent": "## Appearance customization"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "6AJ+hQJEjC6fnx6ZuNNDPh6zfooCAe//BnhK8Qelp3I=",
+        "originContent": "![demo settingsgif](https://raw.githubusercontent.com/akinoiro/ssh-list/main/images/demo_settings.gif)",
+        "translatedContent": "![demo settingsgif](https://raw.githubusercontent.com/akinoiro/ssh-list/main/images/demo_settings.gif)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

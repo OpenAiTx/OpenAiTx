@@ -1,0 +1,1065 @@
+[
+  {
+    "Id": 1,
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=as\">অসমীয়া</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# Uni-Pagination 分页框架\n\nUni Pagination 是一个基于 Java 的通用分页框架，它通过抽象化的设计，为不同数据源提供统一的分页查询接口。框架采用模块化架构，现目前集成 JDBC、Mybatis、MongoDB、Elasticsearch 等多种数据源，并提供了灵活的扩展机制。\n\n## 核心设计\n\n框架的核心设计围绕四个关键组件展开：\n",
+    "ContentSha": "3NWbe3WQ6+ScE6WBh4s+aTplGwtaRB4IUeeQYU0eEPI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=as\">অসমীয়া</a>\n      </div>\n    </div>\n  </details>\n</div>\n\n# Uni-Pagination 分頁フレームワーク\n\nUni Pagination は Java ベースの汎用ページネーションフレームワークであり、抽象化設計により異なるデータソースに統一されたページネーションクエリインターフェースを提供します。フレームワークはモジュール化アーキテクチャを採用し、現在 JDBC、Mybatis、MongoDB、Elasticsearch など複数のデータソースを統合し、柔軟な拡張機構も提供しています。\n\n## コア設計\n\nフレームワークのコア設計は4つの主要コンポーネントを中心に展開しています：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "    <summary >🌐 Language</summary>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=en\">English</a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "DKezm+v4NWE0rcL02JJAdhBwNBsH+l2Ki6ZDUthqwH8=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=en\">English</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "F0MlqJBEVPKajUP155OapWM6nazWRX9OHz3XUeuG/e8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "x0+PCusG+tZXoD1wyvVPbfha7BptvBb7lB0GfbZUfMg=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "9KktHP4oqK7kycaS3VZcs2WeUCBejsen2ZspMZtcd8g=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "mcV8rBrGG05IL2u6j5yeGiPMVRHnyH4dmPkJwTpQKTA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "8Eq1O+pkYhn5KrzVCmEx+rhAgESMoEtKz3ATdL5uX5c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "QZOjl1hc9mf2H45wABkTMdlA+DKRpIO6Z9iO/VuDpJc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=fr\">Français</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "9+zvn4TZqytt2GC934BdrQtpWNOL3n5bUNXg9HIIY8E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "yO6Y/Kxz5AaQGjvzBZ52znyTOq4j4zEyMjXEYP8WsYc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=es\">Español</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "Vjrwjbws8jzyoUTFdbbkqatY0A9kqj9USrtZ5AMydGM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "z0lkIog/ansG972WruWuRLzl29rsS2WXIZMWV+dT3lk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "2Duyij/mGlSwMjKEWYEj/v+K5i/sKy8rvabloeW9cBQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=pt\">Português</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "sm15zF/zlnnwMX8fEuFuo6pndK7pUezDpb96VbmzwJE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "mDzf8h6PK1TUhJrAUKbphueC0DkNYJwlMPFQhuNi9Ok=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "nTekNihWxJAFYfqf3lvYSUFkE1HbTjfMW7TUxTpYJa8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "pOMNYFRDH8dYFqDvvmQm9vLYHQLTLnnw26Fd39YM5Ug=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "y63Rw+vm5IKj8mdcWBamGmxseEqYNtSsRLkrTYIec0E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "HOib+tBrmDwScJTfzV55wVIJ8O8reptNMp6rHscMFtc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "5o5UwbX2AhYc2v1FkSbS0YQk7UtJM/IX8CmIMKHzG3M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "TmFS/URV17xPImywTBZpr99yvfiBIEv5SCrmYt8Yf9c=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=as\">অসমীয়া</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "uDQw1GZkeaI0166AlSSZ8YfwTq2Ny4kXkOMWoQAYPhM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=taoganio&project=uni-pagination&lang=as\">অসমীয়া</a>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# Uni-Pagination 分頁フレームワーク"
+      },
+      {
+        "row": 33,
+        "rowsha": "VFuXRG6ruxI/3gscquQ47ZThwt/6Txhi/Z7kDouaFoU=",
+        "originContent": "# Uni-Pagination 分页框架",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Uni Pagination は Java ベースの汎用ページネーションフレームワークであり、抽象化設計により異なるデータソースに統一されたページネーションクエリインターフェースを提供します。フレームワークはモジュール化アーキテクチャを採用し、現在 JDBC、Mybatis、MongoDB、Elasticsearch など複数のデータソースを統合し、柔軟な拡張機構も提供しています。"
+      },
+      {
+        "row": 35,
+        "rowsha": "kepY6V25Hf+w/sfV4Z954939b+YDkh7JEhEelxRI11E=",
+        "originContent": "Uni Pagination 是一个基于 Java 的通用分页框架，它通过抽象化的设计，为不同数据源提供统一的分页查询接口。框架采用模块化架构，现目前集成 JDBC、Mybatis、MongoDB、Elasticsearch 等多种数据源，并提供了灵活的扩展机制。",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## コア設計"
+      },
+      {
+        "row": 37,
+        "rowsha": "XtuXW5YKp67G8IVe50Txvv6lRy8ZbhUsfShlXISTwds=",
+        "originContent": "## 核心设计",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "フレームワークのコア設計は4つの主要コンポーネントを中心に展開しています："
+      },
+      {
+        "row": 39,
+        "rowsha": "WkiLwIei54Bii4pjpdQJW38Bc1D7RWsOjJOJKn0ByiI=",
+        "originContent": "框架的核心设计围绕四个关键组件展开：",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "1. **分页语句（PaginationStatement）**\n    - 支持任意语言的分页查询语句定义\n    - 提供统一的分页参数接口\n    - 允许自定义分页逻辑\n\n2. **分页执行器（PaginationStatementExecutor）**\n    - 负责执行分页查询语句\n    - 提供分页信息查询功能\n    - 可扩展的执行器机制\n\n3. **分页结果集（PaginationResultSet）**\n    - 统一的结果集接口\n    - 支持按列名和索引访问数据\n    - 提供类型转换功能\n    - 类似 JDBC ResultSet 的设计\n\n4. **结果集处理器（PaginationResultSetHandler）**\n    - 支持自定义结果集转换\n    - 提供对象映射功能\n\n\n## 设计目标\n\n1. **统一性**\n    - 提供统一的分页查询接口\n    - 屏蔽不同数据源的实现差异\n    - 简化分页查询的使用方式\n\n2. **灵活性**\n    - 支持自定义分页语句\n    - 允许扩展执行器\n    - 提供丰富的结果集处理方式\n\n3. **可扩展性**\n    - 模块化设计\n    - 支持新数据源的快速接入\n    - 提供扩展点机制\n\n4. **易用性**\n    - 简单直观的 API",
+    "ContentSha": "blK6macUf6Sd8p9abJR1ph5rVS4DVuDz9HSKXGDJfbk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "1. **分页文（PaginationStatement）**\n    - 任意言語のページネーションクエリ文の定義をサポート\n    - 統一されたページネーションパラメータインターフェースを提供\n    - カスタムページネーションロジックを許可\n\n2. **ページネーション実行器（PaginationStatementExecutor）**\n    - ページネーションクエリ文の実行を担当\n    - ページネーション情報の照会機能を提供\n    - 拡張可能な実行器メカニズム\n\n3. **ページネーション結果セット（PaginationResultSet）**\n    - 統一された結果セットインターフェース\n    - 列名およびインデックスによるデータアクセスをサポート\n    - 型変換機能を提供\n    - JDBC ResultSet に類似した設計\n\n4. **結果セットハンドラ（PaginationResultSetHandler）**\n    - カスタム結果セット変換をサポート\n    - オブジェクトマッピング機能を提供\n\n\n## 設計目標\n\n1. **統一性**\n    - 統一されたページネーションクエリインターフェースを提供\n    - 異なるデータソースの実装差異を隠蔽\n    - ページネーションクエリの使用方法を簡素化\n\n2. **柔軟性**\n    - カスタムページネーション文をサポート\n    - 実行器の拡張を許可\n    - 豊富な結果セット処理方法を提供\n\n3. **拡張性**\n    - モジュール化設計\n    - 新データソースの迅速な接続をサポート\n    - 拡張ポイントメカニズムを提供\n\n4. **使いやすさ**\n    - シンプルで直感的な API",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pvy5tSFVAQ012aua6DfXypONt6pQpjISwbNJZ+0ByaM=",
+        "originContent": "1. **分页语句（PaginationStatement）**",
+        "translatedContent": "1. **分页文（PaginationStatement）**"
+      },
+      {
+        "row": 2,
+        "rowsha": "eRGsxQbRDduE7i6Pv5imMDrWsEodFP8dMcpISdise68=",
+        "originContent": "    - 支持任意语言的分页查询语句定义",
+        "translatedContent": "    - 任意言語のページネーションクエリ文の定義をサポート"
+      },
+      {
+        "row": 3,
+        "rowsha": "9Cyojgvq+Nn4hl/pok5EW7BhdJhu7HTeJw0x+gTdaNk=",
+        "originContent": "    - 提供统一的分页参数接口",
+        "translatedContent": "    - 統一されたページネーションパラメータインターフェースを提供"
+      },
+      {
+        "row": 4,
+        "rowsha": "Wd1nKMYGKyZgcN3nMmg8e6s5R0o6e3LQUYdLgQRwok8=",
+        "originContent": "    - 允许自定义分页逻辑",
+        "translatedContent": "    - カスタムページネーションロジックを許可"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "L6SVe0h5q2jOHurz6AogSy7sXfhdWkc48tj4Fzz2NtA=",
+        "originContent": "2. **分页执行器（PaginationStatementExecutor）**",
+        "translatedContent": "2. **ページネーション実行器（PaginationStatementExecutor）**"
+      },
+      {
+        "row": 7,
+        "rowsha": "1TDe7IzGizKQdnHkKZqnzlBHw3nhb4ZOOrYl2/FnMgs=",
+        "originContent": "    - 负责执行分页查询语句",
+        "translatedContent": "    - ページネーションクエリ文の実行を担当"
+      },
+      {
+        "row": 8,
+        "rowsha": "8Wvq7TfJKClCotEdVUx+L7OubdjynrB88YTSj2MzbFw=",
+        "originContent": "    - 提供分页信息查询功能",
+        "translatedContent": "    - ページネーション情報の照会機能を提供"
+      },
+      {
+        "row": 9,
+        "rowsha": "DGSyDUHPqhQFShKyKXRKOP6/XNcPCoNnrsuMtd+OiY8=",
+        "originContent": "    - 可扩展的执行器机制",
+        "translatedContent": "    - 拡張可能な実行器メカニズム"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "hpwhtzwZWiLne0l2W3Upz9+dePE+24+1dPZaFmvxRt8=",
+        "originContent": "3. **分页结果集（PaginationResultSet）**",
+        "translatedContent": "3. **ページネーション結果セット（PaginationResultSet）**"
+      },
+      {
+        "row": 12,
+        "rowsha": "FeLTiDlPEx0CeCrWjRWMBW+yLxLQlUpSQ9zNJb6Iop4=",
+        "originContent": "    - 统一的结果集接口",
+        "translatedContent": "    - 統一された結果セットインターフェース"
+      },
+      {
+        "row": 13,
+        "rowsha": "Kfaovzvae4sNXl8/5rw8x275nu5zlqC6kkO0PiJzJbo=",
+        "originContent": "    - 支持按列名和索引访问数据",
+        "translatedContent": "    - 列名およびインデックスによるデータアクセスをサポート"
+      },
+      {
+        "row": 14,
+        "rowsha": "nfh9bgNP/36xqI4oPeviiWJ4wf4AGxLJygjBzA8yu0E=",
+        "originContent": "    - 提供类型转换功能",
+        "translatedContent": "    - 型変換機能を提供"
+      },
+      {
+        "row": 15,
+        "rowsha": "3UZmaEkW7lKB1dxFTMy0kI+mL04BN6q63evF0MpYiiM=",
+        "originContent": "    - 类似 JDBC ResultSet 的设计",
+        "translatedContent": "    - JDBC ResultSet に類似した設計"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "mwF6Lvz3u/gnNmr2pSyW7AZZEwo7QbXq0JafOTb+E6w=",
+        "originContent": "4. **结果集处理器（PaginationResultSetHandler）**",
+        "translatedContent": "4. **結果セットハンドラ（PaginationResultSetHandler）**"
+      },
+      {
+        "row": 18,
+        "rowsha": "Y4ZEjhjvdHBTS14xsWyav2X9IVFN5i00KFA8PeUOEYQ=",
+        "originContent": "    - 支持自定义结果集转换",
+        "translatedContent": "    - カスタム結果セット変換をサポート"
+      },
+      {
+        "row": 19,
+        "rowsha": "Aj5+pU6vuPQYvS0x3lW731kxA6csTrwVA0kQbWEvu9I=",
+        "originContent": "    - 提供对象映射功能",
+        "translatedContent": "    - オブジェクトマッピング機能を提供"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "YX9ccta0Dr/DjMhua1WK8pcWhN1bHOGJSy4FvT/cwqM=",
+        "originContent": "## 设计目标",
+        "translatedContent": "## 設計目標"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "9nmjKIywiuR5B4Kg1eUAtPht1+jegOkdHBNcbbHeT+w=",
+        "originContent": "1. **统一性**",
+        "translatedContent": "1. **統一性**"
+      },
+      {
+        "row": 25,
+        "rowsha": "yxPg06+b6g2EOF8P9SGxfk5V4O56tA6mUx0uUTDlzxw=",
+        "originContent": "    - 提供统一的分页查询接口",
+        "translatedContent": "    - 統一されたページネーションクエリインターフェースを提供"
+      },
+      {
+        "row": 26,
+        "rowsha": "zmZNG9RBIPlBL2D7sUAmRU9tIX4JRk6L8j0ls/Wgy4s=",
+        "originContent": "    - 屏蔽不同数据源的实现差异",
+        "translatedContent": "    - 異なるデータソースの実装差異を隠蔽"
+      },
+      {
+        "row": 27,
+        "rowsha": "svW8A5yS620Wuk9xpeWSn4UW1KPPQ0ZAiPWr081rtf8=",
+        "originContent": "    - 简化分页查询的使用方式",
+        "translatedContent": "    - ページネーションクエリの使用方法を簡素化"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "xgeE7ofRz9eN5JWUE2yNkOJFOpr9rCCDTnIFJQ3pTTA=",
+        "originContent": "2. **灵活性**",
+        "translatedContent": "2. **柔軟性**"
+      },
+      {
+        "row": 30,
+        "rowsha": "4bfyQUqvCYfHNGuVFcOVzd3r/2sJ/fGnrzA7nMet+jA=",
+        "originContent": "    - 支持自定义分页语句",
+        "translatedContent": "    - カスタムページネーション文をサポート"
+      },
+      {
+        "row": 31,
+        "rowsha": "RxUHrWtDt76Uen0PM7tr16eP0R7Hm29Qael1HNY0sVc=",
+        "originContent": "    - 允许扩展执行器",
+        "translatedContent": "    - 実行器の拡張を許可"
+      },
+      {
+        "row": 32,
+        "rowsha": "aFJ09CQNj+X6zSN/WoiZgqUIuqFsMHw0OkMPBfpgqR4=",
+        "originContent": "    - 提供丰富的结果集处理方式",
+        "translatedContent": "    - 豊富な結果セット処理方法を提供"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Mdek2ipPuQwkOlEFNEDZEALMjKxuj4EspZzk/tinHoA=",
+        "originContent": "3. **可扩展性**",
+        "translatedContent": "3. **拡張性**"
+      },
+      {
+        "row": 35,
+        "rowsha": "off1/UZ9Cbpr1ZzP2HTvL/xIo2uAQiVuEFKRYa3KfnY=",
+        "originContent": "    - 模块化设计",
+        "translatedContent": "    - モジュール化設計"
+      },
+      {
+        "row": 36,
+        "rowsha": "Hvj/qKGV6exKYIL8o93IQDPrkgem5DGUV9GHG5IeiGs=",
+        "originContent": "    - 支持新数据源的快速接入",
+        "translatedContent": "    - 新データソースの迅速な接続をサポート"
+      },
+      {
+        "row": 37,
+        "rowsha": "2kH/E47eRdne7LlSRLL1bkJXqf3OxpFVO2g+cNcVLpg=",
+        "originContent": "    - 提供扩展点机制",
+        "translatedContent": "    - 拡張ポイントメカニズムを提供"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "tRRVvWZBRTLLbmT+/6n1LRUGnJl4yi04ldgESqV83T4=",
+        "originContent": "4. **易用性**",
+        "translatedContent": "4. **使いやすさ**"
+      },
+      {
+        "row": 40,
+        "rowsha": "Qp9p9ok6DGus4cdRZ5thNw8fp/o+tqJuZexHaZ9cM/c=",
+        "originContent": "    - 简单直观的 API",
+        "translatedContent": "    - シンプルで直感的な API"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "    - 完善的类型转换\n    - 丰富的工具类支持\n## 适用场景\n\n- 需要统一管理多个数据源分页查询的项目\n- 需要支持多种数据源分页的企业级应用\n\n## 核心模块\n\n### [uni-pagination](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination)\n核心分页库，提供基础的分页接口和抽象实现。\n\n### [uni-pagination-jdbc](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination-jdbc)\nJDBC 数据源支持模块，提供基于 JDBC 的分页实现。\n\n### [uni-pagination-jdbc-mybatis](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination-mybatis)\nMyBatis 集成模块，提供与 MyBatis 框架的集成支持。\n\n### [uni-pagination-mongodb](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination-mongodb)\nMongoDB 集成组件，用于支持 MongoDB 的分页查询。\n\n### [spring-boot-starter-web-uni-pagination](https://github.com/taoganio/uni-pagination/tree/main/spring-boot-starter-web-uni-pagination)\nSpring MVC 环境下的分页支持模块，提供与 Spring MVC 的集成支持，就像编写普通的控制器一样简单。\n- 分页参数自动绑定\n- 分页结果自动转换\n\n### [web-uni-pagination-test](https://github.com/taoganio/uni-pagination/tree/main/web-uni-pagination-test)\nSpring Boot Web 环境下的分页测试模块，提供分页功能的集成测试。\n\n\n## 快速开始, 以uni-pagination-jdbc为例\n\n### Maven 依赖\n",
+    "ContentSha": "QyvYOq9tKzg+t4KHUNLcnphnebo0ZP1Hq9TUTHQbrTg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    - 完璧な型変換\n    - 豊富なユーティリティクラスのサポート\n## 適用シーン\n\n- 複数のデータソースのページングクエリを統一管理する必要があるプロジェクト\n- 複数のデータソースのページングをサポートするエンタープライズアプリケーション\n\n## コアモジュール\n\n### [uni-pagination](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination)\nコアページングライブラリで、基本的なページングインターフェースと抽象実装を提供。\n\n### [uni-pagination-jdbc](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination-jdbc)\nJDBCデータソースサポートモジュールで、JDBCベースのページング実装を提供。\n\n### [uni-pagination-jdbc-mybatis](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination-mybatis)\nMyBatis統合モジュールで、MyBatisフレームワークとの統合サポートを提供。\n\n### [uni-pagination-mongodb](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination-mongodb)\nMongoDB統合コンポーネントで、MongoDBのページングクエリをサポート。\n\n### [spring-boot-starter-web-uni-pagination](https://github.com/taoganio/uni-pagination/tree/main/spring-boot-starter-web-uni-pagination)\nSpring MVC環境下のページングサポートモジュールで、Spring MVCとの統合サポートを提供し、通常のコントローラーを作成するのと同じくらい簡単。\n- ページングパラメータの自動バインド\n- ページング結果の自動変換\n\n### [web-uni-pagination-test](https://github.com/taoganio/uni-pagination/tree/main/web-uni-pagination-test)\nSpring Boot Web環境下のページングテストモジュールで、ページング機能の統合テストを提供。\n\n\n## クイックスタート、uni-pagination-jdbcを例に\n\n### Maven依存関係\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rGrhfFEr/TzU1W+LT4zm+CgTPR7NiQt39STJLlTDM74=",
+        "originContent": "    - 完善的类型转换",
+        "translatedContent": "    - 完璧な型変換"
+      },
+      {
+        "row": 2,
+        "rowsha": "1ga8VZvH+0GTdUKry/sVTOsBOaGH5df1sBcBTUwblR4=",
+        "originContent": "    - 丰富的工具类支持",
+        "translatedContent": "    - 豊富なユーティリティクラスのサポート"
+      },
+      {
+        "row": 3,
+        "rowsha": "wL5RZPEgXn9dF7sF9oT4bkNeCvLza3lL2o+/IQHpcD4=",
+        "originContent": "## 适用场景",
+        "translatedContent": "## 適用シーン"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "QGtw4bT7xuMNjCEWAWAXw9PhouqW7k1rovqN1cgbKDc=",
+        "originContent": "- 需要统一管理多个数据源分页查询的项目",
+        "translatedContent": "- 複数のデータソースのページングクエリを統一管理する必要があるプロジェクト"
+      },
+      {
+        "row": 6,
+        "rowsha": "WK1jN7p5V1fqFgBAZuDYwDzMnVA4nWvX61GRAm1rGys=",
+        "originContent": "- 需要支持多种数据源分页的企业级应用",
+        "translatedContent": "- 複数のデータソースのページングをサポートするエンタープライズアプリケーション"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "JUGksglLz8Tld4CMvlCwv+JlA4nUGKozoEmEkQhFWNo=",
+        "originContent": "## 核心模块",
+        "translatedContent": "## コアモジュール"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "25QzISO5TETfbhfhZX1Khhpqj8FnTP5di+wF2BlbG70=",
+        "originContent": "### [uni-pagination](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination)",
+        "translatedContent": "### [uni-pagination](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination)"
+      },
+      {
+        "row": 11,
+        "rowsha": "BGzs6mKcwl7fZ5XzFXWBeolwQ8WHhSLxy7mQpxQFM4A=",
+        "originContent": "核心分页库，提供基础的分页接口和抽象实现。",
+        "translatedContent": "コアページングライブラリで、基本的なページングインターフェースと抽象実装を提供。"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "P5ngscgSxCiQRkRjL69P+gORd+mjy8rj36X2w8tdw2E=",
+        "originContent": "### [uni-pagination-jdbc](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination-jdbc)",
+        "translatedContent": "### [uni-pagination-jdbc](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination-jdbc)"
+      },
+      {
+        "row": 14,
+        "rowsha": "yh2Fud6Ljcnr4iaAVkMO5bY8CM5+4S6OY0DpRYfsU/I=",
+        "originContent": "JDBC 数据源支持模块，提供基于 JDBC 的分页实现。",
+        "translatedContent": "JDBCデータソースサポートモジュールで、JDBCベースのページング実装を提供。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "2ULiApNqGben1DmCf0qIN7tDBLO2foTr8kPlpBsSdtk=",
+        "originContent": "### [uni-pagination-jdbc-mybatis](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination-mybatis)",
+        "translatedContent": "### [uni-pagination-jdbc-mybatis](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination-mybatis)"
+      },
+      {
+        "row": 17,
+        "rowsha": "BS/2O1qATcxGBvzFnaqUD/vMGh7o7MZBql7G6AfEaxQ=",
+        "originContent": "MyBatis 集成模块，提供与 MyBatis 框架的集成支持。",
+        "translatedContent": "MyBatis統合モジュールで、MyBatisフレームワークとの統合サポートを提供。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "9oT89ElyypcSmHT6LoLaTELR2DYFRiFEPuFbi08AqC0=",
+        "originContent": "### [uni-pagination-mongodb](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination-mongodb)",
+        "translatedContent": "### [uni-pagination-mongodb](https://github.com/taoganio/uni-pagination/tree/main/uni-pagination-mongodb)"
+      },
+      {
+        "row": 20,
+        "rowsha": "JZmMW9jCzobNYacpaLXYz2QP1E33cPi82sTOx8GdSL8=",
+        "originContent": "MongoDB 集成组件，用于支持 MongoDB 的分页查询。",
+        "translatedContent": "MongoDB統合コンポーネントで、MongoDBのページングクエリをサポート。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "qsA1iOQcl9BPxA9a1LVP6Z+yjuqxGATR3+KzkaL24Hs=",
+        "originContent": "### [spring-boot-starter-web-uni-pagination](https://github.com/taoganio/uni-pagination/tree/main/spring-boot-starter-web-uni-pagination)",
+        "translatedContent": "### [spring-boot-starter-web-uni-pagination](https://github.com/taoganio/uni-pagination/tree/main/spring-boot-starter-web-uni-pagination)"
+      },
+      {
+        "row": 23,
+        "rowsha": "YnPKtncNRBzcP0AQMXMGh7eGfmkzT6SHiKnMploa4ak=",
+        "originContent": "Spring MVC 环境下的分页支持模块，提供与 Spring MVC 的集成支持，就像编写普通的控制器一样简单。",
+        "translatedContent": "Spring MVC環境下のページングサポートモジュールで、Spring MVCとの統合サポートを提供し、通常のコントローラーを作成するのと同じくらい簡単。"
+      },
+      {
+        "row": 24,
+        "rowsha": "sCzhfub8rEaP2duMrEDsJt4o8sqCsC61xqQz0+96cUA=",
+        "originContent": "- 分页参数自动绑定",
+        "translatedContent": "- ページングパラメータの自動バインド"
+      },
+      {
+        "row": 25,
+        "rowsha": "21Yz+jmASGeRUxWCFXBAa12rk2oZVXLQ4sBmmfJAB3I=",
+        "originContent": "- 分页结果自动转换",
+        "translatedContent": "- ページング結果の自動変換"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "NU0RgB0AvN+DMNvThVdA7qkjW94eWQdogATsQoI8EE0=",
+        "originContent": "### [web-uni-pagination-test](https://github.com/taoganio/uni-pagination/tree/main/web-uni-pagination-test)",
+        "translatedContent": "### [web-uni-pagination-test](https://github.com/taoganio/uni-pagination/tree/main/web-uni-pagination-test)"
+      },
+      {
+        "row": 28,
+        "rowsha": "RsHqBV/8kbJDzIiA5AoAXdKVLQ0y/vqa8dtY0ViEGw4=",
+        "originContent": "Spring Boot Web 环境下的分页测试模块，提供分页功能的集成测试。",
+        "translatedContent": "Spring Boot Web環境下のページングテストモジュールで、ページング機能の統合テストを提供。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "xyzMLNgEXw9FO0vT7mAymmwvZIoHelSAXzJ/3wKEFdU=",
+        "originContent": "## 快速开始, 以uni-pagination-jdbc为例",
+        "translatedContent": "## クイックスタート、uni-pagination-jdbcを例に"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "5ET1gjd6AdNLA4PHVrUwddtqTSkBRP5AO/sCEqCaslI=",
+        "originContent": "### Maven 依赖",
+        "translatedContent": "### Maven依存関係"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```xml\n<dependency>\n   <groupId>io.github.taoganio</groupId>\n   <artifactId>uni-pagination-jdbc</artifactId>\n   <version>1.0.0</version>\n</dependency>\n```",
+    "ContentSha": "KtodpbG82CSsk9BOBQoMnAYp4jU1QnwaI3ARsNmH7XY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```xml\n<dependency>\n   <groupId>io.github.taoganio</groupId>\n   <artifactId>uni-pagination-jdbc</artifactId>\n   <version>1.0.0</version>\n</dependency>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "t8tiRzaNtUnLbiIQGiHIAAk1ELMO6fTRRvBkkpFEsR4=",
+        "originContent": "```xml",
+        "translatedContent": "```xml"
+      },
+      {
+        "row": 2,
+        "rowsha": "v7nyWQMb1qauIPODGUlQbnSwfWPz/hjeIQkU9GturX8=",
+        "originContent": "<dependency>",
+        "translatedContent": "<dependency>"
+      },
+      {
+        "row": 3,
+        "rowsha": "7G2El3GD/pGObjSMWNhdSHOaVWTxvrgHoyAbQ9si7VY=",
+        "originContent": "   <groupId>io.github.taoganio</groupId>",
+        "translatedContent": "   <groupId>io.github.taoganio</groupId>"
+      },
+      {
+        "row": 4,
+        "rowsha": "oTLKivCbE3dCblbTu32yvGEgVqxlQumspLvOFzwnr1A=",
+        "originContent": "   <artifactId>uni-pagination-jdbc</artifactId>",
+        "translatedContent": "   <artifactId>uni-pagination-jdbc</artifactId>"
+      },
+      {
+        "row": 5,
+        "rowsha": "DkqWIjz6Vf9+huBSC8Y1gs6cUHU5ZTi72ajN3/GsXfE=",
+        "originContent": "   <version>1.0.0</version>",
+        "translatedContent": "   <version>1.0.0</version>"
+      },
+      {
+        "row": 6,
+        "rowsha": "xu7jPaG6V+TqDyDLNYPZdxZkaNxyWzP83/S8E74Pe4k=",
+        "originContent": "</dependency>",
+        "translatedContent": "</dependency>"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### 简单示例\n",
+    "ContentSha": "JI1uzGkItX38usFkGjpdoAksM+i4M7OBiH3S6OifzR4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 簡単な例\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "q76p1JENr8KzY5N7teFXCok5Y3E5PiBV92Ul0XXv1R8=",
+        "originContent": "### 简单示例",
+        "translatedContent": "### 簡単な例"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```java\npublic class PaginationTest {\n   \n    public void page() {\n        PaginationStatementTemplate operations = new PaginationStatementTemplate();\n        operations.addStatementExecutor(new Sql2oPaginationNamedParameterStatementExecutor(dataSource));\n        \n        // 1. 创建分页语句\n        PaginationStatement statement = of(b -> b\n                .sql(\"SELECT * FROM user WHERE username LIKE :username\")\n                .paramMap(\"username\", \"%admin%\")\n                .pageable(0, 10)\n                .sort(\"id\", Sort.Direction.DESC));\n        \n        // 2. 执行查询\n        PageInformation information = operations.queryForInformation(statement);\n        Page<User> page = operations.queryForResultSet(statement, new JdbcBeanPropertyPaginationRowMapper<>(User.class));\n    }\n\n    // User实体类\n    class User {\n        private Long id;\n        private String username;\n        // getters and setters\n    }\n}\n```",
+    "ContentSha": "lthkbSbjbqdZwaeFK1yb0xHoWEQouaYbgEYh5sCdgJQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```java\npublic class PaginationTest {\n   \n    public void page() {\n        PaginationStatementTemplate operations = new PaginationStatementTemplate();\n        operations.addStatementExecutor(new Sql2oPaginationNamedParameterStatementExecutor(dataSource));\n        \n        // 1. 创建分页语句\n        PaginationStatement statement = of(b -> b\n                .sql(\"SELECT * FROM user WHERE username LIKE :username\")\n                .paramMap(\"username\", \"%admin%\")\n                .pageable(0, 10)\n                .sort(\"id\", Sort.Direction.DESC));\n        \n        // 2. 执行查询\n        PageInformation information = operations.queryForInformation(statement);\n        Page<User> page = operations.queryForResultSet(statement, new JdbcBeanPropertyPaginationRowMapper<>(User.class));\n    }\n\n    // User实体类\n    class User {\n        private Long id;\n        private String username;\n        // getters and setters\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+        "originContent": "```java",
+        "translatedContent": "```java"
+      },
+      {
+        "row": 2,
+        "rowsha": "IihhXMvAEsrRtr8U8QGIhkFLkDu8vq52ky0enPkezRI=",
+        "originContent": "public class PaginationTest {",
+        "translatedContent": "public class PaginationTest {"
+      },
+      {
+        "row": 3,
+        "rowsha": "Cq19p30u1Zw5bJmnTknzpFJNzby1FjJRsUM9ZAJHrrQ=",
+        "originContent": "   ",
+        "translatedContent": "   "
+      },
+      {
+        "row": 4,
+        "rowsha": "6A0kPuPAuLHNEnEczta34IL9iaAiGSW5i6gavpdzSew=",
+        "originContent": "    public void page() {",
+        "translatedContent": "    public void page() {"
+      },
+      {
+        "row": 5,
+        "rowsha": "HKqKon+FcnaBKisoVYcm0+kbl3z0paFkYuHjVQ0ij/o=",
+        "originContent": "        PaginationStatementTemplate operations = new PaginationStatementTemplate();",
+        "translatedContent": "        PaginationStatementTemplate operations = new PaginationStatementTemplate();"
+      },
+      {
+        "row": 6,
+        "rowsha": "daXrZTzoAtNHvwrHE+ltcLXzr+jHRY30DkWlGRo5zBY=",
+        "originContent": "        operations.addStatementExecutor(new Sql2oPaginationNamedParameterStatementExecutor(dataSource));",
+        "translatedContent": "        operations.addStatementExecutor(new Sql2oPaginationNamedParameterStatementExecutor(dataSource));"
+      },
+      {
+        "row": 7,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 8,
+        "rowsha": "0HGIvEGjBwV4x33nO6q/yYCMfj/1TaCMalMh+SAVNQU=",
+        "originContent": "        // 1. 创建分页语句",
+        "translatedContent": "        // 1. 创建分页语句"
+      },
+      {
+        "row": 9,
+        "rowsha": "VE9GvCs84GVeLxjLY04uFjyynLT4Z6zqKiBmMLrr+9E=",
+        "originContent": "        PaginationStatement statement = of(b -> b",
+        "translatedContent": "        PaginationStatement statement = of(b -> b"
+      },
+      {
+        "row": 10,
+        "rowsha": "m5eb+Kk4l+E46FPGwzpJ8280dlkjKq3Kw6zlYGUu9kE=",
+        "originContent": "                .sql(\"SELECT * FROM user WHERE username LIKE :username\")",
+        "translatedContent": "                .sql(\"SELECT * FROM user WHERE username LIKE :username\")"
+      },
+      {
+        "row": 11,
+        "rowsha": "5kmedbWfTCG38b7bzDAUWFbl5yBwn81LMCMjgjD6fpU=",
+        "originContent": "                .paramMap(\"username\", \"%admin%\")",
+        "translatedContent": "                .paramMap(\"username\", \"%admin%\")"
+      },
+      {
+        "row": 12,
+        "rowsha": "SM7Xva7zLQtD+9NPUPGVhc1vWiNZ9gkiUtMRueh4lis=",
+        "originContent": "                .pageable(0, 10)",
+        "translatedContent": "                .pageable(0, 10)"
+      },
+      {
+        "row": 13,
+        "rowsha": "q++GFLCl5RPUVc98dY8KaiwkQR9eo4l/Ltta7KBIq0c=",
+        "originContent": "                .sort(\"id\", Sort.Direction.DESC));",
+        "translatedContent": "                .sort(\"id\", Sort.Direction.DESC));"
+      },
+      {
+        "row": 14,
+        "rowsha": "i2+gExPOUa/AnmEPgZJQ2lAXeK02PLpPnjEqbsgj1Co=",
+        "originContent": "        ",
+        "translatedContent": "        "
+      },
+      {
+        "row": 15,
+        "rowsha": "r6stEizjuBTuDpEJrenFmAWm2cwP1uLJJdhfPghMX/c=",
+        "originContent": "        // 2. 执行查询",
+        "translatedContent": "        // 2. 执行查询"
+      },
+      {
+        "row": 16,
+        "rowsha": "1IdytJDpAfdQnZrzgL1O7T+vPcn0sMBKjPy1TgSg5Uo=",
+        "originContent": "        PageInformation information = operations.queryForInformation(statement);",
+        "translatedContent": "        PageInformation information = operations.queryForInformation(statement);"
+      },
+      {
+        "row": 17,
+        "rowsha": "knf4hEptmqDcvsOFF7p65i2hR29IVptq/ZezDfAKhGY=",
+        "originContent": "        Page<User> page = operations.queryForResultSet(statement, new JdbcBeanPropertyPaginationRowMapper<>(User.class));",
+        "translatedContent": "        Page<User> page = operations.queryForResultSet(statement, new JdbcBeanPropertyPaginationRowMapper<>(User.class));"
+      },
+      {
+        "row": 18,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "Up3X+3Pr5zda1QdESew/zqPsfvzUSexa6i/n6W8cMvA=",
+        "originContent": "    // User实体类",
+        "translatedContent": "    // User实体类"
+      },
+      {
+        "row": 21,
+        "rowsha": "iA0XnNpxWLqHnBwMpfzASPZvDlWMplL+wim2/zPKW3I=",
+        "originContent": "    class User {",
+        "translatedContent": "    class User {"
+      },
+      {
+        "row": 22,
+        "rowsha": "PpWplLtMpgPyPmxTvAug/u1QiyP/CD8z061FfR+f8iY=",
+        "originContent": "        private Long id;",
+        "translatedContent": "        private Long id;"
+      },
+      {
+        "row": 23,
+        "rowsha": "OtFT1guh15R6mVfjQqr7v9SckRywk0iVuz8Hr3jlye0=",
+        "originContent": "        private String username;",
+        "translatedContent": "        private String username;"
+      },
+      {
+        "row": 24,
+        "rowsha": "+P3Bq2QOeYl+qKlnZT/DeHpcbxgVW6IUhEXqtZHJY24=",
+        "originContent": "        // getters and setters",
+        "translatedContent": "        // getters and setters"
+      },
+      {
+        "row": 25,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 26,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 27,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n\n## 致谢\n\n在开发这个框架的过程中，我深受开源社区的影响和启发。感谢那些无私分享技术经验的大佬们，是你们的智慧和贡献让这个框架得以诞生。特别感谢那些优秀开源项目带来的设计灵感和实现思路，这些宝贵的经验让我能够站在巨人的肩膀上继续前行。\n\n感谢所有为开源社区做出贡献的技术大佬们！\n\n## 🌟 支持项目\n如果你觉得这个项目对你有帮助，欢迎点击右上角的 ⭐Star 支持我！\n",
+    "ContentSha": "IbrhzRMONSxfa6YHTejTmsEJGysB/qMl/lkvJbYUXac=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 致謝\n\nこのフレームワークの開発過程で、私はオープンソースコミュニティから多大な影響とインスピレーションを受けました。技術経験を惜しみなく共有してくださった皆様に感謝します。皆様の知恵と貢献があってこそ、このフレームワークは誕生しました。特に、優れたオープンソースプロジェクトから得た設計のインスピレーションや実装のアイデアに感謝します。これら貴重な経験により、巨人の肩の上に立って前進し続けることができました。\n\nオープンソースコミュニティに貢献するすべての技術者の皆様に感謝します！\n\n## 🌟 プロジェクトを支援する\nこのプロジェクトが役立ったと感じたら、右上の⭐Starをクリックして応援してください！\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 致謝"
+      },
+      {
+        "row": 3,
+        "rowsha": "o+tqsH1fCLlhMg9UDYmADjok1B4e+CyPWPxG2TB2bwk=",
+        "originContent": "## 致谢",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このフレームワークの開発過程で、私はオープンソースコミュニティから多大な影響とインスピレーションを受けました。技術経験を惜しみなく共有してくださった皆様に感謝します。皆様の知恵と貢献があってこそ、このフレームワークは誕生しました。特に、優れたオープンソースプロジェクトから得た設計のインスピレーションや実装のアイデアに感謝します。これら貴重な経験により、巨人の肩の上に立って前進し続けることができました。"
+      },
+      {
+        "row": 5,
+        "rowsha": "C7dbe2r4llu1jxv8lR/OAF6v0hy6kNDiQSL217beI24=",
+        "originContent": "在开发这个框架的过程中，我深受开源社区的影响和启发。感谢那些无私分享技术经验的大佬们，是你们的智慧和贡献让这个框架得以诞生。特别感谢那些优秀开源项目带来的设计灵感和实现思路，这些宝贵的经验让我能够站在巨人的肩膀上继续前行。",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "オープンソースコミュニティに貢献するすべての技術者の皆様に感謝します！"
+      },
+      {
+        "row": 7,
+        "rowsha": "VcvwC1E3NgqrZ4G/vI+GLIlg8lzS+FlJZAnd2/GHxb4=",
+        "originContent": "感谢所有为开源社区做出贡献的技术大佬们！",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🌟 プロジェクトを支援する"
+      },
+      {
+        "row": 9,
+        "rowsha": "HQurZMYVsvA+9hHAYRyo+8pkk40P4F4TWjj0Gs+0I+o=",
+        "originContent": "## 🌟 支持项目",
+        "translatedContent": "このプロジェクトが役立ったと感じたら、右上の⭐Starをクリックして応援してください！"
+      },
+      {
+        "row": 10,
+        "rowsha": "0ilmb8ZpZGS+w3BiIA8q/AVt/vmws+hfOdfA57vwjs8=",
+        "originContent": "如果你觉得这个项目对你有帮助，欢迎点击右上角的 ⭐Star 支持我！",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,416 @@
+[
+  {
+    "row": 1,
+    "rowsha": "Jmxq4GpXuHy8k67hahXN0mjFozjWaDhkRgLdMSa+BSI=",
+    "originContent": "# SSH-List",
+    "translatedContent": "# SSH-List"
+  },
+  {
+    "row": 2,
+    "rowsha": "SYcmmkO0cVUcQ+/RFqI0sQAX+eQE5zRWNgmBrfXCLeg=",
+    "originContent": "SSH connection manager with a TUI interface.",
+    "translatedContent": "TUIインターフェースを備えたSSH接続マネージャー。"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "GtKQy3LhCnqK1h8Vh6cG81vj6u8bekEsGkZPzGPu0Gw=",
+    "originContent": "![demo gif](https://raw.githubusercontent.com/akinoiro/ssh-list/main/images/demo.gif)",
+    "translatedContent": "![demo gif](https://raw.githubusercontent.com/akinoiro/ssh-list/main/images/demo.gif)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "C0tKL3/KTgdsCO/MlfyL8OczmlbXdSdk/tAqg+p0Jlk=",
+    "originContent": "Key Features:",
+    "translatedContent": "主な機能:"
+  },
+  {
+    "row": 7,
+    "rowsha": "gAz64ka3LdaKSWkFrgUfXaiAooCU8D5EPWG8y17b0jk=",
+    "originContent": "- Add and edit connections",
+    "translatedContent": "- 接続の追加と編集"
+  },
+  {
+    "row": 8,
+    "rowsha": "NifxhrRcxbXsDxqb828rvVPfwmn9REe6oW3V3Lqg1qg=",
+    "originContent": "- Rearrange and sort connections",
+    "translatedContent": "- 接続の並べ替えと整理"
+  },
+  {
+    "row": 9,
+    "rowsha": "eTA5QclJgE/aU+FgsO6DyRTTCczsId04pJJ+VgXqFgY=",
+    "originContent": "- Import hosts from ~/.ssh/config",
+    "translatedContent": "- ~/.ssh/configからホストをインポート"
+  },
+  {
+    "row": 10,
+    "rowsha": "rY6F2Vgh5ZQ+mArSaIVcxh9C1aQlKSpcJklhcEi+RXw=",
+    "originContent": "- Search and filter connections",
+    "translatedContent": "- 接続の検索とフィルタリング"
+  },
+  {
+    "row": 11,
+    "rowsha": "K2MWhs+H283BQLYpUaFSsumJW4GAB8JIvVHAx2mx8eY=",
+    "originContent": "- Execute commands on remote hosts",
+    "translatedContent": "- リモートホスト上でのコマンド実行"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "d7PIPLQhke8Tb5D9gzwAbOp5EpUQOyVxCBYvkoE1ucc=",
+    "originContent": "This application does not modify your existing SSH configuration files. Host settings can be spread across multiple files referenced by Include directives (and between system and user configs), so automatic editing is unreliable.",
+    "translatedContent": "このアプリケーションは既存のSSH設定ファイルを変更しません。ホスト設定はIncludeディレクティブで参照される複数のファイル（システムとユーザーの設定間も含む）に分散しているため、自動編集は信頼できません。"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "CGWKjtcWnoE0UPSb4NJ37JrdRD76FpWpVHus6+T6mKg=",
+    "originContent": "This application does not store passwords. For secure authentication, use SSH keys.",
+    "translatedContent": "このアプリケーションはパスワードを保存しません。安全な認証にはSSHキーを使用してください。"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": "## 前提条件"
+  },
+  {
+    "row": 18,
+    "rowsha": "c/PiWpzDznbP7bl4KqRfEpdgXSqRwGugEtn4zDJrFDg=",
+    "originContent": "You must have an OpenSSH client installed on your system.",
+    "translatedContent": "システムにOpenSSHクライアントがインストールされている必要があります。"
+  },
+  {
+    "row": 19,
+    "rowsha": "XcPnp8xp6cbLDP57oUx62caqybFqI4THclHKlbGr9gU=",
+    "originContent": "## Install from GitHub Release",
+    "translatedContent": "## GitHubリリースからのインストール"
+  },
+  {
+    "row": 20,
+    "rowsha": "ncPWuSHuFkUAYU3H+XSvf5U7nc+A5cA1RIrBNqCV5XI=",
+    "originContent": "Download the latest binary from the [Releases page](https://github.com/akinoiro/ssh-list/releases).",
+    "translatedContent": "[リリースページ](https://github.com/akinoiro/ssh-list/releases)から最新のバイナリをダウンロードしてください。"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "pMN2WZP68aXV+YTKzXytAHOZAh+ShfXS4Wat1yuUUnY=",
+    "originContent": "#### To run the `ssh-list` command from terminal:",
+    "translatedContent": "#### ターミナルから`ssh-list`コマンドを実行するには:"
+  },
+  {
+    "row": 23,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 24,
+    "rowsha": "LPWQJpFTQ8CTsyNAVEaSRwaJsrlCvrXD0iZp6XUhR3M=",
+    "originContent": "# Make the binary executable",
+    "translatedContent": "# Make the binary executable"
+  },
+  {
+    "row": 25,
+    "rowsha": "oWDG55PNwBjyTEpRCDFgHCaBl/V9ZMqlyrptnFhzxqE=",
+    "originContent": "chmod +x ssh-list",
+    "translatedContent": "chmod +x ssh-list"
+  },
+  {
+    "row": 26,
+    "rowsha": "YbECDg5FDEeVktjd+YnlPTmDEwMFZo//VQrHHtQb67Q=",
+    "originContent": "# Move it to a directory in your PATH",
+    "translatedContent": "# Move it to a directory in your PATH"
+  },
+  {
+    "row": 27,
+    "rowsha": "Fg+dM9FgKU2vTa7zyWdsJ2qCCyrefAtbnd6i2oRT214=",
+    "originContent": "sudo mv ssh-list /usr/local/bin/",
+    "translatedContent": "sudo mv ssh-list /usr/local/bin/"
+  },
+  {
+    "row": 28,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "dwUYzpsTF862x9cXiL/i3UNw+5Qy+1cDjH92jMjSh2k=",
+    "originContent": "## Install from crates.io",
+    "translatedContent": "## crates.io からインストールする"
+  },
+  {
+    "row": 31,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 32,
+    "rowsha": "pL7w+0dN6046Dx/2sB94dbyH/LEqsb6eme0L7yuDS1I=",
+    "originContent": "cargo install ssh-list",
+    "translatedContent": "cargo install ssh-list"
+  },
+  {
+    "row": 33,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 34,
+    "rowsha": "2MZz8FvgFDml81Ahx1OM9j0WJKxU48XX4S910XVltqw=",
+    "originContent": "## Install from AUR (Arch Linux)",
+    "translatedContent": "## AUR（Arch Linux）からのインストール"
+  },
+  {
+    "row": 35,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 36,
+    "rowsha": "0SZ0DW3tu1gT2qiWi34mlZeFqmLRgF/Mk/EmVU+NivQ=",
+    "originContent": "paru -S ssh-list",
+    "translatedContent": "paru -S ssh-list"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "75mQuMWXIO7hvCeCTXueEMJzF8G+GRR4WeVxv1ISFxI=",
+    "originContent": "## Install from PPA (Ubuntu, Linux Mint)",
+    "translatedContent": "## PPAからインストール（Ubuntu、Linux Mint）"
+  },
+  {
+    "row": 39,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 40,
+    "rowsha": "Hlpo21pC1fSaktxgUhx8qIc7qzcgfpdyn57e02v4RFE=",
+    "originContent": "sudo add-apt-repository ppa:akinoiro/ssh-list",
+    "translatedContent": "sudo add-apt-repository ppa:akinoiro/ssh-list"
+  },
+  {
+    "row": 41,
+    "rowsha": "vsYfDMWqUGKl0v9rj6v4u69Jc+N5Z5zxQIom0T0+4Mo=",
+    "originContent": "sudo apt update",
+    "translatedContent": "sudo apt update"
+  },
+  {
+    "row": 42,
+    "rowsha": "bgzR67dZos3YmrGjOqYhLyxiNcTZP5uvKWgEBgDoZOc=",
+    "originContent": "sudo apt install ssh-list",
+    "translatedContent": "sudo apt install ssh-list"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "Lss96xxu42JMGd3IXVCHFr6t+hQitdrNu02ncNeMY94=",
+    "originContent": "## Install from Homebrew (macOS, Linux)",
+    "translatedContent": "## Homebrewからインストール（macOS、Linux）"
+  },
+  {
+    "row": 45,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 46,
+    "rowsha": "3drjLlVFL7b04GTHbhP8Qlbgu9SirOgMxx6xt66ST+o=",
+    "originContent": "brew tap akinoiro/tap",
+    "translatedContent": "brew tap akinoiro/tap"
+  },
+  {
+    "row": 47,
+    "rowsha": "693naxcEDVTHAmkDUxD3m86yk0TWZZFoYg0gadI9Qcg=",
+    "originContent": "brew install ssh-list",
+    "translatedContent": "brew install ssh-list"
+  },
+  {
+    "row": 48,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 49,
+    "rowsha": "VuGIuEpfgyqbJQhqJA1HcbWrpmKxwU5U6IKzzxQrHTI=",
+    "originContent": "## Build from source",
+    "translatedContent": "## ソースからビルド"
+  },
+  {
+    "row": 50,
+    "rowsha": "NIAAFLjXbZgkvtktstdaJdsBOTy8D94OIjd0lWjTaTs=",
+    "originContent": "You will need Rust and Cargo installed.",
+    "translatedContent": "RustとCargoがインストールされている必要があります。"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "QrrzQynpp3yWsJT/naZMgi8RCxQHxxNBbdHx8PEEsKY=",
+    "originContent": "git clone https://github.com/akinoiro/ssh-list",
+    "translatedContent": "git clone https://github.com/akinoiro/ssh-list"
+  },
+  {
+    "row": 53,
+    "rowsha": "OrEDlFAlEBVSVpjwmke13HigEfh4rXoTOH6nBCtaat4=",
+    "originContent": "cd ssh-list",
+    "translatedContent": "cd ssh-list"
+  },
+  {
+    "row": 54,
+    "rowsha": "QbRskjoJo1EyPe3xomSnbIj+llmIagYeZojksq7EuPs=",
+    "originContent": "cargo build --release",
+    "translatedContent": "cargo build --release"
+  },
+  {
+    "row": 55,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 56,
+    "rowsha": "1QkUG8OOWSrIpZ+5sU+MRs8xzBNcnEA+wCDehHmI0sc=",
+    "originContent": "The binary will be located at target/release/",
+    "translatedContent": "バイナリは target/release/ に配置されます"
+  },
+  {
+    "row": 57,
+    "rowsha": "41JdOqphTj91Hp9x7TAV9WbCqgfquQhtooXjhu61ddU=",
+    "originContent": "## Configuration files",
+    "translatedContent": "## 設定ファイル"
+  },
+  {
+    "row": 58,
+    "rowsha": "rCC4hbCiN5FiZyZ4Asu4TJ3uMeoa4F13GXO9+7Fd/Iw=",
+    "originContent": "ssh-list automatically creates files to store your connections:",
+    "translatedContent": "ssh-list は自動的に接続情報を保存するファイルを作成します："
+  },
+  {
+    "row": 59,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 60,
+    "rowsha": "OSqhm3j4C7D4AA3h42Cr0ViuxZZcnwk5CRT+EO8mINU=",
+    "originContent": "~/.ssh/ssh-list.json",
+    "translatedContent": "~/.ssh/ssh-list.json"
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "flMD4m2gHnUNm2D3QV9x3AZ6NFMv3dvArGCbRB8hi4w=",
+    "originContent": "and application settings:",
+    "translatedContent": "およびアプリケーション設定："
+  },
+  {
+    "row": 63,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 64,
+    "rowsha": "pvnUQq2+gyzD/Pi3nbY0KvMpph5IAUGFlz0ZBsLkdS0=",
+    "originContent": "~/.ssh/ssh-list_config.toml",
+    "translatedContent": "~/.ssh/ssh-list_config.toml"
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "l4m3AnzBAV/70iWDAA/dOzwOphibvODuQbWMPf5TyEY=",
+    "originContent": "## Appearance customization",
+    "translatedContent": "## Appearance customization"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "6AJ+hQJEjC6fnx6ZuNNDPh6zfooCAe//BnhK8Qelp3I=",
+    "originContent": "![demo settingsgif](https://raw.githubusercontent.com/akinoiro/ssh-list/main/images/demo_settings.gif)",
+    "translatedContent": "![demo settingsgif](https://raw.githubusercontent.com/akinoiro/ssh-list/main/images/demo_settings.gif)"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
