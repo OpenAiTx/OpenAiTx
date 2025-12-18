@@ -1,0 +1,1910 @@
+[
+  {
+    "row": 1,
+    "rowsha": "snR2VL3qBQ+I3nAS+oF3hdAZHVud5FApswRfwea7nDA=",
+    "originContent": "# iOS Simulator Skill for Claude Code",
+    "translatedContent": "# iOS Simulator Skill for Claude Code"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "Py17f+o5iSciQ0DqdpoZhsoZPaxLctdN2UBljpgY/6g=",
+    "originContent": "Production-ready automation for iOS app testing and building. 21 scripts optimized for both human developers and AI agents.",
+    "translatedContent": "Production-ready automation for iOS app testing and building. 21 scripts optimized for both human developers and AI agents."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "HMoOQM8y0gZf94yoL62X0tXK8BoGqsyciX3HchIk9b4=",
+    "originContent": "This is basically a Skill version of my XCode MCP: [https://github.com/conorluddy/xc-mcp](https://github.com/conorluddy/xc-mcp)",
+    "translatedContent": "This is basically a Skill version of my XCode MCP: [https://github.com/conorluddy/xc-mcp](https://github.com/conorluddy/xc-mcp)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "UlHB/leUTTYjn7cxg+OVv5HkK+DQMcKtOJknsR/v554=",
+    "originContent": "MCPs load a lot of tokens into the context window when they're active, but also seem to work really well. Skills don't load in any context. I'll make a plugin next and try to find the balance...",
+    "translatedContent": "MCPs load a lot of tokens into the context window when they're active, but also seem to work really well. Skills don't load in any context. I'll make a plugin next and try to find the balance..."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "iECidp+lQ3k29NEBZO1MrlmLJD8KvlhYtoxrgxMS+t4=",
+    "originContent": "Updated: The Plugin version lets you easily disable MCPs for different tool groups. Optimise your context window by only enabling the tools you're actively using, such as xcodebuild: [https://github.com/conorluddy/xclaude-plugin](https://github.com/conorluddy/xclaude-plugin)",
+    "translatedContent": "Updated: The Plugin version lets you easily disable MCPs for different tool groups. Optimise your context window by only enabling the tools you're actively using, such as xcodebuild: [https://github.com/conorluddy/xclaude-plugin](https://github.com/conorluddy/xclaude-plugin)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "rw89HDMgBuYwuw8tIc0oh+XixRwWo1YATU62BWAKX5Q=",
+    "originContent": "## What It Does",
+    "translatedContent": "## What It Does"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "UdSLQSzv6/d5EOk0DLeCHl7Wa3myJkdcraZOrAno52k=",
+    "originContent": "Instead of pixel-based navigation that breaks when UI changes:",
+    "translatedContent": "Instead of pixel-based navigation that breaks when UI changes:"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 16,
+    "rowsha": "xea7Rh+GYGjdi0JsptyltaRyCpVp1L+SV1Dqa69Okq4=",
+    "originContent": "# Fragile - breaks if UI changes",
+    "translatedContent": "# Fragile - breaks if UI changes"
+  },
+  {
+    "row": 17,
+    "rowsha": "TmDRv0341Vsi2+4NaQyc1T2EY+JYGYIj6U+gvswrp84=",
+    "originContent": "idb ui tap 320 400",
+    "translatedContent": "idb ui tap 320 400"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "B5GCXg0WqeVQYHDFtRnm4s0qXpyATBAWsjB15UO3Kzg=",
+    "originContent": "# Robust - finds by meaning",
+    "translatedContent": "# Robust - finds by meaning"
+  },
+  {
+    "row": 20,
+    "rowsha": "rTJHEHnK5SQiu1jKughl9KMU2i1eHlfBDU5tVc6HbTs=",
+    "originContent": "python scripts/navigator.py --find-text \"Login\" --tap",
+    "translatedContent": "python scripts/navigator.py --find-text \"Login\" --tap"
+  },
+  {
+    "row": 21,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Uses semantic navigation on accessibility APIs to interact with elements by their meaning, not coordinates. Works across different screen sizes and survives UI redesigns."
+  },
+  {
+    "row": 23,
+    "rowsha": "IhtlPyRfuDd/O7PLtHS1Q+AplTtZ69LZmv9FJ191fgU=",
+    "originContent": "Uses semantic navigation on accessibility APIs to interact with elements by their meaning, not coordinates. Works across different screen sizes and survives UI redesigns.",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Features"
+  },
+  {
+    "row": 25,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **21 production scripts** for building, testing, and automation"
+  },
+  {
+    "row": 27,
+    "rowsha": "pcXiCQ2W3xBcyHYOObsa/Vnh3RAXvPGaaDxMzHbngMY=",
+    "originContent": "- **21 production scripts** for building, testing, and automation",
+    "translatedContent": "- **Semantic navigation** - find elements by text, type, or ID"
+  },
+  {
+    "row": 28,
+    "rowsha": "+OU9vo8jDAMKtgZqdXKeSps8l67P36Pa8lHA0d3VaYw=",
+    "originContent": "- **Semantic navigation** - find elements by text, type, or ID",
+    "translatedContent": "- **Token optimized** - 96% reduction vs raw tools (3-5 lines default)"
+  },
+  {
+    "row": 29,
+    "rowsha": "uNRK6fPuqGkH9w74IuskHKyOs9XijrADD7otFQgqrpI=",
+    "originContent": "- **Token optimized** - 96% reduction vs raw tools (3-5 lines default)",
+    "translatedContent": "- **Zero configuration** - works immediately on macOS with Xcode"
+  },
+  {
+    "row": 30,
+    "rowsha": "q5y0YHfMcSRPXkGXXDYRbKasYWuvLHDNolLB6Y+Lx6Y=",
+    "originContent": "- **Zero configuration** - works immediately on macOS with Xcode",
+    "translatedContent": "- **Structured output** - JSON and formatted text, easy to parse"
+  },
+  {
+    "row": 31,
+    "rowsha": "tDaNlfr5xezY0w3D4OIq974DD3/XezriIazixmwM6bQ=",
+    "originContent": "- **Structured output** - JSON and formatted text, easy to parse",
+    "translatedContent": "- **Auto-UDID detection** - no need to specify device each time"
+  },
+  {
+    "row": 32,
+    "rowsha": "9lS06LLfui2iayKu7IPeW6QCQB7lp1mZP7c1JMAhIK8=",
+    "originContent": "- **Auto-UDID detection** - no need to specify device each time",
+    "translatedContent": "- **Batch operations** - boot, delete, erase multiple simulators at once"
+  },
+  {
+    "row": 33,
+    "rowsha": "4/UVyScSMfzLhK95J7qND0btU8TQQpYlNoRofLbF3Bc=",
+    "originContent": "- **Batch operations** - boot, delete, erase multiple simulators at once",
+    "translatedContent": "- **Comprehensive testing** - WCAG compliance, visual diffs, accessibility audits"
+  },
+  {
+    "row": 34,
+    "rowsha": "eYvP0wxhD3xO+U6RI0Fgkw1l1jErpGDa8rVLpoHVBi4=",
+    "originContent": "- **Comprehensive testing** - WCAG compliance, visual diffs, accessibility audits",
+    "translatedContent": "- **CI/CD ready** - JSON output, exit codes, automated device lifecycle"
+  },
+  {
+    "row": 35,
+    "rowsha": "Pjj4XhcxltysDuPV9SJSSyU1rlGxrR+hBF0zUEvetFE=",
+    "originContent": "- **CI/CD ready** - JSON output, exit codes, automated device lifecycle",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 37,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### As Claude Code Skill"
+  },
+  {
+    "row": 39,
+    "rowsha": "dv17xuApkG8VZMx7NHDefMPD4xlEmZdKAjLbJfCrgLg=",
+    "originContent": "### As Claude Code Skill",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 42,
+    "rowsha": "MgnPQOgio+XgQd5fs/2BAwObRfqFj3kHHlmBPrPF5k0=",
+    "originContent": "# Personal installation",
+    "translatedContent": "# Personal installation"
+  },
+  {
+    "row": 43,
+    "rowsha": "fDqYVi+HjxV0f8OquWDdhtfpZQ/dRdsyQFU6R6seY5g=",
+    "originContent": "git clone https://github.com/conorluddy/ios-simulator-skill.git ~/.claude/skills/ios-simulator-skill",
+    "translatedContent": "git clone https://github.com/conorluddy/ios-simulator-skill.git ~/.claude/skills/ios-simulator-skill"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "OFdmECco0pWhyposS0O9so7+pw99wH7Vp9rRkcb7C1w=",
+    "originContent": "# Project installation",
+    "translatedContent": "# Project installation"
+  },
+  {
+    "row": 46,
+    "rowsha": "Q0gh4PacMArSj1KIiWaSzSu1AraG27fffb2g2LEDNrw=",
+    "originContent": "git clone https://github.com/conorluddy/ios-simulator-skill.git .claude/skills/ios-simulator-skill",
+    "translatedContent": "git clone https://github.com/conorluddy/ios-simulator-skill.git .claude/skills/ios-simulator-skill"
+  },
+  {
+    "row": 47,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "CXr3pPNPRFAtqr3KkFNqSeRkc0f3ci1OekpvPR5EucI=",
+    "originContent": "Restart Claude Code. The skill loads automatically.",
+    "translatedContent": "Restart Claude Code. The skill loads automatically."
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "FkaQe+Zl38nNn9z6ca+9mqy3cwTioK7/lH/caYH2c38=",
+    "originContent": "### From Release",
+    "translatedContent": "### From Release"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 54,
+    "rowsha": "ObpbjU425ZA5RHfLwV4ZDxZ1TWKpIjhsLAA+ZnLwq+g=",
+    "originContent": "# Download latest release",
+    "translatedContent": "# Download latest release"
+  },
+  {
+    "row": 55,
+    "rowsha": "n7DqMZeweL2O3pq605eOuslXlAImT1/9fXKKwPPzfiQ=",
+    "originContent": "curl -L https://github.com/conorluddy/ios-simulator-skill/releases/download/vX.X.X/ios-simulator-skill-vX.X.X.zip -o skill.zip",
+    "translatedContent": "curl -L https://github.com/conorluddy/ios-simulator-skill/releases/download/vX.X.X/ios-simulator-skill-vX.X.X.zip -o skill.zip"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "UJy6nZBHuJhXFIsHjNJbzWV6xuJiRRuX99tlxERe+vg=",
+    "originContent": "# Extract",
+    "translatedContent": "# Extract"
+  },
+  {
+    "row": 58,
+    "rowsha": "K9AHU07gQblnWRhVT6quvJov4Oql1ChInluT9rqXky0=",
+    "originContent": "unzip skill.zip -d ~/.claude/skills/ios-simulator-skill",
+    "translatedContent": "unzip skill.zip -d ~/.claude/skills/ios-simulator-skill"
+  },
+  {
+    "row": 59,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": "## Prerequisites"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "IHGyeqEoX944MrxwSP9x7Aq0MIZl9d8zoANvVV+f/uU=",
+    "originContent": "- macOS 12+",
+    "translatedContent": "- macOS 12+"
+  },
+  {
+    "row": 64,
+    "rowsha": "YTMMhcsQK9l8DKcwF5VpgQQ24aY5L2RJaO9uenDRAPs=",
+    "originContent": "- Xcode Command Line Tools (`xcode-select --install`)",
+    "translatedContent": "- Xcode Command Line Tools (`xcode-select --install`)"
+  },
+  {
+    "row": 65,
+    "rowsha": "HTerym/wI4YwME9VU6BtEvVUHQ1Jn2k7/olreKiMzsM=",
+    "originContent": "- Python 3",
+    "translatedContent": "- Python 3"
+  },
+  {
+    "row": 66,
+    "rowsha": "kM8ILR/7EvKcAu8dH5KYC+LkxwyvOtuCKLZEt6/KsAw=",
+    "originContent": "- IDB (optional, for interactive features: `brew tap facebook/fb && brew install idb-companion`)",
+    "translatedContent": "- IDB (optional, for interactive features: `brew tap facebook/fb && brew install idb-companion`)"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## Quick Start"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 71,
+    "rowsha": "BGMs3//2VR384uEAlzm+vLdrygMLjJAVeX2THzTBz6U=",
+    "originContent": "# 1. Check environment",
+    "translatedContent": "# 1. Check environment"
+  },
+  {
+    "row": 72,
+    "rowsha": "97BniElmQuPoweTj4zcJQDM0o2wxCFwWF5X+vVCGgWI=",
+    "originContent": "bash ~/.claude/skills/ios-simulator-skill/scripts/sim_health_check.sh",
+    "translatedContent": "bash ~/.claude/skills/ios-simulator-skill/scripts/sim_health_check.sh"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "LRxdQDz4YhbP1cHuW5atXmRtDysQ0/Zkd8jDtrC9Y9A=",
+    "originContent": "# 2. Launch your app",
+    "translatedContent": "# 2. Launch your app"
+  },
+  {
+    "row": 75,
+    "rowsha": "0Wu+hlFfzc8jFIgI/uKIcWR9biltx24794pPqex84es=",
+    "originContent": "python ~/.claude/skills/ios-simulator-skill/scripts/app_launcher.py --launch com.example.app",
+    "translatedContent": "python ~/.claude/skills/ios-simulator-skill/scripts/app_launcher.py --launch com.example.app"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "l3c4yhgrJx7AVR6L4UKAhBqjuX/SQCl20djxhOAQmtU=",
+    "originContent": "# 3. See what's on screen",
+    "translatedContent": "# 3. See what's on screen"
+  },
+  {
+    "row": 78,
+    "rowsha": "DYfKu55smawygNrn9l5Z7sy3WkeGbjBMIx/7yVUDP18=",
+    "originContent": "python ~/.claude/skills/ios-simulator-skill/scripts/screen_mapper.py",
+    "translatedContent": "python ~/.claude/skills/ios-simulator-skill/scripts/screen_mapper.py"
+  },
+  {
+    "row": 79,
+    "rowsha": "YyU7Wn8KZiwO/DNGiqDH3Z2s1iMf/fvXP+5FXGBewkQ=",
+    "originContent": "# Output:",
+    "translatedContent": "# Output:"
+  },
+  {
+    "row": 80,
+    "rowsha": "VA01IV2+9NtuGhz20oEO7yOHSN0i8dZuWhGiWWqI3lo=",
+    "originContent": "# Screen: LoginViewController (45 elements, 7 interactive)",
+    "translatedContent": "# Screen: LoginViewController (45 elements, 7 interactive)"
+  },
+  {
+    "row": 81,
+    "rowsha": "42rNPSVT2tu8j6BkwD8NhZSvpUL5sLqWj2GHalPqaKw=",
+    "originContent": "# Buttons: \"Login\", \"Cancel\", \"Forgot Password\"",
+    "translatedContent": "# Buttons: \"Login\", \"Cancel\", \"Forgot Password\""
+  },
+  {
+    "row": 82,
+    "rowsha": "ccC4l2lEH0d8nsYZOFUY7g0nOTwcVk+MZYFHjr1toos=",
+    "originContent": "# TextFields: 2 (0 filled)",
+    "translatedContent": "# TextFields: 2 (0 filled)"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "RRGMi8w1CX6YSsL9nFIZmANldb+nKlM5SHU9w5mUAQA=",
+    "originContent": "# 4. Tap login button",
+    "translatedContent": "# 4. Tap login button"
+  },
+  {
+    "row": 85,
+    "rowsha": "HICEG39WF0o2pu/fHG58lXlTohcLWdjfJsCLw/1j7Bc=",
+    "originContent": "python ~/.claude/skills/ios-simulator-skill/scripts/navigator.py --find-text \"Login\" --tap",
+    "translatedContent": "python ~/.claude/skills/ios-simulator-skill/scripts/navigator.py --find-text \"Login\" --tap"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "UlvhpuHx0ZkgBFThWvfUPL45ohqFm3Y97t8StJiPgMM=",
+    "originContent": "# 5. Enter text",
+    "translatedContent": "# 5. Enter text"
+  },
+  {
+    "row": 88,
+    "rowsha": "ZGG+B2hMRF2ZD9sAreQZwIwuxEC8b0aFEHx1724cy8o=",
+    "originContent": "python ~/.claude/skills/ios-simulator-skill/scripts/navigator.py --find-type TextField --enter-text \"user@test.com\"",
+    "translatedContent": "python ~/.claude/skills/ios-simulator-skill/scripts/navigator.py --find-type TextField --enter-text \"user@test.com\""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "+uGWK0spewfN9cQ6B62FS3rBqzNCvTTRlrH10KwOYA4=",
+    "originContent": "# 6. Check accessibility",
+    "translatedContent": "# 6. Check accessibility"
+  },
+  {
+    "row": 91,
+    "rowsha": "xpupAJS+5pA8Pkyhhdzjl5k0w74ho/nkUQna/y3SgXw=",
+    "originContent": "python ~/.claude/skills/ios-simulator-skill/scripts/accessibility_audit.py",
+    "translatedContent": "python ~/.claude/skills/ios-simulator-skill/scripts/accessibility_audit.py"
+  },
+  {
+    "row": 92,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "K/npcsHddjU2cHz1/9D7vIPy6IX73K0Q0Da5tdn40Mg=",
+    "originContent": "## 21 Scripts Organized by Category",
+    "translatedContent": "## 21 Scripts Organized by Category"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "ccvXcoe0W+lTBszVh/nIC+6oORvXp7xpgTlBNs2c5dA=",
+    "originContent": "### Build & Development",
+    "translatedContent": "### Build & Development"
+  },
+  {
+    "row": 97,
+    "rowsha": "OGGzsFlxqYEGYhUdY36s/mKu4ej9xf1UQHWVb0jqDiQ=",
+    "originContent": "- **build_and_test.py** - Build projects, run tests, parse results",
+    "translatedContent": "- **build_and_test.py** - Build projects, run tests, parse results"
+  },
+  {
+    "row": 98,
+    "rowsha": "g8ABjH1dOHFlbER3ALXCF6yhNoCyZKus1nY0+DEv2CE=",
+    "originContent": "- **log_monitor.py** - Real-time log monitoring",
+    "translatedContent": "- **log_monitor.py** - Real-time log monitoring"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "Y63QePvsWE/or2Tu+OhmQD0cxeBa5na8voFvKYDLSyw=",
+    "originContent": "### Navigation & Interaction",
+    "translatedContent": "### Navigation & Interaction"
+  },
+  {
+    "row": 101,
+    "rowsha": "AAsY2cxeHutGoim94AZ6Yhm8utBiFJPqHxym7R82opM=",
+    "originContent": "- **screen_mapper.py** - Analyze current screen",
+    "translatedContent": "- **screen_mapper.py** - Analyze current screen"
+  },
+  {
+    "row": 102,
+    "rowsha": "MtbDM+OjKlRa6HbKIAQpduQQsJQw1sRnzroqDPFa8Bg=",
+    "originContent": "- **navigator.py** - Find and interact with elements",
+    "translatedContent": "- **navigator.py** - Find and interact with elements"
+  },
+  {
+    "row": 103,
+    "rowsha": "x5KsAg3DUK9d9n0FnxDKgrlljAlaXT4RQKkiKtp0SOY=",
+    "originContent": "- **gesture.py** - Swipes, scrolls, pinches",
+    "translatedContent": "- **gesture.py** - Swipes, scrolls, pinches"
+  },
+  {
+    "row": 104,
+    "rowsha": "haslkDDkIIKnaMxHYBG/jMlmRg72ZKskbRvmftHgLE0=",
+    "originContent": "- **keyboard.py** - Text input and hardware buttons",
+    "translatedContent": "- **keyboard.py** - Text input and hardware buttons"
+  },
+  {
+    "row": 105,
+    "rowsha": "EltcT/84Nla0ofiPomEa+OwNI9voMXnOUZbgaQR8ke8=",
+    "originContent": "- **app_launcher.py** - App lifecycle control",
+    "translatedContent": "- **app_launcher.py** - App lifecycle control"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "xh1N9x60ye4mIexLZthA/plTpYJzAV0kZz/p0zkNo9U=",
+    "originContent": "### Testing & Analysis",
+    "translatedContent": "### Testing & Analysis"
+  },
+  {
+    "row": 108,
+    "rowsha": "LtIYabZW61CIGdbSBZecKnYqsSRgz1AgAMlBA8g5Rc8=",
+    "originContent": "- **accessibility_audit.py** - WCAG compliance checking",
+    "translatedContent": "- **accessibility_audit.py** - WCAG compliance checking"
+  },
+  {
+    "row": 109,
+    "rowsha": "G53YfkJji6bt2CDUBGovuitGPobuh6o/fczsgegr5WQ=",
+    "originContent": "- **visual_diff.py** - Screenshot comparison",
+    "translatedContent": "- **visual_diff.py** - Screenshot comparison"
+  },
+  {
+    "row": 110,
+    "rowsha": "wASsIDRlYQ9nRsFEXIs87LXPAve1BWIwXHshY7+IGM0=",
+    "originContent": "- **test_recorder.py** - Automated test documentation",
+    "translatedContent": "- **test_recorder.py** - Automated test documentation"
+  },
+  {
+    "row": 111,
+    "rowsha": "7BALSXSDktQbD7E7D2UUgeJjOHsvvOZr9zsESM54mGk=",
+    "originContent": "- **app_state_capture.py** - Debugging snapshots",
+    "translatedContent": "- **app_state_capture.py** - Debugging snapshots"
+  },
+  {
+    "row": 112,
+    "rowsha": "BLH8Py9w1OiFm7k1C9+EemiNukxxskX/vMyehejYG34=",
+    "originContent": "- **sim_health_check.sh** - Environment verification",
+    "translatedContent": "- **sim_health_check.sh** - Environment verification"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "na6QLuNNLGWpmWUYXfihPYETYPRp5gai9tJ58kPkm9k=",
+    "originContent": "### Advanced Testing & Permissions",
+    "translatedContent": "### Advanced Testing & Permissions"
+  },
+  {
+    "row": 115,
+    "rowsha": "e9ZymlLr1f32jA7MMQpWUnfJOzkGKf7X2fpw2pPZePg=",
+    "originContent": "- **clipboard.py** - Clipboard management",
+    "translatedContent": "- **clipboard.py** - Clipboard management"
+  },
+  {
+    "row": 116,
+    "rowsha": "t6Nr6zyMTn4mu4NW1tnROdo/J616OcgTYIXtFfSB0e8=",
+    "originContent": "- **status_bar.py** - Status bar control",
+    "translatedContent": "- **status_bar.py** - Status bar control"
+  },
+  {
+    "row": 117,
+    "rowsha": "5DuEr6R5Rv/yvRdyR7xi9HZSCLVMe9bUBjtpqhSW3mY=",
+    "originContent": "- **push_notification.py** - Push notifications",
+    "translatedContent": "- **push_notification.py** - Push notifications"
+  },
+  {
+    "row": 118,
+    "rowsha": "HIXBAJSA0IEs3dudCYo3LEQOgCtO/X97jggxg2K+5AM=",
+    "originContent": "- **privacy_manager.py** - Permission management",
+    "translatedContent": "- **privacy_manager.py** - Permission management"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "WnQEGyw1MLz/r8Zepalfy+0w89sFoV/6bYKcZ3OIGKM=",
+    "originContent": "### Device Lifecycle",
+    "translatedContent": "### Device Lifecycle"
+  },
+  {
+    "row": 121,
+    "rowsha": "mjJxdJDAw+2fXjNDDIP213/xwcvp13I992OPW4eJHAU=",
+    "originContent": "- **simctl_boot.py** - Boot simulator",
+    "translatedContent": "- **simctl_boot.py** - Boot simulator"
+  },
+  {
+    "row": 122,
+    "rowsha": "CQ6FpRvVhel2/WDfe+fiI3tkjjtuNDbko+AZJZCegGw=",
+    "originContent": "- **simctl_shutdown.py** - Shutdown simulator",
+    "translatedContent": "- **simctl_shutdown.py** - Shutdown simulator"
+  },
+  {
+    "row": 123,
+    "rowsha": "N+XHLc2S7yJhz44i35BlV5kIO9AJAJKKsk+dLwOa4q0=",
+    "originContent": "- **simctl_create.py** - Create simulator",
+    "translatedContent": "- **simctl_create.py** - Create simulator"
+  },
+  {
+    "row": 124,
+    "rowsha": "xnfvubSiLQARGIL9rewoinHrHHygOxzA+8m4RrCjRLs=",
+    "originContent": "- **simctl_delete.py** - Delete simulator",
+    "translatedContent": "- **simctl_delete.py** - Delete simulator"
+  },
+  {
+    "row": 125,
+    "rowsha": "tKBzjYS68vYJ+Ism6FmwcUtOj8vgqrHLcvjFEUOPu60=",
+    "originContent": "- **simctl_erase.py** - Factory reset",
+    "translatedContent": "- **simctl_erase.py** - Factory reset"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "1DVhSNgkc4uh+smBTlwmDjsBuMOWbKGftitvYZkcMvI=",
+    "originContent": "See **SKILL.md** for complete reference.",
+    "translatedContent": "See **SKILL.md** for complete reference."
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "XsSDMhIcFy/Ns33mfge8Ek1ceRDhZ5JDTPvYV1/XsKo=",
+    "originContent": "## How It Works with Claude Code",
+    "translatedContent": "## How It Works with Claude Code"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "o8ZPn6UesU5D/N/Qxl0m7zM+29yAMSuKjfSoprPDYn8=",
+    "originContent": "Claude Code automatically detects when to use this skill based on your request. You don't need to manually invoke it.",
+    "translatedContent": "Claude Code automatically detects when to use this skill based on your request. You don't need to manually invoke it."
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "8e4S6SEL8MRBDl9Lwllb5lqWXyBze2hCOKkk9QuoV4g=",
+    "originContent": "**Example conversation:**",
+    "translatedContent": "**Example conversation:**"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 136,
+    "rowsha": "ras+26x9y9DCFG7o70dAaeylM6MeU3ZgOZEU4pf3t38=",
+    "originContent": "You: \"Set up my iOS app for testing\"",
+    "translatedContent": "You: \"Set up my iOS app for testing\""
+  },
+  {
+    "row": 137,
+    "rowsha": "XYAxxOmJ2v37ONgNss/W3JKYXF+7sDTgZniAoB/mjEU=",
+    "originContent": "Claude: [Uses simctl_boot.py and app_launcher.py automatically]",
+    "translatedContent": "Claude: [Uses simctl_boot.py and app_launcher.py automatically]"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "Oj2LNc55FNp638xHaKDWux4vJtT7V3cRqEmQdbXyFwI=",
+    "originContent": "You: \"Tap the login button\"",
+    "translatedContent": "You: \"Tap the login button\""
+  },
+  {
+    "row": 140,
+    "rowsha": "A+U5PPa793eSyghni7rXIqexGGK4Y6b/YYqBKLBNp+8=",
+    "originContent": "Claude: [Uses navigator.py to find and tap]",
+    "translatedContent": "Claude: [Uses navigator.py to find and tap]"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "c3u3lMPL22NPswM2yKZwlBaEebkcSacJutB1QHnNwC8=",
+    "originContent": "You: \"Check if the form is accessible\"",
+    "translatedContent": "You: \"Check if the form is accessible\""
+  },
+  {
+    "row": 143,
+    "rowsha": "N+tRoJxr9cpS5rgSpQ2Q+xQ+1+hPXatU/7zkHbkdpz8=",
+    "originContent": "Claude: [Uses accessibility_audit.py]",
+    "translatedContent": "Claude: [Uses accessibility_audit.py]"
+  },
+  {
+    "row": 144,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "iX/qYY1Xe6SPAShg7XAn7fRLhMpqvAp7K+fSzPRS54M=",
+    "originContent": "You can also run scripts manually when needed.",
+    "translatedContent": "You can also run scripts manually when needed."
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "S26wdEyXDtbwhsw5/RfwoNc6EYkI3moIDhrEDjveQB0=",
+    "originContent": "## Usage Examples",
+    "translatedContent": "## Usage Examples"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "7RZl85ckk+YfKBSlpoJY3HtTX09NyXPQxCv1xtUNB4Q=",
+    "originContent": "### Example 1: Login Flow",
+    "translatedContent": "### Example 1: Login Flow"
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 153,
+    "rowsha": "5/oG5oSALuzQBAbK8f4owzQLjiuIQwjt4nWmGM3g+uc=",
+    "originContent": "# Launch app",
+    "translatedContent": "# Launch app"
+  },
+  {
+    "row": 154,
+    "rowsha": "4ca0pNeOlWsTTqC470tbX5LTKiZSEHulDB97VI5ElU4=",
+    "originContent": "python scripts/app_launcher.py --launch com.example.app",
+    "translatedContent": "python scripts/app_launcher.py --launch com.example.app"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "/zcypTa1E1mt//RL5ZK9LoETyKBgxj1DpQWkhH4gc/8=",
+    "originContent": "# Map screen to find fields",
+    "translatedContent": "# Map screen to find fields"
+  },
+  {
+    "row": 157,
+    "rowsha": "hJyiIVuoZmGg5vTuSlbRagLl17KitzUwuKdzJdmMg8A=",
+    "originContent": "python scripts/screen_mapper.py",
+    "translatedContent": "python scripts/screen_mapper.py"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "a1rW75WZKi5tqtJsARq5bAwwphPw+CwVaNmDNa3Gv5w=",
+    "originContent": "# Enter credentials",
+    "translatedContent": "# Enter credentials"
+  },
+  {
+    "row": 160,
+    "rowsha": "7ylrq3QJM3RBsnqRm27fhyV1K0ZU5foiH2est0mhYyM=",
+    "originContent": "python scripts/navigator.py --find-type TextField --index 0 --enter-text \"user@test.com\"",
+    "translatedContent": "python scripts/navigator.py --find-type TextField --index 0 --enter-text \"user@test.com\""
+  },
+  {
+    "row": 161,
+    "rowsha": "j65XGQP2cTVmwl+I4JWhp7Yo0FR2wRM0HhtNjHvKkkA=",
+    "originContent": "python scripts/navigator.py --find-type SecureTextField --enter-text \"password\"",
+    "translatedContent": "python scripts/navigator.py --find-type SecureTextField --enter-text \"password\""
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "InFJIX9hIGNAHWbYBMH/fSMTSu+azcYT83dxuaYKa4U=",
+    "originContent": "# Tap login",
+    "translatedContent": "# Tap login"
+  },
+  {
+    "row": 164,
+    "rowsha": "rTJHEHnK5SQiu1jKughl9KMU2i1eHlfBDU5tVc6HbTs=",
+    "originContent": "python scripts/navigator.py --find-text \"Login\" --tap",
+    "translatedContent": "python scripts/navigator.py --find-text \"Login\" --tap"
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "cWpl1YJtn0yrrCUOomIyK2lQIPbs4IYaO09w5OPm08M=",
+    "originContent": "# Verify accessibility",
+    "translatedContent": "# Verify accessibility"
+  },
+  {
+    "row": 167,
+    "rowsha": "PICoYpJSjh9Lh4tdXkrY5APX+yY4Fc8AM8URKFkTKxY=",
+    "originContent": "python scripts/accessibility_audit.py",
+    "translatedContent": "python scripts/accessibility_audit.py"
+  },
+  {
+    "row": 168,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "nGSlJ3M3xELypqa1Egs/zmBT1KB2tVFDVhdKRpaEcTY=",
+    "originContent": "### Example 2: Test Documentation",
+    "translatedContent": "### Example 2: Test Documentation"
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 173,
+    "rowsha": "DkYBFJryNkXJGJzNvdiAHI9Z3ininaBKLGDJj80Ck+I=",
+    "originContent": "# Record test execution",
+    "translatedContent": "# Record test execution"
+  },
+  {
+    "row": 174,
+    "rowsha": "CGU7O1FlYSuQk+JwUGuTLGQIDS31lZk0ZLrrI303gHQ=",
+    "originContent": "python scripts/test_recorder.py --test-name \"Login Flow\" --output test-reports/",
+    "translatedContent": "python scripts/test_recorder.py --test-name \"Login Flow\" --output test-reports/"
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "iS9ih2QBfr1dPV/Miz/vJV64nVxWxamUzOykdKyiaek=",
+    "originContent": "# Generates:",
+    "translatedContent": "# Generates:"
+  },
+  {
+    "row": 177,
+    "rowsha": "QLYRssk1Fzqa2U+VfKm+psIGyizq8SkGlG2fDL6wxS0=",
+    "originContent": "# - Screenshots per step",
+    "translatedContent": "# - Screenshots per step"
+  },
+  {
+    "row": 178,
+    "rowsha": "LQKyc8WQq14vUyIUouTLjNwyA4pOeZ68TvpDRQx/ZrI=",
+    "originContent": "# - Accessibility trees",
+    "translatedContent": "# - Accessibility trees"
+  },
+  {
+    "row": 179,
+    "rowsha": "YCMza/WkKuouxjICF+SyF6lqCKv4LC4yBu4hnA1naYY=",
+    "originContent": "# - Markdown report with timing",
+    "translatedContent": "# - Markdown report with timing"
+  },
+  {
+    "row": 180,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "PLM0r9/wMKeGX7gYeXbv6MfBmnRGlVJd2pWfoUjmxUc=",
+    "originContent": "### Example 3: Visual Testing",
+    "translatedContent": "### Example 3: Visual Testing"
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 185,
+    "rowsha": "PrWgOgeBYv7DTmLc9X55oSb1CwoFXYN3KxqN+uvIeZU=",
+    "originContent": "# Capture baseline",
+    "translatedContent": "# Capture baseline"
+  },
+  {
+    "row": 186,
+    "rowsha": "ljnrelfBqZK86D26D8xWcIkWw78eOFKBjK/ny1zDAtc=",
+    "originContent": "python scripts/app_state_capture.py --output baseline/",
+    "translatedContent": "python scripts/app_state_capture.py --output baseline/"
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "hWYTxz4WaBpWKAxAmaHGS6F79tgHQL/fbLfuvNuRSEk=",
+    "originContent": "# Make changes...",
+    "translatedContent": "# Make changes..."
+  },
+  {
+    "row": 189,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "Y9bU8oRaL8/+H5YwR4Ap7MvGnUHlnmquKqU0UgfP6ho=",
+    "originContent": "# Compare",
+    "translatedContent": "# Compare"
+  },
+  {
+    "row": 191,
+    "rowsha": "V+zuC/w438cyLtIdeIK93TeH3Cw5/IzvY9zDENhEEXM=",
+    "originContent": "python scripts/visual_diff.py baseline/screenshot.png current/screenshot.png",
+    "translatedContent": "python scripts/visual_diff.py baseline/screenshot.png current/screenshot.png"
+  },
+  {
+    "row": 192,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "zcCV1pKSUvFQAiA8cjwbe+4foE2zm6bE8xrLn8NCd9Q=",
+    "originContent": "### Example 4: Permission Testing",
+    "translatedContent": "### Example 4: Permission Testing"
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 197,
+    "rowsha": "D07tANDFYIbTMNHdL+kW7lXQNuDxUsL9ElSs+NEUNAk=",
+    "originContent": "# Grant permissions",
+    "translatedContent": "# Grant permissions"
+  },
+  {
+    "row": 198,
+    "rowsha": "bIzf/QMO9+fvT2SLc/hDfFAsFSukGQiTzvLcMWTaNoo=",
+    "originContent": "python scripts/privacy_manager.py --bundle-id com.example.app --grant camera,location",
+    "translatedContent": "python scripts/privacy_manager.py --bundle-id com.example.app --grant camera,location"
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "twQm0A3lNi5J9rWTyCpH78vKVmhibmkvPLkNRxAMpY0=",
+    "originContent": "# Test app behavior with permissions...",
+    "translatedContent": "# Test app behavior with permissions..."
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "TIyvE662tUARtiZQKitEH0BjN3/xVGoyVlwiWItU7Vo=",
+    "originContent": "# Revoke permissions",
+    "translatedContent": "# Revoke permissions"
+  },
+  {
+    "row": 203,
+    "rowsha": "yE2tHVtrZZ8BZgAuLF5H0l+U4dmm1zpcf2XXBDGRjpk=",
+    "originContent": "python scripts/privacy_manager.py --bundle-id com.example.app --revoke camera,location",
+    "translatedContent": "python scripts/privacy_manager.py --bundle-id com.example.app --revoke camera,location"
+  },
+  {
+    "row": 204,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "EXvRDxGU+LzkCNppg7SnZ5bKIgzuDdueFSk/2lR2vLw=",
+    "originContent": "### Example 5: Device Lifecycle in CI/CD",
+    "translatedContent": "### Example 5: Device Lifecycle in CI/CD"
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 209,
+    "rowsha": "APL4QcWhwrDR3jom0jaV+swzpL/qNU4cGnEdRpIh2kY=",
+    "originContent": "# Create test device",
+    "translatedContent": "# Create test device"
+  },
+  {
+    "row": 210,
+    "rowsha": "90C9Y/phQZIMMkLJ/pEA9GVsl5EqG6sjfEaTJpVm4g8=",
+    "originContent": "DEVICE_ID=$(python scripts/simctl_create.py --device \"iPhone 16 Pro\" --json | jq -r '.new_udid')",
+    "translatedContent": "DEVICE_ID=$(python scripts/simctl_create.py --device \"iPhone 16 Pro\" --json | jq -r '.new_udid')"
+  },
+  {
+    "row": 211,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 212,
+    "rowsha": "tHNnyKNSkagtJZOFqKnkFV8ViCmgW+rly9Ij4SArNr4=",
+    "originContent": "# Run tests",
+    "translatedContent": "# Run tests"
+  },
+  {
+    "row": 213,
+    "rowsha": "6Zxcn4z7c0IWBlQ0ZbZZtKg9Dtek/SYdVnz1n+MeMOo=",
+    "originContent": "python scripts/build_and_test.py --project MyApp.xcodeproj",
+    "translatedContent": "python scripts/build_and_test.py --project MyApp.xcodeproj"
+  },
+  {
+    "row": 214,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 215,
+    "rowsha": "zIde+Go7kN2ZrfK0iJl51XrtXdeiVnWqNshbQz5ydZ8=",
+    "originContent": "# Clean up",
+    "translatedContent": "# Clean up"
+  },
+  {
+    "row": 216,
+    "rowsha": "clgrPDuXg1jTrSYBhAqmwbCK+09zECKx54ONkYoYynw=",
+    "originContent": "python scripts/simctl_delete.py --udid $DEVICE_ID --yes",
+    "translatedContent": "python scripts/simctl_delete.py --udid $DEVICE_ID --yes"
+  },
+  {
+    "row": 217,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 218,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 219,
+    "rowsha": "JpUvOecDxWFNCEfgH+Nx3tPYqiZlx7BxebQymWZ3cDY=",
+    "originContent": "## Design Principles",
+    "translatedContent": "## Design Principles"
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "IZ0D/vvIazlHlvWtcCfqMlGVt8xIqFzUHEx8SnA7OBA=",
+    "originContent": "**Semantic Navigation**: Find elements by meaning (text, type, ID) not pixel coordinates. Survives UI changes and works across device sizes.",
+    "translatedContent": "**Semantic Navigation**: Find elements by meaning (text, type, ID) not pixel coordinates. Survives UI changes and works across device sizes."
+  },
+  {
+    "row": 222,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 223,
+    "rowsha": "eyL2uNkbUIgBjl+pQk6pAaCZiq6kijrRNXxgRQSVjMQ=",
+    "originContent": "**Token Efficiency**: Default output is 3-5 lines. Use `--verbose` for details or `--json` for machine parsing. 96% reduction vs raw tools.",
+    "translatedContent": "**Token Efficiency**: Default output is 3-5 lines. Use `--verbose` for details or `--json` for machine parsing. 96% reduction vs raw tools."
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "t5hpuKfxNWH+fAVfiEzNXD91lfSjXS3Cd2tBRUI8UZo=",
+    "originContent": "**Accessibility-First**: Built on iOS accessibility APIs for reliability. Better for users with accessibility needs and more robust for automation.",
+    "translatedContent": "**Accessibility-First**: Built on iOS accessibility APIs for reliability. Better for users with accessibility needs and more robust for automation."
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "JIFunogHCs5E9Oyl/NAHEdykhmet0cHQ8E6088VNk3g=",
+    "originContent": "**Zero Configuration**: Works immediately on any macOS with Xcode. No complex setup, no configuration files.",
+    "translatedContent": "**Zero Configuration**: Works immediately on any macOS with Xcode. No complex setup, no configuration files."
+  },
+  {
+    "row": 228,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 229,
+    "rowsha": "9AHxk/PvleXU0cFQg8uoNLtSkfoJ5rQ+Y4fukEk17Kc=",
+    "originContent": "**Structured Data**: Scripts output JSON or formatted text, not raw logs. Easy to parse, integrate, and understand.",
+    "translatedContent": "**Structured Data**: Scripts output JSON or formatted text, not raw logs. Easy to parse, integrate, and understand."
+  },
+  {
+    "row": 230,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 231,
+    "rowsha": "PKv51cklbRUwOaBUT6+DWIgvehvwFy0lhGhmRxdn2Bg=",
+    "originContent": "**Auto-Learning**: Build system learns your device preference and remembers it for next time.",
+    "translatedContent": "**Auto-Learning**: Build system learns your device preference and remembers it for next time."
+  },
+  {
+    "row": 232,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 233,
+    "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+    "originContent": "## Requirements",
+    "translatedContent": "## Requirements"
+  },
+  {
+    "row": 234,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 235,
+    "rowsha": "+YYbx2XjP9d30sr/CkgUX+k/CuA0B+174GzeNSi0uJY=",
+    "originContent": "**System:**",
+    "translatedContent": "**System:**"
+  },
+  {
+    "row": 236,
+    "rowsha": "drsgILQmqwmAdYvujzEDW63Vwme9KJ14WlYh6HjeZXo=",
+    "originContent": "- macOS 12 or later",
+    "translatedContent": "- macOS 12 or later"
+  },
+  {
+    "row": 237,
+    "rowsha": "qFhujePus/20piqPPT9Cw/SrY1cniPWBHLs6ugtuhys=",
+    "originContent": "- Xcode Command Line Tools",
+    "translatedContent": "- Xcode Command Line Tools"
+  },
+  {
+    "row": 238,
+    "rowsha": "HTerym/wI4YwME9VU6BtEvVUHQ1Jn2k7/olreKiMzsM=",
+    "originContent": "- Python 3",
+    "translatedContent": "- Python 3"
+  },
+  {
+    "row": 239,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 240,
+    "rowsha": "ZdqQj07GkVUeDPbtwz2sNQmj/nNIsyBg7jUi34q2xxc=",
+    "originContent": "**Optional:**",
+    "translatedContent": "**Optional:**"
+  },
+  {
+    "row": 241,
+    "rowsha": "ogOde25ombEb85kz01WW3WDVKHafG78Ol7wPbgL25J4=",
+    "originContent": "- IDB (for interactive features)",
+    "translatedContent": "- IDB (for interactive features)"
+  },
+  {
+    "row": 242,
+    "rowsha": "/35/FmBRdgz3VT5cQYvIQyDs4+lABaBuwRxT34KyYWc=",
+    "originContent": "- Pillow (for visual_diff.py: `pip3 install pillow`)",
+    "translatedContent": "- Pillow (for visual_diff.py: `pip3 install pillow`)"
+  },
+  {
+    "row": 243,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 244,
+    "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+    "originContent": "## Documentation",
+    "translatedContent": "## Documentation"
+  },
+  {
+    "row": 245,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 246,
+    "rowsha": "tbuCOj3mnt5X9GEoKNfEI8ZAOOe5q+PYDMg6cupel9Y=",
+    "originContent": "- **SKILL.md** - Complete script reference and table of contents",
+    "translatedContent": "- **SKILL.md** - Complete script reference and table of contents"
+  },
+  {
+    "row": 247,
+    "rowsha": "PQt9pKdqvrPDhY2mI+OTqg50rDMhOuJRc9d56K4+M8E=",
+    "originContent": "- **CLAUDE.md** - Architecture and developer guide",
+    "translatedContent": "- **CLAUDE.md** - Architecture and developer guide"
+  },
+  {
+    "row": 248,
+    "rowsha": "NdsMgQ6X6XParsmu4TAMoJf0j0e5RDEqf2dSsiYduIM=",
+    "originContent": "- **references/** - Deep documentation on specific topics",
+    "translatedContent": "- **references/** - Deep documentation on specific topics"
+  },
+  {
+    "row": 249,
+    "rowsha": "obH2zUYRytWLGt+vsYokG1GNACBv6f6Q+yLkw9BjZzE=",
+    "originContent": "- **examples/** - Complete automation workflows",
+    "translatedContent": "- **examples/** - Complete automation workflows"
+  },
+  {
+    "row": 250,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 251,
+    "rowsha": "7Bc7SO8yDvMjuMSTHjE5pTy/yO8MP9OVAadG8QWht+s=",
+    "originContent": "## Output Efficiency",
+    "translatedContent": "## Output Efficiency"
+  },
+  {
+    "row": 252,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 253,
+    "rowsha": "OWRMQVJEebbf9lO3sabXIYsjgQeQ3KZZAlGm38IqN7g=",
+    "originContent": "All scripts minimize output by default:",
+    "translatedContent": "All scripts minimize output by default:"
+  },
+  {
+    "row": 254,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 255,
+    "rowsha": "95Fyj1TlIO7nNEwcUtO3U7FGTEUA/ymAecsi4OwWy7A=",
+    "originContent": "| Task | Raw Tools | This Skill | Savings |",
+    "translatedContent": "| Task | Raw Tools | This Skill | Savings |"
+  },
+  {
+    "row": 256,
+    "rowsha": "kln6TYuD14TpcIOBuTq0No4crYvBytZIqZr5HC6Omro=",
+    "originContent": "|------|-----------|-----------|---------|",
+    "translatedContent": "|------|-----------|-----------|---------|"
+  },
+  {
+    "row": 257,
+    "rowsha": "WNjRhKBQDXAbj9/VBq+xuALwt5r9vjJTwEk4IJHaxrE=",
+    "originContent": "| Screen analysis | 200+ lines | 5 lines | 97.5% |",
+    "translatedContent": "| Screen analysis | 200+ lines | 5 lines | 97.5% |"
+  },
+  {
+    "row": 258,
+    "rowsha": "eY8CuKM7cM89whYpYAFhsOt7R7L1KXfVXpxokNNiOAI=",
+    "originContent": "| Find & tap button | 100+ lines | 1 line | 99% |",
+    "translatedContent": "| Find & tap button | 100+ lines | 1 line | 99% |"
+  },
+  {
+    "row": 259,
+    "rowsha": "T8Co6KVvv6NUNzkZz2owO9WPnAtUm1aWMo9wSO4lfQk=",
+    "originContent": "| Enter text | 50+ lines | 1 line | 98% |",
+    "translatedContent": "| Enter text | 50+ lines | 1 line | 98% |"
+  },
+  {
+    "row": 260,
+    "rowsha": "VKe7tuTFnY49mk/IHCvokN4o5m7FOPDzV3nqdNn4g+A=",
+    "originContent": "| Login flow | 400+ lines | 15 lines | 96% |",
+    "translatedContent": "| Login flow | 400+ lines | 15 lines | 96% |"
+  },
+  {
+    "row": 261,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 262,
+    "rowsha": "/znHd8qHjUT0Hc03catvSfqoYGb3nj4SKb/3uXZfAZI=",
+    "originContent": "This efficiency keeps AI agent conversations focused and cost-effective.",
+    "translatedContent": "This efficiency keeps AI agent conversations focused and cost-effective."
+  },
+  {
+    "row": 263,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 264,
+    "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+    "originContent": "## Troubleshooting",
+    "translatedContent": "## Troubleshooting"
+  },
+  {
+    "row": 265,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 266,
+    "rowsha": "7HwRt/pbt6uG+Vs79W2CIOwBGlQpIal07ZUXXFB+WXk=",
+    "originContent": "### Environment Issues",
+    "translatedContent": "### Environment Issues"
+  },
+  {
+    "row": 267,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 268,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 269,
+    "rowsha": "Zz+ydmrJ8LQ4QxfqZIxAwquIZmCOJxC9Y53dpJqXECA=",
+    "originContent": "# Run health check",
+    "translatedContent": "# Run health check"
+  },
+  {
+    "row": 270,
+    "rowsha": "97BniElmQuPoweTj4zcJQDM0o2wxCFwWF5X+vVCGgWI=",
+    "originContent": "bash ~/.claude/skills/ios-simulator-skill/scripts/sim_health_check.sh",
+    "translatedContent": "bash ~/.claude/skills/ios-simulator-skill/scripts/sim_health_check.sh"
+  },
+  {
+    "row": 271,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 272,
+    "rowsha": "od7IkIYXT7jYZrpdI74O09KxqJMeyu21wNAkJ+SFB3c=",
+    "originContent": "# Checks: macOS, Xcode, simctl, IDB, Python, simulators, packages",
+    "translatedContent": "# Checks: macOS, Xcode, simctl, IDB, Python, simulators, packages"
+  },
+  {
+    "row": 273,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 274,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 275,
+    "rowsha": "C0OmejwBDtif5tpcOtc4b2mBbLuEFIzZN/GHfWtgRIg=",
+    "originContent": "### Script Help",
+    "translatedContent": "### Script Help"
+  },
+  {
+    "row": 276,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 277,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 278,
+    "rowsha": "7xP+rN0uc//H68Wjkpql71Ffhb+il+x5K14Jjft1Hso=",
+    "originContent": "# All scripts support --help",
+    "translatedContent": "# All scripts support --help"
+  },
+  {
+    "row": 279,
+    "rowsha": "2s9jR44hUlt5m8El5pExXDB/EVZudYn7mHr5ysb4ye8=",
+    "originContent": "python scripts/navigator.py --help",
+    "translatedContent": "python scripts/navigator.py --help"
+  },
+  {
+    "row": 280,
+    "rowsha": "SBe1qNOLj8+zXeR0ed5Td2pAZmMcJy8F1yKGEb6uXtA=",
+    "originContent": "python scripts/accessibility_audit.py --help",
+    "translatedContent": "python scripts/accessibility_audit.py --help"
+  },
+  {
+    "row": 281,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 282,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 283,
+    "rowsha": "9h3l4UfaGWTUz4wf8eRQ4nCi9FKSfREXqyjnGO6IUMM=",
+    "originContent": "### Not Finding Elements",
+    "translatedContent": "### Not Finding Elements"
+  },
+  {
+    "row": 284,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 285,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 286,
+    "rowsha": "1BAC2Psq9ivHaYvOiqzxdJYhFnE+l7CQMkqS03OKWuE=",
+    "originContent": "# Use verbose mode to see all elements",
+    "translatedContent": "# Use verbose mode to see all elements"
+  },
+  {
+    "row": 287,
+    "rowsha": "vAZlRhS3N9cgDXXM4Poto5QXv04XXr4XbX78SOMJ9io=",
+    "originContent": "python scripts/screen_mapper.py --verbose",
+    "translatedContent": "python scripts/screen_mapper.py --verbose"
+  },
+  {
+    "row": 288,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 289,
+    "rowsha": "ji1aRdGztuTgHypbT9Iaaqxk2dhRLNiWjwNF925J0TE=",
+    "originContent": "# Check for exact text match",
+    "translatedContent": "# Check for exact text match"
+  },
+  {
+    "row": 290,
+    "rowsha": "d1EcxqYhvSt0/qCdf1K3ugyv1zOpsDetCUr44a3oz1s=",
+    "originContent": "python scripts/navigator.py --find-text \"Exact Button Text\" --tap",
+    "translatedContent": "python scripts/navigator.py --find-text \"Exact Button Text\" --tap"
+  },
+  {
+    "row": 291,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 292,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 293,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## Contributing"
+  },
+  {
+    "row": 294,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 295,
+    "rowsha": "UwgYQBjy0nz5E6t9LjVQtHJqyeona55z+Bzvov/tNNY=",
+    "originContent": "Contributions should:",
+    "translatedContent": "Contributions should:"
+  },
+  {
+    "row": 296,
+    "rowsha": "PGHPSU0v1Xiyq05pT0SIW8RvyV66wg8QN5cmQcruaz4=",
+    "originContent": "- Maintain token efficiency (minimal default output)",
+    "translatedContent": "- Maintain token efficiency (minimal default output)"
+  },
+  {
+    "row": 297,
+    "rowsha": "DYbJmyMZrVBxo1+gqY48RCv11UIyRNRAsMMzKc+KjFY=",
+    "originContent": "- Follow accessibility-first design",
+    "translatedContent": "- Follow accessibility-first design"
+  },
+  {
+    "row": 298,
+    "rowsha": "iOKZ1eF9kbRB/4ZK9CrvbBeNmaWmGYZls3482p7mIzw=",
+    "originContent": "- Support `--help` documentation",
+    "translatedContent": "- Support `--help` documentation"
+  },
+  {
+    "row": 299,
+    "rowsha": "aiqp6CryT2hrM/zjuXboFD7zfeetb4CxcWXmP4XYCvE=",
+    "originContent": "- Support `--json` for CI/CD",
+    "translatedContent": "- Support `--json` for CI/CD"
+  },
+  {
+    "row": 300,
+    "rowsha": "YPXZoUlsiWJh16ozUY4YOA7NexoO+eJh6UTZzLw+anY=",
+    "originContent": "- Pass Black formatter and Ruff linter",
+    "translatedContent": "- Pass Black formatter and Ruff linter"
+  },
+  {
+    "row": 301,
+    "rowsha": "2duAktXPI9/Ky67Cpa8n5ecPixT9ZjjlTReR8Yf19AA=",
+    "originContent": "- Include type hints",
+    "translatedContent": "- Include type hints"
+  },
+  {
+    "row": 302,
+    "rowsha": "Gz0311CQmyR+910dNFtgOym4eLQoly9daF2qqLADR44=",
+    "originContent": "- Update SKILL.md",
+    "translatedContent": "- Update SKILL.md"
+  },
+  {
+    "row": 303,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 304,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## License"
+  },
+  {
+    "row": 305,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 306,
+    "rowsha": "S1FF0aVrFsm3NDbzPm67V7lKap9J7hUKjrx9KHvEamQ=",
+    "originContent": "MIT License - Allows commercial use and distribution.",
+    "translatedContent": "MIT License - Allows commercial use and distribution."
+  },
+  {
+    "row": 307,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 308,
+    "rowsha": "IomX/Z8fZRvFPjDCjVVFhdA00U2wXcfNBs9BCtGX13M=",
+    "originContent": "## Support",
+    "translatedContent": "## Support"
+  },
+  {
+    "row": 309,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 310,
+    "rowsha": "3AduRW6YFu1TN0/3zQ/2PgK+wGIIXz4u9qgeAi9Sajo=",
+    "originContent": "- **Issues**: Create GitHub issue with reproduction steps",
+    "translatedContent": "- **Issues**: Create GitHub issue with reproduction steps"
+  },
+  {
+    "row": 311,
+    "rowsha": "lL7QeWbbfF8OZ36VZUBISOUphqldOqIcqFHIlMGI81o=",
+    "originContent": "- **Documentation**: See SKILL.md and references/",
+    "translatedContent": "- **Documentation**: See SKILL.md and references/"
+  },
+  {
+    "row": 312,
+    "rowsha": "ayGZ7+ZBP53GJ7MsdsKrfWEUuPpaLl9DVWn4MrY+gA4=",
+    "originContent": "- **Examples**: Check examples/ directory",
+    "translatedContent": "- **Examples**: Check examples/ directory"
+  },
+  {
+    "row": 313,
+    "rowsha": "1ym4PYoGhBKkSFERm41lPGMjG6QgZkHvlhB9s0XbqGA=",
+    "originContent": "- **Skills Docs**: https://docs.claude.com/en/docs/claude-code/skills",
+    "translatedContent": "- **Skills Docs**: https://docs.claude.com/en/docs/claude-code/skills"
+  },
+  {
+    "row": 314,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 315,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 316,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 317,
+    "rowsha": "uyMbZw40CUcP5je5Ffh8Wusr2XnNJwxPqx+N6u5Nf6s=",
+    "originContent": "**Built for AI agents. Optimized for developers.**",
+    "translatedContent": "**Built for AI agents. Optimized for developers.**"
+  },
+  {
+    "row": 318,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

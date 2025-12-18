@@ -1,0 +1,2287 @@
+[
+  {
+    "Id": 1,
+    "Content": "# iOS Simulator Skill for Claude Code\n\nProduction-ready automation for iOS app testing and building. 21 scripts optimized for both human developers and AI agents.\n\nThis is basically a Skill version of my XCode MCP: [https://github.com/conorluddy/xc-mcp](https://github.com/conorluddy/xc-mcp)\n\nMCPs load a lot of tokens into the context window when they're active, but also seem to work really well. Skills don't load in any context. I'll make a plugin next and try to find the balance...\n\nUpdated: The Plugin version lets you easily disable MCPs for different tool groups. Optimise your context window by only enabling the tools you're actively using, such as xcodebuild: [https://github.com/conorluddy/xclaude-plugin](https://github.com/conorluddy/xclaude-plugin)\n\n## What It Does\n\nInstead of pixel-based navigation that breaks when UI changes:\n",
+    "ContentSha": "i8gKUXRqHBJ9dgrkzZmZywx4ZhOCAhyk8Ey3rxkfgZA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# iOS 시뮬레이터 스킬 for Claude Code\n\niOS 앱 테스트 및 빌드를 위한 프로덕션 준비 자동화. 인간 개발자와 AI 에이전트 모두에 최적화된 21개의 스크립트.\n\n기본적으로 제 XCode MCP의 스킬 버전입니다: [https://github.com/conorluddy/xc-mcp](https://github.com/conorluddy/xc-mcp)\n\nMCP는 활성화되면 많은 토큰을 컨텍스트 창에 로드하지만, 매우 잘 작동하는 것 같습니다. 스킬은 어떤 컨텍스트도 로드하지 않습니다. 다음에는 플러그인을 만들어 균형을 찾으려 합니다...\n\n업데이트: 플러그인 버전은 다양한 도구 그룹에 대해 MCP를 쉽게 비활성화할 수 있습니다. xcodebuild와 같은 현재 사용 중인 도구만 활성화하여 컨텍스트 창을 최적화하세요: [https://github.com/conorluddy/xclaude-plugin](https://github.com/conorluddy/xclaude-plugin)\n\n## 기능\n\nUI가 변경될 때 깨지는 픽셀 기반 내비게이션 대신:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "snR2VL3qBQ+I3nAS+oF3hdAZHVud5FApswRfwea7nDA=",
+        "originContent": "# iOS Simulator Skill for Claude Code",
+        "translatedContent": "# iOS 시뮬레이터 스킬 for Claude Code"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Py17f+o5iSciQ0DqdpoZhsoZPaxLctdN2UBljpgY/6g=",
+        "originContent": "Production-ready automation for iOS app testing and building. 21 scripts optimized for both human developers and AI agents.",
+        "translatedContent": "iOS 앱 테스트 및 빌드를 위한 프로덕션 준비 자동화. 인간 개발자와 AI 에이전트 모두에 최적화된 21개의 스크립트."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "HMoOQM8y0gZf94yoL62X0tXK8BoGqsyciX3HchIk9b4=",
+        "originContent": "This is basically a Skill version of my XCode MCP: [https://github.com/conorluddy/xc-mcp](https://github.com/conorluddy/xc-mcp)",
+        "translatedContent": "기본적으로 제 XCode MCP의 스킬 버전입니다: [https://github.com/conorluddy/xc-mcp](https://github.com/conorluddy/xc-mcp)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "UlHB/leUTTYjn7cxg+OVv5HkK+DQMcKtOJknsR/v554=",
+        "originContent": "MCPs load a lot of tokens into the context window when they're active, but also seem to work really well. Skills don't load in any context. I'll make a plugin next and try to find the balance...",
+        "translatedContent": "MCP는 활성화되면 많은 토큰을 컨텍스트 창에 로드하지만, 매우 잘 작동하는 것 같습니다. 스킬은 어떤 컨텍스트도 로드하지 않습니다. 다음에는 플러그인을 만들어 균형을 찾으려 합니다..."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "iECidp+lQ3k29NEBZO1MrlmLJD8KvlhYtoxrgxMS+t4=",
+        "originContent": "Updated: The Plugin version lets you easily disable MCPs for different tool groups. Optimise your context window by only enabling the tools you're actively using, such as xcodebuild: [https://github.com/conorluddy/xclaude-plugin](https://github.com/conorluddy/xclaude-plugin)",
+        "translatedContent": "업데이트: 플러그인 버전은 다양한 도구 그룹에 대해 MCP를 쉽게 비활성화할 수 있습니다. xcodebuild와 같은 현재 사용 중인 도구만 활성화하여 컨텍스트 창을 최적화하세요: [https://github.com/conorluddy/xclaude-plugin](https://github.com/conorluddy/xclaude-plugin)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "rw89HDMgBuYwuw8tIc0oh+XixRwWo1YATU62BWAKX5Q=",
+        "originContent": "## What It Does",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "UdSLQSzv6/d5EOk0DLeCHl7Wa3myJkdcraZOrAno52k=",
+        "originContent": "Instead of pixel-based navigation that breaks when UI changes:",
+        "translatedContent": "UI가 변경될 때 깨지는 픽셀 기반 내비게이션 대신:"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\n# Fragile - breaks if UI changes\nidb ui tap 320 400\n\n# Robust - finds by meaning\npython scripts/navigator.py --find-text \"Login\" --tap\n```",
+    "ContentSha": "vvAXzw9YUNUkI9HpjoIX6scXkSRvU+Z7GO6F4bGC8WU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Fragile - breaks if UI changes\nidb ui tap 320 400\n\n# Robust - finds by meaning\npython scripts/navigator.py --find-text \"Login\" --tap\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xea7Rh+GYGjdi0JsptyltaRyCpVp1L+SV1Dqa69Okq4=",
+        "originContent": "# Fragile - breaks if UI changes",
+        "translatedContent": "# Fragile - breaks if UI changes"
+      },
+      {
+        "row": 3,
+        "rowsha": "TmDRv0341Vsi2+4NaQyc1T2EY+JYGYIj6U+gvswrp84=",
+        "originContent": "idb ui tap 320 400",
+        "translatedContent": "idb ui tap 320 400"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "B5GCXg0WqeVQYHDFtRnm4s0qXpyATBAWsjB15UO3Kzg=",
+        "originContent": "# Robust - finds by meaning",
+        "translatedContent": "# Robust - finds by meaning"
+      },
+      {
+        "row": 6,
+        "rowsha": "rTJHEHnK5SQiu1jKughl9KMU2i1eHlfBDU5tVc6HbTs=",
+        "originContent": "python scripts/navigator.py --find-text \"Login\" --tap",
+        "translatedContent": "python scripts/navigator.py --find-text \"Login\" --tap"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nUses semantic navigation on accessibility APIs to interact with elements by their meaning, not coordinates. Works across different screen sizes and survives UI redesigns.\n\n## Features\n\n- **21 production scripts** for building, testing, and automation\n- **Semantic navigation** - find elements by text, type, or ID\n- **Token optimized** - 96% reduction vs raw tools (3-5 lines default)\n- **Zero configuration** - works immediately on macOS with Xcode\n- **Structured output** - JSON and formatted text, easy to parse\n- **Auto-UDID detection** - no need to specify device each time\n- **Batch operations** - boot, delete, erase multiple simulators at once\n- **Comprehensive testing** - WCAG compliance, visual diffs, accessibility audits\n- **CI/CD ready** - JSON output, exit codes, automated device lifecycle\n\n## Installation\n\n### As Claude Code Skill\n",
+    "ContentSha": "lWi/R6LRmwnvU/vlTQVfjD0i2C2Uir7fLDqALdnSrys=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "접근성 API에서 의미에 기반한 시맨틱 내비게이션을 사용하여 좌표가 아닌 의미로 요소와 상호작용합니다. 다양한 화면 크기에서 작동하며 UI 재설계 시에도 유지됩니다.\n\n## 기능\n\n- **21개의 프로덕션 스크립트** 빌드, 테스트 및 자동화용\n- **시맨틱 내비게이션** - 텍스트, 타입 또는 ID로 요소 찾기\n- **토큰 최적화** - 원시 도구 대비 96% 감소 (기본 3-5줄)\n- **제로 설정** - macOS에서 Xcode와 즉시 작동\n- **구조화된 출력** - JSON 및 형식화된 텍스트, 파싱 용이\n- **자동 UDID 감지** - 매번 기기 지정 불필요\n- **일괄 작업** - 여러 시뮬레이터 한 번에 부팅, 삭제, 초기화\n- **포괄적 테스트** - WCAG 준수, 시각적 차이, 접근성 감사\n- **CI/CD 준비 완료** - JSON 출력, 종료 코드, 자동화된 기기 수명주기\n\n## 설치\n\n### 클로드 코드 스킬로서\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "접근성 API에서 의미에 기반한 시맨틱 내비게이션을 사용하여 좌표가 아닌 의미로 요소와 상호작용합니다. 다양한 화면 크기에서 작동하며 UI 재설계 시에도 유지됩니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "IhtlPyRfuDd/O7PLtHS1Q+AplTtZ69LZmv9FJ191fgU=",
+        "originContent": "Uses semantic navigation on accessibility APIs to interact with elements by their meaning, not coordinates. Works across different screen sizes and survives UI redesigns.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 4,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **21개의 프로덕션 스크립트** 빌드, 테스트 및 자동화용"
+      },
+      {
+        "row": 6,
+        "rowsha": "pcXiCQ2W3xBcyHYOObsa/Vnh3RAXvPGaaDxMzHbngMY=",
+        "originContent": "- **21 production scripts** for building, testing, and automation",
+        "translatedContent": "- **시맨틱 내비게이션** - 텍스트, 타입 또는 ID로 요소 찾기"
+      },
+      {
+        "row": 7,
+        "rowsha": "+OU9vo8jDAMKtgZqdXKeSps8l67P36Pa8lHA0d3VaYw=",
+        "originContent": "- **Semantic navigation** - find elements by text, type, or ID",
+        "translatedContent": "- **토큰 최적화** - 원시 도구 대비 96% 감소 (기본 3-5줄)"
+      },
+      {
+        "row": 8,
+        "rowsha": "uNRK6fPuqGkH9w74IuskHKyOs9XijrADD7otFQgqrpI=",
+        "originContent": "- **Token optimized** - 96% reduction vs raw tools (3-5 lines default)",
+        "translatedContent": "- **제로 설정** - macOS에서 Xcode와 즉시 작동"
+      },
+      {
+        "row": 9,
+        "rowsha": "q5y0YHfMcSRPXkGXXDYRbKasYWuvLHDNolLB6Y+Lx6Y=",
+        "originContent": "- **Zero configuration** - works immediately on macOS with Xcode",
+        "translatedContent": "- **구조화된 출력** - JSON 및 형식화된 텍스트, 파싱 용이"
+      },
+      {
+        "row": 10,
+        "rowsha": "tDaNlfr5xezY0w3D4OIq974DD3/XezriIazixmwM6bQ=",
+        "originContent": "- **Structured output** - JSON and formatted text, easy to parse",
+        "translatedContent": "- **자동 UDID 감지** - 매번 기기 지정 불필요"
+      },
+      {
+        "row": 11,
+        "rowsha": "9lS06LLfui2iayKu7IPeW6QCQB7lp1mZP7c1JMAhIK8=",
+        "originContent": "- **Auto-UDID detection** - no need to specify device each time",
+        "translatedContent": "- **일괄 작업** - 여러 시뮬레이터 한 번에 부팅, 삭제, 초기화"
+      },
+      {
+        "row": 12,
+        "rowsha": "4/UVyScSMfzLhK95J7qND0btU8TQQpYlNoRofLbF3Bc=",
+        "originContent": "- **Batch operations** - boot, delete, erase multiple simulators at once",
+        "translatedContent": "- **포괄적 테스트** - WCAG 준수, 시각적 차이, 접근성 감사"
+      },
+      {
+        "row": 13,
+        "rowsha": "eYvP0wxhD3xO+U6RI0Fgkw1l1jErpGDa8rVLpoHVBi4=",
+        "originContent": "- **Comprehensive testing** - WCAG compliance, visual diffs, accessibility audits",
+        "translatedContent": "- **CI/CD 준비 완료** - JSON 출력, 종료 코드, 자동화된 기기 수명주기"
+      },
+      {
+        "row": 14,
+        "rowsha": "Pjj4XhcxltysDuPV9SJSSyU1rlGxrR+hBF0zUEvetFE=",
+        "originContent": "- **CI/CD ready** - JSON output, exit codes, automated device lifecycle",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 16,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 클로드 코드 스킬로서"
+      },
+      {
+        "row": 18,
+        "rowsha": "dv17xuApkG8VZMx7NHDefMPD4xlEmZdKAjLbJfCrgLg=",
+        "originContent": "### As Claude Code Skill",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n# Personal installation\ngit clone https://github.com/conorluddy/ios-simulator-skill.git ~/.claude/skills/ios-simulator-skill\n\n# Project installation\ngit clone https://github.com/conorluddy/ios-simulator-skill.git .claude/skills/ios-simulator-skill\n```",
+    "ContentSha": "lfR38tUBB0kj1ey7S2sQjZt7Af7gtZHNJv3S+74EJDA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Personal installation\ngit clone https://github.com/conorluddy/ios-simulator-skill.git ~/.claude/skills/ios-simulator-skill\n\n# Project installation\ngit clone https://github.com/conorluddy/ios-simulator-skill.git .claude/skills/ios-simulator-skill\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "MgnPQOgio+XgQd5fs/2BAwObRfqFj3kHHlmBPrPF5k0=",
+        "originContent": "# Personal installation",
+        "translatedContent": "# Personal installation"
+      },
+      {
+        "row": 3,
+        "rowsha": "fDqYVi+HjxV0f8OquWDdhtfpZQ/dRdsyQFU6R6seY5g=",
+        "originContent": "git clone https://github.com/conorluddy/ios-simulator-skill.git ~/.claude/skills/ios-simulator-skill",
+        "translatedContent": "git clone https://github.com/conorluddy/ios-simulator-skill.git ~/.claude/skills/ios-simulator-skill"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "OFdmECco0pWhyposS0O9so7+pw99wH7Vp9rRkcb7C1w=",
+        "originContent": "# Project installation",
+        "translatedContent": "# Project installation"
+      },
+      {
+        "row": 6,
+        "rowsha": "Q0gh4PacMArSj1KIiWaSzSu1AraG27fffb2g2LEDNrw=",
+        "originContent": "git clone https://github.com/conorluddy/ios-simulator-skill.git .claude/skills/ios-simulator-skill",
+        "translatedContent": "git clone https://github.com/conorluddy/ios-simulator-skill.git .claude/skills/ios-simulator-skill"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nRestart Claude Code. The skill loads automatically.\n\n### From Release\n",
+    "ContentSha": "bMhEWxOetZSiVpGjct4xJizNlB+R4hG4KuwXepWXHto=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Claude Code를 재시작하세요. 스킬이 자동으로 로드됩니다.\n\n### 릴리스부터\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Claude Code를 재시작하세요. 스킬이 자동으로 로드됩니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "CXr3pPNPRFAtqr3KkFNqSeRkc0f3ci1OekpvPR5EucI=",
+        "originContent": "Restart Claude Code. The skill loads automatically.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 릴리스부터"
+      },
+      {
+        "row": 4,
+        "rowsha": "FkaQe+Zl38nNn9z6ca+9mqy3cwTioK7/lH/caYH2c38=",
+        "originContent": "### From Release",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n# Download latest release\ncurl -L https://github.com/conorluddy/ios-simulator-skill/releases/download/vX.X.X/ios-simulator-skill-vX.X.X.zip -o skill.zip\n\n# Extract\nunzip skill.zip -d ~/.claude/skills/ios-simulator-skill\n```",
+    "ContentSha": "uWlS3ZN54nOgHnIjFearNEoboNor+H+a4kByUNyZ5ys=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Download latest release\ncurl -L https://github.com/conorluddy/ios-simulator-skill/releases/download/vX.X.X/ios-simulator-skill-vX.X.X.zip -o skill.zip\n\n# Extract\nunzip skill.zip -d ~/.claude/skills/ios-simulator-skill\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ObpbjU425ZA5RHfLwV4ZDxZ1TWKpIjhsLAA+ZnLwq+g=",
+        "originContent": "# Download latest release",
+        "translatedContent": "# Download latest release"
+      },
+      {
+        "row": 3,
+        "rowsha": "n7DqMZeweL2O3pq605eOuslXlAImT1/9fXKKwPPzfiQ=",
+        "originContent": "curl -L https://github.com/conorluddy/ios-simulator-skill/releases/download/vX.X.X/ios-simulator-skill-vX.X.X.zip -o skill.zip",
+        "translatedContent": "curl -L https://github.com/conorluddy/ios-simulator-skill/releases/download/vX.X.X/ios-simulator-skill-vX.X.X.zip -o skill.zip"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "UJy6nZBHuJhXFIsHjNJbzWV6xuJiRRuX99tlxERe+vg=",
+        "originContent": "# Extract",
+        "translatedContent": "# Extract"
+      },
+      {
+        "row": 6,
+        "rowsha": "K9AHU07gQblnWRhVT6quvJov4Oql1ChInluT9rqXky0=",
+        "originContent": "unzip skill.zip -d ~/.claude/skills/ios-simulator-skill",
+        "translatedContent": "unzip skill.zip -d ~/.claude/skills/ios-simulator-skill"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Prerequisites\n\n- macOS 12+\n- Xcode Command Line Tools (`xcode-select --install`)\n- Python 3\n- IDB (optional, for interactive features: `brew tap facebook/fb && brew install idb-companion`)\n\n## Quick Start\n",
+    "ContentSha": "hXqByA+Yd017mLNNnr+O8D0xRwFwFKGXFIk1kS+J83g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 전제 조건\n\n- macOS 12 이상\n- Xcode 명령어 도구 (`xcode-select --install`)\n- Python 3\n- IDB (선택 사항, 대화형 기능용: `brew tap facebook/fb && brew install idb-companion`)\n\n## 빠른 시작\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 전제 조건"
+      },
+      {
+        "row": 2,
+        "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+        "originContent": "## Prerequisites",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- macOS 12 이상"
+      },
+      {
+        "row": 4,
+        "rowsha": "IHGyeqEoX944MrxwSP9x7Aq0MIZl9d8zoANvVV+f/uU=",
+        "originContent": "- macOS 12+",
+        "translatedContent": "- Xcode 명령어 도구 (`xcode-select --install`)"
+      },
+      {
+        "row": 5,
+        "rowsha": "YTMMhcsQK9l8DKcwF5VpgQQ24aY5L2RJaO9uenDRAPs=",
+        "originContent": "- Xcode Command Line Tools (`xcode-select --install`)",
+        "translatedContent": "- Python 3"
+      },
+      {
+        "row": 6,
+        "rowsha": "HTerym/wI4YwME9VU6BtEvVUHQ1Jn2k7/olreKiMzsM=",
+        "originContent": "- Python 3",
+        "translatedContent": "- IDB (선택 사항, 대화형 기능용: `brew tap facebook/fb && brew install idb-companion`)"
+      },
+      {
+        "row": 7,
+        "rowsha": "kM8ILR/7EvKcAu8dH5KYC+LkxwyvOtuCKLZEt6/KsAw=",
+        "originContent": "- IDB (optional, for interactive features: `brew tap facebook/fb && brew install idb-companion`)",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 빠른 시작"
+      },
+      {
+        "row": 9,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n# 1. Check environment\nbash ~/.claude/skills/ios-simulator-skill/scripts/sim_health_check.sh\n\n# 2. Launch your app\npython ~/.claude/skills/ios-simulator-skill/scripts/app_launcher.py --launch com.example.app\n\n# 3. See what's on screen\npython ~/.claude/skills/ios-simulator-skill/scripts/screen_mapper.py\n# Output:\n# Screen: LoginViewController (45 elements, 7 interactive)\n# Buttons: \"Login\", \"Cancel\", \"Forgot Password\"\n# TextFields: 2 (0 filled)\n\n# 4. Tap login button\npython ~/.claude/skills/ios-simulator-skill/scripts/navigator.py --find-text \"Login\" --tap\n\n# 5. Enter text\npython ~/.claude/skills/ios-simulator-skill/scripts/navigator.py --find-type TextField --enter-text \"user@test.com\"\n\n# 6. Check accessibility\npython ~/.claude/skills/ios-simulator-skill/scripts/accessibility_audit.py\n```",
+    "ContentSha": "y9ZVVf5YDNMSIEPoYmXeevH6WMo9pqhycKm9r0zyCKQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# 1. Check environment\nbash ~/.claude/skills/ios-simulator-skill/scripts/sim_health_check.sh\n\n# 2. Launch your app\npython ~/.claude/skills/ios-simulator-skill/scripts/app_launcher.py --launch com.example.app\n\n# 3. See what's on screen\npython ~/.claude/skills/ios-simulator-skill/scripts/screen_mapper.py\n# Output:\n# Screen: LoginViewController (45 elements, 7 interactive)\n# Buttons: \"Login\", \"Cancel\", \"Forgot Password\"\n# TextFields: 2 (0 filled)\n\n# 4. Tap login button\npython ~/.claude/skills/ios-simulator-skill/scripts/navigator.py --find-text \"Login\" --tap\n\n# 5. Enter text\npython ~/.claude/skills/ios-simulator-skill/scripts/navigator.py --find-type TextField --enter-text \"user@test.com\"\n\n# 6. Check accessibility\npython ~/.claude/skills/ios-simulator-skill/scripts/accessibility_audit.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "BGMs3//2VR384uEAlzm+vLdrygMLjJAVeX2THzTBz6U=",
+        "originContent": "# 1. Check environment",
+        "translatedContent": "# 1. Check environment"
+      },
+      {
+        "row": 3,
+        "rowsha": "97BniElmQuPoweTj4zcJQDM0o2wxCFwWF5X+vVCGgWI=",
+        "originContent": "bash ~/.claude/skills/ios-simulator-skill/scripts/sim_health_check.sh",
+        "translatedContent": "bash ~/.claude/skills/ios-simulator-skill/scripts/sim_health_check.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "LRxdQDz4YhbP1cHuW5atXmRtDysQ0/Zkd8jDtrC9Y9A=",
+        "originContent": "# 2. Launch your app",
+        "translatedContent": "# 2. Launch your app"
+      },
+      {
+        "row": 6,
+        "rowsha": "0Wu+hlFfzc8jFIgI/uKIcWR9biltx24794pPqex84es=",
+        "originContent": "python ~/.claude/skills/ios-simulator-skill/scripts/app_launcher.py --launch com.example.app",
+        "translatedContent": "python ~/.claude/skills/ios-simulator-skill/scripts/app_launcher.py --launch com.example.app"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "l3c4yhgrJx7AVR6L4UKAhBqjuX/SQCl20djxhOAQmtU=",
+        "originContent": "# 3. See what's on screen",
+        "translatedContent": "# 3. See what's on screen"
+      },
+      {
+        "row": 9,
+        "rowsha": "DYfKu55smawygNrn9l5Z7sy3WkeGbjBMIx/7yVUDP18=",
+        "originContent": "python ~/.claude/skills/ios-simulator-skill/scripts/screen_mapper.py",
+        "translatedContent": "python ~/.claude/skills/ios-simulator-skill/scripts/screen_mapper.py"
+      },
+      {
+        "row": 10,
+        "rowsha": "YyU7Wn8KZiwO/DNGiqDH3Z2s1iMf/fvXP+5FXGBewkQ=",
+        "originContent": "# Output:",
+        "translatedContent": "# Output:"
+      },
+      {
+        "row": 11,
+        "rowsha": "VA01IV2+9NtuGhz20oEO7yOHSN0i8dZuWhGiWWqI3lo=",
+        "originContent": "# Screen: LoginViewController (45 elements, 7 interactive)",
+        "translatedContent": "# Screen: LoginViewController (45 elements, 7 interactive)"
+      },
+      {
+        "row": 12,
+        "rowsha": "42rNPSVT2tu8j6BkwD8NhZSvpUL5sLqWj2GHalPqaKw=",
+        "originContent": "# Buttons: \"Login\", \"Cancel\", \"Forgot Password\"",
+        "translatedContent": "# Buttons: \"Login\", \"Cancel\", \"Forgot Password\""
+      },
+      {
+        "row": 13,
+        "rowsha": "ccC4l2lEH0d8nsYZOFUY7g0nOTwcVk+MZYFHjr1toos=",
+        "originContent": "# TextFields: 2 (0 filled)",
+        "translatedContent": "# TextFields: 2 (0 filled)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "RRGMi8w1CX6YSsL9nFIZmANldb+nKlM5SHU9w5mUAQA=",
+        "originContent": "# 4. Tap login button",
+        "translatedContent": "# 4. Tap login button"
+      },
+      {
+        "row": 16,
+        "rowsha": "HICEG39WF0o2pu/fHG58lXlTohcLWdjfJsCLw/1j7Bc=",
+        "originContent": "python ~/.claude/skills/ios-simulator-skill/scripts/navigator.py --find-text \"Login\" --tap",
+        "translatedContent": "python ~/.claude/skills/ios-simulator-skill/scripts/navigator.py --find-text \"Login\" --tap"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "UlvhpuHx0ZkgBFThWvfUPL45ohqFm3Y97t8StJiPgMM=",
+        "originContent": "# 5. Enter text",
+        "translatedContent": "# 5. Enter text"
+      },
+      {
+        "row": 19,
+        "rowsha": "ZGG+B2hMRF2ZD9sAreQZwIwuxEC8b0aFEHx1724cy8o=",
+        "originContent": "python ~/.claude/skills/ios-simulator-skill/scripts/navigator.py --find-type TextField --enter-text \"user@test.com\"",
+        "translatedContent": "python ~/.claude/skills/ios-simulator-skill/scripts/navigator.py --find-type TextField --enter-text \"user@test.com\""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "+uGWK0spewfN9cQ6B62FS3rBqzNCvTTRlrH10KwOYA4=",
+        "originContent": "# 6. Check accessibility",
+        "translatedContent": "# 6. Check accessibility"
+      },
+      {
+        "row": 22,
+        "rowsha": "xpupAJS+5pA8Pkyhhdzjl5k0w74ho/nkUQna/y3SgXw=",
+        "originContent": "python ~/.claude/skills/ios-simulator-skill/scripts/accessibility_audit.py",
+        "translatedContent": "python ~/.claude/skills/ios-simulator-skill/scripts/accessibility_audit.py"
+      },
+      {
+        "row": 23,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## 21 Scripts Organized by Category\n\n### Build & Development\n- **build_and_test.py** - Build projects, run tests, parse results\n- **log_monitor.py** - Real-time log monitoring\n\n### Navigation & Interaction\n- **screen_mapper.py** - Analyze current screen\n- **navigator.py** - Find and interact with elements\n- **gesture.py** - Swipes, scrolls, pinches\n- **keyboard.py** - Text input and hardware buttons\n- **app_launcher.py** - App lifecycle control\n\n### Testing & Analysis\n- **accessibility_audit.py** - WCAG compliance checking\n- **visual_diff.py** - Screenshot comparison\n- **test_recorder.py** - Automated test documentation\n- **app_state_capture.py** - Debugging snapshots\n- **sim_health_check.sh** - Environment verification\n\n### Advanced Testing & Permissions\n- **clipboard.py** - Clipboard management\n- **status_bar.py** - Status bar control\n- **push_notification.py** - Push notifications\n- **privacy_manager.py** - Permission management\n\n### Device Lifecycle\n- **simctl_boot.py** - Boot simulator\n- **simctl_shutdown.py** - Shutdown simulator\n- **simctl_create.py** - Create simulator\n- **simctl_delete.py** - Delete simulator\n- **simctl_erase.py** - Factory reset\n\nSee **SKILL.md** for complete reference.\n\n## How It Works with Claude Code\n\nClaude Code automatically detects when to use this skill based on your request. You don't need to manually invoke it.\n",
+    "ContentSha": "N6/Ig29ARA2+ey4xMcY1qAWU6STi5mSKKTEdX63+FDw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 21개의 카테고리별 스크립트\n\n### 빌드 및 개발\n- **build_and_test.py** - 프로젝트 빌드, 테스트 실행, 결과 파싱\n- **log_monitor.py** - 실시간 로그 모니터링\n\n### 내비게이션 및 상호작용\n- **screen_mapper.py** - 현재 화면 분석\n- **navigator.py** - 요소 찾기 및 상호작용\n- **gesture.py** - 스와이프, 스크롤, 핀치\n- **keyboard.py** - 텍스트 입력 및 하드웨어 버튼\n- **app_launcher.py** - 앱 라이프사이클 제어\n\n### 테스트 및 분석\n- **accessibility_audit.py** - WCAG 준수 검사\n- **visual_diff.py** - 스크린샷 비교\n- **test_recorder.py** - 자동화 테스트 문서화\n- **app_state_capture.py** - 디버깅 스냅샷\n- **sim_health_check.sh** - 환경 검증\n\n### 고급 테스트 및 권한\n- **clipboard.py** - 클립보드 관리\n- **status_bar.py** - 상태 표시줄 제어\n- **push_notification.py** - 푸시 알림\n- **privacy_manager.py** - 권한 관리\n\n### 디바이스 라이프사이클\n- **simctl_boot.py** - 시뮬레이터 부팅\n- **simctl_shutdown.py** - 시뮬레이터 종료\n- **simctl_create.py** - 시뮬레이터 생성\n- **simctl_delete.py** - 시뮬레이터 삭제\n- **simctl_erase.py** - 공장 초기화\n\n전체 참조는 **SKILL.md**를 참조하세요.\n\n## Claude Code와의 작동 방식\n\nClaude Code는 요청에 따라 이 스킬을 자동으로 감지하여 사용합니다. 수동으로 호출할 필요가 없습니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 21개의 카테고리별 스크립트"
+      },
+      {
+        "row": 2,
+        "rowsha": "K/npcsHddjU2cHz1/9D7vIPy6IX73K0Q0Da5tdn40Mg=",
+        "originContent": "## 21 Scripts Organized by Category",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 빌드 및 개발"
+      },
+      {
+        "row": 4,
+        "rowsha": "ccvXcoe0W+lTBszVh/nIC+6oORvXp7xpgTlBNs2c5dA=",
+        "originContent": "### Build & Development",
+        "translatedContent": "- **build_and_test.py** - 프로젝트 빌드, 테스트 실행, 결과 파싱"
+      },
+      {
+        "row": 5,
+        "rowsha": "OGGzsFlxqYEGYhUdY36s/mKu4ej9xf1UQHWVb0jqDiQ=",
+        "originContent": "- **build_and_test.py** - Build projects, run tests, parse results",
+        "translatedContent": "- **log_monitor.py** - 실시간 로그 모니터링"
+      },
+      {
+        "row": 6,
+        "rowsha": "g8ABjH1dOHFlbER3ALXCF6yhNoCyZKus1nY0+DEv2CE=",
+        "originContent": "- **log_monitor.py** - Real-time log monitoring",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 내비게이션 및 상호작용"
+      },
+      {
+        "row": 8,
+        "rowsha": "Y63QePvsWE/or2Tu+OhmQD0cxeBa5na8voFvKYDLSyw=",
+        "originContent": "### Navigation & Interaction",
+        "translatedContent": "- **screen_mapper.py** - 현재 화면 분석"
+      },
+      {
+        "row": 9,
+        "rowsha": "AAsY2cxeHutGoim94AZ6Yhm8utBiFJPqHxym7R82opM=",
+        "originContent": "- **screen_mapper.py** - Analyze current screen",
+        "translatedContent": "- **navigator.py** - 요소 찾기 및 상호작용"
+      },
+      {
+        "row": 10,
+        "rowsha": "MtbDM+OjKlRa6HbKIAQpduQQsJQw1sRnzroqDPFa8Bg=",
+        "originContent": "- **navigator.py** - Find and interact with elements",
+        "translatedContent": "- **gesture.py** - 스와이프, 스크롤, 핀치"
+      },
+      {
+        "row": 11,
+        "rowsha": "x5KsAg3DUK9d9n0FnxDKgrlljAlaXT4RQKkiKtp0SOY=",
+        "originContent": "- **gesture.py** - Swipes, scrolls, pinches",
+        "translatedContent": "- **keyboard.py** - 텍스트 입력 및 하드웨어 버튼"
+      },
+      {
+        "row": 12,
+        "rowsha": "haslkDDkIIKnaMxHYBG/jMlmRg72ZKskbRvmftHgLE0=",
+        "originContent": "- **keyboard.py** - Text input and hardware buttons",
+        "translatedContent": "- **app_launcher.py** - 앱 라이프사이클 제어"
+      },
+      {
+        "row": 13,
+        "rowsha": "EltcT/84Nla0ofiPomEa+OwNI9voMXnOUZbgaQR8ke8=",
+        "originContent": "- **app_launcher.py** - App lifecycle control",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 테스트 및 분석"
+      },
+      {
+        "row": 15,
+        "rowsha": "xh1N9x60ye4mIexLZthA/plTpYJzAV0kZz/p0zkNo9U=",
+        "originContent": "### Testing & Analysis",
+        "translatedContent": "- **accessibility_audit.py** - WCAG 준수 검사"
+      },
+      {
+        "row": 16,
+        "rowsha": "LtIYabZW61CIGdbSBZecKnYqsSRgz1AgAMlBA8g5Rc8=",
+        "originContent": "- **accessibility_audit.py** - WCAG compliance checking",
+        "translatedContent": "- **visual_diff.py** - 스크린샷 비교"
+      },
+      {
+        "row": 17,
+        "rowsha": "G53YfkJji6bt2CDUBGovuitGPobuh6o/fczsgegr5WQ=",
+        "originContent": "- **visual_diff.py** - Screenshot comparison",
+        "translatedContent": "- **test_recorder.py** - 자동화 테스트 문서화"
+      },
+      {
+        "row": 18,
+        "rowsha": "wASsIDRlYQ9nRsFEXIs87LXPAve1BWIwXHshY7+IGM0=",
+        "originContent": "- **test_recorder.py** - Automated test documentation",
+        "translatedContent": "- **app_state_capture.py** - 디버깅 스냅샷"
+      },
+      {
+        "row": 19,
+        "rowsha": "7BALSXSDktQbD7E7D2UUgeJjOHsvvOZr9zsESM54mGk=",
+        "originContent": "- **app_state_capture.py** - Debugging snapshots",
+        "translatedContent": "- **sim_health_check.sh** - 환경 검증"
+      },
+      {
+        "row": 20,
+        "rowsha": "BLH8Py9w1OiFm7k1C9+EemiNukxxskX/vMyehejYG34=",
+        "originContent": "- **sim_health_check.sh** - Environment verification",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 고급 테스트 및 권한"
+      },
+      {
+        "row": 22,
+        "rowsha": "na6QLuNNLGWpmWUYXfihPYETYPRp5gai9tJ58kPkm9k=",
+        "originContent": "### Advanced Testing & Permissions",
+        "translatedContent": "- **clipboard.py** - 클립보드 관리"
+      },
+      {
+        "row": 23,
+        "rowsha": "e9ZymlLr1f32jA7MMQpWUnfJOzkGKf7X2fpw2pPZePg=",
+        "originContent": "- **clipboard.py** - Clipboard management",
+        "translatedContent": "- **status_bar.py** - 상태 표시줄 제어"
+      },
+      {
+        "row": 24,
+        "rowsha": "t6Nr6zyMTn4mu4NW1tnROdo/J616OcgTYIXtFfSB0e8=",
+        "originContent": "- **status_bar.py** - Status bar control",
+        "translatedContent": "- **push_notification.py** - 푸시 알림"
+      },
+      {
+        "row": 25,
+        "rowsha": "5DuEr6R5Rv/yvRdyR7xi9HZSCLVMe9bUBjtpqhSW3mY=",
+        "originContent": "- **push_notification.py** - Push notifications",
+        "translatedContent": "- **privacy_manager.py** - 권한 관리"
+      },
+      {
+        "row": 26,
+        "rowsha": "HIXBAJSA0IEs3dudCYo3LEQOgCtO/X97jggxg2K+5AM=",
+        "originContent": "- **privacy_manager.py** - Permission management",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 디바이스 라이프사이클"
+      },
+      {
+        "row": 28,
+        "rowsha": "WnQEGyw1MLz/r8Zepalfy+0w89sFoV/6bYKcZ3OIGKM=",
+        "originContent": "### Device Lifecycle",
+        "translatedContent": "- **simctl_boot.py** - 시뮬레이터 부팅"
+      },
+      {
+        "row": 29,
+        "rowsha": "mjJxdJDAw+2fXjNDDIP213/xwcvp13I992OPW4eJHAU=",
+        "originContent": "- **simctl_boot.py** - Boot simulator",
+        "translatedContent": "- **simctl_shutdown.py** - 시뮬레이터 종료"
+      },
+      {
+        "row": 30,
+        "rowsha": "CQ6FpRvVhel2/WDfe+fiI3tkjjtuNDbko+AZJZCegGw=",
+        "originContent": "- **simctl_shutdown.py** - Shutdown simulator",
+        "translatedContent": "- **simctl_create.py** - 시뮬레이터 생성"
+      },
+      {
+        "row": 31,
+        "rowsha": "N+XHLc2S7yJhz44i35BlV5kIO9AJAJKKsk+dLwOa4q0=",
+        "originContent": "- **simctl_create.py** - Create simulator",
+        "translatedContent": "- **simctl_delete.py** - 시뮬레이터 삭제"
+      },
+      {
+        "row": 32,
+        "rowsha": "xnfvubSiLQARGIL9rewoinHrHHygOxzA+8m4RrCjRLs=",
+        "originContent": "- **simctl_delete.py** - Delete simulator",
+        "translatedContent": "- **simctl_erase.py** - 공장 초기화"
+      },
+      {
+        "row": 33,
+        "rowsha": "tKBzjYS68vYJ+Ism6FmwcUtOj8vgqrHLcvjFEUOPu60=",
+        "originContent": "- **simctl_erase.py** - Factory reset",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "전체 참조는 **SKILL.md**를 참조하세요."
+      },
+      {
+        "row": 35,
+        "rowsha": "1DVhSNgkc4uh+smBTlwmDjsBuMOWbKGftitvYZkcMvI=",
+        "originContent": "See **SKILL.md** for complete reference.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Claude Code와의 작동 방식"
+      },
+      {
+        "row": 37,
+        "rowsha": "XsSDMhIcFy/Ns33mfge8Ek1ceRDhZ5JDTPvYV1/XsKo=",
+        "originContent": "## How It Works with Claude Code",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Claude Code는 요청에 따라 이 스킬을 자동으로 감지하여 사용합니다. 수동으로 호출할 필요가 없습니다."
+      },
+      {
+        "row": 39,
+        "rowsha": "o8ZPn6UesU5D/N/Qxl0m7zM+29yAMSuKjfSoprPDYn8=",
+        "originContent": "Claude Code automatically detects when to use this skill based on your request. You don't need to manually invoke it.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "**Example conversation:**\n",
+    "ContentSha": "danSAWhtLf0T7u+7Sn6VA0TgBKNUhJKU/vV4hxGYQI8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**예시 대화:**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8e4S6SEL8MRBDl9Lwllb5lqWXyBze2hCOKkk9QuoV4g=",
+        "originContent": "**Example conversation:**",
+        "translatedContent": "**예시 대화:**"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```\nYou: \"Set up my iOS app for testing\"\nClaude: [Uses simctl_boot.py and app_launcher.py automatically]\n\nYou: \"Tap the login button\"\nClaude: [Uses navigator.py to find and tap]\n\nYou: \"Check if the form is accessible\"\nClaude: [Uses accessibility_audit.py]\n```",
+    "ContentSha": "s7Lj5oghNyMwJdMkxGkfl9Iw+tg0zPGo12NlY3CuFP0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nYou: \"Set up my iOS app for testing\"\nClaude: [Uses simctl_boot.py and app_launcher.py automatically]\n\nYou: \"Tap the login button\"\nClaude: [Uses navigator.py to find and tap]\n\nYou: \"Check if the form is accessible\"\nClaude: [Uses accessibility_audit.py]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ras+26x9y9DCFG7o70dAaeylM6MeU3ZgOZEU4pf3t38=",
+        "originContent": "You: \"Set up my iOS app for testing\"",
+        "translatedContent": "You: \"Set up my iOS app for testing\""
+      },
+      {
+        "row": 3,
+        "rowsha": "XYAxxOmJ2v37ONgNss/W3JKYXF+7sDTgZniAoB/mjEU=",
+        "originContent": "Claude: [Uses simctl_boot.py and app_launcher.py automatically]",
+        "translatedContent": "Claude: [Uses simctl_boot.py and app_launcher.py automatically]"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Oj2LNc55FNp638xHaKDWux4vJtT7V3cRqEmQdbXyFwI=",
+        "originContent": "You: \"Tap the login button\"",
+        "translatedContent": "You: \"Tap the login button\""
+      },
+      {
+        "row": 6,
+        "rowsha": "A+U5PPa793eSyghni7rXIqexGGK4Y6b/YYqBKLBNp+8=",
+        "originContent": "Claude: [Uses navigator.py to find and tap]",
+        "translatedContent": "Claude: [Uses navigator.py to find and tap]"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "c3u3lMPL22NPswM2yKZwlBaEebkcSacJutB1QHnNwC8=",
+        "originContent": "You: \"Check if the form is accessible\"",
+        "translatedContent": "You: \"Check if the form is accessible\""
+      },
+      {
+        "row": 9,
+        "rowsha": "N+tRoJxr9cpS5rgSpQ2Q+xQ+1+hPXatU/7zkHbkdpz8=",
+        "originContent": "Claude: [Uses accessibility_audit.py]",
+        "translatedContent": "Claude: [Uses accessibility_audit.py]"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nYou can also run scripts manually when needed.\n\n## Usage Examples\n\n### Example 1: Login Flow\n",
+    "ContentSha": "bawWeZrAAtB2jsQ1ZmwxOgbE9r0fdrYILPZ8UEvpNNg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "필요할 때 수동으로 스크립트를 실행할 수도 있습니다.\n\n## 사용 예제\n\n### 예제 1: 로그인 흐름\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "필요할 때 수동으로 스크립트를 실행할 수도 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "iX/qYY1Xe6SPAShg7XAn7fRLhMpqvAp7K+fSzPRS54M=",
+        "originContent": "You can also run scripts manually when needed.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 사용 예제"
+      },
+      {
+        "row": 4,
+        "rowsha": "S26wdEyXDtbwhsw5/RfwoNc6EYkI3moIDhrEDjveQB0=",
+        "originContent": "## Usage Examples",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 예제 1: 로그인 흐름"
+      },
+      {
+        "row": 6,
+        "rowsha": "7RZl85ckk+YfKBSlpoJY3HtTX09NyXPQxCv1xtUNB4Q=",
+        "originContent": "### Example 1: Login Flow",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```bash\n# Launch app\npython scripts/app_launcher.py --launch com.example.app\n\n# Map screen to find fields\npython scripts/screen_mapper.py\n\n# Enter credentials\npython scripts/navigator.py --find-type TextField --index 0 --enter-text \"user@test.com\"\npython scripts/navigator.py --find-type SecureTextField --enter-text \"password\"\n\n# Tap login\npython scripts/navigator.py --find-text \"Login\" --tap\n\n# Verify accessibility\npython scripts/accessibility_audit.py\n```",
+    "ContentSha": "e6m3YGKca1czbzc+W0lDdmtubdGKzXsLklEDdDl+UCg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Launch app\npython scripts/app_launcher.py --launch com.example.app\n\n# Map screen to find fields\npython scripts/screen_mapper.py\n\n# Enter credentials\npython scripts/navigator.py --find-type TextField --index 0 --enter-text \"user@test.com\"\npython scripts/navigator.py --find-type SecureTextField --enter-text \"password\"\n\n# Tap login\npython scripts/navigator.py --find-text \"Login\" --tap\n\n# Verify accessibility\npython scripts/accessibility_audit.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "5/oG5oSALuzQBAbK8f4owzQLjiuIQwjt4nWmGM3g+uc=",
+        "originContent": "# Launch app",
+        "translatedContent": "# Launch app"
+      },
+      {
+        "row": 3,
+        "rowsha": "4ca0pNeOlWsTTqC470tbX5LTKiZSEHulDB97VI5ElU4=",
+        "originContent": "python scripts/app_launcher.py --launch com.example.app",
+        "translatedContent": "python scripts/app_launcher.py --launch com.example.app"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "/zcypTa1E1mt//RL5ZK9LoETyKBgxj1DpQWkhH4gc/8=",
+        "originContent": "# Map screen to find fields",
+        "translatedContent": "# Map screen to find fields"
+      },
+      {
+        "row": 6,
+        "rowsha": "hJyiIVuoZmGg5vTuSlbRagLl17KitzUwuKdzJdmMg8A=",
+        "originContent": "python scripts/screen_mapper.py",
+        "translatedContent": "python scripts/screen_mapper.py"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "a1rW75WZKi5tqtJsARq5bAwwphPw+CwVaNmDNa3Gv5w=",
+        "originContent": "# Enter credentials",
+        "translatedContent": "# Enter credentials"
+      },
+      {
+        "row": 9,
+        "rowsha": "7ylrq3QJM3RBsnqRm27fhyV1K0ZU5foiH2est0mhYyM=",
+        "originContent": "python scripts/navigator.py --find-type TextField --index 0 --enter-text \"user@test.com\"",
+        "translatedContent": "python scripts/navigator.py --find-type TextField --index 0 --enter-text \"user@test.com\""
+      },
+      {
+        "row": 10,
+        "rowsha": "j65XGQP2cTVmwl+I4JWhp7Yo0FR2wRM0HhtNjHvKkkA=",
+        "originContent": "python scripts/navigator.py --find-type SecureTextField --enter-text \"password\"",
+        "translatedContent": "python scripts/navigator.py --find-type SecureTextField --enter-text \"password\""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "InFJIX9hIGNAHWbYBMH/fSMTSu+azcYT83dxuaYKa4U=",
+        "originContent": "# Tap login",
+        "translatedContent": "# Tap login"
+      },
+      {
+        "row": 13,
+        "rowsha": "rTJHEHnK5SQiu1jKughl9KMU2i1eHlfBDU5tVc6HbTs=",
+        "originContent": "python scripts/navigator.py --find-text \"Login\" --tap",
+        "translatedContent": "python scripts/navigator.py --find-text \"Login\" --tap"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "cWpl1YJtn0yrrCUOomIyK2lQIPbs4IYaO09w5OPm08M=",
+        "originContent": "# Verify accessibility",
+        "translatedContent": "# Verify accessibility"
+      },
+      {
+        "row": 16,
+        "rowsha": "PICoYpJSjh9Lh4tdXkrY5APX+yY4Fc8AM8URKFkTKxY=",
+        "originContent": "python scripts/accessibility_audit.py",
+        "translatedContent": "python scripts/accessibility_audit.py"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n### Example 2: Test Documentation\n",
+    "ContentSha": "w5IZv+rGlGrUQ/fHhsV9Tt/Tjm16KRdHNOif0ekKM0U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 예제 2: 테스트 문서 작성\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 예제 2: 테스트 문서 작성"
+      },
+      {
+        "row": 2,
+        "rowsha": "nGSlJ3M3xELypqa1Egs/zmBT1KB2tVFDVhdKRpaEcTY=",
+        "originContent": "### Example 2: Test Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```bash\n# Record test execution\npython scripts/test_recorder.py --test-name \"Login Flow\" --output test-reports/\n\n# Generates:\n# - Screenshots per step\n# - Accessibility trees\n# - Markdown report with timing\n```",
+    "ContentSha": "0Ow1bdxUq0MTNwfAGkcCx6OhYwVxEAKIiG4bgesBztc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Record test execution\npython scripts/test_recorder.py --test-name \"Login Flow\" --output test-reports/\n\n# Generates:\n# - Screenshots per step\n# - Accessibility trees\n# - Markdown report with timing\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "DkYBFJryNkXJGJzNvdiAHI9Z3ininaBKLGDJj80Ck+I=",
+        "originContent": "# Record test execution",
+        "translatedContent": "# Record test execution"
+      },
+      {
+        "row": 3,
+        "rowsha": "CGU7O1FlYSuQk+JwUGuTLGQIDS31lZk0ZLrrI303gHQ=",
+        "originContent": "python scripts/test_recorder.py --test-name \"Login Flow\" --output test-reports/",
+        "translatedContent": "python scripts/test_recorder.py --test-name \"Login Flow\" --output test-reports/"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "iS9ih2QBfr1dPV/Miz/vJV64nVxWxamUzOykdKyiaek=",
+        "originContent": "# Generates:",
+        "translatedContent": "# Generates:"
+      },
+      {
+        "row": 6,
+        "rowsha": "QLYRssk1Fzqa2U+VfKm+psIGyizq8SkGlG2fDL6wxS0=",
+        "originContent": "# - Screenshots per step",
+        "translatedContent": "# - Screenshots per step"
+      },
+      {
+        "row": 7,
+        "rowsha": "LQKyc8WQq14vUyIUouTLjNwyA4pOeZ68TvpDRQx/ZrI=",
+        "originContent": "# - Accessibility trees",
+        "translatedContent": "# - Accessibility trees"
+      },
+      {
+        "row": 8,
+        "rowsha": "YCMza/WkKuouxjICF+SyF6lqCKv4LC4yBu4hnA1naYY=",
+        "originContent": "# - Markdown report with timing",
+        "translatedContent": "# - Markdown report with timing"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n### Example 3: Visual Testing\n",
+    "ContentSha": "bnoPHbXmYqpLV6IaIruF4L4OUTUy4Q1kNaEwztqiCo8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 예제 3: 시각적 테스트\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "PLM0r9/wMKeGX7gYeXbv6MfBmnRGlVJd2pWfoUjmxUc=",
+        "originContent": "### Example 3: Visual Testing",
+        "translatedContent": "### 예제 3: 시각적 테스트"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```bash\n# Capture baseline\npython scripts/app_state_capture.py --output baseline/\n\n# Make changes...\n\n# Compare\npython scripts/visual_diff.py baseline/screenshot.png current/screenshot.png\n```",
+    "ContentSha": "bfOUVwJ/v/W4ksQ1eU/4s11KrSBG06UyjiuYidq+ayI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Capture baseline\npython scripts/app_state_capture.py --output baseline/\n\n# Make changes...\n\n# Compare\npython scripts/visual_diff.py baseline/screenshot.png current/screenshot.png\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "PrWgOgeBYv7DTmLc9X55oSb1CwoFXYN3KxqN+uvIeZU=",
+        "originContent": "# Capture baseline",
+        "translatedContent": "# Capture baseline"
+      },
+      {
+        "row": 3,
+        "rowsha": "ljnrelfBqZK86D26D8xWcIkWw78eOFKBjK/ny1zDAtc=",
+        "originContent": "python scripts/app_state_capture.py --output baseline/",
+        "translatedContent": "python scripts/app_state_capture.py --output baseline/"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "hWYTxz4WaBpWKAxAmaHGS6F79tgHQL/fbLfuvNuRSEk=",
+        "originContent": "# Make changes...",
+        "translatedContent": "# Make changes..."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Y9bU8oRaL8/+H5YwR4Ap7MvGnUHlnmquKqU0UgfP6ho=",
+        "originContent": "# Compare",
+        "translatedContent": "# Compare"
+      },
+      {
+        "row": 8,
+        "rowsha": "V+zuC/w438cyLtIdeIK93TeH3Cw5/IzvY9zDENhEEXM=",
+        "originContent": "python scripts/visual_diff.py baseline/screenshot.png current/screenshot.png",
+        "translatedContent": "python scripts/visual_diff.py baseline/screenshot.png current/screenshot.png"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n### Example 4: Permission Testing\n",
+    "ContentSha": "QlDCW/iyCnKtoVj106ycszHqR+ninZk0YyarNZVrjqE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 예제 4: 권한 테스트\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "zcCV1pKSUvFQAiA8cjwbe+4foE2zm6bE8xrLn8NCd9Q=",
+        "originContent": "### Example 4: Permission Testing",
+        "translatedContent": "### 예제 4: 권한 테스트"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```bash\n# Grant permissions\npython scripts/privacy_manager.py --bundle-id com.example.app --grant camera,location\n\n# Test app behavior with permissions...\n\n# Revoke permissions\npython scripts/privacy_manager.py --bundle-id com.example.app --revoke camera,location\n```",
+    "ContentSha": "JFYhC/bughQ8DUfXGN4H8iLN/mgH/NLrq1KQ3so5nAU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Grant permissions\npython scripts/privacy_manager.py --bundle-id com.example.app --grant camera,location\n\n# Test app behavior with permissions...\n\n# Revoke permissions\npython scripts/privacy_manager.py --bundle-id com.example.app --revoke camera,location\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "D07tANDFYIbTMNHdL+kW7lXQNuDxUsL9ElSs+NEUNAk=",
+        "originContent": "# Grant permissions",
+        "translatedContent": "# Grant permissions"
+      },
+      {
+        "row": 3,
+        "rowsha": "bIzf/QMO9+fvT2SLc/hDfFAsFSukGQiTzvLcMWTaNoo=",
+        "originContent": "python scripts/privacy_manager.py --bundle-id com.example.app --grant camera,location",
+        "translatedContent": "python scripts/privacy_manager.py --bundle-id com.example.app --grant camera,location"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "twQm0A3lNi5J9rWTyCpH78vKVmhibmkvPLkNRxAMpY0=",
+        "originContent": "# Test app behavior with permissions...",
+        "translatedContent": "# Test app behavior with permissions..."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "TIyvE662tUARtiZQKitEH0BjN3/xVGoyVlwiWItU7Vo=",
+        "originContent": "# Revoke permissions",
+        "translatedContent": "# Revoke permissions"
+      },
+      {
+        "row": 8,
+        "rowsha": "yE2tHVtrZZ8BZgAuLF5H0l+U4dmm1zpcf2XXBDGRjpk=",
+        "originContent": "python scripts/privacy_manager.py --bundle-id com.example.app --revoke camera,location",
+        "translatedContent": "python scripts/privacy_manager.py --bundle-id com.example.app --revoke camera,location"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\n### Example 5: Device Lifecycle in CI/CD\n",
+    "ContentSha": "iIOCd1ZkQES13mMFR94+rZhz/ywWc7VVCFB+bzK8q9I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 예제 5: CI/CD에서의 디바이스 수명 주기\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "EXvRDxGU+LzkCNppg7SnZ5bKIgzuDdueFSk/2lR2vLw=",
+        "originContent": "### Example 5: Device Lifecycle in CI/CD",
+        "translatedContent": "### 예제 5: CI/CD에서의 디바이스 수명 주기"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "```bash\n# Create test device\nDEVICE_ID=$(python scripts/simctl_create.py --device \"iPhone 16 Pro\" --json | jq -r '.new_udid')\n\n# Run tests\npython scripts/build_and_test.py --project MyApp.xcodeproj\n\n# Clean up\npython scripts/simctl_delete.py --udid $DEVICE_ID --yes\n```",
+    "ContentSha": "4QctZAZEp8Qvq4eAxzuXSTQ5AsgGIx2J0CpLKvuzphY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Create test device\nDEVICE_ID=$(python scripts/simctl_create.py --device \"iPhone 16 Pro\" --json | jq -r '.new_udid')\n\n# Run tests\npython scripts/build_and_test.py --project MyApp.xcodeproj\n\n# Clean up\npython scripts/simctl_delete.py --udid $DEVICE_ID --yes\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "APL4QcWhwrDR3jom0jaV+swzpL/qNU4cGnEdRpIh2kY=",
+        "originContent": "# Create test device",
+        "translatedContent": "# Create test device"
+      },
+      {
+        "row": 3,
+        "rowsha": "90C9Y/phQZIMMkLJ/pEA9GVsl5EqG6sjfEaTJpVm4g8=",
+        "originContent": "DEVICE_ID=$(python scripts/simctl_create.py --device \"iPhone 16 Pro\" --json | jq -r '.new_udid')",
+        "translatedContent": "DEVICE_ID=$(python scripts/simctl_create.py --device \"iPhone 16 Pro\" --json | jq -r '.new_udid')"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "tHNnyKNSkagtJZOFqKnkFV8ViCmgW+rly9Ij4SArNr4=",
+        "originContent": "# Run tests",
+        "translatedContent": "# Run tests"
+      },
+      {
+        "row": 6,
+        "rowsha": "6Zxcn4z7c0IWBlQ0ZbZZtKg9Dtek/SYdVnz1n+MeMOo=",
+        "originContent": "python scripts/build_and_test.py --project MyApp.xcodeproj",
+        "translatedContent": "python scripts/build_and_test.py --project MyApp.xcodeproj"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "zIde+Go7kN2ZrfK0iJl51XrtXdeiVnWqNshbQz5ydZ8=",
+        "originContent": "# Clean up",
+        "translatedContent": "# Clean up"
+      },
+      {
+        "row": 9,
+        "rowsha": "clgrPDuXg1jTrSYBhAqmwbCK+09zECKx54ONkYoYynw=",
+        "originContent": "python scripts/simctl_delete.py --udid $DEVICE_ID --yes",
+        "translatedContent": "python scripts/simctl_delete.py --udid $DEVICE_ID --yes"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "\n## Design Principles\n\n**Semantic Navigation**: Find elements by meaning (text, type, ID) not pixel coordinates. Survives UI changes and works across device sizes.\n\n**Token Efficiency**: Default output is 3-5 lines. Use `--verbose` for details or `--json` for machine parsing. 96% reduction vs raw tools.\n\n**Accessibility-First**: Built on iOS accessibility APIs for reliability. Better for users with accessibility needs and more robust for automation.\n\n**Zero Configuration**: Works immediately on any macOS with Xcode. No complex setup, no configuration files.\n\n**Structured Data**: Scripts output JSON or formatted text, not raw logs. Easy to parse, integrate, and understand.\n\n**Auto-Learning**: Build system learns your device preference and remembers it for next time.\n\n## Requirements\n\n**System:**\n- macOS 12 or later\n- Xcode Command Line Tools\n- Python 3\n\n**Optional:**\n- IDB (for interactive features)\n- Pillow (for visual_diff.py: `pip3 install pillow`)\n\n## Documentation\n\n- **SKILL.md** - Complete script reference and table of contents\n- **CLAUDE.md** - Architecture and developer guide\n- **references/** - Deep documentation on specific topics\n- **examples/** - Complete automation workflows\n\n## Output Efficiency\n\nAll scripts minimize output by default:\n\n| Task | Raw Tools | This Skill | Savings |\n|------|-----------|-----------|---------|\n| Screen analysis | 200+ lines | 5 lines | 97.5% |",
+    "ContentSha": "zkQ37Ipg9a+aQy+CSNf8ml+SPxnZgLWOuYuANb16qa0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 디자인 원칙\n\n**의미 기반 탐색**: 픽셀 좌표가 아닌 의미(텍스트, 유형, ID)로 요소를 찾습니다. UI 변경에도 견고하며 다양한 기기 크기에서 작동합니다.\n\n**토큰 효율성**: 기본 출력은 3-5줄입니다. 자세한 내용은 `--verbose`를, 기계 파싱용은 `--json`을 사용하세요. 원시 도구 대비 96% 감소.\n\n**접근성 우선**: 신뢰성을 위해 iOS 접근성 API 기반으로 구축되었습니다. 접근성 필요 사용자를 위해 더 좋고 자동화에 더 견고합니다.\n\n**제로 구성**: Xcode가 설치된 macOS에서 즉시 작동합니다. 복잡한 설정이나 구성 파일이 필요 없습니다.\n\n**구조화된 데이터**: 스크립트는 원시 로그가 아닌 JSON 또는 포맷된 텍스트를 출력합니다. 파싱, 통합, 이해가 쉽습니다.\n\n**자동 학습**: 빌드 시스템이 기기 선호도를 학습하고 다음에 기억합니다.\n\n## 요구 사항\n\n**시스템:**\n- macOS 12 이상\n- Xcode 명령줄 도구\n- Python 3\n\n**선택 사항:**\n- IDB (대화형 기능용)\n- Pillow (visual_diff.py용: `pip3 install pillow`)\n\n## 문서\n\n- **SKILL.md** - 완전한 스크립트 참조 및 목차\n- **CLAUDE.md** - 아키텍처 및 개발자 가이드\n- **references/** - 특정 주제에 대한 심층 문서\n- **examples/** - 완전한 자동화 워크플로우\n\n## 출력 효율성\n\n모든 스크립트는 기본적으로 출력을 최소화합니다:\n\n| 작업 | 원시 도구 | 이 스킬 | 절감율 |\n|------|-----------|---------|---------|\n| 화면 분석 | 200+ 줄 | 5 줄 | 97.5% |\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 디자인 원칙"
+      },
+      {
+        "row": 2,
+        "rowsha": "JpUvOecDxWFNCEfgH+Nx3tPYqiZlx7BxebQymWZ3cDY=",
+        "originContent": "## Design Principles",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**의미 기반 탐색**: 픽셀 좌표가 아닌 의미(텍스트, 유형, ID)로 요소를 찾습니다. UI 변경에도 견고하며 다양한 기기 크기에서 작동합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "IZ0D/vvIazlHlvWtcCfqMlGVt8xIqFzUHEx8SnA7OBA=",
+        "originContent": "**Semantic Navigation**: Find elements by meaning (text, type, ID) not pixel coordinates. Survives UI changes and works across device sizes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**토큰 효율성**: 기본 출력은 3-5줄입니다. 자세한 내용은 `--verbose`를, 기계 파싱용은 `--json`을 사용하세요. 원시 도구 대비 96% 감소."
+      },
+      {
+        "row": 6,
+        "rowsha": "eyL2uNkbUIgBjl+pQk6pAaCZiq6kijrRNXxgRQSVjMQ=",
+        "originContent": "**Token Efficiency**: Default output is 3-5 lines. Use `--verbose` for details or `--json` for machine parsing. 96% reduction vs raw tools.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**접근성 우선**: 신뢰성을 위해 iOS 접근성 API 기반으로 구축되었습니다. 접근성 필요 사용자를 위해 더 좋고 자동화에 더 견고합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "t5hpuKfxNWH+fAVfiEzNXD91lfSjXS3Cd2tBRUI8UZo=",
+        "originContent": "**Accessibility-First**: Built on iOS accessibility APIs for reliability. Better for users with accessibility needs and more robust for automation.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**제로 구성**: Xcode가 설치된 macOS에서 즉시 작동합니다. 복잡한 설정이나 구성 파일이 필요 없습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "JIFunogHCs5E9Oyl/NAHEdykhmet0cHQ8E6088VNk3g=",
+        "originContent": "**Zero Configuration**: Works immediately on any macOS with Xcode. No complex setup, no configuration files.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**구조화된 데이터**: 스크립트는 원시 로그가 아닌 JSON 또는 포맷된 텍스트를 출력합니다. 파싱, 통합, 이해가 쉽습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "9AHxk/PvleXU0cFQg8uoNLtSkfoJ5rQ+Y4fukEk17Kc=",
+        "originContent": "**Structured Data**: Scripts output JSON or formatted text, not raw logs. Easy to parse, integrate, and understand.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**자동 학습**: 빌드 시스템이 기기 선호도를 학습하고 다음에 기억합니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "PKv51cklbRUwOaBUT6+DWIgvehvwFy0lhGhmRxdn2Bg=",
+        "originContent": "**Auto-Learning**: Build system learns your device preference and remembers it for next time.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 요구 사항"
+      },
+      {
+        "row": 16,
+        "rowsha": "mMM7CgcUhEutaXLQUe7dHnP5fzAA/B384D1dAMFg/uA=",
+        "originContent": "## Requirements",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**시스템:**"
+      },
+      {
+        "row": 18,
+        "rowsha": "+YYbx2XjP9d30sr/CkgUX+k/CuA0B+174GzeNSi0uJY=",
+        "originContent": "**System:**",
+        "translatedContent": "- macOS 12 이상"
+      },
+      {
+        "row": 19,
+        "rowsha": "drsgILQmqwmAdYvujzEDW63Vwme9KJ14WlYh6HjeZXo=",
+        "originContent": "- macOS 12 or later",
+        "translatedContent": "- Xcode 명령줄 도구"
+      },
+      {
+        "row": 20,
+        "rowsha": "qFhujePus/20piqPPT9Cw/SrY1cniPWBHLs6ugtuhys=",
+        "originContent": "- Xcode Command Line Tools",
+        "translatedContent": "- Python 3"
+      },
+      {
+        "row": 21,
+        "rowsha": "HTerym/wI4YwME9VU6BtEvVUHQ1Jn2k7/olreKiMzsM=",
+        "originContent": "- Python 3",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**선택 사항:**"
+      },
+      {
+        "row": 23,
+        "rowsha": "ZdqQj07GkVUeDPbtwz2sNQmj/nNIsyBg7jUi34q2xxc=",
+        "originContent": "**Optional:**",
+        "translatedContent": "- IDB (대화형 기능용)"
+      },
+      {
+        "row": 24,
+        "rowsha": "ogOde25ombEb85kz01WW3WDVKHafG78Ol7wPbgL25J4=",
+        "originContent": "- IDB (for interactive features)",
+        "translatedContent": "- Pillow (visual_diff.py용: `pip3 install pillow`)"
+      },
+      {
+        "row": 25,
+        "rowsha": "/35/FmBRdgz3VT5cQYvIQyDs4+lABaBuwRxT34KyYWc=",
+        "originContent": "- Pillow (for visual_diff.py: `pip3 install pillow`)",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 문서"
+      },
+      {
+        "row": 27,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **SKILL.md** - 완전한 스크립트 참조 및 목차"
+      },
+      {
+        "row": 29,
+        "rowsha": "tbuCOj3mnt5X9GEoKNfEI8ZAOOe5q+PYDMg6cupel9Y=",
+        "originContent": "- **SKILL.md** - Complete script reference and table of contents",
+        "translatedContent": "- **CLAUDE.md** - 아키텍처 및 개발자 가이드"
+      },
+      {
+        "row": 30,
+        "rowsha": "PQt9pKdqvrPDhY2mI+OTqg50rDMhOuJRc9d56K4+M8E=",
+        "originContent": "- **CLAUDE.md** - Architecture and developer guide",
+        "translatedContent": "- **references/** - 특정 주제에 대한 심층 문서"
+      },
+      {
+        "row": 31,
+        "rowsha": "NdsMgQ6X6XParsmu4TAMoJf0j0e5RDEqf2dSsiYduIM=",
+        "originContent": "- **references/** - Deep documentation on specific topics",
+        "translatedContent": "- **examples/** - 완전한 자동화 워크플로우"
+      },
+      {
+        "row": 32,
+        "rowsha": "obH2zUYRytWLGt+vsYokG1GNACBv6f6Q+yLkw9BjZzE=",
+        "originContent": "- **examples/** - Complete automation workflows",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 출력 효율성"
+      },
+      {
+        "row": 34,
+        "rowsha": "7Bc7SO8yDvMjuMSTHjE5pTy/yO8MP9OVAadG8QWht+s=",
+        "originContent": "## Output Efficiency",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "모든 스크립트는 기본적으로 출력을 최소화합니다:"
+      },
+      {
+        "row": 36,
+        "rowsha": "OWRMQVJEebbf9lO3sabXIYsjgQeQ3KZZAlGm38IqN7g=",
+        "originContent": "All scripts minimize output by default:",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| 작업 | 원시 도구 | 이 스킬 | 절감율 |"
+      },
+      {
+        "row": 38,
+        "rowsha": "95Fyj1TlIO7nNEwcUtO3U7FGTEUA/ymAecsi4OwWy7A=",
+        "originContent": "| Task | Raw Tools | This Skill | Savings |",
+        "translatedContent": "|------|-----------|---------|---------|"
+      },
+      {
+        "row": 39,
+        "rowsha": "kln6TYuD14TpcIOBuTq0No4crYvBytZIqZr5HC6Omro=",
+        "originContent": "|------|-----------|-----------|---------|",
+        "translatedContent": "| 화면 분석 | 200+ 줄 | 5 줄 | 97.5% |"
+      },
+      {
+        "row": 40,
+        "rowsha": "WNjRhKBQDXAbj9/VBq+xuALwt5r9vjJTwEk4IJHaxrE=",
+        "originContent": "| Screen analysis | 200+ lines | 5 lines | 97.5% |",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "| Find & tap button | 100+ lines | 1 line | 99% |\n| Enter text | 50+ lines | 1 line | 98% |\n| Login flow | 400+ lines | 15 lines | 96% |\n\nThis efficiency keeps AI agent conversations focused and cost-effective.\n\n## Troubleshooting\n\n### Environment Issues\n",
+    "ContentSha": "1xh0JMcxWGvy/Mind/+a0Y1pPvf0Vy5GUd/OVwed6WA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| 버튼 찾기 및 탭 | 100+ 줄 | 1줄 | 99% |\n| 텍스트 입력 | 50+ 줄 | 1줄 | 98% |\n| 로그인 흐름 | 400+ 줄 | 15줄 | 96% |\n\n이 효율성은 AI 에이전트 대화를 집중적이고 비용 효율적으로 유지합니다.\n\n## 문제 해결\n\n### 환경 문제\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "eY8CuKM7cM89whYpYAFhsOt7R7L1KXfVXpxokNNiOAI=",
+        "originContent": "| Find & tap button | 100+ lines | 1 line | 99% |",
+        "translatedContent": "| 버튼 찾기 및 탭 | 100+ 줄 | 1줄 | 99% |"
+      },
+      {
+        "row": 2,
+        "rowsha": "T8Co6KVvv6NUNzkZz2owO9WPnAtUm1aWMo9wSO4lfQk=",
+        "originContent": "| Enter text | 50+ lines | 1 line | 98% |",
+        "translatedContent": "| 텍스트 입력 | 50+ 줄 | 1줄 | 98% |"
+      },
+      {
+        "row": 3,
+        "rowsha": "VKe7tuTFnY49mk/IHCvokN4o5m7FOPDzV3nqdNn4g+A=",
+        "originContent": "| Login flow | 400+ lines | 15 lines | 96% |",
+        "translatedContent": "| 로그인 흐름 | 400+ 줄 | 15줄 | 96% |"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "/znHd8qHjUT0Hc03catvSfqoYGb3nj4SKb/3uXZfAZI=",
+        "originContent": "This efficiency keeps AI agent conversations focused and cost-effective.",
+        "translatedContent": "이 효율성은 AI 에이전트 대화를 집중적이고 비용 효율적으로 유지합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ZZoYizb5wyYqKFOeJMNF307cllf1mxFrCh2Yh88uKOA=",
+        "originContent": "## Troubleshooting",
+        "translatedContent": "## 문제 해결"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "7HwRt/pbt6uG+Vs79W2CIOwBGlQpIal07ZUXXFB+WXk=",
+        "originContent": "### Environment Issues",
+        "translatedContent": "### 환경 문제"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```bash\n# Run health check\nbash ~/.claude/skills/ios-simulator-skill/scripts/sim_health_check.sh\n\n# Checks: macOS, Xcode, simctl, IDB, Python, simulators, packages\n```",
+    "ContentSha": "1G6VzPTJj+EKQIiYSssbDB99SnWkCczKF32eWMzCzfs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Run health check\nbash ~/.claude/skills/ios-simulator-skill/scripts/sim_health_check.sh\n\n# Checks: macOS, Xcode, simctl, IDB, Python, simulators, packages\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Zz+ydmrJ8LQ4QxfqZIxAwquIZmCOJxC9Y53dpJqXECA=",
+        "originContent": "# Run health check",
+        "translatedContent": "# Run health check"
+      },
+      {
+        "row": 3,
+        "rowsha": "97BniElmQuPoweTj4zcJQDM0o2wxCFwWF5X+vVCGgWI=",
+        "originContent": "bash ~/.claude/skills/ios-simulator-skill/scripts/sim_health_check.sh",
+        "translatedContent": "bash ~/.claude/skills/ios-simulator-skill/scripts/sim_health_check.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "od7IkIYXT7jYZrpdI74O09KxqJMeyu21wNAkJ+SFB3c=",
+        "originContent": "# Checks: macOS, Xcode, simctl, IDB, Python, simulators, packages",
+        "translatedContent": "# Checks: macOS, Xcode, simctl, IDB, Python, simulators, packages"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n### Script Help\n",
+    "ContentSha": "Gnp8K2oUwmyMuGcXtLbLX7EsukWy/um6UR+sZVZ21NA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 스크립트 도움말\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "C0OmejwBDtif5tpcOtc4b2mBbLuEFIzZN/GHfWtgRIg=",
+        "originContent": "### Script Help",
+        "translatedContent": "### 스크립트 도움말"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```bash\n# All scripts support --help\npython scripts/navigator.py --help\npython scripts/accessibility_audit.py --help\n```",
+    "ContentSha": "OWKMz+zC9NYJJv68lQHi/4ZuCrdfxAXwdu4ZMKfRD+0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# All scripts support --help\npython scripts/navigator.py --help\npython scripts/accessibility_audit.py --help\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "7xP+rN0uc//H68Wjkpql71Ffhb+il+x5K14Jjft1Hso=",
+        "originContent": "# All scripts support --help",
+        "translatedContent": "# All scripts support --help"
+      },
+      {
+        "row": 3,
+        "rowsha": "2s9jR44hUlt5m8El5pExXDB/EVZudYn7mHr5ysb4ye8=",
+        "originContent": "python scripts/navigator.py --help",
+        "translatedContent": "python scripts/navigator.py --help"
+      },
+      {
+        "row": 4,
+        "rowsha": "SBe1qNOLj8+zXeR0ed5Td2pAZmMcJy8F1yKGEb6uXtA=",
+        "originContent": "python scripts/accessibility_audit.py --help",
+        "translatedContent": "python scripts/accessibility_audit.py --help"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n### Not Finding Elements\n",
+    "ContentSha": "94FQfcH1rzuLNQc3OCRv2Uz/g3bollK6oNOdk68FTO4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 요소를 찾지 못함\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9h3l4UfaGWTUz4wf8eRQ4nCi9FKSfREXqyjnGO6IUMM=",
+        "originContent": "### Not Finding Elements",
+        "translatedContent": "### 요소를 찾지 못함"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```bash\n# Use verbose mode to see all elements\npython scripts/screen_mapper.py --verbose\n\n# Check for exact text match\npython scripts/navigator.py --find-text \"Exact Button Text\" --tap\n```",
+    "ContentSha": "RVamIRdbVVupsv+bpqn5Q1yKAA5fgPcPMAKliglWdGg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Use verbose mode to see all elements\npython scripts/screen_mapper.py --verbose\n\n# Check for exact text match\npython scripts/navigator.py --find-text \"Exact Button Text\" --tap\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "1BAC2Psq9ivHaYvOiqzxdJYhFnE+l7CQMkqS03OKWuE=",
+        "originContent": "# Use verbose mode to see all elements",
+        "translatedContent": "# Use verbose mode to see all elements"
+      },
+      {
+        "row": 3,
+        "rowsha": "vAZlRhS3N9cgDXXM4Poto5QXv04XXr4XbX78SOMJ9io=",
+        "originContent": "python scripts/screen_mapper.py --verbose",
+        "translatedContent": "python scripts/screen_mapper.py --verbose"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "ji1aRdGztuTgHypbT9Iaaqxk2dhRLNiWjwNF925J0TE=",
+        "originContent": "# Check for exact text match",
+        "translatedContent": "# Check for exact text match"
+      },
+      {
+        "row": 6,
+        "rowsha": "d1EcxqYhvSt0/qCdf1K3ugyv1zOpsDetCUr44a3oz1s=",
+        "originContent": "python scripts/navigator.py --find-text \"Exact Button Text\" --tap",
+        "translatedContent": "python scripts/navigator.py --find-text \"Exact Button Text\" --tap"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n## Contributing\n\nContributions should:\n- Maintain token efficiency (minimal default output)\n- Follow accessibility-first design\n- Support `--help` documentation\n- Support `--json` for CI/CD\n- Pass Black formatter and Ruff linter\n- Include type hints\n- Update SKILL.md\n\n## License\n\nMIT License - Allows commercial use and distribution.\n\n## Support\n\n- **Issues**: Create GitHub issue with reproduction steps\n- **Documentation**: See SKILL.md and references/\n- **Examples**: Check examples/ directory\n- **Skills Docs**: https://docs.claude.com/en/docs/claude-code/skills\n\n---\n\n**Built for AI agents. Optimized for developers.**\n",
+    "ContentSha": "6ZIUExLNKvXnNr4Zqfeiq/bD1apFPA0d86AAp/8R+mg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 기여하기\n\n기여는 다음을 준수해야 합니다:\n- 토큰 효율성 유지 (최소 기본 출력)\n- 접근성 우선 디자인 준수\n- `--help` 문서 지원\n- CI/CD를 위한 `--json` 지원\n- Black 포매터 및 Ruff 린터 통과\n- 타입 힌트 포함\n- SKILL.md 업데이트\n\n## 라이선스\n\nMIT 라이선스 - 상업적 사용 및 배포 허용.\n\n## 지원\n\n- **이슈**: 재현 단계와 함께 GitHub 이슈 생성\n- **문서**: SKILL.md 및 references/ 참고\n- **예제**: examples/ 디렉토리 확인\n- **스킬 문서**: https://docs.claude.com/en/docs/claude-code/skills\n\n---\n\n**AI 에이전트를 위해 제작되었습니다. 개발자에게 최적화되었습니다.**\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 기여하기"
+      },
+      {
+        "row": 2,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "기여는 다음을 준수해야 합니다:"
+      },
+      {
+        "row": 4,
+        "rowsha": "UwgYQBjy0nz5E6t9LjVQtHJqyeona55z+Bzvov/tNNY=",
+        "originContent": "Contributions should:",
+        "translatedContent": "- 토큰 효율성 유지 (최소 기본 출력)"
+      },
+      {
+        "row": 5,
+        "rowsha": "PGHPSU0v1Xiyq05pT0SIW8RvyV66wg8QN5cmQcruaz4=",
+        "originContent": "- Maintain token efficiency (minimal default output)",
+        "translatedContent": "- 접근성 우선 디자인 준수"
+      },
+      {
+        "row": 6,
+        "rowsha": "DYbJmyMZrVBxo1+gqY48RCv11UIyRNRAsMMzKc+KjFY=",
+        "originContent": "- Follow accessibility-first design",
+        "translatedContent": "- `--help` 문서 지원"
+      },
+      {
+        "row": 7,
+        "rowsha": "iOKZ1eF9kbRB/4ZK9CrvbBeNmaWmGYZls3482p7mIzw=",
+        "originContent": "- Support `--help` documentation",
+        "translatedContent": "- CI/CD를 위한 `--json` 지원"
+      },
+      {
+        "row": 8,
+        "rowsha": "aiqp6CryT2hrM/zjuXboFD7zfeetb4CxcWXmP4XYCvE=",
+        "originContent": "- Support `--json` for CI/CD",
+        "translatedContent": "- Black 포매터 및 Ruff 린터 통과"
+      },
+      {
+        "row": 9,
+        "rowsha": "YPXZoUlsiWJh16ozUY4YOA7NexoO+eJh6UTZzLw+anY=",
+        "originContent": "- Pass Black formatter and Ruff linter",
+        "translatedContent": "- 타입 힌트 포함"
+      },
+      {
+        "row": 10,
+        "rowsha": "2duAktXPI9/Ky67Cpa8n5ecPixT9ZjjlTReR8Yf19AA=",
+        "originContent": "- Include type hints",
+        "translatedContent": "- SKILL.md 업데이트"
+      },
+      {
+        "row": 11,
+        "rowsha": "Gz0311CQmyR+910dNFtgOym4eLQoly9daF2qqLADR44=",
+        "originContent": "- Update SKILL.md",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 13,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT 라이선스 - 상업적 사용 및 배포 허용."
+      },
+      {
+        "row": 15,
+        "rowsha": "S1FF0aVrFsm3NDbzPm67V7lKap9J7hUKjrx9KHvEamQ=",
+        "originContent": "MIT License - Allows commercial use and distribution.",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 지원"
+      },
+      {
+        "row": 17,
+        "rowsha": "IomX/Z8fZRvFPjDCjVVFhdA00U2wXcfNBs9BCtGX13M=",
+        "originContent": "## Support",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **이슈**: 재현 단계와 함께 GitHub 이슈 생성"
+      },
+      {
+        "row": 19,
+        "rowsha": "3AduRW6YFu1TN0/3zQ/2PgK+wGIIXz4u9qgeAi9Sajo=",
+        "originContent": "- **Issues**: Create GitHub issue with reproduction steps",
+        "translatedContent": "- **문서**: SKILL.md 및 references/ 참고"
+      },
+      {
+        "row": 20,
+        "rowsha": "lL7QeWbbfF8OZ36VZUBISOUphqldOqIcqFHIlMGI81o=",
+        "originContent": "- **Documentation**: See SKILL.md and references/",
+        "translatedContent": "- **예제**: examples/ 디렉토리 확인"
+      },
+      {
+        "row": 21,
+        "rowsha": "ayGZ7+ZBP53GJ7MsdsKrfWEUuPpaLl9DVWn4MrY+gA4=",
+        "originContent": "- **Examples**: Check examples/ directory",
+        "translatedContent": "- **스킬 문서**: https://docs.claude.com/en/docs/claude-code/skills"
+      },
+      {
+        "row": 22,
+        "rowsha": "1ym4PYoGhBKkSFERm41lPGMjG6QgZkHvlhB9s0XbqGA=",
+        "originContent": "- **Skills Docs**: https://docs.claude.com/en/docs/claude-code/skills",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 24,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**AI 에이전트를 위해 제작되었습니다. 개발자에게 최적화되었습니다.**"
+      },
+      {
+        "row": 26,
+        "rowsha": "uyMbZw40CUcP5je5Ffh8Wusr2XnNJwxPqx+N6u5Nf6s=",
+        "originContent": "**Built for AI agents. Optimized for developers.**",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
