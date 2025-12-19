@@ -1,0 +1,54 @@
+<div align=center><img width="200" height="200" src="https://user-images.githubusercontent.com/4584905/164882415-7a970539-720b-4589-a2b5-7c92d1e87e2d.png"/></div>
+
+# 老思路仓库
+一个**老**的赚钱思路合集。你可能不能直接从这些创意中赚钱，但我希望它能启发你。
+
+一个 **老** 的赚钱思路的合集。你可能不能直接从这些创意中赚钱，但是我希望能对你有所启发。
+
+# 版权声明
+
+所有素材均来自网络收集及网友投稿，由 old-ideas-store 仓库整理发布。不对其真实性负责，若存在版权问题，请联系作者删除。
+
+版权声明
+
+所有素材均来自网络收集以及网友投稿，由 old-ideas-store 整理发布。不对其真实性负责，若存在版权问题，请联系作者删除或添加来源声明。
+
+# 最近在搞 AI 相关的产品，AI 时代下有没有什么机会，大家来探讨一下。
+
+https://github.com/CrossLee/Old-ideas-store/issues/1
+
+# 创意列表
+- [月入 2 万的支付副业实践，产品迭代带来的 10 倍增长](https://github.com/CrossLee/Old-ideas-store/wiki/%E6%9C%88%E5%85%A5-2-W-%E7%9A%84%E6%94%AF%E4%BB%98%E5%89%AF%E4%B8%9A%E5%AE%9E%E8%B7%B5%EF%BC%8C%E4%BA%A7%E5%93%81%E8%BF%AD%E4%BB%A3%E5%B8%A6%E6%9D%A5%E7%9A%84-10-%E5%80%8D%E5%A2%9E%E9%95%BF)
+- [偷懒的视频搬运](https://github.com/CrossLee/Old-ideas-store/wiki/%E5%81%B7%E6%87%92%E7%9A%84%E8%A7%86%E9%A2%91%E6%90%AC%E8%BF%90)
+- [月入 3k ~ 4k 的微信支付副业实践](https://github.com/CrossLee/Old-ideas-store/wiki/%E6%9C%88%E5%85%A5-3k-~-4k-%E7%9A%84%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98%E5%89%AF%E4%B8%9A%E5%AE%9E%E8%B7%B5)
+- [月入 4600 的游戏网站](https://github.com/CrossLee/Old-ideas-store/wiki/%E6%9C%88%E5%85%A5-4600-%E7%9A%84%E6%B8%B8%E6%88%8F%E7%BD%91%E7%AB%99)
+- [从开源到订阅，月入 98K RMB](https://github.com/CrossLee/Old-ideas-store/wiki/%E4%BB%8E%E5%BC%80%E6%BA%90%E5%88%B0%E8%AE%A2%E9%98%85%EF%BC%8C%E6%9C%88%E5%85%A5-98K-RMB)
+- [无人机的佣金](https://github.com/CrossLee/old-ideas-store/wiki/%E6%97%A0%E4%BA%BA%E6%9C%BA%E7%9A%84%E4%BD%A3%E9%87%91)
+- [土豆的差价](https://github.com/CrossLee/old-ideas-store/wiki/%E5%9C%9F%E8%B1%86%E7%9A%84%E5%B7%AE%E4%BB%B7)
+- [指纹机器](https://github.com/CrossLee/old-ideas-store/wiki/%E6%8C%87%E7%BA%B9%E6%9C%BA%E5%99%A8)
+- [储值卡的秘密](https://github.com/CrossLee/old-ideas-store/wiki/%E5%82%A8%E5%80%BC%E5%8D%A1%E7%9A%84%E7%A7%98%E5%AF%86)
+
+# 如何贡献
+
+欢迎提交 Pull Request。
+
+1. Fork 本仓库。
+2. 在 wiki 面板创建页面。
+3. 在 README.md 中更新你的 wiki 页面链接。
+4. 创建 Pull Request。
+
+欢迎提交 PR。
+1. Fork 一份仓库到你的 GitHub 账号。  
+2. 在 Wiki 标签页创建一个页面。  
+3. 在 README.md 中按照格式添加一个指向第 2 步创建页面的链接。  
+4. 提交 PR。  
+
+
+
+
+
+---
+
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-19
+
+---

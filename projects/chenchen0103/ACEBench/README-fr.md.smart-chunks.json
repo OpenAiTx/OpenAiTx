@@ -1,0 +1,1514 @@
+[
+  {
+    "Id": 1,
+    "Content": "# ACEBench: Who Wins the Match Point in Tool Usage?\n\n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2501.12851\">📃 Paper </a>\n  <b>&nbsp;·&nbsp;</b> <a href=\"https://chenchen0103.github.io/ACEBench/\">🏆 Leaderboard (Continuously Updated)</a>\n</p>\n\nEnglish | [中文](https://raw.githubusercontent.com/chenchen0103/ACEBench/main/README_CN.md)\n\n## 📚 Content\n\n- [1\\. Abstract](#abstract)\n- [2\\. Benchmark Statistics](#statistics)\n- [3\\. Leaderboard](#leaderboard)\n- [4\\. Setup](#setup)\n- [5\\. Data](#data)\n- [6\\. Inference](#inference)\n  - [6.1\\. Inference Script](#open_source_inference)\n  - [6.2\\. Inference Examples](#openai_inference)\n- [7\\. Evaluation](#evaluation)\n- [Citation](#citation)\n\n---\n\n## 🛠️ Updates [[Back to Top]](#content)\n\n### [2025.10.29]\n\n1 We have corrected the possible answers in the normal_atom_enum_9, normal_atom_number_17, and normal_atom_list_34 datasets.\n\n\n<span id=\"abstract\">\n</span>\n\n## 📘 1\\. Abstract [[Back to Top]](#content)\n",
+    "ContentSha": "8yt01QyrmK4L3FMk+OhmsEH5dZfOjBVtHblumLqIOTE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# ACEBench : Qui remporte le point de match dans l'utilisation des outils ?\n\n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2501.12851\">📃 Article </a>\n  <b>&nbsp;·&nbsp;</b> <a href=\"https://chenchen0103.github.io/ACEBench/\">🏆 Classement (Mise à jour continue)</a>\n</p>\n\nAnglais | [中文](https://raw.githubusercontent.com/chenchen0103/ACEBench/main/README_CN.md)\n\n## 📚 Contenu\n\n- [1\\. Résumé](#abstract)\n- [2\\. Statistiques du benchmark](#statistics)\n- [3\\. Classement](#leaderboard)\n- [4\\. Configuration](#setup)\n- [5\\. Données](#data)\n- [6\\. Inférence](#inference)\n  - [6.1\\. Script d'inférence](#open_source_inference)\n  - [6.2\\. Exemples d'inférence](#openai_inference)\n- [7\\. Évaluation](#evaluation)\n- [Citation](#citation)\n\n---\n\n## 🛠️ Mises à jour [[Retour en haut]](#content)\n\n### [2025.10.29]\n\n1 Nous avons corrigé les réponses possibles dans les ensembles de données normal_atom_enum_9, normal_atom_number_17, et normal_atom_list_34.\n\n\n<span id=\"abstract\">\n</span>\n\n## 📘 1\\. Résumé [[Retour en haut]](#content)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "arSVDrtESZw465UKRfN6DjvBtbM4tjFxVNDJVj2sokk=",
+        "originContent": "# ACEBench: Who Wins the Match Point in Tool Usage?",
+        "translatedContent": "# ACEBench : Qui remporte le point de match dans l'utilisation des outils ?"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "ZXrjm6rk3K+EKLMCxtTTEFAoTvJo9M5UdXOg1wsL1Bo=",
+        "originContent": "  <a href=\"https://arxiv.org/abs/2501.12851\">📃 Paper </a>",
+        "translatedContent": "  <a href=\"https://arxiv.org/abs/2501.12851\">📃 Article </a>"
+      },
+      {
+        "row": 5,
+        "rowsha": "j+m1cuNDzJ45ShiKZW5zdC/1eE2lu2QjiHoTZq42y90=",
+        "originContent": "  <b>&nbsp;·&nbsp;</b> <a href=\"https://chenchen0103.github.io/ACEBench/\">🏆 Leaderboard (Continuously Updated)</a>",
+        "translatedContent": "  <b>&nbsp;·&nbsp;</b> <a href=\"https://chenchen0103.github.io/ACEBench/\">🏆 Classement (Mise à jour continue)</a>"
+      },
+      {
+        "row": 6,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "8py1YiQBYgpwZney1rhiTRGj9mQTua+W/ixeQnMJfFc=",
+        "originContent": "English | [中文](https://raw.githubusercontent.com/chenchen0103/ACEBench/main/README_CN.md)",
+        "translatedContent": "Anglais | [中文](https://raw.githubusercontent.com/chenchen0103/ACEBench/main/README_CN.md)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "rvfzfi+uBrvWjWlepirgXGHfW4AQbwAcHuxWx/eY448=",
+        "originContent": "## 📚 Content",
+        "translatedContent": "## 📚 Contenu"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "/Z2X3zFZ6JbArRkopYYuFphB/VCo6d6AgkF+MBHlcb4=",
+        "originContent": "- [1\\. Abstract](#abstract)",
+        "translatedContent": "- [1\\. Résumé](#abstract)"
+      },
+      {
+        "row": 13,
+        "rowsha": "MrrvFYdZ+8+5iS4G/eKF+GpCGTudM16Dcz9qUBihmMU=",
+        "originContent": "- [2\\. Benchmark Statistics](#statistics)",
+        "translatedContent": "- [2\\. Statistiques du benchmark](#statistics)"
+      },
+      {
+        "row": 14,
+        "rowsha": "7x0uSBdpgWI9sdqlMAWlkEdkL5AhIYP4OzwOuuMEv/Y=",
+        "originContent": "- [3\\. Leaderboard](#leaderboard)",
+        "translatedContent": "- [3\\. Classement](#leaderboard)"
+      },
+      {
+        "row": 15,
+        "rowsha": "wvtCVXrbL1a2kV49ru61V2XUd1THttdU6KUax9+ahMU=",
+        "originContent": "- [4\\. Setup](#setup)",
+        "translatedContent": "- [4\\. Configuration](#setup)"
+      },
+      {
+        "row": 16,
+        "rowsha": "6phDXdKEx/J4vDz9vZRd2pfVugePsTsbobDcVwLBsDU=",
+        "originContent": "- [5\\. Data](#data)",
+        "translatedContent": "- [5\\. Données](#data)"
+      },
+      {
+        "row": 17,
+        "rowsha": "C1HOEz8xQBiWqYp+yKpOR+hU3N4yMpbEQbS3KagwTBo=",
+        "originContent": "- [6\\. Inference](#inference)",
+        "translatedContent": "- [6\\. Inférence](#inference)"
+      },
+      {
+        "row": 18,
+        "rowsha": "3BazvxzlXMIt+Vt8qHpVn9JZPdnRqZJVUhgYDU+8qkA=",
+        "originContent": "  - [6.1\\. Inference Script](#open_source_inference)",
+        "translatedContent": "  - [6.1\\. Script d'inférence](#open_source_inference)"
+      },
+      {
+        "row": 19,
+        "rowsha": "GadyB/s6nqpz7Snr7mgcRjAKXEgf1hDhQ7mvne7MIyI=",
+        "originContent": "  - [6.2\\. Inference Examples](#openai_inference)",
+        "translatedContent": "  - [6.2\\. Exemples d'inférence](#openai_inference)"
+      },
+      {
+        "row": 20,
+        "rowsha": "FJmLczH3zLLKN8coAn256Z+diNfikDHP7jDh7FAfqzY=",
+        "originContent": "- [7\\. Evaluation](#evaluation)",
+        "translatedContent": "- [7\\. Évaluation](#evaluation)"
+      },
+      {
+        "row": 21,
+        "rowsha": "rR19KDsnrs+Fn6E0u7Ks9i7Lhh938eXPX38vqMXU+cs=",
+        "originContent": "- [Citation](#citation)",
+        "translatedContent": "- [Citation](#citation)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "3PLQUuz5yZzLzQDpSOafhnBygw0flHuQUt1g7VK+dJU=",
+        "originContent": "## 🛠️ Updates [[Back to Top]](#content)",
+        "translatedContent": "## 🛠️ Mises à jour [[Retour en haut]](#content)"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "mq6l5ngovkBsnaydwYiwfxHMWKjRTDRxhe2frYcTBFE=",
+        "originContent": "### [2025.10.29]",
+        "translatedContent": "### [2025.10.29]"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "WD8RhJ/EScvoIu0Al4Z1CorA45JHAJDOkrLh5SFKlvQ=",
+        "originContent": "1 We have corrected the possible answers in the normal_atom_enum_9, normal_atom_number_17, and normal_atom_list_34 datasets.",
+        "translatedContent": "1 Nous avons corrigé les réponses possibles dans les ensembles de données normal_atom_enum_9, normal_atom_number_17, et normal_atom_list_34."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "eL8ZsKmo7t2MqQ/C+4hiz3K6OmbUu6krkaYEQXWsn78=",
+        "originContent": "<span id=\"abstract\">",
+        "translatedContent": "<span id=\"abstract\">"
+      },
+      {
+        "row": 33,
+        "rowsha": "QR/bItjZKY5dMvLNzH6GX4879Vxa0VEzsY4bhrt6JJk=",
+        "originContent": "</span>",
+        "translatedContent": "</span>"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Logx5fIeZEdfiuliFbpRhOF6c5WMHOAV9CzcvjLhHXE=",
+        "originContent": "## 📘 1\\. Abstract [[Back to Top]](#content)",
+        "translatedContent": "## 📘 1\\. Résumé [[Retour en haut]](#content)"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "Large Language Models (LLMs) have demonstrated significant potential in decision-making and reasoning, particularly when integrated with various tools to effectively solve complex problems. However, existing benchmarks for evaluating LLMs' tool usage face several limitations: (1) limited evaluation scenarios, often lacking assessments in real multi-turn dialogue contexts; (2) narrow evaluation dimensions, with insufficient detailed assessments of how LLMs use tools; and (3) reliance on LLMs or real API executions for evaluation, which introduces significant overhead. To address these challenges, we introduce ACEBench, a comprehensive benchmark for assessing tool usage in LLMs. ACEBench categorizes data into three primary types based on evaluation methodology: Normal, Special, and Agent. \"Normal\" evaluates tool usage in basic scenarios; \"Special\" evaluates tool usage in situations with ambiguous or incomplete instructions; \"Agent\" evaluates tool usage through multi-agent interactions to simulate real-world, multi-turn dialogues. We conducted extensive experiments using ACEBench, analyzing various LLMs in-depth and providing a more granular examination of error causes across different data types.",
+    "ContentSha": "JVs/qG0DOOZkBumuRy96vsbIqnattxeU7YapexRhsW0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Large Language Models (LLMs) have demonstrated significant potential in decision-making and reasoning, particularly when integrated with various tools to effectively solve complex problems. However, existing benchmarks for evaluating LLMs' tool usage face several limitations: (1) limited evaluation scenarios, often lacking assessments in real multi-turn dialogue contexts; (2) narrow evaluation dimensions, with insufficient detailed assessments of how LLMs use tools; and (3) reliance on LLMs or real API executions for evaluation, which introduces significant overhead. To address these challenges, we introduce ACEBench, a comprehensive benchmark for assessing tool usage in LLMs. ACEBench categorizes data into three primary types based on evaluation methodology: Normal, Special, and Agent. \"Normal\" evaluates tool usage in basic scenarios; \"Special\" evaluates tool usage in situations with ambiguous or incomplete instructions; \"Agent\" evaluates tool usage through multi-agent interactions to simulate real-world, multi-turn dialogues. We conducted extensive experiments using ACEBench, analyzing various LLMs in-depth and providing a more granular examination of error causes across different data types.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "JVs/qG0DOOZkBumuRy96vsbIqnattxeU7YapexRhsW0=",
+        "originContent": "Large Language Models (LLMs) have demonstrated significant potential in decision-making and reasoning, particularly when integrated with various tools to effectively solve complex problems. However, existing benchmarks for evaluating LLMs' tool usage face several limitations: (1) limited evaluation scenarios, often lacking assessments in real multi-turn dialogue contexts; (2) narrow evaluation dimensions, with insufficient detailed assessments of how LLMs use tools; and (3) reliance on LLMs or real API executions for evaluation, which introduces significant overhead. To address these challenges, we introduce ACEBench, a comprehensive benchmark for assessing tool usage in LLMs. ACEBench categorizes data into three primary types based on evaluation methodology: Normal, Special, and Agent. \"Normal\" evaluates tool usage in basic scenarios; \"Special\" evaluates tool usage in situations with ambiguous or incomplete instructions; \"Agent\" evaluates tool usage through multi-agent interactions to simulate real-world, multi-turn dialogues. We conducted extensive experiments using ACEBench, analyzing various LLMs in-depth and providing a more granular examination of error causes across different data types.",
+        "translatedContent": "Large Language Models (LLMs) have demonstrated significant potential in decision-making and reasoning, particularly when integrated with various tools to effectively solve complex problems. However, existing benchmarks for evaluating LLMs' tool usage face several limitations: (1) limited evaluation scenarios, often lacking assessments in real multi-turn dialogue contexts; (2) narrow evaluation dimensions, with insufficient detailed assessments of how LLMs use tools; and (3) reliance on LLMs or real API executions for evaluation, which introduces significant overhead. To address these challenges, we introduce ACEBench, a comprehensive benchmark for assessing tool usage in LLMs. ACEBench categorizes data into three primary types based on evaluation methodology: Normal, Special, and Agent. \"Normal\" evaluates tool usage in basic scenarios; \"Special\" evaluates tool usage in situations with ambiguous or incomplete instructions; \"Agent\" evaluates tool usage through multi-agent interactions to simulate real-world, multi-turn dialogues. We conducted extensive experiments using ACEBench, analyzing various LLMs in-depth and providing a more granular examination of error causes across different data types."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n---\n\n<span id=\"statistics\">\n</span>\n\n## 📊 2.Benchmark Data Analysis [[Back to Top]](#content)\n\n### **Domain of APIs**\n\n- ACEBench covers **8 major domains** and **68 sub-domains**, including technology, finance, entertainment, society, health, culture, environment, and more.\n- It includes a total of **4,538 APIs** in both Chinese and English.\n- The distribution of APIs across domains is visualized in the figure below:\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/chenchen0103/ACEBench/main/./fig/api_domain.png\" alt=\"API Domain Distribution\" width=\"60%\">\n</p>\n\n### **Data Composition**\n\n- ACEBench consists of three main categories of test samples:\n  - **Normal**: Basic tool-use scenarios.\n  - **Agent**: Multi-turn interactions involving users and environments.\n  - **Special**: Complex scenarios requiring multiple steps or handling infeasible tool calls.\n- The data composition is visualized below, showcasing the comprehensive coverage of tool-use capabilities:\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/chenchen0103/ACEBench/main/./fig/data_composition.png\" alt=\"Data Composition\" width=\"50%\">\n</p>\n\n<span id=\"leaderboard\">\n</span>\n\n## 🏆 3\\. Leaderboard [[Back to Top]](#content)\n\n| Model                                 | normal | special | agent | overall |\n| ------------------------------------- | ------ | ------- | ----- | ------- |\n| **close-source model**                |\n| gpt-4o-2024-11-20                     | 0.927  | 0.933   | 0.715 | 0.896   |\n| gpt-4-turbo-2024-04-09                | 0.917  | 0.913   | 0.725 | 0.886   |",
+    "ContentSha": "zvOHRzq/f8Dw3oNn+7pPgSKuySDjo/HPC211jcKMKKw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n<span id=\"statistics\">\n</span>\n\n## 📊 2. Analyse des données de référence [[Retour en haut]](#content)\n\n### **Domaine des API**\n\n- ACEBench couvre **8 grands domaines** et **68 sous-domaines**, incluant technologie, finance, divertissement, société, santé, culture, environnement, et plus encore.\n- Il comprend un total de **4 538 API** en chinois et en anglais.\n- La répartition des API par domaine est visualisée dans la figure ci-dessous :\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/chenchen0103/ACEBench/main/./fig/api_domain.png\" alt=\"Répartition des domaines API\" width=\"60%\">\n</p>\n\n### **Composition des données**\n\n- ACEBench se compose de trois principales catégories d’échantillons de test :\n  - **Normal** : scénarios d’utilisation d’outils basiques.\n  - **Agent** : interactions multi-tours impliquant utilisateurs et environnements.\n  - **Spécial** : scénarios complexes nécessitant plusieurs étapes ou la gestion d’appels d’outils irréalisables.\n- La composition des données est visualisée ci-dessous, montrant la couverture complète des capacités d’utilisation d’outils :\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/chenchen0103/ACEBench/main/./fig/data_composition.png\" alt=\"Composition des données\" width=\"50%\">\n</p>\n\n<span id=\"leaderboard\">\n</span>\n\n## 🏆 3\\. Classement [[Retour en haut]](#content)\n\n| Modèle                                | normal | spécial | agent | global  |\n| ------------------------------------- | ------ | ------- | ----- | ------- |\n| **modèle propriétaire**               |\n| gpt-4o-2024-11-20                     | 0.927  | 0.933   | 0.715 | 0.896   |\n| gpt-4-turbo-2024-04-09                | 0.917  | 0.913   | 0.725 | 0.886   |",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "TZaNzLwVJ7BDytPBFhSgCIZ1zbP41oVspL6jnL3/eBI=",
+        "originContent": "<span id=\"statistics\">",
+        "translatedContent": "<span id=\"statistics\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "QR/bItjZKY5dMvLNzH6GX4879Vxa0VEzsY4bhrt6JJk=",
+        "originContent": "</span>",
+        "translatedContent": "</span>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Yhyc3bLouhaZhB4imiQKQlH093/BoRflKnC9/SmkaWI=",
+        "originContent": "## 📊 2.Benchmark Data Analysis [[Back to Top]](#content)",
+        "translatedContent": "## 📊 2. Analyse des données de référence [[Retour en haut]](#content)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "xXhHM+LavUmgEf+Bfxq7PjrZRxmLn/VmVn+CGV0Q3BM=",
+        "originContent": "### **Domain of APIs**",
+        "translatedContent": "### **Domaine des API**"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Arhu0YzvLvDphMcEWJJwygIwidT1DO+gYnipKsfgTlY=",
+        "originContent": "- ACEBench covers **8 major domains** and **68 sub-domains**, including technology, finance, entertainment, society, health, culture, environment, and more.",
+        "translatedContent": "- ACEBench couvre **8 grands domaines** et **68 sous-domaines**, incluant technologie, finance, divertissement, société, santé, culture, environnement, et plus encore."
+      },
+      {
+        "row": 12,
+        "rowsha": "UPu8ya34/uTQ8aOn0aKBLMpo0CTdVmu12t6NTHaOZMQ=",
+        "originContent": "- It includes a total of **4,538 APIs** in both Chinese and English.",
+        "translatedContent": "- Il comprend un total de **4 538 API** en chinois et en anglais."
+      },
+      {
+        "row": 13,
+        "rowsha": "N4ldA6uX8r72zPaQpS7Onuda5z9Pr2DLBVgp8OUr5CQ=",
+        "originContent": "- The distribution of APIs across domains is visualized in the figure below:",
+        "translatedContent": "- La répartition des API par domaine est visualisée dans la figure ci-dessous :"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 16,
+        "rowsha": "F8WBGPMEnOixWYxAGHA7m2PaDDxC2FTRmZHT9u214o8=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/chenchen0103/ACEBench/main/./fig/api_domain.png\" alt=\"API Domain Distribution\" width=\"60%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/chenchen0103/ACEBench/main/./fig/api_domain.png\" alt=\"Répartition des domaines API\" width=\"60%\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "cHTzmfTyxCtjUvKZqfT6rMAZXDzSqWEtKL6ZF5nSG8Y=",
+        "originContent": "### **Data Composition**",
+        "translatedContent": "### **Composition des données**"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Vo9CdoPcfGovZo6/UAmxvIGxUEodhapoyz+eJmfhbtU=",
+        "originContent": "- ACEBench consists of three main categories of test samples:",
+        "translatedContent": "- ACEBench se compose de trois principales catégories d’échantillons de test :"
+      },
+      {
+        "row": 22,
+        "rowsha": "0U/APQr1G6HE3IGMJrFuc160w77jZrZHsAXIRnRH7uw=",
+        "originContent": "  - **Normal**: Basic tool-use scenarios.",
+        "translatedContent": "  - **Normal** : scénarios d’utilisation d’outils basiques."
+      },
+      {
+        "row": 23,
+        "rowsha": "JceKHfJf7v3pGGRn45IxCJeXSkMoZo3Ph9JNnNE3lT8=",
+        "originContent": "  - **Agent**: Multi-turn interactions involving users and environments.",
+        "translatedContent": "  - **Agent** : interactions multi-tours impliquant utilisateurs et environnements."
+      },
+      {
+        "row": 24,
+        "rowsha": "nwqWYhEZcHTYdx0R9CGJ5Z4vGNlqsBiak4giLfgcGzM=",
+        "originContent": "  - **Special**: Complex scenarios requiring multiple steps or handling infeasible tool calls.",
+        "translatedContent": "  - **Spécial** : scénarios complexes nécessitant plusieurs étapes ou la gestion d’appels d’outils irréalisables."
+      },
+      {
+        "row": 25,
+        "rowsha": "OPUYajaeB6jf3Th7zIq5vF7u7GQryKSg3DKujyQ4rcQ=",
+        "originContent": "- The data composition is visualized below, showcasing the comprehensive coverage of tool-use capabilities:",
+        "translatedContent": "- La composition des données est visualisée ci-dessous, montrant la couverture complète des capacités d’utilisation d’outils :"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 28,
+        "rowsha": "veGX+XaiWbMcIuw/faCkc4IQkRtCWnVONVSRA110I74=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/chenchen0103/ACEBench/main/./fig/data_composition.png\" alt=\"Data Composition\" width=\"50%\">",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/chenchen0103/ACEBench/main/./fig/data_composition.png\" alt=\"Composition des données\" width=\"50%\">"
+      },
+      {
+        "row": 29,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "+7Kla2qA+d8WO7p3oLi5StKkiRA/2TlykiQLYGMEgZU=",
+        "originContent": "<span id=\"leaderboard\">",
+        "translatedContent": "<span id=\"leaderboard\">"
+      },
+      {
+        "row": 32,
+        "rowsha": "QR/bItjZKY5dMvLNzH6GX4879Vxa0VEzsY4bhrt6JJk=",
+        "originContent": "</span>",
+        "translatedContent": "</span>"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "GpEuL/chMLnynV5dCd2/queJOpVuppJ7arudsGSaAOc=",
+        "originContent": "## 🏆 3\\. Leaderboard [[Back to Top]](#content)",
+        "translatedContent": "## 🏆 3\\. Classement [[Retour en haut]](#content)"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "3XdH3vCJdiC+5F/DD92xCYoIy1dCyhb9N+2Zhca/M7c=",
+        "originContent": "| Model                                 | normal | special | agent | overall |",
+        "translatedContent": "| Modèle                                | normal | spécial | agent | global  |"
+      },
+      {
+        "row": 37,
+        "rowsha": "7LLaVWOXl0bOedMzxk+2h2Wvfyok5S0KQCqUqD5o0bc=",
+        "originContent": "| ------------------------------------- | ------ | ------- | ----- | ------- |",
+        "translatedContent": "| ------------------------------------- | ------ | ------- | ----- | ------- |"
+      },
+      {
+        "row": 38,
+        "rowsha": "H4YOBGWbRebCeO4/3ZZbNg5k4lPh4FeFE5vuVHNvt+o=",
+        "originContent": "| **close-source model**                |",
+        "translatedContent": "| **modèle propriétaire**               |"
+      },
+      {
+        "row": 39,
+        "rowsha": "IdbSxoN+6ljKjdK7tBusvtDbMirj6NR3LgYH+fq8Axg=",
+        "originContent": "| gpt-4o-2024-11-20                     | 0.927  | 0.933   | 0.715 | 0.896   |",
+        "translatedContent": "| gpt-4o-2024-11-20                     | 0.927  | 0.933   | 0.715 | 0.896   |"
+      },
+      {
+        "row": 40,
+        "rowsha": "oBM+N8SxraRuslJzb8l5BmfVrtGsBYRkGwoJgpSd/ec=",
+        "originContent": "| gpt-4-turbo-2024-04-09                | 0.917  | 0.913   | 0.725 | 0.886   |",
+        "translatedContent": "| gpt-4-turbo-2024-04-09                | 0.917  | 0.913   | 0.725 | 0.886   |"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "| qwen-max                              | 0.887  | 0.740   | 0.685 | 0.817   |\n| o1-preview                            | 0.830  | 0.793   | 0.735 | 0.806   |\n| deepseek-chat                         | 0.926  | 0.733   | 0.350 | 0.785   |\n| gpt-4o-mini-2024-07-18                | 0.834  | 0.813   | 0.390 | 0.760   |\n| claude-3-5-sonnet-20241022            | 0.835  | 0.820   | 0.350 | 0.756   |\n| gemini-1.5-pro                        | 0.822  | 0.800   | 0.250 | 0.728   |\n| o1-mini                               | 0.774  | 0.673   | 0.610 | 0.722   |\n| doubao-pro-32k                        | 0.750  | 0.593   | 0.235 | 0.628   |\n| **open-source model**                 |\n| Qwen2.5-Coder-32B-Instruct-local      | 0.908  | 0.813   | 0.715 | 0.853   |\n| Qwen2.5-32B-Instruct-local            | 0.852  | 0.747   | 0.690 | 0.799   |\n| Qwen2.5-72B-Instruct-local            | 0.873  | 0.773   | 0.525 | 0.793   |\n| Qwen2.5-Coder-14B-Instruct-local      | 0.868  | 0.647   | 0.525 | 0.756   |\n| Qwen2.5-14B-Instruct-local            | 0.790  | 0.540   | 0.250 | 0.640   |\n| Llama-3.1-70B-Instruct-local          | 0.753  | 0.473   | 0.435 | 0.629   |\n| Qwen2.5-7B-Instruct-local             | 0.759  | 0.447   | 0.125 | 0.578   |\n| DeepSeek-Coder-V2-Lite-Instruct-local | 0.688  | 0.413   | 0.015 | 0.511   |\n| Qwen2.5-Coder-7B-Instruct-local       | 0.735  | 0.193   | 0.125 | 0.496   |\n| watt-tool-8B-local                    | 0.763  | 0.100   | 0.040 | 0.474   |\n| ToolACE-8B-local                      | 0.782  | 0.013   | 0.040 | 0.462   |\n| Hammer2.1-7b-local                    | 0.627  | 0.260   | 0.185 | 0.461   |\n| Meta-Llama-3.1-8B-Instruct-local      | 0.450  | 0.267   | 0.040 | 0.338   |\n| Qwen2.5-Coder-3B-Instruct-local       | 0.495  | 0.100   | 0.065 | 0.323   |\n| Phi-3-mini-128k-instruct-local        | 0.389  | 0.253   | 0.015 | 0.295   |\n| Qwen2.5-3B-Instruct-local             | 0.408  | 0.127   | 0.065 | 0.280   |\n| Llama-3.2-3B-Instruct-local           | 0.327  | 0.100   | 0.000 | 0.216   |\n| xLAM-7b-r-local                       | 0.187  | 0.013   | 0.075 | 0.123   |\n| Hammer2.1-3b-local                    | 0.118  | 0.013   | 0.015 | 0.074   |\n\n---\n\n<span id=\"setup\">\n</span>\n\n## 🛠️ 4\\. Setup [[Back to Top]](#content)\n\nExecute the following command to install the required dependencies for inference and evaluation:\n",
+    "ContentSha": "VW5YcZaJFLNBy9B4GSbcc6nqIsvJ3b+fWvEnJeRwQYo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| qwen-max                              | 0.887  | 0.740   | 0.685 | 0.817   |\n| o1-preview                            | 0.830  | 0.793   | 0.735 | 0.806   |\n| deepseek-chat                         | 0.926  | 0.733   | 0.350 | 0.785   |\n| gpt-4o-mini-2024-07-18                | 0.834  | 0.813   | 0.390 | 0.760   |\n| claude-3-5-sonnet-20241022            | 0.835  | 0.820   | 0.350 | 0.756   |\n| gemini-1.5-pro                        | 0.822  | 0.800   | 0.250 | 0.728   |\n| o1-mini                               | 0.774  | 0.673   | 0.610 | 0.722   |\n| doubao-pro-32k                        | 0.750  | 0.593   | 0.235 | 0.628   |\n| **modèle open-source**                |\n| Qwen2.5-Coder-32B-Instruct-local      | 0.908  | 0.813   | 0.715 | 0.853   |\n| Qwen2.5-32B-Instruct-local            | 0.852  | 0.747   | 0.690 | 0.799   |\n| Qwen2.5-72B-Instruct-local            | 0.873  | 0.773   | 0.525 | 0.793   |\n| Qwen2.5-Coder-14B-Instruct-local      | 0.868  | 0.647   | 0.525 | 0.756   |\n| Qwen2.5-14B-Instruct-local            | 0.790  | 0.540   | 0.250 | 0.640   |\n| Llama-3.1-70B-Instruct-local          | 0.753  | 0.473   | 0.435 | 0.629   |\n| Qwen2.5-7B-Instruct-local             | 0.759  | 0.447   | 0.125 | 0.578   |\n| DeepSeek-Coder-V2-Lite-Instruct-local | 0.688  | 0.413   | 0.015 | 0.511   |\n| Qwen2.5-Coder-7B-Instruct-local       | 0.735  | 0.193   | 0.125 | 0.496   |\n| watt-tool-8B-local                    | 0.763  | 0.100   | 0.040 | 0.474   |\n| ToolACE-8B-local                      | 0.782  | 0.013   | 0.040 | 0.462   |\n| Hammer2.1-7b-local                    | 0.627  | 0.260   | 0.185 | 0.461   |\n| Meta-Llama-3.1-8B-Instruct-local      | 0.450  | 0.267   | 0.040 | 0.338   |\n| Qwen2.5-Coder-3B-Instruct-local       | 0.495  | 0.100   | 0.065 | 0.323   |\n| Phi-3-mini-128k-instruct-local        | 0.389  | 0.253   | 0.015 | 0.295   |\n| Qwen2.5-3B-Instruct-local             | 0.408  | 0.127   | 0.065 | 0.280   |\n| Llama-3.2-3B-Instruct-local           | 0.327  | 0.100   | 0.000 | 0.216   |\n| xLAM-7b-r-local                       | 0.187  | 0.013   | 0.075 | 0.123   |\n| Hammer2.1-3b-local                    | 0.118  | 0.013   | 0.015 | 0.074   |\n\n---\n\n<span id=\"setup\">\n</span>\n\n## 🛠️ 4\\. Configuration [[Retour en haut]](#content)\n\nExécutez la commande suivante pour installer les dépendances requises pour l'inférence et l'évaluation :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+9KIMAl1XFdr+ebcp9FczewWDt/SUJGfV/quSZ0mHL8=",
+        "originContent": "| qwen-max                              | 0.887  | 0.740   | 0.685 | 0.817   |",
+        "translatedContent": "| qwen-max                              | 0.887  | 0.740   | 0.685 | 0.817   |"
+      },
+      {
+        "row": 2,
+        "rowsha": "E3+z1K0w9wUjqQb0U0BFFgbptPB60o3e50gVR+JUOw0=",
+        "originContent": "| o1-preview                            | 0.830  | 0.793   | 0.735 | 0.806   |",
+        "translatedContent": "| o1-preview                            | 0.830  | 0.793   | 0.735 | 0.806   |"
+      },
+      {
+        "row": 3,
+        "rowsha": "gcbo3gF4Q0YjcqJrS1++N1JQZg5VKuFSEi/qL2kRvE0=",
+        "originContent": "| deepseek-chat                         | 0.926  | 0.733   | 0.350 | 0.785   |",
+        "translatedContent": "| deepseek-chat                         | 0.926  | 0.733   | 0.350 | 0.785   |"
+      },
+      {
+        "row": 4,
+        "rowsha": "cV1fglV87yS2hWAccOXd3MhG7LuERhw44ZOnyKIYHgA=",
+        "originContent": "| gpt-4o-mini-2024-07-18                | 0.834  | 0.813   | 0.390 | 0.760   |",
+        "translatedContent": "| gpt-4o-mini-2024-07-18                | 0.834  | 0.813   | 0.390 | 0.760   |"
+      },
+      {
+        "row": 5,
+        "rowsha": "pyIBxCHiDEXzQjMkm/c6Ambx1T0Llco46wy0zC5izm8=",
+        "originContent": "| claude-3-5-sonnet-20241022            | 0.835  | 0.820   | 0.350 | 0.756   |",
+        "translatedContent": "| claude-3-5-sonnet-20241022            | 0.835  | 0.820   | 0.350 | 0.756   |"
+      },
+      {
+        "row": 6,
+        "rowsha": "FXcphN/xCUmENBEiIFQ3YkixfGiRDsQvgTi5qnhPFek=",
+        "originContent": "| gemini-1.5-pro                        | 0.822  | 0.800   | 0.250 | 0.728   |",
+        "translatedContent": "| gemini-1.5-pro                        | 0.822  | 0.800   | 0.250 | 0.728   |"
+      },
+      {
+        "row": 7,
+        "rowsha": "OqYyihiBl5RMgbATHTUOAzFb1kcw0pdWqPw3MAuI9RU=",
+        "originContent": "| o1-mini                               | 0.774  | 0.673   | 0.610 | 0.722   |",
+        "translatedContent": "| o1-mini                               | 0.774  | 0.673   | 0.610 | 0.722   |"
+      },
+      {
+        "row": 8,
+        "rowsha": "gUltvwwLWcnznSAnwaY6obiB9UccJe1cQD/9phyZ758=",
+        "originContent": "| doubao-pro-32k                        | 0.750  | 0.593   | 0.235 | 0.628   |",
+        "translatedContent": "| doubao-pro-32k                        | 0.750  | 0.593   | 0.235 | 0.628   |"
+      },
+      {
+        "row": 9,
+        "rowsha": "zonakZxcAlm/nfzswatnygo5fzsZHDbbvTvDdE47S5M=",
+        "originContent": "| **open-source model**                 |",
+        "translatedContent": "| **modèle open-source**                |"
+      },
+      {
+        "row": 10,
+        "rowsha": "+ssacgqCOsEQRSWXNGcZ7HDlZ6iFIoD5jK4Ba+zF1CA=",
+        "originContent": "| Qwen2.5-Coder-32B-Instruct-local      | 0.908  | 0.813   | 0.715 | 0.853   |",
+        "translatedContent": "| Qwen2.5-Coder-32B-Instruct-local      | 0.908  | 0.813   | 0.715 | 0.853   |"
+      },
+      {
+        "row": 11,
+        "rowsha": "23iJ5kYqn9t9sNzVjcLsCtS0NjQkm17FL0RWKfn6dGo=",
+        "originContent": "| Qwen2.5-32B-Instruct-local            | 0.852  | 0.747   | 0.690 | 0.799   |",
+        "translatedContent": "| Qwen2.5-32B-Instruct-local            | 0.852  | 0.747   | 0.690 | 0.799   |"
+      },
+      {
+        "row": 12,
+        "rowsha": "V10Zu8Gwtxk0W5CXgB8tKDO6sgW4kX/OVljex/Y1G10=",
+        "originContent": "| Qwen2.5-72B-Instruct-local            | 0.873  | 0.773   | 0.525 | 0.793   |",
+        "translatedContent": "| Qwen2.5-72B-Instruct-local            | 0.873  | 0.773   | 0.525 | 0.793   |"
+      },
+      {
+        "row": 13,
+        "rowsha": "JQWpxJRE8pZTg+1/XF0/ByS4yb1Sz8llwEXtS4EQAK4=",
+        "originContent": "| Qwen2.5-Coder-14B-Instruct-local      | 0.868  | 0.647   | 0.525 | 0.756   |",
+        "translatedContent": "| Qwen2.5-Coder-14B-Instruct-local      | 0.868  | 0.647   | 0.525 | 0.756   |"
+      },
+      {
+        "row": 14,
+        "rowsha": "C3B6x4mNQFuYpkiN20Bxup3iuwdcd91hQO/a6leuYfs=",
+        "originContent": "| Qwen2.5-14B-Instruct-local            | 0.790  | 0.540   | 0.250 | 0.640   |",
+        "translatedContent": "| Qwen2.5-14B-Instruct-local            | 0.790  | 0.540   | 0.250 | 0.640   |"
+      },
+      {
+        "row": 15,
+        "rowsha": "xVAK++5hI642vwrDFbaS0IkET95mcnTIEA4U+zlj8Ds=",
+        "originContent": "| Llama-3.1-70B-Instruct-local          | 0.753  | 0.473   | 0.435 | 0.629   |",
+        "translatedContent": "| Llama-3.1-70B-Instruct-local          | 0.753  | 0.473   | 0.435 | 0.629   |"
+      },
+      {
+        "row": 16,
+        "rowsha": "MZ23pOj4KMkwBNisMb0D2KGv0DnbubHr5Cq+DIY5rjc=",
+        "originContent": "| Qwen2.5-7B-Instruct-local             | 0.759  | 0.447   | 0.125 | 0.578   |",
+        "translatedContent": "| Qwen2.5-7B-Instruct-local             | 0.759  | 0.447   | 0.125 | 0.578   |"
+      },
+      {
+        "row": 17,
+        "rowsha": "ZCFYTCD+b5u9om2aHsnnvrNNoBG/Ju2MtF+W8aslpzY=",
+        "originContent": "| DeepSeek-Coder-V2-Lite-Instruct-local | 0.688  | 0.413   | 0.015 | 0.511   |",
+        "translatedContent": "| DeepSeek-Coder-V2-Lite-Instruct-local | 0.688  | 0.413   | 0.015 | 0.511   |"
+      },
+      {
+        "row": 18,
+        "rowsha": "RUR9NtwUCNagM47MRcTxYho970N5qm2eUI7myDTIphs=",
+        "originContent": "| Qwen2.5-Coder-7B-Instruct-local       | 0.735  | 0.193   | 0.125 | 0.496   |",
+        "translatedContent": "| Qwen2.5-Coder-7B-Instruct-local       | 0.735  | 0.193   | 0.125 | 0.496   |"
+      },
+      {
+        "row": 19,
+        "rowsha": "GgqmMxmcfl6IWyfelmJAsDuEu95XTc0Pb0p9xoNyTtw=",
+        "originContent": "| watt-tool-8B-local                    | 0.763  | 0.100   | 0.040 | 0.474   |",
+        "translatedContent": "| watt-tool-8B-local                    | 0.763  | 0.100   | 0.040 | 0.474   |"
+      },
+      {
+        "row": 20,
+        "rowsha": "kZ5pCGKybuZbmgx0pq6bm5liopJ1FNLIH5mhjIlN39Y=",
+        "originContent": "| ToolACE-8B-local                      | 0.782  | 0.013   | 0.040 | 0.462   |",
+        "translatedContent": "| ToolACE-8B-local                      | 0.782  | 0.013   | 0.040 | 0.462   |"
+      },
+      {
+        "row": 21,
+        "rowsha": "e7dzFtwSs7Z5zPB48cd2wQ/gy+z957aqmHuokO1d6k0=",
+        "originContent": "| Hammer2.1-7b-local                    | 0.627  | 0.260   | 0.185 | 0.461   |",
+        "translatedContent": "| Hammer2.1-7b-local                    | 0.627  | 0.260   | 0.185 | 0.461   |"
+      },
+      {
+        "row": 22,
+        "rowsha": "fXgh5yf/eLdH/58BltDRVXgaJwec0qG++NUJN3w7t3g=",
+        "originContent": "| Meta-Llama-3.1-8B-Instruct-local      | 0.450  | 0.267   | 0.040 | 0.338   |",
+        "translatedContent": "| Meta-Llama-3.1-8B-Instruct-local      | 0.450  | 0.267   | 0.040 | 0.338   |"
+      },
+      {
+        "row": 23,
+        "rowsha": "dEFOL0kCNb9XrZddVxykG9Ik3P6jo2oO1vMOgg/n+qM=",
+        "originContent": "| Qwen2.5-Coder-3B-Instruct-local       | 0.495  | 0.100   | 0.065 | 0.323   |",
+        "translatedContent": "| Qwen2.5-Coder-3B-Instruct-local       | 0.495  | 0.100   | 0.065 | 0.323   |"
+      },
+      {
+        "row": 24,
+        "rowsha": "IzXtedLYfdRFZaKYjIjhDvda3XfZIb+XhTyyWEErB4Y=",
+        "originContent": "| Phi-3-mini-128k-instruct-local        | 0.389  | 0.253   | 0.015 | 0.295   |",
+        "translatedContent": "| Phi-3-mini-128k-instruct-local        | 0.389  | 0.253   | 0.015 | 0.295   |"
+      },
+      {
+        "row": 25,
+        "rowsha": "Rns5zTa7MS10bT3+TpvlLMiwB1ZhGhSi3Cx79MCR/D0=",
+        "originContent": "| Qwen2.5-3B-Instruct-local             | 0.408  | 0.127   | 0.065 | 0.280   |",
+        "translatedContent": "| Qwen2.5-3B-Instruct-local             | 0.408  | 0.127   | 0.065 | 0.280   |"
+      },
+      {
+        "row": 26,
+        "rowsha": "CLJo9h4RW/5UDMnaDMFrMcFcg+VjgfIf4eXhD4gx/gg=",
+        "originContent": "| Llama-3.2-3B-Instruct-local           | 0.327  | 0.100   | 0.000 | 0.216   |",
+        "translatedContent": "| Llama-3.2-3B-Instruct-local           | 0.327  | 0.100   | 0.000 | 0.216   |"
+      },
+      {
+        "row": 27,
+        "rowsha": "BCxZhNrSoUsYfMtMZ5HbTcIKB20V5e+O1C66ON4C3gQ=",
+        "originContent": "| xLAM-7b-r-local                       | 0.187  | 0.013   | 0.075 | 0.123   |",
+        "translatedContent": "| xLAM-7b-r-local                       | 0.187  | 0.013   | 0.075 | 0.123   |"
+      },
+      {
+        "row": 28,
+        "rowsha": "dtAeSFijAmOTJPF6Trz1OtBfsZSGTm8KpypkvUtPKZ8=",
+        "originContent": "| Hammer2.1-3b-local                    | 0.118  | 0.013   | 0.015 | 0.074   |",
+        "translatedContent": "| Hammer2.1-3b-local                    | 0.118  | 0.013   | 0.015 | 0.074   |"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "xgx6EaBPk1gaJoqXNwqoW2LQHiud4DWrEBgVnlU8RXY=",
+        "originContent": "<span id=\"setup\">",
+        "translatedContent": "<span id=\"setup\">"
+      },
+      {
+        "row": 33,
+        "rowsha": "QR/bItjZKY5dMvLNzH6GX4879Vxa0VEzsY4bhrt6JJk=",
+        "originContent": "</span>",
+        "translatedContent": "</span>"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "EGK9/dxzEZ6OpoSaQCY3iGWkad9TTwawwmHIHMOTd/8=",
+        "originContent": "## 🛠️ 4\\. Setup [[Back to Top]](#content)",
+        "translatedContent": "## 🛠️ 4\\. Configuration [[Retour en haut]](#content)"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "JSW9+v1Q0xr37f6SM+vNhsKn7wLRpU59iLUNmywFd7k=",
+        "originContent": "Execute the following command to install the required dependencies for inference and evaluation:",
+        "translatedContent": "Exécutez la commande suivante pour installer les dépendances requises pour l'inférence et l'évaluation :"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\npip install -r requirements.txt\n```",
+    "ContentSha": "TxMa9uJC0PmBOnm3/TRl4YDLNvSwCWaRNjyXpFhndHU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n---\n\n## 🗂️ 5\\. Data [[Back to Top]](#content)\n\n<span id=\"load_data\">\n</span>\n\nAll data is stored in the data_all directory, divided into English and Chinese parts, which are located in the data_en and data_zh folders respectively. Each folder contains multiple JSON files, named in the format data_{category}.json, where category represents the type of data.\n",
+    "ContentSha": "QTgxo0fbHlK/ITtLHMnsAzsckwhWu0T5haWUSr/SSEk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n---\n\n## 🗂️ 5\\. Données [[Retour en haut]](#content)\n\n<span id=\"load_data\">\n</span>\n\nToutes les données sont stockées dans le répertoire data_all, divisées en parties anglaise et chinoise, situées respectivement dans les dossiers data_en et data_zh. Chaque dossier contient plusieurs fichiers JSON, nommés au format data_{category}.json, où category représente le type de données.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "vNaevfY8U7KCTkMGrMkTdchWdqZ17cv4sDOTk8chH4M=",
+        "originContent": "## 🗂️ 5\\. Data [[Back to Top]](#content)",
+        "translatedContent": "## 🗂️ 5\\. Données [[Retour en haut]](#content)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "sjGuNTk4QqSIpbcW0hY2pjgz518gj20nE/F1mS8Ffso=",
+        "originContent": "<span id=\"load_data\">",
+        "translatedContent": "<span id=\"load_data\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "QR/bItjZKY5dMvLNzH6GX4879Vxa0VEzsY4bhrt6JJk=",
+        "originContent": "</span>",
+        "translatedContent": "</span>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "wcL3ztsarTzdDj4+wGCsrliEwbS5kJIkUPsTe2FVf+c=",
+        "originContent": "All data is stored in the data_all directory, divided into English and Chinese parts, which are located in the data_en and data_zh folders respectively. Each folder contains multiple JSON files, named in the format data_{category}.json, where category represents the type of data.",
+        "translatedContent": "Toutes les données sont stockées dans le répertoire data_all, divisées en parties anglaise et chinoise, situées respectivement dans les dossiers data_en et data_zh. Chaque dossier contient plusieurs fichiers JSON, nommés au format data_{category}.json, où category représente le type de données."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```\ndata_all/\n├── possible_answer_en/        \n│   ├── data_{normal}.json\n│   ├── data_{special}.json\n│   ├── data_{agent}.json\n├── possible_answer_zh/        \n│   ├── data_{normal}.json\n│   ├── data_{special}.json\n│   ├── data_{agent}.json\n...\n```",
+    "ContentSha": "8rgNQcqS1nFq+P3FB1A+XdJc2Bq/cAzmFGKNmPPlW/4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ndata_all/\n├── possible_answer_en/        \n│   ├── data_{normal}.json\n│   ├── data_{special}.json\n│   ├── data_{agent}.json\n├── possible_answer_zh/        \n│   ├── data_{normal}.json\n│   ├── data_{special}.json\n│   ├── data_{agent}.json\n...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "QnhFbdh0N3KLyycT8kNWS7O+Dm3RHlEx4GK7MMSlPmo=",
+        "originContent": "data_all/",
+        "translatedContent": "data_all/"
+      },
+      {
+        "row": 3,
+        "rowsha": "U+JITGUMBX9Vyxfda6kfKCCFwYTkIWgbwB9XUt2LhSM=",
+        "originContent": "├── possible_answer_en/        ",
+        "translatedContent": "├── possible_answer_en/        "
+      },
+      {
+        "row": 4,
+        "rowsha": "vEhG0idVyM4DdxqNhs1jpwLYR4AbbSIOCKFi1Ce9PiA=",
+        "originContent": "│   ├── data_{normal}.json",
+        "translatedContent": "│   ├── data_{normal}.json"
+      },
+      {
+        "row": 5,
+        "rowsha": "P1mqN+cG4X+gkH9CHR/RmOaXdu89ne7gbZEk2bvXBBs=",
+        "originContent": "│   ├── data_{special}.json",
+        "translatedContent": "│   ├── data_{special}.json"
+      },
+      {
+        "row": 6,
+        "rowsha": "bjQV5IEI5ykXT/uBiN/npFp9JPM2xushDCrrahqf1m4=",
+        "originContent": "│   ├── data_{agent}.json",
+        "translatedContent": "│   ├── data_{agent}.json"
+      },
+      {
+        "row": 7,
+        "rowsha": "7HH0ARHiJ3kpwng7iDzsHjzW/5Jfoe3zICmUgtzCINg=",
+        "originContent": "├── possible_answer_zh/        ",
+        "translatedContent": "├── possible_answer_zh/        "
+      },
+      {
+        "row": 8,
+        "rowsha": "vEhG0idVyM4DdxqNhs1jpwLYR4AbbSIOCKFi1Ce9PiA=",
+        "originContent": "│   ├── data_{normal}.json",
+        "translatedContent": "│   ├── data_{normal}.json"
+      },
+      {
+        "row": 9,
+        "rowsha": "P1mqN+cG4X+gkH9CHR/RmOaXdu89ne7gbZEk2bvXBBs=",
+        "originContent": "│   ├── data_{special}.json",
+        "translatedContent": "│   ├── data_{special}.json"
+      },
+      {
+        "row": 10,
+        "rowsha": "bjQV5IEI5ykXT/uBiN/npFp9JPM2xushDCrrahqf1m4=",
+        "originContent": "│   ├── data_{agent}.json",
+        "translatedContent": "│   ├── data_{agent}.json"
+      },
+      {
+        "row": 11,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n## 🧠 6\\. Inference [[Back to Top]](#content)\n\n<span id=\"open_source_inference\">\n</span>\n\n### 6.1 Inference Script\n\nTo run inference with cmodels, use the `generate.py` script. This script supports various models, categories, and languages.\n\n### Basic Usage\n",
+    "ContentSha": "MrkZrcBuB32WbM8DdhaefgqdUaXBtXjuigqvtPjon20=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🧠 6\\. Inférence [[Retour en haut]](#content)\n\n<span id=\"open_source_inference\">\n</span>\n\n### 6.1 Script d'inférence\n\nPour exécuter une inférence avec cmodels, utilisez le script `generate.py`. Ce script prend en charge divers modèles, catégories et langues.\n\n### Utilisation de base\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tjvTglv8B6JfPeYcMQCoJTxNxSk+GKgz5SNHfGgnHHo=",
+        "originContent": "## 🧠 6\\. Inference [[Back to Top]](#content)",
+        "translatedContent": "## 🧠 6\\. Inférence [[Retour en haut]](#content)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "mb9++Cv3YYefgvkKeC3+KE48K0Q2SeQD++tExYdIKqY=",
+        "originContent": "<span id=\"open_source_inference\">",
+        "translatedContent": "<span id=\"open_source_inference\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "QR/bItjZKY5dMvLNzH6GX4879Vxa0VEzsY4bhrt6JJk=",
+        "originContent": "</span>",
+        "translatedContent": "</span>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Axib5s1EG7MwBvJB5hDmATzy3+Ij6uwrhlqsmLAeemU=",
+        "originContent": "### 6.1 Inference Script",
+        "translatedContent": "### 6.1 Script d'inférence"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "gzz1tD6+m1oqEAEdtmF7cs01xABiNInSFEplhY3bfGQ=",
+        "originContent": "To run inference with cmodels, use the `generate.py` script. This script supports various models, categories, and languages.",
+        "translatedContent": "Pour exécuter une inférence avec cmodels, utilisez le script `generate.py`. Ce script prend en charge divers modèles, catégories et langues."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "qwWY7P47JqonFUUvUAujmI3i0aD6KQEJ90a+gO+DuVw=",
+        "originContent": "### Basic Usage",
+        "translatedContent": "### Utilisation de base"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```bash\npython generate.py  --model <model_name>  --model_path <model_path>  \n--category <category> --language <language> \n```",
+    "ContentSha": "/woNG+bhyZZSW+u+7I045EnF55xKBxeMEcF9NnVtFy0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython generate.py  --model <model_name>  --model_path <model_path>  \n--category <category> --language <language> \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "elHTeepT+DFgo57G8A/j0p6J+Dq5pzsSwdVtQHv7RlA=",
+        "originContent": "python generate.py  --model <model_name>  --model_path <model_path>  ",
+        "translatedContent": "python generate.py  --model <model_name>  --model_path <model_path>  "
+      },
+      {
+        "row": 3,
+        "rowsha": "mtzDOU6sGgujU4F5Ula3jkJ5gV1ISEG9xNfrsas27fo=",
+        "originContent": "--category <category> --language <language> ",
+        "translatedContent": "--category <category> --language <language> "
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\nArguments:\n\n- `--model`: Specifies the model to use for inference.\n- `--model_path`: Specifies the local path to the model (only for open-source models).\n- `--category`: Defines the category of tasks or datasets to evaluate. Available categories can be found in eval_checker/eval_checker_constant.py.\n- `--language`: Specifies the language of the input/output. Supported languages: \"en\" (English), \"zh\" (Chinese)\n\n<!-- - `--do_sample`: Enable token sampling during generation. Defaults to greedy decoding.\n- `--temperature`: ecoding temperature, applicable only with `--do_sample`.\n- `--top_p`: Cumulative probability threshold for token sampling, applicable only with `--do_sample`.\n- `--max_new_tokens`: Maximum number of tokens to generate, default is 1024. -->\n\n### 6.2\\. Inference Examples\n\nfor closed-source model\n",
+    "ContentSha": "KjrLGCYzVRbShQnxo1C4AZh+rHISx8npJWTRN8E4058=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nArguments :\n\n- `--model` : Spécifie le modèle à utiliser pour l'inférence.\n- `--model_path` : Spécifie le chemin local vers le modèle (uniquement pour les modèles open-source).\n- `--category` : Définit la catégorie des tâches ou des ensembles de données à évaluer. Les catégories disponibles se trouvent dans eval_checker/eval_checker_constant.py.\n- `--language` : Spécifie la langue de l'entrée/sortie. Langues supportées : \"en\" (anglais), \"zh\" (chinois)\n\n<!-- - `--do_sample` : Active l'échantillonnage de tokens pendant la génération. Par défaut, décodage glouton.\n- `--temperature` : Température de décodage, applicable uniquement avec `--do_sample`.\n- `--top_p` : Seuil de probabilité cumulative pour l'échantillonnage de tokens, applicable uniquement avec `--do_sample`.\n- `--max_new_tokens` : Nombre maximum de tokens à générer, par défaut 1024. -->\n\n### 6.2\\. Exemples d'inférence\n\npour modèle propriétaire (closed-source)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "oSgcDB7IRyqQzvCaBTUTZjOSF0fLxHKz1ngn/NkHWig=",
+        "originContent": "Arguments:",
+        "translatedContent": "Arguments :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "48b6O6Si2xZfwimjPokIMUshj6CilqscVt/ySKQXFsw=",
+        "originContent": "- `--model`: Specifies the model to use for inference.",
+        "translatedContent": "- `--model` : Spécifie le modèle à utiliser pour l'inférence."
+      },
+      {
+        "row": 5,
+        "rowsha": "36l9yfK5MEmBB0Au/9qvLgTcJsdEvCBG3TvgoiWeqIQ=",
+        "originContent": "- `--model_path`: Specifies the local path to the model (only for open-source models).",
+        "translatedContent": "- `--model_path` : Spécifie le chemin local vers le modèle (uniquement pour les modèles open-source)."
+      },
+      {
+        "row": 6,
+        "rowsha": "iXG4xdWZOK6V0a0UBli1Q4Rj9h0RJcf7Q+tSXic8X6g=",
+        "originContent": "- `--category`: Defines the category of tasks or datasets to evaluate. Available categories can be found in eval_checker/eval_checker_constant.py.",
+        "translatedContent": "- `--category` : Définit la catégorie des tâches ou des ensembles de données à évaluer. Les catégories disponibles se trouvent dans eval_checker/eval_checker_constant.py."
+      },
+      {
+        "row": 7,
+        "rowsha": "YyK+Jpolag6PyW+RGrGzwtr6t4alBb4MAI/ItAepGVQ=",
+        "originContent": "- `--language`: Specifies the language of the input/output. Supported languages: \"en\" (English), \"zh\" (Chinese)",
+        "translatedContent": "- `--language` : Spécifie la langue de l'entrée/sortie. Langues supportées : \"en\" (anglais), \"zh\" (chinois)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "0RfoRg37kB1fCsVUsgtDUS/wh/PYnuAOYxDyltJamWQ=",
+        "originContent": "<!-- - `--do_sample`: Enable token sampling during generation. Defaults to greedy decoding.",
+        "translatedContent": "<!-- - `--do_sample` : Active l'échantillonnage de tokens pendant la génération. Par défaut, décodage glouton."
+      },
+      {
+        "row": 10,
+        "rowsha": "U6rmzWRPC5OV/Mu8E4i93E5FEY57kd4IQYVLkj0bhTg=",
+        "originContent": "- `--temperature`: ecoding temperature, applicable only with `--do_sample`.",
+        "translatedContent": "- `--temperature` : Température de décodage, applicable uniquement avec `--do_sample`."
+      },
+      {
+        "row": 11,
+        "rowsha": "RwuZ5LzkgOFj14ooaAA4jUaAJQ3zFDhmL9a6Vpjin7s=",
+        "originContent": "- `--top_p`: Cumulative probability threshold for token sampling, applicable only with `--do_sample`.",
+        "translatedContent": "- `--top_p` : Seuil de probabilité cumulative pour l'échantillonnage de tokens, applicable uniquement avec `--do_sample`."
+      },
+      {
+        "row": 12,
+        "rowsha": "gmVaHQSkG/WjrPl4+BrKsHhyToCo+PlQKbTUne/b9Os=",
+        "originContent": "- `--max_new_tokens`: Maximum number of tokens to generate, default is 1024. -->",
+        "translatedContent": "- `--max_new_tokens` : Nombre maximum de tokens à générer, par défaut 1024. -->"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "TjGXnoYuRmE9DjI7zryHJQhpjyHUNq6pohIqCyspA/0=",
+        "originContent": "### 6.2\\. Inference Examples",
+        "translatedContent": "### 6.2\\. Exemples d'inférence"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "ZhIyksxnsJliVKlInS6ErrIbH0UEzimTRhIYIIowpi8=",
+        "originContent": "for closed-source model",
+        "translatedContent": "pour modèle propriétaire (closed-source)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```bash\npython generate.py --model qwen-max --category test_all --language zh\n```",
+    "ContentSha": "rejP6lFkBKwLh6WhIokskZEmhrm3mbaThy9wk8BG4EM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython generate.py --model qwen-max --category test_all --language zh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "BH5sTW8gIS4klTek00H5DR18VO9gjSp7o0KzsRouAZM=",
+        "originContent": "python generate.py --model qwen-max --category test_all --language zh",
+        "translatedContent": "python generate.py --model qwen-max --category test_all --language zh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nfor local model\n",
+    "ContentSha": "rWeSL8WmoqntonjKvHunbiwP7XoUK22MKrmkRlITRS0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "pour modèle local\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "pour modèle local"
+      },
+      {
+        "row": 2,
+        "rowsha": "KY3+MvYs8Jj5B496hslsBlgxvkcRqVP3GyVmbAgBFTg=",
+        "originContent": "for local model",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```bash\npython generate.py --model Qwen2.5-3B-Instruct-local --model-path /mnt/nas/ckpt/Qwen2.5-3B-Instruct --category test_all --language zh\n```",
+    "ContentSha": "WPF/0z8TLIperAS5dYb/+cQjY6g43uhr21ZqsvoTBNQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython generate.py --model Qwen2.5-3B-Instruct-local --model-path /mnt/nas/ckpt/Qwen2.5-3B-Instruct --category test_all --language zh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "/GxKAD/7CESLETcg9BlKJBIUVL74RnzDNSmaUb1TGIM=",
+        "originContent": "python generate.py --model Qwen2.5-3B-Instruct-local --model-path /mnt/nas/ckpt/Qwen2.5-3B-Instruct --category test_all --language zh",
+        "translatedContent": "python generate.py --model Qwen2.5-3B-Instruct-local --model-path /mnt/nas/ckpt/Qwen2.5-3B-Instruct --category test_all --language zh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n### 6.3\\. Precautions\n\n* Before running the program, ensure that the environment variable .env file is correctly configured. To invoke OpenAI, you need to use the external network. Configure the environment variables https_proxy and http_proxy. To use the gemini model, you need to use the Japanese proxy.\n* The model to be evaluated needs to be mapped in model_inference/inference_map.py. The model invoked through OpenAI can be added to the APIModelInference list, and the customized inference model can be added to the CommonInference list. The name of a local model ends with -local.\n* To add a customized evaluation model, add the model class to model_dict by referring to model_inference/model_infer.py.\n* Evaluate the open-source model on Hugging Face. You are advised to use LLaMA-Factory to combine LoRA weights and then infer.\n\n## 📈 7. Evaluation [[Back to Top]](#content)\n\nTo evaluate the performance of the models, use the `eval_main.py` script. This script supports various evaluation metrics and can be used for both open-source and closed-source models.\n\n### Basic Usage\n",
+    "ContentSha": "tc9JvT7yyhWH8mMpHl9VpKzMhlFclAr4BYjfGyCdkNU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 6.3\\. Précautions\n\n* Avant d'exécuter le programme, assurez-vous que le fichier de variables d'environnement .env est correctement configuré. Pour invoquer OpenAI, vous devez utiliser le réseau externe. Configurez les variables d'environnement https_proxy et http_proxy. Pour utiliser le modèle gemini, vous devez utiliser le proxy japonais.\n* Le modèle à évaluer doit être mappé dans model_inference/inference_map.py. Le modèle invoqué via OpenAI peut être ajouté à la liste APIModelInference, et le modèle d'inférence personnalisé peut être ajouté à la liste CommonInference. Le nom d'un modèle local se termine par -local.\n* Pour ajouter un modèle d'évaluation personnalisé, ajoutez la classe du modèle à model_dict en vous référant à model_inference/model_infer.py.\n* Évaluez le modèle open-source sur Hugging Face. Il est conseillé d'utiliser LLaMA-Factory pour combiner les poids LoRA puis inférer.\n\n## 📈 7. Évaluation [[Retour en haut]](#content)\n\nPour évaluer les performances des modèles, utilisez le script `eval_main.py`. Ce script supporte diverses métriques d'évaluation et peut être utilisé pour les modèles open-source comme fermés.\n\n### Utilisation de base\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "bZ9V5GWUQhPcaPZ3GeWEdY7rSQ1IkNAH7uDXWkMeqqU=",
+        "originContent": "### 6.3\\. Precautions",
+        "translatedContent": "### 6.3\\. Précautions"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "GW7h1CrxLp85tWR0dP7xMtOgPbrC2okixGlwOP3BGVs=",
+        "originContent": "* Before running the program, ensure that the environment variable .env file is correctly configured. To invoke OpenAI, you need to use the external network. Configure the environment variables https_proxy and http_proxy. To use the gemini model, you need to use the Japanese proxy.",
+        "translatedContent": "* Avant d'exécuter le programme, assurez-vous que le fichier de variables d'environnement .env est correctement configuré. Pour invoquer OpenAI, vous devez utiliser le réseau externe. Configurez les variables d'environnement https_proxy et http_proxy. Pour utiliser le modèle gemini, vous devez utiliser le proxy japonais."
+      },
+      {
+        "row": 5,
+        "rowsha": "GTgRzQICTF/ZeD8dzepZCPnyobj0oJa66Cf5MFNuRdc=",
+        "originContent": "* The model to be evaluated needs to be mapped in model_inference/inference_map.py. The model invoked through OpenAI can be added to the APIModelInference list, and the customized inference model can be added to the CommonInference list. The name of a local model ends with -local.",
+        "translatedContent": "* Le modèle à évaluer doit être mappé dans model_inference/inference_map.py. Le modèle invoqué via OpenAI peut être ajouté à la liste APIModelInference, et le modèle d'inférence personnalisé peut être ajouté à la liste CommonInference. Le nom d'un modèle local se termine par -local."
+      },
+      {
+        "row": 6,
+        "rowsha": "Fy+L9Z7bVjc7EpjZ8S3tnCqiWA92gE1zf9nlIHQGZdU=",
+        "originContent": "* To add a customized evaluation model, add the model class to model_dict by referring to model_inference/model_infer.py.",
+        "translatedContent": "* Pour ajouter un modèle d'évaluation personnalisé, ajoutez la classe du modèle à model_dict en vous référant à model_inference/model_infer.py."
+      },
+      {
+        "row": 7,
+        "rowsha": "ASGNSjwntxCF7AeGa6tE00ax9OD4CM1UGaorZbxCA3g=",
+        "originContent": "* Evaluate the open-source model on Hugging Face. You are advised to use LLaMA-Factory to combine LoRA weights and then infer.",
+        "translatedContent": "* Évaluez le modèle open-source sur Hugging Face. Il est conseillé d'utiliser LLaMA-Factory pour combiner les poids LoRA puis inférer."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "cuTyltI2hP4/zvYOqehbXGD1I90mDSj3nYkOxhjGaUc=",
+        "originContent": "## 📈 7. Evaluation [[Back to Top]](#content)",
+        "translatedContent": "## 📈 7. Évaluation [[Retour en haut]](#content)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "0CTTDt3GbstyYxEHflX9/Vx95bYHegEJorP3RIPxmEk=",
+        "originContent": "To evaluate the performance of the models, use the `eval_main.py` script. This script supports various evaluation metrics and can be used for both open-source and closed-source models.",
+        "translatedContent": "Pour évaluer les performances des modèles, utilisez le script `eval_main.py`. Ce script supporte diverses métriques d'évaluation et peut être utilisé pour les modèles open-source comme fermés."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "qwWY7P47JqonFUUvUAujmI3i0aD6KQEJ90a+gO+DuVw=",
+        "originContent": "### Basic Usage",
+        "translatedContent": "### Utilisation de base"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```bash\npython eval_main.py --model <model_name> --category <category> --language <language>\n```",
+    "ContentSha": "6ZvEFm6FlhruRa+8vlfqh9LgME9oa5RPkVtwowJLNnE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython eval_main.py --model <model_name> --category <category> --language <language>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "y8wLtZH//nO2fWpVNMLB6Wc+X48jhSGlusJPt2xS4b4=",
+        "originContent": "python eval_main.py --model <model_name> --category <category> --language <language>",
+        "translatedContent": "python eval_main.py --model <model_name> --category <category> --language <language>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\n## 📄 Citation\n\nIf you find our paper and resources useful, please consider citing our paper:\n",
+    "ContentSha": "hmAEvpYkBGo/sTEK85hmOcjzHSTOaLPKcs36e+qHYbk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 📄 Citation\n\nSi vous trouvez notre article et nos ressources utiles, veuillez envisager de citer notre article :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0F5WRpPRXG+S2w1zd6fvWmJJxZPsc29Z/M8NBfmEllM=",
+        "originContent": "## 📄 Citation",
+        "translatedContent": "## 📄 Citation"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "M7ElVrvHuHoTxEo64to1UIE6qLnRgGabEeCX3ksZ2gA=",
+        "originContent": "If you find our paper and resources useful, please consider citing our paper:",
+        "translatedContent": "Si vous trouvez notre article et nos ressources utiles, veuillez envisager de citer notre article :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```bibtex\n@article{chen2025acebench,\n  title={ACEBench: Who Wins the Match Point in Tool Learning?},\n  author={Chen, Chen and Hao, Xinlong and Liu, Weiwen and Huang, Xu and Zeng, Xingshan and Yu, Shuai and Li, Dexun and Wang, Shuai and Gan, Weinan and Huang, Yuefeng and others},\n  journal={arXiv preprint arXiv:2501.12851},\n  year={2025}\n}\n```",
+    "ContentSha": "IlgqdA1mKlqJOjF4C9qxvY17n39SjnD0Aw0WRRSkwEw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@article{chen2025acebench,\n  title={ACEBench: Who Wins the Match Point in Tool Learning?},\n  author={Chen, Chen and Hao, Xinlong and Liu, Weiwen and Huang, Xu and Zeng, Xingshan and Yu, Shuai and Li, Dexun and Wang, Shuai and Gan, Weinan and Huang, Yuefeng and others},\n  journal={arXiv preprint arXiv:2501.12851},\n  year={2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "BKbB5xg/4GfcX6mP4a+ETwN9DJpWBZ+eHCA2n5Sgrsw=",
+        "originContent": "@article{chen2025acebench,",
+        "translatedContent": "@article{chen2025acebench,"
+      },
+      {
+        "row": 3,
+        "rowsha": "Uex+BtOlTfzs005gAJeUg9KgzqrB7HMSSYyCciuYtcg=",
+        "originContent": "  title={ACEBench: Who Wins the Match Point in Tool Learning?},",
+        "translatedContent": "  title={ACEBench: Who Wins the Match Point in Tool Learning?},"
+      },
+      {
+        "row": 4,
+        "rowsha": "nsEdMKm9fGgvqL6HljspognUOkg6/KHSxNKFMcjgn18=",
+        "originContent": "  author={Chen, Chen and Hao, Xinlong and Liu, Weiwen and Huang, Xu and Zeng, Xingshan and Yu, Shuai and Li, Dexun and Wang, Shuai and Gan, Weinan and Huang, Yuefeng and others},",
+        "translatedContent": "  author={Chen, Chen and Hao, Xinlong and Liu, Weiwen and Huang, Xu and Zeng, Xingshan and Yu, Shuai and Li, Dexun and Wang, Shuai and Gan, Weinan and Huang, Yuefeng and others},"
+      },
+      {
+        "row": 5,
+        "rowsha": "NEfE5TaB4w4CGa4NOB8gyKl3P/y9s3IHyPLc3KOBqqI=",
+        "originContent": "  journal={arXiv preprint arXiv:2501.12851},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2501.12851},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

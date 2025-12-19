@@ -1,0 +1,1280 @@
+[
+  {
+    "row": 1,
+    "rowsha": "arSVDrtESZw465UKRfN6DjvBtbM4tjFxVNDJVj2sokk=",
+    "originContent": "# ACEBench: Who Wins the Match Point in Tool Usage?",
+    "translatedContent": "# ACEBench：谁将在工具使用中赢得赛点？"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 4,
+    "rowsha": "ZXrjm6rk3K+EKLMCxtTTEFAoTvJo9M5UdXOg1wsL1Bo=",
+    "originContent": "  <a href=\"https://arxiv.org/abs/2501.12851\">📃 Paper </a>",
+    "translatedContent": "  <a href=\"https://arxiv.org/abs/2501.12851\">📃 论文 </a>"
+  },
+  {
+    "row": 5,
+    "rowsha": "j+m1cuNDzJ45ShiKZW5zdC/1eE2lu2QjiHoTZq42y90=",
+    "originContent": "  <b>&nbsp;·&nbsp;</b> <a href=\"https://chenchen0103.github.io/ACEBench/\">🏆 Leaderboard (Continuously Updated)</a>",
+    "translatedContent": "  <b>&nbsp;·&nbsp;</b> <a href=\"https://chenchen0103.github.io/ACEBench/\">🏆 排行榜（持续更新）</a>"
+  },
+  {
+    "row": 6,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "8py1YiQBYgpwZney1rhiTRGj9mQTua+W/ixeQnMJfFc=",
+    "originContent": "English | [中文](https://raw.githubusercontent.com/chenchen0103/ACEBench/main/README_CN.md)",
+    "translatedContent": "English | [中文](https://raw.githubusercontent.com/chenchen0103/ACEBench/main/README_CN.md)"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "rvfzfi+uBrvWjWlepirgXGHfW4AQbwAcHuxWx/eY448=",
+    "originContent": "## 📚 Content",
+    "translatedContent": "## 📚 目录"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "/Z2X3zFZ6JbArRkopYYuFphB/VCo6d6AgkF+MBHlcb4=",
+    "originContent": "- [1\\. Abstract](#abstract)",
+    "translatedContent": "- [1\\. 摘要](#abstract)"
+  },
+  {
+    "row": 13,
+    "rowsha": "MrrvFYdZ+8+5iS4G/eKF+GpCGTudM16Dcz9qUBihmMU=",
+    "originContent": "- [2\\. Benchmark Statistics](#statistics)",
+    "translatedContent": "- [2\\. 基准统计](#statistics)"
+  },
+  {
+    "row": 14,
+    "rowsha": "7x0uSBdpgWI9sdqlMAWlkEdkL5AhIYP4OzwOuuMEv/Y=",
+    "originContent": "- [3\\. Leaderboard](#leaderboard)",
+    "translatedContent": "- [3\\. 排行榜](#leaderboard)"
+  },
+  {
+    "row": 15,
+    "rowsha": "wvtCVXrbL1a2kV49ru61V2XUd1THttdU6KUax9+ahMU=",
+    "originContent": "- [4\\. Setup](#setup)",
+    "translatedContent": "- [4\\. 设置](#setup)"
+  },
+  {
+    "row": 16,
+    "rowsha": "6phDXdKEx/J4vDz9vZRd2pfVugePsTsbobDcVwLBsDU=",
+    "originContent": "- [5\\. Data](#data)",
+    "translatedContent": "- [5\\. 数据](#data)"
+  },
+  {
+    "row": 17,
+    "rowsha": "C1HOEz8xQBiWqYp+yKpOR+hU3N4yMpbEQbS3KagwTBo=",
+    "originContent": "- [6\\. Inference](#inference)",
+    "translatedContent": "- [6\\. 推理](#inference)"
+  },
+  {
+    "row": 18,
+    "rowsha": "3BazvxzlXMIt+Vt8qHpVn9JZPdnRqZJVUhgYDU+8qkA=",
+    "originContent": "  - [6.1\\. Inference Script](#open_source_inference)",
+    "translatedContent": "  - [6.1\\. 推理脚本](#open_source_inference)"
+  },
+  {
+    "row": 19,
+    "rowsha": "GadyB/s6nqpz7Snr7mgcRjAKXEgf1hDhQ7mvne7MIyI=",
+    "originContent": "  - [6.2\\. Inference Examples](#openai_inference)",
+    "translatedContent": "  - [6.2\\. 推理示例](#openai_inference)"
+  },
+  {
+    "row": 20,
+    "rowsha": "FJmLczH3zLLKN8coAn256Z+diNfikDHP7jDh7FAfqzY=",
+    "originContent": "- [7\\. Evaluation](#evaluation)",
+    "translatedContent": "- [7\\. 评估](#evaluation)"
+  },
+  {
+    "row": 21,
+    "rowsha": "rR19KDsnrs+Fn6E0u7Ks9i7Lhh938eXPX38vqMXU+cs=",
+    "originContent": "- [Citation](#citation)",
+    "translatedContent": "- [引用](#citation)"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "3PLQUuz5yZzLzQDpSOafhnBygw0flHuQUt1g7VK+dJU=",
+    "originContent": "## 🛠️ Updates [[Back to Top]](#content)",
+    "translatedContent": "## 🛠️ 更新 [[返回顶部]](#content)"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "mq6l5ngovkBsnaydwYiwfxHMWKjRTDRxhe2frYcTBFE=",
+    "originContent": "### [2025.10.29]",
+    "translatedContent": "### [2025.10.29]"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "WD8RhJ/EScvoIu0Al4Z1CorA45JHAJDOkrLh5SFKlvQ=",
+    "originContent": "1 We have corrected the possible answers in the normal_atom_enum_9, normal_atom_number_17, and normal_atom_list_34 datasets.",
+    "translatedContent": "1 我们已修正 normal_atom_enum_9、normal_atom_number_17 和 normal_atom_list_34 数据集中的可能答案。"
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "eL8ZsKmo7t2MqQ/C+4hiz3K6OmbUu6krkaYEQXWsn78=",
+    "originContent": "<span id=\"abstract\">",
+    "translatedContent": "<span id=\"abstract\">"
+  },
+  {
+    "row": 33,
+    "rowsha": "QR/bItjZKY5dMvLNzH6GX4879Vxa0VEzsY4bhrt6JJk=",
+    "originContent": "</span>",
+    "translatedContent": "</span>"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "Logx5fIeZEdfiuliFbpRhOF6c5WMHOAV9CzcvjLhHXE=",
+    "originContent": "## 📘 1\\. Abstract [[Back to Top]](#content)",
+    "translatedContent": "## 📘 1\\. 摘要 [[返回顶部]](#content)"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "JVs/qG0DOOZkBumuRy96vsbIqnattxeU7YapexRhsW0=",
+    "originContent": "Large Language Models (LLMs) have demonstrated significant potential in decision-making and reasoning, particularly when integrated with various tools to effectively solve complex problems. However, existing benchmarks for evaluating LLMs' tool usage face several limitations: (1) limited evaluation scenarios, often lacking assessments in real multi-turn dialogue contexts; (2) narrow evaluation dimensions, with insufficient detailed assessments of how LLMs use tools; and (3) reliance on LLMs or real API executions for evaluation, which introduces significant overhead. To address these challenges, we introduce ACEBench, a comprehensive benchmark for assessing tool usage in LLMs. ACEBench categorizes data into three primary types based on evaluation methodology: Normal, Special, and Agent. \"Normal\" evaluates tool usage in basic scenarios; \"Special\" evaluates tool usage in situations with ambiguous or incomplete instructions; \"Agent\" evaluates tool usage through multi-agent interactions to simulate real-world, multi-turn dialogues. We conducted extensive experiments using ACEBench, analyzing various LLMs in-depth and providing a more granular examination of error causes across different data types.",
+    "translatedContent": "Large Language Models (LLMs) have demonstrated significant potential in decision-making and reasoning, particularly when integrated with various tools to effectively solve complex problems. However, existing benchmarks for evaluating LLMs' tool usage face several limitations: (1) limited evaluation scenarios, often lacking assessments in real multi-turn dialogue contexts; (2) narrow evaluation dimensions, with insufficient detailed assessments of how LLMs use tools; and (3) reliance on LLMs or real API executions for evaluation, which introduces significant overhead. To address these challenges, we introduce ACEBench, a comprehensive benchmark for assessing tool usage in LLMs. ACEBench categorizes data into three primary types based on evaluation methodology: Normal, Special, and Agent. \"Normal\" evaluates tool usage in basic scenarios; \"Special\" evaluates tool usage in situations with ambiguous or incomplete instructions; \"Agent\" evaluates tool usage through multi-agent interactions to simulate real-world, multi-turn dialogues. We conducted extensive experiments using ACEBench, analyzing various LLMs in-depth and providing a more granular examination of error causes across different data types."
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 39,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<span id=\"statistics\">"
+  },
+  {
+    "row": 41,
+    "rowsha": "TZaNzLwVJ7BDytPBFhSgCIZ1zbP41oVspL6jnL3/eBI=",
+    "originContent": "<span id=\"statistics\">",
+    "translatedContent": "</span>"
+  },
+  {
+    "row": 42,
+    "rowsha": "QR/bItjZKY5dMvLNzH6GX4879Vxa0VEzsY4bhrt6JJk=",
+    "originContent": "</span>",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📊 2.基准数据分析 [[返回顶部]](#content)"
+  },
+  {
+    "row": 44,
+    "rowsha": "Yhyc3bLouhaZhB4imiQKQlH093/BoRflKnC9/SmkaWI=",
+    "originContent": "## 📊 2.Benchmark Data Analysis [[Back to Top]](#content)",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### **API领域**"
+  },
+  {
+    "row": 46,
+    "rowsha": "xXhHM+LavUmgEf+Bfxq7PjrZRxmLn/VmVn+CGV0Q3BM=",
+    "originContent": "### **Domain of APIs**",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- ACEBench涵盖了**8个主要领域**和**68个子领域**，包括技术、金融、娱乐、社会、健康、文化、环境等。"
+  },
+  {
+    "row": 48,
+    "rowsha": "Arhu0YzvLvDphMcEWJJwygIwidT1DO+gYnipKsfgTlY=",
+    "originContent": "- ACEBench covers **8 major domains** and **68 sub-domains**, including technology, finance, entertainment, society, health, culture, environment, and more.",
+    "translatedContent": "- 共包含**4,538个API**，涵盖中英文。"
+  },
+  {
+    "row": 49,
+    "rowsha": "UPu8ya34/uTQ8aOn0aKBLMpo0CTdVmu12t6NTHaOZMQ=",
+    "originContent": "- It includes a total of **4,538 APIs** in both Chinese and English.",
+    "translatedContent": "- 各领域API分布如下面图所示："
+  },
+  {
+    "row": 50,
+    "rowsha": "N4ldA6uX8r72zPaQpS7Onuda5z9Pr2DLBVgp8OUr5CQ=",
+    "originContent": "- The distribution of APIs across domains is visualized in the figure below:",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 52,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/chenchen0103/ACEBench/main/./fig/api_domain.png\" alt=\"API领域分布\" width=\"60%\">"
+  },
+  {
+    "row": 53,
+    "rowsha": "F8WBGPMEnOixWYxAGHA7m2PaDDxC2FTRmZHT9u214o8=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/chenchen0103/ACEBench/main/./fig/api_domain.png\" alt=\"API Domain Distribution\" width=\"60%\">",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 54,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### **数据组成**"
+  },
+  {
+    "row": 56,
+    "rowsha": "cHTzmfTyxCtjUvKZqfT6rMAZXDzSqWEtKL6ZF5nSG8Y=",
+    "originContent": "### **Data Composition**",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- ACEBench包含三大类测试样本："
+  },
+  {
+    "row": 58,
+    "rowsha": "Vo9CdoPcfGovZo6/UAmxvIGxUEodhapoyz+eJmfhbtU=",
+    "originContent": "- ACEBench consists of three main categories of test samples:",
+    "translatedContent": "  - **Normal**：基础工具使用场景。"
+  },
+  {
+    "row": 59,
+    "rowsha": "0U/APQr1G6HE3IGMJrFuc160w77jZrZHsAXIRnRH7uw=",
+    "originContent": "  - **Normal**: Basic tool-use scenarios.",
+    "translatedContent": "  - **Agent**：涉及用户与环境的多轮交互。"
+  },
+  {
+    "row": 60,
+    "rowsha": "JceKHfJf7v3pGGRn45IxCJeXSkMoZo3Ph9JNnNE3lT8=",
+    "originContent": "  - **Agent**: Multi-turn interactions involving users and environments.",
+    "translatedContent": "  - **Special**：需要多步骤或处理不可行工具调用的复杂场景。"
+  },
+  {
+    "row": 61,
+    "rowsha": "nwqWYhEZcHTYdx0R9CGJ5Z4vGNlqsBiak4giLfgcGzM=",
+    "originContent": "  - **Special**: Complex scenarios requiring multiple steps or handling infeasible tool calls.",
+    "translatedContent": "- 数据组成如下图，展示了工具使用能力的全面覆盖："
+  },
+  {
+    "row": 62,
+    "rowsha": "OPUYajaeB6jf3Th7zIq5vF7u7GQryKSg3DKujyQ4rcQ=",
+    "originContent": "- The data composition is visualized below, showcasing the comprehensive coverage of tool-use capabilities:",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 64,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/chenchen0103/ACEBench/main/./fig/data_composition.png\" alt=\"数据组成\" width=\"50%\">"
+  },
+  {
+    "row": 65,
+    "rowsha": "veGX+XaiWbMcIuw/faCkc4IQkRtCWnVONVSRA110I74=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/chenchen0103/ACEBench/main/./fig/data_composition.png\" alt=\"Data Composition\" width=\"50%\">",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 66,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<span id=\"leaderboard\">"
+  },
+  {
+    "row": 68,
+    "rowsha": "+7Kla2qA+d8WO7p3oLi5StKkiRA/2TlykiQLYGMEgZU=",
+    "originContent": "<span id=\"leaderboard\">",
+    "translatedContent": "</span>"
+  },
+  {
+    "row": 69,
+    "rowsha": "QR/bItjZKY5dMvLNzH6GX4879Vxa0VEzsY4bhrt6JJk=",
+    "originContent": "</span>",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🏆 3\\. 排行榜 [[返回顶部]](#content)"
+  },
+  {
+    "row": 71,
+    "rowsha": "GpEuL/chMLnynV5dCd2/queJOpVuppJ7arudsGSaAOc=",
+    "originContent": "## 🏆 3\\. Leaderboard [[Back to Top]](#content)",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| 模型                                  | normal | special | agent | overall |"
+  },
+  {
+    "row": 73,
+    "rowsha": "3XdH3vCJdiC+5F/DD92xCYoIy1dCyhb9N+2Zhca/M7c=",
+    "originContent": "| Model                                 | normal | special | agent | overall |",
+    "translatedContent": "| ------------------------------------- | ------ | ------- | ----- | ------- |"
+  },
+  {
+    "row": 74,
+    "rowsha": "7LLaVWOXl0bOedMzxk+2h2Wvfyok5S0KQCqUqD5o0bc=",
+    "originContent": "| ------------------------------------- | ------ | ------- | ----- | ------- |",
+    "translatedContent": "| **闭源模型**                         |"
+  },
+  {
+    "row": 75,
+    "rowsha": "H4YOBGWbRebCeO4/3ZZbNg5k4lPh4FeFE5vuVHNvt+o=",
+    "originContent": "| **close-source model**                |",
+    "translatedContent": "| gpt-4o-2024-11-20                     | 0.927  | 0.933   | 0.715 | 0.896   |"
+  },
+  {
+    "row": 76,
+    "rowsha": "IdbSxoN+6ljKjdK7tBusvtDbMirj6NR3LgYH+fq8Axg=",
+    "originContent": "| gpt-4o-2024-11-20                     | 0.927  | 0.933   | 0.715 | 0.896   |",
+    "translatedContent": "| gpt-4-turbo-2024-04-09                | 0.917  | 0.913   | 0.725 | 0.886   |"
+  },
+  {
+    "row": 77,
+    "rowsha": "oBM+N8SxraRuslJzb8l5BmfVrtGsBYRkGwoJgpSd/ec=",
+    "originContent": "| gpt-4-turbo-2024-04-09                | 0.917  | 0.913   | 0.725 | 0.886   |",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "+9KIMAl1XFdr+ebcp9FczewWDt/SUJGfV/quSZ0mHL8=",
+    "originContent": "| qwen-max                              | 0.887  | 0.740   | 0.685 | 0.817   |",
+    "translatedContent": "| qwen-max                              | 0.887  | 0.740   | 0.685 | 0.817   |"
+  },
+  {
+    "row": 79,
+    "rowsha": "E3+z1K0w9wUjqQb0U0BFFgbptPB60o3e50gVR+JUOw0=",
+    "originContent": "| o1-preview                            | 0.830  | 0.793   | 0.735 | 0.806   |",
+    "translatedContent": "| o1-preview                            | 0.830  | 0.793   | 0.735 | 0.806   |"
+  },
+  {
+    "row": 80,
+    "rowsha": "gcbo3gF4Q0YjcqJrS1++N1JQZg5VKuFSEi/qL2kRvE0=",
+    "originContent": "| deepseek-chat                         | 0.926  | 0.733   | 0.350 | 0.785   |",
+    "translatedContent": "| deepseek-chat                         | 0.926  | 0.733   | 0.350 | 0.785   |"
+  },
+  {
+    "row": 81,
+    "rowsha": "cV1fglV87yS2hWAccOXd3MhG7LuERhw44ZOnyKIYHgA=",
+    "originContent": "| gpt-4o-mini-2024-07-18                | 0.834  | 0.813   | 0.390 | 0.760   |",
+    "translatedContent": "| gpt-4o-mini-2024-07-18                | 0.834  | 0.813   | 0.390 | 0.760   |"
+  },
+  {
+    "row": 82,
+    "rowsha": "pyIBxCHiDEXzQjMkm/c6Ambx1T0Llco46wy0zC5izm8=",
+    "originContent": "| claude-3-5-sonnet-20241022            | 0.835  | 0.820   | 0.350 | 0.756   |",
+    "translatedContent": "| claude-3-5-sonnet-20241022            | 0.835  | 0.820   | 0.350 | 0.756   |"
+  },
+  {
+    "row": 83,
+    "rowsha": "FXcphN/xCUmENBEiIFQ3YkixfGiRDsQvgTi5qnhPFek=",
+    "originContent": "| gemini-1.5-pro                        | 0.822  | 0.800   | 0.250 | 0.728   |",
+    "translatedContent": "| gemini-1.5-pro                        | 0.822  | 0.800   | 0.250 | 0.728   |"
+  },
+  {
+    "row": 84,
+    "rowsha": "OqYyihiBl5RMgbATHTUOAzFb1kcw0pdWqPw3MAuI9RU=",
+    "originContent": "| o1-mini                               | 0.774  | 0.673   | 0.610 | 0.722   |",
+    "translatedContent": "| o1-mini                               | 0.774  | 0.673   | 0.610 | 0.722   |"
+  },
+  {
+    "row": 85,
+    "rowsha": "gUltvwwLWcnznSAnwaY6obiB9UccJe1cQD/9phyZ758=",
+    "originContent": "| doubao-pro-32k                        | 0.750  | 0.593   | 0.235 | 0.628   |",
+    "translatedContent": "| doubao-pro-32k                        | 0.750  | 0.593   | 0.235 | 0.628   |"
+  },
+  {
+    "row": 86,
+    "rowsha": "zonakZxcAlm/nfzswatnygo5fzsZHDbbvTvDdE47S5M=",
+    "originContent": "| **open-source model**                 |",
+    "translatedContent": "| **开源模型**                         |"
+  },
+  {
+    "row": 87,
+    "rowsha": "+ssacgqCOsEQRSWXNGcZ7HDlZ6iFIoD5jK4Ba+zF1CA=",
+    "originContent": "| Qwen2.5-Coder-32B-Instruct-local      | 0.908  | 0.813   | 0.715 | 0.853   |",
+    "translatedContent": "| Qwen2.5-Coder-32B-Instruct-local      | 0.908  | 0.813   | 0.715 | 0.853   |"
+  },
+  {
+    "row": 88,
+    "rowsha": "23iJ5kYqn9t9sNzVjcLsCtS0NjQkm17FL0RWKfn6dGo=",
+    "originContent": "| Qwen2.5-32B-Instruct-local            | 0.852  | 0.747   | 0.690 | 0.799   |",
+    "translatedContent": "| Qwen2.5-32B-Instruct-local            | 0.852  | 0.747   | 0.690 | 0.799   |"
+  },
+  {
+    "row": 89,
+    "rowsha": "V10Zu8Gwtxk0W5CXgB8tKDO6sgW4kX/OVljex/Y1G10=",
+    "originContent": "| Qwen2.5-72B-Instruct-local            | 0.873  | 0.773   | 0.525 | 0.793   |",
+    "translatedContent": "| Qwen2.5-72B-Instruct-local            | 0.873  | 0.773   | 0.525 | 0.793   |"
+  },
+  {
+    "row": 90,
+    "rowsha": "JQWpxJRE8pZTg+1/XF0/ByS4yb1Sz8llwEXtS4EQAK4=",
+    "originContent": "| Qwen2.5-Coder-14B-Instruct-local      | 0.868  | 0.647   | 0.525 | 0.756   |",
+    "translatedContent": "| Qwen2.5-Coder-14B-Instruct-local      | 0.868  | 0.647   | 0.525 | 0.756   |"
+  },
+  {
+    "row": 91,
+    "rowsha": "C3B6x4mNQFuYpkiN20Bxup3iuwdcd91hQO/a6leuYfs=",
+    "originContent": "| Qwen2.5-14B-Instruct-local            | 0.790  | 0.540   | 0.250 | 0.640   |",
+    "translatedContent": "| Qwen2.5-14B-Instruct-local            | 0.790  | 0.540   | 0.250 | 0.640   |"
+  },
+  {
+    "row": 92,
+    "rowsha": "xVAK++5hI642vwrDFbaS0IkET95mcnTIEA4U+zlj8Ds=",
+    "originContent": "| Llama-3.1-70B-Instruct-local          | 0.753  | 0.473   | 0.435 | 0.629   |",
+    "translatedContent": "| Llama-3.1-70B-Instruct-local          | 0.753  | 0.473   | 0.435 | 0.629   |"
+  },
+  {
+    "row": 93,
+    "rowsha": "MZ23pOj4KMkwBNisMb0D2KGv0DnbubHr5Cq+DIY5rjc=",
+    "originContent": "| Qwen2.5-7B-Instruct-local             | 0.759  | 0.447   | 0.125 | 0.578   |",
+    "translatedContent": "| Qwen2.5-7B-Instruct-local             | 0.759  | 0.447   | 0.125 | 0.578   |"
+  },
+  {
+    "row": 94,
+    "rowsha": "ZCFYTCD+b5u9om2aHsnnvrNNoBG/Ju2MtF+W8aslpzY=",
+    "originContent": "| DeepSeek-Coder-V2-Lite-Instruct-local | 0.688  | 0.413   | 0.015 | 0.511   |",
+    "translatedContent": "| DeepSeek-Coder-V2-Lite-Instruct-local | 0.688  | 0.413   | 0.015 | 0.511   |"
+  },
+  {
+    "row": 95,
+    "rowsha": "RUR9NtwUCNagM47MRcTxYho970N5qm2eUI7myDTIphs=",
+    "originContent": "| Qwen2.5-Coder-7B-Instruct-local       | 0.735  | 0.193   | 0.125 | 0.496   |",
+    "translatedContent": "| Qwen2.5-Coder-7B-Instruct-local       | 0.735  | 0.193   | 0.125 | 0.496   |"
+  },
+  {
+    "row": 96,
+    "rowsha": "GgqmMxmcfl6IWyfelmJAsDuEu95XTc0Pb0p9xoNyTtw=",
+    "originContent": "| watt-tool-8B-local                    | 0.763  | 0.100   | 0.040 | 0.474   |",
+    "translatedContent": "| watt-tool-8B-local                    | 0.763  | 0.100   | 0.040 | 0.474   |"
+  },
+  {
+    "row": 97,
+    "rowsha": "kZ5pCGKybuZbmgx0pq6bm5liopJ1FNLIH5mhjIlN39Y=",
+    "originContent": "| ToolACE-8B-local                      | 0.782  | 0.013   | 0.040 | 0.462   |",
+    "translatedContent": "| ToolACE-8B-local                      | 0.782  | 0.013   | 0.040 | 0.462   |"
+  },
+  {
+    "row": 98,
+    "rowsha": "e7dzFtwSs7Z5zPB48cd2wQ/gy+z957aqmHuokO1d6k0=",
+    "originContent": "| Hammer2.1-7b-local                    | 0.627  | 0.260   | 0.185 | 0.461   |",
+    "translatedContent": "| Hammer2.1-7b-local                    | 0.627  | 0.260   | 0.185 | 0.461   |"
+  },
+  {
+    "row": 99,
+    "rowsha": "fXgh5yf/eLdH/58BltDRVXgaJwec0qG++NUJN3w7t3g=",
+    "originContent": "| Meta-Llama-3.1-8B-Instruct-local      | 0.450  | 0.267   | 0.040 | 0.338   |",
+    "translatedContent": "| Meta-Llama-3.1-8B-Instruct-local      | 0.450  | 0.267   | 0.040 | 0.338   |"
+  },
+  {
+    "row": 100,
+    "rowsha": "dEFOL0kCNb9XrZddVxykG9Ik3P6jo2oO1vMOgg/n+qM=",
+    "originContent": "| Qwen2.5-Coder-3B-Instruct-local       | 0.495  | 0.100   | 0.065 | 0.323   |",
+    "translatedContent": "| Qwen2.5-Coder-3B-Instruct-local       | 0.495  | 0.100   | 0.065 | 0.323   |"
+  },
+  {
+    "row": 101,
+    "rowsha": "IzXtedLYfdRFZaKYjIjhDvda3XfZIb+XhTyyWEErB4Y=",
+    "originContent": "| Phi-3-mini-128k-instruct-local        | 0.389  | 0.253   | 0.015 | 0.295   |",
+    "translatedContent": "| Phi-3-mini-128k-instruct-local        | 0.389  | 0.253   | 0.015 | 0.295   |"
+  },
+  {
+    "row": 102,
+    "rowsha": "Rns5zTa7MS10bT3+TpvlLMiwB1ZhGhSi3Cx79MCR/D0=",
+    "originContent": "| Qwen2.5-3B-Instruct-local             | 0.408  | 0.127   | 0.065 | 0.280   |",
+    "translatedContent": "| Qwen2.5-3B-Instruct-local             | 0.408  | 0.127   | 0.065 | 0.280   |"
+  },
+  {
+    "row": 103,
+    "rowsha": "CLJo9h4RW/5UDMnaDMFrMcFcg+VjgfIf4eXhD4gx/gg=",
+    "originContent": "| Llama-3.2-3B-Instruct-local           | 0.327  | 0.100   | 0.000 | 0.216   |",
+    "translatedContent": "| Llama-3.2-3B-Instruct-local           | 0.327  | 0.100   | 0.000 | 0.216   |"
+  },
+  {
+    "row": 104,
+    "rowsha": "BCxZhNrSoUsYfMtMZ5HbTcIKB20V5e+O1C66ON4C3gQ=",
+    "originContent": "| xLAM-7b-r-local                       | 0.187  | 0.013   | 0.075 | 0.123   |",
+    "translatedContent": "| xLAM-7b-r-local                       | 0.187  | 0.013   | 0.075 | 0.123   |"
+  },
+  {
+    "row": 105,
+    "rowsha": "dtAeSFijAmOTJPF6Trz1OtBfsZSGTm8KpypkvUtPKZ8=",
+    "originContent": "| Hammer2.1-3b-local                    | 0.118  | 0.013   | 0.015 | 0.074   |",
+    "translatedContent": "| Hammer2.1-3b-local                    | 0.118  | 0.013   | 0.015 | 0.074   |"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "xgx6EaBPk1gaJoqXNwqoW2LQHiud4DWrEBgVnlU8RXY=",
+    "originContent": "<span id=\"setup\">",
+    "translatedContent": "<span id=\"setup\">"
+  },
+  {
+    "row": 110,
+    "rowsha": "QR/bItjZKY5dMvLNzH6GX4879Vxa0VEzsY4bhrt6JJk=",
+    "originContent": "</span>",
+    "translatedContent": "</span>"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "EGK9/dxzEZ6OpoSaQCY3iGWkad9TTwawwmHIHMOTd/8=",
+    "originContent": "## 🛠️ 4\\. Setup [[Back to Top]](#content)",
+    "translatedContent": "## 🛠️ 4\\. 环境配置 [[返回顶部]](#content)"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "JSW9+v1Q0xr37f6SM+vNhsKn7wLRpU59iLUNmywFd7k=",
+    "originContent": "Execute the following command to install the required dependencies for inference and evaluation:",
+    "translatedContent": "执行以下命令以安装推理和评估所需的依赖项："
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 117,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 118,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "vNaevfY8U7KCTkMGrMkTdchWdqZ17cv4sDOTk8chH4M=",
+    "originContent": "## 🗂️ 5\\. Data [[Back to Top]](#content)",
+    "translatedContent": "## 🗂️ 5\\. 数据 [[返回顶部]](#content)"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "sjGuNTk4QqSIpbcW0hY2pjgz518gj20nE/F1mS8Ffso=",
+    "originContent": "<span id=\"load_data\">",
+    "translatedContent": "<span id=\"load_data\">"
+  },
+  {
+    "row": 125,
+    "rowsha": "QR/bItjZKY5dMvLNzH6GX4879Vxa0VEzsY4bhrt6JJk=",
+    "originContent": "</span>",
+    "translatedContent": "</span>"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "wcL3ztsarTzdDj4+wGCsrliEwbS5kJIkUPsTe2FVf+c=",
+    "originContent": "All data is stored in the data_all directory, divided into English and Chinese parts, which are located in the data_en and data_zh folders respectively. Each folder contains multiple JSON files, named in the format data_{category}.json, where category represents the type of data.",
+    "translatedContent": "所有数据存储在 data_all 目录中，分为英文和中文两部分，分别位于 data_en 和 data_zh 文件夹中。每个文件夹包含多个 JSON 文件，命名格式为 data_{category}.json，其中 category 表示数据的类型。"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 130,
+    "rowsha": "QnhFbdh0N3KLyycT8kNWS7O+Dm3RHlEx4GK7MMSlPmo=",
+    "originContent": "data_all/",
+    "translatedContent": "data_all/"
+  },
+  {
+    "row": 131,
+    "rowsha": "U+JITGUMBX9Vyxfda6kfKCCFwYTkIWgbwB9XUt2LhSM=",
+    "originContent": "├── possible_answer_en/        ",
+    "translatedContent": "├── possible_answer_en/        "
+  },
+  {
+    "row": 132,
+    "rowsha": "vEhG0idVyM4DdxqNhs1jpwLYR4AbbSIOCKFi1Ce9PiA=",
+    "originContent": "│   ├── data_{normal}.json",
+    "translatedContent": "│   ├── data_{normal}.json"
+  },
+  {
+    "row": 133,
+    "rowsha": "P1mqN+cG4X+gkH9CHR/RmOaXdu89ne7gbZEk2bvXBBs=",
+    "originContent": "│   ├── data_{special}.json",
+    "translatedContent": "│   ├── data_{special}.json"
+  },
+  {
+    "row": 134,
+    "rowsha": "bjQV5IEI5ykXT/uBiN/npFp9JPM2xushDCrrahqf1m4=",
+    "originContent": "│   ├── data_{agent}.json",
+    "translatedContent": "│   ├── data_{agent}.json"
+  },
+  {
+    "row": 135,
+    "rowsha": "7HH0ARHiJ3kpwng7iDzsHjzW/5Jfoe3zICmUgtzCINg=",
+    "originContent": "├── possible_answer_zh/        ",
+    "translatedContent": "├── possible_answer_zh/        "
+  },
+  {
+    "row": 136,
+    "rowsha": "vEhG0idVyM4DdxqNhs1jpwLYR4AbbSIOCKFi1Ce9PiA=",
+    "originContent": "│   ├── data_{normal}.json",
+    "translatedContent": "│   ├── data_{normal}.json"
+  },
+  {
+    "row": 137,
+    "rowsha": "P1mqN+cG4X+gkH9CHR/RmOaXdu89ne7gbZEk2bvXBBs=",
+    "originContent": "│   ├── data_{special}.json",
+    "translatedContent": "│   ├── data_{special}.json"
+  },
+  {
+    "row": 138,
+    "rowsha": "bjQV5IEI5ykXT/uBiN/npFp9JPM2xushDCrrahqf1m4=",
+    "originContent": "│   ├── data_{agent}.json",
+    "translatedContent": "│   ├── data_{agent}.json"
+  },
+  {
+    "row": 139,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 140,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "tjvTglv8B6JfPeYcMQCoJTxNxSk+GKgz5SNHfGgnHHo=",
+    "originContent": "## 🧠 6\\. Inference [[Back to Top]](#content)",
+    "translatedContent": "## 🧠 6\\. 推理 [[返回顶部]](#content)"
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 144,
+    "rowsha": "mb9++Cv3YYefgvkKeC3+KE48K0Q2SeQD++tExYdIKqY=",
+    "originContent": "<span id=\"open_source_inference\">",
+    "translatedContent": "<span id=\"open_source_inference\">"
+  },
+  {
+    "row": 145,
+    "rowsha": "QR/bItjZKY5dMvLNzH6GX4879Vxa0VEzsY4bhrt6JJk=",
+    "originContent": "</span>",
+    "translatedContent": "</span>"
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "Axib5s1EG7MwBvJB5hDmATzy3+Ij6uwrhlqsmLAeemU=",
+    "originContent": "### 6.1 Inference Script",
+    "translatedContent": "### 6.1 推理脚本"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "gzz1tD6+m1oqEAEdtmF7cs01xABiNInSFEplhY3bfGQ=",
+    "originContent": "To run inference with cmodels, use the `generate.py` script. This script supports various models, categories, and languages.",
+    "translatedContent": "要使用 cmodels 进行推理，请使用 `generate.py` 脚本。该脚本支持多种模型、类别和语言。"
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "qwWY7P47JqonFUUvUAujmI3i0aD6KQEJ90a+gO+DuVw=",
+    "originContent": "### Basic Usage",
+    "translatedContent": "### 基本用法"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 154,
+    "rowsha": "elHTeepT+DFgo57G8A/j0p6J+Dq5pzsSwdVtQHv7RlA=",
+    "originContent": "python generate.py  --model <model_name>  --model_path <model_path>  ",
+    "translatedContent": "python generate.py  --model <model_name>  --model_path <model_path>  "
+  },
+  {
+    "row": 155,
+    "rowsha": "mtzDOU6sGgujU4F5Ula3jkJ5gV1ISEG9xNfrsas27fo=",
+    "originContent": "--category <category> --language <language> ",
+    "translatedContent": "--category <category> --language <language> "
+  },
+  {
+    "row": 156,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 157,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "参数："
+  },
+  {
+    "row": 158,
+    "rowsha": "oSgcDB7IRyqQzvCaBTUTZjOSF0fLxHKz1ngn/NkHWig=",
+    "originContent": "Arguments:",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- `--model`：指定用于推理的模型。"
+  },
+  {
+    "row": 160,
+    "rowsha": "48b6O6Si2xZfwimjPokIMUshj6CilqscVt/ySKQXFsw=",
+    "originContent": "- `--model`: Specifies the model to use for inference.",
+    "translatedContent": "- `--model_path`：指定模型的本地路径（仅适用于开源模型）。"
+  },
+  {
+    "row": 161,
+    "rowsha": "36l9yfK5MEmBB0Au/9qvLgTcJsdEvCBG3TvgoiWeqIQ=",
+    "originContent": "- `--model_path`: Specifies the local path to the model (only for open-source models).",
+    "translatedContent": "- `--category`：定义要评估的任务或数据集类别。可用类别见 eval_checker/eval_checker_constant.py。"
+  },
+  {
+    "row": 162,
+    "rowsha": "iXG4xdWZOK6V0a0UBli1Q4Rj9h0RJcf7Q+tSXic8X6g=",
+    "originContent": "- `--category`: Defines the category of tasks or datasets to evaluate. Available categories can be found in eval_checker/eval_checker_constant.py.",
+    "translatedContent": "- `--language`：指定输入/输出的语言。支持的语言：“en”（英语）、“zh”（中文）"
+  },
+  {
+    "row": 163,
+    "rowsha": "YyK+Jpolag6PyW+RGrGzwtr6t4alBb4MAI/ItAepGVQ=",
+    "originContent": "- `--language`: Specifies the language of the input/output. Supported languages: \"en\" (English), \"zh\" (Chinese)",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<!-- - `--do_sample`：生成时启用令牌采样。默认为贪婪解码。"
+  },
+  {
+    "row": 165,
+    "rowsha": "0RfoRg37kB1fCsVUsgtDUS/wh/PYnuAOYxDyltJamWQ=",
+    "originContent": "<!-- - `--do_sample`: Enable token sampling during generation. Defaults to greedy decoding.",
+    "translatedContent": "- `--temperature`：编码温度，仅在使用 `--do_sample` 时适用。"
+  },
+  {
+    "row": 166,
+    "rowsha": "U6rmzWRPC5OV/Mu8E4i93E5FEY57kd4IQYVLkj0bhTg=",
+    "originContent": "- `--temperature`: ecoding temperature, applicable only with `--do_sample`.",
+    "translatedContent": "- `--top_p`：令牌采样的累计概率阈值，仅在使用 `--do_sample` 时适用。"
+  },
+  {
+    "row": 167,
+    "rowsha": "RwuZ5LzkgOFj14ooaAA4jUaAJQ3zFDhmL9a6Vpjin7s=",
+    "originContent": "- `--top_p`: Cumulative probability threshold for token sampling, applicable only with `--do_sample`.",
+    "translatedContent": "- `--max_new_tokens`：生成的最大令牌数，默认为1024。 -->"
+  },
+  {
+    "row": 168,
+    "rowsha": "gmVaHQSkG/WjrPl4+BrKsHhyToCo+PlQKbTUne/b9Os=",
+    "originContent": "- `--max_new_tokens`: Maximum number of tokens to generate, default is 1024. -->",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 6.2\\. 推理示例"
+  },
+  {
+    "row": 170,
+    "rowsha": "TjGXnoYuRmE9DjI7zryHJQhpjyHUNq6pohIqCyspA/0=",
+    "originContent": "### 6.2\\. Inference Examples",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "针对闭源模型"
+  },
+  {
+    "row": 172,
+    "rowsha": "ZhIyksxnsJliVKlInS6ErrIbH0UEzimTRhIYIIowpi8=",
+    "originContent": "for closed-source model",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 175,
+    "rowsha": "BH5sTW8gIS4klTek00H5DR18VO9gjSp7o0KzsRouAZM=",
+    "originContent": "python generate.py --model qwen-max --category test_all --language zh",
+    "translatedContent": "python generate.py --model qwen-max --category test_all --language zh"
+  },
+  {
+    "row": 176,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 177,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "KY3+MvYs8Jj5B496hslsBlgxvkcRqVP3GyVmbAgBFTg=",
+    "originContent": "for local model",
+    "translatedContent": "用于本地模型"
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 181,
+    "rowsha": "/GxKAD/7CESLETcg9BlKJBIUVL74RnzDNSmaUb1TGIM=",
+    "originContent": "python generate.py --model Qwen2.5-3B-Instruct-local --model-path /mnt/nas/ckpt/Qwen2.5-3B-Instruct --category test_all --language zh",
+    "translatedContent": "python generate.py --model Qwen2.5-3B-Instruct-local --model-path /mnt/nas/ckpt/Qwen2.5-3B-Instruct --category test_all --language zh"
+  },
+  {
+    "row": 182,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "bZ9V5GWUQhPcaPZ3GeWEdY7rSQ1IkNAH7uDXWkMeqqU=",
+    "originContent": "### 6.3\\. Precautions",
+    "translatedContent": "### 6.3\\. 注意事项"
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "GW7h1CrxLp85tWR0dP7xMtOgPbrC2okixGlwOP3BGVs=",
+    "originContent": "* Before running the program, ensure that the environment variable .env file is correctly configured. To invoke OpenAI, you need to use the external network. Configure the environment variables https_proxy and http_proxy. To use the gemini model, you need to use the Japanese proxy.",
+    "translatedContent": "* 运行程序前，确保环境变量 .env 文件配置正确。调用 OpenAI 需要使用外网，配置环境变量 https_proxy 和 http_proxy。使用 gemini 模型需要使用日本代理。"
+  },
+  {
+    "row": 187,
+    "rowsha": "GTgRzQICTF/ZeD8dzepZCPnyobj0oJa66Cf5MFNuRdc=",
+    "originContent": "* The model to be evaluated needs to be mapped in model_inference/inference_map.py. The model invoked through OpenAI can be added to the APIModelInference list, and the customized inference model can be added to the CommonInference list. The name of a local model ends with -local.",
+    "translatedContent": "* 待评估的模型需在 model_inference/inference_map.py 中映射。通过 OpenAI 调用的模型可添加到 APIModelInference 列表，自定义推理模型可添加到 CommonInference 列表。 本地模型名称以 -local 结尾。"
+  },
+  {
+    "row": 188,
+    "rowsha": "Fy+L9Z7bVjc7EpjZ8S3tnCqiWA92gE1zf9nlIHQGZdU=",
+    "originContent": "* To add a customized evaluation model, add the model class to model_dict by referring to model_inference/model_infer.py.",
+    "translatedContent": "* 添加自定义评估模型时，参考 model_inference/model_infer.py 将模型类添加到 model_dict。"
+  },
+  {
+    "row": 189,
+    "rowsha": "ASGNSjwntxCF7AeGa6tE00ax9OD4CM1UGaorZbxCA3g=",
+    "originContent": "* Evaluate the open-source model on Hugging Face. You are advised to use LLaMA-Factory to combine LoRA weights and then infer.",
+    "translatedContent": "* 对 Hugging Face 上的开源模型进行评估，建议使用 LLaMA-Factory 结合 LoRA 权重后推理。"
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "cuTyltI2hP4/zvYOqehbXGD1I90mDSj3nYkOxhjGaUc=",
+    "originContent": "## 📈 7. Evaluation [[Back to Top]](#content)",
+    "translatedContent": "## 📈 7. 评估 [[返回顶部]](#content)"
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "0CTTDt3GbstyYxEHflX9/Vx95bYHegEJorP3RIPxmEk=",
+    "originContent": "To evaluate the performance of the models, use the `eval_main.py` script. This script supports various evaluation metrics and can be used for both open-source and closed-source models.",
+    "translatedContent": "使用 `eval_main.py` 脚本评估模型性能。该脚本支持多种评估指标，适用于开源和闭源模型。"
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "qwWY7P47JqonFUUvUAujmI3i0aD6KQEJ90a+gO+DuVw=",
+    "originContent": "### Basic Usage",
+    "translatedContent": "### 基本用法"
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 198,
+    "rowsha": "y8wLtZH//nO2fWpVNMLB6Wc+X48jhSGlusJPt2xS4b4=",
+    "originContent": "python eval_main.py --model <model_name> --category <category> --language <language>",
+    "translatedContent": "python eval_main.py --model <model_name> --category <category> --language <language>"
+  },
+  {
+    "row": 199,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "0F5WRpPRXG+S2w1zd6fvWmJJxZPsc29Z/M8NBfmEllM=",
+    "originContent": "## 📄 Citation",
+    "translatedContent": "## 📄 引用"
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "M7ElVrvHuHoTxEo64to1UIE6qLnRgGabEeCX3ksZ2gA=",
+    "originContent": "If you find our paper and resources useful, please consider citing our paper:",
+    "translatedContent": "如果您觉得我们的论文和资源有用，请考虑引用我们的论文："
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+    "originContent": "```bibtex",
+    "translatedContent": "```bibtex"
+  },
+  {
+    "row": 206,
+    "rowsha": "BKbB5xg/4GfcX6mP4a+ETwN9DJpWBZ+eHCA2n5Sgrsw=",
+    "originContent": "@article{chen2025acebench,",
+    "translatedContent": "@article{chen2025acebench,"
+  },
+  {
+    "row": 207,
+    "rowsha": "Uex+BtOlTfzs005gAJeUg9KgzqrB7HMSSYyCciuYtcg=",
+    "originContent": "  title={ACEBench: Who Wins the Match Point in Tool Learning?},",
+    "translatedContent": "  title={ACEBench: Who Wins the Match Point in Tool Learning?},"
+  },
+  {
+    "row": 208,
+    "rowsha": "nsEdMKm9fGgvqL6HljspognUOkg6/KHSxNKFMcjgn18=",
+    "originContent": "  author={Chen, Chen and Hao, Xinlong and Liu, Weiwen and Huang, Xu and Zeng, Xingshan and Yu, Shuai and Li, Dexun and Wang, Shuai and Gan, Weinan and Huang, Yuefeng and others},",
+    "translatedContent": "  author={Chen, Chen and Hao, Xinlong and Liu, Weiwen and Huang, Xu and Zeng, Xingshan and Yu, Shuai and Li, Dexun and Wang, Shuai and Gan, Weinan and Huang, Yuefeng and others},"
+  },
+  {
+    "row": 209,
+    "rowsha": "NEfE5TaB4w4CGa4NOB8gyKl3P/y9s3IHyPLc3KOBqqI=",
+    "originContent": "  journal={arXiv preprint arXiv:2501.12851},",
+    "translatedContent": "  journal={arXiv preprint arXiv:2501.12851},"
+  },
+  {
+    "row": 210,
+    "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+    "originContent": "  year={2025}",
+    "translatedContent": "  year={2025}"
+  },
+  {
+    "row": 211,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 212,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
