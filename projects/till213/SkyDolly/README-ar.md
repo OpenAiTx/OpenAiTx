@@ -4,7 +4,7 @@
     <summary >🌐 اللغة</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=en">الإنجليزية</a>
         | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ja">日本語</a>
@@ -32,10 +32,10 @@
 </div>
 
 [![الإصدار التجريبي](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)
-![الترخيص: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)
+![الرخصة: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)
 ![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)
-![المترجمات المدعومة](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)
-
+![المجمعات المدعومة](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)
+[![اسأل DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/till213/SkyDolly)
 ![اختبارات الوحدة](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)
 
 # سكاي دوللي
@@ -140,6 +140,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-20
 
 ---

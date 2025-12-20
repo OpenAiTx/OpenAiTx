@@ -35,7 +35,7 @@
 ![Licença: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)
 ![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)
 ![Compiladores Suportados](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)
-
+[![Pergunte ao DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/till213/SkyDolly)
 ![Testes Unitários](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)
 
 # Sky Dolly
@@ -140,6 +140,6 @@ Consulte a documentação [BUILD](https://raw.githubusercontent.com/till213/SkyD
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-20
 
 ---

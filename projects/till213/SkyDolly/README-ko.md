@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 언어</summary>
@@ -35,8 +34,9 @@
 ![라이선스: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)
 ![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)
 ![지원 컴파일러](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/till213/SkyDolly)
+![단위 테스트](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)
 
-![유닛 테스트](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)
 
 # Sky Dolly
 Sky Dolly - 당신의 비행 기록을 위한 블랙 쉽.
@@ -140,6 +140,6 @@ Sky Dolly로 만든 더 많은 영상은 [SHOWCASE](https://raw.githubuserconten
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-20
 
 ---

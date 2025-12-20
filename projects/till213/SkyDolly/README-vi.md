@@ -31,11 +31,11 @@
 
 </div>
 
-[![Phát Hành Trước](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)
+[![Pre-Release](https://img.shields.io/github/v/tag/till213/skydolly?include_prereleases&label=Pre-Release)](https://github.com/till213/skydolly/releases)
 ![Giấy phép: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)
 ![C++20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)
-![Trình biên dịch hỗ trợ](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)
-
+![Trình biên dịch được hỗ trợ](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)
+[![Hỏi DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/till213/SkyDolly)
 ![Kiểm thử đơn vị](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)
 
 # Sky Dolly
@@ -140,6 +140,6 @@ Tham khảo tài liệu [BUILD](https://raw.githubusercontent.com/till213/SkyDol
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-20
 
 ---

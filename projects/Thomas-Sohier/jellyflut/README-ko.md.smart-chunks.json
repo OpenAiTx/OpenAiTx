@@ -1,0 +1,859 @@
+[
+  {
+    "Id": 1,
+    "Content": "<img height=\"80\" width=\"80\" src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/icon/rounded_logo.png\"/>\n\n# Jellyflut\n\nA jellyfin client made in Flutter\n\nIt's a beta, it works okay.\n\n## :warning: News\n \nThe project is stale for now. I don't have much time and interest in this project for now. Video player are too much pain in FLutter. I'm still looking for solutions but as of now, I'm going to slow down the developpement of this app.\n\nI'm still looking for any PR and will gladly accept them.\n \n## :gear: Features\n\nYou can :\n- [x] Play a video\n- [x] Read a book (epub/CBZ)\n  - Epub is pretty limited for now as it's a juste a parser combined with an HTML viewer\n  - need some work\n- [x] Listen Music\n  - Buggy on Linux (need to investigate, or to use another package for linux )\n- [x] Look photos\n- [x] SQLite to have logging and to save server URL\n- [x] Browse all files\n- [x] ~~BIGGEST THING TO DO make transcoding work, for now i don't know how to check if file can be direct play and if no how to tell jellyfin to send me the correct url~~ It works (not much anymore, broken since 10.8.0 beta 3)\n  - Do not works correctly on Windows (seems broken due to libvlc dll, certificate issue)\n  - On computer I added supported codec manually. Some codecs can be missing, if so, create an issue and I will check if it's playable\n- [x] Control music from any screen\n- [x] Extract or/and parse subtitles from video file\n - Only remote srt, cannot parse from mkv file (except in VLC)\n\n## Done\n  - [X] Add deconnect button and handle it well\n  - [X] Rework login page\n  - [x] Hero animation OK\n  - [x] Async details loading\n  - [x] Navigation details back stutter\n  - [x] Responsive (WIP)",
+    "ContentSha": "NCJWbjGAL1VyJUxr2Tp3M8KOMw0lXCwZep394hSiZA8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<img height=\"80\" width=\"80\" src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/icon/rounded_logo.png\"/>\n\n# Jellyflut\n\nFlutter로 만든 Jellyfin 클라이언트\n\n베타 버전이며, 꽤 잘 작동합니다.\n\n## :warning: 소식\n \n현재 프로젝트는 정체된 상태입니다. 지금은 이 프로젝트에 많은 시간과 관심을 쏟지 못하고 있습니다. Flutter에서 비디오 플레이어가 너무 어려운 문제입니다. 해결책을 계속 찾고 있지만 현재로서는 이 앱 개발을 늦출 예정입니다.\n\nPR은 언제든지 환영하며 기꺼이 받겠습니다.\n \n## :gear: 기능\n\n다음이 가능합니다:\n- [x] 비디오 재생\n- [x] 책 읽기 (epub/CBZ)\n  - epub은 현재 단순 파서와 HTML 뷰어를 결합한 상태로 꽤 제한적입니다.\n  - 추가 작업 필요\n- [x] 음악 듣기\n  - Linux에서 버그 있음 (조사 필요하거나 다른 패키지 사용 필요)\n- [x] 사진 보기\n- [x] SQLite를 사용해 로그 기록 및 서버 URL 저장\n- [x] 모든 파일 탐색\n- [x] ~~가장 큰 과제는 트랜스코딩 작동시키기, 현재 파일이 직접 재생 가능한지 확인하는 방법을 모르며, 불가능할 경우 jellyfin에 올바른 URL을 요청하는 방법도 모름~~ 작동합니다 (현재는 많이 작동하지 않음, 10.8.0 베타 3 이후로 깨짐)\n  - Windows에서 제대로 작동하지 않음 (libvlc dll, 인증서 문제로 보임)\n  - 컴퓨터에서는 지원 코덱을 수동으로 추가함. 일부 코덱이 누락될 수 있으며, 그럴 경우 이슈를 생성해주시면 재생 가능 여부를 확인하겠습니다.\n- [x] 모든 화면에서 음악 제어\n- [x] 비디오 파일에서 자막 추출 및/또는 파싱\n - 원격 srt만 가능하며, mkv 파일에서 파싱 불가 (VLC 제외)\n\n## 완료\n  - [X] 로그아웃 버튼 추가 및 정상 처리\n  - [X] 로그인 페이지 재작업\n  - [x] 히어로 애니메이션 완료\n  - [x] 비동기 상세 로딩\n  - [x] 상세 페이지 뒤로가기 시 끊김 개선\n  - [x] 반응형 (작업 중)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "YDMRukyYvQxxDJBBrI0HMLupW1QHxzkDfoLVwUYRdcU=",
+        "originContent": "<img height=\"80\" width=\"80\" src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/icon/rounded_logo.png\"/>",
+        "translatedContent": "<img height=\"80\" width=\"80\" src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/icon/rounded_logo.png\"/>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Uv2pnqvF7xkgUHtLSlWO9Hlx3V3f7ftHjzBZJa1Hvcw=",
+        "originContent": "# Jellyflut",
+        "translatedContent": "# Jellyflut"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "RoDcWdFp3X1GndTFKslbqg+5dxmsYb7pWjiDLFGSJjU=",
+        "originContent": "A jellyfin client made in Flutter",
+        "translatedContent": "Flutter로 만든 Jellyfin 클라이언트"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "BOQKNQ/P0Dz3Yyzaq+cdGVxAf7Gmc+T4LLci49MMWxg=",
+        "originContent": "It's a beta, it works okay.",
+        "translatedContent": "베타 버전이며, 꽤 잘 작동합니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "+g1SiKkPxbOrdb24N22PzyPDdcfwI3ec9sCN+klrjw8=",
+        "originContent": "## :warning: News",
+        "translatedContent": "## :warning: 소식"
+      },
+      {
+        "row": 10,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 11,
+        "rowsha": "JXEgg3JiNqpoXfAFQimrBww+6skTFsxlKyB0jJzJhAY=",
+        "originContent": "The project is stale for now. I don't have much time and interest in this project for now. Video player are too much pain in FLutter. I'm still looking for solutions but as of now, I'm going to slow down the developpement of this app.",
+        "translatedContent": "현재 프로젝트는 정체된 상태입니다. 지금은 이 프로젝트에 많은 시간과 관심을 쏟지 못하고 있습니다. Flutter에서 비디오 플레이어가 너무 어려운 문제입니다. 해결책을 계속 찾고 있지만 현재로서는 이 앱 개발을 늦출 예정입니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "RBXONYgz7DDZxgkNeqWZ5v5H01SdSn5EcakmiK26wwE=",
+        "originContent": "I'm still looking for any PR and will gladly accept them.",
+        "translatedContent": "PR은 언제든지 환영하며 기꺼이 받겠습니다."
+      },
+      {
+        "row": 14,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 15,
+        "rowsha": "okJ5I3/HtnjqVSpCSu2mcQ5VDT/qDck58+nrmmncPcs=",
+        "originContent": "## :gear: Features",
+        "translatedContent": "## :gear: 기능"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "j29nzIkl2XHqUNUqy6FTERh+PC+qzTs4b+BqYdSu8O4=",
+        "originContent": "You can :",
+        "translatedContent": "다음이 가능합니다:"
+      },
+      {
+        "row": 18,
+        "rowsha": "2ax4+Hi5ADljZvvJkwDHRxZ71wwNQ6PgcQsDhCYcXZw=",
+        "originContent": "- [x] Play a video",
+        "translatedContent": "- [x] 비디오 재생"
+      },
+      {
+        "row": 19,
+        "rowsha": "VB+u210uP95WTPMPmgZm88BTbPON9DX81BJNFh93XMc=",
+        "originContent": "- [x] Read a book (epub/CBZ)",
+        "translatedContent": "- [x] 책 읽기 (epub/CBZ)"
+      },
+      {
+        "row": 20,
+        "rowsha": "TmbftEVB4wxr+YKY00tS4hCCYVFEiI3jULHK5YV63HM=",
+        "originContent": "  - Epub is pretty limited for now as it's a juste a parser combined with an HTML viewer",
+        "translatedContent": "  - epub은 현재 단순 파서와 HTML 뷰어를 결합한 상태로 꽤 제한적입니다."
+      },
+      {
+        "row": 21,
+        "rowsha": "EMeFGGbZ7gIDoclvR+G/0kYVi894X77qjAqzTqIXsxU=",
+        "originContent": "  - need some work",
+        "translatedContent": "  - 추가 작업 필요"
+      },
+      {
+        "row": 22,
+        "rowsha": "wDk1pxxDgvNci4v6FUrijCHBw7SgF8DTMXNA75zhbG8=",
+        "originContent": "- [x] Listen Music",
+        "translatedContent": "- [x] 음악 듣기"
+      },
+      {
+        "row": 23,
+        "rowsha": "huTmkowutj3EzznI72pwPW7KUIm9EMH0bsQfr6KASZw=",
+        "originContent": "  - Buggy on Linux (need to investigate, or to use another package for linux )",
+        "translatedContent": "  - Linux에서 버그 있음 (조사 필요하거나 다른 패키지 사용 필요)"
+      },
+      {
+        "row": 24,
+        "rowsha": "ivZIJDAgQQ5BehGJMDwMU21bllelW6v++QX4QZM33a0=",
+        "originContent": "- [x] Look photos",
+        "translatedContent": "- [x] 사진 보기"
+      },
+      {
+        "row": 25,
+        "rowsha": "3c1/dWPisVb3J29v7ErynjCDlatfFE7pBRBPINXL1+g=",
+        "originContent": "- [x] SQLite to have logging and to save server URL",
+        "translatedContent": "- [x] SQLite를 사용해 로그 기록 및 서버 URL 저장"
+      },
+      {
+        "row": 26,
+        "rowsha": "MQAa11sws2L5+6v3sqClfJEzYFPoz1JHGp6pDSib6n8=",
+        "originContent": "- [x] Browse all files",
+        "translatedContent": "- [x] 모든 파일 탐색"
+      },
+      {
+        "row": 27,
+        "rowsha": "lxBHZpPF3oWPJs9cAq4M5k5lxn0Bq1ERVzShTuRjoaI=",
+        "originContent": "- [x] ~~BIGGEST THING TO DO make transcoding work, for now i don't know how to check if file can be direct play and if no how to tell jellyfin to send me the correct url~~ It works (not much anymore, broken since 10.8.0 beta 3)",
+        "translatedContent": "- [x] ~~가장 큰 과제는 트랜스코딩 작동시키기, 현재 파일이 직접 재생 가능한지 확인하는 방법을 모르며, 불가능할 경우 jellyfin에 올바른 URL을 요청하는 방법도 모름~~ 작동합니다 (현재는 많이 작동하지 않음, 10.8.0 베타 3 이후로 깨짐)"
+      },
+      {
+        "row": 28,
+        "rowsha": "W1vBmgBEhO5FIJsSQG7jvYGpgGUTiEszKrhYZ2zvnDM=",
+        "originContent": "  - Do not works correctly on Windows (seems broken due to libvlc dll, certificate issue)",
+        "translatedContent": "  - Windows에서 제대로 작동하지 않음 (libvlc dll, 인증서 문제로 보임)"
+      },
+      {
+        "row": 29,
+        "rowsha": "bglJcwd5OqyBxCezU7R88t1SigmFQuOVUWrNJyszyeI=",
+        "originContent": "  - On computer I added supported codec manually. Some codecs can be missing, if so, create an issue and I will check if it's playable",
+        "translatedContent": "  - 컴퓨터에서는 지원 코덱을 수동으로 추가함. 일부 코덱이 누락될 수 있으며, 그럴 경우 이슈를 생성해주시면 재생 가능 여부를 확인하겠습니다."
+      },
+      {
+        "row": 30,
+        "rowsha": "VCr2wiYe7Tg7yzPzVobcWyXw+cijLq/BNMf666CUTGc=",
+        "originContent": "- [x] Control music from any screen",
+        "translatedContent": "- [x] 모든 화면에서 음악 제어"
+      },
+      {
+        "row": 31,
+        "rowsha": "cKFWxHBeWSf0nwEP/Ux4AIHjjm3T2BZg4zLim86YXSw=",
+        "originContent": "- [x] Extract or/and parse subtitles from video file",
+        "translatedContent": "- [x] 비디오 파일에서 자막 추출 및/또는 파싱"
+      },
+      {
+        "row": 32,
+        "rowsha": "+qq9vOPQLgrjXpsetZt84op13GP7DIwfqeDYmmqlZk4=",
+        "originContent": " - Only remote srt, cannot parse from mkv file (except in VLC)",
+        "translatedContent": " - 원격 srt만 가능하며, mkv 파일에서 파싱 불가 (VLC 제외)"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "2oIVlI7DUgv/i/gPtgri6moXEKRlh/2n6c1zG5f5TL8=",
+        "originContent": "## Done",
+        "translatedContent": "## 완료"
+      },
+      {
+        "row": 35,
+        "rowsha": "apPaY1cpXM4VyWtUMYpEXhXN5deZYxasMgPjtutib20=",
+        "originContent": "  - [X] Add deconnect button and handle it well",
+        "translatedContent": "  - [X] 로그아웃 버튼 추가 및 정상 처리"
+      },
+      {
+        "row": 36,
+        "rowsha": "ySA7W8NxKCxIjzcfzsVuztWmsvAlM+ttuS94MH+qpF4=",
+        "originContent": "  - [X] Rework login page",
+        "translatedContent": "  - [X] 로그인 페이지 재작업"
+      },
+      {
+        "row": 37,
+        "rowsha": "NwnZPF4DmO6GeXDEvamAZ2Mforo17e+qw3bTn+srfK0=",
+        "originContent": "  - [x] Hero animation OK",
+        "translatedContent": "  - [x] 히어로 애니메이션 완료"
+      },
+      {
+        "row": 38,
+        "rowsha": "iztLlLjTZia0IqedPBhncmmL3rxJk95gqyQrImyXRo0=",
+        "originContent": "  - [x] Async details loading",
+        "translatedContent": "  - [x] 비동기 상세 로딩"
+      },
+      {
+        "row": 39,
+        "rowsha": "YEvJf/8Lqo6cR/B3duIo3lZSvR++yGBUQu6Ikh25qzY=",
+        "originContent": "  - [x] Navigation details back stutter",
+        "translatedContent": "  - [x] 상세 페이지 뒤로가기 시 끊김 개선"
+      },
+      {
+        "row": 40,
+        "rowsha": "UCrXLYFC/8MZxdDNIfSoVTVrGaai3MGxf+c7vWDAC9g=",
+        "originContent": "  - [x] Responsive (WIP)",
+        "translatedContent": "  - [x] 반응형 (작업 중)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "  - [x] Navigation with D-pad (seems ok but web can still select things from outside of the screen on home page)\n    - Still need more works but you can navigate 80% of app which is sufficient for now\n  - [x] Handle multiple users and servers\n  - [x] Have a better handling of data when resizing to avoid reload from API\n    - Seems pretty good right now, may need more works in future\n  - [X] Theme (dark/light)\n  - [X] Localization (ENG,FR,DE)\n\n## Todo\n  - [ ] Always refactor everything\n  - [ ] Add unit test\n  - [ ] Correct \"transcodeReasons=0\" from jellyfin\n  - [ ] Correct all flutter things, make things faster\n  - [ ] Make IPTV on par with web version\n    - Guide is working\n    - Can play IPTV channels\n    - still need to add recording\n\n## Screens\n\n <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/home.png\"/>\n\n### Phone\n\n<div style=\"display: flex\">\n <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/series_details_phone_1.png\"/>\n <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/series_details_phone_2.png\"/>\n</div>\n\n### Desktop\n\n<div style=\"display: flex\">\n <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/details_desktop.png\" height=\"360\" />\n <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/series_details_desktop.png\" height=\"360\" />\n <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/music_details_desktop.png\" height=\"360\" />\n</div>\n\n## Getting Started\n\nThis app should work on any platform but IOS and MacOs are not tested.",
+    "ContentSha": "aFuO04xsL8A7xuTugnkFVCEHoVXVQfW1pHmUZ1ZZx24=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - [x] D-패드 내비게이션 (괜찮아 보이나 웹에서는 홈 화면 밖의 항목도 선택 가능)\n    - 아직 개선이 필요하지만 앱의 80% 정도는 내비게이션 가능하여 현재로서는 충분함\n  - [x] 다중 사용자 및 서버 처리\n  - [x] API에서 재로드를 방지하기 위한 리사이징 시 데이터 처리 개선\n    - 현재는 꽤 괜찮으며, 앞으로 더 개선 필요할 수 있음\n  - [X] 테마 (다크/라이트)\n  - [X] 현지화 (영어, 프랑스어, 독일어)\n\n## 할 일\n  - [ ] 모든 코드를 항상 리팩토링하기\n  - [ ] 단위 테스트 추가\n  - [ ] Jellyfin에서 \"transcodeReasons=0\" 문제 수정\n  - [ ] 모든 Flutter 관련 문제 수정, 속도 향상\n  - [ ] IPTV를 웹 버전과 동등하게 만들기\n    - 가이드 작동 중\n    - IPTV 채널 재생 가능\n    - 녹화 기능 추가 필요\n\n## 화면\n\n <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/home.png\"/>\n\n### 휴대폰\n\n<div style=\"display: flex\">\n <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/series_details_phone_1.png\"/>\n <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/series_details_phone_2.png\"/>\n</div>\n\n### 데스크탑\n\n<div style=\"display: flex\">\n <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/details_desktop.png\" height=\"360\" />\n <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/series_details_desktop.png\" height=\"360\" />\n <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/music_details_desktop.png\" height=\"360\" />\n</div>\n\n## 시작하기\n\n이 앱은 모든 플랫폼에서 작동해야 하지만 iOS와 MacOS는 테스트되지 않았습니다.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9oGo8RYKG6yKAJSla8JjW9S4xrdjr8ZS+7POS4UFY3c=",
+        "originContent": "  - [x] Navigation with D-pad (seems ok but web can still select things from outside of the screen on home page)",
+        "translatedContent": "  - [x] D-패드 내비게이션 (괜찮아 보이나 웹에서는 홈 화면 밖의 항목도 선택 가능)"
+      },
+      {
+        "row": 2,
+        "rowsha": "F8HtjHWwv2BoFb7XVkYY6tUevBGUeBX84pNzZSYus4o=",
+        "originContent": "    - Still need more works but you can navigate 80% of app which is sufficient for now",
+        "translatedContent": "    - 아직 개선이 필요하지만 앱의 80% 정도는 내비게이션 가능하여 현재로서는 충분함"
+      },
+      {
+        "row": 3,
+        "rowsha": "kYokcsfOn63QrAgcHMv9BnPwatvKdbRSjqWrv845nrk=",
+        "originContent": "  - [x] Handle multiple users and servers",
+        "translatedContent": "  - [x] 다중 사용자 및 서버 처리"
+      },
+      {
+        "row": 4,
+        "rowsha": "Wzih14EAjID5so1PGkaABWZ+mFFheJx0m428irbCk+o=",
+        "originContent": "  - [x] Have a better handling of data when resizing to avoid reload from API",
+        "translatedContent": "  - [x] API에서 재로드를 방지하기 위한 리사이징 시 데이터 처리 개선"
+      },
+      {
+        "row": 5,
+        "rowsha": "DU9rxQEJxVLvHLuKueSSQ9sgCdikzZ+N5arVN455db4=",
+        "originContent": "    - Seems pretty good right now, may need more works in future",
+        "translatedContent": "    - 현재는 꽤 괜찮으며, 앞으로 더 개선 필요할 수 있음"
+      },
+      {
+        "row": 6,
+        "rowsha": "dq/DZA4ZcPO/nlRbTkMepljhRxx8LlMe7l5h0T4BJjA=",
+        "originContent": "  - [X] Theme (dark/light)",
+        "translatedContent": "  - [X] 테마 (다크/라이트)"
+      },
+      {
+        "row": 7,
+        "rowsha": "Z0g6cGPenjq12IhRHpHq3NAI2RAY0/W3Am0xuJTrK3w=",
+        "originContent": "  - [X] Localization (ENG,FR,DE)",
+        "translatedContent": "  - [X] 현지화 (영어, 프랑스어, 독일어)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "a+2R26zsb+bs/uxup1DV12eRkj7qmBtbYkLGXqZPSjM=",
+        "originContent": "## Todo",
+        "translatedContent": "## 할 일"
+      },
+      {
+        "row": 10,
+        "rowsha": "9H45BFFfxhkdSqGjO/MZOx+KabJSMFd4WJjFZ1V5U5A=",
+        "originContent": "  - [ ] Always refactor everything",
+        "translatedContent": "  - [ ] 모든 코드를 항상 리팩토링하기"
+      },
+      {
+        "row": 11,
+        "rowsha": "rVbJCS4U4ty9f2dfcVQM0K1RfdEBjHnxbLa5/93xBfw=",
+        "originContent": "  - [ ] Add unit test",
+        "translatedContent": "  - [ ] 단위 테스트 추가"
+      },
+      {
+        "row": 12,
+        "rowsha": "DM0Xw7988PrW99JMA4gXnebtUQW/6h8pCKgDgP48K7Y=",
+        "originContent": "  - [ ] Correct \"transcodeReasons=0\" from jellyfin",
+        "translatedContent": "  - [ ] Jellyfin에서 \"transcodeReasons=0\" 문제 수정"
+      },
+      {
+        "row": 13,
+        "rowsha": "Kiuxa6mw+MlKv+dh0CFMwePMdxYbJJ/O1eiSFUC5Yi4=",
+        "originContent": "  - [ ] Correct all flutter things, make things faster",
+        "translatedContent": "  - [ ] 모든 Flutter 관련 문제 수정, 속도 향상"
+      },
+      {
+        "row": 14,
+        "rowsha": "sKTTUTBHA/GE8ig/T6Gf3ndDM3rr7vsqnDQy0wy1c5Y=",
+        "originContent": "  - [ ] Make IPTV on par with web version",
+        "translatedContent": "  - [ ] IPTV를 웹 버전과 동등하게 만들기"
+      },
+      {
+        "row": 15,
+        "rowsha": "OwX/B6cMeghfpRuSSdiBLiXEkfZgZu/rnW+/RvYm/JQ=",
+        "originContent": "    - Guide is working",
+        "translatedContent": "    - 가이드 작동 중"
+      },
+      {
+        "row": 16,
+        "rowsha": "G2Vvd4K/6O7CaLbrnYo6mX6suFPuu/lT9GSdYXdUzNM=",
+        "originContent": "    - Can play IPTV channels",
+        "translatedContent": "    - IPTV 채널 재생 가능"
+      },
+      {
+        "row": 17,
+        "rowsha": "jY2fULSk+spESTWqVwCaM2tcIyx7gCtb9jf3ZmRRMWk=",
+        "originContent": "    - still need to add recording",
+        "translatedContent": "    - 녹화 기능 추가 필요"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "FOCeGu0dz6/iw2d4BKK1ofr4JfM5F4AaJa/moPoXag8=",
+        "originContent": "## Screens",
+        "translatedContent": "## 화면"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "wxUmhDJyb9uK6o1nziJuIP/3BTAuzfqT0McSgS4CuLA=",
+        "originContent": " <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/home.png\"/>",
+        "translatedContent": " <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/home.png\"/>"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "SM9dFaLBNLQBKwNIZkmBv1V06cKsNcnfCeDr9WyPZtQ=",
+        "originContent": "### Phone",
+        "translatedContent": "### 휴대폰"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "GIfdFiyvLwqmH+Ti2NwmDuj7Gir+bBxpbwYT5M3BvHg=",
+        "originContent": "<div style=\"display: flex\">",
+        "translatedContent": "<div style=\"display: flex\">"
+      },
+      {
+        "row": 26,
+        "rowsha": "TzlXoPGB/+tb0SPKyomEwP+jnFSWEvfgh08+AmczmVk=",
+        "originContent": " <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/series_details_phone_1.png\"/>",
+        "translatedContent": " <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/series_details_phone_1.png\"/>"
+      },
+      {
+        "row": 27,
+        "rowsha": "G1GnTs8WpOOOF1H//kGWBhmBJ4slkIh39uzZok+14sQ=",
+        "originContent": " <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/series_details_phone_2.png\"/>",
+        "translatedContent": " <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/series_details_phone_2.png\"/>"
+      },
+      {
+        "row": 28,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "xhrzTFZG6H7OwIahpCrquq8Fs0eKiObNAUeLBnyZ2mk=",
+        "originContent": "### Desktop",
+        "translatedContent": "### 데스크탑"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "GIfdFiyvLwqmH+Ti2NwmDuj7Gir+bBxpbwYT5M3BvHg=",
+        "originContent": "<div style=\"display: flex\">",
+        "translatedContent": "<div style=\"display: flex\">"
+      },
+      {
+        "row": 33,
+        "rowsha": "hp674NUbFFxRNIKzOU7NpnuYhWXDPWmbkTtzNhLqbJo=",
+        "originContent": " <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/details_desktop.png\" height=\"360\" />",
+        "translatedContent": " <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/details_desktop.png\" height=\"360\" />"
+      },
+      {
+        "row": 34,
+        "rowsha": "SQxrQwNZt8WZaB2T6M2+ickK1ZavepEOvoVco1KnfkY=",
+        "originContent": " <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/series_details_desktop.png\" height=\"360\" />",
+        "translatedContent": " <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/series_details_desktop.png\" height=\"360\" />"
+      },
+      {
+        "row": 35,
+        "rowsha": "oTu8GiLHcJ4FHk7h1AbxT5jdlCJZWT6CwjCWdVS+6tM=",
+        "originContent": " <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/music_details_desktop.png\" height=\"360\" />",
+        "translatedContent": " <img src=\"https://raw.githubusercontent.com/Thomas-Sohier/jellyflut/main/./img/readme/music_details_desktop.png\" height=\"360\" />"
+      },
+      {
+        "row": 36,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## 시작하기"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "VIRssa47wUECPebSUlAVelT0vHHjS6Wc6WVXef6taRk=",
+        "originContent": "This app should work on any platform but IOS and MacOs are not tested.",
+        "translatedContent": "이 앱은 모든 플랫폼에서 작동해야 하지만 iOS와 MacOS는 테스트되지 않았습니다."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n### How to test ?\n",
+    "ContentSha": "sFaq4TbrxZ+BOXasLAcfKXUG9ap24srEecDaj8Wpzjc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 테스트 방법 ?\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "JYzyBGCRptQAPowqIq+a6wJqmq5iHJFaWX3OK19cqvY=",
+        "originContent": "### How to test ?",
+        "translatedContent": "### 테스트 방법 ?"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\n  git clone https://github.com/Thomas-Sohier/jellyflut.git\n  cd jellyflut\n  flutter packages get\n  flutter packages upgrade\n  flutter run\n```",
+    "ContentSha": "jnPGW8f60YmiZkYjQO7CxeNULUvoWrWsjN88lxGIeKM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  git clone https://github.com/Thomas-Sohier/jellyflut.git\n  cd jellyflut\n  flutter packages get\n  flutter packages upgrade\n  flutter run\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6W/YkHIdtWPQp6banodNjXEalF0PppPfxMc2yfKpytA=",
+        "originContent": "  git clone https://github.com/Thomas-Sohier/jellyflut.git",
+        "translatedContent": "  git clone https://github.com/Thomas-Sohier/jellyflut.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "mGZf4OwD3RZM8ZKri4lnSZW4ejdYB5tkq/zhdxsmhOg=",
+        "originContent": "  cd jellyflut",
+        "translatedContent": "  cd jellyflut"
+      },
+      {
+        "row": 4,
+        "rowsha": "+TVRyOOgVeQ6bcYZzyCLVyZHC75CMRP0IWGQHPhvGa0=",
+        "originContent": "  flutter packages get",
+        "translatedContent": "  flutter packages get"
+      },
+      {
+        "row": 5,
+        "rowsha": "X3lM+eMnsu4exoZqVz55SO6R+Q8iduc/deygWMmJL/E=",
+        "originContent": "  flutter packages upgrade",
+        "translatedContent": "  flutter packages upgrade"
+      },
+      {
+        "row": 6,
+        "rowsha": "y7NewIbfwCG9M+3nWdz7VYa+dnAZSj0odtWRsLzLQbs=",
+        "originContent": "  flutter run",
+        "translatedContent": "  flutter run"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### How to build ? (Android)\n",
+    "ContentSha": "3bU5CFCAduNGXTUjbB+boaZZSdwLmxP6R0oU/VHCCOI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 빌드 방법 ? (안드로이드)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jNXr+rL97fNiRHvnO7NA9DnL8PVaTBCNX0mNqt6GJJo=",
+        "originContent": "### How to build ? (Android)",
+        "translatedContent": "### 빌드 방법 ? (안드로이드)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\n  flutter build apk --release\n```",
+    "ContentSha": "L1Orcr829tNfl210YNkf6OToXLtu/9+wlmFob4qsYwY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  flutter build apk --release\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "izzh3Hiz7+0FzIliQpmG2MgUuAc320NhyjqIouhUbTc=",
+        "originContent": "  flutter build apk --release",
+        "translatedContent": "  flutter build apk --release"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n### How to build ? (Computer, depending of platform)\n\nSpecific to Linux, you need to install dep\n",
+    "ContentSha": "3yTgI67fd2ECcqMj/7aTUi0lC35MkEenQ5u4wCA5GlI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 빌드 방법 ? (플랫폼에 따른 컴퓨터)\n\n리눅스에 특화되어, dep를 설치해야 합니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 빌드 방법 ? (플랫폼에 따른 컴퓨터)"
+      },
+      {
+        "row": 2,
+        "rowsha": "Jg9mHUXqVSmwJKmLBgeYIkA7XpXxuU6mtJ8rMzO05UI=",
+        "originContent": "### How to build ? (Computer, depending of platform)",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "리눅스에 특화되어, dep를 설치해야 합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "4q0iW833pZaQKTyTcJX7tZ1P5UTsf+zXpqneVxcJWpo=",
+        "originContent": "Specific to Linux, you need to install dep",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\n  # depend of your distro of course\n  sudo apt-get update -y\n  sudo apt-get install -y vlc libvlc-dev ninja-build clang libgtk-3-dev\n```",
+    "ContentSha": "lDV0+1qKY+6qC7frYn1GRS3lxm7UiNEA0Oi4hRA5PEU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  # depend of your distro of course\n  sudo apt-get update -y\n  sudo apt-get install -y vlc libvlc-dev ninja-build clang libgtk-3-dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "gBIxLLWlmKQXr65mJ48+P64pCatCw61bfcknAYiKotY=",
+        "originContent": "  # depend of your distro of course",
+        "translatedContent": "  # depend of your distro of course"
+      },
+      {
+        "row": 3,
+        "rowsha": "bIoXLJhIRSwSfJhtkv7fjWoXvmXGFXHl/ycYwIOSP1U=",
+        "originContent": "  sudo apt-get update -y",
+        "translatedContent": "  sudo apt-get update -y"
+      },
+      {
+        "row": 4,
+        "rowsha": "o68sWDNrRzl+vyOc+H2JiRaVKD3chFXWHa8c7wDtWxw=",
+        "originContent": "  sudo apt-get install -y vlc libvlc-dev ninja-build clang libgtk-3-dev",
+        "translatedContent": "  sudo apt-get install -y vlc libvlc-dev ninja-build clang libgtk-3-dev"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\n  # enable desktop support at first (shouldn't be necessary but anyway)\n  flutter config --enable-windows-desktop\n  flutter config --enable-macos-desktop\n  flutter config --enable-linux-desktop\n\n  # build the app depending of your platform\n  flutter build windows\n  flutter build macos\n  flutter build linux\n```",
+    "ContentSha": "TfJwdDjo4U2RLPqkY7MKMmLPBBONJIanKPEc60Z7R6Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n  # enable desktop support at first (shouldn't be necessary but anyway)\n  flutter config --enable-windows-desktop\n  flutter config --enable-macos-desktop\n  flutter config --enable-linux-desktop\n\n  # build the app depending of your platform\n  flutter build windows\n  flutter build macos\n  flutter build linux\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "52V0KdRfjWayUnNQvx2bewC5jHZ1lOvBO25ZFcpw3UE=",
+        "originContent": "  # enable desktop support at first (shouldn't be necessary but anyway)",
+        "translatedContent": "  # enable desktop support at first (shouldn't be necessary but anyway)"
+      },
+      {
+        "row": 3,
+        "rowsha": "Bns4CYz+2XCCfXeuE7YS1hPJnv4nS9vl4z4qrnlcl7U=",
+        "originContent": "  flutter config --enable-windows-desktop",
+        "translatedContent": "  flutter config --enable-windows-desktop"
+      },
+      {
+        "row": 4,
+        "rowsha": "eIg+IWbRPP2dPgBUsi9IVKstL8WG7qbazG/tdAXY3wk=",
+        "originContent": "  flutter config --enable-macos-desktop",
+        "translatedContent": "  flutter config --enable-macos-desktop"
+      },
+      {
+        "row": 5,
+        "rowsha": "HNow2MRy9IQGYU1hJNPkCVyYGHzYfhBaqybr7u5CH38=",
+        "originContent": "  flutter config --enable-linux-desktop",
+        "translatedContent": "  flutter config --enable-linux-desktop"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "TPOD8dx7xmnah8V1zjLD6cDfMY8tjW90YDx28TC9pAI=",
+        "originContent": "  # build the app depending of your platform",
+        "translatedContent": "  # build the app depending of your platform"
+      },
+      {
+        "row": 8,
+        "rowsha": "mYsBz9e9BTsn0cVRbA5VHEnFD7Dhg81dvrrPTd9VJY8=",
+        "originContent": "  flutter build windows",
+        "translatedContent": "  flutter build windows"
+      },
+      {
+        "row": 9,
+        "rowsha": "3lx9FcochpC2ztKD4GUc+/wsI8GkcL5J+4Q6kOG9z90=",
+        "originContent": "  flutter build macos",
+        "translatedContent": "  flutter build macos"
+      },
+      {
+        "row": 10,
+        "rowsha": "k6cn2Rms6FCbHpOe8drLD06qdAyBx8uyHAmpic4shGg=",
+        "originContent": "  flutter build linux",
+        "translatedContent": "  flutter build linux"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

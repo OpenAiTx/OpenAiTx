@@ -1,29 +1,28 @@
-
 <div align="right">
   <details>
     <summary >🌐 زبان</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=en">انگلیسی</a>
         | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ja">ژاپنی</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ko">کره‌ای</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=hi">هندی</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=th">تایلندی</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=fr">فرانسوی</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=de">آلمانی</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=es">اسپانیایی</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=it">ایتالیایی</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ru">روسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=pt">پرتغالی</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=nl">هلندی</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=pl">لهستانی</a>
         | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=ar">العربية</a>
         | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=tr">ترکی</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=vi">ویتنامی</a>
+        | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=id">اندونزیایی</a>
         | <a href="https://openaitx.github.io/view.html?user=till213&project=SkyDolly&lang=as">অসমীয়া</
       </div>
     </div>
@@ -35,8 +34,9 @@
 ![مجوز: MIT](https://img.shields.io/badge/%E2%9A%96%EF%B8%8F%20License-MIT-brightgreen)
 ![++C20](https://img.shields.io/badge/C%2B%2B-20-%2300599C?logo=cplusplus)
 ![کامپایلرهای پشتیبانی‌شده](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Compilers-GCC%2C%20clang%2C%20MSVC-informational)
-
+[![پرسش از DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/till213/SkyDolly)
 ![تست‌های واحد](https://github.com/till213/SkyDolly/actions/workflows/unit-tests.yml/badge.svg?event=push)
+
 
 # اسکای دالی
 اسکای دالی - گوسفند سیاه برای ضبط پروازهای شما.
@@ -140,6 +140,6 @@
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-15
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-20
 
 ---

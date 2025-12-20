@@ -1,0 +1,371 @@
+[
+  {
+    "Id": 1,
+    "Content": "# twitch-downloader-gui\n\nThis is a gui wrapper for the cli version of the great project [TwitchDownloader](https://github.com/lay295/TwitchDownloader), Linux only.\nI used the library [libui-ng](https://github.com/libui-ng/libui-ng) with a few extra [patches](https://github.com/mohad12211/libui-ng).\nThe library is still in mid-alpha, but it's a promising project, simple, cross-platform (macos can be done, I just don't care much about it) and very intuitive.\n\n# Preview\n\n![preview](https://user-images.githubusercontent.com/51754973/167058990-a574493a-fd44-4f12-be59-185798fb93bf.gif)\n\n# Installation\n\n> [!IMPORTANT]\n> **This is a just wrapper for the CLI, you still need the `TwitchDownloaderCLI` binary. By default the app will try to find the binary from your `PATH`,\nif you don't want to put `TwitchDownloaderCLI` in your `PATH` you can specify the binary path from the settings. Make sure that `TwitchDownloaderCLI` is executable.**\n\n\nPackages available for debian, fedora And [AUR](https://aur.archlinux.org/packages/twitch-downloader-gui).\n\n### Dependencies\n\n- ffmpeg (required to render chat and vods)\n- libcurl\n- TwitchDownloaderCLI (see below)\n\n# Building\n\n### Build Dependencies\n\n- make\n- libcurl (devel version)\n- gtk3 (devel version, called libgtk-3-dev on ubuntu)\n\nstatic library for libui is in the repo, but you can use your own compiled version and just replace it, instructions [here](https://github.com/mohad12211/libui-ng/blob/customs/README.md#quick-building-instructions)\n",
+    "ContentSha": "MJztr5d8UAWiEFUHVtCa2diNe5qrRIN2MtQJuovw660=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# twitch-downloader-gui\n\nThis is a gui wrapper for the cli version of the great project [TwitchDownloader](https://github.com/lay295/TwitchDownloader), Linux only.  \nI used the library [libui-ng](https://github.com/libui-ng/libui-ng) with a few extra [patches](https://github.com/mohad12211/libui-ng).  \nThe library is still in mid-alpha, but it's a promising project, simple, cross-platform (macos can be done, I just don't care much about it) and very intuitive.\n\n# Preview\n\n![preview](https://user-images.githubusercontent.com/51754973/167058990-a574493a-fd44-4f12-be59-185798fb93bf.gif)\n\n# Installation\n\n> [!IMPORTANT]  \n> **This is a just wrapper for the CLI, you still need the `TwitchDownloaderCLI` binary. By default the app will try to find the binary from your `PATH`,  \nif you don't want to put `TwitchDownloaderCLI` in your `PATH` you can specify the binary path from the settings. Make sure that `TwitchDownloaderCLI` is executable.**\n\nPackages available for debian, fedora And [AUR](https://aur.archlinux.org/packages/twitch-downloader-gui).\n\n### Dependencies\n\n- ffmpeg (required to render chat and vods)  \n- libcurl  \n- TwitchDownloaderCLI (see below)\n\n# Building\n\n### Build Dependencies\n\n- make  \n- libcurl (devel version)  \n- gtk3 (devel version, called libgtk-3-dev on ubuntu)\n\nstatic library for libui is in the repo, but you can use your own compiled version and just replace it, instructions [here](https://github.com/mohad12211/libui-ng/blob/customs/README.md#quick-building-instructions)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uOQCIxoPTijnzzt7LBxRsjBYimCfctQfIYzD/7u0NOY=",
+        "originContent": "# twitch-downloader-gui",
+        "translatedContent": "# twitch-downloader-gui"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "JMeKV0wtacvb4kbaHBUvPzScs5DcWO+AE2JTDaq39fE=",
+        "originContent": "This is a gui wrapper for the cli version of the great project [TwitchDownloader](https://github.com/lay295/TwitchDownloader), Linux only.",
+        "translatedContent": "This is a gui wrapper for the cli version of the great project [TwitchDownloader](https://github.com/lay295/TwitchDownloader), Linux only.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "Ua1rON6X1FzOMXmcK83ywW3GtuNibFKBV22RgDBn6Sk=",
+        "originContent": "I used the library [libui-ng](https://github.com/libui-ng/libui-ng) with a few extra [patches](https://github.com/mohad12211/libui-ng).",
+        "translatedContent": "I used the library [libui-ng](https://github.com/libui-ng/libui-ng) with a few extra [patches](https://github.com/mohad12211/libui-ng).  "
+      },
+      {
+        "row": 5,
+        "rowsha": "mj2Q4oG8fZHt9+lcqX8nUyJXW9vQDe9s6GVTdxDWoEQ=",
+        "originContent": "The library is still in mid-alpha, but it's a promising project, simple, cross-platform (macos can be done, I just don't care much about it) and very intuitive.",
+        "translatedContent": "The library is still in mid-alpha, but it's a promising project, simple, cross-platform (macos can be done, I just don't care much about it) and very intuitive."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "hUXaMkxFWD2G1Z3qV19g/9jZpZQ4LRxZ3yotmHQNFz4=",
+        "originContent": "# Preview",
+        "translatedContent": "# Preview"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Ux/78ecY8e5/94lA6M2T7NTIINLW8CbGadGgX+p0GEM=",
+        "originContent": "![preview](https://user-images.githubusercontent.com/51754973/167058990-a574493a-fd44-4f12-be59-185798fb93bf.gif)",
+        "translatedContent": "![preview](https://user-images.githubusercontent.com/51754973/167058990-a574493a-fd44-4f12-be59-185798fb93bf.gif)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "oEvHgiQZPffZY71LXkD7wBebC/0+TjyYxWZNyVCJCpU=",
+        "originContent": "# Installation",
+        "translatedContent": "# Installation"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "qv0XWtvfGjlacbeo5zWUZHv7PDKhmVRgLu9tBYXFnKs=",
+        "originContent": "> [!IMPORTANT]",
+        "translatedContent": "> [!IMPORTANT]  "
+      },
+      {
+        "row": 14,
+        "rowsha": "plKmeS2UoGrnjCiICKwo/zopS3LN2cHOhEqzEPL/m0c=",
+        "originContent": "> **This is a just wrapper for the CLI, you still need the `TwitchDownloaderCLI` binary. By default the app will try to find the binary from your `PATH`,",
+        "translatedContent": "> **This is a just wrapper for the CLI, you still need the `TwitchDownloaderCLI` binary. By default the app will try to find the binary from your `PATH`,  "
+      },
+      {
+        "row": 15,
+        "rowsha": "w/mZizbxO+L50BeXVbO/dPgqF8Pt5zml9Y695k1qEIw=",
+        "originContent": "if you don't want to put `TwitchDownloaderCLI` in your `PATH` you can specify the binary path from the settings. Make sure that `TwitchDownloaderCLI` is executable.**",
+        "translatedContent": "if you don't want to put `TwitchDownloaderCLI` in your `PATH` you can specify the binary path from the settings. Make sure that `TwitchDownloaderCLI` is executable.**"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Packages available for debian, fedora And [AUR](https://aur.archlinux.org/packages/twitch-downloader-gui)."
+      },
+      {
+        "row": 18,
+        "rowsha": "ODZXAmt2Mpa+XClOiG28lmiwAgdd1/fMHzxueu9Yegk=",
+        "originContent": "Packages available for debian, fedora And [AUR](https://aur.archlinux.org/packages/twitch-downloader-gui).",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Dependencies"
+      },
+      {
+        "row": 20,
+        "rowsha": "cA9I4m4MLDGazdniXFF/VJ7jgnkzPSvBbISFVX7s/5s=",
+        "originContent": "### Dependencies",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- ffmpeg (required to render chat and vods)  "
+      },
+      {
+        "row": 22,
+        "rowsha": "EFRWpJnpWib52M5lFhOjwubkDxVIqHH30TlNwwqS7/w=",
+        "originContent": "- ffmpeg (required to render chat and vods)",
+        "translatedContent": "- libcurl  "
+      },
+      {
+        "row": 23,
+        "rowsha": "d/35uAdaiTNfDwCXCpD6D+DKP7StvnSItlD9a17BDNc=",
+        "originContent": "- libcurl",
+        "translatedContent": "- TwitchDownloaderCLI (see below)"
+      },
+      {
+        "row": 24,
+        "rowsha": "6rshZwemzB4GkO8f24y9spC2VIXcMHojlJDxL7yOHTM=",
+        "originContent": "- TwitchDownloaderCLI (see below)",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "# Building"
+      },
+      {
+        "row": 26,
+        "rowsha": "4jMB2dnHp7eV36PlOVdpxYRbZ0vhKKOMhNSNCgr4x0c=",
+        "originContent": "# Building",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Build Dependencies"
+      },
+      {
+        "row": 28,
+        "rowsha": "vDtoLtovUJRNjk4P870Sz2e99S/iC4lXkQOnOBSyn/A=",
+        "originContent": "### Build Dependencies",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- make  "
+      },
+      {
+        "row": 30,
+        "rowsha": "mCj/YbNZc2+t37Izr29XeT/maigYVZyT2u66wJK2Vew=",
+        "originContent": "- make",
+        "translatedContent": "- libcurl (devel version)  "
+      },
+      {
+        "row": 31,
+        "rowsha": "wVnp6XdxLet0Q/MHGArjjHwHqeasy4x4rPanWAakdQQ=",
+        "originContent": "- libcurl (devel version)",
+        "translatedContent": "- gtk3 (devel version, called libgtk-3-dev on ubuntu)"
+      },
+      {
+        "row": 32,
+        "rowsha": "DDuz3jR/Q/GKDV0ZRaDCqqQEYlnuoSnIaXWbDHrWsuo=",
+        "originContent": "- gtk3 (devel version, called libgtk-3-dev on ubuntu)",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "static library for libui is in the repo, but you can use your own compiled version and just replace it, instructions [here](https://github.com/mohad12211/libui-ng/blob/customs/README.md#quick-building-instructions)"
+      },
+      {
+        "row": 34,
+        "rowsha": "ipw2io6oIribrVnDFu39/69cCFOvrEKcW4oaqwYVjsI=",
+        "originContent": "static library for libui is in the repo, but you can use your own compiled version and just replace it, instructions [here](https://github.com/mohad12211/libui-ng/blob/customs/README.md#quick-building-instructions)",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n$ git clone https://github.com/mohad12211/twitch-downloader-gui.git\n$ cd twitch-downloader-gui\n$ make\n$ make install # (if you want to install the app to your system)\n$ make uninstall # (to uninstall)\n```",
+    "ContentSha": "Viqg9IiyDu+9US/Ys0Ff4toHSnZHZBpDGhdDKeSiqgc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n$ git clone https://github.com/mohad12211/twitch-downloader-gui.git\n$ cd twitch-downloader-gui\n$ make\n$ make install # (if you want to install the app to your system)\n$ make uninstall # (to uninstall)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "cuF30AoNoE6/2PfpN6bnhMdIJAJ40xzpgGjHggNUnTI=",
+        "originContent": "$ git clone https://github.com/mohad12211/twitch-downloader-gui.git",
+        "translatedContent": "$ git clone https://github.com/mohad12211/twitch-downloader-gui.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "gpgyM1hg7N14WGcwtga3imaUj7pewV7nJIHO0wRdCpE=",
+        "originContent": "$ cd twitch-downloader-gui",
+        "translatedContent": "$ cd twitch-downloader-gui"
+      },
+      {
+        "row": 4,
+        "rowsha": "ByXC+7uYh7zISdHRAQnU8EnErq6laYIzvY4fjm9JwjU=",
+        "originContent": "$ make",
+        "translatedContent": "$ make"
+      },
+      {
+        "row": 5,
+        "rowsha": "uUywAuoOxgD1s49IY+FjTrBvUX6wARLG41s7pvfU+cI=",
+        "originContent": "$ make install # (if you want to install the app to your system)",
+        "translatedContent": "$ make install # (if you want to install the app to your system)"
+      },
+      {
+        "row": 6,
+        "rowsha": "GcsY0OZaTf5sQXkYbU03VPBe1XxYyLVbyJgDo2lFgbM=",
+        "originContent": "$ make uninstall # (to uninstall)",
+        "translatedContent": "$ make uninstall # (to uninstall)"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nbinary is inside `build/bin`\n\n# Does it include all the features? any bugs?\n\nit includes the basic functionalities, There's no task queue.\n\n## Bugs...\n\n- You can only download the heighest quality for the vod (I will solve it soon).\n\nPlease report any bugs.\n",
+    "ContentSha": "jl+Uu2Cm8mRIG97n18x2XDRQ2RpY75j6hpZ8H8ZL9D8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nbinary is inside `build/bin`\n\n# Does it include all the features? any bugs?\n\nit includes the basic functionalities, There's no task queue.\n\n## Bugs...\n\n- You can only download the highest quality for the vod (I will solve it soon).\n\nPlease report any bugs.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "CJ1E0tgKGz+/+NrLZh4dIk9+wMPaWhlVRSO2NS2SlLk=",
+        "originContent": "binary is inside `build/bin`",
+        "translatedContent": "binary is inside `build/bin`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "YLDIcAFUEmUWHoGippSDr60yzZbaVIY4m+snbY0v1Lc=",
+        "originContent": "# Does it include all the features? any bugs?",
+        "translatedContent": "# Does it include all the features? any bugs?"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ISLFKwQpYObtnA6aIxG4q/EPlQC3Ivve9p9GNyIAkF0=",
+        "originContent": "it includes the basic functionalities, There's no task queue.",
+        "translatedContent": "it includes the basic functionalities, There's no task queue."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "k0voMwziaN1TrJI5rAKG3tYhBs/CT7KjIuuJxOTTWR0=",
+        "originContent": "## Bugs...",
+        "translatedContent": "## Bugs..."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "eU7UHtRWWc8B0VrrR8y2+SmTp1UNxF+e2/ahMMTZbWc=",
+        "originContent": "- You can only download the heighest quality for the vod (I will solve it soon).",
+        "translatedContent": "- You can only download the highest quality for the vod (I will solve it soon)."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "s/gMc0ZfhOCYytLHwqMmSP2mTnRgqOoDcKmeLoAX1xs=",
+        "originContent": "Please report any bugs.",
+        "translatedContent": "Please report any bugs."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

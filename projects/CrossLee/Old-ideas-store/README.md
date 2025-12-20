@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=CrossLee&project=Old-ideas-store&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <div align=center><img width="200" height="200" src="https://user-images.githubusercontent.com/4584905/164882415-7a970539-720b-4589-a2b5-7c92d1e87e2d.png"/></div>
 
 # Old ideas store
