@@ -1,0 +1,410 @@
+[
+  {
+    "row": 1,
+    "rowsha": "CYRcZb9FvVPKxetUQrooqHaOK6ga3jyn80/R7UvYt1o=",
+    "originContent": "# ExpeRepair",
+    "translatedContent": "# ExpeRepair"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "Z/AzTS8QFpN3vKlQ6aFsdghfhZ80axs3Dyq/bXBguUY=",
+    "originContent": "**ExpeRepair** is a novel LLM-based program repair framework that continuously accumulates and reuses historical repair experiences via a dual-memory system. It comprises two core components:",
+    "translatedContent": "**ExpeRepair** is a novel LLM-based program repair framework that continuously accumulates and reuses historical repair experiences via a dual-memory system. It comprises two core components:"
+  },
+  {
+    "row": 4,
+    "rowsha": "46fufJpxdE6sTtGQrWt8arTc/WSBuRlDkDASghWpVaA=",
+    "originContent": "- **Program Repair Module**: Consists of a Test Agent and a Patch Agent that collaboratively handle three key tasks — test generation, patch generation, and patch validation.",
+    "translatedContent": "- **Program Repair Module**: Consists of a Test Agent and a Patch Agent that collaboratively handle three key tasks — test generation, patch generation, and patch validation."
+  },
+  {
+    "row": 5,
+    "rowsha": "9ku7ViL0vvodNTAf/BoAXDmnPOjq2DNMn+jancl1iGg=",
+    "originContent": "- **Memory Module**: Captures repair trajectories from the Program Repair Module, extracting concrete demonstrations and summarizing high-level repair strategies. These are stored in **episodic memory** and **semantic memory**, respectively. During future repairs, ExpeRepair retrieves relevant demonstrations and insights to enhance its repair strategy for new issues.",
+    "translatedContent": "- **Memory Module**: Captures repair trajectories from the Program Repair Module, extracting concrete demonstrations and summarizing high-level repair strategies. These are stored in **episodic memory** and **semantic memory**, respectively. During future repairs, ExpeRepair retrieves relevant demonstrations and insights to enhance its repair strategy for new issues."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+    "originContent": "## 🚀 Quick Start",
+    "translatedContent": "## 🚀 Quick Start"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+    "originContent": "### Installation",
+    "translatedContent": "### Installation"
+  },
+  {
+    "row": 10,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 11,
+    "rowsha": "VY4jLuaZfG4Dv4J6pJ1ggo0ZYkDK+uyfCipRE6nvE1I=",
+    "originContent": "git clone <repository-url>",
+    "translatedContent": "git clone <repository-url>"
+  },
+  {
+    "row": 12,
+    "rowsha": "r5Vy+u4I9tDK7wrOlhQUH0El0/AK4Q3kFJec3SippuE=",
+    "originContent": "cd ExpeRepair-v1.0",
+    "translatedContent": "cd ExpeRepair-v1.0"
+  },
+  {
+    "row": 13,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 14,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "ql0TjGyRtxO6zq4Gfn8/KQ9cNT4Mq180uKjx8NhXliI=",
+    "originContent": "### Environment Setup",
+    "translatedContent": "### Environment Setup"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "GJfguIA4YrXmhItZwcKLBuYic565IYxLTyceo3ZgI9M=",
+    "originContent": "Set your API keys as environment variables:",
+    "translatedContent": "Set your API keys as environment variables:"
+  },
+  {
+    "row": 19,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 20,
+    "rowsha": "1mfjqjR86YClY108dXZU4U2d+Gb/9ULJbln8/DhIfgI=",
+    "originContent": "export PYTHONPATH=$PYTHONPATH:$(pwd)",
+    "translatedContent": "export PYTHONPATH=$PYTHONPATH:$(pwd)"
+  },
+  {
+    "row": 21,
+    "rowsha": "aJRJMbI3ucus+GjBMowc1bVXDHVhjBQxSPfudb2HkK4=",
+    "originContent": "# OpenAI key",
+    "translatedContent": "# OpenAI key"
+  },
+  {
+    "row": 22,
+    "rowsha": "4R8BtqK19EuvC6m5bsUOj6aLX4geMkfZYmWd/PwDlFk=",
+    "originContent": "export OPENAI_KEY=\"your-openai-key\"",
+    "translatedContent": "export OPENAI_KEY=\"your-openai-key\""
+  },
+  {
+    "row": 23,
+    "rowsha": "ZCJLMB5cYhSgCiBp8jckZITPjlUr5tc4+chSJ8ydUcw=",
+    "originContent": "# Anthropic Key",
+    "translatedContent": "# Anthropic Key"
+  },
+  {
+    "row": 24,
+    "rowsha": "49Ny9tTHri4Zb4nndn8Y5Xot8gcwydotb2wC7vH+mEU=",
+    "originContent": "export CLAUDE_KEY=\"your-anthropic-key\"",
+    "translatedContent": "export CLAUDE_KEY=\"your-anthropic-key\""
+  },
+  {
+    "row": 25,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Following [Agentless](https://arxiv.org/abs/2407.01489), ExpeRepair uses a **repository structure format** to localize suspicious files."
+  },
+  {
+    "row": 27,
+    "rowsha": "nRWCqTso/n1lHQ5dgK6NVMwDgUWO/y0cud9GSK9gbIw=",
+    "originContent": "Following [Agentless](https://arxiv.org/abs/2407.01489), ExpeRepair uses a **repository structure format** to localize suspicious files.",
+    "translatedContent": "You can either preprocess the repositories yourself, or download the prepared data: [swebench_lite_repo_structure.zip](https://github.com/OpenAutoCoder/Agentless/releases/tag/v1.5.0)."
+  },
+  {
+    "row": 28,
+    "rowsha": "vculLeW7cGJoxuE2JyE2/OIfp+7KkYQjs5Jz43T9IQQ=",
+    "originContent": "You can either preprocess the repositories yourself, or download the prepared data: [swebench_lite_repo_structure.zip](https://github.com/OpenAutoCoder/Agentless/releases/tag/v1.5.0).",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "After downloading, unzip and export its location:"
+  },
+  {
+    "row": 30,
+    "rowsha": "FSpgsBmqbB71DJ59YIGGW8AMUySakUe3Kn8RH6F2SLo=",
+    "originContent": "After downloading, unzip and export its location:",
+    "translatedContent": ""
+  },
+  {
+    "row": 31,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 32,
+    "rowsha": "d8UyKMtRF5EpLpOl/h+kL6wTiNjpyJrzUClraF4Bq+A=",
+    "originContent": "export PROJECT_FILE_LOC={folder which you saved}",
+    "translatedContent": "export PROJECT_FILE_LOC={folder which you saved}"
+  },
+  {
+    "row": 33,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Finally, set up the testbed by following the instructions from the [auto-code-rover project](https://github.com/AutoCodeRoverSG/auto-code-rover#setting-up-testbed)."
+  },
+  {
+    "row": 35,
+    "rowsha": "NK03PqRcF5WzD9pKF+36MLLRR376V1Yk8mclQzrQfQY=",
+    "originContent": "Finally, set up the testbed by following the instructions from the [auto-code-rover project](https://github.com/AutoCodeRoverSG/auto-code-rover#setting-up-testbed).",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Running ExpeRepair on the Full Benchmark"
+  },
+  {
+    "row": 37,
+    "rowsha": "Smyid3I3+mzmfKWaA8QklHDd4h4jj6BUPHNSCXugln4=",
+    "originContent": "### Running ExpeRepair on the Full Benchmark",
+    "translatedContent": "1. Run `run_reproduce_initial.sh` with **all instance IDs**."
+  },
+  {
+    "row": 38,
+    "rowsha": "ioxUynAzW+ee9GQuUQE7pNQ8uhOiFJSBdCfeeerP67g=",
+    "originContent": "1. Run `run_reproduce_initial.sh` with **all instance IDs**.",
+    "translatedContent": "2. Run `run_localization.sh` with **all instance IDs**."
+  },
+  {
+    "row": 39,
+    "rowsha": "iTKXnzb6TRgRFVz/Wj/kL3i7e+voDmhk0QYbrISXPh4=",
+    "originContent": "2. Run `run_localization.sh` with **all instance IDs**.",
+    "translatedContent": "3. For instances where reproduction succeeds (i.e., a valid `reproducer_X.py` script is generated), run `generate_initial.py`."
+  },
+  {
+    "row": 40,
+    "rowsha": "zJMcwd6skniSkyK6ktmdcZG3OBDshL/AO52SkuXI8Pg=",
+    "originContent": "3. For instances where reproduction succeeds (i.e., a valid `reproducer_X.py` script is generated), run `generate_initial.py`.",
+    "translatedContent": "4. For the remaining instances, run `generate_w_memory.py`, which leverages the accumulated memory and continues updating it."
+  },
+  {
+    "row": 41,
+    "rowsha": "zPCpfmBzPlhrhOIpPyQDdfMYqo5unKvFuYR9lp4BW5s=",
+    "originContent": "4. For the remaining instances, run `generate_w_memory.py`, which leverages the accumulated memory and continues updating it.",
+    "translatedContent": "5. Finally, run `validation.py` and `obtain_predictions.py` with all instance IDs."
+  },
+  {
+    "row": 42,
+    "rowsha": "Xgw93y7pfBtDS0vObhDlrpy3n1AdxTsj5W7ZDWiU6cM=",
+    "originContent": "5. Finally, run `validation.py` and `obtain_predictions.py` with all instance IDs.",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Usage"
+  },
+  {
+    "row": 45,
+    "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+    "originContent": "### Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 47,
+    "rowsha": "IFpim8TGH8RW3BVLCJ5Pbe1vOJF+bd+BfMr/eCUjtMw=",
+    "originContent": "# reproduce the issue",
+    "translatedContent": "# reproduce the issue"
+  },
+  {
+    "row": 48,
+    "rowsha": "ZCOo1bgzvSLqS4H1Cc37GDTeOWjES6dmXsi8/0UK7/U=",
+    "originContent": "bash inference/run_reproduce_initial.sh",
+    "translatedContent": "bash inference/run_reproduce_initial.sh"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "k1Ytx5UIu+yfS2D1tlMY5DZjHaBFZa49tkYmLGr+W6c=",
+    "originContent": "# localize potential bug locations",
+    "translatedContent": "# localize potential bug locations"
+  },
+  {
+    "row": 51,
+    "rowsha": "knG9Xk8sKnlaJd57+CHxKxD69GzkSamj54+1jfxmgPk=",
+    "originContent": "bash inference/run_localization.sh",
+    "translatedContent": "bash inference/run_localization.sh"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "yU7oHzdqRbp8FK19rqzmKjmlFnjB5B472AY8n1qeg/M=",
+    "originContent": "# generate candidate patches",
+    "translatedContent": "# generate candidate patches"
+  },
+  {
+    "row": 54,
+    "rowsha": "vnEJIJXFWvl9VuYt+G7dA90yGTjrVeZnFyXQcULOEAA=",
+    "originContent": "bash inference/run_generate.sh",
+    "translatedContent": "bash inference/run_generate.sh"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "C53uyE1Rt49AetFopLMZXkIC+7tJd3Oj3QkEqK4d8vo=",
+    "originContent": "# validate candidate patches and select the best one",
+    "translatedContent": "# validate candidate patches and select the best one"
+  },
+  {
+    "row": 57,
+    "rowsha": "F5Gbr9QzOTVywq5X1jWWK03s2EUaZkINTVnuyroG78Q=",
+    "originContent": "python inference/validation.py",
+    "translatedContent": "python inference/validation.py"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "3JGxcHvGTSWIo6V9EHZRDgJ7jGErnZHjuaSwtlAMSBU=",
+    "originContent": "# obtain the prediction results",
+    "translatedContent": "# obtain the prediction results"
+  },
+  {
+    "row": 60,
+    "rowsha": "EPAbQo2alMgd5rG+kkVYgTs0IFoh7t3ahqauBFYbpT0=",
+    "originContent": "python inference/obtain_predictions.py",
+    "translatedContent": "python inference/obtain_predictions.py"
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "wFALsYRMHDj3XC2LDXXZpZR1kGK6niXSjSMDMHjb4qk=",
+    "originContent": "## 🙏 Acknowledgement ",
+    "translatedContent": "## 🙏 Acknowledgement "
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "KHJiY8AQEMa1LqvTKoiDkWFR7339o/ogxeBLXgKAyxQ=",
+    "originContent": "* [SWE-bench](https://www.swebench.com/)",
+    "translatedContent": "* [SWE-bench](https://www.swebench.com/)"
+  },
+  {
+    "row": 66,
+    "rowsha": "TqEsdzR1jcm7zDOlFZy02eb0MQbAc8KQi4bMkDvpQHk=",
+    "originContent": "* [auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover)",
+    "translatedContent": "* [auto-code-rover](https://github.com/AutoCodeRoverSG/auto-code-rover)"
+  },
+  {
+    "row": 67,
+    "rowsha": "XzcchKC9VE4xeJYUikJYRPwh4JCyJg52XF086eWKCWY=",
+    "originContent": "* [Agentless](https://github.com/OpenAutoCoder/Agentless/)",
+    "translatedContent": "* [Agentless](https://github.com/OpenAutoCoder/Agentless/)"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
