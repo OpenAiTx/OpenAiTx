@@ -1,0 +1,638 @@
+[
+  {
+    "row": 1,
+    "rowsha": "aQcE9Q8GdopYa8A3FMtT/wED2B7Xe6WaqgBHRGTRInw=",
+    "originContent": "# GTML - Godot Markup Language",
+    "translatedContent": "# GTML - Godot マークアップ言語"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "x/VZPAs8HIbYIUVQUeRb1hwIYfZseJQ05prP1oDp1c4=",
+    "originContent": "A Godot 4.x addon that lets you build UI using HTML and CSS. Create game menus, HUDs, and panels with familiar web technologies.",
+    "translatedContent": "Godot 4.x 用のアドオンで、HTML と CSS を使って UI を構築できます。ゲームメニュー、HUD、パネルを馴染みのあるウェブ技術で作成可能です。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 特徴"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "7RaWlchziuGiLKfCTJ+jjACO4yT26hTnKnqAQDYHleY=",
+    "originContent": "- HTML-based UI structure with 20+ element types",
+    "translatedContent": "- 20 種類以上の要素を持つ HTML ベースの UI 構造"
+  },
+  {
+    "row": 8,
+    "rowsha": "321w85n4SeqakWoAK0VkK/UZbxl5ucVfUtIQke6031g=",
+    "originContent": "- External CSS styling with 80+ properties",
+    "translatedContent": "- 80 以上のプロパティに対応した外部 CSS スタイリング"
+  },
+  {
+    "row": 9,
+    "rowsha": "qY50F3ofczu0eLsyi4O5ENTk8CQws5v6CWMdE5xHuHc=",
+    "originContent": "- Live reload in editor",
+    "translatedContent": "- エディタ内でのライブリロード"
+  },
+  {
+    "row": 10,
+    "rowsha": "MQ7rm+BA2Wp1kPl8ElwYWMcC7b7yQdXZ6pJdUV0hHRA=",
+    "originContent": "- Flexbox layout system",
+    "translatedContent": "- Flexbox レイアウトシステム"
+  },
+  {
+    "row": 11,
+    "rowsha": "aqGYe00Ze6NB8GBABcR/7g8FFsww+QGEHo5x31PQ/84=",
+    "originContent": "- SVG rendering support",
+    "translatedContent": "- SVG レンダリングサポート"
+  },
+  {
+    "row": 12,
+    "rowsha": "TxltnKWwa2UR57o20/ZTmEPOpA7S3nGgLV9YB8aQUg0=",
+    "originContent": "- Form elements with signals",
+    "translatedContent": "- シグナル付きフォーム要素"
+  },
+  {
+    "row": 13,
+    "rowsha": "GgMnXkFQUmezn7xdV4d4IYU2qW/xcLVUYYFhmt9Iafk=",
+    "originContent": "- CSS transitions and pseudo-classes (:hover, :active, :focus)",
+    "translatedContent": "- CSS トランジションと疑似クラス（:hover、:active、:focus）"
+  },
+  {
+    "row": 14,
+    "rowsha": "6pdw2R9uyPcHNEN7HMowv9gLtzKeYwuI4l8Tb/JGwA4=",
+    "originContent": "- Gradient backgrounds and custom fonts",
+    "translatedContent": "- グラデーション背景とカスタムフォント"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+    "originContent": "## Quick Start",
+    "translatedContent": "## クイックスタート"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "xflNRjiK6ThxRD8MXmkp68ejuHjuEp/ny8AJSfWgYYs=",
+    "originContent": "### 1. Install",
+    "translatedContent": "### 1. インストール"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "XLBI8/OCwlzz08DVQ9VGOw9k3Qeek0FqGs6g7T430lk=",
+    "originContent": "Copy `addons/gtml/` to your project and enable in **Project Settings → Plugins**.",
+    "translatedContent": "`addons/gtml/` をプロジェクトにコピーし、**プロジェクト設定 → プラグイン**で有効化してください。"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "JtPBDK8e3dmERBqOxiBI/SUfTLVfJIiVQbxWbmI6D6U=",
+    "originContent": "### 2. Create Files",
+    "translatedContent": "### 2. ファイル作成"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "OSLQ7Z0LUwBmrgy1mwU035yAdnEu5ei4mQ01Ois/6WY=",
+    "originContent": "**menu.html:**",
+    "translatedContent": "**menu.html:**"
+  },
+  {
+    "row": 25,
+    "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+    "originContent": "```html",
+    "translatedContent": "```html"
+  },
+  {
+    "row": 26,
+    "rowsha": "Nniz/KNUvYruKxwGqB9xEQqBIO4jUY2uQGrOhUdIcDo=",
+    "originContent": "<div class=\"menu\">",
+    "translatedContent": "<div class=\"menu\">"
+  },
+  {
+    "row": 27,
+    "rowsha": "J1mlZqrmerKSoB4g7GzFMtulza2jssMiWgBDy7i3w9c=",
+    "originContent": "    <h1>My Game</h1>",
+    "translatedContent": "    <h1>My Game</h1>"
+  },
+  {
+    "row": 28,
+    "rowsha": "1cEU5aMUGAGdZT19bz9dUXEv+GjxKkfX8MOHpl4oGOU=",
+    "originContent": "    <button @click=\"on_play\">Play</button>",
+    "translatedContent": "    <button @click=\"on_play\">Play</button>"
+  },
+  {
+    "row": 29,
+    "rowsha": "jIfW25qRc3xkC7iLusepVkdDdMUKAlcFkdF8lL0EQUw=",
+    "originContent": "    <button @click=\"on_quit\">Quit</button>",
+    "translatedContent": "    <button @click=\"on_quit\">Quit</button>"
+  },
+  {
+    "row": 30,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 31,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "sBSMkj7UW0sA1fd+HDJ81XfUwHFIj0xCJs2tglIlA2M=",
+    "originContent": "**menu.css:**",
+    "translatedContent": "**menu.css:**"
+  },
+  {
+    "row": 34,
+    "rowsha": "5iyC1+sBmoSc7XQq6T1ZBEHG7tL5uX8FLH/8KahD0As=",
+    "originContent": "```css",
+    "translatedContent": "```css"
+  },
+  {
+    "row": 35,
+    "rowsha": "k8CIPOesd3//HzcP9tfFGJU88UDWfpxagljjYn4BQqc=",
+    "originContent": ".menu {",
+    "translatedContent": ".menu {"
+  },
+  {
+    "row": 36,
+    "rowsha": "cLMsHVk5E/ZBThkp/BTj3g7+2xLRzrYgxwCRr2TiLKA=",
+    "originContent": "    display: flex;",
+    "translatedContent": "    display: flex;"
+  },
+  {
+    "row": 37,
+    "rowsha": "3bmAg4Sg0E4aRlv42PeFVTsbI7BN+LbBlv97tgH5Y4c=",
+    "originContent": "    flex-direction: column;",
+    "translatedContent": "    flex-direction: column;"
+  },
+  {
+    "row": 38,
+    "rowsha": "grZ6ms7XpYiGb944wseffoOo6CX80JEkZg0hyu9hpiQ=",
+    "originContent": "    align-items: center;",
+    "translatedContent": "    align-items: center;"
+  },
+  {
+    "row": 39,
+    "rowsha": "erTRv6nDG3UJd8kokdTG3ImIpT7w1iinEJv4LXIxLOQ=",
+    "originContent": "    gap: 16px;",
+    "translatedContent": "    gap: 16px;"
+  },
+  {
+    "row": 40,
+    "rowsha": "Yc/gil3c7bpBKXrwdgwIOIqu3eMOAaExyxI+0s3xPLM=",
+    "originContent": "    padding: 32px;",
+    "translatedContent": "    padding: 32px;"
+  },
+  {
+    "row": 41,
+    "rowsha": "rcPPecP1f/h1QAjSrJg696aBWUX8TYiVNFePCRbj15U=",
+    "originContent": "    background-color: #1a1a2e;",
+    "translatedContent": "    background-color: #1a1a2e;"
+  },
+  {
+    "row": 42,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "peYfCLtQLN1jYYfXHqk0Pw3RydXHHTpDj6pO7FtEWco=",
+    "originContent": "h1 {",
+    "translatedContent": "h1 {"
+  },
+  {
+    "row": 45,
+    "rowsha": "c6t/IQ1Nyi5I/VwZldIfDDiaEVCOAFZzqWDHylsLpKk=",
+    "originContent": "    font-size: 32px;",
+    "translatedContent": "    font-size: 32px;"
+  },
+  {
+    "row": 46,
+    "rowsha": "2EqgkNImeTk2vviN1mdvpp1E1b2+XX35yPuwUavQm2E=",
+    "originContent": "    color: #ffffff;",
+    "translatedContent": "    color: #ffffff;"
+  },
+  {
+    "row": 47,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "j3Uk5Y1K9bTxPG3gGPPr4dcmWJ+DX7u6TfJTUKU6GYI=",
+    "originContent": "button {",
+    "translatedContent": "button {"
+  },
+  {
+    "row": 50,
+    "rowsha": "DVKDCXHbbwIhkXA+Rhjr1pHdws7W5FUzaOrnsJVqIRk=",
+    "originContent": "    padding: 12px 24px;",
+    "translatedContent": "    padding: 12px 24px;"
+  },
+  {
+    "row": 51,
+    "rowsha": "W5JjsfGOmSbu7dtgIBzc0ItAQgHhqpuEcFl0xsdzUfo=",
+    "originContent": "    background-color: #00d4ff;",
+    "translatedContent": "    background-color: #00d4ff;"
+  },
+  {
+    "row": 52,
+    "rowsha": "eVh0wliTMBovGIZ8zJFENyYnVpZ8I3SZJk62DOyb5NE=",
+    "originContent": "    border-radius: 4px;",
+    "translatedContent": "    border-radius: 4px;"
+  },
+  {
+    "row": 53,
+    "rowsha": "jev4tw8a+gPwQZ6Uh5rnTQhQXhZmCeBkteIckWSimdQ=",
+    "originContent": "    color: #000000;",
+    "translatedContent": "    color: #000000;"
+  },
+  {
+    "row": 54,
+    "rowsha": "sSKe9SyHrrjRbaPQWTQcRiIC/l/jEYlAJIrYCo/oTCw=",
+    "originContent": "    transition: background-color 200ms ease;",
+    "translatedContent": "    transition: background-color 200ms ease;"
+  },
+  {
+    "row": 55,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "2ah8umAw37wu5XfaO7dk33Ez27N1Y7R3ABZIAeYoxNc=",
+    "originContent": "button:hover {",
+    "translatedContent": "button:hover {"
+  },
+  {
+    "row": 58,
+    "rowsha": "0LaMpeSmMmSk2rRB0EkSHgw4gmpsLxJSuhg2yaXCdPc=",
+    "originContent": "    background-color: #00a8cc;",
+    "translatedContent": "    background-color: #00a8cc;"
+  },
+  {
+    "row": 59,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "mH3n79ioqH20UDRI6Xz+OfzFIzpYCON822cvACKsdec=",
+    "originContent": "### 3. Add GmlView Node",
+    "translatedContent": "### 3. GmlView ノードを追加"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "NoGhxmCdi/VTnLdshu7DoRDbwDUe8guoWi/OSJAE9ZI=",
+    "originContent": "Add a `GmlView` node and set **Html Path** and **Css Path** in the Inspector.",
+    "translatedContent": "`GmlView` ノードを追加し、インスペクターで **Html Path** と **Css Path** を設定します。"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "9rkCBMdg9iySZNduf4wcdAuERKxWuhEtQg5JBXJMw3I=",
+    "originContent": "### 4. Connect Signals",
+    "translatedContent": "### 4. シグナルを接続する"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "R8DftdZjVxmoK7JUmBz40HME7ASrUA7rjyCnoejDjVY=",
+    "originContent": "```gdscript",
+    "translatedContent": "```gdscript"
+  },
+  {
+    "row": 69,
+    "rowsha": "cJI0WCHnSOa3T3+PzMf+37HhHWjmbIuYytAd9YLiDBw=",
+    "originContent": "func _ready():",
+    "translatedContent": "func _ready():"
+  },
+  {
+    "row": 70,
+    "rowsha": "8fOpAOKS41tvD0d2uRRTm2Xf9AhjYSIcxZHtGW2aPBE=",
+    "originContent": "    $GmlView.button_clicked.connect(_on_button_clicked)",
+    "translatedContent": "    $GmlView.button_clicked.connect(_on_button_clicked)"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "U2qiZxJK+vV/XruRMtdh77M5hbzYafhpbRBgsIJ81r0=",
+    "originContent": "func _on_button_clicked(method_name: String):",
+    "translatedContent": "func _on_button_clicked(method_name: String):"
+  },
+  {
+    "row": 73,
+    "rowsha": "9PnTmeBTnatOgD2ByLojx0Ef88rV/LPOjjWcCgV6+D4=",
+    "originContent": "    match method_name:",
+    "translatedContent": "    match method_name:"
+  },
+  {
+    "row": 74,
+    "rowsha": "dySdRKhq/juHZUAIe4cXgW4uyI80maCipAp2XuOHCtc=",
+    "originContent": "        \"on_play\":",
+    "translatedContent": "        \"on_play\":"
+  },
+  {
+    "row": 75,
+    "rowsha": "jST08qEtGx1IMh9uq5pS2wteM8xBlVKncY7Vefmyt4w=",
+    "originContent": "            get_tree().change_scene_to_file(\"res://game.tscn\")",
+    "translatedContent": "            get_tree().change_scene_to_file(\"res://game.tscn\")"
+  },
+  {
+    "row": 76,
+    "rowsha": "1mExrrJPNQbug4SaRKjTqZVMTwDVjFaPMtvf2NM+J3g=",
+    "originContent": "        \"on_quit\":",
+    "translatedContent": "        \"on_quit\":"
+  },
+  {
+    "row": 77,
+    "rowsha": "M0KdeELDqvvZuzrlrLaCYEkPhgkLVDjH4WWA+0wJS1k=",
+    "originContent": "            get_tree().quit()",
+    "translatedContent": "            get_tree().quit()"
+  },
+  {
+    "row": 78,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ドキュメンテーション"
+  },
+  {
+    "row": 80,
+    "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+    "originContent": "## Documentation",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [はじめに](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/getting-started.md) - インストールと基本的な使い方"
+  },
+  {
+    "row": 82,
+    "rowsha": "RcBAqsaNRQguXfoutgDihYsWr/+Ix4fZQbqz1OZXYVY=",
+    "originContent": "- [Getting Started](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/getting-started.md) - Installation and basic usage",
+    "translatedContent": "- [HTML要素](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/html-elements.md) - 対応タグと属性"
+  },
+  {
+    "row": 83,
+    "rowsha": "HC+n774TxKd+J5UBM7KQGc8b3aJFY3xxYZjJ/wn5ed8=",
+    "originContent": "- [HTML Elements](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/html-elements.md) - Supported tags and attributes",
+    "translatedContent": "- [CSSプロパティ](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-properties.md) - 完全なプロパティリファレンス"
+  },
+  {
+    "row": 84,
+    "rowsha": "CU0pUrjV99QmycrqoUZW+En5qR3s6cWSjPUxeAOfWl0=",
+    "originContent": "- [CSS Properties](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-properties.md) - Complete property reference",
+    "translatedContent": "- [CSSセレクター](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-selectors.md) - セレクターと疑似クラス"
+  },
+  {
+    "row": 85,
+    "rowsha": "xEiqxxr2PREri5R41UAVxGseg4uaJhT6Jsrezcf7cUc=",
+    "originContent": "- [CSS Selectors](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-selectors.md) - Selectors and pseudo-classes",
+    "translatedContent": "- [フォーム＆入力](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/forms-and-inputs.md) - フォーム要素とイベント"
+  },
+  {
+    "row": 86,
+    "rowsha": "/aPdaEWqTVRrDF+QPNhQ14vxxwTgn+6L6xmzNirocwY=",
+    "originContent": "- [Forms & Inputs](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/forms-and-inputs.md) - Form elements and events",
+    "translatedContent": "- [SVGサポート](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/svg-support.md) - ベクターグラフィックス"
+  },
+  {
+    "row": 87,
+    "rowsha": "L8MDOuudt5TiljYhF2al88Z4pF1QaKL1O3QVBwBs8do=",
+    "originContent": "- [SVG Support](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/svg-support.md) - Vector graphics",
+    "translatedContent": "- [レイアウト＆フレックスボックス](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/layout-and-flexbox.md) - レイアウトシステム"
+  },
+  {
+    "row": 88,
+    "rowsha": "fkJvDkXCGW3Hx5gNqYJd22Dqx9sXk8R/RnRE/eU7sxE=",
+    "originContent": "- [Layout & Flexbox](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/layout-and-flexbox.md) - Layout system",
+    "translatedContent": "- [トランジション](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/transitions.md) - CSSトランジション"
+  },
+  {
+    "row": 89,
+    "rowsha": "7M8EvLQ8/SK+OuOcopGRYDtyKy68taJ9ZqBrCwIokSM=",
+    "originContent": "- [Transitions](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/transitions.md) - CSS transitions",
+    "translatedContent": "- [フォント＆タイポグラフィ](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/fonts-and-typography.md) - カスタムフォント"
+  },
+  {
+    "row": 90,
+    "rowsha": "IgCQ9g4jvsIsYasC5dEd4TnZWlMswrVCRRqJlqxZi8U=",
+    "originContent": "- [Fonts & Typography](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/fonts-and-typography.md) - Custom fonts",
+    "translatedContent": "- [GTMLの拡張](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/extending-gtml.md) - 新機能の追加"
+  },
+  {
+    "row": 91,
+    "rowsha": "xc9c3E7WPFTjR8s4jb42zG04O9I7gfBNHu6rOGbOjYA=",
+    "originContent": "- [Extending GTML](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/extending-gtml.md) - Add new features",
+    "translatedContent": "- [制限事項](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/limitations.md) - 既知の制限事項"
+  },
+  {
+    "row": 92,
+    "rowsha": "kzoxN6plHzJzIczNkqy/V1U5nWzWOWBGBQGu3QZGTO8=",
+    "originContent": "- [Limitations](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/limitations.md) - Known limitations",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## サンプル"
+  },
+  {
+    "row": 94,
+    "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+    "originContent": "## Examples",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "動作デモは `addons/gtml/examples/` を参照してください:"
+  },
+  {
+    "row": 96,
+    "rowsha": "auseUoUjJSWGAxSz84OxoanMVyIuqg4DO289SiQchQs=",
+    "originContent": "Check `addons/gtml/examples/` for working demos:",
+    "translatedContent": "- `basic` - シンプルなメニュー"
+  },
+  {
+    "row": 97,
+    "rowsha": "HvDfe0/melxHogGgDSbpcQMWDnuuoYPi4R9pwgpnmdQ=",
+    "originContent": "- `basic` - Simple menu",
+    "translatedContent": "- `all_elements` - すべてのHTML要素"
+  },
+  {
+    "row": 98,
+    "rowsha": "kqn4frusQXGz6PFxORiiA8KPlFyFHa+bsZKNNe9Xsjw=",
+    "originContent": "- `all_elements` - All HTML elements",
+    "translatedContent": "- `css_features` - CSSプロパティの紹介"
+  },
+  {
+    "row": 99,
+    "rowsha": "nJuMiyu+l/3op8XGs+mPK62kwrWbvyscArvapq6OeFE=",
+    "originContent": "- `css_features` - CSS properties showcase",
+    "translatedContent": "- `flex_layout` - フレックスボックスレイアウト"
+  },
+  {
+    "row": 100,
+    "rowsha": "07nZ5sQjWiM47J2NOJKe2jzcbWOZLGRVJgE1FQqnU/w=",
+    "originContent": "- `flex_layout` - Flexbox layouts",
+    "translatedContent": "- `transitions` - CSSトランジション"
+  },
+  {
+    "row": 101,
+    "rowsha": "BuENwKZ/AI753fn725JyFFGLrQXKjrUQnu73WouVvbQ=",
+    "originContent": "- `transitions` - CSS transitions",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 103,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MITライセンス"
+  },
+  {
+    "row": 105,
+    "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+    "originContent": "MIT License",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

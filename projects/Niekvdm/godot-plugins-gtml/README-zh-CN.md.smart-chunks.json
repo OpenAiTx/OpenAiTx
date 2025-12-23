@@ -1,0 +1,729 @@
+[
+  {
+    "Id": 1,
+    "Content": "# GTML - Godot Markup Language\n\nA Godot 4.x addon that lets you build UI using HTML and CSS. Create game menus, HUDs, and panels with familiar web technologies.\n\n## Features\n\n- HTML-based UI structure with 20+ element types\n- External CSS styling with 80+ properties\n- Live reload in editor\n- Flexbox layout system\n- SVG rendering support\n- Form elements with signals\n- CSS transitions and pseudo-classes (:hover, :active, :focus)\n- Gradient backgrounds and custom fonts\n\n## Quick Start\n\n### 1. Install\n\nCopy `addons/gtml/` to your project and enable in **Project Settings → Plugins**.\n\n### 2. Create Files\n\n**menu.html:**",
+    "ContentSha": "gL3W7mAikzRrpGxmh6IzpbYcv0ghKVMLJOrL0UrHdT8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# GTML - Godot 标记语言\n\n一个适用于 Godot 4.x 的插件，允许你使用 HTML 和 CSS 构建 UI。使用熟悉的网页技术创建游戏菜单、HUD 和面板。\n\n## 功能\n\n- 基于 HTML 的 UI 结构，包含 20 多种元素类型\n- 外部 CSS 样式，支持 80 多种属性\n- 编辑器内实时重载\n- Flexbox 布局系统\n- 支持 SVG 渲染\n- 带信号的表单元素\n- CSS 过渡和伪类 (:hover、:active、:focus)\n- 渐变背景和自定义字体\n\n## 快速开始\n\n### 1. 安装\n\n将 `addons/gtml/` 复制到你的项目中，并在 **项目设置 → 插件** 中启用。\n\n### 2. 创建文件\n\n**menu.html:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "aQcE9Q8GdopYa8A3FMtT/wED2B7Xe6WaqgBHRGTRInw=",
+        "originContent": "# GTML - Godot Markup Language",
+        "translatedContent": "# GTML - Godot 标记语言"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "x/VZPAs8HIbYIUVQUeRb1hwIYfZseJQ05prP1oDp1c4=",
+        "originContent": "A Godot 4.x addon that lets you build UI using HTML and CSS. Create game menus, HUDs, and panels with familiar web technologies.",
+        "translatedContent": "一个适用于 Godot 4.x 的插件，允许你使用 HTML 和 CSS 构建 UI。使用熟悉的网页技术创建游戏菜单、HUD 和面板。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 功能"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "7RaWlchziuGiLKfCTJ+jjACO4yT26hTnKnqAQDYHleY=",
+        "originContent": "- HTML-based UI structure with 20+ element types",
+        "translatedContent": "- 基于 HTML 的 UI 结构，包含 20 多种元素类型"
+      },
+      {
+        "row": 8,
+        "rowsha": "321w85n4SeqakWoAK0VkK/UZbxl5ucVfUtIQke6031g=",
+        "originContent": "- External CSS styling with 80+ properties",
+        "translatedContent": "- 外部 CSS 样式，支持 80 多种属性"
+      },
+      {
+        "row": 9,
+        "rowsha": "qY50F3ofczu0eLsyi4O5ENTk8CQws5v6CWMdE5xHuHc=",
+        "originContent": "- Live reload in editor",
+        "translatedContent": "- 编辑器内实时重载"
+      },
+      {
+        "row": 10,
+        "rowsha": "MQ7rm+BA2Wp1kPl8ElwYWMcC7b7yQdXZ6pJdUV0hHRA=",
+        "originContent": "- Flexbox layout system",
+        "translatedContent": "- Flexbox 布局系统"
+      },
+      {
+        "row": 11,
+        "rowsha": "aqGYe00Ze6NB8GBABcR/7g8FFsww+QGEHo5x31PQ/84=",
+        "originContent": "- SVG rendering support",
+        "translatedContent": "- 支持 SVG 渲染"
+      },
+      {
+        "row": 12,
+        "rowsha": "TxltnKWwa2UR57o20/ZTmEPOpA7S3nGgLV9YB8aQUg0=",
+        "originContent": "- Form elements with signals",
+        "translatedContent": "- 带信号的表单元素"
+      },
+      {
+        "row": 13,
+        "rowsha": "GgMnXkFQUmezn7xdV4d4IYU2qW/xcLVUYYFhmt9Iafk=",
+        "originContent": "- CSS transitions and pseudo-classes (:hover, :active, :focus)",
+        "translatedContent": "- CSS 过渡和伪类 (:hover、:active、:focus)"
+      },
+      {
+        "row": 14,
+        "rowsha": "6pdw2R9uyPcHNEN7HMowv9gLtzKeYwuI4l8Tb/JGwA4=",
+        "originContent": "- Gradient backgrounds and custom fonts",
+        "translatedContent": "- 渐变背景和自定义字体"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## 快速开始"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "xflNRjiK6ThxRD8MXmkp68ejuHjuEp/ny8AJSfWgYYs=",
+        "originContent": "### 1. Install",
+        "translatedContent": "### 1. 安装"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "XLBI8/OCwlzz08DVQ9VGOw9k3Qeek0FqGs6g7T430lk=",
+        "originContent": "Copy `addons/gtml/` to your project and enable in **Project Settings → Plugins**.",
+        "translatedContent": "将 `addons/gtml/` 复制到你的项目中，并在 **项目设置 → 插件** 中启用。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "JtPBDK8e3dmERBqOxiBI/SUfTLVfJIiVQbxWbmI6D6U=",
+        "originContent": "### 2. Create Files",
+        "translatedContent": "### 2. 创建文件"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "OSLQ7Z0LUwBmrgy1mwU035yAdnEu5ei4mQ01Ois/6WY=",
+        "originContent": "**menu.html:**",
+        "translatedContent": "**menu.html:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```html\n<div class=\"menu\">\n    <h1>My Game</h1>\n    <button @click=\"on_play\">Play</button>\n    <button @click=\"on_quit\">Quit</button>\n</div>\n```",
+    "ContentSha": "gN3akLYVLyJa3esu+xwy9EdZkhfZBGxNr/bexPpTN3w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<div class=\"menu\">\n    <h1>My Game</h1>\n    <button @click=\"on_play\">Play</button>\n    <button @click=\"on_quit\">Quit</button>\n</div>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "Nniz/KNUvYruKxwGqB9xEQqBIO4jUY2uQGrOhUdIcDo=",
+        "originContent": "<div class=\"menu\">",
+        "translatedContent": "<div class=\"menu\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "J1mlZqrmerKSoB4g7GzFMtulza2jssMiWgBDy7i3w9c=",
+        "originContent": "    <h1>My Game</h1>",
+        "translatedContent": "    <h1>My Game</h1>"
+      },
+      {
+        "row": 4,
+        "rowsha": "1cEU5aMUGAGdZT19bz9dUXEv+GjxKkfX8MOHpl4oGOU=",
+        "originContent": "    <button @click=\"on_play\">Play</button>",
+        "translatedContent": "    <button @click=\"on_play\">Play</button>"
+      },
+      {
+        "row": 5,
+        "rowsha": "jIfW25qRc3xkC7iLusepVkdDdMUKAlcFkdF8lL0EQUw=",
+        "originContent": "    <button @click=\"on_quit\">Quit</button>",
+        "translatedContent": "    <button @click=\"on_quit\">Quit</button>"
+      },
+      {
+        "row": 6,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n**menu.css:**",
+    "ContentSha": "q29iFI7QtJdK2Q+YoBqgqDRDswaUFb/ipx5GF6dXRC8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**menu.css:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "sBSMkj7UW0sA1fd+HDJ81XfUwHFIj0xCJs2tglIlA2M=",
+        "originContent": "**menu.css:**",
+        "translatedContent": "**menu.css:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```css\n.menu {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 16px;\n    padding: 32px;\n    background-color: #1a1a2e;\n}\n\nh1 {\n    font-size: 32px;\n    color: #ffffff;\n}\n\nbutton {\n    padding: 12px 24px;\n    background-color: #00d4ff;\n    border-radius: 4px;\n    color: #000000;\n    transition: background-color 200ms ease;\n}\n\nbutton:hover {\n    background-color: #00a8cc;\n}\n```",
+    "ContentSha": "KAQzod/AMzYDSrYj1LylKyR7d3vP031WBvtgbkVIcz0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```css\n.menu {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 16px;\n    padding: 32px;\n    background-color: #1a1a2e;\n}\n\nh1 {\n    font-size: 32px;\n    color: #ffffff;\n}\n\nbutton {\n    padding: 12px 24px;\n    background-color: #00d4ff;\n    border-radius: 4px;\n    color: #000000;\n    transition: background-color 200ms ease;\n}\n\nbutton:hover {\n    background-color: #00a8cc;\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5iyC1+sBmoSc7XQq6T1ZBEHG7tL5uX8FLH/8KahD0As=",
+        "originContent": "```css",
+        "translatedContent": "```css"
+      },
+      {
+        "row": 2,
+        "rowsha": "k8CIPOesd3//HzcP9tfFGJU88UDWfpxagljjYn4BQqc=",
+        "originContent": ".menu {",
+        "translatedContent": ".menu {"
+      },
+      {
+        "row": 3,
+        "rowsha": "cLMsHVk5E/ZBThkp/BTj3g7+2xLRzrYgxwCRr2TiLKA=",
+        "originContent": "    display: flex;",
+        "translatedContent": "    display: flex;"
+      },
+      {
+        "row": 4,
+        "rowsha": "3bmAg4Sg0E4aRlv42PeFVTsbI7BN+LbBlv97tgH5Y4c=",
+        "originContent": "    flex-direction: column;",
+        "translatedContent": "    flex-direction: column;"
+      },
+      {
+        "row": 5,
+        "rowsha": "grZ6ms7XpYiGb944wseffoOo6CX80JEkZg0hyu9hpiQ=",
+        "originContent": "    align-items: center;",
+        "translatedContent": "    align-items: center;"
+      },
+      {
+        "row": 6,
+        "rowsha": "erTRv6nDG3UJd8kokdTG3ImIpT7w1iinEJv4LXIxLOQ=",
+        "originContent": "    gap: 16px;",
+        "translatedContent": "    gap: 16px;"
+      },
+      {
+        "row": 7,
+        "rowsha": "Yc/gil3c7bpBKXrwdgwIOIqu3eMOAaExyxI+0s3xPLM=",
+        "originContent": "    padding: 32px;",
+        "translatedContent": "    padding: 32px;"
+      },
+      {
+        "row": 8,
+        "rowsha": "rcPPecP1f/h1QAjSrJg696aBWUX8TYiVNFePCRbj15U=",
+        "originContent": "    background-color: #1a1a2e;",
+        "translatedContent": "    background-color: #1a1a2e;"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "peYfCLtQLN1jYYfXHqk0Pw3RydXHHTpDj6pO7FtEWco=",
+        "originContent": "h1 {",
+        "translatedContent": "h1 {"
+      },
+      {
+        "row": 12,
+        "rowsha": "c6t/IQ1Nyi5I/VwZldIfDDiaEVCOAFZzqWDHylsLpKk=",
+        "originContent": "    font-size: 32px;",
+        "translatedContent": "    font-size: 32px;"
+      },
+      {
+        "row": 13,
+        "rowsha": "2EqgkNImeTk2vviN1mdvpp1E1b2+XX35yPuwUavQm2E=",
+        "originContent": "    color: #ffffff;",
+        "translatedContent": "    color: #ffffff;"
+      },
+      {
+        "row": 14,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "j3Uk5Y1K9bTxPG3gGPPr4dcmWJ+DX7u6TfJTUKU6GYI=",
+        "originContent": "button {",
+        "translatedContent": "button {"
+      },
+      {
+        "row": 17,
+        "rowsha": "DVKDCXHbbwIhkXA+Rhjr1pHdws7W5FUzaOrnsJVqIRk=",
+        "originContent": "    padding: 12px 24px;",
+        "translatedContent": "    padding: 12px 24px;"
+      },
+      {
+        "row": 18,
+        "rowsha": "W5JjsfGOmSbu7dtgIBzc0ItAQgHhqpuEcFl0xsdzUfo=",
+        "originContent": "    background-color: #00d4ff;",
+        "translatedContent": "    background-color: #00d4ff;"
+      },
+      {
+        "row": 19,
+        "rowsha": "eVh0wliTMBovGIZ8zJFENyYnVpZ8I3SZJk62DOyb5NE=",
+        "originContent": "    border-radius: 4px;",
+        "translatedContent": "    border-radius: 4px;"
+      },
+      {
+        "row": 20,
+        "rowsha": "jev4tw8a+gPwQZ6Uh5rnTQhQXhZmCeBkteIckWSimdQ=",
+        "originContent": "    color: #000000;",
+        "translatedContent": "    color: #000000;"
+      },
+      {
+        "row": 21,
+        "rowsha": "sSKe9SyHrrjRbaPQWTQcRiIC/l/jEYlAJIrYCo/oTCw=",
+        "originContent": "    transition: background-color 200ms ease;",
+        "translatedContent": "    transition: background-color 200ms ease;"
+      },
+      {
+        "row": 22,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "2ah8umAw37wu5XfaO7dk33Ez27N1Y7R3ABZIAeYoxNc=",
+        "originContent": "button:hover {",
+        "translatedContent": "button:hover {"
+      },
+      {
+        "row": 25,
+        "rowsha": "0LaMpeSmMmSk2rRB0EkSHgw4gmpsLxJSuhg2yaXCdPc=",
+        "originContent": "    background-color: #00a8cc;",
+        "translatedContent": "    background-color: #00a8cc;"
+      },
+      {
+        "row": 26,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 27,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### 3. Add GmlView Node\n\nAdd a `GmlView` node and set **Html Path** and **Css Path** in the Inspector.\n\n### 4. Connect Signals\n",
+    "ContentSha": "c9v1GlCFC+FX3Dy7vVrf+dY3z7g9tOHe8CGRmZoes64=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 3. 添加 GmlView 节点\n\n添加一个 `GmlView` 节点，并在检查器中设置 **Html 路径** 和 **Css 路径**。\n\n### 4. 连接信号\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "mH3n79ioqH20UDRI6Xz+OfzFIzpYCON822cvACKsdec=",
+        "originContent": "### 3. Add GmlView Node",
+        "translatedContent": "### 3. 添加 GmlView 节点"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "NoGhxmCdi/VTnLdshu7DoRDbwDUe8guoWi/OSJAE9ZI=",
+        "originContent": "Add a `GmlView` node and set **Html Path** and **Css Path** in the Inspector.",
+        "translatedContent": "添加一个 `GmlView` 节点，并在检查器中设置 **Html 路径** 和 **Css 路径**。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "9rkCBMdg9iySZNduf4wcdAuERKxWuhEtQg5JBXJMw3I=",
+        "originContent": "### 4. Connect Signals",
+        "translatedContent": "### 4. 连接信号"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```gdscript\nfunc _ready():\n    $GmlView.button_clicked.connect(_on_button_clicked)\n\nfunc _on_button_clicked(method_name: String):\n    match method_name:\n        \"on_play\":\n            get_tree().change_scene_to_file(\"res://game.tscn\")\n        \"on_quit\":\n            get_tree().quit()\n```",
+    "ContentSha": "jd4x4+CNz1oTFH+T6WZOm1ZgFU+/a15wBxuJ9K+30nU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```gdscript\nfunc _ready():\n    $GmlView.button_clicked.connect(_on_button_clicked)\n\nfunc _on_button_clicked(method_name: String):\n    match method_name:\n        \"on_play\":\n            get_tree().change_scene_to_file(\"res://game.tscn\")\n        \"on_quit\":\n            get_tree().quit()\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "R8DftdZjVxmoK7JUmBz40HME7ASrUA7rjyCnoejDjVY=",
+        "originContent": "```gdscript",
+        "translatedContent": "```gdscript"
+      },
+      {
+        "row": 2,
+        "rowsha": "cJI0WCHnSOa3T3+PzMf+37HhHWjmbIuYytAd9YLiDBw=",
+        "originContent": "func _ready():",
+        "translatedContent": "func _ready():"
+      },
+      {
+        "row": 3,
+        "rowsha": "8fOpAOKS41tvD0d2uRRTm2Xf9AhjYSIcxZHtGW2aPBE=",
+        "originContent": "    $GmlView.button_clicked.connect(_on_button_clicked)",
+        "translatedContent": "    $GmlView.button_clicked.connect(_on_button_clicked)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "U2qiZxJK+vV/XruRMtdh77M5hbzYafhpbRBgsIJ81r0=",
+        "originContent": "func _on_button_clicked(method_name: String):",
+        "translatedContent": "func _on_button_clicked(method_name: String):"
+      },
+      {
+        "row": 6,
+        "rowsha": "9PnTmeBTnatOgD2ByLojx0Ef88rV/LPOjjWcCgV6+D4=",
+        "originContent": "    match method_name:",
+        "translatedContent": "    match method_name:"
+      },
+      {
+        "row": 7,
+        "rowsha": "dySdRKhq/juHZUAIe4cXgW4uyI80maCipAp2XuOHCtc=",
+        "originContent": "        \"on_play\":",
+        "translatedContent": "        \"on_play\":"
+      },
+      {
+        "row": 8,
+        "rowsha": "jST08qEtGx1IMh9uq5pS2wteM8xBlVKncY7Vefmyt4w=",
+        "originContent": "            get_tree().change_scene_to_file(\"res://game.tscn\")",
+        "translatedContent": "            get_tree().change_scene_to_file(\"res://game.tscn\")"
+      },
+      {
+        "row": 9,
+        "rowsha": "1mExrrJPNQbug4SaRKjTqZVMTwDVjFaPMtvf2NM+J3g=",
+        "originContent": "        \"on_quit\":",
+        "translatedContent": "        \"on_quit\":"
+      },
+      {
+        "row": 10,
+        "rowsha": "M0KdeELDqvvZuzrlrLaCYEkPhgkLVDjH4WWA+0wJS1k=",
+        "originContent": "            get_tree().quit()",
+        "translatedContent": "            get_tree().quit()"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Documentation\n\n- [Getting Started](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/getting-started.md) - Installation and basic usage\n- [HTML Elements](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/html-elements.md) - Supported tags and attributes\n- [CSS Properties](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-properties.md) - Complete property reference\n- [CSS Selectors](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-selectors.md) - Selectors and pseudo-classes\n- [Forms & Inputs](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/forms-and-inputs.md) - Form elements and events\n- [SVG Support](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/svg-support.md) - Vector graphics\n- [Layout & Flexbox](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/layout-and-flexbox.md) - Layout system\n- [Transitions](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/transitions.md) - CSS transitions\n- [Fonts & Typography](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/fonts-and-typography.md) - Custom fonts\n- [Extending GTML](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/extending-gtml.md) - Add new features\n- [Limitations](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/limitations.md) - Known limitations\n\n## Examples\n\nCheck `addons/gtml/examples/` for working demos:\n- `basic` - Simple menu\n- `all_elements` - All HTML elements\n- `css_features` - CSS properties showcase\n- `flex_layout` - Flexbox layouts\n- `transitions` - CSS transitions\n\n## License\n\nMIT License\n",
+    "ContentSha": "Pt3KgH84ejQOFPSXSFUmg74lHDQQ+ZQjT+lLiBkfcXE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 文档\n\n- [入门指南](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/getting-started.md) - 安装和基本使用  \n- [HTML 元素](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/html-elements.md) - 支持的标签和属性  \n- [CSS 属性](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-properties.md) - 完整属性参考  \n- [CSS 选择器](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-selectors.md) - 选择器和伪类  \n- [表单与输入](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/forms-and-inputs.md) - 表单元素和事件  \n- [SVG 支持](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/svg-support.md) - 矢量图形  \n- [布局与 Flexbox](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/layout-and-flexbox.md) - 布局系统  \n- [过渡效果](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/transitions.md) - CSS 过渡  \n- [字体与排版](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/fonts-and-typography.md) - 自定义字体  \n- [扩展 GTML](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/extending-gtml.md) - 添加新功能  \n- [限制](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/limitations.md) - 已知限制  \n\n## 示例\n\n查看 `addons/gtml/examples/` 获取可运行演示：  \n- `basic` - 简单菜单  \n- `all_elements` - 所有 HTML 元素  \n- `css_features` - CSS 属性展示  \n- `flex_layout` - Flexbox 布局  \n- `transitions` - CSS 过渡  \n\n## 许可\n\nMIT 许可协议\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 文档"
+      },
+      {
+        "row": 2,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [入门指南](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/getting-started.md) - 安装和基本使用  "
+      },
+      {
+        "row": 4,
+        "rowsha": "RcBAqsaNRQguXfoutgDihYsWr/+Ix4fZQbqz1OZXYVY=",
+        "originContent": "- [Getting Started](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/getting-started.md) - Installation and basic usage",
+        "translatedContent": "- [HTML 元素](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/html-elements.md) - 支持的标签和属性  "
+      },
+      {
+        "row": 5,
+        "rowsha": "HC+n774TxKd+J5UBM7KQGc8b3aJFY3xxYZjJ/wn5ed8=",
+        "originContent": "- [HTML Elements](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/html-elements.md) - Supported tags and attributes",
+        "translatedContent": "- [CSS 属性](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-properties.md) - 完整属性参考  "
+      },
+      {
+        "row": 6,
+        "rowsha": "CU0pUrjV99QmycrqoUZW+En5qR3s6cWSjPUxeAOfWl0=",
+        "originContent": "- [CSS Properties](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-properties.md) - Complete property reference",
+        "translatedContent": "- [CSS 选择器](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-selectors.md) - 选择器和伪类  "
+      },
+      {
+        "row": 7,
+        "rowsha": "xEiqxxr2PREri5R41UAVxGseg4uaJhT6Jsrezcf7cUc=",
+        "originContent": "- [CSS Selectors](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-selectors.md) - Selectors and pseudo-classes",
+        "translatedContent": "- [表单与输入](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/forms-and-inputs.md) - 表单元素和事件  "
+      },
+      {
+        "row": 8,
+        "rowsha": "/aPdaEWqTVRrDF+QPNhQ14vxxwTgn+6L6xmzNirocwY=",
+        "originContent": "- [Forms & Inputs](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/forms-and-inputs.md) - Form elements and events",
+        "translatedContent": "- [SVG 支持](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/svg-support.md) - 矢量图形  "
+      },
+      {
+        "row": 9,
+        "rowsha": "L8MDOuudt5TiljYhF2al88Z4pF1QaKL1O3QVBwBs8do=",
+        "originContent": "- [SVG Support](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/svg-support.md) - Vector graphics",
+        "translatedContent": "- [布局与 Flexbox](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/layout-and-flexbox.md) - 布局系统  "
+      },
+      {
+        "row": 10,
+        "rowsha": "fkJvDkXCGW3Hx5gNqYJd22Dqx9sXk8R/RnRE/eU7sxE=",
+        "originContent": "- [Layout & Flexbox](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/layout-and-flexbox.md) - Layout system",
+        "translatedContent": "- [过渡效果](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/transitions.md) - CSS 过渡  "
+      },
+      {
+        "row": 11,
+        "rowsha": "7M8EvLQ8/SK+OuOcopGRYDtyKy68taJ9ZqBrCwIokSM=",
+        "originContent": "- [Transitions](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/transitions.md) - CSS transitions",
+        "translatedContent": "- [字体与排版](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/fonts-and-typography.md) - 自定义字体  "
+      },
+      {
+        "row": 12,
+        "rowsha": "IgCQ9g4jvsIsYasC5dEd4TnZWlMswrVCRRqJlqxZi8U=",
+        "originContent": "- [Fonts & Typography](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/fonts-and-typography.md) - Custom fonts",
+        "translatedContent": "- [扩展 GTML](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/extending-gtml.md) - 添加新功能  "
+      },
+      {
+        "row": 13,
+        "rowsha": "xc9c3E7WPFTjR8s4jb42zG04O9I7gfBNHu6rOGbOjYA=",
+        "originContent": "- [Extending GTML](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/extending-gtml.md) - Add new features",
+        "translatedContent": "- [限制](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/limitations.md) - 已知限制  "
+      },
+      {
+        "row": 14,
+        "rowsha": "kzoxN6plHzJzIczNkqy/V1U5nWzWOWBGBQGu3QZGTO8=",
+        "originContent": "- [Limitations](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/limitations.md) - Known limitations",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 示例"
+      },
+      {
+        "row": 16,
+        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+        "originContent": "## Examples",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "查看 `addons/gtml/examples/` 获取可运行演示：  "
+      },
+      {
+        "row": 18,
+        "rowsha": "auseUoUjJSWGAxSz84OxoanMVyIuqg4DO289SiQchQs=",
+        "originContent": "Check `addons/gtml/examples/` for working demos:",
+        "translatedContent": "- `basic` - 简单菜单  "
+      },
+      {
+        "row": 19,
+        "rowsha": "HvDfe0/melxHogGgDSbpcQMWDnuuoYPi4R9pwgpnmdQ=",
+        "originContent": "- `basic` - Simple menu",
+        "translatedContent": "- `all_elements` - 所有 HTML 元素  "
+      },
+      {
+        "row": 20,
+        "rowsha": "kqn4frusQXGz6PFxORiiA8KPlFyFHa+bsZKNNe9Xsjw=",
+        "originContent": "- `all_elements` - All HTML elements",
+        "translatedContent": "- `css_features` - CSS 属性展示  "
+      },
+      {
+        "row": 21,
+        "rowsha": "nJuMiyu+l/3op8XGs+mPK62kwrWbvyscArvapq6OeFE=",
+        "originContent": "- `css_features` - CSS properties showcase",
+        "translatedContent": "- `flex_layout` - Flexbox 布局  "
+      },
+      {
+        "row": 22,
+        "rowsha": "07nZ5sQjWiM47J2NOJKe2jzcbWOZLGRVJgE1FQqnU/w=",
+        "originContent": "- `flex_layout` - Flexbox layouts",
+        "translatedContent": "- `transitions` - CSS 过渡  "
+      },
+      {
+        "row": 23,
+        "rowsha": "BuENwKZ/AI753fn725JyFFGLrQXKjrUQnu73WouVvbQ=",
+        "originContent": "- `transitions` - CSS transitions",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 许可"
+      },
+      {
+        "row": 25,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT 许可协议"
+      },
+      {
+        "row": 27,
+        "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+        "originContent": "MIT License",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

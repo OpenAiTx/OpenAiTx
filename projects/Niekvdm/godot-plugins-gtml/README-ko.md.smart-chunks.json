@@ -1,0 +1,729 @@
+[
+  {
+    "Id": 1,
+    "Content": "# GTML - Godot Markup Language\n\nA Godot 4.x addon that lets you build UI using HTML and CSS. Create game menus, HUDs, and panels with familiar web technologies.\n\n## Features\n\n- HTML-based UI structure with 20+ element types\n- External CSS styling with 80+ properties\n- Live reload in editor\n- Flexbox layout system\n- SVG rendering support\n- Form elements with signals\n- CSS transitions and pseudo-classes (:hover, :active, :focus)\n- Gradient backgrounds and custom fonts\n\n## Quick Start\n\n### 1. Install\n\nCopy `addons/gtml/` to your project and enable in **Project Settings → Plugins**.\n\n### 2. Create Files\n\n**menu.html:**",
+    "ContentSha": "gL3W7mAikzRrpGxmh6IzpbYcv0ghKVMLJOrL0UrHdT8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# GTML - Godot 마크업 언어\n\nGodot 4.x용 애드온으로 HTML과 CSS를 사용해 UI를 구축할 수 있습니다. 친숙한 웹 기술로 게임 메뉴, HUD, 패널을 만드세요.\n\n## 기능\n\n- 20개 이상의 요소 유형을 가진 HTML 기반 UI 구조\n- 80개 이상의 속성을 지원하는 외부 CSS 스타일링\n- 에디터 내 라이브 리로드\n- 플렉스박스 레이아웃 시스템\n- SVG 렌더링 지원\n- 시그널이 있는 폼 요소\n- CSS 전환 및 의사 클래스 (:hover, :active, :focus)\n- 그라데이션 배경 및 사용자 정의 폰트\n\n## 빠른 시작\n\n### 1. 설치\n\n`addons/gtml/`을 프로젝트에 복사하고 **프로젝트 설정 → 플러그인**에서 활성화하세요.\n\n### 2. 파일 생성\n\n**menu.html:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "aQcE9Q8GdopYa8A3FMtT/wED2B7Xe6WaqgBHRGTRInw=",
+        "originContent": "# GTML - Godot Markup Language",
+        "translatedContent": "# GTML - Godot 마크업 언어"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "x/VZPAs8HIbYIUVQUeRb1hwIYfZseJQ05prP1oDp1c4=",
+        "originContent": "A Godot 4.x addon that lets you build UI using HTML and CSS. Create game menus, HUDs, and panels with familiar web technologies.",
+        "translatedContent": "Godot 4.x용 애드온으로 HTML과 CSS를 사용해 UI를 구축할 수 있습니다. 친숙한 웹 기술로 게임 메뉴, HUD, 패널을 만드세요."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 기능"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "7RaWlchziuGiLKfCTJ+jjACO4yT26hTnKnqAQDYHleY=",
+        "originContent": "- HTML-based UI structure with 20+ element types",
+        "translatedContent": "- 20개 이상의 요소 유형을 가진 HTML 기반 UI 구조"
+      },
+      {
+        "row": 8,
+        "rowsha": "321w85n4SeqakWoAK0VkK/UZbxl5ucVfUtIQke6031g=",
+        "originContent": "- External CSS styling with 80+ properties",
+        "translatedContent": "- 80개 이상의 속성을 지원하는 외부 CSS 스타일링"
+      },
+      {
+        "row": 9,
+        "rowsha": "qY50F3ofczu0eLsyi4O5ENTk8CQws5v6CWMdE5xHuHc=",
+        "originContent": "- Live reload in editor",
+        "translatedContent": "- 에디터 내 라이브 리로드"
+      },
+      {
+        "row": 10,
+        "rowsha": "MQ7rm+BA2Wp1kPl8ElwYWMcC7b7yQdXZ6pJdUV0hHRA=",
+        "originContent": "- Flexbox layout system",
+        "translatedContent": "- 플렉스박스 레이아웃 시스템"
+      },
+      {
+        "row": 11,
+        "rowsha": "aqGYe00Ze6NB8GBABcR/7g8FFsww+QGEHo5x31PQ/84=",
+        "originContent": "- SVG rendering support",
+        "translatedContent": "- SVG 렌더링 지원"
+      },
+      {
+        "row": 12,
+        "rowsha": "TxltnKWwa2UR57o20/ZTmEPOpA7S3nGgLV9YB8aQUg0=",
+        "originContent": "- Form elements with signals",
+        "translatedContent": "- 시그널이 있는 폼 요소"
+      },
+      {
+        "row": 13,
+        "rowsha": "GgMnXkFQUmezn7xdV4d4IYU2qW/xcLVUYYFhmt9Iafk=",
+        "originContent": "- CSS transitions and pseudo-classes (:hover, :active, :focus)",
+        "translatedContent": "- CSS 전환 및 의사 클래스 (:hover, :active, :focus)"
+      },
+      {
+        "row": 14,
+        "rowsha": "6pdw2R9uyPcHNEN7HMowv9gLtzKeYwuI4l8Tb/JGwA4=",
+        "originContent": "- Gradient backgrounds and custom fonts",
+        "translatedContent": "- 그라데이션 배경 및 사용자 정의 폰트"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## 빠른 시작"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "xflNRjiK6ThxRD8MXmkp68ejuHjuEp/ny8AJSfWgYYs=",
+        "originContent": "### 1. Install",
+        "translatedContent": "### 1. 설치"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "XLBI8/OCwlzz08DVQ9VGOw9k3Qeek0FqGs6g7T430lk=",
+        "originContent": "Copy `addons/gtml/` to your project and enable in **Project Settings → Plugins**.",
+        "translatedContent": "`addons/gtml/`을 프로젝트에 복사하고 **프로젝트 설정 → 플러그인**에서 활성화하세요."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "JtPBDK8e3dmERBqOxiBI/SUfTLVfJIiVQbxWbmI6D6U=",
+        "originContent": "### 2. Create Files",
+        "translatedContent": "### 2. 파일 생성"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "OSLQ7Z0LUwBmrgy1mwU035yAdnEu5ei4mQ01Ois/6WY=",
+        "originContent": "**menu.html:**",
+        "translatedContent": "**menu.html:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```html\n<div class=\"menu\">\n    <h1>My Game</h1>\n    <button @click=\"on_play\">Play</button>\n    <button @click=\"on_quit\">Quit</button>\n</div>\n```",
+    "ContentSha": "gN3akLYVLyJa3esu+xwy9EdZkhfZBGxNr/bexPpTN3w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```html\n<div class=\"menu\">\n    <h1>My Game</h1>\n    <button @click=\"on_play\">Play</button>\n    <button @click=\"on_quit\">Quit</button>\n</div>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Uc5+AjuMoqnnDSvMf+9u+CTVledsHCbqDg0MxKvxsYw=",
+        "originContent": "```html",
+        "translatedContent": "```html"
+      },
+      {
+        "row": 2,
+        "rowsha": "Nniz/KNUvYruKxwGqB9xEQqBIO4jUY2uQGrOhUdIcDo=",
+        "originContent": "<div class=\"menu\">",
+        "translatedContent": "<div class=\"menu\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "J1mlZqrmerKSoB4g7GzFMtulza2jssMiWgBDy7i3w9c=",
+        "originContent": "    <h1>My Game</h1>",
+        "translatedContent": "    <h1>My Game</h1>"
+      },
+      {
+        "row": 4,
+        "rowsha": "1cEU5aMUGAGdZT19bz9dUXEv+GjxKkfX8MOHpl4oGOU=",
+        "originContent": "    <button @click=\"on_play\">Play</button>",
+        "translatedContent": "    <button @click=\"on_play\">Play</button>"
+      },
+      {
+        "row": 5,
+        "rowsha": "jIfW25qRc3xkC7iLusepVkdDdMUKAlcFkdF8lL0EQUw=",
+        "originContent": "    <button @click=\"on_quit\">Quit</button>",
+        "translatedContent": "    <button @click=\"on_quit\">Quit</button>"
+      },
+      {
+        "row": 6,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n**menu.css:**",
+    "ContentSha": "q29iFI7QtJdK2Q+YoBqgqDRDswaUFb/ipx5GF6dXRC8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n**menu.css:**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "sBSMkj7UW0sA1fd+HDJ81XfUwHFIj0xCJs2tglIlA2M=",
+        "originContent": "**menu.css:**",
+        "translatedContent": "**menu.css:**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```css\n.menu {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 16px;\n    padding: 32px;\n    background-color: #1a1a2e;\n}\n\nh1 {\n    font-size: 32px;\n    color: #ffffff;\n}\n\nbutton {\n    padding: 12px 24px;\n    background-color: #00d4ff;\n    border-radius: 4px;\n    color: #000000;\n    transition: background-color 200ms ease;\n}\n\nbutton:hover {\n    background-color: #00a8cc;\n}\n```",
+    "ContentSha": "KAQzod/AMzYDSrYj1LylKyR7d3vP031WBvtgbkVIcz0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```css\n.menu {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 16px;\n    padding: 32px;\n    background-color: #1a1a2e;\n}\n\nh1 {\n    font-size: 32px;\n    color: #ffffff;\n}\n\nbutton {\n    padding: 12px 24px;\n    background-color: #00d4ff;\n    border-radius: 4px;\n    color: #000000;\n    transition: background-color 200ms ease;\n}\n\nbutton:hover {\n    background-color: #00a8cc;\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5iyC1+sBmoSc7XQq6T1ZBEHG7tL5uX8FLH/8KahD0As=",
+        "originContent": "```css",
+        "translatedContent": "```css"
+      },
+      {
+        "row": 2,
+        "rowsha": "k8CIPOesd3//HzcP9tfFGJU88UDWfpxagljjYn4BQqc=",
+        "originContent": ".menu {",
+        "translatedContent": ".menu {"
+      },
+      {
+        "row": 3,
+        "rowsha": "cLMsHVk5E/ZBThkp/BTj3g7+2xLRzrYgxwCRr2TiLKA=",
+        "originContent": "    display: flex;",
+        "translatedContent": "    display: flex;"
+      },
+      {
+        "row": 4,
+        "rowsha": "3bmAg4Sg0E4aRlv42PeFVTsbI7BN+LbBlv97tgH5Y4c=",
+        "originContent": "    flex-direction: column;",
+        "translatedContent": "    flex-direction: column;"
+      },
+      {
+        "row": 5,
+        "rowsha": "grZ6ms7XpYiGb944wseffoOo6CX80JEkZg0hyu9hpiQ=",
+        "originContent": "    align-items: center;",
+        "translatedContent": "    align-items: center;"
+      },
+      {
+        "row": 6,
+        "rowsha": "erTRv6nDG3UJd8kokdTG3ImIpT7w1iinEJv4LXIxLOQ=",
+        "originContent": "    gap: 16px;",
+        "translatedContent": "    gap: 16px;"
+      },
+      {
+        "row": 7,
+        "rowsha": "Yc/gil3c7bpBKXrwdgwIOIqu3eMOAaExyxI+0s3xPLM=",
+        "originContent": "    padding: 32px;",
+        "translatedContent": "    padding: 32px;"
+      },
+      {
+        "row": 8,
+        "rowsha": "rcPPecP1f/h1QAjSrJg696aBWUX8TYiVNFePCRbj15U=",
+        "originContent": "    background-color: #1a1a2e;",
+        "translatedContent": "    background-color: #1a1a2e;"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "peYfCLtQLN1jYYfXHqk0Pw3RydXHHTpDj6pO7FtEWco=",
+        "originContent": "h1 {",
+        "translatedContent": "h1 {"
+      },
+      {
+        "row": 12,
+        "rowsha": "c6t/IQ1Nyi5I/VwZldIfDDiaEVCOAFZzqWDHylsLpKk=",
+        "originContent": "    font-size: 32px;",
+        "translatedContent": "    font-size: 32px;"
+      },
+      {
+        "row": 13,
+        "rowsha": "2EqgkNImeTk2vviN1mdvpp1E1b2+XX35yPuwUavQm2E=",
+        "originContent": "    color: #ffffff;",
+        "translatedContent": "    color: #ffffff;"
+      },
+      {
+        "row": 14,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "j3Uk5Y1K9bTxPG3gGPPr4dcmWJ+DX7u6TfJTUKU6GYI=",
+        "originContent": "button {",
+        "translatedContent": "button {"
+      },
+      {
+        "row": 17,
+        "rowsha": "DVKDCXHbbwIhkXA+Rhjr1pHdws7W5FUzaOrnsJVqIRk=",
+        "originContent": "    padding: 12px 24px;",
+        "translatedContent": "    padding: 12px 24px;"
+      },
+      {
+        "row": 18,
+        "rowsha": "W5JjsfGOmSbu7dtgIBzc0ItAQgHhqpuEcFl0xsdzUfo=",
+        "originContent": "    background-color: #00d4ff;",
+        "translatedContent": "    background-color: #00d4ff;"
+      },
+      {
+        "row": 19,
+        "rowsha": "eVh0wliTMBovGIZ8zJFENyYnVpZ8I3SZJk62DOyb5NE=",
+        "originContent": "    border-radius: 4px;",
+        "translatedContent": "    border-radius: 4px;"
+      },
+      {
+        "row": 20,
+        "rowsha": "jev4tw8a+gPwQZ6Uh5rnTQhQXhZmCeBkteIckWSimdQ=",
+        "originContent": "    color: #000000;",
+        "translatedContent": "    color: #000000;"
+      },
+      {
+        "row": 21,
+        "rowsha": "sSKe9SyHrrjRbaPQWTQcRiIC/l/jEYlAJIrYCo/oTCw=",
+        "originContent": "    transition: background-color 200ms ease;",
+        "translatedContent": "    transition: background-color 200ms ease;"
+      },
+      {
+        "row": 22,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "2ah8umAw37wu5XfaO7dk33Ez27N1Y7R3ABZIAeYoxNc=",
+        "originContent": "button:hover {",
+        "translatedContent": "button:hover {"
+      },
+      {
+        "row": 25,
+        "rowsha": "0LaMpeSmMmSk2rRB0EkSHgw4gmpsLxJSuhg2yaXCdPc=",
+        "originContent": "    background-color: #00a8cc;",
+        "translatedContent": "    background-color: #00a8cc;"
+      },
+      {
+        "row": 26,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 27,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### 3. Add GmlView Node\n\nAdd a `GmlView` node and set **Html Path** and **Css Path** in the Inspector.\n\n### 4. Connect Signals\n",
+    "ContentSha": "c9v1GlCFC+FX3Dy7vVrf+dY3z7g9tOHe8CGRmZoes64=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 3. GmlView 노드 추가\n\n`GmlView` 노드를 추가하고 인스펙터에서 **Html Path**와 **Css Path**를 설정합니다.\n\n### 4. 신호 연결하기\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 3. GmlView 노드 추가"
+      },
+      {
+        "row": 2,
+        "rowsha": "mH3n79ioqH20UDRI6Xz+OfzFIzpYCON822cvACKsdec=",
+        "originContent": "### 3. Add GmlView Node",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`GmlView` 노드를 추가하고 인스펙터에서 **Html Path**와 **Css Path**를 설정합니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "NoGhxmCdi/VTnLdshu7DoRDbwDUe8guoWi/OSJAE9ZI=",
+        "originContent": "Add a `GmlView` node and set **Html Path** and **Css Path** in the Inspector.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 4. 신호 연결하기"
+      },
+      {
+        "row": 6,
+        "rowsha": "9rkCBMdg9iySZNduf4wcdAuERKxWuhEtQg5JBXJMw3I=",
+        "originContent": "### 4. Connect Signals",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```gdscript\nfunc _ready():\n    $GmlView.button_clicked.connect(_on_button_clicked)\n\nfunc _on_button_clicked(method_name: String):\n    match method_name:\n        \"on_play\":\n            get_tree().change_scene_to_file(\"res://game.tscn\")\n        \"on_quit\":\n            get_tree().quit()\n```",
+    "ContentSha": "jd4x4+CNz1oTFH+T6WZOm1ZgFU+/a15wBxuJ9K+30nU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```gdscript\nfunc _ready():\n    $GmlView.button_clicked.connect(_on_button_clicked)\n\nfunc _on_button_clicked(method_name: String):\n    match method_name:\n        \"on_play\":\n            get_tree().change_scene_to_file(\"res://game.tscn\")\n        \"on_quit\":\n            get_tree().quit()\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "R8DftdZjVxmoK7JUmBz40HME7ASrUA7rjyCnoejDjVY=",
+        "originContent": "```gdscript",
+        "translatedContent": "```gdscript"
+      },
+      {
+        "row": 2,
+        "rowsha": "cJI0WCHnSOa3T3+PzMf+37HhHWjmbIuYytAd9YLiDBw=",
+        "originContent": "func _ready():",
+        "translatedContent": "func _ready():"
+      },
+      {
+        "row": 3,
+        "rowsha": "8fOpAOKS41tvD0d2uRRTm2Xf9AhjYSIcxZHtGW2aPBE=",
+        "originContent": "    $GmlView.button_clicked.connect(_on_button_clicked)",
+        "translatedContent": "    $GmlView.button_clicked.connect(_on_button_clicked)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "U2qiZxJK+vV/XruRMtdh77M5hbzYafhpbRBgsIJ81r0=",
+        "originContent": "func _on_button_clicked(method_name: String):",
+        "translatedContent": "func _on_button_clicked(method_name: String):"
+      },
+      {
+        "row": 6,
+        "rowsha": "9PnTmeBTnatOgD2ByLojx0Ef88rV/LPOjjWcCgV6+D4=",
+        "originContent": "    match method_name:",
+        "translatedContent": "    match method_name:"
+      },
+      {
+        "row": 7,
+        "rowsha": "dySdRKhq/juHZUAIe4cXgW4uyI80maCipAp2XuOHCtc=",
+        "originContent": "        \"on_play\":",
+        "translatedContent": "        \"on_play\":"
+      },
+      {
+        "row": 8,
+        "rowsha": "jST08qEtGx1IMh9uq5pS2wteM8xBlVKncY7Vefmyt4w=",
+        "originContent": "            get_tree().change_scene_to_file(\"res://game.tscn\")",
+        "translatedContent": "            get_tree().change_scene_to_file(\"res://game.tscn\")"
+      },
+      {
+        "row": 9,
+        "rowsha": "1mExrrJPNQbug4SaRKjTqZVMTwDVjFaPMtvf2NM+J3g=",
+        "originContent": "        \"on_quit\":",
+        "translatedContent": "        \"on_quit\":"
+      },
+      {
+        "row": 10,
+        "rowsha": "M0KdeELDqvvZuzrlrLaCYEkPhgkLVDjH4WWA+0wJS1k=",
+        "originContent": "            get_tree().quit()",
+        "translatedContent": "            get_tree().quit()"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Documentation\n\n- [Getting Started](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/getting-started.md) - Installation and basic usage\n- [HTML Elements](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/html-elements.md) - Supported tags and attributes\n- [CSS Properties](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-properties.md) - Complete property reference\n- [CSS Selectors](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-selectors.md) - Selectors and pseudo-classes\n- [Forms & Inputs](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/forms-and-inputs.md) - Form elements and events\n- [SVG Support](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/svg-support.md) - Vector graphics\n- [Layout & Flexbox](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/layout-and-flexbox.md) - Layout system\n- [Transitions](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/transitions.md) - CSS transitions\n- [Fonts & Typography](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/fonts-and-typography.md) - Custom fonts\n- [Extending GTML](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/extending-gtml.md) - Add new features\n- [Limitations](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/limitations.md) - Known limitations\n\n## Examples\n\nCheck `addons/gtml/examples/` for working demos:\n- `basic` - Simple menu\n- `all_elements` - All HTML elements\n- `css_features` - CSS properties showcase\n- `flex_layout` - Flexbox layouts\n- `transitions` - CSS transitions\n\n## License\n\nMIT License\n",
+    "ContentSha": "Pt3KgH84ejQOFPSXSFUmg74lHDQQ+ZQjT+lLiBkfcXE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 문서\n\n- [시작하기](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/getting-started.md) - 설치 및 기본 사용법\n- [HTML 요소](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/html-elements.md) - 지원 태그 및 속성\n- [CSS 속성](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-properties.md) - 전체 속성 참조\n- [CSS 선택자](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-selectors.md) - 선택자 및 의사 클래스\n- [폼 및 입력](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/forms-and-inputs.md) - 폼 요소 및 이벤트\n- [SVG 지원](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/svg-support.md) - 벡터 그래픽\n- [레이아웃 및 플렉스박스](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/layout-and-flexbox.md) - 레이아웃 시스템\n- [전환 효과](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/transitions.md) - CSS 전환 효과\n- [폰트 및 타이포그래피](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/fonts-and-typography.md) - 사용자 지정 폰트\n- [GTML 확장](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/extending-gtml.md) - 새로운 기능 추가\n- [제한 사항](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/limitations.md) - 알려진 제한 사항\n\n## 예제\n\n작동하는 데모는 `addons/gtml/examples/` 폴더를 확인하세요:\n- `basic` - 간단한 메뉴\n- `all_elements` - 모든 HTML 요소\n- `css_features` - CSS 속성 쇼케이스\n- `flex_layout` - 플렉스박스 레이아웃\n- `transitions` - CSS 전환 효과\n\n## 라이선스\n\nMIT 라이선스\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 문서"
+      },
+      {
+        "row": 2,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [시작하기](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/getting-started.md) - 설치 및 기본 사용법"
+      },
+      {
+        "row": 4,
+        "rowsha": "RcBAqsaNRQguXfoutgDihYsWr/+Ix4fZQbqz1OZXYVY=",
+        "originContent": "- [Getting Started](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/getting-started.md) - Installation and basic usage",
+        "translatedContent": "- [HTML 요소](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/html-elements.md) - 지원 태그 및 속성"
+      },
+      {
+        "row": 5,
+        "rowsha": "HC+n774TxKd+J5UBM7KQGc8b3aJFY3xxYZjJ/wn5ed8=",
+        "originContent": "- [HTML Elements](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/html-elements.md) - Supported tags and attributes",
+        "translatedContent": "- [CSS 속성](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-properties.md) - 전체 속성 참조"
+      },
+      {
+        "row": 6,
+        "rowsha": "CU0pUrjV99QmycrqoUZW+En5qR3s6cWSjPUxeAOfWl0=",
+        "originContent": "- [CSS Properties](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-properties.md) - Complete property reference",
+        "translatedContent": "- [CSS 선택자](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-selectors.md) - 선택자 및 의사 클래스"
+      },
+      {
+        "row": 7,
+        "rowsha": "xEiqxxr2PREri5R41UAVxGseg4uaJhT6Jsrezcf7cUc=",
+        "originContent": "- [CSS Selectors](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/css-selectors.md) - Selectors and pseudo-classes",
+        "translatedContent": "- [폼 및 입력](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/forms-and-inputs.md) - 폼 요소 및 이벤트"
+      },
+      {
+        "row": 8,
+        "rowsha": "/aPdaEWqTVRrDF+QPNhQ14vxxwTgn+6L6xmzNirocwY=",
+        "originContent": "- [Forms & Inputs](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/forms-and-inputs.md) - Form elements and events",
+        "translatedContent": "- [SVG 지원](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/svg-support.md) - 벡터 그래픽"
+      },
+      {
+        "row": 9,
+        "rowsha": "L8MDOuudt5TiljYhF2al88Z4pF1QaKL1O3QVBwBs8do=",
+        "originContent": "- [SVG Support](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/svg-support.md) - Vector graphics",
+        "translatedContent": "- [레이아웃 및 플렉스박스](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/layout-and-flexbox.md) - 레이아웃 시스템"
+      },
+      {
+        "row": 10,
+        "rowsha": "fkJvDkXCGW3Hx5gNqYJd22Dqx9sXk8R/RnRE/eU7sxE=",
+        "originContent": "- [Layout & Flexbox](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/layout-and-flexbox.md) - Layout system",
+        "translatedContent": "- [전환 효과](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/transitions.md) - CSS 전환 효과"
+      },
+      {
+        "row": 11,
+        "rowsha": "7M8EvLQ8/SK+OuOcopGRYDtyKy68taJ9ZqBrCwIokSM=",
+        "originContent": "- [Transitions](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/transitions.md) - CSS transitions",
+        "translatedContent": "- [폰트 및 타이포그래피](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/fonts-and-typography.md) - 사용자 지정 폰트"
+      },
+      {
+        "row": 12,
+        "rowsha": "IgCQ9g4jvsIsYasC5dEd4TnZWlMswrVCRRqJlqxZi8U=",
+        "originContent": "- [Fonts & Typography](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/fonts-and-typography.md) - Custom fonts",
+        "translatedContent": "- [GTML 확장](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/extending-gtml.md) - 새로운 기능 추가"
+      },
+      {
+        "row": 13,
+        "rowsha": "xc9c3E7WPFTjR8s4jb42zG04O9I7gfBNHu6rOGbOjYA=",
+        "originContent": "- [Extending GTML](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/extending-gtml.md) - Add new features",
+        "translatedContent": "- [제한 사항](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/limitations.md) - 알려진 제한 사항"
+      },
+      {
+        "row": 14,
+        "rowsha": "kzoxN6plHzJzIczNkqy/V1U5nWzWOWBGBQGu3QZGTO8=",
+        "originContent": "- [Limitations](https://raw.githubusercontent.com/Niekvdm/godot-plugins-gtml/master/docs/limitations.md) - Known limitations",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 예제"
+      },
+      {
+        "row": 16,
+        "rowsha": "DRmrRjGXhXaABVNjE/Ar07m3eartgu6sW/en95atPvE=",
+        "originContent": "## Examples",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "작동하는 데모는 `addons/gtml/examples/` 폴더를 확인하세요:"
+      },
+      {
+        "row": 18,
+        "rowsha": "auseUoUjJSWGAxSz84OxoanMVyIuqg4DO289SiQchQs=",
+        "originContent": "Check `addons/gtml/examples/` for working demos:",
+        "translatedContent": "- `basic` - 간단한 메뉴"
+      },
+      {
+        "row": 19,
+        "rowsha": "HvDfe0/melxHogGgDSbpcQMWDnuuoYPi4R9pwgpnmdQ=",
+        "originContent": "- `basic` - Simple menu",
+        "translatedContent": "- `all_elements` - 모든 HTML 요소"
+      },
+      {
+        "row": 20,
+        "rowsha": "kqn4frusQXGz6PFxORiiA8KPlFyFHa+bsZKNNe9Xsjw=",
+        "originContent": "- `all_elements` - All HTML elements",
+        "translatedContent": "- `css_features` - CSS 속성 쇼케이스"
+      },
+      {
+        "row": 21,
+        "rowsha": "nJuMiyu+l/3op8XGs+mPK62kwrWbvyscArvapq6OeFE=",
+        "originContent": "- `css_features` - CSS properties showcase",
+        "translatedContent": "- `flex_layout` - 플렉스박스 레이아웃"
+      },
+      {
+        "row": 22,
+        "rowsha": "07nZ5sQjWiM47J2NOJKe2jzcbWOZLGRVJgE1FQqnU/w=",
+        "originContent": "- `flex_layout` - Flexbox layouts",
+        "translatedContent": "- `transitions` - CSS 전환 효과"
+      },
+      {
+        "row": 23,
+        "rowsha": "BuENwKZ/AI753fn725JyFFGLrQXKjrUQnu73WouVvbQ=",
+        "originContent": "- `transitions` - CSS transitions",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 라이선스"
+      },
+      {
+        "row": 25,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT 라이선스"
+      },
+      {
+        "row": 27,
+        "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+        "originContent": "MIT License",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

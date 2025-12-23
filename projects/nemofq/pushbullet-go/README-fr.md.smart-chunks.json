@@ -1,0 +1,557 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Pushbullet Go\n\n[![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/dghndapbehjdbhiffbckojkhoennbofg)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg) [![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/dghndapbehjdbhiffbckojkhoennbofg)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg) [![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/dghndapbehjdbhiffbckojkhoennbofg)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg)\n\n> **Note 1**: The extension name has been changed to \"Push Go\" due to Chrome Web Store policy.\n>\n> **Note 2**: This is a third-party, open-source client for Pushbullet API. Not affiliated with or endorsed by the service.\n\n![Pushbullet Go](https://raw.githubusercontent.com/nemofq/pushbullet-go/main/screenshots/1_popup.png)\n\nA lightweight Chrome extension for Pushbullet that enables receiving and sending pushes directly from your browser.\n\nThis extension is compatible with Manifest V3, making it an alternative to the official extension which no longer works.\n\n[![](https://developer.chrome.com/static/docs/webstore/branding/image/UV4C4ybeBTsZt43U4xis.png)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg)\n\n## Features\n\nRequire a [Pushbullet](https://www.pushbullet.com/) account. Features include:\n\n- Receive and send pushes\n- Push files/images by pasting, dragging, or uploading (in standalone window due to Chrome's restriction)\n- Push current page's URL, selected text, or images from context menu with device/people selection\n- Control which devices to push to by selecting devices\n- Notifications for received pushes with buttons to open links and dismiss\n- Auto-open received link in a new tab (default off, enable in options page)\n- Stores 100 latest pushes locally (full history available on Pushbullet website)\n- (New) Filter to show and notify pushes by target device\n- (New) Control notifications from browser-sourced pushes (useful for multi-browser use case)\n- (New) Notification Mirroring (requires Pushbullet Android app installed and enabled in both Android app and Push Go settings)\n- (New) Dark Mode (follows system by default, or choose manually)\n- (New) Supports i18n with 33 languages\n- (New) Unread count\n- (New) Quick share of current tab's link in the popup (default off, enable in options page)\n- (New) Play sound on notification (can be disabled in options page)\n- (New) End-to-end encryption for notification mirroring\n- (New) Extract verification code from mirrored notification (click to copy in the popup)\n\n## Installation\n> **Note 3**: Requires Chrome 116+ for using `chrome.idle` API to maintain connection to Pushbullet's WebSocket server.",
+    "ContentSha": "BweFUtHHHcBt+bEti2ou9DWCzqt9rlu6O2XYncb1KLM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Pushbullet Go\n\n[![Version Chrome Web Store](https://img.shields.io/chrome-web-store/v/dghndapbehjdbhiffbckojkhoennbofg)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg) [![Utilisateurs Chrome Web Store](https://img.shields.io/chrome-web-store/users/dghndapbehjdbhiffbckojkhoennbofg)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg) [![Note Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dghndapbehjdbhiffbckojkhoennbofg)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg)\n\n> **Note 1** : Le nom de l’extension a été changé en « Push Go » en raison de la politique du Chrome Web Store.\n>\n> **Note 2** : Il s’agit d’un client tiers et open-source pour l’API Pushbullet. Non affilié ni approuvé par le service.\n\n![Pushbullet Go](https://raw.githubusercontent.com/nemofq/pushbullet-go/main/screenshots/1_popup.png)\n\nUne extension Chrome légère pour Pushbullet qui permet de recevoir et d’envoyer des notifications directement depuis votre navigateur.\n\nCette extension est compatible avec Manifest V3, ce qui en fait une alternative à l’extension officielle qui ne fonctionne plus.\n\n[![](https://developer.chrome.com/static/docs/webstore/branding/image/UV4C4ybeBTsZt43U4xis.png)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg)\n\n## Fonctionnalités\n\nNécessite un compte [Pushbullet](https://www.pushbullet.com/). Les fonctionnalités incluent :\n\n- Recevoir et envoyer des notifications\n- Envoyer des fichiers/images par collage, glisser-déposer ou téléchargement (dans une fenêtre autonome à cause des restrictions de Chrome)\n- Envoyer l’URL de la page actuelle, du texte sélectionné ou des images depuis le menu contextuel avec sélection d’appareils/personnes\n- Contrôler les appareils vers lesquels envoyer en sélectionnant les appareils\n- Notifications pour les notifications reçues avec boutons pour ouvrir les liens et fermer\n- Ouverture automatique du lien reçu dans un nouvel onglet (désactivé par défaut, à activer dans la page des options)\n- Stocke localement les 100 dernières notifications (historique complet disponible sur le site Pushbullet)\n- (Nouveau) Filtre pour afficher et notifier les notifications par appareil cible\n- (Nouveau) Contrôle des notifications provenant du navigateur (utile pour l’utilisation multi-navigateurs)\n- (Nouveau) Miroir de notifications (nécessite l’application Pushbullet Android installée et activée dans l’application Android et dans les paramètres de Push Go)\n- (Nouveau) Mode sombre (suit le système par défaut ou choix manuel)\n- (Nouveau) Supporte l’i18n avec 33 langues\n- (Nouveau) Compte des non lus\n- (Nouveau) Partage rapide du lien de l’onglet actuel dans la popup (désactivé par défaut, à activer dans la page des options)\n- (Nouveau) Lecture d’un son lors d’une notification (peut être désactivé dans la page des options)\n- (Nouveau) Chiffrement de bout en bout pour le miroir de notifications\n- (Nouveau) Extraction du code de vérification depuis la notification miroir (clic pour copier dans la popup)\n\n## Installation\n> **Note 3** : Nécessite Chrome 116+ pour utiliser l’API `chrome.idle` afin de maintenir la connexion au serveur WebSocket de Pushbullet.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "vmYVAKSJML2tuGAXSZmUbqx82roPVdp/SNvXuConBic=",
+        "originContent": "# Pushbullet Go",
+        "translatedContent": "# Pushbullet Go"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "eFKpVCDAC74Yx33Six1/lh/yw0TdkzqKP3YZ09FZlBg=",
+        "originContent": "[![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/dghndapbehjdbhiffbckojkhoennbofg)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg) [![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/dghndapbehjdbhiffbckojkhoennbofg)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg) [![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/dghndapbehjdbhiffbckojkhoennbofg)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg)",
+        "translatedContent": "[![Version Chrome Web Store](https://img.shields.io/chrome-web-store/v/dghndapbehjdbhiffbckojkhoennbofg)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg) [![Utilisateurs Chrome Web Store](https://img.shields.io/chrome-web-store/users/dghndapbehjdbhiffbckojkhoennbofg)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg) [![Note Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dghndapbehjdbhiffbckojkhoennbofg)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Ps1mLldp7y/J6DTvAyhEun1+A3SpVtf83D7Vnh7IRwc=",
+        "originContent": "> **Note 1**: The extension name has been changed to \"Push Go\" due to Chrome Web Store policy.",
+        "translatedContent": "> **Note 1** : Le nom de l’extension a été changé en « Push Go » en raison de la politique du Chrome Web Store."
+      },
+      {
+        "row": 6,
+        "rowsha": "YrZ+H2hbf+9RECAF3d0nd0vj/uOMQpZcU6qwNdC2siE=",
+        "originContent": ">",
+        "translatedContent": ">"
+      },
+      {
+        "row": 7,
+        "rowsha": "sIHrEpMokmxx1re3P3bTTSgN1sWoDH8k9Qg21uuBFl0=",
+        "originContent": "> **Note 2**: This is a third-party, open-source client for Pushbullet API. Not affiliated with or endorsed by the service.",
+        "translatedContent": "> **Note 2** : Il s’agit d’un client tiers et open-source pour l’API Pushbullet. Non affilié ni approuvé par le service."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "HIU8P9sZIHq6OoUhNwNtjATDV3VCfwznwsD2Jt8G7pE=",
+        "originContent": "![Pushbullet Go](https://raw.githubusercontent.com/nemofq/pushbullet-go/main/screenshots/1_popup.png)",
+        "translatedContent": "![Pushbullet Go](https://raw.githubusercontent.com/nemofq/pushbullet-go/main/screenshots/1_popup.png)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "D5EybFsaUn7/dOpDpI2/yfJn2UFHRurcMUAoZqk3MAI=",
+        "originContent": "A lightweight Chrome extension for Pushbullet that enables receiving and sending pushes directly from your browser.",
+        "translatedContent": "Une extension Chrome légère pour Pushbullet qui permet de recevoir et d’envoyer des notifications directement depuis votre navigateur."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "2LxzPZgAXawO+lBVQ6ggJALtAn1BOzx1AxWRtFm8EIw=",
+        "originContent": "This extension is compatible with Manifest V3, making it an alternative to the official extension which no longer works.",
+        "translatedContent": "Cette extension est compatible avec Manifest V3, ce qui en fait une alternative à l’extension officielle qui ne fonctionne plus."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "df1kX1IkZVwhwBFujdwcy3uoNkyh6vglNEOD02ed9Tw=",
+        "originContent": "[![](https://developer.chrome.com/static/docs/webstore/branding/image/UV4C4ybeBTsZt43U4xis.png)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg)",
+        "translatedContent": "[![](https://developer.chrome.com/static/docs/webstore/branding/image/UV4C4ybeBTsZt43U4xis.png)](https://chromewebstore.google.com/detail/push-go-for-pushbullet/dghndapbehjdbhiffbckojkhoennbofg)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Fonctionnalités"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "oATRBgyt0uJwlEzdpiyW5GLxafyulSmdu0QyqTHi+cE=",
+        "originContent": "Require a [Pushbullet](https://www.pushbullet.com/) account. Features include:",
+        "translatedContent": "Nécessite un compte [Pushbullet](https://www.pushbullet.com/). Les fonctionnalités incluent :"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "XFlZ/K+2ebTUg1H6O03Ej8xrRBaiFRHTonexAExTa3A=",
+        "originContent": "- Receive and send pushes",
+        "translatedContent": "- Recevoir et envoyer des notifications"
+      },
+      {
+        "row": 22,
+        "rowsha": "aW8Cei5eVH+6fdt0Dh+50EqG5efXoMHTYsCGnj8iJ/Y=",
+        "originContent": "- Push files/images by pasting, dragging, or uploading (in standalone window due to Chrome's restriction)",
+        "translatedContent": "- Envoyer des fichiers/images par collage, glisser-déposer ou téléchargement (dans une fenêtre autonome à cause des restrictions de Chrome)"
+      },
+      {
+        "row": 23,
+        "rowsha": "bVv6eZ0OIby3s2rKxa8/ib2MyOigQtnlucH18rJOZME=",
+        "originContent": "- Push current page's URL, selected text, or images from context menu with device/people selection",
+        "translatedContent": "- Envoyer l’URL de la page actuelle, du texte sélectionné ou des images depuis le menu contextuel avec sélection d’appareils/personnes"
+      },
+      {
+        "row": 24,
+        "rowsha": "rs6X9zOlU9r4r52q/+4dVDHMi7w4Y+5WNW2VTgCcHjM=",
+        "originContent": "- Control which devices to push to by selecting devices",
+        "translatedContent": "- Contrôler les appareils vers lesquels envoyer en sélectionnant les appareils"
+      },
+      {
+        "row": 25,
+        "rowsha": "20JdgB5EuY+biASNxxQw+Tisvu7pzl1VgZoDZ7j7Qts=",
+        "originContent": "- Notifications for received pushes with buttons to open links and dismiss",
+        "translatedContent": "- Notifications pour les notifications reçues avec boutons pour ouvrir les liens et fermer"
+      },
+      {
+        "row": 26,
+        "rowsha": "+5jab5zMjGNDgEQPGs4u5HDSnkBW3h9GUqJP2Fbvm6Y=",
+        "originContent": "- Auto-open received link in a new tab (default off, enable in options page)",
+        "translatedContent": "- Ouverture automatique du lien reçu dans un nouvel onglet (désactivé par défaut, à activer dans la page des options)"
+      },
+      {
+        "row": 27,
+        "rowsha": "C0hIM+Xlzy8L7gYV28xcJ7G/hkwTINNCevyV5xXId4o=",
+        "originContent": "- Stores 100 latest pushes locally (full history available on Pushbullet website)",
+        "translatedContent": "- Stocke localement les 100 dernières notifications (historique complet disponible sur le site Pushbullet)"
+      },
+      {
+        "row": 28,
+        "rowsha": "ANjuo9TTVsXomewiImTeV043N/qNZSlu7+GfbbQTLpg=",
+        "originContent": "- (New) Filter to show and notify pushes by target device",
+        "translatedContent": "- (Nouveau) Filtre pour afficher et notifier les notifications par appareil cible"
+      },
+      {
+        "row": 29,
+        "rowsha": "5ZE1nx8O0nX/3ormj6l9YSmoGABFyaRwCT6T6h/1iIc=",
+        "originContent": "- (New) Control notifications from browser-sourced pushes (useful for multi-browser use case)",
+        "translatedContent": "- (Nouveau) Contrôle des notifications provenant du navigateur (utile pour l’utilisation multi-navigateurs)"
+      },
+      {
+        "row": 30,
+        "rowsha": "iF6qbCnyTQcUhLKyAz7dEWQps6N6ReRDChb0NPv2RW8=",
+        "originContent": "- (New) Notification Mirroring (requires Pushbullet Android app installed and enabled in both Android app and Push Go settings)",
+        "translatedContent": "- (Nouveau) Miroir de notifications (nécessite l’application Pushbullet Android installée et activée dans l’application Android et dans les paramètres de Push Go)"
+      },
+      {
+        "row": 31,
+        "rowsha": "Pj8/+3d524WLBthrMXeZRusCPq79N09hU6S6yDUiKYM=",
+        "originContent": "- (New) Dark Mode (follows system by default, or choose manually)",
+        "translatedContent": "- (Nouveau) Mode sombre (suit le système par défaut ou choix manuel)"
+      },
+      {
+        "row": 32,
+        "rowsha": "I+yObeMTF9dRIFAbdJouF7l2dIJBVLO83UDlLcOh+pE=",
+        "originContent": "- (New) Supports i18n with 33 languages",
+        "translatedContent": "- (Nouveau) Supporte l’i18n avec 33 langues"
+      },
+      {
+        "row": 33,
+        "rowsha": "iSDwNKnLAoRo2lBRBNggB/JalPGkDkjRM85Xa/MxyRY=",
+        "originContent": "- (New) Unread count",
+        "translatedContent": "- (Nouveau) Compte des non lus"
+      },
+      {
+        "row": 34,
+        "rowsha": "C+q0LYfN6dE9WCY6ooPt9C1FqmH08B4y9PF4ndDyrnE=",
+        "originContent": "- (New) Quick share of current tab's link in the popup (default off, enable in options page)",
+        "translatedContent": "- (Nouveau) Partage rapide du lien de l’onglet actuel dans la popup (désactivé par défaut, à activer dans la page des options)"
+      },
+      {
+        "row": 35,
+        "rowsha": "gYdlNR9T2oxjf7pPw7nrbIM4qWnKj83n8l74tZFV4s0=",
+        "originContent": "- (New) Play sound on notification (can be disabled in options page)",
+        "translatedContent": "- (Nouveau) Lecture d’un son lors d’une notification (peut être désactivé dans la page des options)"
+      },
+      {
+        "row": 36,
+        "rowsha": "sL2VmMDe3HbCs+IWMhX+45+I5li4LVwDWFUiWkN+pQM=",
+        "originContent": "- (New) End-to-end encryption for notification mirroring",
+        "translatedContent": "- (Nouveau) Chiffrement de bout en bout pour le miroir de notifications"
+      },
+      {
+        "row": 37,
+        "rowsha": "FizG9+ueuMPFfnSibX2zhr07LXQ7uPzO0seuZEozoYw=",
+        "originContent": "- (New) Extract verification code from mirrored notification (click to copy in the popup)",
+        "translatedContent": "- (Nouveau) Extraction du code de vérification depuis la notification miroir (clic pour copier dans la popup)"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 40,
+        "rowsha": "x+6fyT30B2qUszV7D3Ad+eO+V79bE1AkgUshCmf/7JY=",
+        "originContent": "> **Note 3**: Requires Chrome 116+ for using `chrome.idle` API to maintain connection to Pushbullet's WebSocket server.",
+        "translatedContent": "> **Note 3** : Nécessite Chrome 116+ pour utiliser l’API `chrome.idle` afin de maintenir la connexion au serveur WebSocket de Pushbullet."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n### Recommended\n\nInstall directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/push-go/dghndapbehjdbhiffbckojkhoennbofg) or:\n\n### Manual\n\n1. Download and unzip the extension from the `release/` folder\n2. Open Chrome and navigate to `chrome://extensions/`\n3. Enable \"Developer mode\" in the top right\n4. Click \"Load unpacked\" and select the `/src` folder from unzipped\n\n## Setup\n\n1. Click the extension icon and select \"Open Settings\"\n2. Enter access token via OAuth authentication or manually (from [Pushbullet settings](https://www.pushbullet.com/#settings/account))\n3. Click retrieve button and start sending and receiving pushes!\n4. Customize settings on the options page as needed\n\n## Permissions\n\nThis extension requires the following permissions:\n- **Storage**: To save your options and push history locally\n- **Idle**: To maintain the connection to receive pushes in real time\n- **Notifications**: To display push notifications\n- **Context Menus**: To add right-click menu options for pushing content\n- **Active Tab**: To access current page's URL and title for context menu and keyboard shortcut actions\n- **Host Access**: To communicate with Pushbullet API servers\n- **Offscreen**: To play notification sound\n- **Identity**: To complete OAuth process\n\n## Privacy\n\nThis extension stores everything locally and does not transmit any information beyond Pushbullet's API.\n\n## License\n\nThis project uses the [AGPL-3.0 license](https://github.com/nemofq/pushbullet-go?tab=AGPL-3.0-1-ov-file). If you have any feature requests or feedback, feel free to create an issue or pull request.\n\n## One More Thing",
+    "ContentSha": "O2Uon32lpkRzmdJ7N4yNbrR3wipk9pzQRGUtHnB349k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Recommandé\n\nInstallez directement depuis le [Chrome Web Store](https://chromewebstore.google.com/detail/push-go/dghndapbehjdbhiffbckojkhoennbofg) ou :\n\n### Manuel\n\n1. Téléchargez et décompressez l’extension depuis le dossier `release/`\n2. Ouvrez Chrome et naviguez vers `chrome://extensions/`\n3. Activez le \"Mode développeur\" en haut à droite\n4. Cliquez sur \"Charger l’extension non empaquetée\" et sélectionnez le dossier `/src` décompressé\n\n## Configuration\n\n1. Cliquez sur l’icône de l’extension et sélectionnez \"Ouvrir les paramètres\"\n2. Entrez le token d’accès via authentification OAuth ou manuellement (depuis [les paramètres Pushbullet](https://www.pushbullet.com/#settings/account))\n3. Cliquez sur le bouton récupérer et commencez à envoyer et recevoir des notifications push !\n4. Personnalisez les paramètres sur la page des options selon vos besoins\n\n## Autorisations\n\nCette extension requiert les autorisations suivantes :\n- **Stockage** : Pour sauvegarder vos options et l’historique des notifications localement\n- **Inactivité** : Pour maintenir la connexion afin de recevoir les notifications en temps réel\n- **Notifications** : Pour afficher les notifications push\n- **Menus contextuels** : Pour ajouter des options dans le menu clic droit pour envoyer du contenu\n- **Onglet actif** : Pour accéder à l’URL et au titre de la page actuelle pour les actions du menu contextuel et des raccourcis clavier\n- **Accès hôte** : Pour communiquer avec les serveurs de l’API Pushbullet\n- **Hors écran** : Pour jouer le son des notifications\n- **Identité** : Pour compléter le processus OAuth\n\n## Confidentialité\n\nCette extension stocke toutes les données localement et ne transmet aucune information en dehors de l’API de Pushbullet.\n\n## Licence\n\nCe projet utilise la [licence AGPL-3.0](https://github.com/nemofq/pushbullet-go?tab=AGPL-3.0-1-ov-file). Si vous avez des demandes de fonctionnalités ou des retours, n’hésitez pas à créer une issue ou une pull request.\n\n## Une dernière chose",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "/YQUZGWmuZDE+/KU8b4vjx0z47orz+8sfDTy3P5sBgA=",
+        "originContent": "### Recommended",
+        "translatedContent": "### Recommandé"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "gQrm8/swiL9dIVVMOwHEqrphX5LUoZolohfkOhD6AkU=",
+        "originContent": "Install directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/push-go/dghndapbehjdbhiffbckojkhoennbofg) or:",
+        "translatedContent": "Installez directement depuis le [Chrome Web Store](https://chromewebstore.google.com/detail/push-go/dghndapbehjdbhiffbckojkhoennbofg) ou :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "9OG0gmh7hn/goGKXiq1OEJ97bhWCg/x49US2cADdZYc=",
+        "originContent": "### Manual",
+        "translatedContent": "### Manuel"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "O2MqNJciaELjzETF6PFbpVfMCaRqzyqqyc3RAKBrKAk=",
+        "originContent": "1. Download and unzip the extension from the `release/` folder",
+        "translatedContent": "1. Téléchargez et décompressez l’extension depuis le dossier `release/`"
+      },
+      {
+        "row": 9,
+        "rowsha": "dsEWCunZ9eULz/HL5crXe1eL82d0oN+lKkeyhaLvcao=",
+        "originContent": "2. Open Chrome and navigate to `chrome://extensions/`",
+        "translatedContent": "2. Ouvrez Chrome et naviguez vers `chrome://extensions/`"
+      },
+      {
+        "row": 10,
+        "rowsha": "l/ha738/EWJw151r5umjdVvclnyWmtdbR/iBaQrp11Q=",
+        "originContent": "3. Enable \"Developer mode\" in the top right",
+        "translatedContent": "3. Activez le \"Mode développeur\" en haut à droite"
+      },
+      {
+        "row": 11,
+        "rowsha": "nLCU9S4STwFC1NbpNSXqNPLLem2Vx9hg2xT7xk1nUbc=",
+        "originContent": "4. Click \"Load unpacked\" and select the `/src` folder from unzipped",
+        "translatedContent": "4. Cliquez sur \"Charger l’extension non empaquetée\" et sélectionnez le dossier `/src` décompressé"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Ds3fFeGv+F9zmeD9NiuYVtgEo+Zt1l5BtUfCVfyG2ME=",
+        "originContent": "## Setup",
+        "translatedContent": "## Configuration"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "OEk6bS38toohwj4mCTxvJrjs1vwTT2kkSj/s9DgoZu8=",
+        "originContent": "1. Click the extension icon and select \"Open Settings\"",
+        "translatedContent": "1. Cliquez sur l’icône de l’extension et sélectionnez \"Ouvrir les paramètres\""
+      },
+      {
+        "row": 16,
+        "rowsha": "y/n6S4w7Tkcq0Wfulj7vPT8Yc2Qgkm3ZMwU5Qkr+50I=",
+        "originContent": "2. Enter access token via OAuth authentication or manually (from [Pushbullet settings](https://www.pushbullet.com/#settings/account))",
+        "translatedContent": "2. Entrez le token d’accès via authentification OAuth ou manuellement (depuis [les paramètres Pushbullet](https://www.pushbullet.com/#settings/account))"
+      },
+      {
+        "row": 17,
+        "rowsha": "NfdoAVVqzFGXktw40Cls+dCGxVXQS7MIFtULERKeDhk=",
+        "originContent": "3. Click retrieve button and start sending and receiving pushes!",
+        "translatedContent": "3. Cliquez sur le bouton récupérer et commencez à envoyer et recevoir des notifications push !"
+      },
+      {
+        "row": 18,
+        "rowsha": "0sLikQQGf9ppav1u43Py0zQ4LEuwTiZ/3GcaEi7R5Vc=",
+        "originContent": "4. Customize settings on the options page as needed",
+        "translatedContent": "4. Personnalisez les paramètres sur la page des options selon vos besoins"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "pkb0aA3qFXj8Un+oWucSi33Aga9CvIY5BKZAd4ofCik=",
+        "originContent": "## Permissions",
+        "translatedContent": "## Autorisations"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "sDFnd6DlEsrWMx/BYsVdvofu7AkY7PUQ9xgbdAQsPCE=",
+        "originContent": "This extension requires the following permissions:",
+        "translatedContent": "Cette extension requiert les autorisations suivantes :"
+      },
+      {
+        "row": 23,
+        "rowsha": "WHS3CXFK336jRCZT78xzzSefie3kjWGznfUPzYiDqzw=",
+        "originContent": "- **Storage**: To save your options and push history locally",
+        "translatedContent": "- **Stockage** : Pour sauvegarder vos options et l’historique des notifications localement"
+      },
+      {
+        "row": 24,
+        "rowsha": "P0qXL4dEXUEntiaX3dlKoTkg7V0SRa+CjsewSYar3Wg=",
+        "originContent": "- **Idle**: To maintain the connection to receive pushes in real time",
+        "translatedContent": "- **Inactivité** : Pour maintenir la connexion afin de recevoir les notifications en temps réel"
+      },
+      {
+        "row": 25,
+        "rowsha": "cZi4QSGy48+71li4ECrObv5IVaPbw4QswVFB6641j88=",
+        "originContent": "- **Notifications**: To display push notifications",
+        "translatedContent": "- **Notifications** : Pour afficher les notifications push"
+      },
+      {
+        "row": 26,
+        "rowsha": "qF+HNx6/rM/4T0rn/5/0M/788FLxGmTcbqfGcYrv5Ds=",
+        "originContent": "- **Context Menus**: To add right-click menu options for pushing content",
+        "translatedContent": "- **Menus contextuels** : Pour ajouter des options dans le menu clic droit pour envoyer du contenu"
+      },
+      {
+        "row": 27,
+        "rowsha": "9zfmxy4PPY1QRlYyJqxDkFrl/7mrwwSh9UqxcUgGjbY=",
+        "originContent": "- **Active Tab**: To access current page's URL and title for context menu and keyboard shortcut actions",
+        "translatedContent": "- **Onglet actif** : Pour accéder à l’URL et au titre de la page actuelle pour les actions du menu contextuel et des raccourcis clavier"
+      },
+      {
+        "row": 28,
+        "rowsha": "7SPXZ+01LJISGDlPir1ZgHChZnda6Xrsa2kV7AK+sKo=",
+        "originContent": "- **Host Access**: To communicate with Pushbullet API servers",
+        "translatedContent": "- **Accès hôte** : Pour communiquer avec les serveurs de l’API Pushbullet"
+      },
+      {
+        "row": 29,
+        "rowsha": "m40Ft3LU9qjLomNi20tMErwn782tbjmCQbfRRZwVyIE=",
+        "originContent": "- **Offscreen**: To play notification sound",
+        "translatedContent": "- **Hors écran** : Pour jouer le son des notifications"
+      },
+      {
+        "row": 30,
+        "rowsha": "K0PSaTILsCRGBQ5lKpjRsd3XM9b/wA6RBm/rz7iL6bo=",
+        "originContent": "- **Identity**: To complete OAuth process",
+        "translatedContent": "- **Identité** : Pour compléter le processus OAuth"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "5CXxgd9sBe1fOQ1/F5SqqJHQp4uKbD07gsJwweuoKSk=",
+        "originContent": "## Privacy",
+        "translatedContent": "## Confidentialité"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "k70Qn3wj4FbrRTfiG0hE4xvF6vkUJ+g9pb5DgLFaBVU=",
+        "originContent": "This extension stores everything locally and does not transmit any information beyond Pushbullet's API.",
+        "translatedContent": "Cette extension stocke toutes les données localement et ne transmet aucune information en dehors de l’API de Pushbullet."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licence"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "Zig8V0RSUN+MX7CKdSPVYHKYhw7KRDinyvxOu6fwYG4=",
+        "originContent": "This project uses the [AGPL-3.0 license](https://github.com/nemofq/pushbullet-go?tab=AGPL-3.0-1-ov-file). If you have any feature requests or feedback, feel free to create an issue or pull request.",
+        "translatedContent": "Ce projet utilise la [licence AGPL-3.0](https://github.com/nemofq/pushbullet-go?tab=AGPL-3.0-1-ov-file). Si vous avez des demandes de fonctionnalités ou des retours, n’hésitez pas à créer une issue ou une pull request."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "vvcFCZTOnrgb2eXSgEcH1GV4aSTJmU8khrNi4ppe1R0=",
+        "originContent": "## One More Thing",
+        "translatedContent": "## Une dernière chose"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\nIf you're also an iOS+Pushbullet user, you may find these Shortcuts useful:\n\n- [Push to Pushbullet](https://www.icloud.com/shortcuts/5549bbb5b06e4f0a8ccb1b6fd33e853f)\n- [Pushbullet Receiver](https://www.icloud.com/shortcuts/1f94913de21b41debe60ef43631afde2)\n",
+    "ContentSha": "RwHZFT12xYhnuPkvSjC8puFPtXOA0vIoxUIRU4RnlJQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSi vous êtes également un utilisateur iOS+Pushbullet, vous pourriez trouver ces Raccourcis utiles :\n\n- [Envoyer vers Pushbullet](https://www.icloud.com/shortcuts/5549bbb5b06e4f0a8ccb1b6fd33e853f)\n- [Récepteur Pushbullet](https://www.icloud.com/shortcuts/1f94913de21b41debe60ef43631afde2)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "JfvbYYLADgnM5MZ3WiWZ6HsqA13BKEuD+gFx4m+umYo=",
+        "originContent": "If you're also an iOS+Pushbullet user, you may find these Shortcuts useful:",
+        "translatedContent": "Si vous êtes également un utilisateur iOS+Pushbullet, vous pourriez trouver ces Raccourcis utiles :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Xzp6AuyPzos5wjgn8PHn5k7nZtUzdA6Yj+4wkTWvbw4=",
+        "originContent": "- [Push to Pushbullet](https://www.icloud.com/shortcuts/5549bbb5b06e4f0a8ccb1b6fd33e853f)",
+        "translatedContent": "- [Envoyer vers Pushbullet](https://www.icloud.com/shortcuts/5549bbb5b06e4f0a8ccb1b6fd33e853f)"
+      },
+      {
+        "row": 5,
+        "rowsha": "Yc8r4JpNXC2ntzltjwa28NByNjOARPy/S5krTywFvPo=",
+        "originContent": "- [Pushbullet Receiver](https://www.icloud.com/shortcuts/1f94913de21b41debe60ef43631afde2)",
+        "translatedContent": "- [Récepteur Pushbullet](https://www.icloud.com/shortcuts/1f94913de21b41debe60ef43631afde2)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

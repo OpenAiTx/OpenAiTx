@@ -1,11 +1,43 @@
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=TwooSix&project=Alist-MikananiRss&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <h1 align="center">
   Alist-MikananiRss
 </h1>
 <p align="center">
-  从<a href="https://mikanani.me/">蜜柑计划</a>或其他动漫番剧相关的RSS订阅源中自动获取番剧更新并通过Alist离线下载至对应网盘
+  自动从<a href="https://mikanani.me/">蜜柑计划</a>或其他动漫番剧相关的RSS订阅源获取番剧更新，并通过Alist离线下载到对应网盘
 </p>  
 <p align="center">
-  并结合使用ChatGPT分析资源名，将资源重命名为Emby可解析的格式。
+  并结合使用ChatGPT分析资源名称，将资源重命名为Emby可识别的格式。
+</p>
 </p>  
 
 --- 
@@ -13,22 +45,22 @@
 [使用文档](https://github.com/TwooSix/Alist-MikananiRss/wiki/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)
 ## 功能
 - 自动获取番剧更新并下载至对应网盘
-- 通过PushPlus, Telegram等渠道发送更新通知
-- 自动重命名为emby可识别格式，同时支持对自动解析的结果进行自定义重映射，让重命名结果更准确
+- 通过PushPlus、Telegram等渠道发送更新通知
+- 自动重命名为emby可识别格式，同时支持对自动解析的结果进行自定义重映射，使重命名结果更准确
 
 ## 准备工作 
-1. 请自行参照[Alist](https://github.com/alist-org/alist)项目文档部署Alist（版本须>=3.42.0），并搭建好Aria2/qBittorrent离线下载
-2. 自行注册蜜柑计划账户，订阅番剧，获取订阅链接
+1. 请根据[Alist](https://github.com/alist-org/alist)项目文档自行部署Alist（版本需>=3.42.0），并搭建好Aria2/qBittorrent离线下载
+2. 自行注册蜜柑计划账号，订阅番剧，获取订阅链接
 
-附：对其余RSS订阅源也作了一定适配，理论上支持绝大多数订阅源(番剧相关)，对于未能支持的RSS，也欢迎上交issue
+附：对其余RSS订阅源也进行了适配，理论上支持绝大多数订阅源（番剧相关），对于未能支持的RSS，也欢迎提交issue
 
 ## 如何使用
-Docker，源码运行等更多的运行方法详见[使用文档](https://github.com/TwooSix/Alist-MikananiRss/wiki/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B) 
+关于Docker、源码运行等更多运行方法详见[使用文档](https://github.com/TwooSix/Alist-MikananiRss/wiki/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B) 
 
 使用pip安装运行
-1. 请确保你的python版本在3.11以上
-2. 使用pip安装: `pip install alist-mikananirss`
-3. 在目录下新建一个`config.yaml`配置文件，并填写配置文件如下(完整功能示例详解见[配置说明](https://github.com/TwooSix/Alist-MikananiRss/wiki/%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E))
+1. 请确保你的python版本为3.11及以上
+2. 使用pip安装：`pip install alist-mikananirss`
+3. 在目录下新建一个`config.yaml`配置文件，并填写如下配置（完整功能示例详解见[配置说明](https://github.com/TwooSix/Alist-MikananiRss/wiki/%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E))
    ```yaml
    common:
      interval_time: 300
@@ -59,6 +91,6 @@ Docker，源码运行等更多的运行方法详见[使用文档](https://github
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-22
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-23
 
 ---
