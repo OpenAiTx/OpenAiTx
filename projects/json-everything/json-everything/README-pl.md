@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Język</summary>
@@ -36,18 +37,18 @@
 
 ## Czym jest `json-everything`?
 
-Główna filozofia stojąca za `json-everything` polega na zapewnieniu, aby powszechne funkcje JSON miały dobre wsparcie w przestrzeni _System.Text.Json_.
+Główną filozofią stojącą za `json-everything` jest zapewnienie, że podstawowe funkcje JSON mają dobre wsparcie w przestrzeni _System.Text.Json_.
 
-Pierwszym krokiem do tego jest sprawdzenie, czy istnieją inne projekty wspierające daną funkcjonalność.
+Pierwszym krokiem jest sprawdzenie, czy istnieją inne projekty, które obsługują daną funkcję.
 
-Jeśli tak, to wysiłek ten prawdopodobnie nie zostanie tu powielony. Nieco niżej znajdziesz listę innych projektów, które robią ciekawe rzeczy z JSON-em.
+Jeśli tak, to prawdopodobnie ten wysiłek nie będzie tutaj powielany. Nieco niżej znajdziesz listę innych projektów, które robią ciekawe rzeczy z JSON.
 
-W przeciwnym razie, możliwe jest rozważenie dodania tej funkcji do tego projektu.
+W przeciwnym razie jest to otwarte do rozważenia w tym projekcie.
 
 <table>
 <thead>
 <tr>
-<th width="207">Playground</th>
+<th width="207">Plac zabaw</th>
 <th width="207">Dokumentacja</th>
 <th width="207">Blog</th>
 <th width="207">Nauka interaktywna</th>
@@ -58,7 +59,7 @@ W przeciwnym razie, możliwe jest rozważenie dodania tej funkcji do tego projek
 <td align="center"><a href="https://json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp" alt="Wypróbuj online" title="Wypróbuj online" height="50"><br>json-everything.net</a></td>
 <td align="center"><a href="https://docs.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png" alt="Dokumentacja" title="Dokumentacja" height="50"><br>docs.json-everything.net</a></td>
 <td align="center"><a href="https://blog.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png" alt="Blog" title="Blog" height="50"><br>blog.json-everything.net</a></td>
-<td align="center"><a href="https://learn.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png" alt="Nauka" title="Nauka" height="50"><br>learn.json-everything.net</a></td>
+<td align="center"><a href="https://learn.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png" alt="Ucz się" title="Ucz się" height="50"><br>learn.json-everything.net</a></td>
 </tr>
 </tbody>
 </table>
@@ -73,16 +74,16 @@ W przeciwnym razie, możliwe jest rozważenie dodania tej funkcji do tego projek
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-4klcm69x-_MA8Z2ZSZ4JNu_d3lQOVPg"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
+<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
 <td align="center"><a href="https://stackoverflow.com/questions/tagged/json-everything"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png" alt="StackOverflow" title="StackOverflow" height="50"></a></td>
 <td align="center"><a href="http://www.jetbrains.com/resharper"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg" alt="Stworzone z Jetbrains Resharper" title="Stworzone z Jetbrains Resharper" height="50"></a></td>
 </tr>
 </tbody>
 </table>
 
-## Co znajduje się w paczce?
+## Co znajduje się w pudełku?
 
-Tak naprawdę jest wiele paczek. Każda funkcjonalność została wydzielona do osobnej biblioteki, dzięki czemu możesz wybrać tę (lub te), których potrzebujesz.
+W rzeczywistości jest kilka pudełek. Każda funkcjonalność została rozdzielona na osobną bibliotekę, dzięki czemu możesz wybrać te, których potrzebujesz.
 
 Wszystkie biblioteki są kompilowane dla .Net Standard 2.0 oraz .Net 8.
 
@@ -90,7 +91,7 @@ Wszystkie biblioteki są kompilowane dla .Net Standard 2.0 oraz .Net 8.
 <tbody>
 <tr>
 <td>JsonSchema.Net<br><a href="https://www.nuget.org/packages/JsonSchema.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true"></img></a></td>
-<td><a href="https://json-schema.org">JSON Schema</a>, drafty 6 i nowsze</td>
+<td><a href="https://json-schema.org">JSON Schema</a>, wersje od draft 6 wzwyż</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Generation<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true"></img></a></td>
@@ -102,19 +103,19 @@ Wszystkie biblioteki są kompilowane dla .Net Standard 2.0 oraz .Net 8.
 </tr>
 <tr>
 <td>JsonSchema.Net.DataGeneration<br><a href="https://www.nuget.org/packages/JsonSchema.Net.DataGeneration/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.DataGeneration.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.DataGeneration.svg?svg=true"></img></a></td>
-<td>Losowe generowanie danych instancji (napędzane przez <a href="https://github.com/bchavez/Bogus">Bogus</a>)</td>
+<td>Generowanie losowych danych instancji (z wykorzystaniem <a href="https://github.com/bchavez/Bogus">Bogus</a>)</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Data<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Data/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true"></img></a></td>
-<td>Słownik do uzyskiwania dostępu do danych instancji i zewnętrznych</td>
+<td>Słownictwo do uzyskiwania dostępu do danych instancji i zewnętrznych</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.ArrayExt<br><a href="https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true"></img></a></td>
-<td>Słownik rozszerzający walidację tablic</td>
+<td>Słownictwo do rozszerzania walidacji tablic</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.OpenApi<br><a href="https://www.nuget.org/packages/JsonSchema.Net.OpenApi/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true"></img></a></td>
-<td>Rozszerzenie słownika <a href="https://www.openapis.org/">OpenApi 3.1</a> (używane przez <a href="https://github.com/gregsdennis/Graeae">Graeae</a>)</td>
+<td>Rozszerzenie słownictwa <a href="https://www.openapis.org/">OpenApi 3.1</a> (wykorzystywane przez <a href="https://github.com/gregsdennis/Graeae">Graeae</a>)</td>
 </tr>
 <tr>
 <td>JsonPath.Net<br><a href="https://www.nuget.org/packages/JsonPath.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonPath.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonPath.Net.svg?svg=true"></img></a></td>
@@ -138,7 +139,7 @@ Wszystkie biblioteki są kompilowane dla .Net Standard 2.0 oraz .Net 8.
 </tr>
 <tr>
 <td>Json.More.Net<br><a href="https://www.nuget.org/packages/Json.More.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true"></img></a></td>
-<td>Rozszerzenia ogólnego przeznaczenia, które prawdopodobnie powinny były zostać uwzględnione w <em>System.Text.Json[.Nodes]</em>, ale nie zostały</td>
+<td>Rozszerzenia ogólnego zastosowania, które prawdopodobnie powinny były znaleźć się w <em>System.Text.Json[.Nodes]</em>, ale nie zostały uwzględnione</td>
 </tr>
 <tr>
 <td>Yaml2JsonNode<br><a href="https://www.nuget.org/packages/Yaml2JsonNode/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true"></img></a></td>
@@ -147,23 +148,23 @@ Wszystkie biblioteki są kompilowane dla .Net Standard 2.0 oraz .Net 8.
 </tbody>
 </table>
 
-Wszystkie powyższe biblioteki oferują pełne wsparcie dla powiązanych z nimi specyfikacji.
+Wszystkie powyższe biblioteki oferują pełną obsługę związanych z nimi specyfikacji.
 
 Tłumaczenia komunikatów błędów dla _JsonSchema.Net_ dostępne w:
 
-- włoskim `it`
-- norweskim `nb-NO`
-- polskim `pl-PL`
-- rosyjskim `ru`
-- hiszpańskim `es`
-- szwedzkim `sv-SE`
-- tureckim `tr-TR`
+- Włoski `it`
+- Norweski `nb-NO`
+- Polski `pl-PL`
+- Rosyjski `ru`
+- Hiszpański `es`
+- Szwedzki `sv-SE`
+- Turecki `tr-TR`
 
 ***UWAGA** Każdy pakiet językowy jest dostarczany jako osobny pakiet Nuget.*
 
-Możesz także przeglądać wyniki JSON Schema Test Suite na [Bowtie](https://bowtie-json-schema.github.io/bowtie), który uruchamia zestaw testów na wielu implementacjach na różnych platformach.
+Możesz również zobaczyć wyniki Test Suite JSON Schema na [Bowtie](https://bowtie-json-schema.github.io/bowtie), który uruchamia zestaw testów na wielu implementacjach na różnych platformach.
 
-***ZASTRZEŻENIE** Moja biblioteka, _JsonSchema.Net_, nie jest powiązana ani stowarzyszona ze stroną https://jsonschema.net, poza tym, że obie są doskonałymi narzędziami do pracy z JSON Schema.*
+***ZASTRZEŻENIE** Moja biblioteka, _JsonSchema.Net_, nie jest powiązana ani związana ze stroną https://jsonschema.net, poza tym, że obie są doskonałymi narzędziami do pracy z JSON Schema.*
 
 ### Przestarzałe pakiety
 
@@ -173,8 +174,8 @@ Te pakiety również były częścią tego zestawu, ale nie są już wspierane.
 <tbody>
 <tr>
 <td>JsonSchema.Net.CodeGeneration<br><a href="https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true"></img></a></td>
-<td>Generowanie kodu C# na podstawie schematów</td>
-<td>Wycofany na rzecz <a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a></td>
+<td>Generowanie kodu C# z schematów</td>
+<td>Przestarzały na rzecz <a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a></td>
 </tr>
 </tbody>
 </table>
@@ -182,7 +183,7 @@ Te pakiety również były częścią tego zestawu, ale nie są już wspierane.
 
 ## Wsparcie _System.Text.Json_ przez inne projekty
 
-Jeśli nie znalazłeś tutaj tego, czego szukasz, spróbuj jednego z poniższych doskonałych projektów:
+Jeśli nie znajdziesz tu tego, czego szukasz, spróbuj jednego z tych doskonałych projektów:
 
 - [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) autorstwa [@danielaparker](https://github.com/danielaparker)
   - JSON Pointer
@@ -194,23 +195,25 @@ Jeśli nie znalazłeś tutaj tego, czego szukasz, spróbuj jednego z poniższych
   - Walidacja JSON Schema z naciskiem na generowanie kodu C#
 - (więcej wkrótce)
 
-Jeśli używasz JSON-a do czegoś, czego nie obejmuje żadna biblioteka z tego zestawu ani z powyższych projektów, możesz śmiało [utworzyć zgłoszenie funkcjonalności](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).
+Jeśli używasz JSON-a do czegoś, czego nie obejmuje żadna biblioteka z tego zestawu ani powyższych projektów, śmiało [zgłoś propozycję funkcji](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).
 
-Jeśli utrzymujesz lub znasz inny projekt, który rozszerza _System.Text.Json_ o ciekawe możliwości, chętnie go tutaj wymienię — proszę [utworzyć ogólne zgłoszenie](https://github.com/json-everything/json-everything/issues/new), aby mnie o nim poinformować.
-## Współtworzenie
+Jeśli utrzymujesz lub znasz inny projekt rozszerzający _System.Text.Json_ o ciekawe funkcje, chętnie go tu wymienię, więc proszę [zgłoś ogólne zgłoszenie](https://github.com/json-everything/json-everything/issues/new), aby mnie o tym poinformować.
+
+## Współpraca
 
 Prosimy zapoznać się z [Kodeksem Postępowania](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) oraz plikiem [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) po więcej informacji.
 
 ## Sponsorowanie
 
-Jeśli te biblioteki okazały się pomocne i chciałbyś wesprzeć dalszy rozwój, rozważ [wsparcie sponsorów](https://github.com/sponsors/gregsdennis).
+Jeśli uznałeś te biblioteki za pomocne i chciałbyś wesprzeć ich dalszy rozwój, rozważ [wsparcie sponsorujące opiekunów](https://github.com/sponsors/gregsdennis).
 
-## .NET Foundation
+## Fundacja .NET
 
-Projekt ten jest wspierany przez [.NET Foundation](https://dotnetfoundation.org).
+Ten projekt jest wspierany przez [.NET Foundation](https://dotnetfoundation.org).
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
 
 ---

@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Bahasa</summary>
@@ -30,19 +31,18 @@
 
 [![Build & Test](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml/badge.svg?branch=master&event=push)](https://github.com/json-everything/json-everything/actions/workflows/dotnet-core.yml)
 [![Test results](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/gregsdennis/28607f2d276032f4d9a7f2c807e44df7/raw/test-results-badge.json)](https://github.com/json-everything/json-everything/actions?query=workflow%3A%22Build+%26+Test%22)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues "Percentage of issues still open")
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues "Average time to resolve an issue")
-[![License](https://img.shields.io/github/license/json-everything/json-everything)](https://github.com/json-everything/json-everything/blob/master/LICENSE)
+[![Persentase isu yang masih terbuka](http://isitmaintained.com/badge/open/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues "Persentase isu yang masih terbuka")
+[![Rata-rata waktu penyelesaian isu](http://isitmaintained.com/badge/resolution/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues "Rata-rata waktu penyelesaian isu")
+[![Lisensi](https://img.shields.io/github/license/json-everything/json-everything)](https://github.com/json-everything/json-everything/blob/master/LICENSE)
 
 ## Apa itu `json-everything`?
 
 Filosofi utama di balik `json-everything` adalah memastikan bahwa fungsionalitas JSON umum memiliki dukungan yang baik di ruang _System.Text.Json_.
+Langkah pertama adalah memeriksa apakah ada proyek lain yang mendukung suatu fungsi tertentu.
 
-Langkah pertama untuk itu adalah memeriksa apakah ada proyek lain yang mendukung fungsi tertentu.
+Jika ada, upaya tersebut kemungkinan tidak akan diduplikasi di sini. Sedikit lebih jauh ke bawah, Anda akan menemukan daftar proyek lain yang melakukan hal-hal menarik dengan JSON.
 
-Jika ada, kemungkinan upaya tersebut tidak akan diduplikasi di sini. Sedikit lebih jauh di bawah Anda akan menemukan daftar proyek lain yang melakukan beberapa hal keren dengan JSON.
-
-Jika tidak ada, maka terbuka untuk dipertimbangkan dalam proyek ini.
+Jika tidak, hal tersebut terbuka untuk dipertimbangkan dalam proyek ini.
 
 <table>
 <thead>
@@ -55,10 +55,10 @@ Jika tidak ada, maka terbuka untuk dipertimbangkan dalam proyek ini.
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="https://json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp" alt="Try it online" title="Try it online" height="50"><br>json-everything.net</a></td>
-<td align="center"><a href="https://docs.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png" alt="Documentation" title="Documentation" height="50"><br>docs.json-everything.net</a></td>
+<td align="center"><a href="https://json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp" alt="Coba online" title="Coba online" height="50"><br>json-everything.net</a></td>
+<td align="center"><a href="https://docs.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png" alt="Dokumentasi" title="Dokumentasi" height="50"><br>docs.json-everything.net</a></td>
 <td align="center"><a href="https://blog.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png" alt="Blog" title="Blog" height="50"><br>blog.json-everything.net</a></td>
-<td align="center"><a href="https://learn.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png" alt="Learn" title="Learn" height="50"><br>learn.json-everything.net</a></td>
+<td align="center"><a href="https://learn.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png" alt="Belajar" title="Belajar" height="50"><br>learn.json-everything.net</a></td>
 </tr>
 </tbody>
 </table>
@@ -73,16 +73,17 @@ Jika tidak ada, maka terbuka untuk dipertimbangkan dalam proyek ini.
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-4klcm69x-_MA8Z2ZSZ4JNu_d3lQOVPg"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
+<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
 <td align="center"><a href="https://stackoverflow.com/questions/tagged/json-everything"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png" alt="StackOverflow" title="StackOverflow" height="50"></a></td>
-<td align="center"><a href="http://www.jetbrains.com/resharper"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg" alt="Made with Jetbrains Resharper" title="Made with Jetbrains Resharper" height="50"></a></td>
+<td align="center"><a href="http://www.jetbrains.com/resharper"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg" alt="Dibuat dengan Jetbrains Resharper" title="Dibuat dengan Jetbrains Resharper" height="50"></a></td>
 </tr>
+
 </tbody>
 </table>
 
-## Apa saja yang ada di dalamnya?
+## Apa saja isi kotak?
 
-Sebenarnya ada beberapa kotak.  Setiap bagian fungsionalitas telah dipisahkan ke dalam pustaka tersendiri, sehingga Anda dapat memilih satu atau beberapa yang Anda butuhkan.
+Sebenarnya ada beberapa kotak. Setiap fitur telah dipisahkan ke dalam pustaka tersendiri, sehingga Anda dapat memilih yang Anda butuhkan.
 
 Semua pustaka dibangun untuk .Net Standard 2.0 dan .Net 8.
 
@@ -90,11 +91,11 @@ Semua pustaka dibangun untuk .Net Standard 2.0 dan .Net 8.
 <tbody>
 <tr>
 <td>JsonSchema.Net<br><a href="https://www.nuget.org/packages/JsonSchema.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true"></img></a></td>
-<td><a href="https://json-schema.org">JSON Schema</a>, draft 6 dan lebih tinggi</td>
+<td><a href="https://json-schema.org">JSON Schema</a>, draft 6 ke atas</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Generation<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true"></img></a></td>
-<td>Pembuatan skema dari tipe .Net</td>
+<td>Generasi skema dari tipe .Net</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Generation.DataAnnotations<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img></a></td>
@@ -106,11 +107,11 @@ Semua pustaka dibangun untuk .Net Standard 2.0 dan .Net 8.
 </tr>
 <tr>
 <td>JsonSchema.Net.Data<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Data/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true"></img></a></td>
-<td>Sebuah kosakata untuk mengakses data instance dan eksternal</td>
+<td>Kosakata untuk mengakses data instance dan eksternal</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.ArrayExt<br><a href="https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true"></img></a></td>
-<td>Sebuah kosakata untuk memperluas validasi array</td>
+<td>Kosakata untuk memperluas validasi array</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.OpenApi<br><a href="https://www.nuget.org/packages/JsonSchema.Net.OpenApi/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true"></img></a></td>
@@ -130,15 +131,15 @@ Semua pustaka dibangun untuk .Net Standard 2.0 dan .Net 8.
 </tr>
 <tr>
 <td>JsonLogic<br><a href="https://www.nuget.org/packages/JsonLogic/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonLogic.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonLogic.svg?svg=true"></img></a></td>
-<td>JsonLogic (<a href="https://jsonlogic.com">Situs web</a>)</td>
+<td>JsonLogic (<a href="https://jsonlogic.com">Situs Web</a>)</td>
 </tr>
 <tr>
 <td>JsonE.Net<br><a href="https://www.nuget.org/packages/JsonE.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonE.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonE.Net.svg?svg=true"></img></a></td>
-<td>JSON-e (<a href="https://json-e.js.org/">Situs web</a>)</td>
+<td>JSON-e (<a href="https://json-e.js.org/">Situs Web</a>)</td>
 </tr>
 <tr>
 <td>Json.More.Net<br><a href="https://www.nuget.org/packages/Json.More.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true"></img></a></td>
-<td>Ekstensi penggunaan umum yang seharusnya sudah dimasukkan dalam <em>System.Text.Json[.Nodes]</em> tetapi belum</td>
+<td>Ekstensi penggunaan umum yang seharusnya sudah ada di <em>System.Text.Json[.Nodes]</em> tetapi belum tersedia</td>
 </tr>
 <tr>
 <td>Yaml2JsonNode<br><a href="https://www.nuget.org/packages/Yaml2JsonNode/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true"></img></a></td>
@@ -147,7 +148,7 @@ Semua pustaka dibangun untuk .Net Standard 2.0 dan .Net 8.
 </tbody>
 </table>
 
-Semua pustaka di atas menawarkan dukungan lengkap untuk spesifikasi yang terkait.
+Semua pustaka di atas menawarkan dukungan lengkap untuk spesifikasi terkait masing-masing.
 
 Terjemahan pesan error untuk _JsonSchema.Net_ tersedia dalam:
 
@@ -159,22 +160,22 @@ Terjemahan pesan error untuk _JsonSchema.Net_ tersedia dalam:
 - Swedia `sv-SE`
 - Turki `tr-TR`
 
-***CATATAN** Setiap paket bahasa disediakan melalui paket Nuget tersendiri.*
+***CATATAN** Setiap paket bahasa disediakan oleh paket Nuget masing-masing.*
 
 Anda juga dapat melihat hasil JSON Schema Test Suite di [Bowtie](https://bowtie-json-schema.github.io/bowtie), yang menjalankan test suite terhadap berbagai implementasi di berbagai platform.
 
-***DISCLAIMER** Pustaka saya, _JsonSchema.Net_, tidak berhubungan atau terkait dengan situs web https://jsonschema.net, kecuali keduanya adalah alat JSON Schema yang sangat baik.*
+***DISCLAIMER** Perpustakaan saya, _JsonSchema.Net_, tidak terkait atau berasosiasi dengan situs web https://jsonschema.net, kecuali bahwa keduanya merupakan alat JSON Schema yang sangat baik.*
 
-### Paket yang tidak lagi didukung
+### Paket yang sudah usang
 
-Paket-paket berikut juga pernah menjadi bagian dari suite ini tetapi sekarang sudah tidak didukung lagi.
+Paket-paket ini juga pernah menjadi bagian dari suite ini tetapi sekarang sudah tidak didukung lagi.
 
 <table>
 <tbody>
 <tr>
 <td>JsonSchema.Net.CodeGeneration<br><a href="https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true"></img></a></td>
-<td>Generasi kode C# dari skema</td>
-<td>Telah dihentikan dan disarankan beralih ke <a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a></td>
+<td>Generasi kode C# dari schema</td>
+<td>Sudah usang, digantikan oleh <a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a></td>
 </tr>
 </tbody>
 </table>
@@ -182,7 +183,7 @@ Paket-paket berikut juga pernah menjadi bagian dari suite ini tetapi sekarang su
 
 ## Dukungan _System.Text.Json_ oleh proyek lain
 
-Jika Anda tidak menemukan yang Anda cari di sini, silakan coba salah satu proyek berikut yang sangat baik:
+Jika Anda tidak menemukan yang Anda cari di sini, silakan coba salah satu proyek luar biasa berikut:
 
 - [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) oleh [@danielaparker](https://github.com/danielaparker)
   - JSON Pointer
@@ -191,26 +192,28 @@ Jika Anda tidak menemukan yang Anda cari di sini, silakan coba salah satu proyek
   - JSON Path
   - JMES Path
 - [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) oleh [@mwadams](https://github.com/mwadams)
-  - Validasi JSON Schema dengan fokus pada pembuatan kode C#
-- (akan bertambah)
+  - Validasi JSON Schema dengan fokus pada generasi kode C#
+- (akan bertambah lagi)
 
-Jika Anda menggunakan JSON untuk melakukan sesuatu yang belum tercakup oleh pustaka di suite ini atau salah satu proyek di atas, silakan [buat permintaan fitur](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).
+Jika Anda menggunakan JSON untuk melakukan sesuatu yang tidak tercakup oleh perpustakaan di suite ini atau salah satu proyek di atas, silakan [buat issue fitur](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).
 
-Jika Anda memelihara atau mengetahui proyek lain yang memperluas _System.Text.Json_ untuk melakukan hal-hal keren, saya ingin mencantumkannya di sini, jadi silakan [buat issue umum](https://github.com/json-everything/json-everything/issues/new) untuk memberi tahu saya tentang proyek tersebut.
-## Berkontribusi
+Jika Anda mengelola atau mengetahui proyek lain yang memperluas _System.Text.Json_ untuk melakukan hal-hal menarik, saya ingin mencantumkannya di sini, jadi silakan [buat issue umum](https://github.com/json-everything/json-everything/issues/new) untuk memberi tahu saya tentang hal itu.
 
-Silakan lihat [Kode Etik](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) dan berkas [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) untuk informasi lebih lanjut.
+## Kontribusi
+
+Silakan lihat [Kode Etik](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) dan file [KONTRIBUSI](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) untuk informasi lebih lanjut.
 
 ## Sponsorship
 
-Jika Anda merasa pustaka-pustaka ini bermanfaat dan ingin mendukung pengembangan lebih lanjut, silakan pertimbangkan untuk [mensponsori pengelola](https://github.com/sponsors/gregsdennis).
+Jika Anda merasa perpustakaan ini bermanfaat dan ingin mendukung pengembangan berkelanjutan, silakan pertimbangkan untuk [mendukung para pemelihara](https://github.com/sponsors/gregsdennis).
 
 ## .NET Foundation
 
 Proyek ini didukung oleh [.NET Foundation](https://dotnetfoundation.org).
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
 
 ---

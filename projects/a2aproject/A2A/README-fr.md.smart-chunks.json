@@ -1,0 +1,569 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Agent2Agent (A2A) Protocol\n\n[![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)\n[![Apache License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)\n<a href=\"https://codewiki.google/github.com/a2aproject/a2a\">\n  <img src=\"https://www.gstatic.com/_/boq-sdlc-agents-ui/_/r/Mvosg4klCA4.svg\" alt=\"Ask Code Wiki\" height=\"20\">\n</a>\n\n<!-- markdownlint-disable MD041 -->\n<div style=\"text-align: center;\">\n  <div class=\"centered-logo-text-group\">\n    <img src=\"https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg\" alt=\"Agent2Agent Protocol Logo\" width=\"100\">\n    <h1>Agent2Agent (A2A) Protocol</h1>\n  </div>\n</div>\n\n**An open protocol enabling communication and interoperability between opaque agentic applications.**\n\nThe Agent2Agent (A2A) protocol addresses a critical challenge in the AI landscape: enabling gen AI agents, built on diverse frameworks by different companies running on separate servers, to communicate and collaborate effectively - as agents, not just as tools. A2A aims to provide a common language for agents, fostering a more interconnected, powerful, and innovative AI ecosystem.\n\nWith A2A, agents can:\n\n- Discover each other's capabilities.\n- Negotiate interaction modalities (text, forms, media).\n- Securely collaborate on long running tasks.\n- Operate without exposing their internal state, memory, or tools.\n\n## Intro to A2A Video\n\n[![A2A Intro Video](https://img.youtube.com/vi/Fbr_Solax1w/hqdefault.jpg)](https://goo.gle/a2a-video)\n\n## Why A2A?\n\nAs AI agents become more prevalent, their ability to interoperate is crucial for building complex, multi-functional applications. A2A aims to:\n\n- **Break Down Silos:** Connect agents across different ecosystems.\n- **Enable Complex Collaboration:** Allow specialized agents to work together on tasks that a single agent cannot handle alone.\n- **Promote Open Standards:** Foster a community-driven approach to agent communication, encouraging innovation and broad adoption.\n- **Preserve Opacity:** Allow agents to collaborate without needing to share internal memory, proprietary logic, or specific tool implementations, enhancing security and protecting intellectual property.\n",
+    "ContentSha": "EXJd1mv9YCjZaEsSwluc1mOB9i3FU5FZB6qzn5lAq64=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Protocole Agent2Agent (A2A)\n\n[![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)\n[![Licence Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)\n<a href=\"https://codewiki.google/github.com/a2aproject/a2a\">\n  <img src=\"https://www.gstatic.com/_/boq-sdlc-agents-ui/_/r/Mvosg4klCA4.svg\" alt=\"Ask Code Wiki\" height=\"20\">\n</a>\n\n<!-- markdownlint-disable MD041 -->\n<div style=\"text-align: center;\">\n  <div class=\"centered-logo-text-group\">\n    <img src=\"https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg\" alt=\"Logo du protocole Agent2Agent\" width=\"100\">\n    <h1>Protocole Agent2Agent (A2A)</h1>\n  </div>\n</div>\n\n**Un protocole ouvert permettant la communication et l’interopérabilité entre des applications agentiques opaques.**\n\nLe protocole Agent2Agent (A2A) répond à un défi crucial dans le paysage de l’IA : permettre aux agents d’IA générative, construits sur des cadres divers par différentes entreprises et fonctionnant sur des serveurs séparés, de communiquer et collaborer efficacement – en tant qu’agents, pas seulement en tant qu’outils. A2A vise à fournir un langage commun aux agents, favorisant un écosystème d’IA plus interconnecté, puissant et innovant.\n\nAvec A2A, les agents peuvent :\n\n- Découvrir les capacités des autres.\n- Négocier les modalités d’interaction (texte, formulaires, médias).\n- Collaborer en toute sécurité sur des tâches de longue durée.\n- Opérer sans exposer leur état interne, leur mémoire ou leurs outils.\n\n## Vidéo d’introduction à A2A\n\n[![Vidéo d’intro A2A](https://img.youtube.com/vi/Fbr_Solax1w/hqdefault.jpg)](https://goo.gle/a2a-video)\n\n## Pourquoi A2A ?\n\nÀ mesure que les agents d’IA deviennent plus répandus, leur capacité à interopérer est cruciale pour créer des applications complexes et multifonctionnelles. A2A vise à :\n\n- **Briser les silos :** Connecter les agents à travers différents écosystèmes.\n- **Permettre une collaboration complexe :** Autoriser des agents spécialisés à travailler ensemble sur des tâches qu’un agent seul ne peut gérer.\n- **Promouvoir des standards ouverts :** Favoriser une approche communautaire de la communication entre agents, encourageant l’innovation et une large adoption.\n- **Préserver l’opacité :** Permettre aux agents de collaborer sans devoir partager leur mémoire interne, leur logique propriétaire ou des implémentations spécifiques d’outils, renforçant la sécurité et protégeant la propriété intellectuelle.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6kqif0yNnAJSmqkCQP63ppV4/N66RJFzNODjWLeMLs8=",
+        "originContent": "# Agent2Agent (A2A) Protocol",
+        "translatedContent": "# Protocole Agent2Agent (A2A)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "h7w6L/NwydBZ5cAUwlWHVA96WvlFGKBsPCdvmM8LBx0=",
+        "originContent": "[![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)",
+        "translatedContent": "[![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)"
+      },
+      {
+        "row": 4,
+        "rowsha": "xKFBfuVrgVBqC2TfmbrgT0/qe1aYvCVPLE+fqvcpwNc=",
+        "originContent": "[![Apache License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+        "translatedContent": "[![Licence Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+      },
+      {
+        "row": 5,
+        "rowsha": "QEv/W22gM/Y55IEd+Ek4dfhvwh29EM5NFbItXZ8x780=",
+        "originContent": "<a href=\"https://codewiki.google/github.com/a2aproject/a2a\">",
+        "translatedContent": "<a href=\"https://codewiki.google/github.com/a2aproject/a2a\">"
+      },
+      {
+        "row": 6,
+        "rowsha": "oxMGYHzULdlupun/5vsWCtPB6saIMCitwylABLiyDmQ=",
+        "originContent": "  <img src=\"https://www.gstatic.com/_/boq-sdlc-agents-ui/_/r/Mvosg4klCA4.svg\" alt=\"Ask Code Wiki\" height=\"20\">",
+        "translatedContent": "  <img src=\"https://www.gstatic.com/_/boq-sdlc-agents-ui/_/r/Mvosg4klCA4.svg\" alt=\"Ask Code Wiki\" height=\"20\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+        "originContent": "</a>",
+        "translatedContent": "</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "YvaDlAFXwJrnzW6PVZkB+n0DZ5wmYc0pM1pWEJqH8i4=",
+        "originContent": "<!-- markdownlint-disable MD041 -->",
+        "translatedContent": "<!-- markdownlint-disable MD041 -->"
+      },
+      {
+        "row": 10,
+        "rowsha": "t/9YqFRKlMdfy5GnNzxfzdqrRj7H98mAPFpU/AU8Cqk=",
+        "originContent": "<div style=\"text-align: center;\">",
+        "translatedContent": "<div style=\"text-align: center;\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "KTq7qCFV5eUGPP/1S0PA2IrdT0xPzD8wCrliTZFy++o=",
+        "originContent": "  <div class=\"centered-logo-text-group\">",
+        "translatedContent": "  <div class=\"centered-logo-text-group\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "g+wGMoFAfZY13O3/uwdBJCBu4jEY5yq7KS/3oJcslRM=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg\" alt=\"Agent2Agent Protocol Logo\" width=\"100\">",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg\" alt=\"Logo du protocole Agent2Agent\" width=\"100\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "bXrdM69l4iJ9SO/3a49nvyQoCpcjVZoOYUJyzez+6nI=",
+        "originContent": "    <h1>Agent2Agent (A2A) Protocol</h1>",
+        "translatedContent": "    <h1>Protocole Agent2Agent (A2A)</h1>"
+      },
+      {
+        "row": 14,
+        "rowsha": "TFeor9sDM2gZqn6BBqB9bb7gMaKqgk0Ph1pgaT3gpaM=",
+        "originContent": "  </div>",
+        "translatedContent": "  </div>"
+      },
+      {
+        "row": 15,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "gqU8Tgr73WxFI/+WU86moh+dw0zA2/yL4S0Gzr3m3YM=",
+        "originContent": "**An open protocol enabling communication and interoperability between opaque agentic applications.**",
+        "translatedContent": "**Un protocole ouvert permettant la communication et l’interopérabilité entre des applications agentiques opaques.**"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "0S302+GWbGdwqe8o809ryyNe4U8dsoxKr0ec8GwZVFY=",
+        "originContent": "The Agent2Agent (A2A) protocol addresses a critical challenge in the AI landscape: enabling gen AI agents, built on diverse frameworks by different companies running on separate servers, to communicate and collaborate effectively - as agents, not just as tools. A2A aims to provide a common language for agents, fostering a more interconnected, powerful, and innovative AI ecosystem.",
+        "translatedContent": "Le protocole Agent2Agent (A2A) répond à un défi crucial dans le paysage de l’IA : permettre aux agents d’IA générative, construits sur des cadres divers par différentes entreprises et fonctionnant sur des serveurs séparés, de communiquer et collaborer efficacement – en tant qu’agents, pas seulement en tant qu’outils. A2A vise à fournir un langage commun aux agents, favorisant un écosystème d’IA plus interconnecté, puissant et innovant."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "d79OKIEL21svHIv4soMnK/2hbqgRNmxd1eTLMa5n3Ek=",
+        "originContent": "With A2A, agents can:",
+        "translatedContent": "Avec A2A, les agents peuvent :"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "WyTwtztEILy0JDA4VihQZQ9QYLkA204XLC0B/iF1O2U=",
+        "originContent": "- Discover each other's capabilities.",
+        "translatedContent": "- Découvrir les capacités des autres."
+      },
+      {
+        "row": 24,
+        "rowsha": "uMItqYmcEpimy12TL6n3lstLdnrGgYVRUBk9LOZpfwo=",
+        "originContent": "- Negotiate interaction modalities (text, forms, media).",
+        "translatedContent": "- Négocier les modalités d’interaction (texte, formulaires, médias)."
+      },
+      {
+        "row": 25,
+        "rowsha": "wsqLQOIgh0+blQGirADXdLU4fD4Ln62ncTXcomfM5vI=",
+        "originContent": "- Securely collaborate on long running tasks.",
+        "translatedContent": "- Collaborer en toute sécurité sur des tâches de longue durée."
+      },
+      {
+        "row": 26,
+        "rowsha": "JfX9SHzlT0Bsx62PzrVFPCQ6rE+aHOeoxmFs+737jxQ=",
+        "originContent": "- Operate without exposing their internal state, memory, or tools.",
+        "translatedContent": "- Opérer sans exposer leur état interne, leur mémoire ou leurs outils."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "cUuyNHmqKJDty8jXaOeSUWR469Q/yKMIcvIkIx0pzL8=",
+        "originContent": "## Intro to A2A Video",
+        "translatedContent": "## Vidéo d’introduction à A2A"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "PXc0uGu2NNJX09NBr2xgxzLsCLim0AS5ZDKBnSw9M54=",
+        "originContent": "[![A2A Intro Video](https://img.youtube.com/vi/Fbr_Solax1w/hqdefault.jpg)](https://goo.gle/a2a-video)",
+        "translatedContent": "[![Vidéo d’intro A2A](https://img.youtube.com/vi/Fbr_Solax1w/hqdefault.jpg)](https://goo.gle/a2a-video)"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "+OO5sTYZBCOlVltSUkgXKVK4p497CzB62D5XUYggzV4=",
+        "originContent": "## Why A2A?",
+        "translatedContent": "## Pourquoi A2A ?"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "wptnIopEDGe+Rq0h/cqyVY7BngEwNIpsHX3VBD8W7Oc=",
+        "originContent": "As AI agents become more prevalent, their ability to interoperate is crucial for building complex, multi-functional applications. A2A aims to:",
+        "translatedContent": "À mesure que les agents d’IA deviennent plus répandus, leur capacité à interopérer est cruciale pour créer des applications complexes et multifonctionnelles. A2A vise à :"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "6+rVlFMCWZqh16tWhhm0ZBdp/rTFNz8t1YVdQCZoHHY=",
+        "originContent": "- **Break Down Silos:** Connect agents across different ecosystems.",
+        "translatedContent": "- **Briser les silos :** Connecter les agents à travers différents écosystèmes."
+      },
+      {
+        "row": 37,
+        "rowsha": "kdiUspMi+lmfqXRqCPzkGzLNqr4zRAicEyL/iQynUEg=",
+        "originContent": "- **Enable Complex Collaboration:** Allow specialized agents to work together on tasks that a single agent cannot handle alone.",
+        "translatedContent": "- **Permettre une collaboration complexe :** Autoriser des agents spécialisés à travailler ensemble sur des tâches qu’un agent seul ne peut gérer."
+      },
+      {
+        "row": 38,
+        "rowsha": "q1RDby3N4mepUXsJay8ADdM0j2t9NY2sw/au2YussQg=",
+        "originContent": "- **Promote Open Standards:** Foster a community-driven approach to agent communication, encouraging innovation and broad adoption.",
+        "translatedContent": "- **Promouvoir des standards ouverts :** Favoriser une approche communautaire de la communication entre agents, encourageant l’innovation et une large adoption."
+      },
+      {
+        "row": 39,
+        "rowsha": "ID9/SgkmAYEYzU7+R09aU5E1JUwUYtFWABbZOMOrf4g=",
+        "originContent": "- **Preserve Opacity:** Allow agents to collaborate without needing to share internal memory, proprietary logic, or specific tool implementations, enhancing security and protecting intellectual property.",
+        "translatedContent": "- **Préserver l’opacité :** Permettre aux agents de collaborer sans devoir partager leur mémoire interne, leur logique propriétaire ou des implémentations spécifiques d’outils, renforçant la sécurité et protégeant la propriété intellectuelle."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "### Key Features\n\n- **Standardized Communication:** JSON-RPC 2.0 over HTTP(S).\n- **Agent Discovery:** Via \"Agent Cards\" detailing capabilities and connection info.\n- **Flexible Interaction:** Supports synchronous request/response, streaming (SSE), and asynchronous push notifications.\n- **Rich Data Exchange:** Handles text, files, and structured JSON data.\n- **Enterprise-Ready:** Designed with security, authentication, and observability in mind.\n\n## Getting Started\n\n- 📚 **Explore the Documentation:** Visit the [Agent2Agent Protocol Documentation Site](https://a2a-protocol.org) for a complete overview, the full protocol specification, tutorials, and guides.\n- 📝 **View the Specification:** [A2A Protocol Specification](https://a2a-protocol.org/latest/specification/)\n- Use the SDKs:\n    - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`\n    - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`\n    - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`\n    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) using maven\n    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) using [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`\n- 🎬 Use our [samples](https://github.com/a2aproject/a2a-samples) to see A2A in action\n\n## Contributing\n\nWe welcome community contributions to enhance and evolve the A2A protocol!\n\n- **Questions & Discussions:** Join our [GitHub Discussions](https://github.com/a2aproject/A2A/discussions).\n- **Issues & Feedback:** Report issues or suggest improvements via [GitHub Issues](https://github.com/a2aproject/A2A/issues).\n- **Contribution Guide:** See our [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) for details on how to contribute.\n- **Private Feedback:** Use this [Google Form](https://goo.gle/a2a-feedback).\n- **Partner Program:** Google Cloud customers can join our partner program via this [form](https://goo.gle/a2a-partner).\n\n## What's next\n\n### Protocol Enhancements\n\n- **Agent Discovery:**\n    - Formalize inclusion of authorization schemes and optional credentials directly within the `AgentCard`.\n- **Agent Collaboration:**\n    - Investigate a `QuerySkill()` method for dynamically checking unsupported or unanticipated skills.\n- **Task Lifecycle & UX:**\n    - Support for dynamic UX negotiation _within_ a task (e.g., agent adding audio/video mid-conversation).",
+    "ContentSha": "Gw4Rtt6zdcyeJ5msqY8JsovKFmNlH5gt4Mwm5+7+MMg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Caractéristiques clés\n\n- **Communication standardisée :** JSON-RPC 2.0 sur HTTP(S).\n- **Découverte d’agent :** Via des « Cartes d’Agent » détaillant les capacités et les informations de connexion.\n- **Interaction flexible :** Prise en charge des requêtes/réponses synchrones, du streaming (SSE) et des notifications push asynchrones.\n- **Échange de données riche :** Gère le texte, les fichiers et les données JSON structurées.\n- **Prêt pour l’entreprise :** Conçu avec la sécurité, l’authentification et l’observabilité en tête.\n\n## Pour commencer\n\n- 📚 **Explorez la documentation :** Visitez le [site de documentation du protocole Agent2Agent](https://a2a-protocol.org) pour un aperçu complet, la spécification complète du protocole, des tutoriels et des guides.\n- 📝 **Voir la spécification :** [Spécification du protocole A2A](https://a2a-protocol.org/latest/specification/)\n- Utilisez les SDKs :\n    - [🐍 SDK A2A Python](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`\n    - [🐿️ SDK A2A Go](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`\n    - [🧑‍💻 SDK A2A JS](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`\n    - [☕️ SDK A2A Java](https://github.com/a2aproject/a2a-java) utilisant maven\n    - [🔷 SDK A2A .NET](https://github.com/a2aproject/a2a-dotnet) via [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`\n- 🎬 Utilisez nos [exemples](https://github.com/a2aproject/a2a-samples) pour voir A2A en action\n\n## Contribution\n\nNous accueillons les contributions de la communauté pour améliorer et faire évoluer le protocole A2A !\n\n- **Questions & Discussions :** Rejoignez nos [discussions GitHub](https://github.com/a2aproject/A2A/discussions).\n- **Problèmes & Retours :** Signalez des problèmes ou suggérez des améliorations via [GitHub Issues](https://github.com/a2aproject/A2A/issues).\n- **Guide de contribution :** Consultez notre [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) pour les détails sur la contribution.\n- **Retour privé :** Utilisez ce [formulaire Google](https://goo.gle/a2a-feedback).\n- **Programme partenaire :** Les clients Google Cloud peuvent rejoindre notre programme partenaire via ce [formulaire](https://goo.gle/a2a-partner).\n\n## Et après ?\n\n### Améliorations du protocole\n\n- **Découverte d’agent :**\n    - Formaliser l’inclusion des schémas d’autorisation et des identifiants optionnels directement dans la `AgentCard`.\n- **Collaboration d’agent :**\n    - Étudier une méthode `QuerySkill()` pour vérifier dynamiquement les compétences non prises en charge ou imprévues.\n- **Cycle de vie des tâches & UX :**\n    - Support de la négociation dynamique de l’UX _au sein_ d’une tâche (ex. agent ajoutant audio/vidéo en cours de conversation).",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HGAGcACdLJLrmf+fiUszXTc0S4m7FYM0E8dxVJXQ0Hk=",
+        "originContent": "### Key Features",
+        "translatedContent": "### Caractéristiques clés"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "kw3Uynvl1pap8qIdSNN7mB/oZktAFaCw+rP8ZYZlg4s=",
+        "originContent": "- **Standardized Communication:** JSON-RPC 2.0 over HTTP(S).",
+        "translatedContent": "- **Communication standardisée :** JSON-RPC 2.0 sur HTTP(S)."
+      },
+      {
+        "row": 4,
+        "rowsha": "kQe3l7/u7SXwMWYOWXmpk4K+ehxP5pXB2WN84r+8sqY=",
+        "originContent": "- **Agent Discovery:** Via \"Agent Cards\" detailing capabilities and connection info.",
+        "translatedContent": "- **Découverte d’agent :** Via des « Cartes d’Agent » détaillant les capacités et les informations de connexion."
+      },
+      {
+        "row": 5,
+        "rowsha": "owOBRVc8gfxjQqSvghKSouvpnP6O3FAQPnJh1/bEymE=",
+        "originContent": "- **Flexible Interaction:** Supports synchronous request/response, streaming (SSE), and asynchronous push notifications.",
+        "translatedContent": "- **Interaction flexible :** Prise en charge des requêtes/réponses synchrones, du streaming (SSE) et des notifications push asynchrones."
+      },
+      {
+        "row": 6,
+        "rowsha": "w/6iKESnhwe9zGO8a5dcLkz52CwMQmKFYcwN2ykOE8U=",
+        "originContent": "- **Rich Data Exchange:** Handles text, files, and structured JSON data.",
+        "translatedContent": "- **Échange de données riche :** Gère le texte, les fichiers et les données JSON structurées."
+      },
+      {
+        "row": 7,
+        "rowsha": "kvO1asyWwSy/Wx985/TPupqBztBSwTwirIxDsFhFgAw=",
+        "originContent": "- **Enterprise-Ready:** Designed with security, authentication, and observability in mind.",
+        "translatedContent": "- **Prêt pour l’entreprise :** Conçu avec la sécurité, l’authentification et l’observabilité en tête."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## Pour commencer"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Xz+Vj2b+4/pywCm9/1yaIyQfsMUHLAdORCtbb2rQMpo=",
+        "originContent": "- 📚 **Explore the Documentation:** Visit the [Agent2Agent Protocol Documentation Site](https://a2a-protocol.org) for a complete overview, the full protocol specification, tutorials, and guides.",
+        "translatedContent": "- 📚 **Explorez la documentation :** Visitez le [site de documentation du protocole Agent2Agent](https://a2a-protocol.org) pour un aperçu complet, la spécification complète du protocole, des tutoriels et des guides."
+      },
+      {
+        "row": 12,
+        "rowsha": "BrOPTJVDgi+vHW3kWGfFaYB1gjFJyZHWWnnSVUW/G64=",
+        "originContent": "- 📝 **View the Specification:** [A2A Protocol Specification](https://a2a-protocol.org/latest/specification/)",
+        "translatedContent": "- 📝 **Voir la spécification :** [Spécification du protocole A2A](https://a2a-protocol.org/latest/specification/)"
+      },
+      {
+        "row": 13,
+        "rowsha": "zhY11lKdWEeQ9Yo0pEho5olsS23vTgMwzaXuHvnCEQg=",
+        "originContent": "- Use the SDKs:",
+        "translatedContent": "- Utilisez les SDKs :"
+      },
+      {
+        "row": 14,
+        "rowsha": "Fs76lhQmy44IBmiqxxn779xJTlNJFGreKCYrFLNxtqY=",
+        "originContent": "    - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`",
+        "translatedContent": "    - [🐍 SDK A2A Python](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`"
+      },
+      {
+        "row": 15,
+        "rowsha": "KtaOp1Wn1FFD+/DSS75bgx2AVujJC8+MRTW1SicglKY=",
+        "originContent": "    - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`",
+        "translatedContent": "    - [🐿️ SDK A2A Go](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`"
+      },
+      {
+        "row": 16,
+        "rowsha": "zQ0bQ2AW/O7Clh534BrYcGdbsTrixKjHa2sFX5/Xcxc=",
+        "originContent": "    - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`",
+        "translatedContent": "    - [🧑‍💻 SDK A2A JS](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`"
+      },
+      {
+        "row": 17,
+        "rowsha": "ovqbO92GNU6N3O/MgeCjojkjVTOnS13d1ywsbpI/f7w=",
+        "originContent": "    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) using maven",
+        "translatedContent": "    - [☕️ SDK A2A Java](https://github.com/a2aproject/a2a-java) utilisant maven"
+      },
+      {
+        "row": 18,
+        "rowsha": "k2y/GlfzJmw3Zcbycsf8RjxR3tRW4tv438OwLTes3GU=",
+        "originContent": "    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) using [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`",
+        "translatedContent": "    - [🔷 SDK A2A .NET](https://github.com/a2aproject/a2a-dotnet) via [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`"
+      },
+      {
+        "row": 19,
+        "rowsha": "E0MR3R7pENC67XogOUZAHN3Z7C++IvtzU2nOfS0RthI=",
+        "originContent": "- 🎬 Use our [samples](https://github.com/a2aproject/a2a-samples) to see A2A in action",
+        "translatedContent": "- 🎬 Utilisez nos [exemples](https://github.com/a2aproject/a2a-samples) pour voir A2A en action"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contribution"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "TVapOybw8PJiB3eVRPBRnT5HucAKoEcmnoJBi5PkDWk=",
+        "originContent": "We welcome community contributions to enhance and evolve the A2A protocol!",
+        "translatedContent": "Nous accueillons les contributions de la communauté pour améliorer et faire évoluer le protocole A2A !"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "6plDjAmuKi6Ll+A5sP6ar1eoUUQkqkvAcDhtgO2802o=",
+        "originContent": "- **Questions & Discussions:** Join our [GitHub Discussions](https://github.com/a2aproject/A2A/discussions).",
+        "translatedContent": "- **Questions & Discussions :** Rejoignez nos [discussions GitHub](https://github.com/a2aproject/A2A/discussions)."
+      },
+      {
+        "row": 26,
+        "rowsha": "WPxuLTn+yCY8kJ5gYtAcf4O0+fr3O2io3ufWUH7cpf4=",
+        "originContent": "- **Issues & Feedback:** Report issues or suggest improvements via [GitHub Issues](https://github.com/a2aproject/A2A/issues).",
+        "translatedContent": "- **Problèmes & Retours :** Signalez des problèmes ou suggérez des améliorations via [GitHub Issues](https://github.com/a2aproject/A2A/issues)."
+      },
+      {
+        "row": 27,
+        "rowsha": "FFvRbdwPHuciwtHtXSP0ihz4E0teOi1zuua3lY0wIFE=",
+        "originContent": "- **Contribution Guide:** See our [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) for details on how to contribute.",
+        "translatedContent": "- **Guide de contribution :** Consultez notre [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) pour les détails sur la contribution."
+      },
+      {
+        "row": 28,
+        "rowsha": "b9b5zRs7kKXGB9ryilGa4W2KyHyqdQOw90y3IaXeWJE=",
+        "originContent": "- **Private Feedback:** Use this [Google Form](https://goo.gle/a2a-feedback).",
+        "translatedContent": "- **Retour privé :** Utilisez ce [formulaire Google](https://goo.gle/a2a-feedback)."
+      },
+      {
+        "row": 29,
+        "rowsha": "62cGjUbM3L4SnQsBJkstHzYAQ43dC8VtsYLvTVSxhlQ=",
+        "originContent": "- **Partner Program:** Google Cloud customers can join our partner program via this [form](https://goo.gle/a2a-partner).",
+        "translatedContent": "- **Programme partenaire :** Les clients Google Cloud peuvent rejoindre notre programme partenaire via ce [formulaire](https://goo.gle/a2a-partner)."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "uQsRCpvF9Z9eRJp9PCehycrbZEZtyebCB79nZKxBpKI=",
+        "originContent": "## What's next",
+        "translatedContent": "## Et après ?"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "LzuLYAfDOBzScV0X2lLcaYMjfrND3JuXvEIMfObQ6qQ=",
+        "originContent": "### Protocol Enhancements",
+        "translatedContent": "### Améliorations du protocole"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "EsRR5ofFEg4OEHcTKml5aL0wC3Ssi4qkH8SrFEsI58E=",
+        "originContent": "- **Agent Discovery:**",
+        "translatedContent": "- **Découverte d’agent :**"
+      },
+      {
+        "row": 36,
+        "rowsha": "eOxLiPLFbWrl4+7jb+V8d4Zmea7PeK6aQy15q1FWB+I=",
+        "originContent": "    - Formalize inclusion of authorization schemes and optional credentials directly within the `AgentCard`.",
+        "translatedContent": "    - Formaliser l’inclusion des schémas d’autorisation et des identifiants optionnels directement dans la `AgentCard`."
+      },
+      {
+        "row": 37,
+        "rowsha": "MNurYcV9/4LFytuCQNztTHCq0tGEdTySVrzg7toGgkI=",
+        "originContent": "- **Agent Collaboration:**",
+        "translatedContent": "- **Collaboration d’agent :**"
+      },
+      {
+        "row": 38,
+        "rowsha": "KLtf1/JHALo4Iq7OaOoUuvc0YN2RsUyGSbhskAsDXuw=",
+        "originContent": "    - Investigate a `QuerySkill()` method for dynamically checking unsupported or unanticipated skills.",
+        "translatedContent": "    - Étudier une méthode `QuerySkill()` pour vérifier dynamiquement les compétences non prises en charge ou imprévues."
+      },
+      {
+        "row": 39,
+        "rowsha": "lhnOFKJ7DdhvHbbEkXxy9SA6O+gzWJ4hjn0qaoORjBQ=",
+        "originContent": "- **Task Lifecycle & UX:**",
+        "translatedContent": "- **Cycle de vie des tâches & UX :**"
+      },
+      {
+        "row": 40,
+        "rowsha": "hQshGFULsNRlZncmMCg360xEnPvL+AqqwQ4Ov8cNKDI=",
+        "originContent": "    - Support for dynamic UX negotiation _within_ a task (e.g., agent adding audio/video mid-conversation).",
+        "translatedContent": "    - Support de la négociation dynamique de l’UX _au sein_ d’une tâche (ex. agent ajoutant audio/vidéo en cours de conversation)."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "- **Client Methods & Transport:**\n    - Explore extending support to client-initiated methods (beyond task management).\n    - Improvements to streaming reliability and push notification mechanisms.\n\n## About\n\nThe A2A Protocol is an open source project under the Linux Foundation, contributed by Google. It is licensed under the [Apache License 2.0](LICENSE) and is open to contributions from the community.\n",
+    "ContentSha": "MawVLSXV50IhpWB/SJjQ8jvanjnoURw6rXfHVZJeF5M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **Méthodes client et transport :**\n    - Explorer l’extension du support aux méthodes initiées par le client (au-delà de la gestion des tâches).\n    - Améliorations de la fiabilité du streaming et des mécanismes de notifications push.\n\n## À propos\n\nLe protocole A2A est un projet open source sous la Fondation Linux, contribué par Google. Il est licencié sous la [Licence Apache 2.0](LICENSE) et ouvert aux contributions de la communauté.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rz92b1bqVIkLS9oskL5xTLihlijE0GNqFAGoarUSkhU=",
+        "originContent": "- **Client Methods & Transport:**",
+        "translatedContent": "- **Méthodes client et transport :**"
+      },
+      {
+        "row": 2,
+        "rowsha": "RmElQRUKZZBAX4qpJG5CNcd5FpiEbu7ltdUGsbrCXko=",
+        "originContent": "    - Explore extending support to client-initiated methods (beyond task management).",
+        "translatedContent": "    - Explorer l’extension du support aux méthodes initiées par le client (au-delà de la gestion des tâches)."
+      },
+      {
+        "row": 3,
+        "rowsha": "eJtyEeb/ZeNjKAfASkxaU8G/COjfjEfqUMb5295Ih3Q=",
+        "originContent": "    - Improvements to streaming reliability and push notification mechanisms.",
+        "translatedContent": "    - Améliorations de la fiabilité du streaming et des mécanismes de notifications push."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
+        "originContent": "## About",
+        "translatedContent": "## À propos"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "0w95aPSKjTl/icxWlA0PibzJuaXxRkkE0zIUgQcAdLU=",
+        "originContent": "The A2A Protocol is an open source project under the Linux Foundation, contributed by Google. It is licensed under the [Apache License 2.0](LICENSE) and is open to contributions from the community.",
+        "translatedContent": "Le protocole A2A est un projet open source sous la Fondation Linux, contribué par Google. Il est licencié sous la [Licence Apache 2.0](LICENSE) et ouvert aux contributions de la communauté."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

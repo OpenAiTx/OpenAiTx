@@ -1,0 +1,919 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Flow Matching in PyTorch\n\nThis repository contains a simple PyTorch implementation of the paper [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747).\n\n## 2D Flow Matching Example\n\nThe gif below demonstrates mapping a single Gaussian distribution to a checkerboard distribution, with the vector field visualized.\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_checkerboard.gif\" height=\"400\" />\n</p>\n\nAnd, here is another example of moons dataset.\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_moons.gif\" height=\"400\" />\n</p>\n\n## Getting Started\n\nClone the repository and set up the python environment.\n",
+    "ContentSha": "VailDuw2GIdggnZnWPstdwdOVyFKouEpGaFx9gucbVk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# PyTorchにおけるフローマッチング\n\nこのリポジトリは論文[Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747)の簡単なPyTorch実装を含んでいます。\n\n## 2Dフローマッチングの例\n\n以下のgifは、単一のガウス分布をチェッカーボード分布にマッピングし、ベクトル場を可視化したものです。\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_checkerboard.gif\" height=\"400\" />\n</p>\n\nこちらはムーンデータセットの別の例です。\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_moons.gif\" height=\"400\" />\n</p>\n\n## はじめに\n\nリポジトリをクローンし、Python環境をセットアップしてください。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "WsFg+xV2tzwxcoZ2dA2SZJ3xgUZ/h+9tcU+GDqbRlzc=",
+        "originContent": "# Flow Matching in PyTorch",
+        "translatedContent": "# PyTorchにおけるフローマッチング"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "7HBgDSjdAo1A/6AhuQgJ//d2lapBpZCYZLvWR5FkiQs=",
+        "originContent": "This repository contains a simple PyTorch implementation of the paper [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747).",
+        "translatedContent": "このリポジトリは論文[Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747)の簡単なPyTorch実装を含んでいます。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yBVzCtoPjy9rkhbL61spEAZ7epv86KiGSfl4qumWWBk=",
+        "originContent": "## 2D Flow Matching Example",
+        "translatedContent": "## 2Dフローマッチングの例"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "0H8r+M1Z5cEcE9algtToL0Irt85w2/F81LV/FoHr8XE=",
+        "originContent": "The gif below demonstrates mapping a single Gaussian distribution to a checkerboard distribution, with the vector field visualized.",
+        "translatedContent": "以下のgifは、単一のガウス分布をチェッカーボード分布にマッピングし、ベクトル場を可視化したものです。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "E2KymqWCnIWTnfQOeYsAebRlnTWHOlc3lJRCkMPQGiE=",
+        "originContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_checkerboard.gif\" height=\"400\" />",
+        "translatedContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_checkerboard.gif\" height=\"400\" />"
+      },
+      {
+        "row": 11,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Mgbmk0MIGtdS+ydP7MDfF4SmpxEqQ9d39Ihj4BxUw8E=",
+        "originContent": "And, here is another example of moons dataset.",
+        "translatedContent": "こちらはムーンデータセットの別の例です。"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 16,
+        "rowsha": "UhWKLlZxAqrXiLdblG1vg5zq5xPSsjLBZ+wDy1PkP7I=",
+        "originContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_moons.gif\" height=\"400\" />",
+        "translatedContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_moons.gif\" height=\"400\" />"
+      },
+      {
+        "row": 17,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## はじめに"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "QlslRJl7OMtlf37ShfMfUQCIPAZjX0+DC6Ih13jX/Tk=",
+        "originContent": "Clone the repository and set up the python environment.",
+        "translatedContent": "リポジトリをクローンし、Python環境をセットアップしてください。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ngit clone https://github.com/keishihara/flow-matching.git\ncd flow-matching\n```",
+    "ContentSha": "5knmSxR58laAdQOksnjppezV7xQMoL7MvwUbxyj7qwc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/keishihara/flow-matching.git\ncd flow-matching\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "KjXQzTjSbguamER0aQ3Q5Kq4OL4r0QrzuOUeYCEnGI4=",
+        "originContent": "git clone https://github.com/keishihara/flow-matching.git",
+        "translatedContent": "git clone https://github.com/keishihara/flow-matching.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "KbsCsm30SiUoYssWHYS467T6/WGm4WxZGnf/fZK47MU=",
+        "originContent": "cd flow-matching",
+        "translatedContent": "cd flow-matching"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nMake sure you have Python 3.10+ installed.\nTo set up the python environment using `uv`:\n",
+    "ContentSha": "lUyMPQS6Hgo2tRKvK4D/kQCTgZpOUJrHW4ggbk8eZ6E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPython 3.10以上がインストールされていることを確認してください。\n`uv`を使用してPython環境をセットアップするには：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "X/FeVCxHp0CT8RCgKSt2WpQCCRLDcMNZmGYPPUCVQ10=",
+        "originContent": "Make sure you have Python 3.10+ installed.",
+        "translatedContent": "Python 3.10以上がインストールされていることを確認してください。"
+      },
+      {
+        "row": 3,
+        "rowsha": "PB+k0LPe33ovoVrz/P9ICwadPDm7TzNf81e952+QptI=",
+        "originContent": "To set up the python environment using `uv`:",
+        "translatedContent": "`uv`を使用してPython環境をセットアップするには："
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nuv sync\nsource .venv/bin/activate\n```",
+    "ContentSha": "TpNmFXa7HxAlxCN2Qkw21Ra+ASnkytlupHJ2QDTEbuY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nuv sync\nsource .venv/bin/activate\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "6IUt3swb9NwCpg2AB8+2bWbPmZ9skvhon0N/15abJBU=",
+        "originContent": "uv sync",
+        "translatedContent": "uv sync"
+      },
+      {
+        "row": 3,
+        "rowsha": "RDUaxA18s/pXqQvQov8NDg+Q3PTeDJ8ytJ0PGX0egwA=",
+        "originContent": "source .venv/bin/activate",
+        "translatedContent": "source .venv/bin/activate"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nAlternatively, using `pip`:\n",
+    "ContentSha": "No73wdzjpiiOet/5jFEm/fPILvYRIrKFPKZ9i0PEWBU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nあるいは、`pip`を使用して：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2ttU6zl9+mfSaDolQjmo1sLRKp0RpDxTg7xQ6DTWBWg=",
+        "originContent": "Alternatively, using `pip`:",
+        "translatedContent": "あるいは、`pip`を使用して："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\npython -m venv .venv\nsource .venv/bin/activate\npip install -e .\n```",
+    "ContentSha": "o6nlEpaIQlslWyx5e9/U4VKWZBF0daUfIRCwq++yAN0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython -m venv .venv\nsource .venv/bin/activate\npip install -e .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Xj91YHlRZzKcvPAqij5Lg/nwRbh8yYG2itmCPVuE0WY=",
+        "originContent": "python -m venv .venv",
+        "translatedContent": "python -m venv .venv"
+      },
+      {
+        "row": 3,
+        "rowsha": "RDUaxA18s/pXqQvQov8NDg+Q3PTeDJ8ytJ0PGX0egwA=",
+        "originContent": "source .venv/bin/activate",
+        "translatedContent": "source .venv/bin/activate"
+      },
+      {
+        "row": 4,
+        "rowsha": "knVRIKwsU4emj9biFUgJoBjbMP5EER6U5AGxS0Ix1+Y=",
+        "originContent": "pip install -e .",
+        "translatedContent": "pip install -e ."
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n## Conditional Flow Matching [Lipman+ 2023]\n\nThis is the original CFM paper implementation [1]. Some components of the code are adapted from [2] and [3].\n\n### 2D Toy Datasets\n\nYou can train the CFM models on 2D synthetic datasets such as `checkerboard` and `moons`. Specify the dataset name using `--dataset` option. Training parameters are predefined in the script, and visualizations of the training results are stored in the `outputs/` directory. Model checkpoints are not included as they are easily reproducible with the default settings.\n",
+    "ContentSha": "NgdrwaTIByhXZZ6ff6pr0uqUD727dIxq8sF9MOjrREM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 条件付きフローマッチング [Lipman+ 2023]\n\nこれは元のCFM論文実装[1]です。コードの一部は[2]および[3]から適応されています。\n\n### 2D トイデータセット\n\n`checkerboard`や`moons`などの2D合成データセットでCFMモデルを訓練できます。`--dataset`オプションでデータセット名を指定してください。訓練パラメータはスクリプト内で事前定義されており、訓練結果の可視化は`outputs/`ディレクトリに保存されます。モデルのチェックポイントは、デフォルト設定で簡単に再現可能なため含まれていません。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "q9HHL+Dxq1kzdwgXzDG6uF8JCFazHZ+ImXRpHHap5ug=",
+        "originContent": "## Conditional Flow Matching [Lipman+ 2023]",
+        "translatedContent": "## 条件付きフローマッチング [Lipman+ 2023]"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Z//qVNyt8eU83Teh2F98ORhpdaid+cPeMV4x/nL3u8Y=",
+        "originContent": "This is the original CFM paper implementation [1]. Some components of the code are adapted from [2] and [3].",
+        "translatedContent": "これは元のCFM論文実装[1]です。コードの一部は[2]および[3]から適応されています。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "uJUElnM+YgDjeEnDWNDE8O7ogr+JkhBGc0oOnddrxu0=",
+        "originContent": "### 2D Toy Datasets",
+        "translatedContent": "### 2D トイデータセット"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "lTil9olDNKRbLTqOcI2g7vW/xfTgM0tjjOOfn10zxFQ=",
+        "originContent": "You can train the CFM models on 2D synthetic datasets such as `checkerboard` and `moons`. Specify the dataset name using `--dataset` option. Training parameters are predefined in the script, and visualizations of the training results are stored in the `outputs/` directory. Model checkpoints are not included as they are easily reproducible with the default settings.",
+        "translatedContent": "`checkerboard`や`moons`などの2D合成データセットでCFMモデルを訓練できます。`--dataset`オプションでデータセット名を指定してください。訓練パラメータはスクリプト内で事前定義されており、訓練結果の可視化は`outputs/`ディレクトリに保存されます。モデルのチェックポイントは、デフォルト設定で簡単に再現可能なため含まれていません。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\npython train_flow_matching_2d.py --dataset checkerboard\n```",
+    "ContentSha": "tDScHr0eeVR8FUM9xetdr3BrmcluflKEl+vmRivaElo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython train_flow_matching_2d.py --dataset checkerboard\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "FQVc/oXiAu7n79n8+5wwWS4ne7U4WSx1YsbUvXkc6q0=",
+        "originContent": "python train_flow_matching_2d.py --dataset checkerboard",
+        "translatedContent": "python train_flow_matching_2d.py --dataset checkerboard"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nThe vector fields and generated samples, like the ones displayed as GIFs at the top of this README, can now be found in the `outputs/cfm/` directory.\n\n### Image Datasets\n\nYou can also train class-conditional CFM models on popular image classification datasets. Both the generated samples and model checkpoints will be stored in the `outputs/cfm` directory. For a detailed list of training parameters, run `python train_flow_matching_on_images.py --help`.\n\nTo train a class-conditional CFM on MNIST dataset, run:\n",
+    "ContentSha": "gZJv/wviPs5FqHiXpxufRvAkTB4G6kpZ20Qkhf2aJHk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nベクトル場と生成されたサンプルは、このREADMEの上部にGIFとして表示されているもののように、現在`outputs/cfm/`ディレクトリにあります。\n\n### 画像データセット\n\nまた、人気のある画像分類データセットでクラス条件付きCFMモデルをトレーニングすることもできます。生成されたサンプルとモデルのチェックポイントは両方とも`outputs/cfm`ディレクトリに保存されます。トレーニングパラメータの詳細なリストは`python train_flow_matching_on_images.py --help`を実行してください。\n\nMNISTデータセットでクラス条件付きCFMをトレーニングするには、以下を実行します。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "+O88kKcG2Er/ppshyRhVDI3wglhEIvh0cv0YGbLLlS0=",
+        "originContent": "The vector fields and generated samples, like the ones displayed as GIFs at the top of this README, can now be found in the `outputs/cfm/` directory.",
+        "translatedContent": "ベクトル場と生成されたサンプルは、このREADMEの上部にGIFとして表示されているもののように、現在`outputs/cfm/`ディレクトリにあります。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "vLIhMblKiWAErWvmMu4EPQ0gxH16RM2yWlKNievutx4=",
+        "originContent": "### Image Datasets",
+        "translatedContent": "### 画像データセット"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "tCuNVQ2wl76T44npUpO3nJM+6fLz0+YeOB8TvQBSmYw=",
+        "originContent": "You can also train class-conditional CFM models on popular image classification datasets. Both the generated samples and model checkpoints will be stored in the `outputs/cfm` directory. For a detailed list of training parameters, run `python train_flow_matching_on_images.py --help`.",
+        "translatedContent": "また、人気のある画像分類データセットでクラス条件付きCFMモデルをトレーニングすることもできます。生成されたサンプルとモデルのチェックポイントは両方とも`outputs/cfm`ディレクトリに保存されます。トレーニングパラメータの詳細なリストは`python train_flow_matching_on_images.py --help`を実行してください。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "oWID0UqyqRtQ4h5mSmzb6Ygus5wSiyCMes9DqRHCUEE=",
+        "originContent": "To train a class-conditional CFM on MNIST dataset, run:",
+        "translatedContent": "MNISTデータセットでクラス条件付きCFMをトレーニングするには、以下を実行します。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```bash\npython train_flow_matching_on_image.py --do_train --dataset mnist\n```",
+    "ContentSha": "KSBkcK9Qr7EFbBPLGls5Gz5LxvdUPDIm97Wu6SxORkU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython train_flow_matching_on_image.py --do_train --dataset mnist\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "61ydxnfrjCzEYI/MSL3Y4E/NmwfZovogmSkQIq1zXgA=",
+        "originContent": "python train_flow_matching_on_image.py --do_train --dataset mnist",
+        "translatedContent": "python train_flow_matching_on_image.py --do_train --dataset mnist"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nAfter training, you can now generate samples with:\n",
+    "ContentSha": "feESlUOO/HQULh+RxmvmIdn6b2sS7ZQLqQki1r1NsR4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nトレーニング後、以下でサンプルを生成できます：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5Xwep8NYQhWDdSjVfF9t6fW8PO9TVVcVZrySkV2dl+4=",
+        "originContent": "After training, you can now generate samples with:",
+        "translatedContent": "トレーニング後、以下でサンプルを生成できます："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```bash\npython train_flow_matching_on_image.py --do_sample --dataset mnist\n```",
+    "ContentSha": "+cB6vnLbPP52Ie1JoNSrrJFmTFq9qmhlRVZcrboJM7Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython train_flow_matching_on_image.py --do_sample --dataset mnist\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "MkZpi22xhkAsAAxr/oNltNjDOTkMB3O5JzFfs9cZPUI=",
+        "originContent": "python train_flow_matching_on_image.py --do_sample --dataset mnist",
+        "translatedContent": "python train_flow_matching_on_image.py --do_sample --dataset mnist"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nNow, you should be able to see the generated samples in the `outputs/cfm/mnist/` directory.\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/mnist/trajectory.gif\" height=\"400\" />\n</p>\n\n## Rectified Flow [Liu+ 2023]\n\nThis is an implementation of the Reflow model (2-Rectified Flow to be specific) from the Rectified Flow paper [2].\n\n### 2D Synthetic Data\n\nWe have implemented the Reflow on 2d synthetic datasets, same as the CFM. To train the reflow, you have to specify pretrained CFM checkpoints as reflow is a distillation model.\n\nFor example, to train on the `checkerboard` dataset with a pretrained CFM checkpoint:\n",
+    "ContentSha": "wdAVWbj9hzMS08jrScc1RcGtUvZ0QTT21gpjKrchwUY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nNow, you should be able to see the generated samples in the `outputs/cfm/mnist/` directory.\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/mnist/trajectory.gif\" height=\"400\" />\n</p>\n\n## Rectified Flow [Liu+ 2023]\n\nこれはRectified Flow論文[2]のReflowモデル（具体的には2-Rectified Flow）の実装です。\n\n### 2D Synthetic Data\n\nCFMと同様に、2次元合成データセットでReflowを実装しました。Reflowは蒸留モデルであるため、トレーニングには事前学習済みCFMチェックポイントを指定する必要があります。\n\n例えば、事前学習済みCFMチェックポイントを使って`checkerboard`データセットでトレーニングする場合：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9ARUJUT3y2AbqN1tggAJpjj4h5fO1Le+NS/WpV21pJo=",
+        "originContent": "Now, you should be able to see the generated samples in the `outputs/cfm/mnist/` directory.",
+        "translatedContent": "Now, you should be able to see the generated samples in the `outputs/cfm/mnist/` directory."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "6gOiQALV99VqnofhekXqXCE4tG/04qKNXeCQQHVLpQc=",
+        "originContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/mnist/trajectory.gif\" height=\"400\" />",
+        "translatedContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/mnist/trajectory.gif\" height=\"400\" />"
+      },
+      {
+        "row": 6,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "irHQmt2XTaennpfdbr/plv9PZHijOAGMVJKX8OOIf1A=",
+        "originContent": "## Rectified Flow [Liu+ 2023]",
+        "translatedContent": "## Rectified Flow [Liu+ 2023]"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "i8ggSbUwapzDerfeGR/w//t2U5ahmD6+qgjBo9kX5Eo=",
+        "originContent": "This is an implementation of the Reflow model (2-Rectified Flow to be specific) from the Rectified Flow paper [2].",
+        "translatedContent": "これはRectified Flow論文[2]のReflowモデル（具体的には2-Rectified Flow）の実装です。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "oz6Q7SHK2vIFebIPxFld9ovtffWmlInSzynmrcvNXmY=",
+        "originContent": "### 2D Synthetic Data",
+        "translatedContent": "### 2D Synthetic Data"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "d6Hurg3fVRfDzmSBOOYd7P/uF00zLl/ZbWiSlPY/aDw=",
+        "originContent": "We have implemented the Reflow on 2d synthetic datasets, same as the CFM. To train the reflow, you have to specify pretrained CFM checkpoints as reflow is a distillation model.",
+        "translatedContent": "CFMと同様に、2次元合成データセットでReflowを実装しました。Reflowは蒸留モデルであるため、トレーニングには事前学習済みCFMチェックポイントを指定する必要があります。"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Pw4weVimVBZXw4oUNWRsJdaRMSo51nu2YMxu6f+IIZA=",
+        "originContent": "For example, to train on the `checkerboard` dataset with a pretrained CFM checkpoint:",
+        "translatedContent": "例えば、事前学習済みCFMチェックポイントを使って`checkerboard`データセットでトレーニングする場合："
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```bash\npython train_reflow_2d.py --dataset checkerboard --pretrained-model outputs/cfm/checkerboard/ckpt.pth\n```",
+    "ContentSha": "dshtTUwVxDuiD75kWnqCiQaPd8JwofQ6wDpTmo4AFP8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython train_reflow_2d.py --dataset checkerboard --pretrained-model outputs/cfm/checkerboard/ckpt.pth\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "VFuHnMQedQ7GKVS/4t8/4PhGJdvdRErYkaFFeC7WtkU=",
+        "originContent": "python train_reflow_2d.py --dataset checkerboard --pretrained-model outputs/cfm/checkerboard/ckpt.pth",
+        "translatedContent": "python train_reflow_2d.py --dataset checkerboard --pretrained-model outputs/cfm/checkerboard/ckpt.pth"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nThe training results, including vector field visualizations and generated samples, are saved under `outputs/reflow/` folder.\n\n### Comparison of sampling process between CFM and Reflow\n\nTo compare CFM and Reflow on 2d datasets, run:\n",
+    "ContentSha": "mT3dojO5+7bPs9qFLcGc4o2TQlccRy3gDNAuN5xLBO4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nトレーニング結果は、ベクトル場の可視化や生成されたサンプルを含めて、`outputs/reflow/` フォルダに保存されます。\n\n### CFMとReflowのサンプリングプロセスの比較\n\n2次元データセットでCFMとReflowを比較するには、以下を実行してください：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "H8dl2sw8kodb4M46hFf5xvS4k38gkxAzLJ7Psnp3e0g=",
+        "originContent": "The training results, including vector field visualizations and generated samples, are saved under `outputs/reflow/` folder.",
+        "translatedContent": "トレーニング結果は、ベクトル場の可視化や生成されたサンプルを含めて、`outputs/reflow/` フォルダに保存されます。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "g5tbbp39VuQjOka7GvSWGLAHu1Yw3XQ/G7IpTQd92Hs=",
+        "originContent": "### Comparison of sampling process between CFM and Reflow",
+        "translatedContent": "### CFMとReflowのサンプリングプロセスの比較"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "C57Z6M87nbPrnMkV24UZdtt4rKBTAMOk/9KiZXmcVJ4=",
+        "originContent": "To compare CFM and Reflow on 2d datasets, run:",
+        "translatedContent": "2次元データセットでCFMとReflowを比較するには、以下を実行してください："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```bash\npython plot_comparison_2d.py --dataset checkerboard\n```",
+    "ContentSha": "h4qyYnFjSXBeDB7hPWHDCJZYlXV/sGppZciaocN+gPg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython plot_comparison_2d.py --dataset checkerboard\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "DHUYkMVFQsngnNImpn697suNMeGb3wRSqGemcyLH2KE=",
+        "originContent": "python plot_comparison_2d.py --dataset checkerboard",
+        "translatedContent": "python plot_comparison_2d.py --dataset checkerboard"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nThe resulting GIFs can be found under `outputs/comparisons/` folder. Below is an example comparison of the two methods in the `checkerboard` dataset:\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/comparisons/cfm_reflow_checkerboard.gif\" height=\"400\" />\n</p>\n\n## References\n\n- [1] Lipman, Yaron, et al. \"Flow Matching for Generative Modeling.\" [arXiv:2210.02747](https://arxiv.org/abs/2210.02747)\n- [2] Liu, Xingchao, et al. \"Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow.\" [arXiv:2209.03003](https://arxiv.org/abs/2209.03003)\n- [3] [facebookresearch/flow_matching](https://github.com/facebookresearch/flow_matching)\n- [4] [atong01/conditional-flow-matching](https://github.com/atong01/conditional-flow-matching)\n",
+    "ContentSha": "j6ouO2ToWQTDzUffwmj3/+hn586h543C/YZ+i47aAm4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "生成されたGIFは `outputs/comparisons/` フォルダにあります。以下は `checkerboard` データセットでの2つの手法の比較例です:\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/comparisons/cfm_reflow_checkerboard.gif\" height=\"400\" />\n</p>\n\n## 参考文献\n\n- [1] Lipman, Yaron, et al. \"Flow Matching for Generative Modeling.\" [arXiv:2210.02747](https://arxiv.org/abs/2210.02747)\n- [2] Liu, Xingchao, et al. \"Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow.\" [arXiv:2209.03003](https://arxiv.org/abs/2209.03003)\n- [3] [facebookresearch/flow_matching](https://github.com/facebookresearch/flow_matching)\n- [4] [atong01/conditional-flow-matching](https://github.com/atong01/conditional-flow-matching)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "生成されたGIFは `outputs/comparisons/` フォルダにあります。以下は `checkerboard` データセットでの2つの手法の比較例です:"
+      },
+      {
+        "row": 2,
+        "rowsha": "K4J3C1YML17gJNpAODQ4m9wrczyCjbe4EW+wy01lEN4=",
+        "originContent": "The resulting GIFs can be found under `outputs/comparisons/` folder. Below is an example comparison of the two methods in the `checkerboard` dataset:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/comparisons/cfm_reflow_checkerboard.gif\" height=\"400\" />"
+      },
+      {
+        "row": 5,
+        "rowsha": "P26zSGMs1qpB0cFoUcpUhT7mLdzW+FYt1kLy9//xOhA=",
+        "originContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/comparisons/cfm_reflow_checkerboard.gif\" height=\"400\" />",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 6,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 参考文献"
+      },
+      {
+        "row": 8,
+        "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+        "originContent": "## References",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [1] Lipman, Yaron, et al. \"Flow Matching for Generative Modeling.\" [arXiv:2210.02747](https://arxiv.org/abs/2210.02747)"
+      },
+      {
+        "row": 10,
+        "rowsha": "/cVxyUDs1FqM7O1VLWwVEgz0L7e/ChRiBGrtjGf8R5I=",
+        "originContent": "- [1] Lipman, Yaron, et al. \"Flow Matching for Generative Modeling.\" [arXiv:2210.02747](https://arxiv.org/abs/2210.02747)",
+        "translatedContent": "- [2] Liu, Xingchao, et al. \"Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow.\" [arXiv:2209.03003](https://arxiv.org/abs/2209.03003)"
+      },
+      {
+        "row": 11,
+        "rowsha": "W3wTo3G2eXGOr/V076HmX77pt/wxoJWypMBaw8iyq44=",
+        "originContent": "- [2] Liu, Xingchao, et al. \"Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow.\" [arXiv:2209.03003](https://arxiv.org/abs/2209.03003)",
+        "translatedContent": "- [3] [facebookresearch/flow_matching](https://github.com/facebookresearch/flow_matching)"
+      },
+      {
+        "row": 12,
+        "rowsha": "ccXJjE/foRLCjsD5j8VyB4UcBBhKkzpAehyUkfVYEFU=",
+        "originContent": "- [3] [facebookresearch/flow_matching](https://github.com/facebookresearch/flow_matching)",
+        "translatedContent": "- [4] [atong01/conditional-flow-matching](https://github.com/atong01/conditional-flow-matching)"
+      },
+      {
+        "row": 13,
+        "rowsha": "+AHSJrmBmLFZzGJOE3GcPp3U+7F7kYwmEjVbBz5o7PY=",
+        "originContent": "- [4] [atong01/conditional-flow-matching](https://github.com/atong01/conditional-flow-matching)",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Язык</summary>
@@ -36,13 +37,12 @@
 
 ## Что такое `json-everything`?
 
-Основная философия `json-everything` заключается в обеспечении хорошей поддержки распространённой функциональности JSON в пространстве _System.Text.Json_.
+Основная философия `json-everything` заключается в обеспечении хорошей поддержки основных функций JSON в пространстве _System.Text.Json_.
+Первым шагом является проверка, существуют ли другие проекты, поддерживающие заданную функцию.
 
-Первым шагом на этом пути является проверка наличия других проектов, поддерживающих ту или иную функцию.
+Если да, скорее всего, усилия не будут дублироваться здесь. Чуть ниже вы найдете список других проектов, которые делают интересные вещи с JSON.
 
-Если такие проекты существуют, то, скорее всего, дублировать их работу здесь не будут. Немного ниже вы найдёте список других проектов, которые делают интересные вещи с JSON.
-
-В противном случае, возможность реализации этой функции рассматривается для данного проекта.
+В противном случае, это открыто для рассмотрения в данном проекте.
 
 <table>
 <thead>
@@ -68,23 +68,24 @@
 <tr>
 <th width="276">Обсудить</th>
 <th width="276">Задать вопрос</th>
-<th width="276">Сделано с помощью</th>
+<th width="276">Разработано с помощью</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-4klcm69x-_MA8Z2ZSZ4JNu_d3lQOVPg"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
+<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
 <td align="center"><a href="https://stackoverflow.com/questions/tagged/json-everything"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png" alt="StackOverflow" title="StackOverflow" height="50"></a></td>
-<td align="center"><a href="http://www.jetbrains.com/resharper"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg" alt="Создано с помощью Jetbrains Resharper" title="Создано с помощью Jetbrains Resharper" height="50"></a></td>
+<td align="center"><a href="http://www.jetbrains.com/resharper"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg" alt="Сделано с помощью Jetbrains Resharper" title="Сделано с помощью Jetbrains Resharper" height="50"></a></td>
 </tr>
+
 </tbody>
 </table>
 
-## Что внутри?
+## Что входит в комплект?
 
-На самом деле, внутри несколько компонентов. Каждая функция вынесена в отдельную библиотеку, так что вы можете выбрать только то, что вам нужно.
+На самом деле коробок несколько. Каждая функция выделена в отдельную библиотеку, чтобы вы могли выбрать только те, которые вам нужны.
 
-Все библиотеки построены на .Net Standard 2.0 и .Net 8.
+Все библиотеки собраны для .Net Standard 2.0 и .Net 8.
 
 <table>
 <tbody>
@@ -106,11 +107,11 @@
 </tr>
 <tr>
 <td>JsonSchema.Net.Data<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Data/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true"></img></a></td>
-<td>Словарь для доступа к данным экземпляра и внешним данным</td>
+<td>Словарь для доступа к экземплярам и внешним данным</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.ArrayExt<br><a href="https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true"></img></a></td>
-<td>Словарь для расширения валидации массивов</td>
+<td>Словарь для расширения проверки массивов</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.OpenApi<br><a href="https://www.nuget.org/packages/JsonSchema.Net.OpenApi/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true"></img></a></td>
@@ -130,15 +131,15 @@
 </tr>
 <tr>
 <td>JsonLogic<br><a href="https://www.nuget.org/packages/JsonLogic/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonLogic.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonLogic.svg?svg=true"></img></a></td>
-<td>JsonLogic (<a href="https://jsonlogic.com">Сайт</a>)</td>
+<td>JsonLogic (<a href="https://jsonlogic.com">Веб-сайт</a>)</td>
 </tr>
 <tr>
 <td>JsonE.Net<br><a href="https://www.nuget.org/packages/JsonE.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonE.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonE.Net.svg?svg=true"></img></a></td>
-<td>JSON-e (<a href="https://json-e.js.org/">Сайт</a>)</td>
+<td>JSON-e (<a href="https://json-e.js.org/">Веб-сайт</a>)</td>
 </tr>
 <tr>
 <td>Json.More.Net<br><a href="https://www.nuget.org/packages/Json.More.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true"></img></a></td>
-<td>Общие расширения для использования, которые, вероятно, должны были быть включены в <em>System.Text.Json[.Nodes]</em>, но не были</td>
+<td>Расширения общего назначения, которые, вероятно, должны были быть включены в <em>System.Text.Json[.Nodes]</em>, но не были</td>
 </tr>
 <tr>
 <td>Yaml2JsonNode<br><a href="https://www.nuget.org/packages/Yaml2JsonNode/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true"></img></a></td>
@@ -147,7 +148,7 @@
 </tbody>
 </table>
 
-Все вышеперечисленные библиотеки полностью поддерживают соответствующие спецификации.
+Все вышеуказанные библиотеки обеспечивают полную поддержку соответствующих спецификаций.
 
 Переводы сообщений об ошибках для _JsonSchema.Net_ доступны на:
 
@@ -159,11 +160,11 @@
 - Шведский `sv-SE`
 - Турецкий `tr-TR`
 
-***ПРИМЕЧАНИЕ** Каждый языковой пакет предоставляется как отдельный пакет Nuget.*
+***ПРИМЕЧАНИЕ** Каждый языковой пакет предоставляется своим собственным Nuget-пакетом.*
 
-Вы также можете просмотреть результаты выполнения тестового набора JSON Schema на [Bowtie](https://bowtie-json-schema.github.io/bowtie), который запускает тестовый набор на различных реализациях и платформах.
+Вы также можете просмотреть результаты тестового набора JSON Schema Test Suite на [Bowtie](https://bowtie-json-schema.github.io/bowtie), который запускает тестовый набор на нескольких реализациях для разных платформ.
 
-***ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ** Моя библиотека, _JsonSchema.Net_, не связана и не ассоциирована с сайтом https://jsonschema.net, кроме того, что оба являются отличными инструментами для работы с JSON Schema.*
+***ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ** Моя библиотека, _JsonSchema.Net_, не связана и не ассоциирована с сайтом https://jsonschema.net, за исключением того, что оба являются отличными инструментами для работы с JSON Schema.*
 
 ### Устаревшие пакеты
 
@@ -174,7 +175,7 @@
 <tr>
 <td>JsonSchema.Net.CodeGeneration<br><a href="https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true"></img></a></td>
 <td>Генерация C# кода из схем</td>
-<td>Устарело в пользу <a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a></td>
+<td>Устарел в пользу <a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a></td>
 </tr>
 </tbody>
 </table>
@@ -182,7 +183,7 @@
 
 ## Поддержка _System.Text.Json_ другими проектами
 
-Если вы не нашли здесь то, что ищете, попробуйте один из этих отличных проектов:
+Если вы не нашли то, что искали здесь, попробуйте один из этих отличных проектов:
 
 - [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) от [@danielaparker](https://github.com/danielaparker)
   - JSON Pointer
@@ -192,25 +193,27 @@
   - JMES Path
 - [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) от [@mwadams](https://github.com/mwadams)
   - Валидация JSON Schema с акцентом на генерацию C# кода
-- (продолжение следует)
+- (будет дополнено)
 
-Если вы используете JSON для чего-то, что не покрыто библиотекой из этого набора или одним из указанных выше проектов, не стесняйтесь [создать заявку на добавление функциональности](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).
+Если вы используете JSON для чего-то, что не покрыто библиотекой из этого набора или одним из вышеуказанных проектов, вы можете [создать issue с предложением фичи](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).
 
-Если вы поддерживаете или знаете о другом проекте, который расширяет _System.Text.Json_ для интересных задач, я хотел бы разместить его здесь, поэтому, пожалуйста, [создайте общий issue](https://github.com/json-everything/json-everything/issues/new), чтобы сообщить мне об этом.
-## Внесение вклада
+Если вы поддерживаете или знаете другой проект, расширяющий _System.Text.Json_ для интересных задач, я бы хотел добавить его сюда, поэтому пожалуйста [создайте общее issue](https://github.com/json-everything/json-everything/issues/new), чтобы сообщить мне о нем.
+
+## Участие
 
 Пожалуйста, ознакомьтесь с [Кодексом поведения](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) и файлом [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) для получения дополнительной информации.
 
 ## Спонсорство
 
-Если эти библиотеки оказались для вас полезными и вы хотели бы поддержать дальнейшую разработку, пожалуйста, рассмотрите возможность [спонсировать сопровождающих](https://github.com/sponsors/gregsdennis).
+Если эти библиотеки оказались для вас полезными и вы хотите поддержать дальнейшую разработку, пожалуйста, рассмотрите возможность [спонсировать мейнтейнеров](https://github.com/sponsors/gregsdennis).
 
 ## Фонд .NET
 
 Этот проект поддерживается [.NET Foundation](https://dotnetfoundation.org).
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
 
 ---

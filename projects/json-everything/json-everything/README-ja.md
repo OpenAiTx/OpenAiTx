@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 言語</summary>
@@ -34,15 +35,14 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/json-everything/json-everything.svg)](https://github.com/json-everything/json-everything/issues "Average time to resolve an issue")
 [![License](https://img.shields.io/github/license/json-everything/json-everything)](https://github.com/json-everything/json-everything/blob/master/LICENSE)
 
-## `json-everything` とは？
+## `json-everything`とは？
 
-`json-everything` の主な哲学は、一般的な JSON 機能が _System.Text.Json_ 空間で十分にサポートされることを保証することです。
+`json-everything`の主な理念は、一般的なJSON機能が_System.Text.Json_領域で十分にサポートされることを保証することです。
+最初のステップは、指定された機能をサポートする他のプロジェクトが存在するかどうかを確認することです。
 
-その第一歩は、特定の機能をサポートする他のプロジェクトが存在するかどうかを確認することです。
+もし存在する場合、その作業はここで重複して行われることはありません。少し下に進むと、JSONを使って面白いことをしている他のプロジェクトのリストが見つかります。
 
-もし存在する場合、その機能の実装はここで重複しない可能性が高いです。少し下に進むと、JSON を使って面白いことをしている他のプロジェクトのリストがあります。
-
-存在しない場合は、このプロジェクトで検討対象となります。
+そうでなければ、このプロジェクトで検討の余地があります。
 
 <table>
 <thead>
@@ -50,7 +50,7 @@
 <th width="207">プレイグラウンド</th>
 <th width="207">ドキュメント</th>
 <th width="207">ブログ</th>
-<th width="207">インタラクティブ学習</th>
+<th width="207">対話型学習</th>
 </tr>
 </thead>
 <tbody>
@@ -68,21 +68,22 @@
 <tr>
 <th width="276">ディスカッション</th>
 <th width="276">質問</th>
-<th width="276">使用技術</th>
+<th width="276">開発事例</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-4klcm69x-_MA8Z2ZSZ4JNu_d3lQOVPg"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
+<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
 <td align="center"><a href="https://stackoverflow.com/questions/tagged/json-everything"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png" alt="StackOverflow" title="StackOverflow" height="50"></a></td>
 <td align="center"><a href="http://www.jetbrains.com/resharper"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg" alt="Made with Jetbrains Resharper" title="Made with Jetbrains Resharper" height="50"></a></td>
 </tr>
+
 </tbody>
 </table>
 
-## 何が含まれていますか？
+## 箱の中身は？
 
-実際には複数の「ボックス」があります。それぞれの機能は独自のライブラリとして分割されており、必要なものだけを選んで利用できます。
+実際には複数の箱があります。各機能は独自のライブラリとして分割されているため、必要なものだけを選択して使用できます。
 
 すべてのライブラリは .Net Standard 2.0 および .Net 8 でビルドされています。
 
@@ -90,11 +91,11 @@
 <tbody>
 <tr>
 <td>JsonSchema.Net<br><a href="https://www.nuget.org/packages/JsonSchema.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true"></img></a></td>
-<td><a href="https://json-schema.org">JSON Schema</a>、ドラフト6以降に対応</td>
+<td><a href="https://json-schema.org">JSON Schema</a>、ドラフト6以降</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Generation<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true"></img></a></td>
-<td>.Net型からスキーマを生成</td>
+<td>.Net型からのスキーマ生成</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Generation.DataAnnotations<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img></a></td>
@@ -102,19 +103,19 @@
 </tr>
 <tr>
 <td>JsonSchema.Net.DataGeneration<br><a href="https://www.nuget.org/packages/JsonSchema.Net.DataGeneration/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.DataGeneration.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.DataGeneration.svg?svg=true"></img></a></td>
-<td>ランダムインスタンスデータ生成（<a href="https://github.com/bchavez/Bogus">Bogus</a> により実現）</td>
+<td>ランダムなインスタンスデータ生成（<a href="https://github.com/bchavez/Bogus">Bogus</a> 利用）</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Data<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Data/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true"></img></a></td>
-<td>インスタンスおよび外部データへアクセスするための語彙</td>
+<td>インスタンスや外部データへのアクセス用語彙</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.ArrayExt<br><a href="https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true"></img></a></td>
-<td>配列バリデーションを拡張するための語彙</td>
+<td>配列バリデーション拡張用語彙</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.OpenApi<br><a href="https://www.nuget.org/packages/JsonSchema.Net.OpenApi/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true"></img></a></td>
-<td><a href="https://www.openapis.org/">OpenApi 3.1</a> の語彙拡張（<a href="https://github.com/gregsdennis/Graeae">Graeae</a> で使用）</td>
+<td><a href="https://www.openapis.org/">OpenApi 3.1</a> 用語拡張（<a href="https://github.com/gregsdennis/Graeae">Graeae</a> で使用）</td>
 </tr>
 <tr>
 <td>JsonPath.Net<br><a href="https://www.nuget.org/packages/JsonPath.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonPath.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonPath.Net.svg?svg=true"></img></a></td>
@@ -130,26 +131,26 @@
 </tr>
 <tr>
 <td>JsonLogic<br><a href="https://www.nuget.org/packages/JsonLogic/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonLogic.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonLogic.svg?svg=true"></img></a></td>
-<td>JsonLogic (<a href="https://jsonlogic.com">公式サイト</a>)</td>
+<td>JsonLogic (<a href="https://jsonlogic.com">ウェブサイト</a>)</td>
 </tr>
 <tr>
 <td>JsonE.Net<br><a href="https://www.nuget.org/packages/JsonE.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonE.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonE.Net.svg?svg=true"></img></a></td>
-<td>JSON-e (<a href="https://json-e.js.org/">公式サイト</a>)</td>
+<td>JSON-e (<a href="https://json-e.js.org/">ウェブサイト</a>)</td>
 </tr>
 <tr>
 <td>Json.More.Net<br><a href="https://www.nuget.org/packages/Json.More.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true"></img></a></td>
-<td><em>System.Text.Json[.Nodes]</em> に本来含まれるべきだったが含まれていない汎用拡張機能</td>
+<td>一般用途の拡張機能で、<em>System.Text.Json[.Nodes]</em> に含まれるべきだったが含まれていないもの</td>
 </tr>
 <tr>
 <td>Yaml2JsonNode<br><a href="https://www.nuget.org/packages/Yaml2JsonNode/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true"></img></a></td>
-<td><a href="https://github.com/aaubry/YamlDotNet">YamlDotNet</a> の YAML ドキュメントモデルと <code>JsonNode</code> との間の変換（双方向）。</td>
+<td><a href="https://github.com/aaubry/YamlDotNet">YamlDotNet</a> の YAML ドキュメントモデルと <code>JsonNode</code> 間の変換（両方向）</td>
 </tr>
 </tbody>
 </table>
 
-上記のすべてのライブラリは、それぞれの仕様に対して完全なサポートを提供します。
+上記のすべてのライブラリは、各仕様への完全な対応を提供します。
 
-_JonSchema.Net_ のエラーメッセージ翻訳は以下の言語で利用可能です:
+_JsonSchema.Net_ のエラーメッセージ翻訳は以下の言語で利用可能です：
 
 - イタリア語 `it`
 - ノルウェー語 `nb-NO`
@@ -159,58 +160,60 @@ _JonSchema.Net_ のエラーメッセージ翻訳は以下の言語で利用可�
 - スウェーデン語 `sv-SE`
 - トルコ語 `tr-TR`
 
-***注** 各言語パックは個別の Nuget パッケージとして提供されます。*
+***注意** 各言語パックは、それぞれの Nuget パッケージによって提供されています。*
 
-また、[Bowtie](https://bowtie-json-schema.github.io/bowtie) で JSON Schema テストスイートの結果を確認できます。このサイトでは、複数の実装を異なるプラットフォームでテストしています。
+JSON Schema Test Suite の結果は、[Bowtie](https://bowtie-json-schema.github.io/bowtie) でも確認できます。これは、複数のプラットフォームで様々な実装に対してテストスイートを実行します。
 
-***免責事項** 私のライブラリ _JsonSchema.Net_ は、https://jsonschema.net というウェブサイトとは関係や提携はありません。ただし、どちらも優れた JSON Schema ツールです。*
+***免責事項** 私のライブラリ _JsonSchema.Net_ は、https://jsonschema.net というウェブサイトとは関係も提携もありません。ただし、両者とも優れた JSON Schema ツールです。*
 
 ### 非推奨パッケージ
 
-これらのパッケージもかつて本スイートの一部でしたが、現在はサポートされていません。
+これらのパッケージもこのスイートの一部でしたが、現在はサポートされていません。
 
 <table>
 <tbody>
 <tr>
 <td>JsonSchema.Net.CodeGeneration<br><a href="https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true"></img></a></td>
-<td>スキーマから C# コードを生成</td>
-<td><a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a> への移行のため非推奨</td>
+<td>スキーマから C# コードの生成</td>
+<td><a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a> 推奨のため非推奨</td>
 </tr>
 </tbody>
 </table>
 
 
-## _System.Text.Json_ をサポートする他のプロジェクト
+## 他プロジェクトによる _System.Text.Json_ サポート
 
-ここに探しているものがない場合は、以下の優れたプロジェクトもお試しください:
+ここで目的のものが見つからない場合は、以下の優れたプロジェクトもお試しください:
 
 - [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) （[@danielaparker](https://github.com/danielaparker) による）
-  - JSON Pointer
-  - JSON Patch
-  - JSON Merge Patch
-  - JSON Path
-  - JMES Path
+  - JSON ポインタ
+  - JSON パッチ
+  - JSON マージパッチ
+  - JSON パス
+  - JMES パス
 - [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) （[@mwadams](https://github.com/mwadams) による）
   - C# コード生成を重視した JSON Schema バリデーション
 - （今後追加予定）
 
-もし、このスイートや上記プロジェクトのいずれでもカバーされていない JSON 関連の用途があれば、[フィーチャー要望 issue](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml) を作成してください。
+JSON を使って、このスイートや上記プロジェクトのライブラリでカバーされていないことを行いたい場合は、[機能リクエスト](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml)を自由に作成してください。
 
-また、_System.Text.Json_ を拡張して面白いことをする他のプロジェクトを管理している、またはご存知の場合は、ぜひここに掲載したいので、[一般的な issue](https://github.com/json-everything/json-everything/issues/new) を作成してお知らせください。
+_System.Text.Json_ を拡張して面白いことを行う他のプロジェクトを管理している、またはご存知の場合は、ぜひここに掲載したいので、[一般的な問い合わせ](https://github.com/json-everything/json-everything/issues/new)を作成してお知らせください。
+
 ## 貢献について
 
 詳細については、[行動規範](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md)および[CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md)ファイルをご覧ください。
 
 ## スポンサーシップ
 
-これらのライブラリが役に立ったと感じ、開発の継続を応援したい場合は、[メンテナーへのスポンサー](https://github.com/sponsors/gregsdennis)をご検討ください。
+これらのライブラリが役立った場合、継続的な開発を支援するために[メンテナーへのスポンサー](https://github.com/sponsors/gregsdennis)をぜひご検討ください。
 
 ## .NET Foundation
 
 このプロジェクトは[.NET Foundation](https://dotnetfoundation.org)によってサポートされています。
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
 
 ---

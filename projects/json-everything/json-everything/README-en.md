@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Language</summary>
@@ -38,11 +39,11 @@
 
 The primary philosophy behind `json-everything` is to ensure that common JSON functionality has good support in the _System.Text.Json_ space.
 
-The first step to that is checking whether there exist other projects that support a given function.
+The first step in this process is to check whether there are other projects that support a particular function.
 
-If so, that effort likely won't be duplicated here. A bit farther down you'll find a list of other projects that are doing some cool things with JSON.
+If so, that effort probably won't be duplicated here. A little further down, you'll find a list of other projects that are doing interesting things with JSON.
 
-Otherwise, it's open to consideration for this project.
+If not, it's open for consideration in this project.
 
 <table>
 <thead>
@@ -73,7 +74,7 @@ Otherwise, it's open to consideration for this project.
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-4klcm69x-_MA8Z2ZSZ4JNu_d3lQOVPg"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
+<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
 <td align="center"><a href="https://stackoverflow.com/questions/tagged/json-everything"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png" alt="StackOverflow" title="StackOverflow" height="50"></a></td>
 <td align="center"><a href="http://www.jetbrains.com/resharper"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg" alt="Made with Jetbrains Resharper" title="Made with Jetbrains Resharper" height="50"></a></td>
 </tr>
@@ -82,15 +83,15 @@ Otherwise, it's open to consideration for this project.
 
 ## What's in the box?
 
-There are actually multiple boxes.  Each piece of functionality has been broken out into its own library, so you can pick and choose the one(s) that you need.
+There are actually multiple boxes. Each piece of functionality has been separated into its own library, allowing you to pick and choose the ones you need.
 
-All libraries are built to .Net Standard 2.0 and .Net 8.
+All libraries are built for .Net Standard 2.0 and .Net 8.
 
 <table>
 <tbody>
 <tr>
 <td>JsonSchema.Net<br><a href="https://www.nuget.org/packages/JsonSchema.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true"></img></a></td>
-<td><a href="https://json-schema.org">JSON Schema</a>, drafts 6 and higher</td>
+<td><a href="https://json-schema.org">JSON Schema</a>, drafts 6 and above</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Generation<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true"></img></a></td>
@@ -138,7 +139,7 @@ All libraries are built to .Net Standard 2.0 and .Net 8.
 </tr>
 <tr>
 <td>Json.More.Net<br><a href="https://www.nuget.org/packages/Json.More.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true"></img></a></td>
-<td>General-use extensions that probably should have been included in <em>System.Text.Json[.Nodes]</em> but weren't</td>
+<td>General-purpose extensions that probably should have been included in <em>System.Text.Json[.Nodes]</em> but weren't</td>
 </tr>
 <tr>
 <td>Yaml2JsonNode<br><a href="https://www.nuget.org/packages/Yaml2JsonNode/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true"></img></a></td>
@@ -147,7 +148,7 @@ All libraries are built to .Net Standard 2.0 and .Net 8.
 </tbody>
 </table>
 
-All of the above libraries offer complete support for their associated specifications.
+All of the above libraries provide complete support for their respective specifications.
 
 Error message translations for _JsonSchema.Net_ available in:
 
@@ -197,6 +198,7 @@ If you don't find what you're looking for here, please try one of these excellen
 If you use JSON to do something that is not covered by a library in this suite or one of the above projects, feel free to [create a feature issue](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).
 
 If you maintain or know of another project that extends _System.Text.Json_ to do cool things, I'd like to list it here, so please [create a general issue](https://github.com/json-everything/json-everything/issues/new) to let me know about it.
+
 ## Contributing
 
 Please see the [Code of Conduct](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) and the [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) file for more information.
@@ -209,8 +211,9 @@ If you found these libraries helpful and would like to promote continued develop
 
 This project is supported by the [.NET Foundation](https://dotnetfoundation.org).
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
 
 ---

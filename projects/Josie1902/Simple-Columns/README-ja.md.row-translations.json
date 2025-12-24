@@ -1,0 +1,806 @@
+[
+  {
+    "row": 1,
+    "rowsha": "vLKcFthd9O1WjZtUWcXje7+wnxb3kM5TWgOW8hxzVFA=",
+    "originContent": "# 👋 Overview",
+    "translatedContent": "# 👋 概要"
+  },
+  {
+    "row": 2,
+    "rowsha": "ZqFeh6nXwPCRNIIIuLh1hR6hxcjJQAruLudYHlMRKSU=",
+    "originContent": "![Simple Columns](https://drive.google.com/uc?export=view&id=1Q4Vrx3FpE14U_6RtGkmfQg9UnsNJKx-j)",
+    "translatedContent": "![Simple Columns](https://drive.google.com/uc?export=view&id=1Q4Vrx3FpE14U_6RtGkmfQg9UnsNJKx-j)"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "3F0qjZG2CkHgQb8VhhIj9t9yc2Pf6+DlFDlwtLIX4Dc=",
+    "originContent": "- [👋 Overview](#-overview)",
+    "translatedContent": "- [👋 概要](#-概要)"
+  },
+  {
+    "row": 5,
+    "rowsha": "eYgddcZhx+ThcUi2p02yPjaaTtsKBdo8O579+nEQ9oU=",
+    "originContent": "  - [📝 Description](#-description)",
+    "translatedContent": "  - [📝 説明](#-説明)"
+  },
+  {
+    "row": 6,
+    "rowsha": "ssSrJ0oHgL829QodNRzifA7MSG/CA/b1sabEjxsxt5k=",
+    "originContent": "  - [⚙️ How to Use](#️-how-to-use)",
+    "translatedContent": "  - [⚙️ 使い方](#️-使い方)"
+  },
+  {
+    "row": 7,
+    "rowsha": "BdI8pKqHtn8f6bOj7fYYbImk43l173Ca32Mb65YCuPc=",
+    "originContent": "    - [Example: Creating Columns with Code Blocks](#example-creating-columns-with-code-blocks)",
+    "translatedContent": "    - [例: コードブロックでカラムを作成する](#例-コードブロックでカラムを作成する)"
+  },
+  {
+    "row": 8,
+    "rowsha": "dWjRPgrS/bCXkd/pmJRzg0QXgLnHVBwgaNjvfq//+i8=",
+    "originContent": "    - [Example: Specifying Column Widths via YAML](#example-specifying-column-widths-via-yaml)",
+    "translatedContent": "    - [例: YAMLでカラム幅を指定する](#例-yamlでカラム幅を指定する)"
+  },
+  {
+    "row": 9,
+    "rowsha": "WKhnNIewgH5C8ZTVLhj/4397G1GTeXhJckODXwe2QpU=",
+    "originContent": "  - [✨ Features](#-features)",
+    "translatedContent": "  - [✨ 特徴](#-特徴)"
+  },
+  {
+    "row": 10,
+    "rowsha": "NoFvrbe9oSMm9G7E7uhTApuotUbyL8OkS62EY4gYTcw=",
+    "originContent": "  - [🔧 Global Settings](#-global-settings)",
+    "translatedContent": "  - [🔧 グローバル設定](#-グローバル設定)"
+  },
+  {
+    "row": 11,
+    "rowsha": "0Xn7E0Vay/jvUfNHi+SZegLsv9xY6RgpuxZaDA72VKg=",
+    "originContent": "    - [Container Borders](#container-borders)",
+    "translatedContent": "    - [コンテナの枠線](#コンテナの枠線)"
+  },
+  {
+    "row": 12,
+    "rowsha": "RC/aBsL7xakGnuq6FsBNWs37apFy4ah7hREnV9RH2D8=",
+    "originContent": "    - [Resizer Settings](#resizer-settings)",
+    "translatedContent": "    - [リサイズ設定](#リサイズ設定)"
+  },
+  {
+    "row": 13,
+    "rowsha": "0Xj41ef0I5JB3rq5vLuwxQIQuQe/3D6qOlAvbRmAUtk=",
+    "originContent": "    - [Advanced Settings](#advanced-settings)",
+    "translatedContent": "    - [詳細設定](#詳細設定)"
+  },
+  {
+    "row": 14,
+    "rowsha": "qi1kIFcaa19fRPWNC0MnGaZJc2eiPfAwVG21mpeNwO4=",
+    "originContent": "  - [⚡️ Local Settings](#️-local-settings)",
+    "translatedContent": "  - [⚡️ ローカル設定](#️-ローカル設定)"
+  },
+  {
+    "row": 15,
+    "rowsha": "KndDPVgJwMgio89+z3X4xghTjej/v/D+9IItZdvyMiU=",
+    "originContent": "    - [Available Local Settings:](#available-local-settings)",
+    "translatedContent": "    - [利用可能なローカル設定:](#利用可能なローカル設定)"
+  },
+  {
+    "row": 16,
+    "rowsha": "z9x+LlfM5tfdywCORsKmjtT4nl6AUcuBSCNhxFLyam4=",
+    "originContent": "  - [🚀 Future Works](#-future-works)",
+    "translatedContent": "  - [🚀 今後の予定](#-今後の予定)"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "Bua84/OYiVXKT6nD32Vpe6kjFqnEJRtMWXGPkYtW29o=",
+    "originContent": "## 📝 Description",
+    "translatedContent": "## 📝 説明"
+  },
+  {
+    "row": 20,
+    "rowsha": "VDIaDXPjVlZak7d9Qe4ZSmLwMhW8khcfZPQvh/eC03s=",
+    "originContent": "The **Simple Columns** plugin for Obsidian lets you create easily resizable and customizable columns in your notes. Whether you're organizing tasks, breaking down content, or visualizing ideas, this plugin provides a simple markdown syntax to quickly adjust and structure your layouts.",
+    "translatedContent": "**Simple Columns** プラグインは、Obsidianのノート内で簡単にリサイズ可能かつカスタマイズ可能なカラムを作成できます。タスクを整理したり、コンテンツを分割したり、アイデアを視覚化したりする際に、このプラグインはシンプルなマークダウン構文で素早くレイアウトの調整と構造化を可能にします。"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "a4YJ4j+mgLc2P/R92qRV7oRggqjlStbYGkCbIxKYSXo=",
+    "originContent": "## ⚙️ How to Use ",
+    "translatedContent": "## ⚙️ 使い方 "
+  },
+  {
+    "row": 23,
+    "rowsha": "Ke2DnqlgLuZTF4mspq2hLMXtV9YiVnhhjG2upNqFmso=",
+    "originContent": "To create a simple column layout, you can either:",
+    "translatedContent": "シンプルなカラムレイアウトを作成するには、次のいずれかを行います:"
+  },
+  {
+    "row": 24,
+    "rowsha": "q0J0OVHw7EXqHX+QA9WtqvdDiJUfpAUjpHsIfXRn+dM=",
+    "originContent": "- Right-click in your note and select the option from the submenu.",
+    "translatedContent": "- ノート内で右クリックし、サブメニューからオプションを選択します。"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "suqUdE7VY/ttfEKYsM8wrqfeIn1La3f7BVOBM1lvn7g=",
+    "originContent": "![Submenu](https://drive.google.com/uc?export=view&id=1Nu2tmvENJFtsnbDIqnk4XqT05WSJexN_)",
+    "translatedContent": "![サブメニュー](https://drive.google.com/uc?export=view&id=1Nu2tmvENJFtsnbDIqnk4XqT05WSJexN_)"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "2Z+UltyayTvkrNFhocmG3h2ojjplDmQMepIvjr3iq+4=",
+    "originContent": "- Use the command palette to insert columns directly. For example, type \"Add 2 columns\" to insert a two-column layout into your note.",
+    "translatedContent": "- コマンドパレットを使ってカラムを直接挿入します。例えば、「2カラム追加」と入力すると、ノートに2カラムのレイアウトが挿入されます。"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "HKy04Ghb2IVgZkplIUCHhUJ/AzovVunBvQflR9/UuiM=",
+    "originContent": "When you create columns, the plugin generates the following markdown with a unique ID for each column:",
+    "translatedContent": "カラムを作成すると、プラグインは各カラムにユニークIDを付けた以下のマークダウンを生成します:"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "g4fLyNYS/l6HFlJQmFoL2GuXF+XPdZz7Wrk2jJxQNso=",
+    "originContent": "```columns",
+    "translatedContent": "```columns"
+  },
+  {
+    "row": 33,
+    "rowsha": "U7erk3OArE8zTH1GDUKyxxlaWT29H9PWoZvcVD9VzhY=",
+    "originContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85",
+    "translatedContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85"
+  },
+  {
+    "row": 34,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 35,
+    "rowsha": "md4ypQdB2cH2keAoPm3qVeql8NX5rSf0HXhQTpdaMPA=",
+    "originContent": "Column 1",
+    "translatedContent": "Column 1"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 38,
+    "rowsha": "cbBGUBFGk7X8eP0HLY1Kj2Botg7jf6Ae+Jb07eAZauc=",
+    "originContent": "Column 2",
+    "translatedContent": "Column 2"
+  },
+  {
+    "row": 39,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "K1UGVl5hha8vHjbcZYNvK/2iCFWBdOOim7ZMZBWH5+o=",
+    "originContent": "### Example: Creating Columns with Code Blocks",
+    "translatedContent": "### 例：コードブロックを使ったカラムの作成"
+  },
+  {
+    "row": 42,
+    "rowsha": "M3TBq7HVziTK+Rkv2TObqnJKLiB08QYswgVGk+x1/a4=",
+    "originContent": "To create a layout with code blocks inside columns, use the following syntax (start and end with 4 backticks: ````):",
+    "translatedContent": "コードブロックをカラム内に配置するレイアウトを作成するには、次の構文を使用します（4つのバッククォート ```` で開始および終了）："
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "XOWnlRAIaMvS/e4f2tlLNEMOPE2GbbpfYpMBjSkvAz4=",
+    "originContent": "`````",
+    "translatedContent": "````columns"
+  },
+  {
+    "row": 45,
+    "rowsha": "d9LZsKEupRgnK/KRSZmh7mSWyGeFqpckM34Pd7nE7og=",
+    "originContent": "````columns",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "U7erk3OArE8zTH1GDUKyxxlaWT29H9PWoZvcVD9VzhY=",
+    "originContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85",
+    "translatedContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85"
+  },
+  {
+    "row": 47,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 48,
+    "rowsha": "md4ypQdB2cH2keAoPm3qVeql8NX5rSf0HXhQTpdaMPA=",
+    "originContent": "Column 1",
+    "translatedContent": "カラム 1"
+  },
+  {
+    "row": 49,
+    "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+    "originContent": "```javascript",
+    "translatedContent": "```javascript"
+  },
+  {
+    "row": 50,
+    "rowsha": "137F2E+1+8gYl1S1TpObzZW5aIMtqrqPZC19SPXuheo=",
+    "originContent": "console.log(\"Hello world\")",
+    "translatedContent": "console.log(\"Hello world\")"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 53,
+    "rowsha": "cbBGUBFGk7X8eP0HLY1Kj2Botg7jf6Ae+Jb07eAZauc=",
+    "originContent": "Column 2",
+    "translatedContent": "カラム 2"
+  },
+  {
+    "row": 54,
+    "rowsha": "MpvA5TLaYie/8aAz02NkgKLlS+fOGFzbx44GNyxZMkg=",
+    "originContent": "````",
+    "translatedContent": "````"
+  },
+  {
+    "row": 55,
+    "rowsha": "XOWnlRAIaMvS/e4f2tlLNEMOPE2GbbpfYpMBjSkvAz4=",
+    "originContent": "`````",
+    "translatedContent": "`````"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "sfBsLWcVXPLvmFrgRtCVYNbyFGRkd1KfAY8NlaVCbNM=",
+    "originContent": "### Example: Specifying Column Widths via YAML",
+    "translatedContent": "### 例：YAMLによる列幅の指定"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "7U6B95BzLS8D6Ybjk+6a9MqBvkkrjAZEiDphLybVpMY=",
+    "originContent": "You can set custom widths for specific columns using YAML. Columns with a specified ratio will take priority, and any columns without a defined ratio will share the remaining space equally.",
+    "translatedContent": "特定の列に対してカスタム幅をYAMLで設定できます。比率が指定された列が優先され、比率が定義されていない列は残りのスペースを均等に分け合います。"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "U7erk3OArE8zTH1GDUKyxxlaWT29H9PWoZvcVD9VzhY=",
+    "originContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85",
+    "translatedContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85"
+  },
+  {
+    "row": 63,
+    "rowsha": "BMAWksiPHIfn6M0XXuqCzIwzFZrbHv6F51lLMSgTMH4=",
+    "originContent": "column-1-ratio: 60%",
+    "translatedContent": "column-1-ratio: 60%"
+  },
+  {
+    "row": 64,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 65,
+    "rowsha": "md4ypQdB2cH2keAoPm3qVeql8NX5rSf0HXhQTpdaMPA=",
+    "originContent": "Column 1",
+    "translatedContent": "Column 1"
+  },
+  {
+    "row": 66,
+    "rowsha": "LPJNul+wow4m6DsqxbninhsWHlwfp0JecwQzYpOLmCQ=",
+    "originContent": "hello",
+    "translatedContent": "hello"
+  },
+  {
+    "row": 67,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 68,
+    "rowsha": "cbBGUBFGk7X8eP0HLY1Kj2Botg7jf6Ae+Jb07eAZauc=",
+    "originContent": "Column 2",
+    "translatedContent": "Column 2"
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "説明："
+  },
+  {
+    "row": 71,
+    "rowsha": "NjGp2YviscRzDb1TI5NtZaYvI5E08IX2AOLcHhlua4Q=",
+    "originContent": "Explanation:",
+    "translatedContent": "- column-1-ratio: 60% → カラム1はコンテナ幅の60%を占めます。"
+  },
+  {
+    "row": 72,
+    "rowsha": "2AiUxppe4QrZg9XELFVn9sLYawZYlmVTgZkbozbRzWE=",
+    "originContent": "- column-1-ratio: 60% → Column 1 takes 60% of the container width.",
+    "translatedContent": "- カラム2（指定なし）は自動的に残りの40%を埋めます。"
+  },
+  {
+    "row": 73,
+    "rowsha": "qPAlT+f2re6q0JZiM+OixalPlJgdok0aEmEomGSgoHM=",
+    "originContent": "- Column 2 (not specified) automatically fills the remaining 40%.",
+    "translatedContent": "- 複数のカラムに対して比率を定義できます（column-2-ratio、column-3-ratioなど）、最大4カラムまで。"
+  },
+  {
+    "row": 74,
+    "rowsha": "wsLEL4DWADZfkB0PHtO66mBikMq6NGo2H3bEVCnVbys=",
+    "originContent": "- You can define ratios for multiple columns (column-2-ratio, column-3-ratio, etc.), up to 4 columns.",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ✨ 機能"
+  },
+  {
+    "row": 76,
+    "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+    "originContent": "## ✨ Features",
+    "translatedContent": "- **ユニークなカラムID**：各カラムはユニークなIDで生成され、カラムを個別にスタイル設定や参照できます。"
+  },
+  {
+    "row": 77,
+    "rowsha": "vlRwS/JjmhEYOSUCeuEZkZcc7LcfHRH9vf673NgBMlc=",
+    "originContent": "- **Unique Column IDs**: Each column is generated with a unique ID, ensuring you can style or reference columns independently.",
+    "translatedContent": "- **簡単にサイズ変更可能なカラム**：カラムは完全にリサイズ可能で、コンテンツのレイアウトを自由にコントロールできます。"
+  },
+  {
+    "row": 78,
+    "rowsha": "F4Sg56uawkTTG7q41lBAu4DA77ClCUmn+7sZhGl5Z58=",
+    "originContent": "- **Easily Resizable Columns**: Columns are fully resizable, giving you complete control over the layout of your content.",
+    "translatedContent": "- **レスポンシブレイアウト**：画面サイズに応じてカラムが自動調整され、クリーンで適応性の高いレイアウトを提供します。"
+  },
+  {
+    "row": 79,
+    "rowsha": "PW7NuFny0aU0ilpaa6DQ/y8mXHnChmSlcPXruDVL8bE=",
+    "originContent": "- **Responsive Layouts**: Columns adjust automatically based on your screen size, providing a clean and adaptable layout.",
+    "translatedContent": "- **高いカスタマイズ性**：カラムは完全に調整可能で、サイズ、間隔、配置を簡単にコントロールしてニーズに合わせられます。"
+  },
+  {
+    "row": 80,
+    "rowsha": "FFuzUtk/NMfjDo3ZTSrxDthRCyg60CBXbMlzrbDrnd8=",
+    "originContent": "- **Highly Customizable**: Columns are fully adjustable, allowing you to easily control their size, spacing, and alignment to suit your needs.",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🔧 グローバル設定"
+  },
+  {
+    "row": 82,
+    "rowsha": "4BhSil/DQXC5n4PPVwRL+I0dqKBwCPiLvKnwD45Js5c=",
+    "originContent": "## 🔧 Global Settings",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**グローバル設定**では、Obsidianボールト全体のすべてのカラムに対するデフォルトのスタイルや動作を定義できます。これらの設定はプラグイン設定内でアクセス・構成可能です。"
+  },
+  {
+    "row": 84,
+    "rowsha": "htjUj6xc5YGur99SfBJF/DDHhFNYfHNsMXYsBsOAd/c=",
+    "originContent": "The **Global Settings** allow you to define default styles and behaviors for all columns across your Obsidian vault. These settings can be accessed and configured in the plugin settings.",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![グローバル設定](https://drive.google.com/uc?export=view&id=1WPBg0Y3pffL5pw1dVRUC81TMMlaod-eK)"
+  },
+  {
+    "row": 86,
+    "rowsha": "I9I1wMaBIddbUmryKB8AkVFvuQ8FT6MuJLzjzqOGiHw=",
+    "originContent": "![Global Settings](https://drive.google.com/uc?export=view&id=1WPBg0Y3pffL5pw1dVRUC81TMMlaod-eK)",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### コンテナのボーダー"
+  },
+  {
+    "row": 88,
+    "rowsha": "cmDGLh4Wtbd0S7xsQuoFchXjzwI1JORdDvoo5rFfiLY=",
+    "originContent": "### Container Borders",
+    "translatedContent": "カラムコンテナの外観をボーダーでカスタマイズし、視認性を向上させられます。"
+  },
+  {
+    "row": 89,
+    "rowsha": "W6eTWIuuQoOvnQqfC2kF8g/l0yIPhPEacIFZ470nAE0=",
+    "originContent": "You can customize the appearance of column containers with borders for better visibility.",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **コンテナボーダーを表示**：この設定を切り替えて各カラムコンテナの周囲にボーダーを表示します。"
+  },
+  {
+    "row": 91,
+    "rowsha": "7tRfyn6QnQMR4Zj1JhBxeGsS5jyAKnXu/3Ta1b0Jm1o=",
+    "originContent": "- **Show Container Borders**: Toggle this setting to display borders around each column container.",
+    "translatedContent": "- **ボーダー幅**：カラムコンテナのボーダー幅を設定します。"
+  },
+  {
+    "row": 92,
+    "rowsha": "+ffO3PsjirWAYwdz0vtT5+O6urkeYZLealQQeOS9lw4=",
+    "originContent": "- **Border Width**: Set the width of the column container borders.",
+    "translatedContent": "- **ボーダーカラー**：ボーダーの色を選択します。"
+  },
+  {
+    "row": 93,
+    "rowsha": "XaZvBNgmoUjdokfMkn8rQhDtlCvrcFHY4fXln4dCWsU=",
+    "originContent": "- **Border Color**: Choose the color of the borders.",
+    "translatedContent": "- **ボーダーの透明度**：RGBAカラーコードを使ってボーダーの透明度を調整します。アルファ値（最後の数字）が透明度を制御します。"
+  },
+  {
+    "row": 94,
+    "rowsha": "0cDkTM0BsOuMMNSm5UHOF0tDUKMRs/lRXCgMTpLYFk8=",
+    "originContent": "- **Border Transparency**: Adjust the transparency of the borders using RGBA color codes. The alpha value (last number) controls the transparency.",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### リサイズバーの設定"
+  },
+  {
+    "row": 96,
+    "rowsha": "cnmZPpSCzuH0xh8xeDxOh3xOMX6HuBRI5e2Vmfn9Wy8=",
+    "originContent": "### Resizer Settings",
+    "translatedContent": "カラムのリサイズバーの外観と動作もカスタマイズできます。"
+  },
+  {
+    "row": 97,
+    "rowsha": "1FMasTnTGu72Cp58akTQYZzhr3lFbn7gp/7QlAKsF0s=",
+    "originContent": "You can also customize the column resizer's appearance and behavior.",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **リサイズバーを表示**：この設定を切り替えてカラム間のリサイズバーを表示または非表示にします。リサイズバーはカラムの区切りにカーソルを合わせた時のみ表示されます。"
+  },
+  {
+    "row": 99,
+    "rowsha": "4iCP4vT1CjiKwz9UpMizshkylylASR6Q64IFse8LqkE=",
+    "originContent": "- **Show Resizer**: Toggle this setting to show or hide the column resizer between columns. The resizer will only appear when you hover over the column divider.",
+    "translatedContent": "- **リサイズバー幅**：リサイズバーの幅を設定します。"
+  },
+  {
+    "row": 100,
+    "rowsha": "sEFgAPwu/cV3kHS2y5em6rPZORtfwgq5SBRwGQ0FWjg=",
+    "originContent": "- **Resizer Width**: Set the width of the resizer element.",
+    "translatedContent": "- **リサイズバーカラー**：リサイズバーの色を選択します。"
+  },
+  {
+    "row": 101,
+    "rowsha": "Edo5O1tZEkbSj2qscLuGDmKP/XzCR+H9qlG+n/fureI=",
+    "originContent": "- **Resizer Color**: Choose the color of the resizer.",
+    "translatedContent": "- **リサイズバーの透明度**：RGBAカラーコードを使ってリサイズバーの透明度を調整します。"
+  },
+  {
+    "row": 102,
+    "rowsha": "zb4Q7MkfUaPaBfhlCEbP9E8XtGWZqvJ2M2pEfaIiyy8=",
+    "originContent": "- **Resizer Transparency**: Adjust the transparency of the resizer using RGBA color codes.",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 詳細設定"
+  },
+  {
+    "row": 104,
+    "rowsha": "jAEi32XywAKyePIzG6psgsa52UohSfN5CnjgPubqbNU=",
+    "originContent": "### Advanced Settings",
+    "translatedContent": "- **スタイルのリセット**：ボーダー設定やリサイズバーのスタイルを含むすべてのカラムスタイルをデフォルト値に戻します。"
+  },
+  {
+    "row": 105,
+    "rowsha": "mHyofx8MvZvxHxAqZLUoUliT3gUqQBvQV7ZRVczdix0=",
+    "originContent": "- **Reset Styles**: This will revert all column styles, including border settings and resizer styles, back to their default values.",
+    "translatedContent": "- **ローカルストレージのクリア**：すべてのカスタム設定を削除し、プラグインを初期状態に戻します。問題が発生した場合や設定をやり直したい場合に使用してください。"
+  },
+  {
+    "row": 106,
+    "rowsha": "pkB7Am2cVQhqro4u7qjY1Yg23dGRnGWDU76dwYXgEDk=",
+    "originContent": "- **Clear Local Storage**: This will remove all custom settings and restore the plugin to its initial state. Use this option if you encounter issues or want to start fresh.",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ⚡️ ローカル設定"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "G6d/QKbrwV9YMXOiY7UmVGgJ0KF5FrIc3IAxOu4O4tw=",
+    "originContent": "## ⚡️ Local Settings",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "S43eBq2KhGQGHWTIqCPlOqAf5ubS4bNQ1OoezNXtwj0=",
+    "originContent": "The **Local Settings** allow you to apply more **granular customizations** to individual columns within your notes.",
+    "translatedContent": "**ローカル設定**では、ノート内の個々の列に対してより**詳細なカスタマイズ**を適用できます。"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "Fe/iYK19qVGW0oByfi4vFQrBS+n5pt/HvdNnh7UFvGg=",
+    "originContent": "![Local Settings](https://drive.google.com/uc?export=view&id=1q11NA49CeizEAozavC1YAiiSI7J7oe5U)",
+    "translatedContent": "![ローカル設定](https://drive.google.com/uc?export=view&id=1q11NA49CeizEAozavC1YAiiSI7J7oe5U)"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "+o7V7ZoPC90M0nlgnLsf9uVv6s3ozQSZkTjF3+iWTVU=",
+    "originContent": "### Available Local Settings:",
+    "translatedContent": "### 利用可能なローカル設定："
+  },
+  {
+    "row": 115,
+    "rowsha": "o2p953iKPwmM39ycDxcVDguD6EJcd9qLXZKjMBO9dv4=",
+    "originContent": "- **Reset All Styles**: Revert all custom styles for the column to their default settings.",
+    "translatedContent": "- **すべてのスタイルをリセット**：列のすべてのカスタムスタイルをデフォルト設定に戻します。"
+  },
+  {
+    "row": 116,
+    "rowsha": "eJIFgDwcdZwW+UV7fq6uo9gSKT3bPK08vFfu49X2vZM=",
+    "originContent": "- **Show Border**",
+    "translatedContent": "- **境界線を表示**"
+  },
+  {
+    "row": 117,
+    "rowsha": "8Ax2CUXb/fl4RSKZlwvp0Eh/+pGrgcH+s+siH5yb2NA=",
+    "originContent": "- **Set Border Color and Transparency**",
+    "translatedContent": "- **境界線の色と透明度を設定**"
+  },
+  {
+    "row": 118,
+    "rowsha": "Kdt4+lsmHTn0fTXQYidzbhBwz2oG4UBFn8vVqtrqpGg=",
+    "originContent": "- **Show Resizer**: Toggle the display of the column resizer. The resizer will appear only on hover.",
+    "translatedContent": "- **リサイズハンドルを表示**：列のリサイズハンドルの表示を切り替えます。リサイズハンドルはホバー時のみ表示されます。"
+  },
+  {
+    "row": 119,
+    "rowsha": "WhgELC/AapRxsp5v0O/jcWciGNj4iEXuSMe+ttyJmOs=",
+    "originContent": "- **Set Resizer Color and Transparency**",
+    "translatedContent": "- **リサイズハンドルの色と透明度を設定**"
+  },
+  {
+    "row": 120,
+    "rowsha": "ZD7ZCfK8cYKm3Q7dA+qGjj59OWMAuviJp/YhIthlc2c=",
+    "originContent": "- **Set Text Color**",
+    "translatedContent": "- **テキストの色を設定**"
+  },
+  {
+    "row": 121,
+    "rowsha": "juLUXZU1nfjJS5UfyFPKDerYaZ73EGdZOl1d6HqSBiw=",
+    "originContent": "- **Set Background Color and Transparency**",
+    "translatedContent": "- **背景色と透明度を設定**"
+  },
+  {
+    "row": 122,
+    "rowsha": "i2bu8/7kO6qs3VCD2lw1W2qDULFCVorDqHYq1bFxU3M=",
+    "originContent": "- **Set Text Alignment**: Align the text within the column (e.g., `left`, `center`, `right`).",
+    "translatedContent": "- **テキストの配置を設定**：列内のテキストの配置を設定します（例：`左寄せ`、`中央揃え`、`右寄せ`）。"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "GTlWZnsd7EccJ2W+9zDbRE0wuS2Ycx/IC9szF0GhUfA=",
+    "originContent": "## 📦 Installation",
+    "translatedContent": "## 📦 インストール"
+  },
+  {
+    "row": 125,
+    "rowsha": "RIEPpfZe0J1W1eSW/I3wt64dJLMF/q+QJri7Og+s7ZM=",
+    "originContent": "This plugin is now available in the Obsidian Community Plugins! 🎉",
+    "translatedContent": "このプラグインは現在Obsidianコミュニティプラグインで利用可能です！ 🎉"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "7tNhbxCmgKTmLjsvo75LiAqNZWa9hGnFFg9MyyfPk9k=",
+    "originContent": "1. In Obsidian, go to Settings > Community Plugins.",
+    "translatedContent": "1. Obsidianで、設定 > コミュニティプラグイン に移動します。"
+  },
+  {
+    "row": 128,
+    "rowsha": "+luZdh7XlN3ngDwc3yjXqGwcYgC8Z2rJjt7Zz2jKDtI=",
+    "originContent": "2. Click Browse and search for Simple Columns.",
+    "translatedContent": "2. ブラウズをクリックし、Simple Columnsを検索します。"
+  },
+  {
+    "row": 129,
+    "rowsha": "Mbyt5KoQO2r5duBrDciH+Dg3jEIfbW5dH+vM7QL5CF0=",
+    "originContent": "3. Click Install, then Enable the plugin.",
+    "translatedContent": "3. インストールをクリックし、プラグインを有効にします。"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "BCBJB01TS7wrRwaTB7XgQAnzuc+bC0md+i6mquixW8E=",
+    "originContent": "## 🚀 Future Works",
+    "translatedContent": "## 🚀 今後の予定"
+  },
+  {
+    "row": 132,
+    "rowsha": "a6r4lx6gJsWiJGZa+LsxKpu6MefCJnh8qfPnUSJkmqM=",
+    "originContent": "1. Add background image to individual columns",
+    "translatedContent": "1. 個々の列に背景画像を追加"
+  },
+  {
+    "row": 133,
+    "rowsha": "WF0nSwC7qMjAea0uzK2MHCh6ccW/ei3D6wBBbfSkCnQ=",
+    "originContent": "2. Enable nested columns",
+    "translatedContent": "2. ネストされた列を有効化"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

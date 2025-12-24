@@ -36,29 +36,29 @@
 
 ## `json-everything` क्या है?
 
-`json-everything` के पीछे मुख्य विचारधारा यह है कि सामान्य JSON कार्यक्षमता के लिए _System.Text.Json_ क्षेत्र में अच्छा समर्थन सुनिश्चित किया जाए।
+`json-everything` के पीछे मुख्य दर्शन यह है कि सामान्य JSON कार्यक्षमता को _System.Text.Json_ स्पेस में अच्छा समर्थन मिले।
 
-इसका पहला कदम यह जांचना है कि क्या कोई अन्य परियोजनाएँ पहले से ही किसी दिए गए फ़ंक्शन का समर्थन करती हैं।
+उसका पहला कदम यह जांचना है कि क्या कोई अन्य प्रोजेक्ट्स हैं जो दी गई फ़ंक्शन का समर्थन करते हैं।
 
-यदि हाँ, तो संभवतः यहाँ उस प्रयास की पुनरावृत्ति नहीं की जाएगी। नीचे आपको अन्य परियोजनाओं की एक सूची मिलेगी, जो JSON के साथ कुछ शानदार कार्य कर रही हैं।
+यदि हाँ, तो वह प्रयास यहाँ दोहराया नहीं जाएगा। थोड़ा आगे नीचे आपको अन्य प्रोजेक्ट्स की सूची मिलेगी जो JSON के साथ कुछ शानदार कार्य कर रहे हैं।
 
-अन्यथा, इस परियोजना के लिए इसे विचारार्थ खुला रखा गया है।
+अन्यथा, इस प्रोजेक्ट के लिए विचार हेतु खुला है।
 
 <table>
 <thead>
 <tr>
 <th width="207">प्लेग्राउंड</th>
-<th width="207">प्रलेखन</th>
+<th width="207">दस्तावेज़ीकरण</th>
 <th width="207">ब्लॉग</th>
 <th width="207">इंटरएक्टिव लर्निंग</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="https://json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp" alt="Try it online" title="Try it online" height="50"><br>json-everything.net</a></td>
-<td align="center"><a href="https://docs.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png" alt="Documentation" title="Documentation" height="50"><br>docs.json-everything.net</a></td>
-<td align="center"><a href="https://blog.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png" alt="Blog" title="Blog" height="50"><br>blog.json-everything.net</a></td>
-<td align="center"><a href="https://learn.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png" alt="Learn" title="Learn" height="50"><br>learn.json-everything.net</a></td>
+<td align="center"><a href="https://json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp" alt="ऑनलाइन आज़माएँ" title="ऑनलाइन आज़माएँ" height="50"><br>json-everything.net</a></td>
+<td align="center"><a href="https://docs.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png" alt="दस्तावेज़ीकरण" title="दस्तावेज़ीकरण" height="50"><br>docs.json-everything.net</a></td>
+<td align="center"><a href="https://blog.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png" alt="ब्लॉग" title="ब्लॉग" height="50"><br>blog.json-everything.net</a></td>
+<td align="center"><a href="https://learn.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png" alt="सीखें" title="सीखें" height="50"><br>learn.json-everything.net</a></td>
 </tr>
 </tbody>
 </table>
@@ -67,34 +67,35 @@
 <thead>
 <tr>
 <th width="276">चर्चा करें</th>
-<th width="276">प्रश्न पूछें</th>
-<th width="276">बनाया गया</th>
+<th width="276">पूछें</th>
+<th width="276">इसके साथ बनाया गया</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-4klcm69x-_MA8Z2ZSZ4JNu_d3lQOVPg"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
+<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
 <td align="center"><a href="https://stackoverflow.com/questions/tagged/json-everything"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png" alt="StackOverflow" title="StackOverflow" height="50"></a></td>
-<td align="center"><a href="http://www.jetbrains.com/resharper"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg" alt="Made with Jetbrains Resharper" title="Made with Jetbrains Resharper" height="50"></a></td>
+<td align="center"><a href="http://www.jetbrains.com/resharper"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg" alt="Jetbrains Resharper के साथ बनाया गया" title="Jetbrains Resharper के साथ बनाया गया" height="50"></a></td>
 </tr>
+
 </tbody>
 </table>
 
 ## बॉक्स में क्या है?
 
-वास्तव में कई बॉक्स हैं। प्रत्येक कार्यक्षमता को उसकी अपनी लाइब्रेरी में विभाजित किया गया है, ताकि आप अपनी आवश्यकता अनुसार एक या अधिक चुन सकें।
+वास्तव में कई बॉक्स हैं। प्रत्येक कार्यक्षमता को उसकी अपनी लाइब्रेरी में विभाजित किया गया है, ताकि आप अपनी आवश्यकता के अनुसार चुन सकें।
 
-सभी लाइब्रेरी .Net Standard 2.0 और .Net 8 के लिए बनाई गई हैं।
+सभी लाइब्रेरी .Net Standard 2.0 और .Net 8 पर बनाई गई हैं।
 
 <table>
 <tbody>
 <tr>
 <td>JsonSchema.Net<br><a href="https://www.nuget.org/packages/JsonSchema.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true"></img></a></td>
-<td><a href="https://json-schema.org">JSON Schema</a>, ड्राफ्ट 6 और ऊपर</td>
+<td><a href="https://json-schema.org">JSON Schema</a>, ड्राफ्ट 6 और ऊपर के संस्करण</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Generation<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true"></img></a></td>
-<td>.Net टाइप्स से स्कीमा का निर्माण</td>
+<td>.Net प्रकारों से स्कीमा जनरेशन</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Generation.DataAnnotations<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img></a></td>
@@ -106,15 +107,15 @@
 </tr>
 <tr>
 <td>JsonSchema.Net.Data<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Data/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true"></img></a></td>
-<td>इंस्टेंस और बाहरी डेटा तक पहुँचने के लिए एक शब्दावली</td>
+<td>इंस्टेंस और बाहरी डेटा एक्सेस करने के लिए एक शब्दावली</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.ArrayExt<br><a href="https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true"></img></a></td>
-<td>एरे वेलिडेशन को बढ़ाने के लिए एक शब्दावली</td>
+<td>एरे वेलिडेशन का विस्तार करने के लिए एक शब्दावली</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.OpenApi<br><a href="https://www.nuget.org/packages/JsonSchema.Net.OpenApi/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true"></img></a></td>
-<td><a href="https://www.openapis.org/">OpenApi 3.1</a> शब्दावली विस्तार (<a href="https://github.com/gregsdennis/Graeae">Graeae</a> द्वारा उपयोग किया गया)</td>
+<td><a href="https://www.openapis.org/">OpenApi 3.1</a> शब्दावली विस्तार (इस्तेमाल किया गया <a href="https://github.com/gregsdennis/Graeae">Graeae</a> द्वारा)</td>
 </tr>
 <tr>
 <td>JsonPath.Net<br><a href="https://www.nuget.org/packages/JsonPath.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonPath.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonPath.Net.svg?svg=true"></img></a></td>
@@ -126,7 +127,7 @@
 </tr>
 <tr>
 <td>JsonPointer.Net<br><a href="https://www.nuget.org/packages/JsonPointer.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonPointer.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonPointer.Net.svg?svg=true"></img></a></td>
-<td>JSON पॉइंटर (<a href="https://tools.ietf.org/html/rfc6901">RFC 6901</a>) और रिलेटिव JSON पॉइंटर (<a href="https://tools.ietf.org/id/draft-handrews-relative-json-pointer-00.html">स्पेसिफिकेशन</a>)</td>
+<td>JSON पॉइंटर (<a href="https://tools.ietf.org/html/rfc6901">RFC 6901</a>) और रिलेटिव JSON पॉइंटर (<a href="https://tools.ietf.org/id/draft-handrews-relative-json-pointer-00.html">विशेष विवरण</a>)</td>
 </tr>
 <tr>
 <td>JsonLogic<br><a href="https://www.nuget.org/packages/JsonLogic/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonLogic.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonLogic.svg?svg=true"></img></a></td>
@@ -138,18 +139,18 @@
 </tr>
 <tr>
 <td>Json.More.Net<br><a href="https://www.nuget.org/packages/Json.More.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true"></img></a></td>
-<td>सामान्य-उपयोग एक्सटेंशन जो संभवतः <em>System.Text.Json[.Nodes]</em> में शामिल होने चाहिए थे लेकिन नहीं हुए</td>
+<td>सामान्य-उपयोग एक्सटेंशन जो संभवतः <em>System.Text.Json[.Nodes]</em> में शामिल होने चाहिए थे लेकिन नहीं किए गए</td>
 </tr>
 <tr>
 <td>Yaml2JsonNode<br><a href="https://www.nuget.org/packages/Yaml2JsonNode/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true"></img></a></td>
-<td><a href="https://github.com/aaubry/YamlDotNet">YamlDotNet</a> में YAML डाक्यूमेंट मॉडल और <code>JsonNode</code> के बीच (दोनों दिशाओं में) रूपांतरण।</td>
+<td><a href="https://github.com/aaubry/YamlDotNet">YamlDotNet</a> के YAML दस्तावेज़ मॉडल और <code>JsonNode</code> (दोनों दिशाओं) के बीच रूपांतरण।</td>
 </tr>
 </tbody>
 </table>
 
-ऊपर दी गई सभी लाइब्रेरीज़ अपने संबंधित विनिर्देशों के लिए पूर्ण समर्थन प्रदान करती हैं।
+उपरोक्त सभी लाइब्रेरीज़ अपनी संबंधित विनिर्देशों के लिए पूर्ण समर्थन प्रदान करती हैं।
 
-_JsonSchema.Net_ के लिए त्रुटि संदेश अनुवाद निम्नलिखित भाषाओं में उपलब्ध हैं:
+_JsonSchema.Net_ के लिए त्रुटि संदेश अनुवाद निम्न भाषाओं में उपलब्ध हैं:
 
 - इतालवी `it`
 - नॉर्वेजियन `nb-NO`
@@ -159,58 +160,60 @@ _JsonSchema.Net_ के लिए त्रुटि संदेश अनु�
 - स्वीडिश `sv-SE`
 - तुर्की `tr-TR`
 
-***नोट** प्रत्येक भाषा पैक अपनी स्वयं की Nuget पैकेज के रूप में उपलब्ध है।*
+***नोट** प्रत्येक भाषा पैक अपने स्वयं के Nuget पैकेज द्वारा प्रदान किया गया है।*
 
-आप [Bowtie](https://bowtie-json-schema.github.io/bowtie) पर JSON Schema Test Suite के परिणाम भी देख सकते हैं, जो विभिन्न प्लेटफार्मों पर कई इम्प्लीमेंटेशन के साथ टेस्ट सूट चलाता है।
+आप JSON Schema टेस्ट सूट के परिणाम [Bowtie](https://bowtie-json-schema.github.io/bowtie) पर भी देख सकते हैं, जो विभिन्न प्लेटफार्मों पर कई इम्प्लीमेंटेशन के खिलाफ टेस्ट सूट चलाता है।
 
-***अस्वीकरण** मेरी लाइब्रेरी, _JsonSchema.Net_, का https://jsonschema.net वेबसाइट से कोई संबंध या एसोसिएशन नहीं है, सिवाय इसके कि दोनों ही बेहतरीन JSON Schema टूल्स हैं।*
+***अस्वीकरण** मेरी लाइब्रेरी, _JsonSchema.Net_, वेबसाइट https://jsonschema.net से संबंधित या संबद्ध नहीं है, सिवाय इसके कि दोनों उत्कृष्ट JSON Schema टूल हैं।*
 
 ### अप्रचलित पैकेज
 
-ये पैकेज भी इस सुइट का हिस्सा रहे हैं, लेकिन अब समर्थित नहीं हैं।
+ये पैकेज भी इस सूट का हिस्सा रहे हैं लेकिन अब समर्थित नहीं हैं।
 
 <table>
 <tbody>
 <tr>
 <td>JsonSchema.Net.CodeGeneration<br><a href="https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true"></img></a></td>
-<td>स्कीमाओं से C# कोड जनरेट करना</td>
+<td>स्कीमाओं से C# कोड का निर्माण</td>
 <td><a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a> के पक्ष में अप्रचलित</td>
 </tr>
 </tbody>
 </table>
 
 
-## _System.Text.Json_ का समर्थन अन्य प्रोजेक्ट्स द्वारा
+## अन्य प्रोजेक्ट्स द्वारा _System.Text.Json_ समर्थन
 
-यदि आपको यहाँ वह नहीं मिलता जिसकी आपको तलाश है, तो कृपया इन शानदार प्रोजेक्ट्स में से किसी एक को आज़माएँ:
+अगर आपको यहां वह नहीं मिलता जो आप खोज रहे हैं, तो कृपया इन उत्कृष्ट प्रोजेक्ट्स में से किसी एक को आज़माएं:
 
-- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) द्वारा [@danielaparker](https://github.com/danielaparker)
-  - JSON पॉइंटर
-  - JSON पैच
-  - JSON मर्ज पैच
-  - JSON पाथ
-  - JMES पाथ
-- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) द्वारा [@mwadams](https://github.com/mwadams)
-  - C# कोड जनरेशन फोकस के साथ JSON स्कीमा वेलिडेशन
-- (और भी आ सकते हैं)
+- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) [@danielaparker](https://github.com/danielaparker) द्वारा
+  - JSON Pointer
+  - JSON Patch
+  - JSON Merge Patch
+  - JSON Path
+  - JMES Path
+- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) [@mwadams](https://github.com/mwadams) द्वारा
+  - C# कोड जेनरेशन फोकस के साथ JSON Schema वैलिडेशन
+- (आगे और भी आने वाले हैं)
 
-यदि आप JSON का उपयोग किसी ऐसे कार्य के लिए करते हैं जो इस सुइट की किसी लाइब्रेरी या ऊपर दिए गए प्रोजेक्ट्स द्वारा कवर नहीं किया गया है, तो बेझिझक [फीचर इश्यू बनाएँ](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml)।
+अगर आप JSON का उपयोग कुछ ऐसा करने के लिए करते हैं जो इस सूट की लाइब्रेरी या ऊपर दिए गए प्रोजेक्ट्स में शामिल नहीं है, तो आप [फीचर इश्यू बनाएं](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml)।
 
-यदि आप कोई अन्य प्रोजेक्ट बनाते हैं या जानते हैं, जो _System.Text.Json_ को एक्सटेंड करता है और कुछ शानदार करता है, तो मैं उसे यहाँ सूचीबद्ध करना चाहूँगा, कृपया [जनरल इश्यू बनाएँ](https://github.com/json-everything/json-everything/issues/new) और मुझे उसके बारे में बताएं।
+अगर आप _System.Text.Json_ को बढ़ाने वाले किसी अन्य प्रोजेक्ट को जानते हैं या उसका रखरखाव करते हैं, तो मैं उसे यहां सूचीबद्ध करना चाहूंगा, कृपया [जनरल इश्यू बनाएं](https://github.com/json-everything/json-everything/issues/new) और मुझे इसके बारे में बताएं।
+
 ## योगदान
 
-कृपया अधिक जानकारी के लिए [आचार संहिता](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) और [CONTRIBUTING](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) फ़ाइल देखें।
+कृपया अधिक जानकारी के लिए [कोड ऑफ कंडक्ट](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) और [योगदान](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) फ़ाइल देखें।
 
 ## प्रायोजन
 
-यदि आपको ये लाइब्रेरी उपयोगी लगी हैं और आप निरंतर विकास को बढ़ावा देना चाहते हैं, तो कृपया [रखरखावकर्ताओं को प्रायोजित करने पर विचार करें](https://github.com/sponsors/gregsdennis)।
+यदि आपको ये लाइब्रेरीज़ उपयोगी लगीं और आप निरंतर विकास को प्रोत्साहित करना चाहते हैं, तो कृपया [रखरखावकर्ताओं को प्रायोजित करने पर विचार करें](https://github.com/sponsors/gregsdennis)।
 
 ## .NET फाउंडेशन
 
-यह परियोजना [.NET Foundation](https://dotnetfoundation.org) द्वारा समर्थित है।
+इस परियोजना को [.NET फाउंडेशन](https://dotnetfoundation.org) द्वारा समर्थन प्राप्त है।
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
 
 ---

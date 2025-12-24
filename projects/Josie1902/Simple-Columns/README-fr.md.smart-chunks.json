@@ -1,0 +1,962 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 👋 Overview\n![Simple Columns](https://drive.google.com/uc?export=view&id=1Q4Vrx3FpE14U_6RtGkmfQg9UnsNJKx-j)\n\n- [👋 Overview](#-overview)\n  - [📝 Description](#-description)\n  - [⚙️ How to Use](#️-how-to-use)\n    - [Example: Creating Columns with Code Blocks](#example-creating-columns-with-code-blocks)\n    - [Example: Specifying Column Widths via YAML](#example-specifying-column-widths-via-yaml)\n  - [✨ Features](#-features)\n  - [🔧 Global Settings](#-global-settings)\n    - [Container Borders](#container-borders)\n    - [Resizer Settings](#resizer-settings)\n    - [Advanced Settings](#advanced-settings)\n  - [⚡️ Local Settings](#️-local-settings)\n    - [Available Local Settings:](#available-local-settings)\n  - [🚀 Future Works](#-future-works)\n\n\n## 📝 Description\nThe **Simple Columns** plugin for Obsidian lets you create easily resizable and customizable columns in your notes. Whether you're organizing tasks, breaking down content, or visualizing ideas, this plugin provides a simple markdown syntax to quickly adjust and structure your layouts.\n\n## ⚙️ How to Use \nTo create a simple column layout, you can either:\n- Right-click in your note and select the option from the submenu.\n\n![Submenu](https://drive.google.com/uc?export=view&id=1Nu2tmvENJFtsnbDIqnk4XqT05WSJexN_)\n\n- Use the command palette to insert columns directly. For example, type \"Add 2 columns\" to insert a two-column layout into your note.\n\nWhen you create columns, the plugin generates the following markdown with a unique ID for each column:\n",
+    "ContentSha": "YTWF6AVjLrxzK9yJ4+Lsas2SqSvg2nPZk/qOsXXb73E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 👋 Aperçu\n![Colonnes Simples](https://drive.google.com/uc?export=view&id=1Q4Vrx3FpE14U_6RtGkmfQg9UnsNJKx-j)\n\n- [👋 Aperçu](#-aperçu)\n  - [📝 Description](#-description)\n  - [⚙️ Comment Utiliser](#️-comment-utiliser)\n    - [Exemple : Création de Colonnes avec des Blocs de Code](#exemple-création-de-colonnes-avec-des-blocs-de-code)\n    - [Exemple : Spécification des Largeurs de Colonnes via YAML](#exemple-spécification-des-largeurs-de-colonnes-via-yaml)\n  - [✨ Fonctionnalités](#-fonctionnalités)\n  - [🔧 Paramètres Globaux](#-paramètres-globaux)\n    - [Bordures du Conteneur](#bordures-du-conteneur)\n    - [Paramètres du Redimensionneur](#paramètres-du-redimensionneur)\n    - [Paramètres Avancés](#paramètres-avancés)\n  - [⚡️ Paramètres Locaux](#️-paramètres-locaux)\n    - [Paramètres Locaux Disponibles :](#paramètres-locaux-disponibles-)\n  - [🚀 Travaux Futurs](#-travaux-futurs)\n\n\n## 📝 Description\nLe plugin **Colonnes Simples** pour Obsidian vous permet de créer des colonnes facilement redimensionnables et personnalisables dans vos notes. Que vous organisiez des tâches, décomposiez du contenu ou visualisiez des idées, ce plugin offre une syntaxe markdown simple pour ajuster et structurer rapidement vos mises en page.\n\n## ⚙️ Comment Utiliser \nPour créer une mise en page simple en colonnes, vous pouvez soit :\n- Faire un clic droit dans votre note et sélectionner l’option dans le sous-menu.\n\n![Sous-menu](https://drive.google.com/uc?export=view&id=1Nu2tmvENJFtsnbDIqnk4XqT05WSJexN_)\n\n- Utiliser la palette de commandes pour insérer directement des colonnes. Par exemple, tapez « Ajouter 2 colonnes » pour insérer une mise en page à deux colonnes dans votre note.\n\nLorsque vous créez des colonnes, le plugin génère le markdown suivant avec un ID unique pour chaque colonne :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "vLKcFthd9O1WjZtUWcXje7+wnxb3kM5TWgOW8hxzVFA=",
+        "originContent": "# 👋 Overview",
+        "translatedContent": "# 👋 Aperçu"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZqFeh6nXwPCRNIIIuLh1hR6hxcjJQAruLudYHlMRKSU=",
+        "originContent": "![Simple Columns](https://drive.google.com/uc?export=view&id=1Q4Vrx3FpE14U_6RtGkmfQg9UnsNJKx-j)",
+        "translatedContent": "![Colonnes Simples](https://drive.google.com/uc?export=view&id=1Q4Vrx3FpE14U_6RtGkmfQg9UnsNJKx-j)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "3F0qjZG2CkHgQb8VhhIj9t9yc2Pf6+DlFDlwtLIX4Dc=",
+        "originContent": "- [👋 Overview](#-overview)",
+        "translatedContent": "- [👋 Aperçu](#-aperçu)"
+      },
+      {
+        "row": 5,
+        "rowsha": "eYgddcZhx+ThcUi2p02yPjaaTtsKBdo8O579+nEQ9oU=",
+        "originContent": "  - [📝 Description](#-description)",
+        "translatedContent": "  - [📝 Description](#-description)"
+      },
+      {
+        "row": 6,
+        "rowsha": "ssSrJ0oHgL829QodNRzifA7MSG/CA/b1sabEjxsxt5k=",
+        "originContent": "  - [⚙️ How to Use](#️-how-to-use)",
+        "translatedContent": "  - [⚙️ Comment Utiliser](#️-comment-utiliser)"
+      },
+      {
+        "row": 7,
+        "rowsha": "BdI8pKqHtn8f6bOj7fYYbImk43l173Ca32Mb65YCuPc=",
+        "originContent": "    - [Example: Creating Columns with Code Blocks](#example-creating-columns-with-code-blocks)",
+        "translatedContent": "    - [Exemple : Création de Colonnes avec des Blocs de Code](#exemple-création-de-colonnes-avec-des-blocs-de-code)"
+      },
+      {
+        "row": 8,
+        "rowsha": "dWjRPgrS/bCXkd/pmJRzg0QXgLnHVBwgaNjvfq//+i8=",
+        "originContent": "    - [Example: Specifying Column Widths via YAML](#example-specifying-column-widths-via-yaml)",
+        "translatedContent": "    - [Exemple : Spécification des Largeurs de Colonnes via YAML](#exemple-spécification-des-largeurs-de-colonnes-via-yaml)"
+      },
+      {
+        "row": 9,
+        "rowsha": "WKhnNIewgH5C8ZTVLhj/4397G1GTeXhJckODXwe2QpU=",
+        "originContent": "  - [✨ Features](#-features)",
+        "translatedContent": "  - [✨ Fonctionnalités](#-fonctionnalités)"
+      },
+      {
+        "row": 10,
+        "rowsha": "NoFvrbe9oSMm9G7E7uhTApuotUbyL8OkS62EY4gYTcw=",
+        "originContent": "  - [🔧 Global Settings](#-global-settings)",
+        "translatedContent": "  - [🔧 Paramètres Globaux](#-paramètres-globaux)"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Xn7E0Vay/jvUfNHi+SZegLsv9xY6RgpuxZaDA72VKg=",
+        "originContent": "    - [Container Borders](#container-borders)",
+        "translatedContent": "    - [Bordures du Conteneur](#bordures-du-conteneur)"
+      },
+      {
+        "row": 12,
+        "rowsha": "RC/aBsL7xakGnuq6FsBNWs37apFy4ah7hREnV9RH2D8=",
+        "originContent": "    - [Resizer Settings](#resizer-settings)",
+        "translatedContent": "    - [Paramètres du Redimensionneur](#paramètres-du-redimensionneur)"
+      },
+      {
+        "row": 13,
+        "rowsha": "0Xj41ef0I5JB3rq5vLuwxQIQuQe/3D6qOlAvbRmAUtk=",
+        "originContent": "    - [Advanced Settings](#advanced-settings)",
+        "translatedContent": "    - [Paramètres Avancés](#paramètres-avancés)"
+      },
+      {
+        "row": 14,
+        "rowsha": "qi1kIFcaa19fRPWNC0MnGaZJc2eiPfAwVG21mpeNwO4=",
+        "originContent": "  - [⚡️ Local Settings](#️-local-settings)",
+        "translatedContent": "  - [⚡️ Paramètres Locaux](#️-paramètres-locaux)"
+      },
+      {
+        "row": 15,
+        "rowsha": "KndDPVgJwMgio89+z3X4xghTjej/v/D+9IItZdvyMiU=",
+        "originContent": "    - [Available Local Settings:](#available-local-settings)",
+        "translatedContent": "    - [Paramètres Locaux Disponibles :](#paramètres-locaux-disponibles-)"
+      },
+      {
+        "row": 16,
+        "rowsha": "z9x+LlfM5tfdywCORsKmjtT4nl6AUcuBSCNhxFLyam4=",
+        "originContent": "  - [🚀 Future Works](#-future-works)",
+        "translatedContent": "  - [🚀 Travaux Futurs](#-travaux-futurs)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Bua84/OYiVXKT6nD32Vpe6kjFqnEJRtMWXGPkYtW29o=",
+        "originContent": "## 📝 Description",
+        "translatedContent": "## 📝 Description"
+      },
+      {
+        "row": 20,
+        "rowsha": "VDIaDXPjVlZak7d9Qe4ZSmLwMhW8khcfZPQvh/eC03s=",
+        "originContent": "The **Simple Columns** plugin for Obsidian lets you create easily resizable and customizable columns in your notes. Whether you're organizing tasks, breaking down content, or visualizing ideas, this plugin provides a simple markdown syntax to quickly adjust and structure your layouts.",
+        "translatedContent": "Le plugin **Colonnes Simples** pour Obsidian vous permet de créer des colonnes facilement redimensionnables et personnalisables dans vos notes. Que vous organisiez des tâches, décomposiez du contenu ou visualisiez des idées, ce plugin offre une syntaxe markdown simple pour ajuster et structurer rapidement vos mises en page."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "a4YJ4j+mgLc2P/R92qRV7oRggqjlStbYGkCbIxKYSXo=",
+        "originContent": "## ⚙️ How to Use ",
+        "translatedContent": "## ⚙️ Comment Utiliser "
+      },
+      {
+        "row": 23,
+        "rowsha": "Ke2DnqlgLuZTF4mspq2hLMXtV9YiVnhhjG2upNqFmso=",
+        "originContent": "To create a simple column layout, you can either:",
+        "translatedContent": "Pour créer une mise en page simple en colonnes, vous pouvez soit :"
+      },
+      {
+        "row": 24,
+        "rowsha": "q0J0OVHw7EXqHX+QA9WtqvdDiJUfpAUjpHsIfXRn+dM=",
+        "originContent": "- Right-click in your note and select the option from the submenu.",
+        "translatedContent": "- Faire un clic droit dans votre note et sélectionner l’option dans le sous-menu."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "suqUdE7VY/ttfEKYsM8wrqfeIn1La3f7BVOBM1lvn7g=",
+        "originContent": "![Submenu](https://drive.google.com/uc?export=view&id=1Nu2tmvENJFtsnbDIqnk4XqT05WSJexN_)",
+        "translatedContent": "![Sous-menu](https://drive.google.com/uc?export=view&id=1Nu2tmvENJFtsnbDIqnk4XqT05WSJexN_)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "2Z+UltyayTvkrNFhocmG3h2ojjplDmQMepIvjr3iq+4=",
+        "originContent": "- Use the command palette to insert columns directly. For example, type \"Add 2 columns\" to insert a two-column layout into your note.",
+        "translatedContent": "- Utiliser la palette de commandes pour insérer directement des colonnes. Par exemple, tapez « Ajouter 2 colonnes » pour insérer une mise en page à deux colonnes dans votre note."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "HKy04Ghb2IVgZkplIUCHhUJ/AzovVunBvQflR9/UuiM=",
+        "originContent": "When you create columns, the plugin generates the following markdown with a unique ID for each column:",
+        "translatedContent": "Lorsque vous créez des colonnes, le plugin génère le markdown suivant avec un ID unique pour chaque colonne :"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```columns\nid: b52707b0-ce15-6458-825d-32615b4b7h85\n===\nColumn 1\n\n===\nColumn 2\n```",
+    "ContentSha": "CFYwodSmTgnzAAV+BlSokWOsQYVTcpjXoYarfrZuiIQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```columns\nid: b52707b0-ce15-6458-825d-32615b4b7h85\n===\nColumn 1\n\n===\nColumn 2\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "g4fLyNYS/l6HFlJQmFoL2GuXF+XPdZz7Wrk2jJxQNso=",
+        "originContent": "```columns",
+        "translatedContent": "```columns"
+      },
+      {
+        "row": 2,
+        "rowsha": "U7erk3OArE8zTH1GDUKyxxlaWT29H9PWoZvcVD9VzhY=",
+        "originContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85",
+        "translatedContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85"
+      },
+      {
+        "row": 3,
+        "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+        "originContent": "===",
+        "translatedContent": "==="
+      },
+      {
+        "row": 4,
+        "rowsha": "md4ypQdB2cH2keAoPm3qVeql8NX5rSf0HXhQTpdaMPA=",
+        "originContent": "Column 1",
+        "translatedContent": "Column 1"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+        "originContent": "===",
+        "translatedContent": "==="
+      },
+      {
+        "row": 7,
+        "rowsha": "cbBGUBFGk7X8eP0HLY1Kj2Botg7jf6Ae+Jb07eAZauc=",
+        "originContent": "Column 2",
+        "translatedContent": "Column 2"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Example: Creating Columns with Code Blocks\nTo create a layout with code blocks inside columns, use the following syntax (start and end with 4 backticks: ````):\n",
+    "ContentSha": "dPY5d+y2WdwjZs8b6V6vnSUhORORkeW4uEsvdBiQcNU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Exemple : Création de colonnes avec des blocs de code  \nPour créer une mise en page avec des blocs de code à l'intérieur des colonnes, utilisez la syntaxe suivante (commencez et terminez par 4 accents graves : ````) :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Exemple : Création de colonnes avec des blocs de code  "
+      },
+      {
+        "row": 2,
+        "rowsha": "K1UGVl5hha8vHjbcZYNvK/2iCFWBdOOim7ZMZBWH5+o=",
+        "originContent": "### Example: Creating Columns with Code Blocks",
+        "translatedContent": "Pour créer une mise en page avec des blocs de code à l'intérieur des colonnes, utilisez la syntaxe suivante (commencez et terminez par 4 accents graves : ````) :"
+      },
+      {
+        "row": 3,
+        "rowsha": "M3TBq7HVziTK+Rkv2TObqnJKLiB08QYswgVGk+x1/a4=",
+        "originContent": "To create a layout with code blocks inside columns, use the following syntax (start and end with 4 backticks: ````):",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "`````\n````columns",
+    "ContentSha": "p67FUvtgLX+bB0ZYCL970vHL2cQECUU2oFU0JUwulVE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`````\n````colonnes",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "XOWnlRAIaMvS/e4f2tlLNEMOPE2GbbpfYpMBjSkvAz4=",
+        "originContent": "`````",
+        "translatedContent": "`````"
+      },
+      {
+        "row": 2,
+        "rowsha": "d9LZsKEupRgnK/KRSZmh7mSWyGeFqpckM34Pd7nE7og=",
+        "originContent": "````columns",
+        "translatedContent": "````colonnes"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "id: b52707b0-ce15-6458-825d-32615b4b7h85\n===\nColumn 1",
+    "ContentSha": "QXj3dTCAUB1tcBIHjcDqXBN7Uz2Ja1Qm/2lYJ85ivZM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "id: b52707b0-ce15-6458-825d-32615b4b7h85\n===\nColonne 1",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "U7erk3OArE8zTH1GDUKyxxlaWT29H9PWoZvcVD9VzhY=",
+        "originContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85",
+        "translatedContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85"
+      },
+      {
+        "row": 2,
+        "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+        "originContent": "===",
+        "translatedContent": "==="
+      },
+      {
+        "row": 3,
+        "rowsha": "md4ypQdB2cH2keAoPm3qVeql8NX5rSf0HXhQTpdaMPA=",
+        "originContent": "Column 1",
+        "translatedContent": "Colonne 1"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```javascript\nconsole.log(\"Hello world\")\n```",
+    "ContentSha": "N+qMJyG0QSk3QOSEY0mek31wytPc6ll43QD4kge7VkM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```javascript\nconsole.log(\"Hello world\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+        "originContent": "```javascript",
+        "translatedContent": "```javascript"
+      },
+      {
+        "row": 2,
+        "rowsha": "137F2E+1+8gYl1S1TpObzZW5aIMtqrqPZC19SPXuheo=",
+        "originContent": "console.log(\"Hello world\")",
+        "translatedContent": "console.log(\"Hello world\")"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "===\nColumn 2",
+    "ContentSha": "xiWh2vzfz9KFJCJUgDomWHiD1zvmAFYXjV3XI9//pgU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "===\nColonne 2",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+        "originContent": "===",
+        "translatedContent": "==="
+      },
+      {
+        "row": 2,
+        "rowsha": "cbBGUBFGk7X8eP0HLY1Kj2Botg7jf6Ae+Jb07eAZauc=",
+        "originContent": "Column 2",
+        "translatedContent": "Colonne 2"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "````\n`````",
+    "ContentSha": "5xIRkbcN9/L4ZzZht9+0C5O+oTCE+Q3ZKI6cAGb5HjU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "````\n`````",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "MpvA5TLaYie/8aAz02NkgKLlS+fOGFzbx44GNyxZMkg=",
+        "originContent": "````",
+        "translatedContent": "````"
+      },
+      {
+        "row": 2,
+        "rowsha": "XOWnlRAIaMvS/e4f2tlLNEMOPE2GbbpfYpMBjSkvAz4=",
+        "originContent": "`````",
+        "translatedContent": "`````"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n### Example: Specifying Column Widths via YAML\n\nYou can set custom widths for specific columns using YAML. Columns with a specified ratio will take priority, and any columns without a defined ratio will share the remaining space equally.\n",
+    "ContentSha": "zEcyLc4hyhpTVBHbvOEARAo13KiS1npOSju+U61Up1c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Exemple : Spécification des largeurs de colonnes via YAML\n\nVous pouvez définir des largeurs personnalisées pour des colonnes spécifiques en utilisant YAML. Les colonnes avec un ratio spécifié auront la priorité, et toutes les colonnes sans ratio défini partageront également l’espace restant.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "sfBsLWcVXPLvmFrgRtCVYNbyFGRkd1KfAY8NlaVCbNM=",
+        "originContent": "### Example: Specifying Column Widths via YAML",
+        "translatedContent": "### Exemple : Spécification des largeurs de colonnes via YAML"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "7U6B95BzLS8D6Ybjk+6a9MqBvkkrjAZEiDphLybVpMY=",
+        "originContent": "You can set custom widths for specific columns using YAML. Columns with a specified ratio will take priority, and any columns without a defined ratio will share the remaining space equally.",
+        "translatedContent": "Vous pouvez définir des largeurs personnalisées pour des colonnes spécifiques en utilisant YAML. Les colonnes avec un ratio spécifié auront la priorité, et toutes les colonnes sans ratio défini partageront également l’espace restant."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\nid: b52707b0-ce15-6458-825d-32615b4b7h85\ncolumn-1-ratio: 60%\n===\nColumn 1\nhello\n===\nColumn 2\n```",
+    "ContentSha": "ZiXrHZEOeGwgbhJP0NhsSg/TpfBWKyIPE0HYl/WDNrI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nid: b52707b0-ce15-6458-825d-32615b4b7h85\ncolumn-1-ratio: 60%\n===\nColumn 1\nhello\n===\nColumn 2\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "U7erk3OArE8zTH1GDUKyxxlaWT29H9PWoZvcVD9VzhY=",
+        "originContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85",
+        "translatedContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85"
+      },
+      {
+        "row": 3,
+        "rowsha": "BMAWksiPHIfn6M0XXuqCzIwzFZrbHv6F51lLMSgTMH4=",
+        "originContent": "column-1-ratio: 60%",
+        "translatedContent": "column-1-ratio: 60%"
+      },
+      {
+        "row": 4,
+        "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+        "originContent": "===",
+        "translatedContent": "==="
+      },
+      {
+        "row": 5,
+        "rowsha": "md4ypQdB2cH2keAoPm3qVeql8NX5rSf0HXhQTpdaMPA=",
+        "originContent": "Column 1",
+        "translatedContent": "Column 1"
+      },
+      {
+        "row": 6,
+        "rowsha": "LPJNul+wow4m6DsqxbninhsWHlwfp0JecwQzYpOLmCQ=",
+        "originContent": "hello",
+        "translatedContent": "hello"
+      },
+      {
+        "row": 7,
+        "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+        "originContent": "===",
+        "translatedContent": "==="
+      },
+      {
+        "row": 8,
+        "rowsha": "cbBGUBFGk7X8eP0HLY1Kj2Botg7jf6Ae+Jb07eAZauc=",
+        "originContent": "Column 2",
+        "translatedContent": "Column 2"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nExplanation:\n- column-1-ratio: 60% → Column 1 takes 60% of the container width.\n- Column 2 (not specified) automatically fills the remaining 40%.\n- You can define ratios for multiple columns (column-2-ratio, column-3-ratio, etc.), up to 4 columns.\n\n## ✨ Features\n- **Unique Column IDs**: Each column is generated with a unique ID, ensuring you can style or reference columns independently.\n- **Easily Resizable Columns**: Columns are fully resizable, giving you complete control over the layout of your content.\n- **Responsive Layouts**: Columns adjust automatically based on your screen size, providing a clean and adaptable layout.\n- **Highly Customizable**: Columns are fully adjustable, allowing you to easily control their size, spacing, and alignment to suit your needs.\n\n## 🔧 Global Settings\n\nThe **Global Settings** allow you to define default styles and behaviors for all columns across your Obsidian vault. These settings can be accessed and configured in the plugin settings.\n\n![Global Settings](https://drive.google.com/uc?export=view&id=1WPBg0Y3pffL5pw1dVRUC81TMMlaod-eK)\n\n### Container Borders\nYou can customize the appearance of column containers with borders for better visibility.\n\n- **Show Container Borders**: Toggle this setting to display borders around each column container.\n- **Border Width**: Set the width of the column container borders.\n- **Border Color**: Choose the color of the borders.\n- **Border Transparency**: Adjust the transparency of the borders using RGBA color codes. The alpha value (last number) controls the transparency.\n\n### Resizer Settings\nYou can also customize the column resizer's appearance and behavior.\n\n- **Show Resizer**: Toggle this setting to show or hide the column resizer between columns. The resizer will only appear when you hover over the column divider.\n- **Resizer Width**: Set the width of the resizer element.\n- **Resizer Color**: Choose the color of the resizer.\n- **Resizer Transparency**: Adjust the transparency of the resizer using RGBA color codes.\n\n### Advanced Settings\n- **Reset Styles**: This will revert all column styles, including border settings and resizer styles, back to their default values.\n- **Clear Local Storage**: This will remove all custom settings and restore the plugin to its initial state. Use this option if you encounter issues or want to start fresh.\n\n\n## ⚡️ Local Settings",
+    "ContentSha": "J1JPoSJVQhQ8Ggaffvpy+4h3FAKKR4di6EJQ3nsR2tY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nExplication :\n- column-1-ratio : 60 % → La colonne 1 prend 60 % de la largeur du conteneur.\n- La colonne 2 (non spécifiée) remplit automatiquement les 40 % restants.\n- Vous pouvez définir des ratios pour plusieurs colonnes (column-2-ratio, column-3-ratio, etc.), jusqu’à 4 colonnes.\n\n## ✨ Fonctionnalités\n- **Identifiants uniques de colonnes** : Chaque colonne est générée avec un identifiant unique, garantissant que vous pouvez styliser ou référencer les colonnes de manière indépendante.\n- **Colonnes facilement redimensionnables** : Les colonnes sont entièrement redimensionnables, vous offrant un contrôle total sur la mise en page de votre contenu.\n- **Mises en page réactives** : Les colonnes s’ajustent automatiquement en fonction de la taille de votre écran, offrant une mise en page propre et adaptable.\n- **Fortement personnalisables** : Les colonnes sont entièrement ajustables, vous permettant de contrôler facilement leur taille, leur espacement et leur alignement selon vos besoins.\n\n## 🔧 Paramètres globaux\n\nLes **paramètres globaux** vous permettent de définir des styles et comportements par défaut pour toutes les colonnes dans votre coffre Obsidian. Ces paramètres peuvent être consultés et configurés dans les réglages du plugin.\n\n![Paramètres globaux](https://drive.google.com/uc?export=view&id=1WPBg0Y3pffL5pw1dVRUC81TMMlaod-eK)\n\n### Bordures du conteneur\nVous pouvez personnaliser l’apparence des conteneurs de colonnes avec des bordures pour une meilleure visibilité.\n\n- **Afficher les bordures du conteneur** : Activez ce paramètre pour afficher les bordures autour de chaque conteneur de colonne.\n- **Largeur de la bordure** : Définissez la largeur des bordures des conteneurs de colonnes.\n- **Couleur de la bordure** : Choisissez la couleur des bordures.\n- **Transparence de la bordure** : Ajustez la transparence des bordures en utilisant des codes de couleur RGBA. La valeur alpha (dernier chiffre) contrôle la transparence.\n\n### Paramètres du redimensionneur\nVous pouvez également personnaliser l’apparence et le comportement du redimensionneur de colonnes.\n\n- **Afficher le redimensionneur** : Activez ce paramètre pour afficher ou masquer le redimensionneur entre les colonnes. Le redimensionneur n’apparaîtra que lorsque vous survolerez la division des colonnes.\n- **Largeur du redimensionneur** : Définissez la largeur de l’élément redimensionneur.\n- **Couleur du redimensionneur** : Choisissez la couleur du redimensionneur.\n- **Transparence du redimensionneur** : Ajustez la transparence du redimensionneur en utilisant des codes de couleur RGBA.\n\n### Paramètres avancés\n- **Réinitialiser les styles** : Cela rétablira tous les styles de colonnes, y compris les réglages des bordures et du redimensionneur, à leurs valeurs par défaut.\n- **Effacer le stockage local** : Cela supprimera tous les réglages personnalisés et restaurera le plugin à son état initial. Utilisez cette option si vous rencontrez des problèmes ou souhaitez repartir à zéro.\n\n\n## ⚡️ Paramètres locaux",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "NjGp2YviscRzDb1TI5NtZaYvI5E08IX2AOLcHhlua4Q=",
+        "originContent": "Explanation:",
+        "translatedContent": "Explication :"
+      },
+      {
+        "row": 3,
+        "rowsha": "2AiUxppe4QrZg9XELFVn9sLYawZYlmVTgZkbozbRzWE=",
+        "originContent": "- column-1-ratio: 60% → Column 1 takes 60% of the container width.",
+        "translatedContent": "- column-1-ratio : 60 % → La colonne 1 prend 60 % de la largeur du conteneur."
+      },
+      {
+        "row": 4,
+        "rowsha": "qPAlT+f2re6q0JZiM+OixalPlJgdok0aEmEomGSgoHM=",
+        "originContent": "- Column 2 (not specified) automatically fills the remaining 40%.",
+        "translatedContent": "- La colonne 2 (non spécifiée) remplit automatiquement les 40 % restants."
+      },
+      {
+        "row": 5,
+        "rowsha": "wsLEL4DWADZfkB0PHtO66mBikMq6NGo2H3bEVCnVbys=",
+        "originContent": "- You can define ratios for multiple columns (column-2-ratio, column-3-ratio, etc.), up to 4 columns.",
+        "translatedContent": "- Vous pouvez définir des ratios pour plusieurs colonnes (column-2-ratio, column-3-ratio, etc.), jusqu’à 4 colonnes."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": "## ✨ Fonctionnalités"
+      },
+      {
+        "row": 8,
+        "rowsha": "vlRwS/JjmhEYOSUCeuEZkZcc7LcfHRH9vf673NgBMlc=",
+        "originContent": "- **Unique Column IDs**: Each column is generated with a unique ID, ensuring you can style or reference columns independently.",
+        "translatedContent": "- **Identifiants uniques de colonnes** : Chaque colonne est générée avec un identifiant unique, garantissant que vous pouvez styliser ou référencer les colonnes de manière indépendante."
+      },
+      {
+        "row": 9,
+        "rowsha": "F4Sg56uawkTTG7q41lBAu4DA77ClCUmn+7sZhGl5Z58=",
+        "originContent": "- **Easily Resizable Columns**: Columns are fully resizable, giving you complete control over the layout of your content.",
+        "translatedContent": "- **Colonnes facilement redimensionnables** : Les colonnes sont entièrement redimensionnables, vous offrant un contrôle total sur la mise en page de votre contenu."
+      },
+      {
+        "row": 10,
+        "rowsha": "PW7NuFny0aU0ilpaa6DQ/y8mXHnChmSlcPXruDVL8bE=",
+        "originContent": "- **Responsive Layouts**: Columns adjust automatically based on your screen size, providing a clean and adaptable layout.",
+        "translatedContent": "- **Mises en page réactives** : Les colonnes s’ajustent automatiquement en fonction de la taille de votre écran, offrant une mise en page propre et adaptable."
+      },
+      {
+        "row": 11,
+        "rowsha": "FFuzUtk/NMfjDo3ZTSrxDthRCyg60CBXbMlzrbDrnd8=",
+        "originContent": "- **Highly Customizable**: Columns are fully adjustable, allowing you to easily control their size, spacing, and alignment to suit your needs.",
+        "translatedContent": "- **Fortement personnalisables** : Les colonnes sont entièrement ajustables, vous permettant de contrôler facilement leur taille, leur espacement et leur alignement selon vos besoins."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "4BhSil/DQXC5n4PPVwRL+I0dqKBwCPiLvKnwD45Js5c=",
+        "originContent": "## 🔧 Global Settings",
+        "translatedContent": "## 🔧 Paramètres globaux"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "htjUj6xc5YGur99SfBJF/DDHhFNYfHNsMXYsBsOAd/c=",
+        "originContent": "The **Global Settings** allow you to define default styles and behaviors for all columns across your Obsidian vault. These settings can be accessed and configured in the plugin settings.",
+        "translatedContent": "Les **paramètres globaux** vous permettent de définir des styles et comportements par défaut pour toutes les colonnes dans votre coffre Obsidian. Ces paramètres peuvent être consultés et configurés dans les réglages du plugin."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "I9I1wMaBIddbUmryKB8AkVFvuQ8FT6MuJLzjzqOGiHw=",
+        "originContent": "![Global Settings](https://drive.google.com/uc?export=view&id=1WPBg0Y3pffL5pw1dVRUC81TMMlaod-eK)",
+        "translatedContent": "![Paramètres globaux](https://drive.google.com/uc?export=view&id=1WPBg0Y3pffL5pw1dVRUC81TMMlaod-eK)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "cmDGLh4Wtbd0S7xsQuoFchXjzwI1JORdDvoo5rFfiLY=",
+        "originContent": "### Container Borders",
+        "translatedContent": "### Bordures du conteneur"
+      },
+      {
+        "row": 20,
+        "rowsha": "W6eTWIuuQoOvnQqfC2kF8g/l0yIPhPEacIFZ470nAE0=",
+        "originContent": "You can customize the appearance of column containers with borders for better visibility.",
+        "translatedContent": "Vous pouvez personnaliser l’apparence des conteneurs de colonnes avec des bordures pour une meilleure visibilité."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "7tRfyn6QnQMR4Zj1JhBxeGsS5jyAKnXu/3Ta1b0Jm1o=",
+        "originContent": "- **Show Container Borders**: Toggle this setting to display borders around each column container.",
+        "translatedContent": "- **Afficher les bordures du conteneur** : Activez ce paramètre pour afficher les bordures autour de chaque conteneur de colonne."
+      },
+      {
+        "row": 23,
+        "rowsha": "+ffO3PsjirWAYwdz0vtT5+O6urkeYZLealQQeOS9lw4=",
+        "originContent": "- **Border Width**: Set the width of the column container borders.",
+        "translatedContent": "- **Largeur de la bordure** : Définissez la largeur des bordures des conteneurs de colonnes."
+      },
+      {
+        "row": 24,
+        "rowsha": "XaZvBNgmoUjdokfMkn8rQhDtlCvrcFHY4fXln4dCWsU=",
+        "originContent": "- **Border Color**: Choose the color of the borders.",
+        "translatedContent": "- **Couleur de la bordure** : Choisissez la couleur des bordures."
+      },
+      {
+        "row": 25,
+        "rowsha": "0cDkTM0BsOuMMNSm5UHOF0tDUKMRs/lRXCgMTpLYFk8=",
+        "originContent": "- **Border Transparency**: Adjust the transparency of the borders using RGBA color codes. The alpha value (last number) controls the transparency.",
+        "translatedContent": "- **Transparence de la bordure** : Ajustez la transparence des bordures en utilisant des codes de couleur RGBA. La valeur alpha (dernier chiffre) contrôle la transparence."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "cnmZPpSCzuH0xh8xeDxOh3xOMX6HuBRI5e2Vmfn9Wy8=",
+        "originContent": "### Resizer Settings",
+        "translatedContent": "### Paramètres du redimensionneur"
+      },
+      {
+        "row": 28,
+        "rowsha": "1FMasTnTGu72Cp58akTQYZzhr3lFbn7gp/7QlAKsF0s=",
+        "originContent": "You can also customize the column resizer's appearance and behavior.",
+        "translatedContent": "Vous pouvez également personnaliser l’apparence et le comportement du redimensionneur de colonnes."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "4iCP4vT1CjiKwz9UpMizshkylylASR6Q64IFse8LqkE=",
+        "originContent": "- **Show Resizer**: Toggle this setting to show or hide the column resizer between columns. The resizer will only appear when you hover over the column divider.",
+        "translatedContent": "- **Afficher le redimensionneur** : Activez ce paramètre pour afficher ou masquer le redimensionneur entre les colonnes. Le redimensionneur n’apparaîtra que lorsque vous survolerez la division des colonnes."
+      },
+      {
+        "row": 31,
+        "rowsha": "sEFgAPwu/cV3kHS2y5em6rPZORtfwgq5SBRwGQ0FWjg=",
+        "originContent": "- **Resizer Width**: Set the width of the resizer element.",
+        "translatedContent": "- **Largeur du redimensionneur** : Définissez la largeur de l’élément redimensionneur."
+      },
+      {
+        "row": 32,
+        "rowsha": "Edo5O1tZEkbSj2qscLuGDmKP/XzCR+H9qlG+n/fureI=",
+        "originContent": "- **Resizer Color**: Choose the color of the resizer.",
+        "translatedContent": "- **Couleur du redimensionneur** : Choisissez la couleur du redimensionneur."
+      },
+      {
+        "row": 33,
+        "rowsha": "zb4Q7MkfUaPaBfhlCEbP9E8XtGWZqvJ2M2pEfaIiyy8=",
+        "originContent": "- **Resizer Transparency**: Adjust the transparency of the resizer using RGBA color codes.",
+        "translatedContent": "- **Transparence du redimensionneur** : Ajustez la transparence du redimensionneur en utilisant des codes de couleur RGBA."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "jAEi32XywAKyePIzG6psgsa52UohSfN5CnjgPubqbNU=",
+        "originContent": "### Advanced Settings",
+        "translatedContent": "### Paramètres avancés"
+      },
+      {
+        "row": 36,
+        "rowsha": "mHyofx8MvZvxHxAqZLUoUliT3gUqQBvQV7ZRVczdix0=",
+        "originContent": "- **Reset Styles**: This will revert all column styles, including border settings and resizer styles, back to their default values.",
+        "translatedContent": "- **Réinitialiser les styles** : Cela rétablira tous les styles de colonnes, y compris les réglages des bordures et du redimensionneur, à leurs valeurs par défaut."
+      },
+      {
+        "row": 37,
+        "rowsha": "pkB7Am2cVQhqro4u7qjY1Yg23dGRnGWDU76dwYXgEDk=",
+        "originContent": "- **Clear Local Storage**: This will remove all custom settings and restore the plugin to its initial state. Use this option if you encounter issues or want to start fresh.",
+        "translatedContent": "- **Effacer le stockage local** : Cela supprimera tous les réglages personnalisés et restaurera le plugin à son état initial. Utilisez cette option si vous rencontrez des problèmes ou souhaitez repartir à zéro."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "G6d/QKbrwV9YMXOiY7UmVGgJ0KF5FrIc3IAxOu4O4tw=",
+        "originContent": "## ⚡️ Local Settings",
+        "translatedContent": "## ⚡️ Paramètres locaux"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "The **Local Settings** allow you to apply more **granular customizations** to individual columns within your notes.\n\n![Local Settings](https://drive.google.com/uc?export=view&id=1q11NA49CeizEAozavC1YAiiSI7J7oe5U)\n\n### Available Local Settings:\n- **Reset All Styles**: Revert all custom styles for the column to their default settings.\n- **Show Border**\n- **Set Border Color and Transparency**\n- **Show Resizer**: Toggle the display of the column resizer. The resizer will appear only on hover.\n- **Set Resizer Color and Transparency**\n- **Set Text Color**\n- **Set Background Color and Transparency**\n- **Set Text Alignment**: Align the text within the column (e.g., `left`, `center`, `right`).\n\n## 📦 Installation\nThis plugin is now available in the Obsidian Community Plugins! 🎉\n\n1. In Obsidian, go to Settings > Community Plugins.\n2. Click Browse and search for Simple Columns.\n3. Click Install, then Enable the plugin.\n\n## 🚀 Future Works\n1. Add background image to individual columns\n2. Enable nested columns\n",
+    "ContentSha": "2Va6CuI/9byPZdZxkSIDvRQ/N3wfYwq2LVoxapWZAy4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Les **Paramètres Locaux** vous permettent d'appliquer des **personnalisations plus précises** aux colonnes individuelles de vos notes.\n\n![Paramètres Locaux](https://drive.google.com/uc?export=view&id=1q11NA49CeizEAozavC1YAiiSI7J7oe5U)\n\n### Paramètres Locaux Disponibles :\n- **Réinitialiser Tous les Styles** : Ramener tous les styles personnalisés de la colonne à leurs paramètres par défaut.\n- **Afficher la Bordure**\n- **Définir la Couleur et la Transparence de la Bordure**\n- **Afficher le Redimensionneur** : Activer ou désactiver l'affichage du redimensionneur de colonne. Le redimensionneur n'apparaît qu'au survol.\n- **Définir la Couleur et la Transparence du Redimensionneur**\n- **Définir la Couleur du Texte**\n- **Définir la Couleur et la Transparence de l'Arrière-plan**\n- **Définir l'Alignement du Texte** : Aligner le texte dans la colonne (par exemple, `gauche`, `centre`, `droite`).\n\n## 📦 Installation\nCe plugin est désormais disponible dans les Plugins Communautaires d'Obsidian ! 🎉\n\n1. Dans Obsidian, allez dans Réglages > Plugins Communautaires.\n2. Cliquez sur Parcourir et cherchez Simple Columns.\n3. Cliquez sur Installer, puis Activez le plugin.\n\n## 🚀 Travaux Futurs\n1. Ajouter une image d'arrière-plan aux colonnes individuelles\n2. Permettre les colonnes imbriquées\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "S43eBq2KhGQGHWTIqCPlOqAf5ubS4bNQ1OoezNXtwj0=",
+        "originContent": "The **Local Settings** allow you to apply more **granular customizations** to individual columns within your notes.",
+        "translatedContent": "Les **Paramètres Locaux** vous permettent d'appliquer des **personnalisations plus précises** aux colonnes individuelles de vos notes."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Fe/iYK19qVGW0oByfi4vFQrBS+n5pt/HvdNnh7UFvGg=",
+        "originContent": "![Local Settings](https://drive.google.com/uc?export=view&id=1q11NA49CeizEAozavC1YAiiSI7J7oe5U)",
+        "translatedContent": "![Paramètres Locaux](https://drive.google.com/uc?export=view&id=1q11NA49CeizEAozavC1YAiiSI7J7oe5U)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "+o7V7ZoPC90M0nlgnLsf9uVv6s3ozQSZkTjF3+iWTVU=",
+        "originContent": "### Available Local Settings:",
+        "translatedContent": "### Paramètres Locaux Disponibles :"
+      },
+      {
+        "row": 6,
+        "rowsha": "o2p953iKPwmM39ycDxcVDguD6EJcd9qLXZKjMBO9dv4=",
+        "originContent": "- **Reset All Styles**: Revert all custom styles for the column to their default settings.",
+        "translatedContent": "- **Réinitialiser Tous les Styles** : Ramener tous les styles personnalisés de la colonne à leurs paramètres par défaut."
+      },
+      {
+        "row": 7,
+        "rowsha": "eJIFgDwcdZwW+UV7fq6uo9gSKT3bPK08vFfu49X2vZM=",
+        "originContent": "- **Show Border**",
+        "translatedContent": "- **Afficher la Bordure**"
+      },
+      {
+        "row": 8,
+        "rowsha": "8Ax2CUXb/fl4RSKZlwvp0Eh/+pGrgcH+s+siH5yb2NA=",
+        "originContent": "- **Set Border Color and Transparency**",
+        "translatedContent": "- **Définir la Couleur et la Transparence de la Bordure**"
+      },
+      {
+        "row": 9,
+        "rowsha": "Kdt4+lsmHTn0fTXQYidzbhBwz2oG4UBFn8vVqtrqpGg=",
+        "originContent": "- **Show Resizer**: Toggle the display of the column resizer. The resizer will appear only on hover.",
+        "translatedContent": "- **Afficher le Redimensionneur** : Activer ou désactiver l'affichage du redimensionneur de colonne. Le redimensionneur n'apparaît qu'au survol."
+      },
+      {
+        "row": 10,
+        "rowsha": "WhgELC/AapRxsp5v0O/jcWciGNj4iEXuSMe+ttyJmOs=",
+        "originContent": "- **Set Resizer Color and Transparency**",
+        "translatedContent": "- **Définir la Couleur et la Transparence du Redimensionneur**"
+      },
+      {
+        "row": 11,
+        "rowsha": "ZD7ZCfK8cYKm3Q7dA+qGjj59OWMAuviJp/YhIthlc2c=",
+        "originContent": "- **Set Text Color**",
+        "translatedContent": "- **Définir la Couleur du Texte**"
+      },
+      {
+        "row": 12,
+        "rowsha": "juLUXZU1nfjJS5UfyFPKDerYaZ73EGdZOl1d6HqSBiw=",
+        "originContent": "- **Set Background Color and Transparency**",
+        "translatedContent": "- **Définir la Couleur et la Transparence de l'Arrière-plan**"
+      },
+      {
+        "row": 13,
+        "rowsha": "i2bu8/7kO6qs3VCD2lw1W2qDULFCVorDqHYq1bFxU3M=",
+        "originContent": "- **Set Text Alignment**: Align the text within the column (e.g., `left`, `center`, `right`).",
+        "translatedContent": "- **Définir l'Alignement du Texte** : Aligner le texte dans la colonne (par exemple, `gauche`, `centre`, `droite`)."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "GTlWZnsd7EccJ2W+9zDbRE0wuS2Ycx/IC9szF0GhUfA=",
+        "originContent": "## 📦 Installation",
+        "translatedContent": "## 📦 Installation"
+      },
+      {
+        "row": 16,
+        "rowsha": "RIEPpfZe0J1W1eSW/I3wt64dJLMF/q+QJri7Og+s7ZM=",
+        "originContent": "This plugin is now available in the Obsidian Community Plugins! 🎉",
+        "translatedContent": "Ce plugin est désormais disponible dans les Plugins Communautaires d'Obsidian ! 🎉"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "7tNhbxCmgKTmLjsvo75LiAqNZWa9hGnFFg9MyyfPk9k=",
+        "originContent": "1. In Obsidian, go to Settings > Community Plugins.",
+        "translatedContent": "1. Dans Obsidian, allez dans Réglages > Plugins Communautaires."
+      },
+      {
+        "row": 19,
+        "rowsha": "+luZdh7XlN3ngDwc3yjXqGwcYgC8Z2rJjt7Zz2jKDtI=",
+        "originContent": "2. Click Browse and search for Simple Columns.",
+        "translatedContent": "2. Cliquez sur Parcourir et cherchez Simple Columns."
+      },
+      {
+        "row": 20,
+        "rowsha": "Mbyt5KoQO2r5duBrDciH+Dg3jEIfbW5dH+vM7QL5CF0=",
+        "originContent": "3. Click Install, then Enable the plugin.",
+        "translatedContent": "3. Cliquez sur Installer, puis Activez le plugin."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "BCBJB01TS7wrRwaTB7XgQAnzuc+bC0md+i6mquixW8E=",
+        "originContent": "## 🚀 Future Works",
+        "translatedContent": "## 🚀 Travaux Futurs"
+      },
+      {
+        "row": 23,
+        "rowsha": "a6r4lx6gJsWiJGZa+LsxKpu6MefCJnh8qfPnUSJkmqM=",
+        "originContent": "1. Add background image to individual columns",
+        "translatedContent": "1. Ajouter une image d'arrière-plan aux colonnes individuelles"
+      },
+      {
+        "row": 24,
+        "rowsha": "WF0nSwC7qMjAea0uzK2MHCh6ccW/ei3D6wBBbfSkCnQ=",
+        "originContent": "2. Enable nested columns",
+        "translatedContent": "2. Permettre les colonnes imbriquées"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,806 @@
+[
+  {
+    "row": 1,
+    "rowsha": "vLKcFthd9O1WjZtUWcXje7+wnxb3kM5TWgOW8hxzVFA=",
+    "originContent": "# 👋 Overview",
+    "translatedContent": "# 👋 개요"
+  },
+  {
+    "row": 2,
+    "rowsha": "ZqFeh6nXwPCRNIIIuLh1hR6hxcjJQAruLudYHlMRKSU=",
+    "originContent": "![Simple Columns](https://drive.google.com/uc?export=view&id=1Q4Vrx3FpE14U_6RtGkmfQg9UnsNJKx-j)",
+    "translatedContent": "![Simple Columns](https://drive.google.com/uc?export=view&id=1Q4Vrx3FpE14U_6RtGkmfQg9UnsNJKx-j)"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "3F0qjZG2CkHgQb8VhhIj9t9yc2Pf6+DlFDlwtLIX4Dc=",
+    "originContent": "- [👋 Overview](#-overview)",
+    "translatedContent": "- [👋 개요](#-개요)"
+  },
+  {
+    "row": 5,
+    "rowsha": "eYgddcZhx+ThcUi2p02yPjaaTtsKBdo8O579+nEQ9oU=",
+    "originContent": "  - [📝 Description](#-description)",
+    "translatedContent": "  - [📝 설명](#-설명)"
+  },
+  {
+    "row": 6,
+    "rowsha": "ssSrJ0oHgL829QodNRzifA7MSG/CA/b1sabEjxsxt5k=",
+    "originContent": "  - [⚙️ How to Use](#️-how-to-use)",
+    "translatedContent": "  - [⚙️ 사용 방법](#️-사용-방법)"
+  },
+  {
+    "row": 7,
+    "rowsha": "BdI8pKqHtn8f6bOj7fYYbImk43l173Ca32Mb65YCuPc=",
+    "originContent": "    - [Example: Creating Columns with Code Blocks](#example-creating-columns-with-code-blocks)",
+    "translatedContent": "    - [예제: 코드 블록으로 컬럼 만들기](#예제-코드-블록으로-컬럼-만들기)"
+  },
+  {
+    "row": 8,
+    "rowsha": "dWjRPgrS/bCXkd/pmJRzg0QXgLnHVBwgaNjvfq//+i8=",
+    "originContent": "    - [Example: Specifying Column Widths via YAML](#example-specifying-column-widths-via-yaml)",
+    "translatedContent": "    - [예제: YAML로 컬럼 너비 지정하기](#예제-yaml로-컬럼-너비-지정하기)"
+  },
+  {
+    "row": 9,
+    "rowsha": "WKhnNIewgH5C8ZTVLhj/4397G1GTeXhJckODXwe2QpU=",
+    "originContent": "  - [✨ Features](#-features)",
+    "translatedContent": "  - [✨ 기능](#-기능)"
+  },
+  {
+    "row": 10,
+    "rowsha": "NoFvrbe9oSMm9G7E7uhTApuotUbyL8OkS62EY4gYTcw=",
+    "originContent": "  - [🔧 Global Settings](#-global-settings)",
+    "translatedContent": "  - [🔧 전역 설정](#-전역-설정)"
+  },
+  {
+    "row": 11,
+    "rowsha": "0Xn7E0Vay/jvUfNHi+SZegLsv9xY6RgpuxZaDA72VKg=",
+    "originContent": "    - [Container Borders](#container-borders)",
+    "translatedContent": "    - [컨테이너 테두리](#컨테이너-테두리)"
+  },
+  {
+    "row": 12,
+    "rowsha": "RC/aBsL7xakGnuq6FsBNWs37apFy4ah7hREnV9RH2D8=",
+    "originContent": "    - [Resizer Settings](#resizer-settings)",
+    "translatedContent": "    - [리사이저 설정](#리사이저-설정)"
+  },
+  {
+    "row": 13,
+    "rowsha": "0Xj41ef0I5JB3rq5vLuwxQIQuQe/3D6qOlAvbRmAUtk=",
+    "originContent": "    - [Advanced Settings](#advanced-settings)",
+    "translatedContent": "    - [고급 설정](#고급-설정)"
+  },
+  {
+    "row": 14,
+    "rowsha": "qi1kIFcaa19fRPWNC0MnGaZJc2eiPfAwVG21mpeNwO4=",
+    "originContent": "  - [⚡️ Local Settings](#️-local-settings)",
+    "translatedContent": "  - [⚡️ 로컬 설정](#️-로컬-설정)"
+  },
+  {
+    "row": 15,
+    "rowsha": "KndDPVgJwMgio89+z3X4xghTjej/v/D+9IItZdvyMiU=",
+    "originContent": "    - [Available Local Settings:](#available-local-settings)",
+    "translatedContent": "    - [사용 가능한 로컬 설정:](#사용-가능한-로컬-설정)"
+  },
+  {
+    "row": 16,
+    "rowsha": "z9x+LlfM5tfdywCORsKmjtT4nl6AUcuBSCNhxFLyam4=",
+    "originContent": "  - [🚀 Future Works](#-future-works)",
+    "translatedContent": "  - [🚀 향후 작업](#-향후-작업)"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "Bua84/OYiVXKT6nD32Vpe6kjFqnEJRtMWXGPkYtW29o=",
+    "originContent": "## 📝 Description",
+    "translatedContent": "## 📝 설명"
+  },
+  {
+    "row": 20,
+    "rowsha": "VDIaDXPjVlZak7d9Qe4ZSmLwMhW8khcfZPQvh/eC03s=",
+    "originContent": "The **Simple Columns** plugin for Obsidian lets you create easily resizable and customizable columns in your notes. Whether you're organizing tasks, breaking down content, or visualizing ideas, this plugin provides a simple markdown syntax to quickly adjust and structure your layouts.",
+    "translatedContent": "**Simple Columns** 플러그인은 Obsidian에서 노트 내 쉽게 크기 조절 및 사용자 지정 가능한 컬럼을 만들 수 있게 해줍니다. 작업을 정리하거나, 내용을 분할하거나, 아이디어를 시각화할 때 이 플러그인은 간단한 마크다운 문법으로 레이아웃을 빠르게 조정하고 구성할 수 있게 합니다."
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "a4YJ4j+mgLc2P/R92qRV7oRggqjlStbYGkCbIxKYSXo=",
+    "originContent": "## ⚙️ How to Use ",
+    "translatedContent": "## ⚙️ 사용 방법 "
+  },
+  {
+    "row": 23,
+    "rowsha": "Ke2DnqlgLuZTF4mspq2hLMXtV9YiVnhhjG2upNqFmso=",
+    "originContent": "To create a simple column layout, you can either:",
+    "translatedContent": "간단한 컬럼 레이아웃을 만들려면 다음 중 하나를 선택하세요:"
+  },
+  {
+    "row": 24,
+    "rowsha": "q0J0OVHw7EXqHX+QA9WtqvdDiJUfpAUjpHsIfXRn+dM=",
+    "originContent": "- Right-click in your note and select the option from the submenu.",
+    "translatedContent": "- 노트 내에서 우클릭 후 하위 메뉴에서 옵션을 선택합니다."
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "suqUdE7VY/ttfEKYsM8wrqfeIn1La3f7BVOBM1lvn7g=",
+    "originContent": "![Submenu](https://drive.google.com/uc?export=view&id=1Nu2tmvENJFtsnbDIqnk4XqT05WSJexN_)",
+    "translatedContent": "![하위 메뉴](https://drive.google.com/uc?export=view&id=1Nu2tmvENJFtsnbDIqnk4XqT05WSJexN_)"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "2Z+UltyayTvkrNFhocmG3h2ojjplDmQMepIvjr3iq+4=",
+    "originContent": "- Use the command palette to insert columns directly. For example, type \"Add 2 columns\" to insert a two-column layout into your note.",
+    "translatedContent": "- 명령 팔레트를 사용해 컬럼을 직접 삽입합니다. 예를 들어 \"2개의 컬럼 추가\"를 입력하면 노트에 2단 컬럼 레이아웃을 삽입합니다."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "HKy04Ghb2IVgZkplIUCHhUJ/AzovVunBvQflR9/UuiM=",
+    "originContent": "When you create columns, the plugin generates the following markdown with a unique ID for each column:",
+    "translatedContent": "컬럼을 만들면 플러그인은 각 컬럼에 고유 ID가 포함된 다음 마크다운을 생성합니다:"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "g4fLyNYS/l6HFlJQmFoL2GuXF+XPdZz7Wrk2jJxQNso=",
+    "originContent": "```columns",
+    "translatedContent": "```columns"
+  },
+  {
+    "row": 33,
+    "rowsha": "U7erk3OArE8zTH1GDUKyxxlaWT29H9PWoZvcVD9VzhY=",
+    "originContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85",
+    "translatedContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85"
+  },
+  {
+    "row": 34,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 35,
+    "rowsha": "md4ypQdB2cH2keAoPm3qVeql8NX5rSf0HXhQTpdaMPA=",
+    "originContent": "Column 1",
+    "translatedContent": "Column 1"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 38,
+    "rowsha": "cbBGUBFGk7X8eP0HLY1Kj2Botg7jf6Ae+Jb07eAZauc=",
+    "originContent": "Column 2",
+    "translatedContent": "Column 2"
+  },
+  {
+    "row": 39,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 예제: 코드 블록으로 열 만들기"
+  },
+  {
+    "row": 41,
+    "rowsha": "K1UGVl5hha8vHjbcZYNvK/2iCFWBdOOim7ZMZBWH5+o=",
+    "originContent": "### Example: Creating Columns with Code Blocks",
+    "translatedContent": "코드 블록을 열 안에 배치하는 레이아웃을 만들려면, 다음 구문을 사용하세요 (4개의 백틱 ```` 으로 시작하고 끝냅니다):"
+  },
+  {
+    "row": 42,
+    "rowsha": "M3TBq7HVziTK+Rkv2TObqnJKLiB08QYswgVGk+x1/a4=",
+    "originContent": "To create a layout with code blocks inside columns, use the following syntax (start and end with 4 backticks: ````):",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "XOWnlRAIaMvS/e4f2tlLNEMOPE2GbbpfYpMBjSkvAz4=",
+    "originContent": "`````",
+    "translatedContent": "````columns"
+  },
+  {
+    "row": 45,
+    "rowsha": "d9LZsKEupRgnK/KRSZmh7mSWyGeFqpckM34Pd7nE7og=",
+    "originContent": "````columns",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "U7erk3OArE8zTH1GDUKyxxlaWT29H9PWoZvcVD9VzhY=",
+    "originContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85",
+    "translatedContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85"
+  },
+  {
+    "row": 47,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 48,
+    "rowsha": "md4ypQdB2cH2keAoPm3qVeql8NX5rSf0HXhQTpdaMPA=",
+    "originContent": "Column 1",
+    "translatedContent": "열 1"
+  },
+  {
+    "row": 49,
+    "rowsha": "+z+LH2lFwR4yKjyelVy2Yazym9Bd9KM5rn8h5eN+Ufk=",
+    "originContent": "```javascript",
+    "translatedContent": "```javascript"
+  },
+  {
+    "row": 50,
+    "rowsha": "137F2E+1+8gYl1S1TpObzZW5aIMtqrqPZC19SPXuheo=",
+    "originContent": "console.log(\"Hello world\")",
+    "translatedContent": "console.log(\"Hello world\")"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 53,
+    "rowsha": "cbBGUBFGk7X8eP0HLY1Kj2Botg7jf6Ae+Jb07eAZauc=",
+    "originContent": "Column 2",
+    "translatedContent": "열 2"
+  },
+  {
+    "row": 54,
+    "rowsha": "MpvA5TLaYie/8aAz02NkgKLlS+fOGFzbx44GNyxZMkg=",
+    "originContent": "````",
+    "translatedContent": "````"
+  },
+  {
+    "row": 55,
+    "rowsha": "XOWnlRAIaMvS/e4f2tlLNEMOPE2GbbpfYpMBjSkvAz4=",
+    "originContent": "`````",
+    "translatedContent": "`````"
+  },
+  {
+    "row": 56,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "sfBsLWcVXPLvmFrgRtCVYNbyFGRkd1KfAY8NlaVCbNM=",
+    "originContent": "### Example: Specifying Column Widths via YAML",
+    "translatedContent": "### 예제: YAML을 통한 열 너비 지정"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "7U6B95BzLS8D6Ybjk+6a9MqBvkkrjAZEiDphLybVpMY=",
+    "originContent": "You can set custom widths for specific columns using YAML. Columns with a specified ratio will take priority, and any columns without a defined ratio will share the remaining space equally.",
+    "translatedContent": "YAML을 사용하여 특정 열에 대한 사용자 지정 너비를 설정할 수 있습니다. 비율이 지정된 열이 우선 적용되며, 비율이 정의되지 않은 열은 남은 공간을 균등하게 나눕니다."
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 62,
+    "rowsha": "U7erk3OArE8zTH1GDUKyxxlaWT29H9PWoZvcVD9VzhY=",
+    "originContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85",
+    "translatedContent": "id: b52707b0-ce15-6458-825d-32615b4b7h85"
+  },
+  {
+    "row": 63,
+    "rowsha": "BMAWksiPHIfn6M0XXuqCzIwzFZrbHv6F51lLMSgTMH4=",
+    "originContent": "column-1-ratio: 60%",
+    "translatedContent": "column-1-ratio: 60%"
+  },
+  {
+    "row": 64,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 65,
+    "rowsha": "md4ypQdB2cH2keAoPm3qVeql8NX5rSf0HXhQTpdaMPA=",
+    "originContent": "Column 1",
+    "translatedContent": "Column 1"
+  },
+  {
+    "row": 66,
+    "rowsha": "LPJNul+wow4m6DsqxbninhsWHlwfp0JecwQzYpOLmCQ=",
+    "originContent": "hello",
+    "translatedContent": "hello"
+  },
+  {
+    "row": 67,
+    "rowsha": "LPKwSxuuV9H7Ryouc6YGatbfj+Xf0AAzberRsvdifKo=",
+    "originContent": "===",
+    "translatedContent": "==="
+  },
+  {
+    "row": 68,
+    "rowsha": "cbBGUBFGk7X8eP0HLY1Kj2Botg7jf6Ae+Jb07eAZauc=",
+    "originContent": "Column 2",
+    "translatedContent": "Column 2"
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "설명:"
+  },
+  {
+    "row": 71,
+    "rowsha": "NjGp2YviscRzDb1TI5NtZaYvI5E08IX2AOLcHhlua4Q=",
+    "originContent": "Explanation:",
+    "translatedContent": "- column-1-ratio: 60% → 컬럼 1이 컨테이너 너비의 60%를 차지합니다."
+  },
+  {
+    "row": 72,
+    "rowsha": "2AiUxppe4QrZg9XELFVn9sLYawZYlmVTgZkbozbRzWE=",
+    "originContent": "- column-1-ratio: 60% → Column 1 takes 60% of the container width.",
+    "translatedContent": "- 컬럼 2 (명시되지 않음)는 나머지 40%를 자동으로 채웁니다."
+  },
+  {
+    "row": 73,
+    "rowsha": "qPAlT+f2re6q0JZiM+OixalPlJgdok0aEmEomGSgoHM=",
+    "originContent": "- Column 2 (not specified) automatically fills the remaining 40%.",
+    "translatedContent": "- 여러 컬럼에 대해 비율을 정의할 수 있습니다 (column-2-ratio, column-3-ratio 등), 최대 4개 컬럼까지 가능합니다."
+  },
+  {
+    "row": 74,
+    "rowsha": "wsLEL4DWADZfkB0PHtO66mBikMq6NGo2H3bEVCnVbys=",
+    "originContent": "- You can define ratios for multiple columns (column-2-ratio, column-3-ratio, etc.), up to 4 columns.",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ✨ 기능"
+  },
+  {
+    "row": 76,
+    "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+    "originContent": "## ✨ Features",
+    "translatedContent": "- **고유 컬럼 ID**: 각 컬럼은 고유한 ID로 생성되어, 컬럼을 독립적으로 스타일링하거나 참조할 수 있습니다."
+  },
+  {
+    "row": 77,
+    "rowsha": "vlRwS/JjmhEYOSUCeuEZkZcc7LcfHRH9vf673NgBMlc=",
+    "originContent": "- **Unique Column IDs**: Each column is generated with a unique ID, ensuring you can style or reference columns independently.",
+    "translatedContent": "- **쉽게 크기 조절 가능한 컬럼**: 컬럼은 완전히 크기 조절이 가능하여 콘텐츠 레이아웃을 완벽하게 제어할 수 있습니다."
+  },
+  {
+    "row": 78,
+    "rowsha": "F4Sg56uawkTTG7q41lBAu4DA77ClCUmn+7sZhGl5Z58=",
+    "originContent": "- **Easily Resizable Columns**: Columns are fully resizable, giving you complete control over the layout of your content.",
+    "translatedContent": "- **반응형 레이아웃**: 컬럼은 화면 크기에 따라 자동으로 조정되어 깔끔하고 적응력 있는 레이아웃을 제공합니다."
+  },
+  {
+    "row": 79,
+    "rowsha": "PW7NuFny0aU0ilpaa6DQ/y8mXHnChmSlcPXruDVL8bE=",
+    "originContent": "- **Responsive Layouts**: Columns adjust automatically based on your screen size, providing a clean and adaptable layout.",
+    "translatedContent": "- **높은 맞춤 설정 가능**: 컬럼은 완전히 조절 가능하여 크기, 간격, 정렬을 쉽게 제어할 수 있습니다."
+  },
+  {
+    "row": 80,
+    "rowsha": "FFuzUtk/NMfjDo3ZTSrxDthRCyg60CBXbMlzrbDrnd8=",
+    "originContent": "- **Highly Customizable**: Columns are fully adjustable, allowing you to easily control their size, spacing, and alignment to suit your needs.",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🔧 전역 설정"
+  },
+  {
+    "row": 82,
+    "rowsha": "4BhSil/DQXC5n4PPVwRL+I0dqKBwCPiLvKnwD45Js5c=",
+    "originContent": "## 🔧 Global Settings",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**전역 설정**은 Obsidian 볼트 내 모든 컬럼에 대해 기본 스타일과 동작을 정의할 수 있게 합니다. 이 설정은 플러그인 설정에서 접근하고 구성할 수 있습니다."
+  },
+  {
+    "row": 84,
+    "rowsha": "htjUj6xc5YGur99SfBJF/DDHhFNYfHNsMXYsBsOAd/c=",
+    "originContent": "The **Global Settings** allow you to define default styles and behaviors for all columns across your Obsidian vault. These settings can be accessed and configured in the plugin settings.",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Global Settings](https://drive.google.com/uc?export=view&id=1WPBg0Y3pffL5pw1dVRUC81TMMlaod-eK)"
+  },
+  {
+    "row": 86,
+    "rowsha": "I9I1wMaBIddbUmryKB8AkVFvuQ8FT6MuJLzjzqOGiHw=",
+    "originContent": "![Global Settings](https://drive.google.com/uc?export=view&id=1WPBg0Y3pffL5pw1dVRUC81TMMlaod-eK)",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 컨테이너 테두리"
+  },
+  {
+    "row": 88,
+    "rowsha": "cmDGLh4Wtbd0S7xsQuoFchXjzwI1JORdDvoo5rFfiLY=",
+    "originContent": "### Container Borders",
+    "translatedContent": "더 나은 가시성을 위해 컬럼 컨테이너의 테두리 모양을 사용자화할 수 있습니다."
+  },
+  {
+    "row": 89,
+    "rowsha": "W6eTWIuuQoOvnQqfC2kF8g/l0yIPhPEacIFZ470nAE0=",
+    "originContent": "You can customize the appearance of column containers with borders for better visibility.",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **컨테이너 테두리 표시**: 이 설정을 토글하여 각 컬럼 컨테이너 주위에 테두리를 표시합니다."
+  },
+  {
+    "row": 91,
+    "rowsha": "7tRfyn6QnQMR4Zj1JhBxeGsS5jyAKnXu/3Ta1b0Jm1o=",
+    "originContent": "- **Show Container Borders**: Toggle this setting to display borders around each column container.",
+    "translatedContent": "- **테두리 두께**: 컬럼 컨테이너 테두리의 두께를 설정합니다."
+  },
+  {
+    "row": 92,
+    "rowsha": "+ffO3PsjirWAYwdz0vtT5+O6urkeYZLealQQeOS9lw4=",
+    "originContent": "- **Border Width**: Set the width of the column container borders.",
+    "translatedContent": "- **테두리 색상**: 테두리 색상을 선택합니다."
+  },
+  {
+    "row": 93,
+    "rowsha": "XaZvBNgmoUjdokfMkn8rQhDtlCvrcFHY4fXln4dCWsU=",
+    "originContent": "- **Border Color**: Choose the color of the borders.",
+    "translatedContent": "- **테두리 투명도**: RGBA 색상 코드를 사용하여 테두리의 투명도를 조절합니다. 알파 값(마지막 숫자)이 투명도를 제어합니다."
+  },
+  {
+    "row": 94,
+    "rowsha": "0cDkTM0BsOuMMNSm5UHOF0tDUKMRs/lRXCgMTpLYFk8=",
+    "originContent": "- **Border Transparency**: Adjust the transparency of the borders using RGBA color codes. The alpha value (last number) controls the transparency.",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 리사이저 설정"
+  },
+  {
+    "row": 96,
+    "rowsha": "cnmZPpSCzuH0xh8xeDxOh3xOMX6HuBRI5e2Vmfn9Wy8=",
+    "originContent": "### Resizer Settings",
+    "translatedContent": "컬럼 리사이저의 모양과 동작도 사용자화할 수 있습니다."
+  },
+  {
+    "row": 97,
+    "rowsha": "1FMasTnTGu72Cp58akTQYZzhr3lFbn7gp/7QlAKsF0s=",
+    "originContent": "You can also customize the column resizer's appearance and behavior.",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **리사이저 표시**: 이 설정을 토글하여 컬럼 사이의 리사이저를 표시하거나 숨깁니다. 리사이저는 컬럼 구분선 위에 마우스를 올릴 때만 나타납니다."
+  },
+  {
+    "row": 99,
+    "rowsha": "4iCP4vT1CjiKwz9UpMizshkylylASR6Q64IFse8LqkE=",
+    "originContent": "- **Show Resizer**: Toggle this setting to show or hide the column resizer between columns. The resizer will only appear when you hover over the column divider.",
+    "translatedContent": "- **리사이저 너비**: 리사이저 요소의 너비를 설정합니다."
+  },
+  {
+    "row": 100,
+    "rowsha": "sEFgAPwu/cV3kHS2y5em6rPZORtfwgq5SBRwGQ0FWjg=",
+    "originContent": "- **Resizer Width**: Set the width of the resizer element.",
+    "translatedContent": "- **리사이저 색상**: 리사이저 색상을 선택합니다."
+  },
+  {
+    "row": 101,
+    "rowsha": "Edo5O1tZEkbSj2qscLuGDmKP/XzCR+H9qlG+n/fureI=",
+    "originContent": "- **Resizer Color**: Choose the color of the resizer.",
+    "translatedContent": "- **리사이저 투명도**: RGBA 색상 코드를 사용하여 리사이저의 투명도를 조절합니다."
+  },
+  {
+    "row": 102,
+    "rowsha": "zb4Q7MkfUaPaBfhlCEbP9E8XtGWZqvJ2M2pEfaIiyy8=",
+    "originContent": "- **Resizer Transparency**: Adjust the transparency of the resizer using RGBA color codes.",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 고급 설정"
+  },
+  {
+    "row": 104,
+    "rowsha": "jAEi32XywAKyePIzG6psgsa52UohSfN5CnjgPubqbNU=",
+    "originContent": "### Advanced Settings",
+    "translatedContent": "- **스타일 초기화**: 테두리 설정 및 리사이저 스타일을 포함한 모든 컬럼 스타일을 기본값으로 되돌립니다."
+  },
+  {
+    "row": 105,
+    "rowsha": "mHyofx8MvZvxHxAqZLUoUliT3gUqQBvQV7ZRVczdix0=",
+    "originContent": "- **Reset Styles**: This will revert all column styles, including border settings and resizer styles, back to their default values.",
+    "translatedContent": "- **로컬 저장소 초기화**: 모든 사용자 설정을 제거하고 플러그인을 초기 상태로 복원합니다. 문제가 발생하거나 새로 시작하고 싶을 때 이 옵션을 사용하세요."
+  },
+  {
+    "row": 106,
+    "rowsha": "pkB7Am2cVQhqro4u7qjY1Yg23dGRnGWDU76dwYXgEDk=",
+    "originContent": "- **Clear Local Storage**: This will remove all custom settings and restore the plugin to its initial state. Use this option if you encounter issues or want to start fresh.",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ⚡️ 로컬 설정"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "G6d/QKbrwV9YMXOiY7UmVGgJ0KF5FrIc3IAxOu4O4tw=",
+    "originContent": "## ⚡️ Local Settings",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "S43eBq2KhGQGHWTIqCPlOqAf5ubS4bNQ1OoezNXtwj0=",
+    "originContent": "The **Local Settings** allow you to apply more **granular customizations** to individual columns within your notes.",
+    "translatedContent": "**로컬 설정**을 통해 노트 내 개별 열에 대해 더 **세밀한 사용자 지정**을 적용할 수 있습니다."
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "Fe/iYK19qVGW0oByfi4vFQrBS+n5pt/HvdNnh7UFvGg=",
+    "originContent": "![Local Settings](https://drive.google.com/uc?export=view&id=1q11NA49CeizEAozavC1YAiiSI7J7oe5U)",
+    "translatedContent": "![Local Settings](https://drive.google.com/uc?export=view&id=1q11NA49CeizEAozavC1YAiiSI7J7oe5U)"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "+o7V7ZoPC90M0nlgnLsf9uVv6s3ozQSZkTjF3+iWTVU=",
+    "originContent": "### Available Local Settings:",
+    "translatedContent": "### 사용 가능한 로컬 설정:"
+  },
+  {
+    "row": 115,
+    "rowsha": "o2p953iKPwmM39ycDxcVDguD6EJcd9qLXZKjMBO9dv4=",
+    "originContent": "- **Reset All Styles**: Revert all custom styles for the column to their default settings.",
+    "translatedContent": "- **모든 스타일 초기화**: 열에 적용된 모든 사용자 지정 스타일을 기본 설정으로 되돌립니다."
+  },
+  {
+    "row": 116,
+    "rowsha": "eJIFgDwcdZwW+UV7fq6uo9gSKT3bPK08vFfu49X2vZM=",
+    "originContent": "- **Show Border**",
+    "translatedContent": "- **테두리 표시**"
+  },
+  {
+    "row": 117,
+    "rowsha": "8Ax2CUXb/fl4RSKZlwvp0Eh/+pGrgcH+s+siH5yb2NA=",
+    "originContent": "- **Set Border Color and Transparency**",
+    "translatedContent": "- **테두리 색상 및 투명도 설정**"
+  },
+  {
+    "row": 118,
+    "rowsha": "Kdt4+lsmHTn0fTXQYidzbhBwz2oG4UBFn8vVqtrqpGg=",
+    "originContent": "- **Show Resizer**: Toggle the display of the column resizer. The resizer will appear only on hover.",
+    "translatedContent": "- **리사이저 표시**: 열 리사이저의 표시를 전환합니다. 리사이저는 마우스 오버 시에만 나타납니다."
+  },
+  {
+    "row": 119,
+    "rowsha": "WhgELC/AapRxsp5v0O/jcWciGNj4iEXuSMe+ttyJmOs=",
+    "originContent": "- **Set Resizer Color and Transparency**",
+    "translatedContent": "- **리사이저 색상 및 투명도 설정**"
+  },
+  {
+    "row": 120,
+    "rowsha": "ZD7ZCfK8cYKm3Q7dA+qGjj59OWMAuviJp/YhIthlc2c=",
+    "originContent": "- **Set Text Color**",
+    "translatedContent": "- **텍스트 색상 설정**"
+  },
+  {
+    "row": 121,
+    "rowsha": "juLUXZU1nfjJS5UfyFPKDerYaZ73EGdZOl1d6HqSBiw=",
+    "originContent": "- **Set Background Color and Transparency**",
+    "translatedContent": "- **배경 색상 및 투명도 설정**"
+  },
+  {
+    "row": 122,
+    "rowsha": "i2bu8/7kO6qs3VCD2lw1W2qDULFCVorDqHYq1bFxU3M=",
+    "originContent": "- **Set Text Alignment**: Align the text within the column (e.g., `left`, `center`, `right`).",
+    "translatedContent": "- **텍스트 정렬 설정**: 열 내 텍스트 정렬을 지정합니다(예: `왼쪽`, `가운데`, `오른쪽`)."
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "GTlWZnsd7EccJ2W+9zDbRE0wuS2Ycx/IC9szF0GhUfA=",
+    "originContent": "## 📦 Installation",
+    "translatedContent": "## 📦 설치"
+  },
+  {
+    "row": 125,
+    "rowsha": "RIEPpfZe0J1W1eSW/I3wt64dJLMF/q+QJri7Og+s7ZM=",
+    "originContent": "This plugin is now available in the Obsidian Community Plugins! 🎉",
+    "translatedContent": "이 플러그인은 이제 Obsidian 커뮤니티 플러그인에서 사용할 수 있습니다! 🎉"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "7tNhbxCmgKTmLjsvo75LiAqNZWa9hGnFFg9MyyfPk9k=",
+    "originContent": "1. In Obsidian, go to Settings > Community Plugins.",
+    "translatedContent": "1. Obsidian에서 설정 > 커뮤니티 플러그인으로 이동합니다."
+  },
+  {
+    "row": 128,
+    "rowsha": "+luZdh7XlN3ngDwc3yjXqGwcYgC8Z2rJjt7Zz2jKDtI=",
+    "originContent": "2. Click Browse and search for Simple Columns.",
+    "translatedContent": "2. 찾아보기 클릭 후 Simple Columns를 검색합니다."
+  },
+  {
+    "row": 129,
+    "rowsha": "Mbyt5KoQO2r5duBrDciH+Dg3jEIfbW5dH+vM7QL5CF0=",
+    "originContent": "3. Click Install, then Enable the plugin.",
+    "translatedContent": "3. 설치를 클릭하고 플러그인을 활성화합니다."
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "BCBJB01TS7wrRwaTB7XgQAnzuc+bC0md+i6mquixW8E=",
+    "originContent": "## 🚀 Future Works",
+    "translatedContent": "## 🚀 향후 작업"
+  },
+  {
+    "row": 132,
+    "rowsha": "a6r4lx6gJsWiJGZa+LsxKpu6MefCJnh8qfPnUSJkmqM=",
+    "originContent": "1. Add background image to individual columns",
+    "translatedContent": "1. 개별 열에 배경 이미지 추가"
+  },
+  {
+    "row": 133,
+    "rowsha": "WF0nSwC7qMjAea0uzK2MHCh6ccW/ei3D6wBBbfSkCnQ=",
+    "originContent": "2. Enable nested columns",
+    "translatedContent": "2. 중첩 열 지원 활성화"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

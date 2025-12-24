@@ -1,0 +1,530 @@
+[
+  {
+    "row": 1,
+    "rowsha": "6kqif0yNnAJSmqkCQP63ppV4/N66RJFzNODjWLeMLs8=",
+    "originContent": "# Agent2Agent (A2A) Protocol",
+    "translatedContent": "# Agent2Agent (A2A) 프로토콜"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "h7w6L/NwydBZ5cAUwlWHVA96WvlFGKBsPCdvmM8LBx0=",
+    "originContent": "[![PyPI - Version](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)",
+    "translatedContent": "[![PyPI - 버전](https://img.shields.io/pypi/v/a2a-sdk)](https://pypi.org/project/a2a-sdk)"
+  },
+  {
+    "row": 4,
+    "rowsha": "xKFBfuVrgVBqC2TfmbrgT0/qe1aYvCVPLE+fqvcpwNc=",
+    "originContent": "[![Apache License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)",
+    "translatedContent": "[![아파치 라이선스](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+  },
+  {
+    "row": 5,
+    "rowsha": "QEv/W22gM/Y55IEd+Ek4dfhvwh29EM5NFbItXZ8x780=",
+    "originContent": "<a href=\"https://codewiki.google/github.com/a2aproject/a2a\">",
+    "translatedContent": "<a href=\"https://codewiki.google/github.com/a2aproject/a2a\">"
+  },
+  {
+    "row": 6,
+    "rowsha": "oxMGYHzULdlupun/5vsWCtPB6saIMCitwylABLiyDmQ=",
+    "originContent": "  <img src=\"https://www.gstatic.com/_/boq-sdlc-agents-ui/_/r/Mvosg4klCA4.svg\" alt=\"Ask Code Wiki\" height=\"20\">",
+    "translatedContent": "  <img src=\"https://www.gstatic.com/_/boq-sdlc-agents-ui/_/r/Mvosg4klCA4.svg\" alt=\"Ask Code Wiki\" height=\"20\">"
+  },
+  {
+    "row": 7,
+    "rowsha": "7NW4BkYsff3weKx2xUkGCgZmBCLQDlW9WCO+Z0c2EIU=",
+    "originContent": "</a>",
+    "translatedContent": "</a>"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "YvaDlAFXwJrnzW6PVZkB+n0DZ5wmYc0pM1pWEJqH8i4=",
+    "originContent": "<!-- markdownlint-disable MD041 -->",
+    "translatedContent": "<!-- markdownlint-disable MD041 -->"
+  },
+  {
+    "row": 10,
+    "rowsha": "t/9YqFRKlMdfy5GnNzxfzdqrRj7H98mAPFpU/AU8Cqk=",
+    "originContent": "<div style=\"text-align: center;\">",
+    "translatedContent": "<div style=\"text-align: center;\">"
+  },
+  {
+    "row": 11,
+    "rowsha": "KTq7qCFV5eUGPP/1S0PA2IrdT0xPzD8wCrliTZFy++o=",
+    "originContent": "  <div class=\"centered-logo-text-group\">",
+    "translatedContent": "  <div class=\"centered-logo-text-group\">"
+  },
+  {
+    "row": 12,
+    "rowsha": "g+wGMoFAfZY13O3/uwdBJCBu4jEY5yq7KS/3oJcslRM=",
+    "originContent": "    <img src=\"https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg\" alt=\"Agent2Agent Protocol Logo\" width=\"100\">",
+    "translatedContent": "    <img src=\"https://raw.githubusercontent.com/a2aproject/A2A/main/docs/assets/a2a-logo-black.svg\" alt=\"Agent2Agent Protocol Logo\" width=\"100\">"
+  },
+  {
+    "row": 13,
+    "rowsha": "bXrdM69l4iJ9SO/3a49nvyQoCpcjVZoOYUJyzez+6nI=",
+    "originContent": "    <h1>Agent2Agent (A2A) Protocol</h1>",
+    "translatedContent": "    <h1>Agent2Agent (A2A) 프로토콜</h1>"
+  },
+  {
+    "row": 14,
+    "rowsha": "TFeor9sDM2gZqn6BBqB9bb7gMaKqgk0Ph1pgaT3gpaM=",
+    "originContent": "  </div>",
+    "translatedContent": "  </div>"
+  },
+  {
+    "row": 15,
+    "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+    "originContent": "</div>",
+    "translatedContent": "</div>"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "gqU8Tgr73WxFI/+WU86moh+dw0zA2/yL4S0Gzr3m3YM=",
+    "originContent": "**An open protocol enabling communication and interoperability between opaque agentic applications.**",
+    "translatedContent": "**불투명한 에이전트 애플리케이션 간의 통신 및 상호 운용성을 가능하게 하는 오픈 프로토콜입니다.**"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "0S302+GWbGdwqe8o809ryyNe4U8dsoxKr0ec8GwZVFY=",
+    "originContent": "The Agent2Agent (A2A) protocol addresses a critical challenge in the AI landscape: enabling gen AI agents, built on diverse frameworks by different companies running on separate servers, to communicate and collaborate effectively - as agents, not just as tools. A2A aims to provide a common language for agents, fostering a more interconnected, powerful, and innovative AI ecosystem.",
+    "translatedContent": "Agent2Agent (A2A) 프로토콜은 AI 환경에서 중요한 문제를 해결합니다: 서로 다른 회사가 다양한 프레임워크로 구축하고 별도의 서버에서 실행하는 생성 AI 에이전트들이 단순 도구가 아닌 에이전트로서 효과적으로 통신하고 협업할 수 있도록 하는 것입니다. A2A는 에이전트 간 공통 언어를 제공하여 보다 상호 연결되고 강력하며 혁신적인 AI 생태계를 조성하는 것을 목표로 합니다."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "d79OKIEL21svHIv4soMnK/2hbqgRNmxd1eTLMa5n3Ek=",
+    "originContent": "With A2A, agents can:",
+    "translatedContent": "A2A를 통해 에이전트는:"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "WyTwtztEILy0JDA4VihQZQ9QYLkA204XLC0B/iF1O2U=",
+    "originContent": "- Discover each other's capabilities.",
+    "translatedContent": "- 서로의 기능을 발견할 수 있습니다."
+  },
+  {
+    "row": 24,
+    "rowsha": "uMItqYmcEpimy12TL6n3lstLdnrGgYVRUBk9LOZpfwo=",
+    "originContent": "- Negotiate interaction modalities (text, forms, media).",
+    "translatedContent": "- 상호작용 방식(텍스트, 양식, 미디어)을 협상할 수 있습니다."
+  },
+  {
+    "row": 25,
+    "rowsha": "wsqLQOIgh0+blQGirADXdLU4fD4Ln62ncTXcomfM5vI=",
+    "originContent": "- Securely collaborate on long running tasks.",
+    "translatedContent": "- 장기 과제에 대해 안전하게 협력할 수 있습니다."
+  },
+  {
+    "row": 26,
+    "rowsha": "JfX9SHzlT0Bsx62PzrVFPCQ6rE+aHOeoxmFs+737jxQ=",
+    "originContent": "- Operate without exposing their internal state, memory, or tools.",
+    "translatedContent": "- 내부 상태, 메모리 또는 도구를 노출하지 않고 작동할 수 있습니다."
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "cUuyNHmqKJDty8jXaOeSUWR469Q/yKMIcvIkIx0pzL8=",
+    "originContent": "## Intro to A2A Video",
+    "translatedContent": "## A2A 소개 동영상"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "PXc0uGu2NNJX09NBr2xgxzLsCLim0AS5ZDKBnSw9M54=",
+    "originContent": "[![A2A Intro Video](https://img.youtube.com/vi/Fbr_Solax1w/hqdefault.jpg)](https://goo.gle/a2a-video)",
+    "translatedContent": "[![A2A 소개 동영상](https://img.youtube.com/vi/Fbr_Solax1w/hqdefault.jpg)](https://goo.gle/a2a-video)"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "+OO5sTYZBCOlVltSUkgXKVK4p497CzB62D5XUYggzV4=",
+    "originContent": "## Why A2A?",
+    "translatedContent": "## 왜 A2A인가?"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "wptnIopEDGe+Rq0h/cqyVY7BngEwNIpsHX3VBD8W7Oc=",
+    "originContent": "As AI agents become more prevalent, their ability to interoperate is crucial for building complex, multi-functional applications. A2A aims to:",
+    "translatedContent": "AI 에이전트가 점점 보편화됨에 따라, 이들의 상호 운용성은 복잡하고 다기능적인 애플리케이션 구축에 필수적입니다. A2A는 다음을 목표로 합니다:"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "6+rVlFMCWZqh16tWhhm0ZBdp/rTFNz8t1YVdQCZoHHY=",
+    "originContent": "- **Break Down Silos:** Connect agents across different ecosystems.",
+    "translatedContent": "- **장벽 허물기:** 서로 다른 생태계의 에이전트를 연결합니다."
+  },
+  {
+    "row": 37,
+    "rowsha": "kdiUspMi+lmfqXRqCPzkGzLNqr4zRAicEyL/iQynUEg=",
+    "originContent": "- **Enable Complex Collaboration:** Allow specialized agents to work together on tasks that a single agent cannot handle alone.",
+    "translatedContent": "- **복잡한 협업 가능:** 단일 에이전트가 처리할 수 없는 작업에 대해 전문화된 에이전트들이 함께 작업할 수 있도록 합니다."
+  },
+  {
+    "row": 38,
+    "rowsha": "q1RDby3N4mepUXsJay8ADdM0j2t9NY2sw/au2YussQg=",
+    "originContent": "- **Promote Open Standards:** Foster a community-driven approach to agent communication, encouraging innovation and broad adoption.",
+    "translatedContent": "- **오픈 표준 촉진:** 에이전트 통신에 대한 커뮤니티 주도 방식을 장려하여 혁신과 광범위한 채택을 유도합니다."
+  },
+  {
+    "row": 39,
+    "rowsha": "ID9/SgkmAYEYzU7+R09aU5E1JUwUYtFWABbZOMOrf4g=",
+    "originContent": "- **Preserve Opacity:** Allow agents to collaborate without needing to share internal memory, proprietary logic, or specific tool implementations, enhancing security and protecting intellectual property.",
+    "translatedContent": "- **불투명성 유지:** 내부 메모리, 독점 로직 또는 특정 도구 구현을 공유하지 않고도 에이전트가 협력할 수 있게 하여 보안을 강화하고 지적 재산을 보호합니다."
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "HGAGcACdLJLrmf+fiUszXTc0S4m7FYM0E8dxVJXQ0Hk=",
+    "originContent": "### Key Features",
+    "translatedContent": "### 주요 특징"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "kw3Uynvl1pap8qIdSNN7mB/oZktAFaCw+rP8ZYZlg4s=",
+    "originContent": "- **Standardized Communication:** JSON-RPC 2.0 over HTTP(S).",
+    "translatedContent": "- **표준화된 통신:** HTTP(S)를 통한 JSON-RPC 2.0."
+  },
+  {
+    "row": 44,
+    "rowsha": "kQe3l7/u7SXwMWYOWXmpk4K+ehxP5pXB2WN84r+8sqY=",
+    "originContent": "- **Agent Discovery:** Via \"Agent Cards\" detailing capabilities and connection info.",
+    "translatedContent": "- **에이전트 검색:** 기능 및 연결 정보를 상세히 담은 \"에이전트 카드\"를 통해."
+  },
+  {
+    "row": 45,
+    "rowsha": "owOBRVc8gfxjQqSvghKSouvpnP6O3FAQPnJh1/bEymE=",
+    "originContent": "- **Flexible Interaction:** Supports synchronous request/response, streaming (SSE), and asynchronous push notifications.",
+    "translatedContent": "- **유연한 상호작용:** 동기 요청/응답, 스트리밍(SSE), 비동기 푸시 알림 지원."
+  },
+  {
+    "row": 46,
+    "rowsha": "w/6iKESnhwe9zGO8a5dcLkz52CwMQmKFYcwN2ykOE8U=",
+    "originContent": "- **Rich Data Exchange:** Handles text, files, and structured JSON data.",
+    "translatedContent": "- **풍부한 데이터 교환:** 텍스트, 파일, 구조화된 JSON 데이터 처리."
+  },
+  {
+    "row": 47,
+    "rowsha": "kvO1asyWwSy/Wx985/TPupqBztBSwTwirIxDsFhFgAw=",
+    "originContent": "- **Enterprise-Ready:** Designed with security, authentication, and observability in mind.",
+    "translatedContent": "- **기업용 설계:** 보안, 인증, 관찰성(오브저버빌리티)을 고려하여 설계됨."
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+    "originContent": "## Getting Started",
+    "translatedContent": "## 시작하기"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "Xz+Vj2b+4/pywCm9/1yaIyQfsMUHLAdORCtbb2rQMpo=",
+    "originContent": "- 📚 **Explore the Documentation:** Visit the [Agent2Agent Protocol Documentation Site](https://a2a-protocol.org) for a complete overview, the full protocol specification, tutorials, and guides.",
+    "translatedContent": "- 📚 **문서 탐색:** 전체 개요, 프로토콜 사양, 튜토리얼 및 가이드를 보려면 [Agent2Agent 프로토콜 문서 사이트](https://a2a-protocol.org)를 방문하세요."
+  },
+  {
+    "row": 52,
+    "rowsha": "BrOPTJVDgi+vHW3kWGfFaYB1gjFJyZHWWnnSVUW/G64=",
+    "originContent": "- 📝 **View the Specification:** [A2A Protocol Specification](https://a2a-protocol.org/latest/specification/)",
+    "translatedContent": "- 📝 **사양 보기:** [A2A 프로토콜 사양](https://a2a-protocol.org/latest/specification/)"
+  },
+  {
+    "row": 53,
+    "rowsha": "zhY11lKdWEeQ9Yo0pEho5olsS23vTgMwzaXuHvnCEQg=",
+    "originContent": "- Use the SDKs:",
+    "translatedContent": "- SDK 사용:"
+  },
+  {
+    "row": 54,
+    "rowsha": "Fs76lhQmy44IBmiqxxn779xJTlNJFGreKCYrFLNxtqY=",
+    "originContent": "    - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`",
+    "translatedContent": "    - [🐍 A2A Python SDK](https://github.com/a2aproject/a2a-python) `pip install a2a-sdk`"
+  },
+  {
+    "row": 55,
+    "rowsha": "KtaOp1Wn1FFD+/DSS75bgx2AVujJC8+MRTW1SicglKY=",
+    "originContent": "    - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`",
+    "translatedContent": "    - [🐿️ A2A Go SDK](https://github.com/a2aproject/a2a-go) `go get github.com/a2aproject/a2a-go`"
+  },
+  {
+    "row": 56,
+    "rowsha": "zQ0bQ2AW/O7Clh534BrYcGdbsTrixKjHa2sFX5/Xcxc=",
+    "originContent": "    - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`",
+    "translatedContent": "    - [🧑‍💻 A2A JS SDK](https://github.com/a2aproject/a2a-js) `npm install @a2a-js/sdk`"
+  },
+  {
+    "row": 57,
+    "rowsha": "ovqbO92GNU6N3O/MgeCjojkjVTOnS13d1ywsbpI/f7w=",
+    "originContent": "    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) using maven",
+    "translatedContent": "    - [☕️ A2A Java SDK](https://github.com/a2aproject/a2a-java) maven 사용"
+  },
+  {
+    "row": 58,
+    "rowsha": "k2y/GlfzJmw3Zcbycsf8RjxR3tRW4tv438OwLTes3GU=",
+    "originContent": "    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) using [NuGet](https://www.nuget.org/packages/A2A) `dotnet add package A2A`",
+    "translatedContent": "    - [🔷 A2A .NET SDK](https://github.com/a2aproject/a2a-dotnet) [NuGet](https://www.nuget.org/packages/A2A) 사용 `dotnet add package A2A`"
+  },
+  {
+    "row": 59,
+    "rowsha": "E0MR3R7pENC67XogOUZAHN3Z7C++IvtzU2nOfS0RthI=",
+    "originContent": "- 🎬 Use our [samples](https://github.com/a2aproject/a2a-samples) to see A2A in action",
+    "translatedContent": "- 🎬 [샘플](https://github.com/a2aproject/a2a-samples)을 사용하여 A2A 작동 예시 확인"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## 기여하기"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "TVapOybw8PJiB3eVRPBRnT5HucAKoEcmnoJBi5PkDWk=",
+    "originContent": "We welcome community contributions to enhance and evolve the A2A protocol!",
+    "translatedContent": "A2A 프로토콜을 향상 및 발전시키기 위한 커뮤니티 기여를 환영합니다!"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "6plDjAmuKi6Ll+A5sP6ar1eoUUQkqkvAcDhtgO2802o=",
+    "originContent": "- **Questions & Discussions:** Join our [GitHub Discussions](https://github.com/a2aproject/A2A/discussions).",
+    "translatedContent": "- **질문 및 토론:** [GitHub Discussions](https://github.com/a2aproject/A2A/discussions) 참여."
+  },
+  {
+    "row": 66,
+    "rowsha": "WPxuLTn+yCY8kJ5gYtAcf4O0+fr3O2io3ufWUH7cpf4=",
+    "originContent": "- **Issues & Feedback:** Report issues or suggest improvements via [GitHub Issues](https://github.com/a2aproject/A2A/issues).",
+    "translatedContent": "- **이슈 및 피드백:** [GitHub Issues](https://github.com/a2aproject/A2A/issues)를 통해 문제 제기 또는 개선 제안."
+  },
+  {
+    "row": 67,
+    "rowsha": "FFvRbdwPHuciwtHtXSP0ihz4E0teOi1zuua3lY0wIFE=",
+    "originContent": "- **Contribution Guide:** See our [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) for details on how to contribute.",
+    "translatedContent": "- **기여 가이드:** 기여 방법은 [CONTRIBUTING.md](https://raw.githubusercontent.com/a2aproject/A2A/main/CONTRIBUTING.md) 참조."
+  },
+  {
+    "row": 68,
+    "rowsha": "b9b5zRs7kKXGB9ryilGa4W2KyHyqdQOw90y3IaXeWJE=",
+    "originContent": "- **Private Feedback:** Use this [Google Form](https://goo.gle/a2a-feedback).",
+    "translatedContent": "- **비공개 피드백:** 이 [Google 폼](https://goo.gle/a2a-feedback) 사용."
+  },
+  {
+    "row": 69,
+    "rowsha": "62cGjUbM3L4SnQsBJkstHzYAQ43dC8VtsYLvTVSxhlQ=",
+    "originContent": "- **Partner Program:** Google Cloud customers can join our partner program via this [form](https://goo.gle/a2a-partner).",
+    "translatedContent": "- **파트너 프로그램:** Google Cloud 고객은 이 [폼](https://goo.gle/a2a-partner)을 통해 파트너 프로그램 참여 가능."
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "uQsRCpvF9Z9eRJp9PCehycrbZEZtyebCB79nZKxBpKI=",
+    "originContent": "## What's next",
+    "translatedContent": "## 앞으로의 계획"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "LzuLYAfDOBzScV0X2lLcaYMjfrND3JuXvEIMfObQ6qQ=",
+    "originContent": "### Protocol Enhancements",
+    "translatedContent": "### 프로토콜 향상"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "EsRR5ofFEg4OEHcTKml5aL0wC3Ssi4qkH8SrFEsI58E=",
+    "originContent": "- **Agent Discovery:**",
+    "translatedContent": "- **에이전트 검색:**"
+  },
+  {
+    "row": 76,
+    "rowsha": "eOxLiPLFbWrl4+7jb+V8d4Zmea7PeK6aQy15q1FWB+I=",
+    "originContent": "    - Formalize inclusion of authorization schemes and optional credentials directly within the `AgentCard`.",
+    "translatedContent": "    - `AgentCard` 내 권한 부여 방식과 선택적 자격 증명 포함을 공식화."
+  },
+  {
+    "row": 77,
+    "rowsha": "MNurYcV9/4LFytuCQNztTHCq0tGEdTySVrzg7toGgkI=",
+    "originContent": "- **Agent Collaboration:**",
+    "translatedContent": "- **에이전트 협력:**"
+  },
+  {
+    "row": 78,
+    "rowsha": "KLtf1/JHALo4Iq7OaOoUuvc0YN2RsUyGSbhskAsDXuw=",
+    "originContent": "    - Investigate a `QuerySkill()` method for dynamically checking unsupported or unanticipated skills.",
+    "translatedContent": "    - 지원하지 않거나 예상치 못한 스킬을 동적으로 확인할 수 있는 `QuerySkill()` 메서드 조사."
+  },
+  {
+    "row": 79,
+    "rowsha": "lhnOFKJ7DdhvHbbEkXxy9SA6O+gzWJ4hjn0qaoORjBQ=",
+    "originContent": "- **Task Lifecycle & UX:**",
+    "translatedContent": "- **작업 생명주기 및 UX:**"
+  },
+  {
+    "row": 80,
+    "rowsha": "hQshGFULsNRlZncmMCg360xEnPvL+AqqwQ4Ov8cNKDI=",
+    "originContent": "    - Support for dynamic UX negotiation _within_ a task (e.g., agent adding audio/video mid-conversation).",
+    "translatedContent": "    - 작업 중 동적 UX 협상 지원 (예: 대화 중 에이전트가 오디오/비디오 추가)."
+  },
+  {
+    "row": 81,
+    "rowsha": "rz92b1bqVIkLS9oskL5xTLihlijE0GNqFAGoarUSkhU=",
+    "originContent": "- **Client Methods & Transport:**",
+    "translatedContent": "- **클라이언트 메서드 및 전송:**"
+  },
+  {
+    "row": 82,
+    "rowsha": "RmElQRUKZZBAX4qpJG5CNcd5FpiEbu7ltdUGsbrCXko=",
+    "originContent": "    - Explore extending support to client-initiated methods (beyond task management).",
+    "translatedContent": "    - 클라이언트 주도 메서드(작업 관리 외) 지원 확장 탐색."
+  },
+  {
+    "row": 83,
+    "rowsha": "eJtyEeb/ZeNjKAfASkxaU8G/COjfjEfqUMb5295Ih3Q=",
+    "originContent": "    - Improvements to streaming reliability and push notification mechanisms.",
+    "translatedContent": "    - 스트리밍 신뢰성 및 푸시 알림 메커니즘 개선."
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "m0QcAE3J+iZV4kJHdUlgPCLMoR1y3kRhWGgxHkrRxqE=",
+    "originContent": "## About",
+    "translatedContent": "## 소개"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "0w95aPSKjTl/icxWlA0PibzJuaXxRkkE0zIUgQcAdLU=",
+    "originContent": "The A2A Protocol is an open source project under the Linux Foundation, contributed by Google. It is licensed under the [Apache License 2.0](LICENSE) and is open to contributions from the community.",
+    "translatedContent": "A2A 프로토콜은 구글이 기여한 리눅스 재단 산하의 오픈 소스 프로젝트입니다. [아파치 라이선스 2.0](LICENSE) 하에 라이선스가 부여되었으며, 커뮤니티의 기여를 환영합니다."
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

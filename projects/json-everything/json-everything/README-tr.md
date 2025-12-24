@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Dil</summary>
@@ -36,11 +37,11 @@
 
 ## `json-everything` nedir?
 
-`json-everything`'in arkasındaki temel felsefe, yaygın JSON işlevselliğinin _System.Text.Json_ alanında iyi desteklenmesini sağlamaktır.
+`json-everything`'in arkasındaki temel felsefe, yaygın JSON işlevselliğinin _System.Text.Json_ alanında iyi bir desteğe sahip olmasını sağlamaktır.
 
-Bunun ilk adımı, belirli bir işlevi destekleyen başka projelerin olup olmadığını kontrol etmektir.
+Bunun için ilk adım, belirli bir işlevi destekleyen başka projelerin olup olmadığını kontrol etmektir.
 
-Eğer varsa, muhtemelen bu çaba burada yinelenmeyecektir. Aşağıda JSON ile ilgili bazı harika şeyler yapan diğer projelerin bir listesini bulabilirsiniz.
+Eğer varsa, bu çaba muhtemelen burada yinelenmeyecektir. Biraz aşağıda JSON ile ilgili bazı ilginç işler yapan diğer projelerin bir listesini bulacaksınız.
 
 Aksi takdirde, bu proje için değerlendirmeye açıktır.
 
@@ -55,7 +56,7 @@ Aksi takdirde, bu proje için değerlendirmeye açıktır.
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="https://json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp" alt="Çevrim içi deneyin" title="Çevrim içi deneyin" height="50"><br>json-everything.net</a></td>
+<td align="center"><a href="https://json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/json-animated.webp" alt="Çevrimiçi Deneyin" title="Çevrimiçi Deneyin" height="50"><br>json-everything.net</a></td>
 <td align="center"><a href="https://docs.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/docs-icon.png" alt="Dokümantasyon" title="Dokümantasyon" height="50"><br>docs.json-everything.net</a></td>
 <td align="center"><a href="https://blog.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/blog-icon.png" alt="Blog" title="Blog" height="50"><br>blog.json-everything.net</a></td>
 <td align="center"><a href="https://learn.json-everything.net"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/learn-icon.png" alt="Öğren" title="Öğren" height="50"><br>learn.json-everything.net</a></td>
@@ -68,37 +69,37 @@ Aksi takdirde, bu proje için değerlendirmeye açıktır.
 <tr>
 <th width="276">Tartış</th>
 <th width="276">Sor</th>
-<th width="276">Şununla oluşturuldu</th>
+<th width="276">İle inşa edildi</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-4klcm69x-_MA8Z2ZSZ4JNu_d3lQOVPg"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
+<td align="center"><a href="https://join.slack.com/t/json-everything/shared_invite/zt-3cfmgde04-o09VBqj6YfpudxTuI3aRhA"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Slack.png" alt="Slack" title="Slack" height="50"></a></td>
 <td align="center"><a href="https://stackoverflow.com/questions/tagged/json-everything"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/stackoverflow.png" alt="StackOverflow" title="StackOverflow" height="50"></a></td>
 <td align="center"><a href="http://www.jetbrains.com/resharper"><img src="https://raw.githubusercontent.com/json-everything/json-everything/master/Resources/Resharper.svg" alt="Jetbrains Resharper ile yapıldı" title="Jetbrains Resharper ile yapıldı" height="50"></a></td>
 </tr>
 </tbody>
 </table>
 
-## Kutunun içinde neler var?
+## Kutuda Neler Var?
 
-Aslında birden fazla kutu var. Her bir işlevsellik parçası kendi kütüphanesine ayrılmıştır, böylece ihtiyacınız olan(ları) seçip kullanabilirsiniz.
+Aslında birden fazla kutu var. Her işlevsellik parçası kendi kütüphanesine ayrıldı, böylece ihtiyacınız olanı seçip kullanabilirsiniz.
 
-Tüm kütüphaneler .Net Standard 2.0 ve .Net 8 ile derlenmiştir.
+Tüm kütüphaneler .Net Standard 2.0 ve .Net 8 için oluşturulmuştur.
 
 <table>
 <tbody>
 <tr>
-<td>JsonSchema.Net<br><a href="https://www.nuget.org/packages/JsonSchema.Net/"><img alt="NuGet sürümü" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true"></img><img alt="NuGet sürümü" src="https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true"></img></a></td>
-<td><a href="https://json-schema.org">JSON Schema</a>, 6 ve üzeri taslaklar</td>
+<td>JsonSchema.Net<br><a href="https://www.nuget.org/packages/JsonSchema.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.svg?svg=true"></img></a></td>
+<td><a href="https://json-schema.org">JSON Şeması</a>, sürüm 6 ve üzeri</td>
 </tr>
 <tr>
-<td>JsonSchema.Net.Generation<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation/"><img alt="NuGet sürümü" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true"></img><img alt="NuGet sürümü" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true"></img></a></td>
+<td>JsonSchema.Net.Generation<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.svg?svg=true"></img></a></td>
 <td>.Net türlerinden şema üretimi</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.Generation.DataAnnotations<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Generation.DataAnnotations/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Generation.DataAnnotations.svg?svg=true"></img></a></td>
-<td><em>System.ComponentModel.DataAnnotations</em> için şema oluşturma desteği.</td>
+<td><em>System.ComponentModel.DataAnnotations</em> için şema üretim desteği.</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.DataGeneration<br><a href="https://www.nuget.org/packages/JsonSchema.Net.DataGeneration/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.DataGeneration.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.DataGeneration.svg?svg=true"></img></a></td>
@@ -106,15 +107,15 @@ Tüm kütüphaneler .Net Standard 2.0 ve .Net 8 ile derlenmiştir.
 </tr>
 <tr>
 <td>JsonSchema.Net.Data<br><a href="https://www.nuget.org/packages/JsonSchema.Net.Data/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.Data.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.Data.svg?svg=true"></img></a></td>
-<td>Örnek ve harici verilere erişim için bir sözlük</td>
+<td>Örnek ve harici verilere erişim için bir kelime hazinesi</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.ArrayExt<br><a href="https://www.nuget.org/packages/JsonSchema.Net.ArrayExt/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.ArrayExt.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.ArrayExt.svg?svg=true"></img></a></td>
-<td>Dizi doğrulamasını genişletmek için bir sözlük</td>
+<td>Diziler için doğrulama uzantısı kelime hazinesi</td>
 </tr>
 <tr>
 <td>JsonSchema.Net.OpenApi<br><a href="https://www.nuget.org/packages/JsonSchema.Net.OpenApi/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.OpenApi.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.OpenApi.svg?svg=true"></img></a></td>
-<td><a href="https://www.openapis.org/">OpenApi 3.1</a> sözlüğü uzantısı (<a href="https://github.com/gregsdennis/Graeae">Graeae</a> tarafından kullanılır)</td>
+<td><a href="https://www.openapis.org/">OpenApi 3.1</a> kelime hazinesi uzantısı (<a href="https://github.com/gregsdennis/Graeae">Graeae</a> tarafından kullanılır)</td>
 </tr>
 <tr>
 <td>JsonPath.Net<br><a href="https://www.nuget.org/packages/JsonPath.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonPath.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonPath.Net.svg?svg=true"></img></a></td>
@@ -138,16 +139,16 @@ Tüm kütüphaneler .Net Standard 2.0 ve .Net 8 ile derlenmiştir.
 </tr>
 <tr>
 <td>Json.More.Net<br><a href="https://www.nuget.org/packages/Json.More.Net/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Json.More.Net.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Json.More.Net.svg?svg=true"></img></a></td>
-<td>Genel amaçlı uzantılar; muhtemelen <em>System.Text.Json[.Nodes]</em>'da bulunması gerekirdi fakat eklenmedi</td>
+<td>Muhtemelen <em>System.Text.Json[.Nodes]</em> içinde olması gereken ancak dahil edilmemiş genel amaçlı uzantılar</td>
 </tr>
 <tr>
 <td>Yaml2JsonNode<br><a href="https://www.nuget.org/packages/Yaml2JsonNode/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/Yaml2JsonNode.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/Yaml2JsonNode.svg?svg=true"></img></a></td>
-<td><a href="https://github.com/aaubry/YamlDotNet">YamlDotNet</a> içindeki YAML belge modeli ile <code>JsonNode</code> arasında dönüşüm (her iki yönde).</td>
+<td><a href="https://github.com/aaubry/YamlDotNet">YamlDotNet</a>'teki YAML belge modeli ile <code>JsonNode</code> arasında (her iki yönde) dönüşümler.</td>
 </tr>
 </tbody>
 </table>
 
-Yukarıdaki tüm kütüphaneler, ilişkili oldukları standartların tam desteğini sunar.
+Yukarıdaki tüm kütüphaneler ilgili spesifikasyonları için tam destek sunmaktadır.
 
 _JsonSchema.Net_ için hata mesajı çevirileri şu dillerde mevcuttur:
 
@@ -159,58 +160,60 @@ _JsonSchema.Net_ için hata mesajı çevirileri şu dillerde mevcuttur:
 - İsveççe `sv-SE`
 - Türkçe `tr-TR`
 
-***NOT** Her dil paketi kendi Nuget paketiyle sunulmaktadır.*
+***NOT** Her dil paketi kendi Nuget paketi tarafından sağlanmaktadır.*
 
-JSON Schema Test Suite sonuçlarını farklı platformlarda birden çok uygulama ile çalıştıran [Bowtie](https://bowtie-json-schema.github.io/bowtie) üzerinden de görüntüleyebilirsiniz.
+Ayrıca [Bowtie](https://bowtie-json-schema.github.io/bowtie) üzerinde JSON Şema Test Paketi sonuçlarını görüntüleyebilirsiniz; bu platformda test paketi farklı platformlarda birden fazla implementasyona karşı çalıştırılır.
 
-***UYARI** Benim kütüphanem olan _JsonSchema.Net_, https://jsonschema.net web sitesiyle ilgili veya ilişkili değildir; ancak ikisi de mükemmel JSON Schema araçlarıdır.*
+***FERAGATNAME** Kütüphanem, _JsonSchema.Net_, https://jsonschema.net web sitesi ile ilişkili veya bağlantılı değildir; sadece her ikisi de mükemmel JSON Şema araçlarıdır.*
 
-### Kaldırılan paketler
+### Kullanımdan Kaldırılmış Paketler
 
-Bu paketler de bu paketin bir parçasıydı fakat artık desteklenmemektedir.
+Bu paketler de daha önce bu paketin bir parçasıydı ancak artık desteklenmemektedir.
 
 <table>
 <tbody>
 <tr>
 <td>JsonSchema.Net.CodeGeneration<br><a href="https://www.nuget.org/packages/JsonSchema.Net.CodeGeneration/"><img alt="NuGet version" src="https://img.shields.io/nuget/vpre/JsonSchema.Net.CodeGeneration.svg?svg=true"></img><img alt="NuGet version" src="https://img.shields.io/nuget/dt/JsonSchema.Net.CodeGeneration.svg?svg=true"></img></a></td>
 <td>Şemalardan C# kodu üretimi</td>
-<td><a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a> lehine kullanım dışı bırakılmıştır</td>
+<td><a href="https://github.com/corvus-dotnet/Corvus.JsonSchema">Corvus.JsonSchema</a> lehine kullanımdan kaldırıldı</td>
 </tr>
 </tbody>
 </table>
 
 
-## _System.Text.Json_ desteği sağlayan diğer projeler
+## Diğer projelerle _System.Text.Json_ desteği
 
-Burada aradığınızı bulamazsanız, lütfen şu harika projelere de göz atın:
+Burada aradığınızı bulamazsanız, lütfen aşağıdaki mükemmel projelerden birini deneyin:
 
-- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) by [@danielaparker](https://github.com/danielaparker)
+- [JsonCons.Net](https://github.com/danielaparker/JsonCons.Net) [@danielaparker](https://github.com/danielaparker) tarafından
   - JSON Pointer
   - JSON Patch
   - JSON Merge Patch
   - JSON Path
   - JMES Path
-- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) by [@mwadams](https://github.com/mwadams)
-  - C# kod üretimine odaklanan JSON Schema doğrulaması
-- (daha fazlası gelecek)
+- [Corvus.JsonSchema](https://github.com/corvus-dotnet/Corvus.JsonSchema) [@mwadams](https://github.com/mwadams) tarafından
+  - C# kod üretimi odaklı JSON Şema doğrulama
+- (daha fazlası eklenecek)
 
-JSON ile bu paketteki bir kütüphanede veya yukarıdaki projelerde bulunmayan bir şey yapmak istiyorsanız, lütfen [bir özellik isteği oluşturun](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).
+JSON ile bu paketteki bir kütüphanede veya yukarıdaki projelerde yer almayan bir şey yapıyorsanız, [özellik talebi oluşturabilirsiniz](https://github.com/json-everything/json-everything/issues/new?assignees=&labels=feature&projects=&template=New_function.yml).
 
-_System.Text.Json_ üzerine geliştirilmiş başka bir projeyi sürdürüyor veya biliyorsanız ve burada listelenmesini istiyorsanız, lütfen [genel bir istek oluşturun](https://github.com/json-everything/json-everything/issues/new) ve bana bildirin.
+_System.Text.Json_’u genişleten başka bir projeyi sürdürüyorsanız veya biliyorsanız ve burada listelenmesini istiyorsanız, lütfen [genel bir istek oluşturun](https://github.com/json-everything/json-everything/issues/new) ve bana bildirin.
+
 ## Katkıda Bulunma
 
-Daha fazla bilgi için lütfen [Davranış Kuralları](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) ve [KATKIDA BULUNMA](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) dosyasına bakınız.
+Daha fazla bilgi için lütfen [Davranış Kuralları](https://raw.githubusercontent.com/json-everything/json-everything/master/./CODE_OF_CONDUCT.md) ve [KATKIDA BULUNMA](https://raw.githubusercontent.com/json-everything/json-everything/master/./CONTRIBUTING.md) dosyasına bakın.
 
 ## Sponsorluk
 
-Eğer bu kütüphaneleri faydalı bulduysanız ve geliştirilmesine katkıda bulunmak isterseniz, lütfen [bakımcıları sponsor etmeyi](https://github.com/sponsors/gregsdennis) düşünün.
+Bu kütüphaneleri faydalı bulduysanız ve devam eden geliştirmeyi desteklemek isterseniz, lütfen [bakımcıları sponsor etmeyi](https://github.com/sponsors/gregsdennis) düşünün.
 
-## .NET Foundation
+## .NET Vakfı
 
-Bu proje [.NET Foundation](https://dotnetfoundation.org) tarafından desteklenmektedir.
+Bu proje [.NET Vakfı](https://dotnetfoundation.org) tarafından desteklenmektedir.
+
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-06-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
 
 ---
