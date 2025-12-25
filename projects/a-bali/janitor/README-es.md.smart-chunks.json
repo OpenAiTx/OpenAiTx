@@ -1,0 +1,569 @@
+[
+  {
+    "Id": 1,
+    "Content": "# janitor\n## Objective\nJanitor is a standalone tool that monitors the availability of your IOT devices and alerts you in case a device goes missing or stops transmitting data. This is particulary useful if you have many sensors, possibly with unstable hardware or connection, so you can take action in case of any issues and monitor the stability of your devices.\n\nJanitor does not aim to implement any additional functionalities, therefore is not an alternative to your other home automation software (e.g. HASS). Focusing on solely this functionality will enable to keep this tool simple and efficient.\n\nJanitor currently supports the following monitoring methods:\n* **MQTT:** Janitor will subscribe to predefined MQTT topics and monitor incoming messages. An average transmit frequency will be calculated for each channel and in case no new messages are received within this interval, Janitor will alert you (the threshold can be configured as a multiple of the average frequency or as absolute values per topic). This method is particulary useful for any kind of sensors submitting data regularly via MQTT (e.g. temperature).\n* **Ping:** Janitor will ping predefined hosts with a predefined frequency (configurable on a per host basis) and will alert you in case of no reply (the threshold used for consecutively missed pings can be configured). This method is useful for any kind of IOT devices e.g. sensors, cameras etc.\n* **HTTP:** Janitor will send a HTTP GET request to predefined addresses and check for reply, and, optionally, whether the reply contains a predefined string. Janitor will alert you in case of consecutively unsuccessful requests above the configured threshold. The frequency and timeout are also configurable per address. This method is useful for any kind of services with a web interface (e.g. APIs, hosted services etc.).\n* **Exec:** Janitor will execute a preconfigured command and check for its exit code. Janitor will alert you in case of consecutively unsuccessful executions above the configured threshold. The frequency and timeout are also configurable per command. With this method you can implement any kind of custom monitoring.\n\nJanitor currently supports the following alert methods:\n* **Telegram:** Janitor will send a message to a predefined Telegram channel.\n* **Gotify:** Janitor will send a push message to Gotify.\n* **MQTT:** Janitor will publish a message to a preconfigured topic on a preconfigured MQTT server. The message will contain a JSON payload (see sample config for example). This is suitable for automations e.g. in HASS.\n* **Exec:** Janitor will execute a preconfigured command. This enables creating any type of custom alerting method.\n\nAdditionally, Janitor has a web interface where you can see the current status and historical data, remove items, change timeouts, intervals and thresholds and reload the configuration file (see screenshot below).\n\nFinally, Janitor includes a simple JSON api with the following endpoints:\n* `/api/data` provides a snapshot of all monitoring related data.\n* `/api/stats` provides the count of monitoring targets in functional/dysfunctional state.\n* `/api/metrics` provides target statistics in Prometheus metrics format.\n\n## Screenshot\n![Screenshot](https://raw.githubusercontent.com/a-bali/janitor/master/docs/screenshot.png)\n\n## Building and installing\n\nJanitor is written in Go and will compile to a single standalone binary. Janitor should compile and work both on Linux and on Windows.\n\nFor compiling, use at least Go version 1.16 and execute the following commands to clone the repository and build the binary:\n\n    $ git clone https://github.com/a-bali/janitor.git\n    $ cd janitor\n    $ go build\n\nThis will create the standalone binary named `janitor` that you can place anywhere you like. Pre-built binaries for releases\nare available on Github.",
+    "ContentSha": "SVwiiQ0WFGRfrNK8VrV7B0mpxIDjTqEXwvTEpkWXHv4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# janitor\n## Objetivo\nJanitor es una herramienta independiente que monitorea la disponibilidad de tus dispositivos IOT y te alerta en caso de que un dispositivo desaparezca o deje de transmitir datos. Esto es particularmente útil si tienes muchos sensores, posiblemente con hardware o conexión inestable, para que puedas actuar en caso de cualquier problema y monitorear la estabilidad de tus dispositivos.\n\nJanitor no tiene como objetivo implementar funcionalidades adicionales, por lo tanto no es una alternativa a tu otro software de automatización del hogar (por ejemplo HASS). Enfocarse únicamente en esta funcionalidad permitirá mantener esta herramienta simple y eficiente.\n\nJanitor actualmente soporta los siguientes métodos de monitoreo:\n* **MQTT:** Janitor se suscribirá a temas MQTT predefinidos y monitoreará los mensajes entrantes. Se calculará una frecuencia promedio de transmisión para cada canal y en caso de no recibir mensajes nuevos dentro de este intervalo, Janitor te alertará (el umbral puede configurarse como un múltiplo de la frecuencia promedio o como valores absolutos por tema). Este método es particularmente útil para cualquier tipo de sensores que envíen datos regularmente vía MQTT (por ejemplo temperatura).\n* **Ping:** Janitor hará ping a hosts predefinidos con una frecuencia predefinida (configurable por host) y te alertará en caso de no recibir respuesta (el umbral usado para pings consecutivamente fallidos puede configurarse). Este método es útil para cualquier tipo de dispositivos IOT, por ejemplo sensores, cámaras, etc.\n* **HTTP:** Janitor enviará una solicitud HTTP GET a direcciones predefinidas y verificará la respuesta, y opcionalmente, si la respuesta contiene una cadena predefinida. Janitor te alertará en caso de solicitudes consecutivamente fallidas por encima del umbral configurado. La frecuencia y el tiempo de espera también son configurables por dirección. Este método es útil para cualquier tipo de servicios con interfaz web (por ejemplo APIs, servicios alojados, etc.).\n* **Exec:** Janitor ejecutará un comando preconfigurado y verificará su código de salida. Janitor te alertará en caso de ejecuciones consecutivamente fallidas por encima del umbral configurado. La frecuencia y el tiempo de espera también son configurables por comando. Con este método puedes implementar cualquier tipo de monitoreo personalizado.\n\nJanitor actualmente soporta los siguientes métodos de alerta:\n* **Telegram:** Janitor enviará un mensaje a un canal de Telegram predefinido.\n* **Gotify:** Janitor enviará un mensaje push a Gotify.\n* **MQTT:** Janitor publicará un mensaje en un tema preconfigurado en un servidor MQTT preconfigurado. El mensaje contendrá una carga JSON (ver configuración de ejemplo). Esto es adecuado para automatizaciones, por ejemplo en HASS.\n* **Exec:** Janitor ejecutará un comando preconfigurado. Esto permite crear cualquier tipo de método de alerta personalizado.\n\nAdicionalmente, Janitor tiene una interfaz web donde puedes ver el estado actual y datos históricos, eliminar ítems, cambiar tiempos de espera, intervalos y umbrales y recargar el archivo de configuración (ver captura de pantalla abajo).\n\nFinalmente, Janitor incluye una API JSON simple con los siguientes endpoints:\n* `/api/data` proporciona una instantánea de todos los datos relacionados con el monitoreo.\n* `/api/stats` proporciona el conteo de objetivos de monitoreo en estado funcional/disfuncional.\n* `/api/metrics` proporciona estadísticas de objetivos en formato de métricas Prometheus.\n\n## Captura de pantalla\n![Captura de pantalla](https://raw.githubusercontent.com/a-bali/janitor/master/docs/screenshot.png)\n\n## Compilación e instalación\n\nJanitor está escrito en Go y se compilará en un único binario independiente. Janitor debería compilar y funcionar tanto en Linux como en Windows.\n\nPara compilar, usa al menos la versión 1.16 de Go y ejecuta los siguientes comandos para clonar el repositorio y construir el binario:\n\n    $ git clone https://github.com/a-bali/janitor.git\n    $ cd janitor\n    $ go build\n\nEsto creará el binario independiente llamado `janitor` que puedes colocar donde desees. Los binarios precompilados para las versiones\nestán disponibles en Github.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "hGCQi54XWQIWRHNVBoNK0+TBQ2OOJepCHLPWbj88LNk=",
+        "originContent": "# janitor",
+        "translatedContent": "# janitor"
+      },
+      {
+        "row": 2,
+        "rowsha": "gmejMazSjpEvYNf6ypLY7MPrYqljqfj8jRDLjNu2EZE=",
+        "originContent": "## Objective",
+        "translatedContent": "## Objetivo"
+      },
+      {
+        "row": 3,
+        "rowsha": "2/qO3C4GEtxvSQ8A2mJCyxlJcL9C9CYoMko7Tm0r9Xc=",
+        "originContent": "Janitor is a standalone tool that monitors the availability of your IOT devices and alerts you in case a device goes missing or stops transmitting data. This is particulary useful if you have many sensors, possibly with unstable hardware or connection, so you can take action in case of any issues and monitor the stability of your devices.",
+        "translatedContent": "Janitor es una herramienta independiente que monitorea la disponibilidad de tus dispositivos IOT y te alerta en caso de que un dispositivo desaparezca o deje de transmitir datos. Esto es particularmente útil si tienes muchos sensores, posiblemente con hardware o conexión inestable, para que puedas actuar en caso de cualquier problema y monitorear la estabilidad de tus dispositivos."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "EYA11Who7f5lpPx3x3nvXvdJY2j2mYd/9CUgvJHw284=",
+        "originContent": "Janitor does not aim to implement any additional functionalities, therefore is not an alternative to your other home automation software (e.g. HASS). Focusing on solely this functionality will enable to keep this tool simple and efficient.",
+        "translatedContent": "Janitor no tiene como objetivo implementar funcionalidades adicionales, por lo tanto no es una alternativa a tu otro software de automatización del hogar (por ejemplo HASS). Enfocarse únicamente en esta funcionalidad permitirá mantener esta herramienta simple y eficiente."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "esOVg5BOFdP4KpO1gAAIyv+YN3tonTSpiFzmS27XPfY=",
+        "originContent": "Janitor currently supports the following monitoring methods:",
+        "translatedContent": "Janitor actualmente soporta los siguientes métodos de monitoreo:"
+      },
+      {
+        "row": 8,
+        "rowsha": "lWYyhF1cknhcFJdy29WcEE2yd0lKVEX0Dm8UkqEbAjk=",
+        "originContent": "* **MQTT:** Janitor will subscribe to predefined MQTT topics and monitor incoming messages. An average transmit frequency will be calculated for each channel and in case no new messages are received within this interval, Janitor will alert you (the threshold can be configured as a multiple of the average frequency or as absolute values per topic). This method is particulary useful for any kind of sensors submitting data regularly via MQTT (e.g. temperature).",
+        "translatedContent": "* **MQTT:** Janitor se suscribirá a temas MQTT predefinidos y monitoreará los mensajes entrantes. Se calculará una frecuencia promedio de transmisión para cada canal y en caso de no recibir mensajes nuevos dentro de este intervalo, Janitor te alertará (el umbral puede configurarse como un múltiplo de la frecuencia promedio o como valores absolutos por tema). Este método es particularmente útil para cualquier tipo de sensores que envíen datos regularmente vía MQTT (por ejemplo temperatura)."
+      },
+      {
+        "row": 9,
+        "rowsha": "wYFWV32tdYBHv9B6JKw2aE3QpjgpexXQ+wursb1jEaE=",
+        "originContent": "* **Ping:** Janitor will ping predefined hosts with a predefined frequency (configurable on a per host basis) and will alert you in case of no reply (the threshold used for consecutively missed pings can be configured). This method is useful for any kind of IOT devices e.g. sensors, cameras etc.",
+        "translatedContent": "* **Ping:** Janitor hará ping a hosts predefinidos con una frecuencia predefinida (configurable por host) y te alertará en caso de no recibir respuesta (el umbral usado para pings consecutivamente fallidos puede configurarse). Este método es útil para cualquier tipo de dispositivos IOT, por ejemplo sensores, cámaras, etc."
+      },
+      {
+        "row": 10,
+        "rowsha": "7249tNpwPUC0ymcLVqdwBG/+iGigYWwVM0NjVgTP1zg=",
+        "originContent": "* **HTTP:** Janitor will send a HTTP GET request to predefined addresses and check for reply, and, optionally, whether the reply contains a predefined string. Janitor will alert you in case of consecutively unsuccessful requests above the configured threshold. The frequency and timeout are also configurable per address. This method is useful for any kind of services with a web interface (e.g. APIs, hosted services etc.).",
+        "translatedContent": "* **HTTP:** Janitor enviará una solicitud HTTP GET a direcciones predefinidas y verificará la respuesta, y opcionalmente, si la respuesta contiene una cadena predefinida. Janitor te alertará en caso de solicitudes consecutivamente fallidas por encima del umbral configurado. La frecuencia y el tiempo de espera también son configurables por dirección. Este método es útil para cualquier tipo de servicios con interfaz web (por ejemplo APIs, servicios alojados, etc.)."
+      },
+      {
+        "row": 11,
+        "rowsha": "F34h1Zwbo8GiqupW27c8OKHDVdlJnn+Ad9l5KpuGgvU=",
+        "originContent": "* **Exec:** Janitor will execute a preconfigured command and check for its exit code. Janitor will alert you in case of consecutively unsuccessful executions above the configured threshold. The frequency and timeout are also configurable per command. With this method you can implement any kind of custom monitoring.",
+        "translatedContent": "* **Exec:** Janitor ejecutará un comando preconfigurado y verificará su código de salida. Janitor te alertará en caso de ejecuciones consecutivamente fallidas por encima del umbral configurado. La frecuencia y el tiempo de espera también son configurables por comando. Con este método puedes implementar cualquier tipo de monitoreo personalizado."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "bHhzGU5A0aNPdwOlf1g/rOZRdmmYa6IA9/oFle5wQVs=",
+        "originContent": "Janitor currently supports the following alert methods:",
+        "translatedContent": "Janitor actualmente soporta los siguientes métodos de alerta:"
+      },
+      {
+        "row": 14,
+        "rowsha": "uom7XlyWStgxdKSEaDPQiFGB/Q3o+dwlJhgdPNUHg48=",
+        "originContent": "* **Telegram:** Janitor will send a message to a predefined Telegram channel.",
+        "translatedContent": "* **Telegram:** Janitor enviará un mensaje a un canal de Telegram predefinido."
+      },
+      {
+        "row": 15,
+        "rowsha": "uPDHsoxsQVh2PdVLIGFJLWNzUYTgJTKbURHvlrxm73o=",
+        "originContent": "* **Gotify:** Janitor will send a push message to Gotify.",
+        "translatedContent": "* **Gotify:** Janitor enviará un mensaje push a Gotify."
+      },
+      {
+        "row": 16,
+        "rowsha": "7PvsuB0kvvj98NcTI7Yv4rKx77+uXinGXEUgFXO6gFA=",
+        "originContent": "* **MQTT:** Janitor will publish a message to a preconfigured topic on a preconfigured MQTT server. The message will contain a JSON payload (see sample config for example). This is suitable for automations e.g. in HASS.",
+        "translatedContent": "* **MQTT:** Janitor publicará un mensaje en un tema preconfigurado en un servidor MQTT preconfigurado. El mensaje contendrá una carga JSON (ver configuración de ejemplo). Esto es adecuado para automatizaciones, por ejemplo en HASS."
+      },
+      {
+        "row": 17,
+        "rowsha": "FSUWhhBzlJXfCtXqPKlk5lAaS1oQPPR70eDLH6AxkNU=",
+        "originContent": "* **Exec:** Janitor will execute a preconfigured command. This enables creating any type of custom alerting method.",
+        "translatedContent": "* **Exec:** Janitor ejecutará un comando preconfigurado. Esto permite crear cualquier tipo de método de alerta personalizado."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "75H8/29bZe/SqMIoU4mFkBVwvCgmbk5xNGdlRSLMOXk=",
+        "originContent": "Additionally, Janitor has a web interface where you can see the current status and historical data, remove items, change timeouts, intervals and thresholds and reload the configuration file (see screenshot below).",
+        "translatedContent": "Adicionalmente, Janitor tiene una interfaz web donde puedes ver el estado actual y datos históricos, eliminar ítems, cambiar tiempos de espera, intervalos y umbrales y recargar el archivo de configuración (ver captura de pantalla abajo)."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Hv3Q5png5BIlQhxjUsBdHTC40UxSD70/AMmM+OagORs=",
+        "originContent": "Finally, Janitor includes a simple JSON api with the following endpoints:",
+        "translatedContent": "Finalmente, Janitor incluye una API JSON simple con los siguientes endpoints:"
+      },
+      {
+        "row": 22,
+        "rowsha": "txr3+cMxIqoklUyzdZVnEQNxFdwyr/a73IKW+UmEJII=",
+        "originContent": "* `/api/data` provides a snapshot of all monitoring related data.",
+        "translatedContent": "* `/api/data` proporciona una instantánea de todos los datos relacionados con el monitoreo."
+      },
+      {
+        "row": 23,
+        "rowsha": "FU07kUbUA436WWv2iOQ4NHxbOhE5fLqYFYPlzULukQo=",
+        "originContent": "* `/api/stats` provides the count of monitoring targets in functional/dysfunctional state.",
+        "translatedContent": "* `/api/stats` proporciona el conteo de objetivos de monitoreo en estado funcional/disfuncional."
+      },
+      {
+        "row": 24,
+        "rowsha": "AaKOlV25C1/N1xcwmlIrTBnmy8slsweT2WaimzzTToc=",
+        "originContent": "* `/api/metrics` provides target statistics in Prometheus metrics format.",
+        "translatedContent": "* `/api/metrics` proporciona estadísticas de objetivos en formato de métricas Prometheus."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "//9AuIIaXy9mvaAGc/r6mkESt/laTi9ivwat9mNHcs0=",
+        "originContent": "## Screenshot",
+        "translatedContent": "## Captura de pantalla"
+      },
+      {
+        "row": 27,
+        "rowsha": "3UCAR/k9gGgYWh9zmTRR62eu4LnI0/3LyMoPD6tYymI=",
+        "originContent": "![Screenshot](https://raw.githubusercontent.com/a-bali/janitor/master/docs/screenshot.png)",
+        "translatedContent": "![Captura de pantalla](https://raw.githubusercontent.com/a-bali/janitor/master/docs/screenshot.png)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "PZFiAU/VRay6VVp7wBrJCsSwhKVu/CfMkMV6toIYE1A=",
+        "originContent": "## Building and installing",
+        "translatedContent": "## Compilación e instalación"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "M9A289jitE1ep3bCwP372HMinywmbwpfv/2DOs6FLaY=",
+        "originContent": "Janitor is written in Go and will compile to a single standalone binary. Janitor should compile and work both on Linux and on Windows.",
+        "translatedContent": "Janitor está escrito en Go y se compilará en un único binario independiente. Janitor debería compilar y funcionar tanto en Linux como en Windows."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "l3owzXe+F/TH/jtDdjdcrV+cnZglRim3UJtrvXFAcE8=",
+        "originContent": "For compiling, use at least Go version 1.16 and execute the following commands to clone the repository and build the binary:",
+        "translatedContent": "Para compilar, usa al menos la versión 1.16 de Go y ejecuta los siguientes comandos para clonar el repositorio y construir el binario:"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Tj9AkQFIsUamXvaXayy1sW1UtvxBWw+05IEtSVVjhH4=",
+        "originContent": "    $ git clone https://github.com/a-bali/janitor.git",
+        "translatedContent": "    $ git clone https://github.com/a-bali/janitor.git"
+      },
+      {
+        "row": 36,
+        "rowsha": "YiArEU6DnLDZx4XusUujEPGbUc/mICHgz24yIu45PfQ=",
+        "originContent": "    $ cd janitor",
+        "translatedContent": "    $ cd janitor"
+      },
+      {
+        "row": 37,
+        "rowsha": "Vix4eRpSkermKwDDvDCsUOvH1FFpzjgsdaFyptt19G0=",
+        "originContent": "    $ go build",
+        "translatedContent": "    $ go build"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "rgb2ZItV5j9T2E6uSntbUNY1N333YmQL9UUWeU3WShc=",
+        "originContent": "This will create the standalone binary named `janitor` that you can place anywhere you like. Pre-built binaries for releases",
+        "translatedContent": "Esto creará el binario independiente llamado `janitor` que puedes colocar donde desees. Los binarios precompilados para las versiones"
+      },
+      {
+        "row": 40,
+        "rowsha": "FQGGfo33qhZFY0EgOBGDrJiSfNh8zBK5Si8st8W88KA=",
+        "originContent": "are available on Github.",
+        "translatedContent": "están disponibles en Github."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n## Configuration and usage\n\nFor configuration, a YAML formatted file is required. Please use the [sample configuration file](https://raw.githubusercontent.com/a-bali/janitor/master/config.yml) and change it according to your needs, following the comments in the file. Most of the variables are optional and have reasonable defaults, for details please see the comments. You can reference environment variables with `$ENV_VAR` or `${ENV_VAR}` which will be substituted by their value if they exist (or with an empty string if they don't.).\n\nA minimal but already operational configuration can be as short as follows (assuming Janitor's web interface will be available on its default port which is 8080):\n\n    monitor:\n      mqtt:\n        server: mymqtt.server\n        targets:\n        - topic: \"/sensors/#\"\n    alert:\n      gotify:\n        server: \"http://mygotify.server:1234\"\n        token: gotify_token\n\nOnce you created a configuration file, Janitor can be launched as follows:\n\n    $ janitor path/to/your/configfile.yml\n\nJanitor will log to standard output. The log is viewable on the web interface as well, where you can delete monitored targets and reload the configuration file (e.g. in case you added new targets or changed any of the settings).\n\nJanitor will not daemonize itself. It is recommended to create a systemd service for janitor in case you want it running continuously.\n\n## Running with Docker\n\nThe latest version of Janitor is available on Docker Hub [`abali/janitor`](https://hub.docker.com/repository/docker/abali/janitor). To use this, map your configuration file to `/janitor/config.yml`:\n\n    $ docker run -v $(pwd)/config.yml:/janitor/config.yml -p 8080:8080 abali/janitor\n\nAlternatively, you can use the supplied Dockerfile to build a container yourself :\n\n    $ git clone https://github.com/a-bali/janitor.git\n    $ cd janitor\n    $ docker build . -t janitor\n    $ docker run -v $(pwd)/config.yml:/janitor/config.yml -p 8080:8080 janitor\n\n## Future plans and contributing\n",
+    "ContentSha": "InUdf4ez2ehlKVdnahGrr5b0iK/stQX3cbgva1+H3w4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Configuración y uso\n\nPara la configuración, se requiere un archivo con formato YAML. Por favor, use el [archivo de configuración de ejemplo](https://raw.githubusercontent.com/a-bali/janitor/master/config.yml) y cámbielo según sus necesidades, siguiendo los comentarios en el archivo. La mayoría de las variables son opcionales y tienen valores predeterminados razonables, para más detalles vea los comentarios. Puede referenciar variables de entorno con `$ENV_VAR` o `${ENV_VAR}`, las cuales serán sustituidas por su valor si existen (o por una cadena vacía si no existen).\n\nUna configuración mínima pero ya operativa puede ser tan corta como la siguiente (suponiendo que la interfaz web de Janitor estará disponible en su puerto predeterminado, que es 8080):\n\n    monitor:\n      mqtt:\n        server: mymqtt.server\n        targets:\n        - topic: \"/sensors/#\"\n    alert:\n      gotify:\n        server: \"http://mygotify.server:1234\"\n        token: gotify_token\n\nUna vez que haya creado un archivo de configuración, Janitor puede iniciarse de la siguiente manera:\n\n    $ janitor path/to/your/configfile.yml\n\nJanitor registrará en la salida estándar. El registro también es visible en la interfaz web, donde puede eliminar objetivos monitoreados y recargar el archivo de configuración (por ejemplo, en caso de que haya agregado nuevos objetivos o cambiado alguna de las configuraciones).\n\nJanitor no se ejecutará como demonio. Se recomienda crear un servicio systemd para janitor en caso de que desee que se ejecute de forma continua.\n\n## Ejecución con Docker\n\nLa última versión de Janitor está disponible en Docker Hub [`abali/janitor`](https://hub.docker.com/repository/docker/abali/janitor). Para usarlo, mapee su archivo de configuración a `/janitor/config.yml`:\n\n    $ docker run -v $(pwd)/config.yml:/janitor/config.yml -p 8080:8080 abali/janitor\n\nAlternativamente, puede usar el Dockerfile suministrado para construir un contenedor usted mismo:\n\n    $ git clone https://github.com/a-bali/janitor.git\n    $ cd janitor\n    $ docker build . -t janitor\n    $ docker run -v $(pwd)/config.yml:/janitor/config.yml -p 8080:8080 janitor\n\n## Planes futuros y contribuciones\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Configuración y uso"
+      },
+      {
+        "row": 2,
+        "rowsha": "EdgguSjeJAMgwCsiuMtpHR4I2ekxdl2y3oQMFZCrWRc=",
+        "originContent": "## Configuration and usage",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Para la configuración, se requiere un archivo con formato YAML. Por favor, use el [archivo de configuración de ejemplo](https://raw.githubusercontent.com/a-bali/janitor/master/config.yml) y cámbielo según sus necesidades, siguiendo los comentarios en el archivo. La mayoría de las variables son opcionales y tienen valores predeterminados razonables, para más detalles vea los comentarios. Puede referenciar variables de entorno con `$ENV_VAR` o `${ENV_VAR}`, las cuales serán sustituidas por su valor si existen (o por una cadena vacía si no existen)."
+      },
+      {
+        "row": 4,
+        "rowsha": "ETu0+tBkttX3a4040zrdHW5en5SRZRjkYOvwBeH+SVQ=",
+        "originContent": "For configuration, a YAML formatted file is required. Please use the [sample configuration file](https://raw.githubusercontent.com/a-bali/janitor/master/config.yml) and change it according to your needs, following the comments in the file. Most of the variables are optional and have reasonable defaults, for details please see the comments. You can reference environment variables with `$ENV_VAR` or `${ENV_VAR}` which will be substituted by their value if they exist (or with an empty string if they don't.).",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Una configuración mínima pero ya operativa puede ser tan corta como la siguiente (suponiendo que la interfaz web de Janitor estará disponible en su puerto predeterminado, que es 8080):"
+      },
+      {
+        "row": 6,
+        "rowsha": "3K76wL1Te9KLb/brkSZZEwI07T+raHYiBN4aWqoDjZE=",
+        "originContent": "A minimal but already operational configuration can be as short as follows (assuming Janitor's web interface will be available on its default port which is 8080):",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    monitor:"
+      },
+      {
+        "row": 8,
+        "rowsha": "z0wUU54EkgyHgKyObDejyL/tUbaNP13m4SG/i2VsKkc=",
+        "originContent": "    monitor:",
+        "translatedContent": "      mqtt:"
+      },
+      {
+        "row": 9,
+        "rowsha": "csF9AR74MGOEyiuD8EcFQZ0qu8eKFLJGkol+wpsLvec=",
+        "originContent": "      mqtt:",
+        "translatedContent": "        server: mymqtt.server"
+      },
+      {
+        "row": 10,
+        "rowsha": "LGxKH+V65vQKFF5zUOv5TUBwoN/DiccQeSacmOtkEgk=",
+        "originContent": "        server: mymqtt.server",
+        "translatedContent": "        targets:"
+      },
+      {
+        "row": 11,
+        "rowsha": "8810FsHLlyuHbpWYUlGHyV77v3IgIhslQLzZBG+SA0k=",
+        "originContent": "        targets:",
+        "translatedContent": "        - topic: \"/sensors/#\""
+      },
+      {
+        "row": 12,
+        "rowsha": "wZAqXuP23jGLA6o/yHraKS4XXcbOLHXGboZk3jgku4M=",
+        "originContent": "        - topic: \"/sensors/#\"",
+        "translatedContent": "    alert:"
+      },
+      {
+        "row": 13,
+        "rowsha": "vRu2iFEX9xy8hhBuYdXMyWuApJTG9N39aPZrVS6/SIk=",
+        "originContent": "    alert:",
+        "translatedContent": "      gotify:"
+      },
+      {
+        "row": 14,
+        "rowsha": "WlgpF0EgJ3e4nHFG845Y8NQCYlbCcNrqUId8AtymhRI=",
+        "originContent": "      gotify:",
+        "translatedContent": "        server: \"http://mygotify.server:1234\""
+      },
+      {
+        "row": 15,
+        "rowsha": "UyrbOGcb/pG8Psxz12X1NBXZbVhSDEXKwFSrIlvjOtk=",
+        "originContent": "        server: \"http://mygotify.server:1234\"",
+        "translatedContent": "        token: gotify_token"
+      },
+      {
+        "row": 16,
+        "rowsha": "BbwA+I61NR+sngyzrRYBw9MU7TcHYfrpnjrXL60k2mw=",
+        "originContent": "        token: gotify_token",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Una vez que haya creado un archivo de configuración, Janitor puede iniciarse de la siguiente manera:"
+      },
+      {
+        "row": 18,
+        "rowsha": "cII8LL2LQ58Z1S6yI1UkBTfcLzW9n/DHi4Lf+JveOi4=",
+        "originContent": "Once you created a configuration file, Janitor can be launched as follows:",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    $ janitor path/to/your/configfile.yml"
+      },
+      {
+        "row": 20,
+        "rowsha": "1rxRkxGeDSJuZk9Zwd36YT98BO6ISrHQsQSNwwT+PVc=",
+        "originContent": "    $ janitor path/to/your/configfile.yml",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Janitor registrará en la salida estándar. El registro también es visible en la interfaz web, donde puede eliminar objetivos monitoreados y recargar el archivo de configuración (por ejemplo, en caso de que haya agregado nuevos objetivos o cambiado alguna de las configuraciones)."
+      },
+      {
+        "row": 22,
+        "rowsha": "p88qEpu+znu3LNboa6py9DUPS1NDc5h2iAIU8xIV22E=",
+        "originContent": "Janitor will log to standard output. The log is viewable on the web interface as well, where you can delete monitored targets and reload the configuration file (e.g. in case you added new targets or changed any of the settings).",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Janitor no se ejecutará como demonio. Se recomienda crear un servicio systemd para janitor en caso de que desee que se ejecute de forma continua."
+      },
+      {
+        "row": 24,
+        "rowsha": "EwAl2kDeQwu0qwr9IQlERYgd+SwCxRaw5ZgIYUKKH/w=",
+        "originContent": "Janitor will not daemonize itself. It is recommended to create a systemd service for janitor in case you want it running continuously.",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Ejecución con Docker"
+      },
+      {
+        "row": 26,
+        "rowsha": "+zdEgJka4vomJthkZvhkb/n2/ytuL98Z3tzwAjPDGxU=",
+        "originContent": "## Running with Docker",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "La última versión de Janitor está disponible en Docker Hub [`abali/janitor`](https://hub.docker.com/repository/docker/abali/janitor). Para usarlo, mapee su archivo de configuración a `/janitor/config.yml`:"
+      },
+      {
+        "row": 28,
+        "rowsha": "U51R9p39B+ddwL+dkmYJ37lBvK4bFlLJqeMiGiFY90w=",
+        "originContent": "The latest version of Janitor is available on Docker Hub [`abali/janitor`](https://hub.docker.com/repository/docker/abali/janitor). To use this, map your configuration file to `/janitor/config.yml`:",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    $ docker run -v $(pwd)/config.yml:/janitor/config.yml -p 8080:8080 abali/janitor"
+      },
+      {
+        "row": 30,
+        "rowsha": "Kck/K07TfLU1MtSOI5XzT6InCUKyt8Pyby52WLzY49E=",
+        "originContent": "    $ docker run -v $(pwd)/config.yml:/janitor/config.yml -p 8080:8080 abali/janitor",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Alternativamente, puede usar el Dockerfile suministrado para construir un contenedor usted mismo:"
+      },
+      {
+        "row": 32,
+        "rowsha": "17BNSLQnsHznKgXhPSYRpEg6t1AtpEv6yGDVQg+YhGQ=",
+        "originContent": "Alternatively, you can use the supplied Dockerfile to build a container yourself :",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    $ git clone https://github.com/a-bali/janitor.git"
+      },
+      {
+        "row": 34,
+        "rowsha": "Tj9AkQFIsUamXvaXayy1sW1UtvxBWw+05IEtSVVjhH4=",
+        "originContent": "    $ git clone https://github.com/a-bali/janitor.git",
+        "translatedContent": "    $ cd janitor"
+      },
+      {
+        "row": 35,
+        "rowsha": "YiArEU6DnLDZx4XusUujEPGbUc/mICHgz24yIu45PfQ=",
+        "originContent": "    $ cd janitor",
+        "translatedContent": "    $ docker build . -t janitor"
+      },
+      {
+        "row": 36,
+        "rowsha": "omo5xtMJHFekv8fcDX2o36GHS6LcuaPyqJwFT50dctk=",
+        "originContent": "    $ docker build . -t janitor",
+        "translatedContent": "    $ docker run -v $(pwd)/config.yml:/janitor/config.yml -p 8080:8080 janitor"
+      },
+      {
+        "row": 37,
+        "rowsha": "EDKzQr+sU4jb18alFZomn6DRzYLZsXrkrjHQYv2lFP8=",
+        "originContent": "    $ docker run -v $(pwd)/config.yml:/janitor/config.yml -p 8080:8080 janitor",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Planes futuros y contribuciones"
+      },
+      {
+        "row": 39,
+        "rowsha": "QDXXoEV0yqoe0m0Rs8eQf/DY5TDkMsWu4P+P+YprFsE=",
+        "originContent": "## Future plans and contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "Janitor's objective is clear and simple: to monitor the availability and operation of IOT devices and alert in case if any issues. Any future improvements should follow this objective and thus either add new ways of monitoring, or add new ways of alerting.\n\nJanitor is open source software and you are encouraged to send pull requests via Github that improve the software.\n\n## License\n\nJanitor is licensed under GPL 3.0.\n",
+    "ContentSha": "DXG1FJy/V3Rvawl4+D7uoXcLVOK5e29HKMvyLDCCWes=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "El objetivo de Janitor es claro y simple: monitorear la disponibilidad y operación de dispositivos IOT y alertar en caso de que haya algún problema. Cualquier mejora futura debe seguir este objetivo y, por lo tanto, añadir nuevas formas de monitoreo o nuevas formas de alerta.\n\nJanitor es un software de código abierto y se le anima a enviar solicitudes de extracción a través de Github que mejoren el software.\n\n## Licencia\n\nJanitor está licenciado bajo GPL 3.0.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "clSEvHsc9mMlxTH1/x3SnoPzHMgxY+81aAnyqRkyQRc=",
+        "originContent": "Janitor's objective is clear and simple: to monitor the availability and operation of IOT devices and alert in case if any issues. Any future improvements should follow this objective and thus either add new ways of monitoring, or add new ways of alerting.",
+        "translatedContent": "El objetivo de Janitor es claro y simple: monitorear la disponibilidad y operación de dispositivos IOT y alertar en caso de que haya algún problema. Cualquier mejora futura debe seguir este objetivo y, por lo tanto, añadir nuevas formas de monitoreo o nuevas formas de alerta."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "D5RrdBxqK4biHh28OdYk6Cq4BbI84A1yzMcTlQHaiKo=",
+        "originContent": "Janitor is open source software and you are encouraged to send pull requests via Github that improve the software.",
+        "translatedContent": "Janitor es un software de código abierto y se le anima a enviar solicitudes de extracción a través de Github que mejoren el software."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licencia"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "sh1jSIHDhCcrrjHcjrA/dX5CKYTmioSfPTJOyTARX0Y=",
+        "originContent": "Janitor is licensed under GPL 3.0.",
+        "translatedContent": "Janitor está licenciado bajo GPL 3.0."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

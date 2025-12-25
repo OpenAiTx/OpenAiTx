@@ -1,0 +1,1814 @@
+[
+  {
+    "row": 1,
+    "rowsha": "R55MsZ7Ds5NwcJR6ttGqLqqhTBibdPSGm+WEg/Lau2o=",
+    "originContent": "# Finch",
+    "translatedContent": "# Finch"
+  },
+  {
+    "row": 2,
+    "rowsha": "swzv//1C47Y0tTRwy2Y2/0AdWAVoFNu4lCowEaxhNVU=",
+    "originContent": "Finch offers a customizable debug menu for Android app development. It does not affect production code. Developers can easily add their own custom debugging features with simple steps.",
+    "translatedContent": "Finch offers a customizable debug menu for Android app development. It does not affect production code. Developers can easily add their own custom debugging features with simple steps."
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "hyMNyrYeA5+CnkwAEhMZllojo0lV7eindmecHAx/7MU=",
+    "originContent": "<img src=\"https://raw.githubusercontent.com/kernel0x/finch/master/assets/finch.gif\" width=\"282\" height=\"518\"/>",
+    "translatedContent": "<img src=\"https://raw.githubusercontent.com/kernel0x/finch/master/assets/finch.gif\" width=\"282\" height=\"518\"/>"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "KWKWJb2/T0o+5/t2cjlPIMBftrPDoVlVPtFUOU3z/NE=",
+    "originContent": "## Gradle Dependency",
+    "translatedContent": "## Gradle Dependency"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "BbbUQseWuXbuam4wtSttf7eu2R4GEBTyeLMTbGy7gUQ=",
+    "originContent": "Add it in your root build.gradle at the end of repositories:",
+    "translatedContent": "Add it in your root build.gradle at the end of repositories:"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "oa/PCaXY1qrazXClaP7OIRA0wORVjja447+5Nyl/ynI=",
+    "originContent": "````java",
+    "translatedContent": "````java"
+  },
+  {
+    "row": 11,
+    "rowsha": "yfL2M4r4U7zDrhAhMnY9oaR85u4SnSjM8fcIvY4ucq0=",
+    "originContent": "dependencyResolutionManagement {",
+    "translatedContent": "dependencyResolutionManagement {"
+  },
+  {
+    "row": 12,
+    "rowsha": "CNIBnU0IwZGQ8MpZnKUiJDEqr+8K/aJArcbYf5PdXIE=",
+    "originContent": "    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)",
+    "translatedContent": "    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)"
+  },
+  {
+    "row": 13,
+    "rowsha": "GSyNY2SBu61C9Q7JpeZ78cR4Yd6rOHodenM0FI9WfXc=",
+    "originContent": "    repositories {",
+    "translatedContent": "    repositories {"
+  },
+  {
+    "row": 14,
+    "rowsha": "pcJIV//fo37ug+YDs9e8y2FR7Vj74IKtU4gZdM22Alk=",
+    "originContent": "        mavenCentral()",
+    "translatedContent": "        mavenCentral()"
+  },
+  {
+    "row": 15,
+    "rowsha": "3Z1hBnkMlcH8Z37QIPRE/xO/BrXLcoCxQfUwwJYIldc=",
+    "originContent": "        maven { url 'https://jitpack.io' }",
+    "translatedContent": "        maven { url 'https://jitpack.io' }"
+  },
+  {
+    "row": 16,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 17,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 18,
+    "rowsha": "MpvA5TLaYie/8aAz02NkgKLlS+fOGFzbx44GNyxZMkg=",
+    "originContent": "````",
+    "translatedContent": "````"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Pick a UI implementation and add the dependency:"
+  },
+  {
+    "row": 20,
+    "rowsha": "nZjNHCdsgGGvZvjSkAIP/8cNTMBLkM2k3Hjv7OVyRAM=",
+    "originContent": "Pick a UI implementation and add the dependency:",
+    "translatedContent": "* **ui-activity** - The debug menu as a new screen."
+  },
+  {
+    "row": 21,
+    "rowsha": "aAnT9ulruJZzXv1GQ1G2U7zSfhz78YDMQknI4FpshVA=",
+    "originContent": "* **ui-activity** - The debug menu as a new screen.",
+    "translatedContent": "* **ui-bottom-sheet** - The debug menu as a modal bottom sheet."
+  },
+  {
+    "row": 22,
+    "rowsha": "qqbQrDt2rVmInHHoZWuMv15qH1ag18V3h5AJ77/3gWA=",
+    "originContent": "* **ui-bottom-sheet** - The debug menu as a modal bottom sheet.",
+    "translatedContent": "* **ui-dialog** - The debug menu as a modal dialog."
+  },
+  {
+    "row": 23,
+    "rowsha": "i0MZybdrGoZ9UtPmTkp1NuL1DTm/CqBtb/HOklym6WE=",
+    "originContent": "* **ui-dialog** - The debug menu as a modal dialog.",
+    "translatedContent": "* **ui-drawer** - The debug menu as a side navigation drawer."
+  },
+  {
+    "row": 24,
+    "rowsha": "5PAbeAE8pdx7W7WHjAcPdVNizHmcCLmmOVBiBMNqM0k=",
+    "originContent": "* **ui-drawer** - The debug menu as a side navigation drawer.",
+    "translatedContent": "* **ui-view** - The debug menu as a view."
+  },
+  {
+    "row": 25,
+    "rowsha": "t46lfCvogK2WQgT6h0cRNNOW5NFxmcYxFI1Zv8BmnaY=",
+    "originContent": "* **ui-view** - The debug menu as a view.",
+    "translatedContent": "* **noop** - For release build."
+  },
+  {
+    "row": 26,
+    "rowsha": "ZtRN3xB+DEUkynEGPeqiKZUjHRSTQ9NP+2JNqr54heY=",
+    "originContent": "* **noop** - For release build.",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "oa/PCaXY1qrazXClaP7OIRA0wORVjja447+5Nyl/ynI=",
+    "originContent": "````java",
+    "translatedContent": "````java"
+  },
+  {
+    "row": 29,
+    "rowsha": "YiU0BYrj6/iCE+VQzVtTmQYPeT0yaMuVWxaQJ1+t/zA=",
+    "originContent": "dependencies {",
+    "translatedContent": "dependencies {"
+  },
+  {
+    "row": 30,
+    "rowsha": "exCeA+zaa3GSx9eZwJRwwJzIdMUNZbhJdB9CgWyGj+g=",
+    "originContent": "    debugImplementation 'com.github.kernel0x.finch:ui-drawer:2.3.6'",
+    "translatedContent": "    debugImplementation 'com.github.kernel0x.finch:ui-drawer:2.3.6'"
+  },
+  {
+    "row": 31,
+    "rowsha": "TQxuJ589JgVxPDWYKnvYlTPZsPQURZCYMkv0ZSGuF7c=",
+    "originContent": "    releaseImplementation 'com.github.kernel0x.finch:noop:2.3.6'",
+    "translatedContent": "    releaseImplementation 'com.github.kernel0x.finch:noop:2.3.6'"
+  },
+  {
+    "row": 32,
+    "rowsha": "sqlPPJda+OzwsdRZo+urRMe7qyAcKpz7id+sJiW2fjg=",
+    "originContent": "    // optional only for OkHttp",
+    "translatedContent": "    // optional only for OkHttp"
+  },
+  {
+    "row": 33,
+    "rowsha": "DxGBMnu85iAiXWmoFjNOyr4Hjyb+ZA77SF8pS/S1gtc=",
+    "originContent": "    debugImplementation 'com.github.kernel0x.finch:log-okhttp:2.3.6'",
+    "translatedContent": "    debugImplementation 'com.github.kernel0x.finch:log-okhttp:2.3.6'"
+  },
+  {
+    "row": 34,
+    "rowsha": "3H6OQXbTrrFeqMnt15MEodRKSifqhSQMfLbjfqGdbME=",
+    "originContent": "    releaseImplementation 'com.github.kernel0x.finch:log-okhttp-noop:2.3.6'",
+    "translatedContent": "    releaseImplementation 'com.github.kernel0x.finch:log-okhttp-noop:2.3.6'"
+  },
+  {
+    "row": 35,
+    "rowsha": "OSJakLrmzF9zRVgvqIO4RmciZNfRyfHDxOcUogQSBwQ=",
+    "originContent": "    // optional only for GRPC",
+    "translatedContent": "    // optional only for GRPC"
+  },
+  {
+    "row": 36,
+    "rowsha": "ad57ouZMPcitPOy6MI5rD/yHpyjssNW0VyCBzag220M=",
+    "originContent": "    debugImplementation 'com.github.kernel0x.finch:log-grpc:2.3.6'",
+    "translatedContent": "    debugImplementation 'com.github.kernel0x.finch:log-grpc:2.3.6'"
+  },
+  {
+    "row": 37,
+    "rowsha": "GsBeg/7nuDZpm+sJ/KQyWLEfuvAhSy+CyjEKdhBoBVY=",
+    "originContent": "    releaseImplementation 'com.github.kernel0x.finch:log-grpc-noop:2.3.6'",
+    "translatedContent": "    releaseImplementation 'com.github.kernel0x.finch:log-grpc-noop:2.3.6'"
+  },
+  {
+    "row": 38,
+    "rowsha": "MPOHfTuTl5UlBJ7hzZJ0CqcX16GgXgejatkiYpk1yiM=",
+    "originContent": "    // optional only for logs",
+    "translatedContent": "    // optional only for logs"
+  },
+  {
+    "row": 39,
+    "rowsha": "a39xEJttIdFlKZTmue7jG/WvenObmO7KnjxXrdqHp2c=",
+    "originContent": "    debugImplementation 'com.github.kernel0x.finch:log:2.3.6'",
+    "translatedContent": "    debugImplementation 'com.github.kernel0x.finch:log:2.3.6'"
+  },
+  {
+    "row": 40,
+    "rowsha": "EajIZqq7VerCzkrouMeLNIjnn8pFHybiwPIkckS+5+w=",
+    "originContent": "    releaseImplementation 'com.github.kernel0x.finch:log-noop:2.3.6'",
+    "translatedContent": "    releaseImplementation 'com.github.kernel0x.finch:log-noop:2.3.6'"
+  },
+  {
+    "row": 41,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 42,
+    "rowsha": "MpvA5TLaYie/8aAz02NkgKLlS+fOGFzbx44GNyxZMkg=",
+    "originContent": "````",
+    "translatedContent": "````"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "Jw5myIyb94QOo7XNFMhnG47rp5KK9s5wO4f3erBuHlY=",
+    "originContent": "## How to works",
+    "translatedContent": "## How to works"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "ORo/xZ5KXemfoB97U/g7LIDjG3LddabcqKoy3CoEsxs=",
+    "originContent": "Initialize an instance of Finch (preferably in the Application's onCreate() method)",
+    "translatedContent": "Initialize an instance of Finch (preferably in the Application's onCreate() method)"
+  },
+  {
+    "row": 47,
+    "rowsha": "oa/PCaXY1qrazXClaP7OIRA0wORVjja447+5Nyl/ynI=",
+    "originContent": "````java",
+    "translatedContent": "````java"
+  },
+  {
+    "row": 48,
+    "rowsha": "OmHPLZq6hmZE6cXQYoimWL4LzB2dLlYTZCvgWWkYsxU=",
+    "originContent": "Finch.initialize(this)",
+    "translatedContent": "Finch.initialize(this)"
+  },
+  {
+    "row": 49,
+    "rowsha": "MpvA5TLaYie/8aAz02NkgKLlS+fOGFzbx44GNyxZMkg=",
+    "originContent": "````",
+    "translatedContent": "````"
+  },
+  {
+    "row": 50,
+    "rowsha": "brrfUK+fV60Io1zTkkHOZVK2W6Jf53y93fxHkF49x7I=",
+    "originContent": "Various customizations are set through the Configuration object.",
+    "translatedContent": "Various customizations are set through the Configuration object."
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "mcVJwOPlTqszWC5JuuQmfGDdVpX7p5e6bgiAP3GZkqU=",
+    "originContent": "Next, you need to add which components you want to display in the debug menu. Optionally, you can additionally configure logging and interception network events (with OkHttp).",
+    "translatedContent": "Next, you need to add which components you want to display in the debug menu. Optionally, you can additionally configure logging and interception network events (with OkHttp)."
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "PAVQ/R38Rk84Kvvg/3XWCXCOAYwJNwdke6GFhtGM8Sg=",
+    "originContent": "### Logging",
+    "translatedContent": "### Logging"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "TLlVt/NJMhsYn9tb0flcHwHs3gneklpiKN62QkcST9E=",
+    "originContent": "To add log messages in Debug Menu simple calling Finch.log() and add FinchLogger to Configuration object.",
+    "translatedContent": "To add log messages in Debug Menu simple calling Finch.log() and add FinchLogger to Configuration object."
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 59,
+    "rowsha": "q6KhQTVgHOog65ONLBf6OBEo6tcR5mH27TtDhm00ilk=",
+    "originContent": "Finch.log(\"message\")",
+    "translatedContent": "Finch.log(\"message\")"
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 62,
+    "rowsha": "+U5hOpgmzdPQCk4DbUZPyxpU1UVqdzdh3L/6TBkRNOE=",
+    "originContent": "Finch.initialize(",
+    "translatedContent": "Finch.initialize("
+  },
+  {
+    "row": 63,
+    "rowsha": "jX6bAxwBKu90V5doM6QabNxGQI84ynw0dIuMjYeRsBw=",
+    "originContent": "    application = this,",
+    "translatedContent": "    application = this,"
+  },
+  {
+    "row": 64,
+    "rowsha": "oUSZxx3XnAaXJG4xPeyZQHDRZK+ro8ZqVeok3MakR1I=",
+    "originContent": "    configuration = Configuration(",
+    "translatedContent": "    configuration = Configuration("
+  },
+  {
+    "row": 65,
+    "rowsha": "jXgnQ/uVfCqVS8e5fdRhHNezC4QzfBTXNt4leu8pEzs=",
+    "originContent": "        logger = FinchLogger,",
+    "translatedContent": "        logger = FinchLogger,"
+  },
+  {
+    "row": 66,
+    "rowsha": "MgOoEvhv2bLKT2kQJfXS1Ou/EcfJNQpxe2yrpM1q8yQ=",
+    "originContent": "        ...",
+    "translatedContent": "        ..."
+  },
+  {
+    "row": 67,
+    "rowsha": "giAtWJHW+ym9sipJL7D0lA4JvnZUKwuEk2BaSR8n8t0=",
+    "originContent": "    ),",
+    "translatedContent": "    ),"
+  },
+  {
+    "row": 68,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "H2dyuCXpEkGtTQiLs1En/x5ncUOBWCeKPP9PbKvRQX8=",
+    "originContent": "### OkHttp",
+    "translatedContent": "### OkHttp"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "zuKgmO0Nads262NO98oTlK+Ljc15g2PQUemg9JQKL6M=",
+    "originContent": "Add FinchOkHttpLogger.logger to the method addInterceptor in building OkHttp Client and add FinchOkHttpLogger to Configuration object.",
+    "translatedContent": "Add FinchOkHttpLogger.logger to the method addInterceptor in building OkHttp Client and add FinchOkHttpLogger to Configuration object."
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 76,
+    "rowsha": "W5uEew3cR56w4u5b4yVVfS9Dp8Is4UJ+IgZTDGrXrPk=",
+    "originContent": "OkHttpClient.Builder()",
+    "translatedContent": "OkHttpClient.Builder()"
+  },
+  {
+    "row": 77,
+    "rowsha": "YwLeCtDMnr7fXzzfVKkqIxx9HCD8YPw4GyOoOWmC0m4=",
+    "originContent": "    .addInterceptor(FinchOkHttpLogger.logger as? Interceptor ?: Interceptor { it.proceed(it.request()) })",
+    "translatedContent": "    .addInterceptor(FinchOkHttpLogger.logger as? Interceptor ?: Interceptor { it.proceed(it.request()) })"
+  },
+  {
+    "row": 78,
+    "rowsha": "6nVm1sgVeo+sVyQ/78es9D8JRvgqn6Lui7rE7OFeSDs=",
+    "originContent": "    .build()",
+    "translatedContent": "    .build()"
+  },
+  {
+    "row": 79,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 80,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 81,
+    "rowsha": "+U5hOpgmzdPQCk4DbUZPyxpU1UVqdzdh3L/6TBkRNOE=",
+    "originContent": "Finch.initialize(",
+    "translatedContent": "Finch.initialize("
+  },
+  {
+    "row": 82,
+    "rowsha": "jX6bAxwBKu90V5doM6QabNxGQI84ynw0dIuMjYeRsBw=",
+    "originContent": "    application = this,",
+    "translatedContent": "    application = this,"
+  },
+  {
+    "row": 83,
+    "rowsha": "oUSZxx3XnAaXJG4xPeyZQHDRZK+ro8ZqVeok3MakR1I=",
+    "originContent": "    configuration = Configuration(",
+    "translatedContent": "    configuration = Configuration("
+  },
+  {
+    "row": 84,
+    "rowsha": "kH+DJMJYKMcFHoOO8q1zR4UyybTLbHkS1cNTkZXlb2E=",
+    "originContent": "        networkLoggers = listOf(FinchOkHttpLogger),",
+    "translatedContent": "        networkLoggers = listOf(FinchOkHttpLogger),"
+  },
+  {
+    "row": 85,
+    "rowsha": "MgOoEvhv2bLKT2kQJfXS1Ou/EcfJNQpxe2yrpM1q8yQ=",
+    "originContent": "        ...",
+    "translatedContent": "        ..."
+  },
+  {
+    "row": 86,
+    "rowsha": "giAtWJHW+ym9sipJL7D0lA4JvnZUKwuEk2BaSR8n8t0=",
+    "originContent": "    ),",
+    "translatedContent": "    ),"
+  },
+  {
+    "row": 87,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 88,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "N60JNNLlyQ5jqkfSZjxYRO2ft2wdaTDNFGcJkjIU3wg=",
+    "originContent": "### Grpc",
+    "translatedContent": "### Grpc"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "hm5Oawhmu0n24XMDR1nJ3baw9YFSuoYVI2gPOw253Gc=",
+    "originContent": "Add FinchGrpcLogger.logger to the method intercept in building ManagedChannel and add FinchGrpcLogger to Configuration object.",
+    "translatedContent": "Add FinchGrpcLogger.logger to the method intercept when building ManagedChannel and add FinchGrpcLogger to the Configuration object."
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 95,
+    "rowsha": "qKEzJvHaRXPjteAsSbxO07dZFlDYrWLIaGi0IqrAirQ=",
+    "originContent": "ManagedChannelBuilder.forAddress(networkConfig.hostname, networkConfig.port)",
+    "translatedContent": "ManagedChannelBuilder.forAddress(networkConfig.hostname, networkConfig.port)"
+  },
+  {
+    "row": 96,
+    "rowsha": "rEuX2m9QCIACSL2hb49OBNjJE8anYPuk2SRuyjApIqo=",
+    "originContent": "    .intercept(FinchGrpcLogger.logger as? ClientInterceptor ?: object : ClientInterceptor {",
+    "translatedContent": "    .intercept(FinchGrpcLogger.logger as? ClientInterceptor ?: object : ClientInterceptor {"
+  },
+  {
+    "row": 97,
+    "rowsha": "SX0sZvpVbhuQv7IIwSM34zsGXIiweA782bW7j5Wfqtk=",
+    "originContent": "        override fun <ReqT : Any?, RespT : Any?> interceptCall(",
+    "translatedContent": "        override fun <ReqT : Any?, RespT : Any?> interceptCall("
+  },
+  {
+    "row": 98,
+    "rowsha": "6scfEUOWaTtcI22E5UDhptOujtN9rzZr7lUlg+c0a3Y=",
+    "originContent": "            method: MethodDescriptor<ReqT, RespT>?,",
+    "translatedContent": "            method: MethodDescriptor<ReqT, RespT>?,"
+  },
+  {
+    "row": 99,
+    "rowsha": "cGe1a9EGctVD7Y4z+E/KeLkbtmIhqZy1zx1TsK4I5Kk=",
+    "originContent": "            callOptions: CallOptions?,",
+    "translatedContent": "            callOptions: CallOptions?,"
+  },
+  {
+    "row": 100,
+    "rowsha": "c4iYWDfsxxvrEgrOhYoT1hmy02FgdvZbK7piu56IiOY=",
+    "originContent": "            next: Channel?",
+    "translatedContent": "            next: Channel?"
+  },
+  {
+    "row": 101,
+    "rowsha": "Xt71Zoc21bs3+oY9eM98gNK593bjX8i+SF/7i2CavwY=",
+    "originContent": "        ): ClientCall<ReqT, RespT> {",
+    "translatedContent": "        ): ClientCall<ReqT, RespT> {"
+  },
+  {
+    "row": 102,
+    "rowsha": "f/aI6XdWKLiJ5IpUiqP+Ux9ymeg3YpjpT3MH3PSSmXc=",
+    "originContent": "            return object : ForwardingClientCall.SimpleForwardingClientCall<ReqT, RespT>(",
+    "translatedContent": "            return object : ForwardingClientCall.SimpleForwardingClientCall<ReqT, RespT>("
+  },
+  {
+    "row": 103,
+    "rowsha": "j+vKbl7cwsc13V24Xp+HOKzJpxi5JY7xWY4LCsm7VlM=",
+    "originContent": "                next?.newCall(",
+    "translatedContent": "                next?.newCall("
+  },
+  {
+    "row": 104,
+    "rowsha": "d6fNt1ynoME+uIlT8J86m6E7/rS/U6Oxs3v1DbTwmDI=",
+    "originContent": "                    method,",
+    "translatedContent": "                    method,"
+  },
+  {
+    "row": 105,
+    "rowsha": "G70NmyazPXA/t5Ajt1GcmJZESiViQBgkAeQavARqMww=",
+    "originContent": "                    callOptions",
+    "translatedContent": "                    callOptions"
+  },
+  {
+    "row": 106,
+    "rowsha": "cN3xS+iIn8InCILZ6i/Ga0LzLsQ/Q27ylmb7lhFOIvY=",
+    "originContent": "                )",
+    "translatedContent": "                )"
+  },
+  {
+    "row": 107,
+    "rowsha": "DM15k7o3lDKzq5h+6fwloknpsiHT/WJLrpvLEUbYXeY=",
+    "originContent": "            ) {}",
+    "translatedContent": "            ) {}"
+  },
+  {
+    "row": 108,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 109,
+    "rowsha": "odBdVYeaD6cbal1IjtFl4g+1UKhbjDBNurRPY9Ce3gA=",
+    "originContent": "    })",
+    "translatedContent": "    })"
+  },
+  {
+    "row": 110,
+    "rowsha": "6nVm1sgVeo+sVyQ/78es9D8JRvgqn6Lui7rE7OFeSDs=",
+    "originContent": "    .build()",
+    "translatedContent": "    .build()"
+  },
+  {
+    "row": 111,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 112,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 113,
+    "rowsha": "+U5hOpgmzdPQCk4DbUZPyxpU1UVqdzdh3L/6TBkRNOE=",
+    "originContent": "Finch.initialize(",
+    "translatedContent": "Finch.initialize("
+  },
+  {
+    "row": 114,
+    "rowsha": "jX6bAxwBKu90V5doM6QabNxGQI84ynw0dIuMjYeRsBw=",
+    "originContent": "    application = this,",
+    "translatedContent": "    application = this,"
+  },
+  {
+    "row": 115,
+    "rowsha": "oUSZxx3XnAaXJG4xPeyZQHDRZK+ro8ZqVeok3MakR1I=",
+    "originContent": "    configuration = Configuration(",
+    "translatedContent": "    configuration = Configuration("
+  },
+  {
+    "row": 116,
+    "rowsha": "nyWMay9xMVMY+uX28M9vxxIPsbCkVC281HRtejbp9Ns=",
+    "originContent": "        networkLoggers = listOf(FinchGrpcLogger),",
+    "translatedContent": "        networkLoggers = listOf(FinchGrpcLogger),"
+  },
+  {
+    "row": 117,
+    "rowsha": "MgOoEvhv2bLKT2kQJfXS1Ou/EcfJNQpxe2yrpM1q8yQ=",
+    "originContent": "        ...",
+    "translatedContent": "        ..."
+  },
+  {
+    "row": 118,
+    "rowsha": "giAtWJHW+ym9sipJL7D0lA4JvnZUKwuEk2BaSR8n8t0=",
+    "originContent": "    ),",
+    "translatedContent": "    ),"
+  },
+  {
+    "row": 119,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 120,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "T8L7UoYJjghKgs8ul75/+lBEwRUpEbqxGETdj3xzx40=",
+    "originContent": "### Example initialize",
+    "translatedContent": "### Example initialize"
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "/tLbwPtbQzfnbcRTU4fyIWvxHXVrRj7a94U9Ul6G+5s=",
+    "originContent": "Here is a minimal example that should work for most projects",
+    "translatedContent": "Here is a minimal example that should work for most projects"
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 127,
+    "rowsha": "+U5hOpgmzdPQCk4DbUZPyxpU1UVqdzdh3L/6TBkRNOE=",
+    "originContent": "Finch.initialize(",
+    "translatedContent": "Finch.initialize("
+  },
+  {
+    "row": 128,
+    "rowsha": "jX6bAxwBKu90V5doM6QabNxGQI84ynw0dIuMjYeRsBw=",
+    "originContent": "    application = this,",
+    "translatedContent": "    application = this,"
+  },
+  {
+    "row": 129,
+    "rowsha": "oUSZxx3XnAaXJG4xPeyZQHDRZK+ro8ZqVeok3MakR1I=",
+    "originContent": "    configuration = Configuration(",
+    "translatedContent": "    configuration = Configuration("
+  },
+  {
+    "row": 130,
+    "rowsha": "jXgnQ/uVfCqVS8e5fdRhHNezC4QzfBTXNt4leu8pEzs=",
+    "originContent": "        logger = FinchLogger,",
+    "translatedContent": "        logger = FinchLogger,"
+  },
+  {
+    "row": 131,
+    "rowsha": "Z8QzfxGLqWml4OCanIZVz2J7N00Uj81EePXp0CWb1ZQ=",
+    "originContent": "        networkLoggers = listOf(FinchOkHttpLogger)",
+    "translatedContent": "        networkLoggers = listOf(FinchOkHttpLogger)"
+  },
+  {
+    "row": 132,
+    "rowsha": "giAtWJHW+ym9sipJL7D0lA4JvnZUKwuEk2BaSR8n8t0=",
+    "originContent": "    ),",
+    "translatedContent": "    ),"
+  },
+  {
+    "row": 133,
+    "rowsha": "h0w+v1NlqKcL4YuKn4f+sX7V7cBLXpC0hvMe9Q/wuGg=",
+    "originContent": "    components = arrayOf(",
+    "translatedContent": "    components = arrayOf("
+  },
+  {
+    "row": 134,
+    "rowsha": "PTSwCXfikF3psm4+fnuMRm5jTu7o9escL+DHGdKHnkI=",
+    "originContent": "        Header(",
+    "translatedContent": "        Header("
+  },
+  {
+    "row": 135,
+    "rowsha": "U1ScKtglbDcd3LX8PgGvY3rnwTJyACXBC9yATgpiM70=",
+    "originContent": "            title = getString(R.string.app_name),",
+    "translatedContent": "            title = getString(R.string.app_name),"
+  },
+  {
+    "row": 136,
+    "rowsha": "rQG92ej8690CXxYiRNuPj9GyDiNYTbP6GU6vUi+NP3Q=",
+    "originContent": "            subtitle = BuildConfig.APPLICATION_ID,",
+    "translatedContent": "            subtitle = BuildConfig.APPLICATION_ID,"
+  },
+  {
+    "row": 137,
+    "rowsha": "3An4ZqV2MrY7U2fpBpSs7hApW5eNNobCiSrgHiLVvL4=",
+    "originContent": "            text = \"${BuildConfig.BUILD_TYPE} v${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE})\"",
+    "translatedContent": "            text = \"${BuildConfig.BUILD_TYPE} v${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE})\""
+  },
+  {
+    "row": 138,
+    "rowsha": "7C3wx4lR3xJySTfmYQo9kDvDfux+CT648CRM4i88aGk=",
+    "originContent": "        ),",
+    "translatedContent": "        ),"
+  },
+  {
+    "row": 139,
+    "rowsha": "apF1E3IXjFLELxaI31wOv7bvmH3OdTdzTqM0vh88+dA=",
+    "originContent": "        Padding(),",
+    "translatedContent": "        Padding(),"
+  },
+  {
+    "row": 140,
+    "rowsha": "neJRJkKnbgjSiDK4uv86wJFzzyeGPRgVDc2Y8JjiHpU=",
+    "originContent": "        Label(\"Tools\", Label.Type.HEADER),",
+    "translatedContent": "        Label(\"Tools\", Label.Type.HEADER),"
+  },
+  {
+    "row": 141,
+    "rowsha": "Q/4NJDioyVLNE6+R5uFsxQr1m5jwal4JjYCdQxzyJOQ=",
+    "originContent": "        DesignOverlay(),",
+    "translatedContent": "        DesignOverlay(),"
+  },
+  {
+    "row": 142,
+    "rowsha": "nC6vfHi+bJaAsTK3h6e94i7GyVkhGUq9iIYjkkSkuds=",
+    "originContent": "        AnimationSpeed(),",
+    "translatedContent": "        AnimationSpeed(),"
+  },
+  {
+    "row": 143,
+    "rowsha": "4RtIXjMIyFvw5gv0yPe3Z1D9+DDgKVjYxEtrKVN/Z3M=",
+    "originContent": "        ScreenCaptureToolbox(),",
+    "translatedContent": "        ScreenCaptureToolbox(),"
+  },
+  {
+    "row": 144,
+    "rowsha": "G0uOs19XGsAFVUCw0wZ9ir/Kj4QT3PHoYp5TDGO25kg=",
+    "originContent": "        Divider(),",
+    "translatedContent": "        Divider(),"
+  },
+  {
+    "row": 145,
+    "rowsha": "pZrJFhPofQXOxM7QiRc38F7ow7tML9PFQseh8+zNbR0=",
+    "originContent": "        Label(\"Logs\", Label.Type.HEADER),",
+    "translatedContent": "        Label(\"Logs\", Label.Type.HEADER),"
+  },
+  {
+    "row": 146,
+    "rowsha": "ZhoJwJQG2E/luF6MJMvMqDlgO93ReeVvMr1P7Apizl8=",
+    "originContent": "        LifecycleLogs(),",
+    "translatedContent": "        LifecycleLogs(),"
+  },
+  {
+    "row": 147,
+    "rowsha": "pJVfZQ1VV28z3oZHLr9PAviOVsRJpl8afrOm6MFBkvw=",
+    "originContent": "        NetworkLogs(),",
+    "translatedContent": "        NetworkLogs(),"
+  },
+  {
+    "row": 148,
+    "rowsha": "3F6S8PKDyqiyD76I7G7SoCkYgzqytgi5yN4vm7StTos=",
+    "originContent": "        Logs(),",
+    "translatedContent": "        Logs(),"
+  },
+  {
+    "row": 149,
+    "rowsha": "G0uOs19XGsAFVUCw0wZ9ir/Kj4QT3PHoYp5TDGO25kg=",
+    "originContent": "        Divider(),",
+    "translatedContent": "        Divider(),"
+  },
+  {
+    "row": 150,
+    "rowsha": "nVcavpxz+hcsdooHLVu+CWO5sK6UjjXVXcilvUb02Pg=",
+    "originContent": "        Label(\"Other\", Label.Type.HEADER),",
+    "translatedContent": "        Label(\"Other\", Label.Type.HEADER),"
+  },
+  {
+    "row": 151,
+    "rowsha": "Th7EAoTXvgHte1Ec2mITCZa3AUFEGZcTjgBReOpd9xc=",
+    "originContent": "        DeviceInfo(),",
+    "translatedContent": "        DeviceInfo(),"
+  },
+  {
+    "row": 152,
+    "rowsha": "6W2suBas+YBN3pR4q0llEv8J5EECsyg+nJpeUStKtBY=",
+    "originContent": "        AppInfo(),",
+    "translatedContent": "        AppInfo(),"
+  },
+  {
+    "row": 153,
+    "rowsha": "sZqR2pUJkXH/I2ro/lSngYEOYvrIDcon5Z5FGNHb9f8=",
+    "originContent": "        DeveloperOptions(),",
+    "translatedContent": "        DeveloperOptions(),"
+  },
+  {
+    "row": 154,
+    "rowsha": "G9BQqbZPTVKr1aNhPRplBQ1W2vza7heaTvsw85Hdtq0=",
+    "originContent": "        ForceCrash()",
+    "translatedContent": "        ForceCrash()"
+  },
+  {
+    "row": 155,
+    "rowsha": "/xlEZ1LDPBgeqSMqeVvv8VvD/u3SpYCHs/XDPuti6ZI=",
+    "originContent": "    )",
+    "translatedContent": "    )"
+  },
+  {
+    "row": 156,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 157,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "S82jAD2GI++1j6h37xxXYtnxs/gQWLBM/AyjjbGeOz0=",
+    "originContent": "### Common cases",
+    "translatedContent": "### Common cases"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "oba96hexcZTa8VL54EXVNoGoHlD736toJjdDizPdD40=",
+    "originContent": "#### Backend environment",
+    "translatedContent": "#### Backend environment"
+  },
+  {
+    "row": 162,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 163,
+    "rowsha": "OeFRgxmdlxKnIYLc7MSTBy6PLszrKe8NWXTZH1EWGf4=",
+    "originContent": "data class Environment(",
+    "translatedContent": "data class Environment("
+  },
+  {
+    "row": 164,
+    "rowsha": "gfJDl7FNGhtYNM+wPFZ7jEwwWMcHpchNES1stiq4MMU=",
+    "originContent": "    val type: Type,",
+    "translatedContent": "    val type: Type,"
+  },
+  {
+    "row": 165,
+    "rowsha": "BBodrLsYTE8dXcSbnjtv7TOBhVnM3qAX0JxqbufIP50=",
+    "originContent": "    override val title: Text = Text.CharSequence(type.name)",
+    "translatedContent": "    override val title: Text = Text.CharSequence(type.name)"
+  },
+  {
+    "row": 166,
+    "rowsha": "uA9O8WbS3gubq/DlRtbyYuz9XZyHs3aRCLdR8QdU9A4=",
+    "originContent": ") : FinchListItem",
+    "translatedContent": ") : FinchListItem"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "EF9KRkT+7WzVphRyGvDz7tvgFRNAf7FHiM3PP3T2C4o=",
+    "originContent": "enum class Type {",
+    "translatedContent": "enum class Type {"
+  },
+  {
+    "row": 169,
+    "rowsha": "bdycEbFT9u/pvZThftZUIgN8F0pJ8QsddSApboO87Aw=",
+    "originContent": "    TEST,",
+    "translatedContent": "    TEST,"
+  },
+  {
+    "row": 170,
+    "rowsha": "GkHvluOplLWs6oT7OMkE+xqniYuPNVT+i3St5vYCACE=",
+    "originContent": "    PROD",
+    "translatedContent": "    PROD"
+  },
+  {
+    "row": 171,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 172,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 173,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 174,
+    "rowsha": "3bCmqaPKg5SsGpBirOyia8QvDdm91v9Joa7aovRbjXc=",
+    "originContent": "SingleSelectionList(",
+    "translatedContent": "SingleSelectionList("
+  },
+  {
+    "row": 175,
+    "rowsha": "L1p70I5Vy/QyDy0PEE1THdY3whWI1OdLceUQOmDWBlk=",
+    "originContent": "    title = \"Backend environment\",",
+    "translatedContent": "    title = \"Backend environment\","
+  },
+  {
+    "row": 176,
+    "rowsha": "QMJsFSMAo7KYZMv0qHNMiEKSMp3gEz6Oy1CDCgGDvV0=",
+    "originContent": "    items = listOf(Environment(Type.TEST), Environment(Type.PROD)),",
+    "translatedContent": "    items = listOf(Environment(Type.TEST), Environment(Type.PROD)),"
+  },
+  {
+    "row": 177,
+    "rowsha": "ouXOO9mSvm+f9lYQZ5SXY1Dpj/bbbjSZij6K3vgBP2U=",
+    "originContent": "    initiallySelectedItemId = Type.TEST.name,",
+    "translatedContent": "    initiallySelectedItemId = Type.TEST.name,"
+  },
+  {
+    "row": 178,
+    "rowsha": "xLiWR/QZik4SVaIf7uqssXVijmFJg13sBdKmcdh3UvU=",
+    "originContent": "    isValuePersisted = true,",
+    "translatedContent": "    isValuePersisted = true,"
+  },
+  {
+    "row": 179,
+    "rowsha": "I0C/GQW9THSMYxQ3Mp84haMv4G/sAKJBQmJJOvaNUHQ=",
+    "originContent": "    onSelectionChanged = {",
+    "translatedContent": "    onSelectionChanged = {"
+  },
+  {
+    "row": 180,
+    "rowsha": "HKBkgvMyGJnojWMLo1vksYrIjTDXi98zSUFSm6JFkww=",
+    "originContent": "        when (it?.type) {",
+    "translatedContent": "        when (it?.type) {"
+  },
+  {
+    "row": 181,
+    "rowsha": "+UxKavS3WTWv5FEBLixoH1wPtx+I4UJKPQh0Ovlc+ms=",
+    "originContent": "            Type.TEST -> {",
+    "translatedContent": "            Type.TEST -> {"
+  },
+  {
+    "row": 182,
+    "rowsha": "Hmis+meoS9yXnzQIRAMkLszL5RHrBiYoLQDZ4t9ox8Y=",
+    "originContent": "                ...",
+    "translatedContent": "                ..."
+  },
+  {
+    "row": 183,
+    "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+    "originContent": "            }",
+    "translatedContent": "            }"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "h6teLqKmLGSM6I+2hxtoeB7Et0VmCghn3ilC68SyjlA=",
+    "originContent": "            Type.PROD -> {",
+    "translatedContent": "            Type.PROD -> {"
+  },
+  {
+    "row": 186,
+    "rowsha": "Hmis+meoS9yXnzQIRAMkLszL5RHrBiYoLQDZ4t9ox8Y=",
+    "originContent": "                ...",
+    "translatedContent": "                ..."
+  },
+  {
+    "row": 187,
+    "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+    "originContent": "            }",
+    "translatedContent": "            }"
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "pmatqf/hA+WjXE8szm1OJp0wCuxhUmulXDZdF5MrdJ0=",
+    "originContent": "            else -> {",
+    "translatedContent": "            else -> {"
+  },
+  {
+    "row": 190,
+    "rowsha": "UcwC1Cf1RGygxTAfUgIVi6RHwozZbCEIYp8XWbWwsZk=",
+    "originContent": "                // nothing",
+    "translatedContent": "                // nothing"
+  },
+  {
+    "row": 191,
+    "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+    "originContent": "            }",
+    "translatedContent": "            }"
+  },
+  {
+    "row": 192,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 193,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 194,
+    "rowsha": "uwHES9ZGqynfnOpkWaNJm+YMFCoTnDOUkjdesRD16kM=",
+    "originContent": "),",
+    "translatedContent": "),"
+  },
+  {
+    "row": 195,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "Und1aQnoTbiPIYuTIWtjDSQC/5MsbBDiOkxJSrD2CMw=",
+    "originContent": "#### Feature Toggles",
+    "translatedContent": "#### Feature Toggles"
+  },
+  {
+    "row": 198,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 199,
+    "rowsha": "FMezaNCIok7aJkiDzViZ6bWx0ziHDIlOOtF4hMRx8qg=",
+    "originContent": "fun Application.initializeDebugMenu(",
+    "translatedContent": "fun Application.initializeDebugMenu("
+  },
+  {
+    "row": 200,
+    "rowsha": "ymbexofbl089X+GpySIrGaHASrs51xUfFSNFD6WD2fI=",
+    "originContent": "    featureManager: FeatureManager",
+    "translatedContent": "    featureManager: FeatureManager"
+  },
+  {
+    "row": 201,
+    "rowsha": "q/pZNwmDylL7qzgj65cLpvM2ts23AtFfsYPmzcteRmE=",
+    "originContent": ") {",
+    "translatedContent": ") {"
+  },
+  {
+    "row": 202,
+    "rowsha": "YHjaQYsVhRNzU7S1QCHJ7ECMiVtNyOu0kBE4QzfagLE=",
+    "originContent": "    val toggles = featureManager.getAll().map {",
+    "translatedContent": "    val toggles = featureManager.getAll().map {"
+  },
+  {
+    "row": 203,
+    "rowsha": "ihdqTWXZNNtndGNKc3sJTgcEW/EjQO/k2bySSKiSyKQ=",
+    "originContent": "        Switch(",
+    "translatedContent": "        Switch("
+  },
+  {
+    "row": 204,
+    "rowsha": "PY08y41/27AG9CKXSlCl4yZ9HYAgv5T4r2ie6nogr+g=",
+    "originContent": "            text = it.description,",
+    "translatedContent": "            text = it.description,"
+  },
+  {
+    "row": 205,
+    "rowsha": "MBgMjZDJs5LWGvSOEiX13Td0UrbtOb4raC3LZ2rmODw=",
+    "originContent": "            initialValue = it.isEnabled(),",
+    "translatedContent": "            initialValue = it.isEnabled(),"
+  },
+  {
+    "row": 206,
+    "rowsha": "nFMxkfR+iSX4AdDiWpwpf5dGLIpVL5b10ESUwXD3QA4=",
+    "originContent": "            isEnabled = true,",
+    "translatedContent": "            isEnabled = true,"
+  },
+  {
+    "row": 207,
+    "rowsha": "M41oqwo5TqJpKyOYJp2d9sRbEZGgJe7f60Wg7/OqFpo=",
+    "originContent": "            onValueChanged = { value ->",
+    "translatedContent": "            onValueChanged = { value ->"
+  },
+  {
+    "row": 208,
+    "rowsha": "FiFUgZzWcPvVuMzXyrrF05ai4LXtrLWLiNY4lo0KA7U=",
+    "originContent": "                featureManager.save(it.key, value)",
+    "translatedContent": "                featureManager.save(it.key, value)"
+  },
+  {
+    "row": 209,
+    "rowsha": "hbCuull5Zuzmq/dwe3bHK602IcmuavnM5znkPmOkUR4=",
+    "originContent": "                if (!it.canChangedInRuntime) {",
+    "translatedContent": "                if (!it.canChangedInRuntime) {"
+  },
+  {
+    "row": 210,
+    "rowsha": "/yzBfvsvCXjUrj37YYbL/tzK3PpDDifavn4Fdi6peEw=",
+    "originContent": "                    Toast.makeText(this, \"Restart app to apply changes!\", Toast.LENGTH_LONG).show()",
+    "translatedContent": "                    Toast.makeText(this, \"Restart app to apply changes!\", Toast.LENGTH_LONG).show()"
+  },
+  {
+    "row": 211,
+    "rowsha": "C/CgiKZJwi3JsYSpUZ0e0FpDibwsPF8bbIyFfD+4S6E=",
+    "originContent": "                }",
+    "translatedContent": "                }"
+  },
+  {
+    "row": 212,
+    "rowsha": "hq/fcKlUNuiDqn/FwGoqsINxkFRDjxIY0V69ryh7S6w=",
+    "originContent": "            }",
+    "translatedContent": "            }"
+  },
+  {
+    "row": 213,
+    "rowsha": "qzjo1midRSsRUHKP4UDpYDctWoenaIz1GwPwmWYIuEI=",
+    "originContent": "        )",
+    "translatedContent": "        )"
+  },
+  {
+    "row": 214,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 215,
+    "rowsha": "A+mt85AhavjF3lgDmiL5GNtKvp9pU2K2UGXKSqK11xc=",
+    "originContent": "    Finch.initialize(",
+    "translatedContent": "    Finch.initialize("
+  },
+  {
+    "row": 216,
+    "rowsha": "MgOoEvhv2bLKT2kQJfXS1Ou/EcfJNQpxe2yrpM1q8yQ=",
+    "originContent": "        ...",
+    "translatedContent": "        ..."
+  },
+  {
+    "row": 217,
+    "rowsha": "EeYGBfbWQcNM40EZrbO/RHeCiE+TRf4CROoqOvjeyYs=",
+    "originContent": "        components = arrayOf(",
+    "translatedContent": "        components = arrayOf("
+  },
+  {
+    "row": 218,
+    "rowsha": "mJMzRD0hRUigxXngbnaX7TgO5wTmIboO7MBjxtUPEQY=",
+    "originContent": "            ...",
+    "translatedContent": "            ..."
+  },
+  {
+    "row": 219,
+    "rowsha": "HIYBLP9wa+rJOgvunwELVLOq/3bSMXjsdI1yuV/gqMo=",
+    "originContent": "            Divider(),",
+    "translatedContent": "            Divider(),"
+  },
+  {
+    "row": 220,
+    "rowsha": "xaAuTB3FNzMok/MeFQUec3juoWvWvWwHjyGCKjoMM1M=",
+    "originContent": "            Label(\"Feature Toggles\", Label.Type.HEADER),",
+    "translatedContent": "            Label(\"Feature Toggles\", Label.Type.HEADER),"
+  },
+  {
+    "row": 221,
+    "rowsha": "AVFH+TSruHdZUgskxLh8K0L9h3NNPoPhi/FI9LN9gkI=",
+    "originContent": "            Switch(",
+    "translatedContent": "            Switch("
+  },
+  {
+    "row": 222,
+    "rowsha": "J/m4zoTKEuW7E/d2EYH43tVl558Q3vBl2w7VSs6jubw=",
+    "originContent": "                text = \"Show\",",
+    "translatedContent": "                text = \"Show\","
+  },
+  {
+    "row": 223,
+    "rowsha": "B89bvKfc2dlM728WbEZY6mQkvryzPdd448Y+FILM3V0=",
+    "originContent": "                initialValue = false,",
+    "translatedContent": "                initialValue = false,"
+  },
+  {
+    "row": 224,
+    "rowsha": "yU6f4VO/WNOd/DVnvym2BPSP/Vzftsv7D5BneLok7f8=",
+    "originContent": "                isEnabled = true,",
+    "translatedContent": "                isEnabled = true,"
+  },
+  {
+    "row": 225,
+    "rowsha": "P9NMWJIqZ6eukgx7AFYuOJ6T0zgDNrVdwVC0VQfhOJM=",
+    "originContent": "                id = \"feature_toggles\",",
+    "translatedContent": "                id = \"feature_toggles\","
+  },
+  {
+    "row": 226,
+    "rowsha": "6qPTYLv7MC+QtoO5ZtQKTLk0NuJ5ShKLbzFsULWNH7w=",
+    "originContent": "                onValueChanged = {",
+    "translatedContent": "                onValueChanged = {"
+  },
+  {
+    "row": 227,
+    "rowsha": "4TfJCA1lufn4ek3jPSO/1yUBtvQ52JWuPpr89YvE04M=",
+    "originContent": "                    if (it) {",
+    "translatedContent": "                    if (it) {"
+  },
+  {
+    "row": 228,
+    "rowsha": "JcLnn5HR99DgMrJUSQf7PK4oW4jGaaOnXWMHnoY7odY=",
+    "originContent": "                        Finch.add(",
+    "translatedContent": "                        Finch.add("
+  },
+  {
+    "row": 229,
+    "rowsha": "PPnNlv9zjCIlPLT5QyvjZf0uLvD48Sd/ifgF3i8gXX0=",
+    "originContent": "                            components = toggles.toTypedArray(),",
+    "translatedContent": "                            components = toggles.toTypedArray(),"
+  },
+  {
+    "row": 230,
+    "rowsha": "kwk0BcMsszyyt8sTFn6b8K6Tg6tRBXp93R6iarXzvTg=",
+    "originContent": "                            position = Position.Below(\"feature_toggles\")",
+    "translatedContent": "                            position = Position.Below(\"feature_toggles\")"
+  },
+  {
+    "row": 231,
+    "rowsha": "Cd3EFV5LAOC/T6rudyViMFK5XuGxlXtMRUQ9hIQYuKQ=",
+    "originContent": "                        )",
+    "translatedContent": "                        )"
+  },
+  {
+    "row": 232,
+    "rowsha": "HyGTCYVjEPE6oCyfeQWaSsM8MgW/XU8H2G9tXBFKXKU=",
+    "originContent": "                    } else {",
+    "translatedContent": "                    } else {"
+  },
+  {
+    "row": 233,
+    "rowsha": "EWUdpZZV4zaBuAnNjAD0ChFSspI4CsGfXtxWqx1hMfU=",
+    "originContent": "                        toggles.forEach { item ->",
+    "translatedContent": "                        toggles.forEach { item ->"
+  },
+  {
+    "row": 234,
+    "rowsha": "ZgVHcPvmFMkpbyhUYPZ0SbPtXZv/NuaO+U+VS0DhO0Y=",
+    "originContent": "                            Finch.remove(item.id)",
+    "translatedContent": "                            Finch.remove(item.id)"
+  },
+  {
+    "row": 235,
+    "rowsha": "qrgf36NjIBGQLdf7LSm3BJP1q8/b7AjNWN4cV8oonY8=",
+    "originContent": "                        }",
+    "translatedContent": "                        }"
+  },
+  {
+    "row": 236,
+    "rowsha": "uNGRgXZ1f3k1RE/PQ/u91fBVpl3Dv73B3R+SXt1WSls=",
+    "originContent": "                    }",
+    "translatedContent": "                    }"
+  },
+  {
+    "row": 237,
+    "rowsha": "C/CgiKZJwi3JsYSpUZ0e0FpDibwsPF8bbIyFfD+4S6E=",
+    "originContent": "                }",
+    "translatedContent": "                }"
+  },
+  {
+    "row": 238,
+    "rowsha": "XsBKuCKDHtD3TLOLWI1fvB5oDBskbfOmWZqCXaU0yEg=",
+    "originContent": "            ),",
+    "translatedContent": "            ),"
+  },
+  {
+    "row": 239,
+    "rowsha": "mJMzRD0hRUigxXngbnaX7TgO5wTmIboO7MBjxtUPEQY=",
+    "originContent": "            ...",
+    "translatedContent": "            ..."
+  },
+  {
+    "row": 240,
+    "rowsha": "qzjo1midRSsRUHKP4UDpYDctWoenaIz1GwPwmWYIuEI=",
+    "originContent": "        )",
+    "translatedContent": "        )"
+  },
+  {
+    "row": 241,
+    "rowsha": "/xlEZ1LDPBgeqSMqeVvv8VvD/u3SpYCHs/XDPuti6ZI=",
+    "originContent": "    )",
+    "translatedContent": "    )"
+  },
+  {
+    "row": 242,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 243,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 244,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 245,
+    "rowsha": "OOfbuZ9ctFrXoebhbsSUJsDuER4h0C3ob5gWiFzczOM=",
+    "originContent": "#### Logs",
+    "translatedContent": "#### Logs"
+  },
+  {
+    "row": 246,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 247,
+    "rowsha": "WTGrue8jNpwtM8xVpjvZTjpR/3uwkNEnz5by5hbvYjI=",
+    "originContent": "class LogTree : Timber.Tree() {",
+    "translatedContent": "class LogTree : Timber.Tree() {"
+  },
+  {
+    "row": 248,
+    "rowsha": "ngEqnKUu/lJiVBLVuFzmDfkVUQdkpatHMZ6fvz9MTtE=",
+    "originContent": "    override fun log(priority: Int, tag: String?, message: String, t: Throwable?) {",
+    "translatedContent": "    override fun log(priority: Int, tag: String?, message: String, t: Throwable?) {"
+  },
+  {
+    "row": 249,
+    "rowsha": "CcofRmP6mL1VfeXsnqc99I4MuSy6+qS/OYS/FvfXRWI=",
+    "originContent": "        FinchLogger.log(message)",
+    "translatedContent": "        FinchLogger.log(message)"
+  },
+  {
+    "row": 250,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 251,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 252,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 253,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 254,
+    "rowsha": "6yq3qEZor4Un1KjqceY3vWh99YZnx/2HJ8HJVS7Di38=",
+    "originContent": "fun Application.initializeDebugMenu() {",
+    "translatedContent": "fun Application.initializeDebugMenu() {"
+  },
+  {
+    "row": 255,
+    "rowsha": "cSkBSh/+8VaNO2UHJaYg68CvN/WJJ7Xm70obHdxoeJc=",
+    "originContent": "    ...",
+    "translatedContent": "    ..."
+  },
+  {
+    "row": 256,
+    "rowsha": "QAf9JktXnz2H3tjvX7Hn/MzAxPQ8tJ/gl5EzZg2Myjo=",
+    "originContent": "    Timber.plant(LogTree())",
+    "translatedContent": "    Timber.plant(LogTree())"
+  },
+  {
+    "row": 257,
+    "rowsha": "A+mt85AhavjF3lgDmiL5GNtKvp9pU2K2UGXKSqK11xc=",
+    "originContent": "    Finch.initialize(",
+    "translatedContent": "    Finch.initialize("
+  },
+  {
+    "row": 258,
+    "rowsha": "8gc8okt1qTD9NegVuO/iYrqnGopSgTIybiRcCbmtBCE=",
+    "originContent": "        application = this,",
+    "translatedContent": "        application = this,"
+  },
+  {
+    "row": 259,
+    "rowsha": "FBO3omQ5HLqtPdMPtA6xChJp0XdE5Ule726M6SF/X4A=",
+    "originContent": "        configuration = Configuration(",
+    "translatedContent": "        configuration = Configuration("
+  },
+  {
+    "row": 260,
+    "rowsha": "OgR8W5DwLMh5YvdnSdJnrFPnIR/PFrQmoX+EVyaUDC8=",
+    "originContent": "            logger = FinchLogger,",
+    "translatedContent": "            logger = FinchLogger,"
+  },
+  {
+    "row": 261,
+    "rowsha": "7C3wx4lR3xJySTfmYQo9kDvDfux+CT648CRM4i88aGk=",
+    "originContent": "        ),",
+    "translatedContent": "        ),"
+  },
+  {
+    "row": 262,
+    "rowsha": "MgOoEvhv2bLKT2kQJfXS1Ou/EcfJNQpxe2yrpM1q8yQ=",
+    "originContent": "        ...",
+    "translatedContent": "        ..."
+  },
+  {
+    "row": 263,
+    "rowsha": "/xlEZ1LDPBgeqSMqeVvv8VvD/u3SpYCHs/XDPuti6ZI=",
+    "originContent": "    )",
+    "translatedContent": "    )"
+  },
+  {
+    "row": 264,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 265,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 266,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 267,
+    "rowsha": "fEnjeLHiTP/5elzm1Q3Zfe4fYJunTfAOG8w/eqsWM7I=",
+    "originContent": "### Components",
+    "translatedContent": "### Components"
+  },
+  {
+    "row": 268,
+    "rowsha": "GIn8QM8f1HB48oiKR8HkbFCFiThSxVMVh7C55hvyncY=",
+    "originContent": "[CheckBox](/common/src/main/java/com/kernel/finch/components/CheckBox.kt)",
+    "translatedContent": "[CheckBox](/common/src/main/java/com/kernel/finch/components/CheckBox.kt)"
+  },
+  {
+    "row": 269,
+    "rowsha": "hBbFB4GVhZY9ojVuUODkHnAZ37M0i62P8hvaUrMREoo=",
+    "originContent": "[Divider](/common/src/main/java/com/kernel/finch/components/Divider.kt)",
+    "translatedContent": "[Divider](/common/src/main/java/com/kernel/finch/components/Divider.kt)"
+  },
+  {
+    "row": 270,
+    "rowsha": "WhNFGnuh40KD8k2pknuuSi6545FO1mFV0iAQDYOEmmQ=",
+    "originContent": "[ItemList](/common/src/main/java/com/kernel/finch/components/ItemList.kt)",
+    "translatedContent": "[ItemList](/common/src/main/java/com/kernel/finch/components/ItemList.kt)"
+  },
+  {
+    "row": 271,
+    "rowsha": "LiSGBNbELOWkFbh75p4cKCbhsbft1YJeJesoG+zFTfI=",
+    "originContent": "[KeyValueList](/common/src/main/java/com/kernel/finch/components/KeyValueList.kt)",
+    "translatedContent": "[KeyValueList](/common/src/main/java/com/kernel/finch/components/KeyValueList.kt)"
+  },
+  {
+    "row": 272,
+    "rowsha": "C4k7ogbaoQ9hLiTM2kqe7tiigmPm/u4gFuf6ZTT7YQ0=",
+    "originContent": "[Label](/common/src/main/java/com/kernel/finch/components/Label.kt)",
+    "translatedContent": "[Label](/common/src/main/java/com/kernel/finch/components/Label.kt)"
+  },
+  {
+    "row": 273,
+    "rowsha": "oO5t1itSJUIQ/Vff0r7pqt+HyeMtrfRj/UM9XjlHU7Q=",
+    "originContent": "[LongText](/common/src/main/java/com/kernel/finch/components/LongText.kt)",
+    "translatedContent": "[LongText](/common/src/main/java/com/kernel/finch/components/LongText.kt)"
+  },
+  {
+    "row": 274,
+    "rowsha": "yITBzZiHHc703QKGJuVFtLAFj2YEIM5YteDGaGzvFbE=",
+    "originContent": "[MultipleSelectionList](/common/src/main/java/com/kernel/finch/components/MultipleSelectionList.kt)",
+    "translatedContent": "[MultipleSelectionList](/common/src/main/java/com/kernel/finch/components/MultipleSelectionList.kt)"
+  },
+  {
+    "row": 275,
+    "rowsha": "hgd6uGvJHvSEZF3/Y1+M2HBWizAR6ia3ntJ/mBBdY4g=",
+    "originContent": "[Padding](/common/src/main/java/com/kernel/finch/components/Padding.kt)",
+    "translatedContent": "[Padding](/common/src/main/java/com/kernel/finch/components/Padding.kt)"
+  },
+  {
+    "row": 276,
+    "rowsha": "kc3z2mCXXK6tDjX2PqXY8xJoqSDtWkgTwgMEKp27oF0=",
+    "originContent": "[ProgressBar](/common/src/main/java/com/kernel/finch/components/ProgressBar.kt)",
+    "translatedContent": "[ProgressBar](/common/src/main/java/com/kernel/finch/components/ProgressBar.kt)"
+  },
+  {
+    "row": 277,
+    "rowsha": "7FDWfDL2gwEbjuOAW/ZfGBR4OK1VlPrgm0YXdM8hNmg=",
+    "originContent": "[SingleSelectionList](/common/src/main/java/com/kernel/finch/components/SingleSelectionList.kt)",
+    "translatedContent": "[SingleSelectionList](/common/src/main/java/com/kernel/finch/components/SingleSelectionList.kt)"
+  },
+  {
+    "row": 278,
+    "rowsha": "aeEPW/mf39k1y9BP6XNsXZW37vyzA/S9fEMR8IUqdYM=",
+    "originContent": "[Slider](/common/src/main/java/com/kernel/finch/components/Slider.kt)",
+    "translatedContent": "[Slider](/common/src/main/java/com/kernel/finch/components/Slider.kt)"
+  },
+  {
+    "row": 279,
+    "rowsha": "QCvWjTVHhgZsdRRLQIUAZX/SJLyANcnRUzRHScZqWhU=",
+    "originContent": "[Switch](/common/src/main/java/com/kernel/finch/components/Switch.kt)",
+    "translatedContent": "[Switch](/common/src/main/java/com/kernel/finch/components/Switch.kt)"
+  },
+  {
+    "row": 280,
+    "rowsha": "+84Yt2BGV2USzbYTq+a72g7L1h9+vB8HEvXvw0aeyZc=",
+    "originContent": "[TextInput](/common/src/main/java/com/kernel/finch/components/TextInput.kt)",
+    "translatedContent": "[TextInput](/common/src/main/java/com/kernel/finch/components/TextInput.kt)"
+  },
+  {
+    "row": 281,
+    "rowsha": "d0y1DIPrP4K+eZDaMPY6s5eS1NjQGVl9xGHYwI+m1Uw=",
+    "originContent": "[AnimationSpeed](/common/src/main/java/com/kernel/finch/components/special/AnimationSpeed.kt)",
+    "translatedContent": "[AnimationSpeed](/common/src/main/java/com/kernel/finch/components/special/AnimationSpeed.kt)"
+  },
+  {
+    "row": 282,
+    "rowsha": "k0hUKtvv6zbZWbg3G120BI/pPzH3A72LZKWlEnvoMjk=",
+    "originContent": "[AppInfo](/common/src/main/java/com/kernel/finch/components/special/AppInfo.kt)",
+    "translatedContent": "[AppInfo](/common/src/main/java/com/kernel/finch/components/special/AppInfo.kt)"
+  },
+  {
+    "row": 283,
+    "rowsha": "w4O1RwCDJDDdl2aU9TsjgqhceeVgDPQChBDj4BGK/mA=",
+    "originContent": "[DesignOverlay](/common/src/main/java/com/kernel/finch/components/special/DesignOverlay.kt)",
+    "translatedContent": "[DesignOverlay](/common/src/main/java/com/kernel/finch/components/special/DesignOverlay.kt)"
+  },
+  {
+    "row": 284,
+    "rowsha": "PG8mvVIl0CJkjwhfIWChRIdRQDMc8TZxU4dF8k8c3f8=",
+    "originContent": "[DeveloperOptions](/common/src/main/java/com/kernel/finch/components/special/DeveloperOptions.kt)",
+    "translatedContent": "[DeveloperOptions](/common/src/main/java/com/kernel/finch/components/special/DeveloperOptions.kt)"
+  },
+  {
+    "row": 285,
+    "rowsha": "uxUTZkXqCMtHyzI7qWTejRtTgplGWftpfK5CgGWcnQ4=",
+    "originContent": "[DeviceInfo](/common/src/main/java/com/kernel/finch/components/special/DeviceInfo.kt)",
+    "translatedContent": "[DeviceInfo](/common/src/main/java/com/kernel/finch/components/special/DeviceInfo.kt)"
+  },
+  {
+    "row": 286,
+    "rowsha": "DNnsVxt7IHk7GWhCEOl7Y1Hb/QleIwyeSa0T7UPvs64=",
+    "originContent": "[ForceCrash](/common/src/main/java/com/kernel/finch/components/special/ForceCrash.kt)",
+    "translatedContent": "[ForceCrash](/common/src/main/java/com/kernel/finch/components/special/ForceCrash.kt)"
+  },
+  {
+    "row": 287,
+    "rowsha": "WFdmZx1gU5/plF4zkAQ1H7hI5RHdE54tZtLglZXPElA=",
+    "originContent": "[Header](/common/src/main/java/com/kernel/finch/components/special/Header.kt)",
+    "translatedContent": "[Header](/common/src/main/java/com/kernel/finch/components/special/Header.kt)"
+  },
+  {
+    "row": 288,
+    "rowsha": "RXuews3fOors/q+5h3F45K+PkzMczJQDOjHhPlLud08=",
+    "originContent": "[LifecycleLogs](/common/src/main/java/com/kernel/finch/components/special/LifecycleLogs.kt)",
+    "translatedContent": "[LifecycleLogs](/common/src/main/java/com/kernel/finch/components/special/LifecycleLogs.kt)"
+  },
+  {
+    "row": 289,
+    "rowsha": "vEpdW7LGMULj5QIPfq3Q0auZVTcgS7CjRjhDpBRMmAY=",
+    "originContent": "[Logs](/common/src/main/java/com/kernel/finch/components/special/Logs.kt)",
+    "translatedContent": "[Logs](/common/src/main/java/com/kernel/finch/components/special/Logs.kt)"
+  },
+  {
+    "row": 290,
+    "rowsha": "1fiawRY7yNiKHbim2tsCm583ZgzbjbJaLx9o/GIuwUs=",
+    "originContent": "[LoremIpsumGenerator](/common/src/main/java/com/kernel/finch/components/special/LoremIpsumGenerator.kt)",
+    "translatedContent": "[LoremIpsumGenerator](/common/src/main/java/com/kernel/finch/components/special/LoremIpsumGenerator.kt)"
+  },
+  {
+    "row": 291,
+    "rowsha": "zt0k3LS01YrKHzi+LiVN8Arw0VLOZPC8HkDD3Q2hsA8=",
+    "originContent": "[NetworkLogs](/common/src/main/java/com/kernel/finch/components/special/NetworkLogs.kt)",
+    "translatedContent": "[NetworkLogs](/common/src/main/java/com/kernel/finch/components/special/NetworkLogs.kt)"
+  },
+  {
+    "row": 292,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 293,
+    "rowsha": "77Ml0t6qM8wasPMbb4Pfi3xTiCqUq/GnuHjeXSoAk5c=",
+    "originContent": "### Proguard",
+    "translatedContent": "### Proguard"
+  },
+  {
+    "row": 294,
+    "rowsha": "0jGJMRw2KLeNCK5UePj1HAf1xH3VMCNoMZlyAyHksok=",
+    "originContent": "```java",
+    "translatedContent": "```java"
+  },
+  {
+    "row": 295,
+    "rowsha": "nVLsN+bXBGM0ic0LsOu7AawgmJulVWiUAwCGzJlVKag=",
+    "originContent": "-keep,allowobfuscation,allowshrinking class com.google.gson.reflect.TypeToken",
+    "translatedContent": "-keep,allowobfuscation,allowshrinking class com.google.gson.reflect.TypeToken"
+  },
+  {
+    "row": 296,
+    "rowsha": "u3xRtSitXaazN9hLgecgMDkCxeP+V4rt2Icr/9+gd9U=",
+    "originContent": "-keep,allowobfuscation,allowshrinking class * extends com.google.gson.reflect.TypeToken",
+    "translatedContent": "-keep,allowobfuscation,allowshrinking class * extends com.google.gson.reflect.TypeToken"
+  },
+  {
+    "row": 297,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 298,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 299,
+    "rowsha": "o64/ViA5qwlghyQP2LzHSgOAXMDMIWtmaE4FGmfvG1o=",
+    "originContent": "## Releases",
+    "translatedContent": "## Releases"
+  },
+  {
+    "row": 300,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 301,
+    "rowsha": "NnuZq44Ln3V9QYA52q3D/7GuN5LhoaQnIU4NyMdb1eE=",
+    "originContent": "Checkout the [Releases](https://github.com/kernel0x/finch/releases) tab for all release info.",
+    "translatedContent": "Checkout the [Releases](https://github.com/kernel0x/finch/releases) tab for all release info."
+  },
+  {
+    "row": 302,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
