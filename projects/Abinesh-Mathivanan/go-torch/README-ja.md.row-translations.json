@@ -1,0 +1,476 @@
+[
+  {
+    "row": 1,
+    "rowsha": "w3bg/z+xgLNODSg2fh1LZeJ9icHrADj7PyS6WOsM09s=",
+    "originContent": "# go-torch ",
+    "translatedContent": "# go-torch "
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "AlRu5HA5FDEuKQVzdVnCskGAkP+7F+nPcOWxxiH8HJU=",
+    "originContent": "go-torch is an open-source deep learning framework built from the ground up in pure Go. It provides a modular, PyTorch-like API for building and training neural networks with a stable auto-differentiation engine.",
+    "translatedContent": "go-torch は純粋な Go 言語でゼロから構築されたオープンソースのディープラーニングフレームワークです。安定した自動微分エンジンを備え、PyTorch のようなモジュラーAPIでニューラルネットワークの構築とトレーニングを提供します。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "iYz0eVmmmIaWrVfAAQJc5hL5qK6jhFaDGrdzNIDEwd0=",
+    "originContent": "mail - abineshmathivanan31@gmail.com ",
+    "translatedContent": "mail - abineshmathivanan31@gmail.com "
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "GzjyyLMH5cWdPv+h970/ddNIEAd2Y60oFWy2zrRChT4=",
+    "originContent": "blog - https://abinesh-mathivanan.vercel.app/en/posts/post-5/",
+    "translatedContent": "blog - https://abinesh-mathivanan.vercel.app/en/posts/post-5/"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "sjpRb25BtgqEzxv4Rpbly1x+xRe0ysPECGmYwgaEOiY=",
+    "originContent": "## features ",
+    "translatedContent": "## features "
+  },
+  {
+    "row": 11,
+    "rowsha": "Pc4xj5PKs+pQptbjqsWqdyJOdvXvk1iNMeQM1KF7Dn0=",
+    "originContent": "- **dynamic computation graph**: tensors track their history, allowing for automatic gradient calculation during the backward pass.",
+    "translatedContent": "- **動的計算グラフ**: テンソルは履歴を追跡し、バックワードパスで自動勾配計算を可能にします。"
+  },
+  {
+    "row": 12,
+    "rowsha": "0NdolSrbBpXaDrA8YF+U5+bqEeZqxhIoJ01WcWEwf2I=",
+    "originContent": "- extensible module system (nn.Layer, nn.Sequential): build complex model architectures with a flexible, Keras-like sequential API. ",
+    "translatedContent": "- 拡張可能なモジュールシステム (nn.Layer, nn.Sequential): 柔軟で Keras のようなシーケンシャルAPIで複雑なモデルアーキテクチャを構築。"
+  },
+  {
+    "row": 13,
+    "rowsha": "4buDdSeV3OH4zlBfhjDwONgo7VZKzD5PksAkJAhZsSg=",
+    "originContent": "- layer and function library: includes Conv2D, Linear, MaxPooling2D, Flatten, ReLU, CrossEntropyLoss, and SGD",
+    "translatedContent": "- レイヤーおよび関数ライブラリ: Conv2D、Linear、MaxPooling2D、Flatten、ReLU、CrossEntropyLoss、SGD を含みます。"
+  },
+  {
+    "row": 14,
+    "rowsha": "kUZ5wQFfcwihRpLJctzyEno5kXuxlCpBJdZG+eeYSCo=",
+    "originContent": "- **real-time TUI dashboard**: live graphs for batch-wise loss and epoch-wise validation accuracy, monitoring of memory usage (Heap/Total Alloc), GC cycles, and active goroutines along with keras-like summary.",
+    "translatedContent": "- **リアルタイム TUI ダッシュボード**: バッチ単位の損失とエポック単位の検証精度のライブグラフ、メモリ使用量（Heap/Total Alloc）、GCサイクル、アクティブなゴルーチンの監視、keras風のサマリー付き。"
+  },
+  {
+    "row": 15,
+    "rowsha": "iVzkzfhrjmvaYW7zo8Sd8sZ3rnKYM3i7ap+OuXWN8Bg=",
+    "originContent": "- optimized performance: using BLAS, go-routines and topological autograd + grad accumulation",
+    "translatedContent": "- 最適化されたパフォーマンス: BLAS、ゴルーチン、トポロジカルオートグラッド＋勾配蓄積を利用。"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+    "originContent": "<br/>",
+    "translatedContent": "<br/>"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "X+io1py9gMLHN2B5FUAEfolvUSAKkClAoSrJ6dLxHf0=",
+    "originContent": "**TUI Dashboard**",
+    "translatedContent": "**TUI Dashboard**"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "LvX64xj2VBO5urvvG0pWGUwrmE4QfH+QTmvMhr14yv0=",
+    "originContent": "![alt text](https://raw.githubusercontent.com/Abinesh-Mathivanan/go-torch/main/dashboard.png)",
+    "translatedContent": "![alt text](https://raw.githubusercontent.com/Abinesh-Mathivanan/go-torch/main/dashboard.png)"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "9BLUDKwF41c3H3chgITZX6+GIbUGQvr0NT8MtLsceMw=",
+    "originContent": "## TODO",
+    "translatedContent": "## TODO"
+  },
+  {
+    "row": 27,
+    "rowsha": "xB3GdzhTgYZR3FUhbEGwbcU6FCPFCcsl6y3T7e8idPk=",
+    "originContent": "- [ ] add support for RNN, LSTM, Transformers",
+    "translatedContent": "- [ ] RNN、LSTM、Transformer のサポート追加"
+  },
+  {
+    "row": 28,
+    "rowsha": "hbfmlyTPSjNMgPI79cYhgqN/8fqv2EThHk4w8yAFEsg=",
+    "originContent": "- [ ] implement Adam with Ga-lore and LORA techniques, RMSProp etc...",
+    "translatedContent": "- [ ] Ga-lore と LORA 技術を用いた Adam、RMSProp 等の実装"
+  },
+  {
+    "row": 29,
+    "rowsha": "6CUiUdhsggvVuQv2wsHyvp7krNzVwbtw6w5J5Ej/f+Q=",
+    "originContent": "- [ ] model.load() and model.save() without gob",
+    "translatedContent": "- [ ] gob を使わない model.load() と model.save()"
+  },
+  {
+    "row": 30,
+    "rowsha": "Ysz/3jbrg7pmTxIheAzaqod6JcGZmFVSwMRIDexCcc8=",
+    "originContent": "- [ ] support building Transformers",
+    "translatedContent": "- [ ] Transformer の構築サポート"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+    "originContent": "<br/>",
+    "translatedContent": "<br/>"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "8W/+Mpq1RnDgBhK8coqb/3tWfIJj0Q7ghv/cAlbwRhQ=",
+    "originContent": "## pre-requisites ",
+    "translatedContent": "## pre-requisites "
+  },
+  {
+    "row": 35,
+    "rowsha": "PQCerf2fHwpyy+mTICobJn4yljJSVgkjXjqOa9y/ZAg=",
+    "originContent": "- Go 1.18 or later.",
+    "translatedContent": "- Go 1.18 以降。"
+  },
+  {
+    "row": 36,
+    "rowsha": "BBvZ0hHYVttj7sGz0vuOtsgYhgKWJySFBL1GVOvef/4=",
+    "originContent": "- system-installed BLAS library is recommended for maximum performance but not required.",
+    "translatedContent": "- 最大パフォーマンスのためにシステムにインストールされた BLAS ライブラリ推奨だが必須ではない。"
+  },
+  {
+    "row": 37,
+    "rowsha": "ghGL4V3AHgguMgCtiBW0tR45goP+lwh7xHUssATXVBY=",
+    "originContent": "- some todo's are written inside the files. use 'better comments' extension for best experience. ",
+    "translatedContent": "- 一部のTODOはファイル内に記述。最良の体験には 'better comments' 拡張機能を使用してください。"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+    "originContent": "<br/>",
+    "translatedContent": "<br/>"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "SlD2UC7/YjEJMpragkVJ3sB5XYSPHDuUgOvMevxVtMA=",
+    "originContent": "## usage ",
+    "translatedContent": "## 使用方法"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "rtfnEeOuvUEI1oMIxqiB81R7RoBPyjKMwkhXL9lwusI=",
+    "originContent": "### clone the repository",
+    "translatedContent": "### リポジトリをクローンする"
+  },
+  {
+    "row": 44,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 45,
+    "rowsha": "2YYjwbDUtIUunHHiC8kvQVJ+EX7nvqk6pQdGH04WdAw=",
+    "originContent": "git clone https://github.com/abinesh-mathivanan/go-torch.git",
+    "translatedContent": "git clone https://github.com/abinesh-mathivanan/go-torch.git"
+  },
+  {
+    "row": 46,
+    "rowsha": "W+JCrxfMzZjVbhy1Qj8UKpw7IykVgQLcbq+ntfIkIKA=",
+    "originContent": "cd go-torch",
+    "translatedContent": "cd go-torch"
+  },
+  {
+    "row": 47,
+    "rowsha": "6l+f1PdAzkOkp8zjbFbdg+1TVGfcHDKpp/EmFpFzj+4=",
+    "originContent": "``` ",
+    "translatedContent": "``` "
+  },
+  {
+    "row": 48,
+    "rowsha": "cNx9Uyoyn7GOlCmgYZZoyhI4Lg+F9mLE1ScNpTAbGjI=",
+    "originContent": "### install dependencies ",
+    "translatedContent": "### 依存関係のインストール "
+  },
+  {
+    "row": 49,
+    "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+    "originContent": "``` bash",
+    "translatedContent": "``` bash"
+  },
+  {
+    "row": 50,
+    "rowsha": "WuvfdEbrypnxPKK0VYgNXVUjOi2DSYzwl5ItoCgosC8=",
+    "originContent": "go mod tidy",
+    "translatedContent": "go mod tidy"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "qsszdcJHCtGF595cBg/RPVOfTb87LEywxaT5yDKxmLE=",
+    "originContent": "### execute ",
+    "translatedContent": "### 実行 "
+  },
+  {
+    "row": 54,
+    "rowsha": "yD3RuqT8MpAl2DpEAakGivX86CPsNYqHywKM0hLnuF4=",
+    "originContent": "run the mnist training file to test out the features. ",
+    "translatedContent": "mnistのトレーニングファイルを実行して機能をテストします。 "
+  },
+  {
+    "row": 55,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 56,
+    "rowsha": "CuGkDlLoGzQAU2RZVpjxOky+MnJjE7i1saaWGQqE5pU=",
+    "originContent": "go run ./cnn_benchmark/go_bench.go",
+    "translatedContent": "go run ./cnn_benchmark/go_bench.go"
+  },
+  {
+    "row": 57,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 59,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ベンチマーク"
+  },
+  {
+    "row": 61,
+    "rowsha": "Ef0UsiyD6h8Bsal0VWE7OxxQZOlWCfTesTDl7PDsG1Y=",
+    "originContent": "## Benchmark",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "| ベンチマーク詳細                          | 128x128      | 512x512     | 1024x1024    |"
+  },
+  {
+    "row": 63,
+    "rowsha": "uBmRKvDr6rYgevh/JML7euEgAj8DuQz55ML27Mb8DBA=",
+    "originContent": "| Benchmark Detail                          | 128x128      | 512x512     | 1024x1024    |",
+    "translatedContent": "|:------------------------------------------|:-------------|:------------|:-------------|"
+  },
+  {
+    "row": 64,
+    "rowsha": "uq+EXfYBSSSS3ueUGGwXDkHCUQMzzZiklzutZ+vh9xI=",
+    "originContent": "|:------------------------------------------|:-------------|:------------|:-------------|",
+    "translatedContent": "| **行列乗算**                             | 510.33 µs    | 13.54 ms    | 130.50 ms    |"
+  },
+  {
+    "row": 65,
+    "rowsha": "Uyio/ZN7XkkdYJSXYdqWGDKdGJyWeOlX10hQZ9wi5/c=",
+    "originContent": "| **Matrix Multiply**                       | 510.33 µs    | 13.54 ms    | 130.50 ms    |",
+    "translatedContent": "| 要素ごとの加算                           | 71.72 µs     | 1.29 ms     | 4.13 ms      |"
+  },
+  {
+    "row": 66,
+    "rowsha": "8MOX4sNEN9mG8EJqwl5bdO/GpsJ5TsfsXe9FH2/1YOc=",
+    "originContent": "| Element-wise Add                          | 71.72 µs     | 1.29 ms     | 4.13 ms      |",
+    "translatedContent": "| 要素ごとの乗算                           | 47.83 µs     | 1.63 ms     | 3.91 ms      |"
+  },
+  {
+    "row": 67,
+    "rowsha": "twG/E2sxX8fLFc3JJwpLOCLkknWhAkkvjULfEEfC0aI=",
+    "originContent": "| Element-wise Mul                          | 47.83 µs     | 1.63 ms     | 3.91 ms      |",
+    "translatedContent": "| ReLU 活性化関数                         | 121.18 µs    | 1.75 ms     | 6.45 ms      |"
+  },
+  {
+    "row": 68,
+    "rowsha": "rupknE7Vg7B7hPxbN8tJ3gDRXPj2ETb9d67GG1T0FsQ=",
+    "originContent": "| ReLU Activation                           | 121.18 µs    | 1.75 ms     | 6.45 ms      |",
+    "translatedContent": "| **線形層の順伝播 (B32,I128,O10)**         | 71.93 µs     |             |              |"
+  },
+  {
+    "row": 69,
+    "rowsha": "qglJ2Q/d2RN3xzuTDTXiXR7QMjAM4to/6iIP0Gcm7bU=",
+    "originContent": "| **Linear Layer Forward (B32,I128,O10)**   | 71.93 µs     |             |              |",
+    "translatedContent": "| **クロスエントロピー損失 (B32,C10)**      | 11.16 µs     |             |              |"
+  },
+  {
+    "row": 70,
+    "rowsha": "yukBqpHUSn6HJD0/d9Qz+qD1js/pu3MpYRpe7Q+wEIo=",
+    "originContent": "| **CrossEntropyLoss (B32,C10)**            | 11.16 µs     |             |              |",
+    "translatedContent": "| **完全順伝播-逆伝播 (ネット:128-256-10, B32)** | 4.02 ms      |             |              |"
+  },
+  {
+    "row": 71,
+    "rowsha": "f0bBEY8umRqetQq8A1hCWkiZc/aWpGrlfh1nzVZpZx8=",
+    "originContent": "| **Full Fwd-Bwd (Net:128-256-10, B32)**    | 4.02 ms      |             |              |",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 74,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 75,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[![Star History Chart](https://api.star-history.com/svg?repos=Abinesh-Mathivanan/go-torch&type=Date)](https://www.star-history.com/#Abinesh-Mathivanan/go-torch&Date)"
+  },
+  {
+    "row": 77,
+    "rowsha": "5SyDBmmMQD1BOJEk54vMHKVxKLp6Q7YAhAHbRFmbEsA=",
+    "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=Abinesh-Mathivanan/go-torch&type=Date)](https://www.star-history.com/#Abinesh-Mathivanan/go-torch&Date)",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

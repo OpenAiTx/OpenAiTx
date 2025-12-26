@@ -1,0 +1,558 @@
+[
+  {
+    "Id": 1,
+    "Content": "# VSCode as MCP Server\n\n[Marketplace](https://marketplace.visualstudio.com/items?itemName=acomagu.vscode-as-mcp-server)\n\nA VSCode extension that turns your VSCode into an MCP server, enabling advanced coding assistance from MCP clients like Claude Desktop.\n\n## Key Features\n\n### Code Editing Support\n- Review proposed code changes from an LLM through diffs, allowing you to accept, reject, or provide feedback.\n- Real-time diagnostic messages (e.g., type errors) sent instantly to the LLM for immediate corrections.\n\n![Code editing diff](https://storage.googleapis.com/zenn-user-upload/778b7e9ad8c4-20250407.gif)\n\n### Terminal Operations\n- Execute commands within VSCode’s integrated terminal (supports background/foreground execution, and timeout settings).\n\n### Preview Tools\n- Preview URLs directly within VSCode’s built-in browser (e.g., automatically opens browser preview after starting a Vite server).\n\n![Preview tool](https://storage.googleapis.com/zenn-user-upload/8968c9ad3920-20250407.gif)\n\n### Multi-instance Switching\n- Easily switch the MCP server between multiple open VSCode windows.(Just by clicking the status bar item)\n\n![Instance switching](https://storage.googleapis.com/zenn-user-upload/0a2bc2bee634-20250407.gif)\n\n### Relay Functionality (Experimental)\n- Relay and expose built-in MCP servers introduced in VSCode 1.99 externally.\n- Allows external access to tools provided by other MCP extensions, such as GitHub Copilot.\n\n## Available Built-in Tools\n\n- **execute_command**: Execute commands in VSCode’s integrated terminal\n- **code_checker**: Retrieve current diagnostics for your code\n- **focus_editor**: Focus specific locations within files\n- **list_debug_sessions** / **start_debug_session** / **restart_debug_session** / **stop_debug_session**: Manage debug sessions\n- **text_editor**: File operations (view, replace, create, insert, undo)\n- **list_directory**: List directory contents in a tree format\n- **get_terminal_output**: Fetch output from a specified terminal",
+    "ContentSha": "PTrNEkvfVrp9i3+67r9gx5YcXXi7jpcd/ZXRJwkB/1c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# VSCode as MCP Server\n\n[Marketplace](https://marketplace.visualstudio.com/items?itemName=acomagu.vscode-as-mcp-server)\n\nVSCode를 MCP 서버로 변환하여 Claude Desktop과 같은 MCP 클라이언트로부터 고급 코딩 지원을 받을 수 있게 해주는 VSCode 확장입니다.\n\n## 주요 기능\n\n### 코드 편집 지원\n- LLM이 제안한 코드 변경 사항을 diff로 검토하고, 수락, 거부 또는 피드백을 제공할 수 있습니다.\n- 타입 오류와 같은 실시간 진단 메시지를 즉시 LLM에 전송하여 바로 수정할 수 있습니다.\n\n![Code editing diff](https://storage.googleapis.com/zenn-user-upload/778b7e9ad8c4-20250407.gif)\n\n### 터미널 작업\n- VSCode 통합 터미널 내에서 명령어를 실행할 수 있습니다 (백그라운드/포그라운드 실행 및 타임아웃 설정 지원).\n\n### 미리보기 도구\n- VSCode 내장 브라우저에서 URL을 직접 미리보기할 수 있습니다 (예: Vite 서버 시작 후 자동으로 브라우저 미리보기 열기).\n\n![Preview tool](https://storage.googleapis.com/zenn-user-upload/8968c9ad3920-20250407.gif)\n\n### 다중 인스턴스 전환\n- 여러 개의 열린 VSCode 창 사이에서 MCP 서버를 쉽게 전환할 수 있습니다. (상태 표시줄 아이템 클릭만으로)\n\n![Instance switching](https://storage.googleapis.com/zenn-user-upload/0a2bc2bee634-20250407.gif)\n\n### 중계 기능 (실험적)\n- VSCode 1.99에 도입된 내장 MCP 서버를 외부에 중계 및 노출합니다.\n- GitHub Copilot과 같은 다른 MCP 확장 도구에 외부에서 접근할 수 있게 합니다.\n\n## 사용 가능한 내장 도구\n\n- **execute_command**: VSCode 통합 터미널에서 명령어 실행\n- **code_checker**: 코드의 현재 진단 정보 조회\n- **focus_editor**: 파일 내 특정 위치로 포커스 이동\n- **list_debug_sessions** / **start_debug_session** / **restart_debug_session** / **stop_debug_session**: 디버그 세션 관리\n- **text_editor**: 파일 작업 (보기, 교체, 생성, 삽입, 실행 취소)\n- **list_directory**: 디렉터리 내용을 트리 형식으로 나열\n- **get_terminal_output**: 지정한 터미널의 출력 가져오기",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "6+ySVNXFiXpLkgdUzzNuH70nmftpOMcOC8REB8FLtlY=",
+        "originContent": "# VSCode as MCP Server",
+        "translatedContent": "# VSCode as MCP Server"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "5ocKLqXfXLMT/Jt0ef3J4v3MrpyIz15bNvZfwOQfy3o=",
+        "originContent": "[Marketplace](https://marketplace.visualstudio.com/items?itemName=acomagu.vscode-as-mcp-server)",
+        "translatedContent": "[Marketplace](https://marketplace.visualstudio.com/items?itemName=acomagu.vscode-as-mcp-server)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "tQJRMOESiUliIwzBFT7ZA63JO35Cr38GWuo3kPK1BEQ=",
+        "originContent": "A VSCode extension that turns your VSCode into an MCP server, enabling advanced coding assistance from MCP clients like Claude Desktop.",
+        "translatedContent": "VSCode를 MCP 서버로 변환하여 Claude Desktop과 같은 MCP 클라이언트로부터 고급 코딩 지원을 받을 수 있게 해주는 VSCode 확장입니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "khTPM/+Q4D8FMdf3qgrMDcjDejggkuMl1+JmWZMODFI=",
+        "originContent": "## Key Features",
+        "translatedContent": "## 주요 기능"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "CBTu3bdhxO3L/2Y03DMXhlajE4YJ/WChBh4fkZ7T3Xk=",
+        "originContent": "### Code Editing Support",
+        "translatedContent": "### 코드 편집 지원"
+      },
+      {
+        "row": 10,
+        "rowsha": "/gHo/9M9/B4C274sXyv20OLm3Oi10aAhV6QNZAPKAy4=",
+        "originContent": "- Review proposed code changes from an LLM through diffs, allowing you to accept, reject, or provide feedback.",
+        "translatedContent": "- LLM이 제안한 코드 변경 사항을 diff로 검토하고, 수락, 거부 또는 피드백을 제공할 수 있습니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "oqTQcPSJC6y6eYhbXENZB2CDfAuFlsgFqcugNnWEN3k=",
+        "originContent": "- Real-time diagnostic messages (e.g., type errors) sent instantly to the LLM for immediate corrections.",
+        "translatedContent": "- 타입 오류와 같은 실시간 진단 메시지를 즉시 LLM에 전송하여 바로 수정할 수 있습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "YEp+zMngBn8c8gLtItZyl23W8zks8iN5otdWVZvdiO4=",
+        "originContent": "![Code editing diff](https://storage.googleapis.com/zenn-user-upload/778b7e9ad8c4-20250407.gif)",
+        "translatedContent": "![Code editing diff](https://storage.googleapis.com/zenn-user-upload/778b7e9ad8c4-20250407.gif)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "elWIWYwmTK+g+grAgOxq6cwK/Nf/f4vArtM63lQPUH4=",
+        "originContent": "### Terminal Operations",
+        "translatedContent": "### 터미널 작업"
+      },
+      {
+        "row": 16,
+        "rowsha": "xC0qzapM5Of5ZEE16t1ePs0CKjTK0cyTq5oq47O/FOE=",
+        "originContent": "- Execute commands within VSCode’s integrated terminal (supports background/foreground execution, and timeout settings).",
+        "translatedContent": "- VSCode 통합 터미널 내에서 명령어를 실행할 수 있습니다 (백그라운드/포그라운드 실행 및 타임아웃 설정 지원)."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Jmtn74oYj/cYxC97o72a39f8dYMn+DuLdV2VgGIi/vc=",
+        "originContent": "### Preview Tools",
+        "translatedContent": "### 미리보기 도구"
+      },
+      {
+        "row": 19,
+        "rowsha": "u/is1sK9hCJQblAZ1PKkTbJAAL6SuDrOz/JyOWSMJbE=",
+        "originContent": "- Preview URLs directly within VSCode’s built-in browser (e.g., automatically opens browser preview after starting a Vite server).",
+        "translatedContent": "- VSCode 내장 브라우저에서 URL을 직접 미리보기할 수 있습니다 (예: Vite 서버 시작 후 자동으로 브라우저 미리보기 열기)."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "1EGKwEXVFIIHISSA2DGo8PvfjGV/DdQkWluERj0XYi4=",
+        "originContent": "![Preview tool](https://storage.googleapis.com/zenn-user-upload/8968c9ad3920-20250407.gif)",
+        "translatedContent": "![Preview tool](https://storage.googleapis.com/zenn-user-upload/8968c9ad3920-20250407.gif)"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "OuQaQD9uweFtv7tjlxQnFIsL4vfhqvX16NLEJMfwASo=",
+        "originContent": "### Multi-instance Switching",
+        "translatedContent": "### 다중 인스턴스 전환"
+      },
+      {
+        "row": 24,
+        "rowsha": "RQlBqgqMvcV8ns0c8kEkEQZGjatDE8YKEsZS43g7I/Y=",
+        "originContent": "- Easily switch the MCP server between multiple open VSCode windows.(Just by clicking the status bar item)",
+        "translatedContent": "- 여러 개의 열린 VSCode 창 사이에서 MCP 서버를 쉽게 전환할 수 있습니다. (상태 표시줄 아이템 클릭만으로)"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "PI6pAqtF/rcQ4kyW1AuiBdffpCgyaK90dXYwaqoXg9s=",
+        "originContent": "![Instance switching](https://storage.googleapis.com/zenn-user-upload/0a2bc2bee634-20250407.gif)",
+        "translatedContent": "![Instance switching](https://storage.googleapis.com/zenn-user-upload/0a2bc2bee634-20250407.gif)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "KGXClT//kO0K4cJWXpcw91MNphSsMbQgk+3uZ0VK5/c=",
+        "originContent": "### Relay Functionality (Experimental)",
+        "translatedContent": "### 중계 기능 (실험적)"
+      },
+      {
+        "row": 29,
+        "rowsha": "AnIgAV/4asP+5MVIWMizQoblKE9GHKAZObdoTI1Q8/I=",
+        "originContent": "- Relay and expose built-in MCP servers introduced in VSCode 1.99 externally.",
+        "translatedContent": "- VSCode 1.99에 도입된 내장 MCP 서버를 외부에 중계 및 노출합니다."
+      },
+      {
+        "row": 30,
+        "rowsha": "W9c8AieptusPGpy+p2Wjb61geQcHmw29qPQrc/p1qfk=",
+        "originContent": "- Allows external access to tools provided by other MCP extensions, such as GitHub Copilot.",
+        "translatedContent": "- GitHub Copilot과 같은 다른 MCP 확장 도구에 외부에서 접근할 수 있게 합니다."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "eJSD6M/5eLHR88zmlDElEQLGCov4eh+Mo3dNkxIx/QI=",
+        "originContent": "## Available Built-in Tools",
+        "translatedContent": "## 사용 가능한 내장 도구"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "UA+/sblIIQGVuSJGwb9Ulr8FBRRGuoAAYj23LYFkd0o=",
+        "originContent": "- **execute_command**: Execute commands in VSCode’s integrated terminal",
+        "translatedContent": "- **execute_command**: VSCode 통합 터미널에서 명령어 실행"
+      },
+      {
+        "row": 35,
+        "rowsha": "PCLTM6QPyktBR8zJFawAIW70m/eFTTcr9POuEwOS7oY=",
+        "originContent": "- **code_checker**: Retrieve current diagnostics for your code",
+        "translatedContent": "- **code_checker**: 코드의 현재 진단 정보 조회"
+      },
+      {
+        "row": 36,
+        "rowsha": "2hSsx7m+otvP0BOSlI06CRrWrVdsHTbbHK5s9akjeFk=",
+        "originContent": "- **focus_editor**: Focus specific locations within files",
+        "translatedContent": "- **focus_editor**: 파일 내 특정 위치로 포커스 이동"
+      },
+      {
+        "row": 37,
+        "rowsha": "OxTV9xzhGRL3Mxozzu5XTykt2fay9b3vPiNV+PMTlSQ=",
+        "originContent": "- **list_debug_sessions** / **start_debug_session** / **restart_debug_session** / **stop_debug_session**: Manage debug sessions",
+        "translatedContent": "- **list_debug_sessions** / **start_debug_session** / **restart_debug_session** / **stop_debug_session**: 디버그 세션 관리"
+      },
+      {
+        "row": 38,
+        "rowsha": "cY73yTqsIPaliaLGkIeHuvcX46N9+Dty7+gEw2IGp5w=",
+        "originContent": "- **text_editor**: File operations (view, replace, create, insert, undo)",
+        "translatedContent": "- **text_editor**: 파일 작업 (보기, 교체, 생성, 삽입, 실행 취소)"
+      },
+      {
+        "row": 39,
+        "rowsha": "jKkb+bP0yEwR2HsF52bI6j0MKHVAf6z+gsgyDuZVIZQ=",
+        "originContent": "- **list_directory**: List directory contents in a tree format",
+        "translatedContent": "- **list_directory**: 디렉터리 내용을 트리 형식으로 나열"
+      },
+      {
+        "row": 40,
+        "rowsha": "n8iHWSliceGS2TiBtOBdtbdaRX5MPoyB5bIpNT+bhzc=",
+        "originContent": "- **get_terminal_output**: Fetch output from a specified terminal",
+        "translatedContent": "- **get_terminal_output**: 지정한 터미널의 출력 가져오기"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- **list_vscode_commands** / **execute_vscode_command**: List and execute arbitrary VSCode commands\n- **preview_url**: Open URLs within VSCode’s integrated browser\n\n## Installation & Setup\n\n1. Install the extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=acomagu.vscode-as-mcp-server).\n\n2. Configure your MCP client:\n\n    - **Using mcp-installer**: You can simply instruct it to \"install the vscode-as-mcp-server MCP server\".\n    - **Other clients like Claude Desktop**: Add the following to your configuration file (`claude_desktop_config.json`):\n",
+    "ContentSha": "Az1w3KShbijF42pR/AsnhLAGF+N5bGveJz/TsXAj5P4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- **list_vscode_commands** / **execute_vscode_command**: 임의의 VSCode 명령어 목록 조회 및 실행  \n- **preview_url**: VSCode 내장 브라우저에서 URL 열기  \n\n## 설치 및 설정  \n\n1. [VSCode 마켓플레이스](https://marketplace.visualstudio.com/items?itemName=acomagu.vscode-as-mcp-server)에서 확장 프로그램을 설치합니다.  \n\n2. MCP 클라이언트를 구성합니다:  \n\n    - **mcp-installer 사용 시**: \"vscode-as-mcp-server MCP 서버 설치\"를 지시하면 됩니다.  \n    - **Claude Desktop 등 다른 클라이언트**: 구성 파일(`claude_desktop_config.json`)에 다음을 추가하세요:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Z/r33aXi5kOvCrhDgdW9zxnC2rK3dohrGoLrAGkr77w=",
+        "originContent": "- **list_vscode_commands** / **execute_vscode_command**: List and execute arbitrary VSCode commands",
+        "translatedContent": "- **list_vscode_commands** / **execute_vscode_command**: 임의의 VSCode 명령어 목록 조회 및 실행  "
+      },
+      {
+        "row": 2,
+        "rowsha": "KHUCbnIH+acMGmhbwqqNfBXYg263O3bdxfPTfTa7f7E=",
+        "originContent": "- **preview_url**: Open URLs within VSCode’s integrated browser",
+        "translatedContent": "- **preview_url**: VSCode 내장 브라우저에서 URL 열기  "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "nMS7EdI01cNkKCn2C/q33hlqmRttjjoXlDQcP7m0C5c=",
+        "originContent": "## Installation & Setup",
+        "translatedContent": "## 설치 및 설정  "
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "XN3GveisaetPtXfNnZ+MFsT/m+UGi8W/Z9ri9y3dcrY=",
+        "originContent": "1. Install the extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=acomagu.vscode-as-mcp-server).",
+        "translatedContent": "1. [VSCode 마켓플레이스](https://marketplace.visualstudio.com/items?itemName=acomagu.vscode-as-mcp-server)에서 확장 프로그램을 설치합니다.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "qdxdpylxZXiCeN883y7nJeT8RWy/wxoVkh+dS5u0IdQ=",
+        "originContent": "2. Configure your MCP client:",
+        "translatedContent": "2. MCP 클라이언트를 구성합니다:  "
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "iObcwm/bAgkFuJNjImclDhog24DZYFgYLFZEMXr69E4=",
+        "originContent": "    - **Using mcp-installer**: You can simply instruct it to \"install the vscode-as-mcp-server MCP server\".",
+        "translatedContent": "    - **mcp-installer 사용 시**: \"vscode-as-mcp-server MCP 서버 설치\"를 지시하면 됩니다.  "
+      },
+      {
+        "row": 11,
+        "rowsha": "ofXNp+OGsZrV9EOz1wfBf9axxRf5DzDretsRPo/TidA=",
+        "originContent": "    - **Other clients like Claude Desktop**: Add the following to your configuration file (`claude_desktop_config.json`):",
+        "translatedContent": "    - **Claude Desktop 등 다른 클라이언트**: 구성 파일(`claude_desktop_config.json`)에 다음을 추가하세요:"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "    ```json\n    {\n      \"mcpServers\": {\n        \"vscode\": {\n          \"command\": \"npx\",\n          \"args\": [\"vscode-as-mcp-server\"]\n        }\n      }\n    }\n    ```",
+    "ContentSha": "tB7xc6ltnYZjhSt6bwpLv4yTanOawQ2j0BCigKU3zNY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```json\n    {\n      \"mcpServers\": {\n        \"vscode\": {\n          \"command\": \"npx\",\n          \"args\": [\"vscode-as-mcp-server\"]\n        }\n      }\n    }\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "vtR5z08Pn5WvlbKK7N66UejjbVE7Ua9pVfsrJo/8nws=",
+        "originContent": "    ```json",
+        "translatedContent": "    ```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 3,
+        "rowsha": "rcono4MXYmUjQPS75d9dZ356HM+EwBqvFPXBu+7iY/k=",
+        "originContent": "      \"mcpServers\": {",
+        "translatedContent": "      \"mcpServers\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "PecFAzpxoB8cRovVqlc9Ed41Nk6Rabjayapg91j/u3s=",
+        "originContent": "        \"vscode\": {",
+        "translatedContent": "        \"vscode\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "TsYzoI/3lwOQNkUhVxbAsPbuq/XrhGK0t67da9JI2mY=",
+        "originContent": "          \"command\": \"npx\",",
+        "translatedContent": "          \"command\": \"npx\","
+      },
+      {
+        "row": 6,
+        "rowsha": "vmF2RsUAldKW1j3qi3j1T5658ixiwr4VBDw0yNFsT6c=",
+        "originContent": "          \"args\": [\"vscode-as-mcp-server\"]",
+        "translatedContent": "          \"args\": [\"vscode-as-mcp-server\"]"
+      },
+      {
+        "row": 7,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 8,
+        "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+        "originContent": "      }",
+        "translatedContent": "      }"
+      },
+      {
+        "row": 9,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 10,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n3. Check the MCP server status in the bottom-right VSCode status bar:\n\n    - (Server icon): Server is running\n    - ∅: Click to start the server\n\n![Server status indicator](https://storage.googleapis.com/zenn-user-upload/321704116d4a-20250408.png)\n\n## Motivation\n\nThis extension was developed to mitigate high costs associated with metered coding tools (like Roo Code and Cursor). It's an affordable, self-hosted alternative built directly into VSCode.\n\nBug reports and feedback are very welcome! 🙇\n\n## Future Roadmap\n\n- Ability to select which built-in MCP servers to expose\n- WebView-based approval UI (similar to Roo Code)\n- Integration with VSCode's file history (Timeline)\n- Instant toggling of auto-approvals and tool activation/deactivation\n- Customizable server port configuration\n",
+    "ContentSha": "HBTb15mIPaO/y4h4WLZHQfCL8Qvi6JIzgiwvH6Fa8F8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. VSCode 우측 하단 상태 표시줄에서 MCP 서버 상태 확인:\n\n    - (서버 아이콘): 서버가 실행 중임\n    - ∅: 클릭하여 서버 시작\n\n![서버 상태 표시기](https://storage.googleapis.com/zenn-user-upload/321704116d4a-20250408.png)\n\n## 동기\n\n이 확장 기능은 측정 기반 코딩 도구(예: Roo Code 및 Cursor)의 높은 비용 문제를 완화하기 위해 개발되었습니다. VSCode에 직접 내장된 저렴한 자체 호스팅 대안입니다.\n\n버그 보고 및 피드백은 언제나 환영합니다! 🙇\n\n## 향후 계획\n\n- 노출할 내장 MCP 서버 선택 기능\n- WebView 기반 승인 UI (Roo Code와 유사)\n- VSCode 파일 히스토리(Timeline) 연동\n- 자동 승인 및 도구 활성화/비활성화 즉시 전환\n- 사용자 지정 서버 포트 구성\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. VSCode 우측 하단 상태 표시줄에서 MCP 서버 상태 확인:"
+      },
+      {
+        "row": 2,
+        "rowsha": "H7HIPNw/0KZQsmStzXBPZcSc9SYZbz/ZbG1Wzkbh0iM=",
+        "originContent": "3. Check the MCP server status in the bottom-right VSCode status bar:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "    - (서버 아이콘): 서버가 실행 중임"
+      },
+      {
+        "row": 4,
+        "rowsha": "cGxftf5M1ydaRZCOC6aHf2NTr6e96HYyk1Jxr08PQfk=",
+        "originContent": "    - (Server icon): Server is running",
+        "translatedContent": "    - ∅: 클릭하여 서버 시작"
+      },
+      {
+        "row": 5,
+        "rowsha": "XdBQoQLCXX6pjdMy1NQQ+vEy1Kz4WxlE88nwdx96PeU=",
+        "originContent": "    - ∅: Click to start the server",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![서버 상태 표시기](https://storage.googleapis.com/zenn-user-upload/321704116d4a-20250408.png)"
+      },
+      {
+        "row": 7,
+        "rowsha": "5dBXFqF5NjRB4xsz5l7zSaeIMYqU0LXulz4sUvHZ5m0=",
+        "originContent": "![Server status indicator](https://storage.googleapis.com/zenn-user-upload/321704116d4a-20250408.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 동기"
+      },
+      {
+        "row": 9,
+        "rowsha": "XkjmO8GZw+NPlqtsKIz94hXoCCSSximfmFKrLHYsZ2I=",
+        "originContent": "## Motivation",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이 확장 기능은 측정 기반 코딩 도구(예: Roo Code 및 Cursor)의 높은 비용 문제를 완화하기 위해 개발되었습니다. VSCode에 직접 내장된 저렴한 자체 호스팅 대안입니다."
+      },
+      {
+        "row": 11,
+        "rowsha": "vwCTnbW+YJAvaOLFvNipwj8KMGmeFsj8j7/gs/TmnZ8=",
+        "originContent": "This extension was developed to mitigate high costs associated with metered coding tools (like Roo Code and Cursor). It's an affordable, self-hosted alternative built directly into VSCode.",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "버그 보고 및 피드백은 언제나 환영합니다! 🙇"
+      },
+      {
+        "row": 13,
+        "rowsha": "0l7hQHAqJLr+XF7C4Er51TMjrMA/zBAQV2D+sJ9USUA=",
+        "originContent": "Bug reports and feedback are very welcome! 🙇",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 향후 계획"
+      },
+      {
+        "row": 15,
+        "rowsha": "kGzTyAIH+MJX49irqL7WLdQunrldYkfdoAOLntMTE6Y=",
+        "originContent": "## Future Roadmap",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- 노출할 내장 MCP 서버 선택 기능"
+      },
+      {
+        "row": 17,
+        "rowsha": "i8r0XPv+egrS8JDw0+ZQY7kF+gJ2dEGiEUjMT8YQgnM=",
+        "originContent": "- Ability to select which built-in MCP servers to expose",
+        "translatedContent": "- WebView 기반 승인 UI (Roo Code와 유사)"
+      },
+      {
+        "row": 18,
+        "rowsha": "jnZaGE4vjDmRmapZOIIQjFklMgKaqXjk1q3ubod84gU=",
+        "originContent": "- WebView-based approval UI (similar to Roo Code)",
+        "translatedContent": "- VSCode 파일 히스토리(Timeline) 연동"
+      },
+      {
+        "row": 19,
+        "rowsha": "qcwhxPtv5dSB32X4eUuh0PxMxGBCMvc687AVDpffPrg=",
+        "originContent": "- Integration with VSCode's file history (Timeline)",
+        "translatedContent": "- 자동 승인 및 도구 활성화/비활성화 즉시 전환"
+      },
+      {
+        "row": 20,
+        "rowsha": "eRQpTDESkxHTEgkME8itNCYq6I4sE8UIRUoFvg5Cs+Y=",
+        "originContent": "- Instant toggling of auto-approvals and tool activation/deactivation",
+        "translatedContent": "- 사용자 지정 서버 포트 구성"
+      },
+      {
+        "row": 21,
+        "rowsha": "gEvVRCFMwPkunifx9GA5+jkpLqaDEaNDe5uRiEdUHMo=",
+        "originContent": "- Customizable server port configuration",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,476 @@
+[
+  {
+    "row": 1,
+    "rowsha": "w3bg/z+xgLNODSg2fh1LZeJ9icHrADj7PyS6WOsM09s=",
+    "originContent": "# go-torch ",
+    "translatedContent": "# go-torch "
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "AlRu5HA5FDEuKQVzdVnCskGAkP+7F+nPcOWxxiH8HJU=",
+    "originContent": "go-torch is an open-source deep learning framework built from the ground up in pure Go. It provides a modular, PyTorch-like API for building and training neural networks with a stable auto-differentiation engine.",
+    "translatedContent": "go-torch est un framework d'apprentissage profond open-source développé entièrement en Go pur. Il offre une API modulaire, similaire à PyTorch, pour construire et entraîner des réseaux neuronaux avec un moteur d'auto-différentiation stable."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "iYz0eVmmmIaWrVfAAQJc5hL5qK6jhFaDGrdzNIDEwd0=",
+    "originContent": "mail - abineshmathivanan31@gmail.com ",
+    "translatedContent": "mail - abineshmathivanan31@gmail.com "
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "GzjyyLMH5cWdPv+h970/ddNIEAd2Y60oFWy2zrRChT4=",
+    "originContent": "blog - https://abinesh-mathivanan.vercel.app/en/posts/post-5/",
+    "translatedContent": "blog - https://abinesh-mathivanan.vercel.app/en/posts/post-5/"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "sjpRb25BtgqEzxv4Rpbly1x+xRe0ysPECGmYwgaEOiY=",
+    "originContent": "## features ",
+    "translatedContent": "## fonctionnalités "
+  },
+  {
+    "row": 11,
+    "rowsha": "Pc4xj5PKs+pQptbjqsWqdyJOdvXvk1iNMeQM1KF7Dn0=",
+    "originContent": "- **dynamic computation graph**: tensors track their history, allowing for automatic gradient calculation during the backward pass.",
+    "translatedContent": "- **graphe de calcul dynamique** : les tenseurs suivent leur historique, permettant le calcul automatique des gradients lors de la rétropropagation."
+  },
+  {
+    "row": 12,
+    "rowsha": "0NdolSrbBpXaDrA8YF+U5+bqEeZqxhIoJ01WcWEwf2I=",
+    "originContent": "- extensible module system (nn.Layer, nn.Sequential): build complex model architectures with a flexible, Keras-like sequential API. ",
+    "translatedContent": "- système de modules extensible (nn.Layer, nn.Sequential) : construire des architectures de modèles complexes avec une API séquentielle flexible, similaire à Keras. "
+  },
+  {
+    "row": 13,
+    "rowsha": "4buDdSeV3OH4zlBfhjDwONgo7VZKzD5PksAkJAhZsSg=",
+    "originContent": "- layer and function library: includes Conv2D, Linear, MaxPooling2D, Flatten, ReLU, CrossEntropyLoss, and SGD",
+    "translatedContent": "- bibliothèque de couches et fonctions : inclut Conv2D, Linear, MaxPooling2D, Flatten, ReLU, CrossEntropyLoss et SGD"
+  },
+  {
+    "row": 14,
+    "rowsha": "kUZ5wQFfcwihRpLJctzyEno5kXuxlCpBJdZG+eeYSCo=",
+    "originContent": "- **real-time TUI dashboard**: live graphs for batch-wise loss and epoch-wise validation accuracy, monitoring of memory usage (Heap/Total Alloc), GC cycles, and active goroutines along with keras-like summary.",
+    "translatedContent": "- **tableau de bord TUI en temps réel** : graphiques en direct pour la perte par lot et la précision de validation par époque, suivi de l'utilisation mémoire (Heap/Total Alloc), cycles GC, et goroutines actives avec un résumé type keras."
+  },
+  {
+    "row": 15,
+    "rowsha": "iVzkzfhrjmvaYW7zo8Sd8sZ3rnKYM3i7ap+OuXWN8Bg=",
+    "originContent": "- optimized performance: using BLAS, go-routines and topological autograd + grad accumulation",
+    "translatedContent": "- performances optimisées : utilisation de BLAS, go-routines et autograd topologique + accumulation des gradients"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+    "originContent": "<br/>",
+    "translatedContent": "<br/>"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "X+io1py9gMLHN2B5FUAEfolvUSAKkClAoSrJ6dLxHf0=",
+    "originContent": "**TUI Dashboard**",
+    "translatedContent": "**Tableau de bord TUI**"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "LvX64xj2VBO5urvvG0pWGUwrmE4QfH+QTmvMhr14yv0=",
+    "originContent": "![alt text](https://raw.githubusercontent.com/Abinesh-Mathivanan/go-torch/main/dashboard.png)",
+    "translatedContent": "![alt text](https://raw.githubusercontent.com/Abinesh-Mathivanan/go-torch/main/dashboard.png)"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "9BLUDKwF41c3H3chgITZX6+GIbUGQvr0NT8MtLsceMw=",
+    "originContent": "## TODO",
+    "translatedContent": "## À FAIRE"
+  },
+  {
+    "row": 27,
+    "rowsha": "xB3GdzhTgYZR3FUhbEGwbcU6FCPFCcsl6y3T7e8idPk=",
+    "originContent": "- [ ] add support for RNN, LSTM, Transformers",
+    "translatedContent": "- [ ] ajouter le support pour RNN, LSTM, Transformers"
+  },
+  {
+    "row": 28,
+    "rowsha": "hbfmlyTPSjNMgPI79cYhgqN/8fqv2EThHk4w8yAFEsg=",
+    "originContent": "- [ ] implement Adam with Ga-lore and LORA techniques, RMSProp etc...",
+    "translatedContent": "- [ ] implémenter Adam avec techniques Ga-lore et LORA, RMSProp etc..."
+  },
+  {
+    "row": 29,
+    "rowsha": "6CUiUdhsggvVuQv2wsHyvp7krNzVwbtw6w5J5Ej/f+Q=",
+    "originContent": "- [ ] model.load() and model.save() without gob",
+    "translatedContent": "- [ ] model.load() et model.save() sans gob"
+  },
+  {
+    "row": 30,
+    "rowsha": "Ysz/3jbrg7pmTxIheAzaqod6JcGZmFVSwMRIDexCcc8=",
+    "originContent": "- [ ] support building Transformers",
+    "translatedContent": "- [ ] prise en charge de la construction de Transformers"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+    "originContent": "<br/>",
+    "translatedContent": "<br/>"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "8W/+Mpq1RnDgBhK8coqb/3tWfIJj0Q7ghv/cAlbwRhQ=",
+    "originContent": "## pre-requisites ",
+    "translatedContent": "## prérequis "
+  },
+  {
+    "row": 35,
+    "rowsha": "PQCerf2fHwpyy+mTICobJn4yljJSVgkjXjqOa9y/ZAg=",
+    "originContent": "- Go 1.18 or later.",
+    "translatedContent": "- Go 1.18 ou version ultérieure."
+  },
+  {
+    "row": 36,
+    "rowsha": "BBvZ0hHYVttj7sGz0vuOtsgYhgKWJySFBL1GVOvef/4=",
+    "originContent": "- system-installed BLAS library is recommended for maximum performance but not required.",
+    "translatedContent": "- une bibliothèque BLAS installée sur le système est recommandée pour des performances maximales mais pas obligatoire."
+  },
+  {
+    "row": 37,
+    "rowsha": "ghGL4V3AHgguMgCtiBW0tR45goP+lwh7xHUssATXVBY=",
+    "originContent": "- some todo's are written inside the files. use 'better comments' extension for best experience. ",
+    "translatedContent": "- quelques tâches à faire sont écrites dans les fichiers. utilisez l'extension 'better comments' pour une meilleure expérience. "
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "2rsZ7qzBqCZkVdavEUav8jPXiPncgk9RRdPOExXG04Y=",
+    "originContent": "<br/>",
+    "translatedContent": "<br/>"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "SlD2UC7/YjEJMpragkVJ3sB5XYSPHDuUgOvMevxVtMA=",
+    "originContent": "## usage ",
+    "translatedContent": "## utilisation "
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "rtfnEeOuvUEI1oMIxqiB81R7RoBPyjKMwkhXL9lwusI=",
+    "originContent": "### clone the repository",
+    "translatedContent": "### cloner le dépôt"
+  },
+  {
+    "row": 44,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 45,
+    "rowsha": "2YYjwbDUtIUunHHiC8kvQVJ+EX7nvqk6pQdGH04WdAw=",
+    "originContent": "git clone https://github.com/abinesh-mathivanan/go-torch.git",
+    "translatedContent": "git clone https://github.com/abinesh-mathivanan/go-torch.git"
+  },
+  {
+    "row": 46,
+    "rowsha": "W+JCrxfMzZjVbhy1Qj8UKpw7IykVgQLcbq+ntfIkIKA=",
+    "originContent": "cd go-torch",
+    "translatedContent": "cd go-torch"
+  },
+  {
+    "row": 47,
+    "rowsha": "6l+f1PdAzkOkp8zjbFbdg+1TVGfcHDKpp/EmFpFzj+4=",
+    "originContent": "``` ",
+    "translatedContent": "``` "
+  },
+  {
+    "row": 48,
+    "rowsha": "cNx9Uyoyn7GOlCmgYZZoyhI4Lg+F9mLE1ScNpTAbGjI=",
+    "originContent": "### install dependencies ",
+    "translatedContent": "### installer les dépendances"
+  },
+  {
+    "row": 49,
+    "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+    "originContent": "``` bash",
+    "translatedContent": "``` bash"
+  },
+  {
+    "row": 50,
+    "rowsha": "WuvfdEbrypnxPKK0VYgNXVUjOi2DSYzwl5ItoCgosC8=",
+    "originContent": "go mod tidy",
+    "translatedContent": "go mod tidy"
+  },
+  {
+    "row": 51,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "qsszdcJHCtGF595cBg/RPVOfTb87LEywxaT5yDKxmLE=",
+    "originContent": "### execute ",
+    "translatedContent": "### exécuter "
+  },
+  {
+    "row": 54,
+    "rowsha": "yD3RuqT8MpAl2DpEAakGivX86CPsNYqHywKM0hLnuF4=",
+    "originContent": "run the mnist training file to test out the features. ",
+    "translatedContent": "exécutez le fichier d'entraînement mnist pour tester les fonctionnalités. "
+  },
+  {
+    "row": 55,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 56,
+    "rowsha": "CuGkDlLoGzQAU2RZVpjxOky+MnJjE7i1saaWGQqE5pU=",
+    "originContent": "go run ./cnn_benchmark/go_bench.go",
+    "translatedContent": "go run ./cnn_benchmark/go_bench.go"
+  },
+  {
+    "row": 57,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 58,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "Ef0UsiyD6h8Bsal0VWE7OxxQZOlWCfTesTDl7PDsG1Y=",
+    "originContent": "## Benchmark",
+    "translatedContent": "## Benchmark"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "uBmRKvDr6rYgevh/JML7euEgAj8DuQz55ML27Mb8DBA=",
+    "originContent": "| Benchmark Detail                          | 128x128      | 512x512     | 1024x1024    |",
+    "translatedContent": "| Détail du Benchmark                      | 128x128      | 512x512     | 1024x1024    |"
+  },
+  {
+    "row": 64,
+    "rowsha": "uq+EXfYBSSSS3ueUGGwXDkHCUQMzzZiklzutZ+vh9xI=",
+    "originContent": "|:------------------------------------------|:-------------|:------------|:-------------|",
+    "translatedContent": "|:------------------------------------------|:-------------|:------------|:-------------|"
+  },
+  {
+    "row": 65,
+    "rowsha": "Uyio/ZN7XkkdYJSXYdqWGDKdGJyWeOlX10hQZ9wi5/c=",
+    "originContent": "| **Matrix Multiply**                       | 510.33 µs    | 13.54 ms    | 130.50 ms    |",
+    "translatedContent": "| **Multiplication de Matrices**           | 510.33 µs    | 13.54 ms    | 130.50 ms    |"
+  },
+  {
+    "row": 66,
+    "rowsha": "8MOX4sNEN9mG8EJqwl5bdO/GpsJ5TsfsXe9FH2/1YOc=",
+    "originContent": "| Element-wise Add                          | 71.72 µs     | 1.29 ms     | 4.13 ms      |",
+    "translatedContent": "| Addition Élément par Élément              | 71.72 µs     | 1.29 ms     | 4.13 ms      |"
+  },
+  {
+    "row": 67,
+    "rowsha": "twG/E2sxX8fLFc3JJwpLOCLkknWhAkkvjULfEEfC0aI=",
+    "originContent": "| Element-wise Mul                          | 47.83 µs     | 1.63 ms     | 3.91 ms      |",
+    "translatedContent": "| Multiplication Élément par Élément        | 47.83 µs     | 1.63 ms     | 3.91 ms      |"
+  },
+  {
+    "row": 68,
+    "rowsha": "rupknE7Vg7B7hPxbN8tJ3gDRXPj2ETb9d67GG1T0FsQ=",
+    "originContent": "| ReLU Activation                           | 121.18 µs    | 1.75 ms     | 6.45 ms      |",
+    "translatedContent": "| Activation ReLU                           | 121.18 µs    | 1.75 ms     | 6.45 ms      |"
+  },
+  {
+    "row": 69,
+    "rowsha": "qglJ2Q/d2RN3xzuTDTXiXR7QMjAM4to/6iIP0Gcm7bU=",
+    "originContent": "| **Linear Layer Forward (B32,I128,O10)**   | 71.93 µs     |             |              |",
+    "translatedContent": "| **Propagation Avant Couche Linéaire (B32,I128,O10)** | 71.93 µs     |             |              |"
+  },
+  {
+    "row": 70,
+    "rowsha": "yukBqpHUSn6HJD0/d9Qz+qD1js/pu3MpYRpe7Q+wEIo=",
+    "originContent": "| **CrossEntropyLoss (B32,C10)**            | 11.16 µs     |             |              |",
+    "translatedContent": "| **CrossEntropyLoss (B32,C10)**            | 11.16 µs     |             |              |"
+  },
+  {
+    "row": 71,
+    "rowsha": "f0bBEY8umRqetQq8A1hCWkiZc/aWpGrlfh1nzVZpZx8=",
+    "originContent": "| **Full Fwd-Bwd (Net:128-256-10, B32)**    | 4.02 ms      |             |              |",
+    "translatedContent": "| **Propagation Avant-Arrière Complète (Net:128-256-10, B32)** | 4.02 ms      |             |              |"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 75,
+    "rowsha": "Za7xrbqGcqX+eTLZ+fDcNcJDWJP2URKsrGKNLcF6C88=",
+    "originContent": "<br>",
+    "translatedContent": "<br>"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "5SyDBmmMQD1BOJEk54vMHKVxKLp6Q7YAhAHbRFmbEsA=",
+    "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=Abinesh-Mathivanan/go-torch&type=Date)](https://www.star-history.com/#Abinesh-Mathivanan/go-torch&Date)",
+    "translatedContent": "[![Graphique Historique des Étoiles](https://api.star-history.com/svg?repos=Abinesh-Mathivanan/go-torch&type=Date)](https://www.star-history.com/#Abinesh-Mathivanan/go-torch&Date)"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

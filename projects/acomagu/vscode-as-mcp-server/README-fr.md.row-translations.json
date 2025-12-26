@@ -1,0 +1,506 @@
+[
+  {
+    "row": 1,
+    "rowsha": "6+ySVNXFiXpLkgdUzzNuH70nmftpOMcOC8REB8FLtlY=",
+    "originContent": "# VSCode as MCP Server",
+    "translatedContent": "# VSCode en tant que serveur MCP"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "5ocKLqXfXLMT/Jt0ef3J4v3MrpyIz15bNvZfwOQfy3o=",
+    "originContent": "[Marketplace](https://marketplace.visualstudio.com/items?itemName=acomagu.vscode-as-mcp-server)",
+    "translatedContent": "[Marketplace](https://marketplace.visualstudio.com/items?itemName=acomagu.vscode-as-mcp-server)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "tQJRMOESiUliIwzBFT7ZA63JO35Cr38GWuo3kPK1BEQ=",
+    "originContent": "A VSCode extension that turns your VSCode into an MCP server, enabling advanced coding assistance from MCP clients like Claude Desktop.",
+    "translatedContent": "Une extension VSCode qui transforme votre VSCode en serveur MCP, permettant une assistance avancée à la programmation depuis des clients MCP comme Claude Desktop."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "khTPM/+Q4D8FMdf3qgrMDcjDejggkuMl1+JmWZMODFI=",
+    "originContent": "## Key Features",
+    "translatedContent": "## Fonctionnalités clés"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "CBTu3bdhxO3L/2Y03DMXhlajE4YJ/WChBh4fkZ7T3Xk=",
+    "originContent": "### Code Editing Support",
+    "translatedContent": "### Support d’édition de code"
+  },
+  {
+    "row": 10,
+    "rowsha": "/gHo/9M9/B4C274sXyv20OLm3Oi10aAhV6QNZAPKAy4=",
+    "originContent": "- Review proposed code changes from an LLM through diffs, allowing you to accept, reject, or provide feedback.",
+    "translatedContent": "- Passez en revue les modifications de code proposées par un LLM via des diff, vous permettant d’accepter, rejeter ou donner un retour."
+  },
+  {
+    "row": 11,
+    "rowsha": "oqTQcPSJC6y6eYhbXENZB2CDfAuFlsgFqcugNnWEN3k=",
+    "originContent": "- Real-time diagnostic messages (e.g., type errors) sent instantly to the LLM for immediate corrections.",
+    "translatedContent": "- Messages de diagnostic en temps réel (par ex. erreurs de type) envoyés instantanément au LLM pour corrections immédiates."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "YEp+zMngBn8c8gLtItZyl23W8zks8iN5otdWVZvdiO4=",
+    "originContent": "![Code editing diff](https://storage.googleapis.com/zenn-user-upload/778b7e9ad8c4-20250407.gif)",
+    "translatedContent": "![Diff d’édition de code](https://storage.googleapis.com/zenn-user-upload/778b7e9ad8c4-20250407.gif)"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "elWIWYwmTK+g+grAgOxq6cwK/Nf/f4vArtM63lQPUH4=",
+    "originContent": "### Terminal Operations",
+    "translatedContent": "### Opérations terminal"
+  },
+  {
+    "row": 16,
+    "rowsha": "xC0qzapM5Of5ZEE16t1ePs0CKjTK0cyTq5oq47O/FOE=",
+    "originContent": "- Execute commands within VSCode’s integrated terminal (supports background/foreground execution, and timeout settings).",
+    "translatedContent": "- Exécutez des commandes dans le terminal intégré de VSCode (prise en charge de l’exécution en arrière-plan/avant-plan, et paramètres de délai d’attente)."
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "Jmtn74oYj/cYxC97o72a39f8dYMn+DuLdV2VgGIi/vc=",
+    "originContent": "### Preview Tools",
+    "translatedContent": "### Outils de prévisualisation"
+  },
+  {
+    "row": 19,
+    "rowsha": "u/is1sK9hCJQblAZ1PKkTbJAAL6SuDrOz/JyOWSMJbE=",
+    "originContent": "- Preview URLs directly within VSCode’s built-in browser (e.g., automatically opens browser preview after starting a Vite server).",
+    "translatedContent": "- Prévisualisez des URLs directement dans le navigateur intégré de VSCode (par ex. ouverture automatique de la prévisualisation du navigateur après le démarrage d’un serveur Vite)."
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "1EGKwEXVFIIHISSA2DGo8PvfjGV/DdQkWluERj0XYi4=",
+    "originContent": "![Preview tool](https://storage.googleapis.com/zenn-user-upload/8968c9ad3920-20250407.gif)",
+    "translatedContent": "![Outil de prévisualisation](https://storage.googleapis.com/zenn-user-upload/8968c9ad3920-20250407.gif)"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "OuQaQD9uweFtv7tjlxQnFIsL4vfhqvX16NLEJMfwASo=",
+    "originContent": "### Multi-instance Switching",
+    "translatedContent": "### Changement multi-instance"
+  },
+  {
+    "row": 24,
+    "rowsha": "RQlBqgqMvcV8ns0c8kEkEQZGjatDE8YKEsZS43g7I/Y=",
+    "originContent": "- Easily switch the MCP server between multiple open VSCode windows.(Just by clicking the status bar item)",
+    "translatedContent": "- Changez facilement le serveur MCP entre plusieurs fenêtres VSCode ouvertes. (Juste en cliquant sur l’élément de la barre d’état)"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "PI6pAqtF/rcQ4kyW1AuiBdffpCgyaK90dXYwaqoXg9s=",
+    "originContent": "![Instance switching](https://storage.googleapis.com/zenn-user-upload/0a2bc2bee634-20250407.gif)",
+    "translatedContent": "![Changement d’instance](https://storage.googleapis.com/zenn-user-upload/0a2bc2bee634-20250407.gif)"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "KGXClT//kO0K4cJWXpcw91MNphSsMbQgk+3uZ0VK5/c=",
+    "originContent": "### Relay Functionality (Experimental)",
+    "translatedContent": "### Fonctionnalité de relais (expérimental)"
+  },
+  {
+    "row": 29,
+    "rowsha": "AnIgAV/4asP+5MVIWMizQoblKE9GHKAZObdoTI1Q8/I=",
+    "originContent": "- Relay and expose built-in MCP servers introduced in VSCode 1.99 externally.",
+    "translatedContent": "- Relais et exposition des serveurs MCP intégrés introduits dans VSCode 1.99 vers l’extérieur."
+  },
+  {
+    "row": 30,
+    "rowsha": "W9c8AieptusPGpy+p2Wjb61geQcHmw29qPQrc/p1qfk=",
+    "originContent": "- Allows external access to tools provided by other MCP extensions, such as GitHub Copilot.",
+    "translatedContent": "- Permet l’accès externe aux outils fournis par d’autres extensions MCP, comme GitHub Copilot."
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "eJSD6M/5eLHR88zmlDElEQLGCov4eh+Mo3dNkxIx/QI=",
+    "originContent": "## Available Built-in Tools",
+    "translatedContent": "## Outils intégrés disponibles"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "UA+/sblIIQGVuSJGwb9Ulr8FBRRGuoAAYj23LYFkd0o=",
+    "originContent": "- **execute_command**: Execute commands in VSCode’s integrated terminal",
+    "translatedContent": "- **execute_command** : Exécuter des commandes dans le terminal intégré de VSCode  "
+  },
+  {
+    "row": 35,
+    "rowsha": "PCLTM6QPyktBR8zJFawAIW70m/eFTTcr9POuEwOS7oY=",
+    "originContent": "- **code_checker**: Retrieve current diagnostics for your code",
+    "translatedContent": "- **code_checker** : Récupérer les diagnostics actuels de votre code  "
+  },
+  {
+    "row": 36,
+    "rowsha": "2hSsx7m+otvP0BOSlI06CRrWrVdsHTbbHK5s9akjeFk=",
+    "originContent": "- **focus_editor**: Focus specific locations within files",
+    "translatedContent": "- **focus_editor** : Focaliser des emplacements spécifiques dans les fichiers  "
+  },
+  {
+    "row": 37,
+    "rowsha": "OxTV9xzhGRL3Mxozzu5XTykt2fay9b3vPiNV+PMTlSQ=",
+    "originContent": "- **list_debug_sessions** / **start_debug_session** / **restart_debug_session** / **stop_debug_session**: Manage debug sessions",
+    "translatedContent": "- **list_debug_sessions** / **start_debug_session** / **restart_debug_session** / **stop_debug_session** : Gérer les sessions de débogage  "
+  },
+  {
+    "row": 38,
+    "rowsha": "cY73yTqsIPaliaLGkIeHuvcX46N9+Dty7+gEw2IGp5w=",
+    "originContent": "- **text_editor**: File operations (view, replace, create, insert, undo)",
+    "translatedContent": "- **text_editor** : Opérations sur les fichiers (visualiser, remplacer, créer, insérer, annuler)  "
+  },
+  {
+    "row": 39,
+    "rowsha": "jKkb+bP0yEwR2HsF52bI6j0MKHVAf6z+gsgyDuZVIZQ=",
+    "originContent": "- **list_directory**: List directory contents in a tree format",
+    "translatedContent": "- **list_directory** : Lister le contenu des répertoires sous forme d’arborescence  "
+  },
+  {
+    "row": 40,
+    "rowsha": "n8iHWSliceGS2TiBtOBdtbdaRX5MPoyB5bIpNT+bhzc=",
+    "originContent": "- **get_terminal_output**: Fetch output from a specified terminal",
+    "translatedContent": "- **get_terminal_output** : Récupérer la sortie d’un terminal spécifié  "
+  },
+  {
+    "row": 41,
+    "rowsha": "Z/r33aXi5kOvCrhDgdW9zxnC2rK3dohrGoLrAGkr77w=",
+    "originContent": "- **list_vscode_commands** / **execute_vscode_command**: List and execute arbitrary VSCode commands",
+    "translatedContent": "- **list_vscode_commands** / **execute_vscode_command** : Lister et exécuter des commandes VSCode arbitraires  "
+  },
+  {
+    "row": 42,
+    "rowsha": "KHUCbnIH+acMGmhbwqqNfBXYg263O3bdxfPTfTa7f7E=",
+    "originContent": "- **preview_url**: Open URLs within VSCode’s integrated browser",
+    "translatedContent": "- **preview_url** : Ouvrir des URL dans le navigateur intégré de VSCode  "
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "nMS7EdI01cNkKCn2C/q33hlqmRttjjoXlDQcP7m0C5c=",
+    "originContent": "## Installation & Setup",
+    "translatedContent": "## Installation & Configuration  "
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "XN3GveisaetPtXfNnZ+MFsT/m+UGi8W/Z9ri9y3dcrY=",
+    "originContent": "1. Install the extension from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=acomagu.vscode-as-mcp-server).",
+    "translatedContent": "1. Installez l’extension depuis le [Marketplace VSCode](https://marketplace.visualstudio.com/items?itemName=acomagu.vscode-as-mcp-server).  "
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "qdxdpylxZXiCeN883y7nJeT8RWy/wxoVkh+dS5u0IdQ=",
+    "originContent": "2. Configure your MCP client:",
+    "translatedContent": "2. Configurez votre client MCP :  "
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "iObcwm/bAgkFuJNjImclDhog24DZYFgYLFZEMXr69E4=",
+    "originContent": "    - **Using mcp-installer**: You can simply instruct it to \"install the vscode-as-mcp-server MCP server\".",
+    "translatedContent": "    - **Avec mcp-installer** : Vous pouvez simplement lui demander d’\"installer le serveur MCP vscode-as-mcp-server\".  "
+  },
+  {
+    "row": 51,
+    "rowsha": "ofXNp+OGsZrV9EOz1wfBf9axxRf5DzDretsRPo/TidA=",
+    "originContent": "    - **Other clients like Claude Desktop**: Add the following to your configuration file (`claude_desktop_config.json`):",
+    "translatedContent": "    - **Autres clients comme Claude Desktop** : Ajoutez ce qui suit à votre fichier de configuration (`claude_desktop_config.json`) :"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "vtR5z08Pn5WvlbKK7N66UejjbVE7Ua9pVfsrJo/8nws=",
+    "originContent": "    ```json",
+    "translatedContent": "    ```json"
+  },
+  {
+    "row": 54,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 55,
+    "rowsha": "rcono4MXYmUjQPS75d9dZ356HM+EwBqvFPXBu+7iY/k=",
+    "originContent": "      \"mcpServers\": {",
+    "translatedContent": "      \"mcpServers\": {"
+  },
+  {
+    "row": 56,
+    "rowsha": "PecFAzpxoB8cRovVqlc9Ed41Nk6Rabjayapg91j/u3s=",
+    "originContent": "        \"vscode\": {",
+    "translatedContent": "        \"vscode\": {"
+  },
+  {
+    "row": 57,
+    "rowsha": "TsYzoI/3lwOQNkUhVxbAsPbuq/XrhGK0t67da9JI2mY=",
+    "originContent": "          \"command\": \"npx\",",
+    "translatedContent": "          \"command\": \"npx\","
+  },
+  {
+    "row": 58,
+    "rowsha": "vmF2RsUAldKW1j3qi3j1T5658ixiwr4VBDw0yNFsT6c=",
+    "originContent": "          \"args\": [\"vscode-as-mcp-server\"]",
+    "translatedContent": "          \"args\": [\"vscode-as-mcp-server\"]"
+  },
+  {
+    "row": 59,
+    "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+    "originContent": "        }",
+    "translatedContent": "        }"
+  },
+  {
+    "row": 60,
+    "rowsha": "9h9bvDef00n/1IR0b5Hc0TLEuwsKkZyn7JRgS/nKJDU=",
+    "originContent": "      }",
+    "translatedContent": "      }"
+  },
+  {
+    "row": 61,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 62,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. Vérifiez le statut du serveur MCP dans la barre d'état en bas à droite de VSCode :"
+  },
+  {
+    "row": 64,
+    "rowsha": "H7HIPNw/0KZQsmStzXBPZcSc9SYZbz/ZbG1Wzkbh0iM=",
+    "originContent": "3. Check the MCP server status in the bottom-right VSCode status bar:",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "    - (Icône serveur) : Le serveur fonctionne"
+  },
+  {
+    "row": 66,
+    "rowsha": "cGxftf5M1ydaRZCOC6aHf2NTr6e96HYyk1Jxr08PQfk=",
+    "originContent": "    - (Server icon): Server is running",
+    "translatedContent": "    - ∅ : Cliquez pour démarrer le serveur"
+  },
+  {
+    "row": 67,
+    "rowsha": "XdBQoQLCXX6pjdMy1NQQ+vEy1Kz4WxlE88nwdx96PeU=",
+    "originContent": "    - ∅: Click to start the server",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Indicateur de statut du serveur](https://storage.googleapis.com/zenn-user-upload/321704116d4a-20250408.png)"
+  },
+  {
+    "row": 69,
+    "rowsha": "5dBXFqF5NjRB4xsz5l7zSaeIMYqU0LXulz4sUvHZ5m0=",
+    "originContent": "![Server status indicator](https://storage.googleapis.com/zenn-user-upload/321704116d4a-20250408.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Motivation"
+  },
+  {
+    "row": 71,
+    "rowsha": "XkjmO8GZw+NPlqtsKIz94hXoCCSSximfmFKrLHYsZ2I=",
+    "originContent": "## Motivation",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Cette extension a été développée pour atténuer les coûts élevés associés aux outils de codage mesurés (comme Roo Code et Cursor). C'est une alternative abordable et auto-hébergée intégrée directement dans VSCode."
+  },
+  {
+    "row": 73,
+    "rowsha": "vwCTnbW+YJAvaOLFvNipwj8KMGmeFsj8j7/gs/TmnZ8=",
+    "originContent": "This extension was developed to mitigate high costs associated with metered coding tools (like Roo Code and Cursor). It's an affordable, self-hosted alternative built directly into VSCode.",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Les rapports de bugs et les retours sont les bienvenus ! 🙇"
+  },
+  {
+    "row": 75,
+    "rowsha": "0l7hQHAqJLr+XF7C4Er51TMjrMA/zBAQV2D+sJ9USUA=",
+    "originContent": "Bug reports and feedback are very welcome! 🙇",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Feuille de route future"
+  },
+  {
+    "row": 77,
+    "rowsha": "kGzTyAIH+MJX49irqL7WLdQunrldYkfdoAOLntMTE6Y=",
+    "originContent": "## Future Roadmap",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Possibilité de sélectionner les serveurs MCP intégrés à exposer"
+  },
+  {
+    "row": 79,
+    "rowsha": "i8r0XPv+egrS8JDw0+ZQY7kF+gJ2dEGiEUjMT8YQgnM=",
+    "originContent": "- Ability to select which built-in MCP servers to expose",
+    "translatedContent": "- Interface d'approbation basée sur WebView (similaire à Roo Code)"
+  },
+  {
+    "row": 80,
+    "rowsha": "jnZaGE4vjDmRmapZOIIQjFklMgKaqXjk1q3ubod84gU=",
+    "originContent": "- WebView-based approval UI (similar to Roo Code)",
+    "translatedContent": "- Intégration avec l'historique des fichiers de VSCode (Timeline)"
+  },
+  {
+    "row": 81,
+    "rowsha": "qcwhxPtv5dSB32X4eUuh0PxMxGBCMvc687AVDpffPrg=",
+    "originContent": "- Integration with VSCode's file history (Timeline)",
+    "translatedContent": "- Activation/désactivation instantanée des auto-approbations et des outils"
+  },
+  {
+    "row": 82,
+    "rowsha": "eRQpTDESkxHTEgkME8itNCYq6I4sE8UIRUoFvg5Cs+Y=",
+    "originContent": "- Instant toggling of auto-approvals and tool activation/deactivation",
+    "translatedContent": "- Configuration personnalisable du port du serveur"
+  },
+  {
+    "row": 83,
+    "rowsha": "gEvVRCFMwPkunifx9GA5+jkpLqaDEaNDe5uRiEdUHMo=",
+    "originContent": "- Customizable server port configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
