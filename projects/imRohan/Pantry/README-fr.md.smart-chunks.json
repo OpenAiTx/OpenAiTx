@@ -1,0 +1,231 @@
+[
+  {
+    "Id": 1,
+    "Content": "![preview](https://github.com/user-attachments/assets/e6762b5a-479a-4261-8e5c-e6b5d04344c5)\n# Pantry\n[![build](https://github.com/imRohan/Pantry/actions/workflows/continuous_integration.yml/badge.svg)](https://github.com/imRohan/Pantry/actions/workflows/continuous_integration.yml)\n![Maintainability](https://api.codeclimate.com/v1/badges/8f1460270ced1f60744c/maintainability)\n![Issues Open](https://img.shields.io/github/issues/imrohan/Pantry?&logo=github)\n![Issues Closed](https://img.shields.io/github/issues-closed-raw/imrohan/pantry?color=green&logo=github)\n[![Coverage Status](https://coveralls.io/repos/github/imRohan/Pantry/badge.svg?branch=master)](https://coveralls.io/github/imRohan/Pantry?branch=master)\n\n[Pantry](https://getpantry.cloud/) is a free service that provides perishable data storage for small projects. Data is securely stored for as long as you and your users need it and is deleted after a period of inactivity. Simply use the restful API to post JSON objects and we'll take care of the rest.\n\nIt was built to provide a simple, re-usable storage solution for smaller sized projects. It was created by developers for developers, to be there when you need it and to help you rapidly prototype your next project.\n\n## Development\n\n#### Clone the repo\n`git clone https://github.com/imRohan/Pantry.git && cd Pantry`\n\n#### Install Dependencies\n`yarn`\n\n#### Install Redis\nYou will need to install Redis (v^6.2.0) on your machine and have server running\nusing it's default settings\n\n#### Create & Edit a `.env` and `config.ts`\n`cp env.sample .env`\n`cp src/app/config.dev.ts src/app/config.ts`\n\n#### Build frontend assets and run server (default port 3000)\n\n`yarn run dev`\n\n#### Open Example HTML page\n\nOpen `http://localhost:3000/` in the browser of your choice\n",
+    "ContentSha": "DbRXm/vbv8fG5RufOekDo9NcO4gsY/Y1WIcJp9d7wf4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![preview](https://github.com/user-attachments/assets/e6762b5a-479a-4261-8e5c-e6b5d04344c5)\n# Garde-manger\n[![build](https://github.com/imRohan/Pantry/actions/workflows/continuous_integration.yml/badge.svg)](https://github.com/imRohan/Pantry/actions/workflows/continuous_integration.yml)\n![Maintenabilité](https://api.codeclimate.com/v1/badges/8f1460270ced1f60744c/maintainability)\n![Problèmes ouverts](https://img.shields.io/github/issues/imrohan/Pantry?&logo=github)\n![Problèmes fermés](https://img.shields.io/github/issues-closed-raw/imrohan/pantry?color=green&logo=github)\n[![Couverture des tests](https://coveralls.io/repos/github/imRohan/Pantry/badge.svg?branch=master)](https://coveralls.io/github/imRohan/Pantry?branch=master)\n\n[Pantry](https://getpantry.cloud/) est un service gratuit qui fournit un stockage de données périssables pour les petits projets. Les données sont stockées en toute sécurité aussi longtemps que vous et vos utilisateurs en avez besoin et sont supprimées après une période d'inactivité. Utilisez simplement l'API RESTful pour poster des objets JSON et nous nous occupons du reste.\n\nIl a été conçu pour offrir une solution de stockage simple et réutilisable pour des projets de taille plus modeste. Il a été créé par des développeurs pour des développeurs, pour être là quand vous en avez besoin et pour vous aider à prototyper rapidement votre prochain projet.\n\n## Développement\n\n#### Cloner le dépôt\n`git clone https://github.com/imRohan/Pantry.git && cd Pantry`\n\n#### Installer les dépendances\n`yarn`\n\n#### Installer Redis\nVous devrez installer Redis (v^6.2.0) sur votre machine et avoir un serveur en fonctionnement\nen utilisant ses paramètres par défaut\n\n#### Créer et éditer un `.env` et `config.ts`\n`cp env.sample .env`\n`cp src/app/config.dev.ts src/app/config.ts`\n\n#### Compiler les assets frontend et lancer le serveur (port par défaut 3000)\n\n`yarn run dev`\n\n#### Ouvrir la page HTML d'exemple\n\nOuvrez `http://localhost:3000/` dans le navigateur de votre choix\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Im82/vpDgCSKzL88zCIanTQWVftHtp1HsEPyAWM+19A=",
+        "originContent": "![preview](https://github.com/user-attachments/assets/e6762b5a-479a-4261-8e5c-e6b5d04344c5)",
+        "translatedContent": "![preview](https://github.com/user-attachments/assets/e6762b5a-479a-4261-8e5c-e6b5d04344c5)"
+      },
+      {
+        "row": 2,
+        "rowsha": "hhRnpLNS6ml/lsJlP6ByYaJiJ5hOGU0FiJx8qhNR/J0=",
+        "originContent": "# Pantry",
+        "translatedContent": "# Garde-manger"
+      },
+      {
+        "row": 3,
+        "rowsha": "kmvaJ7kIEQKPIjcF+SRjsCgRKk5s0Wf+ugmkS1uIksA=",
+        "originContent": "[![build](https://github.com/imRohan/Pantry/actions/workflows/continuous_integration.yml/badge.svg)](https://github.com/imRohan/Pantry/actions/workflows/continuous_integration.yml)",
+        "translatedContent": "[![build](https://github.com/imRohan/Pantry/actions/workflows/continuous_integration.yml/badge.svg)](https://github.com/imRohan/Pantry/actions/workflows/continuous_integration.yml)"
+      },
+      {
+        "row": 4,
+        "rowsha": "FDf251TK8jFIiwKh6tYLa0F16HYDm3GyzJ28VskhcQw=",
+        "originContent": "![Maintainability](https://api.codeclimate.com/v1/badges/8f1460270ced1f60744c/maintainability)",
+        "translatedContent": "![Maintenabilité](https://api.codeclimate.com/v1/badges/8f1460270ced1f60744c/maintainability)"
+      },
+      {
+        "row": 5,
+        "rowsha": "hWnVv0XryiS+BT3LyX6kOIFx/5PYTwaPT7otbZsYEtc=",
+        "originContent": "![Issues Open](https://img.shields.io/github/issues/imrohan/Pantry?&logo=github)",
+        "translatedContent": "![Problèmes ouverts](https://img.shields.io/github/issues/imrohan/Pantry?&logo=github)"
+      },
+      {
+        "row": 6,
+        "rowsha": "cEUt7vF8YgIsn65xNa/pMXGHY9lFh1xPdv7JA0OnHwE=",
+        "originContent": "![Issues Closed](https://img.shields.io/github/issues-closed-raw/imrohan/pantry?color=green&logo=github)",
+        "translatedContent": "![Problèmes fermés](https://img.shields.io/github/issues-closed-raw/imrohan/pantry?color=green&logo=github)"
+      },
+      {
+        "row": 7,
+        "rowsha": "wBpfM60/Hw1rdtVaLU+GGJxn2kOQwC1mjeRuYYVUO/o=",
+        "originContent": "[![Coverage Status](https://coveralls.io/repos/github/imRohan/Pantry/badge.svg?branch=master)](https://coveralls.io/github/imRohan/Pantry?branch=master)",
+        "translatedContent": "[![Couverture des tests](https://coveralls.io/repos/github/imRohan/Pantry/badge.svg?branch=master)](https://coveralls.io/github/imRohan/Pantry?branch=master)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Pp/CVTocnhsITPYag3sXvr98IhSOXDWRvNoLE/V6pPg=",
+        "originContent": "[Pantry](https://getpantry.cloud/) is a free service that provides perishable data storage for small projects. Data is securely stored for as long as you and your users need it and is deleted after a period of inactivity. Simply use the restful API to post JSON objects and we'll take care of the rest.",
+        "translatedContent": "[Pantry](https://getpantry.cloud/) est un service gratuit qui fournit un stockage de données périssables pour les petits projets. Les données sont stockées en toute sécurité aussi longtemps que vous et vos utilisateurs en avez besoin et sont supprimées après une période d'inactivité. Utilisez simplement l'API RESTful pour poster des objets JSON et nous nous occupons du reste."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "1iJQI3zSehM7MaQC+4dCMyXtm1ZH1pFJJE+4BfzvEO8=",
+        "originContent": "It was built to provide a simple, re-usable storage solution for smaller sized projects. It was created by developers for developers, to be there when you need it and to help you rapidly prototype your next project.",
+        "translatedContent": "Il a été conçu pour offrir une solution de stockage simple et réutilisable pour des projets de taille plus modeste. Il a été créé par des développeurs pour des développeurs, pour être là quand vous en avez besoin et pour vous aider à prototyper rapidement votre prochain projet."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": "## Développement"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "tp5ibc1Y8n3H83Pt2oA94jhu0pu30/j53jygcdCSqV8=",
+        "originContent": "#### Clone the repo",
+        "translatedContent": "#### Cloner le dépôt"
+      },
+      {
+        "row": 16,
+        "rowsha": "Mp43HdpI1G41vwE9GfYGGD59oi/a5xfWqI9OSgKXQMI=",
+        "originContent": "`git clone https://github.com/imRohan/Pantry.git && cd Pantry`",
+        "translatedContent": "`git clone https://github.com/imRohan/Pantry.git && cd Pantry`"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "+aAvT175I8MnR8WQS+WJIlRlddPoaObMk/tvC4PkL9k=",
+        "originContent": "#### Install Dependencies",
+        "translatedContent": "#### Installer les dépendances"
+      },
+      {
+        "row": 19,
+        "rowsha": "raNa+SB3IaDBYBa01b637EJZowktFCiVdBGapSOi9ss=",
+        "originContent": "`yarn`",
+        "translatedContent": "`yarn`"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "0KCY0dNfzG0XUPV/ZnGv4DUMnH8+PJFTM8JHSXnGDLI=",
+        "originContent": "#### Install Redis",
+        "translatedContent": "#### Installer Redis"
+      },
+      {
+        "row": 22,
+        "rowsha": "+PnuAPTBsJYTonPFqssrR7zr9B356ZPD0fvh7VcTtjY=",
+        "originContent": "You will need to install Redis (v^6.2.0) on your machine and have server running",
+        "translatedContent": "Vous devrez installer Redis (v^6.2.0) sur votre machine et avoir un serveur en fonctionnement"
+      },
+      {
+        "row": 23,
+        "rowsha": "quyc0GlKJrp8bMuWeSepBdOtc8gnYGNNI2hEjolUPfE=",
+        "originContent": "using it's default settings",
+        "translatedContent": "en utilisant ses paramètres par défaut"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "INeKDWjMN1TQ/i5oZDfp7mGNS0bKc58tNGAmV915dK8=",
+        "originContent": "#### Create & Edit a `.env` and `config.ts`",
+        "translatedContent": "#### Créer et éditer un `.env` et `config.ts`"
+      },
+      {
+        "row": 26,
+        "rowsha": "hEGu6byPYY5V+Hkr+bh2dby4EmY5SElQO0WtyU0A2QU=",
+        "originContent": "`cp env.sample .env`",
+        "translatedContent": "`cp env.sample .env`"
+      },
+      {
+        "row": 27,
+        "rowsha": "QzQJsJ12qnU/FMGnEvJ3g0dE3E5zfCciH+MuMeBUF+0=",
+        "originContent": "`cp src/app/config.dev.ts src/app/config.ts`",
+        "translatedContent": "`cp src/app/config.dev.ts src/app/config.ts`"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "5ggSvVRQOF38zKFByvsab2gl9U5f88wgUqy6TfgpnSo=",
+        "originContent": "#### Build frontend assets and run server (default port 3000)",
+        "translatedContent": "#### Compiler les assets frontend et lancer le serveur (port par défaut 3000)"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "NwKuk7UNgmwLIYjFnfjZ2kJE4d1KGLKoJODq7bbfEJI=",
+        "originContent": "`yarn run dev`",
+        "translatedContent": "`yarn run dev`"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "0j9NTFB4iZ6eHQgRcFRdo5T3ZPFkcjn1epx0xdNxcr0=",
+        "originContent": "#### Open Example HTML page",
+        "translatedContent": "#### Ouvrir la page HTML d'exemple"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "hnEdhrTKlXvTJkmJf0fDVNKslbNld0Ltv7o1FT3CjaA=",
+        "originContent": "Open `http://localhost:3000/` in the browser of your choice",
+        "translatedContent": "Ouvrez `http://localhost:3000/` dans le navigateur de votre choix"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
