@@ -28,13 +28,14 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # index-tts-lora
 
 [Version chinoise](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [Version anglaise](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-Ce projet est basé sur [index-tts](https://github.com/index-tts/index-tts) de Bilibili, fournissant des solutions de **finetuning LoRA** pour des configurations **mono-locuteur et multi-locuteurs**. Il vise à améliorer la **prosodie et le naturel** dans la synthèse audio de locuteurs de haute qualité.
+Ce projet est basé sur [index-tts](https://github.com/index-tts/index-tts) de Bilibili, proposant des solutions de **fine-tuning LoRA** pour les configurations **mono-locuteur et multi-locuteurs**. Il vise à améliorer la **prosodie et le naturel** dans la synthèse audio de voix de haute qualité.
 
 ### Entraînement & Inférence
 
@@ -78,11 +79,11 @@ python train.py
 python indextts/infer.py
 ```
 
-### Résultats du fine-tuning
+### Résultats de l’ajustement fin
 
-Cette expérience utilise des **données audio chinoises** de *Kai Shu Tells Stories*, avec une durée totale de **\~30 minutes** et **270 extraits audio**.  
-Le jeu de données est divisé en **244 échantillons d'entraînement** et **26 échantillons de validation**.  
-Remarque : Les transcriptions ont été générées automatiquement via des modèles ASR et de ponctuation, sans correction manuelle, donc certaines erreurs sont attendues.
+Cette expérience utilise des **données audio chinoises** provenant de *Kai Shu Tells Stories*, d’une durée totale de **\~30 minutes** et **270 extraits audio**.
+Le jeu de données est divisé en **244 échantillons d’entraînement** et **26 échantillons de validation**.
+Remarque : Les transcriptions ont été générées automatiquement via des modèles de reconnaissance vocale et de ponctuation, sans correction manuelle, donc des erreurs sont à prévoir.
 
 Exemple d’échantillon d’entraînement, `他上了马车，来到了皇宫之中。` : [kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
 
@@ -97,11 +98,10 @@ Exemple d’échantillon d’entraînement, `他上了马车，来到了皇宫�
 | 那么Java里面中级还要学，M以及到外部前端的应用系统开发，要学到Java Script的数据库，要学做动态的网站。 | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
 | 这份 financial report 详细分析了公司在过去一个季度的 revenue performance 和 expenditure trends。 | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
 | 上山下山上一山，下一山，跑了三里三米三，登了一座大高山，山高海拔三百三。上了山，大声喊：我比山高三尺三。 | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
-| Un homme mince est allongé sur le bord de la rue avec sa chemise et une chaussure enlevées et des sacs à proximité. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
-| Au fur et à mesure des recherches, l’effet protecteur du fluorure contre la carie dentaire a été démontré. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
+| A thin man lies against the side of the street with his shirt and a shoe off and bags nearby. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
+| As research continued, the protective effect of fluoride against dental decay was demonstrated. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
 
 #### 2. Évaluation du modèle
-Pour les détails de l’ensemble d’évaluation, voir : [Benchmark 2025 des modèles TTS grand public : Quelle est la meilleure solution de synthèse vocale ?](https://mp.weixin.qq.com/s/5z_aRKQG3OIv7fnSdxegqQ)  
 <img width="1182" height="261" alt="image" src="https://github.com/user-attachments/assets/fb86938d-95d9-4b10-9588-2de1e43b51d1" />
 
 ### Remerciements
@@ -113,6 +113,6 @@ Pour les détails de l’ensemble d’évaluation, voir : [Benchmark 2025 des mo
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

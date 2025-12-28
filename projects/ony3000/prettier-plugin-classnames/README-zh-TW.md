@@ -31,12 +31,11 @@
 
 # prettier-plugin-classnames
 
-一個 Prettier 外掛，根據 `printWidth` 選項自動換行冗長的 class 名稱。
+一個 Prettier 外掛，可依據 `printWidth` 選項自動換行冗長的 class 名稱。
 
 ![此外掛的使用案例。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
 ## 安裝[^1]
-
 
 ```sh
 npm install -D prettier prettier-plugin-classnames
@@ -185,6 +184,6 @@ JSON 範例：
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

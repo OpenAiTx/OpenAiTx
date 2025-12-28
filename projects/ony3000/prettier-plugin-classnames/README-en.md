@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Language</summary>
@@ -32,7 +31,7 @@
 
 # prettier-plugin-classnames
 
-A Prettier plugin that wraps verbose class names according to the `printWidth` option.
+A Prettier plugin that wraps verbose class names based on the `printWidth` option.
 
 ![A use case for this plugin.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
@@ -185,6 +184,6 @@ JSON example:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

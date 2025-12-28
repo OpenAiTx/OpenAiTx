@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Język</summary>
@@ -32,9 +31,9 @@
 
 # prettier-plugin-classnames
 
-Wtyczka Prettier, która zawija długie nazwy klas na podstawie opcji `printWidth`.
+Wtyczka Prettier, która zawija zbyt długie nazwy klas na podstawie opcji `printWidth`.
 
-![Przykład użycia tej wtyczki.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
+![Przykładowe zastosowanie tej wtyczki.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
 ## Instalacja[^1]
 
@@ -185,6 +184,6 @@ Przykład JSON:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

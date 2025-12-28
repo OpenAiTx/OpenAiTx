@@ -1,0 +1,626 @@
+[
+  {
+    "row": 1,
+    "rowsha": "RrVbRZS1QS1tWXgOWxug2xsXsq4CNERw1eDN0CVjaVw=",
+    "originContent": "# <img src=\"https://brands.home-assistant.io/illuminance/icon.png\" alt=\"Sun2 Sensor\" width=\"50\" height=\"50\"/> Illuminance Sensor",
+    "translatedContent": "# <img src=\"https://brands.home-assistant.io/illuminance/icon.png\" alt=\"Sun2 Sensor\" width=\"50\" height=\"50\"/> 照度センサー"
+  },
+  {
+    "row": 2,
+    "rowsha": "rQzPRLais9W/dNfj6IyORXCJSUj8IKskLxrcbWEiHFg=",
+    "originContent": "Creates a `sensor` entity that estimates outdoor illuminance based on either sun elevation or time of day.",
+    "translatedContent": "太陽高度または時刻に基づいて屋外の照度を推定する `sensor` エンティティを作成します。"
+  },
+  {
+    "row": 3,
+    "rowsha": "z373em7efHc/jxnA8CoDNzWfKC6eamk0OjLeCCc3YvQ=",
+    "originContent": "In either case, the value can be further adjusted based on current weather conditions or cloud coverage obtained from another, existing entity.",
+    "translatedContent": "いずれの場合も、値は別の既存のエンティティから取得した現在の天候条件や雲量に基づいてさらに調整できます。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "aAEvKEj7ug/FMiABiE5LRipTZ14AzUWJxb4/MiHdJP0=",
+    "originContent": "## Modes of operation",
+    "translatedContent": "## 動作モード"
+  },
+  {
+    "row": 7,
+    "rowsha": "m5OUEA5K/5hZ/VtCqvDaiiOhuhiSHMjjYgVcO9+Pmgk=",
+    "originContent": "Three modes are available: normal, irradiance & simple.",
+    "translatedContent": "3つのモードが利用可能です：通常、放射照度、シンプル。"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "JgjlPXzWz2MwwkOq6aU+5YBx1+p0Ksr8oOrWvubv0pk=",
+    "originContent": "### Normal/Irradiance modes - Sun elevation",
+    "translatedContent": "### 通常/放射照度モード - 太陽高度"
+  },
+  {
+    "row": 10,
+    "rowsha": "kaaYnurHaoYHQqDJqk7FZyRO1tSV0BwMhAAUuEEiW+U=",
+    "originContent": "These modes use an algorithm from the US Naval Observatory[^1] for estimating sun illuminance or irradiance based on the sun's elevation (aka altitude.) The maximum illuminance value is about 150,000 lx, and the maximum irradiance value is about 1,250 Watts/M².",
+    "translatedContent": "これらのモードは、米国海軍天文台[^1] のアルゴリズムを使用して、太陽の高度（別名：仰角）に基づいて太陽の照度または放射照度を推定します。最大照度値は約150,000 lx、最大放射照度値は約1,250 ワット/㎡です。"
+  },
+  {
+    "row": 11,
+    "rowsha": "oHA2KICU7hH0zgHrOKb73cNxF/CHdnXtzKdqzRAu5tA=",
+    "originContent": "Below is an example of what the illuminance might look like over a three day period.",
+    "translatedContent": "以下は3日間の照度の例です。"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 14,
+    "rowsha": "c/XBtCj4ev2XXC71kAmPKuj8Aar462TbpwarKgHpeIY=",
+    "originContent": "  <img src=images/normal.png>",
+    "translatedContent": "  <img src=images/normal.png>"
+  },
+  {
+    "row": 15,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "dxdT7nuJDOJpg4LF0bu7UPgAl93VwVjXqrCfv9tOt6Q=",
+    "originContent": "[^1]: Janiczek, P. M., and DeYoung, J. A. _Computer Programs for Sun and Moon Illuminance With Contingent Tables and Diagrams_. Circular No. 171. Washington, D. C.: United States Naval Observatory, 1987 [Google Scholar](https://scholar.google.com/scholar_lookup?title=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams&author=P.%20M.%20Janiczek&author=J.%20A.%20Deyoung&publication_year=1987&book=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams)",
+    "translatedContent": "[^1]: Janiczek, P. M., and DeYoung, J. A. _Computer Programs for Sun and Moon Illuminance With Contingent Tables and Diagrams_. Circular No. 171. Washington, D. C.: United States Naval Observatory, 1987 [Google Scholar](https://scholar.google.com/scholar_lookup?title=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams&author=P.%20M.%20Janiczek&author=J.%20A.%20Deyoung&publication_year=1987&book=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams)"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "FNAuaHZu/SuXKIS8lpjMfAL51tPVAFYKRbrt1CZbxq4=",
+    "originContent": "### Simple mode - Time of day",
+    "translatedContent": "### シンプルモード - 時刻"
+  },
+  {
+    "row": 20,
+    "rowsha": "QSBdBWId1NSuR+rrPnSGpal6tzXva1xjPsa07Tn5RXE=",
+    "originContent": "At night the value is 10 lx. From a little before sunrise to a little after the value is ramped up to whatever the current conditions indicate. The same happens around sunset, except the value is ramped down. For historical reasons, the maximum value is 10,000 lx. Below is an example of what that might look like over a three day period.",
+    "translatedContent": "夜間の値は10 lxです。日の出前後の少しの間に、値は現在の条件に応じて上昇します。日の入り前後も同様ですが、値は減少します。歴史的な理由から、最大値は10,000 lxです。以下は3日間の例です。"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+    "originContent": "<p align=\"center\">",
+    "translatedContent": "<p align=\"center\">"
+  },
+  {
+    "row": 23,
+    "rowsha": "ZG9p1eaqlCetKnFgY5fmCb2rCkAVQoK1G6SYytTUh9Q=",
+    "originContent": "  <img src=images/simple.png>",
+    "translatedContent": "  <img src=images/simple.png>"
+  },
+  {
+    "row": 24,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "a7fPF7BIFyWVUWmaAAF22eVcxYIw+0BbmPc5GB30EV4=",
+    "originContent": "## Supported weather sources",
+    "translatedContent": "## 対応している天気情報ソース"
+  },
+  {
+    "row": 27,
+    "rowsha": "3Zsf3VNWGYRkuSGPyIuu7FLFyElA6h2lyxDmKZeFrQg=",
+    "originContent": "Any weather entity that uses the [standard list of conditions](https://www.home-assistant.io/integrations/weather/#condition-mapping), or that provides a cloud coverage percentage, should work with this integration.",
+    "translatedContent": "[標準の条件リスト](https://www.home-assistant.io/integrations/weather/#condition-mapping) を使用する、または雲量のパーセンテージを提供する任意の天気エンティティは、この統合で動作するはずです。"
+  },
+  {
+    "row": 28,
+    "rowsha": "z9pQoxjiM2AtTLisbEkpKqV2e/a4eOR9K8X4CQAdlD4=",
+    "originContent": "The following sources of weather data are known to be supported:",
+    "translatedContent": "以下の天気データソースが対応していることが確認されています："
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "+JqrWsI9o7RZs3JZaTkevML9HxmFBXbEr2mpbG6fU4M=",
+    "originContent": "Integration | Notes",
+    "translatedContent": "統合 | 備考"
+  },
+  {
+    "row": 31,
+    "rowsha": "/wwrGngr5dBlZNoQNxts52rymsT2OxwmAGwsZIV90/A=",
+    "originContent": "-|-",
+    "translatedContent": "-|-"
+  },
+  {
+    "row": 32,
+    "rowsha": "8K2Wj2GPMmnSPsVMXHe9KH/s3xcHjjhTKzEslYw2OUY=",
+    "originContent": "[AccuWeather](https://www.home-assistant.io/integrations/accuweather/) | `weather`",
+    "translatedContent": "[AccuWeather](https://www.home-assistant.io/integrations/accuweather/) | `weather`"
+  },
+  {
+    "row": 33,
+    "rowsha": "xLPwommN2dahzp1xIl7ab89ccDKSAu7yRWODFMwzZgs=",
+    "originContent": "[Buienradar](https://www.home-assistant.io/integrations/buienradar/) | `weather`",
+    "translatedContent": "[Buienradar](https://www.home-assistant.io/integrations/buienradar/) | `weather`"
+  },
+  {
+    "row": 34,
+    "rowsha": "96zc9R+uCOBppqRffbXrrCtGJxN/+nDV2rq4O+MMS+A=",
+    "originContent": "[ecobee](https://www.home-assistant.io/integrations/ecobee/) |",
+    "translatedContent": "[ecobee](https://www.home-assistant.io/integrations/ecobee/) |"
+  },
+  {
+    "row": 35,
+    "rowsha": "CFV6asqnYcmm6yMBm5KL4nuKXrDLEmeBWOVoiUwEKPE=",
+    "originContent": "[Meteorologisk institutt (Met.no)](https://www.home-assistant.io/integrations/met/) | `weather`",
+    "translatedContent": "[Meteorologisk institutt (Met.no)](https://www.home-assistant.io/integrations/met/) | `weather`"
+  },
+  {
+    "row": 36,
+    "rowsha": "H/WuB5bj9FOPH9KWpEIckB2eWPVDmh/luCna4on2D6o=",
+    "originContent": "[OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap/) | `weather`; cloud_coverage & condition `sensor`",
+    "translatedContent": "[OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap/) | `weather`; cloud_coverage と condition の `sensor`"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "EF+uaRdzXdOqY9Imz56SvocYiCin0FHC+1q8e/Wf92E=",
+    "originContent": "The integration software must first be installed as a custom component.",
+    "translatedContent": "統合ソフトウェアはまずカスタムコンポーネントとしてインストールする必要があります。"
+  },
+  {
+    "row": 41,
+    "rowsha": "ubcxuNUk7/FqXjRj5rgNFib9h/oN9IlXehCEZYtA/Ok=",
+    "originContent": "You can use HACS to manage the installation and provide update notifications.",
+    "translatedContent": "HACSを使用してインストールを管理し、更新通知を受け取ることができます。  "
+  },
+  {
+    "row": 42,
+    "rowsha": "G2z4WAWqDJbzruh9YGF49SweG1sJbsgUPucHfpxGLqc=",
+    "originContent": "Or you can manually install the software.",
+    "translatedContent": "または、ソフトウェアを手動でインストールすることも可能です。  "
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>  "
+  },
+  {
+    "row": 45,
+    "rowsha": "WJKxfl+Iaa/2s8v4e5XxWKlcaaNQ/PapAqOE4Xd27mw=",
+    "originContent": "<summary>With HACS</summary>",
+    "translatedContent": "<summary>HACSを使用する場合</summary>  "
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "nhVNgMhIppbhC1+IdWbzJxzp9iJl51XWapbwpkpddLg=",
+    "originContent": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)",
+    "translatedContent": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)  "
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "wxd2dpFfmUUjFJPIBfbNw3oSZ5Dib8Mu4uCVe6adIsI=",
+    "originContent": "1. Add this repo as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories/):",
+    "translatedContent": "1. このリポジトリを[カスタムリポジトリ](https://hacs.xyz/docs/faq/custom_repositories/)として追加します。  "
+  },
+  {
+    "row": 50,
+    "rowsha": "6TrmkhGxwPyW7ESo5BA5uBj4X1XaJjmCeOkgrt7wkPg=",
+    "originContent": "   It should then appear as a new integration. Click on it. If necessary, search for \"illuminance\".",
+    "translatedContent": "   そうすると新しい統合として表示されます。クリックしてください。必要に応じて「illuminance」で検索します。"
+  },
+  {
+    "row": 51,
+    "rowsha": "VkjgWMSz4XCv3N+AP7yiWod+oeiqeFd8OME/NfRKNgQ=",
+    "originContent": "   ```text",
+    "translatedContent": "   ```text"
+  },
+  {
+    "row": 52,
+    "rowsha": "hLNOVqSkfQSaz0ZQdeQM8C85bHuq7d1vnx92HIZQJGs=",
+    "originContent": "   https://github.com/pnbruckner/ha-illuminance",
+    "translatedContent": "   https://github.com/pnbruckner/ha-illuminance"
+  },
+  {
+    "row": 53,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 54,
+    "rowsha": "9oUH5JeLnI11VicUr7sXkUdYsx1HiEbK9kT/c7cRioU=",
+    "originContent": "   Or use this button:",
+    "translatedContent": "   またはこちらのボタンを使用してください："
+  },
+  {
+    "row": 55,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 56,
+    "rowsha": "1TkiFHKmHN78RMm6Jbb2nTgV1TdkrFPNfnhecTGKHsY=",
+    "originContent": "   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pnbruckner&repository=ha-illuminance&category=integration)",
+    "translatedContent": "   [![Home Assistant インスタンスを開き、Home Assistant Community Store 内のリポジトリを開きます。](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pnbruckner&repository=ha-illuminance&category=integration)"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "aUMOYE/d/bffpk/wXc+twIqcatYMq0d/j42MLkE01jY=",
+    "originContent": "1. Download the integration using the appropriate button.",
+    "translatedContent": "1. 適切なボタンを使用して統合をダウンロードしてください。"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+    "originContent": "<details>",
+    "translatedContent": "<details>"
+  },
+  {
+    "row": 63,
+    "rowsha": "AKdkW2bq2hJXgRKo3oR0X5rBxqkEUd+r8OxWWQ7JsUo=",
+    "originContent": "<summary>Manual Installation</summary>",
+    "translatedContent": "<summary>手動インストール</summary>"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "Y0YkYe4nEjqKcj2lYOk+s0Lc+E5mG2Sk7bSZ9pS3yxc=",
+    "originContent": "Place a copy of the files from [`custom_components/illuminance`](custom_components/illuminance)",
+    "translatedContent": "[`custom_components/illuminance`](custom_components/illuminance) からファイルのコピーを  "
+  },
+  {
+    "row": 66,
+    "rowsha": "EQmU7VNTstb0WIACvbedPW4rQTEsL1r+DE2gMTa4W1I=",
+    "originContent": "in `<config>/custom_components/illuminance`,",
+    "translatedContent": "`<config>/custom_components/illuminance` に配置してください。  "
+  },
+  {
+    "row": 67,
+    "rowsha": "G6WtKYv5J5vKm1HNEqu8FK/VuyHNCNevpC0UP2in+vk=",
+    "originContent": "where `<config>` is your Home Assistant configuration directory.",
+    "translatedContent": "ここで `<config>` はあなたの Home Assistant の設定ディレクトリです。"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "rQIxuNQO07LeNjCDyBNyJcl/kRmhHF1H8kklkKIBPEA=",
+    "originContent": ">__NOTE__: When downloading, make sure to use the `Raw` button from each file's page.",
+    "translatedContent": ">__注意__: ダウンロード時は、各ファイルのページの `Raw` ボタンを必ず使用してください。"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+    "originContent": "</details>",
+    "translatedContent": "</details>"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "FtiRQOfo2xQ0S0lYw/T3JQbrke//d7aTuHAHtNjj+FA=",
+    "originContent": "### Post Installation",
+    "translatedContent": "### インストール後"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "zJDgJCiC7qwf+90DSP0uwkfCDoIDyPPBzwERzmZkh1o=",
+    "originContent": "After it has been downloaded you will need to restart Home Assistant.",
+    "translatedContent": "ダウンロード後、Home Assistant を再起動する必要があります。"
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 77,
+    "rowsha": "+OwoI7vb47Kd86jA1KySU/eacOugsaIRnFsC8RSo7So=",
+    "originContent": "### Versions",
+    "translatedContent": "### バージョン"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "+p2i50nV0mO12df18fyzJ7rjxR9TtB32F1/JtJJ+cbo=",
+    "originContent": "This custom integration supports HomeAssistant versions 2024.8.3 or newer.",
+    "translatedContent": "このカスタム統合は HomeAssistant バージョン 2024.8.3 以降をサポートしています。"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "dSOarue8Yl8uzlWnXN9UcniN+Z6Flv9tSobhCgyrx1Y=",
+    "originContent": "## Services",
+    "translatedContent": "## サービス"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "cah97O1JAOVk5R5yL/mMzihyc+grdHyqtxXwVeZmDPQ=",
+    "originContent": "### `illuminance.reload`",
+    "translatedContent": "### `illuminance.reload`"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "s4OBuJnKTA9M8m3Xru1uwUB79W6nuBXrAve+aRinrdQ=",
+    "originContent": "Reloads Illuminance from the YAML-configuration. Also adds `ILLUMINANCE` to the Developers Tools -> YAML page.",
+    "translatedContent": "YAML 設定から Illuminance をリロードします。また、開発者ツール -> YAML ページに `ILLUMINANCE` を追加します。"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "Dok4hjrWRiAv7IbpZN95EeQiam4CSco29ZrMzikBB0Y=",
+    "originContent": "## Configuration variables",
+    "translatedContent": "## 設定変数"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "3E4IHgJ9WS+VRaJxFo+OfKm+vcVSqC2M8szIpwUdbPw=",
+    "originContent": "A list of configuration options for one or more sensors. Each sensor is defined by the following options.",
+    "translatedContent": "1つ以上のセンサーの設定オプションのリストです。各センサーは以下のオプションで定義されます。"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "sOU8z7bePjQzMIhMeQmX9aswzM44DPFaIqo9PchmUh8=",
+    "originContent": "> Note: This defines configuration via YAML. However, the same sensors can be added in the UI.",
+    "translatedContent": "> 注意: これは YAML による設定を定義しますが、同じセンサーは UI からも追加可能です。"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "726Spl1abPCah3MNgSnrSvon5syY0t0XXH9upoZta+g=",
+    "originContent": "Key | Optional | Description",
+    "translatedContent": "キー | オプション | 説明"
+  },
+  {
+    "row": 94,
+    "rowsha": "bX9gPHxMhPSn5oe4UsQZpd9WqOmg60qkaXT6/CQbdzI=",
+    "originContent": "-|-|-",
+    "translatedContent": "-|-|-"
+  },
+  {
+    "row": 95,
+    "rowsha": "ZD9yXR0BVdBmGGuQP1R7JHIUsPDDAaHVuDF+4ZGoJ70=",
+    "originContent": "`unique_id` | no | Unique identifier for sensor. This allows any of the remaining options to be changed without looking like a new sensor. (Only required for YAML-based configuration.)",
+    "translatedContent": "`unique_id` | いいえ | センサーの一意識別子。これにより、他のオプションを変更しても新しいセンサーのように見えません。（YAMLベースの設定でのみ必要。）"
+  },
+  {
+    "row": 96,
+    "rowsha": "kcX6U2ihQzFp28J6DnejmFp8qQKq4ltjudWNzZ1KgPY=",
+    "originContent": "`entity_id` | yes | Entity ID of another entity that indicates current weather conditions or cloud coverage percentage",
+    "translatedContent": "`entity_id` | はい | 現在の天気条件または雲量のパーセンテージを示す別のエンティティのID"
+  },
+  {
+    "row": 97,
+    "rowsha": "fueHhKWB9/EtOTLRw4jh8cI6Iho/7fka7sHeBmhog64=",
+    "originContent": "`fallback` | yes | Illuminance divisor to use when weather data is not available. Must be in the range of 1 (clear) through 10 (dark.) Default is 10 if `entity_id` is used, or 1 if not.",
+    "translatedContent": "`fallback` | はい | 天気データが利用できない場合に使用する照度除数。範囲は1（晴れ）から10（暗い）まで。`entity_id`が使用されている場合のデフォルトは10、そうでない場合は1。"
+  },
+  {
+    "row": 98,
+    "rowsha": "GAWqE4nJFAwx/v4ChDqeN4scycl9tXB/9pXKID5+Mfc=",
+    "originContent": "`mode` | yes | Mode of operation. Choices are `normal` (default) which uses sun elevation, `simple` which uses time of day and `irradiance` which is the same as `normal`, except the value is expressed as irradiance in Watts/M².",
+    "translatedContent": "`mode` | はい | 動作モード。選択肢は、太陽の高度を使う`normal`（デフォルト）、時刻を使う`simple`、および値がワット毎平方メートルの放射照度で表される`irradiance`（`normal`と同じ）です。"
+  },
+  {
+    "row": 99,
+    "rowsha": "8+yPy8xkrmP4DctjmqdDBYj19Wm8FDSxs2kkIwOCJD0=",
+    "originContent": "`name` | yes | Name of the sensor. Default is `Illuminance`.",
+    "translatedContent": "`name` | はい | センサーの名前。デフォルトは`Illuminance`。"
+  },
+  {
+    "row": 100,
+    "rowsha": "vS2G5x1qeqhjGLPmmV1ryTAUf14QVI2c171XEIwX//U=",
+    "originContent": "`scan_interval` | yes | Update interval. Minimum is 30 seconds. Default is 5 minutes.",
+    "translatedContent": "`scan_interval` | はい | 更新間隔。最小は30秒。デフォルトは5分。"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "Arn1Pq05EF1hvLvqv2YNBbGNidUx0zhUsaF4xso1Ar8=",
+    "originContent": "## Releases Before 2.1.0",
+    "translatedContent": "## 2.1.0以前のリリース"
+  },
+  {
+    "row": 103,
+    "rowsha": "X80NMC3l2fREczSUDckpYbp7fIc+DGL+l+Ly3PDyTyc=",
+    "originContent": "See https://github.com/pnbruckner/homeassistant-config/blob/master/docs/illuminance.md.",
+    "translatedContent": "https://github.com/pnbruckner/homeassistant-config/blob/master/docs/illuminance.md を参照してください。"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

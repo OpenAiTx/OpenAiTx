@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 اللغة</summary>
@@ -32,7 +31,7 @@
 
 # prettier-plugin-classnames
 
-إضافة لبرنامج Prettier تقوم بتقسيم أسماء الصفوف الطويلة بناءً على خيار `printWidth`.
+إضافة لـ Prettier تقوم بتقسيم أسماء الصفوف الطويلة بناءً على خيار `printWidth`.
 
 ![حالة استخدام لهذه الإضافة.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
@@ -185,6 +184,6 @@ export default {
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

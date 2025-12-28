@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 언어</summary>
@@ -185,6 +184,6 @@ JSON 예시:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

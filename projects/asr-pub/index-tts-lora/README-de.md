@@ -4,41 +4,42 @@
     <summary >🌐 Sprache</summary>
     <div>
       <div align="center">
-        <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=en">English</a>
+        <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=en">Englisch</a>
         | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=zh-CN">简体中文</a>
         | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ja">Japanisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ko">Koreanisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=th">Thailändisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=fr">Französisch</a>
         | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=es">Spanisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=it">Italienisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ru">Russisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=pt">Portugiesisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=nl">Niederländisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=pl">Polnisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ar">Arabisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=fa">Persisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=tr">Türkisch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=vi">Vietnamesisch</a>
         | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=as">Assamesisch</
       </div>
     </div>
   </details>
+
 </div>
 
 # index-tts-lora
 
 [Chinesische Version](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [Englische Version](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-Dieses Projekt basiert auf Bilibilis [index-tts](https://github.com/index-tts/index-tts) und bietet **LoRA Fine-Tuning**-Lösungen sowohl für **Einzelsprecher- als auch Mehrsprecher-Setups**. Ziel ist es, die **Prosodie und Natürlichkeit** bei der hochwertigen Audio-Synthese von Sprechern zu verbessern.
+Dieses Projekt basiert auf Bilibilis [index-tts](https://github.com/index-tts/index-tts) und bietet **LoRA-Feinabstimmungslösungen** sowohl für **Einzelsprecher- als auch Mehrsprechersysteme**. Ziel ist es, die **Prosodie und Natürlichkeit** bei der hochwertigen Sprachsynthese zu verbessern.
 
 ### Training & Inferenz
 
-#### 1. Extraktion von Audiotoken und Sprecherbedingungen
+#### 1. Extraktion von Audio-Token und Sprecherbedingungen
 
 ```shell
 # Extract tokens and speaker conditions
@@ -78,30 +79,29 @@ python train.py
 python indextts/infer.py
 ```
 
-### Feinabstimmungsergebnisse
+### Feinabstimmungs-Ergebnisse
 
-Dieses Experiment verwendet **chinesische Audiodaten** aus *Kai Shu erzählt Geschichten*, mit einer Gesamtdauer von **\~30 Minuten** und **270 Audio-Clips**.
-Das Datenset ist unterteilt in **244 Trainingsbeispiele** und **26 Validierungsbeispiele**.
-Hinweis: Die Transkripte wurden automatisch mittels ASR und Interpunktionsmodellen erzeugt, ohne manuelle Korrektur, daher sind einige Fehler zu erwarten.
+Dieses Experiment verwendet **chinesische Audiodaten** aus *Kai Shu erzählt Geschichten*, mit einer Gesamtdauer von **\~30 Minuten** und **270 Audioclips**.
+Der Datensatz ist in **244 Trainingsbeispiele** und **26 Validierungsbeispiele** aufgeteilt.
+Hinweis: Die Transkripte wurden automatisch mittels ASR- und Interpunktionsmodellen erstellt, ohne manuelle Korrektur. Daher sind einige Fehler zu erwarten.
 
-Beispiel eines Trainingsdatensatzes, `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
+Beispiel für ein Trainingsbeispiel, `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
 
 
-#### 1. Beispiele für Sprachsynthese
+#### 1. Sprachsynthese-Beispiele
 
 
 | Text                                                         | Audio                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Die Uhr im alten Haus blieb um Mitternacht um drei Uhr stehen, im Staub tauchte eine Spur fremder Fußabdrücke auf. Der Detektiv hockte sich hin und fand im Spalt des Bodens einen blutigen Ring. | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
-| Im Mondlicht bekam der Kürbis plötzlich ein lachendes Gesicht, die Ranken wanden sich und öffneten das Gartentor. Das kleine Mädchen stellte sich auf die Zehenspitzen und hörte, wie die Pilze ein uraltes Wiegenlied summten. | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
-| Also muss man im mittleren Java-Bereich noch M lernen und bis zur Entwicklung von externen Frontend-Anwendungssystemen kommen, man muss Datenbanken für Java Script lernen und dynamische Webseiten erstellen können. | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
-| Dieser financial report analysiert ausführlich die revenue performance und expenditure trends des Unternehmens im letzten Quartal. | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
-| Den Berg hinauf, den Berg hinunter, einen Berg, den nächsten Berg, drei Li und drei Meter gelaufen, einen hohen Berg bestiegen, der Berg ist 330 Meter über dem Meeresspiegel. Auf dem Berg ruft man laut: Ich bin drei Chi drei höher als der Berg. | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
-| Ein dünner Mann liegt an der Straßenseite, sein Hemd und ein Schuh sind ausgezogen, Taschen liegen in der Nähe. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
-| Während die Forschung fortschritt, wurde die schützende Wirkung von Fluorid gegen Zahnkaries nachgewiesen. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
+| Die Standuhr im alten Haus blieb um Mitternacht um drei Uhr stehen, im Staub erschien eine Reihe fremder Fußspuren. Der Detektiv kniete sich nieder und fand einen blutigen Ring in den Ritzen des Bodens. | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
+| Im Mondlicht wuchs plötzlich ein lachendes Gesicht auf dem Kürbis, Ranken drängten das Gartentor auf. Das kleine Mädchen stellte sich auf die Zehenspitzen und hörte, wie Pilze ein altes Wiegenlied summten. | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
+| Also muss man im mittleren Java-Bereich noch lernen, M sowie die Entwicklung von externen Frontend-Anwendungssystemen, die Datenbank von Java Script und die Erstellung dynamischer Webseiten. | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
+| Dieser financial report analysiert detailliert die revenue performance und expenditure trends des Unternehmens im letzten Quartal. | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
+| Bergauf, bergab, einen Berg hinauf, den nächsten hinab, drei Li und drei Meter gelaufen, einen hohen Berg bestiegen, der Berg ist dreihundertdrei Meter hoch. Oben auf dem Berg rief ich laut: Ich bin drei Chi und drei größer als der Berg. | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
+| A thin man lies against the side of the street with his shirt and a shoe off and bags nearby. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
+| As research continued, the protective effect of fluoride against dental decay was demonstrated. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
 
-#### 2. Modellauswertung
-Details zum Evaluationsset finden Sie unter: [2025 Benchmark der Mainstream-TTS-Modelle: Wer ist die beste Lösung für Sprachsynthese?](https://mp.weixin.qq.com/s/5z_aRKQG3OIv7fnSdxegqQ)
+#### 2. Modellevaluierung
 <img width="1182" height="261" alt="image" src="https://github.com/user-attachments/assets/fb86938d-95d9-4b10-9588-2de1e43b51d1" />
 
 ### Danksagungen
@@ -113,6 +113,6 @@ Details zum Evaluationsset finden Sie unter: [2025 Benchmark der Mainstream-TTS-
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

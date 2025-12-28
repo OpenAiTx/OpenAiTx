@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 भाषा</summary>
@@ -32,11 +31,11 @@
 
 # prettier-plugin-classnames
 
-एक प्रीटियर प्लगइन जो कि विस्तृत क्लास नामों को `printWidth` विकल्प के आधार पर रैप करता है।
+एक Prettier प्लगइन जो `printWidth` विकल्प के आधार पर लंबे क्लास नामों को रैप करता है।
 
-![इस प्लगइन के लिए एक उपयोग केस।](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
+![इस प्लगइन के लिए एक उपयोग मामला।](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
-## इंस्टॉलेशन[^1]
+## इंस्टालेशन[^1]
 
 ```sh
 npm install -D prettier prettier-plugin-classnames
@@ -185,6 +184,6 @@ JSON उदाहरण:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

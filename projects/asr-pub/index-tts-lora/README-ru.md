@@ -28,17 +28,18 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # index-tts-lora
 
-[中文版本](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [Английская версия](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
+[中文版本](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [English Version](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-Этот проект основан на Bilibili [index-tts](https://github.com/index-tts/index-tts) и предоставляет решения для **тонкой настройки LoRA** для **одного и нескольких дикторов**. Он направлен на улучшение **просодии и естественности** при синтезе высококачественного аудио голоса.
+Этот проект основан на [index-tts](https://github.com/index-tts/index-tts) от Bilibili и предоставляет решения для **дообучения LoRA** для **одного и нескольких дикторов**. Цель — улучшить **просодию и естественность** синтеза аудио высокого качества для дикторов.
 
 ### Обучение и инференс
 
-#### 1. Извлечение аудиотокенов и условий диктора
+#### 1. Извлечение аудиотокенов и условий говорящего
 
 ```shell
 # Extract tokens and speaker conditions
@@ -80,28 +81,27 @@ python indextts/infer.py
 
 ### Результаты дообучения
 
-В этом эксперименте используется **китайская аудиодата** из *Кай Шу рассказывает истории*, с общей продолжительностью **\~30 минут** и **270 аудиофрагментов**.
-Датасет разделён на **244 обучающих образца** и **26 валидационных образцов**.
-Примечание: расшифровки были сгенерированы автоматически с помощью ASR и моделей пунктуации, без ручной корректировки, поэтому возможны ошибки.
+В этом эксперименте используется **китайский аудиодатасет** из *Кай Шу рассказывает истории*, общей продолжительностью **\~30 минут** и **270 аудиофрагментов**.
+Датасет разделён на **244 обучающих примера** и **26 валидационных примеров**.
+Примечание: Транскрипции были сгенерированы автоматически с помощью моделей ASR и пунктуации, без ручной корректировки, поэтому возможны ошибки.
 
-Пример обучающего образца, `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
+Пример обучающего примера, `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
 
 
 #### 1. Примеры синтеза речи
 
 
-| Текст                                                        | Аудио                                                        |
+| Текст                                                         | Аудио                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Часы в старом доме остановились на три часа ночи, в пыли проявилась цепочка незнакомых следов. Детектив присел и обнаружил в щели пола окровавленное кольцо. | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
-| Под лунным светом на тыкве вдруг появилась улыбка, плети изогнулись и распахнули садовую калитку. Девочка встала на цыпочки и услышала, как грибы напевают древнюю колыбельную. | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
-| Так в Java на среднем уровне ещё нужно учить, M и разработку внешних фронтенд-приложений, нужно изучить базу данных Java Script и научиться делать динамические сайты. | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
+| Часы в старом доме остановились на три часа ночи, в пыли проявились незнакомые следы. Детектив присел и обнаружил в щели пола окровавленное кольцо. | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
+| Под лунным светом у тыквы внезапно появляется улыбающееся лицо, плети двигаются и открывают садовую калитку. Девочка встает на цыпочки и слышит, как грибы напевают древнюю колыбельную. | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
+| Так вот, в Java средний уровень еще нужно изучать, а также приложения внешних фронтенд-систем, нужно учить базы данных Java Script, учиться делать динамические сайты. | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
 | Этот financial report подробно анализирует revenue performance и expenditure trends компании за прошлый квартал. | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
-| Вверх по горе, вниз по горе, одна гора, другая гора, пробежал три ли три ми три, взобрался на большую гору, высота горы триста три. Взобрался на гору и громко крикнул: я выше горы на три чи три. | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
+| Вверх по горе, вниз по горе, на одну гору, на другую гору, пробежал три ли три метра три, взобрался на большую высокую гору, высота горы триста три. На вершине горы громко крикнул: я выше горы на три чи три. | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
 | A thin man lies against the side of the street with his shirt and a shoe off and bags nearby. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
 | As research continued, the protective effect of fluoride against dental decay was demonstrated. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
 
 #### 2. Оценка модели
-Подробнее о наборе для оценки см.: [2025 Benchmark of Mainstream TTS Models: Who Is the Best Voice Synthesis Solution?](https://mp.weixin.qq.com/s/5z_aRKQG3OIv7fnSdxegqQ)
 <img width="1182" height="261" alt="image" src="https://github.com/user-attachments/assets/fb86938d-95d9-4b10-9588-2de1e43b51d1" />
 
 ### Благодарности
@@ -113,6 +113,6 @@ python indextts/infer.py
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

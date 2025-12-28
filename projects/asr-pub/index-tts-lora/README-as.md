@@ -9,36 +9,37 @@
         | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=hi">হিন্দী</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=th">থাই</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=fr">ফ্ৰান্সী</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=de">ডয়েচ</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=es">স্পেনিছ</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=it">ইটালিয়ান</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ru">ৰাছিয়ান</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=pt">পৰ্তুগীজ</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=nl">নেদাৰলেণ্ডছ</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=pl">প'লিচ</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ar">আৰবী</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=fa">ফাৰ্ছী</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=tr">টাৰ্কিছ</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=vi">ভিয়েটনামীজ</a>
-        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=id">ইণ্ডোনেচিয়ান</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=id">Bahasa Indonesia</a>
         | <a href="https://openaitx.github.io/view.html?user=asr-pub&project=index-tts-lora&lang=as">অসমীয়া</
       </div>
     </div>
   </details>
+
 </div>
 
 # index-tts-lora
 
-[中文 সংস্কৰণ](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [ইংৰাজী সংস্কৰণ](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
+[中文 সংস্কৰণ](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [English Version](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-এই প্ৰকল্পটো Bilibili ৰ [index-tts](https://github.com/index-tts/index-tts) ৰ আধাৰত নিৰ্মিত, যি **single-speaker আৰু multi-speaker** দুয়োটা বাবে **LoRA fine-tuning** সমাধান প্ৰদান কৰে। ইয়াৰ উদ্দেশ্য হৈছে উচ্চ-গুণগত মানৰ বক্তা শব্দ সংশ্লেষণত **প্ৰসডি আৰু প্ৰাকৃতিকতা** বৃদ্ধি কৰা।
+এই প্ৰকল্পটো Bilibili-ৰ [index-tts](https://github.com/index-tts/index-tts)-ৰ ওপৰত আধাৰিত, যি **LoRA fine-tuning**-ৰ সমাধান দুয়োটা **একক-প্ৰবক্তা আৰু বহু-প্ৰবক্তা** সংহতিসকলৰ বাবে প্ৰদান কৰে। ইয়াৰ উদ্দেশ্য হৈছে উচ্চ-গুণমানৰ প্ৰবক্তা অডিঅ' সংশ্লেষণত **ছন্দ আৰু প্ৰাকৃতিকতা** উন্নত কৰা।
 
-### প্রশিক্ষণ আৰু অনুমান
+### প্ৰশিক্ষণ আৰু অনুমান
 
-#### ১. অডিঅ' টোকেন আৰু বক্তাৰ অৱস্থা উলিওৱা
+#### ১. অডিঅ' ট'কেন আৰু বক্তাৰ অৱস্থা নিৰ্যাসণ
 
 ```shell
 # Extract tokens and speaker conditions
@@ -80,31 +81,30 @@ python indextts/infer.py
 
 ### ফাইন-টিউনিং ফলাফলসমূহ
 
-এই পৰীক্ষাত **চীনীয়া অডিঅ' ডাটা** ব্যৱহাৰ কৰা হৈছে *কাই শু গল্প কয়* ৰ পৰা, মুঠ সময়সীমা **\~৩০ মিনিট** আৰু **২৭০টা অডিঅ' ক্লিপ**।
-ডেটাসেটখন **২৪৪টা প্ৰশিক্ষণ নমুনা** আৰু **২৬টা ভেলিডেশ্যন নমুনা**ত বিভক্ত কৰা হৈছে।
-টোকা: ট্ৰান্স্ক্ৰিপ্টসমূহ ASR আৰু পাংচুৱেচন মডেলৰ জৰিয়তে স্বয়ংক্ৰিয়ভাৱে তৈয়াৰ কৰা হৈছে, হাতেদিয়ে সংশোধন কৰা হোৱা নাই, সেইবাবে কিছু ভুল থাকিব পাৰে।
+এই পৰীক্ষাত **চীনাৰ অডিঅ' ডেটা** ব্যৱহাৰ কৰা হৈছে *কাই শু কাহিনী কয়*ৰ পৰা, মুঠ দৈৰ্ঘ্য **\~৩০ মিনিট** আৰু **২৭০টা অডিঅ' ক্লিপ**।
+ডেটাসেটটো **২৪৪টা প্ৰশিক্ষণ নমুনা** আৰু **২৬টা মান্যতা নমুনা**ত বিভক্ত কৰা হৈছে।
+টোকা: প্ৰতিলিপিসমূহ ASR আৰু যতিচিহ্ন মডেলৰ জৰিয়তে স্বয়ংক্ৰিয়ভাৱে সৃষ্টি কৰা হৈছে, মানৱীয় সংশোধন অবিহনে, গতিকে কিছুমান ভুল আশা কৰিব পাৰি।
 
-উদাহৰণ স্বৰূপে প্ৰশিক্ষণ নমুনা, `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
-
-
-#### ১. বাক্য সংশ্লেষণ উদাহৰণসমূহ
+প্ৰশিক্ষণ নমুনাৰ উদাহৰণ, `তেওঁ গাড়ীত উঠি, ৰাজপ্ৰাসাদলৈ গ'ল।`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
 
 
-| পাঠ                                                         | অডিঅ'                                                        |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| পুৰণি ঘৰখনৰ ঘড়ী নিশা তিনি বজাত বন্ধ হৈ থাকিল, ধূলিত দেখা দিলে অজানা ভৰিৰ ছাঁ। গোয়েন্দাগৰাকীয়ে ভুমিত থুপ হৈ, মাটিৰ ফাঁকত ৰক্তৰে ভেজা আঙুঠি এটা পালে। | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
-| জোনাকৰ তলত, কুমৰা অকস্মাৎ হাঁহিৰ মুখ লৈ উঠিল, লতা-বেটা খুলি দিয়াৰ দৰে বাগিচাৰ বেড়াখন ঠেলি দিলে। সৰু ছোৱালীজনী ভৰিত ভৰি দি উঠি, মছৰুমবোৰে পুৰণি ললিপিঠা গীত গাইছে শুনিলে। | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
-| তেন্তে Java-ৰ ভিতৰত মধ্যম স্তৰৰ বিষয়ও শিকা লাগে, আৰু বাহিৰৰ frontend application system development, Java Script-ৰ database, dynamic website বনাবলৈ শিকা লাগে। | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
-| এই financial report-এ কোম্পানীটোৰ বিগত এটা quarter-ৰ revenue performance আৰু expenditure trends বিস্তারিতভাৱে বিশ্লেষণ কৰিছে। | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
-| পাহাৰলৈ উঠিল, পাহাৰৰ পৰা নামিল, এজন পাহাৰ, আনজন পাহাৰ, তিনি মাইল তিনি মিটাৰ দৌৰি, এটা ডাঙৰ পাহাৰত উঠিল, পাহাৰৰ উচ্চতা তিনিশ তিন। পাহাৰত উঠি, ডাঙৰকৈ কৈছে: মই পাহাৰৰ পৰা তিনিচুক উচ্চ। | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
+#### ১. বক্তৃতা সংশ্লেষণৰ উদাহৰণসমূহ
+
+
+| পাঠ্য                                                         | অডিঅ'                                                        |
+| ------------------------------------------------------------- | ------------------------------------------------------------- |
+| পুৰণি ঘৰটোৰ ঘড়ী নিশা তিনি বজাত ৰৈ গ'ল, ধূলিকণাত দেখা দিলে এগুচ্ছ অচিন পায়েৰে গছ। অনুসন্ধানকাৰীয়ে ভুঁইত বহি চালে, মেজৰ ফাঁকত ৰৈ থকা ৰক্তলগা আঙঠীটো উলিয়াই পালে। | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
+| জোনাকৰ পোহৰত, কুমড়াটোৱে হঠাৎ হাঁহি-মুখ ল'লে, লতা-পাতত ভৰ দি বাগিছাৰ বেড়া ঠেলি খুলিলে। সৰু ছোৱালীজনীয়ে ভৰিত উঠি, ছত্রাকৰ গীত গোৱা শুনিলে, পুৰণি ল'ৰাৰ লয়ত। | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
+| তেন্তে Java-ৰ ভিতৰত মধ্যমীয়া আৰু শিকিব লাগিব, M আৰু বাহিৰৰ ফ্ৰন্টএণ্ড এপ্লিকেশন ছিষ্টেম ডেভেলপমেণ্টলৈ, Java Script-ৰ ডাটাবেছ শিকিব লাগিব, ডাইনামিক ৱেবছাইটো বনাব শিকিব লাগিব। | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
+| এই financial report-টোৱে কোম্পানীটোৰ যোৱা তিনি মাহৰ revenue performance আৰু expenditure trends বিশদভাৱে বিশ্লেষণ কৰিছে। | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
+| পাহাৰলৈ উঠা নামা এটা পাহাৰ, আন এটা পাহাৰ, তিনিমাইল তিনিমিটাৰ দৌৰি, এখন ডাঙৰ পাহাৰ উলিয়াই উঠিল, পাহাৰটো উচ্চতা তিনি শত ত্ৰিশ। পাহাৰত উঠি, ডাঙৰকৈ ক'লে: মই পাহাৰৰ পৰা তিনি হাত ডাঙৰ। | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
 | A thin man lies against the side of the street with his shirt and a shoe off and bags nearby. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
 | As research continued, the protective effect of fluoride against dental decay was demonstrated. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
 
-#### ২. মডেল মূল্যায়ন
-মূল্যায়ন ছেটৰ বিৱৰণৰ বাবে চাওক: [২০২৫ মূলধাৰা TTS মডেলৰ বেঞ্চমাৰ্ক: কোনটো হৈছে আটাইতকৈ ভাল ভয়েছ সংশ্লেষণ সমাধান?](https://mp.weixin.qq.com/s/5z_aRKQG3OIv7fnSdxegqQ)
+#### ২. মডেল মূল্যায়ন
 <img width="1182" height="261" alt="image" src="https://github.com/user-attachments/assets/fb86938d-95d9-4b10-9588-2de1e43b51d1" />
 
-### স্বীকৃতি
+### কৃতজ্ঞতা
 
 [index-tts](https://github.com/index-tts/index-tts)
 
@@ -113,6 +113,6 @@ python indextts/infer.py
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

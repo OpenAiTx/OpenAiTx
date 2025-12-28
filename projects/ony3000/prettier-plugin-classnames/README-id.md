@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Bahasa</summary>
@@ -32,9 +31,9 @@
 
 # prettier-plugin-classnames
 
-Plugin Prettier yang membungkus nama kelas yang panjang berdasarkan opsi `printWidth`.
+Sebuah plugin Prettier yang membungkus nama kelas yang panjang berdasarkan opsi `printWidth`.
 
-![Sebuah contoh penggunaan plugin ini.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
+![Contoh penggunaan plugin ini.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
 ## Instalasi[^1]
 
@@ -185,6 +184,6 @@ Contoh JSON:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

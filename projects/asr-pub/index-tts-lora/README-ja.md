@@ -28,13 +28,14 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # index-tts-lora
 
 [中文版本](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [英語版](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-本プロジェクトはBilibiliの [index-tts](https://github.com/index-tts/index-tts) をベースにしており、**単一話者および複数話者**の両方に対応した**LoRAファインチューニング**ソリューションを提供します。高品質な話者音声合成において、**韻律や自然さ**を向上させることを目的としています。
+本プロジェクトはBilibiliの [index-tts](https://github.com/index-tts/index-tts) をベースにしており、**単一話者および多話者**の両方に対応した**LoRAファインチューニング**ソリューションを提供します。高品質な話者音声合成において**プロソディと自然さ**を強化することを目的としています。
 
 ### 学習と推論
 
@@ -77,30 +78,30 @@ python train.py
 ```shell
 python indextts/infer.py
 ```
+
 ### ファインチューニング結果
 
-本実験では、*開書物語*の**中国語音声データ**を使用し、合計**約30分**、**270音声クリップ**を用いました。  
-データセットは**244の訓練サンプル**と**26の検証サンプル**に分割されています。  
-注：文字起こしはASRと句読点モデルにより自動生成され、手動修正は行っていないため、一部誤りが含まれる可能性があります。
+本実験では*凯叔讲故事*の**中国語音声データ**を使用し、総収録時間は**約30分**、**270音声クリップ**です。
+データセットは**244件の訓練サンプル**と**26件の検証サンプル**に分割されています。
+注意：文字起こしはASRと句読点モデルで自動生成されており、手動で修正していないため、誤りが含まれている可能性があります。
 
-訓練サンプル例、`他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
+訓練サンプル例：`他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
 
 
 #### 1. 音声合成例
 
 
-| テキスト                                                        | 音声                                                          |
+| テキスト                                                         | 音声                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 老宅の時計は深夜3時で止まり、ほこりの中に見知らぬ足跡が浮かぶ。探偵はしゃがみ込み、床の隙間に血のついた指輪を見つけた。 | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
-| 月光の下、カボチャが突然笑顔を見せ、つるが動いて庭の柵を押し開けた。少女はつま先立ちで、キノコが古い子守唄を口ずさんでいるのを聞いた。 | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
-| それではJavaの中級も学び、Mや外部フロントエンドのアプリケーション開発、JavaScriptのデータベースや動的なウェブサイト作成も学ぶ必要がある。 | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
-| このfinancial reportは、過去四半期の会社のrevenue performanceとexpenditure trendsを詳細に分析している。 | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
-| 山を上り下りし、次の山へ、三里三米三走り、大きな高い山に登った。山の高さは海抜三百三。山に登り、大声で叫んだ：私は山より三尺三高い。 | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
-| シャツと靴の片方を脱いだ細身の男性が街角に寄りかかり、近くにバッグがある。 | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
-| 研究が続く中で、フッ素が虫歯に対する防護効果を持つことが示された。 | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
+| 老宅の時計は真夜中の三時で止まり、埃の中に見知らぬ足跡が浮かび上がる。探偵はしゃがみこみ、床の隙間に血のついた指輪が隠れているのを見つけた。 | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
+| 月明かりの下でカボチャは突然笑顔になり、蔓がねじれて庭の柵を押し開ける。少女は背伸びして、キノコが古い子守唄を口ずさむのを聞いた。 | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
+| それでJavaでは中級も学び、Mそして外部フロントエンドの応用システム開発、JavaScriptのデータベースも学び、動的なウェブサイトの作り方も学びます。 | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
+| この financial report は、過去四半期の会社の revenue performance と expenditure trends を詳細に分析しています。 | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
+| 山を登り下りして一つの山、次の山、三里三メートル三走って、高い大きな山に登り、標高三百三。山に上がって大声で叫ぶ：私は山より三尺三高い。 | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
+| A thin man lies against the side of the street with his shirt and a shoe off and bags nearby. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
+| As research continued, the protective effect of fluoride against dental decay was demonstrated. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
 
 #### 2. モデル評価
-評価セットの詳細については、こちらを参照してください：[2025年主流TTSモデルのベンチマーク：最良の音声合成ソリューションは？](https://mp.weixin.qq.com/s/5z_aRKQG3OIv7fnSdxegqQ)  
 <img width="1182" height="261" alt="image" src="https://github.com/user-attachments/assets/fb86938d-95d9-4b10-9588-2de1e43b51d1" />
 
 ### 謝辞
@@ -110,9 +111,8 @@ python indextts/infer.py
 [finetune-index-tts](https://github.com/yrom/finetune-index-tts)
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

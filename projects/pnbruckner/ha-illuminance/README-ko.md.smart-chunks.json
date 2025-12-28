@@ -1,0 +1,691 @@
+[
+  {
+    "Id": 1,
+    "Content": "# <img src=\"https://brands.home-assistant.io/illuminance/icon.png\" alt=\"Sun2 Sensor\" width=\"50\" height=\"50\"/> Illuminance Sensor\nCreates a `sensor` entity that estimates outdoor illuminance based on either sun elevation or time of day.\nIn either case, the value can be further adjusted based on current weather conditions or cloud coverage obtained from another, existing entity.\n\n\n## Modes of operation\nThree modes are available: normal, irradiance & simple.\n\n### Normal/Irradiance modes - Sun elevation\nThese modes use an algorithm from the US Naval Observatory[^1] for estimating sun illuminance or irradiance based on the sun's elevation (aka altitude.) The maximum illuminance value is about 150,000 lx, and the maximum irradiance value is about 1,250 Watts/M².\nBelow is an example of what the illuminance might look like over a three day period.\n\n<p align=\"center\">\n  <img src=images/normal.png>\n</p>\n\n[^1]: Janiczek, P. M., and DeYoung, J. A. _Computer Programs for Sun and Moon Illuminance With Contingent Tables and Diagrams_. Circular No. 171. Washington, D. C.: United States Naval Observatory, 1987 [Google Scholar](https://scholar.google.com/scholar_lookup?title=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams&author=P.%20M.%20Janiczek&author=J.%20A.%20Deyoung&publication_year=1987&book=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams)\n\n### Simple mode - Time of day\nAt night the value is 10 lx. From a little before sunrise to a little after the value is ramped up to whatever the current conditions indicate. The same happens around sunset, except the value is ramped down. For historical reasons, the maximum value is 10,000 lx. Below is an example of what that might look like over a three day period.\n\n<p align=\"center\">\n  <img src=images/simple.png>\n</p>\n\n## Supported weather sources\nAny weather entity that uses the [standard list of conditions](https://www.home-assistant.io/integrations/weather/#condition-mapping), or that provides a cloud coverage percentage, should work with this integration.\nThe following sources of weather data are known to be supported:\n\nIntegration | Notes\n-|-\n[AccuWeather](https://www.home-assistant.io/integrations/accuweather/) | `weather`\n[Buienradar](https://www.home-assistant.io/integrations/buienradar/) | `weather`\n[ecobee](https://www.home-assistant.io/integrations/ecobee/) |\n[Meteorologisk institutt (Met.no)](https://www.home-assistant.io/integrations/met/) | `weather`\n[OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap/) | `weather`; cloud_coverage & condition `sensor`\n\n## Installation\n\nThe integration software must first be installed as a custom component.",
+    "ContentSha": "+7Mc5Kd2QfTNg6Zkm+maRyE4Z4042n4uzck+YpBXFwk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# <img src=\"https://brands.home-assistant.io/illuminance/icon.png\" alt=\"Sun2 Sensor\" width=\"50\" height=\"50\"/> 조도 센서\n태양 고도 또는 시간대에 기반하여 야외 조도를 추정하는 `sensor` 엔티티를 생성합니다.  \n두 경우 모두, 값은 다른 기존 엔티티에서 얻은 현재 기상 조건 또는 구름 덮개를 기준으로 추가 조정할 수 있습니다.\n\n\n## 작동 모드\n세 가지 모드가 제공됩니다: 일반, 복사조도 및 단순 모드.\n\n### 일반/복사조도 모드 - 태양 고도\n이 모드는 미국 해군 천문대[^1]의 알고리즘을 사용하여 태양의 고도(고도각)에 따른 태양 조도 또는 복사조도를 추정합니다. 최대 조도 값은 약 150,000 lx이며, 최대 복사조도 값은 약 1,250 와트/㎡입니다.  \n아래는 3일간 조도 변화 예시입니다.\n\n<p align=\"center\">\n  <img src=images/normal.png>\n</p>\n\n[^1]: Janiczek, P. M., and DeYoung, J. A. _Computer Programs for Sun and Moon Illuminance With Contingent Tables and Diagrams_. Circular No. 171. Washington, D. C.: United States Naval Observatory, 1987 [Google Scholar](https://scholar.google.com/scholar_lookup?title=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams&author=P.%20M.%20Janiczek&author=J.%20A.%20Deyoung&publication_year=1987&book=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams)\n\n### 단순 모드 - 시간대\n야간에는 값이 10 lx입니다. 해뜨기 전후 조금 전부터 현재 조건에 따라 값이 점차 상승합니다. 해질 무렵에도 마찬가지로 값이 점차 하락합니다.  \n역사적 이유로 최대 값은 10,000 lx입니다. 아래는 3일간 변화 예시입니다.\n\n<p align=\"center\">\n  <img src=images/simple.png>\n</p>\n\n## 지원하는 기상 소스\n[표준 조건 목록](https://www.home-assistant.io/integrations/weather/#condition-mapping)을 사용하는 모든 기상 엔티티 또는 구름 덮개 백분율을 제공하는 엔티티는 이 통합과 작동해야 합니다.  \n다음은 지원되는 것으로 알려진 기상 데이터 소스입니다:\n\n통합 | 비고\n-|-\n[AccuWeather](https://www.home-assistant.io/integrations/accuweather/) | `weather`\n[Buienradar](https://www.home-assistant.io/integrations/buienradar/) | `weather`\n[ecobee](https://www.home-assistant.io/integrations/ecobee/) |\n[Meteorologisk institutt (Met.no)](https://www.home-assistant.io/integrations/met/) | `weather`\n[OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap/) | `weather`; cloud_coverage 및 condition `sensor`\n\n## 설치\n\n이 통합 소프트웨어는 먼저 커스텀 컴포넌트로 설치되어야 합니다.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RrVbRZS1QS1tWXgOWxug2xsXsq4CNERw1eDN0CVjaVw=",
+        "originContent": "# <img src=\"https://brands.home-assistant.io/illuminance/icon.png\" alt=\"Sun2 Sensor\" width=\"50\" height=\"50\"/> Illuminance Sensor",
+        "translatedContent": "# <img src=\"https://brands.home-assistant.io/illuminance/icon.png\" alt=\"Sun2 Sensor\" width=\"50\" height=\"50\"/> 조도 센서"
+      },
+      {
+        "row": 2,
+        "rowsha": "rQzPRLais9W/dNfj6IyORXCJSUj8IKskLxrcbWEiHFg=",
+        "originContent": "Creates a `sensor` entity that estimates outdoor illuminance based on either sun elevation or time of day.",
+        "translatedContent": "태양 고도 또는 시간대에 기반하여 야외 조도를 추정하는 `sensor` 엔티티를 생성합니다.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "z373em7efHc/jxnA8CoDNzWfKC6eamk0OjLeCCc3YvQ=",
+        "originContent": "In either case, the value can be further adjusted based on current weather conditions or cloud coverage obtained from another, existing entity.",
+        "translatedContent": "두 경우 모두, 값은 다른 기존 엔티티에서 얻은 현재 기상 조건 또는 구름 덮개를 기준으로 추가 조정할 수 있습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "aAEvKEj7ug/FMiABiE5LRipTZ14AzUWJxb4/MiHdJP0=",
+        "originContent": "## Modes of operation",
+        "translatedContent": "## 작동 모드"
+      },
+      {
+        "row": 7,
+        "rowsha": "m5OUEA5K/5hZ/VtCqvDaiiOhuhiSHMjjYgVcO9+Pmgk=",
+        "originContent": "Three modes are available: normal, irradiance & simple.",
+        "translatedContent": "세 가지 모드가 제공됩니다: 일반, 복사조도 및 단순 모드."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "JgjlPXzWz2MwwkOq6aU+5YBx1+p0Ksr8oOrWvubv0pk=",
+        "originContent": "### Normal/Irradiance modes - Sun elevation",
+        "translatedContent": "### 일반/복사조도 모드 - 태양 고도"
+      },
+      {
+        "row": 10,
+        "rowsha": "kaaYnurHaoYHQqDJqk7FZyRO1tSV0BwMhAAUuEEiW+U=",
+        "originContent": "These modes use an algorithm from the US Naval Observatory[^1] for estimating sun illuminance or irradiance based on the sun's elevation (aka altitude.) The maximum illuminance value is about 150,000 lx, and the maximum irradiance value is about 1,250 Watts/M².",
+        "translatedContent": "이 모드는 미국 해군 천문대[^1]의 알고리즘을 사용하여 태양의 고도(고도각)에 따른 태양 조도 또는 복사조도를 추정합니다. 최대 조도 값은 약 150,000 lx이며, 최대 복사조도 값은 약 1,250 와트/㎡입니다.  "
+      },
+      {
+        "row": 11,
+        "rowsha": "oHA2KICU7hH0zgHrOKb73cNxF/CHdnXtzKdqzRAu5tA=",
+        "originContent": "Below is an example of what the illuminance might look like over a three day period.",
+        "translatedContent": "아래는 3일간 조도 변화 예시입니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "c/XBtCj4ev2XXC71kAmPKuj8Aar462TbpwarKgHpeIY=",
+        "originContent": "  <img src=images/normal.png>",
+        "translatedContent": "  <img src=images/normal.png>"
+      },
+      {
+        "row": 15,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "dxdT7nuJDOJpg4LF0bu7UPgAl93VwVjXqrCfv9tOt6Q=",
+        "originContent": "[^1]: Janiczek, P. M., and DeYoung, J. A. _Computer Programs for Sun and Moon Illuminance With Contingent Tables and Diagrams_. Circular No. 171. Washington, D. C.: United States Naval Observatory, 1987 [Google Scholar](https://scholar.google.com/scholar_lookup?title=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams&author=P.%20M.%20Janiczek&author=J.%20A.%20Deyoung&publication_year=1987&book=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams)",
+        "translatedContent": "[^1]: Janiczek, P. M., and DeYoung, J. A. _Computer Programs for Sun and Moon Illuminance With Contingent Tables and Diagrams_. Circular No. 171. Washington, D. C.: United States Naval Observatory, 1987 [Google Scholar](https://scholar.google.com/scholar_lookup?title=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams&author=P.%20M.%20Janiczek&author=J.%20A.%20Deyoung&publication_year=1987&book=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "FNAuaHZu/SuXKIS8lpjMfAL51tPVAFYKRbrt1CZbxq4=",
+        "originContent": "### Simple mode - Time of day",
+        "translatedContent": "### 단순 모드 - 시간대"
+      },
+      {
+        "row": 20,
+        "rowsha": "QSBdBWId1NSuR+rrPnSGpal6tzXva1xjPsa07Tn5RXE=",
+        "originContent": "At night the value is 10 lx. From a little before sunrise to a little after the value is ramped up to whatever the current conditions indicate. The same happens around sunset, except the value is ramped down. For historical reasons, the maximum value is 10,000 lx. Below is an example of what that might look like over a three day period.",
+        "translatedContent": "야간에는 값이 10 lx입니다. 해뜨기 전후 조금 전부터 현재 조건에 따라 값이 점차 상승합니다. 해질 무렵에도 마찬가지로 값이 점차 하락합니다.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "역사적 이유로 최대 값은 10,000 lx입니다. 아래는 3일간 변화 예시입니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "ZG9p1eaqlCetKnFgY5fmCb2rCkAVQoK1G6SYytTUh9Q=",
+        "originContent": "  <img src=images/simple.png>",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 24,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "  <img src=images/simple.png>"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 26,
+        "rowsha": "a7fPF7BIFyWVUWmaAAF22eVcxYIw+0BbmPc5GB30EV4=",
+        "originContent": "## Supported weather sources",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "3Zsf3VNWGYRkuSGPyIuu7FLFyElA6h2lyxDmKZeFrQg=",
+        "originContent": "Any weather entity that uses the [standard list of conditions](https://www.home-assistant.io/integrations/weather/#condition-mapping), or that provides a cloud coverage percentage, should work with this integration.",
+        "translatedContent": "## 지원하는 기상 소스"
+      },
+      {
+        "row": 28,
+        "rowsha": "z9pQoxjiM2AtTLisbEkpKqV2e/a4eOR9K8X4CQAdlD4=",
+        "originContent": "The following sources of weather data are known to be supported:",
+        "translatedContent": "[표준 조건 목록](https://www.home-assistant.io/integrations/weather/#condition-mapping)을 사용하는 모든 기상 엔티티 또는 구름 덮개 백분율을 제공하는 엔티티는 이 통합과 작동해야 합니다.  "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "다음은 지원되는 것으로 알려진 기상 데이터 소스입니다:"
+      },
+      {
+        "row": 30,
+        "rowsha": "+JqrWsI9o7RZs3JZaTkevML9HxmFBXbEr2mpbG6fU4M=",
+        "originContent": "Integration | Notes",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "/wwrGngr5dBlZNoQNxts52rymsT2OxwmAGwsZIV90/A=",
+        "originContent": "-|-",
+        "translatedContent": "통합 | 비고"
+      },
+      {
+        "row": 32,
+        "rowsha": "8K2Wj2GPMmnSPsVMXHe9KH/s3xcHjjhTKzEslYw2OUY=",
+        "originContent": "[AccuWeather](https://www.home-assistant.io/integrations/accuweather/) | `weather`",
+        "translatedContent": "-|-"
+      },
+      {
+        "row": 33,
+        "rowsha": "xLPwommN2dahzp1xIl7ab89ccDKSAu7yRWODFMwzZgs=",
+        "originContent": "[Buienradar](https://www.home-assistant.io/integrations/buienradar/) | `weather`",
+        "translatedContent": "[AccuWeather](https://www.home-assistant.io/integrations/accuweather/) | `weather`"
+      },
+      {
+        "row": 34,
+        "rowsha": "96zc9R+uCOBppqRffbXrrCtGJxN/+nDV2rq4O+MMS+A=",
+        "originContent": "[ecobee](https://www.home-assistant.io/integrations/ecobee/) |",
+        "translatedContent": "[Buienradar](https://www.home-assistant.io/integrations/buienradar/) | `weather`"
+      },
+      {
+        "row": 35,
+        "rowsha": "CFV6asqnYcmm6yMBm5KL4nuKXrDLEmeBWOVoiUwEKPE=",
+        "originContent": "[Meteorologisk institutt (Met.no)](https://www.home-assistant.io/integrations/met/) | `weather`",
+        "translatedContent": "[ecobee](https://www.home-assistant.io/integrations/ecobee/) |"
+      },
+      {
+        "row": 36,
+        "rowsha": "H/WuB5bj9FOPH9KWpEIckB2eWPVDmh/luCna4on2D6o=",
+        "originContent": "[OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap/) | `weather`; cloud_coverage & condition `sensor`",
+        "translatedContent": "[Meteorologisk institutt (Met.no)](https://www.home-assistant.io/integrations/met/) | `weather`"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap/) | `weather`; cloud_coverage 및 condition `sensor`"
+      },
+      {
+        "row": 38,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 40,
+        "rowsha": "EF+uaRdzXdOqY9Imz56SvocYiCin0FHC+1q8e/Wf92E=",
+        "originContent": "The integration software must first be installed as a custom component.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "You can use HACS to manage the installation and provide update notifications.\nOr you can manually install the software.\n\n<details>\n<summary>With HACS</summary>\n\n[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)\n\n1. Add this repo as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories/):\n   It should then appear as a new integration. Click on it. If necessary, search for \"illuminance\".",
+    "ContentSha": "xUiB1G58EhOnKgpUeQ6TDm00/Nt0Qakr2vN3YQSuiIY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "HACS를 사용하여 설치를 관리하고 업데이트 알림을 받을 수 있습니다.\n또는 소프트웨어를 수동으로 설치할 수 있습니다.\n\n<details>\n<summary>HACS 사용 시</summary>\n\n[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)\n\n1. 이 저장소를 [커스텀 저장소](https://hacs.xyz/docs/faq/custom_repositories/)로 추가하세요:\n   그러면 새로운 통합으로 나타납니다. 클릭하세요. 필요하면 \"illuminance\"를 검색하세요.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ubcxuNUk7/FqXjRj5rgNFib9h/oN9IlXehCEZYtA/Ok=",
+        "originContent": "You can use HACS to manage the installation and provide update notifications.",
+        "translatedContent": "HACS를 사용하여 설치를 관리하고 업데이트 알림을 받을 수 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "G2z4WAWqDJbzruh9YGF49SweG1sJbsgUPucHfpxGLqc=",
+        "originContent": "Or you can manually install the software.",
+        "translatedContent": "또는 소프트웨어를 수동으로 설치할 수 있습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "WJKxfl+Iaa/2s8v4e5XxWKlcaaNQ/PapAqOE4Xd27mw=",
+        "originContent": "<summary>With HACS</summary>",
+        "translatedContent": "<summary>HACS 사용 시</summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "nhVNgMhIppbhC1+IdWbzJxzp9iJl51XWapbwpkpddLg=",
+        "originContent": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)",
+        "translatedContent": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "wxd2dpFfmUUjFJPIBfbNw3oSZ5Dib8Mu4uCVe6adIsI=",
+        "originContent": "1. Add this repo as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories/):",
+        "translatedContent": "1. 이 저장소를 [커스텀 저장소](https://hacs.xyz/docs/faq/custom_repositories/)로 추가하세요:"
+      },
+      {
+        "row": 10,
+        "rowsha": "6TrmkhGxwPyW7ESo5BA5uBj4X1XaJjmCeOkgrt7wkPg=",
+        "originContent": "   It should then appear as a new integration. Click on it. If necessary, search for \"illuminance\".",
+        "translatedContent": "   그러면 새로운 통합으로 나타납니다. 클릭하세요. 필요하면 \"illuminance\"를 검색하세요."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "   ```text\n   https://github.com/pnbruckner/ha-illuminance\n   ```",
+    "ContentSha": "0KMgQgy/c8PVfOQCGfZN5EQUcOU2eyik1Torp9i+qUQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```text\n   https://github.com/pnbruckner/ha-illuminance\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VkjgWMSz4XCv3N+AP7yiWod+oeiqeFd8OME/NfRKNgQ=",
+        "originContent": "   ```text",
+        "translatedContent": "   ```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "hLNOVqSkfQSaz0ZQdeQM8C85bHuq7d1vnx92HIZQJGs=",
+        "originContent": "   https://github.com/pnbruckner/ha-illuminance",
+        "translatedContent": "   https://github.com/pnbruckner/ha-illuminance"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "   Or use this button:\n  \n   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pnbruckner&repository=ha-illuminance&category=integration)\n\n1. Download the integration using the appropriate button.\n\n</details>\n\n<details>\n<summary>Manual Installation</summary>\n\nPlace a copy of the files from [`custom_components/illuminance`](custom_components/illuminance)\nin `<config>/custom_components/illuminance`,\nwhere `<config>` is your Home Assistant configuration directory.\n\n>__NOTE__: When downloading, make sure to use the `Raw` button from each file's page.\n\n</details>\n\n### Post Installation\n\nAfter it has been downloaded you will need to restart Home Assistant.\n\n### Versions\n\nThis custom integration supports HomeAssistant versions 2024.8.3 or newer.\n\n## Services\n\n### `illuminance.reload`\n\nReloads Illuminance from the YAML-configuration. Also adds `ILLUMINANCE` to the Developers Tools -> YAML page.\n\n## Configuration variables\n\nA list of configuration options for one or more sensors. Each sensor is defined by the following options.\n\n> Note: This defines configuration via YAML. However, the same sensors can be added in the UI.\n\nKey | Optional | Description",
+    "ContentSha": "OwLxZ/yw59teYufRyCXVGV4P13IKntHr8s+SgrbIU5Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   또는 이 버튼을 사용하세요:\n  \n   [![Home Assistant 인스턴스를 열고 Home Assistant Community Store 내의 저장소를 엽니다.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pnbruckner&repository=ha-illuminance&category=integration)\n\n1. 적절한 버튼을 사용하여 통합을 다운로드합니다.\n\n</details>\n\n<details>\n<summary>수동 설치</summary>\n\n[`custom_components/illuminance`](custom_components/illuminance) 폴더의 파일 복사본을\n`<config>/custom_components/illuminance`에 배치하세요,\n여기서 `<config>`는 Home Assistant 구성 디렉터리입니다.\n\n>__참고__: 다운로드 시 각 파일 페이지에서 `Raw` 버튼을 사용해야 합니다.\n\n</details>\n\n### 설치 후\n\n다운로드가 완료되면 Home Assistant를 재시작해야 합니다.\n\n### 버전\n\n이 커스텀 통합은 HomeAssistant 버전 2024.8.3 이상을 지원합니다.\n\n## 서비스\n\n### `illuminance.reload`\n\nYAML 구성에서 Illuminance를 다시 로드합니다. 또한 개발자 도구 -> YAML 페이지에 `ILLUMINANCE`를 추가합니다.\n\n## 구성 변수\n\n하나 이상의 센서에 대한 구성 옵션 목록입니다. 각 센서는 다음 옵션으로 정의됩니다.\n\n> 참고: 이는 YAML을 통한 구성을 정의합니다. 그러나 동일한 센서들을 UI에서 추가할 수도 있습니다.\n\n키 | 선택사항 | 설명",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9oUH5JeLnI11VicUr7sXkUdYsx1HiEbK9kT/c7cRioU=",
+        "originContent": "   Or use this button:",
+        "translatedContent": "   또는 이 버튼을 사용하세요:"
+      },
+      {
+        "row": 2,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 3,
+        "rowsha": "1TkiFHKmHN78RMm6Jbb2nTgV1TdkrFPNfnhecTGKHsY=",
+        "originContent": "   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pnbruckner&repository=ha-illuminance&category=integration)",
+        "translatedContent": "   [![Home Assistant 인스턴스를 열고 Home Assistant Community Store 내의 저장소를 엽니다.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pnbruckner&repository=ha-illuminance&category=integration)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "aUMOYE/d/bffpk/wXc+twIqcatYMq0d/j42MLkE01jY=",
+        "originContent": "1. Download the integration using the appropriate button.",
+        "translatedContent": "1. 적절한 버튼을 사용하여 통합을 다운로드합니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 10,
+        "rowsha": "AKdkW2bq2hJXgRKo3oR0X5rBxqkEUd+r8OxWWQ7JsUo=",
+        "originContent": "<summary>Manual Installation</summary>",
+        "translatedContent": "<summary>수동 설치</summary>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Y0YkYe4nEjqKcj2lYOk+s0Lc+E5mG2Sk7bSZ9pS3yxc=",
+        "originContent": "Place a copy of the files from [`custom_components/illuminance`](custom_components/illuminance)",
+        "translatedContent": "[`custom_components/illuminance`](custom_components/illuminance) 폴더의 파일 복사본을"
+      },
+      {
+        "row": 13,
+        "rowsha": "EQmU7VNTstb0WIACvbedPW4rQTEsL1r+DE2gMTa4W1I=",
+        "originContent": "in `<config>/custom_components/illuminance`,",
+        "translatedContent": "`<config>/custom_components/illuminance`에 배치하세요,"
+      },
+      {
+        "row": 14,
+        "rowsha": "G6WtKYv5J5vKm1HNEqu8FK/VuyHNCNevpC0UP2in+vk=",
+        "originContent": "where `<config>` is your Home Assistant configuration directory.",
+        "translatedContent": "여기서 `<config>`는 Home Assistant 구성 디렉터리입니다."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "rQIxuNQO07LeNjCDyBNyJcl/kRmhHF1H8kklkKIBPEA=",
+        "originContent": ">__NOTE__: When downloading, make sure to use the `Raw` button from each file's page.",
+        "translatedContent": ">__참고__: 다운로드 시 각 파일 페이지에서 `Raw` 버튼을 사용해야 합니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "FtiRQOfo2xQ0S0lYw/T3JQbrke//d7aTuHAHtNjj+FA=",
+        "originContent": "### Post Installation",
+        "translatedContent": "### 설치 후"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "zJDgJCiC7qwf+90DSP0uwkfCDoIDyPPBzwERzmZkh1o=",
+        "originContent": "After it has been downloaded you will need to restart Home Assistant.",
+        "translatedContent": "다운로드가 완료되면 Home Assistant를 재시작해야 합니다."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "+OwoI7vb47Kd86jA1KySU/eacOugsaIRnFsC8RSo7So=",
+        "originContent": "### Versions",
+        "translatedContent": "### 버전"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "+p2i50nV0mO12df18fyzJ7rjxR9TtB32F1/JtJJ+cbo=",
+        "originContent": "This custom integration supports HomeAssistant versions 2024.8.3 or newer.",
+        "translatedContent": "이 커스텀 통합은 HomeAssistant 버전 2024.8.3 이상을 지원합니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "dSOarue8Yl8uzlWnXN9UcniN+Z6Flv9tSobhCgyrx1Y=",
+        "originContent": "## Services",
+        "translatedContent": "## 서비스"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "cah97O1JAOVk5R5yL/mMzihyc+grdHyqtxXwVeZmDPQ=",
+        "originContent": "### `illuminance.reload`",
+        "translatedContent": "### `illuminance.reload`"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "s4OBuJnKTA9M8m3Xru1uwUB79W6nuBXrAve+aRinrdQ=",
+        "originContent": "Reloads Illuminance from the YAML-configuration. Also adds `ILLUMINANCE` to the Developers Tools -> YAML page.",
+        "translatedContent": "YAML 구성에서 Illuminance를 다시 로드합니다. 또한 개발자 도구 -> YAML 페이지에 `ILLUMINANCE`를 추가합니다."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Dok4hjrWRiAv7IbpZN95EeQiam4CSco29ZrMzikBB0Y=",
+        "originContent": "## Configuration variables",
+        "translatedContent": "## 구성 변수"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "3E4IHgJ9WS+VRaJxFo+OfKm+vcVSqC2M8szIpwUdbPw=",
+        "originContent": "A list of configuration options for one or more sensors. Each sensor is defined by the following options.",
+        "translatedContent": "하나 이상의 센서에 대한 구성 옵션 목록입니다. 각 센서는 다음 옵션으로 정의됩니다."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "sOU8z7bePjQzMIhMeQmX9aswzM44DPFaIqo9PchmUh8=",
+        "originContent": "> Note: This defines configuration via YAML. However, the same sensors can be added in the UI.",
+        "translatedContent": "> 참고: 이는 YAML을 통한 구성을 정의합니다. 그러나 동일한 센서들을 UI에서 추가할 수도 있습니다."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "726Spl1abPCah3MNgSnrSvon5syY0t0XXH9upoZta+g=",
+        "originContent": "Key | Optional | Description",
+        "translatedContent": "키 | 선택사항 | 설명"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "-|-|-\n`unique_id` | no | Unique identifier for sensor. This allows any of the remaining options to be changed without looking like a new sensor. (Only required for YAML-based configuration.)\n`entity_id` | yes | Entity ID of another entity that indicates current weather conditions or cloud coverage percentage\n`fallback` | yes | Illuminance divisor to use when weather data is not available. Must be in the range of 1 (clear) through 10 (dark.) Default is 10 if `entity_id` is used, or 1 if not.\n`mode` | yes | Mode of operation. Choices are `normal` (default) which uses sun elevation, `simple` which uses time of day and `irradiance` which is the same as `normal`, except the value is expressed as irradiance in Watts/M².\n`name` | yes | Name of the sensor. Default is `Illuminance`.\n`scan_interval` | yes | Update interval. Minimum is 30 seconds. Default is 5 minutes.\n\n## Releases Before 2.1.0\nSee https://github.com/pnbruckner/homeassistant-config/blob/master/docs/illuminance.md.\n",
+    "ContentSha": "93x0dIWg3Res66U1uDU/VMEXBLSrPuvZhI0YnInYugs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "-|-|-\n`unique_id` | 아니오 | 센서의 고유 식별자입니다. 이를 통해 나머지 옵션을 변경해도 새로운 센서로 인식되지 않습니다. (YAML 기반 구성에만 필요합니다.)\n`entity_id` | 예 | 현재 날씨 상태 또는 구름 덮임 비율을 나타내는 다른 엔티티의 엔티티 ID입니다.\n`fallback` | 예 | 날씨 데이터가 없을 때 사용할 조도 나누기 값입니다. 1(맑음)부터 10(어두움) 범위 내여야 합니다. `entity_id`가 사용되면 기본값은 10이고, 그렇지 않으면 1입니다.\n`mode` | 예 | 작동 모드입니다. 선택지는 태양 고도를 사용하는 기본값 `normal`, 시간대를 사용하는 `simple`, 그리고 값이 와트/제곱미터로 표현되는 `irradiance`(기본 `normal`과 동일)입니다.\n`name` | 예 | 센서 이름입니다. 기본값은 `Illuminance`입니다.\n`scan_interval` | 예 | 업데이트 간격입니다. 최소 30초이며 기본값은 5분입니다.\n\n## 2.1.0 이전 릴리스\n자세한 내용은 https://github.com/pnbruckner/homeassistant-config/blob/master/docs/illuminance.md 를 참조하세요.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bX9gPHxMhPSn5oe4UsQZpd9WqOmg60qkaXT6/CQbdzI=",
+        "originContent": "-|-|-",
+        "translatedContent": "-|-|-"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZD9yXR0BVdBmGGuQP1R7JHIUsPDDAaHVuDF+4ZGoJ70=",
+        "originContent": "`unique_id` | no | Unique identifier for sensor. This allows any of the remaining options to be changed without looking like a new sensor. (Only required for YAML-based configuration.)",
+        "translatedContent": "`unique_id` | 아니오 | 센서의 고유 식별자입니다. 이를 통해 나머지 옵션을 변경해도 새로운 센서로 인식되지 않습니다. (YAML 기반 구성에만 필요합니다.)"
+      },
+      {
+        "row": 3,
+        "rowsha": "kcX6U2ihQzFp28J6DnejmFp8qQKq4ltjudWNzZ1KgPY=",
+        "originContent": "`entity_id` | yes | Entity ID of another entity that indicates current weather conditions or cloud coverage percentage",
+        "translatedContent": "`entity_id` | 예 | 현재 날씨 상태 또는 구름 덮임 비율을 나타내는 다른 엔티티의 엔티티 ID입니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "fueHhKWB9/EtOTLRw4jh8cI6Iho/7fka7sHeBmhog64=",
+        "originContent": "`fallback` | yes | Illuminance divisor to use when weather data is not available. Must be in the range of 1 (clear) through 10 (dark.) Default is 10 if `entity_id` is used, or 1 if not.",
+        "translatedContent": "`fallback` | 예 | 날씨 데이터가 없을 때 사용할 조도 나누기 값입니다. 1(맑음)부터 10(어두움) 범위 내여야 합니다. `entity_id`가 사용되면 기본값은 10이고, 그렇지 않으면 1입니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "GAWqE4nJFAwx/v4ChDqeN4scycl9tXB/9pXKID5+Mfc=",
+        "originContent": "`mode` | yes | Mode of operation. Choices are `normal` (default) which uses sun elevation, `simple` which uses time of day and `irradiance` which is the same as `normal`, except the value is expressed as irradiance in Watts/M².",
+        "translatedContent": "`mode` | 예 | 작동 모드입니다. 선택지는 태양 고도를 사용하는 기본값 `normal`, 시간대를 사용하는 `simple`, 그리고 값이 와트/제곱미터로 표현되는 `irradiance`(기본 `normal`과 동일)입니다."
+      },
+      {
+        "row": 6,
+        "rowsha": "8+yPy8xkrmP4DctjmqdDBYj19Wm8FDSxs2kkIwOCJD0=",
+        "originContent": "`name` | yes | Name of the sensor. Default is `Illuminance`.",
+        "translatedContent": "`name` | 예 | 센서 이름입니다. 기본값은 `Illuminance`입니다."
+      },
+      {
+        "row": 7,
+        "rowsha": "vS2G5x1qeqhjGLPmmV1ryTAUf14QVI2c171XEIwX//U=",
+        "originContent": "`scan_interval` | yes | Update interval. Minimum is 30 seconds. Default is 5 minutes.",
+        "translatedContent": "`scan_interval` | 예 | 업데이트 간격입니다. 최소 30초이며 기본값은 5분입니다."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Arn1Pq05EF1hvLvqv2YNBbGNidUx0zhUsaF4xso1Ar8=",
+        "originContent": "## Releases Before 2.1.0",
+        "translatedContent": "## 2.1.0 이전 릴리스"
+      },
+      {
+        "row": 10,
+        "rowsha": "X80NMC3l2fREczSUDckpYbp7fIc+DGL+l+Ly3PDyTyc=",
+        "originContent": "See https://github.com/pnbruckner/homeassistant-config/blob/master/docs/illuminance.md.",
+        "translatedContent": "자세한 내용은 https://github.com/pnbruckner/homeassistant-config/blob/master/docs/illuminance.md 를 참조하세요."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

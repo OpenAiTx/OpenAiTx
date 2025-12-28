@@ -1,0 +1,2144 @@
+[
+  {
+    "row": 1,
+    "rowsha": "dvM+1+ULKNDZcjqyK/fPLfuqE1Kfm/J5gtrugwgqakU=",
+    "originContent": "# Mapperatorinator",
+    "translatedContent": "# Mapperatorinator"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "VhvS2vunp0jnp3jgSaCrieaLtgw7Rc1JxjE83/nwcKE=",
+    "originContent": "Try the generative model [here](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb), or MaiMod [here](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb). Check out a video showcase [here](https://youtu.be/FEr7t1L2EoA).",
+    "translatedContent": "[여기](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)에서 생성 모델을 시도하거나, [여기](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb)에서 MaiMod를 사용해보세요. 비디오 쇼케이스는 [여기](https://youtu.be/FEr7t1L2EoA)에서 확인할 수 있습니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "CmR06HU+xUHuI+sMYFOtv5keP8SE3HZngRsFxbiSCCE=",
+    "originContent": "Mapperatorinator is multi-model framework that uses spectrogram inputs to generate fully featured osu! beatmaps for all gamemodes and [assist modding beatmaps](#maimod-the-ai-driven-modding-tool).",
+    "translatedContent": "Mapperatorinator는 스펙트로그램 입력을 사용하여 모든 게임 모드에 대해 완전한 기능의 osu! 비트맵을 생성하고 [보조 모딩 비트맵](#maimod-the-ai-driven-modding-tool)을 지원하는 멀티 모델 프레임워크입니다."
+  },
+  {
+    "row": 6,
+    "rowsha": "EgG9JaVtrzyexCO/w4kicGTRPq4CE/xUzbwlerphsnQ=",
+    "originContent": "The goal of this project is to automatically generate rankable quality osu! beatmaps from any song with a high degree of customizability.",
+    "translatedContent": "이 프로젝트의 목표는 높은 수준의 사용자 정의 가능성으로 어떤 노래든 자동으로 랭크 가능한 품질의 osu! 비트맵을 생성하는 것입니다."
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "5nlY84awtX+oZno/j2kdJ2z6DT3HlY+jBjQri+10PZI=",
+    "originContent": "This project is built upon [osuT5](https://github.com/gyataro/osuT5) and [osu-diffusion](https://github.com/OliBomby/osu-diffusion). In developing this, I spent about 2500 hours of GPU compute across 142 runs on my 4060 Ti and rented 4090 instances on vast.ai.",
+    "translatedContent": "이 프로젝트는 [osuT5](https://github.com/gyataro/osuT5)와 [osu-diffusion](https://github.com/OliBomby/osu-diffusion)를 기반으로 구축되었습니다. 개발 과정에서 4060 Ti와 vast.ai에서 임대한 4090 인스턴스를 사용하여 총 142회 실행에 약 2500시간의 GPU 연산 시간을 투자했습니다."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "0WJ90ceKfLgFlUkPw8TzuemhbmxlPojoyaNDJ0sAmOI=",
+    "originContent": "#### Use this tool responsibly. Always disclose the use of AI in your beatmaps.",
+    "translatedContent": "#### 이 도구를 책임감 있게 사용하세요. 비트맵에 AI 사용 사실을 항상 공개하세요."
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "aVg5com4vCk4FE3XVUhQIRyucNn0Ck3+9VJRIHrllZs=",
+    "originContent": "The instruction below allows you to generate beatmaps on your local machine, alternatively you can run it in the cloud with the [colab notebook](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb).",
+    "translatedContent": "아래 지침을 따르면 로컬 머신에서 비트맵을 생성할 수 있으며, 또는 [colab 노트북](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mapperatorinator_inference.ipynb)에서 클라우드로 실행할 수 있습니다."
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "+xj0fCZBnnk1GY2rxUGAtpalIeN4JdfjLYAPNPmqklw=",
+    "originContent": "### 1. Clone the repository",
+    "translatedContent": "### 1. 저장소 복제하기"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 19,
+    "rowsha": "zOYvCc16d0IMY+2lzpmVl2bYVfuWTKN/EjyyKOc3ZE8=",
+    "originContent": "git clone https://github.com/OliBomby/Mapperatorinator.git",
+    "translatedContent": "git clone https://github.com/OliBomby/Mapperatorinator.git"
+  },
+  {
+    "row": 20,
+    "rowsha": "seN29s2smYEHnCh2SvzLLwuCVnKIr8n6wQZDzzOIqP8=",
+    "originContent": "cd Mapperatorinator",
+    "translatedContent": "cd Mapperatorinator"
+  },
+  {
+    "row": 21,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 2. (선택 사항) 가상 환경 생성"
+  },
+  {
+    "row": 23,
+    "rowsha": "Z2uG8MiRfHTwHG+HZOVIUDTO8mYaxPpYmUnIpRA/vX4=",
+    "originContent": "### 2. (Optional) Create virtual environment",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Python 3.10을 사용하세요, 이후 버전은 종속성과 호환되지 않을 수 있습니다."
+  },
+  {
+    "row": 25,
+    "rowsha": "AJN2OBZFYUFVKGFnuEltWKNS5NjuNZKTLjMa5ehpKqc=",
+    "originContent": "Use Python 3.10, later versions will might not be compatible with the dependencies.",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 28,
+    "rowsha": "Xj91YHlRZzKcvPAqij5Lg/nwRbh8yYG2itmCPVuE0WY=",
+    "originContent": "python -m venv .venv",
+    "translatedContent": "python -m venv .venv"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "g4plQLx9azs+jWCrLhm+/NT591Z+MfKyGcqXqR8/A78=",
+    "originContent": "# In cmd.exe",
+    "translatedContent": "# In cmd.exe"
+  },
+  {
+    "row": 31,
+    "rowsha": "/H8IN72eypJcaFTg42a8fo9ibxXSvDDMjIRIElEMVso=",
+    "originContent": ".venv\\Scripts\\activate.bat",
+    "translatedContent": ".venv\\Scripts\\activate.bat"
+  },
+  {
+    "row": 32,
+    "rowsha": "bbozohqVn1unpqrlEqUuNCpfmUK7zHnDIues448Z9sY=",
+    "originContent": "# In PowerShell",
+    "translatedContent": "# In PowerShell"
+  },
+  {
+    "row": 33,
+    "rowsha": "lVxlJHyhw8SLLzf/4aqnY7HM2QH4D56Y1JjwP+Y4Z3s=",
+    "originContent": ".venv\\Scripts\\Activate.ps1",
+    "translatedContent": ".venv\\Scripts\\Activate.ps1"
+  },
+  {
+    "row": 34,
+    "rowsha": "caCEnp7o41OrfoHfzZfV+yKylUbnaLzR87WSF1hxyhE=",
+    "originContent": "# In Linux or MacOS",
+    "translatedContent": "# In Linux or MacOS"
+  },
+  {
+    "row": 35,
+    "rowsha": "RDUaxA18s/pXqQvQov8NDg+Q3PTeDJ8ytJ0PGX0egwA=",
+    "originContent": "source .venv/bin/activate",
+    "translatedContent": "source .venv/bin/activate"
+  },
+  {
+    "row": 36,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 3. 의존성 설치"
+  },
+  {
+    "row": 38,
+    "rowsha": "tCNcCRJ9DCBocN6wBVpcL7fWQ9Vqvcgf0NLXUsBzBow=",
+    "originContent": "### 3. Install dependencies",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Python 3.10  "
+  },
+  {
+    "row": 40,
+    "rowsha": "pfCmdD0HlNxa3kKubNuvsONJoV3Xbx/Ll4szOyKp5do=",
+    "originContent": "- Python 3.10",
+    "translatedContent": "- [Git](https://git-scm.com/downloads)  "
+  },
+  {
+    "row": 41,
+    "rowsha": "ffJ5uQNcmCNL5rJe4OT7Vkw7B3xNQDLsJf9C61MtjOg=",
+    "originContent": "- [Git](https://git-scm.com/downloads)",
+    "translatedContent": "- [ffmpeg](http://www.ffmpeg.org/)  "
+  },
+  {
+    "row": 42,
+    "rowsha": "Ce2f/t1SIMeaGTAtMcWs2kKDaTwSiBwReRomX9PfOX8=",
+    "originContent": "- [ffmpeg](http://www.ffmpeg.org/)",
+    "translatedContent": "- [CUDA](https://developer.nvidia.com/cuda-zone) (NVIDIA GPU용) 또는 [ROCm](https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html) (리눅스의 AMD GPU용)  "
+  },
+  {
+    "row": 43,
+    "rowsha": "oW2lUVazlcOIZ1cF676mLDz/vO6bMNV8FKngFI5O/28=",
+    "originContent": "- [CUDA](https://developer.nvidia.com/cuda-zone) (For NVIDIA GPUs) or [ROCm](https://rocmdocs.amd.com/en/latest/Installation_Guide/Installation-Guide.html) (For AMD GPUs on linux)",
+    "translatedContent": "- [PyTorch](https://pytorch.org/get-started/locally/): `torch` 및 `torchaudio`를 GPU 지원과 함께 설치하도록 시작 가이드를 반드시 따르세요. 이전 단계에서 설치한 올바른 컴퓨트 플랫폼 버전을 선택하세요.  "
+  },
+  {
+    "row": 44,
+    "rowsha": "/C4j5441U08TV9ybpkVU+BKZKPP8NxoGTHLKKsbmw2o=",
+    "originContent": "- [PyTorch](https://pytorch.org/get-started/locally/): Make sure to follow the Get Started guide so you install `torch` and `torchaudio` with GPU support. Select the correct Compute Platform version that you have installed in the previous step.",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 그리고 나머지 Python 의존성:"
+  },
+  {
+    "row": 46,
+    "rowsha": "X4t4snIrvR4E2yvs05+9Wv1TTWPDSj4z60ohP0VzVA4=",
+    "originContent": "- and the remaining Python dependencies:",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 49,
+    "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+    "originContent": "pip install -r requirements.txt",
+    "translatedContent": "pip install -r requirements.txt"
+  },
+  {
+    "row": 50,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 웹 GUI (권장)"
+  },
+  {
+    "row": 52,
+    "rowsha": "7NKu99BNGEhWfmSt+Y+vcHnP0vPS/iqw93R5UZTnUAI=",
+    "originContent": "## Web GUI (Recommended)",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "더 사용자 친화적인 경험을 위해 웹 UI 사용을 고려하십시오. 생성 매개변수를 구성하고, 프로세스를 시작하며, 출력을 모니터링할 수 있는 그래픽 인터페이스를 제공합니다."
+  },
+  {
+    "row": 54,
+    "rowsha": "tY7Uu8DT0CbEHRKmCz1gXFJWOrdMJ0jka+blqtmCXj4=",
+    "originContent": "For a more user-friendly experience, consider using the Web UI. It provides a graphical interface to configure generation parameters, start the process, and monitor the output.",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### GUI 실행하기"
+  },
+  {
+    "row": 56,
+    "rowsha": "qgvj95NqkgQazgtyNvypHJVVGW1YgcIbs//7+LQ6Ceo=",
+    "originContent": "### Launch the GUI",
+    "translatedContent": ""
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "터미널에서 클론한 `Mapperatorinator` 디렉토리로 이동한 후 다음 명령어를 실행하세요:"
+  },
+  {
+    "row": 58,
+    "rowsha": "iPUN/N0z4q1aa+KCL/MKy2gkYlMn6/OxwAGYIKMB1EQ=",
+    "originContent": "Navigate to the cloned `Mapperatorinator` directory in your terminal and run:",
+    "translatedContent": ""
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 61,
+    "rowsha": "8N8NeqAR+Gn3VNE+FShn4iNUcosmuuTIYFg26slgzeA=",
+    "originContent": "python web-ui.py",
+    "translatedContent": "python web-ui.py"
+  },
+  {
+    "row": 62,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 명령은 로컬 웹 서버를 시작하고 UI를 새 창에서 자동으로 엽니다."
+  },
+  {
+    "row": 64,
+    "rowsha": "Qq1L414MmpuzoCYEa225u3qFJSlMicqSRmLuAYkR2+A=",
+    "originContent": "This will start a local web server and automatically open the UI in a new window.",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### GUI 사용법"
+  },
+  {
+    "row": 66,
+    "rowsha": "CSQLodihBQzL27qUvRHC4++e3MQitQM0XdXsUiP9Wbs=",
+    "originContent": "### Using the GUI",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **설정:** 입력/출력 경로를 양식 필드와 \"찾아보기\" 버튼을 사용해 설정합니다. 게임 모드, 난이도, 스타일(연도, 매퍼 ID, 설명자), 타이밍, 특정 기능(히트사운드, 슈퍼 타이밍) 등 명령줄 옵션과 동일하게 생성 매개변수를 조정합니다. (참고: `beatmap_path`를 제공하면 UI가 자동으로 `audio_path`와 `output_path`를 결정하므로 해당 필드를 비워둘 수 있습니다)"
+  },
+  {
+    "row": 68,
+    "rowsha": "bDe/oZOi32TLYlJnaSxBhTAVA2XQula3UoPSJXEnxEU=",
+    "originContent": "- **Configure:** Set input/output paths using the form fields and \"Browse\" buttons. Adjust generation parameters like gamemode, difficulty, style (year, mapper ID, descriptors), timing, specific features (hitsounds, super timing), and more, mirroring the command-line options. (Note: If you provide a `beatmap_path`, the UI will automatically determine the `audio_path` and `output_path` from it, so you can leave those fields blank)",
+    "translatedContent": "- **시작:** \"Start Inference\" 버튼을 클릭하여 비트맵 생성을 시작합니다."
+  },
+  {
+    "row": 69,
+    "rowsha": "FC14hlJCDHD01B6TT1r8ha1p0h3cHFo8/dfL2+R553g=",
+    "originContent": "- **Start:** Click the \"Start Inference\" button to begin the beatmap generation.",
+    "translatedContent": "- **취소:** 진행 중인 프로세스는 \"Cancel Inference\" 버튼으로 중단할 수 있습니다."
+  },
+  {
+    "row": 70,
+    "rowsha": "iDJafoXDddTxBazARktLicj8G6BEHh9P/PhJtEzQ/Dg=",
+    "originContent": "- **Cancel:** You can stop the ongoing process using the \"Cancel Inference\" button.",
+    "translatedContent": "- **출력 열기:** 완료되면 \"Open Output Folder\" 버튼을 사용하여 생성된 파일에 빠르게 접근할 수 있습니다."
+  },
+  {
+    "row": 71,
+    "rowsha": "IQiQp8mb3JDpOLGgHNe1GXtxjXdJdnBJg1kYBuAQtFI=",
+    "originContent": "- **Open Output:** Once finished, use the \"Open Output Folder\" button for quick access to the generated files.",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "웹 UI는 `inference.py` 스크립트를 편리하게 감싸는 래퍼 역할을 합니다. 고급 옵션이나 문제 해결은 명령줄 지침을 참조하세요."
+  },
+  {
+    "row": 73,
+    "rowsha": "PU6mw/15ElpteMvQD+uJx8swDVFuyXiAlf2NKQl7fPM=",
+    "originContent": "The Web UI acts as a convenient wrapper around the `inference.py` script. For advanced options or troubleshooting, refer to the command-line instructions.",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![python_u3zyW0S3Vs](https://github.com/user-attachments/assets/5312a45f-d51c-4b37-9389-da3258ddd0a1)"
+  },
+  {
+    "row": 75,
+    "rowsha": "46urnjvCCASeYICTZnAJNEWkixx5/JGht8Z9Q09MUOA=",
+    "originContent": "![python_u3zyW0S3Vs](https://github.com/user-attachments/assets/5312a45f-d51c-4b37-9389-da3258ddd0a1)",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 명령줄 추론"
+  },
+  {
+    "row": 77,
+    "rowsha": "PPhZlB3KtcndWh+mkW0Jm0Gy5mra3OYiQOfIuIrvxjA=",
+    "originContent": "## Command-Line Inference",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "명령줄을 선호하거나 고급 설정이 필요한 사용자는 아래 단계를 따르십시오. **참고:** 더 간단한 그래픽 인터페이스가 필요하면 위의 [웹 UI (권장)](#web-ui-recommended) 섹션을 참고하세요."
+  },
+  {
+    "row": 79,
+    "rowsha": "h9itj65o2zCg3P7nv9p/sYsVcZrOU34/3NNkLyUFhYQ=",
+    "originContent": "For users who prefer the command line or need access to advanced configurations, follow the steps below. **Note:** For a simpler graphical interface, please see the [Web UI (Recommended)](#web-ui-recommended) section above.",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`inference.py`를 실행하고 인수를 전달하여 비트맵을 생성합니다. 이를 위해 [Hydra override 구문](https://hydra.cc/docs/advanced/override_grammar/basic/)을 사용하세요. 사용 가능한 모든 매개변수는 `configs/inference_v29.yaml`을 참조하세요."
+  },
+  {
+    "row": 81,
+    "rowsha": "24iIGu71K6L8NhZoPP9wIU4siF8157a+oQY0XTb9o+k=",
+    "originContent": "Run `inference.py` and pass in some arguments to generate beatmaps. For this use [Hydra override syntax](https://hydra.cc/docs/advanced/override_grammar/basic/). See `configs/inference_v29.yaml` for all available parameters.",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 83,
+    "rowsha": "fRkgk7SztJVt4jE+29UcwROrhNIMgyrgsYJjaNt2Ugo=",
+    "originContent": "python inference.py \\",
+    "translatedContent": "python inference.py \\"
+  },
+  {
+    "row": 84,
+    "rowsha": "7eL+HKK9njr0jwUwt8PKKPTRndloGFSXCiLqvEt4YDE=",
+    "originContent": "  audio_path           [Path to input audio] \\",
+    "translatedContent": "  audio_path           [Path to input audio] \\"
+  },
+  {
+    "row": 85,
+    "rowsha": "LpvzYDVUBAPRc4u/Fh5SVnk6LTwDeKW0MjQxYjVwlmM=",
+    "originContent": "  output_path          [Path to output directory] \\",
+    "translatedContent": "  output_path          [Path to output directory] \\"
+  },
+  {
+    "row": 86,
+    "rowsha": "0lnICy2+s2rHlVylo7N9glLsz1HpqyA1itIDM3O2RlI=",
+    "originContent": "  beatmap_path         [Path to .osu file to autofill metadata, and output_path, or use as reference] \\",
+    "translatedContent": "  beatmap_path         [Path to .osu file to autofill metadata, and output_path, or use as reference] \\"
+  },
+  {
+    "row": 87,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 88,
+    "rowsha": "r+xAYt+D41sqZiH3Q1LJAjf37OrBw/OIVDQs+R8Sr9c=",
+    "originContent": "  gamemode             [Game mode to generate 0=std, 1=taiko, 2=ctb, 3=mania] \\",
+    "translatedContent": "  gamemode             [Game mode to generate 0=std, 1=taiko, 2=ctb, 3=mania] \\"
+  },
+  {
+    "row": 89,
+    "rowsha": "b2PLY1orZl0NWUq0a8vlygI4RdiFXY0MQpIf97UKPvo=",
+    "originContent": "  difficulty           [Difficulty star rating to generate] \\",
+    "translatedContent": "  difficulty           [Difficulty star rating to generate] \\"
+  },
+  {
+    "row": 90,
+    "rowsha": "8R4wO9iNHlCs7nxmSejq3jqTfbMnh2pwIjDt+YyU6+Y=",
+    "originContent": "  mapper_id            [Mapper user ID for style] \\",
+    "translatedContent": "  mapper_id            [Mapper user ID for style] \\"
+  },
+  {
+    "row": 91,
+    "rowsha": "T4tZn9ZUbufZP2d1Kn59Z9ugS0M+arc/0GSPyvYUbAI=",
+    "originContent": "  year                 [Upload year to simulate] \\",
+    "translatedContent": "  year                 [Upload year to simulate] \\"
+  },
+  {
+    "row": 92,
+    "rowsha": "8tIddE6DoMtH4DJ53Be1DHCTTJP9RnLZJPe2e3rR5bY=",
+    "originContent": "  hitsounded           [Whether to add hitsounds] \\",
+    "translatedContent": "  hitsounded           [Whether to add hitsounds] \\"
+  },
+  {
+    "row": 93,
+    "rowsha": "kTkmun/15vF4Ouu5CdyaQHIfVWbWGZBnd32PYcoAEWE=",
+    "originContent": "  slider_multiplier    [Slider velocity multiplier] \\",
+    "translatedContent": "  slider_multiplier    [Slider velocity multiplier] \\"
+  },
+  {
+    "row": 94,
+    "rowsha": "Xb9Ua3UlLg4mT1iMDivPkAzVfjLoT7j/A54AsUvCB5E=",
+    "originContent": "  circle_size          [Circle size] \\",
+    "translatedContent": "  circle_size          [Circle size] \\"
+  },
+  {
+    "row": 95,
+    "rowsha": "TQsbOKeVq5cIBxgN4XaZntX94RbFVvfL5lA53dsLTPU=",
+    "originContent": "  keycount             [Key count for mania] \\",
+    "translatedContent": "  keycount             [Key count for mania] \\"
+  },
+  {
+    "row": 96,
+    "rowsha": "Wer3tirWQR/yBPlzU/NNeEGONYNWb/CPdypiyUEsn8k=",
+    "originContent": "  hold_note_ratio      [Hold note ratio for mania 0-1] \\",
+    "translatedContent": "  hold_note_ratio      [Hold note ratio for mania 0-1] \\"
+  },
+  {
+    "row": 97,
+    "rowsha": "fijdGKShpdHwL6OXKTvInKsaOF21guatQVRodEgFxqo=",
+    "originContent": "  scroll_speed_ratio   [Scroll speed ratio for mania and ctb 0-1] \\",
+    "translatedContent": "  scroll_speed_ratio   [Scroll speed ratio for mania and ctb 0-1] \\"
+  },
+  {
+    "row": 98,
+    "rowsha": "qncOhYq3GAIxo234a0sSx6kezdgb0/7Z7MixMt73HdU=",
+    "originContent": "  descriptors          [List of beatmap user tags for style] \\",
+    "translatedContent": "  descriptors          [List of beatmap user tags for style] \\"
+  },
+  {
+    "row": 99,
+    "rowsha": "JxEnX1sgrY8SlahJtxU1RIWxNoWOquhSuvBzzuVxzO8=",
+    "originContent": "  negative_descriptors [List of beatmap user tags for classifier-free guidance] \\",
+    "translatedContent": "  negative_descriptors [List of beatmap user tags for classifier-free guidance] \\"
+  },
+  {
+    "row": 100,
+    "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+    "originContent": "  ",
+    "translatedContent": "  "
+  },
+  {
+    "row": 101,
+    "rowsha": "VNZ3gZncp9YklKOvgGdmiEES8S7PoYruRfEIIhDNCaY=",
+    "originContent": "  add_to_beatmap       [Whether to add generated content to the reference beatmap instead of making a new beatmap] \\",
+    "translatedContent": "  add_to_beatmap       [Whether to add generated content to the reference beatmap instead of making a new beatmap] \\"
+  },
+  {
+    "row": 102,
+    "rowsha": "4EOx8r5+0MrVSs6i3JmaF36hVALkwl+csC4RAOH+alY=",
+    "originContent": "  start_time           [Generation start time in milliseconds] \\",
+    "translatedContent": "  start_time           [Generation start time in milliseconds] \\"
+  },
+  {
+    "row": 103,
+    "rowsha": "sXDkXaehCibtyAF02vaZ2UT7RpsWQBe5Fw3rqlYiWOI=",
+    "originContent": "  end_time             [Generation end time in milliseconds] \\",
+    "translatedContent": "  end_time             [Generation end time in milliseconds] \\"
+  },
+  {
+    "row": 104,
+    "rowsha": "c6RfwlsDsqDAbgz1WujQSmRgfwRX5CyG2wJXJy+Gpz0=",
+    "originContent": "  in_context           [List of additional context to provide to the model [NONE,TIMING,KIAI,MAP,GD,NO_HS]] \\",
+    "translatedContent": "  in_context           [List of additional context to provide to the model [NONE,TIMING,KIAI,MAP,GD,NO_HS]] \\"
+  },
+  {
+    "row": 105,
+    "rowsha": "b0bJ2yAD5ZMZkp3UF4Q2aX/TPrN/8XE5jBih/qJ1jVM=",
+    "originContent": "  output_type          [List of content types to generate] \\",
+    "translatedContent": "  output_type          [List of content types to generate] \\"
+  },
+  {
+    "row": 106,
+    "rowsha": "SNGzSARISqHTL/HHy13uTd9wolBYd8LVC+H1lmZKZAs=",
+    "originContent": "  cfg_scale            [Scale of the classifier-free guidance] \\",
+    "translatedContent": "  cfg_scale            [Scale of the classifier-free guidance] \\"
+  },
+  {
+    "row": 107,
+    "rowsha": "/FPTzSjW3aW2VBWjzG+sA79aS/6oCVEIdu3wj+kEA6Q=",
+    "originContent": "  super_timing         [Whether to use slow accurate variable BPM timing generator] \\",
+    "translatedContent": "  super_timing         [Whether to use slow accurate variable BPM timing generator] \\"
+  },
+  {
+    "row": 108,
+    "rowsha": "W4PL+Cy7x8MAdXSGzhOn470GGTHrA1FjU7/tF6uEcgs=",
+    "originContent": "  seed                 [Random seed for generation] \\",
+    "translatedContent": "  seed                 [Random seed for generation] \\"
+  },
+  {
+    "row": 109,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "예:"
+  },
+  {
+    "row": 111,
+    "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+    "originContent": "Example:",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "bEyIHqA/H8L4QCYYG3aHON0G0LoqrMxCJ3gvu+Un2Zo=",
+    "originContent": "python inference.py beatmap_path=\"'C:\\Users\\USER\\AppData\\Local\\osu!\\Songs\\1 Kenji Ninuma - DISCO PRINCE\\Kenji Ninuma - DISCOPRINCE (peppy) [Normal].osu'\" gamemode=0 difficulty=5.5 year=2023 descriptors=\"['jump aim','clean']\" in_context=[TIMING,KIAI]",
+    "translatedContent": "python inference.py beatmap_path=\"'C:\\Users\\USER\\AppData\\Local\\osu!\\Songs\\1 Kenji Ninuma - DISCO PRINCE\\Kenji Ninuma - DISCOPRINCE (peppy) [Normal].osu'\" gamemode=0 difficulty=5.5 year=2023 descriptors=\"['jump aim','clean']\" in_context=[TIMING,KIAI]"
+  },
+  {
+    "row": 114,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "eVNCf7g6BYgUbBC5JyrJfNGP12yyND/l8czq52j72MQ=",
+    "originContent": "## Interactive CLI",
+    "translatedContent": "## 대화형 CLI"
+  },
+  {
+    "row": 117,
+    "rowsha": "ELALyUop+ToMM9bUJPvAGwt0yx2os4FU+ZC5ZCEINGQ=",
+    "originContent": "For those who prefer a terminal-based workflow but want a guided setup, the interactive CLI script is an excellent alternative to the Web UI.",
+    "translatedContent": "터미널 기반 작업 방식을 선호하지만 안내되는 설정을 원한다면, 대화형 CLI 스크립트가 웹 UI에 대한 훌륭한 대안입니다."
+  },
+  {
+    "row": 118,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "rjTExAQzTRivIIRj5tBlTcIPTwKz9a6+t6Azuqx5vRw=",
+    "originContent": "### Launch the CLI",
+    "translatedContent": "### CLI 실행"
+  },
+  {
+    "row": 120,
+    "rowsha": "L/J8SCrtugis/hoYWJOxn82FRY9WnQhw3nLfOdkuwNI=",
+    "originContent": "Navigate to the cloned directory. You may need to make the script executable first.",
+    "translatedContent": "복제한 디렉토리로 이동합니다. 먼저 스크립트에 실행 권한을 부여해야 할 수도 있습니다."
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 123,
+    "rowsha": "dln8vDVxNpWwo7dSlLRN8ISErt5JN+kx9LNvsvQKhuA=",
+    "originContent": "# Make the script executable (only needs to be done once)",
+    "translatedContent": "# Make the script executable (only needs to be done once)"
+  },
+  {
+    "row": 124,
+    "rowsha": "0rB96jd2cQxH5EOrn+/vMQ5GofZEpz+bgseAg8k12zU=",
+    "originContent": "chmod +x cli_inference.sh",
+    "translatedContent": "chmod +x cli_inference.sh"
+  },
+  {
+    "row": 125,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 128,
+    "rowsha": "TTq1WTM8uTKsJASZuhHGtVTSfUpO1v+XsPZUmJj04Hs=",
+    "originContent": "# Run the script",
+    "translatedContent": "# Run the script"
+  },
+  {
+    "row": 129,
+    "rowsha": "ntacN/P6U7tpVb4w5osKzq1nYN1T+2aq0lQNXPM850Q=",
+    "originContent": "./cli_inference.sh",
+    "translatedContent": "./cli_inference.sh"
+  },
+  {
+    "row": 130,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### CLI 사용법  "
+  },
+  {
+    "row": 132,
+    "rowsha": "5s+7Fs1mwU8ov6S6P7SSIprN05ozC2PiMtQeMepxJ6E=",
+    "originContent": "### Using the CLI",
+    "translatedContent": "스크립트는 웹 UI와 마찬가지로 모든 생성 매개변수를 구성하기 위해 일련의 프롬프트를 안내합니다.  "
+  },
+  {
+    "row": 133,
+    "rowsha": "6GfWPf+5VTQSJTfSQ89SAIH4FHjtd4Ye2E4zYqLkGYE=",
+    "originContent": "The script will walk you through a series of prompts to configure all generation parameters, just like the Web UI.",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "명확성을 위해 색상 코드 인터페이스를 사용합니다.  "
+  },
+  {
+    "row": 135,
+    "rowsha": "77KaBT0LglGSCvDITuA4XHgYkNyPCnGxs+XggsnPIUY=",
+    "originContent": "It uses a color-coded interface for clarity.",
+    "translatedContent": "화살표 키와 스페이스바를 사용하여 스타일 설명자를 선택할 수 있는 고급 다중 선택 메뉴를 제공합니다.  "
+  },
+  {
+    "row": 136,
+    "rowsha": "SNHDpHTzGcpZ9kzV7V5YQZmbCCm9FxlqDIFyz5HkTMI=",
+    "originContent": "It provides an advanced multi-select menu for choosing style descriptors using your arrow keys and spacebar.",
+    "translatedContent": "모든 질문에 답변하면 최종 명령어가 표시되어 검토할 수 있습니다.  "
+  },
+  {
+    "row": 137,
+    "rowsha": "+XvS82z5BnQtQaxD2JiJm4uehTpeHB5zmqTRr/U9Kto=",
+    "originContent": "After you've answered all the questions, it will display the final command for your review.",
+    "translatedContent": "직접 실행을 확인하거나 취소하고 명령어를 복사하여 수동으로 사용할 수 있습니다.  "
+  },
+  {
+    "row": 138,
+    "rowsha": "okMYlxr4VUvt5pX7Q2kgUz/+JyacmNQ8W24PZHKrCgE=",
+    "originContent": "You can then confirm to execute it directly or cancel and copy the command for manual use.",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 생성 팁  "
+  },
+  {
+    "row": 140,
+    "rowsha": "OqWXAmQkSqaWxfCBrrtfo3PA/td5uN8W7kqEQEIEEAo=",
+    "originContent": "## Generation Tips",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 매번 터미널에 입력하는 대신 `configs/inference_v29.yaml` 파일을 편집하여 인수를 추가할 수 있습니다.  "
+  },
+  {
+    "row": 142,
+    "rowsha": "sAwUG/qBp8nmcrM+2/EhgrFhqA0EKIRl38j0Sjrsw+w=",
+    "originContent": "- You can edit `configs/inference_v29.yaml` and add your arguments there instead of typing them in the terminal every time.",
+    "translatedContent": "- 사용 가능한 모든 설명자는 [여기](https://osu.ppy.sh/wiki/en/Beatmap/Beatmap_tags)에서 찾을 수 있습니다.  "
+  },
+  {
+    "row": 143,
+    "rowsha": "O34nbj8K6HV4W+3oZXcKcWRWFvghlwIgzXkf4PHfRFQ=",
+    "originContent": "- All available descriptors can be found [here](https://osu.ppy.sh/wiki/en/Beatmap/Beatmap_tags).",
+    "translatedContent": "- 항상 2007년부터 2023년 사이의 연도 인수를 제공하세요. 알 수 없는 상태로 두면 모델이 일관성 없는 스타일로 생성할 수 있습니다.  "
+  },
+  {
+    "row": 144,
+    "rowsha": "oZLeLVY/Na/9j5nxV2hI0aPFVzRjdlfvXWRwS7Nkj5U=",
+    "originContent": "- Always provide a year argument between 2007 and 2023. If you leave it unknown, the model might generate with an inconsistent style.",
+    "translatedContent": "- 항상 난이도 인수를 제공하세요. 알 수 없는 상태로 두면 모델이 일관성 없는 난이도로 생성할 수 있습니다.  "
+  },
+  {
+    "row": 145,
+    "rowsha": "D2iUVFzUDl/W8cqqlyYkLI4mDRskk67kTouvAl9RAP8=",
+    "originContent": "- Always provide a difficulty argument. If you leave it unknown, the model might generate with an inconsistent difficulty.",
+    "translatedContent": "- `cfg_scale` 매개변수를 높이면 `mapper_id` 및 `descriptors` 인수의 효과가 증가합니다.  "
+  },
+  {
+    "row": 146,
+    "rowsha": "XVNKp3TcASmzciOXb91v+s7LbOlzdPlxAnEty7Vr0CA=",
+    "originContent": "- Increase the `cfg_scale` parameter to increase the effectiveness of the `mapper_id` and `descriptors` arguments.",
+    "translatedContent": "- `negative_descriptors` 인수를 사용하여 모델이 특정 스타일에서 벗어나도록 유도할 수 있습니다. 이는 `cfg_scale > 1`일 때만 작동합니다. 부정 설명자 수가 설명자 수와 같아야 합니다.  "
+  },
+  {
+    "row": 147,
+    "rowsha": "JE5cQhvwKAP5PVGn4U1cQuRbr4mAnxePpdsrsOLS+Hc=",
+    "originContent": "- You can use the `negative_descriptors` argument to guide the model away from certain styles. This only works when `cfg_scale > 1`. Make sure the number of negative descriptors is equal to the number of descriptors.",
+    "translatedContent": "- 노래 스타일과 원하는 비트맵 스타일이 잘 맞지 않으면 모델이 지시를 따르지 않을 수 있습니다. 예를 들어, 차분한 노래에 대해 높은 SR, 높은 SV 비트맵을 생성하는 것은 어렵습니다.  "
+  },
+  {
+    "row": 148,
+    "rowsha": "jRnhD6NTV3qTvzLzmWm7OT4E31/KSWPdxXv+ZssuyaA=",
+    "originContent": "- If your song style and desired beatmap style don't match well, the model might not follow your directions. For example, its hard to generate a high SR, high SV beatmap for a calm song. ",
+    "translatedContent": "- 노래에 타이밍과 카이아이 시간이 이미 완료된 경우, 이를 모델에 제공하면 추론 속도와 정확도가 크게 향상됩니다: `beatmap_path` 및 `in_context=[TIMING,KIAI]` 인수를 사용하세요.  "
+  },
+  {
+    "row": 149,
+    "rowsha": "YKvsWApRuIFmPw/Lo3xoHTa+S9G6Y8kPHcIEykPt0Dc=",
+    "originContent": "- If you already have timing and kiai times done for a song, then you can give this to the model to greatly increase inference speed and accuracy: Use the `beatmap_path` and `in_context=[TIMING,KIAI]` arguments.",
+    "translatedContent": "- 비트맵의 일부만 리맵하려면 `beatmap_path`, `start_time`, `end_time`, 그리고 `add_to_beatmap=true` 인수를 사용하세요.  "
+  },
+  {
+    "row": 150,
+    "rowsha": "s+cT8itpYEsoflV5ZOwTGtIDmZ6TKmXhzmVgEHqJW44=",
+    "originContent": "- To remap just a part of your beatmap, use the `beatmap_path`, `start_time`, `end_time`, and `add_to_beatmap=true` arguments.",
+    "translatedContent": "- 비트맵에 게스트 난이도를 생성하려면 `beatmap_path` 및 `in_context=[GD,TIMING,KIAI]` 인수를 사용하세요.  "
+  },
+  {
+    "row": 151,
+    "rowsha": "hYuzcUQXWLe4tQALzEAxsZDCSvQOdA86FCsjUyLvbr0=",
+    "originContent": "- To generate a guest difficulty for a beatmap, use the `beatmap_path` and `in_context=[GD,TIMING,KIAI]` arguments.",
+    "translatedContent": "- 비트맵에 히트사운드를 생성하려면 `beatmap_path` 및 `in_context=[NO_HS,TIMING,KIAI]` 인수를 사용하세요.  "
+  },
+  {
+    "row": 152,
+    "rowsha": "NZYWPQ0H6N50VktkRpzH8Z9bNof48xuHXZNh3paxDEM=",
+    "originContent": "- To generate hitsounds for a beatmap, use the `beatmap_path` and `in_context=[NO_HS,TIMING,KIAI]` arguments.",
+    "translatedContent": "- 노래에 대해 타이밍만 생성하려면 `super_timing=true` 및 `output_type=[TIMING]` 인수를 사용하세요.  "
+  },
+  {
+    "row": 153,
+    "rowsha": "c8jYoVCNO9yAmU9iDFcBhMr88PYcVmGg2yDBRQoqLC4=",
+    "originContent": "- To generate only timing for a song, use the `super_timing=true` and `output_type=[TIMING]` arguments.",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## MaiMod: AI 기반 모딩 도구  "
+  },
+  {
+    "row": 155,
+    "rowsha": "lduzyeNxSTUHV1VdFUUhQHDcWEcUWoQ4EnxZbVw7sjg=",
+    "originContent": "## MaiMod: The AI-driven Modding Tool",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MaiMod는 Mapperatorinator 예측을 사용하여 [Mapset Verifier](https://github.com/Naxesss/MapsetVerifier)와 같은 다른 자동 모딩 도구로 감지할 수 없는 잠재적 결함과 불일치를 찾는 osu! 비트맵용 모딩 도구입니다.  "
+  },
+  {
+    "row": 157,
+    "rowsha": "y2UQF0xM1Os40szo5Usz2+FEpZpABwuut2Rm3YTavME=",
+    "originContent": "MaiMod is a modding tool for osu! beatmaps that uses Mapperatorinator predictions to find potential faults and inconsistencies which can't be detected by other automatic modding tools like [Mapset Verifier](https://github.com/Naxesss/MapsetVerifier).",
+    "translatedContent": "다음과 같은 문제를 감지할 수 있습니다:  "
+  },
+  {
+    "row": 158,
+    "rowsha": "JFlUX0mmZ7eMwrUGb2sk0Pst5G/qEXeZ+VAa05mSw/4=",
+    "originContent": "It can detect issues like:",
+    "translatedContent": "- 부정확한 스내핑 또는 리듬 패턴  "
+  },
+  {
+    "row": 159,
+    "rowsha": "ujZkjKlYm9VYPRehrlMAESj2sFQzoQK3r+IPev28QU4=",
+    "originContent": "- Incorrect snapping or rhythmic patterns",
+    "translatedContent": "- 부정확한 타이밍 포인트  "
+  },
+  {
+    "row": 160,
+    "rowsha": "yTDR+DzayPQWtXhd5v1E0+iTiEJYSa6zbwZutOuYRio=",
+    "originContent": "- Inaccurate timing points",
+    "translatedContent": "- 일관성 없는 히트 오브젝트 위치 또는 새 콤보 배치  "
+  },
+  {
+    "row": 161,
+    "rowsha": "bQ/l3MJ9uIQDFy5DQwIDfjTtzTFdehfbYVxKEPOfeuM=",
+    "originContent": "- Inconsistent hit object positions or new combo placements",
+    "translatedContent": "- 이상한 슬라이더 모양  "
+  },
+  {
+    "row": 162,
+    "rowsha": "8bAqhF1z4DdPAcxz+Lgxhrl1v4n6u5webxKySB4rjRE=",
+    "originContent": "- Weird slider shapes",
+    "translatedContent": "- 일관성 없는 히트사운드 또는 볼륨  "
+  },
+  {
+    "row": 163,
+    "rowsha": "njR9Z2Wih8YFKDuFA17JP65iixFgezGEkjNxRqudmAk=",
+    "originContent": "- Inconsistent hitsounds or volumes",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MaiMod를 [여기](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb)에서 사용해보거나 로컬에서 실행할 수 있습니다:  "
+  },
+  {
+    "row": 165,
+    "rowsha": "vCryhoY07/jyYBZbcUxPtVz/+/upoJKy5mVKGrYDZYw=",
+    "originContent": "You can try MaiMod [here](https://colab.research.google.com/github/OliBomby/Mapperatorinator/blob/main/colab/mai_mod_inference.ipynb), or run it locally:",
+    "translatedContent": "로컬에서 MaiMod를 실행하려면 Mapperatorinator를 설치해야 합니다. 그런 다음 `mai_mod.py` 스크립트를 실행하고 `beatmap_path` 인수로 비트맵 경로를 지정하세요."
+  },
+  {
+    "row": 166,
+    "rowsha": "dMhhBmnQwFqUBaaQNORbiVLTh7PRJEDNXQZRq3G1ZHg=",
+    "originContent": "To run MaiMod locally, you'll need to install Mapperatorinator. Then, run the `mai_mod.py` script, specifying your beatmap's path with the `beatmap_path` argument.",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 168,
+    "rowsha": "97NsG4DiKXqiEBB7tcgJjQA+cDLp++PSvNC03tYtf8I=",
+    "originContent": "python mai_mod.py beatmap_path=\"'C:\\Users\\USER\\AppData\\Local\\osu!\\Songs\\1 Kenji Ninuma - DISCO PRINCE\\Kenji Ninuma - DISCOPRINCE (peppy) [Normal].osu'\"",
+    "translatedContent": "python mai_mod.py beatmap_path=\"'C:\\Users\\USER\\AppData\\Local\\osu!\\Songs\\1 Kenji Ninuma - DISCO PRINCE\\Kenji Ninuma - DISCOPRINCE (peppy) [Normal].osu'\""
+  },
+  {
+    "row": 169,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 170,
+    "rowsha": "/9D0LfXDkbPNVWU08SUnshZNrRVrEFzD1EsJ6nbkEUI=",
+    "originContent": "This will print the modding suggestions to the console, which you can then apply to your beatmap manually.",
+    "translatedContent": "이것은 모딩 제안을 콘솔에 출력하며, 이후 이를 수동으로 비트맵에 적용할 수 있습니다.  "
+  },
+  {
+    "row": 171,
+    "rowsha": "9MH/NcMaI4OZFRqdUSds9+Zlmx/XaAsxrLh9m063fdE=",
+    "originContent": "Suggestions are ordered chronologically and grouped into categories.",
+    "translatedContent": "제안들은 시간 순서대로 정렬되며 카테고리별로 그룹화되어 있습니다.  "
+  },
+  {
+    "row": 172,
+    "rowsha": "RSnqMZ6zAL3NwZJUeq4sl9/a6jUitIuq18zFMLKUCbE=",
+    "originContent": "The first value in the circle indicates the 'surprisal' which is a measure of how unexpected the model found the issue to be, so you can prioritize the most important issues.",
+    "translatedContent": "원 안의 첫 번째 값은 '서프라이절(surprisal)'을 나타내며, 이는 모델이 해당 문제를 얼마나 예상치 못했는지의 척도로, 가장 중요한 문제를 우선순위로 둘 수 있습니다.  "
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "57km/FRTf80+wHEjsoa0ckKGI1yng5Lc6ppJwuzW2Qs=",
+    "originContent": "The model can make mistakes, especially on low surprisal issues, so always double-check the suggestions before applying them to your beatmap.",
+    "translatedContent": "모델은 특히 서프라이절 값이 낮은 문제에 대해 실수를 할 수 있으므로, 제안을 비트맵에 적용하기 전에 항상 다시 확인하세요.  "
+  },
+  {
+    "row": 175,
+    "rowsha": "GifAvI0nplNOZuxX1IsMKmMTndFoSxncc4UwZgHrMXE=",
+    "originContent": "The main goal is to help you narrow down the search space for potential issues, so you don't have to manually check every single hit object in your beatmap.",
+    "translatedContent": "주요 목적은 잠재적 문제에 대한 검색 범위를 좁혀, 비트맵의 모든 히트 오브젝트를 수동으로 확인할 필요가 없도록 돕는 것입니다.  "
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 177,
+    "rowsha": "UeFXvJZKgrz2ll5+KdqeYeE5uV+jdTUprgahqgYDnSE=",
+    "originContent": "### MaiMod GUI",
+    "translatedContent": "### MaiMod GUI  "
+  },
+  {
+    "row": 178,
+    "rowsha": "V/9FAQWZw+mmCpCXxPg8TE6GfDDlhlP13XYd8feIii4=",
+    "originContent": "To run the MaiMod Web UI, you'll need to install Mapperatorinator.",
+    "translatedContent": "MaiMod 웹 UI를 실행하려면 Mapperatorinator를 설치해야 합니다.  "
+  },
+  {
+    "row": 179,
+    "rowsha": "cwisS2CGIxyHacGto9UfJ7XHP6l8x9bwA2wa6kg938Q=",
+    "originContent": "Then, run the `mai_mod_ui.py` script. This will start a local web server and automatically open the UI in a new window:",
+    "translatedContent": "그런 다음 `mai_mod_ui.py` 스크립트를 실행하세요. 이 스크립트는 로컬 웹 서버를 시작하고 새 창에서 UI를 자동으로 엽니다:"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 181,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 182,
+    "rowsha": "2ngNlpUxzvz1ih0JmgCVQEhUqLR69Gsu5+jlizZirR4=",
+    "originContent": "python mai_mod_ui.py",
+    "translatedContent": "python mai_mod_ui.py"
+  },
+  {
+    "row": 183,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "<img width=\"850\" height=\"1019\" alt=\"afbeelding\" src=\"https://github.com/user-attachments/assets/67c03a43-a7bd-4265-a5b1-5e4d62aca1fa\" />"
+  },
+  {
+    "row": 185,
+    "rowsha": "AFHW/JqjNBFhcw2X4d1J2OUD3GjYlhGKnXiXbz38J/Q=",
+    "originContent": "<img width=\"850\" height=\"1019\" alt=\"afbeelding\" src=\"https://github.com/user-attachments/assets/67c03a43-a7bd-4265-a5b1-5e4d62aca1fa\" />",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 개요"
+  },
+  {
+    "row": 187,
+    "rowsha": "czfz0Kop6agrjxZQt0Opju+QeUYx+nY6MZaG5pxUaCE=",
+    "originContent": "## Overview",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 토크나이제이션"
+  },
+  {
+    "row": 189,
+    "rowsha": "PGbHLABTGq40FdplR6QqAJQusaDhmnFWjUwmVBXGSbM=",
+    "originContent": "### Tokenization",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Mapperatorinator는 osu! 비트맵을 토큰으로 직접 변환 및 복원할 수 있는 중간 이벤트 표현으로 변환합니다.  "
+  },
+  {
+    "row": 191,
+    "rowsha": "PPQ34febFE1RmIqLYFT8Ba9v4iiSX8BV/ufRqvXlETw=",
+    "originContent": "Mapperatorinator converts osu! beatmaps into an intermediate event representation that can be directly converted to and from tokens.",
+    "translatedContent": "여기에는 히트 오브젝트, 히트사운드, 슬라이더 속도, 새로운 콤보, 타이밍 포인트, 키아이 시간, 타이코/매니아 스크롤 속도가 포함됩니다."
+  },
+  {
+    "row": 192,
+    "rowsha": "ngff6vqxTAIClSpbaQ/tkLuJOmuo3GqlJiQZDjF9Lro=",
+    "originContent": "It includes hit objects, hitsounds, slider velocities, new combos, timing points, kiai times, and taiko/mania scroll speeds.",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "다음은 토크나이제이션 과정의 작은 예시입니다:"
+  },
+  {
+    "row": 194,
+    "rowsha": "BHIB3Y8/m99HiXazIj2SgIZ5IKLLdS2RvxtuM78ZODE=",
+    "originContent": "Here is a small examle of the tokenization process:",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![mapperatorinator_parser](https://github.com/user-attachments/assets/84efde76-4c27-48a1-b8ce-beceddd9e695)"
+  },
+  {
+    "row": 196,
+    "rowsha": "hPjvoYPTngXesiaZ0rtCQeT7/wcEZtaj9HtyFXboVsE=",
+    "originContent": "![mapperatorinator_parser](https://github.com/user-attachments/assets/84efde76-4c27-48a1-b8ce-beceddd9e695)",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "어휘 크기를 줄이기 위해, 시간 이벤트는 10ms 간격으로 양자화되고 위치 좌표는 32 픽셀 그리드 포인트로 양자화됩니다."
+  },
+  {
+    "row": 198,
+    "rowsha": "WvA9ZpkwyPXVD1aAvfZZtUEclF8hnUn0xly0JY6hfV0=",
+    "originContent": "To save on vocabulary size, time events are quantized to 10ms intervals and position coordinates are quantized to 32 pixel grid points.",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 모델 아키텍처"
+  },
+  {
+    "row": 200,
+    "rowsha": "NRf34HUV4iYm1wwRN3LcnOY8yEu1HIXWZuFTBoM23Ys=",
+    "originContent": "### Model architecture",
+    "translatedContent": "이 모델은 기본적으로 [HF Transformers Whisper](https://huggingface.co/docs/transformers/en/model_doc/whisper#transformers.WhisperForConditionalGeneration) 모델을 감싸는 래퍼로, 맞춤형 입력 임베딩과 손실 함수를 포함합니다.  "
+  },
+  {
+    "row": 201,
+    "rowsha": "Q0rOaoBBkqMNPvWtIERs1CTFy6rIQP3Ww7mmbGa2DZ8=",
+    "originContent": "The model is basically a wrapper around the [HF Transformers Whisper](https://huggingface.co/docs/transformers/en/model_doc/whisper#transformers.WhisperForConditionalGeneration) model, with custom input embeddings and loss function.",
+    "translatedContent": "모델 크기는 2억 1,900만 개의 파라미터입니다.  "
+  },
+  {
+    "row": 202,
+    "rowsha": "K21ge7cpD2kM82NdByjDBiVNNkmEohgSJwtJOqRHxjQ=",
+    "originContent": "Model size amounts to 219M parameters.",
+    "translatedContent": "이 모델은 이 작업에서 T5보다 빠르고 정확한 것으로 나타났습니다."
+  },
+  {
+    "row": 203,
+    "rowsha": "B6zoh4rgDnf8ExCvW1Uo5FZbqbdSs3koLuWIDYYEduI=",
+    "originContent": "This model was found to be faster and more accurate than T5 for this task.",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "모델의 입력-출력에 대한 고수준 개요는 다음과 같습니다:"
+  },
+  {
+    "row": 205,
+    "rowsha": "O0A5LkR9PHJSFsu6RenUIxpdXL5Q0UU1JUYr8YKkmeY=",
+    "originContent": "The high-level overview of the model's input-output is as follows:",
+    "translatedContent": ""
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![Picture2](https://user-images.githubusercontent.com/28675590/201044116-1384ad72-c540-44db-a285-7319dd01caad.svg)"
+  },
+  {
+    "row": 207,
+    "rowsha": "MLtQNJ2KZCdpTncTzCb2f7Lhib06b243YybO64w6ERI=",
+    "originContent": "![Picture2](https://user-images.githubusercontent.com/28675590/201044116-1384ad72-c540-44db-a285-7319dd01caad.svg)",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "모델은 인코더 입력으로 멜 스펙트로그램 프레임을 사용하며, 입력 위치마다 한 프레임씩 할당됩니다.  "
+  },
+  {
+    "row": 209,
+    "rowsha": "JhKPprsKHtEro5p07uPTnpfrzisFKHMjCxgypmEKb38=",
+    "originContent": "The model uses Mel spectrogram frames as encoder input, with one frame per input position. The model decoder output at each step is a softmax distribution over a discrete, predefined, vocabulary of events. Outputs are sparse, events are only needed when a hit-object occurs, instead of annotating every single audio frame.",
+    "translatedContent": "모델 디코더 출력은 각 단계마다 미리 정의된 이산 이벤트 어휘에 대한 소프트맥스 분포입니다. 출력은 희소하며, 히트 오브젝트가 발생할 때만 이벤트가 필요하고 모든 오디오 프레임에 주석을 다는 것은 아닙니다."
+  },
+  {
+    "row": 210,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 211,
+    "rowsha": "3rT6nMF5CeCqi6/ikIPGLnLOEpGMc+kDXRm4AevpTpA=",
+    "originContent": "### Multitask training format",
+    "translatedContent": "### 다중 작업 학습 포맷"
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 213,
+    "rowsha": "iFODtGK/ofEv9CygdXcYs8WlmSDUlbw+K7+Gi9nshLU=",
+    "originContent": "![Multitask training format](https://github.com/user-attachments/assets/62f490bc-a567-4671-a7ce-dbcc5f9cd6d9)",
+    "translatedContent": "![Multitask training format](https://github.com/user-attachments/assets/62f490bc-a567-4671-a7ce-dbcc5f9cd6d9)"
+  },
+  {
+    "row": 214,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 215,
+    "rowsha": "UcykDTknNCTLTPbH/3gbSq1Hhq1IShe56A1KK2Afv0w=",
+    "originContent": "Before the SOS token are additional tokens that facilitate conditional generation. These tokens include the gamemode, difficulty, mapper ID, year, and other metadata.",
+    "translatedContent": "SOS 토큰 앞에는 조건부 생성을 돕는 추가 토큰들이 있습니다. 이 토큰들은 게임 모드, 난이도, 매퍼 ID, 연도 및 기타 메타데이터를 포함합니다.  "
+  },
+  {
+    "row": 216,
+    "rowsha": "c41cVshbr1EDfien4FMWFKbrNWYVYX084FJpHlZICS8=",
+    "originContent": "During training, these tokens do not have accompanying labels, so they are never output by the model. ",
+    "translatedContent": "학습 중에는 이 토큰들에 대응하는 레이블이 없으므로 모델이 출력하지 않습니다.  "
+  },
+  {
+    "row": 217,
+    "rowsha": "NMARfPrn90E1ZYEvlt4Uw4V+pAMFkWJWPfZJ+UEYrI4=",
+    "originContent": "Also during training there is a random chance that a metadata token gets replaced by an 'unknown' token, so during inference we can use these 'unknown' tokens to reduce the amount of metadata we have to give to the model.",
+    "translatedContent": "또한 학습 중에는 무작위로 메타데이터 토큰이 'unknown' 토큰으로 대체될 수 있어, 추론 시에 이 'unknown' 토큰을 사용하여 모델에 제공해야 하는 메타데이터 양을 줄일 수 있습니다."
+  },
+  {
+    "row": 218,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 219,
+    "rowsha": "CEzVtFyz/tDCvAMgCoiB9p+qUeGPtrvluX6vMndNlTI=",
+    "originContent": "### Seamless long generation",
+    "translatedContent": "### 원활한 장기 생성"
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "F80C9sCavy377I4SrqnthV4AvSCAoaJ0GScVnt+GZFo=",
+    "originContent": "The context length of the model is 8.192 seconds long. This is obviously not enough to generate a full beatmap, so we have to split the song into multiple windows and generate the beatmap in small parts.",
+    "translatedContent": "모델의 컨텍스트 길이는 8.192초입니다. 이는 전체 비트맵을 생성하기에는 분명히 부족하므로, 노래를 여러 창으로 나누어 작은 부분씩 비트맵을 생성해야 합니다.  "
+  },
+  {
+    "row": 222,
+    "rowsha": "Hy6lClotIqeMtGj96m3YixyqpFa7B3+7IId3ecLPMLI=",
+    "originContent": "To make sure that the generated beatmap does not have noticeable seams in between windows, we use a 90% overlap and generate the windows sequentially.",
+    "translatedContent": "생성된 비트맵이 창 사이에 눈에 띄는 이음새가 없도록 하기 위해 90% 중첩을 사용하며 창을 순차적으로 생성합니다.  "
+  },
+  {
+    "row": 223,
+    "rowsha": "/W4yxXAWeSZjl1P3dkEoPk86+VrETGc3vAwGsMcuyFM=",
+    "originContent": "Each generation window except the first starts with the decoder pre-filled up to 50% of the generation window with tokens from the previous windows.",
+    "translatedContent": "첫 번째 창을 제외한 각 생성 창은 이전 창에서 생성된 토큰으로 최대 50%까지 디코더가 미리 채워진 상태로 시작합니다."
+  },
+  {
+    "row": 224,
+    "rowsha": "R3rAnCWfab75Ib1CJGCnj45R1ryEtsVGr7vLKfNWD+0=",
+    "originContent": "We use a logit processor to make sure that the model can't generate time tokens that are in the first 50% of the generation window.",
+    "translatedContent": "우리는 로그잇 프로세서를 사용하여 모델이 생성 창의 처음 50%에 해당하는 시간 토큰을 생성하지 못하도록 합니다.  "
+  },
+  {
+    "row": 225,
+    "rowsha": "KD88prGfCw25jPalk7tsP86cENGBnlVGWiA04HiZmKM=",
+    "originContent": "Additionally, the last 40% of the generation window is reserved for the next window. Any generated time tokens in that range are treated as EOS tokens.",
+    "translatedContent": "또한, 생성 창의 마지막 40%는 다음 창을 위해 예약되어 있습니다. 해당 범위 내에서 생성된 시간 토큰은 EOS 토큰으로 처리됩니다.  "
+  },
+  {
+    "row": 226,
+    "rowsha": "MA4hHONZeNUI4zg+6LrVlKw1E1e/s+W1w/s0+NWIwf4=",
+    "originContent": "This ensures that each generated token is conditioned on at least 4 seconds of previous tokens and 3.3 seconds of future audio to anticipate.",
+    "translatedContent": "이로써 각 생성된 토큰은 적어도 4초의 이전 토큰과 3.3초의 미래 오디오를 조건으로 하여 예측할 수 있습니다.  "
+  },
+  {
+    "row": 227,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 228,
+    "rowsha": "LdLzqJ/7OoJCcoiF8oyASZgX7pbgH4RFw9weoY2DPJg=",
+    "originContent": "To prevent offset drifting during long generation, random offsets have been added to time events in the decoder during training.",
+    "translatedContent": "긴 생성 과정에서 오프셋 드리프트를 방지하기 위해, 학습 중 디코더의 시간 이벤트에 랜덤 오프셋이 추가되었습니다.  "
+  },
+  {
+    "row": 229,
+    "rowsha": "lR4HWY8BMVREL4JzD4f3QgVL+kpzmrYgQgMBtlZ/cjA=",
+    "originContent": "This forces it to correct timing errors by listening to the onsets in the audio instead, and results in a consistently accurate offset.",
+    "translatedContent": "이것은 오디오의 온셋을 듣고 타이밍 오류를 수정하도록 강제하며, 일관되게 정확한 오프셋을 생성하는 결과를 낳습니다.  "
+  },
+  {
+    "row": 230,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 231,
+    "rowsha": "o18KdqPNTSWotT/S5E47KUcNYD8WG07fSM/8YNX1/a4=",
+    "originContent": "### Refined coordinates with diffusion",
+    "translatedContent": "### 디퓨전을 통한 정제된 좌표  "
+  },
+  {
+    "row": 232,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 233,
+    "rowsha": "AcFrGxzGDeWFsuhkjBWDdmn3mGmiOixNt83pYFH3BWk=",
+    "originContent": "Position coordinates generated by the decoder are quantized to 32 pixel grid points, so afterward we use diffusion to denoise the coordinates to the final positions.",
+    "translatedContent": "디코더가 생성한 위치 좌표는 32픽셀 격자점으로 양자화되며, 이후 디퓨전을 사용하여 좌표를 노이즈 제거하여 최종 위치로 만듭니다.  "
+  },
+  {
+    "row": 234,
+    "rowsha": "70BI60TZUlJiA4BrLw0xn1J1lGs4dKV7nc8yAXj9jbE=",
+    "originContent": "For this we trained a modified version of [osu-diffusion](https://github.com/OliBomby/osu-diffusion) that is specialized to only the last 10% of the noise schedule, and accepts the more advanced metadata tokens that Mapperatorinator uses for conditional generation.",
+    "translatedContent": "이를 위해 [osu-diffusion](https://github.com/OliBomby/osu-diffusion)의 수정 버전을 학습시켰으며, 이는 노이즈 스케줄의 마지막 10%만을 전문적으로 다루고, Mapperatorinator가 조건부 생성에 사용하는 고급 메타데이터 토큰을 받습니다.  "
+  },
+  {
+    "row": 235,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 236,
+    "rowsha": "aUekMUAQg+nLWf6ACYAsgl9vk0hKTvu3Urpx0teaCkg=",
+    "originContent": "Since the Mapperatorinator model outputs the SV of sliders, the required length of the slider is fixed regardless of the shape of the control point path.",
+    "translatedContent": "Mapperatorinator 모델은 슬라이더의 SV를 출력하므로, 슬라이더의 요구 길이는 제어점 경로의 모양과 상관없이 고정됩니다.  "
+  },
+  {
+    "row": 237,
+    "rowsha": "PSdG0R7OrecM07qPVQeDbu7oejufAhM7geRBPkmulHs=",
+    "originContent": "Therefore, we try to guide the diffusion process to create coordinates that fit the required slider lengths.",
+    "translatedContent": "따라서 우리는 디퓨전 과정을 유도하여 요구된 슬라이더 길이에 맞는 좌표를 생성하도록 시도합니다.  "
+  },
+  {
+    "row": 238,
+    "rowsha": "FqfW7n7dVVCWioY3Jq1bzj5eutsGx6+zMpqLPPGMrlo=",
+    "originContent": "We do this by recalculating the slider end positions after every step of the diffusion process based on the required length and the current control point path.",
+    "translatedContent": "이를 위해 디퓨전 과정의 매 스텝마다 현재 제어점 경로와 요구 길이를 기반으로 슬라이더 끝 위치를 재계산합니다.  "
+  },
+  {
+    "row": 239,
+    "rowsha": "1DZEujH7sa39UI5fRouovg9KvjtzfgmCtdH8AnQC8M8=",
+    "originContent": "This means that the diffusion process does not have direct control over the slider end positions, but it can still influence them by changing the control point path.",
+    "translatedContent": "즉, 디퓨전 과정은 슬라이더 끝 위치를 직접 제어할 수 없지만 제어점 경로를 변경하여 간접적으로 영향을 미칠 수 있습니다.  "
+  },
+  {
+    "row": 240,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 241,
+    "rowsha": "6xqQ4xz3ZxypO5C2ULMPsbIiWUNxlcUYd/XuIAm9RUU=",
+    "originContent": "### Post-processing",
+    "translatedContent": "### 후처리  "
+  },
+  {
+    "row": 242,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 243,
+    "rowsha": "HCdieKOHJMEC4EWxIeJXLYtYtlYdz5SwGajzw+//BWQ=",
+    "originContent": "Mapperatorinator does some extra post-processing to improve the quality of the generated beatmap:",
+    "translatedContent": "Mapperatorinator는 생성된 비트맵의 품질 향상을 위해 추가 후처리를 수행합니다:  "
+  },
+  {
+    "row": 244,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 245,
+    "rowsha": "UfnMXBy7v37q6rLanvqOEJx1twoCZS5F5IFbn67WLOE=",
+    "originContent": "- Refine position coordinates with diffusion.",
+    "translatedContent": "- 디퓨전을 통한 위치 좌표 정제.  "
+  },
+  {
+    "row": 246,
+    "rowsha": "oCluM0443M+MtOXTGhrT2B7CnJQFSvmlZtOslDrt6n8=",
+    "originContent": "- Resnap time events to the nearest tick using the snap divisors generated by the model.",
+    "translatedContent": "- 모델이 생성한 스냅 분할자를 사용하여 시간 이벤트를 가장 가까운 틱으로 재스냅.  "
+  },
+  {
+    "row": 247,
+    "rowsha": "GebhSCAuamJT+acC6k/VNnQNQ2Iu932uLUv2m5inhw0=",
+    "originContent": "- Snap near-perfect positional overlaps.",
+    "translatedContent": "- 거의 완벽한 위치 중복 스냅.  "
+  },
+  {
+    "row": 248,
+    "rowsha": "oihL3AJKL2dMd+eePqrJ2NmVbs9h6xmWWS9RQH0r77M=",
+    "originContent": "- Convert mania column events to X coordinates.",
+    "translatedContent": "- 마니아 열 이벤트를 X 좌표로 변환.  "
+  },
+  {
+    "row": 249,
+    "rowsha": "PiuMdipQ3QZC6RcYa+lLvnY5jMkSM5vyCLynDEz11t4=",
+    "originContent": "- Generate slider paths for taiko drumrolls.",
+    "translatedContent": "- 태고 드럼롤을 위한 슬라이더 경로 생성.  "
+  },
+  {
+    "row": 250,
+    "rowsha": "AhzhyVbJ0TMnzUZ2WMJpIACL5XctnyJ8h5ZyDWDHdbo=",
+    "originContent": "- Fix big discrepancies in required slider length and control point path length.",
+    "translatedContent": "- 요구 슬라이더 길이와 제어점 경로 길이 간 큰 불일치 수정.  "
+  },
+  {
+    "row": 251,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 252,
+    "rowsha": "iuAuqV6rjI2+/g4D7/i394YQ3S9GgS3D0weav0HxE1Y=",
+    "originContent": "### Super timing generator",
+    "translatedContent": "### 슈퍼 타이밍 생성기  "
+  },
+  {
+    "row": 253,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 254,
+    "rowsha": "6+Ma7hIcqE0YJ1kY+6rznqXRWWr+gxIV1xqSTLtrsAw=",
+    "originContent": "Super timing generator is an algorithm that improves the precision and accuracy of generated timing by infering timing for the whole song 20 times and averaging the results.",
+    "translatedContent": "슈퍼 타이밍 생성기는 노래 전체의 타이밍을 20번 추론하고 결과를 평균내어 생성된 타이밍의 정밀도와 정확도를 높이는 알고리즘입니다.  "
+  },
+  {
+    "row": 255,
+    "rowsha": "/zNUmZizsT/mMSS9+qUeSlkbbaPq15Djy+lXvJvUvrs=",
+    "originContent": "This is useful for songs with variable BPM, or songs with BPM changes. The result is almost perfect with only sometimes a section that needs manual adjustment.",
+    "translatedContent": "이는 변동 BPM이나 BPM 변화가 있는 노래에 유용하며, 결과는 거의 완벽하지만 가끔 수동 조정이 필요한 구간이 있습니다.  "
+  },
+  {
+    "row": 256,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 257,
+    "rowsha": "RyMVT8AI38tOz4vO0V79NvmoheEkQCWRArItkq8CyJU=",
+    "originContent": "## Training",
+    "translatedContent": "## 학습  "
+  },
+  {
+    "row": 258,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 259,
+    "rowsha": "ywEYYj+AyEHgrTk4TDf7r92ubOBXe3PS5Ztw3+05WOw=",
+    "originContent": "The instruction below creates a training environment on your local machine.",
+    "translatedContent": "아래 지침은 로컬 머신에서 학습 환경을 생성합니다.  "
+  },
+  {
+    "row": 260,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 261,
+    "rowsha": "+xj0fCZBnnk1GY2rxUGAtpalIeN4JdfjLYAPNPmqklw=",
+    "originContent": "### 1. Clone the repository",
+    "translatedContent": "### 1. 저장소 복제하기  "
+  },
+  {
+    "row": 262,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 263,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 264,
+    "rowsha": "zOYvCc16d0IMY+2lzpmVl2bYVfuWTKN/EjyyKOc3ZE8=",
+    "originContent": "git clone https://github.com/OliBomby/Mapperatorinator.git",
+    "translatedContent": "git clone https://github.com/OliBomby/Mapperatorinator.git"
+  },
+  {
+    "row": 265,
+    "rowsha": "seN29s2smYEHnCh2SvzLLwuCVnKIr8n6wQZDzzOIqP8=",
+    "originContent": "cd Mapperatorinator",
+    "translatedContent": "cd Mapperatorinator"
+  },
+  {
+    "row": 266,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 267,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 268,
+    "rowsha": "c92r9cs0dZtq6Ox3fQt2Xzwykp9tATALQDSHiHYXe9k=",
+    "originContent": "### 2. Create dataset",
+    "translatedContent": "### 2. 데이터셋 생성"
+  },
+  {
+    "row": 269,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 270,
+    "rowsha": "W4zpZ8IkdSDyzW8OeNDG1At2lUb0WozqnyPN1Mub09Q=",
+    "originContent": "Create your own dataset using the [Mapperator console app](https://github.com/mappingtools/Mapperator/blob/master/README.md#create-a-high-quality-dataset). It requires an [osu! OAuth client token](https://osu.ppy.sh/home/account/edit) to verify beatmaps and get additional metadata. Place the dataset in a `datasets` directory next to the `Mapperatorinator` directory.",
+    "translatedContent": "[Mapperator 콘솔 앱](https://github.com/mappingtools/Mapperator/blob/master/README.md#create-a-high-quality-dataset)을 사용하여 자체 데이터셋을 생성하세요. 비트맵을 확인하고 추가 메타데이터를 얻기 위해 [osu! OAuth 클라이언트 토큰](https://osu.ppy.sh/home/account/edit)이 필요합니다. 데이터셋은 `Mapperatorinator` 디렉토리 옆의 `datasets` 디렉토리에 배치하세요."
+  },
+  {
+    "row": 271,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 272,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 273,
+    "rowsha": "sSlKt47ajSR3jf5+lha0BoAT6UlFt+sIlFXMlmmPYmU=",
+    "originContent": "Mapperator.ConsoleApp.exe dataset2 -t \"/Mapperatorinator/datasets/beatmap_descriptors.csv\" -i \"path/to/osz/files\" -o \"/datasets/cool_dataset\"",
+    "translatedContent": "Mapperator.ConsoleApp.exe dataset2 -t \"/Mapperatorinator/datasets/beatmap_descriptors.csv\" -i \"path/to/osz/files\" -o \"/datasets/cool_dataset\""
+  },
+  {
+    "row": 274,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 275,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 276,
+    "rowsha": "nhCDG3f9MRI/V4j3nOSn8bzr+wvGYEO69wbgzAymowc=",
+    "originContent": "### 3. (Optional) Set-up Weight & Biases for logging",
+    "translatedContent": "### 3. (선택 사항) 로깅을 위한 Weight & Biases 설정"
+  },
+  {
+    "row": 277,
+    "rowsha": "ELW+6WWUbGsB1fFViRgEDUDzLPd7DoE7gQNkDqnGRiM=",
+    "originContent": "Create an account on [Weight & Biases](https://wandb.ai/site) and get your API key from your account settings.",
+    "translatedContent": "[Weight & Biases](https://wandb.ai/site)에서 계정을 생성하고 계정 설정에서 API 키를 가져옵니다."
+  },
+  {
+    "row": 278,
+    "rowsha": "q9XVjvx7GlN10KRI+2pzFQOJoa/hFv0gnxZgo69JHi4=",
+    "originContent": "Then set the `WANDB_API_KEY` environment variable, so the training process knows to log to this key.",
+    "translatedContent": "그런 다음 `WANDB_API_KEY` 환경 변수를 설정하여 학습 과정이 이 키로 로그를 기록하도록 합니다."
+  },
+  {
+    "row": 279,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 280,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 281,
+    "rowsha": "gMEdy3txtLFw9Xwc+A3iRksb4ZhkoybazDMdu5Tq2xo=",
+    "originContent": "export WANDB_API_KEY=<your_api_key>",
+    "translatedContent": "export WANDB_API_KEY=<your_api_key>"
+  },
+  {
+    "row": 282,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 283,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 284,
+    "rowsha": "9Oc/FjO4GOeA/OiGRL9SeM8mj108eaJIiXu/G6CQHhg=",
+    "originContent": "### 4. Create docker container",
+    "translatedContent": "### 4. 도커 컨테이너 생성"
+  },
+  {
+    "row": 285,
+    "rowsha": "YzCS7PnVa55QQ3R0AZ7Wjvg9ev4ErtK09TK+4C0c3Qk=",
+    "originContent": "Training in your venv is also possible, but we recommend using Docker on WSL for better performance.",
+    "translatedContent": "venv에서 학습하는 것도 가능하지만, 더 나은 성능을 위해 WSL에서 Docker 사용을 권장합니다."
+  },
+  {
+    "row": 286,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 287,
+    "rowsha": "+bHYg8LcgBwCYHnJip/8fxOsz/dCtJCpPWT+QIyb3w8=",
+    "originContent": "docker compose up -d --force-recreate",
+    "translatedContent": "docker compose up -d --force-recreate"
+  },
+  {
+    "row": 288,
+    "rowsha": "7K6d4XFBiFFlxihLlHr3NoVUCo5iz8gOzAxgRUQj0O4=",
+    "originContent": "docker attach mapperatorinator_space",
+    "translatedContent": "docker attach mapperatorinator_space"
+  },
+  {
+    "row": 289,
+    "rowsha": "seN29s2smYEHnCh2SvzLLwuCVnKIr8n6wQZDzzOIqP8=",
+    "originContent": "cd Mapperatorinator",
+    "translatedContent": "cd Mapperatorinator"
+  },
+  {
+    "row": 290,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 291,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 292,
+    "rowsha": "ZCv4unyC/tqpEUrF/BOu9zcZfFuArNgQr5D2r5jEeOM=",
+    "originContent": "### 5. Configure parameters and begin training",
+    "translatedContent": "### 5. 파라미터 구성 및 학습 시작"
+  },
+  {
+    "row": 293,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 294,
+    "rowsha": "GtcAYv6QxkBoZA3Rbk3BT4RDM78ArOvbUMGg47Xdfws=",
+    "originContent": "All configurations are located in `./configs/train/default.yaml`. ",
+    "translatedContent": "모든 설정은 `./configs/train/default.yaml`에 위치해 있습니다.  "
+  },
+  {
+    "row": 295,
+    "rowsha": "c7oF4LQCfhYNhVxyNGxBufUjBLTYuOioSviYkCq2ThU=",
+    "originContent": "Make sure to set the correct `train_dataset_path` and `test_dataset_path` to your dataset, as well as the start and end mapset indices for train/test split.",
+    "translatedContent": "데이터셋에 맞는 `train_dataset_path`와 `test_dataset_path`를 올바르게 설정하고, 학습/테스트 분할을 위한 시작 및 종료 맵셋 인덱스를 지정해야 합니다.  "
+  },
+  {
+    "row": 296,
+    "rowsha": "4TTSBxE+yeXWtBduaMXIvM3edCf/tr2BKOQAI296TCc=",
+    "originContent": "The path is local to the docker container, so if you placed your dataset called `cool_dataset` into the `datasets` directory, then it should be `/workspace/datasets/cool_dataset`.",
+    "translatedContent": "경로는 도커 컨테이너 내에서의 경로이므로, 예를 들어 `cool_dataset`이라는 데이터셋을 `datasets` 디렉터리에 넣었다면 경로는 `/workspace/datasets/cool_dataset`이 됩니다.  "
+  },
+  {
+    "row": 297,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 298,
+    "rowsha": "DRZxnWCMA4O4/Lm4jX7zjsv551YYpgU3WNVQlkEA1Dc=",
+    "originContent": "I recommend making a custom config file that overrides the default config, so you have a record of your training config for reproducibility.",
+    "translatedContent": "재현성을 위해 기본 설정을 덮어쓰는 커스텀 설정 파일을 만들어 학습 설정 기록을 남길 것을 권장합니다."
+  },
+  {
+    "row": 299,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 300,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 301,
+    "rowsha": "/3LKo23KK6oQqFZ+fDA/OHeJdZ43e2aQQEe1zub2nCs=",
+    "originContent": "data:",
+    "translatedContent": "data:"
+  },
+  {
+    "row": 302,
+    "rowsha": "wqKiht+hrEs+o1gx4KQpfgMX7llzQ2/YhX+CpyttmYc=",
+    "originContent": "  train_dataset_path: \"/workspace/datasets/cool_dataset\"",
+    "translatedContent": "  train_dataset_path: \"/workspace/datasets/cool_dataset\""
+  },
+  {
+    "row": 303,
+    "rowsha": "KO1FbvmNWPvJiTDaHgAgiAugih+1QOLVN0JEXrJEi1I=",
+    "originContent": "  test_dataset_path: \"/workspace/datasets/cool_dataset\"",
+    "translatedContent": "  test_dataset_path: \"/workspace/datasets/cool_dataset\""
+  },
+  {
+    "row": 304,
+    "rowsha": "YJF63sy4K3PhWSU/G93sbSMOyjzR01bbufgw9xDV5cA=",
+    "originContent": "  train_dataset_start: 0",
+    "translatedContent": "  train_dataset_start: 0"
+  },
+  {
+    "row": 305,
+    "rowsha": "1owynzKRO7l0CzcNXSi4rFywzgiXUxU9A6oHZGvJmCs=",
+    "originContent": "  train_dataset_end: 90",
+    "translatedContent": "  train_dataset_end: 90"
+  },
+  {
+    "row": 306,
+    "rowsha": "hrHYGa0CdHnhrcfnFHuvBJ25t7gdf8yhiertXMT6A0Y=",
+    "originContent": "  test_dataset_start: 90",
+    "translatedContent": "  test_dataset_start: 90"
+  },
+  {
+    "row": 307,
+    "rowsha": "RwG9+FQSNJIPdnbv55i1poV3s4az82uCf+1p++Ps92U=",
+    "originContent": "  test_dataset_end: 100",
+    "translatedContent": "  test_dataset_end: 100"
+  },
+  {
+    "row": 308,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 309,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 310,
+    "rowsha": "M/UYKIl1wlcpnQH2u2FaK7+3kUv0ZOKCsG6Ho9i2lLk=",
+    "originContent": "Begin training by calling `python osuT5/train.py` or `torchrun --nproc_per_node=NUM_GPUS osuT5/train.py` for multi-GPU training.",
+    "translatedContent": "Begin training by calling `python osuT5/train.py` or `torchrun --nproc_per_node=NUM_GPUS osuT5/train.py` for multi-GPU training."
+  },
+  {
+    "row": 311,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 312,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 313,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 314,
+    "rowsha": "Tlkll9ZE4C1oTNHtLfLMImhlKQR3iWMcPMWPL0LQs3s=",
+    "originContent": "python osuT5/train.py -cn train_v29 train_dataset_path=\"/workspace/datasets/cool_dataset\" test_dataset_path=\"/workspace/datasets/cool_dataset\" train_dataset_end=90 test_dataset_start=90 test_dataset_end=100",
+    "translatedContent": "python osuT5/train.py -cn train_v29 train_dataset_path=\"/workspace/datasets/cool_dataset\" test_dataset_path=\"/workspace/datasets/cool_dataset\" train_dataset_end=90 test_dataset_start=90 test_dataset_end=100"
+  },
+  {
+    "row": 315,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 316,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 317,
+    "rowsha": "6EhtTRGtUCrZeUcG9n5Ick8nJGD7sS163Olwmo7Wj/I=",
+    "originContent": "### 6. LoRA fine-tuning",
+    "translatedContent": "### 6. LoRA 미세 조정"
+  },
+  {
+    "row": 318,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 319,
+    "rowsha": "Lnoqesz/phTdX10D5nLCFaWLud/Sxp2LFGBcCSWcqi0=",
+    "originContent": "You can also fine-tune a pre-trained model with [LoRA](https://arxiv.org/abs/2106.09685) to adapt it to a specific style or gamemode.",
+    "translatedContent": "사전 학습된 모델을 [LoRA](https://arxiv.org/abs/2106.09685)로 미세 조정하여 특정 스타일이나 게임 모드에 맞출 수도 있습니다.  "
+  },
+  {
+    "row": 320,
+    "rowsha": "E6mX9haJtBXzWGvtp4A9rlFltc5QcAfs8OWRKyMIwpA=",
+    "originContent": "To do this, adapt `configs/train/lora.yaml` to your needs and run the `lora` training config:",
+    "translatedContent": "이를 위해 `configs/train/lora.yaml`을 필요에 맞게 수정하고 `lora` 훈련 구성을 실행하세요:  "
+  },
+  {
+    "row": 321,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 322,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 323,
+    "rowsha": "QHPEmIPNQUwm2rge0xs8ijnHmFXOinabgIRmrnlBwwk=",
+    "originContent": "python osuT5/train.py -cn lora train_dataset_path=\"/workspace/datasets/cool_dataset\" test_dataset_path=\"/workspace/datasets/cool_dataset\" train_dataset_end=90 test_dataset_start=90 test_dataset_end=100",
+    "translatedContent": "python osuT5/train.py -cn lora train_dataset_path=\"/workspace/datasets/cool_dataset\" test_dataset_path=\"/workspace/datasets/cool_dataset\" train_dataset_end=90 test_dataset_start=90 test_dataset_end=100"
+  },
+  {
+    "row": 324,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 325,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "중요한 LoRA 매개변수:"
+  },
+  {
+    "row": 326,
+    "rowsha": "/9jXigp9iLuGLPpruZs4rCmOR+HX3x9Q4h1mUO7OBsg=",
+    "originContent": "Important LoRA parameters to consider:",
+    "translatedContent": "- `pretrained_path`: 미세 조정할 기본 모델의 경로나 HF 저장소."
+  },
+  {
+    "row": 327,
+    "rowsha": "2Q0ITKr4Mje4HhRvt9+KuCg1G0Dv83d0Q3hDpo5tvgA=",
+    "originContent": "- `pretrained_path`: Path or HF repo of the base model to fine-tune.",
+    "translatedContent": "- `r`: LoRA 행렬의 랭크. 값이 클수록 모델 용량이 늘어나지만 메모리 사용량도 증가."
+  },
+  {
+    "row": 328,
+    "rowsha": "Lxdl9YXYLLymxZpdPfkMkbPaouCSlHGknkLB9X132ZQ=",
+    "originContent": "- `r`: Rank of the LoRA matrices. Higher values increase model capacity but also memory usage.",
+    "translatedContent": "- `lora_alpha`: LoRA 업데이트의 스케일링 팩터."
+  },
+  {
+    "row": 329,
+    "rowsha": "fDakv+FPIbSNavFcAkgFAva1IXe6AdXKP/dxYkyxeBw=",
+    "originContent": "- `lora_alpha`: Scaling factor for the LoRA updates.",
+    "translatedContent": "- `total_steps`: 총 훈련 단계 수. 데이터셋 크기에 맞춰 조절."
+  },
+  {
+    "row": 330,
+    "rowsha": "4QRjh8vn8cqvtSYXOBj7biD8M1T9h9EFLILvK/oYHlQ=",
+    "originContent": "- `total_steps`: Total number of training steps. Balance this according to your dataset size.",
+    "translatedContent": "- `enable_lora`: LoRA 사용 여부 또는 전체 모델 미세 조정 여부."
+  },
+  {
+    "row": 331,
+    "rowsha": "/jsajSiBoVYs3uALC2doOuVulNt5lNw2q+0yuO+HYZA=",
+    "originContent": "- `enable_lora`: Whether to use LoRA or full model fine-tuning.",
+    "translatedContent": ""
+  },
+  {
+    "row": 332,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "추론 시, `lora_path` 인수로 사용할 LoRA 가중치를 지정할 수 있습니다."
+  },
+  {
+    "row": 333,
+    "rowsha": "7hh+hiZDd5/1IeLbDkqc03OBLHLe5qWP5K4W73Kvjkc=",
+    "originContent": "During inference, you can specify the LoRA weights to use with the `lora_path` argument.",
+    "translatedContent": "이는 로컬 경로나 허깅페이스 저장소일 수 있습니다."
+  },
+  {
+    "row": 334,
+    "rowsha": "a9amaBdn2Zq2OeoFabcaBG6jU/gUUkSkgioNtHgJ6Bo=",
+    "originContent": "This can be a local path or a Hugging Face repo.",
+    "translatedContent": ""
+  },
+  {
+    "row": 335,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 참고"
+  },
+  {
+    "row": 336,
+    "rowsha": "+G2s2/KW3zKGIG1CZQvi5bMo8w6HwuKpGJS75uXh73g=",
+    "originContent": "## See also",
+    "translatedContent": "- [Mapper Classifier](https://raw.githubusercontent.com/OliBomby/Mapperatorinator/main/./classifier/README.md)"
+  },
+  {
+    "row": 337,
+    "rowsha": "+5x8TfgTlvwBQQKn2A6AsRSESTpuDF0/jkLRbvcvreU=",
+    "originContent": "- [Mapper Classifier](https://raw.githubusercontent.com/OliBomby/Mapperatorinator/main/./classifier/README.md)",
+    "translatedContent": "- [RComplexion](https://raw.githubusercontent.com/OliBomby/Mapperatorinator/main/./rcomplexion/README.md)"
+  },
+  {
+    "row": 338,
+    "rowsha": "kjq20vqvcXxEidHrGFqC3Y79530ntZk2jdjm73EyC+g=",
+    "originContent": "- [RComplexion](https://raw.githubusercontent.com/OliBomby/Mapperatorinator/main/./rcomplexion/README.md)",
+    "translatedContent": ""
+  },
+  {
+    "row": 339,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 크레딧"
+  },
+  {
+    "row": 340,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": ""
+  },
+  {
+    "row": 341,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "특별 감사:"
+  },
+  {
+    "row": 342,
+    "rowsha": "17xrnRFrxtbV2/VrEOM7MvNVU+4x1tdBoWQSX8P3fpo=",
+    "originContent": "Special thanks to:",
+    "translatedContent": "1. [osuT5](https://github.com/gyataro/osuT5) 저자분들께 훈련 코드에 대해."
+  },
+  {
+    "row": 343,
+    "rowsha": "BPaZDy3TFTA9GqpFlfKwATQ+3PnGj2fVQrMJXniHcZg=",
+    "originContent": "1. The authors of [osuT5](https://github.com/gyataro/osuT5) for their training code.",
+    "translatedContent": "2. 허깅페이스 팀의 [도구들](https://huggingface.co/docs/transformers/index)."
+  },
+  {
+    "row": 344,
+    "rowsha": "z4SITYxXcEjSfNuM6bbFGOqIjjW/Piyvf5xdS7XTFeo=",
+    "originContent": "2. Hugging Face team for their [tools](https://huggingface.co/docs/transformers/index).",
+    "translatedContent": "3. 아이디어 교환에 도움을 준 [Jason Won](https://github.com/jaswon)과 [Richard Nagyfi](https://github.com/sedthh)."
+  },
+  {
+    "row": 345,
+    "rowsha": "DPS4FWJjVdcm53TwzNc23JOrm5seBqSm33fXuUYiH7M=",
+    "originContent": "3. [Jason Won](https://github.com/jaswon) and [Richard Nagyfi](https://github.com/sedthh) for bouncing ideas.",
+    "translatedContent": "4. 훈련 크레딧을 기부해주신 [Marvin](https://github.com/minetoblend)."
+  },
+  {
+    "row": 346,
+    "rowsha": "EN9klyqJJoCpJZ7a4CkAGMVgIX94ziki2SWv57BxrJ8=",
+    "originContent": "4. [Marvin](https://github.com/minetoblend) for donating training credits.",
+    "translatedContent": "5. 비트맵을 제공해준 osu! 커뮤니티."
+  },
+  {
+    "row": 347,
+    "rowsha": "0RhWiPzTYNNeQ60Pf51eB4xTEz1qlZLtA2MlLIrxbNA=",
+    "originContent": "5. The osu! community for the beatmaps.",
+    "translatedContent": ""
+  },
+  {
+    "row": 348,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 관련 작업"
+  },
+  {
+    "row": 349,
+    "rowsha": "pOXhrswT9L95TsH1/yPtFnGMt7SF2igUXxxQI2LuY2Y=",
+    "originContent": "## Related works",
+    "translatedContent": ""
+  },
+  {
+    "row": 350,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. Syps (Nick Sypteras)의 [osu! Beatmap Generator](https://github.com/Syps/osu_beatmap_generator)"
+  },
+  {
+    "row": 351,
+    "rowsha": "WF0NnRkzV3MoMcXQoLYVJu2t4aGre80CnIBifLGPbBY=",
+    "originContent": "1. [osu! Beatmap Generator](https://github.com/Syps/osu_beatmap_generator) by Syps (Nick Sypteras)",
+    "translatedContent": "2. kotritrona, jyvden, Yoyolick (Ryan Zmuda)의 [osumapper](https://github.com/kotritrona/osumapper)"
+  },
+  {
+    "row": 352,
+    "rowsha": "CUI1xSXrXCMlQl+OISg0BofFq+QWfXaKXLye7N7xrvA=",
+    "originContent": "2. [osumapper](https://github.com/kotritrona/osumapper) by kotritrona, jyvden, Yoyolick (Ryan Zmuda)",
+    "translatedContent": "3. OliBomby (Olivier Schipper), NiceAesth (Andrei Baciu)의 [osu-diffusion](https://github.com/OliBomby/osu-diffusion)"
+  },
+  {
+    "row": 353,
+    "rowsha": "l8v8yw20HUW7Syl/4u/AnguxnCcVvST8UY+y5whx8PI=",
+    "originContent": "3. [osu-diffusion](https://github.com/OliBomby/osu-diffusion) by OliBomby (Olivier Schipper), NiceAesth (Andrei Baciu)",
+    "translatedContent": "4. gyataro (Xiwen Teoh)의 [osuT5](https://github.com/gyataro/osuT5)"
+  },
+  {
+    "row": 354,
+    "rowsha": "H34V/r+MbPBE1I2g6F6xivSj3oKdY1F/PnYLYiFb9xw=",
+    "originContent": "4. [osuT5](https://github.com/gyataro/osuT5) by gyataro (Xiwen Teoh)",
+    "translatedContent": "5. sedthh (Richard Nagyfi)의 [Beat Learning](https://github.com/sedthh/BeatLearning)"
+  },
+  {
+    "row": 355,
+    "rowsha": "l7Yq49MFJ6SS/7aSdlHogTuKz6NONjdmrULtKVxW+wc=",
+    "originContent": "5. [Beat Learning](https://github.com/sedthh/BeatLearning) by sedthh (Richard Nagyfi)",
+    "translatedContent": "6. jaswon (Jason Won)의 [osu!dreamer](https://github.com/jaswon/osu-dreamer)"
+  },
+  {
+    "row": 356,
+    "rowsha": "QdmxrRZzbUmN7Ey/nt1h4xKPRBZbrCsj/ALhHc6DYgU=",
+    "originContent": "6. [osu!dreamer](https://github.com/jaswon/osu-dreamer) by jaswon (Jason Won)",
+    "translatedContent": ""
+  },
+  {
+    "row": 357,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

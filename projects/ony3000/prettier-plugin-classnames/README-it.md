@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Lingua</summary>
@@ -32,7 +31,7 @@
 
 # prettier-plugin-classnames
 
-Un plugin Prettier che suddivide i nomi di classi troppo lunghi in base all'opzione `printWidth`.
+Un plugin di Prettier che suddivide nomi di classi verbosi in base all'opzione `printWidth`.
 
 ![Un caso d'uso per questo plugin.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
@@ -185,6 +184,6 @@ Esempio JSON:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

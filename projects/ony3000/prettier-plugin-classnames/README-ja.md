@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 言語</summary>
@@ -32,9 +31,9 @@
 
 # prettier-plugin-classnames
 
-`printWidth` オプションに基づいて冗長なクラス名を折り返す Prettier プラグインです。
+`printWidth` オプションに基づき冗長なクラス名を折り返す Prettier プラグインです。
 
-![このプラグインの使用例。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
+![このプラグインの利用例。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
 ## インストール方法[^1]
 
@@ -185,6 +184,6 @@ JSON例:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

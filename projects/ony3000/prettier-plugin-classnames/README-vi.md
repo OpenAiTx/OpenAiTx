@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
@@ -32,7 +31,7 @@
 
 # prettier-plugin-classnames
 
-Một plugin Prettier giúp tự động xuống dòng các tên class dài dựa trên tùy chọn `printWidth`.
+Một plugin Prettier giúp ngắt dòng tên class dài dựa trên tùy chọn `printWidth`.
 
 ![Một ví dụ sử dụng plugin này.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
@@ -185,6 +184,6 @@ Ví dụ JSON:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

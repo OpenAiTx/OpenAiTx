@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 ภาษา</summary>
@@ -32,7 +31,7 @@
 
 # prettier-plugin-classnames
 
-ปลั๊กอิน Prettier ที่ช่วยจัดเรียงชื่อคลาสที่ยาวโดยอิงตามตัวเลือก `printWidth`
+ปลั๊กอิน Prettier ที่ช่วยตัดบรรทัดชื่อคลาสที่ยาวตามตัวเลือก `printWidth`
 
 ![ตัวอย่างการใช้งานปลั๊กอินนี้](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
@@ -185,6 +184,6 @@ export default {
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

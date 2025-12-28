@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Idioma</summary>
@@ -32,9 +31,9 @@
 
 # prettier-plugin-classnames
 
-Un plugin de Prettier que ajusta los nombres de clase extensos según la opción `printWidth`.
+Un complemento para Prettier que ajusta nombres de clases verbosos según la opción `printWidth`.
 
-![Un caso de uso para este plugin.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
+![Un caso de uso para este complemento.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
 ## Instalación[^1]
 
@@ -185,6 +184,6 @@ Ejemplo JSON:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

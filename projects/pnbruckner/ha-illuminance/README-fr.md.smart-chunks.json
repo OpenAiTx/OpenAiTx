@@ -1,0 +1,691 @@
+[
+  {
+    "Id": 1,
+    "Content": "# <img src=\"https://brands.home-assistant.io/illuminance/icon.png\" alt=\"Sun2 Sensor\" width=\"50\" height=\"50\"/> Illuminance Sensor\nCreates a `sensor` entity that estimates outdoor illuminance based on either sun elevation or time of day.\nIn either case, the value can be further adjusted based on current weather conditions or cloud coverage obtained from another, existing entity.\n\n\n## Modes of operation\nThree modes are available: normal, irradiance & simple.\n\n### Normal/Irradiance modes - Sun elevation\nThese modes use an algorithm from the US Naval Observatory[^1] for estimating sun illuminance or irradiance based on the sun's elevation (aka altitude.) The maximum illuminance value is about 150,000 lx, and the maximum irradiance value is about 1,250 Watts/M².\nBelow is an example of what the illuminance might look like over a three day period.\n\n<p align=\"center\">\n  <img src=images/normal.png>\n</p>\n\n[^1]: Janiczek, P. M., and DeYoung, J. A. _Computer Programs for Sun and Moon Illuminance With Contingent Tables and Diagrams_. Circular No. 171. Washington, D. C.: United States Naval Observatory, 1987 [Google Scholar](https://scholar.google.com/scholar_lookup?title=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams&author=P.%20M.%20Janiczek&author=J.%20A.%20Deyoung&publication_year=1987&book=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams)\n\n### Simple mode - Time of day\nAt night the value is 10 lx. From a little before sunrise to a little after the value is ramped up to whatever the current conditions indicate. The same happens around sunset, except the value is ramped down. For historical reasons, the maximum value is 10,000 lx. Below is an example of what that might look like over a three day period.\n\n<p align=\"center\">\n  <img src=images/simple.png>\n</p>\n\n## Supported weather sources\nAny weather entity that uses the [standard list of conditions](https://www.home-assistant.io/integrations/weather/#condition-mapping), or that provides a cloud coverage percentage, should work with this integration.\nThe following sources of weather data are known to be supported:\n\nIntegration | Notes\n-|-\n[AccuWeather](https://www.home-assistant.io/integrations/accuweather/) | `weather`\n[Buienradar](https://www.home-assistant.io/integrations/buienradar/) | `weather`\n[ecobee](https://www.home-assistant.io/integrations/ecobee/) |\n[Meteorologisk institutt (Met.no)](https://www.home-assistant.io/integrations/met/) | `weather`\n[OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap/) | `weather`; cloud_coverage & condition `sensor`\n\n## Installation\n\nThe integration software must first be installed as a custom component.",
+    "ContentSha": "+7Mc5Kd2QfTNg6Zkm+maRyE4Z4042n4uzck+YpBXFwk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# <img src=\"https://brands.home-assistant.io/illuminance/icon.png\" alt=\"Sun2 Sensor\" width=\"50\" height=\"50\"/> Capteur d'Illuminance  \nCrée une entité `sensor` qui estime l'illuminance extérieure basée soit sur l'élévation du soleil, soit sur l'heure de la journée.  \nDans les deux cas, la valeur peut être ajustée davantage en fonction des conditions météorologiques actuelles ou de la couverture nuageuse obtenue à partir d'une autre entité existante.  \n\n\n## Modes de fonctionnement  \nTrois modes sont disponibles : normal, irradiance et simple.  \n\n### Modes Normal/Irradiance - Élévation du soleil  \nCes modes utilisent un algorithme de l’Observatoire Naval des États-Unis[^1] pour estimer l’illuminance ou l’irradiance solaire en fonction de l’élévation (ou altitude) du soleil. La valeur maximale d’illuminance est d’environ 150 000 lx, et la valeur maximale d’irradiance est d’environ 1 250 Watts/m².  \nVoici un exemple de ce à quoi pourrait ressembler l’illuminance sur une période de trois jours.  \n\n<p align=\"center\">  \n  <img src=images/normal.png>  \n</p>  \n\n[^1]: Janiczek, P. M., and DeYoung, J. A. _Computer Programs for Sun and Moon Illuminance With Contingent Tables and Diagrams_. Circular No. 171. Washington, D. C.: United States Naval Observatory, 1987 [Google Scholar](https://scholar.google.com/scholar_lookup?title=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams&author=P.%20M.%20Janiczek&author=J.%20A.%20Deyoung&publication_year=1987&book=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams)  \n\n### Mode Simple - Heure de la journée  \nLa nuit, la valeur est de 10 lx. Un peu avant le lever du soleil jusqu’à un peu après, la valeur est augmentée progressivement selon les conditions actuelles. Il en va de même autour du coucher du soleil, sauf que la valeur est diminuée progressivement. Pour des raisons historiques, la valeur maximale est de 10 000 lx. Voici un exemple de ce que cela pourrait donner sur une période de trois jours.  \n\n<p align=\"center\">  \n  <img src=images/simple.png>  \n</p>  \n\n## Sources météorologiques supportées  \nToute entité météo utilisant la [liste standard des conditions](https://www.home-assistant.io/integrations/weather/#condition-mapping), ou fournissant un pourcentage de couverture nuageuse, devrait fonctionner avec cette intégration.  \nLes sources de données météorologiques suivantes sont connues pour être supportées :  \n\nIntégration | Remarques  \n-|-\n[AccuWeather](https://www.home-assistant.io/integrations/accuweather/) | `weather`  \n[Buienradar](https://www.home-assistant.io/integrations/buienradar/) | `weather`  \n[ecobee](https://www.home-assistant.io/integrations/ecobee/) |  \n[Meteorologisk institutt (Met.no)](https://www.home-assistant.io/integrations/met/) | `weather`  \n[OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap/) | `weather`; cap_coverage nuageuse & condition `sensor`  \n\n## Installation  \n\nLe logiciel d’intégration doit d’abord être installé en tant que composant personnalisé.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RrVbRZS1QS1tWXgOWxug2xsXsq4CNERw1eDN0CVjaVw=",
+        "originContent": "# <img src=\"https://brands.home-assistant.io/illuminance/icon.png\" alt=\"Sun2 Sensor\" width=\"50\" height=\"50\"/> Illuminance Sensor",
+        "translatedContent": "# <img src=\"https://brands.home-assistant.io/illuminance/icon.png\" alt=\"Sun2 Sensor\" width=\"50\" height=\"50\"/> Capteur d'Illuminance  "
+      },
+      {
+        "row": 2,
+        "rowsha": "rQzPRLais9W/dNfj6IyORXCJSUj8IKskLxrcbWEiHFg=",
+        "originContent": "Creates a `sensor` entity that estimates outdoor illuminance based on either sun elevation or time of day.",
+        "translatedContent": "Crée une entité `sensor` qui estime l'illuminance extérieure basée soit sur l'élévation du soleil, soit sur l'heure de la journée.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "z373em7efHc/jxnA8CoDNzWfKC6eamk0OjLeCCc3YvQ=",
+        "originContent": "In either case, the value can be further adjusted based on current weather conditions or cloud coverage obtained from another, existing entity.",
+        "translatedContent": "Dans les deux cas, la valeur peut être ajustée davantage en fonction des conditions météorologiques actuelles ou de la couverture nuageuse obtenue à partir d'une autre entité existante.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "aAEvKEj7ug/FMiABiE5LRipTZ14AzUWJxb4/MiHdJP0=",
+        "originContent": "## Modes of operation",
+        "translatedContent": "## Modes de fonctionnement  "
+      },
+      {
+        "row": 7,
+        "rowsha": "m5OUEA5K/5hZ/VtCqvDaiiOhuhiSHMjjYgVcO9+Pmgk=",
+        "originContent": "Three modes are available: normal, irradiance & simple.",
+        "translatedContent": "Trois modes sont disponibles : normal, irradiance et simple.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "JgjlPXzWz2MwwkOq6aU+5YBx1+p0Ksr8oOrWvubv0pk=",
+        "originContent": "### Normal/Irradiance modes - Sun elevation",
+        "translatedContent": "### Modes Normal/Irradiance - Élévation du soleil  "
+      },
+      {
+        "row": 10,
+        "rowsha": "kaaYnurHaoYHQqDJqk7FZyRO1tSV0BwMhAAUuEEiW+U=",
+        "originContent": "These modes use an algorithm from the US Naval Observatory[^1] for estimating sun illuminance or irradiance based on the sun's elevation (aka altitude.) The maximum illuminance value is about 150,000 lx, and the maximum irradiance value is about 1,250 Watts/M².",
+        "translatedContent": "Ces modes utilisent un algorithme de l’Observatoire Naval des États-Unis[^1] pour estimer l’illuminance ou l’irradiance solaire en fonction de l’élévation (ou altitude) du soleil. La valeur maximale d’illuminance est d’environ 150 000 lx, et la valeur maximale d’irradiance est d’environ 1 250 Watts/m².  "
+      },
+      {
+        "row": 11,
+        "rowsha": "oHA2KICU7hH0zgHrOKb73cNxF/CHdnXtzKdqzRAu5tA=",
+        "originContent": "Below is an example of what the illuminance might look like over a three day period.",
+        "translatedContent": "Voici un exemple de ce à quoi pourrait ressembler l’illuminance sur une période de trois jours.  "
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">  "
+      },
+      {
+        "row": 14,
+        "rowsha": "c/XBtCj4ev2XXC71kAmPKuj8Aar462TbpwarKgHpeIY=",
+        "originContent": "  <img src=images/normal.png>",
+        "translatedContent": "  <img src=images/normal.png>  "
+      },
+      {
+        "row": 15,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>  "
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "dxdT7nuJDOJpg4LF0bu7UPgAl93VwVjXqrCfv9tOt6Q=",
+        "originContent": "[^1]: Janiczek, P. M., and DeYoung, J. A. _Computer Programs for Sun and Moon Illuminance With Contingent Tables and Diagrams_. Circular No. 171. Washington, D. C.: United States Naval Observatory, 1987 [Google Scholar](https://scholar.google.com/scholar_lookup?title=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams&author=P.%20M.%20Janiczek&author=J.%20A.%20Deyoung&publication_year=1987&book=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams)",
+        "translatedContent": "[^1]: Janiczek, P. M., and DeYoung, J. A. _Computer Programs for Sun and Moon Illuminance With Contingent Tables and Diagrams_. Circular No. 171. Washington, D. C.: United States Naval Observatory, 1987 [Google Scholar](https://scholar.google.com/scholar_lookup?title=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams&author=P.%20M.%20Janiczek&author=J.%20A.%20Deyoung&publication_year=1987&book=Computer%20programs%20for%20sun%20and%20moon%20illuminance%20with%20contingent%20tables%20and%20diagrams)  "
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "FNAuaHZu/SuXKIS8lpjMfAL51tPVAFYKRbrt1CZbxq4=",
+        "originContent": "### Simple mode - Time of day",
+        "translatedContent": "### Mode Simple - Heure de la journée  "
+      },
+      {
+        "row": 20,
+        "rowsha": "QSBdBWId1NSuR+rrPnSGpal6tzXva1xjPsa07Tn5RXE=",
+        "originContent": "At night the value is 10 lx. From a little before sunrise to a little after the value is ramped up to whatever the current conditions indicate. The same happens around sunset, except the value is ramped down. For historical reasons, the maximum value is 10,000 lx. Below is an example of what that might look like over a three day period.",
+        "translatedContent": "La nuit, la valeur est de 10 lx. Un peu avant le lever du soleil jusqu’à un peu après, la valeur est augmentée progressivement selon les conditions actuelles. Il en va de même autour du coucher du soleil, sauf que la valeur est diminuée progressivement. Pour des raisons historiques, la valeur maximale est de 10 000 lx. Voici un exemple de ce que cela pourrait donner sur une période de trois jours.  "
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">  "
+      },
+      {
+        "row": 23,
+        "rowsha": "ZG9p1eaqlCetKnFgY5fmCb2rCkAVQoK1G6SYytTUh9Q=",
+        "originContent": "  <img src=images/simple.png>",
+        "translatedContent": "  <img src=images/simple.png>  "
+      },
+      {
+        "row": 24,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>  "
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "a7fPF7BIFyWVUWmaAAF22eVcxYIw+0BbmPc5GB30EV4=",
+        "originContent": "## Supported weather sources",
+        "translatedContent": "## Sources météorologiques supportées  "
+      },
+      {
+        "row": 27,
+        "rowsha": "3Zsf3VNWGYRkuSGPyIuu7FLFyElA6h2lyxDmKZeFrQg=",
+        "originContent": "Any weather entity that uses the [standard list of conditions](https://www.home-assistant.io/integrations/weather/#condition-mapping), or that provides a cloud coverage percentage, should work with this integration.",
+        "translatedContent": "Toute entité météo utilisant la [liste standard des conditions](https://www.home-assistant.io/integrations/weather/#condition-mapping), ou fournissant un pourcentage de couverture nuageuse, devrait fonctionner avec cette intégration.  "
+      },
+      {
+        "row": 28,
+        "rowsha": "z9pQoxjiM2AtTLisbEkpKqV2e/a4eOR9K8X4CQAdlD4=",
+        "originContent": "The following sources of weather data are known to be supported:",
+        "translatedContent": "Les sources de données météorologiques suivantes sont connues pour être supportées :  "
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "+JqrWsI9o7RZs3JZaTkevML9HxmFBXbEr2mpbG6fU4M=",
+        "originContent": "Integration | Notes",
+        "translatedContent": "Intégration | Remarques  "
+      },
+      {
+        "row": 31,
+        "rowsha": "/wwrGngr5dBlZNoQNxts52rymsT2OxwmAGwsZIV90/A=",
+        "originContent": "-|-",
+        "translatedContent": "-|-"
+      },
+      {
+        "row": 32,
+        "rowsha": "8K2Wj2GPMmnSPsVMXHe9KH/s3xcHjjhTKzEslYw2OUY=",
+        "originContent": "[AccuWeather](https://www.home-assistant.io/integrations/accuweather/) | `weather`",
+        "translatedContent": "[AccuWeather](https://www.home-assistant.io/integrations/accuweather/) | `weather`  "
+      },
+      {
+        "row": 33,
+        "rowsha": "xLPwommN2dahzp1xIl7ab89ccDKSAu7yRWODFMwzZgs=",
+        "originContent": "[Buienradar](https://www.home-assistant.io/integrations/buienradar/) | `weather`",
+        "translatedContent": "[Buienradar](https://www.home-assistant.io/integrations/buienradar/) | `weather`  "
+      },
+      {
+        "row": 34,
+        "rowsha": "96zc9R+uCOBppqRffbXrrCtGJxN/+nDV2rq4O+MMS+A=",
+        "originContent": "[ecobee](https://www.home-assistant.io/integrations/ecobee/) |",
+        "translatedContent": "[ecobee](https://www.home-assistant.io/integrations/ecobee/) |  "
+      },
+      {
+        "row": 35,
+        "rowsha": "CFV6asqnYcmm6yMBm5KL4nuKXrDLEmeBWOVoiUwEKPE=",
+        "originContent": "[Meteorologisk institutt (Met.no)](https://www.home-assistant.io/integrations/met/) | `weather`",
+        "translatedContent": "[Meteorologisk institutt (Met.no)](https://www.home-assistant.io/integrations/met/) | `weather`  "
+      },
+      {
+        "row": 36,
+        "rowsha": "H/WuB5bj9FOPH9KWpEIckB2eWPVDmh/luCna4on2D6o=",
+        "originContent": "[OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap/) | `weather`; cloud_coverage & condition `sensor`",
+        "translatedContent": "[OpenWeatherMap](https://www.home-assistant.io/integrations/openweathermap/) | `weather`; cap_coverage nuageuse & condition `sensor`  "
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation  "
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "EF+uaRdzXdOqY9Imz56SvocYiCin0FHC+1q8e/Wf92E=",
+        "originContent": "The integration software must first be installed as a custom component.",
+        "translatedContent": "Le logiciel d’intégration doit d’abord être installé en tant que composant personnalisé."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "You can use HACS to manage the installation and provide update notifications.\nOr you can manually install the software.\n\n<details>\n<summary>With HACS</summary>\n\n[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)\n\n1. Add this repo as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories/):\n   It should then appear as a new integration. Click on it. If necessary, search for \"illuminance\".",
+    "ContentSha": "xUiB1G58EhOnKgpUeQ6TDm00/Nt0Qakr2vN3YQSuiIY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Vous pouvez utiliser HACS pour gérer l'installation et recevoir des notifications de mise à jour.\nOu vous pouvez installer le logiciel manuellement.\n\n<details>\n<summary>Avec HACS</summary>\n\n[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)\n\n1. Ajoutez ce dépôt comme [dépôt personnalisé](https://hacs.xyz/docs/faq/custom_repositories/) :\n   Il devrait alors apparaître comme une nouvelle intégration. Cliquez dessus. Si nécessaire, cherchez \"illuminance\".",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ubcxuNUk7/FqXjRj5rgNFib9h/oN9IlXehCEZYtA/Ok=",
+        "originContent": "You can use HACS to manage the installation and provide update notifications.",
+        "translatedContent": "Vous pouvez utiliser HACS pour gérer l'installation et recevoir des notifications de mise à jour."
+      },
+      {
+        "row": 2,
+        "rowsha": "G2z4WAWqDJbzruh9YGF49SweG1sJbsgUPucHfpxGLqc=",
+        "originContent": "Or you can manually install the software.",
+        "translatedContent": "Ou vous pouvez installer le logiciel manuellement."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 5,
+        "rowsha": "WJKxfl+Iaa/2s8v4e5XxWKlcaaNQ/PapAqOE4Xd27mw=",
+        "originContent": "<summary>With HACS</summary>",
+        "translatedContent": "<summary>Avec HACS</summary>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "nhVNgMhIppbhC1+IdWbzJxzp9iJl51XWapbwpkpddLg=",
+        "originContent": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)",
+        "translatedContent": "[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "wxd2dpFfmUUjFJPIBfbNw3oSZ5Dib8Mu4uCVe6adIsI=",
+        "originContent": "1. Add this repo as a [custom repository](https://hacs.xyz/docs/faq/custom_repositories/):",
+        "translatedContent": "1. Ajoutez ce dépôt comme [dépôt personnalisé](https://hacs.xyz/docs/faq/custom_repositories/) :"
+      },
+      {
+        "row": 10,
+        "rowsha": "6TrmkhGxwPyW7ESo5BA5uBj4X1XaJjmCeOkgrt7wkPg=",
+        "originContent": "   It should then appear as a new integration. Click on it. If necessary, search for \"illuminance\".",
+        "translatedContent": "   Il devrait alors apparaître comme une nouvelle intégration. Cliquez dessus. Si nécessaire, cherchez \"illuminance\"."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "   ```text\n   https://github.com/pnbruckner/ha-illuminance\n   ```",
+    "ContentSha": "0KMgQgy/c8PVfOQCGfZN5EQUcOU2eyik1Torp9i+qUQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```text\n   https://github.com/pnbruckner/ha-illuminance\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "VkjgWMSz4XCv3N+AP7yiWod+oeiqeFd8OME/NfRKNgQ=",
+        "originContent": "   ```text",
+        "translatedContent": "   ```text"
+      },
+      {
+        "row": 2,
+        "rowsha": "hLNOVqSkfQSaz0ZQdeQM8C85bHuq7d1vnx92HIZQJGs=",
+        "originContent": "   https://github.com/pnbruckner/ha-illuminance",
+        "translatedContent": "   https://github.com/pnbruckner/ha-illuminance"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "   Or use this button:\n  \n   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pnbruckner&repository=ha-illuminance&category=integration)\n\n1. Download the integration using the appropriate button.\n\n</details>\n\n<details>\n<summary>Manual Installation</summary>\n\nPlace a copy of the files from [`custom_components/illuminance`](custom_components/illuminance)\nin `<config>/custom_components/illuminance`,\nwhere `<config>` is your Home Assistant configuration directory.\n\n>__NOTE__: When downloading, make sure to use the `Raw` button from each file's page.\n\n</details>\n\n### Post Installation\n\nAfter it has been downloaded you will need to restart Home Assistant.\n\n### Versions\n\nThis custom integration supports HomeAssistant versions 2024.8.3 or newer.\n\n## Services\n\n### `illuminance.reload`\n\nReloads Illuminance from the YAML-configuration. Also adds `ILLUMINANCE` to the Developers Tools -> YAML page.\n\n## Configuration variables\n\nA list of configuration options for one or more sensors. Each sensor is defined by the following options.\n\n> Note: This defines configuration via YAML. However, the same sensors can be added in the UI.\n\nKey | Optional | Description",
+    "ContentSha": "OwLxZ/yw59teYufRyCXVGV4P13IKntHr8s+SgrbIU5Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   Ou utilisez ce bouton :\n  \n   [![Ouvrez votre instance Home Assistant et ouvrez un dépôt dans le Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pnbruckner&repository=ha-illuminance&category=integration)\n\n1. Téléchargez l'intégration en utilisant le bouton approprié.\n\n</details>\n\n<details>\n<summary>Installation manuelle</summary>\n\nPlacez une copie des fichiers de [`custom_components/illuminance`](custom_components/illuminance)\ndans `<config>/custom_components/illuminance`,\noù `<config>` est votre répertoire de configuration Home Assistant.\n\n>__NOTE__ : Lors du téléchargement, assurez-vous d'utiliser le bouton `Raw` sur la page de chaque fichier.\n\n</details>\n\n### Après l'installation\n\nAprès le téléchargement, vous devrez redémarrer Home Assistant.\n\n### Versions\n\nCette intégration personnalisée supporte les versions HomeAssistant 2024.8.3 ou plus récentes.\n\n## Services\n\n### `illuminance.reload`\n\nRecharge Illuminance depuis la configuration YAML. Ajoute également `ILLUMINANCE` à la page Outils pour développeurs -> YAML.\n\n## Variables de configuration\n\nUne liste d'options de configuration pour un ou plusieurs capteurs. Chaque capteur est défini par les options suivantes.\n\n> Note : Ceci définit la configuration via YAML. Cependant, les mêmes capteurs peuvent être ajoutés via l’interface utilisateur.\n\nClé | Optionnel | Description",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9oUH5JeLnI11VicUr7sXkUdYsx1HiEbK9kT/c7cRioU=",
+        "originContent": "   Or use this button:",
+        "translatedContent": "   Ou utilisez ce bouton :"
+      },
+      {
+        "row": 2,
+        "rowsha": "bBefIeb2K2KQVdirQPRU7QLki2hWORNHO4V9NjjiOyg=",
+        "originContent": "  ",
+        "translatedContent": "  "
+      },
+      {
+        "row": 3,
+        "rowsha": "1TkiFHKmHN78RMm6Jbb2nTgV1TdkrFPNfnhecTGKHsY=",
+        "originContent": "   [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pnbruckner&repository=ha-illuminance&category=integration)",
+        "translatedContent": "   [![Ouvrez votre instance Home Assistant et ouvrez un dépôt dans le Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=pnbruckner&repository=ha-illuminance&category=integration)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "aUMOYE/d/bffpk/wXc+twIqcatYMq0d/j42MLkE01jY=",
+        "originContent": "1. Download the integration using the appropriate button.",
+        "translatedContent": "1. Téléchargez l'intégration en utilisant le bouton approprié."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "U8eO5ZMev1PH3G030/YyNbNyaS1S4k9n5Of/5MkmvMU=",
+        "originContent": "<details>",
+        "translatedContent": "<details>"
+      },
+      {
+        "row": 10,
+        "rowsha": "AKdkW2bq2hJXgRKo3oR0X5rBxqkEUd+r8OxWWQ7JsUo=",
+        "originContent": "<summary>Manual Installation</summary>",
+        "translatedContent": "<summary>Installation manuelle</summary>"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "Y0YkYe4nEjqKcj2lYOk+s0Lc+E5mG2Sk7bSZ9pS3yxc=",
+        "originContent": "Place a copy of the files from [`custom_components/illuminance`](custom_components/illuminance)",
+        "translatedContent": "Placez une copie des fichiers de [`custom_components/illuminance`](custom_components/illuminance)"
+      },
+      {
+        "row": 13,
+        "rowsha": "EQmU7VNTstb0WIACvbedPW4rQTEsL1r+DE2gMTa4W1I=",
+        "originContent": "in `<config>/custom_components/illuminance`,",
+        "translatedContent": "dans `<config>/custom_components/illuminance`,"
+      },
+      {
+        "row": 14,
+        "rowsha": "G6WtKYv5J5vKm1HNEqu8FK/VuyHNCNevpC0UP2in+vk=",
+        "originContent": "where `<config>` is your Home Assistant configuration directory.",
+        "translatedContent": "où `<config>` est votre répertoire de configuration Home Assistant."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "rQIxuNQO07LeNjCDyBNyJcl/kRmhHF1H8kklkKIBPEA=",
+        "originContent": ">__NOTE__: When downloading, make sure to use the `Raw` button from each file's page.",
+        "translatedContent": ">__NOTE__ : Lors du téléchargement, assurez-vous d'utiliser le bouton `Raw` sur la page de chaque fichier."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "iKxEwaqPw8IiEEWQ6czEzAvKi1nrFO/wqlPbG+tChcM=",
+        "originContent": "</details>",
+        "translatedContent": "</details>"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "FtiRQOfo2xQ0S0lYw/T3JQbrke//d7aTuHAHtNjj+FA=",
+        "originContent": "### Post Installation",
+        "translatedContent": "### Après l'installation"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "zJDgJCiC7qwf+90DSP0uwkfCDoIDyPPBzwERzmZkh1o=",
+        "originContent": "After it has been downloaded you will need to restart Home Assistant.",
+        "translatedContent": "Après le téléchargement, vous devrez redémarrer Home Assistant."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "+OwoI7vb47Kd86jA1KySU/eacOugsaIRnFsC8RSo7So=",
+        "originContent": "### Versions",
+        "translatedContent": "### Versions"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "+p2i50nV0mO12df18fyzJ7rjxR9TtB32F1/JtJJ+cbo=",
+        "originContent": "This custom integration supports HomeAssistant versions 2024.8.3 or newer.",
+        "translatedContent": "Cette intégration personnalisée supporte les versions HomeAssistant 2024.8.3 ou plus récentes."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "dSOarue8Yl8uzlWnXN9UcniN+Z6Flv9tSobhCgyrx1Y=",
+        "originContent": "## Services",
+        "translatedContent": "## Services"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "cah97O1JAOVk5R5yL/mMzihyc+grdHyqtxXwVeZmDPQ=",
+        "originContent": "### `illuminance.reload`",
+        "translatedContent": "### `illuminance.reload`"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "s4OBuJnKTA9M8m3Xru1uwUB79W6nuBXrAve+aRinrdQ=",
+        "originContent": "Reloads Illuminance from the YAML-configuration. Also adds `ILLUMINANCE` to the Developers Tools -> YAML page.",
+        "translatedContent": "Recharge Illuminance depuis la configuration YAML. Ajoute également `ILLUMINANCE` à la page Outils pour développeurs -> YAML."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Dok4hjrWRiAv7IbpZN95EeQiam4CSco29ZrMzikBB0Y=",
+        "originContent": "## Configuration variables",
+        "translatedContent": "## Variables de configuration"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "3E4IHgJ9WS+VRaJxFo+OfKm+vcVSqC2M8szIpwUdbPw=",
+        "originContent": "A list of configuration options for one or more sensors. Each sensor is defined by the following options.",
+        "translatedContent": "Une liste d'options de configuration pour un ou plusieurs capteurs. Chaque capteur est défini par les options suivantes."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "sOU8z7bePjQzMIhMeQmX9aswzM44DPFaIqo9PchmUh8=",
+        "originContent": "> Note: This defines configuration via YAML. However, the same sensors can be added in the UI.",
+        "translatedContent": "> Note : Ceci définit la configuration via YAML. Cependant, les mêmes capteurs peuvent être ajoutés via l’interface utilisateur."
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "726Spl1abPCah3MNgSnrSvon5syY0t0XXH9upoZta+g=",
+        "originContent": "Key | Optional | Description",
+        "translatedContent": "Clé | Optionnel | Description"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "-|-|-\n`unique_id` | no | Unique identifier for sensor. This allows any of the remaining options to be changed without looking like a new sensor. (Only required for YAML-based configuration.)\n`entity_id` | yes | Entity ID of another entity that indicates current weather conditions or cloud coverage percentage\n`fallback` | yes | Illuminance divisor to use when weather data is not available. Must be in the range of 1 (clear) through 10 (dark.) Default is 10 if `entity_id` is used, or 1 if not.\n`mode` | yes | Mode of operation. Choices are `normal` (default) which uses sun elevation, `simple` which uses time of day and `irradiance` which is the same as `normal`, except the value is expressed as irradiance in Watts/M².\n`name` | yes | Name of the sensor. Default is `Illuminance`.\n`scan_interval` | yes | Update interval. Minimum is 30 seconds. Default is 5 minutes.\n\n## Releases Before 2.1.0\nSee https://github.com/pnbruckner/homeassistant-config/blob/master/docs/illuminance.md.\n",
+    "ContentSha": "93x0dIWg3Res66U1uDU/VMEXBLSrPuvZhI0YnInYugs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "-|-|-\n`unique_id` | non | Identifiant unique pour le capteur. Cela permet de modifier n’importe quelle autre option sans que cela ressemble à un nouveau capteur. (Requis uniquement pour la configuration basée sur YAML.)\n`entity_id` | oui | ID d'entité d'une autre entité indiquant les conditions météorologiques actuelles ou le pourcentage de couverture nuageuse\n`fallback` | oui | Diviseur d'illuminance à utiliser lorsque les données météorologiques ne sont pas disponibles. Doit être compris entre 1 (clair) et 10 (obscur). Par défaut, c’est 10 si `entity_id` est utilisé, ou 1 sinon.\n`mode` | oui | Mode de fonctionnement. Les choix sont `normal` (par défaut) qui utilise l'élévation du soleil, `simple` qui utilise l'heure de la journée et `irradiance` qui est identique à `normal`, sauf que la valeur est exprimée en irradiance en Watts/m².\n`name` | oui | Nom du capteur. Par défaut `Illuminance`.\n`scan_interval` | oui | Intervalle de mise à jour. Le minimum est de 30 secondes. Par défaut, c’est 5 minutes.\n\n## Versions avant 2.1.0\nVoir https://github.com/pnbruckner/homeassistant-config/blob/master/docs/illuminance.md.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "bX9gPHxMhPSn5oe4UsQZpd9WqOmg60qkaXT6/CQbdzI=",
+        "originContent": "-|-|-",
+        "translatedContent": "-|-|-"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZD9yXR0BVdBmGGuQP1R7JHIUsPDDAaHVuDF+4ZGoJ70=",
+        "originContent": "`unique_id` | no | Unique identifier for sensor. This allows any of the remaining options to be changed without looking like a new sensor. (Only required for YAML-based configuration.)",
+        "translatedContent": "`unique_id` | non | Identifiant unique pour le capteur. Cela permet de modifier n’importe quelle autre option sans que cela ressemble à un nouveau capteur. (Requis uniquement pour la configuration basée sur YAML.)"
+      },
+      {
+        "row": 3,
+        "rowsha": "kcX6U2ihQzFp28J6DnejmFp8qQKq4ltjudWNzZ1KgPY=",
+        "originContent": "`entity_id` | yes | Entity ID of another entity that indicates current weather conditions or cloud coverage percentage",
+        "translatedContent": "`entity_id` | oui | ID d'entité d'une autre entité indiquant les conditions météorologiques actuelles ou le pourcentage de couverture nuageuse"
+      },
+      {
+        "row": 4,
+        "rowsha": "fueHhKWB9/EtOTLRw4jh8cI6Iho/7fka7sHeBmhog64=",
+        "originContent": "`fallback` | yes | Illuminance divisor to use when weather data is not available. Must be in the range of 1 (clear) through 10 (dark.) Default is 10 if `entity_id` is used, or 1 if not.",
+        "translatedContent": "`fallback` | oui | Diviseur d'illuminance à utiliser lorsque les données météorologiques ne sont pas disponibles. Doit être compris entre 1 (clair) et 10 (obscur). Par défaut, c’est 10 si `entity_id` est utilisé, ou 1 sinon."
+      },
+      {
+        "row": 5,
+        "rowsha": "GAWqE4nJFAwx/v4ChDqeN4scycl9tXB/9pXKID5+Mfc=",
+        "originContent": "`mode` | yes | Mode of operation. Choices are `normal` (default) which uses sun elevation, `simple` which uses time of day and `irradiance` which is the same as `normal`, except the value is expressed as irradiance in Watts/M².",
+        "translatedContent": "`mode` | oui | Mode de fonctionnement. Les choix sont `normal` (par défaut) qui utilise l'élévation du soleil, `simple` qui utilise l'heure de la journée et `irradiance` qui est identique à `normal`, sauf que la valeur est exprimée en irradiance en Watts/m²."
+      },
+      {
+        "row": 6,
+        "rowsha": "8+yPy8xkrmP4DctjmqdDBYj19Wm8FDSxs2kkIwOCJD0=",
+        "originContent": "`name` | yes | Name of the sensor. Default is `Illuminance`.",
+        "translatedContent": "`name` | oui | Nom du capteur. Par défaut `Illuminance`."
+      },
+      {
+        "row": 7,
+        "rowsha": "vS2G5x1qeqhjGLPmmV1ryTAUf14QVI2c171XEIwX//U=",
+        "originContent": "`scan_interval` | yes | Update interval. Minimum is 30 seconds. Default is 5 minutes.",
+        "translatedContent": "`scan_interval` | oui | Intervalle de mise à jour. Le minimum est de 30 secondes. Par défaut, c’est 5 minutes."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Arn1Pq05EF1hvLvqv2YNBbGNidUx0zhUsaF4xso1Ar8=",
+        "originContent": "## Releases Before 2.1.0",
+        "translatedContent": "## Versions avant 2.1.0"
+      },
+      {
+        "row": 10,
+        "rowsha": "X80NMC3l2fREczSUDckpYbp7fIc+DGL+l+Ly3PDyTyc=",
+        "originContent": "See https://github.com/pnbruckner/homeassistant-config/blob/master/docs/illuminance.md.",
+        "translatedContent": "Voir https://github.com/pnbruckner/homeassistant-config/blob/master/docs/illuminance.md."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

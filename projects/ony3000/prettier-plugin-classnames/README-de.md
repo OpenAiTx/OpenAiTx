@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Sprache</summary>
@@ -32,7 +31,7 @@
 
 # prettier-plugin-classnames
 
-Ein Prettier-Plugin, das ausführliche Klassennamen basierend auf der Option `printWidth` umbrechen kann.
+Ein Prettier-Plugin, das ausführliche Klassennamen basierend auf der `printWidth`-Option umbricht.
 
 ![Ein Anwendungsfall für dieses Plugin.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
@@ -185,6 +184,6 @@ JSON-Beispiel:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

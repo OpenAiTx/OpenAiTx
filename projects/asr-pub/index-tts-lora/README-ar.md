@@ -28,17 +28,18 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # index-tts-lora
 
 [النسخة الصينية](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [النسخة الإنجليزية](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-هذا المشروع يعتمد على [index-tts](https://github.com/index-tts/index-tts) الخاص بـ Bilibili، ويقدم حلول **ضبط دقيق LoRA** لكل من **الإعدادات أحادية المتحدث ومتعددة المتحدثين**. يهدف إلى تحسين **الإيقاع والطبيعية** في توليف الصوت عالي الجودة للمتحدث.
+هذا المشروع مبني على [index-tts](https://github.com/index-tts/index-tts) من Bilibili، ويقدم حلول **تحسين LoRA** لكل من إعدادات **المتحدث الواحد والمتعدد المتحدثين**. يهدف إلى تعزيز **الإيقاع والطبيعية** في توليد صوت المتحدث عالي الجودة.
 
 ### التدريب والاستدلال
 
-#### 1. استخراج رمز الصوت وشرط المتحدث
+#### 1. استخراج رمز الصوت وحالة المتحدث
 
 ```shell
 # Extract tokens and speaker conditions
@@ -78,30 +79,29 @@ python train.py
 python indextts/infer.py
 ```
 
-### نتائج الضبط الدقيق
+### نتائج التخصيص الدقيق
 
-تستخدم هذه التجربة **بيانات صوتية صينية** من *كاي شو يروي القصص*، بإجمالي مدة **حوالي 30 دقيقة** و **270 مقطع صوتي**.
-تم تقسيم مجموعة البيانات إلى **244 عينة تدريب** و **26 عينة تحقق**.
-ملاحظة: تم توليد النصوص تلقائيًا عبر نماذج تحويل الكلام إلى نص ونماذج علامات الترقيم، بدون تصحيح يدوي، لذا من المتوقع وجود بعض الأخطاء.
+يستخدم هذا الاختبار **بيانات صوتية صينية** من *كاي شو يروي القصص*، بإجمالي مدة **حوالي 30 دقيقة** و **270 مقطعًا صوتيًا**.
+تم تقسيم مجموعة البيانات إلى **244 عينة تدريبية** و **26 عينة تحقق**.
+ملاحظة: تم توليد النصوص تلقائيًا عبر نماذج التعرف التلقائي على الكلام وعلامات الترقيم، دون تصحيح يدوي، لذلك من المتوقع وجود بعض الأخطاء.
 
-مثال لعينة تدريب، `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
+مثال على عينة تدريب: `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
 
 
 #### 1. أمثلة على توليد الكلام
 
 
-| النص                                                          | الصوت                                                        |
-| ------------------------------------------------------------- | ------------------------------------------------------------ |
-| توقفت ساعة القصر القديم عند الثالثة منتصف الليل، وظهرت آثار أقدام غريبة وسط الغبار. انحنى المحقق واكتشف خاتمًا ملطخًا بالدماء بين شقوق الأرضية. | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
-| تحت ضوء القمر، ظهرت على اليقطينة فجأة وجه مبتسم، وتحركت الكرمة لتفتح سياج الحديقة. وقفت الفتاة الصغيرة على أطراف أصابعها، تسمع الفطر يغني تهويدة قديمة. | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
-| إذًا في لغة جافا يجب دراسة المستوى المتوسط، وأيضًا تطوير أنظمة التطبيقات الخارجية للواجهة الأمامية، ويجب دراسة قاعدة بيانات Java Script، وإنشاء مواقع ديناميكية. | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
-| هذا الـ financial report يحلل بالتفصيل أداء الإيرادات واتجاهات الإنفاق للشركة في الربع الماضي. | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
-| صعد ونزل الجبل وصعد جبلًا آخر، وركض ثلاثة أميال وثلاثة أمتار وثلاثة، وتسلق جبلًا شاهقًا بارتفاع ثلاثمائة وثلاثة. وبعد أن وصل الجبل، صاح بصوت عالٍ: أنا أعلى من الجبل بثلاثة أقدام وثلاثة. | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
-| رجل نحيف يستلقي بجانب الطريق وقميصه وحذاؤه مخلوعان وحقائبه بجانبه. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
-| مع استمرار البحث، تم إثبات التأثير الوقائي للفلورايد ضد تسوس الأسنان. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
+| النص                                                         | الصوت                                                        |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| توقفَت ساعة المنزل القديم عند الثالثة بعد منتصف الليل، وظهرت آثار أقدام غريبة في الغبار. انحنى المحقق واكتشف خاتمًا ملطخًا بالدماء مخفيًا في شقوق الأرضية. | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
+| تحت ضوء القمر، ظهر وجه مبتسم على اليقطين فجأة، وتلوّت الكرمة دافعة بوابة الحديقة. وقفت الطفلة على أطراف أصابعها، وسمعت الفطر يدندن لحن تهويدة قديمة. | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
+| إذًا في جافا، لا بد أن تتعلم المستوى المتوسط، M وتطوير أنظمة تطبيق الواجهة الأمامية الخارجية، وتتعلم قاعدة بيانات Java Script، وتتعلم إنشاء مواقع ديناميكية. | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
+| هذا الـ financial report يحلل بالتفصيل أداء الإيرادات trends وexpenditure trends للشركة في الربع الماضي. | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
+| صعود الجبل نزول الجبل، جبل بعد جبل، ركض ثلاث لي وثلاثة أمتار وثلاثة، صعد جبلًا عاليًا، ارتفاع الجبل ثلاثمئة وثلاثة. بعد الصعود، صاح بصوت عالٍ: أنا أعلى من الجبل بثلاثة أقدام وثلاثة. | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
+| رجل نحيف مستلقٍ على جانب الطريق وقميصه وحذاؤه مخلوعان وحقائبه بجانبه. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
+| مع استمرار الأبحاث، تم إثبات التأثير الوقائي للفلورايد ضد تسوس الأسنان. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
 
 #### 2. تقييم النموذج
-للاطلاع على تفاصيل مجموعة التقييم، راجع: [معيار 2025 لنماذج تحويل النص إلى كلام: من هو أفضل حل لتوليد الصوت؟](https://mp.weixin.qq.com/s/5z_aRKQG3OIv7fnSdxegqQ)
 <img width="1182" height="261" alt="image" src="https://github.com/user-attachments/assets/fb86938d-95d9-4b10-9588-2de1e43b51d1" />
 
 ### الشكر والتقدير
@@ -113,6 +113,6 @@ python indextts/infer.py
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

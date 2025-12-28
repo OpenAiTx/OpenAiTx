@@ -28,17 +28,18 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # index-tts-lora
 
 [Versão em Chinês](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [Versão em Inglês](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-Este projeto é baseado no [index-tts](https://github.com/index-tts/index-tts) da Bilibili, fornecendo soluções de **ajuste fino LoRA** tanto para configurações de **um único locutor quanto multi-locutor**. O objetivo é aprimorar a **prosódia e naturalidade** na síntese de áudio de alta qualidade de locutores.
+Este projeto é baseado no [index-tts](https://github.com/index-tts/index-tts) do Bilibili, fornecendo soluções de **ajuste fino LoRA** para configurações de **falante único e múltiplos falantes**. O objetivo é aprimorar a **prosódia e naturalidade** na síntese de áudio de alta qualidade de falantes.
 
 ### Treinamento & Inferência
 
-#### 1. Extração de token de áudio e condição do locutor
+#### 1. Extração de token de áudio e condição do falante
 
 ```shell
 # Extract tokens and speaker conditions
@@ -80,9 +81,9 @@ python indextts/infer.py
 
 ### Resultados do Ajuste Fino
 
-Este experimento utiliza **dados de áudio em chinês** de *Kai Shu Conta Histórias*, com duração total de **\~30 minutos** e **270 clipes de áudio**.
-O conjunto de dados está dividido em **244 amostras de treinamento** e **26 amostras de validação**.
-Nota: As transcrições foram geradas automaticamente via modelos de ASR e pontuação, sem correção manual, portanto, alguns erros são esperados.
+Este experimento utiliza **dados de áudio em chinês** do *Kai Shu Conta Histórias*, com duração total de **\~30 minutos** e **270 clipes de áudio**.
+O conjunto de dados é dividido em **244 amostras de treinamento** e **26 amostras de validação**.
+Nota: As transcrições foram geradas automaticamente via modelos de ASR e pontuação, sem correção manual, portanto alguns erros são esperados.
 
 Exemplo de amostra de treinamento, `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
 
@@ -101,7 +102,6 @@ Exemplo de amostra de treinamento, `他上了马车，来到了皇宫之中。`�
 | As research continued, the protective effect of fluoride against dental decay was demonstrated. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
 
 #### 2. Avaliação do Modelo
-Para detalhes do conjunto de avaliação, veja: [2025 Benchmark of Mainstream TTS Models: Who Is the Best Voice Synthesis Solution?](https://mp.weixin.qq.com/s/5z_aRKQG3OIv7fnSdxegqQ)
 <img width="1182" height="261" alt="image" src="https://github.com/user-attachments/assets/fb86938d-95d9-4b10-9588-2de1e43b51d1" />
 
 ### Agradecimentos
@@ -113,6 +113,6 @@ Para detalhes do conjunto de avaliação, veja: [2025 Benchmark of Mainstream TT
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

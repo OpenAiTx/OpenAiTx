@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Idioma</summary>
@@ -32,7 +31,7 @@
 
 # prettier-plugin-classnames
 
-Um plugin do Prettier que quebra nomes de classes longos com base na opção `printWidth`.
+Um plugin do Prettier que quebra nomes de classes extensos com base na opção `printWidth`.
 
 ![Um caso de uso para este plugin.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
@@ -185,6 +184,6 @@ Exemplo em JSON:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

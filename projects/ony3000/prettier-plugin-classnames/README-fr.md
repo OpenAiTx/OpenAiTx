@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Langue</summary>
@@ -32,9 +31,9 @@
 
 # prettier-plugin-classnames
 
-Un plugin Prettier qui découpe les noms de classes trop longs selon l’option `printWidth`.
+Un plugin Prettier qui encapsule les noms de classes verbeux selon l’option `printWidth`.
 
-![Un cas d’utilisation de ce plugin.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
+![Un cas d’utilisation pour ce plugin.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
 ## Installation[^1]
 
@@ -185,6 +184,6 @@ Exemple JSON :
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

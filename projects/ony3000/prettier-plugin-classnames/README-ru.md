@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Язык</summary>
@@ -32,7 +31,7 @@
 
 # prettier-plugin-classnames
 
-Плагин Prettier, который переносит длинные имена классов в соответствии с опцией `printWidth`.
+Плагин Prettier, который переносит длинные имена классов на основе опции `printWidth`.
 
 ![Пример использования этого плагина.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
@@ -185,6 +184,6 @@ export default {
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

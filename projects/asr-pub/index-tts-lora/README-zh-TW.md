@@ -28,17 +28,18 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # index-tts-lora
 
-[中文版本](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [英文版](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
+[中文版本](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [English Version](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-本專案基於 Bilibili 的 [index-tts](https://github.com/index-tts/index-tts)，提供了針對**單一說話人及多說話人**的 **LoRA 微調**方案。旨在提升高品質說話人語音合成的**韻律性與自然度**。
+本專案基於嗶哩嗶哩的[index-tts](https://github.com/index-tts/index-tts)，為**單說話人及多說話人**場景提供**LoRA微調**解決方案。旨在提升高品質說話人語音合成的**韻律與自然度**。
 
 ### 訓練與推理
 
-#### 1. 音訊標記與說話者條件擷取
+#### 1. 音訊標記與說話者條件提取
 
 ```shell
 # Extract tokens and speaker conditions
@@ -77,11 +78,12 @@ python train.py
 ```shell
 python indextts/infer.py
 ```
-### 微調成果
 
-本次實驗採用*凱叔講故事*的**中文語音數據**，總時長約**30分鐘**，共**270段音頻**。
-資料集分為**244個訓練樣本**和**26個驗證樣本**。
-注意：文本稿由語音識別及標點模型自動生成，未經人工校正，因此預期會有一定錯誤。
+### 微調結果
+
+本實驗使用來自 *凱叔講故事* 的 **中文語音資料**，總時長約 **30 分鐘**，共 **270 段語音片段**。
+資料集分為 **244 個訓練樣本** 和 **26 個驗證樣本**。
+注意：語音稿是通過語音識別及標點模型自動生成，未經人工校正，因此可能存在錯誤。
 
 訓練樣本範例，`他上了馬車，來到了皇宮之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
 
@@ -89,7 +91,7 @@ python indextts/infer.py
 #### 1. 語音合成範例
 
 
-| 文字                                                         | 音頻                                                        |
+| 文字                                                         | 音訊                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 老宅的鐘錶停在午夜三點，灰塵中浮現一串陌生腳印。偵探蹲下身，發現地板縫隙裡藏著一枚帶血的戒指。 | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
 | 月光下，南瓜突然長出笑臉，藤蔓扭動著推開花園柵欄。小女孩踮起腳，聽見蘑菇在哼唱古老的搖籃曲。 | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
@@ -100,7 +102,6 @@ python indextts/infer.py
 | As research continued, the protective effect of fluoride against dental decay was demonstrated. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
 
 #### 2. 模型評估
-評估集詳情請參見：[2025主流TTS模型大比拼：誰是最佳語音合成解決方案？](https://mp.weixin.qq.com/s/5z_aRKQG3OIv7fnSdxegqQ)
 <img width="1182" height="261" alt="image" src="https://github.com/user-attachments/assets/fb86938d-95d9-4b10-9588-2de1e43b51d1" />
 
 ### 致謝
@@ -110,9 +111,8 @@ python indextts/infer.py
 [finetune-index-tts](https://github.com/yrom/finetune-index-tts)
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

@@ -28,17 +28,18 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # index-tts-lora
 
-[เวอร์ชั่นภาษาจีน](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [เวอร์ชั่นภาษาอังกฤษ](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
+[เวอร์ชันภาษาจีน](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [เวอร์ชันภาษาอังกฤษ](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-โปรเจกต์นี้อ้างอิงจาก [index-tts](https://github.com/index-tts/index-tts) ของ Bilibili โดยให้บริการโซลูชันการ **ปรับแต่ง LoRA** สำหรับทั้ง **การใช้งานแบบผู้พูดเดี่ยวและหลายผู้พูด** มุ่งเน้นเพื่อพัฒนาคุณภาพ **จังหวะเสียงและความเป็นธรรมชาติ** ในการสังเคราะห์เสียงพูดคุณภาพสูง
+โปรเจกต์นี้มีพื้นฐานมาจาก [index-tts](https://github.com/index-tts/index-tts) ของ Bilibili โดยให้โซลูชัน **LoRA fine-tuning** สำหรับทั้ง **แบบพูดคนเดียวและหลายคน** มีเป้าหมายเพื่อยกระดับ **จังหวะและความเป็นธรรมชาติ** ในการสังเคราะห์เสียงพูดคุณภาพสูง
 
-### การเทรนและการอนุมาน
+### การฝึกสอน & การอนุมาน
 
-#### 1. การแยกโทเค็นเสียงและเงื่อนไขของผู้พูด
+#### 1. การสกัดโทเคนเสียงและเงื่อนไขของผู้พูด
 
 ```shell
 # Extract tokens and speaker conditions
@@ -78,11 +79,11 @@ python train.py
 python indextts/infer.py
 ```
 
-### ผลลัพธ์การปรับแต่งโมเดล
+### ผลการปรับแต่งโมเดล
 
-การทดลองนี้ใช้ **ข้อมูลเสียงภาษาจีน** จาก *Kai Shu Tells Stories* รวมระยะเวลาทั้งหมด **ประมาณ 30 นาที** และ **270 คลิปเสียง** 
-ชุดข้อมูลแบ่งออกเป็น **244 ตัวอย่างสำหรับฝึก** และ **26 ตัวอย่างสำหรับตรวจสอบความถูกต้อง**
-หมายเหตุ: ข้อความถอดเสียงถูกสร้างโดยอัตโนมัติผ่านระบบ ASR และโมเดลใส่เครื่องหมายวรรคตอน โดยไม่มีการแก้ไขด้วยมือ ดังนั้นอาจมีข้อผิดพลาดบางส่วน
+การทดลองนี้ใช้ **ข้อมูลเสียงภาษาจีน** จาก *Kai Shu Tells Stories* โดยมีระยะเวลารวม **ประมาณ 30 นาที** และ **270 คลิปเสียง**  
+ชุดข้อมูลถูกแบ่งเป็น **244 ตัวอย่างสำหรับฝึก** และ **26 ตัวอย่างสำหรับตรวจสอบความถูกต้อง**  
+หมายเหตุ: ข้อความถอดเสียงถูกสร้างโดยอัตโนมัติผ่านโมเดล ASR และระบบวรรคตอน โดยไม่มีการแก้ไขด้วยมนุษย์ จึงอาจมีข้อผิดพลาดบ้าง
 
 ตัวอย่างข้อมูลฝึก, `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
 
@@ -90,21 +91,20 @@ python indextts/infer.py
 #### 1. ตัวอย่างการสังเคราะห์เสียงพูด
 
 
-| ข้อความ                                                         | ไฟล์เสียง                                                        |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| นาฬิกาในคฤหาสน์เก่าหยุดที่สามทุ่มตรง เศษฝุ่นลอยขึ้นเผยรอยเท้าคนแปลกหน้า นักสืบย่อตัวลง พบแหวนเปื้อนเลือดซ่อนอยู่ในร่องไม้พื้น | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
-| ใต้แสงจันทร์ ฟักทองจู่ๆ ก็มีใบหน้าที่ยิ้มแย้ม เถาวัลย์บิดตัวเปิดรั้วสวนออก เด็กหญิงเขย่งเท้า ฟังเห็ดร้องเพลงกล่อมโบราณ | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
-| ดังนั้นใน Java ระดับกลางยังต้องเรียน ตั้งแต่ M ไปจนถึงการพัฒนาระบบแอปพลิเคชันฝั่ง frontend ภายนอก ต้องเรียน Java Script ฐานข้อมูล และการทำเว็บไซต์แบบไดนามิก | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
-| รายงานการเงินนี้วิเคราะห์รายละเอียดเกี่ยวกับการดำเนินงานด้านรายได้และแนวโน้มการใช้จ่ายของบริษัทในไตรมาสที่ผ่านมา | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
-| ขึ้นเขาลงเขาขึ้นอีกเขา ลงอีกเขา วิ่งไปสามลี้สามเมตรสาม ขึ้นเขาสูงหนึ่งลูก เขาสูงระดับน้ำทะเลสามร้อยสาม ขึ้นถึงยอดตะโกนดัง: ฉันสูงกว่าเขาสามศอกสาม | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
-| ชายผอมคนหนึ่งนอนพิงริมถนน เสื้อกับรองเท้าถูกถอดออกและมีถุงวางอยู่ใกล้ ๆ | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
-| จากการวิจัยต่อเนื่อง พบว่าฟลูออไรด์มีผลป้องกันฟันผุได้อย่างชัดเจน | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
+| ข้อความ                                                        | เสียง                                                        |
+| -------------------------------------------------------------- | ------------------------------------------------------------ |
+| นาฬิกาในบ้านเก่าหยุดที่เที่ยงคืนสามนาฬิกา มีรอยเท้าแปลกปลอมปรากฏบนฝุ่น นักสืบย่อตัวลง พบแหวนเปื้อนเลือดซ่อนอยู่ในร่องพื้นไม้ | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
+| ใต้แสงจันทร์ ฟักทองจู่ๆ ก็มีใบหน้าที่ยิ้มแย้ม เถาวัลย์บิดตัวผลักรั้วสวน เด็กหญิงเขย่งเท้า ได้ยินเห็ดร้องเพลงกล่อมโบราณ | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
+| ดังนั้นใน Java ระดับกลางยังต้องเรียน และไปถึงการพัฒนาระบบแอปพลิเคชันฝั่งหน้าบ้านภายนอก ต้องเรียนฐานข้อมูล Java Script ต้องเรียนการทำเว็บไซต์ไดนามิก | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
+| รายงานการเงินนี้ได้วิเคราะห์รายละเอียดประสิทธิภาพรายรับและแนวโน้มการใช้จ่ายของบริษัทในไตรมาสที่ผ่านมา | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
+| ขึ้นเขาลงเขาขึ้นเขา หนึ่งเขา สองเขา วิ่งสามลี้สามเมตรสาม ขึ้นเขาสูงลูกหนึ่ง สูงเหนือระดับน้ำทะเลสามร้อยสาม ขึ้นเขาแล้วตะโกนดังว่า: ฉันสูงกว่าเขาสามฟุตสาม | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
+| ชายผอมคนหนึ่งนอนอยู่ข้างถนน เสื้อและรองเท้าหลุดออก ถุงวางอยู่ใกล้ ๆ | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
+| เมื่อการวิจัยดำเนินต่อไป พบว่า ฟลูออไรด์มีฤทธิ์ป้องกันฟันผุอย่างมีประสิทธิภาพ | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
 
-#### 2. การประเมินผลโมเดล
-ดูรายละเอียดชุดประเมินผลได้ที่: [2025 Benchmark of Mainstream TTS Models: ใครคือโซลูชันสังเคราะห์เสียงที่ดีที่สุด?](https://mp.weixin.qq.com/s/5z_aRKQG3OIv7fnSdxegqQ)
+#### 2. การประเมินโมเดล
 <img width="1182" height="261" alt="image" src="https://github.com/user-attachments/assets/fb86938d-95d9-4b10-9588-2de1e43b51d1" />
 
-### คำขอบคุณ
+### ขอบคุณ
 
 [index-tts](https://github.com/index-tts/index-tts)
 
@@ -113,6 +113,6 @@ python indextts/infer.py
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

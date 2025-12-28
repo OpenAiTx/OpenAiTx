@@ -28,17 +28,18 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # index-tts-lora
 
 [Phiên bản tiếng Trung](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [Phiên bản tiếng Anh](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-Dự án này dựa trên [index-tts](https://github.com/index-tts/index-tts) của Bilibili, cung cấp giải pháp **tinh chỉnh LoRA** cho cả thiết lập **một người nói và nhiều người nói**. Mục tiêu nhằm nâng cao **ngữ điệu và sự tự nhiên** trong tổng hợp âm thanh chất lượng cao của người nói.
+Dự án này dựa trên [index-tts](https://github.com/index-tts/index-tts) của Bilibili, cung cấp giải pháp **tinh chỉnh LoRA** cho cả **thiết lập một người nói và nhiều người nói**. Mục tiêu nhằm nâng cao **ngữ điệu và sự tự nhiên** trong tổng hợp âm thanh người nói chất lượng cao.
 
 ### Huấn luyện & Suy luận
 
-#### 1. Trích xuất mã âm thanh và điều kiện người nói
+#### 1. Trích xuất token âm thanh và điều kiện người nói
 
 ```shell
 # Extract tokens and speaker conditions
@@ -82,26 +83,25 @@ python indextts/infer.py
 
 Thí nghiệm này sử dụng **dữ liệu âm thanh tiếng Trung** từ *Kai Shu Tells Stories*, với tổng thời lượng **\~30 phút** và **270 đoạn âm thanh**.
 Bộ dữ liệu được chia thành **244 mẫu huấn luyện** và **26 mẫu xác thực**.
-Lưu ý: Bản ghi âm được tạo tự động bằng mô hình ASR và chấm câu, không chỉnh sửa thủ công, vì vậy có thể có một số lỗi.
+Lưu ý: Bản phiên âm được tạo tự động qua hệ thống nhận diện giọng nói và mô hình dấu câu, không có chỉnh sửa thủ công, nên có thể có một số lỗi.
 
 Ví dụ mẫu huấn luyện, `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
 
 
-#### 1. Ví dụ Tổng hợp Giọng nói
+#### 1. Ví dụ tổng hợp giọng nói
 
 
-| Văn bản                                                        | Âm thanh                                                      |
+| Văn bản                                                         | Âm thanh                                                        |
 | -------------------------------------------------------------- | -------------------------------------------------------------- |
-| 老宅的钟表停在午夜三点，灰尘中浮现一串陌生脚印。侦探蹲下身，发现地板缝隙里藏着一枚带血的戒指。 | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
-| 月光下，南瓜突然长出笑脸，藤蔓扭动着推开花园栅栏。小女孩踮起脚，听见蘑菇在哼唱古老的摇篮曲。 | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
-| 那么Java里面中级还要学，M以及到外部前端的应用系统开发，要学到Java Script的数据库，要学做动态的网站。 | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
-| 这份 financial report 详细分析了公司在过去一个季度的 revenue performance 和 expenditure trends。 | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
-| 上山下山上一山，下一山，跑了三里三米三，登了一座大高山，山高海拔三百三。上了山，大声喊：我比山高三尺三。 | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
-| A thin man lies against the side of the street with his shirt and a shoe off and bags nearby. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
-| As research continued, the protective effect of fluoride against dental decay was demonstrated. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
+| Đồng hồ ở ngôi nhà cũ dừng lại lúc ba giờ sáng, một chuỗi dấu chân lạ xuất hiện giữa bụi bặm. Thám tử cúi xuống, phát hiện một chiếc nhẫn dính máu giấu trong kẽ sàn. | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
+| Dưới ánh trăng, quả bí ngô bỗng mọc khuôn mặt cười, dây leo uốn mình đẩy mở hàng rào khu vườn. Cô bé nhón chân lên, nghe thấy nấm đang ngân nga bài hát ru cổ xưa. | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
+| Vậy thì trong Java ở mức trung cấp còn phải học, M cũng như đến phát triển hệ thống ứng dụng phía trước bên ngoài, phải học cơ sở dữ liệu Java Script, phải học làm website động. | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
+| Báo cáo tài chính này phân tích chi tiết hiệu suất doanh thu và xu hướng chi tiêu của công ty trong quý vừa qua. | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
+| Lên núi xuống núi lên một núi, xuống một núi, chạy ba dặm ba mét ba, leo một ngọn núi cao lớn, núi cao độ cao ba trăm ba. Lên núi, hét lớn: Tôi cao hơn núi ba thước ba. | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
+| Một người đàn ông gầy nằm dựa bên đường, áo sơ mi và một chiếc giày đã tháo ra, túi xách đặt gần đó. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
+| Khi nghiên cứu tiếp tục, hiệu quả bảo vệ của fluoride chống lại sâu răng đã được chứng minh. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
 
-#### 2. Đánh giá Mô hình
-Để biết chi tiết về bộ đánh giá, xem tại: [2025 Benchmark of Mainstream TTS Models: Who Is the Best Voice Synthesis Solution?](https://mp.weixin.qq.com/s/5z_aRKQG3OIv7fnSdxegqQ)
+#### 2. Đánh giá mô hình
 <img width="1182" height="261" alt="image" src="https://github.com/user-attachments/assets/fb86938d-95d9-4b10-9588-2de1e43b51d1" />
 
 ### Lời cảm ơn
@@ -113,6 +113,6 @@ Ví dụ mẫu huấn luyện, `他上了马车，来到了皇宫之中。`：[k
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

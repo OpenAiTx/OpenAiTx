@@ -28,15 +28,16 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # index-tts-lora
 
 [中文版本](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [영문 버전](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-이 프로젝트는 Bilibili의 [index-tts](https://github.com/index-tts/index-tts)를 기반으로 하며, **단일 화자 및 다중 화자** 환경 모두를 위한 **LoRA 미세조정** 솔루션을 제공합니다. 고품질 화자 음성 합성에서 **운율과 자연스러움**을 향상시키는 것을 목표로 합니다.
+이 프로젝트는 Bilibili의 [index-tts](https://github.com/index-tts/index-tts)를 기반으로 하며, **단일 화자 및 다중 화자** 환경 모두에서 **LoRA 파인튜닝** 솔루션을 제공합니다. 고품질 화자 음성 합성에서 **운율과 자연스러움**을 강화하는 것을 목표로 합니다.
 
-### 학습 및 추론
+### 학습 & 추론
 
 #### 1. 오디오 토큰 및 화자 조건 추출
 
@@ -77,30 +78,30 @@ python train.py
 ```shell
 python indextts/infer.py
 ```
+
 ### 미세 조정 결과
 
-이 실험은 *Kai Shu Tells Stories*의 **중국어 음성 데이터**를 사용하며, 총 길이는 **약 30분**이고 **270개의 오디오 클립**이 포함되어 있습니다.  
-데이터셋은 **244개의 학습 샘플**과 **26개의 검증 샘플**로 분할됩니다.  
-참고: 대본은 ASR 및 구두점 모델을 통해 자동 생성되었으며, 수동 교정이 없으므로 일부 오류가 있을 수 있습니다.
+이번 실험은 *Kai Shu Tells Stories*의 **중국어 오디오 데이터**를 사용하며, 총 길이는 **약 30분**이고 **270개의 오디오 클립**이 포함되어 있습니다.
+데이터셋은 **244개의 학습 샘플**과 **26개의 검증 샘플**로 나뉩니다.
+참고: 전사본은 ASR 및 구두점 모델을 통해 자동으로 생성되었으며, 수동으로 수정하지 않았으므로 일부 오류가 있을 수 있습니다.
 
-학습 샘플 예시, `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
+학습 샘플 예시, `그는 마차를 타고 궁전으로 갔다.`: [kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
 
 
 #### 1. 음성 합성 예시
 
 
-| 텍스트                                                        | 오디오                                                        |
+| 텍스트                                                         | 오디오                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 오래된 집의 시계가 자정 3시에 멈췄고, 먼지 속에 낯선 발자국이 나타났다. 탐정은 쭈그리고 앉아 바닥 틈새에 피 묻은 반지를 발견했다. | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
-| 달빛 아래 호박이 갑자기 웃는 얼굴을 내고 덩굴이 꿈틀거리며 정원 울타리를 밀어냈다. 여자아이는 발끝으로 서서 버섯이 오래된 자장가를 흥얼거리는 것을 들었다. | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
-| 그래서 Java 중급도 배워야 하고, M 및 외부 프론트엔드 응용 시스템 개발도 배워야 하며, Java Script 데이터베이스도 배우고, 동적인 웹사이트를 만드는 법을 배워야 한다. | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
-| 이 financial report는 회사의 지난 분기 revenue performance와 expenditure trends를 상세히 분석했다. | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
-| 산을 오르고 내리며 한 산, 다음 산, 3리 3미 3을 달리고 큰 고산에 올랐다. 산 높이는 해발 333이다. 산에 올라 크게 외쳤다: 나는 산보다 3척 3 더 높다. | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
-| 한 마른 남자가 셔츠와 신발을 벗은 채 거리 옆에 누워 있고 가방들이 근처에 있다. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
-| 연구가 계속되면서 불소가 치아 부식 방지에 보호 효과가 있음이 입증되었다. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
+| 오래된 집의 시계는 자정 3시에 멈췄고, 먼지 속에 낯선 발자국이 나타났다. 탐정은 몸을 낮춰 바닥 틈새에서 피 묻은 반지를 발견했다. | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
+| 달빛 아래서 호박이 갑자기 웃는 얼굴을 내밀고, 덩굴이 꿈틀거리며 정원 울타리를 밀어냈다. 소녀는 까치발을 들어 버섯이 오래된 자장가를 흥얼거리는 소리를 들었다. | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
+| 그럼 Java에서는 중급을 더 배워야 하고, M 그리고 외부 프론트엔드 응용 시스템 개발, Java Script 데이터베이스, 동적인 웹사이트 제작을 배워야 합니다. | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
+| 이 financial report는 회사의 지난 분기 revenue performance와 expenditure trends를 상세히 분석했습니다. | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
+| 산을 오르고 내리고 또 한 산, 다음 산, 세리 세미 삼, 큰 산을 올랐네, 산 높이 해발 삼백삼. 산에 올라 크게 외치네: 내가 산보다 세 치 삼 더 높아. | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
+| A thin man lies against the side of the street with his shirt and a shoe off and bags nearby. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
+| As research continued, the protective effect of fluoride against dental decay was demonstrated. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
 
-#### 2. 모델 평가  
-평가 세트에 대한 자세한 내용은 다음을 참조하세요: [2025년 주류 TTS 모델 벤치마크: 최고의 음성 합성 솔루션은?](https://mp.weixin.qq.com/s/5z_aRKQG3OIv7fnSdxegqQ)  
+#### 2. 모델 평가
 <img width="1182" height="261" alt="image" src="https://github.com/user-attachments/assets/fb86938d-95d9-4b10-9588-2de1e43b51d1" />
 
 ### 감사의 글
@@ -110,9 +111,8 @@ python indextts/infer.py
 [finetune-index-tts](https://github.com/yrom/finetune-index-tts)
 
 
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

@@ -28,17 +28,18 @@
       </div>
     </div>
   </details>
+
 </div>
 
 # index-tts-lora
 
-[Versione in Cinese](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [Versione in Inglese](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
+[Versione in cinese](https://github.com/asr-pub/index-tts-lora/blob/main/README_zh.md) | [Versione in inglese](https://github.com/asr-pub/index-tts-lora/blob/main/README.md)
 
-Questo progetto si basa su [index-tts](https://github.com/index-tts/index-tts) di Bilibili, offrendo soluzioni di **LoRA fine-tuning** sia per configurazioni **single-speaker che multi-speaker**. Mira a migliorare **prosodia e naturalezza** nella sintesi vocale di alta qualità.
+Questo progetto si basa su [index-tts](https://github.com/index-tts/index-tts) di Bilibili, offrendo soluzioni di **fine-tuning LoRA** sia per configurazioni **mono-speaker che multi-speaker**. Mira a migliorare la **prosodia e la naturalezza** nella sintesi audio di alta qualità degli speaker.
 
 ### Addestramento & Inferenza
 
-#### 1. Estrazione del token audio e della condizione dell'oratore
+#### 1. Estrazione del token audio e della condizione del parlante
 
 ```shell
 # Extract tokens and speaker conditions
@@ -80,11 +81,11 @@ python indextts/infer.py
 
 ### Risultati del Fine-tuning
 
-Questo esperimento utilizza **dati audio cinesi** da *Kai Shu Tells Stories*, con una durata totale di **\~30 minuti** e **270 clip audio**.
-Il dataset è suddiviso in **244 campioni di training** e **26 campioni di validazione**.
+Questo esperimento utilizza **dati audio cinesi** da *Kai Shu Tells Stories*, con una durata totale di **~30 minuti** e **270 clip audio**.
+Il dataset è suddiviso in **244 campioni di addestramento** e **26 campioni di validazione**.
 Nota: Le trascrizioni sono state generate automaticamente tramite modelli ASR e di punteggiatura, senza correzione manuale, quindi sono previsti alcuni errori.
 
-Esempio di campione di training, `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
+Esempio di campione di addestramento, `他上了马车，来到了皇宫之中。`：[kaishu_train_01.wav](https://github.com/user-attachments/files/22354621/kaishu_train_01.wav)
 
 
 #### 1. Esempi di Sintesi Vocale
@@ -92,16 +93,15 @@ Esempio di campione di training, `他上了马车，来到了皇宫之中。`：
 
 | Testo                                                        | Audio                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| L’orologio della vecchia casa si è fermato alle tre di notte e tra la polvere appare una fila di impronte sconosciute. Il detective si accovaccia e trova un anello insanguinato nascosto tra le fessure del pavimento. | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
-| Al chiaro di luna, la zucca improvvisamente spunta un sorriso, il viticcio si muove e apre la recinzione del giardino. La bambina si mette sulle punte dei piedi e sente i funghi cantare un’antica ninna nanna. | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
-| Quindi in Java bisogna ancora studiare a livello intermedio, M e fino allo sviluppo di sistemi applicativi frontend esterni, bisogna imparare il database di Java Script e a creare siti web dinamici. | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
-| Questo financial report analizza in dettaglio la revenue performance e le expenditure trends dell’azienda nell’ultimo trimestre. | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
-| Salire e scendere dalla montagna, su una montagna, giù da un’altra, correre per tre li e tre metri e tre, scalare una grande montagna alta, la montagna è a trecentotrentatre metri sul livello del mare. Una volta in cima, gridare forte: Sono più alto della montagna di tre piedi e tre. | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
-| Un uomo magro giace sul lato della strada con la camicia e una scarpa tolte e le borse accanto. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
-| Con il proseguire della ricerca, l’effetto protettivo del fluoro contro la carie dentale è stato dimostrato. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
+| 老宅的钟表停在午夜三点，灰尘中浮现一串陌生脚印。侦探蹲下身，发现地板缝隙里藏着一枚带血的戒指。 | [kaishu_cn_1.wav](https://github.com/user-attachments/files/22354649/kaishu_cn_1.wav) |
+| 月光下，南瓜突然长出笑脸，藤蔓扭动着推开花园栅栏。小女孩踮起脚，听见蘑菇在哼唱古老的摇篮曲。 | [kaishu_cn_2.wav](https://github.com/user-attachments/files/22354652/kaishu_cn_2.wav) |
+| 那么Java里面中级还要学，M以及到外部前端的应用系统开发，要学到Java Script的数据库，要学做动态的网站。 | [kaishu_cn_en_mix_1.wav](https://github.com/user-attachments/files/22354654/kaishu_cn_en_mix_1.wav) |
+| 这份 financial report 详细分析了公司在过去一个季度的 revenue performance 和 expenditure trends。 | [kaishu_cn_en_mix_2.wav](https://github.com/user-attachments/files/22354656/kaishu_cn_en_mix_2.wav) |
+| 上山下山上一山，下一山，跑了三里三米三，登了一座大高山，山高海拔三百三。上了山，大声喊：我比山高三尺三。 | [kaishu_raokouling.wav](https://github.com/user-attachments/files/22354658/kaishu_raokouling.wav) |
+| A thin man lies against the side of the street with his shirt and a shoe off and bags nearby. | [kaishu_en_1.wav](https://github.com/user-attachments/files/22354659/kaishu_en_1.wav) |
+| As research continued, the protective effect of fluoride against dental decay was demonstrated. | [kaishu_en_2.wav](https://github.com/user-attachments/files/22354661/kaishu_en_2.wav) |
 
 #### 2. Valutazione del Modello
-Per i dettagli del set di valutazione, vedi: [2025 Benchmark dei Modelli TTS Mainstream: Qual è la Migliore Soluzione di Sintesi Vocale?](https://mp.weixin.qq.com/s/5z_aRKQG3OIv7fnSdxegqQ)
 <img width="1182" height="261" alt="image" src="https://github.com/user-attachments/assets/fb86938d-95d9-4b10-9588-2de1e43b51d1" />
 
 ### Ringraziamenti
@@ -113,6 +113,6 @@ Per i dettagli del set di valutazione, vedi: [2025 Benchmark dei Modelli TTS Mai
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

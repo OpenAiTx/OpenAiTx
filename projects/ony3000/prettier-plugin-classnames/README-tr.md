@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Dil</summary>
@@ -32,7 +31,7 @@
 
 # prettier-plugin-classnames
 
-`printWidth` seçeneğine göre uzun class adlarını saran bir Prettier eklentisi.
+`printWidth` seçeneğine göre uzun sınıf adlarını saran bir Prettier eklentisi.
 
 ![Bu eklenti için bir kullanım örneği.](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
@@ -185,6 +184,6 @@ JSON örneği:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---

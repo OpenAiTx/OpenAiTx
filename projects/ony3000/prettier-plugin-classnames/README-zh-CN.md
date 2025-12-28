@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 语言</summary>
@@ -32,11 +31,11 @@
 
 # prettier-plugin-classnames
 
-一个 Prettier 插件，根据 `printWidth` 选项自动换行冗长的类名。
+一个基于 `printWidth` 选项自动换行冗长类名的 Prettier 插件。
 
-![此插件的一个使用案例。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
+![该插件的一个用例。](https://raw.githubusercontent.com/ony3000/prettier-plugin-classnames/master/.github/banner.png)
 
-## 安装方法[^1]
+## 安装[^1]
 
 ```sh
 npm install -D prettier prettier-plugin-classnames
@@ -185,6 +184,6 @@ JSON 示例：
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-28
 
 ---
