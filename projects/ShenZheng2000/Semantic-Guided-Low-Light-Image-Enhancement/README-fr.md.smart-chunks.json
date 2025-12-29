@@ -1,0 +1,1675 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Semantic-Guided-Low-Light-Image-Enhancement\nThis is the official Pytorch implementation for our paper \"**Semantic-Guided Zero-Shot Learning for Low-Light Image/Video Enhancement**\" \n\n# Updates\n- 2021.11.27: The figure for the model architecture has been uploaded.\n- 2021.11.10: This work is accepted and will be presented at [WACV 2022](https://wacv2022.thecvf.com/home).\n- 2021.10.8: An easy way to calculate mPA and mIOU score is available at this [repository](https://github.com/ShenZheng2000/DarkCityScape_mIOU_mPA)\n- 2021.10.6: A sample enhanced low-light video in GIF format has been released. \n- 2021.10.5: A sample low-light video and its enhanced result is available at: [[Low-Light](https://www.youtube.com/watch?v=4Avy_xsczdU)]  [[Enhanced](https://www.youtube.com/watch?v=rN6Tf1E-kE8)]\n- 2021.10.5: My new [repository](https://github.com/ShenZheng2000/Awesome-Low-Light-Enhancement-with-Deep-Learning) contains a collection of low-light enhancement methods. Hope you will find it helpful. \n- 2021.10.4: The arxiv link is available at http://arxiv.org/abs/2110.00970\n\n\n# Abstract",
+    "ContentSha": "4UOyrLwOaJOSWWuBy6z4p8sdU87x9FfYVzagUmzX+kE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Semantic-Guided-Low-Light-Image-Enhancement\nCeci est l'implémentation officielle en Pytorch de notre article \"**Apprentissage Zero-Shot Guidé par la Sémantique pour l'Amélioration d'Images/Vidéos en Basse Lumière**\" \n\n# Mises à jour\n- 2021.11.27 : La figure de l'architecture du modèle a été téléchargée.\n- 2021.11.10 : Ce travail est accepté et sera présenté à [WACV 2022](https://wacv2022.thecvf.com/home).\n- 2021.10.8 : Une méthode simple pour calculer les scores mPA et mIOU est disponible dans ce [dépôt](https://github.com/ShenZheng2000/DarkCityScape_mIOU_mPA)\n- 2021.10.6 : Une vidéo échantillon améliorée en basse lumière au format GIF a été publiée. \n- 2021.10.5 : Une vidéo échantillon en basse lumière et son résultat amélioré sont disponibles ici : [[Basse lumière](https://www.youtube.com/watch?v=4Avy_xsczdU)]  [[Améliorée](https://www.youtube.com/watch?v=rN6Tf1E-kE8)]\n- 2021.10.5 : Mon nouveau [dépôt](https://github.com/ShenZheng2000/Awesome-Low-Light-Enhancement-with-Deep-Learning) contient une collection de méthodes d'amélioration en basse lumière. J'espère que vous le trouverez utile. \n- 2021.10.4 : Le lien arxiv est disponible à http://arxiv.org/abs/2110.00970\n\n\n# Résumé",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HmcBOdjOhO+eDwGg4TTcgvZdgMK5H9iJxb9UBawvv3o=",
+        "originContent": "# Semantic-Guided-Low-Light-Image-Enhancement",
+        "translatedContent": "# Semantic-Guided-Low-Light-Image-Enhancement"
+      },
+      {
+        "row": 2,
+        "rowsha": "zighXll3RNpQX8XuW2joxK6+zJW2kHdt36vMF+tZK0I=",
+        "originContent": "This is the official Pytorch implementation for our paper \"**Semantic-Guided Zero-Shot Learning for Low-Light Image/Video Enhancement**\" ",
+        "translatedContent": "Ceci est l'implémentation officielle en Pytorch de notre article \"**Apprentissage Zero-Shot Guidé par la Sémantique pour l'Amélioration d'Images/Vidéos en Basse Lumière**\" "
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "CIgQytJqJBhsXTjs6sGe2kOiC16UshSo9tEN1rB+cGc=",
+        "originContent": "# Updates",
+        "translatedContent": "# Mises à jour"
+      },
+      {
+        "row": 5,
+        "rowsha": "zT41u7BcspyJIJ2IA6jDDgEA/vL3vPl7Nbpoc+2+kJg=",
+        "originContent": "- 2021.11.27: The figure for the model architecture has been uploaded.",
+        "translatedContent": "- 2021.11.27 : La figure de l'architecture du modèle a été téléchargée."
+      },
+      {
+        "row": 6,
+        "rowsha": "Ds6TZVgtvLYv3Vk6hy1z+UqFfiyEhfIGIkKJaqFcMEQ=",
+        "originContent": "- 2021.11.10: This work is accepted and will be presented at [WACV 2022](https://wacv2022.thecvf.com/home).",
+        "translatedContent": "- 2021.11.10 : Ce travail est accepté et sera présenté à [WACV 2022](https://wacv2022.thecvf.com/home)."
+      },
+      {
+        "row": 7,
+        "rowsha": "muCQo6tSHK94Q1+lwqguNabMj9m5McGqPTIAhzAvqWg=",
+        "originContent": "- 2021.10.8: An easy way to calculate mPA and mIOU score is available at this [repository](https://github.com/ShenZheng2000/DarkCityScape_mIOU_mPA)",
+        "translatedContent": "- 2021.10.8 : Une méthode simple pour calculer les scores mPA et mIOU est disponible dans ce [dépôt](https://github.com/ShenZheng2000/DarkCityScape_mIOU_mPA)"
+      },
+      {
+        "row": 8,
+        "rowsha": "vrf8N+js3EwoEZShLxi55ZnOhqvkasDI4OBi7IArnzg=",
+        "originContent": "- 2021.10.6: A sample enhanced low-light video in GIF format has been released. ",
+        "translatedContent": "- 2021.10.6 : Une vidéo échantillon améliorée en basse lumière au format GIF a été publiée. "
+      },
+      {
+        "row": 9,
+        "rowsha": "wxnpAWiuJCSERSDcydEJuvizvh6PvauAnwRZMkrX3js=",
+        "originContent": "- 2021.10.5: A sample low-light video and its enhanced result is available at: [[Low-Light](https://www.youtube.com/watch?v=4Avy_xsczdU)]  [[Enhanced](https://www.youtube.com/watch?v=rN6Tf1E-kE8)]",
+        "translatedContent": "- 2021.10.5 : Une vidéo échantillon en basse lumière et son résultat amélioré sont disponibles ici : [[Basse lumière](https://www.youtube.com/watch?v=4Avy_xsczdU)]  [[Améliorée](https://www.youtube.com/watch?v=rN6Tf1E-kE8)]"
+      },
+      {
+        "row": 10,
+        "rowsha": "qiGguE/R6OghfbVkvsgjzGZEwl4QpuB7l9mU5bt1r6k=",
+        "originContent": "- 2021.10.5: My new [repository](https://github.com/ShenZheng2000/Awesome-Low-Light-Enhancement-with-Deep-Learning) contains a collection of low-light enhancement methods. Hope you will find it helpful. ",
+        "translatedContent": "- 2021.10.5 : Mon nouveau [dépôt](https://github.com/ShenZheng2000/Awesome-Low-Light-Enhancement-with-Deep-Learning) contient une collection de méthodes d'amélioration en basse lumière. J'espère que vous le trouverez utile. "
+      },
+      {
+        "row": 11,
+        "rowsha": "5xAyPjx7RRtIXcu/n5DQUwUxWkn4ZvE0TX5nvLMJnFA=",
+        "originContent": "- 2021.10.4: The arxiv link is available at http://arxiv.org/abs/2110.00970",
+        "translatedContent": "- 2021.10.4 : Le lien arxiv est disponible à http://arxiv.org/abs/2110.00970"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "OoDkFPJpKdg7EO4CaZcXuK+4RDeTZ5ZCMAzYLbGYuhw=",
+        "originContent": "# Abstract",
+        "translatedContent": "# Résumé"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "Low-light images challenge both human perceptions and computer vision algorithms. It is crucial to make algorithms robust to enlighten low-light images for computational photography and computer vision applications such as real-time detection and segmentation tasks. This paper proposes a semantic-guided zero-shot low-light enhancement network which is trained in the absence of paired images, unpaired datasets, and segmentation annotation. Firstly, we design an efficient **enhancement factor extraction** network using depthwise separable convolution. Secondly, we propose a **recurrent image enhancement** network for progressively enhancing the low-light image. Finally, we introduce an **unsupervised semantic segmentation** network for preserving the semantic information. Extensive experiments on various benchmark datasets and a low-light video demonstrate that our model outperforms the previous state-of-the-art qualitatively and quantitatively. We further discuss the benefits of the proposed method for low-light detection and segmentation.",
+    "ContentSha": "Ym+wOgu/lrNRDtrt4eB1R7NynkrZgmHguypWBH3yEOU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Low-light images challenge both human perceptions and computer vision algorithms. It is crucial to make algorithms robust to enlighten low-light images for computational photography and computer vision applications such as real-time detection and segmentation tasks. This paper proposes a semantic-guided zero-shot low-light enhancement network which is trained in the absence of paired images, unpaired datasets, and segmentation annotation. Firstly, we design an efficient **enhancement factor extraction** network using depthwise separable convolution. Secondly, we propose a **recurrent image enhancement** network for progressively enhancing the low-light image. Finally, we introduce an **unsupervised semantic segmentation** network for preserving the semantic information. Extensive experiments on various benchmark datasets and a low-light video demonstrate that our model outperforms the previous state-of-the-art qualitatively and quantitatively. We further discuss the benefits of the proposed method for low-light detection and segmentation.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ym+wOgu/lrNRDtrt4eB1R7NynkrZgmHguypWBH3yEOU=",
+        "originContent": "Low-light images challenge both human perceptions and computer vision algorithms. It is crucial to make algorithms robust to enlighten low-light images for computational photography and computer vision applications such as real-time detection and segmentation tasks. This paper proposes a semantic-guided zero-shot low-light enhancement network which is trained in the absence of paired images, unpaired datasets, and segmentation annotation. Firstly, we design an efficient **enhancement factor extraction** network using depthwise separable convolution. Secondly, we propose a **recurrent image enhancement** network for progressively enhancing the low-light image. Finally, we introduce an **unsupervised semantic segmentation** network for preserving the semantic information. Extensive experiments on various benchmark datasets and a low-light video demonstrate that our model outperforms the previous state-of-the-art qualitatively and quantitatively. We further discuss the benefits of the proposed method for low-light detection and segmentation.",
+        "translatedContent": "Low-light images challenge both human perceptions and computer vision algorithms. It is crucial to make algorithms robust to enlighten low-light images for computational photography and computer vision applications such as real-time detection and segmentation tasks. This paper proposes a semantic-guided zero-shot low-light enhancement network which is trained in the absence of paired images, unpaired datasets, and segmentation annotation. Firstly, we design an efficient **enhancement factor extraction** network using depthwise separable convolution. Secondly, we propose a **recurrent image enhancement** network for progressively enhancing the low-light image. Finally, we introduce an **unsupervised semantic segmentation** network for preserving the semantic information. Extensive experiments on various benchmark datasets and a low-light video demonstrate that our model outperforms the previous state-of-the-art qualitatively and quantitatively. We further discuss the benefits of the proposed method for low-light detection and segmentation."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "\n# Model Architecture\nClick the following link to see the model architecture in pdf format. \n\n![Model Architecture](https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/main_architecture.pdf)\n\n# Sample Results\n## 1. Low-Light Video Frames\nFrom left to right, and from top to bottom: Dark, Retinex [1], KinD [2], EnlightenGAN [3], Zero-DCE [4], Ours.\n\n<p float=\"left\">\n<p align=\"middle\">\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/F1.png\" width=\"250\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/retinex_net.png\" width=\"250\" /> \n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/kind.png\" width=\"250\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/enlighten_gan.png\" width=\"250\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/zero_dce.png\" width=\"250\" /> \n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/F1Crop.png\" width=\"250\" />\n</p>\n\n## 2. Low-Light Images (Real-World)\nFrom left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1], MBLLEN [7], KinD [2] , Zero-DCE [4], Ours\n\n<p float=\"left\">\n<p align=\"middle\">\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Dark7.jpg\" width=\"200\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/PIE7.jpg\" width=\"200\" /> \n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/LIME7.jpg\" width=\"200\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Retinex7.jpg\" width=\"200\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/mbllen7.jpg\" width=\"200\" /> \n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/KinD7.jpg\" width=\"200\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/ZeroDCE7.jpg\" width=\"200\" /> \n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Ours7.jpg\" width=\"200\" />\n</p>\n\n# Get Started\n\n## 1. Requirements\n* CUDA 10.0\n* Python 3.6+",
+    "ContentSha": "BfHXOnl7+N0ucAb4G7cFRUZOF1i+8I9XPSIX3TSgUe4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n# Architecture du Modèle\nCliquez sur le lien suivant pour voir l'architecture du modèle au format pdf.\n\n![Architecture du Modèle](https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/main_architecture.pdf)\n\n# Résultats d'Exemple\n## 1. Images Vidéo en Faible Luminosité\nDe gauche à droite, et de haut en bas : Sombre, Retinex [1], KinD [2], EnlightenGAN [3], Zero-DCE [4], Notre méthode.\n\n<p float=\"left\">\n<p align=\"middle\">\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/F1.png\" width=\"250\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/retinex_net.png\" width=\"250\" /> \n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/kind.png\" width=\"250\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/enlighten_gan.png\" width=\"250\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/zero_dce.png\" width=\"250\" /> \n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/F1Crop.png\" width=\"250\" />\n</p>\n\n## 2. Images en Faible Luminosité (Monde Réel)\nDe gauche à droite, et de haut en bas : Sombre, PIE [5], LIME [6], Retinex [1], MBLLEN [7], KinD [2], Zero-DCE [4], Notre méthode\n\n<p float=\"left\">\n<p align=\"middle\">\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Dark7.jpg\" width=\"200\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/PIE7.jpg\" width=\"200\" /> \n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/LIME7.jpg\" width=\"200\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Retinex7.jpg\" width=\"200\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/mbllen7.jpg\" width=\"200\" /> \n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/KinD7.jpg\" width=\"200\" />\n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/ZeroDCE7.jpg\" width=\"200\" /> \n  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Ours7.jpg\" width=\"200\" />\n</p>\n\n# Démarrer\n\n## 1. Prérequis\n* CUDA 10.0\n* Python 3.6+",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "zojuwfGvFR+g4CsQtEtAMlxTn0FvbCAls7S3AMDXc/o=",
+        "originContent": "# Model Architecture",
+        "translatedContent": "# Architecture du Modèle"
+      },
+      {
+        "row": 3,
+        "rowsha": "oTFMXLAlZrvjqC1XA8RHe2wwShixCCUxQXwQQNAJHeQ=",
+        "originContent": "Click the following link to see the model architecture in pdf format. ",
+        "translatedContent": "Cliquez sur le lien suivant pour voir l'architecture du modèle au format pdf."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "iaeuuaKZo2hqA6DISaSvZl8x8poTJjxO42deOWTnPaA=",
+        "originContent": "![Model Architecture](https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/main_architecture.pdf)",
+        "translatedContent": "![Architecture du Modèle](https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/main_architecture.pdf)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "MBYU/E78Pwp+/ciivxhPAfItusJxfcy5YIEoiWJeGos=",
+        "originContent": "# Sample Results",
+        "translatedContent": "# Résultats d'Exemple"
+      },
+      {
+        "row": 8,
+        "rowsha": "/+CsMv3fpmwAT7WKeaAtfdXzNBmbxWiDitVBWbV22qI=",
+        "originContent": "## 1. Low-Light Video Frames",
+        "translatedContent": "## 1. Images Vidéo en Faible Luminosité"
+      },
+      {
+        "row": 9,
+        "rowsha": "2aqI6kORGsngsnBjXok+TDn2mRg7RgNCGrXtpK+yf4s=",
+        "originContent": "From left to right, and from top to bottom: Dark, Retinex [1], KinD [2], EnlightenGAN [3], Zero-DCE [4], Ours.",
+        "translatedContent": "De gauche à droite, et de haut en bas : Sombre, Retinex [1], KinD [2], EnlightenGAN [3], Zero-DCE [4], Notre méthode."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "GUbCMidcscNwoOhSkP+X+EwL8KN6omDI0Cory0F0HZc=",
+        "originContent": "<p float=\"left\">",
+        "translatedContent": "<p float=\"left\">"
+      },
+      {
+        "row": 12,
+        "rowsha": "rvXr7GgaDnkcx4PfArNfFuk1mNvA4m0zxcRiFGoHegk=",
+        "originContent": "<p align=\"middle\">",
+        "translatedContent": "<p align=\"middle\">"
+      },
+      {
+        "row": 13,
+        "rowsha": "xD0oySVNqliOTU3ald1epzVp+iZlvVBeBF0pOM8eTMQ=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/F1.png\" width=\"250\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/F1.png\" width=\"250\" />"
+      },
+      {
+        "row": 14,
+        "rowsha": "5iQRnqAYS8fW9l9Zm3M9qxi2ekIvHMW0N5EZWxwczV4=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/retinex_net.png\" width=\"250\" /> ",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/retinex_net.png\" width=\"250\" /> "
+      },
+      {
+        "row": 15,
+        "rowsha": "tv+Ip1UdrrQCPOibAFt3sACCEDM5VEAUsEb+GtrqOS8=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/kind.png\" width=\"250\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/kind.png\" width=\"250\" />"
+      },
+      {
+        "row": 16,
+        "rowsha": "JBpKo4vIm4wE5dYrKVMU5NgIyow+KMCVHH0LHRp7BrY=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/enlighten_gan.png\" width=\"250\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/enlighten_gan.png\" width=\"250\" />"
+      },
+      {
+        "row": 17,
+        "rowsha": "6N+tYfo7X2zkdmOc51EOicaTjXasgkKrQI4wldujYWY=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/zero_dce.png\" width=\"250\" /> ",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/zero_dce.png\" width=\"250\" /> "
+      },
+      {
+        "row": 18,
+        "rowsha": "9QchfeFwbjVNHK4AnZO/yU66rMLrYVc0IajpHqbZz48=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/F1Crop.png\" width=\"250\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/F1Crop.png\" width=\"250\" />"
+      },
+      {
+        "row": 19,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "tcSQmAgibSw5uFiTB1QV/O3P56Mg9Rzmy5ztawkzDrY=",
+        "originContent": "## 2. Low-Light Images (Real-World)",
+        "translatedContent": "## 2. Images en Faible Luminosité (Monde Réel)"
+      },
+      {
+        "row": 22,
+        "rowsha": "C0G+fgwt7nd9gFgLoPLrtFkKIdZ3AlvYTqu/+AVhFx0=",
+        "originContent": "From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1], MBLLEN [7], KinD [2] , Zero-DCE [4], Ours",
+        "translatedContent": "De gauche à droite, et de haut en bas : Sombre, PIE [5], LIME [6], Retinex [1], MBLLEN [7], KinD [2], Zero-DCE [4], Notre méthode"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "GUbCMidcscNwoOhSkP+X+EwL8KN6omDI0Cory0F0HZc=",
+        "originContent": "<p float=\"left\">",
+        "translatedContent": "<p float=\"left\">"
+      },
+      {
+        "row": 25,
+        "rowsha": "rvXr7GgaDnkcx4PfArNfFuk1mNvA4m0zxcRiFGoHegk=",
+        "originContent": "<p align=\"middle\">",
+        "translatedContent": "<p align=\"middle\">"
+      },
+      {
+        "row": 26,
+        "rowsha": "XaVZv5bYwRxPFPnRiKq3zTDrX9i1AzKZFJhuCS03N94=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Dark7.jpg\" width=\"200\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Dark7.jpg\" width=\"200\" />"
+      },
+      {
+        "row": 27,
+        "rowsha": "RKzZDFdxZXvH4PbD7aql7IQE4YHGPSSa8A0cdXKMkNg=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/PIE7.jpg\" width=\"200\" /> ",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/PIE7.jpg\" width=\"200\" /> "
+      },
+      {
+        "row": 28,
+        "rowsha": "G1DTRiHDKI0fNQqnbup3pRJqN37j7nUbunfnzaWkfeU=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/LIME7.jpg\" width=\"200\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/LIME7.jpg\" width=\"200\" />"
+      },
+      {
+        "row": 29,
+        "rowsha": "NnrZ5PbiNF7vlHpxdSlkJdiRe5aOz2HMPA44HwKfnwM=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Retinex7.jpg\" width=\"200\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Retinex7.jpg\" width=\"200\" />"
+      },
+      {
+        "row": 30,
+        "rowsha": "DRQZ3UWGCdOzE7pePzxW2PTA8ylA6EXkqqap/OqKeyQ=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/mbllen7.jpg\" width=\"200\" /> ",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/mbllen7.jpg\" width=\"200\" /> "
+      },
+      {
+        "row": 31,
+        "rowsha": "ggDxNU9bof7+VdaUNesmg7WYnx+ciTFTIqxOx+Ms6W4=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/KinD7.jpg\" width=\"200\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/KinD7.jpg\" width=\"200\" />"
+      },
+      {
+        "row": 32,
+        "rowsha": "/C19iy78grb3KHhZtxg1x9cIpJdHbkU6E9Jzlo4Q5S4=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/ZeroDCE7.jpg\" width=\"200\" /> ",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/ZeroDCE7.jpg\" width=\"200\" /> "
+      },
+      {
+        "row": 33,
+        "rowsha": "vq2CjZacDU0nICavzuOBrAO9EmXzVsMkKH4g7EsvUKY=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Ours7.jpg\" width=\"200\" />",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Ours7.jpg\" width=\"200\" />"
+      },
+      {
+        "row": 34,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "3MF5gbUTUOezZb1S6adHoyvzt7a6SUhVkgNRzTcL5e4=",
+        "originContent": "# Get Started",
+        "translatedContent": "# Démarrer"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "ZH+ULVkzjDu78LtnPh1GZQ3po3w8ko3FafmjzJOSws8=",
+        "originContent": "## 1. Requirements",
+        "translatedContent": "## 1. Prérequis"
+      },
+      {
+        "row": 39,
+        "rowsha": "1KZZEDrwczMN4xNzhHQOYaFfbXO/8MqjK0f+e1FIkBg=",
+        "originContent": "* CUDA 10.0",
+        "translatedContent": "* CUDA 10.0"
+      },
+      {
+        "row": 40,
+        "rowsha": "1rvhkvJ/ZDjgwfYI0LmY7QaEUq20gEU/L689Vj1bKhs=",
+        "originContent": "* Python 3.6+",
+        "translatedContent": "* Python 3.6+"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "* Pytorch 1.0+\n* torchvision 0.4+\n* opencv-python\n* numpy\n* pillow\n* scikit-image\n\n## 2. Prepare Datasets\n### Testing Dataset\n- Downloaded the official testing images from [BaiduYun](https://pan.baidu.com/s/1pbz0YlOmLqxnazeKrRRUQg) with password `8itq`. \n- Move the unzipped file into `data/test_data/`. \n- You can also put custom datasets or your own low-light images in this folder for testing. Example: `data/test_data/yourDataset/`\n\n### Training Dataset\n- Downloaded the official training images from [GoogleDrive](https://drive.google.com/file/d/1GAB3uGsmAyLgtDBDONbil08vVu5wJcG3/view). \n- Move the unzipped file into `data/train_data/`. \n\nNOTE: If you don't have BaiduYun account, you can download both the training and the testing dataset via [Google Drive](https://drive.google.com/drive/folders/1RIQsP5ap5QU7LstHPknOffQZeqht_FCh)\n\nAfter preparation, the data folders should look like this:",
+    "ContentSha": "co7rWoSPx1R9IiZpdrO6teqwjHKou5UCh59d8lLqY30=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* Pytorch 1.0+\n* torchvision 0.4+\n* opencv-python\n* numpy\n* pillow\n* scikit-image\n\n## 2. Préparer les jeux de données\n### Jeu de données de test\n- Téléchargez les images officielles de test depuis [BaiduYun](https://pan.baidu.com/s/1pbz0YlOmLqxnazeKrRRUQg) avec le mot de passe `8itq`. \n- Déplacez le fichier décompressé dans `data/test_data/`. \n- Vous pouvez également placer des jeux de données personnalisés ou vos propres images en basse lumière dans ce dossier pour les tests. Exemple : `data/test_data/yourDataset/`\n\n### Jeu de données d'entraînement\n- Téléchargez les images officielles d'entraînement depuis [GoogleDrive](https://drive.google.com/file/d/1GAB3uGsmAyLgtDBDONbil08vVu5wJcG3/view). \n- Déplacez le fichier décompressé dans `data/train_data/`. \n\nNOTE : Si vous n'avez pas de compte BaiduYun, vous pouvez télécharger à la fois le jeu de données d'entraînement et celui de test via [Google Drive](https://drive.google.com/drive/folders/1RIQsP5ap5QU7LstHPknOffQZeqht_FCh)\n\nAprès préparation, les dossiers de données devraient ressembler à ceci :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9zCPcOaKJl3QJf5cffwZUij4gbVRhgeT8RD+GH03Kdw=",
+        "originContent": "* Pytorch 1.0+",
+        "translatedContent": "* Pytorch 1.0+"
+      },
+      {
+        "row": 2,
+        "rowsha": "am7whLjrmqqNJqYuJPLes7c3337JnQsz8kq2KagykSg=",
+        "originContent": "* torchvision 0.4+",
+        "translatedContent": "* torchvision 0.4+"
+      },
+      {
+        "row": 3,
+        "rowsha": "lYmBhBGhSPowsc1oyjRQa70p+1V0ua//JtJbCTx0DNg=",
+        "originContent": "* opencv-python",
+        "translatedContent": "* opencv-python"
+      },
+      {
+        "row": 4,
+        "rowsha": "uXuwMQEXhOh7QVY0p460J45FmvqXT89aGdim0epL1Hg=",
+        "originContent": "* numpy",
+        "translatedContent": "* numpy"
+      },
+      {
+        "row": 5,
+        "rowsha": "7iHBIQXg3CSE+qQ1C+igQV23dZtPc2/deKIrpVDMgR8=",
+        "originContent": "* pillow",
+        "translatedContent": "* pillow"
+      },
+      {
+        "row": 6,
+        "rowsha": "eeswEmBMjRRcqfhrmrG2olWyZfoIxKobJJyXf7cKTqI=",
+        "originContent": "* scikit-image",
+        "translatedContent": "* scikit-image"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "7bxDaJKtDjfdr6uv0bhLZQkNvMwnxBOEcr0K23bRNlE=",
+        "originContent": "## 2. Prepare Datasets",
+        "translatedContent": "## 2. Préparer les jeux de données"
+      },
+      {
+        "row": 9,
+        "rowsha": "m83apJwXoIcsyLxtKv+o1357ZA13hPPeVSzR1dt34xg=",
+        "originContent": "### Testing Dataset",
+        "translatedContent": "### Jeu de données de test"
+      },
+      {
+        "row": 10,
+        "rowsha": "FJ3lrPBMZabbfAx/BwpVJFfPiAeaSiWgeFjsgGF+/bM=",
+        "originContent": "- Downloaded the official testing images from [BaiduYun](https://pan.baidu.com/s/1pbz0YlOmLqxnazeKrRRUQg) with password `8itq`. ",
+        "translatedContent": "- Téléchargez les images officielles de test depuis [BaiduYun](https://pan.baidu.com/s/1pbz0YlOmLqxnazeKrRRUQg) avec le mot de passe `8itq`. "
+      },
+      {
+        "row": 11,
+        "rowsha": "56QhDvxhdRVrWyUiXnFmabDmRqQ/efBlLc45M67QbIQ=",
+        "originContent": "- Move the unzipped file into `data/test_data/`. ",
+        "translatedContent": "- Déplacez le fichier décompressé dans `data/test_data/`. "
+      },
+      {
+        "row": 12,
+        "rowsha": "A712t4IU0IgCVY/tcy8K9z/c0XYz4dKWDcq6eLlmtdM=",
+        "originContent": "- You can also put custom datasets or your own low-light images in this folder for testing. Example: `data/test_data/yourDataset/`",
+        "translatedContent": "- Vous pouvez également placer des jeux de données personnalisés ou vos propres images en basse lumière dans ce dossier pour les tests. Exemple : `data/test_data/yourDataset/`"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "V9we3xTQmbZ0QMaWFFhvQ/ND+wTjLaDLV5LMNhMceX0=",
+        "originContent": "### Training Dataset",
+        "translatedContent": "### Jeu de données d'entraînement"
+      },
+      {
+        "row": 15,
+        "rowsha": "f5yQJCxob46Owj+wO99zhRmCiofkxGMNkzsvnHs7yYA=",
+        "originContent": "- Downloaded the official training images from [GoogleDrive](https://drive.google.com/file/d/1GAB3uGsmAyLgtDBDONbil08vVu5wJcG3/view). ",
+        "translatedContent": "- Téléchargez les images officielles d'entraînement depuis [GoogleDrive](https://drive.google.com/file/d/1GAB3uGsmAyLgtDBDONbil08vVu5wJcG3/view). "
+      },
+      {
+        "row": 16,
+        "rowsha": "YqxPhGFsHG0EzopxBVNe+fk58QRaakS8kms4s4tqN6Q=",
+        "originContent": "- Move the unzipped file into `data/train_data/`. ",
+        "translatedContent": "- Déplacez le fichier décompressé dans `data/train_data/`. "
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "GtwT6GpsZFnS+r99F8Ox7SyTRIvV2L0C+hcywZjDQ7A=",
+        "originContent": "NOTE: If you don't have BaiduYun account, you can download both the training and the testing dataset via [Google Drive](https://drive.google.com/drive/folders/1RIQsP5ap5QU7LstHPknOffQZeqht_FCh)",
+        "translatedContent": "NOTE : Si vous n'avez pas de compte BaiduYun, vous pouvez télécharger à la fois le jeu de données d'entraînement et celui de test via [Google Drive](https://drive.google.com/drive/folders/1RIQsP5ap5QU7LstHPknOffQZeqht_FCh)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "CdfWqjBG9FAfowb1/o+TTODJ6xEojhsRlk1j5itklW8=",
+        "originContent": "After preparation, the data folders should look like this:",
+        "translatedContent": "Après préparation, les dossiers de données devraient ressembler à ceci :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```\ndata/\n├── test_data/\n│   ├── lowCUT/\n│   ├── BDD/\n│   ├── Cityscapes/\n│   ├── DICM/\n│   ├── LIME/\n│   ├── LOL/\n│   ├── MEF/\n│   ├── NPE/\n│   └── VV/\n└── train_data/\n    └── ...\n```",
+    "ContentSha": "KA6upsvV9I9mL+XEH9r1oO9B6unx6hEPMoEjtXwoZu4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ndata/\n├── test_data/\n│   ├── lowCUT/\n│   ├── BDD/\n│   ├── Cityscapes/\n│   ├── DICM/\n│   ├── LIME/\n│   ├── LOL/\n│   ├── MEF/\n│   ├── NPE/\n│   └── VV/\n└── train_data/\n    └── ...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "pFG25ohb5F0BvuA7GOWDmc8m8JgB/xD/kMhqNTgDzMw=",
+        "originContent": "data/",
+        "translatedContent": "data/"
+      },
+      {
+        "row": 3,
+        "rowsha": "gRX/RhT7CAY94TbI8eZNny7k+3aocOUatLXM995raAo=",
+        "originContent": "├── test_data/",
+        "translatedContent": "├── test_data/"
+      },
+      {
+        "row": 4,
+        "rowsha": "gsSBs5k+xZQLV4gLWk4bTeRTvUuCp80AUvSN4ZZeM0E=",
+        "originContent": "│   ├── lowCUT/",
+        "translatedContent": "│   ├── lowCUT/"
+      },
+      {
+        "row": 5,
+        "rowsha": "5TBns4Z5DXRIPfBmlRzEap0Mxq8u7JQl6jCL2h3GKOw=",
+        "originContent": "│   ├── BDD/",
+        "translatedContent": "│   ├── BDD/"
+      },
+      {
+        "row": 6,
+        "rowsha": "6JX7mAPMhiS3e6plOjJRLRpx5O1n4RkauOCidXJd/pY=",
+        "originContent": "│   ├── Cityscapes/",
+        "translatedContent": "│   ├── Cityscapes/"
+      },
+      {
+        "row": 7,
+        "rowsha": "J6yzL7aM78D4J2fN1fx4WIcFiofSQqUj6VXolLREW/c=",
+        "originContent": "│   ├── DICM/",
+        "translatedContent": "│   ├── DICM/"
+      },
+      {
+        "row": 8,
+        "rowsha": "rwNpuAM/Pc/ApCJWE/mWeXfzJeuDw1wQru+gWymN+hU=",
+        "originContent": "│   ├── LIME/",
+        "translatedContent": "│   ├── LIME/"
+      },
+      {
+        "row": 9,
+        "rowsha": "EnEBtDNR4z1YslRyFHshf/AePgpN20Li0yrID9mqPXw=",
+        "originContent": "│   ├── LOL/",
+        "translatedContent": "│   ├── LOL/"
+      },
+      {
+        "row": 10,
+        "rowsha": "9pnKfi4ZWUnE7D0c1Y5zm82n3xbrNv6gUUDkWvA7J+Q=",
+        "originContent": "│   ├── MEF/",
+        "translatedContent": "│   ├── MEF/"
+      },
+      {
+        "row": 11,
+        "rowsha": "G5z2sZ+/JUgFT3sd74NBTWYnhcXDO5PnI1lunBeuhLk=",
+        "originContent": "│   ├── NPE/",
+        "translatedContent": "│   ├── NPE/"
+      },
+      {
+        "row": 12,
+        "rowsha": "TE33mPYgzZYQ+Mpk/hmG/In34GX97vhzQ+BZhSJkt94=",
+        "originContent": "│   └── VV/",
+        "translatedContent": "│   └── VV/"
+      },
+      {
+        "row": 13,
+        "rowsha": "b6zIIO504bTFRilui9x+g6aQj6zv3q82mKhNndaQlHw=",
+        "originContent": "└── train_data/",
+        "translatedContent": "└── train_data/"
+      },
+      {
+        "row": 14,
+        "rowsha": "EVxSCGnx6ALjSB9cd4swH9yRVDSmm2cv6tBjcIJqwFo=",
+        "originContent": "    └── ...",
+        "translatedContent": "    └── ..."
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n## 3. Training from Scratch\nTo train the model:",
+    "ContentSha": "6h1TiFlpds0f5ug8tZM8ypYdre4DuEywMJBLvq04KYs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 3. Entraînement à partir de zéro\nPour entraîner le modèle :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5RPQcs0/doQuPyuefyVrtg2KHUAVmudOC2wCrOHIFVw=",
+        "originContent": "## 3. Training from Scratch",
+        "translatedContent": "## 3. Entraînement à partir de zéro"
+      },
+      {
+        "row": 3,
+        "rowsha": "Xl0p+F5ZI54DPvHjRtjvJ6DkM6zy1RLTWLlkptNRi+w=",
+        "originContent": "To train the model:",
+        "translatedContent": "Pour entraîner le modèle :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```\npython train.py \\\n  --lowlight_images_path path/to/train_images \\\n  --snapshots_folder path/to/save_weights\n```",
+    "ContentSha": "HBAfKw9yqLMsyVtoohCox+FOISlq3ezNfmtEwNz2u6g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython train.py \\\n  --lowlight_images_path path/to/train_images \\\n  --snapshots_folder path/to/save_weights\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "JD7wKSI5BbJPbqagn8SRjBKcTFc1eMkbvCCOKWA9bJU=",
+        "originContent": "python train.py \\",
+        "translatedContent": "python train.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "DuYQKr7xLTK2hetg0TQfvn1lCRmPvcKc93MOobkEzfw=",
+        "originContent": "  --lowlight_images_path path/to/train_images \\",
+        "translatedContent": "  --lowlight_images_path path/to/train_images \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "uyOwhNeCqmIUrWaijoWTvvVKg1TGwx1go42MrZ4GBAA=",
+        "originContent": "  --snapshots_folder path/to/save_weights",
+        "translatedContent": "  --snapshots_folder path/to/save_weights"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\nExample (train from scratch):",
+    "ContentSha": "fFK58xHtUwyKwses99Eguls+QtBfQz9Mn5yb7ge7Afo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nExemple (entraîner à partir de zéro) :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0xt6pRldHzdP9nx2ZHyVWtlqxGX1OdP4jfDkgYMhjV8=",
+        "originContent": "Example (train from scratch):",
+        "translatedContent": "Exemple (entraîner à partir de zéro) :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```\npython train.py \\\n  --lowlight_images_path data/train_data \\\n  --snapshots_folder weight/\n```",
+    "ContentSha": "w0GIHq5J0ARI8zQ5w58Exc2B/pdxWMzxnghIhRvrhxI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython train.py \\\n  --lowlight_images_path data/train_data \\\n  --snapshots_folder weight/\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "JD7wKSI5BbJPbqagn8SRjBKcTFc1eMkbvCCOKWA9bJU=",
+        "originContent": "python train.py \\",
+        "translatedContent": "python train.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "KKukHgqom/+FymtShSK4/0EFu7EyPLN4PZfXvDdefjg=",
+        "originContent": "  --lowlight_images_path data/train_data \\",
+        "translatedContent": "  --lowlight_images_path data/train_data \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "S2iqcDx/cfMmj771QMRaYQnK8OZaDH6diSyXnc+IVe0=",
+        "originContent": "  --snapshots_folder weight/",
+        "translatedContent": "  --snapshots_folder weight/"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n## 4. Resume Training\n\nTo resume training from a checkpoint:",
+    "ContentSha": "NERvhWmOfaE3rI7a0QdzWIGToLmrKPuobJBFzoUhovY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 4. Reprendre l'entraînement\n\nPour reprendre l'entraînement à partir d'un point de contrôle :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7a0vUo6jaO2kKA1rgo9AC31sFSIdPKNERbgmJEqkFUo=",
+        "originContent": "## 4. Resume Training",
+        "translatedContent": "## 4. Reprendre l'entraînement"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "jiv7oQ8vxQrm7uZ00HUJL+fMLtMS2i2N8zVgAsgnuFY=",
+        "originContent": "To resume training from a checkpoint:",
+        "translatedContent": "Pour reprendre l'entraînement à partir d'un point de contrôle :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```\npython train.py \\\n  --lowlight_images_path path/to/train_images \\\n  --snapshots_folder path/to/save_weights \\\n  --load_pretrain True \\\n  --pretrain_dir path/to/checkpoint.pth\n```",
+    "ContentSha": "81/8YdSpPlx/IXvrp2eCefBzmxbuMO5mEZpo1xL/51Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython train.py \\\n  --lowlight_images_path path/to/train_images \\\n  --snapshots_folder path/to/save_weights \\\n  --load_pretrain True \\\n  --pretrain_dir path/to/checkpoint.pth\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "JD7wKSI5BbJPbqagn8SRjBKcTFc1eMkbvCCOKWA9bJU=",
+        "originContent": "python train.py \\",
+        "translatedContent": "python train.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "DuYQKr7xLTK2hetg0TQfvn1lCRmPvcKc93MOobkEzfw=",
+        "originContent": "  --lowlight_images_path path/to/train_images \\",
+        "translatedContent": "  --lowlight_images_path path/to/train_images \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "5e45KoeF+YAWY0HBKddIkrP2O5JWgsPKX+3CEM5q4wc=",
+        "originContent": "  --snapshots_folder path/to/save_weights \\",
+        "translatedContent": "  --snapshots_folder path/to/save_weights \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "doNXdDpZ40Gk8FG4Z9PENZZ0+4Dv15/SBiBRukjFazM=",
+        "originContent": "  --load_pretrain True \\",
+        "translatedContent": "  --load_pretrain True \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "WzU8ycaDKvYEHcjyBZXecMIM1RHw5Q1BscuwNbikiQ4=",
+        "originContent": "  --pretrain_dir path/to/checkpoint.pth",
+        "translatedContent": "  --pretrain_dir path/to/checkpoint.pth"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\nExample (resume from Epoch99.pth):",
+    "ContentSha": "94hxofhCrf8EFEFutQ0yKFmOak84JDnPy+PZzIYZEY4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Exemple (reprendre depuis Epoch99.pth) :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Exemple (reprendre depuis Epoch99.pth) :"
+      },
+      {
+        "row": 2,
+        "rowsha": "i1SkglGb3Lm2wr2nB8S9OzAn1jEc8Ag7mh1W+LUIoVQ=",
+        "originContent": "Example (resume from Epoch99.pth):",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```\npython train.py \\\n  --lowlight_images_path data/train_data \\\n  --snapshots_folder weight/ \\\n  --load_pretrain True \\\n  --pretrain_dir weight/Epoch99.pth\n```",
+    "ContentSha": "y3eaUMjasSlTGqHCqam5xGkQV+ZBTsuCTAByH+90tsw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython train.py \\\n  --lowlight_images_path data/train_data \\\n  --snapshots_folder weight/ \\\n  --load_pretrain True \\\n  --pretrain_dir weight/Epoch99.pth\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "JD7wKSI5BbJPbqagn8SRjBKcTFc1eMkbvCCOKWA9bJU=",
+        "originContent": "python train.py \\",
+        "translatedContent": "python train.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "KKukHgqom/+FymtShSK4/0EFu7EyPLN4PZfXvDdefjg=",
+        "originContent": "  --lowlight_images_path data/train_data \\",
+        "translatedContent": "  --lowlight_images_path data/train_data \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "O6hyLP295phKGGqONvNcRM0xHQgDmPqArUBWMaSD9mo=",
+        "originContent": "  --snapshots_folder weight/ \\",
+        "translatedContent": "  --snapshots_folder weight/ \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "doNXdDpZ40Gk8FG4Z9PENZZ0+4Dv15/SBiBRukjFazM=",
+        "originContent": "  --load_pretrain True \\",
+        "translatedContent": "  --load_pretrain True \\"
+      },
+      {
+        "row": 6,
+        "rowsha": "xFQcQLBIUReAhzoYLbwqmAefiAQj26sTFr6QJSAiN1U=",
+        "originContent": "  --pretrain_dir weight/Epoch99.pth",
+        "translatedContent": "  --pretrain_dir weight/Epoch99.pth"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n \n## 5. Testing\n**NOTE: Please delete all readme.txt in the `data` folder to avoid model inference error.**\n\nTo test the model:",
+    "ContentSha": "M4jGNz05+KAPmQUc5sRFX88LkKcF+wM8SgP+0veprWs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": " \n## 5. Tests\n**REMARQUE : Veuillez supprimer tous les fichiers readme.txt dans le dossier `data` pour éviter les erreurs d'inférence du modèle.**\n\nPour tester le modèle :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": " "
+      },
+      {
+        "row": 2,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": "## 5. Tests"
+      },
+      {
+        "row": 3,
+        "rowsha": "wL2RdL2EdqBWniNv2gMB9j0ZheycuRv4oTAd62+H/AI=",
+        "originContent": "## 5. Testing",
+        "translatedContent": "**REMARQUE : Veuillez supprimer tous les fichiers readme.txt dans le dossier `data` pour éviter les erreurs d'inférence du modèle.**"
+      },
+      {
+        "row": 4,
+        "rowsha": "OM2q16MYmpz0LQmHvmDBSaLdzEy9NSmLNwL4d0R2M4Y=",
+        "originContent": "**NOTE: Please delete all readme.txt in the `data` folder to avoid model inference error.**",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Pour tester le modèle :"
+      },
+      {
+        "row": 6,
+        "rowsha": "S9u9AY538Q87b/8D6fA1DUnRYsmpfnezVmkARijIMpE=",
+        "originContent": "To test the model:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```\npython test.py \\\n  --input_dir path/to/your_input_images \\\n  --weight_dir path/to/pretrained_model.pth \\\n  --test_dir path/to/output_folder \n```",
+    "ContentSha": "xbtTdZK5n/3u9s4K5kzihVqQRDl43ePDQCnEeYFNdHE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython test.py \\\n  --input_dir path/to/your_input_images \\\n  --weight_dir path/to/pretrained_model.pth \\\n  --test_dir path/to/output_folder \n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "A9mlLFEYa+zuDrT2baviLhOaIIB8PCOzS24eeTg+bRY=",
+        "originContent": "python test.py \\",
+        "translatedContent": "python test.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "iCk0H8+4cS5fl2slWx5Z5Q7iLVjHRLZ6uRYbdC1fZUE=",
+        "originContent": "  --input_dir path/to/your_input_images \\",
+        "translatedContent": "  --input_dir path/to/your_input_images \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "UgbGfj9xptx2fWrJI4dFaUNQVmFuYn/aTXrVQXUuCjw=",
+        "originContent": "  --weight_dir path/to/pretrained_model.pth \\",
+        "translatedContent": "  --weight_dir path/to/pretrained_model.pth \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "2LhHGfvZSx0VONVOpg0f9M1y/lwOmdUs75sXR79+a1o=",
+        "originContent": "  --test_dir path/to/output_folder ",
+        "translatedContent": "  --test_dir path/to/output_folder "
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\nExample:",
+    "ContentSha": "mgcjsuhRPKsKI5lzclL/pS3DvvHcZ+cIf+hbV/L8jxE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Exemple :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Exemple :"
+      },
+      {
+        "row": 2,
+        "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+        "originContent": "Example:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```\npython test.py \\\n  --input_dir data/test_data/lowCUT \\\n  --weight_dir weight/Epoch99.pth \\\n  --test_dir test_output\n```",
+    "ContentSha": "Qf6gHvDIyRbsiQKLibEnQ0rQvYPq1jk4ZDmA2XfAl0U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\npython test.py \\\n  --input_dir data/test_data/lowCUT \\\n  --weight_dir weight/Epoch99.pth \\\n  --test_dir test_output\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "A9mlLFEYa+zuDrT2baviLhOaIIB8PCOzS24eeTg+bRY=",
+        "originContent": "python test.py \\",
+        "translatedContent": "python test.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "kaAkK6ZxcQ7sM5Is9PPZWCLeA95oGxTbpFeRzyYm6+U=",
+        "originContent": "  --input_dir data/test_data/lowCUT \\",
+        "translatedContent": "  --input_dir data/test_data/lowCUT \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "vrudqK+zVf4/8cCTV0U62iDcEyLbM6QYSV9fmF7zJtI=",
+        "originContent": "  --weight_dir weight/Epoch99.pth \\",
+        "translatedContent": "  --weight_dir weight/Epoch99.pth \\"
+      },
+      {
+        "row": 5,
+        "rowsha": "dcLOrWMFqKjoTDrORFjBfanE1HDWwrCfpH7R73XZaMU=",
+        "originContent": "  --test_dir test_output",
+        "translatedContent": "  --test_dir test_output"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\n## 6. Testing on Videos\nFor model testing on videos (MP4 format), run in terminal:",
+    "ContentSha": "p62saUV7iMU1vGDbJ2dhyT/LE4goOebfVnOE0pZsBjM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 6. Tests sur les vidéos\nPour tester le modèle sur des vidéos (format MP4), exécutez dans le terminal :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "l2pLj9uPsJy1G3qdmfh2tSnY4G6cp90nGoiLh9sC06E=",
+        "originContent": "## 6. Testing on Videos",
+        "translatedContent": "## 6. Tests sur les vidéos"
+      },
+      {
+        "row": 3,
+        "rowsha": "6NAz5JcHRx+bXanit9qsC4IwJugnnaWbLsqnpFm51CI=",
+        "originContent": "For model testing on videos (MP4 format), run in terminal:",
+        "translatedContent": "Pour tester le modèle sur des vidéos (format MP4), exécutez dans le terminal :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```\nbash test_video.sh\n```",
+    "ContentSha": "BwQF5MSrFpq5aGa9UeHRdsDAnNxC76jOhjw1aux9g9E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nbash test_video.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "HewNNIa11+/JVDWo4Y72umbwgqAkwfD4gB5oBwM8ta8=",
+        "originContent": "bash test_video.sh",
+        "translatedContent": "bash test_video.sh"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\nThere are five hyperparameters in `demo/make_video.py`for video testing. See the following explanation. \n- `video_path`: path of the low-light video\n- `image_lowlight_folder`: path of the low-light images\n- `image_folder`: path of the enhanced images\n- `save_path`: path of the enhanced video\n- `choice`: whether converting video to image, or image to video\n\n\n# Hyperparameters\n| Name                 | Type  | Default            | \n|----------------------|-------|--------------------|\n| lowlight_images_path | str   | data/train_data/   |         \n| lr                   | float | 1e-3               |          \n| weight_decay         | float | 1e-3               |            \n| grad_clip_norm       | float | 0.1                |            \n| num_epochs           | int   | 100                |          \n| train_batch_size     | int   | 6                  |          \n| val_batch_size       | int   | 8                  |           \n| num_workers          | int   | 4                  |         \n| display_iter         | int   | 10                 |         \n| snapshot_iter        | int   | 10                 |        \n| scale_factor         | int   | 1                  |         \n| snapshots_folder     | str   | weight/            |         \n| load_pretrain        | bool  | False              |       \n| pretrain_dir         | str   | weight/Epoch99.pth |         \n| num_of_SegClass      | int   | 21                 |        \n| conv_type            | str   | dsc                |        \n| patch_size           | int   | 4                  |        \n| exp_level            | float | 0.6                |       \n\n\n# TODO List\n- [x] List (important) hyperparameters\n- [x] Addres model input size issue\n- [x] Upload Pretrained Weight \n- [x] Rewrite training and testing argparse in a option.py\n- [x] Rewrite training as a class\n- [x] Rewrite testing as a class  \n- [x] Upload Testing Dataset",
+    "ContentSha": "pfJ9sqLkrHEp/NBE3qGuaSWhX5L9TXHsIpV4iMbVerU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nIl y a cinq hyperparamètres dans `demo/make_video.py` pour le test vidéo. Voir l'explication suivante.  \n- `video_path` : chemin de la vidéo en faible luminosité  \n- `image_lowlight_folder` : chemin des images en faible luminosité  \n- `image_folder` : chemin des images améliorées  \n- `save_path` : chemin de la vidéo améliorée  \n- `choice` : conversion vidéo vers image, ou image vers vidéo  \n\n\n# Hyperparamètres  \n| Nom                  | Type  | Défaut             |  \n|----------------------|-------|--------------------|  \n| lowlight_images_path  | str   | data/train_data/   |          \n| lr                   | float | 1e-3               |          \n| weight_decay         | float | 1e-3               |            \n| grad_clip_norm       | float | 0.1                |            \n| num_epochs           | int   | 100                |          \n| train_batch_size     | int   | 6                  |          \n| val_batch_size       | int   | 8                  |           \n| num_workers          | int   | 4                  |         \n| display_iter         | int   | 10                 |         \n| snapshot_iter        | int   | 10                 |        \n| scale_factor         | int   | 1                  |         \n| snapshots_folder     | str   | weight/            |         \n| load_pretrain        | bool  | False              |       \n| pretrain_dir         | str   | weight/Epoch99.pth |         \n| num_of_SegClass      | int   | 21                 |        \n| conv_type            | str   | dsc                |        \n| patch_size           | int   | 4                  |        \n| exp_level            | float | 0.6                |        \n\n\n# Liste TODO  \n- [x] Lister les hyperparamètres (importants)  \n- [x] Résoudre le problème de taille d'entrée du modèle  \n- [x] Télécharger les poids pré-entraînés  \n- [x] Réécrire argparse d'entraînement et test dans un option.py  \n- [x] Réécrire l'entraînement sous forme de classe  \n- [x] Réécrire le test sous forme de classe  \n- [x] Télécharger le jeu de données de test",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "aCjFiESsjMveCw7zaTkwuHk7CTSmKryMMK39ZVqtZ34=",
+        "originContent": "There are five hyperparameters in `demo/make_video.py`for video testing. See the following explanation. ",
+        "translatedContent": "Il y a cinq hyperparamètres dans `demo/make_video.py` pour le test vidéo. Voir l'explication suivante.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "0cdG1U/lwbg5p8zoekBFd3BY3SlKzTH3rMqmYnB/viM=",
+        "originContent": "- `video_path`: path of the low-light video",
+        "translatedContent": "- `video_path` : chemin de la vidéo en faible luminosité  "
+      },
+      {
+        "row": 4,
+        "rowsha": "IFSeUfkO7dlQDBw1fcqHxFxZ8tAEq1TGgLmwG1z4Fdc=",
+        "originContent": "- `image_lowlight_folder`: path of the low-light images",
+        "translatedContent": "- `image_lowlight_folder` : chemin des images en faible luminosité  "
+      },
+      {
+        "row": 5,
+        "rowsha": "Nxnwp2Kje3gKoeLmk9Bh0qrQZWgsZ8J2/SS3l+RfeEY=",
+        "originContent": "- `image_folder`: path of the enhanced images",
+        "translatedContent": "- `image_folder` : chemin des images améliorées  "
+      },
+      {
+        "row": 6,
+        "rowsha": "KSvApR1H/wkim9La996+o+Mn1U4xm7AN51FaX4ym3Y8=",
+        "originContent": "- `save_path`: path of the enhanced video",
+        "translatedContent": "- `save_path` : chemin de la vidéo améliorée  "
+      },
+      {
+        "row": 7,
+        "rowsha": "q7uvk2rZbV1wY4rx8Deag1ZpquGI1TZfGnOHHB0xACk=",
+        "originContent": "- `choice`: whether converting video to image, or image to video",
+        "translatedContent": "- `choice` : conversion vidéo vers image, ou image vers vidéo  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "+3rSRVOJ3GDPHiZ59e49tBiQt6FuPYRfBzG06dqwJwM=",
+        "originContent": "# Hyperparameters",
+        "translatedContent": "# Hyperparamètres  "
+      },
+      {
+        "row": 11,
+        "rowsha": "BmqJneGNJmNJRtoy+vFWuX4tuLJzCDmEklP/PC4Egds=",
+        "originContent": "| Name                 | Type  | Default            | ",
+        "translatedContent": "| Nom                  | Type  | Défaut             |  "
+      },
+      {
+        "row": 12,
+        "rowsha": "pTIg6sthfMGzLSAfmhOas0/hgPIWj2ZgPOlh9ybU538=",
+        "originContent": "|----------------------|-------|--------------------|",
+        "translatedContent": "|----------------------|-------|--------------------|  "
+      },
+      {
+        "row": 13,
+        "rowsha": "R8gWzwNn56PYvTv9CCyzPSiC5EJ7nfbiClQd79DrogE=",
+        "originContent": "| lowlight_images_path | str   | data/train_data/   |         ",
+        "translatedContent": "| lowlight_images_path  | str   | data/train_data/   |          "
+      },
+      {
+        "row": 14,
+        "rowsha": "It0Dcpw3loJ3+cJS2qpY2F6DmLO9Td5kivbdZZypBLU=",
+        "originContent": "| lr                   | float | 1e-3               |          ",
+        "translatedContent": "| lr                   | float | 1e-3               |          "
+      },
+      {
+        "row": 15,
+        "rowsha": "vB4fOgDMf+RIa11W9MClnLipJKa9kzAjkxUC8FrexwM=",
+        "originContent": "| weight_decay         | float | 1e-3               |            ",
+        "translatedContent": "| weight_decay         | float | 1e-3               |            "
+      },
+      {
+        "row": 16,
+        "rowsha": "x112agYHRBPQ8zVuldPxhu1u3nhrpkW+9IqK10azevM=",
+        "originContent": "| grad_clip_norm       | float | 0.1                |            ",
+        "translatedContent": "| grad_clip_norm       | float | 0.1                |            "
+      },
+      {
+        "row": 17,
+        "rowsha": "g8nsDRWBakO8W8HNXvWKAxNLRyySroI8zfykr9z47bw=",
+        "originContent": "| num_epochs           | int   | 100                |          ",
+        "translatedContent": "| num_epochs           | int   | 100                |          "
+      },
+      {
+        "row": 18,
+        "rowsha": "o0Yk7UB4TyCkx7aYs/pR3uk5pzm3m7FXUEGtnKsdJ3A=",
+        "originContent": "| train_batch_size     | int   | 6                  |          ",
+        "translatedContent": "| train_batch_size     | int   | 6                  |          "
+      },
+      {
+        "row": 19,
+        "rowsha": "Xt24fS68sMLCIQf2BDnZtRvOxzfoN9/1Qm91eS2d4xo=",
+        "originContent": "| val_batch_size       | int   | 8                  |           ",
+        "translatedContent": "| val_batch_size       | int   | 8                  |           "
+      },
+      {
+        "row": 20,
+        "rowsha": "5Aud2C4udqTarU/LyruBDHTV7NcJhwX+gi8Ox/vB4rk=",
+        "originContent": "| num_workers          | int   | 4                  |         ",
+        "translatedContent": "| num_workers          | int   | 4                  |         "
+      },
+      {
+        "row": 21,
+        "rowsha": "mpNgBqcZo2ZLbgNY3X49UZ/XCTJnpvmx3lDGpynDRAw=",
+        "originContent": "| display_iter         | int   | 10                 |         ",
+        "translatedContent": "| display_iter         | int   | 10                 |         "
+      },
+      {
+        "row": 22,
+        "rowsha": "QNpWRirO/euBdld6g0/7s5EEqKaTEk9m4TrnrjcjHYc=",
+        "originContent": "| snapshot_iter        | int   | 10                 |        ",
+        "translatedContent": "| snapshot_iter        | int   | 10                 |        "
+      },
+      {
+        "row": 23,
+        "rowsha": "qxQ+FskbYhU7n+kNtQ2f8Oqgdbv//l72l4qezi1I348=",
+        "originContent": "| scale_factor         | int   | 1                  |         ",
+        "translatedContent": "| scale_factor         | int   | 1                  |         "
+      },
+      {
+        "row": 24,
+        "rowsha": "17ulpUF9VNPx2JfJFgsEyDSYZeSmWw6pEh1AhCOtrD8=",
+        "originContent": "| snapshots_folder     | str   | weight/            |         ",
+        "translatedContent": "| snapshots_folder     | str   | weight/            |         "
+      },
+      {
+        "row": 25,
+        "rowsha": "fraj8kMyX6p6AMuK69mKSEABhTUbv7haN18AvyQoU5Y=",
+        "originContent": "| load_pretrain        | bool  | False              |       ",
+        "translatedContent": "| load_pretrain        | bool  | False              |       "
+      },
+      {
+        "row": 26,
+        "rowsha": "Ydhd7MPC9gvcY0qXaeX7TbHoxztNn4trVyaq1KGT7R8=",
+        "originContent": "| pretrain_dir         | str   | weight/Epoch99.pth |         ",
+        "translatedContent": "| pretrain_dir         | str   | weight/Epoch99.pth |         "
+      },
+      {
+        "row": 27,
+        "rowsha": "rje2BF/7OsR7N2t5BnzZMbeor95WHhWFOBJU7daHr3Y=",
+        "originContent": "| num_of_SegClass      | int   | 21                 |        ",
+        "translatedContent": "| num_of_SegClass      | int   | 21                 |        "
+      },
+      {
+        "row": 28,
+        "rowsha": "alr8pbw/ZqmY9U0on+YaUW2L/QOdeq0cWQrxmL0NYkI=",
+        "originContent": "| conv_type            | str   | dsc                |        ",
+        "translatedContent": "| conv_type            | str   | dsc                |        "
+      },
+      {
+        "row": 29,
+        "rowsha": "qr9A2mZNBLcQSzGsNPdvMH6M7Jq5is5cpVh2n8WUB5k=",
+        "originContent": "| patch_size           | int   | 4                  |        ",
+        "translatedContent": "| patch_size           | int   | 4                  |        "
+      },
+      {
+        "row": 30,
+        "rowsha": "bRDLKsno9OeBf4FJCX0MqaIMAkgm6E/uz0VeE3996go=",
+        "originContent": "| exp_level            | float | 0.6                |       ",
+        "translatedContent": "| exp_level            | float | 0.6                |        "
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "gRD7PsxzZHztBbAGE2gksxK2dSwR0oJgWV5W3sw5LZw=",
+        "originContent": "# TODO List",
+        "translatedContent": "# Liste TODO  "
+      },
+      {
+        "row": 34,
+        "rowsha": "CrySWq4Rd+LjMUE3+cAkGXEMFv0SU9S7qr8l9LcPUrQ=",
+        "originContent": "- [x] List (important) hyperparameters",
+        "translatedContent": "- [x] Lister les hyperparamètres (importants)  "
+      },
+      {
+        "row": 35,
+        "rowsha": "kpcAs0ZpYMKAHbwoVdzufz6FhNRIt2I/3lufXBeTLXI=",
+        "originContent": "- [x] Addres model input size issue",
+        "translatedContent": "- [x] Résoudre le problème de taille d'entrée du modèle  "
+      },
+      {
+        "row": 36,
+        "rowsha": "3jLr9YaDpwpmi0CYOt6gtQNr9dab8pyTcfvGOs/DsvY=",
+        "originContent": "- [x] Upload Pretrained Weight ",
+        "translatedContent": "- [x] Télécharger les poids pré-entraînés  "
+      },
+      {
+        "row": 37,
+        "rowsha": "piesV2SBzihEQ32Tdp3K2Cq0P8zZs3BQ53Uc+r2vo+g=",
+        "originContent": "- [x] Rewrite training and testing argparse in a option.py",
+        "translatedContent": "- [x] Réécrire argparse d'entraînement et test dans un option.py  "
+      },
+      {
+        "row": 38,
+        "rowsha": "wfLLUSBDE/6SSJfF5bsoWM0FSotH6QxDmxNJLBytJN4=",
+        "originContent": "- [x] Rewrite training as a class",
+        "translatedContent": "- [x] Réécrire l'entraînement sous forme de classe  "
+      },
+      {
+        "row": 39,
+        "rowsha": "0okTn4tBV634rrDlHQ+xPAxCA1Bd+QhawtNXWO7hDlM=",
+        "originContent": "- [x] Rewrite testing as a class  ",
+        "translatedContent": "- [x] Réécrire le test sous forme de classe  "
+      },
+      {
+        "row": 40,
+        "rowsha": "z9eQsA/zKo++ErQodjrTQ4k1+kkx/u+pVvDrSKFKLgA=",
+        "originContent": "- [x] Upload Testing Dataset",
+        "translatedContent": "- [x] Télécharger le jeu de données de test"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "- [x] Upload Arxiv Link\n- [x] Testing on Video\n- [x] Upload BibTeX\n- [x] Modify Readme file\n- [x] Upload Model Architecture\n- [ ] Provide Online Demo\n# Others\nPlease reach zhengsh@kean.edu if you have any questions. This repository is heavily based upon [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE). Thanks for sharing the code!\n\n# Citations\nPlease cite the following paper if you find this repository helpful.",
+    "ContentSha": "AbSJuO/xNlVqbklbpF8W4giNc9/afq2UkED/w6QKuiA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- [x] Télécharger le lien Arxiv\n- [x] Tester sur vidéo\n- [x] Télécharger le BibTeX\n- [x] Modifier le fichier Readme\n- [x] Télécharger l’architecture du modèle\n- [ ] Fournir une démo en ligne\n# Autres\nVeuillez contacter zhengsh@kean.edu si vous avez des questions. Ce dépôt est largement basé sur [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE). Merci de partager le code !\n\n# Citations\nVeuillez citer l’article suivant si vous trouvez ce dépôt utile.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "gUCv4TVrzG15LnOhTUPV7fVAAaMk9T35/Qa3PvreTXo=",
+        "originContent": "- [x] Upload Arxiv Link",
+        "translatedContent": "- [x] Télécharger le lien Arxiv"
+      },
+      {
+        "row": 2,
+        "rowsha": "n2ltfN6CNpEqeJQyMLOrTywkYy/JsAcI4huas+OnrRM=",
+        "originContent": "- [x] Testing on Video",
+        "translatedContent": "- [x] Tester sur vidéo"
+      },
+      {
+        "row": 3,
+        "rowsha": "bQcrVLQxcufdr3AhGJ/wW6jOug/9xKTLkTKRoaX42xc=",
+        "originContent": "- [x] Upload BibTeX",
+        "translatedContent": "- [x] Télécharger le BibTeX"
+      },
+      {
+        "row": 4,
+        "rowsha": "3Tf6ULZE4h3J4VT4xNC4PZuFX6viICgQUSL6E5dmsGk=",
+        "originContent": "- [x] Modify Readme file",
+        "translatedContent": "- [x] Modifier le fichier Readme"
+      },
+      {
+        "row": 5,
+        "rowsha": "AFCgMuzhFd33JXSZS/Hv6Qas4QW3vQ1kLiHaIL1XPeY=",
+        "originContent": "- [x] Upload Model Architecture",
+        "translatedContent": "- [x] Télécharger l’architecture du modèle"
+      },
+      {
+        "row": 6,
+        "rowsha": "AKaLV8CSL9wAb5he649kVhSzNhyqkSfrfURFWrgZqEs=",
+        "originContent": "- [ ] Provide Online Demo",
+        "translatedContent": "- [ ] Fournir une démo en ligne"
+      },
+      {
+        "row": 7,
+        "rowsha": "UBmPDovRzISK6IuQtXXXlvwdt82x1+T0OOZQ0s/az+g=",
+        "originContent": "# Others",
+        "translatedContent": "# Autres"
+      },
+      {
+        "row": 8,
+        "rowsha": "T/yNHsFv/8EaSX5TzirjZBiHDP/04Ic+dz7NBrUDRuk=",
+        "originContent": "Please reach zhengsh@kean.edu if you have any questions. This repository is heavily based upon [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE). Thanks for sharing the code!",
+        "translatedContent": "Veuillez contacter zhengsh@kean.edu si vous avez des questions. Ce dépôt est largement basé sur [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE). Merci de partager le code !"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "7VWFgvCwVEA6NPtFCmHUfBV2oymCkH5yDHIhiTNsffo=",
+        "originContent": "# Citations",
+        "translatedContent": "# Citations"
+      },
+      {
+        "row": 11,
+        "rowsha": "4ecVeoLcsWv3xItC+wTOmLTu9czCUwGnlzatt9L1UAc=",
+        "originContent": "Please cite the following paper if you find this repository helpful.",
+        "translatedContent": "Veuillez citer l’article suivant si vous trouvez ce dépôt utile."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```\n@inproceedings{zheng2022semantic,\n  title={Semantic-guided zero-shot learning for low-light image/video enhancement},\n  author={Zheng, Shen and Gupta, Gaurav},\n  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},\n  pages={581--590},\n  year={2022}\n}\n```",
+    "ContentSha": "Ce5BQvFveHqAXDR2TrTljSbfHN0RlRJbs6yGG/495tU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@inproceedings{zheng2022semantic,\n  title={Semantic-guided zero-shot learning for low-light image/video enhancement},\n  author={Zheng, Shen and Gupta, Gaurav},\n  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},\n  pages={581--590},\n  year={2022}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "zD0AZ5QM3xczDAsc2tXVY/jeKD909e0fYyqhIx25z6k=",
+        "originContent": "@inproceedings{zheng2022semantic,",
+        "translatedContent": "@inproceedings{zheng2022semantic,"
+      },
+      {
+        "row": 3,
+        "rowsha": "ltwvU5tcRC2MsDLalXWoUupaxAASpqNn4jKfWyIyEgA=",
+        "originContent": "  title={Semantic-guided zero-shot learning for low-light image/video enhancement},",
+        "translatedContent": "  title={Semantic-guided zero-shot learning for low-light image/video enhancement},"
+      },
+      {
+        "row": 4,
+        "rowsha": "RrZbjJrxq9V2rHZTOrGMHyfUsJh5h2Sda8sgWBMtBDs=",
+        "originContent": "  author={Zheng, Shen and Gupta, Gaurav},",
+        "translatedContent": "  author={Zheng, Shen and Gupta, Gaurav},"
+      },
+      {
+        "row": 5,
+        "rowsha": "qkvmGlvA6y2rGOyzvvJKE9qZkvKBLCyHfvvQFPtzcfI=",
+        "originContent": "  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},",
+        "translatedContent": "  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},"
+      },
+      {
+        "row": 6,
+        "rowsha": "+b+dOJgi3XPfAIJm+LHGNXVHgY8+QXI3tSz9Xe2WQN0=",
+        "originContent": "  pages={581--590},",
+        "translatedContent": "  pages={581--590},"
+      },
+      {
+        "row": 7,
+        "rowsha": "Vc1JIo9vN0VcsCj66iIpyKTblCgfTB6EvbwHoMrzxFg=",
+        "originContent": "  year={2022}",
+        "translatedContent": "  year={2022}"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n\n# References\n[1] Wei, Chen, et al. \"Deep retinex decomposition for low-light enhancement.\" arXiv preprint arXiv:1808.04560 (2018).\n\n[2] Zhang, Yonghua, Jiawan Zhang, and Xiaojie Guo. \"Kindling the darkness: A practical low-light image enhancer.\" Proceedings of the 27th ACM international conference on multimedia. 2019.\n\n[3] Jiang, Yifan, et al. \"Enlightengan: Deep light enhancement without paired supervision.\" IEEE Transactions on Image Processing 30 (2021): 2340-2349.\n\n[4] Guo, Chunle, et al. \"Zero-reference deep curve estimation for low-light image enhancement.\" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.\n\n[5] Fu, Xueyang, et al. \"A probabilistic method for image enhancement with simultaneous illumination and reflectance estimation.\" IEEE Transactions on Image Processing 24.12 (2015): 4965-4977.\n\n[6] Guo, Xiaojie, Yu Li, and Haibin Ling. \"LIME: Low-light image enhancement via illumination map estimation.\" IEEE Transactions on image processing 26.2 (2016): 982-993.\n\n[7] Lv, Feifan, et al. \"MBLLEN: Low-Light Image/Video Enhancement Using CNNs.\" BMVC. 2018.\n\n",
+    "ContentSha": "YVl3SpZJMlCqVoY38RrAIK8zbWEiaLYLdNVxTZy6Vjk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n# Références\n[1] Wei, Chen, et al. « Deep retinex decomposition for low-light enhancement. » arXiv preprint arXiv:1808.04560 (2018).\n\n[2] Zhang, Yonghua, Jiawan Zhang, et Xiaojie Guo. « Kindling the darkness: A practical low-light image enhancer. » Proceedings of the 27th ACM international conference on multimedia. 2019.\n\n[3] Jiang, Yifan, et al. « Enlightengan: Deep light enhancement without paired supervision. » IEEE Transactions on Image Processing 30 (2021): 2340-2349.\n\n[4] Guo, Chunle, et al. « Zero-reference deep curve estimation for low-light image enhancement. » Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.\n\n[5] Fu, Xueyang, et al. « A probabilistic method for image enhancement with simultaneous illumination and reflectance estimation. » IEEE Transactions on Image Processing 24.12 (2015): 4965-4977.\n\n[6] Guo, Xiaojie, Yu Li, et Haibin Ling. « LIME: Low-light image enhancement via illumination map estimation. » IEEE Transactions on image processing 26.2 (2016): 982-993.\n\n[7] Lv, Feifan, et al. « MBLLEN: Low-Light Image/Video Enhancement Using CNNs. » BMVC. 2018.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "qqeNqFl8bX8V8FRsr3DWoSY6UcRkyD/D0ebbNa6tY8Y=",
+        "originContent": "# References",
+        "translatedContent": "# Références"
+      },
+      {
+        "row": 4,
+        "rowsha": "tmMG0XEYtuUYKqWmRnQO4KScy+qhYjbDfc3GPhb0WTM=",
+        "originContent": "[1] Wei, Chen, et al. \"Deep retinex decomposition for low-light enhancement.\" arXiv preprint arXiv:1808.04560 (2018).",
+        "translatedContent": "[1] Wei, Chen, et al. « Deep retinex decomposition for low-light enhancement. » arXiv preprint arXiv:1808.04560 (2018)."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "S2uuHvqFiumTs1wN8fL7HpF9/saym8t+eOn/8ink6NA=",
+        "originContent": "[2] Zhang, Yonghua, Jiawan Zhang, and Xiaojie Guo. \"Kindling the darkness: A practical low-light image enhancer.\" Proceedings of the 27th ACM international conference on multimedia. 2019.",
+        "translatedContent": "[2] Zhang, Yonghua, Jiawan Zhang, et Xiaojie Guo. « Kindling the darkness: A practical low-light image enhancer. » Proceedings of the 27th ACM international conference on multimedia. 2019."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "iZsD1ij+7/EvnuXrjyDB3sMRzEfsfgdekeLo7srKEIo=",
+        "originContent": "[3] Jiang, Yifan, et al. \"Enlightengan: Deep light enhancement without paired supervision.\" IEEE Transactions on Image Processing 30 (2021): 2340-2349.",
+        "translatedContent": "[3] Jiang, Yifan, et al. « Enlightengan: Deep light enhancement without paired supervision. » IEEE Transactions on Image Processing 30 (2021): 2340-2349."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "pH9R2fTz3/cDhbgYGWrKcSkAIBHfyOwT0Z/WaAMdqZo=",
+        "originContent": "[4] Guo, Chunle, et al. \"Zero-reference deep curve estimation for low-light image enhancement.\" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.",
+        "translatedContent": "[4] Guo, Chunle, et al. « Zero-reference deep curve estimation for low-light image enhancement. » Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "8WEqyD5hE68/Sqfq2VJCGVK+CSTwE8nRUTwRXC2U1RM=",
+        "originContent": "[5] Fu, Xueyang, et al. \"A probabilistic method for image enhancement with simultaneous illumination and reflectance estimation.\" IEEE Transactions on Image Processing 24.12 (2015): 4965-4977.",
+        "translatedContent": "[5] Fu, Xueyang, et al. « A probabilistic method for image enhancement with simultaneous illumination and reflectance estimation. » IEEE Transactions on Image Processing 24.12 (2015): 4965-4977."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "y5+GwtxC8YNB4E7Y79ZgqYXfsHxjPxREVDWxARd7wP0=",
+        "originContent": "[6] Guo, Xiaojie, Yu Li, and Haibin Ling. \"LIME: Low-light image enhancement via illumination map estimation.\" IEEE Transactions on image processing 26.2 (2016): 982-993.",
+        "translatedContent": "[6] Guo, Xiaojie, Yu Li, et Haibin Ling. « LIME: Low-light image enhancement via illumination map estimation. » IEEE Transactions on image processing 26.2 (2016): 982-993."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "u/97ejpDMnEiZ8GkhArFu6wpMQuLw2n6CNByhl+TKGk=",
+        "originContent": "[7] Lv, Feifan, et al. \"MBLLEN: Low-Light Image/Video Enhancement Using CNNs.\" BMVC. 2018.",
+        "translatedContent": "[7] Lv, Feifan, et al. « MBLLEN: Low-Light Image/Video Enhancement Using CNNs. » BMVC. 2018."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

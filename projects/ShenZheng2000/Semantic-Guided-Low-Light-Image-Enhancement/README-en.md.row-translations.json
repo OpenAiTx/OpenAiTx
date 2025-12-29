@@ -1,0 +1,1376 @@
+[
+  {
+    "row": 1,
+    "rowsha": "HmcBOdjOhO+eDwGg4TTcgvZdgMK5H9iJxb9UBawvv3o=",
+    "originContent": "# Semantic-Guided-Low-Light-Image-Enhancement",
+    "translatedContent": "# Semantic-Guided-Low-Light-Image-Enhancement"
+  },
+  {
+    "row": 2,
+    "rowsha": "zighXll3RNpQX8XuW2joxK6+zJW2kHdt36vMF+tZK0I=",
+    "originContent": "This is the official Pytorch implementation for our paper \"**Semantic-Guided Zero-Shot Learning for Low-Light Image/Video Enhancement**\" ",
+    "translatedContent": "This is the official Pytorch implementation for our paper \"**Semantic-Guided Zero-Shot Learning for Low-Light Image/Video Enhancement**\" "
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "CIgQytJqJBhsXTjs6sGe2kOiC16UshSo9tEN1rB+cGc=",
+    "originContent": "# Updates",
+    "translatedContent": "# Updates"
+  },
+  {
+    "row": 5,
+    "rowsha": "zT41u7BcspyJIJ2IA6jDDgEA/vL3vPl7Nbpoc+2+kJg=",
+    "originContent": "- 2021.11.27: The figure for the model architecture has been uploaded.",
+    "translatedContent": "- 2021.11.27: The figure for the model architecture has been uploaded."
+  },
+  {
+    "row": 6,
+    "rowsha": "Ds6TZVgtvLYv3Vk6hy1z+UqFfiyEhfIGIkKJaqFcMEQ=",
+    "originContent": "- 2021.11.10: This work is accepted and will be presented at [WACV 2022](https://wacv2022.thecvf.com/home).",
+    "translatedContent": "- 2021.11.10: This work is accepted and will be presented at [WACV 2022](https://wacv2022.thecvf.com/home)."
+  },
+  {
+    "row": 7,
+    "rowsha": "muCQo6tSHK94Q1+lwqguNabMj9m5McGqPTIAhzAvqWg=",
+    "originContent": "- 2021.10.8: An easy way to calculate mPA and mIOU score is available at this [repository](https://github.com/ShenZheng2000/DarkCityScape_mIOU_mPA)",
+    "translatedContent": "- 2021.10.8: An easy way to calculate mPA and mIOU score is available at this [repository](https://github.com/ShenZheng2000/DarkCityScape_mIOU_mPA)"
+  },
+  {
+    "row": 8,
+    "rowsha": "vrf8N+js3EwoEZShLxi55ZnOhqvkasDI4OBi7IArnzg=",
+    "originContent": "- 2021.10.6: A sample enhanced low-light video in GIF format has been released. ",
+    "translatedContent": "- 2021.10.6: A sample enhanced low-light video in GIF format has been released. "
+  },
+  {
+    "row": 9,
+    "rowsha": "wxnpAWiuJCSERSDcydEJuvizvh6PvauAnwRZMkrX3js=",
+    "originContent": "- 2021.10.5: A sample low-light video and its enhanced result is available at: [[Low-Light](https://www.youtube.com/watch?v=4Avy_xsczdU)]  [[Enhanced](https://www.youtube.com/watch?v=rN6Tf1E-kE8)]",
+    "translatedContent": "- 2021.10.5: A sample low-light video and its enhanced result is available at: [[Low-Light](https://www.youtube.com/watch?v=4Avy_xsczdU)]  [[Enhanced](https://www.youtube.com/watch?v=rN6Tf1E-kE8)]"
+  },
+  {
+    "row": 10,
+    "rowsha": "qiGguE/R6OghfbVkvsgjzGZEwl4QpuB7l9mU5bt1r6k=",
+    "originContent": "- 2021.10.5: My new [repository](https://github.com/ShenZheng2000/Awesome-Low-Light-Enhancement-with-Deep-Learning) contains a collection of low-light enhancement methods. Hope you will find it helpful. ",
+    "translatedContent": "- 2021.10.5: My new [repository](https://github.com/ShenZheng2000/Awesome-Low-Light-Enhancement-with-Deep-Learning) contains a collection of low-light enhancement methods. Hope you will find it helpful. "
+  },
+  {
+    "row": 11,
+    "rowsha": "5xAyPjx7RRtIXcu/n5DQUwUxWkn4ZvE0TX5nvLMJnFA=",
+    "originContent": "- 2021.10.4: The arxiv link is available at http://arxiv.org/abs/2110.00970",
+    "translatedContent": "- 2021.10.4: The arxiv link is available at http://arxiv.org/abs/2110.00970"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "OoDkFPJpKdg7EO4CaZcXuK+4RDeTZ5ZCMAzYLbGYuhw=",
+    "originContent": "# Abstract",
+    "translatedContent": "# Abstract"
+  },
+  {
+    "row": 15,
+    "rowsha": "Ym+wOgu/lrNRDtrt4eB1R7NynkrZgmHguypWBH3yEOU=",
+    "originContent": "Low-light images challenge both human perceptions and computer vision algorithms. It is crucial to make algorithms robust to enlighten low-light images for computational photography and computer vision applications such as real-time detection and segmentation tasks. This paper proposes a semantic-guided zero-shot low-light enhancement network which is trained in the absence of paired images, unpaired datasets, and segmentation annotation. Firstly, we design an efficient **enhancement factor extraction** network using depthwise separable convolution. Secondly, we propose a **recurrent image enhancement** network for progressively enhancing the low-light image. Finally, we introduce an **unsupervised semantic segmentation** network for preserving the semantic information. Extensive experiments on various benchmark datasets and a low-light video demonstrate that our model outperforms the previous state-of-the-art qualitatively and quantitatively. We further discuss the benefits of the proposed method for low-light detection and segmentation.",
+    "translatedContent": "Low-light images challenge both human perceptions and computer vision algorithms. It is crucial to make algorithms robust to enlighten low-light images for computational photography and computer vision applications such as real-time detection and segmentation tasks. This paper proposes a semantic-guided zero-shot low-light enhancement network which is trained in the absence of paired images, unpaired datasets, and segmentation annotation. Firstly, we design an efficient **enhancement factor extraction** network using depthwise separable convolution. Secondly, we propose a **recurrent image enhancement** network for progressively enhancing the low-light image. Finally, we introduce an **unsupervised semantic segmentation** network for preserving the semantic information. Extensive experiments on various benchmark datasets and a low-light video demonstrate that our model outperforms the previous state-of-the-art qualitatively and quantitatively. We further discuss the benefits of the proposed method for low-light detection and segmentation."
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "zojuwfGvFR+g4CsQtEtAMlxTn0FvbCAls7S3AMDXc/o=",
+    "originContent": "# Model Architecture",
+    "translatedContent": "# Model Architecture"
+  },
+  {
+    "row": 18,
+    "rowsha": "oTFMXLAlZrvjqC1XA8RHe2wwShixCCUxQXwQQNAJHeQ=",
+    "originContent": "Click the following link to see the model architecture in pdf format. ",
+    "translatedContent": "Click the following link to see the model architecture in pdf format. "
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "iaeuuaKZo2hqA6DISaSvZl8x8poTJjxO42deOWTnPaA=",
+    "originContent": "![Model Architecture](https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/main_architecture.pdf)",
+    "translatedContent": "![Model Architecture](https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/main_architecture.pdf)"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "MBYU/E78Pwp+/ciivxhPAfItusJxfcy5YIEoiWJeGos=",
+    "originContent": "# Sample Results",
+    "translatedContent": "# Sample Results"
+  },
+  {
+    "row": 23,
+    "rowsha": "/+CsMv3fpmwAT7WKeaAtfdXzNBmbxWiDitVBWbV22qI=",
+    "originContent": "## 1. Low-Light Video Frames",
+    "translatedContent": "## 1. Low-Light Video Frames"
+  },
+  {
+    "row": 24,
+    "rowsha": "2aqI6kORGsngsnBjXok+TDn2mRg7RgNCGrXtpK+yf4s=",
+    "originContent": "From left to right, and from top to bottom: Dark, Retinex [1], KinD [2], EnlightenGAN [3], Zero-DCE [4], Ours.",
+    "translatedContent": "From left to right, and from top to bottom: Dark, Retinex [1], KinD [2], EnlightenGAN [3], Zero-DCE [4], Ours."
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "GUbCMidcscNwoOhSkP+X+EwL8KN6omDI0Cory0F0HZc=",
+    "originContent": "<p float=\"left\">",
+    "translatedContent": "<p float=\"left\">"
+  },
+  {
+    "row": 27,
+    "rowsha": "rvXr7GgaDnkcx4PfArNfFuk1mNvA4m0zxcRiFGoHegk=",
+    "originContent": "<p align=\"middle\">",
+    "translatedContent": "<p align=\"middle\">"
+  },
+  {
+    "row": 28,
+    "rowsha": "xD0oySVNqliOTU3ald1epzVp+iZlvVBeBF0pOM8eTMQ=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/F1.png\" width=\"250\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/F1.png\" width=\"250\" />"
+  },
+  {
+    "row": 29,
+    "rowsha": "5iQRnqAYS8fW9l9Zm3M9qxi2ekIvHMW0N5EZWxwczV4=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/retinex_net.png\" width=\"250\" /> ",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/retinex_net.png\" width=\"250\" /> "
+  },
+  {
+    "row": 30,
+    "rowsha": "tv+Ip1UdrrQCPOibAFt3sACCEDM5VEAUsEb+GtrqOS8=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/kind.png\" width=\"250\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/kind.png\" width=\"250\" />"
+  },
+  {
+    "row": 31,
+    "rowsha": "JBpKo4vIm4wE5dYrKVMU5NgIyow+KMCVHH0LHRp7BrY=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/enlighten_gan.png\" width=\"250\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/enlighten_gan.png\" width=\"250\" />"
+  },
+  {
+    "row": 32,
+    "rowsha": "6N+tYfo7X2zkdmOc51EOicaTjXasgkKrQI4wldujYWY=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/zero_dce.png\" width=\"250\" /> ",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/zero_dce.png\" width=\"250\" /> "
+  },
+  {
+    "row": 33,
+    "rowsha": "9QchfeFwbjVNHK4AnZO/yU66rMLrYVc0IajpHqbZz48=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/F1Crop.png\" width=\"250\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/F1Crop.png\" width=\"250\" />"
+  },
+  {
+    "row": 34,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "tcSQmAgibSw5uFiTB1QV/O3P56Mg9Rzmy5ztawkzDrY=",
+    "originContent": "## 2. Low-Light Images (Real-World)",
+    "translatedContent": "## 2. Low-Light Images (Real-World)"
+  },
+  {
+    "row": 37,
+    "rowsha": "C0G+fgwt7nd9gFgLoPLrtFkKIdZ3AlvYTqu/+AVhFx0=",
+    "originContent": "From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1], MBLLEN [7], KinD [2] , Zero-DCE [4], Ours",
+    "translatedContent": "From left to right, and from top to bottom: Dark, PIE [5], LIME [6], Retinex [1], MBLLEN [7], KinD [2] , Zero-DCE [4], Ours"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "GUbCMidcscNwoOhSkP+X+EwL8KN6omDI0Cory0F0HZc=",
+    "originContent": "<p float=\"left\">",
+    "translatedContent": "<p float=\"left\">"
+  },
+  {
+    "row": 40,
+    "rowsha": "rvXr7GgaDnkcx4PfArNfFuk1mNvA4m0zxcRiFGoHegk=",
+    "originContent": "<p align=\"middle\">",
+    "translatedContent": "<p align=\"middle\">"
+  },
+  {
+    "row": 41,
+    "rowsha": "XaVZv5bYwRxPFPnRiKq3zTDrX9i1AzKZFJhuCS03N94=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Dark7.jpg\" width=\"200\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Dark7.jpg\" width=\"200\" />"
+  },
+  {
+    "row": 42,
+    "rowsha": "RKzZDFdxZXvH4PbD7aql7IQE4YHGPSSa8A0cdXKMkNg=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/PIE7.jpg\" width=\"200\" /> ",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/PIE7.jpg\" width=\"200\" /> "
+  },
+  {
+    "row": 43,
+    "rowsha": "G1DTRiHDKI0fNQqnbup3pRJqN37j7nUbunfnzaWkfeU=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/LIME7.jpg\" width=\"200\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/LIME7.jpg\" width=\"200\" />"
+  },
+  {
+    "row": 44,
+    "rowsha": "NnrZ5PbiNF7vlHpxdSlkJdiRe5aOz2HMPA44HwKfnwM=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Retinex7.jpg\" width=\"200\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Retinex7.jpg\" width=\"200\" />"
+  },
+  {
+    "row": 45,
+    "rowsha": "DRQZ3UWGCdOzE7pePzxW2PTA8ylA6EXkqqap/OqKeyQ=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/mbllen7.jpg\" width=\"200\" /> ",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/mbllen7.jpg\" width=\"200\" /> "
+  },
+  {
+    "row": 46,
+    "rowsha": "ggDxNU9bof7+VdaUNesmg7WYnx+ciTFTIqxOx+Ms6W4=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/KinD7.jpg\" width=\"200\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/KinD7.jpg\" width=\"200\" />"
+  },
+  {
+    "row": 47,
+    "rowsha": "/C19iy78grb3KHhZtxg1x9cIpJdHbkU6E9Jzlo4Q5S4=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/ZeroDCE7.jpg\" width=\"200\" /> ",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/ZeroDCE7.jpg\" width=\"200\" /> "
+  },
+  {
+    "row": 48,
+    "rowsha": "vq2CjZacDU0nICavzuOBrAO9EmXzVsMkKH4g7EsvUKY=",
+    "originContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Ours7.jpg\" width=\"200\" />",
+    "translatedContent": "  <img src=\"https://raw.githubusercontent.com/ShenZheng2000/Semantic-Guided-Low-Light-Image-Enhancement/main/Samples/Ours7.jpg\" width=\"200\" />"
+  },
+  {
+    "row": 49,
+    "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+    "originContent": "</p>",
+    "translatedContent": "</p>"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "3MF5gbUTUOezZb1S6adHoyvzt7a6SUhVkgNRzTcL5e4=",
+    "originContent": "# Get Started",
+    "translatedContent": "# Get Started"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "ZH+ULVkzjDu78LtnPh1GZQ3po3w8ko3FafmjzJOSws8=",
+    "originContent": "## 1. Requirements",
+    "translatedContent": "## 1. Requirements"
+  },
+  {
+    "row": 54,
+    "rowsha": "1KZZEDrwczMN4xNzhHQOYaFfbXO/8MqjK0f+e1FIkBg=",
+    "originContent": "* CUDA 10.0",
+    "translatedContent": "* CUDA 10.0"
+  },
+  {
+    "row": 55,
+    "rowsha": "1rvhkvJ/ZDjgwfYI0LmY7QaEUq20gEU/L689Vj1bKhs=",
+    "originContent": "* Python 3.6+",
+    "translatedContent": "* Python 3.6+"
+  },
+  {
+    "row": 56,
+    "rowsha": "9zCPcOaKJl3QJf5cffwZUij4gbVRhgeT8RD+GH03Kdw=",
+    "originContent": "* Pytorch 1.0+",
+    "translatedContent": "* Pytorch 1.0+"
+  },
+  {
+    "row": 57,
+    "rowsha": "am7whLjrmqqNJqYuJPLes7c3337JnQsz8kq2KagykSg=",
+    "originContent": "* torchvision 0.4+",
+    "translatedContent": "* torchvision 0.4+"
+  },
+  {
+    "row": 58,
+    "rowsha": "lYmBhBGhSPowsc1oyjRQa70p+1V0ua//JtJbCTx0DNg=",
+    "originContent": "* opencv-python",
+    "translatedContent": "* opencv-python"
+  },
+  {
+    "row": 59,
+    "rowsha": "uXuwMQEXhOh7QVY0p460J45FmvqXT89aGdim0epL1Hg=",
+    "originContent": "* numpy",
+    "translatedContent": "* numpy"
+  },
+  {
+    "row": 60,
+    "rowsha": "7iHBIQXg3CSE+qQ1C+igQV23dZtPc2/deKIrpVDMgR8=",
+    "originContent": "* pillow",
+    "translatedContent": "* pillow"
+  },
+  {
+    "row": 61,
+    "rowsha": "eeswEmBMjRRcqfhrmrG2olWyZfoIxKobJJyXf7cKTqI=",
+    "originContent": "* scikit-image",
+    "translatedContent": "* scikit-image"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "7bxDaJKtDjfdr6uv0bhLZQkNvMwnxBOEcr0K23bRNlE=",
+    "originContent": "## 2. Prepare Datasets",
+    "translatedContent": "## 2. Prepare Datasets"
+  },
+  {
+    "row": 64,
+    "rowsha": "m83apJwXoIcsyLxtKv+o1357ZA13hPPeVSzR1dt34xg=",
+    "originContent": "### Testing Dataset",
+    "translatedContent": "### Testing Dataset"
+  },
+  {
+    "row": 65,
+    "rowsha": "FJ3lrPBMZabbfAx/BwpVJFfPiAeaSiWgeFjsgGF+/bM=",
+    "originContent": "- Downloaded the official testing images from [BaiduYun](https://pan.baidu.com/s/1pbz0YlOmLqxnazeKrRRUQg) with password `8itq`. ",
+    "translatedContent": "- Downloaded the official testing images from [BaiduYun](https://pan.baidu.com/s/1pbz0YlOmLqxnazeKrRRUQg) with password `8itq`. "
+  },
+  {
+    "row": 66,
+    "rowsha": "56QhDvxhdRVrWyUiXnFmabDmRqQ/efBlLc45M67QbIQ=",
+    "originContent": "- Move the unzipped file into `data/test_data/`. ",
+    "translatedContent": "- Move the unzipped file into `data/test_data/`. "
+  },
+  {
+    "row": 67,
+    "rowsha": "A712t4IU0IgCVY/tcy8K9z/c0XYz4dKWDcq6eLlmtdM=",
+    "originContent": "- You can also put custom datasets or your own low-light images in this folder for testing. Example: `data/test_data/yourDataset/`",
+    "translatedContent": "- You can also put custom datasets or your own low-light images in this folder for testing. Example: `data/test_data/yourDataset/`"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "V9we3xTQmbZ0QMaWFFhvQ/ND+wTjLaDLV5LMNhMceX0=",
+    "originContent": "### Training Dataset",
+    "translatedContent": "### Training Dataset"
+  },
+  {
+    "row": 70,
+    "rowsha": "f5yQJCxob46Owj+wO99zhRmCiofkxGMNkzsvnHs7yYA=",
+    "originContent": "- Downloaded the official training images from [GoogleDrive](https://drive.google.com/file/d/1GAB3uGsmAyLgtDBDONbil08vVu5wJcG3/view). ",
+    "translatedContent": "- Downloaded the official training images from [GoogleDrive](https://drive.google.com/file/d/1GAB3uGsmAyLgtDBDONbil08vVu5wJcG3/view). "
+  },
+  {
+    "row": 71,
+    "rowsha": "YqxPhGFsHG0EzopxBVNe+fk58QRaakS8kms4s4tqN6Q=",
+    "originContent": "- Move the unzipped file into `data/train_data/`. ",
+    "translatedContent": "- Move the unzipped file into `data/train_data/`. "
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "GtwT6GpsZFnS+r99F8Ox7SyTRIvV2L0C+hcywZjDQ7A=",
+    "originContent": "NOTE: If you don't have BaiduYun account, you can download both the training and the testing dataset via [Google Drive](https://drive.google.com/drive/folders/1RIQsP5ap5QU7LstHPknOffQZeqht_FCh)",
+    "translatedContent": "NOTE: If you don't have BaiduYun account, you can download both the training and the testing dataset via [Google Drive](https://drive.google.com/drive/folders/1RIQsP5ap5QU7LstHPknOffQZeqht_FCh)"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "CdfWqjBG9FAfowb1/o+TTODJ6xEojhsRlk1j5itklW8=",
+    "originContent": "After preparation, the data folders should look like this:",
+    "translatedContent": "After preparation, the data folders should look like this:"
+  },
+  {
+    "row": 76,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 77,
+    "rowsha": "pFG25ohb5F0BvuA7GOWDmc8m8JgB/xD/kMhqNTgDzMw=",
+    "originContent": "data/",
+    "translatedContent": "data/"
+  },
+  {
+    "row": 78,
+    "rowsha": "gRX/RhT7CAY94TbI8eZNny7k+3aocOUatLXM995raAo=",
+    "originContent": "├── test_data/",
+    "translatedContent": "├── test_data/"
+  },
+  {
+    "row": 79,
+    "rowsha": "gsSBs5k+xZQLV4gLWk4bTeRTvUuCp80AUvSN4ZZeM0E=",
+    "originContent": "│   ├── lowCUT/",
+    "translatedContent": "│   ├── lowCUT/"
+  },
+  {
+    "row": 80,
+    "rowsha": "5TBns4Z5DXRIPfBmlRzEap0Mxq8u7JQl6jCL2h3GKOw=",
+    "originContent": "│   ├── BDD/",
+    "translatedContent": "│   ├── BDD/"
+  },
+  {
+    "row": 81,
+    "rowsha": "6JX7mAPMhiS3e6plOjJRLRpx5O1n4RkauOCidXJd/pY=",
+    "originContent": "│   ├── Cityscapes/",
+    "translatedContent": "│   ├── Cityscapes/"
+  },
+  {
+    "row": 82,
+    "rowsha": "J6yzL7aM78D4J2fN1fx4WIcFiofSQqUj6VXolLREW/c=",
+    "originContent": "│   ├── DICM/",
+    "translatedContent": "│   ├── DICM/"
+  },
+  {
+    "row": 83,
+    "rowsha": "rwNpuAM/Pc/ApCJWE/mWeXfzJeuDw1wQru+gWymN+hU=",
+    "originContent": "│   ├── LIME/",
+    "translatedContent": "│   ├── LIME/"
+  },
+  {
+    "row": 84,
+    "rowsha": "EnEBtDNR4z1YslRyFHshf/AePgpN20Li0yrID9mqPXw=",
+    "originContent": "│   ├── LOL/",
+    "translatedContent": "│   ├── LOL/"
+  },
+  {
+    "row": 85,
+    "rowsha": "9pnKfi4ZWUnE7D0c1Y5zm82n3xbrNv6gUUDkWvA7J+Q=",
+    "originContent": "│   ├── MEF/",
+    "translatedContent": "│   ├── MEF/"
+  },
+  {
+    "row": 86,
+    "rowsha": "G5z2sZ+/JUgFT3sd74NBTWYnhcXDO5PnI1lunBeuhLk=",
+    "originContent": "│   ├── NPE/",
+    "translatedContent": "│   ├── NPE/"
+  },
+  {
+    "row": 87,
+    "rowsha": "TE33mPYgzZYQ+Mpk/hmG/In34GX97vhzQ+BZhSJkt94=",
+    "originContent": "│   └── VV/",
+    "translatedContent": "│   └── VV/"
+  },
+  {
+    "row": 88,
+    "rowsha": "b6zIIO504bTFRilui9x+g6aQj6zv3q82mKhNndaQlHw=",
+    "originContent": "└── train_data/",
+    "translatedContent": "└── train_data/"
+  },
+  {
+    "row": 89,
+    "rowsha": "EVxSCGnx6ALjSB9cd4swH9yRVDSmm2cv6tBjcIJqwFo=",
+    "originContent": "    └── ...",
+    "translatedContent": "    └── ..."
+  },
+  {
+    "row": 90,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "5RPQcs0/doQuPyuefyVrtg2KHUAVmudOC2wCrOHIFVw=",
+    "originContent": "## 3. Training from Scratch",
+    "translatedContent": "## 3. Training from Scratch"
+  },
+  {
+    "row": 93,
+    "rowsha": "Xl0p+F5ZI54DPvHjRtjvJ6DkM6zy1RLTWLlkptNRi+w=",
+    "originContent": "To train the model:",
+    "translatedContent": "To train the model:"
+  },
+  {
+    "row": 94,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 95,
+    "rowsha": "JD7wKSI5BbJPbqagn8SRjBKcTFc1eMkbvCCOKWA9bJU=",
+    "originContent": "python train.py \\",
+    "translatedContent": "python train.py \\"
+  },
+  {
+    "row": 96,
+    "rowsha": "DuYQKr7xLTK2hetg0TQfvn1lCRmPvcKc93MOobkEzfw=",
+    "originContent": "  --lowlight_images_path path/to/train_images \\",
+    "translatedContent": "  --lowlight_images_path path/to/train_images \\"
+  },
+  {
+    "row": 97,
+    "rowsha": "uyOwhNeCqmIUrWaijoWTvvVKg1TGwx1go42MrZ4GBAA=",
+    "originContent": "  --snapshots_folder path/to/save_weights",
+    "translatedContent": "  --snapshots_folder path/to/save_weights"
+  },
+  {
+    "row": 98,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Example (train from scratch):"
+  },
+  {
+    "row": 100,
+    "rowsha": "0xt6pRldHzdP9nx2ZHyVWtlqxGX1OdP4jfDkgYMhjV8=",
+    "originContent": "Example (train from scratch):",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "JD7wKSI5BbJPbqagn8SRjBKcTFc1eMkbvCCOKWA9bJU=",
+    "originContent": "python train.py \\",
+    "translatedContent": "python train.py \\"
+  },
+  {
+    "row": 103,
+    "rowsha": "KKukHgqom/+FymtShSK4/0EFu7EyPLN4PZfXvDdefjg=",
+    "originContent": "  --lowlight_images_path data/train_data \\",
+    "translatedContent": "  --lowlight_images_path data/train_data \\"
+  },
+  {
+    "row": 104,
+    "rowsha": "S2iqcDx/cfMmj771QMRaYQnK8OZaDH6diSyXnc+IVe0=",
+    "originContent": "  --snapshots_folder weight/",
+    "translatedContent": "  --snapshots_folder weight/"
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "7a0vUo6jaO2kKA1rgo9AC31sFSIdPKNERbgmJEqkFUo=",
+    "originContent": "## 4. Resume Training",
+    "translatedContent": "## 4. Resume Training"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "jiv7oQ8vxQrm7uZ00HUJL+fMLtMS2i2N8zVgAsgnuFY=",
+    "originContent": "To resume training from a checkpoint:",
+    "translatedContent": "To resume training from a checkpoint:"
+  },
+  {
+    "row": 110,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 111,
+    "rowsha": "JD7wKSI5BbJPbqagn8SRjBKcTFc1eMkbvCCOKWA9bJU=",
+    "originContent": "python train.py \\",
+    "translatedContent": "python train.py \\"
+  },
+  {
+    "row": 112,
+    "rowsha": "DuYQKr7xLTK2hetg0TQfvn1lCRmPvcKc93MOobkEzfw=",
+    "originContent": "  --lowlight_images_path path/to/train_images \\",
+    "translatedContent": "  --lowlight_images_path path/to/train_images \\"
+  },
+  {
+    "row": 113,
+    "rowsha": "5e45KoeF+YAWY0HBKddIkrP2O5JWgsPKX+3CEM5q4wc=",
+    "originContent": "  --snapshots_folder path/to/save_weights \\",
+    "translatedContent": "  --snapshots_folder path/to/save_weights \\"
+  },
+  {
+    "row": 114,
+    "rowsha": "doNXdDpZ40Gk8FG4Z9PENZZ0+4Dv15/SBiBRukjFazM=",
+    "originContent": "  --load_pretrain True \\",
+    "translatedContent": "  --load_pretrain True \\"
+  },
+  {
+    "row": 115,
+    "rowsha": "WzU8ycaDKvYEHcjyBZXecMIM1RHw5Q1BscuwNbikiQ4=",
+    "originContent": "  --pretrain_dir path/to/checkpoint.pth",
+    "translatedContent": "  --pretrain_dir path/to/checkpoint.pth"
+  },
+  {
+    "row": 116,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "i1SkglGb3Lm2wr2nB8S9OzAn1jEc8Ag7mh1W+LUIoVQ=",
+    "originContent": "Example (resume from Epoch99.pth):",
+    "translatedContent": "Example (resume from Epoch99.pth):"
+  },
+  {
+    "row": 119,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 120,
+    "rowsha": "JD7wKSI5BbJPbqagn8SRjBKcTFc1eMkbvCCOKWA9bJU=",
+    "originContent": "python train.py \\",
+    "translatedContent": "python train.py \\"
+  },
+  {
+    "row": 121,
+    "rowsha": "KKukHgqom/+FymtShSK4/0EFu7EyPLN4PZfXvDdefjg=",
+    "originContent": "  --lowlight_images_path data/train_data \\",
+    "translatedContent": "  --lowlight_images_path data/train_data \\"
+  },
+  {
+    "row": 122,
+    "rowsha": "O6hyLP295phKGGqONvNcRM0xHQgDmPqArUBWMaSD9mo=",
+    "originContent": "  --snapshots_folder weight/ \\",
+    "translatedContent": "  --snapshots_folder weight/ \\"
+  },
+  {
+    "row": 123,
+    "rowsha": "doNXdDpZ40Gk8FG4Z9PENZZ0+4Dv15/SBiBRukjFazM=",
+    "originContent": "  --load_pretrain True \\",
+    "translatedContent": "  --load_pretrain True \\"
+  },
+  {
+    "row": 124,
+    "rowsha": "xFQcQLBIUReAhzoYLbwqmAefiAQj26sTFr6QJSAiN1U=",
+    "originContent": "  --pretrain_dir weight/Epoch99.pth",
+    "translatedContent": "  --pretrain_dir weight/Epoch99.pth"
+  },
+  {
+    "row": 125,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+    "originContent": " ",
+    "translatedContent": " "
+  },
+  {
+    "row": 128,
+    "rowsha": "wL2RdL2EdqBWniNv2gMB9j0ZheycuRv4oTAd62+H/AI=",
+    "originContent": "## 5. Testing",
+    "translatedContent": "## 5. Testing"
+  },
+  {
+    "row": 129,
+    "rowsha": "OM2q16MYmpz0LQmHvmDBSaLdzEy9NSmLNwL4d0R2M4Y=",
+    "originContent": "**NOTE: Please delete all readme.txt in the `data` folder to avoid model inference error.**",
+    "translatedContent": "**NOTE: Please delete all readme.txt in the `data` folder to avoid model inference error.**"
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "S9u9AY538Q87b/8D6fA1DUnRYsmpfnezVmkARijIMpE=",
+    "originContent": "To test the model:",
+    "translatedContent": "To test the model:"
+  },
+  {
+    "row": 132,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 133,
+    "rowsha": "A9mlLFEYa+zuDrT2baviLhOaIIB8PCOzS24eeTg+bRY=",
+    "originContent": "python test.py \\",
+    "translatedContent": "python test.py \\"
+  },
+  {
+    "row": 134,
+    "rowsha": "iCk0H8+4cS5fl2slWx5Z5Q7iLVjHRLZ6uRYbdC1fZUE=",
+    "originContent": "  --input_dir path/to/your_input_images \\",
+    "translatedContent": "  --input_dir path/to/your_input_images \\"
+  },
+  {
+    "row": 135,
+    "rowsha": "UgbGfj9xptx2fWrJI4dFaUNQVmFuYn/aTXrVQXUuCjw=",
+    "originContent": "  --weight_dir path/to/pretrained_model.pth \\",
+    "translatedContent": "  --weight_dir path/to/pretrained_model.pth \\"
+  },
+  {
+    "row": 136,
+    "rowsha": "2LhHGfvZSx0VONVOpg0f9M1y/lwOmdUs75sXR79+a1o=",
+    "originContent": "  --test_dir path/to/output_folder ",
+    "translatedContent": "  --test_dir path/to/output_folder "
+  },
+  {
+    "row": 137,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Example:"
+  },
+  {
+    "row": 139,
+    "rowsha": "hyiH5WPnWVf/wgsCEzJQTy3dCo85ZMuTBwhjv68Tza0=",
+    "originContent": "Example:",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 141,
+    "rowsha": "A9mlLFEYa+zuDrT2baviLhOaIIB8PCOzS24eeTg+bRY=",
+    "originContent": "python test.py \\",
+    "translatedContent": "python test.py \\"
+  },
+  {
+    "row": 142,
+    "rowsha": "kaAkK6ZxcQ7sM5Is9PPZWCLeA95oGxTbpFeRzyYm6+U=",
+    "originContent": "  --input_dir data/test_data/lowCUT \\",
+    "translatedContent": "  --input_dir data/test_data/lowCUT \\"
+  },
+  {
+    "row": 143,
+    "rowsha": "vrudqK+zVf4/8cCTV0U62iDcEyLbM6QYSV9fmF7zJtI=",
+    "originContent": "  --weight_dir weight/Epoch99.pth \\",
+    "translatedContent": "  --weight_dir weight/Epoch99.pth \\"
+  },
+  {
+    "row": 144,
+    "rowsha": "dcLOrWMFqKjoTDrORFjBfanE1HDWwrCfpH7R73XZaMU=",
+    "originContent": "  --test_dir test_output",
+    "translatedContent": "  --test_dir test_output"
+  },
+  {
+    "row": 145,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 146,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "l2pLj9uPsJy1G3qdmfh2tSnY4G6cp90nGoiLh9sC06E=",
+    "originContent": "## 6. Testing on Videos",
+    "translatedContent": "## 6. Testing on Videos"
+  },
+  {
+    "row": 148,
+    "rowsha": "6NAz5JcHRx+bXanit9qsC4IwJugnnaWbLsqnpFm51CI=",
+    "originContent": "For model testing on videos (MP4 format), run in terminal:",
+    "translatedContent": "For model testing on videos (MP4 format), run in terminal:"
+  },
+  {
+    "row": 149,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 150,
+    "rowsha": "HewNNIa11+/JVDWo4Y72umbwgqAkwfD4gB5oBwM8ta8=",
+    "originContent": "bash test_video.sh",
+    "translatedContent": "bash test_video.sh"
+  },
+  {
+    "row": 151,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "aCjFiESsjMveCw7zaTkwuHk7CTSmKryMMK39ZVqtZ34=",
+    "originContent": "There are five hyperparameters in `demo/make_video.py`for video testing. See the following explanation. ",
+    "translatedContent": "There are five hyperparameters in `demo/make_video.py` for video testing. See the following explanation. "
+  },
+  {
+    "row": 154,
+    "rowsha": "0cdG1U/lwbg5p8zoekBFd3BY3SlKzTH3rMqmYnB/viM=",
+    "originContent": "- `video_path`: path of the low-light video",
+    "translatedContent": "- `video_path`: path of the low-light video"
+  },
+  {
+    "row": 155,
+    "rowsha": "IFSeUfkO7dlQDBw1fcqHxFxZ8tAEq1TGgLmwG1z4Fdc=",
+    "originContent": "- `image_lowlight_folder`: path of the low-light images",
+    "translatedContent": "- `image_lowlight_folder`: path of the low-light images"
+  },
+  {
+    "row": 156,
+    "rowsha": "Nxnwp2Kje3gKoeLmk9Bh0qrQZWgsZ8J2/SS3l+RfeEY=",
+    "originContent": "- `image_folder`: path of the enhanced images",
+    "translatedContent": "- `image_folder`: path of the enhanced images"
+  },
+  {
+    "row": 157,
+    "rowsha": "KSvApR1H/wkim9La996+o+Mn1U4xm7AN51FaX4ym3Y8=",
+    "originContent": "- `save_path`: path of the enhanced video",
+    "translatedContent": "- `save_path`: path of the enhanced video"
+  },
+  {
+    "row": 158,
+    "rowsha": "q7uvk2rZbV1wY4rx8Deag1ZpquGI1TZfGnOHHB0xACk=",
+    "originContent": "- `choice`: whether converting video to image, or image to video",
+    "translatedContent": "- `choice`: whether converting video to image, or image to video"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "+3rSRVOJ3GDPHiZ59e49tBiQt6FuPYRfBzG06dqwJwM=",
+    "originContent": "# Hyperparameters",
+    "translatedContent": "# Hyperparameters"
+  },
+  {
+    "row": 162,
+    "rowsha": "BmqJneGNJmNJRtoy+vFWuX4tuLJzCDmEklP/PC4Egds=",
+    "originContent": "| Name                 | Type  | Default            | ",
+    "translatedContent": "| Name                 | Type  | Default            | "
+  },
+  {
+    "row": 163,
+    "rowsha": "pTIg6sthfMGzLSAfmhOas0/hgPIWj2ZgPOlh9ybU538=",
+    "originContent": "|----------------------|-------|--------------------|",
+    "translatedContent": "|----------------------|-------|--------------------|"
+  },
+  {
+    "row": 164,
+    "rowsha": "R8gWzwNn56PYvTv9CCyzPSiC5EJ7nfbiClQd79DrogE=",
+    "originContent": "| lowlight_images_path | str   | data/train_data/   |         ",
+    "translatedContent": "| lowlight_images_path | str   | data/train_data/   |         "
+  },
+  {
+    "row": 165,
+    "rowsha": "It0Dcpw3loJ3+cJS2qpY2F6DmLO9Td5kivbdZZypBLU=",
+    "originContent": "| lr                   | float | 1e-3               |          ",
+    "translatedContent": "| lr                   | float | 1e-3               |          "
+  },
+  {
+    "row": 166,
+    "rowsha": "vB4fOgDMf+RIa11W9MClnLipJKa9kzAjkxUC8FrexwM=",
+    "originContent": "| weight_decay         | float | 1e-3               |            ",
+    "translatedContent": "| weight_decay         | float | 1e-3               |            "
+  },
+  {
+    "row": 167,
+    "rowsha": "x112agYHRBPQ8zVuldPxhu1u3nhrpkW+9IqK10azevM=",
+    "originContent": "| grad_clip_norm       | float | 0.1                |            ",
+    "translatedContent": "| grad_clip_norm       | float | 0.1                |            "
+  },
+  {
+    "row": 168,
+    "rowsha": "g8nsDRWBakO8W8HNXvWKAxNLRyySroI8zfykr9z47bw=",
+    "originContent": "| num_epochs           | int   | 100                |          ",
+    "translatedContent": "| num_epochs           | int   | 100                |          "
+  },
+  {
+    "row": 169,
+    "rowsha": "o0Yk7UB4TyCkx7aYs/pR3uk5pzm3m7FXUEGtnKsdJ3A=",
+    "originContent": "| train_batch_size     | int   | 6                  |          ",
+    "translatedContent": "| train_batch_size     | int   | 6                  |          "
+  },
+  {
+    "row": 170,
+    "rowsha": "Xt24fS68sMLCIQf2BDnZtRvOxzfoN9/1Qm91eS2d4xo=",
+    "originContent": "| val_batch_size       | int   | 8                  |           ",
+    "translatedContent": "| val_batch_size       | int   | 8                  |           "
+  },
+  {
+    "row": 171,
+    "rowsha": "5Aud2C4udqTarU/LyruBDHTV7NcJhwX+gi8Ox/vB4rk=",
+    "originContent": "| num_workers          | int   | 4                  |         ",
+    "translatedContent": "| num_workers          | int   | 4                  |         "
+  },
+  {
+    "row": 172,
+    "rowsha": "mpNgBqcZo2ZLbgNY3X49UZ/XCTJnpvmx3lDGpynDRAw=",
+    "originContent": "| display_iter         | int   | 10                 |         ",
+    "translatedContent": "| display_iter         | int   | 10                 |         "
+  },
+  {
+    "row": 173,
+    "rowsha": "QNpWRirO/euBdld6g0/7s5EEqKaTEk9m4TrnrjcjHYc=",
+    "originContent": "| snapshot_iter        | int   | 10                 |        ",
+    "translatedContent": "| snapshot_iter        | int   | 10                 |        "
+  },
+  {
+    "row": 174,
+    "rowsha": "qxQ+FskbYhU7n+kNtQ2f8Oqgdbv//l72l4qezi1I348=",
+    "originContent": "| scale_factor         | int   | 1                  |         ",
+    "translatedContent": "| scale_factor         | int   | 1                  |         "
+  },
+  {
+    "row": 175,
+    "rowsha": "17ulpUF9VNPx2JfJFgsEyDSYZeSmWw6pEh1AhCOtrD8=",
+    "originContent": "| snapshots_folder     | str   | weight/            |         ",
+    "translatedContent": "| snapshots_folder     | str   | weight/            |         "
+  },
+  {
+    "row": 176,
+    "rowsha": "fraj8kMyX6p6AMuK69mKSEABhTUbv7haN18AvyQoU5Y=",
+    "originContent": "| load_pretrain        | bool  | False              |       ",
+    "translatedContent": "| load_pretrain        | bool  | False              |       "
+  },
+  {
+    "row": 177,
+    "rowsha": "Ydhd7MPC9gvcY0qXaeX7TbHoxztNn4trVyaq1KGT7R8=",
+    "originContent": "| pretrain_dir         | str   | weight/Epoch99.pth |         ",
+    "translatedContent": "| pretrain_dir         | str   | weight/Epoch99.pth |         "
+  },
+  {
+    "row": 178,
+    "rowsha": "rje2BF/7OsR7N2t5BnzZMbeor95WHhWFOBJU7daHr3Y=",
+    "originContent": "| num_of_SegClass      | int   | 21                 |        ",
+    "translatedContent": "| num_of_SegClass      | int   | 21                 |        "
+  },
+  {
+    "row": 179,
+    "rowsha": "alr8pbw/ZqmY9U0on+YaUW2L/QOdeq0cWQrxmL0NYkI=",
+    "originContent": "| conv_type            | str   | dsc                |        ",
+    "translatedContent": "| conv_type            | str   | dsc                |        "
+  },
+  {
+    "row": 180,
+    "rowsha": "qr9A2mZNBLcQSzGsNPdvMH6M7Jq5is5cpVh2n8WUB5k=",
+    "originContent": "| patch_size           | int   | 4                  |        ",
+    "translatedContent": "| patch_size           | int   | 4                  |        "
+  },
+  {
+    "row": 181,
+    "rowsha": "bRDLKsno9OeBf4FJCX0MqaIMAkgm6E/uz0VeE3996go=",
+    "originContent": "| exp_level            | float | 0.6                |       ",
+    "translatedContent": "| exp_level            | float | 0.6                |       "
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 183,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 184,
+    "rowsha": "gRD7PsxzZHztBbAGE2gksxK2dSwR0oJgWV5W3sw5LZw=",
+    "originContent": "# TODO List",
+    "translatedContent": "# TODO List"
+  },
+  {
+    "row": 185,
+    "rowsha": "CrySWq4Rd+LjMUE3+cAkGXEMFv0SU9S7qr8l9LcPUrQ=",
+    "originContent": "- [x] List (important) hyperparameters",
+    "translatedContent": "- [x] List (important) hyperparameters"
+  },
+  {
+    "row": 186,
+    "rowsha": "kpcAs0ZpYMKAHbwoVdzufz6FhNRIt2I/3lufXBeTLXI=",
+    "originContent": "- [x] Addres model input size issue",
+    "translatedContent": "- [x] Address model input size issue"
+  },
+  {
+    "row": 187,
+    "rowsha": "3jLr9YaDpwpmi0CYOt6gtQNr9dab8pyTcfvGOs/DsvY=",
+    "originContent": "- [x] Upload Pretrained Weight ",
+    "translatedContent": "- [x] Upload Pretrained Weight "
+  },
+  {
+    "row": 188,
+    "rowsha": "piesV2SBzihEQ32Tdp3K2Cq0P8zZs3BQ53Uc+r2vo+g=",
+    "originContent": "- [x] Rewrite training and testing argparse in a option.py",
+    "translatedContent": "- [x] Rewrite training and testing argparse in a option.py"
+  },
+  {
+    "row": 189,
+    "rowsha": "wfLLUSBDE/6SSJfF5bsoWM0FSotH6QxDmxNJLBytJN4=",
+    "originContent": "- [x] Rewrite training as a class",
+    "translatedContent": "- [x] Rewrite training as a class"
+  },
+  {
+    "row": 190,
+    "rowsha": "0okTn4tBV634rrDlHQ+xPAxCA1Bd+QhawtNXWO7hDlM=",
+    "originContent": "- [x] Rewrite testing as a class  ",
+    "translatedContent": "- [x] Rewrite testing as a class  "
+  },
+  {
+    "row": 191,
+    "rowsha": "z9eQsA/zKo++ErQodjrTQ4k1+kkx/u+pVvDrSKFKLgA=",
+    "originContent": "- [x] Upload Testing Dataset",
+    "translatedContent": "- [x] Upload Testing Dataset"
+  },
+  {
+    "row": 192,
+    "rowsha": "gUCv4TVrzG15LnOhTUPV7fVAAaMk9T35/Qa3PvreTXo=",
+    "originContent": "- [x] Upload Arxiv Link",
+    "translatedContent": "- [x] Upload Arxiv Link"
+  },
+  {
+    "row": 193,
+    "rowsha": "n2ltfN6CNpEqeJQyMLOrTywkYy/JsAcI4huas+OnrRM=",
+    "originContent": "- [x] Testing on Video",
+    "translatedContent": "- [x] Testing on Video"
+  },
+  {
+    "row": 194,
+    "rowsha": "bQcrVLQxcufdr3AhGJ/wW6jOug/9xKTLkTKRoaX42xc=",
+    "originContent": "- [x] Upload BibTeX",
+    "translatedContent": "- [x] Upload BibTeX"
+  },
+  {
+    "row": 195,
+    "rowsha": "3Tf6ULZE4h3J4VT4xNC4PZuFX6viICgQUSL6E5dmsGk=",
+    "originContent": "- [x] Modify Readme file",
+    "translatedContent": "- [x] Modify Readme file"
+  },
+  {
+    "row": 196,
+    "rowsha": "AFCgMuzhFd33JXSZS/Hv6Qas4QW3vQ1kLiHaIL1XPeY=",
+    "originContent": "- [x] Upload Model Architecture",
+    "translatedContent": "- [x] Upload Model Architecture"
+  },
+  {
+    "row": 197,
+    "rowsha": "AKaLV8CSL9wAb5he649kVhSzNhyqkSfrfURFWrgZqEs=",
+    "originContent": "- [ ] Provide Online Demo",
+    "translatedContent": "- [ ] Provide Online Demo"
+  },
+  {
+    "row": 198,
+    "rowsha": "UBmPDovRzISK6IuQtXXXlvwdt82x1+T0OOZQ0s/az+g=",
+    "originContent": "# Others",
+    "translatedContent": "# Others"
+  },
+  {
+    "row": 199,
+    "rowsha": "T/yNHsFv/8EaSX5TzirjZBiHDP/04Ic+dz7NBrUDRuk=",
+    "originContent": "Please reach zhengsh@kean.edu if you have any questions. This repository is heavily based upon [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE). Thanks for sharing the code!",
+    "translatedContent": "Please reach zhengsh@kean.edu if you have any questions. This repository is heavily based upon [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE). Thanks for sharing the code!"
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 201,
+    "rowsha": "7VWFgvCwVEA6NPtFCmHUfBV2oymCkH5yDHIhiTNsffo=",
+    "originContent": "# Citations",
+    "translatedContent": "# Citations"
+  },
+  {
+    "row": 202,
+    "rowsha": "4ecVeoLcsWv3xItC+wTOmLTu9czCUwGnlzatt9L1UAc=",
+    "originContent": "Please cite the following paper if you find this repository helpful.",
+    "translatedContent": "Please cite the following paper if you find this repository helpful."
+  },
+  {
+    "row": 203,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 204,
+    "rowsha": "zD0AZ5QM3xczDAsc2tXVY/jeKD909e0fYyqhIx25z6k=",
+    "originContent": "@inproceedings{zheng2022semantic,",
+    "translatedContent": "@inproceedings{zheng2022semantic,"
+  },
+  {
+    "row": 205,
+    "rowsha": "ltwvU5tcRC2MsDLalXWoUupaxAASpqNn4jKfWyIyEgA=",
+    "originContent": "  title={Semantic-guided zero-shot learning for low-light image/video enhancement},",
+    "translatedContent": "  title={Semantic-guided zero-shot learning for low-light image/video enhancement},"
+  },
+  {
+    "row": 206,
+    "rowsha": "RrZbjJrxq9V2rHZTOrGMHyfUsJh5h2Sda8sgWBMtBDs=",
+    "originContent": "  author={Zheng, Shen and Gupta, Gaurav},",
+    "translatedContent": "  author={Zheng, Shen and Gupta, Gaurav},"
+  },
+  {
+    "row": 207,
+    "rowsha": "qkvmGlvA6y2rGOyzvvJKE9qZkvKBLCyHfvvQFPtzcfI=",
+    "originContent": "  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},",
+    "translatedContent": "  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},"
+  },
+  {
+    "row": 208,
+    "rowsha": "+b+dOJgi3XPfAIJm+LHGNXVHgY8+QXI3tSz9Xe2WQN0=",
+    "originContent": "  pages={581--590},",
+    "translatedContent": "  pages={581--590},"
+  },
+  {
+    "row": 209,
+    "rowsha": "Vc1JIo9vN0VcsCj66iIpyKTblCgfTB6EvbwHoMrzxFg=",
+    "originContent": "  year={2022}",
+    "translatedContent": "  year={2022}"
+  },
+  {
+    "row": 210,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 211,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 212,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# References"
+  },
+  {
+    "row": 214,
+    "rowsha": "qqeNqFl8bX8V8FRsr3DWoSY6UcRkyD/D0ebbNa6tY8Y=",
+    "originContent": "# References",
+    "translatedContent": "[1] Wei, Chen, et al. \"Deep retinex decomposition for low-light enhancement.\" arXiv preprint arXiv:1808.04560 (2018)."
+  },
+  {
+    "row": 215,
+    "rowsha": "tmMG0XEYtuUYKqWmRnQO4KScy+qhYjbDfc3GPhb0WTM=",
+    "originContent": "[1] Wei, Chen, et al. \"Deep retinex decomposition for low-light enhancement.\" arXiv preprint arXiv:1808.04560 (2018).",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[2] Zhang, Yonghua, Jiawan Zhang, and Xiaojie Guo. \"Kindling the darkness: A practical low-light image enhancer.\" Proceedings of the 27th ACM international conference on multimedia. 2019."
+  },
+  {
+    "row": 217,
+    "rowsha": "S2uuHvqFiumTs1wN8fL7HpF9/saym8t+eOn/8ink6NA=",
+    "originContent": "[2] Zhang, Yonghua, Jiawan Zhang, and Xiaojie Guo. \"Kindling the darkness: A practical low-light image enhancer.\" Proceedings of the 27th ACM international conference on multimedia. 2019.",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[3] Jiang, Yifan, et al. \"Enlightengan: Deep light enhancement without paired supervision.\" IEEE Transactions on Image Processing 30 (2021): 2340-2349."
+  },
+  {
+    "row": 219,
+    "rowsha": "iZsD1ij+7/EvnuXrjyDB3sMRzEfsfgdekeLo7srKEIo=",
+    "originContent": "[3] Jiang, Yifan, et al. \"Enlightengan: Deep light enhancement without paired supervision.\" IEEE Transactions on Image Processing 30 (2021): 2340-2349.",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[4] Guo, Chunle, et al. \"Zero-reference deep curve estimation for low-light image enhancement.\" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020."
+  },
+  {
+    "row": 221,
+    "rowsha": "pH9R2fTz3/cDhbgYGWrKcSkAIBHfyOwT0Z/WaAMdqZo=",
+    "originContent": "[4] Guo, Chunle, et al. \"Zero-reference deep curve estimation for low-light image enhancement.\" Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.",
+    "translatedContent": ""
+  },
+  {
+    "row": 222,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[5] Fu, Xueyang, et al. \"A probabilistic method for image enhancement with simultaneous illumination and reflectance estimation.\" IEEE Transactions on Image Processing 24.12 (2015): 4965-4977."
+  },
+  {
+    "row": 223,
+    "rowsha": "8WEqyD5hE68/Sqfq2VJCGVK+CSTwE8nRUTwRXC2U1RM=",
+    "originContent": "[5] Fu, Xueyang, et al. \"A probabilistic method for image enhancement with simultaneous illumination and reflectance estimation.\" IEEE Transactions on Image Processing 24.12 (2015): 4965-4977.",
+    "translatedContent": ""
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[6] Guo, Xiaojie, Yu Li, and Haibin Ling. \"LIME: Low-light image enhancement via illumination map estimation.\" IEEE Transactions on image processing 26.2 (2016): 982-993."
+  },
+  {
+    "row": 225,
+    "rowsha": "y5+GwtxC8YNB4E7Y79ZgqYXfsHxjPxREVDWxARd7wP0=",
+    "originContent": "[6] Guo, Xiaojie, Yu Li, and Haibin Ling. \"LIME: Low-light image enhancement via illumination map estimation.\" IEEE Transactions on image processing 26.2 (2016): 982-993.",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[7] Lv, Feifan, et al. \"MBLLEN: Low-Light Image/Video Enhancement Using CNNs.\" BMVC. 2018."
+  },
+  {
+    "row": 227,
+    "rowsha": "u/97ejpDMnEiZ8GkhArFu6wpMQuLw2n6CNByhl+TKGk=",
+    "originContent": "[7] Lv, Feifan, et al. \"MBLLEN: Low-Light Image/Video Enhancement Using CNNs.\" BMVC. 2018.",
+    "translatedContent": ""
+  },
+  {
+    "row": 228,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 229,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
