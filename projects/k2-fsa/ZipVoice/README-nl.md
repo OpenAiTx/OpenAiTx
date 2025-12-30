@@ -199,67 +199,75 @@ Elke regel van `test.tsv` is in een van de volgende formaten:
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
 
-- `wav_name` is de naam van het uitvoer-wav-bestand.
-- `spk1_prompt_transcription` is de transcriptie van het prompt-wav-bestand van de eerste spreker, bijvoorbeeld "Hallo".
-- `spk2_prompt_transcription` is de transcriptie van het prompt-wav-bestand van de tweede spreker, bijvoorbeeld "Hoe gaat het?"
-- `spk1_prompt_wav` is het pad naar het prompt-wav-bestand van de eerste spreker.
-- `spk2_prompt_wav` is het pad naar het prompt-wav-bestand van de tweede spreker.
+- `wav_name` is de naam van het uitvoer wav-bestand.
+- `spk1_prompt_transcription` is de transcriptie van het prompt wav-bestand van de eerste spreker, bijvoorbeeld "Hallo".
+- `spk2_prompt_transcription` is de transcriptie van het prompt wav-bestand van de tweede spreker, bijvoorbeeld "Hoe gaat het?"
+- `spk1_prompt_wav` is het pad naar het prompt wav-bestand van de eerste spreker.
+- `spk2_prompt_wav` is het pad naar het prompt wav-bestand van de tweede spreker.
 - `text` is de te synthetiseren tekst, bijvoorbeeld "[S1] Het gaat goed. [S2] Hoe heet je? [S1] Ik ben Eric. [S2] Hallo Eric."
 
 ### 3 Richtlijnen voor beter gebruik:
 
-#### 3.1 Promptlengte
+#### 3.1 Lengte van de prompt
 
-Wij raden een kort prompt-wav-bestand aan (bijvoorbeeld minder dan 3 seconden voor spraakgeneratie met één spreker, minder dan 10 seconden voor dialoogspraakgeneratie) voor een snellere inferentiesnelheid. Een erg lang prompt zal de inferentie vertragen en de spraakkwaliteit verminderen.
+Wij raden een kort prompt wav-bestand aan (bijvoorbeeld minder dan 3 seconden voor spraakgeneratie met één spreker, minder dan 10 seconden voor dialoogspraakgeneratie) voor snellere inferentiesnelheid. Een heel lang promptbestand vertraagt de inferentie en verslechtert de spraakkwaliteit.
 
 #### 3.2 Snelheidsoptimalisatie
 
-Als de inferentiesnelheid onbevredigend is, kun je deze versnellen als volgt:
+Als de inferentiesnelheid onvoldoende is, kun je deze als volgt verhogen:
 
-- **Gedistilleerd model en minder stappen**: Voor het spraakgeneratiemodel met één spreker gebruiken we standaard het `zipvoice` model voor betere spraakkwaliteit. Als een snellere snelheid prioriteit heeft, kun je overschakelen naar `zipvoice_distill` en het aantal stappen (`--num-steps`) verlagen tot minimaal `4` (standaard 8).
+- **Gedistilleerd model en minder stappen**: Voor het spraakgeneratiemodel met één spreker gebruiken we standaard het `zipvoice`-model voor betere spraakkwaliteit. Als een hogere snelheid de prioriteit heeft, kun je overschakelen op `zipvoice_distill` en het aantal stappen (`--num-steps`) verlagen tot minimaal `4` (standaard 8).
 
-- **CPU-versnelling met multithreading**: Bij gebruik van de CPU kun je de parameter `--num-thread` meegeven (bijvoorbeeld `--num-thread 4`) om het aantal threads te verhogen voor een snellere snelheid. Standaard gebruiken we 1 thread.
+- **CPU-versnelling met multithreading**: Bij gebruik van de CPU kun je de parameter `--num-thread` meegeven (bijv. `--num-thread 4`) om het aantal threads te verhogen voor meer snelheid. Standaard gebruiken we 1 thread.
 
-- **CPU-versnelling met ONNX**: Bij gebruik van de CPU kun je ONNX-modellen gebruiken met `zipvoice.bin.infer_zipvoice_onnx` voor een snellere snelheid (ONNX voor dialooggeneratiemodellen wordt nog niet ondersteund). Voor nog snellere snelheid kun je `--onnx-int8 True` instellen om een INT8-gekwantiseerd ONNX-model te gebruiken. Let op: het gekwantiseerde model levert een zekere mate van spraakkwaliteitsverlies op. **Gebruik ONNX niet op GPU**, omdat het langzamer is dan PyTorch op GPU.
+- **CPU-versnelling met ONNX**: Bij gebruik van de CPU kun je ONNX-modellen gebruiken met `zipvoice.bin.infer_zipvoice_onnx` voor hogere snelheid (ONNX wordt nog niet ondersteund voor dialooggeneratiemodellen). Voor nog meer snelheid kun je `--onnx-int8 True` instellen om een INT8-gekwantiseerd ONNX-model te gebruiken. Houd er rekening mee dat het gekwantiseerde model leidt tot een zekere mate van degradatie van de spraakkwaliteit. **Gebruik ONNX niet op GPU**, omdat het trager is dan PyTorch op GPU.
+
+- **GPU-versnelling met NVIDIA TensorRT**: Voor een aanzienlijke prestatieverbetering op NVIDIA GPU's exporteer je eerst het model naar een TensorRT-engine met zipvoice.bin.tensorrt_export. Voer daarna inferentie uit op je dataset (bijvoorbeeld een Hugging Face-dataset) met zipvoice.bin.infer_zipvoice. Dit kan ongeveer 2x meer throughput behalen dan de standaard PyTorch-implementatie op een GPU.
 
 #### 3.3 Geheugenbeheer
 
-De opgegeven tekst wordt gesplitst in stukken op basis van interpunctie (voor spraakgeneratie met één spreker) of sprekerwisselsymbool (voor dialoogspraakgeneratie). Vervolgens worden de gesplitste teksten in batches verwerkt. Hierdoor kan het model willekeurig lange tekst verwerken met vrijwel constant geheugengebruik. Je kunt het geheugengebruik regelen door de parameter `--max-duration` aan te passen.
+De opgegeven tekst wordt gesplitst in stukken op basis van leestekens (voor spraakgeneratie met één spreker) of sprekerwisselsymbolen (voor dialoogspraakgeneratie). Vervolgens worden de tekststukken in batches verwerkt. Hierdoor kan het model willekeurig lange tekst verwerken met vrijwel constant geheugengebruik. Je kunt het geheugengebruik regelen met de parameter `--max-duration`.
 
 #### 3.4 "Ruwe" evaluatie
 
-Standaard preprocessen we invoer (prompt-wav, prompttranscriptie en tekst) voor efficiënte inferentie en betere prestaties. Als je de "ruwe" prestaties van het model wilt evalueren met exact de opgegeven invoer (bijvoorbeeld om de resultaten uit ons artikel te reproduceren), kun je `--raw-evaluation True` meegeven.
+Standaard preprocessen we de invoer (prompt wav, prompt transcriptie en tekst) voor efficiënte inferentie en betere prestaties. Als je de "ruwe" prestaties van het model wilt evalueren met exact de opgegeven invoer (bijvoorbeeld om de resultaten in ons paper te reproduceren), kun je `--raw-evaluation True` meegeven.
 
 #### 3.5 Korte tekst
 
-Bij het genereren van spraak voor zeer korte teksten (bijvoorbeeld één of twee woorden) kan het soms gebeuren dat bepaalde uitspraken ontbreken in de gegenereerde spraak. Om dit probleem op te lossen, kun je `--speed 0.3` meegeven (waarbij 0.3 een instelbare waarde is) om de duur van de gegenereerde spraak te verlengen.
+Bij het genereren van spraak voor zeer korte teksten (bijvoorbeeld één of twee woorden) kan het gebeuren dat bepaalde uitspraken soms worden weggelaten. Om dit probleem op te lossen kun je `--speed 0.3` meegeven (waarbij 0.3 een afstembare waarde is) om de duur van de gegenereerde spraak te verlengen.
 
-#### 3.6 Corrigeren van verkeerd uitgesproken Chinese polyfone karakters
+#### 3.6 Het corrigeren van verkeerd uitgesproken Chinese polyfoonkarakters
 
-We gebruiken [pypinyin](https://github.com/mozillazg/python-pinyin) om Chinese karakters naar pinyin om te zetten. Soms worden **polyfone karakters** (多音字) echter verkeerd uitgesproken.
+We gebruiken [pypinyin](https://github.com/mozillazg/python-pinyin) om Chinese karakters naar pinyin om te zetten. Echter, het kan soms **polyfone karakters** (多音字) verkeerd uitspreken.
 
-Om deze verkeerde uitspraken handmatig te corrigeren, plaats de **gecorrigeerde pinyin** tussen hoekhaken `< >` en voeg het **toonaccent** toe.
+Om deze verkeerde uitspraken handmatig te corrigeren, zet je de **gecorrigeerde pinyin** tussen punthaken `< >` en voeg je het **toonaccent** toe.
 
 **Voorbeeld:**
 
 - Originele tekst: `这把剑长三十公分`
 - Corrigeer de pinyin van `长`:  `这把剑<chang2>三十公分`
 
-> **Opmerking:** Als je handmatig meerdere pinyins wilt toewijzen, plaats elke pinyin tussen `<>`, bijvoorbeeld: `这把<jian4><chang2><san1>十公分`
+> **Opmerking:** Wil je handmatig meerdere pinyins toewijzen, zet dan elke pinyin tussen `<>`, bijvoorbeeld: `这把<jian4><chang2><san1>十公分`
 
-#### 3.7 Verwijder lange stiltes uit het gegenereerde spraakfragment
+#### 3.7 Verwijder lange stiltes uit de gegenereerde spraak
 
-Het model bepaalt automatisch de posities en lengtes van stiltes in het gegenereerde spraakfragment. Soms zijn er lange stiltes in het midden van het spraakfragment. Als je dit niet wilt, kun je `--remove-long-sil` gebruiken om lange stiltes in het midden van het gegenereerde spraakfragment te verwijderen (stiltes aan het begin en einde worden standaard verwijderd).
+Het model bepaalt automatisch de posities en lengtes van stiltes in de gegenereerde spraak. Soms zit er een lange stilte midden in de spraak. Wil je dit niet, dan kun je `--remove-long-sil` meegeven om lange stiltes in het midden van de gegenereerde spraak te verwijderen (randstiltes worden standaard verwijderd).
 
 #### 3.8 Model downloaden
 
-Als je problemen hebt met het verbinden met HuggingFace bij het downloaden van de voorgetrainde modellen, probeer dan over te schakelen naar de mirror-site: `export HF_ENDPOINT=https://hf-mirror.com`.
+Als je problemen hebt met verbinden naar HuggingFace bij het downloaden van de voorgetrainde modellen, probeer dan het endpoint te wisselen naar de mirror-site: `export HF_ENDPOINT=https://hf-mirror.com`.
 
 ## Train Je Eigen Model
 
 Zie de [egs](egs) map voor voorbeelden van training, fine-tuning en evaluatie.
 
-## C++ Implementatie
+## Productie Implementatie
+
+### NVIDIA Triton GPU Runtime
+
+Voor productieklare implementatie met hoge prestaties en schaalbaarheid, bekijk de [Triton Inference Server integratie](runtime/nvidia_triton/) die geoptimaliseerde TensorRT-engines, gelijktijdige aanvraagverwerking en zowel gRPC/HTTP API's voor zakelijk gebruik biedt.
+
+### CPU Implementatie
 
 Bekijk [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) voor de C++ implementatie-oplossing op CPU.
 
@@ -267,13 +275,13 @@ Bekijk [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecommen
 
 Je kunt direct discussiëren op [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).
 
-Je kunt ook de QR-code scannen om lid te worden van onze Wechat-groep of ons officiële Wechat-account te volgen.
+Je kunt ook de QR-code scannen om lid te worden van onze wechat-groep of ons officiële wechat-account te volgen.
 
 | Wechat Groep | Wechat Officieel Account |
-| ------------ | ------------------------ |
+| ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
-## Referentie
+## Citaat
 
 ```bibtex
 @article{zhu2025zipvoice,
@@ -296,6 +304,6 @@ Je kunt ook de QR-code scannen om lid te worden van onze Wechat-groep of ons off
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

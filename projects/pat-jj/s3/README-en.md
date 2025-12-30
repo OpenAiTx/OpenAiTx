@@ -202,16 +202,11 @@ bash scripts/evaluation/run.sh
 If you want to test s3 on your own corpus/dataset, you can refer to this commit to see what you need to do to build your own pipeline: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
 ### Reproducing Results?
-Several developers have already successfully reproduced our results. If you have questions or encounter any issues, feel free to [open an issue](https://github.com/pat-jj/s3/issues) — we’re happy to provide hands-on guidance (see [this example](https://github.com/pat-jj/s3/issues/20)).
+Several developers have already reproduced our results successfully. If you have questions or run into issues, feel free to [open an issue](https://github.com/pat-jj/s3/issues) — we’re happy to provide hands-on guidance (see [this example](https://github.com/pat-jj/s3/issues/20)).
 
 Although reproducing the model yourself is straightforward — and we actually **recommend training from scratch**, since evaluation is often much more time-consuming than training — we also provide a reference checkpoint: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), trained in about one hour.
 
 
-
-## Acknowledgement
-We would like to thank the following projects:
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## Citation
 ```bibtex
@@ -231,6 +226,6 @@ Thanks for your interest in our work!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

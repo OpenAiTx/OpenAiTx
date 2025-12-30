@@ -195,21 +195,16 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 bash scripts/evaluation/run.sh
 ```
 
-## Soru&Cevap
+## SSS
 ### Özelleştirilmiş Veri?
-S3'ü kendi korpusunuz/veri setiniz üzerinde test etmek istiyorsanız, kendi hattınızı nasıl kurmanız gerektiğini görmek için şu commite başvurabilirsiniz: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+s3'ü kendi veri kümeniz/datanız üzerinde test etmek istiyorsanız, kendi boru hattınızı oluşturmak için yapmanız gerekenleri görmek adına bu commit'e bakabilirsiniz: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
-### Sonuçların Yeniden Üretilmesi?
-Birçok geliştirici sonuçlarımızı başarıyla yeniden üretti. Sorularınız varsa veya bir sorunla karşılaşırsanız, [issue açmaktan](https://github.com/pat-jj/s3/issues) çekinmeyin — pratik destek sağlamaktan mutluluk duyarız (bkz. [bu örnek](https://github.com/pat-jj/s3/issues/20)).
+### Sonuçların Tekrar Üretimi?
+Birçok geliştirici sonuçlarımızı başarıyla tekrar üretti. Sorularınız olursa ya da bir sorunla karşılaşırsanız, [issue açmaktan](https://github.com/pat-jj/s3/issues) çekinmeyin — uygulamalı olarak yardımcı olmaktan memnuniyet duyarız (bakınız [bu örnek](https://github.com/pat-jj/s3/issues/20)).
 
-Modeli kendinizin yeniden üretmesi oldukça kolaydır — ve aslında **sıfırdan eğitmenizi tavsiye ediyoruz**, çünkü değerlendirme çoğu zaman eğitimden daha fazla zaman alabiliyor — ayrıca referans bir kontrol noktası da sunuyoruz: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), yaklaşık bir saatte eğitilmiştir.
+Modeli kendinizin tekrar üretmesi oldukça kolaydır — ve aslında **sıfırdan eğitmenizi öneriyoruz**, çünkü değerlendirme genellikle eğitimden çok daha fazla zaman alır — ayrıca bir referans kontrol noktası da sunuyoruz: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), yaklaşık bir saatte eğitilmiştir.
 
 
-
-## Teşekkür
-Aşağıdaki projelere teşekkür etmek isteriz:
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## Atıf
 ```bibtex
@@ -229,6 +224,6 @@ Aşağıdaki projelere teşekkür etmek isteriz:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

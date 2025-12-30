@@ -199,77 +199,85 @@ Każda linia w pliku `test.tsv` ma jeden z poniższych formatów:
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
 - `wav_name` to nazwa wyjściowego pliku wav.
-- `spk1_prompt_transcription` to transkrypcja pliku wav z podpowiedzią pierwszego mówcy, np. "Hello"
-- `spk2_prompt_transcription` to transkrypcja pliku wav z podpowiedzią drugiego mówcy, np. "How are you?"
-- `spk1_prompt_wav` to ścieżka do pliku wav z podpowiedzią pierwszego mówcy.
-- `spk2_prompt_wav` to ścieżka do pliku wav z podpowiedzią drugiego mówcy.
+- `spk1_prompt_transcription` to transkrypcja promptu pierwszego mówcy, np. "Hello"
+- `spk2_prompt_transcription` to transkrypcja promptu drugiego mówcy, np. "How are you?"
+- `spk1_prompt_wav` to ścieżka do pliku wav promptu pierwszego mówcy.
+- `spk2_prompt_wav` to ścieżka do pliku wav promptu drugiego mówcy.
 - `text` to tekst do syntezy, np. "[S1] I'm fine. [S2] What's your name? [S1] I'm Eric. [S2] Hi Eric."
 
 ### 3 Wskazówki dla lepszego użytkowania:
 
-#### 3.1 Długość podpowiedzi
+#### 3.1 Długość promptu
 
-Zalecamy krótkie pliki wav z podpowiedzią (np. krótsze niż 3 sekundy dla generowania mowy jednego mówcy, krótsze niż 10 sekund dla generowania mowy w dialogu) dla szybszego działania. Bardzo długi plik z podpowiedzią spowolni działanie i pogorszy jakość mowy.
+Zalecamy krótki plik promptu wav (np. krótszy niż 3 sekundy dla syntezy pojedynczego mówcy, krótszy niż 10 sekund dla syntezy dialogowej) dla szybszego działania. Bardzo długi prompt spowolni inferencję i pogorszy jakość mowy.
 
 #### 3.2 Optymalizacja szybkości
 
-Jeśli szybkość działania jest niezadowalająca, można ją zwiększyć następująco:
+Jeśli prędkość inferencji jest niezadowalająca, możesz ją zwiększyć w następujący sposób:
 
-- **Model destylowany i mniej kroków**: Dla modelu generowania mowy jednego mówcy domyślnie używamy modelu `zipvoice` dla lepszej jakości mowy. Jeśli priorytetem jest szybkość, można przełączyć na `zipvoice_distill` i zmniejszyć `--num-steps` nawet do `4` (domyślnie 8).
+- **Model destylowany i mniej kroków**: Dla modelu syntezy mowy pojedynczego mówcy domyślnie używamy modelu `zipvoice` dla lepszej jakości mowy. Jeśli priorytetem jest szybkość, można przełączyć się na `zipvoice_distill` i zmniejszyć `--num-steps` nawet do `4` (domyślnie 8).
 
-- **Przyspieszenie CPU wielowątkowością**: Przy uruchamianiu na CPU można podać parametr `--num-thread` (np. `--num-thread 4`) aby zwiększyć liczbę wątków dla szybszej pracy. Domyślnie używamy 1 wątku.
+- **Przyspieszenie CPU przez wielowątkowość**: Podczas pracy na CPU można użyć parametru `--num-thread` (np. `--num-thread 4`), aby zwiększyć liczbę wątków dla szybszego działania. Domyślnie używamy 1 wątku.
 
-- **Przyspieszenie CPU z ONNX**: Przy uruchamianiu na CPU można użyć modeli ONNX z `zipvoice.bin.infer_zipvoice_onnx` dla szybszego działania (nieobsługiwane jeszcze dla modeli generowania dialogów). Aby uzyskać jeszcze większą szybkość, można ustawić `--onnx-int8 True` aby użyć modelu ONNX z kwantyzacją INT8. Należy pamiętać, że model kwantyzowany będzie miał pewien spadek jakości mowy. **Nie używaj ONNX na GPU**, ponieważ jest wolniejszy niż PyTorch na GPU.
+- **Przyspieszenie CPU przez ONNX**: Na CPU można użyć modeli ONNX z `zipvoice.bin.infer_zipvoice_onnx` dla szybszego działania (modele ONNX dla generowania dialogów nie są jeszcze obsługiwane). Dla jeszcze większej szybkości można ustawić `--onnx-int8 True`, aby użyć modelu ONNX skwantowanego do INT8. Należy pamiętać, że model skwantowany obniży jakość mowy. **Nie używaj ONNX na GPU**, ponieważ jest wolniejszy niż PyTorch na GPU.
+
+- **Przyspieszenie GPU przez NVIDIA TensorRT**: W celu znacznego zwiększenia wydajności na kartach NVIDIA GPU najpierw wyeksportuj model do silnika TensorRT za pomocą zipvoice.bin.tensorrt_export. Następnie wykonaj inferencję na swoim zbiorze danych (np. Hugging Face) z użyciem zipvoice.bin.infer_zipvoice. To pozwala uzyskać około 2x większą przepustowość niż standardowa implementacja PyTorch na GPU.
 
 #### 3.3 Kontrola pamięci
 
-Podany tekst zostanie podzielony na fragmenty na podstawie znaków interpunkcyjnych (dla generowania mowy jednego mówcy) lub symbolu zmiany mówcy (dla generowania mowy w dialogu). Następnie podzielone teksty będą przetwarzane w partiach. Dzięki temu model może przetwarzać dowolnie długi tekst przy niemal stałym zużyciu pamięci. Możesz kontrolować zużycie pamięci, regulując parametr `--max-duration`.
+Podany tekst zostanie podzielony na fragmenty na podstawie interpunkcji (dla syntezy pojedynczego mówcy) lub symbolu zmiany mówcy (dla syntezy dialogowej). Następnie fragmenty tekstu będą przetwarzane w partiach. Dzięki temu model może przetwarzać dowolnie długie teksty przy niemal stałym zużyciu pamięci. Możesz kontrolować użycie pamięci przez regulację parametru `--max-duration`.
 
 #### 3.4 Ocena "Raw"
 
-Domyślnie wstępnie przetwarzamy wejścia (plik wav z podpowiedzią, transkrypcję podpowiedzi oraz tekst) dla efektywnego działania i lepszych wyników. Jeśli chcesz ocenić "surowe" działanie modelu na dokładnie podanych wejściach (np. aby odtworzyć wyniki z naszego artykułu), możesz podać `--raw-evaluation True`.
+Domyślnie przetwarzamy wejścia (prompt wav, transkrypcję promptu i tekst) dla wydajnej inferencji i lepszych wyników. Jeśli chcesz ocenić "surowe" działanie modelu na dokładnie podanych danych (np. by odtworzyć wyniki z naszej publikacji), możesz podać `--raw-evaluation True`.
 
 #### 3.5 Krótki tekst
 
-Podczas generowania mowy dla bardzo krótkich tekstów (np. jedno lub dwa słowa), wygenerowana mowa może czasem pomijać pewne wymowy. Aby rozwiązać ten problem, można podać `--speed 0.3` (gdzie 0.3 to wartość do regulacji), aby wydłużyć czas trwania wygenerowanej mowy.
+Podczas generowania mowy dla bardzo krótkich tekstów (np. jedno lub dwa słowa), wygenerowana mowa może czasem pomijać pewne wymowy. Aby rozwiązać ten problem, można podać `--speed 0.3` (gdzie 0.3 to wartość do dostrojenia), by wydłużyć czas trwania wygenerowanej mowy.
 
-#### 3.6 Poprawianie błędnie wymawianych chińskich znaków wieloznacznych
-
-Używamy [pypinyin](https://github.com/mozillazg/python-pinyin) do konwersji chińskich znaków na pinyin. Jednak czasami może błędnie wymawiać **znaki wieloznaczne** (多音字).
+#### 3.6 Korekta błędnej wymowy chińskich znaków polifonicznych
 
 
-Aby ręcznie poprawić te błędne wymowy, umieść **poprawiony pinyin** w nawiasach kątowych `< >` i dodaj **oznaczenie tonu**.
+Używamy [pypinyin](https://github.com/mozillazg/python-pinyin) do konwersji znaków chińskich na pinyin. Jednak czasami może błędnie wymawiać **znaki wielogłosowe** (多音字).
+
+Aby ręcznie poprawić te błędne wymowy, umieść **poprawiony pinyin** w nawiasach ostrych `< >` i dodaj **znak tonu**.
 
 **Przykład:**
 
 - Oryginalny tekst: `这把剑长三十公分`
-- Popraw pinyin `长`:  `这把剑<chang2>三十公分`
+- Popraw pinyin dla `长`:  `这把剑<chang2>三十公分`
 
-> **Uwaga:** Jeśli chcesz ręcznie przypisać wiele pinyinów, umieść każdy pinyin w `<>`, np. `这把<jian4><chang2><san1>十公分`
+> **Uwaga:** Jeśli chcesz ręcznie przypisać kilka pinyinów, umieść każdy pinyin w `<>`, np. `这把<jian4><chang2><san1>十公分`
 
 #### 3.7 Usuwanie długich pauz z wygenerowanej mowy
 
-Model automatycznie określa pozycje i długości pauz w wygenerowanej mowie. Czasami pojawia się długa pauza w środku wypowiedzi. Jeśli nie chcesz tego, możesz przekazać `--remove-long-sil`, aby usunąć długie pauzy ze środka wygenerowanej mowy (pauzy na początku i końcu są usuwane domyślnie).
+Model automatycznie określa pozycje i długości pauz w wygenerowanej mowie. Czasami pojawia się długa pauza w środku wypowiedzi. Jeśli tego nie chcesz, możesz użyć `--remove-long-sil`, aby usunąć długie pauzy w środku wygenerowanej mowy (pauzy na początku i końcu są usuwane domyślnie).
 
 #### 3.8 Pobieranie modelu
 
-Jeśli masz problem z połączeniem z HuggingFace podczas pobierania wstępnie wytrenowanych modeli, spróbuj przełączyć punkt końcowy na mirror: `export HF_ENDPOINT=https://hf-mirror.com`.
+Jeśli masz problemy z połączeniem z HuggingFace podczas pobierania wstępnie wytrenowanych modeli, spróbuj zmienić endpoint na mirror: `export HF_ENDPOINT=https://hf-mirror.com`.
 
 ## Trenuj własny model
 
-Zobacz katalog [egs](egs) dla przykładów trenowania, dostrajania i ewaluacji.
+Zobacz katalog [egs](egs) po przykłady treningu, fine-tuningu i ewaluacji.
 
-## Wdrażanie C++ 
+## Wdrożenie produkcyjne
 
-Sprawdź [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) jako rozwiązanie wdrożeniowe w C++ na CPU.
+### NVIDIA Triton GPU Runtime
+
+Aby wdrożyć produkcyjnie z wysoką wydajnością i skalowalnością, zobacz [integrację z Triton Inference Server](runtime/nvidia_triton/), która zapewnia zoptymalizowane silniki TensorRT, obsługę współbieżnych żądań oraz oba API gRPC/HTTP dla zastosowań firmowych.
+
+### Wdrożenie na CPU
+
+Sprawdź [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) jako rozwiązanie do wdrożenia w C++ na CPU.
 
 ## Dyskusja i komunikacja
 
-Możesz bezpośrednio dyskutować na [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).
+Możesz dyskutować bezpośrednio na [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).
 
-Możesz także zeskanować kod QR, aby dołączyć do naszej grupy na WeChat lub śledzić nasz oficjalny profil WeChat.
+Możesz także zeskanować kod QR, aby dołączyć do naszej grupy na Wechat lub obserwować nasze oficjalne konto Wechat.
 
-| Grupa WeChat | Oficjalny profil WeChat |
+| Grupa Wechat | Oficjalne konto Wechat |
 | ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
@@ -296,6 +304,6 @@ Możesz także zeskanować kod QR, aby dołączyć do naszej grupy na WeChat lub
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

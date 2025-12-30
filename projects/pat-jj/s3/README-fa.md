@@ -197,19 +197,14 @@ bash scripts/evaluation/run.sh
 
 ## پرسش و پاسخ
 ### داده‌های سفارشی؟
-اگر می‌خواهید s3 را روی مجموعه داده/متن خود آزمایش کنید، می‌توانید به این کامیت مراجعه کنید تا ببینید برای ساخت خط لوله خود چه کاری باید انجام دهید: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+اگر می‌خواهید s3 را روی کورپوس/داده‌ خودتان تست کنید، می‌توانید به این کامیت مراجعه کنید تا ببینید برای ساختن پایپ‌لاین خودتان چه کارهایی باید انجام دهید: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
 ### بازتولید نتایج؟
-چندین توسعه‌دهنده قبلاً نتایج ما را با موفقیت بازتولید کرده‌اند. اگر سوالی دارید یا با مشکلی مواجه شدید، می‌توانید [یک issue باز کنید](https://github.com/pat-jj/s3/issues) — خوشحال می‌شویم راهنمایی عملی ارائه دهیم (به [این مثال](https://github.com/pat-jj/s3/issues/20) مراجعه کنید).
+چندین توسعه‌دهنده قبلاً نتایج ما را با موفقیت بازتولید کرده‌اند. اگر سوالی داشتید یا با مشکلی مواجه شدید، می‌توانید [یک ایشو باز کنید](https://github.com/pat-jj/s3/issues) — با خوشحالی راهنمایی عملی ارائه می‌دهیم (به [این مثال](https://github.com/pat-jj/s3/issues/20) مراجعه کنید).
 
-اگرچه بازتولید مدل توسط خودتان ساده است — و ما در واقع **توصیه می‌کنیم از ابتدا آموزش دهید**، زیرا ارزیابی اغلب بسیار زمان‌برتر از آموزش است — ما یک چک‌پوینت مرجع نیز ارائه داده‌ایم: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)، که در حدود یک ساعت آموزش داده شده است.
+اگرچه بازتولید مدل توسط خودتان ساده است — و در واقع **پیشنهاد می‌کنیم مدل را از ابتدا آموزش دهید**، زیرا ارزیابی اغلب بسیار زمان‌برتر از آموزش است — ما همچنین یک چک‌پوینت مرجع ارائه داده‌ایم: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)، که در حدود یک ساعت آموزش دیده است.
 
 
-
-## قدردانی
-مایلیم از پروژه‌های زیر تشکر کنیم:
-[verl](https://github.com/volcengine/verl)، [RAGEN](https://github.com/RAGEN-AI/RAGEN)، [Search-R1](https://github.com/PeterGriffinJin/Search-R1)، [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval)، [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## ارجاع
 ```bibtex
@@ -229,6 +224,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

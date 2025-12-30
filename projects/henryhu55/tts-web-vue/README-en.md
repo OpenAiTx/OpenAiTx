@@ -1,8 +1,40 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=id">Indonesian</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as">Assamese</
+      </div>
+    </div>
+  </details>
+</div>
+
 # TTS-Vue Web Version
 
 🎤 Microsoft Speech Synthesis Tool, Web version, built with `Vue` + `ElementPlus` + `Vite`.
 
-## Website Demo
+## Website Example
 
 https://web.tts88.top
 ### New Version Interface
@@ -13,56 +45,56 @@ https://web.tts88.top
 
 ## Features
 
-- 🌐 Fully web-based, no desktop application installation required
-- 🔊 Supports various Microsoft speech synthesis voices
+- 🌐 Completely web-based, no need to install desktop applications
+- 🔊 Supports various Microsoft voice syntheses
 - 🚀 Supports TTS88 API integration
-- 🆓 Supports free TTS calls with daily free quota
+- 🆓 Supports free TTS calls, daily free quota
 - 🧠 Supports OpenAI text generation
 - 🌍 Supports multiple languages: Chinese, English, Spanish
-- 🔐 Browser fingerprint recognition for a safer user experience
+- 🔐 Browser fingerprint recognition for a more secure user experience
 
 ## Latest Updates
 
-### Interface Refactor and Feature Enhancements (v2.2.0)
+### UI Refactoring & Feature Enhancement (v2.2.0)
 
-- 📱 **UI Refactor**: Fixed top navigation, text box uses sticky mode, optimized for mobile
-- 🔤 **SSML Enhancement**: Added SSML formatting feature, auto-updates SSML based on settings changes
+- 📱 **UI Refactoring**: Fixed top navigation, sticky text box, optimized for mobile adaptation
+- 🔤 **SSML Enhancement**: Added SSML formatting, automatically updates SSML based on settings changes
 - 🎵 **Player Optimization**: Integrated player into main interface, improved audio playback and download experience
-- 🎞️ **Subtitle Feature**: Added online subtitle generation to improve content creation efficiency
+- 🎞️ **Subtitle Feature**: Added online subtitle generation to boost content creation efficiency
 - 🌓 **Theme Optimization**: Improved dark mode interface, added global theme switching
 - 🛠️ **Advanced Settings**: Optimized free TTS service interface, added speech rate and pitch configuration
-- 💡 **Interaction Experience**: Added tooltips for enhanced user guidance
+- 💡 **Interaction Experience**: Added tooltip function to enhance user guidance
 - 🔄 **Dependency Upgrades**: Vue updated to 3.5.11, ElementPlus updated to 2.9.9
-- 🌐 **Link Updates**: Updated GitHub repository address
+- 🌐 **Link Update**: Updated GitHub repository address
 
 ### Free TTS Service Integration (v2.1.0)
 
-- 🆕 **Free TTS Feature**: No API key required, daily free quota available
-- 👤 **Browser Fingerprint Recognition**: Ensures fair use of free quotas for each user  
-- 🔄 **Quota Status Display**: Real-time display of remaining free characters and reset time  
-- 🌐 **Server Status Detection**: Automatically detects connection status of free TTS server  
-- 🛡️ **Enhanced Error Handling**: Friendlier error prompts and status feedback  
-- 🎛️ **Free TTS Settings Panel**: Convenient for users to configure and view quota information  
+- 🆕 **Free TTS Feature**: No API key required, daily free quota
+- 👤 **Browser Fingerprint Recognition**: Ensures fair usage of free quota for each user
+- 🔄 **Quota Status Display**: Real-time display of remaining free characters and reset time
+- 🌐 **Server Status Detection**: Automatically detects free TTS server connection status
+- 🛡️ **Enhanced Error Handling**: More user-friendly error messages and status feedback
+- 🎛️ **Free TTS Settings Panel**: Convenient for users to configure and view quota information
 
-### Interface and User Experience Optimization (v2.0.0)  
+### UI and User Experience Optimization (v2.0.0)
 
-- ✨ **Settings Area Optimization**: Settings panel supports collapse, click "Voice Settings" title to expand/collapse  
-- 🔘 **Smart Button Positioning**: "Start Conversion" button moved to the top for click without scrolling  
-- 💬 **Status Prompt Enhancement**: Added intuitive conversion status prompt text  
-- 🎨 **Visual Effects Improvement**: Buttons added glow animation to enhance user experience  
-- 📱 **Responsive Layout Optimization**: Improved display on different screen sizes  
+- ✨ **Settings Area Optimization**: The settings panel now supports collapsing; click the "Voice Settings" title to expand/collapse.
+- 🔘 **Smart Button Placement**: The "Start Conversion" button is moved to the top, so you can click it without scrolling.
+- 💬 **Enhanced Status Prompts**: Intuitive conversion status prompt text has been added.
+- 🎨 **Visual Improvements**: Button now features lighting animations for a better user experience.
+- 📱 **Responsive Layout Optimization**: Improved display effects across different screen sizes.
 
-These improvements greatly enhance efficiency, especially solving the traditional design issue where users need to scroll to the bottom of the page to click the "Start Conversion" button. Now, users can easily start the conversion process from any position on the page.  
+These improvements greatly enhance usability, especially addressing the issue in traditional designs where users had to scroll to the bottom to click the "Start Conversion" button. Now, users can easily initiate the conversion process from anywhere on the page.
 
-## Development Plan  
+## Development Plan
 
-> **📢 Important Notice: Desktop version is under development!**  
-> We are developing a cross-platform desktop application version, which will support more features and better user experience.  
-> Stay tuned for future updates and follow project announcements for the latest information.  
+> **📢 Important Notice: Desktop version under development!**
+> We are developing a cross-platform desktop app version, which will support more features and provide a better user experience.
+> Stay tuned for further updates, and follow the project for the latest information.
 
-## Quick Start  
+## Quick Start
 
-### Development Environment  
+### Development Environment
 
 ```bash
 # 克隆仓库
@@ -151,6 +183,6 @@ This software and code are for personal learning and testing purposes only. Plea
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

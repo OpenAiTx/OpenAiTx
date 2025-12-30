@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # TTS-Vue Web版本
 
 🎤 微软语音合成工具，Web版本，使用 `Vue` + `ElementPlus` + `Vite` 构建。

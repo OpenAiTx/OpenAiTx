@@ -198,79 +198,87 @@ Mỗi dòng của `test.tsv` sẽ thuộc một trong các định dạng sau:
 ```
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
-- `wav_name` là tên của file wav đầu ra.
-- `spk1_prompt_transcription` là bản ghi âm lời nhắc của người nói thứ nhất, ví dụ: "Hello"
-- `spk2_prompt_transcription` là bản ghi âm lời nhắc của người nói thứ hai, ví dụ: "How are you?"
-- `spk1_prompt_wav` là đường dẫn tới file wav lời nhắc của người nói thứ nhất.
-- `spk2_prompt_wav` là đường dẫn tới file wav lời nhắc của người nói thứ hai.
-- `text` là văn bản cần tổng hợp, ví dụ: "[S1] I'm fine. [S2] What's your name? [S1] I'm Eric. [S2] Hi Eric."
+- `wav_name` là tên của tệp wav đầu ra.
+- `spk1_prompt_transcription` là bản ghi lời nói của tệp wav nhắc nhở của người nói thứ nhất, ví dụ: "Hello"
+- `spk2_prompt_transcription` là bản ghi lời nói của tệp wav nhắc nhở của người nói thứ hai, ví dụ: "How are you?"
+- `spk1_prompt_wav` là đường dẫn đến tệp wav nhắc nhở của người nói thứ nhất.
+- `spk2_prompt_wav` là đường dẫn đến tệp wav nhắc nhở của người nói thứ hai.
+- `text` là đoạn văn bản cần tổng hợp, ví dụ: "[S1] I'm fine. [S2] What's your name? [S1] I'm Eric. [S2] Hi Eric."
 
 ### 3 Hướng dẫn sử dụng tốt hơn:
 
-#### 3.1 Độ dài lời nhắc
+#### 3.1 Độ dài prompt
 
-Chúng tôi khuyến nghị sử dụng file wav lời nhắc ngắn (ví dụ, dưới 3 giây cho tạo tiếng nói một người, dưới 10 giây cho tạo tiếng nói hội thoại) để tăng tốc độ suy luận. Lời nhắc quá dài sẽ làm chậm quá trình suy luận và giảm chất lượng tiếng nói.
+Chúng tôi khuyến nghị sử dụng tệp wav nhắc nhở ngắn (ví dụ, dưới 3 giây cho tạo giọng nói một người, dưới 10 giây cho tạo hội thoại) để tăng tốc độ suy luận. Tệp nhắc nhở quá dài sẽ làm chậm quá trình suy luận và giảm chất lượng giọng nói.
 
 #### 3.2 Tối ưu hóa tốc độ
 
-Nếu tốc độ suy luận không đạt yêu cầu, bạn có thể tăng tốc như sau:
+Nếu tốc độ suy luận chưa đạt yêu cầu, bạn có thể tăng tốc như sau:
 
-- **Mô hình distill và giảm bước**: Đối với mô hình tạo tiếng nói một người, chúng tôi sử dụng mô hình `zipvoice` mặc định để có chất lượng tiếng nói tốt hơn. Nếu ưu tiên tốc độ, bạn có thể chuyển sang `zipvoice_distill` và giảm `--num-steps` xuống thấp nhất là `4` (mặc định là 8).
+- **Rút gọn mô hình và giảm số bước**: Với mô hình tạo giọng nói một người, chúng tôi sử dụng mô hình `zipvoice` mặc định để có chất lượng giọng nói tốt hơn. Nếu ưu tiên tốc độ, bạn có thể chuyển sang `zipvoice_distill` và giảm `--num-steps` xuống tối thiểu là `4` (mặc định là 8).
 
-- **Tăng tốc CPU với đa luồng**: Khi chạy trên CPU, bạn có thể truyền tham số `--num-thread` (ví dụ, `--num-thread 4`) để tăng số lượng luồng nhằm tăng tốc độ. Mặc định là 1 luồng.
+- **Tăng tốc CPU với đa luồng**: Khi chạy trên CPU, bạn có thể truyền tham số `--num-thread` (ví dụ, `--num-thread 4`) để tăng số luồng, giúp tăng tốc độ. Mặc định chúng tôi sử dụng 1 luồng.
 
-- **Tăng tốc CPU với ONNX**: Khi chạy trên CPU, bạn có thể sử dụng mô hình ONNX với `zipvoice.bin.infer_zipvoice_onnx` để tăng tốc (hiện chưa hỗ trợ ONNX cho mô hình tạo hội thoại). Để tăng tốc hơn nữa, bạn có thể đặt `--onnx-int8 True` để sử dụng mô hình ONNX được lượng tử hóa INT8. Lưu ý rằng mô hình lượng tử hóa sẽ làm giảm chất lượng tiếng nói ở một mức độ nhất định. **Không sử dụng ONNX trên GPU**, vì nó chậm hơn PyTorch trên GPU.
+- **Tăng tốc CPU với ONNX**: Khi chạy trên CPU, bạn có thể sử dụng các mô hình ONNX với `zipvoice.bin.infer_zipvoice_onnx` để tăng tốc (chưa hỗ trợ ONNX cho mô hình tạo hội thoại). Để tăng tốc hơn nữa, bạn có thể đặt `--onnx-int8 True` để dùng mô hình ONNX đã lượng tử hóa INT8. Lưu ý mô hình lượng tử hóa sẽ làm giảm chất lượng giọng nói nhất định. **Không sử dụng ONNX trên GPU**, vì nó chậm hơn PyTorch trên GPU.
+
+- **Tăng tốc GPU với NVIDIA TensorRT**: Để tăng hiệu suất đáng kể trên GPU NVIDIA, đầu tiên hãy xuất mô hình sang định dạng TensorRT bằng zipvoice.bin.tensorrt_export. Sau đó, chạy suy luận trên bộ dữ liệu của bạn (ví dụ, bộ dữ liệu Hugging Face) với zipvoice.bin.infer_zipvoice. Cách này có thể đạt tốc độ xử lý gấp đôi so với PyTorch tiêu chuẩn trên GPU.
 
 #### 3.3 Kiểm soát bộ nhớ
 
-Văn bản đầu vào sẽ được chia thành từng đoạn dựa trên dấu câu (cho tạo tiếng nói một người) hoặc ký hiệu chuyển người nói (cho tạo tiếng nói hội thoại). Sau đó, các đoạn văn bản này sẽ được xử lý theo lô. Do đó, mô hình có thể xử lý văn bản dài tùy ý với mức sử dụng bộ nhớ gần như không đổi. Bạn có thể kiểm soát bộ nhớ bằng cách điều chỉnh tham số `--max-duration`.
+Văn bản đầu vào sẽ được chia thành các đoạn nhỏ dựa trên dấu câu (cho tạo giọng nói một người) hoặc ký hiệu đổi người nói (cho tạo hội thoại). Sau đó, các đoạn văn bản sẽ được xử lý theo lô. Do đó, mô hình có thể xử lý văn bản dài bất kỳ với mức sử dụng bộ nhớ gần như không đổi. Bạn có thể kiểm soát bộ nhớ bằng cách điều chỉnh tham số `--max-duration`.
 
-#### 3.4 Đánh giá "raw"
+#### 3.4 Đánh giá "Raw"
 
-Theo mặc định, chúng tôi tiền xử lý các đầu vào (file wav lời nhắc, bản ghi lời nhắc, và văn bản) để tối ưu hóa suy luận và nâng cao hiệu năng. Nếu bạn muốn đánh giá hiệu năng "raw" của mô hình với các đầu vào chính xác được cung cấp (ví dụ, để tái tạo kết quả trong bài báo của chúng tôi), bạn có thể truyền `--raw-evaluation True`.
+Mặc định, chúng tôi sẽ tiền xử lý các đầu vào (wav nhắc nhở, bản ghi nhắc nhở và văn bản) để tối ưu hóa suy luận và hiệu suất. Nếu bạn muốn đánh giá hiệu suất "gốc" của mô hình bằng đúng đầu vào cung cấp (ví dụ, để tái tạo kết quả trong bài báo của chúng tôi), bạn có thể truyền `--raw-evaluation True`.
 
 #### 3.5 Văn bản ngắn
 
-Khi tạo tiếng nói cho các văn bản rất ngắn (ví dụ, một hoặc hai từ), tiếng nói tạo ra đôi khi có thể bỏ sót một số phát âm. Để khắc phục vấn đề này, bạn có thể truyền `--speed 0.3` (trong đó 0.3 là giá trị có thể điều chỉnh) để kéo dài thời lượng tiếng nói tạo ra.
+Khi tạo giọng nói cho các văn bản rất ngắn (ví dụ, một hoặc hai từ), giọng nói tạo ra đôi khi có thể bị thiếu một số âm tiết. Để khắc phục vấn đề này, bạn có thể truyền `--speed 0.3` (trong đó 0.3 là giá trị có thể điều chỉnh) để kéo dài thời lượng của giọng nói tạo ra.
 
-#### 3.6 Sửa lỗi phát âm ký tự đa âm tiếng Trung
-
-Chúng tôi sử dụng [pypinyin](https://github.com/mozillazg/python-pinyin) để chuyển đổi ký tự tiếng Trung sang pinyin. Tuy nhiên, đôi khi nó có thể phát âm sai **ký tự đa âm** (多音字).
+#### 3.6 Sửa lỗi phát âm sai các ký tự đa âm tiếng Trung
 
 
-Để chỉnh sửa thủ công các lỗi phát âm này, hãy đặt **pinyin đã chỉnh sửa** trong dấu ngoặc nhọn `< >` và bao gồm **dấu thanh**.
+Chúng tôi sử dụng [pypinyin](https://github.com/mozillazg/python-pinyin) để chuyển đổi ký tự tiếng Trung sang pinyin. Tuy nhiên, đôi khi nó có thể phát âm sai **chữ đa âm** (多音字).
+
+Để sửa các phát âm sai này một cách thủ công, hãy đặt **pinyin đã chỉnh sửa** trong dấu ngoặc nhọn `< >` và thêm **dấu thanh**.
 
 **Ví dụ:**
 
 - Văn bản gốc: `这把剑长三十公分`
-- Sửa lại pinyin của `长`:  `这把剑<chang2>三十公分`
+- Sửa pinyin cho `长`:  `这把剑<chang2>三十公分`
 
-> **Lưu ý:** Nếu bạn muốn gán nhiều pinyin thủ công, hãy đặt mỗi pinyin trong dấu `<>`, ví dụ: `这把<jian4><chang2><san1>十公分`
+> **Lưu ý:** Nếu bạn muốn gán thủ công nhiều pinyin, hãy đặt mỗi pinyin trong `<>`, ví dụ: `这把<jian4><chang2><san1>十公分`
 
-#### 3.7 Loại bỏ khoảng lặng dài trong tiếng nói được tạo ra
+#### 3.7 Loại bỏ khoảng lặng dài khỏi giọng nói đã tạo
 
-Mô hình sẽ tự động xác định vị trí và độ dài của khoảng lặng trong tiếng nói được tạo ra. Đôi khi có khoảng lặng dài ở giữa đoạn nói. Nếu bạn không muốn điều này, bạn có thể thêm tùy chọn `--remove-long-sil` để loại bỏ khoảng lặng dài ở giữa đoạn nói (khoảng lặng ở hai đầu sẽ được loại bỏ mặc định).
+Mô hình sẽ tự động xác định vị trí và độ dài của các khoảng lặng trong giọng nói đã tạo. Đôi khi có khoảng lặng dài ở giữa bài nói. Nếu bạn không muốn điều này, bạn có thể truyền `--remove-long-sil` để loại bỏ các khoảng lặng dài ở giữa giọng nói đã tạo (các khoảng lặng ở đầu/cuối sẽ được loại bỏ mặc định).
 
 #### 3.8 Tải mô hình
 
-Nếu bạn gặp khó khăn khi kết nối tới HuggingFace để tải các mô hình đã huấn luyện sẵn, hãy thử chuyển endpoint sang trang mirror: `export HF_ENDPOINT=https://hf-mirror.com`.
+Nếu bạn gặp sự cố khi kết nối với HuggingFace để tải các mô hình đã huấn luyện trước, hãy thử chuyển endpoint sang trang mirror: `export HF_ENDPOINT=https://hf-mirror.com`.
 
-## Huấn luyện mô hình của riêng bạn
+## Huấn luyện mô hình của bạn
 
-Xem thư mục [egs](egs) để biết ví dụ về huấn luyện, tinh chỉnh và đánh giá.
+Xem thư mục [egs](egs) để biết ví dụ về huấn luyện, fine-tuning và đánh giá.
 
-## Triển khai bằng C++
+## Triển khai sản xuất
 
-Xem [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) để biết giải pháp triển khai bằng C++ trên CPU.
+### NVIDIA Triton GPU Runtime
+
+Để triển khai sản xuất sẵn sàng với hiệu năng và khả năng mở rộng cao, hãy tham khảo [Triton Inference Server integration](runtime/nvidia_triton/) cung cấp các engine TensorRT tối ưu, xử lý yêu cầu đồng thời và các API gRPC/HTTP cho doanh nghiệp.
+
+### Triển khai CPU
+
+Xem [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) để biết giải pháp triển khai C++ trên CPU.
 
 ## Thảo luận & Trao đổi
 
 Bạn có thể thảo luận trực tiếp trên [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).
 
-Bạn cũng có thể quét mã QR để tham gia nhóm wechat hoặc theo dõi tài khoản chính thức của chúng tôi trên wechat.
+Bạn cũng có thể quét mã QR để tham gia nhóm wechat của chúng tôi hoặc theo dõi tài khoản wechat chính thức.
 
-| Nhóm Wechat | Tài khoản chính thức Wechat |
-| ------------ | -------------------------- |
+| Nhóm Wechat | Tài khoản Wechat chính thức |
+| ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Trích dẫn
@@ -296,6 +304,6 @@ Bạn cũng có thể quét mã QR để tham gia nhóm wechat hoặc theo dõi 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

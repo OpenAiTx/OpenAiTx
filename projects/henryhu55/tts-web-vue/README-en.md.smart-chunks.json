@@ -1,419 +1,503 @@
 [
   {
     "Id": 1,
-    "Content": "# TTS-Vue Web版本\n\n🎤 微软语音合成工具，Web版本，使用 `Vue` + `ElementPlus` + `Vite` 构建。\n\n## 网站示例\n\nhttps://web.tts88.top\n### 新版本界面\n![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)\n\n### 旧版本界面\n![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)\n\n## 功能特点\n\n- 🌐 完全Web化，无需安装桌面应用\n- 🔊 支持微软多种语音合成\n- 🚀 支持TTS88 API集成\n- 🆓 支持免费TTS调用，每日免费额度\n- 🧠 支持OpenAI的文本生成\n- 🌍 支持多语言：中文、英文、西班牙语\n- 🔐 浏览器指纹识别，更安全的用户体验\n\n## 最新更新\n\n### 界面重构与功能增强 (v2.2.0)\n\n- 📱 **UI重构**：固定顶部导航，文本框采用吸顶模式，优化移动端适配\n- 🔤 **SSML增强**：新增SSML格式化功能，自动根据设置变化更新SSML\n- 🎵 **播放器优化**：集成播放器到主界面，改进音频播放和下载体验\n- 🎞️ **字幕功能**：新增在线生成字幕功能，提升内容创作效率\n- 🌓 **主题优化**：改善暗黑模式下的界面表现，增加全局主题切换\n- 🛠️ **高级设置**：优化免费TTS服务界面，新增语速和音调配置\n- 💡 **交互体验**：添加工具提示功能，增强用户操作指引\n- 🔄 **依赖升级**：Vue更新至3.5.11，ElementPlus更新至2.9.9\n- 🌐 **链接更新**：更新GitHub仓库地址\n\n### 免费TTS服务集成 (v2.1.0)\n\n- 🆕 **免费TTS功能**：无需API密钥，每日都有免费额度",
-    "ContentSha": "ck1I4KdbCyMTDA8MNIw1HawI3JDElmnqpSLnQ8ITbj8=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# TTS-Vue Web版本\n\n🎤 微软语音合成工具，Web版本，使用 `Vue` + `ElementPlus` + `Vite` 构建。\n\n## 网站示例\n\nhttps://web.tts88.top\n### 新版本界面",
+    "ContentSha": "f5LaX7LLtM2M1ISsBCKccfx7H/GTPSxEHSwE32tLbQo=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# TTS-Vue Web Version\n\n🎤 Microsoft Speech Synthesis Tool, Web version, built with `Vue` + `ElementPlus` + `Vite`.\n\n## Website Demo\n\nhttps://web.tts88.top\n### New Version Interface\n![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)\n\n### Old Version Interface\n![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)\n\n## Features\n\n- 🌐 Fully web-based, no desktop application installation required\n- 🔊 Supports various Microsoft speech synthesis voices\n- 🚀 Supports TTS88 API integration\n- 🆓 Supports free TTS calls with daily free quota\n- 🧠 Supports OpenAI text generation\n- 🌍 Supports multiple languages: Chinese, English, Spanish\n- 🔐 Browser fingerprint recognition for a safer user experience\n\n## Latest Updates\n\n### Interface Refactor and Feature Enhancements (v2.2.0)\n\n- 📱 **UI Refactor**: Fixed top navigation, text box uses sticky mode, optimized for mobile\n- 🔤 **SSML Enhancement**: Added SSML formatting feature, auto-updates SSML based on settings changes\n- 🎵 **Player Optimization**: Integrated player into main interface, improved audio playback and download experience\n- 🎞️ **Subtitle Feature**: Added online subtitle generation to improve content creation efficiency\n- 🌓 **Theme Optimization**: Improved dark mode interface, added global theme switching\n- 🛠️ **Advanced Settings**: Optimized free TTS service interface, added speech rate and pitch configuration\n- 💡 **Interaction Experience**: Added tooltips for enhanced user guidance\n- 🔄 **Dependency Upgrades**: Vue updated to 3.5.11, ElementPlus updated to 2.9.9\n- 🌐 **Link Updates**: Updated GitHub repository address\n\n### Free TTS Service Integration (v2.1.0)\n\n- 🆕 **Free TTS Feature**: No API key required, daily free quota available",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-CN\">Simplified Chinese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-TW\">Traditional Chinese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ja\">Japanese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ko\">Korean</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=hi\">Hindi</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=th\">Thai</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fr\">French</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=de\">German</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=es\">Spanish</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=it\">Italian</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ru\">Russian</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pt\">Portuguese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=nl\">Dutch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pl\">Polish</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ar\">Arabic</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fa\">Persian</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=tr\">Turkish</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=vi\">Vietnamese</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=id\">Indonesian</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as\">Assamese</\n      </div>\n    </div>\n  </details>\n</div>\n\n# TTS-Vue Web Version\n\n🎤 Microsoft Speech Synthesis Tool, Web version, built with `Vue` + `ElementPlus` + `Vite`.\n\n## Website Example\n\nhttps://web.tts88.top\n### New Version Interface",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Language</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "ekF4WX5yV3iAnduFdEMxQyo8dYhDonRVsmHrkO37ICo=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "8WBrCvDnm8pwWq3k2bjTONW4xawOqaTsxS4k8GzhRO0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-CN\">Simplified Chinese</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "b1zSUeH+k5pxLtpYyTLNHVGoX57uVngsHXiCR9Tj1Bs=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-TW\">Traditional Chinese</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "aq3DmO9CnEmN7vidgPdSE8bNewywE9wngxhRDZoBjVU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ja\">Japanese</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "w6LBMHhCY863dD7i/K14j775q+kZW9ZdU2tUtoRM/YM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ko\">Korean</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "iW/38yM7ok8j7hpjnLYgQllpMo810HDWQWXOQc5Yt4M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=hi\">Hindi</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "i/g+1GHUCPgPvqR7/5IrhoHvhGgkU5QNOq0IjBL01gw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=th\">Thai</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "UcRM9NBuR5hiHXHMW//gvcpjzDl1ep7mtOtFT22keTM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fr\">French</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "gXPhTRglEUABsKLforJXxqXHGxO/czWHwRIzBzOrrMw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=de\">German</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "08iZz0QGfjJ8xq45251Eff19jUKYLh6y7L6eDTu+nCI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=es\">Spanish</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "+WD9/1IOgQVH1vQjuz3VPOeF8Jd2RNSE1XAGsdiZI1s=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=it\">Italian</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "XrjkDMtm9g/AGnOeMp8dSa7JV3a8yJ7R6aOhajq10B8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ru\">Russian</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "B2HjE3cewDFMs8tvCquG848ckiP++rLbup8Lq4kCHqE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pt\">Portuguese</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "onW2WxCjAYs0qmAEWFhCm00SZxh1/Re7ZxWkrR42RYE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=nl\">Dutch</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "OWcMvtE142HdH2tJyNiZzlt8KAijCelBy+2dfpxBlEc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pl\">Polish</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "AZP3410suhvZaghAWb4YnPgkBGun0xLnzXaHvtpD1RE=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ar\">Arabic</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "eDS2B6sbOtlDRz5xYYyVNFjR92r4lxKeHZSKaDnhPO0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fa\">Persian</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "dRzG0V0ldRpI5/i4MkojVXKL0lqAcNV4RKtmztOgHhc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=tr\">Turkish</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "j1pfImnjHRWqcFZMqI3HtupQkkSKw9hqTwEVZWJoj0A=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=vi\">Vietnamese</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "jHYeKF6c4a7yS2Ayo7ZE2/m5A8UUeXLBrcFGet7jf70=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=id\">Indonesian</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "nbWQvdB9NuNuuonB8E5RNgxyc4geFmGJ3do1df7OZUA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as\">Assamese</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
         "rowsha": "p7srua2R+vkDdyCJfRXWecadPYUTeFzjHWANi7wBGPE=",
         "originContent": "# TTS-Vue Web版本",
         "translatedContent": "# TTS-Vue Web Version"
       },
       {
-        "row": 2,
+        "row": 34,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 3,
+        "row": 35,
         "rowsha": "zhMY+0IB8TR6GvH+ypN5+qkIpNMDXKfiuYJri73ImZI=",
         "originContent": "🎤 微软语音合成工具，Web版本，使用 `Vue` + `ElementPlus` + `Vite` 构建。",
         "translatedContent": "🎤 Microsoft Speech Synthesis Tool, Web version, built with `Vue` + `ElementPlus` + `Vite`."
       },
       {
-        "row": 4,
+        "row": 36,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 5,
+        "row": 37,
         "rowsha": "8KRfQTY22AlSxJGyNpf91gzlib8NVtgr/FcgzKPfszo=",
         "originContent": "## 网站示例",
-        "translatedContent": "## Website Demo"
+        "translatedContent": "## Website Example"
       },
       {
-        "row": 6,
+        "row": 38,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 7,
+        "row": 39,
         "rowsha": "qwhBLUw2Vd0JkdE+vgt0rXg3NhrLj4nKMHDjXuXmRFA=",
         "originContent": "https://web.tts88.top",
         "translatedContent": "https://web.tts88.top"
       },
       {
-        "row": 8,
+        "row": 40,
         "rowsha": "B0Q2T5g3SiBHAcShpZ+idEavg4v+NaBeMHq2je1hGVM=",
         "originContent": "### 新版本界面",
         "translatedContent": "### New Version Interface"
-      },
-      {
-        "row": 9,
-        "rowsha": "Sr2L2pf1FwxfR8+gnMqE3+IGwYDB+zusq3wOIeUtQ8k=",
-        "originContent": "![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)",
-        "translatedContent": "![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "YitxWi847epIB237n8txrEVPElydcBvlVnXqM1zIaWI=",
-        "originContent": "### 旧版本界面",
-        "translatedContent": "### Old Version Interface"
-      },
-      {
-        "row": 12,
-        "rowsha": "BIzBVSA5kcSL2+SM6vuHRA/IMl/mDZF7uYFn3KPgvA0=",
-        "originContent": "![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)",
-        "translatedContent": "![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)"
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "qD06dCf0UKo59Pu5aDftOyM9JXRfhAIcJQdWRyMPBHM=",
-        "originContent": "## 功能特点",
-        "translatedContent": "## Features"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
-        "rowsha": "eI1Akopicdpo665iNFluY3CSQ9Lqh7dmXHJPVPEToHg=",
-        "originContent": "- 🌐 完全Web化，无需安装桌面应用",
-        "translatedContent": "- 🌐 Fully web-based, no desktop application installation required"
-      },
-      {
-        "row": 17,
-        "rowsha": "n++oztDxIozkuUUrrZqtR3X3OPJ8wpEEhGvjLn0HYvI=",
-        "originContent": "- 🔊 支持微软多种语音合成",
-        "translatedContent": "- 🔊 Supports various Microsoft speech synthesis voices"
-      },
-      {
-        "row": 18,
-        "rowsha": "UdbAu4fEgUQPMyVypo1Uty0z3BFMYjy4D955uGh35hE=",
-        "originContent": "- 🚀 支持TTS88 API集成",
-        "translatedContent": "- 🚀 Supports TTS88 API integration"
-      },
-      {
-        "row": 19,
-        "rowsha": "5Lqeq89ijywT7g0yIDjt+d/7fHq6nQ+dHTUtSHzMb50=",
-        "originContent": "- 🆓 支持免费TTS调用，每日免费额度",
-        "translatedContent": "- 🆓 Supports free TTS calls with daily free quota"
-      },
-      {
-        "row": 20,
-        "rowsha": "m4S4O6o2Ccs2EAXoC7xqoFdeYEhoOUPn4zVUsVbJ+wc=",
-        "originContent": "- 🧠 支持OpenAI的文本生成",
-        "translatedContent": "- 🧠 Supports OpenAI text generation"
-      },
-      {
-        "row": 21,
-        "rowsha": "G3h+nOl5dj3ge5dW2Ikhy4Lu3hdp38amdBH9piHJmDQ=",
-        "originContent": "- 🌍 支持多语言：中文、英文、西班牙语",
-        "translatedContent": "- 🌍 Supports multiple languages: Chinese, English, Spanish"
-      },
-      {
-        "row": 22,
-        "rowsha": "vOCDpHRKWqyaTS1fusAEusMh/Z9rAu0LZrk5zg2Y6KQ=",
-        "originContent": "- 🔐 浏览器指纹识别，更安全的用户体验",
-        "translatedContent": "- 🔐 Browser fingerprint recognition for a safer user experience"
-      },
-      {
-        "row": 23,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 24,
-        "rowsha": "aOaPSHE9UA7GRgvabKBmU0dbMViEnOJPysHmPfGXkoo=",
-        "originContent": "## 最新更新",
-        "translatedContent": "## Latest Updates"
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 26,
-        "rowsha": "ztOuawighAQf0gRR8FBoaMgKKek+58ZtsCJmj+QQNJY=",
-        "originContent": "### 界面重构与功能增强 (v2.2.0)",
-        "translatedContent": "### Interface Refactor and Feature Enhancements (v2.2.0)"
-      },
-      {
-        "row": 27,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 28,
-        "rowsha": "CUSwFM/t1H4szz9hah97F5IWz47fBO/FlZqQu0ko/oE=",
-        "originContent": "- 📱 **UI重构**：固定顶部导航，文本框采用吸顶模式，优化移动端适配",
-        "translatedContent": "- 📱 **UI Refactor**: Fixed top navigation, text box uses sticky mode, optimized for mobile"
-      },
-      {
-        "row": 29,
-        "rowsha": "KW2jFSpq0GSPdF4J5T+xkn9eQ2jOA2DncJNGR/JrVBQ=",
-        "originContent": "- 🔤 **SSML增强**：新增SSML格式化功能，自动根据设置变化更新SSML",
-        "translatedContent": "- 🔤 **SSML Enhancement**: Added SSML formatting feature, auto-updates SSML based on settings changes"
-      },
-      {
-        "row": 30,
-        "rowsha": "Pcd5S89srFw3R93/TDjdIpKx6K2OpVMmubN0m6BjKg4=",
-        "originContent": "- 🎵 **播放器优化**：集成播放器到主界面，改进音频播放和下载体验",
-        "translatedContent": "- 🎵 **Player Optimization**: Integrated player into main interface, improved audio playback and download experience"
-      },
-      {
-        "row": 31,
-        "rowsha": "oTgaf7y9DJ/4KJSLFd/xH1w3vWM3GKHAJta4U9xOnac=",
-        "originContent": "- 🎞️ **字幕功能**：新增在线生成字幕功能，提升内容创作效率",
-        "translatedContent": "- 🎞️ **Subtitle Feature**: Added online subtitle generation to improve content creation efficiency"
-      },
-      {
-        "row": 32,
-        "rowsha": "EUcoAO4fa45W30Sw5cHRDKJgsg/e4tpfhKU2UCb026M=",
-        "originContent": "- 🌓 **主题优化**：改善暗黑模式下的界面表现，增加全局主题切换",
-        "translatedContent": "- 🌓 **Theme Optimization**: Improved dark mode interface, added global theme switching"
-      },
-      {
-        "row": 33,
-        "rowsha": "NoUqJ+77ymn+34A+ZVsO3Z9xgc0liAfJaLIVYXnEJUc=",
-        "originContent": "- 🛠️ **高级设置**：优化免费TTS服务界面，新增语速和音调配置",
-        "translatedContent": "- 🛠️ **Advanced Settings**: Optimized free TTS service interface, added speech rate and pitch configuration"
-      },
-      {
-        "row": 34,
-        "rowsha": "lDPcPU0xDwdMPXV6P1Zjms45wvnrLQ/F1d1icGuSWqc=",
-        "originContent": "- 💡 **交互体验**：添加工具提示功能，增强用户操作指引",
-        "translatedContent": "- 💡 **Interaction Experience**: Added tooltips for enhanced user guidance"
-      },
-      {
-        "row": 35,
-        "rowsha": "Euv2cwMtFOXfw+9KlFkLxGBXVWh1FkGsNRFP93yK8bo=",
-        "originContent": "- 🔄 **依赖升级**：Vue更新至3.5.11，ElementPlus更新至2.9.9",
-        "translatedContent": "- 🔄 **Dependency Upgrades**: Vue updated to 3.5.11, ElementPlus updated to 2.9.9"
-      },
-      {
-        "row": 36,
-        "rowsha": "3vYb6Q6GYQu39r1/3fFwjlbCSJq5x1O14/C/8RlV8cw=",
-        "originContent": "- 🌐 **链接更新**：更新GitHub仓库地址",
-        "translatedContent": "- 🌐 **Link Updates**: Updated GitHub repository address"
-      },
-      {
-        "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 38,
-        "rowsha": "BqQXpHN6wxEPuh9veSDOyE+NZTpOBDsizhYJNiy6sD8=",
-        "originContent": "### 免费TTS服务集成 (v2.1.0)",
-        "translatedContent": "### Free TTS Service Integration (v2.1.0)"
-      },
-      {
-        "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 40,
-        "rowsha": "aecSVkLV3dHL+H6W/mSNzKHYZpyH7aVgW5xa+0OVjak=",
-        "originContent": "- 🆕 **免费TTS功能**：无需API密钥，每日都有免费额度",
-        "translatedContent": "- 🆕 **Free TTS Feature**: No API key required, daily free quota available"
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "- 👤 **浏览器指纹识别**：保证每个用户公平使用免费额度\n- 🔄 **额度状态显示**：实时显示剩余免费字符数和重置时间\n- 🌐 **服务器状态检测**：自动检测免费TTS服务器连接状态\n- 🛡️ **增强错误处理**：更友好的错误提示和状态反馈\n- 🎛️ **免费TTS设置面板**：方便用户配置和查看额度信息\n\n### 界面与用户体验优化 (v2.0.0)\n\n- ✨ **设置区域优化**：设置面板支持折叠，点击\"语音设置\"标题即可展开/折叠\n- 🔘 **智能按钮位置**：\"开始转换\"按钮移至顶部，无需滚动即可点击\n- 💬 **状态提示增强**：添加直观的转换状态提示文字\n- 🎨 **视觉效果改进**：按钮添加光效动画，增强用户体验\n- 📱 **响应式布局优化**：改进在不同屏幕尺寸下的显示效果\n\n这些改进大大提升了使用效率，特别是解决了传统设计中用户需要滚动到页面底部才能点击\"开始转换\"按钮的问题。现在，无论用户在页面的哪个位置，都可以轻松启动转换过程。\n\n## 开发计划\n\n> **📢 重要通知：桌面版本正在开发中！**\n> 我们正在开发跨平台桌面应用版本，将支持更多功能和更好的用户体验。\n> 敬请期待后续更新，请关注项目动态获取最新信息。\n\n## 快速开始\n\n### 开发环境\n",
-    "ContentSha": "mLFTlBWysh+Vlo8ls8cwtCzGG1mcyJdlL8EmC9b2LSk=",
+    "Content": "![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)\n\n### 旧版本界面\n![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)\n\n## 功能特点\n\n- 🌐 完全Web化，无需安装桌面应用\n- 🔊 支持微软多种语音合成\n- 🚀 支持TTS88 API集成\n- 🆓 支持免费TTS调用，每日免费额度\n- 🧠 支持OpenAI的文本生成\n- 🌍 支持多语言：中文、英文、西班牙语\n- 🔐 浏览器指纹识别，更安全的用户体验\n\n## 最新更新\n\n### 界面重构与功能增强 (v2.2.0)\n\n- 📱 **UI重构**：固定顶部导航，文本框采用吸顶模式，优化移动端适配\n- 🔤 **SSML增强**：新增SSML格式化功能，自动根据设置变化更新SSML\n- 🎵 **播放器优化**：集成播放器到主界面，改进音频播放和下载体验\n- 🎞️ **字幕功能**：新增在线生成字幕功能，提升内容创作效率\n- 🌓 **主题优化**：改善暗黑模式下的界面表现，增加全局主题切换\n- 🛠️ **高级设置**：优化免费TTS服务界面，新增语速和音调配置\n- 💡 **交互体验**：添加工具提示功能，增强用户操作指引\n- 🔄 **依赖升级**：Vue更新至3.5.11，ElementPlus更新至2.9.9\n- 🌐 **链接更新**：更新GitHub仓库地址\n\n### 免费TTS服务集成 (v2.1.0)\n\n- 🆕 **免费TTS功能**：无需API密钥，每日都有免费额度\n- 👤 **浏览器指纹识别**：保证每个用户公平使用免费额度\n- 🔄 **额度状态显示**：实时显示剩余免费字符数和重置时间\n- 🌐 **服务器状态检测**：自动检测免费TTS服务器连接状态\n- 🛡️ **增强错误处理**：更友好的错误提示和状态反馈\n- 🎛️ **免费TTS设置面板**：方便用户配置和查看额度信息\n\n### 界面与用户体验优化 (v2.0.0)\n",
+    "ContentSha": "FXOCvs9/A1bpqiQOjhLzTSkjOTTCkP7vvPlHtz5MYKE=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- 👤 **Browser Fingerprint Recognition**: Ensures fair use of free quotas for each user  \n- 🔄 **Quota Status Display**: Real-time display of remaining free characters and reset time  \n- 🌐 **Server Status Detection**: Automatically detects connection status of free TTS server  \n- 🛡️ **Enhanced Error Handling**: Friendlier error prompts and status feedback  \n- 🎛️ **Free TTS Settings Panel**: Convenient for users to configure and view quota information  \n\n### Interface and User Experience Optimization (v2.0.0)  \n\n- ✨ **Settings Area Optimization**: Settings panel supports collapse, click \"Voice Settings\" title to expand/collapse  \n- 🔘 **Smart Button Positioning**: \"Start Conversion\" button moved to the top for click without scrolling  \n- 💬 **Status Prompt Enhancement**: Added intuitive conversion status prompt text  \n- 🎨 **Visual Effects Improvement**: Buttons added glow animation to enhance user experience  \n- 📱 **Responsive Layout Optimization**: Improved display on different screen sizes  \n\nThese improvements greatly enhance efficiency, especially solving the traditional design issue where users need to scroll to the bottom of the page to click the \"Start Conversion\" button. Now, users can easily start the conversion process from any position on the page.  \n\n## Development Plan  \n\n> **📢 Important Notice: Desktop version is under development!**  \n> We are developing a cross-platform desktop application version, which will support more features and better user experience.  \n> Stay tuned for future updates and follow project announcements for the latest information.  \n\n## Quick Start  \n\n### Development Environment  \n",
+    "Translation": "![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)\n\n### Old Version Interface\n![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)\n\n## Features\n\n- 🌐 Completely web-based, no need to install desktop applications\n- 🔊 Supports various Microsoft voice syntheses\n- 🚀 Supports TTS88 API integration\n- 🆓 Supports free TTS calls, daily free quota\n- 🧠 Supports OpenAI text generation\n- 🌍 Supports multiple languages: Chinese, English, Spanish\n- 🔐 Browser fingerprint recognition for a more secure user experience\n\n## Latest Updates\n\n### UI Refactoring & Feature Enhancement (v2.2.0)\n\n- 📱 **UI Refactoring**: Fixed top navigation, sticky text box, optimized for mobile adaptation\n- 🔤 **SSML Enhancement**: Added SSML formatting, automatically updates SSML based on settings changes\n- 🎵 **Player Optimization**: Integrated player into main interface, improved audio playback and download experience\n- 🎞️ **Subtitle Feature**: Added online subtitle generation to boost content creation efficiency\n- 🌓 **Theme Optimization**: Improved dark mode interface, added global theme switching\n- 🛠️ **Advanced Settings**: Optimized free TTS service interface, added speech rate and pitch configuration\n- 💡 **Interaction Experience**: Added tooltip function to enhance user guidance\n- 🔄 **Dependency Upgrades**: Vue updated to 3.5.11, ElementPlus updated to 2.9.9\n- 🌐 **Link Update**: Updated GitHub repository address\n\n### Free TTS Service Integration (v2.1.0)\n\n- 🆕 **Free TTS Feature**: No API key required, daily free quota\n- 👤 **Browser Fingerprint Recognition**: Ensures fair usage of free quota for each user\n- 🔄 **Quota Status Display**: Real-time display of remaining free characters and reset time\n- 🌐 **Server Status Detection**: Automatically detects free TTS server connection status\n- 🛡️ **Enhanced Error Handling**: More user-friendly error messages and status feedback\n- 🎛️ **Free TTS Settings Panel**: Convenient for users to configure and view quota information\n\n### UI and User Experience Optimization (v2.0.0)\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "Of/sRkFRPhxOBLzkva5ioQry0IVen4nh2u2HnFx0ovk=",
-        "originContent": "- 👤 **浏览器指纹识别**：保证每个用户公平使用免费额度",
-        "translatedContent": "- 👤 **Browser Fingerprint Recognition**: Ensures fair use of free quotas for each user  "
+        "rowsha": "Sr2L2pf1FwxfR8+gnMqE3+IGwYDB+zusq3wOIeUtQ8k=",
+        "originContent": "![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)",
+        "translatedContent": "![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)"
       },
       {
         "row": 2,
-        "rowsha": "GQYXIDdlHsQ6HOY5C+YSoY5KGG5R0qOzlVSStq646Lk=",
-        "originContent": "- 🔄 **额度状态显示**：实时显示剩余免费字符数和重置时间",
-        "translatedContent": "- 🔄 **Quota Status Display**: Real-time display of remaining free characters and reset time  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 3,
-        "rowsha": "OpIsexByqqcNBuFdzuh3zNigO9qyVp+qdW/WCguMIGc=",
-        "originContent": "- 🌐 **服务器状态检测**：自动检测免费TTS服务器连接状态",
-        "translatedContent": "- 🌐 **Server Status Detection**: Automatically detects connection status of free TTS server  "
+        "rowsha": "YitxWi847epIB237n8txrEVPElydcBvlVnXqM1zIaWI=",
+        "originContent": "### 旧版本界面",
+        "translatedContent": "### Old Version Interface"
       },
       {
         "row": 4,
-        "rowsha": "pXj/dtQpoSVoK5s/N38xVQyUbTqZvT7eEfJsmm2n1qQ=",
-        "originContent": "- 🛡️ **增强错误处理**：更友好的错误提示和状态反馈",
-        "translatedContent": "- 🛡️ **Enhanced Error Handling**: Friendlier error prompts and status feedback  "
+        "rowsha": "BIzBVSA5kcSL2+SM6vuHRA/IMl/mDZF7uYFn3KPgvA0=",
+        "originContent": "![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)",
+        "translatedContent": "![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)"
       },
       {
         "row": 5,
-        "rowsha": "WtAV94+0AQIuXyScJ1meBdy8npISY5eHIUXjgSX8hDo=",
-        "originContent": "- 🎛️ **免费TTS设置面板**：方便用户配置和查看额度信息",
-        "translatedContent": "- 🎛️ **Free TTS Settings Panel**: Convenient for users to configure and view quota information  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "qD06dCf0UKo59Pu5aDftOyM9JXRfhAIcJQdWRyMPBHM=",
+        "originContent": "## 功能特点",
+        "translatedContent": "## Features"
       },
       {
         "row": 7,
-        "rowsha": "HIiMyhFynOSgCI7cLIjVz0arIxGHdKzNN5+tFFPztro=",
-        "originContent": "### 界面与用户体验优化 (v2.0.0)",
-        "translatedContent": "### Interface and User Experience Optimization (v2.0.0)  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "eI1Akopicdpo665iNFluY3CSQ9Lqh7dmXHJPVPEToHg=",
+        "originContent": "- 🌐 完全Web化，无需安装桌面应用",
+        "translatedContent": "- 🌐 Completely web-based, no need to install desktop applications"
       },
       {
         "row": 9,
-        "rowsha": "c+Vst4wphJ+pfNbW4YolKYZTO6D7SUjbSGFrshkphTY=",
-        "originContent": "- ✨ **设置区域优化**：设置面板支持折叠，点击\"语音设置\"标题即可展开/折叠",
-        "translatedContent": "- ✨ **Settings Area Optimization**: Settings panel supports collapse, click \"Voice Settings\" title to expand/collapse  "
+        "rowsha": "n++oztDxIozkuUUrrZqtR3X3OPJ8wpEEhGvjLn0HYvI=",
+        "originContent": "- 🔊 支持微软多种语音合成",
+        "translatedContent": "- 🔊 Supports various Microsoft voice syntheses"
       },
       {
         "row": 10,
-        "rowsha": "R7cEeHIariTWwTmT3MAK7Z+CeIWjnRYG68g2tGUCy0M=",
-        "originContent": "- 🔘 **智能按钮位置**：\"开始转换\"按钮移至顶部，无需滚动即可点击",
-        "translatedContent": "- 🔘 **Smart Button Positioning**: \"Start Conversion\" button moved to the top for click without scrolling  "
+        "rowsha": "UdbAu4fEgUQPMyVypo1Uty0z3BFMYjy4D955uGh35hE=",
+        "originContent": "- 🚀 支持TTS88 API集成",
+        "translatedContent": "- 🚀 Supports TTS88 API integration"
       },
       {
         "row": 11,
-        "rowsha": "dYsmMDrFstCCe7Y/40UPLDp26Hh+SZuEG2agHARYb98=",
-        "originContent": "- 💬 **状态提示增强**：添加直观的转换状态提示文字",
-        "translatedContent": "- 💬 **Status Prompt Enhancement**: Added intuitive conversion status prompt text  "
+        "rowsha": "5Lqeq89ijywT7g0yIDjt+d/7fHq6nQ+dHTUtSHzMb50=",
+        "originContent": "- 🆓 支持免费TTS调用，每日免费额度",
+        "translatedContent": "- 🆓 Supports free TTS calls, daily free quota"
       },
       {
         "row": 12,
-        "rowsha": "ZAjjQW8u3N5FcejezymxKuMy0Q9gHgQGoXDAUG/vvT8=",
-        "originContent": "- 🎨 **视觉效果改进**：按钮添加光效动画，增强用户体验",
-        "translatedContent": "- 🎨 **Visual Effects Improvement**: Buttons added glow animation to enhance user experience  "
+        "rowsha": "m4S4O6o2Ccs2EAXoC7xqoFdeYEhoOUPn4zVUsVbJ+wc=",
+        "originContent": "- 🧠 支持OpenAI的文本生成",
+        "translatedContent": "- 🧠 Supports OpenAI text generation"
       },
       {
         "row": 13,
-        "rowsha": "kqP/KIYh1x2AF5uq9WmMO8K1isTqcRA0iJC4ICW/y+o=",
-        "originContent": "- 📱 **响应式布局优化**：改进在不同屏幕尺寸下的显示效果",
-        "translatedContent": "- 📱 **Responsive Layout Optimization**: Improved display on different screen sizes  "
+        "rowsha": "G3h+nOl5dj3ge5dW2Ikhy4Lu3hdp38amdBH9piHJmDQ=",
+        "originContent": "- 🌍 支持多语言：中文、英文、西班牙语",
+        "translatedContent": "- 🌍 Supports multiple languages: Chinese, English, Spanish"
       },
       {
         "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "vOCDpHRKWqyaTS1fusAEusMh/Z9rAu0LZrk5zg2Y6KQ=",
+        "originContent": "- 🔐 浏览器指纹识别，更安全的用户体验",
+        "translatedContent": "- 🔐 Browser fingerprint recognition for a more secure user experience"
       },
       {
         "row": 15,
-        "rowsha": "jBg6r4DeKbDn0q1Pd2d3miEKPD340c9pChCTxhZIxbw=",
-        "originContent": "这些改进大大提升了使用效率，特别是解决了传统设计中用户需要滚动到页面底部才能点击\"开始转换\"按钮的问题。现在，无论用户在页面的哪个位置，都可以轻松启动转换过程。",
-        "translatedContent": "These improvements greatly enhance efficiency, especially solving the traditional design issue where users need to scroll to the bottom of the page to click the \"Start Conversion\" button. Now, users can easily start the conversion process from any position on the page.  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "aOaPSHE9UA7GRgvabKBmU0dbMViEnOJPysHmPfGXkoo=",
+        "originContent": "## 最新更新",
+        "translatedContent": "## Latest Updates"
       },
       {
         "row": 17,
-        "rowsha": "2Lt4a1b6WOQNnoFkzqYlcJvn2rKZZUChIT9zeDUAX1E=",
-        "originContent": "## 开发计划",
-        "translatedContent": "## Development Plan  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "ztOuawighAQf0gRR8FBoaMgKKek+58ZtsCJmj+QQNJY=",
+        "originContent": "### 界面重构与功能增强 (v2.2.0)",
+        "translatedContent": "### UI Refactoring & Feature Enhancement (v2.2.0)"
       },
       {
         "row": 19,
-        "rowsha": "hK1SM1/dvbaa2Tjk0GMUTKACxt+H82/p4BmzJNwzf6o=",
-        "originContent": "> **📢 重要通知：桌面版本正在开发中！**",
-        "translatedContent": "> **📢 Important Notice: Desktop version is under development!**  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 20,
-        "rowsha": "NIFR1hjuBnMbqzKvNR/ttgVgpHCt8gGDlSWIqLINx7M=",
-        "originContent": "> 我们正在开发跨平台桌面应用版本，将支持更多功能和更好的用户体验。",
-        "translatedContent": "> We are developing a cross-platform desktop application version, which will support more features and better user experience.  "
+        "rowsha": "CUSwFM/t1H4szz9hah97F5IWz47fBO/FlZqQu0ko/oE=",
+        "originContent": "- 📱 **UI重构**：固定顶部导航，文本框采用吸顶模式，优化移动端适配",
+        "translatedContent": "- 📱 **UI Refactoring**: Fixed top navigation, sticky text box, optimized for mobile adaptation"
       },
       {
         "row": 21,
-        "rowsha": "tiPPqDzC27sfbdQGOJEU5bKTO8yomZ83RbNOssfFGTc=",
-        "originContent": "> 敬请期待后续更新，请关注项目动态获取最新信息。",
-        "translatedContent": "> Stay tuned for future updates and follow project announcements for the latest information.  "
+        "rowsha": "KW2jFSpq0GSPdF4J5T+xkn9eQ2jOA2DncJNGR/JrVBQ=",
+        "originContent": "- 🔤 **SSML增强**：新增SSML格式化功能，自动根据设置变化更新SSML",
+        "translatedContent": "- 🔤 **SSML Enhancement**: Added SSML formatting, automatically updates SSML based on settings changes"
       },
       {
         "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "Pcd5S89srFw3R93/TDjdIpKx6K2OpVMmubN0m6BjKg4=",
+        "originContent": "- 🎵 **播放器优化**：集成播放器到主界面，改进音频播放和下载体验",
+        "translatedContent": "- 🎵 **Player Optimization**: Integrated player into main interface, improved audio playback and download experience"
       },
       {
         "row": 23,
-        "rowsha": "N2Zf5IM5tBDMC3F8L/jU1lr90aB/iqj31z3WwRXmQTU=",
-        "originContent": "## 快速开始",
-        "translatedContent": "## Quick Start  "
+        "rowsha": "oTgaf7y9DJ/4KJSLFd/xH1w3vWM3GKHAJta4U9xOnac=",
+        "originContent": "- 🎞️ **字幕功能**：新增在线生成字幕功能，提升内容创作效率",
+        "translatedContent": "- 🎞️ **Subtitle Feature**: Added online subtitle generation to boost content creation efficiency"
       },
       {
         "row": 24,
+        "rowsha": "EUcoAO4fa45W30Sw5cHRDKJgsg/e4tpfhKU2UCb026M=",
+        "originContent": "- 🌓 **主题优化**：改善暗黑模式下的界面表现，增加全局主题切换",
+        "translatedContent": "- 🌓 **Theme Optimization**: Improved dark mode interface, added global theme switching"
+      },
+      {
+        "row": 25,
+        "rowsha": "NoUqJ+77ymn+34A+ZVsO3Z9xgc0liAfJaLIVYXnEJUc=",
+        "originContent": "- 🛠️ **高级设置**：优化免费TTS服务界面，新增语速和音调配置",
+        "translatedContent": "- 🛠️ **Advanced Settings**: Optimized free TTS service interface, added speech rate and pitch configuration"
+      },
+      {
+        "row": 26,
+        "rowsha": "lDPcPU0xDwdMPXV6P1Zjms45wvnrLQ/F1d1icGuSWqc=",
+        "originContent": "- 💡 **交互体验**：添加工具提示功能，增强用户操作指引",
+        "translatedContent": "- 💡 **Interaction Experience**: Added tooltip function to enhance user guidance"
+      },
+      {
+        "row": 27,
+        "rowsha": "Euv2cwMtFOXfw+9KlFkLxGBXVWh1FkGsNRFP93yK8bo=",
+        "originContent": "- 🔄 **依赖升级**：Vue更新至3.5.11，ElementPlus更新至2.9.9",
+        "translatedContent": "- 🔄 **Dependency Upgrades**: Vue updated to 3.5.11, ElementPlus updated to 2.9.9"
+      },
+      {
+        "row": 28,
+        "rowsha": "3vYb6Q6GYQu39r1/3fFwjlbCSJq5x1O14/C/8RlV8cw=",
+        "originContent": "- 🌐 **链接更新**：更新GitHub仓库地址",
+        "translatedContent": "- 🌐 **Link Update**: Updated GitHub repository address"
+      },
+      {
+        "row": 29,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 25,
-        "rowsha": "PhE/57Zm9QzpaWFTd+6SffBk0gtddYu1qzPWx6jsuVw=",
-        "originContent": "### 开发环境",
-        "translatedContent": "### Development Environment  "
+        "row": 30,
+        "rowsha": "BqQXpHN6wxEPuh9veSDOyE+NZTpOBDsizhYJNiy6sD8=",
+        "originContent": "### 免费TTS服务集成 (v2.1.0)",
+        "translatedContent": "### Free TTS Service Integration (v2.1.0)"
       },
       {
-        "row": 26,
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "aecSVkLV3dHL+H6W/mSNzKHYZpyH7aVgW5xa+0OVjak=",
+        "originContent": "- 🆕 **免费TTS功能**：无需API密钥，每日都有免费额度",
+        "translatedContent": "- 🆕 **Free TTS Feature**: No API key required, daily free quota"
+      },
+      {
+        "row": 33,
+        "rowsha": "Of/sRkFRPhxOBLzkva5ioQry0IVen4nh2u2HnFx0ovk=",
+        "originContent": "- 👤 **浏览器指纹识别**：保证每个用户公平使用免费额度",
+        "translatedContent": "- 👤 **Browser Fingerprint Recognition**: Ensures fair usage of free quota for each user"
+      },
+      {
+        "row": 34,
+        "rowsha": "GQYXIDdlHsQ6HOY5C+YSoY5KGG5R0qOzlVSStq646Lk=",
+        "originContent": "- 🔄 **额度状态显示**：实时显示剩余免费字符数和重置时间",
+        "translatedContent": "- 🔄 **Quota Status Display**: Real-time display of remaining free characters and reset time"
+      },
+      {
+        "row": 35,
+        "rowsha": "OpIsexByqqcNBuFdzuh3zNigO9qyVp+qdW/WCguMIGc=",
+        "originContent": "- 🌐 **服务器状态检测**：自动检测免费TTS服务器连接状态",
+        "translatedContent": "- 🌐 **Server Status Detection**: Automatically detects free TTS server connection status"
+      },
+      {
+        "row": 36,
+        "rowsha": "pXj/dtQpoSVoK5s/N38xVQyUbTqZvT7eEfJsmm2n1qQ=",
+        "originContent": "- 🛡️ **增强错误处理**：更友好的错误提示和状态反馈",
+        "translatedContent": "- 🛡️ **Enhanced Error Handling**: More user-friendly error messages and status feedback"
+      },
+      {
+        "row": 37,
+        "rowsha": "WtAV94+0AQIuXyScJ1meBdy8npISY5eHIUXjgSX8hDo=",
+        "originContent": "- 🎛️ **免费TTS设置面板**：方便用户配置和查看额度信息",
+        "translatedContent": "- 🎛️ **Free TTS Settings Panel**: Convenient for users to configure and view quota information"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "HIiMyhFynOSgCI7cLIjVz0arIxGHdKzNN5+tFFPztro=",
+        "originContent": "### 界面与用户体验优化 (v2.0.0)",
+        "translatedContent": "### UI and User Experience Optimization (v2.0.0)"
+      },
+      {
+        "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -423,6 +507,127 @@
   },
   {
     "Id": 3,
+    "Content": "- ✨ **设置区域优化**：设置面板支持折叠，点击\"语音设置\"标题即可展开/折叠\n- 🔘 **智能按钮位置**：\"开始转换\"按钮移至顶部，无需滚动即可点击\n- 💬 **状态提示增强**：添加直观的转换状态提示文字\n- 🎨 **视觉效果改进**：按钮添加光效动画，增强用户体验\n- 📱 **响应式布局优化**：改进在不同屏幕尺寸下的显示效果\n\n这些改进大大提升了使用效率，特别是解决了传统设计中用户需要滚动到页面底部才能点击\"开始转换\"按钮的问题。现在，无论用户在页面的哪个位置，都可以轻松启动转换过程。\n\n## 开发计划\n\n> **📢 重要通知：桌面版本正在开发中！**\n> 我们正在开发跨平台桌面应用版本，将支持更多功能和更好的用户体验。\n> 敬请期待后续更新，请关注项目动态获取最新信息。\n\n## 快速开始\n\n### 开发环境\n",
+    "ContentSha": "YFiRgLoU5AwHyxfDk2e09Ftop3CzsTyuVyUHQYqt7D0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- ✨ **Settings Area Optimization**: The settings panel now supports collapsing; click the \"Voice Settings\" title to expand/collapse.\n- 🔘 **Smart Button Placement**: The \"Start Conversion\" button is moved to the top, so you can click it without scrolling.\n- 💬 **Enhanced Status Prompts**: Intuitive conversion status prompt text has been added.\n- 🎨 **Visual Improvements**: Button now features lighting animations for a better user experience.\n- 📱 **Responsive Layout Optimization**: Improved display effects across different screen sizes.\n\nThese improvements greatly enhance usability, especially addressing the issue in traditional designs where users had to scroll to the bottom to click the \"Start Conversion\" button. Now, users can easily initiate the conversion process from anywhere on the page.\n\n## Development Plan\n\n> **📢 Important Notice: Desktop version under development!**\n> We are developing a cross-platform desktop app version, which will support more features and provide a better user experience.\n> Stay tuned for further updates, and follow the project for the latest information.\n\n## Quick Start\n\n### Development Environment\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "c+Vst4wphJ+pfNbW4YolKYZTO6D7SUjbSGFrshkphTY=",
+        "originContent": "- ✨ **设置区域优化**：设置面板支持折叠，点击\"语音设置\"标题即可展开/折叠",
+        "translatedContent": "- ✨ **Settings Area Optimization**: The settings panel now supports collapsing; click the \"Voice Settings\" title to expand/collapse."
+      },
+      {
+        "row": 2,
+        "rowsha": "R7cEeHIariTWwTmT3MAK7Z+CeIWjnRYG68g2tGUCy0M=",
+        "originContent": "- 🔘 **智能按钮位置**：\"开始转换\"按钮移至顶部，无需滚动即可点击",
+        "translatedContent": "- 🔘 **Smart Button Placement**: The \"Start Conversion\" button is moved to the top, so you can click it without scrolling."
+      },
+      {
+        "row": 3,
+        "rowsha": "dYsmMDrFstCCe7Y/40UPLDp26Hh+SZuEG2agHARYb98=",
+        "originContent": "- 💬 **状态提示增强**：添加直观的转换状态提示文字",
+        "translatedContent": "- 💬 **Enhanced Status Prompts**: Intuitive conversion status prompt text has been added."
+      },
+      {
+        "row": 4,
+        "rowsha": "ZAjjQW8u3N5FcejezymxKuMy0Q9gHgQGoXDAUG/vvT8=",
+        "originContent": "- 🎨 **视觉效果改进**：按钮添加光效动画，增强用户体验",
+        "translatedContent": "- 🎨 **Visual Improvements**: Button now features lighting animations for a better user experience."
+      },
+      {
+        "row": 5,
+        "rowsha": "kqP/KIYh1x2AF5uq9WmMO8K1isTqcRA0iJC4ICW/y+o=",
+        "originContent": "- 📱 **响应式布局优化**：改进在不同屏幕尺寸下的显示效果",
+        "translatedContent": "- 📱 **Responsive Layout Optimization**: Improved display effects across different screen sizes."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "jBg6r4DeKbDn0q1Pd2d3miEKPD340c9pChCTxhZIxbw=",
+        "originContent": "这些改进大大提升了使用效率，特别是解决了传统设计中用户需要滚动到页面底部才能点击\"开始转换\"按钮的问题。现在，无论用户在页面的哪个位置，都可以轻松启动转换过程。",
+        "translatedContent": "These improvements greatly enhance usability, especially addressing the issue in traditional designs where users had to scroll to the bottom to click the \"Start Conversion\" button. Now, users can easily initiate the conversion process from anywhere on the page."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "2Lt4a1b6WOQNnoFkzqYlcJvn2rKZZUChIT9zeDUAX1E=",
+        "originContent": "## 开发计划",
+        "translatedContent": "## Development Plan"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "hK1SM1/dvbaa2Tjk0GMUTKACxt+H82/p4BmzJNwzf6o=",
+        "originContent": "> **📢 重要通知：桌面版本正在开发中！**",
+        "translatedContent": "> **📢 Important Notice: Desktop version under development!**"
+      },
+      {
+        "row": 12,
+        "rowsha": "NIFR1hjuBnMbqzKvNR/ttgVgpHCt8gGDlSWIqLINx7M=",
+        "originContent": "> 我们正在开发跨平台桌面应用版本，将支持更多功能和更好的用户体验。",
+        "translatedContent": "> We are developing a cross-platform desktop app version, which will support more features and provide a better user experience."
+      },
+      {
+        "row": 13,
+        "rowsha": "tiPPqDzC27sfbdQGOJEU5bKTO8yomZ83RbNOssfFGTc=",
+        "originContent": "> 敬请期待后续更新，请关注项目动态获取最新信息。",
+        "translatedContent": "> Stay tuned for further updates, and follow the project for the latest information."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "N2Zf5IM5tBDMC3F8L/jU1lr90aB/iqj31z3WwRXmQTU=",
+        "originContent": "## 快速开始",
+        "translatedContent": "## Quick Start"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "PhE/57Zm9QzpaWFTd+6SffBk0gtddYu1qzPWx6jsuVw=",
+        "originContent": "### 开发环境",
+        "translatedContent": "### Development Environment"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
     "Content": "```bash\n# 克隆仓库\ngit clone https://github.com/henryhu55/tts-web-vue.git\n\n# 安装依赖\nyarn install\n\n# 启动开发服务器\nyarn dev\n```",
     "ContentSha": "Cm02aRaojIDK6jzCApMwM34g4qa8erWqVkj9oJ0FZpE=",
     "SectionType": "",
@@ -430,72 +635,11 @@
     "EndLine": 0,
     "Translation": "```bash\n# 克隆仓库\ngit clone https://github.com/henryhu55/tts-web-vue.git\n\n# 安装依赖\nyarn install\n\n# 启动开发服务器\nyarn dev\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "jD16B1CQRHbIz1VTuNY+3Ik42euvkT9HVcCZZuKVlrs=",
-        "originContent": "# 克隆仓库",
-        "translatedContent": "# 克隆仓库"
-      },
-      {
-        "row": 3,
-        "rowsha": "D+Kppk5nyHReNfw+tl+JTvhcm8elxfMMSLTZHJ4gJ9o=",
-        "originContent": "git clone https://github.com/henryhu55/tts-web-vue.git",
-        "translatedContent": "git clone https://github.com/henryhu55/tts-web-vue.git"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "NHZdbv0OB3vM4rySzgbypEPLaxDc1LQm++h3gW781es=",
-        "originContent": "# 安装依赖",
-        "translatedContent": "# 安装依赖"
-      },
-      {
-        "row": 6,
-        "rowsha": "UWnszpf2bQa9Un4es5vKU4mcLg+R5FPsdH2U31RWLJg=",
-        "originContent": "yarn install",
-        "translatedContent": "yarn install"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "1HFHNAbzyv5cRAalqb4XBWGD08Vzpi+0OHcQjnpAAKE=",
-        "originContent": "# 启动开发服务器",
-        "translatedContent": "# 启动开发服务器"
-      },
-      {
-        "row": 9,
-        "rowsha": "lM0LT8xyC/N1nmR6dGIgchPO+o/ETNiEEme3ay07B+4=",
-        "originContent": "yarn dev",
-        "translatedContent": "yarn dev"
-      },
-      {
-        "row": 10,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "\n### 生产构建\n",
     "ContentSha": "Y5uLMoGn/D7suLroaS6rfunZL1z6B2GiH+u5yLreBUI=",
     "SectionType": "",
@@ -503,30 +647,11 @@
     "EndLine": 0,
     "Translation": "\n### Production Build\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "+0Uw42KIeMKabXporVDUefN+RFLWUm5J9/F2fr030qg=",
-        "originContent": "### 生产构建",
-        "translatedContent": "### Production Build"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "```bash\n# 构建生产版本\nyarn build\n\n# 预览生产版本\nyarn preview\n```",
     "ContentSha": "Ogx/bNxc+HxW9glHYhI9v1/cSjo27v96vFXgtl3P3Dg=",
     "SectionType": "",
@@ -534,54 +659,11 @@
     "EndLine": 0,
     "Translation": "```bash\n# 构建生产版本\nyarn build\n\n# 预览生产版本\nyarn preview\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "sxTXkUv8fr05JJxCP9PTKblAL07lVTdCO9iOw6ZVLcY=",
-        "originContent": "# 构建生产版本",
-        "translatedContent": "# 构建生产版本"
-      },
-      {
-        "row": 3,
-        "rowsha": "787zJVQYGkNUE+RPKyP88+XggDnJlJtD9r2Ee1z+U98=",
-        "originContent": "yarn build",
-        "translatedContent": "yarn build"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "+jxdHH5RDMxo2IyW6Hp1Cq1aYO+SXIt5nZ+SS8pFV68=",
-        "originContent": "# 预览生产版本",
-        "translatedContent": "# 预览生产版本"
-      },
-      {
-        "row": 6,
-        "rowsha": "ab74v1/VFaI+LILdA+rOiLHNUbXxpRNQACDB9iw1XWc=",
-        "originContent": "yarn preview",
-        "translatedContent": "yarn preview"
-      },
-      {
-        "row": 7,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Content": "\n## 部署\n\n构建完成后，将 `dist`目录的内容部署到任何静态Web服务器上即可。\n\n## API配置\n\n本Web版本目前支持免费TTS服务、TTS88 API和OpenAI API:\n\n### 免费TTS服务配置\n\n1. 在设置页面中找到\"免费TTS服务\"选项\n2. 系统默认配置了免费TTS服务器地址\n3. 您可以查看当日剩余免费额度和重置时间\n4. 每个浏览器客户端拥有独立的免费额度\n\n### TTS88 API配置\n\n1. 在设置页面中找到\"第三方API URL\"设置选项\n2. 输入您的TTS88 API地址\n3. 如果有API密钥，请输入到\"TTS88 API密钥\"字段\n\n### OpenAI API配置\n\n1. 在设置页面中找到OpenAI设置选项\n2. 输入您的OpenAI API密钥\n3. 选择要使用的模型（默认为gpt-3.5-turbo）\n4. 如果使用自托管或代理，可以设置自定义的API Base URL\n\n## 注意事项\n\n- 数据仅存储在浏览器本地存储中，刷新或清除缓存不会影响到其他用户\n- 转换后的音频文件可以直接在浏览器中播放或下载到本地\n- 免费TTS服务每日有使用额度限制，超出需等待次日重置\n\n## 技术栈\n\n- Vue 3.2\n- Pinia\n- ElementPlus",
     "ContentSha": "pi3dt9Z7HQOvT5QWyBZ8IUkLswaCKKa9zW7F86asEv4=",
     "SectionType": "",
@@ -589,252 +671,11 @@
     "EndLine": 0,
     "Translation": "\n## Deployment\n\nAfter building, deploy the contents of the `dist` directory to any static web server.\n\n## API Configuration\n\nThis web version currently supports free TTS service, TTS88 API, and OpenAI API:\n\n### Free TTS Service Configuration\n\n1. Find the \"Free TTS Service\" option on the settings page  \n2. The system defaults to a configured free TTS server address  \n3. You can check the remaining free quota and reset time for the day  \n4. Each browser client has an independent free quota  \n\n### TTS88 API Configuration\n\n1. Find the \"Third-Party API URL\" setting option on the settings page  \n2. Enter your TTS88 API address  \n3. If you have an API key, enter it in the \"TTS88 API Key\" field  \n\n### OpenAI API Configuration\n\n1. Find the OpenAI settings option on the settings page  \n2. Enter your OpenAI API key  \n3. Select the model to use (default is gpt-3.5-turbo)  \n4. If using self-hosting or proxy, you can set a custom API Base URL  \n\n## Notes\n\n- Data is only stored in the browser's local storage; refreshing or clearing the cache does not affect other users  \n- Converted audio files can be played directly in the browser or downloaded locally  \n- The free TTS service has a daily usage quota limit; exceeding it requires waiting for the next day’s reset  \n\n## Technology Stack\n\n- Vue 3.2  \n- Pinia  \n- ElementPlus",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "2Eqr8/qzCciMsekFATGwvbKuF2+c2ZpRG7KGfqzYgdw=",
-        "originContent": "## 部署",
-        "translatedContent": "## Deployment"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "5Y6LrGzO8qtBksC78fPB/dKnNiB/gzKll5AG0PMIOW4=",
-        "originContent": "构建完成后，将 `dist`目录的内容部署到任何静态Web服务器上即可。",
-        "translatedContent": "After building, deploy the contents of the `dist` directory to any static web server."
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "uaBlgVw3CXIU0BGithypw3vXF54i5w6dhm5NdFb0xnQ=",
-        "originContent": "## API配置",
-        "translatedContent": "## API Configuration"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "eFEzvsksgoSjqIe8aDnx5Q6UDvdDJZTcuHN9b1zTge4=",
-        "originContent": "本Web版本目前支持免费TTS服务、TTS88 API和OpenAI API:",
-        "translatedContent": "This web version currently supports free TTS service, TTS88 API, and OpenAI API:"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "T9aU3nIzUi95MNjlvj1BPc3D432bgVn6OTvFfKAUxRs=",
-        "originContent": "### 免费TTS服务配置",
-        "translatedContent": "### Free TTS Service Configuration"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "/CbsUmsXok4cgrBA97LlFnkK/ebxKT4+/GyjFDTZuQ4=",
-        "originContent": "1. 在设置页面中找到\"免费TTS服务\"选项",
-        "translatedContent": "1. Find the \"Free TTS Service\" option on the settings page  "
-      },
-      {
-        "row": 13,
-        "rowsha": "6gKtM2wmHbcH6ZwToDMvOOI/RbzKQyez4vnVZ+G8/dw=",
-        "originContent": "2. 系统默认配置了免费TTS服务器地址",
-        "translatedContent": "2. The system defaults to a configured free TTS server address  "
-      },
-      {
-        "row": 14,
-        "rowsha": "9F/BctG5jaYDuh+A83kKAnBQtfkmPAffcGqyaK0SRlg=",
-        "originContent": "3. 您可以查看当日剩余免费额度和重置时间",
-        "translatedContent": "3. You can check the remaining free quota and reset time for the day  "
-      },
-      {
-        "row": 15,
-        "rowsha": "PVct4o3wbuU0uGsSDqKJQvpNCuxIt3ofTVtYHqy6L/U=",
-        "originContent": "4. 每个浏览器客户端拥有独立的免费额度",
-        "translatedContent": "4. Each browser client has an independent free quota  "
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "3mm2Mg3RLHbVQWYrqi7+j7BNUCV95NwSgoqV3RPlMwE=",
-        "originContent": "### TTS88 API配置",
-        "translatedContent": "### TTS88 API Configuration"
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "BPnxBTgIQYxpbYmGAKtNN/UgD10FpLdxJTqFaSfhSd0=",
-        "originContent": "1. 在设置页面中找到\"第三方API URL\"设置选项",
-        "translatedContent": "1. Find the \"Third-Party API URL\" setting option on the settings page  "
-      },
-      {
-        "row": 20,
-        "rowsha": "Pat2QDdyPyeXKlWhRqBqXG6jSSKYBeMeDz1s0f2ghTk=",
-        "originContent": "2. 输入您的TTS88 API地址",
-        "translatedContent": "2. Enter your TTS88 API address  "
-      },
-      {
-        "row": 21,
-        "rowsha": "U5fniG9lV5iMng9ZFPSjnS5pu4JXCVKjFicqVwAzf2I=",
-        "originContent": "3. 如果有API密钥，请输入到\"TTS88 API密钥\"字段",
-        "translatedContent": "3. If you have an API key, enter it in the \"TTS88 API Key\" field  "
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "DePfqdt3+60zh0AVNX748ETZomdCVA2C+dEi4ffUfzY=",
-        "originContent": "### OpenAI API配置",
-        "translatedContent": "### OpenAI API Configuration"
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 25,
-        "rowsha": "4SSdgfgxP14XWesKXY4I0HzCpvn+/3k4RUDivtefvbU=",
-        "originContent": "1. 在设置页面中找到OpenAI设置选项",
-        "translatedContent": "1. Find the OpenAI settings option on the settings page  "
-      },
-      {
-        "row": 26,
-        "rowsha": "UvqTI4MC10hVuYWRU6MxLGpwjpLXTCvFl3CF+qrLfYg=",
-        "originContent": "2. 输入您的OpenAI API密钥",
-        "translatedContent": "2. Enter your OpenAI API key  "
-      },
-      {
-        "row": 27,
-        "rowsha": "YnDBOjuGaZl2vjVX6w0FHrvR1NfvzZMbNbIszmJ0ekE=",
-        "originContent": "3. 选择要使用的模型（默认为gpt-3.5-turbo）",
-        "translatedContent": "3. Select the model to use (default is gpt-3.5-turbo)  "
-      },
-      {
-        "row": 28,
-        "rowsha": "Pn2Lu3YGjq9ZAfDnB31TNTqpWrpgY6te0hd21936qzc=",
-        "originContent": "4. 如果使用自托管或代理，可以设置自定义的API Base URL",
-        "translatedContent": "4. If using self-hosting or proxy, you can set a custom API Base URL  "
-      },
-      {
-        "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 30,
-        "rowsha": "qqM9x68fli7rmqs2E7FUA7w7vxRW4wDZzEckY8TxYu8=",
-        "originContent": "## 注意事项",
-        "translatedContent": "## Notes"
-      },
-      {
-        "row": 31,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 32,
-        "rowsha": "/7/AZwmeo9g0BKBsNwRtZx+7jPNyW6nMozqInVZ+3nA=",
-        "originContent": "- 数据仅存储在浏览器本地存储中，刷新或清除缓存不会影响到其他用户",
-        "translatedContent": "- Data is only stored in the browser's local storage; refreshing or clearing the cache does not affect other users  "
-      },
-      {
-        "row": 33,
-        "rowsha": "LeGUF7AAiuzdnXXE86/hEbx8h/78xlhYpkX8r1jcoJc=",
-        "originContent": "- 转换后的音频文件可以直接在浏览器中播放或下载到本地",
-        "translatedContent": "- Converted audio files can be played directly in the browser or downloaded locally  "
-      },
-      {
-        "row": 34,
-        "rowsha": "MgGv7M58+H2vSZ6EIqbx7ROU+DHMzvnZ9AYGcwSkjnU=",
-        "originContent": "- 免费TTS服务每日有使用额度限制，超出需等待次日重置",
-        "translatedContent": "- The free TTS service has a daily usage quota limit; exceeding it requires waiting for the next day’s reset  "
-      },
-      {
-        "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 36,
-        "rowsha": "LtaCEvD8FWJfPXsJMaPE5dt0QVZ/++OpGW5pGNG3LYY=",
-        "originContent": "## 技术栈",
-        "translatedContent": "## Technology Stack"
-      },
-      {
-        "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 38,
-        "rowsha": "4Z69n0rF5EMed9INi5XkvGm35wamhHTFf5zGlhkNl6Y=",
-        "originContent": "- Vue 3.2",
-        "translatedContent": "- Vue 3.2  "
-      },
-      {
-        "row": 39,
-        "rowsha": "aW0v+2A8fZLEgcqQU/rjVhHtyl4DqAReSbUG0rFYWWw=",
-        "originContent": "- Pinia",
-        "translatedContent": "- Pinia  "
-      },
-      {
-        "row": 40,
-        "rowsha": "x0VJ8nHavDgN+r+DHaoV9NUjApder9uNcoEEqAAMzt0=",
-        "originContent": "- ElementPlus",
-        "translatedContent": "- ElementPlus"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Content": "- Vite\n\n## 许可证\n\nMIT License\n\n## 开始使用\n\n- [项目简介](https://docs.tts88.top//guide/intro.html)\n- [安装运行](https://docs.tts88.top//guide/install.html)\n- [功能介绍](https://docs.tts88.top/guide/features.html)\n- [常见问题](https://docs.tts88.top//guide/qa.html)\n- [更新日志](https://docs.tts88.top//guide/update.html)\n\n## 注意\n\n该软件以及代码仅为个人学习测试使用，请在下载后24小时内删除，不得用于商业用途，否则后果自负。任何违规使用造成的法律后果与本人无关。该软件也永远不会收费，如果您使用该软件前支付了额外费用，或付费获得源码或成品软件，那么你一定被骗了！\n\n**搬运请注明出处。禁止诱导他人以加群、私信等方式获取软件的仓库、下载地址和安装包。**\n\n### 意见问题反馈，版本发布企鹅群：\n\n`【tts-web-vue问题反馈群1】279895662`\n",
     "ContentSha": "LIgk5scE74olj4Z/DWcrsOsaSgrArLTR9Hjspk0cfOM=",
     "SectionType": "",
@@ -842,152 +683,7 @@
     "EndLine": 0,
     "Translation": "- Vite\n\n## License\n\nMIT License\n\n## Getting Started\n\n- [Project Introduction](https://docs.tts88.top//guide/intro.html)\n- [Installation and Running](https://docs.tts88.top//guide/install.html)\n- [Feature Introduction](https://docs.tts88.top/guide/features.html)\n- [FAQ](https://docs.tts88.top//guide/qa.html)\n- [Changelog](https://docs.tts88.top//guide/update.html)\n\n## Notice\n\nThis software and code are for personal learning and testing purposes only. Please delete it within 24 hours after downloading and do not use it for commercial purposes; otherwise, the consequences are at your own risk. I am not responsible for any legal consequences caused by illegal use. This software will never charge any fees. If you paid any extra fees before using this software, or paid for the source code or finished software, then you have definitely been scammed!\n\n**Please indicate the source when redistributing. It is forbidden to induce others to obtain the software repository, download address, and installation package via joining groups, private messages, etc.**\n\n### Feedback and version release QQ group:\n\n`【tts-web-vue Feedback Group 1】279895662`\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "qtmd5ElVDdOM2nAl67Nkv0PRZXs3cWVc9WttNUV3QME=",
-        "originContent": "- Vite",
-        "translatedContent": "- Vite"
-      },
-      {
-        "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "l9mHJhM0bkQldVQ8sqfWeieeIFtAwhD/P/KiVcLUJww=",
-        "originContent": "## 许可证",
-        "translatedContent": "## License"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
-        "originContent": "MIT License",
-        "translatedContent": "MIT License"
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "CKStUc8CPZjePv0uU3NdguE+B25Dww3TVYnCCsqTQno=",
-        "originContent": "## 开始使用",
-        "translatedContent": "## Getting Started"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "NHKxOIY/M9CdJ8WD3VU9LYOfrub7oBsqsCzPEFS0VdI=",
-        "originContent": "- [项目简介](https://docs.tts88.top//guide/intro.html)",
-        "translatedContent": "- [Project Introduction](https://docs.tts88.top//guide/intro.html)"
-      },
-      {
-        "row": 10,
-        "rowsha": "9ePrDHMfYG9UzrmZI4ShcQQh1XiVBqRk8wC6rPBUcJs=",
-        "originContent": "- [安装运行](https://docs.tts88.top//guide/install.html)",
-        "translatedContent": "- [Installation and Running](https://docs.tts88.top//guide/install.html)"
-      },
-      {
-        "row": 11,
-        "rowsha": "oP9XlX/xmMVCOy5WhYvcSnDfxey69rzXVKk4Jw+UXuQ=",
-        "originContent": "- [功能介绍](https://docs.tts88.top/guide/features.html)",
-        "translatedContent": "- [Feature Introduction](https://docs.tts88.top/guide/features.html)"
-      },
-      {
-        "row": 12,
-        "rowsha": "byHnQ7CTS1JaP3jIAbXbIJDWJxpPl24yeA4bn+TvjRQ=",
-        "originContent": "- [常见问题](https://docs.tts88.top//guide/qa.html)",
-        "translatedContent": "- [FAQ](https://docs.tts88.top//guide/qa.html)"
-      },
-      {
-        "row": 13,
-        "rowsha": "JK5e2f5s6jbhNYOShNAgQDwd+eXq5Lnj9j6wn/zKty0=",
-        "originContent": "- [更新日志](https://docs.tts88.top//guide/update.html)",
-        "translatedContent": "- [Changelog](https://docs.tts88.top//guide/update.html)"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "vfEA+evAsn0cDmoFNWJXLk8GbCk1/HxsgCi95zBpjEc=",
-        "originContent": "## 注意",
-        "translatedContent": "## Notice"
-      },
-      {
-        "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "rRUg8jWKoNmWR9cHM7PjvUp69GrGd0nmdnH75Re+7AM=",
-        "originContent": "该软件以及代码仅为个人学习测试使用，请在下载后24小时内删除，不得用于商业用途，否则后果自负。任何违规使用造成的法律后果与本人无关。该软件也永远不会收费，如果您使用该软件前支付了额外费用，或付费获得源码或成品软件，那么你一定被骗了！",
-        "translatedContent": "This software and code are for personal learning and testing purposes only. Please delete it within 24 hours after downloading and do not use it for commercial purposes; otherwise, the consequences are at your own risk. I am not responsible for any legal consequences caused by illegal use. This software will never charge any fees. If you paid any extra fees before using this software, or paid for the source code or finished software, then you have definitely been scammed!"
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "qoIOAu63JJJps83ExoBarCGT+kAAvjRqptMCibKZW04=",
-        "originContent": "**搬运请注明出处。禁止诱导他人以加群、私信等方式获取软件的仓库、下载地址和安装包。**",
-        "translatedContent": "**Please indicate the source when redistributing. It is forbidden to induce others to obtain the software repository, download address, and installation package via joining groups, private messages, etc.**"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "LU5IxPRIG+BidEvApfltMNKwq7wYWZqRYu/8cy3S2AA=",
-        "originContent": "### 意见问题反馈，版本发布企鹅群：",
-        "translatedContent": "### Feedback and version release QQ group:"
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "4UbPImYEJVm5pbORALOcUkwRNo4d+S19uGjpGc2AQhg=",
-        "originContent": "`【tts-web-vue问题反馈群1】279895662`",
-        "translatedContent": "`【tts-web-vue Feedback Group 1】279895662`"
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

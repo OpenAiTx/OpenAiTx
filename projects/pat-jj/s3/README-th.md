@@ -195,21 +195,16 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 bash scripts/evaluation/run.sh
 ```
 
-## ถาม-ตอบ
-### ข้อมูลที่ปรับแต่งเอง?
-หากคุณต้องการทดสอบ s3 กับคลังข้อมูล/ชุดข้อมูลของคุณเอง คุณสามารถดูได้จากคอมมิทนี้เพื่อดูว่าต้องทำอะไรบ้างในการสร้าง pipeline ของตัวเอง: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+## คำถามที่พบบ่อย
+### ข้อมูลที่กำหนดเอง?
+หากคุณต้องการทดสอบ s3 กับคลังข้อมูล/ชุดข้อมูลของคุณเอง คุณสามารถดูรายละเอียดจาก commit นี้เพื่อดูว่าคุณต้องทำอะไรบ้างในการสร้าง pipeline ของคุณเอง: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
 ### การทำซ้ำผลลัพธ์?
-มีนักพัฒนาหลายคนที่สามารถทำซ้ำผลลัพธ์ของเราได้สำเร็จแล้ว หากคุณมีคำถามหรือพบปัญหา สามารถ [เปิด issue](https://github.com/pat-jj/s3/issues) ได้เลย — เรายินดีให้คำแนะนำแบบลงมือปฏิบัติ (ดู [ตัวอย่างนี้](https://github.com/pat-jj/s3/issues/20)).
+มีนักพัฒนาหลายคนที่สามารถทำซ้ำผลลัพธ์ของเราได้สำเร็จแล้ว หากคุณมีคำถามหรือพบปัญหาใด ๆ สามารถ [เปิด issue](https://github.com/pat-jj/s3/issues) ได้ตามสะดวก — เรายินดีให้คำแนะนำแบบลงมือปฏิบัติ (ดูตัวอย่างได้ที่ [this example](https://github.com/pat-jj/s3/issues/20))
 
-แม้ว่าการทำซ้ำโมเดลด้วยตัวเองจะง่าย — และเรา **แนะนำให้ฝึกจากศูนย์** เพราะการประเมินผลมักใช้เวลามากกว่าการฝึก — เราก็มี checkpoint อ้างอิงให้เช่นกัน: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps) ซึ่งใช้เวลาฝึกประมาณหนึ่งชั่วโมง
+แม้ว่าการสร้างแบบจำลองขึ้นมาใหม่ด้วยตัวเองจะไม่ซับซ้อน — และเรายัง **แนะนำให้ฝึกจากศูนย์** เพราะการประเมินผลมักจะใช้เวลามากกว่าการฝึก — แต่เราก็มี checkpoint อ้างอิงให้ด้วย: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps) ซึ่งใช้เวลาฝึกประมาณหนึ่งชั่วโมง
 
 
-
-## ขอขอบคุณ
-ขอขอบคุณโปรเจกต์ดังต่อไปนี้:
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## การอ้างอิง
 ```bibtex
@@ -229,6 +224,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

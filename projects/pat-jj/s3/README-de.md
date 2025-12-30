@@ -197,19 +197,14 @@ bash scripts/evaluation/run.sh
 
 ## Q&A
 ### Benutzerdefinierte Daten?
-Wenn Sie s3 mit Ihrem eigenen Korpus/Dataset testen möchten, können Sie sich auf diesen Commit beziehen, um zu sehen, was Sie tun müssen, um Ihre eigene Pipeline zu erstellen: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+Wenn Sie s3 mit Ihrem eigenen Korpus/Datensatz testen möchten, können Sie sich auf diesen Commit beziehen, um zu sehen, was Sie tun müssen, um Ihre eigene Pipeline zu erstellen: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
 ### Ergebnisse reproduzieren?
 Mehrere Entwickler haben unsere Ergebnisse bereits erfolgreich reproduziert. Wenn Sie Fragen haben oder auf Probleme stoßen, können Sie gerne [ein Issue eröffnen](https://github.com/pat-jj/s3/issues) — wir helfen Ihnen gerne praktisch weiter (siehe [dieses Beispiel](https://github.com/pat-jj/s3/issues/20)).
 
-Obwohl das eigenständige Reproduzieren des Modells unkompliziert ist — und wir tatsächlich **empfehlen, das Training von Grund auf durchzuführen**, da die Auswertung oft deutlich zeitaufwändiger ist als das Training — stellen wir auch einen Referenz-Checkpoint bereit: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), der in etwa einer Stunde trainiert wurde.
+Obwohl die eigenständige Reproduktion des Modells unkompliziert ist — und wir tatsächlich **empfehlen, von Grund auf neu zu trainieren**, da die Auswertung oft viel zeitaufwändiger ist als das Training — stellen wir auch einen Referenz-Checkpoint bereit: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), in etwa einer Stunde trainiert.
 
 
-
-## Danksagung
-Wir möchten den folgenden Projekten danken:
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## Zitation
 ```bibtex
@@ -229,6 +224,6 @@ Vielen Dank für Ihr Interesse an unserer Arbeit!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

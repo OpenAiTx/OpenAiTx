@@ -197,21 +197,16 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 bash scripts/evaluation/run.sh
 ```
 
-## 問答
+## 問答集
 ### 自訂資料？
-如果你想在自己的語料庫/資料集上測試 s3，可以參考這個提交來瞭解如何建立自己的流程：[commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+如果您想在自己的語料庫/資料集上測試 s3，您可以參考此提交記錄來瞭解建立自己的流程需要做什麼：[commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
-### 重現結果？
-已有多位開發者成功重現我們的結果。如果你有疑問或遇到問題，歡迎[提出 issue](https://github.com/pat-jj/s3/issues) — 我們很樂意提供實際指導（參見[此範例](https://github.com/pat-jj/s3/issues/20)）。
+### 結果復現？
+已有多位開發者成功復現了我們的結果。如果您有任何疑問或遇到問題，歡迎[提交問題](https://github.com/pat-jj/s3/issues)——我們很樂意提供實際指導（可參考[此範例](https://github.com/pat-jj/s3/issues/20)）。
 
-雖然自行重現模型很簡單 — 我們其實**建議從零開始訓練**，因為評估通常比訓練更耗時 — 我們也提供了參考檢查點：[s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)，約一小時訓練完成。
+雖然自行復現模型很簡單——而且我們實際上**推薦從零開始訓練**，因為評估通常比訓練更耗時——我們也提供了一個參考檢查點：[s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)，約一小時即可訓練完成。
 
 
-
-## 致謝
-我們感謝以下專案：
-[verl](https://github.com/volcengine/verl)、[RAGEN](https://github.com/RAGEN-AI/RAGEN)、[Search-R1](https://github.com/PeterGriffinJin/Search-R1)、[DeepRetrieval](https://github.com/pat-jj/DeepRetrieval)、[PySerini](https://github.com/castorini/pySerini)。
- 
 
 ## 引用
 ```bibtex
@@ -231,6 +226,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

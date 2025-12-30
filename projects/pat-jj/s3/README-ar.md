@@ -195,21 +195,16 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 bash scripts/evaluation/run.sh
 ```
 
-## الأسئلة والأجوبة
+## الأسئلة الشائعة
 ### بيانات مخصصة؟
-إذا كنت ترغب في اختبار s3 على مجموعة البيانات/المحتوى الخاص بك، يمكنك الرجوع إلى هذا الالتزام لمعرفة ما يلزمك فعله لبناء خط الأنابيب الخاص بك: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+إذا كنت ترغب في اختبار s3 على بياناتك أو مجموعتك الخاصة، يمكنك الرجوع إلى هذا الالتزام لمعرفة ما يجب عليك فعله لبناء خط أنابيبك الخاص: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
 ### إعادة إنتاج النتائج؟
-تمكن العديد من المطورين بالفعل من إعادة إنتاج نتائجنا بنجاح. إذا كان لديك أي أسئلة أو واجهت مشكلات، لا تتردد في [فتح قضية](https://github.com/pat-jj/s3/issues) — يسعدنا تقديم إرشادات عملية (انظر [هذا المثال](https://github.com/pat-jj/s3/issues/20)).
+لقد قام عدة مطورين بالفعل بإعادة إنتاج نتائجنا بنجاح. إذا كانت لديك أسئلة أو واجهت مشاكل، لا تتردد في [فتح تذكرة](https://github.com/pat-jj/s3/issues) — يسعدنا تقديم إرشاد عملي (انظر [هذا المثال](https://github.com/pat-jj/s3/issues/20)).
 
-على الرغم من أن إعادة إنتاج النموذج بنفسك أمر سهل — ونوصي فعلاً **بالتدريب من البداية**، لأن التقييم غالباً ما يستغرق وقتاً أطول بكثير من التدريب — فإننا نوفر أيضاً نقطة مرجعية: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)، تم تدريبها في حوالي ساعة واحدة.
+على الرغم من أن إعادة إنتاج النموذج بنفسك أمر مباشر — ونوصي فعليًا **بالتدريب من البداية**، حيث أن التقييم غالبًا ما يكون أكثر استهلاكًا للوقت من التدريب — إلا أننا نوفر أيضًا نقطة تحقق مرجعية: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)، تم تدريبها في حوالي ساعة واحدة.
 
 
-
-## الشكر والتقدير
-نود أن نشكر المشاريع التالية:
-[verl](https://github.com/volcengine/verl)، [RAGEN](https://github.com/RAGEN-AI/RAGEN)، [Search-R1](https://github.com/PeterGriffinJin/Search-R1)، [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval)، [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## الاقتباس
 ```bibtex
@@ -229,6 +224,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

@@ -201,27 +201,29 @@ Each line of `test.tsv` is in one of the following formats:
 ```
 
 - `wav_name` is the name of the output wav file.
-- `spk1_prompt_transcription` is the transcription of the first speaker's prompt wav, e.g., "Hello"
-- `spk2_prompt_transcription` is the transcription of the second speaker's prompt wav, e.g., "How are you?"
+- `spk1_prompt_transcription` is the transcription of the first speaker's prompt wav, e.g, "Hello"
+- `spk2_prompt_transcription` is the transcription of the second speaker's prompt wav, e.g, "How are you?"
 - `spk1_prompt_wav` is the path to the first speaker's prompt wav file.
 - `spk2_prompt_wav` is the path to the second speaker's prompt wav file.
-- `text` is the text to be synthesized, e.g., "[S1] I'm fine. [S2] What's your name? [S1] I'm Eric. [S2] Hi Eric."
+- `text` is the text to be synthesized, e.g. "[S1] I'm fine. [S2] What's your name? [S1] I'm Eric. [S2] Hi Eric."
 
 ### 3 Guidance for better usage:
 
 #### 3.1 Prompt length
 
-We recommend a short prompt wav file (e.g., less than 3 seconds for single-speaker speech generation, less than 10 seconds for dialogue speech generation) for faster inference speed. A very long prompt will slow down inference and degrade speech quality.
+We recommend a short prompt wav file (e.g., less than 3 seconds for single-speaker speech generation, less than 10 seconds for dialogue speech generation) for faster inference speed. A very long prompt will slow down the inference and degrade the speech quality.
 
 #### 3.2 Speed optimization
 
 If the inference speed is unsatisfactory, you can speed it up as follows:
 
-- **Distill model and fewer steps**: For the single-speaker speech generation model, we use the `zipvoice` model by default for better speech quality. If faster speed is a priority, you can switch to `zipvoice_distill` and reduce the `--num-steps` to as low as `4` (default is 8).
+- **Distill model and fewer steps**: For the single-speaker speech generation model, we use the `zipvoice` model by default for better speech quality. If faster speed is a priority, you can switch to `zipvoice_distill` and reduce the `--num-steps` to as low as `4` (8 by default).
 
 - **CPU speedup with multi-threading**: When running on CPU, you can pass the `--num-thread` parameter (e.g., `--num-thread 4`) to increase the number of threads for faster speed. We use 1 thread by default.
 
-- **CPU speedup with ONNX**: When running on CPU, you can use ONNX models with `zipvoice.bin.infer_zipvoice_onnx` for faster speed (ONNX for dialogue generation models is not supported yet). For even faster speed, you can further set `--onnx-int8 True` to use an INT8-quantized ONNX model. Note that the quantized model will cause some speech quality degradation. **Do not use ONNX on GPU**, as it is slower than PyTorch on GPU.
+- **CPU speedup with ONNX**: When running on CPU, you can use ONNX models with `zipvoice.bin.infer_zipvoice_onnx` for faster speed (ONNX is not yet supported for dialogue generation models). For even faster speed, you can further set `--onnx-int8 True` to use an INT8-quantized ONNX model. Note that the quantized model will result in a certain degree of speech quality degradation. **Don't use ONNX on GPU**, as it is slower than PyTorch on GPU.
+
+- **GPU Acceleration with NVIDIA TensorRT**: For a significant performance boost on NVIDIA GPUs, first export the model to a TensorRT engine using zipvoice.bin.tensorrt_export. Then, run inference on your dataset (e.g., a Hugging Face dataset) with zipvoice.bin.infer_zipvoice. This can achieve approximately 2x the throughput compared to the standard PyTorch implementation on a GPU.
 
 #### 3.3 Memory control
 
@@ -229,7 +231,7 @@ The given text will be split into chunks based on punctuation (for single-speake
 
 #### 3.4 "Raw" evaluation
 
-By default, we preprocess inputs (prompt wav, prompt transcription, and text) for efficient inference and better performance. If you want to evaluate the model's "raw" performance using the exact provided inputs (e.g., to reproduce the results in our paper), you can pass `--raw-evaluation True`.
+By default, we preprocess inputs (prompt wav, prompt transcription, and text) for efficient inference and better performance. If you want to evaluate the model’s "raw" performance using exactly the provided inputs (e.g., to reproduce the results in our paper), you can pass `--raw-evaluation True`.
 
 #### 3.5 Short text
 
@@ -237,7 +239,7 @@ When generating speech for very short texts (e.g., one or two words), the genera
 
 #### 3.6 Correcting mispronounced Chinese polyphonic characters
 
-We use [pypinyin](https://github.com/mozillazg/python-pinyin) to convert Chinese characters to pinyin. However, it can occasionally mispronounce **polyphonic characters** (多音字).
+We use [pypinyin](https://github.com/mozillazg/python-pinyin) to convert Chinese characters to pinyin. However, it can occasionally mispronounce **polyphone characters** (多音字).
 
 To manually correct these mispronunciations, enclose the **corrected pinyin** in angle brackets `< >` and include the **tone mark**.
 
@@ -250,17 +252,23 @@ To manually correct these mispronunciations, enclose the **corrected pinyin** in
 
 #### 3.7 Remove long silences from the generated speech
 
-The model will automatically determine the positions and lengths of silences in the generated speech. Sometimes, it may produce long silences in the middle of the speech. If you do not want this, you can pass `--remove-long-sil` to remove long silences in the middle of the generated speech (edge silences will be removed by default).
+Model will automatically determine the positions and lengths of silences in the generated speech. It occasionally has long silence in the middle of the speech. If you don't want this, you can pass `--remove-long-sil` to remove long silences in the middle of the generated speech (edge silences will be removed by default).
 
 #### 3.8 Model downloading
 
-If you encounter difficulties connecting to HuggingFace when downloading the pre-trained models, try switching the endpoint to the mirror site: `export HF_ENDPOINT=https://hf-mirror.com`.
+If you have trouble connecting to HuggingFace when downloading the pre-trained models, try switching endpoint to the mirror site: `export HF_ENDPOINT=https://hf-mirror.com`.
 
 ## Train Your Own Model
 
-See the [egs](egs) directory for training, fine-tuning, and evaluation examples.
+See the [egs](egs) directory for training, fine-tuning and evaluation examples.
 
-## C++ Deployment
+## Production Deployment
+
+### NVIDIA Triton GPU Runtime
+
+For production-ready deployment with high performance and scalability, check out the [Triton Inference Server integration](runtime/nvidia_triton/) that provides optimized TensorRT engines, concurrent request handling, and both gRPC/HTTP APIs for enterprise use.
+
+### CPU Deployment
 
 Check [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) for the C++ deployment solution on CPU.
 
@@ -268,9 +276,9 @@ Check [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment
 
 You can directly discuss on [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).
 
-You can also scan the QR code to join our WeChat group or follow our WeChat official account.
+You can also scan the QR code to join our wechat group or follow our wechat official account.
 
-| WeChat Group | WeChat Official Account |
+| Wechat Group | Wechat Official Account |
 | ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
@@ -297,6 +305,6 @@ You can also scan the QR code to join our WeChat group or follow our WeChat offi
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

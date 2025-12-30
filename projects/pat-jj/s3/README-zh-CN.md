@@ -206,20 +206,15 @@ bash scripts/evaluation/run.sh
 ```
 
 ## 问答
-### 定制数据？
-如果您想在自己的语料库/数据集上测试 s3，可以参考此提交，了解如何构建自己的流程：[commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+### 自定义数据？
+如果你想在自己的语料库/数据集上测试 s3，可以参考此提交来了解构建自己的流程所需的操作：[commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
-### 复现结果？
-已经有多位开发者成功复现了我们的结果。如果您有疑问或遇到问题，欢迎[提交 issue](https://github.com/pat-jj/s3/issues)——我们很乐意提供详细指导（参见[此示例](https://github.com/pat-jj/s3/issues/20)）。
+### 结果复现？
+已有多位开发者成功复现了我们的结果。如果你有疑问或遇到问题，欢迎[提交 issue](https://github.com/pat-jj/s3/issues) —— 我们很乐意提供实际操作指导（见[此示例](https://github.com/pat-jj/s3/issues/20)）。
 
-虽然自行复现模型其实很简单——我们实际上**推荐从零开始训练**，因为评估往往比训练更耗时——但我们也提供了一个参考模型检查点：[s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)，训练时间约为一小时。
+尽管自行复现模型非常简单 —— 并且我们实际上**建议从零开始训练**，因为评估通常比训练更耗时 —— 我们也提供了参考的检查点：[s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)，训练时间约为一小时。
 
 
-
-## 鸣谢
-我们要感谢以下项目：
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini)。
- 
 
 ## 引用
 ```bibtex
@@ -239,6 +234,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

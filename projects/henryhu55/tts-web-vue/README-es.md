@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # TTS-Vue Versión Web
 
 🎤 Herramienta de síntesis de voz de Microsoft, versión web, construida con `Vue` + `ElementPlus` + `Vite`.
@@ -6,61 +38,61 @@
 
 https://web.tts88.top
 ### Interfaz de la nueva versión
-![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)
+![imagen](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)
 
-### Interfaz de la versión antigua
-![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)
+### Interfaz de la versión anterior
+![imagen](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)
 
-## Características
+## Características principales
 
-- 🌐 Totalmente web, no requiere instalación de aplicación de escritorio
-- 🔊 Soporta múltiples tipos de síntesis de voz de Microsoft
-- 🚀 Soporta integración con API de TTS88
-- 🆓 Soporta llamadas TTS gratuitas, con cuota diaria gratuita
-- 🧠 Soporta generación de texto con OpenAI
-- 🌍 Soporta múltiples idiomas: chino, inglés, español
+- 🌐 Completamente web, sin necesidad de instalar aplicaciones de escritorio
+- 🔊 Compatible con múltiples síntesis de voz de Microsoft
+- 🚀 Soporta integración con la API TTS88
+- 🆓 Compatible con llamadas TTS gratuitas, cuota diaria gratuita
+- 🧠 Soporta generación de texto de OpenAI
+- 🌍 Compatible con varios idiomas: chino, inglés, español
 - 🔐 Reconocimiento de huella digital del navegador, experiencia de usuario más segura
 
 ## Últimas actualizaciones
 
-### Reconstrucción de interfaz y mejoras funcionales (v2.2.0)
+### Reconstrucción de la interfaz y mejoras de funciones (v2.2.0)
 
-- 📱 **Rediseño UI**: Navegación superior fija, cuadro de texto con modo sticky, optimización para dispositivos móviles
-- 🔤 **Mejora de SSML**: Nueva función de formato SSML, actualización automática de SSML según configuración
-- 🎵 **Optimización del reproductor**: Integración del reproductor en la interfaz principal, mejora en la experiencia de reproducción y descarga de audio
-- 🎞️ **Función de subtítulos**: Nueva función para generar subtítulos en línea, aumenta la eficiencia en la creación de contenido
-- 🌓 **Optimización del tema**: Mejora en el modo oscuro, añade cambio global de tema
-- 🛠️ **Configuración avanzada**: Optimización de la interfaz del servicio TTS gratuito, nuevas configuraciones de velocidad y tono
-- 💡 **Experiencia interactiva**: Añadida función de tooltip, refuerza la guía para el usuario
-- 🔄 **Actualización de dependencias**: Vue actualizado a 3.5.11, ElementPlus actualizado a 2.9.9
-- 🌐 **Actualización de enlaces**: Actualización de la dirección del repositorio GitHub
+- 📱 **Reconstrucción de UI**: navegación superior fija, cuadro de texto con modo fijo, optimización para dispositivos móviles
+- 🔤 **Mejoras en SSML**: nueva función de formateo SSML, actualización automática según cambios de configuración
+- 🎵 **Optimización de reproductor**: reproductor integrado en la pantalla principal, mejor experiencia de reproducción y descarga de audio
+- 🎞️ **Función de subtítulos**: nueva función para generar subtítulos en línea, mayor eficiencia en creación de contenido
+- 🌓 **Optimización de temas**: mejora de la interfaz en modo oscuro, añadido de cambio de tema global
+- 🛠️ **Configuración avanzada**: mejora de la interfaz del servicio TTS gratuito, nuevas opciones de velocidad y tono de voz
+- 💡 **Mejor experiencia de interacción**: añadido de tooltips, mejor orientación al usuario
+- 🔄 **Actualización de dependencias**: actualización de Vue a la versión 3.5.11 y ElementPlus a 2.9.9
+- 🌐 **Actualización de enlaces**: actualización de la dirección del repositorio GitHub
 
 ### Integración del servicio TTS gratuito (v2.1.0)
 
-- 🆕 **Función TTS gratuita**: Sin necesidad de clave API, cuota gratuita diaria disponible
-- 👤 **Identificación de huellas digitales del navegador**: garantiza el uso justo del límite gratuito para cada usuario  
-- 🔄 **Visualización del estado del límite**: muestra en tiempo real los caracteres gratuitos restantes y el tiempo de reinicio  
-- 🌐 **Detección del estado del servidor**: detecta automáticamente el estado de conexión del servidor TTS gratuito  
-- 🛡️ **Mejora en el manejo de errores**: mensajes de error y retroalimentación de estado más amigables  
-- 🎛️ **Panel de configuración de TTS gratuito**: facilita a los usuarios configurar y ver la información del límite  
+- 🆕 **Función TTS gratuita**: no se necesita clave API, cuota diaria gratuita
+- 👤 **Reconocimiento de huella digital del navegador**: garantiza el uso justo de la cuota gratuita para cada usuario
+- 🔄 **Visualización del estado de la cuota**: muestra en tiempo real los caracteres gratuitos restantes y el tiempo de reinicio
+- 🌐 **Detección del estado del servidor**: detección automática del estado de conexión del servidor TTS gratuito
+- 🛡️ **Mejor manejo de errores**: avisos de error y retroalimentación de estado más amigables
+- 🎛️ **Panel de configuración de TTS gratuito**: facilita la configuración y visualización de la cuota
 
-### Optimización de interfaz y experiencia de usuario (v2.0.0)  
+### Optimización de la interfaz y experiencia de usuario (v2.0.0)
 
-- ✨ **Optimización del área de configuración**: el panel de configuración soporta plegado, clic en el título "Configuración de voz" para expandir/plegar  
-- 🔘 **Posición inteligente del botón**: el botón "Iniciar conversión" se mueve a la parte superior para poder hacer clic sin desplazarse  
-- 💬 **Mejora en la indicación de estado**: se añaden textos intuitivos para mostrar el estado de la conversión  
-- 🎨 **Mejora del efecto visual**: los botones tienen animación de brillo para mejorar la experiencia del usuario  
-- 📱 **Optimización del diseño responsivo**: mejora la visualización en diferentes tamaños de pantalla  
+- ✨ **Optimización de área de configuración**: El panel de configuración admite plegado; haz clic en el título "Configuración de voz" para expandir/plegar
+- 🔘 **Posición inteligente del botón**: El botón "Iniciar conversión" se ha movido a la parte superior, no es necesario desplazarse para hacer clic
+- 💬 **Mejora de las indicaciones de estado**: Se ha añadido un texto intuitivo de estado de conversión
+- 🎨 **Mejoras visuales**: El botón incluye animación de efectos de luz para mejorar la experiencia del usuario
+- 📱 **Optimización de diseño responsivo**: Se ha mejorado la visualización en diferentes tamaños de pantalla
 
-Estas mejoras aumentan considerablemente la eficiencia de uso, especialmente resolviendo el problema del diseño tradicional donde el usuario tenía que desplazarse hasta el final de la página para hacer clic en "Iniciar conversión". Ahora, sin importar dónde esté el usuario en la página, puede iniciar el proceso de conversión fácilmente.  
+Estas mejoras aumentan enormemente la eficiencia de uso, especialmente al resolver el problema del diseño tradicional donde el usuario debía desplazarse hasta la parte inferior de la página para hacer clic en el botón "Iniciar conversión". Ahora, sin importar en qué lugar de la página se encuentre el usuario, puede iniciar el proceso de conversión fácilmente.
 
-## Plan de desarrollo  
+## Plan de desarrollo
 
-> **📢 Aviso importante: ¡La versión de escritorio está en desarrollo!**  
-> Estamos desarrollando una versión de aplicación de escritorio multiplataforma que soportará más funciones y mejor experiencia de usuario.  
-> Esperen próximas actualizaciones y sigan el proyecto para obtener la información más reciente.  
+> **📢 Aviso importante: ¡La versión de escritorio está en desarrollo!**
+> Estamos desarrollando una versión de aplicación de escritorio multiplataforma, que admitirá más funciones y mejor experiencia de usuario.
+> Espera futuras actualizaciones y sigue las novedades del proyecto para obtener la información más reciente.
 
-## Inicio rápido  
+## Inicio rápido
 
 ### Entorno de desarrollo
 
@@ -151,6 +183,6 @@ Este software y el código son solo para uso personal de aprendizaje y prueba, p
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-11-25
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

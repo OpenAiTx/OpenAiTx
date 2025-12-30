@@ -199,77 +199,85 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
 - `wav_name` 是輸出 wav 檔案的名稱。
-- `spk1_prompt_transcription` 是第一位說話者的提示 wav 音檔的文字稿，例如 "Hello"。
-- `spk2_prompt_transcription` 是第二位說話者的提示 wav 音檔的文字稿，例如 "How are you?"。
-- `spk1_prompt_wav` 是第一位說話者的提示 wav 音檔路徑。
-- `spk2_prompt_wav` 是第二位說話者的提示 wav 音檔路徑。
-- `text` 是要合成的文字，例如 "[S1] I'm fine. [S2] What's your name? [S1] I'm Eric. [S2] Hi Eric."
+- `spk1_prompt_transcription` 是第一位說話者的提示 wav 文字轉錄，例如「Hello」
+- `spk2_prompt_transcription` 是第二位說話者的提示 wav 文字轉錄，例如「How are you?」
+- `spk1_prompt_wav` 是第一位說話者的提示 wav 檔案路徑。
+- `spk2_prompt_wav` 是第二位說話者的提示 wav 檔案路徑。
+- `text` 是要合成的文字，例如：「[S1] I'm fine. [S2] What's your name? [S1] I'm Eric. [S2] Hi Eric.」
 
 ### 3 使用指引：
 
 #### 3.1 提示長度
 
-我們建議提示 wav 檔案較短（例如，單人語音生成時少於 3 秒，對話語音生成時少於 10 秒），以加快推論速度。過長的提示會降低推論速度並影響語音品質。
+我們建議使用較短的提示 wav 檔案（例如單一說話者語音生成少於 3 秒，對話語音生成少於 10 秒），以加快推論速度。過長的提示會降低推論速度並影響語音品質。
 
 #### 3.2 速度優化
 
-若推論速度不理想，可按以下方式加快：
+如果推論速度不理想，可以透過以下方式加快速度：
 
-- **模型蒸餾與減少步數**：單人語音生成模型預設使用 `zipvoice` 模型以提高語音品質。如需優先速度，可切換至 `zipvoice_distill` 並將 `--num-steps` 降至最低 `4`（預設為 8）。
+- **精簡模型與減少步數**：單一說話者語音生成模型預設使用 `zipvoice` 模型以獲得更佳語音品質。如優先考量速度，可切換至 `zipvoice_distill` 並將 `--num-steps` 降至最低 `4`（預設為 8）。
 
-- **CPU 多線程加速**：在 CPU 上運行時，可傳入 `--num-thread` 參數（如 `--num-thread 4`）以增加線程數提高速度。預設為 1 線程。
+- **CPU 多執行緒加速**：在 CPU 執行時，可傳入 `--num-thread` 參數（例如 `--num-thread 4`）以增加執行緒數量加快速度。預設為 1 執行緒。
 
-- **CPU 使用 ONNX 加速**：在 CPU 上運行時，可使用 ONNX 模型搭配 `zipvoice.bin.infer_zipvoice_onnx` 以加快速度（目前對話生成模型尚不支援 ONNX）。如需更快速度，可再設 `--onnx-int8 True` 使用 INT8 量化 ONNX 模型。請注意，量化模型會導致語音品質略微下降。**不要在 GPU 上使用 ONNX**，因為在 GPU 上會比 PyTorch 慢。
+- **CPU ONNX 加速**：在 CPU 執行時，可使用 ONNX 模型搭配 `zipvoice.bin.infer_zipvoice_onnx` 以提升速度（目前尚未支援對話生成模型的 ONNX）。若需更快速度，可進一步設定 `--onnx-int8 True` 使用 INT8 量化 ONNX 模型。注意量化模型會造成語音品質一定程度下降。**請勿在 GPU 上使用 ONNX**，因其在 GPU 上比 PyTorch 慢。
+
+- **NVIDIA TensorRT GPU 加速**：如需在 NVIDIA GPU 上大幅提升效能，請先使用 zipvoice.bin.tensorrt_export 將模型匯出為 TensorRT 引擎。然後以 zipvoice.bin.infer_zipvoice 在您的資料集（如 Hugging Face 資料集）上執行推論。此方式可達到約 2 倍於 GPU 上標準 PyTorch 實作的吞吐量。
 
 #### 3.3 記憶體控制
 
-輸入的文字將根據標點符號（單人語音生成）或說話者切換符號（對話語音生成）分割為片段。這些片段會以批次處理，因此模型可用幾乎固定的記憶體處理任意長度的文字。可藉由調整 `--max-duration` 參數來控制記憶體用量。
+所提供的文字將依標點符號（單一說話者語音生成）或說話者換人符號（對話語音生成）分段。分段後的文字將以批次處理。因此，模型可用幾乎固定的記憶體用量處理任意長度文字。可透過調整 `--max-duration` 參數控制記憶體使用量。
 
-#### 3.4 "原始"評估
+#### 3.4 「原始」評估
 
-預設會對輸入（提示 wav、提示文字稿及合成文字）進行預處理，以提高推論效率和效能。如需以完全原始輸入（例如重現論文結果）評估模型，可傳入 `--raw-evaluation True`。
+預設會對輸入（提示 wav、提示文字轉錄及文字）進行預處理，以提升推論效率及效能。如欲以完全原始輸入評估模型（例如重現論文結果），可傳入 `--raw-evaluation True`。
 
 #### 3.5 短文字
 
-當為非常短的文字（如一兩個字）生成語音時，生成的語音有時會省略部分發音。為解決此問題，可傳入 `--speed 0.3`（0.3 為可調值）以延長生成語音的時長。
+在生成非常短的語音（例如一兩個字）時，生成語音可能會略掉部分發音。此時可傳入 `--speed 0.3`（0.3 為可調參數），以延長生成語音時間。
 
 #### 3.6 修正中文多音字發音錯誤
 
-我們使用 [pypinyin](https://github.com/mozillazg/python-pinyin) 轉換中文為拼音。然而，偶爾會錯誤讀出**多音字**。
 
+我們使用 [pypinyin](https://github.com/mozillazg/python-pinyin) 來將中文字符轉換為拼音。然而，它偶爾會將**多音字**拼錯。
 
-要手動修正這些發音錯誤，請將**修正後的拼音**用尖括號 `< >` 括起，並包含**聲調標記**。
+要手動更正這些錯誤發音，請將**正確的拼音**用尖括號 `< >` 括起，並包含**聲調標記**。
 
 **範例：**
 
 - 原文：`这把剑长三十公分`
-- 修正 `长` 的拼音：`这把剑<chang2>三十公分`
+- 更正 `长` 的拼音： `这把剑<chang2>三十公分`
 
-> **注意：** 如果要手動指定多個拼音，請將每個拼音分別用 `<>` 括起，例如：`这把<jian4><chang2><san1>十公分`
+> **注意：**如果需要手動指定多個拼音，每個拼音都用 `<>` 括起，例如：`这把<jian4><chang2><san1>十公分`
 
-#### 3.7 移除生成語音中的長靜音
+#### 3.7 移除生成語音中的長時間靜音
 
-模型會自動判斷生成語音中的靜音位置和長度。有時語音中間會出現長靜音。如果不希望如此，可以傳遞 `--remove-long-sil` 來移除生成語音中間的長靜音（邊緣靜音會預設移除）。
+模型會自動判斷生成語音中的靜音位置和長度。有時在語音中間會有較長的靜音。如果您不希望這樣，可以傳遞 `--remove-long-sil` 來移除生成語音中間的長時間靜音（邊緣靜音預設會被移除）。
 
 #### 3.8 模型下載
 
-如果在下載預訓練模型時無法連接 HuggingFace，請嘗試將端點切換至鏡像網站：`export HF_ENDPOINT=https://hf-mirror.com`。
+如果您在下載預訓練模型時連接 HuggingFace 有困難，請嘗試將端點切換為鏡像站：`export HF_ENDPOINT=https://hf-mirror.com`。
 
 ## 訓練您自己的模型
 
-請參閱 [egs](egs) 目錄以獲得訓練、微調和評估的範例。
+請參閱 [egs](egs) 目錄以獲取訓練、微調和評估的範例。
 
-## C++ 部署
+## 生產部署
 
-請參考 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) 以獲得 CPU 上的 C++ 部署解決方案。
+### NVIDIA Triton GPU 執行環境
+
+如需具備高效能與可擴展性的生產級部署，請參閱 [Triton Inference Server 整合](runtime/nvidia_triton/)，該方案提供最佳化的 TensorRT 引擎、並發請求處理，以及同時支援 gRPC/HTTP API 以供企業使用。
+
+### CPU 部署
+
+請參閱 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) 以獲得基於 CPU 的 C++ 部署解決方案。
 
 ## 討論與交流
 
 您可以直接在 [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) 上討論。
 
-您也可以掃描二維碼加入我們的微信交流群或關注我們的微信公眾號。
+您也可以掃描二維碼加入我們的微信群或關注我們的微信公眾號。
 
-| 微信交流群 | 微信公眾號 |
+| 微信群 | 微信公眾號 |
 | ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
@@ -296,6 +304,6 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

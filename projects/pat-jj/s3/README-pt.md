@@ -202,16 +202,11 @@ bash scripts/evaluation/run.sh
 Se você deseja testar o s3 em seu próprio corpus/conjunto de dados, pode consultar este commit para ver o que precisa fazer para construir seu próprio pipeline: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
 ### Reproduzindo Resultados?
-Vários desenvolvedores já reproduziram nossos resultados com sucesso. Se você tiver dúvidas ou encontrar problemas, fique à vontade para [abrir uma issue](https://github.com/pat-jj/s3/issues) — teremos prazer em oferecer orientação prática (veja [este exemplo](https://github.com/pat-jj/s3/issues/20)).
+Vários desenvolvedores já reproduziram nossos resultados com sucesso. Se você tiver dúvidas ou encontrar problemas, fique à vontade para [abrir uma issue](https://github.com/pat-jj/s3/issues) — teremos prazer em fornecer orientação prática (veja [este exemplo](https://github.com/pat-jj/s3/issues/20)).
 
-Embora reproduzir o modelo por conta própria seja simples — e na verdade **recomendamos treinar do zero**, já que a avaliação geralmente é muito mais demorada do que o treinamento — também fornecemos um checkpoint de referência: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), treinado em cerca de uma hora.
+Embora reproduzir o modelo você mesmo seja simples — e na verdade **recomendamos treinar do zero**, já que a avaliação costuma ser muito mais demorada do que o treinamento — também fornecemos um checkpoint de referência: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), treinado em cerca de uma hora.
 
 
-
-## Agradecimentos
-Gostaríamos de agradecer aos seguintes projetos:
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## Citação
 ```bibtex
@@ -231,6 +226,6 @@ Obrigado pelo seu interesse em nosso trabalho!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

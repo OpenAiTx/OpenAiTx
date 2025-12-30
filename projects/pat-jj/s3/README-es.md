@@ -197,21 +197,16 @@ bash scripts/evaluation/run.sh
 
 ## Preguntas y Respuestas
 ### ¿Datos Personalizados?
-Si desea probar s3 con su propio corpus/conjunto de datos, puede consultar este commit para ver lo que necesita hacer para construir su propio pipeline: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+Si deseas probar s3 en tu propio corpus/conjunto de datos, puedes consultar este commit para ver qué necesitas hacer para construir tu propio pipeline: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
-### ¿Reproducir Resultados?
-Varios desarrolladores ya han reproducido nuestros resultados con éxito. Si tiene preguntas o encuentra problemas, no dude en [abrir una incidencia](https://github.com/pat-jj/s3/issues) — estaremos encantados de brindarle orientación práctica (vea [este ejemplo](https://github.com/pat-jj/s3/issues/20)).
+### ¿Reproducción de Resultados?
+Varios desarrolladores ya han reproducido nuestros resultados exitosamente. Si tienes preguntas o encuentras problemas, no dudes en [abrir un issue](https://github.com/pat-jj/s3/issues) — estaremos encantados de ofrecerte orientación práctica (ver [este ejemplo](https://github.com/pat-jj/s3/issues/20)).
 
-Aunque reproducir el modelo usted mismo es sencillo — y de hecho **recomendamos entrenar desde cero**, ya que la evaluación suele ser mucho más lenta que el entrenamiento — también proporcionamos un checkpoint de referencia: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), entrenado en aproximadamente una hora.
+Aunque reproducir el modelo tú mismo es sencillo — y de hecho **recomendamos entrenar desde cero**, ya que la evaluación suele ser mucho más lenta que el entrenamiento — también proporcionamos un checkpoint de referencia: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), entrenado en aproximadamente una hora.
 
 
 
-## Agradecimientos
-Nos gustaría agradecer a los siguientes proyectos:
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
- 
-
-## Cita
+## Citación
 ```bibtex
 @article{jiang2025s3,
   title={s3: You Don't Need That Much Data to Train a Search Agent via RL},
@@ -229,6 +224,6 @@ Gracias por tu interés en nuestro trabajo!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

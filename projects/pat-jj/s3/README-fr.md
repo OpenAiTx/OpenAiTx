@@ -197,19 +197,14 @@ bash scripts/evaluation/run.sh
 
 ## Q&R
 ### Données personnalisées ?
-Si vous souhaitez tester s3 sur votre propre corpus/ensemble de données, vous pouvez consulter ce commit pour voir ce qu’il faut faire afin de construire votre propre pipeline : [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+Si vous souhaitez tester s3 sur votre propre corpus/ensemble de données, vous pouvez vous référer à ce commit pour voir ce qu'il faut faire pour construire votre propre pipeline : [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
 ### Reproduire les résultats ?
-Plusieurs développeurs ont déjà réussi à reproduire nos résultats. Si vous avez des questions ou rencontrez des problèmes, n’hésitez pas à [ouvrir une issue](https://github.com/pat-jj/s3/issues) — nous serons heureux de vous guider directement (voir [cet exemple](https://github.com/pat-jj/s3/issues/20)).
+Plusieurs développeurs ont déjà reproduit nos résultats avec succès. Si vous avez des questions ou rencontrez des problèmes, n'hésitez pas à [ouvrir une issue](https://github.com/pat-jj/s3/issues) — nous sommes ravis de fournir une assistance pratique (voir [cet exemple](https://github.com/pat-jj/s3/issues/20)).
 
-Bien que reproduire le modèle vous-même soit simple — et nous **recommandons en fait de l’entraîner depuis zéro**, car l’évaluation est souvent beaucoup plus chronophage que l’entraînement — nous fournissons également un checkpoint de référence : [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), entraîné en environ une heure.
+Bien que reproduire le modèle vous-même soit simple — et nous **recommandons réellement d'entraîner depuis zéro**, car l'évaluation est souvent bien plus chronophage que l'entraînement — nous fournissons aussi un checkpoint de référence : [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), entraîné en environ une heure.
 
 
-
-## Remerciements
-Nous tenons à remercier les projets suivants :
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## Citation
 ```bibtex
@@ -229,6 +224,6 @@ Merci de l'intérêt que vous portez à notre travail !
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

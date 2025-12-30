@@ -199,57 +199,59 @@ Ogni riga di `test.tsv` è in uno dei seguenti formati:
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
 - `wav_name` è il nome del file wav di output.
-- `spk1_prompt_transcription` è la trascrizione del file wav di prompt del primo speaker, ad esempio, "Ciao"
-- `spk2_prompt_transcription` è la trascrizione del file wav di prompt del secondo speaker, ad esempio, "Come stai?"
-- `spk1_prompt_wav` è il percorso al file wav di prompt del primo speaker.
-- `spk2_prompt_wav` è il percorso al file wav di prompt del secondo speaker.
-- `text` è il testo da sintetizzare, ad esempio: "[S1] Sto bene. [S2] Come ti chiami? [S1] Sono Eric. [S2] Ciao Eric."
+- `spk1_prompt_transcription` è la trascrizione del prompt wav del primo speaker, ad esempio, "Ciao"
+- `spk2_prompt_transcription` è la trascrizione del prompt wav del secondo speaker, ad esempio, "Come stai?"
+- `spk1_prompt_wav` è il percorso del file wav del prompt del primo speaker.
+- `spk2_prompt_wav` è il percorso del file wav del prompt del secondo speaker.
+- `text` è il testo da sintetizzare, ad esempio, "[S1] Sto bene. [S2] Come ti chiami? [S1] Sono Eric. [S2] Ciao Eric."
 
 ### 3 Guida per un uso migliore:
 
 #### 3.1 Lunghezza del prompt
 
-Si raccomanda un file wav di prompt breve (ad esempio, meno di 3 secondi per la generazione vocale a singolo speaker, meno di 10 secondi per la generazione di dialoghi) per una velocità di inferenza più rapida. Un prompt molto lungo rallenterà l'inferenza e peggiorerà la qualità del parlato.
+Si consiglia un file wav di prompt breve (ad esempio, meno di 3 secondi per la generazione di parlato a singolo speaker, meno di 10 secondi per la generazione di dialoghi) per una velocità di inferenza più rapida. Un prompt molto lungo rallenterà l'inferenza e peggiorerà la qualità del parlato.
 
 #### 3.2 Ottimizzazione della velocità
 
-Se la velocità di inferenza non è soddisfacente, puoi accelerarla come segue:
+Se la velocità di inferenza non è soddisfacente, puoi velocizzarla come segue:
 
-- **Modello distillato e meno passi**: Per il modello di generazione vocale a singolo speaker, usiamo il modello `zipvoice` di default per una migliore qualità del parlato. Se la velocità è una priorità, puoi passare a `zipvoice_distill` e ridurre `--num-steps` fino a `4` (di default è 8).
+- **Distillazione del modello e meno step**: Per il modello di generazione di parlato a singolo speaker, utilizziamo di default il modello `zipvoice` per una migliore qualità del parlato. Se la velocità è prioritaria, puoi passare a `zipvoice_distill` e ridurre `--num-steps` fino a `4` (8 di default).
 
-- **Velocizzazione CPU con multi-threading**: Quando si esegue su CPU, è possibile passare il parametro `--num-thread` (ad esempio, `--num-thread 4`) per aumentare il numero di thread per una maggiore velocità. Di default usiamo 1 thread.
+- **Velocizzazione CPU con multi-threading**: In esecuzione su CPU, puoi passare il parametro `--num-thread` (es., `--num-thread 4`) per aumentare il numero di thread e accelerare la velocità. Usiamo 1 thread di default.
 
-- **Velocizzazione CPU con ONNX**: Quando si esegue su CPU, puoi utilizzare i modelli ONNX con `zipvoice.bin.infer_zipvoice_onnx` per una maggiore velocità (ONNX non è ancora supportato per modelli di generazione di dialoghi). Per una velocità ancora maggiore, puoi impostare `--onnx-int8 True` per usare un modello ONNX quantizzato INT8. Nota che il modello quantizzato comporterà una certa degradazione della qualità del parlato. **Non usare ONNX su GPU**, perché è più lento di PyTorch su GPU.
+- **Velocizzazione CPU con ONNX**: In esecuzione su CPU, puoi utilizzare modelli ONNX con `zipvoice.bin.infer_zipvoice_onnx` per una velocità maggiore (ONNX non è ancora supportato per i modelli di generazione dialogica). Per una velocità ancora superiore, puoi impostare `--onnx-int8 True` per usare un modello ONNX quantizzato INT8. Nota che il modello quantizzato comporterà un certo degrado della qualità del parlato. **Non usare ONNX su GPU**, poiché è più lento di PyTorch su GPU.
+
+- **Accelerazione GPU con NVIDIA TensorRT**: Per un notevole aumento delle prestazioni su GPU NVIDIA, esporta prima il modello in un engine TensorRT usando zipvoice.bin.tensorrt_export. Poi, esegui l'inferenza sul tuo dataset (ad esempio, un dataset Hugging Face) con zipvoice.bin.infer_zipvoice. Questo può ottenere circa 2x il throughput rispetto all'implementazione standard PyTorch su GPU.
 
 #### 3.3 Controllo della memoria
 
-Il testo fornito verrà suddiviso in blocchi in base alla punteggiatura (per la generazione vocale a singolo speaker) o ai simboli di cambio speaker (per la generazione di dialoghi). I testi suddivisi verranno poi elaborati in batch. Pertanto, il modello può processare testi di qualsiasi lunghezza con un uso di memoria quasi costante. Puoi controllare l'uso di memoria regolando il parametro `--max-duration`.
+Il testo fornito verrà suddiviso in blocchi in base alla punteggiatura (per la generazione di parlato a singolo speaker) o al simbolo di cambio speaker (per la generazione di dialoghi). Successivamente, i blocchi di testo verranno processati in batch. Pertanto, il modello può processare testi arbitrariamente lunghi con un uso di memoria quasi costante. Puoi controllare l'uso di memoria regolando il parametro `--max-duration`.
 
 #### 3.4 Valutazione "Raw"
 
-Di default, preprocessiamo gli input (wav di prompt, trascrizione del prompt e testo) per inferenza efficiente e migliori prestazioni. Se vuoi valutare la performance "raw" del modello usando gli input esatti forniti (ad esempio, per riprodurre i risultati del nostro paper), puoi passare `--raw-evaluation True`.
+Per impostazione predefinita, pre-processiamo gli input (prompt wav, trascrizione prompt e testo) per un'inferenza efficiente e migliori prestazioni. Se vuoi valutare le prestazioni "raw" del modello usando gli input esatti forniti (ad esempio, per riprodurre i risultati del nostro articolo), puoi passare `--raw-evaluation True`.
 
-#### 3.5 Testo corto
+#### 3.5 Testo breve
 
-Quando si genera parlato per testi molto brevi (ad esempio, una o due parole), il parlato generato potrebbe talvolta omettere alcune pronunce. Per risolvere questo problema, puoi passare `--speed 0.3` (dove 0.3 è un valore regolabile) per estendere la durata del parlato generato.
+Quando si genera parlato per testi molto brevi (ad esempio, una o due parole), il parlato generato può talvolta omettere alcune pronunce. Per risolvere questo problema, puoi passare `--speed 0.3` (dove 0.3 è un valore regolabile) per estendere la durata del parlato generato.
 
-#### 3.6 Correzione dei caratteri polifoni cinesi pronunciati erroneamente
-
-Utilizziamo [pypinyin](https://github.com/mozillazg/python-pinyin) per convertire i caratteri cinesi in pinyin. Tuttavia, può occasionalmente pronunciare erroneamente i **caratteri polifoni** (多音字).
+#### 3.6 Correzione dei caratteri polifonici cinesi pronunciati in modo errato
 
 
-Per correggere manualmente queste pronunce errate, racchiudi il **pinyin corretto** tra parentesi angolari `< >` e includi il **tono**.
+Usiamo [pypinyin](https://github.com/mozillazg/python-pinyin) per convertire i caratteri cinesi in pinyin. Tuttavia, talvolta può pronunciare erroneamente i **caratteri polifonici** (多音字).
+
+Per correggere manualmente queste pronunce errate, racchiudi il **pinyin corretto** tra parentesi angolari `< >` e includi il **segno tonale**.
 
 **Esempio:**
 
 - Testo originale: `这把剑长三十公分`
 - Correggi il pinyin di `长`:  `这把剑<chang2>三十公分`
 
-> **Nota:** Se vuoi assegnare manualmente più pinyin, racchiudi ciascun pinyin tra `<>`, ad esempio: `这把<jian4><chang2><san1>十公分`
+> **Nota:** Se vuoi assegnare manualmente più pinyin, racchiudi ciascun pinyin con `<>`, ad esempio: `这把<jian4><chang2><san1>十公分`
 
-#### 3.7 Rimuovere le pause lunghe dal parlato generato
+#### 3.7 Rimuovere lunghe pause dal parlato generato
 
-Il modello determina automaticamente le posizioni e le durate delle pause nel parlato generato. Talvolta si verificano pause lunghe nel mezzo del discorso. Se non lo desideri, puoi passare `--remove-long-sil` per rimuovere le pause lunghe nel mezzo del parlato generato (le pause ai margini vengono rimosse di default).
+Il modello determinerà automaticamente le posizioni e le lunghezze delle pause nel parlato generato. Talvolta ci sono lunghe pause nel mezzo del parlato. Se non desideri questo, puoi passare `--remove-long-sil` per rimuovere le lunghe pause nel mezzo del parlato generato (le pause ai bordi verranno rimosse automaticamente).
 
 #### 3.8 Download del modello
 
@@ -259,9 +261,15 @@ Se hai problemi di connessione a HuggingFace durante il download dei modelli pre
 
 Consulta la directory [egs](egs) per esempi di addestramento, fine-tuning e valutazione.
 
-## Deployment C++
+## Distribuzione in produzione
 
-Consulta [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) per la soluzione di deployment C++ su CPU.
+### Runtime GPU NVIDIA Triton
+
+Per una distribuzione pronta per la produzione con alte prestazioni e scalabilità, consulta l'integrazione con [Triton Inference Server](runtime/nvidia_triton/) che offre motori TensorRT ottimizzati, gestione concorrente delle richieste e API gRPC/HTTP per uso aziendale.
+
+### Distribuzione su CPU
+
+Consulta [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) per la soluzione di distribuzione C++ su CPU.
 
 ## Discussione & Comunicazione
 
@@ -270,7 +278,7 @@ Puoi discutere direttamente su [Github Issues](https://github.com/k2-fsa/ZipVoic
 Puoi anche scansionare il codice QR per unirti al nostro gruppo wechat o seguire il nostro account ufficiale wechat.
 
 | Gruppo Wechat | Account Ufficiale Wechat |
-| ------------- | ------------------------ |
+| ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Citazione
@@ -296,6 +304,6 @@ Puoi anche scansionare il codice QR per unirti al nostro gruppo wechat o seguire
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

@@ -198,13 +198,12 @@ Chaque ligne de `test.tsv` est dans l'un des formats suivants :
 ```
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
-
 - `wav_name` est le nom du fichier wav de sortie.
-- `spk1_prompt_transcription` est la transcription du fichier wav de prompt du premier locuteur, par exemple "Bonjour"
-- `spk2_prompt_transcription` est la transcription du fichier wav de prompt du second locuteur, par exemple "Comment ça va ?"
-- `spk1_prompt_wav` est le chemin du fichier wav de prompt du premier locuteur.
-- `spk2_prompt_wav` est le chemin du fichier wav de prompt du second locuteur.
-- `text` est le texte à synthétiser, par exemple "[S1] Je vais bien. [S2] Comment tu t'appelles ? [S1] Je m'appelle Eric. [S2] Salut Eric."
+- `spk1_prompt_transcription` est la transcription du prompt du premier locuteur, par exemple, "Bonjour"
+- `spk2_prompt_transcription` est la transcription du prompt du deuxième locuteur, par exemple, "Comment ça va ?"
+- `spk1_prompt_wav` est le chemin vers le fichier wav du prompt du premier locuteur.
+- `spk2_prompt_wav` est le chemin vers le fichier wav du prompt du deuxième locuteur.
+- `text` est le texte à synthétiser, par exemple, "[S1] Je vais bien. [S2] Comment tu t'appelles ? [S1] Je m'appelle Eric. [S2] Salut Eric."
 
 ### 3 Conseils pour une meilleure utilisation :
 
@@ -216,50 +215,59 @@ Nous recommandons un fichier wav de prompt court (par exemple, moins de 3 second
 
 Si la vitesse d'inférence n'est pas satisfaisante, vous pouvez l'accélérer comme suit :
 
-- **Modèle distillé et moins d'étapes** : Pour le modèle de génération de parole à un seul locuteur, nous utilisons le modèle `zipvoice` par défaut pour une meilleure qualité de parole. Si la rapidité est prioritaire, vous pouvez passer à `zipvoice_distill` et réduire le paramètre `--num-steps` jusqu'à `4` (8 par défaut).
+- **Modèle distillé et moins d'étapes** : Pour le modèle de génération de parole à un seul locuteur, nous utilisons par défaut le modèle `zipvoice` pour une meilleure qualité vocale. Si la vitesse est prioritaire, vous pouvez passer à `zipvoice_distill` et réduire le paramètre `--num-steps` jusqu'à `4` (8 par défaut).
 
-- **Accélération CPU avec multi-threading** : Lors de l'exécution sur CPU, vous pouvez utiliser le paramètre `--num-thread` (par exemple, `--num-thread 4`) pour augmenter le nombre de threads et accélérer la vitesse. Nous utilisons 1 thread par défaut.
+- **Accélération CPU avec multi-threading** : Lors de l'exécution sur CPU, vous pouvez passer le paramètre `--num-thread` (par exemple, `--num-thread 4`) pour augmenter le nombre de threads et accélérer l'exécution. Nous utilisons 1 thread par défaut.
 
-- **Accélération CPU avec ONNX** : Lors de l'exécution sur CPU, vous pouvez utiliser les modèles ONNX avec `zipvoice.bin.infer_zipvoice_onnx` pour une vitesse supérieure (ONNX n'est pas encore supporté pour les modèles de génération de dialogue). Pour encore plus de rapidité, vous pouvez définir `--onnx-int8 True` pour utiliser un modèle ONNX quantifié INT8. Notez que le modèle quantifié dégradera la qualité de la parole dans une certaine mesure. **N'utilisez pas ONNX sur GPU**, car il est plus lent que PyTorch sur GPU.
+- **Accélération CPU avec ONNX** : Lors de l'exécution sur CPU, vous pouvez utiliser des modèles ONNX avec `zipvoice.bin.infer_zipvoice_onnx` pour une vitesse accrue (pas encore de support ONNX pour les modèles de génération de dialogue). Pour encore plus de vitesse, vous pouvez aussi définir `--onnx-int8 True` pour utiliser un modèle ONNX quantifié INT8. Notez que le modèle quantifié entraînera une certaine dégradation de la qualité vocale. **N'utilisez pas ONNX sur GPU**, car il est plus lent que PyTorch sur GPU.
+
+- **Accélération GPU avec NVIDIA TensorRT** : Pour une amélioration significative des performances sur GPU NVIDIA, exportez d'abord le modèle vers un moteur TensorRT avec zipvoice.bin.tensorrt_export. Ensuite, lancez l'inférence sur votre ensemble de données (par exemple, un dataset Hugging Face) avec zipvoice.bin.infer_zipvoice. Cela permet d'obtenir environ 2x plus de débit que l'implémentation PyTorch standard sur GPU.
 
 #### 3.3 Contrôle de la mémoire
 
-Le texte fourni sera découpé en morceaux selon la ponctuation (pour la génération de parole à un seul locuteur) ou le symbole de changement de locuteur (pour la génération de dialogue). Ensuite, les morceaux seront traités en lots. Ainsi, le modèle peut traiter des textes arbitrairement longs avec une utilisation mémoire quasiment constante. Vous pouvez contrôler l'utilisation mémoire en ajustant le paramètre `--max-duration`.
+Le texte fourni sera découpé en segments en fonction de la ponctuation (pour la génération de parole à un seul locuteur) ou du symbole de changement de locuteur (pour la génération de dialogue). Ensuite, les textes segmentés seront traités par lots. Ainsi, le modèle peut traiter des textes arbitrairement longs avec une utilisation mémoire quasi constante. Vous pouvez contrôler l'utilisation de la mémoire en ajustant le paramètre `--max-duration`.
 
-#### 3.4 Évaluation "brute"
+#### 3.4 Évaluation « brute »
 
-Par défaut, nous prétraitons les entrées (prompt wav, transcription du prompt et texte) pour une inférence efficace et de meilleures performances. Si vous souhaitez évaluer la performance "brute" du modèle avec les entrées exactes fournies (par exemple, pour reproduire les résultats de notre article), vous pouvez utiliser `--raw-evaluation True`.
+Par défaut, nous prétraitons les entrées (wav prompt, transcription du prompt et texte) pour une inférence efficace et de meilleures performances. Si vous souhaitez évaluer la performance « brute » du modèle en utilisant exactement les entrées fournies (par exemple, pour reproduire les résultats de notre article), vous pouvez passer `--raw-evaluation True`.
 
 #### 3.5 Texte court
 
-Lors de la génération de parole pour des textes très courts (par exemple, un ou deux mots), la parole générée peut parfois omettre certaines prononciations. Pour résoudre ce problème, vous pouvez utiliser `--speed 0.3` (où 0.3 est une valeur ajustable) pour prolonger la durée de la parole générée.
+Lors de la génération de parole pour des textes très courts (par exemple, un ou deux mots), la parole générée peut parfois omettre certaines prononciations. Pour résoudre ce problème, vous pouvez passer `--speed 0.3` (où 0.3 est une valeur ajustable) pour allonger la durée de la parole générée.
 
-#### 3.6 Correction de la prononciation incorrecte des caractères chinois polyphoniques
+#### 3.6 Correction des caractères polyphoniques chinois mal prononcés
+
 
 Nous utilisons [pypinyin](https://github.com/mozillazg/python-pinyin) pour convertir les caractères chinois en pinyin. Cependant, il peut parfois mal prononcer les **caractères polyphoniques** (多音字).
 
-Pour corriger manuellement ces erreurs de prononciation, encadrez le **pinyin corrigé** entre chevrons `< >` et incluez l’**accent tonique**.
+Pour corriger manuellement ces erreurs de prononciation, entourez le **pinyin corrigé** avec des chevrons `< >` et incluez la **marque de ton**.
 
 **Exemple :**
 
 - Texte original : `这把剑长三十公分`
 - Corrigez le pinyin de `长` :  `这把剑<chang2>三十公分`
 
-> **Remarque :** Si vous souhaitez attribuer plusieurs pinyins manuellement, encadrez chaque pinyin avec `<>`, par exemple : `这把<jian4><chang2><san1>十公分`
+> **Remarque :** Si vous souhaitez attribuer manuellement plusieurs pinyins, entourez chaque pinyin avec `<>`, par exemple : `这把<jian4><chang2><san1>十公分`
 
-#### 3.7 Suppression des silences longs dans la parole générée
+#### 3.7 Supprimer les longues silences de la parole générée
 
-Le modèle détermine automatiquement les positions et la durée des silences dans la parole générée. Il arrive qu’il y ait de longs silences au milieu de la parole. Si vous ne souhaitez pas cela, vous pouvez passer l’option `--remove-long-sil` pour supprimer les longs silences au milieu de la parole générée (les silences en début et fin seront supprimés par défaut).
+Le modèle détermine automatiquement les positions et la durée des silences dans la parole générée. Il peut parfois y avoir un long silence au milieu de la parole. Si vous ne souhaitez pas cela, vous pouvez ajouter `--remove-long-sil` pour supprimer les longues silences au milieu de la parole générée (les silences aux extrémités seront supprimés par défaut).
 
 #### 3.8 Téléchargement du modèle
 
-Si vous rencontrez des difficultés pour vous connecter à HuggingFace lors du téléchargement des modèles pré-entraînés, essayez de changer l’endpoint vers le site miroir : `export HF_ENDPOINT=https://hf-mirror.com`.
+Si vous rencontrez des difficultés pour vous connecter à HuggingFace lors du téléchargement des modèles pré-entraînés, essayez de passer l’endpoint au site miroir : `export HF_ENDPOINT=https://hf-mirror.com`.
 
-## Entraînez votre propre modèle
+## Entraînez Votre Propre Modèle
 
 Consultez le répertoire [egs](egs) pour des exemples d’entraînement, de fine-tuning et d’évaluation.
 
-## Déploiement C++
+## Déploiement en Production
+
+### Runtime GPU NVIDIA Triton
+
+Pour un déploiement en production offrant performance et scalabilité, consultez l’[intégration du serveur Triton Inference](runtime/nvidia_triton/) qui fournit des moteurs TensorRT optimisés, une gestion des requêtes concurrentes, ainsi que des API gRPC/HTTP pour une utilisation en entreprise.
+
+### Déploiement CPU
 
 Consultez [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) pour la solution de déploiement C++ sur CPU.
 
@@ -267,10 +275,10 @@ Consultez [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecom
 
 Vous pouvez discuter directement sur [Github Issues](https://github.com/k2-fsa/ZipVoice/issues).
 
-Vous pouvez également scanner le code QR pour rejoindre notre groupe WeChat ou suivre notre compte officiel WeChat.
+Vous pouvez également scanner le QR code pour rejoindre notre groupe Wechat ou suivre notre compte officiel Wechat.
 
-| Groupe WeChat | Compte Officiel WeChat |
-| ------------- | ---------------------- |
+| Groupe Wechat | Compte Officiel Wechat |
+| ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Citation
@@ -296,6 +304,6 @@ Vous pouvez également scanner le code QR pour rejoindre notre groupe WeChat ou 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

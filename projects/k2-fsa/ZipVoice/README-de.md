@@ -198,79 +198,87 @@ Jede Zeile in `test.tsv` hat eines der folgenden Formate:
 ```
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
+
 - `wav_name` ist der Name der Ausgabedatei im WAV-Format.
 - `spk1_prompt_transcription` ist die Transkription der Prompt-WAV-Datei des ersten Sprechers, z. B. „Hallo“.
-- `spk2_prompt_transcription` ist die Transkription der Prompt-WAV-Datei des zweiten Sprechers, z. B. „Wie geht es dir?“
+- `spk2_prompt_transcription` ist die Transkription der Prompt-WAV-Datei des zweiten Sprechers, z. B. „Wie geht's?“
 - `spk1_prompt_wav` ist der Pfad zur Prompt-WAV-Datei des ersten Sprechers.
 - `spk2_prompt_wav` ist der Pfad zur Prompt-WAV-Datei des zweiten Sprechers.
 - `text` ist der zu synthetisierende Text, z. B. „[S1] Mir geht's gut. [S2] Wie heißt du? [S1] Ich bin Eric. [S2] Hallo Eric.“
 
-### 3 Hinweise für bessere Nutzung:
+### 3 Anleitung für bessere Nutzung:
 
-#### 3.1 Promptlänge
+#### 3.1 Länge des Prompts
 
-Wir empfehlen eine kurze Prompt-WAV-Datei (z. B. weniger als 3 Sekunden für die Sprachsynthese mit einem Sprecher, weniger als 10 Sekunden für die Dialog-Sprachsynthese) für eine schnellere Inferenzgeschwindigkeit. Eine sehr lange Prompt-Datei verlangsamt die Inferenz und verschlechtert die Sprachqualität.
+Wir empfehlen eine kurze Prompt-WAV-Datei (z. B. weniger als 3 Sekunden für die Einzelsprecher-Spracherzeugung, weniger als 10 Sekunden für die Dialog-Spracherzeugung) für eine schnellere Inferenzgeschwindigkeit. Ein sehr langer Prompt verlangsamt die Inferenz und verschlechtert die Sprachqualität.
 
 #### 3.2 Geschwindigkeitsoptimierung
 
-Falls die Inferenzgeschwindigkeit unzureichend ist, können Sie diese wie folgt erhöhen:
+Wenn die Inferenzgeschwindigkeit unzufriedenstellend ist, können Sie wie folgt beschleunigen:
 
-- **Distill-Modell und weniger Schritte**: Für das Einzelsprecher-Sprachgenerierungsmodell verwenden wir standardmäßig das `zipvoice`-Modell für bessere Sprachqualität. Wenn schnellere Geschwindigkeit Priorität hat, können Sie auf `zipvoice_distill` umschalten und die Anzahl der `--num-steps` auf bis zu `4` reduzieren (Standard ist 8).
+- **Distill-Modell und weniger Schritte**: Für das Einzelsprecher-Spracherzeugungsmodell verwenden wir standardmäßig das `zipvoice`-Modell für bessere Sprachqualität. Wenn schnellere Geschwindigkeit Priorität hat, können Sie auf `zipvoice_distill` wechseln und die `--num-steps` auf bis zu `4` reduzieren (Standard ist 8).
 
-- **CPU-Beschleunigung durch Multithreading**: Beim Ausführen auf der CPU können Sie den Parameter `--num-thread` (z. B. `--num-thread 4`) verwenden, um die Anzahl der Threads für höhere Geschwindigkeit zu erhöhen. Standardmäßig wird 1 Thread verwendet.
+- **CPU-Beschleunigung durch Multi-Threading**: Beim Ausführen auf der CPU können Sie den Parameter `--num-thread` übergeben (z. B. `--num-thread 4`), um die Anzahl der Threads für höhere Geschwindigkeit zu erhöhen. Standardmäßig wird 1 Thread verwendet.
 
-- **CPU-Beschleunigung mit ONNX**: Beim Ausführen auf der CPU können Sie ONNX-Modelle mit `zipvoice.bin.infer_zipvoice_onnx` für höhere Geschwindigkeit verwenden (ONNX wird für Dialoggenerierungsmodelle bisher nicht unterstützt). Für noch höhere Geschwindigkeit können Sie zusätzlich `--onnx-int8 True` setzen, um ein INT8-quantisiertes ONNX-Modell zu nutzen. Beachten Sie, dass das quantisierte Modell zu einer gewissen Verschlechterung der Sprachqualität führt. **Verwenden Sie ONNX nicht auf der GPU**, da es langsamer ist als PyTorch auf der GPU.
+- **CPU-Beschleunigung mit ONNX**: Bei CPU-Ausführung können Sie ONNX-Modelle mit `zipvoice.bin.infer_zipvoice_onnx` für höhere Geschwindigkeit verwenden (ONNX wird für Dialog-Generierungsmodelle noch nicht unterstützt). Für noch höhere Geschwindigkeit können Sie zusätzlich `--onnx-int8 True` setzen, um ein INT8-quantisiertes ONNX-Modell zu nutzen. Beachten Sie, dass das quantisierte Modell zu einer gewissen Verschlechterung der Sprachqualität führt. **Verwenden Sie ONNX nicht auf der GPU**, da es dort langsamer als PyTorch ist.
+
+- **GPU-Beschleunigung mit NVIDIA TensorRT**: Für einen deutlichen Leistungsschub auf NVIDIA-GPUs exportieren Sie zunächst das Modell mit zipvoice.bin.tensorrt_export als TensorRT-Engine. Führen Sie dann die Inferenz auf Ihrem Datensatz (z. B. Hugging Face-Datensatz) mit zipvoice.bin.infer_zipvoice aus. Dies kann etwa die doppelte Durchsatzrate im Vergleich zur Standard-PyTorch-Implementierung auf einer GPU erreichen.
 
 #### 3.3 Speichersteuerung
 
-Der angegebene Text wird anhand von Satzzeichen (für Einzelsprecher-Sprachsynthese) oder Sprecherwechsel-Symbolen (für Dialog-Sprachsynthese) in Abschnitte unterteilt. Anschließend werden die Abschnitte stapelweise verarbeitet. Das Modell kann daher beliebig lange Texte mit nahezu konstantem Speicherverbrauch verarbeiten. Sie können den Speicherverbrauch durch Anpassung des Parameters `--max-duration` steuern.
+Der angegebene Text wird anhand von Satzzeichen (bei Einzelsprecher-Spracherzeugung) oder Sprecherwechsel-Symbolen (bei Dialog-Spracherzeugung) in Abschnitte unterteilt. Anschließend werden die Abschnitte stapelweise verarbeitet. Dadurch kann das Modell beliebig lange Texte mit nahezu konstantem Speicherbedarf verarbeiten. Sie können den Speicherverbrauch durch Anpassung des Parameters `--max-duration` steuern.
 
-#### 3.4 „Raw“-Bewertung
+#### 3.4 „Rohe“ Auswertung
 
-Standardmäßig werden die Eingaben (Prompt-WAV, Prompt-Transkription und Text) vorverarbeitet, um eine effiziente Inferenz und bessere Leistung zu erzielen. Wenn Sie die „rohe“ Leistung des Modells mit den exakt vorgegebenen Eingaben bewerten möchten (z. B. um die Ergebnisse aus unserer Publikation zu reproduzieren), können Sie `--raw-evaluation True` verwenden.
+Standardmäßig werden Eingaben (Prompt-WAV, Prompt-Transkription und Text) für effiziente Inferenz und bessere Leistung vorverarbeitet. Wenn Sie die „rohe“ Leistung des Modells mit den exakt angegebenen Eingaben bewerten möchten (z. B. zur Reproduktion der Ergebnisse unserer Publikation), können Sie `--raw-evaluation True` übergeben.
 
 #### 3.5 Kurzer Text
 
-Bei der Spracherzeugung für sehr kurze Texte (z. B. ein oder zwei Wörter) kann es vorkommen, dass die erzeugte Sprache bestimmte Aussprachen auslässt. Um dieses Problem zu beheben, können Sie `--speed 0.3` verwenden (wobei 0.3 ein anpassbarer Wert ist), um die Dauer der erzeugten Sprache zu verlängern.
+Bei der Generierung von Sprache für sehr kurze Texte (z. B. ein oder zwei Wörter) kann es vorkommen, dass bestimmte Aussprachen im erzeugten Sprachsignal fehlen. Um dieses Problem zu beheben, können Sie `--speed 0.3` übergeben (wobei 0.3 ein anpassbarer Wert ist), um die Dauer der erzeugten Sprache zu verlängern.
 
-#### 3.6 Korrektur falsch ausgesprochener chinesischer Polyphon-Zeichen
+#### 3.6 Korrektur von falsch ausgesprochenen chinesischen Polyphonen-Zeichen
 
-Wir verwenden [pypinyin](https://github.com/mozillazg/python-pinyin), um chinesische Schriftzeichen in Pinyin umzuwandeln. Allerdings kann es gelegentlich zu falscher Aussprache von **Polyphon-Zeichen** (多音字) kommen.
+Wir verwenden [pypinyin](https://github.com/mozillazg/python-pinyin), um chinesische Schriftzeichen in Pinyin umzuwandeln. Allerdings kann es gelegentlich **polyphone Zeichen** (多音字) falsch aussprechen.
 
-
-Um diese Fehl-Aussprache manuell zu korrigieren, setze das **korrigierte Pinyin** in spitze Klammern `< >` und füge das **Tonzeichen** hinzu.
+Um diese Fehl-Aussprache manuell zu korrigieren, schließen Sie das **korrigierte Pinyin** in spitze Klammern `< >` ein und fügen Sie das **Tonzeichen** hinzu.
 
 **Beispiel:**
 
 - Originaltext: `这把剑长三十公分`
-- Korrigiere das Pinyin von `长`:  `这把剑<chang2>三十公分`
+- Pinyin von `长` korrigieren:  `这把剑<chang2>三十公分`
 
-> **Hinweis:** Wenn du mehreren Zeichen manuell Pinyin zuweisen möchtest, setze jedes Pinyin in `< >`, z.B.: `这把<jian4><chang2><san1>十公分`
+> **Hinweis:** Wenn Sie mehreren Zeichen manuell Pinyin zuweisen möchten, schließen Sie jedes Pinyin in `<>` ein, z.B. `这把<jian4><chang2><san1>十公分`
 
 #### 3.7 Entfernen von langen Pausen aus der generierten Sprache
 
-Das Modell bestimmt automatisch die Positionen und Längen der Pausen in der generierten Sprache. Gelegentlich gibt es eine lange Pause mitten in der Sprache. Wenn du das nicht möchtest, kannst du `--remove-long-sil` verwenden, um lange Pausen in der Mitte der generierten Sprache zu entfernen (Randpausen werden standardmäßig entfernt).
+Das Modell bestimmt automatisch die Positionen und Längen der Pausen in der generierten Sprache. Gelegentlich gibt es lange Pausen mitten in der Sprache. Wenn Sie dies nicht wünschen, können Sie `--remove-long-sil` verwenden, um lange Pausen in der Mitte der generierten Sprache zu entfernen (Randpausen werden standardmäßig entfernt).
 
 #### 3.8 Modell-Download
 
-Wenn du beim Herunterladen der vortrainierten Modelle Probleme hast, dich mit HuggingFace zu verbinden, versuche, den Endpunkt auf die Mirror-Seite zu wechseln: `export HF_ENDPOINT=https://hf-mirror.com`.
+Wenn Sie beim Herunterladen der vortrainierten Modelle Schwierigkeiten haben, eine Verbindung zu HuggingFace herzustellen, versuchen Sie, den Endpunkt auf die Spiegelseite zu wechseln: `export HF_ENDPOINT=https://hf-mirror.com`.
 
-## Trainiere dein eigenes Modell
+## Eigenes Modell trainieren
 
-Siehe das [egs](egs) Verzeichnis für Beispiele zum Training, Fine-Tuning und zur Auswertung.
+Siehe das [egs](egs)-Verzeichnis für Beispiele zum Training, Fine-Tuning und zur Bewertung.
 
-## C++-Bereitstellung
+## Produktiv-Einsatz
+
+### NVIDIA Triton GPU-Laufzeit
+
+Für produktionsbereiten Einsatz mit hoher Leistung und Skalierbarkeit sehen Sie sich die [Triton Inference Server-Integration](runtime/nvidia_triton/) an, die optimierte TensorRT-Engines, gleichzeitige Anfragebearbeitung und sowohl gRPC/HTTP-APIs für den Unternehmenseinsatz bietet.
+
+### CPU-Bereitstellung
 
 Siehe [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) für die C++-Bereitstellungslösung auf der CPU.
 
 ## Diskussion & Kommunikation
 
-Du kannst direkt in [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) diskutieren.
+Sie können direkt auf [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) diskutieren.
 
-Du kannst auch den QR-Code scannen, um unserer Wechat-Gruppe beizutreten oder unserem offiziellen Wechat-Account zu folgen.
+Sie können auch den QR-Code scannen, um unserer WeChat-Gruppe beizutreten oder unserem offiziellen WeChat-Account zu folgen.
 
-| Wechat-Gruppe | Offizieller Wechat-Account |
-| ------------- | -------------------------- |
+| WeChat-Gruppe | Offizieller WeChat-Account |
+| ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Zitation
@@ -296,6 +304,6 @@ Du kannst auch den QR-Code scannen, um unserer Wechat-Gruppe beizutreten oder un
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

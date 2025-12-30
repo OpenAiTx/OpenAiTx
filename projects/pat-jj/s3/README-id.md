@@ -196,20 +196,15 @@ bash scripts/evaluation/run.sh
 ```
 
 ## Tanya Jawab
-### Data Kustom?
-Jika Anda ingin menguji s3 pada korpus/dataset milik Anda sendiri, Anda dapat merujuk ke commit berikut untuk melihat apa yang perlu Anda lakukan untuk membangun pipeline Anda sendiri: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+### Data yang Disesuaikan?
+Jika Anda ingin menguji s3 pada korpus/dataset Anda sendiri, Anda dapat merujuk pada commit ini untuk melihat apa yang perlu dilakukan untuk membangun pipeline Anda sendiri: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
 ### Mereproduksi Hasil?
-Beberapa pengembang telah berhasil mereproduksi hasil kami. Jika Anda memiliki pertanyaan atau mengalami kendala, silakan [buka isu](https://github.com/pat-jj/s3/issues) — kami dengan senang hati akan memberikan panduan langsung (lihat [contoh ini](https://github.com/pat-jj/s3/issues/20)).
+Beberapa pengembang telah berhasil mereproduksi hasil kami. Jika Anda memiliki pertanyaan atau mengalami masalah, silakan [buka isu](https://github.com/pat-jj/s3/issues) — kami dengan senang hati akan memberikan panduan langsung (lihat [contoh ini](https://github.com/pat-jj/s3/issues/20)).
 
-Walaupun mereproduksi model sendiri cukup mudah — dan kami sebenarnya **merekomendasikan pelatihan dari awal**, karena evaluasi biasanya jauh lebih memakan waktu daripada pelatihan — kami juga menyediakan checkpoint referensi: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), yang dilatih sekitar satu jam.
+Meskipun mereproduksi model sendiri cukup mudah — dan kami sebenarnya **merekomendasikan pelatihan dari awal**, karena evaluasi seringkali jauh lebih memakan waktu daripada pelatihan — kami juga menyediakan checkpoint referensi: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), yang dilatih sekitar satu jam.
 
 
-
-## Penghargaan
-Kami ingin berterima kasih kepada proyek-proyek berikut:
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## Sitasi
 ```bibtex
@@ -229,6 +224,6 @@ Terima kasih atas ketertarikan Anda pada pekerjaan kami!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

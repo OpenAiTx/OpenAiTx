@@ -196,20 +196,15 @@ bash scripts/evaluation/run.sh
 ```
 
 ## Hỏi & Đáp
-### Dữ liệu tùy chỉnh?
-Nếu bạn muốn kiểm tra s3 trên tập dữ liệu/corpus của riêng mình, bạn có thể tham khảo commit này để xem cần làm gì để xây dựng pipeline riêng: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+### Dữ liệu Tùy chỉnh?
+Nếu bạn muốn thử nghiệm s3 trên tập dữ liệu/corpus của riêng mình, bạn có thể tham khảo commit này để xem bạn cần làm gì để xây dựng pipeline riêng: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
-### Tái tạo kết quả?
-Nhiều nhà phát triển đã tái tạo thành công kết quả của chúng tôi. Nếu bạn có câu hỏi hoặc gặp sự cố, hãy [mở một issue](https://github.com/pat-jj/s3/issues) — chúng tôi sẵn sàng hỗ trợ trực tiếp (xem [ví dụ này](https://github.com/pat-jj/s3/issues/20)).
+### Tái tạo Kết quả?
+Một số nhà phát triển đã tái tạo thành công kết quả của chúng tôi. Nếu bạn có câu hỏi hoặc gặp sự cố, cứ thoải mái [mở một issue](https://github.com/pat-jj/s3/issues) — chúng tôi sẵn sàng hướng dẫn thực tế (xem [ví dụ này](https://github.com/pat-jj/s3/issues/20)).
 
-Việc tái tạo mô hình khá đơn giản — và chúng tôi thực sự **khuyến nghị huấn luyện từ đầu**, vì đánh giá thường tốn thời gian hơn huấn luyện — chúng tôi cũng cung cấp một checkpoint tham khảo: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), được huấn luyện trong khoảng một giờ.
+Mặc dù việc tự mình tái tạo mô hình khá đơn giản — và thực ra chúng tôi **khuyên bạn nên huấn luyện từ đầu**, vì đánh giá thường tốn nhiều thời gian hơn huấn luyện — chúng tôi cũng cung cấp một checkpoint tham khảo: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), được huấn luyện trong khoảng một giờ.
 
 
-
-## Lời cảm ơn
-Chúng tôi xin cảm ơn các dự án sau:
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## Trích dẫn
 ```bibtex
@@ -229,6 +224,6 @@ Cảm ơn bạn đã quan tâm đến công việc của chúng tôi!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

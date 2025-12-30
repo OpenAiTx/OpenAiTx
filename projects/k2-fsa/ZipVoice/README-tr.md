@@ -198,79 +198,87 @@ python3 -m zipvoice.bin.infer_zipvoice_dialog \
 ```
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
-- `wav_name` çıktı wav dosyasının adıdır.
-- `spk1_prompt_transcription` birinci konuşmacının prompt wav dosyasının transkripsiyonudur, örneğin, "Merhaba"
-- `spk2_prompt_transcription` ikinci konuşmacının prompt wav dosyasının transkripsiyonudur, örneğin, "Nasılsın?"
-- `spk1_prompt_wav` birinci konuşmacının prompt wav dosyasının yoludur.
-- `spk2_prompt_wav` ikinci konuşmacının prompt wav dosyasının yoludur.
-- `text` sentezlenecek metindir, örneğin, "[S1] İyiyim. [S2] Adın ne? [S1] Ben Eric. [S2] Merhaba Eric."
+- `wav_name`, çıktı wav dosyasının adıdır.
+- `spk1_prompt_transcription`, birinci konuşmacının istem wav dosyasının transkripsiyonudur, örn. "Merhaba"
+- `spk2_prompt_transcription`, ikinci konuşmacının istem wav dosyasının transkripsiyonudur, örn. "Nasılsın?"
+- `spk1_prompt_wav`, birinci konuşmacının istem wav dosyasının yoludur.
+- `spk2_prompt_wav`, ikinci konuşmacının istem wav dosyasının yoludur.
+- `text`, sentezlenecek metindir, örn. "[S1] İyiyim. [S2] Adın ne? [S1] Ben Eric. [S2] Merhaba Eric."
 
 ### 3 Daha iyi kullanım için rehberlik:
 
-#### 3.1 Prompt uzunluğu
+#### 3.1 İstem uzunluğu
 
-Daha hızlı çıkarım hızı için kısa bir prompt wav dosyası öneriyoruz (örneğin, tek konuşmacılı konuşma üretimi için 3 saniyeden az, diyalog konuşma üretimi için 10 saniyeden az). Çok uzun bir prompt çıkarımı yavaşlatır ve konuşma kalitesini bozar.
+Daha hızlı çıkarım hızı için kısa bir istem wav dosyası öneriyoruz (örn., tek konuşmacılı konuşma üretimi için 3 saniyeden az, diyalog konuşma üretimi için 10 saniyeden az). Çok uzun bir istem, çıkarımı yavaşlatır ve konuşma kalitesini düşürür.
 
 #### 3.2 Hız optimizasyonu
 
-Eğer çıkarım hızı yeterli değilse, aşağıdaki şekilde hızlandırabilirsiniz:
+Çıkarım hızı tatmin edici değilse, aşağıdaki şekilde hızlandırabilirsiniz:
 
-- **Distill model ve daha az adım**: Tek konuşmacılı konuşma üretim modeli için, daha iyi konuşma kalitesi için varsayılan olarak `zipvoice` modelini kullanıyoruz. Daha hızlı bir hız önceliğiniz ise, `zipvoice_distill` modeline geçebilir ve `--num-steps` değerini `4`'e kadar düşürebilirsiniz (varsayılan olarak 8).
+- **Distil model ve daha az adım**: Tek konuşmacılı konuşma üretim modeli için, daha iyi konuşma kalitesi için varsayılan olarak `zipvoice` modelini kullanıyoruz. Eğer hız önceliğinizse, `zipvoice_distill` modeline geçebilir ve `--num-steps` değerini varsayılan 8’den 4’e kadar düşürebilirsiniz.
 
-- **CPU ile çoklu iş parçacığı hızlandırması**: CPU üzerinde çalışırken, daha hızlı bir hız için `--num-thread` parametresini (örneğin, `--num-thread 4`) geçebilirsiniz. Varsayılan olarak 1 iş parçacığı kullanıyoruz.
+- **CPU’da çoklu iş parçacığı ile hızlandırma**: CPU’da çalıştırırken, daha hızlı bir hız için `--num-thread` parametresiyle (örn., `--num-thread 4`) iş parçacığı sayısını artırabilirsiniz. Varsayılan olarak 1 iş parçacığı kullanıyoruz.
 
-- **ONNX ile CPU hızlandırması**: CPU üzerinde çalışırken, daha hızlı bir hız için `zipvoice.bin.infer_zipvoice_onnx` ile ONNX modellerini kullanabilirsiniz (henüz diyalog üretim modelleri için ONNX desteklenmiyor). Daha da hızlı bir hız için, INT8-kuantize edilmiş bir ONNX modeli kullanmak için `--onnx-int8 True` ayarlayabilirsiniz. Kuantize model konuşma kalitesinde belli bir bozulmaya yol açacaktır. **GPU'da ONNX kullanmayın**, çünkü GPU'da PyTorch'tan daha yavaştır.
+- **CPU’da ONNX ile hızlandırma**: CPU’da çalışırken, daha hızlı bir hız için ONNX modellerini `zipvoice.bin.infer_zipvoice_onnx` ile kullanabilirsiniz (henüz diyalog üretim modelleri için ONNX desteklenmiyor). Daha da hızlı bir hız için `--onnx-int8 True` ayarlayarak INT8-kuantize ONNX modeli kullanabilirsiniz. Kuantize modelin konuşma kalitesinde belli bir düşüşe neden olacağını unutmayın. **ONNX’i GPU’da kullanmayın**, çünkü GPU’da PyTorch’tan daha yavaştır.
+
+- **NVIDIA TensorRT ile GPU Hızlandırma**: NVIDIA GPU’larda önemli bir performans artışı için, önce modeli zipvoice.bin.tensorrt_export kullanarak bir TensorRT motoruna aktarın. Ardından, veri kümeniz üzerinde (örn., bir Hugging Face veri kümesi) zipvoice.bin.infer_zipvoice ile çıkarım çalıştırın. Bu, GPU’da standart PyTorch uygulamasına göre yaklaşık 2 kat daha fazla verim sağlayabilir.
 
 #### 3.3 Bellek kontrolü
 
-Verilen metin, noktalama işaretlerine (tek konuşmacılı konuşma üretimi için) veya konuşmacı dönüşü sembolüne (diyalog konuşma üretimi için) göre parçalara ayrılır. Sonra, parçalanmış metinler toplu olarak işlenir. Bu nedenle, model neredeyse sabit bellek kullanımıyla sınırsız uzunlukta metni işleyebilir. Bellek kullanımını `--max-duration` parametresini ayarlayarak kontrol edebilirsiniz.
+Verilen metin, noktalama işaretlerine (tek konuşmacılı konuşma üretimi için) veya konuşmacı değişim sembolüne (diyalog konuşma üretimi için) göre parçalara ayrılacaktır. Sonra, parçalara ayrılan metinler toplu halde işlenecektir. Bu nedenle, model neredeyse sabit bellek kullanımıyla rastgele uzunluktaki metni işleyebilir. Bellek kullanımını `--max-duration` parametresiyle ayarlayabilirsiniz.
 
 #### 3.4 "Ham" değerlendirme
 
-Varsayılan olarak, girdileri (prompt wav, prompt transkripsiyonu ve metin) verimli çıkarım ve daha iyi performans için ön işliyoruz. Modelin "ham" performansını tam olarak sağlanan girdilerle değerlendirmek isterseniz (örneğin, makalemizdeki sonuçları yeniden üretmek için), `--raw-evaluation True` parametresini geçebilirsiniz.
+Varsayılan olarak, verimli çıkarım ve daha iyi performans için girdileri (istem wav, istem transkripsiyonu ve metin) ön işleme tabi tutuyoruz. Modelin tam olarak verilen girdilerle ("ham" performansını) değerlendirmek isterseniz (örn., makalemizdeki sonuçları çoğaltmak için), `--raw-evaluation True` parametresini geçebilirsiniz.
 
 #### 3.5 Kısa metin
 
-Çok kısa metinler için konuşma üretirken (örneğin, bir veya iki kelime), üretilen konuşma bazen bazı telaffuzları atlayabilir. Bu sorunu çözmek için, üretilen konuşmanın süresini uzatmak için `--speed 0.3` (burada 0.3 ayarlanabilir bir değerdir) parametresini kullanabilirsiniz.
+Çok kısa metinler için konuşma üretirken (örn., bir ya da iki kelime), üretilen konuşma bazen bazı telaffuzları atlayabilir. Bu sorunu çözmek için, `--speed 0.3` (0.3 ayarlanabilir bir değerdir) parametresiyle üretilen konuşmanın süresini uzatabilirsiniz.
 
-#### 3.6 Yanlış telaffuz edilen Çince çok sesli karakterleri düzeltme
-
-Çince karakterleri pinyin'e dönüştürmek için [pypinyin](https://github.com/mozillazg/python-pinyin) kullanıyoruz. Ancak, bazen **çok sesli karakterleri** (多音字) yanlış telaffuz edebilir.
+#### 3.6 Yanlış telaffuz edilen Çince polifon karakterlerin düzeltilmesi
 
 
-Bu yanlış telaffuzları manuel olarak düzeltmek için, **düzeltilmiş pinyin**'i açı köşeli parantezler `< >` içine alın ve **ton işaretini** ekleyin.
+Çince karakterleri pinyin’e dönüştürmek için [pypinyin](https://github.com/mozillazg/python-pinyin) kullanıyoruz. Ancak bazen **çok sesli karakterleri** (多音字) yanlış telaffuz edebilir.
+
+Bu yanlış telaffuzları elle düzeltmek için, **düzeltilmiş pinyin’i** köşeli parantezler `< >` içine alın ve **ton işaretini** ekleyin.
 
 **Örnek:**
 
 - Orijinal metin: `这把剑长三十公分`
-- `长` kelimesinin pinyinini düzeltin:  `这把剑<chang2>三十公分`
+- `长` karakterinin pinyin’ini düzeltin:  `这把剑<chang2>三十公分`
 
-> **Not:** Birden fazla pinyin manuel olarak atamak isterseniz, her pinyini `<>` ile ayırın, örn. `这把<jian4><chang2><san1>十公分`
+> **Not:** Birden fazla pinyin’i elle atamak isterseniz, her pinyin’i `<>` ile çevreleyin, örn: `这把<jian4><chang2><san1>十公分`
 
-#### 3.7 Oluşturulan sesten uzun sessizlikleri kaldırma
+#### 3.7 Oluşturulan konuşmadan uzun sessizlikleri kaldırma
 
-Model, oluşturulan seste sessizliklerin konumunu ve süresini otomatik olarak belirleyecektir. Bazen konuşmanın ortasında uzun bir sessizlik olur. Bunu istemiyorsanız, oluşturulan sesin ortasındaki uzun sessizlikleri kaldırmak için `--remove-long-sil` parametresini kullanabilirsiniz (kenar sessizlikler varsayılan olarak kaldırılır).
+Model, oluşturulan konuşmadaki sessizliklerin yerini ve uzunluğunu otomatik olarak belirler. Bazen konuşmanın ortasında uzun bir sessizlik olabilir. Bunu istemiyorsanız, oluşturulan konuşmanın ortasındaki uzun sessizlikleri kaldırmak için `--remove-long-sil` komutunu kullanabilirsiniz (kenar sessizlikleri varsayılan olarak kaldırılır).
 
 #### 3.8 Model indirme
 
-Önceden eğitilmiş modelleri indirirken HuggingFace ile bağlantı kurmakta sorun yaşarsanız, uç noktayı aynalı siteye değiştirmeyi deneyin: `export HF_ENDPOINT=https://hf-mirror.com`.
+Önceden eğitilmiş modelleri indirirken HuggingFace’e bağlanmada sorun yaşarsanız, uç noktayı yansı (mirror) siteye geçirmeyi deneyin: `export HF_ENDPOINT=https://hf-mirror.com`.
 
 ## Kendi Modelinizi Eğitin
 
 Eğitim, ince ayar ve değerlendirme örnekleri için [egs](egs) dizinine bakın.
 
-## C++ Dağıtımı
+## Üretim Ortamında Kullanım
 
-CPU üzerinde C++ dağıtım çözümü için [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) adresine göz atın.
+### NVIDIA Triton GPU Çalışma Zamanı
 
-## Tartışma & İletişim
+Yüksek performans ve ölçeklenebilir üretim dağıtımı için, optimize edilmiş TensorRT motorları, eşzamanlı istek işleme ve kurumsal kullanım için gRPC/HTTP API’leri sağlayan [Triton Inference Server entegrasyonuna](runtime/nvidia_triton/) göz atın.
+
+### CPU Dağıtımı
+
+CPU üzerinde C++ ile dağıtım çözümü için [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) inceleyin.
+
+## Tartışma ve İletişim
 
 Doğrudan [Github Issues](https://github.com/k2-fsa/ZipVoice/issues) üzerinden tartışabilirsiniz.
 
-Ayrıca QR kodu tarayarak wechat grubumuza katılabilir veya resmi wechat hesabımızı takip edebilirsiniz.
+Ayrıca QR kodunu tarayarak WeChat grubumuza katılabilir veya WeChat resmi hesabımızı takip edebilirsiniz.
 
 | Wechat Grubu | Wechat Resmi Hesabı |
-| ------------ | ------------------- |
+| ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Atıf
@@ -296,6 +304,6 @@ Ayrıca QR kodu tarayarak wechat grubumuza katılabilir veya resmi wechat hesab�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

@@ -209,19 +209,14 @@ bash scripts/evaluation/run.sh
 
 ## Q&A
 ### 맞춤형 데이터?
-자신만의 말뭉치/데이터셋에서 s3를 테스트하고 싶다면, 이 커밋을 참고하여 직접 파이프라인을 구축하는 데 필요한 사항을 확인할 수 있습니다: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+자신만의 말뭉치/데이터셋에서 s3를 테스트하려면, 이 커밋을 참고하여 자체 파이프라인을 구축하기 위해 필요한 작업을 확인할 수 있습니다: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
 ### 결과 재현?
-여러 개발자가 이미 성공적으로 결과를 재현했습니다. 질문이 있거나 문제가 발생하면 언제든지 [이슈를 등록](https://github.com/pat-jj/s3/issues)하세요 — 직접적인 안내를 기꺼이 제공해드립니다 (예시는 [여기](https://github.com/pat-jj/s3/issues/20)에서 확인할 수 있습니다).
+여러 개발자들이 이미 우리의 결과를 성공적으로 재현했습니다. 질문이 있거나 문제가 발생하면 언제든지 [이슈를 열어](https://github.com/pat-jj/s3/issues) 문의하세요 — 직접적인 안내를 기꺼이 제공해드립니다 (참고: [이 예시](https://github.com/pat-jj/s3/issues/20)).
 
-모델을 직접 재현하는 과정은 간단하며 — 실제로 **처음부터 학습하는 것을 추천**합니다, 평가가 종종 학습보다 훨씬 더 시간이 많이 소요되기 때문입니다 — 참고 체크포인트도 제공합니다: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), 약 1시간 정도 학습되었습니다.
+모델을 직접 재현하는 것은 간단하며 — 실제로 우리는 **처음부터 학습하는 것**을 추천합니다. 평가가 학습보다 시간이 더 많이 걸리는 경우가 많기 때문입니다 — 참고용 체크포인트도 제공합니다: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), 약 1시간 동안 학습되었습니다.
 
 
-
-## 감사의 말씀
-다음 프로젝트에 감사드립니다:
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## 인용
 ```bibtex
@@ -243,6 +238,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

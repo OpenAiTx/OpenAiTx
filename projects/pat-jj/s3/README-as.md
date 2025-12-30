@@ -196,21 +196,16 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 bash scripts/evaluation/run.sh
 ```
 
-## প্ৰশ্ন-উত্তৰ
-### কাষ্টমাইজড ডাটা?
-আপুনি যদি নিজৰ কৰ্পাছ/ডেটাসেটত s3 পৰীক্ষা কৰিব বিচাৰে, তেন্তে এই কমিটটো চাব পাৰে যাতে আপুনি নিজৰ পাইপলাইন বনাবলৈ কি কৰিব লাগিব তাক বুজিব পাৰিব: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+## প্ৰশ্ন আৰু উত্তৰ
+### ব্যক্তিগত ডাটা?
+যদি আপুনি আপোনাৰ নিজৰ কোৰ্পাছ/ডেটাচেটত s3 পৰীক্ষা কৰিব বিচাৰে, তেন্তে এই কমিটটো চাব পাৰে যাতে আপোনাৰ নিজৰ পাইপলাইন বনাবলৈ কি কৰিব লাগিব সেই বিষয়ে জানিব: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
-### ফলাফল পুনৰুত্পাদন?
-বহু বিকাশকাৰী সকলে আমাৰ ফলাফল সফলভাৱে পুনৰুত্পাদন কৰিছে। যদি আপোনাৰ প্ৰশ্ন থাকে বা সমস্যা দেখা যায়, অনুগ্ৰহ কৰি [open an issue](https://github.com/pat-jj/s3/issues) — আমি হাতে-কলমে সহায় কৰিবলৈ সদায় সাজু (চাওক [this example](https://github.com/pat-jj/s3/issues/20))।
+### ফলাফল পুনৰ উৎপাদন?
+কেইজনমান বিকাশকাৰীয়ে আমাৰ ফলাফল ইতিমধ্যে সফলভাৱে পুনৰ উৎপাদন কৰিছে। যদি আপোনাৰ প্ৰশ্ন থাকে বা সমস্যা হয়, নিশ্চিন্তে [open an issue](https://github.com/pat-jj/s3/issues) কৰক — আমি সহায় কৰিবলৈ সদায় সাজু (চাওক [এই উদাহৰণ](https://github.com/pat-jj/s3/issues/20))।
 
-যদিও নিজেই মডেলটো পুনৰুত্পাদন কৰা সহজ — আৰু আমি সঁচাকৈয়ে **শূন্যৰ পৰা প্ৰশিক্ষণ দিয়াৰ পৰামৰ্শ দিছোঁ**, কাৰণ মূল্যায়ন সাধাৰণতে প্ৰশিক্ষণতকৈ অধিক সময় লাগে — আমি এটা ৰেফাৰেঞ্চ চেকপইণ্টো প্ৰদান কৰিছোঁ: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), প্ৰায় এটা ঘণ্টাত প্ৰশিক্ষিত।
+যদিও মডেলটো নিজে উৎপাদন কৰা সহজ — আৰু আমি আসলে **শূন্যৰ পৰা প্ৰশিক্ষণ কৰিবলৈ পৰামৰ্শ দিছোঁ**, কাৰণ মূল্যায়ন সাধাৰণতে প্ৰশিক্ষণতকৈ বহু অধিক সময় লাগে — আমি এক ৰেফাৰেন্স চেকপইণ্টো দিছোঁ: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), প্ৰায় এক ঘণ্টাত প্ৰশিক্ষিত।
 
 
-
-## কৃতজ্ঞতা
-আমি তলত দিয়া প্ৰকল্পসমূহক ধন্যবাদ জনাইছোঁ:
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini)।
- 
 
 ## উদ্ধৃতি
 ```bibtex
@@ -230,6 +225,6 @@ Thanks for your interest in our work!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

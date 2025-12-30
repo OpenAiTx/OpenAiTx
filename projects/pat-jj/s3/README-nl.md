@@ -195,21 +195,16 @@ bash scripts/baselines/search_o1.sh # run Search-o1
 bash scripts/evaluation/run.sh
 ```
 
-## Vragen & Antwoorden
+## V&A
 ### Aangepaste Data?
 Als je s3 wilt testen op je eigen corpus/dataset, kun je deze commit raadplegen om te zien wat je moet doen om je eigen pipeline te bouwen: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
 ### Resultaten Reproduceren?
-Verscheidene ontwikkelaars hebben onze resultaten al succesvol gereproduceerd. Heb je vragen of kom je problemen tegen, voel je vrij om [een issue te openen](https://github.com/pat-jj/s3/issues) — we geven graag praktische begeleiding (zie [dit voorbeeld](https://github.com/pat-jj/s3/issues/20)).
+Verschillende ontwikkelaars hebben onze resultaten al succesvol gereproduceerd. Als je vragen hebt of tegen problemen aanloopt, voel je vrij om [een issue te openen](https://github.com/pat-jj/s3/issues) — we geven graag praktische begeleiding (zie [dit voorbeeld](https://github.com/pat-jj/s3/issues/20)).
 
-Hoewel het zelf reproduceren van het model eenvoudig is — en we raden zelfs aan om **vanaf nul te trainen**, aangezien evaluatie vaak veel tijdrovender is dan trainen — bieden we ook een referentie-checkpoint aan: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), getraind in ongeveer een uur.
+Hoewel het zelf reproduceren van het model eenvoudig is — en we raden zelfs aan **vanaf nul te trainen**, omdat evaluatie vaak veel tijdrovender is dan het trainen — bieden we ook een referentie-checkpoint aan: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps), getraind in ongeveer één uur.
 
 
-
-## Dankbetuiging
-Wij willen de volgende projecten bedanken:
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## Referentie
 ```bibtex
@@ -229,6 +224,6 @@ Bedankt voor uw interesse in ons werk!
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

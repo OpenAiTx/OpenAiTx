@@ -200,68 +200,76 @@ Setiap baris dari `test.tsv` menggunakan salah satu format berikut:
 ```
 
 - `wav_name` adalah nama file wav keluaran.
-- `spk1_prompt_transcription` adalah transkripsi dari file wav prompt pembicara pertama, misalnya, "Hello"
-- `spk2_prompt_transcription` adalah transkripsi dari file wav prompt pembicara kedua, misalnya, "How are you?"
+- `spk1_prompt_transcription` adalah transkripsi dari file wav prompt pembicara pertama, misalnya, "Halo"
+- `spk2_prompt_transcription` adalah transkripsi dari file wav prompt pembicara kedua, misalnya, "Apa kabar?"
 - `spk1_prompt_wav` adalah path ke file wav prompt pembicara pertama.
 - `spk2_prompt_wav` adalah path ke file wav prompt pembicara kedua.
-- `text` adalah teks yang akan disintesis, misalnya "[S1] I'm fine. [S2] What's your name? [S1] I'm Eric. [S2] Hi Eric."
+- `text` adalah teks yang akan disintesis, misalnya, "[S1] Saya baik-baik saja. [S2] Siapa namamu? [S1] Saya Eric. [S2] Hai Eric."
 
-### 3 Panduan untuk penggunaan lebih baik:
+### 3 Panduan penggunaan yang lebih baik:
 
 #### 3.1 Panjang prompt
 
-Kami merekomendasikan file wav prompt yang pendek (misalnya, kurang dari 3 detik untuk generasi ucapan satu pembicara, kurang dari 10 detik untuk generasi ucapan dialog) untuk mempercepat kecepatan inferensi. Prompt yang terlalu panjang akan memperlambat inferensi dan menurunkan kualitas ucapan.
+Kami merekomendasikan file wav prompt yang pendek (misalnya, kurang dari 3 detik untuk generasi suara satu pembicara, kurang dari 10 detik untuk generasi suara dialog) untuk kecepatan inferensi yang lebih cepat. Prompt yang sangat panjang akan memperlambat inferensi dan menurunkan kualitas suara.
 
 #### 3.2 Optimasi kecepatan
 
-Jika kecepatan inferensi kurang memuaskan, Anda dapat mempercepatnya dengan cara berikut:
+Jika kecepatan inferensi tidak memuaskan, Anda dapat mempercepatnya sebagai berikut:
 
-- **Model distilasi dan langkah lebih sedikit**: Untuk model generasi ucapan satu pembicara, kami menggunakan model `zipvoice` secara default untuk kualitas suara yang lebih baik. Jika kecepatan lebih diutamakan, Anda dapat beralih ke `zipvoice_distill` dan mengurangi `--num-steps` hingga serendah `4` (default 8).
+- **Model distilasi dan langkah lebih sedikit**: Untuk model generasi suara satu pembicara, kami menggunakan model `zipvoice` secara default untuk kualitas suara yang lebih baik. Jika kecepatan menjadi prioritas, Anda dapat beralih ke `zipvoice_distill` dan dapat mengurangi `--num-steps` serendah `4` (default 8).
 
-- **Percepatan CPU dengan multi-threading**: Saat berjalan di CPU, Anda dapat menggunakan parameter `--num-thread` (misal, `--num-thread 4`) untuk menambah jumlah thread agar lebih cepat. Default-nya adalah 1 thread.
+- **CPU lebih cepat dengan multi-threading**: Saat berjalan di CPU, Anda dapat menambahkan parameter `--num-thread` (misalnya, `--num-thread 4`) untuk meningkatkan jumlah thread agar lebih cepat. Secara default kami menggunakan 1 thread.
 
-- **Percepatan CPU dengan ONNX**: Saat berjalan di CPU, Anda dapat menggunakan model ONNX dengan `zipvoice.bin.infer_zipvoice_onnx` untuk kecepatan lebih tinggi (belum mendukung ONNX untuk model generasi dialog). Untuk kecepatan lebih tinggi lagi, Anda dapat mengatur `--onnx-int8 True` untuk menggunakan model ONNX yang di-kuantisasi INT8. Perlu diperhatikan, model kuantisasi akan menurunkan kualitas suara hingga tingkat tertentu. **Jangan gunakan ONNX di GPU**, karena lebih lambat daripada PyTorch di GPU.
+- **CPU lebih cepat dengan ONNX**: Saat berjalan di CPU, Anda dapat menggunakan model ONNX dengan `zipvoice.bin.infer_zipvoice_onnx` untuk kecepatan yang lebih tinggi (belum mendukung ONNX untuk model generasi dialog). Untuk kecepatan lebih tinggi lagi, Anda dapat mengatur `--onnx-int8 True` untuk menggunakan model ONNX INT8-kuantisasi. Perlu diperhatikan bahwa model kuantisasi akan menyebabkan penurunan kualitas suara tertentu. **Jangan gunakan ONNX di GPU**, karena lebih lambat daripada PyTorch di GPU.
+
+- **Akselerasi GPU dengan NVIDIA TensorRT**: Untuk peningkatan performa signifikan di GPU NVIDIA, ekspor model ke engine TensorRT menggunakan zipvoice.bin.tensorrt_export terlebih dahulu. Kemudian, lakukan inferensi pada dataset Anda (misal, dataset Hugging Face) dengan zipvoice.bin.infer_zipvoice. Ini dapat mencapai throughput sekitar 2x dibandingkan implementasi PyTorch standar di GPU.
 
 #### 3.3 Kontrol memori
 
-Teks yang diberikan akan dibagi menjadi beberapa bagian berdasarkan tanda baca (untuk generasi ucapan satu pembicara) atau simbol pergantian pembicara (untuk generasi ucapan dialog). Kemudian, bagian-bagian teks tersebut akan diproses secara batch. Dengan demikian, model dapat memproses teks sepanjang apapun dengan penggunaan memori yang hampir tetap. Anda dapat mengontrol penggunaan memori dengan mengatur parameter `--max-duration`.
+Teks yang diberikan akan dipotong menjadi beberapa bagian berdasarkan tanda baca (untuk generasi suara satu pembicara) atau simbol pergantian pembicara (untuk generasi suara dialog). Kemudian, teks yang sudah dipotong akan diproses secara batch. Oleh karena itu, model dapat memproses teks sepanjang apapun dengan penggunaan memori yang hampir konstan. Anda dapat mengontrol penggunaan memori dengan mengatur parameter `--max-duration`.
 
 #### 3.4 Evaluasi "Raw"
 
-Secara default, kami melakukan pra-pemrosesan pada input (prompt wav, transkripsi prompt, dan teks) untuk inferensi yang efisien dan performa yang lebih baik. Jika Anda ingin mengevaluasi performa "raw" model menggunakan input yang diberikan secara persis (misalnya, untuk mereproduksi hasil pada paper kami), Anda dapat menggunakan `--raw-evaluation True`.
+Secara default, kami memproses input (prompt wav, transkripsi prompt, dan teks) untuk inferensi yang efisien dan kinerja lebih baik. Jika Anda ingin mengevaluasi performa "raw" model menggunakan input persis seperti yang diberikan (misalnya, untuk mereproduksi hasil di makalah kami), Anda dapat menambahkan `--raw-evaluation True`.
 
 #### 3.5 Teks pendek
 
-Saat menghasilkan ucapan untuk teks yang sangat pendek (misal, satu atau dua kata), ucapan yang dihasilkan kadang-kadang dapat menghilangkan beberapa pelafalan. Untuk mengatasi masalah ini, Anda dapat menggunakan `--speed 0.3` (di mana 0.3 adalah nilai yang dapat diatur) untuk memperpanjang durasi ucapan yang dihasilkan.
+Saat menghasilkan suara untuk teks yang sangat pendek (misalnya, satu atau dua kata), suara yang dihasilkan kadang-kadang dapat melewatkan beberapa pelafalan. Untuk mengatasi masalah ini, Anda dapat menambahkan `--speed 0.3` (di mana 0.3 adalah nilai yang dapat diubah) untuk memperpanjang durasi suara yang dihasilkan.
 
-#### 3.6 Koreksi pelafalan karakter polifonik bahasa Mandarin yang salah
+#### 3.6 Koreksi pelafalan karakter polifon Tiongkok yang salah
 
-Kami menggunakan [pypinyin](https://github.com/mozillazg/python-pinyin) untuk mengonversi karakter Mandarin ke pinyin. Namun, terkadang dapat salah melafalkan **karakter polifonik** (多音字).
+Kami menggunakan [pypinyin](https://github.com/mozillazg/python-pinyin) untuk mengonversi karakter Tiongkok ke pinyin. Namun, terkadang dapat salah mengucapkan **karakter polifonik** (多音字).
 
-Untuk memperbaiki pengucapan yang salah secara manual, sertakan **pinyin yang sudah dikoreksi** di dalam tanda kurung sudut `< >` dan tambahkan **tanda nada**.
+Untuk memperbaiki pengucapan yang salah secara manual, lampirkan **pinyin yang dikoreksi** dalam tanda sudut `< >` dan sertakan **tanda nada**.
 
 **Contoh:**
 
 - Teks asli: `这把剑长三十公分`
-- Koreksi pinyin dari `长`:  `这把剑<chang2>三十公分`
+- Koreksi pinyin untuk `长`:  `这把剑<chang2>三十公分`
 
-> **Catatan:** Jika Anda ingin menetapkan beberapa pinyin secara manual, sertakan setiap pinyin dengan `<>`, misal: `这把<jian4><chang2><san1>十公分`
+> **Catatan:** Jika Anda ingin menetapkan beberapa pinyin secara manual, lampirkan setiap pinyin dengan `<>`, misalnya `这把<jian4><chang2><san1>十公分`
 
-#### 3.7 Hapus jeda panjang dari suara yang dihasilkan
+#### 3.7 Hapus keheningan panjang dari suara yang dihasilkan
 
-Model akan secara otomatis menentukan posisi dan durasi jeda dalam suara yang dihasilkan. Kadang-kadang terdapat jeda panjang di tengah suara. Jika Anda tidak menginginkannya, Anda dapat menggunakan `--remove-long-sil` untuk menghapus jeda panjang di tengah suara yang dihasilkan (jeda di tepi akan dihapus secara default).
+Model secara otomatis akan menentukan posisi dan durasi keheningan pada suara yang dihasilkan. Kadang-kadang terdapat keheningan panjang di tengah suara. Jika Anda tidak menginginkan ini, Anda dapat menambahkan `--remove-long-sil` untuk menghapus keheningan panjang di tengah suara yang dihasilkan (keheningan pada tepi akan dihapus secara default).
 
 #### 3.8 Pengunduhan model
 
-Jika Anda mengalami kesulitan terhubung ke HuggingFace saat mengunduh model pra-latih, coba ganti endpoint ke situs mirror: `export HF_ENDPOINT=https://hf-mirror.com`.
+Jika Anda mengalami masalah saat menghubungkan ke HuggingFace ketika mengunduh model pra-latih, coba ubah endpoint ke situs mirror: `export HF_ENDPOINT=https://hf-mirror.com`.
 
 ## Latih Model Anda Sendiri
 
-Lihat direktori [egs](egs) untuk contoh pelatihan, fine-tuning dan evaluasi.
+Lihat direktori [egs](egs) untuk contoh pelatihan, fine-tuning, dan evaluasi.
 
-## Deployment C++
+## Deployment Produksi
 
-Lihat [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) untuk solusi deployment C++ di CPU.
+### NVIDIA Triton GPU Runtime
+
+Untuk deployment siap produksi dengan performa tinggi dan skalabilitas, lihat [integrasi Triton Inference Server](runtime/nvidia_triton/) yang menyediakan engine TensorRT yang telah dioptimalkan, penanganan permintaan secara bersamaan, dan API gRPC/HTTP untuk penggunaan enterprise.
+
+### Deployment CPU
+
+Lihat [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) untuk solusi deployment C++ pada CPU.
 
 ## Diskusi & Komunikasi
 
@@ -273,7 +281,7 @@ Anda juga dapat memindai kode QR untuk bergabung dengan grup wechat kami atau me
 | ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
-## Kutipan
+## Sitasi
 
 ```bibtex
 @article{zhu2025zipvoice,
@@ -296,6 +304,6 @@ Anda juga dapat memindai kode QR untuk bergabung dengan grup wechat kami atau me
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

@@ -198,43 +198,45 @@ Cada línea de `test.tsv` está en uno de los siguientes formatos:
 ```
 {wav_name}\t{spk1_prompt_transcription}\t{spk2_prompt_transcription}\t{spk1_prompt_wav}\t{spk2_prompt_wav}\t{text}
 ```
-
 - `wav_name` es el nombre del archivo wav de salida.
-- `spk1_prompt_transcription` es la transcripción del archivo wav de la frase de inicio del primer hablante, por ejemplo, "Hola"
-- `spk2_prompt_transcription` es la transcripción del archivo wav de la frase de inicio del segundo hablante, por ejemplo, "¿Cómo estás?"
-- `spk1_prompt_wav` es la ruta al archivo wav de la frase de inicio del primer hablante.
-- `spk2_prompt_wav` es la ruta al archivo wav de la frase de inicio del segundo hablante.
-- `text` es el texto a sintetizar, por ejemplo, "[S1] Estoy bien. [S2] ¿Cuál es tu nombre? [S1] Soy Eric. [S2] Hola Eric."
+- `spk1_prompt_transcription` es la transcripción del archivo wav de indicación del primer hablante, por ejemplo, "Hola".
+- `spk2_prompt_transcription` es la transcripción del archivo wav de indicación del segundo hablante, por ejemplo, "¿Cómo estás?"
+- `spk1_prompt_wav` es la ruta al archivo wav de indicación del primer hablante.
+- `spk2_prompt_wav` es la ruta al archivo wav de indicación del segundo hablante.
+- `text` es el texto que se va a sintetizar, por ejemplo, "[S1] Estoy bien. [S2] ¿Cuál es tu nombre? [S1] Soy Eric. [S2] Hola Eric."
 
 ### 3 Guía para un mejor uso:
 
-#### 3.1 Longitud del prompt
+#### 3.1 Longitud de la indicación
 
-Recomendamos un archivo wav de prompt corto (por ejemplo, menos de 3 segundos para generación de discurso de un solo hablante, menos de 10 segundos para generación de diálogo) para una velocidad de inferencia más rápida. Un prompt muy largo ralentizará la inferencia y degradará la calidad del discurso.
+Recomendamos un archivo wav de indicación corto (por ejemplo, menos de 3 segundos para generación de habla de un solo hablante, menos de 10 segundos para generación de diálogos) para una velocidad de inferencia más rápida. Una indicación muy larga ralentizará la inferencia y degradará la calidad del habla.
 
 #### 3.2 Optimización de velocidad
 
 Si la velocidad de inferencia no es satisfactoria, puede acelerarla de la siguiente manera:
 
-- **Modelo destilado y menos pasos**: Para el modelo de generación de discurso de un solo hablante, usamos el modelo `zipvoice` por defecto para mejor calidad de voz. Si la velocidad es prioridad, puede cambiar a `zipvoice_distill` y reducir el parámetro `--num-steps` a tan solo `4` (8 por defecto).
+- **Modelo destilado y menos pasos**: Para el modelo de generación de habla de un solo hablante, usamos el modelo `zipvoice` por defecto para mejor calidad de habla. Si la velocidad es una prioridad, puede cambiar a `zipvoice_distill` y reducir el parámetro `--num-steps` hasta `4` (8 por defecto).
 
-- **Aceleración en CPU con multihilo**: Al ejecutar en CPU, puede pasar el parámetro `--num-thread` (por ejemplo, `--num-thread 4`) para aumentar el número de hilos y así acelerar la velocidad. Por defecto usamos 1 hilo.
+- **Aceleración de CPU con multiproceso**: Al ejecutar en CPU, puede pasar el parámetro `--num-thread` (por ejemplo, `--num-thread 4`) para aumentar el número de hilos y acelerar la velocidad. Usamos 1 hilo por defecto.
 
-- **Aceleración en CPU con ONNX**: Al ejecutar en CPU, puede usar modelos ONNX con `zipvoice.bin.infer_zipvoice_onnx` para mayor velocidad (aún no soporta ONNX para modelos de generación de diálogo). Para velocidad aún mayor, puede ajustar `--onnx-int8 True` para usar un modelo ONNX cuantizado INT8. Tenga en cuenta que el modelo cuantizado puede degradar la calidad de la voz. **No use ONNX en GPU**, ya que es más lento que PyTorch en GPU.
+- **Aceleración de CPU con ONNX**: Al ejecutar en CPU, puede usar modelos ONNX con `zipvoice.bin.infer_zipvoice_onnx` para mayor velocidad (aún no soporta ONNX para modelos de generación de diálogo). Para mayor velocidad, puede establecer `--onnx-int8 True` para usar un modelo ONNX cuantizado en INT8. Tenga en cuenta que el modelo cuantizado puede degradar la calidad del habla. **No use ONNX en GPU**, ya que es más lento que PyTorch en GPU.
+
+- **Aceleración de GPU con NVIDIA TensorRT**: Para obtener un gran aumento de rendimiento en GPUs NVIDIA, primero exporte el modelo a un motor TensorRT usando zipvoice.bin.tensorrt_export. Luego, ejecute la inferencia en su conjunto de datos (por ejemplo, un conjunto de datos de Hugging Face) con zipvoice.bin.infer_zipvoice. Esto puede lograr aproximadamente el doble de rendimiento en comparación con la implementación estándar de PyTorch en GPU.
 
 #### 3.3 Control de memoria
 
-El texto dado se dividirá en fragmentos según la puntuación (para generación de discurso de un solo hablante) o el símbolo de cambio de hablante (para generación de diálogo). Luego, los textos fragmentados se procesarán por lotes. Por lo tanto, el modelo puede procesar textos de cualquier longitud con un uso de memoria casi constante. Puede controlar el uso de memoria ajustando el parámetro `--max-duration`.
+El texto dado se dividirá en fragmentos según la puntuación (para generación de habla de un solo hablante) o el símbolo de cambio de hablante (para generación de diálogo). Luego, los textos fragmentados se procesarán en lotes. Por lo tanto, el modelo puede procesar textos arbitrariamente largos con uso de memoria casi constante. Puede controlar el uso de memoria ajustando el parámetro `--max-duration`.
 
 #### 3.4 Evaluación "cruda"
 
-Por defecto, preprocesamos las entradas (wav de prompt, transcripción de prompt y texto) para inferencia eficiente y mejor desempeño. Si desea evaluar el desempeño "crudo" del modelo usando exactamente las entradas proporcionadas (por ejemplo, para reproducir resultados de nuestro artículo), puede pasar `--raw-evaluation True`.
+Por defecto, preprocesamos las entradas (archivo wav de indicación, transcripción de indicación y texto) para una inferencia eficiente y mejor rendimiento. Si desea evaluar el rendimiento "crudo" del modelo usando exactamente las entradas proporcionadas (por ejemplo, para reproducir los resultados de nuestro artículo), puede pasar `--raw-evaluation True`.
 
 #### 3.5 Texto corto
 
-Al generar voz para textos muy cortos (por ejemplo, una o dos palabras), el discurso generado puede omitir ciertas pronunciaciones. Para resolver este problema, puede pasar `--speed 0.3` (donde 0.3 es un valor ajustable) para extender la duración del discurso generado.
+Al generar habla para textos muy cortos (por ejemplo, una o dos palabras), el habla generada puede omitir ciertas pronunciaciones. Para resolver este problema, puede pasar `--speed 0.3` (donde 0.3 es un valor ajustable) para extender la duración del habla generada.
 
-#### 3.6 Corrección de la pronunciación de caracteres chinos polifónicos
+#### 3.6 Corrección de caracteres polifónicos chinos mal pronunciados
+
 
 Utilizamos [pypinyin](https://github.com/mozillazg/python-pinyin) para convertir caracteres chinos a pinyin. Sin embargo, ocasionalmente puede pronunciar incorrectamente **caracteres polifónicos** (多音字).
 
@@ -249,19 +251,25 @@ Para corregir manualmente estas malas pronunciaciones, encierre el **pinyin corr
 
 #### 3.7 Eliminar silencios largos del habla generada
 
-El modelo determinará automáticamente las posiciones y longitudes de los silencios en el habla generada. Ocasionalmente hay un largo silencio en el medio del discurso. Si no desea esto, puede pasar `--remove-long-sil` para eliminar los silencios largos en medio del habla generada (los silencios en los bordes se eliminarán por defecto).
+El modelo determinará automáticamente las posiciones y longitudes de los silencios en el habla generada. Ocasionalmente tiene un silencio largo en medio del discurso. Si no desea esto, puede pasar `--remove-long-sil` para eliminar silencios largos en medio de la voz generada (los silencios en los extremos se eliminarán por defecto).
 
 #### 3.8 Descarga del modelo
 
-Si tiene problemas para conectarse a HuggingFace al descargar los modelos pre-entrenados, intente cambiar el endpoint al sitio espejo: `export HF_ENDPOINT=https://hf-mirror.com`.
+Si tiene problemas para conectarse a HuggingFace al descargar los modelos preentrenados, intente cambiar el endpoint al sitio espejo: `export HF_ENDPOINT=https://hf-mirror.com`.
 
 ## Entrene su propio modelo
 
 Consulte el directorio [egs](egs) para ejemplos de entrenamiento, ajuste fino y evaluación.
 
-## Despliegue en C++
+## Despliegue en producción
 
-Consulte [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) para la solución de despliegue en C++ en CPU.
+### Tiempo de ejecución NVIDIA Triton GPU
+
+Para un despliegue listo para producción con alto rendimiento y escalabilidad, consulte la [integración con Triton Inference Server](runtime/nvidia_triton/) que ofrece motores TensorRT optimizados, manejo de solicitudes concurrentes y APIs gRPC/HTTP para uso empresarial.
+
+### Despliegue en CPU
+
+Consulte [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/pull/2487#issuecomment-3227884498) para la solución de despliegue en C++ sobre CPU.
 
 ## Discusión y comunicación
 
@@ -269,8 +277,8 @@ Puede discutir directamente en [Github Issues](https://github.com/k2-fsa/ZipVoic
 
 También puede escanear el código QR para unirse a nuestro grupo de wechat o seguir nuestra cuenta oficial de wechat.
 
-| Grupo de Wechat | Cuenta oficial de Wechat |
-| --------------- | ------------------------ |
+| Grupo de Wechat | Cuenta Oficial de Wechat |
+| ------------ | ----------------------- |
 |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_group.jpg) |![wechat](https://k2-fsa.org/zh-CN/assets/pic/wechat_account.jpg) |
 
 ## Citación
@@ -296,6 +304,6 @@ También puede escanear el código QR para unirse a nuestro grupo de wechat o se
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---

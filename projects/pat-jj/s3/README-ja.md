@@ -199,19 +199,14 @@ bash scripts/evaluation/run.sh
 
 ## Q&A
 ### カスタマイズされたデータについて
-独自のコーパスやデータセットでs3をテストしたい場合は、このコミットを参考にして独自のパイプラインを構築するために必要な手順を確認できます: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
+独自のコーパスやデータセットで s3 をテストしたい場合は、このコミットを参考にして独自のパイプラインを構築する手順を確認できます: [commit 8420538](https://github.com/pat-jj/s3/commit/8420538836febbe59d5bcbe41187f16908c9c36c)
 
 ### 結果の再現について
-複数の開発者がすでに本結果の再現に成功しています。質問がある場合や問題が発生した場合は、遠慮なく[issueをオープン](https://github.com/pat-jj/s3/issues)してください — 実践的なサポートも喜んで提供します（[この例](https://github.com/pat-jj/s3/issues/20)をご参照ください）。
+複数の開発者がすでに当社の結果を正常に再現しています。ご質問や問題が発生した場合は、[issue をオープン](https://github.com/pat-jj/s3/issues) してください — 実践的なガイダンスを喜んで提供します（[この例](https://github.com/pat-jj/s3/issues/20) をご参照ください）。
 
-モデルの再現は比較的簡単です — 実際に評価は学習よりもはるかに時間がかかることが多いため、**スクラッチからの学習を推奨します** — 参考用のチェックポイントも提供しています: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)、約1時間で学習済みです。
+モデルの再現自体は簡単ですが、実際には**一からの学習を推奨しています**。評価は多くの場合、学習よりもはるかに時間がかかるためです。参考用のチェックポイントも提供しています: [s3-8-3-3-20steps](https://huggingface.co/pat-jj/s3-8-3-3-20steps)（約1時間で学習済み）。
 
 
-
-## 謝辞
-以下のプロジェクトに感謝します:
-[verl](https://github.com/volcengine/verl), [RAGEN](https://github.com/RAGEN-AI/RAGEN), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [DeepRetrieval](https://github.com/pat-jj/DeepRetrieval), [PySerini](https://github.com/castorini/pySerini).
- 
 
 ## 引用
 ```bibtex
@@ -231,6 +226,6 @@ bash scripts/evaluation/run.sh
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
 
 ---
