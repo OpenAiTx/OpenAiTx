@@ -1,0 +1,686 @@
+[
+  {
+    "row": 1,
+    "rowsha": "XlDHmiKaRMaLsjBpTRr8NVzwYU8t1WVNDcT869hec2s=",
+    "originContent": "# Govalid",
+    "translatedContent": "# Govalid"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "XoT+meVVZlaM3+zjfPis9MecwB7jB8TaAIYwuwQQses=",
+    "originContent": "[![](https://goreportcard.com/badge/github.com/twharmon/govalid)](https://goreportcard.com/report/github.com/twharmon/govalid)",
+    "translatedContent": "[![](https://goreportcard.com/badge/github.com/twharmon/govalid)](https://goreportcard.com/report/github.com/twharmon/govalid)"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "E0Js4sM8TiD6JSLMA2BARFVIXHrTL9CykSpgi89jn5g=",
+    "originContent": "Use Govalid to validate structs.",
+    "translatedContent": "Utilisez Govalid pour valider des structures."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "jUiJ40Y0eP2KO+MvIrf9hH11CxmocXZrFX9xAaFLJmc=",
+    "originContent": "## Basic Example",
+    "translatedContent": "## Exemple de base"
+  },
+  {
+    "row": 8,
+    "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+    "originContent": "```go",
+    "translatedContent": "```go"
+  },
+  {
+    "row": 9,
+    "rowsha": "UShDhV/MkqUcgQsbWOBzHAHqyaaiPBV7+gKq1x7f++c=",
+    "originContent": "package main",
+    "translatedContent": "package main"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "0NrstaoCAUE7YHmPS6R4dGEAwhf7+jXw9blKepsV2RQ=",
+    "originContent": "import (",
+    "translatedContent": "import ("
+  },
+  {
+    "row": 12,
+    "rowsha": "oL8zwR4+xYQGFOGTiqsoG1X+9t9IXvTc1xguqHczd7Q=",
+    "originContent": "\t\"errors\"",
+    "translatedContent": "\t\"errors\""
+  },
+  {
+    "row": 13,
+    "rowsha": "bxiNYRyQDQHSapG1SO1UL5xAESbBBT8fhvlHgBYqeG4=",
+    "originContent": "\t\"fmt\"",
+    "translatedContent": "\t\"fmt\""
+  },
+  {
+    "row": 14,
+    "rowsha": "ANKF0ZDgzBMFi1m0kS4XMtcLRyAC5WT4fhwllpibsQ8=",
+    "originContent": "\t\"log\"",
+    "translatedContent": "\t\"log\""
+  },
+  {
+    "row": 15,
+    "rowsha": "iErA9dyqiyd0oRReEDjXWg4MigL2Ln5DjE4vqv9Z0JA=",
+    "originContent": "\t\"strings\"",
+    "translatedContent": "\t\"strings\""
+  },
+  {
+    "row": 16,
+    "rowsha": "6jFZa6kTJaYy5wUrtz6b9eD5AeTbTQkEWuTBBvNxgfE=",
+    "originContent": "\t\"unicode/utf8\"",
+    "translatedContent": "\t\"unicode/utf8\""
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "lrDomfAnKywlJ5VA6BFFgq2KlzHIXb5ZAD6eX42Zs3Q=",
+    "originContent": "\t\"github.com/twharmon/govalid\"",
+    "translatedContent": "\t\"github.com/twharmon/govalid\""
+  },
+  {
+    "row": 19,
+    "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+    "originContent": ")",
+    "translatedContent": ")"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "VlGfJuErS6T3MDFyMIb6wrF49+jdXISwUOk1IPBAlVA=",
+    "originContent": "type Post struct {",
+    "translatedContent": "type Post struct {"
+  },
+  {
+    "row": 22,
+    "rowsha": "BdwnpGMOowk6omt4Iut1ZFsNxZcqaeFrn/YiJnRS+kU=",
+    "originContent": "\t// ID has no constraints",
+    "translatedContent": "\t// ID has no constraints"
+  },
+  {
+    "row": 23,
+    "rowsha": "2mEjb2IoywNZr695nHUJX3l3cnTDlE1M81f0Cwoe9cU=",
+    "originContent": "\tID int",
+    "translatedContent": "\tID int"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "Q2V6HKTrA++O/SKQyrHNoNRDH0zNkQWx6IlFxlTPRyw=",
+    "originContent": "\t// Title is required, must be at least 3 characters long, and",
+    "translatedContent": "\t// Title is required, must be at least 3 characters long, and"
+  },
+  {
+    "row": 26,
+    "rowsha": "Fk6Na2JzsyOiJ+uteL8Ja7Adug4IsLomo/d24tSEQEs=",
+    "originContent": "\t// cannot be more than 20 characters long",
+    "translatedContent": "\t// cannot be more than 20 characters long"
+  },
+  {
+    "row": 27,
+    "rowsha": "d1LI8Y0NPpGSTbg3f5/xKz79590zLxs2eJd1Wx1Xtg8=",
+    "originContent": "\tTitle string `valid:\"req|min:3|max:20\"`",
+    "translatedContent": "\tTitle string `valid:\"req|min:3|max:20\"`"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "+0uZ3C/0Je5dXXYsa/iMNMDW8WYDOSa4C8c2T3C5oU4=",
+    "originContent": "\t// Body is not required, cannot be more than 10000 charachers,",
+    "translatedContent": "\t// Body is not required, cannot be more than 10000 charachers,"
+  },
+  {
+    "row": 30,
+    "rowsha": "144ZL9eh9O0UKCnwRGTIGz3pPuyruh9kSGxsBk5e1PM=",
+    "originContent": "\t// and must be \"fun\" (a custom rule defined below).",
+    "translatedContent": "\t// and must be \"fun\" (a custom rule defined below)."
+  },
+  {
+    "row": 31,
+    "rowsha": "K0TPC1qxFjfWeiqxb1sdNaHXeDzjLDy8BDdfwig7TgU=",
+    "originContent": "\tBody string `valid:\"max:10000|fun\"`",
+    "translatedContent": "\tBody string `valid:\"max:10000|fun\"`"
+  },
+  {
+    "row": 32,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "477XskFGOI6HtL1vgLCndqbEY9HpnF/1YFeYnaoIPXA=",
+    "originContent": "func main() {",
+    "translatedContent": "func main() {"
+  },
+  {
+    "row": 35,
+    "rowsha": "4rGegJMoIgpnYFduHQa/LOSEx0Ji0uO/Y7q8bfMgTgM=",
+    "originContent": "\t// Add custom string rule \"fun\" that can be used on any string field",
+    "translatedContent": "\t// Add custom string rule \"fun\" that can be used on any string field"
+  },
+  {
+    "row": 36,
+    "rowsha": "IjEiIOxLlBAThM7SO0xXtIHF0X5jlAz8bnGJo5Oif28=",
+    "originContent": "\t// in any struct.",
+    "translatedContent": "\t// in any struct."
+  },
+  {
+    "row": 37,
+    "rowsha": "8/GAwTtXpww4+A4d0gUaXF3j5ROH6/gu28weT6iKfUA=",
+    "originContent": "\tgovalid.Rule(\"fun\", func(v any) error {",
+    "translatedContent": "\tgovalid.Rule(\"fun\", func(v any) error {"
+  },
+  {
+    "row": 38,
+    "rowsha": "tfD1k2z9IDHBmp0EX7UdgIm7G5acKKf5dnbDE9Ett+I=",
+    "originContent": "\t\tswitch tv := v.(type) {",
+    "translatedContent": "\t\tswitch tv := v.(type) {"
+  },
+  {
+    "row": 39,
+    "rowsha": "p4P8mdLS3HLFpnu4gT3QonGsUvnrDoQmbUlsG64XL0w=",
+    "originContent": "\t\tcase string:",
+    "translatedContent": "\t\tcase string:"
+  },
+  {
+    "row": 40,
+    "rowsha": "is2D5Ay0VpTWt3oZQlpk1IzrHn/Z/1d90VJk8H9J4qw=",
+    "originContent": "\t\t\tif float64(strings.Count(tv, \"!\"))/float64(utf8.RuneCountInString(tv)) > 0.001 {",
+    "translatedContent": "\t\t\tif float64(strings.Count(tv, \"!\"))/float64(utf8.RuneCountInString(tv)) > 0.001 {"
+  },
+  {
+    "row": 41,
+    "rowsha": "okUBTgIy9AcWusWwHHvgahGsOc7cQAnkZceNSAr1HnI=",
+    "originContent": "\t\t\t\treturn nil",
+    "translatedContent": "\t\t\t\treturn nil"
+  },
+  {
+    "row": 42,
+    "rowsha": "T/rvzIHbEv58URpAy1BIKsSq+K/GLJbCU9RgNvREppY=",
+    "originContent": "\t\t\t}",
+    "translatedContent": "\t\t\t}"
+  },
+  {
+    "row": 43,
+    "rowsha": "SqEK25nBAAi3t438BA4N6vYjcnbRKE0Ch10N6yC+Hz4=",
+    "originContent": "\t\t\t// return a validation error with govalid.Error",
+    "translatedContent": "\t\t\t// return a validation error with govalid.Error"
+  },
+  {
+    "row": 44,
+    "rowsha": "d2oQdgGcXXCKbxaYXFUdi+P7QQMd1FZH+KnCFzwssow=",
+    "originContent": "\t\t\treturn govalid.NewValidationError(\"must contain more exclamation marks\")",
+    "translatedContent": "\t\t\treturn govalid.NewValidationError(\"must contain more exclamation marks\")"
+  },
+  {
+    "row": 45,
+    "rowsha": "cvBw/jovj2546ucBp2dnCeI/kzyhSj5wlLCYAdTMsEk=",
+    "originContent": "\t\tdefault:",
+    "translatedContent": "\t\tdefault:"
+  },
+  {
+    "row": 46,
+    "rowsha": "MLJ7rJFOYc03S59Og5TANBR0XUN3FVjDYb2837LTIT0=",
+    "originContent": "\t\t\t// return a non validation (internal) error",
+    "translatedContent": "\t\t\t// return a non validation (internal) error"
+  },
+  {
+    "row": 47,
+    "rowsha": "Gk9SNRy4CyVMRa4KEjuldhF/jML5XL2vAmWbj4XDn9I=",
+    "originContent": "\t\t\treturn errors.New(\"fun constraint must be applied to string only\")",
+    "translatedContent": "\t\t\treturn errors.New(\"fun constraint must be applied to string only\")"
+  },
+  {
+    "row": 48,
+    "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+    "originContent": "\t\t}",
+    "translatedContent": "\t\t}"
+  },
+  {
+    "row": 49,
+    "rowsha": "VHkadZ4rhDU3jC/KHpHMKiGXwZ15+QfreP7pEdDUsYM=",
+    "originContent": "\t})",
+    "translatedContent": "\t})"
+  },
+  {
+    "row": 50,
+    "rowsha": "LuulpOy5JFAnBL39HmOz2nVcy3E1qKdpU2dcEk9Mbiw=",
+    "originContent": "\tfmt.Println(govalid.Validate(&Post{",
+    "translatedContent": "\tfmt.Println(govalid.Validate(&Post{"
+  },
+  {
+    "row": 51,
+    "rowsha": "Adb8AVIlPxAWiXX6lIg0ScqTW2B473pN81SJ7VnnXtc=",
+    "originContent": "\t\tID:    5,",
+    "translatedContent": "\t\tID:    5,"
+  },
+  {
+    "row": 52,
+    "rowsha": "DMLrBT2SWxygaCZ/iqvQ/pkm5pfiEiqcyGdxa8LjsDo=",
+    "originContent": "\t\tTitle: \"Hi\",",
+    "translatedContent": "\t\tTitle: \"Hi\","
+  },
+  {
+    "row": 53,
+    "rowsha": "0e9DIhssnUvYIP+1Y/KEaozWQD1Fd9PolQuw4DOjx4U=",
+    "originContent": "\t\tBody:  \"Hello world!\",",
+    "translatedContent": "\t\tBody:  \"Hello world!\","
+  },
+  {
+    "row": 54,
+    "rowsha": "DFY0iwqGZR/lVmyEX/DwsEoLfVayHRIAm2EoyCst/yU=",
+    "originContent": "\t}))",
+    "translatedContent": "\t}))"
+  },
+  {
+    "row": 55,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 56,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "jSau2Nd/U1zmtCf/vZsX88bsyGTHFeULkmhBssUUE64=",
+    "originContent": "## Error Values",
+    "translatedContent": "## Valeurs d'erreur"
+  },
+  {
+    "row": 59,
+    "rowsha": "+oVgQDCZ+y3HN5VS4WWa+8LuP2cPSPG3b7DRgghyeys=",
+    "originContent": "When you call `govalid.Validate` to validate a struct, it returns an error if the validation rules are not met. This error may either be a validation-specific error (an implementation of `govalid.ValidationError`) or a different error indicating a problem in processing the validation. This allows you to distinguish between errors caused by invalid data and those caused by issues in your validation logic, such as setting the `valid` tag to `max:not-a-number`.",
+    "translatedContent": "Lorsque vous appelez `govalid.Validate` pour valider une structure, il renvoie une erreur si les règles de validation ne sont pas respectées. Cette erreur peut être soit une erreur spécifique à la validation (une implémentation de `govalid.ValidationError`), soit une autre erreur indiquant un problème lors du traitement de la validation. Cela vous permet de distinguer les erreurs causées par des données invalides de celles causées par des problèmes dans votre logique de validation, comme définir la balise `valid` à `max:not-a-number`."
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+    "originContent": "```go",
+    "translatedContent": "```go"
+  },
+  {
+    "row": 62,
+    "rowsha": "inQwvo9wRGQsuJHXJenaltkk9OKCgJ+ja0YWjwA/LQA=",
+    "originContent": "if err := govalid.Validate(value); err != nil {",
+    "translatedContent": "if err := govalid.Validate(value); err != nil {"
+  },
+  {
+    "row": 63,
+    "rowsha": "H07AnhLC11SXg2fkyq9O2eKyl0SjJgnu7C4IWrB6j8k=",
+    "originContent": "\tif verr, ok := err.(govalid.ValidationError); ok {",
+    "translatedContent": "\tif verr, ok := err.(govalid.ValidationError); ok {"
+  },
+  {
+    "row": 64,
+    "rowsha": "DRV43az1CabrTK7FNYd1XKbqckgXy+yGmIpUa/eocdw=",
+    "originContent": "\t\tfmt.Println(\"validation error\", verr)",
+    "translatedContent": "\t\tfmt.Println(\"validation error\", verr)"
+  },
+  {
+    "row": 65,
+    "rowsha": "rWU2DqTt3MT2bqMWcOdTZ0wZNLdPRskP6pABe5PFhYQ=",
+    "originContent": "\t} else {",
+    "translatedContent": "\t} else {"
+  },
+  {
+    "row": 66,
+    "rowsha": "GeLRd9IdejBrpvPgg6aRnrBbLs31eTEDUI88hft4vfY=",
+    "originContent": "\t\tfmt.Println(\"some other error\", err)",
+    "translatedContent": "\t\tfmt.Println(\"some other error\", err)"
+  },
+  {
+    "row": 67,
+    "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+    "originContent": "\t}",
+    "translatedContent": "\t}"
+  },
+  {
+    "row": 68,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 69,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "yf6/1KPnFZuJssOePo4dcika1yVoCLvLeoGpZsdkP/k=",
+    "originContent": "## Dive Usage",
+    "translatedContent": "## Utilisation de Dive"
+  },
+  {
+    "row": 72,
+    "rowsha": "F0amhsFMLwNrDCzZxPT8/0ceSUyoI+DWeGzUdXmVObo=",
+    "originContent": "The `dive` rule is used to apply validation rules to elements within pointers, slices, arrays, and structs. When the `dive` rule is encountered, it instructs the validator to \"dive\" into the elements of the collection or the value pointed to by a pointer and apply the remaining rules to each element or the dereferenced value.",
+    "translatedContent": "La règle `dive` est utilisée pour appliquer des règles de validation aux éléments à l'intérieur des pointeurs, slices, tableaux et structs. Lorsque la règle `dive` est rencontrée, elle indique au validateur de \"plonger\" dans les éléments de la collection ou la valeur pointée par un pointeur et d'appliquer les règles restantes à chaque élément ou à la valeur déréférencée."
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "hyZbi8OitYI3PRMMHutbRl82OGw+5qLl1ZAocicLwRU=",
+    "originContent": "### Notes",
+    "translatedContent": "### Notes"
+  },
+  {
+    "row": 75,
+    "rowsha": "EPMS5DzjXk/j92sjSysjEbrzmqM1XqsC5qqGIocC36I=",
+    "originContent": "- **Pointers**: The `dive` rule will dereference the pointer and apply the remaining rules to the value it points to.",
+    "translatedContent": "- **Pointeurs** : La règle `dive` va déréférencer le pointeur et appliquer les règles restantes à la valeur pointée."
+  },
+  {
+    "row": 76,
+    "rowsha": "Ehy5ylar/SyLTVkPLOCoZhyyNcocSlcvtlJhfrlwbjQ=",
+    "originContent": "- **Slices/Arrays**: The `dive` rule will iterate over each element in the slice or array and apply the remaining rules to each element.",
+    "translatedContent": "- **Slices/Tableaux** : La règle `dive` va itérer sur chaque élément du slice ou tableau et appliquer les règles restantes à chaque élément."
+  },
+  {
+    "row": 77,
+    "rowsha": "A7SS3Hyjj6YDEJt4RCaFu/sbRUtTWE6UyJp+dxuSMMs=",
+    "originContent": "- **Structs**: The `dive` rule will validate the struct according to its own field tags. The remaining rules after `dive` have no meaning for structs.",
+    "translatedContent": "- **Structs** : La règle `dive` va valider la struct selon ses propres tags de champ. Les règles restantes après `dive` n'ont pas de sens pour les structs."
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "hnzbP5n92VqN57hTx4TGZdA7PXpVlf8mcU9W4gP7SoE=",
+    "originContent": "### Examples",
+    "translatedContent": "### Exemples"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "0UxVOSZ78nPy3TLnXMOb+QSEOXfA/bGVMQWEn6kBR3Y=",
+    "originContent": "#### Pointers",
+    "translatedContent": "#### Pointeurs"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+    "originContent": "```go",
+    "translatedContent": "```go"
+  },
+  {
+    "row": 84,
+    "rowsha": "kXHSoZlZ8UBmbwa1Bqb28TUgWu9H9PPc79mG9pfZGqI=",
+    "originContent": "type Example struct {",
+    "translatedContent": "type Example struct {"
+  },
+  {
+    "row": 85,
+    "rowsha": "ZN/CZEpEcOWtVfSvJqeoW3nyTR1OrWI9kzlPtK4uWv4=",
+    "originContent": "    Field *string `valid:\"req|dive|min:3\"`",
+    "translatedContent": "    Field *string `valid:\"req|dive|min:3\"`"
+  },
+  {
+    "row": 86,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 87,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 88,
+    "rowsha": "t9Y7OalqetHrfVXKylRuVDtVCW7ctQHSBsew+s/h9L8=",
+    "originContent": "In this example, the Field must be a non-nil pointer to a string, and the string must be at least 3 characters long.",
+    "translatedContent": "Dans cet exemple, le champ doit être un pointeur non nil vers une chaîne, et la chaîne doit comporter au moins 3 caractères."
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "hVBrqUxhladdkrrQ/UTMgaOxshWxoT+kWswft77AqfA=",
+    "originContent": "#### Slices/Arrays",
+    "translatedContent": "#### Slices/Tableaux"
+  },
+  {
+    "row": 91,
+    "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+    "originContent": "```go",
+    "translatedContent": "```go"
+  },
+  {
+    "row": 92,
+    "rowsha": "kXHSoZlZ8UBmbwa1Bqb28TUgWu9H9PPc79mG9pfZGqI=",
+    "originContent": "type Example struct {",
+    "translatedContent": "type Example struct {"
+  },
+  {
+    "row": 93,
+    "rowsha": "pGHkjjJYBmJo2rAL+H6VQBW5eZlStpUiXKsfr8GLg1E=",
+    "originContent": "    Field []string `valid:\"req|dive|min:3\"`",
+    "translatedContent": "    Field []string `valid:\"req|dive|min:3\"`"
+  },
+  {
+    "row": 94,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 95,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 96,
+    "rowsha": "mSYoqW64lE3SeTrgTzSJuYjL7KBxTVy9MbLAJLmH2/8=",
+    "originContent": "In this example, the Field must be a non-nil slice of strings, and each string in the slice must be at least 3 characters long.",
+    "translatedContent": "Dans cet exemple, le champ doit être une tranche non nulle de chaînes, et chaque chaîne dans la tranche doit comporter au moins 3 caractères."
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "eBsmJAZK0TTGbvOMExHBBZ/kqO8MpFM0rqmCgqnP3gc=",
+    "originContent": "#### Structs",
+    "translatedContent": "#### Structures"
+  },
+  {
+    "row": 99,
+    "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+    "originContent": "```go",
+    "translatedContent": "```go"
+  },
+  {
+    "row": 100,
+    "rowsha": "Z8lrn5ar/mhyNl9zRBiZyyxPMCVxZe3T/ilWJD1fO8w=",
+    "originContent": "type Inner struct {",
+    "translatedContent": "type Inner struct {"
+  },
+  {
+    "row": 101,
+    "rowsha": "S4SCYqkCzLtszyUY6Lku86rjkamgFjnIgJtAZe1UVtI=",
+    "originContent": "    Name string `valid:\"req\"`",
+    "translatedContent": "    Name string `valid:\"req\"`"
+  },
+  {
+    "row": 102,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "iwFzQD/Ot9hzQvLb5jxFOeQZl+15GhPlkVjLJ/s5hwI=",
+    "originContent": "type Outer struct {",
+    "translatedContent": "type Outer struct {"
+  },
+  {
+    "row": 105,
+    "rowsha": "c2rCYYrgjUhaYq7aN/vMse0PYBVyTpguEmPLMMQC7ds=",
+    "originContent": "    InnerStruct Inner `valid:\"dive\"`",
+    "translatedContent": "    InnerStruct Inner `valid:\"dive\"`"
+  },
+  {
+    "row": 106,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 107,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 108,
+    "rowsha": "i3Dpzg5DsbO6idMdJ1/jytnrIim5tm2OK2y8DgxakGk=",
+    "originContent": "In this example, the InnerStruct field will be validated according to the validation tags defined in the Inner struct.",
+    "translatedContent": "Dans cet exemple, le champ InnerStruct sera validé selon les tags de validation définis dans la structure Inner."
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "fMu080v6eh/hFkmstsVs1QR9bj14O7X3mMQkwTJevBw=",
+    "originContent": "## Contribute",
+    "translatedContent": "## Contribuer"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "Jf8sYrt3q3Gh+p7mDv5eCFlVj4+B5zGQlgzJeTOShBg=",
+    "originContent": "Make a pull request.",
+    "translatedContent": "Faites une demande de tirage."
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

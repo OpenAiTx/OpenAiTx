@@ -1,0 +1,296 @@
+[
+  {
+    "row": 1,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 2,
+    "rowsha": "mcn+6TZ5EfGonFv7S1KttRuVRKlcyUqKKQLqWeobAcA=",
+    "originContent": "# Blue Archive API",
+    "translatedContent": "# API de Blue Archive"
+  },
+  {
+    "row": 3,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 4,
+    "rowsha": "A8q/sqC0wBciUGQ+TR99f6oXiEsTcTp3RgoabL5i60M=",
+    "originContent": "## *This API provides data for both the global and Japanese versions of Blue Archive.*",
+    "translatedContent": "## *Esta API proporciona datos tanto para las versiones global y japonesa de Blue Archive.*"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "5TrXGsMhUb4+rAqI7zM/KVR09zAi6GQMAn/xbfcd3Ec=",
+    "originContent": "- [Blue Archive EN](https://bluearchive.nexon.com/home): Official EN Website",
+    "translatedContent": "- [Blue Archive EN](https://bluearchive.nexon.com/home): Sitio oficial EN"
+  },
+  {
+    "row": 7,
+    "rowsha": "C14J72l68rojbNgNFSJVYPDMkgQNfnG0AuV419GzmXw=",
+    "originContent": "- [Blue Archive JP](https://bluearchive.jp/): Official JP Website",
+    "translatedContent": "- [Blue Archive JP](https://bluearchive.jp/): Sitio oficial JP"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "uEmKl924mTkktl4+rQZooBcIYiwhAuqvdorwLoyY4TI=",
+    "originContent": "API that provides various data from the game Blue Archive. If you want to contribute to this project, feel free to open a pull request or an issue. If you want to support me, you can donate to my [Ko-Fi](https://ko-fi.com/torikushiii).",
+    "translatedContent": "API que proporciona varios datos del juego Blue Archive. Si quieres contribuir a este proyecto, siéntete libre de abrir un pull request o un issue. Si quieres apoyarme, puedes donar en mi [Ko-Fi](https://ko-fi.com/torikushiii)."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "JfNHherxUSrLNsbAsEtFfoSsM8vsqZjDtkQ0kTOxXx8=",
+    "originContent": "**Hosted API at https://api.ennead.cc/buruaka**",
+    "translatedContent": "**API alojada en https://api.ennead.cc/buruaka**"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "u9PUlJpvI379jU/1x8XzDZaOepia0S89fc72nJgFORI=",
+    "originContent": "## Prerequisites",
+    "translatedContent": "## Requisitos previos"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "4dd/hCebrPSAwFPXqiLPJaeJoSq32/z4bkMv5q/r9fU=",
+    "originContent": "- [Go](https://go.dev/dl/): 1.24 or newer",
+    "translatedContent": "- [Go](https://go.dev/dl/): 1.24 o superior"
+  },
+  {
+    "row": 16,
+    "rowsha": "YjQmcUQ1nXEsp+Hoq6S0oLUgFjCGwXTHJKbPih+Q9H4=",
+    "originContent": "- MongoDB instance reachable by the API (the default URI is `mongodb://localhost:27017`)",
+    "translatedContent": "- Instancia MongoDB accesible por la API (el URI predeterminado es `mongodb://localhost:27017`)"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": "## Configuración"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "Mm5FFDt5R5fYTXsKl6kz1TDfiL9ZLktitv459bbA5V4=",
+    "originContent": "Runtime options are loaded from a YAML file. By default the server reads `config.yaml` in the project root. Set the `CONFIG_PATH` environment variable to point to an alternate configuration file if needed.",
+    "translatedContent": "Las opciones en tiempo de ejecución se cargan desde un archivo YAML. Por defecto el servidor lee `config.yaml` en la raíz del proyecto. Establece la variable de entorno `CONFIG_PATH` para apuntar a un archivo de configuración alternativo si es necesario."
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "h6FThNvFn3avVPJrFHN7qFJlUROcXz0NynzinOPgstc=",
+    "originContent": "See `config.yaml` for an example that matches the local defaults.",
+    "translatedContent": "Consulta `config.yaml` para un ejemplo que coincide con los valores predeterminados locales."
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "NgSraAbw+gXbNpEv0uzJsH4et9ihLls0JJz0xogKRDY=",
+    "originContent": "## Running the API",
+    "translatedContent": "## Ejecutando la API"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "qqyNE1W9UBB76nhlQ60KSv/55gRohNtr5bVCeVY+Q1Q=",
+    "originContent": "Build dependencies and start the server using Go:",
+    "translatedContent": "Construye las dependencias y arranca el servidor usando Go:"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 29,
+    "rowsha": "+/2JOK3mPSz3RcfH2q4gWxljYRpxUBl4CRy6b7h4VkQ=",
+    "originContent": "go run ./cmd/server",
+    "translatedContent": "go run ./cmd/server"
+  },
+  {
+    "row": 30,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "h16o2JuLt5JRWY2zeNr3frxJUrzGtH1lJI0FFRvVrQs=",
+    "originContent": "The listener address is controlled through configuration (default `0.0.0.0:9999`). All REST endpoints are served under the `/buruaka` base path (e.g. `/buruaka/character`), and the server connects to MongoDB using the configured URI to deliver character, raid, and banner data.",
+    "translatedContent": "La dirección del receptor se controla mediante la configuración (por defecto `0.0.0.0:9999`). Todos los puntos finales REST se sirven bajo la ruta base `/buruaka` (por ejemplo, `/buruaka/character`), y el servidor se conecta a MongoDB utilizando la URI configurada para entregar datos de personajes, incursiones y pancartas."
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "ydGE06bWwlAx8pvaeP5YgG22jTlA6YyGMq2bRJRAm0A=",
+    "originContent": "To produce a standalone binary:",
+    "translatedContent": "Para producir un binario independiente:"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 37,
+    "rowsha": "fph8yxpzI4YYEgzAqYC3cieL/Rkke0S+uPMwhy3sp2g=",
+    "originContent": "go build -o server ./cmd/server",
+    "translatedContent": "go build -o server ./cmd/server"
+  },
+  {
+    "row": 38,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Ejecutar pruebas con:"
+  },
+  {
+    "row": 40,
+    "rowsha": "rVre1P6Xk4tbt4MkkbKIZTsh8xtLr7rvOT3IPgTuXOo=",
+    "originContent": "Run tests with:",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 43,
+    "rowsha": "G7SX4+E6EQXPJOM1n6Pvdd4Itm/4ooOc1/nql4JNnrM=",
+    "originContent": "go test ./...",
+    "translatedContent": "go test ./..."
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "02RvgTNJTKYdiJmC+ZtwFV5BdEr5hblXvw4LT3w9Gnk=",
+    "originContent": "## REST API Documentation",
+    "translatedContent": "## Documentación de la API REST"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "b+wrVhY1PFKw5ElkuC/hhBUz6aXwpFpmbwdJUe6dYm8=",
+    "originContent": "Endpoint details are in the [docs](https://github.com/torikushiii/BlueArchiveAPI/tree/main/docs) folder.",
+    "translatedContent": "Los detalles del endpoint están en la carpeta [docs](https://github.com/torikushiii/BlueArchiveAPI/tree/main/docs)."
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

@@ -1,0 +1,829 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Govalid\n\n[![](https://goreportcard.com/badge/github.com/twharmon/govalid)](https://goreportcard.com/report/github.com/twharmon/govalid)\n\nUse Govalid to validate structs.\n\n## Basic Example",
+    "ContentSha": "wp4lH71xN1ddvstgfjrSBTf4+savviTg5rAL66EMgHM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Govalid\n\n[![](https://goreportcard.com/badge/github.com/twharmon/govalid)](https://goreportcard.com/report/github.com/twharmon/govalid)\n\n使用 Govalid 验证结构体。\n\n## 基本示例",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "XlDHmiKaRMaLsjBpTRr8NVzwYU8t1WVNDcT869hec2s=",
+        "originContent": "# Govalid",
+        "translatedContent": "# Govalid"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "XoT+meVVZlaM3+zjfPis9MecwB7jB8TaAIYwuwQQses=",
+        "originContent": "[![](https://goreportcard.com/badge/github.com/twharmon/govalid)](https://goreportcard.com/report/github.com/twharmon/govalid)",
+        "translatedContent": "[![](https://goreportcard.com/badge/github.com/twharmon/govalid)](https://goreportcard.com/report/github.com/twharmon/govalid)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "E0Js4sM8TiD6JSLMA2BARFVIXHrTL9CykSpgi89jn5g=",
+        "originContent": "Use Govalid to validate structs.",
+        "translatedContent": "使用 Govalid 验证结构体。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "jUiJ40Y0eP2KO+MvIrf9hH11CxmocXZrFX9xAaFLJmc=",
+        "originContent": "## Basic Example",
+        "translatedContent": "## 基本示例"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```go\npackage main\n\nimport (\n\t\"errors\"\n\t\"fmt\"\n\t\"log\"\n\t\"strings\"\n\t\"unicode/utf8\"\n\n\t\"github.com/twharmon/govalid\"\n)\n\ntype Post struct {\n\t// ID has no constraints\n\tID int\n\n\t// Title is required, must be at least 3 characters long, and\n\t// cannot be more than 20 characters long\n\tTitle string `valid:\"req|min:3|max:20\"`\n\n\t// Body is not required, cannot be more than 10000 charachers,\n\t// and must be \"fun\" (a custom rule defined below).\n\tBody string `valid:\"max:10000|fun\"`\n}\n\nfunc main() {\n\t// Add custom string rule \"fun\" that can be used on any string field\n\t// in any struct.\n\tgovalid.Rule(\"fun\", func(v any) error {\n\t\tswitch tv := v.(type) {\n\t\tcase string:\n\t\t\tif float64(strings.Count(tv, \"!\"))/float64(utf8.RuneCountInString(tv)) > 0.001 {\n\t\t\t\treturn nil\n\t\t\t}\n\t\t\t// return a validation error with govalid.Error\n\t\t\treturn govalid.NewValidationError(\"must contain more exclamation marks\")\n\t\tdefault:\n\t\t\t// return a non validation (internal) error\n\t\t\treturn errors.New(\"fun constraint must be applied to string only\")\n\t\t}\n\t})\n\tfmt.Println(govalid.Validate(&Post{\n\t\tID:    5,\n\t\tTitle: \"Hi\",\n\t\tBody:  \"Hello world!\",\n\t}))\n}\n```",
+    "ContentSha": "4bPtu8uDGDqCU4twbFmW/5uLPeRRC6XRS6Uh1iHN1Ts=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\npackage main\n\nimport (\n\t\"errors\"\n\t\"fmt\"\n\t\"log\"\n\t\"strings\"\n\t\"unicode/utf8\"\n\n\t\"github.com/twharmon/govalid\"\n)\n\ntype Post struct {\n\t// ID has no constraints\n\tID int\n\n\t// Title is required, must be at least 3 characters long, and\n\t// cannot be more than 20 characters long\n\tTitle string `valid:\"req|min:3|max:20\"`\n\n\t// Body is not required, cannot be more than 10000 charachers,\n\t// and must be \"fun\" (a custom rule defined below).\n\tBody string `valid:\"max:10000|fun\"`\n}\n\nfunc main() {\n\t// Add custom string rule \"fun\" that can be used on any string field\n\t// in any struct.\n\tgovalid.Rule(\"fun\", func(v any) error {\n\t\tswitch tv := v.(type) {\n\t\tcase string:\n\t\t\tif float64(strings.Count(tv, \"!\"))/float64(utf8.RuneCountInString(tv)) > 0.001 {\n\t\t\t\treturn nil\n\t\t\t}\n\t\t\t// return a validation error with govalid.Error\n\t\t\treturn govalid.NewValidationError(\"must contain more exclamation marks\")\n\t\tdefault:\n\t\t\t// return a non validation (internal) error\n\t\t\treturn errors.New(\"fun constraint must be applied to string only\")\n\t\t}\n\t})\n\tfmt.Println(govalid.Validate(&Post{\n\t\tID:    5,\n\t\tTitle: \"Hi\",\n\t\tBody:  \"Hello world!\",\n\t}))\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "UShDhV/MkqUcgQsbWOBzHAHqyaaiPBV7+gKq1x7f++c=",
+        "originContent": "package main",
+        "translatedContent": "package main"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0NrstaoCAUE7YHmPS6R4dGEAwhf7+jXw9blKepsV2RQ=",
+        "originContent": "import (",
+        "translatedContent": "import ("
+      },
+      {
+        "row": 5,
+        "rowsha": "oL8zwR4+xYQGFOGTiqsoG1X+9t9IXvTc1xguqHczd7Q=",
+        "originContent": "\t\"errors\"",
+        "translatedContent": "\t\"errors\""
+      },
+      {
+        "row": 6,
+        "rowsha": "bxiNYRyQDQHSapG1SO1UL5xAESbBBT8fhvlHgBYqeG4=",
+        "originContent": "\t\"fmt\"",
+        "translatedContent": "\t\"fmt\""
+      },
+      {
+        "row": 7,
+        "rowsha": "ANKF0ZDgzBMFi1m0kS4XMtcLRyAC5WT4fhwllpibsQ8=",
+        "originContent": "\t\"log\"",
+        "translatedContent": "\t\"log\""
+      },
+      {
+        "row": 8,
+        "rowsha": "iErA9dyqiyd0oRReEDjXWg4MigL2Ln5DjE4vqv9Z0JA=",
+        "originContent": "\t\"strings\"",
+        "translatedContent": "\t\"strings\""
+      },
+      {
+        "row": 9,
+        "rowsha": "6jFZa6kTJaYy5wUrtz6b9eD5AeTbTQkEWuTBBvNxgfE=",
+        "originContent": "\t\"unicode/utf8\"",
+        "translatedContent": "\t\"unicode/utf8\""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "lrDomfAnKywlJ5VA6BFFgq2KlzHIXb5ZAD6eX42Zs3Q=",
+        "originContent": "\t\"github.com/twharmon/govalid\"",
+        "translatedContent": "\t\"github.com/twharmon/govalid\""
+      },
+      {
+        "row": 12,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "VlGfJuErS6T3MDFyMIb6wrF49+jdXISwUOk1IPBAlVA=",
+        "originContent": "type Post struct {",
+        "translatedContent": "type Post struct {"
+      },
+      {
+        "row": 15,
+        "rowsha": "BdwnpGMOowk6omt4Iut1ZFsNxZcqaeFrn/YiJnRS+kU=",
+        "originContent": "\t// ID has no constraints",
+        "translatedContent": "\t// ID has no constraints"
+      },
+      {
+        "row": 16,
+        "rowsha": "2mEjb2IoywNZr695nHUJX3l3cnTDlE1M81f0Cwoe9cU=",
+        "originContent": "\tID int",
+        "translatedContent": "\tID int"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "Q2V6HKTrA++O/SKQyrHNoNRDH0zNkQWx6IlFxlTPRyw=",
+        "originContent": "\t// Title is required, must be at least 3 characters long, and",
+        "translatedContent": "\t// Title is required, must be at least 3 characters long, and"
+      },
+      {
+        "row": 19,
+        "rowsha": "Fk6Na2JzsyOiJ+uteL8Ja7Adug4IsLomo/d24tSEQEs=",
+        "originContent": "\t// cannot be more than 20 characters long",
+        "translatedContent": "\t// cannot be more than 20 characters long"
+      },
+      {
+        "row": 20,
+        "rowsha": "d1LI8Y0NPpGSTbg3f5/xKz79590zLxs2eJd1Wx1Xtg8=",
+        "originContent": "\tTitle string `valid:\"req|min:3|max:20\"`",
+        "translatedContent": "\tTitle string `valid:\"req|min:3|max:20\"`"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "+0uZ3C/0Je5dXXYsa/iMNMDW8WYDOSa4C8c2T3C5oU4=",
+        "originContent": "\t// Body is not required, cannot be more than 10000 charachers,",
+        "translatedContent": "\t// Body is not required, cannot be more than 10000 charachers,"
+      },
+      {
+        "row": 23,
+        "rowsha": "144ZL9eh9O0UKCnwRGTIGz3pPuyruh9kSGxsBk5e1PM=",
+        "originContent": "\t// and must be \"fun\" (a custom rule defined below).",
+        "translatedContent": "\t// and must be \"fun\" (a custom rule defined below)."
+      },
+      {
+        "row": 24,
+        "rowsha": "K0TPC1qxFjfWeiqxb1sdNaHXeDzjLDy8BDdfwig7TgU=",
+        "originContent": "\tBody string `valid:\"max:10000|fun\"`",
+        "translatedContent": "\tBody string `valid:\"max:10000|fun\"`"
+      },
+      {
+        "row": 25,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "477XskFGOI6HtL1vgLCndqbEY9HpnF/1YFeYnaoIPXA=",
+        "originContent": "func main() {",
+        "translatedContent": "func main() {"
+      },
+      {
+        "row": 28,
+        "rowsha": "4rGegJMoIgpnYFduHQa/LOSEx0Ji0uO/Y7q8bfMgTgM=",
+        "originContent": "\t// Add custom string rule \"fun\" that can be used on any string field",
+        "translatedContent": "\t// Add custom string rule \"fun\" that can be used on any string field"
+      },
+      {
+        "row": 29,
+        "rowsha": "IjEiIOxLlBAThM7SO0xXtIHF0X5jlAz8bnGJo5Oif28=",
+        "originContent": "\t// in any struct.",
+        "translatedContent": "\t// in any struct."
+      },
+      {
+        "row": 30,
+        "rowsha": "8/GAwTtXpww4+A4d0gUaXF3j5ROH6/gu28weT6iKfUA=",
+        "originContent": "\tgovalid.Rule(\"fun\", func(v any) error {",
+        "translatedContent": "\tgovalid.Rule(\"fun\", func(v any) error {"
+      },
+      {
+        "row": 31,
+        "rowsha": "tfD1k2z9IDHBmp0EX7UdgIm7G5acKKf5dnbDE9Ett+I=",
+        "originContent": "\t\tswitch tv := v.(type) {",
+        "translatedContent": "\t\tswitch tv := v.(type) {"
+      },
+      {
+        "row": 32,
+        "rowsha": "p4P8mdLS3HLFpnu4gT3QonGsUvnrDoQmbUlsG64XL0w=",
+        "originContent": "\t\tcase string:",
+        "translatedContent": "\t\tcase string:"
+      },
+      {
+        "row": 33,
+        "rowsha": "is2D5Ay0VpTWt3oZQlpk1IzrHn/Z/1d90VJk8H9J4qw=",
+        "originContent": "\t\t\tif float64(strings.Count(tv, \"!\"))/float64(utf8.RuneCountInString(tv)) > 0.001 {",
+        "translatedContent": "\t\t\tif float64(strings.Count(tv, \"!\"))/float64(utf8.RuneCountInString(tv)) > 0.001 {"
+      },
+      {
+        "row": 34,
+        "rowsha": "okUBTgIy9AcWusWwHHvgahGsOc7cQAnkZceNSAr1HnI=",
+        "originContent": "\t\t\t\treturn nil",
+        "translatedContent": "\t\t\t\treturn nil"
+      },
+      {
+        "row": 35,
+        "rowsha": "T/rvzIHbEv58URpAy1BIKsSq+K/GLJbCU9RgNvREppY=",
+        "originContent": "\t\t\t}",
+        "translatedContent": "\t\t\t}"
+      },
+      {
+        "row": 36,
+        "rowsha": "SqEK25nBAAi3t438BA4N6vYjcnbRKE0Ch10N6yC+Hz4=",
+        "originContent": "\t\t\t// return a validation error with govalid.Error",
+        "translatedContent": "\t\t\t// return a validation error with govalid.Error"
+      },
+      {
+        "row": 37,
+        "rowsha": "d2oQdgGcXXCKbxaYXFUdi+P7QQMd1FZH+KnCFzwssow=",
+        "originContent": "\t\t\treturn govalid.NewValidationError(\"must contain more exclamation marks\")",
+        "translatedContent": "\t\t\treturn govalid.NewValidationError(\"must contain more exclamation marks\")"
+      },
+      {
+        "row": 38,
+        "rowsha": "cvBw/jovj2546ucBp2dnCeI/kzyhSj5wlLCYAdTMsEk=",
+        "originContent": "\t\tdefault:",
+        "translatedContent": "\t\tdefault:"
+      },
+      {
+        "row": 39,
+        "rowsha": "MLJ7rJFOYc03S59Og5TANBR0XUN3FVjDYb2837LTIT0=",
+        "originContent": "\t\t\t// return a non validation (internal) error",
+        "translatedContent": "\t\t\t// return a non validation (internal) error"
+      },
+      {
+        "row": 40,
+        "rowsha": "Gk9SNRy4CyVMRa4KEjuldhF/jML5XL2vAmWbj4XDn9I=",
+        "originContent": "\t\t\treturn errors.New(\"fun constraint must be applied to string only\")",
+        "translatedContent": "\t\t\treturn errors.New(\"fun constraint must be applied to string only\")"
+      },
+      {
+        "row": 41,
+        "rowsha": "NxO7/XbcqsGm2DFtxbjivMr0tH8sdn+VOvLtZTY+ySU=",
+        "originContent": "\t\t}",
+        "translatedContent": "\t\t}"
+      },
+      {
+        "row": 42,
+        "rowsha": "VHkadZ4rhDU3jC/KHpHMKiGXwZ15+QfreP7pEdDUsYM=",
+        "originContent": "\t})",
+        "translatedContent": "\t})"
+      },
+      {
+        "row": 43,
+        "rowsha": "LuulpOy5JFAnBL39HmOz2nVcy3E1qKdpU2dcEk9Mbiw=",
+        "originContent": "\tfmt.Println(govalid.Validate(&Post{",
+        "translatedContent": "\tfmt.Println(govalid.Validate(&Post{"
+      },
+      {
+        "row": 44,
+        "rowsha": "Adb8AVIlPxAWiXX6lIg0ScqTW2B473pN81SJ7VnnXtc=",
+        "originContent": "\t\tID:    5,",
+        "translatedContent": "\t\tID:    5,"
+      },
+      {
+        "row": 45,
+        "rowsha": "DMLrBT2SWxygaCZ/iqvQ/pkm5pfiEiqcyGdxa8LjsDo=",
+        "originContent": "\t\tTitle: \"Hi\",",
+        "translatedContent": "\t\tTitle: \"Hi\","
+      },
+      {
+        "row": 46,
+        "rowsha": "0e9DIhssnUvYIP+1Y/KEaozWQD1Fd9PolQuw4DOjx4U=",
+        "originContent": "\t\tBody:  \"Hello world!\",",
+        "translatedContent": "\t\tBody:  \"Hello world!\","
+      },
+      {
+        "row": 47,
+        "rowsha": "DFY0iwqGZR/lVmyEX/DwsEoLfVayHRIAm2EoyCst/yU=",
+        "originContent": "\t}))",
+        "translatedContent": "\t}))"
+      },
+      {
+        "row": 48,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 49,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Error Values\nWhen you call `govalid.Validate` to validate a struct, it returns an error if the validation rules are not met. This error may either be a validation-specific error (an implementation of `govalid.ValidationError`) or a different error indicating a problem in processing the validation. This allows you to distinguish between errors caused by invalid data and those caused by issues in your validation logic, such as setting the `valid` tag to `max:not-a-number`.\n",
+    "ContentSha": "Lk0bJWXNyX3AEt2vBCXUY1NOZWUB/rtakbwNegNNlIA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 错误值\n当你调用 `govalid.Validate` 来验证结构体时，如果验证规则未通过，它会返回一个错误。该错误可能是特定于验证的错误（实现了 `govalid.ValidationError` 接口），也可能是指示验证处理过程中出现问题的其他错误。这样你就可以区分由无效数据引起的错误和由验证逻辑中的问题（例如将 `valid` 标签设置为 `max:not-a-number`）引起的错误。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jSau2Nd/U1zmtCf/vZsX88bsyGTHFeULkmhBssUUE64=",
+        "originContent": "## Error Values",
+        "translatedContent": "## 错误值"
+      },
+      {
+        "row": 3,
+        "rowsha": "+oVgQDCZ+y3HN5VS4WWa+8LuP2cPSPG3b7DRgghyeys=",
+        "originContent": "When you call `govalid.Validate` to validate a struct, it returns an error if the validation rules are not met. This error may either be a validation-specific error (an implementation of `govalid.ValidationError`) or a different error indicating a problem in processing the validation. This allows you to distinguish between errors caused by invalid data and those caused by issues in your validation logic, such as setting the `valid` tag to `max:not-a-number`.",
+        "translatedContent": "当你调用 `govalid.Validate` 来验证结构体时，如果验证规则未通过，它会返回一个错误。该错误可能是特定于验证的错误（实现了 `govalid.ValidationError` 接口），也可能是指示验证处理过程中出现问题的其他错误。这样你就可以区分由无效数据引起的错误和由验证逻辑中的问题（例如将 `valid` 标签设置为 `max:not-a-number`）引起的错误。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```go\nif err := govalid.Validate(value); err != nil {\n\tif verr, ok := err.(govalid.ValidationError); ok {\n\t\tfmt.Println(\"validation error\", verr)\n\t} else {\n\t\tfmt.Println(\"some other error\", err)\n\t}\n}\n```",
+    "ContentSha": "YpdQ0MK57yPl839LmDoGDnqZcmHFuf13C096zVuKWlk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\nif err := govalid.Validate(value); err != nil {\n\tif verr, ok := err.(govalid.ValidationError); ok {\n\t\tfmt.Println(\"validation error\", verr)\n\t} else {\n\t\tfmt.Println(\"some other error\", err)\n\t}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "inQwvo9wRGQsuJHXJenaltkk9OKCgJ+ja0YWjwA/LQA=",
+        "originContent": "if err := govalid.Validate(value); err != nil {",
+        "translatedContent": "if err := govalid.Validate(value); err != nil {"
+      },
+      {
+        "row": 3,
+        "rowsha": "H07AnhLC11SXg2fkyq9O2eKyl0SjJgnu7C4IWrB6j8k=",
+        "originContent": "\tif verr, ok := err.(govalid.ValidationError); ok {",
+        "translatedContent": "\tif verr, ok := err.(govalid.ValidationError); ok {"
+      },
+      {
+        "row": 4,
+        "rowsha": "DRV43az1CabrTK7FNYd1XKbqckgXy+yGmIpUa/eocdw=",
+        "originContent": "\t\tfmt.Println(\"validation error\", verr)",
+        "translatedContent": "\t\tfmt.Println(\"validation error\", verr)"
+      },
+      {
+        "row": 5,
+        "rowsha": "rWU2DqTt3MT2bqMWcOdTZ0wZNLdPRskP6pABe5PFhYQ=",
+        "originContent": "\t} else {",
+        "translatedContent": "\t} else {"
+      },
+      {
+        "row": 6,
+        "rowsha": "GeLRd9IdejBrpvPgg6aRnrBbLs31eTEDUI88hft4vfY=",
+        "originContent": "\t\tfmt.Println(\"some other error\", err)",
+        "translatedContent": "\t\tfmt.Println(\"some other error\", err)"
+      },
+      {
+        "row": 7,
+        "rowsha": "oyo7txIUhevLwaK2r1hczF9qTEvB6ZeRH824leZpJhE=",
+        "originContent": "\t}",
+        "translatedContent": "\t}"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Dive Usage\nThe `dive` rule is used to apply validation rules to elements within pointers, slices, arrays, and structs. When the `dive` rule is encountered, it instructs the validator to \"dive\" into the elements of the collection or the value pointed to by a pointer and apply the remaining rules to each element or the dereferenced value.\n\n### Notes\n- **Pointers**: The `dive` rule will dereference the pointer and apply the remaining rules to the value it points to.\n- **Slices/Arrays**: The `dive` rule will iterate over each element in the slice or array and apply the remaining rules to each element.\n- **Structs**: The `dive` rule will validate the struct according to its own field tags. The remaining rules after `dive` have no meaning for structs.\n\n### Examples\n\n#### Pointers\n",
+    "ContentSha": "44s82xLaNeQTIfNl/lEy06GNrHF3b6T7yjmA3zeJY+o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Dive 使用方法\n`dive` 规则用于对指针、切片、数组和结构体中的元素应用验证规则。遇到 `dive` 规则时，验证器会“深入”集合的元素或指针指向的值，并对每个元素或解引用的值应用剩余的规则。\n\n### 注意事项\n- **指针**：`dive` 规则会解引用指针，并将剩余的规则应用于它指向的值。\n- **切片/数组**：`dive` 规则会遍历切片或数组中的每个元素，并将剩余的规则应用于每个元素。\n- **结构体**：`dive` 规则会根据结构体自身的字段标签验证结构体。`dive` 之后的剩余规则对结构体无意义。\n\n### 示例\n\n#### 指针\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "yf6/1KPnFZuJssOePo4dcika1yVoCLvLeoGpZsdkP/k=",
+        "originContent": "## Dive Usage",
+        "translatedContent": "## Dive 使用方法"
+      },
+      {
+        "row": 3,
+        "rowsha": "F0amhsFMLwNrDCzZxPT8/0ceSUyoI+DWeGzUdXmVObo=",
+        "originContent": "The `dive` rule is used to apply validation rules to elements within pointers, slices, arrays, and structs. When the `dive` rule is encountered, it instructs the validator to \"dive\" into the elements of the collection or the value pointed to by a pointer and apply the remaining rules to each element or the dereferenced value.",
+        "translatedContent": "`dive` 规则用于对指针、切片、数组和结构体中的元素应用验证规则。遇到 `dive` 规则时，验证器会“深入”集合的元素或指针指向的值，并对每个元素或解引用的值应用剩余的规则。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "hyZbi8OitYI3PRMMHutbRl82OGw+5qLl1ZAocicLwRU=",
+        "originContent": "### Notes",
+        "translatedContent": "### 注意事项"
+      },
+      {
+        "row": 6,
+        "rowsha": "EPMS5DzjXk/j92sjSysjEbrzmqM1XqsC5qqGIocC36I=",
+        "originContent": "- **Pointers**: The `dive` rule will dereference the pointer and apply the remaining rules to the value it points to.",
+        "translatedContent": "- **指针**：`dive` 规则会解引用指针，并将剩余的规则应用于它指向的值。"
+      },
+      {
+        "row": 7,
+        "rowsha": "Ehy5ylar/SyLTVkPLOCoZhyyNcocSlcvtlJhfrlwbjQ=",
+        "originContent": "- **Slices/Arrays**: The `dive` rule will iterate over each element in the slice or array and apply the remaining rules to each element.",
+        "translatedContent": "- **切片/数组**：`dive` 规则会遍历切片或数组中的每个元素，并将剩余的规则应用于每个元素。"
+      },
+      {
+        "row": 8,
+        "rowsha": "A7SS3Hyjj6YDEJt4RCaFu/sbRUtTWE6UyJp+dxuSMMs=",
+        "originContent": "- **Structs**: The `dive` rule will validate the struct according to its own field tags. The remaining rules after `dive` have no meaning for structs.",
+        "translatedContent": "- **结构体**：`dive` 规则会根据结构体自身的字段标签验证结构体。`dive` 之后的剩余规则对结构体无意义。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "hnzbP5n92VqN57hTx4TGZdA7PXpVlf8mcU9W4gP7SoE=",
+        "originContent": "### Examples",
+        "translatedContent": "### 示例"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "0UxVOSZ78nPy3TLnXMOb+QSEOXfA/bGVMQWEn6kBR3Y=",
+        "originContent": "#### Pointers",
+        "translatedContent": "#### 指针"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```go\ntype Example struct {\n    Field *string `valid:\"req|dive|min:3\"`\n}\n```",
+    "ContentSha": "ef+Nn05rr6SBwNNQ+TJVn7eibsYRuRtcFLIEECFnmI0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\ntype Example struct {\n    Field *string `valid:\"req|dive|min:3\"`\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "kXHSoZlZ8UBmbwa1Bqb28TUgWu9H9PPc79mG9pfZGqI=",
+        "originContent": "type Example struct {",
+        "translatedContent": "type Example struct {"
+      },
+      {
+        "row": 3,
+        "rowsha": "ZN/CZEpEcOWtVfSvJqeoW3nyTR1OrWI9kzlPtK4uWv4=",
+        "originContent": "    Field *string `valid:\"req|dive|min:3\"`",
+        "translatedContent": "    Field *string `valid:\"req|dive|min:3\"`"
+      },
+      {
+        "row": 4,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "In this example, the Field must be a non-nil pointer to a string, and the string must be at least 3 characters long.\n\n#### Slices/Arrays",
+    "ContentSha": "ozRSRjnmRYBz5h0MplnNeVMHUUX2wyWdoZ/otgKCORw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "在此示例中，Field 必须是指向字符串的非 nil 指针，并且该字符串的长度必须至少为 3 个字符。\n\n#### 切片/数组",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "t9Y7OalqetHrfVXKylRuVDtVCW7ctQHSBsew+s/h9L8=",
+        "originContent": "In this example, the Field must be a non-nil pointer to a string, and the string must be at least 3 characters long.",
+        "translatedContent": "在此示例中，Field 必须是指向字符串的非 nil 指针，并且该字符串的长度必须至少为 3 个字符。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "hVBrqUxhladdkrrQ/UTMgaOxshWxoT+kWswft77AqfA=",
+        "originContent": "#### Slices/Arrays",
+        "translatedContent": "#### 切片/数组"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```go\ntype Example struct {\n    Field []string `valid:\"req|dive|min:3\"`\n}\n```",
+    "ContentSha": "b6fjWEpR/0f4y1lwA/isL6yNJ+x06WgsrDjIskcKUuA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\ntype Example struct {\n    Field []string `valid:\"req|dive|min:3\"`\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "kXHSoZlZ8UBmbwa1Bqb28TUgWu9H9PPc79mG9pfZGqI=",
+        "originContent": "type Example struct {",
+        "translatedContent": "type Example struct {"
+      },
+      {
+        "row": 3,
+        "rowsha": "pGHkjjJYBmJo2rAL+H6VQBW5eZlStpUiXKsfr8GLg1E=",
+        "originContent": "    Field []string `valid:\"req|dive|min:3\"`",
+        "translatedContent": "    Field []string `valid:\"req|dive|min:3\"`"
+      },
+      {
+        "row": 4,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "In this example, the Field must be a non-nil slice of strings, and each string in the slice must be at least 3 characters long.\n\n#### Structs",
+    "ContentSha": "OzS5Lz7SfUiwyBfO3VTTZXUEOLlgAmbDvyT/9Sx1DFc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "在此示例中，字段必须是非空的字符串切片，并且切片中的每个字符串长度必须至少为3个字符。\n\n#### 结构体",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "mSYoqW64lE3SeTrgTzSJuYjL7KBxTVy9MbLAJLmH2/8=",
+        "originContent": "In this example, the Field must be a non-nil slice of strings, and each string in the slice must be at least 3 characters long.",
+        "translatedContent": "在此示例中，字段必须是非空的字符串切片，并且切片中的每个字符串长度必须至少为3个字符。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "eBsmJAZK0TTGbvOMExHBBZ/kqO8MpFM0rqmCgqnP3gc=",
+        "originContent": "#### Structs",
+        "translatedContent": "#### 结构体"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```go\ntype Inner struct {\n    Name string `valid:\"req\"`\n}\n\ntype Outer struct {\n    InnerStruct Inner `valid:\"dive\"`\n}\n```",
+    "ContentSha": "wAaopyFJObklXYJilcfAJGoWNITDsvNU/XqMdBU7mLo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```go\ntype Inner struct {\n    Name string `valid:\"req\"`\n}\n\ntype Outer struct {\n    InnerStruct Inner `valid:\"dive\"`\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Co3EWdxg2ZjzcZOnG5tXQk8yvA1QjsAC8bqxS+bauGk=",
+        "originContent": "```go",
+        "translatedContent": "```go"
+      },
+      {
+        "row": 2,
+        "rowsha": "Z8lrn5ar/mhyNl9zRBiZyyxPMCVxZe3T/ilWJD1fO8w=",
+        "originContent": "type Inner struct {",
+        "translatedContent": "type Inner struct {"
+      },
+      {
+        "row": 3,
+        "rowsha": "S4SCYqkCzLtszyUY6Lku86rjkamgFjnIgJtAZe1UVtI=",
+        "originContent": "    Name string `valid:\"req\"`",
+        "translatedContent": "    Name string `valid:\"req\"`"
+      },
+      {
+        "row": 4,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "iwFzQD/Ot9hzQvLb5jxFOeQZl+15GhPlkVjLJ/s5hwI=",
+        "originContent": "type Outer struct {",
+        "translatedContent": "type Outer struct {"
+      },
+      {
+        "row": 7,
+        "rowsha": "c2rCYYrgjUhaYq7aN/vMse0PYBVyTpguEmPLMMQC7ds=",
+        "originContent": "    InnerStruct Inner `valid:\"dive\"`",
+        "translatedContent": "    InnerStruct Inner `valid:\"dive\"`"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "In this example, the InnerStruct field will be validated according to the validation tags defined in the Inner struct.\n\n\n## Contribute\n\nMake a pull request.\n",
+    "ContentSha": "NEd+0hJJmZnRYhmwt8XalbPs2leOybehUmoPWDqkESw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "在此示例中，InnerStruct 字段将根据 Inner 结构体中定义的验证标签进行验证。\n\n\n## 贡献\n\n提交拉取请求。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "i3Dpzg5DsbO6idMdJ1/jytnrIim5tm2OK2y8DgxakGk=",
+        "originContent": "In this example, the InnerStruct field will be validated according to the validation tags defined in the Inner struct.",
+        "translatedContent": "在此示例中，InnerStruct 字段将根据 Inner 结构体中定义的验证标签进行验证。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "fMu080v6eh/hFkmstsVs1QR9bj14O7X3mMQkwTJevBw=",
+        "originContent": "## Contribute",
+        "translatedContent": "## 贡献"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Jf8sYrt3q3Gh+p7mDv5eCFlVj4+B5zGQlgzJeTOShBg=",
+        "originContent": "Make a pull request.",
+        "translatedContent": "提交拉取请求。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
