@@ -105,69 +105,83 @@ Docs : https://codewithcj.github.io/SparkyFitness
 Mettez SparkyFitness en route en quelques minutes :
 
 ```bash
-# Clone the repository
-git clone https://github.com/CodeWithCJ/SparkyFitness.git
-cd SparkyFitness
+# 1. Create a new folder
+mkdir sparkyfitness && cd sparkyfitness
 
-# Copy environment template and edit as needed
-cp docker/.env.example .env
+# 2. Download Docker files only
+curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
+curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
 
-# Start development environment (with live reloading)
-./docker/docker-helper.sh dev up
+# 3. (Optional) Edit .env to customize your setup
+# e.g., update database credentials, ports, etc.
+# if you require Gamrin integration, uncomment Garmin section from compose file.
+
+# 4. Start the app
+docker compose pull && docker compose up -d
 
 # Access application at http://localhost:8080
 ```
 
 ## 📖 Documentation
 
-Pour les guides d'installation complets, la configuration du développement et les instructions d'utilisation, consultez notre documentation complète :
+Pour des guides d'installation complets, la configuration du développement et les instructions d'utilisation, consultez notre documentation complète :
 
 **👉 [Site de documentation SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
 
 ### Liens rapides
 
-- **[🚀 Bien démarrer](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Guide d'installation complet pour le développement et la production
+- **[🚀 Pour commencer](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Guide complet pour le développement et la production
 - **[🐳 Guide Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Déploiement et configuration Docker
-- **[🔧 Flux de développement](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Guide développeur et processus de contribution  
+- **[🔧 Flux de travail de développement](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Guide du développeur et processus de contribution  
 - **[📊 Vue d'ensemble des fonctionnalités](https://codewithcj.github.io/SparkyFitness/features/)** - Documentation complète des fonctionnalités
 - **[🏗️ Architecture](https://codewithcj.github.io/SparkyFitness/app-overview)** - Architecture technique et conception
-- Consultez le WIiki pour un exemple de configuration d'environnement et la configuration de l'application mobile.
+- Consultez le WIki pour la configuration d'environnement exemple et la configuration de l'application mobile.
 
-## 🐳 Déploiement Docker
 
-**Production (recommandé) :**
-```bash
-cp docker/.env.example .env  # Edit as needed
-./docker/docker-helper.sh prod up
-# Access at http://localhost:3004
-```
-**Développement :**
+## Historique des étoiles
 
-```bash
-cp docker/.env.example .env  # Edit as needed  
-./docker/docker-helper.sh dev up
-# Access at http://localhost:8080 (live reloading)
-```
-Pour des instructions détaillées de configuration, la configuration de l'environnement et la résolution des problèmes, consultez la [documentation complète](https://codewithcj.github.io/SparkyFitness/developer/getting-started).
+<a href="https://star-history.com/#CodeWithCJ/SparkyFitness&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" />
+    <img alt="Graphique de l'historique des étoiles" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
+  </picture>
+</a>
+
+## Traductions
+
+<a href="https://hosted.weblate.org/engage/sparkyfitness/">
+<img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="Statut de la traduction" />
+</a>
+
+## Activité du dépôt
+
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Image analytique Repobeats")
+
+
+## Contributeurs
+
+<a href="https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
+</a>
 
 ### ⚠️ Problèmes connus / Fonctionnalités en bêta ⚠️
 
-Les fonctionnalités suivantes sont actuellement en version bêta et n'ont peut-être pas été entièrement testées. Attendez-vous à d'éventuels bugs ou à une fonctionnalité incomplète :
+Les fonctionnalités suivantes sont actuellement en bêta et peuvent ne pas avoir été entièrement testées. Attendez-vous à d’éventuels bugs ou à une fonctionnalité incomplète :
 
 *   Chatbot IA
-*   Prise en charge multi-utilisateur
+*   Prise en charge multi-utilisateurs
 *   Accès Famille & Amis
 *   Intégration des données Apple Health
 
-Cette application est en plein développement. Certaines fonctionnalités peuvent ne pas fonctionner comme prévu en raison de la migration de Supabase vers PostgreSQL. DES CHANGEMENTS INCOMPATIBLES pourraient être introduits jusqu'à la stabilisation de l'application.
-Vous devrez peut-être modifier les variables Docker/environnement lors des nouvelles versions. Par conséquent, les mises à jour automatiques avec Watchtower ou des applications similaires ne sont pas recommandées. Lisez les notes de version pour tout CHANGEMENT INCOMPATIBLE.
-
+Cette application est en plein développement. Certaines fonctionnalités peuvent ne pas fonctionner comme prévu en raison de la migration de Supabase vers PostgreSQL. Des MODIFICATIONS IMPORTANTES peuvent être introduites tant que l’application n’est pas stable.
+Vous devrez peut-être modifier les variables Docker/environnement pour les nouvelles versions. Par conséquent, les mises à jour automatiques via Watchtower ou des applications similaires ne sont pas recommandées. Lisez les notes de version pour toute MODIFICATION IMPORTANTE.
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

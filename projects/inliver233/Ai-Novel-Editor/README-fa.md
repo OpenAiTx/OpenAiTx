@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 زبان</summary>
@@ -8,114 +9,109 @@
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW">繁體中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja">日本語</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi">हिन्दी</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th">ไทย</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr">Français</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de">Deutsch</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it">Itapano</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru">Русский</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt">Português</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl">Nederlands</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl">Polski</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar">العربية</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi">هندی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th">تایلندی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr">فرانسوی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de">آلمانی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es">اسپانیایی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it">ایتالیایی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru">روسی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt">پرتغالی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl">هلندی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl">لهستانی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar">عربی</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa">فارسی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr">Türkçe</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi">Tiếng Việt</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id">Bahasa Indonesia</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr">ترکی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi">ویتنامی</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id">اندونزیایی</a></p>
       </div>
     </div>
   </details>
 </div>
-# ویرایشگر رمان AI
 
-ویرایشگر رمان با کمک هوش مصنوعی مبتنی بر PyQt6، ارائه‌دهنده ابزارهای حرفه‌ای نوشتن مانند تکمیل هوشمند، مدیریت پروژه و سازماندهی مفاهیم.
+# ویرایشگر رمان هوشمند (AI Novel Editor)
+
+ویرایشگر رمان مبتنی بر PyQt6 با پشتیبانی از هوش مصنوعی، ارائه‌دهنده ابزارهای حرفه‌ای مانند تکمیل هوشمند، مدیریت پروژه و سازماندهی مفاهیم.
 
 ## نصب
 
-1. کلون کردن پروژه
+1. پروژه را کلون کنید
 ```bash
 git clone https://github.com/inliver233/Ai-Novel-Editor.git
 cd ai-novel-editor
 ```
 
-2. ایجاد محیط مجازی
+۲. ایجاد محیط مجازی
 ```bash
 python -m venv venv
-venv\Scripts\activate     # ویندوز
+venv\Scripts\activate     # Windows
 ```
-استفاده از uv
-```bash
-uv venv -p 3.11
-```
-3. نصب وابستگی‌ها
+
+۳. نصب وابستگی‌ها
 ```bash
 pip install -r requirements.txt
 ```
-استفاده از uv
-```bash
-uv sync
-```
-
 
 4. اجرای برنامه
 ```bash
-python -m src
+python src/main.py
 ```
 
 ## قابلیت‌های اصلی
 
 ### مدیریت پروژه
 - ساختار سلسله‌مراتبی اسناد (اثر > فصل > صحنه)
-- واردات و صادرات پروژه (پشتیبانی از فرمت‌های TEXT، MARKDOWN، DOCX، PDF، HTML)
+- وارد کردن و صادر کردن پروژه (پشتیبانی از فرمت‌های TEXT، MARKDOWN، DOCX، PDF، HTML)
 - پشتیبان‌گیری خودکار و کنترل نسخه
-- مدیریت چندین پروژه
-### قابلیت تکمیل خودکار AI
-- سه حالت تکمیل: تکمیل خودکار، تکمیل دستی (توصیه می‌شود با یک بار فشردن Tab فعال شود و با بار دوم اعمال گردد)، غیرفعال‌سازی تکمیل
-- سه حالت زمینه:
-  - حالت سریع: زمینه سبک، پاسخگویی سریع
-  - حالت متعادل: زمینه متوسط، تعادل بین کیفیت و سرعت
-  - حالت سراسری: زمینه کامل پروژه، بهترین نتیجه
-- پشتیبانی از چندین سرویس AI: OpenAI، Claude، Tongyi Qianwen، Zhipu AI، DeepSeek، Groq و غیره
+- مدیریت چند پروژه‌ای
 
-### مدیریت نمای کلی (Outline)
-- ساختار درختی نمای کلی به صورت بصری
-- مرتب‌سازی و تنظیم سطح با کشیدن و رها کردن (Drag & Drop)
-- ناوبری سریع اسناد
-- تحلیل نمای کلی و پیشنهادات بهینه‌سازی
+### قابلیت تکمیل هوشمند AI
+- سه حالت تکمیل: تکمیل خودکار، تکمیل دستی (توصیه می‌شود یک بار کلید tab فشار داده شود و بار دیگر برای اعمال تکمیل)، غیرفعال‌سازی تکمیل
+- سه حالت زمینه‌ای:
+  - حالت سریع: زمینه سبک، پاسخ‌دهی سریع
+  - حالت متعادل: زمینه متوسط، تعادل کیفیت و سرعت
+  - حالت سراسری: زمینه کامل پروژه، بهترین نتیجه
+- پشتیبانی از سرویس‌های مختلف هوش مصنوعی: OpenAI، Claude، Tongyi Qianwen، Zhipu AI، DeepSeek، Groq و غیره
+
+### مدیریت طرح کلی
+- ساختار درختی طرح کلی به صورت بصری
+- مرتب‌سازی و تنظیم سلسله‌مراتب با کشیدن و رها کردن
+- ناوبری سریع در اسناد
+- تحلیل طرح کلی و ارائه پیشنهادات بهینه‌سازی
 
 ### پیکربندی API
-- مرکز پیکربندی یکپارچه AI
-- پیکربندی‌های پیش‌فرض برای چندین ارائه‌دهنده خدمات
+- مرکز پیکربندی یکپارچه هوش مصنوعی
+- پیکربندی‌های پیش‌فرض برای چندین ارائه‌دهنده سرویس
 - قابلیت تست اتصال
-- ذخیره، وارد کردن و صادر کردن پیکربندی‌ها
+- ذخیره‌سازی و وارد کردن/صادر کردن پیکربندی‌ها
+
 ### تنظیمات تکمیل هوشمند
-- تاخیر قابل تنظیم برای فعال‌سازی
+- قابلیت تنظیم تاخیر فعال‌سازی
 - محدودیت طول تکمیل
 - پیکربندی طول زمینه
 - پشتیبانی از پاسخ‌دهی جریانی
 
-### ویرایشگر کلمات کلیدی (پرومپت)
-- قالب‌های نوشتاری داخلی متنوع
-- قالب‌های کلمات کلیدی سفارشی
+### ویرایشگر کلمات کلیدی
+- قالب‌های نوشتاری داخلی متعدد
+- قالب‌های قابل سفارشی‌سازی کلمات کلیدی
 - مدیریت دسته‌بندی قالب‌ها
-- پیکربندی قالب‌های خاص هر حالت
+- پیکربندی قالب‌های مخصوص حالت‌ها
 
 ### قابلیت‌های رابط کاربری
-- دو تم روشن و تیره
-- چیدمان سه‌ستونه (درخت پروژه، ویرایشگر، پنل مفاهیم)
+- دو تم روشن و تاریک
+- چینش سه ستونه (درخت پروژه، ویرایشگر، پنل مفاهیم)
 - نوار کناری قابل جمع شدن
-- حالت نوشتن تمام‌صفحه
-- حالت تمرکز (جمله، پاراگراف، ماشین‌تحریر، حالت ذن، حالت غوطه‌وری)
+- حالت تمام‌صفحه برای نوشتن
+- حالت تمرکز (جمله، پاراگراف، ماشین‌تحریر، حالت ذن، حالت غرق)
 
 ### جستجو و جایگزینی
-- جستجوی متن در کل پروژه
-- پشتیبانی از عبارات منظم (Regex)
+- جستجوی متن کل پروژه
+- پشتیبانی از عبارات منظم
 - قابلیت جایگزینی گروهی
-- گزینه‌های پیشرفته جستجو
+- گزینه‌های جستجوی پیشرفته
 
 ### مدیریت مفاهیم
-- شناسایی خودکار نقش‌ها، مکان‌ها، اشیاء
+- شناسایی خودکار شخصیت‌ها، مکان‌ها، اشیاء
 - مدیریت روابط مفاهیم
 - سیستم برچسب‌گذاری و دسته‌بندی
 - درج سریع مفاهیم
@@ -126,15 +122,17 @@ python -m src
 - `Ctrl+O`: باز کردن پروژه
 - `Ctrl+S`: ذخیره سند
 - `F11`: حالت تمام‌صفحه
-- `Tab`: فعال‌سازی دستی تکمیل خودکار AI (در حالت دستی)
+- `Tab`: فعال‌سازی دستی تکمیل خودکار هوشمند (در حالت دستی)
 - `Ctrl+F`: جستجو
 - `Ctrl+H`: جستجو و جایگزینی
 - `Ctrl+Shift+H`: جستجو و جایگزینی پیشرفته
-## الزامات سیستم
 
-- پایتون 3.8+
+
+## نیازمندی‌های سیستم
+
+- Python 3.8+
 - PyQt6
-- سیستم عامل: ویندوز، macOS، لینوکس
+- سیستم‌عامل: ویندوز، مک، لینوکس
 
 ## نویسنده
 
@@ -144,6 +142,6 @@ python -m src
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

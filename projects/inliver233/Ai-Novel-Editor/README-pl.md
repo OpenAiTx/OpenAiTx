@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Język</summary>
@@ -27,9 +28,10 @@
     </div>
   </details>
 </div>
+
 # AI Novel Editor
 
-Edytor powieści wspomagany przez AI oparty na PyQt6, oferujący inteligentne uzupełnianie, zarządzanie projektami, organizację koncepcji i inne profesjonalne narzędzia do pisania.
+AI-wspomagany edytor powieści oparty na PyQt6, oferujący inteligentne uzupełnianie, zarządzanie projektami, organizację koncepcji i inne profesjonalne narzędzia pisarskie.
 
 ## Instalacja
 
@@ -44,22 +46,15 @@ cd ai-novel-editor
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-Użyj uv
-```bash
-uv venv -p 3.11
-```
+
 3. Instalacja zależności
 ```bash
 pip install -r requirements.txt
 ```
-Użycie uv
-```bash
-uv sync
-```
 
-4. Uruchomienie programu
+4. Uruchom program
 ```bash
-python -m src
+python src/main.py
 ```
 
 ## Główne funkcje
@@ -67,56 +62,58 @@ python -m src
 ### Zarządzanie projektami
 - Hierarchiczna struktura dokumentów (Dzieło > Rozdział > Scena)
 - Import i eksport projektów (obsługa formatów TEXT, MARKDOWN, DOCX, PDF, HTML)
-- Automatyczne tworzenie kopii zapasowych i kontrola wersji
+- Automatyczne kopie zapasowe i kontrola wersji
 - Zarządzanie wieloma projektami
-### Funkcja uzupełniania AI
-- Trzy tryby uzupełniania: automatyczne uzupełnianie, ręczne uzupełnianie (zalecane: jedno naciśnięcie tab powoduje wywołanie, kolejne naciśnięcie tab stosuje uzupełnienie), wyłączone uzupełnianie
+
+### Funkcje AI uzupełniania
+- Trzy tryby uzupełniania: automatyczne, ręczne (zalecane: jedno naciśnięcie Tab wywołuje, kolejne stosuje uzupełnienie), wyłączone
 - Trzy tryby kontekstu:
-  - Tryb szybki: lekki kontekst, szybka reakcja
-  - Tryb zrównoważony: średni kontekst, równowaga jakości i szybkości
+  - Tryb szybki: lekki kontekst, szybka odpowiedź
+  - Tryb zrównoważony: średni kontekst, balans jakości i prędkości
   - Tryb globalny: pełny kontekst projektu, najlepszy efekt
-- Wsparcie dla różnych usług AI: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq i inne
+- Obsługa wielu usług AI: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq itp.
 
 ### Zarządzanie konspektem
 - Wizualna struktura drzewa konspektu
-- Przeciąganie do zmiany kolejności i poziomów
+- Przeciąganie do sortowania i zmiany poziomów
 - Szybka nawigacja po dokumencie
 - Analiza konspektu i sugestie optymalizacyjne
 
 ### Konfiguracja API
-- Ujednolicone centrum konfiguracji AI
-- Wstępne ustawienia dla wielu dostawców usług
+- Centralne miejsce konfiguracji AI
+- Wstępnie ustawione konfiguracje dla wielu dostawców
 - Funkcja testowania połączenia
 - Zapisywanie, import i eksport konfiguracji
+
 ### Ustawienia inteligentnego uzupełniania
 - Regulowane opóźnienie wyzwalania
-- Ograniczenie długości uzupełniania
+- Ograniczenie długości uzupełnień
 - Konfiguracja długości kontekstu
-- Wsparcie dla odpowiedzi strumieniowych
+- Obsługa odpowiedzi strumieniowych
 
 ### Edycja promptów
-- Wbudowane różne szablony pisarskie
+- Wbudowane szablony do pisania
 - Własne szablony promptów
 - Zarządzanie kategoriami szablonów
-- Konfiguracja szablonów specyficznych dla trybu
+- Konfiguracja szablonów dla poszczególnych trybów
 
 ### Funkcje interfejsu
-- Jasny i ciemny motyw
-- Układ trójkolumnowy (drzewo projektu, edytor, panel koncepcji)
+- Podwójny motyw: jasny i ciemny
+- Układ trzykolumnowy (drzewo projektu, edytor, panel pojęć)
 - Składany pasek boczny
 - Tryb pełnoekranowego pisania
-- Tryb skupienia (zdanie, akapit, maszyna do pisania, tryb zen, tryb immersyjny)
+- Tryb skupienia (zdania, akapity, maszyna do pisania, tryb zen, tryb immersyjny)
 
 ### Wyszukiwanie i zamiana
 - Wyszukiwanie tekstu w całym projekcie
 - Obsługa wyrażeń regularnych
-- Funkcja zamiany zbiorczej
+- Funkcja masowej zamiany
 - Zaawansowane opcje wyszukiwania
 
 ### Zarządzanie pojęciami
-- Automatyczne wykrywanie ról, miejsc, przedmiotów
-- Zarządzanie relacjami między pojęciami
-- System tagów i kategoryzacji
+- Automatyczne wykrywanie postaci, miejsc, przedmiotów
+- Zarządzanie relacjami pojęć
+- System etykiet i kategorii
 - Szybkie wstawianie pojęć
 
 ## Skróty klawiaturowe
@@ -125,10 +122,12 @@ python -m src
 - `Ctrl+O`: Otwórz projekt
 - `Ctrl+S`: Zapisz dokument
 - `F11`: Tryb pełnoekranowy
-- `Tab`: Ręczne wywołanie AI do autouzupełniania (w trybie ręcznym)
+- `Tab`: Ręczne wywołanie autouzupełniania AI (w trybie ręcznym)
 - `Ctrl+F`: Znajdź
 - `Ctrl+H`: Znajdź i zamień
-- `Ctrl+Shift+H`: Zaawansowane znajdowanie i zamienianie
+- `Ctrl+Shift+H`: Zaawansowane znajdź i zamień
+
+
 ## Wymagania systemowe
 
 - Python 3.8+
@@ -143,6 +142,6 @@ python -m src
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

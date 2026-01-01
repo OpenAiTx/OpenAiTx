@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 语言</summary>
@@ -27,6 +28,7 @@
     </div>
   </details>
 </div>
+
 # AI小说编辑器
 
 基于PyQt6的AI辅助小说编辑器，提供智能补全、项目管理、概念组织等专业写作工具。
@@ -39,27 +41,20 @@ git clone https://github.com/inliver233/Ai-Novel-Editor.git
 cd ai-novel-editor
 ```
 
-2. 创建虚拟环境
+2. Create a virtual environment
 ```bash
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-使用uv
-```bash
-uv venv -p 3.11
-```
+
 3. 安装依赖
 ```bash
 pip install -r requirements.txt
 ```
-使用uv
-```bash
-uv sync
-```
 
 4. 运行程序
 ```bash
-python -m src
+python src/main.py
 ```
 
 ## 主要功能
@@ -69,13 +64,14 @@ python -m src
 - 项目导入导出（支持TEXT、MARKDOWN、DOCX、PDF、HTML格式）
 - 自动备份和版本控制
 - 多项目管理
+
 ### AI补全功能
-- 三种补全模式：自动补全、手动补全（推荐按一次 Tab 触发一次，再按一次 Tab 应用补全）、禁用补全
+- 三种补全模式：自动补全、手动补全（推荐 按一次tab触发一次 再按一次tab应用补全）、禁用补全
 - 三种上下文模式：
   - 快速模式：轻量级上下文，快速响应
   - 平衡模式：中等上下文，质量与速度平衡
   - 全局模式：完整项目上下文，最佳效果
-- 支持多种 AI 服务：OpenAI、Claude、通义千问、智谱 AI、DeepSeek、Groq 等
+- 支持多种AI服务：OpenAI、Claude、通义千问、智谱AI、DeepSeek、Groq等
 
 ### 大纲管理
 - 可视化大纲树结构
@@ -84,10 +80,11 @@ python -m src
 - 大纲分析和优化建议
 
 ### API配置
-- 统一的 AI 配置中心
+- 统一的AI配置中心
 - 多服务商预设配置
 - 连接测试功能
 - 配置方案保存和导入导出
+
 ### 智能补全设置
 - 可调节的触发延迟
 - 补全长度限制
@@ -121,14 +118,16 @@ python -m src
 
 ## 快捷键
 
-- `Ctrl+N`: 新建项目
-- `Ctrl+O`: 打开项目
-- `Ctrl+S`: 保存文档
-- `F11`: 全屏模式
-- `Tab`: 手动触发AI补全（手动模式下）
-- `Ctrl+F`: 查找
-- `Ctrl+H`: 查找替换
-- `Ctrl+Shift+H`: 高级查找替换
+- `Ctrl+N`：新建项目
+- `Ctrl+O`：打开项目
+- `Ctrl+S`：保存文档
+- `F11`：全屏模式
+- `Tab`：手动触发AI补全（手动模式下）
+- `Ctrl+F`：查找
+- `Ctrl+H`：查找替换
+- `Ctrl+Shift+H`：高级查找替换
+
+
 ## 系统要求
 
 - Python 3.8+
@@ -143,6 +142,6 @@ python -m src
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

@@ -105,69 +105,83 @@ Dokumentasi: https://codewithcj.github.io/SparkyFitness
 Jalankan SparkyFitness dalam hitungan menit:
 
 ```bash
-# Clone the repository
-git clone https://github.com/CodeWithCJ/SparkyFitness.git
-cd SparkyFitness
+# 1. Create a new folder
+mkdir sparkyfitness && cd sparkyfitness
 
-# Copy environment template and edit as needed
-cp docker/.env.example .env
+# 2. Download Docker files only
+curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
+curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
 
-# Start development environment (with live reloading)
-./docker/docker-helper.sh dev up
+# 3. (Optional) Edit .env to customize your setup
+# e.g., update database credentials, ports, etc.
+# if you require Gamrin integration, uncomment Garmin section from compose file.
+
+# 4. Start the app
+docker compose pull && docker compose up -d
 
 # Access application at http://localhost:8080
 ```
 
 ## 📖 Dokumentasi
 
-Untuk panduan instalasi lengkap, pengaturan pengembangan, dan instruksi penggunaan, kunjungi dokumentasi kami yang komprehensif:
+Untuk panduan instalasi lengkap, pengaturan pengembangan, dan instruksi penggunaan, kunjungi dokumentasi lengkap kami:
 
 **👉 [Situs Dokumentasi SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
 
 ### Tautan Cepat
 
-- **[🚀 Memulai](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Panduan lengkap pengaturan untuk pengembangan dan produksi
+- **[🚀 Memulai](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Panduan pengaturan lengkap untuk pengembangan dan produksi
 - **[🐳 Panduan Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Penerapan dan konfigurasi Docker
 - **[🔧 Alur Kerja Pengembangan](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Panduan pengembang dan proses kontribusi  
 - **[📊 Ikhtisar Fitur](https://codewithcj.github.io/SparkyFitness/features/)** - Dokumentasi fitur lengkap
 - **[🏗️ Arsitektur](https://codewithcj.github.io/SparkyFitness/app-overview)** - Arsitektur teknis dan desain
 - Lihat Wiki untuk contoh pengaturan env dan konfigurasi Aplikasi Mobile.
 
-## 🐳 Penerapan Docker
 
-**Produksi (disarankan):**
-```bash
-cp docker/.env.example .env  # Edit as needed
-./docker/docker-helper.sh prod up
-# Access at http://localhost:3004
-```
-**Pengembangan:**
+## Riwayat Star
 
-```bash
-cp docker/.env.example .env  # Edit as needed  
-./docker/docker-helper.sh dev up
-# Access at http://localhost:8080 (live reloading)
-```
-Untuk petunjuk penyiapan rinci, konfigurasi lingkungan, dan pemecahan masalah, lihat [dokumentasi lengkap](https://codewithcj.github.io/SparkyFitness/developer/getting-started).
+<a href="https://star-history.com/#CodeWithCJ/SparkyFitness&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" />
+    <img alt="Grafik Riwayat Star" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
+  </picture>
+</a>
+
+## Terjemahan
+
+<a href="https://hosted.weblate.org/engage/sparkyfitness/">
+<img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="Status Terjemahan" />
+</a>
+
+## Aktivitas repositori
+
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Gambar analitik Repobeats")
+
+
+## Kontributor
+
+<a href="https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
+</a>
 
 ### ⚠️ Masalah Diketahui / Fitur Beta ⚠️
 
-Fitur-fitur berikut saat ini masih dalam versi beta dan mungkin belum diuji secara menyeluruh. Harap perhatikan kemungkinan bug atau fungsionalitas yang belum lengkap:
+Fitur-fitur berikut saat ini masih dalam versi beta dan mungkin belum diuji secara menyeluruh. Harap antisipasi kemungkinan bug atau fungsionalitas yang belum lengkap:
 
 *   Chatbot AI
 *   Dukungan multi-pengguna
 *   Akses Keluarga & Teman
 *   Integrasi Data Apple Health
 
-Aplikasi ini sedang dalam tahap pengembangan intensif. Beberapa hal mungkin tidak berfungsi seperti yang diharapkan karena migrasi Supabase ke PostgreSQL. PERUBAHAN BESAR dapat diperkenalkan hingga aplikasi stabil.
-Anda mungkin perlu mengubah variabel Docker/lingkungan untuk rilis baru. Oleh karena itu, pembaruan otomatis menggunakan Watchtower atau aplikasi serupa tidak disarankan. Bacalah catatan rilis untuk setiap PERUBAHAN BESAR.
-
+Aplikasi ini sedang dalam tahap pengembangan intensif. Beberapa hal mungkin tidak berjalan sesuai harapan karena migrasi dari Supabase ke PostgreSQL. PERUBAHAN BESAR mungkin akan diterapkan hingga aplikasi stabil.
+Anda mungkin perlu mengubah variabel Docker/lingkungan untuk rilis baru. Oleh karena itu, pembaruan otomatis menggunakan Watchtower atau aplikasi serupa tidak direkomendasikan. Bacalah catatan rilis untuk setiap PERUBAHAN BESAR.
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

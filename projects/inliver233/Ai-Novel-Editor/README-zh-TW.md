@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 語言</summary>
@@ -45,23 +46,15 @@ cd ai-novel-editor
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-使用uv
-```bash
-uv venv -p 3.11
-```
+
 3. 安裝依賴
 ```bash
 pip install -r requirements.txt
 ```
-使用uv
-```bash
-uv sync
-```
 
-
-4. 運行程式
+4. 執行程式
 ```bash
-python -m src
+python src/main.py
 ```
 
 ## 主要功能
@@ -71,48 +64,49 @@ python -m src
 - 專案匯入匯出（支援TEXT、MARKDOWN、DOCX、PDF、HTML格式）
 - 自動備份與版本控制
 - 多專案管理
+
 ### AI補全功能
-- 三種補全模式：自動補全、手動補全（推薦 按一次tab觸發一次 再按一次tab應用補全）、禁用補全
+- 三種補全模式：自動補全、手動補全（推薦按一次tab觸發一次 再按一次tab應用補全）、禁用補全
 - 三種上下文模式：
-  - 快速模式：輕量級上下文，快速響應
-  - 平衡模式：中等上下文，質量與速度平衡
+  - 快速模式：輕量級上下文，快速回應
+  - 平衡模式：中等上下文，品質與速度兼顧
   - 全域模式：完整專案上下文，最佳效果
 - 支援多種AI服務：OpenAI、Claude、通義千問、智譜AI、DeepSeek、Groq等
 
 ### 大綱管理
 - 視覺化大綱樹結構
-- 拖曳排序和層級調整
+- 拖曳排序與層級調整
 - 文件快速導覽
-- 大綱分析和優化建議
+- 大綱分析與優化建議
 
-### API配置
-- 統一的AI配置中心
-- 多服務商預設配置
+### API設定
+- 統一的AI設定中心
+- 多服務商預設設定
 - 連線測試功能
-- 配置方案儲存和匯入匯出
+- 設定方案儲存與匯入匯出
+
 ### 智能補全設定
 - 可調節的觸發延遲
 - 補全長度限制
-- 上下文長度配置
-- 流式回應支援
+- 上下文長度設定
+- 支援串流回應
 
 ### 提示詞編輯
 - 內建多種寫作模板
 - 自訂提示詞模板
 - 模板分類管理
-- 模式特定模板配置
-
+- 模式特定模板設定
 ### 介面功能
 - 明暗雙主題
-- 三欄式佈局（項目樹、編輯器、概念面板）
+- 三欄式佈局（專案樹、編輯器、概念面板）
 - 可摺疊側邊欄
 - 全螢幕寫作模式
 - 專注模式（句子、段落、打字機、禪模式、沉浸模式）
 
 ### 搜尋與取代
-- 全專案文本搜尋
+- 全專案文字搜尋
 - 正則表達式支援
-- 批次替換功能
+- 批次取代功能
 - 進階搜尋選項
 
 ### 概念管理
@@ -123,15 +117,17 @@ python -m src
 
 ## 快捷鍵
 
-- `Ctrl+N`: 新建專案
+- `Ctrl+N`: 新增專案
 - `Ctrl+O`: 開啟專案
 - `Ctrl+S`: 儲存文件
 - `F11`: 全螢幕模式
 - `Tab`: 手動觸發AI補全（手動模式下）
-- `Ctrl+F`: 查找
-- `Ctrl+H`: 查找取代
-- `Ctrl+Shift+H`: 進階查找取代
-## 系統要求
+- `Ctrl+F`: 尋找
+- `Ctrl+H`: 尋找取代
+- `Ctrl+Shift+H`: 進階尋找取代
+
+
+## 系統需求
 
 - Python 3.8+
 - PyQt6
@@ -139,12 +135,13 @@ python -m src
 
 ## 作者
 
+
 **inliver**
 - 電子郵件：inliverapi@outlook.com  
 - GitHub：https://github.com/inliver233
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

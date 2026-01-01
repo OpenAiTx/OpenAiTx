@@ -1,0 +1,471 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Quantized Visual Geometry Grounded Transformer\n\n[arXiv](https://arxiv.org/abs/2509.21302) | [BibTeX](#bibtex)\n\n------\n\nThis project is the official implementation of our QuantVGGT: \"Quantized Visual Geometry Grounded Transformer\".\n\n![teaser](https://raw.githubusercontent.com/wlfeng0509/QuantVGGT/main/imgs/teaser.png)\n\n![overview](https://raw.githubusercontent.com/wlfeng0509/QuantVGGT/main/imgs/overview.png)\n\n------\n\n## Results\n\n![result](https://raw.githubusercontent.com/wlfeng0509/QuantVGGT/main/imgs/result.png)\n\n## Updates\n\n- [October 10, 2025] Evaluation code for reproducing our camera pose estimation results on Co3D is now available.\n\n## Quick Start\n\nFirst, clone this repository to your local machine, and install the dependencies (torch, torchvision, numpy, Pillow, and huggingface_hub).\n",
+    "ContentSha": "K1FRjQ1ilrSEf/vbfbuGUJoA+aW5QlCPBgF/yLyd/+Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Quantized Visual Geometry Grounded Transformer\n\n[arXiv](https://arxiv.org/abs/2509.21302) | [BibTeX](#bibtex)\n\n------\n\nThis project is the official implementation of our QuantVGGT: \"Quantized Visual Geometry Grounded Transformer\".\n\n![teaser](https://raw.githubusercontent.com/wlfeng0509/QuantVGGT/main/imgs/teaser.png)\n\n![overview](https://raw.githubusercontent.com/wlfeng0509/QuantVGGT/main/imgs/overview.png)\n\n------\n\n## Results\n\n![result](https://raw.githubusercontent.com/wlfeng0509/QuantVGGT/main/imgs/result.png)\n\n## Updates\n\n- [October 10, 2025] Evaluation code for reproducing our camera pose estimation results on Co3D is now available.\n\n## Quick Start\n\nFirst, clone this repository to your local machine, and install the dependencies (torch, torchvision, numpy, Pillow, and huggingface_hub).\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "fz/gnqmueHr9NKZhjBMQyUaquaPAdQrDTVVN1S2Ipfg=",
+        "originContent": "# Quantized Visual Geometry Grounded Transformer",
+        "translatedContent": "# Quantized Visual Geometry Grounded Transformer"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "NVIjmE8Y4XhrEKoHzQLlSniUBtSjmERDypXJOQoL/yM=",
+        "originContent": "[arXiv](https://arxiv.org/abs/2509.21302) | [BibTeX](#bibtex)",
+        "translatedContent": "[arXiv](https://arxiv.org/abs/2509.21302) | [BibTeX](#bibtex)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "g55qJC4n3k+TxUAF/MftywgZtLqVOUiE3Yi3uNyck8s=",
+        "originContent": "------",
+        "translatedContent": "------"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "AaG8uID3f/ZbEsdzdM38XaaTW86KxvRnhn0QMn2u0qc=",
+        "originContent": "This project is the official implementation of our QuantVGGT: \"Quantized Visual Geometry Grounded Transformer\".",
+        "translatedContent": "This project is the official implementation of our QuantVGGT: \"Quantized Visual Geometry Grounded Transformer\"."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "QAJTucQvIFMKf9nffa1kapqZKTqhDXUzR2z/Mv1c8Kw=",
+        "originContent": "![teaser](https://raw.githubusercontent.com/wlfeng0509/QuantVGGT/main/imgs/teaser.png)",
+        "translatedContent": "![teaser](https://raw.githubusercontent.com/wlfeng0509/QuantVGGT/main/imgs/teaser.png)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "GwxXC+o1lAlA5MQtXNZuPV30zVzC3x9IVk3H6hAf3a4=",
+        "originContent": "![overview](https://raw.githubusercontent.com/wlfeng0509/QuantVGGT/main/imgs/overview.png)",
+        "translatedContent": "![overview](https://raw.githubusercontent.com/wlfeng0509/QuantVGGT/main/imgs/overview.png)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "g55qJC4n3k+TxUAF/MftywgZtLqVOUiE3Yi3uNyck8s=",
+        "originContent": "------",
+        "translatedContent": "------"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "ADZF0L9rtq2tkWbztn3EyxwOmpQH3q6vf/weI+xNHKQ=",
+        "originContent": "## Results",
+        "translatedContent": "## Results"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "a2DYOmlhg5+JJUifURqjSoqcPxnP8tzv6agvVnXngL8=",
+        "originContent": "![result](https://raw.githubusercontent.com/wlfeng0509/QuantVGGT/main/imgs/result.png)",
+        "translatedContent": "![result](https://raw.githubusercontent.com/wlfeng0509/QuantVGGT/main/imgs/result.png)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "33rz/QaTx1fSJq1J/I+4UruMGDlkyUTWsPmF1Y9FSSI=",
+        "originContent": "## Updates",
+        "translatedContent": "## Updates"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "PHQKdRPV9Sv3pbC5Cu8k5QjbFq1gwp9B993EpU+7+z8=",
+        "originContent": "- [October 10, 2025] Evaluation code for reproducing our camera pose estimation results on Co3D is now available.",
+        "translatedContent": "- [October 10, 2025] Evaluation code for reproducing our camera pose estimation results on Co3D is now available."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "GYXdIjDxn3gFPf/dh+IWvA3hUoHtZx8D7kUCccNTdZA=",
+        "originContent": "## Quick Start",
+        "translatedContent": "## Quick Start"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "VugEOmhOlEalFtlkMHenj9jjvX56LliUSSzOGdXVLqA=",
+        "originContent": "First, clone this repository to your local machine, and install the dependencies (torch, torchvision, numpy, Pillow, and huggingface_hub).",
+        "translatedContent": "First, clone this repository to your local machine, and install the dependencies (torch, torchvision, numpy, Pillow, and huggingface_hub)."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\ngit clone git@github.com:wlfeng0509/QuantVGGT.git\ncd QuantVGGT\npip install -r requirements.txt\n```",
+    "ContentSha": "6MigEytRjRxB/0R6jpw/s5pn2FgLKO2EN1h7m1Wncog=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ngit clone git@github.com:wlfeng0509/QuantVGGT.git\ncd QuantVGGT\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "U7q0lisU1oGT/knyVWyyf/siDJmoRb/AAS3naB84Yag=",
+        "originContent": "git clone git@github.com:wlfeng0509/QuantVGGT.git",
+        "translatedContent": "git clone git@github.com:wlfeng0509/QuantVGGT.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "Oz/RhDsreDT/ZCChGEYMH/Jxcm9pa1McCWbtcObVFD4=",
+        "originContent": "cd QuantVGGT",
+        "translatedContent": "cd QuantVGGT"
+      },
+      {
+        "row": 4,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nThen download the pre trained weights provided by [VGGT](https://github.com/facebookresearch/vggt) and prepare Co3D dataset following [this](https://github.com/facebookresearch/vggt/tree/evaluation/evaluation).\n\nThen download the pre trained W4A4 quantization parameters from [huggingface](https://huggingface.co/wlfeng/QuantVGGT/tree/main) and place the downloaded folder under *evaluation\\outputs\\w4a4* branch.\n\nWe can now use the provided script for inference **(remember to change the data path within the script)**.\n",
+    "ContentSha": "5iyYoHMbfs+dFE8C/bgGtsd1o3DA0oxkr2H50PcjMME=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Then download the pre trained weights provided by [VGGT](https://github.com/facebookresearch/vggt) and prepare Co3D dataset following [this](https://github.com/facebookresearch/vggt/tree/evaluation/evaluation).\n\nThen download the pre trained W4A4 quantization parameters from [huggingface](https://huggingface.co/wlfeng/QuantVGGT/tree/main) and place the downloaded folder under *evaluation\\outputs\\w4a4* branch.\n\nWe can now use the provided script for inference **(remember to change the data path within the script)**.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Then download the pre trained weights provided by [VGGT](https://github.com/facebookresearch/vggt) and prepare Co3D dataset following [this](https://github.com/facebookresearch/vggt/tree/evaluation/evaluation)."
+      },
+      {
+        "row": 2,
+        "rowsha": "mhPHdSC+CqLL/9QqQdNJ/JcdxtYye8NLKOp/4cI1nP0=",
+        "originContent": "Then download the pre trained weights provided by [VGGT](https://github.com/facebookresearch/vggt) and prepare Co3D dataset following [this](https://github.com/facebookresearch/vggt/tree/evaluation/evaluation).",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Then download the pre trained W4A4 quantization parameters from [huggingface](https://huggingface.co/wlfeng/QuantVGGT/tree/main) and place the downloaded folder under *evaluation\\outputs\\w4a4* branch."
+      },
+      {
+        "row": 4,
+        "rowsha": "/pKec732hoZVAkxV6ybSTV5goZ8LWn49Mhj6ut4pSQQ=",
+        "originContent": "Then download the pre trained W4A4 quantization parameters from [huggingface](https://huggingface.co/wlfeng/QuantVGGT/tree/main) and place the downloaded folder under *evaluation\\outputs\\w4a4* branch.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "We can now use the provided script for inference **(remember to change the data path within the script)**."
+      },
+      {
+        "row": 6,
+        "rowsha": "nH6vJCNT5gZVpZk7CT7iC5ZoOY7wbWX4QP3bzfCVX5Y=",
+        "originContent": "We can now use the provided script for inference **(remember to change the data path within the script)**.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\ncd evaluation\nbash test.sh\n```",
+    "ContentSha": "cCLPlUnQjioNlTIgzWKrmZVp0FwIlARNV0bQAavnMms=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\ncd evaluation\nbash test.sh\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ykqUouldixkOfTRp29VA0FO5JUTvr8BU9tJ9VSlOXlc=",
+        "originContent": "cd evaluation",
+        "translatedContent": "cd evaluation"
+      },
+      {
+        "row": 3,
+        "rowsha": "VPiWvUE5vjq5WaJhbogXgSklRFOry1QQg0qhsWkaBxE=",
+        "originContent": "bash test.sh",
+        "translatedContent": "bash test.sh"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nAlso, you can use the quantized model for predicting other 3D attributes following the guidance [here](https://github.com/facebookresearch/vggt/tree/evaluation#detailed-usage).\n\n## Comments\n\n* Our codebase is heavily builds on [VGGT](https://github.com/facebookresearch/vggt) and [QuaRot](https://github.com/spcl/QuaRot). Thanks for open-sourcing!\n\n## BibTeX\n\nIf you find *QuantVGGT* is useful and helpful to your work, please kindly cite this paper:\n",
+    "ContentSha": "Jli90lPq32nb0bmGpdPKU+g1OIHVv9L7LRQNahHNzKk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nAlso, you can use the quantized model for predicting other 3D attributes following the guidance [here](https://github.com/facebookresearch/vggt/tree/evaluation#detailed-usage).\n\n## Comments\n\n* Our codebase heavily builds on [VGGT](https://github.com/facebookresearch/vggt) and [QuaRot](https://github.com/spcl/QuaRot). Thanks for open-sourcing!\n\n## BibTeX\n\nIf you find *QuantVGGT* is useful and helpful to your work, please kindly cite this paper:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qIOexOC71yuWLLGlPt5E0HD1HUjn4ddWYP9s4GlY4Aw=",
+        "originContent": "Also, you can use the quantized model for predicting other 3D attributes following the guidance [here](https://github.com/facebookresearch/vggt/tree/evaluation#detailed-usage).",
+        "translatedContent": "Also, you can use the quantized model for predicting other 3D attributes following the guidance [here](https://github.com/facebookresearch/vggt/tree/evaluation#detailed-usage)."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "zNNzAyQbrJWzpRErrCvwyNEZjC1Ud6zTPhbsV86F37Y=",
+        "originContent": "## Comments",
+        "translatedContent": "## Comments"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "SPljz+i9nAx/JCUipd5OGceLKABe5GPpDRl4DZUIo00=",
+        "originContent": "* Our codebase is heavily builds on [VGGT](https://github.com/facebookresearch/vggt) and [QuaRot](https://github.com/spcl/QuaRot). Thanks for open-sourcing!",
+        "translatedContent": "* Our codebase heavily builds on [VGGT](https://github.com/facebookresearch/vggt) and [QuaRot](https://github.com/spcl/QuaRot). Thanks for open-sourcing!"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "b7jl+G7TcKN1xV5inNuAdNubLkrwyqpFVm8DeAYIjEc=",
+        "originContent": "## BibTeX",
+        "translatedContent": "## BibTeX"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "3GFdPUegZebSX+C/V9pEgXv5ZTzuhwxDVgbj0ZF9azI=",
+        "originContent": "If you find *QuantVGGT* is useful and helpful to your work, please kindly cite this paper:",
+        "translatedContent": "If you find *QuantVGGT* is useful and helpful to your work, please kindly cite this paper:"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\n@article{feng2025quantized,\n  title={Quantized Visual Geometry Grounded Transformer},\n  author={Feng, Weilun and Qin, Haotong and Wu, Mingqiang and Yang, Chuanguang and Li, Yuqi and Li, Xiangqi and An, Zhulin and Huang, Libo and Zhang, Yulun and Magno, Michele and others},\n  journal={arXiv preprint arXiv:2509.21302},\n  year={2025}\n}\n```",
+    "ContentSha": "Xj+Pu5rcoNFiTdLW+keznZ9nri5I/rm3TjhyKtVeyWg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n@article{feng2025quantized,\n  title={Quantized Visual Geometry Grounded Transformer},\n  author={Feng, Weilun and Qin, Haotong and Wu, Mingqiang and Yang, Chuanguang and Li, Yuqi and Li, Xiangqi and An, Zhulin and Huang, Libo and Zhang, Yulun and Magno, Michele and others},\n  journal={arXiv preprint arXiv:2509.21302},\n  year={2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "S4pqGXMYHQmwRBmOlm7pt2/RlfRsPekk6FhSE8ghbH4=",
+        "originContent": "@article{feng2025quantized,",
+        "translatedContent": "@article{feng2025quantized,"
+      },
+      {
+        "row": 3,
+        "rowsha": "3GOb9vxAhGq4xFAgCwIProCVlRqDd5PV2evmq1amhuM=",
+        "originContent": "  title={Quantized Visual Geometry Grounded Transformer},",
+        "translatedContent": "  title={Quantized Visual Geometry Grounded Transformer},"
+      },
+      {
+        "row": 4,
+        "rowsha": "0Y5/8ADxvpG47qqtfmzZ+0h9dOzifB/AUBqYxgO37/w=",
+        "originContent": "  author={Feng, Weilun and Qin, Haotong and Wu, Mingqiang and Yang, Chuanguang and Li, Yuqi and Li, Xiangqi and An, Zhulin and Huang, Libo and Zhang, Yulun and Magno, Michele and others},",
+        "translatedContent": "  author={Feng, Weilun and Qin, Haotong and Wu, Mingqiang and Yang, Chuanguang and Li, Yuqi and Li, Xiangqi and An, Zhulin and Huang, Libo and Zhang, Yulun and Magno, Michele and others},"
+      },
+      {
+        "row": 5,
+        "rowsha": "lpQ/IrXSi0eLmBmCnczsCJvMMsg1K2wSKO/uyQLz/Fg=",
+        "originContent": "  journal={arXiv preprint arXiv:2509.21302},",
+        "translatedContent": "  journal={arXiv preprint arXiv:2509.21302},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\n",
+    "ContentSha": "AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

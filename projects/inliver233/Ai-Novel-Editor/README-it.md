@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Lingua</summary>
@@ -27,9 +28,10 @@
     </div>
   </details>
 </div>
+
 # AI Novel Editor
 
-Editor di romanzi AI assistito basato su PyQt6, che offre strumenti professionali di scrittura come completamento intelligente, gestione dei progetti, organizzazione dei concetti e altro.
+Editor di romanzi assistito da AI basato su PyQt6, offre strumenti professionali per la scrittura come completamento intelligente, gestione progetti, organizzazione dei concetti e altro.
 
 ## Installazione
 
@@ -39,86 +41,80 @@ git clone https://github.com/inliver233/Ai-Novel-Editor.git
 cd ai-novel-editor
 ```
 
-2. Crea un ambiente virtuale
+2. Creazione dell'ambiente virtuale
 ```bash
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-Usa uv
-```bash
-uv venv -p 3.11
-```
+
 3. Installazione delle dipendenze
 ```bash
 pip install -r requirements.txt
 ```
-Utilizzo di uv
+
+4. Eseguire il programma
 ```bash
-uv sync
+python src/main.py
 ```
 
+## Funzionalità Principali
 
-4. Avvio del programma
-```bash
-python -m src
-```
-
-## Funzionalità principali
-
-### Gestione dei progetti
+### Gestione Progetti
 - Struttura documentale gerarchica (Opera > Capitolo > Scena)
-- Importazione ed esportazione dei progetti (supporta formati TEXT, MARKDOWN, DOCX, PDF, HTML)
+- Importazione ed esportazione progetti (supporta formati TEXT, MARKDOWN, DOCX, PDF, HTML)
 - Backup automatico e controllo delle versioni
-- Gestione di più progetti
-### Funzione di completamento AI
-- Tre modalità di completamento: completamento automatico, completamento manuale (consigliato: premere una volta tab per attivare, premere di nuovo tab per applicare il completamento), disabilita completamento
+- Gestione multi-progetto
+
+### Funzionalità di Completamento AI
+- Tre modalità di completamento: completamento automatico, completamento manuale (consigliato: premi Tab una volta per attivare, premi Tab di nuovo per applicare), disabilita completamento
 - Tre modalità di contesto:
   - Modalità veloce: contesto leggero, risposta rapida
   - Modalità bilanciata: contesto medio, equilibrio tra qualità e velocità
-  - Modalità globale: contesto completo del progetto, miglior risultato
+  - Modalità globale: contesto completo del progetto, effetto ottimale
 - Supporto per vari servizi AI: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq, ecc.
 
-### Gestione della struttura
-- Struttura ad albero visuale della struttura
-- Ordinamento tramite trascinamento e regolazione dei livelli
-- Navigazione rapida dei documenti
-- Analisi della struttura e suggerimenti di ottimizzazione
+### Gestione Struttura
+- Struttura ad albero visuale della struttura generale
+- Ordinamento tramite trascinamento e modifica dei livelli
+- Navigazione rapida del documento
+- Analisi della struttura generale e suggerimenti di ottimizzazione
 
 ### Configurazione API
 - Centro di configurazione AI unificato
-- Configurazioni preimpostate per diversi provider di servizi
-- Funzione di test di connessione
-- Salvataggio, importazione ed esportazione delle configurazioni
-### Impostazioni di Completamento Intelligente
-- Ritardo di attivazione regolabile
-- Limite di lunghezza del completamento
-- Configurazione della lunghezza del contesto
-- Supporto per risposta in streaming
+- Configurazioni preimpostate per più fornitori di servizi
+- Funzione di test della connessione
+- Salvataggio ed esportazione/importazione delle configurazioni
 
-### Modifica dei Prompt
-- Vari modelli di scrittura integrati
-- Modelli di prompt personalizzati
-- Gestione delle categorie di modelli
+### Impostazioni Completamento Intelligente
+- Ritardo di attivazione regolabile
+- Limite della lunghezza del completamento
+- Configurazione della lunghezza del contesto
+- Supporto risposta in streaming
+
+### Modifica Prompt
+- Diversi modelli di scrittura integrati
+- Modelli di prompt personalizzabili
+- Gestione della classificazione dei modelli
 - Configurazione di modelli specifici per modalità
 
-### Funzionalità dell'Interfaccia
+### Funzionalità dell'interfaccia
 - Tema chiaro e scuro
-- Layout a tre colonne (albero del progetto, editor, pannello dei concetti)
-- Barra laterale comprimibile
-- Modalità di scrittura a schermo intero
+- Layout a tre colonne (albero dei progetti, editor, pannello concetti)
+- Barra laterale pieghevole
+- Modalità scrittura a schermo intero
 - Modalità concentrazione (frase, paragrafo, macchina da scrivere, modalità zen, modalità immersiva)
 
-### Ricerca e Sostituzione
-- Ricerca in tutto il testo del progetto
-- Supporto delle espressioni regolari
+### Ricerca e sostituzione
+- Ricerca testo in tutto il progetto
+- Supporto per espressioni regolari
 - Funzione di sostituzione in batch
-- Opzioni di ricerca avanzate
+- Opzioni di ricerca avanzata
 
 ### Gestione dei concetti
-- Rilevamento automatico di ruoli, luoghi, oggetti
+- Rilevamento automatico di personaggi, luoghi, oggetti
 - Gestione delle relazioni tra concetti
-- Sistema di etichette e classificazione
-- Inserimento rapido dei concetti
+- Sistema di etichette e categorie
+- Inserimento rapido di concetti
 
 ## Scorciatoie da tastiera
 
@@ -126,10 +122,12 @@ python -m src
 - `Ctrl+O`: Apri progetto
 - `Ctrl+S`: Salva documento
 - `F11`: Modalità schermo intero
-- `Tab`: Attiva manualmente il completamento AI (in modalità manuale)
+- `Tab`: Attiva completamento AI manuale (in modalità manuale)
 - `Ctrl+F`: Trova
 - `Ctrl+H`: Trova e sostituisci
 - `Ctrl+Shift+H`: Trova e sostituisci avanzato
+
+
 ## Requisiti di sistema
 
 - Python 3.8+
@@ -144,6 +142,6 @@ python -m src
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

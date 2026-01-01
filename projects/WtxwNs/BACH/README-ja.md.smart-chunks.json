@@ -1,0 +1,655 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/WtxwNs/BACH/main/tokenpair.png\" width=\"85%\"/>\n  <br><br>\n  <i>Watch how BACH turns raw tokens into structured music—step by step.</i>\n</p>\n\n# BACH: Bar-level AI Composing Helper  \n\n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2508.01394\">\n    <img src=\"https://img.shields.io/badge/arXiv-2508.01394-b31b1b.svg\" alt=\"arXiv\"/>\n  </a>\n  <a href=\"https://github.com/WtxwNs/BACH/blob/main/LICENSE\">\n    <img src=\"https://img.shields.io/github/license/WtxwNs/BACH\" alt=\"License\"/>\n  </a>\n  <img src=\"https://img.shields.io/github/repo-size/WtxwNs/BACH\" alt=\"Repo Size\"/>\n  <img src=\"https://img.shields.io/github/stars/WtxwNs/BACH?style=social\" alt=\"Stars\"/>\n</p>\n\n&gt; *\"Via Score to Performance: Efficient Human-Controllable Long Song Generation with Bar-Level Symbolic Notation\"*  \n&gt; ICASSP 2026 Submission – **Pending Review**\n\n---\n\n## 🎼 One-sentence Summary  \nBACH is the first **human-editable**, **bar-level** symbolic song generator:  \nLLM writes lyrics → Transformer emits ABC score → off-the-shelf renderers give **minutes-long, Suno-level** music.  \n**1 B params**, **minute-level** inference, **SOTA open-source**.\n\n---\n\n## 📦 What is inside this repo (preview release)\n| Path | Description |\n|------|-------------|\n| `README.md` | This file |\n| `code/` | inference code |\n| `example.mp3` | an example song |\n| `fig/` | Architecture figure |\n\n---",
+    "ContentSha": "cUm4H77da69VM4gexTcgQCLEs0BNWiPHum3KQxqbi7A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/WtxwNs/BACH/main/tokenpair.png\" width=\"85%\"/>\n  <br><br>\n  <i>BACHが生のトークンを段階的に構造化された音楽に変える様子をご覧ください。</i>\n</p>\n\n# BACH: 小節レベルAI作曲アシスタント  \n\n<p align=\"center\">\n  <a href=\"https://arxiv.org/abs/2508.01394\">\n    <img src=\"https://img.shields.io/badge/arXiv-2508.01394-b31b1b.svg\" alt=\"arXiv\"/>\n  </a>\n  <a href=\"https://github.com/WtxwNs/BACH/blob/main/LICENSE\">\n    <img src=\"https://img.shields.io/github/license/WtxwNs/BACH\" alt=\"License\"/>\n  </a>\n  <img src=\"https://img.shields.io/github/repo-size/WtxwNs/BACH\" alt=\"Repo Size\"/>\n  <img src=\"https://img.shields.io/github/stars/WtxwNs/BACH?style=social\" alt=\"Stars\"/>\n</p>\n\n&gt; *「スコアからパフォーマンスへ：小節レベルの記譜で実現する効率的かつ人間が制御可能な長尺曲生成」*  \n&gt; ICASSP 2026 投稿 – **査読中**\n\n---\n\n## 🎼 一文での要約  \nBACHは初の**人間が編集可能な**、**小節レベル**の記譜型楽曲生成器です：  \nLLMが歌詞を書き → トランスフォーマーがABC譜を生成 → 汎用レンダラーで**数分間のSunoレベル**音楽に。  \n**10億パラメータ級**、**分単位推論**、**最先端のオープンソース**。\n\n---\n\n## 📦 このリポジトリの中身（プレビューバージョン）\n| パス | 説明 |\n|------|-------------|\n| `README.md` | 本ファイル |\n| `code/` | 推論コード |\n| `example.mp3` | サンプル曲 |\n| `fig/` | アーキテクチャ図 |\n\n---",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "lFJPODnmQ3ZG+ezdXNe0hXSv7OIIRMAYgOQvL/s22lw=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/WtxwNs/BACH/main/tokenpair.png\" width=\"85%\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/WtxwNs/BACH/main/tokenpair.png\" width=\"85%\"/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "q5HTaHazpO8lcmJHzVM10tWEAbE/cTmYcWL426GnxjU=",
+        "originContent": "  <br><br>",
+        "translatedContent": "  <br><br>"
+      },
+      {
+        "row": 4,
+        "rowsha": "OTCMsjzpLivutrayt1Tk6Z33CZkcEyWPXwGFJRugNDc=",
+        "originContent": "  <i>Watch how BACH turns raw tokens into structured music—step by step.</i>",
+        "translatedContent": "  <i>BACHが生のトークンを段階的に構造化された音楽に変える様子をご覧ください。</i>"
+      },
+      {
+        "row": 5,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "cdr+M44iGM0WGdb2GrQFDcew1Ur1hhS9tzCR5phYB8U=",
+        "originContent": "# BACH: Bar-level AI Composing Helper  ",
+        "translatedContent": "# BACH: 小節レベルAI作曲アシスタント  "
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 10,
+        "rowsha": "E9Oq9fmIEYLzrhA4ALE4357HmHk7++1Be7BoDALe3Q8=",
+        "originContent": "  <a href=\"https://arxiv.org/abs/2508.01394\">",
+        "translatedContent": "  <a href=\"https://arxiv.org/abs/2508.01394\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "SXstXsQoByChJam64fxc6yz7G0pC8ENCfYr4GPWKFN8=",
+        "originContent": "    <img src=\"https://img.shields.io/badge/arXiv-2508.01394-b31b1b.svg\" alt=\"arXiv\"/>",
+        "translatedContent": "    <img src=\"https://img.shields.io/badge/arXiv-2508.01394-b31b1b.svg\" alt=\"arXiv\"/>"
+      },
+      {
+        "row": 12,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "5DccRUsJ7r5CHQMtJciNIlEel+HeRA2LwkWc7SAYJuo=",
+        "originContent": "  <a href=\"https://github.com/WtxwNs/BACH/blob/main/LICENSE\">",
+        "translatedContent": "  <a href=\"https://github.com/WtxwNs/BACH/blob/main/LICENSE\">"
+      },
+      {
+        "row": 14,
+        "rowsha": "Upmc4sJj6aUmNQsusfcc17KiqhjutpNf3TOhxocwXC0=",
+        "originContent": "    <img src=\"https://img.shields.io/github/license/WtxwNs/BACH\" alt=\"License\"/>",
+        "translatedContent": "    <img src=\"https://img.shields.io/github/license/WtxwNs/BACH\" alt=\"License\"/>"
+      },
+      {
+        "row": 15,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "oKV/zLXs+DvcP4eLewONSdY5VUgJQYBd/+kmW3ReLUY=",
+        "originContent": "  <img src=\"https://img.shields.io/github/repo-size/WtxwNs/BACH\" alt=\"Repo Size\"/>",
+        "translatedContent": "  <img src=\"https://img.shields.io/github/repo-size/WtxwNs/BACH\" alt=\"Repo Size\"/>"
+      },
+      {
+        "row": 17,
+        "rowsha": "rUkha81upyob61hHwX2hTX0uCHIuYiw8qoqJ+VINBUY=",
+        "originContent": "  <img src=\"https://img.shields.io/github/stars/WtxwNs/BACH?style=social\" alt=\"Stars\"/>",
+        "translatedContent": "  <img src=\"https://img.shields.io/github/stars/WtxwNs/BACH?style=social\" alt=\"Stars\"/>"
+      },
+      {
+        "row": 18,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "6drDFPtQ8YKRFi6zDXQKQNkFV+KIzGSd4t6Ek3hCP20=",
+        "originContent": "&gt; *\"Via Score to Performance: Efficient Human-Controllable Long Song Generation with Bar-Level Symbolic Notation\"*  ",
+        "translatedContent": "&gt; *「スコアからパフォーマンスへ：小節レベルの記譜で実現する効率的かつ人間が制御可能な長尺曲生成」*  "
+      },
+      {
+        "row": 21,
+        "rowsha": "CcIRyszOD8Hjjfg8uTxA+6aHLH7SPeikd5+Mj/vVWFU=",
+        "originContent": "&gt; ICASSP 2026 Submission – **Pending Review**",
+        "translatedContent": "&gt; ICASSP 2026 投稿 – **査読中**"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "/PRNClULfdL1UPApN0DWLYth7f+0Q7owqCHtOcPAEog=",
+        "originContent": "## 🎼 One-sentence Summary  ",
+        "translatedContent": "## 🎼 一文での要約  "
+      },
+      {
+        "row": 26,
+        "rowsha": "n/Sc7I2kUtUq3tH86tQhi5o43XrZrFpB+gsHdoro+jk=",
+        "originContent": "BACH is the first **human-editable**, **bar-level** symbolic song generator:  ",
+        "translatedContent": "BACHは初の**人間が編集可能な**、**小節レベル**の記譜型楽曲生成器です：  "
+      },
+      {
+        "row": 27,
+        "rowsha": "EiW8fILuMaULDapQ11S2baH+xsUvhjbVzTy4JuW52mw=",
+        "originContent": "LLM writes lyrics → Transformer emits ABC score → off-the-shelf renderers give **minutes-long, Suno-level** music.  ",
+        "translatedContent": "LLMが歌詞を書き → トランスフォーマーがABC譜を生成 → 汎用レンダラーで**数分間のSunoレベル**音楽に。  "
+      },
+      {
+        "row": 28,
+        "rowsha": "YjlKPImrzjXsrYaMrNhVyFU2vsSAHIM4cfK6OCwLm8Y=",
+        "originContent": "**1 B params**, **minute-level** inference, **SOTA open-source**.",
+        "translatedContent": "**10億パラメータ級**、**分単位推論**、**最先端のオープンソース**。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "tqL5QnsyRzI61l+qERUlw0K83Wq6e321Z+VS1UfXUMM=",
+        "originContent": "## 📦 What is inside this repo (preview release)",
+        "translatedContent": "## 📦 このリポジトリの中身（プレビューバージョン）"
+      },
+      {
+        "row": 33,
+        "rowsha": "KQuiSWmcjK6S0TijfI/kAKeE59vGWJHBVvMwo0vevz8=",
+        "originContent": "| Path | Description |",
+        "translatedContent": "| パス | 説明 |"
+      },
+      {
+        "row": 34,
+        "rowsha": "E0a5l6U++MKlNLJbXgJB6DSfMfYy1KL1EHjo1imkim0=",
+        "originContent": "|------|-------------|",
+        "translatedContent": "|------|-------------|"
+      },
+      {
+        "row": 35,
+        "rowsha": "2n6JBR5uADUkKt1L4I9zKqCXgwYF8AdeML8iYOdhGjQ=",
+        "originContent": "| `README.md` | This file |",
+        "translatedContent": "| `README.md` | 本ファイル |"
+      },
+      {
+        "row": 36,
+        "rowsha": "2fjEvg+DdU37o+7NHb5YhrlUoKhd2w1xi93N0owyr+A=",
+        "originContent": "| `code/` | inference code |",
+        "translatedContent": "| `code/` | 推論コード |"
+      },
+      {
+        "row": 37,
+        "rowsha": "SBIqxkBRFKab7dMgztqlamV2YqaKC33ymGMmr6NtCpU=",
+        "originContent": "| `example.mp3` | an example song |",
+        "translatedContent": "| `example.mp3` | サンプル曲 |"
+      },
+      {
+        "row": 38,
+        "rowsha": "KePzIrlRvquEJRgoLyw8mAB345tLnr182K3G3RNaK2I=",
+        "originContent": "| `fig/` | Architecture figure |",
+        "translatedContent": "| `fig/` | アーキテクチャ図 |"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n## 🏗️ Model Architecture (one glance)\n\nUser prompt\nQwen3 — lyrics & style tags\nBACH-1B Decoder-Only Transformer\nABC score (Dual-NTP + Chain-of-Score)\nABC → MIDI → FluidSynth + VOCALOID\nStereo mix\n\n\n| Component | Key idea |\n|-----------|----------|\n| **Dual-NTP** | Predict `{vocal_patch, accomp_patch}` jointly every step |\n| **Chain-of-Score** | Section tags `[START:Chorus] ... [END:Chorus]` for long coherence |\n| **Bar-stream patch** | 16-char non-overlapping patches per bar |\n\n---\n\n## 🧪 Quick start (CPU friendly)",
+    "ContentSha": "o6eR2IARHlF0GvoVfQ2luxJFqUhAhXBUC4OETxjsLYY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 🏗️ モデルアーキテクチャ（一目でわかる）\n\nユーザープロンプト  \nQwen3 — 歌詞＆スタイルタグ  \nBACH-1B デコーダー専用トランスフォーマー  \nABCスコア（Dual-NTP + Chain-of-Score）  \nABC → MIDI → FluidSynth + VOCALOID  \nステレオミックス  \n\n\n| コンポーネント | 主要アイデア |\n|-----------|----------|\n| **Dual-NTP** | 毎ステップ `{vocal_patch, accomp_patch}` を共同予測 |\n| **Chain-of-Score** | 長期整合性のためのセクションタグ `[START:Chorus] ... [END:Chorus]` |\n| **Bar-stream patch** | 1小節あたり16文字の非重複パッチ |  \n\n---\n\n## 🧪 クイックスタート（CPU対応）\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🏗️ モデルアーキテクチャ（一目でわかる）"
+      },
+      {
+        "row": 2,
+        "rowsha": "Gef5sWyQ1KybA26tnXC/vAPw5C9oia7h4+eNn3pTARk=",
+        "originContent": "## 🏗️ Model Architecture (one glance)",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ユーザープロンプト  "
+      },
+      {
+        "row": 4,
+        "rowsha": "kkskk+uJcSJimo9dIjAl+lmPU/YXQYyHyhh5LN82G2s=",
+        "originContent": "User prompt",
+        "translatedContent": "Qwen3 — 歌詞＆スタイルタグ  "
+      },
+      {
+        "row": 5,
+        "rowsha": "0/vUmo7LogOOpAmAJdnjH5MT3qpPWbcX27iYyrGj53k=",
+        "originContent": "Qwen3 — lyrics & style tags",
+        "translatedContent": "BACH-1B デコーダー専用トランスフォーマー  "
+      },
+      {
+        "row": 6,
+        "rowsha": "YHs0XQE0pe2mnMeqeUqeb9usHGmpqOBQKq5WzsfsQGE=",
+        "originContent": "BACH-1B Decoder-Only Transformer",
+        "translatedContent": "ABCスコア（Dual-NTP + Chain-of-Score）  "
+      },
+      {
+        "row": 7,
+        "rowsha": "sIInasvMEOFLXcWtBIM8iUR0CPtRg9Bweyf5Uk9QdEI=",
+        "originContent": "ABC score (Dual-NTP + Chain-of-Score)",
+        "translatedContent": "ABC → MIDI → FluidSynth + VOCALOID  "
+      },
+      {
+        "row": 8,
+        "rowsha": "WGOd6mY0dhvUNcxmI1c2AoXqNZsc8Igr8tQMflI/4Z0=",
+        "originContent": "ABC → MIDI → FluidSynth + VOCALOID",
+        "translatedContent": "ステレオミックス  "
+      },
+      {
+        "row": 9,
+        "rowsha": "SHlWx+PIX/1i9N+VfK8EyPtCMVCjMBE6rky7Rc7XOEk=",
+        "originContent": "Stereo mix",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| コンポーネント | 主要アイデア |"
+      },
+      {
+        "row": 12,
+        "rowsha": "+4i5Vf353gPsGk2CQs4Or3zbebhwnpncy/FLi3IPr4M=",
+        "originContent": "| Component | Key idea |",
+        "translatedContent": "|-----------|----------|"
+      },
+      {
+        "row": 13,
+        "rowsha": "pPSFJf4Sb2cWfKFsqgrurrP88cvnVz0GQ9lHyCeQ//0=",
+        "originContent": "|-----------|----------|",
+        "translatedContent": "| **Dual-NTP** | 毎ステップ `{vocal_patch, accomp_patch}` を共同予測 |"
+      },
+      {
+        "row": 14,
+        "rowsha": "6Jv5LY7ZGbDRzhYVEo3xDxOn78UqCny1dVdiHWwT9qA=",
+        "originContent": "| **Dual-NTP** | Predict `{vocal_patch, accomp_patch}` jointly every step |",
+        "translatedContent": "| **Chain-of-Score** | 長期整合性のためのセクションタグ `[START:Chorus] ... [END:Chorus]` |"
+      },
+      {
+        "row": 15,
+        "rowsha": "mlPUaw+BPPqUc1+WCZy8HCrPzEw6pgxVPx7CzXPL5Xg=",
+        "originContent": "| **Chain-of-Score** | Section tags `[START:Chorus] ... [END:Chorus]` for long coherence |",
+        "translatedContent": "| **Bar-stream patch** | 1小節あたり16文字の非重複パッチ |  "
+      },
+      {
+        "row": 16,
+        "rowsha": "UvhZT2tn0mQ7VbRdiiEYeJFJvKVep5URld2LGLWnkGw=",
+        "originContent": "| **Bar-stream patch** | 16-char non-overlapping patches per bar |",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🧪 クイックスタート（CPU対応）"
+      },
+      {
+        "row": 20,
+        "rowsha": "790MtFV7thHmcF2HHxCY4P5wo2A9722y0P9bvlHXPEE=",
+        "originContent": "## 🧪 Quick start (CPU friendly)",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\n# 1. Clone\ngit clone https://github.com/your-github/BACH.git\ncd BACH\n\n# 2. Install\npip install -r requirements.txt        # transformers>=4.41 mido abcpy fluidsynth\n\n# 3. Generate ABC\npython bach/generate.py \\\n    --prompt \"A rainy-day lo-fi hip-hop song about missing the last train\" \\\n    --out_abc demo/rainy_lofi.abc\n\n# 4. Render audio\n```",
+    "ContentSha": "piznCe6/DzODGPj1tn/5LP/MIWyAls4A0E8JIdzedZQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# 1. Clone\ngit clone https://github.com/your-github/BACH.git\ncd BACH\n\n# 2. Install\npip install -r requirements.txt        # transformers>=4.41 mido abcpy fluidsynth\n\n# 3. Generate ABC\npython bach/generate.py \\\n    --prompt \"A rainy-day lo-fi hip-hop song about missing the last train\" \\\n    --out_abc demo/rainy_lofi.abc\n\n# 4. Render audio\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xHAkYA7BwmMjiPrfx0lhzrGHIqGTez8xcntA0dCqhvY=",
+        "originContent": "# 1. Clone",
+        "translatedContent": "# 1. Clone"
+      },
+      {
+        "row": 3,
+        "rowsha": "OrwQ9zMPqR1xr78DVlsztZsjIBuuMs99X+dTcTt8nAo=",
+        "originContent": "git clone https://github.com/your-github/BACH.git",
+        "translatedContent": "git clone https://github.com/your-github/BACH.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "KAgD8XU6JxY15+yojZfTBHJTgvmfo778ByFK6Z4f+Vo=",
+        "originContent": "cd BACH",
+        "translatedContent": "cd BACH"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "cGFKvu3wG5JVaQ1asUxyTO4I81qcWlJwoMsfbfuj2H8=",
+        "originContent": "# 2. Install",
+        "translatedContent": "# 2. Install"
+      },
+      {
+        "row": 7,
+        "rowsha": "DOIc75Fm4IskijrkMSnGgsuchGlRinVV75aHo5ttywk=",
+        "originContent": "pip install -r requirements.txt        # transformers>=4.41 mido abcpy fluidsynth",
+        "translatedContent": "pip install -r requirements.txt        # transformers>=4.41 mido abcpy fluidsynth"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "svA4tASLHbWv2R5cBnZxzRZgn67zxlHi/kLwYQqvjtk=",
+        "originContent": "# 3. Generate ABC",
+        "translatedContent": "# 3. Generate ABC"
+      },
+      {
+        "row": 10,
+        "rowsha": "mHEXE9KnVCtRFiquS+Xsjxc5edvMRjbx8GTATLeVmc4=",
+        "originContent": "python bach/generate.py \\",
+        "translatedContent": "python bach/generate.py \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "ypUN+YU4veJ7LkJN3HmYAsFFZg/PzkvudmJn3QJLads=",
+        "originContent": "    --prompt \"A rainy-day lo-fi hip-hop song about missing the last train\" \\",
+        "translatedContent": "    --prompt \"A rainy-day lo-fi hip-hop song about missing the last train\" \\"
+      },
+      {
+        "row": 12,
+        "rowsha": "3NmPVXrrMxlyvzgkp9tjOAJ8QxYQw4rp4wS58RY7M/s=",
+        "originContent": "    --out_abc demo/rainy_lofi.abc",
+        "translatedContent": "    --out_abc demo/rainy_lofi.abc"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "xFVRwFXiqBpqCjx7UClid4D/JkixcHewNinoqxyjmH8=",
+        "originContent": "# 4. Render audio",
+        "translatedContent": "# 4. Render audio"
+      },
+      {
+        "row": 15,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n##  🎧 Listen now\nexample.mp3 is ready for you, it's a whole song. You can compare it with Suno🙂\n\n## Full release upon related paper acceptance\n- Complete training set (ABC + lyrics + structure labels)\n- BACH-1B weights (Transformers format)\n- Training scripts (multiphase + multitask + ICL)\n- Complete Code\n\n## 📎 Citation\nPaper is released on Arxiv, ",
+    "ContentSha": "je5o0M49gp3V6H3YOhJj/E9MrLJ81j70iMx0l3+r+0Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n##  🎧 今すぐ聴く\nexample.mp3 が準備できています。これは一曲全体です。Sunoと比較してみてください🙂\n\n## 関連論文の受理後に完全公開\n- 完全なトレーニングセット（ABC + 歌詞 + 構造ラベル）\n- BACH-1B 重み（トランスフォーマーフォーマット）\n- トレーニングスクリプト（多段階 + マルチタスク + ICL）\n- 完全なコード\n\n## 📎 引用\n論文はArxivで公開されています、",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "iDoo2jeFD2pjtok1ryLtRMquL5XUYkhLc/XJo4aA7EM=",
+        "originContent": "##  🎧 Listen now",
+        "translatedContent": "##  🎧 今すぐ聴く"
+      },
+      {
+        "row": 3,
+        "rowsha": "QxPlrKmezN4PpaVuSSN5Sn2ct3fxMgMaB5N560X7wpI=",
+        "originContent": "example.mp3 is ready for you, it's a whole song. You can compare it with Suno🙂",
+        "translatedContent": "example.mp3 が準備できています。これは一曲全体です。Sunoと比較してみてください🙂"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "D1iEaItXXU+UmcnZbrd/XmUM1memVQHxGdcbr2f7Qys=",
+        "originContent": "## Full release upon related paper acceptance",
+        "translatedContent": "## 関連論文の受理後に完全公開"
+      },
+      {
+        "row": 6,
+        "rowsha": "T6IXbQe3Qs8InmPgriZFnoedH04jjlX+FXpY6OVnucM=",
+        "originContent": "- Complete training set (ABC + lyrics + structure labels)",
+        "translatedContent": "- 完全なトレーニングセット（ABC + 歌詞 + 構造ラベル）"
+      },
+      {
+        "row": 7,
+        "rowsha": "6p+lCj8t+9QqbofEBOCcCbu7vJQaSxvvyvfjBusMJY4=",
+        "originContent": "- BACH-1B weights (Transformers format)",
+        "translatedContent": "- BACH-1B 重み（トランスフォーマーフォーマット）"
+      },
+      {
+        "row": 8,
+        "rowsha": "caHqHIbR+6a6fqDhY7wE/SXEYhA3yMGxM7sb0jx0158=",
+        "originContent": "- Training scripts (multiphase + multitask + ICL)",
+        "translatedContent": "- トレーニングスクリプト（多段階 + マルチタスク + ICL）"
+      },
+      {
+        "row": 9,
+        "rowsha": "iJZnHyOT7vg83J/A1OSBg4JMpyNFnqyKzEvaJA/XwkU=",
+        "originContent": "- Complete Code",
+        "translatedContent": "- 完全なコード"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "nXj9SuK200NS8SPRk07UquOEn/gfQEG25xdifPtR7yM=",
+        "originContent": "## 📎 Citation",
+        "translatedContent": "## 📎 引用"
+      },
+      {
+        "row": 12,
+        "rowsha": "hqaInc3cPGtqV/SKG33RhPF1ADDqz90VwaG3MmB8ZgY=",
+        "originContent": "Paper is released on Arxiv, ",
+        "translatedContent": "論文はArxivで公開されています、"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bibtex\n@misc{wang2025scoreperformanceefficienthumancontrollable,\n      title={Via Score to Performance: Efficient Human-Controllable Long Song Generation with Bar-Level Symbolic Notation}, \n      author={Tongxi Wang and Yang Yu and Qing Wang and Junlang Qian},\n      year={2025},\n      eprint={2508.01394},\n      archivePrefix={arXiv},\n      primaryClass={cs.SD},\n      url={https://arxiv.org/abs/2508.01394}, \n}\n",
+    "ContentSha": "G5jjEbIcOjEGbeeoqv8ZN7jbpc/8p235eiH37Hp/0QA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@misc{wang2025scoreperformanceefficienthumancontrollable,\n      title={スコアを通じてパフォーマンスへ：小節単位の記譜による効率的で人間制御可能な長編曲生成}, \n      author={王彤曦 and 于洋 and 王清 and 錢俊朗},\n      year={2025},\n      eprint={2508.01394},\n      archivePrefix={arXiv},\n      primaryClass={cs.SD},\n      url={https://arxiv.org/abs/2508.01394}, \n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "Oa/x97gKNSzkNrYUZ7cMBZJ45i2o2WDEYy2+EBRFAfU=",
+        "originContent": "@misc{wang2025scoreperformanceefficienthumancontrollable,",
+        "translatedContent": "@misc{wang2025scoreperformanceefficienthumancontrollable,"
+      },
+      {
+        "row": 3,
+        "rowsha": "fOkeCD9z7QrwzCQuZzs5cQKaCmuWxE2gB3LxavcnMjc=",
+        "originContent": "      title={Via Score to Performance: Efficient Human-Controllable Long Song Generation with Bar-Level Symbolic Notation}, ",
+        "translatedContent": "      title={スコアを通じてパフォーマンスへ：小節単位の記譜による効率的で人間制御可能な長編曲生成}, "
+      },
+      {
+        "row": 4,
+        "rowsha": "Xgr8ieqlB7Koe9Mg9Ux8yQLnXLBZtkSTjlwnE8IhSW0=",
+        "originContent": "      author={Tongxi Wang and Yang Yu and Qing Wang and Junlang Qian},",
+        "translatedContent": "      author={王彤曦 and 于洋 and 王清 and 錢俊朗},"
+      },
+      {
+        "row": 5,
+        "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+        "originContent": "      year={2025},",
+        "translatedContent": "      year={2025},"
+      },
+      {
+        "row": 6,
+        "rowsha": "joerzHkLx44Ph9B1IAg4VdM9AvOD2BuafJOpwC7QFp8=",
+        "originContent": "      eprint={2508.01394},",
+        "translatedContent": "      eprint={2508.01394},"
+      },
+      {
+        "row": 7,
+        "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+        "originContent": "      archivePrefix={arXiv},",
+        "translatedContent": "      archivePrefix={arXiv},"
+      },
+      {
+        "row": 8,
+        "rowsha": "m5Iy3DplRulR5bVmlDQZ97AqdNG51jZ3+1ncDbQ7ryc=",
+        "originContent": "      primaryClass={cs.SD},",
+        "translatedContent": "      primaryClass={cs.SD},"
+      },
+      {
+        "row": 9,
+        "rowsha": "zo5I1Y4zk4F29oQ5cX8E9YI+S4/wzrCE270Tfavx0NM=",
+        "originContent": "      url={https://arxiv.org/abs/2508.01394}, ",
+        "translatedContent": "      url={https://arxiv.org/abs/2508.01394}, "
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

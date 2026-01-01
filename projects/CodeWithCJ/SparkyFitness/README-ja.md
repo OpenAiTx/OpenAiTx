@@ -105,69 +105,83 @@ SparkyFitnessは、ユーザーが栄養、運動、身体測定を管理・追�
 SparkyFitnessを数分で起動できます:
 
 ```bash
-# Clone the repository
-git clone https://github.com/CodeWithCJ/SparkyFitness.git
-cd SparkyFitness
+# 1. Create a new folder
+mkdir sparkyfitness && cd sparkyfitness
 
-# Copy environment template and edit as needed
-cp docker/.env.example .env
+# 2. Download Docker files only
+curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
+curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
 
-# Start development environment (with live reloading)
-./docker/docker-helper.sh dev up
+# 3. (Optional) Edit .env to customize your setup
+# e.g., update database credentials, ports, etc.
+# if you require Gamrin integration, uncomment Garmin section from compose file.
+
+# 4. Start the app
+docker compose pull && docker compose up -d
 
 # Access application at http://localhost:8080
 ```
 
 ## 📖 ドキュメント
 
-完全なインストールガイド、開発環境のセットアップ、使用方法については、総合的なドキュメントをご覧ください：
+インストールガイド、開発セットアップ、使用方法についての完全なガイドは、以下の包括的なドキュメントをご覧ください:
 
 **👉 [SparkyFitness ドキュメントサイト](https://codewithcj.github.io/SparkyFitness)**
 
 ### クイックリンク
 
-- **[🚀 はじめに](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 開発・本番環境のセットアップガイド
+- **[🚀 はじめに](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 開発および本番環境のセットアップガイド
 - **[🐳 Docker ガイド](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker のデプロイと設定
-- **[🔧 開発ワークフロー](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 開発者向けガイドと貢献プロセス  
-- **[📊 機能概要](https://codewithcj.github.io/SparkyFitness/features/)** - 機能の完全なドキュメント
-- **[🏗️ アーキテクチャ](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技術的なアーキテクチャと設計
-- サンプル環境設定やモバイルアプリの設定はWikiを参照してください。
+- **[🔧 開発ワークフロー](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 開発者ガイドと貢献プロセス  
+- **[📊 機能概要](https://codewithcj.github.io/SparkyFitness/features/)** - 完全な機能ドキュメント
+- **[🏗️ アーキテクチャ](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技術アーキテクチャと設計
+- サンプル環境セットアップやモバイルアプリの設定はWikiを参照してください。
 
-## 🐳 Docker デプロイ
 
-**本番環境（推奨）:**
-```bash
-cp docker/.env.example .env  # Edit as needed
-./docker/docker-helper.sh prod up
-# Access at http://localhost:3004
-```
-**開発：**
+## スター履歴
 
-```bash
-cp docker/.env.example .env  # Edit as needed  
-./docker/docker-helper.sh dev up
-# Access at http://localhost:8080 (live reloading)
-```
-詳細なセットアップ手順、環境構成、トラブルシューティングについては、[完全なドキュメント](https://codewithcj.github.io/SparkyFitness/developer/getting-started)をご覧ください。
+<a href="https://star-history.com/#CodeWithCJ/SparkyFitness&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" />
+    <img alt="スター履歴チャート" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
+  </picture>
+</a>
+
+## 翻訳
+
+<a href="https://hosted.weblate.org/engage/sparkyfitness/">
+<img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="翻訳状況" />
+</a>
+
+## リポジトリアクティビティ
+
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats 分析画像")
+
+
+## コントリビューター
+
+<a href="https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
+</a>
 
 ### ⚠️ 既知の問題 / ベータ機能 ⚠️
 
-以下の機能は現在ベータ版であり、十分にテストされていない可能性があります。バグや機能の不完全性が発生する場合があります：
+以下の機能は現在ベータ版であり、十分にテストされていない可能性があります。バグや機能の不完全さが発生することがあります：
 
 *   AIチャットボット
-*   複数ユーザーサポート
+*   マルチユーザー対応
 *   家族・友人アクセス
-*   Apple Healthデータ統合
+*   Apple Healthデータ連携
 
-本アプリケーションは現在大規模な開発中です。SupabaseからPostgreSQLへの移行により、期待通りに動作しない場合があります。アプリケーションが安定するまでは破壊的変更（BREAKING CHANGES）が導入される可能性があります。
-新しいリリースではDocker/環境変数の変更が必要となる場合があります。そのため、Watchtower等を使用した自動アップグレードは推奨されません。リリースノートで破壊的変更（BREAKING CHANGES）がないか必ずご確認ください。
-
+このアプリケーションは現在集中的に開発中です。SupabaseからPostgreSQLへの移行により、予期せぬ動作となる場合があります。安定するまで重大な変更（BREAKING CHANGES）が導入される可能性があります。
+新しいリリース時にはDockerや環境変数の変更が必要となる場合があります。そのため、Watchtowerなどによる自動アップグレードは推奨されません。重大な変更（BREAKING CHANGES）がある場合はリリースノートを必ずご確認ください。
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

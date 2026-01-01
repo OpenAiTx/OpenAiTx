@@ -105,69 +105,83 @@ SparkyFitness 是一套全面的健身追蹤與管理應用程式，設計用於
 幾分鐘內即可啟動 SparkyFitness：
 
 ```bash
-# Clone the repository
-git clone https://github.com/CodeWithCJ/SparkyFitness.git
-cd SparkyFitness
+# 1. Create a new folder
+mkdir sparkyfitness && cd sparkyfitness
 
-# Copy environment template and edit as needed
-cp docker/.env.example .env
+# 2. Download Docker files only
+curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
+curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
 
-# Start development environment (with live reloading)
-./docker/docker-helper.sh dev up
+# 3. (Optional) Edit .env to customize your setup
+# e.g., update database credentials, ports, etc.
+# if you require Gamrin integration, uncomment Garmin section from compose file.
+
+# 4. Start the app
+docker compose pull && docker compose up -d
 
 # Access application at http://localhost:8080
 ```
 
 ## 📖 文件說明
 
-完整的安裝指南、開發設定與使用說明，請參閱我們的詳細文件：
+完整的安裝指南、開發設置及使用說明，請參閱我們的詳細文件：
 
 **👉 [SparkyFitness 文件網站](https://codewithcj.github.io/SparkyFitness)**
 
 ### 快速連結
 
-- **[🚀 入門指南](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 開發與正式環境完整設定指南
+- **[🚀 新手入門](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 開發及正式環境的完整設置指南
 - **[🐳 Docker 指南](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker 部署與設定
-- **[🔧 開發工作流程](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 開發者指南與貢獻流程  
+- **[🔧 開發流程](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 開發人員指南與貢獻流程  
 - **[📊 功能總覽](https://codewithcj.github.io/SparkyFitness/features/)** - 完整功能文件
 - **[🏗️ 架構設計](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技術架構與設計
-- 請參考 Wiki 以取得範例環境設定及行動應用程式配置。
+- 請參閱 Wiki 以取得範例環境設置和行動應用程式配置。
 
-## 🐳 Docker 部署
 
-**正式環境（推薦）：**
-```bash
-cp docker/.env.example .env  # Edit as needed
-./docker/docker-helper.sh prod up
-# Access at http://localhost:3004
-```
-**開發：**
+## 星標歷史
 
-```bash
-cp docker/.env.example .env  # Edit as needed  
-./docker/docker-helper.sh dev up
-# Access at http://localhost:8080 (live reloading)
-```
-如需詳細的安裝說明、環境設定及疑難排解，請參閱[完整文件](https://codewithcj.github.io/SparkyFitness/developer/getting-started)。
+<a href="https://star-history.com/#CodeWithCJ/SparkyFitness&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" />
+    <img alt="星標歷史圖表" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
+  </picture>
+</a>
 
-### ⚠️ 已知問題 / Beta 功能 ⚠️
+## 翻譯
 
-以下功能目前處於測試階段，尚未經過充分測試。可能會出現錯誤或功能不完整的情況：
+<a href="https://hosted.weblate.org/engage/sparkyfitness/">
+<img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="翻譯狀態" />
+</a>
+
+## 程式庫活動
+
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats 分析圖")
+
+
+## 貢獻者
+
+<a href="https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
+</a>
+
+### ⚠️ 已知問題 / 測試版功能 ⚠️
+
+以下功能目前為測試版，可能尚未經過充分測試。請預期可能出現錯誤或功能不完整：
 
 *   AI 聊天機器人
 *   多用戶支援
-*   家人及朋友訪問
-*   Apple Health Data 整合
+*   家人與朋友存取
+*   Apple Health 資料整合
 
-本應用程式正在積極開發中。由於 Supabase 到 PostgreSQL 的遷移，部分功能可能無法如預期運作。在應用程式穩定前，可能會引入重大變更（BREAKING CHANGES）。
-您可能需要因新版本調整 Docker/環境變數。因此，不建議使用 Watchtower 或類似應用進行自動升級。請務必閱讀發佈說明以了解任何重大變更（BREAKING CHANGES）。
-
+本應用程式正在密集開發中。由於 Supabase 正在遷移至 PostgreSQL，可能有些功能無法如預期運作。直到應用程式穩定前，可能會引入重大變更（BREAKING CHANGES）。
+每次新版本發佈時，可能需要修改 Docker／環境變數。因此，不建議使用 Watchtower 或類似應用程式自動升級。請閱讀發佈說明以了解任何重大變更（BREAKING CHANGES）。
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

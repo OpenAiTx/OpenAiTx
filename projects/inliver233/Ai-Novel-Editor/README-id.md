@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Bahasa</summary>
@@ -27,9 +28,10 @@
     </div>
   </details>
 </div>
-# AI Novel Editor
 
-Editor novel berbantuan AI berbasis PyQt6, menyediakan alat penulisan profesional seperti pelengkapan cerdas, manajemen proyek, dan organisasi konsep.
+# Editor Novel AI
+
+Editor novel berbantuan AI berbasis PyQt6, menyediakan alat penulisan profesional seperti pelengkap cerdas, manajemen proyek, dan organisasi konsep.
 
 ## Instalasi
 
@@ -39,74 +41,68 @@ git clone https://github.com/inliver233/Ai-Novel-Editor.git
 cd ai-novel-editor
 ```
 
-2. Buat lingkungan virtual
+2. Membuat lingkungan virtual
 ```bash
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-Menggunakan uv
-```bash
-uv venv -p 3.11
-```
-3. Instalasi Dependensi
+
+3. Instalasi dependensi
 ```bash
 pip install -r requirements.txt
 ```
-Menggunakan uv
-```bash
-uv sync
-```
 
-
-4. Menjalankan Program
+4. Menjalankan program
 ```bash
-python -m src
+python src/main.py
 ```
 
 ## Fitur Utama
 
 ### Manajemen Proyek
-- Struktur dokumen hierarkis (Karya > Bab > Adegan)
+- Struktur dokumen bertingkat (Karya > Bab > Adegan)
 - Impor dan ekspor proyek (mendukung format TEXT, MARKDOWN, DOCX, PDF, HTML)
 - Pencadangan otomatis dan kontrol versi
-- Manajemen multi proyek
-### Fitur Pelengkapan AI
-- Tiga mode pelengkapan: Pelengkapan otomatis, pelengkapan manual (disarankan tekan tombol tab sekali untuk memicu, tekan sekali lagi untuk menerapkan pelengkapan), nonaktifkan pelengkapan
-- Tiga mode konteks:
-  - Mode Cepat: Konteks ringan, respons cepat
-  - Mode Seimbang: Konteks sedang, keseimbangan antara kualitas dan kecepatan
-  - Mode Global: Konteks proyek lengkap, hasil terbaik
-- Mendukung berbagai layanan AI: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq, dan lainnya
+- Manajemen multi-proyek
 
-### Manajemen Outline
-- Struktur pohon outline yang dapat divisualisasikan
-- Pengurutan drag-and-drop dan penyesuaian level
-- Navigasi cepat dokumen
-- Analisis outline dan saran optimalisasi
+### Fitur Penyelesaian AI
+- Tiga mode penyelesaian: penyelesaian otomatis, penyelesaian manual (disarankan tekan tab sekali untuk memicu, tekan tab lagi untuk menerapkan), nonaktifkan penyelesaian
+- Tiga mode konteks:
+  - Mode Cepat: konteks ringan, respons cepat
+  - Mode Seimbang: konteks sedang, keseimbangan kualitas dan kecepatan
+  - Mode Global: konteks proyek lengkap, hasil terbaik
+- Mendukung berbagai layanan AI: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq, dll.
+
+### Manajemen Kerangka
+- Struktur pohon kerangka secara visual
+- Seret dan lepas untuk mengurutkan dan mengatur tingkat
+- Navigasi dokumen cepat
+- Analisis kerangka dan saran optimasi
 
 ### Konfigurasi API
 - Pusat konfigurasi AI yang terintegrasi
 - Konfigurasi preset dari berbagai penyedia layanan
 - Fitur pengujian koneksi
-- Penyimpanan, impor dan ekspor skema konfigurasi
-### Pengaturan Pelengkapan Cerdas
-- Penyesuaian penundaan pemicu
-- Batas panjang pelengkapan
+- Menyimpan, mengimpor, dan mengekspor skema konfigurasi
+
+### Pengaturan Penyelesaian Cerdas
+- Penyesuaian jeda pemicu
+- Batas panjang penyelesaian
 - Konfigurasi panjang konteks
-- Dukungan respons streaming
+- Mendukung respons streaming
 
 ### Pengeditan Prompt
-- Beragam template penulisan bawaan
-- Template prompt yang dapat dikustomisasi
+- Beragam template menulis bawaan
+- Template prompt kustom
 - Manajemen kategori template
 - Konfigurasi template khusus mode
 
 ### Fitur Antarmuka
 - Tema terang dan gelap
 - Tata letak tiga kolom (pohon proyek, editor, panel konsep)
-- Sidebar yang dapat dilipat
-- Mode penulisan layar penuh
-- Mode fokus (kalimat, paragraf, mesin tik, mode zen, mode imersif)
+- Sidebar dapat dilipat
+- Mode menulis layar penuh
+- Mode fokus (kalimat, paragraf, mesin tik, mode zen, mode imersi)
 
 ### Pencarian dan Penggantian
 - Pencarian teks seluruh proyek
@@ -115,9 +111,9 @@ python -m src
 - Opsi pencarian lanjutan
 
 ### Manajemen Konsep
-- Deteksi otomatis peran, lokasi, dan objek
+- Deteksi otomatis karakter, lokasi, benda
 - Manajemen hubungan konsep
-- Sistem label dan klasifikasi
+- Sistem tag dan kategori
 - Penyisipan konsep cepat
 
 ## Pintasan Keyboard
@@ -126,15 +122,17 @@ python -m src
 - `Ctrl+O`: Buka proyek
 - `Ctrl+S`: Simpan dokumen
 - `F11`: Mode layar penuh
-- `Tab`: Memicu pelengkapan AI secara manual (dalam mode manual)
+- `Tab`: Memicu AI melengkapi secara manual (dalam mode manual)
 - `Ctrl+F`: Cari
 - `Ctrl+H`: Cari dan ganti
 - `Ctrl+Shift+H`: Cari dan ganti lanjutan
+
+
 ## Persyaratan Sistem
 
 - Python 3.8+
 - PyQt6
-- Sistem Operasi: Windows, macOS, Linux
+- Sistem operasi: Windows, macOS, Linux
 
 ## Penulis
 
@@ -144,6 +142,6 @@ python -m src
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

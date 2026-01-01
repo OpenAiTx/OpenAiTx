@@ -105,15 +105,19 @@ SparkyFitness یک اپلیکیشن جامع مدیریت و ردیابی تنا
 راه‌اندازی SparkyFitness در چند دقیقه:
 
 ```bash
-# Clone the repository
-git clone https://github.com/CodeWithCJ/SparkyFitness.git
-cd SparkyFitness
+# 1. Create a new folder
+mkdir sparkyfitness && cd sparkyfitness
 
-# Copy environment template and edit as needed
-cp docker/.env.example .env
+# 2. Download Docker files only
+curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
+curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
 
-# Start development environment (with live reloading)
-./docker/docker-helper.sh dev up
+# 3. (Optional) Edit .env to customize your setup
+# e.g., update database credentials, ports, etc.
+# if you require Gamrin integration, uncomment Garmin section from compose file.
+
+# 4. Start the app
+docker compose pull && docker compose up -d
 
 # Access application at http://localhost:8080
 ```
@@ -127,47 +131,57 @@ cp docker/.env.example .env
 ### لینک‌های سریع
 
 - **[🚀 شروع به کار](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - راهنمای کامل راه‌اندازی برای توسعه و تولید
-- **[🐳 راهنمای داکر](https://codewithcj.github.io/SparkyFitness/developer/docker)** - استقرار و پیکربندی داکر
-- **[🔧 فرآیند توسعه](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - راهنمای توسعه‌دهنده و فرآیند مشارکت  
+- **[🐳 راهنمای Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - راه‌اندازی و پیکربندی Docker
+- **[🔧 جریان کاری توسعه](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - راهنمای توسعه‌دهندگان و فرآیند مشارکت  
 - **[📊 مرور ویژگی‌ها](https://codewithcj.github.io/SparkyFitness/features/)** - مستندات کامل ویژگی‌ها
 - **[🏗️ معماری](https://codewithcj.github.io/SparkyFitness/app-overview)** - معماری فنی و طراحی
-- برای نمونه تنظیم محیط و پیکربندی اپلیکیشن موبایل به ویکی مراجعه کنید.
+- برای نمونه تنظیم محیط و پیکربندی اپ موبایل به ویکی مراجعه کنید.
 
-## 🐳 استقرار داکر
 
-**تولید (توصیه‌شده):**
-```bash
-cp docker/.env.example .env  # Edit as needed
-./docker/docker-helper.sh prod up
-# Access at http://localhost:3004
-```
-**توسعه:**
+## تاریخچه ستاره‌ها
 
-```bash
-cp docker/.env.example .env  # Edit as needed  
-./docker/docker-helper.sh dev up
-# Access at http://localhost:8080 (live reloading)
-```
-برای دستورالعمل‌های دقیق راه‌اندازی، پیکربندی محیط و رفع مشکلات، به [مستندات کامل](https://codewithcj.github.io/SparkyFitness/developer/getting-started) مراجعه کنید.
+<a href="https://star-history.com/#CodeWithCJ/SparkyFitness&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" />
+    <img alt="نمودار تاریخچه ستاره‌ها" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
+  </picture>
+</a>
+
+## ترجمه‌ها
+
+<a href="https://hosted.weblate.org/engage/sparkyfitness/">
+<img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="وضعیت ترجمه" />
+</a>
+
+## فعالیت مخزن
+
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "تصویر تحلیلی Repobeats")
+
+
+## مشارکت‌کنندگان
+
+<a href="https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
+</a>
 
 ### ⚠️ مشکلات شناخته‌شده / ویژگی‌های بتا ⚠️
 
-ویژگی‌های زیر در حال حاضر در نسخه بتا هستند و ممکن است به طور کامل آزمایش نشده باشند. انتظار بروز اشکالات یا عملکرد ناقص را داشته باشید:
+ویژگی‌های زیر در حال حاضر در حالت بتا هستند و ممکن است به طور کامل تست نشده باشند. انتظار وجود باگ یا عملکرد ناقص را داشته باشید:
 
 *   چت‌بات هوش مصنوعی
-*   پشتیبانی چند کاربره
+*   پشتیبانی چندکاربره
 *   دسترسی خانواده و دوستان
 *   یکپارچه‌سازی داده‌های Apple Health
 
-این برنامه به شدت در حال توسعه است. ممکن است به دلیل مهاجرت از Supabase به PostgreSQL، همه چیز طبق انتظار کار نکند. تا زمانی که برنامه پایدار شود، تغییرات اساسی (BREAKING CHANGES) ممکن است اعمال شوند.
-ممکن است نیاز باشد برای نسخه‌های جدید، متغیرهای داکر/محیط را تغییر دهید. بنابراین، به‌روزرسانی خودکار با استفاده از Watchtower یا برنامه‌های مشابه توصیه نمی‌شود. برای هر گونه تغییر اساسی، یادداشت‌های انتشار را بخوانید.
-
+این برنامه به شدت در حال توسعه است. به علت مهاجرت از Supabase به PostgreSQL ممکن است برخی بخش‌ها طبق انتظار عمل نکنند. تغییرات ناسازگار (BREAKING CHANGES) تا هنگام پایدار شدن برنامه ممکن است اعمال شود.
+ممکن است نیاز باشد برای نسخه‌های جدید متغیرهای داکر/محیط را تغییر دهید. بنابراین، ارتقای خودکار با استفاده از Watchtower یا نرم‌افزارهای مشابه توصیه نمی‌شود. برای هر گونه تغییر ناسازگار، یادداشت‌های انتشار را مطالعه نمایید.
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

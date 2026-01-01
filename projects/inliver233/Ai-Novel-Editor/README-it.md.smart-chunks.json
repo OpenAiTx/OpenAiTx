@@ -1,72 +1,991 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"right\">\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=en\">English</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-CN\">简体中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW\">繁體中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja\">日本語</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko\">한국어</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi\">हिन्दी</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th\">ไทย</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr\">Français</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de\">Deutsch</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es\">Español</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it\">Itapano</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru\">Русский</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt\">Português</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl\">Nederlands</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl\">Polski</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar\">العربية</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa\">فارسی</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr\">Türkçe</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi\">Tiếng Việt</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id\">Bahasa Indonesia</a></p>\n      </div>\n    </div>\n  </details>\n</div>\n",
-    "ContentSha": "e15RNrFW62Uq0vrP0/YqvwwErr+uZMOGbYXU2ucUiPw=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"right\">\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=en\">English</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-CN\">简体中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW\">繁體中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja\">日本語</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko\">한국어</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi\">हिन्दी</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th\">ไทย</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr\">Français</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de\">Deutsch</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es\">Español</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it\">Itapano</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru\">Русский</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt\">Português</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl\">Nederlands</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl\">Polski</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar\">العربية</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa\">فارسی</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr\">Türkçe</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi\">Tiếng Việt</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id\">Bahasa Indonesia</a></p>\n      </div>\n    </div>\n  </details>\n</div>\n\n# AI Novel Editor\n\n基于PyQt6的AI辅助小说编辑器，提供智能补全、项目管理、概念组织等专业写作工具。\n\n## 安装\n\n1. 克隆项目",
+    "ContentSha": "bNIUyFYtej2lJUAi3qGDSvUp1LhqrDZhxWksbPwN7DA=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 Lingua</summary>\n    <div>\n      <div align=\"right\">\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=en\">English</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-CN\">简体中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW\">繁體中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja\">日本語</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko\">한국어</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi\">हिन्दी</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th\">ไทย</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr\">Français</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de\">Deutsch</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es\">Español</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it\">Italiano</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru\">Русский</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt\">Português</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl\">Nederlands</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl\">Polski</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar\">العربية</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa\">فارسی</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr\">Türkçe</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi\">Tiếng Việt</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id\">Bahasa Indonesia</a></p>\n      </div>\n    </div>\n  </details>\n</div>",
-    "Status": "ok"
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Lingua</summary>\n    <div>\n      <div align=\"right\">\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=en\">English</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-CN\">简体中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW\">繁體中文</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja\">日本語</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko\">한국어</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi\">हिन्दी</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th\">ไทย</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr\">Français</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de\">Deutsch</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es\">Español</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it\">Italiano</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru\">Русский</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt\">Português</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl\">Nederlands</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl\">Polski</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar\">العربية</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa\">فارسی</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr\">Türkçe</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi\">Tiếng Việt</a></p>\n        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id\">Bahasa Indonesia</a></p>\n      </div>\n    </div>\n  </details>\n</div>\n\n# AI Novel Editor\n\nEditor di romanzi assistito da AI basato su PyQt6, offre strumenti professionali per la scrittura come completamento intelligente, gestione progetti, organizzazione dei concetti e altro.\n\n## Installazione\n\n1. Clona il progetto",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Lingua</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "8YgP7V37PxyNScBtyTBHEQtRYW0a9im1qSfp10FGD6E=",
+        "originContent": "      <div align=\"right\">",
+        "translatedContent": "      <div align=\"right\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "NCpJZ8zAqjn+mjG+g2Fa4WeJ0JEKaZEde0jPbFSug6M=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=en\">English</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=en\">English</a></p>"
+      },
+      {
+        "row": 8,
+        "rowsha": "2Pi96wt/v6HbmDBteAjp7uidY4n7smgVmZRxTWXlv5c=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-CN\">简体中文</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-CN\">简体中文</a></p>"
+      },
+      {
+        "row": 9,
+        "rowsha": "ytPpun3srGlHOvdrv9tEawORQsOdCLE/k9kpvDWm/B8=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW\">繁體中文</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW\">繁體中文</a></p>"
+      },
+      {
+        "row": 10,
+        "rowsha": "0JHKjpkhHEGi0K1AdReoQOZYcz8XUAo2kZM6KZKxiUk=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja\">日本語</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja\">日本語</a></p>"
+      },
+      {
+        "row": 11,
+        "rowsha": "n6ySdr8aIPuuj8WvkwT9Qj0xMToQmlMIqN22Q63763M=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko\">한국어</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko\">한국어</a></p>"
+      },
+      {
+        "row": 12,
+        "rowsha": "RD5aR3k+jnrfJfAvmF7CI26JR8BZlgTa+4E7HSNwMio=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi\">हिन्दी</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi\">हिन्दी</a></p>"
+      },
+      {
+        "row": 13,
+        "rowsha": "QfdZ9X4S4ewigQi1AZNQua9EZQDg2HRf9J6XcwMOXTo=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th\">ไทย</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th\">ไทย</a></p>"
+      },
+      {
+        "row": 14,
+        "rowsha": "mKaiebLUKAm5BcE4JAlP4vdiwnTnStaYtZERIVqYxvI=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr\">Français</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr\">Français</a></p>"
+      },
+      {
+        "row": 15,
+        "rowsha": "s8D8GGMeaKLHTs4j//nVxQTpch17pmm3L0LhW1vL1lY=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de\">Deutsch</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de\">Deutsch</a></p>"
+      },
+      {
+        "row": 16,
+        "rowsha": "FG4w/jl+/a2a66Oy9W+54VoORGFkX7l0/znWcmjbBAQ=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es\">Español</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es\">Español</a></p>"
+      },
+      {
+        "row": 17,
+        "rowsha": "g9Fq/58tBoDiW3qXSQMN3IQQg8qTlQDDBYPARIoQFGs=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it\">Itapano</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it\">Italiano</a></p>"
+      },
+      {
+        "row": 18,
+        "rowsha": "6oz8pxrlJ4DDwTMxd/Y4FkhQaSjc9D6gylev2ol7cXU=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru\">Русский</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru\">Русский</a></p>"
+      },
+      {
+        "row": 19,
+        "rowsha": "Q8mndoc5FDrNxIl09UdmeNzWzPPLrQ3gS44sQGN9Qik=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt\">Português</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt\">Português</a></p>"
+      },
+      {
+        "row": 20,
+        "rowsha": "EfQmsGh/RUmb6xEzZTDqia93fvWQfOQPgl0mkYqKJoI=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl\">Nederlands</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl\">Nederlands</a></p>"
+      },
+      {
+        "row": 21,
+        "rowsha": "ZKMzitCP+TXOJvlHzB4UOkMOMtc2E8sDe6uHtE/tmtM=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl\">Polski</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl\">Polski</a></p>"
+      },
+      {
+        "row": 22,
+        "rowsha": "1CY495QOHqyWmhJQggqzmhOiaOw+R+bKWqcp8TjsDPk=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar\">العربية</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar\">العربية</a></p>"
+      },
+      {
+        "row": 23,
+        "rowsha": "1nme4Pc1LdUwAvOG/itYIqGh5bk+lyo7kCPwMH9eXjQ=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa\">فارسی</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa\">فارسی</a></p>"
+      },
+      {
+        "row": 24,
+        "rowsha": "jPO4OF6h+o8XPyCmNYw41g76Vb1SLGoqk07OiRInvzQ=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr\">Türkçe</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr\">Türkçe</a></p>"
+      },
+      {
+        "row": 25,
+        "rowsha": "KAegu4oqTeNpgOGyx5rbjinTTwFJDF3yUk6OgbFoCXk=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi\">Tiếng Việt</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi\">Tiếng Việt</a></p>"
+      },
+      {
+        "row": 26,
+        "rowsha": "LYBFBxsufZ5Rhbe64z05B/Yka6nZTCm8cYpEv+EVkRU=",
+        "originContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id\">Bahasa Indonesia</a></p>",
+        "translatedContent": "        <p><a href=\"https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id\">Bahasa Indonesia</a></p>"
+      },
+      {
+        "row": 27,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 28,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 30,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "KRoQLj/qqmQQswKrBYK4+RWmQuNPKbtTHvu5TzriSds=",
+        "originContent": "# AI Novel Editor",
+        "translatedContent": "# AI Novel Editor"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "K02dVkfCxPdkUme/y4iCzuDtV4V056dbC964cfUBgKU=",
+        "originContent": "基于PyQt6的AI辅助小说编辑器，提供智能补全、项目管理、概念组织等专业写作工具。",
+        "translatedContent": "Editor di romanzi assistito da AI basato su PyQt6, offre strumenti professionali per la scrittura come completamento intelligente, gestione progetti, organizzazione dei concetti e altro."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "UMqC31ngvFKTTTEuKqsTk79HILGU8WWgF72p6TJJqbg=",
+        "originContent": "## 安装",
+        "translatedContent": "## Installazione"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "SDBs0ZCzMMdL+SeKEd73V/ROao1a0NvSzvAJ8LSeAMM=",
+        "originContent": "1. 克隆项目",
+        "translatedContent": "1. Clona il progetto"
+      }
+    ],
+    "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "# AI Novel Editor\n\n基于PyQt6的AI辅助小说编辑器，提供智能补全、项目管理、概念组织等专业写作工具。\n\n## 安装\n\n1. 克隆项目\n```bash\ngit clone https://github.com/inliver233/Ai-Novel-Editor.git\ncd ai-novel-editor\n```\n\n2. 创建虚拟环境\n```bash\npython -m venv venv\nvenv\\Scripts\\activate     # Windows\n```\n使用uv\n```bash\nuv venv -p 3.11\n```",
-    "ContentSha": "P5PlpPXK3RUQSj6tLxZR/X3/b4Beseyf13rA7qBnXUQ=",
+    "Content": "```bash\ngit clone https://github.com/inliver233/Ai-Novel-Editor.git\ncd ai-novel-editor\n```",
+    "ContentSha": "X24sGINAsXEZDN+LZhxatRlVLIy5iaDonX7YxlZaH5w=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# AI Novel Editor\n\nEditor di romanzi AI assistito basato su PyQt6, che offre strumenti professionali di scrittura come completamento intelligente, gestione dei progetti, organizzazione dei concetti e altro.\n\n## Installazione\n\n1. Clona il progetto\n```bash\ngit clone https://github.com/inliver233/Ai-Novel-Editor.git\ncd ai-novel-editor\n```\n\n2. Crea un ambiente virtuale\n```bash\npython -m venv venv\nvenv\\Scripts\\activate     # Windows\n```\nUsa uv\n```bash\nuv venv -p 3.11\n```",
-    "Status": "ok"
+    "Translation": "```bash\ngit clone https://github.com/inliver233/Ai-Novel-Editor.git\ncd ai-novel-editor\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "+28mFOqQhZ6kA6RHffEu2ove1c2hwqxTWjPPnEcA9iU=",
+        "originContent": "git clone https://github.com/inliver233/Ai-Novel-Editor.git",
+        "translatedContent": "git clone https://github.com/inliver233/Ai-Novel-Editor.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "3O2sDcS93JEXCzdKoXWXGnXPog/fBXUVJWIDG0Mb+5s=",
+        "originContent": "cd ai-novel-editor",
+        "translatedContent": "cd ai-novel-editor"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
   },
   {
     "Id": 3,
-    "Content": "\n3. 安装依赖\n```bash\npip install -r requirements.txt\n```\n使用uv\n```bash\nuv sync\n```\n\n\n4. 运行程序\n```bash\npython -m src\n```\n\n## 主要功能\n\n### 项目管理\n- 层次化文档结构（作品 > 章节 > 场景）\n- 项目导入导出（支持TEXT、MARKDOWN、DOCX、PDF、HTML格式）\n- 自动备份和版本控制\n- 多项目管理\n",
-    "ContentSha": "L+v/rjNSysUDZ9tTKeyLIHE5XHLz0dsf6Aqlk/ciYwc=",
+    "Content": "\n2. 创建虚拟环境",
+    "ContentSha": "osAY0SylwGFNjP6K+i+gHuQuKA7YOhHMtlquTXn+jPw=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "3. Installazione delle dipendenze\n```bash\npip install -r requirements.txt\n```\nUtilizzo di uv\n```bash\nuv sync\n```\n\n\n4. Avvio del programma\n```bash\npython -m src\n```\n\n## Funzionalità principali\n\n### Gestione dei progetti\n- Struttura documentale gerarchica (Opera > Capitolo > Scena)\n- Importazione ed esportazione dei progetti (supporta formati TEXT, MARKDOWN, DOCX, PDF, HTML)\n- Backup automatico e controllo delle versioni\n- Gestione di più progetti",
-    "Status": "ok"
+    "Translation": "\n2. Creazione dell'ambiente virtuale",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0ON0F7T3zaACA6AB+GsDrQkzmjl/zyLGHtEtxqQb4I4=",
+        "originContent": "2. 创建虚拟环境",
+        "translatedContent": "2. Creazione dell'ambiente virtuale"
+      }
+    ],
+    "IsCodeBlock": false
   },
   {
     "Id": 4,
-    "Content": "### AI补全功能\n- 三种补全模式：自动补全、手动补全(推荐 按一次tab触发一次 再按一次tab应用补全)、禁用补全\n- 三种上下文模式：\n  - 快速模式：轻量级上下文，快速响应\n  - 平衡模式：中等上下文，质量与速度平衡\n  - 全局模式：完整项目上下文，最佳效果\n- 支持多种AI服务：OpenAI、Claude、通义千问、智谱AI、DeepSeek、Groq等\n\n### 大纲管理\n- 可视化大纲树结构\n- 拖拽排序和层级调整\n- 文档快速导航\n- 大纲分析和优化建议\n\n### API配置\n- 统一的AI配置中心\n- 多服务商预设配置\n- 连接测试功能\n- 配置方案保存和导入导出\n",
-    "ContentSha": "Jb9uOzOzZ0iEWKswEpQKpvczxruTysfSFa4KHI+FSEU=",
+    "Content": "```bash\npython -m venv venv\nvenv\\Scripts\\activate     # Windows\n```",
+    "ContentSha": "K0+cQnA5GkbO4HsbsShPw6xZ7sashGH62ipypdLTN4A=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "### Funzione di completamento AI\n- Tre modalità di completamento: completamento automatico, completamento manuale (consigliato: premere una volta tab per attivare, premere di nuovo tab per applicare il completamento), disabilita completamento\n- Tre modalità di contesto:\n  - Modalità veloce: contesto leggero, risposta rapida\n  - Modalità bilanciata: contesto medio, equilibrio tra qualità e velocità\n  - Modalità globale: contesto completo del progetto, miglior risultato\n- Supporto per vari servizi AI: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq, ecc.\n\n### Gestione della struttura\n- Struttura ad albero visuale della struttura\n- Ordinamento tramite trascinamento e regolazione dei livelli\n- Navigazione rapida dei documenti\n- Analisi della struttura e suggerimenti di ottimizzazione\n\n### Configurazione API\n- Centro di configurazione AI unificato\n- Configurazioni preimpostate per diversi provider di servizi\n- Funzione di test di connessione\n- Salvataggio, importazione ed esportazione delle configurazioni",
-    "Status": "ok"
+    "Translation": "```bash\npython -m venv venv\nvenv\\Scripts\\activate     # Windows\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "rdTNJQmAe860vGFdQOn9/1fQ33cyFdRlndRgEfCzi+Y=",
+        "originContent": "python -m venv venv",
+        "translatedContent": "python -m venv venv"
+      },
+      {
+        "row": 3,
+        "rowsha": "7h9s2bjUc6PVu0dQNjIdjBhMQkBEv5UbVA8PDera4Ow=",
+        "originContent": "venv\\Scripts\\activate     # Windows",
+        "translatedContent": "venv\\Scripts\\activate     # Windows"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
   },
   {
     "Id": 5,
-    "Content": "### 智能补全设置\n- 可调节的触发延迟\n- 补全长度限制\n- 上下文长度配置\n- 流式响应支持\n\n### 提示词编辑\n- 内置多种写作模板\n- 自定义提示词模板\n- 模板分类管理\n- 模式特定模板配置\n\n### 界面功能\n- 明暗双主题\n- 三栏式布局（项目树、编辑器、概念面板）\n- 可折叠侧边栏\n- 全屏写作模式\n- 专注模式（句子、段落、打字机、禅模式、沉浸模式）\n\n### 搜索和替换",
-    "ContentSha": "7cSkESzNLNmUwLxipaJPtoBnPuZF3UtbzcHeW2Vwt1A=",
+    "Content": "\n3. 安装依赖",
+    "ContentSha": "yOySZ0E5wST5XoeIaO3oYkCA9Cqh+5pCWoV3keEubWw=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "### Impostazioni di Completamento Intelligente\n- Ritardo di attivazione regolabile\n- Limite di lunghezza del completamento\n- Configurazione della lunghezza del contesto\n- Supporto per risposta in streaming\n\n### Modifica dei Prompt\n- Vari modelli di scrittura integrati\n- Modelli di prompt personalizzati\n- Gestione delle categorie di modelli\n- Configurazione di modelli specifici per modalità\n\n### Funzionalità dell'Interfaccia\n- Tema chiaro e scuro\n- Layout a tre colonne (albero del progetto, editor, pannello dei concetti)\n- Barra laterale comprimibile\n- Modalità di scrittura a schermo intero\n- Modalità concentrazione (frase, paragrafo, macchina da scrivere, modalità zen, modalità immersiva)\n\n### Ricerca e Sostituzione",
-    "Status": "ok"
+    "Translation": "\n3. Installazione delle dipendenze",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "2uFWYgjSrlYj6ao31MxSvmaxz7XZbMd+P2FKctS1JEE=",
+        "originContent": "3. 安装依赖",
+        "translatedContent": "3. Installazione delle dipendenze"
+      }
+    ],
+    "IsCodeBlock": false
   },
   {
     "Id": 6,
-    "Content": "- 全项目文本搜索\n- 正则表达式支持\n- 批量替换功能\n- 高级搜索选项\n\n### 概念管理\n- 自动检测角色、地点、物品\n- 概念关系管理\n- 标签和分类系统\n- 概念快速插入\n\n## 快捷键\n\n- `Ctrl+N`: 新建项目\n- `Ctrl+O`: 打开项目\n- `Ctrl+S`: 保存文档\n- `F11`: 全屏模式\n- `Tab`: 手动触发AI补全（手动模式下）\n- `Ctrl+F`: 查找\n- `Ctrl+H`: 查找替换\n- `Ctrl+Shift+H`: 高级查找替换\n\n",
-    "ContentSha": "E7R/tgEvS2D3Ho89ovC61XgbRiYFIhQ/pI9VBIUUYaI=",
+    "Content": "```bash\npip install -r requirements.txt\n```",
+    "ContentSha": "TxMa9uJC0PmBOnm3/TRl4YDLNvSwCWaRNjyXpFhndHU=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "- Ricerca in tutto il testo del progetto\n- Supporto delle espressioni regolari\n- Funzione di sostituzione in batch\n- Opzioni di ricerca avanzate\n\n### Gestione dei concetti\n- Rilevamento automatico di ruoli, luoghi, oggetti\n- Gestione delle relazioni tra concetti\n- Sistema di etichette e classificazione\n- Inserimento rapido dei concetti\n\n## Scorciatoie da tastiera\n\n- `Ctrl+N`: Nuovo progetto\n- `Ctrl+O`: Apri progetto\n- `Ctrl+S`: Salva documento\n- `F11`: Modalità schermo intero\n- `Tab`: Attiva manualmente il completamento AI (in modalità manuale)\n- `Ctrl+F`: Trova\n- `Ctrl+H`: Trova e sostituisci\n- `Ctrl+Shift+H`: Trova e sostituisci avanzato",
-    "Status": "ok"
+    "Translation": "```bash\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
   },
   {
     "Id": 7,
-    "Content": "## 系统要求\n\n- Python 3.8+\n- PyQt6\n- 操作系统：Windows、macOS、Linux\n\n## 作者\n\n**inliver**\n- 邮箱：inliverapi@outlook.com  \n- GitHub：https://github.com/inliver233",
-    "ContentSha": "GR+ILK9CBD6LDkhwevKADXgyHeQe2IEMvwwgd0E/3nw=",
+    "Content": "\n4. 运行程序",
+    "ContentSha": "Bue2OtJg9hjTj0aiEg+XA48mNPbr4/N48VLWobs4t8k=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "## Requisiti di sistema\n\n- Python 3.8+\n- PyQt6\n- Sistema operativo: Windows, macOS, Linux\n\n## Autore\n\n**inliver**\n- Email: inliverapi@outlook.com  \n- GitHub: https://github.com/inliver233",
-    "Status": "ok"
+    "Translation": "\n4. Eseguire il programma",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "9WvVnIDLgo748DcxGHf/19YxSbEeSFlbm3/jKf09JNQ=",
+        "originContent": "4. 运行程序",
+        "translatedContent": "4. Eseguire il programma"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\npython src/main.py\n```",
+    "ContentSha": "lkL1useQecAK8UlDlIqkV0DmPQEF/ZF8aJassIt2+u0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\npython src/main.py\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "+2ZD4GFWBlxgzYG4LXl1n/mWqnY37C51ljb99ym9ujw=",
+        "originContent": "python src/main.py",
+        "translatedContent": "python src/main.py"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## 主要功能\n\n### 项目管理\n- 层次化文档结构（作品 > 章节 > 场景）\n- 项目导入导出（支持TEXT、MARKDOWN、DOCX、PDF、HTML格式）\n- 自动备份和版本控制\n- 多项目管理\n\n### AI补全功能\n- 三种补全模式：自动补全、手动补全(推荐 按一次tab触发一次 再按一次tab应用补全)、禁用补全\n- 三种上下文模式：\n  - 快速模式：轻量级上下文，快速响应\n  - 平衡模式：中等上下文，质量与速度平衡\n  - 全局模式：完整项目上下文，最佳效果\n- 支持多种AI服务：OpenAI、Claude、通义千问、智谱AI、DeepSeek、Groq等\n\n### 大纲管理\n- 可视化大纲树结构\n- 拖拽排序和层级调整\n- 文档快速导航\n- 大纲分析和优化建议\n\n### API配置\n- 统一的AI配置中心\n- 多服务商预设配置\n- 连接测试功能\n- 配置方案保存和导入导出\n\n### 智能补全设置\n- 可调节的触发延迟\n- 补全长度限制\n- 上下文长度配置\n- 流式响应支持\n\n### 提示词编辑\n- 内置多种写作模板\n- 自定义提示词模板\n- 模板分类管理\n- 模式特定模板配置",
+    "ContentSha": "LDN9pSQ+lYE1RcZ4+eh/uLzE09ahanYhSjUe7SaUusw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Funzionalità Principali\n\n### Gestione Progetti\n- Struttura documentale gerarchica (Opera > Capitolo > Scena)\n- Importazione ed esportazione progetti (supporta formati TEXT, MARKDOWN, DOCX, PDF, HTML)\n- Backup automatico e controllo delle versioni\n- Gestione multi-progetto\n\n### Funzionalità di Completamento AI\n- Tre modalità di completamento: completamento automatico, completamento manuale (consigliato: premi Tab una volta per attivare, premi Tab di nuovo per applicare), disabilita completamento\n- Tre modalità di contesto:\n  - Modalità veloce: contesto leggero, risposta rapida\n  - Modalità bilanciata: contesto medio, equilibrio tra qualità e velocità\n  - Modalità globale: contesto completo del progetto, effetto ottimale\n- Supporto per vari servizi AI: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq, ecc.\n\n### Gestione Struttura\n- Struttura ad albero visuale della struttura generale\n- Ordinamento tramite trascinamento e modifica dei livelli\n- Navigazione rapida del documento\n- Analisi della struttura generale e suggerimenti di ottimizzazione\n\n### Configurazione API\n- Centro di configurazione AI unificato\n- Configurazioni preimpostate per più fornitori di servizi\n- Funzione di test della connessione\n- Salvataggio ed esportazione/importazione delle configurazioni\n\n### Impostazioni Completamento Intelligente\n- Ritardo di attivazione regolabile\n- Limite della lunghezza del completamento\n- Configurazione della lunghezza del contesto\n- Supporto risposta in streaming\n\n### Modifica Prompt\n- Diversi modelli di scrittura integrati\n- Modelli di prompt personalizzabili\n- Gestione della classificazione dei modelli\n- Configurazione di modelli specifici per modalità",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "FR/BRmK5szlqCuf9xWjIj52UuHuu7uG0o+AM8Ts++qI=",
+        "originContent": "## 主要功能",
+        "translatedContent": "## Funzionalità Principali"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "pL5iahNUTxbd0/mxPxEaF+gVao3WwMBlk21F5cH/TcM=",
+        "originContent": "### 项目管理",
+        "translatedContent": "### Gestione Progetti"
+      },
+      {
+        "row": 5,
+        "rowsha": "hF3xEqDHJVIqk7LfuK5Y7XJkmAJjiRCUZFvNkcee/zA=",
+        "originContent": "- 层次化文档结构（作品 > 章节 > 场景）",
+        "translatedContent": "- Struttura documentale gerarchica (Opera > Capitolo > Scena)"
+      },
+      {
+        "row": 6,
+        "rowsha": "fftxoZuxKVV503p1kjwlWCFxwfm14DL+qqbBouHYjj4=",
+        "originContent": "- 项目导入导出（支持TEXT、MARKDOWN、DOCX、PDF、HTML格式）",
+        "translatedContent": "- Importazione ed esportazione progetti (supporta formati TEXT, MARKDOWN, DOCX, PDF, HTML)"
+      },
+      {
+        "row": 7,
+        "rowsha": "E8MhzE7s5/4PudbcfNY0sgv3QRWqlIWyHLBQn3ntfAg=",
+        "originContent": "- 自动备份和版本控制",
+        "translatedContent": "- Backup automatico e controllo delle versioni"
+      },
+      {
+        "row": 8,
+        "rowsha": "XsXnTnlk60tAivN+kbcjq7HnzDPAiASkZOWicI0wjZk=",
+        "originContent": "- 多项目管理",
+        "translatedContent": "- Gestione multi-progetto"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "JiGCVXooU+ucMJl+W76OD+beTsiQf0J9bxzXN1dYCcA=",
+        "originContent": "### AI补全功能",
+        "translatedContent": "### Funzionalità di Completamento AI"
+      },
+      {
+        "row": 11,
+        "rowsha": "IOy7cV2s1GN3PhPy52gAkAZLZoBhB7sLfmhSO0RDhOg=",
+        "originContent": "- 三种补全模式：自动补全、手动补全(推荐 按一次tab触发一次 再按一次tab应用补全)、禁用补全",
+        "translatedContent": "- Tre modalità di completamento: completamento automatico, completamento manuale (consigliato: premi Tab una volta per attivare, premi Tab di nuovo per applicare), disabilita completamento"
+      },
+      {
+        "row": 12,
+        "rowsha": "y/vMRwe2sgv/3TGqxnIEhw+l90PKUNxNHl2R1PC6lH0=",
+        "originContent": "- 三种上下文模式：",
+        "translatedContent": "- Tre modalità di contesto:"
+      },
+      {
+        "row": 13,
+        "rowsha": "qEoOPvdURdWZR7BbLg2TEUQ7f/2pnV7mdPOHi97KZ84=",
+        "originContent": "  - 快速模式：轻量级上下文，快速响应",
+        "translatedContent": "  - Modalità veloce: contesto leggero, risposta rapida"
+      },
+      {
+        "row": 14,
+        "rowsha": "HNcBKo3vTDC9BCdoquhz2WoC83juRxmDkdcmbqiBL/U=",
+        "originContent": "  - 平衡模式：中等上下文，质量与速度平衡",
+        "translatedContent": "  - Modalità bilanciata: contesto medio, equilibrio tra qualità e velocità"
+      },
+      {
+        "row": 15,
+        "rowsha": "rwcl4y+ilrZ4K1E0CylJPjksN3EZp8uVJ+qY7MpGwp8=",
+        "originContent": "  - 全局模式：完整项目上下文，最佳效果",
+        "translatedContent": "  - Modalità globale: contesto completo del progetto, effetto ottimale"
+      },
+      {
+        "row": 16,
+        "rowsha": "ES+3noiQW11Y508KX++bNkb23bwl+otPw9Uen3ImhvA=",
+        "originContent": "- 支持多种AI服务：OpenAI、Claude、通义千问、智谱AI、DeepSeek、Groq等",
+        "translatedContent": "- Supporto per vari servizi AI: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq, ecc."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "gwkUwhYvZKlmMRsP4xKI3oDTbUWIeMiNScD+s8gNYdA=",
+        "originContent": "### 大纲管理",
+        "translatedContent": "### Gestione Struttura"
+      },
+      {
+        "row": 19,
+        "rowsha": "mqlqAo335bJBOlEW4+lwSd1lrKY2l0zkoOcoYnIrqTo=",
+        "originContent": "- 可视化大纲树结构",
+        "translatedContent": "- Struttura ad albero visuale della struttura generale"
+      },
+      {
+        "row": 20,
+        "rowsha": "nCDv9HgibnDc1jfBLFwel7tEFxsMQ5oDVFYgm9p08Xs=",
+        "originContent": "- 拖拽排序和层级调整",
+        "translatedContent": "- Ordinamento tramite trascinamento e modifica dei livelli"
+      },
+      {
+        "row": 21,
+        "rowsha": "cNHP4LIxb7SwnydwGdUIi7GsYsRwdie5rfvS8yKaef0=",
+        "originContent": "- 文档快速导航",
+        "translatedContent": "- Navigazione rapida del documento"
+      },
+      {
+        "row": 22,
+        "rowsha": "w7aCSwPq2Er56LbOlN4upnVaV8zGWClDDxaUcEjJqWw=",
+        "originContent": "- 大纲分析和优化建议",
+        "translatedContent": "- Analisi della struttura generale e suggerimenti di ottimizzazione"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "cs/ddiltsZbzdBJ0pGYezpLOqxfeDwPx3gccY/8cPpw=",
+        "originContent": "### API配置",
+        "translatedContent": "### Configurazione API"
+      },
+      {
+        "row": 25,
+        "rowsha": "FR8rgK/pWZEsE3KI1qBZDAs7+ocj7mrQQa8dsaH4odk=",
+        "originContent": "- 统一的AI配置中心",
+        "translatedContent": "- Centro di configurazione AI unificato"
+      },
+      {
+        "row": 26,
+        "rowsha": "Z/lFekwWgi2hZbcCAdxQq0JSPMECXzr7lmKOrFMzbSw=",
+        "originContent": "- 多服务商预设配置",
+        "translatedContent": "- Configurazioni preimpostate per più fornitori di servizi"
+      },
+      {
+        "row": 27,
+        "rowsha": "VNv7iyqTzj4An6ccntmBwf9gtsQB3Tv+vOeBV3Y24F4=",
+        "originContent": "- 连接测试功能",
+        "translatedContent": "- Funzione di test della connessione"
+      },
+      {
+        "row": 28,
+        "rowsha": "sK6jeuxN1L7S5DhkyRTsDzvix5KZv3XBgcMxYlY/+2s=",
+        "originContent": "- 配置方案保存和导入导出",
+        "translatedContent": "- Salvataggio ed esportazione/importazione delle configurazioni"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "fEF+kmeoC3WwEf4U2J63njNF0DLnL2jneahS67LK/n8=",
+        "originContent": "### 智能补全设置",
+        "translatedContent": "### Impostazioni Completamento Intelligente"
+      },
+      {
+        "row": 31,
+        "rowsha": "qwLGmZiVSvWJWAClfrOqEpA2WurX7lFYMhhB+v2hCCo=",
+        "originContent": "- 可调节的触发延迟",
+        "translatedContent": "- Ritardo di attivazione regolabile"
+      },
+      {
+        "row": 32,
+        "rowsha": "N1Y6qlghqLHOQCdiQSuu10Xi+ylpvZPmmcGXnnEtiKA=",
+        "originContent": "- 补全长度限制",
+        "translatedContent": "- Limite della lunghezza del completamento"
+      },
+      {
+        "row": 33,
+        "rowsha": "bVnfZNMP6fsG4whGnybs98NzBbO+OENn140RD7LfxXo=",
+        "originContent": "- 上下文长度配置",
+        "translatedContent": "- Configurazione della lunghezza del contesto"
+      },
+      {
+        "row": 34,
+        "rowsha": "hRWCzUrRUTcCnyRMXIjRrHxqQZFLQf6St55Tm7GklTg=",
+        "originContent": "- 流式响应支持",
+        "translatedContent": "- Supporto risposta in streaming"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "FfdE7vykPKAF4qi0K6HDJv2Q8EDJ8nleyxBmLHYMRdM=",
+        "originContent": "### 提示词编辑",
+        "translatedContent": "### Modifica Prompt"
+      },
+      {
+        "row": 37,
+        "rowsha": "Ehe1D0eomRR6p3hEjCqpsO0kkuZYjOQy4ZF4nnuq9rI=",
+        "originContent": "- 内置多种写作模板",
+        "translatedContent": "- Diversi modelli di scrittura integrati"
+      },
+      {
+        "row": 38,
+        "rowsha": "MYTfrF/7BZnIug6uMIf8xWdVOc9gQU19xIz0H7Rj75k=",
+        "originContent": "- 自定义提示词模板",
+        "translatedContent": "- Modelli di prompt personalizzabili"
+      },
+      {
+        "row": 39,
+        "rowsha": "s9MS9I5YxgnCLRpJmBOcWRmQGl0Oux00TAl35GSsPuk=",
+        "originContent": "- 模板分类管理",
+        "translatedContent": "- Gestione della classificazione dei modelli"
+      },
+      {
+        "row": 40,
+        "rowsha": "p+GyF8OEhgkZM5jn7uaEWPi04C0OEEof/bP3mOPKJoM=",
+        "originContent": "- 模式特定模板配置",
+        "translatedContent": "- Configurazione di modelli specifici per modalità"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "\n### 界面功能\n- 明暗双主题\n- 三栏式布局（项目树、编辑器、概念面板）\n- 可折叠侧边栏\n- 全屏写作模式\n- 专注模式（句子、段落、打字机、禅模式、沉浸模式）\n\n### 搜索和替换\n- 全项目文本搜索\n- 正则表达式支持\n- 批量替换功能\n- 高级搜索选项\n\n### 概念管理\n- 自动检测角色、地点、物品\n- 概念关系管理\n- 标签和分类系统\n- 概念快速插入\n\n## 快捷键\n\n- `Ctrl+N`: 新建项目\n- `Ctrl+O`: 打开项目\n- `Ctrl+S`: 保存文档\n- `F11`: 全屏模式\n- `Tab`: 手动触发AI补全（手动模式下）\n- `Ctrl+F`: 查找\n- `Ctrl+H`: 查找替换\n- `Ctrl+Shift+H`: 高级查找替换\n\n\n## 系统要求\n\n- Python 3.8+\n- PyQt6\n- 操作系统：Windows、macOS、Linux\n\n## 作者\n",
+    "ContentSha": "YOVi2lbMErji5ZsO8qbAGubCG6WUl4F4/Uv2hqOuvoM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Funzionalità dell'interfaccia\n- Tema chiaro e scuro\n- Layout a tre colonne (albero dei progetti, editor, pannello concetti)\n- Barra laterale pieghevole\n- Modalità scrittura a schermo intero\n- Modalità concentrazione (frase, paragrafo, macchina da scrivere, modalità zen, modalità immersiva)\n\n### Ricerca e sostituzione\n- Ricerca testo in tutto il progetto\n- Supporto per espressioni regolari\n- Funzione di sostituzione in batch\n- Opzioni di ricerca avanzata\n\n### Gestione dei concetti\n- Rilevamento automatico di personaggi, luoghi, oggetti\n- Gestione delle relazioni tra concetti\n- Sistema di etichette e categorie\n- Inserimento rapido di concetti\n\n## Scorciatoie da tastiera\n\n- `Ctrl+N`: Nuovo progetto\n- `Ctrl+O`: Apri progetto\n- `Ctrl+S`: Salva documento\n- `F11`: Modalità schermo intero\n- `Tab`: Attiva completamento AI manuale (in modalità manuale)\n- `Ctrl+F`: Trova\n- `Ctrl+H`: Trova e sostituisci\n- `Ctrl+Shift+H`: Trova e sostituisci avanzato\n\n\n## Requisiti di sistema\n\n- Python 3.8+\n- PyQt6\n- Sistema operativo: Windows, macOS, Linux\n\n## Autore\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tn3TrWg9nkMht1wHjDDL03rqEHiKn2MssMS395WFvpM=",
+        "originContent": "### 界面功能",
+        "translatedContent": "### Funzionalità dell'interfaccia"
+      },
+      {
+        "row": 3,
+        "rowsha": "QUFZ4eIzCeWMveDRIcKAC4MENt9h+pktxcio3C/sVqw=",
+        "originContent": "- 明暗双主题",
+        "translatedContent": "- Tema chiaro e scuro"
+      },
+      {
+        "row": 4,
+        "rowsha": "MPrv0uU4p0IlWCk1asOXodbH1iAURD4mv+QFQ2fAbXM=",
+        "originContent": "- 三栏式布局（项目树、编辑器、概念面板）",
+        "translatedContent": "- Layout a tre colonne (albero dei progetti, editor, pannello concetti)"
+      },
+      {
+        "row": 5,
+        "rowsha": "Yk0oHrVw9t99lDtjOaiL9id7xYBIZ4mRUGn8Ww4B6Sg=",
+        "originContent": "- 可折叠侧边栏",
+        "translatedContent": "- Barra laterale pieghevole"
+      },
+      {
+        "row": 6,
+        "rowsha": "21qfN66LGKQKWPQ2Elp4v+omSethyMCAn+HNE3TT28w=",
+        "originContent": "- 全屏写作模式",
+        "translatedContent": "- Modalità scrittura a schermo intero"
+      },
+      {
+        "row": 7,
+        "rowsha": "92HaPFxe6ewmDHk4IM712RHPxBOuSNvZ5eeDniC/9GI=",
+        "originContent": "- 专注模式（句子、段落、打字机、禅模式、沉浸模式）",
+        "translatedContent": "- Modalità concentrazione (frase, paragrafo, macchina da scrivere, modalità zen, modalità immersiva)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "UIDqOXb1y3/jQAHyOHvtrJakZpt2sH9PCU7r0atvg3Y=",
+        "originContent": "### 搜索和替换",
+        "translatedContent": "### Ricerca e sostituzione"
+      },
+      {
+        "row": 10,
+        "rowsha": "+lM03qyudeNr5FmQ1XDdBAE50/TH6+0xUmrcRgQV0Hc=",
+        "originContent": "- 全项目文本搜索",
+        "translatedContent": "- Ricerca testo in tutto il progetto"
+      },
+      {
+        "row": 11,
+        "rowsha": "yxbX+8jun+tECh8mFblmfUPCTVvjmr02NdkytsEx/GI=",
+        "originContent": "- 正则表达式支持",
+        "translatedContent": "- Supporto per espressioni regolari"
+      },
+      {
+        "row": 12,
+        "rowsha": "p6JDCRi6+6kGQkcMUxrl7QotpWNaOm5LFj0p4p8UaDw=",
+        "originContent": "- 批量替换功能",
+        "translatedContent": "- Funzione di sostituzione in batch"
+      },
+      {
+        "row": 13,
+        "rowsha": "0iaBCZ26HksLUSEqyjZWeFjbNOsmGA3M/dXvTDR8gRo=",
+        "originContent": "- 高级搜索选项",
+        "translatedContent": "- Opzioni di ricerca avanzata"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "eo63eOTxVjLaHo9w457cqzG7s4KKb5GLq0ZWXX2g+hw=",
+        "originContent": "### 概念管理",
+        "translatedContent": "### Gestione dei concetti"
+      },
+      {
+        "row": 16,
+        "rowsha": "QdVxVC1rimBxy+Si22f7KeYUcRZgBxEUqI2Y3cyqKrg=",
+        "originContent": "- 自动检测角色、地点、物品",
+        "translatedContent": "- Rilevamento automatico di personaggi, luoghi, oggetti"
+      },
+      {
+        "row": 17,
+        "rowsha": "Gw4k5Pza8RzHKJy02khS2bsBZthttyekOHglDu1hrUo=",
+        "originContent": "- 概念关系管理",
+        "translatedContent": "- Gestione delle relazioni tra concetti"
+      },
+      {
+        "row": 18,
+        "rowsha": "eq8iAv/ueX29z0tAhoy1qM6sxV89G5lXs7ylASjqzcM=",
+        "originContent": "- 标签和分类系统",
+        "translatedContent": "- Sistema di etichette e categorie"
+      },
+      {
+        "row": 19,
+        "rowsha": "ZGLxaA+TVNH7GH0uglzKQLjb1ohmlR3jG1A/5t8WQ/w=",
+        "originContent": "- 概念快速插入",
+        "translatedContent": "- Inserimento rapido di concetti"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "/FCPzDGlZUJAMKPGb5vgVTEtSFyxToKnVwqQC3uCy9c=",
+        "originContent": "## 快捷键",
+        "translatedContent": "## Scorciatoie da tastiera"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "BWzB7bzSbNpMZBlc7kTRf9oAj94jce3edfuE37x7NYE=",
+        "originContent": "- `Ctrl+N`: 新建项目",
+        "translatedContent": "- `Ctrl+N`: Nuovo progetto"
+      },
+      {
+        "row": 24,
+        "rowsha": "WBZHj1njZx4l3lAXydrHC/XdYZ+bKzkg+N9qBrDYRjo=",
+        "originContent": "- `Ctrl+O`: 打开项目",
+        "translatedContent": "- `Ctrl+O`: Apri progetto"
+      },
+      {
+        "row": 25,
+        "rowsha": "pSAUkHJpbX8nwkzmGRxrAXqAEnrY2ADftZpW09A1W7k=",
+        "originContent": "- `Ctrl+S`: 保存文档",
+        "translatedContent": "- `Ctrl+S`: Salva documento"
+      },
+      {
+        "row": 26,
+        "rowsha": "8DSE23OCxqVBuyWFRAfUqPozrVbuz36uuzdzvuX5PFQ=",
+        "originContent": "- `F11`: 全屏模式",
+        "translatedContent": "- `F11`: Modalità schermo intero"
+      },
+      {
+        "row": 27,
+        "rowsha": "94r6a830r9Xw+L7qPDwy1lOZMFI26hLXBzvqcJGX8kE=",
+        "originContent": "- `Tab`: 手动触发AI补全（手动模式下）",
+        "translatedContent": "- `Tab`: Attiva completamento AI manuale (in modalità manuale)"
+      },
+      {
+        "row": 28,
+        "rowsha": "/J7EZxfknK+8BQ7L/h77haBa7M+iQEV+sQiL0qg7js4=",
+        "originContent": "- `Ctrl+F`: 查找",
+        "translatedContent": "- `Ctrl+F`: Trova"
+      },
+      {
+        "row": 29,
+        "rowsha": "Qlliv1ltQVd8ye2/Nyp7orO9ZLwXL2+YhS8B3U9sn6k=",
+        "originContent": "- `Ctrl+H`: 查找替换",
+        "translatedContent": "- `Ctrl+H`: Trova e sostituisci"
+      },
+      {
+        "row": 30,
+        "rowsha": "ESpMd0zPnwG6CroUPKKLcKT8SaWxX48PCluTihSf6po=",
+        "originContent": "- `Ctrl+Shift+H`: 高级查找替换",
+        "translatedContent": "- `Ctrl+Shift+H`: Trova e sostituisci avanzato"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "Xz4G9/gzvPfk4FvCOgMjmLdyuEJc25j7cRNjKuFJs84=",
+        "originContent": "## 系统要求",
+        "translatedContent": "## Requisiti di sistema"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "a8iA8dK1sgtPXnQm4IE464zAA45vAKIinoCczk+eBuE=",
+        "originContent": "- Python 3.8+",
+        "translatedContent": "- Python 3.8+"
+      },
+      {
+        "row": 36,
+        "rowsha": "SXldwLcho4MpFb0ywgQLx5bL5XSqAmTq7u0E3beh7hw=",
+        "originContent": "- PyQt6",
+        "translatedContent": "- PyQt6"
+      },
+      {
+        "row": 37,
+        "rowsha": "3HuwynERs/Ipp5QnhROdyUMdHutKI8xT6JhgNzqqBVc=",
+        "originContent": "- 操作系统：Windows、macOS、Linux",
+        "translatedContent": "- Sistema operativo: Windows, macOS, Linux"
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "dq5bZ0yCq0aTV/Z5dO2EhGzdmwRg0a7bMmJ94rdH3NM=",
+        "originContent": "## 作者",
+        "translatedContent": "## Autore"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "**inliver**\n- 邮箱：inliverapi@outlook.com  \n- GitHub：https://github.com/inliver233",
+    "ContentSha": "siZrUct6uiK6/aKLTuNBmEv/Y9tu2e9e30aWBynb5wM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "**inliver**\n- Email: inliverapi@outlook.com  \n- GitHub: https://github.com/inliver233",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "PXqssNYFJd9KDQr4lzjz7gsWaz89DZ28rVDuC0bs0vo=",
+        "originContent": "**inliver**",
+        "translatedContent": "**inliver**"
+      },
+      {
+        "row": 2,
+        "rowsha": "Elgc4ucjcuFvPAHmRENLlEq2ltKoU/f7Fbx6YO+bAbg=",
+        "originContent": "- 邮箱：inliverapi@outlook.com  ",
+        "translatedContent": "- Email: inliverapi@outlook.com  "
+      },
+      {
+        "row": 3,
+        "rowsha": "akqNbAbCni3Bv9lQdw2gjX48f5tbOBh+yO21s43dtFY=",
+        "originContent": "- GitHub：https://github.com/inliver233",
+        "translatedContent": "- GitHub: https://github.com/inliver233"
+      }
+    ],
+    "IsCodeBlock": false
   }
 ]

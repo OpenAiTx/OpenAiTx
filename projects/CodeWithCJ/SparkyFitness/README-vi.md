@@ -105,69 +105,83 @@ Tài liệu: https://codewithcj.github.io/SparkyFitness
 Khởi chạy SparkyFitness chỉ trong vài phút:
 
 ```bash
-# Clone the repository
-git clone https://github.com/CodeWithCJ/SparkyFitness.git
-cd SparkyFitness
+# 1. Create a new folder
+mkdir sparkyfitness && cd sparkyfitness
 
-# Copy environment template and edit as needed
-cp docker/.env.example .env
+# 2. Download Docker files only
+curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
+curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
 
-# Start development environment (with live reloading)
-./docker/docker-helper.sh dev up
+# 3. (Optional) Edit .env to customize your setup
+# e.g., update database credentials, ports, etc.
+# if you require Gamrin integration, uncomment Garmin section from compose file.
+
+# 4. Start the app
+docker compose pull && docker compose up -d
 
 # Access application at http://localhost:8080
 ```
 
-## 📖 Tài liệu
+## 📖 Tài liệu hướng dẫn
 
-Để xem hướng dẫn cài đặt đầy đủ, thiết lập môi trường phát triển và hướng dẫn sử dụng, hãy truy cập tài liệu chi tiết của chúng tôi:
+Để xem hướng dẫn cài đặt đầy đủ, thiết lập phát triển và chỉ dẫn sử dụng, hãy truy cập trang tài liệu toàn diện của chúng tôi:
 
 **👉 [Trang Tài liệu SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
 
 ### Liên kết nhanh
 
-- **[🚀 Bắt đầu](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Hướng dẫn thiết lập đầy đủ cho phát triển và triển khai
+- **[🚀 Bắt đầu nhanh](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Hướng dẫn thiết lập đầy đủ cho phát triển và sản xuất
 - **[🐳 Hướng dẫn Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Triển khai và cấu hình Docker
 - **[🔧 Quy trình phát triển](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Hướng dẫn cho nhà phát triển và quy trình đóng góp  
-- **[📊 Tổng quan tính năng](https://codewithcj.github.io/SparkyFitness/features/)** - Tài liệu đầy đủ về các tính năng
+- **[📊 Tổng quan tính năng](https://codewithcj.github.io/SparkyFitness/features/)** - Tài liệu về tất cả các tính năng
 - **[🏗️ Kiến trúc hệ thống](https://codewithcj.github.io/SparkyFitness/app-overview)** - Kiến trúc kỹ thuật và thiết kế
-- Tham khảo Wiki để thiết lập môi trường mẫu và cấu hình Ứng dụng Di động.
+- Tham khảo Wiki để thiết lập môi trường mẫu và cấu hình ứng dụng di động.
 
-## 🐳 Triển khai Docker
 
-**Sản xuất (khuyến nghị):**
-```bash
-cp docker/.env.example .env  # Edit as needed
-./docker/docker-helper.sh prod up
-# Access at http://localhost:3004
-```
-**Phát triển:**
+## Lịch sử gắn sao
 
-```bash
-cp docker/.env.example .env  # Edit as needed  
-./docker/docker-helper.sh dev up
-# Access at http://localhost:8080 (live reloading)
-```
-Để biết hướng dẫn cài đặt chi tiết, cấu hình môi trường và xử lý sự cố, hãy xem [tài liệu đầy đủ](https://codewithcj.github.io/SparkyFitness/developer/getting-started).
+<a href="https://star-history.com/#CodeWithCJ/SparkyFitness&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" />
+    <img alt="Biểu đồ lịch sử gắn sao" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
+  </picture>
+</a>
 
-### ⚠️ Các vấn đề đã biết / Tính năng Beta ⚠️
+## Dịch thuật
 
-Các tính năng sau hiện đang ở chế độ beta và có thể chưa được kiểm thử kỹ lưỡng. Có thể gặp lỗi hoặc chức năng chưa hoàn chỉnh:
+<a href="https://hosted.weblate.org/engage/sparkyfitness/">
+<img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="Trạng thái dịch thuật" />
+</a>
+
+## Hoạt động kho lưu trữ
+
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Hình ảnh phân tích Repobeats")
+
+
+## Những người đóng góp
+
+<a href="https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
+</a>
+
+### ⚠️ Vấn Đề Đã Biết / Tính Năng Beta ⚠️
+
+Các tính năng sau hiện đang ở giai đoạn beta và có thể chưa được kiểm tra kỹ lưỡng. Có thể sẽ gặp lỗi hoặc chức năng chưa hoàn chỉnh:
 
 *   Chatbot AI
 *   Hỗ trợ nhiều người dùng
-*   Quyền truy cập Gia đình & Bạn bè
-*   Tích hợp dữ liệu Apple Health
+*   Truy cập Gia đình & Bạn bè
+*   Tích hợp Dữ liệu Apple Health
 
-Ứng dụng này đang được phát triển mạnh mẽ. Một số chức năng có thể không hoạt động như mong đợi do quá trình chuyển đổi từ Supabase sang PostgreSQL. Thay đổi lớn (BREAKING CHANGES) có thể được áp dụng cho đến khi ứng dụng ổn định.
-Bạn có thể cần thay đổi biến Docker/môi trường cho các bản phát hành mới. Do đó, không nên sử dụng tự động nâng cấp bằng Watchtower hoặc các ứng dụng tương tự. Hãy đọc ghi chú phát hành cho bất kỳ THAY ĐỔI LỚN nào.
-
+Ứng dụng này đang trong quá trình phát triển mạnh. Một số chức năng có thể không hoạt động như mong đợi do quá trình chuyển đổi từ Supabase sang PostgreSQL. CÓ THỂ CÓ THAY ĐỔI LỚN cho đến khi ứng dụng ổn định.
+Bạn có thể cần thay đổi biến Docker/môi trường cho các phiên bản mới. Do đó, không khuyến nghị tự động nâng cấp bằng Watchtower hoặc các ứng dụng tương tự. Hãy đọc ghi chú phát hành cho bất kỳ THAY ĐỔI LỚN nào.
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

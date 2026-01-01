@@ -105,69 +105,83 @@ SparkyFitness — это комплексное приложение для от
 Запустите SparkyFitness за считанные минуты:
 
 ```bash
-# Clone the repository
-git clone https://github.com/CodeWithCJ/SparkyFitness.git
-cd SparkyFitness
+# 1. Create a new folder
+mkdir sparkyfitness && cd sparkyfitness
 
-# Copy environment template and edit as needed
-cp docker/.env.example .env
+# 2. Download Docker files only
+curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
+curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
 
-# Start development environment (with live reloading)
-./docker/docker-helper.sh dev up
+# 3. (Optional) Edit .env to customize your setup
+# e.g., update database credentials, ports, etc.
+# if you require Gamrin integration, uncomment Garmin section from compose file.
+
+# 4. Start the app
+docker compose pull && docker compose up -d
 
 # Access application at http://localhost:8080
 ```
 
 ## 📖 Документация
 
-Для получения полного руководства по установке, настройке разработки и инструкции по использованию посетите нашу подробную документацию:
+Для получения полных руководств по установке, настройке разработки и инструкций по использованию посетите нашу подробную документацию:
 
 **👉 [Сайт документации SparkyFitness](https://codewithcj.github.io/SparkyFitness)**
 
 ### Быстрые ссылки
 
 - **[🚀 Начало работы](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - Полное руководство по настройке для разработки и продакшена
-- **[🐳 Руководство по Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Развертывание и конфигурация Docker
-- **[🔧 Рабочий процесс разработки](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Руководство для разработчиков и процесс внесения вкладов  
+- **[🐳 Руководство по Docker](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Развертывание и настройка Docker
+- **[🔧 Рабочий процесс разработки](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - Руководство для разработчиков и процесс вклада  
 - **[📊 Обзор функций](https://codewithcj.github.io/SparkyFitness/features/)** - Полная документация по функциям
-- **[🏗️ Архитектура](https://codewithcj.github.io/SparkyFitness/app-overview)** - Техническая архитектура и дизайн
-- См. WIiki для примера настройки окружения и конфигурации мобильного приложения.
+- **[🏗️ Архитектура](https://codewithcj.github.io/SparkyFitness/app-overview)** - Техническая архитектура и проектирование
+- Смотрите WIiki для примера настройки окружения и конфигурации мобильного приложения.
 
-## 🐳 Развертывание Docker
 
-**Продакшен (рекомендуется):**
-```bash
-cp docker/.env.example .env  # Edit as needed
-./docker/docker-helper.sh prod up
-# Access at http://localhost:3004
-```
-**Разработка:**
+## История звёзд
 
-```bash
-cp docker/.env.example .env  # Edit as needed  
-./docker/docker-helper.sh dev up
-# Access at http://localhost:8080 (live reloading)
-```
-Для получения подробных инструкций по установке, настройке среды и устранению неполадок см. [полную документацию](https://codewithcj.github.io/SparkyFitness/developer/getting-started).
+<a href="https://star-history.com/#CodeWithCJ/SparkyFitness&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
+  </picture>
+</a>
+
+## Переводы
+
+<a href="https://hosted.weblate.org/engage/sparkyfitness/">
+<img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="Статус перевода" />
+</a>
+
+## Активность репозитория
+
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Аналитика Repobeats")
+
+
+## Участники
+
+<a href="https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
+</a>
 
 ### ⚠️ Известные проблемы / Бета-функции ⚠️
 
 Следующие функции находятся в стадии бета-тестирования и могут быть недостаточно проверены. Возможны ошибки или неполная работоспособность:
 
-*   AI-чатбот
+*   AI-чат-бот
 *   Многопользовательская поддержка
 *   Доступ для семьи и друзей
 *   Интеграция с Apple Health Data
 
-Это приложение находится в активной разработке. Некоторые функции могут работать не так, как ожидается, из-за миграции с Supabase на PostgreSQL. ДОРОГИЕ ИЗМЕНЕНИЯ могут быть внесены до стабилизации приложения.
-Возможно, вам потребуется изменить Docker/переменные окружения при выходе новых версий. Поэтому автоматические обновления с помощью Watchtower или аналогичных приложений не рекомендуются. Читайте примечания к релизам для ознакомления с ДОРОГИМИ ИЗМЕНЕНИЯМИ.
-
+Это приложение находится в активной разработке. Возможны сбои из-за миграции с Supabase на PostgreSQL. ДОПУСКАЮТСЯ КРИТИЧЕСКИЕ ИЗМЕНЕНИЯ до стабилизации приложения.
+Вам может понадобиться изменить переменные Docker/окружения при новых релизах. Поэтому автоматические обновления через Watchtower или аналогичные приложения не рекомендуются. Читайте примечания к релизам для информации о КРИТИЧЕСКИХ ИЗМЕНЕНИЯХ.
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

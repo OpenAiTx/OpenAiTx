@@ -105,69 +105,83 @@ SparkyFitness 是一款全面的健身跟踪与管理应用，旨在帮助用户
 几分钟内让 SparkyFitness 运行起来：
 
 ```bash
-# Clone the repository
-git clone https://github.com/CodeWithCJ/SparkyFitness.git
-cd SparkyFitness
+# 1. Create a new folder
+mkdir sparkyfitness && cd sparkyfitness
 
-# Copy environment template and edit as needed
-cp docker/.env.example .env
+# 2. Download Docker files only
+curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
+curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
 
-# Start development environment (with live reloading)
-./docker/docker-helper.sh dev up
+# 3. (Optional) Edit .env to customize your setup
+# e.g., update database credentials, ports, etc.
+# if you require Gamrin integration, uncomment Garmin section from compose file.
+
+# 4. Start the app
+docker compose pull && docker compose up -d
 
 # Access application at http://localhost:8080
 ```
 
 ## 📖 文档
 
-有关完整的安装指南、开发环境设置和使用说明，请访问我们的综合文档：
+如需完整的安装指南、开发环境搭建和使用说明，请访问我们的综合文档：
 
-**👉 [SparkyFitness 文档网站](https://codewithcj.github.io/SparkyFitness)**
+**👉 [SparkyFitness 文档站点](https://codewithcj.github.io/SparkyFitness)**
 
 ### 快速链接
 
-- **[🚀 入门指南](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 开发与生产环境的完整设置指南
+- **[🚀 快速开始](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 开发与生产环境完整搭建指南
 - **[🐳 Docker 指南](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker 部署与配置说明
-- **[🔧 开发工作流程](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 开发者指南及贡献流程  
-- **[📊 功能概览](https://codewithcj.github.io/SparkyFitness/features/)** - 全部功能文档
-- **[🏗️ 架构设计](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技术架构与设计说明
-- 参考 WIiki 获取示例环境配置和移动应用设置。
+- **[🔧 开发工作流](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 开发者指南及贡献流程  
+- **[📊 功能概览](https://codewithcj.github.io/SparkyFitness/features/)** - 完整功能文档
+- **[🏗️ 架构](https://codewithcj.github.io/SparkyFitness/app-overview)** - 技术架构与设计说明
+- 参考 Wiki 获取示例环境配置及移动端应用设置。
 
-## 🐳 Docker 部署
 
-**生产环境（推荐）：**
-```bash
-cp docker/.env.example .env  # Edit as needed
-./docker/docker-helper.sh prod up
-# Access at http://localhost:3004
-```
-**开发：**
+## Star 历史
 
-```bash
-cp docker/.env.example .env  # Edit as needed  
-./docker/docker-helper.sh dev up
-# Access at http://localhost:8080 (live reloading)
-```
-有关详细的安装说明、环境配置和故障排除，请参阅[完整文档](https://codewithcj.github.io/SparkyFitness/developer/getting-started)。
+<a href="https://star-history.com/#CodeWithCJ/SparkyFitness&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" />
+    <img alt="Star 历史图表" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
+  </picture>
+</a>
 
-### ⚠️ 已知问题 / Beta 功能 ⚠️
+## 翻译
 
-以下功能目前处于测试阶段，可能尚未经过全面测试。请注意可能存在的漏洞或功能不完整：
+<a href="https://hosted.weblate.org/engage/sparkyfitness/">
+<img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="翻译状态" />
+</a>
+
+## 仓库活动
+
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats 分析图片")
+
+
+## 贡献者
+
+<a href="https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
+</a>
+
+### ⚠️ 已知问题 / 测试版功能 ⚠️
+
+以下功能目前处于测试阶段，可能尚未经过充分测试。请预期可能存在的漏洞或功能不完整：
 
 *   AI 聊天机器人
 *   多用户支持
 *   家庭和朋友访问
-*   集成 Apple Health 数据
+*   Apple Health 数据集成
 
-该应用程序正在积极开发中。由于 Supabase 到 PostgreSQL 的迁移，某些功能可能无法按预期工作。在应用稳定之前，可能会引入重大更改（BREAKING CHANGES）。
-对于新版本，你可能需要更改 Docker/环境变量。因此，不建议使用 Watchtower 或类似应用自动升级。请阅读发布说明以了解任何重大更改（BREAKING CHANGES）。
-
+该应用正在密集开发中。由于 Supabase 到 PostgreSQL 的迁移，某些功能可能无法如预期工作。在应用程序稳定之前，可能会引入重大变更（BREAKING CHANGES）。
+您可能需要在新版本中更改 Docker/环境变量。因此，不建议使用 Watchtower 或类似应用进行自动升级。请阅读发布说明以了解任何重大变更（BREAKING CHANGES）。
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Dil</summary>
@@ -30,7 +31,7 @@
 
 # AI Roman Editörü
 
-PyQt6 tabanlı AI destekli roman editörü, akıllı tamamlama, proje yönetimi, kavram organizasyonu gibi profesyonel yazım araçları sunar.
+PyQt6 tabanlı AI destekli roman editörü; akıllı tamamlama, proje yönetimi, kavram organizasyonu gibi profesyonel yazım araçları sunar.
 
 ## Kurulum
 
@@ -40,97 +41,93 @@ git clone https://github.com/inliver233/Ai-Novel-Editor.git
 cd ai-novel-editor
 ```
 
-2. Sanal ortam oluşturun
+2. Sanal ortam oluşturma
 ```bash
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-uv kullanarak
-```bash
-uv venv -p 3.11
-```
-3. Bağımlılıkların Kurulması
+
+3. Bağımlılıkların kurulumu
 ```bash
 pip install -r requirements.txt
 ```
-uv kullanımı
-```bash
-uv sync
-```
 
-
-4. Programı Çalıştırma
+4. Programı çalıştırın
 ```bash
-python -m src
+python src/main.py
 ```
 
 ## Ana Özellikler
 
 ### Proje Yönetimi
-- Hiyerarşik belge yapısı (Eser > Bölüm > Sahneler)
+- Hiyerarşik doküman yapısı (Eser > Bölüm > Sahne)
 - Proje içe/dışa aktarma (TEXT, MARKDOWN, DOCX, PDF, HTML formatlarını destekler)
 - Otomatik yedekleme ve sürüm kontrolü
 - Çoklu proje yönetimi
+
 ### AI Tamamlama Özelliği
-- Üç tamamlama modu: Otomatik tamamlama, Manuel tamamlama (Tavsiye edilir: bir kez tab tuşuna basarak tetiklenir, tekrar tab tuşuna basarak tamamlama uygulanır), Tamamlama devre dışı
+- Üç tamamlama modu: otomatik tamamlama, manuel tamamlama (önerilen: bir kez tab ile tetiklenir, tekrar tab ile uygulanır), tamamlama devre dışı
 - Üç bağlam modu:
-  - Hızlı Mod: Hafif bağlam, hızlı yanıt
-  - Dengeli Mod: Orta düzeyde bağlam, kalite ve hız dengesi
-  - Global Mod: Tam proje bağlamı, en iyi sonuç
-- Birçok AI servisini destekler: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq vb.
+  - Hızlı mod: hafif bağlam, hızlı yanıt
+  - Dengeli mod: orta seviye bağlam, kalite ve hız dengesi
+  - Global mod: tam proje bağlamı, en iyi sonuçlar
+- Çoklu AI hizmeti desteği: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq vb.
 
 ### Ana Hat Yönetimi
 - Görsel ana hat ağaç yapısı
-- Sürükle-bırak ile sıralama ve seviye ayarı
-- Hızlı belge gezintisi
-- Ana hat analizi ve optimizasyon önerileri
+- Sürükle-bırak sıralama ve seviye ayarı
+- Hızlı doküman gezintisi
+- Ana hat analizi ve iyileştirme önerileri
 
 ### API Yapılandırması
 - Birleşik AI yapılandırma merkezi
-- Çoklu servis sağlayıcı ön ayarları
-- Bağlantı testi fonksiyonu
-- Yapılandırma şeması kaydetme ve içe/dışa aktarma
-### Akıllı Otomatik Tamamlama Ayarları
-- Ayarlanabilir tetikleme gecikmesi
+- Çoklu hizmet sağlayıcı ön ayarları
+- Bağlantı testi özelliği
+- Yapılandırma planı kaydetme ve içe/dışa aktarma
+
+### Akıllı Tamamlama Ayarları
+- Ayarlanabilir tetik gecikmesi
 - Tamamlama uzunluğu sınırı
 - Bağlam uzunluğu yapılandırması
-- Akışlı yanıt desteği
+- Akışkan yanıt desteği
 
 ### İpucu Düzenleme
-- Dahili çeşitli yazı şablonları
-- Özelleştirilebilir ipucu şablonları
+- Dahili çeşitli yazım şablonları
+- Özel ipucu şablonu
 - Şablon kategori yönetimi
 - Moda özel şablon yapılandırması
 
 ### Arayüz Özellikleri
-- Açık/Koyu çift tema
-- Üç sütunlu düzen (proje ağacı, editör, kavram paneli)
+- Açık ve koyu tema desteği
+- Üç sütunlu düzen (proje ağacı, düzenleyici, kavram paneli)
 - Katlanabilir yan panel
-- Tam ekran yazı modu
+- Tam ekran yazma modu
 - Odak modu (cümle, paragraf, daktilo, zen modu, sürükleyici mod)
 
 ### Arama ve Değiştirme
-- Tüm proje metni arama
-- Regüler ifade desteği
+- Tüm projede metin arama
+- Regex (düzenli ifade) desteği
 - Toplu değiştirme özelliği
 - Gelişmiş arama seçenekleri
 
 ### Kavram Yönetimi
-- Otomatik rol, mekan, nesne algılama
-- Kavramsal ilişki yönetimi
-- Etiket ve kategorilendirme sistemi
-- Hızlı kavram ekleme
+- Karakter, mekan, nesne otomatik algılama
+- Kavram ilişkisi yönetimi
+- Etiket ve kategori sistemi
+- Kavram hızlı ekleme
 
 ## Kısayol Tuşları
 
-- `Ctrl+N`: Yeni proje
+- `Ctrl+N`: Yeni proje oluştur
 - `Ctrl+O`: Proje aç
 - `Ctrl+S`: Belgeyi kaydet
 - `F11`: Tam ekran modu
-- `Tab`: AI otomatik tamamlama manuel tetikleme (manuel modda)
+- `Tab`: AI tamamlamayı elle tetikle (elle modda)
 - `Ctrl+F`: Bul
 - `Ctrl+H`: Bul ve değiştir
 - `Ctrl+Shift+H`: Gelişmiş bul ve değiştir
+
+
 ## Sistem Gereksinimleri
 
 - Python 3.8+
@@ -145,6 +142,6 @@ python -m src
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

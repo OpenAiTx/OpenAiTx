@@ -46,24 +46,15 @@ cd ai-novel-editor
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-使用uv
-```bash
-uv venv -p 3.11
-```
 
 3. 安装依赖
 ```bash
 pip install -r requirements.txt
 ```
-使用uv
-```bash
-uv sync
-```
-
 
 4. 运行程序
 ```bash
-python -m src
+python src/main.py
 ```
 
 ## 主要功能

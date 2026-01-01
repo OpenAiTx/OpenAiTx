@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Idioma</summary>
@@ -45,79 +46,74 @@ cd ai-novel-editor
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-Usar uv
-```bash
-uv venv -p 3.11
-```
+
 3. Instalar dependencias
 ```bash
 pip install -r requirements.txt
 ```
-Usando uv
-```bash
-uv sync
-```
 
 4. Ejecutar el programa
 ```bash
-python -m src
+python src/main.py
 ```
 
-## Funciones principales
+## Funcionalidades principales
 
 ### Gestión de proyectos
 - Estructura jerárquica de documentos (Obra > Capítulo > Escena)
-- Importación y exportación de proyectos (soporta formatos TEXT, MARKDOWN, DOCX, PDF, HTML)
+- Importación y exportación de proyectos (compatible con TEXT, MARKDOWN, DOCX, PDF, HTML)
 - Copias de seguridad automáticas y control de versiones
 - Gestión de múltiples proyectos
-### Función de Autocompletado AI
-- Tres modos de autocompletado: autocompletado automático, autocompletado manual (recomendado: presione Tab una vez para activar, presione Tab otra vez para aplicar el autocompletado), desactivar autocompletado
+
+### Función de autocompletado AI
+- Tres modos de autocompletado: autocompletado automático, autocompletado manual (recomendado: presionar Tab una vez para activar, presionar Tab de nuevo para aplicar el autocompletado), desactivar autocompletado
 - Tres modos de contexto:
   - Modo rápido: contexto ligero, respuesta rápida
-  - Modo equilibrado: contexto medio, equilibrio entre calidad y velocidad
-  - Modo global: contexto completo del proyecto, mejor efecto
-- Soporta múltiples servicios de IA: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq, etc.
+  - Modo equilibrado: contexto medio, balance entre calidad y velocidad
+  - Modo global: contexto completo del proyecto, mejor resultado
+- Soporte para múltiples servicios de IA: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq, entre otros
 
-### Gestión de Esquema
-- Estructura de árbol de esquema visualizable
-- Arrastrar y soltar para ordenar y ajustar niveles
+### Gestión de esquema
+- Árbol de esquema visualizable
+- Ordenamiento y ajuste de niveles mediante arrastrar y soltar
 - Navegación rápida de documentos
-- Análisis del esquema y sugerencias de optimización
+- Análisis de esquema y sugerencias de optimización
 
 ### Configuración de API
-- Centro unificado de configuración de IA
-- Configuraciones preestablecidas para múltiples proveedores de servicios
+- Centro de configuración unificado para IA
+- Configuraciones preestablecidas para varios proveedores
 - Función de prueba de conexión
-- Guardar, importar y exportar esquemas de configuración
-### Configuración de autocompletado inteligente
+- Guardado e importación/exportación de esquemas de configuración
+
+### Ajustes de autocompletado inteligente
 - Retardo de activación ajustable
 - Límite de longitud de autocompletado
 - Configuración de longitud de contexto
-- Soporte para respuesta en streaming
+- Soporte de respuesta por streaming
 
 ### Edición de prompts
 - Múltiples plantillas de escritura integradas
-- Plantillas de prompts personalizadas
-- Gestión de categorías de plantillas
+- Plantillas de prompts personalizables
+- Gestión de clasificación de plantillas
 - Configuración de plantillas específicas por modo
 
-### Funciones de la interfaz
+### Funcionalidad de la interfaz
 - Doble tema claro/oscuro
 - Diseño de tres columnas (árbol de proyectos, editor, panel de conceptos)
-- Barra lateral colapsable
+- Barra lateral plegable
 - Modo de escritura a pantalla completa
-- Modo de concentración (oración, párrafo, máquina de escribir, modo zen, modo inmersivo)
+- Modo de concentración (frase, párrafo, máquina de escribir, modo zen, modo inmersivo)
 
-### Buscar y reemplazar
+### Búsqueda y reemplazo
 - Búsqueda de texto en todo el proyecto
 - Soporte para expresiones regulares
 - Función de reemplazo por lotes
 - Opciones de búsqueda avanzadas
 
 ### Gestión de conceptos
-- Detección automática de roles, lugares, objetos
+- Detección automática de personajes, lugares, objetos
 - Gestión de relaciones de conceptos
-- Sistema de etiquetas y clasificación
+- Sistema de etiquetas y categorías
 - Inserción rápida de conceptos
 
 ## Atajos de teclado
@@ -125,16 +121,18 @@ python -m src
 - `Ctrl+N`: Nuevo proyecto
 - `Ctrl+O`: Abrir proyecto
 - `Ctrl+S`: Guardar documento
-- `F11`: Modo de pantalla completa
-- `Tab`: Activar manualmente la autocompletación por IA (en modo manual)
+- `F11`: Modo pantalla completa
+- `Tab`: Activar autocompletado AI manualmente (en modo manual)
 - `Ctrl+F`: Buscar
 - `Ctrl+H`: Buscar y reemplazar
-- `Ctrl+Shift+H`: Búsqueda y reemplazo avanzados
+- `Ctrl+Shift+H`: Búsqueda y reemplazo avanzada
+
+
 ## Requisitos del sistema
 
 - Python 3.8+
 - PyQt6
-- Sistema operativo: Windows, macOS, Linux
+- Sistemas operativos: Windows, macOS, Linux
 
 ## Autor
 
@@ -144,6 +142,6 @@ python -m src
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

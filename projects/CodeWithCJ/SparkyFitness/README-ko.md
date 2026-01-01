@@ -105,69 +105,83 @@ SparkyFitness는 사용자가 영양, 운동, 신체 측정값을 모니터링�
 SparkyFitness를 몇 분 안에 실행하세요:
 
 ```bash
-# Clone the repository
-git clone https://github.com/CodeWithCJ/SparkyFitness.git
-cd SparkyFitness
+# 1. Create a new folder
+mkdir sparkyfitness && cd sparkyfitness
 
-# Copy environment template and edit as needed
-cp docker/.env.example .env
+# 2. Download Docker files only
+curl -o docker-compose.yml https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/docker-compose.prod.yml
+curl -o .env https://raw.githubusercontent.com/CodeWithCJ/SparkyFitness/main/docker/.env.example
 
-# Start development environment (with live reloading)
-./docker/docker-helper.sh dev up
+# 3. (Optional) Edit .env to customize your setup
+# e.g., update database credentials, ports, etc.
+# if you require Gamrin integration, uncomment Garmin section from compose file.
+
+# 4. Start the app
+docker compose pull && docker compose up -d
 
 # Access application at http://localhost:8080
 ```
 
 ## 📖 문서
 
-전체 설치 가이드, 개발 환경 설정 및 사용 방법은 아래의 종합 문서를 참고하세요:
+전체 설치 가이드, 개발 환경 설정, 사용법 안내는 아래의 종합 문서를 참고하세요:
 
-**👉 [SparkyFitness 문서 사이트](https://codewithcj.github.io/SparkyFitness)**
+**👉 [SparkyFitness 공식 문서 사이트](https://codewithcj.github.io/SparkyFitness)**
 
 ### 빠른 링크
 
 - **[🚀 시작하기](https://codewithcj.github.io/SparkyFitness/developer/getting-started)** - 개발 및 운영 환경 전체 설정 가이드
-- **[🐳 Docker 가이드](https://codewithcj.github.io/SparkyFitness/developer/docker)** - Docker 배포 및 설정
-- **[🔧 개발 워크플로우](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 개발자 가이드 및 기여 프로세스  
+- **[🐳 도커 가이드](https://codewithcj.github.io/SparkyFitness/developer/docker)** - 도커 배포 및 구성 안내
+- **[🔧 개발 워크플로우](https://codewithcj.github.io/SparkyFitness/developer/workflow)** - 개발자 가이드 및 기여 절차  
 - **[📊 기능 개요](https://codewithcj.github.io/SparkyFitness/features/)** - 전체 기능 문서
 - **[🏗️ 아키텍처](https://codewithcj.github.io/SparkyFitness/app-overview)** - 기술 아키텍처 및 설계
-- Wiki를 참고하여 샘플 환경 설정 및 모바일 앱 구성을 확인하세요.
+- 샘플 환경 설정 및 모바일 앱 구성은 WIki를 참고하세요.
 
-## 🐳 Docker 배포
 
-**프로덕션(권장):**
-```bash
-cp docker/.env.example .env  # Edit as needed
-./docker/docker-helper.sh prod up
-# Access at http://localhost:3004
-```
-**개발:**
+## 별점 기록
 
-```bash
-cp docker/.env.example .env  # Edit as needed  
-./docker/docker-helper.sh dev up
-# Access at http://localhost:8080 (live reloading)
-```
-자세한 설치 지침, 환경 구성, 문제 해결 방법은 [전체 문서](https://codewithcj.github.io/SparkyFitness/developer/getting-started)를 참조하세요.
+<a href="https://star-history.com/#CodeWithCJ/SparkyFitness&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" />
+    <img alt="별점 히스토리 차트" src="https://api.star-history.com/svg?repos=CodeWithCJ/SparkyFitness&type=Date" width="100%" />
+  </picture>
+</a>
 
-### ⚠️ 알려진 문제 / 베타 기능 ⚠️
+## 번역
 
-다음 기능들은 현재 베타 단계에 있으며, 충분한 테스트가 이루어지지 않았을 수 있습니다. 잠재적인 버그나 미완성 기능이 있을 수 있습니다:
+<a href="https://hosted.weblate.org/engage/sparkyfitness/">
+<img src="https://hosted.weblate.org/widget/sparkyfitness/sparkyfitness-translations/multi-auto.svg" alt="번역 상태" />
+</a>
+
+## 저장소 활동
+
+![Alt](https://repobeats.axiom.co/api/embed/828203d3070ff56c8873c727b6873b684c4ed399.svg "Repobeats 분석 이미지")
+
+
+## 기여자
+
+<a href="https://github.com/CodeWithCJ/SparkyFitness/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CodeWithCJ/SparkyFitness" width="100%"/>
+</a>
+
+### ⚠️ 알려진 이슈 / 베타 기능 ⚠️
+
+아래 기능들은 현재 베타 상태이며 충분히 테스트되지 않았을 수 있습니다. 잠재적인 버그나 미완성 기능이 있을 수 있습니다:
 
 *   AI 챗봇
 *   다중 사용자 지원
 *   가족 및 친구 접근
 *   Apple Health 데이터 연동
 
-이 애플리케이션은 활발히 개발 중입니다. Supabase에서 PostgreSQL로의 마이그레이션으로 인해 예상과 다르게 작동할 수 있습니다. 애플리케이션이 안정화될 때까지 호환성에 영향을 주는 변경(BREAKING CHANGES)이 발생할 수 있습니다.
-새 릴리스를 위해 Docker/환경 변수를 변경해야 할 수도 있습니다. 따라서 Watchtower나 유사 앱을 이용한 자동 업그레이드는 권장하지 않습니다. BREAKING CHANGES가 있는지 릴리스 노트를 반드시 확인하세요.
-
+이 애플리케이션은 활발히 개발 중입니다. Supabase에서 PostgreSQL로의 마이그레이션으로 인해 예상대로 동작하지 않을 수 있습니다. 애플리케이션이 안정화될 때까지 파괴적인 변경(BREAKING CHANGES)이 도입될 수 있습니다.
+새 릴리스를 위해 Docker/환경 변수를 변경해야 할 수도 있습니다. 따라서 Watchtower나 유사 앱을 통한 자동 업그레이드는 권장하지 않습니다. 파괴적인 변경(BREAKING CHANGES)에 대해서는 릴리스 노트를 반드시 확인하세요.
 
 
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---

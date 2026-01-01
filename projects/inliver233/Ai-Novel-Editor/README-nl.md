@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Taal</summary>
@@ -6,10 +7,10 @@
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=en">Engels</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-CN">简体中文</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW">繁體中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi">हिन्दी</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th">ไทย</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja">Japans</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko">Koreaans</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi">Hindi</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th">Thais</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr">Frans</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de">Duits</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es">Spaans</a></p>
@@ -22,7 +23,7 @@
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa">Perzisch</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr">Turks</a></p>
         <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi">Vietnamees</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id">Bahasa Indonesia</a></p>
+        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id">Indonesisch</a></p>
       </div>
     </div>
   </details>
@@ -30,7 +31,7 @@
 
 # AI Roman Editor
 
-AI-ondersteunde romaneditor gebaseerd op PyQt6, biedt intelligente aanvulling, projectbeheer, conceptorganisatie en andere professionele schrijfhulpmiddelen.
+AI-ondersteunde romaneditor gebaseerd op PyQt6, biedt professionele schrijftools zoals slimme aanvulling, projectbeheer en conceptorganisatie.
 
 ## Installatie
 
@@ -45,81 +46,75 @@ cd ai-novel-editor
 python -m venv venv
 venv\Scripts\activate     # Windows
 ```
-Gebruik uv
-```bash
-uv venv -p 3.11
-```
-3. Installatie van afhankelijkheden
+
+3. Installeer afhankelijkheden
 ```bash
 pip install -r requirements.txt
 ```
-Gebruik uv
+
+4. Het programma uitvoeren
 ```bash
-uv sync
+python src/main.py
 ```
 
-
-4. Programma uitvoeren
-```bash
-python -m src
-```
-
-## Belangrijkste functionaliteiten
+## Belangrijkste Functies
 
 ### Projectbeheer
-- Hiërarchische documentstructuur (Werk > Hoofdstuk > Scène)
-- Project importeren en exporteren (ondersteunt TEXT, MARKDOWN, DOCX, PDF, HTML formaten)
+- Gelaagde documentstructuur (Werk > Hoofdstuk > Scène)
+- Project importeren/exporteren (ondersteunt TEXT, MARKDOWN, DOCX, PDF, HTML-formaat)
 - Automatische back-up en versiebeheer
 - Meerdere projecten beheren
+
 ### AI-aanvulfunctie
-- Drie aanvulmodi: Automatisch aanvullen, Handmatig aanvullen (aanbevolen: één keer tab indrukken om te activeren, nogmaals tab om aanvulling toe te passen), Aanvullen uitschakelen
+- Drie aanvulmodi: Automatisch aanvullen, Handmatig aanvullen (aanbevolen: druk eenmaal op tab om te activeren, nogmaals tab om toe te passen), Aanvullen uitschakelen
 - Drie contextmodi:
-  - Snelle modus: Lichtgewicht context, snelle respons
+  - Snelle modus: Lichte context, snelle respons
   - Gebalanceerde modus: Gemiddelde context, balans tussen kwaliteit en snelheid
   - Globale modus: Volledige projectcontext, beste resultaat
 - Ondersteuning voor meerdere AI-diensten: OpenAI, Claude, Tongyi Qianwen, Zhipu AI, DeepSeek, Groq, enz.
 
 ### Overzichtsbeheer
-- Visualiseerbare boomstructuur van het overzicht
+- Visuele overzichtsboomstructuur
 - Sorteren en hiërarchie aanpassen via slepen en neerzetten
-- Snelle navigatie door het document
-- Analyse van het overzicht en optimalisatie-adviezen
+- Snel navigeren door documenten
+- Overzichtsanalyse en optimalisatie-advies
 
 ### API-configuratie
 - Uniform AI-configuratiecentrum
-- Vooraf ingestelde configuraties voor meerdere aanbieders
-- Verbindings-testfunctie
-- Configuratieplannen opslaan en importeren/exporteren
-### Instellingen voor slimme aanvulling
-- Instelbare triggervertraging
-- Limiet voor aanvulllengte
-- Configuratie van contextlengte
-- Ondersteuning voor streamingreacties
+- Vooraf ingestelde configuraties van meerdere aanbieders
+- Verbindings testfunctie
+- Configuraties opslaan, importeren en exporteren
+
+### Slimme aanvulinstellingen
+- Instelbare vertraging voor activering
+- Limiet voor aanvullengte
+- Contextlengte instellen
+- Ondersteuning voor streamende reacties
 
 ### Promptbewerking
-- Ingebouwde schrijfsjablonen
+- Ingebouwde diverse schrijfsjablonen
 - Aangepaste promptsjablonen
-- Sjabloonbeheer per categorie
-- Sjabloonconfiguratie voor specifieke modi
+- Sjablooncategoriebeheer
+- Modus-specifieke sjabloonconfiguratie
 
 ### Interfacefuncties
 - Licht en donker thema
 - Driekolomsindeling (projectboom, editor, conceptenpaneel)
 - Inklapbare zijbalk
-- Volledig scherm schrijfmodus
+- Volledig scherm schrijfmogus
 - Focusmodus (zin, alinea, typemachine, zenmodus, immersiemodus)
 
 ### Zoeken en vervangen
-- Volledige projecttekst doorzoeken
+- Tekstzoektocht door het hele project
 - Ondersteuning voor reguliere expressies
-- Functie voor batchvervanging
+- Bulkvervangfunctie
 - Geavanceerde zoekopties
 
 ### Conceptbeheer
-- Automatische detectie van rollen, locaties, objecten
-- Relatiebeheer van concepten
-- Tag- en classificatiesysteem
-- Snelle invoeging van concepten
+- Automatische detectie van personages, locaties, objecten
+- Beheer van conceptrelaties
+- Label- en categorisatiesysteem
+- Snel invoegen van concepten
 
 ## Sneltoetsen
 
@@ -127,11 +122,13 @@ python -m src
 - `Ctrl+O`: Project openen
 - `Ctrl+S`: Document opslaan
 - `F11`: Volledig scherm modus
-- `Tab`: Handmatig AI-aanvullen activeren (in handmatige modus)
+- `Tab`: Handmatig AI-aanvullen (in handmatige modus)
 - `Ctrl+F`: Zoeken
 - `Ctrl+H`: Zoeken en vervangen
 - `Ctrl+Shift+H`: Geavanceerd zoeken en vervangen
-## Systeemvereisten
+
+
+## Systeemeisen
 
 - Python 3.8+
 - PyQt6
@@ -145,6 +142,6 @@ python -m src
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-13
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-01
 
 ---
