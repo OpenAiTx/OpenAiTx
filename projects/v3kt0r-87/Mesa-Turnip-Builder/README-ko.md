@@ -1,16 +1,48 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=v3kt0r-87&project=Mesa-Turnip-Builder&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Freedreno Turnip Builder 
 
-## Stable / RC Mesa  + Android NDK <br> 안정성을 위해 이 빌드를 사용하세요 ✅ 
+## 안정/RC Mesa + Android NDK <br> 안정성을 위해 이 빌드를 사용하세요 ✅ 
 
-간단한 Bash 스크립트로, **MAGISK/KERNELSU 또는 에뮬레이터용** turnip 드라이버를 빌드하는 것을 목표로 합니다.
+간단한 Bash 스크립트로 **MAGISK/KERNELSU 또는 에뮬레이터**용 Turnip 드라이버 빌드를 목표로 합니다.
 
-# 새로운 점 : 🔥
+# 새로운 기능 : 🔥
 
 **[여기를 클릭하세요](//github.com/v3kt0r-87/Mesa-Turnip-Builder/blob/main/UPDATES.md)**
  
 ## 로컬에서 빌드하는 방법 🤔
 
-이 저장소를 클론하고 **BASH**를 사용하여 빌드하면 됩니다. 
+이 저장소를 클론한 다음 **BASH**를 사용하여 빌드하세요 
 
 ``` 
 bash build-turnip.sh
@@ -64,6 +96,6 @@ Android 버전이 ``14`` 이상인지 확인하세요. 그렇지 않으면 설�
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-27
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-02
 
 ---

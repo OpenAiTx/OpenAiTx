@@ -1,47 +1,44 @@
-# چینی سنتی
-🎁منبع فوق‌العاده! ارزش اصلی ۵۹۸۸۰ یوان، مجموعه کامل اطلاعات دوره‌های نایاب طب سنتی چینی【نسخه کلکسیونی ۱.۱۸ ترابایت】، شامل مبانی، ویدیوها، درمان‌های خارجی، طب سوزنی، کتاب‌ها و غیره، هر آنچه نیاز دارید
+# چینی-سنتی
+🎁 منابع ارزشمند! دوره کمیاب و کامل طب سنتی چینی با قیمت اصلی ۵۹۸۸۰ یوان [نسخه کلکسیونی ۱.۱۸ ترابایت]، شامل مباحث پایه، ویدیوها، درمان‌های خارجی، طب سوزنی، کتاب‌ها و هر آنچه نیاز دارید
 
-[انگلیسی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=en) | [چینی ساده](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=zh-CN) | [چینی سنتی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=zh-TW) | [ژاپنی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ja) | [کره‌ای](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ko) | [هندی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=hi) | [تایلندی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=th) | [فرانسوی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=fr) | [آلمانی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=de) | [اسپانیایی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=es) | [ایتالیایی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=it) | [روسی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ru) | [پرتغالی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=pt) | [هلندی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=nl) | [لهستانی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=pl) | [عربی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=fa) | [ترکی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=tr) | [ویتنامی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=vi) | [اندونزیایی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=id)
+[English](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=id)
 
-# [202505](https://raw.githubusercontent.com/mswnlz/chinese-traditional/main/202505.md)
-
-
----------------
-### منابع بیشتر پروژه
-
-[🎁منبع فوق‌العاده! ارزش اصلی ۵۹۸۸۰ یوان، مجموعه کامل اطلاعات دوره‌های نایاب طب سنتی چینی【نسخه کلکسیونی ۱.۱۸ ترابایت】، شامل مبانی، ویدیوها، درمان‌های خارجی، طب سوزنی، کتاب‌ها و غیره، هر آنچه نیاز دارید](https://github.com/mswnlz/chinese-traditional)
-
-[انواع منابع ابزارهای کاربردی، شامل سیستم‌های عامل، انواع افزونه‌ها، ابزارهای کرک‌شده سبز و غیره، به صورت مداوم به‌روزرسانی می‌شود](https://github.com/mswnlz/tools)
-
-
-[منابع مربوط به تجارت الکترونیک فرامرزی، درخواست، پرداخت، تجارت خارجی، تیک‌تاک، آمازون، افتتاح فروشگاه، جذب مشتری جدید و غیره، به صورت مداوم به‌روزرسانی می‌شود](https://github.com/mswnlz/cross-border)
-
-[منابع مرتبط با رسانه‌های اجتماعی، شامل جذب مشتری جدید، روش‌های افزایش ترافیک، جذب مشتری، تبدیل و کسب درآمد و غیره، به صورت مداوم به‌روزرسانی می‌شود](https://github.com/mswnlz/self-media)
-
-[ منابع آموزشی متنوع، از مهدکودک تا ابتدایی و متوسطه، شامل منابع موسسات مختلف مانند ایکسل، وان‌وی، یوان‌فودائو و غیره، به صورت مداوم در حال افزایش است](https://github.com/mswnlz/edu-knowlege)
-
-[دانش مرتبط با هوش مصنوعی، عبارات پیشنهادی، آموزش‌ها، ویدیوهای آموزشی، دوره‌های کسب درآمد و غیره، به صورت مداوم به‌روزرسانی می‌شود](https://github.com/mswnlz/AIknowledge)
-
-[انواع منابع درسی، شامل دوره‌های گِت، منابع رایج اینترنتی، و سایر منابعی که جای دیگر مناسب نیستند، همه اینجا موجود است، به صورت مداوم به‌روزرسانی می‌شود](https://github.com/mswnlz/curriculum)
-
-[منابع رسانه‌ای تصویری، فیلم‌ها، مستندها، موسیقی، کنسرت‌ها و غیره، به صورت مداوم به‌روزرسانی می‌شود](https://github.com/mswnlz/movies)
-
-[منابع کتابی، شامل انواع آموزش‌ها، رمان‌ها و کتاب‌های مختلف](https://github.com/mswnlz/book)
+# [202510](https://raw.githubusercontent.com/mswnlz/chinese-traditional/main/202510.md) [202505](https://raw.githubusercontent.com/mswnlz/chinese-traditional/main/202505.md)
 
 
 ---------------
+### 项目更多资源
 
-# صفحه اصلی منابع
-[انواع منابع، دانش، فیلم، مستند، موسیقی، کتاب و رسانه‌ها، در حال جمع‌آوری و سامان‌دهی مستمر](https://github.com/mswnlz)
+[🎁重磅资源！原价59880元 绝版中医课程资料大全【收藏版1.18TB】，包括基础、视频、外治、针灸、书籍等等等应有尽有](https://github.com/mswnlz/chinese-traditional)
+
+[各种好用工具相关的资源，包括操作系统，各种插件，绿色破解版工具等等，持续更新中](https://github.com/mswnlz/tools)
+
+
+[跨境电商相关的资料，申请，支付、外贸，tiktok，亚马逊，开店铺，拉新等资源，持续更新中](https://github.com/mswnlz/cross-border)
+
+[自媒体相关资源，包括拉新，流量玩法、获客，转化、变现等资料，持续更新中](https://github.com/mswnlz/self-media)
+
+[ 教育各种资料，从幼儿园到小学、中学，涵盖学而思，万维、猿辅导等多个机构，持续增加中](https://github.com/mswnlz/edu-knowlege)
+
+[AI相关知识，提示词，教程，视频教程，变现课程等，持续更新中](https://github.com/mswnlz/AIknowledge)
+
+[各种课程材料，包括得到，网上流行材料，跟其他项目不好放的资料，都在这里面，等等等，持续更新中](https://github.com/mswnlz/curriculum)
+
+[影视媒体资源，电影，记录片，音乐，演唱会等等，持续更新中](https://github.com/mswnlz/movies)
+
+[书籍资料相关的，包括各种教程、小说等各种书籍](https://github.com/mswnlz/book)
+
 
 ---------------
 
+# 资源主页
+[各种资料、知识、影视、记录片、音乐、书籍、媒体聚集地，持续整理中](https://github.com/mswnlz)
 
-
+---------------
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-17
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-02
 
 ---

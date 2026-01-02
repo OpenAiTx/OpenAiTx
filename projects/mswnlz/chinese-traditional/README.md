@@ -3,7 +3,7 @@
 
 [English](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=en) | [简体中文](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=zh-CN) | [繁體中文](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=zh-TW) | [日本語](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ja) | [한국어](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ko) | [हिन्दी](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=hi) | [ไทย](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=th) | [Français](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=fr) | [Deutsch](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=de) | [Español](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=es) | [Italiano](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=it) | [Русский](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ru) | [Português](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=pt) | [Nederlands](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=nl) | [Polski](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=pl) | [العربية](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=ar) | [فارسی](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=fa) | [Türkçe](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=tr) | [Tiếng Việt](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=vi) | [Bahasa Indonesia](https://openaitx.github.io/view.html?user=mswnlz&project=chinese-traditional&lang=id)
 
-# [202505](https://raw.githubusercontent.com/mswnlz/chinese-traditional/main/202505.md)
+# [202510](https://raw.githubusercontent.com/mswnlz/chinese-traditional/main/202510.md) [202505](https://raw.githubusercontent.com/mswnlz/chinese-traditional/main/202505.md)
 
 
 ---------------
@@ -35,6 +35,3 @@
 [各种资料、知识、影视、记录片、音乐、书籍、媒体聚集地，持续整理中](https://github.com/mswnlz)
 
 ---------------
-
-
-
