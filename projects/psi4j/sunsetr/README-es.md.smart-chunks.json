@@ -1,0 +1,376 @@
+[
+  {
+    "Id": 1,
+    "Content": "# sunsetr\n\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/psi4j/sunsetr/main/.github/assets/logo.png\" alt=\"sunsetr logo\" width=\"144\" />\n</p>\n<p align=\"center\">\n    Automatic blue-light filter for Hyprland, Niri, and everything Wayland\n</p>\n\n<p align=\"center\">\n  <a href=\"https://psi4j.github.io/sunsetr/\"><img src=\"https://img.shields.io/badge/Documentation-mdBook-blue\" alt=\"Documentation\"></a>\n  <a href=\"https://github.com/psi4j/sunsetr/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/psi4j/sunsetr\" alt=\"License\"></a>\n  <a href=\"https://github.com/psi4j/sunsetr/releases\"><img src=\"https://img.shields.io/github/v/release/psi4j/sunsetr\" alt=\"Release\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://psi4j.github.io/sunsetr/installation.html\">Installation</a> | <a href=\"https://psi4j.github.io/sunsetr/quick-start.html\">Quick Start</a> | <a href=\"https://psi4j.github.io/sunsetr/configuration/\">Configuration</a> | <a href=\"https://psi4j.github.io/sunsetr/commands/\">Commands</a>\n</p>\n\n![This image was taken using a shader to simulate the effect of sunsetr](https://raw.githubusercontent.com/psi4j/sunsetr/main/.github/assets/sunsetr.png)\n\nSunsetr is an automatic blue-light filter for Wayland compositors. It automates smooth color-temperature transitions from neutral to warmer tones, designed to reduce eye strain and improve sleep. Sunsetr automatically adjusts your displays based on your geolocation or manual time settings. It can also be used to persist the same color-temperature and gamma indefinitely, and can alternate between various user-defined presets. The controller can integrate with and automate changes in your shell or UI applications via IPC.\n\n## Features\n\n- **Multi-Compositor Support**: Works with Hyprland, Niri, Sway, River, Wayfire, and other Wayland compositors\n- **Native Hyprland CTM Backend**: Direct Color Transformation Matrix support for Hyprland\n- **Smarter hyprsunset Management**: Add longer, cleaner, and more precise sunset/sunrise transitions to hyprsunset (Hyprland)\n- **Smooth Transitions**: Configurable fade effects with adaptive algorithm\n- **Preset Management**: Quick switching between configuration profiles (e.g., day, gaming, weekend)\n- **Hot Reloading**: Live updates when config files change - no restart needed\n- **IPC for Automation**: Unix socket-based IPC for scripting and external integrations\n- **Geolocation-based Transitions**: Automatic sunrise/sunset calculation based on your location\n- **Interactive City Selection**: Choose from 10,000+ cities worldwide for precise coordinates\n- **Automatic Timezone Detection**: Falls back to system timezone for location approximation\n- **Universal Wayland Support**: Direct protocol communication on Wayland compositors\n- **Smart Defaults**: Works beautifully out-of-the-box with carefully tuned settings\n- **Flexible Configuration**: Extensive customization options for power users\n\n## TODO",
+    "ContentSha": "PZbvDwx0PRPTj2sVnrY5JvDVu0uRu/g0eBWOpI36N2U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# sunsetr\n\n<p align=\"center\">\n    <img src=\"https://raw.githubusercontent.com/psi4j/sunsetr/main/.github/assets/logo.png\" alt=\"logo de sunsetr\" width=\"144\" />\n</p>\n<p align=\"center\">\n    Filtro automático de luz azul para Hyprland, Niri y todo Wayland\n</p>\n\n<p align=\"center\">\n  <a href=\"https://psi4j.github.io/sunsetr/\"><img src=\"https://img.shields.io/badge/Documentation-mdBook-blue\" alt=\"Documentación\"></a>\n  <a href=\"https://github.com/psi4j/sunsetr/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/psi4j/sunsetr\" alt=\"Licencia\"></a>\n  <a href=\"https://github.com/psi4j/sunsetr/releases\"><img src=\"https://img.shields.io/github/v/release/psi4j/sunsetr\" alt=\"Versión\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://psi4j.github.io/sunsetr/installation.html\">Instalación</a> | <a href=\"https://psi4j.github.io/sunsetr/quick-start.html\">Inicio Rápido</a> | <a href=\"https://psi4j.github.io/sunsetr/configuration/\">Configuración</a> | <a href=\"https://psi4j.github.io/sunsetr/commands/\">Comandos</a>\n</p>\n\n![Esta imagen fue tomada usando un shader para simular el efecto de sunsetr](https://raw.githubusercontent.com/psi4j/sunsetr/main/.github/assets/sunsetr.png)\n\nSunsetr es un filtro automático de luz azul para compositores Wayland. Automatiza transiciones suaves de temperatura de color desde tonos neutrales hasta más cálidos, diseñado para reducir la fatiga visual y mejorar el sueño. Sunsetr ajusta automáticamente tus pantallas según tu geolocalización o configuraciones manuales de tiempo. También puede usarse para mantener la misma temperatura de color y gamma indefinidamente, y puede alternar entre varios perfiles definidos por el usuario. El controlador puede integrarse y automatizar cambios en tu shell o aplicaciones UI mediante IPC.\n\n## Características\n\n- **Soporte Multi-Compositor**: Funciona con Hyprland, Niri, Sway, River, Wayfire y otros compositores Wayland\n- **Backend CTM Nativo para Hyprland**: Soporte directo de Matriz de Transformación de Color para Hyprland\n- **Gestión Mejorada de hyprsunset**: Añade transiciones de puesta/amanecer más largas, limpias y precisas a hyprsunset (Hyprland)\n- **Transiciones Suaves**: Efectos de fundido configurables con algoritmo adaptativo\n- **Gestión de Perfiles**: Cambio rápido entre perfiles de configuración (por ejemplo, día, juegos, fin de semana)\n- **Recarga en Caliente**: Actualizaciones en vivo cuando cambian los archivos de configuración - no requiere reinicio\n- **IPC para Automatización**: IPC basado en socket Unix para scripting e integraciones externas\n- **Transiciones Basadas en Geolocalización**: Cálculo automático de amanecer/atardecer según tu ubicación\n- **Selección Interactiva de Ciudades**: Elige entre más de 10,000 ciudades en todo el mundo para coordenadas precisas\n- **Detección Automática de Zona Horaria**: Usa la zona horaria del sistema como aproximación de ubicación\n- **Soporte Universal Wayland**: Comunicación directa de protocolo en compositores Wayland\n- **Valores Predeterminados Inteligentes**: Funciona perfectamente desde el primer uso con configuraciones cuidadosamente ajustadas\n- **Configuración Flexible**: Amplias opciones de personalización para usuarios avanzados\n\n## POR HACER",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "m9cNfw65mds9oK74bmTUY2s0GPwhU0nn6CSxqrFwS6s=",
+        "originContent": "# sunsetr",
+        "translatedContent": "# sunsetr"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "UbQ9TP+Wr5ZLmf4C1U+f4Vi/h0nJ1gZ/wtPhiSOFFYs=",
+        "originContent": "    <img src=\"https://raw.githubusercontent.com/psi4j/sunsetr/main/.github/assets/logo.png\" alt=\"sunsetr logo\" width=\"144\" />",
+        "translatedContent": "    <img src=\"https://raw.githubusercontent.com/psi4j/sunsetr/main/.github/assets/logo.png\" alt=\"logo de sunsetr\" width=\"144\" />"
+      },
+      {
+        "row": 5,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 6,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "RWA0H/4wLlG0btmAc+XwA/VryXDdNJvVDoDubOJedj4=",
+        "originContent": "    Automatic blue-light filter for Hyprland, Niri, and everything Wayland",
+        "translatedContent": "    Filtro automático de luz azul para Hyprland, Niri y todo Wayland"
+      },
+      {
+        "row": 8,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 11,
+        "rowsha": "vgVW2eoALlj/FjQzp0drfnnOUvNnepvWwxQhIGZLYxg=",
+        "originContent": "  <a href=\"https://psi4j.github.io/sunsetr/\"><img src=\"https://img.shields.io/badge/Documentation-mdBook-blue\" alt=\"Documentation\"></a>",
+        "translatedContent": "  <a href=\"https://psi4j.github.io/sunsetr/\"><img src=\"https://img.shields.io/badge/Documentation-mdBook-blue\" alt=\"Documentación\"></a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "IxUI7cWfFyISwpU+GfSBTm6Kp/pru2Fzol7Lq9qgmRk=",
+        "originContent": "  <a href=\"https://github.com/psi4j/sunsetr/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/psi4j/sunsetr\" alt=\"License\"></a>",
+        "translatedContent": "  <a href=\"https://github.com/psi4j/sunsetr/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/psi4j/sunsetr\" alt=\"Licencia\"></a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "t64VqC3tTKD3jqZJyMQsbpy0QJtFXN+32uyf2q1aYyA=",
+        "originContent": "  <a href=\"https://github.com/psi4j/sunsetr/releases\"><img src=\"https://img.shields.io/github/v/release/psi4j/sunsetr\" alt=\"Release\"></a>",
+        "translatedContent": "  <a href=\"https://github.com/psi4j/sunsetr/releases\"><img src=\"https://img.shields.io/github/v/release/psi4j/sunsetr\" alt=\"Versión\"></a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 17,
+        "rowsha": "AhwjHtLH5d//K+fEdsBIpYcakIyCTaBeV9OCo8AGT1E=",
+        "originContent": "  <a href=\"https://psi4j.github.io/sunsetr/installation.html\">Installation</a> | <a href=\"https://psi4j.github.io/sunsetr/quick-start.html\">Quick Start</a> | <a href=\"https://psi4j.github.io/sunsetr/configuration/\">Configuration</a> | <a href=\"https://psi4j.github.io/sunsetr/commands/\">Commands</a>",
+        "translatedContent": "  <a href=\"https://psi4j.github.io/sunsetr/installation.html\">Instalación</a> | <a href=\"https://psi4j.github.io/sunsetr/quick-start.html\">Inicio Rápido</a> | <a href=\"https://psi4j.github.io/sunsetr/configuration/\">Configuración</a> | <a href=\"https://psi4j.github.io/sunsetr/commands/\">Comandos</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "gz9Mm2ziPbRy/9WxapgpvJ/qJtzt6nCOisLCdn7xlgk=",
+        "originContent": "![This image was taken using a shader to simulate the effect of sunsetr](https://raw.githubusercontent.com/psi4j/sunsetr/main/.github/assets/sunsetr.png)",
+        "translatedContent": "![Esta imagen fue tomada usando un shader para simular el efecto de sunsetr](https://raw.githubusercontent.com/psi4j/sunsetr/main/.github/assets/sunsetr.png)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "uKlC4Z121mzWnBcUgOmH7QLxPEaA0zUVZtZH6o6RPWA=",
+        "originContent": "Sunsetr is an automatic blue-light filter for Wayland compositors. It automates smooth color-temperature transitions from neutral to warmer tones, designed to reduce eye strain and improve sleep. Sunsetr automatically adjusts your displays based on your geolocation or manual time settings. It can also be used to persist the same color-temperature and gamma indefinitely, and can alternate between various user-defined presets. The controller can integrate with and automate changes in your shell or UI applications via IPC.",
+        "translatedContent": "Sunsetr es un filtro automático de luz azul para compositores Wayland. Automatiza transiciones suaves de temperatura de color desde tonos neutrales hasta más cálidos, diseñado para reducir la fatiga visual y mejorar el sueño. Sunsetr ajusta automáticamente tus pantallas según tu geolocalización o configuraciones manuales de tiempo. También puede usarse para mantener la misma temperatura de color y gamma indefinidamente, y puede alternar entre varios perfiles definidos por el usuario. El controlador puede integrarse y automatizar cambios en tu shell o aplicaciones UI mediante IPC."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## Características"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "OOYvm6jgaL8v1tWOq9LpA19/vO9zCahJkOL+bxwYEQQ=",
+        "originContent": "- **Multi-Compositor Support**: Works with Hyprland, Niri, Sway, River, Wayfire, and other Wayland compositors",
+        "translatedContent": "- **Soporte Multi-Compositor**: Funciona con Hyprland, Niri, Sway, River, Wayfire y otros compositores Wayland"
+      },
+      {
+        "row": 27,
+        "rowsha": "GkEalwaF5BUPzOCFzPK4UCsL/pcabJy/zNFNhzoXgIA=",
+        "originContent": "- **Native Hyprland CTM Backend**: Direct Color Transformation Matrix support for Hyprland",
+        "translatedContent": "- **Backend CTM Nativo para Hyprland**: Soporte directo de Matriz de Transformación de Color para Hyprland"
+      },
+      {
+        "row": 28,
+        "rowsha": "sO+7aC4zclkKGJacH+6g81ejtRsI6Y9AZi1PXnufBZk=",
+        "originContent": "- **Smarter hyprsunset Management**: Add longer, cleaner, and more precise sunset/sunrise transitions to hyprsunset (Hyprland)",
+        "translatedContent": "- **Gestión Mejorada de hyprsunset**: Añade transiciones de puesta/amanecer más largas, limpias y precisas a hyprsunset (Hyprland)"
+      },
+      {
+        "row": 29,
+        "rowsha": "48jnyrhIFTwtznBmEXMN9xt9uqc6krQEontRaTGC2HQ=",
+        "originContent": "- **Smooth Transitions**: Configurable fade effects with adaptive algorithm",
+        "translatedContent": "- **Transiciones Suaves**: Efectos de fundido configurables con algoritmo adaptativo"
+      },
+      {
+        "row": 30,
+        "rowsha": "SYBV7i1/PuhVxyTwIiOQs1/nEuB8vYR7ww9c5ixrwFk=",
+        "originContent": "- **Preset Management**: Quick switching between configuration profiles (e.g., day, gaming, weekend)",
+        "translatedContent": "- **Gestión de Perfiles**: Cambio rápido entre perfiles de configuración (por ejemplo, día, juegos, fin de semana)"
+      },
+      {
+        "row": 31,
+        "rowsha": "cpRpqcXmy17xG+c8n/spTrDwOxvqMJRwKHwV70k5MZk=",
+        "originContent": "- **Hot Reloading**: Live updates when config files change - no restart needed",
+        "translatedContent": "- **Recarga en Caliente**: Actualizaciones en vivo cuando cambian los archivos de configuración - no requiere reinicio"
+      },
+      {
+        "row": 32,
+        "rowsha": "Ba0vWPOJ/vy8LcNkmiGoZDmVWnDCAUtKiZTbi3DcF+M=",
+        "originContent": "- **IPC for Automation**: Unix socket-based IPC for scripting and external integrations",
+        "translatedContent": "- **IPC para Automatización**: IPC basado en socket Unix para scripting e integraciones externas"
+      },
+      {
+        "row": 33,
+        "rowsha": "NxYmu5ewyCm776CNDOUbbk2cdEQCTptJlOs8DA0umoM=",
+        "originContent": "- **Geolocation-based Transitions**: Automatic sunrise/sunset calculation based on your location",
+        "translatedContent": "- **Transiciones Basadas en Geolocalización**: Cálculo automático de amanecer/atardecer según tu ubicación"
+      },
+      {
+        "row": 34,
+        "rowsha": "m6OH1QMrmdSnowRP+LoHDuCSK9uREhxT0ggJMD3ydOg=",
+        "originContent": "- **Interactive City Selection**: Choose from 10,000+ cities worldwide for precise coordinates",
+        "translatedContent": "- **Selección Interactiva de Ciudades**: Elige entre más de 10,000 ciudades en todo el mundo para coordenadas precisas"
+      },
+      {
+        "row": 35,
+        "rowsha": "r2tAk6ndPm05bBPCEcfZqYiacYbJlHAeGlDitTZGaVA=",
+        "originContent": "- **Automatic Timezone Detection**: Falls back to system timezone for location approximation",
+        "translatedContent": "- **Detección Automática de Zona Horaria**: Usa la zona horaria del sistema como aproximación de ubicación"
+      },
+      {
+        "row": 36,
+        "rowsha": "LCNpDDvq7u/hq3QjYf77TQ3MxblcWhwHq3baChWBCjg=",
+        "originContent": "- **Universal Wayland Support**: Direct protocol communication on Wayland compositors",
+        "translatedContent": "- **Soporte Universal Wayland**: Comunicación directa de protocolo en compositores Wayland"
+      },
+      {
+        "row": 37,
+        "rowsha": "9DZFLPL0y03d7LY8GcsssX2y5NshGbWwsLt1jtIw76M=",
+        "originContent": "- **Smart Defaults**: Works beautifully out-of-the-box with carefully tuned settings",
+        "translatedContent": "- **Valores Predeterminados Inteligentes**: Funciona perfectamente desde el primer uso con configuraciones cuidadosamente ajustadas"
+      },
+      {
+        "row": 38,
+        "rowsha": "xOuSspTnP3tccQ9g6i/+Ddg5EfSB0ju30HLul++0iQ4=",
+        "originContent": "- **Flexible Configuration**: Extensive customization options for power users",
+        "translatedContent": "- **Configuración Flexible**: Amplias opciones de personalización para usuarios avanzados"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "9BLUDKwF41c3H3chgITZX6+GIbUGQvr0NT8MtLsceMw=",
+        "originContent": "## TODO",
+        "translatedContent": "## POR HACER"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n- [x] Set up AUR package\n- [x] Make Nix installation available\n- [x] Implement gradual transitions\n- [x] Multi-compositor Wayland support\n- [x] Geolocation-based transitions\n- [x] Implement Hyprland native CTM backend\n- [x] Implement IPC for scripting and external integrations\n- [ ] Make Fedora Copr installation available\n- [ ] Make Debian/Ubuntu installation available\n\n## 💛 Thanks\n\n- to wlsunset, hyprsunset, and redshift for inspiration\n- to the Hyprwm team for making Hyprland possible\n- to the niri team for making the best Rust-based Wayland compositor\n- to the Wayland community for the robust protocol ecosystem\n",
+    "ContentSha": "Jm6/3ZBa8p/7QcMoiz618ebioIz+7CklX9Os9Q/S41k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- [x] Configurar paquete AUR  \n- [x] Hacer disponible la instalación de Nix  \n- [x] Implementar transiciones graduales  \n- [x] Soporte para múltiples compositores Wayland  \n- [x] Transiciones basadas en geolocalización  \n- [x] Implementar backend CTM nativo de Hyprland  \n- [x] Implementar IPC para scripting e integraciones externas  \n- [ ] Hacer disponible la instalación en Fedora Copr  \n- [ ] Hacer disponible la instalación en Debian/Ubuntu  \n\n## 💛 Agradecimientos  \n\n- a wlsunset, hyprsunset y redshift por la inspiración  \n- al equipo de Hyprwm por hacer posible Hyprland  \n- al equipo de niri por crear el mejor compositor Wayland basado en Rust  \n- a la comunidad de Wayland por el ecosistema robusto del protocolo  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [x] Configurar paquete AUR  "
+      },
+      {
+        "row": 2,
+        "rowsha": "NcraBh3rKGfNKPsksXNENueiRh1cDdyXv2tPGatzTmQ=",
+        "originContent": "- [x] Set up AUR package",
+        "translatedContent": "- [x] Hacer disponible la instalación de Nix  "
+      },
+      {
+        "row": 3,
+        "rowsha": "zydtTUCLji7R5mIU3qQq3IbT+oFNt7IH3qYg04o5XAY=",
+        "originContent": "- [x] Make Nix installation available",
+        "translatedContent": "- [x] Implementar transiciones graduales  "
+      },
+      {
+        "row": 4,
+        "rowsha": "7RAjacQNOavESHJngwsqndka5A4iudRoPO1arcSdYJQ=",
+        "originContent": "- [x] Implement gradual transitions",
+        "translatedContent": "- [x] Soporte para múltiples compositores Wayland  "
+      },
+      {
+        "row": 5,
+        "rowsha": "xt4O0krmifvRokJGv5WUy1kqbueuuzmyyeUfK1+ujao=",
+        "originContent": "- [x] Multi-compositor Wayland support",
+        "translatedContent": "- [x] Transiciones basadas en geolocalización  "
+      },
+      {
+        "row": 6,
+        "rowsha": "4vDlyjfKvvrjvlcdBK7lhVRz6WdIJjjj7t5vprQ1Gnc=",
+        "originContent": "- [x] Geolocation-based transitions",
+        "translatedContent": "- [x] Implementar backend CTM nativo de Hyprland  "
+      },
+      {
+        "row": 7,
+        "rowsha": "SyeiEwEbv8tbGL0aWJdTWHBFN8W40ADz16l/i0DWnpU=",
+        "originContent": "- [x] Implement Hyprland native CTM backend",
+        "translatedContent": "- [x] Implementar IPC para scripting e integraciones externas  "
+      },
+      {
+        "row": 8,
+        "rowsha": "L8IVFymqei9PWxL8tMfG7V3QjuCBCuTZjmlv+1gs8UA=",
+        "originContent": "- [x] Implement IPC for scripting and external integrations",
+        "translatedContent": "- [ ] Hacer disponible la instalación en Fedora Copr  "
+      },
+      {
+        "row": 9,
+        "rowsha": "MtMU5LnC9+H2E9vCzO6qNvI6vSYh9lsD42ufBACRwQM=",
+        "originContent": "- [ ] Make Fedora Copr installation available",
+        "translatedContent": "- [ ] Hacer disponible la instalación en Debian/Ubuntu  "
+      },
+      {
+        "row": 10,
+        "rowsha": "mt/UchdeGl+clp6S6UOGKPvQXzcpGSspVHsiOoelkQk=",
+        "originContent": "- [ ] Make Debian/Ubuntu installation available",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 💛 Agradecimientos  "
+      },
+      {
+        "row": 12,
+        "rowsha": "ei3cSE+z81qcTDzM9x6BeuqfsMr18oNBY4JaH7xsl0Y=",
+        "originContent": "## 💛 Thanks",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- a wlsunset, hyprsunset y redshift por la inspiración  "
+      },
+      {
+        "row": 14,
+        "rowsha": "oqw8zdHkzXRd2faCbkOh2ITBZWIrdrF8sThz7p66OrQ=",
+        "originContent": "- to wlsunset, hyprsunset, and redshift for inspiration",
+        "translatedContent": "- al equipo de Hyprwm por hacer posible Hyprland  "
+      },
+      {
+        "row": 15,
+        "rowsha": "jsQajLT1GI1vESLrluTiBIiMrVro7gYmMU1FY6mov3A=",
+        "originContent": "- to the Hyprwm team for making Hyprland possible",
+        "translatedContent": "- al equipo de niri por crear el mejor compositor Wayland basado en Rust  "
+      },
+      {
+        "row": 16,
+        "rowsha": "8CCj17emB7TXZzVEEl6fpB3JSTzSUy6y3bElRF7nRVY=",
+        "originContent": "- to the niri team for making the best Rust-based Wayland compositor",
+        "translatedContent": "- a la comunidad de Wayland por el ecosistema robusto del protocolo  "
+      },
+      {
+        "row": 17,
+        "rowsha": "+B45VsC9dUxr+ArHQhkikBxInYfvQejDpBKKJ9iY0UA=",
+        "originContent": "- to the Wayland community for the robust protocol ecosystem",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

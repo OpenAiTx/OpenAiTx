@@ -1,0 +1,570 @@
+[
+  {
+    "Id": 1,
+    "Content": "<img src=\"https://raw.githubusercontent.com/jerthz/scion/main/banner.png\" alt=\"Scion\" />\n\nScion is a 2D game library made in rust.\n\n> Please note that this project is in its first milestones and is subject to change according to convenience needs and big features coming.\n> \n> You can use Scion as you want, although I just made this open source to serve the community not to be a competitor to the current Rust game engine ecosystem.\n\n## Why this project? \nWell, firstly because it's a good way to learn the different aspects of game dev under the hood. \nThen, because I wanted to create something with modest goals, focused on ease of use and a short list of principles that also serves as a guideline.\n\nScion is not 'inspired' by any other engine, it's inspired by the needs from real game projects. This means I don't implement feature juste because I've seen it elsewhere, but because I need it for the next project that uses Scion.\n\n### Goals\n- Strong focus on **2D** only.\n- **Easy** and **Fun** to use. \n- Clean and readable source code (at least we'll try to rewrite when necessary)\n- Editor-less, it's a lib and should always be\n\n### Non goals\n- Ultra/over optimized code and performances. For this, please try other engines or build your own!\n- 3D\n\n## Documentations, Tutorials?\nYes, they are planned and being worked on. If you want to see scion in action, check the examples for now.\n\n## Why ECS?\nToday, ECS is like a 'magic' word for games, game libs and game engine. But ECS is not and must not be considered as a universal answer to multiple questions.\nI believe that ECS has its strength and its weaknesses. \nThe choice of it here is made because the main target games of this lib at its start were to be able to make: \n- a complex city building game.\n- a pkmn fan game with real time trainer progression and wild pkmn.\n- granular network packets representation && dot simulation games.\n\n## Notable dependencies\nThese are the dependencies this project is relying on. Thanks to these awesome communities, we are able to build this kind of tiny projects. \n\n- <a href=\"https://github.com/rust-windowing/winit\" target=\"blank\">winit</a> and <a href=\"https://github.com/gfx-rs/wgpu/tree/master/wgpu\" target=\"blank\">wgpu</a> (windowing and multi backend rendering)\n- <a href=\"https://github.com/Ralith/hecs\" target=\"blank\">hecs</a> (Entity component system)",
+    "ContentSha": "aDN7aZ9uRI2fnEAdAJup9Mbvg4lTa6K0bQW5p+A0FlI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<img src=\"https://raw.githubusercontent.com/jerthz/scion/main/banner.png\" alt=\"Scion\" />\n\nScion est une bibliothèque de jeux 2D réalisée en Rust.\n\n> Veuillez noter que ce projet en est à ses premières étapes et est susceptible de changer en fonction des besoins de commodité et des grandes fonctionnalités à venir.\n> \n> Vous pouvez utiliser Scion comme bon vous semble, bien que je l’aie rendu open source pour servir la communauté et non pour être un concurrent de l’écosystème actuel des moteurs de jeu Rust.\n\n## Pourquoi ce projet ? \nEh bien, d’abord parce que c’est un bon moyen d’apprendre les différents aspects du développement de jeux en coulisses. \nEnsuite, parce que je voulais créer quelque chose avec des objectifs modestes, axé sur la facilité d’utilisation et une courte liste de principes servant aussi de guide.\n\nScion n’est pas « inspiré » par un autre moteur, il est inspiré par les besoins des vrais projets de jeu. Cela signifie que je n’implémente pas une fonctionnalité juste parce que je l’ai vue ailleurs, mais parce que j’en ai besoin pour le prochain projet utilisant Scion.\n\n### Objectifs\n- Focalisation forte uniquement sur le **2D**.\n- **Facile** et **Amusant** à utiliser. \n- Code source propre et lisible (au moins nous essaierons de réécrire si nécessaire)\n- Sans éditeur, c’est une bibliothèque et doit toujours le rester\n\n### Non objectifs\n- Code et performances ultra/sur-optimisés. Pour cela, essayez d’autres moteurs ou créez le vôtre !\n- 3D\n\n## Documentations, tutoriels ?\nOui, ils sont prévus et en cours de réalisation. Si vous voulez voir Scion en action, consultez pour l’instant les exemples.\n\n## Pourquoi ECS ?\nAujourd’hui, ECS est comme un mot « magique » pour les jeux, bibliothèques de jeux et moteurs de jeu. Mais ECS n’est pas et ne doit pas être considéré comme une réponse universelle à plusieurs questions.\nJe crois que l’ECS a ses forces et ses faiblesses. \nLe choix ici est fait parce que les jeux cibles principaux de cette lib au départ étaient de pouvoir réaliser : \n- un jeu de construction de ville complexe.\n- un jeu fan de pkmn avec progression du dresseur en temps réel et pkmn sauvages.\n- représentation granulaire des paquets réseau && jeux de simulation de points.\n\n## Dépendances notables\nVoici les dépendances sur lesquelles ce projet s’appuie. Grâce à ces communautés formidables, nous pouvons construire ce genre de petits projets.\n\n- <a href=\"https://github.com/rust-windowing/winit\" target=\"blank\">winit</a> et <a href=\"https://github.com/gfx-rs/wgpu/tree/master/wgpu\" target=\"blank\">wgpu</a> (fenêtrage et rendu multi-backend)\n- <a href=\"https://github.com/Ralith/hecs\" target=\"blank\">hecs</a> (système entité-composant)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Plqo79TDoQslgt4HwiPq5cxYDqxO4Jd3spLwXhmdoHw=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/jerthz/scion/main/banner.png\" alt=\"Scion\" />",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/jerthz/scion/main/banner.png\" alt=\"Scion\" />"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "4BjMH+oYiLdmeSdOybqyrHY48EcAf3UxPoLXOEBUMt8=",
+        "originContent": "Scion is a 2D game library made in rust.",
+        "translatedContent": "Scion est une bibliothèque de jeux 2D réalisée en Rust."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "CmbdeYmVZ914hPWmQvIWDkZcPRPG8ArOMTWNkzEhgl8=",
+        "originContent": "> Please note that this project is in its first milestones and is subject to change according to convenience needs and big features coming.",
+        "translatedContent": "> Veuillez noter que ce projet en est à ses premières étapes et est susceptible de changer en fonction des besoins de commodité et des grandes fonctionnalités à venir."
+      },
+      {
+        "row": 6,
+        "rowsha": "7E+OPR98r724bpCLatg+QHrDaps++r2OJLVtgCKL5Ck=",
+        "originContent": "> ",
+        "translatedContent": "> "
+      },
+      {
+        "row": 7,
+        "rowsha": "gNyHXUpdoS72KCMZ9W1rLUwged/pr9GsOfQZM3Rh9zM=",
+        "originContent": "> You can use Scion as you want, although I just made this open source to serve the community not to be a competitor to the current Rust game engine ecosystem.",
+        "translatedContent": "> Vous pouvez utiliser Scion comme bon vous semble, bien que je l’aie rendu open source pour servir la communauté et non pour être un concurrent de l’écosystème actuel des moteurs de jeu Rust."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "4zWWdH4ul+MGfBIata3RskXHNEzHZpVhcktUzetrwu4=",
+        "originContent": "## Why this project? ",
+        "translatedContent": "## Pourquoi ce projet ? "
+      },
+      {
+        "row": 10,
+        "rowsha": "nmNL6qDv8wgyvZtVSNWP328GWtiMR3zH3Q1gSHcKdSo=",
+        "originContent": "Well, firstly because it's a good way to learn the different aspects of game dev under the hood. ",
+        "translatedContent": "Eh bien, d’abord parce que c’est un bon moyen d’apprendre les différents aspects du développement de jeux en coulisses. "
+      },
+      {
+        "row": 11,
+        "rowsha": "1tBVivhD4LGUyC6XaB6l9H+stlKyW9I8GVpjWjXjAyE=",
+        "originContent": "Then, because I wanted to create something with modest goals, focused on ease of use and a short list of principles that also serves as a guideline.",
+        "translatedContent": "Ensuite, parce que je voulais créer quelque chose avec des objectifs modestes, axé sur la facilité d’utilisation et une courte liste de principes servant aussi de guide."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "HtjUsxSLYToaOGAfea/hc/vrGzS0f+pFPZFQvhmn1UQ=",
+        "originContent": "Scion is not 'inspired' by any other engine, it's inspired by the needs from real game projects. This means I don't implement feature juste because I've seen it elsewhere, but because I need it for the next project that uses Scion.",
+        "translatedContent": "Scion n’est pas « inspiré » par un autre moteur, il est inspiré par les besoins des vrais projets de jeu. Cela signifie que je n’implémente pas une fonctionnalité juste parce que je l’ai vue ailleurs, mais parce que j’en ai besoin pour le prochain projet utilisant Scion."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "N/YzyEi4dyuDEn41pKSTl8V0P/Ne8BMzpRJ5A4I0V+I=",
+        "originContent": "### Goals",
+        "translatedContent": "### Objectifs"
+      },
+      {
+        "row": 16,
+        "rowsha": "84v4TvPbK1BoxHqxJxLN65JXktZmeS4GoZyL75AHOcI=",
+        "originContent": "- Strong focus on **2D** only.",
+        "translatedContent": "- Focalisation forte uniquement sur le **2D**."
+      },
+      {
+        "row": 17,
+        "rowsha": "zgZ8H+hO5gZpt53FZxodFTHEAnnQp34HviKMskwHYqQ=",
+        "originContent": "- **Easy** and **Fun** to use. ",
+        "translatedContent": "- **Facile** et **Amusant** à utiliser. "
+      },
+      {
+        "row": 18,
+        "rowsha": "v9aVMlMciIBY3sPUh7xucbhROwcayjiDm0EhOuxAq1o=",
+        "originContent": "- Clean and readable source code (at least we'll try to rewrite when necessary)",
+        "translatedContent": "- Code source propre et lisible (au moins nous essaierons de réécrire si nécessaire)"
+      },
+      {
+        "row": 19,
+        "rowsha": "PMQ4q4AgOzwcEF35G5aTcT0LrfydGx48avXZQlApNU4=",
+        "originContent": "- Editor-less, it's a lib and should always be",
+        "translatedContent": "- Sans éditeur, c’est une bibliothèque et doit toujours le rester"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "ARRVn7f8nIH2NQWIknf3M928RQo2/ZWCLJyNxI3bvs8=",
+        "originContent": "### Non goals",
+        "translatedContent": "### Non objectifs"
+      },
+      {
+        "row": 22,
+        "rowsha": "5jMFoz/FfOV/anjwN6w2nMCL/9uvL2IU8IQ518WkBos=",
+        "originContent": "- Ultra/over optimized code and performances. For this, please try other engines or build your own!",
+        "translatedContent": "- Code et performances ultra/sur-optimisés. Pour cela, essayez d’autres moteurs ou créez le vôtre !"
+      },
+      {
+        "row": 23,
+        "rowsha": "9EN2cttAC5aGHjbRnuwSsI06jNfV2PF4vl+52B8b5ek=",
+        "originContent": "- 3D",
+        "translatedContent": "- 3D"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "RGWIqbK/zp3pmicbBGfHGu8B4s9tV+JpP9/XrS7z908=",
+        "originContent": "## Documentations, Tutorials?",
+        "translatedContent": "## Documentations, tutoriels ?"
+      },
+      {
+        "row": 26,
+        "rowsha": "m6V6XlqGWaFi6WnO3743rcyDTGbeuRdpox1RO2BxQOE=",
+        "originContent": "Yes, they are planned and being worked on. If you want to see scion in action, check the examples for now.",
+        "translatedContent": "Oui, ils sont prévus et en cours de réalisation. Si vous voulez voir Scion en action, consultez pour l’instant les exemples."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "axGgUPoQka8a4ayMwMDtHSWxVs10TUb2nJrgn66jQQQ=",
+        "originContent": "## Why ECS?",
+        "translatedContent": "## Pourquoi ECS ?"
+      },
+      {
+        "row": 29,
+        "rowsha": "X+La94tD7H3JtfyFdpi7pMdYNv9+K40UzfMUnZ6DrJQ=",
+        "originContent": "Today, ECS is like a 'magic' word for games, game libs and game engine. But ECS is not and must not be considered as a universal answer to multiple questions.",
+        "translatedContent": "Aujourd’hui, ECS est comme un mot « magique » pour les jeux, bibliothèques de jeux et moteurs de jeu. Mais ECS n’est pas et ne doit pas être considéré comme une réponse universelle à plusieurs questions."
+      },
+      {
+        "row": 30,
+        "rowsha": "286PqdA/zlmbSPXEfxshlE+wZH8in6HDgDXjlKE4hPk=",
+        "originContent": "I believe that ECS has its strength and its weaknesses. ",
+        "translatedContent": "Je crois que l’ECS a ses forces et ses faiblesses. "
+      },
+      {
+        "row": 31,
+        "rowsha": "L+/4LFjFYKUrsCiK4rB4v8KplrgTRQIo2vIwAycYLww=",
+        "originContent": "The choice of it here is made because the main target games of this lib at its start were to be able to make: ",
+        "translatedContent": "Le choix ici est fait parce que les jeux cibles principaux de cette lib au départ étaient de pouvoir réaliser : "
+      },
+      {
+        "row": 32,
+        "rowsha": "iHQuAcxEC/q5sDRC+9FsUV6b90xLynHwOhTudKU7ZjY=",
+        "originContent": "- a complex city building game.",
+        "translatedContent": "- un jeu de construction de ville complexe."
+      },
+      {
+        "row": 33,
+        "rowsha": "MIqGk4ZASkdsc3byrjFL9qoY7Vm511pmZUl4X9ihNeg=",
+        "originContent": "- a pkmn fan game with real time trainer progression and wild pkmn.",
+        "translatedContent": "- un jeu fan de pkmn avec progression du dresseur en temps réel et pkmn sauvages."
+      },
+      {
+        "row": 34,
+        "rowsha": "vRITZi4S6ieGnwujR+Jd8Blj7oTWRPhXwwnwQyHQDR8=",
+        "originContent": "- granular network packets representation && dot simulation games.",
+        "translatedContent": "- représentation granulaire des paquets réseau && jeux de simulation de points."
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "0uoI0SciawsZSyVlqf2+mPJaUi5eoWD/Ttr/U+zn0po=",
+        "originContent": "## Notable dependencies",
+        "translatedContent": "## Dépendances notables"
+      },
+      {
+        "row": 37,
+        "rowsha": "CYtzlBDsQv3pz6G70sdqcAEdlVPxmuK7l+Acf0QEo5s=",
+        "originContent": "These are the dependencies this project is relying on. Thanks to these awesome communities, we are able to build this kind of tiny projects. ",
+        "translatedContent": "Voici les dépendances sur lesquelles ce projet s’appuie. Grâce à ces communautés formidables, nous pouvons construire ce genre de petits projets."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "mg6Ne/lgkxE7ip8D4RtIkKv9By/6EA2JMVSQAUS2jKY=",
+        "originContent": "- <a href=\"https://github.com/rust-windowing/winit\" target=\"blank\">winit</a> and <a href=\"https://github.com/gfx-rs/wgpu/tree/master/wgpu\" target=\"blank\">wgpu</a> (windowing and multi backend rendering)",
+        "translatedContent": "- <a href=\"https://github.com/rust-windowing/winit\" target=\"blank\">winit</a> et <a href=\"https://github.com/gfx-rs/wgpu/tree/master/wgpu\" target=\"blank\">wgpu</a> (fenêtrage et rendu multi-backend)"
+      },
+      {
+        "row": 40,
+        "rowsha": "nsuqkxv/FmnQnKKnAaQH4amJSmi9i2rp9NrIAI3q/Ws=",
+        "originContent": "- <a href=\"https://github.com/Ralith/hecs\" target=\"blank\">hecs</a> (Entity component system)",
+        "translatedContent": "- <a href=\"https://github.com/Ralith/hecs\" target=\"blank\">hecs</a> (système entité-composant)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- <a href=\"https://github.com/termhn/ultraviolet\" target=\"blank\">ultraviolet</a> (Maths)\n\n## Pre-requisites\nTo build Scion, you need to install the required packages for your system: \n### Debian, Ubuntu, PopOS...",
+    "ContentSha": "jOlYy3c9mpPpWOwyZfqRf6v/nDF/mJ4jGPrhCBeFTOA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- <a href=\"https://github.com/termhn/ultraviolet\" target=\"blank\">ultraviolet</a> (Mathématiques)\n\n## Pré-requis\nPour construire Scion, vous devez installer les paquets requis pour votre système : \n### Debian, Ubuntu, PopOS...",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Tskvnl9n8Zjq8ZCqAA+mUYO9Unz+CSfrKFfBjtLxEU4=",
+        "originContent": "- <a href=\"https://github.com/termhn/ultraviolet\" target=\"blank\">ultraviolet</a> (Maths)",
+        "translatedContent": "- <a href=\"https://github.com/termhn/ultraviolet\" target=\"blank\">ultraviolet</a> (Mathématiques)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "YRdi2LVl+Q2NRNOXs/FRXLhWlB7PHXWEgAF+yxSiJBA=",
+        "originContent": "## Pre-requisites",
+        "translatedContent": "## Pré-requis"
+      },
+      {
+        "row": 4,
+        "rowsha": "0mrwe8QBAdaOdhDVhcdahnMqaRPRCcq9DZoK65VKtA8=",
+        "originContent": "To build Scion, you need to install the required packages for your system: ",
+        "translatedContent": "Pour construire Scion, vous devez installer les paquets requis pour votre système : "
+      },
+      {
+        "row": 5,
+        "rowsha": "Q+G4c9bitMbPL8qSo+IsPkr0ttsAQfH8ceh+xGkIxac=",
+        "originContent": "### Debian, Ubuntu, PopOS...",
+        "translatedContent": "### Debian, Ubuntu, PopOS..."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```sh\nsudo apt install gcc cmake build-essential libx11-dev libxi-dev libgl1-mesa-dev libasound2-dev\n```",
+    "ContentSha": "ZT+TsxRrYH0LKkWwcr4cVKBtmRQsBcpEIMEXxy0iIn8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nsudo apt install gcc cmake build-essential libx11-dev libxi-dev libgl1-mesa-dev libasound2-dev\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "lwyUp6iyiZPzu5s3rbbga7SKu1mRjjxCDOuAp0R5FsY=",
+        "originContent": "sudo apt install gcc cmake build-essential libx11-dev libxi-dev libgl1-mesa-dev libasound2-dev",
+        "translatedContent": "sudo apt install gcc cmake build-essential libx11-dev libxi-dev libgl1-mesa-dev libasound2-dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n### Fedora",
+    "ContentSha": "e18zjZAtmX4hv/QNEWtB3dpuysi6nfJwut1UtoeH9OM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Fedora",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Q7sIquKRJY/RgGZ6WMDs3AUm+HpfAPhwvJzrNC3btko=",
+        "originContent": "### Fedora",
+        "translatedContent": "### Fedora"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```sh\nsudo dnf install gcc cmake make automake gcc gcc-c++ kernel-devel libX11-devel libXi-devel mesa-libGL-devel alsa-lib-devel\n```",
+    "ContentSha": "ltUY/G3+M2cfUO7DTA3B7XR3neEBpKH4Mcv2wxK1Ooo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nsudo dnf install gcc cmake make automake gcc gcc-c++ kernel-devel libX11-devel libXi-devel mesa-libGL-devel alsa-lib-devel\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "cowz7eUtoMQ6sV30beNgZrNHVBWxxFO3WHPLF1E+FK0=",
+        "originContent": "sudo dnf install gcc cmake make automake gcc gcc-c++ kernel-devel libX11-devel libXi-devel mesa-libGL-devel alsa-lib-devel",
+        "translatedContent": "sudo dnf install gcc cmake make automake gcc gcc-c++ kernel-devel libX11-devel libXi-devel mesa-libGL-devel alsa-lib-devel"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n### Arch, Manjaro...",
+    "ContentSha": "+qMt0mIHEWqe1eiK7FE7upMFlt1CJ68/5Pfi7W1g6/k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Arch, Manjaro...\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Arch, Manjaro..."
+      },
+      {
+        "row": 2,
+        "rowsha": "7s6qnP5aKwc4bsUZnW5XJRXKB/ZgbDRgCS7oR8qI5SM=",
+        "originContent": "### Arch, Manjaro...",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```sh\nsudo pacman -S gcc cmake make automake linux-headers libx11 libxi mesa alsa-lib\n```",
+    "ContentSha": "d5o/jXvmS40T2moPqI+MMd+VHX+OcjLtspGq0B2kGM4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nsudo pacman -S gcc cmake make automake linux-headers libx11 libxi mesa alsa-lib\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "xqYNC/my/2rAPXxpPyT70Vv53Ii5zJPGLHBWJ21Gdck=",
+        "originContent": "sudo pacman -S gcc cmake make automake linux-headers libx11 libxi mesa alsa-lib",
+        "translatedContent": "sudo pacman -S gcc cmake make automake linux-headers libx11 libxi mesa alsa-lib"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### Run an example\nThen, you can run an example:",
+    "ContentSha": "TobSTVKt27MG0T97VZRwYap1CNkYyjC+63A1Rf0my3U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Exécuter un exemple\nEnsuite, vous pouvez exécuter un exemple :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KwHSxrrDxAVkpQKl9WLhPSD9sqErXmFHdttmIShT0o8=",
+        "originContent": "### Run an example",
+        "translatedContent": "### Exécuter un exemple"
+      },
+      {
+        "row": 3,
+        "rowsha": "IwsvXc9KUrKzUuog8HMpLCCI9+t2PyQ3KANdCbIvKW4=",
+        "originContent": "Then, you can run an example:",
+        "translatedContent": "Ensuite, vous pouvez exécuter un exemple :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```sh\ncargo run --example bomberman --release\n```",
+    "ContentSha": "JnG3Mu9GCVWdMhWNo40o+BvKzb9OQgDQvC2Ky9No1V0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ncargo run --example bomberman --release\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "NDRQJFZoAIPoJC3qLWNoqE05aIsSGDkNTXdWu7BdTuY=",
+        "originContent": "cargo run --example bomberman --release",
+        "translatedContent": "cargo run --example bomberman --release"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n## Showcase\n\n| <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/taquin/taquin_2.gif\" alt=\"Taquin\" style=\"width:300px; border: 2px solid black;\"/>  | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/tetris/tetris.gif\" alt=\"Tetris\" style=\"width:300px\" />             | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/pixel-adventures/pixel-adventures.gif\" alt=\"Pixel-adventures\" style=\"width:300px\" /> |\n|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|\n| <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/bomberman/bomberman.gif\" alt=\"Bomberman\" style=\"width:300px\" />                    | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/jezzball/jezzball.gif\" alt=\"Jezzball\" style=\"width:300px\" />       | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/new-bark-town/new-bark-town.gif\" alt=\"New bark town\" style=\"width:300px\" />          |\n| <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/starlight-1961/starlight.gif\" alt=\"Starlight\" style=\"width:300px\" />               | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/klondike.gif\" alt=\"Starlight\" style=\"width:300px\" /> | |\n\n",
+    "ContentSha": "PkoEALJbr+z0lDwZPwkjJORcpQb6fifUiOR2qlT43TM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Vitrine\n\n| <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/taquin/taquin_2.gif\" alt=\"Taquin\" style=\"width:300px; border: 2px solid black;\"/>  | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/tetris/tetris.gif\" alt=\"Tetris\" style=\"width:300px\" />             | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/pixel-adventures/pixel-adventures.gif\" alt=\"Pixel-aventures\" style=\"width:300px\" /> |\n|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|\n| <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/bomberman/bomberman.gif\" alt=\"Bomberman\" style=\"width:300px\" />                    | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/jezzball/jezzball.gif\" alt=\"Jezzball\" style=\"width:300px\" />       | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/new-bark-town/new-bark-town.gif\" alt=\"New bark town\" style=\"width:300px\" />          |\n| <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/starlight-1961/starlight.gif\" alt=\"Starlight\" style=\"width:300px\" />               | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/klondike.gif\" alt=\"Starlight\" style=\"width:300px\" /> | |\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "QOLTQxOUUAH5YQpG59t9fjp7BoSgqzdg8IJg333FtEY=",
+        "originContent": "## Showcase",
+        "translatedContent": "## Vitrine"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "2fU43yWa8+D55wlK8bkHnDweWpauYvylp74SebRU+TM=",
+        "originContent": "| <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/taquin/taquin_2.gif\" alt=\"Taquin\" style=\"width:300px; border: 2px solid black;\"/>  | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/tetris/tetris.gif\" alt=\"Tetris\" style=\"width:300px\" />             | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/pixel-adventures/pixel-adventures.gif\" alt=\"Pixel-adventures\" style=\"width:300px\" /> |",
+        "translatedContent": "| <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/taquin/taquin_2.gif\" alt=\"Taquin\" style=\"width:300px; border: 2px solid black;\"/>  | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/tetris/tetris.gif\" alt=\"Tetris\" style=\"width:300px\" />             | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/pixel-adventures/pixel-adventures.gif\" alt=\"Pixel-aventures\" style=\"width:300px\" /> |"
+      },
+      {
+        "row": 5,
+        "rowsha": "qfb2H+O43oDRAGlGDSPqOmOVAGPGywxd16dN7W2IrII=",
+        "originContent": "|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|",
+        "translatedContent": "|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|"
+      },
+      {
+        "row": 6,
+        "rowsha": "D/gNJBSM3CQt9+p+VYRVUWSrpQOz1psPkpRDSkEVr3Q=",
+        "originContent": "| <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/bomberman/bomberman.gif\" alt=\"Bomberman\" style=\"width:300px\" />                    | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/jezzball/jezzball.gif\" alt=\"Jezzball\" style=\"width:300px\" />       | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/new-bark-town/new-bark-town.gif\" alt=\"New bark town\" style=\"width:300px\" />          |",
+        "translatedContent": "| <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/bomberman/bomberman.gif\" alt=\"Bomberman\" style=\"width:300px\" />                    | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/jezzball/jezzball.gif\" alt=\"Jezzball\" style=\"width:300px\" />       | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/new-bark-town/new-bark-town.gif\" alt=\"New bark town\" style=\"width:300px\" />          |"
+      },
+      {
+        "row": 7,
+        "rowsha": "TlCjaPfQ9SgW0U0fxk4GesqXw4a7VKkjQR6BbveYsoE=",
+        "originContent": "| <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/starlight-1961/starlight.gif\" alt=\"Starlight\" style=\"width:300px\" />               | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/klondike.gif\" alt=\"Starlight\" style=\"width:300px\" /> | |",
+        "translatedContent": "| <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/starlight-1961/starlight.gif\" alt=\"Starlight\" style=\"width:300px\" />               | <img src=\"https://raw.githubusercontent.com/jerthz/scion/main/./examples/klondike.gif\" alt=\"Starlight\" style=\"width:300px\" /> | |"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

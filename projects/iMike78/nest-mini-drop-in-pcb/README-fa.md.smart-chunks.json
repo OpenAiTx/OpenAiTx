@@ -1,609 +1,862 @@
 [
   {
     "Id": 1,
-    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# MiciMike drop-in PCB replacement for Google Nest Mini\n\n[MiciMike Nest Mini](https://github.com/iMike78/nest-mini-drop-in-pcb) is a drop-in PCB replacement for the [\"Google Nest Mini\" (Google's second-generation smart speaker with a barrel connector charging port)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), but based on ESP32 and XMOS microcontrollers for running open-source firmware.\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_1.png\" width=\"1000\">\n\nTip! If you are instead looking for a similar drop-in PCB replacement for the \"Google Home Mini\" (Google's first-generation smart speaker hardware with a Micro-USB charging port) then check out the sister-project at https://github.com/iMike78/home-mini-v1-drop-in-pcb\n",
-    "ContentSha": "ITUMP+ukJbDBHsk/2RvjMdYhwhwbtAI3OVIdAuQTefo=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n\n</div>\n\n# MiciMike drop-in PCB replacement for Google Nest Mini\n\n[MiciMike Nest Mini](https://github.com/iMike78/nest-mini-drop-in-pcb) is a drop-in PCB replacement for the [\"Google Nest Mini\" (Google's second-generation smart speaker with a barrel connector charging port)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), but based on ESP32 and XMOS microcontrollers for running open-source firmware.\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_1.png\" width=\"1000\">\n\nTip! If you are instead looking for a similar drop-in PCB replacement for the \"Google Home Mini\" (Google's first-generation smart speaker hardware with a Micro-USB charging port) then check out the sister-project at https://github.com/iMike78/home-mini-v1-drop-in-pcb",
+    "ContentSha": "J+10sOjxxQvNyA9PDApqVnNg8VpdqlSqa/Iy5+bTArQ=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "<div align=\"right\">\n  <details>\n    <summary >🌐 زبان</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# جایگزین PCB قطره‌ای MiciMike برای Google Nest Mini\n\n[MiciMike Nest Mini](https://github.com/iMike78/nest-mini-drop-in-pcb) یک جایگزین PCB قطره‌ای برای [\"Google Nest Mini\" (نسل دوم اسپیکر هوشمند گوگل با پورت شارژ بشکه‌ای)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)) است، اما مبتنی بر میکروکنترلرهای ESP32 و XMOS جهت اجرای فریم‌ور متن‌باز می‌باشد.\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_1.png\" width=\"1000\">\n\nنکته! اگر به دنبال جایگزین مشابه PCB قطره‌ای برای \"Google Home Mini\" (نسل اول سخت‌افزار اسپیکر هوشمند گوگل با پورت شارژ Micro-USB) هستید، پروژه خواهر را در https://github.com/iMike78/home-mini-v1-drop-in-pcb ببینید.\n\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 زبان</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=en\">انگلیسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=hi\">هندی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=th\">تایلندی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fr\">فرانسوی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=de\">آلمانی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=es\">اسپانیایی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=it\">ایتالیایی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ru\">روسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pt\">پرتغالی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=nl\">هلندی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pl\">لهستانی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ar\">عربی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=tr\">ترکی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=vi\">ویتنامی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=id\">اندونزیایی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n\n</div>\n\n# برد جایگزین MiciMike برای Google Nest Mini\n\n[MiciMike Nest Mini](https://github.com/iMike78/nest-mini-drop-in-pcb) یک برد جایگزین برای [\"Google Nest Mini\" (نسل دوم اسپیکر هوشمند گوگل با پورت شارژ بشکه‌ای)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)) است که بر اساس میکروکنترلرهای ESP32 و XMOS جهت اجرای نرم‌افزار متن‌باز طراحی شده است.\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_1.png\" width=\"1000\">\n\nنکته! اگر به دنبال برد جایگزین مشابه برای \"Google Home Mini\" (نسل اول سخت‌افزار اسپیکر هوشمند گوگل با پورت شارژ Micro-USB) هستید، پروژه خواهر را در https://github.com/iMike78/home-mini-v1-drop-in-pcb مشاهده کنید.",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "<div align=\"right\">"
+        "translatedContent": ""
       },
       {
         "row": 2,
         "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
         "originContent": "<div align=\"right\">",
-        "translatedContent": "  <details>"
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 3,
         "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
         "originContent": "  <details>",
-        "translatedContent": "    <summary >🌐 زبان</summary>"
+        "translatedContent": "  <details>"
       },
       {
         "row": 4,
         "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
         "originContent": "    <summary >🌐 Language</summary>",
-        "translatedContent": "    <div>"
+        "translatedContent": "    <summary >🌐 زبان</summary>"
       },
       {
         "row": 5,
         "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
         "originContent": "    <div>",
-        "translatedContent": "      <div align=\"center\">"
+        "translatedContent": "    <div>"
       },
       {
         "row": 6,
         "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
         "originContent": "      <div align=\"center\">",
-        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=en\">English</a>"
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 7,
         "rowsha": "MO359VtfOiOpiG/7/6LxRMz8Jx0RsSPT2A7FPZyT7q4=",
         "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=en\">English</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-CN\">简体中文</a>"
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=en\">انگلیسی</a>"
       },
       {
         "row": 8,
         "rowsha": "70yWoCIf2g+dutDD874HDCZd3Feb1kXooghJ/bXvSW0=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-CN\">简体中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-TW\">繁體中文</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 9,
         "rowsha": "CLImUNIw9Y938iEwIyspEJsA8nsSZmkJgN1IN1UPbJs=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-TW\">繁體中文</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ja\">日本語</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 10,
         "rowsha": "DfdBTCVETXhrvvOQyJ1vrBxq8MWmEog46v0qXj7GVs4=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ja\">日本語</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ko\">한국어</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ja\">日本語</a>"
       },
       {
         "row": 11,
         "rowsha": "Xs7PtTPqnegykqJY9lJyR+mtJD2KvmFcBRNCwtVFB8M=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ko\">한국어</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=hi\">हिन्दी</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ko\">한국어</a>"
       },
       {
         "row": 12,
         "rowsha": "zcahRVthwD6Ik8+KEBCXvuHqfh6jakFzisj/kwV4P6g=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=hi\">हिन्दी</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=th\">ไทย</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=hi\">هندی</a>"
       },
       {
         "row": 13,
         "rowsha": "GblzV/RVmx2cFxG9eQQde2nAqQimj6ZRgu5OsiwGL9s=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=th\">ไทย</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fr\">Français</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=th\">تایلندی</a>"
       },
       {
         "row": 14,
         "rowsha": "vIiZLgv9y0FlqqrNmPaLycs11ci+hnT+WD8B8ocljoM=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fr\">Français</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=de\">Deutsch</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fr\">فرانسوی</a>"
       },
       {
         "row": 15,
         "rowsha": "ab7jHdG2O127+Kdx88IEndiStrA68Vs5cMkvsVmo0RA=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=de\">Deutsch</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=es\">Español</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=de\">آلمانی</a>"
       },
       {
         "row": 16,
         "rowsha": "guR76Po56vEqcv0UnCJNGS/86girKOezcPvmwly9TSY=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=es\">Español</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=it\">Italiano</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=es\">اسپانیایی</a>"
       },
       {
         "row": 17,
         "rowsha": "ABBaPDAn54DtGVgBWhwOm3K/i7Uv+MTUzZUueGkAg+M=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=it\">Italiano</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ru\">Русский</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=it\">ایتالیایی</a>"
       },
       {
         "row": 18,
         "rowsha": "z6nsw5arxzcw1PVo1J4TxoZjAOFYUIk8Uu2mFgMopQQ=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ru\">Русский</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pt\">Português</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ru\">روسی</a>"
       },
       {
         "row": 19,
         "rowsha": "1o83/IdAqb4i54esXR3gDsmgXtxB3W4NT37isaMCaV0=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pt\">Português</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=nl\">Nederlands</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pt\">پرتغالی</a>"
       },
       {
         "row": 20,
         "rowsha": "pRr8o9UZCnokZq9rxu4tl5Wk0C+Tdb83ediwe6mccCw=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=nl\">Nederlands</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pl\">Polski</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=nl\">هلندی</a>"
       },
       {
         "row": 21,
         "rowsha": "KYzHGE4hsHeQuiFtl0lG9xpmf17EEN6fqO5hbBJ6iQI=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pl\">Polski</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ar\">العربية</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=pl\">لهستانی</a>"
       },
       {
         "row": 22,
         "rowsha": "9kw9ZeZAMs5egWF2KBjFJXdaliQKWSHevx8o9NCWkoA=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ar\">العربية</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fa\">فارسی</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=ar\">عربی</a>"
       },
       {
         "row": 23,
         "rowsha": "+CAy5f27C7C3LiVNOrve9lJskRTWCOFRP6StIa3yFyY=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fa\">فارسی</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=tr\">Türkçe</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=fa\">فارسی</a>"
       },
       {
         "row": 24,
         "rowsha": "AdRsNUXcI2ZycC7gn9I7sOaCwF21AY8rFFw8UjkvpTE=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=tr\">Türkçe</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=vi\">Tiếng Việt</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=tr\">ترکی</a>"
       },
       {
         "row": 25,
         "rowsha": "hgp7vI1TYGspgXAjyRGGIAWNFC+GOlcfxjXsCRr7Buw=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=vi\">Tiếng Việt</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=id\">Bahasa Indonesia</a>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=vi\">ویتنامی</a>"
       },
       {
         "row": 26,
         "rowsha": "xWbrwAXKNdO5FpKGxB7xxb0qnEhuE8f74vC2lgvg/QA=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=id\">Bahasa Indonesia</a>",
-        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=as\">অসমীয়া</"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=id\">اندونزیایی</a>"
       },
       {
         "row": 27,
         "rowsha": "dixPuZc+CBF+JQJDUT8f9FFhSR7bi4aqD0yCe+ItA7Y=",
         "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=as\">অসমীয়া</",
-        "translatedContent": "      </div>"
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=iMike78&project=nest-mini-drop-in-pcb&lang=as\">অসমীয়া</"
       },
       {
         "row": 28,
         "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
         "originContent": "      </div>",
-        "translatedContent": "    </div>"
+        "translatedContent": "      </div>"
       },
       {
         "row": 29,
         "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
         "originContent": "    </div>",
-        "translatedContent": "  </details>"
+        "translatedContent": "    </div>"
       },
       {
         "row": 30,
         "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
         "originContent": "  </details>",
-        "translatedContent": "</div>"
+        "translatedContent": "  </details>"
       },
       {
         "row": 31,
-        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
-        "originContent": "</div>",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 32,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "# جایگزین PCB قطره‌ای MiciMike برای Google Nest Mini"
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
       },
       {
         "row": 33,
-        "rowsha": "NtynluOSPiXjzi+eTcKlgUQVSAQajh1aa00awF2T8aQ=",
-        "originContent": "# MiciMike drop-in PCB replacement for Google Nest Mini",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 34,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "[MiciMike Nest Mini](https://github.com/iMike78/nest-mini-drop-in-pcb) یک جایگزین PCB قطره‌ای برای [\"Google Nest Mini\" (نسل دوم اسپیکر هوشمند گوگل با پورت شارژ بشکه‌ای)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)) است، اما مبتنی بر میکروکنترلرهای ESP32 و XMOS جهت اجرای فریم‌ور متن‌باز می‌باشد."
+        "rowsha": "NtynluOSPiXjzi+eTcKlgUQVSAQajh1aa00awF2T8aQ=",
+        "originContent": "# MiciMike drop-in PCB replacement for Google Nest Mini",
+        "translatedContent": "# برد جایگزین MiciMike برای Google Nest Mini"
       },
       {
         "row": 35,
-        "rowsha": "xd1CIuTDSYsjHfHgG2akOt9wQV2sJ8ltVWy3WpZHshQ=",
-        "originContent": "[MiciMike Nest Mini](https://github.com/iMike78/nest-mini-drop-in-pcb) is a drop-in PCB replacement for the [\"Google Nest Mini\" (Google's second-generation smart speaker with a barrel connector charging port)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), but based on ESP32 and XMOS microcontrollers for running open-source firmware.",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 36,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_1.png\" width=\"1000\">"
+        "rowsha": "xd1CIuTDSYsjHfHgG2akOt9wQV2sJ8ltVWy3WpZHshQ=",
+        "originContent": "[MiciMike Nest Mini](https://github.com/iMike78/nest-mini-drop-in-pcb) is a drop-in PCB replacement for the [\"Google Nest Mini\" (Google's second-generation smart speaker with a barrel connector charging port)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), but based on ESP32 and XMOS microcontrollers for running open-source firmware.",
+        "translatedContent": "[MiciMike Nest Mini](https://github.com/iMike78/nest-mini-drop-in-pcb) یک برد جایگزین برای [\"Google Nest Mini\" (نسل دوم اسپیکر هوشمند گوگل با پورت شارژ بشکه‌ای)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)) است که بر اساس میکروکنترلرهای ESP32 و XMOS جهت اجرای نرم‌افزار متن‌باز طراحی شده است."
       },
       {
         "row": 37,
-        "rowsha": "NQiilz3wqdFX7EH/h/v+2DVqVWeX9k0v6moxtIExsVw=",
-        "originContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_1.png\" width=\"1000\">",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 38,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "نکته! اگر به دنبال جایگزین مشابه PCB قطره‌ای برای \"Google Home Mini\" (نسل اول سخت‌افزار اسپیکر هوشمند گوگل با پورت شارژ Micro-USB) هستید، پروژه خواهر را در https://github.com/iMike78/home-mini-v1-drop-in-pcb ببینید."
+        "rowsha": "NQiilz3wqdFX7EH/h/v+2DVqVWeX9k0v6moxtIExsVw=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_1.png\" width=\"1000\">",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_1.png\" width=\"1000\">"
       },
       {
         "row": 39,
-        "rowsha": "XRVkapOlwX8fM/RkW48Jq0A++lbdp1PlwWbfTUXxIJ4=",
-        "originContent": "Tip! If you are instead looking for a similar drop-in PCB replacement for the \"Google Home Mini\" (Google's first-generation smart speaker hardware with a Micro-USB charging port) then check out the sister-project at https://github.com/iMike78/home-mini-v1-drop-in-pcb",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": ""
       },
       {
         "row": 40,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "XRVkapOlwX8fM/RkW48Jq0A++lbdp1PlwWbfTUXxIJ4=",
+        "originContent": "Tip! If you are instead looking for a similar drop-in PCB replacement for the \"Google Home Mini\" (Google's first-generation smart speaker hardware with a Micro-USB charging port) then check out the sister-project at https://github.com/iMike78/home-mini-v1-drop-in-pcb",
+        "translatedContent": "نکته! اگر به دنبال برد جایگزین مشابه برای \"Google Home Mini\" (نسل اول سخت‌افزار اسپیکر هوشمند گوگل با پورت شارژ Micro-USB) هستید، پروژه خواهر را در https://github.com/iMike78/home-mini-v1-drop-in-pcb مشاهده کنید."
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "Both of these are fully open-source hardware projects, taking some concep inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.\n\n# Project scope\n\nThe goal of this project and repository (which is similar to the [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a drop-in replacement PCB (Printed Circuit Board) with hardware schematics that anyone can make/build or order from a one-stop PCB manufacturer as a custom drop-in replacement PCB for the Google Nest Mini (2nd Gen).\n\nThis is primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png\" width=\"1000\">\n\nThe hardware design will (similar to [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using no-code [ESPHome firmware](https://esphome.io/)) + an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading for better voice recognition capabilities by using using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).\n\nFunctionality-wise it is made to mostly hardware comatible with the [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) reference design (which has been released as open-source hardware design from Open Home Foundation in coolaboration with Nabu Casa). The main difference will be due to constraints defined by the Google Nest Mini enclosure and comonents, (i.e. the nest-mini-drop-in-pcb project hardware design will be limited by the same type of physical capacity inputs as the original hardware from Google).\n\nAs such the scope of this project/repository is not to develop new features/functions for the ESPHome firmware, so if you want that then you instead need to turn to the firmware development of the Home Assistant Voice Preview Edition as well as to the upstream ESPHome mainline code:\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://github.com/esphome/esphome\n      - https://github.com/esphome/feature-requests\n\n## Request for collaboration\n\nIf you have some experience with PCB layout design, (and epecially with PCB routing, ground pouring, or noise-sensitive digital+analog layouts), **your help is highly appreciated**! Please feel free to open a new issue, submit suggestions/requests, and add input/feedback to existing issues, or fork this repository.\n\nFor more information about the concept/idea see and contribute to related discussion also see this Home Assistant community forum thread:\n\n- https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/\n\n### Current status\n\n- ✅ Schematic completed\n- ✅ Component placement done\n- ✅ Routing is done\n- ✅ Ground pour, shielding strategy, and EMI considerations done\n- ⚠️ 1st test batch failed on two errors - fixed\n- 🕓 waiting for the 2nd test batch\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png\" width=\"1000\">\n\n## Tools used",
-    "ContentSha": "LrjTvqbLgLNth9W/yYsP7/8T1r9+I4LX5xkCv/wCcOY=",
+    "Content": "\nBoth of these are fully open-source hardware projects, taking some concep inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.\n\n# Project scope\n\nThe goal of this project and repository (which is similar to the [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a drop-in replacement PCB (Printed Circuit Board) with hardware schematics that anyone can make/build or order from a one-stop PCB manufacturer as a custom drop-in replacement PCB for the Google Nest Mini (2nd Gen).\n\nThis is primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png\" width=\"1000\">\n\nThe hardware design will (similar to [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using no-code [ESPHome firmware](https://esphome.io/)) + an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading for better voice recognition capabilities by using using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).\n\nFunctionality-wise it is made to mostly hardware comatible with the [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) reference design (which has been released as open-source hardware design from Open Home Foundation in coolaboration with Nabu Casa). The main difference will be due to constraints defined by the Google Nest Mini enclosure and comonents, (i.e. the nest-mini-drop-in-pcb project hardware design will be limited by the same type of physical capacity inputs as the original hardware from Google).\n\nAs such the scope of this project/repository is not to develop new features/functions for the ESPHome firmware, so if you want that then you instead need to turn to the firmware development of the Home Assistant Voice Preview Edition as well as to the upstream ESPHome mainline code:\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://github.com/esphome/esphome\n      - https://github.com/esphome/feature-requests\n\n## Request for collaboration\n\nIf you have some experience with PCB layout design, (and epecially with PCB routing, ground pouring, or noise-sensitive digital+analog layouts), **your help is highly appreciated**! Please feel free to open a new issue, submit suggestions/requests, and add input/feedback to existing issues, or fork this repository.\n\nFor more information about the concept/idea see and contribute to related discussion also see this Home Assistant community forum thread:\n\n- https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/\n\n### Current status\n\n- ✅ Schematic completed\n- ✅ Component placement done\n- ✅ Routing is done\n- ✅ Ground pour, shielding strategy, and EMI considerations done\n- ⚠️ 1st test batch failed on two errors - fixed\n- 🕓 waiting for the 2nd test batch\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png\" width=\"1000\">\n",
+    "ContentSha": "08PPUr/W7F8xG0FHbr01EUv+6NnzW0lNqEIC/c5qgqg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "هر دوی این پروژه‌ها کاملاً متن‌باز هستند و با الهام از مفاهیم پروژه [Onju Voice](https://github.com/justLV/onju-voice)، اما با هدف پیروی از [استاندارد دستیارهای صوتی متن‌باز بنیاد Open Home با نسخه پیش‌نمایش Home Assistant Voice به عنوان مرجع](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) برای طراحی و مشخصات PCB ساخته شده‌اند.\n\n# دامنه پروژه\n\nهدف این پروژه و مخزن (که مشابه [Onju Voice](https://github.com/justLV/onju-voice) اما تحت مجوز سخت‌افزار کاملاً متن‌باز است) طراحی یک PCB (برد مدار چاپی) جایگزین با شماتیک سخت‌افزاری است که هر کسی بتواند بسازد یا از یک تولیدکننده PCB سفارش دهد، به عنوان یک برد جایگزین سفارشی برای Google Nest Mini (نسل دوم).\n\nاین پروژه عمدتاً برای کسانی هدف‌گذاری شده است که می‌خواهند اسپیکرهای هوشمند Google Nest Mini قدیمی خود را به سخت‌افزار متن‌باز برای [کنترل صوتی Home Assistant](https://www.home-assistant.io/voice_control/) و/یا پخش خروجی اسپیکر برای [Music Assistant](https://www.music-assistant.io) تبدیل یا استفاده مجدد کنند (البته احتمالاً این سخت‌افزار با برنامه‌های دیگر و فریم‌ویرهای دیگر نیز قابل استفاده است زیرا بر پایه پلتفرم محبوب Espressif ESP32 ساخته شده است).\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png\" width=\"1000\">\n\nطراحی سخت‌افزاری (مشابه با [نسخه پیش‌نمایش Home Assistant Voice](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) یک چیپ ESP32-S3 SoC برای WiFi، BLE و [تشخیص واژه بیدارباش داخلی](https://www.home-assistant.io/voice_control/about_wake_word/) (با استفاده از فریم‌ویر بدون کد [ESPHome](https://esphome.io/)) + یک چیپ XMOS xCORE XU316 برای پردازش صوتی پیشرفته (با فریم‌ویر سفارشی برای پاک‌سازی میکروفون و افزایش قابلیت شناسایی صدا از طریق اجرای محلی الگوریتم‌هایی برای حذف نویز، حذف پژواک صوتی، حذف تداخل و کنترل خودکار حجم صدا) را ادغام خواهد کرد.\n\nاز نظر عملکرد، سخت‌افزار تقریباً با [نسخه پیش‌نمایش Home Assistant Voice (معروف به Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) طراحی مرجع (که به عنوان سخت‌افزار متن‌باز توسط بنیاد Open Home و همکاری Nabu Casa منتشر شده) سازگار خواهد بود. تفاوت اصلی به محدودیت‌های تعریف شده توسط محفظه و قطعات Google Nest Mini مربوط می‌شود، (یعنی طراحی سخت‌افزاری پروژه nest-mini-drop-in-pcb توسط همان نوع ورودی‌های ظرفیت فیزیکی مانند سخت‌افزار اصلی Google محدود خواهد شد).\n\nبنابراین دامنه این پروژه/مخزن توسعه ویژگی‌ها/عملکردهای جدید برای فریم‌ویر ESPHome نیست، پس اگر چنین چیزی می‌خواهید باید به توسعه فریم‌ویر نسخه پیش‌نمایش Home Assistant Voice و همچنین کد اصلی ESPHome مراجعه کنید:\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://github.com/esphome/esphome\n      - https://github.com/esphome/feature-requests\n\n## درخواست همکاری\n\nاگر تجربه‌ای در طراحی برد مدار چاپی دارید (به‌ویژه در مسیریابی برد، ریختن گراند یا طراحی‌های دیجیتال و آنالوگ حساس به نویز)، **کمک شما بسیار ارزشمند است**! لطفاً آزادانه یک issue جدید باز کنید، پیشنهادات/درخواست‌های خود را ارائه دهید و به issueهای موجود ورودی/بازخورد دهید یا این مخزن را fork کنید.\n\nبرای اطلاعات بیشتر درباره مفهوم/ایده و مشارکت در بحث مرتبط به این موضوع به تاپیک انجمن Home Assistant مراجعه کنید:\n\n- https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/\n\n### وضعیت فعلی\n\n- ✅ شماتیک تکمیل شد\n- ✅ چیدمان قطعات انجام شد\n- ✅ مسیریابی انجام شد\n- ✅ ریختن گراند، استراتژی شیلدینگ و ملاحظات EMI انجام شد\n- ⚠️ اولین سری تست با دو خطا شکست خورد - رفع شد\n- 🕓 منتظر سری دوم تست\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png\" width=\"1000\">\n\n## ابزارهای استفاده‌شده",
+    "Translation": "هر دوی این پروژه‌ها کاملاً متن‌باز سخت‌افزاری هستند و با الهام از برخی مفاهیم [Onju Voice](https://github.com/justLV/onju-voice) طراحی شده‌اند، اما هدف آن‌ها پیروی از [استاندارد دستیار صوتی متن‌باز Open Home Foundation با Home Assistant Voice Preview Edition به عنوان مرجع](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) برای طراحی و مشخصات PCB است.\n\n# دامنه پروژه\n\nهدف این پروژه و مخزن (که مشابه [Onju Voice](https://github.com/justLV/onju-voice) است اما تحت مجوز کاملاً متن‌باز سخت‌افزاری قرار دارد) طراحی یک PCB جایگزین (برد مدار چاپی) با شماتیک سخت‌افزاری است که هر کسی بتواند آن را بسازد یا از یک تولیدکننده PCB سفارش دهد، به عنوان یک PCB جایگزین سفارشی برای Google Nest Mini (نسل دوم).\n\nاین پروژه عمدتاً برای افرادی طراحی شده که به دنبال تبدیل/تغییر کاربری اسپیکرهای هوشمند قدیمی Google Nest Mini خود به سخت‌افزار متن‌باز برای [کنترل صوتی Home Assistant](https://www.home-assistant.io/voice_control/) و/یا خروجی اسپیکر مدیاپلیر برای [Music Assistant](https://www.music-assistant.io) هستند، (البته این سخت‌افزار احتمالاً با برنامه‌های دیگر و فریمورهای دیگر نیز قابل استفاده است زیرا مبتنی بر پلتفرم محبوب Espressif ESP32 می‌باشد).\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png\" width=\"1000\">\n\nطراحی سخت‌افزار (مشابه [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) یک SoC مدل ESP32-S3 را برای WiFi، BLE و [شناسایی واژه‌ی بیدارباش داخلی](https://www.home-assistant.io/voice_control/about_wake_word/) (با استفاده از فریمور بدون کدنویسی [ESPHome](https://esphome.io/)) + یک تراشه XMOS xCORE XU316 برای پردازش صوت پیشرفته (با فریمور سفارشی جهت پاک‌سازی ورودی میکروفون برای بهبود قابلیت شناسایی صدا با استفاده از الگوریتم‌های محلی مانند حذف نویز، حذف اکو آکوستیک، حذف تداخل و کنترل خودکار گین) ادغام خواهد کرد.\n\nاز نظر عملکردی، این سخت‌افزار عمدتاً با [Home Assistant Voice Preview Edition (معروف به Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) طراحی مرجع (که به عنوان طرح سخت‌افزاری متن‌باز از طرف Open Home Foundation با همکاری Nabu Casa منتشر شده) سازگار خواهد بود. تفاوت اصلی به خاطر محدودیت‌هایی است که توسط بدنه و قطعات Google Nest Mini تعریف شده، (یعنی طراحی سخت‌افزاری nest-mini-drop-in-pcb محدود به همان نوع ورودی‌های ظرفیتی فیزیکی سخت‌افزار اصلی گوگل خواهد بود).\n\nبنابراین دامنه این پروژه/مخزن توسعه ویژگی‌ها/عملکردهای جدید برای فریمور ESPHome نیست، پس اگر به دنبال آن هستید باید به توسعه فریمور Home Assistant Voice Preview Edition و همچنین کد اصلی ESPHome مراجعه کنید:\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://github.com/esphome/esphome\n      - https://github.com/esphome/feature-requests\n\n## درخواست همکاری\n\nاگر در طراحی چیدمان PCB (و به ویژه مسیرکشی PCB، پوشرسانی زمین یا چیدمان دیجیتال+آنالوگ حساس به نویز) تجربه دارید، **کمک شما بسیار ارزشمند است**! لطفاً آزادانه یک issue جدید باز کنید، پیشنهاد/درخواست ارسال کنید و بازخورد یا نظر خود را به issueهای موجود اضافه کنید یا این مخزن را fork کنید.\n\nبرای اطلاعات بیشتر درباره ایده/مفهوم و مشارکت در بحث مرتبط، این موضوع در انجمن Home Assistant را ببینید:\n\n- https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/\n\n### وضعیت فعلی\n\n- ✅ شماتیک کامل شد\n- ✅ جایگذاری قطعات انجام شد\n- ✅ مسیرکشی انجام شد\n- ✅ پوشرسانی زمین، استراتژی شیلدینگ و ملاحظات EMI انجام شد\n- ⚠️ اولین سری تست به دلیل دو خطا شکست خورد - رفع شد\n- 🕓 منتظر سری دوم تست هستیم\n\n<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png\" width=\"1000\">\n\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "AmDhBdukX9nT3z88d2dwU7n6cGP6CDPHvM2PnfTzSgM=",
-        "originContent": "Both of these are fully open-source hardware projects, taking some concep inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.",
-        "translatedContent": "هر دوی این پروژه‌ها کاملاً متن‌باز هستند و با الهام از مفاهیم پروژه [Onju Voice](https://github.com/justLV/onju-voice)، اما با هدف پیروی از [استاندارد دستیارهای صوتی متن‌باز بنیاد Open Home با نسخه پیش‌نمایش Home Assistant Voice به عنوان مرجع](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) برای طراحی و مشخصات PCB ساخته شده‌اند."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "هر دوی این پروژه‌ها کاملاً متن‌باز سخت‌افزاری هستند و با الهام از برخی مفاهیم [Onju Voice](https://github.com/justLV/onju-voice) طراحی شده‌اند، اما هدف آن‌ها پیروی از [استاندارد دستیار صوتی متن‌باز Open Home Foundation با Home Assistant Voice Preview Edition به عنوان مرجع](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) برای طراحی و مشخصات PCB است."
       },
       {
         "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "AmDhBdukX9nT3z88d2dwU7n6cGP6CDPHvM2PnfTzSgM=",
+        "originContent": "Both of these are fully open-source hardware projects, taking some concep inspiration from the [Onju Voice](https://github.com/justLV/onju-voice) however aiming to follow [Open Home Foundation's open voice assistants standard  with Home Assistant Voice Preview Edition as reference](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) for PCB designs and specifications.",
         "translatedContent": ""
       },
       {
         "row": 3,
-        "rowsha": "7gdWAs0fckxa4Gm30beVgL9F5KeZ30uexZ6UUB7Vqa8=",
-        "originContent": "# Project scope",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": "# دامنه پروژه"
       },
       {
         "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "7gdWAs0fckxa4Gm30beVgL9F5KeZ30uexZ6UUB7Vqa8=",
+        "originContent": "# Project scope",
         "translatedContent": ""
       },
       {
         "row": 5,
-        "rowsha": "+vHQeu7yUpOenoxKptI8jdsUOfectB/a5GbH8U/dyac=",
-        "originContent": "The goal of this project and repository (which is similar to the [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a drop-in replacement PCB (Printed Circuit Board) with hardware schematics that anyone can make/build or order from a one-stop PCB manufacturer as a custom drop-in replacement PCB for the Google Nest Mini (2nd Gen).",
-        "translatedContent": "هدف این پروژه و مخزن (که مشابه [Onju Voice](https://github.com/justLV/onju-voice) اما تحت مجوز سخت‌افزار کاملاً متن‌باز است) طراحی یک PCB (برد مدار چاپی) جایگزین با شماتیک سخت‌افزاری است که هر کسی بتواند بسازد یا از یک تولیدکننده PCB سفارش دهد، به عنوان یک برد جایگزین سفارشی برای Google Nest Mini (نسل دوم)."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "هدف این پروژه و مخزن (که مشابه [Onju Voice](https://github.com/justLV/onju-voice) است اما تحت مجوز کاملاً متن‌باز سخت‌افزاری قرار دارد) طراحی یک PCB جایگزین (برد مدار چاپی) با شماتیک سخت‌افزاری است که هر کسی بتواند آن را بسازد یا از یک تولیدکننده PCB سفارش دهد، به عنوان یک PCB جایگزین سفارشی برای Google Nest Mini (نسل دوم)."
       },
       {
         "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "+vHQeu7yUpOenoxKptI8jdsUOfectB/a5GbH8U/dyac=",
+        "originContent": "The goal of this project and repository (which is similar to the [Onju Voice](https://github.com/justLV/onju-voice) but under a fully open-source hardware license) is to design a drop-in replacement PCB (Printed Circuit Board) with hardware schematics that anyone can make/build or order from a one-stop PCB manufacturer as a custom drop-in replacement PCB for the Google Nest Mini (2nd Gen).",
         "translatedContent": ""
       },
       {
         "row": 7,
-        "rowsha": "0VXe1nwfwMOoO75lMddzrenSiw77tS6pQxAY0+PheoM=",
-        "originContent": "This is primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).",
-        "translatedContent": "این پروژه عمدتاً برای کسانی هدف‌گذاری شده است که می‌خواهند اسپیکرهای هوشمند Google Nest Mini قدیمی خود را به سخت‌افزار متن‌باز برای [کنترل صوتی Home Assistant](https://www.home-assistant.io/voice_control/) و/یا پخش خروجی اسپیکر برای [Music Assistant](https://www.music-assistant.io) تبدیل یا استفاده مجدد کنند (البته احتمالاً این سخت‌افزار با برنامه‌های دیگر و فریم‌ویرهای دیگر نیز قابل استفاده است زیرا بر پایه پلتفرم محبوب Espressif ESP32 ساخته شده است)."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "این پروژه عمدتاً برای افرادی طراحی شده که به دنبال تبدیل/تغییر کاربری اسپیکرهای هوشمند قدیمی Google Nest Mini خود به سخت‌افزار متن‌باز برای [کنترل صوتی Home Assistant](https://www.home-assistant.io/voice_control/) و/یا خروجی اسپیکر مدیاپلیر برای [Music Assistant](https://www.music-assistant.io) هستند، (البته این سخت‌افزار احتمالاً با برنامه‌های دیگر و فریمورهای دیگر نیز قابل استفاده است زیرا مبتنی بر پلتفرم محبوب Espressif ESP32 می‌باشد)."
       },
       {
         "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "0VXe1nwfwMOoO75lMddzrenSiw77tS6pQxAY0+PheoM=",
+        "originContent": "This is primarly targeting people looking to convert/repurpose their old Google Nest Mini smart speakers into open-source hardware for [Voice Control of Home Assistant](https://www.home-assistant.io/voice_control/) and/or media player speaker output for [Music Assistant](https://www.music-assistant.io), (the hardware can however probably also be used with other applications as well with other firmware as it is based on the popular Espressif ESP32 platform).",
         "translatedContent": ""
       },
       {
         "row": 9,
-        "rowsha": "pwzmkyCKiczQuxSJckMkw3qk8ntxIJ7Bop/xffjQ/Vc=",
-        "originContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png\" width=\"1000\">",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png\" width=\"1000\">"
       },
       {
         "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "pwzmkyCKiczQuxSJckMkw3qk8ntxIJ7Bop/xffjQ/Vc=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/MiciMike_Nest__PCB_Prototype_2.png\" width=\"1000\">",
         "translatedContent": ""
       },
       {
         "row": 11,
-        "rowsha": "iseb2UJGO3ewPYRvK4TjGLdVZQnRcyndnU6Td+qNcFw=",
-        "originContent": "The hardware design will (similar to [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using no-code [ESPHome firmware](https://esphome.io/)) + an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading for better voice recognition capabilities by using using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).",
-        "translatedContent": "طراحی سخت‌افزاری (مشابه با [نسخه پیش‌نمایش Home Assistant Voice](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) یک چیپ ESP32-S3 SoC برای WiFi، BLE و [تشخیص واژه بیدارباش داخلی](https://www.home-assistant.io/voice_control/about_wake_word/) (با استفاده از فریم‌ویر بدون کد [ESPHome](https://esphome.io/)) + یک چیپ XMOS xCORE XU316 برای پردازش صوتی پیشرفته (با فریم‌ویر سفارشی برای پاک‌سازی میکروفون و افزایش قابلیت شناسایی صدا از طریق اجرای محلی الگوریتم‌هایی برای حذف نویز، حذف پژواک صوتی، حذف تداخل و کنترل خودکار حجم صدا) را ادغام خواهد کرد."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "طراحی سخت‌افزار (مشابه [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) یک SoC مدل ESP32-S3 را برای WiFi، BLE و [شناسایی واژه‌ی بیدارباش داخلی](https://www.home-assistant.io/voice_control/about_wake_word/) (با استفاده از فریمور بدون کدنویسی [ESPHome](https://esphome.io/)) + یک تراشه XMOS xCORE XU316 برای پردازش صوت پیشرفته (با فریمور سفارشی جهت پاک‌سازی ورودی میکروفون برای بهبود قابلیت شناسایی صدا با استفاده از الگوریتم‌های محلی مانند حذف نویز، حذف اکو آکوستیک، حذف تداخل و کنترل خودکار گین) ادغام خواهد کرد."
       },
       {
         "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "iseb2UJGO3ewPYRvK4TjGLdVZQnRcyndnU6Td+qNcFw=",
+        "originContent": "The hardware design will (similar to [Home Assistant Voice Preview Edition](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/)) integrate an ESP32-S3 SoC for WiFi, BLE, and [onboard wake-word detection](https://www.home-assistant.io/voice_control/about_wake_word/) (using no-code [ESPHome firmware](https://esphome.io/)) + an XMOS xCORE XU316 chip for advanced audio processing (with custom firmware for microphone cleanup offloading for better voice recognition capabilities by using using locally running algorithms for Noise Suppression, Acoustic Echo Cancellation, Interference Cancellation, and Automatic Gain Control).",
         "translatedContent": ""
       },
       {
         "row": 13,
-        "rowsha": "pzHC1+FRSSnDTTIeEZ6QnE9TzvrdHFq3NU5AJpZg0ms=",
-        "originContent": "Functionality-wise it is made to mostly hardware comatible with the [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) reference design (which has been released as open-source hardware design from Open Home Foundation in coolaboration with Nabu Casa). The main difference will be due to constraints defined by the Google Nest Mini enclosure and comonents, (i.e. the nest-mini-drop-in-pcb project hardware design will be limited by the same type of physical capacity inputs as the original hardware from Google).",
-        "translatedContent": "از نظر عملکرد، سخت‌افزار تقریباً با [نسخه پیش‌نمایش Home Assistant Voice (معروف به Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) طراحی مرجع (که به عنوان سخت‌افزار متن‌باز توسط بنیاد Open Home و همکاری Nabu Casa منتشر شده) سازگار خواهد بود. تفاوت اصلی به محدودیت‌های تعریف شده توسط محفظه و قطعات Google Nest Mini مربوط می‌شود، (یعنی طراحی سخت‌افزاری پروژه nest-mini-drop-in-pcb توسط همان نوع ورودی‌های ظرفیت فیزیکی مانند سخت‌افزار اصلی Google محدود خواهد شد)."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "از نظر عملکردی، این سخت‌افزار عمدتاً با [Home Assistant Voice Preview Edition (معروف به Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) طراحی مرجع (که به عنوان طرح سخت‌افزاری متن‌باز از طرف Open Home Foundation با همکاری Nabu Casa منتشر شده) سازگار خواهد بود. تفاوت اصلی به خاطر محدودیت‌هایی است که توسط بدنه و قطعات Google Nest Mini تعریف شده، (یعنی طراحی سخت‌افزاری nest-mini-drop-in-pcb محدود به همان نوع ورودی‌های ظرفیتی فیزیکی سخت‌افزار اصلی گوگل خواهد بود)."
       },
       {
         "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "pzHC1+FRSSnDTTIeEZ6QnE9TzvrdHFq3NU5AJpZg0ms=",
+        "originContent": "Functionality-wise it is made to mostly hardware comatible with the [Home Assistant Voice Preview Edition (a.k.a. Home Assistant Voice PE](https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/) reference design (which has been released as open-source hardware design from Open Home Foundation in coolaboration with Nabu Casa). The main difference will be due to constraints defined by the Google Nest Mini enclosure and comonents, (i.e. the nest-mini-drop-in-pcb project hardware design will be limited by the same type of physical capacity inputs as the original hardware from Google).",
         "translatedContent": ""
       },
       {
         "row": 15,
-        "rowsha": "ucyRyt9LKOkOFhQOkDRFRc5CUbIHEAPTxcQjoGxmy8k=",
-        "originContent": "As such the scope of this project/repository is not to develop new features/functions for the ESPHome firmware, so if you want that then you instead need to turn to the firmware development of the Home Assistant Voice Preview Edition as well as to the upstream ESPHome mainline code:",
-        "translatedContent": "بنابراین دامنه این پروژه/مخزن توسعه ویژگی‌ها/عملکردهای جدید برای فریم‌ویر ESPHome نیست، پس اگر چنین چیزی می‌خواهید باید به توسعه فریم‌ویر نسخه پیش‌نمایش Home Assistant Voice و همچنین کد اصلی ESPHome مراجعه کنید:"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "بنابراین دامنه این پروژه/مخزن توسعه ویژگی‌ها/عملکردهای جدید برای فریمور ESPHome نیست، پس اگر به دنبال آن هستید باید به توسعه فریمور Home Assistant Voice Preview Edition و همچنین کد اصلی ESPHome مراجعه کنید:"
       },
       {
         "row": 16,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "ucyRyt9LKOkOFhQOkDRFRc5CUbIHEAPTxcQjoGxmy8k=",
+        "originContent": "As such the scope of this project/repository is not to develop new features/functions for the ESPHome firmware, so if you want that then you instead need to turn to the firmware development of the Home Assistant Voice Preview Edition as well as to the upstream ESPHome mainline code:",
         "translatedContent": ""
       },
       {
         "row": 17,
-        "rowsha": "yXw0ViC46XCRHZ+nac2BF6dNrf2CERgctc0PdhwNYPM=",
-        "originContent": "- https://github.com/esphome/home-assistant-voice-pe",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": "- https://github.com/esphome/home-assistant-voice-pe"
       },
       {
         "row": 18,
-        "rowsha": "151eZ3yFvFex/GRUPpm8AVpEN+c34rSX9fI7ZpCy8NQ=",
-        "originContent": "  - https://github.com/esphome/esphome",
+        "rowsha": "yXw0ViC46XCRHZ+nac2BF6dNrf2CERgctc0PdhwNYPM=",
+        "originContent": "- https://github.com/esphome/home-assistant-voice-pe",
         "translatedContent": "  - https://github.com/esphome/esphome"
       },
       {
         "row": 19,
-        "rowsha": "O1xRND7DMRxnuSOoEQ1jJzaPwl1vzc6Jkqwz5cLtCpI=",
-        "originContent": "      - https://github.com/esphome/feature-requests",
+        "rowsha": "151eZ3yFvFex/GRUPpm8AVpEN+c34rSX9fI7ZpCy8NQ=",
+        "originContent": "  - https://github.com/esphome/esphome",
         "translatedContent": "      - https://github.com/esphome/feature-requests"
       },
       {
         "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "O1xRND7DMRxnuSOoEQ1jJzaPwl1vzc6Jkqwz5cLtCpI=",
+        "originContent": "      - https://github.com/esphome/feature-requests",
         "translatedContent": ""
       },
       {
         "row": 21,
-        "rowsha": "G84BpHdTOOiaNaHDoU8mnmUc/lg0PKzZnlf9FN63swM=",
-        "originContent": "## Request for collaboration",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": "## درخواست همکاری"
       },
       {
         "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "G84BpHdTOOiaNaHDoU8mnmUc/lg0PKzZnlf9FN63swM=",
+        "originContent": "## Request for collaboration",
         "translatedContent": ""
       },
       {
         "row": 23,
-        "rowsha": "4lOZUTF/K1Tk+EJAz7StuO/vNHlsnR149oBeabjrN4c=",
-        "originContent": "If you have some experience with PCB layout design, (and epecially with PCB routing, ground pouring, or noise-sensitive digital+analog layouts), **your help is highly appreciated**! Please feel free to open a new issue, submit suggestions/requests, and add input/feedback to existing issues, or fork this repository.",
-        "translatedContent": "اگر تجربه‌ای در طراحی برد مدار چاپی دارید (به‌ویژه در مسیریابی برد، ریختن گراند یا طراحی‌های دیجیتال و آنالوگ حساس به نویز)، **کمک شما بسیار ارزشمند است**! لطفاً آزادانه یک issue جدید باز کنید، پیشنهادات/درخواست‌های خود را ارائه دهید و به issueهای موجود ورودی/بازخورد دهید یا این مخزن را fork کنید."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "اگر در طراحی چیدمان PCB (و به ویژه مسیرکشی PCB، پوشرسانی زمین یا چیدمان دیجیتال+آنالوگ حساس به نویز) تجربه دارید، **کمک شما بسیار ارزشمند است**! لطفاً آزادانه یک issue جدید باز کنید، پیشنهاد/درخواست ارسال کنید و بازخورد یا نظر خود را به issueهای موجود اضافه کنید یا این مخزن را fork کنید."
       },
       {
         "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "4lOZUTF/K1Tk+EJAz7StuO/vNHlsnR149oBeabjrN4c=",
+        "originContent": "If you have some experience with PCB layout design, (and epecially with PCB routing, ground pouring, or noise-sensitive digital+analog layouts), **your help is highly appreciated**! Please feel free to open a new issue, submit suggestions/requests, and add input/feedback to existing issues, or fork this repository.",
         "translatedContent": ""
       },
       {
         "row": 25,
-        "rowsha": "L0QdLQQ4ZBFnUIznVImKnGk2ExOn/N0WNcqpMlQJPOA=",
-        "originContent": "For more information about the concept/idea see and contribute to related discussion also see this Home Assistant community forum thread:",
-        "translatedContent": "برای اطلاعات بیشتر درباره مفهوم/ایده و مشارکت در بحث مرتبط به این موضوع به تاپیک انجمن Home Assistant مراجعه کنید:"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "برای اطلاعات بیشتر درباره ایده/مفهوم و مشارکت در بحث مرتبط، این موضوع در انجمن Home Assistant را ببینید:"
       },
       {
         "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "L0QdLQQ4ZBFnUIznVImKnGk2ExOn/N0WNcqpMlQJPOA=",
+        "originContent": "For more information about the concept/idea see and contribute to related discussion also see this Home Assistant community forum thread:",
         "translatedContent": ""
       },
       {
         "row": 27,
-        "rowsha": "cu+br6BgVT0nEdoHq4BUbPOzHqU/wt4sFJI1aVPsOoM=",
-        "originContent": "- https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": "- https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/"
       },
       {
         "row": 28,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "cu+br6BgVT0nEdoHq4BUbPOzHqU/wt4sFJI1aVPsOoM=",
+        "originContent": "- https://community.home-assistant.io/t/any-news-on-alternative-to-onju-voice-pcb-repacement-design-for-google-nest-home-mini-speakers-with-added-xmos-chip-to-match-official-home-assistant-voice-preview-edition-reference-hardware/860001/",
         "translatedContent": ""
       },
       {
         "row": 29,
-        "rowsha": "yhcl3PQUnI77lbV6NrWtfR353m3+R2Zwz0Bm6Dznmic=",
-        "originContent": "### Current status",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": "### وضعیت فعلی"
       },
       {
         "row": 30,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "yhcl3PQUnI77lbV6NrWtfR353m3+R2Zwz0Bm6Dznmic=",
+        "originContent": "### Current status",
         "translatedContent": ""
       },
       {
         "row": 31,
-        "rowsha": "1a43LVjz0mo9j638ON36/x32Oh4kNTPyTAgcG/QYGAk=",
-        "originContent": "- ✅ Schematic completed",
-        "translatedContent": "- ✅ شماتیک تکمیل شد"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- ✅ شماتیک کامل شد"
       },
       {
         "row": 32,
-        "rowsha": "5ldLP2pdtuEHvZyBOW7HZOqzWieb2/vKKJVlM+Ozem8=",
-        "originContent": "- ✅ Component placement done",
-        "translatedContent": "- ✅ چیدمان قطعات انجام شد"
+        "rowsha": "1a43LVjz0mo9j638ON36/x32Oh4kNTPyTAgcG/QYGAk=",
+        "originContent": "- ✅ Schematic completed",
+        "translatedContent": "- ✅ جایگذاری قطعات انجام شد"
       },
       {
         "row": 33,
-        "rowsha": "RYR20x7nbEGRUIvg6pOZelJTxAUe/5bW2dNIWmK6nok=",
-        "originContent": "- ✅ Routing is done",
-        "translatedContent": "- ✅ مسیریابی انجام شد"
+        "rowsha": "5ldLP2pdtuEHvZyBOW7HZOqzWieb2/vKKJVlM+Ozem8=",
+        "originContent": "- ✅ Component placement done",
+        "translatedContent": "- ✅ مسیرکشی انجام شد"
       },
       {
         "row": 34,
-        "rowsha": "4fzUi8bvsK+lqyupC+frmWosyGZXfqyndzgJIpWIB9U=",
-        "originContent": "- ✅ Ground pour, shielding strategy, and EMI considerations done",
-        "translatedContent": "- ✅ ریختن گراند، استراتژی شیلدینگ و ملاحظات EMI انجام شد"
+        "rowsha": "RYR20x7nbEGRUIvg6pOZelJTxAUe/5bW2dNIWmK6nok=",
+        "originContent": "- ✅ Routing is done",
+        "translatedContent": "- ✅ پوشرسانی زمین، استراتژی شیلدینگ و ملاحظات EMI انجام شد"
       },
       {
         "row": 35,
-        "rowsha": "9FMhk9flvCDSwfZUMoVSnfO1/pWs51lInyX26zZXJKg=",
-        "originContent": "- ⚠️ 1st test batch failed on two errors - fixed",
-        "translatedContent": "- ⚠️ اولین سری تست با دو خطا شکست خورد - رفع شد"
+        "rowsha": "4fzUi8bvsK+lqyupC+frmWosyGZXfqyndzgJIpWIB9U=",
+        "originContent": "- ✅ Ground pour, shielding strategy, and EMI considerations done",
+        "translatedContent": "- ⚠️ اولین سری تست به دلیل دو خطا شکست خورد - رفع شد"
       },
       {
         "row": 36,
-        "rowsha": "xK5y3Owwt6htNJhQn1XOrLju2R08PSWOPlFE+22sx4U=",
-        "originContent": "- 🕓 waiting for the 2nd test batch",
-        "translatedContent": "- 🕓 منتظر سری دوم تست"
+        "rowsha": "9FMhk9flvCDSwfZUMoVSnfO1/pWs51lInyX26zZXJKg=",
+        "originContent": "- ⚠️ 1st test batch failed on two errors - fixed",
+        "translatedContent": "- 🕓 منتظر سری دوم تست هستیم"
       },
       {
         "row": 37,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "xK5y3Owwt6htNJhQn1XOrLju2R08PSWOPlFE+22sx4U=",
+        "originContent": "- 🕓 waiting for the 2nd test batch",
         "translatedContent": ""
       },
       {
         "row": 38,
-        "rowsha": "JbUAmZj4ZLm/6VFp8e4a/FebG2DE7IixxQt967dUx60=",
-        "originContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png\" width=\"1000\">",
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
         "translatedContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png\" width=\"1000\">"
       },
       {
         "row": 39,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
+        "rowsha": "JbUAmZj4ZLm/6VFp8e4a/FebG2DE7IixxQt967dUx60=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/iMike78/nest-mini-drop-in-pcb/main/pics/3D.png\" width=\"1000\">",
         "translatedContent": ""
       },
       {
         "row": 40,
-        "rowsha": "tvl2seuyGj95hqfgGdnZIcZC7mh0LH8LpLyvH854dpc=",
-        "originContent": "## Tools used",
-        "translatedContent": "## ابزارهای استفاده‌شده"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 3,
-    "Content": "\n- 🛠️ KiCad 9\n- 🧰 SnapEDA / LCSC for footprint sourcing\n\n## Known hardware specifications\n\n- 4-layer PCB\n- ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)\n- XMOS XU316-1024-QF60B-C32 (XMOS XU316 xCORE DSP audio processing)\n- Dual SPI flash\n- Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)\n- MAX98357 for speaker output (I2S Class-D Mono Audio Amplifyer)\n- 2x MEMS microphones (MSM261DHP)\n- SK6812 LEDs\n- Custom USB-C and 14V power input\n\n---\n\n> ⚠️ Flashing via USB-C requires disconnecting the main 14V power input. See silkscreen note on PCB for details.\n\n## References\n\n### Home Assistant Voice Preview Edition resources including PCB design files\n- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/\n  - https://voice-pe.home-assistant.io/resources/\n    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files\n      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf\n     \n#### ESPHome firmware for Home Assistant Voice PE (which also use the same ESP32-S3 + XMOS XU316 combination):\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://esphome.github.io/home-assistant-voice-pe/\n- https://voice-pe.home-assistant.io/\n\n### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC chip\n\n- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf\n- https://www.xmos.com/software-tools/\n  - https://www.xmos.com/develop/xcore-voice\n  - https://www.xmos.com/usb-multichannel-audio/",
-    "ContentSha": "u5k29LW7KWIGmpbXUbrDCGNu0nWNQrKef1LWVbQs6oc=",
+    "Content": "## Tools used\n\n- 🛠️ KiCad 9\n- 🧰 SnapEDA / LCSC for footprint sourcing\n\n## Known hardware specifications\n\n- 4-layer PCB\n- ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)\n- XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP audio processing)\n- Dual SPI flash (as ESP32 and XMOS have their own SPI flash)\n- Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)\n- MAX98357 for speaker output (I2S Class-D Mono Audio Amplifyer)\n- 2x MEMS microphones (dual MMICT390200012 with 68mm inter-mic spacing)\n- 6x SK6812 RGB LEDs\n- Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)\n\n---\n\n> ⚠️ Flashing via USB-C requires disconnecting the main 14V power input. See silkscreen note on PCB for details.\n\n## References\n\n### Home Assistant Voice Preview Edition resources including PCB design files\n- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/\n  - https://voice-pe.home-assistant.io/resources/\n    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files\n      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf\n     \n#### ESPHome firmware for Home Assistant Voice PE (which also use the same ESP32-S3 + XMOS XU316 combination):\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://esphome.github.io/home-assistant-voice-pe/\n- https://voice-pe.home-assistant.io/\n\n### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC chip\n\n- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf\n- https://www.xmos.com/software-tools/\n  - https://www.xmos.com/develop/xcore-voice",
+    "ContentSha": "4+838OD4uCqTgcM3Sk/EyVORZjyfilvVZevYk1RoEfg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\n- 🛠️ کی‌کد ۹\n- 🧰 SnapEDA / LCSC برای تأمین فوت‌پرینت\n\n## مشخصات سخت‌افزاری شناخته شده\n\n- برد PCB چهار لایه\n- چیپ خالی ESP32-S3R8 (ESP32-S3 برای وای‌فای، BLE و تشخیص واژه بیدارباش داخلی)\n- XMOS XU316-1024-QF60B-C32 (پردازش صوتی DSP xCORE XMOS XU316)\n- فلش SPI دوگانه\n- دو باس I²S (برای فعال بودن همزمان رابط‌های I2S، یعنی خروجی و ورودی صوتی همزمان)\n- MAX98357 برای خروجی بلندگو (تقویت‌کننده صوتی مونو کلاس-D I2S)\n- ۲ میکروفون MEMS (MSM261DHP)\n- LED های SK6812\n- ورودی برق USB-C سفارشی و ۱۴ ولت\n\n---\n\n> ⚠️ پروگرام کردن از طریق USB-C نیازمند قطع ورودی برق اصلی ۱۴ ولت است. برای جزئیات به یادداشت سیلک‌اسکرین روی برد PCB مراجعه کنید.\n\n## منابع\n\n### منابع نسخه پیش‌نمایش Voice Home Assistant شامل فایل‌های طراحی PCB\n- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/\n  - https://voice-pe.home-assistant.io/resources/\n    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files\n      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf\n     \n#### فریمور ESPHome برای Home Assistant Voice PE (که از ترکیب ESP32-S3 + XMOS XU316 مشابه استفاده می‌کند):\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://esphome.github.io/home-assistant-voice-pe/\n- https://voice-pe.home-assistant.io/\n\n### چیپ آی‌سی XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU\n\n- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf\n- https://www.xmos.com/software-tools/\n  - https://www.xmos.com/develop/xcore-voice\n  - https://www.xmos.com/usb-multichannel-audio/",
+    "Translation": "## ابزارهای استفاده‌شده\n\n- 🛠️ KiCad 9\n- 🧰 SnapEDA / LCSC برای دریافت فوت‌پرینت\n\n## مشخصات سخت‌افزاری شناخته‌شده\n\n- برد مدار چاپی ۴ لایه\n- چیپ بدون قاب ESP32-S3R8 (ESP32-S3 برای وای‌فای، BLE و تشخیص واژه بیدارباش داخلی)\n- XMOS XU316-1024-QF60B-C24 (پردازش صوتی DSP xCORE XMOS XU316)\n- حافظه فلش SPI دوگانه (زیرا ESP32 و XMOS هرکدام حافظه SPI فلش خود را دارند)\n- دو باس I²S (برای فراهم‌کردن همزمان رابط‌های I2S، یعنی خروجی و ورودی صوت همزمان)\n- MAX98357 برای خروجی بلندگو (تقویت‌کننده صوتی مونو کلاس-D I2S)\n- ۲ عدد میکروفون MEMS (دو عدد MMICT390200012 با فاصله ۶۸ میلی‌متر بین میکروفون‌ها)\n- ۶ عدد LED RGB مدل SK6812\n- ورودی برق سفارشی USB-C و ۱۴ ولت (توجه! USB-C و کانکتور بشکه‌ای نباید همزمان متصل شوند)\n\n---\n\n> ⚠️ برنامه‌ریزی از طریق USB-C نیازمند قطع اتصال ورودی برق اصلی ۱۴ ولت است. برای جزئیات، یادداشت سیلک‌اسکرین روی PCB را ببینید.\n\n## منابع\n\n### منابع نسخه پیش‌نمایش Home Assistant Voice شامل فایل‌های طراحی PCB\n- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/\n  - https://voice-pe.home-assistant.io/resources/\n    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files\n      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf\n     \n#### فریم‌ور ESPHome برای Home Assistant Voice PE (که از ترکیب ESP32-S3 + XMOS XU316 نیز استفاده می‌کند):\n\n- https://github.com/esphome/home-assistant-voice-pe\n  - https://esphome.github.io/home-assistant-voice-pe/\n- https://voice-pe.home-assistant.io/\n\n### چیپ آی‌سی MCU XMOS xCORE DSP (XU316-1024-QF60B-C32)\n\n- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf\n- https://www.xmos.com/software-tools/\n  - https://www.xmos.com/develop/xcore-voice",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "tvl2seuyGj95hqfgGdnZIcZC7mh0LH8LpLyvH854dpc=",
+        "originContent": "## Tools used",
+        "translatedContent": "## ابزارهای استفاده‌شده"
       },
       {
         "row": 2,
-        "rowsha": "94dZW8SmyspZ/ZSVi7ujiLhhEEp/J43QZhvStrnuvHg=",
-        "originContent": "- 🛠️ KiCad 9",
-        "translatedContent": "- 🛠️ کی‌کد ۹"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 3,
-        "rowsha": "ly4R35r/W7F+SHRJFot/Fws7TA10I0HFD/u4GsY6KXg=",
-        "originContent": "- 🧰 SnapEDA / LCSC for footprint sourcing",
-        "translatedContent": "- 🧰 SnapEDA / LCSC برای تأمین فوت‌پرینت"
+        "rowsha": "94dZW8SmyspZ/ZSVi7ujiLhhEEp/J43QZhvStrnuvHg=",
+        "originContent": "- 🛠️ KiCad 9",
+        "translatedContent": "- 🛠️ KiCad 9"
       },
       {
         "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "ly4R35r/W7F+SHRJFot/Fws7TA10I0HFD/u4GsY6KXg=",
+        "originContent": "- 🧰 SnapEDA / LCSC for footprint sourcing",
+        "translatedContent": "- 🧰 SnapEDA / LCSC برای دریافت فوت‌پرینت"
       },
       {
         "row": 5,
-        "rowsha": "VUye4NDLDP1i1y8nJIyVQbVKa2XmHiTSZy6SW9uFUpo=",
-        "originContent": "## Known hardware specifications",
-        "translatedContent": "## مشخصات سخت‌افزاری شناخته شده"
-      },
-      {
-        "row": 6,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 6,
+        "rowsha": "VUye4NDLDP1i1y8nJIyVQbVKa2XmHiTSZy6SW9uFUpo=",
+        "originContent": "## Known hardware specifications",
+        "translatedContent": "## مشخصات سخت‌افزاری شناخته‌شده"
+      },
+      {
         "row": 7,
-        "rowsha": "0JCq5wohuw7g46ZMtAq+5wdCPWCIp97bgpzswl6gwcM=",
-        "originContent": "- 4-layer PCB",
-        "translatedContent": "- برد PCB چهار لایه"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 8,
-        "rowsha": "6q8FEeqzGN3vayN7RveBglmt1N2od7K/PoXcJVJH7Sg=",
-        "originContent": "- ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)",
-        "translatedContent": "- چیپ خالی ESP32-S3R8 (ESP32-S3 برای وای‌فای، BLE و تشخیص واژه بیدارباش داخلی)"
+        "rowsha": "0JCq5wohuw7g46ZMtAq+5wdCPWCIp97bgpzswl6gwcM=",
+        "originContent": "- 4-layer PCB",
+        "translatedContent": "- برد مدار چاپی ۴ لایه"
       },
       {
         "row": 9,
-        "rowsha": "0hbGkY6vS+ouHajhWu3eSu0gbSE7QSJqjX+X0Qk7o/I=",
-        "originContent": "- XMOS XU316-1024-QF60B-C32 (XMOS XU316 xCORE DSP audio processing)",
-        "translatedContent": "- XMOS XU316-1024-QF60B-C32 (پردازش صوتی DSP xCORE XMOS XU316)"
+        "rowsha": "6q8FEeqzGN3vayN7RveBglmt1N2od7K/PoXcJVJH7Sg=",
+        "originContent": "- ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)",
+        "translatedContent": "- چیپ بدون قاب ESP32-S3R8 (ESP32-S3 برای وای‌فای، BLE و تشخیص واژه بیدارباش داخلی)"
       },
       {
         "row": 10,
-        "rowsha": "czUUAvVjHQdt2niJ5D7wt4fwpxW36OhS3zsP+W9IOjY=",
-        "originContent": "- Dual SPI flash",
-        "translatedContent": "- فلش SPI دوگانه"
+        "rowsha": "8/n805G26I3rR6QSTOBChXIwq/E5RG6d+kjB7e8yRK4=",
+        "originContent": "- XMOS XU316-1024-QF60B-C24 (XMOS XU316 xCORE DSP audio processing)",
+        "translatedContent": "- XMOS XU316-1024-QF60B-C24 (پردازش صوتی DSP xCORE XMOS XU316)"
       },
       {
         "row": 11,
-        "rowsha": "93vz3qcbAs85m8AkMxt9XmFNlYSWZ+2R2TPoc/CFRVk=",
-        "originContent": "- Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)",
-        "translatedContent": "- دو باس I²S (برای فعال بودن همزمان رابط‌های I2S، یعنی خروجی و ورودی صوتی همزمان)"
+        "rowsha": "CQvuqljgmtayfD96k+bnshb3mrYDgPfH9y+iPLN5j8o=",
+        "originContent": "- Dual SPI flash (as ESP32 and XMOS have their own SPI flash)",
+        "translatedContent": "- حافظه فلش SPI دوگانه (زیرا ESP32 و XMOS هرکدام حافظه SPI فلش خود را دارند)"
       },
       {
         "row": 12,
+        "rowsha": "93vz3qcbAs85m8AkMxt9XmFNlYSWZ+2R2TPoc/CFRVk=",
+        "originContent": "- Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)",
+        "translatedContent": "- دو باس I²S (برای فراهم‌کردن همزمان رابط‌های I2S، یعنی خروجی و ورودی صوت همزمان)"
+      },
+      {
+        "row": 13,
         "rowsha": "bjM0/NYhnnt9rtUgbW6C5pK6pns2LmPBik8FnsSdfRE=",
         "originContent": "- MAX98357 for speaker output (I2S Class-D Mono Audio Amplifyer)",
         "translatedContent": "- MAX98357 برای خروجی بلندگو (تقویت‌کننده صوتی مونو کلاس-D I2S)"
       },
       {
-        "row": 13,
-        "rowsha": "SB7cY5z8Bb1mIsobzBjo7GkuMaIwx7X4gW1PQH2MnZ0=",
-        "originContent": "- 2x MEMS microphones (MSM261DHP)",
-        "translatedContent": "- ۲ میکروفون MEMS (MSM261DHP)"
-      },
-      {
         "row": 14,
-        "rowsha": "qaX1t7SAdaRNpYhliCtrroj/YgJT8DtWrDDDSDDjH+4=",
-        "originContent": "- SK6812 LEDs",
-        "translatedContent": "- LED های SK6812"
+        "rowsha": "hVcinrHoWqlCxwRAW4orgLdi8Ruqbk8UOMDZfEzsioE=",
+        "originContent": "- 2x MEMS microphones (dual MMICT390200012 with 68mm inter-mic spacing)",
+        "translatedContent": "- ۲ عدد میکروفون MEMS (دو عدد MMICT390200012 با فاصله ۶۸ میلی‌متر بین میکروفون‌ها)"
       },
       {
         "row": 15,
-        "rowsha": "wXYEzIYY8mFrie+Z7EqHe3rh75YUJVP9IgYfAd0uz5U=",
-        "originContent": "- Custom USB-C and 14V power input",
-        "translatedContent": "- ورودی برق USB-C سفارشی و ۱۴ ولت"
+        "rowsha": "ovCVA7GlgOU4p79KbAys98OjQkgzBvjMZNXQ82lT4ck=",
+        "originContent": "- 6x SK6812 RGB LEDs",
+        "translatedContent": "- ۶ عدد LED RGB مدل SK6812"
+      },
+      {
+        "row": 16,
+        "rowsha": "rfepAX+vLbdNfRuW0rHozDp+uN07CTxTdU8J3EL7LmI=",
+        "originContent": "- Custom USB-C and 14V power input (Note! USB-C and barrel-connector can not be connected at the same time)",
+        "translatedContent": "- ورودی برق سفارشی USB-C و ۱۴ ولت (توجه! USB-C و کانکتور بشکه‌ای نباید همزمان متصل شوند)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "BOp7tXP2mNvf26vY7vU7JP8C1QNbmXJfDx7XnwDKNAo=",
+        "originContent": "> ⚠️ Flashing via USB-C requires disconnecting the main 14V power input. See silkscreen note on PCB for details.",
+        "translatedContent": "> ⚠️ برنامه‌ریزی از طریق USB-C نیازمند قطع اتصال ورودی برق اصلی ۱۴ ولت است. برای جزئیات، یادداشت سیلک‌اسکرین روی PCB را ببینید."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
+        "originContent": "## References",
+        "translatedContent": "## منابع"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "X41cMvPqTiaCaEYSoV6SW21i0EdtPI/dcRx2ucnGL6I=",
+        "originContent": "### Home Assistant Voice Preview Edition resources including PCB design files",
+        "translatedContent": "### منابع نسخه پیش‌نمایش Home Assistant Voice شامل فایل‌های طراحی PCB"
+      },
+      {
+        "row": 25,
+        "rowsha": "+00ZY6JKIvwVq2jQ+8owIdy1JE5GZ6YVTmuzRcoLYmM=",
+        "originContent": "- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/",
+        "translatedContent": "- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/"
+      },
+      {
+        "row": 26,
+        "rowsha": "23oaXch/Imav1IdSxthXQdK1TfrsplRpAt5LO0va/04=",
+        "originContent": "  - https://voice-pe.home-assistant.io/resources/",
+        "translatedContent": "  - https://voice-pe.home-assistant.io/resources/"
+      },
+      {
+        "row": 27,
+        "rowsha": "ziOIAZYXksLnliACpyD4Gmd8l7gLqYofRL3SQuM2kSo=",
+        "originContent": "    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files",
+        "translatedContent": "    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files"
+      },
+      {
+        "row": 28,
+        "rowsha": "HsDhzu/l3m2LkealzokNxLHXECqq8foAgSLzFAFoi8c=",
+        "originContent": "      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf",
+        "translatedContent": "      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf"
+      },
+      {
+        "row": 29,
+        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
+        "originContent": "     ",
+        "translatedContent": "     "
+      },
+      {
+        "row": 30,
+        "rowsha": "NdlR6AENPjdT4nFAyldQpcsochTyXVLiv5iIIPED4l0=",
+        "originContent": "#### ESPHome firmware for Home Assistant Voice PE (which also use the same ESP32-S3 + XMOS XU316 combination):",
+        "translatedContent": "#### فریم‌ور ESPHome برای Home Assistant Voice PE (که از ترکیب ESP32-S3 + XMOS XU316 نیز استفاده می‌کند):"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "yXw0ViC46XCRHZ+nac2BF6dNrf2CERgctc0PdhwNYPM=",
+        "originContent": "- https://github.com/esphome/home-assistant-voice-pe",
+        "translatedContent": "- https://github.com/esphome/home-assistant-voice-pe"
+      },
+      {
+        "row": 33,
+        "rowsha": "PbOvhSxMsh6am1ypOrcDmSF13kX6VepWsSmd0ftWpwc=",
+        "originContent": "  - https://esphome.github.io/home-assistant-voice-pe/",
+        "translatedContent": "  - https://esphome.github.io/home-assistant-voice-pe/"
+      },
+      {
+        "row": 34,
+        "rowsha": "/9rzh29TyNS2JMM1ic4HtEtd7Ko8NWSJiP87/apVWkQ=",
+        "originContent": "- https://voice-pe.home-assistant.io/",
+        "translatedContent": "- https://voice-pe.home-assistant.io/"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "6hgjg1zwYjRfhAbAW8V8Xp8F4f0MT0Sa43IHWVo7EYU=",
+        "originContent": "### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC chip",
+        "translatedContent": "### چیپ آی‌سی MCU XMOS xCORE DSP (XU316-1024-QF60B-C32)"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "Ndr7rzmheK2VuFwX3uJKbyw0vAsGMwWlETbZlhNQNu0=",
+        "originContent": "- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf",
+        "translatedContent": "- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf"
+      },
+      {
+        "row": 39,
+        "rowsha": "petBg/2ZSIVNooBFs6lkCYAvAgkfJV8y+b5j0BkaUWA=",
+        "originContent": "- https://www.xmos.com/software-tools/",
+        "translatedContent": "- https://www.xmos.com/software-tools/"
+      },
+      {
+        "row": 40,
+        "rowsha": "ijmSbRQA+0BXakRNtRw0EU+MSDqIpvLicRCropin2pQ=",
+        "originContent": "  - https://www.xmos.com/develop/xcore-voice",
+        "translatedContent": "  - https://www.xmos.com/develop/xcore-voice"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "  - https://www.xmos.com/usb-multichannel-audio/\n  - https://www.xmos.com/xcore-ai\n \n#### XMOS firmware from the ESPHome prokect for the Home Assistant Voice Preview Edition hardware:\n\n- https://github.com/esphome/voice-kit-xmos-firmware\n  - https://github.com/esphome/xmos_fwk_rtos\n  - https://github.com/esphome/xmos_fwk_io\n\n## License\n\nThis project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]\nAny modified version of this hardware must also be distributed under the same license.\n\n☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!\n\n",
+    "ContentSha": "YdyNesIgChbqAXmGfF2SVoyWrdL++7sv993qF3oRhhU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  - https://www.xmos.com/usb-multichannel-audio/\n  - https://www.xmos.com/xcore-ai\n \n#### سفت‌افزار XMOS از پروژه ESPHome برای سخت‌افزار نسخه پیش‌نمایش Home Assistant Voice:\n\n- https://github.com/esphome/voice-kit-xmos-firmware\n  - https://github.com/esphome/xmos_fwk_rtos\n  - https://github.com/esphome/xmos_fwk_io\n\n## مجوز\n\nاین پروژه تحت [مجوز سخت‌افزار باز CERN نسخه ۲ - به شدت بازگشتی (CERN-OHL-S v2)] دارای مجوز است.\nهر نسخه تغییریافته‌ای از این سخت‌افزار نیز باید تحت همین مجوز توزیع شود.\n\n☕ اگر مایل به حمایت از این پروژه هستید، خوشحال می‌شوم اگر [برایم یک قهوه در Ko-fi بخرید](https://ko-fi.com/imike78)!\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "hECfDgjT6KwEiPHmG1TIw1Yh2GczDWz2PPLvn81+mNs=",
+        "originContent": "  - https://www.xmos.com/usb-multichannel-audio/",
+        "translatedContent": "  - https://www.xmos.com/usb-multichannel-audio/"
+      },
+      {
+        "row": 2,
+        "rowsha": "oBg2r4L+srFf5X4iDlV1gnWa1nj/b7rSLun6WLDXv+U=",
+        "originContent": "  - https://www.xmos.com/xcore-ai",
+        "translatedContent": "  - https://www.xmos.com/xcore-ai"
+      },
+      {
+        "row": 3,
+        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
+        "originContent": " ",
+        "translatedContent": " "
+      },
+      {
+        "row": 4,
+        "rowsha": "iw3iwNlGPmuUr34YxglLcFoVru845noep3oPedZaxlE=",
+        "originContent": "#### XMOS firmware from the ESPHome prokect for the Home Assistant Voice Preview Edition hardware:",
+        "translatedContent": "#### سفت‌افزار XMOS از پروژه ESPHome برای سخت‌افزار نسخه پیش‌نمایش Home Assistant Voice:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "4/I3VqdaZeK6r5z+hajrchuk1XD/ipv0iEeTWP+gJsE=",
+        "originContent": "- https://github.com/esphome/voice-kit-xmos-firmware",
+        "translatedContent": "- https://github.com/esphome/voice-kit-xmos-firmware"
+      },
+      {
+        "row": 7,
+        "rowsha": "KgkQO0Vpc+smahT+HMCWD/P3Td7noE052MRJuuUUjnc=",
+        "originContent": "  - https://github.com/esphome/xmos_fwk_rtos",
+        "translatedContent": "  - https://github.com/esphome/xmos_fwk_rtos"
+      },
+      {
+        "row": 8,
+        "rowsha": "53khxc45Wkj2Yl1U14xAVVwwWliK0pgXiaMcFSIAlzw=",
+        "originContent": "  - https://github.com/esphome/xmos_fwk_io",
+        "translatedContent": "  - https://github.com/esphome/xmos_fwk_io"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## مجوز"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "qGBdwzqI7utYWC9sdyXx3pQDX0gfw0uvvlIeoaE2pJ8=",
+        "originContent": "This project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]",
+        "translatedContent": "این پروژه تحت [مجوز سخت‌افزار باز CERN نسخه ۲ - به شدت بازگشتی (CERN-OHL-S v2)] دارای مجوز است."
+      },
+      {
+        "row": 13,
+        "rowsha": "F+2YfwWiEQKdxNCDtXt6oWZxikOp0aNayFNuTphvN6E=",
+        "originContent": "Any modified version of this hardware must also be distributed under the same license.",
+        "translatedContent": "هر نسخه تغییریافته‌ای از این سخت‌افزار نیز باید تحت همین مجوز توزیع شود."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "21UDXmMUcs1qiP6vArzmKTV1uxjrRVeWA1Kg/pgprJc=",
+        "originContent": "☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!",
+        "translatedContent": "☕ اگر مایل به حمایت از این پروژه هستید، خوشحال می‌شوم اگر [برایم یک قهوه در Ko-fi بخرید](https://ko-fi.com/imike78)!"
       },
       {
         "row": 16,
@@ -613,253 +866,6 @@
       },
       {
         "row": 17,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---"
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "BOp7tXP2mNvf26vY7vU7JP8C1QNbmXJfDx7XnwDKNAo=",
-        "originContent": "> ⚠️ Flashing via USB-C requires disconnecting the main 14V power input. See silkscreen note on PCB for details.",
-        "translatedContent": "> ⚠️ پروگرام کردن از طریق USB-C نیازمند قطع ورودی برق اصلی ۱۴ ولت است. برای جزئیات به یادداشت سیلک‌اسکرین روی برد PCB مراجعه کنید."
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
-        "originContent": "## References",
-        "translatedContent": "## منابع"
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "X41cMvPqTiaCaEYSoV6SW21i0EdtPI/dcRx2ucnGL6I=",
-        "originContent": "### Home Assistant Voice Preview Edition resources including PCB design files",
-        "translatedContent": "### منابع نسخه پیش‌نمایش Voice Home Assistant شامل فایل‌های طراحی PCB"
-      },
-      {
-        "row": 24,
-        "rowsha": "+00ZY6JKIvwVq2jQ+8owIdy1JE5GZ6YVTmuzRcoLYmM=",
-        "originContent": "- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/",
-        "translatedContent": "- https://www.home-assistant.io/blog/2024/12/19/voice-preview-edition-the-era-of-open-voice/"
-      },
-      {
-        "row": 25,
-        "rowsha": "23oaXch/Imav1IdSxthXQdK1TfrsplRpAt5LO0va/04=",
-        "originContent": "  - https://voice-pe.home-assistant.io/resources/",
-        "translatedContent": "  - https://voice-pe.home-assistant.io/resources/"
-      },
-      {
-        "row": 26,
-        "rowsha": "ziOIAZYXksLnliACpyD4Gmd8l7gLqYofRL3SQuM2kSo=",
-        "originContent": "    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files",
-        "translatedContent": "    - https://support.nabucasa.com/hc/en-us/articles/26195279589277-Home-Assistant-Voice-Preview-Edition-PCB-design-files"
-      },
-      {
-        "row": 27,
-        "rowsha": "HsDhzu/l3m2LkealzokNxLHXECqq8foAgSLzFAFoi8c=",
-        "originContent": "      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf",
-        "translatedContent": "      - https://raw.githubusercontent.com/NabuCasa/support/refs/heads/main/static/docs/voice/home_assistant_voice_pe_schematic_v1.0_241009.pdf"
-      },
-      {
-        "row": 28,
-        "rowsha": "eHmYHU8iao8BkdNnMMByBdel/xx4D8qbL5BfJSZM9jY=",
-        "originContent": "     ",
-        "translatedContent": "     "
-      },
-      {
-        "row": 29,
-        "rowsha": "NdlR6AENPjdT4nFAyldQpcsochTyXVLiv5iIIPED4l0=",
-        "originContent": "#### ESPHome firmware for Home Assistant Voice PE (which also use the same ESP32-S3 + XMOS XU316 combination):",
-        "translatedContent": "#### فریمور ESPHome برای Home Assistant Voice PE (که از ترکیب ESP32-S3 + XMOS XU316 مشابه استفاده می‌کند):"
-      },
-      {
-        "row": 30,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 31,
-        "rowsha": "yXw0ViC46XCRHZ+nac2BF6dNrf2CERgctc0PdhwNYPM=",
-        "originContent": "- https://github.com/esphome/home-assistant-voice-pe",
-        "translatedContent": "- https://github.com/esphome/home-assistant-voice-pe"
-      },
-      {
-        "row": 32,
-        "rowsha": "PbOvhSxMsh6am1ypOrcDmSF13kX6VepWsSmd0ftWpwc=",
-        "originContent": "  - https://esphome.github.io/home-assistant-voice-pe/",
-        "translatedContent": "  - https://esphome.github.io/home-assistant-voice-pe/"
-      },
-      {
-        "row": 33,
-        "rowsha": "/9rzh29TyNS2JMM1ic4HtEtd7Ko8NWSJiP87/apVWkQ=",
-        "originContent": "- https://voice-pe.home-assistant.io/",
-        "translatedContent": "- https://voice-pe.home-assistant.io/"
-      },
-      {
-        "row": 34,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 35,
-        "rowsha": "6hgjg1zwYjRfhAbAW8V8Xp8F4f0MT0Sa43IHWVo7EYU=",
-        "originContent": "### XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU IC chip",
-        "translatedContent": "### چیپ آی‌سی XMOS xCORE DSP (XU316-1024-QF60B-C32) MCU"
-      },
-      {
-        "row": 36,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 37,
-        "rowsha": "Ndr7rzmheK2VuFwX3uJKbyw0vAsGMwWlETbZlhNQNu0=",
-        "originContent": "- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf",
-        "translatedContent": "- https://www.xmos.com/download/XU316-1024-QF60B-xcore.ai-Datasheet(3).pdf"
-      },
-      {
-        "row": 38,
-        "rowsha": "petBg/2ZSIVNooBFs6lkCYAvAgkfJV8y+b5j0BkaUWA=",
-        "originContent": "- https://www.xmos.com/software-tools/",
-        "translatedContent": "- https://www.xmos.com/software-tools/"
-      },
-      {
-        "row": 39,
-        "rowsha": "ijmSbRQA+0BXakRNtRw0EU+MSDqIpvLicRCropin2pQ=",
-        "originContent": "  - https://www.xmos.com/develop/xcore-voice",
-        "translatedContent": "  - https://www.xmos.com/develop/xcore-voice"
-      },
-      {
-        "row": 40,
-        "rowsha": "hECfDgjT6KwEiPHmG1TIw1Yh2GczDWz2PPLvn81+mNs=",
-        "originContent": "  - https://www.xmos.com/usb-multichannel-audio/",
-        "translatedContent": "  - https://www.xmos.com/usb-multichannel-audio/"
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 4,
-    "Content": "  - https://www.xmos.com/xcore-ai\n \n#### XMOS firmware from the ESPHome prokect for the Home Assistant Voice Preview Edition hardware:\n\n- https://github.com/esphome/voice-kit-xmos-firmware\n  - https://github.com/esphome/xmos_fwk_rtos\n  - https://github.com/esphome/xmos_fwk_io\n\n## License\n\nThis project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]\nAny modified version of this hardware must also be distributed under the same license.\n\n☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!\n\n",
-    "ContentSha": "jKue+gLT0I5XHjywAmoehyg9n3BXA6/AjwzKWXgCED0=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "  - https://www.xmos.com/xcore-ai\n \n#### میان‌افزار XMOS از پروژه ESPHome برای سخت‌افزار Home Assistant Voice Preview Edition:\n\n- https://github.com/esphome/voice-kit-xmos-firmware\n  - https://github.com/esphome/xmos_fwk_rtos\n  - https://github.com/esphome/xmos_fwk_io\n\n## مجوز\n\nاین پروژه تحت [مجوز سخت‌افزار باز سرن نسخه ۲ - به شدت متقابل (CERN-OHL-S v2)] مجوز داده شده است.\nهر نسخه تغییریافته‌ای از این سخت‌افزار نیز باید تحت همین مجوز توزیع شود.\n\n☕ اگر مایل به حمایت از این پروژه هستید، می‌توانید [برای من یک قهوه در Ko-fi بخرید](https://ko-fi.com/imike78)!\n\n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "oBg2r4L+srFf5X4iDlV1gnWa1nj/b7rSLun6WLDXv+U=",
-        "originContent": "  - https://www.xmos.com/xcore-ai",
-        "translatedContent": "  - https://www.xmos.com/xcore-ai"
-      },
-      {
-        "row": 2,
-        "rowsha": "Nqnn8clbgv+5l0PgxcTOldg8mkMKrFn4TvPL+rYUUGg=",
-        "originContent": " ",
-        "translatedContent": " "
-      },
-      {
-        "row": 3,
-        "rowsha": "iw3iwNlGPmuUr34YxglLcFoVru845noep3oPedZaxlE=",
-        "originContent": "#### XMOS firmware from the ESPHome prokect for the Home Assistant Voice Preview Edition hardware:",
-        "translatedContent": "#### میان‌افزار XMOS از پروژه ESPHome برای سخت‌افزار Home Assistant Voice Preview Edition:"
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "4/I3VqdaZeK6r5z+hajrchuk1XD/ipv0iEeTWP+gJsE=",
-        "originContent": "- https://github.com/esphome/voice-kit-xmos-firmware",
-        "translatedContent": "- https://github.com/esphome/voice-kit-xmos-firmware"
-      },
-      {
-        "row": 6,
-        "rowsha": "KgkQO0Vpc+smahT+HMCWD/P3Td7noE052MRJuuUUjnc=",
-        "originContent": "  - https://github.com/esphome/xmos_fwk_rtos",
-        "translatedContent": "  - https://github.com/esphome/xmos_fwk_rtos"
-      },
-      {
-        "row": 7,
-        "rowsha": "53khxc45Wkj2Yl1U14xAVVwwWliK0pgXiaMcFSIAlzw=",
-        "originContent": "  - https://github.com/esphome/xmos_fwk_io",
-        "translatedContent": "  - https://github.com/esphome/xmos_fwk_io"
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
-        "originContent": "## License",
-        "translatedContent": "## مجوز"
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "qGBdwzqI7utYWC9sdyXx3pQDX0gfw0uvvlIeoaE2pJ8=",
-        "originContent": "This project is licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S v2)]",
-        "translatedContent": "این پروژه تحت [مجوز سخت‌افزار باز سرن نسخه ۲ - به شدت متقابل (CERN-OHL-S v2)] مجوز داده شده است."
-      },
-      {
-        "row": 12,
-        "rowsha": "F+2YfwWiEQKdxNCDtXt6oWZxikOp0aNayFNuTphvN6E=",
-        "originContent": "Any modified version of this hardware must also be distributed under the same license.",
-        "translatedContent": "هر نسخه تغییریافته‌ای از این سخت‌افزار نیز باید تحت همین مجوز توزیع شود."
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "21UDXmMUcs1qiP6vArzmKTV1uxjrRVeWA1Kg/pgprJc=",
-        "originContent": "☕ If you’d like to support this project, feel free to [buy me a coffee on Ko-fi](https://ko-fi.com/imike78)!",
-        "translatedContent": "☕ اگر مایل به حمایت از این پروژه هستید، می‌توانید [برای من یک قهوه در Ko-fi بخرید](https://ko-fi.com/imike78)!"
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 16,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
