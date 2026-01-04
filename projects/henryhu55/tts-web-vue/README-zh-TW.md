@@ -1,46 +1,70 @@
-
 <div align="right">
   <details>
     <summary >🌐 語言</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-CN">簡體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-TW">繁體中文</a>
         | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=id">Bahasa Indonesia</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as">অসমীয়া</
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ko">韓國語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=hi">印地語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=th">泰語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fr">法語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=de">德語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=es">西班牙語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=it">義大利語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ru">俄語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pt">葡萄牙語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=nl">荷蘭語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pl">波蘭語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ar">阿拉伯語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fa">波斯語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=tr">土耳其語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=vi">越南語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=id">印尼語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as">阿薩姆語</
       </div>
     </div>
   </details>
 </div>
 
-# TTS-Vue Web版本
+# [TTS-Vue 網頁版](https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as)
 
-🎤 微軟語音合成工具，Web版本，使用 `Vue` + `ElementPlus` + `Vite` 構建。
+> ✅ **線上演示（推薦）**: [https://xiaoying.work](https://xiaoying.work) (🎁 **每天免費 10,000 字元**)
+>
+> 🚀 **新產品**: 專業配音產品 / 更穩定 / 支援套餐 / 支援更多聲音 / 有任務隊列
+
+🎤 微軟語音合成工具，網頁版，使用 `Vue` + `ElementPlus` + `Vite` 構建。
+
+## 雲端版 / 線上體驗
+這個倉庫是開源 Web UI 的參考實現。如果您需要更穩定、功能更強大的服務，推薦使用我們的官方託管版。
+
+| 特性               | 自行託管 (此倉庫)           | [XiaoYing.work (官方託管)](https://xiaoying.work)  |
+| :----------------- | :------------------------- | :---------------------------------------------- |
+| **部署難度** | 需要自行部署後端、配置環境 | **開箱即用，無需部署**                    |
+| **免費額度** | 依賴後端配置               | **每天免費 10,000 字元**                   |
+| **穩定性**   | 依賴本地網絡環境           | **高可用 SLA，專線加速**                   |
+| **功能**     | 基礎語音合成               | **帳號體系、任務佇列、更多音色、API支援** |
+| **維護**     | 社群維護                   | **官方持續更新維護**                       |
+| **適用場景** | 學習、個人研究             | **生產環境、專業配音、高頻使用**           |
 
 ## 網站示例
 
+### 託管網站介面
+
+https://xiaoying.work (🎁 **每天免費 10,000 字元**)
+
+![1767435524286](https://raw.githubusercontent.com/henryhu55/tts-web-vue/master/image/README/1767435524286.png)
+
 https://web.tts88.top
+
 ### 新版本介面
+
 ![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)
 
 ### 舊版本介面
+
 ![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)
 
 ## 功能特色
@@ -49,48 +73,49 @@ https://web.tts88.top
 - 🔊 支援微軟多種語音合成
 - 🚀 支援TTS88 API整合
 - 🆓 支援免費TTS調用，每日免費額度
-- 🧠 支援OpenAI文字生成
+- 🧠 支援OpenAI的文本生成
 - 🌍 支援多語言：中文、英文、西班牙語
-- 🔐 瀏覽器指紋識別，提供更安全的使用者體驗
+- 🔐 瀏覽器指紋辨識，更安全的使用者體驗
+
 
 ## 最新更新
 
 ### 介面重構與功能增強 (v2.2.0)
 
 - 📱 **UI重構**：固定頂部導航，文字框採用吸頂模式，優化行動端適配
-- 🔤 **SSML增強**：新增SSML格式化功能，設定變更時自動更新SSML
-- 🎵 **播放器優化**：整合播放器至主介面，改進音訊播放及下載體驗
+- 🔤 **SSML增強**：新增SSML格式化功能，根據設定變化自動更新SSML
+- 🎵 **播放器優化**：整合播放器至主介面，改進音訊播放與下載體驗
 - 🎞️ **字幕功能**：新增線上產生字幕功能，提升內容創作效率
-- 🌓 **主題優化**：改善深色模式下介面表現，新增全域主題切換
-- 🛠️ **進階設定**：優化免費TTS服務介面，新增語速和音調配置
-- 💡 **互動體驗**：新增工具提示功能，增強使用者操作指引
+- 🌓 **主題優化**：改善深色模式下的介面表現，增加全域主題切換
+- 🛠️ **進階設定**：優化免費TTS服務介面，新增語速及音調設定
+- 💡 **互動體驗**：新增工具提示功能，增強用戶操作指引
 - 🔄 **依賴升級**：Vue升級至3.5.11，ElementPlus升級至2.9.9
 - 🌐 **連結更新**：更新GitHub倉庫地址
 
 ### 免費TTS服務整合 (v2.1.0)
 
-- 🆕 **免費TTS功能**：無需API密鑰，每日享有免費額度
-- 👤 **瀏覽器指紋識別**：確保每位使用者公平使用免費額度
-- 🔄 **額度狀態顯示**：即時顯示剩餘免費字元數及重置時間
+- 🆕 **免費TTS功能**：無需API金鑰，每天皆有免費額度
+- 👤 **瀏覽器指紋辨識**：確保每位用戶公平使用免費額度
+- 🔄 **額度狀態顯示**：即時顯示剩餘免費字元數及重設時間
 - 🌐 **伺服器狀態檢測**：自動檢測免費TTS伺服器連線狀態
-- 🛡️ **強化錯誤處理**：更友善的錯誤提示及狀態回饋
-- 🎛️ **免費TTS設定面板**：方便使用者配置及查詢額度資訊
+- 🛡️ **強化錯誤處理**：更友善的錯誤提示與狀態回饋
+- 🎛️ **免費TTS設定面板**：方便用戶設定與查看額度資訊
 
 ### 介面與使用者體驗優化 (v2.0.0)
 
-- ✨ **設定區域優化**：設定面板支援摺疊，點擊「語音設定」標題即可展開/摺疊
+- ✨ **設定區優化**：設定面板支援摺疊，點擊「語音設定」標題即可展開/摺疊
 - 🔘 **智慧按鈕位置**：「開始轉換」按鈕移至頂部，無需捲動即可點擊
 - 💬 **狀態提示增強**：新增直觀的轉換狀態提示文字
-- 🎨 **視覺效果改進**：按鈕加入光效動畫，提升使用者體驗
-- 📱 **響應式佈局優化**：改善在不同螢幕尺寸下的顯示效果
+- 🎨 **視覺效果改進**：按鈕新增光效動畫，增強用戶體驗
+- 📱 **響應式排版優化**：改進於不同螢幕尺寸下的顯示效果
 
-這些改進大大提升了使用效率，特別是解決了傳統設計中用戶需要捲動到頁面底部才能點擊「開始轉換」按鈕的問題。現在，無論用戶在頁面的哪個位置，都可以輕鬆啟動轉換流程。
+這些改進大幅提升了使用效率，特別是解決了傳統設計中用戶需捲動至頁面底部才能點擊「開始轉換」按鈕的問題。現在，無論用戶在頁面任何位置，都能輕鬆啟動轉換流程。
 
-## 開發計劃
+## 開發計畫
 
 > **📢 重要通知：桌面版本正在開發中！**
-> 我們正在開發跨平台桌面應用版本，將支援更多功能和更佳的用戶體驗。
-> 敬請期待後續更新，請關注專案動態取得最新資訊。
+> 我們正積極開發跨平台桌面應用版本，將支援更多功能及更佳用戶體驗。
+> 敬請期待後續更新，請關注專案動態以獲取最新資訊。
 
 ## 快速開始
 
@@ -183,6 +208,6 @@ MIT 授權條款
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-04
 
 ---

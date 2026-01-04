@@ -1,0 +1,1394 @@
+[
+  {
+    "row": 1,
+    "rowsha": "biO8HF5TrCTpKEzTFEo3nMCy3hHKuQ/fe0VUqt7D2LQ=",
+    "originContent": "# gfold",
+    "translatedContent": "# gfold"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "1FQ8BIJvySvTUMFEgxPRZEDnjGP0GQatGoKfLd8VzDo=",
+    "originContent": "[![latest release tag](https://img.shields.io/github/v/tag/nickgerace/gfold?sort=semver&logo=git&logoColor=white&label=version&style=for-the-badge&color=blue)](https://github.com/nickgerace/gfold/releases/latest)",
+    "translatedContent": "[![latest release tag](https://img.shields.io/github/v/tag/nickgerace/gfold?sort=semver&logo=git&logoColor=white&label=version&style=for-the-badge&color=blue)](https://github.com/nickgerace/gfold/releases/latest)"
+  },
+  {
+    "row": 4,
+    "rowsha": "dfrzbkbS66iwG3mRW43ohUyAFlYyWAuG1B+fy9ZqUeM=",
+    "originContent": "[![crates.io version](https://img.shields.io/crates/v/gfold?style=for-the-badge&logo=rust&color=orange)](https://crates.io/crates/gfold)",
+    "translatedContent": "[![crates.io version](https://img.shields.io/crates/v/gfold?style=for-the-badge&logo=rust&color=orange)](https://crates.io/crates/gfold)"
+  },
+  {
+    "row": 5,
+    "rowsha": "GsvzgQSJwihdP74aqgjzh+TAFVoYRprkicxpozl9aMI=",
+    "originContent": "[![build status](https://img.shields.io/github/actions/workflow/status/nickgerace/gfold/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white)](https://github.com/nickgerace/gfold/actions)",
+    "translatedContent": "[![build status](https://img.shields.io/github/actions/workflow/status/nickgerace/gfold/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white)](https://github.com/nickgerace/gfold/actions)"
+  },
+  {
+    "row": 6,
+    "rowsha": "PgaFSZeHv1fReay0pMDdeCAr+ngVfLG5s75srThrOIU=",
+    "originContent": "[![calver](https://img.shields.io/badge/calver-YYYY.MM.MICRO-cyan.svg?style=for-the-badge)](https://calver.org)",
+    "translatedContent": "[![calver](https://img.shields.io/badge/calver-YYYY.MM.MICRO-cyan.svg?style=for-the-badge)](https://calver.org)"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "F1zlzZ+7DTRGFkKdD6SYQ9mmBcqZHflVycfDLwfl65Q=",
+    "originContent": "`gfold` is a CLI tool that helps you keep track of multiple Git repositories.",
+    "translatedContent": "`gfold` es una herramienta CLI que te ayuda a mantener un seguimiento de múltiples repositorios Git."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "gxZR0Mg6Sp2QKEwjd7OKoDHyvL9eWMoMZLMDc6uuvys=",
+    "originContent": "[![A GIF showcasing gfold in action](https://raw.githubusercontent.com/nickgerace/gfold/main/assets/demo.gif)](https://raw.githubusercontent.com/nickgerace/gfold/main/assets/demo.gif)",
+    "translatedContent": "[![A GIF showcasing gfold in action](https://raw.githubusercontent.com/nickgerace/gfold/main/assets/demo.gif)](https://raw.githubusercontent.com/nickgerace/gfold/main/assets/demo.gif)"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "M8Tm8RxKMqZX8d+lCx6MwA80l/pwNkA08JXTZRK+aUs=",
+    "originContent": "If you'd prefer to use the classic display mode by default, and avoid setting the flag every time, you can set it in the config file (see **Usage** section).",
+    "translatedContent": "Si prefieres usar el modo de visualización clásico por defecto, y evitar establecer la bandera cada vez, puedes configurarlo en el archivo de configuración (ver sección **Uso**)."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "jmQ+tEYzXoeQRovC2DYtKunyjcJtS9TZNT/mpVzbrvY=",
+    "originContent": "## Announcement (February 2025)",
+    "translatedContent": "## Anuncio (febrero de 2025)"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "aldbL3JyaTXRz52ksQbD2VgGS8n3AoLSdy5h+f2Zvcc=",
+    "originContent": "All releases now follow the [CalVer](https://calver.org/) versioning scheme, starting with `2025.2.1`.",
+    "translatedContent": "Todas las versiones ahora siguen el esquema de versionado [CalVer](https://calver.org/), comenzando con `2025.2.1`."
+  },
+  {
+    "row": 17,
+    "rowsha": "7ckHuu6606HHOeDdVo8zrCj2ub3k4PwJ+YKGTpblCwo=",
+    "originContent": "This change is both forwards and backwards compatible with the [Semantic Versioning](https://semver.org/spec/v2.0.0.html) versioning scheme, which was used from the first release through version `4.6.0`.",
+    "translatedContent": "Este cambio es compatible tanto hacia adelante como hacia atrás con el esquema de versionado [Semantic Versioning](https://semver.org/spec/v2.0.0.html), que se usó desde la primera versión hasta la versión `4.6.0`."
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "vD+h5rVicMa0WcjsGxCROSaw9UNK0RBZfoKVJffSC4g=",
+    "originContent": "*No end user action is required specifically for the versioning scheme change itself.*",
+    "translatedContent": "*No se requiere ninguna acción por parte del usuario final específicamente para el cambio del esquema de versionado.*"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "xBjqJDuKmDBWMIx+WqjkC52MItMOds9AzNHo85zkTG4=",
+    "originContent": "This announcement will be eventually removed from this [README](https://raw.githubusercontent.com/nickgerace/gfold/main/./README.md) and will eventually be moved into the [CHANGELOG](https://raw.githubusercontent.com/nickgerace/gfold/main/./CHANGELOG.md).",
+    "translatedContent": "Este anuncio eventualmente será removido de este [README](https://raw.githubusercontent.com/nickgerace/gfold/main/./README.md) y será trasladado al [CHANGELOG](https://raw.githubusercontent.com/nickgerace/gfold/main/./CHANGELOG.md)."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "K0XdQb6cPR2XYn4/Xr3GLliF7Co62hbZTlUnZJsZ2Bk=",
+    "originContent": "## Description",
+    "translatedContent": "## Descripción"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "rMzmO/GqIkJJHwGOHrjZ7A6YFHuKlmyLRjbHInKEVAo=",
+    "originContent": "This app displays relevant information for multiple Git repositories in one to many directories.",
+    "translatedContent": "Esta aplicación muestra información relevante para múltiples repositorios Git en uno o varios directorios."
+  },
+  {
+    "row": 26,
+    "rowsha": "Squr1hBRH0jgkk1NF69FtroCX531a8jBGMdvghsxhlI=",
+    "originContent": "It only reads from the filesystem and will never write to it.",
+    "translatedContent": "Solo lee del sistema de archivos y nunca escribirá en él."
+  },
+  {
+    "row": 27,
+    "rowsha": "FqgtU/MDk99tWcob0ikFyoL6zlcwY+j182LXxAJnI7w=",
+    "originContent": "While this tool might seem limited in scope and purpose, that is by design.",
+    "translatedContent": "Aunque esta herramienta pueda parecer limitada en alcance y propósito, esto es por diseño."
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "vZy0NPcf4fs6etgepeaNto0LqUpliNoqD5JpNlxooek=",
+    "originContent": "By default, `gfold` looks at every Git repository via traversal from the current working directory.",
+    "translatedContent": "Por defecto, `gfold` examina cada repositorio Git mediante un recorrido desde el directorio de trabajo actual."
+  },
+  {
+    "row": 30,
+    "rowsha": "gfKvY/GGrRm3zjLgIO69UCj7Zj1M4recVia5T8dUZ9E=",
+    "originContent": "If you would like to target another directory, you can pass its path (relative or absolute) as the first argument or change the default path in the config file.",
+    "translatedContent": "Si deseas apuntar a otro directorio, puedes pasar su ruta (relativa o absoluta) como primer argumento o cambiar la ruta por defecto en el archivo de configuración."
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "BVaz3a+FhozpUQjjJubVYQSc5mETsNfLzkIyN+DXD18=",
+    "originContent": "After traversal, `gfold` leverages [rayon](https://github.com/rayon-rs/rayon) to perform concurrent, read-only analysis of all Git repositories detected.",
+    "translatedContent": "Después del recorrido, `gfold` utiliza [rayon](https://github.com/rayon-rs/rayon) para realizar un análisis concurrente y solo de lectura de todos los repositorios Git detectados."
+  },
+  {
+    "row": 33,
+    "rowsha": "/NHszInhqhPNWCUOv96LJWk84NulPWYLIAkIqTyWw3U=",
+    "originContent": "Analysis is performed by leveraging the [git2-rs](https://github.com/rust-lang/git2-rs) library.",
+    "translatedContent": "El análisis se realiza utilizando la biblioteca [git2-rs](https://github.com/rust-lang/git2-rs)."
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Uso"
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "NdjHL4hSlmpPxsX2etvf6/gsKhEb1/cH7xwqmfrMQvE=",
+    "originContent": "Provide the `-h/--help` flag to see all the options for using this application.",
+    "translatedContent": "Proporciona la bandera `-h/--help` para ver todas las opciones para usar esta aplicación."
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 40,
+    "rowsha": "tQxSDxbp4tR/6htxmJL/m2MXX3UKunUIEkD3xIOQn/w=",
+    "originContent": "# Operate in the current working directory or in the location provided by a config file, if one exists.",
+    "translatedContent": "# Operate in the current working directory or in the location provided by a config file, if one exists."
+  },
+  {
+    "row": 41,
+    "rowsha": "m5oOREvXCcTtfewoqL0ucfNBTDaQywAEGpoJEZl+98s=",
+    "originContent": "gfold",
+    "translatedContent": "gfold"
+  },
+  {
+    "row": 42,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "2pZNgek5skE8cT0WV7mcj9U4CK6iwRSksQjLmyKtMb4=",
+    "originContent": "# Operate in the parent directory.",
+    "translatedContent": "# Operate in the parent directory."
+  },
+  {
+    "row": 44,
+    "rowsha": "M6q4vzVlRzMpOdQ8PehrF6PYKOKpfu25ZPhMe8mhL1o=",
+    "originContent": "gfold ..",
+    "translatedContent": "gfold .."
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "GTXk7hK0QFg7Y7es5XkM19x7jXlxitOL5tLQexfpwh4=",
+    "originContent": "# Operate in the home directory (first method).",
+    "translatedContent": "# Operate in the home directory (first method)."
+  },
+  {
+    "row": 47,
+    "rowsha": "jKumTvM3TCGe8uV0xqj0TTd90yNiNxwajOgV/vSviWs=",
+    "originContent": "gfold $HOME",
+    "translatedContent": "gfold $HOME"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "SBXeJXSpSUh98zxCkV0vTFa9rFlWe43axZlIP3eiF9I=",
+    "originContent": "# Operate in the home directory (second method).",
+    "translatedContent": "# Operate in the home directory (second method)."
+  },
+  {
+    "row": 50,
+    "rowsha": "Z57mrRKoajJphujZzKZ6K9IQyuu6eYB0oHpkTHGhmFs=",
+    "originContent": "gfold ~/",
+    "translatedContent": "gfold ~/"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "Iae7mx0dWfHGG33lEpwSzed+MFNO7o5pzYmtYDjLnLg=",
+    "originContent": "# Operate with an absolute path.",
+    "translatedContent": "# Operate with an absolute path."
+  },
+  {
+    "row": 53,
+    "rowsha": "6d312c09AOgUQ5MBp6J0EOWJKFyN2TvZNNxhf2rpDt8=",
+    "originContent": "gfold /this/is/an/absolute/path",
+    "translatedContent": "gfold /this/is/an/absolute/path"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "qI0LEi5KGDm9AeVv+jfxg4FXZSGf232cYuTXBrtTrU4=",
+    "originContent": "# Operate with a relative path.",
+    "translatedContent": "# Operate with a relative path."
+  },
+  {
+    "row": 56,
+    "rowsha": "03xsJfJf1mCsg+dZIHp0FJthpRghPRoT7Dd4vpUrjJY=",
+    "originContent": "gfold ../../this/is/a/relative/path",
+    "translatedContent": "gfold ../../this/is/a/relative/path"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "EbiAK+RuB3UxKUerQvEyRBHYKlVX8puzBscGkeLGtsk=",
+    "originContent": "# Operate with three paths.",
+    "translatedContent": "# Operate with three paths."
+  },
+  {
+    "row": 59,
+    "rowsha": "tCEIpmTTJ9U56hHeiTw6lQVovjb+HVMvesiSoKD+O04=",
+    "originContent": "gfold ~/src ~/projects ~/code",
+    "translatedContent": "gfold ~/src ~/projects ~/code"
+  },
+  {
+    "row": 60,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "yY9MH9IMZo0Ljp6+kzXWhp66iof3BTF43l/YeqSujuE=",
+    "originContent": "### Config File",
+    "translatedContent": "### Archivo de Configuración"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "6yvMVEpdMjcWBFHrVgBeG7YO38971ey5slKpbGXX0fc=",
+    "originContent": "If you find yourself providing the same arguments frequently, you can create and use a config file.",
+    "translatedContent": "Si te encuentras proporcionando los mismos argumentos con frecuencia, puedes crear y usar un archivo de configuración.  "
+  },
+  {
+    "row": 65,
+    "rowsha": "JaoisQlMOD3Dqr7UTtuocj51R+H+yLb0zDwEFeYYgR8=",
+    "originContent": "`gfold` does not come with a config file by default and config files are entirely optional.",
+    "translatedContent": "`gfold` no incluye un archivo de configuración por defecto y los archivos de configuración son completamente opcionales."
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "w/FXma9QOkZbhe2IPTGWc0zK7/phqV1jvVPcJhjz14U=",
+    "originContent": "How does it work?",
+    "translatedContent": "¿Cómo funciona?  "
+  },
+  {
+    "row": 68,
+    "rowsha": "hUqgnWrUoEqNkgTfyEbt296LQ5aaKeSQ/JWk6c79rn8=",
+    "originContent": "Upon execution, `gfold` will look for a config file at the following paths (in order):",
+    "translatedContent": "Al ejecutarse, `gfold` buscará un archivo de configuración en las siguientes rutas (en orden):"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "MfMBgLStJeLs1oMJsm7rhFPljAtYIhtPfv5ftvUxmx8=",
+    "originContent": "- `$XDG_CONFIG_HOME/gfold.toml`",
+    "translatedContent": "- `$XDG_CONFIG_HOME/gfold.toml`"
+  },
+  {
+    "row": 71,
+    "rowsha": "HVDEdWEPDCLWjUsZyST1R4WxWuc6BsYklwidOiNzgvU=",
+    "originContent": "- `$XDG_CONFIG_HOME/gfold/config.toml`",
+    "translatedContent": "- `$XDG_CONFIG_HOME/gfold/config.toml`"
+  },
+  {
+    "row": 72,
+    "rowsha": "bBGO/2A+fOs5MT25ZY0cj4rUxImLIH2C/Yh/D1Q8ffo=",
+    "originContent": "- `$HOME/.config/gfold.toml`",
+    "translatedContent": "- `$HOME/.config/gfold.toml`"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "IpdEgArQdaxpWrdH3ouAQ6p65jqN/08Bk4vRkF4DwHM=",
+    "originContent": "`$XDG_CONFIG_HOME` refers to the literal `XDG_CONFIG_HOME` environment variable, but will default to the appropriate operating system-specific path if not set (see [`user_dirs`](https://github.com/uncenter/user_dirs) for more information).",
+    "translatedContent": "`$XDG_CONFIG_HOME` se refiere a la variable de entorno literal `XDG_CONFIG_HOME`, pero por defecto usará la ruta específica del sistema operativo si no está establecida (consulta [`user_dirs`](https://github.com/uncenter/user_dirs) para más información)."
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "n+kzcv5D+chhzkRbNa7hJnmxwi2H5EgBLmZseAncfdc=",
+    "originContent": "If a config file is found, `gfold` will read it and use the options specified within.",
+    "translatedContent": "Si se encuentra un archivo de configuración, `gfold` lo leerá y usará las opciones especificadas dentro."
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "7+M4m2C9yk+BG1XepZAXBs49+CU1UMPZLtQaVMxqjtQ=",
+    "originContent": "For config file creation, you can use the `--dry-run` flag to print valid TOML.",
+    "translatedContent": "Para crear un archivo de configuración, puedes usar el indicador `--dry-run` para imprimir TOML válido.  "
+  },
+  {
+    "row": 79,
+    "rowsha": "dREQsjbCVtl5BLmL5iI4TwroqJxLr59kxB/LdzJsKdI=",
+    "originContent": "Here is an example config file creation workflow on macOS, Linux and similar platforms:",
+    "translatedContent": "Aquí hay un ejemplo de flujo de trabajo para crear un archivo de configuración en macOS, Linux y plataformas similares:"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 82,
+    "rowsha": "XgtGFoVKMjCn/mX3oMSzEBmObpPcJCUpU0uKcMc3Zd4=",
+    "originContent": "gfold -d classic -c never ~/ --dry-run > $HOME/.config/gfold.toml",
+    "translatedContent": "gfold -d classic -c never ~/ --dry-run > $HOME/.config/gfold.toml"
+  },
+  {
+    "row": 83,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "gb4PCv/FUvDyJvaEQmXV0addeYM2ukJLBgnZmqEXPSY=",
+    "originContent": "Here are the contents of the resulting config file:",
+    "translatedContent": "Aquí están los contenidos del archivo de configuración resultante:"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+    "originContent": "```toml",
+    "translatedContent": "```toml"
+  },
+  {
+    "row": 88,
+    "rowsha": "h58l9/zHDt6ZUnUT2FyiOlVt49+tzW6p0w+93kcjm6o=",
+    "originContent": "paths = ['/home/neloth']",
+    "translatedContent": "paths = ['/home/neloth']"
+  },
+  {
+    "row": 89,
+    "rowsha": "XVsrZBwXVKD+92h+H9pxXjFlAsZewXqHXgoRUhICAXQ=",
+    "originContent": "display_mode = 'Classic'",
+    "translatedContent": "display_mode = 'Classic'"
+  },
+  {
+    "row": 90,
+    "rowsha": "I2yH13SHNqmcJ+n+eOUcCx/ZCT7+NuqLAqb9B0sO7jU=",
+    "originContent": "color_mode = 'Never'",
+    "translatedContent": "color_mode = 'Never'"
+  },
+  {
+    "row": 91,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "A1/gNaF3FHnt7rEDPXjuhogD4VASA6tj7dlZFnCKOvc=",
+    "originContent": "Let's say you created a config file, but wanted to execute `gfold` with entirely different settings _and_ you want to ensure that",
+    "translatedContent": "Supongamos que creaste un archivo de configuración, pero quieres ejecutar `gfold` con configuraciones completamente diferentes _y_ quieres asegurarte de no heredar accidentalmente opciones del archivo de configuración."
+  },
+  {
+    "row": 94,
+    "rowsha": "YfwEmMcC5QNNqXbcn5BUQdgj9viABWY/uQ/GpeW053E=",
+    "originContent": "you do not accidentally inherit options from the config file.",
+    "translatedContent": "En ese caso, puedes ignorar tu archivo de configuración usando la opción `-i`."
+  },
+  {
+    "row": 95,
+    "rowsha": "MjRi7cIp/mvNb0Dh6MGrbJnHyEEDiUz8lCvNjzoKJlc=",
+    "originContent": "In that scenario you can ignore your config file by using the `-i` flag.",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 98,
+    "rowsha": "+QyD1G1cJW8a1T6TWcEPDE8PaytS1NtbLDskiGVuzAU=",
+    "originContent": "gfold -i",
+    "translatedContent": "gfold -i"
+  },
+  {
+    "row": 99,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 101,
+    "rowsha": "APaei9LJZmWOR9TYGsagtlnm3514KankzUds867CJIU=",
+    "originContent": "You can restore the config file to its defaults by using the same flag.",
+    "translatedContent": "Puede restaurar el archivo de configuración a sus valores predeterminados utilizando la misma bandera."
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 104,
+    "rowsha": "RMojTgvmEag8dACibQANWQ26n8lXb2aZl/WwDPlBDXk=",
+    "originContent": "gfold -i > $HOME/.config/gfold.toml",
+    "translatedContent": "gfold -i > $HOME/.config/gfold.toml"
+  },
+  {
+    "row": 105,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "ZhvmCXlprPa/AGoaK5nvnMaOCW0OdDi6fWq8cSxFvYs=",
+    "originContent": "In addition, you can ignore the existing config file, configure specific options, and use defaults for unspecified options all at once.",
+    "translatedContent": "Además, puedes ignorar el archivo de configuración existente, configurar opciones específicas y usar valores predeterminados para las opciones no especificadas, todo a la vez."
+  },
+  {
+    "row": 108,
+    "rowsha": "0vhjPLSinjTVfl8td1xv3AXf44SU0ERdYg699ziIFiI=",
+    "originContent": "Here is an example where we want to use the classic display mode and override all other settings with their default values:",
+    "translatedContent": "Aquí hay un ejemplo donde queremos usar el modo de visualización clásico y anular todas las demás configuraciones con sus valores predeterminados:"
+  },
+  {
+    "row": 109,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 111,
+    "rowsha": "ZBfhsc8YmWvxfLaRi+FBS/OIq9vJ8l8J3cmBf4z4FvE=",
+    "originContent": "gfold -i -d classic > $HOME/.config/gfold.toml",
+    "translatedContent": "gfold -i -d classic > $HOME/.config/gfold.toml"
+  },
+  {
+    "row": 112,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "S5G7Igrmkbweqocx8Y3Zon7IbFlYEV83hLNMR+tqZSA=",
+    "originContent": "You can back up a config file and track its history with `git`.",
+    "translatedContent": "Puedes hacer una copia de seguridad de un archivo de configuración y rastrear su historial con `git`."
+  },
+  {
+    "row": 115,
+    "rowsha": "hw50oukAKrYbR9tGUxxTqVHGVfdYEyY1kA6eL2bXevY=",
+    "originContent": "On macOS, Linux, and most systems, you can link the file back to a `git` repository.",
+    "translatedContent": "En macOS, Linux y la mayoría de los sistemas, puedes enlazar el archivo a un repositorio `git`."
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 118,
+    "rowsha": "R0lyRoMEWsdy9z6VDDNO7xqcuwD+WCuitUFc4FrtZTo=",
+    "originContent": "ln -s <path-to-repository>/gfold.toml $HOME/.config/gfold.toml",
+    "translatedContent": "ln -s <path-to-repository>/gfold.toml $HOME/.config/gfold.toml"
+  },
+  {
+    "row": 119,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Ahora, puede actualizar el archivo de configuración dentro de su repositorio e incluir el enlace como parte de su flujo de trabajo de configuración del entorno."
+  },
+  {
+    "row": 121,
+    "rowsha": "wr+w4penqSD3Pbxvao7CqirFcbrJCxe0WQg/tWGAUis=",
+    "originContent": "Now, you can update the config file within your repository and include the linking as part of your environment setup workflow.",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Instalación"
+  },
+  {
+    "row": 123,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[![Estado del empaquetado](https://repology.org/badge/vertical-allrepos/gfold.svg)](https://repology.org/project/gfold/versions)"
+  },
+  {
+    "row": 125,
+    "rowsha": "NvK7F9sL9tt5A2Ktpj+lOU8+V9xk9xtG8I8FlkH7zFY=",
+    "originContent": "[![Packaging status](https://repology.org/badge/vertical-allrepos/gfold.svg)](https://repology.org/project/gfold/versions)",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Homebrew (macOS y Linux)"
+  },
+  {
+    "row": 127,
+    "rowsha": "cpZM2r40VDSL3WzuTNyxjavsMH+JqSl1d9s/gsoKujg=",
+    "originContent": "### Homebrew (macOS and Linux)",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Puede usar [Homebrew](https://brew.sh) para instalar `gfold` usando la [fórmula principal](https://formulae.brew.sh/formula/gfold)."
+  },
+  {
+    "row": 129,
+    "rowsha": "nHCVa8F+pCpKV4X3ZSGj/fKrxGd6ukz2wnWowobUtqo=",
+    "originContent": "You can use [Homebrew](https://brew.sh) to install `gfold` using the [core formulae](https://formulae.brew.sh/formula/gfold).",
+    "translatedContent": ""
+  },
+  {
+    "row": 130,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Sin embargo, puede encontrarse con una colisión de nombres en macOS si [coreutils](https://formulae.brew.sh/formula/coreutils) está instalado vía `brew`."
+  },
+  {
+    "row": 131,
+    "rowsha": "gn4SIlM5WjuDnPDHi5H2JtXdCtARhhOmIHfiAtF/PZ8=",
+    "originContent": "However, you may run into a naming collision on macOS if [coreutils](https://formulae.brew.sh/formula/coreutils) is installed via `brew`.",
+    "translatedContent": "Consulte la sección de [solución de problemas](#troubleshooting-and-known-issues) para una solución alternativa y más información."
+  },
+  {
+    "row": 132,
+    "rowsha": "BmV+BVx6KQy5ereNbdOIN80tpjHfCeW81hj1FhXgKIU=",
+    "originContent": "See the [troubleshooting](#troubleshooting-and-known-issues) section for a workaround and more information.",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 135,
+    "rowsha": "9Yr9hVOdxmWgSgMjFaqxc8otnUIYo86pKm7CR69p2D0=",
+    "originContent": "brew install gfold",
+    "translatedContent": "brew install gfold"
+  },
+  {
+    "row": 136,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "RQFrN56R8SItWveUdvw3XJmmo6YZk0kQVJGKa+yl2Zc=",
+    "originContent": "### Arch Linux",
+    "translatedContent": "### Arch Linux"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "Ex9QySevEz/PurOGL6QZE3lUjfW0e+qG4GoTKVOV/nc=",
+    "originContent": "You can use [pacman](https://wiki.archlinux.org/title/Pacman) to install `gfold` from the [extra repository](https://archlinux.org/packages/extra/x86_64/gfold/).",
+    "translatedContent": "Puedes usar [pacman](https://wiki.archlinux.org/title/Pacman) para instalar `gfold` desde el [repositorio extra](https://archlinux.org/packages/extra/x86_64/gfold/)."
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 143,
+    "rowsha": "6V488tWsOfAuBOe5PYb3w3U4FmsX5LOztVLkfd9ufac=",
+    "originContent": "pacman -S gfold",
+    "translatedContent": "pacman -S gfold"
+  },
+  {
+    "row": 144,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "tA73VfsjpFahOU3w4vGQHvGsMlz4qQyImR4VvK/4mho=",
+    "originContent": "### Nix and NixOS",
+    "translatedContent": "### Nix y NixOS"
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "akw3DGAxQyi/d8CSvsPzdfXTRQ4drNLt3qUhn3AYS6U=",
+    "originContent": "You can install `gfold` from [nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/version-management/gfold/default.nix):",
+    "translatedContent": "Puedes instalar `gfold` desde [nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/version-management/gfold/default.nix):"
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 151,
+    "rowsha": "MBynh6pOFYv4Cjcp/6iK4sE6fmXSlFQ+2F0zQRCGogc=",
+    "originContent": "nix-env --install gfold",
+    "translatedContent": "nix-env --install gfold"
+  },
+  {
+    "row": 152,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "UDQVVkkWhF7fKCVa+VPz2fsA0+Hr82dNARy2fv6phzg=",
+    "originContent": "If you are using [flakes](https://nixos.wiki/wiki/Flakes), you can install using the `nix` command directly.",
+    "translatedContent": "Si estás utilizando [flakes](https://nixos.wiki/wiki/Flakes), puedes instalar usando el comando `nix` directamente."
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 157,
+    "rowsha": "StYSstRIr3zLmXj4FAyzeA2RsmjxVx5RD32F4ynsky8=",
+    "originContent": "nix profile install \"nixpkgs#gfold\"",
+    "translatedContent": "nix profile install \"nixpkgs#gfold\""
+  },
+  {
+    "row": 158,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "S/0xZYWJN+sozA5d3nyuw+LKftpI/DZUqza9cz9J+Iw=",
+    "originContent": "### Cargo",
+    "translatedContent": "### Cargo"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "BwpXm22N0hyjYSEDYJEbYpVyAVKn9xZY9PeQY6X6ONI=",
+    "originContent": "You can use [cargo](https://crates.io) to install the [crate](https://crates.io/crates/gfold) on almost any platform.",
+    "translatedContent": "Puedes usar [cargo](https://crates.io) para instalar el [crate](https://crates.io/crates/gfold) en casi cualquier plataforma."
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 164,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 165,
+    "rowsha": "MAYHBgDpRGZjKBaBM/3Af5YZqHb9/IjcVFpFSkzz24k=",
+    "originContent": "cargo install gfold",
+    "translatedContent": "cargo install gfold"
+  },
+  {
+    "row": 166,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "4d7xdMtmbkew0jVjTxUe4U5iCzmhpaUYfTgImAb96fc=",
+    "originContent": "Use the `--locked` flag if you'd like Cargo to use `Cargo.lock`.",
+    "translatedContent": "Utilice la bandera `--locked` si desea que Cargo use `Cargo.lock`."
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 171,
+    "rowsha": "qW4J4lBZXhOci3H1/a6380FASNWI4X/qeK4W+/Mbcdw=",
+    "originContent": "cargo install --locked gfold",
+    "translatedContent": "cargo install --locked gfold"
+  },
+  {
+    "row": 172,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "1PxHUnZQru+YU05FJ7p1YmBRWldT318bBoO49kP1S74=",
+    "originContent": "Keeping the crate up to date is easy with [cargo-update](https://crates.io/crates/cargo-update).",
+    "translatedContent": "Mantener la crate actualizada es fácil con [cargo-update](https://crates.io/crates/cargo-update)."
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 177,
+    "rowsha": "Vx/0lMwBgFOptSuaCW6UVAlmvxjHz4JNv1lR2cKjQ+0=",
+    "originContent": "cargo install cargo-update",
+    "translatedContent": "cargo install cargo-update"
+  },
+  {
+    "row": 178,
+    "rowsha": "3PgglWQ+C3Azlak34nnSrgj1d1Dggd8H4XP66zF7Gs8=",
+    "originContent": "cargo install-update -a",
+    "translatedContent": "cargo install-update -a"
+  },
+  {
+    "row": 179,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Descargar un Binario"
+  },
+  {
+    "row": 181,
+    "rowsha": "FF7yMIbB3UqEf22L1/A/6eAVvoP77OkaA9F6fB1r4yk=",
+    "originContent": "### Download a Binary",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Si no desea usar uno de los métodos de instalación mencionados anteriormente y no quiere clonar el repositorio, puede descargar un binario desde la página de [releases](https://github.com/nickgerace/gfold/releases)."
+  },
+  {
+    "row": 183,
+    "rowsha": "r8u6SFcL7ueLDPctqzClcs0UPCPDBHK1BRxudNpqBLQ=",
+    "originContent": "If you do not want to use one of the above installation methods and do not want to clone the repository, you can download a binary from the [releases](https://github.com/nickgerace/gfold/releases) page.",
+    "translatedContent": "Para un ejemplo de cómo hacerlo, consulte la guía de [instalación manual](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/MANUAL_INSTALL.md)."
+  },
+  {
+    "row": 184,
+    "rowsha": "k0klVLkBZ6CCIkUWPcFiF5b3bpsgZks02or2RuDwglk=",
+    "originContent": "For an example on how to do that, refer to the [manual install](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/MANUAL_INSTALL.md) guide.",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Compilar Desde el Código Fuente"
+  },
+  {
+    "row": 186,
+    "rowsha": "nR63g3HErMK53NlXCEBMlgFlMkoRPFWmoI4PGjzMhM0=",
+    "originContent": "### Build From Source",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Si desea un ejemplo de cómo compilar desde el código fuente, consulte la guía de [instalación manual](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/MANUAL_INSTALL.md)."
+  },
+  {
+    "row": 188,
+    "rowsha": "ZElbCOv07wI22V3ncVeWX7lh0wI8wkCa/Yed2qXTe4M=",
+    "originContent": "If you would like an example on how to build from source, refer to the [manual install](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/MANUAL_INSTALL.md) guide.",
+    "translatedContent": ""
+  },
+  {
+    "row": 189,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Obsoleto: Homebrew Tap (solo macOS)"
+  },
+  {
+    "row": 190,
+    "rowsha": "gK57nOCBpQwnScB5rYl4OwfjZXVcP1BbhZJqEYMh1Ec=",
+    "originContent": "### Deprecated: Homebrew Tap (macOS only)",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "El [tap ubicado en nickgerace/homebrew-nickgerace](https://github.com/nickgerace/homebrew-nickgerace/blob/main/Formula/gfold.rb) ha sido descontinuado."
+  },
+  {
+    "row": 192,
+    "rowsha": "ZqFVvASi12AvUMB/BVkCvcvnKQjb4b0+6nirdeN1If0=",
+    "originContent": "The [tap located at nickgerace/homebrew-nickgerace](https://github.com/nickgerace/homebrew-nickgerace/blob/main/Formula/gfold.rb) has been deprecated.",
+    "translatedContent": "Por favor, use el paquete principal de Homebrew mencionado anteriormente."
+  },
+  {
+    "row": 193,
+    "rowsha": "6yJ7U7zZJZ85+FkqUXfv4mS2QE/uoGTCR4dGEXjqpPw=",
+    "originContent": "Please use the aforementioned core Homebrew package instead.",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### ¿No está listado el Método de Instalación Preferido?"
+  },
+  {
+    "row": 195,
+    "rowsha": "V2iwyvuTV+rgRiqmGVr7dqeiOi0RGpg5bcEFat4XHpE=",
+    "originContent": "### Preferred Installation Method Not Listed?",
+    "translatedContent": ""
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "¡Por favor [abra un issue](https://github.com/nickgerace/gfold/issues/new)!"
+  },
+  {
+    "row": 197,
+    "rowsha": "5BJW4Ta/xZy5J9mAAiTJxcRxaGtTeSSNCZRGG1fDGQ4=",
+    "originContent": "Please [file an issue](https://github.com/nickgerace/gfold/issues/new)!",
+    "translatedContent": ""
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Compatibilidad"
+  },
+  {
+    "row": 199,
+    "rowsha": "ToF55XSC5N+RkvpW3gy7KfKIb5yrXRpshO7tai3jNdg=",
+    "originContent": "## Compatibility",
+    "translatedContent": ""
+  },
+  {
+    "row": 200,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`gfold` está diseñado para ejecutarse en _cualquier_ objetivo Rust 🦀 de nivel uno."
+  },
+  {
+    "row": 201,
+    "rowsha": "WBMpC9Thzz2AgreCbbIncyEjWilILe3aafjOPQHR1PQ=",
+    "originContent": "`gfold` is intended to be ran on _any_ tier one Rust 🦀 target.",
+    "translatedContent": "Por favor [abra un issue](https://github.com/nickgerace/gfold/issues) si su plataforma no es compatible."
+  },
+  {
+    "row": 202,
+    "rowsha": "AcfGCUGU2Txf3Su0s8dJRKPsU0g4t77Shd3W/RQhuSE=",
+    "originContent": "Please [file an issue](https://github.com/nickgerace/gfold/issues) if your platform is unsupported.",
+    "translatedContent": ""
+  },
+  {
+    "row": 203,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Resolución de Problemas y Problemas Conocidos"
+  },
+  {
+    "row": 204,
+    "rowsha": "1uli3+imTS2wUrTY2N6WneCGQn8u0s2Ung8H27IEvDs=",
+    "originContent": "## Troubleshooting and Known Issues",
+    "translatedContent": ""
+  },
+  {
+    "row": 205,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Si encuentra un comportamiento inesperado o un error y desea ver más detalles, ejecute con mayor nivel de verbosidad."
+  },
+  {
+    "row": 206,
+    "rowsha": "GxnZu3c3xfGG45HHJoLRsaMw+H+fZQaUTX6sKPUgx/g=",
+    "originContent": "If you encounter unexpected behavior or a bug and would like to see more details, please run with increased verbosity.",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 208,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 209,
+    "rowsha": "llOoXz79h1mqOEK3+Whf51jeYUDAXORl49F+kkIklD8=",
+    "originContent": "gfold -vvv",
+    "translatedContent": "gfold -vvv"
+  },
+  {
+    "row": 210,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 211,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 212,
+    "rowsha": "/I7Lb+KTK+BttQSpBstCeXHg7q932mcXJCuXBCbyKqg=",
+    "originContent": "If the issue persists, please [file an issue](https://github.com/nickgerace/gfold/issues).",
+    "translatedContent": "Si el problema persiste, por favor [informe un problema](https://github.com/nickgerace/gfold/issues)."
+  },
+  {
+    "row": 213,
+    "rowsha": "s9Ad0JzCqPLkSlFHJSoiZWArkA53Eop3MGKwmJWqji4=",
+    "originContent": "Please attach relevant logs from execution with _sensitive bits redacted_ in order to help resolve your issue.",
+    "translatedContent": "Adjunte los registros relevantes de la ejecución con _partes sensibles redactadas_ para ayudar a resolver su problema."
+  },
+  {
+    "row": 214,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 215,
+    "rowsha": "c+vkgH3VXjeVlATzhAij2ltwMJQfFDyYZhrEiEMdGl0=",
+    "originContent": "### Coreutils Collision on macOS",
+    "translatedContent": "### Colisión de Coreutils en macOS"
+  },
+  {
+    "row": 216,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 217,
+    "rowsha": "LVuhKDmSnLwoToOVG0ktECo5IAifq3dYBC0tbfyiQlc=",
+    "originContent": "If `fold` from [GNU Coreutils](https://www.gnu.org/software/coreutils/) is installed on macOS via `brew`, it will be named `gfold`.",
+    "translatedContent": "Si `fold` de [GNU Coreutils](https://www.gnu.org/software/coreutils/) está instalado en macOS vía `brew`, se llamará `gfold`."
+  },
+  {
+    "row": 218,
+    "rowsha": "k7PX/yRsHLrlpMUbx1xOHGqFk5CS3VEz6eUHHQ1HOkI=",
+    "originContent": "You can avoid this collision with shell aliases, shell functions, and/or `PATH` changes.",
+    "translatedContent": "Puede evitar esta colisión con alias de shell, funciones de shell y/o cambios en el `PATH`."
+  },
+  {
+    "row": 219,
+    "rowsha": "ckWN/shbr7gfygGKmAon6PvkiUJDtbS1KmzJsxCMZdc=",
+    "originContent": "Here is an example with the `o` dropped from `gfold`:",
+    "translatedContent": "Aquí hay un ejemplo con la `o` eliminada de `gfold`:"
+  },
+  {
+    "row": 220,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 222,
+    "rowsha": "aYno9bzMTUxJ+8jaXGVmdCKfPawNkUnbfAUqGw4V12o=",
+    "originContent": "alias gfld=$HOME/.cargo/bin/gfold",
+    "translatedContent": "alias gfld=$HOME/.cargo/bin/gfold"
+  },
+  {
+    "row": 223,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "vpVfa1NlR4kP0/NRL7eiXU6zj5WLWqa6scBMZmD4ye0=",
+    "originContent": "## Community",
+    "translatedContent": "## Comunidad"
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "/UqXhBRl/xKb8W88sE4UOjVNWX7OuGBJVtsWimwvLk8=",
+    "originContent": "For more information and thanks to users and the \"community\" at large, please refer to the **[COMMUNITY THANKS](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/COMMUNITY_THANKS.md)** file.",
+    "translatedContent": "Para más información y agradecimientos a los usuarios y a la \"comunidad\" en general, por favor consulte el archivo **[AGRADECIMIENTOS DE LA COMUNIDAD](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/COMMUNITY_THANKS.md)**."
+  },
+  {
+    "row": 228,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 229,
+    "rowsha": "54O9OSCaygjYDa6HPlft2wlLzuCitxAeMIL5QfP13qY=",
+    "originContent": "- [Packages for NixOS, Arch Linux and more](https://repology.org/project/gfold/versions)",
+    "translatedContent": "- [Paquetes para NixOS, Arch Linux y más](https://repology.org/project/gfold/versions)"
+  },
+  {
+    "row": 230,
+    "rowsha": "UkBx4AdTFSLA2jLGXJMURn7pDpkM7fgaIAO3nQl6kb8=",
+    "originContent": "- [\"One Hundred Rust Binaries\"](https://www.wezm.net/v2/posts/2020/100-rust-binaries/page2/), an article that featured `gfold`",
+    "translatedContent": "- [\"Cien binarios en Rust\"](https://www.wezm.net/v2/posts/2020/100-rust-binaries/page2/), un artículo que presentó a `gfold`"
+  },
+  {
+    "row": 231,
+    "rowsha": "Zn80JTq8IXM8YTL3BA8rHcbccEL9A5p3gtrbZ/O01TI=",
+    "originContent": "- [nvim-gfold.lua](https://github.com/AckslD/nvim-gfold.lua), a `neovim` plugin for `gfold` _([announcement Reddit post](https://www.reddit.com/r/neovim/comments/t209wy/introducing_nvimgfoldlua/))_",
+    "translatedContent": "- [nvim-gfold.lua](https://github.com/AckslD/nvim-gfold.lua), un plugin de `neovim` para `gfold` _([anuncio en Reddit](https://www.reddit.com/r/neovim/comments/t209wy/introducing_nvimgfoldlua/))_"
+  },
+  {
+    "row": 232,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

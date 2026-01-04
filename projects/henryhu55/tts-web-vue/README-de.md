@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Sprache</summary>
@@ -30,67 +29,93 @@
   </details>
 </div>
 
-# TTS-Vue Web-Version
+# [TTS-Vue Webversion](https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as)
 
-🎤 Microsoft Sprachsynthese-Tool, Web-Version, erstellt mit `Vue` + `ElementPlus` + `Vite`.
+> ✅ **Online-Demo (Empfohlen)**: [https://xiaoying.work](https://xiaoying.work) (🎁 **Täglich 10.000 Zeichen kostenlos**)
+>
+> 🚀 **Neues Produkt**: Professionelles Sprachsynthese-Produkt / Stabiler / Paketunterstützung / Mehr Stimmen verfügbar / Aufgabenwarteschlange
 
-## Webseiten-Beispiel
+🎤 Microsoft Sprachsynthese-Tool, Webversion, entwickelt mit `Vue` + `ElementPlus` + `Vite`.
+
+## Gehostete Version / Online ausprobieren
+
+Dieses Repository ist eine Referenzimplementierung für ein Open-Source-Web-UI. Wenn Sie einen stabileren und funktionsreicheren Service benötigen, empfehlen wir unsere offizielle gehostete Version.
+
+| Funktion              | Selbstgehostet (dieses Repository) | [XiaoYing.work (Offiziell gehostet)](https://xiaoying.work) |
+| :-------------------- | :---------------------------------- | :---------------------------------------------------------- |
+| **Bereitstellungsaufwand** | Backend selbst bereitstellen, Umgebung konfigurieren | **Sofort einsatzbereit, keine Installation nötig**          |
+| **Gratis-Kontingent** | Abhängig von Backend-Konfiguration  | **Täglich gratis 10.000 Zeichen**                           |
+| **Stabilität**   | Abhängig von lokaler Netzwerkumgebung | **Hochverfügbare SLA, dedizierte Beschleunigung**           |
+| **Funktionen**   | Basis-Sprachsynthese                  | **Account-System, Aufgaben-Queue, mehr Stimmen, API-Support** |
+| **Wartung**      | Community-gepflegt                    | **Offiziell fortlaufend gepflegt und aktualisiert**         |
+| **Einsatzszenario** | Lernen, persönliches Experimentieren | **Produktivumgebung, professionelle Vertonung, häufige Nutzung** |
+
+## Website-Beispiele
+
+### Oberfläche der gehosteten Website
+
+https://xiaoying.work (🎁 **Täglich gratis 10.000 Zeichen**)
+
+![1767435524286](https://raw.githubusercontent.com/henryhu55/tts-web-vue/master/image/README/1767435524286.png)
 
 https://web.tts88.top
-### Neue Version Oberfläche
+
+### Oberfläche der neuen Version
+
 ![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)
 
-### Alte Version der Benutzeroberfläche
+### Oberfläche der alten Version
+
 ![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)
 
 ## Funktionsmerkmale
 
-- 🌐 Vollständig webbasiert, keine Installation einer Desktop-App erforderlich
+- 🌐 Vollständig webbasiert, keine Desktop-Installation nötig
 - 🔊 Unterstützung für verschiedene Microsoft-Sprachsynthesen
 - 🚀 Unterstützung für TTS88 API-Integration
-- 🆓 Unterstützung für kostenlose TTS-Nutzung, tägliches Freikontingent
-- 🧠 Unterstützung für textgenerierung durch OpenAI
-- 🌍 Mehrsprachige Unterstützung: Chinesisch, Englisch, Spanisch
-- 🔐 Browser-Fingerabdruckerkennung, sichereres Nutzererlebnis
+- 🆓 Unterstützung für kostenlose TTS-Nutzung, tägliches Gratis-Kontingent
+- 🧠 Unterstützung für Textgenerierung mit OpenAI
+- 🌍 Mehrsprachigkeit: Chinesisch, Englisch, Spanisch
+- 🔐 Browser-Fingerabdruck-Erkennung, sicherere Benutzererfahrung
 
 ## Neueste Updates
 
-### UI-Refactoring und Funktionsverbesserungen (v2.2.0)
+### UI-Überarbeitung und Funktionsverbesserung (v2.2.0)
 
-- 📱 **UI-Refactoring**: Fixierte obere Navigation, Textfeld als Sticky-Element, optimierte mobile Anpassung
-- 🔤 **SSML-Verbesserungen**: Neue SSML-Formatierungsfunktion, automatische Aktualisierung von SSML bei Einstellungen
-- 🎵 **Player-Optimierung**: Player in Hauptoberfläche integriert, verbessertes Audio-Abspiel- und Download-Erlebnis
+- 📱 **UI-Überarbeitung**: Fixierte obere Navigation, Textfeld im Sticky-Modus, optimierte mobile Anpassung
+- 🔤 **SSML-Verbesserung**: Neue SSML-Formatierungsfunktion, SSML wird automatisch entsprechend den Einstellungen aktualisiert
+- 🎵 **Player-Optimierung**: Player in die Hauptoberfläche integriert, verbessertes Audio-Abspiel- und Download-Erlebnis
 - 🎞️ **Untertitelfunktion**: Neue Online-Untertitelgenerierung, effizientere Inhaltserstellung
-- 🌓 **Theme-Optimierung**: Verbesserte Darstellung im Dunkelmodus, globale Theme-Umschaltung
-- 🛠️ **Erweiterte Einstellungen**: Optimierte Oberfläche für kostenlose TTS-Dienste, neue Sprechgeschwindigkeit- und Tonhöheneinstellungen
-- 💡 **Interaktionserlebnis**: Tooltips hinzugefügt, bessere Nutzerführung
-- 🔄 **Abhängigkeits-Upgrade**: Vue auf 3.5.11 aktualisiert, ElementPlus auf 2.9.9 aktualisiert
-- 🌐 **Link-Update**: GitHub-Repository-Adresse aktualisiert
+- 🌓 **Themenoptimierung**: Verbesserte Darstellung im Dark Mode, globale Theme-Umschaltung hinzugefügt
+- 🛠️ **Erweiterte Einstellungen**: Optimierte kostenlose TTS-Service-Oberfläche, neue Konfiguration für Sprechgeschwindigkeit und Tonhöhe
+- 💡 **Interaktive Erfahrung**: Tooltip-Funktion hinzugefügt, verbesserte Benutzerführung
+- 🔄 **Abhängigkeits-Upgrade**: Vue auf 3.5.11, ElementPlus auf 2.9.9 aktualisiert
+- 🌐 **Link-Aktualisierung**: GitHub-Repository-Adresse aktualisiert
 
-### Integration kostenloser TTS-Dienste (v2.1.0)
+### Integration des kostenlosen TTS-Dienstes (v2.1.0)
 
-- 🆕 **Kostenlose TTS-Funktion**: Keine API-Schlüssel nötig, tägliches Freikontingent
-- 👤 **Browser-Fingerabdruckerkennung**: Fairer Zugang zum Freikontingent für jeden Nutzer
-- 🔄 **Kontingentstatus-Anzeige**: Echtzeit-Anzeige verbleibender kostenloser Zeichen und Reset-Zeitpunkt
-- 🌐 **Serverstatus-Prüfung**: Automatische Prüfung der Verbindung zum kostenlosen TTS-Server
-- 🛡️ **Verbesserte Fehlerbehandlung**: Benutzerfreundlichere Fehlerhinweise und Statusmeldungen
-- 🎛️ **Kostenloses TTS-Einstellungsfeld**: Einfache Konfiguration und Kontingentübersicht für Nutzer
+- 🆕 **Kostenlose TTS-Funktion**: Keine API-Schlüssel erforderlich, tägliches Freikontingent verfügbar
+- 👤 **Browser-Fingerabdruck-Erkennung**: Stellt eine faire Nutzung des Freikontingents für jeden Nutzer sicher
+- 🔄 **Kontingentstatus-Anzeige**: Zeigt verbleibende freie Zeichen und Zeit bis zur Rücksetzung in Echtzeit an
+- 🌐 **Serverstatus-Überwachung**: Automatische Erkennung der Verbindung zum kostenlosen TTS-Server
+- 🛡️ **Verbesserte Fehlerbehandlung**: Benutzerfreundlichere Fehlermeldungen und Statusrückmeldungen
+- 🎛️ **Kostenloses TTS-Einstellungsfeld**: Einfache Konfiguration und Anzeige der Kontingentinformationen
 
 ### UI- und Nutzererlebnis-Optimierung (v2.0.0)
 
-- ✨ **Optimierung des Einstellungsbereichs**: Das Einstellungs-Panel ist jetzt einklappbar, durch Klicken auf den Titel "Spracheinstellungen" kann es ein- oder ausgeklappt werden.
-- 🔘 **Position des Smart-Buttons**: Der "Konvertierung starten"-Button befindet sich nun oben und ist ohne Scrollen erreichbar.
-- 💬 **Verbesserte Statusanzeige**: Es wurden intuitive Statusmeldungen für den Konvertierungsprozess hinzugefügt.
-- 🎨 **Verbesserte visuelle Effekte**: Buttons haben nun Lichteffekte, um das Nutzererlebnis zu verbessern.
-- 📱 **Optimiertes responsives Layout**: Die Darstellung auf unterschiedlichen Bildschirmgrößen wurde weiter verbessert.
+- ✨ **Einstellungsbereich-Optimierung**: Einstellungsfeld unterstützt Einklappen, per Klick auf „Spracheinstellungen“-Titel ein-/ausklappbar
+- 🔘 **Intelligente Buttonposition**: „Konvertierung starten“-Button nach oben verschoben, ohne Scrollen direkt erreichbar
+- 💬 **Statusanzeige verbessert**: Intuitive Statusinformationen zum Konvertierungsfortschritt hinzugefügt
+- 🎨 **Visuelle Effekte optimiert**: Buttons mit Lichteffekt-Animation, verbessertes Nutzererlebnis
+- 📱 **Responsive Layout-Optimierung**: Verbesserte Darstellung auf unterschiedlichen Bildschirmgrößen
 
-Diese Verbesserungen steigern die Effizienz erheblich, insbesondere wurde das Problem gelöst, dass Nutzer bisher nach unten scrollen mussten, um auf "Konvertierung starten" zu klicken. Jetzt kann der Konvertierungsprozess von jeder Position der Seite aus gestartet werden.
+Diese Verbesserungen steigern die Nutzungseffizienz erheblich, insbesondere das Problem, dass bisher zum Seitenende gescrollt werden musste, um den „Konvertierung starten“-Button zu erreichen. Nun kann der Konvertierungsvorgang überall auf der Seite einfach gestartet werden.
 
 ## Entwicklungsplan
 
-> **📢 Wichtige Mitteilung: Desktop-Version in Entwicklung!**
-> Wir entwickeln derzeit eine plattformübergreifende Desktop-Anwendung, die mehr Funktionen und ein besseres Nutzererlebnis bieten wird.
-> Bleiben Sie auf dem Laufenden und verfolgen Sie die neuesten Informationen zum Projekt.
+> **📢 Wichtiger Hinweis: Desktop-Version in Entwicklung!**
+> Wir entwickeln eine plattformübergreifende Desktop-Anwendung mit mehr Funktionen und besserem Nutzererlebnis.
+> Bleiben Sie auf dem Laufenden und verfolgen Sie den Projektverlauf für die neuesten Informationen.
 
 ## Schnellstart
 
@@ -183,6 +208,6 @@ Diese Software und der Quellcode dienen ausschließlich dem persönlichen Lernen
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-04
 
 ---

@@ -1,0 +1,1823 @@
+[
+  {
+    "Id": 1,
+    "Content": "# gfold\n\n[![latest release tag](https://img.shields.io/github/v/tag/nickgerace/gfold?sort=semver&logo=git&logoColor=white&label=version&style=for-the-badge&color=blue)](https://github.com/nickgerace/gfold/releases/latest)\n[![crates.io version](https://img.shields.io/crates/v/gfold?style=for-the-badge&logo=rust&color=orange)](https://crates.io/crates/gfold)\n[![build status](https://img.shields.io/github/actions/workflow/status/nickgerace/gfold/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white)](https://github.com/nickgerace/gfold/actions)\n[![calver](https://img.shields.io/badge/calver-YYYY.MM.MICRO-cyan.svg?style=for-the-badge)](https://calver.org)\n\n`gfold` is a CLI tool that helps you keep track of multiple Git repositories.\n\n[![A GIF showcasing gfold in action](https://raw.githubusercontent.com/nickgerace/gfold/main/assets/demo.gif)](https://raw.githubusercontent.com/nickgerace/gfold/main/assets/demo.gif)\n\nIf you'd prefer to use the classic display mode by default, and avoid setting the flag every time, you can set it in the config file (see **Usage** section).\n\n## Announcement (February 2025)\n\nAll releases now follow the [CalVer](https://calver.org/) versioning scheme, starting with `2025.2.1`.\nThis change is both forwards and backwards compatible with the [Semantic Versioning](https://semver.org/spec/v2.0.0.html) versioning scheme, which was used from the first release through version `4.6.0`.\n\n*No end user action is required specifically for the versioning scheme change itself.*\n\nThis announcement will be eventually removed from this [README](https://raw.githubusercontent.com/nickgerace/gfold/main/./README.md) and will eventually be moved into the [CHANGELOG](https://raw.githubusercontent.com/nickgerace/gfold/main/./CHANGELOG.md).\n\n## Description\n\nThis app displays relevant information for multiple Git repositories in one to many directories.\nIt only reads from the filesystem and will never write to it.\nWhile this tool might seem limited in scope and purpose, that is by design.\n\nBy default, `gfold` looks at every Git repository via traversal from the current working directory.\nIf you would like to target another directory, you can pass its path (relative or absolute) as the first argument or change the default path in the config file.\n\nAfter traversal, `gfold` leverages [rayon](https://github.com/rayon-rs/rayon) to perform concurrent, read-only analysis of all Git repositories detected.\nAnalysis is performed by leveraging the [git2-rs](https://github.com/rust-lang/git2-rs) library.\n\n## Usage\n\nProvide the `-h/--help` flag to see all the options for using this application.\n",
+    "ContentSha": "jx4mVJfMSO7qknM0Y8SjxdbHN27Oo9oFGZENPopDd7k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# gfold\n\n[![latest release tag](https://img.shields.io/github/v/tag/nickgerace/gfold?sort=semver&logo=git&logoColor=white&label=version&style=for-the-badge&color=blue)](https://github.com/nickgerace/gfold/releases/latest)\n[![crates.io version](https://img.shields.io/crates/v/gfold?style=for-the-badge&logo=rust&color=orange)](https://crates.io/crates/gfold)\n[![build status](https://img.shields.io/github/actions/workflow/status/nickgerace/gfold/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white)](https://github.com/nickgerace/gfold/actions)\n[![calver](https://img.shields.io/badge/calver-YYYY.MM.MICRO-cyan.svg?style=for-the-badge)](https://calver.org)\n\n`gfold`는 여러 Git 저장소를 추적하는 데 도움이 되는 CLI 도구입니다.\n\n[![A GIF showcasing gfold in action](https://raw.githubusercontent.com/nickgerace/gfold/main/assets/demo.gif)](https://raw.githubusercontent.com/nickgerace/gfold/main/assets/demo.gif)\n\n기본적으로 클래식 표시 모드를 사용하고 싶으며 매번 플래그를 설정하는 것을 피하고 싶다면, 설정 파일에서 이를 설정할 수 있습니다 (사용법 섹션 참조).\n\n## 공지 (2025년 2월)\n\n모든 릴리스는 이제 `2025.2.1`부터 시작하여 [CalVer](https://calver.org/) 버전 체계를 따릅니다.\n이 변경은 처음 릴리스부터 `4.6.0` 버전까지 사용된 [Semantic Versioning](https://semver.org/spec/v2.0.0.html) 버전 체계와 앞으로 및 뒤로 호환됩니다.\n\n*버전 체계 변경 자체에 대해 최종 사용자가 별도의 조치를 취할 필요는 없습니다.*\n\n이 공지는 결국 이 [README](https://raw.githubusercontent.com/nickgerace/gfold/main/./README.md)에서 제거되고 [CHANGELOG](https://raw.githubusercontent.com/nickgerace/gfold/main/./CHANGELOG.md)로 이동될 예정입니다.\n\n## 설명\n\n이 앱은 여러 Git 저장소에 대한 관련 정보를 하나 이상의 디렉터리에서 표시합니다.\n파일 시스템에서만 읽으며 절대 쓰지 않습니다.\n이 도구가 범위와 목적이 제한된 것처럼 보일 수 있지만, 이는 의도된 설계입니다.\n\n기본적으로 `gfold`는 현재 작업 디렉터리에서부터 모든 Git 저장소를 탐색합니다.\n다른 디렉터리를 대상으로 하려면 경로(상대 또는 절대)를 첫 번째 인수로 전달하거나 설정 파일에서 기본 경로를 변경할 수 있습니다.\n\n탐색 후, `gfold`는 [rayon](https://github.com/rayon-rs/rayon)을 활용하여 감지된 모든 Git 저장소에 대해 병렬로 읽기 전용 분석을 수행합니다.\n분석은 [git2-rs](https://github.com/rust-lang/git2-rs) 라이브러리를 활용하여 수행됩니다.\n\n## 사용법\n\n이 응용 프로그램의 모든 옵션을 보려면 `-h/--help` 플래그를 제공하세요.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "biO8HF5TrCTpKEzTFEo3nMCy3hHKuQ/fe0VUqt7D2LQ=",
+        "originContent": "# gfold",
+        "translatedContent": "# gfold"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "1FQ8BIJvySvTUMFEgxPRZEDnjGP0GQatGoKfLd8VzDo=",
+        "originContent": "[![latest release tag](https://img.shields.io/github/v/tag/nickgerace/gfold?sort=semver&logo=git&logoColor=white&label=version&style=for-the-badge&color=blue)](https://github.com/nickgerace/gfold/releases/latest)",
+        "translatedContent": "[![latest release tag](https://img.shields.io/github/v/tag/nickgerace/gfold?sort=semver&logo=git&logoColor=white&label=version&style=for-the-badge&color=blue)](https://github.com/nickgerace/gfold/releases/latest)"
+      },
+      {
+        "row": 4,
+        "rowsha": "dfrzbkbS66iwG3mRW43ohUyAFlYyWAuG1B+fy9ZqUeM=",
+        "originContent": "[![crates.io version](https://img.shields.io/crates/v/gfold?style=for-the-badge&logo=rust&color=orange)](https://crates.io/crates/gfold)",
+        "translatedContent": "[![crates.io version](https://img.shields.io/crates/v/gfold?style=for-the-badge&logo=rust&color=orange)](https://crates.io/crates/gfold)"
+      },
+      {
+        "row": 5,
+        "rowsha": "GsvzgQSJwihdP74aqgjzh+TAFVoYRprkicxpozl9aMI=",
+        "originContent": "[![build status](https://img.shields.io/github/actions/workflow/status/nickgerace/gfold/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white)](https://github.com/nickgerace/gfold/actions)",
+        "translatedContent": "[![build status](https://img.shields.io/github/actions/workflow/status/nickgerace/gfold/ci.yml?branch=main&style=for-the-badge&logo=github&logoColor=white)](https://github.com/nickgerace/gfold/actions)"
+      },
+      {
+        "row": 6,
+        "rowsha": "PgaFSZeHv1fReay0pMDdeCAr+ngVfLG5s75srThrOIU=",
+        "originContent": "[![calver](https://img.shields.io/badge/calver-YYYY.MM.MICRO-cyan.svg?style=for-the-badge)](https://calver.org)",
+        "translatedContent": "[![calver](https://img.shields.io/badge/calver-YYYY.MM.MICRO-cyan.svg?style=for-the-badge)](https://calver.org)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "F1zlzZ+7DTRGFkKdD6SYQ9mmBcqZHflVycfDLwfl65Q=",
+        "originContent": "`gfold` is a CLI tool that helps you keep track of multiple Git repositories.",
+        "translatedContent": "`gfold`는 여러 Git 저장소를 추적하는 데 도움이 되는 CLI 도구입니다."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "gxZR0Mg6Sp2QKEwjd7OKoDHyvL9eWMoMZLMDc6uuvys=",
+        "originContent": "[![A GIF showcasing gfold in action](https://raw.githubusercontent.com/nickgerace/gfold/main/assets/demo.gif)](https://raw.githubusercontent.com/nickgerace/gfold/main/assets/demo.gif)",
+        "translatedContent": "[![A GIF showcasing gfold in action](https://raw.githubusercontent.com/nickgerace/gfold/main/assets/demo.gif)](https://raw.githubusercontent.com/nickgerace/gfold/main/assets/demo.gif)"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "M8Tm8RxKMqZX8d+lCx6MwA80l/pwNkA08JXTZRK+aUs=",
+        "originContent": "If you'd prefer to use the classic display mode by default, and avoid setting the flag every time, you can set it in the config file (see **Usage** section).",
+        "translatedContent": "기본적으로 클래식 표시 모드를 사용하고 싶으며 매번 플래그를 설정하는 것을 피하고 싶다면, 설정 파일에서 이를 설정할 수 있습니다 (사용법 섹션 참조)."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "jmQ+tEYzXoeQRovC2DYtKunyjcJtS9TZNT/mpVzbrvY=",
+        "originContent": "## Announcement (February 2025)",
+        "translatedContent": "## 공지 (2025년 2월)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "aldbL3JyaTXRz52ksQbD2VgGS8n3AoLSdy5h+f2Zvcc=",
+        "originContent": "All releases now follow the [CalVer](https://calver.org/) versioning scheme, starting with `2025.2.1`.",
+        "translatedContent": "모든 릴리스는 이제 `2025.2.1`부터 시작하여 [CalVer](https://calver.org/) 버전 체계를 따릅니다."
+      },
+      {
+        "row": 17,
+        "rowsha": "7ckHuu6606HHOeDdVo8zrCj2ub3k4PwJ+YKGTpblCwo=",
+        "originContent": "This change is both forwards and backwards compatible with the [Semantic Versioning](https://semver.org/spec/v2.0.0.html) versioning scheme, which was used from the first release through version `4.6.0`.",
+        "translatedContent": "이 변경은 처음 릴리스부터 `4.6.0` 버전까지 사용된 [Semantic Versioning](https://semver.org/spec/v2.0.0.html) 버전 체계와 앞으로 및 뒤로 호환됩니다."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "vD+h5rVicMa0WcjsGxCROSaw9UNK0RBZfoKVJffSC4g=",
+        "originContent": "*No end user action is required specifically for the versioning scheme change itself.*",
+        "translatedContent": "*버전 체계 변경 자체에 대해 최종 사용자가 별도의 조치를 취할 필요는 없습니다.*"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "xBjqJDuKmDBWMIx+WqjkC52MItMOds9AzNHo85zkTG4=",
+        "originContent": "This announcement will be eventually removed from this [README](https://raw.githubusercontent.com/nickgerace/gfold/main/./README.md) and will eventually be moved into the [CHANGELOG](https://raw.githubusercontent.com/nickgerace/gfold/main/./CHANGELOG.md).",
+        "translatedContent": "이 공지는 결국 이 [README](https://raw.githubusercontent.com/nickgerace/gfold/main/./README.md)에서 제거되고 [CHANGELOG](https://raw.githubusercontent.com/nickgerace/gfold/main/./CHANGELOG.md)로 이동될 예정입니다."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "K0XdQb6cPR2XYn4/Xr3GLliF7Co62hbZTlUnZJsZ2Bk=",
+        "originContent": "## Description",
+        "translatedContent": "## 설명"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "rMzmO/GqIkJJHwGOHrjZ7A6YFHuKlmyLRjbHInKEVAo=",
+        "originContent": "This app displays relevant information for multiple Git repositories in one to many directories.",
+        "translatedContent": "이 앱은 여러 Git 저장소에 대한 관련 정보를 하나 이상의 디렉터리에서 표시합니다."
+      },
+      {
+        "row": 26,
+        "rowsha": "Squr1hBRH0jgkk1NF69FtroCX531a8jBGMdvghsxhlI=",
+        "originContent": "It only reads from the filesystem and will never write to it.",
+        "translatedContent": "파일 시스템에서만 읽으며 절대 쓰지 않습니다."
+      },
+      {
+        "row": 27,
+        "rowsha": "FqgtU/MDk99tWcob0ikFyoL6zlcwY+j182LXxAJnI7w=",
+        "originContent": "While this tool might seem limited in scope and purpose, that is by design.",
+        "translatedContent": "이 도구가 범위와 목적이 제한된 것처럼 보일 수 있지만, 이는 의도된 설계입니다."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "vZy0NPcf4fs6etgepeaNto0LqUpliNoqD5JpNlxooek=",
+        "originContent": "By default, `gfold` looks at every Git repository via traversal from the current working directory.",
+        "translatedContent": "기본적으로 `gfold`는 현재 작업 디렉터리에서부터 모든 Git 저장소를 탐색합니다."
+      },
+      {
+        "row": 30,
+        "rowsha": "gfKvY/GGrRm3zjLgIO69UCj7Zj1M4recVia5T8dUZ9E=",
+        "originContent": "If you would like to target another directory, you can pass its path (relative or absolute) as the first argument or change the default path in the config file.",
+        "translatedContent": "다른 디렉터리를 대상으로 하려면 경로(상대 또는 절대)를 첫 번째 인수로 전달하거나 설정 파일에서 기본 경로를 변경할 수 있습니다."
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "BVaz3a+FhozpUQjjJubVYQSc5mETsNfLzkIyN+DXD18=",
+        "originContent": "After traversal, `gfold` leverages [rayon](https://github.com/rayon-rs/rayon) to perform concurrent, read-only analysis of all Git repositories detected.",
+        "translatedContent": "탐색 후, `gfold`는 [rayon](https://github.com/rayon-rs/rayon)을 활용하여 감지된 모든 Git 저장소에 대해 병렬로 읽기 전용 분석을 수행합니다."
+      },
+      {
+        "row": 33,
+        "rowsha": "/NHszInhqhPNWCUOv96LJWk84NulPWYLIAkIqTyWw3U=",
+        "originContent": "Analysis is performed by leveraging the [git2-rs](https://github.com/rust-lang/git2-rs) library.",
+        "translatedContent": "분석은 [git2-rs](https://github.com/rust-lang/git2-rs) 라이브러리를 활용하여 수행됩니다."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 사용법"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "NdjHL4hSlmpPxsX2etvf6/gsKhEb1/cH7xwqmfrMQvE=",
+        "originContent": "Provide the `-h/--help` flag to see all the options for using this application.",
+        "translatedContent": "이 응용 프로그램의 모든 옵션을 보려면 `-h/--help` 플래그를 제공하세요."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```shell\n# Operate in the current working directory or in the location provided by a config file, if one exists.\ngfold\n\n# Operate in the parent directory.\ngfold ..\n\n# Operate in the home directory (first method).\ngfold $HOME\n\n# Operate in the home directory (second method).\ngfold ~/\n\n# Operate with an absolute path.\ngfold /this/is/an/absolute/path\n\n# Operate with a relative path.\ngfold ../../this/is/a/relative/path\n\n# Operate with three paths.\ngfold ~/src ~/projects ~/code\n```",
+    "ContentSha": "aMJCyf5jr26iDQ+WHGWbQYZ9oHC82NKvTrkKPvk8dXc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\n# Operate in the current working directory or in the location provided by a config file, if one exists.\ngfold\n\n# Operate in the parent directory.\ngfold ..\n\n# Operate in the home directory (first method).\ngfold $HOME\n\n# Operate in the home directory (second method).\ngfold ~/\n\n# Operate with an absolute path.\ngfold /this/is/an/absolute/path\n\n# Operate with a relative path.\ngfold ../../this/is/a/relative/path\n\n# Operate with three paths.\ngfold ~/src ~/projects ~/code\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "tQxSDxbp4tR/6htxmJL/m2MXX3UKunUIEkD3xIOQn/w=",
+        "originContent": "# Operate in the current working directory or in the location provided by a config file, if one exists.",
+        "translatedContent": "# Operate in the current working directory or in the location provided by a config file, if one exists."
+      },
+      {
+        "row": 3,
+        "rowsha": "m5oOREvXCcTtfewoqL0ucfNBTDaQywAEGpoJEZl+98s=",
+        "originContent": "gfold",
+        "translatedContent": "gfold"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "2pZNgek5skE8cT0WV7mcj9U4CK6iwRSksQjLmyKtMb4=",
+        "originContent": "# Operate in the parent directory.",
+        "translatedContent": "# Operate in the parent directory."
+      },
+      {
+        "row": 6,
+        "rowsha": "M6q4vzVlRzMpOdQ8PehrF6PYKOKpfu25ZPhMe8mhL1o=",
+        "originContent": "gfold ..",
+        "translatedContent": "gfold .."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "GTXk7hK0QFg7Y7es5XkM19x7jXlxitOL5tLQexfpwh4=",
+        "originContent": "# Operate in the home directory (first method).",
+        "translatedContent": "# Operate in the home directory (first method)."
+      },
+      {
+        "row": 9,
+        "rowsha": "jKumTvM3TCGe8uV0xqj0TTd90yNiNxwajOgV/vSviWs=",
+        "originContent": "gfold $HOME",
+        "translatedContent": "gfold $HOME"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "SBXeJXSpSUh98zxCkV0vTFa9rFlWe43axZlIP3eiF9I=",
+        "originContent": "# Operate in the home directory (second method).",
+        "translatedContent": "# Operate in the home directory (second method)."
+      },
+      {
+        "row": 12,
+        "rowsha": "Z57mrRKoajJphujZzKZ6K9IQyuu6eYB0oHpkTHGhmFs=",
+        "originContent": "gfold ~/",
+        "translatedContent": "gfold ~/"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "Iae7mx0dWfHGG33lEpwSzed+MFNO7o5pzYmtYDjLnLg=",
+        "originContent": "# Operate with an absolute path.",
+        "translatedContent": "# Operate with an absolute path."
+      },
+      {
+        "row": 15,
+        "rowsha": "6d312c09AOgUQ5MBp6J0EOWJKFyN2TvZNNxhf2rpDt8=",
+        "originContent": "gfold /this/is/an/absolute/path",
+        "translatedContent": "gfold /this/is/an/absolute/path"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "qI0LEi5KGDm9AeVv+jfxg4FXZSGf232cYuTXBrtTrU4=",
+        "originContent": "# Operate with a relative path.",
+        "translatedContent": "# Operate with a relative path."
+      },
+      {
+        "row": 18,
+        "rowsha": "03xsJfJf1mCsg+dZIHp0FJthpRghPRoT7Dd4vpUrjJY=",
+        "originContent": "gfold ../../this/is/a/relative/path",
+        "translatedContent": "gfold ../../this/is/a/relative/path"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "EbiAK+RuB3UxKUerQvEyRBHYKlVX8puzBscGkeLGtsk=",
+        "originContent": "# Operate with three paths.",
+        "translatedContent": "# Operate with three paths."
+      },
+      {
+        "row": 21,
+        "rowsha": "tCEIpmTTJ9U56hHeiTw6lQVovjb+HVMvesiSoKD+O04=",
+        "originContent": "gfold ~/src ~/projects ~/code",
+        "translatedContent": "gfold ~/src ~/projects ~/code"
+      },
+      {
+        "row": 22,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n### Config File\n\nIf you find yourself providing the same arguments frequently, you can create and use a config file.\n`gfold` does not come with a config file by default and config files are entirely optional.\n\nHow does it work?\nUpon execution, `gfold` will look for a config file at the following paths (in order):\n\n- `$XDG_CONFIG_HOME/gfold.toml`\n- `$XDG_CONFIG_HOME/gfold/config.toml`\n- `$HOME/.config/gfold.toml`\n\n`$XDG_CONFIG_HOME` refers to the literal `XDG_CONFIG_HOME` environment variable, but will default to the appropriate operating system-specific path if not set (see [`user_dirs`](https://github.com/uncenter/user_dirs) for more information).\n\nIf a config file is found, `gfold` will read it and use the options specified within.\n\nFor config file creation, you can use the `--dry-run` flag to print valid TOML.\nHere is an example config file creation workflow on macOS, Linux and similar platforms:\n",
+    "ContentSha": "KK037qWQ0IRUHm87JjOY1u2uaCQgtQvSWVEMVrLn69c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 구성 파일\n\n자주 동일한 인수를 제공하는 경우 구성 파일을 생성하여 사용할 수 있습니다.  \n`gfold`는 기본적으로 구성 파일을 제공하지 않으며 구성 파일은 완전히 선택 사항입니다.\n\n어떻게 작동합니까?  \n실행 시 `gfold`는 다음 경로(순서대로)에서 구성 파일을 찾습니다:\n\n- `$XDG_CONFIG_HOME/gfold.toml`  \n- `$XDG_CONFIG_HOME/gfold/config.toml`  \n- `$HOME/.config/gfold.toml`\n\n`$XDG_CONFIG_HOME`는 문자 그대로 `XDG_CONFIG_HOME` 환경 변수를 의미하지만, 설정되지 않은 경우 운영 체제별 적절한 경로로 기본값이 설정됩니다 ([`user_dirs`](https://github.com/uncenter/user_dirs) 참고).\n\n구성 파일이 발견되면 `gfold`는 이를 읽고 그 안에 지정된 옵션을 사용합니다.\n\n구성 파일 생성을 위해 `--dry-run` 플래그를 사용하여 유효한 TOML을 출력할 수 있습니다.  \n다음은 macOS, Linux 및 유사 플랫폼에서의 구성 파일 생성 워크플로 예시입니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 구성 파일"
+      },
+      {
+        "row": 2,
+        "rowsha": "yY9MH9IMZo0Ljp6+kzXWhp66iof3BTF43l/YeqSujuE=",
+        "originContent": "### Config File",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "자주 동일한 인수를 제공하는 경우 구성 파일을 생성하여 사용할 수 있습니다.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "6yvMVEpdMjcWBFHrVgBeG7YO38971ey5slKpbGXX0fc=",
+        "originContent": "If you find yourself providing the same arguments frequently, you can create and use a config file.",
+        "translatedContent": "`gfold`는 기본적으로 구성 파일을 제공하지 않으며 구성 파일은 완전히 선택 사항입니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "JaoisQlMOD3Dqr7UTtuocj51R+H+yLb0zDwEFeYYgR8=",
+        "originContent": "`gfold` does not come with a config file by default and config files are entirely optional.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "어떻게 작동합니까?  "
+      },
+      {
+        "row": 7,
+        "rowsha": "w/FXma9QOkZbhe2IPTGWc0zK7/phqV1jvVPcJhjz14U=",
+        "originContent": "How does it work?",
+        "translatedContent": "실행 시 `gfold`는 다음 경로(순서대로)에서 구성 파일을 찾습니다:"
+      },
+      {
+        "row": 8,
+        "rowsha": "hUqgnWrUoEqNkgTfyEbt296LQ5aaKeSQ/JWk6c79rn8=",
+        "originContent": "Upon execution, `gfold` will look for a config file at the following paths (in order):",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- `$XDG_CONFIG_HOME/gfold.toml`  "
+      },
+      {
+        "row": 10,
+        "rowsha": "MfMBgLStJeLs1oMJsm7rhFPljAtYIhtPfv5ftvUxmx8=",
+        "originContent": "- `$XDG_CONFIG_HOME/gfold.toml`",
+        "translatedContent": "- `$XDG_CONFIG_HOME/gfold/config.toml`  "
+      },
+      {
+        "row": 11,
+        "rowsha": "HVDEdWEPDCLWjUsZyST1R4WxWuc6BsYklwidOiNzgvU=",
+        "originContent": "- `$XDG_CONFIG_HOME/gfold/config.toml`",
+        "translatedContent": "- `$HOME/.config/gfold.toml`"
+      },
+      {
+        "row": 12,
+        "rowsha": "bBGO/2A+fOs5MT25ZY0cj4rUxImLIH2C/Yh/D1Q8ffo=",
+        "originContent": "- `$HOME/.config/gfold.toml`",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`$XDG_CONFIG_HOME`는 문자 그대로 `XDG_CONFIG_HOME` 환경 변수를 의미하지만, 설정되지 않은 경우 운영 체제별 적절한 경로로 기본값이 설정됩니다 ([`user_dirs`](https://github.com/uncenter/user_dirs) 참고)."
+      },
+      {
+        "row": 14,
+        "rowsha": "IpdEgArQdaxpWrdH3ouAQ6p65jqN/08Bk4vRkF4DwHM=",
+        "originContent": "`$XDG_CONFIG_HOME` refers to the literal `XDG_CONFIG_HOME` environment variable, but will default to the appropriate operating system-specific path if not set (see [`user_dirs`](https://github.com/uncenter/user_dirs) for more information).",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "구성 파일이 발견되면 `gfold`는 이를 읽고 그 안에 지정된 옵션을 사용합니다."
+      },
+      {
+        "row": 16,
+        "rowsha": "n+kzcv5D+chhzkRbNa7hJnmxwi2H5EgBLmZseAncfdc=",
+        "originContent": "If a config file is found, `gfold` will read it and use the options specified within.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "구성 파일 생성을 위해 `--dry-run` 플래그를 사용하여 유효한 TOML을 출력할 수 있습니다.  "
+      },
+      {
+        "row": 18,
+        "rowsha": "7+M4m2C9yk+BG1XepZAXBs49+CU1UMPZLtQaVMxqjtQ=",
+        "originContent": "For config file creation, you can use the `--dry-run` flag to print valid TOML.",
+        "translatedContent": "다음은 macOS, Linux 및 유사 플랫폼에서의 구성 파일 생성 워크플로 예시입니다:"
+      },
+      {
+        "row": 19,
+        "rowsha": "dREQsjbCVtl5BLmL5iI4TwroqJxLr59kxB/LdzJsKdI=",
+        "originContent": "Here is an example config file creation workflow on macOS, Linux and similar platforms:",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```shell\ngfold -d classic -c never ~/ --dry-run > $HOME/.config/gfold.toml\n```",
+    "ContentSha": "YgzFTg4aV3Ix60v5FD2F63Fyobri+w+gb6idStEs57M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ngfold -d classic -c never ~/ --dry-run > $HOME/.config/gfold.toml\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "XgtGFoVKMjCn/mX3oMSzEBmObpPcJCUpU0uKcMc3Zd4=",
+        "originContent": "gfold -d classic -c never ~/ --dry-run > $HOME/.config/gfold.toml",
+        "translatedContent": "gfold -d classic -c never ~/ --dry-run > $HOME/.config/gfold.toml"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nHere are the contents of the resulting config file:\n",
+    "ContentSha": "lUqTjlidsglRJrBZLP7C2o9XnmXLtqPXsjQUlUNWhzE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n다음은 생성된 구성 파일의 내용입니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "gb4PCv/FUvDyJvaEQmXV0addeYM2ukJLBgnZmqEXPSY=",
+        "originContent": "Here are the contents of the resulting config file:",
+        "translatedContent": "다음은 생성된 구성 파일의 내용입니다:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```toml\npaths = ['/home/neloth']\ndisplay_mode = 'Classic'\ncolor_mode = 'Never'\n```",
+    "ContentSha": "/L9RNRBwfLKFIJzccfzNLjqJ3FkhmKYAW7Ec58Xs5Bw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```toml\npaths = ['/home/neloth']\ndisplay_mode = 'Classic'\ncolor_mode = 'Never'\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+        "originContent": "```toml",
+        "translatedContent": "```toml"
+      },
+      {
+        "row": 2,
+        "rowsha": "h58l9/zHDt6ZUnUT2FyiOlVt49+tzW6p0w+93kcjm6o=",
+        "originContent": "paths = ['/home/neloth']",
+        "translatedContent": "paths = ['/home/neloth']"
+      },
+      {
+        "row": 3,
+        "rowsha": "XVsrZBwXVKD+92h+H9pxXjFlAsZewXqHXgoRUhICAXQ=",
+        "originContent": "display_mode = 'Classic'",
+        "translatedContent": "display_mode = 'Classic'"
+      },
+      {
+        "row": 4,
+        "rowsha": "I2yH13SHNqmcJ+n+eOUcCx/ZCT7+NuqLAqb9B0sO7jU=",
+        "originContent": "color_mode = 'Never'",
+        "translatedContent": "color_mode = 'Never'"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nLet's say you created a config file, but wanted to execute `gfold` with entirely different settings _and_ you want to ensure that\nyou do not accidentally inherit options from the config file.\nIn that scenario you can ignore your config file by using the `-i` flag.\n",
+    "ContentSha": "JCuHeSsUjpxKFwaKPuzy135QGORgzpkHXbb8stbJGHE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "설정 파일을 만들었는데 전혀 다른 설정으로 `gfold`를 실행하고 싶고  \n설정 파일에서 옵션이 실수로 상속되는 것을 방지하고 싶다고 가정해 봅시다.  \n그런 경우 `-i` 플래그를 사용하여 설정 파일을 무시할 수 있습니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "설정 파일을 만들었는데 전혀 다른 설정으로 `gfold`를 실행하고 싶고  "
+      },
+      {
+        "row": 2,
+        "rowsha": "A1/gNaF3FHnt7rEDPXjuhogD4VASA6tj7dlZFnCKOvc=",
+        "originContent": "Let's say you created a config file, but wanted to execute `gfold` with entirely different settings _and_ you want to ensure that",
+        "translatedContent": "설정 파일에서 옵션이 실수로 상속되는 것을 방지하고 싶다고 가정해 봅시다.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "YfwEmMcC5QNNqXbcn5BUQdgj9viABWY/uQ/GpeW053E=",
+        "originContent": "you do not accidentally inherit options from the config file.",
+        "translatedContent": "그런 경우 `-i` 플래그를 사용하여 설정 파일을 무시할 수 있습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "MjRi7cIp/mvNb0Dh6MGrbJnHyEEDiUz8lCvNjzoKJlc=",
+        "originContent": "In that scenario you can ignore your config file by using the `-i` flag.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```shell\ngfold -i\n```",
+    "ContentSha": "vTtfF6Ut5UCJgjR2pIUbkUq6WeDL1ktNPxDi93eoEZY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ngfold -i\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "+QyD1G1cJW8a1T6TWcEPDE8PaytS1NtbLDskiGVuzAU=",
+        "originContent": "gfold -i",
+        "translatedContent": "gfold -i"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nYou can restore the config file to its defaults by using the same flag.\n",
+    "ContentSha": "FVcBDiQ4JopsfxKZg8BSpmfJZkunud/lgSIyKEI9Kew=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "동일한 플래그를 사용하여 구성 파일을 기본값으로 복원할 수 있습니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "동일한 플래그를 사용하여 구성 파일을 기본값으로 복원할 수 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "APaei9LJZmWOR9TYGsagtlnm3514KankzUds867CJIU=",
+        "originContent": "You can restore the config file to its defaults by using the same flag.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```shell\ngfold -i > $HOME/.config/gfold.toml\n```",
+    "ContentSha": "vprgIT0E0P7CZfyXlyfIyjd6Wtk3gM4cqMrJhzLv5go=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ngfold -i > $HOME/.config/gfold.toml\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "RMojTgvmEag8dACibQANWQ26n8lXb2aZl/WwDPlBDXk=",
+        "originContent": "gfold -i > $HOME/.config/gfold.toml",
+        "translatedContent": "gfold -i > $HOME/.config/gfold.toml"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nIn addition, you can ignore the existing config file, configure specific options, and use defaults for unspecified options all at once.\nHere is an example where we want to use the classic display mode and override all other settings with their default values:\n",
+    "ContentSha": "l78bbgM56NZvfUgt2Rh3LUGkP4gVCeCs//15BTtt/14=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "또한, 기존 구성 파일을 무시하고 특정 옵션을 구성하며 지정되지 않은 옵션에 대해서는 기본값을 모두 한 번에 사용할 수 있습니다.  \n다음은 클래식 디스플레이 모드를 사용하고 다른 모든 설정을 기본값으로 재정의하려는 예입니다:  \n  \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "또한, 기존 구성 파일을 무시하고 특정 옵션을 구성하며 지정되지 않은 옵션에 대해서는 기본값을 모두 한 번에 사용할 수 있습니다.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "ZhvmCXlprPa/AGoaK5nvnMaOCW0OdDi6fWq8cSxFvYs=",
+        "originContent": "In addition, you can ignore the existing config file, configure specific options, and use defaults for unspecified options all at once.",
+        "translatedContent": "다음은 클래식 디스플레이 모드를 사용하고 다른 모든 설정을 기본값으로 재정의하려는 예입니다:  "
+      },
+      {
+        "row": 3,
+        "rowsha": "0vhjPLSinjTVfl8td1xv3AXf44SU0ERdYg699ziIFiI=",
+        "originContent": "Here is an example where we want to use the classic display mode and override all other settings with their default values:",
+        "translatedContent": "  "
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```shell\ngfold -i -d classic > $HOME/.config/gfold.toml\n```",
+    "ContentSha": "XFWEjrh4+TqJkaBjISQpObwR9cREBqRkHE9zR3LFy8U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ngfold -i -d classic > $HOME/.config/gfold.toml\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZBfhsc8YmWvxfLaRi+FBS/OIq9vJ8l8J3cmBf4z4FvE=",
+        "originContent": "gfold -i -d classic > $HOME/.config/gfold.toml",
+        "translatedContent": "gfold -i -d classic > $HOME/.config/gfold.toml"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\nYou can back up a config file and track its history with `git`.\nOn macOS, Linux, and most systems, you can link the file back to a `git` repository.\n",
+    "ContentSha": "fDs6u+7vz/NEnRiw1mNpalzx9404Zpgf2IrmN5bPNkk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n`git`을 사용하여 구성 파일을 백업하고 기록을 추적할 수 있습니다.\nmacOS, Linux 및 대부분의 시스템에서 파일을 `git` 저장소에 다시 연결할 수 있습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "S5G7Igrmkbweqocx8Y3Zon7IbFlYEV83hLNMR+tqZSA=",
+        "originContent": "You can back up a config file and track its history with `git`.",
+        "translatedContent": "`git`을 사용하여 구성 파일을 백업하고 기록을 추적할 수 있습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "hw50oukAKrYbR9tGUxxTqVHGVfdYEyY1kA6eL2bXevY=",
+        "originContent": "On macOS, Linux, and most systems, you can link the file back to a `git` repository.",
+        "translatedContent": "macOS, Linux 및 대부분의 시스템에서 파일을 `git` 저장소에 다시 연결할 수 있습니다."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```shell\nln -s <path-to-repository>/gfold.toml $HOME/.config/gfold.toml\n```",
+    "ContentSha": "LD97lfCb6us7KOWKWGdZPuJiiEOoXW6+fM+zm8vMeyo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nln -s <path-to-repository>/gfold.toml $HOME/.config/gfold.toml\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "R0lyRoMEWsdy9z6VDDNO7xqcuwD+WCuitUFc4FrtZTo=",
+        "originContent": "ln -s <path-to-repository>/gfold.toml $HOME/.config/gfold.toml",
+        "translatedContent": "ln -s <path-to-repository>/gfold.toml $HOME/.config/gfold.toml"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\nNow, you can update the config file within your repository and include the linking as part of your environment setup workflow.\n\n## Installation\n\n[![Packaging status](https://repology.org/badge/vertical-allrepos/gfold.svg)](https://repology.org/project/gfold/versions)\n\n### Homebrew (macOS and Linux)\n\nYou can use [Homebrew](https://brew.sh) to install `gfold` using the [core formulae](https://formulae.brew.sh/formula/gfold).\n\nHowever, you may run into a naming collision on macOS if [coreutils](https://formulae.brew.sh/formula/coreutils) is installed via `brew`.\nSee the [troubleshooting](#troubleshooting-and-known-issues) section for a workaround and more information.\n",
+    "ContentSha": "T97upu7xzhX+lSVvNTLEepPjNafobjtA+fb0npX7f3M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "이제 리포지토리 내에서 설정 파일을 업데이트하고 환경 설정 워크플로우의 일부로 링크 작업을 포함할 수 있습니다.\n\n## 설치\n\n[![패키징 상태](https://repology.org/badge/vertical-allrepos/gfold.svg)](https://repology.org/project/gfold/versions)\n\n### Homebrew (macOS 및 Linux)\n\n[Homebrew](https://brew.sh)를 사용하여 [core formulae](https://formulae.brew.sh/formula/gfold)를 통해 `gfold`를 설치할 수 있습니다.\n\n하지만 `brew`로 [coreutils](https://formulae.brew.sh/formula/coreutils)를 설치한 경우 macOS에서 이름 충돌이 발생할 수 있습니다.\n해결 방법과 자세한 내용은 [문제 해결](#troubleshooting-and-known-issues) 섹션을 참조하세요.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "이제 리포지토리 내에서 설정 파일을 업데이트하고 환경 설정 워크플로우의 일부로 링크 작업을 포함할 수 있습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "wr+w4penqSD3Pbxvao7CqirFcbrJCxe0WQg/tWGAUis=",
+        "originContent": "Now, you can update the config file within your repository and include the linking as part of your environment setup workflow.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 설치"
+      },
+      {
+        "row": 4,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![패키징 상태](https://repology.org/badge/vertical-allrepos/gfold.svg)](https://repology.org/project/gfold/versions)"
+      },
+      {
+        "row": 6,
+        "rowsha": "NvK7F9sL9tt5A2Ktpj+lOU8+V9xk9xtG8I8FlkH7zFY=",
+        "originContent": "[![Packaging status](https://repology.org/badge/vertical-allrepos/gfold.svg)](https://repology.org/project/gfold/versions)",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Homebrew (macOS 및 Linux)"
+      },
+      {
+        "row": 8,
+        "rowsha": "cpZM2r40VDSL3WzuTNyxjavsMH+JqSl1d9s/gsoKujg=",
+        "originContent": "### Homebrew (macOS and Linux)",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[Homebrew](https://brew.sh)를 사용하여 [core formulae](https://formulae.brew.sh/formula/gfold)를 통해 `gfold`를 설치할 수 있습니다."
+      },
+      {
+        "row": 10,
+        "rowsha": "nHCVa8F+pCpKV4X3ZSGj/fKrxGd6ukz2wnWowobUtqo=",
+        "originContent": "You can use [Homebrew](https://brew.sh) to install `gfold` using the [core formulae](https://formulae.brew.sh/formula/gfold).",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "하지만 `brew`로 [coreutils](https://formulae.brew.sh/formula/coreutils)를 설치한 경우 macOS에서 이름 충돌이 발생할 수 있습니다."
+      },
+      {
+        "row": 12,
+        "rowsha": "gn4SIlM5WjuDnPDHi5H2JtXdCtARhhOmIHfiAtF/PZ8=",
+        "originContent": "However, you may run into a naming collision on macOS if [coreutils](https://formulae.brew.sh/formula/coreutils) is installed via `brew`.",
+        "translatedContent": "해결 방법과 자세한 내용은 [문제 해결](#troubleshooting-and-known-issues) 섹션을 참조하세요."
+      },
+      {
+        "row": 13,
+        "rowsha": "BmV+BVx6KQy5ereNbdOIN80tpjHfCeW81hj1FhXgKIU=",
+        "originContent": "See the [troubleshooting](#troubleshooting-and-known-issues) section for a workaround and more information.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```shell\nbrew install gfold\n```",
+    "ContentSha": "bYWsb6ReqSVpPecrdk5mEiyvQkj2OBYSBgVtgQ+Wnio=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nbrew install gfold\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "9Yr9hVOdxmWgSgMjFaqxc8otnUIYo86pKm7CR69p2D0=",
+        "originContent": "brew install gfold",
+        "translatedContent": "brew install gfold"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n### Arch Linux\n\nYou can use [pacman](https://wiki.archlinux.org/title/Pacman) to install `gfold` from the [extra repository](https://archlinux.org/packages/extra/x86_64/gfold/).\n",
+    "ContentSha": "vtsIJ7EKfMIaK3DuUCxtRbVUnrroHkRXCI25SFoeyRQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 아치 리눅스\n\n[pacman](https://wiki.archlinux.org/title/Pacman)을 사용하여 [extra 저장소](https://archlinux.org/packages/extra/x86_64/gfold/)에서 `gfold`를 설치할 수 있습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "RQFrN56R8SItWveUdvw3XJmmo6YZk0kQVJGKa+yl2Zc=",
+        "originContent": "### Arch Linux",
+        "translatedContent": "### 아치 리눅스"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Ex9QySevEz/PurOGL6QZE3lUjfW0e+qG4GoTKVOV/nc=",
+        "originContent": "You can use [pacman](https://wiki.archlinux.org/title/Pacman) to install `gfold` from the [extra repository](https://archlinux.org/packages/extra/x86_64/gfold/).",
+        "translatedContent": "[pacman](https://wiki.archlinux.org/title/Pacman)을 사용하여 [extra 저장소](https://archlinux.org/packages/extra/x86_64/gfold/)에서 `gfold`를 설치할 수 있습니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```shell\npacman -S gfold\n```",
+    "ContentSha": "09e+ro83ziykZOQhINshwgPIgr5sbWlUN04/PgrtQxo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\npacman -S gfold\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "6V488tWsOfAuBOe5PYb3w3U4FmsX5LOztVLkfd9ufac=",
+        "originContent": "pacman -S gfold",
+        "translatedContent": "pacman -S gfold"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### Nix and NixOS\n\nYou can install `gfold` from [nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/version-management/gfold/default.nix):\n",
+    "ContentSha": "s9bY+RZeAO5aAr/UiHfaYAZR3MT/VuzOQCpkUNfwDcI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Nix 및 NixOS\n\n[nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/version-management/gfold/default.nix)에서 `gfold`를 설치할 수 있습니다:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tA73VfsjpFahOU3w4vGQHvGsMlz4qQyImR4VvK/4mho=",
+        "originContent": "### Nix and NixOS",
+        "translatedContent": "### Nix 및 NixOS"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "akw3DGAxQyi/d8CSvsPzdfXTRQ4drNLt3qUhn3AYS6U=",
+        "originContent": "You can install `gfold` from [nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/version-management/gfold/default.nix):",
+        "translatedContent": "[nixpkgs](https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/version-management/gfold/default.nix)에서 `gfold`를 설치할 수 있습니다:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```shell\nnix-env --install gfold\n```",
+    "ContentSha": "UzbAnyaeWJkutuJ+SY3d8pX/wnDgNCTCUBpSsrxhSak=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nnix-env --install gfold\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "MBynh6pOFYv4Cjcp/6iK4sE6fmXSlFQ+2F0zQRCGogc=",
+        "originContent": "nix-env --install gfold",
+        "translatedContent": "nix-env --install gfold"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "\nIf you are using [flakes](https://nixos.wiki/wiki/Flakes), you can install using the `nix` command directly.\n",
+    "ContentSha": "UtOf+fFGxW++UmFp1gspiqOaPDLYlm7ESNIvKIkSjwI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n만약 [flakes](https://nixos.wiki/wiki/Flakes)를 사용하고 있다면, `nix` 명령어를 사용하여 직접 설치할 수 있습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "UDQVVkkWhF7fKCVa+VPz2fsA0+Hr82dNARy2fv6phzg=",
+        "originContent": "If you are using [flakes](https://nixos.wiki/wiki/Flakes), you can install using the `nix` command directly.",
+        "translatedContent": "만약 [flakes](https://nixos.wiki/wiki/Flakes)를 사용하고 있다면, `nix` 명령어를 사용하여 직접 설치할 수 있습니다."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```shell\nnix profile install \"nixpkgs#gfold\"\n```",
+    "ContentSha": "FFT6OrNhLFOOwh2lDhm3J8pJK9OBUk+hQYmkcYq1VuQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nnix profile install \"nixpkgs#gfold\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "StYSstRIr3zLmXj4FAyzeA2RsmjxVx5RD32F4ynsky8=",
+        "originContent": "nix profile install \"nixpkgs#gfold\"",
+        "translatedContent": "nix profile install \"nixpkgs#gfold\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n### Cargo\n\nYou can use [cargo](https://crates.io) to install the [crate](https://crates.io/crates/gfold) on almost any platform.\n",
+    "ContentSha": "TATxs2/f1bEjpNwITBh3+rgpNbWkDuLlcxrQf04q+SE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Cargo\n\n거의 모든 플랫폼에서 [crate](https://crates.io/crates/gfold)를 설치하기 위해 [cargo](https://crates.io)를 사용할 수 있습니다.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "S/0xZYWJN+sozA5d3nyuw+LKftpI/DZUqza9cz9J+Iw=",
+        "originContent": "### Cargo",
+        "translatedContent": "### Cargo"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "BwpXm22N0hyjYSEDYJEbYpVyAVKn9xZY9PeQY6X6ONI=",
+        "originContent": "You can use [cargo](https://crates.io) to install the [crate](https://crates.io/crates/gfold) on almost any platform.",
+        "translatedContent": "거의 모든 플랫폼에서 [crate](https://crates.io/crates/gfold)를 설치하기 위해 [cargo](https://crates.io)를 사용할 수 있습니다."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```shell\ncargo install gfold\n```",
+    "ContentSha": "FvodvBIYES7mKXmVr35+sD6osHbgckzYdAgO0iEyJ+o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ncargo install gfold\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "MAYHBgDpRGZjKBaBM/3Af5YZqHb9/IjcVFpFSkzz24k=",
+        "originContent": "cargo install gfold",
+        "translatedContent": "cargo install gfold"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\nUse the `--locked` flag if you'd like Cargo to use `Cargo.lock`.\n",
+    "ContentSha": "BLm28DaJv83wwnq3aGrdCI6VdIdQ7h+taJvyf5ULKak=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`Cargo.lock`을 사용하려면 `--locked` 플래그를 사용하세요.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`Cargo.lock`을 사용하려면 `--locked` 플래그를 사용하세요."
+      },
+      {
+        "row": 2,
+        "rowsha": "4d7xdMtmbkew0jVjTxUe4U5iCzmhpaUYfTgImAb96fc=",
+        "originContent": "Use the `--locked` flag if you'd like Cargo to use `Cargo.lock`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```shell\ncargo install --locked gfold\n```",
+    "ContentSha": "AlwKOhe4U6cSDLQ0SEmnxSrqCcl7zEFdJc2QVT7pVpE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ncargo install --locked gfold\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "qW4J4lBZXhOci3H1/a6380FASNWI4X/qeK4W+/Mbcdw=",
+        "originContent": "cargo install --locked gfold",
+        "translatedContent": "cargo install --locked gfold"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\nKeeping the crate up to date is easy with [cargo-update](https://crates.io/crates/cargo-update).\n",
+    "ContentSha": "P5lakycYQMA7T0bvVFy0q5XRNxaWJxln44NmnPrSjjQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "크레이트를 최신 상태로 유지하는 것은 [cargo-update](https://crates.io/crates/cargo-update)로 쉽습니다.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "크레이트를 최신 상태로 유지하는 것은 [cargo-update](https://crates.io/crates/cargo-update)로 쉽습니다."
+      },
+      {
+        "row": 2,
+        "rowsha": "1PxHUnZQru+YU05FJ7p1YmBRWldT318bBoO49kP1S74=",
+        "originContent": "Keeping the crate up to date is easy with [cargo-update](https://crates.io/crates/cargo-update).",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```shell\ncargo install cargo-update\ncargo install-update -a\n```",
+    "ContentSha": "xi8PwsR73J0zYeX6nrzGnUJCxBQpY4u5uPxppVNq1lc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ncargo install cargo-update\ncargo install-update -a\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "Vx/0lMwBgFOptSuaCW6UVAlmvxjHz4JNv1lR2cKjQ+0=",
+        "originContent": "cargo install cargo-update",
+        "translatedContent": "cargo install cargo-update"
+      },
+      {
+        "row": 3,
+        "rowsha": "3PgglWQ+C3Azlak34nnSrgj1d1Dggd8H4XP66zF7Gs8=",
+        "originContent": "cargo install-update -a",
+        "translatedContent": "cargo install-update -a"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "\n### Download a Binary\n\nIf you do not want to use one of the above installation methods and do not want to clone the repository, you can download a binary from the [releases](https://github.com/nickgerace/gfold/releases) page.\nFor an example on how to do that, refer to the [manual install](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/MANUAL_INSTALL.md) guide.\n\n### Build From Source\n\nIf you would like an example on how to build from source, refer to the [manual install](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/MANUAL_INSTALL.md) guide.\n\n### Deprecated: Homebrew Tap (macOS only)\n\nThe [tap located at nickgerace/homebrew-nickgerace](https://github.com/nickgerace/homebrew-nickgerace/blob/main/Formula/gfold.rb) has been deprecated.\nPlease use the aforementioned core Homebrew package instead.\n\n### Preferred Installation Method Not Listed?\n\nPlease [file an issue](https://github.com/nickgerace/gfold/issues/new)!\n\n## Compatibility\n\n`gfold` is intended to be ran on _any_ tier one Rust 🦀 target.\nPlease [file an issue](https://github.com/nickgerace/gfold/issues) if your platform is unsupported.\n\n## Troubleshooting and Known Issues\n\nIf you encounter unexpected behavior or a bug and would like to see more details, please run with increased verbosity.\n",
+    "ContentSha": "GzmXCMOFULFM4+OK25fS7pCzTblf7O77WZFCMNA+slg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 바이너리 다운로드\n\n위의 설치 방법을 사용하지 않거나 저장소를 클론하고 싶지 않은 경우, [릴리스](https://github.com/nickgerace/gfold/releases) 페이지에서 바이너리를 다운로드할 수 있습니다.  \n방법에 대한 예시는 [수동 설치](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/MANUAL_INSTALL.md) 가이드를 참조하세요.\n\n### 소스에서 빌드하기\n\n소스에서 빌드하는 방법에 대한 예시는 [수동 설치](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/MANUAL_INSTALL.md) 가이드를 참조하세요.\n\n### 더 이상 사용되지 않음: Homebrew 탭 (macOS 전용)\n\n[nickgerace/homebrew-nickgerace에 위치한 탭](https://github.com/nickgerace/homebrew-nickgerace/blob/main/Formula/gfold.rb)은 더 이상 사용되지 않습니다.  \n대신 위에서 언급한 기본 Homebrew 패키지를 사용하세요.\n\n### 선호하는 설치 방법이 목록에 없나요?\n\n[이슈를 등록해 주세요](https://github.com/nickgerace/gfold/issues/new)!\n\n## 호환성\n\n`gfold`는 _모든_ 1급 Rust 🦀 타겟에서 실행되도록 설계되었습니다.  \n지원되지 않는 플랫폼이 있다면 [이슈를 등록해 주세요](https://github.com/nickgerace/gfold/issues).\n\n## 문제 해결 및 알려진 문제\n\n예상치 못한 동작이나 버그가 발생하고 더 자세한 정보를 보고 싶다면, 상세 출력을 높여 실행하세요.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 바이너리 다운로드"
+      },
+      {
+        "row": 2,
+        "rowsha": "FF7yMIbB3UqEf22L1/A/6eAVvoP77OkaA9F6fB1r4yk=",
+        "originContent": "### Download a Binary",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "위의 설치 방법을 사용하지 않거나 저장소를 클론하고 싶지 않은 경우, [릴리스](https://github.com/nickgerace/gfold/releases) 페이지에서 바이너리를 다운로드할 수 있습니다.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "r8u6SFcL7ueLDPctqzClcs0UPCPDBHK1BRxudNpqBLQ=",
+        "originContent": "If you do not want to use one of the above installation methods and do not want to clone the repository, you can download a binary from the [releases](https://github.com/nickgerace/gfold/releases) page.",
+        "translatedContent": "방법에 대한 예시는 [수동 설치](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/MANUAL_INSTALL.md) 가이드를 참조하세요."
+      },
+      {
+        "row": 5,
+        "rowsha": "k0klVLkBZ6CCIkUWPcFiF5b3bpsgZks02or2RuDwglk=",
+        "originContent": "For an example on how to do that, refer to the [manual install](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/MANUAL_INSTALL.md) guide.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 소스에서 빌드하기"
+      },
+      {
+        "row": 7,
+        "rowsha": "nR63g3HErMK53NlXCEBMlgFlMkoRPFWmoI4PGjzMhM0=",
+        "originContent": "### Build From Source",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "소스에서 빌드하는 방법에 대한 예시는 [수동 설치](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/MANUAL_INSTALL.md) 가이드를 참조하세요."
+      },
+      {
+        "row": 9,
+        "rowsha": "ZElbCOv07wI22V3ncVeWX7lh0wI8wkCa/Yed2qXTe4M=",
+        "originContent": "If you would like an example on how to build from source, refer to the [manual install](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/MANUAL_INSTALL.md) guide.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 더 이상 사용되지 않음: Homebrew 탭 (macOS 전용)"
+      },
+      {
+        "row": 11,
+        "rowsha": "gK57nOCBpQwnScB5rYl4OwfjZXVcP1BbhZJqEYMh1Ec=",
+        "originContent": "### Deprecated: Homebrew Tap (macOS only)",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[nickgerace/homebrew-nickgerace에 위치한 탭](https://github.com/nickgerace/homebrew-nickgerace/blob/main/Formula/gfold.rb)은 더 이상 사용되지 않습니다.  "
+      },
+      {
+        "row": 13,
+        "rowsha": "ZqFVvASi12AvUMB/BVkCvcvnKQjb4b0+6nirdeN1If0=",
+        "originContent": "The [tap located at nickgerace/homebrew-nickgerace](https://github.com/nickgerace/homebrew-nickgerace/blob/main/Formula/gfold.rb) has been deprecated.",
+        "translatedContent": "대신 위에서 언급한 기본 Homebrew 패키지를 사용하세요."
+      },
+      {
+        "row": 14,
+        "rowsha": "6yJ7U7zZJZ85+FkqUXfv4mS2QE/uoGTCR4dGEXjqpPw=",
+        "originContent": "Please use the aforementioned core Homebrew package instead.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 선호하는 설치 방법이 목록에 없나요?"
+      },
+      {
+        "row": 16,
+        "rowsha": "V2iwyvuTV+rgRiqmGVr7dqeiOi0RGpg5bcEFat4XHpE=",
+        "originContent": "### Preferred Installation Method Not Listed?",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[이슈를 등록해 주세요](https://github.com/nickgerace/gfold/issues/new)!"
+      },
+      {
+        "row": 18,
+        "rowsha": "5BJW4Ta/xZy5J9mAAiTJxcRxaGtTeSSNCZRGG1fDGQ4=",
+        "originContent": "Please [file an issue](https://github.com/nickgerace/gfold/issues/new)!",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 호환성"
+      },
+      {
+        "row": 20,
+        "rowsha": "ToF55XSC5N+RkvpW3gy7KfKIb5yrXRpshO7tai3jNdg=",
+        "originContent": "## Compatibility",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`gfold`는 _모든_ 1급 Rust 🦀 타겟에서 실행되도록 설계되었습니다.  "
+      },
+      {
+        "row": 22,
+        "rowsha": "WBMpC9Thzz2AgreCbbIncyEjWilILe3aafjOPQHR1PQ=",
+        "originContent": "`gfold` is intended to be ran on _any_ tier one Rust 🦀 target.",
+        "translatedContent": "지원되지 않는 플랫폼이 있다면 [이슈를 등록해 주세요](https://github.com/nickgerace/gfold/issues)."
+      },
+      {
+        "row": 23,
+        "rowsha": "AcfGCUGU2Txf3Su0s8dJRKPsU0g4t77Shd3W/RQhuSE=",
+        "originContent": "Please [file an issue](https://github.com/nickgerace/gfold/issues) if your platform is unsupported.",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 문제 해결 및 알려진 문제"
+      },
+      {
+        "row": 25,
+        "rowsha": "1uli3+imTS2wUrTY2N6WneCGQn8u0s2Ung8H27IEvDs=",
+        "originContent": "## Troubleshooting and Known Issues",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "예상치 못한 동작이나 버그가 발생하고 더 자세한 정보를 보고 싶다면, 상세 출력을 높여 실행하세요."
+      },
+      {
+        "row": 27,
+        "rowsha": "GxnZu3c3xfGG45HHJoLRsaMw+H+fZQaUTX6sKPUgx/g=",
+        "originContent": "If you encounter unexpected behavior or a bug and would like to see more details, please run with increased verbosity.",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```shell\ngfold -vvv\n```",
+    "ContentSha": "p+Gyp8SADixbzUAtArnQyXa+eHvS6mElNxwmp5uAxmI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ngfold -vvv\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "llOoXz79h1mqOEK3+Whf51jeYUDAXORl49F+kkIklD8=",
+        "originContent": "gfold -vvv",
+        "translatedContent": "gfold -vvv"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\nIf the issue persists, please [file an issue](https://github.com/nickgerace/gfold/issues).\nPlease attach relevant logs from execution with _sensitive bits redacted_ in order to help resolve your issue.\n\n### Coreutils Collision on macOS\n\nIf `fold` from [GNU Coreutils](https://www.gnu.org/software/coreutils/) is installed on macOS via `brew`, it will be named `gfold`.\nYou can avoid this collision with shell aliases, shell functions, and/or `PATH` changes.\nHere is an example with the `o` dropped from `gfold`:\n",
+    "ContentSha": "0AasTiJ6xsm8YJ14j6vHp6UP2+EfSFZBDAop3Q/QApI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "문제가 계속되면, [이슈를 등록](https://github.com/nickgerace/gfold/issues)해 주세요.  \n문제 해결에 도움이 될 수 있도록 _민감한 부분은 삭제된_ 실행 로그를 첨부해 주세요.  \n\n### macOS에서 Coreutils 충돌  \n\nmacOS에 `brew`를 통해 [GNU Coreutils](https://www.gnu.org/software/coreutils/)의 `fold`가 설치된 경우, `gfold`라는 이름으로 설치됩니다.  \n이 충돌은 셸 별칭, 셸 함수 및/또는 `PATH` 변경으로 피할 수 있습니다.  \n다음은 `gfold`에서 `o`를 뺀 예제입니다:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "문제가 계속되면, [이슈를 등록](https://github.com/nickgerace/gfold/issues)해 주세요.  "
+      },
+      {
+        "row": 2,
+        "rowsha": "/I7Lb+KTK+BttQSpBstCeXHg7q932mcXJCuXBCbyKqg=",
+        "originContent": "If the issue persists, please [file an issue](https://github.com/nickgerace/gfold/issues).",
+        "translatedContent": "문제 해결에 도움이 될 수 있도록 _민감한 부분은 삭제된_ 실행 로그를 첨부해 주세요.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "s9Ad0JzCqPLkSlFHJSoiZWArkA53Eop3MGKwmJWqji4=",
+        "originContent": "Please attach relevant logs from execution with _sensitive bits redacted_ in order to help resolve your issue.",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### macOS에서 Coreutils 충돌  "
+      },
+      {
+        "row": 5,
+        "rowsha": "c+vkgH3VXjeVlATzhAij2ltwMJQfFDyYZhrEiEMdGl0=",
+        "originContent": "### Coreutils Collision on macOS",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "macOS에 `brew`를 통해 [GNU Coreutils](https://www.gnu.org/software/coreutils/)의 `fold`가 설치된 경우, `gfold`라는 이름으로 설치됩니다.  "
+      },
+      {
+        "row": 7,
+        "rowsha": "LVuhKDmSnLwoToOVG0ktECo5IAifq3dYBC0tbfyiQlc=",
+        "originContent": "If `fold` from [GNU Coreutils](https://www.gnu.org/software/coreutils/) is installed on macOS via `brew`, it will be named `gfold`.",
+        "translatedContent": "이 충돌은 셸 별칭, 셸 함수 및/또는 `PATH` 변경으로 피할 수 있습니다.  "
+      },
+      {
+        "row": 8,
+        "rowsha": "k7PX/yRsHLrlpMUbx1xOHGqFk5CS3VEz6eUHHQ1HOkI=",
+        "originContent": "You can avoid this collision with shell aliases, shell functions, and/or `PATH` changes.",
+        "translatedContent": "다음은 `gfold`에서 `o`를 뺀 예제입니다:"
+      },
+      {
+        "row": 9,
+        "rowsha": "ckWN/shbr7gfygGKmAon6PvkiUJDtbS1KmzJsxCMZdc=",
+        "originContent": "Here is an example with the `o` dropped from `gfold`:",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "```shell\nalias gfld=$HOME/.cargo/bin/gfold\n```",
+    "ContentSha": "Vm4dJJUGHNtj3Xre+hhOTpQdJyM3GNeYeXAq3lv4d6g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nalias gfld=$HOME/.cargo/bin/gfold\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "aYno9bzMTUxJ+8jaXGVmdCKfPawNkUnbfAUqGw4V12o=",
+        "originContent": "alias gfld=$HOME/.cargo/bin/gfold",
+        "translatedContent": "alias gfld=$HOME/.cargo/bin/gfold"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "\n## Community\n\nFor more information and thanks to users and the \"community\" at large, please refer to the **[COMMUNITY THANKS](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/COMMUNITY_THANKS.md)** file.\n\n- [Packages for NixOS, Arch Linux and more](https://repology.org/project/gfold/versions)\n- [\"One Hundred Rust Binaries\"](https://www.wezm.net/v2/posts/2020/100-rust-binaries/page2/), an article that featured `gfold`\n- [nvim-gfold.lua](https://github.com/AckslD/nvim-gfold.lua), a `neovim` plugin for `gfold` _([announcement Reddit post](https://www.reddit.com/r/neovim/comments/t209wy/introducing_nvimgfoldlua/))_\n",
+    "ContentSha": "8E8Wx6Vo0mCIzIZwwCWxPcGgLT8rU+QpO4SVIL98Pvc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## 커뮤니티\n\n추가 정보와 사용자 및 전체 \"커뮤니티\"에 대한 감사는 **[COMMUNITY THANKS](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/COMMUNITY_THANKS.md)** 파일을 참조하십시오.\n\n- [NixOS, Arch Linux 등용 패키지](https://repology.org/project/gfold/versions)\n- [`gfold`이 소개된 기사, \"One Hundred Rust Binaries\"](https://www.wezm.net/v2/posts/2020/100-rust-binaries/page2/)\n- [`gfold`용 `neovim` 플러그인, nvim-gfold.lua](https://github.com/AckslD/nvim-gfold.lua) _([Reddit 공지 게시물](https://www.reddit.com/r/neovim/comments/t209wy/introducing_nvimgfoldlua/))_\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 커뮤니티"
+      },
+      {
+        "row": 2,
+        "rowsha": "vpVfa1NlR4kP0/NRL7eiXU6zj5WLWqa6scBMZmD4ye0=",
+        "originContent": "## Community",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "추가 정보와 사용자 및 전체 \"커뮤니티\"에 대한 감사는 **[COMMUNITY THANKS](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/COMMUNITY_THANKS.md)** 파일을 참조하십시오."
+      },
+      {
+        "row": 4,
+        "rowsha": "/UqXhBRl/xKb8W88sE4UOjVNWX7OuGBJVtsWimwvLk8=",
+        "originContent": "For more information and thanks to users and the \"community\" at large, please refer to the **[COMMUNITY THANKS](https://raw.githubusercontent.com/nickgerace/gfold/main/./docs/COMMUNITY_THANKS.md)** file.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [NixOS, Arch Linux 등용 패키지](https://repology.org/project/gfold/versions)"
+      },
+      {
+        "row": 6,
+        "rowsha": "54O9OSCaygjYDa6HPlft2wlLzuCitxAeMIL5QfP13qY=",
+        "originContent": "- [Packages for NixOS, Arch Linux and more](https://repology.org/project/gfold/versions)",
+        "translatedContent": "- [`gfold`이 소개된 기사, \"One Hundred Rust Binaries\"](https://www.wezm.net/v2/posts/2020/100-rust-binaries/page2/)"
+      },
+      {
+        "row": 7,
+        "rowsha": "UkBx4AdTFSLA2jLGXJMURn7pDpkM7fgaIAO3nQl6kb8=",
+        "originContent": "- [\"One Hundred Rust Binaries\"](https://www.wezm.net/v2/posts/2020/100-rust-binaries/page2/), an article that featured `gfold`",
+        "translatedContent": "- [`gfold`용 `neovim` 플러그인, nvim-gfold.lua](https://github.com/AckslD/nvim-gfold.lua) _([Reddit 공지 게시물](https://www.reddit.com/r/neovim/comments/t209wy/introducing_nvimgfoldlua/))_"
+      },
+      {
+        "row": 8,
+        "rowsha": "Zn80JTq8IXM8YTL3BA8rHcbccEL9A5p3gtrbZ/O01TI=",
+        "originContent": "- [nvim-gfold.lua](https://github.com/AckslD/nvim-gfold.lua), a `neovim` plugin for `gfold` _([announcement Reddit post](https://www.reddit.com/r/neovim/comments/t209wy/introducing_nvimgfoldlua/))_",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

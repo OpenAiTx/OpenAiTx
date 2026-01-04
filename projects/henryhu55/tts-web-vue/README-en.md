@@ -1,96 +1,121 @@
-
 <div align="right">
   <details>
     <summary >🌐 Language</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-CN">Simplified Chinese</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-TW">Traditional Chinese</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ja">Japanese</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ko">Korean</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=hi">Hindi</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=th">Thai</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fr">French</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=de">German</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=es">Spanish</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=it">Italian</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ru">Russian</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pt">Portuguese</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=nl">Dutch</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pl">Polish</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ar">Arabic</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fa">Persian</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=tr">Turkish</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=vi">Vietnamese</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=id">Indonesian</a>
-        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as">Assamese</
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as">অসমীয়া</
       </div>
     </div>
   </details>
 </div>
 
-# TTS-Vue Web Version
+# [TTS-Vue Web Version](https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as)
 
-🎤 Microsoft Speech Synthesis Tool, Web version, built with `Vue` + `ElementPlus` + `Vite`.
+> ✅ **Online Demo (Recommended)**: [https://xiaoying.work](https://xiaoying.work) (🎁 **10,000 characters free every day**)
+>
+> 🚀 **New product**: Professional voice-over service / More stable / Supports packages / More voices supported / Task queue
 
-## Website Example
+🎤 Microsoft speech synthesis tool, Web version, built with `Vue` + `ElementPlus` + `Vite`.
+
+## Hosted Version / Try it Online
+
+This repository is a reference implementation of an open-source Web UI. If you need a more stable and feature-rich service, we recommend using our official hosted version.
+
+| Feature              | Self-hosted (this repository)         | [XiaoYing.work (Official Hosted)](https://xiaoying.work) |
+| :------------------- | :------------------------------------ | :------------------------------------------------------- |
+| **Deployment Difficulty** | Need to deploy backend and configure environment yourself | **Ready to use, no deployment required**            |
+| **Free Quota**       | Depends on backend configuration      | **10,000 characters free per day**                     |
+| **Stability**        | Depends on local network environment  | **High availability SLA, dedicated line acceleration**  |
+| **Functionality**    | Basic speech synthesis                | **Account system, task queue, more voices, API support** |
+| **Maintenance**      | Community maintained                  | **Official continuous updates and maintenance**         |
+| **Applicable Scenarios** | Learning, personal tinkering           | **Production environment, professional dubbing, frequent use** |
+
+## Website Examples
+
+### Hosted Website Interface
+
+https://xiaoying.work (🎁 **10,000 characters free per day**)
+
+![1767435524286](https://raw.githubusercontent.com/henryhu55/tts-web-vue/master/image/README/1767435524286.png)
 
 https://web.tts88.top
+
 ### New Version Interface
+
 ![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)
 
 ### Old Version Interface
+
 ![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)
 
 ## Features
 
 - 🌐 Completely web-based, no need to install desktop applications
-- 🔊 Supports various Microsoft voice syntheses
+- 🔊 Supports various Microsoft speech synthesis voices
 - 🚀 Supports TTS88 API integration
 - 🆓 Supports free TTS calls, daily free quota
-- 🧠 Supports OpenAI text generation
+- 🧠 Supports text generation with OpenAI
 - 🌍 Supports multiple languages: Chinese, English, Spanish
 - 🔐 Browser fingerprint recognition for a more secure user experience
 
 ## Latest Updates
 
-### UI Refactoring & Feature Enhancement (v2.2.0)
+### Interface Refactoring and Feature Enhancement (v2.2.0)
 
-- 📱 **UI Refactoring**: Fixed top navigation, sticky text box, optimized for mobile adaptation
-- 🔤 **SSML Enhancement**: Added SSML formatting, automatically updates SSML based on settings changes
-- 🎵 **Player Optimization**: Integrated player into main interface, improved audio playback and download experience
-- 🎞️ **Subtitle Feature**: Added online subtitle generation to boost content creation efficiency
-- 🌓 **Theme Optimization**: Improved dark mode interface, added global theme switching
-- 🛠️ **Advanced Settings**: Optimized free TTS service interface, added speech rate and pitch configuration
+- 📱 **UI Refactoring**: Fixed top navigation, text box uses sticky mode, optimized mobile adaptation
+- 🔤 **SSML Enhancement**: Added SSML formatting function, automatically updates SSML with settings changes
+- 🎵 **Player Optimization**: Integrated player into the main interface, improved audio playback and download experience
+- 🎞️ **Subtitle Feature**: Newly added online subtitle generation function to enhance content creation efficiency
+- 🌓 **Theme Optimization**: Improved interface performance in dark mode, added global theme switching
+- 🛠️ **Advanced Settings**: Optimized free TTS service interface, added speed and pitch configuration
 - 💡 **Interaction Experience**: Added tooltip function to enhance user guidance
-- 🔄 **Dependency Upgrades**: Vue updated to 3.5.11, ElementPlus updated to 2.9.9
+- 🔄 **Dependency Upgrade**: Vue upgraded to 3.5.11, ElementPlus upgraded to 2.9.9
 - 🌐 **Link Update**: Updated GitHub repository address
 
 ### Free TTS Service Integration (v2.1.0)
 
-- 🆕 **Free TTS Feature**: No API key required, daily free quota
-- 👤 **Browser Fingerprint Recognition**: Ensures fair usage of free quota for each user
+- 🆕 **Free TTS Feature**: No API key required, free quota available daily
+- 👤 **Browser Fingerprint Recognition**: Ensures fair use of free quota for each user
 - 🔄 **Quota Status Display**: Real-time display of remaining free characters and reset time
-- 🌐 **Server Status Detection**: Automatically detects free TTS server connection status
-- 🛡️ **Enhanced Error Handling**: More user-friendly error messages and status feedback
-- 🎛️ **Free TTS Settings Panel**: Convenient for users to configure and view quota information
+- 🌐 **Server Status Detection**: Automatically detects connection status of free TTS server
+- 🛡️ **Enhanced Error Handling**: More user-friendly error prompts and status feedback
+- 🎛️ **Free TTS Settings Panel**: Easy for users to configure and view quota information
 
-### UI and User Experience Optimization (v2.0.0)
+### Interface and User Experience Optimization (v2.0.0)
 
-- ✨ **Settings Area Optimization**: The settings panel now supports collapsing; click the "Voice Settings" title to expand/collapse.
-- 🔘 **Smart Button Placement**: The "Start Conversion" button is moved to the top, so you can click it without scrolling.
-- 💬 **Enhanced Status Prompts**: Intuitive conversion status prompt text has been added.
-- 🎨 **Visual Improvements**: Button now features lighting animations for a better user experience.
-- 📱 **Responsive Layout Optimization**: Improved display effects across different screen sizes.
+- ✨ **Settings Area Optimization**: Settings panel supports collapsing, click "Voice Settings" title to expand/collapse
+- 🔘 **Smart Button Positioning**: "Start Conversion" button moved to the top, no need to scroll to click
+- 💬 **Status Prompt Enhancement**: Added intuitive conversion status prompt text
+- 🎨 **Visual Effect Improvement**: Buttons feature light animation for enhanced user experience
+- 📱 **Responsive Layout Optimization**: Improved display on different screen sizes
 
-These improvements greatly enhance usability, especially addressing the issue in traditional designs where users had to scroll to the bottom to click the "Start Conversion" button. Now, users can easily initiate the conversion process from anywhere on the page.
+These improvements greatly enhance efficiency, especially solving the traditional design issue where users had to scroll to the bottom to click the "Start Conversion" button. Now, users can easily start the conversion process from anywhere on the page.
 
 ## Development Plan
 
-> **📢 Important Notice: Desktop version under development!**
-> We are developing a cross-platform desktop app version, which will support more features and provide a better user experience.
-> Stay tuned for further updates, and follow the project for the latest information.
+> **📢 Important Notice: Desktop version is under development!**
+> We are developing a cross-platform desktop application version with more features and a better user experience.
+> Stay tuned for updates and follow the project for the latest information.
 
 ## Quick Start
 
@@ -183,6 +208,6 @@ This software and code are for personal learning and testing purposes only. Plea
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-04
 
 ---

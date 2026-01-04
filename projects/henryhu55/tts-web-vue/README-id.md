@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Bahasa</summary>
@@ -30,67 +29,93 @@
   </details>
 </div>
 
-# TTS-Vue Versi Web
+# [TTS-Vue Versi Web](https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as)
 
-🎤 Alat sintesis suara Microsoft, versi Web, dibangun menggunakan `Vue` + `ElementPlus` + `Vite`.
+> ✅ **Demo Online（Direkomendasikan）**: [https://xiaoying.work](https://xiaoying.work) (🎁 **10.000 karakter gratis setiap hari**)
+>
+> 🚀 **Produk baru**: Produk sulih suara profesional / Lebih stabil / Dukungan paket / Dukungan lebih banyak suara / Ada antrean tugas
+
+🎤 Alat sintesis suara Microsoft, versi Web, dibangun dengan `Vue` + `ElementPlus` + `Vite`.
+
+## Versi Hosted / Coba Online
+
+Repositori ini adalah implementasi referensi Web UI open source. Jika Anda membutuhkan layanan yang lebih stabil dan kaya fitur, kami sarankan menggunakan versi resmi yang dikelola oleh kami.
+
+| Fitur               | Self-hosted (Repositori ini)        | [XiaoYing.work (Resmi Dikelola)](https://xiaoying.work)  |
+| :------------------ | :---------------------------------- | :------------------------------------------------------ |
+| **Tingkat Deploy**  | Harus deploy backend & konfigurasi  | **Siap pakai, tanpa perlu deploy**                  |
+| **Kuota Gratis**    | Bergantung pada konfigurasi backend | **Gratis 10.000 karakter per hari**                  |
+| **Stabilitas**      | Bergantung pada jaringan lokal      | **SLA tinggi, jalur khusus dipercepat**              |
+| **Fitur**           | Sintesis suara dasar                | **Sistem akun, antrean tugas, lebih banyak suara, dukungan API** |
+| **Pemeliharaan**    | Pemeliharaan komunitas              | **Pemeliharaan dan update resmi berkelanjutan**       |
+| **Skema Penggunaan**| Belajar, eksperimen pribadi         | **Lingkungan produksi, dubbing profesional, penggunaan tinggi** |
 
 ## Contoh Situs
 
+### Tampilan Situs Hosted
+
+https://xiaoying.work (🎁 **Gratis 10.000 karakter per hari**)
+
+![1767435524286](https://raw.githubusercontent.com/henryhu55/tts-web-vue/master/image/README/1767435524286.png)
+
 https://web.tts88.top
-### Antarmuka Versi Baru
+
+### Tampilan Versi Baru
+
 ![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)
 
-### Antarmuka Versi Lama
+### Tampilan Versi Lama
+
 ![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)
 
 ## Fitur Utama
 
-- 🌐 Berbasis Web sepenuhnya, tanpa perlu instalasi aplikasi desktop
+- 🌐 Berbasis web sepenuhnya, tanpa perlu instal aplikasi desktop
 - 🔊 Mendukung berbagai sintesis suara Microsoft
 - 🚀 Mendukung integrasi API TTS88
-- 🆓 Mendukung pemanggilan TTS gratis, kuota gratis harian
-- 🧠 Mendukung pembuatan teks dari OpenAI
+- 🆓 Mendukung panggilan TTS gratis, kuota gratis harian
+- 🧠 Mendukung generasi teks OpenAI
 - 🌍 Mendukung multi-bahasa: Mandarin, Inggris, Spanyol
-- 🔐 Pengenalan sidik jari browser, pengalaman pengguna yang lebih aman
+- 🔐 Pengenalan sidik jari browser, pengalaman pengguna lebih aman
 
 ## Pembaruan Terbaru
 
 ### Rekonstruksi Antarmuka & Peningkatan Fitur (v2.2.0)
 
-- 📱 **Rekonstruksi UI**: Navigasi atas tetap, kotak teks menggunakan mode sticky, optimasi adaptasi mobile
-- 🔤 **Peningkatan SSML**: Fitur format SSML baru, otomatis memperbarui SSML sesuai perubahan pengaturan
-- 🎵 **Optimasi Pemutar**: Pemutar terintegrasi di antarmuka utama, pengalaman pemutaran & unduh audio lebih baik
-- 🎞️ **Fitur Subtitle**: Menambahkan fitur pembuatan subtitle online, meningkatkan efisiensi pembuatan konten
-- 🌓 **Peningkatan Tema**: Tampilan antarmuka lebih baik di mode gelap, penambahan pengalihan tema global
-- 🛠️ **Pengaturan Lanjutan**: Optimasi antarmuka layanan TTS gratis, penambahan pengaturan kecepatan & nada suara
-- 💡 **Pengalaman Interaksi**: Penambahan fitur tooltip, panduan operasi pengguna lebih baik
+- 📱 **Rekonstruksi UI**: Navigasi atas tetap, kotak teks dengan mode sticky, optimalisasi adaptasi mobile
+- 🔤 **Peningkatan SSML**: Fitur format SSML baru, otomatis memperbarui SSML sesuai pengaturan
+- 🎵 **Optimalisasi Pemutar**: Integrasi pemutar ke layar utama, pengalaman pemutaran & unduh audio ditingkatkan
+- 🎞️ **Fitur Subtitle**: Penambahan fitur pembuatan subtitle online, meningkatkan efisiensi pembuatan konten
+- 🌓 **Optimalisasi Tema**: Penyempurnaan tampilan mode gelap, penambahan saklar tema global
+- 🛠️ **Pengaturan Lanjutan**: Optimalisasi tampilan layanan TTS gratis, penambahan pengaturan kecepatan & nada
+- 💡 **Pengalaman Interaktif**: Penambahan fitur tooltip, meningkatkan panduan operasi pengguna
 - 🔄 **Pembaruan Dependensi**: Vue diperbarui ke 3.5.11, ElementPlus ke 2.9.9
-- 🌐 **Pembaruan Tautan**: Memperbarui alamat repositori GitHub
+- 🌐 **Pembaruan Link**: Pembaruan alamat repositori GitHub
 
 ### Integrasi Layanan TTS Gratis (v2.1.0)
 
 - 🆕 **Fitur TTS Gratis**: Tidak perlu kunci API, kuota gratis harian tersedia
-- 👤 **Pengenalan Sidik Jari Browser**: Menjamin keadilan pemakaian kuota gratis untuk setiap pengguna
+- 👤 **Pengenalan Sidik Jari Browser**: Menjamin penggunaan kuota gratis yang adil untuk setiap pengguna
 - 🔄 **Tampilan Status Kuota**: Menampilkan sisa karakter gratis & waktu reset secara real-time
-- 🌐 **Deteksi Status Server**: Otomatis mendeteksi status koneksi server TTS gratis
-- 🛡️ **Peningkatan Penanganan Error**: Notifikasi error & status lebih ramah pengguna
-- 🎛️ **Panel Pengaturan TTS Gratis**: Memudahkan pengguna mengatur & melihat informasi kuota
+- 🌐 **Pengecekan Status Server**: Otomatis memeriksa status koneksi server TTS gratis
+- 🛡️ **Peningkatan Penanganan Error**: Notifikasi error & umpan balik status yang lebih ramah
+- 🎛️ **Panel Pengaturan TTS Gratis**: Memudahkan pengaturan & melihat info kuota bagi pengguna
 
-### Optimasi Antarmuka & Pengalaman Pengguna (v2.0.0)
+### Optimalisasi Antarmuka & Pengalaman Pengguna (v2.0.0)
 
-- ✨ **Optimasi Area Pengaturan**: Panel pengaturan kini mendukung fungsi lipat, klik judul "Pengaturan Suara" untuk membuka/menutup
-- 🔘 **Posisi Tombol Pintar**: Tombol "Mulai Konversi" dipindahkan ke bagian atas, dapat diklik tanpa perlu menggulir
-- 💬 **Peningkatan Notifikasi Status**: Ditambahkan teks penanda status konversi yang lebih intuitif
-- 🎨 **Perbaikan Efek Visual**: Tombol kini memiliki animasi efek cahaya untuk meningkatkan pengalaman pengguna
-- 📱 **Optimalisasi Tata Letak Responsif**: Tampilan di berbagai ukuran layar telah diperbaiki
+- ✨ **Optimalisasi Area Pengaturan**: Panel pengaturan bisa dilipat, klik judul "Pengaturan Suara" untuk expand/collapse
+- 🔘 **Posisi Tombol Pintar**: Tombol "Mulai Konversi" dipindah ke atas, bisa diakses tanpa scroll
+- 💬 **Peningkatan Notifikasi Status**: Penambahan teks status konversi yang lebih informatif
+- 🎨 **Peningkatan Visual**: Tombol dengan animasi efek cahaya, pengalaman pengguna lebih baik
+- 📱 **Optimalisasi Layout Responsif**: Tampilan lebih baik di berbagai ukuran layar
 
-Pembaruan ini sangat meningkatkan efisiensi penggunaan, terutama mengatasi masalah pada desain lama di mana pengguna harus menggulir ke bagian bawah halaman untuk menekan tombol "Mulai Konversi". Kini, di mana pun posisi pengguna pada halaman, proses konversi bisa dimulai dengan mudah.
+Peningkatan ini sangat meningkatkan efisiensi penggunaan, terutama menyelesaikan masalah desain lama di mana pengguna harus scroll ke bawah untuk klik tombol "Mulai Konversi". Kini, di mana pun pengguna berada di halaman, proses konversi bisa dimulai dengan mudah.
 
 ## Rencana Pengembangan
 
-> **📢 Pemberitahuan Penting: Versi Desktop Sedang Dikembangkan!**
-> Kami sedang mengembangkan aplikasi desktop lintas platform yang akan mendukung lebih banyak fitur dan pengalaman pengguna yang lebih baik.
-> Nantikan pembaruan berikutnya dan ikuti perkembangan proyek untuk informasi terbaru.
+> **📢 Pemberitahuan Penting: Versi desktop sedang dikembangkan!**
+> Kami sedang mengembangkan aplikasi desktop lintas platform, akan mendukung lebih banyak fitur dan pengalaman pengguna yang lebih baik.
+> Nantikan pembaruan berikutnya, pantau perkembangan proyek untuk info terbaru.
 
 ## Mulai Cepat
 
@@ -183,6 +208,6 @@ Perangkat lunak dan kode ini hanya untuk penggunaan pembelajaran dan pengujian p
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-04
 
 ---

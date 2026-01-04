@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Idioma</summary>
@@ -30,69 +29,95 @@
   </details>
 </div>
 
-# TTS-Vue Versión Web
+# [TTS-Vue Versión Web](https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as)
+
+> ✅ **Demo en línea (recomendado)**: [https://xiaoying.work](https://xiaoying.work) (🎁 **10,000 caracteres gratis por día**)
+>
+> 🚀 **Nuevo producto**: Producto de locución profesional / Más estable / Soporta planes / Más voces disponibles / Cola de tareas
 
 🎤 Herramienta de síntesis de voz de Microsoft, versión web, construida con `Vue` + `ElementPlus` + `Vite`.
 
-## Ejemplo del sitio web
+## Versión alojada / Pruébalo en línea
+
+Este repositorio es una implementación de referencia de una interfaz web de código abierto. Si necesita un servicio más estable y con más funciones, le recomendamos usar nuestra versión oficial alojada.
+
+| Característica      | Autohospedado (este repositorio)       | [XiaoYing.work (oficial alojado)](https://xiaoying.work)  |
+| :------------------ | :------------------------------------- | :----------------------------------------------------- |
+| **Dificultad de despliegue** | Requiere desplegar backend y configurar entorno | **Listo para usar, sin despliegue**             |
+| **Cuota gratuita**  | Depende de la configuración del backend | **10,000 caracteres gratis por día**             |
+| **Estabilidad**     | Depende del entorno de red local        | **SLA de alta disponibilidad, aceleración dedicada** |
+| **Funciones**       | Síntesis de voz básica                  | **Sistema de cuentas, cola de tareas, más voces, soporte API** |
+| **Mantenimiento**   | Mantenido por la comunidad              | **Actualizaciones y soporte oficial continuo**    |
+| **Escenarios de uso** | Aprendizaje, uso personal              | **Entornos de producción, doblaje profesional, uso frecuente** |
+
+## Ejemplo de sitio web
+
+### Interfaz del sitio alojado
+
+https://xiaoying.work (🎁 **10,000 caracteres gratis por día**)
+
+![1767435524286](https://raw.githubusercontent.com/henryhu55/tts-web-vue/master/image/README/1767435524286.png)
 
 https://web.tts88.top
+
 ### Interfaz de la nueva versión
-![imagen](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)
+
+![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)
 
 ### Interfaz de la versión anterior
-![imagen](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)
 
-## Características principales
+![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)
 
-- 🌐 Completamente web, sin necesidad de instalar aplicaciones de escritorio
-- 🔊 Compatible con múltiples síntesis de voz de Microsoft
-- 🚀 Soporta integración con la API TTS88
-- 🆓 Compatible con llamadas TTS gratuitas, cuota diaria gratuita
-- 🧠 Soporta generación de texto de OpenAI
-- 🌍 Compatible con varios idiomas: chino, inglés, español
-- 🔐 Reconocimiento de huella digital del navegador, experiencia de usuario más segura
+## Características
+
+- 🌐 Totalmente web, no requiere instalación de aplicaciones de escritorio
+- 🔊 Soporta múltiples síntesis de voz de Microsoft
+- 🚀 Soporta integración con la API de TTS88
+- 🆓 Soporta llamadas TTS gratuitas, cuota diaria gratis
+- 🧠 Soporta generación de texto con OpenAI
+- 🌍 Soporta varios idiomas: chino, inglés, español
+- 🔐 Identificación de huella digital del navegador, experiencia de usuario más segura
 
 ## Últimas actualizaciones
 
-### Reconstrucción de la interfaz y mejoras de funciones (v2.2.0)
+### Reconstrucción de interfaz y mejoras de funciones (v2.2.0)
 
-- 📱 **Reconstrucción de UI**: navegación superior fija, cuadro de texto con modo fijo, optimización para dispositivos móviles
-- 🔤 **Mejoras en SSML**: nueva función de formateo SSML, actualización automática según cambios de configuración
-- 🎵 **Optimización de reproductor**: reproductor integrado en la pantalla principal, mejor experiencia de reproducción y descarga de audio
-- 🎞️ **Función de subtítulos**: nueva función para generar subtítulos en línea, mayor eficiencia en creación de contenido
-- 🌓 **Optimización de temas**: mejora de la interfaz en modo oscuro, añadido de cambio de tema global
-- 🛠️ **Configuración avanzada**: mejora de la interfaz del servicio TTS gratuito, nuevas opciones de velocidad y tono de voz
-- 💡 **Mejor experiencia de interacción**: añadido de tooltips, mejor orientación al usuario
-- 🔄 **Actualización de dependencias**: actualización de Vue a la versión 3.5.11 y ElementPlus a 2.9.9
-- 🌐 **Actualización de enlaces**: actualización de la dirección del repositorio GitHub
+- 📱 **Reconstrucción de la UI**: Navegación superior fija, cuadro de texto en modo sticky, optimización para móviles
+- 🔤 **Mejora de SSML**: Nueva función de formateo SSML, actualización automática según los cambios de configuración
+- 🎵 **Optimización del reproductor**: Integración del reproductor en la interfaz principal, mejor experiencia de reproducción y descarga de audio
+- 🎞️ **Función de subtítulos**: Nueva función para generar subtítulos en línea, aumentando la eficiencia creativa
+- 🌓 **Mejora de temas**: Mejorada la apariencia en modo oscuro, añadido cambio de tema global
+- 🛠️ **Configuraciones avanzadas**: Optimización de la interfaz de TTS gratis, nuevas opciones de velocidad y tono
+- 💡 **Experiencia interactiva**: Añadida función de tooltips para mejorar la orientación al usuario
+- 🔄 **Actualización de dependencias**: Vue actualizado a 3.5.11, ElementPlus a 2.9.9
+- 🌐 **Actualización de enlaces**: Actualizada la dirección del repositorio de GitHub
 
-### Integración del servicio TTS gratuito (v2.1.0)
+### Integración de servicio TTS gratuito (v2.1.0)
 
-- 🆕 **Función TTS gratuita**: no se necesita clave API, cuota diaria gratuita
-- 👤 **Reconocimiento de huella digital del navegador**: garantiza el uso justo de la cuota gratuita para cada usuario
-- 🔄 **Visualización del estado de la cuota**: muestra en tiempo real los caracteres gratuitos restantes y el tiempo de reinicio
-- 🌐 **Detección del estado del servidor**: detección automática del estado de conexión del servidor TTS gratuito
-- 🛡️ **Mejor manejo de errores**: avisos de error y retroalimentación de estado más amigables
-- 🎛️ **Panel de configuración de TTS gratuito**: facilita la configuración y visualización de la cuota
+- 🆕 **Función TTS gratuita**: Sin necesidad de clave API, cupo gratuito diario
+- 👤 **Identificación por huella digital del navegador**: Asegura el uso justo del cupo gratuito por usuario
+- 🔄 **Visualización de estado de cupo**: Muestra en tiempo real los caracteres gratuitos restantes y el tiempo de reinicio
+- 🌐 **Detección del estado del servidor**: Detección automática de la conexión con el servidor TTS gratuito
+- 🛡️ **Mejor manejo de errores**: Mensajes de error y retroalimentación de estado más amigables
+- 🎛️ **Panel de configuración TTS gratuito**: Facilita la configuración y visualización del cupo
 
-### Optimización de la interfaz y experiencia de usuario (v2.0.0)
+### Optimización de interfaz y experiencia de usuario (v2.0.0)
 
-- ✨ **Optimización de área de configuración**: El panel de configuración admite plegado; haz clic en el título "Configuración de voz" para expandir/plegar
-- 🔘 **Posición inteligente del botón**: El botón "Iniciar conversión" se ha movido a la parte superior, no es necesario desplazarse para hacer clic
-- 💬 **Mejora de las indicaciones de estado**: Se ha añadido un texto intuitivo de estado de conversión
-- 🎨 **Mejoras visuales**: El botón incluye animación de efectos de luz para mejorar la experiencia del usuario
-- 📱 **Optimización de diseño responsivo**: Se ha mejorado la visualización en diferentes tamaños de pantalla
+- ✨ **Optimización del área de configuración**: El panel de configuración ahora es plegable, haz clic en "Configuración de voz" para expandir/plegar
+- 🔘 **Ubicación inteligente de botones**: Botón "Comenzar conversión" movido arriba, clic disponible sin desplazamiento
+- 💬 **Mejora de mensajes de estado**: Añadidos mensajes intuitivos de estado de conversión
+- 🎨 **Mejoras visuales**: Animación luminosa en botones, mejorando la experiencia de usuario
+- 📱 **Optimización de diseño responsivo**: Mejorada la visualización en diferentes tamaños de pantalla
 
-Estas mejoras aumentan enormemente la eficiencia de uso, especialmente al resolver el problema del diseño tradicional donde el usuario debía desplazarse hasta la parte inferior de la página para hacer clic en el botón "Iniciar conversión". Ahora, sin importar en qué lugar de la página se encuentre el usuario, puede iniciar el proceso de conversión fácilmente.
+Estas mejoras aumentan significativamente la eficiencia, especialmente resolviendo el problema del diseño tradicional donde el usuario tenía que desplazarse al final de la página para hacer clic en el botón "Comenzar conversión". Ahora, sin importar la posición en la página, los usuarios pueden iniciar la conversión fácilmente.
 
 ## Plan de desarrollo
 
 > **📢 Aviso importante: ¡La versión de escritorio está en desarrollo!**
-> Estamos desarrollando una versión de aplicación de escritorio multiplataforma, que admitirá más funciones y mejor experiencia de usuario.
-> Espera futuras actualizaciones y sigue las novedades del proyecto para obtener la información más reciente.
+> Estamos trabajando en una versión de aplicación de escritorio multiplataforma, que contará con más funciones y mejor experiencia de usuario.
+> Mantente atento a futuras actualizaciones y sigue el proyecto para obtener la información más reciente.
 
-## Inicio rápido
+## Comenzar rápidamente
 
 ### Entorno de desarrollo
 
@@ -183,6 +208,6 @@ Este software y el código son solo para uso personal de aprendizaje y prueba, p
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-04
 
 ---

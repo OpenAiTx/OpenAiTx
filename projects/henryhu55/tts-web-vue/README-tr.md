@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Dil</summary>
@@ -30,67 +29,93 @@
   </details>
 </div>
 
-# TTS-Vue Web Sürümü
+# [TTS-Vue Web Sürümü](https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as)
 
-🎤 Microsoft Sesli Konuşma Sentezleme Aracı, Web sürümü, `Vue` + `ElementPlus` + `Vite` kullanılarak geliştirilmiştir.
+> ✅ **Çevrimiçi Demo (Tavsiye Edilir)**: [https://xiaoying.work](https://xiaoying.work) (🎁 **Her gün ücretsiz 10.000 karakter**)
+>
+> 🚀 **Yeni ürün**: Profesyonel seslendirme ürünü / Daha stabil / Paket desteği / Daha fazla ses seçeneği / Görev kuyruğu desteği
 
-## Web Sitesi Örneği
+🎤 Microsoft Konuşma Sentezleme Aracı, Web sürümü, `Vue` + `ElementPlus` + `Vite` ile geliştirilmiştir.
+
+## Barındırılan Sürüm / Çevrimiçi Deneyin
+
+Bu depo, açık kaynaklı Web UI'nin referans uygulamasıdır. Daha stabil ve daha güçlü bir hizmete ihtiyacınız varsa, resmi barındırılan sürümümüzü kullanmanızı öneririz.
+
+| Özellik            | Kendi Sunucunda Barındır (Bu Depo)  | [XiaoYing.work (Resmi Barındırma)](https://xiaoying.work)  |
+| :----------------- | :------------------------- | :---------------------------------------------- |
+| **Kurulum Zorluğu** | Backend'i kurup ortamı yapılandırmanız gerekir | **Hazır kullanıma uygun, kurulum gerektirmez**                    |
+| **Ücretsiz Kota** | Backend yapılandırmasına bağlı          | **Her gün ücretsiz 10.000 karakter**                  |
+| **Stabilite**   | Yerel ağ ortamına bağlı              | **Yüksek erişilebilirlik SLA, özel hat hızlandırma**                  |
+| **Fonksiyonlar**     | Temel ses sentezi                      | **Hesap sistemi, görev kuyruğu, daha fazla ses rengi, API desteği** |
+| **Bakım**     | Topluluk tarafından sürdürülür           | **Resmi olarak sürekli güncellenir ve bakımı yapılır**                      |
+| **Kullanım Senaryosu** | Eğitim, kişisel denemeler             | **Üretim ortamı, profesyonel dublaj, yoğun kullanım**          |
+
+## Web Sitesi Örnekleri
+
+### Barındırılan Web Sitesi Arayüzü
+
+https://xiaoying.work (🎁 **Her gün ücretsiz 10.000 karakter**)
+
+![1767435524286](https://raw.githubusercontent.com/henryhu55/tts-web-vue/master/image/README/1767435524286.png)
 
 https://web.tts88.top
+
 ### Yeni Sürüm Arayüzü
+
 ![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)
 
 ### Eski Sürüm Arayüzü
+
 ![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)
 
 ## Özellikler
 
-- 🌐 Tamamen Web tabanlı, masaüstü uygulaması yüklemeye gerek yok
-- 🔊 Microsoft'un çeşitli ses sentezleme desteği
-- 🚀 TTS88 API entegrasyonu desteği
+- 🌐 Tamamen web tabanlı, masaüstü uygulaması kurmaya gerek yok
+- 🔊 Microsoft'un çeşitli ses sentezlerini destekler
+- 🚀 TTS88 API entegrasyonunu destekler
 - 🆓 Ücretsiz TTS çağrısı desteği, günlük ücretsiz kota
-- 🧠 OpenAI metin üretimi desteği
-- 🌍 Çok dilli destek: Çince, İngilizce, İspanyolca
-- 🔐 Tarayıcı parmak izi tanıma, daha güvenli kullanıcı deneyimi
+- 🧠 OpenAI metin üretimini destekler
+- 🌍 Çoklu dil desteği: Çince, İngilizce, İspanyolca
+- 🔐 Tarayıcı parmak izi tanıma ile daha güvenli kullanıcı deneyimi
 
 ## Son Güncellemeler
 
-### Arayüz Yeniden Yapılandırma ve Fonksiyon Geliştirmeleri (v2.2.0)
+### Arayüz Yeniden Yapılandırması ve Fonksiyon Geliştirmeleri (v2.2.0)
 
-- 📱 **UI Yeniden Yapılandırma**: Sabit üst navigasyon, metin kutusu yapışkan mod, mobil uyumluluk optimizasyonu
-- 🔤 **SSML Geliştirmeleri**: Yeni SSML biçimlendirme fonksiyonu, ayar değişikliklerine göre SSML otomatik güncelleme
-- 🎵 **Çalar Optimizasyonu**: Çaları ana ekrana entegre etme, ses oynatma ve indirme deneyimini iyileştirme
-- 🎞️ **Altyazı Fonksiyonu**: Çevrimiçi altyazı oluşturma özelliği eklendi, içerik üretim verimliliği arttı
-- 🌓 **Tema Optimizasyonu**: Karanlık modda arayüz geliştirmesi, genel tema geçişi eklendi
-- 🛠️ **Gelişmiş Ayarlar**: Ücretsiz TTS hizmeti arayüzü optimizasyonu, yeni hız ve ton ayarı
-- 💡 **Etkileşim Deneyimi**: Araç ipucu fonksiyonu eklendi, kullanıcı yönlendirmesi güçlendirildi
-- 🔄 **Bağımlılık Güncellemesi**: Vue 3.5.11'e, ElementPlus 2.9.9'a güncellendi
+- 📱 **UI Yeniden Yapılandırması**: Sabit üst navigasyon, metin kutusu sabitleme modu, mobil uyumluluk optimizasyonu
+- 🔤 **SSML Geliştirmesi**: Yeni SSML formatlama özelliği, ayar değişikliklerine göre otomatik SSML güncellemesi
+- 🎵 **Oynatıcı Optimizasyonu**: Oynatıcı ana ekrana entegre edildi, ses oynatma ve indirme deneyimi geliştirildi
+- 🎞️ **Altyazı Özelliği**: Çevrimiçi altyazı oluşturma özelliği eklendi, içerik üretim verimliliği artırıldı
+- 🌓 **Tema Optimizasyonu**: Karanlık modda arayüz iyileştirildi, küresel tema geçişi eklendi
+- 🛠️ **Gelişmiş Ayarlar**: Ücretsiz TTS hizmeti arayüzü optimize edildi, hız ve ton ayarı eklendi
+- 💡 **Etkileşim Deneyimi**: Araç ipucu fonksiyonu eklendi, kullanıcı işlem rehberi güçlendirildi
+- 🔄 **Bağımlılık Yükseltmesi**: Vue 3.5.11'e, ElementPlus 2.9.9'a güncellendi
 - 🌐 **Bağlantı Güncellemesi**: GitHub depo adresi güncellendi
 
 ### Ücretsiz TTS Hizmeti Entegrasyonu (v2.1.0)
 
-- 🆕 **Ücretsiz TTS Özelliği**: API anahtarı gerektirmez, her gün ücretsiz kota mevcut
-- 👤 **Tarayıcı Parmak İzi Tanıma**: Her kullanıcının ücretsiz kotadan adil şekilde yararlanmasını sağlar
-- 🔄 **Kota Durumu Gösterimi**: Kalan ücretsiz karakter sayısı ve sıfırlanma zamanı anlık gösterilir
-- 🌐 **Sunucu Durumu Kontrolü**: Ücretsiz TTS sunucu bağlantısı otomatik kontrol edilir
-- 🛡️ **Gelişmiş Hata Yönetimi**: Daha kullanıcı dostu hata mesajları ve durum geri bildirimi
-- 🎛️ **Ücretsiz TTS Ayar Paneli**: Kullanıcıların kota bilgisini kolayca ayarlamasını ve görüntülemesini sağlar
+- 🆕 **Ücretsiz TTS Özelliği**: API anahtarı gerekmeden, günlük ücretsiz kota mevcut
+- 👤 **Tarayıcı Parmak İzi Tanıma**: Her kullanıcıya adil ücretsiz kota kullanımı sağlanır
+- 🔄 **Kota Durumu Gösterimi**: Kalan ücretsiz karakter sayısı ve sıfırlama zamanı anlık gösterilir
+- 🌐 **Sunucu Durumu Kontrolü**: Ücretsiz TTS sunucu bağlantı durumu otomatik algılanır
+- 🛡️ **Gelişmiş Hata Yönetimi**: Daha kullanıcı dostu hata mesajları ve durum bildirimleri
+- 🎛️ **Ücretsiz TTS Ayar Paneli**: Kullanıcılar kolayca ayar yapabilir ve kota bilgisini görebilir
 
 ### Arayüz ve Kullanıcı Deneyimi Optimizasyonu (v2.0.0)
 
-- ✨ **Ayar Alanı Optimizasyonu**: Ayar paneli katlanabilir oldu, "Ses Ayarları" başlığına tıklayarak açıp/kapatabilirsiniz
-- 🔘 **Akıllı Buton Konumu**: "Dönüştürmeyi Başlat" butonu üste taşındı, kaydırma yapmadan tıklanabilir
-- 💬 **Durum Bildirimi Geliştirildi**: Daha sezgisel dönüşüm durumu bildirim metni eklendi
-- 🎨 **Görsel Efekt İyileştirmeleri**: Butonlara ışık efektli animasyon eklendi, kullanıcı deneyimi artırıldı
-- 📱 **Duyarlı Düzen Optimizasyonu**: Farklı ekran boyutlarında görüntüleme iyileştirildi
+- ✨ **Ayar Alanı Optimizasyonu**: Ayar paneli katlanabilir, "Ses Ayarları" başlığına tıklayarak aç/kapat
+- 🔘 **Akıllı Buton Konumu**: "Dönüştürmeye Başla" butonu üstte, kaydırmaya gerek olmadan erişilebilir
+- 💬 **Durum Bildirimi Geliştirmesi**: Dönüştürme durumu için anlaşılır metinler eklendi
+- 🎨 **Görsel Etki İyileştirmesi**: Butonlara ışık efektli animasyonlar eklendi, kullanıcı deneyimi geliştirildi
+- 📱 **Duyarlı Yerleşim Optimizasyonu**: Farklı ekran boyutlarında görüntü iyileştirildi
 
-Bu iyileştirmeler kullanım verimliliğini büyük ölçüde artırdı, özellikle de geleneksel tasarımda kullanıcının sayfanın en altına kaydırmadan "Dönüştürmeyi Başlat" butonuna tıklama gereksinimini çözdü. Artık kullanıcılar, sayfanın neresinde olursa olsun, dönüşüm sürecini kolayca başlatabilir.
+Bu geliştirmeler kullanım verimliliğini büyük ölçüde artırdı, özellikle geleneksel tasarımlarda kullanıcıların "Dönüştürmeye Başla" butonuna tıklamak için sayfanın en altına gitmesi sorununu çözdü. Artık, kullanıcılar sayfanın herhangi bir yerindeyken kolayca dönüştürme işlemini başlatabilir.
 
 ## Geliştirme Planı
 
-> **📢 Önemli Duyuru: Masaüstü sürümü geliştiriliyor!**
-> Platformlar arası masaüstü uygulama sürümünü geliştiriyoruz, daha fazla özellik ve daha iyi kullanıcı deneyimi sunacak.
-> Gelecek güncellemeleri bekleyin, en son bilgiler için proje güncellemelerini takip edin.
+> **📢 Önemli Duyuru: Masaüstü sürüm geliştiriliyor!**
+> Çoklu platform masaüstü uygulama sürümünü geliştiriyoruz, daha fazla özellik ve daha iyi kullanıcı deneyimi sunulacak.
+> Sonraki güncellemeleri bekleyin, en son bilgiler için proje gelişmelerini takip edin.
 
 ## Hızlı Başlangıç
 
@@ -183,6 +208,6 @@ Bu yazılım ve kodlar yalnızca kişisel öğrenme ve test amaçlıdır, lütfe
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-04
 
 ---

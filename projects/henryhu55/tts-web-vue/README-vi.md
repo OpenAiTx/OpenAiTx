@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Ngôn ngữ</summary>
@@ -30,67 +29,93 @@
   </details>
 </div>
 
-# TTS-Vue Phiên bản Web
+# [TTS-Vue Phiên bản Web](https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as)
 
-🎤 Công cụ tổng hợp giọng nói Microsoft, phiên bản Web, được xây dựng bằng `Vue` + `ElementPlus` + `Vite`.
+> ✅ **Bản demo trực tuyến（Khuyến nghị）**: [https://xiaoying.work](https://xiaoying.work) (🎁 **Miễn phí 10.000 ký tự mỗi ngày**)
+>
+> 🚀 **Sản phẩm mới**: Sản phẩm lồng tiếng chuyên nghiệp / Ổn định hơn / Hỗ trợ gói dịch vụ / Hỗ trợ nhiều giọng nói hơn / Có hàng đợi nhiệm vụ
 
-## Ví dụ trang web
+🎤 Công cụ chuyển văn bản thành giọng nói Microsoft, phiên bản Web, xây dựng bằng `Vue` + `ElementPlus` + `Vite`.
+
+## Phiên bản lưu trữ / Dùng thử trực tuyến
+
+Kho lưu trữ này là bản tham khảo triển khai Web UI mã nguồn mở. Nếu bạn cần một dịch vụ ổn định hơn, nhiều tính năng hơn, khuyến nghị sử dụng bản chính thức được chúng tôi lưu trữ.
+
+| Tính năng          | Tự lưu trữ (kho này)          | [XiaoYing.work (Chính thức lưu trữ)](https://xiaoying.work)  |
+| :----------------- | :--------------------------- | :-------------------------------------------------------- |
+| **Độ khó triển khai** | Cần tự triển khai backend, cấu hình môi trường | **Sẵn sàng sử dụng, không cần triển khai**              |
+| **Hạn mức miễn phí** | Phụ thuộc cấu hình backend   | **Miễn phí 10.000 ký tự mỗi ngày**                      |
+| **Tính ổn định**     | Phụ thuộc mạng cục bộ        | **SLA cao, tăng tốc chuyên tuyến**                      |
+| **Chức năng**        | Chuyển văn bản thành giọng nói cơ bản | **Hệ thống tài khoản, hàng đợi, nhiều giọng nói, hỗ trợ API** |
+| **Bảo trì**          | Cộng đồng bảo trì            | **Chính thức cập nhật và bảo trì liên tục**               |
+| **Phù hợp**          | Học tập, cá nhân thử nghiệm  | **Môi trường sản xuất, thuyết minh chuyên nghiệp, tần suất cao** |
+
+## Ví dụ giao diện web
+
+### Giao diện bản lưu trữ chính thức
+
+https://xiaoying.work (🎁 **Miễn phí 10.000 ký tự mỗi ngày**)
+
+![1767435524286](https://raw.githubusercontent.com/henryhu55/tts-web-vue/master/image/README/1767435524286.png)
 
 https://web.tts88.top
+
 ### Giao diện phiên bản mới
+
 ![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)
 
 ### Giao diện phiên bản cũ
+
 ![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)
 
 ## Tính năng nổi bật
 
-- 🌐 Hoàn toàn web, không cần cài đặt ứng dụng máy tính
-- 🔊 Hỗ trợ nhiều loại tổng hợp giọng nói của Microsoft
-- 🚀 Hỗ trợ tích hợp TTS88 API
-- 🆓 Hỗ trợ gọi TTS miễn phí, hạn mức miễn phí mỗi ngày
-- 🧠 Hỗ trợ sinh văn bản từ OpenAI
-- 🌍 Hỗ trợ đa ngôn ngữ: Tiếng Trung, Anh, Tây Ban Nha
-- 🔐 Nhận diện dấu vân tay trình duyệt, trải nghiệm người dùng an toàn hơn
+- 🌐 Giao diện Web hoàn toàn, không cần cài đặt ứng dụng máy tính
+- 🔊 Hỗ trợ nhiều dịch vụ chuyển văn bản thành giọng nói của Microsoft
+- 🚀 Hỗ trợ tích hợp API TTS88
+- 🆓 Hỗ trợ gọi TTS miễn phí, hạn mức miễn phí hàng ngày
+- 🧠 Hỗ trợ sinh văn bản với OpenAI
+- 🌍 Hỗ trợ đa ngôn ngữ: Trung, Anh, Tây Ban Nha
+- 🔐 Nhận diện vân tay trình duyệt, trải nghiệm người dùng an toàn hơn
 
 ## Cập nhật mới nhất
 
-### Tái cấu trúc giao diện & nâng cấp tính năng (v2.2.0)
+### Tái cấu trúc giao diện và tăng cường chức năng (v2.2.0)
 
-- 📱 **Tái cấu trúc UI**: Thanh điều hướng cố định trên cùng, hộp văn bản cố định, tối ưu hiển thị trên di động
+- 📱 **Tái cấu trúc UI**: Cố định thanh điều hướng trên cùng, hộp văn bản sử dụng chế độ hút lên, tối ưu hóa tương thích thiết bị di động
 - 🔤 **Tăng cường SSML**: Thêm chức năng định dạng SSML, tự động cập nhật SSML theo thay đổi thiết lập
-- 🎵 **Tối ưu trình phát**: Tích hợp trình phát vào giao diện chính, cải thiện trải nghiệm phát và tải âm thanh
+- 🎵 **Tối ưu hóa trình phát**: Tích hợp trình phát vào giao diện chính, cải thiện trải nghiệm nghe và tải xuống âm thanh
 - 🎞️ **Chức năng phụ đề**: Thêm chức năng tạo phụ đề trực tuyến, nâng cao hiệu quả sáng tạo nội dung
-- 🌓 **Tối ưu chủ đề**: Cải thiện giao diện ở chế độ tối, bổ sung chuyển đổi chủ đề toàn cục
-- 🛠️ **Cài đặt nâng cao**: Tối ưu giao diện dịch vụ TTS miễn phí, thêm tùy chỉnh tốc độ và cao độ giọng
-- 💡 **Trải nghiệm tương tác**: Thêm chức năng gợi ý công cụ, tăng chỉ dẫn thao tác cho người dùng
+- 🌓 **Tối ưu hóa chủ đề**: Cải thiện giao diện ở chế độ tối, bổ sung chuyển đổi chủ đề toàn cục
+- 🛠️ **Cài đặt nâng cao**: Tối ưu hóa giao diện dịch vụ TTS miễn phí, thêm cấu hình tốc độ và cao độ giọng nói
+- 💡 **Trải nghiệm tương tác**: Thêm chức năng gợi ý công cụ, tăng cường hướng dẫn thao tác cho người dùng
 - 🔄 **Nâng cấp phụ thuộc**: Cập nhật Vue lên 3.5.11, ElementPlus lên 2.9.9
 - 🌐 **Cập nhật liên kết**: Cập nhật địa chỉ kho GitHub
 
 ### Tích hợp dịch vụ TTS miễn phí (v2.1.0)
 
-- 🆕 **Chức năng TTS miễn phí**: Không cần khóa API, mỗi ngày đều có hạn mức miễn phí
-- 👤 **Nhận diện dấu vân tay trình duyệt**: Đảm bảo mỗi người dùng sử dụng hạn mức miễn phí công bằng
-- 🔄 **Hiển thị trạng thái hạn mức**: Hiển thị số ký tự miễn phí còn lại và thời gian đặt lại theo thời gian thực
+- 🆕 **Chức năng TTS miễn phí**: Không cần API key, mỗi ngày đều có hạn mức miễn phí
+- 👤 **Nhận diện vân tay trình duyệt**: Đảm bảo mỗi người dùng sử dụng hạn mức miễn phí công bằng
+- 🔄 **Hiển thị trạng thái hạn mức**: Hiển thị thời gian còn lại và số ký tự miễn phí còn lại theo thời gian thực
 - 🌐 **Kiểm tra trạng thái máy chủ**: Tự động kiểm tra trạng thái kết nối máy chủ TTS miễn phí
-- 🛡️ **Tăng cường xử lý lỗi**: Thông báo lỗi và phản hồi trạng thái thân thiện hơn
-- 🎛️ **Bảng điều khiển TTS miễn phí**: Dễ dàng cấu hình và xem thông tin hạn mức cho người dùng
+- 🛡️ **Tăng cường xử lý lỗi**: Thông báo lỗi thân thiện hơn và phản hồi trạng thái tốt hơn
+- 🎛️ **Bảng thiết lập TTS miễn phí**: Giúp người dùng dễ dàng cấu hình và xem thông tin hạn mức
 
-### Tối ưu giao diện & trải nghiệm người dùng (v2.0.0)
+### Tối ưu hóa giao diện và trải nghiệm người dùng (v2.0.0)
 
-- ✨ **Tối ưu hóa khu vực cài đặt**: Bảng cài đặt hỗ trợ thu gọn, nhấp vào tiêu đề "Cài đặt giọng nói" để mở rộng/thu gọn
-- 🔘 **Vị trí nút thông minh**: Nút "Bắt đầu chuyển đổi" được chuyển lên đầu trang, không cần cuộn trang để nhấn
+- ✨ **Tối ưu hóa khu vực thiết lập**: Bảng thiết lập hỗ trợ gập lại, bấm vào tiêu đề "Thiết lập giọng nói" để mở/gập bảng
+- 🔘 **Vị trí nút thông minh**: Nút "Bắt đầu chuyển đổi" được chuyển lên đầu trang, không cần cuộn xuống để bấm
 - 💬 **Tăng cường thông báo trạng thái**: Thêm thông báo trạng thái chuyển đổi trực quan
-- 🎨 **Cải thiện hiệu ứng hình ảnh**: Nút được thêm hiệu ứng ánh sáng, nâng cao trải nghiệm người dùng
-- 📱 **Tối ưu hóa bố cục đáp ứng**: Cải thiện hiển thị trên các kích thước màn hình khác nhau
+- 🎨 **Cải thiện hiệu ứng thị giác**: Nút bấm được thêm hiệu ứng ánh sáng, nâng cao trải nghiệm người dùng
+- 📱 **Tối ưu hóa bố cục đáp ứng**: Cải thiện hiển thị trên nhiều kích thước màn hình khác nhau
 
-Những cải tiến này giúp nâng cao đáng kể hiệu suất sử dụng, đặc biệt là khắc phục vấn đề thiết kế truyền thống khiến người dùng phải cuộn xuống cuối trang để nhấn nút "Bắt đầu chuyển đổi". Giờ đây, dù người dùng đang ở vị trí nào trên trang cũng có thể dễ dàng khởi động quá trình chuyển đổi.
+Những cải tiến này đã nâng cao hiệu suất sử dụng, đặc biệt là giải quyết vấn đề của thiết kế truyền thống khiến người dùng phải cuộn xuống cuối trang mới bấm được nút "Bắt đầu chuyển đổi". Giờ đây, người dùng có thể dễ dàng bắt đầu quá trình chuyển đổi ở bất kỳ vị trí nào trên trang.
 
 ## Kế hoạch phát triển
 
-> **📢 Thông báo quan trọng: Phiên bản máy tính đang được phát triển!**
-> Chúng tôi đang phát triển phiên bản ứng dụng máy tính đa nền tảng, sẽ hỗ trợ nhiều chức năng hơn và trải nghiệm người dùng tốt hơn.
-> Hãy chờ đợi các bản cập nhật tiếp theo, vui lòng theo dõi dự án để nhận thông tin mới nhất.
+> **📢 Thông báo quan trọng: Phiên bản desktop đang được phát triển!**
+> Chúng tôi đang phát triển ứng dụng desktop đa nền tảng, sẽ hỗ trợ nhiều chức năng và trải nghiệm tốt hơn.
+> Hãy đón chờ những cập nhật tiếp theo, vui lòng theo dõi dự án để nhận thông tin mới nhất.
 
 ## Bắt đầu nhanh
 
@@ -183,6 +208,6 @@ Phần mềm và mã nguồn này chỉ dùng cho mục đích học tập cá n
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-04
 
 ---

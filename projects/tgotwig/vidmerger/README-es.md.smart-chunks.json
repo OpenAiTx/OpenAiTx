@@ -1,0 +1,761 @@
+[
+  {
+    "Id": 1,
+    "Content": "<!-- https://github.com/elsewhencode/project-guidelines/blob/master/README.sample.md -->\n\n<p align=\"center\"><a><img src=\"https://raw.githubusercontent.com/tgotwig/vidmerger/main/img/merge.gif\" alt=\"img/merge.gif\"/></a></p>\n\n<h1 align=\"center\">Vidmerger</h1>\n<p align=\"center\">A wrapper around FFmpeg which simplifies merging of multiple videos.</p>\n\n![demo.png](https://raw.githubusercontent.com/tgotwig/vidmerger/main/img/demo.png)\n\n## 🙉 What is this exactly?\n\nVidmerger is a command-line-tool which uses **ffmpeg** to merge multiple video-files with the same file-extension into one file, for example running `vidmerger .` on mp4 files would create a merged video called `output.mp4` 🐣\n\nHere is the usage help of vidmerger 🤗\n",
+    "ContentSha": "uW+W81x0aF8KM86vgsZSZ+d5wvHuxfS5x5kXejprFLQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<!-- https://github.com/elsewhencode/project-guidelines/blob/master/README.sample.md -->\n\n<p align=\"center\"><a><img src=\"https://raw.githubusercontent.com/tgotwig/vidmerger/main/img/merge.gif\" alt=\"img/merge.gif\"/></a></p>\n\n<h1 align=\"center\">Vidmerger</h1>\n<p align=\"center\">Un envoltorio alrededor de FFmpeg que simplifica la fusión de múltiples videos.</p>\n\n![demo.png](https://raw.githubusercontent.com/tgotwig/vidmerger/main/img/demo.png)\n\n## 🙉 ¿Qué es exactamente esto?\n\nVidmerger es una herramienta de línea de comandos que usa **ffmpeg** para fusionar múltiples archivos de video con la misma extensión en un solo archivo, por ejemplo, ejecutar `vidmerger .` sobre archivos mp4 crearía un video fusionado llamado `output.mp4` 🐣\n\nAquí está la ayuda de uso de vidmerger 🤗\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HNpL+SoDWOexlmQl3tpslanKvFsrC82sk5iK+B9h9SY=",
+        "originContent": "<!-- https://github.com/elsewhencode/project-guidelines/blob/master/README.sample.md -->",
+        "translatedContent": "<!-- https://github.com/elsewhencode/project-guidelines/blob/master/README.sample.md -->"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "/9x0XqUuTEhNEJi7j6m5WfuWFL0nEbBDxPs39lCz+Y8=",
+        "originContent": "<p align=\"center\"><a><img src=\"https://raw.githubusercontent.com/tgotwig/vidmerger/main/img/merge.gif\" alt=\"img/merge.gif\"/></a></p>",
+        "translatedContent": "<p align=\"center\"><a><img src=\"https://raw.githubusercontent.com/tgotwig/vidmerger/main/img/merge.gif\" alt=\"img/merge.gif\"/></a></p>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "by/ktLFsp6obhwrWRYHa/uEWN4wkgxmunQtvUgm/ENY=",
+        "originContent": "<h1 align=\"center\">Vidmerger</h1>",
+        "translatedContent": "<h1 align=\"center\">Vidmerger</h1>"
+      },
+      {
+        "row": 6,
+        "rowsha": "aMQUBpifag2FBjV7xxEGA0brg1Qbybg2IQlQQNgWvSU=",
+        "originContent": "<p align=\"center\">A wrapper around FFmpeg which simplifies merging of multiple videos.</p>",
+        "translatedContent": "<p align=\"center\">Un envoltorio alrededor de FFmpeg que simplifica la fusión de múltiples videos.</p>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "rAYHEgjz5Mxsd3YBFFvxJcIqwoTSw7ytYzFx29cRGK4=",
+        "originContent": "![demo.png](https://raw.githubusercontent.com/tgotwig/vidmerger/main/img/demo.png)",
+        "translatedContent": "![demo.png](https://raw.githubusercontent.com/tgotwig/vidmerger/main/img/demo.png)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "tyypG5YLjlR0JxPtjW+Whh+hzq/D+DDo8YpPZ+e/Fpw=",
+        "originContent": "## 🙉 What is this exactly?",
+        "translatedContent": "## 🙉 ¿Qué es exactamente esto?"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "5rYtMPJaFUDXzSUAcx9S9QMNoP0cltIzGq6jMuxJyZ0=",
+        "originContent": "Vidmerger is a command-line-tool which uses **ffmpeg** to merge multiple video-files with the same file-extension into one file, for example running `vidmerger .` on mp4 files would create a merged video called `output.mp4` 🐣",
+        "translatedContent": "Vidmerger es una herramienta de línea de comandos que usa **ffmpeg** para fusionar múltiples archivos de video con la misma extensión en un solo archivo, por ejemplo, ejecutar `vidmerger .` sobre archivos mp4 crearía un video fusionado llamado `output.mp4` 🐣"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "4v1ygiuZeS2yUgk+/QqyAjEQ05fFH+HDziDaZRrewq4=",
+        "originContent": "Here is the usage help of vidmerger 🤗",
+        "translatedContent": "Aquí está la ayuda de uso de vidmerger 🤗"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```shell\nA wrapper around ffmpeg which simplifies merging multiple videos 🎞  Everything in between the first `-` till the fill extension of the input files will be used as chapter titles 📖.\n\nUsage: vidmerger [OPTIONS] <TARGET_DIR>\n\nArguments:\n  <TARGET_DIR>  Sets the input file to use\n\nOptions:\n  -f, --format <format>   Specifies which formats should be merged individually, the default is 👉 3g2,3gp,aac,ac3,alac,amr,ape,au,avi,awb,dts,f4a,f4b,f4p,f4v,flac,flv,m4a,m4b,m4p,m4r,m4v,mkv,mov,mp2,mp3,mp4,mpeg,mpg,oga,ogg,ogm,ogv,ogx,opus,pcm,spx,wav,webm,wma,wmv\n      --fps <fps>         Generates videos inside a temporary folder with this fps value and merges them\n      --shutdown          For doing a shutdown at the end (needs sudo)\n      --skip-fps-changer  Skips the fps changer\n  -y, --yes               Skips confirmation of merge order\n      --verbose           Prints detailed logs\n  -h, --help              Print help\n  -V, --version           Print version\n```",
+    "ContentSha": "7wlChwp2vM243BEqzScvz53ElOKnQ7Wwns1VSirwpWU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nA wrapper around ffmpeg which simplifies merging multiple videos 🎞  Everything in between the first `-` till the fill extension of the input files will be used as chapter titles 📖.\n\nUsage: vidmerger [OPTIONS] <TARGET_DIR>\n\nArguments:\n  <TARGET_DIR>  Sets the input file to use\n\nOptions:\n  -f, --format <format>   Specifies which formats should be merged individually, the default is 👉 3g2,3gp,aac,ac3,alac,amr,ape,au,avi,awb,dts,f4a,f4b,f4p,f4v,flac,flv,m4a,m4b,m4p,m4r,m4v,mkv,mov,mp2,mp3,mp4,mpeg,mpg,oga,ogg,ogm,ogv,ogx,opus,pcm,spx,wav,webm,wma,wmv\n      --fps <fps>         Generates videos inside a temporary folder with this fps value and merges them\n      --shutdown          For doing a shutdown at the end (needs sudo)\n      --skip-fps-changer  Skips the fps changer\n  -y, --yes               Skips confirmation of merge order\n      --verbose           Prints detailed logs\n  -h, --help              Print help\n  -V, --version           Print version\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "Kd9tAU7mwUZxg/15GPZT2c3kJU+LI+De5ZzbENWOcR4=",
+        "originContent": "A wrapper around ffmpeg which simplifies merging multiple videos 🎞  Everything in between the first `-` till the fill extension of the input files will be used as chapter titles 📖.",
+        "translatedContent": "A wrapper around ffmpeg which simplifies merging multiple videos 🎞  Everything in between the first `-` till the fill extension of the input files will be used as chapter titles 📖."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "t/7K70XnM+CccXR8SJFXoYEhGLUWhDkV+pew0kZB1l4=",
+        "originContent": "Usage: vidmerger [OPTIONS] <TARGET_DIR>",
+        "translatedContent": "Usage: vidmerger [OPTIONS] <TARGET_DIR>"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "oSgcDB7IRyqQzvCaBTUTZjOSF0fLxHKz1ngn/NkHWig=",
+        "originContent": "Arguments:",
+        "translatedContent": "Arguments:"
+      },
+      {
+        "row": 7,
+        "rowsha": "QmH0o1sKXgB8+3ZGAGovO8kZTIdrMIEo5M6V95S0RHM=",
+        "originContent": "  <TARGET_DIR>  Sets the input file to use",
+        "translatedContent": "  <TARGET_DIR>  Sets the input file to use"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "NnQx/WZLtobZ/9ITM5sTgv2OFQnCH83If6v2i9FvEzM=",
+        "originContent": "Options:",
+        "translatedContent": "Options:"
+      },
+      {
+        "row": 10,
+        "rowsha": "llQONMutPKejfvuS/Klvm0dR/Ma3j1PVmf90j6QYk/4=",
+        "originContent": "  -f, --format <format>   Specifies which formats should be merged individually, the default is 👉 3g2,3gp,aac,ac3,alac,amr,ape,au,avi,awb,dts,f4a,f4b,f4p,f4v,flac,flv,m4a,m4b,m4p,m4r,m4v,mkv,mov,mp2,mp3,mp4,mpeg,mpg,oga,ogg,ogm,ogv,ogx,opus,pcm,spx,wav,webm,wma,wmv",
+        "translatedContent": "  -f, --format <format>   Specifies which formats should be merged individually, the default is 👉 3g2,3gp,aac,ac3,alac,amr,ape,au,avi,awb,dts,f4a,f4b,f4p,f4v,flac,flv,m4a,m4b,m4p,m4r,m4v,mkv,mov,mp2,mp3,mp4,mpeg,mpg,oga,ogg,ogm,ogv,ogx,opus,pcm,spx,wav,webm,wma,wmv"
+      },
+      {
+        "row": 11,
+        "rowsha": "jwZwZIK7jQevx+ohqeaGDLSMqF/IJ5JtJb1YiKIZbjs=",
+        "originContent": "      --fps <fps>         Generates videos inside a temporary folder with this fps value and merges them",
+        "translatedContent": "      --fps <fps>         Generates videos inside a temporary folder with this fps value and merges them"
+      },
+      {
+        "row": 12,
+        "rowsha": "lCBSHQMsj0+pYAkcANNSe7A0/rhnUoS4ssd08Q70xXg=",
+        "originContent": "      --shutdown          For doing a shutdown at the end (needs sudo)",
+        "translatedContent": "      --shutdown          For doing a shutdown at the end (needs sudo)"
+      },
+      {
+        "row": 13,
+        "rowsha": "KeCVbLNZVM6b/zO8rnStzgsUstn+GbnTqhj8mtv99tw=",
+        "originContent": "      --skip-fps-changer  Skips the fps changer",
+        "translatedContent": "      --skip-fps-changer  Skips the fps changer"
+      },
+      {
+        "row": 14,
+        "rowsha": "41UX6aHHnqPasjOASLo2dUO3kMbFw0uD76UlLI+74Q0=",
+        "originContent": "  -y, --yes               Skips confirmation of merge order",
+        "translatedContent": "  -y, --yes               Skips confirmation of merge order"
+      },
+      {
+        "row": 15,
+        "rowsha": "+Gj/saqBMphXxyy5PLOis0IpU7oHuGVJXlFCuTK8tPc=",
+        "originContent": "      --verbose           Prints detailed logs",
+        "translatedContent": "      --verbose           Prints detailed logs"
+      },
+      {
+        "row": 16,
+        "rowsha": "UKLXahu5e+PX0ZYsvi1tut3A8Z73Z530EetCtp+QlPs=",
+        "originContent": "  -h, --help              Print help",
+        "translatedContent": "  -h, --help              Print help"
+      },
+      {
+        "row": 17,
+        "rowsha": "ZbF94l45vkqjo0EK756596mrqh1TS7PYUGrC6DwyCcc=",
+        "originContent": "  -V, --version           Print version",
+        "translatedContent": "  -V, --version           Print version"
+      },
+      {
+        "row": 18,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n",
+    "ContentSha": "AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```mermaid\n%%{init: {'themeVariables': { 'mainBkg': 'white', 'nodeBorder': 'black' }}}%%\ngraph LR;\nVideoA((Video_A))-->Vidmerger;\nVideoB((Video_B))-->Vidmerger;\nVidmerger-->|no fps mismatch detected| Merger;\nVidmerger-->FPS_Changer-->Merger;\nMerger-->Video_A+B_and_chapters;\n```",
+    "ContentSha": "o+topCRGkE3j9Gsf5IIAsrh2CAVm/hglmXh9nnGLPUs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```mermaid\n%%{init: {'themeVariables': { 'mainBkg': 'white', 'nodeBorder': 'black' }}}%%\ngraph LR;\nVideoA((Video_A))-->Vidmerger;\nVideoB((Video_B))-->Vidmerger;\nVidmerger-->|no fps mismatch detected| Merger;\nVidmerger-->FPS_Changer-->Merger;\nMerger-->Video_A+B_and_chapters;\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RtlHQpG+V59KLQkk05f8+fLlxsq4KdWUwAAs6jH0zbs=",
+        "originContent": "```mermaid",
+        "translatedContent": "```mermaid"
+      },
+      {
+        "row": 2,
+        "rowsha": "zfi5ClLWg7sbCIwQlhiadHyV03GmehG+CoyUYkO5B38=",
+        "originContent": "%%{init: {'themeVariables': { 'mainBkg': 'white', 'nodeBorder': 'black' }}}%%",
+        "translatedContent": "%%{init: {'themeVariables': { 'mainBkg': 'white', 'nodeBorder': 'black' }}}%%"
+      },
+      {
+        "row": 3,
+        "rowsha": "riFEYukJb7FpvsscdXvlUvyZVk+WOcUVCcY0DmQPhqY=",
+        "originContent": "graph LR;",
+        "translatedContent": "graph LR;"
+      },
+      {
+        "row": 4,
+        "rowsha": "SJZZrVxKfNT9aOnlHVlErXCzZkURtZ7V8M4+fJNKwDU=",
+        "originContent": "VideoA((Video_A))-->Vidmerger;",
+        "translatedContent": "VideoA((Video_A))-->Vidmerger;"
+      },
+      {
+        "row": 5,
+        "rowsha": "P7DRpA46xHdFnQ4XuyAMebcUFE9Kl1WSGbu5DV2jbPU=",
+        "originContent": "VideoB((Video_B))-->Vidmerger;",
+        "translatedContent": "VideoB((Video_B))-->Vidmerger;"
+      },
+      {
+        "row": 6,
+        "rowsha": "jFLtnMooZDuk1rkrLNoYxEK1iJXAj0sAPgnhrvY/YT4=",
+        "originContent": "Vidmerger-->|no fps mismatch detected| Merger;",
+        "translatedContent": "Vidmerger-->|no fps mismatch detected| Merger;"
+      },
+      {
+        "row": 7,
+        "rowsha": "bFTqwqB/F5qmE7sXa+ODZm51xLzyaUyLfwm74l+h/Ac=",
+        "originContent": "Vidmerger-->FPS_Changer-->Merger;",
+        "translatedContent": "Vidmerger-->FPS_Changer-->Merger;"
+      },
+      {
+        "row": 8,
+        "rowsha": "geifOGXj8DL5zYTm3URvFVCmb2zD7/BaZzzJ0x6SUTU=",
+        "originContent": "Merger-->Video_A+B_and_chapters;",
+        "translatedContent": "Merger-->Video_A+B_and_chapters;"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n| Feature     | Description                                                                                                                                                                                                                                     |\n| :---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| Selector    | Iterates through [this list of file endings](https://raw.githubusercontent.com/tgotwig/vidmerger/main/src/main.rs#L34), selects all files which matches with the current file ending except ones which start with a dot. The list can be overwritten by `--format` or `-f`, example: `--format mp4,mkv`. |\n| FPS_Changer | After detecting not matching fps values, it scales all the higher fps videos down to the lowest detecting fps value. Can be skipped by `--skip-fps-changer`. The desired fps value can be set by `--fps`, example: `--fps 23.976`.              |\n| Merger      | Finally, it merges the videos and adds chapters. Chapter titles are automatically extracted from the input file names — specifically, the text between the first dash and the file extension. Example: `Video_A - Chapter 1.mp4`. |\n\n## ✨ Installing / Getting started\n\nYou can install it on all the three major operating systems 🤗\n\n### X64\n\n| Platform  | Packager                                                                                   | Command                                                                                                                                                                                          |\n| :-------- | :----------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| 🍎 MacOS   | 🍺 [Homwbrew](https://github.com/TGotwig/homebrew-vidmerger/blob/master/vidmerger.rb)       | brew tap tgotwig/vidmerger<br>brew install vidmerger                                                                                                                                             |\n| 🐧 Linux   | 🍺 [Homwbrew](https://github.com/TGotwig/homebrew-linux-vidmerger/blob/master/vidmerger.rb) | brew tap tgotwig/linux-vidmerger<br>brew install vidmerger                                                                                                                                       |\n| 🐧 Linux   | 🍺 CURL                                                                                     | sudo curl -L https://github.com/TGotwig/vidmerger/releases/latest/download/vidmerger-linux.tar.gz -o /tmp/vidmerger-linux.tar.gz && sudo tar -xzvf /tmp/vidmerger-linux.tar.gz -C /usr/local/bin |\n| 🏳️‍🌈 Windows | 🍫 [Chocolatey](https://community.chocolatey.org/packages/vidmerger)                        | choco install ffmpeg # prerequisite<br>choco install vidmerger                                                                                                                                   |\n\n### ARM64\n\n| Platform | Packager                                                                             | Command                                                                                                                                                                                                           |\n| :------- | :----------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| 🍎 MacOS  | 🍺 [Homwbrew](https://github.com/TGotwig/homebrew-vidmerger/blob/master/vidmerger.rb) | brew tap tgotwig/vidmerger<br>brew install vidmerger                                                                                                                                                              |\n| 🐧 Linux  | 🍺 CURL                                                                               | sudo curl -L https://github.com/tgotwig/vidmerger/releases/download/0.4.0/vidmerger-linux-arm64.tar.gz -o /tmp/vidmerger-linux-arm64.tar.gz && sudo tar -xzvf /tmp/vidmerger-linux-arm64.tar.gz -C /usr/local/bin |\n\n### Docker (X64 & ARM64)\n\nYou can also use Docker to run vidmerger without installing anything except Docker, hosted on [Dockerhub](https://hub.docker.com/r/tgotwig/vidmerger) 🐳\n",
+    "ContentSha": "nW44o/spJNgTwFqHrWUaZAVWDOFYwRMLohJEh520D8U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "| Feature     | Description                                                                                                                                                                                                                                     |\n| :---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| Selector    | Itera a través de [esta lista de extensiones de archivo](https://raw.githubusercontent.com/tgotwig/vidmerger/main/src/main.rs#L34), selecciona todos los archivos que coinciden con la extensión actual excepto los que comienzan con un punto. La lista puede ser sobrescrita con `--format` o `-f`, ejemplo: `--format mp4,mkv`. |\n| FPS_Changer | Después de detectar valores de fps que no coinciden, escala todos los videos con fps más altos al valor más bajo detectado. Puede omitirse con `--skip-fps-changer`. El valor deseado de fps puede establecerse con `--fps`, ejemplo: `--fps 23.976`.              |\n| Merger      | Finalmente, une los videos y añade capítulos. Los títulos de los capítulos se extraen automáticamente de los nombres de archivo de entrada — específicamente, el texto entre el primer guion y la extensión del archivo. Ejemplo: `Video_A - Chapter 1.mp4`. |\n\n## ✨ Instalación / Primeros pasos\n\nPuedes instalarlo en los tres principales sistemas operativos 🤗\n\n### X64\n\n| Plataforma | Gestor                                                                                     | Comando                                                                                                                                                                                          |\n| :--------- | :----------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| 🍎 MacOS   | 🍺 [Homebrew](https://github.com/TGotwig/homebrew-vidmerger/blob/master/vidmerger.rb)       | brew tap tgotwig/vidmerger<br>brew install vidmerger                                                                                                                                             |\n| 🐧 Linux   | 🍺 [Homebrew](https://github.com/TGotwig/homebrew-linux-vidmerger/blob/master/vidmerger.rb) | brew tap tgotwig/linux-vidmerger<br>brew install vidmerger                                                                                                                                       |\n| 🐧 Linux   | 🍺 CURL                                                                                     | sudo curl -L https://github.com/TGotwig/vidmerger/releases/latest/download/vidmerger-linux.tar.gz -o /tmp/vidmerger-linux.tar.gz && sudo tar -xzvf /tmp/vidmerger-linux.tar.gz -C /usr/local/bin |\n| 🏳️‍🌈 Windows | 🍫 [Chocolatey](https://community.chocolatey.org/packages/vidmerger)                        | choco install ffmpeg # prerequisito<br>choco install vidmerger                                                                                                                                   |\n\n### ARM64\n\n| Plataforma | Gestor                                                                                 | Comando                                                                                                                                                                                                           |\n| :--------- | :------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n| 🍎 MacOS   | 🍺 [Homebrew](https://github.com/TGotwig/homebrew-vidmerger/blob/master/vidmerger.rb)   | brew tap tgotwig/vidmerger<br>brew install vidmerger                                                                                                                                                              |\n| 🐧 Linux   | 🍺 CURL                                                                               | sudo curl -L https://github.com/tgotwig/vidmerger/releases/download/0.4.0/vidmerger-linux-arm64.tar.gz -o /tmp/vidmerger-linux-arm64.tar.gz && sudo tar -xzvf /tmp/vidmerger-linux-arm64.tar.gz -C /usr/local/bin |\n\n### Docker (X64 & ARM64)\n\nTambién puedes usar Docker para ejecutar vidmerger sin instalar nada más que Docker, alojado en [Dockerhub](https://hub.docker.com/r/tgotwig/vidmerger) 🐳\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Feature     | Description                                                                                                                                                                                                                                     |"
+      },
+      {
+        "row": 2,
+        "rowsha": "+4FYvgRmyEGwfEZBz75IPRLdIb3O/dcY1ZRCEExcjbY=",
+        "originContent": "| Feature     | Description                                                                                                                                                                                                                                     |",
+        "translatedContent": "| :---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |"
+      },
+      {
+        "row": 3,
+        "rowsha": "fjGHauFJwrqOKlDoQ/xCwYtVH2nw2k31O/Ff6RBo9Kc=",
+        "originContent": "| :---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |",
+        "translatedContent": "| Selector    | Itera a través de [esta lista de extensiones de archivo](https://raw.githubusercontent.com/tgotwig/vidmerger/main/src/main.rs#L34), selecciona todos los archivos que coinciden con la extensión actual excepto los que comienzan con un punto. La lista puede ser sobrescrita con `--format` o `-f`, ejemplo: `--format mp4,mkv`. |"
+      },
+      {
+        "row": 4,
+        "rowsha": "/KISQx8juhsK1g6QjgZow6qiA70ZBTKi55fh/X1VWNk=",
+        "originContent": "| Selector    | Iterates through [this list of file endings](https://raw.githubusercontent.com/tgotwig/vidmerger/main/src/main.rs#L34), selects all files which matches with the current file ending except ones which start with a dot. The list can be overwritten by `--format` or `-f`, example: `--format mp4,mkv`. |",
+        "translatedContent": "| FPS_Changer | Después de detectar valores de fps que no coinciden, escala todos los videos con fps más altos al valor más bajo detectado. Puede omitirse con `--skip-fps-changer`. El valor deseado de fps puede establecerse con `--fps`, ejemplo: `--fps 23.976`.              |"
+      },
+      {
+        "row": 5,
+        "rowsha": "h/3w1L/D5IGe+uFiIuTewVV9AjbK0vb62Soyr/p6W34=",
+        "originContent": "| FPS_Changer | After detecting not matching fps values, it scales all the higher fps videos down to the lowest detecting fps value. Can be skipped by `--skip-fps-changer`. The desired fps value can be set by `--fps`, example: `--fps 23.976`.              |",
+        "translatedContent": "| Merger      | Finalmente, une los videos y añade capítulos. Los títulos de los capítulos se extraen automáticamente de los nombres de archivo de entrada — específicamente, el texto entre el primer guion y la extensión del archivo. Ejemplo: `Video_A - Chapter 1.mp4`. |"
+      },
+      {
+        "row": 6,
+        "rowsha": "F0NtUXLaY5onBdZ6xKxZZP5hnKq5n064XoSuvcmoroU=",
+        "originContent": "| Merger      | Finally, it merges the videos and adds chapters. Chapter titles are automatically extracted from the input file names — specifically, the text between the first dash and the file extension. Example: `Video_A - Chapter 1.mp4`. |",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ✨ Instalación / Primeros pasos"
+      },
+      {
+        "row": 8,
+        "rowsha": "3HyQMb8gPHGMzXETnsbGsY/cwjULXGX7xvjAt9dnpRg=",
+        "originContent": "## ✨ Installing / Getting started",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Puedes instalarlo en los tres principales sistemas operativos 🤗"
+      },
+      {
+        "row": 10,
+        "rowsha": "6bAzeKCw8A1znMFjDZZNWnX9jCc8ESaidPpXPdxojDw=",
+        "originContent": "You can install it on all the three major operating systems 🤗",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### X64"
+      },
+      {
+        "row": 12,
+        "rowsha": "lhCmd/ZJyO/0fckLNYO1Yh7mJbxdgqhHuXGK7LO4MOw=",
+        "originContent": "### X64",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Plataforma | Gestor                                                                                     | Comando                                                                                                                                                                                          |"
+      },
+      {
+        "row": 14,
+        "rowsha": "JvQgg3xOrPufeVNgZxrYR3eP42Zi/s0pb5WdFmXWuwU=",
+        "originContent": "| Platform  | Packager                                                                                   | Command                                                                                                                                                                                          |",
+        "translatedContent": "| :--------- | :----------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |"
+      },
+      {
+        "row": 15,
+        "rowsha": "Peu7jQeXXQOvVwbD58cGar+slpTPzT2c3N0l9+ot15o=",
+        "originContent": "| :-------- | :----------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |",
+        "translatedContent": "| 🍎 MacOS   | 🍺 [Homebrew](https://github.com/TGotwig/homebrew-vidmerger/blob/master/vidmerger.rb)       | brew tap tgotwig/vidmerger<br>brew install vidmerger                                                                                                                                             |"
+      },
+      {
+        "row": 16,
+        "rowsha": "bfsco3FshqwL72RABXq69U8hgeDGvcUwYzKk/+E8vYU=",
+        "originContent": "| 🍎 MacOS   | 🍺 [Homwbrew](https://github.com/TGotwig/homebrew-vidmerger/blob/master/vidmerger.rb)       | brew tap tgotwig/vidmerger<br>brew install vidmerger                                                                                                                                             |",
+        "translatedContent": "| 🐧 Linux   | 🍺 [Homebrew](https://github.com/TGotwig/homebrew-linux-vidmerger/blob/master/vidmerger.rb) | brew tap tgotwig/linux-vidmerger<br>brew install vidmerger                                                                                                                                       |"
+      },
+      {
+        "row": 17,
+        "rowsha": "iFuPGqkVYcIm6ZGNI9M14hrwHRcurmneYqFK78Bmsw0=",
+        "originContent": "| 🐧 Linux   | 🍺 [Homwbrew](https://github.com/TGotwig/homebrew-linux-vidmerger/blob/master/vidmerger.rb) | brew tap tgotwig/linux-vidmerger<br>brew install vidmerger                                                                                                                                       |",
+        "translatedContent": "| 🐧 Linux   | 🍺 CURL                                                                                     | sudo curl -L https://github.com/TGotwig/vidmerger/releases/latest/download/vidmerger-linux.tar.gz -o /tmp/vidmerger-linux.tar.gz && sudo tar -xzvf /tmp/vidmerger-linux.tar.gz -C /usr/local/bin |"
+      },
+      {
+        "row": 18,
+        "rowsha": "jabwXzJD9ybSW8a9AJ00IOHW/fdKHiRu0Awz6y5sy8Y=",
+        "originContent": "| 🐧 Linux   | 🍺 CURL                                                                                     | sudo curl -L https://github.com/TGotwig/vidmerger/releases/latest/download/vidmerger-linux.tar.gz -o /tmp/vidmerger-linux.tar.gz && sudo tar -xzvf /tmp/vidmerger-linux.tar.gz -C /usr/local/bin |",
+        "translatedContent": "| 🏳️‍🌈 Windows | 🍫 [Chocolatey](https://community.chocolatey.org/packages/vidmerger)                        | choco install ffmpeg # prerequisito<br>choco install vidmerger                                                                                                                                   |"
+      },
+      {
+        "row": 19,
+        "rowsha": "A3WjWHGELoW+PIAn48WKRlBgeMHtWQYNDOks7aT6Ivo=",
+        "originContent": "| 🏳️‍🌈 Windows | 🍫 [Chocolatey](https://community.chocolatey.org/packages/vidmerger)                        | choco install ffmpeg # prerequisite<br>choco install vidmerger                                                                                                                                   |",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ARM64"
+      },
+      {
+        "row": 21,
+        "rowsha": "zvIYVVjmzLu5iJqZ2rV551S2J+I/2ucBZr56cL5beos=",
+        "originContent": "### ARM64",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Plataforma | Gestor                                                                                 | Comando                                                                                                                                                                                                           |"
+      },
+      {
+        "row": 23,
+        "rowsha": "VlAtZzRfDfyNJSOOohOYGQVtmgoBGxAdQ7V+/xx5pIo=",
+        "originContent": "| Platform | Packager                                                                             | Command                                                                                                                                                                                                           |",
+        "translatedContent": "| :--------- | :------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |"
+      },
+      {
+        "row": 24,
+        "rowsha": "2U8C9gcgG5qypZflknZsvzpVnhHc/cCM/15DP3H5Big=",
+        "originContent": "| :------- | :----------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |",
+        "translatedContent": "| 🍎 MacOS   | 🍺 [Homebrew](https://github.com/TGotwig/homebrew-vidmerger/blob/master/vidmerger.rb)   | brew tap tgotwig/vidmerger<br>brew install vidmerger                                                                                                                                                              |"
+      },
+      {
+        "row": 25,
+        "rowsha": "zIG3mno/infeTkWerzRUutOsnaF+Ih3BhS2MWXCR3c8=",
+        "originContent": "| 🍎 MacOS  | 🍺 [Homwbrew](https://github.com/TGotwig/homebrew-vidmerger/blob/master/vidmerger.rb) | brew tap tgotwig/vidmerger<br>brew install vidmerger                                                                                                                                                              |",
+        "translatedContent": "| 🐧 Linux   | 🍺 CURL                                                                               | sudo curl -L https://github.com/tgotwig/vidmerger/releases/download/0.4.0/vidmerger-linux-arm64.tar.gz -o /tmp/vidmerger-linux-arm64.tar.gz && sudo tar -xzvf /tmp/vidmerger-linux-arm64.tar.gz -C /usr/local/bin |"
+      },
+      {
+        "row": 26,
+        "rowsha": "W+z4Iy7lv0aNBp6ckcR53dIMd5E3H/q+8dxOg1O3tZ4=",
+        "originContent": "| 🐧 Linux  | 🍺 CURL                                                                               | sudo curl -L https://github.com/tgotwig/vidmerger/releases/download/0.4.0/vidmerger-linux-arm64.tar.gz -o /tmp/vidmerger-linux-arm64.tar.gz && sudo tar -xzvf /tmp/vidmerger-linux-arm64.tar.gz -C /usr/local/bin |",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Docker (X64 & ARM64)"
+      },
+      {
+        "row": 28,
+        "rowsha": "z/MUXXz5A8DddmFzIfoaNHzKRI00sU46VJcSt8fiu6U=",
+        "originContent": "### Docker (X64 & ARM64)",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "También puedes usar Docker para ejecutar vidmerger sin instalar nada más que Docker, alojado en [Dockerhub](https://hub.docker.com/r/tgotwig/vidmerger) 🐳"
+      },
+      {
+        "row": 30,
+        "rowsha": "FMOSEQehYlV/m5z/ODw3EX7ao7KEFnnaN5YwkgkwKsM=",
+        "originContent": "You can also use Docker to run vidmerger without installing anything except Docker, hosted on [Dockerhub](https://hub.docker.com/r/tgotwig/vidmerger) 🐳",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```bash\ndocker container run -it -v <PATH-TO-YOUR-VIDEOS>:/data tgotwig/vidmerger\n```",
+    "ContentSha": "MU2DuWNXBKnmwBQU0ni/H1sE4Ifi4xmzVvYv5ylHbQA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ndocker container run -it -v <PATH-TO-YOUR-VIDEOS>:/data tgotwig/vidmerger\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "fewkaesbg3Jz375tOFLOsYHVfNRlJMv75y8aW22bFmU=",
+        "originContent": "docker container run -it -v <PATH-TO-YOUR-VIDEOS>:/data tgotwig/vidmerger",
+        "translatedContent": "docker container run -it -v <PATH-TO-YOUR-VIDEOS>:/data tgotwig/vidmerger"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nExamples with Bash:\n",
+    "ContentSha": "cKeRujYh058MjJizjLGm7bNADPztD8pubLjoOEXQJvw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nEjemplos con Bash:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Pm/Bj3u/Zlusz4n2DZ7jT/ON/3OU+0nxnZNTubYn338=",
+        "originContent": "Examples with Bash:",
+        "translatedContent": "Ejemplos con Bash:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```bash\ndocker container run tgotwig/vidmerger --help\ndocker container run tgotwig/vidmerger --version\ndocker container run -it -v ./data/call_merger:/data tgotwig/vidmerger\n```",
+    "ContentSha": "TzHwtIbxd9IZgdNseFBIs+y5C6tUl14Lz5P9tiVuyig=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ndocker container run tgotwig/vidmerger --help\ndocker container run tgotwig/vidmerger --version\ndocker container run -it -v ./data/call_merger:/data tgotwig/vidmerger\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "cIhHIQmiaemAQBpaSUkBfev1hJvwpoKmUNE83cpvU7A=",
+        "originContent": "docker container run tgotwig/vidmerger --help",
+        "translatedContent": "docker container run tgotwig/vidmerger --help"
+      },
+      {
+        "row": 3,
+        "rowsha": "2b3Hdfe/aS7hgFgb42P9jiutwrDvu8A/wKyBwO6N+Z0=",
+        "originContent": "docker container run tgotwig/vidmerger --version",
+        "translatedContent": "docker container run tgotwig/vidmerger --version"
+      },
+      {
+        "row": 4,
+        "rowsha": "KKXhobFN7lWBki/vD8USAqFg7wKJ9SqaUFWRfCI7xIs=",
+        "originContent": "docker container run -it -v ./data/call_merger:/data tgotwig/vidmerger",
+        "translatedContent": "docker container run -it -v ./data/call_merger:/data tgotwig/vidmerger"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n## ⚙️ Developing\n\nThe primary requirements are rust, ffmpeg, and go-task. The devcontainer provides all necessary components 🔧\n\nIf you see anything to improve, just create an [issue](https://github.com/tgotwig/vidmerger/issues) or directly open a [pull request](https://github.com/tgotwig/vidmerger/pulls) 🤗✨\n\n### Deploying / Publishing\n\nFor details on how to publish a new version, you can look up the [Publish new version](https://github.com/tgotwig/vidmerger/wiki#-publish-new-version) wiki page 📖\n\n## 🧪 Tests\n\n- For major tests: `task test`\n- For linting tests: `task lint`\n\n## 🌟 Style guide\n\n- [rust-clippy](rust-clippy)\n- [rls-vscode](https://github.com/rust-lang/rls-vscode)\n",
+    "ContentSha": "GNJzOLef7bXSleTHv7Qg5OuUE3iy0tyv1t6iHBIpywM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## ⚙️ Desarrollo\n\nLos requisitos principales son rust, ffmpeg y go-task. El devcontainer proporciona todos los componentes necesarios 🔧\n\nSi ves algo que mejorar, solo crea un [issue](https://github.com/tgotwig/vidmerger/issues) o abre directamente un [pull request](https://github.com/tgotwig/vidmerger/pulls) 🤗✨\n\n### Despliegue / Publicación\n\nPara detalles sobre cómo publicar una nueva versión, puedes consultar la página wiki [Publicar nueva versión](https://github.com/tgotwig/vidmerger/wiki#-publish-new-version) 📖\n\n## 🧪 Pruebas\n\n- Para pruebas principales: `task test`\n- Para pruebas de linting: `task lint`\n\n## 🌟 Guía de estilo\n\n- [rust-clippy](rust-clippy)\n- [rls-vscode](https://github.com/rust-lang/rls-vscode)\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ALV/jaKQdhU0LbtdhfiwfoAs7PwWS4YDYg2RYQgGIMc=",
+        "originContent": "## ⚙️ Developing",
+        "translatedContent": "## ⚙️ Desarrollo"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "mWUaIU2p3Y40+9vcsUsuu91Zr+S5045RSxps1vPHPs8=",
+        "originContent": "The primary requirements are rust, ffmpeg, and go-task. The devcontainer provides all necessary components 🔧",
+        "translatedContent": "Los requisitos principales son rust, ffmpeg y go-task. El devcontainer proporciona todos los componentes necesarios 🔧"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "38EgptnxNzjlp+HKIFzWeH1VlNH7Jw1Acu8OOBhJSSk=",
+        "originContent": "If you see anything to improve, just create an [issue](https://github.com/tgotwig/vidmerger/issues) or directly open a [pull request](https://github.com/tgotwig/vidmerger/pulls) 🤗✨",
+        "translatedContent": "Si ves algo que mejorar, solo crea un [issue](https://github.com/tgotwig/vidmerger/issues) o abre directamente un [pull request](https://github.com/tgotwig/vidmerger/pulls) 🤗✨"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "bvqqUxo80Dkb1j4gFZYuSLlig9ok/joyfZNGm8nLhag=",
+        "originContent": "### Deploying / Publishing",
+        "translatedContent": "### Despliegue / Publicación"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "AUJi7Ye6IJY8KeVNPqPATaTJbEs1cEU/zz5w9ipD1Ys=",
+        "originContent": "For details on how to publish a new version, you can look up the [Publish new version](https://github.com/tgotwig/vidmerger/wiki#-publish-new-version) wiki page 📖",
+        "translatedContent": "Para detalles sobre cómo publicar una nueva versión, puedes consultar la página wiki [Publicar nueva versión](https://github.com/tgotwig/vidmerger/wiki#-publish-new-version) 📖"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ZPn65W4sQItSUfXNYOhEnDv4k3qahQm0e+alYFpClF0=",
+        "originContent": "## 🧪 Tests",
+        "translatedContent": "## 🧪 Pruebas"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "fLYkEC8NfYnQrZ229p1fd5pT56OprPk5Yl3OxA0fyiU=",
+        "originContent": "- For major tests: `task test`",
+        "translatedContent": "- Para pruebas principales: `task test`"
+      },
+      {
+        "row": 15,
+        "rowsha": "ondkjFcvMkf30H8hpfxbDZdth26gh3NaPfgdnmKhUes=",
+        "originContent": "- For linting tests: `task lint`",
+        "translatedContent": "- Para pruebas de linting: `task lint`"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "UzMzeL8EqXZ3DLg9A2OnviR5Ii97cg/UCacCyPPmy7I=",
+        "originContent": "## 🌟 Style guide",
+        "translatedContent": "## 🌟 Guía de estilo"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "W5/M6gOZUkY8HN7yhsjzNjMS/cxyHnhDgja2rQreZdk=",
+        "originContent": "- [rust-clippy](rust-clippy)",
+        "translatedContent": "- [rust-clippy](rust-clippy)"
+      },
+      {
+        "row": 20,
+        "rowsha": "pHzofKuGeQUf8Wdt04WM4HRial/NQy0Oyr9cEtNHFB8=",
+        "originContent": "- [rls-vscode](https://github.com/rust-lang/rls-vscode)",
+        "translatedContent": "- [rls-vscode](https://github.com/rust-lang/rls-vscode)"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

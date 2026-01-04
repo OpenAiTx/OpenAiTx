@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Język</summary>
@@ -30,71 +29,97 @@
   </details>
 </div>
 
-# TTS-Vue Wersja Web
+# [TTS-Vue Wersja Web](https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as)
 
-🎤 Narzędzie do syntezy mowy Microsoft, wersja webowa, zbudowana przy użyciu `Vue` + `ElementPlus` + `Vite`.
+> ✅ **Demo online (zalecane)**: [https://xiaoying.work](https://xiaoying.work) (🎁 **Codziennie darmowe 10 000 znaków**)
+>
+> 🚀 **Nowy produkt**: Profesjonalny produkt lektorski / Bardziej stabilny / Obsługa pakietów / Więcej głosów / Kolejka zadań
 
-## Przykład strony internetowej
+🎤 Narzędzie do syntezy mowy Microsoft, wersja Web, zbudowane z użyciem `Vue` + `ElementPlus` + `Vite`.
+
+## Wersja hostowana / Wypróbuj online
+
+To repozytorium jest referencyjną implementacją otwartego Web UI. Jeśli potrzebujesz bardziej stabilnej i funkcjonalnej usługi, zalecamy skorzystanie z naszej oficjalnej wersji hostowanej.
+
+| Funkcja             | Samodzielny hosting (to repozytorium) | [XiaoYing.work (oficjalny hosting)](https://xiaoying.work) |
+| :------------------ | :------------------------------------ | :------------------------------------------------------ |
+| **Poziom wdrożenia** | Wymaga samodzielnego wdrożenia backendu i konfiguracji środowiska | **Działa od razu, bez konieczności wdrażania**            |
+| **Darmowy limit**   | Zależny od konfiguracji backendu       | **Codziennie darmowe 10 000 znaków**                      |
+| **Stabilność**      | Zależna od lokalnego środowiska sieciowego | **Wysoka dostępność SLA, przyspieszenie dedykowane**      |
+| **Funkcje**         | Podstawowa synteza mowy                | **System kont, kolejka zadań, więcej głosów, wsparcie API** |
+| **Utrzymanie**      | Utrzymywane przez społeczność           | **Oficjalne, regularne aktualizacje i utrzymanie**        |
+| **Zastosowanie**    | Nauka, eksperymenty osobiste           | **Środowisko produkcyjne, profesjonalny dubbing, częste użycie** |
+
+## Przykłady stron
+
+### Interfejs strony hostowanej
+
+https://xiaoying.work (🎁 **Codziennie darmowe 10 000 znaków**)
+
+![1767435524286](https://raw.githubusercontent.com/henryhu55/tts-web-vue/master/image/README/1767435524286.png)
 
 https://web.tts88.top
-### Nowy interfejs wersji
+
+### Interfejs nowej wersji
+
 ![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)
 
-### Stary interfejs
+### Interfejs starej wersji
+
 ![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)
 
-## Funkcje i cechy
+## Cechy funkcjonalne
 
-- 🌐 Całkowicie webowy, bez potrzeby instalowania aplikacji desktopowej
+- 🌐 Całkowicie webowe, bez potrzeby instalowania aplikacji desktopowej
 - 🔊 Obsługa wielu syntezatorów mowy Microsoft
 - 🚀 Integracja z API TTS88
-- 🆓 Obsługa darmowego TTS, codzienny darmowy limit
-- 🧠 Wsparcie dla generowania tekstu przez OpenAI
-- 🌍 Wsparcie wielu języków: chiński, angielski, hiszpański
-- 🔐 Rozpoznawanie odcisku palca przeglądarki, bezpieczniejsze korzystanie
+- 🆓 Obsługa darmowych wywołań TTS, codzienne limity gratis
+- 🧠 Obsługa generowania tekstu przez OpenAI
+- 🌍 Obsługa wielu języków: chiński, angielski, hiszpański
+- 🔐 Rozpoznawanie odcisku przeglądarki, bezpieczniejsze doświadczenie użytkownika
 
 ## Najnowsze aktualizacje
 
-### Przebudowa interfejsu i rozbudowa funkcji (v2.2.0)
+### Przebudowa interfejsu i ulepszenie funkcji (v2.2.0)
 
-- 📱 **Przebudowa UI**: Stała górna nawigacja, pole tekstowe z przyklejaniem, lepsze wsparcie mobilne
-- 🔤 **Rozszerzenie SSML**: Nowa funkcja formatowania SSML, automatyczne aktualizacje przy zmianie ustawień
-- 🎵 **Optymalizacja odtwarzacza**: Zintegrowany odtwarzacz w głównym interfejsie, lepsze odtwarzanie i pobieranie audio
-- 🎞️ **Funkcja napisów**: Nowa opcja generowania napisów online, zwiększa efektywność tworzenia treści
-- 🌓 **Optymalizacja motywu**: Ulepszony wygląd w trybie ciemnym, możliwość globalnej zmiany motywu
-- 🛠️ **Zaawansowane ustawienia**: Ulepszony interfejs darmowego TTS, nowe opcje tempa i tonu mowy
-- 💡 **Lepsza interakcja**: Dodano podpowiedzi narzędziowe, ułatwienie obsługi dla użytkownika
-- 🔄 **Aktualizacja zależności**: Vue zaktualizowane do 3.5.11, ElementPlus do 2.9.9
-- 🌐 **Aktualizacja linków**: Zaktualizowano adres repozytorium GitHub
+- 📱 **Przebudowa UI**: Stała górna nawigacja, pole tekstowe w trybie przypiętym, optymalizacja pod urządzenia mobilne
+- 🔤 **Ulepszenie SSML**: Nowa funkcja formatowania SSML, automatyczna aktualizacja SSML zgodnie z ustawieniami
+- 🎵 **Optymalizacja odtwarzacza**: Integracja odtwarzacza z głównym interfejsem, lepsze odtwarzanie i pobieranie dźwięku
+- 🎞️ **Funkcja napisów**: Nowa funkcja generowania napisów online, zwiększenie efektywności tworzenia treści
+- 🌓 **Optymalizacja motywu**: Poprawa wyglądu w trybie ciemnym, dodanie globalnego przełączania motywu
+- 🛠️ **Ustawienia zaawansowane**: Optymalizacja interfejsu darmowych usług TTS, nowe opcje prędkości mowy i tonu
+- 💡 **Doświadczenie interakcji**: Dodanie podpowiedzi narzędziowych, lepsze prowadzenie użytkownika
+- 🔄 **Aktualizacja zależności**: Vue zaktualizowano do 3.5.11, ElementPlus do 2.9.9
+- 🌐 **Aktualizacja linków**: Uaktualnienie adresu repozytorium GitHub
 
-### Integracja darmowej usługi TTS (v2.1.0)
+### Integracja darmowego TTS (v2.1.0)
 
-- 🆕 **Funkcja darmowego TTS**: Brak wymogu klucza API, codziennie darmowy limit
-- 👤 **Rozpoznawanie odcisku przeglądarki**: Zapewnia sprawiedliwe wykorzystanie limitu przez każdego użytkownika
-- 🔄 **Wyświetlanie stanu limitu**: Na bieżąco pokazuje pozostałe znaki i czas resetu
-- 🌐 **Sprawdzanie stanu serwera**: Automatyczna kontrola połączenia z darmowym serwerem TTS
-- 🛡️ **Lepsza obsługa błędów**: Przyjaźniejsze komunikaty i informacja o stanie
-- 🎛️ **Panel ustawień darmowego TTS**: Łatwa konfiguracja i podgląd limitów przez użytkownika
+- 🆕 **Darmowa funkcja TTS**: Brak wymaganego klucza API, codziennie darmowy limit
+- 👤 **Rozpoznawanie przeglądarki**: Zapewnienie uczciwego wykorzystania limitu przez każdego użytkownika
+- 🔄 **Wyświetlanie stanu limitu**: Na bieżąco pokazuje pozostałe darmowe znaki i czas resetu
+- 🌐 **Wykrywanie statusu serwera**: Automatyczne sprawdzanie połączenia z serwerem darmowego TTS
+- 🛡️ **Ulepszone obsługiwanie błędów**: Przyjaźniejsze komunikaty o błędach i informacje o stanie
+- 🎛️ **Panel ustawień darmowego TTS**: Umożliwia wygodną konfigurację i podgląd limitu
 
-### Optymalizacja interfejsu i doświadczenia użytkownika (v2.0.0)
+### Optymalizacja interfejsu i UX (v2.0.0)
 
-- ✨ **Optymalizacja obszaru ustawień**: Panel ustawień obsługuje zwijanie, kliknięcie nagłówka "Ustawienia głosu" pozwala rozwinąć/zwinąć
-- 🔘 **Pozycja inteligentnego przycisku**: Przycisk "Rozpocznij konwersję" przeniesiono na górę, można go kliknąć bez przewijania
-- 💬 **Wzmocnienie podpowiedzi statusu**: Dodano intuicyjny tekst informujący o stanie konwersji
-- 🎨 **Ulepszenie efektów wizualnych**: Przycisk wzbogacono o animację świetlną dla lepszych wrażeń użytkownika
-- 📱 **Optymalizacja responsywnego układu**: Poprawiono wygląd na różnych rozmiarach ekranów
+- ✨ **Optymalizacja ustawień**: Panel ustawień wspiera zwijanie, kliknij nagłówek "Ustawienia głosu", aby rozwinąć/zwinąć
+- 🔘 **Inteligentna pozycja przycisku**: Przycisk "Rozpocznij konwersję" przeniesiony na górę, dostępny bez przewijania
+- 💬 **Wzmocnione komunikaty stanu**: Dodano intuicyjne teksty informujące o stanie konwersji
+- 🎨 **Poprawa efektów wizualnych**: Przycisk z animacją świetlną, lepsze doświadczenie użytkownika
+- 📱 **Lepsza responsywność**: Ulepszone wyświetlanie na różnych rozmiarach ekranu
 
-Te ulepszenia znacząco zwiększyły efektywność użytkowania, szczególnie rozwiązując problem tradycyjnych projektów, gdzie użytkownik musiał przewijać stronę do dołu, aby kliknąć "Rozpocznij konwersję". Teraz, niezależnie od miejsca na stronie, można łatwo uruchomić proces konwersji.
+Te ulepszenia znacząco zwiększyły wydajność korzystania, szczególnie rozwiązując problem w tradycyjnych projektach, gdzie użytkownik musiał przewijać na dół, by kliknąć "Rozpocznij konwersję". Teraz, niezależnie od pozycji na stronie, można łatwo rozpocząć proces konwersji.
 
 ## Plan rozwoju
 
-> **📢 Ważna informacja: wersja desktopowa jest w trakcie opracowywania!**
-> Opracowujemy wieloplatformową aplikację desktopową, która zapewni więcej funkcji i lepsze doświadczenie użytkownika.
-> Śledź kolejne aktualizacje i bądź na bieżąco z informacjami o projekcie.
+> **📢 Ważna informacja: wersja desktopowa w trakcie opracowania!**
+> Opracowujemy wieloplatformową aplikację desktopową, która zaoferuje więcej funkcji i lepsze doświadczenie użytkownika.
+> Czekaj na kolejne aktualizacje i śledź projekt, by być na bieżąco.
 
 ## Szybki start
 
-### Środowisko programistyczne
+### Środowisko deweloperskie
 
 ```bash
 # 克隆仓库
@@ -183,6 +208,6 @@ Oprogramowanie oraz kod są przeznaczone wyłącznie do nauki i testów indywidu
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-04
 
 ---

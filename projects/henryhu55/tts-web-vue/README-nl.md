@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Taal</summary>
@@ -30,69 +29,95 @@
   </details>
 </div>
 
-# TTS-Vue Webversie
+# [TTS-Vue Webversie](https://openaitx.github.io/view.html?user=henryhu55&project=tts-web-vue&lang=as)
 
-🎤 Microsoft spraaksynthesetool, webversie, gebouwd met `Vue` + `ElementPlus` + `Vite`.
+> ✅ **Online Demo (Aanbevolen)**: [https://xiaoying.work](https://xiaoying.work) (🎁 **Dagelijks gratis 10.000 tekens**)
+>
+> 🚀 **Nieuw product**: Professionele voice-over / Stabieler / Ondersteunt abonnementen / Meer stemmen / Met taakwachtrij
 
-## Websitevoorbeeld
+🎤 Microsoft spraaksynthese tool, Webversie, gebouwd met `Vue` + `ElementPlus` + `Vite`.
+
+## Gehoste versie / Probeer het online
+
+Deze repository is een referentie-implementatie van een open-source Web UI. Als u een stabielere en krachtigere service nodig heeft, raden wij onze officiële gehoste versie aan.
+
+| Eigenschap          | Zelf-gehost (deze repository)   | [XiaoYing.work (officieel gehost)](https://xiaoying.work)  |
+| :------------------ | :----------------------------- | :------------------------------------------------------ |
+| **Installatie** | Moet backend handmatig installeren en configureren | **Direct te gebruiken, geen installatie nodig**       |
+| **Gratis limiet** | Afhankelijk van backend-configuratie        | **Dagelijks gratis 10.000 tekens**                    |
+| **Stabiliteit**   | Afhankelijk van lokale netwerkconditie      | **Hoogwaardige SLA, dedicated versnelling**            |
+| **Functies**      | Basis spraaksynthese                      | **Accountbeheer, taakwachtrij, meer stemmen, API-ondersteuning** |
+| **Onderhoud**     | Community-onderhouden                      | **Officieel regelmatig bijgewerkt**                   |
+| **Toepassing**    | Studie, persoonlijk experimenteren         | **Productie, professionele voice-over, intensief gebruik** |
+
+## Website Voorbeelden
+
+### Gehoste website-interface
+
+https://xiaoying.work (🎁 **Dagelijks gratis 10.000 tekens**)
+
+![1767435524286](https://raw.githubusercontent.com/henryhu55/tts-web-vue/master/image/README/1767435524286.png)
 
 https://web.tts88.top
-### Nieuw interface-ontwerp
+
+### Nieuwe versie interface
+
 ![image](https://github.com/user-attachments/assets/177c8c0d-33d1-48e7-81e3-778f36d8fedd)
 
 ### Oude versie interface
+
 ![image](https://github.com/user-attachments/assets/67cafd2c-7b0f-4b0d-b14b-bf402aaff0cd)
 
-## Functiekenmerken
+## Functies & Kenmerken
 
-- 🌐 Volledig webgebaseerd, geen installatie van desktop-app nodig
-- 🔊 Ondersteunt diverse Microsoft spraaksyntheses
+- 🌐 Volledig web-based, geen desktopapplicatie nodig
+- 🔊 Ondersteunt diverse Microsoft-spraaksynthese
 - 🚀 Ondersteunt TTS88 API-integratie
-- 🆓 Ondersteunt gratis TTS-aanroepen, dagelijkse gratis limiet
-- 🧠 Ondersteunt tekstgeneratie van OpenAI
+- 🆓 Ondersteunt gratis TTS-verzoeken, dagelijkse limiet
+- 🧠 Ondersteunt OpenAI tekstgeneratie
 - 🌍 Ondersteunt meerdere talen: Chinees, Engels, Spaans
-- 🔐 Browser vingerafdrukherkenning, veiligere gebruikerservaring
+- 🔐 Browser fingerprinting, veiligere gebruikerservaring
 
 ## Laatste updates
 
 ### Interface-herstructurering en functieverbetering (v2.2.0)
 
-- 📱 **UI-herstructurering**: Vastgezette bovenste navigatie, tekstvak met sticky-modus, geoptimaliseerd voor mobiel
-- 🔤 **SSML-verbetering**: Nieuwe SSML-formatteerfunctie, automatische updates bij wijziging instellingen
+- 📱 **UI-herstructurering**: Vastgezette bovenste navigatie, tekstvak in sticky-modus, geoptimaliseerd voor mobiele apparaten
+- 🔤 **SSML-versterking**: Nieuwe SSML-formatteerfunctie, SSML wordt automatisch bijgewerkt bij wijziging van instellingen
 - 🎵 **Speleroptimalisatie**: Speler geïntegreerd in hoofdinterface, verbeterde audio-afspeel- en downloadervaring
-- 🎞️ **Ondertitelingsfunctie**: Nieuwe online ondertitelingsfunctie, verhoogt contentcreatie-efficiëntie
-- 🌓 **Thema-optimalisatie**: Verbeterde weergave in donkere modus, globale themawissel toegevoegd
-- 🛠️ **Geavanceerde instellingen**: Geoptimaliseerde gratis TTS-serviceinterface, nieuwe snelheid- en toonhoogte-instellingen
-- 💡 **Interactieve ervaring**: Toegevoegde tooltips, verbeterde gebruikersbegeleiding
-- 🔄 **Afhankelijkheidsupgrade**: Vue geüpdatet naar 3.5.11, ElementPlus naar 2.9.9
-- 🌐 **Link-update**: GitHub repository-adres geüpdatet
+- 🎞️ **Ondertitelfunctie**: Nieuwe online ondertitelinggeneratie, verhoogt efficiëntie van contentcreatie
+- 🌓 **Themaoptimalisatie**: Verbeterde weergave in donkere modus, globale themawisseling toegevoegd
+- 🛠️ **Geavanceerde instellingen**: Verbeterde gratis TTS-service-interface, nieuwe snelheids- en toonhoogteconfiguratie
+- 💡 **Interactieve ervaring**: Toegevoegde tooltip-functie, verbeterde gebruikersinstructies
+- 🔄 **Afhankelijkheden geüpdatet**: Vue geüpdatet naar 3.5.11, ElementPlus naar 2.9.9
+- 🌐 **Link-updates**: GitHub-repositoryadres bijgewerkt
 
 ### Gratis TTS-service-integratie (v2.1.0)
 
-- 🆕 **Gratis TTS-functie**: Geen API-sleutel nodig, dagelijkse gratis limiet beschikbaar
-- 👤 **Browser vingerafdrukherkenning**: Garandeert eerlijke verdeling van gratis limiet per gebruiker
-- 🔄 **Limietstatus weergave**: Realtime weergave van resterende gratis tekens en reset-tijd
-- 🌐 **Serverstatuscontrole**: Automatische detectie van gratis TTS-serververbinding
+- 🆕 **Gratis TTS-functie**: Geen API-sleutel nodig, dagelijks gratis tegoed beschikbaar
+- 👤 **Browser fingerprinting**: Eerlijke verdeling van gratis tegoed per gebruiker gegarandeerd
+- 🔄 **Tegoedstatusweergave**: Realtime weergave van resterende gratis tekens en reset-tijd
+- 🌐 **Serverstatuscontrole**: Automatische controle van verbinding met gratis TTS-server
 - 🛡️ **Verbeterde foutafhandeling**: Gebruiksvriendelijkere foutmeldingen en statusfeedback
-- 🎛️ **Gratis TTS-instellingenpaneel**: Gemakkelijk configureren en bekijken van limietinformatie
+- 🎛️ **Gratis TTS-instellingenpaneel**: Makkelijk configureren en bekijken van tegoedinformatie
 
 ### Interface- en gebruikerservaringoptimalisatie (v2.0.0)
 
-- ✨ **Instellingengebied geoptimaliseerd**: Het instellingenpaneel ondersteunt nu inklappen; klik op de titel "Spraakinstellingen" om uit te vouwen of in te klappen
-- 🔘 **Slimme knoppositie**: De knop "Start conversie" is naar boven verplaatst, zodat je niet hoeft te scrollen om te klikken
-- 💬 **Verbeterde statusmeldingen**: Toegevoegd intuïtieve tekstindicaties voor conversiestatus
-- 🎨 **Verbeterde visuele effecten**: Knoppen hebben lichteffect-animaties voor een betere gebruikerservaring
-- 📱 **Responsieve lay-out geoptimaliseerd**: Weergave is verbeterd voor verschillende schermformaten
+- ✨ **Instellingen geoptimaliseerd**: Paneel kan worden ingeklapt, klik op "Spraakinstellingen" om uit te vouwen/inklapen
+- 🔘 **Slimme knoppositie**: "Start conversie"-knop verplaatst naar boven, direct aanklikbaar zonder scrollen
+- 💬 **Verbeterde statusweergave**: Intuïtieve statusmeldingen toegevoegd aan conversieproces
+- 🎨 **Verbeterde visuele effecten**: Knoppen met lichteffect-animatie voor betere gebruikerservaring
+- 📱 **Responsieve lay-out geoptimaliseerd**: Verbeterde weergave op verschillende schermformaten
 
-Deze verbeteringen verhogen de efficiëntie aanzienlijk, vooral doordat het probleem is opgelost waarbij gebruikers bij het oude ontwerp helemaal naar beneden moesten scrollen voor de knop "Start conversie". Nu kunnen gebruikers, ongeacht hun positie op de pagina, eenvoudig het conversieproces starten.
+Deze verbeteringen verhogen de efficiëntie aanzienlijk, vooral door het oplossen van het probleem waarbij gebruikers helemaal naar beneden moesten scrollen om op de "Start conversie"-knop te klikken. Nu kan de conversie eenvoudig gestart worden, ongeacht waar de gebruiker zich op de pagina bevindt.
 
-## Ontwikkelplan
+## Ontwikkelingsplanning
 
-> **📢 Belangrijk: Desktopversie in ontwikkeling!**
-> We werken aan een cross-platform desktopapplicatie met meer functies en een betere gebruikerservaring.
-> Houd toekomstige updates in de gaten en volg het project voor het laatste nieuws.
+> **📢 Belangrijke mededeling: desktopversie in ontwikkeling!**
+> Wij ontwikkelen een cross-platform desktopapplicatie met meer functies en een betere gebruikerservaring.
+> Houd de ontwikkelingen in de gaten voor het laatste nieuws en updates.
 
-## Snelstart
+## Snel starten
 
 ### Ontwikkelomgeving
 
@@ -183,6 +208,6 @@ Deze software en code zijn uitsluitend bedoeld voor persoonlijk leer- en testgeb
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-04
 
 ---
