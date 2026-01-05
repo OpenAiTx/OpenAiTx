@@ -1,0 +1,2086 @@
+[
+  {
+    "Id": 1,
+    "Content": "# composer-attribute-collector\n\n[![Release](https://img.shields.io/packagist/v/olvlvl/composer-attribute-collector.svg)](https://packagist.org/packages/olvlvl/composer-attribute-collector)\n[![Code Coverage](https://coveralls.io/repos/github/olvlvl/composer-attribute-collector/badge.svg?branch=main)](https://coveralls.io/r/olvlvl/composer-attribute-collector?branch=main)\n[![Downloads](https://img.shields.io/packagist/dt/olvlvl/composer-attribute-collector.svg)](https://packagist.org/packages/olvlvl/composer-attribute-collector)\n\n**composer-attribute-collector** is a [Composer][] plugin designed to effectively _discover_ PHP 8\nattribute targets, and later retrieve them at near zero cost, without runtime reflection. After the\nautoloader dump, it collects attributes and generates a static file for fast access. This provides a\nconvenient way to _discover_ attribute-backed classes, methods, or properties—ideal for codebase\nanalysis. (For known targets, traditional reflection remains an option.)\n\n\n\n#### Features\n\n- Zero configuration\n- No reflection in the generated file\n- Might improve performance\n- No dependency (except Composer of course)\n- A single interface to get attribute targets: classes, methods, and properties\n- Can cache discoveries to speed up consecutive runs.\n\n> [!NOTE]\n> Currently, the plugin supports class, method, property, and parameter targets.\n> You're welcome to [contribute](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CONTRIBUTING.md) if you're interested in expending its support.\n\n> [!WARNING]\n> Attributes used on functions are ignored at this time.\n\n\n\n#### Usage\n\nThe following example demonstrates how targets and their attributes can be retrieved:\n",
+    "ContentSha": "1a7Tr4l9aN8i1oVulvw38D56jURuTpNYHsqeLoJMGQk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# composer-attribute-collector\n\n[![Release](https://img.shields.io/packagist/v/olvlvl/composer-attribute-collector.svg)](https://packagist.org/packages/olvlvl/composer-attribute-collector)\n[![Code Coverage](https://coveralls.io/repos/github/olvlvl/composer-attribute-collector/badge.svg?branch=main)](https://coveralls.io/r/olvlvl/composer-attribute-collector?branch=main)\n[![Downloads](https://img.shields.io/packagist/dt/olvlvl/composer-attribute-collector.svg)](https://packagist.org/packages/olvlvl/composer-attribute-collector)\n\n**composer-attribute-collector** is a [Composer][] plugin designed to effectively _discover_ PHP 8\nattribute targets, and later retrieve them at near zero cost, without runtime reflection. After the\nautoloader dump, it collects attributes and generates a static file for fast access. This provides a\nconvenient way to _discover_ attribute-backed classes, methods, or properties—ideal for codebase\nanalysis. (For known targets, traditional reflection remains an option.)\n\n\n\n#### Features\n\n- Zero configuration\n- No reflection in the generated file\n- Might improve performance\n- No dependency (except Composer of course)\n- A single interface to get attribute targets: classes, methods, and properties\n- Can cache discoveries to speed up consecutive runs.\n\n> [!NOTE]\n> Currently, the plugin supports class, method, property, and parameter targets.\n> You're welcome to [contribute](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CONTRIBUTING.md) if you're interested in expending its support.\n\n> [!WARNING]\n> Attributes used on functions are ignored at this time.\n\n\n\n#### Usage\n\nThe following example demonstrates how targets and their attributes can be retrieved:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "5J3mWcaTVq1Qrq6EQOGKFycsp4bgaP/IYJm5eFe9mP0=",
+        "originContent": "# composer-attribute-collector",
+        "translatedContent": "# composer-attribute-collector"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "HGQficUzyMDChFuJQ2ZCkhR71yXmC60pJ3pNDOzZvMk=",
+        "originContent": "[![Release](https://img.shields.io/packagist/v/olvlvl/composer-attribute-collector.svg)](https://packagist.org/packages/olvlvl/composer-attribute-collector)",
+        "translatedContent": "[![Release](https://img.shields.io/packagist/v/olvlvl/composer-attribute-collector.svg)](https://packagist.org/packages/olvlvl/composer-attribute-collector)"
+      },
+      {
+        "row": 4,
+        "rowsha": "vp4wxkxVnX+DG8lUgxb7vpNO/VEICnV/dyUkpnBtEgs=",
+        "originContent": "[![Code Coverage](https://coveralls.io/repos/github/olvlvl/composer-attribute-collector/badge.svg?branch=main)](https://coveralls.io/r/olvlvl/composer-attribute-collector?branch=main)",
+        "translatedContent": "[![Code Coverage](https://coveralls.io/repos/github/olvlvl/composer-attribute-collector/badge.svg?branch=main)](https://coveralls.io/r/olvlvl/composer-attribute-collector?branch=main)"
+      },
+      {
+        "row": 5,
+        "rowsha": "+lH6gJksv42zqu7yxsxzgwaJZlOHxrV/cQQtqpEJyj8=",
+        "originContent": "[![Downloads](https://img.shields.io/packagist/dt/olvlvl/composer-attribute-collector.svg)](https://packagist.org/packages/olvlvl/composer-attribute-collector)",
+        "translatedContent": "[![Downloads](https://img.shields.io/packagist/dt/olvlvl/composer-attribute-collector.svg)](https://packagist.org/packages/olvlvl/composer-attribute-collector)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "lkRXvhYBQRWdRD7c8Qoea1SuSpr/1HvDS/Z2heyzGro=",
+        "originContent": "**composer-attribute-collector** is a [Composer][] plugin designed to effectively _discover_ PHP 8",
+        "translatedContent": "**composer-attribute-collector** is a [Composer][] plugin designed to effectively _discover_ PHP 8"
+      },
+      {
+        "row": 8,
+        "rowsha": "hly3UaZSSNjwd4LNjFJPkEYUfnXjv2jaug0lYXDpEW8=",
+        "originContent": "attribute targets, and later retrieve them at near zero cost, without runtime reflection. After the",
+        "translatedContent": "attribute targets, and later retrieve them at near zero cost, without runtime reflection. After the"
+      },
+      {
+        "row": 9,
+        "rowsha": "tEk6ScQFsn9TIe5o4s7Psw7EXf43dHata8SDCblu3DU=",
+        "originContent": "autoloader dump, it collects attributes and generates a static file for fast access. This provides a",
+        "translatedContent": "autoloader dump, it collects attributes and generates a static file for fast access. This provides a"
+      },
+      {
+        "row": 10,
+        "rowsha": "n9iidmaF7G0h/RPmGcW+uYiEPGmOWbboqowK0QC0HJ4=",
+        "originContent": "convenient way to _discover_ attribute-backed classes, methods, or properties—ideal for codebase",
+        "translatedContent": "convenient way to _discover_ attribute-backed classes, methods, or properties—ideal for codebase"
+      },
+      {
+        "row": 11,
+        "rowsha": "bsYCGHaltqJ91S+yTIdUJOj4o38wdMsmfw15K3oo0M0=",
+        "originContent": "analysis. (For known targets, traditional reflection remains an option.)",
+        "translatedContent": "analysis. (For known targets, traditional reflection remains an option.)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "Uou/k0w51Ty2uoSSJfZZY233c6WtHr+L3AN02NDA64w=",
+        "originContent": "#### Features",
+        "translatedContent": "#### Features"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "V4irUohzQgfWXg6JeomlvRDtVA4V0ipXDJdzdEvK95Q=",
+        "originContent": "- Zero configuration",
+        "translatedContent": "- Zero configuration"
+      },
+      {
+        "row": 18,
+        "rowsha": "D75KVwdknhvJnCnGywd0DQVVBYmHktd0fP7cfalylS0=",
+        "originContent": "- No reflection in the generated file",
+        "translatedContent": "- No reflection in the generated file"
+      },
+      {
+        "row": 19,
+        "rowsha": "H41C+/OboxylKJQyz4LLW4fF8z/QKwaa9VAKl1pJNPI=",
+        "originContent": "- Might improve performance",
+        "translatedContent": "- Might improve performance"
+      },
+      {
+        "row": 20,
+        "rowsha": "zPz5MAqQ08UFt460EuC4nXRgvqb6MS8883a9Ohby0Fs=",
+        "originContent": "- No dependency (except Composer of course)",
+        "translatedContent": "- No dependency (except Composer of course)"
+      },
+      {
+        "row": 21,
+        "rowsha": "3aUHs6AErkygydgS653Z1UIYsZLRXvucuerL34J4b+E=",
+        "originContent": "- A single interface to get attribute targets: classes, methods, and properties",
+        "translatedContent": "- A single interface to get attribute targets: classes, methods, and properties"
+      },
+      {
+        "row": 22,
+        "rowsha": "7sE1cheZe3R6LvilqXjNCK5uhJYMx15LOBQOvcHXAFE=",
+        "originContent": "- Can cache discoveries to speed up consecutive runs.",
+        "translatedContent": "- Can cache discoveries to speed up consecutive runs."
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> [!NOTE]"
+      },
+      {
+        "row": 25,
+        "rowsha": "hKsqpveN28N24lJQSIWGRORYZQqYGEQB506Z+iEnjI8=",
+        "originContent": "> Currently, the plugin supports class, method, property, and parameter targets.",
+        "translatedContent": "> Currently, the plugin supports class, method, property, and parameter targets."
+      },
+      {
+        "row": 26,
+        "rowsha": "bJuL3kdKSq3OIF5zUp4zLjCpC3/BAglvPJFb8ghJNj4=",
+        "originContent": "> You're welcome to [contribute](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CONTRIBUTING.md) if you're interested in expending its support.",
+        "translatedContent": "> You're welcome to [contribute](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CONTRIBUTING.md) if you're interested in expending its support."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+        "originContent": "> [!WARNING]",
+        "translatedContent": "> [!WARNING]"
+      },
+      {
+        "row": 29,
+        "rowsha": "wuTFB2lNBtQZNRk6A53sOPEo7j2Vo0SMHKA3HDFZQO8=",
+        "originContent": "> Attributes used on functions are ignored at this time.",
+        "translatedContent": "> Attributes used on functions are ignored at this time."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "KHA8VpHNRUjBvZjz3hYB5w+/JcxnhqV7edpHuywh/G8=",
+        "originContent": "#### Usage",
+        "translatedContent": "#### Usage"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "BjPNOPH52a0P/A8DaY4xubcpkpm377vjO/d9ts5y5QI=",
+        "originContent": "The following example demonstrates how targets and their attributes can be retrieved:",
+        "translatedContent": "The following example demonstrates how targets and their attributes can be retrieved:"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```php\n<?php\n\nuse olvlvl\\ComposerAttributeCollector\\Attributes;\nuse Symfony\\Component\\Messenger\\Attribute\\AsMessageHandler;\nuse Symfony\\Component\\Routing\\Annotation\\Route;\nuse Doctrine\\ORM\\Mapping\\Column;\n\nrequire_once 'vendor/autoload.php';\nrequire_once 'vendor/attributes.php'; // <-- the file created by the plugin\n\n// Find the target classes of the AsMessageHandler attribute.\nforeach (Attributes::findTargetClasses(AsMessageHandler::class) as $target) {\n    // $target->attribute is an instance of the specified attribute\n    // with the actual data.\n    var_dump($target->attribute, $target->name);\n}\n\n// Find the target methods of the Route attribute.\nforeach (Attributes::findTargetMethods(Route::class) as $target) {\n    var_dump($target->attribute, $target->class, $target->name);\n}\n\n// Find the target properties of the Column attribute.\nforeach (Attributes::findTargetProperties(Column::class) as $target) {\n    var_dump($target->attribute, $target->class, $target->name);\n}\n\n// Find the target method parameters of the UserInput attribute.\nforeach (Attributes::findTargetParameters(UserInput::class) as $target) {\n    var_dump($target->attribute, $target->class, $target->method, $target->name);\n}\n\n// Filter target methods using a predicate.\n// You can also filter target classes and properties.\n$predicate = fn($attribute) => is_a($attribute, Route::class, true);\n# or\n$predicate = Attributes::predicateForAttributeInstanceOf(Route::class);\n\nforeach (Attributes::filterTargetMethods($predicate) as $target) {\n    var_dump($target->attribute, $target->class, $target->name);\n}\n\n// Find class, method, and property attributes for the ArticleController class.\n$attributes = Attributes::forClass(ArticleController::class);\n\nvar_dump($attributes->classAttributes);\nvar_dump($attributes->methodsAttributes);\nvar_dump($attributes->propertyAttributes);\n```",
+    "ContentSha": "1aMWVQZaaUgz3hiPtDEEVuXLWAhsCcjjFSKglvJG9aM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n<?php\n\nuse olvlvl\\ComposerAttributeCollector\\Attributes;\nuse Symfony\\Component\\Messenger\\Attribute\\AsMessageHandler;\nuse Symfony\\Component\\Routing\\Annotation\\Route;\nuse Doctrine\\ORM\\Mapping\\Column;\n\nrequire_once 'vendor/autoload.php';\nrequire_once 'vendor/attributes.php'; // <-- the file created by the plugin\n\n// Find the target classes of the AsMessageHandler attribute.\nforeach (Attributes::findTargetClasses(AsMessageHandler::class) as $target) {\n    // $target->attribute is an instance of the specified attribute\n    // with the actual data.\n    var_dump($target->attribute, $target->name);\n}\n\n// Find the target methods of the Route attribute.\nforeach (Attributes::findTargetMethods(Route::class) as $target) {\n    var_dump($target->attribute, $target->class, $target->name);\n}\n\n// Find the target properties of the Column attribute.\nforeach (Attributes::findTargetProperties(Column::class) as $target) {\n    var_dump($target->attribute, $target->class, $target->name);\n}\n\n// Find the target method parameters of the UserInput attribute.\nforeach (Attributes::findTargetParameters(UserInput::class) as $target) {\n    var_dump($target->attribute, $target->class, $target->method, $target->name);\n}\n\n// Filter target methods using a predicate.\n// You can also filter target classes and properties.\n$predicate = fn($attribute) => is_a($attribute, Route::class, true);\n# or\n$predicate = Attributes::predicateForAttributeInstanceOf(Route::class);\n\nforeach (Attributes::filterTargetMethods($predicate) as $target) {\n    var_dump($target->attribute, $target->class, $target->name);\n}\n\n// Find class, method, and property attributes for the ArticleController class.\n$attributes = Attributes::forClass(ArticleController::class);\n\nvar_dump($attributes->classAttributes);\nvar_dump($attributes->methodsAttributes);\nvar_dump($attributes->propertyAttributes);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "/lvLVMVuC59FagYDZN0osiSPOg4hwWjUzp0Am3PoPjw=",
+        "originContent": "<?php",
+        "translatedContent": "<?php"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "DhZeDgwGbbkkKB28GOWj3If6Ps6bB+ZO7tD4uNJr9OI=",
+        "originContent": "use olvlvl\\ComposerAttributeCollector\\Attributes;",
+        "translatedContent": "use olvlvl\\ComposerAttributeCollector\\Attributes;"
+      },
+      {
+        "row": 5,
+        "rowsha": "tGcBz8a8cEfa4N+Ufo1CNlnro7gCfAw4b44fqwyaXIA=",
+        "originContent": "use Symfony\\Component\\Messenger\\Attribute\\AsMessageHandler;",
+        "translatedContent": "use Symfony\\Component\\Messenger\\Attribute\\AsMessageHandler;"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ulq1qySv+l6ydDCsgFObpCdROI33fNjNd/pkI2gzICM=",
+        "originContent": "use Symfony\\Component\\Routing\\Annotation\\Route;",
+        "translatedContent": "use Symfony\\Component\\Routing\\Annotation\\Route;"
+      },
+      {
+        "row": 7,
+        "rowsha": "dX23bqbmBajPFZUwdQjV+wp0jeEUfEfzfIiZQOIANIA=",
+        "originContent": "use Doctrine\\ORM\\Mapping\\Column;",
+        "translatedContent": "use Doctrine\\ORM\\Mapping\\Column;"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "MJwlX9u0fCMAFoscb49qGyK/OQYajPb+1lFtfLYQpP4=",
+        "originContent": "require_once 'vendor/autoload.php';",
+        "translatedContent": "require_once 'vendor/autoload.php';"
+      },
+      {
+        "row": 10,
+        "rowsha": "IVwcApSgwEVMJFGhMDYCgkJjhQJ8QYU4hzrygjNrDlU=",
+        "originContent": "require_once 'vendor/attributes.php'; // <-- the file created by the plugin",
+        "translatedContent": "require_once 'vendor/attributes.php'; // <-- the file created by the plugin"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "RUAZrv9uIRFBcilUH2PiHPpR90hhACwrLmOO2xaQR3c=",
+        "originContent": "// Find the target classes of the AsMessageHandler attribute.",
+        "translatedContent": "// Find the target classes of the AsMessageHandler attribute."
+      },
+      {
+        "row": 13,
+        "rowsha": "cJPHRpyScAZ1zv+uomWaAa3X9geY3SAGrYGyqSd06OU=",
+        "originContent": "foreach (Attributes::findTargetClasses(AsMessageHandler::class) as $target) {",
+        "translatedContent": "foreach (Attributes::findTargetClasses(AsMessageHandler::class) as $target) {"
+      },
+      {
+        "row": 14,
+        "rowsha": "YTmSHcKbUeqyOR28xQaT//8dwtvYgxJCkWWYA4UMeVs=",
+        "originContent": "    // $target->attribute is an instance of the specified attribute",
+        "translatedContent": "    // $target->attribute is an instance of the specified attribute"
+      },
+      {
+        "row": 15,
+        "rowsha": "1WmlKRopnkKTZ2cF7AzdDxZb6Bf7wtbFomBsMX1uKwY=",
+        "originContent": "    // with the actual data.",
+        "translatedContent": "    // with the actual data."
+      },
+      {
+        "row": 16,
+        "rowsha": "8Ht25EyBHV8etP6gJUXK0RzqjvPOi+Eo0rwfzXNaSNI=",
+        "originContent": "    var_dump($target->attribute, $target->name);",
+        "translatedContent": "    var_dump($target->attribute, $target->name);"
+      },
+      {
+        "row": 17,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "djss26ZcQ5GDC3qXrF7IceVAomNFHEFxexyHescGBNg=",
+        "originContent": "// Find the target methods of the Route attribute.",
+        "translatedContent": "// Find the target methods of the Route attribute."
+      },
+      {
+        "row": 20,
+        "rowsha": "ILoOgKpk4sD3B3K065jIp02SzthEcPrdttsr1ZFjoiU=",
+        "originContent": "foreach (Attributes::findTargetMethods(Route::class) as $target) {",
+        "translatedContent": "foreach (Attributes::findTargetMethods(Route::class) as $target) {"
+      },
+      {
+        "row": 21,
+        "rowsha": "u+Qoz3uchBZp4BKV8P3dLJyMxKfDkvWPQlOfEcpvdN8=",
+        "originContent": "    var_dump($target->attribute, $target->class, $target->name);",
+        "translatedContent": "    var_dump($target->attribute, $target->class, $target->name);"
+      },
+      {
+        "row": 22,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "ZT99eHtunBPO6jGW0kowDVme1lp/bWf37r8n/nkyUSI=",
+        "originContent": "// Find the target properties of the Column attribute.",
+        "translatedContent": "// Find the target properties of the Column attribute."
+      },
+      {
+        "row": 25,
+        "rowsha": "+Lon+ECs6d+PKel6GNRThJ8tyVJ18mlDBnSr1lAssoE=",
+        "originContent": "foreach (Attributes::findTargetProperties(Column::class) as $target) {",
+        "translatedContent": "foreach (Attributes::findTargetProperties(Column::class) as $target) {"
+      },
+      {
+        "row": 26,
+        "rowsha": "u+Qoz3uchBZp4BKV8P3dLJyMxKfDkvWPQlOfEcpvdN8=",
+        "originContent": "    var_dump($target->attribute, $target->class, $target->name);",
+        "translatedContent": "    var_dump($target->attribute, $target->class, $target->name);"
+      },
+      {
+        "row": 27,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "be+m0x0XFCYYxxERi3UjHr/j6GF3CxAvfoMEqFbBFXs=",
+        "originContent": "// Find the target method parameters of the UserInput attribute.",
+        "translatedContent": "// Find the target method parameters of the UserInput attribute."
+      },
+      {
+        "row": 30,
+        "rowsha": "gH742gl9miWP0FkMi3o9dG1ugDpTdnVdVzrT5lRoGXs=",
+        "originContent": "foreach (Attributes::findTargetParameters(UserInput::class) as $target) {",
+        "translatedContent": "foreach (Attributes::findTargetParameters(UserInput::class) as $target) {"
+      },
+      {
+        "row": 31,
+        "rowsha": "ChjcsZBZOrTBfjqmr1IjQkIdShErhmjXq4Ip1uI6O74=",
+        "originContent": "    var_dump($target->attribute, $target->class, $target->method, $target->name);",
+        "translatedContent": "    var_dump($target->attribute, $target->class, $target->method, $target->name);"
+      },
+      {
+        "row": 32,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "JyTAv128SNpjqfHuoByl8DeibJ2ZSc//HWSTtvV+ye8=",
+        "originContent": "// Filter target methods using a predicate.",
+        "translatedContent": "// Filter target methods using a predicate."
+      },
+      {
+        "row": 35,
+        "rowsha": "ldAaIId97ZL4CYKfiyKmQYVNpWX+FBcwik+ZCXN9W3o=",
+        "originContent": "// You can also filter target classes and properties.",
+        "translatedContent": "// You can also filter target classes and properties."
+      },
+      {
+        "row": 36,
+        "rowsha": "cmMPWPu6GbWywiMow/6i6NdFf/S8suC+1e0ULorjQEs=",
+        "originContent": "$predicate = fn($attribute) => is_a($attribute, Route::class, true);",
+        "translatedContent": "$predicate = fn($attribute) => is_a($attribute, Route::class, true);"
+      },
+      {
+        "row": 37,
+        "rowsha": "aN479qeMJzSWQMGNYAknGvL7bw4bvOG2puihSc8yoE8=",
+        "originContent": "# or",
+        "translatedContent": "# or"
+      },
+      {
+        "row": 38,
+        "rowsha": "QI++/Aqsxwz9AhZjP59/wg/Cbg+PJcAVHFXgwZQdnuE=",
+        "originContent": "$predicate = Attributes::predicateForAttributeInstanceOf(Route::class);",
+        "translatedContent": "$predicate = Attributes::predicateForAttributeInstanceOf(Route::class);"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "TrqhBZGsefuFlSmeI+CvA3WkgJ9H54ClE+AiHZz4kio=",
+        "originContent": "foreach (Attributes::filterTargetMethods($predicate) as $target) {",
+        "translatedContent": "foreach (Attributes::filterTargetMethods($predicate) as $target) {"
+      },
+      {
+        "row": 41,
+        "rowsha": "u+Qoz3uchBZp4BKV8P3dLJyMxKfDkvWPQlOfEcpvdN8=",
+        "originContent": "    var_dump($target->attribute, $target->class, $target->name);",
+        "translatedContent": "    var_dump($target->attribute, $target->class, $target->name);"
+      },
+      {
+        "row": 42,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 43,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 44,
+        "rowsha": "411Q9PA3qJdWpfN8I5famWVMKD8IARgQpPljusVfDlU=",
+        "originContent": "// Find class, method, and property attributes for the ArticleController class.",
+        "translatedContent": "// Find class, method, and property attributes for the ArticleController class."
+      },
+      {
+        "row": 45,
+        "rowsha": "j1QFY+BHq7c8vyUty67C8RpzUT+pENGppRTJjG8uduM=",
+        "originContent": "$attributes = Attributes::forClass(ArticleController::class);",
+        "translatedContent": "$attributes = Attributes::forClass(ArticleController::class);"
+      },
+      {
+        "row": 46,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 47,
+        "rowsha": "hKk3JYmt6R5jDLNmblUT1W8ocRjqQHdx/Nj/b2ZPd+Y=",
+        "originContent": "var_dump($attributes->classAttributes);",
+        "translatedContent": "var_dump($attributes->classAttributes);"
+      },
+      {
+        "row": 48,
+        "rowsha": "Rbx3quZV7nazfOkMMgvIkPjYdVMMIq16H7TCPjGx1Kg=",
+        "originContent": "var_dump($attributes->methodsAttributes);",
+        "translatedContent": "var_dump($attributes->methodsAttributes);"
+      },
+      {
+        "row": 49,
+        "rowsha": "G+3WtvhCD02J7d3EaQlmtHt423bl5k1UX5nYdIIVCEI=",
+        "originContent": "var_dump($attributes->propertyAttributes);",
+        "translatedContent": "var_dump($attributes->propertyAttributes);"
+      },
+      {
+        "row": 50,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n\n\n## Getting started\n\nHere are a few steps to get you started.\n\n### 1\\. Configure the plugin (optional)\n\nThe collector automatically scans `autoload` paths of the root `composer.json` for a\nzero-configuration experience. You can override them via\n`extra.composer-attribute-collector.include`.\n",
+    "ContentSha": "mZdqvIezdLJ/C3iNJdCPXMr7iruQOux15tpJlWqhVzc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Getting started\n\nHere are a few steps to get you started.\n\n### 1\\. Configure the plugin (optional)\n\nThe collector automatically scans `autoload` paths of the root `composer.json` for a\nzero-configuration experience. You can override them via\n`extra.composer-attribute-collector.include`.\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Getting started"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Here are a few steps to get you started."
+      },
+      {
+        "row": 4,
+        "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
+        "originContent": "## Getting started",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 1\\. Configure the plugin (optional)"
+      },
+      {
+        "row": 6,
+        "rowsha": "RKlRd8QuSuBzbneDWgSRmqlpkEto6a2GUE6BHYfQtj4=",
+        "originContent": "Here are a few steps to get you started.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The collector automatically scans `autoload` paths of the root `composer.json` for a"
+      },
+      {
+        "row": 8,
+        "rowsha": "dSCaRA1JiRwxnsc72646iWvdGC/StVt0z4t3xFeSSnY=",
+        "originContent": "### 1\\. Configure the plugin (optional)",
+        "translatedContent": "zero-configuration experience. You can override them via"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`extra.composer-attribute-collector.include`."
+      },
+      {
+        "row": 10,
+        "rowsha": "8SUEQWtN+EVIuob5yqZui8TBxu9cjgV/t0rtTTnhEAo=",
+        "originContent": "The collector automatically scans `autoload` paths of the root `composer.json` for a",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "VYI8LueKNLu5c1jdzLtiAe/Ks0sUs444yiB0WtHOkhU=",
+        "originContent": "zero-configuration experience. You can override them via",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "PSM4dzotQVx+PBlMk/NTO1zfAeac8kYVsuKnnvAnFM0=",
+        "originContent": "`extra.composer-attribute-collector.include`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```json\n{\n  \"extra\": {\n    \"composer-attribute-collector\": {\n      \"include\": [\n        \"src\"\n      ]\n    }\n  }\n}\n```",
+    "ContentSha": "46JDurgrcEGams6I7111oyWGpsEYsZUpeP9Fcv32Yxg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"extra\": {\n    \"composer-attribute-collector\": {\n      \"include\": [\n        \"src\"\n      ]\n    }\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "Fu236DanwebS4UqxZ9PgguGBCxssQvjVrCTjmrOes6Y=",
+        "originContent": "  \"extra\": {",
+        "translatedContent": "  \"extra\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "ktLxTbaHQxCLdGxIDEcCsojjsbBzgVhcS2aGVKRr8Ek=",
+        "originContent": "    \"composer-attribute-collector\": {",
+        "translatedContent": "    \"composer-attribute-collector\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "jrw2+DEhqVgAphAOyq/n8EHKMB2s59FSNyIBiqVOtNg=",
+        "originContent": "      \"include\": [",
+        "translatedContent": "      \"include\": ["
+      },
+      {
+        "row": 6,
+        "rowsha": "d2MZazv9NCYD8tmZ4Ul76j8dfZpow67wNyTu5PrwTuE=",
+        "originContent": "        \"src\"",
+        "translatedContent": "        \"src\""
+      },
+      {
+        "row": 7,
+        "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+        "originContent": "      ]",
+        "translatedContent": "      ]"
+      },
+      {
+        "row": 8,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 9,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nCheck the [Configuration options](#configuration) for more details.\n\n\n\n### 2\\. Install the plugin\n\nUse [Composer][] to install the plugin.\nYou will be asked if you trust the plugin and wish to activate it, select `y` to proceed.\n",
+    "ContentSha": "sUrLK7VcoG6lQ8ew98ddieLUvyidppcFVg+78CVKOFQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nCheck the [Configuration options](#configuration) for more details.\n\n\n\n### 2\\. Install the plugin\n\nUse [Composer][] to install the plugin.\nYou will be asked if you trust the plugin and wish to activate it, select `y` to proceed.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "4RsWPJIqXwqNHpcKFZS0wnqW0F4FrVDouok1qMfFY24=",
+        "originContent": "Check the [Configuration options](#configuration) for more details.",
+        "translatedContent": "Check the [Configuration options](#configuration) for more details."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "81V2Z11AsMc90YJ5VS8MCHUGXLykezZDkplvBbv9hec=",
+        "originContent": "### 2\\. Install the plugin",
+        "translatedContent": "### 2\\. Install the plugin"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "4OLJhfq6w/D5AUeNSI4se/3VewCWG6+2pGTI04F4qh0=",
+        "originContent": "Use [Composer][] to install the plugin.",
+        "translatedContent": "Use [Composer][] to install the plugin."
+      },
+      {
+        "row": 9,
+        "rowsha": "eIeOQ5Up7mSfICBpFQKJA4HcNKvEvQB3n2cgcSOvqGQ=",
+        "originContent": "You will be asked if you trust the plugin and wish to activate it, select `y` to proceed.",
+        "translatedContent": "You will be asked if you trust the plugin and wish to activate it, select `y` to proceed."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```shell\ncomposer require olvlvl/composer-attribute-collector\n```",
+    "ContentSha": "+ip09ohcW89OCaUf4v3qJ/DqcB6a7s63G4vy1iP05+g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\ncomposer require olvlvl/composer-attribute-collector\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "dlPxuDDfuH5vR3bhteXMvkWIb7NeNx1bZyivSV8jvOo=",
+        "originContent": "composer require olvlvl/composer-attribute-collector",
+        "translatedContent": "composer require olvlvl/composer-attribute-collector"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nYou should see log messages similar to this:\n",
+    "ContentSha": "PekPeUCGs9aI7C1lXAiq831euuI+m7IAT0Kf2Tokql4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nYou should see log messages similar to this:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "EDDq45FJN5Knw1oQC/VvxN/ntMbxZxw9CxdMbwWstpQ=",
+        "originContent": "You should see log messages similar to this:",
+        "translatedContent": "You should see log messages similar to this:"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nGenerating autoload files\nGenerating attributes file\nGenerated attributes file in 9.137 ms\nGenerated autoload files\n```",
+    "ContentSha": "TL8RO0xOfnuTVfqGKl9Ba/zV10cHaDqOZeuqeVILwVM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nGenerating autoload files\nGenerating attributes file\nGenerated attributes file in 9.137 ms\nGenerated autoload files\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "IEGeSxaNhzQNkny4mr8mHQdbp7ffUx0tnZLyryHo8/M=",
+        "originContent": "Generating autoload files",
+        "translatedContent": "Generating autoload files"
+      },
+      {
+        "row": 3,
+        "rowsha": "BTt+UVMaUqskewqbgT4tGJEch80CBSrmipZuyElan8A=",
+        "originContent": "Generating attributes file",
+        "translatedContent": "Generating attributes file"
+      },
+      {
+        "row": 4,
+        "rowsha": "ErCrq6btPYpJZFrNgtxA+VEV2sQ+YuBnVi8/4g8+COY=",
+        "originContent": "Generated attributes file in 9.137 ms",
+        "translatedContent": "Generated attributes file in 9.137 ms"
+      },
+      {
+        "row": 5,
+        "rowsha": "x21sa65UvHrrz0P2lv78dX7BJXfG+epIDvVR30bnCOc=",
+        "originContent": "Generated autoload files",
+        "translatedContent": "Generated autoload files"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\n> [!TIP]\n> See the [Frequently Asked Questions](#frequently-asked-questions) section\n> to automatically refresh the \"attributes\" file during development.\n\n\n\n### 3\\. Autoload the \"attributes\" file\n\nYou can require the \"attributes\" file using `require_once 'vendor/attributes.php';` but you might\nprefer to use Composer's autoloading feature:\n",
+    "ContentSha": "ntdHt51R/gf/JPozmTnTpTm/9ZnthohPijiQ6LCIlYI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> [!TIP]\n> See the [Frequently Asked Questions](#frequently-asked-questions) section\n> to automatically refresh the \"attributes\" file during development.\n\n\n\n### 3\\. Autoload the \"attributes\" file\n\nYou can require the \"attributes\" file using `require_once 'vendor/attributes.php';` but you might\nprefer to use Composer's autoloading feature:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+        "originContent": "> [!TIP]",
+        "translatedContent": "> [!TIP]"
+      },
+      {
+        "row": 3,
+        "rowsha": "3XPfyR+a4EjNVQ9C7MFyki/gMZ6ls6KrzN1ewOy5kbI=",
+        "originContent": "> See the [Frequently Asked Questions](#frequently-asked-questions) section",
+        "translatedContent": "> See the [Frequently Asked Questions](#frequently-asked-questions) section"
+      },
+      {
+        "row": 4,
+        "rowsha": "3n0lcMHZb9wz2qQG6fOv3CsTTHGI3uykEhbA0fZS6ZM=",
+        "originContent": "> to automatically refresh the \"attributes\" file during development.",
+        "translatedContent": "> to automatically refresh the \"attributes\" file during development."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "keLrsyLStX3yS99GS7rB61D2qTiqRsQGZUQmiTrizlg=",
+        "originContent": "### 3\\. Autoload the \"attributes\" file",
+        "translatedContent": "### 3\\. Autoload the \"attributes\" file"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "r0jtBYkgBsy6bF4rIzGftZEwT4ggeYejPJ0ZkFCvknI=",
+        "originContent": "You can require the \"attributes\" file using `require_once 'vendor/attributes.php';` but you might",
+        "translatedContent": "You can require the \"attributes\" file using `require_once 'vendor/attributes.php';` but you might"
+      },
+      {
+        "row": 11,
+        "rowsha": "JcH71dSBYqWfugpDmTADRUpfqVrKaSwmoLGU4n8IJYc=",
+        "originContent": "prefer to use Composer's autoloading feature:",
+        "translatedContent": "prefer to use Composer's autoloading feature:"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```json\n{\n  \"autoload\": {\n    \"files\": [\n      \"vendor/attributes.php\"\n    ]\n  }\n}\n```",
+    "ContentSha": "lEhFWEK2NWMwAjvjDdACpE+Af3KFZv+fzB8M2Ld4TbU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"autoload\": {\n    \"files\": [\n      \"vendor/attributes.php\"\n    ]\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "l+YkJ1WrvC4wnMx26imdhd9v5XMPDdLbPGATjKXXT8s=",
+        "originContent": "  \"autoload\": {",
+        "translatedContent": "  \"autoload\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "8/4v/ar+HpY9uDVuGLAVpmCdA6M9Gu5nYbgH0TKymCU=",
+        "originContent": "    \"files\": [",
+        "translatedContent": "    \"files\": ["
+      },
+      {
+        "row": 5,
+        "rowsha": "evZcouhxXAY5cWY3DgHmWDRycT172FUjdap7HmiqhNM=",
+        "originContent": "      \"vendor/attributes.php\"",
+        "translatedContent": "      \"vendor/attributes.php\""
+      },
+      {
+        "row": 6,
+        "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+        "originContent": "    ]",
+        "translatedContent": "    ]"
+      },
+      {
+        "row": 7,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 8,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n\n\n## Configuration\n\nHere are a few ways you can configure the plugin.\n\n\n\n### Including paths or files ([root-only][])\n\nThe collector automatically scans `autoload` paths of the root `composer.json`, but you can override\nthem via the `include` property.\n\nThe specified paths are relative to the `composer.json` file, and the `{vendor}` placeholder is\nreplaced with the path to the vendor folder.\n",
+    "ContentSha": "/4r8kXg+JIggut5gaHgeba5hMhbPTRY6O6ufs8DblEw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## Configuration\n\nHere are a few ways you can configure the plugin.\n\n\n\n### Including paths or files ([root-only][])\n\nThe collector automatically scans `autoload` paths of the root `composer.json`, but you can override\nthem via the `include` property.\n\nThe specified paths are relative to the `composer.json` file, and the `{vendor}` placeholder is\nreplaced with the path to the vendor folder.\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Configuration"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Here are a few ways you can configure the plugin."
+      },
+      {
+        "row": 4,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "dYZKivfbX0SlZuJwGGupvD495gbYQ/IVG0io5ETVu6U=",
+        "originContent": "Here are a few ways you can configure the plugin.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Including paths or files ([root-only][])"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "The collector automatically scans `autoload` paths of the root `composer.json`, but you can override"
+      },
+      {
+        "row": 10,
+        "rowsha": "Skv/yVSVFU9C920PGN4Yl3m0/kibrdu5u/AcV4rsECQ=",
+        "originContent": "### Including paths or files ([root-only][])",
+        "translatedContent": "them via the `include` property."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "7rFY9IGsL66NP/pzTZI/yNQGXhIfMSJLAF3lYCYX8FY=",
+        "originContent": "The collector automatically scans `autoload` paths of the root `composer.json`, but you can override",
+        "translatedContent": "The specified paths are relative to the `composer.json` file, and the `{vendor}` placeholder is"
+      },
+      {
+        "row": 13,
+        "rowsha": "U5jDQQeP0uuIle6XRDDOwNFSmB3Ge7uay6eljrzbirA=",
+        "originContent": "them via the `include` property.",
+        "translatedContent": "replaced with the path to the vendor folder."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "tjwrHvm5KtVhsYP981Xs4MmXV7MbVU6reOq1l89kQXY=",
+        "originContent": "The specified paths are relative to the `composer.json` file, and the `{vendor}` placeholder is",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "T83zYqDaFmKCAvGa08J4p8G738WV0HXEttAIRuj3uXY=",
+        "originContent": "replaced with the path to the vendor folder.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```json\n{\n  \"extra\": {\n    \"composer-attribute-collector\": {\n      \"include\": [\n        \"path-or-file/to/include\"\n      ]\n    }\n  }\n}\n```",
+    "ContentSha": "xHnn/9/Tuv/QXFRlkLT6Pn0Z15Oew0DTBW3Oo2N57eg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"extra\": {\n    \"composer-attribute-collector\": {\n      \"include\": [\n        \"path-or-file/to/include\"\n      ]\n    }\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "Fu236DanwebS4UqxZ9PgguGBCxssQvjVrCTjmrOes6Y=",
+        "originContent": "  \"extra\": {",
+        "translatedContent": "  \"extra\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "ktLxTbaHQxCLdGxIDEcCsojjsbBzgVhcS2aGVKRr8Ek=",
+        "originContent": "    \"composer-attribute-collector\": {",
+        "translatedContent": "    \"composer-attribute-collector\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "jrw2+DEhqVgAphAOyq/n8EHKMB2s59FSNyIBiqVOtNg=",
+        "originContent": "      \"include\": [",
+        "translatedContent": "      \"include\": ["
+      },
+      {
+        "row": 6,
+        "rowsha": "/O0WKCd0PUioTvdOO/ptioezTbYfZIebBeiQQCVHP8k=",
+        "originContent": "        \"path-or-file/to/include\"",
+        "translatedContent": "        \"path-or-file/to/include\""
+      },
+      {
+        "row": 7,
+        "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+        "originContent": "      ]",
+        "translatedContent": "      ]"
+      },
+      {
+        "row": 8,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 9,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Excluding paths or files ([root-only][])\n\nUse the `exclude` property to exclude paths or files from scanning. This is handy when files\ncause issues or have side effects.\n\nThe specified paths are relative to the `composer.json` file, and the `{vendor}` placeholder is\nreplaced with the path to the vendor folder.\n",
+    "ContentSha": "iat+E0t4sSoQqls0QnKazqMzkWL4ei3V2p16THHYMOk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Excluding paths or files ([root-only][])\n\nUse the `exclude` property to exclude paths or files from scanning. This is useful when files\ncause problems or have side effects.\n\nThe specified paths are relative to the `composer.json` file, and the `{vendor}` placeholder is\nreplaced with the path to the vendor directory.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Z/IQ2CKk9crI+/brw/81SpZiJAYxolPFIJBvt/wJ/CQ=",
+        "originContent": "### Excluding paths or files ([root-only][])",
+        "translatedContent": "### Excluding paths or files ([root-only][])"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "RoJSvKDsP5SCGdpF23Ww0xev/d2+rk1H2KzWHxEBtfI=",
+        "originContent": "Use the `exclude` property to exclude paths or files from scanning. This is handy when files",
+        "translatedContent": "Use the `exclude` property to exclude paths or files from scanning. This is useful when files"
+      },
+      {
+        "row": 5,
+        "rowsha": "EzaIEG3VLPeR5gB+d+L5aj281ugMV1vZfBKBTumqCDs=",
+        "originContent": "cause issues or have side effects.",
+        "translatedContent": "cause problems or have side effects."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "tjwrHvm5KtVhsYP981Xs4MmXV7MbVU6reOq1l89kQXY=",
+        "originContent": "The specified paths are relative to the `composer.json` file, and the `{vendor}` placeholder is",
+        "translatedContent": "The specified paths are relative to the `composer.json` file, and the `{vendor}` placeholder is"
+      },
+      {
+        "row": 8,
+        "rowsha": "T83zYqDaFmKCAvGa08J4p8G738WV0HXEttAIRuj3uXY=",
+        "originContent": "replaced with the path to the vendor folder.",
+        "translatedContent": "replaced with the path to the vendor directory."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "```json\n{\n  \"extra\": {\n    \"composer-attribute-collector\": {\n      \"exclude\": [\n        \"path-or-file/to/exclude\"\n      ]\n    }\n  }\n}\n```",
+    "ContentSha": "IaEuRH/1lJN+Pir9EXKBxFokMy9Mzou+JPEv03XmLQ4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```json\n{\n  \"extra\": {\n    \"composer-attribute-collector\": {\n      \"exclude\": [\n        \"path-or-file/to/exclude\"\n      ]\n    }\n  }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+        "originContent": "```json",
+        "translatedContent": "```json"
+      },
+      {
+        "row": 2,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 3,
+        "rowsha": "Fu236DanwebS4UqxZ9PgguGBCxssQvjVrCTjmrOes6Y=",
+        "originContent": "  \"extra\": {",
+        "translatedContent": "  \"extra\": {"
+      },
+      {
+        "row": 4,
+        "rowsha": "ktLxTbaHQxCLdGxIDEcCsojjsbBzgVhcS2aGVKRr8Ek=",
+        "originContent": "    \"composer-attribute-collector\": {",
+        "translatedContent": "    \"composer-attribute-collector\": {"
+      },
+      {
+        "row": 5,
+        "rowsha": "vNQri9RU2kuY8YtGAfMKNxzlf4go+iMRb+JtY+XnLpg=",
+        "originContent": "      \"exclude\": [",
+        "translatedContent": "      \"exclude\": ["
+      },
+      {
+        "row": 6,
+        "rowsha": "ycZE9RM0hZibG/uTE4dDZdpH0xfQY/dtZ7Vbh2ru42s=",
+        "originContent": "        \"path-or-file/to/exclude\"",
+        "translatedContent": "        \"path-or-file/to/exclude\""
+      },
+      {
+        "row": 7,
+        "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+        "originContent": "      ]",
+        "translatedContent": "      ]"
+      },
+      {
+        "row": 8,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 9,
+        "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+        "originContent": "  }",
+        "translatedContent": "  }"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### Cache discoveries between runs\n\nThe plugin is able to maintain a cache to reuse discoveries between runs. To enable the cache,\nset the environment variable `COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE` to `1`, `yes`, or `true`.\nCache items are persisted in the `.composer-attribute-collector` directory, you might want to add\nit to your `.gitignore` file.\n",
+    "ContentSha": "KdSgolv/+AkzOEuc2nUcNZjU4NmmMWMM01yoBaO+DPI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Cache discoveries between runs\n\nThe plugin is able to maintain a cache to reuse discoveries between runs. To enable the cache,\nset the environment variable `COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE` to `1`, `yes`, or `true`.\nCache items are persisted in the `.composer-attribute-collector` directory, you might want to add\nit to your `.gitignore` file.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0l1VRO5N1thFkoFPsSVVBBqsbob8ilmfL6TjqAHSoa4=",
+        "originContent": "### Cache discoveries between runs",
+        "translatedContent": "### Cache discoveries between runs"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "18poNeYkMXqgQle0qnEW8C6g83/vWMFittpI0iXxAiw=",
+        "originContent": "The plugin is able to maintain a cache to reuse discoveries between runs. To enable the cache,",
+        "translatedContent": "The plugin is able to maintain a cache to reuse discoveries between runs. To enable the cache,"
+      },
+      {
+        "row": 5,
+        "rowsha": "FUG0VmpoRCLVQKCfhfGE8qyO6nMPaC7WR6nGzpu6tT8=",
+        "originContent": "set the environment variable `COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE` to `1`, `yes`, or `true`.",
+        "translatedContent": "set the environment variable `COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE` to `1`, `yes`, or `true`."
+      },
+      {
+        "row": 6,
+        "rowsha": "nIAHAdIfSICxuMbzZ6F49p4kRi7ImpLm9APFk1yMyqM=",
+        "originContent": "Cache items are persisted in the `.composer-attribute-collector` directory, you might want to add",
+        "translatedContent": "Cache items are persisted in the `.composer-attribute-collector` directory, you might want to add"
+      },
+      {
+        "row": 7,
+        "rowsha": "c5o3emqYv6afLoU6QgcpPMk727C6cSX4XoIGoIBVv+U=",
+        "originContent": "it to your `.gitignore` file.",
+        "translatedContent": "it to your `.gitignore` file."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```shell\nCOMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE=1 composer dump-autoload\n```",
+    "ContentSha": "rxuYzRWJd7JkhW7qDKT5krOlC3HmKCiiEkRogDxuK3Q=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```shell\nCOMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE=1 composer dump-autoload\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+        "originContent": "```shell",
+        "translatedContent": "```shell"
+      },
+      {
+        "row": 2,
+        "rowsha": "DVVcZPwFu5wnUE6NXlQsKpUODBu4FbC4rXLYmCzg7Gw=",
+        "originContent": "COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE=1 composer dump-autoload",
+        "translatedContent": "COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE=1 composer dump-autoload"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\n\n\n## Use cases\n\nUse cases are available to test the plugin in real conditions:\n\n- [Incompatible signature](cases/incompatible-signature) The plugin is able to collect attributes,\n  although the PSR Logger version used by Composer and the application are incompatible.\n\n- [Symfony](cases/symfony) A Symfony application, created with `symfony new`.\n\n- [Laravel](cases/laravel) A Laravel application, created with `laravel new`.\n\n\n\n## Frequently Asked Questions\n\n**Do I need to generate an optimized autoloader?**\n\nYou don't need to generate an optimized autoloader for this to work. The plugin uses code similar\nto Composer to find classes. Anything that works with Composer should work with the plugin.\n\n**Can I use the plugin during development?**\n\nYes, you can use the plugin during development, but keep in mind the \"attributes\" file is only\ngenerated after the autoloader is dumped. If you modify attributes you will have to run\n`composer dump-autoload` to refresh the \"attributes\" file.\n\nAs a workaround you could have watchers on the directories that contain classes with attributes to\nrun `XDEBUG_MODE=off composer dump-autoload` when you make changes. [PhpStorm offers file\nwatchers][phpstorm-watchers]. You could also use [spatie/file-system-watcher][], it only requires\nPHP. If the plugin is too slow for your liking, try running the command with\n`COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE=yes`, it will enable caching and speed up consecutive runs.\n\n**How do I include a class that inherits its attributes?**\n\nTo speed up the collection process, the plugin first looks at PHP files as plain text for hints of\nattribute usage. If a class inherits its attributes from traits, properties, or methods, but doesn't\nuse attributes itself, it will be ignored. Use the attribute",
+    "ContentSha": "pX9g8rL9nm5RUgyv5ob8UZLuwtcLmI3By5CSE1U6bBU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Use cases\n\nUse cases are available to test the plugin in real conditions:\n\n- [Incompatible signature](cases/incompatible-signature) The plugin is able to collect attributes,\n  although the PSR Logger version used by Composer and the application are incompatible.\n\n- [Symfony](cases/symfony) A Symfony application, created with `symfony new`.\n\n- [Laravel](cases/laravel) A Laravel application, created with `laravel new`.\n\n\n## Frequently Asked Questions\n\n**Do I need to generate an optimized autoloader?**\n\nYou don't need to generate an optimized autoloader for this to work. The plugin uses code similar\nto Composer to find classes. Anything that works with Composer should work with the plugin.\n\n**Can I use the plugin during development?**\n\nYes, you can use the plugin during development, but keep in mind the \"attributes\" file is only\ngenerated after the autoloader is dumped. If you modify attributes you will have to run\n`composer dump-autoload` to refresh the \"attributes\" file.\n\nAs a workaround you could have watchers on the directories that contain classes with attributes to\nrun `XDEBUG_MODE=off composer dump-autoload` when you make changes. [PhpStorm offers file\nwatchers][phpstorm-watchers]. You could also use [spatie/file-system-watcher][], it only requires\nPHP. If the plugin is too slow for your liking, try running the command with\n`COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE=yes`, it will enable caching and speed up consecutive runs.\n\n**How do I include a class that inherits its attributes?**\n\nTo speed up the collection process, the plugin first looks at PHP files as plain text for hints of\nattribute usage. If a class inherits its attributes from traits, properties, or methods, but doesn't\nuse attributes itself, it will be ignored. Use the attribute\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Use cases"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "gAc3c9PbN+tEQccK1IHZ5IeD67vSCCt1dJu1uQyYA2E=",
+        "originContent": "## Use cases",
+        "translatedContent": "Use cases are available to test the plugin in real conditions:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "DeRhmr7xd2f7XlCiLGbdzizi0DBPbafzLCO/7QkKynA=",
+        "originContent": "Use cases are available to test the plugin in real conditions:",
+        "translatedContent": "- [Incompatible signature](cases/incompatible-signature) The plugin is able to collect attributes,"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "  although the PSR Logger version used by Composer and the application are incompatible."
+      },
+      {
+        "row": 8,
+        "rowsha": "0/MFP9LepWX5/MDtQMlRCMDOXw6FVmTHaZoUaxiNntk=",
+        "originContent": "- [Incompatible signature](cases/incompatible-signature) The plugin is able to collect attributes,",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "wmKG5oU42BjJ0h/h+h08IZ/ynsCakb8uN/gzINJaiv8=",
+        "originContent": "  although the PSR Logger version used by Composer and the application are incompatible.",
+        "translatedContent": "- [Symfony](cases/symfony) A Symfony application, created with `symfony new`."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "qEeo+sazOJMUvfJbv9aLgkQAOA2dwpYnZEUa8zrrWXU=",
+        "originContent": "- [Symfony](cases/symfony) A Symfony application, created with `symfony new`.",
+        "translatedContent": "- [Laravel](cases/laravel) A Laravel application, created with `laravel new`."
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "1N324QbOOm5ZgOmgWp3v/mNXN89/PJIOaC6jFnp72OI=",
+        "originContent": "- [Laravel](cases/laravel) A Laravel application, created with `laravel new`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Frequently Asked Questions"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**Do I need to generate an optimized autoloader?**"
+      },
+      {
+        "row": 17,
+        "rowsha": "iseZVXlXhMpIAWrUbcqGDqQvNMao6+kSNN8Ej+xEYt0=",
+        "originContent": "## Frequently Asked Questions",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "You don't need to generate an optimized autoloader for this to work. The plugin uses code similar"
+      },
+      {
+        "row": 19,
+        "rowsha": "utulmgqPQjiJcJM9N5niSx9TyvTutBaqDE+naAWCEkI=",
+        "originContent": "**Do I need to generate an optimized autoloader?**",
+        "translatedContent": "to Composer to find classes. Anything that works with Composer should work with the plugin."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "Fzl5K90ISbVOGIvLJZzPrb2OWpcqExrjYLHK92htMFU=",
+        "originContent": "You don't need to generate an optimized autoloader for this to work. The plugin uses code similar",
+        "translatedContent": "**Can I use the plugin during development?**"
+      },
+      {
+        "row": 22,
+        "rowsha": "7CsTBao9tJ1X01ZNocMpDm7lQ7ZhNT8QObv5qhewdeE=",
+        "originContent": "to Composer to find classes. Anything that works with Composer should work with the plugin.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Yes, you can use the plugin during development, but keep in mind the \"attributes\" file is only"
+      },
+      {
+        "row": 24,
+        "rowsha": "lsqDEsKL5K9617d9dPIs4eWteiOoOLrjvKizPWfXJdA=",
+        "originContent": "**Can I use the plugin during development?**",
+        "translatedContent": "generated after the autoloader is dumped. If you modify attributes you will have to run"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`composer dump-autoload` to refresh the \"attributes\" file."
+      },
+      {
+        "row": 26,
+        "rowsha": "ZnfnKQU6+gh8e9ILSmPfEhPEOwIFYCIUKOlVwP4ULPc=",
+        "originContent": "Yes, you can use the plugin during development, but keep in mind the \"attributes\" file is only",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "bue8Qz5lvzXFnwaw3mpBm2syB2+C90trKzpLCCDPV3o=",
+        "originContent": "generated after the autoloader is dumped. If you modify attributes you will have to run",
+        "translatedContent": "As a workaround you could have watchers on the directories that contain classes with attributes to"
+      },
+      {
+        "row": 28,
+        "rowsha": "SGZxUt7m22Yi1PxuR+u41ZwagxDhw7407EVKs0o6RIc=",
+        "originContent": "`composer dump-autoload` to refresh the \"attributes\" file.",
+        "translatedContent": "run `XDEBUG_MODE=off composer dump-autoload` when you make changes. [PhpStorm offers file"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "watchers][phpstorm-watchers]. You could also use [spatie/file-system-watcher][], it only requires"
+      },
+      {
+        "row": 30,
+        "rowsha": "95M5ZQn3F/ddPOomjpoBbwUmZF+qt2/n9y8zOJ63eJ4=",
+        "originContent": "As a workaround you could have watchers on the directories that contain classes with attributes to",
+        "translatedContent": "PHP. If the plugin is too slow for your liking, try running the command with"
+      },
+      {
+        "row": 31,
+        "rowsha": "3cazeD9QV6gu+n+TQVGvJhGTclNR546EHANEBAxsXYY=",
+        "originContent": "run `XDEBUG_MODE=off composer dump-autoload` when you make changes. [PhpStorm offers file",
+        "translatedContent": "`COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE=yes`, it will enable caching and speed up consecutive runs."
+      },
+      {
+        "row": 32,
+        "rowsha": "J/bAurfJ700H399apyJAwvRE85ldyjl+/MYC75Ypq6I=",
+        "originContent": "watchers][phpstorm-watchers]. You could also use [spatie/file-system-watcher][], it only requires",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "1+ubeXqQDlvuqZSDYDeOHDWAf2R7w8A2ObN+QuNomPE=",
+        "originContent": "PHP. If the plugin is too slow for your liking, try running the command with",
+        "translatedContent": "**How do I include a class that inherits its attributes?**"
+      },
+      {
+        "row": 34,
+        "rowsha": "PQm5+JrJl6tt6ZqKll1xd1r/cuXiiThOfyRAWl69kPc=",
+        "originContent": "`COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE=yes`, it will enable caching and speed up consecutive runs.",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "To speed up the collection process, the plugin first looks at PHP files as plain text for hints of"
+      },
+      {
+        "row": 36,
+        "rowsha": "At+c/ZrW1OlHydi0mRo6fLi2sIK5vhj00ICSy5kxgU0=",
+        "originContent": "**How do I include a class that inherits its attributes?**",
+        "translatedContent": "attribute usage. If a class inherits its attributes from traits, properties, or methods, but doesn't"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "use attributes itself, it will be ignored. Use the attribute"
+      },
+      {
+        "row": 38,
+        "rowsha": "kMpH0yq75V/+ACkoQ2E3I0F45LV/jr7iMaZ5qpYpwuw=",
+        "originContent": "To speed up the collection process, the plugin first looks at PHP files as plain text for hints of",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "Uou8mkaYobdR+DfrkRtGakNHedXvpp5BEb5AUYNMjqs=",
+        "originContent": "attribute usage. If a class inherits its attributes from traits, properties, or methods, but doesn't",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "jJDPCEjFdBMwIZJgmZetlcHwXpywLhGJEuGJ8aShFqQ=",
+        "originContent": "use attributes itself, it will be ignored. Use the attribute",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "`[#\\olvlvl\\ComposerAttributeCollector\\InheritsAttributes]` to force the collection.\n",
+    "ContentSha": "AbPcyOUIh7Pp0dVg4JKI6MtaIS7kNuHh2GfY7NsHMcg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "`[#\\olvlvl\\ComposerAttributeCollector\\InheritsAttributes]` to force the collection.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "OkrSesEPNILrQal8GVRlRSN8v2o1cw7KtM9sJC8vEZI=",
+        "originContent": "`[#\\olvlvl\\ComposerAttributeCollector\\InheritsAttributes]` to force the collection.",
+        "translatedContent": "`[#\\olvlvl\\ComposerAttributeCollector\\InheritsAttributes]` to force the collection."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```php\ntrait UrlTrait\n{\n    #[UrlGetter]\n    public function get_url(): string\n    {\n        return '/url';\n    }\n}\n\n#[InheritsAttributes]\nclass InheritedAttributeSample\n{\n    use UrlTrait;\n}\n```",
+    "ContentSha": "u+irnJBs+d1OlSxIIg4t7SGJERuuCSEiaAYIc4/MJcw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\ntrait UrlTrait\n{\n    #[UrlGetter]\n    public function get_url(): string\n    {\n        return '/url';\n    }\n}\n\n#[InheritsAttributes]\nclass InheritedAttributeSample\n{\n    use UrlTrait;\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "ApzEv9VZNw/YGk/u8WT5bIkQjH/HJ40P0o0HeFF6W6Y=",
+        "originContent": "trait UrlTrait",
+        "translatedContent": "trait UrlTrait"
+      },
+      {
+        "row": 3,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 4,
+        "rowsha": "Aft/RyBlhPSzlAllHN6nvKyUm8+hTs67Qrj+vrT83ak=",
+        "originContent": "    #[UrlGetter]",
+        "translatedContent": "    #[UrlGetter]"
+      },
+      {
+        "row": 5,
+        "rowsha": "JWAte2yWp7B1kENuPBqfu2NCi4HskrulnmBxloamF3Q=",
+        "originContent": "    public function get_url(): string",
+        "translatedContent": "    public function get_url(): string"
+      },
+      {
+        "row": 6,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 7,
+        "rowsha": "enRvqU46HCZa8FhGx/vMQjDIjfR2t3brUt5oT1s8b4U=",
+        "originContent": "        return '/url';",
+        "translatedContent": "        return '/url';"
+      },
+      {
+        "row": 8,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "JZHretLcyRanxpmCd3O1IsHTI3/bCoNdvkRe4VdtDoE=",
+        "originContent": "#[InheritsAttributes]",
+        "translatedContent": "#[InheritsAttributes]"
+      },
+      {
+        "row": 12,
+        "rowsha": "r/HZvQMXnoMc50rGuffh6cZY2myprXIPwDy2L5kxxdY=",
+        "originContent": "class InheritedAttributeSample",
+        "translatedContent": "class InheritedAttributeSample"
+      },
+      {
+        "row": 13,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 14,
+        "rowsha": "1LWIHyFfnxbvzdaqxvKAfljheV2Ttk0HkFs3FPt/fqE=",
+        "originContent": "    use UrlTrait;",
+        "translatedContent": "    use UrlTrait;"
+      },
+      {
+        "row": 15,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\n----------\n\n\n\n## Continuous Integration\n\nThe project is continuously tested by [GitHub actions](https://github.com/olvlvl/composer-attribute-collector/actions).\n\n[![Cases](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/cases.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/cases.yml)\n[![Tests](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/test.yml)\n[![Static Analysis](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/static-analysis.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/static-analysis.yml)\n[![Code Style](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/code-style.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/code-style.yml)\n\n\n\n## Code of Conduct\n\nThis project adheres to a [Contributor Code of Conduct](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CODE_OF_CONDUCT.md). By participating in\nthis project and its community, you're expected to uphold this code.\n\n\n\n## Contributing\n\nSee [CONTRIBUTING](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CONTRIBUTING.md) for details.\n\n\n\n[Composer]:  https://getcomposer.org/\n[root-only]: https://getcomposer.org/doc/04-schema.md#root-package\n[spatie/file-system-watcher]: https://github.com/spatie/file-system-watcher\n[phpstorm-watchers]: https://www.jetbrains.com/help/phpstorm/using-file-watchers.html\n",
+    "ContentSha": "wXS73HheVOANDffQsamar/ZyZ1w1doS8LRz7ppQpySg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n----------\n\n\n\n## Continuous Integration\n\nThe project is continuously tested by [GitHub actions](https://github.com/olvlvl/composer-attribute-collector/actions).\n\n[![Cases](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/cases.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/cases.yml)\n[![Tests](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/test.yml)\n[![Static Analysis](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/static-analysis.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/static-analysis.yml)\n[![Code Style](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/code-style.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/code-style.yml)\n\n\n\n## Code of Conduct\n\nThis project adheres to a [Contributor Code of Conduct](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CODE_OF_CONDUCT.md). By participating in\nthis project and its community, you're expected to uphold this code.\n\n\n\n## Contributing\n\nSee [CONTRIBUTING](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CONTRIBUTING.md) for details.\n\n\n\n[Composer]:  https://getcomposer.org/\n[root-only]: https://getcomposer.org/doc/04-schema.md#root-package\n[spatie/file-system-watcher]: https://github.com/spatie/file-system-watcher\n[phpstorm-watchers]: https://www.jetbrains.com/help/phpstorm/using-file-watchers.html\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "WQzLc8ik3inJZMK5lCJ26mkvaboYo4pT75ge25HpFt4=",
+        "originContent": "----------",
+        "translatedContent": "----------"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "PYXVlAQCiY7uusNMYhqWQKYfTYCuae9tuO4IP9COAoA=",
+        "originContent": "## Continuous Integration",
+        "translatedContent": "## Continuous Integration"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "CnW8MW4ndyWtS/Zb9QYg5QFmkNsLD6V9tKMZH7N1DuM=",
+        "originContent": "The project is continuously tested by [GitHub actions](https://github.com/olvlvl/composer-attribute-collector/actions).",
+        "translatedContent": "The project is continuously tested by [GitHub actions](https://github.com/olvlvl/composer-attribute-collector/actions)."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "LeOH4U5ej4g1urKxqnj4jAlnYvGX6rVWpsAfx+LUjkQ=",
+        "originContent": "[![Cases](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/cases.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/cases.yml)",
+        "translatedContent": "[![Cases](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/cases.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/cases.yml)"
+      },
+      {
+        "row": 11,
+        "rowsha": "ZZi+8t5hrsnhJUuaDbtvjXTO4sPd8kMCw1gL2eyU+/g=",
+        "originContent": "[![Tests](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/test.yml)",
+        "translatedContent": "[![Tests](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/test.yml)"
+      },
+      {
+        "row": 12,
+        "rowsha": "nqVkt9W+EoDZ/R4IFrcUwD2+zvBCYRdT9lPkvzapTNk=",
+        "originContent": "[![Static Analysis](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/static-analysis.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/static-analysis.yml)",
+        "translatedContent": "[![Static Analysis](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/static-analysis.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/static-analysis.yml)"
+      },
+      {
+        "row": 13,
+        "rowsha": "pg1FxCTxGnPP0Db9oKc9mPUalMUaCcX3/uDBohmurWI=",
+        "originContent": "[![Code Style](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/code-style.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/code-style.yml)",
+        "translatedContent": "[![Code Style](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/code-style.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/code-style.yml)"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "a2NKwVCedKLDuP9rtxwV5qmQmdm5DK2nFoQfOTn/ZT0=",
+        "originContent": "## Code of Conduct",
+        "translatedContent": "## Code of Conduct"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "4vnRTMRRaX0rCSSiBunc6W7xhRr2guUgkWHz+mqDrMc=",
+        "originContent": "This project adheres to a [Contributor Code of Conduct](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CODE_OF_CONDUCT.md). By participating in",
+        "translatedContent": "This project adheres to a [Contributor Code of Conduct](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CODE_OF_CONDUCT.md). By participating in"
+      },
+      {
+        "row": 20,
+        "rowsha": "eacouoDHrJFtEHsZLZFB/txQQTEakZIRL43U2vHlDPY=",
+        "originContent": "this project and its community, you're expected to uphold this code.",
+        "translatedContent": "this project and its community, you're expected to uphold this code."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contributing"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "DMscjzKmOiUIXPqUobuXPOXz4kXYL2E3XX8ocuj/2Kk=",
+        "originContent": "See [CONTRIBUTING](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CONTRIBUTING.md) for details.",
+        "translatedContent": "See [CONTRIBUTING](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CONTRIBUTING.md) for details."
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "ubmgMl/vhWn8xz21SoGCBQvS6wflPBq2hl4MItyqyqM=",
+        "originContent": "[Composer]:  https://getcomposer.org/",
+        "translatedContent": "[Composer]:  https://getcomposer.org/"
+      },
+      {
+        "row": 31,
+        "rowsha": "A9MFdkFlknAKDd8islA+KW6cHNhRWiBSddZuIjcWdEY=",
+        "originContent": "[root-only]: https://getcomposer.org/doc/04-schema.md#root-package",
+        "translatedContent": "[root-only]: https://getcomposer.org/doc/04-schema.md#root-package"
+      },
+      {
+        "row": 32,
+        "rowsha": "iwK1MZDPM0Lzk3ugrYx71xhPheOoDMNoNku1aCE+LvY=",
+        "originContent": "[spatie/file-system-watcher]: https://github.com/spatie/file-system-watcher",
+        "translatedContent": "[spatie/file-system-watcher]: https://github.com/spatie/file-system-watcher"
+      },
+      {
+        "row": 33,
+        "rowsha": "F0I01yBrwuKa5rp6uOrpGWMKIkRDdcSko8S/vGljw2s=",
+        "originContent": "[phpstorm-watchers]: https://www.jetbrains.com/help/phpstorm/using-file-watchers.html",
+        "translatedContent": "[phpstorm-watchers]: https://www.jetbrains.com/help/phpstorm/using-file-watchers.html"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

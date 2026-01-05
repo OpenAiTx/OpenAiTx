@@ -1,0 +1,1166 @@
+[
+  {
+    "row": 1,
+    "rowsha": "lg2CFBnyZxTRCMIL3hxE5sgPiq+sEvlBq6xXOW+BTKY=",
+    "originContent": "# Laravel Eloquent Sequencer",
+    "translatedContent": "# Laravel Eloquent Sequencer"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "XP9Nvd9a+CTXG8B/VR5jNqCWK/b1cGvrCgWGpEEX9BE=",
+    "originContent": "[![Latest Version](https://img.shields.io/github/release/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://github.com/gurgentil/laravel-eloquent-sequencer/releases)",
+    "translatedContent": "[![最新バージョン](https://img.shields.io/github/release/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://github.com/gurgentil/laravel-eloquent-sequencer/releases)"
+  },
+  {
+    "row": 4,
+    "rowsha": "rRarJiszcI87yrLNZxwIduQeYmBTNshrMuw5miR3mco=",
+    "originContent": "![GitHub Workflow Status](https://img.shields.io/github/workflow/status/gurgentil/laravel-eloquent-sequencer/run-tests?label=tests)",
+    "translatedContent": "![GitHub ワークフローステータス](https://img.shields.io/github/workflow/status/gurgentil/laravel-eloquent-sequencer/run-tests?label=tests)"
+  },
+  {
+    "row": 5,
+    "rowsha": "iBBYZ15G5+aTzHF6c8j2rTTvmPpvCNnwUb5k8eDjS2c=",
+    "originContent": "[![Quality Score](https://img.shields.io/scrutinizer/g/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://scrutinizer-ci.com/g/gurgentil/laravel-eloquent-sequencer)",
+    "translatedContent": "[![品質スコア](https://img.shields.io/scrutinizer/g/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://scrutinizer-ci.com/g/gurgentil/laravel-eloquent-sequencer)"
+  },
+  {
+    "row": 6,
+    "rowsha": "R1iYxQuEqo/4dpzLXYU8gvEBCPdNADNMg0dTvxtrAgo=",
+    "originContent": "[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)",
+    "translatedContent": "[![MIT ライセンス](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "fqvjnMFVaZFG8tNBsoJPfVt3OTSh1yFNRRgj5X1OLuM=",
+    "originContent": "This package allows you to create and manage sequences for your Eloquent models.",
+    "translatedContent": "このパッケージは、Eloquentモデルのシーケンスを作成および管理することを可能にします。"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## インストール"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "N8uvkYN94/FYfZAIDO2qGJ05iqSB/ZjYiSSwv2OggT8=",
+    "originContent": "Install the package via composer:",
+    "translatedContent": "Composer経由でパッケージをインストールします:"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 15,
+    "rowsha": "v4nC9INHWFnpGln3gauxtD8LZoKvi3oUCZ3+tu3wM9I=",
+    "originContent": "composer require gurgentil/laravel-eloquent-sequencer",
+    "translatedContent": "composer require gurgentil/laravel-eloquent-sequencer"
+  },
+  {
+    "row": 16,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": "## 設定"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "NhnNEdrUtdHwndsc6PFL8o4HtKgvfw4UoQbYp95tWtU=",
+    "originContent": "To publish the configuration file run:",
+    "translatedContent": "設定ファイルを公開するには、次のコマンドを実行してください:"
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 23,
+    "rowsha": "pv+FEXTTPqAOo7j1zs8yqwYAJdM8QeSVPJ6fPbmeUSY=",
+    "originContent": "php artisan vendor:publish --provider=\"Gurgentil\\LaravelEloquentSequencer\\LaravelEloquentSequencerServiceProvider\"",
+    "translatedContent": "php artisan vendor:publish --provider=\"Gurgentil\\LaravelEloquentSequencer\\LaravelEloquentSequencerServiceProvider\""
+  },
+  {
+    "row": 24,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "MkqSKFmCiYSfzhulFlc1qJ1QviZwLhpakt/M+Qza+DM=",
+    "originContent": "### Configuration parameters",
+    "translatedContent": "### 設定パラメータ"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "jx80H8K2s4fPqPChERnLlgMrDclOG4fXElihoP2ckck=",
+    "originContent": "You can change the default colum name, the initial value and the sequencing strategy in `config/eloquentsequencer.php`:",
+    "translatedContent": "デフォルトのカラム名、初期値、シーケンス戦略は `config/eloquentsequencer.php` で変更できます:"
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 31,
+    "rowsha": "XifJenLZKpFD2KabjPbTnGEIx2UX0HFizVaeULpdst4=",
+    "originContent": "return [",
+    "translatedContent": "return ["
+  },
+  {
+    "row": 32,
+    "rowsha": "YodqPwJxRtrDWP2RjKDQlvwWlrUMG7giE8QzQ+BlWxM=",
+    "originContent": "    'column_name' => 'position',",
+    "translatedContent": "    'column_name' => 'position',"
+  },
+  {
+    "row": 33,
+    "rowsha": "fObJu4m2XzF58hpoUAUdqxzA+i8b/RKGltV7DXgC6Rc=",
+    "originContent": "    'initial_value' => 1,",
+    "translatedContent": "    'initial_value' => 1,"
+  },
+  {
+    "row": 34,
+    "rowsha": "juaMLDRLwFVHhXJ1GmmHAfmQcpdmpBYh63+z3w/p0BI=",
+    "originContent": "    'strategy' => 'always',",
+    "translatedContent": "    'strategy' => 'always',"
+  },
+  {
+    "row": 35,
+    "rowsha": "NYuj8iI3hNgA6iuo33czj0wIyzssKA7IswIJJforxO8=",
+    "originContent": "];",
+    "translatedContent": "];"
+  },
+  {
+    "row": 36,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "tXNkGR4AUrnxicrK5uBhY7hWnKdbfEOlxcQwA2Y8CIA=",
+    "originContent": "The `strategy` configuration determines when sequencing should be triggered and accepts one of the following values: `always`, `on_create`, `on_update` or `never`.",
+    "translatedContent": "`strategy`設定は、シーケンシングをいつトリガーするかを決定し、次のいずれかの値を受け入れます：`always`、`on_create`、`on_update`、または`never`。"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "bfAt0ggThuPxytj4+DvIO7QHNqdPyMSlBYUx1fqQwYo=",
+    "originContent": "### Model configuration",
+    "translatedContent": "### モデル設定"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "Q77P7wWEFDvgoIUeuZh1iXTAmHnfJy37zANK52A4Z0s=",
+    "originContent": "The `$sequenceable` attribute specifies the sequence column name for the model:",
+    "translatedContent": "`$sequenceable`属性は、モデルのシーケンスカラム名を指定します："
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 45,
+    "rowsha": "b7DED/KFbpaDKiipRDzt0jedfmA/QFBWk1xlW46pWvI=",
+    "originContent": "protected static $sequenceable = 'order';",
+    "translatedContent": "protected static $sequenceable = 'order';"
+  },
+  {
+    "row": 46,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "シーケンスアイテムをグループ化する関係キー："
+  },
+  {
+    "row": 48,
+    "rowsha": "Xc4/KYXkfxg/YNDqxAi+ueU2NPkLqbBhQH7Yh2QK0Vg=",
+    "originContent": "The relationship key(s) that will group the sequence items together:",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 51,
+    "rowsha": "MTBjVKm6lqn9YP7iFm+p5Kq0DiMVDy0JkU9x7BqMvGE=",
+    "originContent": "protected static $sequenceableKeys = [",
+    "translatedContent": "protected static $sequenceableKeys = ["
+  },
+  {
+    "row": 52,
+    "rowsha": "TcoeHmMS8fSiLW+lw/K8y1b2NwSOjzfnSe3z7yBGIzM=",
+    "originContent": "    'task_list_id',",
+    "translatedContent": "    'task_list_id',"
+  },
+  {
+    "row": 53,
+    "rowsha": "NYuj8iI3hNgA6iuo33czj0wIyzssKA7IswIJJforxO8=",
+    "originContent": "];",
+    "translatedContent": "];"
+  },
+  {
+    "row": 54,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "EO6ZQXb9sqnspgTR85GdqO/iu49Nct6NFZvkDmOmp3I=",
+    "originContent": "In the example above, a task list has many tasks.",
+    "translatedContent": "上記の例では、タスクリストには多くのタスクがあります。"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "CwN11aAGMm1pK897gbhGqV2dsGn/BWsnZhV0U7Qlifg=",
+    "originContent": "For **polymorphic relationships** specify both relationship keys:",
+    "translatedContent": "**多態的関係**の場合は、両方の関係キーを指定してください："
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 61,
+    "rowsha": "MTBjVKm6lqn9YP7iFm+p5Kq0DiMVDy0JkU9x7BqMvGE=",
+    "originContent": "protected static $sequenceableKeys = [",
+    "translatedContent": "protected static $sequenceableKeys = ["
+  },
+  {
+    "row": 62,
+    "rowsha": "d6VGqFmj8RgGEnqQaHB7/Pq/yyH6ap4qNlaARDdKIec=",
+    "originContent": "    'commentable_id',",
+    "translatedContent": "    'commentable_id',"
+  },
+  {
+    "row": 63,
+    "rowsha": "i6NvNHUYF7sJecjECZ8VNyeFdxeuDedAyGUHUXj/giU=",
+    "originContent": "    'commentable_type',",
+    "translatedContent": "    'commentable_type',"
+  },
+  {
+    "row": 64,
+    "rowsha": "NYuj8iI3hNgA6iuo33czj0wIyzssKA7IswIJJforxO8=",
+    "originContent": "];",
+    "translatedContent": "];"
+  },
+  {
+    "row": 65,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 使用法"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "0Uh3SbKCW/Gnzn9uwLYJ2csKXDm6QIlb2l2AYe6iMN8=",
+    "originContent": "In the example below, a task list may have many tasks.",
+    "translatedContent": "以下の例では、タスクリストに多数のタスクが含まれる場合があります。"
+  },
+  {
+    "row": 70,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 71,
+    "rowsha": "irgpgKJlO/Nq9muOBuCCJxMQWTuasy0q+G8Nn0fs/+M=",
+    "originContent": "``` php",
+    "translatedContent": "``` php"
+  },
+  {
+    "row": 72,
+    "rowsha": "/M/m8oz7Gq45a0cqbwpjGKLkeNPU0KCnbc+auysc9CM=",
+    "originContent": "use Gurgentil\\LaravelEloquentSequencer\\Traits\\Sequenceable;",
+    "translatedContent": "use Gurgentil\\LaravelEloquentSequencer\\Traits\\Sequenceable;"
+  },
+  {
+    "row": 73,
+    "rowsha": "QyRJ0mSYORL9rN5thgKEV0D1ZgwEz769ZEMz2cqdeX0=",
+    "originContent": "use Illuminate\\Database\\Eloquent\\Model;",
+    "translatedContent": "use Illuminate\\Database\\Eloquent\\Model;"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "Qr2DIy4+3H9+WRSC6tqr1uMchSIa4UM2/aKGaSTh96s=",
+    "originContent": "class Task extends Model",
+    "translatedContent": "class Task extends Model"
+  },
+  {
+    "row": 76,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 77,
+    "rowsha": "dUfLHFkiRnZPyjGHDjSMKGcuPzdBMHwwHfDJsOD/eTg=",
+    "originContent": "    use Sequenceable;",
+    "translatedContent": "    use Sequenceable;"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "eAgssJKYogcqyintPEpYiuQAixCKJjGzpUKzCYjH6Hc=",
+    "originContent": "    protected $fillable = [",
+    "translatedContent": "    protected $fillable = ["
+  },
+  {
+    "row": 80,
+    "rowsha": "SB3O1K2FV2sUsikEjl4OhsUpNyG+t2rZSZ+FUDa6BNQ=",
+    "originContent": "        'position',",
+    "translatedContent": "        'position',"
+  },
+  {
+    "row": 81,
+    "rowsha": "tImqtZ4ozeLhsmXcaeSs+CDJtMeQja3q2UKShiFjM98=",
+    "originContent": "    ];",
+    "translatedContent": "    ];"
+  },
+  {
+    "row": 82,
+    "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+    "originContent": "    ",
+    "translatedContent": "    "
+  },
+  {
+    "row": 83,
+    "rowsha": "BrlXCOsEb9UCpVup4tKO0ZXojWV1BP5vtNkIpYLCTIw=",
+    "originContent": "    protected static $sequenceableKeys = [",
+    "translatedContent": "    protected static $sequenceableKeys = ["
+  },
+  {
+    "row": 84,
+    "rowsha": "wlBad+mdJ32gEA1+nf9HMl46DlzPEbP80cc0xQ+YbJs=",
+    "originContent": "        'task_list_id',",
+    "translatedContent": "        'task_list_id',"
+  },
+  {
+    "row": 85,
+    "rowsha": "tImqtZ4ozeLhsmXcaeSs+CDJtMeQja3q2UKShiFjM98=",
+    "originContent": "    ];",
+    "translatedContent": "    ];"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "zLx9hdOhoA9iT+2QptpiwqlHQJGy2DWTWwe7U0CiiRw=",
+    "originContent": "    public function taskList()",
+    "translatedContent": "    public function taskList()"
+  },
+  {
+    "row": 88,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 89,
+    "rowsha": "uiRzhZFVUnY+IlEHrBsHnao/zI4CEC0wvABL+uU8mlw=",
+    "originContent": "        return $this->belongsTo(TaskList::class);",
+    "translatedContent": "        return $this->belongsTo(TaskList::class);"
+  },
+  {
+    "row": 90,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 91,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 92,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "IMA3PG8DwvzTbC9DVin6yFDMyFaFtRAxVxdEowcFvkU=",
+    "originContent": "### Create an object",
+    "translatedContent": "### オブジェクトを作成する"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 97,
+    "rowsha": "dY/YPCmWqg7Z/KCq7niVErW3UkFuakBRoC9r1sL8Mas=",
+    "originContent": "Task::create([",
+    "translatedContent": "Task::create(["
+  },
+  {
+    "row": 98,
+    "rowsha": "zi/Vr533hbceXRPCdJxYlGZvUYGS4eIR81IHvM3mjw0=",
+    "originContent": "    'position' => 1,",
+    "translatedContent": "    'position' => 1,"
+  },
+  {
+    "row": 99,
+    "rowsha": "NzaaTou5rCogdrQ7kQ4l1C+cjFdG0ne/mO5Eskt5l7I=",
+    "originContent": "    'task_list_id' => 1,",
+    "translatedContent": "    'task_list_id' => 1,"
+  },
+  {
+    "row": 100,
+    "rowsha": "CuR6E5gPslkALbYlfjVOXImUpTVGK/isDJUvzfVETmk=",
+    "originContent": "]);",
+    "translatedContent": "]);"
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "InxChvhzK0HvGIGmZ7OJl5k/Q84juvoFibuAE3/W7WQ=",
+    "originContent": "If no value is provided for the sequence attribute, the object will be placed at the end of the sequence.",
+    "translatedContent": "sequence 属性に値が指定されていない場合、オブジェクトはシーケンスの最後に配置されます。"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 106,
+    "rowsha": "8Vqd/k15aA5YZGUKcAJAYTelyc47zYWfYgRi6VimSTA=",
+    "originContent": "Task::create(['task_list_id' => 1]);",
+    "translatedContent": "Task::create(['task_list_id' => 1]);"
+  },
+  {
+    "row": 107,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 109,
+    "rowsha": "DzsWDn6qdRBEWK33mpssq3XH9fmSV/4YThSW+DH3908=",
+    "originContent": "### Update and delete objects",
+    "translatedContent": "### オブジェクトの更新と削除"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "L0n75oe4LDrv0UG+70WedUcwEthXLK9g2trQzpvWXH8=",
+    "originContent": "The other items in the sequence will be rearranged to keep the sequence consistent.",
+    "translatedContent": "シーケンス内の他の項目は、シーケンスの整合性を保つために再配置されます。"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 114,
+    "rowsha": "eLrGmYWxByQnLmWbCNTd4hu9d7jNnOXe8umUmuww1H8=",
+    "originContent": "$task->update(['position' => 4]);",
+    "translatedContent": "$task->update(['position' => 4]);"
+  },
+  {
+    "row": 115,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 118,
+    "rowsha": "5qfOlBSNmsNljEA2adThq1kaTTgSfwRWVK08TuHv7p4=",
+    "originContent": "$task->delete();",
+    "translatedContent": "$task->delete();"
+  },
+  {
+    "row": 119,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "Wm7g1wVU+wumktMbQJrMRMjYk07MiK43OfhcCBe8nDs=",
+    "originContent": "### Get sequence value of an object",
+    "translatedContent": "### オブジェクトのシーケンス値を取得する"
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 124,
+    "rowsha": "bVU1W7J504wZ1Rs6xAj7DyoAw23aWYv3vHP1CmNu7Zo=",
+    "originContent": "$value = $task->getSequenceValue();",
+    "translatedContent": "$value = $task->getSequenceValue();"
+  },
+  {
+    "row": 125,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "gRlBmhMCcJBeTPu1bTEOvGU5a05BJhgZyyY1k77OX74=",
+    "originContent": "### Get sequence column name",
+    "translatedContent": "### シーケンス列名を取得する"
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 130,
+    "rowsha": "SQQ9yKT4WvxiV2vCukSCi36wtShllqb/e+XNdSwEx2w=",
+    "originContent": "$columnName = Task::getSequenceColumnName();",
+    "translatedContent": "$columnName = Task::getSequenceColumnName();"
+  },
+  {
+    "row": 131,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 132,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 133,
+    "rowsha": "96SL42VPCnUUbHxfJUU07ANqMqUj52xqYqUwpYhf5sU=",
+    "originContent": "### Disable automatic sequencing",
+    "translatedContent": "### 自動シーケンスの無効化"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 136,
+    "rowsha": "DzkI2JsyCGV3honeQ2WYcB3lQwrqzLkrP/fpBKXtkgQ=",
+    "originContent": "$task->withoutSequencing()->update(['position' => 3]);",
+    "translatedContent": "$task->withoutSequencing()->update(['position' => 3]);"
+  },
+  {
+    "row": 137,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 140,
+    "rowsha": "LH+P+8TZmnDz4LrluEQhTCDtXuEDjH6loukoVJpzmxg=",
+    "originContent": "$task->withoutSequencing()->delete();",
+    "translatedContent": "$task->withoutSequencing()->delete();"
+  },
+  {
+    "row": 141,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 142,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "SnrqfFOUJILuWwEPdEkIeNDaRkTBJFoy7Z/qSvGpnwE=",
+    "originContent": "### Scope query to order results by sequence value",
+    "translatedContent": "### シーケンス値で結果を並べ替えるスコープクエリ"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 146,
+    "rowsha": "ZD1Z+vFgEArc2Xo5SQUvj+WPzqprInFGO1BuAOCClIc=",
+    "originContent": "$tasks = Task::sequenced()->get();",
+    "translatedContent": "$tasks = Task::sequenced()->get();"
+  },
+  {
+    "row": 147,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "nELv9LL4/nM4OWQ4wm1ZdSdaIrGCJpFbl1sDU5fPPCM=",
+    "originContent": "## Artisan commands",
+    "translatedContent": "## Artisanコマンド"
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "MaoagvNFGewShtaTpNpH6k7Br2P805GBiHXySlj22xw=",
+    "originContent": "Assign sequence values to all records that have their values set to `null`.",
+    "translatedContent": "値が`null`に設定されているすべてのレコードにシーケンス値を割り当てます。"
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 154,
+    "rowsha": "xFotHquqWEwg6T3wbEzImiVCVJ8jxhpJFKswJqrExl0=",
+    "originContent": "php artisan sequence:populate \\\\App\\\\Task",
+    "translatedContent": "php artisan sequence:populate \\\\App\\\\Task"
+  },
+  {
+    "row": 155,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "7EgxBbQHWmvwA9HlYDuL8rLhxvkXgGOZlgTl4213RxI=",
+    "originContent": "Flush all sequence values for a model.",
+    "translatedContent": "モデルのすべてのシーケンス値をフラッシュします。"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 160,
+    "rowsha": "r7b92CY9OQmqJO+TlDFJt6Jxs9XSMQOS0AEWJL61QKA=",
+    "originContent": "php artisan sequence:flush \\\\App\\\\Task",
+    "translatedContent": "php artisan sequence:flush \\\\App\\\\Task"
+  },
+  {
+    "row": 161,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 163,
+    "rowsha": "5gDFo3ZvkOtpBCf1mWI4JGgowepLxssFRC4NJBi3KJY=",
+    "originContent": "### Testing",
+    "translatedContent": "### テスト"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+    "originContent": "``` bash",
+    "translatedContent": "``` bash"
+  },
+  {
+    "row": 166,
+    "rowsha": "TQpJg0Y4jeHihx2OaV13YyXDzqsumcxfpluaJG+8wHo=",
+    "originContent": "composer test",
+    "translatedContent": "composer test"
+  },
+  {
+    "row": 167,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 変更履歴"
+  },
+  {
+    "row": 169,
+    "rowsha": "Q1OXw5qU0qNvF6kr9VNc1kpkS+g2DXcdEM8Z230UmvQ=",
+    "originContent": "### Changelog",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "最近の変更内容の詳細については、[CHANGELOG](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/CHANGELOG.md) をご覧ください。"
+  },
+  {
+    "row": 171,
+    "rowsha": "5Hfy7/uaeacADvJublRwBP/0l0UI3FIoolp4U3mk4oA=",
+    "originContent": "Please see [CHANGELOG](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/CHANGELOG.md) for more information what has changed recently.",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## コントリビューション"
+  },
+  {
+    "row": 173,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "詳細については、[CONTRIBUTING](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/CONTRIBUTING.md) をご覧ください。"
+  },
+  {
+    "row": 175,
+    "rowsha": "H0Hd6/PXPkOFst5zSyts9MWgKv4rr049poPWtzJaXPI=",
+    "originContent": "Please see [CONTRIBUTING](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/CONTRIBUTING.md) for details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### セキュリティ"
+  },
+  {
+    "row": 177,
+    "rowsha": "pP9yxeieA/kYe1Dof8/8B7cmu2CoXgsvQ06sWLz9cDI=",
+    "originContent": "### Security",
+    "translatedContent": ""
+  },
+  {
+    "row": 178,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "セキュリティに関する問題を発見した場合は、Issueトラッカーの代わりに gustavorgentil@outlook.com までメールでご連絡ください。"
+  },
+  {
+    "row": 179,
+    "rowsha": "cEwrMjrzYvC388c3RnP0DpKvtBE89dQ4Tv4YJ249xFQ=",
+    "originContent": "If you discover any security related issues, please email gustavorgentil@outlook.com instead of using the issue tracker.",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## クレジット"
+  },
+  {
+    "row": 181,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- [Gustavo Rorato Gentil](https://github.com/gurgentil)"
+  },
+  {
+    "row": 183,
+    "rowsha": "VThkmPiUm5xe2SHoKXa1ezvXl9Ncw4Gth2uWVLZyvQg=",
+    "originContent": "- [Gustavo Rorato Gentil](https://github.com/gurgentil)",
+    "translatedContent": "- [Michael Slowik](https://github.com/sl0wik)"
+  },
+  {
+    "row": 184,
+    "rowsha": "h+zOOxcgUTjpmhrBkYeEWPTQ2JpQJxod0wrzav/bYPU=",
+    "originContent": "- [Michael Slowik](https://github.com/sl0wik)",
+    "translatedContent": "- [全ての貢献者](../../contributors)"
+  },
+  {
+    "row": 185,
+    "rowsha": "rW9ZMqnbqzsTobZV2eUtQ073g8i2NWSUfl+xA46fiKg=",
+    "originContent": "- [All Contributors](../../contributors)",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ライセンス"
+  },
+  {
+    "row": 187,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "MITライセンス (MIT)。詳細については [License File](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/LICENSE.md) をご覧ください。"
+  },
+  {
+    "row": 189,
+    "rowsha": "Kb9ZAfTmxL9Pv4WRTZUXIM5zXjcrt7G98ViZ2sfbjOU=",
+    "originContent": "The MIT License (MIT). Please see [License File](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/LICENSE.md) for more information.",
+    "translatedContent": ""
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## Laravel パッケージ ボイラープレート"
+  },
+  {
+    "row": 191,
+    "rowsha": "BHki1xisLxt7G+9h5aZMwERndepu/vOq30/cvMMEgzw=",
+    "originContent": "## Laravel Package Boilerplate",
+    "translatedContent": ""
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "このパッケージは [Laravel Package Boilerplate](https://laravelpackageboilerplate.com) を使用して生成されました。"
+  },
+  {
+    "row": 193,
+    "rowsha": "DRVOAjvJ/E9/KjXg7PBQSU3g5Zz8X5ExafL3IxqcZrA=",
+    "originContent": "This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).",
+    "translatedContent": ""
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

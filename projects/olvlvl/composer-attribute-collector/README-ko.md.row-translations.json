@@ -1,0 +1,1826 @@
+[
+  {
+    "row": 1,
+    "rowsha": "5J3mWcaTVq1Qrq6EQOGKFycsp4bgaP/IYJm5eFe9mP0=",
+    "originContent": "# composer-attribute-collector",
+    "translatedContent": "# composer-attribute-collector"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "HGQficUzyMDChFuJQ2ZCkhR71yXmC60pJ3pNDOzZvMk=",
+    "originContent": "[![Release](https://img.shields.io/packagist/v/olvlvl/composer-attribute-collector.svg)](https://packagist.org/packages/olvlvl/composer-attribute-collector)",
+    "translatedContent": "[![Release](https://img.shields.io/packagist/v/olvlvl/composer-attribute-collector.svg)](https://packagist.org/packages/olvlvl/composer-attribute-collector)"
+  },
+  {
+    "row": 4,
+    "rowsha": "vp4wxkxVnX+DG8lUgxb7vpNO/VEICnV/dyUkpnBtEgs=",
+    "originContent": "[![Code Coverage](https://coveralls.io/repos/github/olvlvl/composer-attribute-collector/badge.svg?branch=main)](https://coveralls.io/r/olvlvl/composer-attribute-collector?branch=main)",
+    "translatedContent": "[![Code Coverage](https://coveralls.io/repos/github/olvlvl/composer-attribute-collector/badge.svg?branch=main)](https://coveralls.io/r/olvlvl/composer-attribute-collector?branch=main)"
+  },
+  {
+    "row": 5,
+    "rowsha": "+lH6gJksv42zqu7yxsxzgwaJZlOHxrV/cQQtqpEJyj8=",
+    "originContent": "[![Downloads](https://img.shields.io/packagist/dt/olvlvl/composer-attribute-collector.svg)](https://packagist.org/packages/olvlvl/composer-attribute-collector)",
+    "translatedContent": "[![Downloads](https://img.shields.io/packagist/dt/olvlvl/composer-attribute-collector.svg)](https://packagist.org/packages/olvlvl/composer-attribute-collector)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "lkRXvhYBQRWdRD7c8Qoea1SuSpr/1HvDS/Z2heyzGro=",
+    "originContent": "**composer-attribute-collector** is a [Composer][] plugin designed to effectively _discover_ PHP 8",
+    "translatedContent": "**composer-attribute-collector**는 PHP 8 속성 대상(attribute targets)을 효과적으로 _발견_하고, 런타임 리플렉션 없이 거의 제로 비용으로 나중에 이를 검색할 수 있도록 설계된 [Composer][] 플러그인입니다.  "
+  },
+  {
+    "row": 8,
+    "rowsha": "hly3UaZSSNjwd4LNjFJPkEYUfnXjv2jaug0lYXDpEW8=",
+    "originContent": "attribute targets, and later retrieve them at near zero cost, without runtime reflection. After the",
+    "translatedContent": "오토로더 덤프 후, 속성을 수집하고 빠른 접근을 위한 정적 파일을 생성합니다. 이는 속성 기반 클래스, 메서드 또는 프로퍼티를 _발견_하는 편리한 방법을 제공하며, 코드베이스 분석에 이상적입니다. (알려진 대상에 대해서는 기존 리플렉션도 여전히 선택 가능합니다.)"
+  },
+  {
+    "row": 9,
+    "rowsha": "tEk6ScQFsn9TIe5o4s7Psw7EXf43dHata8SDCblu3DU=",
+    "originContent": "autoloader dump, it collects attributes and generates a static file for fast access. This provides a",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "n9iidmaF7G0h/RPmGcW+uYiEPGmOWbboqowK0QC0HJ4=",
+    "originContent": "convenient way to _discover_ attribute-backed classes, methods, or properties—ideal for codebase",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "bsYCGHaltqJ91S+yTIdUJOj4o38wdMsmfw15K3oo0M0=",
+    "originContent": "analysis. (For known targets, traditional reflection remains an option.)",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 기능"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 설정 불필요"
+  },
+  {
+    "row": 15,
+    "rowsha": "Uou/k0w51Ty2uoSSJfZZY233c6WtHr+L3AN02NDA64w=",
+    "originContent": "#### Features",
+    "translatedContent": "- 생성된 파일에 리플렉션 없음"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- 성능 향상 가능성 있음"
+  },
+  {
+    "row": 17,
+    "rowsha": "V4irUohzQgfWXg6JeomlvRDtVA4V0ipXDJdzdEvK95Q=",
+    "originContent": "- Zero configuration",
+    "translatedContent": "- 의존성 없음 (물론 Composer 제외)"
+  },
+  {
+    "row": 18,
+    "rowsha": "D75KVwdknhvJnCnGywd0DQVVBYmHktd0fP7cfalylS0=",
+    "originContent": "- No reflection in the generated file",
+    "translatedContent": "- 속성 대상: 클래스, 메서드, 프로퍼티를 얻기 위한 단일 인터페이스"
+  },
+  {
+    "row": 19,
+    "rowsha": "H41C+/OboxylKJQyz4LLW4fF8z/QKwaa9VAKl1pJNPI=",
+    "originContent": "- Might improve performance",
+    "translatedContent": "- 연속 실행 속도를 높이기 위한 발견 결과 캐시 가능"
+  },
+  {
+    "row": 20,
+    "rowsha": "zPz5MAqQ08UFt460EuC4nXRgvqb6MS8883a9Ohby0Fs=",
+    "originContent": "- No dependency (except Composer of course)",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "3aUHs6AErkygydgS653Z1UIYsZLRXvucuerL34J4b+E=",
+    "originContent": "- A single interface to get attribute targets: classes, methods, and properties",
+    "translatedContent": "> [!NOTE]"
+  },
+  {
+    "row": 22,
+    "rowsha": "7sE1cheZe3R6LvilqXjNCK5uhJYMx15LOBQOvcHXAFE=",
+    "originContent": "- Can cache discoveries to speed up consecutive runs.",
+    "translatedContent": "> 현재 플러그인은 클래스, 메서드, 프로퍼티, 파라미터 대상을 지원합니다.  "
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "> 지원 확장에 관심이 있으시면 [기여](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CONTRIBUTING.md)해 주세요."
+  },
+  {
+    "row": 24,
+    "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+    "originContent": "> [!NOTE]",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "hKsqpveN28N24lJQSIWGRORYZQqYGEQB506Z+iEnjI8=",
+    "originContent": "> Currently, the plugin supports class, method, property, and parameter targets.",
+    "translatedContent": "> [!WARNING]"
+  },
+  {
+    "row": 26,
+    "rowsha": "bJuL3kdKSq3OIF5zUp4zLjCpC3/BAglvPJFb8ghJNj4=",
+    "originContent": "> You're welcome to [contribute](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CONTRIBUTING.md) if you're interested in expending its support.",
+    "translatedContent": "> 현재 함수에 사용된 속성은 무시됩니다."
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "Nsz8emXeBntMJtfP/5hGGuUhVSkwnYQ5OKKPFiy3jPw=",
+    "originContent": "> [!WARNING]",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "wuTFB2lNBtQZNRk6A53sOPEo7j2Vo0SMHKA3HDFZQO8=",
+    "originContent": "> Attributes used on functions are ignored at this time.",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 사용법"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "다음 예시는 대상과 해당 속성을 어떻게 검색할 수 있는지 보여줍니다:"
+  },
+  {
+    "row": 33,
+    "rowsha": "KHA8VpHNRUjBvZjz3hYB5w+/JcxnhqV7edpHuywh/G8=",
+    "originContent": "#### Usage",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "BjPNOPH52a0P/A8DaY4xubcpkpm377vjO/d9ts5y5QI=",
+    "originContent": "The following example demonstrates how targets and their attributes can be retrieved:",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 38,
+    "rowsha": "/lvLVMVuC59FagYDZN0osiSPOg4hwWjUzp0Am3PoPjw=",
+    "originContent": "<?php",
+    "translatedContent": "<?php"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "DhZeDgwGbbkkKB28GOWj3If6Ps6bB+ZO7tD4uNJr9OI=",
+    "originContent": "use olvlvl\\ComposerAttributeCollector\\Attributes;",
+    "translatedContent": "use olvlvl\\ComposerAttributeCollector\\Attributes;"
+  },
+  {
+    "row": 41,
+    "rowsha": "tGcBz8a8cEfa4N+Ufo1CNlnro7gCfAw4b44fqwyaXIA=",
+    "originContent": "use Symfony\\Component\\Messenger\\Attribute\\AsMessageHandler;",
+    "translatedContent": "use Symfony\\Component\\Messenger\\Attribute\\AsMessageHandler;"
+  },
+  {
+    "row": 42,
+    "rowsha": "Ulq1qySv+l6ydDCsgFObpCdROI33fNjNd/pkI2gzICM=",
+    "originContent": "use Symfony\\Component\\Routing\\Annotation\\Route;",
+    "translatedContent": "use Symfony\\Component\\Routing\\Annotation\\Route;"
+  },
+  {
+    "row": 43,
+    "rowsha": "dX23bqbmBajPFZUwdQjV+wp0jeEUfEfzfIiZQOIANIA=",
+    "originContent": "use Doctrine\\ORM\\Mapping\\Column;",
+    "translatedContent": "use Doctrine\\ORM\\Mapping\\Column;"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "MJwlX9u0fCMAFoscb49qGyK/OQYajPb+1lFtfLYQpP4=",
+    "originContent": "require_once 'vendor/autoload.php';",
+    "translatedContent": "require_once 'vendor/autoload.php';"
+  },
+  {
+    "row": 46,
+    "rowsha": "IVwcApSgwEVMJFGhMDYCgkJjhQJ8QYU4hzrygjNrDlU=",
+    "originContent": "require_once 'vendor/attributes.php'; // <-- the file created by the plugin",
+    "translatedContent": "require_once 'vendor/attributes.php'; // <-- the file created by the plugin"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "RUAZrv9uIRFBcilUH2PiHPpR90hhACwrLmOO2xaQR3c=",
+    "originContent": "// Find the target classes of the AsMessageHandler attribute.",
+    "translatedContent": "// Find the target classes of the AsMessageHandler attribute."
+  },
+  {
+    "row": 49,
+    "rowsha": "cJPHRpyScAZ1zv+uomWaAa3X9geY3SAGrYGyqSd06OU=",
+    "originContent": "foreach (Attributes::findTargetClasses(AsMessageHandler::class) as $target) {",
+    "translatedContent": "foreach (Attributes::findTargetClasses(AsMessageHandler::class) as $target) {"
+  },
+  {
+    "row": 50,
+    "rowsha": "YTmSHcKbUeqyOR28xQaT//8dwtvYgxJCkWWYA4UMeVs=",
+    "originContent": "    // $target->attribute is an instance of the specified attribute",
+    "translatedContent": "    // $target->attribute is an instance of the specified attribute"
+  },
+  {
+    "row": 51,
+    "rowsha": "1WmlKRopnkKTZ2cF7AzdDxZb6Bf7wtbFomBsMX1uKwY=",
+    "originContent": "    // with the actual data.",
+    "translatedContent": "    // with the actual data."
+  },
+  {
+    "row": 52,
+    "rowsha": "8Ht25EyBHV8etP6gJUXK0RzqjvPOi+Eo0rwfzXNaSNI=",
+    "originContent": "    var_dump($target->attribute, $target->name);",
+    "translatedContent": "    var_dump($target->attribute, $target->name);"
+  },
+  {
+    "row": 53,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 54,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 55,
+    "rowsha": "djss26ZcQ5GDC3qXrF7IceVAomNFHEFxexyHescGBNg=",
+    "originContent": "// Find the target methods of the Route attribute.",
+    "translatedContent": "// Find the target methods of the Route attribute."
+  },
+  {
+    "row": 56,
+    "rowsha": "ILoOgKpk4sD3B3K065jIp02SzthEcPrdttsr1ZFjoiU=",
+    "originContent": "foreach (Attributes::findTargetMethods(Route::class) as $target) {",
+    "translatedContent": "foreach (Attributes::findTargetMethods(Route::class) as $target) {"
+  },
+  {
+    "row": 57,
+    "rowsha": "u+Qoz3uchBZp4BKV8P3dLJyMxKfDkvWPQlOfEcpvdN8=",
+    "originContent": "    var_dump($target->attribute, $target->class, $target->name);",
+    "translatedContent": "    var_dump($target->attribute, $target->class, $target->name);"
+  },
+  {
+    "row": 58,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "ZT99eHtunBPO6jGW0kowDVme1lp/bWf37r8n/nkyUSI=",
+    "originContent": "// Find the target properties of the Column attribute.",
+    "translatedContent": "// Find the target properties of the Column attribute."
+  },
+  {
+    "row": 61,
+    "rowsha": "+Lon+ECs6d+PKel6GNRThJ8tyVJ18mlDBnSr1lAssoE=",
+    "originContent": "foreach (Attributes::findTargetProperties(Column::class) as $target) {",
+    "translatedContent": "foreach (Attributes::findTargetProperties(Column::class) as $target) {"
+  },
+  {
+    "row": 62,
+    "rowsha": "u+Qoz3uchBZp4BKV8P3dLJyMxKfDkvWPQlOfEcpvdN8=",
+    "originContent": "    var_dump($target->attribute, $target->class, $target->name);",
+    "translatedContent": "    var_dump($target->attribute, $target->class, $target->name);"
+  },
+  {
+    "row": 63,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 65,
+    "rowsha": "be+m0x0XFCYYxxERi3UjHr/j6GF3CxAvfoMEqFbBFXs=",
+    "originContent": "// Find the target method parameters of the UserInput attribute.",
+    "translatedContent": "// Find the target method parameters of the UserInput attribute."
+  },
+  {
+    "row": 66,
+    "rowsha": "gH742gl9miWP0FkMi3o9dG1ugDpTdnVdVzrT5lRoGXs=",
+    "originContent": "foreach (Attributes::findTargetParameters(UserInput::class) as $target) {",
+    "translatedContent": "foreach (Attributes::findTargetParameters(UserInput::class) as $target) {"
+  },
+  {
+    "row": 67,
+    "rowsha": "ChjcsZBZOrTBfjqmr1IjQkIdShErhmjXq4Ip1uI6O74=",
+    "originContent": "    var_dump($target->attribute, $target->class, $target->method, $target->name);",
+    "translatedContent": "    var_dump($target->attribute, $target->class, $target->method, $target->name);"
+  },
+  {
+    "row": 68,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "JyTAv128SNpjqfHuoByl8DeibJ2ZSc//HWSTtvV+ye8=",
+    "originContent": "// Filter target methods using a predicate.",
+    "translatedContent": "// Filter target methods using a predicate."
+  },
+  {
+    "row": 71,
+    "rowsha": "ldAaIId97ZL4CYKfiyKmQYVNpWX+FBcwik+ZCXN9W3o=",
+    "originContent": "// You can also filter target classes and properties.",
+    "translatedContent": "// You can also filter target classes and properties."
+  },
+  {
+    "row": 72,
+    "rowsha": "cmMPWPu6GbWywiMow/6i6NdFf/S8suC+1e0ULorjQEs=",
+    "originContent": "$predicate = fn($attribute) => is_a($attribute, Route::class, true);",
+    "translatedContent": "$predicate = fn($attribute) => is_a($attribute, Route::class, true);"
+  },
+  {
+    "row": 73,
+    "rowsha": "aN479qeMJzSWQMGNYAknGvL7bw4bvOG2puihSc8yoE8=",
+    "originContent": "# or",
+    "translatedContent": "# or"
+  },
+  {
+    "row": 74,
+    "rowsha": "QI++/Aqsxwz9AhZjP59/wg/Cbg+PJcAVHFXgwZQdnuE=",
+    "originContent": "$predicate = Attributes::predicateForAttributeInstanceOf(Route::class);",
+    "translatedContent": "$predicate = Attributes::predicateForAttributeInstanceOf(Route::class);"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "TrqhBZGsefuFlSmeI+CvA3WkgJ9H54ClE+AiHZz4kio=",
+    "originContent": "foreach (Attributes::filterTargetMethods($predicate) as $target) {",
+    "translatedContent": "foreach (Attributes::filterTargetMethods($predicate) as $target) {"
+  },
+  {
+    "row": 77,
+    "rowsha": "u+Qoz3uchBZp4BKV8P3dLJyMxKfDkvWPQlOfEcpvdN8=",
+    "originContent": "    var_dump($target->attribute, $target->class, $target->name);",
+    "translatedContent": "    var_dump($target->attribute, $target->class, $target->name);"
+  },
+  {
+    "row": 78,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "411Q9PA3qJdWpfN8I5famWVMKD8IARgQpPljusVfDlU=",
+    "originContent": "// Find class, method, and property attributes for the ArticleController class.",
+    "translatedContent": "// Find class, method, and property attributes for the ArticleController class."
+  },
+  {
+    "row": 81,
+    "rowsha": "j1QFY+BHq7c8vyUty67C8RpzUT+pENGppRTJjG8uduM=",
+    "originContent": "$attributes = Attributes::forClass(ArticleController::class);",
+    "translatedContent": "$attributes = Attributes::forClass(ArticleController::class);"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "hKk3JYmt6R5jDLNmblUT1W8ocRjqQHdx/Nj/b2ZPd+Y=",
+    "originContent": "var_dump($attributes->classAttributes);",
+    "translatedContent": "var_dump($attributes->classAttributes);"
+  },
+  {
+    "row": 84,
+    "rowsha": "Rbx3quZV7nazfOkMMgvIkPjYdVMMIq16H7TCPjGx1Kg=",
+    "originContent": "var_dump($attributes->methodsAttributes);",
+    "translatedContent": "var_dump($attributes->methodsAttributes);"
+  },
+  {
+    "row": 85,
+    "rowsha": "G+3WtvhCD02J7d3EaQlmtHt423bl5k1UX5nYdIIVCEI=",
+    "originContent": "var_dump($attributes->propertyAttributes);",
+    "translatedContent": "var_dump($attributes->propertyAttributes);"
+  },
+  {
+    "row": 86,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 시작하기"
+  },
+  {
+    "row": 88,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "시작하는 데 도움이 되는 몇 가지 단계입니다."
+  },
+  {
+    "row": 90,
+    "rowsha": "eetlngBf9IRRYZknBdo+Zo5q71Wk5hbFmnHDAzfrtps=",
+    "originContent": "## Getting started",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 1\\. 플러그인 구성 (선택 사항)"
+  },
+  {
+    "row": 92,
+    "rowsha": "RKlRd8QuSuBzbneDWgSRmqlpkEto6a2GUE6BHYfQtj4=",
+    "originContent": "Here are a few steps to get you started.",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "수집기는 제로 구성 경험을 위해 루트 `composer.json`의 `autoload` 경로를 자동으로 스캔합니다.  "
+  },
+  {
+    "row": 94,
+    "rowsha": "dSCaRA1JiRwxnsc72646iWvdGC/StVt0z4t3xFeSSnY=",
+    "originContent": "### 1\\. Configure the plugin (optional)",
+    "translatedContent": "`extra.composer-attribute-collector.include`를 통해 이를 재정의할 수 있습니다."
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "8SUEQWtN+EVIuob5yqZui8TBxu9cjgV/t0rtTTnhEAo=",
+    "originContent": "The collector automatically scans `autoload` paths of the root `composer.json` for a",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "VYI8LueKNLu5c1jdzLtiAe/Ks0sUs444yiB0WtHOkhU=",
+    "originContent": "zero-configuration experience. You can override them via",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "PSM4dzotQVx+PBlMk/NTO1zfAeac8kYVsuKnnvAnFM0=",
+    "originContent": "`extra.composer-attribute-collector.include`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 101,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 102,
+    "rowsha": "Fu236DanwebS4UqxZ9PgguGBCxssQvjVrCTjmrOes6Y=",
+    "originContent": "  \"extra\": {",
+    "translatedContent": "  \"extra\": {"
+  },
+  {
+    "row": 103,
+    "rowsha": "ktLxTbaHQxCLdGxIDEcCsojjsbBzgVhcS2aGVKRr8Ek=",
+    "originContent": "    \"composer-attribute-collector\": {",
+    "translatedContent": "    \"composer-attribute-collector\": {"
+  },
+  {
+    "row": 104,
+    "rowsha": "jrw2+DEhqVgAphAOyq/n8EHKMB2s59FSNyIBiqVOtNg=",
+    "originContent": "      \"include\": [",
+    "translatedContent": "      \"include\": ["
+  },
+  {
+    "row": 105,
+    "rowsha": "d2MZazv9NCYD8tmZ4Ul76j8dfZpow67wNyTu5PrwTuE=",
+    "originContent": "        \"src\"",
+    "translatedContent": "        \"src\""
+  },
+  {
+    "row": 106,
+    "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+    "originContent": "      ]",
+    "translatedContent": "      ]"
+  },
+  {
+    "row": 107,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 108,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 109,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 110,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[구성 옵션](#configuration)을 확인하여 자세한 내용을 참조하세요."
+  },
+  {
+    "row": 112,
+    "rowsha": "4RsWPJIqXwqNHpcKFZS0wnqW0F4FrVDouok1qMfFY24=",
+    "originContent": "Check the [Configuration options](#configuration) for more details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 2\\. 플러그인 설치"
+  },
+  {
+    "row": 116,
+    "rowsha": "81V2Z11AsMc90YJ5VS8MCHUGXLykezZDkplvBbv9hec=",
+    "originContent": "### 2\\. Install the plugin",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "[Composer][]를 사용하여 플러그인을 설치합니다."
+  },
+  {
+    "row": 118,
+    "rowsha": "4OLJhfq6w/D5AUeNSI4se/3VewCWG6+2pGTI04F4qh0=",
+    "originContent": "Use [Composer][] to install the plugin.",
+    "translatedContent": "플러그인을 신뢰하고 활성화할지 묻는 메시지가 표시되면 `y`를 선택하여 진행하세요."
+  },
+  {
+    "row": 119,
+    "rowsha": "eIeOQ5Up7mSfICBpFQKJA4HcNKvEvQB3n2cgcSOvqGQ=",
+    "originContent": "You will be asked if you trust the plugin and wish to activate it, select `y` to proceed.",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 122,
+    "rowsha": "dlPxuDDfuH5vR3bhteXMvkWIb7NeNx1bZyivSV8jvOo=",
+    "originContent": "composer require olvlvl/composer-attribute-collector",
+    "translatedContent": "composer require olvlvl/composer-attribute-collector"
+  },
+  {
+    "row": 123,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "다음과 유사한 로그 메시지를 확인할 수 있습니다:"
+  },
+  {
+    "row": 125,
+    "rowsha": "EDDq45FJN5Knw1oQC/VvxN/ntMbxZxw9CxdMbwWstpQ=",
+    "originContent": "You should see log messages similar to this:",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 128,
+    "rowsha": "IEGeSxaNhzQNkny4mr8mHQdbp7ffUx0tnZLyryHo8/M=",
+    "originContent": "Generating autoload files",
+    "translatedContent": "Generating autoload files"
+  },
+  {
+    "row": 129,
+    "rowsha": "BTt+UVMaUqskewqbgT4tGJEch80CBSrmipZuyElan8A=",
+    "originContent": "Generating attributes file",
+    "translatedContent": "Generating attributes file"
+  },
+  {
+    "row": 130,
+    "rowsha": "ErCrq6btPYpJZFrNgtxA+VEV2sQ+YuBnVi8/4g8+COY=",
+    "originContent": "Generated attributes file in 9.137 ms",
+    "translatedContent": "Generated attributes file in 9.137 ms"
+  },
+  {
+    "row": 131,
+    "rowsha": "x21sa65UvHrrz0P2lv78dX7BJXfG+epIDvVR30bnCOc=",
+    "originContent": "Generated autoload files",
+    "translatedContent": "Generated autoload files"
+  },
+  {
+    "row": 132,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "MMUlW+UIuv8EJ+CWFdds9MRASFdh7lKWBYOVgxwXgqM=",
+    "originContent": "> [!TIP]",
+    "translatedContent": "> [!TIP]"
+  },
+  {
+    "row": 135,
+    "rowsha": "3XPfyR+a4EjNVQ9C7MFyki/gMZ6ls6KrzN1ewOy5kbI=",
+    "originContent": "> See the [Frequently Asked Questions](#frequently-asked-questions) section",
+    "translatedContent": "> 개발 중에 \"attributes\" 파일을 자동으로 새로 고치려면 [자주 묻는 질문](#frequently-asked-questions) 섹션을 참조하세요."
+  },
+  {
+    "row": 136,
+    "rowsha": "3n0lcMHZb9wz2qQG6fOv3CsTTHGI3uykEhbA0fZS6ZM=",
+    "originContent": "> to automatically refresh the \"attributes\" file during development.",
+    "translatedContent": "> "
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "keLrsyLStX3yS99GS7rB61D2qTiqRsQGZUQmiTrizlg=",
+    "originContent": "### 3\\. Autoload the \"attributes\" file",
+    "translatedContent": "### 3\\. \"attributes\" 파일 자동 로드"
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 142,
+    "rowsha": "r0jtBYkgBsy6bF4rIzGftZEwT4ggeYejPJ0ZkFCvknI=",
+    "originContent": "You can require the \"attributes\" file using `require_once 'vendor/attributes.php';` but you might",
+    "translatedContent": "`require_once 'vendor/attributes.php';`를 사용하여 \"attributes\" 파일을 불러올 수 있지만,"
+  },
+  {
+    "row": 143,
+    "rowsha": "JcH71dSBYqWfugpDmTADRUpfqVrKaSwmoLGU4n8IJYc=",
+    "originContent": "prefer to use Composer's autoloading feature:",
+    "translatedContent": "Composer의 자동 로드 기능을 사용하는 것이 더 편할 수 있습니다:"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 146,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 147,
+    "rowsha": "l+YkJ1WrvC4wnMx26imdhd9v5XMPDdLbPGATjKXXT8s=",
+    "originContent": "  \"autoload\": {",
+    "translatedContent": "  \"autoload\": {"
+  },
+  {
+    "row": 148,
+    "rowsha": "8/4v/ar+HpY9uDVuGLAVpmCdA6M9Gu5nYbgH0TKymCU=",
+    "originContent": "    \"files\": [",
+    "translatedContent": "    \"files\": ["
+  },
+  {
+    "row": 149,
+    "rowsha": "evZcouhxXAY5cWY3DgHmWDRycT172FUjdap7HmiqhNM=",
+    "originContent": "      \"vendor/attributes.php\"",
+    "translatedContent": "      \"vendor/attributes.php\""
+  },
+  {
+    "row": 150,
+    "rowsha": "lVZwDnSmuzpTa/s9y8MQVA//SFx3EANoxPgHY4wlQ/o=",
+    "originContent": "    ]",
+    "translatedContent": "    ]"
+  },
+  {
+    "row": 151,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 152,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 153,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 154,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 구성"
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "플러그인을 구성할 수 있는 몇 가지 방법입니다."
+  },
+  {
+    "row": 157,
+    "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+    "originContent": "## Configuration",
+    "translatedContent": ""
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "dYZKivfbX0SlZuJwGGupvD495gbYQ/IVG0io5ETVu6U=",
+    "originContent": "Here are a few ways you can configure the plugin.",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 경로나 파일 포함 ([root-only][])"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "수집기는 루트 `composer.json`의 `autoload` 경로를 자동으로 스캔하지만,"
+  },
+  {
+    "row": 163,
+    "rowsha": "Skv/yVSVFU9C920PGN4Yl3m0/kibrdu5u/AcV4rsECQ=",
+    "originContent": "### Including paths or files ([root-only][])",
+    "translatedContent": "`include` 속성을 통해 이를 재정의할 수 있습니다."
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "7rFY9IGsL66NP/pzTZI/yNQGXhIfMSJLAF3lYCYX8FY=",
+    "originContent": "The collector automatically scans `autoload` paths of the root `composer.json`, but you can override",
+    "translatedContent": "지정된 경로는 `composer.json` 파일을 기준으로 하며, `{vendor}` 플레이스홀더는"
+  },
+  {
+    "row": 166,
+    "rowsha": "U5jDQQeP0uuIle6XRDDOwNFSmB3Ge7uay6eljrzbirA=",
+    "originContent": "them via the `include` property.",
+    "translatedContent": "벤더 폴더 경로로 대체됩니다."
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "tjwrHvm5KtVhsYP981Xs4MmXV7MbVU6reOq1l89kQXY=",
+    "originContent": "The specified paths are relative to the `composer.json` file, and the `{vendor}` placeholder is",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "T83zYqDaFmKCAvGa08J4p8G738WV0HXEttAIRuj3uXY=",
+    "originContent": "replaced with the path to the vendor folder.",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 172,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 173,
+    "rowsha": "Fu236DanwebS4UqxZ9PgguGBCxssQvjVrCTjmrOes6Y=",
+    "originContent": "  \"extra\": {",
+    "translatedContent": "  \"extra\": {"
+  },
+  {
+    "row": 174,
+    "rowsha": "ktLxTbaHQxCLdGxIDEcCsojjsbBzgVhcS2aGVKRr8Ek=",
+    "originContent": "    \"composer-attribute-collector\": {",
+    "translatedContent": "    \"composer-attribute-collector\": {"
+  },
+  {
+    "row": 175,
+    "rowsha": "jrw2+DEhqVgAphAOyq/n8EHKMB2s59FSNyIBiqVOtNg=",
+    "originContent": "      \"include\": [",
+    "translatedContent": "      \"include\": ["
+  },
+  {
+    "row": 176,
+    "rowsha": "/O0WKCd0PUioTvdOO/ptioezTbYfZIebBeiQQCVHP8k=",
+    "originContent": "        \"path-or-file/to/include\"",
+    "translatedContent": "        \"path-or-file/to/include\""
+  },
+  {
+    "row": 177,
+    "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+    "originContent": "      ]",
+    "translatedContent": "      ]"
+  },
+  {
+    "row": 178,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 179,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 180,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 181,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 182,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 183,
+    "rowsha": "Z/IQ2CKk9crI+/brw/81SpZiJAYxolPFIJBvt/wJ/CQ=",
+    "originContent": "### Excluding paths or files ([root-only][])",
+    "translatedContent": "### 경로 또는 파일 제외 ([root-only][])"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "RoJSvKDsP5SCGdpF23Ww0xev/d2+rk1H2KzWHxEBtfI=",
+    "originContent": "Use the `exclude` property to exclude paths or files from scanning. This is handy when files",
+    "translatedContent": "`exclude` 속성을 사용하여 스캔에서 경로나 파일을 제외할 수 있습니다. 이는 파일이"
+  },
+  {
+    "row": 186,
+    "rowsha": "EzaIEG3VLPeR5gB+d+L5aj281ugMV1vZfBKBTumqCDs=",
+    "originContent": "cause issues or have side effects.",
+    "translatedContent": "문제를 일으키거나 부작용이 있을 때 유용합니다."
+  },
+  {
+    "row": 187,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 188,
+    "rowsha": "tjwrHvm5KtVhsYP981Xs4MmXV7MbVU6reOq1l89kQXY=",
+    "originContent": "The specified paths are relative to the `composer.json` file, and the `{vendor}` placeholder is",
+    "translatedContent": "지정된 경로는 `composer.json` 파일을 기준으로 하며, `{vendor}` 자리표시는"
+  },
+  {
+    "row": 189,
+    "rowsha": "T83zYqDaFmKCAvGa08J4p8G738WV0HXEttAIRuj3uXY=",
+    "originContent": "replaced with the path to the vendor folder.",
+    "translatedContent": "벤더 폴더 경로로 대체됩니다."
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "pWcmzehNrhV12bdjXilHDwPWBuSG6W17rroA4nOL5jU=",
+    "originContent": "```json",
+    "translatedContent": "```json"
+  },
+  {
+    "row": 192,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 193,
+    "rowsha": "Fu236DanwebS4UqxZ9PgguGBCxssQvjVrCTjmrOes6Y=",
+    "originContent": "  \"extra\": {",
+    "translatedContent": "  \"extra\": {"
+  },
+  {
+    "row": 194,
+    "rowsha": "ktLxTbaHQxCLdGxIDEcCsojjsbBzgVhcS2aGVKRr8Ek=",
+    "originContent": "    \"composer-attribute-collector\": {",
+    "translatedContent": "    \"composer-attribute-collector\": {"
+  },
+  {
+    "row": 195,
+    "rowsha": "vNQri9RU2kuY8YtGAfMKNxzlf4go+iMRb+JtY+XnLpg=",
+    "originContent": "      \"exclude\": [",
+    "translatedContent": "      \"exclude\": ["
+  },
+  {
+    "row": 196,
+    "rowsha": "ycZE9RM0hZibG/uTE4dDZdpH0xfQY/dtZ7Vbh2ru42s=",
+    "originContent": "        \"path-or-file/to/exclude\"",
+    "translatedContent": "        \"path-or-file/to/exclude\""
+  },
+  {
+    "row": 197,
+    "rowsha": "KYIvBcwpMgotg8gGTj9cg7gkj3y8ye32mh8DW1S9cOE=",
+    "originContent": "      ]",
+    "translatedContent": "      ]"
+  },
+  {
+    "row": 198,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 199,
+    "rowsha": "c32xZsea6Y5Eu+WtQ+A783dPezaWBohC1Wpy6GPf6yA=",
+    "originContent": "  }",
+    "translatedContent": "  }"
+  },
+  {
+    "row": 200,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 201,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 202,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 실행 간 발견 내용 캐시하기"
+  },
+  {
+    "row": 203,
+    "rowsha": "0l1VRO5N1thFkoFPsSVVBBqsbob8ilmfL6TjqAHSoa4=",
+    "originContent": "### Cache discoveries between runs",
+    "translatedContent": ""
+  },
+  {
+    "row": 204,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "플러그인은 실행 간 발견 내용을 재사용하기 위해 캐시를 유지할 수 있습니다. 캐시를 활성화하려면,"
+  },
+  {
+    "row": 205,
+    "rowsha": "18poNeYkMXqgQle0qnEW8C6g83/vWMFittpI0iXxAiw=",
+    "originContent": "The plugin is able to maintain a cache to reuse discoveries between runs. To enable the cache,",
+    "translatedContent": "환경 변수 `COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE`를 `1`, `yes`, 또는 `true`로 설정하세요."
+  },
+  {
+    "row": 206,
+    "rowsha": "FUG0VmpoRCLVQKCfhfGE8qyO6nMPaC7WR6nGzpu6tT8=",
+    "originContent": "set the environment variable `COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE` to `1`, `yes`, or `true`.",
+    "translatedContent": "캐시 항목은 `.composer-attribute-collector` 디렉토리에 저장되며, 이 디렉토리를"
+  },
+  {
+    "row": 207,
+    "rowsha": "nIAHAdIfSICxuMbzZ6F49p4kRi7ImpLm9APFk1yMyqM=",
+    "originContent": "Cache items are persisted in the `.composer-attribute-collector` directory, you might want to add",
+    "translatedContent": "`.gitignore` 파일에 추가하는 것이 좋습니다."
+  },
+  {
+    "row": 208,
+    "rowsha": "c5o3emqYv6afLoU6QgcpPMk727C6cSX4XoIGoIBVv+U=",
+    "originContent": "it to your `.gitignore` file.",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 210,
+    "rowsha": "UXwfqdrlzYhsp1J5F8ibGSFONnCQiOJ9lIU0hlxRSJQ=",
+    "originContent": "```shell",
+    "translatedContent": "```shell"
+  },
+  {
+    "row": 211,
+    "rowsha": "DVVcZPwFu5wnUE6NXlQsKpUODBu4FbC4rXLYmCzg7Gw=",
+    "originContent": "COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE=1 composer dump-autoload",
+    "translatedContent": "COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE=1 composer dump-autoload"
+  },
+  {
+    "row": 212,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 213,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 214,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 사용 사례"
+  },
+  {
+    "row": 215,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 216,
+    "rowsha": "gAc3c9PbN+tEQccK1IHZ5IeD67vSCCt1dJu1uQyYA2E=",
+    "originContent": "## Use cases",
+    "translatedContent": "실제 환경에서 플러그인을 테스트할 수 있는 사용 사례가 제공됩니다:"
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "DeRhmr7xd2f7XlCiLGbdzizi0DBPbafzLCO/7QkKynA=",
+    "originContent": "Use cases are available to test the plugin in real conditions:",
+    "translatedContent": "- [호환되지 않는 시그니처](cases/incompatible-signature) 플러그인은 속성을 수집할 수 있습니다."
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "  비록 Composer와 애플리케이션이 사용하는 PSR Logger 버전이 호환되지 않더라도 가능합니다."
+  },
+  {
+    "row": 220,
+    "rowsha": "0/MFP9LepWX5/MDtQMlRCMDOXw6FVmTHaZoUaxiNntk=",
+    "originContent": "- [Incompatible signature](cases/incompatible-signature) The plugin is able to collect attributes,",
+    "translatedContent": ""
+  },
+  {
+    "row": 221,
+    "rowsha": "wmKG5oU42BjJ0h/h+h08IZ/ynsCakb8uN/gzINJaiv8=",
+    "originContent": "  although the PSR Logger version used by Composer and the application are incompatible.",
+    "translatedContent": "- [Symfony](cases/symfony) `symfony new`로 생성된 Symfony 애플리케이션입니다."
+  },
+  {
+    "row": 222,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 223,
+    "rowsha": "qEeo+sazOJMUvfJbv9aLgkQAOA2dwpYnZEUa8zrrWXU=",
+    "originContent": "- [Symfony](cases/symfony) A Symfony application, created with `symfony new`.",
+    "translatedContent": "- [Laravel](cases/laravel) `laravel new`로 생성된 Laravel 애플리케이션입니다."
+  },
+  {
+    "row": 224,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 225,
+    "rowsha": "1N324QbOOm5ZgOmgWp3v/mNXN89/PJIOaC6jFnp72OI=",
+    "originContent": "- [Laravel](cases/laravel) A Laravel application, created with `laravel new`.",
+    "translatedContent": ""
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 자주 묻는 질문"
+  },
+  {
+    "row": 227,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 228,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**최적화된 오토로더를 생성해야 하나요?**"
+  },
+  {
+    "row": 229,
+    "rowsha": "iseZVXlXhMpIAWrUbcqGDqQvNMao6+kSNN8Ej+xEYt0=",
+    "originContent": "## Frequently Asked Questions",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이 플러그인이 작동하는 데 최적화된 오토로더를 생성할 필요는 없습니다. 플러그인은 Composer와 유사한 코드를 사용하여 클래스를 찾습니다. Composer에서 작동하는 모든 것은 플러그인에서도 작동해야 합니다."
+  },
+  {
+    "row": 231,
+    "rowsha": "utulmgqPQjiJcJM9N5niSx9TyvTutBaqDE+naAWCEkI=",
+    "originContent": "**Do I need to generate an optimized autoloader?**",
+    "translatedContent": ""
+  },
+  {
+    "row": 232,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**개발 중에 플러그인을 사용할 수 있나요?**"
+  },
+  {
+    "row": 233,
+    "rowsha": "Fzl5K90ISbVOGIvLJZzPrb2OWpcqExrjYLHK92htMFU=",
+    "originContent": "You don't need to generate an optimized autoloader for this to work. The plugin uses code similar",
+    "translatedContent": ""
+  },
+  {
+    "row": 234,
+    "rowsha": "7CsTBao9tJ1X01ZNocMpDm7lQ7ZhNT8QObv5qhewdeE=",
+    "originContent": "to Composer to find classes. Anything that works with Composer should work with the plugin.",
+    "translatedContent": "예, 개발 중에도 플러그인을 사용할 수 있지만 \"attributes\" 파일은 오토로더가 덤프된 후에만 생성된다는 점을 유의하세요. 속성을 수정하면 \"attributes\" 파일을 갱신하기 위해 `composer dump-autoload`를 실행해야 합니다."
+  },
+  {
+    "row": 235,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 236,
+    "rowsha": "lsqDEsKL5K9617d9dPIs4eWteiOoOLrjvKizPWfXJdA=",
+    "originContent": "**Can I use the plugin during development?**",
+    "translatedContent": "해결책으로 속성이 있는 클래스를 포함하는 디렉토리에 워처를 설정하여 변경 시 `XDEBUG_MODE=off composer dump-autoload`를 실행할 수 있습니다. [PhpStorm은 파일 워처를 제공합니다][phpstorm-watchers]. 또한 [spatie/file-system-watcher][]를 사용할 수 있는데, PHP만 필요합니다. 플러그인이 너무 느리다면, `COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE=yes`로 명령을 실행해 보세요. 캐시가 활성화되어 연속 실행 속도가 빨라집니다."
+  },
+  {
+    "row": 237,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 238,
+    "rowsha": "ZnfnKQU6+gh8e9ILSmPfEhPEOwIFYCIUKOlVwP4ULPc=",
+    "originContent": "Yes, you can use the plugin during development, but keep in mind the \"attributes\" file is only",
+    "translatedContent": "**속성을 상속하는 클래스를 포함하려면 어떻게 해야 하나요?**"
+  },
+  {
+    "row": 239,
+    "rowsha": "bue8Qz5lvzXFnwaw3mpBm2syB2+C90trKzpLCCDPV3o=",
+    "originContent": "generated after the autoloader is dumped. If you modify attributes you will have to run",
+    "translatedContent": ""
+  },
+  {
+    "row": 240,
+    "rowsha": "SGZxUt7m22Yi1PxuR+u41ZwagxDhw7407EVKs0o6RIc=",
+    "originContent": "`composer dump-autoload` to refresh the \"attributes\" file.",
+    "translatedContent": "수집 과정을 빠르게 하기 위해 플러그인은 먼저 PHP 파일을 일반 텍스트로 살펴보며 속성 사용의 힌트를 찾습니다. 클래스가 속성을 트레이트, 속성, 또는 메서드에서 상속하지만 자체적으로 속성을 사용하지 않으면 무시됩니다. 속성을 사용하려면"
+  },
+  {
+    "row": 241,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 242,
+    "rowsha": "95M5ZQn3F/ddPOomjpoBbwUmZF+qt2/n9y8zOJ63eJ4=",
+    "originContent": "As a workaround you could have watchers on the directories that contain classes with attributes to",
+    "translatedContent": ""
+  },
+  {
+    "row": 243,
+    "rowsha": "3cazeD9QV6gu+n+TQVGvJhGTclNR546EHANEBAxsXYY=",
+    "originContent": "run `XDEBUG_MODE=off composer dump-autoload` when you make changes. [PhpStorm offers file",
+    "translatedContent": ""
+  },
+  {
+    "row": 244,
+    "rowsha": "J/bAurfJ700H399apyJAwvRE85ldyjl+/MYC75Ypq6I=",
+    "originContent": "watchers][phpstorm-watchers]. You could also use [spatie/file-system-watcher][], it only requires",
+    "translatedContent": ""
+  },
+  {
+    "row": 245,
+    "rowsha": "1+ubeXqQDlvuqZSDYDeOHDWAf2R7w8A2ObN+QuNomPE=",
+    "originContent": "PHP. If the plugin is too slow for your liking, try running the command with",
+    "translatedContent": ""
+  },
+  {
+    "row": 246,
+    "rowsha": "PQm5+JrJl6tt6ZqKll1xd1r/cuXiiThOfyRAWl69kPc=",
+    "originContent": "`COMPOSER_ATTRIBUTE_COLLECTOR_USE_CACHE=yes`, it will enable caching and speed up consecutive runs.",
+    "translatedContent": ""
+  },
+  {
+    "row": 247,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 248,
+    "rowsha": "At+c/ZrW1OlHydi0mRo6fLi2sIK5vhj00ICSy5kxgU0=",
+    "originContent": "**How do I include a class that inherits its attributes?**",
+    "translatedContent": ""
+  },
+  {
+    "row": 249,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 250,
+    "rowsha": "kMpH0yq75V/+ACkoQ2E3I0F45LV/jr7iMaZ5qpYpwuw=",
+    "originContent": "To speed up the collection process, the plugin first looks at PHP files as plain text for hints of",
+    "translatedContent": ""
+  },
+  {
+    "row": 251,
+    "rowsha": "Uou8mkaYobdR+DfrkRtGakNHedXvpp5BEb5AUYNMjqs=",
+    "originContent": "attribute usage. If a class inherits its attributes from traits, properties, or methods, but doesn't",
+    "translatedContent": ""
+  },
+  {
+    "row": 252,
+    "rowsha": "jJDPCEjFdBMwIZJgmZetlcHwXpywLhGJEuGJ8aShFqQ=",
+    "originContent": "use attributes itself, it will be ignored. Use the attribute",
+    "translatedContent": ""
+  },
+  {
+    "row": 253,
+    "rowsha": "OkrSesEPNILrQal8GVRlRSN8v2o1cw7KtM9sJC8vEZI=",
+    "originContent": "`[#\\olvlvl\\ComposerAttributeCollector\\InheritsAttributes]` to force the collection.",
+    "translatedContent": "`[#\\olvlvl\\ComposerAttributeCollector\\InheritsAttributes]` 를 강제로 수집하도록 합니다."
+  },
+  {
+    "row": 254,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 255,
+    "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+    "originContent": "```php",
+    "translatedContent": "```php"
+  },
+  {
+    "row": 256,
+    "rowsha": "ApzEv9VZNw/YGk/u8WT5bIkQjH/HJ40P0o0HeFF6W6Y=",
+    "originContent": "trait UrlTrait",
+    "translatedContent": "trait UrlTrait"
+  },
+  {
+    "row": 257,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 258,
+    "rowsha": "Aft/RyBlhPSzlAllHN6nvKyUm8+hTs67Qrj+vrT83ak=",
+    "originContent": "    #[UrlGetter]",
+    "translatedContent": "    #[UrlGetter]"
+  },
+  {
+    "row": 259,
+    "rowsha": "JWAte2yWp7B1kENuPBqfu2NCi4HskrulnmBxloamF3Q=",
+    "originContent": "    public function get_url(): string",
+    "translatedContent": "    public function get_url(): string"
+  },
+  {
+    "row": 260,
+    "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+    "originContent": "    {",
+    "translatedContent": "    {"
+  },
+  {
+    "row": 261,
+    "rowsha": "enRvqU46HCZa8FhGx/vMQjDIjfR2t3brUt5oT1s8b4U=",
+    "originContent": "        return '/url';",
+    "translatedContent": "        return '/url';"
+  },
+  {
+    "row": 262,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 263,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 264,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 265,
+    "rowsha": "JZHretLcyRanxpmCd3O1IsHTI3/bCoNdvkRe4VdtDoE=",
+    "originContent": "#[InheritsAttributes]",
+    "translatedContent": "#[InheritsAttributes]"
+  },
+  {
+    "row": 266,
+    "rowsha": "r/HZvQMXnoMc50rGuffh6cZY2myprXIPwDy2L5kxxdY=",
+    "originContent": "class InheritedAttributeSample",
+    "translatedContent": "class InheritedAttributeSample"
+  },
+  {
+    "row": 267,
+    "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+    "originContent": "{",
+    "translatedContent": "{"
+  },
+  {
+    "row": 268,
+    "rowsha": "1LWIHyFfnxbvzdaqxvKAfljheV2Ttk0HkFs3FPt/fqE=",
+    "originContent": "    use UrlTrait;",
+    "translatedContent": "    use UrlTrait;"
+  },
+  {
+    "row": 269,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 270,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 271,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 272,
+    "rowsha": "WQzLc8ik3inJZMK5lCJ26mkvaboYo4pT75ge25HpFt4=",
+    "originContent": "----------",
+    "translatedContent": "----------"
+  },
+  {
+    "row": 273,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 274,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 275,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 276,
+    "rowsha": "PYXVlAQCiY7uusNMYhqWQKYfTYCuae9tuO4IP9COAoA=",
+    "originContent": "## Continuous Integration",
+    "translatedContent": "## 지속적 통합"
+  },
+  {
+    "row": 277,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 278,
+    "rowsha": "CnW8MW4ndyWtS/Zb9QYg5QFmkNsLD6V9tKMZH7N1DuM=",
+    "originContent": "The project is continuously tested by [GitHub actions](https://github.com/olvlvl/composer-attribute-collector/actions).",
+    "translatedContent": "이 프로젝트는 [GitHub actions](https://github.com/olvlvl/composer-attribute-collector/actions)를 통해 지속적으로 테스트됩니다."
+  },
+  {
+    "row": 279,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 280,
+    "rowsha": "LeOH4U5ej4g1urKxqnj4jAlnYvGX6rVWpsAfx+LUjkQ=",
+    "originContent": "[![Cases](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/cases.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/cases.yml)",
+    "translatedContent": "[![Cases](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/cases.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/cases.yml)"
+  },
+  {
+    "row": 281,
+    "rowsha": "ZZi+8t5hrsnhJUuaDbtvjXTO4sPd8kMCw1gL2eyU+/g=",
+    "originContent": "[![Tests](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/test.yml)",
+    "translatedContent": "[![Tests](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/test.yml)"
+  },
+  {
+    "row": 282,
+    "rowsha": "nqVkt9W+EoDZ/R4IFrcUwD2+zvBCYRdT9lPkvzapTNk=",
+    "originContent": "[![Static Analysis](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/static-analysis.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/static-analysis.yml)",
+    "translatedContent": "[![Static Analysis](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/static-analysis.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/static-analysis.yml)"
+  },
+  {
+    "row": 283,
+    "rowsha": "pg1FxCTxGnPP0Db9oKc9mPUalMUaCcX3/uDBohmurWI=",
+    "originContent": "[![Code Style](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/code-style.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/code-style.yml)",
+    "translatedContent": "[![Code Style](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/code-style.yml/badge.svg?branch=main)](https://github.com/olvlvl/composer-attribute-collector/actions/workflows/code-style.yml)"
+  },
+  {
+    "row": 284,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 285,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 286,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 287,
+    "rowsha": "a2NKwVCedKLDuP9rtxwV5qmQmdm5DK2nFoQfOTn/ZT0=",
+    "originContent": "## Code of Conduct",
+    "translatedContent": "## 행동 강령"
+  },
+  {
+    "row": 288,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 289,
+    "rowsha": "4vnRTMRRaX0rCSSiBunc6W7xhRr2guUgkWHz+mqDrMc=",
+    "originContent": "This project adheres to a [Contributor Code of Conduct](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CODE_OF_CONDUCT.md). By participating in",
+    "translatedContent": "이 프로젝트는 [기여자 행동 강령](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CODE_OF_CONDUCT.md)을 준수합니다. "
+  },
+  {
+    "row": 290,
+    "rowsha": "eacouoDHrJFtEHsZLZFB/txQQTEakZIRL43U2vHlDPY=",
+    "originContent": "this project and its community, you're expected to uphold this code.",
+    "translatedContent": "이 프로젝트와 커뮤니티에 참여함으로써, 여러분은 이 강령을 지킬 것으로 기대됩니다."
+  },
+  {
+    "row": 291,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 292,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 293,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 294,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## 기여"
+  },
+  {
+    "row": 295,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 296,
+    "rowsha": "DMscjzKmOiUIXPqUobuXPOXz4kXYL2E3XX8ocuj/2Kk=",
+    "originContent": "See [CONTRIBUTING](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CONTRIBUTING.md) for details.",
+    "translatedContent": "자세한 내용은 [CONTRIBUTING](https://raw.githubusercontent.com/olvlvl/composer-attribute-collector/main/CONTRIBUTING.md)를 참조하세요."
+  },
+  {
+    "row": 297,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 298,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 299,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 300,
+    "rowsha": "ubmgMl/vhWn8xz21SoGCBQvS6wflPBq2hl4MItyqyqM=",
+    "originContent": "[Composer]:  https://getcomposer.org/",
+    "translatedContent": "[Composer]:  https://getcomposer.org/"
+  },
+  {
+    "row": 301,
+    "rowsha": "A9MFdkFlknAKDd8islA+KW6cHNhRWiBSddZuIjcWdEY=",
+    "originContent": "[root-only]: https://getcomposer.org/doc/04-schema.md#root-package",
+    "translatedContent": "[root-only]: https://getcomposer.org/doc/04-schema.md#root-package"
+  },
+  {
+    "row": 302,
+    "rowsha": "iwK1MZDPM0Lzk3ugrYx71xhPheOoDMNoNku1aCE+LvY=",
+    "originContent": "[spatie/file-system-watcher]: https://github.com/spatie/file-system-watcher",
+    "translatedContent": "[spatie/file-system-watcher]: https://github.com/spatie/file-system-watcher"
+  },
+  {
+    "row": 303,
+    "rowsha": "F0I01yBrwuKa5rp6uOrpGWMKIkRDdcSko8S/vGljw2s=",
+    "originContent": "[phpstorm-watchers]: https://www.jetbrains.com/help/phpstorm/using-file-watchers.html",
+    "translatedContent": "[phpstorm-watchers]: https://www.jetbrains.com/help/phpstorm/using-file-watchers.html"
+  },
+  {
+    "row": 304,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

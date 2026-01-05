@@ -1,0 +1,1673 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Laravel Eloquent Sequencer\n\n[![Latest Version](https://img.shields.io/github/release/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://github.com/gurgentil/laravel-eloquent-sequencer/releases)\n![GitHub Workflow Status](https://img.shields.io/github/workflow/status/gurgentil/laravel-eloquent-sequencer/run-tests?label=tests)\n[![Quality Score](https://img.shields.io/scrutinizer/g/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://scrutinizer-ci.com/g/gurgentil/laravel-eloquent-sequencer)\n[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)\n\nThis package allows you to create and manage sequences for your Eloquent models.\n\n## Installation\n\nInstall the package via composer:\n",
+    "ContentSha": "PK9exXvwR5jL6J/fc/4VDdBiELz7tTTI5V8PcmYEDXA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Laravel Eloquent Sequencer\n\n[![最新版本](https://img.shields.io/github/release/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://github.com/gurgentil/laravel-eloquent-sequencer/releases)\n![GitHub 工作流状态](https://img.shields.io/github/workflow/status/gurgentil/laravel-eloquent-sequencer/run-tests?label=tests)\n[![质量评分](https://img.shields.io/scrutinizer/g/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://scrutinizer-ci.com/g/gurgentil/laravel-eloquent-sequencer)\n[![MIT 许可证](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)\n\n此包允许您为 Eloquent 模型创建和管理序列。\n\n## 安装\n\n通过 composer 安装此包：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "lg2CFBnyZxTRCMIL3hxE5sgPiq+sEvlBq6xXOW+BTKY=",
+        "originContent": "# Laravel Eloquent Sequencer",
+        "translatedContent": "# Laravel Eloquent Sequencer"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "XP9Nvd9a+CTXG8B/VR5jNqCWK/b1cGvrCgWGpEEX9BE=",
+        "originContent": "[![Latest Version](https://img.shields.io/github/release/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://github.com/gurgentil/laravel-eloquent-sequencer/releases)",
+        "translatedContent": "[![最新版本](https://img.shields.io/github/release/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://github.com/gurgentil/laravel-eloquent-sequencer/releases)"
+      },
+      {
+        "row": 4,
+        "rowsha": "rRarJiszcI87yrLNZxwIduQeYmBTNshrMuw5miR3mco=",
+        "originContent": "![GitHub Workflow Status](https://img.shields.io/github/workflow/status/gurgentil/laravel-eloquent-sequencer/run-tests?label=tests)",
+        "translatedContent": "![GitHub 工作流状态](https://img.shields.io/github/workflow/status/gurgentil/laravel-eloquent-sequencer/run-tests?label=tests)"
+      },
+      {
+        "row": 5,
+        "rowsha": "iBBYZ15G5+aTzHF6c8j2rTTvmPpvCNnwUb5k8eDjS2c=",
+        "originContent": "[![Quality Score](https://img.shields.io/scrutinizer/g/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://scrutinizer-ci.com/g/gurgentil/laravel-eloquent-sequencer)",
+        "translatedContent": "[![质量评分](https://img.shields.io/scrutinizer/g/gurgentil/laravel-eloquent-sequencer.svg?style=flat-square)](https://scrutinizer-ci.com/g/gurgentil/laravel-eloquent-sequencer)"
+      },
+      {
+        "row": 6,
+        "rowsha": "R1iYxQuEqo/4dpzLXYU8gvEBCPdNADNMg0dTvxtrAgo=",
+        "originContent": "[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)",
+        "translatedContent": "[![MIT 许可证](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "fqvjnMFVaZFG8tNBsoJPfVt3OTSh1yFNRRgj5X1OLuM=",
+        "originContent": "This package allows you to create and manage sequences for your Eloquent models.",
+        "translatedContent": "此包允许您为 Eloquent 模型创建和管理序列。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## 安装"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "N8uvkYN94/FYfZAIDO2qGJ05iqSB/ZjYiSSwv2OggT8=",
+        "originContent": "Install the package via composer:",
+        "translatedContent": "通过 composer 安装此包："
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```bash\ncomposer require gurgentil/laravel-eloquent-sequencer\n```",
+    "ContentSha": "juJPORwvvgbuo3kiw4d+D+qTjHtHQrRXDXKu+7qWNeg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncomposer require gurgentil/laravel-eloquent-sequencer\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "v4nC9INHWFnpGln3gauxtD8LZoKvi3oUCZ3+tu3wM9I=",
+        "originContent": "composer require gurgentil/laravel-eloquent-sequencer",
+        "translatedContent": "composer require gurgentil/laravel-eloquent-sequencer"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n## Configuration\n\nTo publish the configuration file run:\n",
+    "ContentSha": "6K2VV8r0VivX9KPluOUjnx29Wutr35n5Yw+4Da+rl8c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 配置\n\n要发布配置文件，请运行：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "N/IQtGqpATBQ6qPXpDmWWGfXOn9jLN/OIAH4ZbUllG4=",
+        "originContent": "## Configuration",
+        "translatedContent": "## 配置"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "NhnNEdrUtdHwndsc6PFL8o4HtKgvfw4UoQbYp95tWtU=",
+        "originContent": "To publish the configuration file run:",
+        "translatedContent": "要发布配置文件，请运行："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```bash\nphp artisan vendor:publish --provider=\"Gurgentil\\LaravelEloquentSequencer\\LaravelEloquentSequencerServiceProvider\"\n```",
+    "ContentSha": "gNtjFPI3gqehtjEuZ6tb2Lr0n/+AHoaHD/8wKCjTjAg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nphp artisan vendor:publish --provider=\"Gurgentil\\LaravelEloquentSequencer\\LaravelEloquentSequencerServiceProvider\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "pv+FEXTTPqAOo7j1zs8yqwYAJdM8QeSVPJ6fPbmeUSY=",
+        "originContent": "php artisan vendor:publish --provider=\"Gurgentil\\LaravelEloquentSequencer\\LaravelEloquentSequencerServiceProvider\"",
+        "translatedContent": "php artisan vendor:publish --provider=\"Gurgentil\\LaravelEloquentSequencer\\LaravelEloquentSequencerServiceProvider\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Configuration parameters\n\nYou can change the default colum name, the initial value and the sequencing strategy in `config/eloquentsequencer.php`:\n",
+    "ContentSha": "qaCmAQkKKqfx4CoXTmuDpN4PkLRWNGKdGAKgWSr9rJM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 配置参数\n\n您可以在 `config/eloquentsequencer.php` 中更改默认列名、初始值和排序策略：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "MkqSKFmCiYSfzhulFlc1qJ1QviZwLhpakt/M+Qza+DM=",
+        "originContent": "### Configuration parameters",
+        "translatedContent": "### 配置参数"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "jx80H8K2s4fPqPChERnLlgMrDclOG4fXElihoP2ckck=",
+        "originContent": "You can change the default colum name, the initial value and the sequencing strategy in `config/eloquentsequencer.php`:",
+        "translatedContent": "您可以在 `config/eloquentsequencer.php` 中更改默认列名、初始值和排序策略："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```php\nreturn [\n    'column_name' => 'position',\n    'initial_value' => 1,\n    'strategy' => 'always',\n];\n```",
+    "ContentSha": "bDQGlZ0yHS6vZ5KKwyVdMdM8viHB1UvIsTNeMNqaagc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nreturn [\n    'column_name' => 'position',\n    'initial_value' => 1,\n    'strategy' => 'always',\n];\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "XifJenLZKpFD2KabjPbTnGEIx2UX0HFizVaeULpdst4=",
+        "originContent": "return [",
+        "translatedContent": "return ["
+      },
+      {
+        "row": 3,
+        "rowsha": "YodqPwJxRtrDWP2RjKDQlvwWlrUMG7giE8QzQ+BlWxM=",
+        "originContent": "    'column_name' => 'position',",
+        "translatedContent": "    'column_name' => 'position',"
+      },
+      {
+        "row": 4,
+        "rowsha": "fObJu4m2XzF58hpoUAUdqxzA+i8b/RKGltV7DXgC6Rc=",
+        "originContent": "    'initial_value' => 1,",
+        "translatedContent": "    'initial_value' => 1,"
+      },
+      {
+        "row": 5,
+        "rowsha": "juaMLDRLwFVHhXJ1GmmHAfmQcpdmpBYh63+z3w/p0BI=",
+        "originContent": "    'strategy' => 'always',",
+        "translatedContent": "    'strategy' => 'always',"
+      },
+      {
+        "row": 6,
+        "rowsha": "NYuj8iI3hNgA6iuo33czj0wIyzssKA7IswIJJforxO8=",
+        "originContent": "];",
+        "translatedContent": "];"
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nThe `strategy` configuration determines when sequencing should be triggered and accepts one of the following values: `always`, `on_create`, `on_update` or `never`.\n\n### Model configuration\n\nThe `$sequenceable` attribute specifies the sequence column name for the model:\n",
+    "ContentSha": "sIDKW9DGHk7ciVKtLsAF21KI8Ktks+t1HWzxUrdfhrw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n`strategy` 配置决定了何时触发排序，接受以下值之一：`always`、`on_create`、`on_update` 或 `never`。\n\n### 模型配置\n\n`$sequenceable` 属性指定模型的排序列名称：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "tXNkGR4AUrnxicrK5uBhY7hWnKdbfEOlxcQwA2Y8CIA=",
+        "originContent": "The `strategy` configuration determines when sequencing should be triggered and accepts one of the following values: `always`, `on_create`, `on_update` or `never`.",
+        "translatedContent": "`strategy` 配置决定了何时触发排序，接受以下值之一：`always`、`on_create`、`on_update` 或 `never`。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "bfAt0ggThuPxytj4+DvIO7QHNqdPyMSlBYUx1fqQwYo=",
+        "originContent": "### Model configuration",
+        "translatedContent": "### 模型配置"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "Q77P7wWEFDvgoIUeuZh1iXTAmHnfJy37zANK52A4Z0s=",
+        "originContent": "The `$sequenceable` attribute specifies the sequence column name for the model:",
+        "translatedContent": "`$sequenceable` 属性指定模型的排序列名称："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```php\nprotected static $sequenceable = 'order';\n```",
+    "ContentSha": "kVwDKoMyzsuMuK8gqkSx/i0+ADuJhntVhnI+lkTgK/U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nprotected static $sequenceable = 'order';\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "b7DED/KFbpaDKiipRDzt0jedfmA/QFBWk1xlW46pWvI=",
+        "originContent": "protected static $sequenceable = 'order';",
+        "translatedContent": "protected static $sequenceable = 'order';"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nThe relationship key(s) that will group the sequence items together:\n",
+    "ContentSha": "Z3MUJeaW/s77knWxY8RiJyvI+rtWWHY1xw1pxr5qYWI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n将序列项分组在一起的关系键：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Xc4/KYXkfxg/YNDqxAi+ueU2NPkLqbBhQH7Yh2QK0Vg=",
+        "originContent": "The relationship key(s) that will group the sequence items together:",
+        "translatedContent": "将序列项分组在一起的关系键："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```php\nprotected static $sequenceableKeys = [\n    'task_list_id',\n];\n```",
+    "ContentSha": "wVmyl86VPTPxgVBKRvQqlumsl41UWixik0GPSjmpAtg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nprotected static $sequenceableKeys = [\n    'task_list_id',\n];\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "MTBjVKm6lqn9YP7iFm+p5Kq0DiMVDy0JkU9x7BqMvGE=",
+        "originContent": "protected static $sequenceableKeys = [",
+        "translatedContent": "protected static $sequenceableKeys = ["
+      },
+      {
+        "row": 3,
+        "rowsha": "TcoeHmMS8fSiLW+lw/K8y1b2NwSOjzfnSe3z7yBGIzM=",
+        "originContent": "    'task_list_id',",
+        "translatedContent": "    'task_list_id',"
+      },
+      {
+        "row": 4,
+        "rowsha": "NYuj8iI3hNgA6iuo33czj0wIyzssKA7IswIJJforxO8=",
+        "originContent": "];",
+        "translatedContent": "];"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\nIn the example above, a task list has many tasks.\n\nFor **polymorphic relationships** specify both relationship keys:\n",
+    "ContentSha": "PtpHoYLq1YZk3uJeIa49oZyFjQBRKAl07k0/Mjv27zg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n在上面的例子中，一个任务列表包含许多任务。\n\n对于**多态关系**，请指定两个关系键：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "EO6ZQXb9sqnspgTR85GdqO/iu49Nct6NFZvkDmOmp3I=",
+        "originContent": "In the example above, a task list has many tasks.",
+        "translatedContent": "在上面的例子中，一个任务列表包含许多任务。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "CwN11aAGMm1pK897gbhGqV2dsGn/BWsnZhV0U7Qlifg=",
+        "originContent": "For **polymorphic relationships** specify both relationship keys:",
+        "translatedContent": "对于**多态关系**，请指定两个关系键："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```php\nprotected static $sequenceableKeys = [\n    'commentable_id',\n    'commentable_type',\n];\n```",
+    "ContentSha": "w42QUWmO0047bwxJuj4Q9XkXdJX0AGBnKyNdmP0tTm4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nprotected static $sequenceableKeys = [\n    'commentable_id',\n    'commentable_type',\n];\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "MTBjVKm6lqn9YP7iFm+p5Kq0DiMVDy0JkU9x7BqMvGE=",
+        "originContent": "protected static $sequenceableKeys = [",
+        "translatedContent": "protected static $sequenceableKeys = ["
+      },
+      {
+        "row": 3,
+        "rowsha": "d6VGqFmj8RgGEnqQaHB7/Pq/yyH6ap4qNlaARDdKIec=",
+        "originContent": "    'commentable_id',",
+        "translatedContent": "    'commentable_id',"
+      },
+      {
+        "row": 4,
+        "rowsha": "i6NvNHUYF7sJecjECZ8VNyeFdxeuDedAyGUHUXj/giU=",
+        "originContent": "    'commentable_type',",
+        "translatedContent": "    'commentable_type',"
+      },
+      {
+        "row": 5,
+        "rowsha": "NYuj8iI3hNgA6iuo33czj0wIyzssKA7IswIJJforxO8=",
+        "originContent": "];",
+        "translatedContent": "];"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n## Usage\n\nIn the example below, a task list may have many tasks.\n",
+    "ContentSha": "D0QTOltmr1Qo3NfFx2utbVMmTTu47yE6yeqyIEX51hg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 使用方法\n\n在下面的示例中，任务列表可能包含许多任务。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## 使用方法"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0Uh3SbKCW/Gnzn9uwLYJ2csKXDm6QIlb2l2AYe6iMN8=",
+        "originContent": "In the example below, a task list may have many tasks.",
+        "translatedContent": "在下面的示例中，任务列表可能包含许多任务。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 14,
+    "Content": "``` php\nuse Gurgentil\\LaravelEloquentSequencer\\Traits\\Sequenceable;\nuse Illuminate\\Database\\Eloquent\\Model;\n\nclass Task extends Model\n{\n    use Sequenceable;\n\n    protected $fillable = [\n        'position',\n    ];\n    \n    protected static $sequenceableKeys = [\n        'task_list_id',\n    ];\n\n    public function taskList()\n    {\n        return $this->belongsTo(TaskList::class);\n    }\n}\n```",
+    "ContentSha": "UiZmX9qjaNSH1S7cvt9POrHDtDInk/p1xtBdlxsoB0E=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` php\nuse Gurgentil\\LaravelEloquentSequencer\\Traits\\Sequenceable;\nuse Illuminate\\Database\\Eloquent\\Model;\n\nclass Task extends Model\n{\n    use Sequenceable;\n\n    protected $fillable = [\n        'position',\n    ];\n    \n    protected static $sequenceableKeys = [\n        'task_list_id',\n    ];\n\n    public function taskList()\n    {\n        return $this->belongsTo(TaskList::class);\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "irgpgKJlO/Nq9muOBuCCJxMQWTuasy0q+G8Nn0fs/+M=",
+        "originContent": "``` php",
+        "translatedContent": "``` php"
+      },
+      {
+        "row": 2,
+        "rowsha": "/M/m8oz7Gq45a0cqbwpjGKLkeNPU0KCnbc+auysc9CM=",
+        "originContent": "use Gurgentil\\LaravelEloquentSequencer\\Traits\\Sequenceable;",
+        "translatedContent": "use Gurgentil\\LaravelEloquentSequencer\\Traits\\Sequenceable;"
+      },
+      {
+        "row": 3,
+        "rowsha": "QyRJ0mSYORL9rN5thgKEV0D1ZgwEz769ZEMz2cqdeX0=",
+        "originContent": "use Illuminate\\Database\\Eloquent\\Model;",
+        "translatedContent": "use Illuminate\\Database\\Eloquent\\Model;"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Qr2DIy4+3H9+WRSC6tqr1uMchSIa4UM2/aKGaSTh96s=",
+        "originContent": "class Task extends Model",
+        "translatedContent": "class Task extends Model"
+      },
+      {
+        "row": 6,
+        "rowsha": "Ah+1ltuB5tAr89JYbuOYH+UZ8nXArJyna7zy67QJfZY=",
+        "originContent": "{",
+        "translatedContent": "{"
+      },
+      {
+        "row": 7,
+        "rowsha": "dUfLHFkiRnZPyjGHDjSMKGcuPzdBMHwwHfDJsOD/eTg=",
+        "originContent": "    use Sequenceable;",
+        "translatedContent": "    use Sequenceable;"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "eAgssJKYogcqyintPEpYiuQAixCKJjGzpUKzCYjH6Hc=",
+        "originContent": "    protected $fillable = [",
+        "translatedContent": "    protected $fillable = ["
+      },
+      {
+        "row": 10,
+        "rowsha": "SB3O1K2FV2sUsikEjl4OhsUpNyG+t2rZSZ+FUDa6BNQ=",
+        "originContent": "        'position',",
+        "translatedContent": "        'position',"
+      },
+      {
+        "row": 11,
+        "rowsha": "tImqtZ4ozeLhsmXcaeSs+CDJtMeQja3q2UKShiFjM98=",
+        "originContent": "    ];",
+        "translatedContent": "    ];"
+      },
+      {
+        "row": 12,
+        "rowsha": "Gg9WTdxgOUV7L7JrPWoxbBXrogqIZEmEfDIQw1ghppM=",
+        "originContent": "    ",
+        "translatedContent": "    "
+      },
+      {
+        "row": 13,
+        "rowsha": "BrlXCOsEb9UCpVup4tKO0ZXojWV1BP5vtNkIpYLCTIw=",
+        "originContent": "    protected static $sequenceableKeys = [",
+        "translatedContent": "    protected static $sequenceableKeys = ["
+      },
+      {
+        "row": 14,
+        "rowsha": "wlBad+mdJ32gEA1+nf9HMl46DlzPEbP80cc0xQ+YbJs=",
+        "originContent": "        'task_list_id',",
+        "translatedContent": "        'task_list_id',"
+      },
+      {
+        "row": 15,
+        "rowsha": "tImqtZ4ozeLhsmXcaeSs+CDJtMeQja3q2UKShiFjM98=",
+        "originContent": "    ];",
+        "translatedContent": "    ];"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "zLx9hdOhoA9iT+2QptpiwqlHQJGy2DWTWwe7U0CiiRw=",
+        "originContent": "    public function taskList()",
+        "translatedContent": "    public function taskList()"
+      },
+      {
+        "row": 18,
+        "rowsha": "DT0vWosvwXi05at+ucjIhuLgiwNgjwvTIAw/t2tK7Aw=",
+        "originContent": "    {",
+        "translatedContent": "    {"
+      },
+      {
+        "row": 19,
+        "rowsha": "uiRzhZFVUnY+IlEHrBsHnao/zI4CEC0wvABL+uU8mlw=",
+        "originContent": "        return $this->belongsTo(TaskList::class);",
+        "translatedContent": "        return $this->belongsTo(TaskList::class);"
+      },
+      {
+        "row": 20,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 21,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 22,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 15,
+    "Content": "\n### Create an object\n",
+    "ContentSha": "8VNVcJoBCQn9I38eJEuZe+uqY5CKpNyEwdtIzz27Nu8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 创建一个对象\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "IMA3PG8DwvzTbC9DVin6yFDMyFaFtRAxVxdEowcFvkU=",
+        "originContent": "### Create an object",
+        "translatedContent": "### 创建一个对象"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 16,
+    "Content": "```php\nTask::create([\n    'position' => 1,\n    'task_list_id' => 1,\n]);\n```",
+    "ContentSha": "ddco3/o+oWVVBQq6/4Ec59tCPA5/9ZN8LCjZzF5zI2s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nTask::create([\n    'position' => 1,\n    'task_list_id' => 1,\n]);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "dY/YPCmWqg7Z/KCq7niVErW3UkFuakBRoC9r1sL8Mas=",
+        "originContent": "Task::create([",
+        "translatedContent": "Task::create(["
+      },
+      {
+        "row": 3,
+        "rowsha": "zi/Vr533hbceXRPCdJxYlGZvUYGS4eIR81IHvM3mjw0=",
+        "originContent": "    'position' => 1,",
+        "translatedContent": "    'position' => 1,"
+      },
+      {
+        "row": 4,
+        "rowsha": "NzaaTou5rCogdrQ7kQ4l1C+cjFdG0ne/mO5Eskt5l7I=",
+        "originContent": "    'task_list_id' => 1,",
+        "translatedContent": "    'task_list_id' => 1,"
+      },
+      {
+        "row": 5,
+        "rowsha": "CuR6E5gPslkALbYlfjVOXImUpTVGK/isDJUvzfVETmk=",
+        "originContent": "]);",
+        "translatedContent": "]);"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 17,
+    "Content": "\nIf no value is provided for the sequence attribute, the object will be placed at the end of the sequence.\n",
+    "ContentSha": "TZu52bHVaGON72e7neRdofBPHIc2QY6XlVjTG+RLYoI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "如果未为 sequence 属性提供值，则对象将被放置在序列的末尾。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果未为 sequence 属性提供值，则对象将被放置在序列的末尾。"
+      },
+      {
+        "row": 2,
+        "rowsha": "InxChvhzK0HvGIGmZ7OJl5k/Q84juvoFibuAE3/W7WQ=",
+        "originContent": "If no value is provided for the sequence attribute, the object will be placed at the end of the sequence.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 18,
+    "Content": "```php\nTask::create(['task_list_id' => 1]);\n```",
+    "ContentSha": "gJBpG+gNiqucHX1Pf78pXjOsum5IWpbKcTA724HPqcM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\nTask::create(['task_list_id' => 1]);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "8Vqd/k15aA5YZGUKcAJAYTelyc47zYWfYgRi6VimSTA=",
+        "originContent": "Task::create(['task_list_id' => 1]);",
+        "translatedContent": "Task::create(['task_list_id' => 1]);"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 19,
+    "Content": "\n### Update and delete objects\n\nThe other items in the sequence will be rearranged to keep the sequence consistent.\n",
+    "ContentSha": "jOzvjZa2YVESkMZndyuDNUsTLoqvqnoM610KgYicEfs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 更新和删除对象\n\n序列中的其他项目将被重新排列以保持序列一致性。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "DzsWDn6qdRBEWK33mpssq3XH9fmSV/4YThSW+DH3908=",
+        "originContent": "### Update and delete objects",
+        "translatedContent": "### 更新和删除对象"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "L0n75oe4LDrv0UG+70WedUcwEthXLK9g2trQzpvWXH8=",
+        "originContent": "The other items in the sequence will be rearranged to keep the sequence consistent.",
+        "translatedContent": "序列中的其他项目将被重新排列以保持序列一致性。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 20,
+    "Content": "```php\n$task->update(['position' => 4]);\n```",
+    "ContentSha": "ZSxRd/vM+/3MANA4EUKTcDsRWVGxZ4M+gM3qIQpqtzo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n$task->update(['position' => 4]);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "eLrGmYWxByQnLmWbCNTd4hu9d7jNnOXe8umUmuww1H8=",
+        "originContent": "$task->update(['position' => 4]);",
+        "translatedContent": "$task->update(['position' => 4]);"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 21,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 22,
+    "Content": "```php\n$task->delete();\n```",
+    "ContentSha": "Yh935G5+F9R50h8l1DEviHY0aDfySWS4TDldbOAdN/k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n$task->delete();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "5qfOlBSNmsNljEA2adThq1kaTTgSfwRWVK08TuHv7p4=",
+        "originContent": "$task->delete();",
+        "translatedContent": "$task->delete();"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 23,
+    "Content": "\n### Get sequence value of an object\n",
+    "ContentSha": "mrm3f3bbq5Cw63Gk+Hp6rNH24/Y07MjJ60O29EICNds=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 获取对象的序列值\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Wm7g1wVU+wumktMbQJrMRMjYk07MiK43OfhcCBe8nDs=",
+        "originContent": "### Get sequence value of an object",
+        "translatedContent": "### 获取对象的序列值"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 24,
+    "Content": "```php\n$value = $task->getSequenceValue();\n```",
+    "ContentSha": "2nd3zRZJo9BrDJEg60I/CFwzZQkBnXrOVWuz0loYlSU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n$value = $task->getSequenceValue();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "bVU1W7J504wZ1Rs6xAj7DyoAw23aWYv3vHP1CmNu7Zo=",
+        "originContent": "$value = $task->getSequenceValue();",
+        "translatedContent": "$value = $task->getSequenceValue();"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 25,
+    "Content": "\n### Get sequence column name\n",
+    "ContentSha": "J/v0qJJ1cHauMrdplNxYvagFmRuTZeCxZTK2XCnKlW4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 获取序列列名称\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "gRlBmhMCcJBeTPu1bTEOvGU5a05BJhgZyyY1k77OX74=",
+        "originContent": "### Get sequence column name",
+        "translatedContent": "### 获取序列列名称"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 26,
+    "Content": "```php\n$columnName = Task::getSequenceColumnName();\n```",
+    "ContentSha": "Vs5c8z2jRRnLia+bwQaEsqVarBOECeCf7kPjrLTAF4U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n$columnName = Task::getSequenceColumnName();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "SQQ9yKT4WvxiV2vCukSCi36wtShllqb/e+XNdSwEx2w=",
+        "originContent": "$columnName = Task::getSequenceColumnName();",
+        "translatedContent": "$columnName = Task::getSequenceColumnName();"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 27,
+    "Content": "\n### Disable automatic sequencing\n",
+    "ContentSha": "EsJQJC2Pw9mXiUG3JwuzUd3wpF4XFSIHU61+V4nakvM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 禁用自动排序\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "96SL42VPCnUUbHxfJUU07ANqMqUj52xqYqUwpYhf5sU=",
+        "originContent": "### Disable automatic sequencing",
+        "translatedContent": "### 禁用自动排序"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 28,
+    "Content": "```php\n$task->withoutSequencing()->update(['position' => 3]);\n```",
+    "ContentSha": "Pfmbwx7nB1l1navhDPldLSb7qpWP8wqN8KUgQJqekSU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n$task->withoutSequencing()->update(['position' => 3]);\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "DzkI2JsyCGV3honeQ2WYcB3lQwrqzLkrP/fpBKXtkgQ=",
+        "originContent": "$task->withoutSequencing()->update(['position' => 3]);",
+        "translatedContent": "$task->withoutSequencing()->update(['position' => 3]);"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 29,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 30,
+    "Content": "```php\n$task->withoutSequencing()->delete();\n```",
+    "ContentSha": "gevZRAKKa3SHSaw2gGZIADCRXU5+S1a8r3N8iPmdCzY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n$task->withoutSequencing()->delete();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "LH+P+8TZmnDz4LrluEQhTCDtXuEDjH6loukoVJpzmxg=",
+        "originContent": "$task->withoutSequencing()->delete();",
+        "translatedContent": "$task->withoutSequencing()->delete();"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 31,
+    "Content": "\n### Scope query to order results by sequence value\n",
+    "ContentSha": "D6+/xK//K1BBUUk6SSEtIVkQH/VGiQFfmjlVXxsK+YQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 范围查询按序列值排序结果\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "SnrqfFOUJILuWwEPdEkIeNDaRkTBJFoy7Z/qSvGpnwE=",
+        "originContent": "### Scope query to order results by sequence value",
+        "translatedContent": "### 范围查询按序列值排序结果"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 32,
+    "Content": "```php\n$tasks = Task::sequenced()->get();\n```",
+    "ContentSha": "LYJ8TGAM67TBgZV362WknOcHAbtynFjit7ghdJt4y4M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```php\n$tasks = Task::sequenced()->get();\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tZS9xBWezpNhyTVY0FIiqWOxdLP7Rg97jM3G/LnHtdw=",
+        "originContent": "```php",
+        "translatedContent": "```php"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZD1Z+vFgEArc2Xo5SQUvj+WPzqprInFGO1BuAOCClIc=",
+        "originContent": "$tasks = Task::sequenced()->get();",
+        "translatedContent": "$tasks = Task::sequenced()->get();"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 33,
+    "Content": "\n## Artisan commands\n\nAssign sequence values to all records that have their values set to `null`.\n",
+    "ContentSha": "okj71NxV3qTsWyd65uXIVj1JVTe5L9NUDPnV20e/eWk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Artisan 命令\n\n为所有其值设置为 `null` 的记录分配序列值。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "nELv9LL4/nM4OWQ4wm1ZdSdaIrGCJpFbl1sDU5fPPCM=",
+        "originContent": "## Artisan commands",
+        "translatedContent": "## Artisan 命令"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "MaoagvNFGewShtaTpNpH6k7Br2P805GBiHXySlj22xw=",
+        "originContent": "Assign sequence values to all records that have their values set to `null`.",
+        "translatedContent": "为所有其值设置为 `null` 的记录分配序列值。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 34,
+    "Content": "```bash\nphp artisan sequence:populate \\\\App\\\\Task\n```",
+    "ContentSha": "D6Bd/wSKannZfU4D0++QC+RyUBcnOds5s8w1aNhhOFo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nphp artisan sequence:populate \\\\App\\\\Task\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "xFotHquqWEwg6T3wbEzImiVCVJ8jxhpJFKswJqrExl0=",
+        "originContent": "php artisan sequence:populate \\\\App\\\\Task",
+        "translatedContent": "php artisan sequence:populate \\\\App\\\\Task"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 35,
+    "Content": "\nFlush all sequence values for a model.\n",
+    "ContentSha": "OjheXC2b+vZ264XYWiske7eYpBl2Xbw9ZOGOZcuLA80=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n刷新一个模型的所有序列值。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7EgxBbQHWmvwA9HlYDuL8rLhxvkXgGOZlgTl4213RxI=",
+        "originContent": "Flush all sequence values for a model.",
+        "translatedContent": "刷新一个模型的所有序列值。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 36,
+    "Content": "```bash\nphp artisan sequence:flush \\\\App\\\\Task\n```",
+    "ContentSha": "hj2nQbY/8DX0qDi4ywkojeWvuK/vleDZYArjjD6KF/w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nphp artisan sequence:flush \\\\App\\\\Task\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "r7b92CY9OQmqJO+TlDFJt6Jxs9XSMQOS0AEWJL61QKA=",
+        "originContent": "php artisan sequence:flush \\\\App\\\\Task",
+        "translatedContent": "php artisan sequence:flush \\\\App\\\\Task"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 37,
+    "Content": "\n### Testing\n",
+    "ContentSha": "7HSNhzwSiGL36boP1wl8x5pg8uMu133cVqppyQiWz8U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 测试\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "5gDFo3ZvkOtpBCf1mWI4JGgowepLxssFRC4NJBi3KJY=",
+        "originContent": "### Testing",
+        "translatedContent": "### 测试"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 38,
+    "Content": "``` bash\ncomposer test\n```",
+    "ContentSha": "T7nZ7jabeTfjsf8jZwlmfY/xMzPt/AqxLkFQw6QbTFs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "``` bash\ncomposer test\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qlQMREPCQ9COOYCpS3RVIzgyAB7hTFq9W1gHq2PiNxY=",
+        "originContent": "``` bash",
+        "translatedContent": "``` bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "TQpJg0Y4jeHihx2OaV13YyXDzqsumcxfpluaJG+8wHo=",
+        "originContent": "composer test",
+        "translatedContent": "composer test"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 39,
+    "Content": "\n### Changelog\n\nPlease see [CHANGELOG](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/CHANGELOG.md) for more information what has changed recently.\n\n## Contributing\n\nPlease see [CONTRIBUTING](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/CONTRIBUTING.md) for details.\n\n### Security\n\nIf you discover any security related issues, please email gustavorgentil@outlook.com instead of using the issue tracker.\n\n## Credits\n\n- [Gustavo Rorato Gentil](https://github.com/gurgentil)\n- [Michael Slowik](https://github.com/sl0wik)\n- [All Contributors](../../contributors)\n\n## License\n\nThe MIT License (MIT). Please see [License File](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/LICENSE.md) for more information.\n\n## Laravel Package Boilerplate\n\nThis package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).\n",
+    "ContentSha": "/fX1Q00KqlAmBYfIPVRRK9k7+YyfRQK9Nr7KtfsJQ1s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### 更新日志\n\n请参阅 [CHANGELOG](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/CHANGELOG.md) 了解最近的更新内容。\n\n## 贡献\n\n详情请参阅 [CONTRIBUTING](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/CONTRIBUTING.md)。\n\n### 安全\n\n如果您发现任何安全相关的问题，请发送电子邮件至 gustavorgentil@outlook.com，切勿使用问题跟踪器。\n\n## 致谢\n\n- [Gustavo Rorato Gentil](https://github.com/gurgentil)\n- [Michael Slowik](https://github.com/sl0wik)\n- [所有贡献者](../../contributors)\n\n## 许可证\n\nMIT 许可证 (MIT)。更多信息请参阅 [许可证文件](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/LICENSE.md)。\n\n## Laravel 包模板\n\n本包使用 [Laravel Package Boilerplate](https://laravelpackageboilerplate.com) 生成。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 更新日志"
+      },
+      {
+        "row": 2,
+        "rowsha": "Q1OXw5qU0qNvF6kr9VNc1kpkS+g2DXcdEM8Z230UmvQ=",
+        "originContent": "### Changelog",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "请参阅 [CHANGELOG](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/CHANGELOG.md) 了解最近的更新内容。"
+      },
+      {
+        "row": 4,
+        "rowsha": "5Hfy7/uaeacADvJublRwBP/0l0UI3FIoolp4U3mk4oA=",
+        "originContent": "Please see [CHANGELOG](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/CHANGELOG.md) for more information what has changed recently.",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 贡献"
+      },
+      {
+        "row": 6,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "详情请参阅 [CONTRIBUTING](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/CONTRIBUTING.md)。"
+      },
+      {
+        "row": 8,
+        "rowsha": "H0Hd6/PXPkOFst5zSyts9MWgKv4rr049poPWtzJaXPI=",
+        "originContent": "Please see [CONTRIBUTING](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/CONTRIBUTING.md) for details.",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 安全"
+      },
+      {
+        "row": 10,
+        "rowsha": "pP9yxeieA/kYe1Dof8/8B7cmu2CoXgsvQ06sWLz9cDI=",
+        "originContent": "### Security",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "如果您发现任何安全相关的问题，请发送电子邮件至 gustavorgentil@outlook.com，切勿使用问题跟踪器。"
+      },
+      {
+        "row": 12,
+        "rowsha": "cEwrMjrzYvC388c3RnP0DpKvtBE89dQ4Tv4YJ249xFQ=",
+        "originContent": "If you discover any security related issues, please email gustavorgentil@outlook.com instead of using the issue tracker.",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 致谢"
+      },
+      {
+        "row": 14,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Gustavo Rorato Gentil](https://github.com/gurgentil)"
+      },
+      {
+        "row": 16,
+        "rowsha": "VThkmPiUm5xe2SHoKXa1ezvXl9Ncw4Gth2uWVLZyvQg=",
+        "originContent": "- [Gustavo Rorato Gentil](https://github.com/gurgentil)",
+        "translatedContent": "- [Michael Slowik](https://github.com/sl0wik)"
+      },
+      {
+        "row": 17,
+        "rowsha": "h+zOOxcgUTjpmhrBkYeEWPTQ2JpQJxod0wrzav/bYPU=",
+        "originContent": "- [Michael Slowik](https://github.com/sl0wik)",
+        "translatedContent": "- [所有贡献者](../../contributors)"
+      },
+      {
+        "row": 18,
+        "rowsha": "rW9ZMqnbqzsTobZV2eUtQ073g8i2NWSUfl+xA46fiKg=",
+        "originContent": "- [All Contributors](../../contributors)",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 许可证"
+      },
+      {
+        "row": 20,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "MIT 许可证 (MIT)。更多信息请参阅 [许可证文件](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/LICENSE.md)。"
+      },
+      {
+        "row": 22,
+        "rowsha": "Kb9ZAfTmxL9Pv4WRTZUXIM5zXjcrt7G98ViZ2sfbjOU=",
+        "originContent": "The MIT License (MIT). Please see [License File](https://raw.githubusercontent.com/gurgentil/laravel-eloquent-sequencer/master/LICENSE.md) for more information.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Laravel 包模板"
+      },
+      {
+        "row": 24,
+        "rowsha": "BHki1xisLxt7G+9h5aZMwERndepu/vOq30/cvMMEgzw=",
+        "originContent": "## Laravel Package Boilerplate",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "本包使用 [Laravel Package Boilerplate](https://laravelpackageboilerplate.com) 生成。"
+      },
+      {
+        "row": 26,
+        "rowsha": "DRVOAjvJ/E9/KjXg7PBQSU3g5Zz8X5ExafL3IxqcZrA=",
+        "originContent": "This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
