@@ -1,0 +1,1164 @@
+[
+  {
+    "Id": 1,
+    "Content": "# DIY Smart Home Family Calendar (Skylight Clone)\n\n![Sklylight calendar](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)\n![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)\n\n## 📖 Introduction\n\nMy wife has been recently bombarded in social media with ads for smart home calendars (Skylight, Cozyla, Hearth) and was ready to spend over $300 on one. Before giving her the green light, I asked for a chance to research them.\n\nI realized most offered similar functionality but differed significantly in price. Most importantly, I didn't see any outstanding feature that I couldn't implement in **Home Assistant**.\n\n**The Goal:** A WAF-approved (Wife Acceptance Factor), countertop-friendly touchscreen calendar that integrates deep into our smart home without monthly fees.\n\n## 💡 Why DIY?\n\nChoosing the DIY route with Home Assistant provided several benefits over buying a Skylight/Hearth display:\n\n* **No Monthly Fees:** Avoids subscriptions for \"premium\" features.\n* **Seamless Integration:** It talks to our lights, chores (Grocy), and presence sensors.\n* **Old Hardware:** Repurposed a Mini PC and a standard monitor.\n* **Privacy:** No vendor lock-in or risk of the company shutting down.\n\n## 🛠 Hardware Selection\n\nThis is currently built to show the dashboard on any HD (1920x1080) display.\n\nIn my case, the requirement was for it to \"look like\" skylight, be touchscreen, be countertop, possibility to move it to different locations. Therefore I went with the hardware described below.\nNevertheless, you case might be different and will need you to adjust it as needed, for example if you want to display it on a tablet or something else.\n\nThe hardware I originally used I chose based on what I mentioned above plus with the hope to be able to extend functionality using the webcam, speaker and microphone. Currently I would probably build it differently now in hindsight, since I havent had time to address these additional hardware ideas.\n\n* **Monitor:** [HP Engage 15-inch Touchscreen](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). I chose this over generic portable monitors because it includes a built-in **Speaker, Webcam, and Microphone**, allowing for future voice control or video calls.\n* **Computer:** An old Mini PC (NUC/Tiny PC) running Windows/Linux in Kiosk mode, or a Raspberry Pi 4.~~\n\n\n## ✨ Features\n\n* **Family-wide & Individual Views:** Toggle specific family members' calendars on/off.\n* **Two-way Sync:** Edit events on the screen or on our phones (Google Calendar).\n* **\"Add Event\" Popup:** A custom UI to add events to specific calendars directly from the screen.",
+    "ContentSha": "VQNH1PSLBT8nEIDxYxRMz743KFHLrQkHFAwKECMNPzE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# 自制智能家庭日历（Skylight 克隆版）\n\n![Sklylight calendar](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)\n![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)\n\n## 📖 介绍\n\n我妻子最近在社交媒体上频繁看到智能家庭日历（Skylight、Cozyla、Hearth）的广告，准备花超过300美元买一个。在同意之前，我请求先做一些调研。\n\n我发现大多数产品功能相似，但价格差异很大。更重要的是，我没看到有什么突出功能，是我不能在**Home Assistant**中实现的。\n\n**目标：** 一个获得“妻子接受度”（WAF）认可、适合放在台面上的触摸屏日历，能够深度集成到我们的智能家居中，无需月费。\n\n## 💡 为什么选择DIY？\n\n用 Home Assistant 自制的方案相比购买 Skylight/Hearth 显示屏有几个优势：\n\n* **无月费：** 避免了“高级”功能的订阅费用。\n* **无缝集成：** 它可以控制我们的灯光、家务（Grocy）和存在传感器。\n* **旧硬件利用：** 重新利用了一台迷你电脑和标准显示器。\n* **隐私保障：** 无供应商锁定或公司倒闭风险。\n\n## 🛠 硬件选择\n\n目前该项目设计为可在任何高清（1920x1080）显示器上显示仪表盘。\n\n就我而言，需求是“看起来像” Skylight，支持触摸屏，适合放在台面，并且能方便移动到不同位置。因此，我选择了下面描述的硬件。\n不过，你的情况可能不同，需要根据需要调整，比如如果你想用平板或者其他设备显示。\n\n我最初选择的硬件基于上述考虑，并且希望将来能利用摄像头、扬声器和麦克风扩展功能。现在回头看，如果有时间，我可能会用不同方案，因为目前还没机会实现这些附加硬件功能。\n\n* **显示器：** [HP Engage 15英寸触摸屏](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor)。我选择它而不是普通便携显示器，因为它内置了**扬声器、摄像头和麦克风**，方便未来实现语音控制或视频通话。\n* **计算机：** 一台旧迷你电脑（NUC/小型PC），运行 Windows/Linux 的展台模式，或者一台树莓派4。~~\n\n## ✨ 功能\n\n* **家庭成员和个人视图：** 可切换显示特定家庭成员的日历。\n* **双向同步：** 可在屏幕或手机（Google 日历）上编辑事件。\n* **“添加事件”弹窗：** 自定义界面，可直接从屏幕添加事件到指定日历。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LfsQts7Y2Ttd60GvWhyTEhmRoTarSYaLR4fBuWIraSo=",
+        "originContent": "# DIY Smart Home Family Calendar (Skylight Clone)",
+        "translatedContent": "# 自制智能家庭日历（Skylight 克隆版）"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "qgwScLzIodjojkFJoD2PK+bbl1Od59IQX5wyNPXvydU=",
+        "originContent": "![Sklylight calendar](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)",
+        "translatedContent": "![Sklylight calendar](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)"
+      },
+      {
+        "row": 4,
+        "rowsha": "DIz1ZVYrPtfrBsjfjgti7cpUHGpmcjJ2BM6IgEl5CJ0=",
+        "originContent": "![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)",
+        "translatedContent": "![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "l0c6cDZUkpYBoFxdVrFZTEXbBtKd1+I3s4NX2F0TnGc=",
+        "originContent": "## 📖 Introduction",
+        "translatedContent": "## 📖 介绍"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "BJ+pYJJ2kP4iZqOLNL7DgWxJG4igyuVDs6GWD6ZC47w=",
+        "originContent": "My wife has been recently bombarded in social media with ads for smart home calendars (Skylight, Cozyla, Hearth) and was ready to spend over $300 on one. Before giving her the green light, I asked for a chance to research them.",
+        "translatedContent": "我妻子最近在社交媒体上频繁看到智能家庭日历（Skylight、Cozyla、Hearth）的广告，准备花超过300美元买一个。在同意之前，我请求先做一些调研。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "hnBfGh8KbE8U+2SIdT8Y0CQCK8iMZtKqwcg+iwsOnbI=",
+        "originContent": "I realized most offered similar functionality but differed significantly in price. Most importantly, I didn't see any outstanding feature that I couldn't implement in **Home Assistant**.",
+        "translatedContent": "我发现大多数产品功能相似，但价格差异很大。更重要的是，我没看到有什么突出功能，是我不能在**Home Assistant**中实现的。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "jP17a4v/FBunep5iCUEqbf50gL5R76Ia74FSvoNSNX0=",
+        "originContent": "**The Goal:** A WAF-approved (Wife Acceptance Factor), countertop-friendly touchscreen calendar that integrates deep into our smart home without monthly fees.",
+        "translatedContent": "**目标：** 一个获得“妻子接受度”（WAF）认可、适合放在台面上的触摸屏日历，能够深度集成到我们的智能家居中，无需月费。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "QD73xfNOD0t5vUa/9DDYLV75Z0QW86HJtHQCcb34drA=",
+        "originContent": "## 💡 Why DIY?",
+        "translatedContent": "## 💡 为什么选择DIY？"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "pAscW4xVov+tCae436iaNnjfewBcLfC8yYLnH6cyx4A=",
+        "originContent": "Choosing the DIY route with Home Assistant provided several benefits over buying a Skylight/Hearth display:",
+        "translatedContent": "用 Home Assistant 自制的方案相比购买 Skylight/Hearth 显示屏有几个优势："
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "8xjKZElXWIw23E5bhdHex/3cFeOUGFm9xtPCwP2u6iI=",
+        "originContent": "* **No Monthly Fees:** Avoids subscriptions for \"premium\" features.",
+        "translatedContent": "* **无月费：** 避免了“高级”功能的订阅费用。"
+      },
+      {
+        "row": 19,
+        "rowsha": "tqZiPpCwS5OTt2TVkBHh7WgS0hEEkP3jkblL9NIeqbI=",
+        "originContent": "* **Seamless Integration:** It talks to our lights, chores (Grocy), and presence sensors.",
+        "translatedContent": "* **无缝集成：** 它可以控制我们的灯光、家务（Grocy）和存在传感器。"
+      },
+      {
+        "row": 20,
+        "rowsha": "Aueh1fyun3sMI5URhoMxb/WjeO2/h/fPg4WMGkA2HkQ=",
+        "originContent": "* **Old Hardware:** Repurposed a Mini PC and a standard monitor.",
+        "translatedContent": "* **旧硬件利用：** 重新利用了一台迷你电脑和标准显示器。"
+      },
+      {
+        "row": 21,
+        "rowsha": "Wmqul1wZcC7qL9rL5e6J1MPpN6BEs+8w7pM3j13+8Tk=",
+        "originContent": "* **Privacy:** No vendor lock-in or risk of the company shutting down.",
+        "translatedContent": "* **隐私保障：** 无供应商锁定或公司倒闭风险。"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "RNvyrmDh5r3pkRKxFX8KF8U+6MBo/8Zd81i5HvrZRWc=",
+        "originContent": "## 🛠 Hardware Selection",
+        "translatedContent": "## 🛠 硬件选择"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "XnAQPnEFdBxSibvibBHFA+WYoNM5WykBDo7OPi9cP3U=",
+        "originContent": "This is currently built to show the dashboard on any HD (1920x1080) display.",
+        "translatedContent": "目前该项目设计为可在任何高清（1920x1080）显示器上显示仪表盘。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "sNGR2LpfAhG+R58nXhIP2pm91YV6yfKHpcLvY6r724A=",
+        "originContent": "In my case, the requirement was for it to \"look like\" skylight, be touchscreen, be countertop, possibility to move it to different locations. Therefore I went with the hardware described below.",
+        "translatedContent": "就我而言，需求是“看起来像” Skylight，支持触摸屏，适合放在台面，并且能方便移动到不同位置。因此，我选择了下面描述的硬件。"
+      },
+      {
+        "row": 28,
+        "rowsha": "NkJ/lFdfMv8cYy7XepWKgpbI76WrXsBeOT8OwaZDaqc=",
+        "originContent": "Nevertheless, you case might be different and will need you to adjust it as needed, for example if you want to display it on a tablet or something else.",
+        "translatedContent": "不过，你的情况可能不同，需要根据需要调整，比如如果你想用平板或者其他设备显示。"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "WaRbj1ahDxfdV2mKybTiFGDOqBE0O3/Jo4eKbJ6pquE=",
+        "originContent": "The hardware I originally used I chose based on what I mentioned above plus with the hope to be able to extend functionality using the webcam, speaker and microphone. Currently I would probably build it differently now in hindsight, since I havent had time to address these additional hardware ideas.",
+        "translatedContent": "我最初选择的硬件基于上述考虑，并且希望将来能利用摄像头、扬声器和麦克风扩展功能。现在回头看，如果有时间，我可能会用不同方案，因为目前还没机会实现这些附加硬件功能。"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "WJKLc4AvOTEz6Vvq7CHUdG7tjApkLh+ytO+MUUk4vI8=",
+        "originContent": "* **Monitor:** [HP Engage 15-inch Touchscreen](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). I chose this over generic portable monitors because it includes a built-in **Speaker, Webcam, and Microphone**, allowing for future voice control or video calls.",
+        "translatedContent": "* **显示器：** [HP Engage 15英寸触摸屏](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor)。我选择它而不是普通便携显示器，因为它内置了**扬声器、摄像头和麦克风**，方便未来实现语音控制或视频通话。"
+      },
+      {
+        "row": 33,
+        "rowsha": "K/3B483Kc07UXQjty8cZFkMic/dGIUaEOMdb0LANCBk=",
+        "originContent": "* **Computer:** An old Mini PC (NUC/Tiny PC) running Windows/Linux in Kiosk mode, or a Raspberry Pi 4.~~",
+        "translatedContent": "* **计算机：** 一台旧迷你电脑（NUC/小型PC），运行 Windows/Linux 的展台模式，或者一台树莓派4。~~"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ✨ 功能"
+      },
+      {
+        "row": 36,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* **家庭成员和个人视图：** 可切换显示特定家庭成员的日历。"
+      },
+      {
+        "row": 38,
+        "rowsha": "e+bxyJSkfcuGkAXp7cRk+r6LjSeIFCs8mFUalmKc5Ro=",
+        "originContent": "* **Family-wide & Individual Views:** Toggle specific family members' calendars on/off.",
+        "translatedContent": "* **双向同步：** 可在屏幕或手机（Google 日历）上编辑事件。"
+      },
+      {
+        "row": 39,
+        "rowsha": "fhbdhdWGD8QoIJqVapA/sA3LY9cwf4yoIiQwlkOqYrY=",
+        "originContent": "* **Two-way Sync:** Edit events on the screen or on our phones (Google Calendar).",
+        "translatedContent": "* **“添加事件”弹窗：** 自定义界面，可直接从屏幕添加事件到指定日历。"
+      },
+      {
+        "row": 40,
+        "rowsha": "52Q3DbbFTlcUTM6BtuKNB3CFi5Nyp9AmQx+WaygdpJM=",
+        "originContent": "* **\"Add Event\" Popup:** A custom UI to add events to specific calendars directly from the screen.",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "* **Weather & Date:** Beautiful, glanceable header.\n* **Responsive:** Automatically adjusts day-count based on screen width (Mobile vs Desktop).\n\n---\n\n## ⚙️ Installation Guide\n\n*Note: This setup uses a **YAML Package** to automatically create all the necessary helpers, scripts, and variables for you. You do not need to create them manually.*\n\n### 1. Prerequisites (HACS)\n\nYou must have [HACS](https://hacs.xyz/) installed. Please install the following **Frontend** integrations:\n\n* `week-planner-card`\n* `bubble-card`\n* `config-template-card`\n* `card-mod`\n* `better-moment-card`\n* `weather-card`\n* `browser_mod` (Required for the popups to work)\n* `layout-card` (Required for the Sections view)\n* `button-card` (Required for the popup to add event)\n\n### 2. The Backend (The Brains)\n\n1. Open your `configuration.yaml` file in Home Assistant.\n2. Ensure you have this line added under `homeassistant:` to enable packages:\n",
+    "ContentSha": "JWHW+wiR92hYebtZIgOLzILaMldFDxcxaaHGyEumr18=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "* **天气和日期:** 美观且一目了然的标题。\n* **响应式:** 根据屏幕宽度自动调整天数（移动端与桌面端）。\n\n---\n\n## ⚙️ 安装指南\n\n*注意：此设置使用 **YAML 包** 自动为您创建所有必要的助手、脚本和变量。您无需手动创建它们。*\n\n### 1. 前提条件（HACS）\n\n您必须安装 [HACS](https://hacs.xyz/)。请安装以下 **前端** 集成：\n\n* `week-planner-card`\n* `bubble-card`\n* `config-template-card`\n* `card-mod`\n* `better-moment-card`\n* `weather-card`\n* `browser_mod`（弹窗功能必需）\n* `layout-card`（Sections 视图必需）\n* `button-card`（添加事件弹窗必需）\n\n### 2. 后端（核心）\n\n1. 打开 Home Assistant 中的 `configuration.yaml` 文件。\n2. 确保在 `homeassistant:` 下添加以下行以启用包：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rIuZRjYVgI872pyHRRAc2evQiHpUSwzcHCpa0ovrbAI=",
+        "originContent": "* **Weather & Date:** Beautiful, glanceable header.",
+        "translatedContent": "* **天气和日期:** 美观且一目了然的标题。"
+      },
+      {
+        "row": 2,
+        "rowsha": "k8TZIHZOsKUOxbi2vttY/zbSee5ZBl/te2FVL+y6iek=",
+        "originContent": "* **Responsive:** Automatically adjusts day-count based on screen width (Mobile vs Desktop).",
+        "translatedContent": "* **响应式:** 根据屏幕宽度自动调整天数（移动端与桌面端）。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "gBkURJuIjLuEwJa6OsvgMdWYrx/rIxrqGhejjzSkQbE=",
+        "originContent": "## ⚙️ Installation Guide",
+        "translatedContent": "## ⚙️ 安装指南"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Y2W7WOQeEH3dkKcDVxzqQYPl8Op9pnYdDXoVSuMzVSQ=",
+        "originContent": "*Note: This setup uses a **YAML Package** to automatically create all the necessary helpers, scripts, and variables for you. You do not need to create them manually.*",
+        "translatedContent": "*注意：此设置使用 **YAML 包** 自动为您创建所有必要的助手、脚本和变量。您无需手动创建它们。*"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "w3M5aknbYQp2SK4sdqCdtUQA6uhJJW38DP0ML5BhoA0=",
+        "originContent": "### 1. Prerequisites (HACS)",
+        "translatedContent": "### 1. 前提条件（HACS）"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "feazGA52PS82A35t0nwMmCLaatz/pWZKWtlr5lUo7RA=",
+        "originContent": "You must have [HACS](https://hacs.xyz/) installed. Please install the following **Frontend** integrations:",
+        "translatedContent": "您必须安装 [HACS](https://hacs.xyz/)。请安装以下 **前端** 集成："
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "ia5UcwUPRJ/c+xCjKBindUPaaosjrAzr6pRQwqVAe4s=",
+        "originContent": "* `week-planner-card`",
+        "translatedContent": "* `week-planner-card`"
+      },
+      {
+        "row": 15,
+        "rowsha": "KVzyACj5bb8Xxdp8DgmNHHPWWUi0LmY9MhbPh8ClOnE=",
+        "originContent": "* `bubble-card`",
+        "translatedContent": "* `bubble-card`"
+      },
+      {
+        "row": 16,
+        "rowsha": "ppAKIQ9jIpvBsgl/pFyDKVcLmpxBwUKyzxbYKln/sfM=",
+        "originContent": "* `config-template-card`",
+        "translatedContent": "* `config-template-card`"
+      },
+      {
+        "row": 17,
+        "rowsha": "V9s8fkSivxacvpHEG7qFDqVfzfS5j8/I34DR6cIGZ/w=",
+        "originContent": "* `card-mod`",
+        "translatedContent": "* `card-mod`"
+      },
+      {
+        "row": 18,
+        "rowsha": "Yvg4ASfEq4IVbJRaKTLcOHWCpAw5ft58Bzp5Xl3A1gE=",
+        "originContent": "* `better-moment-card`",
+        "translatedContent": "* `better-moment-card`"
+      },
+      {
+        "row": 19,
+        "rowsha": "ylI8L7de5jEL0rKOgZBPtBVMqi8xiYGv4r9pglB9HBg=",
+        "originContent": "* `weather-card`",
+        "translatedContent": "* `weather-card`"
+      },
+      {
+        "row": 20,
+        "rowsha": "WyfXSnW2xPpQELPzUDDkLgG/hg8MyB5/gCcwJecJlcE=",
+        "originContent": "* `browser_mod` (Required for the popups to work)",
+        "translatedContent": "* `browser_mod`（弹窗功能必需）"
+      },
+      {
+        "row": 21,
+        "rowsha": "FcrhkBgjMStGFi7UVVUpQFpMt9G1Kom/jh2M9zidC/A=",
+        "originContent": "* `layout-card` (Required for the Sections view)",
+        "translatedContent": "* `layout-card`（Sections 视图必需）"
+      },
+      {
+        "row": 22,
+        "rowsha": "URiH6gihak0QzscfZQfqWcs3Z+/s8ev1Vhhn0hMGb8Q=",
+        "originContent": "* `button-card` (Required for the popup to add event)",
+        "translatedContent": "* `button-card`（添加事件弹窗必需）"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "H+fo+22ooXg8ZCCUbVm38mSpTf02uh+zzBUgzVcS998=",
+        "originContent": "### 2. The Backend (The Brains)",
+        "translatedContent": "### 2. 后端（核心）"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "aw4SFRZxa3jGkWxfwD0SAPFFN1fJSRYT15N3Uo6JMPs=",
+        "originContent": "1. Open your `configuration.yaml` file in Home Assistant.",
+        "translatedContent": "1. 打开 Home Assistant 中的 `configuration.yaml` 文件。"
+      },
+      {
+        "row": 27,
+        "rowsha": "MonCsGTwlpHZd5y3f/fYWGlzXxEQDYIxgx+SzbqkLuo=",
+        "originContent": "2. Ensure you have this line added under `homeassistant:` to enable packages:",
+        "translatedContent": "2. 确保在 `homeassistant:` 下添加以下行以启用包："
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "   ```yaml\n   homeassistant:\n     packages: !include_dir_named packages\n   ```",
+    "ContentSha": "mwOQJwXhWXu/CbHOHkk1gtiFWj2mfbd9WjFEkTtIxRA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```yaml\n   homeassistant:\n     packages: !include_dir_named packages\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "d4Nh96RDflJXS7qID6zX8Ei83ADY0SnevUcR/0fljQM=",
+        "originContent": "   ```yaml",
+        "translatedContent": "   ```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "uXiXdv1WHCY+f2M8fyONfY6QhhwzOmM2iFkxMhlJYS4=",
+        "originContent": "   homeassistant:",
+        "translatedContent": "   homeassistant:"
+      },
+      {
+        "row": 3,
+        "rowsha": "GEvYf4yRSBSDgiGNGZCCidcak7evVUK5xEPHl88s6+g=",
+        "originContent": "     packages: !include_dir_named packages",
+        "translatedContent": "     packages: !include_dir_named packages"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n3. Create a folder named `packages` in your HA config directory (if you don't have one).\n4. Download [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) from this repo.\n5. Place the file inside your `packages/` folder.\n6. **Restart Home Assistant**.\n\n### 3. The Calendars\n\nYou can use **Google Calendars** or **Local Calendars**.\n\n#### Option A: Local Calendar (Easiest)\n\nNote this is untested since I use Google Calendars exclusively\n\n1. Go to **Settings > Devices & Services**.\n2. Add the **Local Calendar** integration.\n3. Create calendars named exactly: `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`.\n    * *If you use these names, the code works out of the box!*\n\n#### Option B: Google Calendar\n\n1. Open `packages/family_calendar.yaml`.\n2. Scroll to the `add_google_calendar_event` script.\n3. Update the `calendar_map` to point to your real Google entities:\n",
+    "ContentSha": "HpYkBcTiJVxDReORxO2CREpwWmhsmHWJ81ExoMxouas=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. 在你的 HA 配置目录中创建一个名为 `packages` 的文件夹（如果你还没有的话）。  \n4. 从此仓库下载 [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml)。  \n5. 将该文件放入你的 `packages/` 文件夹中。  \n6. **重启 Home Assistant**。  \n\n### 3. 日历  \n\n你可以使用 **Google 日历** 或 **本地日历**。  \n\n#### 选项 A：本地日历（最简单）  \n\n注意：由于我只使用 Google 日历，此方法未经测试。  \n\n1. 进入 **设置 > 设备与服务**。  \n2. 添加 **本地日历** 集成。  \n3. 创建名为以下名称的日历：`Alice`、`Bob`、`Charlie`、`Daisy`、`Family`。  \n    * *如果你使用这些名称，代码即可开箱即用！*  \n\n#### 选项 B：Google 日历  \n\n1. 打开 `packages/family_calendar.yaml`。  \n2. 滚动到 `add_google_calendar_event` 脚本部分。  \n3. 更新 `calendar_map`，指向你真实的 Google 实体：\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. 在你的 HA 配置目录中创建一个名为 `packages` 的文件夹（如果你还没有的话）。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "RNRBmV5wuCxsN9kQ3DdgfCqq4HvZdU8TFYoS8NdEXR0=",
+        "originContent": "3. Create a folder named `packages` in your HA config directory (if you don't have one).",
+        "translatedContent": "4. 从此仓库下载 [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml)。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "lNmWWcyR7I7uHv7CgPRbGwDeNnRQ01h7n0+t7eP6XYE=",
+        "originContent": "4. Download [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) from this repo.",
+        "translatedContent": "5. 将该文件放入你的 `packages/` 文件夹中。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "DcJpXwbe9QeF7WYdCmPB24A6rpWWOH98SFU4b/v3+Oo=",
+        "originContent": "5. Place the file inside your `packages/` folder.",
+        "translatedContent": "6. **重启 Home Assistant**。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "C5oSmI66lPM2jvLDqQXGg23tGYypd4rXZeMgGoNl40A=",
+        "originContent": "6. **Restart Home Assistant**.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 3. 日历  "
+      },
+      {
+        "row": 7,
+        "rowsha": "1Qal3HDoY2gN67MWX7ll8J3apJdBOsHWfGPXhX5YBfo=",
+        "originContent": "### 3. The Calendars",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "你可以使用 **Google 日历** 或 **本地日历**。  "
+      },
+      {
+        "row": 9,
+        "rowsha": "ZmcXeL6XKWOBdvi9LoF0hkCrjXcDZBbGf2mLNLJq9Ts=",
+        "originContent": "You can use **Google Calendars** or **Local Calendars**.",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 选项 A：本地日历（最简单）  "
+      },
+      {
+        "row": 11,
+        "rowsha": "NLhOk+GmX8WsAtwG27PVpCE4bnQaikei+NDh4x9Hmys=",
+        "originContent": "#### Option A: Local Calendar (Easiest)",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "注意：由于我只使用 Google 日历，此方法未经测试。  "
+      },
+      {
+        "row": 13,
+        "rowsha": "GgekKp+C1+C/DhOPpoZCTOxxgqAQytIkFj//J7FgqdQ=",
+        "originContent": "Note this is untested since I use Google Calendars exclusively",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 进入 **设置 > 设备与服务**。  "
+      },
+      {
+        "row": 15,
+        "rowsha": "k0QZcITy1Qvxr6N2BCp9c/g8r2vTaGReQ9r3XThmvdY=",
+        "originContent": "1. Go to **Settings > Devices & Services**.",
+        "translatedContent": "2. 添加 **本地日历** 集成。  "
+      },
+      {
+        "row": 16,
+        "rowsha": "zKvqs77ZtxcVlJGmQQoSZZpwRq2ToG1s6CBPsfxXW3c=",
+        "originContent": "2. Add the **Local Calendar** integration.",
+        "translatedContent": "3. 创建名为以下名称的日历：`Alice`、`Bob`、`Charlie`、`Daisy`、`Family`。  "
+      },
+      {
+        "row": 17,
+        "rowsha": "G8MWQWafBuBrLzkpL6XyNwFE0okwEDk9oOFoiHG9CJQ=",
+        "originContent": "3. Create calendars named exactly: `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`.",
+        "translatedContent": "    * *如果你使用这些名称，代码即可开箱即用！*  "
+      },
+      {
+        "row": 18,
+        "rowsha": "guHEMdiGKNbvW4sge6gsuzz4ydGb+ohDZpeBCcmpDnU=",
+        "originContent": "    * *If you use these names, the code works out of the box!*",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### 选项 B：Google 日历  "
+      },
+      {
+        "row": 20,
+        "rowsha": "AmcFOmXV/EJxpDQMW3LFs6O/XJLmG15UGrSdw03EPEw=",
+        "originContent": "#### Option B: Google Calendar",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. 打开 `packages/family_calendar.yaml`。  "
+      },
+      {
+        "row": 22,
+        "rowsha": "k7qVRXn2PcHy8b7KrgTc4+KO60cek33w952npOXSd9Y=",
+        "originContent": "1. Open `packages/family_calendar.yaml`.",
+        "translatedContent": "2. 滚动到 `add_google_calendar_event` 脚本部分。  "
+      },
+      {
+        "row": 23,
+        "rowsha": "UI+ktO1vrioPfWMxfE8iekQ/zCSrGfwbBioW4otW58w=",
+        "originContent": "2. Scroll to the `add_google_calendar_event` script.",
+        "translatedContent": "3. 更新 `calendar_map`，指向你真实的 Google 实体："
+      },
+      {
+        "row": 24,
+        "rowsha": "ExvPjpMKOcCYK3/lLyTkqrSJrsyc9uBlMRt8Z+DUmac=",
+        "originContent": "3. Update the `calendar_map` to point to your real Google entities:",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "    ```yaml\n    calendar_map:\n      \"Alice\": \"calendar.alice_gmail_com\"\n      \"Bob\": \"calendar.bob_work_account\"\n    ```",
+    "ContentSha": "leFTyTfdA25kbkWsWUVZj/3XQL0roZtK2mfNv7/u/I4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "    ```yaml\n    calendar_map:\n      \"Alice\": \"calendar.alice_gmail_com\"\n      \"Bob\": \"calendar.bob_work_account\"\n    ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Smd7uFXHZ4A5mJmhjQad/x3aA2YbRNb3MKBFsn8S6eU=",
+        "originContent": "    ```yaml",
+        "translatedContent": "    ```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "v5Gvg2S1MiFleY3Fw+Bq5q8ehyiGZjdE5E1aicy0slI=",
+        "originContent": "    calendar_map:",
+        "translatedContent": "    calendar_map:"
+      },
+      {
+        "row": 3,
+        "rowsha": "uHTqObs3uW5xaa2shGDFBvI1aOH2XFNYDZzfu2dHUZc=",
+        "originContent": "      \"Alice\": \"calendar.alice_gmail_com\"",
+        "translatedContent": "      \"Alice\": \"calendar.alice_gmail_com\""
+      },
+      {
+        "row": 4,
+        "rowsha": "WoSUvlhWEuKGWKysbcq2Sw7tziJ6ds0IXoKzBaWspuo=",
+        "originContent": "      \"Bob\": \"calendar.bob_work_account\"",
+        "translatedContent": "      \"Bob\": \"calendar.bob_work_account\""
+      },
+      {
+        "row": 5,
+        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+        "originContent": "    ```",
+        "translatedContent": "    ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n#### Setting up Holidays\n\nSince Home Assistant updates, Holidays are now added via UI:\n\n1. Go to **Settings > Devices & Services > Add Integration > Holiday**.\n2. Select your country.\n3. Check the entity ID (e.g., `calendar.holidays`). If it differs from the default, update it in the dashboard YAML.\n\n### 4. The Dashboard (The Look)\n\n1. Create a new Dashboard View (Set View Type to **Sections**).\n2. Copy the code from [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).\n3. **Customize:**\n   * **Search & Replace:** Replace `person.alice` with your actual family member entities.\n   * **Weather:** Replace `weather.home` with your weather provider.\n   * **Background:** Update the image URL at the bottom of the yaml.\n\n### Step 5: The Theme (Optional)\n\nTo get the specific font look (Ovo):\n\n1. Ensure your `configuration.yaml` has this line under `frontend:`\n",
+    "ContentSha": "SqiO2eiDFiab8kQj6qOsRmfcdYe2/69LNVIq3JdrcDM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### 设置节假日\n\n自从 Home Assistant 更新后，节假日现在通过 UI 添加：\n\n1. 进入 **设置 > 设备与服务 > 添加集成 > 节假日**。\n2. 选择你的国家。\n3. 检查实体 ID（例如，`calendar.holidays`）。如果与默认不同，请在仪表盘 YAML 中更新。\n\n### 4. 仪表盘（外观）\n\n1. 创建一个新的仪表盘视图（将视图类型设置为 **Sections**）。\n2. 复制 [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml) 中的代码。\n3. **自定义：**\n   * **搜索并替换：** 将 `person.alice` 替换为你实际的家庭成员实体。\n   * **天气：** 将 `weather.home` 替换为你的天气提供者。\n   * **背景：** 更新 yaml 底部的图片 URL。\n\n### 第 5 步：主题（可选）\n\n要获得特定的字体外观（Ovo）：\n\n1. 确保你的 `configuration.yaml` 在 `frontend:` 下有这一行。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7mxVzBe96TosqQfcENOHfcIHSqg9vgNvIAzsG1MNkSY=",
+        "originContent": "#### Setting up Holidays",
+        "translatedContent": "#### 设置节假日"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "VXEI/M4G4lNtR4FfOt98HLiQNF49i4xpx664jGgKyNo=",
+        "originContent": "Since Home Assistant updates, Holidays are now added via UI:",
+        "translatedContent": "自从 Home Assistant 更新后，节假日现在通过 UI 添加："
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "7lR366bwFsAcjUXoRV+oV0yuOpXhgb31132jz0LdmDI=",
+        "originContent": "1. Go to **Settings > Devices & Services > Add Integration > Holiday**.",
+        "translatedContent": "1. 进入 **设置 > 设备与服务 > 添加集成 > 节假日**。"
+      },
+      {
+        "row": 7,
+        "rowsha": "Qlph9kR2QzZOOpEndvKTrdNCqpIOtBr20P2EgAIQ68U=",
+        "originContent": "2. Select your country.",
+        "translatedContent": "2. 选择你的国家。"
+      },
+      {
+        "row": 8,
+        "rowsha": "A+kTv7G+3/5wmKFt8JWB8sjq4JCTgq9sxryz62r6HWk=",
+        "originContent": "3. Check the entity ID (e.g., `calendar.holidays`). If it differs from the default, update it in the dashboard YAML.",
+        "translatedContent": "3. 检查实体 ID（例如，`calendar.holidays`）。如果与默认不同，请在仪表盘 YAML 中更新。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "gpW8ewhtsK6mHzGiccGlKR2qOebLJUmED/ouswvgEsA=",
+        "originContent": "### 4. The Dashboard (The Look)",
+        "translatedContent": "### 4. 仪表盘（外观）"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "QsE0X0xi0pYoBRgTfWNmvCeVlpbT5I1SWtb4MoZihCs=",
+        "originContent": "1. Create a new Dashboard View (Set View Type to **Sections**).",
+        "translatedContent": "1. 创建一个新的仪表盘视图（将视图类型设置为 **Sections**）。"
+      },
+      {
+        "row": 13,
+        "rowsha": "B5zPZMcUOjACqhzb6B2kbRT04KbqFsYjznWViPfSnVQ=",
+        "originContent": "2. Copy the code from [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).",
+        "translatedContent": "2. 复制 [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml) 中的代码。"
+      },
+      {
+        "row": 14,
+        "rowsha": "busH0YbaR2Hc6YUq+nu+iyHLuqjGXoWZqKJJa9s/p8M=",
+        "originContent": "3. **Customize:**",
+        "translatedContent": "3. **自定义：**"
+      },
+      {
+        "row": 15,
+        "rowsha": "Ztx/3y/pkBIq9cHVNTLyiMZzfr7xh8uRnqIFx6bgp9k=",
+        "originContent": "   * **Search & Replace:** Replace `person.alice` with your actual family member entities.",
+        "translatedContent": "   * **搜索并替换：** 将 `person.alice` 替换为你实际的家庭成员实体。"
+      },
+      {
+        "row": 16,
+        "rowsha": "dc98r25xlZYuwBGeFnfaNNr8UwdbyMODr7ipiHqP52M=",
+        "originContent": "   * **Weather:** Replace `weather.home` with your weather provider.",
+        "translatedContent": "   * **天气：** 将 `weather.home` 替换为你的天气提供者。"
+      },
+      {
+        "row": 17,
+        "rowsha": "+6eoZpeyDlipjw718MrsotC632seCiz0JCukEFTw0h0=",
+        "originContent": "   * **Background:** Update the image URL at the bottom of the yaml.",
+        "translatedContent": "   * **背景：** 更新 yaml 底部的图片 URL。"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "j4DA92N/VQryaiizcJWNITub3e6krMB1Iox3retWQKo=",
+        "originContent": "### Step 5: The Theme (Optional)",
+        "translatedContent": "### 第 5 步：主题（可选）"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "T9AH32k5A9dGb9X3cCjQdj68Q1DGSVcPm54ehfj58zU=",
+        "originContent": "To get the specific font look (Ovo):",
+        "translatedContent": "要获得特定的字体外观（Ovo）："
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "+pXFfCs1PaaHtzl4uO7dYGQ3v3C9dNyzFqPREt74H+w=",
+        "originContent": "1. Ensure your `configuration.yaml` has this line under `frontend:`",
+        "translatedContent": "1. 确保你的 `configuration.yaml` 在 `frontend:` 下有这一行。"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "   ```yaml\n   frontend:\n     themes: !include_dir_merge_named themes\n   ```",
+    "ContentSha": "b7pGtomNZA3hgQuIbAiq+j7Km0/jcBIfkoynd94dd44=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```yaml\n   frontend:\n     themes: !include_dir_merge_named themes\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "d4Nh96RDflJXS7qID6zX8Ei83ADY0SnevUcR/0fljQM=",
+        "originContent": "   ```yaml",
+        "translatedContent": "   ```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "a6uMpjnQBcAzOfM0PDj+vMPAB/RxsAo20OzF0OX9/vU=",
+        "originContent": "   frontend:",
+        "translatedContent": "   frontend:"
+      },
+      {
+        "row": 3,
+        "rowsha": "cC+svrfFuq9ox7K6W966Qcrt7IOIk1kySG1mrwckFWo=",
+        "originContent": "     themes: !include_dir_merge_named themes",
+        "translatedContent": "     themes: !include_dir_merge_named themes"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n2. Create a folder named `themes` in your config directory.\n3. Download [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) and place it in that folder.\n4. Restart Home Assistant.\n5. Go to your Profile (User Icon bottom left) and change **Theme** to `Skylight`.\nNOTE: The theme is not comprehensive, so keep that in mind\n\n---\n\n## 📐 How It Works (Under the Hood)\n\n### Filter Logic\n\nThe `week-planner-card` does not natively support hiding specific calendars on the fly. To solve this, I used **Input Texts** acting as Regex filters.\n\n* When you click a person's button, it toggles their filter between `.*` (Show everything) and `^$` (Show nothing).\n* `config-template-card` injects these variables into the calendar card dynamically.\n\n### Event Creation Script\n\nThe \"Add Event\" popup uses a single script that handles logic for multiple people and event types (All Day vs Timed).\n",
+    "ContentSha": "huE32Ag6lT2O7owhecTu4boisj5hfSLMIXT//QTVI0o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "2. 在您的配置目录中创建一个名为 `themes` 的文件夹。  \n3. 下载 [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) 并将其放入该文件夹。  \n4. 重启 Home Assistant。  \n5. 进入您的个人资料（左下角用户图标），将 **Theme** 更改为 `Skylight`。  \n注意：该主题不全面，请注意这一点。  \n\n---  \n\n## 📐 工作原理（幕后）  \n\n### 过滤逻辑  \n\n`week-planner-card` 本身不支持动态隐藏特定日历。为了解决这个问题，我使用了作为正则表达式过滤器的 **输入文本**。  \n\n* 当您点击某个人的按钮时，会在 `.*`（显示所有）和 `^$`（不显示任何内容）之间切换其过滤器。  \n* `config-template-card` 将这些变量动态注入日历卡片中。  \n\n### 事件创建脚本  \n\n“添加事件”弹窗使用一个脚本，处理多个人员和事件类型（全天与定时）的逻辑。  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. 在您的配置目录中创建一个名为 `themes` 的文件夹。  "
+      },
+      {
+        "row": 2,
+        "rowsha": "YY4TwuM5odD3e2jvJM0+bUdWaKLR5gdN0VMGL0kXf2E=",
+        "originContent": "2. Create a folder named `themes` in your config directory.",
+        "translatedContent": "3. 下载 [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) 并将其放入该文件夹。  "
+      },
+      {
+        "row": 3,
+        "rowsha": "lK2y4FzhM9bTiRzJy0JCuZ1qUldeODr/OD2gAfM0jwk=",
+        "originContent": "3. Download [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) and place it in that folder.",
+        "translatedContent": "4. 重启 Home Assistant。  "
+      },
+      {
+        "row": 4,
+        "rowsha": "1PL6DAd0P86p7jKZQ153sDYI1Qow1TldLUC/8s1u68M=",
+        "originContent": "4. Restart Home Assistant.",
+        "translatedContent": "5. 进入您的个人资料（左下角用户图标），将 **Theme** 更改为 `Skylight`。  "
+      },
+      {
+        "row": 5,
+        "rowsha": "+q7+KJMwTebsRfPtpdgwVkYwJHGxrI+k0PNQ8gbLZ/w=",
+        "originContent": "5. Go to your Profile (User Icon bottom left) and change **Theme** to `Skylight`.",
+        "translatedContent": "注意：该主题不全面，请注意这一点。  "
+      },
+      {
+        "row": 6,
+        "rowsha": "PJFaft4Q8d7Ma/wUi202Zs1aLg1uZ4lc7NrpQfiqu2w=",
+        "originContent": "NOTE: The theme is not comprehensive, so keep that in mind",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📐 工作原理（幕后）  "
+      },
+      {
+        "row": 10,
+        "rowsha": "Wz12KyvxOnOP4Xb1FWlqzPjE8YFjKJVPAZl/6LgM3nk=",
+        "originContent": "## 📐 How It Works (Under the Hood)",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 过滤逻辑  "
+      },
+      {
+        "row": 12,
+        "rowsha": "cD/dXGPqbN4xkhaZPgCuHHcKGJDvqULnlH+WMwaUpMM=",
+        "originContent": "### Filter Logic",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "`week-planner-card` 本身不支持动态隐藏特定日历。为了解决这个问题，我使用了作为正则表达式过滤器的 **输入文本**。  "
+      },
+      {
+        "row": 14,
+        "rowsha": "6fD0zu/WrruSpOY3D6DvP/oNvErk0iw6UyxEXGsvWKk=",
+        "originContent": "The `week-planner-card` does not natively support hiding specific calendars on the fly. To solve this, I used **Input Texts** acting as Regex filters.",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 当您点击某个人的按钮时，会在 `.*`（显示所有）和 `^$`（不显示任何内容）之间切换其过滤器。  "
+      },
+      {
+        "row": 16,
+        "rowsha": "O+wpLcDDj7HEpCzvnVBbp8MIYDYSCkKpnvXrE/H8pv8=",
+        "originContent": "* When you click a person's button, it toggles their filter between `.*` (Show everything) and `^$` (Show nothing).",
+        "translatedContent": "* `config-template-card` 将这些变量动态注入日历卡片中。  "
+      },
+      {
+        "row": 17,
+        "rowsha": "Q2xhrcc0rvQF+mBh2p1uDljezIo7OpOiCttPwuScQ3w=",
+        "originContent": "* `config-template-card` injects these variables into the calendar card dynamically.",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 事件创建脚本  "
+      },
+      {
+        "row": 19,
+        "rowsha": "uRJpt2m1Q3r68xG64zqJHJc+cae/MMxCfqaMlviji8g=",
+        "originContent": "### Event Creation Script",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "“添加事件”弹窗使用一个脚本，处理多个人员和事件类型（全天与定时）的逻辑。  "
+      },
+      {
+        "row": 21,
+        "rowsha": "q+Hlzel7+QGnu2adDrVIbKOeOBWxLf09f1ODTOIgJI0=",
+        "originContent": "The \"Add Event\" popup uses a single script that handles logic for multiple people and event types (All Day vs Timed).",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```yaml\n# Simplified Logic Example\ntarget_calendar: \"{{ calendar_map.get(states('input_select.calendar_select')) }}\"\n\nchoose:\n  - conditions: \"All Day Event is ON\"\n    action: calendar.create_event (start_date, end_date)\n  - conditions: \"All Day Event is OFF\"\n    action: calendar.create_event (start_date_time, end_date_time)\n```",
+    "ContentSha": "0XtK38fovqlAq5msmKlykvnJT22xfD2eSRz070p8Ro4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```yaml\n# Simplified Logic Example\ntarget_calendar: \"{{ calendar_map.get(states('input_select.calendar_select')) }}\"\n\nchoose:\n  - conditions: \"All Day Event is ON\"\n    action: calendar.create_event (start_date, end_date)\n  - conditions: \"All Day Event is OFF\"\n    action: calendar.create_event (start_date_time, end_date_time)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+        "originContent": "```yaml",
+        "translatedContent": "```yaml"
+      },
+      {
+        "row": 2,
+        "rowsha": "C6S31V9+WRvRc7j9qvorlUfG3ftWxb2sNBxWzHZE5eU=",
+        "originContent": "# Simplified Logic Example",
+        "translatedContent": "# Simplified Logic Example"
+      },
+      {
+        "row": 3,
+        "rowsha": "kwtrS/fWSGTLWEsB0Tiy1dnlu1ZSzl8HdTgVbDU1XfQ=",
+        "originContent": "target_calendar: \"{{ calendar_map.get(states('input_select.calendar_select')) }}\"",
+        "translatedContent": "target_calendar: \"{{ calendar_map.get(states('input_select.calendar_select')) }}\""
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "oQnpVXq4fVVyF3WVmpn75te1GNTXME0nnfvc4r4M17I=",
+        "originContent": "choose:",
+        "translatedContent": "choose:"
+      },
+      {
+        "row": 6,
+        "rowsha": "OBpkMifm2ZIxLuctUGPaQxkuwimvEVGxoRrDUli5xl0=",
+        "originContent": "  - conditions: \"All Day Event is ON\"",
+        "translatedContent": "  - conditions: \"All Day Event is ON\""
+      },
+      {
+        "row": 7,
+        "rowsha": "hOjYM+OPhKOaLqIktRxykKU5KqIZRXRMOyHw81fekQ4=",
+        "originContent": "    action: calendar.create_event (start_date, end_date)",
+        "translatedContent": "    action: calendar.create_event (start_date, end_date)"
+      },
+      {
+        "row": 8,
+        "rowsha": "wOPxmO+am6OiqvyMtHxUU2FtkB0lsC0v/JOa3WXHptE=",
+        "originContent": "  - conditions: \"All Day Event is OFF\"",
+        "translatedContent": "  - conditions: \"All Day Event is OFF\""
+      },
+      {
+        "row": 9,
+        "rowsha": "ktYPNSK2uxbBauWHcitlYxUbyNPw92NgVpmGE1NA5JA=",
+        "originContent": "    action: calendar.create_event (start_date_time, end_date_time)",
+        "translatedContent": "    action: calendar.create_event (start_date_time, end_date_time)"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n## NOTES\n\nMy original post was just to give a high level overview of how to do it and allow people to adjust code to make it work in their specific scenarios.\n\nIn particular I did this because every display and need is different. I can't develop for all potential sizes of displays, dashboards, etc. So it is built to work in the display I mentioned or any (1920x1080) but should be editable for others.\n\nTalking about display, I originally suggested that one because it was on sale at Woot and was a very economic way to get a touchscreen display at the time. This might not be the case now, so use whatever display works for you. Tablet, touchscreen, phone, whatever. The main thing youll need to edit is the dashboard.\n\n",
+    "ContentSha": "n/gUgnX2YPNEJmAoc7iGTXXmHK4iQGpEJW/2vzZ7uzk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 备注\n\n我最初的帖子只是为了提供一个如何操作的高级概述，允许人们调整代码以使其在他们的具体场景中工作。\n\n特别是我这样做是因为每个显示器和需求都不同。我无法为所有潜在尺寸的显示器、仪表板等进行开发。因此，它被设计为在我提到的显示器或任何（1920x1080）上工作，但应该可以编辑以适应其他情况。\n\n说到显示器，我最初建议那个是因为它当时在Woot上有促销，是获得触摸屏显示器的一种非常经济的方式。现在情况可能不一样，所以使用任何适合你的显示器。平板、触摸屏、手机，随你选择。你需要编辑的主要部分是仪表板。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZTDw/SuazFur9qiLhSGNkY4Md0VtW9vnoJTuupRwZhY=",
+        "originContent": "## NOTES",
+        "translatedContent": "## 备注"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "wKWzhNQ+lzsHSqf7vALZdPDrfewRUPbtIFUNdQxvlKU=",
+        "originContent": "My original post was just to give a high level overview of how to do it and allow people to adjust code to make it work in their specific scenarios.",
+        "translatedContent": "我最初的帖子只是为了提供一个如何操作的高级概述，允许人们调整代码以使其在他们的具体场景中工作。"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "jfPKCY6vVQekZo/+L1zz2WdgA9gXK5iyozp+1JtmZ3k=",
+        "originContent": "In particular I did this because every display and need is different. I can't develop for all potential sizes of displays, dashboards, etc. So it is built to work in the display I mentioned or any (1920x1080) but should be editable for others.",
+        "translatedContent": "特别是我这样做是因为每个显示器和需求都不同。我无法为所有潜在尺寸的显示器、仪表板等进行开发。因此，它被设计为在我提到的显示器或任何（1920x1080）上工作，但应该可以编辑以适应其他情况。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "zXQYKedb5X4z3/dnamTR7sjgBYO2D5+b6UkDtYuOJ2M=",
+        "originContent": "Talking about display, I originally suggested that one because it was on sale at Woot and was a very economic way to get a touchscreen display at the time. This might not be the case now, so use whatever display works for you. Tablet, touchscreen, phone, whatever. The main thing youll need to edit is the dashboard.",
+        "translatedContent": "说到显示器，我最初建议那个是因为它当时在Woot上有促销，是获得触摸屏显示器的一种非常经济的方式。现在情况可能不一样，所以使用任何适合你的显示器。平板、触摸屏、手机，随你选择。你需要编辑的主要部分是仪表板。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

@@ -1,0 +1,1034 @@
+[
+  {
+    "row": 1,
+    "rowsha": "LfsQts7Y2Ttd60GvWhyTEhmRoTarSYaLR4fBuWIraSo=",
+    "originContent": "# DIY Smart Home Family Calendar (Skylight Clone)",
+    "translatedContent": "# DIY 스마트 홈 가족 달력 (스카이라이트 클론)"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "qgwScLzIodjojkFJoD2PK+bbl1Od59IQX5wyNPXvydU=",
+    "originContent": "![Sklylight calendar](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)",
+    "translatedContent": "![Sklylight calendar](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)"
+  },
+  {
+    "row": 4,
+    "rowsha": "DIz1ZVYrPtfrBsjfjgti7cpUHGpmcjJ2BM6IgEl5CJ0=",
+    "originContent": "![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)",
+    "translatedContent": "![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)"
+  },
+  {
+    "row": 5,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 6,
+    "rowsha": "l0c6cDZUkpYBoFxdVrFZTEXbBtKd1+I3s4NX2F0TnGc=",
+    "originContent": "## 📖 Introduction",
+    "translatedContent": "## 📖 소개"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "BJ+pYJJ2kP4iZqOLNL7DgWxJG4igyuVDs6GWD6ZC47w=",
+    "originContent": "My wife has been recently bombarded in social media with ads for smart home calendars (Skylight, Cozyla, Hearth) and was ready to spend over $300 on one. Before giving her the green light, I asked for a chance to research them.",
+    "translatedContent": "최근에 아내가 스마트 홈 달력(스카이라이트, 코지라, 하스) 광고에 시달리며 300달러 이상을 쓰려고 했습니다. 허락하기 전에 제가 직접 조사할 기회를 달라고 했습니다."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "hnBfGh8KbE8U+2SIdT8Y0CQCK8iMZtKqwcg+iwsOnbI=",
+    "originContent": "I realized most offered similar functionality but differed significantly in price. Most importantly, I didn't see any outstanding feature that I couldn't implement in **Home Assistant**.",
+    "translatedContent": "대부분 비슷한 기능을 제공하지만 가격 차이가 크다는 것을 알게 되었습니다. 가장 중요한 점은 **Home Assistant**에서 구현할 수 없는 뛰어난 기능이 전혀 보이지 않았다는 것입니다."
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "jP17a4v/FBunep5iCUEqbf50gL5R76Ia74FSvoNSNX0=",
+    "originContent": "**The Goal:** A WAF-approved (Wife Acceptance Factor), countertop-friendly touchscreen calendar that integrates deep into our smart home without monthly fees.",
+    "translatedContent": "**목표:** 아내가 승인하는(WAF, Wife Acceptance Factor), 주방 위에 두기 좋은 터치스크린 달력으로 월 사용료 없이 스마트 홈과 깊게 통합되는 것."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "QD73xfNOD0t5vUa/9DDYLV75Z0QW86HJtHQCcb34drA=",
+    "originContent": "## 💡 Why DIY?",
+    "translatedContent": "## 💡 왜 DIY인가?"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "pAscW4xVov+tCae436iaNnjfewBcLfC8yYLnH6cyx4A=",
+    "originContent": "Choosing the DIY route with Home Assistant provided several benefits over buying a Skylight/Hearth display:",
+    "translatedContent": "Home Assistant로 DIY를 선택한 이유는 스카이라이트나 하스 디스플레이를 구매하는 것보다 여러 가지 이점이 있었기 때문입니다:"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "8xjKZElXWIw23E5bhdHex/3cFeOUGFm9xtPCwP2u6iI=",
+    "originContent": "* **No Monthly Fees:** Avoids subscriptions for \"premium\" features.",
+    "translatedContent": "* **월 사용료 없음:** \"프리미엄\" 기능을 위한 구독을 피할 수 있습니다."
+  },
+  {
+    "row": 19,
+    "rowsha": "tqZiPpCwS5OTt2TVkBHh7WgS0hEEkP3jkblL9NIeqbI=",
+    "originContent": "* **Seamless Integration:** It talks to our lights, chores (Grocy), and presence sensors.",
+    "translatedContent": "* **완벽한 통합:** 조명, 집안일(Grocy), 존재 센서와 연동됩니다."
+  },
+  {
+    "row": 20,
+    "rowsha": "Aueh1fyun3sMI5URhoMxb/WjeO2/h/fPg4WMGkA2HkQ=",
+    "originContent": "* **Old Hardware:** Repurposed a Mini PC and a standard monitor.",
+    "translatedContent": "* **오래된 하드웨어 활용:** 미니 PC와 일반 모니터를 재활용했습니다."
+  },
+  {
+    "row": 21,
+    "rowsha": "Wmqul1wZcC7qL9rL5e6J1MPpN6BEs+8w7pM3j13+8Tk=",
+    "originContent": "* **Privacy:** No vendor lock-in or risk of the company shutting down.",
+    "translatedContent": "* **개인정보 보호:** 공급업체에 종속되지 않고 회사 폐쇄 위험이 없습니다."
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "RNvyrmDh5r3pkRKxFX8KF8U+6MBo/8Zd81i5HvrZRWc=",
+    "originContent": "## 🛠 Hardware Selection",
+    "translatedContent": "## 🛠 하드웨어 선택"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "XnAQPnEFdBxSibvibBHFA+WYoNM5WykBDo7OPi9cP3U=",
+    "originContent": "This is currently built to show the dashboard on any HD (1920x1080) display.",
+    "translatedContent": "현재는 HD(1920x1080) 화면에서 대시보드를 보여주도록 제작되었습니다."
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "sNGR2LpfAhG+R58nXhIP2pm91YV6yfKHpcLvY6r724A=",
+    "originContent": "In my case, the requirement was for it to \"look like\" skylight, be touchscreen, be countertop, possibility to move it to different locations. Therefore I went with the hardware described below.",
+    "translatedContent": "제 경우에는 스카이라이트처럼 보이고 터치스크린이며, 주방 위에 두기 편하고 여러 장소로 옮길 수 있어야 했습니다. 그래서 아래에 설명된 하드웨어를 선택했습니다."
+  },
+  {
+    "row": 28,
+    "rowsha": "NkJ/lFdfMv8cYy7XepWKgpbI76WrXsBeOT8OwaZDaqc=",
+    "originContent": "Nevertheless, you case might be different and will need you to adjust it as needed, for example if you want to display it on a tablet or something else.",
+    "translatedContent": "하지만 여러분의 경우는 다를 수 있으므로 태블릿 등 다른 장치에 표시하려면 적절히 조정해야 합니다."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "WaRbj1ahDxfdV2mKybTiFGDOqBE0O3/Jo4eKbJ6pquE=",
+    "originContent": "The hardware I originally used I chose based on what I mentioned above plus with the hope to be able to extend functionality using the webcam, speaker and microphone. Currently I would probably build it differently now in hindsight, since I havent had time to address these additional hardware ideas.",
+    "translatedContent": "처음 사용한 하드웨어는 위 조건에 맞추고 웹캠, 스피커, 마이크를 이용해 기능을 확장할 수 있길 바라는 마음에서 골랐습니다. 지금 생각해보면 아직 그 추가 하드웨어 아이디어를 구현할 시간이 없었기에 아마 다르게 만들었을 것입니다."
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "WJKLc4AvOTEz6Vvq7CHUdG7tjApkLh+ytO+MUUk4vI8=",
+    "originContent": "* **Monitor:** [HP Engage 15-inch Touchscreen](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). I chose this over generic portable monitors because it includes a built-in **Speaker, Webcam, and Microphone**, allowing for future voice control or video calls.",
+    "translatedContent": "* **모니터:** [HP Engage 15인치 터치스크린](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). 일반 휴대용 모니터 대신 내장 **스피커, 웹캠, 마이크**가 포함되어 있어 향후 음성 제어나 화상 통화에 유리합니다."
+  },
+  {
+    "row": 33,
+    "rowsha": "K/3B483Kc07UXQjty8cZFkMic/dGIUaEOMdb0LANCBk=",
+    "originContent": "* **Computer:** An old Mini PC (NUC/Tiny PC) running Windows/Linux in Kiosk mode, or a Raspberry Pi 4.~~",
+    "translatedContent": "* **컴퓨터:** 윈도우/리눅스 키오스크 모드로 실행되는 오래된 미니 PC(NUC/Tiny PC) 또는 라즈베리 파이 4.~~"
+  },
+  {
+    "row": 34,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## ✨ 기능"
+  },
+  {
+    "row": 36,
+    "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+    "originContent": "## ✨ Features",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* **가족 전체 및 개별 보기:** 특정 가족 구성원의 달력을 켜고 끌 수 있습니다."
+  },
+  {
+    "row": 38,
+    "rowsha": "e+bxyJSkfcuGkAXp7cRk+r6LjSeIFCs8mFUalmKc5Ro=",
+    "originContent": "* **Family-wide & Individual Views:** Toggle specific family members' calendars on/off.",
+    "translatedContent": "* **양방향 동기화:** 화면이나 휴대폰(구글 캘린더)에서 이벤트를 편집할 수 있습니다."
+  },
+  {
+    "row": 39,
+    "rowsha": "fhbdhdWGD8QoIJqVapA/sA3LY9cwf4yoIiQwlkOqYrY=",
+    "originContent": "* **Two-way Sync:** Edit events on the screen or on our phones (Google Calendar).",
+    "translatedContent": "* **\"이벤트 추가\" 팝업:** 화면에서 특정 달력에 직접 이벤트를 추가할 수 있는 맞춤 UI입니다."
+  },
+  {
+    "row": 40,
+    "rowsha": "52Q3DbbFTlcUTM6BtuKNB3CFi5Nyp9AmQx+WaygdpJM=",
+    "originContent": "* **\"Add Event\" Popup:** A custom UI to add events to specific calendars directly from the screen.",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "rIuZRjYVgI872pyHRRAc2evQiHpUSwzcHCpa0ovrbAI=",
+    "originContent": "* **Weather & Date:** Beautiful, glanceable header.",
+    "translatedContent": "* **날씨 및 날짜:** 아름답고 한눈에 보기 쉬운 헤더."
+  },
+  {
+    "row": 42,
+    "rowsha": "k8TZIHZOsKUOxbi2vttY/zbSee5ZBl/te2FVL+y6iek=",
+    "originContent": "* **Responsive:** Automatically adjusts day-count based on screen width (Mobile vs Desktop).",
+    "translatedContent": "* **반응형:** 화면 너비(모바일 대 데스크톱)에 따라 자동으로 일 수를 조정합니다."
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "gBkURJuIjLuEwJa6OsvgMdWYrx/rIxrqGhejjzSkQbE=",
+    "originContent": "## ⚙️ Installation Guide",
+    "translatedContent": "## ⚙️ 설치 가이드"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "Y2W7WOQeEH3dkKcDVxzqQYPl8Op9pnYdDXoVSuMzVSQ=",
+    "originContent": "*Note: This setup uses a **YAML Package** to automatically create all the necessary helpers, scripts, and variables for you. You do not need to create them manually.*",
+    "translatedContent": "*참고: 이 설정은 필요한 모든 헬퍼, 스크립트 및 변수를 자동으로 생성하는 **YAML 패키지**를 사용합니다. 수동으로 생성할 필요가 없습니다.*"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "w3M5aknbYQp2SK4sdqCdtUQA6uhJJW38DP0ML5BhoA0=",
+    "originContent": "### 1. Prerequisites (HACS)",
+    "translatedContent": "### 1. 사전 준비물 (HACS)"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "feazGA52PS82A35t0nwMmCLaatz/pWZKWtlr5lUo7RA=",
+    "originContent": "You must have [HACS](https://hacs.xyz/) installed. Please install the following **Frontend** integrations:",
+    "translatedContent": "[HACS](https://hacs.xyz/)가 설치되어 있어야 합니다. 다음 **프론트엔드** 통합을 설치하세요:"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "ia5UcwUPRJ/c+xCjKBindUPaaosjrAzr6pRQwqVAe4s=",
+    "originContent": "* `week-planner-card`",
+    "translatedContent": "* `week-planner-card`"
+  },
+  {
+    "row": 55,
+    "rowsha": "KVzyACj5bb8Xxdp8DgmNHHPWWUi0LmY9MhbPh8ClOnE=",
+    "originContent": "* `bubble-card`",
+    "translatedContent": "* `bubble-card`"
+  },
+  {
+    "row": 56,
+    "rowsha": "ppAKIQ9jIpvBsgl/pFyDKVcLmpxBwUKyzxbYKln/sfM=",
+    "originContent": "* `config-template-card`",
+    "translatedContent": "* `config-template-card`"
+  },
+  {
+    "row": 57,
+    "rowsha": "V9s8fkSivxacvpHEG7qFDqVfzfS5j8/I34DR6cIGZ/w=",
+    "originContent": "* `card-mod`",
+    "translatedContent": "* `card-mod`"
+  },
+  {
+    "row": 58,
+    "rowsha": "Yvg4ASfEq4IVbJRaKTLcOHWCpAw5ft58Bzp5Xl3A1gE=",
+    "originContent": "* `better-moment-card`",
+    "translatedContent": "* `better-moment-card`"
+  },
+  {
+    "row": 59,
+    "rowsha": "ylI8L7de5jEL0rKOgZBPtBVMqi8xiYGv4r9pglB9HBg=",
+    "originContent": "* `weather-card`",
+    "translatedContent": "* `weather-card`"
+  },
+  {
+    "row": 60,
+    "rowsha": "WyfXSnW2xPpQELPzUDDkLgG/hg8MyB5/gCcwJecJlcE=",
+    "originContent": "* `browser_mod` (Required for the popups to work)",
+    "translatedContent": "* `browser_mod` (팝업 작동에 필요)"
+  },
+  {
+    "row": 61,
+    "rowsha": "FcrhkBgjMStGFi7UVVUpQFpMt9G1Kom/jh2M9zidC/A=",
+    "originContent": "* `layout-card` (Required for the Sections view)",
+    "translatedContent": "* `layout-card` (섹션 뷰에 필요)"
+  },
+  {
+    "row": 62,
+    "rowsha": "URiH6gihak0QzscfZQfqWcs3Z+/s8ev1Vhhn0hMGb8Q=",
+    "originContent": "* `button-card` (Required for the popup to add event)",
+    "translatedContent": "* `button-card` (이벤트 추가 팝업에 필요)"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "H+fo+22ooXg8ZCCUbVm38mSpTf02uh+zzBUgzVcS998=",
+    "originContent": "### 2. The Backend (The Brains)",
+    "translatedContent": "### 2. 백엔드 (두뇌 역할)"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 66,
+    "rowsha": "aw4SFRZxa3jGkWxfwD0SAPFFN1fJSRYT15N3Uo6JMPs=",
+    "originContent": "1. Open your `configuration.yaml` file in Home Assistant.",
+    "translatedContent": "1. Home Assistant의 `configuration.yaml` 파일을 엽니다."
+  },
+  {
+    "row": 67,
+    "rowsha": "MonCsGTwlpHZd5y3f/fYWGlzXxEQDYIxgx+SzbqkLuo=",
+    "originContent": "2. Ensure you have this line added under `homeassistant:` to enable packages:",
+    "translatedContent": "2. 패키지를 활성화하려면 `homeassistant:` 아래에 다음 줄이 추가되어 있는지 확인하세요:"
+  },
+  {
+    "row": 68,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "d4Nh96RDflJXS7qID6zX8Ei83ADY0SnevUcR/0fljQM=",
+    "originContent": "   ```yaml",
+    "translatedContent": "   ```yaml"
+  },
+  {
+    "row": 70,
+    "rowsha": "uXiXdv1WHCY+f2M8fyONfY6QhhwzOmM2iFkxMhlJYS4=",
+    "originContent": "   homeassistant:",
+    "translatedContent": "   homeassistant:"
+  },
+  {
+    "row": 71,
+    "rowsha": "GEvYf4yRSBSDgiGNGZCCidcak7evVUK5xEPHl88s6+g=",
+    "originContent": "     packages: !include_dir_named packages",
+    "translatedContent": "     packages: !include_dir_named packages"
+  },
+  {
+    "row": 72,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "3. HA 구성 디렉토리에 `packages`라는 폴더를 만드세요(없는 경우)."
+  },
+  {
+    "row": 74,
+    "rowsha": "RNRBmV5wuCxsN9kQ3DdgfCqq4HvZdU8TFYoS8NdEXR0=",
+    "originContent": "3. Create a folder named `packages` in your HA config directory (if you don't have one).",
+    "translatedContent": "4. 이 저장소에서 [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml)를 다운로드하세요."
+  },
+  {
+    "row": 75,
+    "rowsha": "lNmWWcyR7I7uHv7CgPRbGwDeNnRQ01h7n0+t7eP6XYE=",
+    "originContent": "4. Download [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) from this repo.",
+    "translatedContent": "5. 파일을 `packages/` 폴더 안에 넣으세요."
+  },
+  {
+    "row": 76,
+    "rowsha": "DcJpXwbe9QeF7WYdCmPB24A6rpWWOH98SFU4b/v3+Oo=",
+    "originContent": "5. Place the file inside your `packages/` folder.",
+    "translatedContent": "6. **Home Assistant를 재시작하세요**."
+  },
+  {
+    "row": 77,
+    "rowsha": "C5oSmI66lPM2jvLDqQXGg23tGYypd4rXZeMgGoNl40A=",
+    "originContent": "6. **Restart Home Assistant**.",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 3. 캘린더들"
+  },
+  {
+    "row": 79,
+    "rowsha": "1Qal3HDoY2gN67MWX7ll8J3apJdBOsHWfGPXhX5YBfo=",
+    "originContent": "### 3. The Calendars",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "**Google 캘린더** 또는 **로컬 캘린더**를 사용할 수 있습니다."
+  },
+  {
+    "row": 81,
+    "rowsha": "ZmcXeL6XKWOBdvi9LoF0hkCrjXcDZBbGf2mLNLJq9Ts=",
+    "originContent": "You can use **Google Calendars** or **Local Calendars**.",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 옵션 A: 로컬 캘린더 (가장 쉬움)"
+  },
+  {
+    "row": 83,
+    "rowsha": "NLhOk+GmX8WsAtwG27PVpCE4bnQaikei+NDh4x9Hmys=",
+    "originContent": "#### Option A: Local Calendar (Easiest)",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "참고: 저는 Google 캘린더만 사용하기 때문에 테스트되지 않았습니다."
+  },
+  {
+    "row": 85,
+    "rowsha": "GgekKp+C1+C/DhOPpoZCTOxxgqAQytIkFj//J7FgqdQ=",
+    "originContent": "Note this is untested since I use Google Calendars exclusively",
+    "translatedContent": ""
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. **설정 > 기기 및 서비스**로 이동하세요."
+  },
+  {
+    "row": 87,
+    "rowsha": "k0QZcITy1Qvxr6N2BCp9c/g8r2vTaGReQ9r3XThmvdY=",
+    "originContent": "1. Go to **Settings > Devices & Services**.",
+    "translatedContent": "2. **로컬 캘린더** 통합을 추가하세요."
+  },
+  {
+    "row": 88,
+    "rowsha": "zKvqs77ZtxcVlJGmQQoSZZpwRq2ToG1s6CBPsfxXW3c=",
+    "originContent": "2. Add the **Local Calendar** integration.",
+    "translatedContent": "3. 정확히 `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`라는 이름의 캘린더를 만드세요."
+  },
+  {
+    "row": 89,
+    "rowsha": "G8MWQWafBuBrLzkpL6XyNwFE0okwEDk9oOFoiHG9CJQ=",
+    "originContent": "3. Create calendars named exactly: `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`.",
+    "translatedContent": "    * *이 이름들을 사용하면, 코드가 바로 작동합니다!*"
+  },
+  {
+    "row": 90,
+    "rowsha": "guHEMdiGKNbvW4sge6gsuzz4ydGb+ohDZpeBCcmpDnU=",
+    "originContent": "    * *If you use these names, the code works out of the box!*",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 옵션 B: Google 캘린더"
+  },
+  {
+    "row": 92,
+    "rowsha": "AmcFOmXV/EJxpDQMW3LFs6O/XJLmG15UGrSdw03EPEw=",
+    "originContent": "#### Option B: Google Calendar",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. `packages/family_calendar.yaml`을 여세요."
+  },
+  {
+    "row": 94,
+    "rowsha": "k7qVRXn2PcHy8b7KrgTc4+KO60cek33w952npOXSd9Y=",
+    "originContent": "1. Open `packages/family_calendar.yaml`.",
+    "translatedContent": "2. `add_google_calendar_event` 스크립트로 스크롤하세요."
+  },
+  {
+    "row": 95,
+    "rowsha": "UI+ktO1vrioPfWMxfE8iekQ/zCSrGfwbBioW4otW58w=",
+    "originContent": "2. Scroll to the `add_google_calendar_event` script.",
+    "translatedContent": "3. `calendar_map`을 실제 Google 엔티티에 맞게 업데이트하세요:"
+  },
+  {
+    "row": 96,
+    "rowsha": "ExvPjpMKOcCYK3/lLyTkqrSJrsyc9uBlMRt8Z+DUmac=",
+    "originContent": "3. Update the `calendar_map` to point to your real Google entities:",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "Smd7uFXHZ4A5mJmhjQad/x3aA2YbRNb3MKBFsn8S6eU=",
+    "originContent": "    ```yaml",
+    "translatedContent": "    ```yaml"
+  },
+  {
+    "row": 99,
+    "rowsha": "v5Gvg2S1MiFleY3Fw+Bq5q8ehyiGZjdE5E1aicy0slI=",
+    "originContent": "    calendar_map:",
+    "translatedContent": "    calendar_map:"
+  },
+  {
+    "row": 100,
+    "rowsha": "uHTqObs3uW5xaa2shGDFBvI1aOH2XFNYDZzfu2dHUZc=",
+    "originContent": "      \"Alice\": \"calendar.alice_gmail_com\"",
+    "translatedContent": "      \"Alice\": \"calendar.alice_gmail_com\""
+  },
+  {
+    "row": 101,
+    "rowsha": "WoSUvlhWEuKGWKysbcq2Sw7tziJ6ds0IXoKzBaWspuo=",
+    "originContent": "      \"Bob\": \"calendar.bob_work_account\"",
+    "translatedContent": "      \"Bob\": \"calendar.bob_work_account\""
+  },
+  {
+    "row": 102,
+    "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
+    "originContent": "    ```",
+    "translatedContent": "    ```"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### 휴일 설정"
+  },
+  {
+    "row": 104,
+    "rowsha": "7mxVzBe96TosqQfcENOHfcIHSqg9vgNvIAzsG1MNkSY=",
+    "originContent": "#### Setting up Holidays",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Home Assistant 업데이트 이후로 휴일은 이제 UI를 통해 추가됩니다:"
+  },
+  {
+    "row": 106,
+    "rowsha": "VXEI/M4G4lNtR4FfOt98HLiQNF49i4xpx664jGgKyNo=",
+    "originContent": "Since Home Assistant updates, Holidays are now added via UI:",
+    "translatedContent": ""
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. **설정 > 장치 및 서비스 > 통합 추가 > 휴일**로 이동합니다."
+  },
+  {
+    "row": 108,
+    "rowsha": "7lR366bwFsAcjUXoRV+oV0yuOpXhgb31132jz0LdmDI=",
+    "originContent": "1. Go to **Settings > Devices & Services > Add Integration > Holiday**.",
+    "translatedContent": "2. 국가를 선택합니다."
+  },
+  {
+    "row": 109,
+    "rowsha": "Qlph9kR2QzZOOpEndvKTrdNCqpIOtBr20P2EgAIQ68U=",
+    "originContent": "2. Select your country.",
+    "translatedContent": "3. 엔티티 ID(예: `calendar.holidays`)를 확인합니다. 기본값과 다르면 대시보드 YAML에서 업데이트하세요."
+  },
+  {
+    "row": 110,
+    "rowsha": "A+kTv7G+3/5wmKFt8JWB8sjq4JCTgq9sxryz62r6HWk=",
+    "originContent": "3. Check the entity ID (e.g., `calendar.holidays`). If it differs from the default, update it in the dashboard YAML.",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 4. 대시보드 (모양)"
+  },
+  {
+    "row": 112,
+    "rowsha": "gpW8ewhtsK6mHzGiccGlKR2qOebLJUmED/ouswvgEsA=",
+    "originContent": "### 4. The Dashboard (The Look)",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. 새 대시보드 뷰를 만듭니다 (뷰 유형을 **섹션**으로 설정)."
+  },
+  {
+    "row": 114,
+    "rowsha": "QsE0X0xi0pYoBRgTfWNmvCeVlpbT5I1SWtb4MoZihCs=",
+    "originContent": "1. Create a new Dashboard View (Set View Type to **Sections**).",
+    "translatedContent": "2. [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml)에서 코드를 복사합니다."
+  },
+  {
+    "row": 115,
+    "rowsha": "B5zPZMcUOjACqhzb6B2kbRT04KbqFsYjznWViPfSnVQ=",
+    "originContent": "2. Copy the code from [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).",
+    "translatedContent": "3. **사용자 정의:**"
+  },
+  {
+    "row": 116,
+    "rowsha": "busH0YbaR2Hc6YUq+nu+iyHLuqjGXoWZqKJJa9s/p8M=",
+    "originContent": "3. **Customize:**",
+    "translatedContent": "   * **검색 및 바꾸기:** `person.alice`를 실제 가족 구성원 엔티티로 교체하세요."
+  },
+  {
+    "row": 117,
+    "rowsha": "Ztx/3y/pkBIq9cHVNTLyiMZzfr7xh8uRnqIFx6bgp9k=",
+    "originContent": "   * **Search & Replace:** Replace `person.alice` with your actual family member entities.",
+    "translatedContent": "   * **날씨:** `weather.home`을 본인의 날씨 제공자로 교체하세요."
+  },
+  {
+    "row": 118,
+    "rowsha": "dc98r25xlZYuwBGeFnfaNNr8UwdbyMODr7ipiHqP52M=",
+    "originContent": "   * **Weather:** Replace `weather.home` with your weather provider.",
+    "translatedContent": "   * **배경:** yaml 하단의 이미지 URL을 업데이트하세요."
+  },
+  {
+    "row": 119,
+    "rowsha": "+6eoZpeyDlipjw718MrsotC632seCiz0JCukEFTw0h0=",
+    "originContent": "   * **Background:** Update the image URL at the bottom of the yaml.",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 5단계: 테마 (선택 사항)"
+  },
+  {
+    "row": 121,
+    "rowsha": "j4DA92N/VQryaiizcJWNITub3e6krMB1Iox3retWQKo=",
+    "originContent": "### Step 5: The Theme (Optional)",
+    "translatedContent": ""
+  },
+  {
+    "row": 122,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "특정 폰트 스타일(Ovo)을 적용하려면:"
+  },
+  {
+    "row": 123,
+    "rowsha": "T9AH32k5A9dGb9X3cCjQdj68Q1DGSVcPm54ehfj58zU=",
+    "originContent": "To get the specific font look (Ovo):",
+    "translatedContent": ""
+  },
+  {
+    "row": 124,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "1. `configuration.yaml`의 `frontend:` 아래에 다음 줄이 있는지 확인하세요."
+  },
+  {
+    "row": 125,
+    "rowsha": "+pXFfCs1PaaHtzl4uO7dYGQ3v3C9dNyzFqPREt74H+w=",
+    "originContent": "1. Ensure your `configuration.yaml` has this line under `frontend:`",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "d4Nh96RDflJXS7qID6zX8Ei83ADY0SnevUcR/0fljQM=",
+    "originContent": "   ```yaml",
+    "translatedContent": "   ```yaml"
+  },
+  {
+    "row": 128,
+    "rowsha": "a6uMpjnQBcAzOfM0PDj+vMPAB/RxsAo20OzF0OX9/vU=",
+    "originContent": "   frontend:",
+    "translatedContent": "   frontend:"
+  },
+  {
+    "row": 129,
+    "rowsha": "cC+svrfFuq9ox7K6W966Qcrt7IOIk1kySG1mrwckFWo=",
+    "originContent": "     themes: !include_dir_merge_named themes",
+    "translatedContent": "     themes: !include_dir_merge_named themes"
+  },
+  {
+    "row": 130,
+    "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+    "originContent": "   ```",
+    "translatedContent": "   ```"
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "2. 구성 디렉터리에 `themes`라는 폴더를 만드세요.  "
+  },
+  {
+    "row": 132,
+    "rowsha": "YY4TwuM5odD3e2jvJM0+bUdWaKLR5gdN0VMGL0kXf2E=",
+    "originContent": "2. Create a folder named `themes` in your config directory.",
+    "translatedContent": "3. [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml)을 다운로드하여 해당 폴더에 넣으세요.  "
+  },
+  {
+    "row": 133,
+    "rowsha": "lK2y4FzhM9bTiRzJy0JCuZ1qUldeODr/OD2gAfM0jwk=",
+    "originContent": "3. Download [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) and place it in that folder.",
+    "translatedContent": "4. Home Assistant를 재시작하세요.  "
+  },
+  {
+    "row": 134,
+    "rowsha": "1PL6DAd0P86p7jKZQ153sDYI1Qow1TldLUC/8s1u68M=",
+    "originContent": "4. Restart Home Assistant.",
+    "translatedContent": "5. 프로필(왼쪽 하단 사용자 아이콘)로 가서 **Theme**을 `Skylight`로 변경하세요.  "
+  },
+  {
+    "row": 135,
+    "rowsha": "+q7+KJMwTebsRfPtpdgwVkYwJHGxrI+k0PNQ8gbLZ/w=",
+    "originContent": "5. Go to your Profile (User Icon bottom left) and change **Theme** to `Skylight`.",
+    "translatedContent": "참고: 이 테마는 완전하지 않으니 이 점을 유의하세요.  "
+  },
+  {
+    "row": 136,
+    "rowsha": "PJFaft4Q8d7Ma/wUi202Zs1aLg1uZ4lc7NrpQfiqu2w=",
+    "originContent": "NOTE: The theme is not comprehensive, so keep that in mind",
+    "translatedContent": ""
+  },
+  {
+    "row": 137,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "---"
+  },
+  {
+    "row": 138,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📐 작동 원리 (내부 동작)"
+  },
+  {
+    "row": 140,
+    "rowsha": "Wz12KyvxOnOP4Xb1FWlqzPjE8YFjKJVPAZl/6LgM3nk=",
+    "originContent": "## 📐 How It Works (Under the Hood)",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 필터 로직"
+  },
+  {
+    "row": 142,
+    "rowsha": "cD/dXGPqbN4xkhaZPgCuHHcKGJDvqULnlH+WMwaUpMM=",
+    "originContent": "### Filter Logic",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "`week-planner-card`는 특정 캘린더를 실시간으로 숨기는 기능을 기본적으로 지원하지 않습니다. 이를 해결하기 위해 저는 정규식 필터 역할을 하는 **Input Texts**를 사용했습니다.  "
+  },
+  {
+    "row": 144,
+    "rowsha": "6fD0zu/WrruSpOY3D6DvP/oNvErk0iw6UyxEXGsvWKk=",
+    "originContent": "The `week-planner-card` does not natively support hiding specific calendars on the fly. To solve this, I used **Input Texts** acting as Regex filters.",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "* 사람 버튼을 클릭하면 필터가 `.*` (모두 표시)와 `^$` (아무것도 표시 안 함) 사이를 토글합니다.  "
+  },
+  {
+    "row": 146,
+    "rowsha": "O+wpLcDDj7HEpCzvnVBbp8MIYDYSCkKpnvXrE/H8pv8=",
+    "originContent": "* When you click a person's button, it toggles their filter between `.*` (Show everything) and `^$` (Show nothing).",
+    "translatedContent": "* `config-template-card`가 이 변수들을 캘린더 카드에 동적으로 주입합니다.  "
+  },
+  {
+    "row": 147,
+    "rowsha": "Q2xhrcc0rvQF+mBh2p1uDljezIo7OpOiCttPwuScQ3w=",
+    "originContent": "* `config-template-card` injects these variables into the calendar card dynamically.",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 이벤트 생성 스크립트"
+  },
+  {
+    "row": 149,
+    "rowsha": "uRJpt2m1Q3r68xG64zqJHJc+cae/MMxCfqaMlviji8g=",
+    "originContent": "### Event Creation Script",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "\"이벤트 추가\" 팝업은 여러 사람과 이벤트 유형(종일 vs 시간 지정)을 처리하는 단일 스크립트를 사용합니다."
+  },
+  {
+    "row": 151,
+    "rowsha": "q+Hlzel7+QGnu2adDrVIbKOeOBWxLf09f1ODTOIgJI0=",
+    "originContent": "The \"Add Event\" popup uses a single script that handles logic for multiple people and event types (All Day vs Timed).",
+    "translatedContent": ""
+  },
+  {
+    "row": 152,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
+    "originContent": "```yaml",
+    "translatedContent": "```yaml"
+  },
+  {
+    "row": 154,
+    "rowsha": "C6S31V9+WRvRc7j9qvorlUfG3ftWxb2sNBxWzHZE5eU=",
+    "originContent": "# Simplified Logic Example",
+    "translatedContent": "# Simplified Logic Example"
+  },
+  {
+    "row": 155,
+    "rowsha": "kwtrS/fWSGTLWEsB0Tiy1dnlu1ZSzl8HdTgVbDU1XfQ=",
+    "originContent": "target_calendar: \"{{ calendar_map.get(states('input_select.calendar_select')) }}\"",
+    "translatedContent": "target_calendar: \"{{ calendar_map.get(states('input_select.calendar_select')) }}\""
+  },
+  {
+    "row": 156,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 157,
+    "rowsha": "oQnpVXq4fVVyF3WVmpn75te1GNTXME0nnfvc4r4M17I=",
+    "originContent": "choose:",
+    "translatedContent": "choose:"
+  },
+  {
+    "row": 158,
+    "rowsha": "OBpkMifm2ZIxLuctUGPaQxkuwimvEVGxoRrDUli5xl0=",
+    "originContent": "  - conditions: \"All Day Event is ON\"",
+    "translatedContent": "  - conditions: \"All Day Event is ON\""
+  },
+  {
+    "row": 159,
+    "rowsha": "hOjYM+OPhKOaLqIktRxykKU5KqIZRXRMOyHw81fekQ4=",
+    "originContent": "    action: calendar.create_event (start_date, end_date)",
+    "translatedContent": "    action: calendar.create_event (start_date, end_date)"
+  },
+  {
+    "row": 160,
+    "rowsha": "wOPxmO+am6OiqvyMtHxUU2FtkB0lsC0v/JOa3WXHptE=",
+    "originContent": "  - conditions: \"All Day Event is OFF\"",
+    "translatedContent": "  - conditions: \"All Day Event is OFF\""
+  },
+  {
+    "row": 161,
+    "rowsha": "ktYPNSK2uxbBauWHcitlYxUbyNPw92NgVpmGE1NA5JA=",
+    "originContent": "    action: calendar.create_event (start_date_time, end_date_time)",
+    "translatedContent": "    action: calendar.create_event (start_date_time, end_date_time)"
+  },
+  {
+    "row": 162,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 163,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 노트"
+  },
+  {
+    "row": 164,
+    "rowsha": "ZTDw/SuazFur9qiLhSGNkY4Md0VtW9vnoJTuupRwZhY=",
+    "originContent": "## NOTES",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "제 원래 게시물은 이를 수행하는 방법에 대한 개요를 제공하고 사람들이 자신의 특정 시나리오에 맞게 코드를 조정할 수 있도록 하기 위한 것이었습니다."
+  },
+  {
+    "row": 166,
+    "rowsha": "wKWzhNQ+lzsHSqf7vALZdPDrfewRUPbtIFUNdQxvlKU=",
+    "originContent": "My original post was just to give a high level overview of how to do it and allow people to adjust code to make it work in their specific scenarios.",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "특히 모든 디스플레이와 필요가 다르기 때문에 이렇게 했습니다. 모든 잠재적인 디스플레이 크기, 대시보드 등을 위해 개발할 수는 없습니다. 그래서 언급한 디스플레이 또는 (1920x1080)에서 작동하도록 만들어졌지만 다른 디스플레이에 맞게 편집 가능해야 합니다."
+  },
+  {
+    "row": 168,
+    "rowsha": "jfPKCY6vVQekZo/+L1zz2WdgA9gXK5iyozp+1JtmZ3k=",
+    "originContent": "In particular I did this because every display and need is different. I can't develop for all potential sizes of displays, dashboards, etc. So it is built to work in the display I mentioned or any (1920x1080) but should be editable for others.",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "디스플레이에 대해 말하자면, 원래 제가 제안한 것은 당시 Woot에서 세일 중이었고 터치스크린 디스플레이를 얻는 매우 경제적인 방법이었기 때문입니다. 지금은 그렇지 않을 수 있으니, 자신에게 맞는 디스플레이를 사용하세요. 태블릿, 터치스크린, 휴대폰, 무엇이든 상관없습니다. 편집해야 할 주요 부분은 대시보드입니다."
+  },
+  {
+    "row": 170,
+    "rowsha": "zXQYKedb5X4z3/dnamTR7sjgBYO2D5+b6UkDtYuOJ2M=",
+    "originContent": "Talking about display, I originally suggested that one because it was on sale at Woot and was a very economic way to get a touchscreen display at the time. This might not be the case now, so use whatever display works for you. Tablet, touchscreen, phone, whatever. The main thing youll need to edit is the dashboard.",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

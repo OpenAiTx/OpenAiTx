@@ -1,0 +1,1796 @@
+[
+  {
+    "row": 1,
+    "rowsha": "OkJVf6ile3nPAEcm5LHPi4MKAcKtgtBTDMed9TMbeX0=",
+    "originContent": "# indicium",
+    "translatedContent": "# indicium"
+  },
+  {
+    "row": 2,
+    "rowsha": "BuhZfJ3gU1n4TauY2ZsWGyTjND49YDqDm1Wcu80D+3Y=",
+    "originContent": "![Crates.io Version](https://img.shields.io/crates/v/indicium)",
+    "translatedContent": "![Crates.io Version](https://img.shields.io/crates/v/indicium)"
+  },
+  {
+    "row": 3,
+    "rowsha": "Ioeyx/9tmO1rzRcDFS1sEPxS0dD48x9Ram80ueQpaSw=",
+    "originContent": "![Crates.io MSRV](https://img.shields.io/crates/msrv/indicium)",
+    "translatedContent": "![Crates.io MSRV](https://img.shields.io/crates/msrv/indicium)"
+  },
+  {
+    "row": 4,
+    "rowsha": "PsUgcIljrY5yc+bYwiFKNlznm0LYSRdV/+c7FD+p3f8=",
+    "originContent": "![Crates.io License](https://img.shields.io/crates/l/indicium)",
+    "translatedContent": "![Crates.io License](https://img.shields.io/crates/l/indicium)"
+  },
+  {
+    "row": 5,
+    "rowsha": "iSN0u3M11JJBfB9GRC3+etaTIjiovFQ2QuAJ/Wh1LT0=",
+    "originContent": "![Crates.io Total Downloads](https://img.shields.io/crates/d/indicium)",
+    "translatedContent": "![Crates.io Total Downloads](https://img.shields.io/crates/d/indicium)"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "oe+9QnXexRWFl2WARP/GDNoHczJVVYnUCnaIOmaVSSU=",
+    "originContent": "A simple in-memory search for collections (`Vec`, `HashMap`, `BTreeMap`, etc.)",
+    "translatedContent": "Une recherche simple en mémoire pour des collections (`Vec`, `HashMap`, `BTreeMap`, etc.)"
+  },
+  {
+    "row": 8,
+    "rowsha": "KaFsOtjw4tvCCNKJMZ34tY/TO+g19OMUoN+DOS6DUW4=",
+    "originContent": "and key-value stores. Features autocompletion and fuzzy matching.",
+    "translatedContent": "et des magasins clé-valeur. Offre la complétion automatique et la correspondance approximative."
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "Dwc+VY9Y5O2FPThdPXsomFY6EIMaQH5PuPCmxRp0D5w=",
+    "originContent": "There are many incredible search engines available for Rust. Many seem to",
+    "translatedContent": "Il existe de nombreux moteurs de recherche incroyables disponibles pour Rust. Beaucoup semblent"
+  },
+  {
+    "row": 11,
+    "rowsha": "ORJdRazLVLtHUaPZD7pNKGPcY87+ohj/0xk3OMKpuWU=",
+    "originContent": "require compiling a separate server binary. I wanted something simple and",
+    "translatedContent": "nécessiter la compilation d’un binaire serveur séparé. Je voulais quelque chose de simple et"
+  },
+  {
+    "row": 12,
+    "rowsha": "B6Qi6W0aeyDl55JGmzcqXEQTI2tczO/Qh6gmIWM4tGM=",
+    "originContent": "light-weight - an easy-to-use crate that could conveniently search structs and",
+    "translatedContent": "léger - une crate facile à utiliser qui pourrait rechercher commodément des structures et"
+  },
+  {
+    "row": 13,
+    "rowsha": "sjMuCkmDm75ijTo6LQtkRT59qbMjz9zSiiDntNb0Y90=",
+    "originContent": "collections within my own binary. So, I made `indicium`.",
+    "translatedContent": "collections dans mon propre binaire. Alors, j’ai créé `indicium`."
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "QTjTcQQZ5F8mps+pP07OOS+4sB8TpmwlhWQZ5OOg0/g=",
+    "originContent": "<img src=\"https://www.arkiteq.io/crates/indicium/banner.jpg\" alt=\"Indicium: A Simple In-Memory Search for Rust\" width=\"400\"/>",
+    "translatedContent": "<img src=\"https://www.arkiteq.io/crates/indicium/banner.jpg\" alt=\"Indicium: A Simple In-Memory Search for Rust\" width=\"400\"/>"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "EZm/WN72QLrOJg3I8AwAmg3ruB8cV9j2TuGnlBT4dSQ=",
+    "originContent": "While `indicium` was made with web apps in mind, it is an in-memory search and",
+    "translatedContent": "Bien que `indicium` ait été conçu pour les applications web, c’est une recherche en mémoire et"
+  },
+  {
+    "row": 18,
+    "rowsha": "PLDS5MmEPtvCbRj3tNVqxcq3EjJn5yNJ5oqc4w23xXA=",
+    "originContent": "it does not scale indefinitely or to cloud size (i.e. Facebook or Google size).",
+    "translatedContent": "elle ne s’adapte pas indéfiniment ni à l’échelle du cloud (c’est-à-dire à l’échelle de Facebook ou Google)."
+  },
+  {
+    "row": 19,
+    "rowsha": "5pStoowCUGu0pLz1AVB8/kdvXJQVEFl8xh7lfVTiBpA=",
+    "originContent": "Even in such an environment, it would still be a convenient way of searching",
+    "translatedContent": "Même dans un tel environnement, ce serait toujours un moyen pratique de rechercher"
+  },
+  {
+    "row": 20,
+    "rowsha": "3ghCeh6sB+UN3XRsZaa6nY5cpagFdzkyf7yk7ziRoqw=",
+    "originContent": "large lists (such as currencies, languages, countries, etc.) It's also great for",
+    "translatedContent": "de grandes listes (comme des devises, langues, pays, etc.) C’est aussi idéal pour"
+  },
+  {
+    "row": 21,
+    "rowsha": "dCZ5zS2mP9W5BIAq6pxIxQ8q01XKGD5Y1CImAZ/yAFI=",
+    "originContent": "applications where there is an anticipated scale limit (i.e. searching a list of",
+    "translatedContent": "des applications où une limite d’échelle est prévue (c’est-à-dire la recherche dans une liste"
+  },
+  {
+    "row": 22,
+    "rowsha": "1D/YUYJeQtvipgRS3b3TDkJtAUxKQHL7IwbX7Lvh2jY=",
+    "originContent": "company assets, list of users in a corporate intranet, etc.)",
+    "translatedContent": "d’actifs d’entreprise, liste d’utilisateurs dans un intranet d’entreprise, etc.)"
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "7k89WpGk+RkNXo5XNUM4jNuiw08Ad0wx/jwxWAhTB60=",
+    "originContent": "Indicium easily can handle millions of records without breaking a sweat thanks",
+    "translatedContent": "Indicium peut facilement gérer des millions d’enregistrements sans sourciller grâce"
+  },
+  {
+    "row": 25,
+    "rowsha": "QJXXPBIdwtsPD1VZJr29+nO53s2Ukq6zb4Cd8b5AkpY=",
+    "originContent": "to Rust's [BTreeMap](https://cglab.ca/~abeinges/blah/rust-btree-case/). This",
+    "translatedContent": "au [BTreeMap](https://cglab.ca/~abeinges/blah/rust-btree-case/) de Rust. Cette"
+  },
+  {
+    "row": 26,
+    "rowsha": "0TEznu57batf255y1J+XR4Rq2koafwAzHRak0SwINBg=",
+    "originContent": "crate is primarily limited by available memory. However, depending on the nature",
+    "translatedContent": "crate est principalement limitée par la mémoire disponible. Cependant, selon la nature"
+  },
+  {
+    "row": 27,
+    "rowsha": "Dc6HiN/z4ZMXUvs1KPwXgadgchfPhhOm+y7owunS0DY=",
+    "originContent": "your data-set and if there are keywords that are repeated many times,",
+    "translatedContent": "de votre jeu de données et s’il y a des mots-clés répétés de nombreuses fois,"
+  },
+  {
+    "row": 28,
+    "rowsha": "NMq5RTIg6gRj41B04ivHoBHXY3uh6ca0BBXth6UGH/c=",
+    "originContent": "performance may begin to degrade at a point.",
+    "translatedContent": "les performances peuvent commencer à se dégrader à un certain point."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "oEvHgiQZPffZY71LXkD7wBebC/0+TjyYxWZNyVCJCpU=",
+    "originContent": "# Installation",
+    "translatedContent": "# Installation"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "SQXwwF8iYus1sdRwkVBydhAuw39KCoUS1AKfuutqOKc=",
+    "originContent": "Configure the dependencies in your project's `Cargo.toml` file:",
+    "translatedContent": "Configurez les dépendances dans le fichier `Cargo.toml` de votre projet :"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "E3uXOpXBPB3edL8+RLYBjnQiIHGkbC0yF2hcyGKXnwU=",
+    "originContent": "```toml",
+    "translatedContent": "```toml"
+  },
+  {
+    "row": 35,
+    "rowsha": "v8Amm9lWkEiRx7LTLCNyiQWyvnBgtnoUMrJSqtpA+c8=",
+    "originContent": "[dependencies]",
+    "translatedContent": "[dependencies]"
+  },
+  {
+    "row": 36,
+    "rowsha": "F3J6AOpA56rXOQzY5kUEyvpc0/BmxCNurbPRV9eInP0=",
+    "originContent": "indicium = \"0.6\"",
+    "translatedContent": "indicium = \"0.6\""
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "E1oCsAFtbWK0l2SiUkfWhaIgzg1aEtQIwWlwy3y4+m0=",
+    "originContent": "# Release Notes",
+    "translatedContent": "# Notes de version"
+  },
+  {
+    "row": 40,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 41,
+    "rowsha": "5kNdSzPe3xsonSjKXWJp39iuxRuT4IuYfYE+G7XTAgw=",
+    "originContent": "* Release notes are available on",
+    "translatedContent": "* Les notes de version sont disponibles sur"
+  },
+  {
+    "row": 42,
+    "rowsha": "3GqP6+t6QxfbZ7PDf2xLsdv+BkhShX0vKlepxSFH42M=",
+    "originContent": "  [GitHub](https://github.com/leontoeides/indicium/releases).",
+    "translatedContent": "  [GitHub](https://github.com/leontoeides/indicium/releases)."
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "RpIodLG1O+o/jiMVzGNDMGhOl464Y2/aUW4qKSLCAIk=",
+    "originContent": "* The full [change",
+    "translatedContent": "* Le [journal des modifications](https://github.com/leontoeides/indicium/blob/master/CHANGELOG.md) complet est"
+  },
+  {
+    "row": 45,
+    "rowsha": "yphKXGGNRijo4Qx5WSPiYkRrJF0TrdIGBBN7EE3Z8vg=",
+    "originContent": "  log](https://github.com/leontoeides/indicium/blob/master/CHANGELOG.md) is",
+    "translatedContent": "  disponible sur GitHub."
+  },
+  {
+    "row": 46,
+    "rowsha": "LKTGnq7x3vy57Zddn6B94bWLZcR8YjaVrMWL6iG3jQE=",
+    "originContent": "  available on GitHub.",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "# Guide de démarrage rapide"
+  },
+  {
+    "row": 48,
+    "rowsha": "qi4ecnZ7TmI6xtfguwV5EhMayQTHd3JObrtjHcZVmHM=",
+    "originContent": "# Quick Start Guide",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Pour notre exemple de **Guide de démarrage rapide**, nous allons effectuer une recherche à l’intérieur de la"
+  },
+  {
+    "row": 50,
+    "rowsha": "3KAAffIKZvqIFeduM5mvg7oqLLYA0DFAMeuWZj5Tiyo=",
+    "originContent": "For our **Quick Start Guide** example, we will be searching inside of the",
+    "translatedContent": "`struct` suivante :"
+  },
+  {
+    "row": 51,
+    "rowsha": "CWjrj6ftcYpPhSGccO9ywMtYbnc+OQ0n/HxAirn/owI=",
+    "originContent": "following `struct`:",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 54,
+    "rowsha": "vkiAfjCdhxQO0HtKNe1a3HvVOorvrpFF0hQFCGFleos=",
+    "originContent": "struct MyStruct {",
+    "translatedContent": "struct MyStruct {"
+  },
+  {
+    "row": 55,
+    "rowsha": "gUogKbv9T5vmPoTzWjecQ2aH8ZMA7kFchsRkMuIWrr8=",
+    "originContent": "    title: String,",
+    "translatedContent": "    title: String,"
+  },
+  {
+    "row": 56,
+    "rowsha": "3wDipqbmHP4I8mB6IueuNQDPP1MJ+sxRXkadKew5Iiw=",
+    "originContent": "    year: u16,",
+    "translatedContent": "    year: u16,"
+  },
+  {
+    "row": 57,
+    "rowsha": "UcMLb8RdLMqcg0mNXBIM7Su59fBnkbqKW34QWVFN19k=",
+    "originContent": "    body: String,",
+    "translatedContent": "    body: String,"
+  },
+  {
+    "row": 58,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 59,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 61,
+    "rowsha": "57L5GH9xpvZS8YAbkucHkMOhXrZLRp4Eoqya/en7rLk=",
+    "originContent": "## 1. Implementing Indexable",
+    "translatedContent": "## 1. Implémentation de Indexable"
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 63,
+    "rowsha": "nhcKl1rxxMLs3E1TE2R+0Hk/2E6me6Z3HAkKl2hKC+4=",
+    "originContent": "To begin, we must make our record indexable. We'll do this by implementing the",
+    "translatedContent": "Pour commencer, nous devons rendre notre enregistrement indexable. Nous allons le faire en implémentant le"
+  },
+  {
+    "row": 64,
+    "rowsha": "C4slQwLt7y88h2QFYQ+hbooQnL4BteV9ClTL4tyhidk=",
+    "originContent": "`Indexable` trait for our `struct`. The idea is to return a `String` for every",
+    "translatedContent": "trait `Indexable` pour notre `struct`. L'idée est de retourner une `String` pour chaque"
+  },
+  {
+    "row": 65,
+    "rowsha": "jUaBsciuyXwxun6LnAXycZ+aeBraTXARhwFyTRte2UM=",
+    "originContent": "field that we would like to be indexed. Example:",
+    "translatedContent": "champ que nous souhaitons indexer. Exemple :"
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 68,
+    "rowsha": "yyLasuWwhHRRfX3Er2JstF9u78btG1U03GD3VPuRpUk=",
+    "originContent": "use indicium::simple::Indexable;",
+    "translatedContent": "use indicium::simple::Indexable;"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "WY9ufxvY942TbCTa2FJXtzisNLCwHdyU5E860DWJZhw=",
+    "originContent": "impl Indexable for MyStruct {",
+    "translatedContent": "impl Indexable for MyStruct {"
+  },
+  {
+    "row": 71,
+    "rowsha": "Kr2oyYGjguYBQPGPXmvaKN3dzh9trhC0HdmUQaL2/Vw=",
+    "originContent": "    fn strings(&self) -> Vec<String> {",
+    "translatedContent": "    fn strings(&self) -> Vec<String> {"
+  },
+  {
+    "row": 72,
+    "rowsha": "7dUV/kqD39FuHQ8FiQhvynn5wshA6Habud3alPRMTUc=",
+    "originContent": "        vec![",
+    "translatedContent": "        vec!["
+  },
+  {
+    "row": 73,
+    "rowsha": "C+IRsHatad9fouHzKdpyqnWFevnoq7ZvO5qK/gQ3dUE=",
+    "originContent": "            self.title.clone(),",
+    "translatedContent": "            self.title.clone(),"
+  },
+  {
+    "row": 74,
+    "rowsha": "I7PK8Awbw+55be1d95XLY5tj5v1JHNEIBCyAJA1zkjQ=",
+    "originContent": "            self.year.to_string(),",
+    "translatedContent": "            self.year.to_string(),"
+  },
+  {
+    "row": 75,
+    "rowsha": "vD4yfvb102oc1M21Tg/bBtHEq3ZwDBGsdzPaeOGxCkY=",
+    "originContent": "            self.body.clone(),",
+    "translatedContent": "            self.body.clone(),"
+  },
+  {
+    "row": 76,
+    "rowsha": "ygt4igTskIN0u4F3rZtYfYn6Gpy1l8PIjUuWrUd7hP0=",
+    "originContent": "        ]",
+    "translatedContent": "        ]"
+  },
+  {
+    "row": 77,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 78,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 79,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "uekW6yPzLmqk7rk/fRwAm+4gQxQmFD7eTYYDJdVSg2E=",
+    "originContent": "Don't forget that you may make numbers, numeric identifiers, enums, and other",
+    "translatedContent": "N'oubliez pas que vous pouvez rendre les nombres, identifiants numériques, énumérations et autres"
+  },
+  {
+    "row": 82,
+    "rowsha": "XEz8U+b5u+r7sTLN0XQs4pNs1fUdwNT94gXcCXIMs6o=",
+    "originContent": "types in your `struct` (or other complex types) indexable by converting them to",
+    "translatedContent": "types dans votre `struct` (ou autres types complexes) indexables en les convertissant en"
+  },
+  {
+    "row": 83,
+    "rowsha": "3koJQStU8GHBYVS/F/b/PrDFaF+WjThcf79tzbV3XOg=",
+    "originContent": "a `String` and including them in the returned `Vec<String>`.",
+    "translatedContent": "`String` et en les incluant dans le `Vec<String>` retourné."
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "dF9t1XBJHDQf4LQG5yRkALMXQb4Nhn+SWwK1OIVZbl0=",
+    "originContent": "## 2. Indexing a Collection",
+    "translatedContent": "## 2. Indexation d'une collection"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "dOvcbL+YTOlMGNh8C0Ci91NGixgSWW9ZM+Zu1I2roO4=",
+    "originContent": "To index an existing collection, we can iterate over the collection. For each",
+    "translatedContent": "Pour indexer une collection existante, nous pouvons itérer sur la collection. Pour chaque"
+  },
+  {
+    "row": 88,
+    "rowsha": "hEkBhq3GbLc6T4m68NvmcBg2RdHmDlLf5YNkLtqnums=",
+    "originContent": "record, we will insert it into the search index. This should look something",
+    "translatedContent": "enregistrement, nous l'insérerons dans l'index de recherche. Cela devrait ressembler à"
+  },
+  {
+    "row": 89,
+    "rowsha": "ef60tZ5g0B29Kii79ACp88WEcypJ20jX5Gwq9QX2DwA=",
+    "originContent": "like these two examples:",
+    "translatedContent": "ces deux exemples :"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "iy6aVE3fUwX2PlJt1v1VX3afYUvCEPNesSDx2LiOTPk=",
+    "originContent": "#### Vec",
+    "translatedContent": "#### Vec"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 94,
+    "rowsha": "XO4Nv+sVmg8/wmxuPB3ZaF38JouRWRpinbwv5A84ePo=",
+    "originContent": "use indicium::simple::SearchIndex;",
+    "translatedContent": "use indicium::simple::SearchIndex;"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "vMwPGfj8kOeodQq2pHSl1/lGVdNOb3zKhh4Q1RV41xE=",
+    "originContent": "let my_vec: Vec<MyStruct> = Vec::new();",
+    "translatedContent": "let my_vec: Vec<MyStruct> = Vec::new();"
+  },
+  {
+    "row": 97,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 98,
+    "rowsha": "6SvtntwexKnIhEybAqA5G98+3ey/pllCBf8TwnmUhMk=",
+    "originContent": "// In the case of a `Vec` collection, we use the index as our key. A",
+    "translatedContent": "// In the case of a `Vec` collection, we use the index as our key. A"
+  },
+  {
+    "row": 99,
+    "rowsha": "U3hYkMMbDtYixBtd6n5W1GqOFX6tC4CIct5AOKv9zYY=",
+    "originContent": "// `Vec` index is a `usize` type. Therefore we will instantiate",
+    "translatedContent": "// `Vec` index is a `usize` type. Therefore we will instantiate"
+  },
+  {
+    "row": 100,
+    "rowsha": "a/fFtVuPyF/2oUdYghciuh0zcwelDIhRlmdIVpm566k=",
+    "originContent": "// `SearchIndex` as `SearchIndex<usize>`.",
+    "translatedContent": "// `SearchIndex` as `SearchIndex<usize>`."
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "conY5fVqwozf+itbn7sWb3CxhD7og+Xr0FPTY5RqzBg=",
+    "originContent": "let mut search_index: SearchIndex<usize> = SearchIndex::default();",
+    "translatedContent": "let mut search_index: SearchIndex<usize> = SearchIndex::default();"
+  },
+  {
+    "row": 103,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "PBmDwIlcse0payqaBeox7Udg23nX8wlEMmwvFr3aNpg=",
+    "originContent": "my_vec",
+    "translatedContent": "my_vec"
+  },
+  {
+    "row": 105,
+    "rowsha": "84gI11HyBWswsCvowzLS+LaY1J3rJ/x6r8RrPtZuKEQ=",
+    "originContent": "    .iter()",
+    "translatedContent": "    .iter()"
+  },
+  {
+    "row": 106,
+    "rowsha": "LX54cmjwfIQmTYI41/Hb/niSZ7ty14ahKI1eLHI9rpY=",
+    "originContent": "    .enumerate()",
+    "translatedContent": "    .enumerate()"
+  },
+  {
+    "row": 107,
+    "rowsha": "KgijH2/9Ymp/fEhqtBz1sgYhVIrLh7gXAt4RNN2Dhyc=",
+    "originContent": "    .for_each(|(index, element)|",
+    "translatedContent": "    .for_each(|(index, element)|"
+  },
+  {
+    "row": 108,
+    "rowsha": "SwvjeHLnDbuaFgqEl5xlzQQGgxXvrxLHjVZvh0XMi1s=",
+    "originContent": "        search_index.insert(&index, element)",
+    "translatedContent": "        search_index.insert(&index, element)"
+  },
+  {
+    "row": 109,
+    "rowsha": "Z2lMElzKjKCmJyXf71joUm6rTSJ2l9cz8FUpXZAfx3I=",
+    "originContent": "    );",
+    "translatedContent": "    );"
+  },
+  {
+    "row": 110,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 111,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "lUIQZrbdtT6a+LpDP510/IHz73EDIP2OsNvGX5+nARk=",
+    "originContent": "#### HashMap",
+    "translatedContent": "#### HashMap"
+  },
+  {
+    "row": 113,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 115,
+    "rowsha": "H7d7aDIpJMK7kfXatBs+faKBPqymo8ByY16ox8Dkpo0=",
+    "originContent": "use std::collections::HashMap;",
+    "translatedContent": "use std::collections::HashMap;"
+  },
+  {
+    "row": 116,
+    "rowsha": "XO4Nv+sVmg8/wmxuPB3ZaF38JouRWRpinbwv5A84ePo=",
+    "originContent": "use indicium::simple::SearchIndex;",
+    "translatedContent": "use indicium::simple::SearchIndex;"
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 118,
+    "rowsha": "95rxg7C+UgO2pnOOPCoKembgHZTo4jCEabYrE4TqWBM=",
+    "originContent": "let my_hash_map: HashMap<String, MyStruct> = HashMap::new();",
+    "translatedContent": "let my_hash_map: HashMap<String, MyStruct> = HashMap::new();"
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 120,
+    "rowsha": "Zzr/QkUkE3uJePf9tBIWfhKbzIvUV8ivTAgk2d3pH20=",
+    "originContent": "// In the case of a `HashMap` collection, we use the hash map's key as",
+    "translatedContent": "// In the case of a `HashMap` collection, we use the hash map's key as"
+  },
+  {
+    "row": 121,
+    "rowsha": "hZg8P4kWwczikbrT947w4xHoAOzPw5Z3w2WbI2bcWAQ=",
+    "originContent": "// the `SearchIndex` key. In our hypothetical example, we will use",
+    "translatedContent": "// the `SearchIndex` key. In our hypothetical example, we will use"
+  },
+  {
+    "row": 122,
+    "rowsha": "LlRvDs3oSWm/qHsH62wimpfUact7aepHqPRjE2lpCp4=",
+    "originContent": "// MyStruct's `title` as a the key which is a `String` type. Therefore",
+    "translatedContent": "// MyStruct's `title` as a the key which is a `String` type. Therefore"
+  },
+  {
+    "row": 123,
+    "rowsha": "lGmbY4o1+FlsDh43Q0vIJ408yrozvxVlsL+dq+aXcM0=",
+    "originContent": "// we will instantiate `HashMap<K, V>` as HashMap<String, MyStruct> and",
+    "translatedContent": "// we will instantiate `HashMap<K, V>` as HashMap<String, MyStruct> and"
+  },
+  {
+    "row": 124,
+    "rowsha": "KDdYalEU/sj+2Oh7DS0awPeSlMLPaU0Dvmc03zvZEGc=",
+    "originContent": "// `SearchIndex<K>` as `SearchIndex<String>`.",
+    "translatedContent": "// `SearchIndex<K>` as `SearchIndex<String>`."
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 126,
+    "rowsha": "MsjUkvsJWOVRq6MUXHMbzGYOGt5XUC6exdRrJreBfYg=",
+    "originContent": "let mut search_index: SearchIndex<String> = SearchIndex::default();",
+    "translatedContent": "let mut search_index: SearchIndex<String> = SearchIndex::default();"
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "Xi/6k61RoHj8hA1Qrwzq5orrip0RX4A0nwn/tU+hY+Q=",
+    "originContent": "my_hash_map",
+    "translatedContent": "my_hash_map"
+  },
+  {
+    "row": 129,
+    "rowsha": "84gI11HyBWswsCvowzLS+LaY1J3rJ/x6r8RrPtZuKEQ=",
+    "originContent": "    .iter()",
+    "translatedContent": "    .iter()"
+  },
+  {
+    "row": 130,
+    "rowsha": "+4nig18we7GwWP+OZ0/AYckbrksxk5J1KP/Jn8R8b0A=",
+    "originContent": "    .for_each(|(key, value)|",
+    "translatedContent": "    .for_each(|(key, value)|"
+  },
+  {
+    "row": 131,
+    "rowsha": "WYdANG+1yeIEc2LkSNOOJuOKxdcVBZntUKbtU0GvOuI=",
+    "originContent": "        search_index.insert(key, value)",
+    "translatedContent": "        search_index.insert(key, value)"
+  },
+  {
+    "row": 132,
+    "rowsha": "Z2lMElzKjKCmJyXf71joUm6rTSJ2l9cz8FUpXZAfx3I=",
+    "originContent": "    );",
+    "translatedContent": "    );"
+  },
+  {
+    "row": 133,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "uqE61EqAWsCid4QE+b+j4ZoCZowmOqkdEhzjZ1ovMfE=",
+    "originContent": "As long as the `Indexable` trait was implemented for your value type, the above",
+    "translatedContent": "Tant que le trait `Indexable` a été implémenté pour votre type de valeur, les exemples ci-dessus"
+  },
+  {
+    "row": 136,
+    "rowsha": "IXFmZNLLPkLcmDNJ74u+25dTnAWbrrSa4izyMJB70jQ=",
+    "originContent": "examples will index a previously populated `Vec` or `HashMap`. However, the",
+    "translatedContent": "indexeront un `Vec` ou un `HashMap` préalablement rempli. Cependant,"
+  },
+  {
+    "row": 137,
+    "rowsha": "AehRkRmEAC0Q0NC6nE1u0jRJTSWjucdkhAWIjXw16js=",
+    "originContent": "preferred method for large collections is to `insert` into the `SearchIndex` as",
+    "translatedContent": "la méthode préférée pour les grandes collections est de `insert` dans le `SearchIndex` au fur et à mesure"
+  },
+  {
+    "row": 138,
+    "rowsha": "mHVV1LMmHxf+GI9SId3zLSYBNLS6cEhH5lETEPTzPxU=",
+    "originContent": "you insert into your collection (Vec, HashMap, etc.)",
+    "translatedContent": "que vous insérez dans votre collection (Vec, HashMap, etc.)"
+  },
+  {
+    "row": 139,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 140,
+    "rowsha": "32mc7DHLMtkDp9iNNpx+6oaDvXveDRnurZ42Gd13Y8Q=",
+    "originContent": "It's recommended to wrap your target collection (your `Vec`, `HashMap`, etc.)",
+    "translatedContent": "Il est recommandé d'encapsuler votre collection cible (votre `Vec`, `HashMap`, etc.)"
+  },
+  {
+    "row": 141,
+    "rowsha": "URGy46b1HGPsi03QayDFPC0Kw0c+9NkCycbsr+WvWnY=",
+    "originContent": "and this `SearchIndex` together in a new `struct` type. Then, implement the",
+    "translatedContent": "et ce `SearchIndex` ensemble dans un nouveau type `struct`. Ensuite, implémentez les"
+  },
+  {
+    "row": 142,
+    "rowsha": "2GJV+c4eJ5f2kg4il5hgsmSEpIWX7ZGABoV/+L2plI4=",
+    "originContent": "`insert`, `replace`, `remove`, etc. methods for this new `struct` type that will",
+    "translatedContent": "méthodes `insert`, `replace`, `remove`, etc. pour ce nouveau type `struct` qui"
+  },
+  {
+    "row": 143,
+    "rowsha": "c+Qw1fMCYkZZDFM36K+++x/QJQrKfWdYDDOqqpwTxk8=",
+    "originContent": "update both the collection and search index. This will ensure that both your",
+    "translatedContent": "mettront à jour à la fois la collection et l'index de recherche. Cela garantira que votre"
+  },
+  {
+    "row": 144,
+    "rowsha": "bW3T5jdn6tbozzErJb2vfRxh6uf9t1I0OLQ47FiHr2g=",
+    "originContent": "collection and index are always synchronized.",
+    "translatedContent": "collection et l'index sont toujours synchronisés."
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 146,
+    "rowsha": "EZsoWg9DswbnpMuzSOo6LalM8X5TPZchQ2M2LS13lAg=",
+    "originContent": "Once the index has been populated, you can use the `search` and `autocomplete`",
+    "translatedContent": "Une fois l'index peuplé, vous pouvez utiliser les méthodes `search` et `autocomplete`."
+  },
+  {
+    "row": 147,
+    "rowsha": "+mr1p4rNwOnIX5qFh21EishUaVL6Asb+xSEVffY1leE=",
+    "originContent": "methods.",
+    "translatedContent": ""
+  },
+  {
+    "row": 148,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 3. Recherche"
+  },
+  {
+    "row": 149,
+    "rowsha": "m1fWU3dyaVCS6FTHCQfwsuUH0W9CoXJFHtBGp2Lw56k=",
+    "originContent": "## 3. Searching",
+    "translatedContent": ""
+  },
+  {
+    "row": 150,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "La méthode `search` renverra des clés comme résultats de recherche. Chaque clé résultante"
+  },
+  {
+    "row": 151,
+    "rowsha": "h4tFFZWWdW52KKy43m0QPyON5TQfY9cVwud21OItksw=",
+    "originContent": "The `search` method will return keys as the search results. Each resulting",
+    "translatedContent": "peut ensuite être utilisée pour récupérer l'enregistrement complet dans sa collection."
+  },
+  {
+    "row": 152,
+    "rowsha": "YWICRSiFBRpDqpiqsj83igdoYHitFRe8FiewL256LIo=",
+    "originContent": "key can then be used to retrieve the full record from its collection.",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Utilisation basique :"
+  },
+  {
+    "row": 154,
+    "rowsha": "uQ66PXV1INPkS2ta5/aSkhdKEABDsF+/+9EETCh40t4=",
+    "originContent": "Basic usage:",
+    "translatedContent": ""
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 157,
+    "rowsha": "conY5fVqwozf+itbn7sWb3CxhD7og+Xr0FPTY5RqzBg=",
+    "originContent": "let mut search_index: SearchIndex<usize> = SearchIndex::default();",
+    "translatedContent": "let mut search_index: SearchIndex<usize> = SearchIndex::default();"
+  },
+  {
+    "row": 158,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 159,
+    "rowsha": "S+mQZmCrIeBS3A0j2Uc2Uh05Wo4/20nvvyYer3Xz5hU=",
+    "originContent": "search_index.insert(&0, &\"Harold Godwinson\");",
+    "translatedContent": "search_index.insert(&0, &\"Harold Godwinson\");"
+  },
+  {
+    "row": 160,
+    "rowsha": "bZk3h10LHkDGYJcchtXjvt4cphE+WLW0lBeKXrsB/iA=",
+    "originContent": "search_index.insert(&1, &\"Edgar Ætheling\");",
+    "translatedContent": "search_index.insert(&1, &\"Edgar Ætheling\");"
+  },
+  {
+    "row": 161,
+    "rowsha": "6L7eox0GguCIilNsMB6E1/aECNzeNG0WmX835+/JQZw=",
+    "originContent": "search_index.insert(&2, &\"William the Conqueror\");",
+    "translatedContent": "search_index.insert(&2, &\"William the Conqueror\");"
+  },
+  {
+    "row": 162,
+    "rowsha": "oWYEipqgewFBFk5xRJHQOJsO39TikgnOrzrZnEwiXZI=",
+    "originContent": "search_index.insert(&3, &\"William Rufus\");",
+    "translatedContent": "search_index.insert(&3, &\"William Rufus\");"
+  },
+  {
+    "row": 163,
+    "rowsha": "xW6QeBrXsU6MmPP42dI9NdwxiOD905jTdXRC9QTh1Sw=",
+    "originContent": "search_index.insert(&4, &\"Henry Beauclerc\");",
+    "translatedContent": "search_index.insert(&4, &\"Henry Beauclerc\");"
+  },
+  {
+    "row": 164,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 165,
+    "rowsha": "kUmZSEpp67qEKRAywDTT5SitLIklB1UrA76P5Nvc1KQ=",
+    "originContent": "let resulting_keys: Vec<&usize> = search_index.search(\"William\");",
+    "translatedContent": "let resulting_keys: Vec<&usize> = search_index.search(\"William\");"
+  },
+  {
+    "row": 166,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 167,
+    "rowsha": "dQZZgHjCpjtLnm86H9GC4+46YtIx3GggLCXNfik9+bk=",
+    "originContent": "assert_eq!(resulting_keys, vec![&2, &3]);",
+    "translatedContent": "assert_eq!(resulting_keys, vec![&2, &3]);"
+  },
+  {
+    "row": 168,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 169,
+    "rowsha": "JTQQVKeqbiFgIiKeyP8I4i8IiBe8jiEmiVmVtksHCSo=",
+    "originContent": "// Demonstrating fuzzy matching:",
+    "translatedContent": "// Demonstrating fuzzy matching:"
+  },
+  {
+    "row": 170,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 171,
+    "rowsha": "XbFuhuQk0MvZBTmHZ/z6iwEMXwQ+POAAcYTXVGZ8DoE=",
+    "originContent": "let resulting_keys: Vec<&usize> = search_index.search(\"Harry\");",
+    "translatedContent": "let resulting_keys: Vec<&usize> = search_index.search(\"Harry\");"
+  },
+  {
+    "row": 172,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 173,
+    "rowsha": "a0/oBKAE+kONgTUfD1UKzfzDvZfDgMV6YRKNygTf/+c=",
+    "originContent": "assert_eq!(resulting_keys, vec![&0]);",
+    "translatedContent": "assert_eq!(resulting_keys, vec![&0]);"
+  },
+  {
+    "row": 174,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 176,
+    "rowsha": "7CMHbdqJKIzq9ok4MueYsfQ0S19R4CQB/inyLsmYaEc=",
+    "originContent": "Search only supports exact keyword matches. For `Live` searches, fuzzy matching",
+    "translatedContent": "La recherche ne prend en charge que les correspondances exactes de mots-clés. Pour les recherches `Live`, la correspondance approximative"
+  },
+  {
+    "row": 177,
+    "rowsha": "rr+1yEQ5laEo5/vEgzmgKI8DPDH8Rl6zMlLqvNs/Ln8=",
+    "originContent": "is only applied to the last keyword. Consider providing the `autocomplete`",
+    "translatedContent": "n'est appliquée qu'au dernier mot-clé. Envisagez de fournir la fonctionnalité `autocomplete`"
+  },
+  {
+    "row": 178,
+    "rowsha": "kTaU4XpQ+INYY/0gxpK8QyYY2ReBnrmj3bMdH/JXAvw=",
+    "originContent": "feature to your users to help them build their search as they type.",
+    "translatedContent": "à vos utilisateurs pour les aider à construire leur recherche au fur et à mesure de la frappe."
+  },
+  {
+    "row": 179,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 180,
+    "rowsha": "GLQg9I0C+g12o/wtjZBeFgrySr4vuVooTd4rgCzKyD4=",
+    "originContent": "## 4. Autocompletion",
+    "translatedContent": "## 4. Autocomplétion"
+  },
+  {
+    "row": 181,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 182,
+    "rowsha": "30ssfUWOdCwHIS5F4pi8a917J6LODHhD1jx5kuly2XQ=",
+    "originContent": "The `autocomplete` method will provide several autocompletion options for the",
+    "translatedContent": "La méthode `autocomplete` fournira plusieurs options d'autocomplétion pour le"
+  },
+  {
+    "row": 183,
+    "rowsha": "rOm2eLNlmo7FDiVwpyv+cjMw1M9T77d5ZyEOgDEvICw=",
+    "originContent": "last keyword in the supplied string.",
+    "translatedContent": "dernier mot-clé dans la chaîne fournie."
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 185,
+    "rowsha": "uQ66PXV1INPkS2ta5/aSkhdKEABDsF+/+9EETCh40t4=",
+    "originContent": "Basic usage:",
+    "translatedContent": "Utilisation basique :"
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 188,
+    "rowsha": "ZnrOkxjuTneBtyEwOkI9jtxtPnXZkecVMa9Tqe2ddzQ=",
+    "originContent": "let mut search_index: SearchIndex<usize> =",
+    "translatedContent": "let mut search_index: SearchIndex<usize> ="
+  },
+  {
+    "row": 189,
+    "rowsha": "hIHhaVEsyeUlVqxcoehHSy4B6nYQEL7HlY6cFnsc4Dc=",
+    "originContent": "    SearchIndexBuilder::default()",
+    "translatedContent": "    SearchIndexBuilder::default()"
+  },
+  {
+    "row": 190,
+    "rowsha": "OYkD5MhutNWp3wDtuseGwB0Sdb/9e564uZaNRwrSy7M=",
+    "originContent": "        .autocomplete_type(&AutocompleteType::Global)",
+    "translatedContent": "        .autocomplete_type(&AutocompleteType::Global)"
+  },
+  {
+    "row": 191,
+    "rowsha": "3OCDMqEqXp5FL+PQnqYK9J12bZaRorA2/tBYymoXgSI=",
+    "originContent": "        .build();",
+    "translatedContent": "        .build();"
+  },
+  {
+    "row": 192,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 193,
+    "rowsha": "8XNmFUnbIxGnnceUZ46KPrJunePb3aQq0cvwQv9fmHc=",
+    "originContent": "search_index.insert(&0, &\"apple\");",
+    "translatedContent": "search_index.insert(&0, &\"apple\");"
+  },
+  {
+    "row": 194,
+    "rowsha": "z3C+EuX/v+j5FQVueTF0Jx4HRn0fBnGmIP2pl97WWfg=",
+    "originContent": "search_index.insert(&1, &\"ball\");",
+    "translatedContent": "search_index.insert(&1, &\"ball\");"
+  },
+  {
+    "row": 195,
+    "rowsha": "7scI8m6C7lPs1yznVi3xoaqvZKukI7RO7K9LBCuwEKk=",
+    "originContent": "search_index.insert(&3, &\"bird\");",
+    "translatedContent": "search_index.insert(&3, &\"bird\");"
+  },
+  {
+    "row": 196,
+    "rowsha": "CgImNg6uDScLpeOsniZU1lHbRq5MkYRZO84B4r1Uofs=",
+    "originContent": "search_index.insert(&4, &\"birthday\");",
+    "translatedContent": "search_index.insert(&4, &\"birthday\");"
+  },
+  {
+    "row": 197,
+    "rowsha": "7mJ4dsLWUF0WggdOTik/+U2qn5NSyoQFlehBFiLQSdM=",
+    "originContent": "search_index.insert(&5, &\"red\");",
+    "translatedContent": "search_index.insert(&5, &\"red\");"
+  },
+  {
+    "row": 198,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 199,
+    "rowsha": "TvDGGfOVS8zfpX23HpAuuHtVj7rIuoOWWOmZu0tONKA=",
+    "originContent": "let autocomplete_options: Vec<String> =",
+    "translatedContent": "let autocomplete_options: Vec<String> ="
+  },
+  {
+    "row": 200,
+    "rowsha": "4WjFbv3oaUjE4OSCtLU9VbLdMCYC3Ijz9wBQYdu3JIE=",
+    "originContent": "    search_index.autocomplete(\"a very big bi\");",
+    "translatedContent": "    search_index.autocomplete(\"a very big bi\");"
+  },
+  {
+    "row": 201,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 202,
+    "rowsha": "EZ/gtbkvw/Yf5rJJKzz4pEIG7Z7k+ZfzJFFKXBEaq1I=",
+    "originContent": "assert_eq!(",
+    "translatedContent": "assert_eq!("
+  },
+  {
+    "row": 203,
+    "rowsha": "oKCXysj42AtP7rkcaWbH3ZUjaGm4FBGNiOfrZAkRIAM=",
+    "originContent": "    autocomplete_options,",
+    "translatedContent": "    autocomplete_options,"
+  },
+  {
+    "row": 204,
+    "rowsha": "1r1NOcxhyPqIr8tmu2AmsUKqnPRMT/OcCZlCR3Habaw=",
+    "originContent": "    vec![\"a very big bird\", \"a very big birthday\"]",
+    "translatedContent": "    vec![\"a very big bird\", \"a very big birthday\"]"
+  },
+  {
+    "row": 205,
+    "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+    "originContent": ");",
+    "translatedContent": ");"
+  },
+  {
+    "row": 206,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 207,
+    "rowsha": "JTQQVKeqbiFgIiKeyP8I4i8IiBe8jiEmiVmVtksHCSo=",
+    "originContent": "// Demonstrating fuzzy matching:",
+    "translatedContent": "// Demonstrating fuzzy matching:"
+  },
+  {
+    "row": 208,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 209,
+    "rowsha": "TvDGGfOVS8zfpX23HpAuuHtVj7rIuoOWWOmZu0tONKA=",
+    "originContent": "let autocomplete_options: Vec<String> =",
+    "translatedContent": "let autocomplete_options: Vec<String> ="
+  },
+  {
+    "row": 210,
+    "rowsha": "l/pX/DSZzwUHmQlOiIp8x2wyRWf2xvzjCGLsHI5xgDM=",
+    "originContent": "    search_index.autocomplete(\"a very big birf\");",
+    "translatedContent": "    search_index.autocomplete(\"a very big birf\");"
+  },
+  {
+    "row": 211,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 212,
+    "rowsha": "EZ/gtbkvw/Yf5rJJKzz4pEIG7Z7k+ZfzJFFKXBEaq1I=",
+    "originContent": "assert_eq!(",
+    "translatedContent": "assert_eq!("
+  },
+  {
+    "row": 213,
+    "rowsha": "oKCXysj42AtP7rkcaWbH3ZUjaGm4FBGNiOfrZAkRIAM=",
+    "originContent": "    autocomplete_options,",
+    "translatedContent": "    autocomplete_options,"
+  },
+  {
+    "row": 214,
+    "rowsha": "1r1NOcxhyPqIr8tmu2AmsUKqnPRMT/OcCZlCR3Habaw=",
+    "originContent": "    vec![\"a very big bird\", \"a very big birthday\"]",
+    "translatedContent": "    vec![\"a very big bird\", \"a very big birthday\"]"
+  },
+  {
+    "row": 215,
+    "rowsha": "nYsrVnDRjaipn2FS9+51VYAZzRBtgDK/fBEXvTcnPjc=",
+    "originContent": ");",
+    "translatedContent": ");"
+  },
+  {
+    "row": 216,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 217,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 218,
+    "rowsha": "PUCFKRw7vevCBhg5jpieIw/sALqLq9IwxJ59aqO2wG4=",
+    "originContent": "# Bonus Points",
+    "translatedContent": "# Points Bonus"
+  },
+  {
+    "row": 219,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 220,
+    "rowsha": "Duud23Ujfgc5T8A5DKyqtPm+AkjYybbzBpDsa+QTj9A=",
+    "originContent": "## 5. Custom Result Ordering",
+    "translatedContent": "## 5. Ordre Personnalisé des Résultats"
+  },
+  {
+    "row": 221,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 222,
+    "rowsha": "37IEiTcUWg1khlfrqPca9CsL8z6AwKN2s+GwT2mDNTQ=",
+    "originContent": "With the exception of `SearchType::Or` which uses relevance scoring, search",
+    "translatedContent": "À l'exception de `SearchType::Or` qui utilise le score de pertinence, les résultats"
+  },
+  {
+    "row": 223,
+    "rowsha": "x4czMcHrYxdRz2Cfy19/ytk/TXTzmT4LILADhMRlmBY=",
+    "originContent": "results are returned in the order defined by your key type's `Ord`",
+    "translatedContent": "de recherche sont retournés dans l'ordre défini par l'implémentation `Ord`"
+  },
+  {
+    "row": 224,
+    "rowsha": "w+VmQbuJT3iE3JUH+52m5K+lFpfa4MjPt+CsLDg9oyc=",
+    "originContent": "implementation. This means you can control result ordering by using a custom key",
+    "translatedContent": "de votre type de clé. Cela signifie que vous pouvez contrôler l'ordre des résultats"
+  },
+  {
+    "row": 225,
+    "rowsha": "cJlev4A+GwRQfOpuiVXgO0P6sqO8BuH8oBp73fbI25k=",
+    "originContent": "type instead of simple integers or strings.",
+    "translatedContent": "en utilisant un type de clé personnalisé au lieu de simples entiers ou chaînes."
+  },
+  {
+    "row": 226,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 227,
+    "rowsha": "gvXmvVqnweeudZI33OGtFS80Q7l8yawSsuvaUqUcKhQ=",
+    "originContent": "For example, if you want popular items to appear first in search results, you",
+    "translatedContent": "Par exemple, si vous souhaitez que les éléments populaires apparaissent en premier"
+  },
+  {
+    "row": 228,
+    "rowsha": "Up9OEJaudRSQxOPBPjM7FVEz284qB7IWG7+L9PU3Hd4=",
+    "originContent": "can create a key that sorts by popularity:",
+    "translatedContent": "dans les résultats de recherche, vous pouvez créer une clé qui trie par popularité :"
+  },
+  {
+    "row": 229,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 230,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 231,
+    "rowsha": "x7976qwbA5NI8tKQBOmdapt9ZKDoSUWriedxOg66zPI=",
+    "originContent": "use std::cmp::Ordering;",
+    "translatedContent": "use std::cmp::Ordering;"
+  },
+  {
+    "row": 232,
+    "rowsha": "nHetbQR+/QIa9C+s4rcyqTXW7m7qHYUnOkcV3XadiLQ=",
+    "originContent": "use std::hash::{Hash, Hasher};",
+    "translatedContent": "use std::hash::{Hash, Hasher};"
+  },
+  {
+    "row": 233,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 234,
+    "rowsha": "krieHqv7cRI9COVpupFiMcyAVkKst/xRd4/765pZVzE=",
+    "originContent": "/// A search key that sorts results by popularity (highest first).",
+    "translatedContent": "/// A search key that sorts results by popularity (highest first)."
+  },
+  {
+    "row": 235,
+    "rowsha": "P+GtIRqoutQvzrCdX72z14STuPGPURa1aYXyrhwtHGs=",
+    "originContent": "#[derive(Debug, Clone)]",
+    "translatedContent": "#[derive(Debug, Clone)]"
+  },
+  {
+    "row": 236,
+    "rowsha": "x+IHOlIPmzjKHt5+vVnBywVfvd8cUrSQwXpqftN8Sbs=",
+    "originContent": "pub struct RankedKey {",
+    "translatedContent": "pub struct RankedKey {"
+  },
+  {
+    "row": 237,
+    "rowsha": "VnQJm+MNhe9OwaJFrveUjUjLh4keY5o/aJaP+3woBiI=",
+    "originContent": "    pub id: String,",
+    "translatedContent": "    pub id: String,"
+  },
+  {
+    "row": 238,
+    "rowsha": "bmX63mBN5LgYwD+QLvVje5HnqKP5+IGj4YlOo5YXHb4=",
+    "originContent": "    pub popularity: u32,",
+    "translatedContent": "    pub popularity: u32,"
+  },
+  {
+    "row": 239,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 240,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 241,
+    "rowsha": "wrIKSRFvkGIOPfbfgli5a/bj+ycBYfxAGv5F0AJroAM=",
+    "originContent": "impl Ord for RankedKey {",
+    "translatedContent": "impl Ord for RankedKey {"
+  },
+  {
+    "row": 242,
+    "rowsha": "Wu80ePakSVh3IKBg2nR816x3JTHiPh8vsCQguwHYJN4=",
+    "originContent": "    fn cmp(&self, other: &Self) -> Ordering {",
+    "translatedContent": "    fn cmp(&self, other: &Self) -> Ordering {"
+  },
+  {
+    "row": 243,
+    "rowsha": "0srVlxh4KzYywLg+KlizLjGLVsBjiQ8ihytd69LSs4U=",
+    "originContent": "        // Higher popularity comes first",
+    "translatedContent": "        // Higher popularity comes first"
+  },
+  {
+    "row": 244,
+    "rowsha": "e/JWvVO3vvFSLB1aK4mmxbfS3+XFVvWUrysOLQ8/UX0=",
+    "originContent": "        other.popularity.cmp(&self.popularity)",
+    "translatedContent": "        other.popularity.cmp(&self.popularity)"
+  },
+  {
+    "row": 245,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 246,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 247,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 248,
+    "rowsha": "1CwfVZ5poXydBXNPecRLlxhhuDsyMnTaonj0EZHS+Cc=",
+    "originContent": "impl PartialOrd for RankedKey {",
+    "translatedContent": "impl PartialOrd for RankedKey {"
+  },
+  {
+    "row": 249,
+    "rowsha": "BV7vaUN8pAAnrQz6WvZ1VFE0nHH0O+syHaBmD/yuIy4=",
+    "originContent": "    fn partial_cmp(&self, other: &Self) -> Option {",
+    "translatedContent": "    fn partial_cmp(&self, other: &Self) -> Option {"
+  },
+  {
+    "row": 250,
+    "rowsha": "wVFebbTjweURAzPdtNsZe3Gx+2JUjRPFZHyQ32c3VJk=",
+    "originContent": "        Some(self.cmp(other))",
+    "translatedContent": "        Some(self.cmp(other))"
+  },
+  {
+    "row": 251,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 252,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 253,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 254,
+    "rowsha": "qWClwaLRVGx0hUqVddAEQHNlvo4hui61C875qVr+F/0=",
+    "originContent": "// For equality and lookups, we only compare the id, not popularity. This lets",
+    "translatedContent": "// For equality and lookups, we only compare the id, not popularity. This lets"
+  },
+  {
+    "row": 255,
+    "rowsha": "jl/CWU8jIf2AP1gyezbSBHehH4GPl801ZS/rIwViIfg=",
+    "originContent": "// us find records in a HashMap using just the id.",
+    "translatedContent": "// us find records in a HashMap using just the id."
+  },
+  {
+    "row": 256,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 257,
+    "rowsha": "V5eF1ZnLA4XUGA+4PGQRI91zKPIDzwSIJz+FiJE5zGY=",
+    "originContent": "impl PartialEq for RankedKey {",
+    "translatedContent": "impl PartialEq for RankedKey {"
+  },
+  {
+    "row": 258,
+    "rowsha": "o+8OLBasAbiIwdcBJsbjdJ7njuXQGG+JVJ++ww1crps=",
+    "originContent": "    fn eq(&self, other: &Self) -> bool {",
+    "translatedContent": "    fn eq(&self, other: &Self) -> bool {"
+  },
+  {
+    "row": 259,
+    "rowsha": "PDpbvea93RyN8zw2QIkrwCq8yW6lZMvVUTTBVdymRTw=",
+    "originContent": "        self.id == other.id",
+    "translatedContent": "        self.id == other.id"
+  },
+  {
+    "row": 260,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 261,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 262,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 263,
+    "rowsha": "ey0sUJGzEfD6unVTpHM9ICPadui0P5H3odPXK9t0+1E=",
+    "originContent": "impl Eq for RankedKey {}",
+    "translatedContent": "impl Eq for RankedKey {}"
+  },
+  {
+    "row": 264,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 265,
+    "rowsha": "PVnSWU/Mu39zOuBFz8ZxMr+by2UR5V7OFa54TCqLgv4=",
+    "originContent": "impl Hash for RankedKey {",
+    "translatedContent": "impl Hash for RankedKey {"
+  },
+  {
+    "row": 266,
+    "rowsha": "UmY37LEnk2pIUcL2LCai3V29PkneghQCAjkjW9Lwr0U=",
+    "originContent": "    fn hash(&self, state: &mut H) {",
+    "translatedContent": "    fn hash(&self, state: &mut H) {"
+  },
+  {
+    "row": 267,
+    "rowsha": "1WykTiSz62hqt793GEk5jRStxDOoTCtAjFe984J5SC4=",
+    "originContent": "        self.id.hash(state);",
+    "translatedContent": "        self.id.hash(state);"
+  },
+  {
+    "row": 268,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 269,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 270,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 271,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 272,
+    "rowsha": "FBhswpdIhEF7ewOxWfcHQuAHealYbvKG9xB1RzVPX5I=",
+    "originContent": "Now when you search, results automatically come back sorted by popularity. No",
+    "translatedContent": "Maintenant, lorsque vous effectuez une recherche, les résultats reviennent automatiquement triés par popularité. Aucune"
+  },
+  {
+    "row": 273,
+    "rowsha": "6yxsE1UEd/VEn8nROF2U3xFQnWcwlU02VqFuO33exyo=",
+    "originContent": "extra sorting step needed.",
+    "translatedContent": "étape de tri supplémentaire n'est nécessaire."
+  },
+  {
+    "row": 274,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 275,
+    "rowsha": "71w3xeAr28IShUoiowZ+9ngzD0QjrU31VC70lkTX9ao=",
+    "originContent": "This pattern works for any ranking signal: recency, relevance scores, manual",
+    "translatedContent": "Ce modèle fonctionne pour tout signal de classement : récence, scores de pertinence, ordre de tri manuel, etc. Il suffit de changer ce que `Ord` compare."
+  },
+  {
+    "row": 276,
+    "rowsha": "O3rJrMh+O6V3KVCqWmCKa+MF3YgVTPRR28xKtZw+rIw=",
+    "originContent": "sort order, etc. Just change what `Ord` compares.",
+    "translatedContent": ""
+  },
+  {
+    "row": 277,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### Utilisation des clés pour les recherches"
+  },
+  {
+    "row": 278,
+    "rowsha": "xHR/zwOAFU6AV8yak4JW//G9sQ9BcdO0TISkBCihdLY=",
+    "originContent": "### Using Keys for Lookups",
+    "translatedContent": ""
+  },
+  {
+    "row": 279,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Après la recherche, vous récupérez généralement l'enregistrement complet de votre collection :"
+  },
+  {
+    "row": 280,
+    "rowsha": "IeCzPTX660qqOqXH/t3fW6iwFq0/nJOeBEp1Fl8RdJg=",
+    "originContent": "After searching, you'll typically fetch the full record from your collection:",
+    "translatedContent": ""
+  },
+  {
+    "row": 281,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 282,
+    "rowsha": "cEqWOzDLxxZAXnsW9YFChKzAfKi6aX0iwtjaXVtxI2k=",
+    "originContent": "```rust",
+    "translatedContent": "```rust"
+  },
+  {
+    "row": 283,
+    "rowsha": "ICftcYbp+MyDOT1ffs5MQKQLKpwsVEKb1/bbgMg5T10=",
+    "originContent": "let results = search_index.search(\"dawn\");",
+    "translatedContent": "let results = search_index.search(\"dawn\");"
+  },
+  {
+    "row": 284,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 285,
+    "rowsha": "YYP2baLr65EemOEj2DUeRKUTE6VN46zLtiJnDLhjUCM=",
+    "originContent": "for key in results {",
+    "translatedContent": "for key in results {"
+  },
+  {
+    "row": 286,
+    "rowsha": "VUx2JXN0C8sKgHyDxl5YR8/eLg0VwzbOEHrp9Kr4snI=",
+    "originContent": "    if let Some(record) = my_records.get(key) {",
+    "translatedContent": "    if let Some(record) = my_records.get(key) {"
+  },
+  {
+    "row": 287,
+    "rowsha": "RxiKp7nIagjtVFRsGiTcL8cM+RRuumxCGoNCxaRaj3o=",
+    "originContent": "        println!(\"{:?}\", record);",
+    "translatedContent": "        println!(\"{:?}\", record);"
+  },
+  {
+    "row": 288,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 289,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 290,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 291,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Parce que les traits `Eq` et `Hash` que nous avons implémentés dans l'exemple ne regardent que le champ `id` (pas `popularity`), vous pouvez toujours utiliser directement les clés des résultats de recherche pour les recherches dans `HashMap`."
+  },
+  {
+    "row": 292,
+    "rowsha": "OkjA2PuZiCHtDPCmMNJj4t9rpslkf+/mrnaG76pYOHI=",
+    "originContent": "Because the `Eq` and `Hash` traits that we implemented in the example only look",
+    "translatedContent": ""
+  },
+  {
+    "row": 293,
+    "rowsha": "HquPXHRM0DQ386SxBjqJTQJO4zt9S7DoM6WxlS7SW0M=",
+    "originContent": "at the `id` field (not `popularity`), you can still use search result keys",
+    "translatedContent": "# État du Crate"
+  },
+  {
+    "row": 294,
+    "rowsha": "sM9wet0/1Zb9RgVhTJmgx9VvYZPQGpW0KEKJTo7tWBc=",
+    "originContent": "directly for `HashMap` lookups.",
+    "translatedContent": ""
+  },
+  {
+    "row": 295,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Ce crate est maintenu de manière passive. Ce crate fait ce qu'on attend de lui et"
+  },
+  {
+    "row": 296,
+    "rowsha": "Go1vm86C0p2WCmx032M6yp+URdeY2DCw/YzBKsBUTI8=",
+    "originContent": "# Crate Status",
+    "translatedContent": "le fait assez bien, à mon avis. Des mises à jour fréquentes ne sont pas prévues."
+  },
+  {
+    "row": 297,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 298,
+    "rowsha": "5KBs2bEkZ3Nj1TSjhKcX6jzS2+WNkcawV3MyFrtvafg=",
+    "originContent": "This crate is passively maintained. This crate does what it's expected to do and",
+    "translatedContent": ""
+  },
+  {
+    "row": 299,
+    "rowsha": "//aFYM37LPsqgE/j70s1+7bLqAhBCviW33t/JnwOHs8=",
+    "originContent": "does it pretty well, in my opinion. Frequent updates are not expected.",
+    "translatedContent": ""
+  }
+]
