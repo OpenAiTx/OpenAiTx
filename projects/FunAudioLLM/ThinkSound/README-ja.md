@@ -38,53 +38,55 @@
 ---
 
 **ThinkSound** は、Chain-of-Thought（CoT）推論によるフロー・マッチングを活用した統合型Any2Audio生成フレームワークです。
-PyTorchによるマルチモーダル音声生成および編集の実装：動画・テキスト・音声から音声を生成・編集し、マルチモーダル大規模言語モデル（MLLM）の段階的推論によって実現します。
+PyTorchによるマルチモーダル音声生成および編集の実装：動画、テキスト、音声から音声を生成・編集可能。マルチモーダル大規模言語モデル（MLLM）の段階的な推論によって強化されています。
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 ニュース
-- **2025.09.19** &nbsp; 🎉 ThinkSoundが**NeurIPS 2025メインカンファレンス**に採択されました！
-- **2025.09.01** &nbsp; 🔥 AudioCoTデータセットがオープンソース化され、[Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)で利用可能になりました！
-- **2025.07.17** &nbsp; 🧠 ファインチューニング対応：トレーニングとファインチューニングコードが公開され、独自データでThinkSoundをカスタマイズ・拡張する手順も明確化されています。
-- **2025.07.15** &nbsp; 📦 インストール・利用がより簡単に：PyPI経由の依存関係でクロスプラットフォーム環境構築が容易に。Windows用`.bat`スクリプトで環境作成とスクリプト実行を自動化。
-- **2025.07.08** &nbsp;  🔧 主要アップデート：モデルの軽量化とメモリ・GPU使用の最適化、大規模高スループット音声生成に対応！
-- **2025.07.01** &nbsp; 🔥[Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound)と[ModelScope](https://modelscope.cn/studios/iic/ThinkSound)でオンラインデモ公開、インタラクティブ体験が可能！
-- **2025.07.01** &nbsp; 🔥推論スクリプトとWebインターフェース公開； 
-- **2025.06** &nbsp; 🔥[ThinkSound論文](https://arxiv.org/pdf/2506.21448)がarXivに掲載！
-- **2025.06** &nbsp; 🔥[オンラインデモ](http://thinksound-project.github.io/)公開中 - 今すぐお試しください！
+- **2025.11.25** &nbsp; 🔥[オンラインPrismAudioデモ](http://prismaudio-project.github.io/)公開 - 今すぐお試しください！
+- **2025.11.25** &nbsp; 🔥[PrismAudio論文](https://arxiv.org/pdf/2511.18833)がarXivに公開、初の多次元CoT-RLフレームワークによるVideo-to-Audio生成！
+- **2025.09.19** &nbsp; 🎉 ThinkSoundが**NeurIPS 2025本会議**に採択されました！
+- **2025.09.01** &nbsp; AudioCoTデータセットがオープンソース化され、[Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)で入手可能になりました！
+- **2025.07.17** &nbsp; 🧠 ファインチューニング対応：トレーニングおよびファインチューニングコードを公開、独自データでThinkSoundをカスタマイズ・拡張するための明確な使用方法も提供。
+- **2025.07.15** &nbsp; 📦 インストール・利用が簡単に：PyPI依存関係でクロスプラットフォーム環境構築が容易に。Windows用`.bat`スクリプトで環境作成・スクリプト実行を自動化。
+- **2025.07.08** &nbsp;  🔧 大幅アップデート：モデルの軽量化、メモリ・GPU使用最適化により、大規模な高スループット音声生成を実現！
+- **2025.07.01** &nbsp; [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound)および[ModelScope](https://modelscope.cn/studios/iic/ThinkSound)でオンラインデモ公開、インタラクティブ体験が可能！
+- **2025.07.01** &nbsp; 推論スクリプトとWebインターフェース公開； 
+- **2025.06** &nbsp; [ThinkSound論文](https://arxiv.org/pdf/2506.21448)がarXivに公開！
+- **2025.06** &nbsp; [オンラインデモ](http://thinksound-project.github.io/)公開 - 今すぐお試しください！
 
 ---
 
 
 ## 🚀 特徴
 
-- **Any2Audio**：任意のモダリティ（動画・テキスト・音声・その組み合わせ）から音声生成。
-- **Video-to-Audio SOTA**：複数のV2Aベンチマークで最先端の性能を達成。
-- **CoT駆動型推論**：MLLMによるChain-of-Thought推論で構成的・制御可能な音声生成。
-- **インタラクティブなオブジェクト中心編集**：映像内のオブジェクトクリックやテキスト指示で特定の音イベントを編集・調整。
-- **統合フレームワーク**：生成・編集・インタラクティブワークフローを単一基盤モデルでサポート。
+- **Any2Audio**: 任意のモダリティ（動画、テキスト、音声または組み合わせ）から音声を生成。
+- **Video-to-Audio SOTA**: 複数のV2Aベンチマークで最先端の結果を達成。
+- **CoT駆動推論**: MLLMを利用したChain-of-Thought推論による構成的かつ制御可能な音声生成。
+- **インタラクティブなオブジェクト中心編集**: 視覚オブジェクトのクリックやテキスト指示で特定の音イベントを編集・改良。
+- **統一フレームワーク**: ひとつの基盤モデルで生成、編集、インタラクティブなワークフローをサポート。
 
 ---
 
-## ✨ メソッド概要
+## ✨ 手法概要
 
-ThinkSoundは、MLLMベースのChain-of-Thought（CoT）推論で導かれる３つのインタラクティブな段階に音声生成・編集を分解します：
+ThinkSoundは音声生成と編集を、MLLMベースのChain-of-Thought（CoT）推論で導かれる3つのインタラクティブな段階に分解します：
 
-1. **フォリー生成：** 動画から意味的・時間的に整合した基礎サウンドスケープを生成。
-2. **オブジェクト中心の精緻化：** 動画内のクリックや領域指定で、ユーザーが指定したオブジェクトの音を精緻化・追加。
-3. **ターゲット音声編集：** 高度な自然言語指示で生成音声を修正。
+1. **フォーリー生成:** 動画から意味的・時間的に整合した基礎的なサウンドスケープを生成。
+2. **オブジェクト中心の改良:** 動画内のクリックや領域指定で、ユーザー指定オブジェクトの音を追加・改良。
+3. **ターゲット音声編集:** 高レベルな自然言語指示で生成済み音声を修正。
 
-![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- 大規模なCoT注釈付きデータセット（**AudioCoT**）を用いて推論モジュールと統合音声基盤モデルを学習します。
 
+![ThinkSound 概要](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
+<!-- 大規模なCoTアノテーション済みデータセット（**AudioCoT**）を使用して、推論モジュールと統合音声基盤モデルの両方を訓練します。
 ![AudioCoT パイプライン](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
 
 ## ⚡ クイックスタート
 
-**環境準備:**
+**環境準備：**
 ```bash
 git clone https://github.com/liuhuadai/ThinkSound.git
 cd ThinkSound
@@ -236,8 +238,9 @@ python app.py
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
 
 ---

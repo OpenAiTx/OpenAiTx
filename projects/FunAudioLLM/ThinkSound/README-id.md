@@ -45,39 +45,41 @@ Implementasi PyTorch untuk pembuatan dan pengeditan audio multimodal: menghasilk
 ---
 
 ## 📰 Berita
-- **2025.09.19** &nbsp; 🎉 ThinkSound telah diterima di **Konferensi Utama NeurIPS 2025**!
-- **2025.09.01** &nbsp; 🔥 Dataset AudioCoT kami kini bersifat open-source dan tersedia di [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!
-- **2025.07.17** &nbsp; 🧠 Finetuning diaktifkan: kode pelatihan dan finetuning sekarang tersedia untuk umum, beserta instruksi penggunaan yang jelas untuk membantu Anda menyesuaikan dan memperluas ThinkSound dengan data Anda sendiri.
-- **2025.07.15** &nbsp; 📦 Instalasi dan penggunaan yang disederhanakan: dependensi tersedia di PyPI untuk penyiapan lintas platform yang mudah; skrip Windows `.bat` mengotomatisasi pembuatan lingkungan dan menjalankan skrip.
-- **2025.07.08** &nbsp;  🔧 Pembaruan besar: model diringankan dan dioptimalkan untuk penggunaan memori dan GPU, kini mendukung pembuatan audio berkapasitas tinggi!
-- **2025.07.01** &nbsp; 🔥Demo online di [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) dan [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) untuk pengalaman interaktif!
-- **2025.07.01** &nbsp; 🔥Skrip inferensi dan antarmuka web dirilis;
-- **2025.06** &nbsp; 🔥[Paper ThinkSound](https://arxiv.org/pdf/2506.21448) dirilis di arXiv!
-- **2025.06** &nbsp; 🔥[Demo Online](http://thinksound-project.github.io/) telah tersedia - coba sekarang!
+- **2025.11.25** &nbsp; 🔥[Demo PrismAudio Online](http://prismaudio-project.github.io/) telah aktif - coba sekarang!
+- **2025.11.25** &nbsp; 🔥[Makalah PrismAudio](https://arxiv.org/pdf/2511.18833) dirilis di arXiv, kerangka kerja CoT-RL multi-dimensi pertama untuk Video-to-Audio Generation!
+- **2025.09.19** &nbsp; 🎉 ThinkSound diterima di **Konferensi Utama NeurIPS 2025**!
+- **2025.09.01** &nbsp; Dataset AudioCoT kami kini open-source dan tersedia di [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!
+- **2025.07.17** &nbsp; 🧠 Finetuning diaktifkan: kode pelatihan dan finetuning kini tersedia secara publik, beserta instruksi penggunaan yang jelas untuk membantu Anda menyesuaikan dan memperluas ThinkSound dengan data Anda sendiri.
+- **2025.07.15** &nbsp; 📦 Instalasi dan kemudahan penggunaan yang disederhanakan: dependensi tersedia di PyPI untuk setup lintas platform yang mudah; script Windows `.bat` otomatisasi pembuatan environment dan menjalankan script.
+- **2025.07.08** &nbsp;  🔧 Pembaruan besar: model menjadi lebih ringan dan memori serta penggunaan GPU dioptimalkan, kini mendukung pembuatan audio berkapasitas tinggi!
+- **2025.07.01** &nbsp; Demo online di [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) dan [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) untuk pengalaman interaktif!
+- **2025.07.01** &nbsp; Skrip inferensi dan antarmuka web dirilis;
+- **2025.06** &nbsp; [Makalah ThinkSound](https://arxiv.org/pdf/2506.21448) dirilis di arXiv!
+- **2025.06** &nbsp; [Demo Online](http://thinksound-project.github.io/) telah aktif - coba sekarang!
 
 ---
+
 
 ## 🚀 Fitur
 
-- **Any2Audio**: Menghasilkan audio dari berbagai modalitas — video, teks, audio, atau kombinasi mereka.
-- **Video-to-Audio SOTA**: Mencapai hasil terbaik pada beberapa tolok ukur V2A.
-- **Penalaran Berbasis CoT**: Penalaran Chain-of-Thought untuk pembuatan audio yang komposisional dan dapat dikendalikan melalui MLLMs.
-- **Pengeditan Interaktif Berbasis Objek**: Memperbaiki atau mengedit kejadian suara tertentu dengan mengklik objek visual atau menggunakan instruksi teks.
-- **Kerangka Kerja Terpadu**: Satu model dasar mendukung pembuatan, pengeditan, dan alur kerja interaktif.
+- **Any2Audio**: Hasilkan audio dari berbagai modalitas — video, teks, audio, atau kombinasinya.
+- **Video-to-Audio SOTA**: Mencapai hasil mutakhir pada berbagai benchmark V2A.
+- **Penalaran Berbasis CoT**: Penalaran Chain-of-Thought untuk pembuatan audio komposisional dan terkontrol melalui MLLMs.
+- **Pengeditan Interaktif Berbasis Objek**: Perbaiki atau edit kejadian suara spesifik dengan mengklik objek visual atau menggunakan instruksi teks.
+- **Kerangka Kerja Terpadu**: Satu model dasar mendukung generasi, editing, dan alur kerja interaktif.
 
 ---
 
-## ✨ Ringkasan Metode
+## ✨ Ikhtisar Metode
 
-ThinkSound membagi proses pembuatan dan pengeditan audio menjadi tiga tahap interaktif, semuanya dipandu oleh penalaran Chain-of-Thought (CoT) berbasis MLLM:
+ThinkSound membagi proses pembuatan dan pengeditan audio ke dalam tiga tahap interaktif, semuanya dipandu oleh penalaran Chain-of-Thought (CoT) berbasis MLLM:
 
-1. **Pembuatan Foley:** Menghasilkan lanskap suara dasar yang selaras secara semantik dan temporal dari video.
-2. **Penyempurnaan Berbasis Objek:** Menyempurnakan atau menambah suara untuk objek yang ditentukan pengguna melalui klik atau area pada video.
-3. **Pengeditan Audio Terarah:** Memodifikasi audio yang dihasilkan menggunakan instruksi bahasa alami tingkat tinggi.
+1. **Foley Generation:** Menghasilkan soundscape dasar yang selaras secara semantik dan temporal dari video.
+2. **Object-Centric Refinement:** Memperbaiki atau menambahkan suara untuk objek yang ditentukan pengguna melalui klik atau area pada video.
+3. **Targeted Audio Editing:** Mengubah audio yang dihasilkan menggunakan instruksi bahasa alami tingkat tinggi.
 
 ![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- Dataset berskala besar yang dianotasi CoT (**AudioCoT**) digunakan untuk melatih modul penalaran dan model fondasi audio terpadu.
-
+<!-- Dataset beranotasi CoT skala besar (**AudioCoT**) digunakan untuk melatih modul penalaran dan model fondasi audio terpadu.
 ![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
@@ -236,8 +238,9 @@ Jika Anda merasa ThinkSound berguna dalam penelitian atau pekerjaan Anda, silaka
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
 
 ---

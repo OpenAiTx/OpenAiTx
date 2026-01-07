@@ -38,46 +38,48 @@
 ---
 
 **ThinkSound** 是一個統一的 Any2Audio 生成框架，利用鏈式思維（Chain-of-Thought, CoT）推理引導的流匹配技術。
-PyTorch 實現多模態音訊生成與編輯：由影片、文字和音訊生成或編輯音訊，結合多模態大型語言模型（MLLMs）逐步推理技術。
+PyTorch 實現的多模態音訊生成與編輯：可從影片、文字與音訊產生或編輯音訊，並由多模態大型語言模型（MLLMs）的逐步推理驅動。
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 最新消息
+- **2025.11.25** &nbsp; 🔥[PrismAudio 線上示範](http://prismaudio-project.github.io/) 已上線 - 現在試用！
+- **2025.11.25** &nbsp; 🔥[PrismAudio 論文](https://arxiv.org/pdf/2511.18833) 已發佈於 arXiv，首創多維 CoT-RL 架構的影像轉音訊生成！
 - **2025.09.19** &nbsp; 🎉 ThinkSound 已被 **NeurIPS 2025 主會議** 接收！
-- **2025.09.01** &nbsp; 🔥 我們的 AudioCoT 資料集已開源並可於 [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT) 取得！
-- **2025.07.17** &nbsp; 🧠 支援微調：訓練與微調程式碼現已公開，並附有詳細使用教學，協助您以自有資料自訂與擴充 ThinkSound。
-- **2025.07.15** &nbsp; 📦 安裝與使用更簡易：依賴包已上傳至 PyPI，便於跨平台安裝；Windows `.bat` 腳本自動建立環境及執行腳本。
-- **2025.07.08** &nbsp;  🔧 重大更新：模型精簡並優化記憶體及 GPU 使用，現支援大規模高吞吐量音訊生成！
-- **2025.07.01** &nbsp; 🔥[Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) 及 [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) 線上互動展示已上線！
-- **2025.07.01** &nbsp; 🔥推論腳本與網頁介面已釋出；
-- **2025.06** &nbsp; 🔥[ThinkSound 論文](https://arxiv.org/pdf/2506.21448) 已發表於 arXiv！
-- **2025.06** &nbsp; 🔥[線上 Demo](http://thinksound-project.github.io/) 上線 - 現可即時體驗！
+- **2025.09.01** &nbsp; 我們的 AudioCoT 資料集已開源，現可於 [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT) 取得！
+- **2025.07.17** &nbsp; 🧠 支援微調：訓練與微調程式碼現已公開，並附有詳細使用說明，協助你用自有資料自訂並擴充 ThinkSound。
+- **2025.07.15** &nbsp; 📦 安裝與使用更簡化：PyPI 依賴便於跨平台安裝；Windows `.bat` 腳本自動建立環境與執行腳本。
+- **2025.07.08** &nbsp;  🔧 重大更新：模型輕量化並優化記憶體與 GPU 使用，現支援大規模高吞吐音訊生成！
+- **2025.07.01** &nbsp; Hugging Face Spaces [線上示範](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) 與 [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) 提供互動體驗！
+- **2025.07.01** &nbsp; 發布推論腳本與網頁介面；
+- **2025.06** &nbsp; [ThinkSound 論文](https://arxiv.org/pdf/2506.21448) 已發佈於 arXiv！
+- **2025.06** &nbsp; [線上示範](http://thinksound-project.github.io/) 已上線 - 現在試用！
 
 ---
 
 
 ## 🚀 特色功能
 
-- **Any2Audio**：可由任意模態——影片、文字、音訊或其組合生成音訊。
-- **Video-to-Audio SOTA**：於多項 V2A 基準數據集達到最新技術水準。
-- **CoT 推理驅動**：透過 MLLMs 進行可組合且可控的音訊生成鏈式推理。
-- **互動式物件導向編輯**：可點選視覺物件或輸入文字指令細緻編輯特定音訊事件。
-- **統一框架**：單一基礎模型支援生成、編輯與互動式工作流。
+- **Any2Audio**：由任意模態——影片、文字、音訊或其組合——生成音訊。
+- **Video-to-Audio SOTA**：多項 V2A 基準測試達到最新最強表現。
+- **CoT 驅動推理**：透過 MLLM 的 Chain-of-Thought 推理，實現組合性與可控音訊生成。
+- **互動式物件為中心編輯**：點選視覺物件或輸入文字指令，即可細緻修飾或編輯特定音效事件。
+- **統一式架構**：單一基礎模型支援生成、編輯與互動式工作流程。
 
 ---
 
-## ✨ 方法總覽
+## ✨ 方法概述
 
-ThinkSound 將音訊生成與編輯流程拆分為三個互動階段，皆由基於 MLLM 的鏈式推理（CoT）引導：
+ThinkSound 將音訊生成與編輯拆解為三個互動階段，皆由 MLLM 驅動的 Chain-of-Thought（CoT）推理指導：
 
-1. **Foley 生成：** 從影片生成具語意及時間對齊的基礎音景。
-2. **物件導向細化：** 透過點擊或選取影片區域，細化或新增使用者指定物件的音效。
-3. **目標式音訊編輯：** 利用高階自然語言指令修改已生成音訊。
+1. **擬音生成**：根據影片產生語意與時間對齊的基礎音景。
+2. **以物件為中心的細化**：透過點選或標註影片中指定物件，細緻調整或新增音效。
+3. **目標導向音訊編輯**：利用高階自然語言指令修改已生成音訊。
+
 
 ![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- 一個大規模 CoT 標註資料集（**AudioCoT**）用於訓練推理模組與統一音訊基礎模型。
-
+<!-- 一個大規模的CoT註釋資料集（**AudioCoT**）被用來訓練推理模組以及統一的音訊基礎模型。
 ![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
@@ -236,8 +238,9 @@ python app.py
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
 
 ---

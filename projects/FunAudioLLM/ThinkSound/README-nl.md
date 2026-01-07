@@ -38,51 +38,53 @@
 ---
 
 **ThinkSound** is een uniform Any2Audio generatiekader met flow matching gestuurd door Chain-of-Thought (CoT) redeneren.
-
 PyTorch-implementatie voor multimodale audiogeneratie en -bewerking: genereer of bewerk audio vanuit video, tekst en audio, aangedreven door stapsgewijze redenering van Multimodale Grote Taalmodellen (MLLMs).
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
 ## 📰 Nieuws
+- **2025.11.25** &nbsp; 🔥[Online PrismAudio Demo](http://prismaudio-project.github.io/) is live - probeer het nu uit!
+- **2025.11.25** &nbsp; 🔥[PrismAudio paper](https://arxiv.org/pdf/2511.18833) gepubliceerd op arXiv, het eerste multi-dimensionale CoT-RL framework voor Video-naar-Audio Generatie!
 - **2025.09.19** &nbsp; 🎉 ThinkSound is geaccepteerd voor de **NeurIPS 2025 Hoofdconferentie**!
-- **2025.09.01** &nbsp; 🔥 Onze AudioCoT-dataset is nu open-source en beschikbaar op [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!
-- **2025.07.17** &nbsp; 🧠 Finetuning ingeschakeld: trainings- en finetuningcode is nu publiekelijk beschikbaar, samen met duidelijke gebruiksinstructies om ThinkSound te personaliseren en uit te breiden met je eigen data.
+- **2025.09.01** &nbsp; Onze AudioCoT-dataset is nu open-source en beschikbaar op [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!
+- **2025.07.17** &nbsp; 🧠 Finetuning mogelijk: trainings- en finetuningcode nu openbaar beschikbaar, met duidelijke instructies om ThinkSound aan te passen en uit te breiden met eigen data.
 - **2025.07.15** &nbsp; 📦 Vereenvoudigde installatie en bruikbaarheid: afhankelijkheden op PyPI voor eenvoudige cross-platform installatie; Windows `.bat`-scripts automatiseren het aanmaken van omgevingen en het uitvoeren van scripts.
-- **2025.07.08** &nbsp;  🔧 Grote update: model is lichter gemaakt en geoptimaliseerd voor geheugen- en GPU-gebruik, ondersteunt nu grootschalige audiogeneratie met hoge doorvoer!
-- **2025.07.01** &nbsp; 🔥Online demo op [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) en [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) voor een interactieve ervaring!
-- **2025.07.01** &nbsp; 🔥Inference-scripts en webinterface vrijgegeven; 
-- **2025.06** &nbsp; 🔥[ThinkSound-paper](https://arxiv.org/pdf/2506.21448) uitgebracht op arXiv!
-- **2025.06** &nbsp; 🔥[Online Demo](http://thinksound-project.github.io/) is live - probeer het nu uit!
+- **2025.07.08** &nbsp;  🔧 Grote update: model is lichter gemaakt en geheugen- en GPU-gebruik geoptimaliseerd, ondersteunt nu grootschalige audio-generatie met hoge doorvoer!
+- **2025.07.01** &nbsp; Online demo op [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) en [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) voor interactieve ervaring!
+- **2025.07.01** &nbsp; Inferencescripts en webinterface uitgebracht;
+- **2025.06** &nbsp; [ThinkSound paper](https://arxiv.org/pdf/2506.21448) gepubliceerd op arXiv!
+- **2025.06** &nbsp; [Online Demo](http://thinksound-project.github.io/) is live - probeer het nu uit!
 
 ---
 
 
 ## 🚀 Functionaliteiten
 
-- **Any2Audio**: Genereer audio vanuit willekeurige modaliteiten — video, tekst, audio of hun combinaties.
-- **Video-naar-Audio SOTA**: Behaalt state-of-the-art resultaten op meerdere V2A benchmarks.
-- **CoT-Gestuurde Redenering**: Chain-of-Thought-redenering voor compositorische en controleerbare audiogeneratie via MLLMs.
+- **Any2Audio**: Genereer audio vanuit willekeurige modaliteiten — video, tekst, audio, of combinaties hiervan.
+- **Video-naar-Audio SOTA**: Behaalt state-of-the-art resultaten op meerdere V2A-benchmarks.
+- **CoT-Gestuurde Redenering**: Chain-of-Thought redenering voor compositieve en controleerbare audiogeneratie via MLLMs.
 - **Interactieve Objectgerichte Bewerking**: Verfijn of bewerk specifieke geluidsgebeurtenissen door te klikken op visuele objecten of tekstinstructies te gebruiken.
-- **Uniform Framework**: Eén basismodel ondersteunt generatie, bewerking en interactieve workflows.
+- **Uniform Framework**: Eén basismodel ondersteunt generatie, bewerking en interactieve workflow.
 
 ---
 
 ## ✨ Methode Overzicht
 
-ThinkSound splitst audiogeneratie en -bewerking op in drie interactieve stadia, allemaal geleid door CoT-redenering op basis van MLLM:
+ThinkSound splitst audiogeneratie en -bewerking op in drie interactieve fasen, allen gestuurd door MLLM-gebaseerde Chain-of-Thought (CoT) redenering:
 
-1. **Foley-generatie:** Genereer fundamentele, semantisch en temporeel uitgelijnde geluidslandschappen vanuit video.
-2. **Objectgerichte verfijning:** Verfijn of voeg geluiden toe voor door de gebruiker gespecificeerde objecten via klikken of regio's in de video.
-3. **Gerichte audiobewerking:** Pas gegenereerde audio aan met behulp van natuurlijke taal instructies op hoog niveau.
+1. **Foley Generatie:** Genereer fundamentele, semantisch en temporeel uitgelijnde soundscapes vanuit video.
+2. **Objectgerichte Verfijning:** Verfijn of voeg geluiden toe voor door de gebruiker gespecificeerde objecten via klikken of regio's in de video.
+3. **Gerichte Audio Bewerking:** Pas de gegenereerde audio aan met behulp van hoog-natuurlijke taalopdrachten.
+
 
 ![ThinkSound Overzicht](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- Een grootschalige CoT-geannoteerde dataset (**AudioCoT**) wordt gebruikt om zowel de redeneermodule als het uniforme audio-basismodel te trainen.
+<!-- Een grootschalige CoT-geannoteerde dataset (**AudioCoT**) wordt gebruikt om zowel de redeneermodule als het uniforme audiofundamentmodel te trainen.
 ![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
 
-## ⚡ Snelle start
+## ⚡ Snelle Start
 
 **Omgevingsvoorbereiding:**
 ```bash
@@ -236,8 +238,9 @@ Als u ThinkSound nuttig vindt in uw onderzoek of werk, citeer dan onze paper:
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
 
 ---

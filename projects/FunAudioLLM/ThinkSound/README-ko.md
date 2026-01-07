@@ -39,46 +39,48 @@
 
 **ThinkSound**는 Chain-of-Thought (CoT) 추론을 활용한 흐름 매칭 기반의 통합 Any2Audio 생성 프레임워크입니다.
 
-멀티모달 오디오 생성 및 편집을 위한 PyTorch 구현: 비디오, 텍스트, 오디오로부터 오디오를 생성하거나 편집하며, 멀티모달 대형 언어 모델(MLLM)의 단계별 추론으로 구동됩니다.
+멀티모달 오디오 생성 및 편집을 위한 PyTorch 구현: 비디오, 텍스트, 오디오로부터 오디오를 생성하거나 편집하며, 멀티모달 대형 언어 모델(MLLM)의 단계별 추론에 의해 구동됩니다.
 
 ![Teaser](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig1_teaser.png)
 ---
 
-## 📰 새 소식
+## 📰 소식
+- **2025.11.25** &nbsp; 🔥[온라인 PrismAudio 데모](http://prismaudio-project.github.io/) 오픈 - 지금 바로 사용해보세요!
+- **2025.11.25** &nbsp; 🔥[PrismAudio 논문](https://arxiv.org/pdf/2511.18833)이 arXiv에 공개되었습니다. 최초의 다차원 CoT-RL 기반 영상-오디오 생성 프레임워크!
 - **2025.09.19** &nbsp; 🎉 ThinkSound가 **NeurIPS 2025 메인 컨퍼런스**에 채택되었습니다!
-- **2025.09.01** &nbsp; 🔥 우리의 AudioCoT 데이터셋이 오픈 소스화되어 [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)에서 이용 가능합니다!
-- **2025.07.17** &nbsp; 🧠 파인튜닝 지원: 학습 및 파인튜닝 코드가 공개되었으며, 명확한 사용법이 제공되어 여러분만의 데이터로 ThinkSound를 맞춤화하고 확장할 수 있습니다.
-- **2025.07.15** &nbsp; 📦 설치 및 사용성 간소화: PyPI의 종속성으로 크로스 플랫폼 손쉬운 셋업; Windows `.bat` 스크립트로 환경 생성과 스크립트 실행 자동화.
-- **2025.07.08** &nbsp;  🔧 대규모 업데이트: 모델 경량화 및 메모리·GPU 사용 최적화, 대량 오디오 생성 지원!
-- **2025.07.01** &nbsp; 🔥[Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) 및 [ModelScope](https://modelscope.cn/studios/iic/ThinkSound)에서 온라인 데모로 상호작용 경험 제공!
-- **2025.07.01** &nbsp; 🔥추론 스크립트 및 웹 인터페이스 공개;
-- **2025.06** &nbsp; 🔥[ThinkSound 논문](https://arxiv.org/pdf/2506.21448)이 arXiv에 공개되었습니다!
-- **2025.06** &nbsp; 🔥[온라인 데모](http://thinksound-project.github.io/) 서비스 개시 - 지금 사용해보세요!
+- **2025.09.01** &nbsp; AudioCoT 데이터셋이 오픈소스로 공개되었으며 [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)에서 이용 가능합니다!
+- **2025.07.17** &nbsp; 🧠 파인튜닝 지원: 학습 및 파인튜닝 코드가 공개되어, 사용자가 직접 데이터로 ThinkSound를 맞춤 및 확장할 수 있도록 사용법이 제공됩니다.
+- **2025.07.15** &nbsp; 📦 간편한 설치 및 사용성: PyPI 기반 의존성 관리로 크로스플랫폼 설치 가능; Windows `.bat` 스크립트로 환경 생성과 실행 자동화.
+- **2025.07.08** &nbsp;  🔧 주요 업데이트: 모델 경량화 및 메모리·GPU 최적화, 대규모 고성능 오디오 생성 지원!
+- **2025.07.01** &nbsp; [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) 및 [ModelScope](https://modelscope.cn/studios/iic/ThinkSound)에서 온라인 데모 체험 제공!
+- **2025.07.01** &nbsp; 추론 스크립트와 웹 인터페이스 공개;
+- **2025.06** &nbsp; [ThinkSound 논문](https://arxiv.org/pdf/2506.21448)이 arXiv에 공개되었습니다!
+- **2025.06** &nbsp; [온라인 데모](http://thinksound-project.github.io/) 오픈 - 지금 바로 체험해보세요!
 
 ---
 
 
-## 🚀 기능
+## 🚀 주요 기능
 
-- **Any2Audio**: 비디오, 텍스트, 오디오 또는 이들의 조합 등 임의의 모달리티로부터 오디오 생성.
-- **Video-to-Audio SOTA**: 다양한 V2A 벤치마크에서 최첨단 성능 달성.
-- **CoT 기반 추론**: MLLM을 통한 조합 및 제어 가능한 오디오 생성을 위한 Chain-of-Thought 추론.
-- **상호작용적 객체 중심 편집**: 시각적 객체 클릭 또는 텍스트 지시로 특정 음향 이벤트를 세밀하게 편집.
-- **통합 프레임워크**: 하나의 기반 모델로 생성, 편집, 상호작용 워크플로우 지원.
+- **Any2Audio**: 비디오, 텍스트, 오디오 및 그 조합 등 임의의 모달리티에서 오디오 생성.
+- **Video-to-Audio SOTA**: 다수의 V2A 벤치마크에서 최신 성능 달성.
+- **CoT 기반 추론**: MLLM을 통한 조합적·제어 가능한 오디오 생성을 위한 Chain-of-Thought 추론.
+- **대화형 오브젝트 중심 편집**: 시각 객체 클릭 또는 텍스트 명령으로 특정 소리 이벤트 세밀 조정 및 편집.
+- **통합 프레임워크**: 하나의 기반 모델로 생성, 편집, 대화형 워크플로우 지원.
 
 ---
 
 ## ✨ 방법 개요
 
-ThinkSound는 오디오 생성 및 편집을 세 가지 상호작용 단계로 분해하며, 모두 MLLM 기반 Chain-of-Thought(CoT) 추론으로 안내됩니다:
+ThinkSound는 오디오 생성 및 편집 과정을 MLLM 기반 Chain-of-Thought(CoT) 추론에 의해 안내되는 세 가지 대화형 단계로 분해합니다:
 
-1. **폴리 생성:** 비디오에서 의미론적·시간적으로 정렬된 기본 사운드스케이프 생성.
-2. **객체 중심 정제:** 비디오 내 객체 클릭 또는 영역 지정으로 사용자가 원하는 소리 정제 또는 추가.
-3. **타겟 오디오 편집:** 고차원 자연어 지시로 생성된 오디오를 수정.
+1. **폴리 생성:** 비디오로부터 의미적·시간적으로 정렬된 기본 사운드스케이프 생성.
+2. **오브젝트 중심 정제:** 비디오 내 클릭 또는 영역 지정으로 사용자가 선택한 오브젝트의 사운드 정제 또는 추가.
+3. **타깃 오디오 편집:** 고수준 자연어 명령을 사용한 생성 오디오 수정.
 
-![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- 대규모 CoT 주석 데이터셋(**AudioCoT**)이 추론 모듈과 통합 오디오 기반 모델 학습에 사용됩니다.
-![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
+![ThinkSound 개요](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
+<!-- 대규모 CoT 주석 데이터셋(**AudioCoT**)이 추론 모듈과 통합 오디오 기반 모델을 모두 학습하는 데 사용됩니다.
+![AudioCoT 파이프라인](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
 
@@ -236,8 +238,9 @@ ThinkSound가 귀하의 연구나 작업에 유용했다면, 저희 논문을 �
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
 
 ---

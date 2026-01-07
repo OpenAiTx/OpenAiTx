@@ -45,40 +45,42 @@ Triển khai PyTorch cho tạo và chỉnh sửa âm thanh đa phương thức: 
 ---
 
 ## 📰 Tin tức
-- **2025.09.19** &nbsp; 🎉 ThinkSound đã được chấp nhận tại **Hội nghị chính NeurIPS 2025**!
-- **2025.09.01** &nbsp; 🔥 Bộ dữ liệu AudioCoT của chúng tôi hiện đã mã nguồn mở và có sẵn trên [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!
-- **2025.07.17** &nbsp; 🧠 Đã kích hoạt finetuning: mã huấn luyện và tinh chỉnh hiện đã công khai, kèm hướng dẫn sử dụng rõ ràng để bạn tùy chỉnh và mở rộng ThinkSound với dữ liệu của riêng mình.
-- **2025.07.15** &nbsp; 📦 Cài đặt và sử dụng đơn giản: phụ thuộc đã có trên PyPI để thiết lập đa nền tảng dễ dàng; script Windows `.bat` tự động tạo môi trường và chạy script.
-- **2025.07.08** &nbsp;  🔧 Cập nhật lớn: mô hình nhẹ hơn và tối ưu hóa bộ nhớ cùng GPU, hiện hỗ trợ tạo âm thanh hiệu suất cao với quy mô lớn!
-- **2025.07.01** &nbsp; 🔥Demo trực tuyến trên [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) và [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) cho trải nghiệm tương tác!
-- **2025.07.01** &nbsp; 🔥Đã phát hành script suy luận và giao diện web;
-- **2025.06** &nbsp; 🔥[Bài báo ThinkSound](https://arxiv.org/pdf/2506.21448) đã phát hành trên arXiv!
-- **2025.06** &nbsp; 🔥[Demo trực tuyến](http://thinksound-project.github.io/) đã hoạt động - hãy thử ngay!
+- **2025.11.25** &nbsp; 🔥[Demo PrismAudio trực tuyến](http://prismaudio-project.github.io/) đã ra mắt - hãy thử ngay!
+- **2025.11.25** &nbsp; 🔥[Bài báo PrismAudio](https://arxiv.org/pdf/2511.18833) được phát hành trên arXiv, là khuôn khổ CoT-RL đa chiều đầu tiên cho Tạo âm thanh từ Video!
+- **2025.09.19** &nbsp; 🎉 ThinkSound đã được chấp nhận vào **Hội nghị NeurIPS 2025**!
+- **2025.09.01** &nbsp; Bộ dữ liệu AudioCoT của chúng tôi hiện đã mã nguồn mở và có sẵn trên [Hugging Face](https://huggingface.co/datasets/liuhuadai/AudioCoT)!
+- **2025.07.17** &nbsp; 🧠 Đã hỗ trợ tinh chỉnh: mã huấn luyện và tinh chỉnh hiện đã được công khai, kèm hướng dẫn sử dụng rõ ràng giúp bạn tùy chỉnh và mở rộng ThinkSound với dữ liệu của riêng mình.
+- **2025.07.15** &nbsp; 📦 Đơn giản hóa cài đặt và sử dụng: các phụ thuộc trên PyPI giúp thiết lập đa nền tảng dễ dàng; script `.bat` cho Windows tự động tạo môi trường và chạy script.
+- **2025.07.08** &nbsp;  🔧 Cập nhật lớn: tối ưu hóa bộ nhớ và GPU, giảm nhẹ mô hình, nay hỗ trợ tạo âm thanh tốc độ cao ở quy mô lớn!
+- **2025.07.01** &nbsp; Demo trực tuyến trên [Hugging Face Spaces](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) và [ModelScope](https://modelscope.cn/studios/iic/ThinkSound) cho trải nghiệm tương tác!
+- **2025.07.01** &nbsp; Đã phát hành script suy luận và giao diện web;
+- **2025.06** &nbsp; [Bài báo ThinkSound](https://arxiv.org/pdf/2506.21448) được công bố trên arXiv!
+- **2025.06** &nbsp; [Demo trực tuyến](http://thinksound-project.github.io/) đã ra mắt - hãy thử ngay!
 
 ---
 
 
 ## 🚀 Tính năng
 
-- **Any2Audio**: Tạo âm thanh từ bất kỳ phương thức nào — video, văn bản, âm thanh hoặc kết hợp của chúng.
-- **Video-to-Audio SOTA**: Đạt kết quả hàng đầu trên nhiều bộ đánh giá V2A.
-- **Suy luận dựa trên CoT**: Suy luận chuỗi tư duy cho tạo âm thanh có tính thành phần và kiểm soát qua MLLMs.
-- **Chỉnh sửa tập trung vào đối tượng tương tác**: Tinh chỉnh hoặc chỉnh sửa sự kiện âm thanh cụ thể bằng cách nhấp vào đối tượng hình ảnh hoặc sử dụng hướng dẫn văn bản.
-- **Khung hợp nhất**: Một mô hình nền tảng duy nhất hỗ trợ tạo, chỉnh sửa và quy trình tương tác.
+- **Any2Audio**: Tạo âm thanh từ bất kỳ phương thức nào — video, văn bản, âm thanh hoặc kết hợp các phương thức.
+- **Video-to-Audio SOTA**: Đạt kết quả tốt nhất trên nhiều benchmark V2A.
+- **Suy luận CoT**: Suy luận Chuỗi Tư duy cho tạo âm thanh có tính thành phần và kiểm soát thông qua MLLMs.
+- **Chỉnh sửa tập trung đối tượng tương tác**: Tinh chỉnh hoặc chỉnh sửa sự kiện âm thanh cụ thể bằng cách nhấp vào đối tượng trực quan hoặc sử dụng hướng dẫn văn bản.
+- **Khung thống nhất**: Một mô hình nền tảng hỗ trợ tạo, chỉnh sửa và quy trình tương tác.
 
 ---
 
 ## ✨ Tổng quan phương pháp
 
-ThinkSound phân tách quá trình tạo và chỉnh sửa âm thanh thành ba giai đoạn tương tác, tất cả đều được hướng dẫn bởi suy luận Chuỗi Tư Duy (CoT) dựa trên MLLM:
+ThinkSound phân tách quá trình tạo và chỉnh sửa âm thanh thành ba giai đoạn tương tác, tất cả đều được hướng dẫn bởi suy luận Chuỗi Tư duy (CoT) dựa trên MLLM:
 
-1. **Tạo Foley:** Tạo nền âm thanh cơ bản, phù hợp ngữ nghĩa và thời gian từ video.
-2. **Tinh chỉnh tập trung vào đối tượng:** Tinh chỉnh hoặc thêm âm thanh cho đối tượng do người dùng chỉ định thông qua nhấp chuột hoặc vùng trên video.
-3. **Chỉnh sửa âm thanh mục tiêu:** Chỉnh sửa âm thanh đã tạo bằng hướng dẫn ngôn ngữ tự nhiên cấp cao.
+1. **Tạo Foley:** Tạo cảnh âm thanh nền, căn chỉnh ngữ nghĩa và thời gian từ video.
+2. **Tinh chỉnh tập trung đối tượng:** Tinh chỉnh hoặc thêm âm thanh cho các đối tượng do người dùng chỉ định qua nhấp chuột hoặc vùng trong video.
+3. **Chỉnh sửa âm thanh có mục tiêu:** Sửa đổi âm thanh đã tạo bằng hướng dẫn ngôn ngữ tự nhiên cấp cao.
 
-![ThinkSound Overview](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
-<!-- Một bộ dữ liệu chú thích CoT quy mô lớn (**AudioCoT**) được sử dụng để huấn luyện cả module suy luận và mô hình âm thanh nền tảng hợp nhất.
-![AudioCoT Pipeline](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
+![Tổng quan ThinkSound](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig3_model.png)
+<!-- Một bộ dữ liệu chú thích CoT quy mô lớn (**AudioCoT**) được sử dụng để huấn luyện cả mô-đun suy luận và mô hình nền tảng âm thanh hợp nhất.
+![Quy trình AudioCoT](https://raw.githubusercontent.com/FunAudioLLM/ThinkSound/master/assets/figs/fig2_dataset.png) -->
 
 ---
 
@@ -236,8 +238,9 @@ Nếu bạn thấy ThinkSound hữu ích trong nghiên cứu hoặc công việc
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-04
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-07
 
 ---
