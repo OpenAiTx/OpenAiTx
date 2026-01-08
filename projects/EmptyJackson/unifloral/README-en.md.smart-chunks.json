@@ -1,0 +1,656 @@
+[
+  {
+    "Id": 1,
+    "Content": "<h1 align=\"center\">🌹 Unifloral: Unified Offline Reinforcement Learning</h1>\n\n<p align=\"center\">\n    <a href= \"https://arxiv.org/abs/2504.11453\">\n        <img src=\"https://img.shields.io/badge/arXiv-2504.11453-b31b1b.svg\" /></a>\n</p>\n\nUnified implementations and rigorous evaluation for offline reinforcement learning - built by [Matthew Jackson](https://github.com/EmptyJackson), [Uljad Berdica](https://github.com/uljad), and [Jarek Liesen](https://github.com/keraJLi).\n\n## 💡 Code Philosophy\n\n- ⚛️ **Single-file**: We implement algorithms as standalone Python files.\n- 🤏 **Minimal**: We only edit what is necessary between algorithms, making comparisons straightforward.\n- ⚡️ **GPU-accelerated**: We use JAX and end-to-end compile all training code, enabling lightning-fast training.\n\nInspired by [CORL](https://github.com/tinkoff-ai/CORL) and [CleanRL](https://github.com/vwxyzjn/cleanrl) - check them out!\n\n## 🤖 Algorithms\n\nWe provide two types of algorithm implementation:\n\n1. **Standalone**: Each algorithm is implemented as a [single file](algorithms) with minimal dependencies, making it easy to understand and modify.\n2. **Unified**: Most algorithms are available as configs for our unified implementation [`unifloral.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/unifloral.py).\n\nAfter training, final evaluation results are saved to `.npz` files in [`final_returns/`](final_returns) for analysis using our evaluation protocol.\n\nAll scripts support [D4RL](https://github.com/Farama-Foundation/D4RL) and use [Weights & Biases](https://wandb.ai) for logging, with configs provided as WandB sweep files.\n\n### Model-free\n\n| Algorithm | Standalone | Unified | Extras |\n| --- | --- | --- | --- |\n| BC | [`bc.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/bc.py) | [`unifloral/bc.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/bc.yaml) | - |\n| SAC-N | [`sac_n.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/sac_n.py) | [`unifloral/sac_n.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/sac_n.yaml) | [[ArXiv]](https://arxiv.org/abs/2110.01548) |\n| EDAC | [`edac.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/edac.py) | [`unifloral/edac.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/edac.yaml) | [[ArXiv]](https://arxiv.org/abs/2110.01548) |\n| CQL | [`cql.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/cql.py) | - | [[ArXiv]](https://arxiv.org/abs/2006.04779) |\n| IQL | [`iql.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/iql.py) | [`unifloral/iql.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/iql.yaml) | [[ArXiv]](https://arxiv.org/abs/2110.06169) |\n| TD3-BC | [`td3_bc.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/td3_bc.py) | [`unifloral/td3_bc.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/td3_bc.yaml) | [[ArXiv]](https://arxiv.org/abs/2106.06860) |\n| ReBRAC | [`rebrac.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/rebrac.py) | [`unifloral/rebrac.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/rebrac.yaml) | [[ArXiv]](https://arxiv.org/abs/2305.09836) |\n| TD3-AWR | - | [`unifloral/td3_awr.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/td3_awr.yaml) | [[ArXiv]](https://arxiv.org/abs/2504.11453) |",
+    "ContentSha": "lmF0bjRSB/ivjmrB0L3OLc18+R5OqkSdCjWOeeYnYdY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<h1 align=\"center\">🌹 Unifloral: Unified Offline Reinforcement Learning</h1>\n\n<p align=\"center\">\n    <a href= \"https://arxiv.org/abs/2504.11453\">\n        <img src=\"https://img.shields.io/badge/arXiv-2504.11453-b31b1b.svg\" /></a>\n</p>\n\nUnified implementations and rigorous evaluation for offline reinforcement learning - built by [Matthew Jackson](https://github.com/EmptyJackson), [Uljad Berdica](https://github.com/uljad), and [Jarek Liesen](https://github.com/keraJLi).\n\n## 💡 Code Philosophy\n\n- ⚛️ **Single-file**: We implement algorithms as standalone Python files.\n- 🤏 **Minimal**: We only edit what is necessary between algorithms, making comparisons straightforward.\n- ⚡️ **GPU-accelerated**: We use JAX and end-to-end compile all training code, enabling lightning-fast training.\n\nInspired by [CORL](https://github.com/tinkoff-ai/CORL) and [CleanRL](https://github.com/vwxyzjn/cleanrl) - check them out!\n\n## 🤖 Algorithms\n\nWe provide two types of algorithm implementation:\n\n1. **Standalone**: Each algorithm is implemented as a [single file](algorithms) with minimal dependencies, making it easy to understand and modify.\n2. **Unified**: Most algorithms are available as configs for our unified implementation [`unifloral.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/unifloral.py).\n\nAfter training, final evaluation results are saved to `.npz` files in [`final_returns/`](final_returns) for analysis using our evaluation protocol.\n\nAll scripts support [D4RL](https://github.com/Farama-Foundation/D4RL) and use [Weights & Biases](https://wandb.ai) for logging, with configs provided as WandB sweep files.\n\n### Model-free\n\n| Algorithm | Standalone | Unified | Extras |\n| --- | --- | --- | --- |\n| BC | [`bc.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/bc.py) | [`unifloral/bc.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/bc.yaml) | - |\n| SAC-N | [`sac_n.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/sac_n.py) | [`unifloral/sac_n.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/sac_n.yaml) | [[ArXiv]](https://arxiv.org/abs/2110.01548) |\n| EDAC | [`edac.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/edac.py) | [`unifloral/edac.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/edac.yaml) | [[ArXiv]](https://arxiv.org/abs/2110.01548) |\n| CQL | [`cql.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/cql.py) | - | [[ArXiv]](https://arxiv.org/abs/2006.04779) |\n| IQL | [`iql.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/iql.py) | [`unifloral/iql.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/iql.yaml) | [[ArXiv]](https://arxiv.org/abs/2110.06169) |\n| TD3-BC | [`td3_bc.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/td3_bc.py) | [`unifloral/td3_bc.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/td3_bc.yaml) | [[ArXiv]](https://arxiv.org/abs/2106.06860) |\n| ReBRAC | [`rebrac.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/rebrac.py) | [`unifloral/rebrac.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/rebrac.yaml) | [[ArXiv]](https://arxiv.org/abs/2305.09836) |\n| TD3-AWR | - | [`unifloral/td3_awr.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/td3_awr.yaml) | [[ArXiv]](https://arxiv.org/abs/2504.11453) |",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UCrAGPF1nxxGVUrxhmo3YFj3DdkcUn+2weQeobPGFkk=",
+        "originContent": "<h1 align=\"center\">🌹 Unifloral: Unified Offline Reinforcement Learning</h1>",
+        "translatedContent": "<h1 align=\"center\">🌹 Unifloral: Unified Offline Reinforcement Learning</h1>"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "PHJLP1k/sLxESalnVs9M+vjN42DYEmSABt3XLR8/k1I=",
+        "originContent": "    <a href= \"https://arxiv.org/abs/2504.11453\">",
+        "translatedContent": "    <a href= \"https://arxiv.org/abs/2504.11453\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "V4E2H7lPGniPNa6uFXuXZcIfSdFMafDFDVYAZKYk7A0=",
+        "originContent": "        <img src=\"https://img.shields.io/badge/arXiv-2504.11453-b31b1b.svg\" /></a>",
+        "translatedContent": "        <img src=\"https://img.shields.io/badge/arXiv-2504.11453-b31b1b.svg\" /></a>"
+      },
+      {
+        "row": 6,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "bMDmvXsJ+Jb5vT82+JUAE7nKTuu9nq5ZD3R4RP8xw6w=",
+        "originContent": "Unified implementations and rigorous evaluation for offline reinforcement learning - built by [Matthew Jackson](https://github.com/EmptyJackson), [Uljad Berdica](https://github.com/uljad), and [Jarek Liesen](https://github.com/keraJLi).",
+        "translatedContent": "Unified implementations and rigorous evaluation for offline reinforcement learning - built by [Matthew Jackson](https://github.com/EmptyJackson), [Uljad Berdica](https://github.com/uljad), and [Jarek Liesen](https://github.com/keraJLi)."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "KcJmtNT+IdGPMja90On/0YI9ozvKYZRnAfk6l7KCpqE=",
+        "originContent": "## 💡 Code Philosophy",
+        "translatedContent": "## 💡 Code Philosophy"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "ib7wTDU20WbVF5egocaP0xKL+PTB4d8EpVJhui5iyXk=",
+        "originContent": "- ⚛️ **Single-file**: We implement algorithms as standalone Python files.",
+        "translatedContent": "- ⚛️ **Single-file**: We implement algorithms as standalone Python files."
+      },
+      {
+        "row": 13,
+        "rowsha": "jJPvMxwUXdhOb8637gvAOX4ZjS/0nwKJaFP832a5VBs=",
+        "originContent": "- 🤏 **Minimal**: We only edit what is necessary between algorithms, making comparisons straightforward.",
+        "translatedContent": "- 🤏 **Minimal**: We only edit what is necessary between algorithms, making comparisons straightforward."
+      },
+      {
+        "row": 14,
+        "rowsha": "7L2E8B77B3SB2umU2itGxkadzvQzIgtyWqUJr8BGdCE=",
+        "originContent": "- ⚡️ **GPU-accelerated**: We use JAX and end-to-end compile all training code, enabling lightning-fast training.",
+        "translatedContent": "- ⚡️ **GPU-accelerated**: We use JAX and end-to-end compile all training code, enabling lightning-fast training."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "8S6ayspsg3OWqwsUjuRPnCre+HOxOptFjINyJipkOZk=",
+        "originContent": "Inspired by [CORL](https://github.com/tinkoff-ai/CORL) and [CleanRL](https://github.com/vwxyzjn/cleanrl) - check them out!",
+        "translatedContent": "Inspired by [CORL](https://github.com/tinkoff-ai/CORL) and [CleanRL](https://github.com/vwxyzjn/cleanrl) - check them out!"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "SFq9qIDRpYNu86MXtOLfIlgDv8olqWea35fVDZCWsMI=",
+        "originContent": "## 🤖 Algorithms",
+        "translatedContent": "## 🤖 Algorithms"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "RncO7dybktQfB2Mb6e5L9GXSMPZWMSuHnDvCcR1GNlM=",
+        "originContent": "We provide two types of algorithm implementation:",
+        "translatedContent": "We provide two types of algorithm implementation:"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "tx+x2BiwrrZwhoYceccEQwp+xdFBjRhcPOCGQ1+guZU=",
+        "originContent": "1. **Standalone**: Each algorithm is implemented as a [single file](algorithms) with minimal dependencies, making it easy to understand and modify.",
+        "translatedContent": "1. **Standalone**: Each algorithm is implemented as a [single file](algorithms) with minimal dependencies, making it easy to understand and modify."
+      },
+      {
+        "row": 23,
+        "rowsha": "key+AcIe9iWwVApoMxsncE8KW7JprpMiwg/tV6Ifyxo=",
+        "originContent": "2. **Unified**: Most algorithms are available as configs for our unified implementation [`unifloral.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/unifloral.py).",
+        "translatedContent": "2. **Unified**: Most algorithms are available as configs for our unified implementation [`unifloral.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/unifloral.py)."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "UWfvfMsHWvi7ZPXMGXibSujkT19h4rA3sqqzbsIX2G8=",
+        "originContent": "After training, final evaluation results are saved to `.npz` files in [`final_returns/`](final_returns) for analysis using our evaluation protocol.",
+        "translatedContent": "After training, final evaluation results are saved to `.npz` files in [`final_returns/`](final_returns) for analysis using our evaluation protocol."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "RF0dintEq3zfG0Qqa4Ur0MG7dhOwT6wRTpm3jKX4rY8=",
+        "originContent": "All scripts support [D4RL](https://github.com/Farama-Foundation/D4RL) and use [Weights & Biases](https://wandb.ai) for logging, with configs provided as WandB sweep files.",
+        "translatedContent": "All scripts support [D4RL](https://github.com/Farama-Foundation/D4RL) and use [Weights & Biases](https://wandb.ai) for logging, with configs provided as WandB sweep files."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "yTXoH926Kw127MhoatPyCisM7YypgIdGKI2eCGN077Q=",
+        "originContent": "### Model-free",
+        "translatedContent": "### Model-free"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "R5WEDOLZ46wJz5YIGSeVCmjwtH+oFut1Utc1X8ICI2o=",
+        "originContent": "| Algorithm | Standalone | Unified | Extras |",
+        "translatedContent": "| Algorithm | Standalone | Unified | Extras |"
+      },
+      {
+        "row": 32,
+        "rowsha": "8aNGs8Y8p6yIcHbfP1mMvS+F8Ml+MdQ/s4A75STyAQI=",
+        "originContent": "| --- | --- | --- | --- |",
+        "translatedContent": "| --- | --- | --- | --- |"
+      },
+      {
+        "row": 33,
+        "rowsha": "fYRtPojuTbSeGunBLPvJ7B3y24WJ/595vwNMn0EFuEQ=",
+        "originContent": "| BC | [`bc.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/bc.py) | [`unifloral/bc.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/bc.yaml) | - |",
+        "translatedContent": "| BC | [`bc.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/bc.py) | [`unifloral/bc.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/bc.yaml) | - |"
+      },
+      {
+        "row": 34,
+        "rowsha": "XCwgQpxJaawyRBRm/tTpLoYsk3N0fYb23lZfnkHmsNQ=",
+        "originContent": "| SAC-N | [`sac_n.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/sac_n.py) | [`unifloral/sac_n.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/sac_n.yaml) | [[ArXiv]](https://arxiv.org/abs/2110.01548) |",
+        "translatedContent": "| SAC-N | [`sac_n.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/sac_n.py) | [`unifloral/sac_n.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/sac_n.yaml) | [[ArXiv]](https://arxiv.org/abs/2110.01548) |"
+      },
+      {
+        "row": 35,
+        "rowsha": "eqvtce2S7y0BaBsiuRW96pLQryAGttTAjI5HftdOYds=",
+        "originContent": "| EDAC | [`edac.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/edac.py) | [`unifloral/edac.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/edac.yaml) | [[ArXiv]](https://arxiv.org/abs/2110.01548) |",
+        "translatedContent": "| EDAC | [`edac.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/edac.py) | [`unifloral/edac.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/edac.yaml) | [[ArXiv]](https://arxiv.org/abs/2110.01548) |"
+      },
+      {
+        "row": 36,
+        "rowsha": "9vR0Y1R6xMi0/guNweU2dybkaMA7eOsTQZ/0g6uPXw4=",
+        "originContent": "| CQL | [`cql.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/cql.py) | - | [[ArXiv]](https://arxiv.org/abs/2006.04779) |",
+        "translatedContent": "| CQL | [`cql.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/cql.py) | - | [[ArXiv]](https://arxiv.org/abs/2006.04779) |"
+      },
+      {
+        "row": 37,
+        "rowsha": "XbSdNCZ1QMDa8M6H42jTRCaA92oV3aAG+h3H7s1Gcd0=",
+        "originContent": "| IQL | [`iql.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/iql.py) | [`unifloral/iql.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/iql.yaml) | [[ArXiv]](https://arxiv.org/abs/2110.06169) |",
+        "translatedContent": "| IQL | [`iql.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/iql.py) | [`unifloral/iql.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/iql.yaml) | [[ArXiv]](https://arxiv.org/abs/2110.06169) |"
+      },
+      {
+        "row": 38,
+        "rowsha": "sGGN+W91VEiCV5ezjX5NZWTGlPbN8IA2X0gYdLfdB1k=",
+        "originContent": "| TD3-BC | [`td3_bc.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/td3_bc.py) | [`unifloral/td3_bc.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/td3_bc.yaml) | [[ArXiv]](https://arxiv.org/abs/2106.06860) |",
+        "translatedContent": "| TD3-BC | [`td3_bc.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/td3_bc.py) | [`unifloral/td3_bc.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/td3_bc.yaml) | [[ArXiv]](https://arxiv.org/abs/2106.06860) |"
+      },
+      {
+        "row": 39,
+        "rowsha": "Y0Nnq4CH1iLiCgTewMD1l8AcLobjPC3CuKe3B9MI+Ns=",
+        "originContent": "| ReBRAC | [`rebrac.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/rebrac.py) | [`unifloral/rebrac.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/rebrac.yaml) | [[ArXiv]](https://arxiv.org/abs/2305.09836) |",
+        "translatedContent": "| ReBRAC | [`rebrac.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/rebrac.py) | [`unifloral/rebrac.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/rebrac.yaml) | [[ArXiv]](https://arxiv.org/abs/2305.09836) |"
+      },
+      {
+        "row": 40,
+        "rowsha": "aD+zkWNTih/vd9mnS0OIK2OyQURjpEf3TiPQoJX2FxU=",
+        "originContent": "| TD3-AWR | - | [`unifloral/td3_awr.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/td3_awr.yaml) | [[ArXiv]](https://arxiv.org/abs/2504.11453) |",
+        "translatedContent": "| TD3-AWR | - | [`unifloral/td3_awr.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/td3_awr.yaml) | [[ArXiv]](https://arxiv.org/abs/2504.11453) |"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n### Model-based\n\nWe implement a single script for dynamics model training: [`dynamics.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/dynamics.py), with config [`dynamics.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/dynamics.yaml).\n\n| Algorithm | Standalone | Unified | Extras |\n| --- | --- | --- | --- |\n| MOPO | [`mopo.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/mopo.py) | - | [[ArXiv]](https://arxiv.org/abs/2005.13239) |\n| MOReL | [`morel.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/morel.py) | - | [[ArXiv]](https://arxiv.org/abs/2005.05951) |\n| COMBO | [`combo.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/combo.py) | - | [[ArXiv]](https://arxiv.org/abs/2102.08363) |\n| MoBRAC | - | [`unifloral/mobrac.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/mobrac.yaml) | [[ArXiv]](https://arxiv.org/abs/2504.11453) |\n\nNew ones coming soon 👀\n\n## 📊 Evaluation\n\nOur evaluation script ([`evaluation.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/evaluation.py)) implements the protocol described in our paper, analysing the performance of a UCB bandit over a range of policy evaluations.\n",
+    "ContentSha": "3nricBGw2qPfpg4AmVJyXW4NV64CJz9cTSblQ+Dw0wQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Model-based\n\nWe implement a single script for dynamics model training: [`dynamics.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/dynamics.py), with config [`dynamics.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/dynamics.yaml).\n\n| Algorithm | Standalone | Unified | Extras |\n| --- | --- | --- | --- |\n| MOPO | [`mopo.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/mopo.py) | - | [[ArXiv]](https://arxiv.org/abs/2005.13239) |\n| MOReL | [`morel.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/morel.py) | - | [[ArXiv]](https://arxiv.org/abs/2005.05951) |\n| COMBO | [`combo.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/combo.py) | - | [[ArXiv]](https://arxiv.org/abs/2102.08363) |\n| MoBRAC | - | [`unifloral/mobrac.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/mobrac.yaml) | [[ArXiv]](https://arxiv.org/abs/2504.11453) |\n\nNew ones coming soon 👀\n\n## 📊 Evaluation\n\nOur evaluation script ([`evaluation.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/evaluation.py)) implements the protocol described in our paper, analysing the performance of a UCB bandit over a range of policy evaluations.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "x0TFg4tiaKPYL3AZuXOvjPBvuO3E5mah7Cw5V7f7mUg=",
+        "originContent": "### Model-based",
+        "translatedContent": "### Model-based"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "NHEQRPbhrFysWijhocURBrW6DJpyQEojYqmdnTidvUs=",
+        "originContent": "We implement a single script for dynamics model training: [`dynamics.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/dynamics.py), with config [`dynamics.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/dynamics.yaml).",
+        "translatedContent": "We implement a single script for dynamics model training: [`dynamics.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/dynamics.py), with config [`dynamics.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/dynamics.yaml)."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "R5WEDOLZ46wJz5YIGSeVCmjwtH+oFut1Utc1X8ICI2o=",
+        "originContent": "| Algorithm | Standalone | Unified | Extras |",
+        "translatedContent": "| Algorithm | Standalone | Unified | Extras |"
+      },
+      {
+        "row": 7,
+        "rowsha": "8aNGs8Y8p6yIcHbfP1mMvS+F8Ml+MdQ/s4A75STyAQI=",
+        "originContent": "| --- | --- | --- | --- |",
+        "translatedContent": "| --- | --- | --- | --- |"
+      },
+      {
+        "row": 8,
+        "rowsha": "uYcn73JZBKB43qTgot4irn7i/I65dXezQ/DPYYD6lQs=",
+        "originContent": "| MOPO | [`mopo.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/mopo.py) | - | [[ArXiv]](https://arxiv.org/abs/2005.13239) |",
+        "translatedContent": "| MOPO | [`mopo.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/mopo.py) | - | [[ArXiv]](https://arxiv.org/abs/2005.13239) |"
+      },
+      {
+        "row": 9,
+        "rowsha": "5RXENnhmUBVW+nFRyjZki3jx/mlX7Aes9mYvLSBMfNM=",
+        "originContent": "| MOReL | [`morel.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/morel.py) | - | [[ArXiv]](https://arxiv.org/abs/2005.05951) |",
+        "translatedContent": "| MOReL | [`morel.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/morel.py) | - | [[ArXiv]](https://arxiv.org/abs/2005.05951) |"
+      },
+      {
+        "row": 10,
+        "rowsha": "ezbGGwfd9eln5bZ0qbD+VGhB2aBLUJsYBJadSqz+CYY=",
+        "originContent": "| COMBO | [`combo.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/combo.py) | - | [[ArXiv]](https://arxiv.org/abs/2102.08363) |",
+        "translatedContent": "| COMBO | [`combo.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/algorithms/combo.py) | - | [[ArXiv]](https://arxiv.org/abs/2102.08363) |"
+      },
+      {
+        "row": 11,
+        "rowsha": "bPDWQCWPQ0BjCAzxYs3HshEz9aX461BC7c2n4lSsP8s=",
+        "originContent": "| MoBRAC | - | [`unifloral/mobrac.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/mobrac.yaml) | [[ArXiv]](https://arxiv.org/abs/2504.11453) |",
+        "translatedContent": "| MoBRAC | - | [`unifloral/mobrac.yaml`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/configs/unifloral/mobrac.yaml) | [[ArXiv]](https://arxiv.org/abs/2504.11453) |"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "ff7VwJ/GqyLCG8K0pA4/SCYrICXGRFTPff6EiFnSYQo=",
+        "originContent": "New ones coming soon 👀",
+        "translatedContent": "New ones coming soon 👀"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "RV/lkFyd4r4TQLY1qeDzx60mM+znUBMQr8fvaK78ARc=",
+        "originContent": "## 📊 Evaluation",
+        "translatedContent": "## 📊 Evaluation"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "pbHq6IjFshpP46SPRGsDy9ak5N5MP9Sti9HLGdIOTd0=",
+        "originContent": "Our evaluation script ([`evaluation.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/evaluation.py)) implements the protocol described in our paper, analysing the performance of a UCB bandit over a range of policy evaluations.",
+        "translatedContent": "Our evaluation script ([`evaluation.py`](https://raw.githubusercontent.com/EmptyJackson/unifloral/main/evaluation.py)) implements the protocol described in our paper, analysing the performance of a UCB bandit over a range of policy evaluations."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```python\nfrom evaluation import load_results_dataframe, bootstrap_bandit_trials\nimport jax.numpy as jnp\n\n# Load all results from the final_returns directory\ndf = load_results_dataframe(\"final_returns\")\n\n# Run bandit trials with bootstrapped confidence intervals\nresults = bootstrap_bandit_trials(\n    returns_array=jnp.array(policy_returns),  # Shape: (num_policies, num_rollouts)\n    num_subsample=8,     # Number of policies to subsample\n    num_repeats=1000,    # Number of bandit trials\n    max_pulls=200,       # Maximum pulls per trial\n    ucb_alpha=2.0,       # UCB exploration coefficient\n    n_bootstraps=1000,   # Bootstrap samples for confidence intervals\n    confidence=0.95      # Confidence level\n)\n\n# Access results\npulls = results[\"pulls\"]                      # Number of pulls at each step\nmeans = results[\"estimated_bests_mean\"]       # Mean score of estimated best policy\nci_low = results[\"estimated_bests_ci_low\"]    # Lower confidence bound\nci_high = results[\"estimated_bests_ci_high\"]  # Upper confidence bound\n```",
+    "ContentSha": "ZIa6ndGYjaJz/M/r+E5DN8vbwHhVpyYzyq35q+DH9R4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```python\nfrom evaluation import load_results_dataframe, bootstrap_bandit_trials\nimport jax.numpy as jnp\n\n# Load all results from the final_returns directory\ndf = load_results_dataframe(\"final_returns\")\n\n# Run bandit trials with bootstrapped confidence intervals\nresults = bootstrap_bandit_trials(\n    returns_array=jnp.array(policy_returns),  # Shape: (num_policies, num_rollouts)\n    num_subsample=8,     # Number of policies to subsample\n    num_repeats=1000,    # Number of bandit trials\n    max_pulls=200,       # Maximum pulls per trial\n    ucb_alpha=2.0,       # UCB exploration coefficient\n    n_bootstraps=1000,   # Bootstrap samples for confidence intervals\n    confidence=0.95      # Confidence level\n)\n\n# Access results\npulls = results[\"pulls\"]                      # Number of pulls at each step\nmeans = results[\"estimated_bests_mean\"]       # Mean score of estimated best policy\nci_low = results[\"estimated_bests_ci_low\"]    # Lower confidence bound\nci_high = results[\"estimated_bests_ci_high\"]  # Upper confidence bound\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "uDnRsrcDV2kZVI2wi9EA58m+F4ILdr1bvjhqNlB+wSc=",
+        "originContent": "```python",
+        "translatedContent": "```python"
+      },
+      {
+        "row": 2,
+        "rowsha": "IVGh54d1tsB8jnC2e0AufFoC6Xf3TbTG7xBEYcFFU1Y=",
+        "originContent": "from evaluation import load_results_dataframe, bootstrap_bandit_trials",
+        "translatedContent": "from evaluation import load_results_dataframe, bootstrap_bandit_trials"
+      },
+      {
+        "row": 3,
+        "rowsha": "vKoPOOzgGyZY64gx2JdVReRfyx0vcf5TZJjsazYGCYk=",
+        "originContent": "import jax.numpy as jnp",
+        "translatedContent": "import jax.numpy as jnp"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yqAs0cHfvyXOpU+3H3mti7HyB9DkywHz0ekYBHiajIo=",
+        "originContent": "# Load all results from the final_returns directory",
+        "translatedContent": "# Load all results from the final_returns directory"
+      },
+      {
+        "row": 6,
+        "rowsha": "wQJLbQrx6e5+3J4IV6i5Tmdv/BS/C+yDuPcisNZg/IY=",
+        "originContent": "df = load_results_dataframe(\"final_returns\")",
+        "translatedContent": "df = load_results_dataframe(\"final_returns\")"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "dp9w+feY0DYBs2Tr7z905JVbwGyfs0tCa6tFwbLXKKk=",
+        "originContent": "# Run bandit trials with bootstrapped confidence intervals",
+        "translatedContent": "# Run bandit trials with bootstrapped confidence intervals"
+      },
+      {
+        "row": 9,
+        "rowsha": "omAYUT+rFwOA11p9xQ1s3J1AMi4yCQNqvZKv5TLavyI=",
+        "originContent": "results = bootstrap_bandit_trials(",
+        "translatedContent": "results = bootstrap_bandit_trials("
+      },
+      {
+        "row": 10,
+        "rowsha": "xFMXZGOggj+OJlV9Pnm+rwqtKpPjVrTdcPJTVWUoegs=",
+        "originContent": "    returns_array=jnp.array(policy_returns),  # Shape: (num_policies, num_rollouts)",
+        "translatedContent": "    returns_array=jnp.array(policy_returns),  # Shape: (num_policies, num_rollouts)"
+      },
+      {
+        "row": 11,
+        "rowsha": "h7eZaQeUYySbSgJNB9+KaCUoKSS5cmQ6Qn2M4NIK/hI=",
+        "originContent": "    num_subsample=8,     # Number of policies to subsample",
+        "translatedContent": "    num_subsample=8,     # Number of policies to subsample"
+      },
+      {
+        "row": 12,
+        "rowsha": "IOALedOQHnr+97bhabKxa0EayxOwcEPW6xKmhe7dNhA=",
+        "originContent": "    num_repeats=1000,    # Number of bandit trials",
+        "translatedContent": "    num_repeats=1000,    # Number of bandit trials"
+      },
+      {
+        "row": 13,
+        "rowsha": "51r0nEsVnDgqsS5NBXc0uRXnmZTOzaubbilnz04XTlI=",
+        "originContent": "    max_pulls=200,       # Maximum pulls per trial",
+        "translatedContent": "    max_pulls=200,       # Maximum pulls per trial"
+      },
+      {
+        "row": 14,
+        "rowsha": "YECGn30TJM32MCVkgGrM85tzTSPUqUZch2PUnyIajtA=",
+        "originContent": "    ucb_alpha=2.0,       # UCB exploration coefficient",
+        "translatedContent": "    ucb_alpha=2.0,       # UCB exploration coefficient"
+      },
+      {
+        "row": 15,
+        "rowsha": "PZNtJJ7YKicMkwW0WMgX9yNe9LOpMcvcvbQBr6ai8fQ=",
+        "originContent": "    n_bootstraps=1000,   # Bootstrap samples for confidence intervals",
+        "translatedContent": "    n_bootstraps=1000,   # Bootstrap samples for confidence intervals"
+      },
+      {
+        "row": 16,
+        "rowsha": "ohJnZ//NU9S7zds1/6R9HB+ZOpjYy/9Z4mwV6iGiBkE=",
+        "originContent": "    confidence=0.95      # Confidence level",
+        "translatedContent": "    confidence=0.95      # Confidence level"
+      },
+      {
+        "row": 17,
+        "rowsha": "ul7FHQekrA6VFghwRDHVmgKyGk6VGswQUFqNxAfFAe4=",
+        "originContent": ")",
+        "translatedContent": ")"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "U2LFhtZnE7HIJT9XSUDNMN2YEJ0mFqd07CgqqVEbGJc=",
+        "originContent": "# Access results",
+        "translatedContent": "# Access results"
+      },
+      {
+        "row": 20,
+        "rowsha": "x01+s/lXdkNJ9XCFDofmwZnsKUHc7q7GfAai06J0YQk=",
+        "originContent": "pulls = results[\"pulls\"]                      # Number of pulls at each step",
+        "translatedContent": "pulls = results[\"pulls\"]                      # Number of pulls at each step"
+      },
+      {
+        "row": 21,
+        "rowsha": "HrezixNsxfyxwZE0wH6e4jXBBTZsla4zWmbOrFDQMww=",
+        "originContent": "means = results[\"estimated_bests_mean\"]       # Mean score of estimated best policy",
+        "translatedContent": "means = results[\"estimated_bests_mean\"]       # Mean score of estimated best policy"
+      },
+      {
+        "row": 22,
+        "rowsha": "Nao2P6wF058I8ZnxvwGnOB+Stm80YJp8V/62FIygRDU=",
+        "originContent": "ci_low = results[\"estimated_bests_ci_low\"]    # Lower confidence bound",
+        "translatedContent": "ci_low = results[\"estimated_bests_ci_low\"]    # Lower confidence bound"
+      },
+      {
+        "row": 23,
+        "rowsha": "OM8ch2nYR/xVXGiiqzX36ljldbmrlt0IxHgdqR0CUGY=",
+        "originContent": "ci_high = results[\"estimated_bests_ci_high\"]  # Upper confidence bound",
+        "translatedContent": "ci_high = results[\"estimated_bests_ci_high\"]  # Upper confidence bound"
+      },
+      {
+        "row": 24,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n## 📝 Cite us!",
+    "ContentSha": "6s/IZJDSzRJzs+rr7TPnkKf2vtp7bEshNpytFyiAn2k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 📝 Cite us!",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "kUyZ6J/6UvR+fqADtFl44SSCDixTLuNvh50fj9D9gCE=",
+        "originContent": "## 📝 Cite us!",
+        "translatedContent": "## 📝 Cite us!"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bibtex\n@misc{jackson2025clean,\n      title={A Clean Slate for Offline Reinforcement Learning},\n      author={Matthew Thomas Jackson and Uljad Berdica and Jarek Liesen and Shimon Whiteson and Jakob Nicolaus Foerster},\n      year={2025},\n      eprint={2504.11453},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2504.11453},\n}\n```",
+    "ContentSha": "Vd2Nmn8DuqHvK1ui9G7WWZYRPYaOTw+n6ZFTomlNTmw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bibtex\n@misc{jackson2025clean,\n      title={A Clean Slate for Offline Reinforcement Learning},\n      author={Matthew Thomas Jackson and Uljad Berdica and Jarek Liesen and Shimon Whiteson and Jakob Nicolaus Foerster},\n      year={2025},\n      eprint={2504.11453},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2504.11453},\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "o+TmyQ6wneV6/FQB6aUlRSjIGr2/YLJtnz5uxBgsScQ=",
+        "originContent": "```bibtex",
+        "translatedContent": "```bibtex"
+      },
+      {
+        "row": 2,
+        "rowsha": "iIKl+9Rl5/N4eni1eFIE150mhn1IRL9HwML+jFBB5nI=",
+        "originContent": "@misc{jackson2025clean,",
+        "translatedContent": "@misc{jackson2025clean,"
+      },
+      {
+        "row": 3,
+        "rowsha": "TSX7HCsAvZB29NHe8/XYc08rBbsjTGliMYdtlN0qb78=",
+        "originContent": "      title={A Clean Slate for Offline Reinforcement Learning},",
+        "translatedContent": "      title={A Clean Slate for Offline Reinforcement Learning},"
+      },
+      {
+        "row": 4,
+        "rowsha": "yTnabKu2X10VUuzOMhrRsBLKvORmVCmFm6ioyiZ/IZ8=",
+        "originContent": "      author={Matthew Thomas Jackson and Uljad Berdica and Jarek Liesen and Shimon Whiteson and Jakob Nicolaus Foerster},",
+        "translatedContent": "      author={Matthew Thomas Jackson and Uljad Berdica and Jarek Liesen and Shimon Whiteson and Jakob Nicolaus Foerster},"
+      },
+      {
+        "row": 5,
+        "rowsha": "1cuvfM9h03loQfZOlvsx9juVCvU41kevaYb2CnD9Gak=",
+        "originContent": "      year={2025},",
+        "translatedContent": "      year={2025},"
+      },
+      {
+        "row": 6,
+        "rowsha": "gFu4DJBUdQtZ0LeVIrUzWeCXE5MPq57NxIwcbBW7kw8=",
+        "originContent": "      eprint={2504.11453},",
+        "translatedContent": "      eprint={2504.11453},"
+      },
+      {
+        "row": 7,
+        "rowsha": "Fr73/KLqU4TaDaJVUDLO211nM029JE4YRpN5hXSZZqk=",
+        "originContent": "      archivePrefix={arXiv},",
+        "translatedContent": "      archivePrefix={arXiv},"
+      },
+      {
+        "row": 8,
+        "rowsha": "b9F4e8a5lbKTxrIivpUmbY+dCDZhUO3+b4qjrHPFk6c=",
+        "originContent": "      primaryClass={cs.LG},",
+        "translatedContent": "      primaryClass={cs.LG},"
+      },
+      {
+        "row": 9,
+        "rowsha": "i67f0jnQctOxhJZ2ZfC28Lb/bPlq/72362ayDp9xgCg=",
+        "originContent": "      url={https://arxiv.org/abs/2504.11453},",
+        "translatedContent": "      url={https://arxiv.org/abs/2504.11453},"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

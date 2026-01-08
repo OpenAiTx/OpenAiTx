@@ -1,0 +1,346 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <img src=\"https://github.com/Perchik71/Creation-Kit-Platform-Extended/blob/master/Resources/logo.png\" alt=\"Creation Kit Platform Extended\" border=\"0\" width=\"400px\">\n</p>\n<p align=\"center\">\n  A collection of modifications, enhancements, and reverse engineered resources for Creation Kit by Bethesda.\n</p>\n\n# Description\n**CKPE** a shared source powerful platform makes numerous fixes and improvements to the Creation Kit editor from **Bethesda**, includes editor support for games such as **Skyrim Special Edition**, **Fallout 4**, **Starfield**, is a successor to the [SSE CKFixes](https://github.com/Nukem9/skyrimse-test), [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest), [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test) projects, also [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test) which started it all for the author of **perchik71**.  \n\n[Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki) page  \n\n# Dependencies\n[toml11](https://github.com/ToruNiina/toml11) by `ToruNiina` and other  \n[Zydis](https://github.com/zyantific/zydis.git) by `zyantifi` and other  \n[zipper](https://github.com/kuba--/zip.git) by `kuba--`  \n[libdeflate](https://github.com/ebiggers/libdeflate.git) by `ebiggers` and other  \n[xbyak](https://github.com/herumi/xbyak.git) by `herumi` and other    \n[DirectXTex](https://github.com/microsoft/DirectXTex.git) by `microsoft`  \n[jDialogs](https://github.com/Perchik71/jDialogs.git) by `perchik71` *(recursive)*\n\n# Install\n### Fresh Install\nDownload any [supported game](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) and install Creation Kit.  \nDownload [latest release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) of **CKPE** for your game.  \nExtract all contents into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.\n### Update\nDownload [latest release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) of **CKPE** for your game.  \nExtract all contents into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  \nAgree to replace all files.\n### Compilation\nRegular users only need this method to access the newest features which haven't been released yet.  \nOpen a project in **`Visual Studio 2022`** or later. Build the project in **`Release`** mode or **`Release-NoAVX2`**.  \nThen move your build output into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  \nIf you are asked to replace old files agree to replace all.\n### Automate builds (Beta)\nDownload [latest commit build](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) of **CKPE** for your game.  \nExtract all contents into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  \nPossible errors.\n",
+    "ContentSha": "ecnph+WnsBoVDoePzEbRFH+KteZXjhSxgN3PTW55d2U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <img src=\"https://github.com/Perchik71/Creation-Kit-Platform-Extended/blob/master/Resources/logo.png\" alt=\"Creation Kit Platform Extended\" border=\"0\" width=\"400px\">\n</p>\n<p align=\"center\">\n  A collection of modifications, enhancements, and reverse engineered resources for Creation Kit by Bethesda.\n</p>\n\n# Description\n**CKPE** a shared source powerful platform makes numerous fixes and improvements to the Creation Kit editor from **Bethesda**, includes editor support for games such as **Skyrim Special Edition**, **Fallout 4**, **Starfield**, is a successor to the [SSE CKFixes](https://github.com/Nukem9/skyrimse-test), [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest), [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test) projects, also [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test) which started it all for the author of **perchik71**.  \n\n[Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki) page  \n\n# Dependencies\n[toml11](https://github.com/ToruNiina/toml11) by `ToruNiina` and other  \n[Zydis](https://github.com/zyantific/zydis.git) by `zyantifi` and other  \n[zipper](https://github.com/kuba--/zip.git) by `kuba--`  \n[libdeflate](https://github.com/ebiggers/libdeflate.git) by `ebiggers` and other  \n[xbyak](https://github.com/herumi/xbyak.git) by `herumi` and other    \n[DirectXTex](https://github.com/microsoft/DirectXTex.git) by `microsoft`  \n[jDialogs](https://github.com/Perchik71/jDialogs.git) by `perchik71` *(recursive)*\n\n# Install\n### Fresh Install\nDownload any [supported game](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) and install Creation Kit.  \nDownload [latest release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) of **CKPE** for your game.  \nExtract all contents into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.\n### Update\nDownload [latest release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) of **CKPE** for your game.  \nExtract all contents into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  \nAgree to replace all files.\n### Compilation\nRegular users only need this method to access the newest features which haven't been released yet.  \nOpen a project in **`Visual Studio 2022`** or later. Build the project in **`Release`** mode or **`Release-NoAVX2`**.  \nThen move your build output into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  \nIf you are asked to replace old files agree to replace all.\n### Automate builds (Beta)\nDownload [latest commit build](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) of **CKPE** for your game.  \nExtract all contents into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  \nPossible errors.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "BY9GjOK8NO6cmvHby0fEB59b31Bg7zYLLQFrZ/Zt7kc=",
+        "originContent": "  <img src=\"https://github.com/Perchik71/Creation-Kit-Platform-Extended/blob/master/Resources/logo.png\" alt=\"Creation Kit Platform Extended\" border=\"0\" width=\"400px\">",
+        "translatedContent": "  <img src=\"https://github.com/Perchik71/Creation-Kit-Platform-Extended/blob/master/Resources/logo.png\" alt=\"Creation Kit Platform Extended\" border=\"0\" width=\"400px\">"
+      },
+      {
+        "row": 3,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 4,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 5,
+        "rowsha": "vemoBfiHcS9U4ZRggqjTr5jDfSkiRcTsy8JgtSUjrJE=",
+        "originContent": "  A collection of modifications, enhancements, and reverse engineered resources for Creation Kit by Bethesda.",
+        "translatedContent": "  A collection of modifications, enhancements, and reverse engineered resources for Creation Kit by Bethesda."
+      },
+      {
+        "row": 6,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "g0OwZrZN4r5OHDHNGxRd1BSRJK79lC7IM6iTxGB6FIA=",
+        "originContent": "# Description",
+        "translatedContent": "# Description"
+      },
+      {
+        "row": 9,
+        "rowsha": "QuI+uh88L3hs+Pn4CHkjLCEUg5cEY/GHWRvLDDDmPls=",
+        "originContent": "**CKPE** a shared source powerful platform makes numerous fixes and improvements to the Creation Kit editor from **Bethesda**, includes editor support for games such as **Skyrim Special Edition**, **Fallout 4**, **Starfield**, is a successor to the [SSE CKFixes](https://github.com/Nukem9/skyrimse-test), [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest), [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test) projects, also [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test) which started it all for the author of **perchik71**.  ",
+        "translatedContent": "**CKPE** a shared source powerful platform makes numerous fixes and improvements to the Creation Kit editor from **Bethesda**, includes editor support for games such as **Skyrim Special Edition**, **Fallout 4**, **Starfield**, is a successor to the [SSE CKFixes](https://github.com/Nukem9/skyrimse-test), [SSE CKFixes Update](https://github.com/Perchik71/SkyrimSETest), [FO4 CKFixes](https://github.com/Perchik71/Fallout4Test) projects, also [Unicode patch for SSE CK 1.5.73](https://github.com/Perchik71/usse_test) which started it all for the author of **perchik71**.  "
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "73I36S5QfRokRdD2nutBqL8H74S4SiKsjPrDjeUvkJs=",
+        "originContent": "[Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki) page  ",
+        "translatedContent": "[Wiki](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki) page  "
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "nhlWuthHD5/nmDwEx2N8qBJcjwOwQ11gkcPylNY0R9s=",
+        "originContent": "# Dependencies",
+        "translatedContent": "# Dependencies"
+      },
+      {
+        "row": 14,
+        "rowsha": "UZS4ZxTUigpI1GjMpkxptf5+1UKYeHllOfqpoThS3w0=",
+        "originContent": "[toml11](https://github.com/ToruNiina/toml11) by `ToruNiina` and other  ",
+        "translatedContent": "[toml11](https://github.com/ToruNiina/toml11) by `ToruNiina` and other  "
+      },
+      {
+        "row": 15,
+        "rowsha": "2iHhP4SJTDPegfxVUeBRyjAFIlU3YRm7DN94s3m+Bpw=",
+        "originContent": "[Zydis](https://github.com/zyantific/zydis.git) by `zyantifi` and other  ",
+        "translatedContent": "[Zydis](https://github.com/zyantific/zydis.git) by `zyantifi` and other  "
+      },
+      {
+        "row": 16,
+        "rowsha": "dpYleyKszHoH+/hy2jVaqMdJ/caFUe0ngkIPP7Rquas=",
+        "originContent": "[zipper](https://github.com/kuba--/zip.git) by `kuba--`  ",
+        "translatedContent": "[zipper](https://github.com/kuba--/zip.git) by `kuba--`  "
+      },
+      {
+        "row": 17,
+        "rowsha": "Ox7gcW5kB15Kj4hYMeKvEHSfGdyN+9oVr+P1hwOrjN0=",
+        "originContent": "[libdeflate](https://github.com/ebiggers/libdeflate.git) by `ebiggers` and other  ",
+        "translatedContent": "[libdeflate](https://github.com/ebiggers/libdeflate.git) by `ebiggers` and other  "
+      },
+      {
+        "row": 18,
+        "rowsha": "Gz/VN6kfBEdhe4GLscAZejX7p7hPBky6i5flLYvkiH8=",
+        "originContent": "[xbyak](https://github.com/herumi/xbyak.git) by `herumi` and other    ",
+        "translatedContent": "[xbyak](https://github.com/herumi/xbyak.git) by `herumi` and other    "
+      },
+      {
+        "row": 19,
+        "rowsha": "UgfkCIJjtjKWf5PAaVqRx6YMpm5wpUQa6cxPj/PzT3k=",
+        "originContent": "[DirectXTex](https://github.com/microsoft/DirectXTex.git) by `microsoft`  ",
+        "translatedContent": "[DirectXTex](https://github.com/microsoft/DirectXTex.git) by `microsoft`  "
+      },
+      {
+        "row": 20,
+        "rowsha": "Ofp5GnxmK6+9TEFkpF6XqULZo4O6g6URCpMDSYO4428=",
+        "originContent": "[jDialogs](https://github.com/Perchik71/jDialogs.git) by `perchik71` *(recursive)*",
+        "translatedContent": "[jDialogs](https://github.com/Perchik71/jDialogs.git) by `perchik71` *(recursive)*"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "LIfcujHTHgMPXtLqP+h3+M/6OPAmhQh2NVkBUIIiPFQ=",
+        "originContent": "# Install",
+        "translatedContent": "# Install"
+      },
+      {
+        "row": 23,
+        "rowsha": "VcRLeaoeZLP2jNj2qTSBTq/hf2NipE0uvmuhROj9+jk=",
+        "originContent": "### Fresh Install",
+        "translatedContent": "### Fresh Install"
+      },
+      {
+        "row": 24,
+        "rowsha": "FYbmzIzgKdQ/+LejqSqLMmplx4XgPVQDtGpyCq8sz4A=",
+        "originContent": "Download any [supported game](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) and install Creation Kit.  ",
+        "translatedContent": "Download any [supported game](https://github.com/Perchik71/Creation-Kit-Platform-Extended/wiki#brief) and install Creation Kit.  "
+      },
+      {
+        "row": 25,
+        "rowsha": "REwfufXhw9N8xChFtWed8nQErGsZ8tuO1tnRI/b39vA=",
+        "originContent": "Download [latest release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) of **CKPE** for your game.  ",
+        "translatedContent": "Download [latest release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) of **CKPE** for your game.  "
+      },
+      {
+        "row": 26,
+        "rowsha": "UJRa7RW1zDt/LmLNhRDLWuxTSpo2lr5XWd2K42fK2Mg=",
+        "originContent": "Extract all contents into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.",
+        "translatedContent": "Extract all contents into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**."
+      },
+      {
+        "row": 27,
+        "rowsha": "ssSJAgg38PqeqMuiXawYsqaO0+hL0+Q/hRGHxsC844U=",
+        "originContent": "### Update",
+        "translatedContent": "### Update"
+      },
+      {
+        "row": 28,
+        "rowsha": "REwfufXhw9N8xChFtWed8nQErGsZ8tuO1tnRI/b39vA=",
+        "originContent": "Download [latest release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) of **CKPE** for your game.  ",
+        "translatedContent": "Download [latest release](https://github.com/Perchik71/Creation-Kit-Platform-Extended/releases) of **CKPE** for your game.  "
+      },
+      {
+        "row": 29,
+        "rowsha": "Gyixvj4bgedGSkU9zGFahN8ZdzfsSfYe9VL+dguagLw=",
+        "originContent": "Extract all contents into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  ",
+        "translatedContent": "Extract all contents into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  "
+      },
+      {
+        "row": 30,
+        "rowsha": "Fa2pWqaDtAc+rgu1D7qD7EqoxgbFyvXzE2cAxdW+dc4=",
+        "originContent": "Agree to replace all files.",
+        "translatedContent": "Agree to replace all files."
+      },
+      {
+        "row": 31,
+        "rowsha": "6PpyEZNf51VxBE5HA/fAzzalKi5LUolsxDiKv1zlSRg=",
+        "originContent": "### Compilation",
+        "translatedContent": "### Compilation"
+      },
+      {
+        "row": 32,
+        "rowsha": "Un/saEFe4aD+Ia7QOBe+8xxIGWYo6CQXp3sgh56JGcw=",
+        "originContent": "Regular users only need this method to access the newest features which haven't been released yet.  ",
+        "translatedContent": "Regular users only need this method to access the newest features which haven't been released yet.  "
+      },
+      {
+        "row": 33,
+        "rowsha": "he2JOv0UU7O1Lou6hquY2qiuSHsMmnNrg1W0kt22eAg=",
+        "originContent": "Open a project in **`Visual Studio 2022`** or later. Build the project in **`Release`** mode or **`Release-NoAVX2`**.  ",
+        "translatedContent": "Open a project in **`Visual Studio 2022`** or later. Build the project in **`Release`** mode or **`Release-NoAVX2`**.  "
+      },
+      {
+        "row": 34,
+        "rowsha": "o5d9gBXtEJs264cyeGixcmFpU+bHZNjvVQKjKP4IXrM=",
+        "originContent": "Then move your build output into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  ",
+        "translatedContent": "Then move your build output into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  "
+      },
+      {
+        "row": 35,
+        "rowsha": "wlidYo4cVzV+VT7R4QCUaUGxSMdOsfQXvEgSbn5TaXY=",
+        "originContent": "If you are asked to replace old files agree to replace all.",
+        "translatedContent": "If you are asked to replace old files agree to replace all."
+      },
+      {
+        "row": 36,
+        "rowsha": "tQHzqK5najooR1VGD9f9x79667YopoeyFpJFE7OfkRc=",
+        "originContent": "### Automate builds (Beta)",
+        "translatedContent": "### Automate builds (Beta)"
+      },
+      {
+        "row": 37,
+        "rowsha": "QiSo6Nxl9taRi26Y03lxv+7nJP5ObO+B/TIERl9ficg=",
+        "originContent": "Download [latest commit build](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) of **CKPE** for your game.  ",
+        "translatedContent": "Download [latest commit build](https://github.com/Perchik71/Creation-Kit-Platform-Extended/actions) of **CKPE** for your game.  "
+      },
+      {
+        "row": 38,
+        "rowsha": "Gyixvj4bgedGSkU9zGFahN8ZdzfsSfYe9VL+dguagLw=",
+        "originContent": "Extract all contents into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  ",
+        "translatedContent": "Extract all contents into game directory, so that **ckpe_loader.exe** is in the same folder as **CreationKit.exe**.  "
+      },
+      {
+        "row": 39,
+        "rowsha": "MPdeyxBlfNxr3LVkdy4yJWf7pav/GFHDlJd0UoVJVKM=",
+        "originContent": "Possible errors.",
+        "translatedContent": "Possible errors."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "# Credits\n[Nukem9](https://github.com/Nukem9) (for experimental functions, hash and so on, very useful)  \n[adzm](https://github.com/adzm) (I really appreciate your work, you have [done](https://github.com/adzm/win32-custom-menubar-aero-theme) what I have long wanted to do myself)  \n[yak3d](https://github.com/yak3d) (For the contribution and development of workflow and support newest Starfield)  \n[Dio-Kyrie](https://github.com/Dio-Kyrie) (For the design of the readme)  \n\n# License\nStarting with the v0.6 (commit [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)) project is licensed by [LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html). <br />\nEarly versions is licensed by [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) <br />\nCopyright © 2023-2025 aka perchik71. All rights reserved. <br />\nFile `Stuffs\\FO4\\CreationKitPlatformExtended_FO4_Resources.pak` contains proprietary and not licensed files; the same applies to files in `d3dcompiler\\*.*`. <br />\nDependencies are under their respective licenses. \n",
+    "ContentSha": "sTgZYYlmTtzJHcjwsy5bsFjljS7HKleyHcwZgpyVnkE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Credits\n[Nukem9](https://github.com/Nukem9) (for experimental functions, hash and so on, very useful)  \n[adzm](https://github.com/adzm) (I really appreciate your work, you have [done](https://github.com/adzm/win32-custom-menubar-aero-theme) what I have long wanted to do myself)  \n[yak3d](https://github.com/yak3d) (For the contribution and development of workflow and support newest Starfield)  \n[Dio-Kyrie](https://github.com/Dio-Kyrie) (For the design of the readme)  \n\n# License\nStarting with the v0.6 (commit [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)) project is licensed by [LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html). <br />\nEarly versions is licensed by [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) <br />\nCopyright © 2023-2025 aka perchik71. All rights reserved. <br />\nFile `Stuffs\\FO4\\CreationKitPlatformExtended_FO4_Resources.pak` contains proprietary and not licensed files; the same applies to files in `d3dcompiler\\*.*`. <br />\nDependencies are under their respective licenses. \n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "DicXHtRNyy4+VhndmxR4R4xJfaaAYwrElkXojKpEj1o=",
+        "originContent": "# Credits",
+        "translatedContent": "# Credits"
+      },
+      {
+        "row": 2,
+        "rowsha": "yBQLBjlfuWek/hopqCVBKPPmFnOpgKRPgD/Cfmf6hzI=",
+        "originContent": "[Nukem9](https://github.com/Nukem9) (for experimental functions, hash and so on, very useful)  ",
+        "translatedContent": "[Nukem9](https://github.com/Nukem9) (for experimental functions, hash and so on, very useful)  "
+      },
+      {
+        "row": 3,
+        "rowsha": "baSdZdjqhHLntbKD/QB5zY06wp0aGYL1vSb4m+puLsA=",
+        "originContent": "[adzm](https://github.com/adzm) (I really appreciate your work, you have [done](https://github.com/adzm/win32-custom-menubar-aero-theme) what I have long wanted to do myself)  ",
+        "translatedContent": "[adzm](https://github.com/adzm) (I really appreciate your work, you have [done](https://github.com/adzm/win32-custom-menubar-aero-theme) what I have long wanted to do myself)  "
+      },
+      {
+        "row": 4,
+        "rowsha": "W0/7yM2s4Wz7niZwHVGk9WwuXkOnSPiFXrqgbM05HNw=",
+        "originContent": "[yak3d](https://github.com/yak3d) (For the contribution and development of workflow and support newest Starfield)  ",
+        "translatedContent": "[yak3d](https://github.com/yak3d) (For the contribution and development of workflow and support newest Starfield)  "
+      },
+      {
+        "row": 5,
+        "rowsha": "JnCchqARtMudikzmuHlJ5GjxtaiUZ+jbnfAJHcpPtxc=",
+        "originContent": "[Dio-Kyrie](https://github.com/Dio-Kyrie) (For the design of the readme)  ",
+        "translatedContent": "[Dio-Kyrie](https://github.com/Dio-Kyrie) (For the design of the readme)  "
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "7Qo8+NblMV+ve9U8YJCAOSzx5hR1PsQgmN0TGjFj2ls=",
+        "originContent": "# License",
+        "translatedContent": "# License"
+      },
+      {
+        "row": 8,
+        "rowsha": "Eu29vJu9j1noXIu2Z2e88r8+jYNSzb2dmlA1ivRadBE=",
+        "originContent": "Starting with the v0.6 (commit [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)) project is licensed by [LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html). <br />",
+        "translatedContent": "Starting with the v0.6 (commit [9d93970](https://github.com/Perchik71/Creation-Kit-Platform-Extended/commit/9d93970cc3918099c895872d46a24aa29a34db11)) project is licensed by [LGPLv3](https://www.gnu.org/licenses/lgpl-3.0.html). <br />"
+      },
+      {
+        "row": 9,
+        "rowsha": "Ar0S1EnNrkZqWpPZEYo92vVEZowvepLFHZWmGVHR7v0=",
+        "originContent": "Early versions is licensed by [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) <br />",
+        "translatedContent": "Early versions is licensed by [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) <br />"
+      },
+      {
+        "row": 10,
+        "rowsha": "8gBWNJmyQotnHN+JQrCyipOHfK9YyrBO47lPeT0vzQA=",
+        "originContent": "Copyright © 2023-2025 aka perchik71. All rights reserved. <br />",
+        "translatedContent": "Copyright © 2023-2025 aka perchik71. All rights reserved. <br />"
+      },
+      {
+        "row": 11,
+        "rowsha": "geygdILXft9ou9D09tvbG+ANQLYk6cohHmAqM8olTzk=",
+        "originContent": "File `Stuffs\\FO4\\CreationKitPlatformExtended_FO4_Resources.pak` contains proprietary and not licensed files; the same applies to files in `d3dcompiler\\*.*`. <br />",
+        "translatedContent": "File `Stuffs\\FO4\\CreationKitPlatformExtended_FO4_Resources.pak` contains proprietary and not licensed files; the same applies to files in `d3dcompiler\\*.*`. <br />"
+      },
+      {
+        "row": 12,
+        "rowsha": "Xd57MTMY4wRawivUVDvDNpHh86t9pKuZJuk2iN97sag=",
+        "originContent": "Dependencies are under their respective licenses. ",
+        "translatedContent": "Dependencies are under their respective licenses. "
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
