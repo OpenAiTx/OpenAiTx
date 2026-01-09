@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 Language</summary>
@@ -6,29 +5,30 @@
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en">English</a>
         | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN">简体中文</a>
-        | <a href="#" title="Coming soon">繁體中文 (coming soon)</a> |
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-TW">繁體中文</a> 
         | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">한국어</a>
-        | <a href="#" title="Coming soon">हिन्दी (coming soon)</a> |
-        | <a href="#" title="Coming soon">ไทย (coming soon)</a> |
-        | <a href="#" title="Coming soon">Français (coming soon)</a>
-        | <a href="#" title="Coming soon">Deutsch (coming soon)</a>
-        | <a href="#" title="Coming soon">Español (coming soon)</a>
-        | <a href="#" title="Coming soon">Italiano (coming soon)</a>
-        | <a href="#" title="Coming soon">Русский (coming soon)</a>
-        | <a href="#" title="Coming soon">Português (coming soon)</a>
-        | <a href="#" title="Coming soon">Nederlands (coming soon)</a>
-        | <a href="#" title="Coming soon">Polski (coming soon)</a>
-        | <a href="#" title="Coming soon">العربية (coming soon)</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=as">हिन्दी</a> 
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=th">ไทย</a> 
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar">العربية</a>
         | <a href="#" title="Coming soon">فارسی (coming soon)</a>
-        | <a href="#" title="Coming soon">Türkçe (coming soon)</a>
-        | <a href="#" title="Coming soon">Tiếng Việt (coming soon)</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi">Tiếng Việt</a>
         | <a href="#" title="Coming soon">Bahasa Indonesia (coming soon)</a>
 
       </div>
     </div>
   </details>
 </div>
+
 
 # TimeCapsule LLM
 
@@ -75,15 +75,49 @@ The output: "It was the year of our Lord 1834 and the streets of London were fil
 
 At first I assumed that a protest might have coincidentally taken place the same year but take a look at this: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
-### Why this matters:
+### **v2mini-eval1**
 
-This is the first example of one of my models connecting a year to both a real historical event and a real person tied to that event (Lord Palmerston). Earlier models (v0 and v0.5) could mimic writing styles of the 19th century but would always hallucinate events, people and facts. This shows the model is beggining to remember things from the dataset 
+Trained using a 15GB sample from v2's 90GB dataset.
+Model trained to 10K steps only.
 
-## Upcoming Plans 
+There was an issue with tokenization that causes output to look like this:
 
-- There are nearly 175,000 texts published in London from 1800-1875 on Internet Archive 
-- I plan on expanding the corpus and cleaning it more for better reasoning abilities
-- Expanding to different regions and time periods for more historical models
+PROMPT:
+Who is Charles Dickens?
+
+
+W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
+
+Corrected:
+
+"Who is Charles Dickens? Does that work more of his excellent stirring, in his plays, in the Great Company's farm? What I have yet to quote from Jack Pickett? Do you not know that they were a species of galloping, or sawing of their breasts, or what was to be done about the time when Jackson was looking on the window? What is the success of an Englishman, and which his son has not been discovering to me, whereby to accomplish such a weight? Did you ever make a passage into the old roadway, or to an anchor-breeze at the foot of our boat, which you must leave us? The fact is, that whether the wind would rise up from the plain on Saturday night or noontide, or till the north, or otherwise, we shall be compelled to describe a formidable barrier, with the same effects as the present. In this situation, at least, it is not too much to say that we have left that room. I believe there are three copies in the 'Five Hundred-fold,' to be referred to, as the first number of our readers who wish t[o]...”
+
+### **v2mini-eval2**
+
+Trained using the same 15GB sample used for training eval1.
+Model is again trained to 10K steps only.
+
+PROMPT:Charles Darwin
+
+Charles DarwinECCEMACY. Sir, — The following case is interesting to me : — I was in London a fortnight, and was much affected with an attack of rheumatism. The first attack of rheumatism was a week before I saw you, and the second when I saw you, and the third when I saw you, and the third in the same time. The second attack of gout, however, was not accompanied by any febrile symptoms, but was accompanied with an increased flow of urine, and with a more copious discharge of urine. The third attack was an hour after I saw you, and was succeeded by a return of a paroxysm of gout, and a more rapid return of the gout. The fourth attack was also accompanied by a fever, but was not always accompanied by any febrile symptoms. The third attack of gout was a fortnight after you had been ill, and the fourth was followed by a paroxysm of gout. The fourth attack was a fortnight after you were attacked, and was accompanied by a sense
+
+
+##  Datasets
+
+### **v2**
+
+- 90GB of 1800-1875 London texts
+- 136,344 documents
+- The full 90GB is not avalaible yet as it hasn't been tokenized but you can find a 15GB sample here: https://huggingface.co/datasets/haykgrigorian/TimeCapsuleLLM-London-1800-1875-v2-15GB
+
+ ### Bias Stats 
+  ![Pronoun bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
+
+  ![Geographic bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
+
+  ![Temporal bias](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
+
+Refer to [v2 bias report](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) for more info.
 
 
 ## How to Use
@@ -122,27 +156,48 @@ I'm using books, legal documents, newspapers, and other writings from 1800–187
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
 Dataset sizes:
-v0: ~187MB
-v0.5: ~435MB 
-v1: ~6.25GB 
+- v0: ~187MB
+- v0.5: ~435MB 
+- v1: ~6.25GB 
+- v2mini-eval1: 15GB
 
 ## How large are the models ?
 
-V0: 16M Parameters
+v0: 16M Parameters
 
-V0.5 123M Parameters
+v0.5 123M Parameters
 
-V1: 700M Parameters
+v1: 700M Parameters
+
+v2mini-eval1: 300M Parameters
 
 # Training Specs ? 
 
-# V0/V0.5
+# v0/v0.5
 GPU: Geforce rtx 4060
 CPU: i5-13400F 
 Ram: 16GB DDR5.
 
-# V1
-GPU: A100 rented
+# v1
+GPU: A100 SXM rented
+
+# v2mini-eval1
+
+GPU: A100 SXM rented
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

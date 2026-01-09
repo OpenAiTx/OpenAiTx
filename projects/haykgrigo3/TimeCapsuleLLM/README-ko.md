@@ -1,4 +1,3 @@
-
 <div align="right">
   <details>
     <summary >🌐 언어</summary>
@@ -6,143 +5,197 @@
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=en">English</a>
         | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-CN">简体中文</a>
-        | <a href="#" title="Coming soon">繁體中文 (곧 출시)</a> |
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=zh-TW">繁體中文</a> 
         | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ja">日本語</a>
         | <a href="https://openaitx.github.io/view.html?user=haykgrigo3&project=TimeCapsuleLLM&lang=ko">한국어</a>
-        | <a href="#" title="Coming soon">हिन्दी (곧 출시)</a> |
-        | <a href="#" title="Coming soon">ไทย (곧 출시)</a> |
-        | <a href="#" title="Coming soon">Français (곧 출시)</a>
-        | <a href="#" title="Coming soon">Deutsch (곧 출시)</a>
-        | <a href="#" title="Coming soon">Español (곧 출시)</a>
-        | <a href="#" title="Coming soon">Italiano (곧 출시)</a>
-        | <a href="#" title="Coming soon">Русский (곧 출시)</a>
-        | <a href="#" title="Coming soon">Português (곧 출시)</a>
-        | <a href="#" title="Coming soon">Nederlands (곧 출시)</a>
-        | <a href="#" title="Coming soon">Polski (곧 출시)</a>
-        | <a href="#" title="Coming soon">العربية (곧 출시)</a>
-        | <a href="#" title="Coming soon">فارسی (곧 출시)</a>
-        | <a href="#" title="Coming soon">Türkçe (곧 출시)</a>
-        | <a href="#" title="Coming soon">Tiếng Việt (곧 출시)</a>
-        | <a href="#" title="Coming soon">Bahasa Indonesia (곧 출시)</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=as">हिन्दी</a> 
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=th">ไทย</a> 
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=ar">العربية</a>
+        | <a href="#" title="Coming soon">فارسی (coming soon)</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/#/view?user=haykgrigo3&project=TimeCapsuleLLM&lang=vi">Tiếng Việt</a>
+        | <a href="#" title="Coming soon">Bahasa Indonesia (coming soon)</a>
 
       </div>
     </div>
   </details>
 </div>
 
-# 타임캡슐 LLM
 
-*특정 장소와 시대의 데이터만을 사용하여 **처음부터** 훈련된 언어 모델로, 현대적 편향을 줄이고 해당 시대의 목소리, 어휘, 세계관을 재현합니다.*
+# TimeCapsule LLM
 
-AI 모델이 역사적인 모습을 흉내내는 것이 아니라 실제로 그 시대의 일부가 된다면 어떨까요?
+*특정 장소와 시간대의 데이터만을 사용해 **처음부터** 훈련한 언어 모델로, 현대적 편향을 줄이고 그 시대의 목소리, 어휘, 세계관을 재현합니다.*
 
-v0 및 v0.5는 [Andrej Karpathy의 nanoGPT](https://github.com/karpathy/nanoGPT) 기반으로 구축되었습니다. 핵심 훈련 스크립트와 모델 구조는 그의 작업입니다.
+AI 모델이 단순히 역사적 인물을 흉내내는 것이 아니라 실제로 그 시대의 존재라면 어떨까요?
 
-v1은 [Microsoft의 Phi 1.5](https://huggingface.co/microsoft/phi-1_5)를 기반으로 구축되었습니다.
+v0 및 v0.5는 [Andrej Karpathy의 nanoGPT](https://github.com/karpathy/nanoGPT) 기반으로 만들어졌습니다. 핵심 훈련 스크립트와 모델 아키텍처는 그의 작업입니다. 
+
+v1은 [Microsoft의 Phi 1.5](https://huggingface.co/microsoft/phi-1_5) 기반으로 제작됨
 
 [허깅페이스 링크](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+
 
 ##  모델 동작 및 한계
 
 ### **v0**  
 
-초기 프롬프트에서는 모델이 1800년대의 언어와 행동으로 응답하는 모습을 보입니다.  
-예시: 프롬프트: "Who art Henry?"에 대해 "I know that man, I have did not a black, the storm."라고 답변함.
+초기 프롬프트에서 모델이 1800년대의 언어와 행동으로 응답하는 모습을 보임.  
+예시: 프롬프트: "Who art Henry?"에 대해 "I know that man, I have did not a black, the storm."라고 응답함. 
 
 ![TimeLockLLM 샘플 출력](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- 현대 개념 언급 없음  
+- 현대 개념은 언급하지 않음  
 - 대부분 시대에 맞는 어휘 사용  
-- 문장이 대부분 일관성이 없음 (~187MB의 학습 데이터 기준 예상된 결과)
+- 문장은 대부분 일관성이 없음 (~187MB 훈련 데이터 기준 예상됨)
 
 ### **v0.5** 
 
-v0에 비해 상당한 개선이 이루어짐.  
-- 빅토리아 시대의 문체, 올바른 구두점, 대부분 문법에 맞는 문장  
-- 여전히 높은 사실적 환각 비율  
-- 출력에 OCR 노이즈(“Digitized by Google”)가 여전히 존재
+v0보다 상당히 개선됨.  
+- 빅토리아 시대 문체, 올바른 문장부호, 대부분 문법적으로 맞는 문장  
+- 여전히 높은 사실적 환각률  
+- 출력에 OCR 노이즈(“Digitized by Google”) 여전히 존재
 
 ![TimeLockLLM 샘플 출력](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-데이터셋에 실제 인물과 실제 역사적 사건을 처음으로 연결하여 회상한 모델.
+데이터셋의 실제 인물과 실제 역사적 사건을 처음으로 연결하여 회상하는 모델.
 
-예시: 프롬프트: "It was the year of our Lord 1834"
+예시: 프롬프트: "It was the year of our Lord 1834" 
 
 출력: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-처음에는 우연히 해당 연도에 시위가 있었을 것이라고 생각했지만, 다음을 보세요: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+처음에는 같은 해에 시위가 우연히 있었을 것이라 생각했지만, 아래를 확인해 보세요: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
-### 왜 이것이 중요한가:
+### **v2mini-eval1**
 
-이것은 내 모델 중 하나가 특정 연도를 실제 역사적 사건과 그 사건에 관련된 실제 인물(팔머스턴 경)과 연결한 첫 번째 사례입니다. 초기 모델(v0과 v0.5)은 19세기 문체를 모방할 수 있었지만, 항상 사건, 인물, 사실을 환각했습니다. 이번 결과는 모델이 데이터셋에서 정보를 기억하기 시작했음을 보여줍니다.
+v2의 90GB 데이터셋에서 15GB 샘플을 사용해 학습됨.
+모델은 10K 스텝까지만 학습되었습니다.
+
+토크나이제이션 관련 문제로 출력이 다음과 같이 나타납니다:
+
+프롬프트:
+찰스 디킨스는 누구입니까?
 
 
-## 향후 계획
+W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
 
-- 1800-1875년 런던에서 출판된 약 175,000개의 텍스트가 Internet Archive에 있습니다
-- 더 나은 추론 능력을 위해 코퍼스를 확장하고 정제할 계획입니다
-- 더 많은 역사적 모델을 위해 다양한 지역과 시간대로 확장할 예정입니다
+수정됨:
+
+"찰스 디킨스는 누구인가? 그의 훌륭하고 감동적인 작품들이 그의 연극에서, 대기업의 농장에서 더 많이 나타나는가? 내가 아직 인용하지 않은 잭 피켓의 말은 무엇인가? 그들이 일종의 질주, 혹은 가슴을 절단하는 행위, 아니면 잭슨이 창문을 바라보고 있던 때에 무엇을 해야 하는지 몰랐다는 사실을 모르는가? 영국인의 성공이란 무엇이며, 그의 아들이 아직 나에게 발견하지 못한 것이 그 무게를 이루기 위한 수단인가? 당신은 오래된 도로로 통과하거나, 우리 배의 발치에 정박하는 바람을 맞이한 적이 있습니까? 당신은 우리를 떠나야만 했던 그 상황을 아는가? 사실은, 토요일 밤이나 한낮에 평야에서 바람이 불어올지, 혹은 북쪽이나 다른 방향이든, 우리는 현재와 같은 효과를 가진 강력한 장벽을 묘사해야만 할 것입니다. 적어도 이 상황에서는 우리가 그 방을 떠났다고 말해도 지나치지 않습니다. '오백 배'에는 세 부가 있다고 믿습니다. 참조할 수 있으며, 우리 독자 중 첫 번째 번호를 원하는 분들에게..."
+
+### **v2mini-eval2**
+
+eval1 학습에 사용된 동일한 15GB 샘플로 훈련되었습니다.
+모델은 다시 10K 스텝까지만 학습되었습니다.
+
+프롬프트: Charles Darwin
+
+Charles DarwinECCEMACY. 선생님, — 다음 사례는 저에게 흥미롭습니다 : — 저는 런던에 2주간 있었고, 류마티스 발작으로 크게 고생했습니다. 첫 번째 류마티스 발작은 선생님을 만나기 일주일 전에 있었고, 두 번째는 선생님을 만났을 때, 세 번째도 선생님을 만났을 때 있었으며, 세 번째는 같은 시기에 있었습니다. 그러나 두 번째 통풍 발작에는 열 증상이 동반되지 않았으나, 소변의 흐름이 증가하였고, 소변 배출량도 더 많았습니다. 세 번째 발작은 선생님을 만난 지 한 시간 후에 있었으며, 통풍 발작이 다시 발생했고, 통풍의 재발이 더 빨랐습니다. 네 번째 발작에도 열이 동반되었으나 항상 열 증상이 있는 것은 아니었습니다. 세 번째 통풍 발작은 선생님이 아프신 후 2주 후에 있었고, 네 번째는 통풍 발작이 뒤따랐습니다. 네 번째 발작은 선생님이 발작을 경험하신 후 2주 후에 있었고, 동반되었습니다.
+
+
+##  데이터셋
+
+### **v2**
+
+- 1800-1875년 런던 텍스트 90GB
+- 136,344개 문서
+- 전체 90GB는 아직 토크나이즈되지 않아 공개되지 않았으나, 15GB 샘플은 여기에서 확인할 수 있습니다: https://huggingface.co/datasets/haykgrigorian/TimeCapsuleLLM-London-1800-1875-v2-15GB
+
+ ### 편향 통계 
+  ![대명사 편향](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/pronoun_bias.png)
+
+  ![지리적 편향](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/geographic_bias.png)
+
+  ![시간적 편향](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/temporal_bias.png)
+
+자세한 내용은 [v2 편향 보고서](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v2mini_eval1/v2_bias_report.json) 를 참조하세요.
+
 
 ## 사용 방법
 
-이 프로젝트는 주로 역사적 데이터를 선별하고, 학습을 위해 준비하고, 토크나이저를 구축하는 데 초점을 맞춥니다. 전체 LLM 학습 과정은 다루지 않으니, 이에 대해서는 Andrej Karpathy의 nanoGPT를 참고하세요.
+이 프로젝트는 주로 역사적 데이터를 수집하고, 훈련을 위해 준비하며, 토크나이저를 구축하는 데 중점을 둡니다. 전체 LLM 훈련 과정은 다루지 않으니, 자세한 내용은 Andrej Karpathy의 nanoGPT를 참고하세요.
 
-### 1단계: 역사적 텍스트 수집 및 준비
+### 1단계: 역사적 텍스트 수집 및 준비 
 
-- 선택한 기간(예: 런던 1800-1850년대)의 퍼블릭 도메인 도서, 문서 등의 .txt 파일을 수집하세요
-- 선택한 시간/장소 범위 내에 파일을 유지하세요
-- 스크립트나 수작업으로 Project Gutenberg의 헤더/푸터, 현대 주석 또는 OCR 오류와 같은 부분을 제거하여 텍스트 파일을 정제하세요.
+- 선택한 시대(예: 런던 1800-1850)의 퍼블릭 도메인 도서, 문서 등의 .txt 파일을 수집합니다.
+- 선택한 시간/장소 범위 내에 데이터를 유지하세요  
+- 텍스트 파일에서 프로젝트 구텐베르크의 헤더/푸터, 현대 주석 또는 OCR 오류와 같은 내용을 스크립트나 수작업으로 제거하세요.
 
-### 2단계: 커스텀 토크나이저 구축
+### 2단계: 맞춤형 토크나이저 구축
 
-- 정제된 데이터에 대해 train_tokenizer.py 또는 train_tokenizer_hf.py를 실행하세요.
-- 이 과정을 거치면 vocab.json과 merges.txt가 생성됩니다
-- 이 파일들은 모델의 어휘와 병합 규칙을 정의합니다
+- train_tokenizer.py 또는 train_tokenizer_hf.py를 정제된 데이터에서 실행하세요.
+- vocab.json과 merges.txt 파일이 생성됩니다.
+- 이 파일들은 모델의 어휘와 병합 규칙을 정의합니다.
 
-### 3단계: 모델 학습
+### 3단계: 모델을 학습하세요
 
-- 학습 과정은 [Andrej Karpathy의 nanoGPT](https://github.com/karpathy/nanoGPT)나 선택한 아키텍처의 문서를 참고하세요.
+- [Andrej Karpathy의 nanoGPT](https://github.com/karpathy/nanoGPT) 또는 선택한 아키텍처의 문서를 참고하여 학습을 진행하세요.
 
-# 자주 묻는 질문
+# FAQ
 
-## 선택적 시기별 학습(Selective Temporal Training)이란?
+## 선택적 시기별 학습(Selective Temporal Training)이란 무엇인가요?
 
-선택적 시기별 학습(STT)은 모든 학습 데이터를 특정 역사적 시기로 엄선하여 기계학습하는 방법론입니다. 이는 해당 시대의 언어와 지식을 현대 개념의 영향 없이 모델링하기 위함입니다. 예를 들어, 현재 제가 만든 모델(v0.5)은 1800-1875년의 데이터만으로 학습되었으며, 파인튜닝 없이 처음부터 훈련되어 그 시대의 언어적 스타일과 역사적 맥락이 반영된 결과를 보여줍니다.
+선택적 시기별 학습(STT)은 모든 학습 데이터를 특정 역사적 시기 내로 엄선하는 머신러닝 방법론입니다. 이는 해당 시대의 언어와 지식을 현대적 개념의 영향을 받지 않고 모델링하기 위함입니다. 예를 들어, 제가 현재 보유한 모델(v0.5)은 1800-1875년 데이터만으로 학습되었으며, 파인튜닝이 아닌 처음부터 학습되어 당시의 언어 스타일과 역사적 맥락이 반영된 결과를 냅니다.
 
-## 왜 파인튜닝이나 LoRA만 사용하지 않나요?
+## 그냥 파인튜닝이나 LoRA를 사용하지 않는 이유는?
 
-이 프로젝트에서 저는 현대적 편향이 없는 언어 모델을 만들고자 합니다. 만약 GPT-2와 같은 모델을 파인튜닝한다면 이미 사전학습된 정보가 남아있어 완전히 지울 수 없습니다. 처음부터 학습하면 언어 모델이 옛것인 척 하는 것이 아니라 실제로 옛 언어를 구사하게 됩니다. 현재 이 프로젝트의 목표는 1800-1875년에 런던에서 출판된 책의 지식만으로 추론할 수 있는 모델을 만드는 것입니다.
+이 프로젝트에서는 현대적 편향이 없는 언어 모델을 만들고자 합니다. GPT-2 같은 모델을 파인튜닝하면 이미 사전학습된 정보가 남아 있습니다. 처음부터 학습하면 모델이 '옛날인 척' 하는 것이 아니라 진짜 옛날 언어를 사용합니다. 이 프로젝트의 목표는 1800~1875년에 런던에서 출판된 책의 지식만으로 추론할 수 있는 모델을 만드는 것입니다.
 
 ## 어떤 데이터를 학습에 사용했나요?
 
-
-저는 1800–1875년 런던의 책, 법률 문서, 신문, 기타 저작물을 사용하고 있습니다. 제가 링크한 목록(v0용)에는 약 200개의 문서가 있지만 첫 번째 훈련에는 약 187MB 분량의 50개 파일만 사용했습니다. 문서 목록은 다음에서 확인할 수 있습니다:
+1800–1875년 런던의 책, 법률 문서, 신문 및 기타 글을 사용했습니다. 링크된 목록(v0)에는 약 200개가 있지만 첫 학습에서는 50개 파일(약 187MB)만 사용했습니다. 문서 목록은 다음에서 볼 수 있습니다:
 https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/Copy%20of%20London%20Documents%20for%20Time%20Capsule%20LLM.txt
 
 데이터셋 크기:
-v0: 약 187MB
-v0.5: 약 435MB 
-v1: 약 6.25GB 
+- v0: 약 187MB
+- v0.5: 약 435MB 
+- v1: 약 6.25GB 
+- v2mini-eval1: 15GB
 
-## 모델 크기는 얼마나 됩니까?
+## 모델 크기는 얼마나 되나요?
 
-V0: 1,600만 파라미터
+v0: 1,600만 파라미터
 
-V0.5: 1억 2,300만 파라미터
+v0.5 1억 2,300만 파라미터
 
-V1: 7억 파라미터
+v1: 700M Parameters
 
-# 훈련 사양은?
+v2mini-eval1: 300M Parameters
 
-# V0/V0.5
-GPU: Geforce RTX 4060
+# Training Specs ? 
+
+# v0/v0.5
+GPU: Geforce rtx 4060
 CPU: i5-13400F 
-램: 16GB DDR5.
+Ram: 16GB DDR5.
 
-# V1
-GPU: 임대한 A100
+# v1
+GPU: A100 SXM rented
+
+# v2mini-eval1
+
+GPU: A100 SXM rented
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -162,6 +215,6 @@ GPU: 임대한 A100
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-30
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
 
 ---

@@ -1,0 +1,1196 @@
+[
+  {
+    "row": 1,
+    "rowsha": "2Eclj56NFAc+lk/Lcufs8ZhbN76Jxkf/wmCdFr8Ltls=",
+    "originContent": "# twitch-dlp",
+    "translatedContent": "# twitch-dlp"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "a1PskLl6Ir1/IM4Pq0StvcJrYgjd/066mD9kaesKHms=",
+    "originContent": "Download any twitch VODs from start during live broadcast",
+    "translatedContent": "라이브 방송 중 시작부터 모든 트위치 VOD 다운로드"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+    "originContent": "## Features",
+    "translatedContent": "## 기능"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "yL37V9wqTST2oWvM+5knajUvdQksG74vXUhSsMkDmEI=",
+    "originContent": "- Download live VODs from start (`--live-from-start`)",
+    "translatedContent": "- 라이브 VOD를 시작부터 다운로드 (`--live-from-start`)"
+  },
+  {
+    "row": 8,
+    "rowsha": "yJLLNTo9ivkklp0el2UJqoLq4PeWkM3RwBwxnNb4jaU=",
+    "originContent": "- Download ongoing hidden VODs (or if they were hidden during the broadcast)",
+    "translatedContent": "- 진행 중인 숨겨진 VOD 다운로드 (방송 중 숨겨졌던 경우 포함)"
+  },
+  {
+    "row": 9,
+    "rowsha": "utaz3ENpbIL0bCXlE+v+2TEz+pmmw3Ts5XwSwlxaXhw=",
+    "originContent": "- Download finished hidden VODs",
+    "translatedContent": "- 종료된 숨겨진 VOD 다운로드"
+  },
+  {
+    "row": 10,
+    "rowsha": "PD5TKHeSWuUl3p5mNgHcANPILFw0Wxsfzf8+DDWZMK4=",
+    "originContent": "  - Just use [twitchtracker.com](https://twitchtracker.com), [streamscharts.com](https://streamscharts.com) or [sullygnome.com](https://sullygnome.com) links ([details](https://github.com/DmitryScaletta/twitch-dlp/blob/master/DOWNLOAD_PRIVATE_VIDEOS.md))",
+    "translatedContent": "  - [twitchtracker.com](https://twitchtracker.com), [streamscharts.com](https://streamscharts.com) 또는 [sullygnome.com](https://sullygnome.com) 링크 사용 ([상세정보](https://github.com/DmitryScaletta/twitch-dlp/blob/master/DOWNLOAD_PRIVATE_VIDEOS.md))"
+  },
+  {
+    "row": 11,
+    "rowsha": "lNG9A7Zs55/7A6lw5UP7QaBaQbrm/0eUVkucspbfAWY=",
+    "originContent": "- Download specific part of the video (`--download-sections`)",
+    "translatedContent": "- 영상의 특정 구간만 다운로드 (`--download-sections`)"
+  },
+  {
+    "row": 12,
+    "rowsha": "NYXJU9f+1tdKqw8O7FbvuwLG34M8AHOiVexZ0dGjz9o=",
+    "originContent": "- Download clips (including portrait versions)",
+    "translatedContent": "- 클립 다운로드 (세로형 클립 포함)"
+  },
+  {
+    "row": 13,
+    "rowsha": "R3Oh8aShC41GgHSnEl+ZSgc6csvCMKJxjrT3zUpqMAo=",
+    "originContent": "- Automatically unmute muted sections if possible",
+    "translatedContent": "- 가능하면 음소거된 구간 자동으로 음소거 해제"
+  },
+  {
+    "row": 14,
+    "rowsha": "fGhThuFNpQunEHFGflC0aMEhptmca7LhTaXhhffmgMY=",
+    "originContent": "- Continue downloading partially downloaded video (in case of network/power outage)",
+    "translatedContent": "- 부분적으로 다운로드된 영상 이어서 다운로드 (네트워크/전원 장애 시)"
+  },
+  {
+    "row": 15,
+    "rowsha": "WTrlNWeC8/wK+elqcJOCQqGM4vpdIftXoDFy4/sI9Rc=",
+    "originContent": "- Watch channel status. If it becomes live, start downloading (`--retry-streams DELAY`)",
+    "translatedContent": "- 채널 상태 감시. 라이브가 되면 다운로드 시작 (`--retry-streams DELAY`)"
+  },
+  {
+    "row": 16,
+    "rowsha": "nW1K+GScTjd1ZWszaXUuJGV17Gr/KyDAxXpyptd9I4A=",
+    "originContent": "- Similar to `yt-dlp` (`youtube-dl`) syntax",
+    "translatedContent": "- `yt-dlp` (`youtube-dl`)와 유사한 문법"
+  },
+  {
+    "row": 17,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 18,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 19,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 20,
+    "rowsha": "8iJ/96QMFpmoT9L8EYbevWQDgBcmzQWiBKxduK3ZqfE=",
+    "originContent": "Install the latest [Node.js](https://nodejs.org/) version (v22 or newer).",
+    "translatedContent": "최신 [Node.js](https://nodejs.org/) 버전(v22 이상) 설치하세요."
+  },
+  {
+    "row": 21,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 22,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 23,
+    "rowsha": "EiIPsApwiJWxlT6HXMBDftWcCdtoWWkNHU/d98CboKw=",
+    "originContent": "# npm (comes with Node.js)",
+    "translatedContent": "# npm (comes with Node.js)"
+  },
+  {
+    "row": 24,
+    "rowsha": "tJqWfafIreo5AJfvdIaix3/GMM/HJ5rA1dCgs+43KVY=",
+    "originContent": "npx twitch-dlp LINK",
+    "translatedContent": "npx twitch-dlp LINK"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "jip2w2tcB9sEYSabG7ZW2K7IrHmBBPG8pP9P90B6rHA=",
+    "originContent": "# pnpm",
+    "translatedContent": "# pnpm"
+  },
+  {
+    "row": 27,
+    "rowsha": "2nlNbAX87e3A0acAkLAbyRRNp1eXlpm3ckt1b6AP4W4=",
+    "originContent": "pnpm dlx twitch-dlp LINK",
+    "translatedContent": "pnpm dlx twitch-dlp LINK"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "7/Bd9F2aQ6r//tHvcFO6eb221bOpsnokUtxJY6XqEgw=",
+    "originContent": "# yarn v2+",
+    "translatedContent": "# yarn v2+"
+  },
+  {
+    "row": 30,
+    "rowsha": "eH8A5QsMfnhkRSccgugmZLl2gTSXUOAx72S0fZ4uPcw=",
+    "originContent": "yarn dlx twitch-dlp LINK",
+    "translatedContent": "yarn dlx twitch-dlp LINK"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "CkHWMvEhZXCVZPw0R1V91nz3JNUqpzUL/sH0bLj3rHM=",
+    "originContent": "# bun",
+    "translatedContent": "# bun"
+  },
+  {
+    "row": 33,
+    "rowsha": "hSTcM9TCc/ETaTNf4+S0Mp4YoaOXqW6Y7o0HztP1Yzs=",
+    "originContent": "bunx twitch-dlp LINK",
+    "translatedContent": "bunx twitch-dlp LINK"
+  },
+  {
+    "row": 34,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 예제"
+  },
+  {
+    "row": 36,
+    "rowsha": "hnzbP5n92VqN57hTx4TGZdA7PXpVlf8mcU9W4gP7SoE=",
+    "originContent": "### Examples",
+    "translatedContent": ""
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 39,
+    "rowsha": "nbQnD23pSZlY5eQ26U2+itG2ggs+8ggxiKvLMR8DOHM=",
+    "originContent": "# Download a VOD from start using channel link, continue until stream ends",
+    "translatedContent": "# Download a VOD from start using channel link, continue until stream ends"
+  },
+  {
+    "row": 40,
+    "rowsha": "owTTJ7bJioAOSJjvCiy8TbCByeQQZ0xc64PFeZE+9fg=",
+    "originContent": "npx twitch-dlp https://www.twitch.tv/xqc --live-from-start",
+    "translatedContent": "npx twitch-dlp https://www.twitch.tv/xqc --live-from-start"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "6/J/3u1JwKh8kE/FcwGISr6ZTlodSCA6ohq3Ho40WK8=",
+    "originContent": "# Download a VOD",
+    "translatedContent": "# Download a VOD"
+  },
+  {
+    "row": 43,
+    "rowsha": "9nwSlZ0L2GbRC6NjgOI7G9ZQ5LXYFiojTtZ8igrZDBs=",
+    "originContent": "npx twitch-dlp https://www.twitch.tv/videos/2022789761",
+    "translatedContent": "npx twitch-dlp https://www.twitch.tv/videos/2022789761"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "ojatx4VSzVteR51OQaF/1je7NT1tuMORvkT6+kX60zI=",
+    "originContent": "# Download live stream from the current time using streamlink",
+    "translatedContent": "# Download live stream from the current time using streamlink"
+  },
+  {
+    "row": 46,
+    "rowsha": "A8ICfKygK2Lc2TzUJBBSn6vNVAMbxVOKGlcyx9WuxCQ=",
+    "originContent": "npx twitch-dlp https://www.twitch.tv/xqc",
+    "translatedContent": "npx twitch-dlp https://www.twitch.tv/xqc"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "nDf9GZB3nZXpD0EtsORdDWBUVtuhrxKhsVZrPEaMaCs=",
+    "originContent": "# Download a hidden VOD",
+    "translatedContent": "# Download a hidden VOD"
+  },
+  {
+    "row": 49,
+    "rowsha": "DrB676x0J9sf0/xxYRO78d21Fa7Juc60yT+BOYB13AE=",
+    "originContent": "# Just use twitchtracker.com, streamscharts.com or sullygnome.com links",
+    "translatedContent": "# Just use twitchtracker.com, streamscharts.com or sullygnome.com links"
+  },
+  {
+    "row": 50,
+    "rowsha": "ZQx0qfoKv2IGI+MQXSCWq5Vaso5/eq9P3QF2mul4zC8=",
+    "originContent": "npx twitch-dlp https://twitchtracker.com/xqc/streams/51582913581",
+    "translatedContent": "npx twitch-dlp https://twitchtracker.com/xqc/streams/51582913581"
+  },
+  {
+    "row": 51,
+    "rowsha": "L7rPHGCg2ooT3sW5dRFA7xsdGwk4MvgKSNzNKlK56Pg=",
+    "originContent": "npx twitch-dlp https://streamscharts.com/channels/lirik/streams/51579711693",
+    "translatedContent": "npx twitch-dlp https://streamscharts.com/channels/lirik/streams/51579711693"
+  },
+  {
+    "row": 52,
+    "rowsha": "0w+MReoNDnFufa+DOBaSksFwNxytKuciJdIUD1ujYSw=",
+    "originContent": "npx twitch-dlp https://sullygnome.com/channel/summit1g/stream/315782796250",
+    "translatedContent": "npx twitch-dlp https://sullygnome.com/channel/summit1g/stream/315782796250"
+  },
+  {
+    "row": 53,
+    "rowsha": "/DmwtZmTjA9Og+lZk+65+VyuZJP0+1G6UbYsn62IBkE=",
+    "originContent": "# If it doesn't work for you, follow this instructions:",
+    "translatedContent": "# If it doesn't work for you, follow this instructions:"
+  },
+  {
+    "row": 54,
+    "rowsha": "+PcebuOaDa7H9NOzRy9Nh40xvHjuavyFN8Fi92qd7hg=",
+    "originContent": "# https://github.com/DmitryScaletta/twitch-dlp/blob/master/DOWNLOAD_PRIVATE_VIDEOS.md",
+    "translatedContent": "# https://github.com/DmitryScaletta/twitch-dlp/blob/master/DOWNLOAD_PRIVATE_VIDEOS.md"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "4z3eDjrZRtIuvYdy6/3ksWR+XYOqXjbQE//AhqYoe2o=",
+    "originContent": "# Check every 60 seconds is channel live",
+    "translatedContent": "# Check every 60 seconds is channel live"
+  },
+  {
+    "row": 57,
+    "rowsha": "YFk6yBhbLmkAOvZIXP5kDIQaea9V4wc/fsKrLZtK8RU=",
+    "originContent": "# If it's live, start to download it using streamlink",
+    "translatedContent": "# If it's live, start to download it using streamlink"
+  },
+  {
+    "row": 58,
+    "rowsha": "kkO93M025IJ6H//gqx6yIPsYS14UcmPDIgk/ruPoaXc=",
+    "originContent": "npx twitch-dlp https://www.twitch.tv/xqc --retry-streams 60",
+    "translatedContent": "npx twitch-dlp https://www.twitch.tv/xqc --retry-streams 60"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "4z3eDjrZRtIuvYdy6/3ksWR+XYOqXjbQE//AhqYoe2o=",
+    "originContent": "# Check every 60 seconds is channel live",
+    "translatedContent": "# Check every 60 seconds is channel live"
+  },
+  {
+    "row": 61,
+    "rowsha": "ZId6ibDG5MEwrtSPxDBoZJwFcMYZUKq0M79p70QAEoQ=",
+    "originContent": "# If it's live, start to download it's VOD from start",
+    "translatedContent": "# If it's live, start to download it's VOD from start"
+  },
+  {
+    "row": 62,
+    "rowsha": "3H37KWcApHUL71d4KR2w+AY42+4RdLxyj6H4wXhVKUY=",
+    "originContent": "npx twitch-dlp https://www.twitch.tv/xqc --retry-streams 60 --live-from-start",
+    "translatedContent": "npx twitch-dlp https://www.twitch.tv/xqc --retry-streams 60 --live-from-start"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "o32PL/JkcXStsjtVDXGVSfECJ1pfBv39/oMx0w2vT1c=",
+    "originContent": "# Download 10 minutes in the middle of the VOD",
+    "translatedContent": "# Download 10 minutes in the middle of the VOD"
+  },
+  {
+    "row": 65,
+    "rowsha": "DHkSCs7hx6X3Mj4bgyQP2TmiMv72Ef8Lx5IGKb5KKSg=",
+    "originContent": "npx twitch-dlp https://www.twitch.tv/videos/2022789761 --download-sections \"*15:00-25:00\"",
+    "translatedContent": "npx twitch-dlp https://www.twitch.tv/videos/2022789761 --download-sections \"*15:00-25:00\""
+  },
+  {
+    "row": 66,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "WmBw6HHOZB8A2S8SHd6YoVtFY6hf6f35AdpYBhH0hH8=",
+    "originContent": "# Display available formats",
+    "translatedContent": "# Display available formats"
+  },
+  {
+    "row": 68,
+    "rowsha": "y1YkwQi5X3tT1cBjLM9kXkUwPAE9FCgCbhUO8SEUJE0=",
+    "originContent": "npx twitch-dlp https://www.twitch.tv/videos/2022789761 -F",
+    "translatedContent": "npx twitch-dlp https://www.twitch.tv/videos/2022789761 -F"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "7Zyv1pOXvl8CMDmm/SeW23l/s8cJKtFdVpU/XjBa71U=",
+    "originContent": "# Download specified format",
+    "translatedContent": "# Download specified format"
+  },
+  {
+    "row": 71,
+    "rowsha": "FYCTTtid//dMDZ3F4lkoPBrAKbSC4K+Eh4ia6rb3BoA=",
+    "originContent": "npx twitch-dlp https://www.twitch.tv/videos/2022789761 -f 480p30",
+    "translatedContent": "npx twitch-dlp https://www.twitch.tv/videos/2022789761 -f 480p30"
+  },
+  {
+    "row": 72,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 73,
+    "rowsha": "f2uzRmnO9OXhDq/11a4KD67obAsbfxN96GJ1iKkvsNY=",
+    "originContent": "# Change output template",
+    "translatedContent": "# Change output template"
+  },
+  {
+    "row": 74,
+    "rowsha": "N7wJEoYsXXoddwoBA7ueF9D7TlUgfqH4UewX8Co2W/U=",
+    "originContent": "npx twitch-dlp https://www.twitch.tv/videos/2022789761 -o \"%(title)s [%(id)s].%(ext)s\"",
+    "translatedContent": "npx twitch-dlp https://www.twitch.tv/videos/2022789761 -o \"%(title)s [%(id)s].%(ext)s\""
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "ktfSvxGWuEPwrohTL56sw0C63AZkuVwSPkKHpciKToU=",
+    "originContent": "# Limit download rate",
+    "translatedContent": "# Limit download rate"
+  },
+  {
+    "row": 77,
+    "rowsha": "4CTXTPXd47w56dOb6HG643dkhHXzghXYqp5dNMyw/O4=",
+    "originContent": "npx twitch-dlp https://www.twitch.tv/videos/2022789761 -r 720k",
+    "translatedContent": "npx twitch-dlp https://www.twitch.tv/videos/2022789761 -r 720k"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "v83oXrYI5OZrXFxyaQ0WpM6y8CzWFo2VM4BMWQf2ewE=",
+    "originContent": "# Merge already downloaded fragments (if something went wrong)",
+    "translatedContent": "# Merge already downloaded fragments (if something went wrong)"
+  },
+  {
+    "row": 80,
+    "rowsha": "Oz1p71AUEBr5m3cq+7D3xUI9y/hMgr14ZG776qztzJA=",
+    "originContent": "# Filename must match the fragment names but without \".part-FragN\"",
+    "translatedContent": "# Filename must match the fragment names but without \".part-FragN\""
+  },
+  {
+    "row": 81,
+    "rowsha": "Cqo546F7QeuIJEEIGYWGCcrQRpvK8vG03zJb2JHAbFo=",
+    "originContent": "# Use `--download-sections` if you want to merge only specific part of the video",
+    "translatedContent": "# Use `--download-sections` if you want to merge only specific part of the video"
+  },
+  {
+    "row": 82,
+    "rowsha": "RQAbVZPmSLofHxhn9zVDK3cu3qEcYwUd7Qwlb4o5MvU=",
+    "originContent": "npx twitch-dlp \"./Chillin [v2222470239].mp4\" --merge-fragments",
+    "translatedContent": "npx twitch-dlp \"./Chillin [v2222470239].mp4\" --merge-fragments"
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "tbBDl9YenyUHav4iG2tFX0kyDFEEc/i2TgdDfGH/baE=",
+    "originContent": "# Merge already downloaded fragments and try to unmute muted fragments",
+    "translatedContent": "# Merge already downloaded fragments and try to unmute muted fragments"
+  },
+  {
+    "row": 85,
+    "rowsha": "PtFTE/Tm/518+KTH8TSqEoO49l6KmU915Sd63sy/bOI=",
+    "originContent": "npx twitch-dlp \"./Chillin [v2222470239].mp4\" --merge-fragments --unmute quality",
+    "translatedContent": "npx twitch-dlp \"./Chillin [v2222470239].mp4\" --merge-fragments --unmute quality"
+  },
+  {
+    "row": 86,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 옵션"
+  },
+  {
+    "row": 88,
+    "rowsha": "061veB7IsP6MLX2VaAsyznYrdLIx3av88lknlRwMrww=",
+    "originContent": "## Options",
+    "translatedContent": ""
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "tKMTeRwfvKLBQQ0dWxGQr0CHcj7BtsHEundimNbdYig=",
+    "originContent": "```text",
+    "translatedContent": "```text"
+  },
+  {
+    "row": 91,
+    "rowsha": "9T+nkQsTQ5NinE6R9yAv868tnCQPRByMakBdAHdiwkI=",
+    "originContent": "-h, --help                  Print this help text and exit",
+    "translatedContent": "-h, --help                  Print this help text and exit"
+  },
+  {
+    "row": 92,
+    "rowsha": "aFwZmudwVBICGOotppKoXLWn9yc7VTWFJ+/7r0ro0B4=",
+    "originContent": "--version                   Print program version and exit",
+    "translatedContent": "--version                   Print program version and exit"
+  },
+  {
+    "row": 93,
+    "rowsha": "SEiiqTzjLin014E0LNaf/VmDVlQEJ+2T/MhB3bsl5Jg=",
+    "originContent": "-f, --format FORMAT         Select format to download",
+    "translatedContent": "-f, --format FORMAT         Select format to download"
+  },
+  {
+    "row": 94,
+    "rowsha": "mGXamczyNcf8xScufDJRLNFqDVXPmNsdOVoIilAptWQ=",
+    "originContent": "                            Available formats:",
+    "translatedContent": "                            Available formats:"
+  },
+  {
+    "row": 95,
+    "rowsha": "Lis1DDVV2eK6CqNKrmdD/YH7xRoJUSWam0QZztlPh64=",
+    "originContent": "                            * best: best quality (default)",
+    "translatedContent": "                            * best: best quality (default)"
+  },
+  {
+    "row": 96,
+    "rowsha": "/78zPGlKFgJmDcPaYtd3847RGloGACMNDbqp06q4JFk=",
+    "originContent": "                            * FORMAT: select format by format_id",
+    "translatedContent": "                            * FORMAT: select format by format_id"
+  },
+  {
+    "row": 97,
+    "rowsha": "JaTdktcad7PqJATAIBTe4KRzLRhaoN3lVxSQlkX8vYE=",
+    "originContent": "-F, --list-formats          Print available formats and exit",
+    "translatedContent": "-F, --list-formats          Print available formats and exit"
+  },
+  {
+    "row": 98,
+    "rowsha": "bNWDLsh/DX3xK58YvHiG823VgDWA5UmPEQlSkIsN0LM=",
+    "originContent": "-o, --output OUTPUT         Output filename template",
+    "translatedContent": "-o, --output OUTPUT         Output filename template"
+  },
+  {
+    "row": 99,
+    "rowsha": "dZg6dni1IiSWuGkzNL/Chcj/eMWn4DodIi0bRfNhSiM=",
+    "originContent": "                            Available template variables:",
+    "translatedContent": "                            Available template variables:"
+  },
+  {
+    "row": 100,
+    "rowsha": "IEAddgbHdSM2yihnYOW8UGDO9JtHnV4g7gFb5hE03z4=",
+    "originContent": "                            * %(title)s",
+    "translatedContent": "                            * %(title)s"
+  },
+  {
+    "row": 101,
+    "rowsha": "Rcf0bvD8Xseg4LU8BNlTUSPKOr0DKK1IUzQRDh/qm0U=",
+    "originContent": "                            * %(id)s",
+    "translatedContent": "                            * %(id)s"
+  },
+  {
+    "row": 102,
+    "rowsha": "iw+hUuSZpNzzhzOG2Jtb1eDRrqp7CxiFIXHxAKyQBZ0=",
+    "originContent": "                            * %(ext)s",
+    "translatedContent": "                            * %(ext)s"
+  },
+  {
+    "row": 103,
+    "rowsha": "EdfxjhYstVL3avvAIvCnb3HBEiINSW0GK0aY+icJ4VE=",
+    "originContent": "                            * %(description)s",
+    "translatedContent": "                            * %(description)s"
+  },
+  {
+    "row": 104,
+    "rowsha": "fxg/fWh1moJZ2JAVMPhkGUEdB6dRN7teHBtIxUzFVHE=",
+    "originContent": "                            * %(duration)s",
+    "translatedContent": "                            * %(duration)s"
+  },
+  {
+    "row": 105,
+    "rowsha": "Q2fA1st3iq50izcgjFJUH87bPhiqQBmvkWbjvInsmJg=",
+    "originContent": "                            * %(uploader)s",
+    "translatedContent": "                            * %(uploader)s"
+  },
+  {
+    "row": 106,
+    "rowsha": "v581UV/e4kxE/98wRepe1+fvHTtTI2oKn5J9PN3GmCw=",
+    "originContent": "                            * %(uploader_id)s",
+    "translatedContent": "                            * %(uploader_id)s"
+  },
+  {
+    "row": 107,
+    "rowsha": "DFhxK4+eB+MCTIMwzQq3idHc9oV5HBlCtJe8zujo848=",
+    "originContent": "                            * %(upload_date)s",
+    "translatedContent": "                            * %(upload_date)s"
+  },
+  {
+    "row": 108,
+    "rowsha": "2WwfmGh0IrK56fBDB2M3V2eowKRVJzPAsyllf+XYQik=",
+    "originContent": "                            * %(release_date)s",
+    "translatedContent": "                            * %(release_date)s"
+  },
+  {
+    "row": 109,
+    "rowsha": "hJJmq2EVpgGjejYJb2BZQ4PfiKr230Js9wipMZlaxLI=",
+    "originContent": "                            * %(view_count)s",
+    "translatedContent": "                            * %(view_count)s"
+  },
+  {
+    "row": 110,
+    "rowsha": "3Heo/xchFhI7XBCUtqSqj0gYGrwxPk+L9Jgs98S48IY=",
+    "originContent": "--live-from-start           Download live streams from the start",
+    "translatedContent": "--live-from-start           Download live streams from the start"
+  },
+  {
+    "row": 111,
+    "rowsha": "azZCN8KidY8CsMZJh3D5v6cRIPShPdYyX7ek68EyB7Q=",
+    "originContent": "--retry-streams DELAY       Retry fetching the list of available streams until",
+    "translatedContent": "--retry-streams DELAY       Retry fetching the list of available streams until"
+  },
+  {
+    "row": 112,
+    "rowsha": "ZTHarkF1zlHQttq8yNZw6Tcn5Zo7+QKDNDMp3BwnW1s=",
+    "originContent": "                            streams are found while waiting DELAY second(s)",
+    "translatedContent": "                            streams are found while waiting DELAY second(s)"
+  },
+  {
+    "row": 113,
+    "rowsha": "gvtQluNxRcxYG3JhInvc5eYO0CLz4OZj56UP+ZX2f2A=",
+    "originContent": "                            between each attempt",
+    "translatedContent": "                            between each attempt"
+  },
+  {
+    "row": 114,
+    "rowsha": "r+jY1HAGYxzEpyUEMhkjBFM344fC7PKlqNTZnhvKtUY=",
+    "originContent": "-r, --limit-rate RATE       Limit download rate to RATE",
+    "translatedContent": "-r, --limit-rate RATE       Limit download rate to RATE"
+  },
+  {
+    "row": 115,
+    "rowsha": "h1AsIGUaQ06k+WL3WgF+I0kwr//AwRdp+0ojuHPoTyg=",
+    "originContent": "--keep-fragments            Keep fragments after downloading",
+    "translatedContent": "--keep-fragments            Keep fragments after downloading"
+  },
+  {
+    "row": 116,
+    "rowsha": "FRxecVKD3WLPfFlOwiXGrI9dH4yXzBlB0c5Aj4iG5Rc=",
+    "originContent": "--download-sections TEXT    Download specific part of the video.",
+    "translatedContent": "--download-sections TEXT    Download specific part of the video."
+  },
+  {
+    "row": 117,
+    "rowsha": "HswHZ+FfpWp8c2kvHaY1bhoZIwNWqsdgRxT/4RzJtfA=",
+    "originContent": "                            Syntax: \"*start_time-end_time\".",
+    "translatedContent": "                            Syntax: \"*start_time-end_time\"."
+  },
+  {
+    "row": 118,
+    "rowsha": "TfzPVP10hcQyyFRhFwnfW1YcU2+0M3wvApjKpVIYwHM=",
+    "originContent": "                            Examples: \"*0-12:34\", \"*3:14:15-inf\".",
+    "translatedContent": "                            Examples: \"*0-12:34\", \"*3:14:15-inf\"."
+  },
+  {
+    "row": 119,
+    "rowsha": "2lEdluGxIpkUSVhTk3UMQrHLnXguzFAs8zjr/5FVq18=",
+    "originContent": "                            A \"*\" prefix is for yt-dlp compatibility.",
+    "translatedContent": "                            A \"*\" prefix is for yt-dlp compatibility."
+  },
+  {
+    "row": 120,
+    "rowsha": "2FhM9pNimSYOyYuzwnSj6CmCW80Si1kusXvGrakfqdU=",
+    "originContent": "                            Negative timestamps and multiple sections are not ",
+    "translatedContent": "                            Negative timestamps and multiple sections are not "
+  },
+  {
+    "row": 121,
+    "rowsha": "HIWyqGBmhtW0Q829hkc+i+6GDVTT5c+XugRBdLekpdU=",
+    "originContent": "                            supported. Cutting is done by the closest fragments ",
+    "translatedContent": "                            supported. Cutting is done by the closest fragments "
+  },
+  {
+    "row": 122,
+    "rowsha": "k/l0p0D/5moEc7Px6Xyvg9+C0STKFvgG/7ccddb84Xc=",
+    "originContent": "                            (not by keyframes), so the accuracy is not very high",
+    "translatedContent": "                            (not by keyframes), so the accuracy is not very high"
+  },
+  {
+    "row": 123,
+    "rowsha": "bF+JJzLM4jmkKE2hJbWYxQj0PoRbGHbIxK61c17jqs0=",
+    "originContent": "--unmute POLICY             Try to unmute muted fragments. Keep in mind that",
+    "translatedContent": "--unmute POLICY             Try to unmute muted fragments. Keep in mind that"
+  },
+  {
+    "row": 124,
+    "rowsha": "N/N6c7AxXw14iRzkI/v5F+nQrRm2IHTjO/VpRrSwSYg=",
+    "originContent": "                            160p and 360p have slightly worse audio quality.",
+    "translatedContent": "                            160p and 360p have slightly worse audio quality."
+  },
+  {
+    "row": 125,
+    "rowsha": "FlOkUK08mEY4t54HR1fNXnh7FxnXsh2NblmjgAeG6y4=",
+    "originContent": "                            Available values:",
+    "translatedContent": "                            Available values:"
+  },
+  {
+    "row": 126,
+    "rowsha": "AAFvAQZo1x3CKw4JO8eu8+gYyx995p+Q7YwXaADDDDI=",
+    "originContent": "                            * quality (default for 480p and higher) - check all",
+    "translatedContent": "                            * quality (default for 480p and higher) - check all"
+  },
+  {
+    "row": 127,
+    "rowsha": "YX6LbXr5HCTt0AZJpuF+39btFe8o1n+QexUXZudtojM=",
+    "originContent": "                              formats, unmute only if best audio quality is",
+    "translatedContent": "                              formats, unmute only if best audio quality is"
+  },
+  {
+    "row": 128,
+    "rowsha": "ub1oCQhlvMBQUs9Kwna5hELyRNy4yLrY9kyaujm6G8w=",
+    "originContent": "                              available",
+    "translatedContent": "                              available"
+  },
+  {
+    "row": 129,
+    "rowsha": "PigsDgC08RlpucbANMjTs+qyzT9LVW/LTvLNoEbwbU4=",
+    "originContent": "                            * any - check all formats, unmute if any audio",
+    "translatedContent": "                            * any - check all formats, unmute if any audio"
+  },
+  {
+    "row": 130,
+    "rowsha": "ZORnOuEJazuPadbDNB0uBaBleOXwE2l7XW5DNanzROU=",
+    "originContent": "                              quality is available",
+    "translatedContent": "                              quality is available"
+  },
+  {
+    "row": 131,
+    "rowsha": "CEGgDf7aM38XEBLgLiQjbshbZpXWNdFU6A/PQtx3IBw=",
+    "originContent": "                            * same_format (default for 360p and lower) - only",
+    "translatedContent": "                            * same_format (default for 360p and lower) - only"
+  },
+  {
+    "row": 132,
+    "rowsha": "f5BgIAOxGEz2qc+vRa517UL4PH7Mj7UXPjRP7xVNJ1c=",
+    "originContent": "                              check downloading format, unmute if available",
+    "translatedContent": "                              check downloading format, unmute if available"
+  },
+  {
+    "row": 133,
+    "rowsha": "AjMvW4LYnTBUhqX+12W6eBl7U9eMhw+XrJXIrcMNF8Y=",
+    "originContent": "                            * off - don't try to unmute fragments",
+    "translatedContent": "                            * off - don't try to unmute fragments"
+  },
+  {
+    "row": 134,
+    "rowsha": "RC541CWUzkpPrHB8WRRVL2dbjIY8QCRHanG/rv0Dork=",
+    "originContent": "--downloader NAME           Name of the external downloader to use.",
+    "translatedContent": "--downloader NAME           Name of the external downloader to use."
+  },
+  {
+    "row": 135,
+    "rowsha": "kBip3fJXV6RF26oFMg0KGueH4whixlZrFxa65HO4gqs=",
+    "originContent": "                            Currently supports: aria2c, curl, fetch (default)",
+    "translatedContent": "                            Currently supports: aria2c, curl, fetch (default)"
+  },
+  {
+    "row": 136,
+    "rowsha": "N9hOFzYHDSaLDilgpzqgJ/SoeFpaiWw0tGLATXHHy1Q=",
+    "originContent": "--proxy URL                 Use the specified HTTP/HTTPS/SOCKS proxy. To",
+    "translatedContent": "--proxy URL                 Use the specified HTTP/HTTPS/SOCKS proxy. To"
+  },
+  {
+    "row": 137,
+    "rowsha": "FGHTpu1ZV/6xd4gK2DaREo0hLttQcjP0ewHCtYQM6wE=",
+    "originContent": "                            enable SOCKS proxy, specify a proper scheme,",
+    "translatedContent": "                            enable SOCKS proxy, specify a proper scheme,"
+  },
+  {
+    "row": 138,
+    "rowsha": "+sn/noTaz8q0SBki6VTqcqPEP/cQ+AM4MGHG6qbtjkw=",
+    "originContent": "                            e.g. socks5://user:pass@127.0.0.1:1080/.",
+    "translatedContent": "                            e.g. socks5://user:pass@127.0.0.1:1080/."
+  },
+  {
+    "row": 139,
+    "rowsha": "rOB3s78aoOEIqKlSiDKMscyxPDPwXQ5De+3zoLBdlu0=",
+    "originContent": "                            Pass in an empty string (--proxy \"\") for",
+    "translatedContent": "                            Pass in an empty string (--proxy \"\") for"
+  },
+  {
+    "row": 140,
+    "rowsha": "dI+QIDEcKPfYihWOgpDOmAE8lzo+QfwHvV7AJwQwOAM=",
+    "originContent": "                            direct connection. Currently only works with fetch",
+    "translatedContent": "                            direct connection. Currently only works with fetch"
+  },
+  {
+    "row": 141,
+    "rowsha": "v0MBflXXHkEYdPMDy10yJYOYpQn90/ekKfqVeBXrb5w=",
+    "originContent": "--merge-method METHOD       How fragments should be merged. Merging happens",
+    "translatedContent": "--merge-method METHOD       How fragments should be merged. Merging happens"
+  },
+  {
+    "row": 142,
+    "rowsha": "F+M6sGQo/VsX2j1DWmJeJu9uH1hMH5njstVlW9gjuXw=",
+    "originContent": "                            only after all fragments are downloaded.",
+    "translatedContent": "                            only after all fragments are downloaded."
+  },
+  {
+    "row": 143,
+    "rowsha": "FlOkUK08mEY4t54HR1fNXnh7FxnXsh2NblmjgAeG6y4=",
+    "originContent": "                            Available values:",
+    "translatedContent": "                            Available values:"
+  },
+  {
+    "row": 144,
+    "rowsha": "9t6cZG6NBwA+hJwLQODPtoUuhIFyn1NZfJD0EBvN0E0=",
+    "originContent": "                            * ffconcat (default) - using ffmpeg's concat ",
+    "translatedContent": "                            * ffconcat (default) - using ffmpeg's concat "
+  },
+  {
+    "row": 145,
+    "rowsha": "OcnYYJl/CPp2Sxbi+zDiB6+tK4UV8i7SjAvzrhptAqI=",
+    "originContent": "                              demuxer, no fixup needed",
+    "translatedContent": "                              demuxer, no fixup needed"
+  },
+  {
+    "row": 146,
+    "rowsha": "/LV69z/tJGvhSoK/5SptgBs5VtxbYoxilGCaZ+kc1rY=",
+    "originContent": "                            * append - merge all fragments into one file and",
+    "translatedContent": "                            * append - merge all fragments into one file and"
+  },
+  {
+    "row": 147,
+    "rowsha": "X+fRalOxaIKhQGcI0c2UMshyQnUDQ/82h4Md0aXJnZs=",
+    "originContent": "                              fixup using ffmpeg (like yt-dlp does)",
+    "translatedContent": "                              fixup using ffmpeg (like yt-dlp does)"
+  },
+  {
+    "row": 148,
+    "rowsha": "bzR3yl4PYVxJP+OMjBTm8yvqyqUVY0UtEG2vFWTR5eU=",
+    "originContent": "--merge-fragments           Merge already downloaded fragments. A FILENAME",
+    "translatedContent": "--merge-fragments           Merge already downloaded fragments. A FILENAME"
+  },
+  {
+    "row": 149,
+    "rowsha": "wQWcwCfKthxbSOwDWqXAn7J2mkDbmKeWlb6qj8n80tI=",
+    "originContent": "                            should be passed instead of a video link. The ",
+    "translatedContent": "                            should be passed instead of a video link. The "
+  },
+  {
+    "row": 150,
+    "rowsha": "g/L5e8I9ttI3LQR5tpx7KhmRaO/PEpyL7RNqkILgMjM=",
+    "originContent": "                            FILENAME must match the fragment names but without",
+    "translatedContent": "                            FILENAME must match the fragment names but without"
+  },
+  {
+    "row": 151,
+    "rowsha": "LAUxk91B+Ij1h8H3zXP/4tjMHnLVMhNO2Nxc9ZT8YIs=",
+    "originContent": "                            \".part-FragN\". Example: \"npx twitch-dlp FILENAME",
+    "translatedContent": "                            \".part-FragN\". Example: \"npx twitch-dlp FILENAME"
+  },
+  {
+    "row": 152,
+    "rowsha": "vgciNw2dUotJb46f8skSUpW0HNRZKjSqOA/425Vr9RM=",
+    "originContent": "                            --merge-fragments\".",
+    "translatedContent": "                            --merge-fragments\"."
+  },
+  {
+    "row": 153,
+    "rowsha": "+kfBjKQ056VlVOkqWRZIzIqOCfEjyanil9geNWzGiIw=",
+    "originContent": "                            Can be used with:",
+    "translatedContent": "                            Can be used with:"
+  },
+  {
+    "row": 154,
+    "rowsha": "RvbAlJDhnzvU9HCFx2CbocpZckG1UAuP42kdF1uDyDs=",
+    "originContent": "                            * --download-sections - merge only specific part",
+    "translatedContent": "                            * --download-sections - merge only specific part"
+  },
+  {
+    "row": 155,
+    "rowsha": "sRlz+MPjOCwrjul5VuZFO2EIXjdNJ7Co7FAfX9Gyxec=",
+    "originContent": "                              of the video",
+    "translatedContent": "                              of the video"
+  },
+  {
+    "row": 156,
+    "rowsha": "VNP4zaOOVVxgiDib1BmneBWfWencJ50iX2kyFDFkcPs=",
+    "originContent": "                            * --unmute - try to unmute downloaded fragments",
+    "translatedContent": "                            * --unmute - try to unmute downloaded fragments"
+  },
+  {
+    "row": 157,
+    "rowsha": "+EMavNS0iZLMD1r0g9s85Mu6wWYCQ233P/8sti/AD80=",
+    "originContent": "                              according to passed unmute policy (off by",
+    "translatedContent": "                              according to passed unmute policy (off by"
+  },
+  {
+    "row": 158,
+    "rowsha": "Djtr2Qbbw1WJohlB0PGBn/BE8rhNvO26bw66ELBcc1A=",
+    "originContent": "                              default)",
+    "translatedContent": "                              default)"
+  },
+  {
+    "row": 159,
+    "rowsha": "+IEnbYgNHMu4Bebe+r1ZZece9oqZXwxrcm/YKy1pmPA=",
+    "originContent": "                            * --merge-method - change merge method",
+    "translatedContent": "                            * --merge-method - change merge method"
+  },
+  {
+    "row": 160,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 161,
+    "rowsha": "zNwet+w9xMFXFidBMaJLcYpE9TjzIE/UZpOQmu8z1fI=",
+    "originContent": "It's also possible to pass streamlink twitch plugin args:",
+    "translatedContent": "It's also possible to pass streamlink twitch plugin args:"
+  },
+  {
+    "row": 162,
+    "rowsha": "8qzeRi1mPzLzseGLnPV/izkFcljgT4OF+gacpiziExo=",
+    "originContent": "--twitch-disable-ads, --twitch-low-latency, --twitch-api-header,",
+    "translatedContent": "--twitch-disable-ads, --twitch-low-latency, --twitch-api-header,"
+  },
+  {
+    "row": 163,
+    "rowsha": "rw2JAFC/HxK4K8p46IeyF/jis2BWrbhMudBM4m5I1+I=",
+    "originContent": "--twitch-access-token-param, --twitch-force-client-integrity,",
+    "translatedContent": "--twitch-access-token-param, --twitch-force-client-integrity,"
+  },
+  {
+    "row": 164,
+    "rowsha": "sR/2SKsv0t39J5fhK2+ceYb6Mw4l0teWmptubufyffE=",
+    "originContent": "--twitch-purge-client-integrity",
+    "translatedContent": "--twitch-purge-client-integrity"
+  },
+  {
+    "row": 165,
+    "rowsha": "loN5psvcpM7baIKxY0cfcjWUN/bovJx/lcMDc/E01aY=",
+    "originContent": "See https://streamlink.github.io/cli.html#twitch",
+    "translatedContent": "See https://streamlink.github.io/cli.html#twitch"
+  },
+  {
+    "row": 166,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "Nt1K3LoAGaycjZRXVAPkRbbwkp7o3QtYQBpEkQkqlLw=",
+    "originContent": "## Formats example",
+    "translatedContent": "## 형식 예시"
+  },
+  {
+    "row": 169,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 170,
+    "rowsha": "ZkvTfWg1slH0dla82rk/WpGAsn+SJhZRqHhokfb5M5A=",
+    "originContent": "For VODs",
+    "translatedContent": "VOD용"
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 173,
+    "rowsha": "XBP2b8HBWp+YUI961zvaN0PX70aE6OD2/7MC+rvYX7A=",
+    "originContent": "┌─────────┬──────────────┬──────────────┬──────┬───────────────┬────────┐",
+    "translatedContent": "┌─────────┬──────────────┬──────────────┬──────┬───────────────┬────────┐"
+  },
+  {
+    "row": 174,
+    "rowsha": "KgnQZTp2zM7LzSy69Vq/sbbiACELfZyHyPCykqfFwiA=",
+    "originContent": "│ (index) │ format_id    │ resolution   │ fps  │ total_bitrate │ source │",
+    "translatedContent": "│ (index) │ format_id    │ resolution   │ fps  │ total_bitrate │ source │"
+  },
+  {
+    "row": 175,
+    "rowsha": "/ifby6YdaNqRQnW7HZsZfSuDAkTO9qWeehvttSfR1d4=",
+    "originContent": "├─────────┼──────────────┼──────────────┼──────┼───────────────┼────────┤",
+    "translatedContent": "├─────────┼──────────────┼──────────────┼──────┼───────────────┼────────┤"
+  },
+  {
+    "row": 176,
+    "rowsha": "QlnttJsIyuLUjA4asxkit3KBoDnwuLTkU22pZ8Ky3o4=",
+    "originContent": "│ 0       │ 'Audio_Only' │ 'audio only' │ null │ '212k'        │ null   │",
+    "translatedContent": "│ 0       │ 'Audio_Only' │ 'audio only' │ null │ '212k'        │ null   │"
+  },
+  {
+    "row": 177,
+    "rowsha": "KJ4Otrkv6MgTiLiRqGGUdOsbSNxoV+UZO6mY7pqpnFo=",
+    "originContent": "│ 1       │ '160p'       │ '284x160'    │ 30   │ '225k'        │ null   │",
+    "translatedContent": "│ 1       │ '160p'       │ '284x160'    │ 30   │ '225k'        │ null   │"
+  },
+  {
+    "row": 178,
+    "rowsha": "KFIDYno3Jbq0367wRYtYreUOGEC60bSY91GSyvSf0zw=",
+    "originContent": "│ 2       │ '360p'       │ '640x360'    │ 30   │ '615k'        │ null   │",
+    "translatedContent": "│ 2       │ '360p'       │ '640x360'    │ 30   │ '615k'        │ null   │"
+  },
+  {
+    "row": 179,
+    "rowsha": "kBRwr42px4qXT44NgHTbzaSRylZwFJRjozBjJ7KoCK0=",
+    "originContent": "│ 3       │ '480p'       │ '852x480'    │ 30   │ '1172k'       │ null   │",
+    "translatedContent": "│ 3       │ '480p'       │ '852x480'    │ 30   │ '1172k'       │ null   │"
+  },
+  {
+    "row": 180,
+    "rowsha": "RfWqB5uTGYrvLuqeeKSAFGG1Z4ZnC2GKJcmeHGNCoss=",
+    "originContent": "│ 4       │ '720p60'     │ '1280x720'   │ 60   │ '3027k'       │ null   │",
+    "translatedContent": "│ 4       │ '720p60'     │ '1280x720'   │ 60   │ '3027k'       │ null   │"
+  },
+  {
+    "row": 181,
+    "rowsha": "nqozQUhBrF8YSxa4J1J7ZCy+RAXxs7+M1ZsEZjsPlAw=",
+    "originContent": "│ 5       │ '1080p60'    │ '1920x1080'  │ 60   │ '5967k'       │ true   │",
+    "translatedContent": "│ 5       │ '1080p60'    │ '1920x1080'  │ 60   │ '5967k'       │ true   │"
+  },
+  {
+    "row": 182,
+    "rowsha": "lku0+z7jG8yovBEj9cf3dNfkWBlEc4UDmaVIqEQhdWE=",
+    "originContent": "└─────────┴──────────────┴──────────────┴──────┴───────────────┴────────┘",
+    "translatedContent": "└─────────┴──────────────┴──────────────┴──────┴───────────────┴────────┘"
+  },
+  {
+    "row": 183,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 184,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "라이브 스트림용 (streamlink)"
+  },
+  {
+    "row": 185,
+    "rowsha": "4Tf+yitZeZmM+qF8d5HWFh+eIPTzbwPFr/dEAqythv8=",
+    "originContent": "For live streams (streamlink)",
+    "translatedContent": ""
+  },
+  {
+    "row": 186,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 187,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 188,
+    "rowsha": "wMN4uk3wAMxWmMUSa+A0t2QtIaxsgCfShq8O/Wda8iQ=",
+    "originContent": "Available streams: audio_only, 160p (worst), 360p, 480p, 720p, 720p60, 1080p60 (best)",
+    "translatedContent": "Available streams: audio_only, 160p (worst), 360p, 480p, 720p, 720p60, 1080p60 (best)"
+  },
+  {
+    "row": 189,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 190,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 191,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 192,
+    "rowsha": "Hsq0UrFe0WTQ4GboWPhSDw6BI93WIlghhMdnVrhmiI4=",
+    "originContent": "Available streams: audio_only, 160p (worst), 360p, 480p, 720p, 720p60_alt, 720p60 (best)",
+    "translatedContent": "Available streams: audio_only, 160p (worst), 360p, 480p, 720p, 720p60_alt, 720p60 (best)"
+  },
+  {
+    "row": 193,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 194,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 195,
+    "rowsha": "1GG6RzhUQg6MWK7hzadJlvIKgJovz9zWw6FnPT8QVK0=",
+    "originContent": "## Dependencies",
+    "translatedContent": "## 종속성"
+  },
+  {
+    "row": 196,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 197,
+    "rowsha": "er1xnKta3ERy/yU0nG9LF91lPlzKWSH00+eLcURRNDE=",
+    "originContent": "- **ffmpeg**",
+    "translatedContent": "- **ffmpeg**"
+  },
+  {
+    "row": 198,
+    "rowsha": "CM21UKFARhT9eWE52NypYz3m+edhrF74HqsaciDvadA=",
+    "originContent": "- **streamlink** (if downloading by channel link without `--live-from-start`)",
+    "translatedContent": "- **streamlink** (`--live-from-start` 없이 채널 링크로 다운로드할 경우)"
+  },
+  {
+    "row": 199,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
