@@ -29,215 +29,861 @@
 </div>
 
 <div align="center">
-  <a href="https://core.heysol.ai">
+  <a href="https://getcore.me">
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE 標誌" />
   </a>
 
-### CORE：AI 應用的個人記憶層
+### CORE：你的數位大腦 - AI 工具的記憶 + 行動力
 
 <p align="center">
-    <a href="https://deepwiki.com/RedPlanetHQ/core">
-        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki 徽章" />
+    <a href="https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==">
+        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="加入到 Cursor" />
+    </a>
+    <a href="https://railway.com/deploy/core">
+        <img src="https://railway.app/button.svg" width="150px" alt="在 Railway 上部署" />
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/introduction"><b>文件說明</b></a> •
-    <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
+    <a href="https://heysol.ai">
+        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50" alt="網站" />
+    </a>
+    <a href="https://docs.getcore.me">
+        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-green" alt="文件" />
+    </a>  
+    <a href="https://discord.gg/YGUZcvDjUa">
+        <img src="https://img.shields.io/badge/Discord-community-purple" alt="Discord 社群" />
+    </a>    
 </p>
 </div>
 
-## 🔥 研究亮點
+---
 
-CORE 記憶在 Locomo 數據集的所有推理任務中達到 **88.24%** 的平均準確率，顯著優於其他記憶提供者。詳情請參閱這篇[部落格](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/)。
+你的關鍵資訊分散在各種彼此不互通的工具中。你的 AI 對話總是以「讓我先給你一點背景」開始。你的經驗與學習還都留在你腦中，而你的腦容量有限。
 
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) 單跳問題需要根據單一會話作答；(2) 多跳問題需綜合多個不同會話中的資訊；(3) 開放領域知識問題可透過結合講者提供資訊與外部知識（如常識或世界事實）回答；(4) 時序推理問題可通過時序推理和捕捉對話中的時間線索作答；
+**CORE 會記得。** 它不是資料庫，也不是搜尋框，而是能學習重點、連結相關內容並主動提供所需資訊的數位大腦。
 
-## 概述
+## 給開發者
 
-**問題** 
+CORE 為你的 AI 工具帶來持久記憶，並能於你常用的應用程式中執行操作。
 
-開發者浪費時間重複向 AI 工具解釋背景。Claude 遇到 Token 限制？重啟就什麼都沒了。從 ChatGPT/Claude 換到 Cursor？又要重新解釋背景。你的對話、決策和洞察力在各次會話間消失。每更換一個 AI 工具，背景切換的成本就增加。
+- 跨 Claude Code、Cursor 等程式代理保留上下文
+- 可在 Linear、GitHub、Slack、Gmail、Google Sheets 等應用內執行操作
+- 只需一次 MCP 連接，隨處可用
+- 開源並可自架設；資料完全由你掌控
 
-**解決方案** - **CORE**（**Contextual Observation & Recall Engine**）
+---
 
-CORE 是一個開源、統一且持久的記憶層，適用於所有 AI 工具。你的背景資訊能從 Cursor 到 Claude、再到 ChatGPT、Claude Code都能同步。單一知識圖記錄誰說了什麼、何時、為何。只需連接一次，處處都能記得。不再需要管理背景，專注於創建。
+## 你可以做什麼
 
-## 🚀 CORE 自主架設
-想在自己的基礎設施上運行 CORE？自主架設可讓你完全掌控資料與部署。
+### 1. 不再重複自己，情境自動流動
 
-**先決條件**：
+CORE 成為你編碼代理的持久記憶層。可請任何 AI 工具自動取得相關上下文。
+```txt
+Search core memory for architecture decisions on the payment service
+```
+```txt
+What my content guidelines from core to create the blog?
+```
+![core_as_memory](https://github.com/user-attachments/assets/7ac5d3f3-ca36-428d-8e97-3412c398f74b)
 
-- 已安裝 Docker（20.10.0 以上）和 Docker Compose（2.20.0 以上）
-- OpenAI API 金鑰
+---
 
-> **關於開源模型的說明：** 我們已測試 Ollama 和 GPT 等開源選擇，但其事實提取和圖譜品質不足。我們正在積極尋找更好的選項。
+### 2. 從 Claude/Cursor 在您的應用程式中採取行動
 
-### 安裝
+只需連接一次您的應用程式，隨時隨地採取行動。
+
+- 建立/讀取 GitHub、Linear 問題
+- 撰寫/發送/閱讀電子郵件並將相關資訊儲存在 CORE
+- 管理您的行事曆，更新試算表
+
+
+![actions](https://github.com/user-attachments/assets/60295a77-bdfd-4d57-aff5-d77ecb41e72d)
+
+---
+
+### 3. claude code/cursor 隨時從上次進度繼續
+
+一週後再切換回某個功能？立即了解最新進度。
+```txt
+What did we discuss about the checkout flow? Summarize from memory.
+```
+```txt
+Refer to past discussions and remind me where we left off on the API refactor
+```
+![claude-code-in-core](https://github.com/user-attachments/assets/0bd9566b-a8cc-49d9-a3cf-368658906c39)
+
+---
+
+## CORE 有何不同
+
+1. **時間脈絡圖**：CORE 不只是儲存事實——它記得整個故事。事件發生的時間、你的思路如何演變、每個決策的來龍去脈。你的偏好、目標與過去的選擇——全都串連在一個理解順序與脈絡的圖譜中。
+
+2. **88.24% 回憶準確率**：通過 LoCoMo 基準測試。當你詢問 CORE，它能找到最相關內容。不是關鍵詞比對，而是真正的語意理解與多跳推理。
+
+3. **你掌控一切**：你的記憶，你定規則。修正錯誤內容。刪除不該存在的資料。視覺化你的知識連結。CORE 完全透明，你能清楚看到它所知的一切。
+
+4. **開源**：無黑箱操作。無廠商綁定。你的數位大腦真正屬於你。
+
+---
+
+## 🚀 快速開始
+
+選擇你的路徑：
+
+| | **CORE 雲端** | **自架部署** |
+|---|---|---|
+| 設定時間 | 5 分鐘 | 15 分鐘 |
+| 適合對象 | 快速試用，免建設 | 完全掌控，自有伺服器 |
+| 需求 | 只需註冊帳號 | Docker，4GB 記憶體 |
+
+### 雲端
+
+1. **註冊帳號** 於 [app.getcore.me](https://app.getcore.me)
+2. **連接來源**（Claude、Cursor 或任何支援 MCP 的工具）
+3. **開始使用** CORE 來進行任何操作或將有關你的內容儲存於記憶體
+
+### 自架部署
+
+**快速部署**
+
+[![在 Railway 上部署](https://railway.app/button.svg)](https://railway.com/deploy/core)
+
+**或使用 Docker**
 
 1. 複製此儲存庫：
+
 ```
 git clone https://github.com/RedPlanetHQ/core.git
 cd core
 ```
+
 2. 在 `core/.env` 中配置環境變數：
+
 ```
 OPENAI_API_KEY=your_openai_api_key
 ```
+
 3. 啟動服務
+
 ```
 docker-compose up -d
 ```
 
-部署完成後，您可以設定您的 AI 供應商（OpenAI、Anthropic），並開始建立您的記憶圖譜。
+部署完成後，您可以設定您的 AI 提供者（OpenAI、Anthropic），並開始建立您的記憶圖譜。
 
-👉 [檢視完整自我託管指南](https://docs.heysol.ai/self-hosting/docker)
-
-注意：我們曾嘗試如 Ollama 或 GPT OSS 等開源模型，但事實生成效果不佳，我們仍在研究如何改進，之後也會支援 OSS 模型。
-
-## 🚀 CORE 雲端
-**五分鐘內建立您的統一記憶圖譜：**
-
-不想管理基礎設施？CORE 雲端讓您即刻建立個人記憶系統——無需設置、無需伺服器，只需可用的記憶。
-
-1. **註冊** [core.heysol.ai](https://core.heysol.ai) 並創建您的帳戶
-2. **視覺化您的記憶圖譜**，觀看 CORE 如何自動連接事實之間的關係
-3. **試用看看**——在對話區詢問「你知道我什麼？」
-4. 連接您的工具：
-   - [Claude](https://docs.heysol.ai/providers/claude) 與 [Cursor](https://docs.heysol.ai/providers/cursor)——情境式編碼
-   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) 與 [Codex CLI](https://docs.heysol.ai/providers/codex)——終端機記憶式編碼
-   - [新增瀏覽器擴充套件](https://docs.heysol.ai/providers/browser-extension)——將您的記憶帶到任何網站
-   - [Linear](https://docs.heysol.ai/integrations/linear)、[Github](https://docs.heysol.ai/integrations/github)——自動新增專案情境
-
-## 🧩 主要功能
-
-### 🧠 **統一且可攜式記憶**： 
-透過 MCP 可於 **Cursor、Windsurf、Claude Desktop、Claude Code、Gemini CLI、AWS 的 Kiro、VS Code 和 Roo Code** 新增及回溯您的記憶
-
-![core-claude](https://github.com/user-attachments/assets/56c98288-ee87-4cd0-8b02-860aca1c7f9a)
+👉 [查看完整自託管指南](https://docs.getcore.me/self-hosting/docker)
 
 
-### 🕸️ **時間性 + 具體化知識圖譜**： 
+> 注意：我們曾嘗試使用 Ollama 或 GPT OSS 等開源模型，但事實生成效果不佳，我們仍在研究如何改進，之後也會支援 OSS 模型。
 
-記住每個事實背後的故事——追蹤誰、何時、為何說了什麼，擁有豐富關聯與完整來源，而非僅平面儲存
+## 🛠️ 安裝
 
-![core-memory-graph](https://github.com/user-attachments/assets/5d1ee659-d519-4624-85d1-e0497cbdd60a)
+### 推薦方式
 
+<details>
+<summary><b>在 Claude Code CLI 中安裝</b></summary>
 
-### 🌐 **瀏覽器擴充套件**： 
+1. 在終端機中執行以下指令以連接 CORE 與 Claude Code：
 
-將 ChatGPT、Grok、Gemini、Twitter、YouTube、部落格文章及任何網頁上的對話與內容直接儲存至您的 CORE 記憶中。
+```sh
+claude mcp add --transport http --scope user core-memory https://mcp.getcore.me/api/v1/mcp?source=Claude-Code
+```
+2. 輸入 `/mcp` 並開啟 core-memory MCP 以進行驗證
 
-**如何使用擴充功能**
-1. 從 [Chrome 線上應用程式商店](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc) 下載擴充功能。
-2. 登入 [CORE 控制台](https://core.heysol.ai)
-   - 點選左下方的設定
-   - 前往 API Key → 產生新金鑰 → 命名為「extension」。
-3. 開啟擴充功能，貼上你的 API 金鑰並儲存。
+</details>
 
-https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
+<details>
+<summary><b>在 Cursor 中安裝</b></summary>
 
+> 從 Cursor 1.0 開始，您可以點擊下方安裝按鈕，立即一鍵安裝。
 
-### 💬 **記憶聊天**： 
-詢問如「我的寫作偏好是什麼？」等問題，立即獲取來自已連接知識的洞察
+[![安裝 MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==)
 
-![chat-with-memory](https://github.com/user-attachments/assets/d798802f-bd51-4daf-b2b5-46de7d206f66)
+或者
 
-
-### ⚡ **應用程式自動同步**：
-
-自動從 Linear、Slack、Notion、GitHub 及其他已連接應用程式擷取相關情境至你的 CORE 記憶
-
-📖 **[檢視所有整合](https://raw.githubusercontent.com/RedPlanetHQ/core/main/./integrations/README.md)** - 支援服務與功能的完整列表
-
-![core-slack](https://github.com/user-attachments/assets/d5fefe38-221e-4076-8a44-8ed673960f03)
+1. 前往：`Settings` -> `Tools & Integrations` -> `Add Custom MCP`
+2. 在 `mcp.json` 檔案中輸入以下內容：
 
 
-### 🔗 **MCP 整合中心**： 
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=cursor",
+      "headers": {}
+    }
+  }
+}
+```
 
-只需一次將 Linear、Slack、GitHub、Notion 連接至 CORE—即可在 Claude、Cursor 或任何 MCP 客戶端中，透過單一網址使用所有工具
+</details>
+
+<details>
+<summary><b>在 Claude Desktop 中安裝</b></summary>
+
+1. 複製 CORE MCP URL：
+
+```
+https://mcp.getcore.me/api/v1/mcp?source=Claude
+```
+2. 導航至設定 → 連接器 → 點擊新增自訂連接器
+3. 點擊「連接」並授權 Claude 存取 CORE MCP
+
+</details>
+
+### 命令列介面 (CLI)
+
+<details>
+<summary><b>在 Codex CLI 中安裝</b></summary>
+
+**選項 1（建議）：** 新增到您的 `~/.codex/config.toml` 檔案中：
 
 
-![core-linear-claude](https://github.com/user-attachments/assets/7d59d92b-8c56-4745-a7ab-9a3c0341aa32)
+```toml
+[features]
+rmcp_client=true
+
+[mcp_servers.memory]
+url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
+```
+
+然後執行：`codex mcp memory login`
+
+**選項二（如果選項一無法執行）：** 新增 API 金鑰設定：
+
+```toml
+[features]
+rmcp_client=true
+
+[mcp_servers.memory]
+url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
+http_headers = { "Authorization" = "Bearer CORE_API_KEY" }
+```
+
+從 [app.getcore.me](https://app.getcore.me) 取得你的 API 金鑰 → 設定 → API Key，然後執行：`codex mcp memory login`
+
+</details>
+
+<details>
+<summary><b>在 Gemini CLI 中安裝</b></summary>
+
+請參閱 [Gemini CLI 設定](https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html) 以獲得詳細資訊。
+
+1.  開啟 Gemini CLI 的設定檔。位置為 `~/.gemini/settings.json`（其中 `~` 是你的家目錄）。
+2.  在你的 `settings.json` 檔案的 `mcpServers` 物件中新增以下內容：
+
+```json
+{
+  "mcpServers": {
+    "corememory": {
+      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=geminicli",
+      "timeout": 5000
+    }
+  }
+}
+```
+如果 `mcpServers` 物件不存在，請建立它。
+
+</details>
+
+<details>
+<summary><b>在 Copilot CLI 中安裝</b></summary>
+
+將以下內容新增到你的 `~/.copilot/mcp-config.json` 檔案中：
 
 
+```json
+{
+  "mcpServers": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-CLI",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
 
-## CORE 如何創建記憶
+</details>
+
+### 整合開發環境 (IDEs)
+
+
+<details>
+<summary><b>在 VS Code 中安裝</b></summary>
+
+在 `mcp.json` 檔案中輸入以下內容：
+
+```json
+{
+  "servers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Vscode",
+      "type": "http",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 VS Code Insiders 中安裝</b></summary>
+
+將以下內容新增至你的 VS Code Insiders MCP 設定中：
+
+```json
+{
+  "mcp": {
+    "servers": {
+      "core-memory": {
+        "type": "http",
+        "url": "https://mcp.getcore.me/api/v1/mcp?source=VSCode-Insiders",
+        "headers": {
+          "Authorization": "Bearer YOUR_API_KEY"
+        }
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Windsurf 中安裝</b></summary>
+
+在 `mcp_config.json` 檔案中輸入以下內容：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "serverUrl": "https://mcp.getcore.me/api/v1/mcp/source=windsurf",
+      "headers": {
+        "Authorization": "Bearer <YOUR_API_KEY>"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Zed 安裝</b></summary>
+
+1. 前往 Agent 面板中的 `設定` -> `新增自訂伺服器`
+2. 在設定檔中輸入以下程式碼，然後點擊 `新增伺服器` 按鈕
+
+```json
+{
+  "core-memory": {
+    "command": "npx",
+    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=Zed"]
+  }
+}
+```
+
+</details>
+
+### 程式代理
+
+<details>
+<summary><b>在 Amp 中安裝</b></summary>
+
+請在您的終端機中執行以下命令：
+
+```sh
+amp mcp add core-memory https://mcp.getcore.me/api/v1/mcp?source=amp
+```
+
+</details>
+
+<details>
+<summary><b>在 Augment 程式碼中安裝</b></summary>
+
+將以下內容新增到你的 `~/.augment/settings.json` 檔案中：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=augment-code",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Cline 中安裝</b></summary>
+
+1. 打開 Cline，點擊漢堡選單圖示（☰）進入 MCP 伺服器區域
+2. 選擇「遠端伺服器」分頁並點擊「編輯設定」按鈕
+3. 將以下內容新增到您的 Cline MCP 設定中：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Cline",
+      "type": "streamableHttp",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Kilo Code 中安裝</b></summary>
+
+1. 前往 `設定` → `MCP 伺服器` → `已安裝` 分頁 → 點擊 `編輯全域 MCP` 以編輯您的組態。
+2. 將以下內容加入您的 MCP 設定檔：
+
+```json
+{
+  "core-memory": {
+    "type": "streamable-http",
+    "url": "https://mcp.getcore.me/api/v1/mcp?source=Kilo-Code",
+    "headers": {
+      "Authorization": "Bearer your-token"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Kiro 安裝</b></summary>
+
+加入至 Kiro → MCP 伺服器：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Kiro",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Qwen Coder 中安裝</b></summary>
+
+請參考 [Qwen Coder MCP 設定](https://qwenlm.github.io/qwen-code-docs/en/tools/mcp-server/#how-to-set-up-your-mcp-server) 以取得詳細資訊。
+
+新增至 `~/.qwen/settings.json`：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=Qwen",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY",
+        "Accept": "application/json, text/event-stream"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Roo Code 中安裝</b></summary>
+
+將以下內容新增到您的 Roo Code MCP 設定中：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "type": "streamable-http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Roo-Code",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Opencode 中安裝</b></summary>
+
+將以下內容新增到您的 Opencode 設定中：
+
+```json
+{
+  "mcp": {
+    "core-memory": {
+      "type": "remote",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Opencode",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      },
+      "enabled": true
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>安裝於 Copilot Coding Agent</b></summary>
+
+新增至儲存庫設定 → Copilot → Coding agent → MCP 組態：
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-Agent",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Qodo Gen 中安裝</b></summary>
+
+1. 在 VSCode 或 IntelliJ 中打開 Qodo Gen 聊天面板
+2. 點擊「連接更多工具」，然後點擊「+ 新增 MCP」
+3. 新增以下設定：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Qodo-Gen"
+    }
+  }
+}
+```
+</details>
+
+### 終端機
+
+<details>
+<summary><b>在 Warp 中安裝</b></summary>
+
+在設定 → AI → 管理 MCP 伺服器中新增：
+
+
+```json
+{
+  "core": {
+    "url": "https://mcp.getcore.me/api/v1/mcp?source=Warp",
+    "headers": {
+      "Authorization": "Bearer YOUR_API_KEY"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Crush 中安裝</b></summary>
+
+將以下內容新增到您的 Crush 設定中：
+
+```json
+{
+  "$schema": "https://charm.land/crush.json",
+  "mcp": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Crush",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+</details>
+
+### 桌面應用程式
+
+<details>
+<summary><b>在 ChatGPT 中安裝</b></summary>
+
+透過瀏覽器擴充功能將 ChatGPT 連接到 CORE 的記憶體系統：
+
+1. [安裝 Core 瀏覽器擴充功能](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
+2. 產生 API 金鑰：前往設定 → API 金鑰 → 產生新金鑰 → 命名為「extension」
+3. 在 Core 擴充功能中加入 API 金鑰並點擊儲存
+
+</details>
+
+<details>
+<summary><b>在 Gemini 中安裝</b></summary>
+
+透過瀏覽器擴充功能將 Gemini 連接到 CORE 的記憶體系統：
+
+1. [安裝 Core 瀏覽器擴充功能](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
+2. 產生 API 金鑰：前往設定 → API 金鑰 → 產生新金鑰 → 命名為「extension」
+3. 在 Core 擴充功能中加入 API 金鑰並點擊儲存
+
+</details>
+
+<details>
+<summary><b>在 Perplexity Desktop 中安裝</b></summary>
+
+1. 在 Perplexity → 設定 → 連接器 → 新增連接器 → 進階：
+
+
+```json
+{
+  "core-memory": {
+    "command": "npx",
+    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=perplexity"]
+  }
+}
+```
+
+2. 點擊「儲存」以套用變更
+3. Core 將在您的 Perplexity 工作階段中可用
+
+</details>
+
+### 開發工具
+
+<details>
+<summary><b>在 Factory 安裝</b></summary>
+
+在終端機執行：
+
+```sh
+droid mcp add core https://mcp.getcore.me/api/v1/mcp?source=Factory --type http --header "Authorization: Bearer YOUR_API_KEY"
+```
+
+在 droid 中輸入 /mcp 以管理伺服器並查看可用工具。
+
+</details>
+
+<details>
+<summary><b>在 Rovo Dev CLI 中安裝</b></summary>
+
+1. 編輯 mcp 設定檔：
+
+```sh
+acli rovodev mcp
+```
+
+2. 新增至您的 Rovo Dev MCP 配置：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Rovo-Dev"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Trae 中安裝</b></summary>
+
+新增至您的 Trae MCP 設定檔：
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Trae"
+    }
+  }
+}
+```
+</details>
+
+## 🔨 可用工具
+
+CORE Memory MCP 提供以下工具，供 LLM 使用：
+
+- `memory_search`：從 CORE Memory 搜尋相關內容。
+- `memory_ingest`：在 CORE Memory 中新增一個事件。
+- `memory_about_user`：從 CORE Memory 取得使用者個人資料。
+- `initialise_conversation_session`：初始化對話並分配會話 ID。
+- `get_integrations`：從已連接的整合中取得應使用的相關整合。
+- `get_integrations_actions`：從該整合工具中取得任務應使用的工具。
+- `execute_integrations_actions`：執行該整合的工具。
+
+---
+
+## 運作方式
+
+### 記憶導入
 
 <img width="12885" height="3048" alt="memory-ingest-diagram" src="https://github.com/user-attachments/assets/c51679de-8260-4bee-bebf-aff32c6b8e13" />
 
-CORE 的資料擷取流程分為四個階段，以捕捉持續變化的情境：
+當你將內容儲存至 CORE 時，會經歷四個階段：
 
-1. **標準化**：將新資訊連結到最近的上下文，將長文件切割成有條理的段落並保持交叉參照，並統一術語，使 CORE 在抽取知識時能處理乾淨、具上下文的輸入，而不是雜亂的文本。
-2. **抽取**：從標準化後的文本中提取意義，識別實體（人物、工具、專案、概念），並將其轉化為帶有上下文、來源及時間的陳述，並建立關聯。例如，「我們用 Next.js 寫了 CORE」會變成：實體（CORE、Next.js）、陳述（CORE 是用 Next.js 開發的）、關係（是用…開發的）。
-3. **解析**：偵測矛盾，追蹤偏好如何演變，並以來源保存多元觀點，而非覆蓋它們，讓記憶反映你的完整歷程，而不僅僅是最新快照。
-4. **圖整合**：將實體、陳述與事件連接成一個時間性的知識圖，將事實連結到其上下文與歷史，讓孤立資料變成代理能實際使用的活知識網絡。
+1. **標準化**：將新資訊連結至最近內容、將文件切分為連貫片段並保留交叉參照
+2. **抽取**：辨識實體（人物、工具、專案）、建立帶有情境與時間的陳述、繪製關係圖
+3. **解析**：偵測矛盾、追蹤偏好變化、保留具來源的多元觀點
+4. **圖整合**：將實體、陳述與事件連結成時間知識圖譜
 
-成果：CORE 不再只是扁平資料庫，而是給你隨著成長與變化而演進的記憶——保留上下文、演化和歸屬，讓代理真正能夠運用。
+範例：「我們用 Next.js 寫了 CORE」會變成：
+
+- 實體：`CORE`、`Next.js`
+- 陳述：`CORE 是用 Next.js 開發的`
+- 關係：`是用...開發的`
 
 ![memory-ingest-eg](https://github.com/user-attachments/assets/1d0a8007-153a-4842-9586-f6f4de43e647)
 
-## CORE 如何從記憶中回憶
+### 記憶召回
+
 
 <img width="10610" height="3454" alt="memory-search-diagram" src="https://github.com/user-attachments/assets/3541893e-f7c9-42b9-8fad-6dabf138dbeb" />
 
-當你向 CORE 提問時，它不只是查找文字——它會深入整個知識圖，尋找最有用的答案。
+當你查詢 CORE 時：
 
-1. **搜尋**：CORE 會同時從多個角度搜尋記憶——關鍵字搜尋尋找精確匹配，語義搜尋尋找即使表述不同也相關的想法，還有圖遍歷以追蹤連結概念間的關係。
-2. **重新排序**：檢索到的結果會重新排序，突顯最相關且多元的結果，確保你不只看到明顯的匹配，還能發現更深層的關聯。
-3. **過濾**：CORE 根據時間、可靠性和關係強度應用智慧過濾，讓最有意義的知識浮現。
-4. **輸出**：你會同時獲得事實（明確陳述）和事件（原始上下文），讓回憶始終根植於脈絡、時間與故事。
+1. **搜尋**：混合方式：關鍵字 + 語意 + 圖譜遍歷
+2. **重排**：呈現最相關且多元的結果
+3. **篩選**：套用時間、可靠性與關聯強度過濾器
+4. **輸出**：回傳事實以及其來源的事件
 
-成果：CORE 不只是回憶事實——它會以正確的脈絡、時間與故事回憶，讓代理能像你記得的方式回應。
+CORE 不僅記得事實——它會連同時間和故事情境一起回憶，使代理人能像你記憶般作出回應。
 
-## 文件
+---
 
-探索我們的文件，發揮 CORE 的最大效益
+## 🛠️ 給代理人開發者
 
-- [基本概念](https://docs.heysol.ai/concepts/memory_graph)
-- [自架設](https://docs.heysol.ai/self-hosting/overview)
-- [連接 Core MCP 與 Claude](https://docs.heysol.ai/providers/claude)
-- [連接 Core MCP 與 Cursor](https://docs.heysol.ai/providers/cursor)
-- [連接 Core MCP 與 Claude Code](https://docs.heysol.ai/providers/claude-code)
-- [連接 Core MCP 與 Codex](https://docs.heysol.ai/providers/codex) 
+正在打造 AI 代理人嗎？CORE 提供記憶基礎設施 + 整合基礎設施，讓你專注於代理人的邏輯。
 
-- [基本概念](https://docs.heysol.ai/overview)
-- [API 參考](https://docs.heysol.ai/api-reference/get-user-profile)
+### 你能獲得什麼
+
+**記憶基礎設施**
+- 具 88.24% LoCoMo 準確率的時序知識圖譜
+- 混合搜尋：語意 + 關鍵字 + 圖譜遍歷
+- 追蹤情境演變及矛盾
+
+**整合基礎設施**
+- 一次連接 GitHub、Linear、Slack、Gmail
+- 你的代理人可取得所有連接應用的 MCP 工具
+- 無需建立 OAuth 流程，免 API 維護
+
+### 專案範例
+
+**[core-cli](https://github.com/RedPlanetHQ/core-cli)** — 一個連接 CORE 以取得記憶並與 Linear、GitHub Issues 同步的任務管理代理人。
+
+**[holo](https://github.com/RedPlanetHQ/holo)** — 將你的 CORE 記憶轉化為帶有聊天功能的個人網站。
+
+### 資源
+
+- [API 參考文件](https://docs.getcore.me/api-reference)
+- [SDK 文件](https://docs.getcore.me)
+- 需要特定整合？[在 GitHub 提出 Issue](https://github.com/RedPlanetHQ/core/issues)
+---
+
+## 🔥 研究亮點
+
+CORE 記憶體在 Locomo 資料集的所有推理任務中取得 **88.24%** 的平均準確率，顯著優於其他記憶體提供者。
+
+<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
+
+| 任務類型 | 說明 |
+|-----------|-------------|
+| 單跳 | 根據單一會話回答 |
+| 多跳 | 整合多個會話資訊 |
+| 開放領域 | 結合使用者資訊與外部知識 |
+| 時序推理 | 時間線索與序列理解 |
+
+
+[檢視基準方法與結果 →](https://github.com/RedPlanetHQ/core-benchmark)
+
+---
+
 
 ## 🔒 安全性
 
-CORE 非常重視安全。我們採用業界標準的安全措施來保護您的資料：
+CASA 第二級認證 — 經第三方稽核，以符合 Google 的 OAuth 要求。
 
-- **資料加密**：所有傳輸中的資料（TLS 1.3）及靜態資料（AES-256）
-- **驗證**：OAuth 2.0 及魔法連結驗證
-- **存取控制**：以工作區為基礎的隔離及角色為基礎的權限
-- **漏洞回報**：請將安全性問題回報至 harshith@poozle.dev
+- 加密：TLS 1.3（傳輸）+ AES-256（靜態）
+- 驗證：OAuth 2.0 與魔法連結
+- 存取控制：以工作區為單位隔離，角色為基礎的權限設定
+- 零信任架構：永不信任，始終驗證
 
-如需詳細安全資訊，請參閱我們的 [安全政策](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)。
+您的資料，您掌控：
+
+- 隨時可編輯與刪除
+- 絕不用於 AI 模型訓練
+- 支援自託管以達完全隔離
+
+詳情請參閱我們的 [安全政策](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)。
+
+漏洞回報：harshith@poozle.dev
+
+## 文件說明
+
+瀏覽我們的文件以充分發揮 CORE 的功能
+
+- [自行架設](https://docs.getcore.me/self-hosting/overview)
+- [基本概念](https://docs.getcore.me/overview)
+- [記憶體圖](https://docs.getcore.me/concepts/memory_graph)
+- [API 參考](https://docs.getcore.me/api-reference/get-user-profile)
 
 ## 🧑‍💻 支援
 
-有疑問或回饋嗎？我們隨時為您服務：
+有任何問題或回饋嗎？我們隨時為您提供協助：
 
 - Discord： [加入 core-support 頻道](https://discord.gg/YGUZcvDjUa)
-- 文件： [docs.heysol.ai](https://docs.heysol.ai)
+- 文件： [docs.getcore.me](https://docs.getcore.me)
 - 電子郵件：manik@poozle.dev
 
-## 使用指南
+## 使用指引
 
-**請儲存：**
+**可儲存：**
 
-- 對話歷史
+- 對話紀錄
 - 使用者偏好設定
-- 任務內容
+- 任務情境
 - 參考資料
 
 **請勿儲存：**
 
 - 敏感資料（PII）
 - 認證資訊
-- 系統紀錄
-- 暫存資料
+- 系統日誌
+- 臨時資料
 
 ## 👥 貢獻者
 
@@ -251,17 +897,8 @@ CORE 非常重視安全。我們採用業界標準的安全措施來保護您的
 
 
 
-
-
-
-
-
-
-
-
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
 
 ---

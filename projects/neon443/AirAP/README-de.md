@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Sprache</summary>
@@ -26,23 +27,24 @@
       </div>
     </div>
   </details>
+
 </div>
 
 <div align="center"> 
     <br/>
     <p>
-        <img src="https://github.com/neon443/AirAP/blob/main/AirAP/Assets.xcassets/AppIcon.appiconset/Icon.png?raw=true" title="cobalt" alt="cobalt logo" width="100" />
+        <img src="https://files.catbox.moe/f4jofb.png" title="icon" alt="icon" width="100" />
     </p>
     <p>
-        benutze dein iPhone als AirPlay-Empfänger
+        nutze dein iPhone als AirPlay-Empfänger
         <br/>
         <a href="https://neon443.github.io">
-            gemacht von neon443
+            erstellt von neon443
         </a>
     </p>
     <p>
         <a href="https://testflight.apple.com/join/8aeqD8Q2">
-            testflight
+            TestFlight
         </a>
     </p>
     <br/>
@@ -58,22 +60,21 @@
 
 <br/>
 
-AirAP ist ein vollständig nativer AirPlay-Server, geschrieben in Swift, für iOS. Im Wesentlichen erlaubt AirAP dir, dein iPhone als AirPlay-Empfänger in iTunes oder auf deinem Mac zu verwenden, was bedeutet, dass du den Ton deines Geräts auf deinem iPhone abspielen kannst.
+AirAP ist ein vollständig nativer AirPlay-Server, geschrieben in Swift, für iOS. Im Wesentlichen ermöglicht AirAP, Ihr iPhone als AirPlay-Empfänger in iTunes oder auf Ihrem Mac zu verwenden, sodass Sie Ihr iPhone nutzen können, um den Sound Ihres Geräts abzuspielen.
 
 ## Was ist AirAP?
 
-Hast du jemals gewünscht, Audio von deinem Mac, Apple TV oder einem anderen iOS-Gerät auf dein iPhone zu streamen? AirAP macht das möglich, indem es einen vollständigen AirPlay-Server implementiert, der nativ auf iOS läuft. Nach der Installation erscheint dein iPhone als verfügbares AirPlay-Ziel im Audio-Bereich der Systemeinstellungen, in der Musik-App oder jeder anderen AirPlay-kompatiblen App.
+Haben Sie jemals gewünscht, Audio von Ihrem Mac, Apple TV oder einem anderen iOS-Gerät auf Ihr iPhone zu streamen? AirAP macht dies möglich, indem es einen vollständigen AirPlay-Server implementiert, der nativ auf iOS läuft. Nach der Installation erscheint Ihr iPhone als verfügbares AirPlay-Ziel im Audio-Bereich der Systemeinstellungen, in der Musik-App oder jeder anderen AirPlay-kompatiblen Anwendung.
 
-Das Konzept mag zunächst rückwärts erscheinen – schließlich sind wir es gewohnt, von unseren iPhones auf andere Geräte zu streamen. Aber es gibt überraschend viele Szenarien, in denen du das Gegenteil möchtest. Vielleicht arbeitest du nachts an deinem Mac und möchtest den Ton über Kopfhörer auf dein iPhone umleiten, um niemanden zu stören (hallo 👋). Vielleicht bist du Entwickler und testest Audio-Anwendungen und musst schnell zwischen verschiedenen Ausgabegeräten wechseln. Oder du möchtest einfach nur einen alten kabelgebundenen Lautsprecher wiederverwenden.
+Das Konzept mag zunächst rückwärts erscheinen – schließlich sind wir es gewohnt, von unseren iPhones auf andere Geräte zu streamen. Aber es gibt überraschend viele Szenarien, in denen man das Gegenteil möchte. Vielleicht arbeiten Sie spät abends an Ihrem Mac und möchten den Ton auf Ihr iPhone mit Kopfhörern umleiten, damit Sie niemanden stören (hi 👋). Vielleicht sind Sie ein Entwickler, der Audio-Anwendungen testet und schnell zwischen verschiedenen Ausgabegeräten wechseln muss. Oder Sie möchten einfach nur diesen alten kabelgebundenen Lautsprecher neu verwenden.
 
 ## Installation von AirAP
 
-Um es auszuprobieren, [öffne diesen TestFlight-Link](https://testflight.apple.com/join/8aeqD8Q2), installiere AirAP und folge den Anweisungen. Nach der Installation starte AirAP einfach und stelle sicher, dass dein iPhone mit demselben WLAN-Netzwerk verbunden ist wie das Gerät, von dem du streamen möchtest. Dein iPhone erscheint automatisch in AirPlay-Gerätelisten und ist bereit, Audio zu empfangen – falls nicht, starte die App neu.
+Um es auszuprobieren, [öffnen Sie diesen TestFlight-Link](https://testflight.apple.com/join/8aeqD8Q2), installieren Sie AirAP und folgen Sie den Anweisungen. Nach der Installation starten Sie einfach AirAP und stellen sicher, dass Ihr iPhone mit demselben WLAN-Netzwerk wie das Gerät verbunden ist, von dem Sie streamen möchten. Ihr iPhone erscheint automatisch in den AirPlay-Gerätelisten und ist bereit, Audio zu empfangen – falls nicht, versuchen Sie, die App neu zu starten.
 
 ## Kompilieren
 
-Stelle sicher, dass du [homebrew](https://brew.sh) hast
-
+Stellen Sie sicher, dass Sie [Homebrew](https://brew.sh) haben
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP
@@ -99,6 +100,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
 
 ---

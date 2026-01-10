@@ -29,198 +29,845 @@
 </div>
 
 <div align="center">
-  <a href="https://core.heysol.ai">
+  <a href="https://getcore.me">
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### CORE: Jouw Persoonlijke Geheugenlaag voor AI-apps
+### CORE: Jouw Digitale Brein - Geheugen + Acties voor AI Tools 
 
 <p align="center">
-    <a href="https://deepwiki.com/RedPlanetHQ/core">
-        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Badge" />
+    <a href="https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==">
+        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="Toevoegen aan Cursor" />
+    </a>
+    <a href="https://railway.com/deploy/core">
+        <img src="https://railway.app/button.svg" width="150px" alt="Implementeer op Railway" />
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/introduction"><b>Documentatie</b></a> •
-    <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
+    <a href="https://heysol.ai">
+        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50" alt="Website" />
+    </a>
+    <a href="https://docs.getcore.me">
+        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-green" alt="Documentatie" />
+    </a>  
+    <a href="https://discord.gg/YGUZcvDjUa">
+        <img src="https://img.shields.io/badge/Discord-community-purple" alt="Discord" />
+    </a>    
 </p>
 </div>
 
-## 🔥 Onderzoek Hoogtepunten
+---
 
-CORE-geheugen behaalt een gemiddelde nauwkeurigheid van **88,24%** op de Locomo-dataset over alle redeneertaken en overtreft daarmee aanzienlijk andere geheugenproviders. Bekijk deze [blog](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/) voor meer informatie.
+Je kritische informatie is verspreid over tools die niet met elkaar communiceren. Je AI-gesprek begint met "laat me wat context geven." Je ervaringen en inzichten zitten nog in je hoofd en je hoofd schaalt niet.
 
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) Single-hop vragen vereisen antwoorden op basis van één sessie; (2) Multi-hop vragen vereisen het synthetiseren van informatie uit meerdere verschillende sessies; (3) Open-domein kennisvragen kunnen worden beantwoord door de informatie van een spreker te combineren met externe kennis zoals gezond verstand of feiten over de wereld; (4) Tijdelijke redeneervragen kunnen worden beantwoord door temporeel redeneren en het vastleggen van tijdsgerelateerde gegevenssignalen binnen het gesprek;
+**CORE onthoudt**. Geen database. Geen zoekvak. Een digitaal brein dat leert wat belangrijk is, verbindt wat gerelateerd is en naar voren haalt wat je nodig hebt.
 
-## Overzicht
+## Voor ontwikkelaars
 
-**Probleem**
+CORE geeft je AI-tools blijvend geheugen en het vermogen om te handelen in de apps die je gebruikt.
 
-Ontwikkelaars verspillen tijd door steeds opnieuw context uit te leggen aan AI-tools. Kom je aan het tokenlimiet bij Claude? Begin opnieuw en alles is weg. Wissel je van ChatGPT/Claude naar Cursor? Leg je context opnieuw uit. Je gesprekken, beslissingen en inzichten verdwijnen tussen sessies. Met elke nieuwe AI-tool nemen de kosten van contextwisselingen toe.
+- Context blijft behouden over Claude Code, Cursor en andere codeagents
+- Voer acties uit in Linear, GitHub, Slack, Gmail, Google Sheets en andere apps die je gebruikt
+- Eén keer verbinden via MCP, werkt overal
+- Open-source en zelf te hosten; jouw data, jouw controle
 
-**Oplossing** - **CORE** (**Contextual Observation & Recall Engine**)
+---
 
-CORE is een open-source, uniforme en persistente geheugenlaag voor al je AI-tools. Je context volgt je van Cursor naar Claude, van ChatGPT naar Claude Code. Eén kennisgrafiek onthoudt wie wat zei, wanneer en waarom. Eén keer verbinden, overal onthouden. Stop met het beheren van context en begin met bouwen.
+## Wat je kunt doen
 
-## 🚀 CORE Zelf-Hosting
-Wil je CORE op je eigen infrastructuur draaien? Zelf-hosting geeft je volledige controle over je data en uitrol.
+### 1. Herhaal jezelf nooit, context stroomt automatisch
 
-**Vereisten**:
+CORE wordt je blijvende geheugenslaag voor codeagents. Vraag elke AI-tool om relevante context op te halen.
+```txt
+Search core memory for architecture decisions on the payment service
+```
+```txt
+What my content guidelines from core to create the blog?
+```
+![core_as_memory](https://github.com/user-attachments/assets/7ac5d3f3-ca36-428d-8e97-3412c398f74b)
 
-- Docker (20.10.0+) en Docker Compose (2.20.0+) geïnstalleerd
-- OpenAI API-sleutel
+---
 
-> **Opmerking over Open-Source modellen:** We hebben OSS-opties zoals Ollama en GPT-modellen getest, maar hun feitenextractie en grafiekkwaliteit waren onvoldoende. We zijn actief op zoek naar alternatieven.
+### 2. Voer acties uit in je apps vanuit Claude/Cursor
 
-### Installatie
+Verbind je apps één keer, voer acties uit vanaf elke locatie.
+
+- Maak/Lees GitHub-, Linear-issues aan
+- Stel een e-mail op/Verstuur/Lees en sla relevante info op in CORE
+- Beheer je agenda, werk spreadsheets bij
+
+
+![actions](https://github.com/user-attachments/assets/60295a77-bdfd-4d57-aff5-d77ecb41e72d)
+
+---
+
+### 3. Pak de draad weer op waar je gebleven was met claude code/cursor
+
+Schakel je na een week terug naar een functie? Word direct weer bijgepraat.
+```txt
+What did we discuss about the checkout flow? Summarize from memory.
+```
+```txt
+Refer to past discussions and remind me where we left off on the API refactor
+```
+![claude-code-in-core](https://github.com/user-attachments/assets/0bd9566b-a8cc-49d9-a3cf-368658906c39)
+
+---
+
+## Wat Maakt CORE Anders
+
+1. **Temporele Contextgrafiek**: CORE slaat niet alleen feiten op — het onthoudt het verhaal. Wanneer dingen gebeurden, hoe je denken evolueerde, wat tot elke beslissing leidde. Jouw voorkeuren, doelen en eerdere keuzes — alles verbonden in een grafiek die volgorde en context begrijpt.
+
+2. **88,24% Recall-nauwkeurigheid**: Getest op de LoCoMo-benchmark. Als je CORE iets vraagt, vindt het wat relevant is. Geen trefwoordmatching, maar echte semantische begrip met multi-hop redeneren.
+
+3. **Jij Bepaalt**: Jouw geheugen, jouw regels. Bewerk wat niet klopt. Verwijder wat niet hoort. Visualiseer hoe jouw kennis is verbonden. CORE is transparant, je ziet precies wat het weet.
+
+4. **Open Source**: Geen black boxes. Geen vendor lock-in. Jouw digitale brein is van jou.
+
+---
+
+## 🚀 Snel Beginnen
+
+Kies jouw pad:
+
+| | **CORE Cloud** | **Zelf-Hosten** |
+|---|---|---|
+| Installatietijd | 5 minuten | 15 minuten |
+| Beste voor | Snel proberen, geen infra | Volledige controle, eigen servers |
+| Vereisten | Alleen een account | Docker, 4GB RAM |
+
+### Cloud
+
+1. **Meld je aan** op [app.getcore.me](https://app.getcore.me)
+2. **Verbind een bron** (Claude, Cursor, of een MCP-compatibele tool)
+3. **Begin met gebruiken** van CORE om acties uit te voeren of informatie over jezelf op te slaan
+
+### Zelf-Hosten
+
+**Snel Deployen**
+
+[![Deploy op Railway](https://railway.app/button.svg)](https://railway.com/deploy/core)
+
+**Of met Docker**
 
 1. Clone de repository:
+
 ```
 git clone https://github.com/RedPlanetHQ/core.git
 cd core
 ```
+
 2. Configureer omgevingsvariabelen in `core/.env`:
+
 ```
 OPENAI_API_KEY=your_openai_api_key
 ```
+
 3. Start de service
+
 ```
 docker-compose up -d
 ```
-Zodra geïmplementeerd, kun je je AI-providers (OpenAI, Anthropic) configureren en beginnen met het bouwen van je geheugen grafiek.
 
-👉 [Bekijk de volledige self-hosting gids](https://docs.heysol.ai/self-hosting/docker)
+Eenmaal geïmplementeerd, kun je je AI-aanbieders (OpenAI, Anthropic) configureren en beginnen met het bouwen van je geheugenkaart.
 
-Opmerking: We hebben open-source modellen zoals Ollama of GPT OSS geprobeerd, maar de feitengeneratie was niet goed. We zoeken nog uit hoe we dit kunnen verbeteren, en zullen dan ook OSS modellen ondersteunen.
-
-## 🚀 CORE Cloud
-**Bouw je uniforme geheugen grafiek in 5 minuten:**
-
-Wil je geen infrastructuur beheren? Met CORE Cloud bouw je direct je persoonlijke geheugensysteem - geen installatie, geen servers, gewoon geheugen dat werkt.
-
-1. **Meld je aan** op [core.heysol.ai](https://core.heysol.ai) en maak een account aan
-2. **Visualiseer je geheugen grafiek** en zie hoe CORE automatisch verbindingen tussen feiten legt
-3. **Test het uit** - vraag "Wat weet je over mij?" in het conversatiegedeelte
-4. Verbind met je tools:
-   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - coderen met context
-   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) - terminal-based coderen met geheugen
-   - [Browserextensie toevoegen](https://docs.heysol.ai/providers/browser-extension) - breng je geheugen naar elke website
-   - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) - voeg automatisch projectcontext toe
-
-## 🧩 Belangrijkste Functies
-
-### 🧠 **Uniform, Draagbaar Geheugen**: 
-Voeg je geheugen toe en haal het op via **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS's Kiro, VS Code en Roo Code** via MCP
-
-![core-claude](https://github.com/user-attachments/assets/56c98288-ee87-4cd0-8b02-860aca1c7f9a)
+👉 [Bekijk de volledige zelf-hosting handleiding](https://docs.getcore.me/self-hosting/docker)
 
 
-### 🕸️ **Temporele + Gerealiseerde Kennisgrafiek**: 
+> Opmerking: We hebben open-source modellen zoals Ollama of GPT OSS geprobeerd, maar het genereren van feiten was niet goed. We proberen nog steeds uit te zoeken hoe we dat kunnen verbeteren en zullen dan ook OSS-modellen ondersteunen.
 
-Onthoud het verhaal achter elk feit—volg wie wat zei, wanneer en waarom met rijke relaties en volledige herkomst, niet alleen platte opslag
+## 🛠️ Installatie
 
-![core-memory-graph](https://github.com/user-attachments/assets/5d1ee659-d519-4624-85d1-e0497cbdd60a)
+### Aanbevolen
+
+<details>
+<summary><b>Installeren in Claude Code CLI</b></summary>
+
+1. Voer dit commando uit in je terminal om CORE te verbinden met Claude Code:
+
+```sh
+claude mcp add --transport http --scope user core-memory https://mcp.getcore.me/api/v1/mcp?source=Claude-Code
+```
+
+2. Typ `/mcp` en open core-memory MCP voor authenticatie
+
+</details>
+
+<details>
+<summary><b>Installeren in Cursor</b></summary>
+
+> Sinds Cursor 1.0 kun je op de onderstaande installatieknop klikken voor directe one-click installatie.
+
+[![Installeer MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==)
+
+OF
+
+1. Ga naar: `Instellingen` -> `Tools & Integraties` -> `Aangepaste MCP toevoegen`
+2. Vul het onderstaande in het `mcp.json` bestand in:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=cursor",
+      "headers": {}
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Installeren in Claude Desktop</b></summary>
+
+1. Kopieer CORE MCP URL:
+
+```
+https://mcp.getcore.me/api/v1/mcp?source=Claude
+```
+
+2. Navigeer naar Instellingen → Connectoren → Klik op Aangepaste connector toevoegen
+3. Klik op "Verbinden" en geef Claude toestemming om toegang te krijgen tot CORE MCP
+
+</details>
+
+### CLI's
+
+<details>
+<summary><b>Installeren in Codex CLI</b></summary>
+
+**Optie 1 (Aanbevolen):** Voeg toe aan je `~/.codex/config.toml` bestand:
+
+```toml
+[features]
+rmcp_client=true
+
+[mcp_servers.memory]
+url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
+```
+  
+Voer dan uit: `codex mcp memory login`
+
+**Optie 2 (Als Optie 1 niet werkt):** Voeg API-sleutelconfiguratie toe:
+
+```toml
+[features]
+rmcp_client=true
+
+[mcp_servers.memory]
+url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
+http_headers = { "Authorization" = "Bearer CORE_API_KEY" }
+```
+
+Haal je API-sleutel op via [app.getcore.me](https://app.getcore.me) → Instellingen → API-sleutel, voer daarna uit: `codex mcp memory login`
+
+</details>
+
+<details>
+<summary><b>Installeren in Gemini CLI</b></summary>
+
+Zie [Gemini CLI Configuratie](https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html) voor meer informatie.
+
+1.  Open het instellingenbestand van Gemini CLI. De locatie is `~/.gemini/settings.json` (waarbij `~` je thuisdirectory is).
+2.  Voeg het volgende toe aan het `mcpServers` object in je `settings.json` bestand:
+
+```json
+{
+  "mcpServers": {
+    "corememory": {
+      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=geminicli",
+      "timeout": 5000
+    }
+  }
+}
+```
+
+Als het `mcpServers` object niet bestaat, maak het dan aan.
+
+</details>
+
+<details>
+<summary><b>Installeren in Copilot CLI</b></summary>
+
+Voeg het volgende toe aan je `~/.copilot/mcp-config.json` bestand:
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-CLI",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+### IDE's
 
 
-### 🌐 **Browserextensie**: 
+<details>
+<summary><b>Installeren in VS Code</b></summary>
 
-Sla gesprekken en inhoud van ChatGPT, Grok, Gemini, Twitter, YouTube, blogposts en elke webpagina direct op in je CORE-geheugen.
+Voer het onderstaande in het `mcp.json`-bestand in:
+
+```json
+{
+  "servers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Vscode",
+      "type": "http",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Installeren in VS Code Insiders</b></summary>
+
+Voeg toe aan je VS Code Insiders MCP-configuratie:
+
+```json
+{
+  "mcp": {
+    "servers": {
+      "core-memory": {
+        "type": "http",
+        "url": "https://mcp.getcore.me/api/v1/mcp?source=VSCode-Insiders",
+        "headers": {
+          "Authorization": "Bearer YOUR_API_KEY"
+        }
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Installeren in Windsurf</b></summary>
+
+Voer het onderstaande in het bestand `mcp_config.json` in:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "serverUrl": "https://mcp.getcore.me/api/v1/mcp/source=windsurf",
+      "headers": {
+        "Authorization": "Bearer <YOUR_API_KEY>"
+      }
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary><b>Installeren in Zed</b></summary>
+
+1. Ga naar `Instellingen` in Agentenpaneel -> `Aangepaste server toevoegen`
+2. Voer onderstaande code in het configuratiebestand in en klik op de knop `Server toevoegen`
 
 
-**Hoe gebruikt u de extensie**
-1. [Download de extensie](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc) vanuit de Chrome Web Store.
-2. Log in op het [CORE dashboard](https://core.heysol.ai)
-   - Navigeer naar Instellingen (linksonder)
-   - Ga naar API Sleutel → Genereer nieuwe sleutel → Noem deze “extensie.”
-3. Open de extensie, plak uw API-sleutel en sla op.
+```json
+{
+  "core-memory": {
+    "command": "npx",
+    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=Zed"]
+  }
+}
+```
 
-https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
+</details>
+
+### Codering Agents
+
+<details>
+<summary><b>Installeer in Amp</b></summary>
+
+Voer dit commando uit in je terminal:
+
+```sh
+amp mcp add core-memory https://mcp.getcore.me/api/v1/mcp?source=amp
+```
+
+</details>
+
+<details>
+<summary><b>Installeren in Augment Code</b></summary>
+
+Voeg toe aan uw `~/.augment/settings.json` bestand:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=augment-code",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Installeren in Cline</b></summary>
+
+1. Open Cline en klik op het hamburgermenu-icoon (☰) om naar het MCP Servers-gedeelte te gaan
+2. Kies het tabblad Remote Servers en klik op de knop Configuratie bewerken
+3. Voeg het volgende toe aan je Cline MCP-configuratie:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Cline",
+      "type": "streamableHttp",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Installeren in Kilo Code</b></summary>
+
+1. Ga naar `Instellingen` → `MCP Servers` → tabblad `Geïnstalleerd` → klik op `Bewerk Globale MCP` om je configuratie te bewerken.
+2. Voeg het volgende toe aan je MCP-configuratiebestand:
+
+```json
+{
+  "core-memory": {
+    "type": "streamable-http",
+    "url": "https://mcp.getcore.me/api/v1/mcp?source=Kilo-Code",
+    "headers": {
+      "Authorization": "Bearer your-token"
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary><b>Installeren in Kiro</b></summary>
+
+Voeg toe in Kiro → MCP Servers:
 
 
-### 💬 **Chatten met Geheugen**: 
-Stel vragen zoals "Wat zijn mijn schrijfvoorkeuren?" en krijg direct inzicht uit uw verbonden kennis
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Kiro",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
 
-![chat-with-memory](https://github.com/user-attachments/assets/d798802f-bd51-4daf-b2b5-46de7d206f66)
+</details>
+
+<details>
+<summary><b>Installeren in Qwen Coder</b></summary>
+
+Zie [Qwen Coder MCP Configuratie](https://qwenlm.github.io/qwen-code-docs/en/tools/mcp-server/#how-to-set-up-your-mcp-server) voor details.
+
+Voeg toe aan `~/.qwen/settings.json`:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=Qwen",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY",
+        "Accept": "application/json, text/event-stream"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Installeren in Roo Code</b></summary>
+
+Voeg toe aan je Roo Code MCP-configuratie:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "type": "streamable-http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Roo-Code",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Installeren in Opencode</b></summary>
+
+Voeg toe aan je Opencode-configuratie:
+
+```json
+{
+  "mcp": {
+    "core-memory": {
+      "type": "remote",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Opencode",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      },
+      "enabled": true
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Installeer in Copilot Coding Agent</b></summary>
+
+Toevoegen aan Repository-instellingen → Copilot → Coding agent → MCP-configuratie:
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-Agent",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary><b>Installeren in Qodo Gen</b></summary>
+
+1. Open het Qodo Gen chatpaneel in VSCode of IntelliJ
+2. Klik op Meer tools verbinden en klik vervolgens op + Nieuwe MCP toevoegen
+3. Voeg de volgende configuratie toe:
 
 
-### ⚡ **Auto-Sync van Apps**:
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Qodo-Gen"
+    }
+  }
+}
+```
 
-Leg automatisch relevante context vast van Linear, Slack, Notion, GitHub en andere gekoppelde apps in uw CORE-geheugen
+</details>
 
-📖 **[Bekijk alle integraties](https://raw.githubusercontent.com/RedPlanetHQ/core/main/./integrations/README.md)** - Volledige lijst van ondersteunde diensten en hun functies
+### Terminals
 
-![core-slack](https://github.com/user-attachments/assets/d5fefe38-221e-4076-8a44-8ed673960f03)
+<details>
+<summary><b>Installeren in Warp</b></summary>
+
+Voeg toe in Instellingen → AI → Beheer MCP-servers:
+
+```json
+{
+  "core": {
+    "url": "https://mcp.getcore.me/api/v1/mcp?source=Warp",
+    "headers": {
+      "Authorization": "Bearer YOUR_API_KEY"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Installeren in Crush</b></summary>
+
+Voeg toe aan je Crush-configuratie:
+
+```json
+{
+  "$schema": "https://charm.land/crush.json",
+  "mcp": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Crush",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+</details>
+
+### Desktop Apps
+
+<details>
+<summary><b>Installeren in ChatGPT</b></summary>
+
+Verbind ChatGPT met het CORE-geheugensysteem via een browserextensie:
+
+1. [Installeer Core Browser Extensie](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
+2. Genereer API-sleutel: Ga naar Instellingen → API-sleutel → Nieuwe sleutel genereren → Noem deze "extensie"
+3. Voeg API-sleutel toe in Core-extensie en klik op Opslaan
+
+</details>
+
+<details>
+<summary><b>Installeren in Gemini</b></summary>
+
+Verbind Gemini met het CORE-geheugensysteem via een browserextensie:
+
+1. [Installeer Core Browser Extensie](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
+2. Genereer API-sleutel: Ga naar Instellingen → API-sleutel → Nieuwe sleutel genereren → Noem deze "extensie"
+3. Voeg API-sleutel toe in Core-extensie en klik op Opslaan
+
+</details>
+
+<details>
+<summary><b>Installeren in Perplexity Desktop</b></summary>
+
+1. Voeg toe in Perplexity → Instellingen → Connectoren → Connector toevoegen → Geavanceerd:
 
 
-### 🔗 **MCP Integratiehub**: 
+```json
+{
+  "core-memory": {
+    "command": "npx",
+    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=perplexity"]
+  }
+}
+```
 
-Verbind Linear, Slack, GitHub, Notion eenmaal met CORE—gebruik daarna al hun tools in Claude, Cursor, of elke MCP-client via één enkele URL
+2. Klik op Opslaan om de wijzigingen toe te passen
+3. Core zal beschikbaar zijn in uw Perplexity-sessies
 
+</details>
 
-![core-linear-claude](https://github.com/user-attachments/assets/7d59d92b-8c56-4745-a7ab-9a3c0341aa32)
+### Ontwikkelhulpmiddelen
 
+<details>
+<summary><b>Installeren in Factory</b></summary>
 
+Voer uit in terminal:
 
-## Hoe CORE geheugen aanmaakt
+```sh
+droid mcp add core https://mcp.getcore.me/api/v1/mcp?source=Factory --type http --header "Authorization: Bearer YOUR_API_KEY"
+```
+
+Typ /mcp binnen droid om servers te beheren en beschikbare tools te bekijken.
+
+</details>
+
+<details>
+<summary><b>Installeren in Rovo Dev CLI</b></summary>
+
+1. Bewerk mcp-configuratie:
+
+```sh
+acli rovodev mcp
+```
+
+2. Voeg toe aan uw Rovo Dev MCP-configuratie:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Rovo-Dev"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Installeren in Trae</b></summary>
+
+Voeg toe aan je Trae MCP-configuratie:
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Trae"
+    }
+  }
+}
+```
+</details>
+
+## 🔨 Beschikbare Tools
+
+CORE Memory MCP biedt de volgende tools die LLMs kunnen gebruiken:
+
+- `memory_search`: Zoek relevante context in CORE Memory.
+- `memory_ingest`: Voeg een episode toe aan CORE Memory.
+- `memory_about_user`: Haalt gebruikerspersona op uit CORE Memory.
+- `initialise_conversation_session`: Initialiseer gesprek en ken sessie-id toe aan een conversatie.
+- `get_integrations`: Haalt op welke relevante integratie gebruikt moet worden uit de verbonden integraties.
+- `get_integrations_actions`: Haalt op welk tool gebruikt moet worden uit de tools van die integraties voor de taak.
+- `execute_integrations_actions`: Voert het tool uit voor die integratie.
+
+---
+
+## Hoe het Werkt
+
+### Geheugen Inname
 
 <img width="12885" height="3048" alt="memory-ingest-diagram" src="https://github.com/user-attachments/assets/c51679de-8260-4bee-bebf-aff32c6b8e13" />
 
-Het CORE-verwerkingsproces bestaat uit vier fasen ontworpen om veranderende context vast te leggen:
+Wanneer je context opslaat in CORE, doorloopt het vier fasen:
 
-1. **Normalisatie**: Verbindt nieuwe informatie met recente context, verdeelt lange documenten in samenhangende stukken met behoud van kruisverwijzingen, en standaardiseert termen zodat CORE bij kennisextractie werkt met schone, gecontextualiseerde input in plaats van rommelige tekst.
-2. **Extractie**: Haalt betekenis uit genormaliseerde tekst door entiteiten te identificeren (personen, tools, projecten, concepten), ze om te zetten in verklaringen met context, bron en tijd, en relaties te koppelen. Bijvoorbeeld: “We schreven CORE in Next.js” wordt: Entiteiten (Core, Next.js), Verklaring (CORE is ontwikkeld met Next.js), en Relatie (is ontwikkeld met).
-3. **Resolutie**: Detecteert tegenstrijdigheden, volgt hoe voorkeuren evolueren, en bewaart meerdere perspectieven met herkomst in plaats van ze te overschrijven zodat het geheugen je volledige traject weerspiegelt, niet alleen de laatste momentopname.
-4. **Grafiekintegratie**: Verbindt entiteiten, uitspraken en episodes tot een temporele kennisgrafiek die feiten koppelt aan hun context en geschiedenis, waardoor geïsoleerde data verandert in een levend web van kennis dat agents echt kunnen gebruiken.
+1. **Normalisatie**: Verbindt nieuwe info met recente context, splitst documenten in samenhangende stukken met behoud van kruisverwijzingen
+2. **Extractie**: Identificeert entiteiten (personen, tools, projecten), creëert uitspraken met context en tijd, brengt relaties in kaart
+3. **Resolutie**: Detecteert tegenstrijdigheden, volgt hoe voorkeuren zich ontwikkelen, bewaart meerdere perspectieven met herkomst
+4. **Grafiekintegratie**: Verbindt entiteiten, uitspraken en episodes in een temporale kennisgrafiek
 
-Het resultaat: In plaats van een vlakke database, geeft CORE je een geheugen dat meegroeit en verandert met jou – met behoud van context, evolutie en eigenaarschap zodat agents er echt gebruik van kunnen maken.
+Voorbeeld: "We schreven CORE in Next.js" wordt:
 
+- Entiteiten: `CORE`, `Next.js`
+- Uitspraak: `CORE is ontwikkeld met Next.js`
+- Relatie: `is ontwikkeld met`
 
 ![memory-ingest-eg](https://github.com/user-attachments/assets/1d0a8007-153a-4842-9586-f6f4de43e647)
 
-## Hoe CORE uit het geheugen ophaalt
+### Geheugen Terughalen
+
 
 <img width="10610" height="3454" alt="memory-search-diagram" src="https://github.com/user-attachments/assets/3541893e-f7c9-42b9-8fad-6dabf138dbeb" />
 
-Wanneer je CORE een vraag stelt, kijkt het niet alleen tekst na – het duikt in je hele kennisgrafiek om de meest bruikbare antwoorden te vinden.
+Wanneer je CORE raadpleegt:
 
-1. **Zoeken**: CORE doorzoekt het geheugen vanuit meerdere invalshoeken tegelijk – trefwoordzoektocht voor exacte overeenkomsten, semantische zoektocht voor gerelateerde ideeën ook als ze anders verwoord zijn, en grafiekdoorloop om links tussen verbonden concepten te volgen.
-2. **Her-rangschikken**: De opgehaalde resultaten worden opnieuw gerangschikt om de meest relevante en diverse te benadrukken, zodat je niet alleen de voor de hand liggende overeenkomsten ziet maar ook diepere connecties.
-3. **Filteren**: CORE past slimme filters toe op basis van tijd, betrouwbaarheid en sterkte van relaties, zodat alleen de meest betekenisvolle kennis naar boven komt.
-4. **Uitvoer**: Je krijgt zowel feiten (duidelijke uitspraken) als episodes (de oorspronkelijke context waaruit ze komen), zodat het geheugen altijd is verankerd in context, tijd en verhaal.
+1. **Zoeken**: Hybride aanpak: trefwoord + semantisch + graf doorzoeken
+2. **Herindelen**: Toont de meest relevante en diverse resultaten
+3. **Filteren**: Past filters toe op tijd, betrouwbaarheid en relatie sterkte
+4. **Uitvoer**: Geeft feiten EN de episodes waaruit ze afkomstig zijn terug
 
-Het resultaat: CORE haalt niet alleen feiten op – het haalt ze op in de juiste context, tijd en verhaal, zodat agents kunnen reageren zoals jij het zou herinneren.
+CORE haalt niet alleen feiten op — het haalt ze op in context, met tijd en verhaal, zodat agenten reageren zoals jij je zou herinneren.
+
+---
+
+## 🛠️ Voor Agent Bouwers
+
+AI-agenten bouwen? CORE biedt je geheugeninfrastructuur + integratie-infrastructuur zodat jij je kunt richten op de logica van je agent.
+
+### Wat Je Krijgt
+
+**Geheugeninfrastructuur**
+- Temporele kennisgrafiek met 88,24% LoCoMo-nauwkeurigheid
+- Hybride zoekfunctie: semantisch + trefwoord + graf doorzoeken
+- Volgt contextontwikkeling en tegenstrijdigheden
+
+**Integratie-infrastructuur**
+- Koppel GitHub, Linear, Slack, Gmail één keer
+- Je agent krijgt MCP-tools voor alle verbonden apps
+- Geen OAuth-flows om te bouwen, geen API-onderhoud
+
+### Voorbeeldprojecten
+
+**[core-cli](https://github.com/RedPlanetHQ/core-cli)** — Een taakbeheeragent die verbinding maakt met CORE voor geheugen en synchroniseert met Linear, GitHub Issues.
+
+**[holo](https://github.com/RedPlanetHQ/holo)** — Maak van je CORE-geheugen een persoonlijke website met chat.
+
+### Bronnen
+
+- [API Referentie](https://docs.getcore.me/api-reference)
+- [SDK Documentatie](https://docs.getcore.me)
+- Specifieke integratie nodig? [Open een GitHub-issue](https://github.com/RedPlanetHQ/core/issues)
+
+---
+
+## 🔥 Onderzoekshoogtepunten
+
+CORE-geheugen behaalt een gemiddelde nauwkeurigheid van **88,24%** op de Locomo-dataset over alle redeneertaken en presteert daarmee aanzienlijk beter dan andere geheugenproviders.
+
+<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
+
+| Taaktype      | Beschrijving                                  |
+|---------------|-----------------------------------------------|
+| Single-hop    | Antwoorden op basis van één sessie            |
+| Multi-hop     | Informatie synthetiseren uit meerdere sessies |
+| Open-domein   | Gebruikersinfo combineren met externe kennis  |
+| Temporeel redeneren | Tijdgerelateerde aanwijzingen en volgorde-inzicht |
+
+
+[Bekijk benchmarkmethodologie en resultaten →](https://github.com/RedPlanetHQ/core-benchmark)
+
+---
+
+
+## 🔒 Beveiliging
+
+CASA Tier 2 Gecertificeerd — Onafhankelijk geaudit om te voldoen aan Google's OAuth-eisen.
+
+- Versleuteling: TLS 1.3 (overdracht) + AES-256 (rust)
+- Authenticatie: OAuth 2.0 en magic link
+- Toegangscontrole: Werkruimte-gebaseerde isolatie, rolgebaseerde rechten
+- Zero-trust architectuur: Nooit vertrouwen, altijd verifiëren
+
+Uw data, uw controle:
+
+- Altijd bewerken en verwijderen
+- Nooit gebruikt voor AI-modeltraining
+- Zelf-hosting optie voor volledige isolatie
+
+Voor gedetailleerde beveiligingsinformatie, zie ons [Beveiligingsbeleid](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
+
+Kwetsbaarheden melden: harshith@poozle.dev
 
 ## Documentatie
 
-Bekijk onze documentatie om het meeste uit CORE te halen
+Bekijk onze documentatie om het maximale uit CORE te halen
 
-- [Basisconcepten](https://docs.heysol.ai/concepts/memory_graph)
-- [Zelf hosten](https://docs.heysol.ai/self-hosting/overview)
-- [Core MCP verbinden met Claude](https://docs.heysol.ai/providers/claude)
-- [Core MCP verbinden met Cursor](https://docs.heysol.ai/providers/cursor)
-- [Core MCP verbinden met Claude Code](https://docs.heysol.ai/providers/claude-code)
-- [Core MCP verbinden met Codex](https://docs.heysol.ai/providers/codex) 
-
-- [Basisconcepten](https://docs.heysol.ai/overview)
-- [API Referentie](https://docs.heysol.ai/api-reference/get-user-profile)
-
-## 🔒 Veiligheid
-
-CORE neemt veiligheid serieus. We hanteren industriestandaard beveiligingspraktijken om je gegevens te beschermen:
-- **Gegevensversleuteling**: Alle gegevens tijdens transport (TLS 1.3) en in rust (AES-256)
-- **Authenticatie**: OAuth 2.0 en magische link-authenticatie
-- **Toegangscontrole**: Werkruimtegebaseerde isolatie en rolgebaseerde permissies
-- **Kwetsbaarheidsrapportage**: Meld beveiligingsproblemen aan harshith@poozle.dev
-
-Voor gedetailleerde informatie over beveiliging, zie ons [Beveiligingsbeleid](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md).
+- [Zelf Hosting](https://docs.getcore.me/self-hosting/overview)
+- [Basisconcepten](https://docs.getcore.me/overview)
+- [Geheugengrafiek](https://docs.getcore.me/concepts/memory_graph)
+- [API Referentie](https://docs.getcore.me/api-reference/get-user-profile)
 
 ## 🧑‍💻 Ondersteuning
 
-Heb je vragen of feedback? Wij helpen graag:
+Vragen of feedback? We helpen graag:
 
 - Discord: [Word lid van het core-support kanaal](https://discord.gg/YGUZcvDjUa)
-- Documentatie: [docs.heysol.ai](https://docs.heysol.ai)
+- Documentatie: [docs.getcore.me](https://docs.getcore.me)
 - E-mail: manik@poozle.dev
 
 ## Gebruiksrichtlijnen
@@ -228,7 +875,7 @@ Heb je vragen of feedback? Wij helpen graag:
 **Opslaan:**
 
 - Gespreksgeschiedenis
-- Gebruikersvoorkeuren
+- Voorkeuren van de gebruiker
 - Taakcontext
 - Referentiemateriaal
 
@@ -237,7 +884,7 @@ Heb je vragen of feedback? Wij helpen graag:
 - Gevoelige gegevens (PII)
 - Inloggegevens
 - Systeemlogs
-- Tijdelijke data
+- Tijdelijke gegevens
 
 ## 👥 Bijdragers
 
@@ -250,18 +897,8 @@ Heb je vragen of feedback? Wij helpen graag:
 
 
 
-
-
-
-
-
-
-
-
-
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
 
 ---

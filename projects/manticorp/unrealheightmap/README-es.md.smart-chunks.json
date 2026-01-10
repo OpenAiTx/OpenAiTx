@@ -1,0 +1,1169 @@
+[
+  {
+    "Id": 1,
+    "Content": "# 16/32 Bit Grayscale PNG/EXR Heightmap Generator\n\nA browser-based tool for generating high-quality 16-bit grayscale PNG heightmaps or 16/32-bit EXR heightmaps from real-world terrain data.\n\nPerfect for creating realistic landscapes in Unreal Engine 5 and other game engines or 3D software, such as Terrain3d, Godot4 and Blender.\n\n🌐 **Live Website:** [https://manticorp.github.io/unrealheightmap/](https://manticorp.github.io/unrealheightmap/)\n\n[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L212G6M7)\n\n## ⚠️ Important Notice\n\nWe have started hitting the free tier limits from some map services, so the site *may not work* until we get some funding to up these limits. If you find this tool useful, please consider supporting the project!\n\n## ✨ Features\n\n- **High-Quality 16/32-bit Output** - Generate heightmaps with 65,536/4,294,967,296 levels of detail (vs only 256 in 8-bit)\n- **Real-World Terrain Data** - Uses high-quality elevation data from [Mapzen's global elevation service](https://www.mapzen.com/blog/elevation/)\n- **Interactive Map Interface** - Visual selection of terrain areas using an intuitive map interface\n- **Multiple Normalisation Modes** - Choose between None, Regular, or Smart normalisation to optimize your heightmap data\n- **Flexible Output Sizes** - Preset sizes for Unreal Engine or custom dimensions up to 8129×8129 pixels\n- **Browser-Based** - No installation required, works entirely in your web browser\n- **Real-Time Preview** - See the area you're exporting with an overlay on the map\n- **Copy & Paste Coordinates** - Support for multiple coordinate formats including DMS and decimal degrees\n\n## 🎯 Use Cases\n\n- Creating realistic terrain for Unreal Engine 5/Blender/Terrain3D landscapes\n- Game development with accurate real-world topography\n- 3D modeling and visualization projects\n- Geographic information system (GIS) applications\n- Educational and scientific visualization\n\n## 🚀 Quick Start\n\n1. Visit [https://manticorp.github.io/unrealheightmap/](https://manticorp.github.io/unrealheightmap/)\n2. Use the map to navigate to your desired location or enter coordinates manually\n3. Adjust the output zoom and size to define your export area (shown as an orange rectangle)\n4. Select a normalisation mode appropriate for your use case\n5. Click \"Generate\" to create and download your heightmap",
+    "ContentSha": "vTYRC0bFui+8+pMXyUYloA6eHig8Lcmsw/WqGzCPNxc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Generador de Mapas de Altura PNG/EXR en Escala de Grises de 16/32 Bits\n\nUna herramienta basada en navegador para generar mapas de altura PNG en escala de grises de 16 bits o mapas de altura EXR de 16/32 bits a partir de datos reales de terreno.\n\nPerfecto para crear paisajes realistas en Unreal Engine 5 y otros motores de juego o software 3D, como Terrain3d, Godot4 y Blender.\n\n🌐 **Sitio Web en Vivo:** [https://manticorp.github.io/unrealheightmap/](https://manticorp.github.io/unrealheightmap/)\n\n[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L212G6M7)\n\n## ⚠️ Aviso Importante\n\nHemos comenzado a alcanzar los límites del nivel gratuito de algunos servicios de mapas, por lo que el sitio *puede no funcionar* hasta que obtengamos financiamiento para aumentar estos límites. ¡Si encuentras útil esta herramienta, considera apoyar el proyecto!\n\n## ✨ Características\n\n- **Salida de Alta Calidad de 16/32 bits** - Genera mapas de altura con 65,536/4,294,967,296 niveles de detalle (vs solo 256 en 8 bits)\n- **Datos Reales de Terreno** - Usa datos de elevación de alta calidad del [servicio global de elevación de Mapzen](https://www.mapzen.com/blog/elevation/)\n- **Interfaz de Mapa Interactiva** - Selección visual de áreas de terreno usando una interfaz de mapa intuitiva\n- **Múltiples Modos de Normalización** - Elige entre Ninguno, Regular o Normalización Inteligente para optimizar tus datos de mapas de altura\n- **Tamaños de Salida Flexibles** - Tamaños predefinidos para Unreal Engine o dimensiones personalizadas hasta 8129×8129 píxeles\n- **Basado en Navegador** - No requiere instalación, funciona completamente en tu navegador web\n- **Vista Previa en Tiempo Real** - Ve el área que estás exportando con una superposición en el mapa\n- **Copiar y Pegar Coordenadas** - Soporte para múltiples formatos de coordenadas incluyendo DMS y grados decimales\n\n## 🎯 Casos de Uso\n\n- Crear terrenos realistas para paisajes en Unreal Engine 5/Blender/Terrain3D\n- Desarrollo de juegos con topografía real precisa\n- Proyectos de modelado 3D y visualización\n- Aplicaciones de sistemas de información geográfica (SIG)\n- Visualización educativa y científica\n\n## 🚀 Inicio Rápido\n\n1. Visita [https://manticorp.github.io/unrealheightmap/](https://manticorp.github.io/unrealheightmap/)\n2. Usa el mapa para navegar a la ubicación deseada o ingresa las coordenadas manualmente\n3. Ajusta el zoom y tamaño de salida para definir tu área de exportación (mostrada como un rectángulo naranja)\n4. Selecciona un modo de normalización apropiado para tu caso de uso\n5. Haz clic en \"Generar\" para crear y descargar tu mapa de altura",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "4dpl4OEj/OYbYGxgi37LGij3u7gD1jtGPtPcTIUtF5A=",
+        "originContent": "# 16/32 Bit Grayscale PNG/EXR Heightmap Generator",
+        "translatedContent": "# Generador de Mapas de Altura PNG/EXR en Escala de Grises de 16/32 Bits"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "xlbaBlxguObDg0ByX856E6eUNGHkqDAN9e4eQX/b/ns=",
+        "originContent": "A browser-based tool for generating high-quality 16-bit grayscale PNG heightmaps or 16/32-bit EXR heightmaps from real-world terrain data.",
+        "translatedContent": "Una herramienta basada en navegador para generar mapas de altura PNG en escala de grises de 16 bits o mapas de altura EXR de 16/32 bits a partir de datos reales de terreno."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "1RQ4NOspOy5ElNXKqJZAiZ2NxpS8ajNaKIugymNnDt8=",
+        "originContent": "Perfect for creating realistic landscapes in Unreal Engine 5 and other game engines or 3D software, such as Terrain3d, Godot4 and Blender.",
+        "translatedContent": "Perfecto para crear paisajes realistas en Unreal Engine 5 y otros motores de juego o software 3D, como Terrain3d, Godot4 y Blender."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "cQbDsBR9/7f9ApBlr2p5Bh+X02B4yRQ5CRq5eFe33qA=",
+        "originContent": "🌐 **Live Website:** [https://manticorp.github.io/unrealheightmap/](https://manticorp.github.io/unrealheightmap/)",
+        "translatedContent": "🌐 **Sitio Web en Vivo:** [https://manticorp.github.io/unrealheightmap/](https://manticorp.github.io/unrealheightmap/)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "Xkm3tyNy1grniDPWaELdYTODYlLiCcgmwwtrFJackpk=",
+        "originContent": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L212G6M7)",
+        "translatedContent": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L212G6M7)"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "XL4I9MOFb9DRbhT6jT2fvm1WlI5KQByuVs102agzwE0=",
+        "originContent": "## ⚠️ Important Notice",
+        "translatedContent": "## ⚠️ Aviso Importante"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "L413srpVZ/Yz0n0LBpvSy+D13UIYvzNaxFuJJ9Hzj+M=",
+        "originContent": "We have started hitting the free tier limits from some map services, so the site *may not work* until we get some funding to up these limits. If you find this tool useful, please consider supporting the project!",
+        "translatedContent": "Hemos comenzado a alcanzar los límites del nivel gratuito de algunos servicios de mapas, por lo que el sitio *puede no funcionar* hasta que obtengamos financiamiento para aumentar estos límites. ¡Si encuentras útil esta herramienta, considera apoyar el proyecto!"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": "## ✨ Características"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "t0FqEMMmJBUCAnZo1y/xiZx4fUuLMAtItcjGxP3pjDs=",
+        "originContent": "- **High-Quality 16/32-bit Output** - Generate heightmaps with 65,536/4,294,967,296 levels of detail (vs only 256 in 8-bit)",
+        "translatedContent": "- **Salida de Alta Calidad de 16/32 bits** - Genera mapas de altura con 65,536/4,294,967,296 niveles de detalle (vs solo 256 en 8 bits)"
+      },
+      {
+        "row": 18,
+        "rowsha": "Mnb/PLHJESzVrKiYAhAutT6Jp1UsjsV6c8u/B8u8FoM=",
+        "originContent": "- **Real-World Terrain Data** - Uses high-quality elevation data from [Mapzen's global elevation service](https://www.mapzen.com/blog/elevation/)",
+        "translatedContent": "- **Datos Reales de Terreno** - Usa datos de elevación de alta calidad del [servicio global de elevación de Mapzen](https://www.mapzen.com/blog/elevation/)"
+      },
+      {
+        "row": 19,
+        "rowsha": "RLL77xy74Pt4jzz2gyULv4ltdHHzpWmaidn0AYmwXNs=",
+        "originContent": "- **Interactive Map Interface** - Visual selection of terrain areas using an intuitive map interface",
+        "translatedContent": "- **Interfaz de Mapa Interactiva** - Selección visual de áreas de terreno usando una interfaz de mapa intuitiva"
+      },
+      {
+        "row": 20,
+        "rowsha": "MwfPhY+Q14gzK1twuDJzNYcM/fNz0YTjrNmsstziISE=",
+        "originContent": "- **Multiple Normalisation Modes** - Choose between None, Regular, or Smart normalisation to optimize your heightmap data",
+        "translatedContent": "- **Múltiples Modos de Normalización** - Elige entre Ninguno, Regular o Normalización Inteligente para optimizar tus datos de mapas de altura"
+      },
+      {
+        "row": 21,
+        "rowsha": "W+eYum8vA67Kp9rdGn27aSo2CJ76YINcbRvDsVquN/U=",
+        "originContent": "- **Flexible Output Sizes** - Preset sizes for Unreal Engine or custom dimensions up to 8129×8129 pixels",
+        "translatedContent": "- **Tamaños de Salida Flexibles** - Tamaños predefinidos para Unreal Engine o dimensiones personalizadas hasta 8129×8129 píxeles"
+      },
+      {
+        "row": 22,
+        "rowsha": "bqx5hiPvGDztPVY7hUiUlIcKJf9YzMZTQIAU3ZV8FJc=",
+        "originContent": "- **Browser-Based** - No installation required, works entirely in your web browser",
+        "translatedContent": "- **Basado en Navegador** - No requiere instalación, funciona completamente en tu navegador web"
+      },
+      {
+        "row": 23,
+        "rowsha": "yxpWWwJy+Ag/IedUVDMhQEYTFLstCpR4Nppjks4wMgU=",
+        "originContent": "- **Real-Time Preview** - See the area you're exporting with an overlay on the map",
+        "translatedContent": "- **Vista Previa en Tiempo Real** - Ve el área que estás exportando con una superposición en el mapa"
+      },
+      {
+        "row": 24,
+        "rowsha": "NRdLlu/lOBP5GoFWRtP2NtW7P0HyCw39kGy5ShYZXtA=",
+        "originContent": "- **Copy & Paste Coordinates** - Support for multiple coordinate formats including DMS and decimal degrees",
+        "translatedContent": "- **Copiar y Pegar Coordenadas** - Soporte para múltiples formatos de coordenadas incluyendo DMS y grados decimales"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "1LfqAC6OTw7OuZobq+bokVPSdb7jGWrc2E2vjLwn94I=",
+        "originContent": "## 🎯 Use Cases",
+        "translatedContent": "## 🎯 Casos de Uso"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "YWdMls+InhRBAnD+QdSb8iMAPOjHeAbRaDajG9lIstk=",
+        "originContent": "- Creating realistic terrain for Unreal Engine 5/Blender/Terrain3D landscapes",
+        "translatedContent": "- Crear terrenos realistas para paisajes en Unreal Engine 5/Blender/Terrain3D"
+      },
+      {
+        "row": 29,
+        "rowsha": "eQmcTrEdYwF41kMychTowT1y7bKZ57muYY7Xkl64qqQ=",
+        "originContent": "- Game development with accurate real-world topography",
+        "translatedContent": "- Desarrollo de juegos con topografía real precisa"
+      },
+      {
+        "row": 30,
+        "rowsha": "YHjflj1x2E+zWJ5KLr5LMwL1OkeIZssy/Rp1rR7p0ec=",
+        "originContent": "- 3D modeling and visualization projects",
+        "translatedContent": "- Proyectos de modelado 3D y visualización"
+      },
+      {
+        "row": 31,
+        "rowsha": "wijDyHdqJalaGkrLRZfsiFLqw037EHoYUN6FJsattJY=",
+        "originContent": "- Geographic information system (GIS) applications",
+        "translatedContent": "- Aplicaciones de sistemas de información geográfica (SIG)"
+      },
+      {
+        "row": 32,
+        "rowsha": "VolnT9r85nJSR0eghrKLq5pA1opAHtnk8aEjDrp0ePs=",
+        "originContent": "- Educational and scientific visualization",
+        "translatedContent": "- Visualización educativa y científica"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+        "originContent": "## 🚀 Quick Start",
+        "translatedContent": "## 🚀 Inicio Rápido"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "ZhG2uT4+CX6k6jZhCwY++n771j0Pfem0YU6BZ8ApJ/I=",
+        "originContent": "1. Visit [https://manticorp.github.io/unrealheightmap/](https://manticorp.github.io/unrealheightmap/)",
+        "translatedContent": "1. Visita [https://manticorp.github.io/unrealheightmap/](https://manticorp.github.io/unrealheightmap/)"
+      },
+      {
+        "row": 37,
+        "rowsha": "EM2gMQNnfJ3RosqTyLh9dGfikrgjZ3ctRu30Q0rF6T8=",
+        "originContent": "2. Use the map to navigate to your desired location or enter coordinates manually",
+        "translatedContent": "2. Usa el mapa para navegar a la ubicación deseada o ingresa las coordenadas manualmente"
+      },
+      {
+        "row": 38,
+        "rowsha": "076qjLVdYzu0dJQy3XFCcIKuP/tz6tnYjnCgS3Iv8bA=",
+        "originContent": "3. Adjust the output zoom and size to define your export area (shown as an orange rectangle)",
+        "translatedContent": "3. Ajusta el zoom y tamaño de salida para definir tu área de exportación (mostrada como un rectángulo naranja)"
+      },
+      {
+        "row": 39,
+        "rowsha": "pVcAYx3D+YjsbldpV9sy68n9BScmjTn7c+FSvMhzZ3A=",
+        "originContent": "4. Select a normalisation mode appropriate for your use case",
+        "translatedContent": "4. Selecciona un modo de normalización apropiado para tu caso de uso"
+      },
+      {
+        "row": 40,
+        "rowsha": "t5FgZ0xBofXAkqak1YLJNFjbRT343X8VrYQi5g7pR5Q=",
+        "originContent": "5. Click \"Generate\" to create and download your heightmap",
+        "translatedContent": "5. Haz clic en \"Generar\" para crear y descargar tu mapa de altura"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\nFor detailed instructions, visit the [Documentation](https://manticorp.github.io/unrealheightmap/instructions.html) page.\n\n## 📖 Documentation\n\n- **[Instructions](https://manticorp.github.io/unrealheightmap/instructions.html)** - Comprehensive guide on how to use the tool\n- **[Examples](https://manticorp.github.io/unrealheightmap/examples.html)** - Gallery of heightmaps created with the tool\n- **[License Info](https://manticorp.github.io/unrealheightmap/rights.html)** - Information about data sources and licensing\n\n## 🛠️ Technology Stack\n\n- **TypeScript** - Type-safe application code\n- **Leaflet** - Interactive map interface\n- **jQuery** - DOM manipulation and UI interactions\n- **UPNG.js** - PNG encoding/decoding\n- **Pako** - Data compression\n- **Webpack** - Module bundling\n- **Bulma** - CSS framework\n- **SASS** - CSS preprocessing\n\n## 💻 Development Setup\n\n### Prerequisites\n\n- Node.js (v14 or higher recommended)\n- npm (comes with Node.js)\n\n### Installation\n",
+    "ContentSha": "ZWCOteYlaiUXeu0Cdzcr4JhCOK4Y5kgRVxqb8UIdLCQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Para instrucciones detalladas, visite la página de [Documentación](https://manticorp.github.io/unrealheightmap/instructions.html).\n\n## 📖 Documentación\n\n- **[Instrucciones](https://manticorp.github.io/unrealheightmap/instructions.html)** - Guía completa sobre cómo usar la herramienta\n- **[Ejemplos](https://manticorp.github.io/unrealheightmap/examples.html)** - Galería de mapas de altura creados con la herramienta\n- **[Información de Licencia](https://manticorp.github.io/unrealheightmap/rights.html)** - Información sobre fuentes de datos y licencias\n\n## 🛠️ Tecnología Utilizada\n\n- **TypeScript** - Código de aplicación con tipado seguro\n- **Leaflet** - Interfaz de mapa interactivo\n- **jQuery** - Manipulación del DOM e interacciones de UI\n- **UPNG.js** - Codificación/decodificación PNG\n- **Pako** - Compresión de datos\n- **Webpack** - Empaquetado de módulos\n- **Bulma** - Framework CSS\n- **SASS** - Preprocesamiento CSS\n\n## 💻 Configuración para Desarrollo\n\n### Requisitos Previos\n\n- Node.js (v14 o superior recomendado)\n- npm (incluido con Node.js)\n\n### Instalación\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Para instrucciones detalladas, visite la página de [Documentación](https://manticorp.github.io/unrealheightmap/instructions.html)."
+      },
+      {
+        "row": 2,
+        "rowsha": "F0BuRmAuT3ZJTyLvjFvxemm4fDskIVFyyPlqCc4pxaM=",
+        "originContent": "For detailed instructions, visit the [Documentation](https://manticorp.github.io/unrealheightmap/instructions.html) page.",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 📖 Documentación"
+      },
+      {
+        "row": 4,
+        "rowsha": "SoE0pvlABUY6UusrLcAgNz4PkoTle0JWWhESnRMZ7Es=",
+        "originContent": "## 📖 Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **[Instrucciones](https://manticorp.github.io/unrealheightmap/instructions.html)** - Guía completa sobre cómo usar la herramienta"
+      },
+      {
+        "row": 6,
+        "rowsha": "PTYS3NPKxxlOiKbTtHd/HNkA7QIaLEm1RiuEMNNoGK4=",
+        "originContent": "- **[Instructions](https://manticorp.github.io/unrealheightmap/instructions.html)** - Comprehensive guide on how to use the tool",
+        "translatedContent": "- **[Ejemplos](https://manticorp.github.io/unrealheightmap/examples.html)** - Galería de mapas de altura creados con la herramienta"
+      },
+      {
+        "row": 7,
+        "rowsha": "IGPLCuH4z99z4ysqrDSWQtwj+9rLgcfrECP/eC7y35E=",
+        "originContent": "- **[Examples](https://manticorp.github.io/unrealheightmap/examples.html)** - Gallery of heightmaps created with the tool",
+        "translatedContent": "- **[Información de Licencia](https://manticorp.github.io/unrealheightmap/rights.html)** - Información sobre fuentes de datos y licencias"
+      },
+      {
+        "row": 8,
+        "rowsha": "rkY45pAddcad4Jt/lNNMVRs3EIBv2THyiXE8UwD7Ero=",
+        "originContent": "- **[License Info](https://manticorp.github.io/unrealheightmap/rights.html)** - Information about data sources and licensing",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 🛠️ Tecnología Utilizada"
+      },
+      {
+        "row": 10,
+        "rowsha": "767PLQn8vfb5b/EWVsUnisVWaK0QkmG5ocvMAVnr454=",
+        "originContent": "## 🛠️ Technology Stack",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- **TypeScript** - Código de aplicación con tipado seguro"
+      },
+      {
+        "row": 12,
+        "rowsha": "ujlwghUSQh/UnJEOseja6yrnjSUifWNOXEq6wKyJMAY=",
+        "originContent": "- **TypeScript** - Type-safe application code",
+        "translatedContent": "- **Leaflet** - Interfaz de mapa interactivo"
+      },
+      {
+        "row": 13,
+        "rowsha": "Kt95Y+FYSjzvpMm7dM1iU/DZ/h3tle7UzlnUJq5xaMQ=",
+        "originContent": "- **Leaflet** - Interactive map interface",
+        "translatedContent": "- **jQuery** - Manipulación del DOM e interacciones de UI"
+      },
+      {
+        "row": 14,
+        "rowsha": "0mKoI3G+exPWpL5trhKXOhnUNE1Da5eYYmMdcVGjRGk=",
+        "originContent": "- **jQuery** - DOM manipulation and UI interactions",
+        "translatedContent": "- **UPNG.js** - Codificación/decodificación PNG"
+      },
+      {
+        "row": 15,
+        "rowsha": "Xu/YM/U5xEG/8DmD2GXmuRWTP8s5yXolsytqcXgcJiA=",
+        "originContent": "- **UPNG.js** - PNG encoding/decoding",
+        "translatedContent": "- **Pako** - Compresión de datos"
+      },
+      {
+        "row": 16,
+        "rowsha": "wYIhZNobr9C7nbER5ZmLiEdOCxMPgQWoYD5XFwadmfc=",
+        "originContent": "- **Pako** - Data compression",
+        "translatedContent": "- **Webpack** - Empaquetado de módulos"
+      },
+      {
+        "row": 17,
+        "rowsha": "B6QRpiLkzUEgNrbedtHdRdTqCmgIrW1SHLWTqPetPN0=",
+        "originContent": "- **Webpack** - Module bundling",
+        "translatedContent": "- **Bulma** - Framework CSS"
+      },
+      {
+        "row": 18,
+        "rowsha": "QcgPihUAGjKADBYic+5FdPCOateXgeOGrQtApNLkF+Q=",
+        "originContent": "- **Bulma** - CSS framework",
+        "translatedContent": "- **SASS** - Preprocesamiento CSS"
+      },
+      {
+        "row": 19,
+        "rowsha": "7WJ0cmhItVWn3o5VLX0EEzjJEAmelurtL0U4f1rWkUU=",
+        "originContent": "- **SASS** - CSS preprocessing",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 💻 Configuración para Desarrollo"
+      },
+      {
+        "row": 21,
+        "rowsha": "Qa2smtaqmxTjnR8QUzJzEwAdf/H4pubvzn8BsN4qcPM=",
+        "originContent": "## 💻 Development Setup",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Requisitos Previos"
+      },
+      {
+        "row": 23,
+        "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+        "originContent": "### Prerequisites",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Node.js (v14 o superior recomendado)"
+      },
+      {
+        "row": 25,
+        "rowsha": "Rl9BUZvpECRqun+unoxekGAh9OhyumKQZsYF5LwsBhE=",
+        "originContent": "- Node.js (v14 or higher recommended)",
+        "translatedContent": "- npm (incluido con Node.js)"
+      },
+      {
+        "row": 26,
+        "rowsha": "WqxVgxWRyIcdmbR2oqpCHqURiERW9TTkKrph+muGaBM=",
+        "originContent": "- npm (comes with Node.js)",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Instalación"
+      },
+      {
+        "row": 28,
+        "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+        "originContent": "### Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\n# Clone the repository\ngit clone https://github.com/manticorp/unrealheightmap.git\ncd unrealheightmap\n\n# Install dependencies\nnpm install\n```",
+    "ContentSha": "piN0JmOGN75zgCmKJAe8C8SQFVS9QBqqrQ/RsI73w8c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Clone the repository\ngit clone https://github.com/manticorp/unrealheightmap.git\ncd unrealheightmap\n\n# Install dependencies\nnpm install\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "EJ1kGcOyM89S1RwOEHSj/NB/bjY/T7n0DRgAblC5zSQ=",
+        "originContent": "# Clone the repository",
+        "translatedContent": "# Clone the repository"
+      },
+      {
+        "row": 3,
+        "rowsha": "mSI6GAHj6YfN0tWjzXZRuOwE//cNGrBe12LlZIY7XJ4=",
+        "originContent": "git clone https://github.com/manticorp/unrealheightmap.git",
+        "translatedContent": "git clone https://github.com/manticorp/unrealheightmap.git"
+      },
+      {
+        "row": 4,
+        "rowsha": "s2oRSaqmXBn5kKfe1VxgZOXyTd6CY59+kxuNunO9fdY=",
+        "originContent": "cd unrealheightmap",
+        "translatedContent": "cd unrealheightmap"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "eZl+L3vwMSfnhJPApyjgp5MAN3lox2CikfYeIVqDi7M=",
+        "originContent": "# Install dependencies",
+        "translatedContent": "# Install dependencies"
+      },
+      {
+        "row": 7,
+        "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+        "originContent": "npm install",
+        "translatedContent": "npm install"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n### Build Commands\n",
+    "ContentSha": "4DwS0fjUxwVI/SW2UrWLSSOoMSrnnegnWlodVOkQxXA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Comandos de compilación\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Comandos de compilación"
+      },
+      {
+        "row": 2,
+        "rowsha": "sdaWi78731ZsRFl9JDtIuZjzyyZg/WzkKZd/yNbXsNo=",
+        "originContent": "### Build Commands",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\n# Development build\nnpm run build\n\n# Production build\nnpm run author\n\n# Watch mode (auto-rebuild on changes)\nnpm run watch\n\n# Run unit tests\nnpm test\n```",
+    "ContentSha": "wTzKT1OeLLfBbpw5gzQRXra6gYh4qcjYvzArNzMRqXM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\n# Development build\nnpm run build\n\n# Production build\nnpm run author\n\n# Watch mode (auto-rebuild on changes)\nnpm run watch\n\n# Run unit tests\nnpm test\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "r3s3tcmH99ylHaQcha0jasHMJA6SuXdsW0sqW+7FJQM=",
+        "originContent": "# Development build",
+        "translatedContent": "# Development build"
+      },
+      {
+        "row": 3,
+        "rowsha": "FsDkMFrCE9/zn8grabbgiu64dY4zzXLXxAl1KnDp8FQ=",
+        "originContent": "npm run build",
+        "translatedContent": "npm run build"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "yH1lJtBhRf07bsyBFZawsadofm2r+6bF624kHLRvFsQ=",
+        "originContent": "# Production build",
+        "translatedContent": "# Production build"
+      },
+      {
+        "row": 6,
+        "rowsha": "hkrsAuTxds14P2QVdqbiyrTHIJvTJdqqxEg0EpNjKwo=",
+        "originContent": "npm run author",
+        "translatedContent": "npm run author"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "dGM9q1jJ1WamiG2YouVX1wDt+s8Q5ofOhvsDr8+Sq4c=",
+        "originContent": "# Watch mode (auto-rebuild on changes)",
+        "translatedContent": "# Watch mode (auto-rebuild on changes)"
+      },
+      {
+        "row": 9,
+        "rowsha": "s0M12JRt9hq1j4CuVzS4aKw0VaKYZquwH+b5pvuiHYM=",
+        "originContent": "npm run watch",
+        "translatedContent": "npm run watch"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "LFG/xjLnxtQmf2mLi9Fd22BbyjUwvD4sg4U6hm304p8=",
+        "originContent": "# Run unit tests",
+        "translatedContent": "# Run unit tests"
+      },
+      {
+        "row": 12,
+        "rowsha": "Mo4SPGOFf9hHO9S9NYHmVbCLdEDX9dLDHMN1YHWC9Tk=",
+        "originContent": "npm test",
+        "translatedContent": "npm test"
+      },
+      {
+        "row": 13,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n### Project Structure\n",
+    "ContentSha": "ZQqk5Ygf2G2vrENVXJ9cJshWHBrDNTb33rByESQtJ1A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Estructura del Proyecto\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LhSV6uyxzWqT0ogFCmU00Wa6CfiB7nPMeRVYFMvBY0I=",
+        "originContent": "### Project Structure",
+        "translatedContent": "### Estructura del Proyecto"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```\n├── src/                   # Source TypeScript and SASS files\n│   ├── app.ts             # Main application logic\n│   ├── main.ts            # Entry point\n│   ├── png.ts             # PNG processing\n│   ├── processor.ts       # Web worker for image processing\n│   ├── sass/              # Stylesheets\n│   └── templates/         # HTML templates\n├── public/                # Static assets and build output\n│   ├── dist/              # Built JavaScript and CSS\n│   ├── im/                # Images\n│   └── examples/          # Example heightmaps\n├── index.html             # Main application page\n├── instructions.html      # Documentation page\n├── examples.html          # Examples page\n└── webpack.config.js      # Webpack configuration\n```",
+    "ContentSha": "6HJ2refIrCx7fL6S3aXyfn7WSWdJGEgh3TNAAIZF7Ww=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n├── src/                   # Source TypeScript and SASS files\n│   ├── app.ts             # Main application logic\n│   ├── main.ts            # Entry point\n│   ├── png.ts             # PNG processing\n│   ├── processor.ts       # Web worker for image processing\n│   ├── sass/              # Stylesheets\n│   └── templates/         # HTML templates\n├── public/                # Static assets and build output\n│   ├── dist/              # Built JavaScript and CSS\n│   ├── im/                # Images\n│   └── examples/          # Example heightmaps\n├── index.html             # Main application page\n├── instructions.html      # Documentation page\n├── examples.html          # Examples page\n└── webpack.config.js      # Webpack configuration\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "KDVbeeSLJHWWYYNi3LiWrBLNYFjHCF1YOakHkFt55hQ=",
+        "originContent": "├── src/                   # Source TypeScript and SASS files",
+        "translatedContent": "├── src/                   # Source TypeScript and SASS files"
+      },
+      {
+        "row": 3,
+        "rowsha": "Cs4onnvD2jmy90dF/ssJkbTMn4w+nAgR+G1gEocze50=",
+        "originContent": "│   ├── app.ts             # Main application logic",
+        "translatedContent": "│   ├── app.ts             # Main application logic"
+      },
+      {
+        "row": 4,
+        "rowsha": "dUJ4I15j/tWfyJPJoktXuuyf6HgBeGd8EMzk8XHxbZE=",
+        "originContent": "│   ├── main.ts            # Entry point",
+        "translatedContent": "│   ├── main.ts            # Entry point"
+      },
+      {
+        "row": 5,
+        "rowsha": "OFMc/pjz4XZ/z/qaDaZ9Yur1Wb1aYFFZl/UdcSSRit0=",
+        "originContent": "│   ├── png.ts             # PNG processing",
+        "translatedContent": "│   ├── png.ts             # PNG processing"
+      },
+      {
+        "row": 6,
+        "rowsha": "PWNYSeHeub9kvxRz27JyE7xhAYp1RRKIgADiE/Ma3Tk=",
+        "originContent": "│   ├── processor.ts       # Web worker for image processing",
+        "translatedContent": "│   ├── processor.ts       # Web worker for image processing"
+      },
+      {
+        "row": 7,
+        "rowsha": "n5S6UCIFuGT5JtPTMuZqwwi24vUaQMWtWcl1t32FXkA=",
+        "originContent": "│   ├── sass/              # Stylesheets",
+        "translatedContent": "│   ├── sass/              # Stylesheets"
+      },
+      {
+        "row": 8,
+        "rowsha": "RZtYEgKtrZB/O/FXsDOcA6BqkZ4fdjlLJ29NZF9dvTA=",
+        "originContent": "│   └── templates/         # HTML templates",
+        "translatedContent": "│   └── templates/         # HTML templates"
+      },
+      {
+        "row": 9,
+        "rowsha": "YGisPiLs80u8RkbsYb02qZYnIU4A5vrbKumE/5uURb0=",
+        "originContent": "├── public/                # Static assets and build output",
+        "translatedContent": "├── public/                # Static assets and build output"
+      },
+      {
+        "row": 10,
+        "rowsha": "PUp/h1AZpCX/9rVhzREYyVKM+6uutHmgblGsEVFgGao=",
+        "originContent": "│   ├── dist/              # Built JavaScript and CSS",
+        "translatedContent": "│   ├── dist/              # Built JavaScript and CSS"
+      },
+      {
+        "row": 11,
+        "rowsha": "UaTzSINbr3kbbBVqhUTj2m+P6PwYX0ncuSuLI49p53A=",
+        "originContent": "│   ├── im/                # Images",
+        "translatedContent": "│   ├── im/                # Images"
+      },
+      {
+        "row": 12,
+        "rowsha": "FcrlDidM0/wkUWoCdjnaXh1lcmsrFE2teXEwJhbwvQY=",
+        "originContent": "│   └── examples/          # Example heightmaps",
+        "translatedContent": "│   └── examples/          # Example heightmaps"
+      },
+      {
+        "row": 13,
+        "rowsha": "JBgByjpoyUCqLFwXYTqNzPUIO3piCqhVT+mf71+vDx8=",
+        "originContent": "├── index.html             # Main application page",
+        "translatedContent": "├── index.html             # Main application page"
+      },
+      {
+        "row": 14,
+        "rowsha": "IRzIDg/kQUT/Wu42UbiDFIXV9h+J3FkFKNWpLusvjGM=",
+        "originContent": "├── instructions.html      # Documentation page",
+        "translatedContent": "├── instructions.html      # Documentation page"
+      },
+      {
+        "row": 15,
+        "rowsha": "dVum9g+X+u86A6IwoQvRsScwp8berPdHp3sxMfg4yw8=",
+        "originContent": "├── examples.html          # Examples page",
+        "translatedContent": "├── examples.html          # Examples page"
+      },
+      {
+        "row": 16,
+        "rowsha": "GWwSG5g+4AvCPENfOzSsyTqmd2wS8rL1wg+JnzTaeLw=",
+        "originContent": "└── webpack.config.js      # Webpack configuration",
+        "translatedContent": "└── webpack.config.js      # Webpack configuration"
+      },
+      {
+        "row": 17,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n## 🎨 Examples\n\n### Grand Canyon (64km)\n[View in tool](https://manticorp.github.io/unrealheightmap/#latitude/36.18111652966563/longitude/-112.021/zoom/10/outputzoom/14/width/8129/height/8129)\n\n![Grand Canyon Example](https://raw.githubusercontent.com/manticorp/unrealheightmap/main/public/im/grand_canyon_desserty.png)\n\nFor more examples, visit the [Examples page](https://manticorp.github.io/unrealheightmap/examples.html).\n\n## 🔧 Normalisation Modes\n\n### None\nNo normalisation performed. Pixel values directly represent height in meters (negative values are set to 0).\n\n### Regular\nScales height values to use the full 16-bit range (0-65535), maximizing detail across the entire heightmap.\n\n### Smart\nAn advanced mode that handles data errors and outliers. Uses a 99.9% window to filter extreme values while preserving authentic min/max values within 1 standard deviation.\n\n## 📊 Output Format\n\n- **Format:** 16-bit Grayscale PNG, 16-bit EXR or 32-bit EXR\n- **Bit Depth:** 65,536 levels of detail (2^16) or 4,294,967,296 (2^32)\n- **Precision:** Capable of representing Mount Everest (8,849m) in ~13cm intervals (16 bit)\n- **Source Data:** Mapzen elevation data (24-bit precision, ~4mm fidelity)\n\n## 🤝 Contributing\n\nContributions are welcome! Please feel free to submit issues, fork the repository, and create pull requests.\n\n## 📄 License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\nThe elevation data is provided by [Mapzen](https://www.mapzen.com/blog/elevation/) and may have its own licensing terms.\n\n## 💖 Support\n",
+    "ContentSha": "HL63WF4pC3K74e7SH4R0TqqWzVXpQTeofyGQFtKvy9s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🎨 Ejemplos\n\n### Gran Cañón (64km)\n[Ver en la herramienta](https://manticorp.github.io/unrealheightmap/#latitude/36.18111652966563/longitude/-112.021/zoom/10/outputzoom/14/width/8129/height/8129)\n\n![Ejemplo Gran Cañón](https://raw.githubusercontent.com/manticorp/unrealheightmap/main/public/im/grand_canyon_desserty.png)\n\nPara más ejemplos, visite la [página de ejemplos](https://manticorp.github.io/unrealheightmap/examples.html).\n\n## 🔧 Modos de Normalización\n\n### Ninguno\nNo se realiza normalización. Los valores de píxel representan directamente la altura en metros (los valores negativos se establecen en 0).\n\n### Regular\nEscala los valores de altura para usar todo el rango de 16 bits (0-65535), maximizando el detalle en todo el mapa de alturas.\n\n### Inteligente\nUn modo avanzado que maneja errores de datos y valores atípicos. Usa una ventana del 99.9% para filtrar valores extremos mientras preserva valores min/máx auténticos dentro de 1 desviación estándar.\n\n## 📊 Formato de Salida\n\n- **Formato:** PNG en escala de grises de 16 bits, EXR de 16 bits o EXR de 32 bits\n- **Profundidad de bits:** 65,536 niveles de detalle (2^16) o 4,294,967,296 (2^32)\n- **Precisión:** Capaz de representar el Monte Everest (8,849m) en intervalos de ~13cm (16 bits)\n- **Datos fuente:** Datos de elevación de Mapzen (precisión de 24 bits, fidelidad ~4mm)\n\n## 🤝 Contribuciones\n\n¡Las contribuciones son bienvenidas! Por favor, siéntase libre de enviar problemas, bifurcar el repositorio y crear solicitudes de extracción.\n\n## 📄 Licencia\n\nEste proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE](LICENSE) para más detalles.\n\nLos datos de elevación son proporcionados por [Mapzen](https://www.mapzen.com/blog/elevation/) y pueden tener sus propios términos de licencia.\n\n## 💖 Apoyo\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "EovscekfqLqkkHESnVGwOOYmqwrJAWzjXMizh0xk3P4=",
+        "originContent": "## 🎨 Examples",
+        "translatedContent": "## 🎨 Ejemplos"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "HXPv16Gyt7KIdbqk4TxiQ1LrFaFzp0SG++h+KT5F1nM=",
+        "originContent": "### Grand Canyon (64km)",
+        "translatedContent": "### Gran Cañón (64km)"
+      },
+      {
+        "row": 5,
+        "rowsha": "EhLNcwVTmxa4HXev7y1IORWsMnMwb8xwLAs9rt9OH08=",
+        "originContent": "[View in tool](https://manticorp.github.io/unrealheightmap/#latitude/36.18111652966563/longitude/-112.021/zoom/10/outputzoom/14/width/8129/height/8129)",
+        "translatedContent": "[Ver en la herramienta](https://manticorp.github.io/unrealheightmap/#latitude/36.18111652966563/longitude/-112.021/zoom/10/outputzoom/14/width/8129/height/8129)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "c46ItXyUNSQrFkKMBstiYFdwQbT3JB10Q8fMzA9Bl+k=",
+        "originContent": "![Grand Canyon Example](https://raw.githubusercontent.com/manticorp/unrealheightmap/main/public/im/grand_canyon_desserty.png)",
+        "translatedContent": "![Ejemplo Gran Cañón](https://raw.githubusercontent.com/manticorp/unrealheightmap/main/public/im/grand_canyon_desserty.png)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yJdJoWMlIASBs8o/Fhh8sBjMha5KvGhyujpYMzmEsUk=",
+        "originContent": "For more examples, visit the [Examples page](https://manticorp.github.io/unrealheightmap/examples.html).",
+        "translatedContent": "Para más ejemplos, visite la [página de ejemplos](https://manticorp.github.io/unrealheightmap/examples.html)."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "Tcb5/jQU8ZOjVz69DXVVXksQL8EiLDFJK9camMHigTc=",
+        "originContent": "## 🔧 Normalisation Modes",
+        "translatedContent": "## 🔧 Modos de Normalización"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "P+jDrG5pcvg+aH9Q+XnwFAcJSfMI+qWuTr4GPYh6Ae4=",
+        "originContent": "### None",
+        "translatedContent": "### Ninguno"
+      },
+      {
+        "row": 14,
+        "rowsha": "eQK6vi7oibTFPwesJeuvi0LZsAmUww9/yLCUsZeobQ0=",
+        "originContent": "No normalisation performed. Pixel values directly represent height in meters (negative values are set to 0).",
+        "translatedContent": "No se realiza normalización. Los valores de píxel representan directamente la altura en metros (los valores negativos se establecen en 0)."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "7doF3zinJC8nbc87oa4YUhnTuRT9Ma4p1Gi7Y+Deboc=",
+        "originContent": "### Regular",
+        "translatedContent": "### Regular"
+      },
+      {
+        "row": 17,
+        "rowsha": "fpZcPfBctSoP1XqtGY1qcDsbiING3YGRPvxfiC6o2oA=",
+        "originContent": "Scales height values to use the full 16-bit range (0-65535), maximizing detail across the entire heightmap.",
+        "translatedContent": "Escala los valores de altura para usar todo el rango de 16 bits (0-65535), maximizando el detalle en todo el mapa de alturas."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "kYSgY1pk0ERM2PY7IYi/2bz/JqXCAzlZwM9Ql+vsNQI=",
+        "originContent": "### Smart",
+        "translatedContent": "### Inteligente"
+      },
+      {
+        "row": 20,
+        "rowsha": "0Npn28mcERhzAB1w+1p4UhrAMYTuEBZ5+rxkJWmtzwE=",
+        "originContent": "An advanced mode that handles data errors and outliers. Uses a 99.9% window to filter extreme values while preserving authentic min/max values within 1 standard deviation.",
+        "translatedContent": "Un modo avanzado que maneja errores de datos y valores atípicos. Usa una ventana del 99.9% para filtrar valores extremos mientras preserva valores min/máx auténticos dentro de 1 desviación estándar."
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "YIBvawOeHOoc3FQ8PYQmxxG2nDs1d8xbjFUAx7eVX3c=",
+        "originContent": "## 📊 Output Format",
+        "translatedContent": "## 📊 Formato de Salida"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "h9YL9qh4bm9R7op1J5K9+tn3iPoUulI856CIQdhwBMk=",
+        "originContent": "- **Format:** 16-bit Grayscale PNG, 16-bit EXR or 32-bit EXR",
+        "translatedContent": "- **Formato:** PNG en escala de grises de 16 bits, EXR de 16 bits o EXR de 32 bits"
+      },
+      {
+        "row": 25,
+        "rowsha": "kDnZSW4VphkhtwL3v8EApZ+u8pRdph6444CSli4qES0=",
+        "originContent": "- **Bit Depth:** 65,536 levels of detail (2^16) or 4,294,967,296 (2^32)",
+        "translatedContent": "- **Profundidad de bits:** 65,536 niveles de detalle (2^16) o 4,294,967,296 (2^32)"
+      },
+      {
+        "row": 26,
+        "rowsha": "NPgl83dYr1ZbElUkTlQZUDrWKQ9nW3p1wfLiD61oQzc=",
+        "originContent": "- **Precision:** Capable of representing Mount Everest (8,849m) in ~13cm intervals (16 bit)",
+        "translatedContent": "- **Precisión:** Capaz de representar el Monte Everest (8,849m) en intervalos de ~13cm (16 bits)"
+      },
+      {
+        "row": 27,
+        "rowsha": "kxmyTRzIvN6jSdEolblO0I+m2P28Faaz/iV4anYlxPg=",
+        "originContent": "- **Source Data:** Mapzen elevation data (24-bit precision, ~4mm fidelity)",
+        "translatedContent": "- **Datos fuente:** Datos de elevación de Mapzen (precisión de 24 bits, fidelidad ~4mm)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+        "originContent": "## 🤝 Contributing",
+        "translatedContent": "## 🤝 Contribuciones"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "r3SNqqmwXNcjaZ1amRa0xI5JP8u3zrw2x9kjKP+mU6Y=",
+        "originContent": "Contributions are welcome! Please feel free to submit issues, fork the repository, and create pull requests.",
+        "translatedContent": "¡Las contribuciones son bienvenidas! Por favor, siéntase libre de enviar problemas, bifurcar el repositorio y crear solicitudes de extracción."
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+        "originContent": "## 📄 License",
+        "translatedContent": "## 📄 Licencia"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "fOZgQLjSABDxHjJbYQ1wqD20ynEX33m+IkBDktyXUqY=",
+        "originContent": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
+        "translatedContent": "Este proyecto está licenciado bajo la Licencia MIT - vea el archivo [LICENSE](LICENSE) para más detalles."
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "jHc/cXxOuwkRhcJrvNzJHrd9XIFgDVBo97LEH1uxHRo=",
+        "originContent": "The elevation data is provided by [Mapzen](https://www.mapzen.com/blog/elevation/) and may have its own licensing terms.",
+        "translatedContent": "Los datos de elevación son proporcionados por [Mapzen](https://www.mapzen.com/blog/elevation/) y pueden tener sus propios términos de licencia."
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "APIYKfR1wPWP3Xmu6zuTmsAK3VmWuPgDA6xEopqZIMU=",
+        "originContent": "## 💖 Support",
+        "translatedContent": "## 💖 Apoyo"
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "If you find this tool useful, please consider supporting the project:\n\n- ☕ [Buy me a coffee on Ko-fi](https://ko-fi.com/harrymustoeplayfair)\n- ⭐ Star this repository\n- 🐦 Share it with others who might find it useful\n\n## 🙏 Acknowledgments\n\n- [Mapzen](https://www.mapzen.com/) for providing high-quality global elevation data\n- [Unreal Engine](https://www.unrealengine.com/) community for inspiration and use cases\n- All contributors and users of this tool\n\n## 📞 Contact\n\n- **Author:** Harry Mustoe-Playfair\n- **Email:** harry.mustoeplayfair@gmail.com\n- **GitHub:** [manticorp](https://github.com/manticorp)\n\n---\n\nMade with ❤️ for the Unreal Engine, 3D and game development community\n",
+    "ContentSha": "rwsjdRVeUyPsk4sxqhZZIViz8KiDK5cuo045bKHRTU0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Si encuentras esta herramienta útil, por favor considera apoyar el proyecto:\n\n- ☕ [Invítame un café en Ko-fi](https://ko-fi.com/harrymustoeplayfair)\n- ⭐ Dale una estrella a este repositorio\n- 🐦 Compártelo con otros que puedan encontrarlo útil\n\n## 🙏 Agradecimientos\n\n- [Mapzen](https://www.mapzen.com/) por proporcionar datos globales de elevación de alta calidad\n- [Unreal Engine](https://www.unrealengine.com/) comunidad por la inspiración y casos de uso\n- Todos los colaboradores y usuarios de esta herramienta\n\n## 📞 Contacto\n\n- **Autor:** Harry Mustoe-Playfair\n- **Correo:** harry.mustoeplayfair@gmail.com\n- **GitHub:** [manticorp](https://github.com/manticorp)\n\n---\n\nHecho con ❤️ para la comunidad de Unreal Engine, desarrollo 3D y de juegos\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "LDjTJo59edjrEqnYf/OkYFhAfFTgRoQ/T3ZQHX+oCnY=",
+        "originContent": "If you find this tool useful, please consider supporting the project:",
+        "translatedContent": "Si encuentras esta herramienta útil, por favor considera apoyar el proyecto:"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "exC4GQSC9CD7HYQ37QP5xk3soCCF+5iBbg+kePeD288=",
+        "originContent": "- ☕ [Buy me a coffee on Ko-fi](https://ko-fi.com/harrymustoeplayfair)",
+        "translatedContent": "- ☕ [Invítame un café en Ko-fi](https://ko-fi.com/harrymustoeplayfair)"
+      },
+      {
+        "row": 4,
+        "rowsha": "7WrTDum1qBAOqKie9yyWx4dDh/3/r7d2G15K4OcL/dc=",
+        "originContent": "- ⭐ Star this repository",
+        "translatedContent": "- ⭐ Dale una estrella a este repositorio"
+      },
+      {
+        "row": 5,
+        "rowsha": "zY2jJAd2L4t+IkdvWju6YA/nnu5U5tmSU2HaS//W6Mc=",
+        "originContent": "- 🐦 Share it with others who might find it useful",
+        "translatedContent": "- 🐦 Compártelo con otros que puedan encontrarlo útil"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "qNOAwfAbnQ0oGAw8kiCxNmOxAO6HNOriMNTHzMq+bx0=",
+        "originContent": "## 🙏 Acknowledgments",
+        "translatedContent": "## 🙏 Agradecimientos"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "5/ELut9CkHpkF9SXFKqaPkc5VK6PP7h3XwTB82S763E=",
+        "originContent": "- [Mapzen](https://www.mapzen.com/) for providing high-quality global elevation data",
+        "translatedContent": "- [Mapzen](https://www.mapzen.com/) por proporcionar datos globales de elevación de alta calidad"
+      },
+      {
+        "row": 10,
+        "rowsha": "0QYgrJxGZ1ShqTkSmwhANIGeP8YFg9tzsaXCJKnY4Ic=",
+        "originContent": "- [Unreal Engine](https://www.unrealengine.com/) community for inspiration and use cases",
+        "translatedContent": "- [Unreal Engine](https://www.unrealengine.com/) comunidad por la inspiración y casos de uso"
+      },
+      {
+        "row": 11,
+        "rowsha": "PEhRCACKMjozHnbD+7BYkrQgapRTMg6nN+MV+ZExEUg=",
+        "originContent": "- All contributors and users of this tool",
+        "translatedContent": "- Todos los colaboradores y usuarios de esta herramienta"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "7ophhEn/NFL0nQcKMg6loTudYaLMkP15MvGy2BhlE4Y=",
+        "originContent": "## 📞 Contact",
+        "translatedContent": "## 📞 Contacto"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "uR0WBOSHIyVXqwX8TXz95g4AQMKb82A1hMLJcb03k9c=",
+        "originContent": "- **Author:** Harry Mustoe-Playfair",
+        "translatedContent": "- **Autor:** Harry Mustoe-Playfair"
+      },
+      {
+        "row": 16,
+        "rowsha": "pmGAu2kVFA2G/dvUddyvfwWalzO9bjOj5qYEPg3P8ZE=",
+        "originContent": "- **Email:** harry.mustoeplayfair@gmail.com",
+        "translatedContent": "- **Correo:** harry.mustoeplayfair@gmail.com"
+      },
+      {
+        "row": 17,
+        "rowsha": "I+i81r7ClZ6ge3Y14d4eKnVU4pUKeNKOo46iSD9Wk74=",
+        "originContent": "- **GitHub:** [manticorp](https://github.com/manticorp)",
+        "translatedContent": "- **GitHub:** [manticorp](https://github.com/manticorp)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "UbeAuN3HztVVVWMw/OJ48fxU0Q0PVKWqGqwIvEV5x4M=",
+        "originContent": "Made with ❤️ for the Unreal Engine, 3D and game development community",
+        "translatedContent": "Hecho con ❤️ para la comunidad de Unreal Engine, desarrollo 3D y de juegos"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

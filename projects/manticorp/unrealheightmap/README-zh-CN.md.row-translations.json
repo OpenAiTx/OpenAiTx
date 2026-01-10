@@ -1,0 +1,1052 @@
+[
+  {
+    "row": 1,
+    "rowsha": "4dpl4OEj/OYbYGxgi37LGij3u7gD1jtGPtPcTIUtF5A=",
+    "originContent": "# 16/32 Bit Grayscale PNG/EXR Heightmap Generator",
+    "translatedContent": "# 16/32 位灰度 PNG/EXR 高程图生成器"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "xlbaBlxguObDg0ByX856E6eUNGHkqDAN9e4eQX/b/ns=",
+    "originContent": "A browser-based tool for generating high-quality 16-bit grayscale PNG heightmaps or 16/32-bit EXR heightmaps from real-world terrain data.",
+    "translatedContent": "一个基于浏览器的工具，用于从真实世界地形数据生成高质量的 16 位灰度 PNG 高程图或 16/32 位 EXR 高程图。"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "1RQ4NOspOy5ElNXKqJZAiZ2NxpS8ajNaKIugymNnDt8=",
+    "originContent": "Perfect for creating realistic landscapes in Unreal Engine 5 and other game engines or 3D software, such as Terrain3d, Godot4 and Blender.",
+    "translatedContent": "非常适合在 Unreal Engine 5 和其他游戏引擎或 3D 软件中创建逼真的地形，如 Terrain3d、Godot4 和 Blender。"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "cQbDsBR9/7f9ApBlr2p5Bh+X02B4yRQ5CRq5eFe33qA=",
+    "originContent": "🌐 **Live Website:** [https://manticorp.github.io/unrealheightmap/](https://manticorp.github.io/unrealheightmap/)",
+    "translatedContent": "🌐 **官方网站：** [https://manticorp.github.io/unrealheightmap/](https://manticorp.github.io/unrealheightmap/)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "Xkm3tyNy1grniDPWaELdYTODYlLiCcgmwwtrFJackpk=",
+    "originContent": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L212G6M7)",
+    "translatedContent": "[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L212G6M7)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "XL4I9MOFb9DRbhT6jT2fvm1WlI5KQByuVs102agzwE0=",
+    "originContent": "## ⚠️ Important Notice",
+    "translatedContent": "## ⚠️ 重要通知"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "L413srpVZ/Yz0n0LBpvSy+D13UIYvzNaxFuJJ9Hzj+M=",
+    "originContent": "We have started hitting the free tier limits from some map services, so the site *may not work* until we get some funding to up these limits. If you find this tool useful, please consider supporting the project!",
+    "translatedContent": "我们开始触及部分地图服务的免费额度限制，因此网站*可能无法使用*，直到我们获得资金提升这些限制。如果您觉得此工具有用，请考虑支持该项目！"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+    "originContent": "## ✨ Features",
+    "translatedContent": "## ✨ 功能特色"
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "t0FqEMMmJBUCAnZo1y/xiZx4fUuLMAtItcjGxP3pjDs=",
+    "originContent": "- **High-Quality 16/32-bit Output** - Generate heightmaps with 65,536/4,294,967,296 levels of detail (vs only 256 in 8-bit)",
+    "translatedContent": "- **高质量 16/32 位输出** - 生成具有 65,536/4,294,967,296 级细节的高程图（相比 8 位只有 256 级）"
+  },
+  {
+    "row": 18,
+    "rowsha": "Mnb/PLHJESzVrKiYAhAutT6Jp1UsjsV6c8u/B8u8FoM=",
+    "originContent": "- **Real-World Terrain Data** - Uses high-quality elevation data from [Mapzen's global elevation service](https://www.mapzen.com/blog/elevation/)",
+    "translatedContent": "- **真实世界地形数据** - 使用来自 [Mapzen 全球高程服务](https://www.mapzen.com/blog/elevation/) 的高质量高程数据"
+  },
+  {
+    "row": 19,
+    "rowsha": "RLL77xy74Pt4jzz2gyULv4ltdHHzpWmaidn0AYmwXNs=",
+    "originContent": "- **Interactive Map Interface** - Visual selection of terrain areas using an intuitive map interface",
+    "translatedContent": "- **交互式地图界面** - 通过直观的地图界面可视化选择地形区域"
+  },
+  {
+    "row": 20,
+    "rowsha": "MwfPhY+Q14gzK1twuDJzNYcM/fNz0YTjrNmsstziISE=",
+    "originContent": "- **Multiple Normalisation Modes** - Choose between None, Regular, or Smart normalisation to optimize your heightmap data",
+    "translatedContent": "- **多种归一化模式** - 可选择无归一化、常规归一化或智能归一化以优化高程图数据"
+  },
+  {
+    "row": 21,
+    "rowsha": "W+eYum8vA67Kp9rdGn27aSo2CJ76YINcbRvDsVquN/U=",
+    "originContent": "- **Flexible Output Sizes** - Preset sizes for Unreal Engine or custom dimensions up to 8129×8129 pixels",
+    "translatedContent": "- **灵活的输出尺寸** - 提供 Unreal Engine 预设尺寸或最大至 8129×8129 像素的自定义尺寸"
+  },
+  {
+    "row": 22,
+    "rowsha": "bqx5hiPvGDztPVY7hUiUlIcKJf9YzMZTQIAU3ZV8FJc=",
+    "originContent": "- **Browser-Based** - No installation required, works entirely in your web browser",
+    "translatedContent": "- **基于浏览器** - 无需安装，完全在您的浏览器中运行"
+  },
+  {
+    "row": 23,
+    "rowsha": "yxpWWwJy+Ag/IedUVDMhQEYTFLstCpR4Nppjks4wMgU=",
+    "originContent": "- **Real-Time Preview** - See the area you're exporting with an overlay on the map",
+    "translatedContent": "- **实时预览** - 在地图上叠加显示您导出的区域"
+  },
+  {
+    "row": 24,
+    "rowsha": "NRdLlu/lOBP5GoFWRtP2NtW7P0HyCw39kGy5ShYZXtA=",
+    "originContent": "- **Copy & Paste Coordinates** - Support for multiple coordinate formats including DMS and decimal degrees",
+    "translatedContent": "- **复制与粘贴坐标** - 支持多种坐标格式，包括度分秒和十进制度"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "1LfqAC6OTw7OuZobq+bokVPSdb7jGWrc2E2vjLwn94I=",
+    "originContent": "## 🎯 Use Cases",
+    "translatedContent": "## 🎯 适用场景"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "YWdMls+InhRBAnD+QdSb8iMAPOjHeAbRaDajG9lIstk=",
+    "originContent": "- Creating realistic terrain for Unreal Engine 5/Blender/Terrain3D landscapes",
+    "translatedContent": "- 为 Unreal Engine 5/Blender/Terrain3D 地形创建逼真地形"
+  },
+  {
+    "row": 29,
+    "rowsha": "eQmcTrEdYwF41kMychTowT1y7bKZ57muYY7Xkl64qqQ=",
+    "originContent": "- Game development with accurate real-world topography",
+    "translatedContent": "- 利用精确真实地形进行游戏开发"
+  },
+  {
+    "row": 30,
+    "rowsha": "YHjflj1x2E+zWJ5KLr5LMwL1OkeIZssy/Rp1rR7p0ec=",
+    "originContent": "- 3D modeling and visualization projects",
+    "translatedContent": "- 3D 建模与可视化项目"
+  },
+  {
+    "row": 31,
+    "rowsha": "wijDyHdqJalaGkrLRZfsiFLqw037EHoYUN6FJsattJY=",
+    "originContent": "- Geographic information system (GIS) applications",
+    "translatedContent": "- 地理信息系统（GIS）应用"
+  },
+  {
+    "row": 32,
+    "rowsha": "VolnT9r85nJSR0eghrKLq5pA1opAHtnk8aEjDrp0ePs=",
+    "originContent": "- Educational and scientific visualization",
+    "translatedContent": "- 教育和科学可视化"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "jsdHdcNegTOe5j0D0TqKpRz5kFDyybyTTtR/jemcS5A=",
+    "originContent": "## 🚀 Quick Start",
+    "translatedContent": "## 🚀 快速开始"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "ZhG2uT4+CX6k6jZhCwY++n771j0Pfem0YU6BZ8ApJ/I=",
+    "originContent": "1. Visit [https://manticorp.github.io/unrealheightmap/](https://manticorp.github.io/unrealheightmap/)",
+    "translatedContent": "1. 访问 [https://manticorp.github.io/unrealheightmap/](https://manticorp.github.io/unrealheightmap/)"
+  },
+  {
+    "row": 37,
+    "rowsha": "EM2gMQNnfJ3RosqTyLh9dGfikrgjZ3ctRu30Q0rF6T8=",
+    "originContent": "2. Use the map to navigate to your desired location or enter coordinates manually",
+    "translatedContent": "2. 使用地图导航至所需位置或手动输入坐标"
+  },
+  {
+    "row": 38,
+    "rowsha": "076qjLVdYzu0dJQy3XFCcIKuP/tz6tnYjnCgS3Iv8bA=",
+    "originContent": "3. Adjust the output zoom and size to define your export area (shown as an orange rectangle)",
+    "translatedContent": "3. 调整输出缩放和尺寸以定义导出区域（以橙色矩形显示）"
+  },
+  {
+    "row": 39,
+    "rowsha": "pVcAYx3D+YjsbldpV9sy68n9BScmjTn7c+FSvMhzZ3A=",
+    "originContent": "4. Select a normalisation mode appropriate for your use case",
+    "translatedContent": "4. 选择适合您用途的归一化模式"
+  },
+  {
+    "row": 40,
+    "rowsha": "t5FgZ0xBofXAkqak1YLJNFjbRT343X8VrYQi5g7pR5Q=",
+    "originContent": "5. Click \"Generate\" to create and download your heightmap",
+    "translatedContent": "5. 点击“生成”以创建并下载您的高程图"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "有关详细说明，请访问[文档](https://manticorp.github.io/unrealheightmap/instructions.html)页面。"
+  },
+  {
+    "row": 42,
+    "rowsha": "F0BuRmAuT3ZJTyLvjFvxemm4fDskIVFyyPlqCc4pxaM=",
+    "originContent": "For detailed instructions, visit the [Documentation](https://manticorp.github.io/unrealheightmap/instructions.html) page.",
+    "translatedContent": ""
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📖 文档"
+  },
+  {
+    "row": 44,
+    "rowsha": "SoE0pvlABUY6UusrLcAgNz4PkoTle0JWWhESnRMZ7Es=",
+    "originContent": "## 📖 Documentation",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **[使用说明](https://manticorp.github.io/unrealheightmap/instructions.html)** - 工具使用的全面指南"
+  },
+  {
+    "row": 46,
+    "rowsha": "PTYS3NPKxxlOiKbTtHd/HNkA7QIaLEm1RiuEMNNoGK4=",
+    "originContent": "- **[Instructions](https://manticorp.github.io/unrealheightmap/instructions.html)** - Comprehensive guide on how to use the tool",
+    "translatedContent": "- **[示例](https://manticorp.github.io/unrealheightmap/examples.html)** - 使用该工具创建的高度图画廊"
+  },
+  {
+    "row": 47,
+    "rowsha": "IGPLCuH4z99z4ysqrDSWQtwj+9rLgcfrECP/eC7y35E=",
+    "originContent": "- **[Examples](https://manticorp.github.io/unrealheightmap/examples.html)** - Gallery of heightmaps created with the tool",
+    "translatedContent": "- **[许可信息](https://manticorp.github.io/unrealheightmap/rights.html)** - 数据来源及许可相关信息"
+  },
+  {
+    "row": 48,
+    "rowsha": "rkY45pAddcad4Jt/lNNMVRs3EIBv2THyiXE8UwD7Ero=",
+    "originContent": "- **[License Info](https://manticorp.github.io/unrealheightmap/rights.html)** - Information about data sources and licensing",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🛠️ 技术栈"
+  },
+  {
+    "row": 50,
+    "rowsha": "767PLQn8vfb5b/EWVsUnisVWaK0QkmG5ocvMAVnr454=",
+    "originContent": "## 🛠️ Technology Stack",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **TypeScript** - 类型安全的应用代码"
+  },
+  {
+    "row": 52,
+    "rowsha": "ujlwghUSQh/UnJEOseja6yrnjSUifWNOXEq6wKyJMAY=",
+    "originContent": "- **TypeScript** - Type-safe application code",
+    "translatedContent": "- **Leaflet** - 交互式地图界面"
+  },
+  {
+    "row": 53,
+    "rowsha": "Kt95Y+FYSjzvpMm7dM1iU/DZ/h3tle7UzlnUJq5xaMQ=",
+    "originContent": "- **Leaflet** - Interactive map interface",
+    "translatedContent": "- **jQuery** - DOM 操作和 UI 交互"
+  },
+  {
+    "row": 54,
+    "rowsha": "0mKoI3G+exPWpL5trhKXOhnUNE1Da5eYYmMdcVGjRGk=",
+    "originContent": "- **jQuery** - DOM manipulation and UI interactions",
+    "translatedContent": "- **UPNG.js** - PNG 编码/解码"
+  },
+  {
+    "row": 55,
+    "rowsha": "Xu/YM/U5xEG/8DmD2GXmuRWTP8s5yXolsytqcXgcJiA=",
+    "originContent": "- **UPNG.js** - PNG encoding/decoding",
+    "translatedContent": "- **Pako** - 数据压缩"
+  },
+  {
+    "row": 56,
+    "rowsha": "wYIhZNobr9C7nbER5ZmLiEdOCxMPgQWoYD5XFwadmfc=",
+    "originContent": "- **Pako** - Data compression",
+    "translatedContent": "- **Webpack** - 模块打包"
+  },
+  {
+    "row": 57,
+    "rowsha": "B6QRpiLkzUEgNrbedtHdRdTqCmgIrW1SHLWTqPetPN0=",
+    "originContent": "- **Webpack** - Module bundling",
+    "translatedContent": "- **Bulma** - CSS 框架"
+  },
+  {
+    "row": 58,
+    "rowsha": "QcgPihUAGjKADBYic+5FdPCOateXgeOGrQtApNLkF+Q=",
+    "originContent": "- **Bulma** - CSS framework",
+    "translatedContent": "- **SASS** - CSS 预处理"
+  },
+  {
+    "row": 59,
+    "rowsha": "7WJ0cmhItVWn3o5VLX0EEzjJEAmelurtL0U4f1rWkUU=",
+    "originContent": "- **SASS** - CSS preprocessing",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 💻 开发环境搭建"
+  },
+  {
+    "row": 61,
+    "rowsha": "Qa2smtaqmxTjnR8QUzJzEwAdf/H4pubvzn8BsN4qcPM=",
+    "originContent": "## 💻 Development Setup",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 前提条件"
+  },
+  {
+    "row": 63,
+    "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+    "originContent": "### Prerequisites",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- Node.js（推荐版本14或更高）"
+  },
+  {
+    "row": 65,
+    "rowsha": "Rl9BUZvpECRqun+unoxekGAh9OhyumKQZsYF5LwsBhE=",
+    "originContent": "- Node.js (v14 or higher recommended)",
+    "translatedContent": "- npm（随 Node.js 一起安装）"
+  },
+  {
+    "row": 66,
+    "rowsha": "WqxVgxWRyIcdmbR2oqpCHqURiERW9TTkKrph+muGaBM=",
+    "originContent": "- npm (comes with Node.js)",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 安装"
+  },
+  {
+    "row": 68,
+    "rowsha": "JuAC4s82hMbNkRqX17s0ltqjVmeI/HhsmWljgf+i7Kg=",
+    "originContent": "### Installation",
+    "translatedContent": ""
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 71,
+    "rowsha": "EJ1kGcOyM89S1RwOEHSj/NB/bjY/T7n0DRgAblC5zSQ=",
+    "originContent": "# Clone the repository",
+    "translatedContent": "# Clone the repository"
+  },
+  {
+    "row": 72,
+    "rowsha": "mSI6GAHj6YfN0tWjzXZRuOwE//cNGrBe12LlZIY7XJ4=",
+    "originContent": "git clone https://github.com/manticorp/unrealheightmap.git",
+    "translatedContent": "git clone https://github.com/manticorp/unrealheightmap.git"
+  },
+  {
+    "row": 73,
+    "rowsha": "s2oRSaqmXBn5kKfe1VxgZOXyTd6CY59+kxuNunO9fdY=",
+    "originContent": "cd unrealheightmap",
+    "translatedContent": "cd unrealheightmap"
+  },
+  {
+    "row": 74,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 75,
+    "rowsha": "eZl+L3vwMSfnhJPApyjgp5MAN3lox2CikfYeIVqDi7M=",
+    "originContent": "# Install dependencies",
+    "translatedContent": "# Install dependencies"
+  },
+  {
+    "row": 76,
+    "rowsha": "Oi3AriHrVteKDra70PRRLaBPn5T27mxqM4w+TLGo/5E=",
+    "originContent": "npm install",
+    "translatedContent": "npm install"
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "sdaWi78731ZsRFl9JDtIuZjzyyZg/WzkKZd/yNbXsNo=",
+    "originContent": "### Build Commands",
+    "translatedContent": "### 构建命令"
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 82,
+    "rowsha": "r3s3tcmH99ylHaQcha0jasHMJA6SuXdsW0sqW+7FJQM=",
+    "originContent": "# Development build",
+    "translatedContent": "# Development build"
+  },
+  {
+    "row": 83,
+    "rowsha": "FsDkMFrCE9/zn8grabbgiu64dY4zzXLXxAl1KnDp8FQ=",
+    "originContent": "npm run build",
+    "translatedContent": "npm run build"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "yH1lJtBhRf07bsyBFZawsadofm2r+6bF624kHLRvFsQ=",
+    "originContent": "# Production build",
+    "translatedContent": "# Production build"
+  },
+  {
+    "row": 86,
+    "rowsha": "hkrsAuTxds14P2QVdqbiyrTHIJvTJdqqxEg0EpNjKwo=",
+    "originContent": "npm run author",
+    "translatedContent": "npm run author"
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "dGM9q1jJ1WamiG2YouVX1wDt+s8Q5ofOhvsDr8+Sq4c=",
+    "originContent": "# Watch mode (auto-rebuild on changes)",
+    "translatedContent": "# Watch mode (auto-rebuild on changes)"
+  },
+  {
+    "row": 89,
+    "rowsha": "s0M12JRt9hq1j4CuVzS4aKw0VaKYZquwH+b5pvuiHYM=",
+    "originContent": "npm run watch",
+    "translatedContent": "npm run watch"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "LFG/xjLnxtQmf2mLi9Fd22BbyjUwvD4sg4U6hm304p8=",
+    "originContent": "# Run unit tests",
+    "translatedContent": "# Run unit tests"
+  },
+  {
+    "row": 92,
+    "rowsha": "Mo4SPGOFf9hHO9S9NYHmVbCLdEDX9dLDHMN1YHWC9Tk=",
+    "originContent": "npm test",
+    "translatedContent": "npm test"
+  },
+  {
+    "row": 93,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "LhSV6uyxzWqT0ogFCmU00Wa6CfiB7nPMeRVYFMvBY0I=",
+    "originContent": "### Project Structure",
+    "translatedContent": "### 项目结构"
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 98,
+    "rowsha": "KDVbeeSLJHWWYYNi3LiWrBLNYFjHCF1YOakHkFt55hQ=",
+    "originContent": "├── src/                   # Source TypeScript and SASS files",
+    "translatedContent": "├── src/                   # Source TypeScript and SASS files"
+  },
+  {
+    "row": 99,
+    "rowsha": "Cs4onnvD2jmy90dF/ssJkbTMn4w+nAgR+G1gEocze50=",
+    "originContent": "│   ├── app.ts             # Main application logic",
+    "translatedContent": "│   ├── app.ts             # Main application logic"
+  },
+  {
+    "row": 100,
+    "rowsha": "dUJ4I15j/tWfyJPJoktXuuyf6HgBeGd8EMzk8XHxbZE=",
+    "originContent": "│   ├── main.ts            # Entry point",
+    "translatedContent": "│   ├── main.ts            # Entry point"
+  },
+  {
+    "row": 101,
+    "rowsha": "OFMc/pjz4XZ/z/qaDaZ9Yur1Wb1aYFFZl/UdcSSRit0=",
+    "originContent": "│   ├── png.ts             # PNG processing",
+    "translatedContent": "│   ├── png.ts             # PNG processing"
+  },
+  {
+    "row": 102,
+    "rowsha": "PWNYSeHeub9kvxRz27JyE7xhAYp1RRKIgADiE/Ma3Tk=",
+    "originContent": "│   ├── processor.ts       # Web worker for image processing",
+    "translatedContent": "│   ├── processor.ts       # Web worker for image processing"
+  },
+  {
+    "row": 103,
+    "rowsha": "n5S6UCIFuGT5JtPTMuZqwwi24vUaQMWtWcl1t32FXkA=",
+    "originContent": "│   ├── sass/              # Stylesheets",
+    "translatedContent": "│   ├── sass/              # Stylesheets"
+  },
+  {
+    "row": 104,
+    "rowsha": "RZtYEgKtrZB/O/FXsDOcA6BqkZ4fdjlLJ29NZF9dvTA=",
+    "originContent": "│   └── templates/         # HTML templates",
+    "translatedContent": "│   └── templates/         # HTML templates"
+  },
+  {
+    "row": 105,
+    "rowsha": "YGisPiLs80u8RkbsYb02qZYnIU4A5vrbKumE/5uURb0=",
+    "originContent": "├── public/                # Static assets and build output",
+    "translatedContent": "├── public/                # Static assets and build output"
+  },
+  {
+    "row": 106,
+    "rowsha": "PUp/h1AZpCX/9rVhzREYyVKM+6uutHmgblGsEVFgGao=",
+    "originContent": "│   ├── dist/              # Built JavaScript and CSS",
+    "translatedContent": "│   ├── dist/              # Built JavaScript and CSS"
+  },
+  {
+    "row": 107,
+    "rowsha": "UaTzSINbr3kbbBVqhUTj2m+P6PwYX0ncuSuLI49p53A=",
+    "originContent": "│   ├── im/                # Images",
+    "translatedContent": "│   ├── im/                # Images"
+  },
+  {
+    "row": 108,
+    "rowsha": "FcrlDidM0/wkUWoCdjnaXh1lcmsrFE2teXEwJhbwvQY=",
+    "originContent": "│   └── examples/          # Example heightmaps",
+    "translatedContent": "│   └── examples/          # Example heightmaps"
+  },
+  {
+    "row": 109,
+    "rowsha": "JBgByjpoyUCqLFwXYTqNzPUIO3piCqhVT+mf71+vDx8=",
+    "originContent": "├── index.html             # Main application page",
+    "translatedContent": "├── index.html             # Main application page"
+  },
+  {
+    "row": 110,
+    "rowsha": "IRzIDg/kQUT/Wu42UbiDFIXV9h+J3FkFKNWpLusvjGM=",
+    "originContent": "├── instructions.html      # Documentation page",
+    "translatedContent": "├── instructions.html      # Documentation page"
+  },
+  {
+    "row": 111,
+    "rowsha": "dVum9g+X+u86A6IwoQvRsScwp8berPdHp3sxMfg4yw8=",
+    "originContent": "├── examples.html          # Examples page",
+    "translatedContent": "├── examples.html          # Examples page"
+  },
+  {
+    "row": 112,
+    "rowsha": "GWwSG5g+4AvCPENfOzSsyTqmd2wS8rL1wg+JnzTaeLw=",
+    "originContent": "└── webpack.config.js      # Webpack configuration",
+    "translatedContent": "└── webpack.config.js      # Webpack configuration"
+  },
+  {
+    "row": 113,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🎨 示例"
+  },
+  {
+    "row": 115,
+    "rowsha": "EovscekfqLqkkHESnVGwOOYmqwrJAWzjXMizh0xk3P4=",
+    "originContent": "## 🎨 Examples",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 大峡谷 (64公里)"
+  },
+  {
+    "row": 117,
+    "rowsha": "HXPv16Gyt7KIdbqk4TxiQ1LrFaFzp0SG++h+KT5F1nM=",
+    "originContent": "### Grand Canyon (64km)",
+    "translatedContent": "[在工具中查看](https://manticorp.github.io/unrealheightmap/#latitude/36.18111652966563/longitude/-112.021/zoom/10/outputzoom/14/width/8129/height/8129)"
+  },
+  {
+    "row": 118,
+    "rowsha": "EhLNcwVTmxa4HXev7y1IORWsMnMwb8xwLAs9rt9OH08=",
+    "originContent": "[View in tool](https://manticorp.github.io/unrealheightmap/#latitude/36.18111652966563/longitude/-112.021/zoom/10/outputzoom/14/width/8129/height/8129)",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "![大峡谷示例](https://raw.githubusercontent.com/manticorp/unrealheightmap/main/public/im/grand_canyon_desserty.png)"
+  },
+  {
+    "row": 120,
+    "rowsha": "c46ItXyUNSQrFkKMBstiYFdwQbT3JB10Q8fMzA9Bl+k=",
+    "originContent": "![Grand Canyon Example](https://raw.githubusercontent.com/manticorp/unrealheightmap/main/public/im/grand_canyon_desserty.png)",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "更多示例，请访问[示例页面](https://manticorp.github.io/unrealheightmap/examples.html)。"
+  },
+  {
+    "row": 122,
+    "rowsha": "yJdJoWMlIASBs8o/Fhh8sBjMha5KvGhyujpYMzmEsUk=",
+    "originContent": "For more examples, visit the [Examples page](https://manticorp.github.io/unrealheightmap/examples.html).",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🔧 归一化模式"
+  },
+  {
+    "row": 124,
+    "rowsha": "Tcb5/jQU8ZOjVz69DXVVXksQL8EiLDFJK9camMHigTc=",
+    "originContent": "## 🔧 Normalisation Modes",
+    "translatedContent": ""
+  },
+  {
+    "row": 125,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 无"
+  },
+  {
+    "row": 126,
+    "rowsha": "P+jDrG5pcvg+aH9Q+XnwFAcJSfMI+qWuTr4GPYh6Ae4=",
+    "originContent": "### None",
+    "translatedContent": "不进行归一化。像素值直接表示高度（米），负值设为0。"
+  },
+  {
+    "row": 127,
+    "rowsha": "eQK6vi7oibTFPwesJeuvi0LZsAmUww9/yLCUsZeobQ0=",
+    "originContent": "No normalisation performed. Pixel values directly represent height in meters (negative values are set to 0).",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 常规"
+  },
+  {
+    "row": 129,
+    "rowsha": "7doF3zinJC8nbc87oa4YUhnTuRT9Ma4p1Gi7Y+Deboc=",
+    "originContent": "### Regular",
+    "translatedContent": "将高度值缩放至整个16位范围（0-65535），最大化整个高程图的细节。"
+  },
+  {
+    "row": 130,
+    "rowsha": "fpZcPfBctSoP1XqtGY1qcDsbiING3YGRPvxfiC6o2oA=",
+    "originContent": "Scales height values to use the full 16-bit range (0-65535), maximizing detail across the entire heightmap.",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "### 智能"
+  },
+  {
+    "row": 132,
+    "rowsha": "kYSgY1pk0ERM2PY7IYi/2bz/JqXCAzlZwM9Ql+vsNQI=",
+    "originContent": "### Smart",
+    "translatedContent": "一种高级模式，处理数据错误和异常值。使用99.9%的窗口过滤极端值，同时在1个标准差内保留真实的最小/最大值。"
+  },
+  {
+    "row": 133,
+    "rowsha": "0Npn28mcERhzAB1w+1p4UhrAMYTuEBZ5+rxkJWmtzwE=",
+    "originContent": "An advanced mode that handles data errors and outliers. Uses a 99.9% window to filter extreme values while preserving authentic min/max values within 1 standard deviation.",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📊 输出格式"
+  },
+  {
+    "row": 135,
+    "rowsha": "YIBvawOeHOoc3FQ8PYQmxxG2nDs1d8xbjFUAx7eVX3c=",
+    "originContent": "## 📊 Output Format",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "- **格式：** 16位灰度PNG，16位EXR或32位EXR  "
+  },
+  {
+    "row": 137,
+    "rowsha": "h9YL9qh4bm9R7op1J5K9+tn3iPoUulI856CIQdhwBMk=",
+    "originContent": "- **Format:** 16-bit Grayscale PNG, 16-bit EXR or 32-bit EXR",
+    "translatedContent": "- **位深：** 65,536个细节等级（2^16）或4,294,967,296（2^32）  "
+  },
+  {
+    "row": 138,
+    "rowsha": "kDnZSW4VphkhtwL3v8EApZ+u8pRdph6444CSli4qES0=",
+    "originContent": "- **Bit Depth:** 65,536 levels of detail (2^16) or 4,294,967,296 (2^32)",
+    "translatedContent": "- **精度：** 可表示珠穆朗玛峰（8849米），间隔约13厘米（16位）  "
+  },
+  {
+    "row": 139,
+    "rowsha": "NPgl83dYr1ZbElUkTlQZUDrWKQ9nW3p1wfLiD61oQzc=",
+    "originContent": "- **Precision:** Capable of representing Mount Everest (8,849m) in ~13cm intervals (16 bit)",
+    "translatedContent": "- **源数据：** Mapzen高程数据（24位精度，约4毫米精细度）  "
+  },
+  {
+    "row": 140,
+    "rowsha": "kxmyTRzIvN6jSdEolblO0I+m2P28Faaz/iV4anYlxPg=",
+    "originContent": "- **Source Data:** Mapzen elevation data (24-bit precision, ~4mm fidelity)",
+    "translatedContent": ""
+  },
+  {
+    "row": 141,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 🤝 贡献"
+  },
+  {
+    "row": 142,
+    "rowsha": "at6hrw28jajyC/COQshM9hi9BRHLqV9/VqOkVxuU1vQ=",
+    "originContent": "## 🤝 Contributing",
+    "translatedContent": ""
+  },
+  {
+    "row": 143,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "欢迎贡献！请随时提交问题，分叉仓库并创建拉取请求。"
+  },
+  {
+    "row": 144,
+    "rowsha": "r3SNqqmwXNcjaZ1amRa0xI5JP8u3zrw2x9kjKP+mU6Y=",
+    "originContent": "Contributions are welcome! Please feel free to submit issues, fork the repository, and create pull requests.",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 📄 许可证"
+  },
+  {
+    "row": 146,
+    "rowsha": "qdzKI50RqHyAaNHbQuVekCMXyk/TfGfppMlRPvlONC4=",
+    "originContent": "## 📄 License",
+    "translatedContent": ""
+  },
+  {
+    "row": 147,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "本项目采用MIT许可证 - 详情请见[许可证](LICENSE)文件。"
+  },
+  {
+    "row": 148,
+    "rowsha": "fOZgQLjSABDxHjJbYQ1wqD20ynEX33m+IkBDktyXUqY=",
+    "originContent": "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.",
+    "translatedContent": ""
+  },
+  {
+    "row": 149,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "高程数据由[Mapzen](https://www.mapzen.com/blog/elevation/)提供，可能有其自身的许可条款。"
+  },
+  {
+    "row": 150,
+    "rowsha": "jHc/cXxOuwkRhcJrvNzJHrd9XIFgDVBo97LEH1uxHRo=",
+    "originContent": "The elevation data is provided by [Mapzen](https://www.mapzen.com/blog/elevation/) and may have its own licensing terms.",
+    "translatedContent": ""
+  },
+  {
+    "row": 151,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 💖 支持"
+  },
+  {
+    "row": 152,
+    "rowsha": "APIYKfR1wPWP3Xmu6zuTmsAK3VmWuPgDA6xEopqZIMU=",
+    "originContent": "## 💖 Support",
+    "translatedContent": ""
+  },
+  {
+    "row": 153,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 154,
+    "rowsha": "LDjTJo59edjrEqnYf/OkYFhAfFTgRoQ/T3ZQHX+oCnY=",
+    "originContent": "If you find this tool useful, please consider supporting the project:",
+    "translatedContent": "如果您觉得这个工具有用，请考虑支持该项目："
+  },
+  {
+    "row": 155,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 156,
+    "rowsha": "exC4GQSC9CD7HYQ37QP5xk3soCCF+5iBbg+kePeD288=",
+    "originContent": "- ☕ [Buy me a coffee on Ko-fi](https://ko-fi.com/harrymustoeplayfair)",
+    "translatedContent": "- ☕ [在 Ko-fi 上请我喝咖啡](https://ko-fi.com/harrymustoeplayfair)"
+  },
+  {
+    "row": 157,
+    "rowsha": "7WrTDum1qBAOqKie9yyWx4dDh/3/r7d2G15K4OcL/dc=",
+    "originContent": "- ⭐ Star this repository",
+    "translatedContent": "- ⭐ 给这个仓库加星"
+  },
+  {
+    "row": 158,
+    "rowsha": "zY2jJAd2L4t+IkdvWju6YA/nnu5U5tmSU2HaS//W6Mc=",
+    "originContent": "- 🐦 Share it with others who might find it useful",
+    "translatedContent": "- 🐦 分享给可能觉得有用的其他人"
+  },
+  {
+    "row": 159,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 160,
+    "rowsha": "qNOAwfAbnQ0oGAw8kiCxNmOxAO6HNOriMNTHzMq+bx0=",
+    "originContent": "## 🙏 Acknowledgments",
+    "translatedContent": "## 🙏 致谢"
+  },
+  {
+    "row": 161,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 162,
+    "rowsha": "5/ELut9CkHpkF9SXFKqaPkc5VK6PP7h3XwTB82S763E=",
+    "originContent": "- [Mapzen](https://www.mapzen.com/) for providing high-quality global elevation data",
+    "translatedContent": "- [Mapzen](https://www.mapzen.com/) 提供高质量的全球高程数据"
+  },
+  {
+    "row": 163,
+    "rowsha": "0QYgrJxGZ1ShqTkSmwhANIGeP8YFg9tzsaXCJKnY4Ic=",
+    "originContent": "- [Unreal Engine](https://www.unrealengine.com/) community for inspiration and use cases",
+    "translatedContent": "- [虚幻引擎](https://www.unrealengine.com/) 社区的灵感和使用案例"
+  },
+  {
+    "row": 164,
+    "rowsha": "PEhRCACKMjozHnbD+7BYkrQgapRTMg6nN+MV+ZExEUg=",
+    "originContent": "- All contributors and users of this tool",
+    "translatedContent": "- 所有贡献者和使用该工具的用户"
+  },
+  {
+    "row": 165,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 166,
+    "rowsha": "7ophhEn/NFL0nQcKMg6loTudYaLMkP15MvGy2BhlE4Y=",
+    "originContent": "## 📞 Contact",
+    "translatedContent": "## 📞 联系方式"
+  },
+  {
+    "row": 167,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 168,
+    "rowsha": "uR0WBOSHIyVXqwX8TXz95g4AQMKb82A1hMLJcb03k9c=",
+    "originContent": "- **Author:** Harry Mustoe-Playfair",
+    "translatedContent": "- **作者：** Harry Mustoe-Playfair"
+  },
+  {
+    "row": 169,
+    "rowsha": "pmGAu2kVFA2G/dvUddyvfwWalzO9bjOj5qYEPg3P8ZE=",
+    "originContent": "- **Email:** harry.mustoeplayfair@gmail.com",
+    "translatedContent": "- **邮箱：** harry.mustoeplayfair@gmail.com"
+  },
+  {
+    "row": 170,
+    "rowsha": "I+i81r7ClZ6ge3Y14d4eKnVU4pUKeNKOo46iSD9Wk74=",
+    "originContent": "- **GitHub:** [manticorp](https://github.com/manticorp)",
+    "translatedContent": "- **GitHub：** [manticorp](https://github.com/manticorp)"
+  },
+  {
+    "row": 171,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 172,
+    "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+    "originContent": "---",
+    "translatedContent": "---"
+  },
+  {
+    "row": 173,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 174,
+    "rowsha": "UbeAuN3HztVVVWMw/OJ48fxU0Q0PVKWqGqwIvEV5x4M=",
+    "originContent": "Made with ❤️ for the Unreal Engine, 3D and game development community",
+    "translatedContent": "为虚幻引擎、3D 和游戏开发社区倾心制作 ❤️"
+  },
+  {
+    "row": 175,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

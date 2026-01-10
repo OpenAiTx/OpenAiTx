@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 言語</summary>
@@ -26,23 +27,24 @@
       </div>
     </div>
   </details>
+
 </div>
 
 <div align="center"> 
     <br/>
     <p>
-        <img src="https://github.com/neon443/AirAP/blob/main/AirAP/Assets.xcassets/AppIcon.appiconset/Icon.png?raw=true" title="cobalt" alt="cobalt logo" width="100" />
+        <img src="https://files.catbox.moe/f4jofb.png" title="icon" alt="icon" width="100" />
     </p>
     <p>
-        iPhoneをAirPlay受信機として使おう
+        iPhoneをAirPlayレシーバーとして使う
         <br/>
         <a href="https://neon443.github.io">
-            neon443 作
+            制作者: neon443
         </a>
     </p>
     <p>
         <a href="https://testflight.apple.com/join/8aeqD8Q2">
-            testflight
+            TestFlight
         </a>
     </p>
     <br/>
@@ -51,29 +53,28 @@
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
     <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/739361f1d440b17fc9e2f74e49fc185d86cbec14_badge.png" 
-         alt="This project is part of Shipwrecked, the world's first hackathon on an island!" 
+         alt="このプロジェクトは世界初の島上ハッカソン『Shipwrecked』の一部です！" 
          style="width: 25%;">
   </a>
 </div>
 
 <br/>
 
-AirAPは、iOS向けにSwiftで書かれた完全ネイティブのAirPlayサーバーです。基本的に、AirAPを使うことでiPhoneをiTunesやMacのAirPlay受信機として利用でき、iPhoneでデバイスのサウンドを再生できます。
+AirAPは、iOS向けにSwiftで書かれた完全ネイティブなAirPlayサーバーです。基本的にAirAPは、iPhoneをiTunesやMac上でAirPlayレシーバーとして利用できるようにし、あなたのiPhoneでデバイスの音声を再生できます。
 
 ## AirAPとは？
 
-MacやApple TV、他のiOSデバイスからiPhoneにオーディオをストリーミングしたいと思ったことはありませんか？AirAPは、iOS上でネイティブに動作する完全なAirPlayサーバーを実装することで、それを可能にします。インストールすると、iPhoneがシステム環境設定の「サウンド」ペインやMusic.app、その他のAirPlay対応アプリにAirPlayの出力先として表示されます。
+Mac、Apple TV、または他のiOSデバイスからiPhoneに音声をストリーミングしたいと思ったことはありませんか？AirAPは、iOS上でネイティブに動作するフル機能のAirPlayサーバーを実装することでこれを可能にします。インストール後、iPhoneはシステム環境設定の「サウンド」パネル、Music.app、またはその他のAirPlay対応アプリで利用可能なAirPlay宛先として表示されます。
 
-最初は逆の発想に思えるかもしれません ― 通常はiPhoneから他のデバイスへストリーミングすることに慣れていますから。しかし、逆方向にしたい場面も意外と多いものです。例えば夜遅くにMacで作業していて、音声をiPhoneとヘッドホンにルーティングして誰にも迷惑をかけたくない時（こんにちは 👋）。あるいは、音声アプリケーションをテストする開発者で、すぐに出力デバイスを切り替えたい時。もしくは、古い有線スピーカーを再利用したい時などです。
+このコンセプトは最初は逆に感じるかもしれません ― というのも、通常はiPhoneから他のデバイスにストリーミングすることが多いからです。しかし、逆にしたい場面は意外と多くあります。例えば、夜遅くにMacで作業していて、誰も邪魔せずにイヤホン付きiPhoneに音声をルーティングしたい時（こんにちは 👋）。または、開発者がオーディオアプリのテストで出力デバイスをすばやく切り替えたい時。あるいは古い有線スピーカーを再利用したいときなどです。
 
 ## AirAPのインストール
 
-試してみたい場合は、[このTestFlightリンクを開いて](https://testflight.apple.com/join/8aeqD8Q2)AirAPをインストールし、手順に従ってください。インストール後は、AirAPを起動し、iPhoneがストリーミング元デバイスと同じWi-Fiネットワークに接続されていることを確認します。iPhoneはAirPlayデバイス一覧に自動的に表示され、すぐに音声を受信できるようになります ― もし表示されない場合はアプリを再起動してみてください。
+試してみるには、[このTestFlightリンクを開いて](https://testflight.apple.com/join/8aeqD8Q2)、AirAPをインストールし、指示に従ってください。インストール後、AirAPを起動し、iPhoneがストリーミング元のデバイスと同じWi-Fiネットワークに接続されていることを確認します。iPhoneは自動的にAirPlayデバイス一覧に表示され、すぐに音声受信が可能です ― もし表示されない場合はアプリを再起動してください。
 
-## コンパイル
+## コンパイル方法
 
-[homebrew](https://brew.sh)がインストールされていることを確認してください
-
+[homebrew](https://brew.sh)がインストールされていることを確認してください。
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP
@@ -99,6 +100,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
 
 ---

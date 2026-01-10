@@ -1,40 +1,42 @@
+
 <div align="right">
   <details>
     <summary >🌐 Language</summary>
     <div>
       <div align="center">
         <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=en">English</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=zh-CN">简体中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=zh-TW">繁體中文</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ja">日本語</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ko">한국어</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=hi">हिन्दी</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=th">ไทย</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=fr">Français</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=de">Deutsch</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=es">Español</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=it">Italiano</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ru">Русский</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=pt">Português</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=nl">Nederlands</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=pl">Polski</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ar">العربية</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=fa">فارسی</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=tr">Türkçe</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=vi">Tiếng Việt</a>
-        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=zh-CN">Simplified Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=zh-TW">Traditional Chinese</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ja">Japanese</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ko">Korean</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=hi">Hindi</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=th">Thai</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=fr">French</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=de">German</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=es">Spanish</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=it">Italian</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ru">Russian</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=pt">Portuguese</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=nl">Dutch</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=pl">Polish</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=ar">Arabic</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=fa">Persian</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=tr">Turkish</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=vi">Vietnamese</a>
+        | <a href="https://openaitx.github.io/view.html?user=neon443&project=AirAP&lang=id">Indonesian</a>
       </div>
     </div>
   </details>
+
 </div>
 
 <div align="center"> 
     <br/>
     <p>
-        <img src="https://github.com/neon443/AirAP/blob/main/AirAP/Assets.xcassets/AppIcon.appiconset/Icon.png?raw=true" title="cobalt" alt="cobalt logo" width="100" />
+        <img src="https://files.catbox.moe/f4jofb.png" title="icon" alt="icon" width="100" />
     </p>
     <p>
-        use your iphone as an airplay receiver
+        use your iPhone as an AirPlay receiver
         <br/>
         <a href="https://neon443.github.io">
             made by neon443
@@ -73,7 +75,6 @@ To try it out, [open this TestFlight link](https://testflight.apple.com/join/8ae
 ## Compiling
 
 Make sure you have [homebrew](https://brew.sh)
-
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP
@@ -99,6 +100,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
 
 ---

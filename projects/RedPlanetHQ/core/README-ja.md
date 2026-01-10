@@ -29,198 +29,844 @@
 </div>
 
 <div align="center">
-  <a href="https://core.heysol.ai">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE ロゴ" />
+  <a href="https://getcore.me">
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="COREロゴ" />
   </a>
 
-### CORE: AIアプリのためのあなた専用のメモリレイヤー
+### CORE: あなたのデジタルブレイン - AIツールのためのメモリー＋アクション
 
 <p align="center">
-    <a href="https://deepwiki.com/RedPlanetHQ/core">
-        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki バッジ" />
+    <a href="https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==">
+        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="Cursorに追加" />
+    </a>
+    <a href="https://railway.com/deploy/core">
+        <img src="https://railway.app/button.svg" width="150px" alt="Railwayでデプロイ" />
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/introduction"><b>ドキュメント</b></a> •
-    <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
+    <a href="https://heysol.ai">
+        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50" alt="ウェブサイト" />
+    </a>
+    <a href="https://docs.getcore.me">
+        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-green" alt="ドキュメント" />
+    </a>  
+    <a href="https://discord.gg/YGUZcvDjUa">
+        <img src="https://img.shields.io/badge/Discord-community-purple" alt="Discord" />
+    </a>    
 </p>
 </div>
 
-## 🔥 研究ハイライト
+---
 
-COREメモリはLocomoデータセットの全推論タスクで平均**88.24%**の精度を達成し、他のメモリプロバイダーを大きく上回りました。詳細は[ブログ](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/)をご覧ください。
+重要な情報が、連携しないツール間に散在しています。AIとの会話は「少し背景を説明しますね」から始まります。経験や学びはあなたの頭の中にあり、頭脳はスケールしません。
 
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) シングルホップ質問は1つのセッションに基づいて回答されます；(2) マルチホップ質問は複数の異なるセッションから情報を統合して回答します；(3) オープンドメイン知識質問は話者が提供した情報と外部知識（常識や世界の事実など）を統合して回答できます；(4) 時間推論質問は会話内の時系列データ手がかりを捉えることで時間推論によって回答されます；
+**COREは記憶します**。データベースでも検索ボックスでもありません。重要なことを学習し、関連をつなぎ、必要な情報を引き出すデジタル脳です。
 
-## 概要
+## 開発者向け
 
-**問題点** 
+COREは、AIツールに永続的なメモリと、利用中のアプリでアクションする能力を提供します。
 
-開発者はAIツールに文脈を何度も説明するのに時間を浪費しています。Claudeでトークン上限に達すると、最初からやり直してすべて失います。ChatGPT/ClaudeからCursorへ切り替えたら、また文脈を説明し直さなければなりません。会話、決定、洞察はセッション間で消えてしまいます。新しいAIツールを使うたびに、コンテキスト切り替えのコストが増大します。
+- Claude Code、Cursorなどのコーディングエージェント全体でコンテキストを保持
+- Linear、GitHub、Slack、Gmail、Google Sheetsなどの各アプリでアクションを実行
+- MCPで一度接続すれば、どこでも動作
+- オープンソース＆セルフホスト可能：あなたのデータ、あなたのコントロール
 
-**解決策** - **CORE**（**Contextual Observation & Recall Engine**）
+---
 
-COREはすべてのAIツール向けのオープンソース統合型・永続型メモリレイヤーです。あなたの文脈はCursorからClaude、ChatGPT、Claude Codeへと引き継がれます。一つのナレッジグラフが「誰が、いつ、何を、なぜ」話したかを記憶します。一度接続すれば、どこでも記憶。文脈管理はやめて、構築を始めましょう。
+## できること
 
-## 🚀 COREセルフホスティング
-COREを自分のインフラで稼働させたいですか？セルフホスティングなら、データと運用を完全にコントロールできます。
+### 1. 繰り返しをなくし、コンテキストが自動で流れる
 
-**前提条件**:
+COREはコーディングエージェントの永続的なメモリ層になります。任意のAIツールに、関連コンテキストの取得を依頼できます。
+```txt
+Search core memory for architecture decisions on the payment service
+```
+```txt
+What my content guidelines from core to create the blog?
+```
+![core_as_memory](https://github.com/user-attachments/assets/7ac5d3f3-ca36-428d-8e97-3412c398f74b)
 
-- Docker（20.10.0以上）およびDocker Compose（2.20.0以上）がインストール済み
-- OpenAI APIキー
+---
 
-> **オープンソースモデルに関する注意:** OllamaやGPTモデルなどOSSオプションをテストしましたが、事実抽出とグラフ品質は基準に達しませんでした。現在も選択肢を積極的に探しています。
+### 2. Claude/Cursorからアプリでアクションを実行
 
-### セットアップ
+一度アプリを接続すれば、どこからでも操作可能。
 
-1. リポジトリをクローンします:
+- GitHubやLinearの課題作成/閲覧
+- メールの下書き/送信/閲覧とCOREへの関連情報保存
+- カレンダー管理、スプレッドシートの更新
+
+
+![actions](https://github.com/user-attachments/assets/60295a77-bdfd-4d57-aff5-d77ecb41e72d)
+
+---
+
+### 3. Claudeコード/カーソルで作業再開
+
+一週間後に機能へ戻っても、すぐに状況把握できます。
+```txt
+What did we discuss about the checkout flow? Summarize from memory.
+```
+```txt
+Refer to past discussions and remind me where we left off on the API refactor
+```
+![claude-code-in-core](https://github.com/user-attachments/assets/0bd9566b-a8cc-49d9-a3cf-368658906c39)
+
+---
+
+## COREの特長
+
+1. **時系列コンテキストグラフ**：COREは単なる事実の保存ではありません。出来事が起きた時、思考の進化、各決定に至った経緯を記憶します。あなたの好み、目標、過去の選択が、順序と文脈を理解するグラフでつながります。
+
+2. **88.24%のリコール精度**：LoCoMoベンチマークで検証済み。COREに質問すれば、関連情報を見つけます。キーワード一致でなく、本当の意味理解とマルチホップ推論が可能です。
+
+3. **ユーザーが管理**：あなたの記憶はあなたのルールで。誤りは編集、不要なものは削除。知識のつながりを可視化。COREは透明で、知っていることがすべて見えます。
+
+4. **オープンソース**：ブラックボックスなし。ベンダーロックインなし。あなたのデジタル脳はあなたのものです。
+
+---
+
+## 🚀 クイックスタート
+
+お好きな方法を選択してください：
+
+| | **CORE Cloud** | **セルフホスト** |
+|---|---|---|
+| セットアップ時間 | 5分 | 15分 |
+| 最適な用途 | すぐ試す、インフラ不要 | 完全管理、自分のサーバー |
+| 必要条件 | アカウントのみ | Docker、4GB RAM |
+
+### クラウド
+
+1. **サインアップ**：[app.getcore.me](https://app.getcore.me) で登録
+2. **ソースを接続**（Claude、Cursor、またはMCP互換ツール）
+3. **COREを使い始める**：あなたについての行動や情報を記憶させる
+
+### セルフホスト
+
+**クイックデプロイ**
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/core)
+
+**またはDockerで**
+
+1. リポジトリをクローンします：
+
 ```
 git clone https://github.com/RedPlanetHQ/core.git
 cd core
 ```
-2. `core/.env`で環境変数を設定します。
+
+2. `core/.env`で環境変数を設定します:
+
 ```
 OPENAI_API_KEY=your_openai_api_key
 ```
+
 3. サービスを開始します
+
 ```
 docker-compose up -d
 ```
 
-デプロイが完了したら、AIプロバイダー（OpenAI、Anthropic）の設定を行い、メモリーグラフの構築を開始できます。
+デプロイが完了したら、AIプロバイダー（OpenAI、Anthropic）を設定し、メモリーグラフの構築を開始できます。
 
-👉 [完全なセルフホスティングガイドを表示](https://docs.heysol.ai/self-hosting/docker)
-
-注意: OllamaやGPT OSSなどのオープンソースモデルを試しましたが、事実生成の精度が低かったため、現在も改善方法を模索しています。改善でき次第、OSSモデルもサポート予定です。
-
-## 🚀 CORE Cloud
-**5分で統合メモリーグラフを構築：**
-
-インフラ管理をしたくない場合は、CORE Cloudで即座に個人用メモリーシステムを構築可能—セットアップ不要、サーバー不要、ただ使えるメモリー。
-
-1. [core.heysol.ai](https://core.heysol.ai)で**サインアップ**し、アカウントを作成
-2. **メモリーグラフを可視化**し、COREが事実間の接続を自動で形成する様子を確認
-3. **テスト実施**—会話セクションで「私について知っていることは？」と質問
-4. ツールと連携：
-   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) — 文脈を活用したコーディング
-   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) — メモリー搭載のターミナルコーディング
-   - [ブラウザー拡張機能追加](https://docs.heysol.ai/providers/browser-extension) — メモリーを任意のウェブサイトで活用
-   - [Linear](https://docs.heysol.ai/integrations/linear)、[Github](https://docs.heysol.ai/integrations/github) — プロジェクト文脈を自動追加
-
-## 🧩 主な機能
-
-### 🧠 **統合・ポータブルメモリー**: 
-**Cursor、Windsurf、Claude Desktop、Claude Code、Gemini CLI、AWSのKiro、VS Code、Roo Code**でMCPを介してメモリーの追加と呼び出しが可能
-
-![core-claude](https://github.com/user-attachments/assets/56c98288-ee87-4cd0-8b02-860aca1c7f9a)
+👉 [完全なセルフホスティングガイドを見る](https://docs.getcore.me/self-hosting/docker)
 
 
-### 🕸️ **時系列＋具体化ナレッジグラフ**: 
+> 注意: OllamaやGPT OSSのようなオープンソースモデルも試しましたが、事実生成の品質が良くありませんでした。今後さらに改善方法を模索し、OSSモデルもサポートする予定です。
 
-すべての事実の背景ストーリーを記憶—誰が、いつ、なぜ発言したかを豊かな関係性と完全な来歴で追跡し、単なる平面的な保存ではない
+## 🛠️ インストール
 
-![core-memory-graph](https://github.com/user-attachments/assets/5d1ee659-d519-4624-85d1-e0497cbdd60a)
+### 推奨
+
+<details>
+<summary><b>Claude Code CLIでインストール</b></summary>
+
+1. 以下のコマンドをターミナルで実行し、COREをClaude Codeに接続します:
+
+```sh
+claude mcp add --transport http --scope user core-memory https://mcp.getcore.me/api/v1/mcp?source=Claude-Code
+```
+
+2. `/mcp` と入力して、認証のために core-memory MCP を開いてください
+
+</details>
+
+<details>
+<summary><b>Cursor へのインストール</b></summary>
+
+> Cursor 1.0 以降では、下のインストールボタンをクリックするだけでワンクリックインストールが可能です。
+
+[![MCP サーバーをインストール](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==)
+
+または
+
+1. `Settings` -> `Tools & Integrations` -> `Add Custom MCP` に移動します
+2. `mcp.json` ファイルに以下を入力してください:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=cursor",
+      "headers": {}
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Claude Desktopへのインストール</b></summary>
+
+1. CORE MCPのURLをコピーします:
+
+```
+https://mcp.getcore.me/api/v1/mcp?source=Claude
+```
+
+2. 設定 → コネクタ → カスタムコネクタを追加をクリックします
+3. 「接続」をクリックし、ClaudeにCORE MCPへのアクセス許可を付与します
+
+</details>
+
+### CLI
+
+<details>
+<summary><b>Codex CLI にインストール</b></summary>
+
+**オプション 1（推奨）：** `~/.codex/config.toml` ファイルに追加してください:
+
+```toml
+[features]
+rmcp_client=true
+
+[mcp_servers.memory]
+url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
+```
+
+次に、`codex mcp memory login` を実行します。
+
+**オプション2（オプション1がうまくいかない場合）：** APIキー設定を追加します。
+
+```toml
+[features]
+rmcp_client=true
+
+[mcp_servers.memory]
+url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
+http_headers = { "Authorization" = "Bearer CORE_API_KEY" }
+```
+
+APIキーは [app.getcore.me](https://app.getcore.me) → 設定 → APIキー から取得し、次のコマンドを実行してください: `codex mcp memory login`
+
+</details>
+
+<details>
+<summary><b>Gemini CLI へのインストール</b></summary>
+
+詳細は [Gemini CLI 設定](https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html) を参照してください。
+
+1. Gemini CLI 設定ファイルを開きます。場所は `~/.gemini/settings.json`（`~`はホームディレクトリ）です。
+2. `settings.json` ファイルの `mcpServers` オブジェクトに以下を追加してください:
+
+```json
+{
+  "mcpServers": {
+    "corememory": {
+      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=geminicli",
+      "timeout": 5000
+    }
+  }
+}
+```
+
+もし `mcpServers` オブジェクトが存在しない場合は、作成してください。
+
+</details>
+
+<details>
+<summary><b>Copilot CLIにインストールする</b></summary>
+
+以下を `~/.copilot/mcp-config.json` ファイルに追加してください:
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-CLI",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+### IDE（統合開発環境）
 
 
-### 🌐 **ブラウザー拡張機能**: 
+<details>
+<summary><b>VS Code へのインストール</b></summary>
 
-ChatGPT、Grok、Gemini、Twitter、YouTube、ブログ記事、任意のウェブページの会話とコンテンツを直接COREメモリーへ保存可能。
+以下を `mcp.json` ファイルに入力してください:
 
-**拡張機能の使い方**
-1. [Chrome ウェブストア](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)から拡張機能をダウンロードします。
-2. [COREダッシュボード](https://core.heysol.ai)にログインします
-   - 設定（左下）へ移動
-   - APIキー → 新しいキーを生成 → 名前は「extension」にする。
-3. 拡張機能を開き、APIキーを貼り付けて保存します。
+```json
+{
+  "servers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Vscode",
+      "type": "http",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
 
-https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
+</details>
+
+<details>
+<summary><b>VS Code Insiders にインストール</b></summary>
+
+VS Code Insiders MCP 設定に追加してください:
+
+```json
+{
+  "mcp": {
+    "servers": {
+      "core-memory": {
+        "type": "http",
+        "url": "https://mcp.getcore.me/api/v1/mcp?source=VSCode-Insiders",
+        "headers": {
+          "Authorization": "Bearer YOUR_API_KEY"
+        }
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Windsurf へのインストール</b></summary>
+
+`mcp_config.json` ファイルに以下を入力してください:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "serverUrl": "https://mcp.getcore.me/api/v1/mcp/source=windsurf",
+      "headers": {
+        "Authorization": "Bearer <YOUR_API_KEY>"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Zed にインストールする</b></summary>
+
+1. エージェントパネルの `設定` に移動し -> `カスタムサーバーを追加`
+2. 下記のコードを設定ファイルに入力し、`サーバーを追加` ボタンをクリックしてください
+
+```json
+{
+  "core-memory": {
+    "command": "npx",
+    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=Zed"]
+  }
+}
+```
+
+</details>
+
+### コーディングエージェント
+
+<details>
+<summary><b>Amp にインストールする</b></summary>
+
+ターミナルで次のコマンドを実行してください:
+
+```sh
+amp mcp add core-memory https://mcp.getcore.me/api/v1/mcp?source=amp
+```
+
+</details>
+
+<details>
+<summary><b>Augment Code へのインストール</b></summary>
+
+`~/.augment/settings.json` ファイルに以下を追加してください:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=augment-code",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Cline にインストールする</b></summary>
+
+1. Cline を開き、ハンバーガーメニューアイコン（☰）をクリックして MCP サーバーセクションに入ります
+2. リモートサーバータブを選択し、構成の編集ボタンをクリックします
+3. 次の内容を Cline MCP 構成に追加します:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Cline",
+      "type": "streamableHttp",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Kilo Code へのインストール</b></summary>
+
+1. `設定` → `MCP サーバー` → `インストール済みタブ` → `グローバル MCP 編集` をクリックし、設定を編集します。
+2. MCP 設定ファイルに以下を追加します:
+
+```json
+{
+  "core-memory": {
+    "type": "streamable-http",
+    "url": "https://mcp.getcore.me/api/v1/mcp?source=Kilo-Code",
+    "headers": {
+      "Authorization": "Bearer your-token"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Kiro へのインストール</b></summary>
+
+Kiro → MCP サーバーに追加してください:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Kiro",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Qwen Coder へのインストール</b></summary>
+
+詳細については、[Qwen Coder MCP 設定](https://qwenlm.github.io/qwen-code-docs/en/tools/mcp-server/#how-to-set-up-your-mcp-server) を参照してください。
+
+`~/.qwen/settings.json` に追加してください：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=Qwen",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY",
+        "Accept": "application/json, text/event-stream"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Roo Code へのインストール</b></summary>
+
+Roo Code MCP の設定に追加してください:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "type": "streamable-http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Roo-Code",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Opencode へのインストール</b></summary>
+
+Opencode の設定に追加してください:
+
+```json
+{
+  "mcp": {
+    "core-memory": {
+      "type": "remote",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Opencode",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      },
+      "enabled": true
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Copilot Coding Agent にインストールする</b></summary>
+
+リポジトリの設定 → Copilot → Coding agent → MCP 設定に追加します:
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-Agent",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary><b>Qodo Gen へのインストール</b></summary>
+
+1. VSCode または IntelliJ で Qodo Gen チャットパネルを開きます
+2. 「Connect more tools」をクリックし、続いて「+ Add new MCP」をクリックします
+3. 以下の設定を追加します：
 
 
-### 💬 **メモリ付きチャット**: 
-「私の執筆の好みは？」などの質問をして、接続された知識から即座に洞察を得ることができます
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Qodo-Gen"
+    }
+  }
+}
+```
 
-![chat-with-memory](https://github.com/user-attachments/assets/d798802f-bd51-4daf-b2b5-46de7d206f66)
+</details>
+
+### ターミナル
+
+<details>
+<summary><b>Warp にインストール</b></summary>
+
+設定 → AI → MCP サーバーの管理に追加してください:
+
+```json
+{
+  "core": {
+    "url": "https://mcp.getcore.me/api/v1/mcp?source=Warp",
+    "headers": {
+      "Authorization": "Bearer YOUR_API_KEY"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Crush へのインストール</b></summary>
+
+Crush の設定に追加してください:
+
+```json
+{
+  "$schema": "https://charm.land/crush.json",
+  "mcp": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Crush",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+</details>
+
+### デスクトップアプリ
+
+<details>
+<summary><b>ChatGPT にインストール</b></summary>
+
+ChatGPT を CORE のメモリシステムにブラウザ拡張機能で接続します：
+
+1. [Core ブラウザ拡張機能をインストール](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
+2. API キーを生成：設定 → API キー → 新しいキーを生成 → 「extension」と名付ける
+3. Core 拡張機能に API キーを追加し、「保存」をクリック
+
+</details>
+
+<details>
+<summary><b>Gemini にインストール</b></summary>
+
+Gemini を CORE のメモリシステムにブラウザ拡張機能で接続します：
+
+1. [Core ブラウザ拡張機能をインストール](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
+2. API キーを生成：設定 → API キー → 新しいキーを生成 → 「extension」と名付ける
+3. Core 拡張機能に API キーを追加し、「保存」をクリック
+
+</details>
+
+<details>
+<summary><b>Perplexity Desktop にインストール</b></summary>
+
+1. Perplexity → 設定 → コネクター → コネクターを追加 → 詳細設定に追加：
 
 
-### ⚡ **アプリからの自動同期**:
+```json
+{
+  "core-memory": {
+    "command": "npx",
+    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=perplexity"]
+  }
+}
+```
 
-Linear、Slack、Notion、GitHubなど接続されたアプリから関連するコンテキストをCOREメモリに自動で取り込みます
+2. 変更を適用するには「保存」をクリックします
+3. CoreはあなたのPerplexityセッションで利用可能になります
 
-📖 **[統合一覧を見る](https://raw.githubusercontent.com/RedPlanetHQ/core/main/./integrations/README.md)** - サポートされているサービスとその機能の完全リスト
+</details>
 
-![core-slack](https://github.com/user-attachments/assets/d5fefe38-221e-4076-8a44-8ed673960f03)
+### 開発ツール
 
+<details>
+<summary><b>Factoryにインストール</b></summary>
 
-### 🔗 **MCPインテグレーションハブ**: 
+ターミナルで実行してください:
 
-Linear、Slack、GitHub、Notionを一度COREに接続すれば、Claude、Cursor、または任意のMCPクライアントで全てのツールを単一URLで利用可能
+```sh
+droid mcp add core https://mcp.getcore.me/api/v1/mcp?source=Factory --type http --header "Authorization: Bearer YOUR_API_KEY"
+```
 
+droid内で /mcp を入力してサーバーを管理し、利用可能なツールを表示します。
 
-![core-linear-claude](https://github.com/user-attachments/assets/7d59d92b-8c56-4745-a7ab-9a3c0341aa32)
+</details>
 
+<details>
+<summary><b>Rovo Dev CLI にインストール</b></summary>
 
+1. mcp の設定を編集します:
 
-## COREがメモリを作成する方法
+```sh
+acli rovodev mcp
+```
+
+2. Rovo Dev MCP 構成に追加してください:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Rovo-Dev"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Trae へのインストール</b></summary>
+
+Trae MCP の設定に追加してください:
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Trae"
+    }
+  }
+}
+```
+</details>
+
+## 🔨 利用可能なツール
+
+CORE Memory MCPは、LLMが使用できる以下のツールを提供します。
+
+- `memory_search`: CORE Memoryから関連するコンテキストを検索します。
+- `memory_ingest`: CORE Memoryにエピソードを追加します。
+- `memory_about_user`: CORE Memoryからユーザーパーソナを取得します。
+- `initialise_conversation_session`: 会話を初期化し、セッションIDを割り当てます。
+- `get_integrations`: 接続された統合機能から使用すべき関連統合を取得します。
+- `get_integrations_actions`: タスクに対してその統合のツールから使用すべきツールを取得します。
+- `execute_integrations_actions`: その統合のツールを実行します。
+
+---
+
+## 仕組み
+
+### メモリ取り込み
 
 <img width="12885" height="3048" alt="memory-ingest-diagram" src="https://github.com/user-attachments/assets/c51679de-8260-4bee-bebf-aff32c6b8e13" />
 
-COREの取り込みパイプラインは、進化するコンテキストを捉えるために設計された4つのフェーズで構成されています:
+コンテキストをCOREに保存すると、次の4つのフェーズを経ます。
 
-1. **正規化**: 新しい情報を最近のコンテキストにリンクし、長いドキュメントをクロスリファレンスを維持しつつ一貫したチャンクに分割し、用語を標準化します。これにより、COREが知識を抽出する時点では、雑多なテキストではなく、クリーンで文脈化された入力を扱います。
-2. **抽出**: 正規化されたテキストから意味を引き出し、エンティティ（人物、ツール、プロジェクト、概念）を特定し、文脈・出典・時刻を付与したステートメントに変換し、関係性をマッピングします。例えば「We wrote CORE in Next.js」は、エンティティ（CORE, Next.js）、ステートメント（COREはNext.jsで開発された）、関係（開発された）となります。
-3. **解決**: 矛盾を検出し、嗜好の変化を追跡し、複数の視点を出典付きで保持することで、最新のスナップショットだけでなく全体の記憶の軌跡を反映します。
-4. **グラフ統合**: エンティティ、ステートメント、エピソードを時系列のナレッジグラフに接続し、事実をその文脈や履歴にリンクさせ、孤立したデータをエージェントが実際に活用できる生きた知識のウェブに変換します。
+1. **正規化**: 新しい情報を直近のコンテキストにリンクし、文書を意味のあるチャンクに分割、相互参照を維持
+2. **抽出**: エンティティ（人物、ツール、プロジェクト）の特定、文脈と時間を含むステートメントの作成、関係のマッピング
+3. **解決**: 矛盾の検出、嗜好の変化の追跡、出典付きで複数の視点を保存
+4. **グラフ統合**: エンティティ、ステートメント、エピソードを時間的なナレッジグラフに接続
 
-結果: フラットなデータベースではなく、COREはあなたと共に成長・変化する記憶を提供します。文脈、進化、所有権を保持し、エージェントが実際に利用できるようになります。
+例: 「We wrote CORE in Next.js」は次のようになります。
 
+- エンティティ: `CORE`, `Next.js`
+- ステートメント: `CORE was developed using Next.js`
+- 関係: `was developed using`
 
 ![memory-ingest-eg](https://github.com/user-attachments/assets/1d0a8007-153a-4842-9586-f6f4de43e647)
 
-## COREによる記憶からのリコール方法
+### メモリリコール
+
 
 <img width="10610" height="3454" alt="memory-search-diagram" src="https://github.com/user-attachments/assets/3541893e-f7c9-42b9-8fad-6dabf138dbeb" />
 
-あなたがCOREに質問すると、単にテキストを検索するだけでなく、全ナレッジグラフを掘り下げて最も有用な答えを見つけます。
+CORE にクエリを送信すると:
 
-1. **検索**: COREは複数の角度から記憶を検索します――キーワード検索による完全一致、セマンティック検索で異なる表現でも関連するアイデアを探し、グラフトラバーサルで繋がった概念間のリンクを辿ります。
-2. **再ランク**: 検索結果は最も関連性が高く多様なものが目立つように並び替えられ、単なる一致だけでなく深い関連も見つけやすくします。
-3. **フィルタリング**: COREは時刻、信頼性、関係の強さなどに基づくスマートなフィルターを適用し、最も意味のある知識だけが表面化します。
-4. **出力**: 明確な事実（ステートメント）と、その出典となるエピソード（元の文脈）の両方が返されるので、リコールは常に文脈・時刻・ストーリーに根ざします。
+1. **検索**: ハイブリッド方式：キーワード + セマンティック + グラフ探索
+2. **再ランク付け**: 最も関連性が高く多様な結果を表示
+3. **フィルター**: 時間、信頼性、関係性強度フィルターを適用
+4. **出力**: ファクトとそれが発生したエピソードを返す
 
-結果: COREは単なる事実を呼び出すだけでなく、適切な文脈・時刻・ストーリーとともに呼び出すため、エージェントがあなたの記憶通りに応答できます。
+CORE は単に事実を記憶するだけでなく、時間やストーリーの文脈ごとに呼び出すので、エージェントがあなたの記憶のように応答します。
 
-## ドキュメント
+---
 
-COREを最大限に活用するためにドキュメントをご覧ください
+## 🛠️ エージェント開発者向け
 
-- [基本概念](https://docs.heysol.ai/concepts/memory_graph)
-- [セルフホスティング](https://docs.heysol.ai/self-hosting/overview)
-- [Core MCPとClaudeの接続](https://docs.heysol.ai/providers/claude)
-- [Core MCPとCursorの接続](https://docs.heysol.ai/providers/cursor)
-- [Core MCPとClaude Codeの接続](https://docs.heysol.ai/providers/claude-code)
-- [Core MCPとCodexの接続](https://docs.heysol.ai/providers/codex) 
+AIエージェントを構築していますか？COREはメモリ基盤 + インテグレーション基盤を提供し、エージェントのロジックに集中できます。
 
-- [基本概念](https://docs.heysol.ai/overview)
-- [APIリファレンス](https://docs.heysol.ai/api-reference/get-user-profile)
+### 得られるもの
+
+**メモリ基盤**
+- 88.24% LoCoMo精度の時系列知識グラフ
+- ハイブリッド検索：セマンティック + キーワード + グラフ探索
+- 文脈の進化や矛盾を追跡
+
+**インテグレーション基盤**
+- GitHub、Linear、Slack、Gmailと一度接続
+- エージェントが全連携アプリの MCP ツールを利用可能
+- OAuthフローの構築不要、API保守不要
+
+### プロジェクト例
+
+**[core-cli](https://github.com/RedPlanetHQ/core-cli)** — COREに接続し、LinearやGitHub Issuesと同期するタスク管理エージェント。
+
+**[holo](https://github.com/RedPlanetHQ/holo)** — COREの記憶をチャット機能付きの個人ウェブサイトに変換。
+
+### リソース
+
+- [APIリファレンス](https://docs.getcore.me/api-reference)
+- [SDKドキュメント](https://docs.getcore.me)
+- 特定のインテグレーションが必要ですか？[GitHub Issue を開く](https://github.com/RedPlanetHQ/core/issues)
+---
+
+## 🔥 研究ハイライト
+
+COREメモリは、すべての推論タスクにおいてLocomoデータセットで平均**88.24%**の精度を達成し、他のメモリプロバイダーを大きく上回ります。
+
+<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
+
+| タスクタイプ | 説明 |
+|--------------|------|
+| シングルホップ | 単一セッションに基づく回答 |
+| マルチホップ | 複数セッションからの情報統合 |
+| オープンドメイン | ユーザー情報と外部知識の統合 |
+| 時間推論 | 時間に関する手がかりや順序理解 |
+
+
+[ベンチマーク手法と結果を見る →](https://github.com/RedPlanetHQ/core-benchmark)
+
+---
+
 
 ## 🔒 セキュリティ
 
-COREはセキュリティを重視しています。業界標準のセキュリティ対策を実装し、あなたのデータを保護します。
-- **データ暗号化**：転送中のデータ（TLS 1.3）および保存時のデータ（AES-256）をすべて暗号化
-- **認証**：OAuth 2.0とマジックリンク認証
-- **アクセス制御**：ワークスペース単位の分離とロールベースの権限管理
-- **脆弱性報告**：セキュリティ問題は harshith@poozle.dev までご報告ください
+CASA Tier 2 認証取得済 — GoogleのOAuth要件を満たすため第三者監査済み。
 
-詳細なセキュリティ情報は、[セキュリティポリシー](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)をご覧ください。
+- 暗号化: TLS 1.3（転送中）＋ AES-256（保存時）
+- 認証: OAuth 2.0およびマジックリンク
+- アクセス制御: ワークスペース単位の隔離、ロールベースの権限
+- ゼロトラストアーキテクチャ: 信頼せず、常に検証
+
+あなたのデータ、あなたの管理：
+
+- いつでも編集・削除可能
+- AIモデル学習に一切使用しません
+- 完全隔離のセルフホスティングオプション
+
+詳細なセキュリティ情報は、[セキュリティポリシー](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)をご参照ください。
+
+脆弱性報告: harshith@poozle.dev
+
+## ドキュメント
+
+CORE を最大限に活用するためにドキュメントをご覧ください
+
+- [セルフホスティング](https://docs.getcore.me/self-hosting/overview)
+- [基本概念](https://docs.getcore.me/overview)
+- [メモリーグラフ](https://docs.getcore.me/concepts/memory_graph)
+- [APIリファレンス](https://docs.getcore.me/api-reference/get-user-profile)
 
 ## 🧑‍💻 サポート
 
-ご質問やご意見がありますか？私たちがサポートします:
+ご質問やご意見がありますか？私たちがお手伝いします：
 
 - Discord: [core-support チャンネルに参加](https://discord.gg/YGUZcvDjUa)
-- ドキュメント: [docs.heysol.ai](https://docs.heysol.ai)
+- ドキュメント: [docs.getcore.me](https://docs.getcore.me)
 - メール: manik@poozle.dev
 
 ## 利用ガイドライン
@@ -229,17 +875,17 @@ COREはセキュリティを重視しています。業界標準のセキュリ�
 
 - 会話履歴
 - ユーザー設定
-- タスクのコンテキスト
+- タスクコンテキスト
 - 参考資料
 
 **保存しないもの:**
 
 - 機微情報（PII）
-- 認証情報
+- 資格情報
 - システムログ
 - 一時データ
 
-## 👥 コントリビューター
+## 👥 貢献者
 
 <a href="https://github.com/RedPlanetHQ/core/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RedPlanetHQ/core" />
@@ -251,17 +897,8 @@ COREはセキュリティを重視しています。業界標準のセキュリ�
 
 
 
-
-
-
-
-
-
-
-
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
 
 ---

@@ -1,3 +1,4 @@
+
 <div align="right">
   <details>
     <summary >🌐 Język</summary>
@@ -26,15 +27,16 @@
       </div>
     </div>
   </details>
+
 </div>
 
 <div align="center"> 
     <br/>
     <p>
-        <img src="https://github.com/neon443/AirAP/blob/main/AirAP/Assets.xcassets/AppIcon.appiconset/Icon.png?raw=true" title="cobalt" alt="cobalt logo" width="100" />
+        <img src="https://files.catbox.moe/f4jofb.png" title="ikona" alt="ikona" width="100" />
     </p>
     <p>
-        używaj swojego iPhone'a jako odbiornika AirPlay
+        użyj swojego iPhone'a jako odbiornika AirPlay
         <br/>
         <a href="https://neon443.github.io">
             wykonane przez neon443
@@ -58,22 +60,21 @@
 
 <br/>
 
-AirAP to w pełni natywny serwer AirPlay, napisany w Swift, dla iOS. Zasadniczo AirAP pozwala na użycie iPhone'a jako odbiornika AirPlay w iTunes lub na Macu, co oznacza, że możesz odtwarzać dźwięk swojego urządzenia na iPhonie.
+AirAP to w pełni natywny serwer AirPlay, napisany w Swift, dla iOS. W zasadzie AirAP pozwala używać iPhone’a jako odbiornika AirPlay w iTunes lub na Macu, co oznacza, że możesz użyć iPhone’a do odtwarzania dźwięku z innego urządzenia.
 
 ## Czym jest AirAP?
 
-Czy kiedykolwiek chciałeś przesyłać dźwięk ze swojego Maca, Apple TV lub innego urządzenia iOS na iPhone'a? AirAP to umożliwia, implementując pełny serwer AirPlay działający natywnie na iOS. Po zainstalowaniu Twój iPhone pojawi się jako dostępny cel AirPlay w ustawieniach dźwięku, aplikacji Muzyka lub dowolnej innej aplikacji zgodnej z AirPlay.
+Czy kiedykolwiek chciałeś przesłać dźwięk ze swojego Maca, Apple TV lub innego urządzenia iOS na iPhone’a? AirAP umożliwia to, implementując pełny serwer AirPlay działający natywnie na iOS. Po instalacji Twój iPhone pojawi się jako dostępny cel AirPlay w zakładce Dźwięk w Preferencjach systemowych, w aplikacji Muzyka lub w każdej innej aplikacji zgodnej z AirPlay.
 
-Koncepcja może wydawać się na początku odwrotna – w końcu jesteśmy przyzwyczajeni do przesyłania z iPhone'a na inne urządzenia. Ale istnieje zaskakująco wiele scenariuszy, w których chcesz zrobić odwrotnie. Może pracujesz na Macu późno w nocy i chcesz przesłać dźwięk na iPhone'a ze słuchawkami, aby nikogo nie budzić (cześć 👋). Może jesteś deweloperem testującym aplikacje audio i chcesz szybko przełączać się między różnymi urządzeniami wyjściowymi. Albo po prostu chcesz ponownie wykorzystać stare głośniki przewodowe.
+Na pierwszy rzut oka pomysł może wydawać się odwrócony – przecież zwykle przesyłamy z iPhone’a na inne urządzenia. Jednak jest zaskakująco wiele sytuacji, w których możesz chcieć zrobić odwrotnie. Może pracujesz na Macu późno w nocy i chcesz przekierować dźwięk na iPhone’a ze słuchawkami, by nie przeszkadzać innym (cześć 👋). Może jesteś deweloperem testującym aplikacje audio i chcesz szybko przełączać się między różnymi urządzeniami wyjściowymi. A może po prostu chcesz wykorzystać stare przewodowe głośniki.
 
 ## Instalacja AirAP
 
-Aby wypróbować, [otwórz ten link TestFlight](https://testflight.apple.com/join/8aeqD8Q2), zainstaluj AirAP i postępuj zgodnie z instrukcjami. Po instalacji uruchom AirAP i upewnij się, że iPhone jest połączony z tą samą siecią Wi-Fi, co urządzenie, z którego chcesz przesyłać dźwięk. Twój iPhone automatycznie pojawi się na liście urządzeń AirPlay, gotowy do odbioru dźwięku – jeśli nie, spróbuj ponownie uruchomić aplikację.
+Aby wypróbować, [otwórz ten link do TestFlight](https://testflight.apple.com/join/8aeqD8Q2), zainstaluj AirAP i postępuj zgodnie z instrukcjami. Po instalacji uruchom AirAP i upewnij się, że Twój iPhone jest podłączony do tej samej sieci Wi-Fi co urządzenie, z którego chcesz przesyłać dźwięk. Twój iPhone automatycznie pojawi się na liście urządzeń AirPlay, gotowy do odbioru dźwięku – jeśli się nie pojawi, spróbuj ponownie uruchomić aplikację.
 
 ## Kompilacja
 
-Upewnij się, że masz zainstalowany [homebrew](https://brew.sh)
-
+Upewnij się, że masz [homebrew](https://brew.sh)
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP
@@ -99,6 +100,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
 
 ---

@@ -29,213 +29,860 @@
 </div>
 
 <div align="center">
-  <a href="https://core.heysol.ai">
+  <a href="https://getcore.me">
     <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE 标志" />
   </a>
 
-### CORE：AI应用的个人记忆层
+### CORE：你的数字大脑 —— AI工具的记忆 + 行动
 
 <p align="center">
-    <a href="https://deepwiki.com/RedPlanetHQ/core">
-        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki 徽章" />
+    <a href="https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==">
+        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="添加到 Cursor" />
+    </a>
+    <a href="https://railway.com/deploy/core">
+        <img src="https://railway.app/button.svg" width="150px" alt="在 Railway 上部署" />
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/introduction"><b>文档</b></a> •
-    <a href="https://discord.gg/YGUZcvDjUa"><b>Discord 社区</b></a>
+    <a href="https://heysol.ai">
+        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50" alt="网站" />
+    </a>
+    <a href="https://docs.getcore.me">
+        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-green" alt="文档" />
+    </a>  
+    <a href="https://discord.gg/YGUZcvDjUa">
+        <img src="https://img.shields.io/badge/Discord-community-purple" alt="Discord 社区" />
+    </a>    
 </p>
 </div>
 
-## 🔥 研究亮点
+---
 
-CORE memory 在 Locomo 数据集所有推理任务中实现了 **88.24%** 的平均准确率，显著优于其他记忆提供者。请参阅这篇[博客](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/)获取更多信息。
+你的重要信息分散在各个无法互通的工具中。你的 AI 对话总是以“让我给你一些背景信息”开场。你的经验和所学还停留在你的脑海，而你的脑海无法扩展。
 
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) 单跳问题只需基于一次会话回答；(2) 多跳问题需整合来自多个不同会话的信息；(3) 开放域知识问题可通过整合说话者提供的信息与外部知识（如常识或世界事实）回答；(4) 时序推理问题可通过时序推理和捕捉对话中的时间相关数据线索进行回答；
+**CORE 会记住**。不是数据库，不是搜索框，而是数字大脑，学习重要内容，关联相关信息，呈现你所需。
 
-## 概述
+## 面向开发者
 
-**问题**
+CORE 让你的 AI 工具拥有持久记忆，并能在你常用的应用中执行操作。
 
-开发者需要反复向 AI 工具解释上下文，浪费时间。Claude 令牌数达到上限？重新开始，所有内容都丢失。ChatGPT/Claude 切换到 Cursor？又要重新解释上下文。你的对话、决策和洞见在不同会话间消失。每用一个新 AI 工具，上下文切换的成本就增加。
+- 在 Claude Code、Cursor 及其他编程代理间持续保留上下文
+- 可在 Linear、GitHub、Slack、Gmail、Google Sheets 及其他应用中执行操作
+- 通过 MCP 一次连接，随处可用
+- 开源且可自托管；你的数据，你做主
 
-**解决方案** - **CORE**（**上下文观察与回忆引擎**）
+---
 
-CORE 是一个面向所有 AI 工具的开源统一持久记忆层。你的上下文会在 Cursor、Claude、ChatGPT、Claude Code 之间跟随你。一个知识图谱记住了是谁、何时、为何说了什么。只需连接一次，随处记忆。不再需要管理上下文，专注于创造。
+## 你可以做什么
 
-## 🚀 CORE 自托管
-想在自己的基础设施上运行 CORE？自托管可让你完全掌控数据和部署。
+### 1. 无需重复自己，自动传递上下文
 
-**先决条件**：
+CORE 成为你的编程代理的持久记忆层。可让任何 AI 工具获取相关上下文。
+```txt
+Search core memory for architecture decisions on the payment service
+```
+```txt
+What my content guidelines from core to create the blog?
+```
+![core_as_memory](https://github.com/user-attachments/assets/7ac5d3f3-ca36-428d-8e97-3412c398f74b)
 
-- 已安装 Docker（20.10.0+）和 Docker Compose（2.20.0+）
-- OpenAI API 密钥
+---
 
-> **关于开源模型的说明：** 我们测试过 Ollama、GPT 等开源选项，但它们的事实提取和图谱质量不理想。我们正在积极寻找更好的方案。
+### 2. 在 Claude/Cursor 中对您的应用执行操作
 
-### 安装步骤
+只需一次连接您的应用，即可随时随地执行操作。
 
-1. 克隆此代码仓库：
+- 创建/读取 GitHub、Linear 问题
+- 起草/发送/读取邮件并将相关信息存储在 CORE 中
+- 管理您的日历，更新电子表格
+
+
+![actions](https://github.com/user-attachments/assets/60295a77-bdfd-4d57-aff5-d77ecb41e72d)
+
+---
+
+### 3. 从您离开的地方继续 claude code/cursor
+
+一周后切换回某个功能？可立即快速了解进展。
+```txt
+What did we discuss about the checkout flow? Summarize from memory.
+```
+```txt
+Refer to past discussions and remind me where we left off on the API refactor
+```
+![claude-code-in-core](https://github.com/user-attachments/assets/0bd9566b-a8cc-49d9-a3cf-368658906c39)
+
+---
+
+## CORE的与众不同之处
+
+1. **时序上下文图**：CORE不仅仅存储事实——它还记住故事。事情发生的时间、你的思考如何演变、每个决策的来龙去脉。你的偏好、目标和过去的选择——都连接在一个理解序列和上下文的图中。
+
+2. **88.24%召回准确率**：在LoCoMo基准测试中验证。当你向CORE提问时，它能找到相关内容。不是关键词匹配，而是真正的语义理解和多跳推理。
+
+3. **你掌控一切**：你的记忆，你的规则。可以编辑错误内容。删除不相关信息。可视化知识之间的联系。CORE透明，你能看到它知道的所有信息。
+
+4. **开源**：没有黑盒。没有厂商锁定。你的数字大脑属于你自己。
+
+---
+
+## 🚀 快速开始
+
+选择你的路径：
+
+| | **CORE云端** | **自托管** |
+|---|---|---|
+| 设置时间 | 5分钟 | 15分钟 |
+| 最适合 | 快速尝试，无需基础设施 | 完全掌控，使用你的服务器 |
+| 要求 | 仅需一个账号 | Docker，4GB内存 |
+
+### 云端
+
+1. **注册账号**，访问 [app.getcore.me](https://app.getcore.me)
+2. **连接数据源**（Claude、Cursor或任何兼容MCP的工具）
+3. **开始使用**CORE，执行任何操作或将你的信息存入记忆
+
+### 自托管
+
+**快速部署**
+
+[![在Railway上部署](https://railway.app/button.svg)](https://railway.com/deploy/core)
+
+**或使用Docker**
+
+1. 克隆仓库：
+
 ```
 git clone https://github.com/RedPlanetHQ/core.git
 cd core
 ```
+
 2. 在 `core/.env` 中配置环境变量：
+
 ```
 OPENAI_API_KEY=your_openai_api_key
 ```
 3. 启动服务
+
+
 ```
 docker-compose up -d
 ```
 
 部署完成后，您可以配置您的 AI 提供商（OpenAI、Anthropic），并开始构建您的记忆图谱。
 
-👉 [查看完整自托管指南](https://docs.heysol.ai/self-hosting/docker)
-
-注意：我们尝试过 Ollama 或 GPT OSS 等开源模型，但事实生成效果不佳，我们仍在探索改进的方法，之后也将支持 OSS 模型。
-
-## 🚀 CORE 云端
-**5 分钟内构建您的统一记忆图谱：**
-
-不想管理基础设施？CORE 云端让您即时构建个人记忆系统——无需设置，无需服务器，只需可用的记忆。
-
-1. **注册账号**，访问 [core.heysol.ai](https://core.heysol.ai) 创建您的账户
-2. **可视化您的记忆图谱**，查看 CORE 如何自动为事实之间建立联系
-3. **体验效果** ——在会话区输入“你对我了解什么？”
-4. 连接您的工具：
-   - [Claude](https://docs.heysol.ai/providers/claude) 和 [Cursor](https://docs.heysol.ai/providers/cursor) ——带有上下文的编程
-   - [CLaude Code CLI](https://docs.heysol.ai/providers/claude-code) 和 [Codex CLI](https://docs.heysol.ai/providers/codex) ——基于终端的带记忆编程
-   - [添加浏览器扩展](https://docs.heysol.ai/providers/browser-extension) ——让您的记忆延伸到任意网站
-   - [Linear](https://docs.heysol.ai/integrations/linear)、[Github](https://docs.heysol.ai/integrations/github) ——自动添加项目上下文
-
-## 🧩 主要功能
-
-### 🧠 **统一、可移植的记忆**：
-通过 MCP 在 **Cursor、Windsurf、Claude Desktop、Claude Code、Gemini CLI、AWS 的 Kiro、VS Code 和 Roo Code** 中添加和回忆您的记忆
-
-![core-claude](https://github.com/user-attachments/assets/56c98288-ee87-4cd0-8b02-860aca1c7f9a)
+👉 [查看完整的自托管指南](https://docs.getcore.me/self-hosting/docker)
 
 
-### 🕸️ **时序 + 具体化知识图谱**：
+> 注意：我们尝试过 Ollama 或 GPT OSS 等开源模型，但事实生成效果不佳，我们仍在探索如何改进，之后也会支持 OSS 模型。
 
-记住每个事实背后的故事——通过丰富的关系和完整的溯源，跟踪谁、何时、为何说了什么，而不仅仅是扁平存储
+## 🛠️ 安装
 
-![core-memory-graph](https://github.com/user-attachments/assets/5d1ee659-d519-4624-85d1-e0497cbdd60a)
+### 推荐方式
+
+<details>
+<summary><b>在 Claude Code CLI 中安装</b></summary>
+
+1. 在终端运行此命令，将 CORE 与 Claude Code 连接：
+
+```sh
+claude mcp add --transport http --scope user core-memory https://mcp.getcore.me/api/v1/mcp?source=Claude-Code
+```
+
+2. 输入 `/mcp` 并打开核心内存 MCP 进行认证
+
+</details>
+
+<details>
+<summary><b>在 Cursor 中安装</b></summary>
+
+> 从 Cursor 1.0 开始，您可以点击下方安装按钮实现一键安装。
+
+[![安装 MCP 服务器](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==)
+
+或者
+
+1. 前往：`Settings` -> `Tools & Integrations` -> `Add Custom MCP`
+2. 在 `mcp.json` 文件中输入以下内容：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=cursor",
+      "headers": {}
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在Claude桌面版中安装</b></summary>
+
+1. 复制CORE MCP网址：
+
+```
+https://mcp.getcore.me/api/v1/mcp?source=Claude
+```
+
+2. 导航至设置 → 连接器 → 点击添加自定义连接器
+3. 点击“连接”并授权 Claude 访问 CORE MCP
+
+</details>
+
+### 命令行工具
+
+<details>
+<summary><b>在 Codex CLI 中安装</b></summary>
+
+**选项 1（推荐）：** 添加到你的 `~/.codex/config.toml` 文件中：
+
+```toml
+[features]
+rmcp_client=true
+
+[mcp_servers.memory]
+url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
+```
+
+然后运行：`codex mcp memory login`
+
+**选项2（如果选项1无效）：** 添加API密钥配置：
+
+```toml
+[features]
+rmcp_client=true
+
+[mcp_servers.memory]
+url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
+http_headers = { "Authorization" = "Bearer CORE_API_KEY" }
+```
+
+从 [app.getcore.me](https://app.getcore.me) 获取你的 API 密钥 → 设置 → API Key，然后运行：`codex mcp memory login`
+
+</details>
+
+<details>
+<summary><b>在 Gemini CLI 中安装</b></summary>
+
+详细信息请参见 [Gemini CLI 配置](https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html)。
+
+1.  打开 Gemini CLI 的设置文件。位置为 `~/.gemini/settings.json`（其中 `~` 是你的主目录）。
+2.  在你的 `settings.json` 文件中的 `mcpServers` 对象里添加以下内容：
+
+```json
+{
+  "mcpServers": {
+    "corememory": {
+      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=geminicli",
+      "timeout": 5000
+    }
+  }
+}
+```
+如果 `mcpServers` 对象不存在，请创建它。
+
+</details>
+
+<details>
+<summary><b>在 Copilot CLI 中安装</b></summary>
+
+将以下内容添加到你的 `~/.copilot/mcp-config.json` 文件中：
 
 
-### 🌐 **浏览器扩展**：
+```json
+{
+  "mcpServers": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-CLI",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
 
-将 ChatGPT、Grok、Gemini、Twitter、YouTube、博客文章及任意网页上的对话和内容直接保存到您的 CORE 记忆中。
+</details>
 
-**如何使用扩展程序**
-1. 从 [Chrome 网上应用店](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc) 下载扩展程序。
-2. 登录 [CORE 仪表盘](https://core.heysol.ai)
-   - 导航到设置（左下角）
-   - 前往 API Key → 生成新密钥 → 命名为“extension”。
-3. 打开扩展程序，粘贴您的 API 密钥并保存。
-
-https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
-
-
-### 💬 **带记忆聊天**：
-提出诸如“我的写作偏好是什么？”等问题，实时获取来自您已连接知识的洞察
-
-![chat-with-memory](https://github.com/user-attachments/assets/d798802f-bd51-4daf-b2b5-46de7d206f66)
-
-
-### ⚡ **应用自动同步**：
-
-自动从 Linear、Slack、Notion、GitHub 及其他已连接应用捕捉相关上下文至您的 CORE 记忆
-
-📖 **[查看所有集成](https://raw.githubusercontent.com/RedPlanetHQ/core/main/./integrations/README.md)** - 支持服务及其功能的完整列表
-
-![core-slack](https://github.com/user-attachments/assets/d5fefe38-221e-4076-8a44-8ed673960f03)
+### 集成开发环境（IDE）
 
 
-### 🔗 **MCP 集成中心**：
+<details>
+<summary><b>在 VS Code 中安装</b></summary>
 
-仅需一次，将 Linear、Slack、GitHub、Notion 连接至 CORE——然后可在 Claude、Cursor 或任何 MCP 客户端通过单一 URL 使用全部工具
+在 `mcp.json` 文件中输入以下内容：
+
+```json
+{
+  "servers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Vscode",
+      "type": "http",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 VS Code Insiders 中安装</b></summary>
+
+将以下内容添加到你的 VS Code Insiders MCP 配置中：
+
+```json
+{
+  "mcp": {
+    "servers": {
+      "core-memory": {
+        "type": "http",
+        "url": "https://mcp.getcore.me/api/v1/mcp?source=VSCode-Insiders",
+        "headers": {
+          "Authorization": "Bearer YOUR_API_KEY"
+        }
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Windsurf 中安装</b></summary>
+
+在 `mcp_config.json` 文件中输入以下内容：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "serverUrl": "https://mcp.getcore.me/api/v1/mcp/source=windsurf",
+      "headers": {
+        "Authorization": "Bearer <YOUR_API_KEY>"
+      }
+    }
+  }
+}
+```
+</details>
+
+<details>
+<summary><b>在 Zed 中安装</b></summary>
+
+1. 进入代理面板的 `设置` -> `添加自定义服务器`
+2. 在配置文件中输入以下代码，并点击 `添加服务器` 按钮
 
 
-![core-linear-claude](https://github.com/user-attachments/assets/7d59d92b-8c56-4745-a7ab-9a3c0341aa32)
+```json
+{
+  "core-memory": {
+    "command": "npx",
+    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=Zed"]
+  }
+}
+```
+
+</details>
+
+### 编码代理
+
+<details>
+<summary><b>在 Amp 中安装</b></summary>
+
+在你的终端运行以下命令：
+
+```sh
+amp mcp add core-memory https://mcp.getcore.me/api/v1/mcp?source=amp
+```
+
+</details>
+
+<details>
+<summary><b>在 Augment 代码中安装</b></summary>
+
+将以下内容添加到你的 `~/.augment/settings.json` 文件中：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=augment-code",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Cline 中安装</b></summary>
+
+1. 打开 Cline 并点击汉堡菜单图标（☰）进入 MCP 服务器部分
+2. 选择远程服务器标签并点击编辑配置按钮
+3. 将以下内容添加到您的 Cline MCP 配置中：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Cline",
+      "type": "streamableHttp",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Kilo Code 中安装</b></summary>
+
+1. 进入 `设置` → `MCP 服务器` → `已安装` 标签页 → 点击 `编辑全局 MCP` 来编辑你的配置。
+2. 在你的 MCP 配置文件中添加以下内容：
+
+```json
+{
+  "core-memory": {
+    "type": "streamable-http",
+    "url": "https://mcp.getcore.me/api/v1/mcp?source=Kilo-Code",
+    "headers": {
+      "Authorization": "Bearer your-token"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在Kiro中安装</b></summary>
+
+添加到Kiro → MCP服务器：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Kiro",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Qwen Coder 中安装</b></summary>
+
+详见 [Qwen Coder MCP 配置](https://qwenlm.github.io/qwen-code-docs/zh/tools/mcp-server/#how-to-set-up-your-mcp-server)。
+
+添加到 `~/.qwen/settings.json`：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=Qwen",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY",
+        "Accept": "application/json, text/event-stream"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Roo Code 中安装</b></summary>
+
+添加到您的 Roo Code MCP 配置中：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "type": "streamable-http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Roo-Code",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Opencode 中安装</b></summary>
+
+添加到您的 Opencode 配置：
+
+```json
+{
+  "mcp": {
+    "core-memory": {
+      "type": "remote",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Opencode",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      },
+      "enabled": true
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Copilot Coding Agent 中安装</b></summary>
+
+添加到仓库设置 → Copilot → Coding agent → MCP 配置：
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-Agent",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Qodo Gen 中安装</b></summary>
+
+1. 在 VSCode 或 IntelliJ 中打开 Qodo Gen 聊天面板
+2. 点击“连接更多工具”，然后点击“+ 添加新的 MCP”
+3. 添加以下配置：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Qodo-Gen"
+    }
+  }
+}
+```
+
+</details>
+
+### 终端
+
+<details>
+<summary><b>在 Warp 中安装</b></summary>
+
+在设置 → AI → 管理 MCP 服务器中添加：
+
+```json
+{
+  "core": {
+    "url": "https://mcp.getcore.me/api/v1/mcp?source=Warp",
+    "headers": {
+      "Authorization": "Bearer YOUR_API_KEY"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Crush 中安装</b></summary>
+
+将以下内容添加到您的 Crush 配置中：
+
+```json
+{
+  "$schema": "https://charm.land/crush.json",
+  "mcp": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Crush",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+</details>
+
+### 桌面应用
+
+<details>
+<summary><b>在 ChatGPT 中安装</b></summary>
+
+通过浏览器扩展将 ChatGPT 连接到 CORE 的记忆系统：
+
+1. [安装 Core 浏览器扩展](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
+2. 生成 API 密钥：进入设置 → API Key → 生成新密钥 → 命名为“extension”
+3. 在 Core 扩展中添加 API 密钥并点击保存
+
+</details>
+
+<details>
+<summary><b>在 Gemini 中安装</b></summary>
+
+通过浏览器扩展将 Gemini 连接到 CORE 的记忆系统：
+
+1. [安装 Core 浏览器扩展](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
+2. 生成 API 密钥：进入设置 → API Key → 生成新密钥 → 命名为“extension”
+3. 在 Core 扩展中添加 API 密钥并点击保存
+
+</details>
+
+<details>
+<summary><b>在 Perplexity Desktop 中安装</b></summary>
+
+1. 在 Perplexity → 设置 → 连接器 → 添加连接器 → 高级中添加：
 
 
+```json
+{
+  "core-memory": {
+    "command": "npx",
+    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=perplexity"]
+  }
+}
+```
 
-## CORE 如何创建记忆
+2. 点击保存以应用更改
+3. Core 将在你的 Perplexity 会话中可用
+
+</details>
+
+### 开发工具
+
+<details>
+<summary><b>在 Factory 中安装</b></summary>
+
+在终端运行：
+
+```sh
+droid mcp add core https://mcp.getcore.me/api/v1/mcp?source=Factory --type http --header "Authorization: Bearer YOUR_API_KEY"
+```
+
+在 droid 中输入 /mcp 以管理服务器并查看可用工具。
+
+</details>
+
+<details>
+<summary><b>在 Rovo Dev CLI 中安装</b></summary>
+
+1. 编辑 mcp 配置：
+
+```sh
+acli rovodev mcp
+```
+
+2. 在您的 Rovo Dev MCP 配置中添加：
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Rovo-Dev"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>在 Trae 中安装</b></summary>
+
+将以下内容添加到您的 Trae MCP 配置中：
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Trae"
+    }
+  }
+}
+```
+</details>
+
+## 🔨 可用工具
+
+CORE Memory MCP 提供以下工具，供大语言模型（LLMs）使用：
+
+- `memory_search`：从 CORE Memory 中搜索相关上下文。
+- `memory_ingest`：向 CORE Memory 添加一条记录。
+- `memory_about_user`：从 CORE Memory 获取用户画像。
+- `initialise_conversation_session`：初始化对话并为对话分配会话 ID。
+- `get_integrations`：从已连接的集成中获取应使用的相关集成。
+- `get_integrations_actions`：从集成工具中获取要用于该任务的工具。
+- `execute_integrations_actions`：为该集成执行工具操作。
+
+---
+
+## 工作原理
+
+### 记忆摄取
 
 <img width="12885" height="3048" alt="memory-ingest-diagram" src="https://github.com/user-attachments/assets/c51679de-8260-4bee-bebf-aff32c6b8e13" />
 
-CORE 的摄取流程包含四个阶段，旨在捕捉不断变化的上下文：
+当你将上下文保存到 CORE 时，它将经历四个阶段：
 
-1. **规范化**：将新信息与最近的上下文关联，将长文档拆分为连贯的片段并保持交叉引用，标准化术语，这样在CORE提取知识时，处理的是干净、已上下文化的输入，而不是杂乱的文本。
-2. **抽取**：通过识别实体（人物、工具、项目、概念）从规范化文本中提取含义，将其转化为带有上下文、来源和时间的语句，并映射关系。例如，“我们用Next.js编写了CORE”转化为：实体（CORE，Next.js），语句（CORE使用Next.js开发），关系（被开发使用）。
-3. **解析**：检测矛盾，跟踪偏好的演变，并通过保留溯源的多种观点而不是覆盖它们，从而让记忆反映你的完整旅程，而不仅仅是最新快照。
-4. **图集成**：将实体、语句和事件连接到一个时序知识图中，将事实与其上下文和历史联系起来，把孤立的数据变成智能体可以真正使用的动态知识网络。
+1. **规范化**：将新信息与最近的上下文关联，将文档拆分为连贯片段，同时保留交叉引用
+2. **抽取**：识别实体（人、工具、项目），创建带有上下文和时间的陈述，映射关系
+3. **解析**：检测矛盾，追踪偏好演变，保留带有溯源信息的多元视角
+4. **图谱集成**：将实体、陈述和记录集成到时序知识图谱中
 
-结果：CORE为你提供的是随着你成长和变化而发展的记忆——保留上下文、演变和归属，让智能体真正能够使用它。
+示例：“We wrote CORE in Next.js” 变为：
 
+- 实体：`CORE`、`Next.js`
+- 陈述：`CORE 是用 Next.js 开发的`
+- 关系：`是用...开发的`
 
 ![memory-ingest-eg](https://github.com/user-attachments/assets/1d0a8007-153a-4842-9586-f6f4de43e647)
 
-## CORE如何从记忆中回忆
+### 记忆回忆
+
 
 <img width="10610" height="3454" alt="memory-search-diagram" src="https://github.com/user-attachments/assets/3541893e-f7c9-42b9-8fad-6dabf138dbeb" />
 
-当你向CORE提问时，它不仅仅是查找文本——而是深入你的整个知识图，寻找最有用的答案。
+当你查询 CORE 时：
 
-1. **搜索**：CORE会从多个角度同时检索记忆——关键词搜索用于精确匹配，语义搜索用于查找相关理念即使措辞不同，图遍历用于跟踪关联概念之间的链接。
-2. **重排序**：检索到的结果会被重新排序，以突出最相关和最多样化的内容，确保你不仅看到显而易见的匹配，还能发现更深层的关联。
-3. **过滤**：CORE会根据时间、可靠性和关系强度应用智能过滤器，只让最有意义的知识浮现出来。
-4. **输出**：你会得到事实（明确语句）和事件（它们来源的原始上下文），因此回忆总是以上下文、时间和故事为基础。
+1. **搜索**：混合方法：关键词 + 语义 + 图遍历
+2. **重排序**：展示最相关且多样化的结果
+3. **筛选**：应用时间、可靠性和关系强度筛选
+4. **输出**：返回事实以及它们所属的事件
 
-结果：CORE不仅仅回忆事实——还会在正确的上下文、时间和故事中回忆，让智能体能够像你记忆那样响应。
+CORE 不仅仅回忆事实——它还在上下文、时间和故事中回忆，让智能体以你的记忆方式进行回应。
+
+---
+
+## 🛠️ 面向智能体开发者
+
+在构建 AI 智能体吗？CORE 为你提供记忆基础设施 + 集成基础设施，让你专注于智能体的逻辑。
+
+### 你将获得
+
+**记忆基础设施**
+- 具备 88.24% LoCoMo 精度的时序知识图谱
+- 混合搜索：语义 + 关键词 + 图遍历
+- 跟踪上下文演变与矛盾
+
+**集成基础设施**
+- 一次性连接 GitHub、Linear、Slack、Gmail
+- 你的智能体可使用所有已连接应用的 MCP 工具
+- 无需开发 OAuth 流程，无需维护 API
+
+### 示例项目
+
+**[core-cli](https://github.com/RedPlanetHQ/core-cli)** — 一个连接 CORE 记忆并与 Linear、GitHub Issues 同步的任务管理智能体。
+
+**[holo](https://github.com/RedPlanetHQ/holo)** — 将你的 CORE 记忆变成带聊天功能的个人网站。
+
+### 资源
+
+- [API 参考](https://docs.getcore.me/api-reference)
+- [SDK 文档](https://docs.getcore.me)
+- 需要特定集成？[在 GitHub 提交 Issue](https://github.com/RedPlanetHQ/core/issues)
+---
+
+## 🔥 研究亮点
+
+CORE memory在Locomo数据集上的所有推理任务中实现了**88.24%**的平均准确率，显著优于其他记忆提供者。
+
+<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
+
+| 任务类型     | 描述                 |
+|-------------|----------------------|
+| 单跳        | 基于单一会话的答案   |
+| 多跳        | 综合多会话信息        |
+| 开放域      | 用户信息与外部知识整合|
+| 时间推理    | 与时间相关的线索及序列理解 |
+
+
+[查看基准测试方法和结果 →](https://github.com/RedPlanetHQ/core-benchmark)
+
+---
+
+
+## 🔒 安全性
+
+CASA二级认证 —— 由第三方审计，符合Google的OAuth要求。
+
+- 加密：TLS 1.3（传输中）+ AES-256（静态存储）
+- 认证：OAuth 2.0 和魔法链接
+- 访问控制：基于工作区的隔离，基于角色的权限
+- 零信任架构：绝不信任，始终验证
+
+您的数据，您掌控：
+
+- 可随时编辑和删除
+- 永不用于AI模型训练
+- 支持自托管，实现完全隔离
+
+详细安全信息，请参阅我们的[安全政策](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)。
+
+漏洞报告：harshith@poozle.dev
+
 
 ## 文档
 
-浏览我们的文档，以充分利用CORE
+浏览我们的文档，充分利用 CORE
 
-- [基本概念](https://docs.heysol.ai/concepts/memory_graph)
-- [自托管](https://docs.heysol.ai/self-hosting/overview)
-- [将Core MCP连接到Claude](https://docs.heysol.ai/providers/claude)
-- [将Core MCP连接到Cursor](https://docs.heysol.ai/providers/cursor)
-- [将Core MCP连接到Claude Code](https://docs.heysol.ai/providers/claude-code)
-- [将Core MCP连接到Codex](https://docs.heysol.ai/providers/codex) 
-
-- [基本概念](https://docs.heysol.ai/overview)
-- [API参考](https://docs.heysol.ai/api-reference/get-user-profile)
-
-## 🔒 安全
-
-CORE高度重视安全。我们采用行业标准的安全措施来保护您的数据：
-- **数据加密**：所有传输中的数据（TLS 1.3）和静态数据（AES-256）
-- **身份认证**：OAuth 2.0 和魔法链接认证
-- **访问控制**：基于工作区的隔离和基于角色的权限
-- **漏洞报告**：请将安全问题报告至 harshith@poozle.dev
-
-如需详细的安全信息，请参阅我们的[安全政策](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md)。
+- [自托管](https://docs.getcore.me/self-hosting/overview)
+- [基本概念](https://docs.getcore.me/overview)
+- [内存图](https://docs.getcore.me/concepts/memory_graph)
+- [API 参考](https://docs.getcore.me/api-reference/get-user-profile)
 
 ## 🧑‍💻 支持
 
 有问题或反馈？我们随时为您提供帮助：
 
-- Discord： [加入 core-support 频道](https://discord.gg/YGUZcvDjUa)
-- 文档： [docs.heysol.ai](https://docs.heysol.ai)
-- 邮箱： manik@poozle.dev
+- Discord: [加入 core-support 频道](https://discord.gg/YGUZcvDjUa)
+- 文档: [docs.getcore.me](https://docs.getcore.me)
+- 邮箱: manik@poozle.dev
 
 ## 使用指南
 
-**存储：**
+**可存储：**
 
-- 对话历史
-- 用户偏好设置
+- 会话历史
+- 用户偏好
 - 任务上下文
 - 参考资料
 
-**不存储：**
+**请勿存储：**
 
 - 敏感数据（PII）
-- 凭证
+- 凭证信息
 - 系统日志
 - 临时数据
 
@@ -250,18 +897,8 @@ CORE高度重视安全。我们采用行业标准的安全措施来保护您的�
 
 
 
-
-
-
-
-
-
-
-
-
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
 
 ---

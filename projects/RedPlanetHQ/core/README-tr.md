@@ -29,213 +29,859 @@
 </div>
 
 <div align="center">
-  <a href="https://core.heysol.ai">
-    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logosu" />
+  <a href="https://getcore.me">
+    <img src="https://github.com/user-attachments/assets/89066cdd-204b-46c2-8ad4-4935f5ca9edd" width="200px" alt="CORE logo" />
   </a>
 
-### CORE: Yapay Zeka Uygulamaları için Kişisel Hafıza Katmanınız
+### CORE: Dijital Beyniniz - Yapay Zeka Araçları için Hafıza + Eylemler 
 
 <p align="center">
-    <a href="https://deepwiki.com/RedPlanetHQ/core">
-        <img src="https://deepwiki.com/badge.svg" alt="DeepWiki Rozeti" />
+    <a href="https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==">
+        <img src="https://cursor.com/deeplink/mcp-install-dark.svg" width="150px" alt="Cursor'a Ekle" />
+    </a>
+    <a href="https://railway.com/deploy/core">
+        <img src="https://railway.app/button.svg" width="150px" alt="Railway'de Dağıt" />
     </a>
 </p>
 <p align="center">
-    <a href="https://docs.heysol.ai/introduction"><b>Dokümantasyon</b></a> •
-    <a href="https://discord.gg/YGUZcvDjUa"><b>Discord</b></a>
+    <a href="https://heysol.ai">
+        <img src="https://img.shields.io/badge/Website-getcore.me-c15e50" alt="Web Sitesi" />
+    </a>
+    <a href="https://docs.getcore.me">
+        <img src="https://img.shields.io/badge/Docs-docs.getcore.me-green" alt="Dokümanlar" />
+    </a>  
+    <a href="https://discord.gg/YGUZcvDjUa">
+        <img src="https://img.shields.io/badge/Discord-community-purple" alt="Discord" />
+    </a>    
 </p>
 </div>
 
-## 🔥 Araştırma Öne Çıkanlar
+---
 
-CORE hafızası, Locomo veri setindeki tüm akıl yürütme görevlerinde **%88,24** ortalama doğruluk oranına ulaşarak diğer hafıza sağlayıcılarını önemli ölçüde geride bırakıyor. Daha fazla bilgi için bu [blogu](https://blog.heysol.ai/core-build-memory-knowledge-graph-for-individuals-and-achieved-sota-on-locomo-benchmark/) inceleyin.
+Kritik bilgileriniz, birbirleriyle iletişim kurmayan araçlar arasında dağılmış durumda. Yapay zekâ ile sohbetiniz "size biraz bağlam vereyim" diye başlıyor. Deneyimleriniz ve öğrendikleriniz hâlâ kafanızda ve kafanız ölçeklenmiyor.
 
-<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
-(1) Tek adımlı sorular, yalnızca bir oturumdan yanıt gerektirir; (2) Çok adımlı sorular, birden fazla farklı oturumdan bilgi sentezi gerektirir; (3) Açık alan bilgi soruları, konuşmacının sağladığı bilgiler ile dış bilgiler (genel bilgi veya dünya gerçekleri gibi) birleştirilerek yanıtlanabilir; (4) Zamansal akıl yürütme soruları, konuşma içindeki zamana ilişkin veri ipuçlarının yakalanması ve zamansal akıl yürütme ile yanıtlanabilir;
+**CORE hatırlar**. Bir veritabanı değil. Bir arama kutusu değil. Önemli olanı öğrenen, ilgili olanı bağlayan ve ihtiyacınız olanı öne çıkaran dijital bir beyin.
 
-## Genel Bakış
+## Geliştiriciler İçin
 
-**Sorun**
+CORE, AI araçlarınıza kalıcı hafıza ve kullandığınız uygulamalarda aksiyon alma yeteneği kazandırır.
 
-Geliştiriciler, bağlamı AI araçlarına tekrar tekrar açıklayarak zaman kaybediyor. Claude'da token sınırına mı takıldınız? Yeniden başlatın ve her şeyi kaybedin. ChatGPT/Claude'dan Cursor'a geçtiniz mi? Bağlamınızı tekrar açıklayın. Konuşmalarınız, kararlarınız ve içgörüleriniz oturumlar arasında kayboluyor. Her yeni AI aracıyla bağlam değiştirme maliyeti artıyor.
+- Claude Code, Cursor ve diğer kodlama ajanlarında bağlam korunur
+- Linear, GitHub, Slack, Gmail, Google Sheets ve kullandığınız diğer uygulamalarda aksiyon alın
+- MCP ile bir kez bağlanın, her yerde çalışır
+- Açık kaynak ve kendi sunucunuzda barındırılabilir; veriniz sizin kontrolünüzde
 
-**Çözüm** - **CORE** (**Bağlamsal Gözlem & Hatırlama Motoru**)
+---
 
-CORE, tüm AI araçlarınız için açık kaynaklı, birleşik ve kalıcı bir hafıza katmanıdır. Bağlamınız Cursor’dan Claude’a, ChatGPT’den Claude Code’a sizinle gelir. Tek bir bilgi grafiği, kim ne zaman ne dedi ve neden dediğini hatırlar. Bir kere bağlanın, her yerde hatırlayın. Bağlam yönetmeyi bırakın ve üretmeye başlayın.
+## Yapabilecekleriniz
 
-## 🚀 CORE Kendin Barındırma
-CORE'u kendi altyapınızda çalıştırmak ister misiniz? Kendin barındırma, verileriniz ve dağıtımınız üzerinde tam kontrol sağlar.
+### 1. Kendinizi tekrar etmeyin, bağlam otomatik akar
 
-**Önkoşullar**:
+CORE, kodlama ajanları için kalıcı hafıza katmanınız olur. Herhangi bir AI aracından ilgili bağlamı çekmesini isteyin.
+```txt
+Search core memory for architecture decisions on the payment service
+```
+```txt
+What my content guidelines from core to create the blog?
+```
+![core_as_memory](https://github.com/user-attachments/assets/7ac5d3f3-ca36-428d-8e97-3412c398f74b)
 
-- Docker (20.10.0+) ve Docker Compose (2.20.0+) kurulu olmalı
-- OpenAI API anahtarı
+---
 
-> **Açık Kaynak Modeller Hakkında Not:** Ollama ve GPT gibi açık kaynak seçeneklerini test ettik, ancak bilgi çıkarımı ve grafik kalitesi yetersiz kaldı. Aktif olarak seçenekler arıyoruz.
+### 2. Claude/Cursor üzerinden uygulamalarınızda işlem yapın
 
-### Kurulum
+Uygulamalarınızı bir kez bağlayın, istediğiniz yerden işlem yapın.
+
+- GitHub, Linear üzerinde konu oluşturun/okuyun
+- E-posta taslağı hazırlayın/gönderin/okuyun ve ilgili bilgileri CORE'a kaydedin
+- Takviminizi yönetin, elektronik tabloyu güncelleyin
+
+
+![actions](https://github.com/user-attachments/assets/60295a77-bdfd-4d57-aff5-d77ecb41e72d)
+
+---
+
+### 3. Claude kodu/cursor ile kaldığınız yerden devam edin
+
+Bir hafta sonra bir özelliğe geri mi dönüyorsunuz? Anında güncellenin.
+```txt
+What did we discuss about the checkout flow? Summarize from memory.
+```
+```txt
+Refer to past discussions and remind me where we left off on the API refactor
+```
+![claude-code-in-core](https://github.com/user-attachments/assets/0bd9566b-a8cc-49d9-a3cf-368658906c39)
+
+---
+
+## CORE'i Farklı Kılan Nedir
+
+1. **Zamansal Bağlam Grafiği**: CORE sadece bilgileri saklamaz — hikayeyi de hatırlar. Olayların ne zaman gerçekleştiği, düşünce şeklinizin nasıl evrildiği, her kararın ardındaki nedenler. Tercihleriniz, hedefleriniz ve geçmiş seçimleriniz — hepsi sırayla ve bağlamda bir grafikte birbirine bağlıdır.
+
+2. **%88,24 Hatırlama Doğruluğu**: LoCoMo benchmark testlerinde. CORE’a bir şey sorduğunuzda, ilgili olanı bulur. Anahtar kelime eşlemesi değil, gerçek anlamsal anlayış ve çoklu sıçramalı akıl yürütme.
+
+3. **Kontrol Sizde**: Hafızanız, kurallarınız. Yanlış olanı düzenleyin. Size ait olmayanı silin. Bilginizin nasıl bağlandığını görselleştirin. CORE şeffaftır, tam olarak ne bildiğini görürsünüz.
+
+4. **Açık Kaynak**: Kara kutu yok. Tedarikçi bağımlılığı yok. Dijital beyniniz size aittir.
+
+---
+
+## 🚀 Hızlı Başlangıç
+
+Yolunuzu seçin:
+
+| | **CORE Bulut** | **Kendi Sunucun** |
+|---|---|---|
+| Kurulum süresi | 5 dakika | 15 dakika |
+| En iyisi | Hızlı dene, altyapı yok | Tam kontrol, kendi sunucuların |
+| Gereksinimler | Sadece bir hesap | Docker, 4GB RAM |
+
+### Bulut
+
+1. [app.getcore.me](https://app.getcore.me) adresinden **kaydolun**
+2. Bir kaynak **bağlayın** (Claude, Cursor veya herhangi bir MCP-uyumlu araç)
+3. CORE’u kullanmaya **başlayın** ve istediğiniz eylemi gerçekleştirin veya hafızanıza bilgi kaydedin
+
+### Kendi Sunucun
+
+**Hızlı Dağıtım**
+
+[![Railway’de Dağıt](https://railway.app/button.svg)](https://railway.com/deploy/core)
+
+**Ya da Docker ile**
 
 1. Depoyu klonlayın:
+
 ```
 git clone https://github.com/RedPlanetHQ/core.git
 cd core
 ```
-2. Ortam değişkenlerini `core/.env` dosyasında yapılandırın:
+
+2. `core/.env` dosyasında ortam değişkenlerini yapılandırın:
+
 ```
 OPENAI_API_KEY=your_openai_api_key
 ```
+
 3. Servisi başlatın
+
 ```
 docker-compose up -d
 ```
 
-Dağıtımdan sonra, AI sağlayıcılarınızı (OpenAI, Anthropic) yapılandırabilir ve hafıza grafiğinizi oluşturmaya başlayabilirsiniz.
+Kurulum tamamlandıktan sonra, AI sağlayıcılarınızı (OpenAI, Anthropic) yapılandırabilir ve hafıza grafiğinizi oluşturmaya başlayabilirsiniz.
 
-👉 [Tam kapsamlı self-hosting rehberini görüntüle](https://docs.heysol.ai/self-hosting/docker)
-
-Not: Ollama veya GPT OSS gibi açık kaynaklı modelleri denedik fakat gerçekler üretiminde iyi değillerdi, bunu nasıl geliştireceğimizi hâlâ araştırıyoruz ve ardından OSS modellerini de destekleyeceğiz.
-
-## 🚀 CORE Cloud
-**Birleşik hafıza grafiğinizi 5 dakikada oluşturun:**
-
-Altyapıyı yönetmek istemiyor musunuz? CORE Cloud ile kişisel hafıza sisteminizi anında kurabilirsiniz - kurulum yok, sunucu yok, sadece çalışan hafıza.
-
-1. [core.heysol.ai](https://core.heysol.ai) adresinden **Kayıt Olun** ve hesabınızı oluşturun
-2. **Hafıza grafiğinizi görselleştirin** ve CORE'un gerçekler arasında otomatik olarak bağlantılar kurduğunu izleyin
-3. **Deneyin** - sohbet bölümünde "Benim hakkımda ne biliyorsun?" diye sorun
-4. Araçlarınıza bağlanın:
-   - [Claude](https://docs.heysol.ai/providers/claude) & [Cursor](https://docs.heysol.ai/providers/cursor) - bağlam ile kodlama
-   - [Claude Code CLI](https://docs.heysol.ai/providers/claude-code) & [Codex CLI](https://docs.heysol.ai/providers/codex) - hafızalı terminal tabanlı kodlama
-   - [Tarayıcı Eklentisi Ekle](https://docs.heysol.ai/providers/browser-extension) - hafızanızı herhangi bir siteye taşıyın
-   - [Linear](https://docs.heysol.ai/integrations/linear), [Github](https://docs.heysol.ai/integrations/github) - proje bağlamını otomatik olarak ekleyin
-
-## 🧩 Ana Özellikler
-
-### 🧠 **Birleşik, Taşınabilir Hafıza**: 
-Hafızanızı **Cursor, Windsurf, Claude Desktop, Claude Code, Gemini CLI, AWS'nin Kiro'su, VS Code ve Roo Code** üzerinden MCP ile ekleyin ve hatırlayın
-
-![core-claude](https://github.com/user-attachments/assets/56c98288-ee87-4cd0-8b02-860aca1c7f9a)
+👉 [Tam kendi sunucunda barındırma rehberini görüntüle](https://docs.getcore.me/self-hosting/docker)
 
 
-### 🕸️ **Zamansal + Yeniden Nesneleştirilmiş Bilgi Grafiği**: 
+> Not: Ollama veya GPT OSS gibi açık kaynaklı modelleri denedik fakat gerçek üretimi iyi değildi, bunu nasıl geliştirebileceğimizi hâlâ araştırıyoruz ve ardından OSS modellerini de destekleyeceğiz.
 
-Her gerçeğin ardındaki hikayeyi hatırlayın—kim ne dedi, ne zaman ve neden; zengin ilişkiler ve tam köken ile, sadece düz depolama değil
+## 🛠️ Kurulum
 
-![core-memory-graph](https://github.com/user-attachments/assets/5d1ee659-d519-4624-85d1-e0497cbdd60a)
+### Önerilen
+
+<details>
+<summary><b>Claude Code CLI ile Kurulum</b></summary>
+
+1. CORE’u Claude Code ile bağlamak için terminalinizde şu komutu çalıştırın:
+
+```sh
+claude mcp add --transport http --scope user core-memory https://mcp.getcore.me/api/v1/mcp?source=Claude-Code
+```
+
+2. `/mcp` yazın ve kimlik doğrulama için core-memory MCP'yi açın
+
+</details>
+
+<details>
+<summary><b>Cursor'da Kurulum</b></summary>
+
+> Cursor 1.0'dan itibaren, aşağıdaki kurulum butonuna tıklayarak anında tek tıkla kurulum yapabilirsiniz.
+
+[![MCP Sunucusunu Kur](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/en/install-mcp?name=core-memory&config=eyJ1cmwiOiJodHRwczovL2NvcmUuaGV5c29sLmFpL2FwaS92MS9tY3A/c291cmNlPWN1cnNvciJ9Cg==)
+
+VEYA
+
+1. Şuraya gidin: `Ayarlar` -> `Araçlar & Entegrasyonlar` -> `Özel MCP Ekle`
+2. `mcp.json` dosyasına aşağıdakini girin:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=cursor",
+      "headers": {}
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Claude Masaüstüne Yükle</b></summary>
+
+1. CORE MCP URL'sini kopyalayın:
+
+```
+https://mcp.getcore.me/api/v1/mcp?source=Claude
+```
+
+2. Ayarlar → Bağlayıcılar → Özel bağlayıcı ekle'ye tıklayın
+3. "Bağlan" üzerine tıklayın ve Claude'a CORE MCP'ye erişim izni verin
+
+</details>
+
+### Komut Satırları
+
+<details>
+<summary><b>Codex CLI'da Yükle</b></summary>
+
+**Seçenek 1 (Önerilen):** `~/.codex/config.toml` dosyanıza ekleyin:
+
+```toml
+[features]
+rmcp_client=true
+
+[mcp_servers.memory]
+url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
+```
+
+Sonra şunu çalıştırın: `codex mcp memory login`
+
+**Seçenek 2 (Eğer Seçenek 1 çalışmazsa):** API anahtarı yapılandırmasını ekleyin:
+
+```toml
+[features]
+rmcp_client=true
+
+[mcp_servers.memory]
+url = "https://mcp.getcore.me/api/v1/mcp?source=codex"
+http_headers = { "Authorization" = "Bearer CORE_API_KEY" }
+```
+
+API anahtarınızı [app.getcore.me](https://app.getcore.me) → Ayarlar → API Anahtarı bölümünden alın, ardından şunu çalıştırın: `codex mcp memory login`
+
+</details>
+
+<details>
+<summary><b>Gemini CLI'da Kurulum</b></summary>
+
+Ayrıntılar için [Gemini CLI Yapılandırması](https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html) sayfasına bakın.
+
+1.  Gemini CLI ayar dosyasını açın. Konumu `~/.gemini/settings.json`'dır (`~` sizin ana dizininizdir).
+2.  `settings.json` dosyanızdaki `mcpServers` nesnesine aşağıdakini ekleyin:
+
+```json
+{
+  "mcpServers": {
+    "corememory": {
+      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=geminicli",
+      "timeout": 5000
+    }
+  }
+}
+```
+
+Eğer `mcpServers` nesnesi yoksa, oluşturun.
+
+</details>
+
+<details>
+<summary><b>Copilot CLI'ye yükleyin</b></summary>
+
+Aşağıdakileri `~/.copilot/mcp-config.json` dosyanıza ekleyin:
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-CLI",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+### IDE'ler
 
 
-### 🌐 **Tarayıcı Eklentisi**: 
+<details>
+<summary><b>VS Code'a Kurulum</b></summary>
 
-ChatGPT, Grok, Gemini, Twitter, YouTube, blog yazıları ve herhangi bir web sitesinden sohbetleri ve içerikleri doğrudan CORE hafızanıza kaydedin.
+Aşağıdakini `mcp.json` dosyasına girin:
 
-**Eklentiyi Nasıl Kullanılır**
-1. [Eklentiyi İndirin](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc) Chrome Web Mağazası’ndan.
-2. [CORE kontrol paneline](https://core.heysol.ai) giriş yapın
-   - Ayarlar’a gidin (sol alt köşe)
-   - API Anahtarı → Yeni anahtar oluştur → Adını “eklenti” olarak belirleyin.
-3. Eklentiyi açın, API anahtarınızı yapıştırın ve kaydedin.
+```json
+{
+  "servers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Vscode",
+      "type": "http",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
 
-https://github.com/user-attachments/assets/6e629834-1b9d-4fe6-ae58-a9068986036a
+</details>
 
+<details>
+<summary><b>VS Code Insiders'a Kurulum</b></summary>
 
-### 💬 **Hafızayla Sohbet**: 
-Bağlı bilginizden anında içgörüler alarak "Yazma tercihleri neler?" gibi sorular sorun
+VS Code Insiders MCP yapılandırmanıza ekleyin:
 
-![chat-with-memory](https://github.com/user-attachments/assets/d798802f-bd51-4daf-b2b5-46de7d206f66)
+```json
+{
+  "mcp": {
+    "servers": {
+      "core-memory": {
+        "type": "http",
+        "url": "https://mcp.getcore.me/api/v1/mcp?source=VSCode-Insiders",
+        "headers": {
+          "Authorization": "Bearer YOUR_API_KEY"
+        }
+      }
+    }
+  }
+}
+```
 
+</details>
 
-### ⚡ **Uygulamalardan Otomatik Senkronizasyon**:
+<details>
+<summary><b>Windsurf'a Kurulum</b></summary>
 
-Linear, Slack, Notion, GitHub ve diğer bağlı uygulamalardan ilgili bağlamı otomatik olarak CORE hafızasına aktarın
+Aşağıdakini `mcp_config.json` dosyasına girin:
 
-📖 **[Tüm Entegrasyonları Görüntüle](https://raw.githubusercontent.com/RedPlanetHQ/core/main/./integrations/README.md)** - Desteklenen hizmetlerin ve özelliklerinin tam listesi
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "serverUrl": "https://mcp.getcore.me/api/v1/mcp/source=windsurf",
+      "headers": {
+        "Authorization": "Bearer <YOUR_API_KEY>"
+      }
+    }
+  }
+}
+```
 
-![core-slack](https://github.com/user-attachments/assets/d5fefe38-221e-4076-8a44-8ed673960f03)
+</details>
 
+<details>
+<summary><b>Zed'e Kurulum</b></summary>
 
-### 🔗 **MCP Entegrasyon Merkezi**: 
+1. Agent Panel'de `Ayarlar`a gidin -> `Özel Sunucu Ekle`
+2. Aşağıdaki kodu yapılandırma dosyasına girin ve `Sunucu ekle` butonuna tıklayın
 
-Linear, Slack, GitHub, Notion’u bir kez CORE’a bağlayın—sonra Claude, Cursor veya herhangi bir MCP istemcisinde tüm araçları tek bir URL ile kullanın
+```json
+{
+  "core-memory": {
+    "command": "npx",
+    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=Zed"]
+  }
+}
+```
 
+</details>
 
-![core-linear-claude](https://github.com/user-attachments/assets/7d59d92b-8c56-4745-a7ab-9a3c0341aa32)
+### Kodlama Ajanları
 
+<details>
+<summary><b>Amp'e Kurulum</b></summary>
 
+Terminalinizde bu komutu çalıştırın:
 
-## CORE hafızayı nasıl oluşturur
+```sh
+amp mcp add core-memory https://mcp.getcore.me/api/v1/mcp?source=amp
+```
+
+</details>
+
+<details>
+<summary><b>Augment Koduna Kurulum</b></summary>
+
+`~/.augment/settings.json` dosyanıza ekleyin:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=augment-code",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Cline'a Kurulum</b></summary>
+
+1. Cline'ı açın ve MCP Sunucuları bölümüne girmek için hamburger menü simgesine (☰) tıklayın
+2. Uzak Sunucular sekmesini seçin ve Yapılandırmayı Düzenle butonuna tıklayın
+3. Aşağıdakileri Cline MCP yapılandırmanıza ekleyin:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Cline",
+      "type": "streamableHttp",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Kilo Code'a Kurulum</b></summary>
+
+1. `Ayarlar` → `MCP Sunucuları` → `Yüklü sekmesi` → `Global MCP'yi Düzenle` seçeneğine tıklayarak yapılandırmanızı düzenleyin.
+2. MCP yapılandırma dosyanıza aşağıdakileri ekleyin:
+
+```json
+{
+  "core-memory": {
+    "type": "streamable-http",
+    "url": "https://mcp.getcore.me/api/v1/mcp?source=Kilo-Code",
+    "headers": {
+      "Authorization": "Bearer your-token"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Kiro'ya Kurulum</b></summary>
+
+Kiro → MCP Sunucularına ekleyin:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Kiro",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Qwen Coder'a Kurulum</b></summary>
+
+Ayrıntılar için [Qwen Coder MCP Yapılandırması](https://qwenlm.github.io/qwen-code-docs/en/tools/mcp-server/#how-to-set-up-your-mcp-server) sayfasına bakın.
+
+`~/.qwen/settings.json` dosyasına ekleyin:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "httpUrl": "https://mcp.getcore.me/api/v1/mcp?source=Qwen",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY",
+        "Accept": "application/json, text/event-stream"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Roo Code'a Kurulum</b></summary>
+
+Roo Code MCP yapılandırmanıza ekleyin:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "type": "streamable-http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Roo-Code",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Opencode'a Kurulum</b></summary>
+
+Opencode yapılandırmanıza ekleyin:
+
+```json
+{
+  "mcp": {
+    "core-memory": {
+      "type": "remote",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Opencode",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      },
+      "enabled": true
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Copilot Kodlama Aracına Kurulum</b></summary>
+
+Depo Ayarları → Copilot → Kodlama aracı → MCP yapılandırmasına ekleyin:
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Copilot-Agent",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Qodo Gen'de Kurulum</b></summary>
+
+1. VSCode veya IntelliJ'de Qodo Gen sohbet panelini açın
+2. Daha fazla aracı bağla'ya tıklayın, ardından + Yeni MCP ekle'ye tıklayın
+3. Aşağıdaki yapılandırmayı ekleyin:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Qodo-Gen"
+    }
+  }
+}
+```
+
+</details>
+
+### Terminaller
+
+<details>
+<summary><b>Warp'ta Kurulum</b></summary>
+
+Ayarlar → AI → MCP sunucularını Yönet kısmına ekleyin:
+
+```json
+{
+  "core": {
+    "url": "https://mcp.getcore.me/api/v1/mcp?source=Warp",
+    "headers": {
+      "Authorization": "Bearer YOUR_API_KEY"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Crush'ta Kurulum</b></summary>
+
+Crush yapılandırmanıza ekleyin:
+
+```json
+{
+  "$schema": "https://charm.land/crush.json",
+  "mcp": {
+    "core": {
+      "type": "http",
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Crush",
+      "headers": {
+        "Authorization": "Bearer YOUR_API_KEY"
+      }
+    }
+  }
+}
+```
+
+</details>
+
+### Masaüstü Uygulamaları
+
+<details>
+<summary><b>ChatGPT'ye Kurulum</b></summary>
+
+ChatGPT'yi CORE'un hafıza sistemiyle tarayıcı uzantısı üzerinden bağlayın:
+
+1. [Core Tarayıcı Uzantısını Yükleyin](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
+2. API Anahtarı Oluşturun: Ayarlar → API Anahtarı → Yeni anahtar oluştur → Adı "extension" olsun
+3. API Anahtarını Core Uzantısına ekleyin ve Kaydet'e tıklayın
+
+</details>
+
+<details>
+<summary><b>Gemini'ye Kurulum</b></summary>
+
+Gemini'yi CORE'un hafıza sistemiyle tarayıcı uzantısı üzerinden bağlayın:
+
+1. [Core Tarayıcı Uzantısını Yükleyin](https://chromewebstore.google.com/detail/core-extension/cglndoindnhdbfcbijikibfjoholdjcc)
+2. API Anahtarı Oluşturun: Ayarlar → API Anahtarı → Yeni anahtar oluştur → Adı "extension" olsun
+3. API Anahtarını Core Uzantısına ekleyin ve Kaydet'e tıklayın
+
+</details>
+
+<details>
+<summary><b>Perplexity Desktop'a Kurulum</b></summary>
+
+1. Perplexity → Ayarlar → Bağlayıcılar → Bağlayıcı Ekle → Gelişmiş bölümüne ekleyin:
+
+```json
+{
+  "core-memory": {
+    "command": "npx",
+    "args": ["-y", "mcp-remote", "https://mcp.getcore.me/api/v1/mcp?source=perplexity"]
+  }
+}
+```
+
+2. Değişiklikleri uygulamak için Kaydet'e tıklayın
+3. Core, Perplexity oturumlarınızda kullanılabilir olacaktır
+
+</details>
+
+### Geliştirme Araçları
+
+<details>
+<summary><b>Factory'ye Kur</b></summary>
+
+Terminalde çalıştırın:
+
+```sh
+droid mcp add core https://mcp.getcore.me/api/v1/mcp?source=Factory --type http --header "Authorization: Bearer YOUR_API_KEY"
+```
+
+Droid içinde sunucuları yönetmek ve mevcut araçları görüntülemek için /mcp yazın.
+
+</details>
+
+<details>
+<summary><b>Rovo Geliştirici CLI'sına Kurulum</b></summary>
+
+1. mcp yapılandırmasını düzenleyin:
+
+```sh
+acli rovodev mcp
+```
+
+2. Rovo Dev MCP yapılandırmanıza ekleyin:
+
+```json
+{
+  "mcpServers": {
+    "core-memory": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Rovo-Dev"
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>Trae'ye Kurulum</b></summary>
+
+Trae MCP yapılandırmanıza ekleyin:
+
+```json
+{
+  "mcpServers": {
+    "core": {
+      "url": "https://mcp.getcore.me/api/v1/mcp?source=Trae"
+    }
+  }
+}
+```
+</details>
+
+## 🔨 Mevcut Araçlar
+
+CORE Memory MCP, LLM'lerin kullanabileceği aşağıdaki araçları sağlar:
+
+- `memory_search`: CORE Memory'den ilgili bağlamı arar.
+- `memory_ingest`: CORE Memory'ye bir bölüm ekler.
+- `memory_about_user`: CORE Memory'den kullanıcı kişiliğini getirir.
+- `initialise_conversation_session`: Sohbeti başlatır ve sohbete bir oturum kimliği atar.
+- `get_integrations`: Bağlı entegrasyonlardan hangi ilgili entegrasyonun kullanılacağını getirir.
+- `get_integrations_actions`: O entegrasyondaki görev için hangi aracın kullanılacağını getirir.
+- `execute_integrations_actions`: O entegrasyon için aracı çalıştırır.
+
+---
+
+## Nasıl Çalışır
+
+### Hafıza Kaydı
 
 <img width="12885" height="3048" alt="memory-ingest-diagram" src="https://github.com/user-attachments/assets/c51679de-8260-4bee-bebf-aff32c6b8e13" />
 
-CORE’un veri toplama hattı, gelişen bağlamı yakalamak için tasarlanmış dört aşamadan oluşur:
+Bağlamı CORE'a kaydettiğinizde dört aşamadan geçer:
 
-1. **Normalizasyon**: Yeni bilgileri yakın zamandaki bağlama bağlar, uzun belgeleri tutarlı parçalara ayırırken çapraz referansları korur ve terimleri standartlaştırır; böylece CORE bilgi çıkarımı yaptığında, dağınık metin yerine temiz ve bağlamsallaştırılmış girdiyle çalışır.
-2. **Çıkarım**: Normalleştirilmiş metinden anlam çıkarır; varlıkları (kişi, araç, proje, kavram) tanımlar, bunları bağlam, kaynak ve zamanla ifadeye dönüştürür ve ilişkileri haritalar. Örneğin, “CORE’u Next.js ile yazdık” şu şekilde olur: Varlıklar (CORE, Next.js), İfade (CORE Next.js kullanılarak geliştirildi), İlişki (geliştirildi).
-3. **Çözümleme**: Çelişkileri tespit eder, tercihlerin nasıl değiştiğini izler ve kökeniyle birlikte birden çok bakış açısını korur; böylece hafıza sadece en son anı değil, tüm yolculuğunuzu yansıtır.
-4. **Grafik Entegrasyonu**: Varlıkları, ifadeleri ve olayları zamansal bir bilgi grafiğinde birleştirir; gerçekleri bağlam ve geçmişine bağlar, böylece izole veriyi ajanların gerçekten kullanabileceği canlı bir bilgi ağına dönüştürür.
+1. **Normalizasyon**: Yeni bilgiyi son bağlama bağlar, belgeleri tutarlı parçalara ayırır ve çapraz referansları korur
+2. **Çıkarım**: Varlıkları (kişiler, araçlar, projeler) belirler, bağlam ve zamanla ifadeler oluşturur, ilişkileri haritalar
+3. **Çözümleme**: Çelişkileri tespit eder, tercihlerin nasıl geliştiğini izler, çoklu bakış açılarını kanıtlarıyla saklar
+4. **Graf Entegrasyonu**: Varlıkları, ifadeleri ve bölümleri zamansal bir bilgi grafiğine bağlar
 
-Sonuç: Düz bir veritabanı yerine, CORE size bağlamı, evrimi ve sahipliği koruyan; ajanların gerçekten kullanabileceği, sizinle birlikte büyüyen ve değişen bir hafıza sunar.
+Örnek: "CORE'u Next.js ile yazdık" şu hale gelir:
 
+- Varlıklar: `CORE`, `Next.js`
+- İfade: `CORE Next.js kullanılarak geliştirildi`
+- İlişki: `geliştirildi`
 
 ![memory-ingest-eg](https://github.com/user-attachments/assets/1d0a8007-153a-4842-9586-f6f4de43e647)
 
-## CORE hafızadan nasıl geri çağırıyor?
+### Hafıza Geri Çağırma
+
 
 <img width="10610" height="3454" alt="memory-search-diagram" src="https://github.com/user-attachments/assets/3541893e-f7c9-42b9-8fad-6dabf138dbeb" />
 
-CORE’a bir soru sorduğunuzda, sadece metin aramaz; tüm bilgi grafiğinizi tarayarak en faydalı yanıtları bulur.
+CORE’a sorgu gönderdiğinizde:
 
-1. **Arama**: CORE aynı anda hafızada birden çok açıdan arama yapar; anahtar kelime araması ile tam eşleşmeler, anlamsal arama ile farklı ifade edilmiş ilgili fikirler ve grafik geçişi ile bağlı kavramlar arasındaki bağlantılar takip edilir.
-2. **Yeniden Sıralama**: Getirilen sonuçlar, en alakalı ve çeşitli olanları öne çıkaracak şekilde yeniden sıralanır; böylece sadece bariz eşleşmeleri değil, daha derin bağlantıları da görürsünüz.
-3. **Filtreleme**: CORE, zaman, güvenilirlik ve ilişki gücüne göre akıllı filtreler uygular; böylece yalnızca en anlamlı bilgiler ortaya çıkar.
-4. **Çıktı**: Hem gerçekleri (açık ifadeler) hem de olayları (geldikleri orijinal bağlam) geri alırsınız; böylece geri çağırma her zaman bağlam, zaman ve hikayeye dayanır.
+1. **Arama**: Hibrit yaklaşım: anahtar kelime + anlamsal + grafik gezintisi
+2. **Yeniden Sıralama**: En alakalı ve çeşitli sonuçları öne çıkarır
+3. **Filtreleme**: Zaman, güvenilirlik ve ilişki gücü filtrelerini uygular
+4. **Çıktı**: Gerçekleri VE geldikleri bölümleri döndürür
 
-Sonuç: CORE yalnızca gerçekleri değil, onları doğru bağlamda, zamanda ve hikayede hatırlayarak; ajanların sizin hatırlayacağınız şekilde yanıt verebilmesini sağlar.
+CORE sadece gerçekleri hatırlamaz — onları bağlam, zaman ve hikaye ile hatırlar, böylece ajanlar sizin hatırladığınız şekilde yanıt verir.
 
-## Dokümantasyon
+---
 
-CORE’dan en iyi şekilde yararlanmak için dokümantasyonumuzu keşfedin
+## 🛠️ Ajan Geliştiriciler İçin
 
-- [Temel Kavramlar](https://docs.heysol.ai/concepts/memory_graph)
-- [Kendi Sunucunuzu Kurun](https://docs.heysol.ai/self-hosting/overview)
-- [Core MCP’yi Claude ile Bağlayın](https://docs.heysol.ai/providers/claude)
-- [Core MCP’yi Cursor ile Bağlayın](https://docs.heysol.ai/providers/cursor)
-- [Core MCP’yi Claude Code ile Bağlayın](https://docs.heysol.ai/providers/claude-code)
-- [Core MCP’yi Codex ile Bağlayın](https://docs.heysol.ai/providers/codex) 
+Yapay zeka ajanları mı geliştiriyorsunuz? CORE size hafıza altyapısı + entegrasyon altyapısı sağlar, böylece ajanınızın mantığına odaklanabilirsiniz.
 
-- [Temel Kavramlar](https://docs.heysol.ai/overview)
-- [API Referansı](https://docs.heysol.ai/api-reference/get-user-profile)
+### Sahip Olacaklarınız
+
+**Hafıza Altyapısı**
+- %88,24 LoCoMo doğruluğunda zamansal bilgi grafiği
+- Hibrit arama: anlamsal + anahtar kelime + grafik gezintisi
+- Bağlam değişimi ve çelişkileri izler
+
+**Entegrasyon Altyapısı**
+- GitHub, Linear, Slack, Gmail’e bir kere bağlanın
+- Ajanınız tüm bağlı uygulamalar için MCP araçlarına sahip olur
+- OAuth akışı yok, API bakımı yok
+
+### Örnek Projeler
+
+**[core-cli](https://github.com/RedPlanetHQ/core-cli)** — CORE’a bağlanıp hafıza kullanan ve Linear, GitHub Issues ile senkronize olan bir görev yönetici ajan.
+
+**[holo](https://github.com/RedPlanetHQ/holo)** — CORE hafızanızı sohbetli kişisel bir web sitesine dönüştürün.
+
+### Kaynaklar
+
+- [API Referansı](https://docs.getcore.me/api-reference)
+- [SDK Dokümantasyonu](https://docs.getcore.me)
+- Belirli bir entegrasyon mu gerekiyor? [GitHub’da bir issue açın](https://github.com/RedPlanetHQ/core/issues)
+
+---
+
+## 🔥 Araştırma Öne Çıkanlar
+
+CORE hafızası, tüm akıl yürütme görevlerinde Locomo veri kümesinde ortalama **%88.24** doğruluk sağlayarak diğer hafıza sağlayıcılarını önemli ölçüde geride bırakıyor.
+
+<img width="6048" height="3428" alt="benchmark" src="https://github.com/user-attachments/assets/2e5fdac5-02ed-4d00-9312-c21d09974e1f" />
+
+| Görev Türü   | Açıklama                   |
+|--------------|----------------------------|
+| Tek adımlı    | Tek bir oturuma dayalı yanıtlar |
+| Çok adımlı    | Birden fazla oturumdan bilgi sentezi |
+| Açık alan     | Kullanıcı bilgisini harici bilgiyle entegre etme |
+| Zamanlama akıl yürütme | Zamana bağlı ipuçları ve sıra anlayışı |
+
+
+[Benchmark metodolojisi ve sonuçlarını görüntüle →](https://github.com/RedPlanetHQ/core-benchmark)
+
+---
+
 
 ## 🔒 Güvenlik
 
-CORE güvenliği ciddiye alır. Verilerinizi korumak için sektör standartlarında güvenlik uygulamaları uygularız:
+CASA Seviye 2 Sertifikalı — Google’ın OAuth gereksinimlerini karşılamak için üçüncü taraf denetimli.
 
-- **Veri Şifreleme**: Aktarılan tüm veriler (TLS 1.3) ve depolanan veriler (AES-256)
-- **Kimlik Doğrulama**: OAuth 2.0 ve sihirli bağlantı ile kimlik doğrulama
-- **Erişim Kontrolü**: Çalışma alanı tabanlı izolasyon ve rol tabanlı izinler
-- **Güvenlik Açığı Bildirimi**: Lütfen güvenlik sorunlarını harshith@poozle.dev adresine bildirin
+- Şifreleme: TLS 1.3 (taşıma sırasında) + AES-256 (beklemede)
+- Kimlik Doğrulama: OAuth 2.0 ve sihirli bağlantı
+- Erişim Kontrolü: Çalışma alanı tabanlı izolasyon, rol tabanlı izinler
+- Sıfır-güven mimarisi: Asla güvenme, her zaman doğrula
 
-Detaylı güvenlik bilgileri için [Güvenlik Politikamıza](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) göz atın.
+Veriniz, kontrolünüzde:
+
+- İstediğiniz zaman düzenleyin ve silin
+- Asla AI model eğitimi için kullanılmaz
+- Tam izolasyon için kendi kendine barındırma seçeneği
+
+Detaylı güvenlik bilgileri için [Güvenlik Politikası](https://raw.githubusercontent.com/RedPlanetHQ/core/main/SECURITY.md) adresine bakın.
+
+Güvenlik Açığı Bildirimi: harshith@poozle.dev
+
+## Dokümantasyon
+
+CORE'den en iyi şekilde yararlanmak için dokümantasyonumuzu inceleyin
+
+- [Kendi Sunucunda Barındırma](https://docs.getcore.me/self-hosting/overview)
+- [Temel Kavramlar](https://docs.getcore.me/overview)
+- [Bellek Grafiği](https://docs.getcore.me/concepts/memory_graph)
+- [API Referansı](https://docs.getcore.me/api-reference/get-user-profile)
 
 ## 🧑‍💻 Destek
 
 Sorularınız veya geri bildiriminiz mi var? Yardım etmek için buradayız:
 
 - Discord: [core-support kanalına katılın](https://discord.gg/YGUZcvDjUa)
-- Dokümantasyon: [docs.heysol.ai](https://docs.heysol.ai)
+- Dokümantasyon: [docs.getcore.me](https://docs.getcore.me)
 - E-posta: manik@poozle.dev
 
-## Kullanım Yönergeleri
+## Kullanım Kuralları
 
-**Depolayın:**
+**Saklanabilir:**
 
 - Konuşma geçmişi
 - Kullanıcı tercihleri
 - Görev bağlamı
-- Referans materyaller
+- Referans materyalleri
 
-**Depolamayın:**
+**Saklanmamalı:**
 
-- Hassas veriler (Kişisel Tanımlanabilir Bilgi)
+- Hassas veriler (Kişisel Bilgiler)
 - Kimlik bilgileri
 - Sistem günlükleri
 - Geçici veriler
@@ -251,17 +897,8 @@ Sorularınız veya geri bildiriminiz mi var? Yardım etmek için buradayız:
 
 
 
-
-
-
-
-
-
-
-
-
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-10-16
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
 
 ---

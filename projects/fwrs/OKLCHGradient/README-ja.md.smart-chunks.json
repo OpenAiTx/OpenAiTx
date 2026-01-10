@@ -1,0 +1,337 @@
+[
+  {
+    "Id": 1,
+    "Content": "# OKLCH gradients for SwiftUI\n\nThis is a drop-in replacement for SwiftUI's built-in [LinearGradient](https://developer.apple.com/documentation/swiftui/lineargradient), [RadialGradient](https://developer.apple.com/documentation/swiftui/radialgradient), [EllipticalGradient](https://developer.apple.com/documentation/swiftui/ellipticalgradient) and [AngularGradient](https://developer.apple.com/documentation/swiftui/angulargradient) shape styles that utilizes OKLCH color blending to create more visually appealing gradients.\n\nImplemented using iOS 17's [Shader](https://developer.apple.com/documentation/swiftui/shader) API, since that seems to be the only way to write shape styles with custom rendering without relying on private APIs.\n\nInstall using SPM:\n",
+    "ContentSha": "WV7Ikh349LJbANOXpx4jAGlEoSZaFwLEIwR8DsBhmnw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# SwiftUIのためのOKLCHグラデーション\n\nこれはSwiftUIの組み込みの[LinearGradient](https://developer.apple.com/documentation/swiftui/lineargradient)、[RadialGradient](https://developer.apple.com/documentation/swiftui/radialgradient)、[EllipticalGradient](https://developer.apple.com/documentation/swiftui/ellipticalgradient)、および[AngularGradient](https://developer.apple.com/documentation/swiftui/angulargradient)シェイプスタイルの代替品で、OKLCHカラーブレンディングを利用してより視覚的に魅力的なグラデーションを作成します。\n\niOS 17の[Shader](https://developer.apple.com/documentation/swiftui/shader) APIを使用して実装されています。これはプライベートAPIに依存せずにカスタムレンダリングでシェイプスタイルを書く唯一の方法と思われるためです。\n\nSPMを使ってインストールしてください：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "BS3YcTIuEPtzNSxnY35tHhl0z0p4d6asvxq6oY/4dVI=",
+        "originContent": "# OKLCH gradients for SwiftUI",
+        "translatedContent": "# SwiftUIのためのOKLCHグラデーション"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "GzVXBvDaPH29h2YT0VSkwGhLJNr4XwWZ7/0/o9NYq7I=",
+        "originContent": "This is a drop-in replacement for SwiftUI's built-in [LinearGradient](https://developer.apple.com/documentation/swiftui/lineargradient), [RadialGradient](https://developer.apple.com/documentation/swiftui/radialgradient), [EllipticalGradient](https://developer.apple.com/documentation/swiftui/ellipticalgradient) and [AngularGradient](https://developer.apple.com/documentation/swiftui/angulargradient) shape styles that utilizes OKLCH color blending to create more visually appealing gradients.",
+        "translatedContent": "これはSwiftUIの組み込みの[LinearGradient](https://developer.apple.com/documentation/swiftui/lineargradient)、[RadialGradient](https://developer.apple.com/documentation/swiftui/radialgradient)、[EllipticalGradient](https://developer.apple.com/documentation/swiftui/ellipticalgradient)、および[AngularGradient](https://developer.apple.com/documentation/swiftui/angulargradient)シェイプスタイルの代替品で、OKLCHカラーブレンディングを利用してより視覚的に魅力的なグラデーションを作成します。"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "V7X44Sz8fEtjP8hq1nT85/ZXCzR29FobJXNe7q7htwI=",
+        "originContent": "Implemented using iOS 17's [Shader](https://developer.apple.com/documentation/swiftui/shader) API, since that seems to be the only way to write shape styles with custom rendering without relying on private APIs.",
+        "translatedContent": "iOS 17の[Shader](https://developer.apple.com/documentation/swiftui/shader) APIを使用して実装されています。これはプライベートAPIに依存せずにカスタムレンダリングでシェイプスタイルを書く唯一の方法と思われるためです。"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "3qneqtAuV1xhV5/+i8lPFqLAqxE0kF/79zeGoRFYPR8=",
+        "originContent": "Install using SPM:",
+        "translatedContent": "SPMを使ってインストールしてください："
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```swift\ndependencies: [\n    .package(url: \"https://github.com/fwrs/OKLCHGradient.git\", .upToNextMajor(from: \"1.0.9\"))\n]\n```",
+    "ContentSha": "n/48/BrgxzKle90+ugE9DGnXsBNGNJzauHZeNbOr/5o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\ndependencies: [\n    .package(url: \"https://github.com/fwrs/OKLCHGradient.git\", .upToNextMajor(from: \"1.0.9\"))\n]\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "m/icCluOMxgS8N5rTvrjrHM+sONN/dpnmD2hXtqj1NQ=",
+        "originContent": "dependencies: [",
+        "translatedContent": "dependencies: ["
+      },
+      {
+        "row": 3,
+        "rowsha": "6zhheMtdFU/l0O3/s59bWKpY13NR8YKJrhsKoLJUYNI=",
+        "originContent": "    .package(url: \"https://github.com/fwrs/OKLCHGradient.git\", .upToNextMajor(from: \"1.0.9\"))",
+        "translatedContent": "    .package(url: \"https://github.com/fwrs/OKLCHGradient.git\", .upToNextMajor(from: \"1.0.9\"))"
+      },
+      {
+        "row": 4,
+        "rowsha": "z64NQkj3FC97F/gmzXpRkoDjEld2kOlXgw0j3PNaP/8=",
+        "originContent": "]",
+        "translatedContent": "]"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nTo use just prepend `OKLCH` to the gradient struct name:\n",
+    "ContentSha": "ptiRKZGl4NMgBxhlu8cOaP1bHNVAZcqJrJdT9QJmd0w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n使用するには、グラデーション構造体名の先頭に `OKLCH` を付けてください：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "VzhruuKlDhyn23bqdXz5PbaZSSV3xmyYmdethyCksm8=",
+        "originContent": "To use just prepend `OKLCH` to the gradient struct name:",
+        "translatedContent": "使用するには、グラデーション構造体名の先頭に `OKLCH` を付けてください："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```swift\n// change\n\nRectangle()\n    .background(LinearGradient(\n        colors: [.blue, .yellow],\n        startPoint: .leading,\n        endPoint: .trailing\n    ))\n\n// to\n\nimport OKLCHGradient\n\nRectangle()\n    .background(OKLCHLinearGradient(\n        colors: [.blue, .yellow],\n        startPoint: .leading,\n        endPoint: .trailing\n    ))\n```",
+    "ContentSha": "C3LNHKbycqCvxFS00N6EvLi/EkDu2jqVLYxpOrLBtNE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```swift\n// change\n\nRectangle()\n    .background(LinearGradient(\n        colors: [.blue, .yellow],\n        startPoint: .leading,\n        endPoint: .trailing\n    ))\n\n// to\n\nimport OKLCHGradient\n\nRectangle()\n    .background(OKLCHLinearGradient(\n        colors: [.blue, .yellow],\n        startPoint: .leading,\n        endPoint: .trailing\n    ))\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "tzMm8+CoCQ13ypxQuZFCj9mdCnrZyWFuA5V4Yz9ajt8=",
+        "originContent": "```swift",
+        "translatedContent": "```swift"
+      },
+      {
+        "row": 2,
+        "rowsha": "FInN1Vf6v98AdOJ7WmS2IlZ6u+f+H4nZndkMl8WFIvA=",
+        "originContent": "// change",
+        "translatedContent": "// change"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "KoAa2ws7/lDdOVRtofgkvgDdxPOgW6pGAKu6Zk9p4CQ=",
+        "originContent": "Rectangle()",
+        "translatedContent": "Rectangle()"
+      },
+      {
+        "row": 5,
+        "rowsha": "0HUvqxyAWVxaNdOaxCLCMkZ6MBZ87KWaHLpoau+zFWw=",
+        "originContent": "    .background(LinearGradient(",
+        "translatedContent": "    .background(LinearGradient("
+      },
+      {
+        "row": 6,
+        "rowsha": "IBiqGfcY+BLhuLgdK4yFrLNfMizbz46bEgwO1ZAcq50=",
+        "originContent": "        colors: [.blue, .yellow],",
+        "translatedContent": "        colors: [.blue, .yellow],"
+      },
+      {
+        "row": 7,
+        "rowsha": "yWiJfGY1TvYPwQ9LQw4x1oQ+7afnVOCVuw5nKVH7KRM=",
+        "originContent": "        startPoint: .leading,",
+        "translatedContent": "        startPoint: .leading,"
+      },
+      {
+        "row": 8,
+        "rowsha": "/fn+PAL6vXvwPS/H8UdxRJ1oaAi/WRX+hoV6grgDxBo=",
+        "originContent": "        endPoint: .trailing",
+        "translatedContent": "        endPoint: .trailing"
+      },
+      {
+        "row": 9,
+        "rowsha": "m/UQyuVH8cwKJwJbYfyD830yAZz0hzkZtT2U4kvxBWk=",
+        "originContent": "    ))",
+        "translatedContent": "    ))"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "rPBsuu23F8x5tsMgzqilValftdCjjw50AhzgC0TnPuU=",
+        "originContent": "// to",
+        "translatedContent": "// to"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Y8X1fsjsNjQPj+ciPrCtFGIr8XyLaEU/aNTStaDYaHM=",
+        "originContent": "import OKLCHGradient",
+        "translatedContent": "import OKLCHGradient"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "KoAa2ws7/lDdOVRtofgkvgDdxPOgW6pGAKu6Zk9p4CQ=",
+        "originContent": "Rectangle()",
+        "translatedContent": "Rectangle()"
+      },
+      {
+        "row": 16,
+        "rowsha": "iDbTnyW5OD58ZUVI6y591Ky7kHfpyO8HK752VZQDZAE=",
+        "originContent": "    .background(OKLCHLinearGradient(",
+        "translatedContent": "    .background(OKLCHLinearGradient("
+      },
+      {
+        "row": 17,
+        "rowsha": "IBiqGfcY+BLhuLgdK4yFrLNfMizbz46bEgwO1ZAcq50=",
+        "originContent": "        colors: [.blue, .yellow],",
+        "translatedContent": "        colors: [.blue, .yellow],"
+      },
+      {
+        "row": 18,
+        "rowsha": "yWiJfGY1TvYPwQ9LQw4x1oQ+7afnVOCVuw5nKVH7KRM=",
+        "originContent": "        startPoint: .leading,",
+        "translatedContent": "        startPoint: .leading,"
+      },
+      {
+        "row": 19,
+        "rowsha": "/fn+PAL6vXvwPS/H8UdxRJ1oaAi/WRX+hoV6grgDxBo=",
+        "originContent": "        endPoint: .trailing",
+        "translatedContent": "        endPoint: .trailing"
+      },
+      {
+        "row": 20,
+        "rowsha": "m/UQyuVH8cwKJwJbYfyD830yAZz0hzkZtT2U4kvxBWk=",
+        "originContent": "    ))",
+        "translatedContent": "    ))"
+      },
+      {
+        "row": 21,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\nAnd enjoy the difference:\n\n<img src=\"https://raw.githubusercontent.com/fwrs/OKLCHGradient/main/Misc/Demonstration.png\" alt=\"Screenshot comparing a regular SwiftUI gradient to an OKLCH gradient. The regular gradient utilizes a grey color as an intermediate between blue and yellow colors, while OKLCH uses green, which is the color positioned between blue and yellow on a standard color wheel.\" width=\"351px\" />\n\n> [!NOTE]\n> At the moment it's not possible to pass AnyGradient structs to OKLCH gradients because there isn't a way to read color stops from an AnyGradient using public APIs. This functionality is limited to Apple's own built-in gradients.\n",
+    "ContentSha": "x8DzVrlUljtxGVrn/Q6XWBhPD2egQPzvQqxjdvCMzm0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "そして違いをお楽しみください：\n\n<img src=\"https://raw.githubusercontent.com/fwrs/OKLCHGradient/main/Misc/Demonstration.png\" alt=\"通常のSwiftUIグラデーションとOKLCHグラデーションを比較したスクリーンショット。通常のグラデーションは青と黄色の間にグレーの色を使っていますが、OKLCHは標準のカラーホイール上で青と黄色の間に位置する緑色を使っています。\" width=\"351px\" />\n\n> [!注意]\n> 現時点では、AnyGradient構造体をOKLCHグラデーションに渡すことはできません。なぜなら、公開APIを使用してAnyGradientからカラーストップを読み取る方法がないためです。この機能はAppleの組み込みグラデーションに限定されています。\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "そして違いをお楽しみください："
+      },
+      {
+        "row": 2,
+        "rowsha": "k25/2Iqagi0JV1HxgMBpwf0JBgOzLb3neuAyssh+S0g=",
+        "originContent": "And enjoy the difference:",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "<img src=\"https://raw.githubusercontent.com/fwrs/OKLCHGradient/main/Misc/Demonstration.png\" alt=\"通常のSwiftUIグラデーションとOKLCHグラデーションを比較したスクリーンショット。通常のグラデーションは青と黄色の間にグレーの色を使っていますが、OKLCHは標準のカラーホイール上で青と黄色の間に位置する緑色を使っています。\" width=\"351px\" />"
+      },
+      {
+        "row": 4,
+        "rowsha": "wZwkvNeddk0lxymmxh2ppp1M+UxPY9XVqrpjILGXkm0=",
+        "originContent": "<img src=\"https://raw.githubusercontent.com/fwrs/OKLCHGradient/main/Misc/Demonstration.png\" alt=\"Screenshot comparing a regular SwiftUI gradient to an OKLCH gradient. The regular gradient utilizes a grey color as an intermediate between blue and yellow colors, while OKLCH uses green, which is the color positioned between blue and yellow on a standard color wheel.\" width=\"351px\" />",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> [!注意]"
+      },
+      {
+        "row": 6,
+        "rowsha": "f7t9zCxxpXM+gn2wD3Ca/9QN2c+xK2M4aKM0xiXBqeU=",
+        "originContent": "> [!NOTE]",
+        "translatedContent": "> 現時点では、AnyGradient構造体をOKLCHグラデーションに渡すことはできません。なぜなら、公開APIを使用してAnyGradientからカラーストップを読み取る方法がないためです。この機能はAppleの組み込みグラデーションに限定されています。"
+      },
+      {
+        "row": 7,
+        "rowsha": "GGyHEJWvxQdL9TWp/l0Jup5NRX7jo/egB9zct1c3sTY=",
+        "originContent": "> At the moment it's not possible to pass AnyGradient structs to OKLCH gradients because there isn't a way to read color stops from an AnyGradient using public APIs. This functionality is limited to Apple's own built-in gradients.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

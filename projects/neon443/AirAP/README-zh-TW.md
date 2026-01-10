@@ -26,23 +26,25 @@
       </div>
     </div>
   </details>
+
 </div>
 
 <div align="center"> 
     <br/>
     <p>
-        <img src="https://github.com/neon443/AirAP/blob/main/AirAP/Assets.xcassets/AppIcon.appiconset/Icon.png?raw=true" title="cobalt" alt="cobalt logo" width="100" />
+        <img src="https://files.catbox.moe/f4jofb.png" title="icon" alt="icon" width="100" />
     </p>
     <p>
         使用你的 iPhone 作為 AirPlay 接收器
         <br/>
+
         <a href="https://neon443.github.io">
-            製作人 neon443
+            製作：neon443
         </a>
     </p>
     <p>
         <a href="https://testflight.apple.com/join/8aeqD8Q2">
-            testflight 測試
+            TestFlight 測試版
         </a>
     </p>
     <br/>
@@ -51,29 +53,28 @@
 <div align="center">
   <a href="https://shipwrecked.hackclub.com/?t=ghrm" target="_blank">
     <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/739361f1d440b17fc9e2f74e49fc185d86cbec14_badge.png" 
-         alt="此專案是世界首個在島嶼上舉辦的 Shipwrecked 黑客松的一部分！" 
+         alt="此專案是 Shipwrecked——全球首個島嶼黑客松——的一部分！" 
          style="width: 25%;">
   </a>
 </div>
 
 <br/>
 
-AirAP 是一款完全原生的 AirPlay 伺服器，使用 Swift 為 iOS 撰寫。基本上，AirAP 允許你在 iTunes 或 Mac 上將 iPhone 作為 AirPlay 接收器使用，這意味著你可以用 iPhone 播放裝置的聲音。
+AirAP 是一款完全以 Swift 編寫的原生 AirPlay 伺服器，適用於 iOS。簡單來說，AirAP 讓你的 iPhone 能作為 iTunes 或 Mac 的 AirPlay 接收器，也就是你可以用 iPhone 來播放裝置的聲音。
 
-## 什麼是 AirAP？
+## AirAP 是什麼？
 
-你是否曾經想過，將來自 Mac、Apple TV 或其他 iOS 裝置的音訊串流到你的 iPhone？AirAP 讓這成為可能，因為它在 iOS 上原生實現了完整的 AirPlay 伺服器。安裝後，你的 iPhone 會出現在系統偏好設定的音訊面板、Music.app 或任何支援 AirPlay 的應用程式中，作為可用的 AirPlay 目的地。
+你是否曾想過將 Mac、Apple TV 或其他 iOS 裝置的音訊串流到 iPhone 上？AirAP 透過在 iOS 上原生運行完整的 AirPlay 伺服器，讓這一切成為可能。安裝後，你的 iPhone 會在系統偏好設定的音訊面板、Music.app 或其他支援 AirPlay 的應用程式中，顯示為可用的 AirPlay 目的地。
 
-這個概念一開始可能有點顛倒——畢竟我們習慣將 iPhone 的內容串流到其他裝置。但其實有不少場合你會想反過來用。或許你半夜在 Mac 上工作，想把音訊導到 iPhone 並用耳機，不打擾他人（嗨 👋）。也許你是開發者，需要測試音訊應用，且必須快速切換不同的輸出裝置。又或者你只是想讓舊的有線喇叭再度發揮作用。
+這個概念一開始可能有些反直覺——畢竟我們習慣從 iPhone 串流到其他裝置。但其實有不少情境需要反向串流。也許你深夜在 Mac 上工作，想把音訊導到帶耳機的 iPhone 上避免吵到其他人（嗨 👋），或你是開發者測試音訊應用程式，需要快速切換不同的輸出裝置，甚至只是想重新利用舊有的有線喇叭。
 
 ## 安裝 AirAP
 
-想試用的話，[點擊這個 TestFlight 連結](https://testflight.apple.com/join/8aeqD8Q2)，安裝 AirAP 並按照說明操作。安裝後，只需啟動 AirAP，並確保你的 iPhone 和要串流的裝置連接在同一個 Wi-Fi 網路。你的 iPhone 會自動出現在 AirPlay 裝置列表中，隨時準備接收音訊——如果沒有出現，請嘗試重新啟動應用程式。
+想要試用，[請開啟此 TestFlight 連結](https://testflight.apple.com/join/8aeqD8Q2)，安裝 AirAP 並依照指示操作。安裝完成後，直接開啟 AirAP 並確保你的 iPhone 與欲串流裝置連上同一個 Wi-Fi 網路。你的 iPhone 將自動顯示在 AirPlay 裝置清單中，隨時可接收音訊——若未顯示，請嘗試重新啟動 App。
 
 ## 編譯
 
-請確保你已經安裝 [homebrew](https://brew.sh)
-
+請確保已安裝 [homebrew](https://brew.sh)
 ```
 brew install carthage
 git clone https://github.com/neon443/AirAP
@@ -99,6 +100,6 @@ would not have been possible without these
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-07-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-10
 
 ---
