@@ -1,0 +1,625 @@
+[
+  {
+    "Id": 1,
+    "Content": "# STAnd aLONE TRAY [![Build][badge-build]][yaml-build] [![Lint][badge-lint]][yaml-lint]\n\n[badge-build]: https://github.com/d3adb5/stalonetray/actions/workflows/build.yml/badge.svg\n[yaml-build]: https://github.com/d3adb5/stalonetray/actions/workflows/build.yml\n[badge-lint]: https://github.com/d3adb5/stalonetray/actions/workflows/lint.yml/badge.svg\n[yaml-lint]: https://github.com/d3adb5/stalonetray/actions/workflows/lint.yml\n\nStalonetray is a STAnd-aLONE system TRAY (notification area) for Unix desktops\nusing the X11 windowing system. It has minimal default build and run-time\ndependencies: the Xlib and libXinerama, though you could do away with the\nlatter by disabling a feature for even more minimalism. Stalonetray runs under\nvirtually any window manager.\n\nTo start using stalonetray, just copy `stalonetrayrc.sample` to\n`~/.stalonetrayrc` or to `$XDG_CONFIG_HOME/stalonetrayrc`. It is well-commented\nand should suffice for a quick start.\n\nNote that some features are disabled by default and may not work out of the\nbox, depending on how stalonetray was built by the package maintainer. See the\n\"Building from source\" section below if you want to compile it yourself with\nthe features you need.\n\n## Maintenance status\n\nThis project was originally developed by [Roman Dubtsov (kolbusa)][gh-kolbusa]\nand recently changed hands. Roman is still involved with, but no longer\nactively maintains the project.\n\n**To him goes all the credit for creating and maintaining this project for many\nyears. Thank you, Roman!**\n\n[gh-kolbusa]: https://github.com/kolbusa\n\n## Installation\n\nPackage managers are the most convenient way to install stalonetray. It is\npackaged for several Linux distributions and BSD variants. On Debian and\nUbuntu, run:\n",
+    "ContentSha": "hddXPVDkIuThtLO+K2c28ZTK0Ve0h+7il1CgpFi1gw8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# STAnd aLONE TRAY [![Build][badge-build]][yaml-build] [![Lint][badge-lint]][yaml-lint]\n\n[badge-build]: https://github.com/d3adb5/stalonetray/actions/workflows/build.yml/badge.svg\n[yaml-build]: https://github.com/d3adb5/stalonetray/actions/workflows/build.yml\n[badge-lint]: https://github.com/d3adb5/stalonetray/actions/workflows/lint.yml/badge.svg\n[yaml-lint]: https://github.com/d3adb5/stalonetray/actions/workflows/lint.yml\n\nStalonetray est un STAnd-aLONE system TRAY (zone de notification) pour les bureaux Unix\nutilisant le système de fenêtrage X11. Il a des dépendances minimales par défaut à la compilation et à l'exécution :\nXlib et libXinerama, bien que vous puissiez vous passer de ce dernier\nen désactivant une fonctionnalité pour encore plus de minimalisme. Stalonetray fonctionne sous\nvirtuellement n'importe quel gestionnaire de fenêtres.\n\nPour commencer à utiliser stalonetray, copiez simplement `stalonetrayrc.sample` dans\n`~/.stalonetrayrc` ou dans `$XDG_CONFIG_HOME/stalonetrayrc`. Il est bien commenté\net devrait suffire pour un démarrage rapide.\n\nNotez que certaines fonctionnalités sont désactivées par défaut et peuvent ne pas fonctionner\nimmédiatement, selon la façon dont stalonetray a été compilé par le mainteneur du paquet. Voir la\nsection \"Compilation depuis la source\" ci-dessous si vous souhaitez le compiler vous-même avec\nles fonctionnalités dont vous avez besoin.\n\n## État de la maintenance\n\nCe projet a été initialement développé par [Roman Dubtsov (kolbusa)][gh-kolbusa]\net a récemment changé de main. Roman est toujours impliqué, mais ne maintient plus\nactivement le projet.\n\n**Tout le mérite lui revient pour avoir créé et maintenu ce projet pendant de nombreuses\nannées. Merci, Roman !**\n\n[gh-kolbusa]: https://github.com/kolbusa\n\n## Installation\n\nLes gestionnaires de paquets sont le moyen le plus pratique d’installer stalonetray. Il est\npackagé pour plusieurs distributions Linux et variantes BSD. Sur Debian et\nUbuntu, exécutez :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ce02q2fjIsUDMHGx1WgSWJQzF28UvuSODhTMi2cR1ls=",
+        "originContent": "# STAnd aLONE TRAY [![Build][badge-build]][yaml-build] [![Lint][badge-lint]][yaml-lint]",
+        "translatedContent": "# STAnd aLONE TRAY [![Build][badge-build]][yaml-build] [![Lint][badge-lint]][yaml-lint]"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "ZGgaCSF9aswD2xm5mMXkKgssGvtG5x1URIjjzZkx3ys=",
+        "originContent": "[badge-build]: https://github.com/d3adb5/stalonetray/actions/workflows/build.yml/badge.svg",
+        "translatedContent": "[badge-build]: https://github.com/d3adb5/stalonetray/actions/workflows/build.yml/badge.svg"
+      },
+      {
+        "row": 4,
+        "rowsha": "YmJz4eNMdu8mNXPpo9z9uquLblAjAUuoY2Q0Zqv/gVE=",
+        "originContent": "[yaml-build]: https://github.com/d3adb5/stalonetray/actions/workflows/build.yml",
+        "translatedContent": "[yaml-build]: https://github.com/d3adb5/stalonetray/actions/workflows/build.yml"
+      },
+      {
+        "row": 5,
+        "rowsha": "MsVGoKDMw/6QPwC8qb/9x18T4qr2RUFTWCOpezBBEL4=",
+        "originContent": "[badge-lint]: https://github.com/d3adb5/stalonetray/actions/workflows/lint.yml/badge.svg",
+        "translatedContent": "[badge-lint]: https://github.com/d3adb5/stalonetray/actions/workflows/lint.yml/badge.svg"
+      },
+      {
+        "row": 6,
+        "rowsha": "HTxRYmKEkd9DjZ+eW7PeTI++H2G2XH+RI2aj+Qeba4c=",
+        "originContent": "[yaml-lint]: https://github.com/d3adb5/stalonetray/actions/workflows/lint.yml",
+        "translatedContent": "[yaml-lint]: https://github.com/d3adb5/stalonetray/actions/workflows/lint.yml"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "5aZw7HSJCShMRlTZ1g8egwcsC/atY16P9vyNi4dIGPA=",
+        "originContent": "Stalonetray is a STAnd-aLONE system TRAY (notification area) for Unix desktops",
+        "translatedContent": "Stalonetray est un STAnd-aLONE system TRAY (zone de notification) pour les bureaux Unix"
+      },
+      {
+        "row": 9,
+        "rowsha": "nwMtJH7lMEwLl2rx4czGtmNyulkQT7j7wSgSR008cvw=",
+        "originContent": "using the X11 windowing system. It has minimal default build and run-time",
+        "translatedContent": "utilisant le système de fenêtrage X11. Il a des dépendances minimales par défaut à la compilation et à l'exécution :"
+      },
+      {
+        "row": 10,
+        "rowsha": "GIut/MLhjCTQqav+ofY3o5dgwvd8naCF3Yr5B7X9p2g=",
+        "originContent": "dependencies: the Xlib and libXinerama, though you could do away with the",
+        "translatedContent": "Xlib et libXinerama, bien que vous puissiez vous passer de ce dernier"
+      },
+      {
+        "row": 11,
+        "rowsha": "M1lwOJNU76FwvQI1Nuy8E93ncjlsUFufYkSmh6MNanU=",
+        "originContent": "latter by disabling a feature for even more minimalism. Stalonetray runs under",
+        "translatedContent": "en désactivant une fonctionnalité pour encore plus de minimalisme. Stalonetray fonctionne sous"
+      },
+      {
+        "row": 12,
+        "rowsha": "o/+YSfk4Ss0Ck2yrz4FMwQTfhKfiRHo4elASiQI6Xd4=",
+        "originContent": "virtually any window manager.",
+        "translatedContent": "virtuellement n'importe quel gestionnaire de fenêtres."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "G23o3/+j2GR2Qivo8ZqxmoQLXQ9b+8Qu6v2fi7KbwmY=",
+        "originContent": "To start using stalonetray, just copy `stalonetrayrc.sample` to",
+        "translatedContent": "Pour commencer à utiliser stalonetray, copiez simplement `stalonetrayrc.sample` dans"
+      },
+      {
+        "row": 15,
+        "rowsha": "AGwf6L8LTVIMHgaHC2+MR9zUfpldDyUOxXJRyv6hAqU=",
+        "originContent": "`~/.stalonetrayrc` or to `$XDG_CONFIG_HOME/stalonetrayrc`. It is well-commented",
+        "translatedContent": "`~/.stalonetrayrc` ou dans `$XDG_CONFIG_HOME/stalonetrayrc`. Il est bien commenté"
+      },
+      {
+        "row": 16,
+        "rowsha": "z3X2WABDlB9kmv+sTneh2CC9t+HnUmtKkrP379r1tXg=",
+        "originContent": "and should suffice for a quick start.",
+        "translatedContent": "et devrait suffire pour un démarrage rapide."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "O0N/QCaz5UZHaFyevffaQ6BfKzfKDtPSvDHJ6YcB050=",
+        "originContent": "Note that some features are disabled by default and may not work out of the",
+        "translatedContent": "Notez que certaines fonctionnalités sont désactivées par défaut et peuvent ne pas fonctionner"
+      },
+      {
+        "row": 19,
+        "rowsha": "BObz0tPHfODtjorPGjBVQY/4ZRZbCCBTYYYkOZ52DzU=",
+        "originContent": "box, depending on how stalonetray was built by the package maintainer. See the",
+        "translatedContent": "immédiatement, selon la façon dont stalonetray a été compilé par le mainteneur du paquet. Voir la"
+      },
+      {
+        "row": 20,
+        "rowsha": "60brnz0AsCURWpcPVxaGG+bMsTXlIAYaEKmf/GRzbjc=",
+        "originContent": "\"Building from source\" section below if you want to compile it yourself with",
+        "translatedContent": "section \"Compilation depuis la source\" ci-dessous si vous souhaitez le compiler vous-même avec"
+      },
+      {
+        "row": 21,
+        "rowsha": "v8sVVkW2/y3FXMFb2vl6PNIf3wnH1JBQLxX6RQ22iTg=",
+        "originContent": "the features you need.",
+        "translatedContent": "les fonctionnalités dont vous avez besoin."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "KAM4JpmZmwCP6P/Cn6Ka1XNLwmmS59nyQ7c3XvNpEnU=",
+        "originContent": "## Maintenance status",
+        "translatedContent": "## État de la maintenance"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "8sEMw8PXNFY9DRps9SdpnbvowmLEHxzi/Zt81sLaLmI=",
+        "originContent": "This project was originally developed by [Roman Dubtsov (kolbusa)][gh-kolbusa]",
+        "translatedContent": "Ce projet a été initialement développé par [Roman Dubtsov (kolbusa)][gh-kolbusa]"
+      },
+      {
+        "row": 26,
+        "rowsha": "K3jeHG537w14MydCi77685IJPX7GqbVp5CgjLQp4PG4=",
+        "originContent": "and recently changed hands. Roman is still involved with, but no longer",
+        "translatedContent": "et a récemment changé de main. Roman est toujours impliqué, mais ne maintient plus"
+      },
+      {
+        "row": 27,
+        "rowsha": "y1ispIQa4GQja4q8ifFsrB0fZkLaauPA3c/1ZBykSnQ=",
+        "originContent": "actively maintains the project.",
+        "translatedContent": "activement le projet."
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "pxo+i5Ez7GifKZ72PVLRHFwfIEniIsIOOdUMu7Xawww=",
+        "originContent": "**To him goes all the credit for creating and maintaining this project for many",
+        "translatedContent": "**Tout le mérite lui revient pour avoir créé et maintenu ce projet pendant de nombreuses"
+      },
+      {
+        "row": 30,
+        "rowsha": "Nyysx/ydpu4O3oMEKVkB7yf5iFvSZnS3zx97OVNsxGY=",
+        "originContent": "years. Thank you, Roman!**",
+        "translatedContent": "années. Merci, Roman !**"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "DFlweHbblbq0LqJcGY8t+1torjCI2IdsdFEmzqeyZDs=",
+        "originContent": "[gh-kolbusa]: https://github.com/kolbusa",
+        "translatedContent": "[gh-kolbusa]: https://github.com/kolbusa"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "f+NzInP2aFSvj7Nu0FzhfQ3uVkukqQkFmRSVU7IG3zs=",
+        "originContent": "Package managers are the most convenient way to install stalonetray. It is",
+        "translatedContent": "Les gestionnaires de paquets sont le moyen le plus pratique d’installer stalonetray. Il est"
+      },
+      {
+        "row": 37,
+        "rowsha": "vbAnk0bWxJWQKndA0WGRRPucYmt/omMZ8Xxlt4QvoqQ=",
+        "originContent": "packaged for several Linux distributions and BSD variants. On Debian and",
+        "translatedContent": "packagé pour plusieurs distributions Linux et variantes BSD. Sur Debian et"
+      },
+      {
+        "row": 38,
+        "rowsha": "Hdlhzh9eTL/bjRPGV98AWMnq3KjvzO6qsmzm/KEKxiU=",
+        "originContent": "Ubuntu, run:",
+        "translatedContent": "Ubuntu, exécutez :"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```sh\nsudo apt install stalonetray\n```",
+    "ContentSha": "YhLYm20z1MsZpOnmG9AN/Ij6osfqGuL7cUVfkds8UvU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nsudo apt install stalonetray\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Pyfzanzo8+hzr1hznPYjyooo81tyhlitgVJfuUbJ+1g=",
+        "originContent": "sudo apt install stalonetray",
+        "translatedContent": "sudo apt install stalonetray"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\nOn Fedora run:\n",
+    "ContentSha": "JclaCygykdL2vtHCaVdreK3asvhUWx2RWZJLuvsmeI8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nSur Fedora, exécutez :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "QUwTfsK9KEqXkBKfSwN7T6fmOr0pcst9NwwmXTkpoUQ=",
+        "originContent": "On Fedora run:",
+        "translatedContent": "Sur Fedora, exécutez :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```sh\nsudo dnf install stalonetray\n```",
+    "ContentSha": "jOU3voaaI6WmmuOai8NCNcFeVJbTdn4hWKYNC/5jrMo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nsudo dnf install stalonetray\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "amOpN8dD9+NPqrokWXoy8Zm1h699YRtifA4JDztbZHA=",
+        "originContent": "sudo dnf install stalonetray",
+        "translatedContent": "sudo dnf install stalonetray"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n## Building from source\n\nStalonetray uses [Meson](https://mesonbuild.com/). Refer to the `meson.options`\nfile for available build options and their default values.\n\nTo build stalonetray using Meson, ensure necessary dependencies are installed\n--- by default only Xlib and libXinerama development packages are required ---\nand run the standard Meson build commands:\n",
+    "ContentSha": "2Vbx+9a1tHr9tFpFQWW/w3t4Czx9SDfCzSP3UQGXfC8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Compilation à partir des sources\n\nStalonetray utilise [Meson](https://mesonbuild.com/). Consultez le fichier `meson.options`\npour les options de compilation disponibles et leurs valeurs par défaut.\n\nPour compiler stalonetray avec Meson, assurez-vous que les dépendances nécessaires sont installées\n--- par défaut, seuls les paquets de développement Xlib et libXinerama sont requis ---\net lancez les commandes de compilation standard de Meson :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "SUnqszMHxc+AyszNackhz0SWrUvatpjyYkLA2TtFjiQ=",
+        "originContent": "## Building from source",
+        "translatedContent": "## Compilation à partir des sources"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "WsabvcSVgncFaWDDXTGEmb12yV/ARtJD9HzUD0GJcmQ=",
+        "originContent": "Stalonetray uses [Meson](https://mesonbuild.com/). Refer to the `meson.options`",
+        "translatedContent": "Stalonetray utilise [Meson](https://mesonbuild.com/). Consultez le fichier `meson.options`"
+      },
+      {
+        "row": 5,
+        "rowsha": "ecGL4vVYNKrrMYSDkj/I4norsTYMhRaAQ+ZMjhLm4yg=",
+        "originContent": "file for available build options and their default values.",
+        "translatedContent": "pour les options de compilation disponibles et leurs valeurs par défaut."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "aRMVpMN2C2cBH86AN3DyzJ6NBgZUdxt5Oj0RiuAEp6s=",
+        "originContent": "To build stalonetray using Meson, ensure necessary dependencies are installed",
+        "translatedContent": "Pour compiler stalonetray avec Meson, assurez-vous que les dépendances nécessaires sont installées"
+      },
+      {
+        "row": 8,
+        "rowsha": "eO3qjDMV3b4WUGgmlUve4p56a+a/o9wxjyP3iayI+s8=",
+        "originContent": "--- by default only Xlib and libXinerama development packages are required ---",
+        "translatedContent": "--- par défaut, seuls les paquets de développement Xlib et libXinerama sont requis ---"
+      },
+      {
+        "row": 9,
+        "rowsha": "RUuizmMPGuX6V/+3AKxg72Oj19y3HDpvkEZXGOIe4Yw=",
+        "originContent": "and run the standard Meson build commands:",
+        "translatedContent": "et lancez les commandes de compilation standard de Meson :"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```sh\nmeson setup builddir\nmeson compile -C builddir stalonetray\n```",
+    "ContentSha": "z7z3g6sKZ0bkLvo1wLVouUBOV0A4+SNEXS9MrfX3x5c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nmeson setup builddir\nmeson compile -C builddir stalonetray\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "WrsO4CFn4x+5gAqB9ZSIldhmP+LChM4coKDHafznf9c=",
+        "originContent": "meson setup builddir",
+        "translatedContent": "meson setup builddir"
+      },
+      {
+        "row": 3,
+        "rowsha": "Dm4/XCieBfd8xOh3HUhadAaqF+aqc9A37rQWsnTSQdE=",
+        "originContent": "meson compile -C builddir stalonetray",
+        "translatedContent": "meson compile -C builddir stalonetray"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "\nThis should build the `stalonetray` binary in the `builddir` directory.\n\nTo build stalonetray's documentation, you'll need `xsltproc` and DocBook\nstylesheets installed first. Then build the `manpage` target:\n",
+    "ContentSha": "/+Sv0pbAMX0uO/n+aYhP95pfzSN7bS95MzUQ9NF8Jv0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nCela devrait construire le binaire `stalonetray` dans le répertoire `builddir`.\n\nPour construire la documentation de stalonetray, vous aurez besoin d’installer d’abord `xsltproc` et les feuilles de style DocBook. Ensuite, construisez la cible `manpage` :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3+qYbu77XkKSYG4++NXL45yoI8DSGT9QyA8jW6k20pQ=",
+        "originContent": "This should build the `stalonetray` binary in the `builddir` directory.",
+        "translatedContent": "Cela devrait construire le binaire `stalonetray` dans le répertoire `builddir`."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Kk6IvOxWcz4cVXo6A/ZIhyypKaM3T2oRxr0neM398/E=",
+        "originContent": "To build stalonetray's documentation, you'll need `xsltproc` and DocBook",
+        "translatedContent": "Pour construire la documentation de stalonetray, vous aurez besoin d’installer d’abord `xsltproc` et les feuilles de style DocBook. Ensuite, construisez la cible `manpage` :"
+      },
+      {
+        "row": 5,
+        "rowsha": "LO1BwPW3S4SWJDqXMdtkVSPuX5GuxvsmW4KKdHf9eOU=",
+        "originContent": "stylesheets installed first. Then build the `manpage` target:",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```sh\nmeson compile -C builddir manpage\n```",
+    "ContentSha": "upMr/PZpvSIYKzHyP/ayEObiA1bFyDLQrYXCZEoYXjk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nmeson compile -C builddir manpage\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "qKIZE97gSjOhBeG5erx4/9BXXjbJ4rf9XMJ31DAdvx4=",
+        "originContent": "meson compile -C builddir manpage",
+        "translatedContent": "meson compile -C builddir manpage"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "\nThis creates the `stalonetray.1` file in the `builddir` directory.\n\nInstallation from source can be done with:\n",
+    "ContentSha": "lzyUOxOjOofLfKl9RYzyJ2wJFBkMjSwHfaSCkK5qXzc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nCela crée le fichier `stalonetray.1` dans le répertoire `builddir`.\n\nL'installation à partir des sources peut être effectuée avec :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "TEq3Jtx+lxcERzNlT60DWUYX5MMWCUvUccgzEX1xqn8=",
+        "originContent": "This creates the `stalonetray.1` file in the `builddir` directory.",
+        "translatedContent": "Cela crée le fichier `stalonetray.1` dans le répertoire `builddir`."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "v/JFxKj+a6HhpFQbBY8pjNUUN7AWUAsx7/PtpWaLMj4=",
+        "originContent": "Installation from source can be done with:",
+        "translatedContent": "L'installation à partir des sources peut être effectuée avec :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```sh\nmeson install -C builddir\n```",
+    "ContentSha": "fwkpoccUKaGQ3IjxmISEmFEea7VERzUykw7UP18RxXc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nmeson install -C builddir\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "Du3Z6yTvREQ1qVcr4BujjFzT2X8hFVWJrINgBFjiFr8=",
+        "originContent": "meson install -C builddir",
+        "translatedContent": "meson install -C builddir"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "",
+    "ContentSha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
