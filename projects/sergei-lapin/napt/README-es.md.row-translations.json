@@ -1,0 +1,872 @@
+[
+  {
+    "row": 1,
+    "rowsha": "3FYEKAmIryMEYHED+cYKD7hEYs49/6AjumZCQNBWhYE=",
+    "originContent": "# ⚠️ This repository is archived. Consider migrating your annotation processing setup to KSP. ⚠️",
+    "translatedContent": "# ⚠️ Este repositorio está archivado. Considera migrar tu configuración de procesamiento de anotaciones a KSP. ⚠️"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "cNzDffNMPGSR17GE+EFxIvoiILrF+DY9BMmwvYiYe60=",
+    "originContent": "# NAPT",
+    "translatedContent": "# NAPT"
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Nt9zDh7dMCrNL4TL+pAy7BcHUPSa6jk3Ly3sEWO6UyQ=",
+    "originContent": "[![Plugin](https://img.shields.io/maven-metadata/v?label=Gradle%20Plugin&logo=Gradle&metadataUrl=https%3A%2F%2Fplugins.gradle.org%2Fm2%2Fcom%2Fsergei-lapin%2Fnapt%2Fcom.sergei-lapin.napt.gradle.plugin%2Fmaven-metadata.xml)](https://plugins.gradle.org/plugin/com.sergei-lapin.napt)",
+    "translatedContent": "[![Plugin](https://img.shields.io/maven-metadata/v?label=Gradle%20Plugin&logo=Gradle&metadataUrl=https%3A%2F%2Fplugins.gradle.org%2Fm2%2Fcom%2Fsergei-lapin%2Fnapt%2Fcom.sergei-lapin.napt.gradle.plugin%2Fmaven-metadata.xml)](https://plugins.gradle.org/plugin/com.sergei-lapin.napt)"
+  },
+  {
+    "row": 6,
+    "rowsha": "3vg3KArHR7PDw56Ryvdtc0Mp7UiYasXzaJTBFCW6ui0=",
+    "originContent": "[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    "translatedContent": "[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "fctjAjQX3xiCCt+lgMw3JU1PoQ/4tJL702r7vWB+xCs=",
+    "originContent": "## What is it?",
+    "translatedContent": "## ¿Qué es?"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "12DfV0lvTxbuah3i/SKlp9WcceHNhJ6slikonccWoVo=",
+    "originContent": "An alternative to KAPT that skips stub generation and hence runs up to 50% faster",
+    "translatedContent": "Una alternativa a KAPT que omite la generación de stubs y por lo tanto funciona hasta un 50% más rápido"
+  },
+  {
+    "row": 11,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 12,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Uso"
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "j7p8vo00a1tYCifuPl0NEyg3gcG5PrxW3FigfKnM0sA=",
+    "originContent": "*JDK 9+ is required to run this particular set of tools*",
+    "translatedContent": "*Se requiere JDK 9+ para ejecutar este conjunto particular de herramientas*"
+  },
+  {
+    "row": 15,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 16,
+    "rowsha": "rWJPVYUliD+mntfFBVpD/1CWZihAXpgHYb/KEfmynlc=",
+    "originContent": "Once applied, you can't reference generated code in Kotlin code anymore, so you'd have to write Java `bridge` classes in",
+    "translatedContent": "Una vez aplicado, ya no puedes referenciar código generado en código Kotlin, por lo que deberás escribir clases `bridge` en Java"
+  },
+  {
+    "row": 17,
+    "rowsha": "uH9bIkDPATOfhobu2aJE5VVxo1Xs8iRpL1K4kI6rPew=",
+    "originContent": "order to reference Java generated code in Kotlin sources.",
+    "translatedContent": "para poder referenciar el código generado en Java desde fuentes Kotlin."
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "y0PFWgFKfvXFbVADg/LHcyOtQOVSYbVSySLIl/IauGM=",
+    "originContent": "For example, assume we have the following Kotlin Dagger 2 Component:",
+    "translatedContent": "Por ejemplo, supongamos que tenemos el siguiente Componente Dagger 2 en Kotlin:"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "hfPMsmWHjQr91+d1QVhaEwHpAV4mutNkn3sFbkaHpSg=",
+    "originContent": "``` Kotlin",
+    "translatedContent": "``` Kotlin"
+  },
+  {
+    "row": 22,
+    "rowsha": "BJFB1Lj7CDWdCjsDPELzj5Z/EwE9X4E/EfjEBJF/UVs=",
+    "originContent": "@Component",
+    "translatedContent": "@Component"
+  },
+  {
+    "row": 23,
+    "rowsha": "fuWxJ58dvUb+YI3qIehYXH01lMo0ST4Yo+6V1gze+Is=",
+    "originContent": "interface Component {",
+    "translatedContent": "interface Component {"
+  },
+  {
+    "row": 24,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 25,
+    "rowsha": "y/8eZWV/aoOmrt59hTzCQ9uaPOAbQLHqMabgFCVWYa0=",
+    "originContent": "    @Component.Factory",
+    "translatedContent": "    @Component.Factory"
+  },
+  {
+    "row": 26,
+    "rowsha": "BX/vL0p28O83iLtQ+wJLDj1MtPhoBp+HKPPyKySDcFg=",
+    "originContent": "    interface Factory {",
+    "translatedContent": "    interface Factory {"
+  },
+  {
+    "row": 27,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 28,
+    "rowsha": "kefbL7n/zEp5072WZY+a74HkKylISzwdND4B9LE1gfk=",
+    "originContent": "        fun create(): Component",
+    "translatedContent": "        fun create(): Component"
+  },
+  {
+    "row": 29,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 30,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 31,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 32,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 33,
+    "rowsha": "3OFf+DzVLfqCiavpffPEF8IjdpwMkqHB90JDIKmtbRc=",
+    "originContent": "then, in order to reference the generated component from Kotlin code we have to write Java `bridge` that would look like",
+    "translatedContent": "entonces, para referenciar el componente generado desde el código Kotlin, tenemos que escribir un `puente` en Java que se vería así:"
+  },
+  {
+    "row": 34,
+    "rowsha": "bzyf21AhltCOvI0CaUbAr/LNeYb8zvTz3SSTXtBJ58U=",
+    "originContent": "this:",
+    "translatedContent": ""
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "aQZEiUhLfhtjnPSP/DWnBGV/WBlYjCRHFBcK1y5kV2o=",
+    "originContent": "``` Java",
+    "translatedContent": "``` Java"
+  },
+  {
+    "row": 37,
+    "rowsha": "2gOBwQ8l3wscWxnu0UXigjdf3Sk9xz2n2sMKtZ4SRPw=",
+    "originContent": "class ComponentBridge {",
+    "translatedContent": "class ComponentBridge {"
+  },
+  {
+    "row": 38,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 39,
+    "rowsha": "yaPnF4pteTA7c+Z386yzyduGbQs/ZNq8awskRxF50CM=",
+    "originContent": "    static Component.Factory factory() {",
+    "translatedContent": "    static Component.Factory factory() {"
+  },
+  {
+    "row": 40,
+    "rowsha": "CmT1Q+U28Z1wQAlyL37GgVB0oa1zGFQHYZjIliCcjuM=",
+    "originContent": "        return DaggerComponent.factory();",
+    "translatedContent": "        return DaggerComponent.factory();"
+  },
+  {
+    "row": 41,
+    "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+    "originContent": "    }",
+    "translatedContent": "    }"
+  },
+  {
+    "row": 42,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 43,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 44,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 45,
+    "rowsha": "lGuMu3knrDt1S7IZqi2UU1tctZy/PK2l1d6UqaGKFSk=",
+    "originContent": "That's it, now you can easily reference this `bridge` from your Kotlin code wherever you'd like to",
+    "translatedContent": "Eso es todo, ahora puedes referenciar fácilmente este `bridge` desde tu código Kotlin donde quieras"
+  },
+  {
+    "row": 46,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 47,
+    "rowsha": "j9OyVL5ERpPhfZ4LQOpQU6zAqbKLo3sMs/UYCBckF0w=",
+    "originContent": "## Sample",
+    "translatedContent": "## Ejemplo"
+  },
+  {
+    "row": 48,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 49,
+    "rowsha": "7JqYvR2kGVAbxiFazmVrEDhVu3CCpM7DwlggEUrdLiU=",
+    "originContent": "You could see an example of usage in [sample](https://github.com/sergei-lapin/napt/blob/main/sample/build.gradle)",
+    "translatedContent": "Puedes ver un ejemplo de uso en [sample](https://github.com/sergei-lapin/napt/blob/main/sample/build.gradle)"
+  },
+  {
+    "row": 50,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 51,
+    "rowsha": "QthUtrLFJhAm9mK+lb9STCileImPtOmEdm/neA89axg=",
+    "originContent": "## Download",
+    "translatedContent": "## Descarga"
+  },
+  {
+    "row": 52,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 53,
+    "rowsha": "jsKfwVRkvNUW1rSUPy7dYR5ybx5Xq6hgrriBFG41UBM=",
+    "originContent": "- javac plugin is distributed through Maven Central",
+    "translatedContent": "- El plugin javac se distribuye a través de Maven Central"
+  },
+  {
+    "row": 54,
+    "rowsha": "qsL4d7HhKOjn2MRLa5Ub8hN53szGe5T1gc1rDdAk1G4=",
+    "originContent": "- Gradle plugin is distributed through Gradle Plugin Portal",
+    "translatedContent": "- El plugin Gradle se distribuye a través de Gradle Plugin Portal"
+  },
+  {
+    "row": 55,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 56,
+    "rowsha": "K7vhtCXmDoksb4NkogVtQxJ2b6CIYSlAVuXulFUTeuM=",
+    "originContent": "#### Add plugin",
+    "translatedContent": "#### Añadir plugin"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "U+kth4MM0mgIdDVb6bbY/pcoqQzb+Rh4+ENpV9Cvsk0=",
+    "originContent": "Remove your old",
+    "translatedContent": "Elimina tu antiguo"
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "50Ly/yzbOXHD5RxWUojEWP/1agv6Wx1m5nQpPU/LLZg=",
+    "originContent": "``` Gradle",
+    "translatedContent": "``` Gradle"
+  },
+  {
+    "row": 61,
+    "rowsha": "TpXRua9oA1LlGXbJ4v1/1JiwKOLUGgxp/cVta+YFvR0=",
+    "originContent": "plugins {",
+    "translatedContent": "plugins {"
+  },
+  {
+    "row": 62,
+    "rowsha": "tByv2jJnjnfzEPD66C9JrZTf5LexqdDvuApr/8e3g5U=",
+    "originContent": "    kotlin(\"kapt\")",
+    "translatedContent": "    kotlin(\"kapt\")"
+  },
+  {
+    "row": 63,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 64,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 65,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "y reemplázalo con"
+  },
+  {
+    "row": 66,
+    "rowsha": "1dLk36kn9VfclOhukPCaLy5EeTC1Efk4Q2vqUDs2zhM=",
+    "originContent": "and replace it with",
+    "translatedContent": ""
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "50Ly/yzbOXHD5RxWUojEWP/1agv6Wx1m5nQpPU/LLZg=",
+    "originContent": "``` Gradle",
+    "translatedContent": "``` Gradle"
+  },
+  {
+    "row": 69,
+    "rowsha": "TpXRua9oA1LlGXbJ4v1/1JiwKOLUGgxp/cVta+YFvR0=",
+    "originContent": "plugins {",
+    "translatedContent": "plugins {"
+  },
+  {
+    "row": 70,
+    "rowsha": "dpiZNcRoTzh51x6JD/p9ermszrexOEbRZ5j78nud/Ws=",
+    "originContent": "    id(\"com.sergei-lapin.napt\") version(\"{latest-version}\")",
+    "translatedContent": "    id(\"com.sergei-lapin.napt\") version(\"{latest-version}\")"
+  },
+  {
+    "row": 71,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 72,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 73,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 74,
+    "rowsha": "0EC0vy+7OxYUXi0Fd/zakBLfZ7q66YiI68laTv1NNfs=",
+    "originContent": "then you can replace all of your",
+    "translatedContent": "entonces puedes reemplazar todo tu"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "50Ly/yzbOXHD5RxWUojEWP/1agv6Wx1m5nQpPU/LLZg=",
+    "originContent": "``` Gradle",
+    "translatedContent": "``` Gradle"
+  },
+  {
+    "row": 77,
+    "rowsha": "YiU0BYrj6/iCE+VQzVtTmQYPeT0yaMuVWxaQJ1+t/zA=",
+    "originContent": "dependencies {",
+    "translatedContent": "dependencies {"
+  },
+  {
+    "row": 78,
+    "rowsha": "yJytlcUyNjDLETc7J3XExHMJwNgMcupDq3LI94vd1Pg=",
+    "originContent": "    kapt(\"some dependency\")",
+    "translatedContent": "    kapt(\"some dependency\")"
+  },
+  {
+    "row": 79,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 80,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "con"
+  },
+  {
+    "row": 82,
+    "rowsha": "BpW1Y6zeRh/C+NmuvM81x1lqxFi42OBnxgL7e05fFXg=",
+    "originContent": "with",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "50Ly/yzbOXHD5RxWUojEWP/1agv6Wx1m5nQpPU/LLZg=",
+    "originContent": "``` Gradle",
+    "translatedContent": "``` Gradle"
+  },
+  {
+    "row": 85,
+    "rowsha": "YiU0BYrj6/iCE+VQzVtTmQYPeT0yaMuVWxaQJ1+t/zA=",
+    "originContent": "dependencies {",
+    "translatedContent": "dependencies {"
+  },
+  {
+    "row": 86,
+    "rowsha": "CQgdCARyRraOXlMyZq4mNqO5+K6Gxx/ECuDxSSOx790=",
+    "originContent": "    annotationProcessor(\"some dependency\")",
+    "translatedContent": "    annotationProcessor(\"some dependency\")"
+  },
+  {
+    "row": 87,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 88,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "O7WLG7fxPE/xSvz4pIZY2ex1bikNgXEXoti4UMxZRTk=",
+    "originContent": "That's it. Enjoy speed the speed-up of your annotation processing by ~50%.",
+    "translatedContent": "Eso es todo. Disfruta de la aceleración de tu procesamiento de anotaciones en aproximadamente un 50%."
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "zJc90EZkPUO609La3JxIddOg7q63uqTg1gmm5s5xrps=",
+    "originContent": "#### Conflitcting NaptTrigger classes",
+    "translatedContent": "#### Clases NaptTrigger en conflicto"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "EAG1ITfAsennqc9jI/hPVnxg4hpB9hwYMvRg0IFSu0M=",
+    "originContent": "By default, Gradle plugin will generate NaptTrigger with module-named package so the FQ names won't clash, but, just in",
+    "translatedContent": "Por defecto, el plugin de Gradle generará NaptTrigger con un paquete nombrado por módulo para que los nombres FQ no choquen, pero, por si acaso, el prefijo del paquete de NaptTrigger se puede especificar de esta manera:"
+  },
+  {
+    "row": 95,
+    "rowsha": "zkiYrXwGbTr+IG/c8PiRlD+iMq+9YMD1pJiHCgFJ7PE=",
+    "originContent": "case, the prefix of NaptTrigger package can be specified like that:",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 97,
+    "rowsha": "50Ly/yzbOXHD5RxWUojEWP/1agv6Wx1m5nQpPU/LLZg=",
+    "originContent": "``` Gradle",
+    "translatedContent": "``` Gradle"
+  },
+  {
+    "row": 98,
+    "rowsha": "VlQysDxyYgMwcqaeYUeEchikLYkl2KGlAZ/y15aAkek=",
+    "originContent": "napt {",
+    "translatedContent": "napt {"
+  },
+  {
+    "row": 99,
+    "rowsha": "YHJ1DOuAMqKG0qc33Tw9CKaUauqJmbeTU9GHzEsiZbQ=",
+    "originContent": "    naptTriggerPackagePrefix.set(\"com.slapin.napt\")",
+    "translatedContent": "    naptTriggerPackagePrefix.set(\"com.slapin.napt\")"
+  },
+  {
+    "row": 100,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 101,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 103,
+    "rowsha": "h0hck2MrPOmF7PpxbolHco/NGT5Q5yn3Jxq0qK14Ql8=",
+    "originContent": "Assume we're in module named `sample`, will result in the following `NaptTrigger.java`:",
+    "translatedContent": "Asumamos que estamos en un módulo llamado `sample`, lo que resultará en el siguiente `NaptTrigger.java`:"
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 105,
+    "rowsha": "aQZEiUhLfhtjnPSP/DWnBGV/WBlYjCRHFBcK1y5kV2o=",
+    "originContent": "``` Java",
+    "translatedContent": "``` Java"
+  },
+  {
+    "row": 106,
+    "rowsha": "Kqt8vp3TIjec8+OnUR1r9DgXlriJq5gIGmxWwSKFxFk=",
+    "originContent": "package com.slapin.napt.sample;",
+    "translatedContent": "package com.slapin.napt.sample;"
+  },
+  {
+    "row": 107,
+    "rowsha": "5km3n+mx4grT/E1mk+0XnYThJm9BfzV2dNPEFnxwlME=",
+    "originContent": "class NaptTrigger {",
+    "translatedContent": "class NaptTrigger {"
+  },
+  {
+    "row": 108,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 109,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 111,
+    "rowsha": "vhwGZSJI0CANO64Yzze+lT7gVBgEbm5YqxLdi1cdlbY=",
+    "originContent": "#### Disabling NaptTrigger generation",
+    "translatedContent": "#### Deshabilitar la generación de NaptTrigger"
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 113,
+    "rowsha": "BqMizEQw4n9mgxDYFnbsM6//b2iKzKx/Hez3+qSIM0Y=",
+    "originContent": "`NaptTrigger.java` generation can be disabled (e.g. when you already have java sources in your module) by setting",
+    "translatedContent": "La generación de `NaptTrigger.java` puede deshabilitarse (por ejemplo, cuando ya tienes fuentes Java en tu módulo) estableciendo"
+  },
+  {
+    "row": 114,
+    "rowsha": "hl1HwWneRXyuqHC6dJF0TF263WCrDl+mbHMqgjfv5qQ=",
+    "originContent": "corresponding property to `false`:",
+    "translatedContent": "la propiedad correspondiente en `false`:"
+  },
+  {
+    "row": 115,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 116,
+    "rowsha": "50Ly/yzbOXHD5RxWUojEWP/1agv6Wx1m5nQpPU/LLZg=",
+    "originContent": "``` Gradle",
+    "translatedContent": "``` Gradle"
+  },
+  {
+    "row": 117,
+    "rowsha": "VlQysDxyYgMwcqaeYUeEchikLYkl2KGlAZ/y15aAkek=",
+    "originContent": "napt {",
+    "translatedContent": "napt {"
+  },
+  {
+    "row": 118,
+    "rowsha": "e3XwMnkfdaxNlhVVpCNvdQOYCzAmlyShrsb7OtWaVns=",
+    "originContent": "    generateNaptTrigger.set(false)",
+    "translatedContent": "    generateNaptTrigger.set(false)"
+  },
+  {
+    "row": 119,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 120,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### Suministro de argumentos JVM personalizados al compilador de Java"
+  },
+  {
+    "row": 122,
+    "rowsha": "M1EQGQjxDKx01sUrOeSpoUA0UwrQXP0xSuPmijw6JIY=",
+    "originContent": "#### Supplying custom JVM arguments to Java compiler",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "Para que napt funcione, la compilación de Java se ejecuta en un proceso bifurcado con argumentos definidos"
+  },
+  {
+    "row": 124,
+    "rowsha": "lEjs5wy2x7JAGbqvF2vIV5IApih4vXoqcLdtAAlfx8k=",
+    "originContent": "In order for napt to work, Java compilation runs in forked process with arguments defined",
+    "translatedContent": "por `com.slapin.napt.JvmArgsStrongEncapsulation`. Estos argumentos pueden ampliarse configurando la propiedad correspondiente"
+  },
+  {
+    "row": 125,
+    "rowsha": "1hERDJY1d2ISK3eP0Ht9PCdu5KnHgW/NsYmq0ezrIwM=",
+    "originContent": "by `com.slapin.napt.JvmArgsStrongEncapsulation`. These arguments could be extended by setting corresponding property",
+    "translatedContent": "en la extensión `napt`."
+  },
+  {
+    "row": 126,
+    "rowsha": "hh6vWgC0nUWdpNxqe3NxfNcgZ9CpggDIiraa4gZva/M=",
+    "originContent": "in `napt` extension.",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 128,
+    "rowsha": "50Ly/yzbOXHD5RxWUojEWP/1agv6Wx1m5nQpPU/LLZg=",
+    "originContent": "``` Gradle",
+    "translatedContent": "``` Gradle"
+  },
+  {
+    "row": 129,
+    "rowsha": "VlQysDxyYgMwcqaeYUeEchikLYkl2KGlAZ/y15aAkek=",
+    "originContent": "napt {",
+    "translatedContent": "napt {"
+  },
+  {
+    "row": 130,
+    "rowsha": "/+iV0Kb7MTeFSl6+IKH12ZYKavvNzLQ7xq8XAZ9JbcQ=",
+    "originContent": "    forkJvmArgs.set(listOf(\"your_custom_arg\"))",
+    "translatedContent": "    forkJvmArgs.set(listOf(\"your_custom_arg\"))"
+  },
+  {
+    "row": 131,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 132,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 133,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "#### Generener NaptTrigger dentro de conjuntos de fuentes adicionales"
+  },
+  {
+    "row": 134,
+    "rowsha": "ucJh/EtLLVyoc91izbBK33vz0ubC5J8Qf3R5NqpQUG0=",
+    "originContent": "#### Generating NaptTrigger within additional source sets",
+    "translatedContent": ""
+  },
+  {
+    "row": 135,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "A veces puede ser necesario activar el procesamiento de anotaciones en conjuntos de fuentes adicionales (p. ej., `test`)."
+  },
+  {
+    "row": 136,
+    "rowsha": "emxnhvRSFykfu6zvD0pqSlNURdGtMsxNt0UUkFKmC4I=",
+    "originContent": "Sometimes you might need to trigger annotation processing in additional source sets (e.g. `test`).",
+    "translatedContent": "En tales casos, puede usar la propiedad correspondiente de la extensión `napt`:"
+  },
+  {
+    "row": 137,
+    "rowsha": "6I3jauM2D2qBhA2v0H5vnASySpfqAXR3G4L9AlnKqvA=",
+    "originContent": "In such cases you can use corresponding property from `napt` extension:",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 139,
+    "rowsha": "50Ly/yzbOXHD5RxWUojEWP/1agv6Wx1m5nQpPU/LLZg=",
+    "originContent": "``` Gradle",
+    "translatedContent": "``` Gradle"
+  },
+  {
+    "row": 140,
+    "rowsha": "VlQysDxyYgMwcqaeYUeEchikLYkl2KGlAZ/y15aAkek=",
+    "originContent": "napt {",
+    "translatedContent": "napt {"
+  },
+  {
+    "row": 141,
+    "rowsha": "lZ/KrQaVl5jVSA0GGJPLUCQwH3DRXmMJP6KIZPniIwc=",
+    "originContent": "    additionalSourceSetsForTriggerGeneration.set(listOf(\"test\"))",
+    "translatedContent": "    additionalSourceSetsForTriggerGeneration.set(listOf(\"test\"))"
+  },
+  {
+    "row": 142,
+    "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+    "originContent": "}",
+    "translatedContent": "}"
+  },
+  {
+    "row": 143,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 144,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 145,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

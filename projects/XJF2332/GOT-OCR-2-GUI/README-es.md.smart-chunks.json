@@ -1,0 +1,1201 @@
+[
+  {
+    "Id": 1,
+    "Content": "# GOT-OCR-2-GUI\n\n## [See English version here](https://raw.githubusercontent.com/XJF2332/GOT-OCR-2-GUI/main/README-en.md)\n\n🛑停止支持，以后随性更新\n\n![img.png](https://raw.githubusercontent.com/XJF2332/GOT-OCR-2-GUI/main/img.png)\n\n## 关于此项目\n\n模型权重：[镜像站](https://hf-mirror.com/stepfun-ai/GOT-OCR2_0)，[原站点](https://huggingface.co/stepfun-ai/GOT-OCR2_0)  \n原GitHub：[GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0/)   \n这个项目是在 Windows 下开发的，我本人没用过也不会 Linux，不能确保它能够在 Linux 下正常运行，如果你要在 Linux\n下部署，可以参考一下这个 [issue](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/3)  \n部分代码来自：[ GLM4 ](https://chatglm.cn/main/alltoolsdetail?lang=zh)、[Deepseek](https://www.deepseek.com/)\n\n点个star吧\n\n## 待办\n\n- [x] 日志内容本地化\n- [ ] 支持新模型 stepfun-ai/GOT-OCR-2.0-hf\n- [ ] 优化 PDF 相关的错误处理逻辑\n- [x] 支持 GGUF 模型，希望能够加速推理（感谢 [issue #19](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/19) 提供的帮助）\n- [ ] 完善 GGUF 模型的支持\n- [x] 新版渲染模式：优化性能，支持更多格式输出\n- [ ] 移除/隐藏旧版渲染器\n\n## 使用方法\n\n如果这里面提到的文件夹你没有，那就**新建一个**\n\n### 选择一个分支\n\n#### Alpha\n\n更新最快的分支，最新的更改都会提交到这个分支。  \n代码有时会未经测试。  \n非常不稳定，有时甚至无法使用。  \n",
+    "ContentSha": "1IHvnxmfiuy/XhabahamUJos6c5oVpF+7jVyObE4lY0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# GOT-OCR-2-GUI\n\n## [Ver versión en inglés aquí](https://raw.githubusercontent.com/XJF2332/GOT-OCR-2-GUI/main/README-en.md)\n\n🛑 Soporte detenido, actualizaciones futuras serán esporádicas\n\n![img.png](https://raw.githubusercontent.com/XJF2332/GOT-OCR-2-GUI/main/img.png)\n\n## Sobre este proyecto\n\nPesos del modelo: [Sitio espejo](https://hf-mirror.com/stepfun-ai/GOT-OCR2_0), [Sitio original](https://huggingface.co/stepfun-ai/GOT-OCR2_0)  \nGitHub original: [GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0/)   \nEste proyecto fue desarrollado en Windows, personalmente no he usado ni manejo Linux, no puedo garantizar que funcione correctamente en Linux, si deseas desplegarlo en Linux  \npuedes consultar este [issue](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/3)  \nParte del código proviene de: [ GLM4 ](https://chatglm.cn/main/alltoolsdetail?lang=zh), [Deepseek](https://www.deepseek.com/)\n\nPor favor, regálanos una estrella\n\n## Pendientes\n\n- [x] Localización del contenido del registro\n- [ ] Soporte para nuevo modelo stepfun-ai/GOT-OCR-2.0-hf\n- [ ] Optimizar la lógica de manejo de errores relacionados con PDF\n- [x] Soporte para modelos GGUF, con la esperanza de acelerar la inferencia (gracias a la ayuda del [issue #19](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/19))\n- [ ] Mejorar el soporte para modelos GGUF\n- [x] Nuevo modo de renderizado: optimizar rendimiento, soportar más formatos de salida\n- [ ] Eliminar/ocultar el renderizador antiguo\n\n## Cómo usar\n\nSi no tienes las carpetas mencionadas aquí, **crea una nueva**\n\n### Elige una rama\n\n#### Alpha\n\nLa rama con actualizaciones más rápidas, los cambios más recientes se suben aquí.  \nEl código a veces no está probado.  \nMuy inestable, a veces ni siquiera funciona.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "f6VV+7xuxcyioAEVADkV5W7/1XBkJ8mHh9/QyZCbj+Y=",
+        "originContent": "# GOT-OCR-2-GUI",
+        "translatedContent": "# GOT-OCR-2-GUI"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "aplPW5U1woqOy0+nxDJfY0as9KUPnV5tvzP3DZ/jGRs=",
+        "originContent": "## [See English version here](https://raw.githubusercontent.com/XJF2332/GOT-OCR-2-GUI/main/README-en.md)",
+        "translatedContent": "## [Ver versión en inglés aquí](https://raw.githubusercontent.com/XJF2332/GOT-OCR-2-GUI/main/README-en.md)"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "QudB6vZNur4TInDDV8NaJIpyoUxFw8W3CnujtyiRrrU=",
+        "originContent": "🛑停止支持，以后随性更新",
+        "translatedContent": "🛑 Soporte detenido, actualizaciones futuras serán esporádicas"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "E9d+fHqc0GVyLPSI/rBU6NPGmIz/Nv0tqB3WoefaWrM=",
+        "originContent": "![img.png](https://raw.githubusercontent.com/XJF2332/GOT-OCR-2-GUI/main/img.png)",
+        "translatedContent": "![img.png](https://raw.githubusercontent.com/XJF2332/GOT-OCR-2-GUI/main/img.png)"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "74jnAGVGgV9P1CnzL5uK7SCnTjgr84BgzUhTM2xYN74=",
+        "originContent": "## 关于此项目",
+        "translatedContent": "## Sobre este proyecto"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "crjQxy6aKnu0loWeZ92hRiL40T0/MpikG9auUdk9M7c=",
+        "originContent": "模型权重：[镜像站](https://hf-mirror.com/stepfun-ai/GOT-OCR2_0)，[原站点](https://huggingface.co/stepfun-ai/GOT-OCR2_0)  ",
+        "translatedContent": "Pesos del modelo: [Sitio espejo](https://hf-mirror.com/stepfun-ai/GOT-OCR2_0), [Sitio original](https://huggingface.co/stepfun-ai/GOT-OCR2_0)  "
+      },
+      {
+        "row": 12,
+        "rowsha": "IbtU9mwAr/vUcGwUP/TZZgCDr4wKg8uM77YONcE4Tio=",
+        "originContent": "原GitHub：[GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0/)   ",
+        "translatedContent": "GitHub original: [GOT-OCR2.0](https://github.com/Ucas-HaoranWei/GOT-OCR2.0/)   "
+      },
+      {
+        "row": 13,
+        "rowsha": "rguGx1gy9mxgAJoV0LFDZv+06cZn8FPaGUXlLqB6+Fc=",
+        "originContent": "这个项目是在 Windows 下开发的，我本人没用过也不会 Linux，不能确保它能够在 Linux 下正常运行，如果你要在 Linux",
+        "translatedContent": "Este proyecto fue desarrollado en Windows, personalmente no he usado ni manejo Linux, no puedo garantizar que funcione correctamente en Linux, si deseas desplegarlo en Linux  "
+      },
+      {
+        "row": 14,
+        "rowsha": "hSiZnFnbYcJZI26k4Tv1F2NSSAYlsIloQgpGq7SZ9n4=",
+        "originContent": "下部署，可以参考一下这个 [issue](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/3)  ",
+        "translatedContent": "puedes consultar este [issue](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/3)  "
+      },
+      {
+        "row": 15,
+        "rowsha": "1rR4f0pi7LMqz4l3OH89xb1WGZolmYUVXlKWouR92rw=",
+        "originContent": "部分代码来自：[ GLM4 ](https://chatglm.cn/main/alltoolsdetail?lang=zh)、[Deepseek](https://www.deepseek.com/)",
+        "translatedContent": "Parte del código proviene de: [ GLM4 ](https://chatglm.cn/main/alltoolsdetail?lang=zh), [Deepseek](https://www.deepseek.com/)"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "kXa7XTSo87TsVmCUF+SZjnp1nTz97bkCjNp3VDhyEAY=",
+        "originContent": "点个star吧",
+        "translatedContent": "Por favor, regálanos una estrella"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "Osl29gYzOkvsFG9unY/2GqDzgraO8k6KvqS4hPgrmww=",
+        "originContent": "## 待办",
+        "translatedContent": "## Pendientes"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "XDP+tBDbpvW2VJiJWpfDnMbKBwipGddfYN+2tUptLik=",
+        "originContent": "- [x] 日志内容本地化",
+        "translatedContent": "- [x] Localización del contenido del registro"
+      },
+      {
+        "row": 22,
+        "rowsha": "uwIfQI1Jw+MSsC1pgCn1YXluK70cvj2kYBfvwqf4aRc=",
+        "originContent": "- [ ] 支持新模型 stepfun-ai/GOT-OCR-2.0-hf",
+        "translatedContent": "- [ ] Soporte para nuevo modelo stepfun-ai/GOT-OCR-2.0-hf"
+      },
+      {
+        "row": 23,
+        "rowsha": "Aso6WrXb5NA75v3s/61LN2rwiNKsZB2CX+UZcb4SI9U=",
+        "originContent": "- [ ] 优化 PDF 相关的错误处理逻辑",
+        "translatedContent": "- [ ] Optimizar la lógica de manejo de errores relacionados con PDF"
+      },
+      {
+        "row": 24,
+        "rowsha": "1GE6k73aKSzXsuEonCFTC9VzNvvDk0acKXRYOO2XFIY=",
+        "originContent": "- [x] 支持 GGUF 模型，希望能够加速推理（感谢 [issue #19](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/19) 提供的帮助）",
+        "translatedContent": "- [x] Soporte para modelos GGUF, con la esperanza de acelerar la inferencia (gracias a la ayuda del [issue #19](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/19))"
+      },
+      {
+        "row": 25,
+        "rowsha": "oAMjluEQMgrpTq6zZPpIGZ1Vt0yBzzc1R2UyEDwI7t0=",
+        "originContent": "- [ ] 完善 GGUF 模型的支持",
+        "translatedContent": "- [ ] Mejorar el soporte para modelos GGUF"
+      },
+      {
+        "row": 26,
+        "rowsha": "YP7n9GmaG2yDhe2Z7CVxSPKL7Jkfgd2FX8w7IJmqi1k=",
+        "originContent": "- [x] 新版渲染模式：优化性能，支持更多格式输出",
+        "translatedContent": "- [x] Nuevo modo de renderizado: optimizar rendimiento, soportar más formatos de salida"
+      },
+      {
+        "row": 27,
+        "rowsha": "Bb9mQAdxEUWMkuUouKolnOSyUzFY8/D1t6q/A8g1xIk=",
+        "originContent": "- [ ] 移除/隐藏旧版渲染器",
+        "translatedContent": "- [ ] Eliminar/ocultar el renderizador antiguo"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "6MQVJlN8pzS/JKFAmEsF+fGPpVBhkqKXd7kJyIXtGEg=",
+        "originContent": "## 使用方法",
+        "translatedContent": "## Cómo usar"
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "IrgRyGn5dGvy6xe2+lqqWXMsSe1Bfq2WtGCFwrOmNts=",
+        "originContent": "如果这里面提到的文件夹你没有，那就**新建一个**",
+        "translatedContent": "Si no tienes las carpetas mencionadas aquí, **crea una nueva**"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "jHlSQUfwVyMqcxvF/suTtF61L0wY1ZJg1dj1eOM7KGc=",
+        "originContent": "### 选择一个分支",
+        "translatedContent": "### Elige una rama"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "a3qocVZitx7LBR7+KW91Ea+rsfJaka/ym1oEI2SDYys=",
+        "originContent": "#### Alpha",
+        "translatedContent": "#### Alpha"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "GwlAH5hPCKSZduNcf6fiSimpJ6yO5d0TuvEGikMkLvo=",
+        "originContent": "更新最快的分支，最新的更改都会提交到这个分支。  ",
+        "translatedContent": "La rama con actualizaciones más rápidas, los cambios más recientes se suben aquí.  "
+      },
+      {
+        "row": 38,
+        "rowsha": "XQfNU+j5vo9hNIShiFG0NhBhqSlDViG2cM11zUWJPkc=",
+        "originContent": "代码有时会未经测试。  ",
+        "translatedContent": "El código a veces no está probado.  "
+      },
+      {
+        "row": 39,
+        "rowsha": "3kIB2JtCXeIYXRNtF2Dr5bm00QDQDS6VSvgGtfocDVQ=",
+        "originContent": "非常不稳定，有时甚至无法使用。  ",
+        "translatedContent": "Muy inestable, a veces ni siquiera funciona."
+      },
+      {
+        "row": 40,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "#### main\n\n较为稳定的分支，但会缺失一些新特性。\n\n### 依赖\n\n此环境在**python 3.11.9**下经过测试能够正常工作\n\n#### torch\n\n从[torch官网](https://pytorch.org/get-started/locally/)选择适合自己的**GPU版本**的torch安装即可  \n我之前用的是 Stable 2.4.1 + cu124  \n目前在使用 Stable 2.0.1 + cu118 ，可以解决`1 Torch is not compiled with Flash Attention`，暂未发现其他问题\n\n#### PyMuPDF\n\n实测如果直接从`requirements.txt`里安装的话会报`ModuleNotFoundError: No module named 'frontend'`\n，但单独安装的话就不会这样，具体原因不清楚  \n另外，如果还是报`ModuleNotFoundError`的话就先卸载`fitz`和`PyMuPDF`，再重新安装一次应该能解决，实测`pip install -U PyMuPDF`\n是没用的\n",
+    "ContentSha": "DA1oKhQ5tVdYp70YrGuXC9Fj3+QLoXzMUv/MHnnmWGI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### main\n\nUna rama relativamente estable, pero puede carecer de algunas características nuevas.\n\n### Dependencias\n\nEste entorno ha sido probado para funcionar correctamente bajo **python 3.11.9**\n\n#### torch\n\nDesde la [página oficial de torch](https://pytorch.org/get-started/locally/) selecciona la versión de **GPU** adecuada para ti e instala torch  \nAnteriormente usaba Stable 2.4.1 + cu124  \nActualmente uso Stable 2.0.1 + cu118, lo que puede resolver `1 Torch is not compiled with Flash Attention`, sin haber encontrado otros problemas\n\n#### PyMuPDF\n\nEn pruebas, si se instala directamente desde `requirements.txt` da el error `ModuleNotFoundError: No module named 'frontend'`  \npero si se instala por separado no ocurre, la razón exacta no está clara  \nAdemás, si aún aparece `ModuleNotFoundError`, primero desinstala `fitz` y `PyMuPDF`, luego reinstálalos; en pruebas, `pip install -U PyMuPDF`  \nno funciona para resolverlo\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "UgrDVWSmnd/DDKVQq15vQHst4SzV/gCevD4RGCpuOYY=",
+        "originContent": "#### main",
+        "translatedContent": "#### main"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Zrch45fG0sKYK4PdEvvDu+jqn+OfwkGOg1zRGVfHyhs=",
+        "originContent": "较为稳定的分支，但会缺失一些新特性。",
+        "translatedContent": "Una rama relativamente estable, pero puede carecer de algunas características nuevas."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "IzFK7Hk48cx5qWAkYct8sANhmBO2xRU4CbalmZ1qKfA=",
+        "originContent": "### 依赖",
+        "translatedContent": "### Dependencias"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "8zFZ+cnElTPqsGzHFQHPfiBtZ2R3c+Da2mN3VSIE1JM=",
+        "originContent": "此环境在**python 3.11.9**下经过测试能够正常工作",
+        "translatedContent": "Este entorno ha sido probado para funcionar correctamente bajo **python 3.11.9**"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "gLp45yx7GmOgvxV/RW9s9H+eG6KLE/+gQ44jTmdSxzw=",
+        "originContent": "#### torch",
+        "translatedContent": "#### torch"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "ZXjylBXyJnduHjxWPC2lyxB3wRK91vWTiJz7DM73ddU=",
+        "originContent": "从[torch官网](https://pytorch.org/get-started/locally/)选择适合自己的**GPU版本**的torch安装即可  ",
+        "translatedContent": "Desde la [página oficial de torch](https://pytorch.org/get-started/locally/) selecciona la versión de **GPU** adecuada para ti e instala torch  "
+      },
+      {
+        "row": 12,
+        "rowsha": "ot0rCxxCjYU/BU3ihLsp/1CEPokIT6dDLn7EW6Aue7k=",
+        "originContent": "我之前用的是 Stable 2.4.1 + cu124  ",
+        "translatedContent": "Anteriormente usaba Stable 2.4.1 + cu124  "
+      },
+      {
+        "row": 13,
+        "rowsha": "eBdnVyUbqowgR9vEYTfnGHeRWG75cBIEB8MdnNWcpSg=",
+        "originContent": "目前在使用 Stable 2.0.1 + cu118 ，可以解决`1 Torch is not compiled with Flash Attention`，暂未发现其他问题",
+        "translatedContent": "Actualmente uso Stable 2.0.1 + cu118, lo que puede resolver `1 Torch is not compiled with Flash Attention`, sin haber encontrado otros problemas"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "QAg+fnvJBg67Ts4EQr9AD/aIVDgwYQfR7H2tDC0A9ys=",
+        "originContent": "#### PyMuPDF",
+        "translatedContent": "#### PyMuPDF"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "IIkfqCiwjhKcDXc8rle9B8meCuQpnB0fMlBYIZ9ZelU=",
+        "originContent": "实测如果直接从`requirements.txt`里安装的话会报`ModuleNotFoundError: No module named 'frontend'`",
+        "translatedContent": "En pruebas, si se instala directamente desde `requirements.txt` da el error `ModuleNotFoundError: No module named 'frontend'`  "
+      },
+      {
+        "row": 18,
+        "rowsha": "xjSN5j/99ELiNssALuHNTnVQFtPvUK48nDspqpYX9d8=",
+        "originContent": "，但单独安装的话就不会这样，具体原因不清楚  ",
+        "translatedContent": "pero si se instala por separado no ocurre, la razón exacta no está clara  "
+      },
+      {
+        "row": 19,
+        "rowsha": "jFmpNy65L64zwZy8/qTnUWFfHnC2MT4YIPYJdQ4SvYI=",
+        "originContent": "另外，如果还是报`ModuleNotFoundError`的话就先卸载`fitz`和`PyMuPDF`，再重新安装一次应该能解决，实测`pip install -U PyMuPDF`",
+        "translatedContent": "Además, si aún aparece `ModuleNotFoundError`, primero desinstala `fitz` y `PyMuPDF`, luego reinstálalos; en pruebas, `pip install -U PyMuPDF`  "
+      },
+      {
+        "row": 20,
+        "rowsha": "kEBTzke2MT0vOOUz5fsmpGvnz6HQ9ADMZ6mmr05rZYU=",
+        "originContent": "是没用的",
+        "translatedContent": "no funciona para resolverlo"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```commandline\npip install fitz\npip install PyMuPDF\n```",
+    "ContentSha": "Ec1FBfaeu+Wh2Ntv/EgW60H4y5jts1i3JsRpNkSJE8U=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```commandline\npip install fitz\npip install PyMuPDF\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ja5COD0+hPcNx4ESLDCs9iCB5NSQHWgmt10iH2b1aeY=",
+        "originContent": "```commandline",
+        "translatedContent": "```commandline"
+      },
+      {
+        "row": 2,
+        "rowsha": "TIzWf1yuRNYL5+hm044nq6zP7pyAHBugvZu+i+1N91E=",
+        "originContent": "pip install fitz",
+        "translatedContent": "pip install fitz"
+      },
+      {
+        "row": 3,
+        "rowsha": "zuuOp6nvL+jxXp6AhCJhPAFXD9xrdFBiPdPaxjlFNSE=",
+        "originContent": "pip install PyMuPDF",
+        "translatedContent": "pip install PyMuPDF"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n#### 使用`pip`安装\n",
+    "ContentSha": "9Lpoz0FhLNqi7wH3DQmX39JQOo5ONUT+HMEJAE6F9E0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### Instalación usando `pip`\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Instalación usando `pip`"
+      },
+      {
+        "row": 2,
+        "rowsha": "jaMfvZT0GJcgsDh9T03TbICCHTIcOMY6lCkGauLUWcQ=",
+        "originContent": "#### 使用`pip`安装",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```commandline\npip install -r requirements.txt\n```",
+    "ContentSha": "98/pylLAG19rE11uIXcqHz6vsQ2Pzu1g5sQkllj5ezM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```commandline\npip install -r requirements.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ja5COD0+hPcNx4ESLDCs9iCB5NSQHWgmt10iH2b1aeY=",
+        "originContent": "```commandline",
+        "translatedContent": "```commandline"
+      },
+      {
+        "row": 2,
+        "rowsha": "9jQ5Tmvmy0Rca8gZGuieLw3iHyIU3Ba5zS4ICtZgsdw=",
+        "originContent": "pip install -r requirements.txt",
+        "translatedContent": "pip install -r requirements.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n另，有人提到了自己使用`requirements.txt`安装依赖时出现了冲突问题，但我这里没有发现问题，`pipdeptree`\n也没有显示任何冲突项，`requirements.txt`是直接`pip freeze`的我自己的虚拟环境的，按理来说应该没问题。  \n但由于确实出现了这样的问题，这里再提供一个不带版本号的`requirements-noversion.txt`，你可以试试看：\n更多信息请查看这个 [issue #4](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/4)\n",
+    "ContentSha": "G/guyT77LiV+2O3ipuFUofteQYxTNJP01MzbiTzKZwY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Además, alguien mencionó que tuvo problemas de conflicto al instalar dependencias usando `requirements.txt`, pero aquí no he encontrado ningún problema,  \n`pipdeptree` tampoco muestra ningún conflicto, el `requirements.txt` es directamente de mi entorno virtual con `pip freeze`, por lo que en teoría no debería haber problema.  \nPero dado que efectivamente surgió este problema, aquí proporciono un `requirements-noversion.txt` sin números de versión, puedes probarlo:  \nPara más información, consulta este [issue #4](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/4)  \n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Además, alguien mencionó que tuvo problemas de conflicto al instalar dependencias usando `requirements.txt`, pero aquí no he encontrado ningún problema,  "
+      },
+      {
+        "row": 2,
+        "rowsha": "7gHYGF+TlBv3UihIM1jPC/ueK0QWYpGeWuL03hZw0Oc=",
+        "originContent": "另，有人提到了自己使用`requirements.txt`安装依赖时出现了冲突问题，但我这里没有发现问题，`pipdeptree`",
+        "translatedContent": "`pipdeptree` tampoco muestra ningún conflicto, el `requirements.txt` es directamente de mi entorno virtual con `pip freeze`, por lo que en teoría no debería haber problema.  "
+      },
+      {
+        "row": 3,
+        "rowsha": "KuYP58gRQhkA9bZyBQqe+/VevSh14VjDNNPt15yGqsU=",
+        "originContent": "也没有显示任何冲突项，`requirements.txt`是直接`pip freeze`的我自己的虚拟环境的，按理来说应该没问题。  ",
+        "translatedContent": "Pero dado que efectivamente surgió este problema, aquí proporciono un `requirements-noversion.txt` sin números de versión, puedes probarlo:  "
+      },
+      {
+        "row": 4,
+        "rowsha": "vVATqdy9c7etFbNr6AoVAwVsVKqzONq2Z6mKl2hft8M=",
+        "originContent": "但由于确实出现了这样的问题，这里再提供一个不带版本号的`requirements-noversion.txt`，你可以试试看：",
+        "translatedContent": "Para más información, consulta este [issue #4](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/4)  "
+      },
+      {
+        "row": 5,
+        "rowsha": "AswbvI5LB0IH5B9+6b6+hwJx5yjMWKVeITMdOq3hm/s=",
+        "originContent": "更多信息请查看这个 [issue #4](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/4)",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```commandline\npip install -r requirements-noversion.txt\n```",
+    "ContentSha": "xtIvUbZKzZuhQvdFB8Wehw+B2gxgLn2BcOmm4ekZj40=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```commandline\npip install -r requirements-noversion.txt\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Ja5COD0+hPcNx4ESLDCs9iCB5NSQHWgmt10iH2b1aeY=",
+        "originContent": "```commandline",
+        "translatedContent": "```commandline"
+      },
+      {
+        "row": 2,
+        "rowsha": "rpJvzbzbLFxCKpfaYbJV5TW92WSt8m4/97yxMi5mOl0=",
+        "originContent": "pip install -r requirements-noversion.txt",
+        "translatedContent": "pip install -r requirements-noversion.txt"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n#### 其他\n\n- [Edge WebDriver](https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/?form=MA13LH#downloads)\n  ，下载压缩包，放进`edge_driver`文件夹中\n\n> 大伙的电脑里应该都有 edge 吧？应该吧？这玩意可是预装的来着......  \n> 文件结构应该是：\n> ```\n> GOT-OCR-2-GUI\n> └─edge_driver\n>    ├─msedgedriver.exe\n>    └─...\n> ```\n\n### 下载模型文件\n\n下列模型中只要有一个就能执行 OCR ，但要启用自动加载模型，那就要有`Safetensors`模型  \nGGUF 模型的支持还不完善，你目前可以在 GGUF 标签页单独体验\n\n#### Safetensors\n\n1. 下载到`models`文件夹中\n2. 别少下载文件了\n3. 如果是新的`GOT-OCR-2-HF`模型（目前未完成支持），下载到`models-hf`文件夹中（但目前还没有添加对其的支持）\n\n- 文件结构应该是：\n",
+    "ContentSha": "apALj/0JDPVjkeN3pdjU1o4HtTp6LjXvwgJdAYDSpbg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### Otros\n\n- [Edge WebDriver](https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/?form=MA13LH#downloads)\n  , descarga el paquete comprimido y colócalo en la carpeta `edge_driver`\n\n> ¿No debería tener todo el mundo Edge en sus computadoras? ¿Verdad? Esto viene preinstalado...  \n> La estructura de archivos debería ser:\n> ```\n> GOT-OCR-2-GUI\n> └─edge_driver\n>    ├─msedgedriver.exe\n>    └─...\n> ```\n\n### Descargar archivos de modelo\n\nCon cualquiera de los modelos listados a continuación se puede ejecutar OCR, pero para activar la carga automática de modelos, es necesario tener el modelo `Safetensors`  \nEl soporte para modelos GGUF aún no está completo, por ahora puedes probarlo en la pestaña GGUF de forma independiente\n\n#### Safetensors\n\n1. Descarga a la carpeta `models`  \n2. No olvides descargar todos los archivos  \n3. Si es un nuevo modelo `GOT-OCR-2-HF` (actualmente no soportado), descárgalo a la carpeta `models-hf` (aunque aún no se ha añadido soporte para este)\n\n- La estructura de archivos debería ser:\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Otros"
+      },
+      {
+        "row": 2,
+        "rowsha": "c9/gtOoliO16rh5Yz5OKm22PJtlZdrj03rYRVZJ5aVs=",
+        "originContent": "#### 其他",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- [Edge WebDriver](https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/?form=MA13LH#downloads)"
+      },
+      {
+        "row": 4,
+        "rowsha": "s6CvFr1pawCFi8MoThT5fOLGlpwpH4Q5zVHlcKNu3FE=",
+        "originContent": "- [Edge WebDriver](https://developer.microsoft.com/zh-cn/microsoft-edge/tools/webdriver/?form=MA13LH#downloads)",
+        "translatedContent": "  , descarga el paquete comprimido y colócalo en la carpeta `edge_driver`"
+      },
+      {
+        "row": 5,
+        "rowsha": "loIhyzSSG0Fmt6gfSsUxpltzSacZXrPMgdujKNpUdLI=",
+        "originContent": "  ，下载压缩包，放进`edge_driver`文件夹中",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> ¿No debería tener todo el mundo Edge en sus computadoras? ¿Verdad? Esto viene preinstalado...  "
+      },
+      {
+        "row": 7,
+        "rowsha": "2rB9dz2kSsZiIyYlqtZkc+rNp+olG+eH1QRTRWILECg=",
+        "originContent": "> 大伙的电脑里应该都有 edge 吧？应该吧？这玩意可是预装的来着......  ",
+        "translatedContent": "> La estructura de archivos debería ser:"
+      },
+      {
+        "row": 8,
+        "rowsha": "Rjx6T4c+sWeQr7HPHBR8wH9HGgBGc1QIS6xpZdRop3Y=",
+        "originContent": "> 文件结构应该是：",
+        "translatedContent": "> ```"
+      },
+      {
+        "row": 9,
+        "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+        "originContent": "> ```",
+        "translatedContent": "> GOT-OCR-2-GUI"
+      },
+      {
+        "row": 10,
+        "rowsha": "GbGqVvhzP1irL0M7D8Gf28/9mMGGzevOXOHo9KaegTY=",
+        "originContent": "> GOT-OCR-2-GUI",
+        "translatedContent": "> └─edge_driver"
+      },
+      {
+        "row": 11,
+        "rowsha": "675QEjR4mRUbqDW8NpbHFdR6Y6c3It5g57lNrhgNrko=",
+        "originContent": "> └─edge_driver",
+        "translatedContent": ">    ├─msedgedriver.exe"
+      },
+      {
+        "row": 12,
+        "rowsha": "0rbdEPM/GkIeeivW3nzcKGp9W1RFH2sPVS0YFLSuJTA=",
+        "originContent": ">    ├─msedgedriver.exe",
+        "translatedContent": ">    └─..."
+      },
+      {
+        "row": 13,
+        "rowsha": "mpescbFat6u3M/YhtlDvskNX6H3nZ9ZDV/tmoUttUmg=",
+        "originContent": ">    └─...",
+        "translatedContent": "> ```"
+      },
+      {
+        "row": 14,
+        "rowsha": "MSWTuK53TAylT2dLwAgGiANzYPowZK3H1tOGCQeahfM=",
+        "originContent": "> ```",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Descargar archivos de modelo"
+      },
+      {
+        "row": 16,
+        "rowsha": "rR+u34ckVb3ZFhhsio8sFdsfPEBnkw5fy9lRioYXT8U=",
+        "originContent": "### 下载模型文件",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Con cualquiera de los modelos listados a continuación se puede ejecutar OCR, pero para activar la carga automática de modelos, es necesario tener el modelo `Safetensors`  "
+      },
+      {
+        "row": 18,
+        "rowsha": "AJo8616VkPMZEijzalwgLD4kFFezxsJ+dcJ+gs7b3+c=",
+        "originContent": "下列模型中只要有一个就能执行 OCR ，但要启用自动加载模型，那就要有`Safetensors`模型  ",
+        "translatedContent": "El soporte para modelos GGUF aún no está completo, por ahora puedes probarlo en la pestaña GGUF de forma independiente"
+      },
+      {
+        "row": 19,
+        "rowsha": "OBOcb6Sd++w8XDbxqlkeW9R8dy5vPAhhVYNdLotMPZY=",
+        "originContent": "GGUF 模型的支持还不完善，你目前可以在 GGUF 标签页单独体验",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### Safetensors"
+      },
+      {
+        "row": 21,
+        "rowsha": "MZg9SUp+yy9JRrdFQLF2tobsiouxpZNYb5Q9TPUJ6T4=",
+        "originContent": "#### Safetensors",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Descarga a la carpeta `models`  "
+      },
+      {
+        "row": 23,
+        "rowsha": "9yJDNyqeQ6dzXsx9gKzU1rcctvtex3vxgAXDXrsMAjk=",
+        "originContent": "1. 下载到`models`文件夹中",
+        "translatedContent": "2. No olvides descargar todos los archivos  "
+      },
+      {
+        "row": 24,
+        "rowsha": "whVj0Rutu1OeX2EXm+gGGcv8mOyESzeVD4K4tf/8Uas=",
+        "originContent": "2. 别少下载文件了",
+        "translatedContent": "3. Si es un nuevo modelo `GOT-OCR-2-HF` (actualmente no soportado), descárgalo a la carpeta `models-hf` (aunque aún no se ha añadido soporte para este)"
+      },
+      {
+        "row": 25,
+        "rowsha": "JvCWkHFS3GBxQ1V48mDc02No4DEhaOlSPjFXDWbeGNw=",
+        "originContent": "3. 如果是新的`GOT-OCR-2-HF`模型（目前未完成支持），下载到`models-hf`文件夹中（但目前还没有添加对其的支持）",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- La estructura de archivos debería ser:"
+      },
+      {
+        "row": 27,
+        "rowsha": "tbCTd7c1Ftkwsu4fZk55mBFlDjX5kj7l8OBznGw0yZo=",
+        "originContent": "- 文件结构应该是：",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```\nGOT-OCR-2-GUI\n└─models\n   ├─config.json\n   ├─generation_config.json\n   ├─got_vision_b.py\n   ├─model.safetensors\n   ├─modeling_GOT.py\n   ├─qwen.tiktoken\n   ├─render_tools.py\n   ├─special_tokens_map.json\n   ├─tokenization_qwen.py\n   └─tokenizer_config.json\n```",
+    "ContentSha": "RlI1ny6qcu/GViRiYVI2qAzvlvrIH0ooAiHKXRZo/MM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nGOT-OCR-2-GUI\n└─models\n   ├─config.json\n   ├─generation_config.json\n   ├─got_vision_b.py\n   ├─model.safetensors\n   ├─modeling_GOT.py\n   ├─qwen.tiktoken\n   ├─render_tools.py\n   ├─special_tokens_map.json\n   ├─tokenization_qwen.py\n   └─tokenizer_config.json\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "stIGmPr8CThqqR4Qd5TQsTm8hvsMbbgZn0Y63nmgOeI=",
+        "originContent": "GOT-OCR-2-GUI",
+        "translatedContent": "GOT-OCR-2-GUI"
+      },
+      {
+        "row": 3,
+        "rowsha": "YkE/RXdh1UCrGjaVD7+MI5/5e5Z2aO1pkRJw8Y0AHpo=",
+        "originContent": "└─models",
+        "translatedContent": "└─models"
+      },
+      {
+        "row": 4,
+        "rowsha": "j6OS/mJ0T/J4qwIzqzTmX0RI5/Yo+fFtReMtrMAyFUE=",
+        "originContent": "   ├─config.json",
+        "translatedContent": "   ├─config.json"
+      },
+      {
+        "row": 5,
+        "rowsha": "svER4pjwX/5e9NZCW2O2H1IewoD9CQeKt9DBXJI1MLc=",
+        "originContent": "   ├─generation_config.json",
+        "translatedContent": "   ├─generation_config.json"
+      },
+      {
+        "row": 6,
+        "rowsha": "UtWX+45p+tgIMtn0KDpPugTzoOmJ4cSTGjBZFs0Zqps=",
+        "originContent": "   ├─got_vision_b.py",
+        "translatedContent": "   ├─got_vision_b.py"
+      },
+      {
+        "row": 7,
+        "rowsha": "e3Bul3iFklLElMYYy62wpDRoqPU+MoywMvaVHAU/nxw=",
+        "originContent": "   ├─model.safetensors",
+        "translatedContent": "   ├─model.safetensors"
+      },
+      {
+        "row": 8,
+        "rowsha": "Hj62NTuzBxoi663kYJQyaJKFnoQYW45VYb2z0L1JEyc=",
+        "originContent": "   ├─modeling_GOT.py",
+        "translatedContent": "   ├─modeling_GOT.py"
+      },
+      {
+        "row": 9,
+        "rowsha": "2W+sPkqjmkYfCtvrFvtBreHzfoNl5ZUlZUrMlVrqGkI=",
+        "originContent": "   ├─qwen.tiktoken",
+        "translatedContent": "   ├─qwen.tiktoken"
+      },
+      {
+        "row": 10,
+        "rowsha": "uXMXALgZDeYA/vAhAdvlEYJzKRV0bh8qrJnoPjFVvQY=",
+        "originContent": "   ├─render_tools.py",
+        "translatedContent": "   ├─render_tools.py"
+      },
+      {
+        "row": 11,
+        "rowsha": "eTgW/TtmIcX/4OAfkKISA8mmL4xHHPGvy5XBvg0Xquc=",
+        "originContent": "   ├─special_tokens_map.json",
+        "translatedContent": "   ├─special_tokens_map.json"
+      },
+      {
+        "row": 12,
+        "rowsha": "KHyXXtAYuwX5fCdFiF0sv9eIYx/HenUSPKVe4InVoYI=",
+        "originContent": "   ├─tokenization_qwen.py",
+        "translatedContent": "   ├─tokenization_qwen.py"
+      },
+      {
+        "row": 13,
+        "rowsha": "epRbZsQ+hDcbMGoNdtpJPTwdVgzWvR6gfSs8r6uL0gA=",
+        "originContent": "   └─tokenizer_config.json",
+        "translatedContent": "   └─tokenizer_config.json"
+      },
+      {
+        "row": 14,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n#### GGUF\n\nGGUF 模型由`got.cpp`提供支持  \n前往`MosRat/got.cpp`仓库下载模型，`Encode.onnx`放到`gguf\\Encoder.onnx`，剩下的 Decoder GGUF 模型放进`gguf\\decoders`\n\n### 开始使用\n\n1. 如果你想用命令行，那就用`CLI.py`\n2. 如果你想用图形界面，那就用`GUI.py`\n3. 如果你想修改设置，那就用`Config Manager.py`\n4. 如果你想执行自动化的渲染操作，那就用`Renderer.py`，它会自动渲染`imgs`文件夹里所有的`.jpg`和`.png`图片\n\n> 用 GUI 的可以不管，不过用 CLI 的各位记得把要OCR的图放进`imgs`文件夹里（ CLI 目前只检测`.jpg`和`.png`图片）\n\n## 本地化支持\n\n- 你可以在`Locales`文件夹中找到各种语言的`.json`文件，CLI 和 GUI 的语言文件是分开存储的\n- 在`gui`子文件夹中，除了`语言.json`文件，还有一个`instructions`文件夹，里面是 GUI 的内置教程，命名为`语言.md`\n- 要修改语言支持，只需要修改`config.json`中的`'language'`的值，可用的选择就是`语言.json`的不带扩展名的文件名\n- 如果要添加语言支持，在 CLI 中，只需要添加新的`语言.json`（我强烈建议你使用已经存在的文件作为起点），在 GUI\n  中，还需要配套的`语言.md`文件\n- 你可以使用`Config Manager.py`来管理语言及其他配置文件\n\n## 注意事项\n\n- 脚本闪退的话可以试一下用`cmd`跑`python +文件名`，我自己测试时会出现闪退的情况，我也不知道为什么\n- `result`文件夹里的`markdown-it.js`不要删除，否则 pdf 导出会出错！\n\n> 如果你不小心删除了，可以在`scripts`文件夹里找到备份，复制一份过去就行了\n\n- 确保你安装的`torch`是 gpu 版本，因为脚本里用了`device_map='cuda'`\n\n## 常见问题\n\n- Q：CLI.py: error: the following arguments are required: --path/-P\n- A：用 PowerShell，CMD 不知道为什么会有这个 bug，暂时找不到原因\n---\n- Q：什么是“HTML本地文件”？难道还有没保存在本地的HTML文件吗？\n- A：因为模型输出的HTML文件虽然保存在本地，但使用了外部脚本，因此即使文件在本地，还是需要网络来打开它。于是我把外部脚本下载了进来，就是前面提到的",
+    "ContentSha": "L6BcN/krmbC8Sw1g8SThXnpiUBZfkWrdLuWPMD3HfUU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "#### GGUF\n\nEl modelo GGUF es compatible con `got.cpp`  \nDescarga el modelo desde el repositorio `MosRat/got.cpp`, coloca `Encode.onnx` en `gguf\\Encoder.onnx` y el resto de los modelos Decoder GGUF en `gguf\\decoders`\n\n### Comenzar\n\n1. Si quieres usar la línea de comandos, usa `CLI.py`  \n2. Si prefieres la interfaz gráfica, usa `GUI.py`  \n3. Si quieres modificar la configuración, usa `Config Manager.py`  \n4. Si deseas ejecutar operaciones automatizadas de renderizado, usa `Renderer.py`, que renderizará automáticamente todas las imágenes `.jpg` y `.png` en la carpeta `imgs`\n\n> Los usuarios de la GUI pueden ignorar esto, pero los que usen la CLI deben poner las imágenes para OCR en la carpeta `imgs` (la CLI actualmente solo detecta imágenes `.jpg` y `.png`)\n\n## Soporte de localización\n\n- Puedes encontrar archivos `.json` de varios idiomas en la carpeta `Locales`; los archivos de idioma para CLI y GUI se almacenan por separado  \n- Dentro de la subcarpeta `gui`, además del archivo `idioma.json`, hay una carpeta `instructions` que contiene tutoriales integrados para la GUI nombrados como `idioma.md`  \n- Para cambiar el soporte de idioma, solo edita el valor `'language'` en `config.json`; las opciones disponibles corresponden a los nombres de archivo sin extensión de los archivos `idioma.json`  \n- Para agregar soporte de idiomas, en la CLI solo necesitas añadir un nuevo archivo `idioma.json` (recomiendo usar un archivo existente como base), en la GUI también necesitas el archivo complementario `idioma.md`  \n- Puedes usar `Config Manager.py` para gestionar idiomas y otros archivos de configuración\n\n## Precauciones\n\n- Si el script se cierra inesperadamente, intenta ejecutarlo con `cmd` usando `python +nombre_del_archivo`; a mí me ha ocurrido el cierre inesperado y no sé por qué  \n- No borres `markdown-it.js` en la carpeta `result`, ¡de lo contrario la exportación a PDF fallará!\n\n> Si accidentalmente lo borras, puedes encontrar una copia de seguridad en la carpeta `scripts`, solo cópiala de nuevo\n\n- Asegúrate de tener instalada la versión GPU de `torch`, porque el script usa `device_map='cuda'`\n\n## Preguntas frecuentes\n\n- P: CLI.py: error: the following arguments are required: --path/-P  \n- R: Usa PowerShell; en CMD aparece este bug y aún no se ha encontrado la causa  \n---  \n- P: ¿Qué es un “archivo HTML local”? ¿Acaso hay archivos HTML que no estén guardados localmente?  \n- R: Aunque el archivo HTML generado por el modelo se guarda localmente, usa scripts externos, por lo que aún necesita conexión a internet para abrirlo. Por eso descargué los scripts externos, como se mencionó antes\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### GGUF"
+      },
+      {
+        "row": 2,
+        "rowsha": "AubTDp1Yv2pd+cAEcBlSFdpE6oKmQ/mpesHn1kEQkQU=",
+        "originContent": "#### GGUF",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "El modelo GGUF es compatible con `got.cpp`  "
+      },
+      {
+        "row": 4,
+        "rowsha": "+4SDS8IxRfTnVFaU5ENCutyq+M4yzQpKE7CasnUrGcU=",
+        "originContent": "GGUF 模型由`got.cpp`提供支持  ",
+        "translatedContent": "Descarga el modelo desde el repositorio `MosRat/got.cpp`, coloca `Encode.onnx` en `gguf\\Encoder.onnx` y el resto de los modelos Decoder GGUF en `gguf\\decoders`"
+      },
+      {
+        "row": 5,
+        "rowsha": "Kz9BSr+MVdiFHkQSV54i4FYrHlrDHqMwXHONPLQ2jQs=",
+        "originContent": "前往`MosRat/got.cpp`仓库下载模型，`Encode.onnx`放到`gguf\\Encoder.onnx`，剩下的 Decoder GGUF 模型放进`gguf\\decoders`",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Comenzar"
+      },
+      {
+        "row": 7,
+        "rowsha": "eGt+mc9Vypjuj3bwtnwaIG8eUAglkagY+3Wdwd6qDNs=",
+        "originContent": "### 开始使用",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. Si quieres usar la línea de comandos, usa `CLI.py`  "
+      },
+      {
+        "row": 9,
+        "rowsha": "/53nbRgUtJMJ26Ok/kPFDFtcW5iXGc2xL/0wLNQpJH0=",
+        "originContent": "1. 如果你想用命令行，那就用`CLI.py`",
+        "translatedContent": "2. Si prefieres la interfaz gráfica, usa `GUI.py`  "
+      },
+      {
+        "row": 10,
+        "rowsha": "rbeV239JtoKbXzfm/9nz+vG2KUuk2omPHeU3XZZhdrE=",
+        "originContent": "2. 如果你想用图形界面，那就用`GUI.py`",
+        "translatedContent": "3. Si quieres modificar la configuración, usa `Config Manager.py`  "
+      },
+      {
+        "row": 11,
+        "rowsha": "IYV/THtHGBxeTalIiZfeQ67gjqUjlGDkJ1LOrvDyEo4=",
+        "originContent": "3. 如果你想修改设置，那就用`Config Manager.py`",
+        "translatedContent": "4. Si deseas ejecutar operaciones automatizadas de renderizado, usa `Renderer.py`, que renderizará automáticamente todas las imágenes `.jpg` y `.png` en la carpeta `imgs`"
+      },
+      {
+        "row": 12,
+        "rowsha": "v2ELRRarbC9t8O9gYb3hNzguaMnImXZwqzYdLPUqtuU=",
+        "originContent": "4. 如果你想执行自动化的渲染操作，那就用`Renderer.py`，它会自动渲染`imgs`文件夹里所有的`.jpg`和`.png`图片",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> Los usuarios de la GUI pueden ignorar esto, pero los que usen la CLI deben poner las imágenes para OCR en la carpeta `imgs` (la CLI actualmente solo detecta imágenes `.jpg` y `.png`)"
+      },
+      {
+        "row": 14,
+        "rowsha": "M8dzqxaZqgROu079DU2Fix+YioirzE9X4ij3Zi6DkZ8=",
+        "originContent": "> 用 GUI 的可以不管，不过用 CLI 的各位记得把要OCR的图放进`imgs`文件夹里（ CLI 目前只检测`.jpg`和`.png`图片）",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Soporte de localización"
+      },
+      {
+        "row": 16,
+        "rowsha": "lUsAbzeDhXjKXyTkPicTcY9MNZxURQ1hsd2ZQjsmI88=",
+        "originContent": "## 本地化支持",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- Puedes encontrar archivos `.json` de varios idiomas en la carpeta `Locales`; los archivos de idioma para CLI y GUI se almacenan por separado  "
+      },
+      {
+        "row": 18,
+        "rowsha": "/fZ5WwYWp9yIWqWmYdDuuuSkLrUEyB95+HUPMQOiQa8=",
+        "originContent": "- 你可以在`Locales`文件夹中找到各种语言的`.json`文件，CLI 和 GUI 的语言文件是分开存储的",
+        "translatedContent": "- Dentro de la subcarpeta `gui`, además del archivo `idioma.json`, hay una carpeta `instructions` que contiene tutoriales integrados para la GUI nombrados como `idioma.md`  "
+      },
+      {
+        "row": 19,
+        "rowsha": "LD/EQXoMPnWPuN/Hr7mMakylTKiokYHSf4fhKrC9kTU=",
+        "originContent": "- 在`gui`子文件夹中，除了`语言.json`文件，还有一个`instructions`文件夹，里面是 GUI 的内置教程，命名为`语言.md`",
+        "translatedContent": "- Para cambiar el soporte de idioma, solo edita el valor `'language'` en `config.json`; las opciones disponibles corresponden a los nombres de archivo sin extensión de los archivos `idioma.json`  "
+      },
+      {
+        "row": 20,
+        "rowsha": "ftO5vPGtAfoVWiYaPavH/tRYgF5ewiAhE8MblZBhTQk=",
+        "originContent": "- 要修改语言支持，只需要修改`config.json`中的`'language'`的值，可用的选择就是`语言.json`的不带扩展名的文件名",
+        "translatedContent": "- Para agregar soporte de idiomas, en la CLI solo necesitas añadir un nuevo archivo `idioma.json` (recomiendo usar un archivo existente como base), en la GUI también necesitas el archivo complementario `idioma.md`  "
+      },
+      {
+        "row": 21,
+        "rowsha": "xakPd4W0HEhuOAVkfgoSKDffErVOctyRrZXSIDklX0s=",
+        "originContent": "- 如果要添加语言支持，在 CLI 中，只需要添加新的`语言.json`（我强烈建议你使用已经存在的文件作为起点），在 GUI",
+        "translatedContent": "- Puedes usar `Config Manager.py` para gestionar idiomas y otros archivos de configuración"
+      },
+      {
+        "row": 22,
+        "rowsha": "uptOohDJcgZBmEHH12AfK6clWXv9q6dyahxiTQh1k10=",
+        "originContent": "  中，还需要配套的`语言.md`文件",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "7DZiHpBUe5ZnWGqJ1eKZZjZ6nXcf7OHO8URmULkG95g=",
+        "originContent": "- 你可以使用`Config Manager.py`来管理语言及其他配置文件",
+        "translatedContent": "## Precauciones"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "qqM9x68fli7rmqs2E7FUA7w7vxRW4wDZzEckY8TxYu8=",
+        "originContent": "## 注意事项",
+        "translatedContent": "- Si el script se cierra inesperadamente, intenta ejecutarlo con `cmd` usando `python +nombre_del_archivo`; a mí me ha ocurrido el cierre inesperado y no sé por qué  "
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- No borres `markdown-it.js` en la carpeta `result`, ¡de lo contrario la exportación a PDF fallará!"
+      },
+      {
+        "row": 27,
+        "rowsha": "HIUUygNl0zhl7NQRs5dVHMXgzmPBNvPyYxi31pV2lgk=",
+        "originContent": "- 脚本闪退的话可以试一下用`cmd`跑`python +文件名`，我自己测试时会出现闪退的情况，我也不知道为什么",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "HBmj5CGuVsHe/7qaPhTtHmwh4guT47KEALzey1j7lR4=",
+        "originContent": "- `result`文件夹里的`markdown-it.js`不要删除，否则 pdf 导出会出错！",
+        "translatedContent": "> Si accidentalmente lo borras, puedes encontrar una copia de seguridad en la carpeta `scripts`, solo cópiala de nuevo"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "2eQsSLfatQjyRlfWdA9cIkInyseSH0OIf22U0ibzETM=",
+        "originContent": "> 如果你不小心删除了，可以在`scripts`文件夹里找到备份，复制一份过去就行了",
+        "translatedContent": "- Asegúrate de tener instalada la versión GPU de `torch`, porque el script usa `device_map='cuda'`"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "b9tPDUo8ZDbM4kErenpUmbWPbazE5A3LD1tl7lwMUEU=",
+        "originContent": "- 确保你安装的`torch`是 gpu 版本，因为脚本里用了`device_map='cuda'`",
+        "translatedContent": "## Preguntas frecuentes"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "OzC2hb5a82TY3LZrn7wJfbf0zxXjHTxSicJpBZQhP/s=",
+        "originContent": "## 常见问题",
+        "translatedContent": "- P: CLI.py: error: the following arguments are required: --path/-P  "
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "- R: Usa PowerShell; en CMD aparece este bug y aún no se ha encontrado la causa  "
+      },
+      {
+        "row": 36,
+        "rowsha": "8vVqyMgzP4CQzxq4KXHWckxvlgsxX1Bh12REcnAvAEk=",
+        "originContent": "- Q：CLI.py: error: the following arguments are required: --path/-P",
+        "translatedContent": "---  "
+      },
+      {
+        "row": 37,
+        "rowsha": "fuMWe45/lOfLq4l+2/yV+rn5t1nMPr2HVvZyIYDqI7A=",
+        "originContent": "- A：用 PowerShell，CMD 不知道为什么会有这个 bug，暂时找不到原因",
+        "translatedContent": "- P: ¿Qué es un “archivo HTML local”? ¿Acaso hay archivos HTML que no estén guardados localmente?  "
+      },
+      {
+        "row": 38,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "- R: Aunque el archivo HTML generado por el modelo se guarda localmente, usa scripts externos, por lo que aún necesita conexión a internet para abrirlo. Por eso descargué los scripts externos, como se mencionó antes"
+      },
+      {
+        "row": 39,
+        "rowsha": "zmBfaso1XERkGC4R1uon65W2OEQGEduzQraZ7vPJc50=",
+        "originContent": "- Q：什么是“HTML本地文件”？难道还有没保存在本地的HTML文件吗？",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "1TRilyiRcGzumd416Q8ubzZskMWptTeRTIa5FPILtA0=",
+        "originContent": "- A：因为模型输出的HTML文件虽然保存在本地，但使用了外部脚本，因此即使文件在本地，还是需要网络来打开它。于是我把外部脚本下载了进来，就是前面提到的",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "  `mardown-it.js`。这么做主要是防止网络问题造成的PDF导出失败。\n---\n- Q：为什么我的模型加载失败了？\n- A：检查一下你是不是少了文件。从百度云下载的模型文件似乎缺少了文件，我建议你去前面提到的 Huggingface 下载。\n---\n- Q：有什么部署这个项目的建议吗？\n- A：看这个[issue #5](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/5)\n---\n- Q：我要去哪里看帮助文档？\n- A：对于 GUI 用户，你可以找到`说明`标签页，对于 CLI 用户，你可以用`.\\CLI.py --help`查看 argparse 自动生成的帮助文档，也可以用`.\\CLI.py --detailed-help`查看更详细的帮助文档\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=XJF2332/GOT-OCR-2-GUI&type=Date)](https://star-history.com/#XJF2332/GOT-OCR-2-GUI&Date)",
+    "ContentSha": "uZsbnEuR4YLF3IZVKXPeHjxwxZYrVUK+Yqf9nfai5rA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  `mardown-it.js`. Esto se hace principalmente para evitar fallos en la exportación a PDF debido a problemas de red.\n---\n- P: ¿Por qué falla la carga de mi modelo?\n- R: Revisa si te falta algún archivo. Los archivos del modelo descargados desde Baidu Cloud parecen estar incompletos, te recomiendo descargarlos desde Huggingface como se mencionó antes.\n---\n- P: ¿Tienes alguna recomendación para desplegar este proyecto?\n- R: Consulta este [issue #5](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/5)\n---\n- P: ¿Dónde puedo encontrar la documentación de ayuda?\n- R: Para usuarios GUI, puedes encontrarla en la pestaña `说明`. Para usuarios CLI, puedes usar `.\\CLI.py --help` para ver la ayuda generada automáticamente por argparse, o `.\\CLI.py --detailed-help` para una ayuda más detallada.\n\n## Historial de Estrellas\n\n[![Gráfico de Historial de Estrellas](https://api.star-history.com/svg?repos=XJF2332/GOT-OCR-2-GUI&type=Date)](https://star-history.com/#XJF2332/GOT-OCR-2-GUI&Date)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "gQ9xi0ObqXDKCNBkVL/PtFxXBHQ7bwBJp08qZu12QsE=",
+        "originContent": "  `mardown-it.js`。这么做主要是防止网络问题造成的PDF导出失败。",
+        "translatedContent": "  `mardown-it.js`. Esto se hace principalmente para evitar fallos en la exportación a PDF debido a problemas de red."
+      },
+      {
+        "row": 2,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 3,
+        "rowsha": "vgwN30C7MOaiRJo3vXbR+L9XMDANT6z2JGQ7cwjcJvs=",
+        "originContent": "- Q：为什么我的模型加载失败了？",
+        "translatedContent": "- P: ¿Por qué falla la carga de mi modelo?"
+      },
+      {
+        "row": 4,
+        "rowsha": "QUoLDtHc2UlcslXzB+HrbamFDwPbuvG0ybYdgPlJuws=",
+        "originContent": "- A：检查一下你是不是少了文件。从百度云下载的模型文件似乎缺少了文件，我建议你去前面提到的 Huggingface 下载。",
+        "translatedContent": "- R: Revisa si te falta algún archivo. Los archivos del modelo descargados desde Baidu Cloud parecen estar incompletos, te recomiendo descargarlos desde Huggingface como se mencionó antes."
+      },
+      {
+        "row": 5,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 6,
+        "rowsha": "otLMv+HNtRMslUV1PxruGNujtKfuC9XxaYrJNI64OV0=",
+        "originContent": "- Q：有什么部署这个项目的建议吗？",
+        "translatedContent": "- P: ¿Tienes alguna recomendación para desplegar este proyecto?"
+      },
+      {
+        "row": 7,
+        "rowsha": "ESSryQs9pUcLAENwxvxi9CvB40TenSPJXco4Qdy+UzY=",
+        "originContent": "- A：看这个[issue #5](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/5)",
+        "translatedContent": "- R: Consulta este [issue #5](https://github.com/XJF2332/GOT-OCR-2-GUI/issues/5)"
+      },
+      {
+        "row": 8,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 9,
+        "rowsha": "5Upoc7IBBgmW/PfVbeDeG+S04dp7VKtObhMYVLOsIrM=",
+        "originContent": "- Q：我要去哪里看帮助文档？",
+        "translatedContent": "- P: ¿Dónde puedo encontrar la documentación de ayuda?"
+      },
+      {
+        "row": 10,
+        "rowsha": "XoZ4ekTovOwOO8AHuSD2mdQ/0JUfGBnCb9HGqmi6Fhw=",
+        "originContent": "- A：对于 GUI 用户，你可以找到`说明`标签页，对于 CLI 用户，你可以用`.\\CLI.py --help`查看 argparse 自动生成的帮助文档，也可以用`.\\CLI.py --detailed-help`查看更详细的帮助文档",
+        "translatedContent": "- R: Para usuarios GUI, puedes encontrarla en la pestaña `说明`. Para usuarios CLI, puedes usar `.\\CLI.py --help` para ver la ayuda generada automáticamente por argparse, o `.\\CLI.py --detailed-help` para una ayuda más detallada."
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "HLlFkIOChBL2XK+/4offEec901rMTtlU760d5hKrZbw=",
+        "originContent": "## Star History",
+        "translatedContent": "## Historial de Estrellas"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "wZ+deV0mVLghneXgbm+K3AQ46gXTLnjs3C6MrBEASKE=",
+        "originContent": "[![Star History Chart](https://api.star-history.com/svg?repos=XJF2332/GOT-OCR-2-GUI&type=Date)](https://star-history.com/#XJF2332/GOT-OCR-2-GUI&Date)",
+        "translatedContent": "[![Gráfico de Historial de Estrellas](https://api.star-history.com/svg?repos=XJF2332/GOT-OCR-2-GUI&type=Date)](https://star-history.com/#XJF2332/GOT-OCR-2-GUI&Date)"
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
