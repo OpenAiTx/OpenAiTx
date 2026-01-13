@@ -1,0 +1,650 @@
+[
+  {
+    "row": 1,
+    "rowsha": "0qOSf5q+jHeVjOj/mOl92RHZ2UiZC6p+Hy5ApAEA9l0=",
+    "originContent": "# Material3 BottomSheet Navigation",
+    "translatedContent": "# Navigation BottomSheet Material3"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "Z78lahRYLh4ciSLoap60ooXJseTElI9amCS3JmYvJDo=",
+    "originContent": "This library provides a navigation solution for Compose projects using Material3 BottomSheets. It allows you to define your BottomSheet as navigation routes, eliminating the need for the `androidx.compose.material.navigation` and ` androidx.compose.material:material` !",
+    "translatedContent": "Cette bibliothèque fournit une solution de navigation pour les projets Compose utilisant les BottomSheets Material3. Elle vous permet de définir vos BottomSheets comme des routes de navigation, éliminant ainsi le besoin des bibliothèques `androidx.compose.material.navigation` et ` androidx.compose.material:material` !"
+  },
+  {
+    "row": 4,
+    "rowsha": "S95UOtN4UCxf5zNFQFAVtQOW0ZYj9jfhdc40gLkvqMU=",
+    "originContent": "libraries. This simplifies your app's dependencies and ensures a consistent Material3 experience.",
+    "translatedContent": "Cela simplifie les dépendances de votre application et garantit une expérience Material3 cohérente."
+  },
+  {
+    "row": 5,
+    "rowsha": "Gd3nX5cdh507K5Irrv3CALiyccWygShTlY18OvWl0pw=",
+    "originContent": "This library also leverages the new functionality from `androidx.navigation:navigation-compose:2.8.0-beta0X` to allow you to define routes with serialized classes.",
+    "translatedContent": "Cette bibliothèque exploite également la nouvelle fonctionnalité de `androidx.navigation:navigation-compose:2.8.0-beta0X` pour vous permettre de définir des routes avec des classes sérialisées."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "Cj2q4DOEnmqlPFZXaNjBglNU0pXJSGQ0dzO5IxkYQF4=",
+    "originContent": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.stefanoq21/material3-navigation)](https://central.sonatype.com/artifact/io.github.stefanoq21/material3-navigation)",
+    "translatedContent": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.stefanoq21/material3-navigation)](https://central.sonatype.com/artifact/io.github.stefanoq21/material3-navigation)"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "Cvo3lhDKZZ4bdAyvF2jvARUFI5rmcTzZFa4iojvbHZs=",
+    "originContent": "![Static Badge](https://img.shields.io/badge/minSdk-21-blue?link=https%3A%2F%2Fgithub.com%2Fstefanoq21%2FBottomSheetNavigator3%2Fblob%2Fmain%2Fmaterial3-navigation%2Fbuild.gradle.kts%23L15)",
+    "translatedContent": "![Badge statique](https://img.shields.io/badge/minSdk-21-blue?link=https%3A%2F%2Fgithub.com%2Fstefanoq21%2FBottomSheetNavigator3%2Fblob%2Fmain%2Fmaterial3-navigation%2Fbuild.gradle.kts%23L15)"
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "UMMTNBuYDA+GHbAThRVdp6w2IwLFo8gBtq7Gg4BkaZ0=",
+    "originContent": "## Implementation",
+    "translatedContent": "## Implémentation"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "7HZdm+lqmne+mQg5aFPlErhS34dWRQw6vyOSkeyAy1s=",
+    "originContent": "You can follow the implementation approach used in the  [app](https://github.com/stefanoq21/BottomSheetNavigator3/tree/main/app \"app\") module. Alternatively, you can find a detailed explanation below.",
+    "translatedContent": "Vous pouvez suivre l’approche d’implémentation utilisée dans le module [app](https://github.com/stefanoq21/BottomSheetNavigator3/tree/main/app \"app\"). Sinon, vous trouverez une explication détaillée ci-dessous."
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "cA9I4m4MLDGazdniXFF/VJ7jgnkzPSvBbISFVX7s/5s=",
+    "originContent": "### Dependencies",
+    "translatedContent": "### Dépendances"
+  },
+  {
+    "row": 16,
+    "rowsha": "UAOIIaVYFASz/q5mPoPELGSUT3E3ncb/1KCwAdjoCCE=",
+    "originContent": "The library is now available on MavenCentral!!! ",
+    "translatedContent": "La bibliothèque est maintenant disponible sur MavenCentral !!! "
+  },
+  {
+    "row": 17,
+    "rowsha": "Y1j5+r6PyA8sfTbtOuw9eXuCyYZ+MRYTU2Q59anhAEA=",
+    "originContent": "Add the dependencies to your `libs.versions.toml`",
+    "translatedContent": "Ajoutez les dépendances à votre `libs.versions.toml`"
+  },
+  {
+    "row": 18,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 19,
+    "rowsha": "lOuskf+szrzrUn5eClZvdxc4Ovxfw6MBnTbBCANMAs4=",
+    "originContent": "[versions]",
+    "translatedContent": "[versions]"
+  },
+  {
+    "row": 20,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 21,
+    "rowsha": "dO1lUCHqFlReyGIewYDS/N2Ut+HGhias8ysVS8TBC7c=",
+    "originContent": "material3Navigation = \"X.X.X\" current release version",
+    "translatedContent": "material3Navigation = \"X.X.X\" current release version"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "kHZWNXvrFSgHm9BfCQkv6ABDqcZY5IoNounkch1skfc=",
+    "originContent": "[libraries]",
+    "translatedContent": "[libraries]"
+  },
+  {
+    "row": 24,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 25,
+    "rowsha": "Ik370AaMju2TUGVBYkb0KaKvTVOnF8vIbtGNYXRdLCc=",
+    "originContent": "material3-navigation = { group = \"io.github.stefanoq21\", name = \"material3-navigation\", version.ref = \"material3Navigation\" }",
+    "translatedContent": "material3-navigation = { group = \"io.github.stefanoq21\", name = \"material3-navigation\", version.ref = \"material3Navigation\" }"
+  },
+  {
+    "row": 26,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 27,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 28,
+    "rowsha": "HAoSFbLzLjILYHp9amqyMcjRlosp5cGzXK/bYzIcMkI=",
+    "originContent": "In your `build.gradle.kts` implement your dependencies:",
+    "translatedContent": "Dans votre `build.gradle.kts`, implémentez vos dépendances :"
+  },
+  {
+    "row": 29,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 30,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 31,
+    "rowsha": "YiU0BYrj6/iCE+VQzVtTmQYPeT0yaMuVWxaQJ1+t/zA=",
+    "originContent": "dependencies {",
+    "translatedContent": "dependencies {"
+  },
+  {
+    "row": 32,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 33,
+    "rowsha": "iWZlvLEHHi8wVGNq5jZ96XQ5i0dfWU4Etumlyiazbyk=",
+    "originContent": " implementation(libs.material3.navigation)",
+    "translatedContent": " implementation(libs.material3.navigation)"
+  },
+  {
+    "row": 34,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 35,
+    "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+    "originContent": "### Usage",
+    "translatedContent": "### Utilisation"
+  },
+  {
+    "row": 36,
+    "rowsha": "azmeQaiCflT/OE9mWfwIxWkdjIZ6iNS5oPI++2cS9BE=",
+    "originContent": "Define your **BottomSheetNavigator**",
+    "translatedContent": "Définissez votre **BottomSheetNavigator**"
+  },
+  {
+    "row": 37,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 38,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 39,
+    "rowsha": "6K8+N/Sg77CjstA6ziCzOm2Lnd1RvKPuc8TSHBaCYpY=",
+    "originContent": "   val bottomSheetNavigator =",
+    "translatedContent": "   val bottomSheetNavigator ="
+  },
+  {
+    "row": 40,
+    "rowsha": "dVSRskx9O4kOw2dmuEFXgiJtV6lLpzFK7phVIXgPt8Q=",
+    "originContent": "                    rememberBottomSheetNavigator(skipPartiallyExpanded = true/false)",
+    "translatedContent": "                    rememberBottomSheetNavigator(skipPartiallyExpanded = true/false)"
+  },
+  {
+    "row": 41,
+    "rowsha": "HQ/eTd9+vBfAINlb/ICyo1E9vCzx0dxIOz7MS2Kez0E=",
+    "originContent": "                val navController = rememberNavController(bottomSheetNavigator)",
+    "translatedContent": "                val navController = rememberNavController(bottomSheetNavigator)"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "8MaetfMgoWsTC92mbb0/zKjKMt76hMOBRMQTFc9w0FQ=",
+    "originContent": "Add the **ModalBottomSheetLayout** on top of the **NavHost** component and pass the **bottomSheetNavigator** as parameter:",
+    "translatedContent": "Ajoutez le **ModalBottomSheetLayout** au-dessus du composant **NavHost** et passez le **bottomSheetNavigator** en paramètre :"
+  },
+  {
+    "row": 44,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 45,
+    "rowsha": "ad+vNCFCWKGIvuioFkDWZtpnv+de7yURYxT11hj8zDk=",
+    "originContent": "ModalBottomSheetLayout(",
+    "translatedContent": "ModalBottomSheetLayout("
+  },
+  {
+    "row": 46,
+    "rowsha": "oPfHBdsw3+60ws92CgArr8wI93z+vD4n63AjLRT7TTg=",
+    "originContent": "                        modifier = Modifier",
+    "translatedContent": "                        modifier = Modifier"
+  },
+  {
+    "row": 47,
+    "rowsha": "ojIqtp3bXRo5P+P8vSU2bJgU/XngL4xRonX4lS3gP+U=",
+    "originContent": "                            .fillMaxSize(),",
+    "translatedContent": "                            .fillMaxSize(),"
+  },
+  {
+    "row": 48,
+    "rowsha": "pVGLZyRVwuXBXaW12GzVolbrf7mTkeM3NmxbAnU04a0=",
+    "originContent": "                        bottomSheetNavigator = bottomSheetNavigator",
+    "translatedContent": "                        bottomSheetNavigator = bottomSheetNavigator"
+  },
+  {
+    "row": 49,
+    "rowsha": "SwK0OaXswlczhgR07NYHKR53rwEmTZK3o4D7ixAalKI=",
+    "originContent": "                    ) {",
+    "translatedContent": "                    ) {"
+  },
+  {
+    "row": 50,
+    "rowsha": "BFXWCLwJH/eB52gpT1pagisw2LhDVUcaBCDpgJf8CTE=",
+    "originContent": "                        NavHost(",
+    "translatedContent": "                        NavHost("
+  },
+  {
+    "row": 51,
+    "rowsha": "mZpUNLFM23SJZu7rFDcmLRKWyGItbVCYPpnipH5pHIw=",
+    "originContent": "                            navController = navController,",
+    "translatedContent": "                            navController = navController,"
+  },
+  {
+    "row": 52,
+    "rowsha": "3FkEwjhtarwV3zivgQCDd2wS2x9uTVehLAK6DosB2d4=",
+    "originContent": "                            startDestination = Screen.Home",
+    "translatedContent": "                            startDestination = Screen.Home"
+  },
+  {
+    "row": 53,
+    "rowsha": "Zpqv9PAuSOEwc67k+lW6lFQ+TCuD04MWR3zyFd7C/hA=",
+    "originContent": "                        ) {",
+    "translatedContent": "                        ) {"
+  },
+  {
+    "row": 54,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 55,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 56,
+    "rowsha": "IDT77ZIxU7smQgyBDEn6QBVNMEbgSZwz2arK+R6Nnss=",
+    "originContent": "Define your routes as strings or data class (depend on the compose navigation version you are using):",
+    "translatedContent": "Définissez vos routes en tant que chaînes de caractères ou classes de données (selon la version de la navigation compose que vous utilisez) :"
+  },
+  {
+    "row": 57,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 58,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 59,
+    "rowsha": "lyQSH9haogZoAP/RrSl9ApVfcmBPAEgZTuqdVm+TcL0=",
+    "originContent": "   bottomSheet<Screen.BottomSheetFullScreen> {",
+    "translatedContent": "   bottomSheet<Screen.BottomSheetFullScreen> {"
+  },
+  {
+    "row": 60,
+    "rowsha": "sdpacM7qdA5+pnvCUGuTh8pJfUTBIx5o0X132n4orgs=",
+    "originContent": "                                BSFullScreenLayout()",
+    "translatedContent": "                                BSFullScreenLayout()"
+  },
+  {
+    "row": 61,
+    "rowsha": "ELKDGYmda4ZrfoYisajx0QBrIfUWNUN2te1HeoeFnvc=",
+    "originContent": "                            }",
+    "translatedContent": "                            }"
+  },
+  {
+    "row": 62,
+    "rowsha": "dds5N7odhDzn/xaUCM/g5p97tqxrwXzsoKfPGTeBP1k=",
+    "originContent": "  bottomSheet(\"BottomSheetFullScreen\") {",
+    "translatedContent": "  bottomSheet(\"BottomSheetFullScreen\") {"
+  },
+  {
+    "row": 63,
+    "rowsha": "sdpacM7qdA5+pnvCUGuTh8pJfUTBIx5o0X132n4orgs=",
+    "originContent": "                                BSFullScreenLayout()",
+    "translatedContent": "                                BSFullScreenLayout()"
+  },
+  {
+    "row": 64,
+    "rowsha": "ELKDGYmda4ZrfoYisajx0QBrIfUWNUN2te1HeoeFnvc=",
+    "originContent": "                            }",
+    "translatedContent": "                            }"
+  },
+  {
+    "row": 65,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 66,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 67,
+    "rowsha": "d+cAwHESllmrcuAGxudhARh0+YLEcHWy4cE93b83rzE=",
+    "originContent": "Everything is ready! Just navigate to your new destination as usual:",
+    "translatedContent": "Tout est prêt ! Il vous suffit de vous rendre à votre nouvelle destination comme d'habitude :"
+  },
+  {
+    "row": 68,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 69,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 70,
+    "rowsha": "2Prjd0Od9ppvuG4nzUTmOLdoK1r8ZSHbyUPHzPLHqWA=",
+    "originContent": "Button(onClick = { navController.navigate(Screen.BottomSheetFullScreen) }) {",
+    "translatedContent": "Button(onClick = { navController.navigate(Screen.BottomSheetFullScreen) }) {"
+  },
+  {
+    "row": 71,
+    "rowsha": "u9apT9by1yBLIpcIl/oRtx0CnluH21IXJRHSL3iTh50=",
+    "originContent": "                                        Text(text = \"BottomSheetFullScreen\")",
+    "translatedContent": "                                        Text(text = \"BottomSheetFullScreen\")"
+  },
+  {
+    "row": 72,
+    "rowsha": "R9QnXWmFcIfUyuNGB0tvLKHZZpHav1Wxhb+Ys37ioIA=",
+    "originContent": "                                    }",
+    "translatedContent": "                                    }"
+  },
+  {
+    "row": 73,
+    "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+    "originContent": "...",
+    "translatedContent": "..."
+  },
+  {
+    "row": 74,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 75,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 76,
+    "rowsha": "Khv1OKv5Y0nVUvmevwhSsDCUO8Vwh4GKgsAroYkIGaU=",
+    "originContent": "### Navigating Back from a Bottom Sheet",
+    "translatedContent": "### Navigation arrière depuis un Bottom Sheet"
+  },
+  {
+    "row": 77,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 78,
+    "rowsha": "1ldvRTtZFcEzlqGJKejk4yzK+4/erOJ7yv7TWy9vvlA=",
+    "originContent": "To implement a back or close button in your bottom sheet, I suggest to use `onBackPressedDispatcher.onBackPressed()`. This because if you use  `navController.popBackStack()` the animation will not appear. The animation was disabled, in this case, to avoid problems during the navigation that start from bottomshets.",
+    "translatedContent": "Pour implémenter un bouton de retour ou de fermeture dans votre bottom sheet, je suggère d’utiliser `onBackPressedDispatcher.onBackPressed()`. En effet, si vous utilisez `navController.popBackStack()`, l’animation ne s’affichera pas. L’animation a été désactivée, dans ce cas, pour éviter des problèmes lors de la navigation qui démarre depuis les bottom sheets."
+  },
+  {
+    "row": 79,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 80,
+    "rowsha": "lwLFzrFj7VT5K1EzxhjRl+E/ylDavYTCYRR5jB+4r/s=",
+    "originContent": "### Customization",
+    "translatedContent": "### Personnalisation"
+  },
+  {
+    "row": 81,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 82,
+    "rowsha": "dnYOYG0N4b2b6Ag75MLbX0EHm5+fT9DT3+3s7AIhTf8=",
+    "originContent": "The library currently supports the same customization options of the standard `androidx.compose.material3.ModalBottomSheet`. You can customize the appearance of the all the bottomsheets used in your navigation graph by passing the parameters to the `ModalBottomSheetLayout`.",
+    "translatedContent": "La bibliothèque prend actuellement en charge les mêmes options de personnalisation que le `androidx.compose.material3.ModalBottomSheet` standard. Vous pouvez personnaliser l’apparence de tous les bottom sheets utilisés dans votre graphe de navigation en passant les paramètres au `ModalBottomSheetLayout`."
+  },
+  {
+    "row": 83,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 84,
+    "rowsha": "SAa2SCue0ypI0FGkgNSHyL7bpF+OrYgFRFV0McGKt3g=",
+    "originContent": "## Preview",
+    "translatedContent": "## Aperçu"
+  },
+  {
+    "row": 85,
+    "rowsha": "VHbuHj5VKw6zkH2A08a0JPRVCrHOCmI/51v0Sn2j3W4=",
+    "originContent": "![](https://github.com/stefanoq21/BottomSheetNavigator3/assets/22545898/c971f6cf-bb04-41c1-b3ea-7b72757e09af)",
+    "translatedContent": "![](https://github.com/stefanoq21/BottomSheetNavigator3/assets/22545898/c971f6cf-bb04-41c1-b3ea-7b72757e09af)"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 88,
+    "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+    "originContent": "## Contributing",
+    "translatedContent": "## Contribution"
+  },
+  {
+    "row": 89,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 90,
+    "rowsha": "E/8Fmmb6+BGYEiGIWJIlvK4I5uBScGp7tSEzHGl2dvk=",
+    "originContent": "We welcome contributions to this library! If you have bug reports, feature requests, or code improvements, please feel free to create a pull request. I appreciate your help in making this library even better.",
+    "translatedContent": "Nous accueillons avec plaisir les contributions à cette bibliothèque ! Si vous avez des rapports de bugs, des demandes de fonctionnalités ou des améliorations de code, n’hésitez pas à créer une pull request. Je vous remercie de votre aide pour rendre cette bibliothèque encore meilleure."
+  },
+  {
+    "row": 91,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 92,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": "## Licence"
+  },
+  {
+    "row": 93,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 94,
+    "rowsha": "twFi1Dx/AjNKaC54NVWg/flj2/nqOMT09UaC54BOolk=",
+    "originContent": "   Copyright 2024 stefanoq21",
+    "translatedContent": "   Copyright 2024 stefanoq21"
+  },
+  {
+    "row": 95,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 96,
+    "rowsha": "PAegsLbsAAizhHMiK4U1Wg2H9XhUe9bADM972QRzIgo=",
+    "originContent": "   Licensed under the Apache License, Version 2.0 (the \"License\");",
+    "translatedContent": "   Sous licence Apache, Version 2.0 (la « Licence ») ;"
+  },
+  {
+    "row": 97,
+    "rowsha": "HO4LxU8+rwqgdOINZscl62jTpSxTHMZ5uEYQRyf8TRw=",
+    "originContent": "   you may not use this file except in compliance with the License.",
+    "translatedContent": "   vous ne pouvez utiliser ce fichier que conformément à la Licence."
+  },
+  {
+    "row": 98,
+    "rowsha": "T6ELqoaVCcG5ImfvSccW90/PObaLjANwnY1t8wwMOVQ=",
+    "originContent": "   You may obtain a copy of the License at",
+    "translatedContent": "   Vous pouvez obtenir une copie de la Licence à"
+  },
+  {
+    "row": 99,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "Qko7dag2obMHDcGH/Py9AsDGThXL+8bl52LRo/mKn38=",
+    "originContent": "       http://www.apache.org/licenses/LICENSE-2.0",
+    "translatedContent": "       http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "row": 101,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "UcTg2DX/dpZU0C9LJ52TaGMEpqw9t6PUPjKajKiDI0U=",
+    "originContent": "   Unless required by applicable law or agreed to in writing, software",
+    "translatedContent": "   Sauf si la loi en vigueur l’exige ou un accord écrit le stipule,"
+  },
+  {
+    "row": 103,
+    "rowsha": "CURZ9qGwfWg90kQwn7xM6uxqRwueUxmV0KdgVYD5lDE=",
+    "originContent": "   distributed under the License is distributed on an \"AS IS\" BASIS,",
+    "translatedContent": "   le logiciel distribué sous la Licence est distribué « EN L’ÉTAT »,"
+  },
+  {
+    "row": 104,
+    "rowsha": "YP+XOUnvXWyimouMR04gpRGkQ6WI54MR45Uiz4Y246c=",
+    "originContent": "   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+    "translatedContent": "   SANS GARANTIES NI CONDITIONS D’AUCUNE SORTE, expresses ou implicites."
+  },
+  {
+    "row": 105,
+    "rowsha": "W6+A028rPki6aqweILxdyd2GYinjZt1Gd3TIFZ9pMIQ=",
+    "originContent": "   See the License for the specific language governing permissions and",
+    "translatedContent": "   Consultez la Licence pour connaître les autorisations spécifiques"
+  },
+  {
+    "row": 106,
+    "rowsha": "FHu514WisELEsNAdVSlMsPSVuekbI3YieL9BgSj3C3o=",
+    "originContent": "   limitations under the License.",
+    "translatedContent": "   et les limitations régissant la Licence."
+  },
+  {
+    "row": 107,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 108,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

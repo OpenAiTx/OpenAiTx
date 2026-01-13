@@ -38,49 +38,51 @@ Hayal edin ki bir yapay zekâ modeli tarihi taklit etmiyor, gerçekten tarihi ol
 
 v0 ve v0.5 [Andrej Karpathy'nin nanoGPT'si](https://github.com/karpathy/nanoGPT) üzerinde inşa edilmiştir. Temel eğitim komut dosyaları ve model mimarisi ona aittir.
 
-v1 [Microsoft tarafından geliştirilen Phi 1.5](https://huggingface.co/microsoft/phi-1_5) üzerine inşa edilmiştir
+v1 [Microsoft Phi 1.5](https://huggingface.co/microsoft/phi-1_5) üzerinde oluşturuldu
+
+v2 llamaforcausallm üzerinde oluşturuldu
 
 [Hugging Face Linki](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
 
-##  Model Davranışı & Sınırlamaları
+##  Model Davranışı & Sınırlamalar
 
 ### **v0**  
 
-İlk istemlerde model, 1800'lerin dili ve davranışıyla yanıt vermektedir. 
+İlk istemlerde modelin 1800'lerin dili ve davranışıyla yanıt verdiği görülüyor.
 Örnek: İstem: "Who art Henry?" ve yanıtı "I know that man, I have did not a black, the storm." 
 
-![TimeLockLLM Örnek Çıktısı](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeLockLLM Örnek Çıktı](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- Modern kavramlara hiç değinilmemiş  
+- Modern kavramlara dair hiçbir bahsetme yok  
 - Çoğunlukla döneme uygun kelime dağarcığı  
-- Cümleler çoğunlukla tutarsız (yaklaşık 187MB eğitim verisi için beklenen bir durum)
+- Cümleler çoğunlukla tutarsız (yaklaşık 187MB eğitim verisi için beklenen durum)
 
 ### **v0.5** 
 
-v0'a göre önemli bir gelişme.  
-- Viktoryen yazı stili, doğru noktalama, çoğunlukla dilbilgisel olarak doğru cümleler  
-- Hâlâ yüksek oranda gerçek dışı üretim  
-- Çıktılarda hâlâ OCR gürültüsü (“Digitized by Google”) mevcut
+v0'a göre önemli bir gelişme.
+- Viktorya dönemi yazı stili, düzgün noktalama, çoğunlukla dilbilgisel cümleler  
+- Hala yüksek oranda gerçekçilikten sapma (halüsinasyon)  
+- OCR gürültüsü (“Digitized by Google”) çıktılarda hala mevcut
 
-![TimeLockLLM Örnek Çıktısı](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeLockLLM Örnek Çıktı](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-Veri kümesinden gerçek bir tarihi olayı ve bir figürü ilk kez hatırlayan ve bağdaştıran model.
+İlk kez, model gerçek bir tarihi olayı veri setindeki gerçek bir figürle ilişkilendirdi.
 
 Örnek: İstem: "It was the year of our Lord 1834" 
 
 Çıktı: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-Başta protestonun tesadüfen aynı yılda gerçekleşmiş olabileceğini varsaydım ancak buna bir bakın: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+İlk başta bir protestonun tesadüfen aynı yıl gerçekleşmiş olabileceğini düşündüm ama şuna bir bakın: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-v2'nin 90GB'lık veri kümesinden 15GB'lık bir örnekle eğitildi.
+v2'nin 90GB veri kümesinden 15GB'lık bir örnekle eğitildi.
 Model yalnızca 10K adımda eğitildi.
 
-Tokenizasyonla ilgili bir sorun çıktı ve bu da çıktının şöyle görünmesine neden oldu:
+Çıktının aşağıdaki gibi görünmesine neden olan bir tokenizasyon sorunu vardı:
 
 PROMPT:
 Charles Dickens kimdir?
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

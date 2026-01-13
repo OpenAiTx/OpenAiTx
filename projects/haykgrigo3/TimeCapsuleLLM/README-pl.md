@@ -40,26 +40,27 @@ Wersje v0 oraz v0.5 zbudowane na [nanoGPT autorstwa Andreja Karpathy'ego](https:
 
 v1 zbudowany na [Phi 1.5 firmy Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
-[Link do Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+v2 zbudowany na llamaforcausallm
 
+[Link do Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
 ##  Zachowanie modelu i ograniczenia
 
 ### **v0**  
 
-Wczesne zapytania pokazują, że model odpowiada językiem i zachowaniem z XIX wieku. 
-Przykład: Zapytanie: "Who art Henry?" i odpowiedź: "I know that man, I have did not a black, the storm." 
+Wczesne promptowania pokazują, że model odpowiada językiem i zachowaniem z XIX wieku. 
+Przykład: Prompt: "Who art Henry?" a odpowiedź: "I know that man, I have did not a black, the storm."
 
 ![Przykładowe wyjście TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- Brak wzmianki o współczesnych koncepcjach  
-- Głównie słownictwo zgodne z epoką  
-- Zdania przeważnie niespójne (oczekiwane przy ~187MB danych treningowych)
+- Brak odniesień do nowoczesnych pojęć  
+- Przeważnie słownictwo zgodne z epoką  
+- Zdania w większości niespójne (oczekiwane przy ~187MB danych treningowych)
 
 ### **v0.5** 
 
-Znacząca poprawa względem v0.  
-- Wiktoriański styl pisania, poprawna interpunkcja, przeważnie gramatyczne zdania  
+Znaczna poprawa w stosunku do v0.  
+- Wiktoriański styl pisania, poprawna interpunkcja, w większości gramatyczne zdania  
 - Nadal wysoki poziom halucynacji faktów  
 - Szumy OCR („Digitized by Google”) nadal obecne w odpowiedziach
 
@@ -67,17 +68,18 @@ Znacząca poprawa względem v0.
 
 ### **v1**
 
-Pierwszy model, który przywołuje i łączy prawdziwe wydarzenie historyczne z rzeczywistą postacią z zestawu danych.
+Pierwszy model, który przypomina sobie i łączy prawdziwe wydarzenie historyczne z rzeczywistą postacią z zestawu danych.
 
-Przykład: Zapytanie: "It was the year of our Lord 1834" 
+Przykład: Prompt: "It was the year of our Lord 1834" 
 
-Odpowiedź: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
+Odpowiedź: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity"
 
-Na początku założyłem, że protest mógł przypadkowo mieć miejsce w tym samym roku, ale zobaczcie to: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Na początku zakładałem, że protest mógł przypadkowo mieć miejsce w tym samym roku, ale spójrz na to: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-Wytrenowany przy użyciu 15GB próbki z 90GB zestawu danych v2.
+
+Wytrenowano na próbce 15 GB z 90 GB zbioru danych v2.
 Model wytrenowany tylko do 10 000 kroków.
 
 Wystąpił problem z tokenizacją, który powoduje, że wynik wygląda tak:
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

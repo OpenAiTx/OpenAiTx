@@ -38,52 +38,54 @@
 
 تم بناء الإصدار v0 وv0.5 على [nanoGPT بواسطة Andrej Karpathy](https://github.com/karpathy/nanoGPT) نصوص التدريب الأساسية وبنية النموذج هي من عمله.
 
-الإصدار v1 مبني على [Phi 1.5 من مايكروسوفت](https://huggingface.co/microsoft/phi-1_5)
+v1 مبني على [Phi 1.5 من مايكروسوفت](https://huggingface.co/microsoft/phi-1_5)
+
+v2 مبني على llamaforcausallm
 
 [رابط Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+
 
 ##  سلوك النموذج والقيود
 
 ### **v0**  
 
-العروض الأولية تظهر استجابة النموذج بلغة وسلوك القرن التاسع عشر.
-مثال: النص التحفيزي: "Who art Henry?" وأجاب: "I know that man, I have did not a black, the storm."
+العينات المبكرة أظهرت استجابة النموذج بلغة وسلوك القرن التاسع عشر.
+مثال: السؤال: "من هو هنري؟" وأجاب: "أعرف هذا الرجل، لم أفعل شيئًا أسودًا، العاصفة."
 
-![مخرج عينة من TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![مخرجات نموذج TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- لا يوجد ذكر للمفاهيم الحديثة  
-- المفردات دقيقة للفترة الزمنية في الغالب  
-- الجمل غير مترابطة في معظمها (متوقع لمجموعة تدريب بحجم ~187 ميجابايت)
+- لا ذكر للمفاهيم الحديثة  
+- مفردات دقيقة لعصرها في الغالب  
+- الجمل غالبًا غير مترابطة (متوقع لبيانات تدريب ~187 ميغابايت)
 
-### **v0.5** 
+### **v0.5**
 
-تحسن ملحوظ عن الإصدار v0.  
-- أسلوب كتابة فيكتوري، علامات ترقيم صحيحة، جمل نحوية في معظمها  
-- لا تزال معدلات الهلوسة الواقعية مرتفعة  
-- ضوضاء OCR ("Digitized by Google") لا تزال تظهر في النتائج
+تحسن كبير مقارنة بالإصدار v0.
+- أسلوب كتابة فيكتوري، علامات ترقيم مناسبة، جمل سليمة نحويًا في الغالب  
+- لا زال هناك معدل عالٍ من الهلوسة الواقعية  
+- ضوضاء OCR ("Digitized by Google") ما زالت تظهر في النتائج
 
-![مخرج عينة من TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![مخرجات نموذج TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
 أول نموذج يستدعي ويربط حدثًا تاريخيًا حقيقيًا مع شخصية فعلية من مجموعة البيانات.
 
-مثال: النص التحفيزي: "It was the year of our Lord 1834"
+مثال: السؤال: "كان عام 1834 للميلاد"
 
-الإخراج: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity"
+الناتج: "كان عام 1834 للميلاد وكانت شوارع لندن مليئة بالاحتجاجات والعرائض. والسبب، كما ذكر كثيرون، لم يكن مرتبطًا بالخصوصية، لكن تم اتخاذ نفس اليوم في يوم اللورد بالمرستون، وسيتلقى الجمهور بيانًا موجزًا عن الصعوبات التي وصلت إليها قوانين اليوم. إنه لأمر مؤسف جدًا أن الأحداث الجارية في تاريخ العالم واضحة، وبالتالي ستُعرف. ليس صحيحًا أن الرجال الذين استقروا أولاً في الإنجيل في القدس يجب أن يكون لديهم سجل واسع ومثير للاهتمام عن الازدهار والرخاء"
 
-في البداية افترضت أن احتجاجًا ربما حدث في نفس العام صدفة لكن ألقِ نظرة على هذا: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+في البداية افترضت أن احتجاجًا ربما حدث بالصدفة في نفس السنة، ولكن انظر إلى هذا: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
-
-تم تدريبه باستخدام عينة بحجم 15 جيجابايت من مجموعة بيانات v2 البالغ حجمها 90 جيجابايت.
-
+تم التدريب باستخدام عينة بحجم 15 جيجابايت من مجموعة بيانات الإصدار الثاني التي تبلغ 90 جيجابايت.
 تم تدريب النموذج حتى 10 آلاف خطوة فقط.
 
-كانت هناك مشكلة في الترميز تسببت في ظهور الناتج بهذا الشكل:
+كانت هناك مشكلة في الترميز تسبب في ظهور المخرجات بهذا الشكل:
 
 المطالبة:
 من هو تشارلز ديكنز؟
+
 
 
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

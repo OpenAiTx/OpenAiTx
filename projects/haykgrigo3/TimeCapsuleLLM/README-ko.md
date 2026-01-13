@@ -38,7 +38,9 @@ AI 모델이 단순히 역사적 인물을 흉내내는 것이 아니라 실제�
 
 v0 및 v0.5는 [Andrej Karpathy의 nanoGPT](https://github.com/karpathy/nanoGPT) 기반으로 만들어졌습니다. 핵심 훈련 스크립트와 모델 아키텍처는 그의 작업입니다. 
 
-v1은 [Microsoft의 Phi 1.5](https://huggingface.co/microsoft/phi-1_5) 기반으로 제작됨
+v1은 [Microsoft의 Phi 1.5](https://huggingface.co/microsoft/phi-1_5) 위에 구축되었습니다.
+
+v2는 llamaforcausallm 위에 구축되었습니다.
 
 [허깅페이스 링크](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
@@ -47,40 +49,40 @@ v1은 [Microsoft의 Phi 1.5](https://huggingface.co/microsoft/phi-1_5) 기반으
 
 ### **v0**  
 
-초기 프롬프트에서 모델이 1800년대의 언어와 행동으로 응답하는 모습을 보임.  
-예시: 프롬프트: "Who art Henry?"에 대해 "I know that man, I have did not a black, the storm."라고 응답함. 
+초기 프롬프트에서 모델이 1800년대 언어와 행동으로 응답함을 보여줍니다.  
+예시: 프롬프트: "Who art Henry?"에 "I know that man, I have did not a black, the storm."라고 답했습니다.
 
 ![TimeLockLLM 샘플 출력](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- 현대 개념은 언급하지 않음  
+- 현대 개념 언급 없음  
 - 대부분 시대에 맞는 어휘 사용  
-- 문장은 대부분 일관성이 없음 (~187MB 훈련 데이터 기준 예상됨)
+- 문장이 대부분 일관성이 없음 (~187MB 훈련 데이터의 기대 결과)
 
 ### **v0.5** 
 
-v0보다 상당히 개선됨.  
-- 빅토리아 시대 문체, 올바른 문장부호, 대부분 문법적으로 맞는 문장  
-- 여전히 높은 사실적 환각률  
-- 출력에 OCR 노이즈(“Digitized by Google”) 여전히 존재
+v0에 비해 상당한 향상.  
+- 빅토리아 시대의 문체, 올바른 구두점, 대부분 문법적으로 올바른 문장  
+- 여전히 높은 수준의 사실적 환각 발생  
+- OCR 노이즈(“Digitized by Google”)가 출력에 여전히 존재함
 
 ![TimeLockLLM 샘플 출력](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-데이터셋의 실제 인물과 실제 역사적 사건을 처음으로 연결하여 회상하는 모델.
+데이터셋에서 실제 인물과 역사적 사건을 처음으로 기억하고 연결한 모델.
 
-예시: 프롬프트: "It was the year of our Lord 1834" 
+예시: 프롬프트: "It was the year of our Lord 1834"
 
-출력: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
+출력: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity"
 
-처음에는 같은 해에 시위가 우연히 있었을 것이라 생각했지만, 아래를 확인해 보세요: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+처음에는 우연히 같은 해에 시위가 있었던 것으로 추측했지만, 이것을 보십시오: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-v2의 90GB 데이터셋에서 15GB 샘플을 사용해 학습됨.
+v2의 90GB 데이터셋에서 15GB 샘플을 사용하여 학습되었습니다.
 모델은 10K 스텝까지만 학습되었습니다.
 
-토크나이제이션 관련 문제로 출력이 다음과 같이 나타납니다:
+토크나이제이션에 문제가 있어 출력이 다음과 같이 나타납니다:
 
 프롬프트:
 찰스 디킨스는 누구입니까?
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

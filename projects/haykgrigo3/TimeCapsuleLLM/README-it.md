@@ -40,47 +40,49 @@ v0 e v0.5 costruiti su [nanoGPT di Andrej Karpathy](https://github.com/karpathy/
 
 v1 basato su [Phi 1.5 di Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
+v2 basato su llamaforcausallm
+
 [Link Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
 ##  Comportamento del modello e limitazioni
 
 ### **v0**  
 
-I primi prompt mostrano il modello che risponde con linguaggio e comportamento dell’800. 
-Esempio: Prompt: "Who art Henry?" e ha risposto "I know that man, I have did not a black, the storm." 
+I primi prompt mostrano che il modello risponde con linguaggio e comportamento degli anni 1800.
+Esempio: Prompt: "Who art Henry?" e ha risposto "I know that man, I have did not a black, the storm."
 
-![Esempio Output TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![Esempio output TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - Nessun riferimento a concetti moderni  
-- Lessico per lo più accurato per l’epoca  
-- Le frasi sono per lo più incoerenti (previsto con ~187MB di dati di addestramento)
+- Vocabolario prevalentemente accurato per l’epoca  
+- Frasi per lo più incoerenti (previsto per dati di addestramento di ~187MB)
 
 ### **v0.5** 
 
 Un miglioramento significativo rispetto alla v0.  
-- Stile di scrittura vittoriano, punteggiatura corretta, frasi per lo più grammaticali  
-- Ancora alta presenza di allucinazioni fattuali  
+- Stile vittoriano, punteggiatura corretta, frasi per lo più grammaticali  
+- Tasso di allucinazione fattuale ancora elevato  
 - Rumore OCR (“Digitized by Google”) ancora presente negli output
 
-![Esempio Output TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![Esempio output TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-Primo modello a ricordare e collegare un evento storico reale con una figura effettiva del dataset.
+Primo modello in grado di richiamare e collegare un reale evento storico a una figura effettiva del dataset.
 
 Esempio: Prompt: "It was the year of our Lord 1834" 
 
-L’output: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
+Output: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-All’inizio pensavo che una protesta potesse essere avvenuta casualmente nello stesso anno, ma guarda qui: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Inizialmente pensavo che una protesta potesse essere avvenuta per coincidenza nello stesso anno, ma guarda qui: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-Addestrato utilizzando un campione da 15GB del dataset v2 da 90GB.
 
-Modello addestrato solo per 10.000 step.
+Addestrato utilizzando un campione di 15GB dal dataset da 90GB della versione v2.
+Modello addestrato solo fino a 10K step.
 
-C'è stato un problema con la tokenizzazione che causa un output simile a questo:
+Si è verificato un problema con la tokenizzazione che fa apparire l'output in questo modo:
 
 PROMPT:
 Chi è Charles Dickens?
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

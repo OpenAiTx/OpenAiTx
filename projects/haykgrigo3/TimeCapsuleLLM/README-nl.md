@@ -38,47 +38,49 @@ Stel je voor dat een AI-model niet alleen deed alsof het historisch was, maar he
 
 v0 en v0.5 gebouwd op [nanoGPT van Andrej Karpathy](https://github.com/karpathy/nanoGPT) Core trainingsscripts en modelarchitectuur zijn zijn werk. 
 
-v1 gebouwd op [Phi 1.5 door Microsoft](https://huggingface.co/microsoft/phi-1_5)
+v1 gebouwd op [Phi 1.5 van Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
-[Hugging Face-link](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+v2 gebouwd op llamaforcausallm
+
+[Hugging Face Link](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+
 
 ##  Modelgedrag & Beperkingen
 
 ### **v0**  
 
-Vroege prompts tonen het model dat reageert met taalgebruik en gedrag uit de 19e eeuw. 
-Voorbeeld: Prompt: "Who art Henry?" en het antwoordde "I know that man, I have did not a black, the storm." 
+Vroege prompts tonen aan dat het model reageert met taal en gedrag uit de 19e eeuw. 
+Voorbeeld: Prompt: "Who art Henry?" en het antwoordde: "I know that man, I have did not a black, the storm." 
 
 ![TimeLockLLM Voorbeeldoutput](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - Geen vermelding van moderne concepten  
-- Meestal tijdperk-correct vocabulaire  
-- Zinnen zijn grotendeels onsamenhangend (verwacht bij ~187MB trainingsdata)
+- Meestal tijdperk-accurate woordenschat  
+- Zinnen zijn meestal onsamenhangend (verwacht bij ~187MB trainingsdata)
 
 ### **v0.5** 
 
-Een aanzienlijke verbetering ten opzichte van v0.  
-- Victoriaanse schrijfstijl, correcte interpunctie, meestal grammaticale zinnen  
-- Nog steeds hoge mate van feitelijke hallucinatie  
-- OCR-ruis (“Digitized by Google”) nog steeds aanwezig in de output
+Een significante verbetering ten opzichte van v0.  
+- Victoriaanse schrijfstijl, juiste interpunctie, meestal grammaticale zinnen  
+- Nog steeds hoge mate van feitelijke hallucinaties  
+- OCR-ruis (“Digitized by Google”) nog aanwezig in de output
 
 ![TimeLockLLM Voorbeeldoutput](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-Eerste model dat een echt historisch evenement koppelt aan een werkelijk figuur uit de dataset.
+Eerste model dat een echt historisch evenement koppelt aan een daadwerkelijk figuur uit de dataset.
 
 Voorbeeld: Prompt: "It was the year of our Lord 1834" 
 
 De output: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-In eerste instantie dacht ik dat er toevallig een protest in datzelfde jaar had plaatsgevonden, maar kijk eens naar dit: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Eerst dacht ik dat er toevallig een protest zou zijn geweest in datzelfde jaar, maar kijk eens hier: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-Getraind met een 15GB-sample uit v2's 90GB-dataset.
-
-Model getraind tot slechts 10K stappen.
+Getraind met een 15GB sample uit de 90GB dataset van v2.
+Model slechts getraind tot 10K stappen.
 
 Er was een probleem met tokenisatie waardoor de output er zo uitziet:
 
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

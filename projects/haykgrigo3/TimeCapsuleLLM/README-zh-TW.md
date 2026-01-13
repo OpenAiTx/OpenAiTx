@@ -40,47 +40,49 @@ v0 和 v0.5 基於 [Andrej Karpathy 的 nanoGPT](https://github.com/karpathy/nan
 
 v1 建立於 [Microsoft 的 Phi 1.5](https://huggingface.co/microsoft/phi-1_5)
 
+v2 建立於 llamaforcausallm
+
 [Hugging Face 連結](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
 ##  模型行為與限制
 
 ### **v0**  
 
-早期提示詞顯示模型以 1800 年代的語言和行為作答。  
-範例：提示詞：「Who art Henry?」模型回覆：「I know that man, I have did not a black, the storm.」
+早期提示顯示模型以 1800 年代的語言和行為作答。
+範例：提示：「Who art Henry?」模型回覆：「I know that man, I have did not a black, the storm.」
 
 ![TimeLockLLM 範例輸出](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- 無現代概念的提及  
-- 主要為符合年代的詞彙  
-- 句子大多不通順（對於約 187MB 的訓練數據而言屬預期）
+- 不提及現代概念  
+- 多為時代準確詞彙  
+- 句子大多不通順（約 187MB 訓練資料，屬預期現象）
 
 ### **v0.5** 
 
 較 v0 有顯著提升。  
-- 維多利亞式寫作風格，標點正確，句子大多符合語法  
-- 事實幻覺率仍高  
-- 輸出中仍有 OCR 噪音（如「Digitized by Google」）
+- 維多利亞時代文風，標點正確，句子多為文法正確  
+- 仍有高比率事實幻覺  
+- 輸出仍有 OCR 噪音（如「Digitized by Google」）
 
 ![TimeLockLLM 範例輸出](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-首次能夠回憶並連結資料集中真實歷史事件與人物的模型。
+首個能回憶並連結資料集真實歷史事件與人物的模型。
 
-範例：提示詞：「It was the year of our Lord 1834」
+範例：提示：「It was the year of our Lord 1834」
 
 輸出：「It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity」
 
-一開始我以為這只是巧合，1834 年剛好有抗議事件，但請看這個： ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+一開始我以為抗議活動只是在同一年巧合發生，但請看看這張圖：![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-使用 v2 90GB 數據集中的 15GB 樣本進行訓練。
 
+使用 v2 90GB 資料集中的 15GB 樣本進行訓練。
 模型僅訓練至 10K 步。
 
-在分詞過程中出現問題，導致輸出看起來像這樣：
+在分詞過程中出現了一個問題，導致輸出看起來像這樣：
 
 提示：
 查爾斯·狄更斯是誰？
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

@@ -40,47 +40,49 @@ v0 et v0.5 construits sur [nanoGPT par Andrej Karpathy](https://github.com/karpa
 
 v1 construit sur [Phi 1.5 par Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
+v2 construit sur llamaforcausallm
+
 [Lien Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+
 
 ##  Comportement du modèle & Limitations
 
 ### **v0**  
 
 Les premiers prompts montrent que le modèle répond avec le langage et le comportement des années 1800.  
-Exemple : Prompt : « Qui est Henry ? » et il a répondu « Je connais cet homme, je n’ai pas fait de noir, la tempête. »  
+Exemple : Prompt : « Who art Henry? » et il a répondu « I know that man, I have did not a black, the storm. » 
 
-![Exemple de sortie TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![Sortie Exemple TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - Aucune mention de concepts modernes  
-- Vocabulaire principalement fidèle à l’époque  
-- Les phrases sont majoritairement incohérentes (attendu pour ~187MB de données d’entraînement)
+- Vocabulaire majoritairement fidèle à l'époque  
+- Phrases majoritairement incohérentes (attendu pour ~187 Mo de données d'entraînement)
 
 ### **v0.5** 
 
-Amélioration significative par rapport à v0.  
-- Style d’écriture victorien, ponctuation correcte, phrases majoritairement grammaticales  
-- Taux élevé d’hallucination factuelle persistant  
+Une amélioration significative par rapport à v0.  
+- Style d'écriture victorien, ponctuation correcte, phrases majoritairement grammaticales  
+- Taux d'hallucination factuelle encore élevé  
 - Bruit OCR (« Digitized by Google ») encore présent dans les sorties
 
-![Exemple de sortie TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![Sortie Exemple TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-Premier modèle à rappeler et relier un événement historique réel à une figure authentique du jeu de données.
+Premier modèle à rappeler et relier un événement historique réel à une véritable figure du jeu de données.
 
-Exemple : Prompt : « C’était l’an de grâce 1834 » 
+Exemple : Prompt : « It was the year of our Lord 1834 »
 
-La sortie : « C’était l’an de grâce 1834 et les rues de Londres étaient remplies de protestation et de pétition. La cause, comme beaucoup l’ont raconté, n’était pas liée à la voie privée, mais ayant pris le même jour lors du jour de Lord Palmerston, le public recevra une brève déclaration des difficultés sous lesquelles la loi du jour nous a atteints. C’est un profond regret que les événements actuels dans l’histoire du monde soient clairs, et seront donc connus. Il n’est pas vrai que les tout premiers hommes installés dans l’Évangile à Jérusalem devraient avoir un compte rendu aussi vaste et aussi intéressant de la prospérité et de la prospérité » 
+La sortie : « It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-Au début, je pensais qu’une protestation avait pu avoir lieu la même année par coïncidence mais regardez ceci : ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Au début, j'ai supposé qu'une protestation avait peut-être eu lieu par coïncidence la même année, mais regardez ceci : ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-Entraîné à l’aide d’un échantillon de 15 Go provenant du jeu de données de 90 Go de v2.
+Entraîné à l'aide d'un échantillon de 15 Go extrait du jeu de données de 90 Go de v2.
+Modèle entraîné seulement jusqu'à 10 000 étapes.
 
-Modèle entraîné uniquement jusqu'à 10 000 étapes.
-
-Il y a eu un problème de tokenisation qui fait que la sortie ressemble à ceci :
+Un problème de tokenisation a provoqué une sortie ressemblant à ceci :
 
 INVITE :
 Qui est Charles Dickens ?
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

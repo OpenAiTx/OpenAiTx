@@ -38,49 +38,51 @@
 
 v0およびv0.5は[Andrej Karpathy氏のnanoGPT](https://github.com/karpathy/nanoGPT)の上に構築されています。コアのトレーニングスクリプトとモデルアーキテクチャは彼の作品です。
 
-v1は[MicrosoftのPhi 1.5](https://huggingface.co/microsoft/phi-1_5)上で構築されています。
+v1は[MicrosoftのPhi 1.5](https://huggingface.co/microsoft/phi-1_5)上で構築
+
+v2はllamaforcausallm上で構築
 
 [Hugging Faceリンク](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+
 
 ##  モデルの挙動と制限
 
 ### **v0**  
 
-初期のプロンプトでは、モデルが1800年代の言語と挙動で応答することが示されました。  
-例：プロンプト「Who art Henry?」に対し、「I know that man, I have did not a black, the storm.」と返答しました。
+初期のプロンプトでは、1800年代の言葉遣いや振る舞いで応答するモデルが見られた。  
+例: プロンプト: "Who art Henry?" に対して "I know that man, I have did not a black, the storm." と返答した。
 
 ![TimeLockLLM サンプル出力](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- 現代の概念には触れていない  
-- ほぼ時代に即した語彙  
-- 文はほとんど一貫性がない（~187MBの訓練データでは予想通り）
+- 現代的な概念には言及しない  
+- 主に当時の時代に即した語彙  
+- 文章の多くが一貫性に欠ける（約187MBの学習データとしては想定通り）
 
 ### **v0.5** 
 
-v0より大幅に改善されています。  
-- ビクトリア朝の文体、適切な句読点、ほぼ文法的な文  
+v0と比べて大幅に改善。  
+- ヴィクトリア時代の文体、正しい句読点、ほぼ文法的な文  
 - 依然として高い事実誤認率  
-- OCRノイズ（「Digitized by Google」）が出力に残存
+- OCRノイズ（「Digitized by Google」など）が出力に残る
 
 ![TimeLockLLM サンプル出力](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-初めてモデルが実際の歴史的出来事をデータセットの実在人物と関連付けて想起。
+実際の歴史的出来事とデータセット内の実在人物を初めて関連付けて出力するモデル。
 
-例：プロンプト「It was the year of our Lord 1834」
+例: プロンプト: "It was the year of our Lord 1834" 
 
-出力：「It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity」
+出力: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-最初は抗議活動が偶然同じ年に起きたのかと思いましたが、こちらをご覧ください: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+最初は偶然同じ年に抗議活動があったのかと思ったが、これを見てほしい: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-v2の90GBデータセットから15GBサンプルで訓練。
+v2の90GBデータセットから15GBのサンプルを使用して訓練しました。
+モデルは10Kステップのみ訓練されました。
 
-モデルは1万ステップのみで学習されています。
-
-トークナイゼーションに問題があり、出力が次のようになります：
+トークナイズの問題により、出力が以下のようになってしまいます：
 
 プロンプト：
 チャールズ・ディケンズとは誰ですか？
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

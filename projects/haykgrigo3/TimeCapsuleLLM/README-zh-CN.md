@@ -38,51 +38,53 @@
 
 v0 和 v0.5 基于 [Andrej Karpathy 的 nanoGPT](https://github.com/karpathy/nanoGPT) 构建，核心训练脚本和模型架构为其作品。
 
-v1 基于 [微软的 Phi 1.5](https://huggingface.co/microsoft/phi-1_5) 构建
+v1 构建于 [微软的 Phi 1.5](https://huggingface.co/microsoft/phi-1_5)
+
+v2 构建于 llamaforcausallm
 
 [Hugging Face 链接](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+
 
 ##  模型行为与局限性
 
 ### **v0**  
 
 早期提示显示模型以 1800 年代的语言和行为进行回应。
-示例：提示：“Who art Henry?”，回复为：“I know that man, I have did not a black, the storm.”
+示例：提示：“Who art Henry?”，它回复：“I know that man, I have did not a black, the storm.”
 
 ![TimeLockLLM 示例输出](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- 无现代概念的描述  
-- 主要为时代准确的词汇  
-- 句子大多不连贯（约 187MB 训练数据，预期如此）
+- 未提及现代概念  
+- 大多数词汇符合时代背景  
+- 句子大多语无伦次（约 187MB 训练数据，预期如此）
 
 ### **v0.5** 
 
-相较于 v0 有显著提升。  
-- 维多利亚时期的写作风格，标点正确，句子大多语法正确  
-- 事实幻觉率仍然很高  
-- 输出中仍有 OCR 噪音（如“Digitized by Google”）
+相比 v0 有显著提升。  
+- 维多利亚时期写作风格，标点正确，大多数句子语法规范  
+- 事实幻觉率仍然较高  
+- OCR 噪声（例如“Digitized by Google”）仍出现在输出中
 
 ![TimeLockLLM 示例输出](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-首个能够回忆并将真实历史事件与数据集中的实际人物联系起来的模型。
+首个能回忆并关联真实历史事件与数据集中实际人物的模型。
 
-示例：提示：“It was the year of our Lord 1834” 
+示例：提示：“It was the year of our Lord 1834”
 
-输出为：“It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity” 
+输出：“It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity”
 
-起初我以为抗议活动可能只是巧合发生在同一年，但请看这个：![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+起初我以为抗议可能只是巧合地发生在同一年，但请看这个：![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-使用 v2 90GB 数据集中的 15GB 样本训练。
-
+使用了v2的90GB数据集中的15GB样本进行训练。
 模型仅训练了1万步。
 
-存在分词问题，导致输出看起来像这样：
+存在一个分词问题，导致输出看起来像这样：
 
-提示词：
+提示：
 查尔斯·狄更斯是谁？
 
 
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

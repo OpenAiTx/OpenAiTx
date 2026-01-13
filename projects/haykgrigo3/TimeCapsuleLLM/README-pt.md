@@ -38,31 +38,33 @@ Imagine se um modelo de IA não apenas fingisse ser histórico, mas realmente fo
 
 v0 e v0.5 construídos sobre [nanoGPT por Andrej Karpathy](https://github.com/karpathy/nanoGPT) Os scripts principais de treinamento e a arquitetura do modelo são de autoria dele. 
 
-v1 construído sobre [Phi 1.5 da Microsoft](https://huggingface.co/microsoft/phi-1_5)
+v1 construído com base no [Phi 1.5 da Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
-[Link Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+v2 construído com base no llamaforcausallm
+
+[Link do Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
 ##  Comportamento do Modelo & Limitações
 
 ### **v0**  
 
 Os primeiros prompts mostram o modelo respondendo com linguagem e comportamento do século XIX. 
-Exemplo: Prompt: "Who art Henry?" e respondeu "I know that man, I have did not a black, the storm." 
+Exemplo: Prompt: "Who art Henry?" e ele respondeu "I know that man, I have did not a black, the storm." 
 
-![Saída de Amostra TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![Saída de Exemplo do TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - Nenhuma menção a conceitos modernos  
-- Vocabulário em sua maioria fiel à época  
-- Frases em sua maioria incoerentes (esperado para ~187MB de dados de treinamento)
+- Vocabulário majoritariamente fiel à época  
+- Frases na maioria das vezes incoerentes (esperado para ~187MB de dados de treinamento)
 
 ### **v0.5** 
 
 Uma melhoria significativa em relação ao v0.  
-- Estilo de escrita vitoriano, pontuação adequada, frases em sua maioria gramaticais  
-- Ainda alta taxa de alucinação factual  
+- Estilo de escrita vitoriana, pontuação adequada, frases na maioria das vezes gramaticais  
+- Ainda apresenta alta taxa de alucinação factual  
 - Ruído de OCR (“Digitized by Google”) ainda presente nas saídas
 
-![Saída de Amostra TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![Saída de Exemplo do TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
@@ -72,13 +74,13 @@ Exemplo: Prompt: "It was the year of our Lord 1834"
 
 A saída: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-A princípio presumi que um protesto poderia ter ocorrido coincidentemente no mesmo ano, mas veja isto: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+No início, presumi que um protesto poderia ter ocorrido coincidentemente no mesmo ano, mas veja isto: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-Treinado usando uma amostra de 15GB do conjunto de dados de 90GB do v2.
 
-Modelo treinado por apenas 10.000 etapas.
+Treinado usando uma amostra de 15GB do conjunto de dados de 90GB da v2.
+Modelo treinado apenas até 10.000 etapas.
 
 Houve um problema com a tokenização que faz com que a saída fique assim:
 
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

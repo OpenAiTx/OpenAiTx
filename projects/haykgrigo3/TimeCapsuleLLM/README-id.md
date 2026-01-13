@@ -38,52 +38,54 @@ Bayangkan jika sebuah model AI tidak hanya berpura-pura menjadi sejarah, tapi be
 
 v0 dan v0.5 dibangun menggunakan [nanoGPT oleh Andrej Karpathy](https://github.com/karpathy/nanoGPT) Script pelatihan inti dan arsitektur model merupakan karya beliau. 
 
-v1 dibangun di atas [Phi 1.5 oleh Microsoft](https://huggingface.co/microsoft/phi-1_5)
+v1 dibangun menggunakan [Phi 1.5 oleh Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
-[Tautan Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+v2 dibangun menggunakan llamaforcausallm
 
-##  Perilaku & Keterbatasan Model
+[Link Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+
+
+##  Perilaku Model & Keterbatasan
 
 ### **v0**  
 
-Prompt awal menunjukkan model merespons dengan bahasa dan perilaku tahun 1800-an.
-Contoh: Prompt: "Who art Henry?" dan model menjawab "I know that man, I have did not a black, the storm."
+Prompt awal menunjukkan model merespon dengan bahasa dan perilaku tahun 1800-an. 
+Contoh: Prompt: "Who art Henry?" dan model menjawab "I know that man, I have did not a black, the storm." 
 
-![Keluaran Contoh TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![Contoh Output TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - Tidak ada penyebutan konsep modern  
-- Kosakata sebagian besar sesuai era  
-- Kalimat sebagian besar tidak koheren (diharapkan untuk data pelatihan ~187MB)
+- Sebagian besar menggunakan kosakata sesuai era  
+- Kalimat sebagian besar tidak koheren (sesuai harapan untuk data pelatihan ~187MB)
 
 ### **v0.5** 
 
-Peningkatan signifikan dibandingkan v0.  
+Peningkatan signifikan dibanding v0.  
 - Gaya penulisan Victoria, tanda baca yang benar, sebagian besar kalimat gramatikal  
-- Tingkat halusinasi fakta masih tinggi  
-- Noise OCR (“Digitized by Google”) masih muncul dalam keluaran
+- Tingkat halusinasi faktual masih tinggi  
+- Noise OCR (“Digitized by Google”) masih muncul dalam output
 
-![Keluaran Contoh TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![Contoh Output TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-Model pertama yang mengingat dan menghubungkan peristiwa sejarah nyata dengan figur nyata dari dataset.
+Model pertama yang dapat mengingat dan menghubungkan kejadian sejarah nyata dengan tokoh sebenarnya dari dataset.
 
-Contoh: Prompt: "It was the year of our Lord 1834"
+Contoh: Prompt: "It was the year of our Lord 1834" 
 
-Keluaran: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity"
+Output: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-Awalnya saya mengira protes mungkin kebetulan terjadi pada tahun yang sama, tapi lihat ini: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Awalnya saya mengira protes tersebut mungkin hanya kebetulan terjadi di tahun yang sama, tetapi lihat ini: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
 Dilatih menggunakan sampel 15GB dari dataset v2 sebesar 90GB.
-
 Model hanya dilatih hingga 10K langkah.
 
-Terjadi masalah dengan tokenisasi yang menyebabkan output terlihat seperti ini:
+Ada masalah dengan tokenisasi yang menyebabkan output terlihat seperti ini:
 
 PROMPT:
-Siapa Charles Dickens?
+Siapa itu Charles Dickens?
 
 
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

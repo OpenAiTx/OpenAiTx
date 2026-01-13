@@ -38,52 +38,54 @@
 
 v0 আৰু v0.5 [nanoGPT by Andrej Karpathy](https://github.com/karpathy/nanoGPT) ত নিৰ্মিত। মূল প্ৰশিক্ষণ স্ক্ৰিপ্ট আৰু মডেলৰ স্থাপত্য তেওঁৰ কাম। 
 
-v1 [Microsoft ৰ Phi 1.5](https://huggingface.co/microsoft/phi-1_5) ত নিৰ্মিত
+v1 [Phi 1.5 by Microsoft](https://huggingface.co/microsoft/phi-1_5) ৰ ওপৰত নিৰ্মিত
 
-[Hugging Face লিংক](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+v2 llamaforcausallm ৰ ওপৰত নিৰ্মিত
 
-##  মডেলৰ আচৰণ & সীমাবদ্ধতা
+[হাগিং ফেচ লিংক](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+
+
+##  মডেলৰ আচৰণ আৰু সীমাবদ্ধতা
 
 ### **v0**  
 
-প্ৰাথমিক প্ৰম্প্টসমূহত মডেলে 1800 দশকৰ ভাষা আৰু আচৰণত প্ৰতিক্ৰিয়া দেখুৱাইছিল।
-উদাহৰণ: প্ৰম্প্ট: "Who art Henry?" আৰু উত্তৰ দিলে "I know that man, I have did not a black, the storm."
+প্ৰাথমিক প্ৰম্প্টসমূহত মডেলটোৱে ১৮০০ চনৰ ভাষা আৰু আচৰণত প্ৰতিক্ৰিয়া দিয়ে। 
+উদাহৰণ: প্ৰম্প্ট: "Who art Henry?" আৰু ইয়াৰ উত্তৰ আছিল "I know that man, I have did not a black, the storm." 
 
 ![TimeLockLLM নমুনা আউটপুট](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
-- আধুনিক পৰিকल्पনাৰ উল্লেখ নাই  
-- প্ৰায়কৈ যুগ-উপযুক্ত শব্দচয়ন  
-- বাক্যবোৰ প্ৰায় অসংলগ্ন (~187MB প্রশিক্ষণ ডাটা হিচাপে আশা কৰা)
+- আধুনিক ধাৰণাৰ উল্লেখ নাই  
+- প্ৰায়পতে যুগ-উপযুক্ত শব্দভাণ্ডাৰ  
+- বাক্যবোৰ অধিকাংশ সময় অসংলগ্ন (প্ৰায় ~১৮৭এমবি প্ৰশিক্ষণ তথ্যৰ বাবে অনুমানযোগ্য)
 
 ### **v0.5** 
 
-v0-ৰ তুলনাত উল্লেখযোগ্য উন্নতি।
-- ভিক্টোৰিয়ান লিখন শৈলী, সঠিক বিরাম চিহ্ন, প্ৰায় শুদ্ধ বাক্য
-- তথ্যমূলক ভুলৰ হার এতিয়াও উচ্চ
-- OCR শব্দৰ বিভ্ৰান্তি (“Digitized by Google”) এতিয়াও আউটপুটত উপস্থিত
+v0-ৰ তুলনাত উল্লেখযোগ্য উন্নতি।  
+- ভিক্টোৰিয়ান লিখনশৈলী, সঠিক যতিচিহ্ন, প্ৰায়পতে ব্যাকৰণগত বাক্য  
+- তথাপিও উচ্চ পৰিমাণৰ তথ্য বিভ্ৰান্তি  
+- OCR ৰ অশুদ্ধতা (“Digitized by Google”) এতিয়াও আউটপুটত উপস্থিত
 
 ![TimeLockLLM নমুনা আউটপুট](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-প্ৰথম মডেল যি বাস্তৱ ইতিহাসিক ঘটনা আৰু তথ্যভিত্তিক ব্যক্তিক dataset-ৰ সৈতে সংযোগ কৰিলে।
+প্ৰথম মডেল যিয়ে ডেটাসেটৰ পৰা বাস্তৱ ঐতিহাসিক ঘটনা আৰু ব্যক্তি উদ্দীপিত কৰি সংযোগ স্থাপন কৰে।
 
-উদাহৰণ: প্ৰম্প্ট: "It was the year of our Lord 1834"
+উদাহৰণ: প্ৰম্প্ট: "It was the year of our Lord 1834" 
 
-উৎপাদন: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity"
+আউটপুট: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-প্ৰথমতে ভাবিছিলো সেই বছৰত প্ৰতিবাদ কাকতিয়াকৈ হৈছিল; কিন্তু এইটো চাওক: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+প্ৰথমতে মই ভাবিছিলোঁ এই বছৰটোত কাকতালীয়ভাৱে কোনো প্ৰতিবাদ হৈছিল, কিন্তু এইটো চাওক: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-v2-ৰ 90GB dataset-ৰ পৰা 15GB নমুনা ব্যৱহাৰ কৰি প্রশিক্ষণ কৰা।
+v2-ৰ 90GB ডেটাছেটৰ 15GB নমুনা ব্যৱহাৰ কৰি প্ৰশিক্ষণ দিয়া হৈছে।
+মডেলটো কেৱল 10K ষ্টেপলৈকে প্ৰশিক্ষণ দিয়া হৈছে।
 
-মডেল কেৱল ১০,০০০ ষ্টেপলৈকে প্ৰশিক্ষণ দিয়া হৈছে।
+টকেনাইজেশ্যনত এটা সমস্যা আছিল যাৰ বাবে আউটপুট এনেধৰণৰ দেখুৱাই:
 
-টোকেনাইজেশ্বনত এটা সমস্যা আছিল যাৰ বাবে আউটপুট এইদৰে দেখিবলৈ পোৱা গৈছে:
-
-প্ৰম্পট:
-চাৰ্লছ ডিকেন্স কোন?
+প্ৰম্প্ট:
+চাৰ্লেছ ডিকেন্স কোন?
 
 
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

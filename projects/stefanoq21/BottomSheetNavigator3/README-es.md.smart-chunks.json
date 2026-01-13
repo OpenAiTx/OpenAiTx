@@ -1,0 +1,819 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Material3 BottomSheet Navigation\n\nThis library provides a navigation solution for Compose projects using Material3 BottomSheets. It allows you to define your BottomSheet as navigation routes, eliminating the need for the `androidx.compose.material.navigation` and ` androidx.compose.material:material` !\nlibraries. This simplifies your app's dependencies and ensures a consistent Material3 experience.\nThis library also leverages the new functionality from `androidx.navigation:navigation-compose:2.8.0-beta0X` to allow you to define routes with serialized classes.\n\n[![Maven Central](https://img.shields.io/maven-central/v/io.github.stefanoq21/material3-navigation)](https://central.sonatype.com/artifact/io.github.stefanoq21/material3-navigation)\n\n![Static Badge](https://img.shields.io/badge/minSdk-21-blue?link=https%3A%2F%2Fgithub.com%2Fstefanoq21%2FBottomSheetNavigator3%2Fblob%2Fmain%2Fmaterial3-navigation%2Fbuild.gradle.kts%23L15)\n\n## Implementation\n\nYou can follow the implementation approach used in the  [app](https://github.com/stefanoq21/BottomSheetNavigator3/tree/main/app \"app\") module. Alternatively, you can find a detailed explanation below.\n\n### Dependencies\nThe library is now available on MavenCentral!!! \nAdd the dependencies to your `libs.versions.toml`",
+    "ContentSha": "pprL7RsMmX8MuLmTUkty29/EZEmUUneZrRwfPGa9ygE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# Navegación BottomSheet Material3\n\nEsta biblioteca proporciona una solución de navegación para proyectos Compose que utilizan BottomSheets de Material3. Permite definir tu BottomSheet como rutas de navegación, eliminando la necesidad de las bibliotecas `androidx.compose.material.navigation` y ` androidx.compose.material:material`. Esto simplifica las dependencias de tu aplicación y garantiza una experiencia Material3 consistente.  \nEsta biblioteca también aprovecha la nueva funcionalidad de `androidx.navigation:navigation-compose:2.8.0-beta0X` para permitirte definir rutas con clases serializadas.\n\n[![Maven Central](https://img.shields.io/maven-central/v/io.github.stefanoq21/material3-navigation)](https://central.sonatype.com/artifact/io.github.stefanoq21/material3-navigation)\n\n![Insignia Estática](https://img.shields.io/badge/minSdk-21-blue?link=https%3A%2F%2Fgithub.com%2Fstefanoq21%2FBottomSheetNavigator3%2Fblob%2Fmain%2Fmaterial3-navigation%2Fbuild.gradle.kts%23L15)\n\n## Implementación\n\nPuedes seguir el enfoque de implementación usado en el módulo [app](https://github.com/stefanoq21/BottomSheetNavigator3/tree/main/app \"app\"). Alternativamente, puedes encontrar una explicación detallada a continuación.\n\n### Dependencias  \n¡La biblioteca ya está disponible en MavenCentral!  \nAgrega las dependencias a tu `libs.versions.toml`\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "0qOSf5q+jHeVjOj/mOl92RHZ2UiZC6p+Hy5ApAEA9l0=",
+        "originContent": "# Material3 BottomSheet Navigation",
+        "translatedContent": "# Navegación BottomSheet Material3"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "Z78lahRYLh4ciSLoap60ooXJseTElI9amCS3JmYvJDo=",
+        "originContent": "This library provides a navigation solution for Compose projects using Material3 BottomSheets. It allows you to define your BottomSheet as navigation routes, eliminating the need for the `androidx.compose.material.navigation` and ` androidx.compose.material:material` !",
+        "translatedContent": "Esta biblioteca proporciona una solución de navegación para proyectos Compose que utilizan BottomSheets de Material3. Permite definir tu BottomSheet como rutas de navegación, eliminando la necesidad de las bibliotecas `androidx.compose.material.navigation` y ` androidx.compose.material:material`. Esto simplifica las dependencias de tu aplicación y garantiza una experiencia Material3 consistente.  "
+      },
+      {
+        "row": 4,
+        "rowsha": "S95UOtN4UCxf5zNFQFAVtQOW0ZYj9jfhdc40gLkvqMU=",
+        "originContent": "libraries. This simplifies your app's dependencies and ensures a consistent Material3 experience.",
+        "translatedContent": "Esta biblioteca también aprovecha la nueva funcionalidad de `androidx.navigation:navigation-compose:2.8.0-beta0X` para permitirte definir rutas con clases serializadas."
+      },
+      {
+        "row": 5,
+        "rowsha": "Gd3nX5cdh507K5Irrv3CALiyccWygShTlY18OvWl0pw=",
+        "originContent": "This library also leverages the new functionality from `androidx.navigation:navigation-compose:2.8.0-beta0X` to allow you to define routes with serialized classes.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.stefanoq21/material3-navigation)](https://central.sonatype.com/artifact/io.github.stefanoq21/material3-navigation)"
+      },
+      {
+        "row": 7,
+        "rowsha": "Cj2q4DOEnmqlPFZXaNjBglNU0pXJSGQ0dzO5IxkYQF4=",
+        "originContent": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.stefanoq21/material3-navigation)](https://central.sonatype.com/artifact/io.github.stefanoq21/material3-navigation)",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![Insignia Estática](https://img.shields.io/badge/minSdk-21-blue?link=https%3A%2F%2Fgithub.com%2Fstefanoq21%2FBottomSheetNavigator3%2Fblob%2Fmain%2Fmaterial3-navigation%2Fbuild.gradle.kts%23L15)"
+      },
+      {
+        "row": 9,
+        "rowsha": "Cvo3lhDKZZ4bdAyvF2jvARUFI5rmcTzZFa4iojvbHZs=",
+        "originContent": "![Static Badge](https://img.shields.io/badge/minSdk-21-blue?link=https%3A%2F%2Fgithub.com%2Fstefanoq21%2FBottomSheetNavigator3%2Fblob%2Fmain%2Fmaterial3-navigation%2Fbuild.gradle.kts%23L15)",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Implementación"
+      },
+      {
+        "row": 11,
+        "rowsha": "UMMTNBuYDA+GHbAThRVdp6w2IwLFo8gBtq7Gg4BkaZ0=",
+        "originContent": "## Implementation",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Puedes seguir el enfoque de implementación usado en el módulo [app](https://github.com/stefanoq21/BottomSheetNavigator3/tree/main/app \"app\"). Alternativamente, puedes encontrar una explicación detallada a continuación."
+      },
+      {
+        "row": 13,
+        "rowsha": "7HZdm+lqmne+mQg5aFPlErhS34dWRQw6vyOSkeyAy1s=",
+        "originContent": "You can follow the implementation approach used in the  [app](https://github.com/stefanoq21/BottomSheetNavigator3/tree/main/app \"app\") module. Alternatively, you can find a detailed explanation below.",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Dependencias  "
+      },
+      {
+        "row": 15,
+        "rowsha": "cA9I4m4MLDGazdniXFF/VJ7jgnkzPSvBbISFVX7s/5s=",
+        "originContent": "### Dependencies",
+        "translatedContent": "¡La biblioteca ya está disponible en MavenCentral!  "
+      },
+      {
+        "row": 16,
+        "rowsha": "UAOIIaVYFASz/q5mPoPELGSUT3E3ncb/1KCwAdjoCCE=",
+        "originContent": "The library is now available on MavenCentral!!! ",
+        "translatedContent": "Agrega las dependencias a tu `libs.versions.toml`"
+      },
+      {
+        "row": 17,
+        "rowsha": "Y1j5+r6PyA8sfTbtOuw9eXuCyYZ+MRYTU2Q59anhAEA=",
+        "originContent": "Add the dependencies to your `libs.versions.toml`",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```\n[versions]\n...\nmaterial3Navigation = \"X.X.X\" current release version\n\n[libraries]\n...\nmaterial3-navigation = { group = \"io.github.stefanoq21\", name = \"material3-navigation\", version.ref = \"material3Navigation\" }\n\n```",
+    "ContentSha": "FNFs+ouHfXeKTrOnxj7Gk7iJQfaxeYVBw6mEY0pipfs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n[versions]\n...\nmaterial3Navigation = \"X.X.X\" current release version\n\n[libraries]\n...\nmaterial3-navigation = { group = \"io.github.stefanoq21\", name = \"material3-navigation\", version.ref = \"material3Navigation\" }\n\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "lOuskf+szrzrUn5eClZvdxc4Ovxfw6MBnTbBCANMAs4=",
+        "originContent": "[versions]",
+        "translatedContent": "[versions]"
+      },
+      {
+        "row": 3,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 4,
+        "rowsha": "dO1lUCHqFlReyGIewYDS/N2Ut+HGhias8ysVS8TBC7c=",
+        "originContent": "material3Navigation = \"X.X.X\" current release version",
+        "translatedContent": "material3Navigation = \"X.X.X\" current release version"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "kHZWNXvrFSgHm9BfCQkv6ABDqcZY5IoNounkch1skfc=",
+        "originContent": "[libraries]",
+        "translatedContent": "[libraries]"
+      },
+      {
+        "row": 7,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 8,
+        "rowsha": "Ik370AaMju2TUGVBYkb0KaKvTVOnF8vIbtGNYXRdLCc=",
+        "originContent": "material3-navigation = { group = \"io.github.stefanoq21\", name = \"material3-navigation\", version.ref = \"material3Navigation\" }",
+        "translatedContent": "material3-navigation = { group = \"io.github.stefanoq21\", name = \"material3-navigation\", version.ref = \"material3Navigation\" }"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "In your `build.gradle.kts` implement your dependencies:",
+    "ContentSha": "HAoSFbLzLjILYHp9amqyMcjRlosp5cGzXK/bYzIcMkI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "En tu `build.gradle.kts` implementa tus dependencias:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "HAoSFbLzLjILYHp9amqyMcjRlosp5cGzXK/bYzIcMkI=",
+        "originContent": "In your `build.gradle.kts` implement your dependencies:",
+        "translatedContent": "En tu `build.gradle.kts` implementa tus dependencias:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```\n...\ndependencies {\n...\n implementation(libs.material3.navigation)\n```",
+    "ContentSha": "VsjrlvtTat8tkObuPDBMUtSXJREwcPHuOiMaYX1wv5Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n...\ndependencies {\n...\n implementation(libs.material3.navigation)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 3,
+        "rowsha": "YiU0BYrj6/iCE+VQzVtTmQYPeT0yaMuVWxaQJ1+t/zA=",
+        "originContent": "dependencies {",
+        "translatedContent": "dependencies {"
+      },
+      {
+        "row": 4,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 5,
+        "rowsha": "iWZlvLEHHi8wVGNq5jZ96XQ5i0dfWU4Etumlyiazbyk=",
+        "originContent": " implementation(libs.material3.navigation)",
+        "translatedContent": " implementation(libs.material3.navigation)"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "### Usage\nDefine your **BottomSheetNavigator**",
+    "ContentSha": "HRK530Dp3rsMNYtZO1FvSasiUobE245ClBnLX/LmC0M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### Uso\nDefine tu **BottomSheetNavigator**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "elsthwRCF+vtpOBxqAWFEGuucFIX2nKj7DKSYQAuFv8=",
+        "originContent": "### Usage",
+        "translatedContent": "### Uso"
+      },
+      {
+        "row": 2,
+        "rowsha": "azmeQaiCflT/OE9mWfwIxWkdjIZ6iNS5oPI++2cS9BE=",
+        "originContent": "Define your **BottomSheetNavigator**",
+        "translatedContent": "Define tu **BottomSheetNavigator**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "```\n...\n   val bottomSheetNavigator =\n                    rememberBottomSheetNavigator(skipPartiallyExpanded = true/false)\n                val navController = rememberNavController(bottomSheetNavigator)\n```",
+    "ContentSha": "KuJFPKMrvt5HtON796SEJ+8zsOd8s/IOjNlXMCmf3iE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n...\n   val bottomSheetNavigator =\n                    rememberBottomSheetNavigator(skipPartiallyExpanded = true/false)\n                val navController = rememberNavController(bottomSheetNavigator)\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 3,
+        "rowsha": "6K8+N/Sg77CjstA6ziCzOm2Lnd1RvKPuc8TSHBaCYpY=",
+        "originContent": "   val bottomSheetNavigator =",
+        "translatedContent": "   val bottomSheetNavigator ="
+      },
+      {
+        "row": 4,
+        "rowsha": "dVSRskx9O4kOw2dmuEFXgiJtV6lLpzFK7phVIXgPt8Q=",
+        "originContent": "                    rememberBottomSheetNavigator(skipPartiallyExpanded = true/false)",
+        "translatedContent": "                    rememberBottomSheetNavigator(skipPartiallyExpanded = true/false)"
+      },
+      {
+        "row": 5,
+        "rowsha": "HQ/eTd9+vBfAINlb/ICyo1E9vCzx0dxIOz7MS2Kez0E=",
+        "originContent": "                val navController = rememberNavController(bottomSheetNavigator)",
+        "translatedContent": "                val navController = rememberNavController(bottomSheetNavigator)"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "Add the **ModalBottomSheetLayout** on top of the **NavHost** component and pass the **bottomSheetNavigator** as parameter:",
+    "ContentSha": "8MaetfMgoWsTC92mbb0/zKjKMt76hMOBRMQTFc9w0FQ=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Agregue el **ModalBottomSheetLayout** encima del componente **NavHost** y pase el **bottomSheetNavigator** como parámetro:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8MaetfMgoWsTC92mbb0/zKjKMt76hMOBRMQTFc9w0FQ=",
+        "originContent": "Add the **ModalBottomSheetLayout** on top of the **NavHost** component and pass the **bottomSheetNavigator** as parameter:",
+        "translatedContent": "Agregue el **ModalBottomSheetLayout** encima del componente **NavHost** y pase el **bottomSheetNavigator** como parámetro:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "```\nModalBottomSheetLayout(\n                        modifier = Modifier\n                            .fillMaxSize(),\n                        bottomSheetNavigator = bottomSheetNavigator\n                    ) {\n                        NavHost(\n                            navController = navController,\n                            startDestination = Screen.Home\n                        ) {\n...\n```",
+    "ContentSha": "2i6SuNjrF7lzJr5tNIEpW5uKnpOLoj0glSqLdMzTt+k=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\nModalBottomSheetLayout(\n                        modifier = Modifier\n                            .fillMaxSize(),\n                        bottomSheetNavigator = bottomSheetNavigator\n                    ) {\n                        NavHost(\n                            navController = navController,\n                            startDestination = Screen.Home\n                        ) {\n...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "ad+vNCFCWKGIvuioFkDWZtpnv+de7yURYxT11hj8zDk=",
+        "originContent": "ModalBottomSheetLayout(",
+        "translatedContent": "ModalBottomSheetLayout("
+      },
+      {
+        "row": 3,
+        "rowsha": "oPfHBdsw3+60ws92CgArr8wI93z+vD4n63AjLRT7TTg=",
+        "originContent": "                        modifier = Modifier",
+        "translatedContent": "                        modifier = Modifier"
+      },
+      {
+        "row": 4,
+        "rowsha": "ojIqtp3bXRo5P+P8vSU2bJgU/XngL4xRonX4lS3gP+U=",
+        "originContent": "                            .fillMaxSize(),",
+        "translatedContent": "                            .fillMaxSize(),"
+      },
+      {
+        "row": 5,
+        "rowsha": "pVGLZyRVwuXBXaW12GzVolbrf7mTkeM3NmxbAnU04a0=",
+        "originContent": "                        bottomSheetNavigator = bottomSheetNavigator",
+        "translatedContent": "                        bottomSheetNavigator = bottomSheetNavigator"
+      },
+      {
+        "row": 6,
+        "rowsha": "SwK0OaXswlczhgR07NYHKR53rwEmTZK3o4D7ixAalKI=",
+        "originContent": "                    ) {",
+        "translatedContent": "                    ) {"
+      },
+      {
+        "row": 7,
+        "rowsha": "BFXWCLwJH/eB52gpT1pagisw2LhDVUcaBCDpgJf8CTE=",
+        "originContent": "                        NavHost(",
+        "translatedContent": "                        NavHost("
+      },
+      {
+        "row": 8,
+        "rowsha": "mZpUNLFM23SJZu7rFDcmLRKWyGItbVCYPpnipH5pHIw=",
+        "originContent": "                            navController = navController,",
+        "translatedContent": "                            navController = navController,"
+      },
+      {
+        "row": 9,
+        "rowsha": "3FkEwjhtarwV3zivgQCDd2wS2x9uTVehLAK6DosB2d4=",
+        "originContent": "                            startDestination = Screen.Home",
+        "translatedContent": "                            startDestination = Screen.Home"
+      },
+      {
+        "row": 10,
+        "rowsha": "Zpqv9PAuSOEwc67k+lW6lFQ+TCuD04MWR3zyFd7C/hA=",
+        "originContent": "                        ) {",
+        "translatedContent": "                        ) {"
+      },
+      {
+        "row": 11,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "Define your routes as strings or data class (depend on the compose navigation version you are using):",
+    "ContentSha": "IDT77ZIxU7smQgyBDEn6QBVNMEbgSZwz2arK+R6Nnss=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Define tus rutas como cadenas o clases de datos (dependiendo de la versión de navegación de compose que estés utilizando):",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "IDT77ZIxU7smQgyBDEn6QBVNMEbgSZwz2arK+R6Nnss=",
+        "originContent": "Define your routes as strings or data class (depend on the compose navigation version you are using):",
+        "translatedContent": "Define tus rutas como cadenas o clases de datos (dependiendo de la versión de navegación de compose que estés utilizando):"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "```\n...\n   bottomSheet<Screen.BottomSheetFullScreen> {\n                                BSFullScreenLayout()\n                            }\n  bottomSheet(\"BottomSheetFullScreen\") {\n                                BSFullScreenLayout()\n                            }\n...\n```",
+    "ContentSha": "JURWCTypunDJoIRByHIOjQIVpuI4+gPfoRgSom1GlnU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n...\n   bottomSheet<Screen.BottomSheetFullScreen> {\n                                BSFullScreenLayout()\n                            }\n  bottomSheet(\"BottomSheetFullScreen\") {\n                                BSFullScreenLayout()\n                            }\n...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 3,
+        "rowsha": "lyQSH9haogZoAP/RrSl9ApVfcmBPAEgZTuqdVm+TcL0=",
+        "originContent": "   bottomSheet<Screen.BottomSheetFullScreen> {",
+        "translatedContent": "   bottomSheet<Screen.BottomSheetFullScreen> {"
+      },
+      {
+        "row": 4,
+        "rowsha": "sdpacM7qdA5+pnvCUGuTh8pJfUTBIx5o0X132n4orgs=",
+        "originContent": "                                BSFullScreenLayout()",
+        "translatedContent": "                                BSFullScreenLayout()"
+      },
+      {
+        "row": 5,
+        "rowsha": "ELKDGYmda4ZrfoYisajx0QBrIfUWNUN2te1HeoeFnvc=",
+        "originContent": "                            }",
+        "translatedContent": "                            }"
+      },
+      {
+        "row": 6,
+        "rowsha": "dds5N7odhDzn/xaUCM/g5p97tqxrwXzsoKfPGTeBP1k=",
+        "originContent": "  bottomSheet(\"BottomSheetFullScreen\") {",
+        "translatedContent": "  bottomSheet(\"BottomSheetFullScreen\") {"
+      },
+      {
+        "row": 7,
+        "rowsha": "sdpacM7qdA5+pnvCUGuTh8pJfUTBIx5o0X132n4orgs=",
+        "originContent": "                                BSFullScreenLayout()",
+        "translatedContent": "                                BSFullScreenLayout()"
+      },
+      {
+        "row": 8,
+        "rowsha": "ELKDGYmda4ZrfoYisajx0QBrIfUWNUN2te1HeoeFnvc=",
+        "originContent": "                            }",
+        "translatedContent": "                            }"
+      },
+      {
+        "row": 9,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "Everything is ready! Just navigate to your new destination as usual:",
+    "ContentSha": "d+cAwHESllmrcuAGxudhARh0+YLEcHWy4cE93b83rzE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "¡Todo está listo! Simplemente navega a tu nuevo destino como de costumbre:",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "d+cAwHESllmrcuAGxudhARh0+YLEcHWy4cE93b83rzE=",
+        "originContent": "Everything is ready! Just navigate to your new destination as usual:",
+        "translatedContent": "¡Todo está listo! Simplemente navega a tu nuevo destino como de costumbre:"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "```\n...\nButton(onClick = { navController.navigate(Screen.BottomSheetFullScreen) }) {\n                                        Text(text = \"BottomSheetFullScreen\")\n                                    }\n...\n```",
+    "ContentSha": "cYVVtNSOa3esEZoNgC0r/TOpJHN0ggwY3AIyOVq4yCc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```\n...\nButton(onClick = { navController.navigate(Screen.BottomSheetFullScreen) }) {\n                                        Text(text = \"BottomSheetFullScreen\")\n                                    }\n...\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      },
+      {
+        "row": 2,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 3,
+        "rowsha": "2Prjd0Od9ppvuG4nzUTmOLdoK1r8ZSHbyUPHzPLHqWA=",
+        "originContent": "Button(onClick = { navController.navigate(Screen.BottomSheetFullScreen) }) {",
+        "translatedContent": "Button(onClick = { navController.navigate(Screen.BottomSheetFullScreen) }) {"
+      },
+      {
+        "row": 4,
+        "rowsha": "u9apT9by1yBLIpcIl/oRtx0CnluH21IXJRHSL3iTh50=",
+        "originContent": "                                        Text(text = \"BottomSheetFullScreen\")",
+        "translatedContent": "                                        Text(text = \"BottomSheetFullScreen\")"
+      },
+      {
+        "row": 5,
+        "rowsha": "R9QnXWmFcIfUyuNGB0tvLKHZZpHav1Wxhb+Ys37ioIA=",
+        "originContent": "                                    }",
+        "translatedContent": "                                    }"
+      },
+      {
+        "row": 6,
+        "rowsha": "q132Jbx229ThY77S3YiN+Cj5AVm7k1VlJcMYIbZUHUY=",
+        "originContent": "...",
+        "translatedContent": "..."
+      },
+      {
+        "row": 7,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 13,
+    "Content": "\n### Navigating Back from a Bottom Sheet\n\nTo implement a back or close button in your bottom sheet, I suggest to use `onBackPressedDispatcher.onBackPressed()`. This because if you use  `navController.popBackStack()` the animation will not appear. The animation was disabled, in this case, to avoid problems during the navigation that start from bottomshets.\n\n### Customization\n\nThe library currently supports the same customization options of the standard `androidx.compose.material3.ModalBottomSheet`. You can customize the appearance of the all the bottomsheets used in your navigation graph by passing the parameters to the `ModalBottomSheetLayout`.\n\n## Preview\n![](https://github.com/stefanoq21/BottomSheetNavigator3/assets/22545898/c971f6cf-bb04-41c1-b3ea-7b72757e09af)\n\n\n## Contributing\n\nWe welcome contributions to this library! If you have bug reports, feature requests, or code improvements, please feel free to create a pull request. I appreciate your help in making this library even better.\n\n## License\n\n   Copyright 2024 stefanoq21\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n\n",
+    "ContentSha": "AN8ORYgAHO+ynRvIQ3ZnpRqP82mY3GeY7xlHXYPdlxM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Navegando hacia atrás desde un Bottom Sheet\n\nPara implementar un botón de retroceso o cierre en tu bottom sheet, sugiero usar `onBackPressedDispatcher.onBackPressed()`. Esto se debe a que si usas `navController.popBackStack()` la animación no aparecerá. La animación fue deshabilitada, en este caso, para evitar problemas durante la navegación que comienza desde los bottom sheets.\n\n### Personalización\n\nLa biblioteca actualmente soporta las mismas opciones de personalización que el estándar `androidx.compose.material3.ModalBottomSheet`. Puedes personalizar la apariencia de todos los bottom sheets usados en tu gráfico de navegación pasando los parámetros al `ModalBottomSheetLayout`.\n\n## Vista previa\n![](https://github.com/stefanoq21/BottomSheetNavigator3/assets/22545898/c971f6cf-bb04-41c1-b3ea-7b72757e09af)\n\n\n## Contribuciones\n\n¡Damos la bienvenida a contribuciones para esta biblioteca! Si tienes reportes de errores, solicitudes de funciones o mejoras de código, no dudes en crear una pull request. Agradezco tu ayuda para hacer esta biblioteca aún mejor.\n\n## Licencia\n\n   Copyright 2024 stefanoq21\n\n   Licenciado bajo la Licencia Apache, Versión 2.0 (la \"Licencia\");\n   no puedes usar este archivo excepto en cumplimiento con la Licencia.\n   Puedes obtener una copia de la Licencia en\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   A menos que lo exija la ley aplicable o se acuerde por escrito, el software\n   distribuido bajo la Licencia se distribuye \"TAL CUAL\",\n   SIN GARANTÍAS NI CONDICIONES DE NINGÚN TIPO, ya sean expresas o implícitas.\n   Consulta la Licencia para conocer el lenguaje específico que rige los permisos y\n   limitaciones bajo la Licencia.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Khv1OKv5Y0nVUvmevwhSsDCUO8Vwh4GKgsAroYkIGaU=",
+        "originContent": "### Navigating Back from a Bottom Sheet",
+        "translatedContent": "### Navegando hacia atrás desde un Bottom Sheet"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "1ldvRTtZFcEzlqGJKejk4yzK+4/erOJ7yv7TWy9vvlA=",
+        "originContent": "To implement a back or close button in your bottom sheet, I suggest to use `onBackPressedDispatcher.onBackPressed()`. This because if you use  `navController.popBackStack()` the animation will not appear. The animation was disabled, in this case, to avoid problems during the navigation that start from bottomshets.",
+        "translatedContent": "Para implementar un botón de retroceso o cierre en tu bottom sheet, sugiero usar `onBackPressedDispatcher.onBackPressed()`. Esto se debe a que si usas `navController.popBackStack()` la animación no aparecerá. La animación fue deshabilitada, en este caso, para evitar problemas durante la navegación que comienza desde los bottom sheets."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "lwLFzrFj7VT5K1EzxhjRl+E/ylDavYTCYRR5jB+4r/s=",
+        "originContent": "### Customization",
+        "translatedContent": "### Personalización"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "dnYOYG0N4b2b6Ag75MLbX0EHm5+fT9DT3+3s7AIhTf8=",
+        "originContent": "The library currently supports the same customization options of the standard `androidx.compose.material3.ModalBottomSheet`. You can customize the appearance of the all the bottomsheets used in your navigation graph by passing the parameters to the `ModalBottomSheetLayout`.",
+        "translatedContent": "La biblioteca actualmente soporta las mismas opciones de personalización que el estándar `androidx.compose.material3.ModalBottomSheet`. Puedes personalizar la apariencia de todos los bottom sheets usados en tu gráfico de navegación pasando los parámetros al `ModalBottomSheetLayout`."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "SAa2SCue0ypI0FGkgNSHyL7bpF+OrYgFRFV0McGKt3g=",
+        "originContent": "## Preview",
+        "translatedContent": "## Vista previa"
+      },
+      {
+        "row": 11,
+        "rowsha": "VHbuHj5VKw6zkH2A08a0JPRVCrHOCmI/51v0Sn2j3W4=",
+        "originContent": "![](https://github.com/stefanoq21/BottomSheetNavigator3/assets/22545898/c971f6cf-bb04-41c1-b3ea-7b72757e09af)",
+        "translatedContent": "![](https://github.com/stefanoq21/BottomSheetNavigator3/assets/22545898/c971f6cf-bb04-41c1-b3ea-7b72757e09af)"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## Contribuciones"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "E/8Fmmb6+BGYEiGIWJIlvK4I5uBScGp7tSEzHGl2dvk=",
+        "originContent": "We welcome contributions to this library! If you have bug reports, feature requests, or code improvements, please feel free to create a pull request. I appreciate your help in making this library even better.",
+        "translatedContent": "¡Damos la bienvenida a contribuciones para esta biblioteca! Si tienes reportes de errores, solicitudes de funciones o mejoras de código, no dudes en crear una pull request. Agradezco tu ayuda para hacer esta biblioteca aún mejor."
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licencia"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "twFi1Dx/AjNKaC54NVWg/flj2/nqOMT09UaC54BOolk=",
+        "originContent": "   Copyright 2024 stefanoq21",
+        "translatedContent": "   Copyright 2024 stefanoq21"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "PAegsLbsAAizhHMiK4U1Wg2H9XhUe9bADM972QRzIgo=",
+        "originContent": "   Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "translatedContent": "   Licenciado bajo la Licencia Apache, Versión 2.0 (la \"Licencia\");"
+      },
+      {
+        "row": 23,
+        "rowsha": "HO4LxU8+rwqgdOINZscl62jTpSxTHMZ5uEYQRyf8TRw=",
+        "originContent": "   you may not use this file except in compliance with the License.",
+        "translatedContent": "   no puedes usar este archivo excepto en cumplimiento con la Licencia."
+      },
+      {
+        "row": 24,
+        "rowsha": "T6ELqoaVCcG5ImfvSccW90/PObaLjANwnY1t8wwMOVQ=",
+        "originContent": "   You may obtain a copy of the License at",
+        "translatedContent": "   Puedes obtener una copia de la Licencia en"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "Qko7dag2obMHDcGH/Py9AsDGThXL+8bl52LRo/mKn38=",
+        "originContent": "       http://www.apache.org/licenses/LICENSE-2.0",
+        "translatedContent": "       http://www.apache.org/licenses/LICENSE-2.0"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "UcTg2DX/dpZU0C9LJ52TaGMEpqw9t6PUPjKajKiDI0U=",
+        "originContent": "   Unless required by applicable law or agreed to in writing, software",
+        "translatedContent": "   A menos que lo exija la ley aplicable o se acuerde por escrito, el software"
+      },
+      {
+        "row": 29,
+        "rowsha": "CURZ9qGwfWg90kQwn7xM6uxqRwueUxmV0KdgVYD5lDE=",
+        "originContent": "   distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "translatedContent": "   distribuido bajo la Licencia se distribuye \"TAL CUAL\","
+      },
+      {
+        "row": 30,
+        "rowsha": "YP+XOUnvXWyimouMR04gpRGkQ6WI54MR45Uiz4Y246c=",
+        "originContent": "   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+        "translatedContent": "   SIN GARANTÍAS NI CONDICIONES DE NINGÚN TIPO, ya sean expresas o implícitas."
+      },
+      {
+        "row": 31,
+        "rowsha": "W6+A028rPki6aqweILxdyd2GYinjZt1Gd3TIFZ9pMIQ=",
+        "originContent": "   See the License for the specific language governing permissions and",
+        "translatedContent": "   Consulta la Licencia para conocer el lenguaje específico que rige los permisos y"
+      },
+      {
+        "row": 32,
+        "rowsha": "FHu514WisELEsNAdVSlMsPSVuekbI3YieL9BgSj3C3o=",
+        "originContent": "   limitations under the License.",
+        "translatedContent": "   limitaciones bajo la Licencia."
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

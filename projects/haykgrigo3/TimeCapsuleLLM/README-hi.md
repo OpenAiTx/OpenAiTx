@@ -38,7 +38,9 @@
 
 v0 और v0.5 [Andrej Karpathy के nanoGPT](https://github.com/karpathy/nanoGPT) पर आधारित हैं। मुख्य प्रशिक्षण स्क्रिप्ट्स और मॉडल आर्किटेक्चर उनका कार्य है।
 
-v1 [Phi 1.5 by Microsoft](https://huggingface.co/microsoft/phi-1_5) पर आधारित है
+v1 [Microsoft के Phi 1.5](https://huggingface.co/microsoft/phi-1_5) पर आधारित बनाया गया
+
+v2 llamaforcausallm पर आधारित बनाया गया
 
 [Hugging Face लिंक](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
@@ -47,43 +49,43 @@ v1 [Phi 1.5 by Microsoft](https://huggingface.co/microsoft/phi-1_5) पर आ�
 ### **v0**  
 
 प्रारंभिक प्रॉम्प्ट्स में मॉडल 1800 के दशक की भाषा और व्यवहार में प्रतिक्रिया देता है। 
-उदाहरण: प्रॉम्प्ट: "Who art Henry?" और इसने उत्तर दिया "I know that man, I have did not a black, the storm." 
+उदाहरण: प्रॉम्प्ट: "Who art Henry?" और जवाब आया "I know that man, I have did not a black, the storm." 
 
-![TimeLockLLM नमूना आउटपुट](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
+![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - आधुनिक अवधारणाओं का कोई उल्लेख नहीं  
-- अधिकांश शब्दावली युग-संगत  
-- वाक्य ज्यादातर असंगत (लगभग ~187MB प्रशिक्षण डेटा के लिए अपेक्षित)
+- अधिकांशतः युग-संगत शब्दावली  
+- वाक्य मुख्यतः असंगत (लगभग ~187MB ट्रेनिंग डेटा के लिए अपेक्षित)
 
 ### **v0.5** 
 
-v0 की तुलना में महत्वपूर्ण सुधार।  
-- विक्टोरियन लेखन शैली, उचित विराम चिन्ह, ज्यादातर व्याकरणिक वाक्य  
-- तथ्यों की उच्च कल्पना दर अभी भी मौजूद  
-- OCR शोर ("Digitized by Google") अभी भी आउटपुट में मौजूद
+v0 पर महत्वपूर्ण सुधार।  
+- विक्टोरियन लेखन शैली, उचित विराम चिन्ह, मुख्यतः व्याकरणिक वाक्य  
+- तथ्यात्मक भ्रम की दर अभी भी अधिक  
+- ओसीआर शोर (“Digitized by Google”) अब भी आउटपुट में है
 
-![TimeLockLLM नमूना आउटपुट](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
+![TimeLockLLM Sample Output](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-पहला मॉडल जिसने एक वास्तविक ऐतिहासिक घटना को डेटासेट के एक वास्तविक व्यक्ति से जोड़ा।
+पहला मॉडल जिसने एक वास्तविक ऐतिहासिक घटना को डेटासेट के किसी वास्तविक व्यक्ति से जोड़ कर याद किया।
 
 उदाहरण: प्रॉम्प्ट: "It was the year of our Lord 1834" 
 
 आउटपुट: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-शुरुआत में मुझे लगा कि शायद उस वर्ष संयोग से कोई विरोध हुआ होगा, लेकिन इसे देखिए: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+शुरुआत में मुझे लगा कि कोई विरोध शायद संयोगवश उसी वर्ष हुआ हो, लेकिन इसे देखिए: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-v2 के 90GB डेटासेट से 15GB सैंपल का उपयोग कर प्रशिक्षित किया गया।
 
-मॉडल केवल 10K चरणों तक प्रशिक्षित किया गया है।
+v2 के 90GB डेटा सेट से 15GB सैंपल का उपयोग करके प्रशिक्षित किया गया।
+मॉडल को केवल 10K स्टेप्स तक प्रशिक्षित किया गया।
 
-टोकनाइज़ेशन में एक समस्या थी जिसके कारण आउटपुट ऐसा दिखता है:
+टोकनाइजेशन में एक समस्या थी जिससे आउटपुट कुछ ऐसा दिखता है:
 
 प्रॉम्प्ट:
-चार्ल्स डिकेंस कौन हैं?
+चार्ल्स डिकेन्स कौन हैं?
 
 
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

@@ -40,19 +40,21 @@ v0 y v0.5 construidos sobre [nanoGPT por Andrej Karpathy](https://github.com/kar
 
 v1 construido sobre [Phi 1.5 de Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
+v2 construido sobre llamaforcausallm
+
 [Enlace a Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
-##  Comportamiento del Modelo y Limitaciones
+##  Comportamiento del modelo y limitaciones
 
 ### **v0**  
 
-Las primeras indicaciones muestran que el modelo responde con lenguaje y comportamiento de los años 1800.
-Ejemplo: Indicación: "Who art Henry?" y respondió "I know that man, I have did not a black, the storm."
+Las primeras pruebas muestran que el modelo responde con lenguaje y comportamiento de los años 1800.  
+Ejemplo: Prompt: "¿Quién es Henry?" y respondió "Conozco a ese hombre, no he hecho un negro, la tormenta." 
 
 ![Salida de muestra de TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - Sin mención de conceptos modernos  
-- Vocabulario mayormente preciso para la época  
+- Vocabulario mayormente preciso de la época  
 - Las oraciones son en su mayoría incoherentes (esperado para ~187MB de datos de entrenamiento)
 
 ### **v0.5** 
@@ -60,24 +62,24 @@ Ejemplo: Indicación: "Who art Henry?" y respondió "I know that man, I have did
 Una mejora significativa respecto a v0.  
 - Estilo de escritura victoriano, puntuación adecuada, oraciones mayormente gramaticales  
 - Aún alta tasa de alucinación factual  
-- Ruido de OCR (“Digitized by Google”) aún presente en las salidas
+- Ruido OCR (“Digitized by Google”) aún presente en las salidas
 
 ![Salida de muestra de TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-Primer modelo que recuerda y conecta un evento histórico real con una figura auténtica del conjunto de datos.
+Primer modelo en recordar y conectar un evento histórico real con una figura auténtica del conjunto de datos.
 
-Ejemplo: Indicación: "It was the year of our Lord 1834"
+Ejemplo: Prompt: "Era el año de nuestro Señor 1834" 
 
-La salida: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity"
+La salida: "Era el año de nuestro Señor 1834 y las calles de Londres estaban llenas de protesta y petición. La causa, como muchos recordaron, no estaba ligada en la forma privada, sino que se había tomado el mismo día en el día de Lord Palmerston, el público recibirá una breve declaración de las dificultades bajo las cuales el día de la ley nos ha alcanzado. Es motivo de profundo pesar que los acontecimientos actuales en la historia del mundo sean claros y, en consecuencia, serán conocidos. No es cierto que los mismos hombres que primero se establecieron en el Evangelio en Jerusalén deban tener un registro tan extenso e interesante de la prosperidad y prosperidad" 
 
-Al principio supuse que una protesta podría haber ocurrido casualmente ese mismo año, pero mira esto: ![1834protesta](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Al principio asumí que una protesta pudo haber ocurrido casualmente ese mismo año, pero mira esto: ![1834protesta](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-Entrenado usando una muestra de 15GB del conjunto de datos de 90GB de v2.
 
+Entrenado usando una muestra de 15GB del conjunto de datos de 90GB de v2.
 Modelo entrenado solo hasta 10K pasos.
 
 Hubo un problema con la tokenización que hace que la salida se vea así:
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

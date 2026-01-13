@@ -40,6 +40,8 @@ v0 und v0.5 basieren auf [nanoGPT von Andrej Karpathy](https://github.com/karpat
 
 v1 basiert auf [Phi 1.5 von Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
+v2 basiert auf llamaforcausallm
+
 [Hugging Face Link](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
 
@@ -48,20 +50,20 @@ v1 basiert auf [Phi 1.5 von Microsoft](https://huggingface.co/microsoft/phi-1_5)
 ### **v0**  
 
 Frühe Prompts zeigen, dass das Modell mit Sprache und Verhalten aus dem 19. Jahrhundert antwortet.
-Beispiel: Prompt: "Who art Henry?" und es antwortete "I know that man, I have did not a black, the storm."
+Beispiel: Prompt: "Who art Henry?" und es antwortete: "I know that man, I have did not a black, the storm." 
 
 ![TimeLockLLM Beispielausgabe](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - Keine Erwähnung moderner Konzepte  
-- Meistens epochengetreuer Wortschatz  
-- Sätze sind meist unzusammenhängend (erwartet bei ~187MB Trainingsdaten)
+- Meistens epochengetreues Vokabular  
+- Sätze sind größtenteils unzusammenhängend (erwartet bei ~187MB Trainingsdaten)
 
 ### **v0.5** 
 
 Eine deutliche Verbesserung gegenüber v0.  
-- Viktorianischer Schreibstil, korrekte Zeichensetzung, meist grammatikalisch korrekte Sätze  
+- Viktorianischer Schreibstil, korrekte Zeichensetzung, meist grammatikalisch richtige Sätze  
 - Immer noch hohe Rate an faktischen Halluzinationen  
-- OCR-Rauschen („Digitized by Google“) weiterhin in den Ausgaben vorhanden
+- OCR-Rauschen („Digitized by Google“) weiterhin in Ausgaben vorhanden
 
 ![TimeLockLLM Beispielausgabe](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
@@ -73,16 +75,16 @@ Beispiel: Prompt: "It was the year of our Lord 1834"
 
 Die Ausgabe: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-Anfangs nahm ich an, dass zufällig im selben Jahr ein Protest stattgefunden haben könnte, aber sehen Sie sich das an: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Zunächst nahm ich an, dass ein Protest zufällig im selben Jahr stattfand, aber sehen Sie sich das an: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-Trainiert mit einer 15GB-Stichprobe aus dem 90GB-Datensatz von v2.
-Modell wurde nur bis zu 10.000 Schritten trainiert.
+Trainiert mit einer 15GB großen Stichprobe aus dem 90GB-Datensatz von v2.
+Modell nur bis zu 10.000 Schritten trainiert.
 
-Es gab ein Problem mit der Tokenisierung, das dazu führt, dass die Ausgabe wie folgt aussieht:
+Es gab ein Problem mit der Tokenisierung, das dazu führt, dass die Ausgabe so aussieht:
 
-EINGABE:
+PROMPT:
 Wer ist Charles Dickens?
 
 
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

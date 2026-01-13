@@ -40,50 +40,52 @@ v0 และ v0.5 สร้างขึ้นบนพื้นฐานขอ�
 
 v1 สร้างขึ้นบน [Phi 1.5 โดย Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
-[ลิงก์ Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
+v2 สร้างขึ้นบน llamaforcausallm
 
+[ลิงก์ Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
 ##  พฤติกรรมของโมเดล & ข้อจำกัด
 
 ### **v0**  
 
-พรอมต์ระยะแรกแสดงให้เห็นว่าโมเดลตอบกลับด้วยภาษาและพฤติกรรมในยุค 1800  
-ตัวอย่าง: พรอมต์: "Who art Henry?" และมันตอบว่า "I know that man, I have did not a black, the storm." 
+คำสั่งต้นแบบแสดงให้เห็นว่าโมเดลตอบกลับด้วยภาษาและพฤติกรรมแบบศตวรรษที่ 1800 
+ตัวอย่าง: คำสั่ง: "Who art Henry?" และโมเดลตอบว่า "I know that man, I have did not a black, the storm." 
 
 ![ตัวอย่างผลลัพธ์ TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - ไม่มีการกล่าวถึงแนวคิดสมัยใหม่  
-- ใช้คำศัพท์ที่ถูกต้องตามยุคเป็นส่วนใหญ่  
-- ประโยคส่วนใหญ่ไม่สมบูรณ์ (เป็นสิ่งที่คาดไว้สำหรับข้อมูลฝึกขนาด ~187MB)
+- ใช้คำศัพท์ที่ตรงกับยุคเป็นส่วนใหญ่  
+- ประโยคส่วนใหญ่ไม่ปะติดปะต่อกัน (คาดไว้สำหรับข้อมูลเทรนนิ่ง ~187MB)
 
 ### **v0.5** 
 
-พัฒนาขึ้นอย่างมีนัยสำคัญเมื่อเทียบกับ v0  
-- สไตล์การเขียนแบบวิกตอเรียน เครื่องหมายวรรคตอนถูกต้อง ประโยคส่วนใหญ่ถูกไวยากรณ์  
-- อัตราการหลอนข้อเท็จจริงยังสูง  
+เป็นการปรับปรุงที่สำคัญจาก v0  
+- สไตล์การเขียนแบบวิกตอเรีย ใช้เครื่องหมายวรรคตอนถูกต้อง ประโยคส่วนใหญ่ถูกหลักไวยากรณ์  
+- ยังมีอัตราการสร้างข้อมูลเท็จสูง  
 - มีเสียงรบกวนจาก OCR (“Digitized by Google”) ปรากฏในผลลัพธ์
 
 ![ตัวอย่างผลลัพธ์ TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-เป็นโมเดลแรกที่สามารถจดจำและเชื่อมโยงเหตุการณ์ทางประวัติศาสตร์จริงเข้ากับบุคคลจริงจากชุดข้อมูลได้
+เป็นโมเดลแรกที่สามารถเรียกคืนและเชื่อมโยงเหตุการณ์ประวัติศาสตร์จริงกับบุคคลจริงในชุดข้อมูลได้
 
-ตัวอย่าง: พรอมต์: "It was the year of our Lord 1834" 
+ตัวอย่าง: คำสั่ง: "It was the year of our Lord 1834" 
 
 ผลลัพธ์: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-ตอนแรกฉันคิดว่าอาจมีการประท้วงเกิดขึ้นโดยบังเอิญในปีเดียวกัน แต่ลองดูภาพนี้: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+ตอนแรกฉันคิดว่าอาจมีการประท้วงเกิดขึ้นในปีเดียวกันโดยบังเอิญ แต่ลองดูนี่สิ: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-ฝึกด้วยตัวอย่างขนาด 15GB จากชุดข้อมูล v2 ขนาด 90GB
+
+ถูกฝึกด้วยตัวอย่างขนาด 15GB จากชุดข้อมูลขนาด 90GB ของ v2
 โมเดลถูกฝึกเพียง 10,000 สเต็ปเท่านั้น
 
-เกิดปัญหาเกี่ยวกับการแยกโทเคนซึ่งทำให้ผลลัพธ์มีลักษณะดังนี้:
+มีปัญหาเกี่ยวกับการแปลงโทเคนที่ทำให้ผลลัพธ์แสดงออกมาเช่นนี้:
 
-พรอมต์:
-ใครคือชาร์ลส์ ดิกเกนส์?
+คำสั่ง:
+ใครคือ Charles Dickens?
 
 
 W ho is Charles D ic ens ? D oes that work more of h ise x cell ent st ir ring , in his pl ays , int he G reat C omp any 's f arm ? What I have y et to qu ote from J ack P ick ett ? D oy oun ot know th att hey were as pe cies of g all oping , ors aw ing oft heir bre asts , or what w ast ob ed one about the t im ew hen J acks on was looking ont hew ind ow ? What ist hes uccess of an English man , and which h isson has not be end is cover ing t ome , where by to acc omp lish such a we ight ? D idy ou ever m ake ap ass age int othe old road way , ort o an anch or - b ree ze att he foot of our boat , which you m ust le ave us ? The fact is , that whe ther the wind would rise up from the pl ain on S atur day night orn o ont ide , ort ill then orth , or other wise , wes hall be com pelled t od esc ribe af orm idable bar rier , with t hes ame e ffect s ast he p resent . In th iss itu ation , at le ast , itis not to omuch t os ay that we have le ft that room . I bel ieve there are three c op ies int he " F ive H undred - fold ," to bere fer red to , ast he first n umber of our read ers wh ow is ht
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

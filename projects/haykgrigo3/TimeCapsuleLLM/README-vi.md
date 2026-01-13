@@ -40,49 +40,51 @@ v0 và v0.5 được xây dựng dựa trên [nanoGPT của Andrej Karpathy](htt
 
 v1 được xây dựng trên [Phi 1.5 của Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
+v2 được xây dựng trên llamaforcausallm
+
 [Liên kết Hugging Face](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
-##  Hành Vi & Hạn Chế của Mô Hình
+##  Hành Vi & Giới Hạn Của Mô Hình
 
 ### **v0**  
 
-Những prompt ban đầu cho thấy mô hình phản hồi với ngôn ngữ và cách hành xử của thế kỷ 19. 
+Các prompt ban đầu cho thấy mô hình phản hồi bằng ngôn ngữ và hành vi của những năm 1800. 
 Ví dụ: Prompt: "Who art Henry?" và nó trả lời "I know that man, I have did not a black, the storm." 
 
 ![Kết quả mẫu của TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1850_v0/timelockllm_sample_output.png?raw=true)
 
 - Không đề cập đến các khái niệm hiện đại  
-- Chủ yếu sử dụng từ vựng đúng với thời kỳ  
-- Câu văn phần lớn không mạch lạc (điều này được mong đợi với dữ liệu huấn luyện ~187MB)
+- Chủ yếu dùng từ vựng chuẩn theo thời kỳ  
+- Câu văn phần lớn không mạch lạc (đúng với dữ liệu huấn luyện khoảng ~187MB)
 
 ### **v0.5** 
 
 Cải tiến đáng kể so với v0.  
-- Phong cách viết thời Victoria, dấu câu đầy đủ, câu văn phần lớn đúng ngữ pháp  
-- Tỷ lệ ảo giác thông tin thực tế vẫn cao  
-- Nhiễu OCR (“Digitized by Google”) vẫn xuất hiện trong kết quả đầu ra
+- Phong cách viết thời Victoria, dấu câu chuẩn, câu văn phần lớn đúng ngữ pháp  
+- Tỷ lệ sai lệch thực tế vẫn cao  
+- Nhiễu OCR (“Digitized by Google”) vẫn xuất hiện trong kết quả
 
 ![Kết quả mẫu của TimeLockLLM](https://github.com/haykgrigo3/TimeCapsuleLLM/blob/main/london_1800_1875_v0.5/fellowcitizens.png?raw=true)
 
 ### **v1**
 
-Mô hình đầu tiên có thể nhớ và kết nối một sự kiện lịch sử thực với một nhân vật có thật trong bộ dữ liệu.
+Mô hình đầu tiên ghi nhớ và kết nối một sự kiện lịch sử thực tế với một nhân vật có trong bộ dữ liệu.
 
 Ví dụ: Prompt: "It was the year of our Lord 1834" 
 
 Kết quả: "It was the year of our Lord 1834 and the streets of London were filled with protest and petition. The cause, as many re counted, was not bound in the way of private, but having taken up the same day in the day of Lord Palmerston, the public will receive a short statement of the difficulties under which the day of law has reached us. It is a matter of deep regret, that the present events in the history of the world are clear, and consequently will be'known. It is not true that the very men who first settled in the Gospel at Jerusalem should have so extensive and so interesting a record of the prosperity and prosperity" 
 
-Ban đầu tôi nghĩ rằng có thể một cuộc biểu tình đã diễn ra trùng hợp vào năm đó nhưng hãy xem điều này: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
+Ban đầu tôi nghĩ rằng có thể có một cuộc biểu tình tình cờ diễn ra cùng năm đó nhưng hãy xem qua hình này: ![1834protest](https://raw.githubusercontent.com/haykgrigo3/TimeCapsuleLLM/main/1834protest.png)
 
 ### **v2mini-eval1**
 
-Huấn luyện bằng mẫu 15GB từ bộ dữ liệu 90GB của v2.
 
+Được huấn luyện bằng mẫu 15GB từ bộ dữ liệu 90GB của v2.
 Mô hình chỉ được huấn luyện đến 10.000 bước.
 
-Đã có vấn đề với quá trình mã hóa token khiến kết quả đầu ra trông như sau:
+Có một vấn đề với việc mã hóa token khiến đầu ra trông như sau:
 
-LỆNH:
+YÊU CẦU:
 Charles Dickens là ai?
 
 
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---

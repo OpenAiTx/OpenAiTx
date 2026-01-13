@@ -40,6 +40,8 @@ v0 and v0.5 are built on [nanoGPT by Andrej Karpathy](https://github.com/karpath
 
 v1 built on [Phi 1.5 by Microsoft](https://huggingface.co/microsoft/phi-1_5)
 
+v2 built on llamaforcausallm
+
 [Hugging Face Link](https://huggingface.co/haykgrigorian/TimeCapsuleLLM)
 
 
@@ -213,8 +215,9 @@ GPU: A100 SXM rented
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-09
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-13
 
 ---
