@@ -97,9 +97,9 @@ pip install flask
 python 2048.py
 ```
 
-## 🎨 사용자 정의
+## 🎨 커스터마이즈
 
-직접 꾸미고 싶으신가요? 새로운 디자인을 원하시면 `styles.css`를 수정하거나, 게임 플레이를 변경하고 싶으시면 `script.js`를 수정하세요. 모든 코드는 쉽게 수정할 수 있도록 주석이 잘 달려 있습니다!
+직접 만들어보고 싶으신가요? `styles.css`를 수정하여 새로운 외관을 적용하거나, `script.js`를 수정하여 게임 플레이를 변경할 수 있습니다. 모든 코드는 쉽게 수정할 수 있도록 주석이 잘 달려 있습니다!
 
 ## 📝 라이선스
 
@@ -107,20 +107,26 @@ GPL-2.0 라이선스
 
 ## 🤝 기여
 
-계속 업데이트 중입니다! 이슈와 풀 리퀘스트는 언제든 환영합니다—함께 이 게임을 더욱 멋지게 만들어봐요!
+계속 업데이트 중입니다! 이슈 및 Pull Request는 언제나 환영합니다—함께 이 게임을 더욱 멋지게 만들어봐요!
 
 
 ## 🙏 감사의 말씀
 
-다음 후원자분들께서 이 프로젝트를 지원해주셨습니다:
-- 서버를 제공해주신 [Aurora Cloud](https://www.free-vps.net/)
+이 프로젝트를 후원해 주신 다음 스폰서분들께 감사드립니다:
+- [/](/) 서버 제공
+
+## 스타 히스토리
+
+[![Star History Chart](https://api.star-history.com/svg?repos=sz30/2048--&type=date&legend=top-left)](https://www.star-history.com/#sz30/2048--&type=date&legend=top-left)
 
 ---
 _최종 업데이트: 2025년 10월_
 
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
 
 ---

@@ -99,7 +99,7 @@ python 2048.py
 
 ## 🎨 カスタマイズ
 
-自分だけのものにしたいですか？新しい外観にするには `styles.css` を調整したり、ゲームプレイを変更するには `script.js` を編集してください。すべてのコードには分かりやすいコメントが付いているので、簡単にカスタマイズできます！
+自分だけのものにしたいですか？`styles.css` を調整して新しい外観にしたり、`script.js` を編集してゲームプレイを変更したりできます。すべてのコードには分かりやすいコメントが付いているので、簡単にハックできます！
 
 ## 📝 ライセンス
 
@@ -107,20 +107,26 @@ GPL-2.0 ライセンス
 
 ## 🤝 コントリビュート
 
-まだ更新中です！Issue や Pull Request は大歓迎です—一緒にこのゲームをさらに素晴らしいものにしましょう！
+まだまだ更新中！Issue や Pull Request は大歓迎です—一緒にこのゲームをもっと素晴らしくしましょう！
 
 
 ## 🙏 謝辞
 
-このプロジェクトをサポートしてくれている以下のスポンサーに感謝します：
-- [Aurora Cloud](https://www.free-vps.net/) サーバー提供
+このプロジェクトをサポートしてくれた以下のスポンサーに感謝します：
+- [/](/) サーバーの提供
+
+## スター履歴
+
+[![Star History Chart](https://api.star-history.com/svg?repos=sz30/2048--&type=date&legend=top-left)](https://www.star-history.com/#sz30/2048--&type=date&legend=top-left)
 
 ---
 _最終更新日: 2025年10月_
 
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
 
 ---

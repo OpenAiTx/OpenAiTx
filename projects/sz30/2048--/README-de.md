@@ -99,28 +99,34 @@ python 2048.py
 
 ## 🎨 Anpassung
 
-Möchten Sie es individuell gestalten? Passen Sie `styles.css` für ein neues Aussehen an oder bearbeiten Sie `script.js`, um das Gameplay zu verändern. Der gesamte Code ist gut kommentiert und leicht zu modifizieren!
+Möchtest du es anpassen? Verändere `styles.css` für ein neues Aussehen oder tauche in `script.js` ein, um das Gameplay zu ändern. Der gesamte Code ist gut kommentiert und leicht anzupassen!
 
 ## 📝 Lizenz
 
 GPL-2.0 Lizenz
 
-## 🤝 Beitrag
+## 🤝 Mitwirken
 
-Wird weiterhin aktualisiert! Fehlerberichte und Pull Requests sind sehr willkommen—lasst uns dieses Spiel gemeinsam noch besser machen!
+Wird ständig aktualisiert! Issues und Pull Requests sind sehr willkommen—lasst uns das Spiel gemeinsam noch besser machen!
 
 
 ## 🙏 Danksagungen
 
 Vielen Dank an die folgenden Sponsoren für die Unterstützung dieses Projekts:
-- [Aurora Cloud](https://www.free-vps.net/) stellt den Server bereit
+- [/](/) stellt den Server bereit
+
+## Stern-Verlauf
+
+[![Star History Chart](https://api.star-history.com/svg?repos=sz30/2048--&type=date&legend=top-left)](https://www.star-history.com/#sz30/2048--&type=date&legend=top-left)
 
 ---
 _Letzte Aktualisierung: Okt. 2025_
 
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
 
 ---

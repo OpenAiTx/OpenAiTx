@@ -1,211 +1,211 @@
 [
   {
     "Id": 1,
-    "Content": "# DIY Smart Home Family Calendar (Skylight Clone)\n\n![Sklylight calendar](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)\n![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)\n\n## 📖 Introduction\n\nMy wife has been recently bombarded in social media with ads for smart home calendars (Skylight, Cozyla, Hearth) and was ready to spend over $300 on one. Before giving her the green light, I asked for a chance to research them.\n\nI realized most offered similar functionality but differed significantly in price. Most importantly, I didn't see any outstanding feature that I couldn't implement in **Home Assistant**.\n\n**The Goal:** A WAF-approved (Wife Acceptance Factor), countertop-friendly touchscreen calendar that integrates deep into our smart home without monthly fees.\n\n## 💡 Why DIY?\n\nChoosing the DIY route with Home Assistant provided several benefits over buying a Skylight/Hearth display:\n\n* **No Monthly Fees:** Avoids subscriptions for \"premium\" features.\n* **Seamless Integration:** It talks to our lights, chores (Grocy), and presence sensors.\n* **Old Hardware:** Repurposed a Mini PC and a standard monitor.\n* **Privacy:** No vendor lock-in or risk of the company shutting down.\n\n## 🛠 Hardware Selection\n\nThis is currently built to show the dashboard on any HD (1920x1080) display.\n\nIn my case, the requirement was for it to \"look like\" skylight, be touchscreen, be countertop, possibility to move it to different locations. Therefore I went with the hardware described below.\nNevertheless, you case might be different and will need you to adjust it as needed, for example if you want to display it on a tablet or something else.\n\nThe hardware I originally used I chose based on what I mentioned above plus with the hope to be able to extend functionality using the webcam, speaker and microphone. Currently I would probably build it differently now in hindsight, since I havent had time to address these additional hardware ideas.\n\n* **Monitor:** [HP Engage 15-inch Touchscreen](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). I chose this over generic portable monitors because it includes a built-in **Speaker, Webcam, and Microphone**, allowing for future voice control or video calls.\n* **Computer:** An old Mini PC (NUC/Tiny PC) running Windows/Linux in Kiosk mode, or a Raspberry Pi 4.~~\n\n\n## ✨ Features\n\n* **Family-wide & Individual Views:** Toggle specific family members' calendars on/off.\n* **Two-way Sync:** Edit events on the screen or on our phones (Google Calendar).\n* **\"Add Event\" Popup:** A custom UI to add events to specific calendars directly from the screen.",
-    "ContentSha": "VQNH1PSLBT8nEIDxYxRMz743KFHLrQkHFAwKECMNPzE=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# DIY Smart Home Family Calendar (Skylight Clone)\n\n![Sklylight calendar](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)\n![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)\n\n## 📖 Introduction\n\nMy wife has been recently bombarded in social media with ads for smart home calendars (Skylight, Cozyla, Hearth) and was ready to spend over $300 on one. Before giving her the green light, I asked for a chance to research them.",
+    "ContentSha": "4c7GQxfYPm/NnJnYyc7iBnJ37bwLIySYSqe2ivHUvss=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# Calendrier Familial Domotique DIY (Clone Skylight)\n\n![Calendrier Sklylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)\n![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)\n\n## 📖 Introduction\n\nMa femme a récemment été bombardée sur les réseaux sociaux par des publicités pour des calendriers domotiques (Skylight, Cozyla, Hearth) et était prête à dépenser plus de 300 $ pour en acheter un. Avant de lui donner le feu vert, j'ai demandé une chance de les étudier.\n\nJ'ai réalisé que la plupart offraient des fonctionnalités similaires mais différaient significativement en prix. Plus important encore, je n'ai vu aucune fonctionnalité remarquable que je ne pourrais pas implémenter dans **Home Assistant**.\n\n**L’objectif :** Un calendrier tactile, approuvé par la femme (WAF - Wife Acceptance Factor), adapté au plan de travail et s’intégrant profondément dans notre maison intelligente sans frais mensuels.\n\n## 💡 Pourquoi DIY ?\n\nChoisir la voie DIY avec Home Assistant a apporté plusieurs avantages par rapport à l’achat d’un écran Skylight/Hearth :\n\n* **Pas de frais mensuels :** Évite les abonnements pour les fonctionnalités « premium ».\n* **Intégration transparente :** Il communique avec nos lumières, tâches (Grocy) et capteurs de présence.\n* **Matériel ancien :** Réutilisation d’un Mini PC et d’un moniteur standard.\n* **Confidentialité :** Pas de verrouillage fournisseur ni risque de fermeture de la société.\n\n## 🛠 Sélection du matériel\n\nCela est actuellement conçu pour afficher le tableau de bord sur n’importe quel écran HD (1920x1080).\n\nDans mon cas, la contrainte était qu’il « ressemble » à Skylight, soit tactile, adapté au plan de travail, avec la possibilité de le déplacer à différents endroits. J’ai donc opté pour le matériel décrit ci-dessous.\nNéanmoins, votre cas peut être différent et vous devrez l’ajuster selon vos besoins, par exemple si vous souhaitez l’afficher sur une tablette ou autre.\n\nLe matériel que j’ai initialement utilisé a été choisi sur la base de ce que j’ai mentionné ci-dessus, avec l’espoir de pouvoir étendre les fonctionnalités en utilisant la webcam, le haut-parleur et le microphone. Actuellement, je le construirais probablement différemment avec le recul, car je n’ai pas eu le temps d’exploiter ces idées matérielles supplémentaires.\n\n* **Moniteur :** [HP Engage 15 pouces Tactile](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). Je l’ai choisi plutôt que des moniteurs portables génériques car il inclut un **haut-parleur, une webcam et un microphone intégrés**, permettant un contrôle vocal futur ou des appels vidéo.\n* **Ordinateur :** Un ancien Mini PC (NUC/Tiny PC) fonctionnant sous Windows/Linux en mode Kiosque, ou un Raspberry Pi 4.~~\n\n## ✨ Fonctionnalités\n\n* **Vues familiales et individuelles :** Activer/désactiver les calendriers de membres spécifiques de la famille.\n* **Synchronisation bidirectionnelle :** Modifier les événements sur l’écran ou sur nos téléphones (Google Calendar).\n* **Popup « Ajouter un événement » :** Une interface personnalisée pour ajouter des événements à des calendriers spécifiques directement depuis l’écran.\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Langue</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Calendrier familial DIY Smart Home (Clone Skylight)\n\n![Calendrier Sklylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)\n![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)\n\n## 📖 Introduction\n\nMa femme a récemment été bombardée sur les réseaux sociaux de publicités pour des calendriers familiaux connectés (Skylight, Cozyla, Hearth) et était prête à dépenser plus de 300 $ pour en acheter un. Avant de lui donner le feu vert, j'ai demandé à pouvoir les étudier.",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "LfsQts7Y2Ttd60GvWhyTEhmRoTarSYaLR4fBuWIraSo=",
-        "originContent": "# DIY Smart Home Family Calendar (Skylight Clone)",
-        "translatedContent": "# Calendrier Familial Domotique DIY (Clone Skylight)"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 2,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
       },
       {
         "row": 3,
-        "rowsha": "qgwScLzIodjojkFJoD2PK+bbl1Od59IQX5wyNPXvydU=",
-        "originContent": "![Sklylight calendar](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)",
-        "translatedContent": "![Calendrier Sklylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)"
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
       },
       {
         "row": 4,
-        "rowsha": "DIz1ZVYrPtfrBsjfjgti7cpUHGpmcjJ2BM6IgEl5CJ0=",
-        "originContent": "![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)",
-        "translatedContent": "![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)"
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Langue</summary>"
       },
       {
         "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
       },
       {
         "row": 6,
-        "rowsha": "l0c6cDZUkpYBoFxdVrFZTEXbBtKd1+I3s4NX2F0TnGc=",
-        "originContent": "## 📖 Introduction",
-        "translatedContent": "## 📖 Introduction"
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
       },
       {
         "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "G2CogCaXcwDGxILDIAD2l0u27+WRhXpWpzkV0BaTiOE=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=en\">English</a>"
       },
       {
         "row": 8,
-        "rowsha": "BJ+pYJJ2kP4iZqOLNL7DgWxJG4igyuVDs6GWD6ZC47w=",
-        "originContent": "My wife has been recently bombarded in social media with ads for smart home calendars (Skylight, Cozyla, Hearth) and was ready to spend over $300 on one. Before giving her the green light, I asked for a chance to research them.",
-        "translatedContent": "Ma femme a récemment été bombardée sur les réseaux sociaux par des publicités pour des calendriers domotiques (Skylight, Cozyla, Hearth) et était prête à dépenser plus de 300 $ pour en acheter un. Avant de lui donner le feu vert, j'ai demandé une chance de les étudier."
+        "rowsha": "70X8Q9zxsZZBc6PPgA64DkTpSrdXgtbEfdPESo3yCiw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-CN\">简体中文</a>"
       },
       {
         "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "LEFYGx8PwrU/wOnwTllxtrJ/Q/ZuT7rAvthNv3w3ibc=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-TW\">繁體中文</a>"
       },
       {
         "row": 10,
-        "rowsha": "hnBfGh8KbE8U+2SIdT8Y0CQCK8iMZtKqwcg+iwsOnbI=",
-        "originContent": "I realized most offered similar functionality but differed significantly in price. Most importantly, I didn't see any outstanding feature that I couldn't implement in **Home Assistant**.",
-        "translatedContent": "J'ai réalisé que la plupart offraient des fonctionnalités similaires mais différaient significativement en prix. Plus important encore, je n'ai vu aucune fonctionnalité remarquable que je ne pourrais pas implémenter dans **Home Assistant**."
+        "rowsha": "CcLRosY7LNh9p9/eUq3OPA+jec6o8DjypTstHdxpQCI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ja\">日本語</a>"
       },
       {
         "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "F70A2lHGzEyKOH2gr8OwJ0DcCqk8UzKzPU8RE/wReA4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ko\">한국어</a>"
       },
       {
         "row": 12,
-        "rowsha": "jP17a4v/FBunep5iCUEqbf50gL5R76Ia74FSvoNSNX0=",
-        "originContent": "**The Goal:** A WAF-approved (Wife Acceptance Factor), countertop-friendly touchscreen calendar that integrates deep into our smart home without monthly fees.",
-        "translatedContent": "**L’objectif :** Un calendrier tactile, approuvé par la femme (WAF - Wife Acceptance Factor), adapté au plan de travail et s’intégrant profondément dans notre maison intelligente sans frais mensuels."
+        "rowsha": "LeugT83DtsAl+dlr8bv2H/24/BDssIGgQHkTdpWgNCw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=hi\">हिन्दी</a>"
       },
       {
         "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "iSB3Zr0TkOQRj44uEEAXjfv+D+bN1t4T5rZMgsnRp38=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=th\">ไทย</a>"
       },
       {
         "row": 14,
-        "rowsha": "QD73xfNOD0t5vUa/9DDYLV75Z0QW86HJtHQCcb34drA=",
-        "originContent": "## 💡 Why DIY?",
-        "translatedContent": "## 💡 Pourquoi DIY ?"
+        "rowsha": "jUOimdmGpVYZv+yMAPv7Y0eESa0+qZnIm0XFRd7mk04=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fr\">Français</a>"
       },
       {
         "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "jKhJp7FePEvYkkv9iknwVMcehZCyYmfcXICrhLNrl3E=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=de\">Deutsch</a>"
       },
       {
         "row": 16,
-        "rowsha": "pAscW4xVov+tCae436iaNnjfewBcLfC8yYLnH6cyx4A=",
-        "originContent": "Choosing the DIY route with Home Assistant provided several benefits over buying a Skylight/Hearth display:",
-        "translatedContent": "Choisir la voie DIY avec Home Assistant a apporté plusieurs avantages par rapport à l’achat d’un écran Skylight/Hearth :"
+        "rowsha": "9KL1yP0StXbbfFkX51HmJioR8LJ56Pc3XwwjfhUIGB0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=es\">Español</a>"
       },
       {
         "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "uieZKBtCVniDxBXnW1x46dmRG+qAJHQ6zMKJT4OujA8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=it\">Italiano</a>"
       },
       {
         "row": 18,
-        "rowsha": "8xjKZElXWIw23E5bhdHex/3cFeOUGFm9xtPCwP2u6iI=",
-        "originContent": "* **No Monthly Fees:** Avoids subscriptions for \"premium\" features.",
-        "translatedContent": "* **Pas de frais mensuels :** Évite les abonnements pour les fonctionnalités « premium »."
+        "rowsha": "hDgYyh6SdrfWF+00b6NWGgCTtXKkZUDePs2oZIb3/ao=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ru\">Русский</a>"
       },
       {
         "row": 19,
-        "rowsha": "tqZiPpCwS5OTt2TVkBHh7WgS0hEEkP3jkblL9NIeqbI=",
-        "originContent": "* **Seamless Integration:** It talks to our lights, chores (Grocy), and presence sensors.",
-        "translatedContent": "* **Intégration transparente :** Il communique avec nos lumières, tâches (Grocy) et capteurs de présence."
+        "rowsha": "5tj+J9jfspJiEDMONGPhm1f5I1OtlXQyKLNZ4Wk77mo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pt\">Português</a>"
       },
       {
         "row": 20,
-        "rowsha": "Aueh1fyun3sMI5URhoMxb/WjeO2/h/fPg4WMGkA2HkQ=",
-        "originContent": "* **Old Hardware:** Repurposed a Mini PC and a standard monitor.",
-        "translatedContent": "* **Matériel ancien :** Réutilisation d’un Mini PC et d’un moniteur standard."
+        "rowsha": "dyABOamIvD54QI872ylUVqMkhM5pnjP65AsSM9tjF4k=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=nl\">Nederlands</a>"
       },
       {
         "row": 21,
-        "rowsha": "Wmqul1wZcC7qL9rL5e6J1MPpN6BEs+8w7pM3j13+8Tk=",
-        "originContent": "* **Privacy:** No vendor lock-in or risk of the company shutting down.",
-        "translatedContent": "* **Confidentialité :** Pas de verrouillage fournisseur ni risque de fermeture de la société."
+        "rowsha": "/4UWOIK+EiaiDNBP4b1WsoFpVfonnGr0Xe65l6lyws8=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pl\">Polski</a>"
       },
       {
         "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "V3JPdt5Amzp6hwWO/Z37wQ6YsfL7DHnjmKu7h2dkZIM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ar\">العربية</a>"
       },
       {
         "row": 23,
-        "rowsha": "RNvyrmDh5r3pkRKxFX8KF8U+6MBo/8Zd81i5HvrZRWc=",
-        "originContent": "## 🛠 Hardware Selection",
-        "translatedContent": "## 🛠 Sélection du matériel"
+        "rowsha": "9453stjQWGkMaZUNVZro6t5Onm465ecyp0ENcWC+Aw4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fa\">فارسی</a>"
       },
       {
         "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "6ZEDpu1yiOo+rldJKGbT4Y+RGp/9S9f8VNGanyKJvZo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=tr\">Türkçe</a>"
       },
       {
         "row": 25,
-        "rowsha": "XnAQPnEFdBxSibvibBHFA+WYoNM5WykBDo7OPi9cP3U=",
-        "originContent": "This is currently built to show the dashboard on any HD (1920x1080) display.",
-        "translatedContent": "Cela est actuellement conçu pour afficher le tableau de bord sur n’importe quel écran HD (1920x1080)."
+        "rowsha": "BW7CFG8cyGFTFi52lYMVApSFS7ELWhWC3PaJrb4wdZI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=vi\">Tiếng Việt</a>"
       },
       {
         "row": 26,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "p70zR1XpTOcQiad/WGNtwy5lqaEpsBeRxMaVXrxyhuM=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=id\">Bahasa Indonesia</a>"
       },
       {
         "row": 27,
-        "rowsha": "sNGR2LpfAhG+R58nXhIP2pm91YV6yfKHpcLvY6r724A=",
-        "originContent": "In my case, the requirement was for it to \"look like\" skylight, be touchscreen, be countertop, possibility to move it to different locations. Therefore I went with the hardware described below.",
-        "translatedContent": "Dans mon cas, la contrainte était qu’il « ressemble » à Skylight, soit tactile, adapté au plan de travail, avec la possibilité de le déplacer à différents endroits. J’ai donc opté pour le matériel décrit ci-dessous."
+        "rowsha": "emnQjehmhUrmSIzmdTHdszNraFcd7TocmeQ3Lx9a+aQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=as\">অসমীয়া</"
       },
       {
         "row": 28,
-        "rowsha": "NkJ/lFdfMv8cYy7XepWKgpbI76WrXsBeOT8OwaZDaqc=",
-        "originContent": "Nevertheless, you case might be different and will need you to adjust it as needed, for example if you want to display it on a tablet or something else.",
-        "translatedContent": "Néanmoins, votre cas peut être différent et vous devrez l’ajuster selon vos besoins, par exemple si vous souhaitez l’afficher sur une tablette ou autre."
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
       },
       {
         "row": 29,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
       },
       {
         "row": 30,
-        "rowsha": "WaRbj1ahDxfdV2mKybTiFGDOqBE0O3/Jo4eKbJ6pquE=",
-        "originContent": "The hardware I originally used I chose based on what I mentioned above plus with the hope to be able to extend functionality using the webcam, speaker and microphone. Currently I would probably build it differently now in hindsight, since I havent had time to address these additional hardware ideas.",
-        "translatedContent": "Le matériel que j’ai initialement utilisé a été choisi sur la base de ce que j’ai mentionné ci-dessus, avec l’espoir de pouvoir étendre les fonctionnalités en utilisant la webcam, le haut-parleur et le microphone. Actuellement, je le construirais probablement différemment avec le recul, car je n’ai pas eu le temps d’exploiter ces idées matérielles supplémentaires."
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
       },
       {
         "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 32,
-        "rowsha": "WJKLc4AvOTEz6Vvq7CHUdG7tjApkLh+ytO+MUUk4vI8=",
-        "originContent": "* **Monitor:** [HP Engage 15-inch Touchscreen](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). I chose this over generic portable monitors because it includes a built-in **Speaker, Webcam, and Microphone**, allowing for future voice control or video calls.",
-        "translatedContent": "* **Moniteur :** [HP Engage 15 pouces Tactile](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). Je l’ai choisi plutôt que des moniteurs portables génériques car il inclut un **haut-parleur, une webcam et un microphone intégrés**, permettant un contrôle vocal futur ou des appels vidéo."
-      },
-      {
         "row": 33,
-        "rowsha": "K/3B483Kc07UXQjty8cZFkMic/dGIUaEOMdb0LANCBk=",
-        "originContent": "* **Computer:** An old Mini PC (NUC/Tiny PC) running Windows/Linux in Kiosk mode, or a Raspberry Pi 4.~~",
-        "translatedContent": "* **Ordinateur :** Un ancien Mini PC (NUC/Tiny PC) fonctionnant sous Windows/Linux en mode Kiosque, ou un Raspberry Pi 4.~~"
+        "rowsha": "LfsQts7Y2Ttd60GvWhyTEhmRoTarSYaLR4fBuWIraSo=",
+        "originContent": "# DIY Smart Home Family Calendar (Skylight Clone)",
+        "translatedContent": "# Calendrier familial DIY Smart Home (Clone Skylight)"
       },
       {
         "row": 34,
@@ -215,64 +215,64 @@
       },
       {
         "row": 35,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## ✨ Fonctionnalités"
+        "rowsha": "qgwScLzIodjojkFJoD2PK+bbl1Od59IQX5wyNPXvydU=",
+        "originContent": "![Sklylight calendar](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)",
+        "translatedContent": "![Calendrier Sklylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)"
       },
       {
         "row": 36,
-        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
-        "originContent": "## ✨ Features",
-        "translatedContent": ""
+        "rowsha": "DIz1ZVYrPtfrBsjfjgti7cpUHGpmcjJ2BM6IgEl5CJ0=",
+        "originContent": "![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)",
+        "translatedContent": "![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)"
       },
       {
         "row": 37,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
-        "translatedContent": "* **Vues familiales et individuelles :** Activer/désactiver les calendriers de membres spécifiques de la famille."
+        "translatedContent": ""
       },
       {
         "row": 38,
-        "rowsha": "e+bxyJSkfcuGkAXp7cRk+r6LjSeIFCs8mFUalmKc5Ro=",
-        "originContent": "* **Family-wide & Individual Views:** Toggle specific family members' calendars on/off.",
-        "translatedContent": "* **Synchronisation bidirectionnelle :** Modifier les événements sur l’écran ou sur nos téléphones (Google Calendar)."
+        "rowsha": "l0c6cDZUkpYBoFxdVrFZTEXbBtKd1+I3s4NX2F0TnGc=",
+        "originContent": "## 📖 Introduction",
+        "translatedContent": "## 📖 Introduction"
       },
       {
         "row": 39,
-        "rowsha": "fhbdhdWGD8QoIJqVapA/sA3LY9cwf4yoIiQwlkOqYrY=",
-        "originContent": "* **Two-way Sync:** Edit events on the screen or on our phones (Google Calendar).",
-        "translatedContent": "* **Popup « Ajouter un événement » :** Une interface personnalisée pour ajouter des événements à des calendriers spécifiques directement depuis l’écran."
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 40,
-        "rowsha": "52Q3DbbFTlcUTM6BtuKNB3CFi5Nyp9AmQx+WaygdpJM=",
-        "originContent": "* **\"Add Event\" Popup:** A custom UI to add events to specific calendars directly from the screen.",
-        "translatedContent": ""
+        "rowsha": "BJ+pYJJ2kP4iZqOLNL7DgWxJG4igyuVDs6GWD6ZC47w=",
+        "originContent": "My wife has been recently bombarded in social media with ads for smart home calendars (Skylight, Cozyla, Hearth) and was ready to spend over $300 on one. Before giving her the green light, I asked for a chance to research them.",
+        "translatedContent": "Ma femme a récemment été bombardée sur les réseaux sociaux de publicités pour des calendriers familiaux connectés (Skylight, Cozyla, Hearth) et était prête à dépenser plus de 300 $ pour en acheter un. Avant de lui donner le feu vert, j'ai demandé à pouvoir les étudier."
       }
     ],
     "IsCodeBlock": false
   },
   {
     "Id": 2,
-    "Content": "* **Weather & Date:** Beautiful, glanceable header.\n* **Responsive:** Automatically adjusts day-count based on screen width (Mobile vs Desktop).\n\n---\n\n## ⚙️ Installation Guide\n\n*Note: This setup uses a **YAML Package** to automatically create all the necessary helpers, scripts, and variables for you. You do not need to create them manually.*\n\n### 1. Prerequisites (HACS)\n\nYou must have [HACS](https://hacs.xyz/) installed. Please install the following **Frontend** integrations:\n\n* `week-planner-card`\n* `bubble-card`\n* `config-template-card`\n* `card-mod`\n* `better-moment-card`\n* `weather-card`\n* `browser_mod` (Required for the popups to work)\n* `layout-card` (Required for the Sections view)\n* `button-card` (Required for the popup to add event)\n\n### 2. The Backend (The Brains)\n\n1. Open your `configuration.yaml` file in Home Assistant.\n2. Ensure you have this line added under `homeassistant:` to enable packages:\n",
-    "ContentSha": "JWHW+wiR92hYebtZIgOLzILaMldFDxcxaaHGyEumr18=",
+    "Content": "\nI realized most offered similar functionality but differed significantly in price. Most importantly, I didn't see any outstanding feature that I couldn't implement in **Home Assistant**.\n\n**The Goal:** A WAF-approved (Wife Acceptance Factor), countertop-friendly touchscreen calendar that integrates deep into our smart home without monthly fees.\n\n## 💡 Why DIY?\n\nChoosing the DIY route with Home Assistant provided several benefits over buying a Skylight/Hearth display:\n\n* **No Monthly Fees:** Avoids subscriptions for \"premium\" features.\n* **Seamless Integration:** It talks to our lights, chores (Grocy), and presence sensors.\n* **Old Hardware:** Repurposed a Mini PC and a standard monitor.\n* **Privacy:** No vendor lock-in or risk of the company shutting down.\n\n## 🛠 Hardware Selection\n\nThis is currently built to show the dashboard on any HD (1920x1080) display.\n\nIn my case, the requirement was for it to \"look like\" skylight, be touchscreen, be countertop, possibility to move it to different locations. Therefore I went with the hardware described below.\nNevertheless, you case might be different and will need you to adjust it as needed, for example if you want to display it on a tablet or something else.\n\nThe hardware I originally used I chose based on what I mentioned above plus with the hope to be able to extend functionality using the webcam, speaker and microphone. Currently I would probably build it differently now in hindsight, since I havent had time to address these additional hardware ideas.\n\n* **Monitor:** [HP Engage 15-inch Touchscreen](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). I chose this over generic portable monitors because it includes a built-in **Speaker, Webcam, and Microphone**, allowing for future voice control or video calls.\n* **Computer:** An old Mini PC (NUC/Tiny PC) running Windows/Linux in Kiosk mode, or a Raspberry Pi 4.~~\n\n\n## ✨ Features\n\n* **Family-wide & Individual Views:** Toggle specific family members' calendars on/off.\n* **Two-way Sync:** Edit events on the screen or on our phones (Google Calendar).\n* **\"Add Event\" Popup:** A custom UI to add events to specific calendars directly from the screen.\n* **Weather & Date:** Beautiful, glanceable header.\n* **Responsive:** Automatically adjusts day-count based on screen width (Mobile vs Desktop).\n\n---\n\n## ⚙️ Installation Guide\n\n*Note: This setup uses a **YAML Package** to automatically create all the necessary helpers, scripts, and variables for you. You do not need to create them manually.*",
+    "ContentSha": "dJ6zWnxf8j5m4NSfoJMo8aliLozNgBvWPTHKYt9BqNM=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "* **Météo & Date :** En-tête beau et facile à lire.  \n* **Adaptatif :** Ajuste automatiquement le nombre de jours en fonction de la largeur de l’écran (Mobile vs Bureau).  \n\n---  \n\n## ⚙️ Guide d'installation  \n\n*Note : Cette configuration utilise un **package YAML** pour créer automatiquement tous les assistants, scripts et variables nécessaires. Vous n’avez pas besoin de les créer manuellement.*  \n\n### 1. Prérequis (HACS)  \n\nVous devez avoir [HACS](https://hacs.xyz/) installé. Veuillez installer les intégrations **Frontend** suivantes :  \n\n* `week-planner-card`  \n* `bubble-card`  \n* `config-template-card`  \n* `card-mod`  \n* `better-moment-card`  \n* `weather-card`  \n* `browser_mod` (Nécessaire pour le fonctionnement des popups)  \n* `layout-card` (Nécessaire pour la vue Sections)  \n* `button-card` (Nécessaire pour le popup d’ajout d’événement)  \n\n### 2. Le Backend (Le Cerveau)  \n\n1. Ouvrez votre fichier `configuration.yaml` dans Home Assistant.  \n2. Assurez-vous d’avoir cette ligne ajoutée sous `homeassistant:` pour activer les packages :\n",
+    "Translation": "\nJ'ai constaté que la plupart offraient des fonctionnalités similaires mais différaient considérablement en prix. Plus important encore, je n'ai vu aucune fonctionnalité exceptionnelle que je ne pouvais pas implémenter dans **Home Assistant**.\n\n**L'objectif :** Un calendrier tactile, esthétique pour le plan de travail et approuvé par le WAF (Wife Acceptance Factor), qui s'intègre profondément dans notre maison connectée sans frais mensuels.\n\n## 💡 Pourquoi le DIY ?\n\nOpter pour une solution DIY avec Home Assistant a offert plusieurs avantages par rapport à l'achat d'un écran Skylight/Hearth :\n\n* **Pas de frais mensuels :** Évite les abonnements pour des fonctionnalités \"premium\".\n* **Intégration transparente :** Communique avec nos lumières, corvées (Grocy) et capteurs de présence.\n* **Matériel ancien :** Réutilisation d'un Mini PC et d'un moniteur standard.\n* **Confidentialité :** Pas de dépendance fournisseur ni risque d'arrêt du service.\n\n## 🛠 Sélection du matériel\n\nCe système est actuellement conçu pour afficher le tableau de bord sur tout écran HD (1920x1080).\n\nDans mon cas, il fallait que cela \"ressemble à\" Skylight, soit tactile, puisse être posé sur le plan de travail et déplacé dans différents endroits. J'ai donc choisi le matériel décrit ci-dessous.\nCependant, votre cas peut être différent et nécessitera des adaptations, par exemple si vous souhaitez l'afficher sur une tablette ou autre.\n\nLe matériel que j'ai utilisé à l'origine a été choisi sur la base des critères cités plus haut, avec l'idée de pouvoir étendre les fonctionnalités grâce à la webcam, aux haut-parleurs et au microphone. Aujourd'hui, avec le recul, je le construirais probablement différemment, car je n'ai pas eu le temps de mettre en œuvre ces idées matérielles supplémentaires.\n\n* **Moniteur :** [HP Engage 15 pouces Écran Tactile](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). Je l'ai préféré aux moniteurs portables génériques car il inclut un **haut-parleur, une webcam et un microphone** intégrés, permettant un contrôle vocal ou des appels vidéo à l'avenir.\n* **Ordinateur :** Un vieux Mini PC (NUC/Tiny PC) sous Windows/Linux en mode Kiosk, ou un Raspberry Pi 4.~~\n\n## ✨ Fonctionnalités\n\n* **Vues famille et individuelles :** Basculez les calendriers de membres de la famille spécifiques.\n* **Synchronisation bidirectionnelle :** Modifiez les événements sur l'écran ou depuis nos téléphones (Google Agenda).\n* **Popup \"Ajouter un événement\" :** Une interface personnalisée pour ajouter des événements à des calendriers spécifiques directement depuis l'écran.\n* **Météo & Date :** En-tête esthétique et lisible d'un coup d'œil.\n* **Responsive :** Ajustement automatique du nombre de jours selon la largeur de l'écran (mobile vs bureau).\n\n---\n\n## ⚙️ Guide d'installation\n\n*Remarque : Cette configuration utilise un **YAML Package** pour créer automatiquement tous les assistants, scripts et variables nécessaires. Vous n'avez pas besoin de les créer manuellement.*\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "rIuZRjYVgI872pyHRRAc2evQiHpUSwzcHCpa0ovrbAI=",
-        "originContent": "* **Weather & Date:** Beautiful, glanceable header.",
-        "translatedContent": "* **Météo & Date :** En-tête beau et facile à lire.  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 2,
-        "rowsha": "k8TZIHZOsKUOxbi2vttY/zbSee5ZBl/te2FVL+y6iek=",
-        "originContent": "* **Responsive:** Automatically adjusts day-count based on screen width (Mobile vs Desktop).",
-        "translatedContent": "* **Adaptatif :** Ajuste automatiquement le nombre de jours en fonction de la largeur de l’écran (Mobile vs Bureau).  "
+        "rowsha": "hnBfGh8KbE8U+2SIdT8Y0CQCK8iMZtKqwcg+iwsOnbI=",
+        "originContent": "I realized most offered similar functionality but differed significantly in price. Most importantly, I didn't see any outstanding feature that I couldn't implement in **Home Assistant**.",
+        "translatedContent": "J'ai constaté que la plupart offraient des fonctionnalités similaires mais différaient considérablement en prix. Plus important encore, je n'ai vu aucune fonctionnalité exceptionnelle que je ne pouvais pas implémenter dans **Home Assistant**."
       },
       {
         "row": 3,
@@ -282,9 +282,9 @@
       },
       {
         "row": 4,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": "---  "
+        "rowsha": "jP17a4v/FBunep5iCUEqbf50gL5R76Ia74FSvoNSNX0=",
+        "originContent": "**The Goal:** A WAF-approved (Wife Acceptance Factor), countertop-friendly touchscreen calendar that integrates deep into our smart home without monthly fees.",
+        "translatedContent": "**L'objectif :** Un calendrier tactile, esthétique pour le plan de travail et approuvé par le WAF (Wife Acceptance Factor), qui s'intègre profondément dans notre maison connectée sans frais mensuels."
       },
       {
         "row": 5,
@@ -294,9 +294,9 @@
       },
       {
         "row": 6,
-        "rowsha": "gBkURJuIjLuEwJa6OsvgMdWYrx/rIxrqGhejjzSkQbE=",
-        "originContent": "## ⚙️ Installation Guide",
-        "translatedContent": "## ⚙️ Guide d'installation  "
+        "rowsha": "QD73xfNOD0t5vUa/9DDYLV75Z0QW86HJtHQCcb34drA=",
+        "originContent": "## 💡 Why DIY?",
+        "translatedContent": "## 💡 Pourquoi le DIY ?"
       },
       {
         "row": 7,
@@ -306,9 +306,9 @@
       },
       {
         "row": 8,
-        "rowsha": "Y2W7WOQeEH3dkKcDVxzqQYPl8Op9pnYdDXoVSuMzVSQ=",
-        "originContent": "*Note: This setup uses a **YAML Package** to automatically create all the necessary helpers, scripts, and variables for you. You do not need to create them manually.*",
-        "translatedContent": "*Note : Cette configuration utilise un **package YAML** pour créer automatiquement tous les assistants, scripts et variables nécessaires. Vous n’avez pas besoin de les créer manuellement.*  "
+        "rowsha": "pAscW4xVov+tCae436iaNnjfewBcLfC8yYLnH6cyx4A=",
+        "originContent": "Choosing the DIY route with Home Assistant provided several benefits over buying a Skylight/Hearth display:",
+        "translatedContent": "Opter pour une solution DIY avec Home Assistant a offert plusieurs avantages par rapport à l'achat d'un écran Skylight/Hearth :"
       },
       {
         "row": 9,
@@ -318,81 +318,81 @@
       },
       {
         "row": 10,
-        "rowsha": "w3M5aknbYQp2SK4sdqCdtUQA6uhJJW38DP0ML5BhoA0=",
-        "originContent": "### 1. Prerequisites (HACS)",
-        "translatedContent": "### 1. Prérequis (HACS)  "
+        "rowsha": "8xjKZElXWIw23E5bhdHex/3cFeOUGFm9xtPCwP2u6iI=",
+        "originContent": "* **No Monthly Fees:** Avoids subscriptions for \"premium\" features.",
+        "translatedContent": "* **Pas de frais mensuels :** Évite les abonnements pour des fonctionnalités \"premium\"."
       },
       {
         "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
+        "rowsha": "tqZiPpCwS5OTt2TVkBHh7WgS0hEEkP3jkblL9NIeqbI=",
+        "originContent": "* **Seamless Integration:** It talks to our lights, chores (Grocy), and presence sensors.",
+        "translatedContent": "* **Intégration transparente :** Communique avec nos lumières, corvées (Grocy) et capteurs de présence."
       },
       {
         "row": 12,
-        "rowsha": "feazGA52PS82A35t0nwMmCLaatz/pWZKWtlr5lUo7RA=",
-        "originContent": "You must have [HACS](https://hacs.xyz/) installed. Please install the following **Frontend** integrations:",
-        "translatedContent": "Vous devez avoir [HACS](https://hacs.xyz/) installé. Veuillez installer les intégrations **Frontend** suivantes :  "
+        "rowsha": "Aueh1fyun3sMI5URhoMxb/WjeO2/h/fPg4WMGkA2HkQ=",
+        "originContent": "* **Old Hardware:** Repurposed a Mini PC and a standard monitor.",
+        "translatedContent": "* **Matériel ancien :** Réutilisation d'un Mini PC et d'un moniteur standard."
       },
       {
         "row": 13,
+        "rowsha": "Wmqul1wZcC7qL9rL5e6J1MPpN6BEs+8w7pM3j13+8Tk=",
+        "originContent": "* **Privacy:** No vendor lock-in or risk of the company shutting down.",
+        "translatedContent": "* **Confidentialité :** Pas de dépendance fournisseur ni risque d'arrêt du service."
+      },
+      {
+        "row": 14,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 14,
-        "rowsha": "ia5UcwUPRJ/c+xCjKBindUPaaosjrAzr6pRQwqVAe4s=",
-        "originContent": "* `week-planner-card`",
-        "translatedContent": "* `week-planner-card`  "
-      },
-      {
         "row": 15,
-        "rowsha": "KVzyACj5bb8Xxdp8DgmNHHPWWUi0LmY9MhbPh8ClOnE=",
-        "originContent": "* `bubble-card`",
-        "translatedContent": "* `bubble-card`  "
+        "rowsha": "RNvyrmDh5r3pkRKxFX8KF8U+6MBo/8Zd81i5HvrZRWc=",
+        "originContent": "## 🛠 Hardware Selection",
+        "translatedContent": "## 🛠 Sélection du matériel"
       },
       {
         "row": 16,
-        "rowsha": "ppAKIQ9jIpvBsgl/pFyDKVcLmpxBwUKyzxbYKln/sfM=",
-        "originContent": "* `config-template-card`",
-        "translatedContent": "* `config-template-card`  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 17,
-        "rowsha": "V9s8fkSivxacvpHEG7qFDqVfzfS5j8/I34DR6cIGZ/w=",
-        "originContent": "* `card-mod`",
-        "translatedContent": "* `card-mod`  "
+        "rowsha": "XnAQPnEFdBxSibvibBHFA+WYoNM5WykBDo7OPi9cP3U=",
+        "originContent": "This is currently built to show the dashboard on any HD (1920x1080) display.",
+        "translatedContent": "Ce système est actuellement conçu pour afficher le tableau de bord sur tout écran HD (1920x1080)."
       },
       {
         "row": 18,
-        "rowsha": "Yvg4ASfEq4IVbJRaKTLcOHWCpAw5ft58Bzp5Xl3A1gE=",
-        "originContent": "* `better-moment-card`",
-        "translatedContent": "* `better-moment-card`  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 19,
-        "rowsha": "ylI8L7de5jEL0rKOgZBPtBVMqi8xiYGv4r9pglB9HBg=",
-        "originContent": "* `weather-card`",
-        "translatedContent": "* `weather-card`  "
+        "rowsha": "sNGR2LpfAhG+R58nXhIP2pm91YV6yfKHpcLvY6r724A=",
+        "originContent": "In my case, the requirement was for it to \"look like\" skylight, be touchscreen, be countertop, possibility to move it to different locations. Therefore I went with the hardware described below.",
+        "translatedContent": "Dans mon cas, il fallait que cela \"ressemble à\" Skylight, soit tactile, puisse être posé sur le plan de travail et déplacé dans différents endroits. J'ai donc choisi le matériel décrit ci-dessous."
       },
       {
         "row": 20,
-        "rowsha": "WyfXSnW2xPpQELPzUDDkLgG/hg8MyB5/gCcwJecJlcE=",
-        "originContent": "* `browser_mod` (Required for the popups to work)",
-        "translatedContent": "* `browser_mod` (Nécessaire pour le fonctionnement des popups)  "
+        "rowsha": "NkJ/lFdfMv8cYy7XepWKgpbI76WrXsBeOT8OwaZDaqc=",
+        "originContent": "Nevertheless, you case might be different and will need you to adjust it as needed, for example if you want to display it on a tablet or something else.",
+        "translatedContent": "Cependant, votre cas peut être différent et nécessitera des adaptations, par exemple si vous souhaitez l'afficher sur une tablette ou autre."
       },
       {
         "row": 21,
-        "rowsha": "FcrhkBgjMStGFi7UVVUpQFpMt9G1Kom/jh2M9zidC/A=",
-        "originContent": "* `layout-card` (Required for the Sections view)",
-        "translatedContent": "* `layout-card` (Nécessaire pour la vue Sections)  "
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
       },
       {
         "row": 22,
-        "rowsha": "URiH6gihak0QzscfZQfqWcs3Z+/s8ev1Vhhn0hMGb8Q=",
-        "originContent": "* `button-card` (Required for the popup to add event)",
-        "translatedContent": "* `button-card` (Nécessaire pour le popup d’ajout d’événement)  "
+        "rowsha": "WaRbj1ahDxfdV2mKybTiFGDOqBE0O3/Jo4eKbJ6pquE=",
+        "originContent": "The hardware I originally used I chose based on what I mentioned above plus with the hope to be able to extend functionality using the webcam, speaker and microphone. Currently I would probably build it differently now in hindsight, since I havent had time to address these additional hardware ideas.",
+        "translatedContent": "Le matériel que j'ai utilisé à l'origine a été choisi sur la base des critères cités plus haut, avec l'idée de pouvoir étendre les fonctionnalités grâce à la webcam, aux haut-parleurs et au microphone. Aujourd'hui, avec le recul, je le construirais probablement différemment, car je n'ai pas eu le temps de mettre en œuvre ces idées matérielles supplémentaires."
       },
       {
         "row": 23,
@@ -402,32 +402,104 @@
       },
       {
         "row": 24,
-        "rowsha": "H+fo+22ooXg8ZCCUbVm38mSpTf02uh+zzBUgzVcS998=",
-        "originContent": "### 2. The Backend (The Brains)",
-        "translatedContent": "### 2. Le Backend (Le Cerveau)  "
+        "rowsha": "WJKLc4AvOTEz6Vvq7CHUdG7tjApkLh+ytO+MUUk4vI8=",
+        "originContent": "* **Monitor:** [HP Engage 15-inch Touchscreen](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). I chose this over generic portable monitors because it includes a built-in **Speaker, Webcam, and Microphone**, allowing for future voice control or video calls.",
+        "translatedContent": "* **Moniteur :** [HP Engage 15 pouces Écran Tactile](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). Je l'ai préféré aux moniteurs portables génériques car il inclut un **haut-parleur, une webcam et un microphone** intégrés, permettant un contrôle vocal ou des appels vidéo à l'avenir."
       },
       {
         "row": 25,
+        "rowsha": "K/3B483Kc07UXQjty8cZFkMic/dGIUaEOMdb0LANCBk=",
+        "originContent": "* **Computer:** An old Mini PC (NUC/Tiny PC) running Windows/Linux in Kiosk mode, or a Raspberry Pi 4.~~",
+        "translatedContent": "* **Ordinateur :** Un vieux Mini PC (NUC/Tiny PC) sous Windows/Linux en mode Kiosk, ou un Raspberry Pi 4.~~"
+      },
+      {
+        "row": 26,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 26,
-        "rowsha": "aw4SFRZxa3jGkWxfwD0SAPFFN1fJSRYT15N3Uo6JMPs=",
-        "originContent": "1. Open your `configuration.yaml` file in Home Assistant.",
-        "translatedContent": "1. Ouvrez votre fichier `configuration.yaml` dans Home Assistant.  "
-      },
-      {
         "row": 27,
-        "rowsha": "MonCsGTwlpHZd5y3f/fYWGlzXxEQDYIxgx+SzbqkLuo=",
-        "originContent": "2. Ensure you have this line added under `homeassistant:` to enable packages:",
-        "translatedContent": "2. Assurez-vous d’avoir cette ligne ajoutée sous `homeassistant:` pour activer les packages :"
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ✨ Fonctionnalités"
       },
       {
         "row": 28,
+        "rowsha": "VzDxHMl0vKby6BK5RJlfHxPFit1vMlpPiL5Nfi50CNE=",
+        "originContent": "## ✨ Features",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
+        "translatedContent": "* **Vues famille et individuelles :** Basculez les calendriers de membres de la famille spécifiques."
+      },
+      {
+        "row": 30,
+        "rowsha": "e+bxyJSkfcuGkAXp7cRk+r6LjSeIFCs8mFUalmKc5Ro=",
+        "originContent": "* **Family-wide & Individual Views:** Toggle specific family members' calendars on/off.",
+        "translatedContent": "* **Synchronisation bidirectionnelle :** Modifiez les événements sur l'écran ou depuis nos téléphones (Google Agenda)."
+      },
+      {
+        "row": 31,
+        "rowsha": "fhbdhdWGD8QoIJqVapA/sA3LY9cwf4yoIiQwlkOqYrY=",
+        "originContent": "* **Two-way Sync:** Edit events on the screen or on our phones (Google Calendar).",
+        "translatedContent": "* **Popup \"Ajouter un événement\" :** Une interface personnalisée pour ajouter des événements à des calendriers spécifiques directement depuis l'écran."
+      },
+      {
+        "row": 32,
+        "rowsha": "52Q3DbbFTlcUTM6BtuKNB3CFi5Nyp9AmQx+WaygdpJM=",
+        "originContent": "* **\"Add Event\" Popup:** A custom UI to add events to specific calendars directly from the screen.",
+        "translatedContent": "* **Météo & Date :** En-tête esthétique et lisible d'un coup d'œil."
+      },
+      {
+        "row": 33,
+        "rowsha": "rIuZRjYVgI872pyHRRAc2evQiHpUSwzcHCpa0ovrbAI=",
+        "originContent": "* **Weather & Date:** Beautiful, glanceable header.",
+        "translatedContent": "* **Responsive :** Ajustement automatique du nombre de jours selon la largeur de l'écran (mobile vs bureau)."
+      },
+      {
+        "row": 34,
+        "rowsha": "k8TZIHZOsKUOxbi2vttY/zbSee5ZBl/te2FVL+y6iek=",
+        "originContent": "* **Responsive:** Automatically adjusts day-count based on screen width (Mobile vs Desktop).",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "---"
+      },
+      {
+        "row": 36,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ⚙️ Guide d'installation"
+      },
+      {
+        "row": 38,
+        "rowsha": "gBkURJuIjLuEwJa6OsvgMdWYrx/rIxrqGhejjzSkQbE=",
+        "originContent": "## ⚙️ Installation Guide",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "*Remarque : Cette configuration utilise un **YAML Package** pour créer automatiquement tous les assistants, scripts et variables nécessaires. Vous n'avez pas besoin de les créer manuellement.*"
+      },
+      {
+        "row": 40,
+        "rowsha": "Y2W7WOQeEH3dkKcDVxzqQYPl8Op9pnYdDXoVSuMzVSQ=",
+        "originContent": "*Note: This setup uses a **YAML Package** to automatically create all the necessary helpers, scripts, and variables for you. You do not need to create them manually.*",
         "translatedContent": ""
       }
     ],
@@ -435,6 +507,139 @@
   },
   {
     "Id": 3,
+    "Content": "\n### 1. Prerequisites (HACS)\n\nYou must have [HACS](https://hacs.xyz/) installed. Please install the following **Frontend** integrations:\n\n* `week-planner-card`\n* `bubble-card`\n* `config-template-card`\n* `card-mod`\n* `better-moment-card`\n* `weather-card`\n* `browser_mod` (Required for the popups to work)\n* `layout-card` (Required for the Sections view)\n* `button-card` (Required for the popup to add event)\n\n### 2. The Backend (The Brains)\n\n1. Open your `configuration.yaml` file in Home Assistant.\n2. Ensure you have this line added under `homeassistant:` to enable packages:\n",
+    "ContentSha": "dF/Mt+M03cIS+YUYob1DuqAoyLOQzwKcfcJEi50MLpE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### 1. Prérequis (HACS)\n\nVous devez avoir [HACS](https://hacs.xyz/) installé. Veuillez installer les intégrations **Frontend** suivantes :\n\n* `week-planner-card`\n* `bubble-card`\n* `config-template-card`\n* `card-mod`\n* `better-moment-card`\n* `weather-card`\n* `browser_mod` (Nécessaire pour le fonctionnement des popups)\n* `layout-card` (Nécessaire pour la vue Sections)\n* `button-card` (Nécessaire pour le popup d'ajout d'événement)\n\n### 2. Le Backend (Le Cerveau)\n\n1. Ouvrez votre fichier `configuration.yaml` dans Home Assistant.\n2. Assurez-vous d’avoir ajouté cette ligne sous `homeassistant:` pour activer les packages :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "w3M5aknbYQp2SK4sdqCdtUQA6uhJJW38DP0ML5BhoA0=",
+        "originContent": "### 1. Prerequisites (HACS)",
+        "translatedContent": "### 1. Prérequis (HACS)"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "feazGA52PS82A35t0nwMmCLaatz/pWZKWtlr5lUo7RA=",
+        "originContent": "You must have [HACS](https://hacs.xyz/) installed. Please install the following **Frontend** integrations:",
+        "translatedContent": "Vous devez avoir [HACS](https://hacs.xyz/) installé. Veuillez installer les intégrations **Frontend** suivantes :"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "ia5UcwUPRJ/c+xCjKBindUPaaosjrAzr6pRQwqVAe4s=",
+        "originContent": "* `week-planner-card`",
+        "translatedContent": "* `week-planner-card`"
+      },
+      {
+        "row": 7,
+        "rowsha": "KVzyACj5bb8Xxdp8DgmNHHPWWUi0LmY9MhbPh8ClOnE=",
+        "originContent": "* `bubble-card`",
+        "translatedContent": "* `bubble-card`"
+      },
+      {
+        "row": 8,
+        "rowsha": "ppAKIQ9jIpvBsgl/pFyDKVcLmpxBwUKyzxbYKln/sfM=",
+        "originContent": "* `config-template-card`",
+        "translatedContent": "* `config-template-card`"
+      },
+      {
+        "row": 9,
+        "rowsha": "V9s8fkSivxacvpHEG7qFDqVfzfS5j8/I34DR6cIGZ/w=",
+        "originContent": "* `card-mod`",
+        "translatedContent": "* `card-mod`"
+      },
+      {
+        "row": 10,
+        "rowsha": "Yvg4ASfEq4IVbJRaKTLcOHWCpAw5ft58Bzp5Xl3A1gE=",
+        "originContent": "* `better-moment-card`",
+        "translatedContent": "* `better-moment-card`"
+      },
+      {
+        "row": 11,
+        "rowsha": "ylI8L7de5jEL0rKOgZBPtBVMqi8xiYGv4r9pglB9HBg=",
+        "originContent": "* `weather-card`",
+        "translatedContent": "* `weather-card`"
+      },
+      {
+        "row": 12,
+        "rowsha": "WyfXSnW2xPpQELPzUDDkLgG/hg8MyB5/gCcwJecJlcE=",
+        "originContent": "* `browser_mod` (Required for the popups to work)",
+        "translatedContent": "* `browser_mod` (Nécessaire pour le fonctionnement des popups)"
+      },
+      {
+        "row": 13,
+        "rowsha": "FcrhkBgjMStGFi7UVVUpQFpMt9G1Kom/jh2M9zidC/A=",
+        "originContent": "* `layout-card` (Required for the Sections view)",
+        "translatedContent": "* `layout-card` (Nécessaire pour la vue Sections)"
+      },
+      {
+        "row": 14,
+        "rowsha": "URiH6gihak0QzscfZQfqWcs3Z+/s8ev1Vhhn0hMGb8Q=",
+        "originContent": "* `button-card` (Required for the popup to add event)",
+        "translatedContent": "* `button-card` (Nécessaire pour le popup d'ajout d'événement)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "H+fo+22ooXg8ZCCUbVm38mSpTf02uh+zzBUgzVcS998=",
+        "originContent": "### 2. The Backend (The Brains)",
+        "translatedContent": "### 2. Le Backend (Le Cerveau)"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "aw4SFRZxa3jGkWxfwD0SAPFFN1fJSRYT15N3Uo6JMPs=",
+        "originContent": "1. Open your `configuration.yaml` file in Home Assistant.",
+        "translatedContent": "1. Ouvrez votre fichier `configuration.yaml` dans Home Assistant."
+      },
+      {
+        "row": 19,
+        "rowsha": "MonCsGTwlpHZd5y3f/fYWGlzXxEQDYIxgx+SzbqkLuo=",
+        "originContent": "2. Ensure you have this line added under `homeassistant:` to enable packages:",
+        "translatedContent": "2. Assurez-vous d’avoir ajouté cette ligne sous `homeassistant:` pour activer les packages :"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
     "Content": "   ```yaml\n   homeassistant:\n     packages: !include_dir_named packages\n   ```",
     "ContentSha": "mwOQJwXhWXu/CbHOHkk1gtiFWj2mfbd9WjFEkTtIxRA=",
     "SectionType": "",
@@ -442,36 +647,11 @@
     "EndLine": 0,
     "Translation": "   ```yaml\n   homeassistant:\n     packages: !include_dir_named packages\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "d4Nh96RDflJXS7qID6zX8Ei83ADY0SnevUcR/0fljQM=",
-        "originContent": "   ```yaml",
-        "translatedContent": "   ```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "uXiXdv1WHCY+f2M8fyONfY6QhhwzOmM2iFkxMhlJYS4=",
-        "originContent": "   homeassistant:",
-        "translatedContent": "   homeassistant:"
-      },
-      {
-        "row": 3,
-        "rowsha": "GEvYf4yRSBSDgiGNGZCCidcak7evVUK5xEPHl88s6+g=",
-        "originContent": "     packages: !include_dir_named packages",
-        "translatedContent": "     packages: !include_dir_named packages"
-      },
-      {
-        "row": 4,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 4,
+    "Id": 5,
     "Content": "\n3. Create a folder named `packages` in your HA config directory (if you don't have one).\n4. Download [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) from this repo.\n5. Place the file inside your `packages/` folder.\n6. **Restart Home Assistant**.\n\n### 3. The Calendars\n\nYou can use **Google Calendars** or **Local Calendars**.\n\n#### Option A: Local Calendar (Easiest)\n\nNote this is untested since I use Google Calendars exclusively\n\n1. Go to **Settings > Devices & Services**.\n2. Add the **Local Calendar** integration.\n3. Create calendars named exactly: `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`.\n    * *If you use these names, the code works out of the box!*\n\n#### Option B: Google Calendar\n\n1. Open `packages/family_calendar.yaml`.\n2. Scroll to the `add_google_calendar_event` script.\n3. Update the `calendar_map` to point to your real Google entities:\n",
     "ContentSha": "HpYkBcTiJVxDReORxO2CREpwWmhsmHWJ81ExoMxouas=",
     "SectionType": "",
@@ -479,162 +659,11 @@
     "EndLine": 0,
     "Translation": "3. Créez un dossier nommé `packages` dans votre répertoire de configuration HA (si vous n'en avez pas).\n4. Téléchargez [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) depuis ce dépôt.\n5. Placez le fichier dans votre dossier `packages/`.\n6. **Redémarrez Home Assistant**.\n\n### 3. Les Calendriers\n\nVous pouvez utiliser **Google Calendars** ou **Local Calendars**.\n\n#### Option A : Calendrier local (le plus simple)\n\nNotez que cela n'a pas été testé puisque j'utilise exclusivement Google Calendars\n\n1. Allez dans **Paramètres > Appareils & Services**.\n2. Ajoutez l'intégration **Local Calendar**.\n3. Créez des calendriers nommés exactement : `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`.\n    * *Si vous utilisez ces noms, le code fonctionne immédiatement !*\n\n#### Option B : Google Calendar\n\n1. Ouvrez `packages/family_calendar.yaml`.\n2. Faites défiler jusqu'au script `add_google_calendar_event`.\n3. Mettez à jour le `calendar_map` pour pointer vers vos vraies entités Google :\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "3. Créez un dossier nommé `packages` dans votre répertoire de configuration HA (si vous n'en avez pas)."
-      },
-      {
-        "row": 2,
-        "rowsha": "RNRBmV5wuCxsN9kQ3DdgfCqq4HvZdU8TFYoS8NdEXR0=",
-        "originContent": "3. Create a folder named `packages` in your HA config directory (if you don't have one).",
-        "translatedContent": "4. Téléchargez [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) depuis ce dépôt."
-      },
-      {
-        "row": 3,
-        "rowsha": "lNmWWcyR7I7uHv7CgPRbGwDeNnRQ01h7n0+t7eP6XYE=",
-        "originContent": "4. Download [packages/family_calendar.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/packages/family_calendar.yaml) from this repo.",
-        "translatedContent": "5. Placez le fichier dans votre dossier `packages/`."
-      },
-      {
-        "row": 4,
-        "rowsha": "DcJpXwbe9QeF7WYdCmPB24A6rpWWOH98SFU4b/v3+Oo=",
-        "originContent": "5. Place the file inside your `packages/` folder.",
-        "translatedContent": "6. **Redémarrez Home Assistant**."
-      },
-      {
-        "row": 5,
-        "rowsha": "C5oSmI66lPM2jvLDqQXGg23tGYypd4rXZeMgGoNl40A=",
-        "originContent": "6. **Restart Home Assistant**.",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### 3. Les Calendriers"
-      },
-      {
-        "row": 7,
-        "rowsha": "1Qal3HDoY2gN67MWX7ll8J3apJdBOsHWfGPXhX5YBfo=",
-        "originContent": "### 3. The Calendars",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Vous pouvez utiliser **Google Calendars** ou **Local Calendars**."
-      },
-      {
-        "row": 9,
-        "rowsha": "ZmcXeL6XKWOBdvi9LoF0hkCrjXcDZBbGf2mLNLJq9Ts=",
-        "originContent": "You can use **Google Calendars** or **Local Calendars**.",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "#### Option A : Calendrier local (le plus simple)"
-      },
-      {
-        "row": 11,
-        "rowsha": "NLhOk+GmX8WsAtwG27PVpCE4bnQaikei+NDh4x9Hmys=",
-        "originContent": "#### Option A: Local Calendar (Easiest)",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Notez que cela n'a pas été testé puisque j'utilise exclusivement Google Calendars"
-      },
-      {
-        "row": 13,
-        "rowsha": "GgekKp+C1+C/DhOPpoZCTOxxgqAQytIkFj//J7FgqdQ=",
-        "originContent": "Note this is untested since I use Google Calendars exclusively",
-        "translatedContent": ""
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. Allez dans **Paramètres > Appareils & Services**."
-      },
-      {
-        "row": 15,
-        "rowsha": "k0QZcITy1Qvxr6N2BCp9c/g8r2vTaGReQ9r3XThmvdY=",
-        "originContent": "1. Go to **Settings > Devices & Services**.",
-        "translatedContent": "2. Ajoutez l'intégration **Local Calendar**."
-      },
-      {
-        "row": 16,
-        "rowsha": "zKvqs77ZtxcVlJGmQQoSZZpwRq2ToG1s6CBPsfxXW3c=",
-        "originContent": "2. Add the **Local Calendar** integration.",
-        "translatedContent": "3. Créez des calendriers nommés exactement : `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`."
-      },
-      {
-        "row": 17,
-        "rowsha": "G8MWQWafBuBrLzkpL6XyNwFE0okwEDk9oOFoiHG9CJQ=",
-        "originContent": "3. Create calendars named exactly: `Alice`, `Bob`, `Charlie`, `Daisy`, `Family`.",
-        "translatedContent": "    * *Si vous utilisez ces noms, le code fonctionne immédiatement !*"
-      },
-      {
-        "row": 18,
-        "rowsha": "guHEMdiGKNbvW4sge6gsuzz4ydGb+ohDZpeBCcmpDnU=",
-        "originContent": "    * *If you use these names, the code works out of the box!*",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "#### Option B : Google Calendar"
-      },
-      {
-        "row": 20,
-        "rowsha": "AmcFOmXV/EJxpDQMW3LFs6O/XJLmG15UGrSdw03EPEw=",
-        "originContent": "#### Option B: Google Calendar",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "1. Ouvrez `packages/family_calendar.yaml`."
-      },
-      {
-        "row": 22,
-        "rowsha": "k7qVRXn2PcHy8b7KrgTc4+KO60cek33w952npOXSd9Y=",
-        "originContent": "1. Open `packages/family_calendar.yaml`.",
-        "translatedContent": "2. Faites défiler jusqu'au script `add_google_calendar_event`."
-      },
-      {
-        "row": 23,
-        "rowsha": "UI+ktO1vrioPfWMxfE8iekQ/zCSrGfwbBioW4otW58w=",
-        "originContent": "2. Scroll to the `add_google_calendar_event` script.",
-        "translatedContent": "3. Mettez à jour le `calendar_map` pour pointer vers vos vraies entités Google :"
-      },
-      {
-        "row": 24,
-        "rowsha": "ExvPjpMKOcCYK3/lLyTkqrSJrsyc9uBlMRt8Z+DUmac=",
-        "originContent": "3. Update the `calendar_map` to point to your real Google entities:",
-        "translatedContent": ""
-      },
-      {
-        "row": 25,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 5,
+    "Id": 6,
     "Content": "    ```yaml\n    calendar_map:\n      \"Alice\": \"calendar.alice_gmail_com\"\n      \"Bob\": \"calendar.bob_work_account\"\n    ```",
     "ContentSha": "leFTyTfdA25kbkWsWUVZj/3XQL0roZtK2mfNv7/u/I4=",
     "SectionType": "",
@@ -642,42 +671,11 @@
     "EndLine": 0,
     "Translation": "    ```yaml\n    calendar_map:\n      \"Alice\": \"calendar.alice_gmail_com\"\n      \"Bob\": \"calendar.bob_work_account\"\n    ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "Smd7uFXHZ4A5mJmhjQad/x3aA2YbRNb3MKBFsn8S6eU=",
-        "originContent": "    ```yaml",
-        "translatedContent": "    ```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "v5Gvg2S1MiFleY3Fw+Bq5q8ehyiGZjdE5E1aicy0slI=",
-        "originContent": "    calendar_map:",
-        "translatedContent": "    calendar_map:"
-      },
-      {
-        "row": 3,
-        "rowsha": "uHTqObs3uW5xaa2shGDFBvI1aOH2XFNYDZzfu2dHUZc=",
-        "originContent": "      \"Alice\": \"calendar.alice_gmail_com\"",
-        "translatedContent": "      \"Alice\": \"calendar.alice_gmail_com\""
-      },
-      {
-        "row": 4,
-        "rowsha": "WoSUvlhWEuKGWKysbcq2Sw7tziJ6ds0IXoKzBaWspuo=",
-        "originContent": "      \"Bob\": \"calendar.bob_work_account\"",
-        "translatedContent": "      \"Bob\": \"calendar.bob_work_account\""
-      },
-      {
-        "row": 5,
-        "rowsha": "7em5kHTNO1cPWnaxB4H1GFdKMaKdWtteFc09etZSl0o=",
-        "originContent": "    ```",
-        "translatedContent": "    ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 6,
+    "Id": 7,
     "Content": "\n#### Setting up Holidays\n\nSince Home Assistant updates, Holidays are now added via UI:\n\n1. Go to **Settings > Devices & Services > Add Integration > Holiday**.\n2. Select your country.\n3. Check the entity ID (e.g., `calendar.holidays`). If it differs from the default, update it in the dashboard YAML.\n\n### 4. The Dashboard (The Look)\n\n1. Create a new Dashboard View (Set View Type to **Sections**).\n2. Copy the code from [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).\n3. **Customize:**\n   * **Search & Replace:** Replace `person.alice` with your actual family member entities.\n   * **Weather:** Replace `weather.home` with your weather provider.\n   * **Background:** Update the image URL at the bottom of the yaml.\n\n### Step 5: The Theme (Optional)\n\nTo get the specific font look (Ovo):\n\n1. Ensure your `configuration.yaml` has this line under `frontend:`\n",
     "ContentSha": "SqiO2eiDFiab8kQj6qOsRmfcdYe2/69LNVIq3JdrcDM=",
     "SectionType": "",
@@ -685,156 +683,11 @@
     "EndLine": 0,
     "Translation": "\n#### Configuration des jours fériés\n\nDepuis les mises à jour de Home Assistant, les jours fériés sont désormais ajoutés via l'interface utilisateur :\n\n1. Allez dans **Paramètres > Appareils et services > Ajouter une intégration > Jour férié**.\n2. Sélectionnez votre pays.\n3. Vérifiez l'ID de l'entité (par exemple, `calendar.holidays`). S'il diffère de la valeur par défaut, mettez-le à jour dans le YAML du tableau de bord.\n\n### 4. Le tableau de bord (L'aspect)\n\n1. Créez une nouvelle vue du tableau de bord (Réglez le type de vue sur **Sections**).\n2. Copiez le code depuis [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).\n3. **Personnalisez :**\n   * **Rechercher et remplacer :** Remplacez `person.alice` par vos entités réelles des membres de la famille.\n   * **Météo :** Remplacez `weather.home` par votre fournisseur météo.\n   * **Arrière-plan :** Mettez à jour l'URL de l'image en bas du yaml.\n\n### Étape 5 : Le thème (Optionnel)\n\nPour obtenir le style de police spécifique (Ovo) :\n\n1. Assurez-vous que votre `configuration.yaml` contient cette ligne sous `frontend:`\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "7mxVzBe96TosqQfcENOHfcIHSqg9vgNvIAzsG1MNkSY=",
-        "originContent": "#### Setting up Holidays",
-        "translatedContent": "#### Configuration des jours fériés"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "VXEI/M4G4lNtR4FfOt98HLiQNF49i4xpx664jGgKyNo=",
-        "originContent": "Since Home Assistant updates, Holidays are now added via UI:",
-        "translatedContent": "Depuis les mises à jour de Home Assistant, les jours fériés sont désormais ajoutés via l'interface utilisateur :"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "7lR366bwFsAcjUXoRV+oV0yuOpXhgb31132jz0LdmDI=",
-        "originContent": "1. Go to **Settings > Devices & Services > Add Integration > Holiday**.",
-        "translatedContent": "1. Allez dans **Paramètres > Appareils et services > Ajouter une intégration > Jour férié**."
-      },
-      {
-        "row": 7,
-        "rowsha": "Qlph9kR2QzZOOpEndvKTrdNCqpIOtBr20P2EgAIQ68U=",
-        "originContent": "2. Select your country.",
-        "translatedContent": "2. Sélectionnez votre pays."
-      },
-      {
-        "row": 8,
-        "rowsha": "A+kTv7G+3/5wmKFt8JWB8sjq4JCTgq9sxryz62r6HWk=",
-        "originContent": "3. Check the entity ID (e.g., `calendar.holidays`). If it differs from the default, update it in the dashboard YAML.",
-        "translatedContent": "3. Vérifiez l'ID de l'entité (par exemple, `calendar.holidays`). S'il diffère de la valeur par défaut, mettez-le à jour dans le YAML du tableau de bord."
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "gpW8ewhtsK6mHzGiccGlKR2qOebLJUmED/ouswvgEsA=",
-        "originContent": "### 4. The Dashboard (The Look)",
-        "translatedContent": "### 4. Le tableau de bord (L'aspect)"
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 12,
-        "rowsha": "QsE0X0xi0pYoBRgTfWNmvCeVlpbT5I1SWtb4MoZihCs=",
-        "originContent": "1. Create a new Dashboard View (Set View Type to **Sections**).",
-        "translatedContent": "1. Créez une nouvelle vue du tableau de bord (Réglez le type de vue sur **Sections**)."
-      },
-      {
-        "row": 13,
-        "rowsha": "B5zPZMcUOjACqhzb6B2kbRT04KbqFsYjznWViPfSnVQ=",
-        "originContent": "2. Copy the code from [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml).",
-        "translatedContent": "2. Copiez le code depuis [dashboard.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/dashboard.yaml)."
-      },
-      {
-        "row": 14,
-        "rowsha": "busH0YbaR2Hc6YUq+nu+iyHLuqjGXoWZqKJJa9s/p8M=",
-        "originContent": "3. **Customize:**",
-        "translatedContent": "3. **Personnalisez :**"
-      },
-      {
-        "row": 15,
-        "rowsha": "Ztx/3y/pkBIq9cHVNTLyiMZzfr7xh8uRnqIFx6bgp9k=",
-        "originContent": "   * **Search & Replace:** Replace `person.alice` with your actual family member entities.",
-        "translatedContent": "   * **Rechercher et remplacer :** Remplacez `person.alice` par vos entités réelles des membres de la famille."
-      },
-      {
-        "row": 16,
-        "rowsha": "dc98r25xlZYuwBGeFnfaNNr8UwdbyMODr7ipiHqP52M=",
-        "originContent": "   * **Weather:** Replace `weather.home` with your weather provider.",
-        "translatedContent": "   * **Météo :** Remplacez `weather.home` par votre fournisseur météo."
-      },
-      {
-        "row": 17,
-        "rowsha": "+6eoZpeyDlipjw718MrsotC632seCiz0JCukEFTw0h0=",
-        "originContent": "   * **Background:** Update the image URL at the bottom of the yaml.",
-        "translatedContent": "   * **Arrière-plan :** Mettez à jour l'URL de l'image en bas du yaml."
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "j4DA92N/VQryaiizcJWNITub3e6krMB1Iox3retWQKo=",
-        "originContent": "### Step 5: The Theme (Optional)",
-        "translatedContent": "### Étape 5 : Le thème (Optionnel)"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "T9AH32k5A9dGb9X3cCjQdj68Q1DGSVcPm54ehfj58zU=",
-        "originContent": "To get the specific font look (Ovo):",
-        "translatedContent": "Pour obtenir le style de police spécifique (Ovo) :"
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 23,
-        "rowsha": "+pXFfCs1PaaHtzl4uO7dYGQ3v3C9dNyzFqPREt74H+w=",
-        "originContent": "1. Ensure your `configuration.yaml` has this line under `frontend:`",
-        "translatedContent": "1. Assurez-vous que votre `configuration.yaml` contient cette ligne sous `frontend:`"
-      },
-      {
-        "row": 24,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 7,
+    "Id": 8,
     "Content": "   ```yaml\n   frontend:\n     themes: !include_dir_merge_named themes\n   ```",
     "ContentSha": "b7pGtomNZA3hgQuIbAiq+j7Km0/jcBIfkoynd94dd44=",
     "SectionType": "",
@@ -842,36 +695,11 @@
     "EndLine": 0,
     "Translation": "   ```yaml\n   frontend:\n     themes: !include_dir_merge_named themes\n   ```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "d4Nh96RDflJXS7qID6zX8Ei83ADY0SnevUcR/0fljQM=",
-        "originContent": "   ```yaml",
-        "translatedContent": "   ```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "a6uMpjnQBcAzOfM0PDj+vMPAB/RxsAo20OzF0OX9/vU=",
-        "originContent": "   frontend:",
-        "translatedContent": "   frontend:"
-      },
-      {
-        "row": 3,
-        "rowsha": "cC+svrfFuq9ox7K6W966Qcrt7IOIk1kySG1mrwckFWo=",
-        "originContent": "     themes: !include_dir_merge_named themes",
-        "translatedContent": "     themes: !include_dir_merge_named themes"
-      },
-      {
-        "row": 4,
-        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
-        "originContent": "   ```",
-        "translatedContent": "   ```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 8,
+    "Id": 9,
     "Content": "\n2. Create a folder named `themes` in your config directory.\n3. Download [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) and place it in that folder.\n4. Restart Home Assistant.\n5. Go to your Profile (User Icon bottom left) and change **Theme** to `Skylight`.\nNOTE: The theme is not comprehensive, so keep that in mind\n\n---\n\n## 📐 How It Works (Under the Hood)\n\n### Filter Logic\n\nThe `week-planner-card` does not natively support hiding specific calendars on the fly. To solve this, I used **Input Texts** acting as Regex filters.\n\n* When you click a person's button, it toggles their filter between `.*` (Show everything) and `^$` (Show nothing).\n* `config-template-card` injects these variables into the calendar card dynamically.\n\n### Event Creation Script\n\nThe \"Add Event\" popup uses a single script that handles logic for multiple people and event types (All Day vs Timed).\n",
     "ContentSha": "huE32Ag6lT2O7owhecTu4boisj5hfSLMIXT//QTVI0o=",
     "SectionType": "",
@@ -879,144 +707,11 @@
     "EndLine": 0,
     "Translation": "2. Créez un dossier nommé `themes` dans votre répertoire de configuration.  \n3. Téléchargez [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) et placez-le dans ce dossier.  \n4. Redémarrez Home Assistant.  \n5. Allez dans votre Profil (Icône Utilisateur en bas à gauche) et changez le **Thème** pour `Skylight`.  \nNOTE : Le thème n’est pas complet, gardez cela à l’esprit  \n\n---\n\n## 📐 Comment ça fonctionne (dans les coulisses)  \n\n### Logique du filtre  \n\nLa `week-planner-card` ne supporte pas nativement la possibilité de masquer des calendriers spécifiques à la volée. Pour résoudre cela, j’ai utilisé des **Input Texts** agissant comme des filtres Regex.  \n\n* Lorsque vous cliquez sur le bouton d’une personne, cela bascule son filtre entre `.*` (Tout afficher) et `^$` (Ne rien afficher).  \n* `config-template-card` injecte ces variables dans la carte calendrier de façon dynamique.  \n\n### Script de création d’événement  \n\nLa fenêtre contextuelle \"Ajouter un événement\" utilise un seul script qui gère la logique pour plusieurs personnes et types d’événements (Toute la journée vs Horaires).\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "2. Créez un dossier nommé `themes` dans votre répertoire de configuration.  "
-      },
-      {
-        "row": 2,
-        "rowsha": "YY4TwuM5odD3e2jvJM0+bUdWaKLR5gdN0VMGL0kXf2E=",
-        "originContent": "2. Create a folder named `themes` in your config directory.",
-        "translatedContent": "3. Téléchargez [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) et placez-le dans ce dossier.  "
-      },
-      {
-        "row": 3,
-        "rowsha": "lK2y4FzhM9bTiRzJy0JCuZ1qUldeODr/OD2gAfM0jwk=",
-        "originContent": "3. Download [themes/skylight.yaml](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/themes/skylight.yaml) and place it in that folder.",
-        "translatedContent": "4. Redémarrez Home Assistant.  "
-      },
-      {
-        "row": 4,
-        "rowsha": "1PL6DAd0P86p7jKZQ153sDYI1Qow1TldLUC/8s1u68M=",
-        "originContent": "4. Restart Home Assistant.",
-        "translatedContent": "5. Allez dans votre Profil (Icône Utilisateur en bas à gauche) et changez le **Thème** pour `Skylight`.  "
-      },
-      {
-        "row": 5,
-        "rowsha": "+q7+KJMwTebsRfPtpdgwVkYwJHGxrI+k0PNQ8gbLZ/w=",
-        "originContent": "5. Go to your Profile (User Icon bottom left) and change **Theme** to `Skylight`.",
-        "translatedContent": "NOTE : Le thème n’est pas complet, gardez cela à l’esprit  "
-      },
-      {
-        "row": 6,
-        "rowsha": "PJFaft4Q8d7Ma/wUi202Zs1aLg1uZ4lc7NrpQfiqu2w=",
-        "originContent": "NOTE: The theme is not comprehensive, so keep that in mind",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "---"
-      },
-      {
-        "row": 8,
-        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
-        "originContent": "---",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## 📐 Comment ça fonctionne (dans les coulisses)  "
-      },
-      {
-        "row": 10,
-        "rowsha": "Wz12KyvxOnOP4Xb1FWlqzPjE8YFjKJVPAZl/6LgM3nk=",
-        "originContent": "## 📐 How It Works (Under the Hood)",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Logique du filtre  "
-      },
-      {
-        "row": 12,
-        "rowsha": "cD/dXGPqbN4xkhaZPgCuHHcKGJDvqULnlH+WMwaUpMM=",
-        "originContent": "### Filter Logic",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "La `week-planner-card` ne supporte pas nativement la possibilité de masquer des calendriers spécifiques à la volée. Pour résoudre cela, j’ai utilisé des **Input Texts** agissant comme des filtres Regex.  "
-      },
-      {
-        "row": 14,
-        "rowsha": "6fD0zu/WrruSpOY3D6DvP/oNvErk0iw6UyxEXGsvWKk=",
-        "originContent": "The `week-planner-card` does not natively support hiding specific calendars on the fly. To solve this, I used **Input Texts** acting as Regex filters.",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "* Lorsque vous cliquez sur le bouton d’une personne, cela bascule son filtre entre `.*` (Tout afficher) et `^$` (Ne rien afficher).  "
-      },
-      {
-        "row": 16,
-        "rowsha": "O+wpLcDDj7HEpCzvnVBbp8MIYDYSCkKpnvXrE/H8pv8=",
-        "originContent": "* When you click a person's button, it toggles their filter between `.*` (Show everything) and `^$` (Show nothing).",
-        "translatedContent": "* `config-template-card` injecte ces variables dans la carte calendrier de façon dynamique.  "
-      },
-      {
-        "row": 17,
-        "rowsha": "Q2xhrcc0rvQF+mBh2p1uDljezIo7OpOiCttPwuScQ3w=",
-        "originContent": "* `config-template-card` injects these variables into the calendar card dynamically.",
-        "translatedContent": ""
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Script de création d’événement  "
-      },
-      {
-        "row": 19,
-        "rowsha": "uRJpt2m1Q3r68xG64zqJHJc+cae/MMxCfqaMlviji8g=",
-        "originContent": "### Event Creation Script",
-        "translatedContent": ""
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "La fenêtre contextuelle \"Ajouter un événement\" utilise un seul script qui gère la logique pour plusieurs personnes et types d’événements (Toute la journée vs Horaires)."
-      },
-      {
-        "row": 21,
-        "rowsha": "q+Hlzel7+QGnu2adDrVIbKOeOBWxLf09f1ODTOIgJI0=",
-        "originContent": "The \"Add Event\" popup uses a single script that handles logic for multiple people and event types (All Day vs Timed).",
-        "translatedContent": ""
-      },
-      {
-        "row": 22,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 9,
+    "Id": 10,
     "Content": "```yaml\n# Simplified Logic Example\ntarget_calendar: \"{{ calendar_map.get(states('input_select.calendar_select')) }}\"\n\nchoose:\n  - conditions: \"All Day Event is ON\"\n    action: calendar.create_event (start_date, end_date)\n  - conditions: \"All Day Event is OFF\"\n    action: calendar.create_event (start_date_time, end_date_time)\n```",
     "ContentSha": "0XtK38fovqlAq5msmKlykvnJT22xfD2eSRz070p8Ro4=",
     "SectionType": "",
@@ -1024,72 +719,11 @@
     "EndLine": 0,
     "Translation": "```yaml\n# Simplified Logic Example\ntarget_calendar: \"{{ calendar_map.get(states('input_select.calendar_select')) }}\"\n\nchoose:\n  - conditions: \"All Day Event is ON\"\n    action: calendar.create_event (start_date, end_date)\n  - conditions: \"All Day Event is OFF\"\n    action: calendar.create_event (start_date_time, end_date_time)\n```",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "j44LHi3pSrY0b4wzyxpEKhtiCf6KNOWjo40rIgmoT8Y=",
-        "originContent": "```yaml",
-        "translatedContent": "```yaml"
-      },
-      {
-        "row": 2,
-        "rowsha": "C6S31V9+WRvRc7j9qvorlUfG3ftWxb2sNBxWzHZE5eU=",
-        "originContent": "# Simplified Logic Example",
-        "translatedContent": "# Simplified Logic Example"
-      },
-      {
-        "row": 3,
-        "rowsha": "kwtrS/fWSGTLWEsB0Tiy1dnlu1ZSzl8HdTgVbDU1XfQ=",
-        "originContent": "target_calendar: \"{{ calendar_map.get(states('input_select.calendar_select')) }}\"",
-        "translatedContent": "target_calendar: \"{{ calendar_map.get(states('input_select.calendar_select')) }}\""
-      },
-      {
-        "row": 4,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "oQnpVXq4fVVyF3WVmpn75te1GNTXME0nnfvc4r4M17I=",
-        "originContent": "choose:",
-        "translatedContent": "choose:"
-      },
-      {
-        "row": 6,
-        "rowsha": "OBpkMifm2ZIxLuctUGPaQxkuwimvEVGxoRrDUli5xl0=",
-        "originContent": "  - conditions: \"All Day Event is ON\"",
-        "translatedContent": "  - conditions: \"All Day Event is ON\""
-      },
-      {
-        "row": 7,
-        "rowsha": "hOjYM+OPhKOaLqIktRxykKU5KqIZRXRMOyHw81fekQ4=",
-        "originContent": "    action: calendar.create_event (start_date, end_date)",
-        "translatedContent": "    action: calendar.create_event (start_date, end_date)"
-      },
-      {
-        "row": 8,
-        "rowsha": "wOPxmO+am6OiqvyMtHxUU2FtkB0lsC0v/JOa3WXHptE=",
-        "originContent": "  - conditions: \"All Day Event is OFF\"",
-        "translatedContent": "  - conditions: \"All Day Event is OFF\""
-      },
-      {
-        "row": 9,
-        "rowsha": "ktYPNSK2uxbBauWHcitlYxUbyNPw92NgVpmGE1NA5JA=",
-        "originContent": "    action: calendar.create_event (start_date_time, end_date_time)",
-        "translatedContent": "    action: calendar.create_event (start_date_time, end_date_time)"
-      },
-      {
-        "row": 10,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": true
   },
   {
-    "Id": 10,
+    "Id": 11,
     "Content": "\n## NOTES\n\nMy original post was just to give a high level overview of how to do it and allow people to adjust code to make it work in their specific scenarios.\n\nIn particular I did this because every display and need is different. I can't develop for all potential sizes of displays, dashboards, etc. So it is built to work in the display I mentioned or any (1920x1080) but should be editable for others.\n\nTalking about display, I originally suggested that one because it was on sale at Woot and was a very economic way to get a touchscreen display at the time. This might not be the case now, so use whatever display works for you. Tablet, touchscreen, phone, whatever. The main thing youll need to edit is the dashboard.\n\n",
     "ContentSha": "n/gUgnX2YPNEJmAoc7iGTXXmHK4iQGpEJW/2vzZ7uzk=",
     "SectionType": "",
@@ -1097,68 +731,7 @@
     "EndLine": 0,
     "Translation": "## NOTES\n\nMon post original avait juste pour but de donner un aperçu général de la façon de le faire et de permettre aux gens d'ajuster le code pour le faire fonctionner dans leurs scénarios spécifiques.\n\nEn particulier, je l'ai fait parce que chaque écran et besoin est différent. Je ne peux pas développer pour toutes les tailles potentielles d'écrans, tableaux de bord, etc. Donc il est conçu pour fonctionner sur l'écran que j'ai mentionné ou tout autre (1920x1080) mais devrait être modifiable pour d'autres.\n\nEn parlant d'écran, j'ai initialement suggéré celui-ci parce qu'il était en promotion chez Woot et c'était un moyen très économique d'obtenir un écran tactile à l'époque. Ce n'est peut-être plus le cas maintenant, alors utilisez l'écran qui vous convient. Tablette, écran tactile, téléphone, peu importe. La principale chose que vous devrez modifier est le tableau de bord.\n\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## NOTES"
-      },
-      {
-        "row": 2,
-        "rowsha": "ZTDw/SuazFur9qiLhSGNkY4Md0VtW9vnoJTuupRwZhY=",
-        "originContent": "## NOTES",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Mon post original avait juste pour but de donner un aperçu général de la façon de le faire et de permettre aux gens d'ajuster le code pour le faire fonctionner dans leurs scénarios spécifiques."
-      },
-      {
-        "row": 4,
-        "rowsha": "wKWzhNQ+lzsHSqf7vALZdPDrfewRUPbtIFUNdQxvlKU=",
-        "originContent": "My original post was just to give a high level overview of how to do it and allow people to adjust code to make it work in their specific scenarios.",
-        "translatedContent": ""
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "En particulier, je l'ai fait parce que chaque écran et besoin est différent. Je ne peux pas développer pour toutes les tailles potentielles d'écrans, tableaux de bord, etc. Donc il est conçu pour fonctionner sur l'écran que j'ai mentionné ou tout autre (1920x1080) mais devrait être modifiable pour d'autres."
-      },
-      {
-        "row": 6,
-        "rowsha": "jfPKCY6vVQekZo/+L1zz2WdgA9gXK5iyozp+1JtmZ3k=",
-        "originContent": "In particular I did this because every display and need is different. I can't develop for all potential sizes of displays, dashboards, etc. So it is built to work in the display I mentioned or any (1920x1080) but should be editable for others.",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "En parlant d'écran, j'ai initialement suggéré celui-ci parce qu'il était en promotion chez Woot et c'était un moyen très économique d'obtenir un écran tactile à l'époque. Ce n'est peut-être plus le cas maintenant, alors utilisez l'écran qui vous convient. Tablette, écran tactile, téléphone, peu importe. La principale chose que vous devrez modifier est le tableau de bord."
-      },
-      {
-        "row": 8,
-        "rowsha": "zXQYKedb5X4z3/dnamTR7sjgBYO2D5+b6UkDtYuOJ2M=",
-        "originContent": "Talking about display, I originally suggested that one because it was on sale at Woot and was a very economic way to get a touchscreen display at the time. This might not be the case now, so use whatever display works for you. Tablet, touchscreen, phone, whatever. The main thing youll need to edit is the dashboard.",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

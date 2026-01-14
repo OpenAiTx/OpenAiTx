@@ -99,28 +99,34 @@ python 2048.py
 
 ## 🎨 自訂化
 
-想要打造屬於自己的版本嗎？可以修改 `styles.css` 來換個新造型，或深入 `script.js` 調整遊戲玩法。所有程式碼都有詳細註解，便於自由修改！
+想要打造屬於自己的風格嗎？調整 `styles.css` 來換新外觀，或深入 `script.js` 改變遊戲玩法。所有程式碼均有詳細註解，方便你輕鬆修改！
 
-## 📝 授權
+## 📝 授權條款
 
 GPL-2.0 授權
 
-## 🤝 貢獻
+## 🤝 貢獻方式
 
-持續更新中！歡迎提出問題與 Pull Requests—讓我們一起讓這款遊戲變得更棒！
+持續更新中！非常歡迎提出 Issues 與 Pull Requests——讓我們一起讓這款遊戲變得更棒！
 
 
 ## 🙏 致謝
 
 感謝以下贊助商對本專案的支持：
-- [Aurora Cloud](https://www.free-vps.net/) 提供伺服器資源
+- [/](/) 提供伺服器
+
+## 星標紀錄
+
+[![Star History Chart](https://api.star-history.com/svg?repos=sz30/2048--&type=date&legend=top-left)](https://www.star-history.com/#sz30/2048--&type=date&legend=top-left)
 
 ---
-_最後更新：2025 年 10 月_
+_最後更新：2025年10月_
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
 
 ---

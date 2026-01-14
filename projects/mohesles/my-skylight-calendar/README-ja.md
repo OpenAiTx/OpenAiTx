@@ -1,70 +1,102 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # DIYスマートホームファミリーカレンダー（Skylightクローン）
 
-![Sklylightカレンダー](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)
+![Sklylight calendar](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)
 ![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)
 
 ## 📖 はじめに
 
-妻は最近、スマートホームカレンダー（Skylight、Cozyla、Hearth）の広告にSNSで頻繁にさらされ、300ドル以上を使う準備ができていました。許可を出す前に、私に調査のチャンスをくれました。
+妻が最近、スマートホームカレンダー（Skylight、Cozyla、Hearth）の広告をSNSで頻繁に見かけており、300ドル以上をかけて購入しようとしていました。私はその前に、これらの製品について調査する機会をもらえないか頼みました。
+ほとんどの製品が類似した機能を提供していますが、価格に大きな違いがあることに気づきました。最も重要なのは、**Home Assistant**で実装できない優れた機能は見当たらなかったことです。
 
-ほとんどが似た機能を提供していることに気づきましたが、価格には大きな違いがありました。最も重要なのは、**Home Assistant**で実装できない優れた機能を見つけられなかったことです。
+**目標:** WAF（妻の受容性）を満たし、カウンタートップに置ける、スマートホームと深く連携し月額料金不要のタッチスクリーンカレンダーを作ること。
 
-**目標：** 妻が受け入れやすい（WAF承認済み）、カウンタートップに置けるタッチスクリーンカレンダーで、月額料金なしでスマートホームに深く統合されること。
+## 💡 なぜDIYなのか？
 
-## 💡 なぜDIY？
+Home AssistantによるDIYを選ぶことで、SkylightやHearthディスプレイを購入するよりも多くの利点がありました：
 
-Home Assistantを使ったDIYを選んだ理由は、Skylight/Hearthディスプレイを購入するよりも多くの利点があったからです。
+* **月額料金不要:** 「プレミアム」機能のためのサブスクリプションを回避。
+* **シームレスな統合:** 照明、家事管理（Grocy）、在宅センサーと連携。
+* **古いハードウェアの再利用:** Mini PCと一般的なモニターを再活用。
+* **プライバシー:** ベンダーロックインや会社のサービス終了リスクがない。
 
-* **月額料金なし：** 「プレミアム」機能のサブスクリプションを回避。
-* **シームレスな統合：** 照明、家事（Grocy）、在宅センサーと連携。
-* **古いハードウェアの再利用：** ミニPCと標準モニターを再利用。
-* **プライバシー：** ベンダーロックインやサービス停止のリスクなし。
+## 🛠 ハードウェア選定
 
-## 🛠 ハードウェアの選択
+現在、このダッシュボードはHD（1920x1080）ディスプレイで表示するように構築されています。
 
-現在は任意のHD（1920x1080）ディスプレイでダッシュボードを表示するように構築しています。
+私の場合、「Skylightのように見える」「タッチスクリーン」「カウンタートップに置ける」「移動できる」という要件がありました。そのため、以下に記載するハードウェアを選択しました。
+ただし、ご自身のケースに応じて、例えばタブレットなど他の機器で表示したい場合は、必要に応じて調整が必要です。
 
-私の場合は、Skylightのように見え、タッチスクリーンでカウンタートップに置け、異なる場所に移動可能なことが要求でした。したがって、以下に説明するハードウェアを選びました。
-ただし、用途により異なる場合があり、例えばタブレットで表示したい場合などは調整が必要です。
+元々選定したハードウェアは、上記の理由に加え、Webカメラ・スピーカー・マイクを活用して機能拡張することも念頭に置いていました。現在はこれらのハードウェア案にはまだ着手できていないので、今なら違う構成で作るかもしれません。
 
-私が元々使用したハードウェアは上記の要件に基づき、さらにウェブカメラ、スピーカー、マイクを使って機能拡張できることを期待して選びました。現在は、これらの追加ハードウェアのアイデアにまだ対応できていないため、振り返ると別の構成にすると思います。
-
-* **モニター：** [HP Engage 15インチタッチスクリーン](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor)。一般的なポータブルモニターよりこれを選んだ理由は、内蔵の**スピーカー、ウェブカメラ、マイク**があり、将来的な音声制御やビデオ通話に対応可能なためです。
-* **コンピューター：** Windows/Linuxのキオスクモードで動作する古いミニPC（NUC/Tiny PC）またはRaspberry Pi 4。~~
+* **モニター:** [HP Engage 15インチ タッチスクリーン](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor)。汎用ポータブルモニターよりも、**スピーカー・Webカメラ・マイク**内蔵で、将来的な音声操作やビデオ通話にも対応可能なため選びました。
+* **コンピューター:** 旧型Mini PC（NUC/Tiny PC、Windows/Linuxのキオスクモード）、またはRaspberry Pi 4。
 
 ## ✨ 機能
 
-* **家族全体・個別ビュー：** 特定の家族メンバーのカレンダーの表示を切り替え可能。
-* **双方向同期：** 画面上またはスマホ（Googleカレンダー）でイベントを編集可能。
-* **「イベント追加」ポップアップ：** 画面から特定のカレンダーに直接イベントを追加できるカスタムUI。
-
-* **天気と日付:** 美しく一目でわかるヘッダー。  
-* **レスポンシブ:** 画面幅（モバイルとデスクトップ）に応じて日数を自動調整。
+* **家族全体＆個人表示:** 特定の家族メンバーのカレンダーをオン/オフ切り替え可能。
+* **双方向同期:** 画面またはスマホ（Googleカレンダー）からイベント編集。
+* **「イベント追加」ポップアップ:** 画面上から特定カレンダーに直接イベントを追加するカスタムUI。
+* **天気＆日付:** 一目で分かる美しいヘッダー。
+* **レスポンシブ:** 画面幅（モバイル/デスクトップ）に応じて日数を自動調整。
 
 ---
 
 ## ⚙️ インストールガイド
 
-*注: このセットアップは、必要なヘルパー、スクリプト、変数を自動生成する**YAMLパッケージ**を使用します。手動で作成する必要はありません。*
+*注意: このセットアップは**YAMLパッケージ**を利用し、必要なヘルパー・スクリプト・変数を自動で作成します。手動で作成する必要はありません。*
 
-### 1. 前提条件 (HACS)
 
-[HACS](https://hacs.xyz/)がインストールされている必要があります。以下の**フロントエンド**統合をインストールしてください:
 
-* `week-planner-card`  
-* `bubble-card`  
-* `config-template-card`  
-* `card-mod`  
-* `better-moment-card`  
-* `weather-card`  
-* `browser_mod`（ポップアップの動作に必要）  
-* `layout-card`（セクションビューに必要）  
-* `button-card`（イベント追加用ポップアップに必要）
+### 1. 前提条件（HACS）
 
-### 2. バックエンド（頭脳部分）
+[HACS](https://hacs.xyz/) がインストールされている必要があります。以下の**フロントエンド**統合をインストールしてください：
 
-1. Home Assistantの`configuration.yaml`ファイルを開きます。  
-2. パッケージを有効にするために、`homeassistant:`の下に次の行が追加されていることを確認してください:
+* `week-planner-card`
+* `bubble-card`
+* `config-template-card`
+* `card-mod`
+* `better-moment-card`
+* `weather-card`
+* `browser_mod`（ポップアップ動作に必須）
+* `layout-card`（Sectionsビューに必須）
+* `button-card`（イベント追加用ポップアップに必須）
+
+### 2. バックエンド（頭脳）
+
+1. Home Assistant の `configuration.yaml` ファイルを開きます。
+2. パッケージを有効にするために、`homeassistant:` の下に次の行が追加されていることを確認してください：
 
    ```yaml
    homeassistant:
@@ -173,6 +205,6 @@ choose:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
 
 ---

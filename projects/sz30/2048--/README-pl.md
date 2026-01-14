@@ -97,9 +97,9 @@ pip install flask
 python 2048.py
 ```
 
-## 🎨 Personalizacja
+## 🎨 Dostosowywanie
 
-Chcesz dostosować do swoich potrzeb? Zmień `styles.css`, aby nadać nowy wygląd, lub zajrzyj do `script.js`, żeby zmodyfikować rozgrywkę. Cały kod jest dobrze skomentowany, więc łatwo go edytować!
+Chcesz dostosować grę do siebie? Edytuj `styles.css`, aby nadać nowy wygląd, albo zajrzyj do `script.js`, by zmienić rozgrywkę. Cały kod jest dokładnie skomentowany, co ułatwia modyfikacje!
 
 ## 📝 Licencja
 
@@ -107,20 +107,26 @@ Licencja GPL-2.0
 
 ## 🤝 Współtworzenie
 
-Projekt jest stale aktualizowany! Zgłoszenia błędów i Pull Requesty są bardzo mile widziane—razem możemy uczynić tę grę jeszcze lepszą!
+Projekt jest nadal rozwijany! Zgłaszanie błędów i Pull Requesty są bardzo mile widziane—razem uczynimy tę grę jeszcze lepszą!
 
 
 ## 🙏 Podziękowania
 
-Podziękowania dla następujących sponsorów za wsparcie projektu:
-- [Aurora Cloud](https://www.free-vps.net/) za udostępnienie serwera
+Dziękujemy następującym sponsorom za wsparcie tego projektu:
+- [/](/) udostępnia serwer
+
+## Historia gwiazdek
+
+[![Star History Chart](https://api.star-history.com/svg?repos=sz30/2048--&type=date&legend=top-left)](https://www.star-history.com/#sz30/2048--&type=date&legend=top-left)
 
 ---
-_Ostatnia aktualizacja: październik 2025_
+_Ostatnia aktualizacja: paź. 2025_
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
 
 ---

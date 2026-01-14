@@ -99,28 +99,34 @@ python 2048.py
 
 ## 🎨 Özelleştirme
 
-Kendi tarzını yaratmak ister misin? Yeni bir görünüm için `styles.css` dosyasını değiştir, ya da oynanışı değiştirmek için `script.js` dosyasına dal. Tüm kodlar kolayca müdahale edilebilmesi için detaylıca yorumlanmıştır!
+Kendinize göre uyarlamak mı istiyorsunuz? Yeni bir görünüm için `styles.css` dosyasını değiştirin ya da oynanışı değiştirmek için `script.js` dosyasına dalın. Tüm kodlar kolayca düzenleyebilmeniz için bolca yorumlanmıştır!
 
 ## 📝 Lisans
 
 GPL-2.0 lisansı
 
-## 🤝 Katkıda Bulunma
+## 🤝 Katkı Sağlama
 
-Hâlâ güncelleniyor! Sorunlar ve Çekme İstekleri çok memnuniyetle karşılanır—bu oyunu birlikte daha da harika yapalım!
+Hâlâ güncelleniyor! Sorunlar ve Çekme Talepleri çok memnuniyetle karşılanır—bu oyunu birlikte daha da harika yapalım!
 
 
 ## 🙏 Teşekkürler
 
-Bu projeye destek veren aşağıdaki sponsorlarımıza teşekkürler:
-- [Aurora Cloud](https://www.free-vps.net/) sunucu desteği sağladı
+Bu projeye destek olan aşağıdaki sponsorlara teşekkürler:
+- [/](/) sunucuyu sağladığı için
+
+## Yıldız Geçmişi
+
+[![Yıldız Geçmişi Grafiği](https://api.star-history.com/svg?repos=sz30/2048--&type=date&legend=top-left)](https://www.star-history.com/#sz30/2048--&type=date&legend=top-left)
 
 ---
-_Son güncelleme: Ekim 2025_
+_Son güncelleme: Eki. 2025_
+
+
 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
 
 ---

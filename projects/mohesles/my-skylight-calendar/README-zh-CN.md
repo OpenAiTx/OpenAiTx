@@ -1,55 +1,87 @@
-# 自制智能家庭日历（Skylight 克隆版）
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# DIY智能家居家庭日历（Skylight 克隆版）
 
 ![Sklylight calendar](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)
 ![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)
 
-## 📖 介绍
+## 📖 简介
 
-我妻子最近在社交媒体上频繁看到智能家庭日历（Skylight、Cozyla、Hearth）的广告，准备花超过300美元买一个。在同意之前，我请求先做一些调研。
+最近，我妻子在社交媒体上经常被智能家居日历（如 Skylight、Cozyla、Hearth）的广告轰炸，甚至准备花 300 多美元购买一个。在她动手购买前，我请求给我一个机会先研究一下这些产品。
+我发现大多数产品提供了类似的功能，但价格差异很大。最重要的是，我没有看到任何无法在 **Home Assistant** 上实现的突出功能。
 
-我发现大多数产品功能相似，但价格差异很大。更重要的是，我没看到有什么突出功能，是我不能在**Home Assistant**中实现的。
+**目标：** 一个获得“妻子接受度高”（WAF）、适合台面放置的触摸屏日历，能深度集成进我们的智能家居系统，并且没有月费。
 
-**目标：** 一个获得“妻子接受度”（WAF）认可、适合放在台面上的触摸屏日历，能够深度集成到我们的智能家居中，无需月费。
+## 💡 为什么选择 DIY？
 
-## 💡 为什么选择DIY？
+选择 Home Assistant 的 DIY 路线，相较于购买 Skylight/Hearth 显示器有以下几个好处：
 
-用 Home Assistant 自制的方案相比购买 Skylight/Hearth 显示屏有几个优势：
-
-* **无月费：** 避免了“高级”功能的订阅费用。
-* **无缝集成：** 它可以控制我们的灯光、家务（Grocy）和存在传感器。
-* **旧硬件利用：** 重新利用了一台迷你电脑和标准显示器。
-* **隐私保障：** 无供应商锁定或公司倒闭风险。
+* **无月费：** 避免为“高级”功能付订阅费。
+* **无缝集成：** 可与我们的灯光、家务（Grocy）和在家传感器联动。
+* **旧硬件再利用：** 重新利用 Mini PC 和普通显示器。
+* **隐私保障：** 不被厂商锁定，也不担心公司倒闭带来的风险。
 
 ## 🛠 硬件选择
 
-目前该项目设计为可在任何高清（1920x1080）显示器上显示仪表盘。
+目前系统可以在任何高清（1920x1080）显示器上展示仪表盘。
 
-就我而言，需求是“看起来像” Skylight，支持触摸屏，适合放在台面，并且能方便移动到不同位置。因此，我选择了下面描述的硬件。
-不过，你的情况可能不同，需要根据需要调整，比如如果你想用平板或者其他设备显示。
+在我的需求中，要求外观看起来像 skylight，支持触摸屏，便于放在台面，也可以随时移动到不同位置。因此我选用了如下硬件。
+不过你的需求可能不同，需要按需调整，例如如果你想用平板等其他设备展示。
 
-我最初选择的硬件基于上述考虑，并且希望将来能利用摄像头、扬声器和麦克风扩展功能。现在回头看，如果有时间，我可能会用不同方案，因为目前还没机会实现这些附加硬件功能。
+我最初的硬件选择，不仅基于上述需求，也希望以后可以通过摄像头、扬声器和麦克风扩展功能。但从现在来看，可能会做出不同选择，因为我还没时间实现这些附加功能。
 
-* **显示器：** [HP Engage 15英寸触摸屏](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor)。我选择它而不是普通便携显示器，因为它内置了**扬声器、摄像头和麦克风**，方便未来实现语音控制或视频通话。
-* **计算机：** 一台旧迷你电脑（NUC/小型PC），运行 Windows/Linux 的展台模式，或者一台树莓派4。~~
+* **显示器：** [惠普 Engage 15 英寸触摸屏](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor)。我选择它而非普通便携显示器，是因为它自带 **扬声器、摄像头和麦克风**，为将来实现语音控制或视频通话做好准备。
+* **计算机：** 一台旧的 Mini PC（NUC/Tiny PC）以 Kiosk 模式运行 Windows/Linux，或 Raspberry Pi 4。~~
 
 ## ✨ 功能
 
-* **家庭成员和个人视图：** 可切换显示特定家庭成员的日历。
+* **全家 & 个人视图：** 可以切换显示特定家庭成员的日历。
 * **双向同步：** 可在屏幕或手机（Google 日历）上编辑事件。
 * **“添加事件”弹窗：** 自定义界面，可直接从屏幕添加事件到指定日历。
-
-* **天气和日期:** 美观且一目了然的标题。
-* **响应式:** 根据屏幕宽度自动调整天数（移动端与桌面端）。
+* **天气 & 日期：** 漂亮的一目了然的顶部信息栏。
+* **响应式设计：** 会根据屏幕宽度自动调整天数显示（手机 vs 桌面）。
 
 ---
 
 ## ⚙️ 安装指南
 
-*注意：此设置使用 **YAML 包** 自动为您创建所有必要的助手、脚本和变量。您无需手动创建它们。*
+*注意：本方案使用 **YAML 包**，可自动为你创建所有必要的助手、脚本和变量，无需手动创建。*
+
+
 
 ### 1. 前提条件（HACS）
 
-您必须安装 [HACS](https://hacs.xyz/)。请安装以下 **前端** 集成：
+你必须已经安装了 [HACS](https://hacs.xyz/)。请安装以下**前端**集成：
 
 * `week-planner-card`
 * `bubble-card`
@@ -57,14 +89,14 @@
 * `card-mod`
 * `better-moment-card`
 * `weather-card`
-* `browser_mod`（弹窗功能必需）
-* `layout-card`（Sections 视图必需）
-* `button-card`（添加事件弹窗必需）
+* `browser_mod`（弹窗功能所必需）
+* `layout-card`（Sections 视图所必需）
+* `button-card`（添加事件弹窗所必需）
 
-### 2. 后端（核心）
+### 2. 后端（核心逻辑）
 
-1. 打开 Home Assistant 中的 `configuration.yaml` 文件。
-2. 确保在 `homeassistant:` 下添加以下行以启用包：
+1. 在 Home Assistant 中打开你的 `configuration.yaml` 文件。
+2. 确保你在 `homeassistant:` 下添加了以下行以启用 packages：
 
    ```yaml
    homeassistant:
@@ -173,6 +205,6 @@ choose:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
 
 ---

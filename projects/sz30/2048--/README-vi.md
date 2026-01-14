@@ -99,7 +99,7 @@ python 2048.py
 
 ## 🎨 Tùy chỉnh
 
-Muốn biến nó thành của riêng bạn? Hãy chỉnh sửa `styles.css` để có giao diện mới, hoặc khám phá `script.js` để thay đổi lối chơi. Tất cả mã đều được chú thích rõ ràng để dễ dàng tùy biến!
+Muốn cá nhân hóa? Hãy chỉnh sửa `styles.css` để thay đổi giao diện, hoặc khám phá `script.js` để làm mới lối chơi. Tất cả mã nguồn đều có chú thích rõ ràng, dễ dàng cho việc tùy biến!
 
 ## 📝 Giấy phép
 
@@ -107,20 +107,26 @@ Giấy phép GPL-2.0
 
 ## 🤝 Đóng góp
 
-Vẫn đang cập nhật! Các Issue và Pull Request đều rất hoan nghênh—hãy cùng nhau làm cho trò chơi này tuyệt vời hơn nữa nhé!
+Vẫn đang cập nhật! Rất hoan nghênh các Vấn đề và Yêu cầu Kéo—hãy cùng nhau làm cho trò chơi này tuyệt vời hơn nữa nhé!
 
 
-## 🙏 Lời cảm ơn
+## 🙏 Ghi nhận
 
-Cảm ơn các nhà tài trợ sau đã hỗ trợ dự án này:
-- [Aurora Cloud](https://www.free-vps.net/) cung cấp máy chủ
+Xin cảm ơn các nhà tài trợ sau đã hỗ trợ dự án này:
+- [/](/) cung cấp máy chủ
+
+## Lịch sử Sao
+
+[![Biểu đồ Lịch sử Sao](https://api.star-history.com/svg?repos=sz30/2048--&type=date&legend=top-left)](https://www.star-history.com/#sz30/2048--&type=date&legend=top-left)
 
 ---
 _Cập nhật lần cuối: Tháng 10, 2025_
 
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
 
 ---

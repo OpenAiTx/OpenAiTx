@@ -96,9 +96,10 @@ cd 2048
 pip install flask
 python 2048.py
 ```
+
 ## 🎨 Kustomisasi
 
-Ingin membuatnya sesuai keinginan Anda? Ubah `styles.css` untuk tampilan baru, atau telusuri `script.js` untuk mengubah permainan. Semua kode sudah dikomentari dengan baik untuk memudahkan modifikasi!
+Ingin membuatnya menjadi milikmu sendiri? Ubah `styles.css` untuk tampilan baru, atau jelajahi `script.js` untuk mengubah gameplay. Semua kode sudah dikomentari dengan baik agar mudah diutak-atik!
 
 ## 📝 Lisensi
 
@@ -106,21 +107,26 @@ Lisensi GPL-2.0
 
 ## 🤝 Kontribusi
 
-Masih dalam pembaruan! Isu dan Pull Request sangat diterima—mari kita buat game ini semakin keren bersama!
+Masih dalam pembaruan! Isu dan Pull Request sangat diterima—mari buat game ini semakin keren bersama-sama!
 
 
-## 🙏 Ucapan Terima Kasih
+## 🙏 Penghargaan
 
-Terima kasih kepada sponsor berikut atas dukungannya terhadap proyek ini:
-- [Aurora Cloud](https://www.free-vps.net/) menyediakan server
+Terima kasih kepada sponsor berikut yang telah mendukung proyek ini:
+- [/](/) menyediakan server
+
+## Riwayat Star
+
+[![Grafik Riwayat Star](https://api.star-history.com/svg?repos=sz30/2048--&type=date&legend=top-left)](https://www.star-history.com/#sz30/2048--&type=date&legend=top-left)
 
 ---
 _Terakhir diperbarui: Okt. 2025_
 
 
 
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
 
 ---

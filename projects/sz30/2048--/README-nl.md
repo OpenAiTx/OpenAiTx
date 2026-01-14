@@ -97,9 +97,9 @@ pip install flask
 python 2048.py
 ```
 
-## 🎨 Aanpassing
+## 🎨 Aanpassen
 
-Wil je het naar eigen smaak maken? Pas `styles.css` aan voor een nieuwe uitstraling, of duik in `script.js` om de gameplay te veranderen. Alle code is voorzien van duidelijke opmerkingen voor eenvoudige aanpassingen!
+Wil je het naar eigen smaak maken? Pas `styles.css` aan voor een nieuwe look, of duik in `script.js` om de gameplay te veranderen. Alle code is goed becommentarieerd voor eenvoudig hacken!
 
 ## 📝 Licentie
 
@@ -107,20 +107,26 @@ GPL-2.0 licentie
 
 ## 🤝 Bijdragen
 
-Nog steeds in ontwikkeling! Issues en Pull Requests zijn van harte welkom—laten we samen deze game nog beter maken!
+Wordt nog steeds bijgewerkt! Issues en Pull Requests zijn zeer welkom—laten we samen deze game nog beter maken!
 
 
-## 🙏 Dankbetuigingen
+## 🙏 Erkenningen
 
-Dank aan de volgende sponsors voor het ondersteunen van dit project:
-- [Aurora Cloud](https://www.free-vps.net/) voor het leveren van de server
+Dank aan de volgende sponsors voor hun steun aan dit project:
+- [/](/) voor het leveren van de server
+
+## Stergeschiedenis
+
+[![Stergeschiedenis Grafiek](https://api.star-history.com/svg?repos=sz30/2048--&type=date&legend=top-left)](https://www.star-history.com/#sz30/2048--&type=date&legend=top-left)
 
 ---
 _Laatst bijgewerkt: okt. 2025_
 
 
+
+
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-29
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
 
 ---

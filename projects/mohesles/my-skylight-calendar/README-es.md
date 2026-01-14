@@ -1,70 +1,102 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=mohesles&project=my-skylight-calendar&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # Calendario Familiar Inteligente DIY para el Hogar (Clon de Skylight)
 
-![Calendario Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)
-![Skylight DIY](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)
+![Calendario Sklylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/main_view.jpeg)
+![DIY Skylight](https://raw.githubusercontent.com/mohesles/my-skylight-calendar/main/assets/sky2.png)
 
 ## 📖 Introducción
 
-Mi esposa ha estado recientemente bombardeada en redes sociales con anuncios de calendarios inteligentes para el hogar (Skylight, Cozyla, Hearth) y estaba lista para gastar más de $300 en uno. Antes de darle luz verde, pedí la oportunidad de investigarlos.
-
+Recientemente, a mi esposa le han aparecido en redes sociales muchos anuncios de calendarios inteligentes para el hogar (Skylight, Cozyla, Hearth) y estaba dispuesta a gastar más de 300 dólares en uno. Antes de darle luz verde, le pedí la oportunidad de investigarlos.
 Me di cuenta de que la mayoría ofrecía funcionalidades similares pero diferían significativamente en precio. Lo más importante, no vi ninguna característica destacada que no pudiera implementar en **Home Assistant**.
 
-**El Objetivo:** Un calendario táctil aprobado por el factor de aceptación de la esposa (WAF), amigable para colocarse en la encimera que se integre profundamente en nuestro hogar inteligente sin tarifas mensuales.
+**El objetivo:** Un calendario con pantalla táctil, aprobado por el WAF (Factor de Aceptación de la Esposa), amigable para la encimera, que se integre profundamente en nuestro hogar inteligente sin cuotas mensuales.
 
-## 💡 ¿Por qué DIY?
+## 💡 ¿Por qué hacerlo uno mismo?
 
-Elegir la ruta DIY con Home Assistant proporcionó varios beneficios sobre comprar un display Skylight/Hearth:
+Elegir la ruta DIY con Home Assistant proporcionó varios beneficios sobre comprar una pantalla Skylight/Hearth:
 
-* **Sin Tarifas Mensuales:** Evita suscripciones para funciones "premium".
-* **Integración Perfecta:** Se comunica con nuestras luces, tareas (Grocy) y sensores de presencia.
-* **Hardware Viejo:** Reutilicé una Mini PC y un monitor estándar.
-* **Privacidad:** Sin dependencia del proveedor ni riesgo de que la empresa cierre.
+* **Sin cuotas mensuales:** Evita suscripciones por funciones "premium".
+* **Integración total:** Se comunica con nuestras luces, tareas (Grocy) y sensores de presencia.
+* **Hardware antiguo:** Reutilicé un Mini PC y un monitor estándar.
+* **Privacidad:** Sin dependencia de proveedor ni riesgo de que la empresa cierre.
 
-## 🛠 Selección de Hardware
+## 🛠 Selección de hardware
 
-Actualmente está diseñado para mostrar el panel en cualquier pantalla HD (1920x1080).
+Actualmente está construido para mostrar el panel en cualquier pantalla HD (1920x1080).
 
-En mi caso, el requisito era que "se viera como" Skylight, fuera táctil, de encimera, con posibilidad de moverlo a diferentes ubicaciones. Por eso elegí el hardware descrito abajo.
-Sin embargo, tu caso podría ser diferente y necesitarás ajustarlo según sea necesario, por ejemplo si quieres mostrarlo en una tablet u otro dispositivo.
+En mi caso, el requisito era que "pareciera" skylight, fuera táctil, apto para la encimera, y tuviera posibilidad de moverlo a distintos lugares. Por eso elegí el hardware descrito abajo.
+Sin embargo, tu caso puede ser diferente y necesitarás ajustarlo según tus necesidades, por ejemplo si quieres mostrarlo en una tablet o algo distinto.
 
-El hardware que usé originalmente lo escogí basado en lo mencionado arriba además de la esperanza de poder extender la funcionalidad usando la webcam, altavoz y micrófono. Actualmente probablemente lo construiría diferente en retrospectiva, ya que no he tenido tiempo para abordar estas ideas adicionales de hardware.
+El hardware que usé originalmente lo elegí basado en lo mencionado arriba, además con la esperanza de poder extender funcionalidades usando la webcam, altavoz y micrófono. Actualmente probablemente lo construiría diferente, ya que no he tenido tiempo de abordar esas ideas de hardware adicionales.
 
-* **Monitor:** [HP Engage de 15 pulgadas táctil](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). Elegí este sobre monitores portátiles genéricos porque incluye **Altavoz, Webcam y Micrófono** integrados, permitiendo control de voz o videollamadas en el futuro.
-* **Computadora:** Una Mini PC antigua (NUC/Tiny PC) corriendo Windows/Linux en modo Kiosco, o una Raspberry Pi 4.~~
-
+* **Monitor:** [HP Engage de 15 pulgadas con pantalla táctil](https://computers.woot.com/offers/hp-engage-16t-fhd-monitor). Lo elegí sobre monitores portátiles genéricos porque incluye **Altavoz, Webcam y Micrófono** integrados, permitiendo control por voz o videollamadas en el futuro.
+* **Computadora:** Un Mini PC antiguo (NUC/Tiny PC) corriendo Windows/Linux en modo Kiosk, o una Raspberry Pi 4.~~
 
 ## ✨ Características
 
-* **Vistas Familiares e Individuales:** Alterna calendarios de miembros específicos de la familia.
-* **Sincronización Bidireccional:** Edita eventos en la pantalla o en nuestros teléfonos (Google Calendar).
-* **Popup "Agregar Evento":** Una interfaz personalizada para añadir eventos a calendarios específicos directamente desde la pantalla.
-* **Clima y Fecha:** Encabezado hermoso y fácil de consultar.  
-* **Responsivo:** Ajusta automáticamente el conteo de días según el ancho de pantalla (Móvil vs Escritorio).  
+* **Vista familiar e individual:** Alterna los calendarios de miembros específicos de la familia.
+* **Sincronización bidireccional:** Edita eventos en la pantalla o en nuestros teléfonos (Google Calendar).
+* **Ventana emergente "Agregar evento":** Interfaz personalizada para agregar eventos a calendarios específicos directamente desde la pantalla.
+* **Clima y fecha:** Encabezado bello y fácil de consultar.
+* **Responsivo:** Ajusta automáticamente el número de días según el ancho de la pantalla (móvil vs escritorio).
 
----  
+---
 
-## ⚙️ Guía de Instalación  
+## ⚙️ Guía de instalación
 
-*Nota: Esta configuración utiliza un **Paquete YAML** para crear automáticamente todos los ayudantes, scripts y variables necesarios para ti. No necesitas crearlos manualmente.*  
+*Nota: Esta configuración utiliza un **Paquete YAML** para crear automáticamente todos los ayudantes, scripts y variables necesarios. No necesitas crearlos manualmente.*
 
-### 1. Requisitos Previos (HACS)  
 
-Debes tener instalado [HACS](https://hacs.xyz/). Por favor, instala las siguientes integraciones **Frontend**:  
 
-* `week-planner-card`  
-* `bubble-card`  
-* `config-template-card`  
-* `card-mod`  
-* `better-moment-card`  
-* `weather-card`  
-* `browser_mod` (Requerido para que funcionen los popups)  
-* `layout-card` (Requerido para la vista de Secciones)  
-* `button-card` (Requerido para el popup para añadir evento)  
+### 1. Prerrequisitos (HACS)
 
-### 2. El Backend (El Cerebro)  
+Debes tener [HACS](https://hacs.xyz/) instalado. Por favor, instala las siguientes integraciones de **Frontend**:
 
-1. Abre tu archivo `configuration.yaml` en Home Assistant.  
-2. Asegúrate de tener esta línea añadida bajo `homeassistant:` para habilitar los paquetes:
+* `week-planner-card`
+* `bubble-card`
+* `config-template-card`
+* `card-mod`
+* `better-moment-card`
+* `weather-card`
+* `browser_mod` (Requerido para que funcionen las ventanas emergentes)
+* `layout-card` (Requerido para la vista de Secciones)
+* `button-card` (Requerido para la ventana emergente de añadir evento)
+
+### 2. El Backend (El Cerebro)
+
+1. Abre tu archivo `configuration.yaml` en Home Assistant.
+2. Asegúrate de agregar esta línea bajo `homeassistant:` para habilitar paquetes:
 
    ```yaml
    homeassistant:
@@ -173,6 +205,6 @@ Hablando de la pantalla, originalmente sugerí esa porque estaba en oferta en Wo
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-14
 
 ---
