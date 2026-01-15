@@ -367,12 +367,30 @@ python run_lightening.py test --config $YAML_PATH \
     --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
     --trainer.devices 1
 ```
-### 3. Inferenza sulle immagini di destinazione
 
-Se `ONLINE_VIS` è impostato su True, i risultati delle predizioni verranno salvati in `results_analysis/my_custom_dataset/` e visualizzati man mano che vengono calcolati. NOTA che l'esecuzione con la visualizzazione online è molto più lenta.
+#### 2.1 Visualizzare la memoria elaborata post-processo
 
-Sentiti libero di modificare la soglia di punteggio `VIS_THR` per visualizzare più o meno istanze segmentate.
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode vis_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+Le visualizzazioni di PCA e K-means per le immagini della memory bank sono salvate in `results_analysis/memory_vis/my_custom_dataset`.
 
+### 3. Inferenza sulle immagini target
+
+Se `ONLINE_VIS` è impostato su True, i risultati della predizione saranno salvati in `results_analysis/my_custom_dataset/` e visualizzati man mano che vengono calcolati. NOTA che l’esecuzione con la visualizzazione online è molto più lenta.
+
+Sentiti libero di modificare la soglia di punteggio `VIS_THR` per vedere più o meno istanze segmentate.
 ```bash
 ONLINE_VIS=True
 VIS_THR=0.4
@@ -433,6 +451,6 @@ Se utilizzi questo lavoro, per favore citaci:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

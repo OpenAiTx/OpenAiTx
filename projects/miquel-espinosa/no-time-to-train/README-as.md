@@ -368,11 +368,29 @@ python run_lightening.py test --config $YAML_PATH \
     --trainer.devices 1
 ```
 
-### ৩. লক্ষ্য চিত্ৰসমূহত অনুমান
+#### 2.1 প্ৰসেস হোৱাৰ পাছত মেমৰি বেংক দৰ্শন কৰক
 
-যদি `ONLINE_VIS` True হিচাপে ছেট কৰা হয়, তেন্তে পূৰ্বানুমান ফলাফলসমূহ `results_analysis/my_custom_dataset/` ত সংৰক্ষণ কৰা হ'ব আৰু গননা কৰাৰ লগে লগে প্ৰদৰ্শন কৰা হ'ব। লক্ষ্য কৰক যে অনলাইন ভিজুৱালাইজেশ্যনৰ সৈতে চলালে ইয়াৰ গতি বহু মন্থৰ হয়।
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode vis_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+মেমৰি বেংক ছবিসমূহৰ বাবে PCA আৰু K-means ভিজুৱালাইজেশ্বনসমূহ `results_analysis/memory_vis/my_custom_dataset`-ত সংৰক্ষিত আছে।
 
-আপুনি ইচ্ছা কৰিলে স্ক'ৰ থ্ৰেশহ’ল্ড `VIS_THR` পৰিবৰ্তন কৰি অধিক বা কম ছেগমেণ্ট কৰা ইনষ্টেন্স দেখিব পাৰে।
+### ৩. লক্ষ্য ছবিসমূহত ইনফাৰেন্স
+
+যদি `ONLINE_VIS` True-ত ছেট কৰা হয়, তেন্তে পূৰ্বানুমান ফলাফলসমূহ `results_analysis/my_custom_dataset/`-ত সংৰক্ষণ কৰা হ'ব আৰু গণনা কৰাৰ লগে লগে প্ৰদর্শিত হ'ব। মনত ৰাখিব যে অনলাইন ভিজুৱালাইজেশ্বন চলাই থকাৰ সময়ত গতি যথেষ্ট কমি যায়।
+
+আপুনি ইচ্ছা কৰিলে স্ক'ৰ থ্ৰেছহ'ল্ড `VIS_THR` পৰিবৰ্তন কৰিব পাৰে, যাতে অধিক বা কম ছেগমেণ্ট কৰা ইনষ্টেন্স দেখিবলৈ পায়।
 ```bash
 ONLINE_VIS=True
 VIS_THR=0.4
@@ -433,6 +451,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

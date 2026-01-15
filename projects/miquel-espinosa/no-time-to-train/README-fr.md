@@ -367,12 +367,30 @@ python run_lightening.py test --config $YAML_PATH \
     --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
     --trainer.devices 1
 ```
+
+#### 2.1 Visualiser la banque de mémoire post-traitée
+
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode vis_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+Les visualisations PCA et K-means pour les images de la mémoire tampon sont stockées dans `results_analysis/memory_vis/my_custom_dataset`.
+
 ### 3. Inférence sur les images cibles
 
-Si `ONLINE_VIS` est réglé sur True, les résultats de prédiction seront sauvegardés dans `results_analysis/my_custom_dataset/` et affichés au fur et à mesure de leur calcul. NOTEZ que l'exécution avec la visualisation en ligne est beaucoup plus lente.
+Si `ONLINE_VIS` est défini sur True, les résultats de la prédiction seront sauvegardés dans `results_analysis/my_custom_dataset/` et affichés au fur et à mesure de leur calcul. NOTEZ que l’exécution avec visualisation en ligne est beaucoup plus lente.
 
-N'hésitez pas à modifier le seuil de score `VIS_THR` pour voir plus ou moins d'instances segmentées.
-
+N'hésitez pas à modifier le seuil de score `VIS_THR` pour afficher plus ou moins d’instances segmentées.
 ```bash
 ONLINE_VIS=True
 VIS_THR=0.4
@@ -433,6 +451,6 @@ Si vous utilisez ce travail, veuillez nous citer :
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

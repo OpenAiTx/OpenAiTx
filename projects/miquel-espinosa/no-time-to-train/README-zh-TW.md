@@ -367,12 +367,30 @@ python run_lightening.py test --config $YAML_PATH \
     --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
     --trainer.devices 1
 ```
-### 3. 對目標圖像進行推論
 
-如果將 `ONLINE_VIS` 設為 True，預測結果將會儲存在 `results_analysis/my_custom_dataset/`，並在計算時即時顯示。請注意，啟用線上視覺化會使運行速度變慢許多。
+#### 2.1 視覺化後處理記憶體庫
 
-您可以自由調整分數閾值 `VIS_THR`，以查看更多或更少的分割實例。
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode vis_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+記憶庫影像的 PCA 及 K-means 視覺化結果儲存在 `results_analysis/memory_vis/my_custom_dataset`。
 
+### 3. 對目標影像進行推論
+
+如果將 `ONLINE_VIS` 設為 True，預測結果會儲存在 `results_analysis/my_custom_dataset/`，並在計算時即時顯示。請注意，開啟即時視覺化會大幅降低運行速度。
+
+歡迎調整分數閾值 `VIS_THR`，以查看更多或更少分割的實例。
 ```bash
 ONLINE_VIS=True
 VIS_THR=0.4
@@ -433,6 +451,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

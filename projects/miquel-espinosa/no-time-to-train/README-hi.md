@@ -367,12 +367,30 @@ python run_lightening.py test --config $YAML_PATH \
     --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
     --trainer.devices 1
 ```
-### 3. लक्ष्य इमेजों पर अनुमान
 
-यदि `ONLINE_VIS` को True पर सेट किया गया है, तो भविष्यवाणी के परिणाम `results_analysis/my_custom_dataset/` में सहेजे जाएंगे और जैसे ही वे गणना किए जाते हैं, वैसे ही प्रदर्शित होंगे। ध्यान दें कि ऑनलाइन विज़ुअलाइज़ेशन के साथ चलाना काफी धीमा होता है।
+#### 2.1 पोस्ट-प्रोसेस्ड मेमोरी बैंक का दृश्यांकन करें
 
-आप स्कोर थ्रेशोल्ड `VIS_THR` को बदल सकते हैं ताकि अधिक या कम सेगमेंटेड इंस्टेंस देख सकें।
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode vis_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+मेमोरी बैंक इमेजों के लिए PCA और K-means विज़ुअलाइज़ेशन `results_analysis/memory_vis/my_custom_dataset` में संग्रहित हैं।
 
+### 3. लक्ष्य इमेजों पर अनुकरण (Inference)
+
+यदि `ONLINE_VIS` को True पर सेट किया गया है, तो भविष्यवाणी परिणाम `results_analysis/my_custom_dataset/` में सहेजे जाएंगे और जैसे-जैसे गणना होती है, वैसे-वैसे प्रदर्शित होंगे। ध्यान दें कि ऑनलाइन विज़ुअलाइज़ेशन के साथ चलाना काफी धीमा होता है।
+
+अधिक या कम खंडित इंस्टेंस देखने के लिए आप स्कोर थ्रेशोल्ड `VIS_THR` को स्वतंत्र रूप से बदल सकते हैं।
 ```bash
 ONLINE_VIS=True
 VIS_THR=0.4
@@ -433,6 +451,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

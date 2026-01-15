@@ -1,34 +1,66 @@
-# AI Partner Chat
+
+<div align="right">
+  <details>
+    <summary >🌐 语言</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# AI 伙伴聊天
 
 一个 Claude Skills 项目，让 AI 成为你的个性化对话伙伴。
 
 ## 项目简介
 
-AI Partner Chat 通过整合用户画像、AI 画像和向量化的个人笔记，提供个性化的、上下文感知的对话体验。这个技能让 AI 能够记住并引用你之前的想法、偏好和知识库，创造出更加连贯和个性化的交互体验。
+AI 伙伴聊天通过整合用户画像、AI 画像和向量化的个人笔记，提供个性化、具备上下文感知能力的对话体验。这个技能让 AI 能够记住并引用你之前的想法、偏好和知识库，创造出更加连贯和个性化的交互体验。
 
 ## 核心功能
 
 ### 🎭 双画像系统
 - **用户画像**：定义你的背景、专长、兴趣和沟通偏好
-- **AI 画像**：定制 AI 的角色定位、沟通风格和交互方式
+- **AI画像**：定制AI的角色定位、沟通风格和交互方式
 
 ### 📝 智能笔记检索
-- 自动索引你的 Markdown 笔记
+- 自动索引你的Markdown笔记
 - 根据对话内容智能检索相关历史记录
 - 在对话中自然引用你的过往想法和笔记
 
 ### 💬 个性化对话
 - 基于你的画像和笔记生成个性化回应
 - 保持对话的上下文连贯性
-- 像朋友一样自然地引用你的想法，而非机械地"根据记录"
+- 像朋友一样自然地引用你的想法，而不是机械地“根据记录”
 
 ## 使用场景
 
 当你需要：
-- 个性化交流，而非通用回复
-- 上下文感知的回应，AI 能记住你的背景
-- AI 记住并引用你之前的想法和笔记
-- 持续性的对话体验，而非每次都是全新开始
+- 个性化交流，而不是通用回复
+- 上下文感知的回应，AI能记住你的背景
+- AI记住并引用你之前的想法和笔记
+- 持续性的对话体验，而不是每次都是全新开始
 
 ## 安装与使用
 
@@ -212,6 +244,6 @@ AI agent 会重新分析所有笔记并重建索引。
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

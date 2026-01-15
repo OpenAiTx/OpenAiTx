@@ -1,40 +1,72 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # AI Partner Chat
 
-A Claude Skills project that makes AI your personalized conversation partner.
+A Claude Skills project that enables AI to become your personalized conversation partner.
 
 ## Project Introduction
 
-AI Partner Chat provides a personalized, context-aware conversational experience by integrating user profiles, AI profiles, and vectorized personal notes. This skill enables the AI to remember and reference your previous thoughts, preferences, and knowledge base, creating a more coherent and personalized interaction experience.
+AI Partner Chat provides a personalized, context-aware conversation experience by integrating user profiles, AI profiles, and vectorized personal notes. This skill allows the AI to remember and reference your previous thoughts, preferences, and knowledge base, creating a more coherent and personalized interactive experience.
 
 ## Core Features
 
-### 🎭 Dual Profile System
-- **User Profile**: Define your background, expertise, interests, and communication preferences
-- **AI Profile**: Customize the AI's role positioning, communication style, and interaction methods
+### 🎭 Dual Persona System
+- **User Persona**: Define your background, expertise, interests, and communication preferences
+- **AI Persona**: Customize the AI's role, communication style, and interaction mode
 
-### 📝 Intelligent Note Retrieval
+### 📝 Smart Note Retrieval
 - Automatically index your Markdown notes
-- Intelligently retrieve relevant historical records based on the conversation content
-- Naturally reference your past thoughts and notes during conversations
+- Intelligently retrieve relevant history based on conversation content
+- Naturally reference your past ideas and notes in the dialogue
 
 ### 💬 Personalized Conversation
-- Generate personalized responses based on your profiles and notes
-- Maintain conversational context coherence
-- Reference your ideas naturally like a friend, rather than mechanically "according to records"
+- Generate personalized responses based on your persona and notes
+- Maintain contextual coherence in the conversation
+- Reference your ideas like a friend, not mechanically "according to the record"
 
-## Use Cases
+## Usage Scenarios
 
 When you need:
-- Personalized communication instead of generic replies
-- Context-aware responses where the AI remembers your background
+- Personalized communication, not generic replies
+- Context-aware responses, with AI remembering your background
 - AI to remember and reference your previous thoughts and notes
-- A continuous conversational experience rather than starting fresh every time
+- A continuous conversation experience, not a fresh start every time
 
-## Installation and Usage
+## Installation & Usage
 
 ### Install the Skill
 
-Copy this project into the `.claude/skills/` folder in your working directory:
+Copy this project into your working directory under the `.claude/skills/` folder:
 
 ```
 <你的项目根目录>/
@@ -212,6 +244,6 @@ Let AI become a conversation partner who truly understands you, not just a tool.
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

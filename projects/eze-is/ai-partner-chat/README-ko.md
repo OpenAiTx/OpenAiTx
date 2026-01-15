@@ -1,40 +1,72 @@
-# AI 파트너 채팅
 
-Claude Skills 프로젝트로, AI를 당신의 맞춤형 대화 파트너로 만듭니다.
+<div align="right">
+  <details>
+    <summary >🌐 언어</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# AI 파트너 챗
+
+Claude Skills 프로젝트로, AI가 당신의 맞춤형 대화 파트너가 됩니다.
 
 ## 프로젝트 소개
 
-AI Partner Chat은 사용자 프로필, AI 프로필, 벡터화된 개인 노트를 통합하여 개인화되고 문맥을 인지하는 대화 경험을 제공합니다. 이 스킬은 AI가 이전의 생각, 선호 및 지식 베이스를 기억하고 인용할 수 있게 하여 더 일관되고 개인화된 상호작용을 창출합니다.
+AI 파트너 챗은 사용자 프로필, AI 프로필, 벡터화된 개인 노트를 통합하여 개인화되고 맥락을 인지하는 대화 경험을 제공합니다. 이 기능은 AI가 당신의 이전 생각, 선호도, 지식 베이스를 기억하고 인용할 수 있게 하여 더욱 일관성 있고 개인화된 상호작용을 만들어냅니다.
 
 ## 핵심 기능
 
 ### 🎭 이중 프로필 시스템
-- **사용자 프로필**: 당신의 배경, 전문성, 관심사 및 커뮤니케이션 선호도를 정의
-- **AI 프로필**: AI의 역할 위치, 소통 스타일 및 상호작용 방식을 맞춤 설정
+- **사용자 프로필**: 배경, 전문 분야, 관심사 및 소통 선호도 정의
+- **AI 프로필**: AI의 역할, 소통 스타일 및 상호작용 방식 맞춤 설정
 
 ### 📝 스마트 노트 검색
-- 당신의 Markdown 노트를 자동으로 인덱싱
-- 대화 내용에 따라 관련된 과거 기록을 스마트하게 검색
-- 대화 중 자연스럽게 당신의 이전 생각과 노트를 인용
+- Markdown 노트를 자동으로 인덱싱
+- 대화 내용을 기반으로 관련된 과거 기록을 스마트하게 검색
+- 대화 중 자연스럽게 이전 생각과 노트를 인용
 
-### 💬 개인화 대화
-- 당신의 프로필과 노트를 기반으로 개인화된 응답 생성
-- 대화의 문맥 연속성 유지
-- 친구처럼 자연스럽게 당신의 생각을 인용, 기계적으로 "기록에 따라"하지 않음
+### 💬 맞춤형 대화
+- 사용자 프로필과 노트를 기반으로 맞춤형 답변 생성
+- 대화의 맥락을 일관성 있게 유지
+- 친구처럼 자연스럽게 생각을 인용하며, 기계적으로 "기록에 따라"라고 하지 않음
 
 ## 사용 시나리오
 
-당신이 필요할 때:
-- 일반적인 답변이 아닌 개인화된 소통
-- 문맥을 인지하는 응답, AI가 당신의 배경을 기억
+다음이 필요할 때:
+- 맞춤형 소통, 일반적인 답변이 아닌 경우
+- 맥락을 인식한 응답, AI가 당신의 배경을 기억
 - AI가 이전 생각과 노트를 기억하고 인용
-- 매번 새로 시작하지 않는 지속적인 대화 경험
+- 매번 새로 시작하지 않고 지속적인 대화 경험
 
 ## 설치 및 사용법
 
-### 스킬 설치
+### 기술 설치
 
-이 프로젝트를 작업 디렉터리 내 `.claude/skills/` 폴더에 복사하세요:
+이 프로젝트를 작업 디렉터리의 `.claude/skills/` 폴더에 복사하세요:
 
 ```
 <你的项目根目录>/
@@ -212,6 +244,6 @@ AI가 단순한 도구가 아니라 진정으로 당신을 이해하는 대화 �
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

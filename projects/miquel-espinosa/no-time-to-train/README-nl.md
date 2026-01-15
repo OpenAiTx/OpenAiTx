@@ -367,12 +367,30 @@ python run_lightening.py test --config $YAML_PATH \
     --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
     --trainer.devices 1
 ```
-### 3. Inferentie op doelafbeeldingen
 
-Als `ONLINE_VIS` is ingesteld op True, worden de voorspelde resultaten opgeslagen in `results_analysis/my_custom_dataset/` en getoond zodra ze zijn berekend. LET OP dat het uitvoeren met online visualisatie veel trager is.
+#### 2.1 Visualiseer nabewerkte geheugenbank
+
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode vis_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+PCA- en K-means-visualisaties voor de geheugenbankafbeeldingen worden opgeslagen in `results_analysis/memory_vis/my_custom_dataset`.
+
+### 3. Inferentie op doeldataset-afbeeldingen
+
+Als `ONLINE_VIS` op True staat, worden de predictieresultaten opgeslagen in `results_analysis/my_custom_dataset/` en weergegeven zodra ze zijn berekend. LET OP dat draaien met online visualisatie veel langzamer is.
 
 Voel je vrij om de score drempel `VIS_THR` aan te passen om meer of minder gesegmenteerde instanties te zien.
-
 ```bash
 ONLINE_VIS=True
 VIS_THR=0.4
@@ -433,6 +451,6 @@ Als u dit werk gebruikt, citeer ons dan alsjeblieft:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

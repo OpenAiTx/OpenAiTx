@@ -1,40 +1,72 @@
-# AI パートナーチャット
 
-Claude Skills プロジェクトの一つで、AI をあなたのパーソナライズされた対話パートナーにします。
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=en">英語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=zh-CN">簡体字中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=zh-TW">繁体字中国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ko">韓国語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=hi">ヒンディー語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=th">タイ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=fr">フランス語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=de">ドイツ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=es">スペイン語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=it">イタリア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ru">ロシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=pt">ポルトガル語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=nl">オランダ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=pl">ポーランド語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ar">アラビア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=fa">ペルシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=tr">トルコ語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=vi">ベトナム語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=id">インドネシア語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=as">アッサム語</
+      </div>
+    </div>
+  </details>
+</div>
+
+# AIパートナーチャット
+
+Claude Skillsプロジェクトで、AIがあなたのパーソナライズされた会話パートナーになります。
 
 ## プロジェクト概要
 
-AI パートナーチャットは、ユーザープロファイル、AI プロファイル、ベクトル化された個人ノートを統合し、パーソナライズされコンテキストに対応した対話体験を提供します。このスキルにより、AI はあなたの過去の考えや好み、知識ベースを記憶し参照でき、より一貫性があり個性的なインタラクションを生み出します。
+AI Partner Chatは、ユーザープロファイル、AIプロファイル、ベクトル化された個人メモを統合することで、パーソナライズされたコンテキスト認識型の対話体験を提供します。このスキルにより、AIはあなたの過去の考えや好み、ナレッジベースを記憶し、引用することができ、より一貫性がありパーソナライズされたインタラクション体験を実現します。
 
 ## コア機能
 
-### 🎭 デュアルプロファイルシステム
-- **ユーザープロファイル**：あなたの背景、専門知識、興味、コミュニケーションの好みを定義
-- **AI プロファイル**：AI の役割設定、コミュニケーションスタイル、インタラクション方法をカスタマイズ
+### 🎭 デュアル画像システム
+- **ユーザー画像**：あなたの背景、専門分野、興味、コミュニケーションの好みを定義
+- **AI画像**：AIの役割設定、コミュニケーションスタイル、インタラクション方法をカスタマイズ
 
 ### 📝 インテリジェントノート検索
-- あなたの Markdown ノートを自動でインデックス化
-- 対話内容に基づき関連する過去の記録をインテリジェントに検索
-- 対話中に自然にあなたの過去の考えやノートを引用
+- あなたのMarkdownノートを自動でインデックス化
+- 会話内容に基づいて関連する履歴をインテリジェントに検索
+- 過去のアイデアやノートを会話の中で自然に引用
 
-### 💬 パーソナライズド対話
-- あなたのプロファイルとノートに基づいた個性的な応答を生成
-- 対話のコンテキストの一貫性を保持
-- 機械的に「記録に基づく」のではなく、友人のように自然にあなたの考えを引用
+### 💬 パーソナライズド会話
+- あなたの画像とノートに基づきパーソナライズされた応答を生成
+- 会話の文脈の一貫性を保持
+- 友人のように自然にアイデアを引用し、「記録によれば」と機械的にならない
 
 ## 利用シーン
 
-あなたが必要とするとき：
-- 汎用的な返信ではなくパーソナライズされた交流
-- あなたの背景を覚えているコンテキスト感知の応答
-- AI があなたの過去の考えやノートを記憶し引用
-- 毎回新たに始めるのではなく継続的な対話体験
+あなたが次のような場合に：
+- パーソナライズされたコミュニケーションが必要、汎用応答ではない
+- 文脈を認識した応答が必要、AIがあなたの背景を覚えている
+- AIが以前のアイデアやノートを覚えて引用できる
+- 毎回新しい開始ではなく、継続的な会話体験が必要
 
-## インストールと使用
+## インストールと利用方法
 
 ### スキルのインストール
 
-このプロジェクトを作業ディレクトリ内の `.claude/skills/` フォルダにコピーしてください：
+本プロジェクトをあなたの作業ディレクトリ内の `.claude/skills/` フォルダにコピーしてください：
 
 ```
 <你的项目根目录>/
@@ -212,6 +244,6 @@ AIを単なるツールではなく、あなたを真に理解する対話パー
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

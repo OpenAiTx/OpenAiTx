@@ -367,12 +367,30 @@ python run_lightening.py test --config $YAML_PATH \
     --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
     --trainer.devices 1
 ```
+
+#### 2.1 Wizualizacja pamięci po przetworzeniu końcowym
+
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode vis_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+Wizualizacje PCA i K-means dla obrazów z banku pamięci są przechowywane w `results_analysis/memory_vis/my_custom_dataset`.
+
 ### 3. Wnioskowanie na obrazach docelowych
 
-Jeśli `ONLINE_VIS` jest ustawione na True, wyniki predykcji zostaną zapisane w `results_analysis/my_custom_dataset/` i wyświetlone na bieżąco podczas obliczeń. UWAGA: uruchamianie z wizualizacją online jest znacznie wolniejsze.
+Jeśli `ONLINE_VIS` jest ustawione na True, wyniki predykcji zostaną zapisane w `results_analysis/my_custom_dataset/` i wyświetlone podczas obliczania. UWAGA: uruchamianie z wizualizacją online jest znacznie wolniejsze.
 
-Możesz dowolnie zmienić próg punktowy `VIS_THR`, aby zobaczyć więcej lub mniej wysegmentowanych obiektów.
-
+Możesz swobodnie zmieniać próg punktowy `VIS_THR`, aby zobaczyć więcej lub mniej wyodrębnionych instancji.
 ```bash
 ONLINE_VIS=True
 VIS_THR=0.4
@@ -433,6 +451,6 @@ Jeśli korzystasz z tej pracy, prosimy o cytowanie:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

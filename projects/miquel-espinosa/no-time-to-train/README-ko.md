@@ -369,12 +369,30 @@ python run_lightening.py test --config $YAML_PATH \
     --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
     --trainer.devices 1
 ```
-### 3. 타겟 이미지에 대한 추론
 
-`ONLINE_VIS`가 True로 설정되어 있으면, 예측 결과가 `results_analysis/my_custom_dataset/`에 저장되고 계산되는 대로 표시됩니다. 온라인 시각화와 함께 실행하면 속도가 훨씬 느려진다는 점에 유의하세요.
+#### 2.1 후처리된 메모리 뱅크 시각화
 
-분할된 인스턴스를 더 많이 또는 더 적게 보고 싶다면 점수 임계값 `VIS_THR`를 자유롭게 변경하세요.
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode vis_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+메모리 뱅크 이미지에 대한 PCA 및 K-평균 시각화는 `results_analysis/memory_vis/my_custom_dataset`에 저장됩니다.
 
+### 3. 타깃 이미지에 대한 추론
+
+`ONLINE_VIS`가 True로 설정되어 있으면 예측 결과가 `results_analysis/my_custom_dataset/`에 저장되고 계산되는 즉시 표시됩니다. 온라인 시각화로 실행하면 훨씬 느려진다는 점에 유의하세요.
+
+분할된 인스턴스를 더 많이 혹은 더 적게 보기 위해 점수 임계값 `VIS_THR`를 자유롭게 변경하세요.
 ```bash
 ONLINE_VIS=True
 VIS_THR=0.4
@@ -435,6 +453,6 @@ SEGM RESULTS:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

@@ -367,12 +367,30 @@ python run_lightening.py test --config $YAML_PATH \
     --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
     --trainer.devices 1
 ```
+
+#### 2.1 Visualisierung der nachverarbeiteten Speicherbank
+
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode vis_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+PCA- und K-means-Visualisierungen für die Memory-Bank-Bilder sind in `results_analysis/memory_vis/my_custom_dataset` gespeichert.
+
 ### 3. Inferenz auf Zielbildern
 
-Wenn `ONLINE_VIS` auf True gesetzt ist, werden die Vorhersageergebnisse in `results_analysis/my_custom_dataset/` gespeichert und angezeigt, sobald sie berechnet werden. BEACHTEN SIE, dass die Ausführung mit Online-Visualisierung deutlich langsamer ist.
+Wenn `ONLINE_VIS` auf True gesetzt ist, werden die Vorhersageergebnisse in `results_analysis/my_custom_dataset/` gespeichert und während der Berechnung angezeigt. BEACHTEN SIE, dass der Lauf mit Online-Visualisierung deutlich langsamer ist.
 
-Sie können den Score-Schwellenwert `VIS_THR` beliebig ändern, um mehr oder weniger segmentierte Instanzen anzuzeigen.
-
+Sie können gerne den Score-Schwellenwert `VIS_THR` ändern, um mehr oder weniger segmentierte Instanzen zu sehen.
 ```bash
 ONLINE_VIS=True
 VIS_THR=0.4
@@ -433,6 +451,6 @@ Wenn Sie diese Arbeit verwenden, zitieren Sie uns bitte:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

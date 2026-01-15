@@ -1,0 +1,1326 @@
+[
+  {
+    "Id": 1,
+    "Content": "# Cheat Sheet\n\n[![GitHub](https://img.shields.io/badge/github-michaelmagan/cheatsheet-blue?logo=github)](https://github.com/michaelmagan/cheatsheet)\n[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)\n[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)\n[![Tambo AI](https://img.shields.io/badge/Tambo-AI-purple)](https://tambo.co)\n\nAn AI-powered, open-source Google Sheets competitor built with [Tambo AI](https://tambo.co).\n\nBuild and manipulate interactive spreadsheets with natural language, alongside graphs and visualizations.\n\n## Demo\nTry it yourself: **[CheatSheet](https://cheatsheet.tambo.co)**\n\n### Preview\nhttps://github.com/user-attachments/assets/da72aa8b-6bc5-468e-8f42-0da685105d22\n\n## Features\n\n- **Edit with AI**: Use natural language to interact with a spreadsheet.\n- **Cell Selection**: Select cells to have the AI interact with.\n- **Multi-Modal**: Attach Images along with Messages.\n- **Charts and Graphs**: Create visualizations from your spreadsheet data\n- **Model Context Protocol (MCP)**: Connect external data sources and tools\n\n## Roadmap\n\n- **Voice Input**: Use voice input in addition to typing.\n- **Formula Support**: Spreadsheet formulas (SUM, AVERAGE, IF, VLOOKUP, etc.)\n- **Better Formatting**: More visual options for tables (colors, borders, fonts, alignment)\n- **Import/Export**: CSV, XLSX, and JSON support\n\n\n## Get Started\n\n1. Clone this repository\n\n2. Navigate to the project directory:",
+    "ContentSha": "uNo/4QUEqXDHJVzuQRHCVyhnM4Y2rJ8B1CWgND/3Jdo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# チートシート\n\n[![GitHub](https://img.shields.io/badge/github-michaelmagan/cheatsheet-blue?logo=github)](https://github.com/michaelmagan/cheatsheet)\n[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)\n[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)\n[![Tambo AI](https://img.shields.io/badge/Tambo-AI-purple)](https://tambo.co)\n\n[Tambo AI](https://tambo.co) を使って構築された、AI搭載のオープンソースGoogle Sheets競合製品です。\n\n自然言語でインタラクティブなスプレッドシートを構築・操作し、グラフやビジュアライゼーションと共に扱えます。\n\n## デモ\nぜひお試しください：**[CheatSheet](https://cheatsheet.tambo.co)**\n\n### プレビュー\nhttps://github.com/user-attachments/assets/da72aa8b-6bc5-468e-8f42-0da685105d22\n\n## 特徴\n\n- **AIによる編集**：自然言語でスプレッドシートと対話。\n- **セル選択**：AIと対話するセルを選択可能。\n- **マルチモーダル**：メッセージと共に画像を添付。\n- **チャートとグラフ**：スプレッドシートのデータからビジュアライゼーションを作成。\n- **モデルコンテキストプロトコル（MCP）**：外部データソースやツールと接続。\n\n## ロードマップ\n\n- **音声入力**：タイピングに加えて音声入力を利用可能に。\n- **数式サポート**：スプレッドシートの数式（SUM、AVERAGE、IF、VLOOKUPなど）。\n- **より良い書式設定**：テーブルのビジュアルオプション拡充（色、枠線、フォント、配置）。\n- **インポート/エクスポート**：CSV、XLSX、JSON対応。\n\n## はじめに\n\n1. このリポジトリをクローン\n\n2. プロジェクトディレクトリに移動：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "M5xupxgP/FoP3k8WE1FRtQ63+Py/JQObm9FmhpLmnzE=",
+        "originContent": "# Cheat Sheet",
+        "translatedContent": "# チートシート"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "pyiwcm0DUr5vXUOY4ZD6tIbfaTCzaDeTNvMlgtK/iEg=",
+        "originContent": "[![GitHub](https://img.shields.io/badge/github-michaelmagan/cheatsheet-blue?logo=github)](https://github.com/michaelmagan/cheatsheet)",
+        "translatedContent": "[![GitHub](https://img.shields.io/badge/github-michaelmagan/cheatsheet-blue?logo=github)](https://github.com/michaelmagan/cheatsheet)"
+      },
+      {
+        "row": 4,
+        "rowsha": "3WLMHMu3oYyBnVL4EfU07NmNNn7UMul7NsE3NX/GtwQ=",
+        "originContent": "[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)",
+        "translatedContent": "[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)"
+      },
+      {
+        "row": 5,
+        "rowsha": "gT9BuA+63yGsmk7kFI16QTN7VYUfpwRUaVKhoiwNepM=",
+        "originContent": "[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)",
+        "translatedContent": "[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)"
+      },
+      {
+        "row": 6,
+        "rowsha": "TavWVKdsxMozpQ6xFXJidxUTnK2FNGepoDNegImQ1zQ=",
+        "originContent": "[![Tambo AI](https://img.shields.io/badge/Tambo-AI-purple)](https://tambo.co)",
+        "translatedContent": "[![Tambo AI](https://img.shields.io/badge/Tambo-AI-purple)](https://tambo.co)"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "HJmlogR0hl7+5Hs4tyI7q3Os2BmMpekTvCwVQrWknGQ=",
+        "originContent": "An AI-powered, open-source Google Sheets competitor built with [Tambo AI](https://tambo.co).",
+        "translatedContent": "[Tambo AI](https://tambo.co) を使って構築された、AI搭載のオープンソースGoogle Sheets競合製品です。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "TSv5APD/QeN1CIt+xD/zbCFHiWZ5taedFce4Rd+sQwg=",
+        "originContent": "Build and manipulate interactive spreadsheets with natural language, alongside graphs and visualizations.",
+        "translatedContent": "自然言語でインタラクティブなスプレッドシートを構築・操作し、グラフやビジュアライゼーションと共に扱えます。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "h2oCrKgStQ5AZqLJoPmDatCdaUsXI9IiVqg1avCkGaM=",
+        "originContent": "## Demo",
+        "translatedContent": "## デモ"
+      },
+      {
+        "row": 13,
+        "rowsha": "oG+Hk5rgZoga2OEeT2T2r7zRamyAd3amwrXES4FurFI=",
+        "originContent": "Try it yourself: **[CheatSheet](https://cheatsheet.tambo.co)**",
+        "translatedContent": "ぜひお試しください：**[CheatSheet](https://cheatsheet.tambo.co)**"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "67wya349XTb+2QsPwWbrBNhqZc4dK5UJ8OqC76zZMnk=",
+        "originContent": "### Preview",
+        "translatedContent": "### プレビュー"
+      },
+      {
+        "row": 16,
+        "rowsha": "/j/VRETyesStUJ1IEhV/Wy8+UvprKQbnl7j3yab1ypM=",
+        "originContent": "https://github.com/user-attachments/assets/da72aa8b-6bc5-468e-8f42-0da685105d22",
+        "translatedContent": "https://github.com/user-attachments/assets/da72aa8b-6bc5-468e-8f42-0da685105d22"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "nrVeE3oDH0tNFm9CX5stkYPKAaCrnePTkJZtrLHmoDg=",
+        "originContent": "## Features",
+        "translatedContent": "## 特徴"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "10JuyuQX+Ra4Q1R57nzDoRuSZQPIppVlp3PlPkD/MCI=",
+        "originContent": "- **Edit with AI**: Use natural language to interact with a spreadsheet.",
+        "translatedContent": "- **AIによる編集**：自然言語でスプレッドシートと対話。"
+      },
+      {
+        "row": 21,
+        "rowsha": "gPpBZBDzgVQYV9BQWxzUxCaQSXKiF2pXs4RRWWXyEmI=",
+        "originContent": "- **Cell Selection**: Select cells to have the AI interact with.",
+        "translatedContent": "- **セル選択**：AIと対話するセルを選択可能。"
+      },
+      {
+        "row": 22,
+        "rowsha": "8YmyJaIHtceRUnO6yPDnLibUO+9SsXhkmRGTWtR6rD0=",
+        "originContent": "- **Multi-Modal**: Attach Images along with Messages.",
+        "translatedContent": "- **マルチモーダル**：メッセージと共に画像を添付。"
+      },
+      {
+        "row": 23,
+        "rowsha": "3oE8AM0YnHgV63CjkW6PUvNQMN/Fyqj+6X4z/gvI1M0=",
+        "originContent": "- **Charts and Graphs**: Create visualizations from your spreadsheet data",
+        "translatedContent": "- **チャートとグラフ**：スプレッドシートのデータからビジュアライゼーションを作成。"
+      },
+      {
+        "row": 24,
+        "rowsha": "NceMQRpQPv7ZySYGsAsQHoaxOEA2JQS+cgLpure6uUw=",
+        "originContent": "- **Model Context Protocol (MCP)**: Connect external data sources and tools",
+        "translatedContent": "- **モデルコンテキストプロトコル（MCP）**：外部データソースやツールと接続。"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "uRQ4dBQEv6RHmBfuRiXr10ur0TwKlFiD+9olmuSkhDY=",
+        "originContent": "## Roadmap",
+        "translatedContent": "## ロードマップ"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "yOCOu6VqQjOcxrfQ4fj/LgO18fNhxwepLkW+O4kID+0=",
+        "originContent": "- **Voice Input**: Use voice input in addition to typing.",
+        "translatedContent": "- **音声入力**：タイピングに加えて音声入力を利用可能に。"
+      },
+      {
+        "row": 29,
+        "rowsha": "m6u1dRhfPSTK3IY7jK8XhccolJE3HCktt5KPkiHiNyU=",
+        "originContent": "- **Formula Support**: Spreadsheet formulas (SUM, AVERAGE, IF, VLOOKUP, etc.)",
+        "translatedContent": "- **数式サポート**：スプレッドシートの数式（SUM、AVERAGE、IF、VLOOKUPなど）。"
+      },
+      {
+        "row": 30,
+        "rowsha": "oBA8W2LN+lehS06Q3oCP8bsCOGYvrY8hSsqpAoaxtxk=",
+        "originContent": "- **Better Formatting**: More visual options for tables (colors, borders, fonts, alignment)",
+        "translatedContent": "- **より良い書式設定**：テーブルのビジュアルオプション拡充（色、枠線、フォント、配置）。"
+      },
+      {
+        "row": 31,
+        "rowsha": "NKlGUuBv6FCYHfnGMk+8qdcp+lfDl5tL9RnvaFNpGJ4=",
+        "originContent": "- **Import/Export**: CSV, XLSX, and JSON support",
+        "translatedContent": "- **インポート/エクスポート**：CSV、XLSX、JSON対応。"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## はじめに"
+      },
+      {
+        "row": 34,
+        "rowsha": "fdzSvcVmecTeZF5A18WcXJ925k4OTH/HculV8+p+hkk=",
+        "originContent": "## Get Started",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "1. このリポジトリをクローン"
+      },
+      {
+        "row": 36,
+        "rowsha": "uQ/hpcsn+PKWI4+EsW0FFWPUwIPmR5RTRYfs5fij3hE=",
+        "originContent": "1. Clone this repository",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "2. プロジェクトディレクトリに移動："
+      },
+      {
+        "row": 38,
+        "rowsha": "r/DzKVzK4d9GkMa+534ZAQ4gJk8B3ih5nlUx21G2eF0=",
+        "originContent": "2. Navigate to the project directory:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "   ```bash\n   cd spreadsheet-template\n   ```",
+    "ContentSha": "fUX0N/0kALr5GzeOcQgSNdaWU4T/eF0DKWZVOObzT9s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cd spreadsheet-template\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "v8tjbfxyc7zomTcIr803rSgKD+fGjLSpGgKewaKZX9k=",
+        "originContent": "   cd spreadsheet-template",
+        "translatedContent": "   cd spreadsheet-template"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n3. Install dependencies:",
+    "ContentSha": "sKE50oa4Ih2uaGMNqke2DOdANtnMvXLwsnfq4Xr6d4c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "3. 依存関係のインストール:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "3. 依存関係のインストール:"
+      },
+      {
+        "row": 2,
+        "rowsha": "DFP9/08O+LZbieoKJaoqW1+0Bt1hyigCB/gI8O3Np5I=",
+        "originContent": "3. Install dependencies:",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "   ```bash\n   npm install\n   ```",
+    "ContentSha": "96Rm5WrnzxYutorOrn4fzgzNs/nxnmAl/lHT/7c+Uo8=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   npm install\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "vL8BhPjyB/zDBV86sjJRWERo3LQsvb84xA8TswysvN0=",
+        "originContent": "   npm install",
+        "translatedContent": "   npm install"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n4. Set up your environment variables:\n\n   **Option A: Using Tambo CLI (Recommended)**",
+    "ContentSha": "2weACUeHVj0+I0nOMBl0j4VBL0tbCO7RkmAOpkgK2wI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n4. 環境変数を設定します：\n\n   **オプションA：Tambo CLIを使用する（推奨）**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LCGhW3hw75ijqPW4xTpI8z4ItljzyLTR9Pqk84Koa5c=",
+        "originContent": "4. Set up your environment variables:",
+        "translatedContent": "4. 環境変数を設定します："
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "/+7wOAU/EDx12aQ6in7ABBR17/qmOh+LBwiRHQmh1kY=",
+        "originContent": "   **Option A: Using Tambo CLI (Recommended)**",
+        "translatedContent": "   **オプションA：Tambo CLIを使用する（推奨）**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "   ```bash\n   npx tambo init\n   ```",
+    "ContentSha": "6B+cHE+qtMezwkBUjB6j8JsX3bmvbyuvQcezNTmC9L0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   npx tambo init\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "Q05sGOVwPihYAULIannNjT7l5ObSG1AQ9Qkpz/mnMlI=",
+        "originContent": "   npx tambo init",
+        "translatedContent": "   npx tambo init"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 7,
+    "Content": "   This will interactively prompt you for your Tambo API key and create `.env.local` automatically.\n\n   **Option B: Manual Setup**",
+    "ContentSha": "2FsrYTHMkhh8lnfP4hBWrkIWSZt0Qv7b1yypbxMyrw4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   これにより、対話形式でTambo APIキーの入力を求められ、`.env.local`が自動的に作成されます。\n\n   **オプションB：手動セットアップ**",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qSiZg3La/b4JbmZnqVUeK5ogbrGjaX8mO8Lr6YUl1Jw=",
+        "originContent": "   This will interactively prompt you for your Tambo API key and create `.env.local` automatically.",
+        "translatedContent": "   これにより、対話形式でTambo APIキーの入力を求められ、`.env.local`が自動的に作成されます。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "/3XD+MpK01CEL44Js0/A8w9TCznibZyG7UXhyhQ9xLg=",
+        "originContent": "   **Option B: Manual Setup**",
+        "translatedContent": "   **オプションB：手動セットアップ**"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 8,
+    "Content": "   ```bash\n   cp example.env.local .env.local\n   ```",
+    "ContentSha": "jNVe4cDMIDnNzmP52K8Ktdgww0lJk85d45PN2FmmB/w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cp example.env.local .env.local\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "JPOPGqs2w+jB6H2ySgZG3gRvTBHSGFtCIsqNR9pNpDk=",
+        "originContent": "   cp example.env.local .env.local",
+        "translatedContent": "   cp example.env.local .env.local"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 9,
+    "Content": "   Then edit `.env.local` and add your API key from [tambo.co/dashboard](https://tambo.co/dashboard).\n\n5. Start the development server:",
+    "ContentSha": "yUIqKSo/Fr5WmJZk4JG/2K0j2CCPJYzRAGTO6RaCKCo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   次に `.env.local` を編集し、[tambo.co/dashboard](https://tambo.co/dashboard) から取得したAPIキーを追加します。\n\n5. 開発サーバーを起動します：",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "7ai0qW0isiTVgONTGC1TbUDQtd93KPv7tWD9YWzHUfI=",
+        "originContent": "   Then edit `.env.local` and add your API key from [tambo.co/dashboard](https://tambo.co/dashboard).",
+        "translatedContent": "   次に `.env.local` を編集し、[tambo.co/dashboard](https://tambo.co/dashboard) から取得したAPIキーを追加します。"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "lAVebAsRhGLoFMmhM6atDmp9bt/Crbev3l8AuzrcWlA=",
+        "originContent": "5. Start the development server:",
+        "translatedContent": "5. 開発サーバーを起動します："
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 10,
+    "Content": "   ```bash\n   npm run dev\n   ```",
+    "ContentSha": "hxMxVZE7XJcRcdD9LExnMIWAhYx13oAbCrERMHLHKtc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   npm run dev\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "jpTVQEQJssgEMpBk9yv3LDrV/THaMODy0a1aLMkysrU=",
+        "originContent": "   npm run dev",
+        "translatedContent": "   npm run dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 11,
+    "Content": "\n6. Open [http://localhost:3000](http://localhost:3000) in your browser to use the app!\n\n## Architecture Overview\n\nThis template shows how the AI reads and updates the spreadsheet through three ways:\n\n### How AI Accesses Spreadsheet State\n\n**Context Helpers** (Read-only data)\n- `spreadsheetContextHelper` - Gives the AI the current tab's data as a markdown table\n- `spreadsheetSelectionContextHelper` - Tells the AI what's currently selected\n- `tabContextHelper` - Lists all tabs and highlights the active tab\n- Runs automatically whenever you send a message\n- See: `src/lib/spreadsheet-context-helper.ts`, `src/lib/spreadsheet-selection-context.ts`, `src/lib/tab-context-helper.ts`\n\n**Tools** (Make changes)\n- Spreadsheet + tab tools for the AI to change state or inspect metadata\n- Context helpers are read-only; tools make changes\n- See: `src/tools/spreadsheet-tools.ts`, `src/tools/tab-tools.ts`\n\n### Spreadsheet Tools Reference\n\n| Tool | Purpose |\n|------|---------|\n| `updateCell` | Update a single cell's value |\n| `updateRange` | Update multiple cells at once |\n| `addColumn` | Add a new column |\n| `removeColumn` | Remove a column |\n| `addRow` | Add a new row |\n| `removeRow` | Remove a row |\n| `readCell` | Read a single cell's value |\n| `readRange` | Read multiple cells |\n| `clearRange` | Clear cell values in a range |\n| `sortByColumn` | Sort rows by column values |\n\n### Key Files\n\n**Configuration**\n- `src/lib/tambo.ts` - Component and tool registration",
+    "ContentSha": "XvF4Mrnb7+zzp+t8S/7Wg9h9VKc5YrWX7TOVSdPpLqk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "6. ブラウザで [http://localhost:3000](http://localhost:3000) を開いてアプリを使用してください！\n\n## アーキテクチャ概要\n\nこのテンプレートは、AIがスプレッドシートを読み取り、更新する3つの方法を示しています：\n\n### AIがスプレッドシートの状態にアクセスする方法\n\n**コンテキストヘルパー**（読み取り専用データ）\n- `spreadsheetContextHelper` - 現在のタブのデータをマークダウンテーブルとしてAIに提供します\n- `spreadsheetSelectionContextHelper` - AIに現在選択されている内容を伝えます\n- `tabContextHelper` - すべてのタブをリストアップし、アクティブなタブを強調表示します\n- メッセージを送信するたびに自動で実行されます\n- 参照：`src/lib/spreadsheet-context-helper.ts`、`src/lib/spreadsheet-selection-context.ts`、`src/lib/tab-context-helper.ts`\n\n**ツール**（変更を加える）\n- AIが状態を変更したりメタデータを調査したりするためのスプレッドシートおよびタブツール\n- コンテキストヘルパーは読み取り専用；ツールは変更を行います\n- 参照：`src/tools/spreadsheet-tools.ts`、`src/tools/tab-tools.ts`\n\n### スプレッドシートツールリファレンス\n\n| ツール | 目的 |\n|------|---------|\n| `updateCell` | 単一セルの値を更新 |\n| `updateRange` | 複数セルを一度に更新 |\n| `addColumn` | 新しい列を追加 |\n| `removeColumn` | 列を削除 |\n| `addRow` | 新しい行を追加 |\n| `removeRow` | 行を削除 |\n| `readCell` | 単一セルの値を読み取る |\n| `readRange` | 複数セルを読み取る |\n| `clearRange` | 範囲内のセルの値をクリア |\n| `sortByColumn` | 列の値で行を並べ替え |\n\n### 主要ファイル\n\n**設定**\n- `src/lib/tambo.ts` - コンポーネントおよびツールの登録\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "6. ブラウザで [http://localhost:3000](http://localhost:3000) を開いてアプリを使用してください！"
+      },
+      {
+        "row": 2,
+        "rowsha": "Lz+akTaCQ0rVRONJ4kMefmXU/KiIVThM+iTnS1kMEJs=",
+        "originContent": "6. Open [http://localhost:3000](http://localhost:3000) in your browser to use the app!",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## アーキテクチャ概要"
+      },
+      {
+        "row": 4,
+        "rowsha": "fxV+qJk43/CmRYwG5cyvrLMZ023bypgIha4+3wwqPB4=",
+        "originContent": "## Architecture Overview",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "このテンプレートは、AIがスプレッドシートを読み取り、更新する3つの方法を示しています："
+      },
+      {
+        "row": 6,
+        "rowsha": "f7Xb0bOHw7Ac7mHxWO/SPsTcqkvikFvgmC4CkCeFmDM=",
+        "originContent": "This template shows how the AI reads and updates the spreadsheet through three ways:",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### AIがスプレッドシートの状態にアクセスする方法"
+      },
+      {
+        "row": 8,
+        "rowsha": "xfvAsX7/9GGAB/Y24dRLIr8TBGOYGbUc01TFYJGuGpw=",
+        "originContent": "### How AI Accesses Spreadsheet State",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**コンテキストヘルパー**（読み取り専用データ）"
+      },
+      {
+        "row": 10,
+        "rowsha": "SrYh6Xmo4DS3GHTWJFHLyFeoYPNfKVzkf5VQkw4z5XA=",
+        "originContent": "**Context Helpers** (Read-only data)",
+        "translatedContent": "- `spreadsheetContextHelper` - 現在のタブのデータをマークダウンテーブルとしてAIに提供します"
+      },
+      {
+        "row": 11,
+        "rowsha": "RsZhClyRIX1rzURVXEGRrJL7H0FMes27nyCDMcZsFYU=",
+        "originContent": "- `spreadsheetContextHelper` - Gives the AI the current tab's data as a markdown table",
+        "translatedContent": "- `spreadsheetSelectionContextHelper` - AIに現在選択されている内容を伝えます"
+      },
+      {
+        "row": 12,
+        "rowsha": "pcfQpNnPlDOCGhGrRV2s00NJWoBdKjFZ2b1ODQm8bCk=",
+        "originContent": "- `spreadsheetSelectionContextHelper` - Tells the AI what's currently selected",
+        "translatedContent": "- `tabContextHelper` - すべてのタブをリストアップし、アクティブなタブを強調表示します"
+      },
+      {
+        "row": 13,
+        "rowsha": "9B8l0zT69PlQXjBKavx24lFlsciWVRrAH8MK9bFNFMA=",
+        "originContent": "- `tabContextHelper` - Lists all tabs and highlights the active tab",
+        "translatedContent": "- メッセージを送信するたびに自動で実行されます"
+      },
+      {
+        "row": 14,
+        "rowsha": "B1IRTCsEyNBgYTOZQe3NJelMIgGmCwJfJKHF9Jccegg=",
+        "originContent": "- Runs automatically whenever you send a message",
+        "translatedContent": "- 参照：`src/lib/spreadsheet-context-helper.ts`、`src/lib/spreadsheet-selection-context.ts`、`src/lib/tab-context-helper.ts`"
+      },
+      {
+        "row": 15,
+        "rowsha": "XrZP6weD9eg+lt0BXugyuDrVcHj7yPOph7L+KsVmgps=",
+        "originContent": "- See: `src/lib/spreadsheet-context-helper.ts`, `src/lib/spreadsheet-selection-context.ts`, `src/lib/tab-context-helper.ts`",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**ツール**（変更を加える）"
+      },
+      {
+        "row": 17,
+        "rowsha": "gBZh4XGx216TcPHJj8Cl3Cmw6CSfOs56QcIdVqZvT70=",
+        "originContent": "**Tools** (Make changes)",
+        "translatedContent": "- AIが状態を変更したりメタデータを調査したりするためのスプレッドシートおよびタブツール"
+      },
+      {
+        "row": 18,
+        "rowsha": "h7EJGk0dta8shO9ETJAO7jsSlsawP88ESXIwPYSYjeU=",
+        "originContent": "- Spreadsheet + tab tools for the AI to change state or inspect metadata",
+        "translatedContent": "- コンテキストヘルパーは読み取り専用；ツールは変更を行います"
+      },
+      {
+        "row": 19,
+        "rowsha": "FvI4pf4fHlfSMsgmLGl11HkZQ2mPtqIrEeyd3PoEwDs=",
+        "originContent": "- Context helpers are read-only; tools make changes",
+        "translatedContent": "- 参照：`src/tools/spreadsheet-tools.ts`、`src/tools/tab-tools.ts`"
+      },
+      {
+        "row": 20,
+        "rowsha": "Zqyd8nWXQG0GyMuk+kDChIugcpk8i0FlNoqGgFzUS7U=",
+        "originContent": "- See: `src/tools/spreadsheet-tools.ts`, `src/tools/tab-tools.ts`",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### スプレッドシートツールリファレンス"
+      },
+      {
+        "row": 22,
+        "rowsha": "zuEL6ezq6GDCgYNtt5h2s0ZOCEIubyzx+JN3DhdJq0g=",
+        "originContent": "### Spreadsheet Tools Reference",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| ツール | 目的 |"
+      },
+      {
+        "row": 24,
+        "rowsha": "CZsuoZW/gGQgOs/NcUkDfmSL8HemxAny9sl/3ls93xg=",
+        "originContent": "| Tool | Purpose |",
+        "translatedContent": "|------|---------|"
+      },
+      {
+        "row": 25,
+        "rowsha": "z1cWc204Q4s+E3V1pKQ5eoyUoM6eDLCt5pXwg06w4w0=",
+        "originContent": "|------|---------|",
+        "translatedContent": "| `updateCell` | 単一セルの値を更新 |"
+      },
+      {
+        "row": 26,
+        "rowsha": "dfTuLkou6aIJwFrASuueDFNKCxOWNHurV6JUwBfVadw=",
+        "originContent": "| `updateCell` | Update a single cell's value |",
+        "translatedContent": "| `updateRange` | 複数セルを一度に更新 |"
+      },
+      {
+        "row": 27,
+        "rowsha": "FD2pZuMW25UZxBnzznz3VXeIka/E5ZrBPvoiHWZcN20=",
+        "originContent": "| `updateRange` | Update multiple cells at once |",
+        "translatedContent": "| `addColumn` | 新しい列を追加 |"
+      },
+      {
+        "row": 28,
+        "rowsha": "h0OfpYyL+pFi8JKuNetI9GRc0Y3wJVUxbTEGmmfru54=",
+        "originContent": "| `addColumn` | Add a new column |",
+        "translatedContent": "| `removeColumn` | 列を削除 |"
+      },
+      {
+        "row": 29,
+        "rowsha": "Yg0W5RSMkVXNlEYpP6Wt2qgDwhmJjb8FLb1w8qZ5P1w=",
+        "originContent": "| `removeColumn` | Remove a column |",
+        "translatedContent": "| `addRow` | 新しい行を追加 |"
+      },
+      {
+        "row": 30,
+        "rowsha": "yOE43bK8v0t9BqegpvUBK+bOsX/XldDrFH6Z+VjxE9M=",
+        "originContent": "| `addRow` | Add a new row |",
+        "translatedContent": "| `removeRow` | 行を削除 |"
+      },
+      {
+        "row": 31,
+        "rowsha": "IflS/FKiRoSECamIUx+vl5+cCd/BrhtWAx0zCAkkhEw=",
+        "originContent": "| `removeRow` | Remove a row |",
+        "translatedContent": "| `readCell` | 単一セルの値を読み取る |"
+      },
+      {
+        "row": 32,
+        "rowsha": "Nda9tVmnE57gAulTWy6RIEUjRDkuS3bFHQS51Y5bb+g=",
+        "originContent": "| `readCell` | Read a single cell's value |",
+        "translatedContent": "| `readRange` | 複数セルを読み取る |"
+      },
+      {
+        "row": 33,
+        "rowsha": "maUeD147GXw8gKA4artkmnpbR6O+DSS5uuEdAKFrnJ4=",
+        "originContent": "| `readRange` | Read multiple cells |",
+        "translatedContent": "| `clearRange` | 範囲内のセルの値をクリア |"
+      },
+      {
+        "row": 34,
+        "rowsha": "ffekXRJKMafo+6ZBh35RB+oFknWQekMbovuZNxNoOJ4=",
+        "originContent": "| `clearRange` | Clear cell values in a range |",
+        "translatedContent": "| `sortByColumn` | 列の値で行を並べ替え |"
+      },
+      {
+        "row": 35,
+        "rowsha": "/uUCMoDvpNo7vX2Z+1yKuUK2fglmgUmfI3RKvnb45W4=",
+        "originContent": "| `sortByColumn` | Sort rows by column values |",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### 主要ファイル"
+      },
+      {
+        "row": 37,
+        "rowsha": "+NVXOnPmUFvuUtnMvxw61H8fLnXdeCq1kpVANxTFPQI=",
+        "originContent": "### Key Files",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "**設定**"
+      },
+      {
+        "row": 39,
+        "rowsha": "jMJAxYJsEvMgMZ6CyIr4bKBaAOm7kWPQJLTnwoDUO+c=",
+        "originContent": "**Configuration**",
+        "translatedContent": "- `src/lib/tambo.ts` - コンポーネントおよびツールの登録"
+      },
+      {
+        "row": 40,
+        "rowsha": "O0uunJV2HxiIVuNo1eOaG1zTeMFotdfUOcUlnGMZNUk=",
+        "originContent": "- `src/lib/tambo.ts` - Component and tool registration",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 12,
+    "Content": "- `src/app/chat/page.tsx` - Main chat interface with TamboProvider\n\n**Spreadsheet System**\n- `src/components/ui/spreadsheet-tabs.tsx` - FortuneSheet workbook wrapper + tab UI\n- `src/lib/fortune-sheet-store.tsx` - In-memory global store wiring workbook state\n- `src/lib/fortune-sheet-utils.ts` - FortuneSheet-centric helpers (ranges, lookups)\n\n**State Management**\n- `src/lib/canvas-storage.ts` - Canvas/tab state management\n- Spreadsheet state flows through the FortuneSheet provider and workbook APIs.\n\n**Note on Dependencies:** FortuneSheet (`@fortune-sheet/{core,react}`) powers all spreadsheet interactions.\n\n## Customizing\n\n### Adding Custom Components\n\nRegister components in `src/lib/tambo.ts` that the AI can render inline in chat. Example structure:\n",
+    "ContentSha": "0JKet3AhgCDqW06KIGwaG9BkvE0zxHtmqUhD5u8Ev7s=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- `src/app/chat/page.tsx` - TamboProviderを使用したメインチャットインターフェース\n\n**スプレッドシートシステム**\n- `src/components/ui/spreadsheet-tabs.tsx` - FortuneSheetワークブックラッパー＋タブUI\n- `src/lib/fortune-sheet-store.tsx` - ワークブック状態を結線するインメモリグローバルストア\n- `src/lib/fortune-sheet-utils.ts` - FortuneSheet中心のヘルパー（範囲、ルックアップ）\n\n**状態管理**\n- `src/lib/canvas-storage.ts` - キャンバス／タブ状態管理\n- スプレッドシートの状態はFortuneSheetプロバイダーとワークブックAPIを通じて流れます。\n\n**依存関係についての注意：** FortuneSheet（`@fortune-sheet/{core,react}`）がすべてのスプレッドシート操作を支えています。\n\n## カスタマイズ\n\n### カスタムコンポーネントの追加\n\nAIがチャット内でインラインレンダリングできるコンポーネントを`src/lib/tambo.ts`に登録します。例の構造：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "xzPaBBnCE5rK2kv6T9KHZzAnBOLAAx4VE+adAcNXgo4=",
+        "originContent": "- `src/app/chat/page.tsx` - Main chat interface with TamboProvider",
+        "translatedContent": "- `src/app/chat/page.tsx` - TamboProviderを使用したメインチャットインターフェース"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "oX/N55Quuhav5846/4dqBoDYcnulwKljc9L2Kslvo48=",
+        "originContent": "**Spreadsheet System**",
+        "translatedContent": "**スプレッドシートシステム**"
+      },
+      {
+        "row": 4,
+        "rowsha": "ggE+U2y5ouG5luqVCNEGRX18e1mTyLhGAiisB7HOvqA=",
+        "originContent": "- `src/components/ui/spreadsheet-tabs.tsx` - FortuneSheet workbook wrapper + tab UI",
+        "translatedContent": "- `src/components/ui/spreadsheet-tabs.tsx` - FortuneSheetワークブックラッパー＋タブUI"
+      },
+      {
+        "row": 5,
+        "rowsha": "KCESY2jsOShetb+TyqJAzNsQIHRBDZ8zqX5W7RH/g7w=",
+        "originContent": "- `src/lib/fortune-sheet-store.tsx` - In-memory global store wiring workbook state",
+        "translatedContent": "- `src/lib/fortune-sheet-store.tsx` - ワークブック状態を結線するインメモリグローバルストア"
+      },
+      {
+        "row": 6,
+        "rowsha": "332XhUj267sQhOuEYC6GIA5sVGzd3awdz/vc1ba5al8=",
+        "originContent": "- `src/lib/fortune-sheet-utils.ts` - FortuneSheet-centric helpers (ranges, lookups)",
+        "translatedContent": "- `src/lib/fortune-sheet-utils.ts` - FortuneSheet中心のヘルパー（範囲、ルックアップ）"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Ui886ig6gMvUWznIoqW2oFwAmg+ijLtDTMyRZ0X2ou4=",
+        "originContent": "**State Management**",
+        "translatedContent": "**状態管理**"
+      },
+      {
+        "row": 9,
+        "rowsha": "PgcECku3oTJ0ntUfoemgXaT0bHKzuLvEy8QxcgyB0oE=",
+        "originContent": "- `src/lib/canvas-storage.ts` - Canvas/tab state management",
+        "translatedContent": "- `src/lib/canvas-storage.ts` - キャンバス／タブ状態管理"
+      },
+      {
+        "row": 10,
+        "rowsha": "xPvi9PiXTJuqrbTEGhNtQf0zgP5JdCxo6Qi1+YMJ7LM=",
+        "originContent": "- Spreadsheet state flows through the FortuneSheet provider and workbook APIs.",
+        "translatedContent": "- スプレッドシートの状態はFortuneSheetプロバイダーとワークブックAPIを通じて流れます。"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "BaXnG1TErxi+nEZ2auJRUWaPxfeVgW+0pwgrLbqBj8E=",
+        "originContent": "**Note on Dependencies:** FortuneSheet (`@fortune-sheet/{core,react}`) powers all spreadsheet interactions.",
+        "translatedContent": "**依存関係についての注意：** FortuneSheet（`@fortune-sheet/{core,react}`）がすべてのスプレッドシート操作を支えています。"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "wE7d4ICfEwxs0+DPcAOSH1G+UZKg+utsPMvQecQ9aP4=",
+        "originContent": "## Customizing",
+        "translatedContent": "## カスタマイズ"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "kn7fc4kMD0/UrxkdBLSvMpMaOrfw9/7780gulmkX2Ak=",
+        "originContent": "### Adding Custom Components",
+        "translatedContent": "### カスタムコンポーネントの追加"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "HbTP2GGwCkasWM2owjx/biK8vcI8FFWTEq+KZ1cOKZ8=",
+        "originContent": "Register components in `src/lib/tambo.ts` that the AI can render inline in chat. Example structure:",
+        "translatedContent": "AIがチャット内でインラインレンダリングできるコンポーネントを`src/lib/tambo.ts`に登録します。例の構造："
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```tsx\nimport type { TamboComponent } from \"@tambo-ai/react\";\n\nconst components: TamboComponent[] = [\n  {\n    name: \"MyComponent\",\n    description: \"When to use this component\",\n    component: MyComponent,\n    propsSchema: myComponentSchema, // Zod schema\n  },\n];\n```",
+    "ContentSha": "Y2OSmzDGWmY/L0CtbFXCo4C7EqeziPUvndpPqrxWq2c=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\nimport type { TamboComponent } from \"@tambo-ai/react\";\n\nconst components: TamboComponent[] = [\n  {\n    name: \"MyComponent\",\n    description: \"When to use this component\",\n    component: MyComponent,\n    propsSchema: myComponentSchema, // Zod schema\n  },\n];\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "9dTXm9WqZAOqf7kB1628JAt38xGBG7Jj8LWle4waWeA=",
+        "originContent": "import type { TamboComponent } from \"@tambo-ai/react\";",
+        "translatedContent": "import type { TamboComponent } from \"@tambo-ai/react\";"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "C6EkJRDAXqMhLDadu0VV6ke2qnGhIWN1Wx/MiEM6CQw=",
+        "originContent": "const components: TamboComponent[] = [",
+        "translatedContent": "const components: TamboComponent[] = ["
+      },
+      {
+        "row": 5,
+        "rowsha": "gJrwwURMWBKq4xdicV4fIJo66iI0Fo+HuK4hhGzuZFI=",
+        "originContent": "  {",
+        "translatedContent": "  {"
+      },
+      {
+        "row": 6,
+        "rowsha": "icYAvnf3IOz1mZU6J6p9bAEDYhc5Q2FewcOvPlthMSc=",
+        "originContent": "    name: \"MyComponent\",",
+        "translatedContent": "    name: \"MyComponent\","
+      },
+      {
+        "row": 7,
+        "rowsha": "Yi8Tq+6nKcR1N0Fo534f7RP5rYXIo6soNyh907fSwJ0=",
+        "originContent": "    description: \"When to use this component\",",
+        "translatedContent": "    description: \"When to use this component\","
+      },
+      {
+        "row": 8,
+        "rowsha": "l/k1RLUMTUEjYeqN7DlCjP+JFwSMq8Rqc5d/hKi5Ztg=",
+        "originContent": "    component: MyComponent,",
+        "translatedContent": "    component: MyComponent,"
+      },
+      {
+        "row": 9,
+        "rowsha": "xHk0xyvMFceJQivnuJGDIrBXkyLc7X6m4na9p5P3dLE=",
+        "originContent": "    propsSchema: myComponentSchema, // Zod schema",
+        "translatedContent": "    propsSchema: myComponentSchema, // Zod schema"
+      },
+      {
+        "row": 10,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 11,
+        "rowsha": "NYuj8iI3hNgA6iuo33czj0wIyzssKA7IswIJJforxO8=",
+        "originContent": "];",
+        "translatedContent": "];"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\nSee `src/components/tambo/` for component examples and [Tambo Components docs](https://docs.tambo.co/concepts/components) for detailed guidance.\n\n### Creating Custom Tools\n\nAdd tools in `src/tools/` following this pattern:\n",
+    "ContentSha": "5gygPD+cuns441I1opsJuAImsbUNp5lfpqZ1I3eaRio=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nコンポーネントの例は `src/components/tambo/` を参照し、詳細なガイダンスは [Tambo Components docs](https://docs.tambo.co/concepts/components) をご覧ください。\n\n### カスタムツールの作成\n\n`src/tools/` に以下のパターンでツールを追加してください：\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "0+4x4yW4aTWEtHVSc/557MiCNrOq5222zPy0wRCl3zA=",
+        "originContent": "See `src/components/tambo/` for component examples and [Tambo Components docs](https://docs.tambo.co/concepts/components) for detailed guidance.",
+        "translatedContent": "コンポーネントの例は `src/components/tambo/` を参照し、詳細なガイダンスは [Tambo Components docs](https://docs.tambo.co/concepts/components) をご覧ください。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "e9+sNygc3/DL6uFAkeg2NM5yhT06gPjJHqixrie3qjM=",
+        "originContent": "### Creating Custom Tools",
+        "translatedContent": "### カスタムツールの作成"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "N7gY8/ksjgAkSxxWDM/ButuGujTULxBuB/+dFn42F/E=",
+        "originContent": "Add tools in `src/tools/` following this pattern:",
+        "translatedContent": "`src/tools/` に以下のパターンでツールを追加してください："
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```tsx\nexport const myTool = {\n  name: \"toolName\",\n  description: \"What this tool does\",\n  tool: async (param: string) => {\n    // Implementation\n    return { success: true, message: \"Result\" };\n  },\n  toolSchema: z.function().args(\n    z.string().describe(\"Parameter description\")\n  ).returns(z.object({\n    success: z.boolean(),\n    message: z.string().optional(),\n  })),\n};\n```",
+    "ContentSha": "JFdtv7jIJ3efg0p2YIWCEoliXvIY4pXT9/aiu7L4auE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```tsx\nexport const myTool = {\n  name: \"toolName\",\n  description: \"What this tool does\",\n  tool: async (param: string) => {\n    // Implementation\n    return { success: true, message: \"Result\" };\n  },\n  toolSchema: z.function().args(\n    z.string().describe(\"Parameter description\")\n  ).returns(z.object({\n    success: z.boolean(),\n    message: z.string().optional(),\n  })),\n};\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Kb0tLgalAq69/LOaLTo7uDmJJov07gCLfgQ2PRIk3Kg=",
+        "originContent": "```tsx",
+        "translatedContent": "```tsx"
+      },
+      {
+        "row": 2,
+        "rowsha": "ajKxEHNhI0l9cVtw2+4aFADa36kGO4nvl+XRI26OovI=",
+        "originContent": "export const myTool = {",
+        "translatedContent": "export const myTool = {"
+      },
+      {
+        "row": 3,
+        "rowsha": "acW3wXMX/OptO+SuPs+DmMSBZ/u8ctCrPxo37XmMWnk=",
+        "originContent": "  name: \"toolName\",",
+        "translatedContent": "  name: \"toolName\","
+      },
+      {
+        "row": 4,
+        "rowsha": "MdKM9vWfg4k+tfDYtEsPCTLfyLgt5tnNRfTtitoL9MI=",
+        "originContent": "  description: \"What this tool does\",",
+        "translatedContent": "  description: \"What this tool does\","
+      },
+      {
+        "row": 5,
+        "rowsha": "V9zm0Ll3ZA3nlzLgTcJVMAECRVO8ScmmdgMZ4s2yk7Q=",
+        "originContent": "  tool: async (param: string) => {",
+        "translatedContent": "  tool: async (param: string) => {"
+      },
+      {
+        "row": 6,
+        "rowsha": "VCTo5CMntGAMTAqItPuldRPYFLWeYM+jjNWH23VGHRI=",
+        "originContent": "    // Implementation",
+        "translatedContent": "    // Implementation"
+      },
+      {
+        "row": 7,
+        "rowsha": "9EThb1hfve/By8BlUJuMnuewZRKns0FTGJJv9dC1a4o=",
+        "originContent": "    return { success: true, message: \"Result\" };",
+        "translatedContent": "    return { success: true, message: \"Result\" };"
+      },
+      {
+        "row": 8,
+        "rowsha": "MoihNso+fIVk/t0zIqMIstBF8nPbUFXi4q6h+C0WIY4=",
+        "originContent": "  },",
+        "translatedContent": "  },"
+      },
+      {
+        "row": 9,
+        "rowsha": "nHkzY3ZCKJ21T1qrJ/J+DiojVnfXlun9O+3z80GVbII=",
+        "originContent": "  toolSchema: z.function().args(",
+        "translatedContent": "  toolSchema: z.function().args("
+      },
+      {
+        "row": 10,
+        "rowsha": "pha29+X0TwWG5lFDc4regpZImmT7mIaJpJmsytDfu7A=",
+        "originContent": "    z.string().describe(\"Parameter description\")",
+        "translatedContent": "    z.string().describe(\"Parameter description\")"
+      },
+      {
+        "row": 11,
+        "rowsha": "1YaoFEMfNTTIyuqG+OZWfbm0cCyJhGjoZwCPmHLF69k=",
+        "originContent": "  ).returns(z.object({",
+        "translatedContent": "  ).returns(z.object({"
+      },
+      {
+        "row": 12,
+        "rowsha": "UvvF2/3xDkgxlQJla+rT3pfcQlw+UHljnD9JlZCPVU0=",
+        "originContent": "    success: z.boolean(),",
+        "translatedContent": "    success: z.boolean(),"
+      },
+      {
+        "row": 13,
+        "rowsha": "AvuIRBW5ZusjW0LnLuzYL1/DjaIxdETlQ02Q77l1xX8=",
+        "originContent": "    message: z.string().optional(),",
+        "translatedContent": "    message: z.string().optional(),"
+      },
+      {
+        "row": 14,
+        "rowsha": "2Hxm5c2HmWPfTasuoHxzEdreV/clch7Np7h9Lb3ytZU=",
+        "originContent": "  })),",
+        "translatedContent": "  })),"
+      },
+      {
+        "row": 15,
+        "rowsha": "3zmC/WEBc1mSQfypPHyGZoP1j1QeztHCCYECFFR3Fkw=",
+        "originContent": "};",
+        "translatedContent": "};"
+      },
+      {
+        "row": 16,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\nRegister in `src/lib/tambo.ts` tools array. See [Tambo Tools docs](https://docs.tambo.co/concepts/tools) for details.\n\n### Model Context Protocol (MCP)\n\nConfigure MCP servers via the settings modal to connect external data sources. Servers are stored in browser localStorage and wrapped with `TamboMcpProvider` in the chat interface.\n\n## Documentation\n\nLearn more about Tambo:\n- [Components](https://docs.tambo.co/concepts/components)\n- [Interactable Components](https://docs.tambo.co/concepts/components/interactable-components)\n- [Tools](https://docs.tambo.co/concepts/tools)\n- [Additional Context](https://docs.tambo.co/concepts/additional-context)\n\nBuilt with [Tambo AI](https://tambo.co) - A framework for building AI-powered UIs. Tambo is open source: [tambo-ai/tambo](https://github.com/tambo-ai/tambo).\n\n![Tambo Template Demo](https://raw.githubusercontent.com/tambo-ai/tambo/main/assets/template.gif)\n\n## Contributing\n\nContributions welcome! See [CONTRIBUTING.md](https://raw.githubusercontent.com/michaelmagan/cheatsheet/main/./CONTRIBUTING.md) for guidelines.\n\n## License\n\nMIT License\n",
+    "ContentSha": "ZTM0Ruujad2D5E/eTUxEZtnk/jZSgSK+3ui/xdvt7go=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n`src/lib/tambo.ts` の tools 配列に登録します。詳細は [Tambo Tools ドキュメント](https://docs.tambo.co/concepts/tools) を参照してください。\n\n### モデルコンテキストプロトコル（MCP）\n\n設定モーダルから MCP サーバーを構成し、外部データソースに接続します。サーバーはブラウザの localStorage に保存され、チャットインターフェースでは `TamboMcpProvider` でラップされます。\n\n## ドキュメント\n\nTambo について詳しくはこちら：\n- [コンポーネント](https://docs.tambo.co/concepts/components)\n- [インタラクタブルコンポーネント](https://docs.tambo.co/concepts/components/interactable-components)\n- [ツール](https://docs.tambo.co/concepts/tools)\n- [追加コンテキスト](https://docs.tambo.co/concepts/additional-context)\n\n[Tambo AI](https://tambo.co) で構築 - AI搭載UIを作成するためのフレームワーク。Tambo はオープンソースです：[tambo-ai/tambo](https://github.com/tambo-ai/tambo)。\n\n![Tambo テンプレートデモ](https://raw.githubusercontent.com/tambo-ai/tambo/main/assets/template.gif)\n\n## コントリビューション\n\nコントリビューション歓迎！ガイドラインは [CONTRIBUTING.md](https://raw.githubusercontent.com/michaelmagan/cheatsheet/main/./CONTRIBUTING.md) を参照してください。\n\n## ライセンス\n\nMIT ライセンス\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "kI/OEppW1p/+TOVbAVQY1nzs+rckJ7m8HOYSIT3KCs8=",
+        "originContent": "Register in `src/lib/tambo.ts` tools array. See [Tambo Tools docs](https://docs.tambo.co/concepts/tools) for details.",
+        "translatedContent": "`src/lib/tambo.ts` の tools 配列に登録します。詳細は [Tambo Tools ドキュメント](https://docs.tambo.co/concepts/tools) を参照してください。"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "PL6ZXaqOPLfZJpaPkTnDUBfjOlMGabSpsqBr8ypJ5/o=",
+        "originContent": "### Model Context Protocol (MCP)",
+        "translatedContent": "### モデルコンテキストプロトコル（MCP）"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "hnTp2Gi2Cq4UakvHyyBmAi5CyCWSCc/CAnsbwnc2yV8=",
+        "originContent": "Configure MCP servers via the settings modal to connect external data sources. Servers are stored in browser localStorage and wrapped with `TamboMcpProvider` in the chat interface.",
+        "translatedContent": "設定モーダルから MCP サーバーを構成し、外部データソースに接続します。サーバーはブラウザの localStorage に保存され、チャットインターフェースでは `TamboMcpProvider` でラップされます。"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": "## ドキュメント"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "N4nfPpRyaGUIapitHgkfMGzHZQ1whpc6WIhPBurA4tk=",
+        "originContent": "Learn more about Tambo:",
+        "translatedContent": "Tambo について詳しくはこちら："
+      },
+      {
+        "row": 11,
+        "rowsha": "vjSYjuK/oyu0CC6OrphpYRunonj9Yg5XQr6EDVRjTwA=",
+        "originContent": "- [Components](https://docs.tambo.co/concepts/components)",
+        "translatedContent": "- [コンポーネント](https://docs.tambo.co/concepts/components)"
+      },
+      {
+        "row": 12,
+        "rowsha": "ncUDAQvooW0A/LNd75NKgzBsbdH9sIUJt7iJgryUVtg=",
+        "originContent": "- [Interactable Components](https://docs.tambo.co/concepts/components/interactable-components)",
+        "translatedContent": "- [インタラクタブルコンポーネント](https://docs.tambo.co/concepts/components/interactable-components)"
+      },
+      {
+        "row": 13,
+        "rowsha": "b46iIUqQsWKeI/oY9KLfhDffdg5SK+SmrYlt5lpT7QI=",
+        "originContent": "- [Tools](https://docs.tambo.co/concepts/tools)",
+        "translatedContent": "- [ツール](https://docs.tambo.co/concepts/tools)"
+      },
+      {
+        "row": 14,
+        "rowsha": "E0GUhxKh4s5IWZ6Wp0+WWg2abDg/1ubFbB2sHM9SWJw=",
+        "originContent": "- [Additional Context](https://docs.tambo.co/concepts/additional-context)",
+        "translatedContent": "- [追加コンテキスト](https://docs.tambo.co/concepts/additional-context)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "f9v1G9e6aP0bFgyVkt349TBkCtIzS7DWUthDKRenIV4=",
+        "originContent": "Built with [Tambo AI](https://tambo.co) - A framework for building AI-powered UIs. Tambo is open source: [tambo-ai/tambo](https://github.com/tambo-ai/tambo).",
+        "translatedContent": "[Tambo AI](https://tambo.co) で構築 - AI搭載UIを作成するためのフレームワーク。Tambo はオープンソースです：[tambo-ai/tambo](https://github.com/tambo-ai/tambo)。"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "F29ern+0Lhfw+ZGRgZ3tpLpgZ8YnSMlKTfgGAR6F+Po=",
+        "originContent": "![Tambo Template Demo](https://raw.githubusercontent.com/tambo-ai/tambo/main/assets/template.gif)",
+        "translatedContent": "![Tambo テンプレートデモ](https://raw.githubusercontent.com/tambo-ai/tambo/main/assets/template.gif)"
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 20,
+        "rowsha": "R5ZPLZ4vkE9tjX5qe8QB7AkTfWZsuNTGFLFKMp2KUzM=",
+        "originContent": "## Contributing",
+        "translatedContent": "## コントリビューション"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 22,
+        "rowsha": "mjL0CrC3Z8iWvbt6eNeodmU0lpWJePjCD2XenpNqAhU=",
+        "originContent": "Contributions welcome! See [CONTRIBUTING.md](https://raw.githubusercontent.com/michaelmagan/cheatsheet/main/./CONTRIBUTING.md) for guidelines.",
+        "translatedContent": "コントリビューション歓迎！ガイドラインは [CONTRIBUTING.md](https://raw.githubusercontent.com/michaelmagan/cheatsheet/main/./CONTRIBUTING.md) を参照してください。"
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 24,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## ライセンス"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "q7KJbcPCqUAvkBuI1QNc8Kg9XPfBfnNkLN9WKwudO8U=",
+        "originContent": "MIT License",
+        "translatedContent": "MIT ライセンス"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

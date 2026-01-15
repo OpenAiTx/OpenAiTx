@@ -1,0 +1,872 @@
+[
+  {
+    "Id": 1,
+    "Content": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/toddmaustin/mojo-v/main/./docs/MojoV-logo1.png\" alt=\"Mojo-V Logo\" width=\"550\"/>\n</p>\n\n# Mojo-V: Secret Computation for RISC-V\n\n**Mojo-V** (pronounced *“mojo-five”*) is a new RISC-V extension that introduces privacy-oriented programming capabilities for RISC-V. Mojo-V implements secret computation, enabling secure, efficient, and data-oblivious execution without reliance on fragile software and programmer trust. By sequestering sensitive data in dedicated secret registers and encrypting memory under a third-party key, Mojo-V prevents disclosures and enforces computation that is both blind (no direct disclosures) and silent (no side channel leakage). The design integrates seamlessly into the existing RISC-V ISA with only a mode bit and four new instructions, enforced entirely at decode. Early results show near-native execution speeds while offering over 5-7 orders of magnitude performance improvement compared to fully homomorphic encryption (FHE), with a clear roadmap for integration into CPUs, GPUs, and specialized accelerators.\n\nTo learn more...\n- Here is an intro video describing Mojo-V: https://www.youtube.com/watch?v=HUT46TcNyyM\n- Slides that give an overview of the Mojo-V project:  https://drive.google.com/file/d/1VVzZqYHvQgnKMgXZjg7I_cX2GzF7awSN\n\nThe current Mojo-V ISA Extension Specification (release 0.92):\n- [In PDF format.] (https://drive.google.com/file/d/1pargKATFoQdy94i6bI3P_9mfNA_GsYSw)\n\nTo contact the developers of Mojo-V:\n- Email: [mojov-devs@umich.edu](https://raw.githubusercontent.com/toddmaustin/mojo-v/main/mailto:mojov-devs@umich.edu)\n\n# 🧩 Mojo-V Reference Platform — Release 0.92\n\n## 🚧 Project Status\n\nThe Mojo-V reference platform release 0.92 implements secret integer and floating-point computation using a fixed symmetric key cipher. Mojo-V supports three encryption modes: fast, strong, and proof-carrying. As of this release, 64-bit secret computation is fully secretized and this early reference platform can be used for software development and red-teaming. Additional capabilities will be rolled out in future releases, including PKI support, LLVM compiler support, 32-bit RISC-V support, VIP-Bench benchmarks support, etc.\n\n**Specification Version:** 0.92  (November 2025)  \n**Contact:** [mojov-devs@umich.edu](https://raw.githubusercontent.com/toddmaustin/mojo-v/main/mailto:mojov-devs@umich.edu)\n\n## Current components\n\n1. **Mojo-V ISA Spec v0.92**\n   - released in `doc/`\n2. **Spike (Instruction Set Simulator) Implementation**\n   - Mojo-V integrated into `riscv-isa-sim`, nearly feature-complete\n   - Missing only: Public-Key Infrastructure (PKI) support (currently uses fixed keys with a Simon-128 cipher)\n   - To run Spike with Mojo-V extensions enabled, add the `--isa=rv64gc_zicond_zkmojov_zicntr` flag when running `spike`\n3. **Mojo-V Bringup-Bench Benchmarks**\n   - Hand-coded examples (e.g., bubble-sort) showing Mojo-V working secret computation\n   - Full battery of security tests for RV64GC+Mojo-V\n\nNote, the remainder of the Bringup-bench benchmarks have NOT been ported to Mojo-V, as yet.",
+    "ContentSha": "mBtxFxvycPiDUeEK3zoPwC/Zm+IOBaUDAz7ZQAMYKts=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/toddmaustin/mojo-v/main/./docs/MojoV-logo1.png\" alt=\"Mojo-V Logo\" width=\"550\"/>\n</p>\n\n# Mojo-V: Computación Secreta para RISC-V\n\n**Mojo-V** (pronunciado *“mojo-five”*) es una nueva extensión de RISC-V que introduce capacidades de programación orientadas a la privacidad para RISC-V. Mojo-V implementa computación secreta, permitiendo una ejecución segura, eficiente y sin revelar datos, sin depender de software frágil ni de la confianza del programador. Al aislar datos sensibles en registros secretos dedicados y cifrar la memoria bajo una clave de terceros, Mojo-V previene divulgaciones y garantiza una computación que es tanto ciega (sin divulgaciones directas) como silenciosa (sin filtraciones por canales laterales). El diseño se integra perfectamente en la ISA existente de RISC-V con solo un bit de modo y cuatro instrucciones nuevas, aplicadas completamente en la decodificación. Los resultados iniciales muestran velocidades de ejecución casi nativas, ofreciendo una mejora de rendimiento de más de 5-7 órdenes de magnitud en comparación con el cifrado homomórfico completo (FHE), con una hoja de ruta clara para su integración en CPUs, GPUs y aceleradores especializados.\n\nPara saber más...\n- Aquí hay un video introductorio que describe Mojo-V: https://www.youtube.com/watch?v=HUT46TcNyyM\n- Diapositivas que dan una visión general del proyecto Mojo-V:  https://drive.google.com/file/d/1VVzZqYHvQgnKMgXZjg7I_cX2GzF7awSN\n\nLa especificación actual de la extensión ISA Mojo-V (versión 0.92):\n- [En formato PDF.] (https://drive.google.com/file/d/1pargKATFoQdy94i6bI3P_9mfNA_GsYSw)\n\nPara contactar a los desarrolladores de Mojo-V:\n- Correo: [mojov-devs@umich.edu](https://raw.githubusercontent.com/toddmaustin/mojo-v/main/mailto:mojov-devs@umich.edu)\n\n# 🧩 Plataforma de Referencia Mojo-V — Versión 0.92\n\n## 🚧 Estado del Proyecto\n\nLa plataforma de referencia Mojo-V versión 0.92 implementa computación secreta de enteros y punto flotante usando un cifrado simétrico fijo. Mojo-V soporta tres modos de cifrado: rápido, fuerte y con prueba. En esta versión, la computación secreta de 64 bits está completamente secretizada y esta plataforma de referencia inicial puede usarse para desarrollo de software y pruebas de seguridad. Capacidades adicionales se lanzarán en versiones futuras, incluyendo soporte PKI, soporte de compilador LLVM, soporte RISC-V de 32 bits, soporte de benchmarks VIP-Bench, etc.\n\n**Versión de la especificación:** 0.92  (noviembre 2025)  \n**Contacto:** [mojov-devs@umich.edu](https://raw.githubusercontent.com/toddmaustin/mojo-v/main/mailto:mojov-devs@umich.edu)\n\n## Componentes actuales\n\n1. **Especificación ISA Mojo-V v0.92**\n   - publicada en `doc/`\n2. **Implementación Spike (Simulador de Conjunto de Instrucciones)**\n   - Mojo-V integrado en `riscv-isa-sim`, casi completo\n   - Solo falta: soporte para Infraestructura de Clave Pública (PKI) (actualmente usa claves fijas con cifrado Simon-128)\n   - Para ejecutar Spike con las extensiones Mojo-V activadas, añada el flag `--isa=rv64gc_zicond_zkmojov_zicntr` al ejecutar `spike`\n3. **Benchmarks Bringup-Bench Mojo-V**\n   - Ejemplos codificados a mano (p. ej., ordenamiento burbuja) mostrando la computación secreta funcionando en Mojo-V\n   - Batería completa de pruebas de seguridad para RV64GC+Mojo-V\n\nNota, el resto de los benchmarks Bringup-bench NO han sido portados a Mojo-V aún.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "Cdq5gd0WKTNAjBCYJyhOcQdcrP4BaJ3M9CyimL2FHDs=",
+        "originContent": "  <img src=\"https://raw.githubusercontent.com/toddmaustin/mojo-v/main/./docs/MojoV-logo1.png\" alt=\"Mojo-V Logo\" width=\"550\"/>",
+        "translatedContent": "  <img src=\"https://raw.githubusercontent.com/toddmaustin/mojo-v/main/./docs/MojoV-logo1.png\" alt=\"Mojo-V Logo\" width=\"550\"/>"
+      },
+      {
+        "row": 3,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "I7q0y54cKEVQDZqIZ/WATJH4pRvAGWha7kFj/A4v0aI=",
+        "originContent": "# Mojo-V: Secret Computation for RISC-V",
+        "translatedContent": "# Mojo-V: Computación Secreta para RISC-V"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "DxnaDkBNbiNrWQLNmPFPXiVDrXpbUHWnBeSIhy8vd9s=",
+        "originContent": "**Mojo-V** (pronounced *“mojo-five”*) is a new RISC-V extension that introduces privacy-oriented programming capabilities for RISC-V. Mojo-V implements secret computation, enabling secure, efficient, and data-oblivious execution without reliance on fragile software and programmer trust. By sequestering sensitive data in dedicated secret registers and encrypting memory under a third-party key, Mojo-V prevents disclosures and enforces computation that is both blind (no direct disclosures) and silent (no side channel leakage). The design integrates seamlessly into the existing RISC-V ISA with only a mode bit and four new instructions, enforced entirely at decode. Early results show near-native execution speeds while offering over 5-7 orders of magnitude performance improvement compared to fully homomorphic encryption (FHE), with a clear roadmap for integration into CPUs, GPUs, and specialized accelerators.",
+        "translatedContent": "**Mojo-V** (pronunciado *“mojo-five”*) es una nueva extensión de RISC-V que introduce capacidades de programación orientadas a la privacidad para RISC-V. Mojo-V implementa computación secreta, permitiendo una ejecución segura, eficiente y sin revelar datos, sin depender de software frágil ni de la confianza del programador. Al aislar datos sensibles en registros secretos dedicados y cifrar la memoria bajo una clave de terceros, Mojo-V previene divulgaciones y garantiza una computación que es tanto ciega (sin divulgaciones directas) como silenciosa (sin filtraciones por canales laterales). El diseño se integra perfectamente en la ISA existente de RISC-V con solo un bit de modo y cuatro instrucciones nuevas, aplicadas completamente en la decodificación. Los resultados iniciales muestran velocidades de ejecución casi nativas, ofreciendo una mejora de rendimiento de más de 5-7 órdenes de magnitud en comparación con el cifrado homomórfico completo (FHE), con una hoja de ruta clara para su integración en CPUs, GPUs y aceleradores especializados."
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "dQjhQxrdm5qG4+3TeSB5inaD2BheJtX+xhbeuj2qVgg=",
+        "originContent": "To learn more...",
+        "translatedContent": "Para saber más..."
+      },
+      {
+        "row": 10,
+        "rowsha": "LXc04i4nR+acx9ARF9A8lDxtRj/jq0804GhrIqpjz3E=",
+        "originContent": "- Here is an intro video describing Mojo-V: https://www.youtube.com/watch?v=HUT46TcNyyM",
+        "translatedContent": "- Aquí hay un video introductorio que describe Mojo-V: https://www.youtube.com/watch?v=HUT46TcNyyM"
+      },
+      {
+        "row": 11,
+        "rowsha": "oHFVjN3I2wsGbwQMo2gEKZgJw09nvXlhKp2BkA9Qf5E=",
+        "originContent": "- Slides that give an overview of the Mojo-V project:  https://drive.google.com/file/d/1VVzZqYHvQgnKMgXZjg7I_cX2GzF7awSN",
+        "translatedContent": "- Diapositivas que dan una visión general del proyecto Mojo-V:  https://drive.google.com/file/d/1VVzZqYHvQgnKMgXZjg7I_cX2GzF7awSN"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "mTQiD1dlyt/uldOv44nL3jhuCAaWJSgiBxRjO6Dk3T0=",
+        "originContent": "The current Mojo-V ISA Extension Specification (release 0.92):",
+        "translatedContent": "La especificación actual de la extensión ISA Mojo-V (versión 0.92):"
+      },
+      {
+        "row": 14,
+        "rowsha": "0d99AqSN3bcoelm2Y2iOVYkz1n3ijzE2P1qRoi6TvWk=",
+        "originContent": "- [In PDF format.] (https://drive.google.com/file/d/1pargKATFoQdy94i6bI3P_9mfNA_GsYSw)",
+        "translatedContent": "- [En formato PDF.] (https://drive.google.com/file/d/1pargKATFoQdy94i6bI3P_9mfNA_GsYSw)"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "Bo647h70z5uNn4mSshz02z+VvyJeJky/HPeQXJ28RVE=",
+        "originContent": "To contact the developers of Mojo-V:",
+        "translatedContent": "Para contactar a los desarrolladores de Mojo-V:"
+      },
+      {
+        "row": 17,
+        "rowsha": "l4faUqy/TiyAsnfVfBPfO2sEPVPUg8RcYTGqXFxxxMg=",
+        "originContent": "- Email: [mojov-devs@umich.edu](https://raw.githubusercontent.com/toddmaustin/mojo-v/main/mailto:mojov-devs@umich.edu)",
+        "translatedContent": "- Correo: [mojov-devs@umich.edu](https://raw.githubusercontent.com/toddmaustin/mojo-v/main/mailto:mojov-devs@umich.edu)"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "OGyVgznchp5sU6M/gt81MOr+dRevc4fg3aA/c9zNbbM=",
+        "originContent": "# 🧩 Mojo-V Reference Platform — Release 0.92",
+        "translatedContent": "# 🧩 Plataforma de Referencia Mojo-V — Versión 0.92"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "3j3XlN6EIAFDmfg4cVl6+xzQ56U1dYxz7+LQg6+bnEQ=",
+        "originContent": "## 🚧 Project Status",
+        "translatedContent": "## 🚧 Estado del Proyecto"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "+yGtvyZyW522s8pgC6oroFry/QPqn18/rVVKu+U/jBg=",
+        "originContent": "The Mojo-V reference platform release 0.92 implements secret integer and floating-point computation using a fixed symmetric key cipher. Mojo-V supports three encryption modes: fast, strong, and proof-carrying. As of this release, 64-bit secret computation is fully secretized and this early reference platform can be used for software development and red-teaming. Additional capabilities will be rolled out in future releases, including PKI support, LLVM compiler support, 32-bit RISC-V support, VIP-Bench benchmarks support, etc.",
+        "translatedContent": "La plataforma de referencia Mojo-V versión 0.92 implementa computación secreta de enteros y punto flotante usando un cifrado simétrico fijo. Mojo-V soporta tres modos de cifrado: rápido, fuerte y con prueba. En esta versión, la computación secreta de 64 bits está completamente secretizada y esta plataforma de referencia inicial puede usarse para desarrollo de software y pruebas de seguridad. Capacidades adicionales se lanzarán en versiones futuras, incluyendo soporte PKI, soporte de compilador LLVM, soporte RISC-V de 32 bits, soporte de benchmarks VIP-Bench, etc."
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "j7F4dAfd+m4XkenL7wM5JsNqEg0otg+e5kr0uPduAPo=",
+        "originContent": "**Specification Version:** 0.92  (November 2025)  ",
+        "translatedContent": "**Versión de la especificación:** 0.92  (noviembre 2025)  "
+      },
+      {
+        "row": 26,
+        "rowsha": "KM0SeofuOBB7KU1Bf+V1WHcg+gOW+5swz49vRmLiPX4=",
+        "originContent": "**Contact:** [mojov-devs@umich.edu](https://raw.githubusercontent.com/toddmaustin/mojo-v/main/mailto:mojov-devs@umich.edu)",
+        "translatedContent": "**Contacto:** [mojov-devs@umich.edu](https://raw.githubusercontent.com/toddmaustin/mojo-v/main/mailto:mojov-devs@umich.edu)"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "01fwRGclqWMfSKChBTeUg66EKbdMBMZ+5ECi+rtZHI4=",
+        "originContent": "## Current components",
+        "translatedContent": "## Componentes actuales"
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "5gLIwKIuoE0aMqSDBazL5THajV1cP9wVPN1vYYOgJnU=",
+        "originContent": "1. **Mojo-V ISA Spec v0.92**",
+        "translatedContent": "1. **Especificación ISA Mojo-V v0.92**"
+      },
+      {
+        "row": 31,
+        "rowsha": "0UHU1f8ZshPufeR14hkiZCWphCmk3TBJudRxurUSwYk=",
+        "originContent": "   - released in `doc/`",
+        "translatedContent": "   - publicada en `doc/`"
+      },
+      {
+        "row": 32,
+        "rowsha": "DcWFCM79aF28nCYb2G9XZH7ZdqZLvTvkXgeq80sS6aU=",
+        "originContent": "2. **Spike (Instruction Set Simulator) Implementation**",
+        "translatedContent": "2. **Implementación Spike (Simulador de Conjunto de Instrucciones)**"
+      },
+      {
+        "row": 33,
+        "rowsha": "uv2yexE/cKhfm9lQG/hTXvbbPnyoaUa41PbJVMqi6GQ=",
+        "originContent": "   - Mojo-V integrated into `riscv-isa-sim`, nearly feature-complete",
+        "translatedContent": "   - Mojo-V integrado en `riscv-isa-sim`, casi completo"
+      },
+      {
+        "row": 34,
+        "rowsha": "+0P4Rv8LR/Diado+3alTGlp3zhmaE5YgiRhiake7BmM=",
+        "originContent": "   - Missing only: Public-Key Infrastructure (PKI) support (currently uses fixed keys with a Simon-128 cipher)",
+        "translatedContent": "   - Solo falta: soporte para Infraestructura de Clave Pública (PKI) (actualmente usa claves fijas con cifrado Simon-128)"
+      },
+      {
+        "row": 35,
+        "rowsha": "XXOf1z0nXQG9Zdy0eAqknoaR99vop9iPrgzBcVnSnGo=",
+        "originContent": "   - To run Spike with Mojo-V extensions enabled, add the `--isa=rv64gc_zicond_zkmojov_zicntr` flag when running `spike`",
+        "translatedContent": "   - Para ejecutar Spike con las extensiones Mojo-V activadas, añada el flag `--isa=rv64gc_zicond_zkmojov_zicntr` al ejecutar `spike`"
+      },
+      {
+        "row": 36,
+        "rowsha": "7uvkVNqmuG+Wow6+fxbJc3yLYzdL0/Jr+lQ1qg/hEQw=",
+        "originContent": "3. **Mojo-V Bringup-Bench Benchmarks**",
+        "translatedContent": "3. **Benchmarks Bringup-Bench Mojo-V**"
+      },
+      {
+        "row": 37,
+        "rowsha": "/pTkv/NjRH3wdUHXdyNhHi8h5NHBdT03gbicvWJlEXw=",
+        "originContent": "   - Hand-coded examples (e.g., bubble-sort) showing Mojo-V working secret computation",
+        "translatedContent": "   - Ejemplos codificados a mano (p. ej., ordenamiento burbuja) mostrando la computación secreta funcionando en Mojo-V"
+      },
+      {
+        "row": 38,
+        "rowsha": "Lr92nGkKPSx2lbmmzkALvZnjR00c0fxnih7pXbPU5R8=",
+        "originContent": "   - Full battery of security tests for RV64GC+Mojo-V",
+        "translatedContent": "   - Batería completa de pruebas de seguridad para RV64GC+Mojo-V"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "yoFDfKJS/I/XD2Cp/KMA8QXt8TCEVgzGH9exgubOaY4=",
+        "originContent": "Note, the remainder of the Bringup-bench benchmarks have NOT been ported to Mojo-V, as yet.",
+        "translatedContent": "Nota, el resto de los benchmarks Bringup-bench NO han sido portados a Mojo-V aún."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n## ⚙️ Building and Running the Mojo-V Reference Platform\n\n### A. Install a RISC-V LLVM Compiler\nYou’ll need an LLVM-based RISC-V cross-compiler capable of producing `RV64GC` binaries.\n\nHere is a good place to start: https://clang.llvm.org/get_started.html\n\n### B. Clone the Mojo-V Repository",
+    "ContentSha": "W/1HkLygl48tEk5mW7DCtLNrufvSiQ9WvwOcu+Q/Zdw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## ⚙️ Construcción y Ejecución de la Plataforma de Referencia Mojo-V\n\n### A. Instalar un Compilador LLVM para RISC-V\nNecesitarás un compilador cruzado RISC-V basado en LLVM capaz de producir binarios `RV64GC`.\n\nAquí hay un buen lugar para comenzar: https://clang.llvm.org/get_started.html\n\n### B. Clonar el Repositorio Mojo-V",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "rCyXXzNELJQHaggpwS/I1J1do0vizbLYmqP+6YP0U4Q=",
+        "originContent": "## ⚙️ Building and Running the Mojo-V Reference Platform",
+        "translatedContent": "## ⚙️ Construcción y Ejecución de la Plataforma de Referencia Mojo-V"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Ohss5Ih8XZFrc+21BilqMYRYXjtpql0RB9p9btV4vi8=",
+        "originContent": "### A. Install a RISC-V LLVM Compiler",
+        "translatedContent": "### A. Instalar un Compilador LLVM para RISC-V"
+      },
+      {
+        "row": 5,
+        "rowsha": "Jyfio6cx2jVNdTN0NPBMg8tVUN7gWoXK//7LVWSI5qw=",
+        "originContent": "You’ll need an LLVM-based RISC-V cross-compiler capable of producing `RV64GC` binaries.",
+        "translatedContent": "Necesitarás un compilador cruzado RISC-V basado en LLVM capaz de producir binarios `RV64GC`."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "ejMs7Tjpq/lw91Bahz/DgdyjVcQBVO1jPfDAiTspGog=",
+        "originContent": "Here is a good place to start: https://clang.llvm.org/get_started.html",
+        "translatedContent": "Aquí hay un buen lugar para comenzar: https://clang.llvm.org/get_started.html"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "aWim22TYMj5CMr0l7MW/iBhQCWh+T85p7ivCFDOFM3s=",
+        "originContent": "### B. Clone the Mojo-V Repository",
+        "translatedContent": "### B. Clonar el Repositorio Mojo-V"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```bash\ngit clone https://github.com/toddmaustin/mojo-v.git\ncd mojo-v\n```",
+    "ContentSha": "TaL0pbLGzRZgrX/N1fe7fOPBQgTTro8NWkApj724RBY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ngit clone https://github.com/toddmaustin/mojo-v.git\ncd mojo-v\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "ZoEG2l/5ccXPkEp/0kfvXglaLYdriKMDl7rx8nFmB84=",
+        "originContent": "git clone https://github.com/toddmaustin/mojo-v.git",
+        "translatedContent": "git clone https://github.com/toddmaustin/mojo-v.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "F0LOeUzGSmETD1qX0dymQhpuDMiAkcOiyJLlO7Ajhlc=",
+        "originContent": "cd mojo-v",
+        "translatedContent": "cd mojo-v"
+      },
+      {
+        "row": 4,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\n### C. Build the RISC-V Spike simulator with Mojo-V Support",
+    "ContentSha": "ICsN5naaqbn+J0SA6hZCREBJC61rmwrIWlBdGwRu9h0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### C. Construir el simulador RISC-V Spike con soporte Mojo-V",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "BAJM9JGNcwllFWGoFj2d0Hx6B9/VQyzTMCwD1jTBjOs=",
+        "originContent": "### C. Build the RISC-V Spike simulator with Mojo-V Support",
+        "translatedContent": "### C. Construir el simulador RISC-V Spike con soporte Mojo-V"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\nsudo apt-get install device-tree-compiler libboost-regex-dev libboost-system-dev\ncd riscv-isa-sim\nmkdir build\ncd build\n../configure --prefix=$RISCV\nmake\n```",
+    "ContentSha": "pqCUGtm+9nYLmTdbT9SFCJ3cOmGSDAaAcdoODt6Lynw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\nsudo apt-get install device-tree-compiler libboost-regex-dev libboost-system-dev\ncd riscv-isa-sim\nmkdir build\ncd build\n../configure --prefix=$RISCV\nmake\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+        "originContent": "```bash",
+        "translatedContent": "```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "8j/ww2bHYeY8/2+e11prjwLoSib0D5PyfxzGPMDU0TE=",
+        "originContent": "sudo apt-get install device-tree-compiler libboost-regex-dev libboost-system-dev",
+        "translatedContent": "sudo apt-get install device-tree-compiler libboost-regex-dev libboost-system-dev"
+      },
+      {
+        "row": 3,
+        "rowsha": "g3RKeQB2IsLLW0ojF6O30Qeu8yeMgUuAlkr3jhTWQdg=",
+        "originContent": "cd riscv-isa-sim",
+        "translatedContent": "cd riscv-isa-sim"
+      },
+      {
+        "row": 4,
+        "rowsha": "klYXsM14m4nOprfexqnXiyqPlC6FH6Z39Rbt9Y6MgzU=",
+        "originContent": "mkdir build",
+        "translatedContent": "mkdir build"
+      },
+      {
+        "row": 5,
+        "rowsha": "2E91V0MAwN4o4nI9U0XkQPFhdwGamzSnsb7s2xe+3Uw=",
+        "originContent": "cd build",
+        "translatedContent": "cd build"
+      },
+      {
+        "row": 6,
+        "rowsha": "ahHEZSgzL025ixHlo8MeQSqa7j69iWvJLf75kyQdmWM=",
+        "originContent": "../configure --prefix=$RISCV",
+        "translatedContent": "../configure --prefix=$RISCV"
+      },
+      {
+        "row": 7,
+        "rowsha": "0FqioV+zxA7+6wO+xEU5PwAHRITPAcj7LakMpmlaVTE=",
+        "originContent": "make",
+        "translatedContent": "make"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n### D. Build and Run Mojo-V Bringup-Bench Benchmark Tests\n\n1. **Build the Spike device driver**\n",
+    "ContentSha": "+2TXw9ywl1zMJO2AsHtChw51QZuWZX5RzvueV4vvtkI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### D. Compilar y Ejecutar las Pruebas de Benchmark Mojo-V Bringup-Bench\n\n1. **Compilar el controlador de dispositivo Spike**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "7I0txpXBEzaADcfMHOllQj1ydfrEAU9K03fRUVw8SRU=",
+        "originContent": "### D. Build and Run Mojo-V Bringup-Bench Benchmark Tests",
+        "translatedContent": "### D. Compilar y Ejecutar las Pruebas de Benchmark Mojo-V Bringup-Bench"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "Lkvsmjhgnd4bcwJJwcd+Z0ab54YPBDf68/R5WkuOCGU=",
+        "originContent": "1. **Build the Spike device driver**",
+        "translatedContent": "1. **Compilar el controlador de dispositivo Spike**"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "   ```bash\n   cd bringup-bench/target\n   make\n   ```",
+    "ContentSha": "PfUo49QG/lh8OAYHEg8yqInEdfLS/eNxDQSdH8qyKIA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cd bringup-bench/target\n   make\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "PH/E/20A+0+pryxRknkySKsNLEO0OxOFvse40TsKFSo=",
+        "originContent": "   cd bringup-bench/target",
+        "translatedContent": "   cd bringup-bench/target"
+      },
+      {
+        "row": 3,
+        "rowsha": "ecbuLSh6mG0HxB7/MOGSdluoF212hql9E94M5oHFamc=",
+        "originContent": "   make",
+        "translatedContent": "   make"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n2. **Configure your compiler**\n\n   Edit `../Makefile` and set `TARGET_CC` for the `mojov` target to the location of your LVM Clang-based RISC-V compiler.\n\n3. **Build and test**\n",
+    "ContentSha": "qR0T5WubjKdpY3fnhxr8q989URduO0pe613xeihm9co=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n2. **Configure su compilador**\n\n   Edite `../Makefile` y configure `TARGET_CC` para el objetivo `mojov` con la ubicación de su compilador RISC-V basado en Clang de LVM.\n\n3. **Compilar y probar**\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "okR0MfNUEy+zpaK8saHMNvbMQu1omJeEJ2WnXfyMTPs=",
+        "originContent": "2. **Configure your compiler**",
+        "translatedContent": "2. **Configure su compilador**"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "IlegoryypLIz8xQYw64r3op6GRPTyyxzqkLDPAsntVk=",
+        "originContent": "   Edit `../Makefile` and set `TARGET_CC` for the `mojov` target to the location of your LVM Clang-based RISC-V compiler.",
+        "translatedContent": "   Edite `../Makefile` y configure `TARGET_CC` para el objetivo `mojov` con la ubicación de su compilador RISC-V basado en Clang de LVM."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "TiE/xamOhQRxZDrKzU9czUwOxOkBf/fxsGoGnu1gRAQ=",
+        "originContent": "3. **Build and test**",
+        "translatedContent": "3. **Compilar y probar**"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "   ```bash\n   cd ..                # go to the top-level bringup-bench directory\n   make mojov-tests     # run all Mojo-V tests\n   ```",
+    "ContentSha": "ZAAQ8EYbHDSuZ7RL0CHCOVpL9seMzfN/3pzrg3sSJ4g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cd ..                # go to the top-level bringup-bench directory\n   make mojov-tests     # run all Mojo-V tests\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "vxcJiRpGzrkzIqoE4i+Ey5ihMmshF1u79ZWHLjgwQ0w=",
+        "originContent": "   cd ..                # go to the top-level bringup-bench directory",
+        "translatedContent": "   cd ..                # go to the top-level bringup-bench directory"
+      },
+      {
+        "row": 3,
+        "rowsha": "xq1BsmnazsIaXcLW/QHUx39s9zXmmUL5/sApGgGR2TE=",
+        "originContent": "   make mojov-tests     # run all Mojo-V tests",
+        "translatedContent": "   make mojov-tests     # run all Mojo-V tests"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n   As an alternative, you can run an individual benchmark by going into its directory and running the following command.\n",
+    "ContentSha": "eZASJB1tjBKTIpLe8hJYYTVO/nrE4h5nkNXJG+K6Obc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n   Como alternativa, puede ejecutar un punto de referencia individual entrando en su directorio y ejecutando el siguiente comando.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "jCSv6Bd4Y9DeNgIu2E767bYGFApV6lAwJ/xJH5vnOv0=",
+        "originContent": "   As an alternative, you can run an individual benchmark by going into its directory and running the following command.",
+        "translatedContent": "   Como alternativa, puede ejecutar un punto de referencia individual entrando en su directorio y ejecutando el siguiente comando."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "   ```bash\n   cd ../mojov-test\n   make TARGET=mojov clean build test\n   ```",
+    "ContentSha": "bYVOMwUfRgQ9rXhXgpQImXstjLXwf0OsGtzwzDxRbsM=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "   ```bash\n   cd ../mojov-test\n   make TARGET=mojov clean build test\n   ```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "RRH6MrA4etNIHujwLv0rliGxya+NbpNSoC32JfHakN0=",
+        "originContent": "   ```bash",
+        "translatedContent": "   ```bash"
+      },
+      {
+        "row": 2,
+        "rowsha": "7yJmOGx4reJ/u7P05vZz8v1aivmMg2XjegDPl6m8gr0=",
+        "originContent": "   cd ../mojov-test",
+        "translatedContent": "   cd ../mojov-test"
+      },
+      {
+        "row": 3,
+        "rowsha": "D+yEroKfHMAJT+Aw7MwBhd/l/6fdWhJHPRtuQWWtlws=",
+        "originContent": "   make TARGET=mojov clean build test",
+        "translatedContent": "   make TARGET=mojov clean build test"
+      },
+      {
+        "row": 4,
+        "rowsha": "pniO7zO20d6j53uWENxB+nzjyONEkzuZMphNESaf8OM=",
+        "originContent": "   ```",
+        "translatedContent": "   ```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n## 🧪 Mojo-V Bringup-Bench Benchmarks Overview\n\n| Program | Description |\n|:---------|:-------------|\n| `mojov-test` | Intro example from slides |\n| `mojov-test1` | Secret-register and encrypted-memory semantics tests |\n| `mojov-test2` | Hand-coded data-oblivious integer bubble-sort benchmark with Mojo-V fast encryption (int,fast) |\n| `mojov-test3` | Hand-coded data-oblivious floating-point bubble-sort benchmark with Mojo-V fast encryption (fp,fast) |\n| `mojov-test4` | Hand-coded data-oblivious integer bubble-sort benchmark with Mojo-V strong encryption (int,strong) |\n| `mojov-test5` | Hand-coded data-oblivious floating-point bubble-sort benchmark with Mojo-V strong encryption (fp,strong) |\n| `mojov-pctests` | Hand-coded integrity checking test suite for RV64GC+Mojo-V that includes positive and negative tests for Mojo-V's proof-carrying encryption format (proofcarrying) |\n| `mojov-sectests` | Hand-coded security test suite for RV64GC+Mojo-V that includes 130 pos + 245 neg tests == 375 total (int,fp,fast,strong) |\n\nAll test benchmarks are hand-coded assembly programs demonstrating Mojo-V ISA rules and security semantics. The other Bringup-Bench benchmarks have not yet been ported to Mojo-V.\n\n---\n## Code Licensing\nAll of the Mojo-V related code in this repo is released under the license of the tool it modified (e.g., Spike, LLVM, Bringup-Bench). Please see the tools' respective directories for licensing details.\n\n---\n\n## 💬 Questions & Feedback\nWe welcome contributions, bug reports, and suggestions!\n\n📧 **Email:** [mojov-devs@umich.edu](https://raw.githubusercontent.com/toddmaustin/mojo-v/main/mailto:mojov-devs@umich.edu)  \n🌐 **Project Home:** [https://github.com/toddmaustin/mojo-v](https://github.com/toddmaustin/mojo-v)\n\n",
+    "ContentSha": "fqfJXjfxT114tBB0gBQZDA/k2j3f+/WcyhWwaPzbdbA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## 🧪 Resumen de Benchmarks de Mojo-V Bringup-Bench\n\n| Programa | Descripción |\n|:---------|:-------------|\n| `mojov-test` | Ejemplo introductorio de las diapositivas |\n| `mojov-test1` | Pruebas de semánticas de registros secretos y memoria cifrada |\n| `mojov-test2` | Benchmark de ordenamiento burbuja de enteros data-oblivious codificado a mano con cifrado rápido de Mojo-V (int,fast) |\n| `mojov-test3` | Benchmark de ordenamiento burbuja de punto flotante data-oblivious codificado a mano con cifrado rápido de Mojo-V (fp,fast) |\n| `mojov-test4` | Benchmark de ordenamiento burbuja de enteros data-oblivious codificado a mano con cifrado fuerte de Mojo-V (int,strong) |\n| `mojov-test5` | Benchmark de ordenamiento burbuja de punto flotante data-oblivious codificado a mano con cifrado fuerte de Mojo-V (fp,strong) |\n| `mojov-pctests` | Suite de pruebas de integridad codificada a mano para RV64GC+Mojo-V que incluye pruebas positivas y negativas para el formato de cifrado portador de pruebas de Mojo-V (proofcarrying) |\n| `mojov-sectests` | Suite de pruebas de seguridad codificada a mano para RV64GC+Mojo-V que incluye 130 pruebas positivas + 245 negativas == 375 en total (int,fp,fast,strong) |\n\nTodos los benchmarks de prueba son programas en ensamblador codificados a mano que demuestran las reglas ISA y la semántica de seguridad de Mojo-V. Los otros benchmarks de Bringup-Bench aún no han sido portados a Mojo-V.\n\n---\n## Licenciamiento del Código\nTodo el código relacionado con Mojo-V en este repositorio está bajo la licencia de la herramienta que modificó (por ejemplo, Spike, LLVM, Bringup-Bench). Por favor, consulte los directorios respectivos de las herramientas para detalles sobre la licencia.\n\n---\n\n## 💬 Preguntas y Comentarios\n¡Agradecemos contribuciones, reportes de errores y sugerencias!\n\n📧 **Correo:** [mojov-devs@umich.edu](https://raw.githubusercontent.com/toddmaustin/mojo-v/main/mailto:mojov-devs@umich.edu)  \n🌐 **Página del Proyecto:** [https://github.com/toddmaustin/mojo-v](https://github.com/toddmaustin/mojo-v)\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "koQ7zDifchxDe2IR2MOgWra8DtnQfiZiM7nLRiCXYlA=",
+        "originContent": "## 🧪 Mojo-V Bringup-Bench Benchmarks Overview",
+        "translatedContent": "## 🧪 Resumen de Benchmarks de Mojo-V Bringup-Bench"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "5CLBvCs5sbmf7iwIvSL3Tp0tePAxJ1eojyJuukcdSxQ=",
+        "originContent": "| Program | Description |",
+        "translatedContent": "| Programa | Descripción |"
+      },
+      {
+        "row": 5,
+        "rowsha": "MerBVaD0MClhEV57dudj5+8RK5EXshp/hslIsgHF3q0=",
+        "originContent": "|:---------|:-------------|",
+        "translatedContent": "|:---------|:-------------|"
+      },
+      {
+        "row": 6,
+        "rowsha": "/tt48EpfVHJuxgu7988g9BlmeQ/8FGPTVZzsWz+6VH8=",
+        "originContent": "| `mojov-test` | Intro example from slides |",
+        "translatedContent": "| `mojov-test` | Ejemplo introductorio de las diapositivas |"
+      },
+      {
+        "row": 7,
+        "rowsha": "Yj3JopI5iCXQfHjyGxxroDqRibQ1AO/zmj1NTvoAdgU=",
+        "originContent": "| `mojov-test1` | Secret-register and encrypted-memory semantics tests |",
+        "translatedContent": "| `mojov-test1` | Pruebas de semánticas de registros secretos y memoria cifrada |"
+      },
+      {
+        "row": 8,
+        "rowsha": "BKOfhCcPiha2+XTubcb4R42z8CWWPbWaCZ0tVjH2a8c=",
+        "originContent": "| `mojov-test2` | Hand-coded data-oblivious integer bubble-sort benchmark with Mojo-V fast encryption (int,fast) |",
+        "translatedContent": "| `mojov-test2` | Benchmark de ordenamiento burbuja de enteros data-oblivious codificado a mano con cifrado rápido de Mojo-V (int,fast) |"
+      },
+      {
+        "row": 9,
+        "rowsha": "D/OcgWlcvklgMQPaN+1bdu/aMoz5Cp/qQs9+NPARaMQ=",
+        "originContent": "| `mojov-test3` | Hand-coded data-oblivious floating-point bubble-sort benchmark with Mojo-V fast encryption (fp,fast) |",
+        "translatedContent": "| `mojov-test3` | Benchmark de ordenamiento burbuja de punto flotante data-oblivious codificado a mano con cifrado rápido de Mojo-V (fp,fast) |"
+      },
+      {
+        "row": 10,
+        "rowsha": "hoaM81U56HWRv42gzENImklRkaHqZGoDtQ2pWfnIBwk=",
+        "originContent": "| `mojov-test4` | Hand-coded data-oblivious integer bubble-sort benchmark with Mojo-V strong encryption (int,strong) |",
+        "translatedContent": "| `mojov-test4` | Benchmark de ordenamiento burbuja de enteros data-oblivious codificado a mano con cifrado fuerte de Mojo-V (int,strong) |"
+      },
+      {
+        "row": 11,
+        "rowsha": "Sg5YUN0umWv2vMOYfjsj2Rvaz9cpr8CLx08pi+zFdn0=",
+        "originContent": "| `mojov-test5` | Hand-coded data-oblivious floating-point bubble-sort benchmark with Mojo-V strong encryption (fp,strong) |",
+        "translatedContent": "| `mojov-test5` | Benchmark de ordenamiento burbuja de punto flotante data-oblivious codificado a mano con cifrado fuerte de Mojo-V (fp,strong) |"
+      },
+      {
+        "row": 12,
+        "rowsha": "HziIrAoBgEMpcHaB9mxEenkW8N2I1hnUXnjIuq9iz5k=",
+        "originContent": "| `mojov-pctests` | Hand-coded integrity checking test suite for RV64GC+Mojo-V that includes positive and negative tests for Mojo-V's proof-carrying encryption format (proofcarrying) |",
+        "translatedContent": "| `mojov-pctests` | Suite de pruebas de integridad codificada a mano para RV64GC+Mojo-V que incluye pruebas positivas y negativas para el formato de cifrado portador de pruebas de Mojo-V (proofcarrying) |"
+      },
+      {
+        "row": 13,
+        "rowsha": "itlVgBep6Q0i6L9jFF3X5qv970QmqTkZdAtybw2d/08=",
+        "originContent": "| `mojov-sectests` | Hand-coded security test suite for RV64GC+Mojo-V that includes 130 pos + 245 neg tests == 375 total (int,fp,fast,strong) |",
+        "translatedContent": "| `mojov-sectests` | Suite de pruebas de seguridad codificada a mano para RV64GC+Mojo-V que incluye 130 pruebas positivas + 245 negativas == 375 en total (int,fp,fast,strong) |"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "N4H/0QMYiLqMeHH8pFDohFSpVsfvPAMW30HGYfUexH4=",
+        "originContent": "All test benchmarks are hand-coded assembly programs demonstrating Mojo-V ISA rules and security semantics. The other Bringup-Bench benchmarks have not yet been ported to Mojo-V.",
+        "translatedContent": "Todos los benchmarks de prueba son programas en ensamblador codificados a mano que demuestran las reglas ISA y la semántica de seguridad de Mojo-V. Los otros benchmarks de Bringup-Bench aún no han sido portados a Mojo-V."
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 18,
+        "rowsha": "UljicvhsKWG2qwCuyfKzEsNh4cqnpC1jimm8/o1GRhA=",
+        "originContent": "## Code Licensing",
+        "translatedContent": "## Licenciamiento del Código"
+      },
+      {
+        "row": 19,
+        "rowsha": "aEz3RB2SF4w578OkUNiSMFOFJeu9iI7P3Q6tBe2UMXc=",
+        "originContent": "All of the Mojo-V related code in this repo is released under the license of the tool it modified (e.g., Spike, LLVM, Bringup-Bench). Please see the tools' respective directories for licensing details.",
+        "translatedContent": "Todo el código relacionado con Mojo-V en este repositorio está bajo la licencia de la herramienta que modificó (por ejemplo, Spike, LLVM, Bringup-Bench). Por favor, consulte los directorios respectivos de las herramientas para detalles sobre la licencia."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "yz+R1U7uMOU+NbK5mQX3Dxae1Un9eJCdPawt78ntjTs=",
+        "originContent": "---",
+        "translatedContent": "---"
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "TLwaZFOwYw9OVFlpIwHV2AgcJ8mF17nn/Lk5uTk4KZg=",
+        "originContent": "## 💬 Questions & Feedback",
+        "translatedContent": "## 💬 Preguntas y Comentarios"
+      },
+      {
+        "row": 24,
+        "rowsha": "CV7FX3AiaY1zRT833779AuL7+k3ibo838vjZloksEmI=",
+        "originContent": "We welcome contributions, bug reports, and suggestions!",
+        "translatedContent": "¡Agradecemos contribuciones, reportes de errores y sugerencias!"
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "7WJAgGcPiL08Z14PnjhUBKb7O8JOZTbCAdGgADwb6G8=",
+        "originContent": "📧 **Email:** [mojov-devs@umich.edu](https://raw.githubusercontent.com/toddmaustin/mojo-v/main/mailto:mojov-devs@umich.edu)  ",
+        "translatedContent": "📧 **Correo:** [mojov-devs@umich.edu](https://raw.githubusercontent.com/toddmaustin/mojo-v/main/mailto:mojov-devs@umich.edu)  "
+      },
+      {
+        "row": 27,
+        "rowsha": "7UjZqsk2CqsvL+W8QNjIF0qllm757Z/kHpxM7sd1WXk=",
+        "originContent": "🌐 **Project Home:** [https://github.com/toddmaustin/mojo-v](https://github.com/toddmaustin/mojo-v)",
+        "translatedContent": "🌐 **Página del Proyecto:** [https://github.com/toddmaustin/mojo-v](https://github.com/toddmaustin/mojo-v)"
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

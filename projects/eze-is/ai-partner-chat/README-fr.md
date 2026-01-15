@@ -1,38 +1,70 @@
-# AI Partner Chat
 
-Un projet Claude Skills qui fait de l’IA votre partenaire de conversation personnalisé.
+<div align="right">
+  <details>
+    <summary >🌐 Langue</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=eze-is&project=ai-partner-chat&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# Chat Partenaire IA
+
+Un projet Claude Skills, permettant à l'IA de devenir votre partenaire de conversation personnalisé.
 
 ## Présentation du projet
 
-AI Partner Chat offre une expérience de dialogue personnalisée et contextuelle en intégrant le profil utilisateur, le profil IA et des notes personnelles vectorisées. Cette compétence permet à l’IA de se souvenir et de faire référence à vos idées, préférences et bases de connaissances précédentes, créant ainsi une interaction plus cohérente et personnalisée.
+Chat Partenaire IA propose une expérience de dialogue personnalisée et contextuelle en intégrant le profil utilisateur, le profil IA et des notes personnelles vectorisées. Cette compétence permet à l'IA de se souvenir et de citer vos idées, préférences et bases de connaissances antérieures, créant ainsi une interaction plus cohérente et personnalisée.
 
 ## Fonctionnalités principales
 
-### 🎭 Système à double profil
-- **Profil utilisateur** : définit votre contexte, expertise, intérêts et préférences de communication
-- **Profil IA** : personnalise le rôle de l’IA, son style de communication et son mode d’interaction
+### 🎭 Système de double profil
+- **Profil utilisateur** : définissez votre parcours, vos compétences, vos centres d'intérêt et vos préférences de communication
+- **Profil AI** : personnalisez le rôle, le style de communication et la façon d'interagir de l'IA
 
-### 📝 Recherche intelligente dans les notes
-- Indexation automatique de vos notes Markdown
+### 📝 Recherche intelligente de notes
+- Indexez automatiquement vos notes Markdown
 - Recherche intelligente des historiques pertinents selon le contenu de la conversation
-- Référence naturelle à vos idées et notes passées dans la conversation
+- Citez naturellement vos idées et notes passées dans le dialogue
 
-### 💬 Dialogue personnalisé
-- Génération de réponses personnalisées basées sur vos profils et notes
-- Maintien de la cohérence contextuelle du dialogue
-- Référence naturelle à vos idées comme un ami, et non de manière mécanique « selon les enregistrements »
+### 💬 Conversation personnalisée
+- Génération de réponses personnalisées selon votre profil et vos notes
+- Maintien de la cohérence contextuelle dans la conversation
+- Référence vos idées comme le ferait un ami, et non de façon mécanique "selon les enregistrements"
 
-## Cas d’utilisation
+## Cas d'utilisation
 
-Lorsque vous avez besoin de :
-- Communication personnalisée plutôt que de réponses génériques
-- Réponses contextuelles où l’IA se souvient de votre contexte
-- L’IA qui se souvient et fait référence à vos idées et notes précédentes
-- Une expérience de dialogue continue plutôt que chaque fois un nouveau départ
+Quand vous avez besoin de :
+- Échanges personnalisés, plutôt que des réponses génériques
+- Réponses sensibles au contexte, avec une IA qui se souvient de votre parcours
+- Une IA qui mémorise et cite vos idées et notes précédentes
+- Une expérience de dialogue continue, et non un nouveau départ à chaque fois
 
 ## Installation et utilisation
 
-### Installation de la compétence
+### Installation des compétences
 
 Copiez ce projet dans le dossier `.claude/skills/` de votre répertoire de travail :
 
@@ -212,6 +244,6 @@ Faites de l’IA un véritable partenaire de conversation qui vous comprend, pas
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-18
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---

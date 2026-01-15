@@ -367,12 +367,30 @@ python run_lightening.py test --config $YAML_PATH \
     --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
     --trainer.devices 1
 ```
+
+#### 2.1 Trực quan hóa bộ nhớ đã xử lý hậu kỳ
+
+```bash
+python run_lightening.py test --config $YAML_PATH \
+    --model.test_mode vis_memory \
+    --ckpt_path $PATH_TO_SAVE_CKPTS/$DATASET_NAME\_$SHOT\_refs_memory_postprocessed.pth \
+    --model.init_args.dataset_cfgs.fill_memory.root $DATASET_PATH/images \
+    --model.init_args.dataset_cfgs.fill_memory.json_file $DATASET_PATH/annotations/custom_references_with_segm.json \
+    --model.init_args.dataset_cfgs.fill_memory.memory_pkl $DATASET_PATH/annotations/custom_references_with_segm.pkl \
+    --model.init_args.dataset_cfgs.fill_memory.memory_length $SHOT \
+    --model.init_args.dataset_cfgs.fill_memory.cat_names $CAT_NAMES \
+    --model.init_args.model_cfg.dataset_name $DATASET_NAME \
+    --model.init_args.model_cfg.memory_bank_cfg.length $SHOT \
+    --model.init_args.model_cfg.memory_bank_cfg.category_num $CATEGORY_NUM \
+    --trainer.devices 1
+```
+Các hình ảnh trực quan hóa PCA và K-means cho bộ nhớ ảnh được lưu tại `results_analysis/memory_vis/my_custom_dataset`.
+
 ### 3. Suy luận trên các ảnh mục tiêu
 
-Nếu `ONLINE_VIS` được đặt thành True, kết quả dự đoán sẽ được lưu trong `results_analysis/my_custom_dataset/` và hiển thị ngay khi được tính toán. LƯU Ý rằng chạy với chế độ trực quan hóa trực tuyến sẽ chậm hơn nhiều.
+Nếu `ONLINE_VIS` được đặt thành True, kết quả dự đoán sẽ được lưu tại `results_analysis/my_custom_dataset/` và hiển thị ngay khi được tính toán. LƯU Ý rằng việc chạy với trực quan hóa trực tuyến sẽ chậm hơn nhiều.
 
-Bạn có thể thay đổi ngưỡng điểm số `VIS_THR` để xem nhiều hoặc ít đối tượng được phân đoạn hơn.
-
+Bạn có thể thay đổi ngưỡng điểm số `VIS_THR` để xem nhiều hoặc ít các đối tượng đã được phân đoạn hơn.
 ```bash
 ONLINE_VIS=True
 VIS_THR=0.4
@@ -433,6 +451,6 @@ Nếu bạn sử dụng công trình này, vui lòng trích dẫn chúng tôi:
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-09-06
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-15
 
 ---
