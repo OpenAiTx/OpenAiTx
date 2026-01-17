@@ -1,0 +1,188 @@
+[
+  {
+    "row": 1,
+    "rowsha": "/9srnORD40dkEBnHbBuuvny6RgqedPSLnhA2VR8NTAI=",
+    "originContent": "# ECS-IAUS-sytstem",
+    "translatedContent": "# ECS-IAUS-sytstem"
+  },
+  {
+    "row": 2,
+    "rowsha": "zRj4mk7hAR0/lzyrk3Hi4IaeKl4SoRh16p0sAu41dQQ=",
+    "originContent": "Infinite Axis Utility System for Unity ",
+    "translatedContent": "Infinite Axis Utility System for Unity "
+  },
+  {
+    "row": 3,
+    "rowsha": "VsQsIFmy2lhUnbP/A9OiyJvLbEE473UlRc8z+me8YB4=",
+    "originContent": "The utility system works by identifying options available to the AI and selecting the best option by scoring each option based on the circumstances. This has proven a remarkable well-working method for several reasons.",
+    "translatedContent": "The utility system works by identifying options available to the AI and selecting the best option by scoring each option based on the circumstances. This has proven a remarkable well-working method for several reasons."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "DT5aRJMNAGJG0Eifk12+SYV/bo1Lrfp1CxMTXWekSRQ=",
+    "originContent": "Simple to Design - The Utility AI can often be designed in natural language, which makes it easy for the AI programmer to speak with game designers. There is no need to talk about arcane concepts such as conditions, states, sequences and decorators. Instead you can explain the intended AI behavior in terms such as “If the AI is under fire, prioritize finding cover”. Note how fuzzy terms - such as “prioritize” - can be used, which comes natural to human conversation.",
+    "translatedContent": "Simple to Design - The Utility AI can often be designed in natural language, which makes it easy for the AI programmer to speak with game designers. There is no need to talk about arcane concepts such as conditions, states, sequences and decorators. Instead you can explain the intended AI behavior in terms such as “If the AI is under fire, prioritize finding cover”. Note how fuzzy terms - such as “prioritize” - can be used, which comes natural to human conversation."
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "m0Diuiy7/HFeTtDzjZBS8i0iuFI2+lIxxy+pj0NjQ4k=",
+    "originContent": "Easily Extendable - The rules - often referred to as scorers - can easily be added on top of the existing AI. Contrary to e.g. finite state machines, there are no important relationships to break. Instead scorers are simply added on top of existing scorers making it easy to extend AI functionality and fidelity.",
+    "translatedContent": "Easily Extendable - The rules - often referred to as scorers - can easily be added on top of the existing AI. Contrary to e.g. finite state machines, there are no important relationships to break. Instead scorers are simply added on top of existing scorers making it easy to extend AI functionality and fidelity."
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "ZhdR65KG+hUO8Obu8RMxeFoIRxbcv1JKvZCBBjS2dec=",
+    "originContent": "Better Quality - The simplicity of design and the ease by which the AI can be extended vastly reduces bugs and dramatically improves productivity. This in turn leaves more room for developing more complex and well-behaving AI within the given budget and timeframe, which overall improves the quality of the AI.",
+    "translatedContent": "Better Quality - The simplicity of design and the ease by which the AI can be extended vastly reduces bugs and dramatically improves productivity. This in turn leaves more room for developing more complex and well-behaving AI within the given budget and timeframe, which overall improves the quality of the AI."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "FwF8tMcXKZMV/F46gPeigi/ZrcqtHUzYwhN+S1DxsTE=",
+    "originContent": "This is my attempt at creating Dave Mark's Infinite Axis Utility System in Unity3d using DOTS.",
+    "translatedContent": "This is my attempt at creating Dave Mark's Infinite Axis Utility System in Unity3d using DOTS."
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "Zg7+R25amy6kDHMC/MF1bsP2oSaFo+5K/CxPjPcDasM=",
+    "originContent": "What is an Infinite Axis Utility System?",
+    "translatedContent": "What is an Infinite Axis Utility System?"
+  },
+  {
+    "row": 14,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 15,
+    "rowsha": "TxbKixpU5kthYjqyFuYNs/Rs5C2zqxHCtGZg7/BfqkU=",
+    "originContent": "In a nutshell it is a system that returns an Action to perform with the highest value. It’s bascially a list of Actions and each Action has a list of “Axis”. Dave Mark did a talk on it at GDC a couple years ago and that’s where I heard about it. I think he also mentioned a Cat and Laser pointer game in the same talk actually which was the initial seed idea of Lol Cats I Can Has Lazer, though our game went it’s own design direction.",
+    "translatedContent": "In a nutshell it is a system that returns an Action to perform with the highest value. It’s bascially a list of Actions and each Action has a list of “Axis”. Dave Mark did a talk on it at GDC a couple years ago and that’s where I heard about it. I think he also mentioned a Cat and Laser pointer game in the same talk actually which was the initial seed idea of Lol Cats I Can Has Lazer, though our game went it’s own design direction."
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "eF4MQZ6X9Ddrx7w2rO0PdzXU8dToGqhpW/6tBcf0FSk=",
+    "originContent": "Here is a link to the talks:",
+    "translatedContent": "Here is a link to the talks:"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "435HD7X0KGoCpuQQ1M4UcmzRK4y/bACuuAdKZHJzfm8=",
+    "originContent": "http://intrinsicalgorithm.com/IAonAI/2013/02/both-my-gdc-lectures-on-utility-theory-free-on-gdc-vault/",
+    "translatedContent": "http://intrinsicalgorithm.com/IAonAI/2013/02/both-my-gdc-lectures-on-utility-theory-free-on-gdc-vault/"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "UUPInSsu059bMs+04Pp3KmglWyStwG54l5dKA5+o+mU=",
+    "originContent": "https://www.gdcvault.com/play/1018040/Architecture-Tricks-Managing-Behaviors-in starts at 33 min mark",
+    "translatedContent": "https://www.gdcvault.com/play/1018040/Architecture-Tricks-Managing-Behaviors-in starts at 33 min mark"
+  },
+  {
+    "row": 22,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 23,
+    "rowsha": "1X6RVrvSO9t/0b9dF6cR/HNNv+BkxdVS1cItCf0+Q0M=",
+    "originContent": "This repo is primarily intended for learning and documenting my journey with DOTS and Utility AI. If you are looking for an asset which can be used out of the box in the current state, check out the link below.",
+    "translatedContent": "This repo is primarily intended for learning and documenting my journey with DOTS and Utility AI. If you are looking for an asset which can be used out of the box in the current state, check out the link below."
+  },
+  {
+    "row": 24,
+    "rowsha": "HhxqM093DPi7nMCLWQdv06AzDtOiLCEYvlC5Rm5upxo=",
+    "originContent": "https://gitlab.com/lclemens/lightweightdotsutilityai",
+    "translatedContent": "https://gitlab.com/lclemens/lightweightdotsutilityai"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "ruNVAj6du5c5vPh7wpqFlW+NuSb4nrhF6nOz4N9Eh/E=",
+    "originContent": "Updated to support Unity 6 Beta",
+    "translatedContent": "Updated to support Unity 6 Beta"
+  },
+  {
+    "row": 27,
+    "rowsha": "Bjtxakojz0hmfr2KWilqbcpzgCBBZ+UUU1jwcFgBHaw=",
+    "originContent": "Adding GOAP Planning for states",
+    "translatedContent": "Adding GOAP Planning for states"
+  },
+  {
+    "row": 28,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "RrV9W0fs3HB/SHYZMuTXFxZQXJOKTSuICRikO8KYxnM=",
+    "originContent": "Copyright 2019 - 2024 Dreamers Inc Studios Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+    "translatedContent": "Copyright 2019 - 2024 Dreamers Inc Studios Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
