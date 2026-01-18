@@ -1,0 +1,260 @@
+[
+  {
+    "row": 1,
+    "rowsha": "V8DW77n1CeLrI9gq7QGAjtFqVGPB/OaveSpWYWwHqWs=",
+    "originContent": "# ESP32 Transpiler",
+    "translatedContent": "# ESP32 Transpileur"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "qxs7kUk95wQ3FyB0r87sJwshwmA7DYBO2yqf9YgSyEs=",
+    "originContent": "[![License](https://img.shields.io/github/license/andygeiss/esp32)](https://github.com/andygeiss/esp32-transpiler/blob/master/LICENSE)",
+    "translatedContent": "[![Licence](https://img.shields.io/github/license/andygeiss/esp32)](https://github.com/andygeiss/esp32-transpiler/blob/master/LICENSE)"
+  },
+  {
+    "row": 4,
+    "rowsha": "fh8VsQaLqqHzdvNi+oTXpt1FkY2awVXJ5II3CRdJwxI=",
+    "originContent": "[![Releases](https://img.shields.io/github/v/release/andygeiss/esp32)](https://github.com/andygeiss/esp32-transpiler/releases)",
+    "translatedContent": "[![Releases](https://img.shields.io/github/v/release/andygeiss/esp32)](https://github.com/andygeiss/esp32-transpiler/releases)"
+  },
+  {
+    "row": 5,
+    "rowsha": "2ABunrEWZTmQvw1aLpSnKGg353eYkeeICh/OA+Y7mMs=",
+    "originContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/andygeiss/esp32)](https://goreportcard.com/report/github.com/andygeiss/esp32)",
+    "translatedContent": "[![Go Report Card](https://goreportcard.com/badge/github.com/andygeiss/esp32)](https://goreportcard.com/report/github.com/andygeiss/esp32)"
+  },
+  {
+    "row": 6,
+    "rowsha": "xQ7JEbV1+8wDJFsOGoAm54YWZaztDIHyInNvzBm9L+M=",
+    "originContent": "[![Maintainability](https://api.codeclimate.com/v1/badges/90bf72e5a7b538c9e50e/maintainability)](https://codeclimate.com/github/andygeiss/esp32-transpiler/maintainability)",
+    "translatedContent": "[![Maintenabilité](https://api.codeclimate.com/v1/badges/90bf72e5a7b538c9e50e/maintainability)](https://codeclimate.com/github/andygeiss/esp32-transpiler/maintainability)"
+  },
+  {
+    "row": 7,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 8,
+    "rowsha": "uKuwUCsuXqvz0Yl74DBEIZj2NHk8HWO1zmscwbQAXzQ=",
+    "originContent": "## Purpose",
+    "translatedContent": "## Objectif"
+  },
+  {
+    "row": 9,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 10,
+    "rowsha": "nT8acA52/KDx72DjAw6GMDui30Iw7eG8JYkud4axp+s=",
+    "originContent": "The [Arduino IDE](https://www.arduino.cc/en/Main/Software) is easy to use.",
+    "translatedContent": "L’[IDE Arduino](https://www.arduino.cc/en/Main/Software) est facile à utiliser."
+  },
+  {
+    "row": 11,
+    "rowsha": "O8x3WhKV4FWgquXqU7RiK5XDpCTXFDLNrbAVIlGaOWs=",
+    "originContent": "But I faced problems like maintainability and testability at more complicated IoT projects.",
+    "translatedContent": "Mais j’ai rencontré des problèmes comme la maintenabilité et la testabilité sur des projets IoT plus complexes."
+  },
+  {
+    "row": 12,
+    "rowsha": "Cy383XjJ0l3m0KRe1zWQ2g2KMDVLXdYknEQWhe54dkQ=",
+    "originContent": "I needed to compile and flash the ESP32 before testing my code functionality by doing it 100% manually.",
+    "translatedContent": "Je devais compiler et flasher l’ESP32 avant de tester la fonctionnalité de mon code en le faisant 100% manuellement."
+  },
+  {
+    "row": 13,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 14,
+    "rowsha": "F17B2dkyU4kJmBiEwNlCST27piy/iiV3i3id6F2MNH4=",
+    "originContent": "This solution transpiles Golang into Arduino code, which can be compiled to an image by using the ESP32 toolchain.",
+    "translatedContent": "Cette solution transpile du Golang en code Arduino, qui peut être compilé en image en utilisant la chaîne d’outils ESP32."
+  },
+  {
+    "row": 15,
+    "rowsha": "B0x6nmUi87A25U0xVR/7A06eE0RfVZ1S2+0k+2shqOY=",
+    "originContent": "Now I am able to use a fully automated testing approach instead of doing it 100% manually.",
+    "translatedContent": "Maintenant, je peux utiliser une approche de test entièrement automatisée au lieu de le faire 100% manuellement."
+  },
+  {
+    "row": 16,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 17,
+    "rowsha": "ZKHTCpt3/QaNVwroqN7DyRcrG025Jfpx9QP9LPyAU/0=",
+    "originContent": "**Important**:",
+    "translatedContent": "**Important** :"
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "x75Hlxr+lIxReGcRZVGxWNvhPZtxtAESGrPpK6opZNU=",
+    "originContent": "The Transpiler only supports a small subset of the [Golang Language Specification](https://golang.org/ref/spec).",
+    "translatedContent": "Le Transpileur ne supporte qu’un petit sous-ensemble de la [spécification du langage Golang](https://golang.org/ref/spec)."
+  },
+  {
+    "row": 20,
+    "rowsha": "eNJDMrV/N60802myINJvqLw/FpFtr1nuwQUiAyl37hU=",
+    "originContent": "Look at the [mapping](https://github.com/andygeiss/esp32-transpiler/blob/master/transpile/handlers/mapping.go) and the [tests](https://github.com/andygeiss/esp32-transpiler/blob/master/transpile/service_test.go) to get the current functionality.",
+    "translatedContent": "Consultez le [mapping](https://github.com/andygeiss/esp32-transpiler/blob/master/transpile/handlers/mapping.go) et les [tests](https://github.com/andygeiss/esp32-transpiler/blob/master/transpile/service_test.go) pour connaître la fonctionnalité actuelle."
+  },
+  {
+    "row": 21,
+    "rowsha": "LJ8AEtST7tJ74IgAe6vVlvXNdWKwcGSXWULS6zJv84g=",
+    "originContent": "It is also not possible to trigger the C/C++ Garbage Collection, because Golang handles it automatically \"under the hood\".",
+    "translatedContent": "Il n’est pas non plus possible de déclencher le ramasse-miettes C/C++, car Golang le gère automatiquement « sous le capot »."
+  },
+  {
+    "row": 22,
+    "rowsha": "yZw3qzIQfZC8l9Nkl2xjOj/gOFFwm3Fm9mkQXn9qjR0=",
+    "originContent": "Go strings will be transpiled to C constant char arrays, which could be handled on the stack.",
+    "translatedContent": "Les chaînes Go seront transpilées en tableaux constants de caractères C, qui pourront être gérés sur la pile."
+  },
+  {
+    "row": 23,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 24,
+    "rowsha": "BoU+zuPW5fIKQMDRmN8SMTwMmxoYJWOgAUp/tJRccIE=",
+    "originContent": "### Prerequisites",
+    "translatedContent": "### Prérequis"
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "bIqgQajligfU/MazQ6LjXZU7Ijp/orrWP4fH5UkEo9g=",
+    "originContent": "1. Install the latest version of [Go](https://golang.org/dl/).",
+    "translatedContent": "1. Installez la dernière version de [Go](https://golang.org/dl/)."
+  },
+  {
+    "row": 27,
+    "rowsha": "AltjLnY6F+wgJnUWa2U+iL41xmcR8AX3oQwh9kfxT3E=",
+    "originContent": "2. Install the latest version of [Just](https://github.com/casey/just).",
+    "translatedContent": "2. Installez la dernière version de [Just](https://github.com/casey/just)."
+  },
+  {
+    "row": 28,
+    "rowsha": "Z9dpnoA8coacm3yY0mVptEfxqQpODZvq2O3hgNPUj08=",
+    "originContent": "3. Include `$HOME/bin` in your `$PATH`.",
+    "translatedContent": "3. Incluez `$HOME/bin` dans votre `$PATH`."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## Installation"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "Q4d97kV0Jm2lZQkExM7F1wdGqAQpUuFe3UbPH3PNVCA=",
+    "originContent": "Clone the repository and install the `esp32-transpiler` binary into `$HOME/bin`:",
+    "translatedContent": "Clonez le dépôt et installez le binaire `esp32-transpiler` dans `$HOME/bin` :"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "JiASKNTidIrMec5mp+p24NUQHOE8PSb9CdGuZcsTnWM=",
+    "originContent": "    just install",
+    "translatedContent": "    just install"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## Utilisation"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "snnhxfPdaBdbJ2BX8GtotW8cQTOvlLevn3PRdJy/p3o=",
+    "originContent": "Transpile a Golang source file into an Arduino sketch file:",
+    "translatedContent": "Transpilez un fichier source Golang en un fichier sketch Arduino :"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
+    "originContent": "```bash",
+    "translatedContent": "```bash"
+  },
+  {
+    "row": 41,
+    "rowsha": "of3Ts0WeNqXFJQ3jnb2Y3OculZIDEFUyxkLg+hO3C28=",
+    "originContent": "    esp32-transpiler -source my_source.go -target my_target.ino",
+    "translatedContent": "    esp32-transpiler -source my_source.go -target my_target.ino"
+  },
+  {
+    "row": 42,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]
