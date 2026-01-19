@@ -1,44 +1,73 @@
-# Emparejamiento de Flujo en PyTorch
+
+<div align="right">
+  <details>
+    <summary >🌐 Idioma</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
+# Flow Matching en PyTorch
 
 Este repositorio contiene una implementación sencilla en PyTorch del artículo [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747).
 
-## Ejemplo de Emparejamiento de Flujo 2D
+## Ejemplo de Flow Matching en 2D
 
-El gif a continuación demuestra el mapeo de una distribución Gaussiana única a una distribución de tablero de ajedrez, con el campo vectorial visualizado.
-
-<p align="center">
-<img align="middle" src="https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_checkerboard.gif" height="400" />
-</p>
-
-Y, aquí hay otro ejemplo con el conjunto de datos de lunas.
+El gif a continuación muestra el mapeo de una sola distribución Gaussiana a una distribución de tablero de ajedrez, con el campo vectorial visualizado.
 
 <p align="center">
-<img align="middle" src="https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_moons.gif" height="400" />
+<img align="middle" src="https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_and_samples_checkerboard.gif" height="400" />
 </p>
 
-## Comenzando
+Y aquí tienes otro ejemplo con el conjunto de datos moons.
 
-Clona el repositorio y configura el entorno de python.
+<p align="center">
+<img align="middle" src="https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_and_samples_moons.gif" height="400" />
+</p>
+
+## Primeros Pasos
+
+Clona el repositorio y configura el entorno de Python.
 
 ```bash
 git clone https://github.com/keishihara/flow-matching.git
 cd flow-matching
 ```
 
-Asegúrese de tener Python 3.10+ instalado.
-Para configurar el entorno de Python usando `uv`:
+Asegúrate de tener instalado Python 3.12+.
+Instala `uv`:
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Luego, configura el entorno:
 
 ```bash
 uv sync
-source .venv/bin/activate
-```
-
-Alternativamente, usando `pip`:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -e .
 ```
 
 ## Emparejamiento de Flujo Condicional [Lipman+ 2023]
@@ -50,25 +79,25 @@ Esta es la implementación original del artículo CFM [1]. Algunos componentes d
 Puede entrenar los modelos CFM en conjuntos de datos sintéticos 2D como `checkerboard` y `moons`. Especifique el nombre del conjunto de datos usando la opción `--dataset`. Los parámetros de entrenamiento están predefinidos en el script, y las visualizaciones de los resultados de entrenamiento se almacenan en el directorio `outputs/`. No se incluyen puntos de control del modelo ya que son fácilmente reproducibles con la configuración predeterminada.
 
 ```bash
-python train_flow_matching_2d.py --dataset checkerboard
+uv run scripts/train_flow_matching_2d.py --dataset checkerboard
 ```
 
-Los campos vectoriales y las muestras generadas, como las que se muestran en GIFs en la parte superior de este README, ahora se pueden encontrar en el directorio `outputs/cfm/`.
+Los campos vectoriales y las muestras generadas, como las que se muestran como GIFs en la parte superior de este README, ahora se pueden encontrar en el directorio `outputs/cfm/`.
 
-### Conjuntos de Datos de Imágenes
+### Conjuntos de datos de imágenes
 
-También puede entrenar modelos CFM condicionales por clase en conjuntos de datos populares de clasificación de imágenes. Tanto las muestras generadas como los puntos de control del modelo se almacenarán en el directorio `outputs/cfm`. Para una lista detallada de los parámetros de entrenamiento, ejecute `python train_flow_matching_on_images.py --help`.
+También puedes entrenar modelos CFM condicionales por clase en conjuntos de datos de clasificación de imágenes populares. Tanto las muestras generadas como los puntos de control del modelo se almacenarán en el directorio `outputs/cfm`. Para obtener una lista detallada de los parámetros de entrenamiento, ejecuta `uv run scripts/train_flow_matching_on_image.py --help`.
 
-Para entrenar un CFM condicional por clase en el conjunto de datos MNIST, ejecute:
+Para entrenar un CFM condicional por clase en el conjunto de datos MNIST, ejecuta:
 
 ```bash
-python train_flow_matching_on_image.py --do_train --dataset mnist
+uv run scripts/train_flow_matching_on_image.py --do_train --dataset mnist
 ```
 
 Después del entrenamiento, ahora puedes generar muestras con:
 
 ```bash
-python train_flow_matching_on_image.py --do_sample --dataset mnist
+uv run scripts/train_flow_matching_on_image.py --do_sample --dataset mnist
 ```
 Ahora, deberías poder ver las muestras generadas en el directorio `outputs/cfm/mnist/`.
 
@@ -88,7 +117,7 @@ Por ejemplo, para entrenar en el conjunto de datos `checkerboard` con un punto d
 
 
 ```bash
-python train_reflow_2d.py --dataset checkerboard --pretrained-model outputs/cfm/checkerboard/ckpt.pth
+uv run scripts/train_reflow_2d.py --dataset checkerboard
 ```
 
 Los resultados del entrenamiento, incluyendo visualizaciones del campo vectorial y muestras generadas, se guardan en la carpeta `outputs/reflow/`.
@@ -98,7 +127,7 @@ Los resultados del entrenamiento, incluyendo visualizaciones del campo vectorial
 Para comparar CFM y Reflow en conjuntos de datos 2d, ejecute:
 
 ```bash
-python plot_comparison_2d.py --dataset checkerboard
+uv run scripts/plot_comparison_2d.py --dataset checkerboard
 ```
 
 Los GIF resultantes se pueden encontrar en la carpeta `outputs/comparisons/`. A continuación, un ejemplo de comparación de los dos métodos en el conjunto de datos `checkerboard`:
@@ -117,6 +146,6 @@ Los GIF resultantes se pueden encontrar en la carpeta `outputs/comparisons/`. A 
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-19
 
 ---

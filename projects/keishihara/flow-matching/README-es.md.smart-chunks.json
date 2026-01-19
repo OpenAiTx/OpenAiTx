@@ -1,142 +1,250 @@
 [
   {
     "Id": 1,
-    "Content": "# Flow Matching in PyTorch\n\nThis repository contains a simple PyTorch implementation of the paper [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747).\n\n## 2D Flow Matching Example\n\nThe gif below demonstrates mapping a single Gaussian distribution to a checkerboard distribution, with the vector field visualized.\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_checkerboard.gif\" height=\"400\" />\n</p>\n\nAnd, here is another example of moons dataset.\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_moons.gif\" height=\"400\" />\n</p>\n\n## Getting Started\n\nClone the repository and set up the python environment.\n",
-    "ContentSha": "VailDuw2GIdggnZnWPstdwdOVyFKouEpGaFx9gucbVk=",
+    "Content": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Language</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Flow Matching in PyTorch\n\nThis repository contains a simple PyTorch implementation of the paper [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747).\n\n## 2D Flow Matching Example\n\nThe gif below demonstrates mapping a single Gaussian distribution to a checkerboard distribution, with the vector field visualized.\n",
+    "ContentSha": "aCBo7Dxwmvqn8HjUxuK9D7OD5QZi5tOS0OJfS9XWglI=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "# Emparejamiento de Flujo en PyTorch\n\nEste repositorio contiene una implementación sencilla en PyTorch del artículo [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747).\n\n## Ejemplo de Emparejamiento de Flujo 2D\n\nEl gif a continuación demuestra el mapeo de una distribución Gaussiana única a una distribución de tablero de ajedrez, con el campo vectorial visualizado.\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_checkerboard.gif\" height=\"400\" />\n</p>\n\nY, aquí hay otro ejemplo con el conjunto de datos de lunas.\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_moons.gif\" height=\"400\" />\n</p>\n\n## Comenzando\n\nClona el repositorio y configura el entorno de python.\n",
+    "Translation": "\n<div align=\"right\">\n  <details>\n    <summary >🌐 Idioma</summary>\n    <div>\n      <div align=\"center\">\n        <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=en\">English</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=zh-CN\">简体中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=zh-TW\">繁體中文</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ja\">日本語</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ko\">한국어</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=hi\">हिन्दी</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=th\">ไทย</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=fr\">Français</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=de\">Deutsch</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=es\">Español</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=it\">Italiano</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ru\">Русский</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=pt\">Português</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=nl\">Nederlands</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=pl\">Polski</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ar\">العربية</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=fa\">فارسی</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=tr\">Türkçe</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=vi\">Tiếng Việt</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=id\">Bahasa Indonesia</a>\n        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=as\">অসমীয়া</\n      </div>\n    </div>\n  </details>\n</div>\n\n# Flow Matching en PyTorch\n\nEste repositorio contiene una implementación sencilla en PyTorch del artículo [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747).\n\n## Ejemplo de Flow Matching en 2D\n\nEl gif a continuación muestra el mapeo de una sola distribución Gaussiana a una distribución de tablero de ajedrez, con el campo vectorial visualizado.\n",
     "Status": "ok",
     "RowTranslations": [
       {
         "row": 1,
-        "rowsha": "WsFg+xV2tzwxcoZ2dA2SZJ3xgUZ/h+9tcU+GDqbRlzc=",
-        "originContent": "# Flow Matching in PyTorch",
-        "translatedContent": "# Emparejamiento de Flujo en PyTorch"
-      },
-      {
-        "row": 2,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
+        "row": 2,
+        "rowsha": "cWgam+tnnXudu7i74+ahMEGk/A9dQS+EwWLAIfi3dHk=",
+        "originContent": "<div align=\"right\">",
+        "translatedContent": "<div align=\"right\">"
+      },
+      {
         "row": 3,
+        "rowsha": "orOcu5ARna/hb3RUkj6dBI8pHTM3WHeTvby17l5E0h0=",
+        "originContent": "  <details>",
+        "translatedContent": "  <details>"
+      },
+      {
+        "row": 4,
+        "rowsha": "TtgkLzblnvP0q9aAIVXt6s2LczXjy5k+QvHKcU0/5Ms=",
+        "originContent": "    <summary >🌐 Language</summary>",
+        "translatedContent": "    <summary >🌐 Idioma</summary>"
+      },
+      {
+        "row": 5,
+        "rowsha": "fZtk4rPTAJEEslnbhSVkHEcPlsctYSzAV7CDPL3rJmA=",
+        "originContent": "    <div>",
+        "translatedContent": "    <div>"
+      },
+      {
+        "row": 6,
+        "rowsha": "9KQxOeJSigvTmGWO+mtnl8kZY9zQfueoy8sk4lYm09Q=",
+        "originContent": "      <div align=\"center\">",
+        "translatedContent": "      <div align=\"center\">"
+      },
+      {
+        "row": 7,
+        "rowsha": "fw2a5QiDTbtM26wdqZSy7sdD9T4Qvm+/Td/9g1r0A74=",
+        "originContent": "        <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=en\">English</a>",
+        "translatedContent": "        <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=en\">English</a>"
+      },
+      {
+        "row": 8,
+        "rowsha": "wZr8F7IrgJag3amRw3oNLxhFWITiwuJn65lxB+MYXeo=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=zh-CN\">简体中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=zh-CN\">简体中文</a>"
+      },
+      {
+        "row": 9,
+        "rowsha": "4jLqmHNH8lInTntEKkyZs3LE6NdzCBV4S1W/ZugaVWU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=zh-TW\">繁體中文</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=zh-TW\">繁體中文</a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "2sKBjvuOvfA7Vv4RJp7cu1+SIVQlo0DD+J+PpWSIdwI=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ja\">日本語</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ja\">日本語</a>"
+      },
+      {
+        "row": 11,
+        "rowsha": "IeOqufDiBqaBxXLzH4lK5m/e5HsSaxjHwTnR0SWP/t4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ko\">한국어</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ko\">한국어</a>"
+      },
+      {
+        "row": 12,
+        "rowsha": "do5Ky4/DdhxxhuUHlXHQ4BFKt9lcqXs3Nidf02kCPY0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=hi\">हिन्दी</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=hi\">हिन्दी</a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "fZzCrtb29EZ9OHsdZ2X1j5eeWI0M3DfaFslhgnLZFSk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=th\">ไทย</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=th\">ไทย</a>"
+      },
+      {
+        "row": 14,
+        "rowsha": "iOJTffeo+GczhUkYeLenjNDhnpGX5RKvcsVAi2WZbuw=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=fr\">Français</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=fr\">Français</a>"
+      },
+      {
+        "row": 15,
+        "rowsha": "Z3n2iHEBXCvgab+PX4uSrierSiGD2A6xYRzE9pPkQBQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=de\">Deutsch</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=de\">Deutsch</a>"
+      },
+      {
+        "row": 16,
+        "rowsha": "/NK02U1PGwB6vA4mv6P7vdUs+alwA3+cUNZxCrjO+qY=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=es\">Español</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=es\">Español</a>"
+      },
+      {
+        "row": 17,
+        "rowsha": "/CwdS6yCFwQMbpo4sFdXShEiDH97roZ89aj1TXR2Sl4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=it\">Italiano</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=it\">Italiano</a>"
+      },
+      {
+        "row": 18,
+        "rowsha": "38oc2HTTyjwN1o1Cm3uytaQWpBetkE+g+DBITM7sVms=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ru\">Русский</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ru\">Русский</a>"
+      },
+      {
+        "row": 19,
+        "rowsha": "V3DKMGEWl9R3UFTKFVATjoBbAJN6jdhjFcRu75Bai2M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=pt\">Português</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=pt\">Português</a>"
+      },
+      {
+        "row": 20,
+        "rowsha": "nDatKTw/RoAwgEtfcyq28sRnCWSZp+upiWzYSp171i4=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=nl\">Nederlands</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=nl\">Nederlands</a>"
+      },
+      {
+        "row": 21,
+        "rowsha": "GlAXo0GK/bJkus23DfnGwPxTWvphXBlbaFfc/tEomKQ=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=pl\">Polski</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=pl\">Polski</a>"
+      },
+      {
+        "row": 22,
+        "rowsha": "KnzRmRZnrWgY5/+9tfmhKEAZr30N4Tvk4XuHNDgJVc0=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ar\">العربية</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ar\">العربية</a>"
+      },
+      {
+        "row": 23,
+        "rowsha": "9j+kbyMOlli1Y3mEyW2jZN7gPIt1OdbAuQTsf9YOG4M=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=fa\">فارسی</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=fa\">فارسی</a>"
+      },
+      {
+        "row": 24,
+        "rowsha": "+371oLWr4ykDaf6ljkhjHZmgmj5bGjn296ijd1ArR1Q=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=tr\">Türkçe</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=tr\">Türkçe</a>"
+      },
+      {
+        "row": 25,
+        "rowsha": "Y9PCdj8Z9ywXK/AkxsgvZ8VnL/92vHBPwbdRGO8Z4qU=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=vi\">Tiếng Việt</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=vi\">Tiếng Việt</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "DgAXRxiwjxR04XDQRi5dyJHQG6bsQxbmDlkAWkWvdbA=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=id\">Bahasa Indonesia</a>",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=id\">Bahasa Indonesia</a>"
+      },
+      {
+        "row": 27,
+        "rowsha": "hMnByyeZ1u5fzRHtwWipPlR4nTX6z6fxWTDT9NPApCk=",
+        "originContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=as\">অসমীয়া</",
+        "translatedContent": "        | <a href=\"https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=as\">অসমীয়া</"
+      },
+      {
+        "row": 28,
+        "rowsha": "0OM5wNEm0TO56MEBvQzL7AUZM7/3OpgIeqRf2zFre3Q=",
+        "originContent": "      </div>",
+        "translatedContent": "      </div>"
+      },
+      {
+        "row": 29,
+        "rowsha": "fcjTfY+fs8YnY5slBs1sZvWPAqEQR7tzaBDO54skkGQ=",
+        "originContent": "    </div>",
+        "translatedContent": "    </div>"
+      },
+      {
+        "row": 30,
+        "rowsha": "+fQNH2ldI7UM/rqRscP3hUSWAmw1HvQ2wEKDN8JagT0=",
+        "originContent": "  </details>",
+        "translatedContent": "  </details>"
+      },
+      {
+        "row": 31,
+        "rowsha": "qsMmUbEPVnxGG5tPJV1vsfpoWbU2jYvZpRr5IKshzyM=",
+        "originContent": "</div>",
+        "translatedContent": "</div>"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "WsFg+xV2tzwxcoZ2dA2SZJ3xgUZ/h+9tcU+GDqbRlzc=",
+        "originContent": "# Flow Matching in PyTorch",
+        "translatedContent": "# Flow Matching en PyTorch"
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
         "rowsha": "7HBgDSjdAo1A/6AhuQgJ//d2lapBpZCYZLvWR5FkiQs=",
         "originContent": "This repository contains a simple PyTorch implementation of the paper [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747).",
         "translatedContent": "Este repositorio contiene una implementación sencilla en PyTorch del artículo [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747)."
       },
       {
-        "row": 4,
+        "row": 36,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 5,
+        "row": 37,
         "rowsha": "yBVzCtoPjy9rkhbL61spEAZ7epv86KiGSfl4qumWWBk=",
         "originContent": "## 2D Flow Matching Example",
-        "translatedContent": "## Ejemplo de Emparejamiento de Flujo 2D"
+        "translatedContent": "## Ejemplo de Flow Matching en 2D"
       },
       {
-        "row": 6,
+        "row": 38,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
       },
       {
-        "row": 7,
+        "row": 39,
         "rowsha": "0H8r+M1Z5cEcE9algtToL0Irt85w2/F81LV/FoHr8XE=",
         "originContent": "The gif below demonstrates mapping a single Gaussian distribution to a checkerboard distribution, with the vector field visualized.",
-        "translatedContent": "El gif a continuación demuestra el mapeo de una distribución Gaussiana única a una distribución de tablero de ajedrez, con el campo vectorial visualizado."
+        "translatedContent": "El gif a continuación muestra el mapeo de una sola distribución Gaussiana a una distribución de tablero de ajedrez, con el campo vectorial visualizado."
       },
       {
-        "row": 8,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-        "originContent": "<p align=\"center\">",
-        "translatedContent": "<p align=\"center\">"
-      },
-      {
-        "row": 10,
-        "rowsha": "E2KymqWCnIWTnfQOeYsAebRlnTWHOlc3lJRCkMPQGiE=",
-        "originContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_checkerboard.gif\" height=\"400\" />",
-        "translatedContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_checkerboard.gif\" height=\"400\" />"
-      },
-      {
-        "row": 11,
-        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-        "originContent": "</p>",
-        "translatedContent": "</p>"
-      },
-      {
-        "row": 12,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "Mgbmk0MIGtdS+ydP7MDfF4SmpxEqQ9d39Ihj4BxUw8E=",
-        "originContent": "And, here is another example of moons dataset.",
-        "translatedContent": "Y, aquí hay otro ejemplo con el conjunto de datos de lunas."
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-        "originContent": "<p align=\"center\">",
-        "translatedContent": "<p align=\"center\">"
-      },
-      {
-        "row": 16,
-        "rowsha": "UhWKLlZxAqrXiLdblG1vg5zq5xPSsjLBZ+wDy1PkP7I=",
-        "originContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_moons.gif\" height=\"400\" />",
-        "translatedContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_moons.gif\" height=\"400\" />"
-      },
-      {
-        "row": 17,
-        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-        "originContent": "</p>",
-        "translatedContent": "</p>"
-      },
-      {
-        "row": 18,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 19,
-        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
-        "originContent": "## Getting Started",
-        "translatedContent": "## Comenzando"
-      },
-      {
-        "row": 20,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 21,
-        "rowsha": "QlslRJl7OMtlf37ShfMfUQCIPAZjX0+DC6Ih13jX/Tk=",
-        "originContent": "Clone the repository and set up the python environment.",
-        "translatedContent": "Clona el repositorio y configura el entorno de python."
-      },
-      {
-        "row": 22,
+        "row": 40,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -146,12 +254,158 @@
   },
   {
     "Id": 2,
+    "Content": "<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_and_samples_checkerboard.gif\" height=\"400\" />\n</p>\n\nAnd, here is another example of moons dataset.\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_and_samples_moons.gif\" height=\"400\" />\n</p>\n\n## Getting Started\n\nClone the repository and set up the python environment.\n",
+    "ContentSha": "FHhvkJ2TtUW8iUVUtsfoWT1diMld/zMcglKSZMsSevc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_and_samples_checkerboard.gif\" height=\"400\" />\n</p>\n\nY aquí tienes otro ejemplo con el conjunto de datos moons.\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_and_samples_moons.gif\" height=\"400\" />\n</p>\n\n## Primeros Pasos\n\nClona el repositorio y configura el entorno de Python.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 2,
+        "rowsha": "fhP1/L60798I8PZErChu0WVMMHopfPfrzJ5OXKr3v6E=",
+        "originContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_and_samples_checkerboard.gif\" height=\"400\" />",
+        "translatedContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_and_samples_checkerboard.gif\" height=\"400\" />"
+      },
+      {
+        "row": 3,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Mgbmk0MIGtdS+ydP7MDfF4SmpxEqQ9d39Ihj4BxUw8E=",
+        "originContent": "And, here is another example of moons dataset.",
+        "translatedContent": "Y aquí tienes otro ejemplo con el conjunto de datos moons."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 8,
+        "rowsha": "FS+vkjGsD3Wm9UCF/Ff7cTA0mGZodurT/it8czlUopY=",
+        "originContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_and_samples_moons.gif\" height=\"400\" />",
+        "translatedContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_and_samples_moons.gif\" height=\"400\" />"
+      },
+      {
+        "row": 9,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "xhRBNsX93gDAZr7QGoGuyvjyOQNvnsq8Qy5ThtW3pJo=",
+        "originContent": "## Getting Started",
+        "translatedContent": "## Primeros Pasos"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "QlslRJl7OMtlf37ShfMfUQCIPAZjX0+DC6Ih13jX/Tk=",
+        "originContent": "Clone the repository and set up the python environment.",
+        "translatedContent": "Clona el repositorio y configura el entorno de Python."
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
     "Content": "```bash\ngit clone https://github.com/keishihara/flow-matching.git\ncd flow-matching\n```",
     "ContentSha": "5knmSxR58laAdQOksnjppezV7xQMoL7MvwUbxyj7qwc=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
     "Translation": "```bash\ngit clone https://github.com/keishihara/flow-matching.git\ncd flow-matching\n```",
+    "Status": "ok",
+    "RowTranslations": [],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nMake sure you have Python 3.12+ installed.\nInstall `uv`:\n",
+    "ContentSha": "7iajqGelgi5QNTgHswRlZXWwd9UA3+Fs+ssjODBNpSU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nAsegúrate de tener instalado Python 3.12+.\nInstala `uv`:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "o2u54vwE8fhULP9nHuYmqDnEYjauSkC8xuEOjV9+RKc=",
+        "originContent": "Make sure you have Python 3.12+ installed.",
+        "translatedContent": "Asegúrate de tener instalado Python 3.12+."
+      },
+      {
+        "row": 3,
+        "rowsha": "NMq3ujvSkKaSv6wnzp1RO/Yjr0zFZFHK2oqpmpKJ7to=",
+        "originContent": "Install `uv`:",
+        "translatedContent": "Instala `uv`:"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```bash\ncurl -LsSf https://astral.sh/uv/install.sh | sh\n```",
+    "ContentSha": "kMv9jiS8cWqIkYodvqykMNeQ8JPpRzpaXNdHSw3C4GY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bash\ncurl -LsSf https://astral.sh/uv/install.sh | sh\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -162,18 +416,12 @@
       },
       {
         "row": 2,
-        "rowsha": "KjXQzTjSbguamER0aQ3Q5Kq4OL4r0QrzuOUeYCEnGI4=",
-        "originContent": "git clone https://github.com/keishihara/flow-matching.git",
-        "translatedContent": "git clone https://github.com/keishihara/flow-matching.git"
+        "rowsha": "SXf4WaG2g4WedAyrS5IzaiqEJ/gfMyYBMoSjDOk27yI=",
+        "originContent": "curl -LsSf https://astral.sh/uv/install.sh | sh",
+        "translatedContent": "curl -LsSf https://astral.sh/uv/install.sh | sh"
       },
       {
         "row": 3,
-        "rowsha": "KbsCsm30SiUoYssWHYS467T6/WGm4WxZGnf/fZK47MU=",
-        "originContent": "cd flow-matching",
-        "translatedContent": "cd flow-matching"
-      },
-      {
-        "row": 4,
         "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
         "originContent": "```",
         "translatedContent": "```"
@@ -182,13 +430,13 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 3,
-    "Content": "\nMake sure you have Python 3.10+ installed.\nTo set up the python environment using `uv`:\n",
-    "ContentSha": "lUyMPQS6Hgo2tRKvK4D/kQCTgZpOUJrHW4ggbk8eZ6E=",
+    "Id": 6,
+    "Content": "\nThen, set up the environment:\n",
+    "ContentSha": "L0kw05itlq96Ywp59XdkLfKLVDJ9x8bhO4FOk2MHHD8=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\nAsegúrese de tener Python 3.10+ instalado.\nPara configurar el entorno de Python usando `uv`:\n",
+    "Translation": "\nLuego, configura el entorno:\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -199,18 +447,12 @@
       },
       {
         "row": 2,
-        "rowsha": "X/FeVCxHp0CT8RCgKSt2WpQCCRLDcMNZmGYPPUCVQ10=",
-        "originContent": "Make sure you have Python 3.10+ installed.",
-        "translatedContent": "Asegúrese de tener Python 3.10+ instalado."
+        "rowsha": "nTCalETP3udkP9ZciRj6JSDRTV7CnowrltnwiAFhUK4=",
+        "originContent": "Then, set up the environment:",
+        "translatedContent": "Luego, configura el entorno:"
       },
       {
         "row": 3,
-        "rowsha": "PB+k0LPe33ovoVrz/P9ICwadPDm7TzNf81e952+QptI=",
-        "originContent": "To set up the python environment using `uv`:",
-        "translatedContent": "Para configurar el entorno de Python usando `uv`:"
-      },
-      {
-        "row": 4,
         "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
         "originContent": "",
         "translatedContent": ""
@@ -219,13 +461,13 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 4,
-    "Content": "```bash\nuv sync\nsource .venv/bin/activate\n```",
-    "ContentSha": "TpNmFXa7HxAlxCN2Qkw21Ra+ASnkytlupHJ2QDTEbuY=",
+    "Id": 7,
+    "Content": "```bash\nuv sync\n```",
+    "ContentSha": "kSlyD80nyOKkqXIWhU4CMpJuzZc6P9NpPZuEhB0p5Gw=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\nuv sync\nsource .venv/bin/activate\n```",
+    "Translation": "```bash\nuv sync\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -242,12 +484,6 @@
       },
       {
         "row": 3,
-        "rowsha": "RDUaxA18s/pXqQvQov8NDg+Q3PTeDJ8ytJ0PGX0egwA=",
-        "originContent": "source .venv/bin/activate",
-        "translatedContent": "source .venv/bin/activate"
-      },
-      {
-        "row": 4,
         "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
         "originContent": "```",
         "translatedContent": "```"
@@ -256,81 +492,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 5,
-    "Content": "\nAlternatively, using `pip`:\n",
-    "ContentSha": "No73wdzjpiiOet/5jFEm/fPILvYRIrKFPKZ9i0PEWBU=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "\nAlternativamente, usando `pip`:\n",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "2ttU6zl9+mfSaDolQjmo1sLRKp0RpDxTg7xQ6DTWBWg=",
-        "originContent": "Alternatively, using `pip`:",
-        "translatedContent": "Alternativamente, usando `pip`:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
-    "IsCodeBlock": false
-  },
-  {
-    "Id": 6,
-    "Content": "```bash\npython -m venv .venv\nsource .venv/bin/activate\npip install -e .\n```",
-    "ContentSha": "o6nlEpaIQlslWyx5e9/U4VKWZBF0daUfIRCwq++yAN0=",
-    "SectionType": "",
-    "StartLine": 0,
-    "EndLine": 0,
-    "Translation": "```bash\npython -m venv .venv\nsource .venv/bin/activate\npip install -e .\n```",
-    "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "rTMjNc+qNIxb1xXDR5hEYiJw1fc4muBwuBsTXVIaIho=",
-        "originContent": "```bash",
-        "translatedContent": "```bash"
-      },
-      {
-        "row": 2,
-        "rowsha": "Xj91YHlRZzKcvPAqij5Lg/nwRbh8yYG2itmCPVuE0WY=",
-        "originContent": "python -m venv .venv",
-        "translatedContent": "python -m venv .venv"
-      },
-      {
-        "row": 3,
-        "rowsha": "RDUaxA18s/pXqQvQov8NDg+Q3PTeDJ8ytJ0PGX0egwA=",
-        "originContent": "source .venv/bin/activate",
-        "translatedContent": "source .venv/bin/activate"
-      },
-      {
-        "row": 4,
-        "rowsha": "knVRIKwsU4emj9biFUgJoBjbMP5EER6U5AGxS0Ix1+Y=",
-        "originContent": "pip install -e .",
-        "translatedContent": "pip install -e ."
-      },
-      {
-        "row": 5,
-        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
-        "originContent": "```",
-        "translatedContent": "```"
-      }
-    ],
-    "IsCodeBlock": true
-  },
-  {
-    "Id": 7,
+    "Id": 8,
     "Content": "\n## Conditional Flow Matching [Lipman+ 2023]\n\nThis is the original CFM paper implementation [1]. Some components of the code are adapted from [2] and [3].\n\n### 2D Toy Datasets\n\nYou can train the CFM models on 2D synthetic datasets such as `checkerboard` and `moons`. Specify the dataset name using `--dataset` option. Training parameters are predefined in the script, and visualizations of the training results are stored in the `outputs/` directory. Model checkpoints are not included as they are easily reproducible with the default settings.\n",
     "ContentSha": "NgdrwaTIByhXZZ6ff6pr0uqUD727dIxq8sF9MOjrREM=",
     "SectionType": "",
@@ -338,72 +500,17 @@
     "EndLine": 0,
     "Translation": "\n## Emparejamiento de Flujo Condicional [Lipman+ 2023]\n\nEsta es la implementación original del artículo CFM [1]. Algunos componentes del código están adaptados de [2] y [3].\n\n### Conjuntos de Datos Sintéticos 2D\n\nPuede entrenar los modelos CFM en conjuntos de datos sintéticos 2D como `checkerboard` y `moons`. Especifique el nombre del conjunto de datos usando la opción `--dataset`. Los parámetros de entrenamiento están predefinidos en el script, y las visualizaciones de los resultados de entrenamiento se almacenan en el directorio `outputs/`. No se incluyen puntos de control del modelo ya que son fácilmente reproducibles con la configuración predeterminada.\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "q9HHL+Dxq1kzdwgXzDG6uF8JCFazHZ+ImXRpHHap5ug=",
-        "originContent": "## Conditional Flow Matching [Lipman+ 2023]",
-        "translatedContent": "## Emparejamiento de Flujo Condicional [Lipman+ 2023]"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "Z//qVNyt8eU83Teh2F98ORhpdaid+cPeMV4x/nL3u8Y=",
-        "originContent": "This is the original CFM paper implementation [1]. Some components of the code are adapted from [2] and [3].",
-        "translatedContent": "Esta es la implementación original del artículo CFM [1]. Algunos componentes del código están adaptados de [2] y [3]."
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "uJUElnM+YgDjeEnDWNDE8O7ogr+JkhBGc0oOnddrxu0=",
-        "originContent": "### 2D Toy Datasets",
-        "translatedContent": "### Conjuntos de Datos Sintéticos 2D"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "lTil9olDNKRbLTqOcI2g7vW/xfTgM0tjjOOfn10zxFQ=",
-        "originContent": "You can train the CFM models on 2D synthetic datasets such as `checkerboard` and `moons`. Specify the dataset name using `--dataset` option. Training parameters are predefined in the script, and visualizations of the training results are stored in the `outputs/` directory. Model checkpoints are not included as they are easily reproducible with the default settings.",
-        "translatedContent": "Puede entrenar los modelos CFM en conjuntos de datos sintéticos 2D como `checkerboard` y `moons`. Especifique el nombre del conjunto de datos usando la opción `--dataset`. Los parámetros de entrenamiento están predefinidos en el script, y las visualizaciones de los resultados de entrenamiento se almacenan en el directorio `outputs/`. No se incluyen puntos de control del modelo ya que son fácilmente reproducibles con la configuración predeterminada."
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 8,
-    "Content": "```bash\npython train_flow_matching_2d.py --dataset checkerboard\n```",
-    "ContentSha": "tDScHr0eeVR8FUM9xetdr3BrmcluflKEl+vmRivaElo=",
+    "Id": 9,
+    "Content": "```bash\nuv run scripts/train_flow_matching_2d.py --dataset checkerboard\n```",
+    "ContentSha": "0BYZRFc8E7mYaMuFo/XX5ueHJAkw9r1fqH0oSenft+4=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\npython train_flow_matching_2d.py --dataset checkerboard\n```",
+    "Translation": "```bash\nuv run scripts/train_flow_matching_2d.py --dataset checkerboard\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -414,9 +521,9 @@
       },
       {
         "row": 2,
-        "rowsha": "FQVc/oXiAu7n79n8+5wwWS4ne7U4WSx1YsbUvXkc6q0=",
-        "originContent": "python train_flow_matching_2d.py --dataset checkerboard",
-        "translatedContent": "python train_flow_matching_2d.py --dataset checkerboard"
+        "rowsha": "gE9AUTER/R7IKpq9efF/q80QyiVs4XBA1AeMz1JhQac=",
+        "originContent": "uv run scripts/train_flow_matching_2d.py --dataset checkerboard",
+        "translatedContent": "uv run scripts/train_flow_matching_2d.py --dataset checkerboard"
       },
       {
         "row": 3,
@@ -428,13 +535,13 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 9,
-    "Content": "\nThe vector fields and generated samples, like the ones displayed as GIFs at the top of this README, can now be found in the `outputs/cfm/` directory.\n\n### Image Datasets\n\nYou can also train class-conditional CFM models on popular image classification datasets. Both the generated samples and model checkpoints will be stored in the `outputs/cfm` directory. For a detailed list of training parameters, run `python train_flow_matching_on_images.py --help`.\n\nTo train a class-conditional CFM on MNIST dataset, run:\n",
-    "ContentSha": "gZJv/wviPs5FqHiXpxufRvAkTB4G6kpZ20Qkhf2aJHk=",
+    "Id": 10,
+    "Content": "\nThe vector fields and generated samples, like the ones displayed as GIFs at the top of this README, can now be found in the `outputs/cfm/` directory.\n\n### Image Datasets\n\nYou can also train class-conditional CFM models on popular image classification datasets. Both the generated samples and model checkpoints will be stored in the `outputs/cfm` directory. For a detailed list of training parameters, run `uv run scripts/train_flow_matching_on_image.py --help`.\n\nTo train a class-conditional CFM on MNIST dataset, run:\n",
+    "ContentSha": "d64mANhaxxZfzUKbEJehRNAPB+qmXiNHqW9io4GYJyg=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "\nLos campos vectoriales y las muestras generadas, como las que se muestran en GIFs en la parte superior de este README, ahora se pueden encontrar en el directorio `outputs/cfm/`.\n\n### Conjuntos de Datos de Imágenes\n\nTambién puede entrenar modelos CFM condicionales por clase en conjuntos de datos populares de clasificación de imágenes. Tanto las muestras generadas como los puntos de control del modelo se almacenarán en el directorio `outputs/cfm`. Para una lista detallada de los parámetros de entrenamiento, ejecute `python train_flow_matching_on_images.py --help`.\n\nPara entrenar un CFM condicional por clase en el conjunto de datos MNIST, ejecute:\n",
+    "Translation": "\nLos campos vectoriales y las muestras generadas, como las que se muestran como GIFs en la parte superior de este README, ahora se pueden encontrar en el directorio `outputs/cfm/`.\n\n### Conjuntos de datos de imágenes\n\nTambién puedes entrenar modelos CFM condicionales por clase en conjuntos de datos de clasificación de imágenes populares. Tanto las muestras generadas como los puntos de control del modelo se almacenarán en el directorio `outputs/cfm`. Para obtener una lista detallada de los parámetros de entrenamiento, ejecuta `uv run scripts/train_flow_matching_on_image.py --help`.\n\nPara entrenar un CFM condicional por clase en el conjunto de datos MNIST, ejecuta:\n",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -447,7 +554,7 @@
         "row": 2,
         "rowsha": "+O88kKcG2Er/ppshyRhVDI3wglhEIvh0cv0YGbLLlS0=",
         "originContent": "The vector fields and generated samples, like the ones displayed as GIFs at the top of this README, can now be found in the `outputs/cfm/` directory.",
-        "translatedContent": "Los campos vectoriales y las muestras generadas, como las que se muestran en GIFs en la parte superior de este README, ahora se pueden encontrar en el directorio `outputs/cfm/`."
+        "translatedContent": "Los campos vectoriales y las muestras generadas, como las que se muestran como GIFs en la parte superior de este README, ahora se pueden encontrar en el directorio `outputs/cfm/`."
       },
       {
         "row": 3,
@@ -459,7 +566,7 @@
         "row": 4,
         "rowsha": "vLIhMblKiWAErWvmMu4EPQ0gxH16RM2yWlKNievutx4=",
         "originContent": "### Image Datasets",
-        "translatedContent": "### Conjuntos de Datos de Imágenes"
+        "translatedContent": "### Conjuntos de datos de imágenes"
       },
       {
         "row": 5,
@@ -469,9 +576,9 @@
       },
       {
         "row": 6,
-        "rowsha": "tCuNVQ2wl76T44npUpO3nJM+6fLz0+YeOB8TvQBSmYw=",
-        "originContent": "You can also train class-conditional CFM models on popular image classification datasets. Both the generated samples and model checkpoints will be stored in the `outputs/cfm` directory. For a detailed list of training parameters, run `python train_flow_matching_on_images.py --help`.",
-        "translatedContent": "También puede entrenar modelos CFM condicionales por clase en conjuntos de datos populares de clasificación de imágenes. Tanto las muestras generadas como los puntos de control del modelo se almacenarán en el directorio `outputs/cfm`. Para una lista detallada de los parámetros de entrenamiento, ejecute `python train_flow_matching_on_images.py --help`."
+        "rowsha": "xgCE/DAlsWKJ2zoHc9ONYWaaDXblDH+eQNReUNrJBbs=",
+        "originContent": "You can also train class-conditional CFM models on popular image classification datasets. Both the generated samples and model checkpoints will be stored in the `outputs/cfm` directory. For a detailed list of training parameters, run `uv run scripts/train_flow_matching_on_image.py --help`.",
+        "translatedContent": "También puedes entrenar modelos CFM condicionales por clase en conjuntos de datos de clasificación de imágenes populares. Tanto las muestras generadas como los puntos de control del modelo se almacenarán en el directorio `outputs/cfm`. Para obtener una lista detallada de los parámetros de entrenamiento, ejecuta `uv run scripts/train_flow_matching_on_image.py --help`."
       },
       {
         "row": 7,
@@ -483,7 +590,7 @@
         "row": 8,
         "rowsha": "oWID0UqyqRtQ4h5mSmzb6Ygus5wSiyCMes9DqRHCUEE=",
         "originContent": "To train a class-conditional CFM on MNIST dataset, run:",
-        "translatedContent": "Para entrenar un CFM condicional por clase en el conjunto de datos MNIST, ejecute:"
+        "translatedContent": "Para entrenar un CFM condicional por clase en el conjunto de datos MNIST, ejecuta:"
       },
       {
         "row": 9,
@@ -495,13 +602,13 @@
     "IsCodeBlock": false
   },
   {
-    "Id": 10,
-    "Content": "```bash\npython train_flow_matching_on_image.py --do_train --dataset mnist\n```",
-    "ContentSha": "KSBkcK9Qr7EFbBPLGls5Gz5LxvdUPDIm97Wu6SxORkU=",
+    "Id": 11,
+    "Content": "```bash\nuv run scripts/train_flow_matching_on_image.py --do_train --dataset mnist\n```",
+    "ContentSha": "8kMsut210D9/gwoJO7H4tP+AYbUfHsjCcXPtwMYgW1w=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\npython train_flow_matching_on_image.py --do_train --dataset mnist\n```",
+    "Translation": "```bash\nuv run scripts/train_flow_matching_on_image.py --do_train --dataset mnist\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -512,9 +619,9 @@
       },
       {
         "row": 2,
-        "rowsha": "61ydxnfrjCzEYI/MSL3Y4E/NmwfZovogmSkQIq1zXgA=",
-        "originContent": "python train_flow_matching_on_image.py --do_train --dataset mnist",
-        "translatedContent": "python train_flow_matching_on_image.py --do_train --dataset mnist"
+        "rowsha": "6U2aAJx5YGLivqq75jkt/FpWjxHxot33eNYZk6UrEk8=",
+        "originContent": "uv run scripts/train_flow_matching_on_image.py --do_train --dataset mnist",
+        "translatedContent": "uv run scripts/train_flow_matching_on_image.py --do_train --dataset mnist"
       },
       {
         "row": 3,
@@ -526,7 +633,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 11,
+    "Id": 12,
     "Content": "\nAfter training, you can now generate samples with:\n",
     "ContentSha": "feESlUOO/HQULh+RxmvmIdn6b2sS7ZQLqQki1r1NsR4=",
     "SectionType": "",
@@ -534,36 +641,17 @@
     "EndLine": 0,
     "Translation": "\nDespués del entrenamiento, ahora puedes generar muestras con:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "5Xwep8NYQhWDdSjVfF9t6fW8PO9TVVcVZrySkV2dl+4=",
-        "originContent": "After training, you can now generate samples with:",
-        "translatedContent": "Después del entrenamiento, ahora puedes generar muestras con:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 12,
-    "Content": "```bash\npython train_flow_matching_on_image.py --do_sample --dataset mnist\n```",
-    "ContentSha": "+cB6vnLbPP52Ie1JoNSrrJFmTFq9qmhlRVZcrboJM7Y=",
+    "Id": 13,
+    "Content": "```bash\nuv run scripts/train_flow_matching_on_image.py --do_sample --dataset mnist\n```",
+    "ContentSha": "vfJH0FL40t8j9YCTB5skwBeK+nf+yMLO1OFnjHjWYos=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\npython train_flow_matching_on_image.py --do_sample --dataset mnist\n```",
+    "Translation": "```bash\nuv run scripts/train_flow_matching_on_image.py --do_sample --dataset mnist\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -574,9 +662,9 @@
       },
       {
         "row": 2,
-        "rowsha": "MkZpi22xhkAsAAxr/oNltNjDOTkMB3O5JzFfs9cZPUI=",
-        "originContent": "python train_flow_matching_on_image.py --do_sample --dataset mnist",
-        "translatedContent": "python train_flow_matching_on_image.py --do_sample --dataset mnist"
+        "rowsha": "59IhtG93p6NpFrDvBGAqK6q2jhX5N92nzLU0yM8jhvI=",
+        "originContent": "uv run scripts/train_flow_matching_on_image.py --do_sample --dataset mnist",
+        "translatedContent": "uv run scripts/train_flow_matching_on_image.py --do_sample --dataset mnist"
       },
       {
         "row": 3,
@@ -588,7 +676,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 13,
+    "Id": 14,
     "Content": "\nNow, you should be able to see the generated samples in the `outputs/cfm/mnist/` directory.\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/mnist/trajectory.gif\" height=\"400\" />\n</p>\n\n## Rectified Flow [Liu+ 2023]\n\nThis is an implementation of the Reflow model (2-Rectified Flow to be specific) from the Rectified Flow paper [2].\n\n### 2D Synthetic Data\n\nWe have implemented the Reflow on 2d synthetic datasets, same as the CFM. To train the reflow, you have to specify pretrained CFM checkpoints as reflow is a distillation model.\n\nFor example, to train on the `checkerboard` dataset with a pretrained CFM checkpoint:\n",
     "ContentSha": "wdAVWbj9hzMS08jrScc1RcGtUvZ0QTT21gpjKrchwUY=",
     "SectionType": "",
@@ -596,120 +684,17 @@
     "EndLine": 0,
     "Translation": "Ahora, deberías poder ver las muestras generadas en el directorio `outputs/cfm/mnist/`.\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/mnist/trajectory.gif\" height=\"400\" />\n</p>\n\n## Flujo Rectificado [Liu+ 2023]\n\nEsta es una implementación del modelo Reflow (Flujo Rectificado 2 para ser específicos) del artículo sobre Flujo Rectificado [2].\n\n### Datos Sintéticos 2D\n\nHemos implementado Reflow en conjuntos de datos sintéticos 2D, igual que CFM. Para entrenar el reflow, debes especificar puntos de control CFM preentrenados ya que reflow es un modelo de destilación.\n\nPor ejemplo, para entrenar en el conjunto de datos `checkerboard` con un punto de control CFM preentrenado:\n\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Ahora, deberías poder ver las muestras generadas en el directorio `outputs/cfm/mnist/`."
-      },
-      {
-        "row": 2,
-        "rowsha": "9ARUJUT3y2AbqN1tggAJpjj4h5fO1Le+NS/WpV21pJo=",
-        "originContent": "Now, you should be able to see the generated samples in the `outputs/cfm/mnist/` directory.",
-        "translatedContent": ""
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "<p align=\"center\">"
-      },
-      {
-        "row": 4,
-        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-        "originContent": "<p align=\"center\">",
-        "translatedContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/mnist/trajectory.gif\" height=\"400\" />"
-      },
-      {
-        "row": 5,
-        "rowsha": "6gOiQALV99VqnofhekXqXCE4tG/04qKNXeCQQHVLpQc=",
-        "originContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/mnist/trajectory.gif\" height=\"400\" />",
-        "translatedContent": "</p>"
-      },
-      {
-        "row": 6,
-        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-        "originContent": "</p>",
-        "translatedContent": ""
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "## Flujo Rectificado [Liu+ 2023]"
-      },
-      {
-        "row": 8,
-        "rowsha": "irHQmt2XTaennpfdbr/plv9PZHijOAGMVJKX8OOIf1A=",
-        "originContent": "## Rectified Flow [Liu+ 2023]",
-        "translatedContent": ""
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Esta es una implementación del modelo Reflow (Flujo Rectificado 2 para ser específicos) del artículo sobre Flujo Rectificado [2]."
-      },
-      {
-        "row": 10,
-        "rowsha": "i8ggSbUwapzDerfeGR/w//t2U5ahmD6+qgjBo9kX5Eo=",
-        "originContent": "This is an implementation of the Reflow model (2-Rectified Flow to be specific) from the Rectified Flow paper [2].",
-        "translatedContent": ""
-      },
-      {
-        "row": 11,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "### Datos Sintéticos 2D"
-      },
-      {
-        "row": 12,
-        "rowsha": "oz6Q7SHK2vIFebIPxFld9ovtffWmlInSzynmrcvNXmY=",
-        "originContent": "### 2D Synthetic Data",
-        "translatedContent": ""
-      },
-      {
-        "row": 13,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Hemos implementado Reflow en conjuntos de datos sintéticos 2D, igual que CFM. Para entrenar el reflow, debes especificar puntos de control CFM preentrenados ya que reflow es un modelo de destilación."
-      },
-      {
-        "row": 14,
-        "rowsha": "d6Hurg3fVRfDzmSBOOYd7P/uF00zLl/ZbWiSlPY/aDw=",
-        "originContent": "We have implemented the Reflow on 2d synthetic datasets, same as the CFM. To train the reflow, you have to specify pretrained CFM checkpoints as reflow is a distillation model.",
-        "translatedContent": ""
-      },
-      {
-        "row": 15,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": "Por ejemplo, para entrenar en el conjunto de datos `checkerboard` con un punto de control CFM preentrenado:"
-      },
-      {
-        "row": 16,
-        "rowsha": "Pw4weVimVBZXw4oUNWRsJdaRMSo51nu2YMxu6f+IIZA=",
-        "originContent": "For example, to train on the `checkerboard` dataset with a pretrained CFM checkpoint:",
-        "translatedContent": ""
-      },
-      {
-        "row": 17,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 14,
-    "Content": "```bash\npython train_reflow_2d.py --dataset checkerboard --pretrained-model outputs/cfm/checkerboard/ckpt.pth\n```",
-    "ContentSha": "dshtTUwVxDuiD75kWnqCiQaPd8JwofQ6wDpTmo4AFP8=",
+    "Id": 15,
+    "Content": "```bash\nuv run scripts/train_reflow_2d.py --dataset checkerboard\n```",
+    "ContentSha": "t26NM8EaXWiPLdbauYzg3fp4TuUuNRhK5ry9yGGJXc4=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\npython train_reflow_2d.py --dataset checkerboard --pretrained-model outputs/cfm/checkerboard/ckpt.pth\n```",
+    "Translation": "```bash\nuv run scripts/train_reflow_2d.py --dataset checkerboard\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -720,9 +705,9 @@
       },
       {
         "row": 2,
-        "rowsha": "VFuHnMQedQ7GKVS/4t8/4PhGJdvdRErYkaFFeC7WtkU=",
-        "originContent": "python train_reflow_2d.py --dataset checkerboard --pretrained-model outputs/cfm/checkerboard/ckpt.pth",
-        "translatedContent": "python train_reflow_2d.py --dataset checkerboard --pretrained-model outputs/cfm/checkerboard/ckpt.pth"
+        "rowsha": "YNHeUkB/thxPjlj5mwRUoCqp3OuOFyWDHrsig/dvMJk=",
+        "originContent": "uv run scripts/train_reflow_2d.py --dataset checkerboard",
+        "translatedContent": "uv run scripts/train_reflow_2d.py --dataset checkerboard"
       },
       {
         "row": 3,
@@ -734,7 +719,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 15,
+    "Id": 16,
     "Content": "\nThe training results, including vector field visualizations and generated samples, are saved under `outputs/reflow/` folder.\n\n### Comparison of sampling process between CFM and Reflow\n\nTo compare CFM and Reflow on 2d datasets, run:\n",
     "ContentSha": "mT3dojO5+7bPs9qFLcGc4o2TQlccRy3gDNAuN5xLBO4=",
     "SectionType": "",
@@ -742,60 +727,17 @@
     "EndLine": 0,
     "Translation": "\nLos resultados del entrenamiento, incluyendo visualizaciones del campo vectorial y muestras generadas, se guardan en la carpeta `outputs/reflow/`.\n\n### Comparación del proceso de muestreo entre CFM y Reflow\n\nPara comparar CFM y Reflow en conjuntos de datos 2d, ejecute:\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "H8dl2sw8kodb4M46hFf5xvS4k38gkxAzLJ7Psnp3e0g=",
-        "originContent": "The training results, including vector field visualizations and generated samples, are saved under `outputs/reflow/` folder.",
-        "translatedContent": "Los resultados del entrenamiento, incluyendo visualizaciones del campo vectorial y muestras generadas, se guardan en la carpeta `outputs/reflow/`."
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "g5tbbp39VuQjOka7GvSWGLAHu1Yw3XQ/G7IpTQd92Hs=",
-        "originContent": "### Comparison of sampling process between CFM and Reflow",
-        "translatedContent": "### Comparación del proceso de muestreo entre CFM y Reflow"
-      },
-      {
-        "row": 5,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 6,
-        "rowsha": "C57Z6M87nbPrnMkV24UZdtt4rKBTAMOk/9KiZXmcVJ4=",
-        "originContent": "To compare CFM and Reflow on 2d datasets, run:",
-        "translatedContent": "Para comparar CFM y Reflow en conjuntos de datos 2d, ejecute:"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   },
   {
-    "Id": 16,
-    "Content": "```bash\npython plot_comparison_2d.py --dataset checkerboard\n```",
-    "ContentSha": "h4qyYnFjSXBeDB7hPWHDCJZYlXV/sGppZciaocN+gPg=",
+    "Id": 17,
+    "Content": "```bash\nuv run scripts/plot_comparison_2d.py --dataset checkerboard\n```",
+    "ContentSha": "kuVKgfPY2DbYpxDrfiNwPmv8cMk64W1SeOLBWdKzbCU=",
     "SectionType": "",
     "StartLine": 0,
     "EndLine": 0,
-    "Translation": "```bash\npython plot_comparison_2d.py --dataset checkerboard\n```",
+    "Translation": "```bash\nuv run scripts/plot_comparison_2d.py --dataset checkerboard\n```",
     "Status": "ok",
     "RowTranslations": [
       {
@@ -806,9 +748,9 @@
       },
       {
         "row": 2,
-        "rowsha": "DHUYkMVFQsngnNImpn697suNMeGb3wRSqGemcyLH2KE=",
-        "originContent": "python plot_comparison_2d.py --dataset checkerboard",
-        "translatedContent": "python plot_comparison_2d.py --dataset checkerboard"
+        "rowsha": "TY3wENkLH9StoqI2iLJ+L20IMJIZXY74wfWS/i1u+oY=",
+        "originContent": "uv run scripts/plot_comparison_2d.py --dataset checkerboard",
+        "translatedContent": "uv run scripts/plot_comparison_2d.py --dataset checkerboard"
       },
       {
         "row": 3,
@@ -820,7 +762,7 @@
     "IsCodeBlock": true
   },
   {
-    "Id": 17,
+    "Id": 18,
     "Content": "\nThe resulting GIFs can be found under `outputs/comparisons/` folder. Below is an example comparison of the two methods in the `checkerboard` dataset:\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/comparisons/cfm_reflow_checkerboard.gif\" height=\"400\" />\n</p>\n\n## References\n\n- [1] Lipman, Yaron, et al. \"Flow Matching for Generative Modeling.\" [arXiv:2210.02747](https://arxiv.org/abs/2210.02747)\n- [2] Liu, Xingchao, et al. \"Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow.\" [arXiv:2209.03003](https://arxiv.org/abs/2209.03003)\n- [3] [facebookresearch/flow_matching](https://github.com/facebookresearch/flow_matching)\n- [4] [atong01/conditional-flow-matching](https://github.com/atong01/conditional-flow-matching)\n",
     "ContentSha": "j6ouO2ToWQTDzUffwmj3/+hn586h543C/YZ+i47aAm4=",
     "SectionType": "",
@@ -828,92 +770,7 @@
     "EndLine": 0,
     "Translation": "\nLos GIF resultantes se pueden encontrar en la carpeta `outputs/comparisons/`. A continuación, un ejemplo de comparación de los dos métodos en el conjunto de datos `checkerboard`:\n\n<p align=\"center\">\n<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/comparisons/cfm_reflow_checkerboard.gif\" height=\"400\" />\n</p>\n\n## Referencias\n\n- [1] Lipman, Yaron, et al. \"Flow Matching for Generative Modeling.\" [arXiv:2210.02747](https://arxiv.org/abs/2210.02747)\n- [2] Liu, Xingchao, et al. \"Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow.\" [arXiv:2209.03003](https://arxiv.org/abs/2209.03003)\n- [3] [facebookresearch/flow_matching](https://github.com/facebookresearch/flow_matching)\n- [4] [atong01/conditional-flow-matching](https://github.com/atong01/conditional-flow-matching)\n",
     "Status": "ok",
-    "RowTranslations": [
-      {
-        "row": 1,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 2,
-        "rowsha": "K4J3C1YML17gJNpAODQ4m9wrczyCjbe4EW+wy01lEN4=",
-        "originContent": "The resulting GIFs can be found under `outputs/comparisons/` folder. Below is an example comparison of the two methods in the `checkerboard` dataset:",
-        "translatedContent": "Los GIF resultantes se pueden encontrar en la carpeta `outputs/comparisons/`. A continuación, un ejemplo de comparación de los dos métodos en el conjunto de datos `checkerboard`:"
-      },
-      {
-        "row": 3,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 4,
-        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
-        "originContent": "<p align=\"center\">",
-        "translatedContent": "<p align=\"center\">"
-      },
-      {
-        "row": 5,
-        "rowsha": "P26zSGMs1qpB0cFoUcpUhT7mLdzW+FYt1kLy9//xOhA=",
-        "originContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/comparisons/cfm_reflow_checkerboard.gif\" height=\"400\" />",
-        "translatedContent": "<img align=\"middle\" src=\"https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/comparisons/cfm_reflow_checkerboard.gif\" height=\"400\" />"
-      },
-      {
-        "row": 6,
-        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
-        "originContent": "</p>",
-        "translatedContent": "</p>"
-      },
-      {
-        "row": 7,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 8,
-        "rowsha": "Zbcthu7rIUq4yl/STLfNd3PlgITpW2cAQN8D4h6Mb6c=",
-        "originContent": "## References",
-        "translatedContent": "## Referencias"
-      },
-      {
-        "row": 9,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      },
-      {
-        "row": 10,
-        "rowsha": "/cVxyUDs1FqM7O1VLWwVEgz0L7e/ChRiBGrtjGf8R5I=",
-        "originContent": "- [1] Lipman, Yaron, et al. \"Flow Matching for Generative Modeling.\" [arXiv:2210.02747](https://arxiv.org/abs/2210.02747)",
-        "translatedContent": "- [1] Lipman, Yaron, et al. \"Flow Matching for Generative Modeling.\" [arXiv:2210.02747](https://arxiv.org/abs/2210.02747)"
-      },
-      {
-        "row": 11,
-        "rowsha": "W3wTo3G2eXGOr/V076HmX77pt/wxoJWypMBaw8iyq44=",
-        "originContent": "- [2] Liu, Xingchao, et al. \"Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow.\" [arXiv:2209.03003](https://arxiv.org/abs/2209.03003)",
-        "translatedContent": "- [2] Liu, Xingchao, et al. \"Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow.\" [arXiv:2209.03003](https://arxiv.org/abs/2209.03003)"
-      },
-      {
-        "row": 12,
-        "rowsha": "ccXJjE/foRLCjsD5j8VyB4UcBBhKkzpAehyUkfVYEFU=",
-        "originContent": "- [3] [facebookresearch/flow_matching](https://github.com/facebookresearch/flow_matching)",
-        "translatedContent": "- [3] [facebookresearch/flow_matching](https://github.com/facebookresearch/flow_matching)"
-      },
-      {
-        "row": 13,
-        "rowsha": "+AHSJrmBmLFZzGJOE3GcPp3U+7F7kYwmEjVbBz5o7PY=",
-        "originContent": "- [4] [atong01/conditional-flow-matching](https://github.com/atong01/conditional-flow-matching)",
-        "translatedContent": "- [4] [atong01/conditional-flow-matching](https://github.com/atong01/conditional-flow-matching)"
-      },
-      {
-        "row": 14,
-        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-        "originContent": "",
-        "translatedContent": ""
-      }
-    ],
+    "RowTranslations": [],
     "IsCodeBlock": false
   }
 ]

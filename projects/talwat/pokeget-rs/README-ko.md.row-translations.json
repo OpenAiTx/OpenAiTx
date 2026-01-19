@@ -1,0 +1,842 @@
+[
+  {
+    "row": 1,
+    "rowsha": "pvZJMITC+vh0PLVKD1fbmGKTiCfnDLOKJKqm803we6I=",
+    "originContent": "# pokeget-rs",
+    "translatedContent": "# pokeget-rs"
+  },
+  {
+    "row": 2,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 3,
+    "rowsha": "cp/jO/c71BZp7QLKMxnF2/yoSfQk2vT0SRrM4FQ37CE=",
+    "originContent": "A better rust version of pokeget.",
+    "translatedContent": "pokeget의 더 나은 러스트 버전입니다."
+  },
+  {
+    "row": 4,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 5,
+    "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+    "originContent": "## Usage",
+    "translatedContent": "## 사용법"
+  },
+  {
+    "row": 6,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 7,
+    "rowsha": "Utb38DiEvtgCgKtHmfSBZINhy6LOO8CTiGDWZSGnQTk=",
+    "originContent": "`pokeget <pokemon>`",
+    "translatedContent": "`pokeget <pokemon>`"
+  },
+  {
+    "row": 8,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 9,
+    "rowsha": "JTigHQM/SrWASlTAtqLkUEI23biqPvp3cZvpSn9Zkvw=",
+    "originContent": "For more info, run `pokeget --help`.",
+    "translatedContent": "자세한 정보는 `pokeget --help`를 실행하세요."
+  },
+  {
+    "row": 10,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 11,
+    "rowsha": "4h39qUY+B/Rcz8QMJZt62+lIJvT3mXwR3Mk7DXlGHDk=",
+    "originContent": "## Project status",
+    "translatedContent": "## 프로젝트 상태"
+  },
+  {
+    "row": 12,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 13,
+    "rowsha": "Bg65xmupD5RKW7VkkkMLklzZxsuyZoEFMJdQ7H3+C7U=",
+    "originContent": "I've decided that while I will keep fixing bugs and so on,",
+    "translatedContent": "버그 수정 등은 계속하겠지만,"
+  },
+  {
+    "row": 14,
+    "rowsha": "C10BkCZ6xb8PMKnN6rlBd7vNQz7mcUuClevnxrerNoA=",
+    "originContent": "no more sprites will be added or modified unless it is a serious",
+    "translatedContent": "심각한 문제가 아닌 한 더 이상 스프라이트가 추가되거나 수정되지 않습니다."
+  },
+  {
+    "row": 15,
+    "rowsha": "AnLsGtRGK8wZAvxpy4hf09qYf/Mej2gGclX8jO9bvFI=",
+    "originContent": "issue. This is because firstly, pokemon is moving away from pixel",
+    "translatedContent": "첫째로, 포켓몬이 픽셀 스프라이트에서 벗어나고 있고,"
+  },
+  {
+    "row": 16,
+    "rowsha": "LqhaSesoSQEwWSTLoLRshhgii2uVLb8POS0Kv6D8oHc=",
+    "originContent": "sprites, and secondly, that pokesprite has ceased updates and a",
+    "translatedContent": "둘째로, pokesprite가 업데이트를 중단했으며"
+  },
+  {
+    "row": 17,
+    "rowsha": "6YpW98BVsREBE8Tl14WzyRZQ71Ma+Y6y+qH8aKB4v+g=",
+    "originContent": "suitable alternative hasn't been found.",
+    "translatedContent": "적절한 대안이 발견되지 않았기 때문입니다."
+  },
+  {
+    "row": 18,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 19,
+    "rowsha": "wQRM258m34OFqZWLuqiDtQvPKxbdDsucb0k2Iu5Z18U=",
+    "originContent": "### .bashrc",
+    "translatedContent": "### .bashrc"
+  },
+  {
+    "row": 20,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 21,
+    "rowsha": "wRia5lFCayKHkqVhgS8XWID2JLPH/m+Md9lJWgvj56g=",
+    "originContent": "If you're using pokeget on shell startup, such as in `.bashrc`,",
+    "translatedContent": "`.bashrc`와 같이 셸 시작 시 pokeget을 사용한다면,"
+  },
+  {
+    "row": 22,
+    "rowsha": "N+OH3SrtrxhpSJHPWQE0X3I6n76IHLRFmQ5vGUcsSnk=",
+    "originContent": "then instead of running `pokeget <pokemon>`, you can write the output",
+    "translatedContent": "`pokeget <pokemon>`을 실행하는 대신 출력 결과를 파일로 저장할 수 있습니다:"
+  },
+  {
+    "row": 23,
+    "rowsha": "FBzsl8e5ldE2FupqDLWqvbbcB5Sha6DqIWo4EI1gcdU=",
+    "originContent": "to a file by doing: `pokeget <pokemon> > file.txt`",
+    "translatedContent": "`pokeget <pokemon> > file.txt`"
+  },
+  {
+    "row": 24,
+    "rowsha": "ImCs0uLhMEJL3geTe29UDHLkA1Ao70TH2zzdu5flxC8=",
+    "originContent": "and then have something like `cat file.txt` in your bashrc.",
+    "translatedContent": "그리고 bashrc에 `cat file.txt` 같은 명령을 넣으세요."
+  },
+  {
+    "row": 25,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 26,
+    "rowsha": "Av7SRdeepfd16GFV8+ljm20gdEzhlwJu4WNbxevtHxQ=",
+    "originContent": "This makes your shell initialization practically instant, but obviously",
+    "translatedContent": "이렇게 하면 셸 초기화가 거의 즉시 이루어지지만,"
+  },
+  {
+    "row": 27,
+    "rowsha": "CGYpRjKt+NDKCoTocyJJsY3a9CAqtPWXIJT9zSEVkEE=",
+    "originContent": "won't work with random pokemon. pokeget is already fairly fast,",
+    "translatedContent": "무작위 포켓몬에는 당연히 작동하지 않습니다. pokeget은 이미 꽤 빠르므로,"
+  },
+  {
+    "row": 28,
+    "rowsha": "OExxZgOz1wNEg/trSoaAFGJJB5k1/ReHKADPJDe5KvQ=",
+    "originContent": "so using it on shell initialization is also not a very large bottleneck.",
+    "translatedContent": "셸 초기화 시 사용하는 것도 큰 병목 현상이 아닙니다."
+  },
+  {
+    "row": 29,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 30,
+    "rowsha": "hnzbP5n92VqN57hTx4TGZdA7PXpVlf8mcU9W4gP7SoE=",
+    "originContent": "### Examples",
+    "translatedContent": "### 예시"
+  },
+  {
+    "row": 31,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 32,
+    "rowsha": "vQhvHkjTzUEqVUmFtxitimGcYJb4hvpVBm0Wk1aUwwA=",
+    "originContent": "#### Using multiple pokemon",
+    "translatedContent": "#### 여러 포켓몬 사용하기"
+  },
+  {
+    "row": 33,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 34,
+    "rowsha": "Y3Jds6Ap6VyVV/lrStg72rJx1K2qG7HHqkhyOe/oW9g=",
+    "originContent": "`pokeget bulbasaur pikachu random`",
+    "translatedContent": "`pokeget bulbasaur pikachu random`"
+  },
+  {
+    "row": 35,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 36,
+    "rowsha": "HxHzY5pqL2Tgd9liiC4y9RadPwq3JW/cjAPl3q/q0iE=",
+    "originContent": "#### Using pokedex ID's",
+    "translatedContent": "#### 도감 번호 사용하기"
+  },
+  {
+    "row": 37,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 38,
+    "rowsha": "6Bh6fmJ6SKW88RXfEubMCq2yyvwK+Zb1eyq0PIGDSUk=",
+    "originContent": "`pokeget 1 2 3`",
+    "translatedContent": "`pokeget 1 2 3`"
+  },
+  {
+    "row": 39,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 40,
+    "rowsha": "QSxPRNXcfRlDcjlfi25PgZXtoERQ8RgReaTiDq8RxUM=",
+    "originContent": "#### Using alternative forms",
+    "translatedContent": "#### 대체 형태 사용하기"
+  },
+  {
+    "row": 41,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 42,
+    "rowsha": "toyTYIbMsfSW9nirSjYoE7oka/jAu7Wah3JhFZQPb+w=",
+    "originContent": "`pokeget raichu sandslash meowth --alolan`",
+    "translatedContent": "`pokeget raichu sandslash meowth --alolan`"
+  },
+  {
+    "row": 43,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 44,
+    "rowsha": "4wwCbNdIfmzGtfaLmdk4wDFhljlryCsLPSG8HP9F3xA=",
+    "originContent": "#### Using regions",
+    "translatedContent": "#### 지역 사용하기"
+  },
+  {
+    "row": 45,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 46,
+    "rowsha": "N/xgR5C+F8zR9T6bN9BqySwzXd3FA8RC8wmUgIlp/Fw=",
+    "originContent": "`pokeget kanto`",
+    "translatedContent": "`pokeget kanto`"
+  },
+  {
+    "row": 47,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 48,
+    "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+    "originContent": "## Installation",
+    "translatedContent": "## 설치"
+  },
+  {
+    "row": 49,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 50,
+    "rowsha": "7cWxwGazpd9pjT6dZCCBNIiS/i+5Ita7cgsYsK20n6Y=",
+    "originContent": "### Cargo *(recommended)*",
+    "translatedContent": "### Cargo *(추천)*"
+  },
+  {
+    "row": 51,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 52,
+    "rowsha": "0MUUjUEcqboqY0mVT6bAdEVNfzPsPLMsHIKXy/cFImc=",
+    "originContent": "The recommended installation method is to use cargo:",
+    "translatedContent": "추천 설치 방법은 cargo를 사용하는 것입니다:"
+  },
+  {
+    "row": 53,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 54,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 55,
+    "rowsha": "UgQWj3/ewgXkDVNUHFRP/75ZRRMEQ38KqD1zQv3/HR0=",
+    "originContent": "cargo install pokeget",
+    "translatedContent": "cargo install pokeget"
+  },
+  {
+    "row": 56,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 57,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 58,
+    "rowsha": "sa6MTiNKRgbW3WenlRZTY8jtIyLyumB0W/AzzCk/HqA=",
+    "originContent": "and making sure `$HOME/.cargo/bin` is added to `$PATH`.",
+    "translatedContent": "and making sure `$HOME/.cargo/bin` is added to `$PATH`."
+  },
+  {
+    "row": 59,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 60,
+    "rowsha": "2M8iydgdjonHwNNTuXLSs50MaHkFnxgHxohIzL1Jkow=",
+    "originContent": "### AUR",
+    "translatedContent": "### AUR"
+  },
+  {
+    "row": 61,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 62,
+    "rowsha": "EHVlRHpnRcGNz5WsJ4aNUy2Rf/Xa+EEj+6YBwEUYFc0=",
+    "originContent": "If you're on Arch, you can also use the AUR:",
+    "translatedContent": "If you're on Arch, you can also use the AUR:"
+  },
+  {
+    "row": 63,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 64,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 65,
+    "rowsha": "KBgROlJonaVGdU4G8wxrmFfu+DCv679mG67TRxcaYoA=",
+    "originContent": "yay -S pokeget",
+    "translatedContent": "yay -S pokeget"
+  },
+  {
+    "row": 66,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 67,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 68,
+    "rowsha": "R/EH6ijFPuptOa537L0rZ2RPAMjxwxVG8Q3Kmq89R5s=",
+    "originContent": "### Git",
+    "translatedContent": "### Git"
+  },
+  {
+    "row": 69,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 70,
+    "rowsha": "ibrI1io84LeVbV9bff+71fP8EQFJwknDQpK6IQP3yqQ=",
+    "originContent": "You can also clone the repository and compile manually by doing:",
+    "translatedContent": "You can also clone the repository and compile manually by doing:"
+  },
+  {
+    "row": 71,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 72,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 73,
+    "rowsha": "3QfveARiUhznymGkwO/bz4OszF/ZXk7UDpmVNHPB6GM=",
+    "originContent": "git clone --recurse-submodules https://github.com/talwat/pokeget-rs.git",
+    "translatedContent": "git clone --recurse-submodules https://github.com/talwat/pokeget-rs.git"
+  },
+  {
+    "row": 74,
+    "rowsha": "3c87iExHitAH97nOguC2JKrpTgzqo4eR3GlCiQRHYcY=",
+    "originContent": "cd pokeget-rs",
+    "translatedContent": "cd pokeget-rs"
+  },
+  {
+    "row": 75,
+    "rowsha": "QbRskjoJo1EyPe3xomSnbIj+llmIagYeZojksq7EuPs=",
+    "originContent": "cargo build --release",
+    "translatedContent": "cargo build --release"
+  },
+  {
+    "row": 76,
+    "rowsha": "la5epwIhgYv8CmtyHOAexdsgjeazM0QHWy0p/aKfC8Q=",
+    "originContent": "mv target/release/pokeget ~/.local/bin",
+    "translatedContent": "mv target/release/pokeget ~/.local/bin"
+  },
+  {
+    "row": 77,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 78,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 79,
+    "rowsha": "Zine3jfedVkQ5ie12FGjIHW2IHkbxUvEpEiiFk4XRlY=",
+    "originContent": "and making sure `$HOME/.local/bin` is added to `$PATH`.",
+    "translatedContent": "그리고 `$HOME/.local/bin`이 `$PATH`에 추가되었는지 확인합니다."
+  },
+  {
+    "row": 80,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 81,
+    "rowsha": "o4ASTMJTwbAGv4UFhNH0CV+yL/iYGB+0EAlYQS8eCyQ=",
+    "originContent": "### Adding a directory to $PATH",
+    "translatedContent": "### 디렉토리를 $PATH에 추가하기"
+  },
+  {
+    "row": 82,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 83,
+    "rowsha": "V7QWEKAsPz4ydJRAupTjDX0zV1wA5EdfpuP2F/l/gJ0=",
+    "originContent": "#### Bash & Zsh",
+    "translatedContent": "#### Bash & Zsh"
+  },
+  {
+    "row": 84,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 85,
+    "rowsha": "EwF2hK37NIuALs6IZFIgb6M5gtIz1O8jz+27QnMeVuE=",
+    "originContent": "Append this to your `.bashrc` or `.zshrc`:",
+    "translatedContent": "이 내용을 `.bashrc` 또는 `.zshrc`에 추가하세요:"
+  },
+  {
+    "row": 86,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 87,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 88,
+    "rowsha": "jfRIddEjDQ6/9tZYVj7vRtRksJRHyOX92YBYetdGPcw=",
+    "originContent": "export PATH=\"<path>:$PATH\"",
+    "translatedContent": "export PATH=\"<path>:$PATH\""
+  },
+  {
+    "row": 89,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 90,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 91,
+    "rowsha": "qw+zpT3K35rZ++u4y8jPVC1nGfFlOD9cTBU7gTsYW0o=",
+    "originContent": "#### Fish",
+    "translatedContent": "#### 물고기"
+  },
+  {
+    "row": 92,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 93,
+    "rowsha": "AUK6gJeHfWDcNspHencHhsF5zE2ku8HNHfzQiEtZsc4=",
+    "originContent": "Run this in your CLI:",
+    "translatedContent": "CLI에서 다음을 실행하세요:"
+  },
+  {
+    "row": 94,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  },
+  {
+    "row": 95,
+    "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+    "originContent": "```sh",
+    "translatedContent": "```sh"
+  },
+  {
+    "row": 96,
+    "rowsha": "94c4Fc1cLTwrqe7Kf5UYO5/0MXX4EqmsPAEbXfm1ulE=",
+    "originContent": "fish_add_path <path>",
+    "translatedContent": "fish_add_path <path>"
+  },
+  {
+    "row": 97,
+    "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+    "originContent": "```",
+    "translatedContent": "```"
+  },
+  {
+    "row": 98,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 업데이트"
+  },
+  {
+    "row": 99,
+    "rowsha": "inmKwtmqzepzwerIOo0UHdLnYx91LdYUCbcKELTX2PY=",
+    "originContent": "## Updating",
+    "translatedContent": ""
+  },
+  {
+    "row": 100,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "그냥 `cargo install pokeget`를 다시 실행하거나 저장소에서 `git pull`을 한 다음 다시 컴파일하세요."
+  },
+  {
+    "row": 101,
+    "rowsha": "fgS1xK7rGnnAt4Na/YiuNXJTzF3tnBpk832aMif560w=",
+    "originContent": "Just rerun `cargo install pokeget` or `git pull` on the repository and then recompile.",
+    "translatedContent": ""
+  },
+  {
+    "row": 102,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 왜?"
+  },
+  {
+    "row": 103,
+    "rowsha": "VImQy92NQhLiczhrQfIHyWbYrn1cJlaIVIHNbgCrmG8=",
+    "originContent": "## Why?",
+    "translatedContent": ""
+  },
+  {
+    "row": 104,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "첫 번째 pokeget은 느리고, 무겁고, 매우 복잡했기 때문에 더 나은 버전을 rust로 만들기로 결정했습니다."
+  },
+  {
+    "row": 105,
+    "rowsha": "0gSLYShZqCfAqodmgivXaUmuo2IITlVwy1XpHRpPokA=",
+    "originContent": "Because the first pokeget was slow, bloated, and super complicated, so I decided to make a better version in rust.",
+    "translatedContent": ""
+  },
+  {
+    "row": 106,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이제 모든 스프라이트를 미리 계산하여 저장소에 업로드하는 대신, pokeget은"
+  },
+  {
+    "row": 107,
+    "rowsha": "hP7q2bxSsqF3AETlhedAkytSMWPPrleTS/go3evP9fA=",
+    "originContent": "Now, instead of precomputing all the sprites and uploading them to a repo, pokeget will",
+    "translatedContent": "필요에 따라 계산할 수 있어 모든 것이 훨씬 유연해졌습니다."
+  },
+  {
+    "row": 108,
+    "rowsha": "DRSQasarFAae+EdQ0rTrE12olsy8zmBIV3JPf+DxtKU=",
+    "originContent": "be able to compute them on-demand which makes everything much more flexible.",
+    "translatedContent": "Rust는 파이썬 같은 것보다 훨씬 빠르게 계산할 수 있게 해줍니다."
+  },
+  {
+    "row": 109,
+    "rowsha": "bXnSVH62o0X3ZaurXNHBLD00VbFf27uq72zcDV9WF0s=",
+    "originContent": "Rust enables that computation to be done much more quickly than something like python.",
+    "translatedContent": ""
+  },
+  {
+    "row": 110,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "또한 반 크기 사각형을 사용하여 스프라이트를 2배 더 작게 그립니다."
+  },
+  {
+    "row": 111,
+    "rowsha": "Gj2TvtmLwvNLKc6SEVjKutQQJTOdiOzSXDUy4c5cnrk=",
+    "originContent": "It will also draw the sprites 2x smaller by using half squares.",
+    "translatedContent": ""
+  },
+  {
+    "row": 112,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 다른 프로젝트는요?"
+  },
+  {
+    "row": 113,
+    "rowsha": "XxHsQp72xczp+f1PgueB1l9IBOLadS1a77w55lay69Q=",
+    "originContent": "## What about other projects?",
+    "translatedContent": ""
+  },
+  {
+    "row": 114,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "pokeget-rs는 rust로 되어 있어서 이전 pokeget, pokeshell 등과 같은 프로젝트보다 우위에 있습니다."
+  },
+  {
+    "row": 115,
+    "rowsha": "zpFT9Sk2WpALS92CaLBSKTfaAD36j54EyATh1Mr0vIc=",
+    "originContent": "pokeget-rs has an edge over projects like the old pokeget, pokeshell, etc... since it's in rust.",
+    "translatedContent": "또한 매우 유사한 다른 프로젝트인 krabby보다 상당히(5.5배) 빠릅니다."
+  },
+  {
+    "row": 116,
+    "rowsha": "oEQMCW7qWU7ZkjBC2TGsHOOY8pxCRGdSP08HnizetXI=",
+    "originContent": "It also is significantly (5.5x) faster than krabby which is another very similar project.",
+    "translatedContent": ""
+  },
+  {
+    "row": 117,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "자세한 내용은 [OTHER_PROJECTS.md](https://raw.githubusercontent.com/talwat/pokeget-rs/main/OTHER_PROJECTS.md)를 참조하세요."
+  },
+  {
+    "row": 118,
+    "rowsha": "UuFsjB21Xs1/k3N0+CqjS/gCTxUxmvUYeG1YOUwe2tw=",
+    "originContent": "For more info, go to [OTHER_PROJECTS.md](https://raw.githubusercontent.com/talwat/pokeget-rs/main/OTHER_PROJECTS.md).",
+    "translatedContent": ""
+  },
+  {
+    "row": 119,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 큰 스프라이트는요?"
+  },
+  {
+    "row": 120,
+    "rowsha": "PcpSvbEyaLCW/A3rgtWEP+W+tKIceOFzB9uCMRlZGus=",
+    "originContent": "## What about big sprites?",
+    "translatedContent": ""
+  },
+  {
+    "row": 121,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "없어졌습니다. 원자 단위로 축소되었습니다."
+  },
+  {
+    "row": 122,
+    "rowsha": "8/p8V9T3U9kv6eTPl9L4loS171MlGucv9j0aTfUf5p0=",
+    "originContent": "Gone. Reduced to atoms.",
+    "translatedContent": ""
+  },
+  {
+    "row": 123,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "진지하게 말하면, 추가 작업량이 많아 다루지 않기로 결정했습니다."
+  },
+  {
+    "row": 124,
+    "rowsha": "Lc9QOmX8TmLtRsZQj4LYTPvtR65lBsrkCoVQvOu7UyE=",
+    "originContent": "In all seriousness, I've just decided to not deal with them since it's significantly",
+    "translatedContent": "큰 스프라이트는 거의 사용되지 않았고, 작은 터미널 창에서 보기에도 보기 싫었기 때문에"
+  },
+  {
+    "row": 125,
+    "rowsha": "zRuqpQBFRb+UZgjXZ8uVvhhm3AS7juwVXUvTuZTk+C4=",
+    "originContent": "extra work that I don't want to deal with. They were rarely used, and looked ugly",
+    "translatedContent": "유지할 필요가 거의 없었습니다."
+  },
+  {
+    "row": 126,
+    "rowsha": "fs1rFjxmLdErz8aaWCoJEaelrvC6ONA/YaRk+s02Mbo=",
+    "originContent": "in small terminal windows, so there was little use in keeping them.",
+    "translatedContent": ""
+  },
+  {
+    "row": 127,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 크레딧"
+  },
+  {
+    "row": 128,
+    "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+    "originContent": "## Credits",
+    "translatedContent": ""
+  },
+  {
+    "row": 129,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "이번에는 스프라이트가 [pokesprite](https://github.com/msikma/pokesprite)에서 왔으며 pokeget은 git 서브모듈로 사용합니다."
+  },
+  {
+    "row": 130,
+    "rowsha": "szbg/ztCuQu595Dyr6wtGv5d+hOhl1yE2gxuO7oUJyc=",
+    "originContent": "This time, the sprites are from [pokesprite](https://github.com/msikma/pokesprite) and pokeget uses them with a git submodule.",
+    "translatedContent": ""
+  },
+  {
+    "row": 131,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "스프라이트는 바이너리에 내장되어 있어 pokeget이 다운로드하지 않습니다. 이는 좋은 타협점으로,"
+  },
+  {
+    "row": 132,
+    "rowsha": "xRUHOocOCEjPI1Ue4gbUZzKH6rR84UL69gNkJUVk980=",
+    "originContent": "Sprites are embedded into the binary, so pokeget won't download them. This is a good compromise,",
+    "translatedContent": "바이너리는 클 수 있지만 pokeget은 거의 즉시 실행되고 오프라인 상태에서도 작동합니다."
+  },
+  {
+    "row": 133,
+    "rowsha": "GkY+ONw8cuZADMJvYIHPL5+BGU8/H/oN/5qSJLTl1Q8=",
+    "originContent": "since while the binary may be large, pokeget can execute almost instantly and while offline.",
+    "translatedContent": ""
+  },
+  {
+    "row": 134,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "## 라이선스"
+  },
+  {
+    "row": 135,
+    "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+    "originContent": "## License",
+    "translatedContent": ""
+  },
+  {
+    "row": 136,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": "pokeget은 MIT 라이선스를 사용하므로 자유롭게 포크하여 원하는 대로 커스터마이즈할 수 있습니다."
+  },
+  {
+    "row": 137,
+    "rowsha": "I29gWiTMSVOnwfPXsWUVz9qJ4T5hHzclNDH570fOCzQ=",
+    "originContent": "pokeget uses the MIT license, so feel free to fork it and customize it as you please.",
+    "translatedContent": ""
+  },
+  {
+    "row": 138,
+    "rowsha": "lZJP34QdvlfRzlQx8Kix30HxKAd02m4OM5IJFAR5db0=",
+    "originContent": "If you're unsure about any of the internal workings of pokeget, [open an issue](https://github.com/talwat/pokeget-rs/issues),",
+    "translatedContent": "pokeget의 내부 작동 방식에 대해 확실하지 않은 점이 있으면, [이슈를 열어주세요](https://github.com/talwat/pokeget-rs/issues),  "
+  },
+  {
+    "row": 139,
+    "rowsha": "CCAyJ0EZfyFSGDViV70grku/7hsCQkg0tg5QJhfqe24=",
+    "originContent": "and I'll answer whatever question you might have.",
+    "translatedContent": "질문하신 모든 내용에 답변해 드리겠습니다."
+  },
+  {
+    "row": 140,
+    "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+    "originContent": "",
+    "translatedContent": ""
+  }
+]

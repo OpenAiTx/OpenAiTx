@@ -1,0 +1,1011 @@
+[
+  {
+    "Id": 1,
+    "Content": "# pokeget-rs\n\nA better rust version of pokeget.\n\n## Usage\n\n`pokeget <pokemon>`\n\nFor more info, run `pokeget --help`.\n\n## Project status\n\nI've decided that while I will keep fixing bugs and so on,\nno more sprites will be added or modified unless it is a serious\nissue. This is because firstly, pokemon is moving away from pixel\nsprites, and secondly, that pokesprite has ceased updates and a\nsuitable alternative hasn't been found.\n\n### .bashrc\n\nIf you're using pokeget on shell startup, such as in `.bashrc`,\nthen instead of running `pokeget <pokemon>`, you can write the output\nto a file by doing: `pokeget <pokemon> > file.txt`\nand then have something like `cat file.txt` in your bashrc.\n\nThis makes your shell initialization practically instant, but obviously\nwon't work with random pokemon. pokeget is already fairly fast,\nso using it on shell initialization is also not a very large bottleneck.\n\n### Examples\n\n#### Using multiple pokemon\n\n`pokeget bulbasaur pikachu random`\n\n#### Using pokedex ID's\n\n`pokeget 1 2 3`\n\n#### Using alternative forms",
+    "ContentSha": "g8JUfN8/W4M/f1Z2lcrfUEk5hYbLU8jcg6OZw4Rj2Yw=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "# pokeget-rs\n\nUna mejor versión en Rust de pokeget.\n\n## Uso\n\n`pokeget <pokemon>`\n\nPara más información, ejecuta `pokeget --help`.\n\n## Estado del proyecto\n\nHe decidido que aunque seguiré corrigiendo errores y demás,\nno se añadirán ni modificarán más sprites a menos que sea un problema serio.\nEsto es porque primero, pokemon se está alejando de los sprites en píxeles,\ny segundo, que pokesprite ha dejado de actualizarse y no se ha encontrado\nuna alternativa adecuada.\n\n### .bashrc\n\nSi usas pokeget al iniciar la shell, como en `.bashrc`,\nentonces en lugar de ejecutar `pokeget <pokemon>`, puedes escribir la salida\na un archivo haciendo: `pokeget <pokemon> > file.txt`\ny luego tener algo como `cat file.txt` en tu bashrc.\n\nEsto hace que la inicialización de tu shell sea prácticamente instantánea, pero obviamente\nno funcionará con pokemon aleatorios. pokeget ya es bastante rápido,\nasí que usarlo en la inicialización de la shell tampoco es un gran cuello de botella.\n\n### Ejemplos\n\n#### Usando múltiples pokemon\n\n`pokeget bulbasaur pikachu random`\n\n#### Usando IDs de la pokedex\n\n`pokeget 1 2 3`\n\n#### Usando formas alternativas",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "pvZJMITC+vh0PLVKD1fbmGKTiCfnDLOKJKqm803we6I=",
+        "originContent": "# pokeget-rs",
+        "translatedContent": "# pokeget-rs"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "cp/jO/c71BZp7QLKMxnF2/yoSfQk2vT0SRrM4FQ37CE=",
+        "originContent": "A better rust version of pokeget.",
+        "translatedContent": "Una mejor versión en Rust de pokeget."
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "Y7/WGgVhslWiyqCi463Qkcp+Mn8voGpAfLsv80G4WNg=",
+        "originContent": "## Usage",
+        "translatedContent": "## Uso"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "Utb38DiEvtgCgKtHmfSBZINhy6LOO8CTiGDWZSGnQTk=",
+        "originContent": "`pokeget <pokemon>`",
+        "translatedContent": "`pokeget <pokemon>`"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "JTigHQM/SrWASlTAtqLkUEI23biqPvp3cZvpSn9Zkvw=",
+        "originContent": "For more info, run `pokeget --help`.",
+        "translatedContent": "Para más información, ejecuta `pokeget --help`."
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "4h39qUY+B/Rcz8QMJZt62+lIJvT3mXwR3Mk7DXlGHDk=",
+        "originContent": "## Project status",
+        "translatedContent": "## Estado del proyecto"
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "Bg65xmupD5RKW7VkkkMLklzZxsuyZoEFMJdQ7H3+C7U=",
+        "originContent": "I've decided that while I will keep fixing bugs and so on,",
+        "translatedContent": "He decidido que aunque seguiré corrigiendo errores y demás,"
+      },
+      {
+        "row": 14,
+        "rowsha": "C10BkCZ6xb8PMKnN6rlBd7vNQz7mcUuClevnxrerNoA=",
+        "originContent": "no more sprites will be added or modified unless it is a serious",
+        "translatedContent": "no se añadirán ni modificarán más sprites a menos que sea un problema serio."
+      },
+      {
+        "row": 15,
+        "rowsha": "AnLsGtRGK8wZAvxpy4hf09qYf/Mej2gGclX8jO9bvFI=",
+        "originContent": "issue. This is because firstly, pokemon is moving away from pixel",
+        "translatedContent": "Esto es porque primero, pokemon se está alejando de los sprites en píxeles,"
+      },
+      {
+        "row": 16,
+        "rowsha": "LqhaSesoSQEwWSTLoLRshhgii2uVLb8POS0Kv6D8oHc=",
+        "originContent": "sprites, and secondly, that pokesprite has ceased updates and a",
+        "translatedContent": "y segundo, que pokesprite ha dejado de actualizarse y no se ha encontrado"
+      },
+      {
+        "row": 17,
+        "rowsha": "6YpW98BVsREBE8Tl14WzyRZQ71Ma+Y6y+qH8aKB4v+g=",
+        "originContent": "suitable alternative hasn't been found.",
+        "translatedContent": "una alternativa adecuada."
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "wQRM258m34OFqZWLuqiDtQvPKxbdDsucb0k2Iu5Z18U=",
+        "originContent": "### .bashrc",
+        "translatedContent": "### .bashrc"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "wRia5lFCayKHkqVhgS8XWID2JLPH/m+Md9lJWgvj56g=",
+        "originContent": "If you're using pokeget on shell startup, such as in `.bashrc`,",
+        "translatedContent": "Si usas pokeget al iniciar la shell, como en `.bashrc`,"
+      },
+      {
+        "row": 22,
+        "rowsha": "N+OH3SrtrxhpSJHPWQE0X3I6n76IHLRFmQ5vGUcsSnk=",
+        "originContent": "then instead of running `pokeget <pokemon>`, you can write the output",
+        "translatedContent": "entonces en lugar de ejecutar `pokeget <pokemon>`, puedes escribir la salida"
+      },
+      {
+        "row": 23,
+        "rowsha": "FBzsl8e5ldE2FupqDLWqvbbcB5Sha6DqIWo4EI1gcdU=",
+        "originContent": "to a file by doing: `pokeget <pokemon> > file.txt`",
+        "translatedContent": "a un archivo haciendo: `pokeget <pokemon> > file.txt`"
+      },
+      {
+        "row": 24,
+        "rowsha": "ImCs0uLhMEJL3geTe29UDHLkA1Ao70TH2zzdu5flxC8=",
+        "originContent": "and then have something like `cat file.txt` in your bashrc.",
+        "translatedContent": "y luego tener algo como `cat file.txt` en tu bashrc."
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "Av7SRdeepfd16GFV8+ljm20gdEzhlwJu4WNbxevtHxQ=",
+        "originContent": "This makes your shell initialization practically instant, but obviously",
+        "translatedContent": "Esto hace que la inicialización de tu shell sea prácticamente instantánea, pero obviamente"
+      },
+      {
+        "row": 27,
+        "rowsha": "CGYpRjKt+NDKCoTocyJJsY3a9CAqtPWXIJT9zSEVkEE=",
+        "originContent": "won't work with random pokemon. pokeget is already fairly fast,",
+        "translatedContent": "no funcionará con pokemon aleatorios. pokeget ya es bastante rápido,"
+      },
+      {
+        "row": 28,
+        "rowsha": "OExxZgOz1wNEg/trSoaAFGJJB5k1/ReHKADPJDe5KvQ=",
+        "originContent": "so using it on shell initialization is also not a very large bottleneck.",
+        "translatedContent": "así que usarlo en la inicialización de la shell tampoco es un gran cuello de botella."
+      },
+      {
+        "row": 29,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "hnzbP5n92VqN57hTx4TGZdA7PXpVlf8mcU9W4gP7SoE=",
+        "originContent": "### Examples",
+        "translatedContent": "### Ejemplos"
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "vQhvHkjTzUEqVUmFtxitimGcYJb4hvpVBm0Wk1aUwwA=",
+        "originContent": "#### Using multiple pokemon",
+        "translatedContent": "#### Usando múltiples pokemon"
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "Y3Jds6Ap6VyVV/lrStg72rJx1K2qG7HHqkhyOe/oW9g=",
+        "originContent": "`pokeget bulbasaur pikachu random`",
+        "translatedContent": "`pokeget bulbasaur pikachu random`"
+      },
+      {
+        "row": 35,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "HxHzY5pqL2Tgd9liiC4y9RadPwq3JW/cjAPl3q/q0iE=",
+        "originContent": "#### Using pokedex ID's",
+        "translatedContent": "#### Usando IDs de la pokedex"
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "6Bh6fmJ6SKW88RXfEubMCq2yyvwK+Zb1eyq0PIGDSUk=",
+        "originContent": "`pokeget 1 2 3`",
+        "translatedContent": "`pokeget 1 2 3`"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "QSxPRNXcfRlDcjlfi25PgZXtoERQ8RgReaTiDq8RxUM=",
+        "originContent": "#### Using alternative forms",
+        "translatedContent": "#### Usando formas alternativas"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "\n`pokeget raichu sandslash meowth --alolan`\n\n#### Using regions\n\n`pokeget kanto`\n\n## Installation\n\n### Cargo *(recommended)*\n\nThe recommended installation method is to use cargo:\n",
+    "ContentSha": "/g/XIWz/zGBbQ3SrcJpSFmvRLclDkJ6Rg5daed/So0o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n`pokeget raichu sandslash meowth --alolan`\n\n#### Uso de regiones\n\n`pokeget kanto`\n\n## Instalación\n\n### Cargo *(recomendado)*\n\nEl método de instalación recomendado es usar cargo:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "toyTYIbMsfSW9nirSjYoE7oka/jAu7Wah3JhFZQPb+w=",
+        "originContent": "`pokeget raichu sandslash meowth --alolan`",
+        "translatedContent": "`pokeget raichu sandslash meowth --alolan`"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "4wwCbNdIfmzGtfaLmdk4wDFhljlryCsLPSG8HP9F3xA=",
+        "originContent": "#### Using regions",
+        "translatedContent": "#### Uso de regiones"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "N/xgR5C+F8zR9T6bN9BqySwzXd3FA8RC8wmUgIlp/Fw=",
+        "originContent": "`pokeget kanto`",
+        "translatedContent": "`pokeget kanto`"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Instalación"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "7cWxwGazpd9pjT6dZCCBNIiS/i+5Ita7cgsYsK20n6Y=",
+        "originContent": "### Cargo *(recommended)*",
+        "translatedContent": "### Cargo *(recomendado)*"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "0MUUjUEcqboqY0mVT6bAdEVNfzPsPLMsHIKXy/cFImc=",
+        "originContent": "The recommended installation method is to use cargo:",
+        "translatedContent": "El método de instalación recomendado es usar cargo:"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```sh\ncargo install pokeget\n```",
+    "ContentSha": "FuHdCY5fmeDXTRlF6glB2Hvui/Jl8+pL+iENcxPRPjo=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ncargo install pokeget\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "UgQWj3/ewgXkDVNUHFRP/75ZRRMEQ38KqD1zQv3/HR0=",
+        "originContent": "cargo install pokeget",
+        "translatedContent": "cargo install pokeget"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "\nand making sure `$HOME/.cargo/bin` is added to `$PATH`.\n\n### AUR\n\nIf you're on Arch, you can also use the AUR:\n",
+    "ContentSha": "fcvq7fl9U41HhT0iJqb3q9BpWm4k8DilLeos8UnEGN0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nand making sure `$HOME/.cargo/bin` is added to `$PATH`.\n\n### AUR\n\nIf you're on Arch, you can also use the AUR:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "sa6MTiNKRgbW3WenlRZTY8jtIyLyumB0W/AzzCk/HqA=",
+        "originContent": "and making sure `$HOME/.cargo/bin` is added to `$PATH`.",
+        "translatedContent": "and making sure `$HOME/.cargo/bin` is added to `$PATH`."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "2M8iydgdjonHwNNTuXLSs50MaHkFnxgHxohIzL1Jkow=",
+        "originContent": "### AUR",
+        "translatedContent": "### AUR"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "EHVlRHpnRcGNz5WsJ4aNUy2Rf/Xa+EEj+6YBwEUYFc0=",
+        "originContent": "If you're on Arch, you can also use the AUR:",
+        "translatedContent": "If you're on Arch, you can also use the AUR:"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```sh\nyay -S pokeget\n```",
+    "ContentSha": "8KStxfoq7naQwuYAX/2v1K87kOuiOQnz8AuDuH7VKdk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nyay -S pokeget\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "KBgROlJonaVGdU4G8wxrmFfu+DCv679mG67TRxcaYoA=",
+        "originContent": "yay -S pokeget",
+        "translatedContent": "yay -S pokeget"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n### Git\n\nYou can also clone the repository and compile manually by doing:\n",
+    "ContentSha": "r8V1QGBMij2HEG1mCLiW5U5xyPmtbm/BtQJSvPLFKBg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Git\n\nYou can also clone the repository and compile manually by doing:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "R/EH6ijFPuptOa537L0rZ2RPAMjxwxVG8Q3Kmq89R5s=",
+        "originContent": "### Git",
+        "translatedContent": "### Git"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ibrI1io84LeVbV9bff+71fP8EQFJwknDQpK6IQP3yqQ=",
+        "originContent": "You can also clone the repository and compile manually by doing:",
+        "translatedContent": "You can also clone the repository and compile manually by doing:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```sh\ngit clone --recurse-submodules https://github.com/talwat/pokeget-rs.git\ncd pokeget-rs\ncargo build --release\nmv target/release/pokeget ~/.local/bin\n```",
+    "ContentSha": "lSThRXdLXdXUGRAG98iAtuHO2PjwAxRU/Cu8GqMRx8Y=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\ngit clone --recurse-submodules https://github.com/talwat/pokeget-rs.git\ncd pokeget-rs\ncargo build --release\nmv target/release/pokeget ~/.local/bin\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "3QfveARiUhznymGkwO/bz4OszF/ZXk7UDpmVNHPB6GM=",
+        "originContent": "git clone --recurse-submodules https://github.com/talwat/pokeget-rs.git",
+        "translatedContent": "git clone --recurse-submodules https://github.com/talwat/pokeget-rs.git"
+      },
+      {
+        "row": 3,
+        "rowsha": "3c87iExHitAH97nOguC2JKrpTgzqo4eR3GlCiQRHYcY=",
+        "originContent": "cd pokeget-rs",
+        "translatedContent": "cd pokeget-rs"
+      },
+      {
+        "row": 4,
+        "rowsha": "QbRskjoJo1EyPe3xomSnbIj+llmIagYeZojksq7EuPs=",
+        "originContent": "cargo build --release",
+        "translatedContent": "cargo build --release"
+      },
+      {
+        "row": 5,
+        "rowsha": "la5epwIhgYv8CmtyHOAexdsgjeazM0QHWy0p/aKfC8Q=",
+        "originContent": "mv target/release/pokeget ~/.local/bin",
+        "translatedContent": "mv target/release/pokeget ~/.local/bin"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\nand making sure `$HOME/.local/bin` is added to `$PATH`.\n\n### Adding a directory to $PATH\n\n#### Bash & Zsh\n\nAppend this to your `.bashrc` or `.zshrc`:\n",
+    "ContentSha": "yYapuHwaPhnBRVSYyGSGzRmmLUMDa/OROMxt7YeEE0o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\ny asegurándose de que `$HOME/.local/bin` esté añadido a `$PATH`.\n\n### Añadiendo un directorio a $PATH\n\n#### Bash & Zsh\n\nAgrega esto a tu `.bashrc` o `.zshrc`:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Zine3jfedVkQ5ie12FGjIHW2IHkbxUvEpEiiFk4XRlY=",
+        "originContent": "and making sure `$HOME/.local/bin` is added to `$PATH`.",
+        "translatedContent": "y asegurándose de que `$HOME/.local/bin` esté añadido a `$PATH`."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "o4ASTMJTwbAGv4UFhNH0CV+yL/iYGB+0EAlYQS8eCyQ=",
+        "originContent": "### Adding a directory to $PATH",
+        "translatedContent": "### Añadiendo un directorio a $PATH"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "V7QWEKAsPz4ydJRAupTjDX0zV1wA5EdfpuP2F/l/gJ0=",
+        "originContent": "#### Bash & Zsh",
+        "translatedContent": "#### Bash & Zsh"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "EwF2hK37NIuALs6IZFIgb6M5gtIz1O8jz+27QnMeVuE=",
+        "originContent": "Append this to your `.bashrc` or `.zshrc`:",
+        "translatedContent": "Agrega esto a tu `.bashrc` o `.zshrc`:"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```sh\nexport PATH=\"<path>:$PATH\"\n```",
+    "ContentSha": "n+GMakOBWHG12YHJhrf2GQATxJPuLvgDioNxiU4ZJz0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nexport PATH=\"<path>:$PATH\"\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "jfRIddEjDQ6/9tZYVj7vRtRksJRHyOX92YBYetdGPcw=",
+        "originContent": "export PATH=\"<path>:$PATH\"",
+        "translatedContent": "export PATH=\"<path>:$PATH\""
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n#### Fish\n\nRun this in your CLI:\n",
+    "ContentSha": "XFF+XZP7r/yrby9/e5g4UJOT0de407KMpne/p1BjN5I=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n#### Pescado\n\nEjecuta esto en tu CLI:\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "qw+zpT3K35rZ++u4y8jPVC1nGfFlOD9cTBU7gTsYW0o=",
+        "originContent": "#### Fish",
+        "translatedContent": "#### Pescado"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "AUK6gJeHfWDcNspHencHhsF5zE2ku8HNHfzQiEtZsc4=",
+        "originContent": "Run this in your CLI:",
+        "translatedContent": "Ejecuta esto en tu CLI:"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```sh\nfish_add_path <path>\n```",
+    "ContentSha": "9CpHq8guj1sQWSD6MmZkYu80qktqKbBYOecOYSAqeV0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```sh\nfish_add_path <path>\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "ivgYKrHo9QnPgZYRA645sKpipVpw39MbuUN0CN9LfCA=",
+        "originContent": "```sh",
+        "translatedContent": "```sh"
+      },
+      {
+        "row": 2,
+        "rowsha": "94c4Fc1cLTwrqe7Kf5UYO5/0MXX4EqmsPAEbXfm1ulE=",
+        "originContent": "fish_add_path <path>",
+        "translatedContent": "fish_add_path <path>"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n## Updating\n\nJust rerun `cargo install pokeget` or `git pull` on the repository and then recompile.\n\n## Why?\n\nBecause the first pokeget was slow, bloated, and super complicated, so I decided to make a better version in rust.\n\nNow, instead of precomputing all the sprites and uploading them to a repo, pokeget will\nbe able to compute them on-demand which makes everything much more flexible.\nRust enables that computation to be done much more quickly than something like python.\n\nIt will also draw the sprites 2x smaller by using half squares.\n\n## What about other projects?\n\npokeget-rs has an edge over projects like the old pokeget, pokeshell, etc... since it's in rust.\nIt also is significantly (5.5x) faster than krabby which is another very similar project.\n\nFor more info, go to [OTHER_PROJECTS.md](https://raw.githubusercontent.com/talwat/pokeget-rs/main/OTHER_PROJECTS.md).\n\n## What about big sprites?\n\nGone. Reduced to atoms.\n\nIn all seriousness, I've just decided to not deal with them since it's significantly\nextra work that I don't want to deal with. They were rarely used, and looked ugly\nin small terminal windows, so there was little use in keeping them.\n\n## Credits\n\nThis time, the sprites are from [pokesprite](https://github.com/msikma/pokesprite) and pokeget uses them with a git submodule.\n\nSprites are embedded into the binary, so pokeget won't download them. This is a good compromise,\nsince while the binary may be large, pokeget can execute almost instantly and while offline.\n\n## License\n\npokeget uses the MIT license, so feel free to fork it and customize it as you please.",
+    "ContentSha": "EsSq2e7ZQPu4x38FW/rN96dHJ7pn1Ey6+LfqV9ODQQc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n## Actualización\n\nSimplemente vuelve a ejecutar `cargo install pokeget` o `git pull` en el repositorio y luego recompila.\n\n## ¿Por qué?\n\nPorque el primer pokeget era lento, pesado y muy complicado, así que decidí hacer una mejor versión en Rust.\n\nAhora, en lugar de precomputar todos los sprites y subirlos a un repositorio, pokeget podrá\ncomputarlos bajo demanda, lo que hace que todo sea mucho más flexible.\nRust permite que ese cálculo se realice mucho más rápido que algo como Python.\n\nTambién dibujará los sprites 2x más pequeños usando cuadrados medios.\n\n## ¿Qué pasa con otros proyectos?\n\npokeget-rs tiene una ventaja sobre proyectos como el antiguo pokeget, pokeshell, etc... ya que está en Rust.\nAdemás, es significativamente (5.5x) más rápido que krabby, que es otro proyecto muy similar.\n\nPara más información, visita [OTHER_PROJECTS.md](https://raw.githubusercontent.com/talwat/pokeget-rs/main/OTHER_PROJECTS.md).\n\n## ¿Qué pasa con los sprites grandes?\n\nDesaparecieron. Reducidos a átomos.\n\nEn serio, simplemente decidí no lidiar con ellos porque es un trabajo significativamente\nextra que no quiero manejar. Rara vez se usaban y se veían feos\nen ventanas de terminal pequeñas, así que tenía poco sentido mantenerlos.\n\n## Créditos\n\nEsta vez, los sprites son de [pokesprite](https://github.com/msikma/pokesprite) y pokeget los usa con un submódulo git.\n\nLos sprites están integrados en el binario, por lo que pokeget no los descargará. Esto es un buen compromiso,\nya que aunque el binario pueda ser grande, pokeget puede ejecutarse casi instantáneamente y sin conexión.\n\n## Licencia\n\npokeget usa la licencia MIT, así que siéntete libre de bifurcarlo y personalizarlo como desees.",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "inmKwtmqzepzwerIOo0UHdLnYx91LdYUCbcKELTX2PY=",
+        "originContent": "## Updating",
+        "translatedContent": "## Actualización"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "fgS1xK7rGnnAt4Na/YiuNXJTzF3tnBpk832aMif560w=",
+        "originContent": "Just rerun `cargo install pokeget` or `git pull` on the repository and then recompile.",
+        "translatedContent": "Simplemente vuelve a ejecutar `cargo install pokeget` o `git pull` en el repositorio y luego recompila."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "VImQy92NQhLiczhrQfIHyWbYrn1cJlaIVIHNbgCrmG8=",
+        "originContent": "## Why?",
+        "translatedContent": "## ¿Por qué?"
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "0gSLYShZqCfAqodmgivXaUmuo2IITlVwy1XpHRpPokA=",
+        "originContent": "Because the first pokeget was slow, bloated, and super complicated, so I decided to make a better version in rust.",
+        "translatedContent": "Porque el primer pokeget era lento, pesado y muy complicado, así que decidí hacer una mejor versión en Rust."
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "hP7q2bxSsqF3AETlhedAkytSMWPPrleTS/go3evP9fA=",
+        "originContent": "Now, instead of precomputing all the sprites and uploading them to a repo, pokeget will",
+        "translatedContent": "Ahora, en lugar de precomputar todos los sprites y subirlos a un repositorio, pokeget podrá"
+      },
+      {
+        "row": 11,
+        "rowsha": "DRSQasarFAae+EdQ0rTrE12olsy8zmBIV3JPf+DxtKU=",
+        "originContent": "be able to compute them on-demand which makes everything much more flexible.",
+        "translatedContent": "computarlos bajo demanda, lo que hace que todo sea mucho más flexible."
+      },
+      {
+        "row": 12,
+        "rowsha": "bXnSVH62o0X3ZaurXNHBLD00VbFf27uq72zcDV9WF0s=",
+        "originContent": "Rust enables that computation to be done much more quickly than something like python.",
+        "translatedContent": "Rust permite que ese cálculo se realice mucho más rápido que algo como Python."
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "Gj2TvtmLwvNLKc6SEVjKutQQJTOdiOzSXDUy4c5cnrk=",
+        "originContent": "It will also draw the sprites 2x smaller by using half squares.",
+        "translatedContent": "También dibujará los sprites 2x más pequeños usando cuadrados medios."
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "XxHsQp72xczp+f1PgueB1l9IBOLadS1a77w55lay69Q=",
+        "originContent": "## What about other projects?",
+        "translatedContent": "## ¿Qué pasa con otros proyectos?"
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "zpFT9Sk2WpALS92CaLBSKTfaAD36j54EyATh1Mr0vIc=",
+        "originContent": "pokeget-rs has an edge over projects like the old pokeget, pokeshell, etc... since it's in rust.",
+        "translatedContent": "pokeget-rs tiene una ventaja sobre proyectos como el antiguo pokeget, pokeshell, etc... ya que está en Rust."
+      },
+      {
+        "row": 19,
+        "rowsha": "oEQMCW7qWU7ZkjBC2TGsHOOY8pxCRGdSP08HnizetXI=",
+        "originContent": "It also is significantly (5.5x) faster than krabby which is another very similar project.",
+        "translatedContent": "Además, es significativamente (5.5x) más rápido que krabby, que es otro proyecto muy similar."
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "UuFsjB21Xs1/k3N0+CqjS/gCTxUxmvUYeG1YOUwe2tw=",
+        "originContent": "For more info, go to [OTHER_PROJECTS.md](https://raw.githubusercontent.com/talwat/pokeget-rs/main/OTHER_PROJECTS.md).",
+        "translatedContent": "Para más información, visita [OTHER_PROJECTS.md](https://raw.githubusercontent.com/talwat/pokeget-rs/main/OTHER_PROJECTS.md)."
+      },
+      {
+        "row": 22,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "PcpSvbEyaLCW/A3rgtWEP+W+tKIceOFzB9uCMRlZGus=",
+        "originContent": "## What about big sprites?",
+        "translatedContent": "## ¿Qué pasa con los sprites grandes?"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "8/p8V9T3U9kv6eTPl9L4loS171MlGucv9j0aTfUf5p0=",
+        "originContent": "Gone. Reduced to atoms.",
+        "translatedContent": "Desaparecieron. Reducidos a átomos."
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "Lc9QOmX8TmLtRsZQj4LYTPvtR65lBsrkCoVQvOu7UyE=",
+        "originContent": "In all seriousness, I've just decided to not deal with them since it's significantly",
+        "translatedContent": "En serio, simplemente decidí no lidiar con ellos porque es un trabajo significativamente"
+      },
+      {
+        "row": 28,
+        "rowsha": "zRuqpQBFRb+UZgjXZ8uVvhhm3AS7juwVXUvTuZTk+C4=",
+        "originContent": "extra work that I don't want to deal with. They were rarely used, and looked ugly",
+        "translatedContent": "extra que no quiero manejar. Rara vez se usaban y se veían feos"
+      },
+      {
+        "row": 29,
+        "rowsha": "fs1rFjxmLdErz8aaWCoJEaelrvC6ONA/YaRk+s02Mbo=",
+        "originContent": "in small terminal windows, so there was little use in keeping them.",
+        "translatedContent": "en ventanas de terminal pequeñas, así que tenía poco sentido mantenerlos."
+      },
+      {
+        "row": 30,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "OtBYwndH58Q+LfPUO9DkPBo3A7SzyLFdEA2wIljgYwk=",
+        "originContent": "## Credits",
+        "translatedContent": "## Créditos"
+      },
+      {
+        "row": 32,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "szbg/ztCuQu595Dyr6wtGv5d+hOhl1yE2gxuO7oUJyc=",
+        "originContent": "This time, the sprites are from [pokesprite](https://github.com/msikma/pokesprite) and pokeget uses them with a git submodule.",
+        "translatedContent": "Esta vez, los sprites son de [pokesprite](https://github.com/msikma/pokesprite) y pokeget los usa con un submódulo git."
+      },
+      {
+        "row": 34,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "xRUHOocOCEjPI1Ue4gbUZzKH6rR84UL69gNkJUVk980=",
+        "originContent": "Sprites are embedded into the binary, so pokeget won't download them. This is a good compromise,",
+        "translatedContent": "Los sprites están integrados en el binario, por lo que pokeget no los descargará. Esto es un buen compromiso,"
+      },
+      {
+        "row": 36,
+        "rowsha": "GkY+ONw8cuZADMJvYIHPL5+BGU8/H/oN/5qSJLTl1Q8=",
+        "originContent": "since while the binary may be large, pokeget can execute almost instantly and while offline.",
+        "translatedContent": "ya que aunque el binario pueda ser grande, pokeget puede ejecutarse casi instantáneamente y sin conexión."
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "bFSaVtsB4CHySNjaeCiaMZfT24b+DTbTM4HQ38cR6Lw=",
+        "originContent": "## License",
+        "translatedContent": "## Licencia"
+      },
+      {
+        "row": 39,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "I29gWiTMSVOnwfPXsWUVz9qJ4T5hHzclNDH570fOCzQ=",
+        "originContent": "pokeget uses the MIT license, so feel free to fork it and customize it as you please.",
+        "translatedContent": "pokeget usa la licencia MIT, así que siéntete libre de bifurcarlo y personalizarlo como desees."
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "If you're unsure about any of the internal workings of pokeget, [open an issue](https://github.com/talwat/pokeget-rs/issues),\nand I'll answer whatever question you might have.\n",
+    "ContentSha": "WlbyzIslZ+0+eNAS0cAC2qYioW8BjTT66mWeYosoxO0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Si no estás seguro acerca de algún funcionamiento interno de pokeget, [abre un issue](https://github.com/talwat/pokeget-rs/issues),  \ny responderé cualquier pregunta que puedas tener.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "lZJP34QdvlfRzlQx8Kix30HxKAd02m4OM5IJFAR5db0=",
+        "originContent": "If you're unsure about any of the internal workings of pokeget, [open an issue](https://github.com/talwat/pokeget-rs/issues),",
+        "translatedContent": "Si no estás seguro acerca de algún funcionamiento interno de pokeget, [abre un issue](https://github.com/talwat/pokeget-rs/issues),  "
+      },
+      {
+        "row": 2,
+        "rowsha": "CCAyJ0EZfyFSGDViV70grku/7hsCQkg0tg5QJhfqe24=",
+        "originContent": "and I'll answer whatever question you might have.",
+        "translatedContent": "y responderé cualquier pregunta que puedas tener."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

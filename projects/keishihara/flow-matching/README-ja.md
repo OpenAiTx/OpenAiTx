@@ -1,19 +1,51 @@
-# PyTorchにおけるフローマッチング
 
-このリポジトリは論文[Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747)の簡単なPyTorch実装を含んでいます。
+<div align="right">
+  <details>
+    <summary >🌐 言語</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=keishihara&project=flow-matching&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
 
-## 2Dフローマッチングの例
+# PyTorchによるフローマッチング
 
-以下のgifは、単一のガウス分布をチェッカーボード分布にマッピングし、ベクトル場を可視化したものです。
+このリポジトリには、論文 [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747) のシンプルなPyTorch実装が含まれています。
+
+## 2次元フローマッチング例
+
+下のgifは、単一のガウス分布からチェッカーボード分布へのマッピングを示しており、ベクトル場が可視化されています。
 
 <p align="center">
-<img align="middle" src="https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_checkerboard.gif" height="400" />
+<img align="middle" src="https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/checkerboard/vector_field_and_samples_checkerboard.gif" height="400" />
 </p>
 
-こちらはムーンデータセットの別の例です。
+そして、こちらはmoonsデータセットの別の例です。
 
 <p align="center">
-<img align="middle" src="https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_moons.gif" height="400" />
+<img align="middle" src="https://raw.githubusercontent.com/keishihara/flow-matching/main/./outputs/cfm/moons/vector_field_and_samples_moons.gif" height="400" />
 </p>
 
 ## はじめに
@@ -25,20 +57,17 @@ git clone https://github.com/keishihara/flow-matching.git
 cd flow-matching
 ```
 
-Python 3.10以上がインストールされていることを確認してください。
-`uv`を使用してPython環境をセットアップするには：
+Python 3.12以上がインストールされていることを確認してください。
+`uv`をインストールしてください：
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+次に、環境を設定します：
 
 ```bash
 uv sync
-source .venv/bin/activate
-```
-
-あるいは、`pip`を使用して：
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -e .
 ```
 
 ## 条件付きフローマッチング [Lipman+ 2023]
@@ -50,25 +79,25 @@ pip install -e .
 `checkerboard`や`moons`などの2D合成データセットでCFMモデルを訓練できます。`--dataset`オプションでデータセット名を指定してください。訓練パラメータはスクリプト内で事前定義されており、訓練結果の可視化は`outputs/`ディレクトリに保存されます。モデルのチェックポイントは、デフォルト設定で簡単に再現可能なため含まれていません。
 
 ```bash
-python train_flow_matching_2d.py --dataset checkerboard
+uv run scripts/train_flow_matching_2d.py --dataset checkerboard
 ```
 
-ベクトル場と生成されたサンプルは、このREADMEの上部にGIFとして表示されているもののように、現在`outputs/cfm/`ディレクトリにあります。
+このREADMEの冒頭にGIFとして表示されているようなベクトル場と生成サンプルは、現在 `outputs/cfm/` ディレクトリにあります。
 
 ### 画像データセット
 
-また、人気のある画像分類データセットでクラス条件付きCFMモデルをトレーニングすることもできます。生成されたサンプルとモデルのチェックポイントは両方とも`outputs/cfm`ディレクトリに保存されます。トレーニングパラメータの詳細なリストは`python train_flow_matching_on_images.py --help`を実行してください。
+人気の画像分類データセットでクラス条件付きCFMモデルの学習も可能です。生成されたサンプルとモデルのチェックポイントはどちらも `outputs/cfm` ディレクトリに保存されます。学習パラメータの詳細な一覧は、`uv run scripts/train_flow_matching_on_image.py --help` を実行してください。
 
-MNISTデータセットでクラス条件付きCFMをトレーニングするには、以下を実行します。
+MNISTデータセットでクラス条件付きCFMを学習するには、次のコマンドを実行します:
 
 ```bash
-python train_flow_matching_on_image.py --do_train --dataset mnist
+uv run scripts/train_flow_matching_on_image.py --do_train --dataset mnist
 ```
 
 トレーニング後、以下でサンプルを生成できます：
 
 ```bash
-python train_flow_matching_on_image.py --do_sample --dataset mnist
+uv run scripts/train_flow_matching_on_image.py --do_sample --dataset mnist
 ```
 
 Now, you should be able to see the generated samples in the `outputs/cfm/mnist/` directory.
@@ -88,7 +117,7 @@ CFMと同様に、2次元合成データセットでReflowを実装しました�
 例えば、事前学習済みCFMチェックポイントを使って`checkerboard`データセットでトレーニングする場合：
 
 ```bash
-python train_reflow_2d.py --dataset checkerboard --pretrained-model outputs/cfm/checkerboard/ckpt.pth
+uv run scripts/train_reflow_2d.py --dataset checkerboard
 ```
 
 トレーニング結果は、ベクトル場の可視化や生成されたサンプルを含めて、`outputs/reflow/` フォルダに保存されます。
@@ -98,7 +127,7 @@ python train_reflow_2d.py --dataset checkerboard --pretrained-model outputs/cfm/
 2次元データセットでCFMとReflowを比較するには、以下を実行してください：
 
 ```bash
-python plot_comparison_2d.py --dataset checkerboard
+uv run scripts/plot_comparison_2d.py --dataset checkerboard
 ```
 生成されたGIFは `outputs/comparisons/` フォルダにあります。以下は `checkerboard` データセットでの2つの手法の比較例です:
 
@@ -117,6 +146,6 @@ python plot_comparison_2d.py --dataset checkerboard
 
 ---
 
-Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2025-12-24
+Tranlated By [Open Ai Tx](https://github.com/OpenAiTx/OpenAiTx) | Last indexed: 2026-01-19
 
 ---
