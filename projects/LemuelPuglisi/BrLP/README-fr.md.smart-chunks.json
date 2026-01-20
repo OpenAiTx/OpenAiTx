@@ -1,0 +1,1616 @@
+[
+  {
+    "Id": 1,
+    "Content": "![brlp](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/assets/readme-brlp-v2.png)\n\n<p align=\"center\">\n  <a href='https://www.sciencedirect.com/science/article/pii/S1361841525002816'>\n    <img src='https://img.shields.io/badge/Journal-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&color=94DD15' alt='Paper PDF'>\n  </a>\n  <a href='https://papers.miccai.org/miccai-2024/paper/0511_paper.pdf'>\n    <img src='https://img.shields.io/badge/MICCAI-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&color=94DD15' alt='Paper PDF'>\n  </a>\n  <a href='https://youtu.be/6YKz2MNM4jg?si=nkG21K4lIgLrH-pK'>\n    <img src='https://img.shields.io/badge/Video-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white&color=FF3737' alt='Video'>\n  </a>\n</p>\n\n<h4 align=\"center\">Enhancing Spatiotemporal Disease Progression Models via Latent Diffusion and Prior Knowledge</h4>\n\n<h4 align=\"center\"><a href=\"https://lemuelpuglisi.github.io/\">Lemuel Puglisi</a>, <a href=\"https://profiles.ucl.ac.uk/3589\">Daniel C. Alexander</a>, <a href=\"https://daniravi.wixsite.com/researchblog\">Daniele Ravì</a></h4>\n\nhttps://github.com/user-attachments/assets/28ad3693-5e3e-4f6e-9bbc-485424fbbee2\n\n<p align=\"center\">\n  <a href=\"#installation\">Installation</a> •\n  <a href=\"#training\">Training</a> •\n  <a href=\"#inference\">CLI Application</a> •\n  <a href=\"#citing\">Cite</a>\n</p>\n\n\n**NEWS**\n* 🎉 BrLP has been awarded the runner-up position for the Media Best Paper Award at MICCAI 2025!\n* 🎉 Our [extension paper](https://arxiv.org/pdf/2502.08560) has been accepted for publication in Medical Image Analysis (*IF=11.8*)\n* 🎉 A [new paper](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13406/1340621/A-technical-assessment-of-latent-diffusion-for-Alzheimers-disease-progression/10.1117/12.3047135.short) from Vanderbilt University has replicated our results on the [BLSA](https://www.blsa.nih.gov/) dataset!\n* 🆕 The [short guide on using the BrLP CLI](https://lemuelpuglisi.github.io/blog/2024/brlp/) is out!\n* 🎉 BrLP has been nominated and shortlisted for the MICCAI Best Paper Award! (top <1%)\n* 🎉 BrLP has been early-accepted and selected for **oral presentation** at [MICCAI 2024](https://conferences.miccai.org/2024/en/) (top 4%)!\n\n\n\n## Table of Contents\n- [Installation](#installation)",
+    "ContentSha": "oLdzRvse1vRSg01NVHeTVK0Y28y4HNDHXVhs/u13hYc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "![brlp](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/assets/readme-brlp-v2.png)\n\n<p align=\"center\">\n  <a href='https://www.sciencedirect.com/science/article/pii/S1361841525002816'>\n    <img src='https://img.shields.io/badge/Journal-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&color=94DD15' alt='Paper PDF'>\n  </a>\n  <a href='https://papers.miccai.org/miccai-2024/paper/0511_paper.pdf'>\n    <img src='https://img.shields.io/badge/MICCAI-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&color=94DD15' alt='Paper PDF'>\n  </a>\n  <a href='https://youtu.be/6YKz2MNM4jg?si=nkG21K4lIgLrH-pK'>\n    <img src='https://img.shields.io/badge/Video-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white&color=FF3737' alt='Video'>\n  </a>\n</p>\n\n<h4 align=\"center\">Amélioration des modèles spatiotemporels de progression des maladies via la diffusion latente et les connaissances a priori</h4>\n\n<h4 align=\"center\"><a href=\"https://lemuelpuglisi.github.io/\">Lemuel Puglisi</a>, <a href=\"https://profiles.ucl.ac.uk/3589\">Daniel C. Alexander</a>, <a href=\"https://daniravi.wixsite.com/researchblog\">Daniele Ravì</a></h4>\n\nhttps://github.com/user-attachments/assets/28ad3693-5e3e-4f6e-9bbc-485424fbbee2\n\n<p align=\"center\">\n  <a href=\"#installation\">Installation</a> •\n  <a href=\"#training\">Entraînement</a> •\n  <a href=\"#inference\">Application CLI</a> •\n  <a href=\"#citing\">Citer</a>\n</p>\n\n\n**NOUVELLES**\n* 🎉 BrLP a obtenu la deuxième place pour le Media Best Paper Award à MICCAI 2025 !\n* 🎉 Notre [article de prolongation](https://arxiv.org/pdf/2502.08560) a été accepté pour publication dans Medical Image Analysis (*IF=11.8*)\n* 🎉 Un [nouvel article](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13406/1340621/A-technical-assessment-of-latent-diffusion-for-Alzheimers-disease-progression/10.1117/12.3047135.short) de l'Université Vanderbilt a reproduit nos résultats sur le jeu de données [BLSA](https://www.blsa.nih.gov/) !\n* 🆕 Le [guide court sur l'utilisation du CLI BrLP](https://lemuelpuglisi.github.io/blog/2024/brlp/) est disponible !\n* 🎉 BrLP a été nommé et présélectionné pour le MICCAI Best Paper Award ! (top <1%)\n* 🎉 BrLP a été accepté en avance et sélectionné pour une **présentation orale** à [MICCAI 2024](https://conferences.miccai.org/2024/en/) (top 4%) !\n\n\n\n## Table des matières\n- [Installation](#installation)",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "//EVr5JT12evUW3Qk8kFUA141nuFXC8hb6w0xUaDxro=",
+        "originContent": "![brlp](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/assets/readme-brlp-v2.png)",
+        "translatedContent": "![brlp](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/assets/readme-brlp-v2.png)"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 4,
+        "rowsha": "QeaeUqIZDlViKV0+xHtMs9YYp4NDMlU8sA5adcblngo=",
+        "originContent": "  <a href='https://www.sciencedirect.com/science/article/pii/S1361841525002816'>",
+        "translatedContent": "  <a href='https://www.sciencedirect.com/science/article/pii/S1361841525002816'>"
+      },
+      {
+        "row": 5,
+        "rowsha": "vtzfGNtEPab76PJxV8aJiKdflB4wi3ZmDYOdwHgkIbU=",
+        "originContent": "    <img src='https://img.shields.io/badge/Journal-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&color=94DD15' alt='Paper PDF'>",
+        "translatedContent": "    <img src='https://img.shields.io/badge/Journal-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&color=94DD15' alt='Paper PDF'>"
+      },
+      {
+        "row": 6,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 7,
+        "rowsha": "tO8aic71tMMRXamuygV1VmakDuE78pmP+95Y+qG4LXo=",
+        "originContent": "  <a href='https://papers.miccai.org/miccai-2024/paper/0511_paper.pdf'>",
+        "translatedContent": "  <a href='https://papers.miccai.org/miccai-2024/paper/0511_paper.pdf'>"
+      },
+      {
+        "row": 8,
+        "rowsha": "uJH3k1xDy3skVXWECo6BotGH/WaHAXE0sztMecLS6zY=",
+        "originContent": "    <img src='https://img.shields.io/badge/MICCAI-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&color=94DD15' alt='Paper PDF'>",
+        "translatedContent": "    <img src='https://img.shields.io/badge/MICCAI-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&color=94DD15' alt='Paper PDF'>"
+      },
+      {
+        "row": 9,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 10,
+        "rowsha": "64TuQvGZs9t6jfLo2DsnA2n4n17cYWKQhp8CCqweP0c=",
+        "originContent": "  <a href='https://youtu.be/6YKz2MNM4jg?si=nkG21K4lIgLrH-pK'>",
+        "translatedContent": "  <a href='https://youtu.be/6YKz2MNM4jg?si=nkG21K4lIgLrH-pK'>"
+      },
+      {
+        "row": 11,
+        "rowsha": "N/0P+pZ9oARLcp8sB52bGokBl5VlR0HNcSJLuBtSOa0=",
+        "originContent": "    <img src='https://img.shields.io/badge/Video-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white&color=FF3737' alt='Video'>",
+        "translatedContent": "    <img src='https://img.shields.io/badge/Video-YouTube-red?style=for-the-badge&logo=youtube&logoColor=white&color=FF3737' alt='Video'>"
+      },
+      {
+        "row": 12,
+        "rowsha": "7Sl5c7caJ7+Yt222Hl2I2PLtk1UIeh8Qfn02MNONw0Y=",
+        "originContent": "  </a>",
+        "translatedContent": "  </a>"
+      },
+      {
+        "row": 13,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 14,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "t3itXiZsbCkIJthw7cBzWi4kk3SQpdgjd9e0r4OJz6c=",
+        "originContent": "<h4 align=\"center\">Enhancing Spatiotemporal Disease Progression Models via Latent Diffusion and Prior Knowledge</h4>",
+        "translatedContent": "<h4 align=\"center\">Amélioration des modèles spatiotemporels de progression des maladies via la diffusion latente et les connaissances a priori</h4>"
+      },
+      {
+        "row": 16,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "jZqx8uFNXh9ivPzF6mWS8LktCnfooYP/IR1UujaY58Q=",
+        "originContent": "<h4 align=\"center\"><a href=\"https://lemuelpuglisi.github.io/\">Lemuel Puglisi</a>, <a href=\"https://profiles.ucl.ac.uk/3589\">Daniel C. Alexander</a>, <a href=\"https://daniravi.wixsite.com/researchblog\">Daniele Ravì</a></h4>",
+        "translatedContent": "<h4 align=\"center\"><a href=\"https://lemuelpuglisi.github.io/\">Lemuel Puglisi</a>, <a href=\"https://profiles.ucl.ac.uk/3589\">Daniel C. Alexander</a>, <a href=\"https://daniravi.wixsite.com/researchblog\">Daniele Ravì</a></h4>"
+      },
+      {
+        "row": 18,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "LM9ZteZml1+6XPbuylEDzBbT7UCyJxyZrXOatDtzfTI=",
+        "originContent": "https://github.com/user-attachments/assets/28ad3693-5e3e-4f6e-9bbc-485424fbbee2",
+        "translatedContent": "https://github.com/user-attachments/assets/28ad3693-5e3e-4f6e-9bbc-485424fbbee2"
+      },
+      {
+        "row": 20,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "+/a9XmPwQixGFroME/GMEOLpReZZV4ARosR9orAplJY=",
+        "originContent": "<p align=\"center\">",
+        "translatedContent": "<p align=\"center\">"
+      },
+      {
+        "row": 22,
+        "rowsha": "1poqLLrb4JiTUlKq5o7lFbKvPce4++GF4exC0EyD2wA=",
+        "originContent": "  <a href=\"#installation\">Installation</a> •",
+        "translatedContent": "  <a href=\"#installation\">Installation</a> •"
+      },
+      {
+        "row": 23,
+        "rowsha": "l3SAIulwJdp2rE+NOg9EHZQk54voaBZ5zA9xv8b832k=",
+        "originContent": "  <a href=\"#training\">Training</a> •",
+        "translatedContent": "  <a href=\"#training\">Entraînement</a> •"
+      },
+      {
+        "row": 24,
+        "rowsha": "YP5dEuQ7dYJFd0z0FlgMUDj89H+BQxUF/Fr8ivlOKgM=",
+        "originContent": "  <a href=\"#inference\">CLI Application</a> •",
+        "translatedContent": "  <a href=\"#inference\">Application CLI</a> •"
+      },
+      {
+        "row": 25,
+        "rowsha": "Lt+Tn1czol5s0UfnB6juvcVYdw+8PnvNBwSY6RIWJ6I=",
+        "originContent": "  <a href=\"#citing\">Cite</a>",
+        "translatedContent": "  <a href=\"#citing\">Citer</a>"
+      },
+      {
+        "row": 26,
+        "rowsha": "dSdvPNAZSmR86FDDSF6tkQUCVfI9qmACHOR5tThOetY=",
+        "originContent": "</p>",
+        "translatedContent": "</p>"
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 28,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 29,
+        "rowsha": "FsMjZCG3BU7ghYgU++jggI3eFZn8vrlMBTicFZJ1lS0=",
+        "originContent": "**NEWS**",
+        "translatedContent": "**NOUVELLES**"
+      },
+      {
+        "row": 30,
+        "rowsha": "FPJZocaTUHz7+gS5VQHVofQBZHN6qwgm7h8T84O5JmI=",
+        "originContent": "* 🎉 BrLP has been awarded the runner-up position for the Media Best Paper Award at MICCAI 2025!",
+        "translatedContent": "* 🎉 BrLP a obtenu la deuxième place pour le Media Best Paper Award à MICCAI 2025 !"
+      },
+      {
+        "row": 31,
+        "rowsha": "i3FQl9nwGBBOVE+AggeQuQCLBTgazC8VzI6XGXyhHEI=",
+        "originContent": "* 🎉 Our [extension paper](https://arxiv.org/pdf/2502.08560) has been accepted for publication in Medical Image Analysis (*IF=11.8*)",
+        "translatedContent": "* 🎉 Notre [article de prolongation](https://arxiv.org/pdf/2502.08560) a été accepté pour publication dans Medical Image Analysis (*IF=11.8*)"
+      },
+      {
+        "row": 32,
+        "rowsha": "Q++CcLU3fEANpJZwUHFXGmg/3H17D4TxLwfSIh8bpjg=",
+        "originContent": "* 🎉 A [new paper](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13406/1340621/A-technical-assessment-of-latent-diffusion-for-Alzheimers-disease-progression/10.1117/12.3047135.short) from Vanderbilt University has replicated our results on the [BLSA](https://www.blsa.nih.gov/) dataset!",
+        "translatedContent": "* 🎉 Un [nouvel article](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13406/1340621/A-technical-assessment-of-latent-diffusion-for-Alzheimers-disease-progression/10.1117/12.3047135.short) de l'Université Vanderbilt a reproduit nos résultats sur le jeu de données [BLSA](https://www.blsa.nih.gov/) !"
+      },
+      {
+        "row": 33,
+        "rowsha": "QoWnrcKLKYH8+28iHF+maPSI2xWgMgCyafgGdfaH82Q=",
+        "originContent": "* 🆕 The [short guide on using the BrLP CLI](https://lemuelpuglisi.github.io/blog/2024/brlp/) is out!",
+        "translatedContent": "* 🆕 Le [guide court sur l'utilisation du CLI BrLP](https://lemuelpuglisi.github.io/blog/2024/brlp/) est disponible !"
+      },
+      {
+        "row": 34,
+        "rowsha": "Ljp716hZzMPejKSMBcjkDCbPJqjvqyfM0zKtrchRPvs=",
+        "originContent": "* 🎉 BrLP has been nominated and shortlisted for the MICCAI Best Paper Award! (top <1%)",
+        "translatedContent": "* 🎉 BrLP a été nommé et présélectionné pour le MICCAI Best Paper Award ! (top <1%)"
+      },
+      {
+        "row": 35,
+        "rowsha": "ZwfGf9fcLYL94sAHUkh4gFEsAL1E2ddpEwMrIohxqTk=",
+        "originContent": "* 🎉 BrLP has been early-accepted and selected for **oral presentation** at [MICCAI 2024](https://conferences.miccai.org/2024/en/) (top 4%)!",
+        "translatedContent": "* 🎉 BrLP a été accepté en avance et sélectionné pour une **présentation orale** à [MICCAI 2024](https://conferences.miccai.org/2024/en/) (top 4%) !"
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "j2m8/Rf4OhNBtAZdHSFuUFBE6NBtExCFuaofstzruU0=",
+        "originContent": "## Table of Contents",
+        "translatedContent": "## Table des matières"
+      },
+      {
+        "row": 40,
+        "rowsha": "Wl12oCRmfvQwHCfuvjGuhBK05j+rCEJcS20CJyqXCVA=",
+        "originContent": "- [Installation](#installation)",
+        "translatedContent": "- [Installation](#installation)"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "- [Data preparation](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/./REPR-DATA.md)\n- [Training](#training)\n- [Pretrained models](#pretrained-models)\n- [Acknowledgements](#acknowledgements)\n- [Citing our work](#citing)\n\n## Installation\n\nDownload the repository, `cd` into the project folder and install the `brlp` package:\n",
+    "ContentSha": "b5fGdIk4ssL+Vd6kXeqPdU7IBPTYOIYOGoB6p5hN75g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "- [Préparation des données](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/./REPR-DATA.md)\n- [Entraînement](#training)\n- [Modèles préentraînés](#pretrained-models)\n- [Remerciements](#acknowledgements)\n- [Citation de notre travail](#citing)\n\n## Installation\n\nTéléchargez le dépôt, faites un `cd` dans le dossier du projet et installez le paquet `brlp` :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "qevGOk1X9/SrspnCt0oy/FKD6GEQTXg8fosotocxRG0=",
+        "originContent": "- [Data preparation](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/./REPR-DATA.md)",
+        "translatedContent": "- [Préparation des données](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/./REPR-DATA.md)"
+      },
+      {
+        "row": 2,
+        "rowsha": "k75k7m80Ww74Mk8JVKdbpTjWl4zl9EycFtWeA7MhM6g=",
+        "originContent": "- [Training](#training)",
+        "translatedContent": "- [Entraînement](#training)"
+      },
+      {
+        "row": 3,
+        "rowsha": "CaCF8OhHEMyyvoH1lVpQUbyTW6nRcq/MG08mVND8XYk=",
+        "originContent": "- [Pretrained models](#pretrained-models)",
+        "translatedContent": "- [Modèles préentraînés](#pretrained-models)"
+      },
+      {
+        "row": 4,
+        "rowsha": "tGxc2/ylP2GjqT7hfUCqdL/M07uAS6U8VW9F6HdlOWg=",
+        "originContent": "- [Acknowledgements](#acknowledgements)",
+        "translatedContent": "- [Remerciements](#acknowledgements)"
+      },
+      {
+        "row": 5,
+        "rowsha": "2fv2G4ki7T51IQXSxGxZIN2ok5TPX1Z1/0lWnAR4PeE=",
+        "originContent": "- [Citing our work](#citing)",
+        "translatedContent": "- [Citation de notre travail](#citing)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": "## Installation"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "b2ySdMiDRa6/8bwT0qD9J9nxY8n9anfgOCZ3vmQRKYQ=",
+        "originContent": "Download the repository, `cd` into the project folder and install the `brlp` package:",
+        "translatedContent": "Téléchargez le dépôt, faites un `cd` dans le dossier du projet et installez le paquet `brlp` :"
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 3,
+    "Content": "```console\npip install -e .\n```",
+    "ContentSha": "e42tAgLXo+xpSLaQpvtT+zhPHBLbsfpwpes+TaY7XEk=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```console\npip install -e .\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+        "originContent": "```console",
+        "translatedContent": "```console"
+      },
+      {
+        "row": 2,
+        "rowsha": "knVRIKwsU4emj9biFUgJoBjbMP5EER6U5AGxS0Ix1+Y=",
+        "originContent": "pip install -e .",
+        "translatedContent": "pip install -e ."
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 4,
+    "Content": "We recommend using a separate environment (see [Anaconda](https://www.anaconda.com/)). The code has been tested using python 3.9, however we expect it to work also with newer versions.\n\n## Data preparation\n\nCheck out our document on [*Data preparation and study reproducibility*](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/./REPR-DATA.md). This file will guide you in organizing your data and creating the required CSV files to run the training pipelines.\n\n\n## Training\n![](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/assets/pipeline.png)\n\n\nTraining BrLP has 3 main phases that will be discribed in the subsequent sections. Every training (except for the auxiliary model) can be monitored using `tensorboard` as follows:\n",
+    "ContentSha": "mcZr5mQiRaJlNpALmuolW3LMkP8MGwR60nTAaZpln2o=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Nous recommandons d'utiliser un environnement séparé (voir [Anaconda](https://www.anaconda.com/)). Le code a été testé avec python 3.9, cependant nous pensons qu'il fonctionnera également avec des versions plus récentes.\n\n## Préparation des données\n\nConsultez notre document sur la [*Préparation des données et reproductibilité de l'étude*](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/./REPR-DATA.md). Ce fichier vous guidera dans l'organisation de vos données et la création des fichiers CSV nécessaires pour exécuter les pipelines d'entraînement.\n\n## Entraînement\n![](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/assets/pipeline.png)\n\nL'entraînement de BrLP comporte 3 phases principales qui seront décrites dans les sections suivantes. Chaque entraînement (sauf pour le modèle auxiliaire) peut être suivi à l'aide de `tensorboard` comme suit :\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "SKmNfeDeMp2ssCjF3srxF0JMFRGQqmwVeReimdiRNXc=",
+        "originContent": "We recommend using a separate environment (see [Anaconda](https://www.anaconda.com/)). The code has been tested using python 3.9, however we expect it to work also with newer versions.",
+        "translatedContent": "Nous recommandons d'utiliser un environnement séparé (voir [Anaconda](https://www.anaconda.com/)). Le code a été testé avec python 3.9, cependant nous pensons qu'il fonctionnera également avec des versions plus récentes."
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "r826vq6z75JctjfbnbfEtftksR7Fz4pNMNYhhi5wZ3g=",
+        "originContent": "## Data preparation",
+        "translatedContent": "## Préparation des données"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "/xnd0Dn4KRYg09hJeMe+MLEaBWC/uvuPeGbH3T3hXFQ=",
+        "originContent": "Check out our document on [*Data preparation and study reproducibility*](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/./REPR-DATA.md). This file will guide you in organizing your data and creating the required CSV files to run the training pipelines.",
+        "translatedContent": "Consultez notre document sur la [*Préparation des données et reproductibilité de l'étude*](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/./REPR-DATA.md). Ce fichier vous guidera dans l'organisation de vos données et la création des fichiers CSV nécessaires pour exécuter les pipelines d'entraînement."
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Entraînement"
+      },
+      {
+        "row": 8,
+        "rowsha": "RyMVT8AI38tOz4vO0V79NvmoheEkQCWRArItkq8CyJU=",
+        "originContent": "## Training",
+        "translatedContent": "![](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/assets/pipeline.png)"
+      },
+      {
+        "row": 9,
+        "rowsha": "bI8TnSEBla7h5lkDuN15D3Hel87RPNT6B7rpVJtHtWI=",
+        "originContent": "![](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/assets/pipeline.png)",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "L'entraînement de BrLP comporte 3 phases principales qui seront décrites dans les sections suivantes. Chaque entraînement (sauf pour le modèle auxiliaire) peut être suivi à l'aide de `tensorboard` comme suit :"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "QjbWB2+e7IDiHJurqbViS+lCRXS/h2UqjokL/SGZhd4=",
+        "originContent": "Training BrLP has 3 main phases that will be discribed in the subsequent sections. Every training (except for the auxiliary model) can be monitored using `tensorboard` as follows:",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 5,
+    "Content": "```console\ntensorboard --logdir runs\n```",
+    "ContentSha": "6O/wv9FObWo4LR7erch4DitHKM/bvWNhTT66HnvJDls=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```console\ntensorboard --logdir runs\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+        "originContent": "```console",
+        "translatedContent": "```console"
+      },
+      {
+        "row": 2,
+        "rowsha": "CwtiQ9a5JmbNzJphTUe++EmrRto2/5cAoYQrp+gL9e4=",
+        "originContent": "tensorboard --logdir runs",
+        "translatedContent": "tensorboard --logdir runs"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 6,
+    "Content": "\n\n\n### Train the autoencoder\n\nFollow the commands below to train the autoencoder.\n",
+    "ContentSha": "Ehlj8yotaTuydGbltskLWBI1eIV6DLvEu3uYcnE35IU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n\n\n### Train the autoencoder\n\nFollow the commands below to train the autoencoder.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "0pSYjvsqdJBdgShDYYR2Y0OLa8uikiDsntcP3H9HSKI=",
+        "originContent": "### Train the autoencoder",
+        "translatedContent": "### Train the autoencoder"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "D5y6yJxRtsHOJys4c0zmuClQ27gq5VE8yo5wV+z9ma4=",
+        "originContent": "Follow the commands below to train the autoencoder.",
+        "translatedContent": "Follow the commands below to train the autoencoder."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```console\n# Create an output and a cache directory\nmkdir ae_output ae_cache\n\n# Run the training script\npython scripts/training/train_autoencoder.py \\\n  --dataset_csv /path/to/A.csv \\\n  --cache_dir   ./ae_cache \\\n  --output_dir  ./ae_output\n```",
+    "ContentSha": "YKfADHIZqBGbEbTbOc7LKqhntGh1ulp1bGS+CL11+Fg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```console\n# Create an output and a cache directory\nmkdir ae_output ae_cache\n\n# Run the training script\npython scripts/training/train_autoencoder.py \\\n  --dataset_csv /path/to/A.csv \\\n  --cache_dir   ./ae_cache \\\n  --output_dir  ./ae_output\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+        "originContent": "```console",
+        "translatedContent": "```console"
+      },
+      {
+        "row": 2,
+        "rowsha": "x9XSd6o61HASai0zFFuh7diPRhW+jRWlO6WhX8a1Aec=",
+        "originContent": "# Create an output and a cache directory",
+        "translatedContent": "# Create an output and a cache directory"
+      },
+      {
+        "row": 3,
+        "rowsha": "rq0oLvGhnkZDH4VXdIWpFcK52F2yfFm9lTO8SZmDAIo=",
+        "originContent": "mkdir ae_output ae_cache",
+        "translatedContent": "mkdir ae_output ae_cache"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "H+Nmu0xxlAChghKMzcZdoLrxJhzHMJpw2COZ7EsPbcs=",
+        "originContent": "# Run the training script",
+        "translatedContent": "# Run the training script"
+      },
+      {
+        "row": 6,
+        "rowsha": "t5B2W+DY7+oKbbHpwqy8h2QgAyyAU+D99Xo0QIZ40j4=",
+        "originContent": "python scripts/training/train_autoencoder.py \\",
+        "translatedContent": "python scripts/training/train_autoencoder.py \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "4cUNVz8eOOCz8cP6TevRSDp6RW0cSSPIfYVyU7YFmCs=",
+        "originContent": "  --dataset_csv /path/to/A.csv \\",
+        "translatedContent": "  --dataset_csv /path/to/A.csv \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "5g0DdO28LXDgp48L2zJvIs6TEgIAB4Nf3jO/qC3oTRs=",
+        "originContent": "  --cache_dir   ./ae_cache \\",
+        "translatedContent": "  --cache_dir   ./ae_cache \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "s15NFjbv7JXZesiY2CqDGzAMTBA1ZkeAducjnUVbO1Y=",
+        "originContent": "  --output_dir  ./ae_output",
+        "translatedContent": "  --output_dir  ./ae_output"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\nThen extract the latents from your MRI data:\n",
+    "ContentSha": "D1f5hhJ/VVrl4fVpDekaeP/OSXlmkuokC1W19EwZ1kI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nPuis extrayez les latents de vos données IRM :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "McorT3DC7keuj9n4c3sf+LkU2OY91zVd0gVlHkF/SX4=",
+        "originContent": "Then extract the latents from your MRI data:",
+        "translatedContent": "Puis extrayez les latents de vos données IRM :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```console\npython scripts/prepare/extract_latents.py \\\n  --dataset_csv /path/to/A.csv \\\n  --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth\n```",
+    "ContentSha": "IuY+b29n8T7SIP/Hz7N2a0k0+QP247c5lDhpdpYW3go=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```console\npython scripts/prepare/extract_latents.py \\\n  --dataset_csv /path/to/A.csv \\\n  --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+        "originContent": "```console",
+        "translatedContent": "```console"
+      },
+      {
+        "row": 2,
+        "rowsha": "VvYVl45pVFbT4nKuyWZO09ar6Es8abkZWRTiWOeaZkc=",
+        "originContent": "python scripts/prepare/extract_latents.py \\",
+        "translatedContent": "python scripts/prepare/extract_latents.py \\"
+      },
+      {
+        "row": 3,
+        "rowsha": "4cUNVz8eOOCz8cP6TevRSDp6RW0cSSPIfYVyU7YFmCs=",
+        "originContent": "  --dataset_csv /path/to/A.csv \\",
+        "translatedContent": "  --dataset_csv /path/to/A.csv \\"
+      },
+      {
+        "row": 4,
+        "rowsha": "3sHo73X9xTzvNTAWnyg2RK66UKceCghH1FlO8vg9WNM=",
+        "originContent": "  --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth",
+        "translatedContent": "  --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth"
+      },
+      {
+        "row": 5,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\nReplace `XXX` to select the autoencoder checkpoints of your choice.\n\n### Train the UNet\n\nFollow the commands below to train the diffusion UNet. Replace `XXX` to select the autoencoder checkpoints of your choice.\n\n",
+    "ContentSha": "ha3xlVwp5/V8GSTALfyUFoPu20XFmioyL9rpa1lQ4mg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nRemplacez `XXX` pour sélectionner les points de contrôle de l'autoencodeur de votre choix.\n\n### Entraînez le UNet\n\nSuivez les commandes ci-dessous pour entraîner le UNet de diffusion. Remplacez `XXX` pour sélectionner les points de contrôle de l'autoencodeur de votre choix.\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "SWpVLgDERJY4XegtEpmR3Na9+BybjoaZpMkntH5Hn0A=",
+        "originContent": "Replace `XXX` to select the autoencoder checkpoints of your choice.",
+        "translatedContent": "Remplacez `XXX` pour sélectionner les points de contrôle de l'autoencodeur de votre choix."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "6zHsp+CG8Hec78M7ZoH89yqk0nfYzIv2gCuH+H8fPsI=",
+        "originContent": "### Train the UNet",
+        "translatedContent": "### Entraînez le UNet"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "UyYX2uZpQLS2kc5754I6uRJGSg7lZbViGEIEPrp/ds0=",
+        "originContent": "Follow the commands below to train the diffusion UNet. Replace `XXX` to select the autoencoder checkpoints of your choice.",
+        "translatedContent": "Suivez les commandes ci-dessous pour entraîner le UNet de diffusion. Remplacez `XXX` pour sélectionner les points de contrôle de l'autoencodeur de votre choix."
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```console\n# Create an output and a cache directory:\nmkdir unet_output unet_cache\n\n# Run the training script\npython scripts/training/train_diffusion_unet.py \\\n  --dataset_csv /path/to/A.csv \\\n  --cache_dir   unet_cache \\\n  --output_dir  unet_output \\\n  --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth\n```",
+    "ContentSha": "UvkokB01M069Q5+GWdW2zKn85ffcfis0+fvovlBeHqA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```console\n# Create an output and a cache directory:\nmkdir unet_output unet_cache\n\n# Run the training script\npython scripts/training/train_diffusion_unet.py \\\n  --dataset_csv /path/to/A.csv \\\n  --cache_dir   unet_cache \\\n  --output_dir  unet_output \\\n  --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+        "originContent": "```console",
+        "translatedContent": "```console"
+      },
+      {
+        "row": 2,
+        "rowsha": "sc4gJnLo+PtR5phKu6IUg8iV9pionVFaRqAvupsocYY=",
+        "originContent": "# Create an output and a cache directory:",
+        "translatedContent": "# Create an output and a cache directory:"
+      },
+      {
+        "row": 3,
+        "rowsha": "r6OOu9XUI9rTETWbo8tZIXLXT1Qgy3Jc0dOT9Pz/bz8=",
+        "originContent": "mkdir unet_output unet_cache",
+        "translatedContent": "mkdir unet_output unet_cache"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "H+Nmu0xxlAChghKMzcZdoLrxJhzHMJpw2COZ7EsPbcs=",
+        "originContent": "# Run the training script",
+        "translatedContent": "# Run the training script"
+      },
+      {
+        "row": 6,
+        "rowsha": "SCfkeWRR/XZogx0TPfzdMfhV7/ia/DfeNmgjFlF0JfU=",
+        "originContent": "python scripts/training/train_diffusion_unet.py \\",
+        "translatedContent": "python scripts/training/train_diffusion_unet.py \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "4cUNVz8eOOCz8cP6TevRSDp6RW0cSSPIfYVyU7YFmCs=",
+        "originContent": "  --dataset_csv /path/to/A.csv \\",
+        "translatedContent": "  --dataset_csv /path/to/A.csv \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "ZhuJ+MdX6wK/OgsoAdaxS0/weEoV1BDgeK5xRiIS3wI=",
+        "originContent": "  --cache_dir   unet_cache \\",
+        "translatedContent": "  --cache_dir   unet_cache \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "rr6ibsCa+yY+WYMlKDnSC1iOdx524Q8Phn25vYPtuek=",
+        "originContent": "  --output_dir  unet_output \\",
+        "translatedContent": "  --output_dir  unet_output \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "3sHo73X9xTzvNTAWnyg2RK66UKceCghH1FlO8vg9WNM=",
+        "originContent": "  --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth",
+        "translatedContent": "  --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n### Train the ControlNet\n\nFollow the commands below to train the ControlNet. Replace `XXX` to select the autoencoder and UNet checkpoints of your choice.\n",
+    "ContentSha": "4O/vMCaAfb3EcVX3i0acKW7EqIlSPFKYHdFHQITHt/g=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Entraînez le ControlNet\n\nSuivez les commandes ci-dessous pour entraîner le ControlNet. Remplacez `XXX` pour sélectionner les points de contrôle de l'autoencodeur et de l'UNet de votre choix.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "LOBjGGJYUUuNC3NI1xfyN1SGFvjN93++jwSbI/gUdVI=",
+        "originContent": "### Train the ControlNet",
+        "translatedContent": "### Entraînez le ControlNet"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "2zsLgMY9ih+tLcvCNe/vs7BD7ejhsrXFWfJyYg6g9OA=",
+        "originContent": "Follow the commands below to train the ControlNet. Replace `XXX` to select the autoencoder and UNet checkpoints of your choice.",
+        "translatedContent": "Suivez les commandes ci-dessous pour entraîner le ControlNet. Remplacez `XXX` pour sélectionner les points de contrôle de l'autoencodeur et de l'UNet de votre choix."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 13,
+    "Content": "```console\n# Create an output and a cache directory:\nmkdir cnet_output cnet_cache\n\n# Run the training script\npython scripts/training/train_controlnet.py \\\n  --dataset_csv /path/to/B.csv \\\n  --cache_dir   unet_cache \\\n  --output_dir  unet_output \\\n  --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth \\\n  --diff_ckpt   unet_output/unet-ep-XXX.pth\n```",
+    "ContentSha": "/tZyIyvgDk03JOP7bETuBntSVGHUCTPG7HTEPy5wMlE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```console\n# Create an output and a cache directory:\nmkdir cnet_output cnet_cache\n\n# Run the training script\npython scripts/training/train_controlnet.py \\\n  --dataset_csv /path/to/B.csv \\\n  --cache_dir   unet_cache \\\n  --output_dir  unet_output \\\n  --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth \\\n  --diff_ckpt   unet_output/unet-ep-XXX.pth\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+        "originContent": "```console",
+        "translatedContent": "```console"
+      },
+      {
+        "row": 2,
+        "rowsha": "sc4gJnLo+PtR5phKu6IUg8iV9pionVFaRqAvupsocYY=",
+        "originContent": "# Create an output and a cache directory:",
+        "translatedContent": "# Create an output and a cache directory:"
+      },
+      {
+        "row": 3,
+        "rowsha": "UTPgX0hGVzWbZ603W1VvGPgUfmXw0xqDyaBCAkgDHno=",
+        "originContent": "mkdir cnet_output cnet_cache",
+        "translatedContent": "mkdir cnet_output cnet_cache"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "H+Nmu0xxlAChghKMzcZdoLrxJhzHMJpw2COZ7EsPbcs=",
+        "originContent": "# Run the training script",
+        "translatedContent": "# Run the training script"
+      },
+      {
+        "row": 6,
+        "rowsha": "PfxY19IbqwYoXp8E3pGNWOEdXg/0VlISwbPg6w0Z9JY=",
+        "originContent": "python scripts/training/train_controlnet.py \\",
+        "translatedContent": "python scripts/training/train_controlnet.py \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "UDJe93/B9ggPiLdNshOCWbMaQFaBZ7t+S5GNpRGG6NA=",
+        "originContent": "  --dataset_csv /path/to/B.csv \\",
+        "translatedContent": "  --dataset_csv /path/to/B.csv \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "ZhuJ+MdX6wK/OgsoAdaxS0/weEoV1BDgeK5xRiIS3wI=",
+        "originContent": "  --cache_dir   unet_cache \\",
+        "translatedContent": "  --cache_dir   unet_cache \\"
+      },
+      {
+        "row": 9,
+        "rowsha": "rr6ibsCa+yY+WYMlKDnSC1iOdx524Q8Phn25vYPtuek=",
+        "originContent": "  --output_dir  unet_output \\",
+        "translatedContent": "  --output_dir  unet_output \\"
+      },
+      {
+        "row": 10,
+        "rowsha": "h5gczj+JV5i99LuQl6qlsAm+PMg37JlCfZrNurLuWoY=",
+        "originContent": "  --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth \\",
+        "translatedContent": "  --aekl_ckpt   ae_output/autoencoder-ep-XXX.pth \\"
+      },
+      {
+        "row": 11,
+        "rowsha": "nlrB6vuzbwTNbcwKgstobnxAQZoUeYDmkLocsmzgQhg=",
+        "originContent": "  --diff_ckpt   unet_output/unet-ep-XXX.pth",
+        "translatedContent": "  --diff_ckpt   unet_output/unet-ep-XXX.pth"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 14,
+    "Content": "\n### Auxiliary models\n\nFollow the commands below to train the DCM auxiliary model.\n",
+    "ContentSha": "4GjKnhuw9rMNeyk/D/ZO3Gt63UMJg/CRTPoAMcjrG28=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Modèles auxiliaires\n\nSuivez les commandes ci-dessous pour entraîner le modèle auxiliaire DCM.\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "3PRfVJrwGa5klgoQrrlG39WOXwuG+zuDaUYg910BKnk=",
+        "originContent": "### Auxiliary models",
+        "translatedContent": "### Modèles auxiliaires"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "dHGMbTswJVs7Ac4ihpYh78YFv7w5yc0NsfmhRdvIMxg=",
+        "originContent": "Follow the commands below to train the DCM auxiliary model.",
+        "translatedContent": "Suivez les commandes ci-dessous pour entraîner le modèle auxiliaire DCM."
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 15,
+    "Content": "```console\n# Create an output directory\nmkdir aux_output\n\n# Run the training script\npython scripts/training/train_aux.py \\\n  --dataset_csv /path/to/A.csv \\\n  --output_path aux_output\n```",
+    "ContentSha": "s3KIQlIaTrP/QyzrG4mh+OiQ2NU3q2jUDqbTYMCJLEU=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```console\n# Create an output directory\nmkdir aux_output\n\n# Run the training script\npython scripts/training/train_aux.py \\\n  --dataset_csv /path/to/A.csv \\\n  --output_path aux_output\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+        "originContent": "```console",
+        "translatedContent": "```console"
+      },
+      {
+        "row": 2,
+        "rowsha": "8/vgCYAVBvfyUrrJnYT8IYDygPxtJYY07OjixZGR4FU=",
+        "originContent": "# Create an output directory",
+        "translatedContent": "# Create an output directory"
+      },
+      {
+        "row": 3,
+        "rowsha": "aBD71btfy5PUuV2RnRLK3LCAGlDiLmvny6V9AG97Xfk=",
+        "originContent": "mkdir aux_output",
+        "translatedContent": "mkdir aux_output"
+      },
+      {
+        "row": 4,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "H+Nmu0xxlAChghKMzcZdoLrxJhzHMJpw2COZ7EsPbcs=",
+        "originContent": "# Run the training script",
+        "translatedContent": "# Run the training script"
+      },
+      {
+        "row": 6,
+        "rowsha": "ndzG68r3us38X4giXnN2CqG2q3Gb8nhdWF5ltDhhNGA=",
+        "originContent": "python scripts/training/train_aux.py \\",
+        "translatedContent": "python scripts/training/train_aux.py \\"
+      },
+      {
+        "row": 7,
+        "rowsha": "4cUNVz8eOOCz8cP6TevRSDp6RW0cSSPIfYVyU7YFmCs=",
+        "originContent": "  --dataset_csv /path/to/A.csv \\",
+        "translatedContent": "  --dataset_csv /path/to/A.csv \\"
+      },
+      {
+        "row": 8,
+        "rowsha": "Atp6sVEqsxO55jxWmON/Kh4metsAwtRSE8o6QHLGlhU=",
+        "originContent": "  --output_path aux_output",
+        "translatedContent": "  --output_path aux_output"
+      },
+      {
+        "row": 9,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 16,
+    "Content": "\nWe emphasize that any disease progression model capable of predicting volumetric changes over time is also viable as an auxiliary model for BrLP.\n\n## Inference\n\nOur package comes with a `brlp` command to use BrLP for inference. Check:",
+    "ContentSha": "qfS241mXUwPvHSLjqe+3EYWA1WLZiOUadqtibZsYyfs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nNous soulignons que tout modèle de progression de maladie capable de prédire les changements volumétriques au fil du temps est également viable en tant que modèle auxiliaire pour BrLP.\n\n## Inférence\n\nNotre package est livré avec une commande `brlp` pour utiliser BrLP pour l'inférence. Vérifiez :",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "Uxlhx00K9KtLLJDNTD6ZR3qGwcieRWsq+0MOdKW+fp4=",
+        "originContent": "We emphasize that any disease progression model capable of predicting volumetric changes over time is also viable as an auxiliary model for BrLP.",
+        "translatedContent": "Nous soulignons que tout modèle de progression de maladie capable de prédire les changements volumétriques au fil du temps est également viable en tant que modèle auxiliaire pour BrLP."
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "j+d4sEsHkglrX0Tjjp/MZxDAlAAy2ZbLKDm+KPC/pIw=",
+        "originContent": "## Inference",
+        "translatedContent": "## Inférence"
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "hPteO1Y/oxh3b7Wm9tm/IB52G4rYFsRSdWA15dWfook=",
+        "originContent": "Our package comes with a `brlp` command to use BrLP for inference. Check:",
+        "translatedContent": "Notre package est livré avec une commande `brlp` pour utiliser BrLP pour l'inférence. Vérifiez :"
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 17,
+    "Content": "```console\nbrlp --help\n```",
+    "ContentSha": "pSO9Rcb6OU24vRfs9YschYFNeeQ7nl0IkF1HohppcqA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```console\nbrlp --help\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "9GJrCbiZXHdpKYpouV++MdTNKCuXUMKM9Tit7iV1l9I=",
+        "originContent": "```console",
+        "translatedContent": "```console"
+      },
+      {
+        "row": 2,
+        "rowsha": "aVddxbb97sWAdagTvBNTW+6u6+864hPv28IYOm3pv6Y=",
+        "originContent": "brlp --help",
+        "translatedContent": "brlp --help"
+      },
+      {
+        "row": 3,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 18,
+    "Content": "\nThe `--input` parameter requires a CSV file where you list all available data for your subjects. For an example, check to `examples/input.example.csv`. If you haven't segmented your input scans, `brlp` can perform this task for you using [SynthSeg](https://surfer.nmr.mgh.harvard.edu/fswiki/SynthSeg), but it requires that FreeSurfer >= 7.4 be installed. The `--confs` parameter specifies the paths to the models and other inference parameters, such as LAS $m$. For an example, check `examples/confs.example.yaml`. \n\nRunning the program looks like this:\n\n![inference-preview](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/assets/inference.gif)\n\n\n## Pretrained models\n\nDownload the pre-trained models for BrLP:\n\n| Model                  | Weights URL                                                  |\n| ---------------------- | ------------------------------------------------------------ |\n| Autoencoder            | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EUxUFIQtkQ1EvBqojYA5BAYByIyHbttca5Mx1cU4bC6q3A?e=sCXSUA) |\n| Diffusion Model UNet   | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EQT7KJTtfmRAguf8_utWeJIBUJPsRRgPZlt94s2vNbwVFw?e=IjHnx7) |\n| ControlNet             | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EYtVvH47dFJJnH8gtwSMA-MB8c3pm4_Z9g5F_IG1OKxW9Q?e=CzvGT4) |\n| Auxiliary Models (DCM) | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EXJDQqLNCwBFkt2J6zg1kpwBS_1hAZoBfGy5AfcGOBZvHQ?e=Z05kOG) |\n\n## Acknowledgements\n\nWe thank the maintainers of open-source libraries for their contributions to accelerating the research process, with a special mention of [MONAI](https://monai.io/) and its [GenerativeModels](https://github.com/Project-MONAI/GenerativeModels/tree/main) extension.\n\n## Citing\n\nMedical Image Analysis:\n",
+    "ContentSha": "+wm3w4ZJ9yxs5UkB5uTE3U2eEqdf5sbOfuBUdnErCIE=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Le paramètre `--input` requiert un fichier CSV dans lequel vous listez toutes les données disponibles pour vos sujets. Pour un exemple, consultez `examples/input.example.csv`. Si vous n'avez pas segmenté vos scans d'entrée, `brlp` peut effectuer cette tâche pour vous en utilisant [SynthSeg](https://surfer.nmr.mgh.harvard.edu/fswiki/SynthSeg), mais cela nécessite que FreeSurfer >= 7.4 soit installé. Le paramètre `--confs` spécifie les chemins vers les modèles et autres paramètres d'inférence, tels que LAS $m$. Pour un exemple, consultez `examples/confs.example.yaml`. \n\nL'exécution du programme se présente ainsi :\n\n![inference-preview](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/assets/inference.gif)\n\n\n## Modèles pré-entraînés\n\nTéléchargez les modèles pré-entraînés pour BrLP :\n\n| Modèle                 | URL des poids                                               |\n| ---------------------- | ------------------------------------------------------------ |\n| Autoencodeur           | [lien](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EUxUFIQtkQ1EvBqojYA5BAYByIyHbttca5Mx1cU4bC6q3A?e=sCXSUA) |\n| Modèle de diffusion UNet | [lien](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EQT7KJTtfmRAguf8_utWeJIBUJPsRRgPZlt94s2vNbwVFw?e=IjHnx7) |\n| ControlNet             | [lien](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EYtVvH47dFJJnH8gtwSMA-MB8c3pm4_Z9g5F_IG1OKxW9Q?e=CzvGT4) |\n| Modèles auxiliaires (DCM) | [lien](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EXJDQqLNCwBFkt2J6zg1kpwBS_1hAZoBfGy5AfcGOBZvHQ?e=Z05kOG) |\n\n## Remerciements\n\nNous remercions les mainteneurs des bibliothèques open-source pour leurs contributions à l'accélération du processus de recherche, avec une mention spéciale à [MONAI](https://monai.io/) et son extension [GenerativeModels](https://github.com/Project-MONAI/GenerativeModels/tree/main).\n\n## Citation\n\nMedical Image Analysis :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Le paramètre `--input` requiert un fichier CSV dans lequel vous listez toutes les données disponibles pour vos sujets. Pour un exemple, consultez `examples/input.example.csv`. Si vous n'avez pas segmenté vos scans d'entrée, `brlp` peut effectuer cette tâche pour vous en utilisant [SynthSeg](https://surfer.nmr.mgh.harvard.edu/fswiki/SynthSeg), mais cela nécessite que FreeSurfer >= 7.4 soit installé. Le paramètre `--confs` spécifie les chemins vers les modèles et autres paramètres d'inférence, tels que LAS $m$. Pour un exemple, consultez `examples/confs.example.yaml`. "
+      },
+      {
+        "row": 2,
+        "rowsha": "kGkxVfFXsdoTLwe8i7ivnDcw0zRVaCBOAPo1XDtVH6g=",
+        "originContent": "The `--input` parameter requires a CSV file where you list all available data for your subjects. For an example, check to `examples/input.example.csv`. If you haven't segmented your input scans, `brlp` can perform this task for you using [SynthSeg](https://surfer.nmr.mgh.harvard.edu/fswiki/SynthSeg), but it requires that FreeSurfer >= 7.4 be installed. The `--confs` parameter specifies the paths to the models and other inference parameters, such as LAS $m$. For an example, check `examples/confs.example.yaml`. ",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "L'exécution du programme se présente ainsi :"
+      },
+      {
+        "row": 4,
+        "rowsha": "uIMKCpzPHA89P3UAD+rdi9LnSuzq2Vyy8WmTt1Qkgw4=",
+        "originContent": "Running the program looks like this:",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "![inference-preview](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/assets/inference.gif)"
+      },
+      {
+        "row": 6,
+        "rowsha": "fQ2tmwGwfYeOapv0kx+zs4uYSY+R8YDXQ6vKL6Asog4=",
+        "originContent": "![inference-preview](https://raw.githubusercontent.com/LemuelPuglisi/BrLP/main/assets/inference.gif)",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Modèles pré-entraînés"
+      },
+      {
+        "row": 9,
+        "rowsha": "AU8mazm/xtHzsIGip8PSWiVmrEaBPT8NUKxF543mV9o=",
+        "originContent": "## Pretrained models",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Téléchargez les modèles pré-entraînés pour BrLP :"
+      },
+      {
+        "row": 11,
+        "rowsha": "Iz+hB2HZZo4Kq3cMiBqcqwgqx67o9C/0A0BLisf7sQ8=",
+        "originContent": "Download the pre-trained models for BrLP:",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "| Modèle                 | URL des poids                                               |"
+      },
+      {
+        "row": 13,
+        "rowsha": "jTM5V1oaVnHwD2epYVit+o4dRDDDHH9Oy24sM5jOH+w=",
+        "originContent": "| Model                  | Weights URL                                                  |",
+        "translatedContent": "| ---------------------- | ------------------------------------------------------------ |"
+      },
+      {
+        "row": 14,
+        "rowsha": "anpOL9t7kL4qCRthYn/Ra9jyxDfHxbbU8iSLmcezbY0=",
+        "originContent": "| ---------------------- | ------------------------------------------------------------ |",
+        "translatedContent": "| Autoencodeur           | [lien](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EUxUFIQtkQ1EvBqojYA5BAYByIyHbttca5Mx1cU4bC6q3A?e=sCXSUA) |"
+      },
+      {
+        "row": 15,
+        "rowsha": "6Bum++RDgwUFsNFZUXbUrmltBS3iX+Z1BkBEV1YUt6A=",
+        "originContent": "| Autoencoder            | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EUxUFIQtkQ1EvBqojYA5BAYByIyHbttca5Mx1cU4bC6q3A?e=sCXSUA) |",
+        "translatedContent": "| Modèle de diffusion UNet | [lien](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EQT7KJTtfmRAguf8_utWeJIBUJPsRRgPZlt94s2vNbwVFw?e=IjHnx7) |"
+      },
+      {
+        "row": 16,
+        "rowsha": "oqkbmOMn193X2K/Edy3lwfDUXApuv2fUQwcnuTAI7L8=",
+        "originContent": "| Diffusion Model UNet   | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EQT7KJTtfmRAguf8_utWeJIBUJPsRRgPZlt94s2vNbwVFw?e=IjHnx7) |",
+        "translatedContent": "| ControlNet             | [lien](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EYtVvH47dFJJnH8gtwSMA-MB8c3pm4_Z9g5F_IG1OKxW9Q?e=CzvGT4) |"
+      },
+      {
+        "row": 17,
+        "rowsha": "8ZsCygKYVzHO4NpSlOgjNwX7BYCh/oikxnLu54vTbD4=",
+        "originContent": "| ControlNet             | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EYtVvH47dFJJnH8gtwSMA-MB8c3pm4_Z9g5F_IG1OKxW9Q?e=CzvGT4) |",
+        "translatedContent": "| Modèles auxiliaires (DCM) | [lien](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EXJDQqLNCwBFkt2J6zg1kpwBS_1hAZoBfGy5AfcGOBZvHQ?e=Z05kOG) |"
+      },
+      {
+        "row": 18,
+        "rowsha": "+p72MdA2Qv2I6yD26eUdsDNQFr5ircFikzywKce6Uyk=",
+        "originContent": "| Auxiliary Models (DCM) | [link](https://studentiunict-my.sharepoint.com/:u:/g/personal/pgllml99h18c351e_studium_unict_it/EXJDQqLNCwBFkt2J6zg1kpwBS_1hAZoBfGy5AfcGOBZvHQ?e=Z05kOG) |",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Remerciements"
+      },
+      {
+        "row": 20,
+        "rowsha": "HvkwNudYOlwL8j/t4djBVF3hUJwHWa2r5QjmSxgq3AA=",
+        "originContent": "## Acknowledgements",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Nous remercions les mainteneurs des bibliothèques open-source pour leurs contributions à l'accélération du processus de recherche, avec une mention spéciale à [MONAI](https://monai.io/) et son extension [GenerativeModels](https://github.com/Project-MONAI/GenerativeModels/tree/main)."
+      },
+      {
+        "row": 22,
+        "rowsha": "zyuAVmVkKRfvmOW7uUMKLJRZkzfca2U6CYdaasDioH0=",
+        "originContent": "We thank the maintainers of open-source libraries for their contributions to accelerating the research process, with a special mention of [MONAI](https://monai.io/) and its [GenerativeModels](https://github.com/Project-MONAI/GenerativeModels/tree/main) extension.",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Citation"
+      },
+      {
+        "row": 24,
+        "rowsha": "GOpO9eZ8zPRIWqs538dg/E85K0PLeykHxmZ0pl3ZCsY=",
+        "originContent": "## Citing",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Medical Image Analysis :"
+      },
+      {
+        "row": 26,
+        "rowsha": "dLR+kV5shL5gKrG3rUm0dI2LY/w2iBv+Y2k2rIarsro=",
+        "originContent": "Medical Image Analysis:",
+        "translatedContent": ""
+      },
+      {
+        "row": 27,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 19,
+    "Content": "```bib\n@article{puglisi2025brain,\n  title={Brain latent progression: Individual-based spatiotemporal disease progression on 3D brain MRIs via latent diffusion},\n  author={Puglisi, Lemuel and Alexander, Daniel C and Rav{\\`\\i}, Daniele},\n  journal={Medical Image Analysis},\n  year={2025}\n}\n```",
+    "ContentSha": "b6+SWfh95J3yNIDgflO4eVVFeTUTklp7wp4KcbllT/w=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bib\n@article{puglisi2025brain,\n  title={Brain latent progression: Individual-based spatiotemporal disease progression on 3D brain MRIs via latent diffusion},\n  author={Puglisi, Lemuel and Alexander, Daniel C and Rav{\\`\\i}, Daniele},\n  journal={Medical Image Analysis},\n  year={2025}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Il8j2Vm3hvNZx4Fst7nBt2r81qCfcdEN+Cvj5sBcBxY=",
+        "originContent": "```bib",
+        "translatedContent": "```bib"
+      },
+      {
+        "row": 2,
+        "rowsha": "wlBQrhfARxRcUOUBixrrpVgos9WNHHQdFTvIRByOdl0=",
+        "originContent": "@article{puglisi2025brain,",
+        "translatedContent": "@article{puglisi2025brain,"
+      },
+      {
+        "row": 3,
+        "rowsha": "o58jnNMeeyySTVVefH1U28aa6AwN/1tjBQdoNZERJJI=",
+        "originContent": "  title={Brain latent progression: Individual-based spatiotemporal disease progression on 3D brain MRIs via latent diffusion},",
+        "translatedContent": "  title={Brain latent progression: Individual-based spatiotemporal disease progression on 3D brain MRIs via latent diffusion},"
+      },
+      {
+        "row": 4,
+        "rowsha": "oAjkeyZ/wGsBDiW85C/BGzS/Q3mk1QlJ8g6b2vdgfbA=",
+        "originContent": "  author={Puglisi, Lemuel and Alexander, Daniel C and Rav{\\`\\i}, Daniele},",
+        "translatedContent": "  author={Puglisi, Lemuel and Alexander, Daniel C and Rav{\\`\\i}, Daniele},"
+      },
+      {
+        "row": 5,
+        "rowsha": "zEyADKlti40FTk+75Ngd8dPsfZIGfzof+mcyDmBZ6t0=",
+        "originContent": "  journal={Medical Image Analysis},",
+        "translatedContent": "  journal={Medical Image Analysis},"
+      },
+      {
+        "row": 6,
+        "rowsha": "6oyqJVJ20XoZhlyGjaewQyTQsSBBtVAYmqUtTwjLbAg=",
+        "originContent": "  year={2025}",
+        "translatedContent": "  year={2025}"
+      },
+      {
+        "row": 7,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 8,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 20,
+    "Content": "\nMICCAI 2024 proceedings:\n",
+    "ContentSha": "LXL+xRmCFuGsccU90Bd7+we4v5xIGOXqIF5A35+0dio=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\nActes de MICCAI 2024 :\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "fkIWwPMDIFc20q0/ELfVlSln52aIIdCEhhujoaro/Gg=",
+        "originContent": "MICCAI 2024 proceedings:",
+        "translatedContent": "Actes de MICCAI 2024 :"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 21,
+    "Content": "```bib\n@inproceedings{puglisi2024enhancing,\n  title={Enhancing spatiotemporal disease progression models via latent diffusion and prior knowledge},\n  author={Puglisi, Lemuel and Alexander, Daniel C and Rav{\\`\\i}, Daniele},\n  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},\n  pages={173--183},\n  year={2024},\n  organization={Springer}\n}\n```",
+    "ContentSha": "fnTqt1NpqT1qOzdstoOg4Lfk3zdHz833F99RcTzR8Rg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bib\n@inproceedings{puglisi2024enhancing,\n  title={Enhancing spatiotemporal disease progression models via latent diffusion and prior knowledge},\n  author={Puglisi, Lemuel and Alexander, Daniel C and Rav{\\`\\i}, Daniele},\n  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},\n  pages={173--183},\n  year={2024},\n  organization={Springer}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Il8j2Vm3hvNZx4Fst7nBt2r81qCfcdEN+Cvj5sBcBxY=",
+        "originContent": "```bib",
+        "translatedContent": "```bib"
+      },
+      {
+        "row": 2,
+        "rowsha": "s5z9ekiCTaqvf+Lhm3z4I50yYpIZgfGqAQ5eJwa7MF0=",
+        "originContent": "@inproceedings{puglisi2024enhancing,",
+        "translatedContent": "@inproceedings{puglisi2024enhancing,"
+      },
+      {
+        "row": 3,
+        "rowsha": "OB0rQ0SP4bXXmH0X9UoDQmKwrPMiaphCKFpDe5roT0c=",
+        "originContent": "  title={Enhancing spatiotemporal disease progression models via latent diffusion and prior knowledge},",
+        "translatedContent": "  title={Enhancing spatiotemporal disease progression models via latent diffusion and prior knowledge},"
+      },
+      {
+        "row": 4,
+        "rowsha": "oAjkeyZ/wGsBDiW85C/BGzS/Q3mk1QlJ8g6b2vdgfbA=",
+        "originContent": "  author={Puglisi, Lemuel and Alexander, Daniel C and Rav{\\`\\i}, Daniele},",
+        "translatedContent": "  author={Puglisi, Lemuel and Alexander, Daniel C and Rav{\\`\\i}, Daniele},"
+      },
+      {
+        "row": 5,
+        "rowsha": "GOteic4xCG/2dpD1F+rWMoSJN0wEe9+1gieqFddQX/w=",
+        "originContent": "  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},",
+        "translatedContent": "  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},"
+      },
+      {
+        "row": 6,
+        "rowsha": "ZOKueLJpctNW6eAdGCVe+JK2lyKB2pXN1ARAkpqNTfw=",
+        "originContent": "  pages={173--183},",
+        "translatedContent": "  pages={173--183},"
+      },
+      {
+        "row": 7,
+        "rowsha": "b6kWALgvcgZ02ui/RHoHdWj3sqezHHiTYiMDSbnd+cs=",
+        "originContent": "  year={2024},",
+        "translatedContent": "  year={2024},"
+      },
+      {
+        "row": 8,
+        "rowsha": "7a01axms/CItKGB/tO0ifUc4UlAZ23v3//NFpJSk3qM=",
+        "originContent": "  organization={Springer}",
+        "translatedContent": "  organization={Springer}"
+      },
+      {
+        "row": 9,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 10,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 22,
+    "Content": "\n\nSPIE Medical Imaging 2025 proceedings: ",
+    "ContentSha": "wvwjJIUw5iYLA5OjP7Spq1xFbX+YobdGYS5mTQsgktI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "Actes de la conférence SPIE sur l’Imagerie Médicale 2025 :\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Actes de la conférence SPIE sur l’Imagerie Médicale 2025 :"
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "IkETP9iX81aOfX1E/rT/KNBF7kvDfAb72p0l7kSWjMM=",
+        "originContent": "SPIE Medical Imaging 2025 proceedings: ",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 23,
+    "Content": "```bib\n@inproceedings{mcmaster2025technical,\n  title={A technical assessment of latent diffusion for Alzheimer's disease progression},\n  author={McMaster, Elyssa and Puglisi, Lemuel and Gao, Chenyu and Krishnan, Aravind R and Saunders, Adam M and Ravi, Daniele and Beason-Held, Lori L and Resnick, Susan M and Zuo, Lianrui and Moyer, Daniel and others},\n  booktitle={Medical Imaging 2025: Image Processing},\n  volume={13406},\n  pages={505--513},\n  year={2025},\n  organization={SPIE}\n}\n```",
+    "ContentSha": "AEHxeNBfvV+st+PUCgEbxUO353tKn4IJxQm6RQTkQ5A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```bib\n@inproceedings{mcmaster2025technical,\n  title={A technical assessment of latent diffusion for Alzheimer's disease progression},\n  author={McMaster, Elyssa and Puglisi, Lemuel and Gao, Chenyu and Krishnan, Aravind R and Saunders, Adam M and Ravi, Daniele and Beason-Held, Lori L and Resnick, Susan M and Zuo, Lianrui and Moyer, Daniel and others},\n  booktitle={Medical Imaging 2025: Image Processing},\n  volume={13406},\n  pages={505--513},\n  year={2025},\n  organization={SPIE}\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "Il8j2Vm3hvNZx4Fst7nBt2r81qCfcdEN+Cvj5sBcBxY=",
+        "originContent": "```bib",
+        "translatedContent": "```bib"
+      },
+      {
+        "row": 2,
+        "rowsha": "XZPawOnQ8HlD1WYrAM2Zi+AaWrsPDqK6ccCMzvlU0nI=",
+        "originContent": "@inproceedings{mcmaster2025technical,",
+        "translatedContent": "@inproceedings{mcmaster2025technical,"
+      },
+      {
+        "row": 3,
+        "rowsha": "sXtSAqxrdJ4/alCQzRRA/zGJp4WB8wVfxUSpykxKV7o=",
+        "originContent": "  title={A technical assessment of latent diffusion for Alzheimer's disease progression},",
+        "translatedContent": "  title={A technical assessment of latent diffusion for Alzheimer's disease progression},"
+      },
+      {
+        "row": 4,
+        "rowsha": "bSmi3162DD98Rd9O1KRx9Pz8TbZRUHKlnGqVz9P9ca8=",
+        "originContent": "  author={McMaster, Elyssa and Puglisi, Lemuel and Gao, Chenyu and Krishnan, Aravind R and Saunders, Adam M and Ravi, Daniele and Beason-Held, Lori L and Resnick, Susan M and Zuo, Lianrui and Moyer, Daniel and others},",
+        "translatedContent": "  author={McMaster, Elyssa and Puglisi, Lemuel and Gao, Chenyu and Krishnan, Aravind R and Saunders, Adam M and Ravi, Daniele and Beason-Held, Lori L and Resnick, Susan M and Zuo, Lianrui and Moyer, Daniel and others},"
+      },
+      {
+        "row": 5,
+        "rowsha": "WgTUi9c0qMq5nAANtnc8QseIccNMJJRDpgXjTyyR3WM=",
+        "originContent": "  booktitle={Medical Imaging 2025: Image Processing},",
+        "translatedContent": "  booktitle={Medical Imaging 2025: Image Processing},"
+      },
+      {
+        "row": 6,
+        "rowsha": "86pWe38ZpLxJhrTKUjmvVOmobiw0dQaePx2Q4nzubAo=",
+        "originContent": "  volume={13406},",
+        "translatedContent": "  volume={13406},"
+      },
+      {
+        "row": 7,
+        "rowsha": "OQUoDSRUta1Ae3FleJVdgb0HGn6OpqWcjGVf5uKH+tw=",
+        "originContent": "  pages={505--513},",
+        "translatedContent": "  pages={505--513},"
+      },
+      {
+        "row": 8,
+        "rowsha": "Ke27aPhsKHbgkUrooY2+2yT7HqHlYsKl8lWn5w6GeCs=",
+        "originContent": "  year={2025},",
+        "translatedContent": "  year={2025},"
+      },
+      {
+        "row": 9,
+        "rowsha": "M3cKXVGngeCnY5qUL5SvCmlBU+FOzuSA/AL6guECoXw=",
+        "originContent": "  organization={SPIE}",
+        "translatedContent": "  organization={SPIE}"
+      },
+      {
+        "row": 10,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 11,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 24,
+    "Content": "\n",
+    "ContentSha": "AbpHGcgLb+kRsJGnwFEktk7uzpZOCcBY74+YBdrKVGs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]

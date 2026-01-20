@@ -1,0 +1,1292 @@
+[
+  {
+    "Id": 1,
+    "Content": "[![Maven Central](https://img.shields.io/maven-central/v/dev.kotbase/couchbase-lite)](\nhttps://central.sonatype.com/namespace/dev.kotbase)\n[![Kotlin](https://img.shields.io/badge/kotlin-2.2.20-blue.svg?logo=kotlin)](http://kotlinlang.org)\n[![GitHub License](https://img.shields.io/github/license/jeffdgr8/kotbase)](LICENSE)\n[![Couchbase Community](https://img.shields.io/badge/couchbase-community-ea2328?logo=couchbase&logoColor=ea2328)](\nhttps://www.couchbase.com/developers/community/)\n[![Slack Channel](https://img.shields.io/badge/chat-%23couchbase-4a154b.svg?logo=slack)](\nhttps://kotlinlang.slack.com/messages/couchbase/)\n\n# Kotbase\n\n**Kot**lin Multiplatform library for Couch**base** Lite\n\n## Introduction\n\nKotbase pairs [Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/) with [Couchbase Lite](\nhttps://www.couchbase.com/products/lite/), an embedded NoSQL JSON document database. Couchbase Lite can be used as a\nstandalone client database, or paired with [Couchbase Server](https://www.couchbase.com/products/server/) and [Sync\nGateway](https://www.couchbase.com/products/sync-gateway/) or [Capella App Services](\nhttps://www.couchbase.com/products/capella/app-services/) for cloud to edge data synchronization. Features include:\n\n* [SQL++](https://www.couchbase.com/products/n1ql/), key/value, full-text search, and vector search queries\n* Observable queries, documents, databases, and replicators\n* Binary document attachments (blobs)\n* Peer-to-peer and cloud-to-edge data sync\n\nKotbase provides full Enterprise and Community Edition API support for Android and JVM ([via Java SDK](\nhttps://github.com/couchbase/couchbase-lite-java-ce-root)), native iOS and macOS ([via Objective-C SDK](\nhttps://github.com/couchbase/couchbase-lite-ios)), and experimental support for native Linux and Windows ([via C SDK](\nhttps://github.com/couchbase/couchbase-lite-C)).\n\n## Installation\n\nAdd either the Community or Enterprise Edition dependency in the **commonMain** source set dependencies of your\nshared module's **build.gradle.kts**:\n",
+    "ContentSha": "fS1Dyf2mjL8JNjGvhYZZZzS91IlIbTpmzLAfs9W6zP0=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "[![Maven Central](https://img.shields.io/maven-central/v/dev.kotbase/couchbase-lite)](\nhttps://central.sonatype.com/namespace/dev.kotbase)\n[![Kotlin](https://img.shields.io/badge/kotlin-2.2.20-blue.svg?logo=kotlin)](http://kotlinlang.org)\n[![GitHub License](https://img.shields.io/github/license/jeffdgr8/kotbase)](LICENSE)\n[![Couchbase Community](https://img.shields.io/badge/couchbase-community-ea2328?logo=couchbase&logoColor=ea2328)](\nhttps://www.couchbase.com/developers/community/)\n[![Slack Channel](https://img.shields.io/badge/chat-%23couchbase-4a154b.svg?logo=slack)](\nhttps://kotlinlang.slack.com/messages/couchbase/)\n\n# Kotbase\n\n**Kot**lin マルチプラットフォームライブラリ for Couch**base** Lite\n\n## はじめに\n\nKotbase は [Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/) と埋め込み型 NoSQL JSON ドキュメントデータベースの [Couchbase Lite](\nhttps://www.couchbase.com/products/lite/) を組み合わせたものです。Couchbase Lite はスタンドアロンのクライアントデータベースとして使用でき、また [Couchbase Server](https://www.couchbase.com/products/server/) と [Sync\nGateway](https://www.couchbase.com/products/sync-gateway/) または [Capella App Services](\nhttps://www.couchbase.com/products/capella/app-services/) と組み合わせてクラウドからエッジへのデータ同期を行うことができます。主な特徴は以下の通りです:\n\n* [SQL++](https://www.couchbase.com/products/n1ql/)、キー/バリュー、全文検索、およびベクター検索クエリ\n* オブザーバブルクエリ、ドキュメント、データベース、レプリケーター\n* バイナリドキュメント添付ファイル（blob）\n* ピアツーピアおよびクラウドからエッジへのデータ同期\n\nKotbase は Android と JVM 向けに完全な Enterprise および Community Edition API サポートを提供します（[Java SDK 経由](\nhttps://github.com/couchbase/couchbase-lite-java-ce-root)）、ネイティブ iOS と macOS 向けに（[Objective-C SDK 経由](\nhttps://github.com/couchbase/couchbase-lite-ios)）、そしてネイティブ Linux と Windows 向けに実験的サポートを提供します（[C SDK 経由](\nhttps://github.com/couchbase/couchbase-lite-C)）。\n\n## インストール\n\n共有モジュールの **build.gradle.kts** にある **commonMain** ソースセットの依存関係に Community または Enterprise Edition の依存関係を追加してください:\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "skzo2JVHpCUkiDkFgbHD2h92gP0lZQXhTdmRdyWecdw=",
+        "originContent": "[![Maven Central](https://img.shields.io/maven-central/v/dev.kotbase/couchbase-lite)](",
+        "translatedContent": "[![Maven Central](https://img.shields.io/maven-central/v/dev.kotbase/couchbase-lite)]("
+      },
+      {
+        "row": 2,
+        "rowsha": "2NRX+dnLCgJBLWYJylR1hzBVnb5PAKOtZGPCu9Et54k=",
+        "originContent": "https://central.sonatype.com/namespace/dev.kotbase)",
+        "translatedContent": "https://central.sonatype.com/namespace/dev.kotbase)"
+      },
+      {
+        "row": 3,
+        "rowsha": "gZS90gEXmc7AUb/tgV8W0CiKeWYRNzupikI5D9+KGvo=",
+        "originContent": "[![Kotlin](https://img.shields.io/badge/kotlin-2.2.20-blue.svg?logo=kotlin)](http://kotlinlang.org)",
+        "translatedContent": "[![Kotlin](https://img.shields.io/badge/kotlin-2.2.20-blue.svg?logo=kotlin)](http://kotlinlang.org)"
+      },
+      {
+        "row": 4,
+        "rowsha": "XPjcuuofyOYsHTtqGg80JGjZNYAN6APUj0ssrhWhpew=",
+        "originContent": "[![GitHub License](https://img.shields.io/github/license/jeffdgr8/kotbase)](LICENSE)",
+        "translatedContent": "[![GitHub License](https://img.shields.io/github/license/jeffdgr8/kotbase)](LICENSE)"
+      },
+      {
+        "row": 5,
+        "rowsha": "hNK/bLfP14JwssM9/ofKuVMRLHomtMx6lMFnDISTMhI=",
+        "originContent": "[![Couchbase Community](https://img.shields.io/badge/couchbase-community-ea2328?logo=couchbase&logoColor=ea2328)](",
+        "translatedContent": "[![Couchbase Community](https://img.shields.io/badge/couchbase-community-ea2328?logo=couchbase&logoColor=ea2328)]("
+      },
+      {
+        "row": 6,
+        "rowsha": "bhY5nsc6wrX+D4V0yYXy/WzAXv1CS6ZHyBlJ2+HsIQY=",
+        "originContent": "https://www.couchbase.com/developers/community/)",
+        "translatedContent": "https://www.couchbase.com/developers/community/)"
+      },
+      {
+        "row": 7,
+        "rowsha": "uGlWjrz4nbyaWQp2bAnKKBGXkJr3PIwiDEdy9dJhll0=",
+        "originContent": "[![Slack Channel](https://img.shields.io/badge/chat-%23couchbase-4a154b.svg?logo=slack)](",
+        "translatedContent": "[![Slack Channel](https://img.shields.io/badge/chat-%23couchbase-4a154b.svg?logo=slack)]("
+      },
+      {
+        "row": 8,
+        "rowsha": "n+PVv4Ic+RNg7I3Y/CuQ8AUSMl2n+EB76Ryb9I17STc=",
+        "originContent": "https://kotlinlang.slack.com/messages/couchbase/)",
+        "translatedContent": "https://kotlinlang.slack.com/messages/couchbase/)"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "PyN91svKeZhOL8DnbbC19+Fz0D5irFeoDBjYH4H2hmI=",
+        "originContent": "# Kotbase",
+        "translatedContent": "# Kotbase"
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 12,
+        "rowsha": "uC1G06F7fYIJHknBKM3wqhp7+MkfAk9/tHvsN+TSlGk=",
+        "originContent": "**Kot**lin Multiplatform library for Couch**base** Lite",
+        "translatedContent": "**Kot**lin マルチプラットフォームライブラリ for Couch**base** Lite"
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 14,
+        "rowsha": "11PvuraB+k2oJHDZqDscIC3lj5L9SY53omnBFjvEcUs=",
+        "originContent": "## Introduction",
+        "translatedContent": "## はじめに"
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 16,
+        "rowsha": "2FqmRvtRql3GuNUb0ifkBtP1gD2kwPkTFWEzXJcjRpk=",
+        "originContent": "Kotbase pairs [Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/) with [Couchbase Lite](",
+        "translatedContent": "Kotbase は [Kotlin Multiplatform](https://www.jetbrains.com/kotlin-multiplatform/) と埋め込み型 NoSQL JSON ドキュメントデータベースの [Couchbase Lite]("
+      },
+      {
+        "row": 17,
+        "rowsha": "vsy+t2IIr0RhwbHTTtVIQl5S5iJZV+vMFtOlIA12lTM=",
+        "originContent": "https://www.couchbase.com/products/lite/), an embedded NoSQL JSON document database. Couchbase Lite can be used as a",
+        "translatedContent": "https://www.couchbase.com/products/lite/) を組み合わせたものです。Couchbase Lite はスタンドアロンのクライアントデータベースとして使用でき、また [Couchbase Server](https://www.couchbase.com/products/server/) と [Sync"
+      },
+      {
+        "row": 18,
+        "rowsha": "TxVHe5mGAMoKn3BqkuOkX2JHFHuFaCWazlnAt2JobbQ=",
+        "originContent": "standalone client database, or paired with [Couchbase Server](https://www.couchbase.com/products/server/) and [Sync",
+        "translatedContent": "Gateway](https://www.couchbase.com/products/sync-gateway/) または [Capella App Services]("
+      },
+      {
+        "row": 19,
+        "rowsha": "ssy/92IyjLBNeA43Zpug2ciQgyamdU+bawvK0+o8i2U=",
+        "originContent": "Gateway](https://www.couchbase.com/products/sync-gateway/) or [Capella App Services](",
+        "translatedContent": "https://www.couchbase.com/products/capella/app-services/) と組み合わせてクラウドからエッジへのデータ同期を行うことができます。主な特徴は以下の通りです:"
+      },
+      {
+        "row": 20,
+        "rowsha": "zHEQAKIng6aiTx/nLDDi/NAPpOL6hJpqNOfagBugCKI=",
+        "originContent": "https://www.couchbase.com/products/capella/app-services/) for cloud to edge data synchronization. Features include:",
+        "translatedContent": ""
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* [SQL++](https://www.couchbase.com/products/n1ql/)、キー/バリュー、全文検索、およびベクター検索クエリ"
+      },
+      {
+        "row": 22,
+        "rowsha": "rRc627/5cmUWB9vWXUjrbMl3RNV88xEkxPdOvfEy4kE=",
+        "originContent": "* [SQL++](https://www.couchbase.com/products/n1ql/), key/value, full-text search, and vector search queries",
+        "translatedContent": "* オブザーバブルクエリ、ドキュメント、データベース、レプリケーター"
+      },
+      {
+        "row": 23,
+        "rowsha": "Sst10i0WrXwdxAm173RhXrZkY1r55Kxu1Vssxvwkpko=",
+        "originContent": "* Observable queries, documents, databases, and replicators",
+        "translatedContent": "* バイナリドキュメント添付ファイル（blob）"
+      },
+      {
+        "row": 24,
+        "rowsha": "ebJaCTQ2YUZX1MaHPK/aLRwnf0rSrhALLlKonoMAkcs=",
+        "originContent": "* Binary document attachments (blobs)",
+        "translatedContent": "* ピアツーピアおよびクラウドからエッジへのデータ同期"
+      },
+      {
+        "row": 25,
+        "rowsha": "852zPnKMECChEJUO0TbtNNrgdzAOaeK1QC611mNdXAE=",
+        "originContent": "* Peer-to-peer and cloud-to-edge data sync",
+        "translatedContent": ""
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Kotbase は Android と JVM 向けに完全な Enterprise および Community Edition API サポートを提供します（[Java SDK 経由]("
+      },
+      {
+        "row": 27,
+        "rowsha": "7Ah4uph1M1uBQ/CsDd39oIvorzxF5css332YayJADoA=",
+        "originContent": "Kotbase provides full Enterprise and Community Edition API support for Android and JVM ([via Java SDK](",
+        "translatedContent": "https://github.com/couchbase/couchbase-lite-java-ce-root)）、ネイティブ iOS と macOS 向けに（[Objective-C SDK 経由]("
+      },
+      {
+        "row": 28,
+        "rowsha": "uZ5SJnuZnhGhsE8NgbgSV7PAxUPHdBi5r8F2klx6kLQ=",
+        "originContent": "https://github.com/couchbase/couchbase-lite-java-ce-root)), native iOS and macOS ([via Objective-C SDK](",
+        "translatedContent": "https://github.com/couchbase/couchbase-lite-ios)）、そしてネイティブ Linux と Windows 向けに実験的サポートを提供します（[C SDK 経由]("
+      },
+      {
+        "row": 29,
+        "rowsha": "vgDpHzN25OhZfgQSVOuImDXWQAyxYUoDhIvDJYQIU6Y=",
+        "originContent": "https://github.com/couchbase/couchbase-lite-ios)), and experimental support for native Linux and Windows ([via C SDK](",
+        "translatedContent": "https://github.com/couchbase/couchbase-lite-C)）。"
+      },
+      {
+        "row": 30,
+        "rowsha": "jTfuSu34PUPKm7RTioqQzqKqhw+SFgYBT0VOSt5whOI=",
+        "originContent": "https://github.com/couchbase/couchbase-lite-C)).",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## インストール"
+      },
+      {
+        "row": 32,
+        "rowsha": "oV0SUDvwD2VN8Gi9nlr2JZ2xcDrASmE2W5kc5SVX5eo=",
+        "originContent": "## Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "共有モジュールの **build.gradle.kts** にある **commonMain** ソースセットの依存関係に Community または Enterprise Edition の依存関係を追加してください:"
+      },
+      {
+        "row": 34,
+        "rowsha": "zB6W3Teyc5PU2PwN+v1BfZYGD8FE+VLpESXEGHggRS8=",
+        "originContent": "Add either the Community or Enterprise Edition dependency in the **commonMain** source set dependencies of your",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "0MZKalT/7fPwz19pJkO9dGdayTM0SaVPpMJ+KM5vkL0=",
+        "originContent": "shared module's **build.gradle.kts**:",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 2,
+    "Content": "```kotlin\nkotlin {\n    sourceSets {\n        commonMain.dependencies {\n            // Community Edition\n            implementation(\"dev.kotbase:couchbase-lite:3.2.4-1.2.0\")\n            // or Enterprise Edition\n            implementation(\"dev.kotbase:couchbase-lite-ee:3.2.4-1.2.0\")\n        }\n    }\n}\n```",
+    "ContentSha": "zXVl94nYMMwTcQ4Td2ugCFQj+cCnr9Pyg1qbphObBvc=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nkotlin {\n    sourceSets {\n        commonMain.dependencies {\n            // Community Edition\n            implementation(\"dev.kotbase:couchbase-lite:3.2.4-1.2.0\")\n            // or Enterprise Edition\n            implementation(\"dev.kotbase:couchbase-lite-ee:3.2.4-1.2.0\")\n        }\n    }\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "CADyS8pU316kajZCOvPgnA6xfSDdCkM13UhOss8kdks=",
+        "originContent": "kotlin {",
+        "translatedContent": "kotlin {"
+      },
+      {
+        "row": 3,
+        "rowsha": "0JL5ozgGEgzQp/Ezd860led4aF3Gd88SB6CyLA6oTmA=",
+        "originContent": "    sourceSets {",
+        "translatedContent": "    sourceSets {"
+      },
+      {
+        "row": 4,
+        "rowsha": "eSjaCKOwKOxSnVgDy7SahkNqw4wQ4glYU9LpTwWwDQs=",
+        "originContent": "        commonMain.dependencies {",
+        "translatedContent": "        commonMain.dependencies {"
+      },
+      {
+        "row": 5,
+        "rowsha": "rIpNQvWiu615w23ZT76w2/yHN2q0CiuNXzExUHq6yls=",
+        "originContent": "            // Community Edition",
+        "translatedContent": "            // Community Edition"
+      },
+      {
+        "row": 6,
+        "rowsha": "avkO5QmcIaLNG9SrBv0i2g7nuk4AlcUmro6rZKKlevI=",
+        "originContent": "            implementation(\"dev.kotbase:couchbase-lite:3.2.4-1.2.0\")",
+        "translatedContent": "            implementation(\"dev.kotbase:couchbase-lite:3.2.4-1.2.0\")"
+      },
+      {
+        "row": 7,
+        "rowsha": "b9f4bteEoE9xP9V/XNWg31EIfnT8S3c/RrtQJH0AI4c=",
+        "originContent": "            // or Enterprise Edition",
+        "translatedContent": "            // or Enterprise Edition"
+      },
+      {
+        "row": 8,
+        "rowsha": "4DmV7UEllz8WdAtzwBagn8JwDTm+UkAAWxE9LDYb0z0=",
+        "originContent": "            implementation(\"dev.kotbase:couchbase-lite-ee:3.2.4-1.2.0\")",
+        "translatedContent": "            implementation(\"dev.kotbase:couchbase-lite-ee:3.2.4-1.2.0\")"
+      },
+      {
+        "row": 9,
+        "rowsha": "KkQWgxjiJOH4MP6atiCqAN1Pez+xnvQ5mr9ZWTzwdW0=",
+        "originContent": "        }",
+        "translatedContent": "        }"
+      },
+      {
+        "row": 10,
+        "rowsha": "KNhneGFfavR7sbxPQPrOdWdJdo5REfEUz6I0pQYMJa8=",
+        "originContent": "    }",
+        "translatedContent": "    }"
+      },
+      {
+        "row": 11,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 12,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 3,
+    "Content": "\n> **Note**\n> The Couchbase Lite Community Edition is free and open source. The Enterprise Edition is free for development and\n> testing, but requires a [license from Couchbase](https://www.couchbase.com/pricing/#couchbase-mobile) for production\n> use. [See Community vs Enterprise Edition.](https://www.couchbase.com/products/editions/mobile/)\n\nKotbase is published to Maven Central. The Couchbase Lite Enterprise Edition dependency additionally requires the\nCouchbase Maven repository.\n",
+    "ContentSha": "tMcXIDixSZe1g8RrFx9IX517mQV/xFrZDszeQQc9IQA=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n> **注意**\n> Couchbase Lite Community Editionは無料でオープンソースです。Enterprise Editionは開発および\n> テストには無料ですが、本番環境での使用には[Couchbaseからのライセンス](https://www.couchbase.com/pricing/#couchbase-mobile)が必要です。\n> [Community版とEnterprise版の違いはこちら。](https://www.couchbase.com/products/editions/mobile/)\n> \n> KotbaseはMaven Centralに公開されています。Couchbase Lite Enterprise Editionの依存関係には\n> さらにCouchbase Mavenリポジトリが必要です。\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "ZJJI0CE81qgS98uD8HOe4uXs2w41c4Jg0tN/OECUE+E=",
+        "originContent": "> **Note**",
+        "translatedContent": "> **注意**"
+      },
+      {
+        "row": 3,
+        "rowsha": "RtyXUvdxiW5OkZjX3FFf5LGSJoH9AKgBCejSpef6Gjw=",
+        "originContent": "> The Couchbase Lite Community Edition is free and open source. The Enterprise Edition is free for development and",
+        "translatedContent": "> Couchbase Lite Community Editionは無料でオープンソースです。Enterprise Editionは開発および"
+      },
+      {
+        "row": 4,
+        "rowsha": "PPaMBLEbePIgqw+wXNvUDhoFgfDDeKgnwTXxF8XXlQs=",
+        "originContent": "> testing, but requires a [license from Couchbase](https://www.couchbase.com/pricing/#couchbase-mobile) for production",
+        "translatedContent": "> テストには無料ですが、本番環境での使用には[Couchbaseからのライセンス](https://www.couchbase.com/pricing/#couchbase-mobile)が必要です。"
+      },
+      {
+        "row": 5,
+        "rowsha": "aQj1RKF17746kKZSN19nfTMnEzdgwuq74ADU/DRu/Ck=",
+        "originContent": "> use. [See Community vs Enterprise Edition.](https://www.couchbase.com/products/editions/mobile/)",
+        "translatedContent": "> [Community版とEnterprise版の違いはこちら。](https://www.couchbase.com/products/editions/mobile/)"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "> "
+      },
+      {
+        "row": 7,
+        "rowsha": "ML1/z2+0fuNYsPEpVuKyR6Ai/qykjRunOfyaLCjAj2w=",
+        "originContent": "Kotbase is published to Maven Central. The Couchbase Lite Enterprise Edition dependency additionally requires the",
+        "translatedContent": "> KotbaseはMaven Centralに公開されています。Couchbase Lite Enterprise Editionの依存関係には"
+      },
+      {
+        "row": 8,
+        "rowsha": "0FbmHhvsxpMp9wC+8tpxU11Div5WAl2TaJeykywckgs=",
+        "originContent": "Couchbase Maven repository.",
+        "translatedContent": "> さらにCouchbase Mavenリポジトリが必要です。"
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 4,
+    "Content": "```kotlin\nrepositories {\n    mavenCentral()\n    maven(\"https://mobile.maven.couchbase.com/maven2/dev/\")\n}\n```",
+    "ContentSha": "FnjBdPdGEcIURMRISwCcP1afnkqmK9Rt1GPGRuGck1M=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\nrepositories {\n    mavenCentral()\n    maven(\"https://mobile.maven.couchbase.com/maven2/dev/\")\n}\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "TvBbktu5UvgB5/q5LAiHoocG1fD5JwV9oTX2FLNJr8Y=",
+        "originContent": "repositories {",
+        "translatedContent": "repositories {"
+      },
+      {
+        "row": 3,
+        "rowsha": "SscqkqDemGP/N8uqAMFAW5/pfAwynaeOa/0YyTfIRSA=",
+        "originContent": "    mavenCentral()",
+        "translatedContent": "    mavenCentral()"
+      },
+      {
+        "row": 4,
+        "rowsha": "WhBMAfFq3KMN+Wn32dpNLYiy2FEyM/dhU/nY+pCOxNY=",
+        "originContent": "    maven(\"https://mobile.maven.couchbase.com/maven2/dev/\")",
+        "translatedContent": "    maven(\"https://mobile.maven.couchbase.com/maven2/dev/\")"
+      },
+      {
+        "row": 5,
+        "rowsha": "0Qs2qnSlm89KiBhYN/ZYr682Ru/yuxbDko0OkzXpRdI=",
+        "originContent": "}",
+        "translatedContent": "}"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 5,
+    "Content": "\n### Native Platforms\n\nNative platform targets should additionally link to the Couchbase Lite dependency native binary. See [Supported\nPlatforms](https://kotbase.dev/current/platforms/) for more details.\n\n### Linux\n\nTargeting JVM running on Linux or native Linux, both require a specific version of the libicu dependency. (You will see\nan error such as `libLiteCore.so: libicuuc.so.71: cannot open shared object file: No such file or directory` indicating\nthe expected version.) If the required version isn't available from your distribution's package manager, you can\ndownload it from [GitHub](https://github.com/unicode-org/icu/releases).\n\n## Documentation\n\nKotbase documentation can be found at [kotbase.dev](https://kotbase.dev/), including [getting started examples](\nhttps://kotbase.dev/current/getting-started/), [usage guide](https://kotbase.dev/current/databases/), and [API reference](\nhttps://kotbase.dev/api/).\n\n## Differences from Java SDK\n\nKotbase's API aligns with the Couchbase Lite [Java](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/\nhttps://docs.couchbase.com/couchbase-lite/current/java/quickstart.html) and [Android KTX](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/\nhttps://docs.couchbase.com/couchbase-lite/current/android/quickstart.html) SDKs. Migrating existing Kotlin code can be\nas straightforward as changing the import package from `com.couchbase.lite` to `kotbase`, with some exceptions:\n\n* Java callback functional interfaces are implemented as Kotlin function types.\n* `File`, `URL`, and `URI` APIs are represented as strings.\n* `Date` APIs use Kotlin's `Instant`.\n* `InputStream` APIs use [kotlinx-io's `Source`](\n  https://kotlinlang.org/api/kotlinx-io/kotlinx-io-core/kotlinx.io/-source/).\n* `Executor` APIs use Kotlin's `CoroutineContext`.\n* Certificate APIs are available as raw `ByteArray`s or in platform-specific code.\n* There's no need to explicitly call `CouchbaseLite.init()`. Initialization functions can still be called with custom\n  parameters in JVM and Android platform code.\n* Efforts have been made to detect and throw Kotlin exceptions for common error conditions, but `NSError` may still leak\n  through on Apple platforms. [Please report](https://github.com/jeffdgr8/kotbase/issues/new) any occurrences that may\n  deserve addressing.\n* Some deprecated APIs are omitted.\n* While not available in the Java SDK, as Java doesn't support operator overloading, [`Fragment` subscript APIs](",
+    "ContentSha": "ob1OEd1U22XgzJ2fH5rCU9EtepLH5doT3l+IJHnGNWg=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "### ネイティブプラットフォーム\n\nネイティブプラットフォームのターゲットは、Couchbase Lite依存のネイティブバイナリにもリンクする必要があります。詳細は[対応プラットフォーム](https://kotbase.dev/current/platforms/)を参照してください。\n\n### Linux\n\nLinux上で動作するJVMまたはネイティブLinuxをターゲットにする場合、特定バージョンのlibicu依存関係が必要です。（`libLiteCore.so: libicuuc.so.71: cannot open shared object file: No such file or directory`のようなエラーが表示され、期待されるバージョンが示されます。）必要なバージョンがディストリビューションのパッケージマネージャーで利用できない場合は、[GitHub](https://github.com/unicode-org/icu/releases)からダウンロードできます。\n\n## ドキュメント\n\nKotbaseのドキュメントは[kotbase.dev](https://kotbase.dev/)で入手でき、[入門例](https://kotbase.dev/current/getting-started/)、[使用ガイド](https://kotbase.dev/current/databases/)、および[APIリファレンス](https://kotbase.dev/api/)が含まれています。\n\n## Java SDKとの違い\n\nKotbaseのAPIはCouchbase Liteの[Java](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/\nhttps://docs.couchbase.com/couchbase-lite/current/java/quickstart.html)および[Android KTX](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/\nhttps://docs.couchbase.com/couchbase-lite/current/android/quickstart.html) SDKに整合しています。既存のKotlinコードの移行は、インポートパッケージを`com.couchbase.lite`から`kotbase`に変更するだけで済む場合がありますが、一部例外があります：\n\n* Javaのコールバック関数型インターフェースはKotlinの関数型として実装されています。\n* `File`、`URL`、`URI`のAPIは文字列として表現されます。\n* `Date`のAPIはKotlinの`Instant`を使用します。\n* `InputStream`のAPIは[kotlinx-ioの`Source`](https://kotlinlang.org/api/kotlinx-io/kotlinx-io-core/kotlinx.io/-source/)を使用します。\n* `Executor`のAPIはKotlinの`CoroutineContext`を使用します。\n* 証明書APIは生の`ByteArray`またはプラットフォーム固有のコードで利用可能です。\n* `CouchbaseLite.init()`を明示的に呼び出す必要はありません。JVMおよびAndroidプラットフォームコードではカスタムパラメータで初期化関数を呼び出すことも可能です。\n* 一般的なエラー条件に対してKotlin例外を検出しスローするよう努めていますが、Appleプラットフォームでは`NSError`が漏れる可能性があります。[発生した場合は報告](https://github.com/jeffdgr8/kotbase/issues/new)してください。\n* 一部の非推奨APIは省略されています。\n* Java SDKにはない、Javaが演算子オーバーロードをサポートしていないために存在しない[`Fragment`のサブスクリプトAPI](\n\n\n\n\n\n\n\n\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### ネイティブプラットフォーム"
+      },
+      {
+        "row": 2,
+        "rowsha": "kx1e1Ks75d1cLYgj5bjKZxvZ1UDLhoTIKVysxeS7aOo=",
+        "originContent": "### Native Platforms",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "ネイティブプラットフォームのターゲットは、Couchbase Lite依存のネイティブバイナリにもリンクする必要があります。詳細は[対応プラットフォーム](https://kotbase.dev/current/platforms/)を参照してください。"
+      },
+      {
+        "row": 4,
+        "rowsha": "ndiyp9wybG7b0oeFuUV5W56U5l6lEw1y7AQJT6rq6bM=",
+        "originContent": "Native platform targets should additionally link to the Couchbase Lite dependency native binary. See [Supported",
+        "translatedContent": ""
+      },
+      {
+        "row": 5,
+        "rowsha": "0HZk3THprpWIQBnxOtDFsVk6cSI/n+BZdfoi6S+i93A=",
+        "originContent": "Platforms](https://kotbase.dev/current/platforms/) for more details.",
+        "translatedContent": "### Linux"
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "YGHX5mbGkv6EWAWVGKW6VzCICMWLYN3sTpnrC/7LgCA=",
+        "originContent": "### Linux",
+        "translatedContent": "Linux上で動作するJVMまたはネイティブLinuxをターゲットにする場合、特定バージョンのlibicu依存関係が必要です。（`libLiteCore.so: libicuuc.so.71: cannot open shared object file: No such file or directory`のようなエラーが表示され、期待されるバージョンが示されます。）必要なバージョンがディストリビューションのパッケージマネージャーで利用できない場合は、[GitHub](https://github.com/unicode-org/icu/releases)からダウンロードできます。"
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "7g8iJshtXBcHMYWR4ReAfkfnmh+3oua8mxbYzlLb6XA=",
+        "originContent": "Targeting JVM running on Linux or native Linux, both require a specific version of the libicu dependency. (You will see",
+        "translatedContent": "## ドキュメント"
+      },
+      {
+        "row": 10,
+        "rowsha": "GLVOqYS9FTHDVg3gsdCW+l9Ym8oKpV/1zU0dcIu3rOc=",
+        "originContent": "an error such as `libLiteCore.so: libicuuc.so.71: cannot open shared object file: No such file or directory` indicating",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "JUC7nnqky4scl88l6jYLsLEmCjWqNWmGDrUXLY1RtX0=",
+        "originContent": "the expected version.) If the required version isn't available from your distribution's package manager, you can",
+        "translatedContent": "Kotbaseのドキュメントは[kotbase.dev](https://kotbase.dev/)で入手でき、[入門例](https://kotbase.dev/current/getting-started/)、[使用ガイド](https://kotbase.dev/current/databases/)、および[APIリファレンス](https://kotbase.dev/api/)が含まれています。"
+      },
+      {
+        "row": 12,
+        "rowsha": "eVa8ajemuhympOWh4eEXuWRxYJnn5Q0mWraYPMO+TJU=",
+        "originContent": "download it from [GitHub](https://github.com/unicode-org/icu/releases).",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## Java SDKとの違い"
+      },
+      {
+        "row": 14,
+        "rowsha": "Bg1mpPPApWZMfShs6G6quwgup+bJ7DNO8WKQwyxE8U4=",
+        "originContent": "## Documentation",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "KotbaseのAPIはCouchbase Liteの[Java](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/"
+      },
+      {
+        "row": 16,
+        "rowsha": "nH5gGpYJFYRaicLzmh3kGa4jXvTfIlrJBT+fFzk3gEw=",
+        "originContent": "Kotbase documentation can be found at [kotbase.dev](https://kotbase.dev/), including [getting started examples](",
+        "translatedContent": "https://docs.couchbase.com/couchbase-lite/current/java/quickstart.html)および[Android KTX](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/"
+      },
+      {
+        "row": 17,
+        "rowsha": "l/QkaEWTRbAez/PP6YuaeSGYKqJRnt0lGM1QOSNarhU=",
+        "originContent": "https://kotbase.dev/current/getting-started/), [usage guide](https://kotbase.dev/current/databases/), and [API reference](",
+        "translatedContent": "https://docs.couchbase.com/couchbase-lite/current/android/quickstart.html) SDKに整合しています。既存のKotlinコードの移行は、インポートパッケージを`com.couchbase.lite`から`kotbase`に変更するだけで済む場合がありますが、一部例外があります："
+      },
+      {
+        "row": 18,
+        "rowsha": "QoILQt5IfvXdYD7dc9nPlMZEf50XkwkFj4+Ysam1GrQ=",
+        "originContent": "https://kotbase.dev/api/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* Javaのコールバック関数型インターフェースはKotlinの関数型として実装されています。"
+      },
+      {
+        "row": 20,
+        "rowsha": "pDMYjYapSZ8VN44HBzBPTrdelhp2KNVoa1wrtu6/v/Y=",
+        "originContent": "## Differences from Java SDK",
+        "translatedContent": "* `File`、`URL`、`URI`のAPIは文字列として表現されます。"
+      },
+      {
+        "row": 21,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* `Date`のAPIはKotlinの`Instant`を使用します。"
+      },
+      {
+        "row": 22,
+        "rowsha": "O6yMRdaZootB/ALfz0KuaTwcfN/EZ8C9yVs/YhAlrG0=",
+        "originContent": "Kotbase's API aligns with the Couchbase Lite [Java](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/",
+        "translatedContent": "* `InputStream`のAPIは[kotlinx-ioの`Source`](https://kotlinlang.org/api/kotlinx-io/kotlinx-io-core/kotlinx.io/-source/)を使用します。"
+      },
+      {
+        "row": 23,
+        "rowsha": "EyWUrHvlojsW0Q57Fgob8pwsb68dlkNHsSLhwMn7wzo=",
+        "originContent": "https://docs.couchbase.com/couchbase-lite/current/java/quickstart.html) and [Android KTX](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/",
+        "translatedContent": "* `Executor`のAPIはKotlinの`CoroutineContext`を使用します。"
+      },
+      {
+        "row": 24,
+        "rowsha": "nkn0u4iqQlYSHau3KXjXdSAUF1s+3LuPZq0m0UnZ3M8=",
+        "originContent": "https://docs.couchbase.com/couchbase-lite/current/android/quickstart.html) SDKs. Migrating existing Kotlin code can be",
+        "translatedContent": "* 証明書APIは生の`ByteArray`またはプラットフォーム固有のコードで利用可能です。"
+      },
+      {
+        "row": 25,
+        "rowsha": "IjmG3T+Hufr4IDfWuDKNNQBHyh39oaxMPEvcAVG8YKU=",
+        "originContent": "as straightforward as changing the import package from `com.couchbase.lite` to `kotbase`, with some exceptions:",
+        "translatedContent": "* `CouchbaseLite.init()`を明示的に呼び出す必要はありません。JVMおよびAndroidプラットフォームコードではカスタムパラメータで初期化関数を呼び出すことも可能です。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* 一般的なエラー条件に対してKotlin例外を検出しスローするよう努めていますが、Appleプラットフォームでは`NSError`が漏れる可能性があります。[発生した場合は報告](https://github.com/jeffdgr8/kotbase/issues/new)してください。"
+      },
+      {
+        "row": 27,
+        "rowsha": "v1VSDEInUeMruPqneJR0qizn8If4/1no1fA/CA0Jj3E=",
+        "originContent": "* Java callback functional interfaces are implemented as Kotlin function types.",
+        "translatedContent": "* 一部の非推奨APIは省略されています。"
+      },
+      {
+        "row": 28,
+        "rowsha": "1cJjTTzDmhYd+W1BvOf1t/H1WMEoyXTQY4CTyRiwOko=",
+        "originContent": "* `File`, `URL`, and `URI` APIs are represented as strings.",
+        "translatedContent": "* Java SDKにはない、Javaが演算子オーバーロードをサポートしていないために存在しない[`Fragment`のサブスクリプトAPI]("
+      },
+      {
+        "row": 29,
+        "rowsha": "Vh3PWhxaB6ZXAbZxeCcSVWv/KLQUN8Vv211wcUWDIE4=",
+        "originContent": "* `Date` APIs use Kotlin's `Instant`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "YzxdkvOuAO1pkVYZyCUcY6e0c5I5B5+cS6C+KcydGvQ=",
+        "originContent": "* `InputStream` APIs use [kotlinx-io's `Source`](",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "s2//wDbvmtfgZhmxH/f78s3LPd/FWtyioe8l6BdGiyA=",
+        "originContent": "  https://kotlinlang.org/api/kotlinx-io/kotlinx-io-core/kotlinx.io/-source/).",
+        "translatedContent": ""
+      },
+      {
+        "row": 32,
+        "rowsha": "pwhBbB54dQclrOqVWOMNF/oXvV0XWgzlrF4Rwk/FvNw=",
+        "originContent": "* `Executor` APIs use Kotlin's `CoroutineContext`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 33,
+        "rowsha": "f+dXTlgsBMV4SDWZOqnp9/agGHF+E0Ya4zP0dUYMkLo=",
+        "originContent": "* Certificate APIs are available as raw `ByteArray`s or in platform-specific code.",
+        "translatedContent": ""
+      },
+      {
+        "row": 34,
+        "rowsha": "YN9S69fT7xB0OBo3SPw31MgP6qFoqJWh7ZTutXhyGEM=",
+        "originContent": "* There's no need to explicitly call `CouchbaseLite.init()`. Initialization functions can still be called with custom",
+        "translatedContent": ""
+      },
+      {
+        "row": 35,
+        "rowsha": "NqQSLKpZrPdcZnQJcPCu/U4u1Wo0vcHLObx91aDkm+I=",
+        "originContent": "  parameters in JVM and Android platform code.",
+        "translatedContent": ""
+      },
+      {
+        "row": 36,
+        "rowsha": "8XWXUUfZOTpqSkGk+H7c6VKyB7KFUCWggYQaNTNruJE=",
+        "originContent": "* Efforts have been made to detect and throw Kotlin exceptions for common error conditions, but `NSError` may still leak",
+        "translatedContent": ""
+      },
+      {
+        "row": 37,
+        "rowsha": "uz6kaqt8wXJF98XgSO4OUOhiC9TKIrJThRoJ6QcgLj4=",
+        "originContent": "  through on Apple platforms. [Please report](https://github.com/jeffdgr8/kotbase/issues/new) any occurrences that may",
+        "translatedContent": ""
+      },
+      {
+        "row": 38,
+        "rowsha": "QQxZMVJj5bth9yI02iTmNmL+e6kucZvQl8u9haakDH8=",
+        "originContent": "  deserve addressing.",
+        "translatedContent": ""
+      },
+      {
+        "row": 39,
+        "rowsha": "lpoiBpQ1RSRvq45dMjHG2EZaU5uyWdwC2UETv3mu26o=",
+        "originContent": "* Some deprecated APIs are omitted.",
+        "translatedContent": ""
+      },
+      {
+        "row": 40,
+        "rowsha": "HsIgR852OgTprV8hJoQpzHJjZ00wBvN0gpgrfnbLALk=",
+        "originContent": "* While not available in the Java SDK, as Java doesn't support operator overloading, [`Fragment` subscript APIs](",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 6,
+    "Content": "  https://kotbase.dev/current/kotlin-extensions/#fragment-subscripts) are available in Kotbase, similar to [Swift](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/\n  https://docs.couchbase.com/mobile/3.1.10/couchbase-lite-swift/Classes/Fragment.html), [Objective-C](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/\n  https://docs.couchbase.com/mobile/3.1.10/couchbase-lite-objc/Protocols/CBLFragment.html), and [.NET](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/\n  https://docs.couchbase.com/mobile/3.1.10/couchbase-lite-net/api/Couchbase.Lite.IFragment.html).\n* Configuration factory APIs from the Android KTX SDK have been deprecated in favor of using constructors directly,\n  which support Kotlin named arguments themselves.\n\n## Extension Libraries\n\nKotbase includes some convenient extensions on top of Couchbase Lite's official API as additional library artifacts.\n\n### Kotbase KTX\n\nThe [KTX extensions](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/couchbase-lite-ktx/README.md) include the excellent [Kotlin extensions by MOLO17](https://github.com/MOLO17/couchbase-lite-kotlin),\nas well as other convenience functions for composing queries, mapping query results, creating documents, and observing\nchange `Flow`s.\n\n#### Installation\n",
+    "ContentSha": "iELrUGeH+Q5yiH8Ya/dDUg4p/DYnspQuQrD8TIUjo7A=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "  https://kotbase.dev/current/kotlin-extensions/#fragment-subscripts) は、[Swift](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/\n  https://docs.couchbase.com/mobile/3.1.10/couchbase-lite-swift/Classes/Fragment.html)、[Objective-C](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/\n  https://docs.couchbase.com/mobile/3.1.10/couchbase-lite-objc/Protocols/CBLFragment.html)、および [.NET](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/\n  https://docs.couchbase.com/mobile/3.1.10/couchbase-lite-net/api/Couchbase.Lite.IFragment.html) と同様に Kotbase で利用可能です。\n* Android KTX SDK の設定ファクトリー API は、Kotlin の名前付き引数を直接サポートするコンストラクターの使用を推奨して非推奨となりました。\n\n## 拡張ライブラリ\n\nKotbase は Couchbase Lite の公式 API の上に便利な拡張を追加のライブラリアーティファクトとして含んでいます。\n\n### Kotbase KTX\n\n[KTX 拡張](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/couchbase-lite-ktx/README.md) には、優れた [MOLO17 による Kotlin 拡張](https://github.com/MOLO17/couchbase-lite-kotlin) と、クエリの作成、クエリ結果のマッピング、ドキュメントの作成、変更の `Flow` の監視などの便利な関数が含まれています。\n\n#### インストール方法\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "TeKMBoo1XBXwse6zvwFDXWo3wnNZtxRxc5YWoz5Qr1E=",
+        "originContent": "  https://kotbase.dev/current/kotlin-extensions/#fragment-subscripts) are available in Kotbase, similar to [Swift](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/",
+        "translatedContent": "  https://kotbase.dev/current/kotlin-extensions/#fragment-subscripts) は、[Swift](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/"
+      },
+      {
+        "row": 2,
+        "rowsha": "gr5gy1uB6vthoUuo8tgmJVFFjj8dYkwvdSHwQzg7Uhw=",
+        "originContent": "  https://docs.couchbase.com/mobile/3.1.10/couchbase-lite-swift/Classes/Fragment.html), [Objective-C](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/",
+        "translatedContent": "  https://docs.couchbase.com/mobile/3.1.10/couchbase-lite-swift/Classes/Fragment.html)、[Objective-C](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/"
+      },
+      {
+        "row": 3,
+        "rowsha": "KvhCx0V7ajKT5UT1p9+pzx/cMwYyRak/kMALrHfwfHE=",
+        "originContent": "  https://docs.couchbase.com/mobile/3.1.10/couchbase-lite-objc/Protocols/CBLFragment.html), and [.NET](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/",
+        "translatedContent": "  https://docs.couchbase.com/mobile/3.1.10/couchbase-lite-objc/Protocols/CBLFragment.html)、および [.NET](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/"
+      },
+      {
+        "row": 4,
+        "rowsha": "vd7cyRjpxvy8/mqFF1o3nLaYTql7lntMumPGTcpmKkI=",
+        "originContent": "  https://docs.couchbase.com/mobile/3.1.10/couchbase-lite-net/api/Couchbase.Lite.IFragment.html).",
+        "translatedContent": "  https://docs.couchbase.com/mobile/3.1.10/couchbase-lite-net/api/Couchbase.Lite.IFragment.html) と同様に Kotbase で利用可能です。"
+      },
+      {
+        "row": 5,
+        "rowsha": "D4BVuz9awc4sJl1p2FR01KrvcGHrWKUXW6SaONrnv6I=",
+        "originContent": "* Configuration factory APIs from the Android KTX SDK have been deprecated in favor of using constructors directly,",
+        "translatedContent": "* Android KTX SDK の設定ファクトリー API は、Kotlin の名前付き引数を直接サポートするコンストラクターの使用を推奨して非推奨となりました。"
+      },
+      {
+        "row": 6,
+        "rowsha": "Yn58Kdb/haUWQYiB1HYzV9TIUL+YqulaS+LfZKIbufA=",
+        "originContent": "  which support Kotlin named arguments themselves.",
+        "translatedContent": ""
+      },
+      {
+        "row": 7,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## 拡張ライブラリ"
+      },
+      {
+        "row": 8,
+        "rowsha": "W4UbGIWnW76Pra4j46KfL8S5HvlrWvw7X25dkvqm5Ts=",
+        "originContent": "## Extension Libraries",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "Kotbase は Couchbase Lite の公式 API の上に便利な拡張を追加のライブラリアーティファクトとして含んでいます。"
+      },
+      {
+        "row": 10,
+        "rowsha": "mSVRIBNkIUd7iRZOOv6C5h1a1gOISa8HP/QM/AQqf0s=",
+        "originContent": "Kotbase includes some convenient extensions on top of Couchbase Lite's official API as additional library artifacts.",
+        "translatedContent": ""
+      },
+      {
+        "row": 11,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "### Kotbase KTX"
+      },
+      {
+        "row": 12,
+        "rowsha": "6USZsZdmio5W5xejXINd2tcMQxGdCA8ipUdCIrXlENo=",
+        "originContent": "### Kotbase KTX",
+        "translatedContent": ""
+      },
+      {
+        "row": 13,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "[KTX 拡張](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/couchbase-lite-ktx/README.md) には、優れた [MOLO17 による Kotlin 拡張](https://github.com/MOLO17/couchbase-lite-kotlin) と、クエリの作成、クエリ結果のマッピング、ドキュメントの作成、変更の `Flow` の監視などの便利な関数が含まれています。"
+      },
+      {
+        "row": 14,
+        "rowsha": "L42Mp09PxWcdG25hY/lUph/jgcGkKjFd6rJAGAPk72c=",
+        "originContent": "The [KTX extensions](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/couchbase-lite-ktx/README.md) include the excellent [Kotlin extensions by MOLO17](https://github.com/MOLO17/couchbase-lite-kotlin),",
+        "translatedContent": ""
+      },
+      {
+        "row": 15,
+        "rowsha": "3PrVITpSd7bdk+CkdQa9rJ5sFzlxhy9YYm0cQEc+cow=",
+        "originContent": "as well as other convenience functions for composing queries, mapping query results, creating documents, and observing",
+        "translatedContent": "#### インストール方法"
+      },
+      {
+        "row": 16,
+        "rowsha": "6y9JPjhf3Xp41in5Wfd5ARtos60LYxKa+86yIxHLUhQ=",
+        "originContent": "change `Flow`s.",
+        "translatedContent": ""
+      },
+      {
+        "row": 17,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 18,
+        "rowsha": "yWcbQw1anscOn5ORhi1Ixs0JC98uhuXUZhc/T3JN7cY=",
+        "originContent": "#### Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 19,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 7,
+    "Content": "```kotlin\n// Community Edition\nimplementation(\"dev.kotbase:couchbase-lite-ktx:3.2.4-1.2.0\")\n// or Enterprise Edition\nimplementation(\"dev.kotbase:couchbase-lite-ee-ktx:3.2.4-1.2.0\")\n```",
+    "ContentSha": "pgKWIfe+OffrVjAJFRxT8i2hdwTOlzfou36eqStINjI=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\n// Community Edition\nimplementation(\"dev.kotbase:couchbase-lite-ktx:3.2.4-1.2.0\")\n// or Enterprise Edition\nimplementation(\"dev.kotbase:couchbase-lite-ee-ktx:3.2.4-1.2.0\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "jldbf37hSXz7Pg/2IPuSWPKdtUCJYKGXXwH/+k6raq4=",
+        "originContent": "// Community Edition",
+        "translatedContent": "// Community Edition"
+      },
+      {
+        "row": 3,
+        "rowsha": "YjufXKpykkNuL8jIvSErobeAYsZNYgkyy/5VwG9LCLE=",
+        "originContent": "implementation(\"dev.kotbase:couchbase-lite-ktx:3.2.4-1.2.0\")",
+        "translatedContent": "implementation(\"dev.kotbase:couchbase-lite-ktx:3.2.4-1.2.0\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "48KZFgebsrNGEz1c7SL+0Qk1MszBKafVTM+mLrG46oY=",
+        "originContent": "// or Enterprise Edition",
+        "translatedContent": "// or Enterprise Edition"
+      },
+      {
+        "row": 5,
+        "rowsha": "XDvPpKvlxkaIXr/MvjzWo8GJ3zm9uMl+rZScDpTAZ+c=",
+        "originContent": "implementation(\"dev.kotbase:couchbase-lite-ee-ktx:3.2.4-1.2.0\")",
+        "translatedContent": "implementation(\"dev.kotbase:couchbase-lite-ee-ktx:3.2.4-1.2.0\")"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 8,
+    "Content": "\n### Kotbase Kermit\n\n[Kotbase Kermit](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/couchbase-lite-kermit/README.md) is a Couchbase Lite custom logger which logs to [Kermit](\nhttps://kermit.touchlab.co/). Kermit can direct its logs to any number of log outputs, including the console.\n\n#### Installation\n",
+    "ContentSha": "ekUkwUDLVSPS7hsgGE3dY7zyxrIXEAQcjSXYa/Rzx44=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Kotbase Kermit\n\n[Kotbase Kermit](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/couchbase-lite-kermit/README.md) は、[Kermit](https://kermit.touchlab.co/) にログを出力する Couchbase Lite のカスタムロガーです。Kermit はログをコンソールを含む任意の数のログ出力先に送ることができます。\n\n#### インストール\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "KbYszxYjjEmj4vJwXFvQNNhhk9T9+h0ONGulVXGWJ6c=",
+        "originContent": "### Kotbase Kermit",
+        "translatedContent": "### Kotbase Kermit"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ZRB3g6Vw7JUxW5DMIV/rkjJrLd3XlmRfj+LsDz+ml0w=",
+        "originContent": "[Kotbase Kermit](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/couchbase-lite-kermit/README.md) is a Couchbase Lite custom logger which logs to [Kermit](",
+        "translatedContent": "[Kotbase Kermit](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/couchbase-lite-kermit/README.md) は、[Kermit](https://kermit.touchlab.co/) にログを出力する Couchbase Lite のカスタムロガーです。Kermit はログをコンソールを含む任意の数のログ出力先に送ることができます。"
+      },
+      {
+        "row": 5,
+        "rowsha": "w4fEypui4r8dyUtwTNBiCzVswMzmRlfvRSVeU1Yxd0w=",
+        "originContent": "https://kermit.touchlab.co/). Kermit can direct its logs to any number of log outputs, including the console.",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "#### インストール"
+      },
+      {
+        "row": 7,
+        "rowsha": "yWcbQw1anscOn5ORhi1Ixs0JC98uhuXUZhc/T3JN7cY=",
+        "originContent": "#### Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 9,
+    "Content": "```kotlin\n// Community Edition\nimplementation(\"dev.kotbase:couchbase-lite-kermit:3.2.4-1.2.0\")\n// or Enterprise Edition\nimplementation(\"dev.kotbase:couchbase-lite-ee-kermit:3.2.4-1.2.0\")\n```",
+    "ContentSha": "BVmP8JOE/LQzdQ8Y7kDSphA+y0x5TC+w03dIYOsKg50=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\n// Community Edition\nimplementation(\"dev.kotbase:couchbase-lite-kermit:3.2.4-1.2.0\")\n// or Enterprise Edition\nimplementation(\"dev.kotbase:couchbase-lite-ee-kermit:3.2.4-1.2.0\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "jldbf37hSXz7Pg/2IPuSWPKdtUCJYKGXXwH/+k6raq4=",
+        "originContent": "// Community Edition",
+        "translatedContent": "// Community Edition"
+      },
+      {
+        "row": 3,
+        "rowsha": "3VnYRiGhf8VrPz0BX1NQOdJEoFDjGAWZPGRWnM0mE7o=",
+        "originContent": "implementation(\"dev.kotbase:couchbase-lite-kermit:3.2.4-1.2.0\")",
+        "translatedContent": "implementation(\"dev.kotbase:couchbase-lite-kermit:3.2.4-1.2.0\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "48KZFgebsrNGEz1c7SL+0Qk1MszBKafVTM+mLrG46oY=",
+        "originContent": "// or Enterprise Edition",
+        "translatedContent": "// or Enterprise Edition"
+      },
+      {
+        "row": 5,
+        "rowsha": "fgQILXaAqYzMPuLFfQEr68pof09SlKuT6TW1nKinExU=",
+        "originContent": "implementation(\"dev.kotbase:couchbase-lite-ee-kermit:3.2.4-1.2.0\")",
+        "translatedContent": "implementation(\"dev.kotbase:couchbase-lite-ee-kermit:3.2.4-1.2.0\")"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 10,
+    "Content": "\n### Kotbase Paging\n\nThe [paging extensions](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/couchbase-lite-paging/README.md) are built on Google's [AndroidX Paging](\nhttps://developer.android.com/topic/libraries/architecture/paging/v3-overview). Kotbase Paging provides a\n[`PagingSource`](https://developer.android.com/reference/kotlin/androidx/paging/PagingSource) which performs\nlimit/offset paging queries based on a user-supplied database query.\n\n#### Installation\n",
+    "ContentSha": "baNwAmc9Yt8NAB/LnwsHGm5BTZzbnU8k1Ya5K+J9oi4=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "\n### Kotbase ページング\n\n[ページング拡張機能](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/couchbase-lite-paging/README.md)はGoogleの[AndroidX Paging](https://developer.android.com/topic/libraries/architecture/paging/v3-overview)を基に構築されています。Kotbase Pagingはユーザー提供のデータベースクエリに基づいてlimit/offsetページングクエリを実行する[`PagingSource`](https://developer.android.com/reference/kotlin/androidx/paging/PagingSource)を提供します。\n\n#### インストール\n\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 2,
+        "rowsha": "4NvQ3xE+EBiFntJ8KuAyea9MeSCG/ypcGNGcYknvM5U=",
+        "originContent": "### Kotbase Paging",
+        "translatedContent": "### Kotbase ページング"
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 4,
+        "rowsha": "ecM6n2nkSpmPRh/6Q15TY3BOEe8iDVRgcvBnFRMWEVs=",
+        "originContent": "The [paging extensions](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/couchbase-lite-paging/README.md) are built on Google's [AndroidX Paging](",
+        "translatedContent": "[ページング拡張機能](https://raw.githubusercontent.com/jeffdgr8/kotbase/main/couchbase-lite-paging/README.md)はGoogleの[AndroidX Paging](https://developer.android.com/topic/libraries/architecture/paging/v3-overview)を基に構築されています。Kotbase Pagingはユーザー提供のデータベースクエリに基づいてlimit/offsetページングクエリを実行する[`PagingSource`](https://developer.android.com/reference/kotlin/androidx/paging/PagingSource)を提供します。"
+      },
+      {
+        "row": 5,
+        "rowsha": "G6qS0FHgixLfNir3yv2nTkjCaR3e2HzWF8FsPwyhFqE=",
+        "originContent": "https://developer.android.com/topic/libraries/architecture/paging/v3-overview). Kotbase Paging provides a",
+        "translatedContent": ""
+      },
+      {
+        "row": 6,
+        "rowsha": "5iL+GGZsRQDSNwLEJm1rCmUCStzfLk1NlroLX9PGj5I=",
+        "originContent": "[`PagingSource`](https://developer.android.com/reference/kotlin/androidx/paging/PagingSource) which performs",
+        "translatedContent": "#### インストール"
+      },
+      {
+        "row": 7,
+        "rowsha": "TFQ9juf5+6WiOLKjTwVt1tZUcgnbTJFpL5a2d3MbmSk=",
+        "originContent": "limit/offset paging queries based on a user-supplied database query.",
+        "translatedContent": ""
+      },
+      {
+        "row": 8,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 9,
+        "rowsha": "yWcbQw1anscOn5ORhi1Ixs0JC98uhuXUZhc/T3JN7cY=",
+        "originContent": "#### Installation",
+        "translatedContent": ""
+      },
+      {
+        "row": 10,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  },
+  {
+    "Id": 11,
+    "Content": "```kotlin\n// Community Edition\nimplementation(\"dev.kotbase:couchbase-lite-paging:3.2.4-1.2.0\")\n// or Enterprise Edition\nimplementation(\"dev.kotbase:couchbase-lite-ee-paging:3.2.4-1.2.0\")\n```",
+    "ContentSha": "Yi0KJGpBOcVA1OOVDd+i1PulDA9y1VrNgYSCDvrRIsY=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "```kotlin\n// Community Edition\nimplementation(\"dev.kotbase:couchbase-lite-paging:3.2.4-1.2.0\")\n// or Enterprise Edition\nimplementation(\"dev.kotbase:couchbase-lite-ee-paging:3.2.4-1.2.0\")\n```",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "kAeKMu9Zq2wEoYgSUd2fTTDKTw/AfyIRnaSzl1zBgyM=",
+        "originContent": "```kotlin",
+        "translatedContent": "```kotlin"
+      },
+      {
+        "row": 2,
+        "rowsha": "jldbf37hSXz7Pg/2IPuSWPKdtUCJYKGXXwH/+k6raq4=",
+        "originContent": "// Community Edition",
+        "translatedContent": "// Community Edition"
+      },
+      {
+        "row": 3,
+        "rowsha": "yUSmati2oDmihuye7MNjxI1VxPdPZg7Xx7QHSWt1P0g=",
+        "originContent": "implementation(\"dev.kotbase:couchbase-lite-paging:3.2.4-1.2.0\")",
+        "translatedContent": "implementation(\"dev.kotbase:couchbase-lite-paging:3.2.4-1.2.0\")"
+      },
+      {
+        "row": 4,
+        "rowsha": "48KZFgebsrNGEz1c7SL+0Qk1MszBKafVTM+mLrG46oY=",
+        "originContent": "// or Enterprise Edition",
+        "translatedContent": "// or Enterprise Edition"
+      },
+      {
+        "row": 5,
+        "rowsha": "zhKeRa2gfm19i9WjqeIht5FVA3hKa1+QCN+IttsQEyI=",
+        "originContent": "implementation(\"dev.kotbase:couchbase-lite-ee-paging:3.2.4-1.2.0\")",
+        "translatedContent": "implementation(\"dev.kotbase:couchbase-lite-ee-paging:3.2.4-1.2.0\")"
+      },
+      {
+        "row": 6,
+        "rowsha": "8bkBhHOQsO1+N058HkZOwXtGpCfEh6WtbL0pBkBQg9U=",
+        "originContent": "```",
+        "translatedContent": "```"
+      }
+    ],
+    "IsCodeBlock": true
+  },
+  {
+    "Id": 12,
+    "Content": "\n## Roadmap\n\n* [x] Documentation website ([kotbase.dev](https://kotbase.dev/))\n* [x] `NSInputStream` interoperability ~~(Okio [#1123](https://github.com/square/okio/pull/1123))~~ (kotlinx-io [#174](\n  https://github.com/Kotlin/kotlinx-io/pull/174))\n* [x] Linux ARM64 support\n* [x] Public release\n* [ ] Sample apps\n    * [x] [Getting Started](examples/getting-started)\n    * [x] [Getting Started Compose Multiplatform](examples/getting-started-compose)\n    * [x] [Kotbase Notes](examples/kotbase-notes)\n    * [ ] SwiftUI for Kotbase Notes\n* [x] Couchbase Lite [3.1 API](https://docs.couchbase.com/couchbase-lite/3.1/cbl-whatsnew.html) - Scopes and Collections\n* [x] Versioned docs\n* [x] Couchbase Lite [3.2 API](https://docs.couchbase.com/couchbase-lite/3.2/cbl-whatsnew.html) - [Vector Search](\n  https://www.couchbase.com/products/vector-search/)\n* [ ] Couchbase Lite [3.3 API](https://docs.couchbase.com/couchbase-lite/3.3/cbl-whatsnew.html) - Multipeer Replicator\n* [ ] Couchbase Lite [4.0 API](https://docs.couchbase.com/couchbase-lite/4.0/cbl-whatsnew.html) - Version Vectors\n* [ ] URLEndpointListener on Linux & MinGW platforms\n* [ ] Improve Swift API alignment with Couchbase Lite using [Swift\n  export](https://youtrack.jetbrains.com/issue/KT-64572), `@ObjCName`, and/or `@ShouldRefineInSwift`\n* [ ] Async coroutines API\n\n## Development\n\n* When building the project on Linux, be sure to install the libicu dependency.\n* When checking out the git repo on Windows, enable [developer mode](\n  https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) and symbolic links in\n  git with `git config --global core.symlinks true`.\n",
+    "ContentSha": "boR8+yO+dLUThg6JG3As2OLmcEXrawpmfWldX9f3QHs=",
+    "SectionType": "",
+    "StartLine": 0,
+    "EndLine": 0,
+    "Translation": "## ロードマップ\n\n* [x] ドキュメントサイト ([kotbase.dev](https://kotbase.dev/))\n* [x] `NSInputStream` との相互運用 ~~(Okio [#1123](https://github.com/square/okio/pull/1123))~~ (kotlinx-io [#174](\n  https://github.com/Kotlin/kotlinx-io/pull/174))\n* [x] Linux ARM64 サポート\n* [x] 公開リリース\n* [ ] サンプルアプリ\n    * [x] [はじめに](examples/getting-started)\n    * [x] [はじめに Compose Multiplatform](examples/getting-started-compose)\n    * [x] [Kotbase Notes](examples/kotbase-notes)\n    * [ ] Kotbase Notes 用 SwiftUI\n* [x] Couchbase Lite [3.1 API](https://docs.couchbase.com/couchbase-lite/3.1/cbl-whatsnew.html) - スコープとコレクション\n* [x] バージョンドキュメント\n* [x] Couchbase Lite [3.2 API](https://docs.couchbase.com/couchbase-lite/3.2/cbl-whatsnew.html) - [ベクター検索](\n  https://www.couchbase.com/products/vector-search/)\n* [ ] Couchbase Lite [3.3 API](https://docs.couchbase.com/couchbase-lite/3.3/cbl-whatsnew.html) - マルチピアレプリケータ\n* [ ] Couchbase Lite [4.0 API](https://docs.couchbase.com/couchbase-lite/4.0/cbl-whatsnew.html) - バージョンベクター\n* [ ] Linux & MinGW プラットフォームでの URLEndpointListener\n* [ ] Swift エクスポート](https://youtrack.jetbrains.com/issue/KT-64572)、`@ObjCName`、および/または `@ShouldRefineInSwift` を使用して Couchbase Lite と Swift API の整合性を向上\n* [ ] 非同期コルーチン API\n\n## 開発\n\n* Linux でプロジェクトをビルドする際は、libicu 依存関係を必ずインストールしてください。\n* Windows で git リポジトリをチェックアウトする際は、[開発者モード](\n  https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) を有効にし、\n  git でシンボリックリンクを `git config --global core.symlinks true` で有効にしてください。\n\n\n",
+    "Status": "ok",
+    "RowTranslations": [
+      {
+        "row": 1,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "## ロードマップ"
+      },
+      {
+        "row": 2,
+        "rowsha": "uRQ4dBQEv6RHmBfuRiXr10ur0TwKlFiD+9olmuSkhDY=",
+        "originContent": "## Roadmap",
+        "translatedContent": ""
+      },
+      {
+        "row": 3,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* [x] ドキュメントサイト ([kotbase.dev](https://kotbase.dev/))"
+      },
+      {
+        "row": 4,
+        "rowsha": "b7WikqebnyQ3lbN5cgYUvmWsGDGhvrLhBMC7MK9yCaA=",
+        "originContent": "* [x] Documentation website ([kotbase.dev](https://kotbase.dev/))",
+        "translatedContent": "* [x] `NSInputStream` との相互運用 ~~(Okio [#1123](https://github.com/square/okio/pull/1123))~~ (kotlinx-io [#174]("
+      },
+      {
+        "row": 5,
+        "rowsha": "+ZgqEsRFHQWzy2ijcCZZ0P+pLU2H9bQ8f8YJvrr81JE=",
+        "originContent": "* [x] `NSInputStream` interoperability ~~(Okio [#1123](https://github.com/square/okio/pull/1123))~~ (kotlinx-io [#174](",
+        "translatedContent": "  https://github.com/Kotlin/kotlinx-io/pull/174))"
+      },
+      {
+        "row": 6,
+        "rowsha": "9ZCWC/ohKmjF4Rv5W9zmJW/bYh4QPeRYEGmcGOHDUsI=",
+        "originContent": "  https://github.com/Kotlin/kotlinx-io/pull/174))",
+        "translatedContent": "* [x] Linux ARM64 サポート"
+      },
+      {
+        "row": 7,
+        "rowsha": "o0W17WVGmRNX+3gWGqQ70UYW2jTwLFy+PVt4FIdy4p0=",
+        "originContent": "* [x] Linux ARM64 support",
+        "translatedContent": "* [x] 公開リリース"
+      },
+      {
+        "row": 8,
+        "rowsha": "4mvtgBZ0Xz9EFXHD6dSELJ0qiBPDB+qVQcPHIBdfvZs=",
+        "originContent": "* [x] Public release",
+        "translatedContent": "* [ ] サンプルアプリ"
+      },
+      {
+        "row": 9,
+        "rowsha": "NRjWtYKgcNYi6ixu6RGXDGltK739/TezUk1iJ+hCgUc=",
+        "originContent": "* [ ] Sample apps",
+        "translatedContent": "    * [x] [はじめに](examples/getting-started)"
+      },
+      {
+        "row": 10,
+        "rowsha": "9fmVIbwkzqTPXNwSLZ+Cwxm+ervLMP7TIG8KkfUthE8=",
+        "originContent": "    * [x] [Getting Started](examples/getting-started)",
+        "translatedContent": "    * [x] [はじめに Compose Multiplatform](examples/getting-started-compose)"
+      },
+      {
+        "row": 11,
+        "rowsha": "Oe1kUqa/KCsGqG6ipLgnF9mq3EG7kfvcvTx9PGMDjxQ=",
+        "originContent": "    * [x] [Getting Started Compose Multiplatform](examples/getting-started-compose)",
+        "translatedContent": "    * [x] [Kotbase Notes](examples/kotbase-notes)"
+      },
+      {
+        "row": 12,
+        "rowsha": "1FNPk5hCsVxSU8ZDHX79EIc1RQe2jPV/FKDo2cmGhNk=",
+        "originContent": "    * [x] [Kotbase Notes](examples/kotbase-notes)",
+        "translatedContent": "    * [ ] Kotbase Notes 用 SwiftUI"
+      },
+      {
+        "row": 13,
+        "rowsha": "yllqIS+7RmcVV4R87QnCfJEdd+p9ZBwTC1V4dtPoRWg=",
+        "originContent": "    * [ ] SwiftUI for Kotbase Notes",
+        "translatedContent": "* [x] Couchbase Lite [3.1 API](https://docs.couchbase.com/couchbase-lite/3.1/cbl-whatsnew.html) - スコープとコレクション"
+      },
+      {
+        "row": 14,
+        "rowsha": "4sKqapqIBITikfNo2j118aIpLZO3WNdlI+ZSEvR8FBw=",
+        "originContent": "* [x] Couchbase Lite [3.1 API](https://docs.couchbase.com/couchbase-lite/3.1/cbl-whatsnew.html) - Scopes and Collections",
+        "translatedContent": "* [x] バージョンドキュメント"
+      },
+      {
+        "row": 15,
+        "rowsha": "38b7Ry4dm0vQslKqkSRIf/WyrOExPPOvn7L1ycgrxQI=",
+        "originContent": "* [x] Versioned docs",
+        "translatedContent": "* [x] Couchbase Lite [3.2 API](https://docs.couchbase.com/couchbase-lite/3.2/cbl-whatsnew.html) - [ベクター検索]("
+      },
+      {
+        "row": 16,
+        "rowsha": "X9N7L59JWMIBoj7cAdVYHKGE5bYfHhL7ZUgVHG1CYnQ=",
+        "originContent": "* [x] Couchbase Lite [3.2 API](https://docs.couchbase.com/couchbase-lite/3.2/cbl-whatsnew.html) - [Vector Search](",
+        "translatedContent": "  https://www.couchbase.com/products/vector-search/)"
+      },
+      {
+        "row": 17,
+        "rowsha": "v6/W6nlyvtbCsWwvNZxMg+fI9jv01icjoCymX1cP208=",
+        "originContent": "  https://www.couchbase.com/products/vector-search/)",
+        "translatedContent": "* [ ] Couchbase Lite [3.3 API](https://docs.couchbase.com/couchbase-lite/3.3/cbl-whatsnew.html) - マルチピアレプリケータ"
+      },
+      {
+        "row": 18,
+        "rowsha": "rJBzNVWqTbRjqm6jPmubmfS2fXpeEtYvq+K0M9ryknI=",
+        "originContent": "* [ ] Couchbase Lite [3.3 API](https://docs.couchbase.com/couchbase-lite/3.3/cbl-whatsnew.html) - Multipeer Replicator",
+        "translatedContent": "* [ ] Couchbase Lite [4.0 API](https://docs.couchbase.com/couchbase-lite/4.0/cbl-whatsnew.html) - バージョンベクター"
+      },
+      {
+        "row": 19,
+        "rowsha": "qtk4sF+DCq+jpvPTIP5Ea2D+e6E5i6D8Y3HBjUbD3ic=",
+        "originContent": "* [ ] Couchbase Lite [4.0 API](https://docs.couchbase.com/couchbase-lite/4.0/cbl-whatsnew.html) - Version Vectors",
+        "translatedContent": "* [ ] Linux & MinGW プラットフォームでの URLEndpointListener"
+      },
+      {
+        "row": 20,
+        "rowsha": "eW73n2/hYEHf4KyHj2XrGbtdA/Z/aa2ffeOzk72YsFs=",
+        "originContent": "* [ ] URLEndpointListener on Linux & MinGW platforms",
+        "translatedContent": "* [ ] Swift エクスポート](https://youtrack.jetbrains.com/issue/KT-64572)、`@ObjCName`、および/または `@ShouldRefineInSwift` を使用して Couchbase Lite と Swift API の整合性を向上"
+      },
+      {
+        "row": 21,
+        "rowsha": "Z0AsaJTtMwEUK01OaRx9AS2S4rJ3oqY8W2tYEZc+sdA=",
+        "originContent": "* [ ] Improve Swift API alignment with Couchbase Lite using [Swift",
+        "translatedContent": "* [ ] 非同期コルーチン API"
+      },
+      {
+        "row": 22,
+        "rowsha": "/BHzs0B8V3812pNVXMzaFA6kA5i6V7W+lA5bMPc7j+c=",
+        "originContent": "  export](https://youtrack.jetbrains.com/issue/KT-64572), `@ObjCName`, and/or `@ShouldRefineInSwift`",
+        "translatedContent": ""
+      },
+      {
+        "row": 23,
+        "rowsha": "8GsPPaDImdOuCLWomb3BKYhGAT7m6GR6TO6CHy8YOX0=",
+        "originContent": "* [ ] Async coroutines API",
+        "translatedContent": "## 開発"
+      },
+      {
+        "row": 24,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      },
+      {
+        "row": 25,
+        "rowsha": "CLSMPQsYmPJH1xU0AtLw67b6Gv/bSXYVNK4RD/B1r9M=",
+        "originContent": "## Development",
+        "translatedContent": "* Linux でプロジェクトをビルドする際は、libicu 依存関係を必ずインストールしてください。"
+      },
+      {
+        "row": 26,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": "* Windows で git リポジトリをチェックアウトする際は、[開発者モード]("
+      },
+      {
+        "row": 27,
+        "rowsha": "HV5cdsxwUAm75p8FiWCiyKyXHJ8w+6bwbhi8gluJEeQ=",
+        "originContent": "* When building the project on Linux, be sure to install the libicu dependency.",
+        "translatedContent": "  https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) を有効にし、"
+      },
+      {
+        "row": 28,
+        "rowsha": "1pD1xZOg4CZjdOmD/Cd5M1BLaw7xCIIop21y2Cnk0yg=",
+        "originContent": "* When checking out the git repo on Windows, enable [developer mode](",
+        "translatedContent": "  git でシンボリックリンクを `git config --global core.symlinks true` で有効にしてください。"
+      },
+      {
+        "row": 29,
+        "rowsha": "d3S3f9r19d8mrnpOu5FhQjgyg4oPOWujhJwsbRUK2Yw=",
+        "originContent": "  https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development) and symbolic links in",
+        "translatedContent": ""
+      },
+      {
+        "row": 30,
+        "rowsha": "45nNuEZ+eevLOxH98GiqK6a2YtCvtkTx+nP6FeDMVfs=",
+        "originContent": "  git with `git config --global core.symlinks true`.",
+        "translatedContent": ""
+      },
+      {
+        "row": 31,
+        "rowsha": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+        "originContent": "",
+        "translatedContent": ""
+      }
+    ],
+    "IsCodeBlock": false
+  }
+]
